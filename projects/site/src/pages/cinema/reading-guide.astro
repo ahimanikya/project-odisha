@@ -4,17 +4,21 @@ import {cinema,cinemaNarrative} from '../../lib/cinema-article.mjs';
 import '../../styles/article-reading.css';
 const route=slug=>cinema.articles.find(a=>a.slug===slug).route;
 const note=item=>route(item.slug)+'#user-content-fn-'+item.source_note_id;
+const title=slug=>cinema.articles.find(a=>a.slug===slug).title;
 ---
 <Shell title="People, connections and turning points" description="A companion to A Living Screen: follow the people, collaborations and dated turning points in Odia cinema." active="explore" related={false}>
  <article class="article-reading cinema-guide">
   <p><a href="/cinema/">← A Living Screen</a></p>
   <h1>People, connections and turning points</h1>
   <p>A place to return when a name or date echoes across the readings. These connections offer starting points for exploration; they are not a complete roll of contributors or a single line of progress.</p>
+  <h2>Choose a thread</h2>
+  <p>Read the collection from the beginning, or follow one question across a few chapters.</p>
+  {cinemaNarrative.reading_paths.map(path=><section class="reading-thread"><h3>{path.title}</h3><p>{path.text}</p><ol>{path.chapters.map(slug=><li><a href={route(slug)}>{title(slug)}</a></li>)}</ol></section>)}
   <h2>People working together</h2>
   <dl>{cinemaNarrative.people_guide.map(item=><Fragment><dt><a href={route(item.slug)}>{item.label}</a></dt><dd><p class="relationship">{item.relationship}</p><p>{item.text} <a href={note(item)}>Source note →</a></p></dd></Fragment>)}</dl>
   <h2>Dates to place in the story</h2>
   <p>A release, a festival selection, a restoration and an award belong to different histories. Each date below says what it records.</p>
-  <ol class="timeline">{cinemaNarrative.timeline.map(item=><li><p><strong>{item.date}</strong> <span class="relationship"> · {item.kind.replaceAll('-',' ')}</span></p><p>{item.text} <a href={note(item)}>Read the account and source →</a></p></li>)}</ol>
+  <ol class="timeline" role="list">{cinemaNarrative.timeline.map(item=><li><p><strong>{item.date}</strong> <span class="relationship"> · {item.kind.replaceAll('-',' ')}</span></p><p>{item.text} <a href={note(item)}>Read the account and source →</a></p></li>)}</ol>
   <p><a href="/cinema/">Return to the readings →</a></p>
  </article>
 </Shell>

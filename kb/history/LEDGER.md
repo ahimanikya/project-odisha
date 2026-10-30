@@ -1252,3 +1252,66 @@ Published all 28 reviewed cinema readings and the two unchanged review book edit
 ## 28 October 2026 · Introduction wording published
 
 Published the author’s exact sentence describing the research as a book and a series of articles, alongside the Poet Studio description. Required checks and deployment passed, and both corrections were verified on the live introduction. The dated PDF editions remain unchanged. [Publication record](../records/cinema-poet-studio-wording-2026-10-28.json).
+
+
+## 29 October 2026 · Khoka Bhai: songs, words and shared voices
+
+Created a dedicated Akshaya Mohanty local story at the Founder’s request. Verified cinema and recording credits, Devdas Chhotray’s literary recollection, Surya Deo’s newspaper-search memory and public caption, and the Prasar Bharati archive announcement. The 32-reading series now places the story after AIR Cuttack. A unique CC BY-SA 3.0 portrait retains its concise numbered credit; two official Saregama song links are included. Separate research, implementation and quality review completed; 20 cinema checks, site build, map validation and local browser review passed. Original interviews and the 1978 correspondence remain research leads. No publication or dated PDF revision. [Review record](../records/akshaya-mohanty-story-2026-10-29.json).
+
+
+## 29 October 2026 · The writers behind the screen
+
+Deepened the existing literature-and-screen article at the Founder’s request. The narrative now follows a participant’s Amada Bata recollection into literary authorship, screenwriting, dialogue, songs, reader discovery and proposed paid development. Verified eight writer-profile priorities, reusing existing Basanta Kumari, Fakir Mohan and Pratibha Ray KB profiles. The remembered modern Sashisena attribution remains unresolved; no guessed playwright inserted. Separate research, implementation and quality review completed. All20cinema checks, build, research-map validation and local preview passed. One inherited shared-source budget follow-up remains recorded for the wider collection. Unique illustration retained; no publication or dated PDF revision. [Review record](../records/literature-and-screen-2026-10-29.json).
+
+
+### 29 October 2026 · Literature article: facts and possibilities
+
+At the Founder’s direction, replaced the attributed industry-criticism paragraph with a constructive transition about writer participation, credit and paid development. Removed its public source note; historical research evidence remains intact. Independent review and the rebuilt13-note page passed. Local draft only. [Record](../records/literature-and-screen-2026-10-29.json).
+
+
+### 29 October 2026 · Listen to Khoka Bhai within his story
+
+Added an eight-song curated listening section to the Akshaya Mohanty local article. Official Saregama recordings load only after a reader selects a song; one replaceable player preserves pause/fullscreen controls and concise contributor credits. Replaced an owner-disabled standalone Jajabara embed with the permitted official collection chapter. Separate source and implementation review, all23 targeted/regression checks, build and local mobile/keyboard/playback checks passed within the recorded scope. Static song links remain for print and no-JavaScript reading. No publication or dated PDF change. [Review record](../records/akshaya-mohanty-listening-2026-10-29.json).
+
+### 29 October 2026 · One continuous Khoka Bhai collection
+
+At the Founder’s request, simplified the listening section to one embedded official Saregama collection with native play/pause controls and a single fallback link. Removed the individual song selectors and start/end cuts. Autoplay is disabled; the lazy, privacy-enhanced iframe can contact YouTube before Play when it approaches the viewport. Independent review, all 23 targeted/regression checks, build, actual playback and mobile layout checks passed. This supersedes the eight-selection interface above; its evidence remains historical. Local preview only; no publication or dated PDF rebuild. [Review record](../records/akshaya-mohanty-listening-2026-10-29.json).
+
+### 29 October 2026 · Six directions after the Surya Deo discussion
+
+Investigated all six follow-up areas against the 32-entry local cinema series. Saved institutional archive/support evidence, writer and mentorship accounts, bibliography opportunities and exact recording-role distinctions. Recommend a Gopal Chhotray profile and distinct mentorship/preservation stories, with targeted improvements to existing records; original Suna Sansara financing evidence remains unresolved. Independent research-only review corrected an overlap with existing Akshaya collaborator coverage. Research map and JSON checks passed. No article, player, image, PDF, live-site, contact or publication changes. [Research and editorial plan](../research/sources/surya-six-points-investigation-2026-10-29.json) · [Review record](../records/surya-six-points-investigation-2026-10-29.json).
+
+
+### 29 October 2026 · Gopal Chhotray: words made for voices
+
+Created the first article from the approved six-point plan. A visually verified1957 AIR programme notice opens the story; literary adaptation, translation, humour and precise dialogue credits carry it into the cinema series. A unique conceptual illustration follows the Human Natural rule; the uncleared archival portrait remains a research lead. The local33-reading collection places Gopal after Literature and Cinema and before AIR Cuttack. Companion pages link to the profile, with repeated source descriptions reduced. Separate source/integration review, all23 targeted checks, build, map validation and desktop/phone preview checks passed. No publication or dated PDF revision. Basanta Kumari Pattanayak is next. [Review record](../records/gopal-chhotray-story-2026-10-29.json).
+
+
+### 29 October 2026 · Basanta Kumari Patnaik: writing and making books
+
+Expanded the existing writer record into a local cinema companion. Two published English translations open a literary life that includes the Shanti Nibas Bani Mandira publishing partnership and Amada Bata’s distinct author, screenplay, directing and production credits. Six concise sources and two direct reading routes keep the writer visible beyond one adaptation. A unique Human Natural bookmaking illustration supplies the preview and article image. The 34-reading sequence now moves from Literature and Cinema to Basanta and then Gopal Chhotray. Independent evidence, image and integration review, all 23 targeted checks, build, map validation, disclosure checks and desktop/phone review passed. Conflicting death dates and uncleared portrait rights remain explicit research gaps. No publication or dated PDF revision. Next: Learning Cinema Together. [Review record](../records/basanta-kumari-story-2026-10-29.json).
+
+
+### 29 October 2026 · Learning Cinema Together
+
+Created the next local companion from the six-point plan. Participant accounts follow bicycle arrivals, theatre introductions, story discussions, screenplay learning, feedback and sound training into a modest invitation for future collaboration. Precise recollections distinguish Sadhana Parija’s acknowledged help from formal credits and Lipika Singh Darai’s sound training and mentoring roles. Both additional film titles have verified Odia forms. At the Founder’s correction, replaced an initial laptop illustration with paper script pages, pencil and wooden chairs under the Human Natural rule; the rejected candidate remains internal. The 35-reading collection places this story after Nandita Das. Independent research, implementation and quality review, all 23 checks, build, map/disclosure validation and desktop/phone preview passed. Local draft only; no publication or dated PDF revision. Next: Who Keeps a Film Alive? [Review record](../records/learning-cinema-together-2026-10-29.json).
+
+
+### 29 October 2026 · Kalindi Charan Panigrahi: a writer among people
+
+Added the missing writer profile at the Founder’s request. His literary circle and wider work lead into Matira Manisha’s translations and film adaptation, with distinct author, translator, screenplay, direction and production credits. A unique Human Natural conceptual illustration accompanies eight concise source notes and direct reading routes. The 36-reading local series places Kalindi between Basanta Kumari Patnaik and Gopal Chhotray; the literature chapter links back. Independent research, implementation and quality review, all 23 checks, the site build, map/disclosure validation and desktop/phone preview passed. Modern Sashisena attribution and reusable portrait rights remain unresolved. No publication or dated PDF revision. Next: Who Keeps a Film Alive? [Review record](../records/kalindi-charan-story-2026-10-29.json).
+
+
+### 30 October 2026 · Surya Deo’s National Film Awards jury service
+
+Added a concise overview paragraph beside Nandita Das’s Cannes jury summary, linking to Surya Deo’s profile. The official PIB record and separate source review establish East regional feature-film jury membership at the72nd National Film Awards for2024, announced18July2026. The Founder’s2027lead remains unverified and is not asserted. The precise role and dates are recorded in one numbered footnote. Independent final review,23checks,build,disclosure gate and browser source-note/return verification passed. Local revision only; no publication or PDF change. [Review record](../records/cinema-surya-jury-2026-10-29.json).
+
+
+### 30 October 2026 · Cinema deep review: an invitation to makers and audiences
+
+Audited all 41 readings for theme, sequence, evidence, images and reading design. Revised 23 articles, trimming approximately 1,236 narrative words of repeated explanation. Corrected AIR studio/transmitter locations, narrowed an adaptation inference and the Amada Bata guide credit, moved dated film counts after the narrative, strengthened performer connections and added the verified Lahari award for 2024. Five sourced commercial comparisons remain; the disclaimed tracker is only a research lead. One attested dhaga closes the maker/audience invitation. Revalidated 19 image-credit records and 47 unique article originals. Separate quality review, 30 focused tests, 41 rendered-route checks, disclosure/map/team checks and desktop/phone inspection passed. Rebuilt 236-page digital and 260-page print reading proofs with 47 images and 382 notes; final affected-page review resolved isolated endings. Raw Odia text-extraction mismatches and print-resolution limits remain explicit. No publication, ISBN, human approval or 500-programme increment. [Review and handoff](../records/cinema-deep-review-2026-10-30.json).
+
+
+### 30 October 2026 · Cinema publication readiness
+
+Prepared the41-reading candidate on current main, preserving45newer changes. Added13publication routes and13fullimage allowances, corrected3stale tests,4missing rollout entries,10status values and5source bindings. Separate review verified41sources,47originals,301derivative entries and3,776local links/fragments. Full653and selected535tests passed; artifact615,608,991bytes fits the1GBbudget. Exact236/260page PDFs remain unchanged; seven isolated activation tests passed. Targeted source access limits and print constraints retained. No upload, merge, deployment, human approval or programme increment. [Handoff](../records/cinema-publication-readiness-2026-10-30.json).

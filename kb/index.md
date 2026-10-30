@@ -29,6 +29,12 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Latest cinema refinement: [practical possibilities without a timed programme](records/cinema-futures-open-recommendations-2026-10-30.json). The article, matching cross-reference and both book drafts are updated and reviewed locally.
+
+Latest cinema publication preparation: [30 October release candidate](records/cinema-publication-readiness-2026-10-30.json). All 41 readings and their images are included in the selected publication build; the candidate preserves newer website work. PDF activation, deployment and live verification remain release actions. No publication is claimed.
+
+Latest cinema audit: [30 October deep review of all 41 readings and both books](records/cinema-deep-review-2026-10-30.json). Twenty-three articles were refined; images, credits, navigation and book flow were checked. Evidence limits, future performer coverage and print-production requirements remain explicit. The [27 October findings](records/cinema-fresh-audit-2026-10-27.json) are preserved and reconciled in the new record. Local review only; no publication.
+
 Latest cinema audit: [reading, coverage and accessibility findings](records/cinema-fresh-audit-2026-10-27.json). The historical audit is preserved; its continuation and note-numbering findings are resolved locally, and its receipt/bilingual finding is partially resolved. Seven other findings remain open.
 
 Latest local cinema copy cleanup: [catalogue maintenance notes removed from articles](records/cinema-catalogue-check-notes-2026-10-27.json), with dated research and substantive availability limits retained.

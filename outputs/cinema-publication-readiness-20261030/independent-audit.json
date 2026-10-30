@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-30",
+  "decision": "NOT READY for publication of the full41-reading/current-book package: release configuration still targets prior edition. Prose/layout approvals remain valid.",
+  "scope": "Independent targeted static publication-readiness audit after completed deep review; no builds, mutations, live requests or broad source re-research.",
+  "findings": [
+    {
+      "id": "RELEASE-01",
+      "severity": "P1 release blocker",
+      "file": "projects/site/editions/coast.json",
+      "line": 4,
+      "evidence": "41 current metadata readings and local built routes, but13 are absent from coast.routes. Hub and reading sequence can link to pages excluded from selected publication.",
+      "missing_routes": [
+        "/people/basanta-kumari-patnaik/",
+        "/people/kalindi-charan-panigrahi/",
+        "/people/gopal-chhotray/",
+        "/cinema/cinema-music/",
+        "/people/akshaya-mohanty/",
+        "/people/prafulla-kar/",
+        "/people/pranab-patnaik/",
+        "/people/tapu-mishra/",
+        "/cinema/learning-cinema-together/",
+        "/people/surya-deo/",
+        "/cinema/searching-for-sita-bibaha/",
+        "/cinema/who-keeps-a-film-alive/",
+        "/cinema/reading-odia-cinema/"
+      ],
+      "fix": "Explicitly register the13 intended routes, reconcile rollout/search policies as applicable, then validate finalized publication output and all41 route/fragment destinations."
+    },
+    {
+      "id": "RELEASE-02",
+      "severity": "P1 for requested current-book release; not inaccurate archived-page wording",
+      "file": "projects/site/src/data/cinema.json",
+      "line": 3993,
+      "related_file": "projects/site/src/pages/cinema/book.astro:14–21",
+      "evidence": "review_books still points to27October28-reading releases with176/196pages and old hashes. Completed30October review PDFs have236/260pages and new hashes. Book page honestly labels old edition, but cannot deliver current manuscript.",
+      "fix": "Prepare/upload actual reviewed current assets as a distinct release and update verified download URLs, exact hashes/bytes/pages and edition copy; retain old editions as archives. Do not relabel old PDFs."
+    },
+    {
+      "id": "RELEASE-03",
+      "severity": "P2 release integration check",
+      "file": "projects/site/editions/coast.json",
+      "line": 960,
+      "evidence": "The13 new article full-image hrefs are absent from the explicit download allowlist, which still lists34 cinema image downloads.",
+      "missing_full_image_links": [
+        "/assets/cinema/basanta-kumari-1200.jpg",
+        "/assets/cinema/kalindi-charan-1200.jpg",
+        "/assets/cinema/gopal-chhotray-1200.jpg",
+        "/assets/cinema/cinema-music-1096.jpg",
+        "/assets/cinema/akshaya-mohanty-809.jpg",
+        "/assets/cinema/prafulla-kar-1200.jpg",
+        "/assets/cinema/pranab-patnaik-1200.jpg",
+        "/assets/cinema/tapu-mishra-1200.jpg",
+        "/assets/cinema/learning-cinema-1200.jpg",
+        "/assets/cinema/surya-deo-bhadrak-2023-1200.jpg",
+        "/assets/cinema/searching-for-sita-bibaha-1200.jpg",
+        "/assets/cinema/preservation-1200.jpg",
+        "/assets/cinema/reading-odia-cinema-1200.jpg"
+      ],
+      "fix": "Register exact current full-image download paths or prove finalized asset traversal retains them; check each in dist-publish. No broad asset exemption."
+    }
+  ],
+  "verified_strengths": [
+    "All41 canonical source hashes match cinema.json at inspection.",
+    "All41 built local article pages inspected for direct /kb/ hrefs: none found.",
+    "Prior23-source prose review and final bounded digital/print layout reviews remain applicable; no new content or image contradiction established in this pass.",
+    "Book page explicitly states PDFs are not tagged accessibility editions and distinguishes its older28-reading edition; no false accessibility certification identified.",
+    "Existing uncertainty about historical records, commercial accounting and printed image resolution remains documented, not promoted to fresh research blockers."
+  ],
+  "remaining_checks": [
+    "Fresh finalized selected-publication artifact is required after configuration changes; no current size gate or live download success assumed.",
+    "Actual current PDF release URLs must be verified after separately authorized upload/publication.",
+    "No new browser screen-reader/keyboard audit performed; prior bounded UI checks are not universal accessibility certification."
+  ],
+  "current_pdf_bindings": {
+    "digital": "e1ed3cf111993128b093b4254d08697626f5680c85780fbfc55a3ac229476ae8",
+    "print": "cd32c0ad6b174138bc39adb325b54f35ca5fa7844a97328c45df8edefe0107a1"
+  },
+  "input_hashes": {
+    "projects/site/editions/coast.json": "6734a5d276676320f75e3c350f5fdc698ea3f39dff98faf6c26aa6e6591c6e36",
+    "projects/site/src/data/cinema.json": "3129845cf81b9b6dd26759f4b7d6911c867f2f372bc8944891a18e0e73b4bba7",
+    "projects/site/src/pages/cinema/book.astro": "142af220d572a4213577288f6be07e11cbbacbb661a5c0378c7cb984a3084e32"
+  },
+  "public_edits": false,
+  "publication_performed": false,
+  "human_approval_claimed": false
+}

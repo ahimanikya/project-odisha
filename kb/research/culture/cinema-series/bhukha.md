@@ -37,7 +37,7 @@ That recollection gives the film another geography. Its journey was not only tow
 
 ## A regional voice reaching another audience
 
-The official 70th National Film Awards catalogue credits *Bhukha* with an International Jury Award at Gijón. This institutional retrospective supports the recognition; it does not settle the award’s exact year in the material examined here.[^gijon]
+The 70th National Film Awards catalogue records an International Jury Award at Gijón for *Bhukha*, but gives no prize year.[^gijon]
 
 Amrit Amlan Pattanaik’s study places Mohapatra’s Sambalpuri films within western Odisha’s literary and cultural worlds.[^study] That regional focus offers another route through the films, alongside their festival record.
 

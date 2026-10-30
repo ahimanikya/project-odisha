@@ -61,16 +61,14 @@ Subtitles can invite a viewer who does not know Odia into the story. They can al
 
 A catalogue needs more than an upload button. Das described the expense of maintaining the platform and producing content, alongside the difficulty of making potential viewers aware of a regional service.[^aao] For an Odia production, being discoverable is only one part of the business. Payment arrangements, rights, promotion and continued availability shape whether a release supports the next project.
 
-For a service, paying subscribers help sustain the catalogue. For a filmmaker, the relevant return is the payment agreed for a work and the rights retained for its future. Connecting those two interests is part of building a durable home for Odia stories.
-
-For viewers, the question is whether a work remains findable and accessible. For makers, it is whether payment and rights arrangements help support the next production. The [cinema overview](/cinema/odia-cinema/#recent-releases-and-the-work-of-reaching-audiences) asks a related question about theatres: how can a willing audience reach the work?
+A durable home for these stories must serve both sides of the screen: viewers able to find the work, and makers paid on terms that help them continue. The [economics chapter](cinema-series/cinema-economics.md) follows that question from an audience’s payment towards the next production.
 
 ## Watch and explore
 
-These links open providers or their app listings, not guaranteed access to a particular film. Check current catalogues, territory and payment terms; playback was not tested.
+Check the provider’s current catalogue, location and subscription terms.
 
-- **Provider catalogue: [AAO NXT](https://aaonxt.com/).** Homepage checked on 26 October 2026; login and subscription options were visible.
-- **Provider app listing: [Kanccha Lannka on the App Store](https://apps.apple.com/in/app/kanccha-lannka/id1584598214).** Listing checked on 25 October 2026. Descriptions of titles or subtitles do not guarantee access in every location.
+- **Provider catalogue: [AAO NXT](https://aaonxt.com/).**
+- **Provider app listing: [Kanccha Lannka on the App Store](https://apps.apple.com/in/app/kanccha-lannka/id1584598214).**
 
 ## Footnotes & Sources
 

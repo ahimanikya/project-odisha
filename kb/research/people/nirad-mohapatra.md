@@ -27,8 +27,6 @@ A film could be something to make, but also something to gather around and discu
 
 The same account connects his film-appreciation courses at Utkal University with his work on the film section of the literary journal *Mana Phasal*.[^life] A journal page, a university course and a film-society screening offered different ways to encounter cinema. Editing brought it into a literary publication; teaching made time for sustained attention; a screening allowed viewers to meet a work together.
 
-A journal reaches someone reading alone; a course or screening gathers people into a shared occasion. Mohapatra worked across these different settings, giving viewers time and company in which to look closely.
-
 ## A household at the centre
 
 The extended family at the centre of *ମାୟା ମିରିଗ (Maya Miriga)* provides the subject of our [companion film article](../culture/cinema-series/maya-miriga.md), which follows its collaborators and later restoration. Here, the film sits alongside the director’s work in teaching and organising screenings.

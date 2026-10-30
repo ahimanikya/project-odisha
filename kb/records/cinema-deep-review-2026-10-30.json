@@ -1,0 +1,416 @@
+{
+  "id": "POD-CINEMA-DEEP-REVIEW-20261030",
+  "date": "2026-10-30",
+  "status": "local_review_complete_with_documented_evidence_limits",
+  "scope": "Full41-reading thematic, structural, narrative, evidence, imagery and formatting audit; supported sequential local revisions and book rebuild. No publication.",
+  "authorization": "Latest user request in chat for complete deep audit, precise references, unique images and invitation to maker and audience.",
+  "active_article": null,
+  "workers": {
+    "Anvesha": {
+      "role": "research",
+      "reserved_files": [
+        "outputs/cinema-deep-review-20261030/research*.json",
+        "outputs/cinema-deep-review-20261030/research*.md"
+      ],
+      "article_writes": false
+    },
+    "Samanta": {
+      "role": "media and implementation audit",
+      "reserved_files": [
+        "outputs/cinema-deep-review-20261030/media*",
+        "outputs/cinema-deep-review-20261030/implementation*",
+        "projects/site/src/lib/cinema-article.mjs",
+        "projects/site/tests/cinema-reading-semantics.test.mjs",
+        "output/pdf/build_book.py"
+      ],
+      "article_writes": false
+    },
+    "Drishti": {
+      "role": "independent editorial audit and later quality",
+      "reserved_files": [
+        "outputs/cinema-deep-review-20261030/editorial-audit.*",
+        "outputs/cinema-deep-review-20261030/review-*.json",
+        "outputs/cinema-deep-review-20261030/review-*.md"
+      ],
+      "article_writes": false
+    },
+    "Disha": {
+      "role": "coordination and shared records, sequential integration"
+    }
+  },
+  "acceptance": [
+    "41/41 articles assessed for theme, flow and factual risks with explicit coverage limits",
+    "source-supported corrections, awards/selective distinctions and economics definitions preserved",
+    "all hero and body image identities checked across articles; no unacknowledged shared photograph/illustration",
+    "numeric shared notes and required image licences; no repeated production boilerplate",
+    "verified purposeful Odia language excerpts only",
+    "consistent source hashes and local rendered destinations",
+    "both revised book editions structurally checked and visually inspected",
+    "independent review of resulting candidate, unresolved items retained"
+  ],
+  "baseline": "outputs/cinema-deep-review-20261030/baseline.json",
+  "changes": [
+    {
+      "slug": "air-cuttack",
+      "changes": [
+        "Separated temporary Madhapur studio from Killa Fort transmitter against Jose Jacob account p1.",
+        "Removed routine catalogue check narration; tightened adaptation paragraph."
+      ],
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "aadim-vichar",
+      "reason": "E02: story credit does not establish a published literary adaptation.",
+      "before_sha256": "f6aa6970da2c22ab357dc5e9b71a505203bab91928fd594a448d026e8ddf76b7",
+      "after_sha256": "be7f1cf5acb8f9d3039d4cbe7f96f509ec378cba32ef1f8947f8a67ebc6f846d",
+      "words_removed_net": 23,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "nirad-mohapatra",
+      "reason": "E05: remove repeated explanation of journal/classroom/screening after named evidence.",
+      "before_sha256": "2e993b0a2f33205e9e420557994297b0af83ee1e06f227ddc7d82013a22a48bc",
+      "after_sha256": "0beb54fa7b4b9764c2edc1903df3ab06008e57610856e4ef942c5ee32b506b08",
+      "words_removed_net": 32,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "akshaya-mohanty",
+      "reason": "E06: retain all Jajabara song credits once; remove adjacent recap.",
+      "before_sha256": "5588f430577bc23b68ad001713315fa4979bf3d722e34049d7aea54681227766",
+      "after_sha256": "298b1cd2f24e20293b6ba95f5b01f3f08b36624ed10a5912d1cfcd6612d85476",
+      "words_removed_net": 45,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "prafulla-kar",
+      "reason": "E07: remove repeated listening instructions and explanation of why a profile exists; keep recordings, collaborators and awards.",
+      "before_sha256": "666386436bbe797e34e5dbd99cd95e34f4298fc676fec9da5a117d38f24604c9",
+      "after_sha256": "21c95a00b1393b62224bdad4dfc347ed49e1f9244a65dcf87eaadf4d54768d39",
+      "words_removed_net": 113,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "pranab-patnaik",
+      "reason": "E08: birthday recollection remains in Prafulla profile; remove duplicate telling and generic credits explanation.",
+      "before_sha256": "9b8fd70ef326c0a13345719832b6d83a76a50dca117d81d7e53e218c41ed8fef",
+      "after_sha256": "7f6995cff925c4d36c20adaddaf877d35e7fd959e9b776bdacca5c1ad87aba8a",
+      "words_removed_net": 46,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "basanta-kumari-patnaik",
+      "reason": "E10: keep fiction, publishing and translators; remove repeated reading-route commentary, clarify anthology year in main dated sentence.",
+      "before_sha256": "469b09704d6aed13ccdc513e03acf7d8dca6f928a10e63869c9269a8c2e988e1",
+      "after_sha256": "d8c4a678b0ba2279ce863a370745a30fe1874a25b07d419160d95348097e9da2",
+      "words_removed_net": 104,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "gopal-chhotray",
+      "reason": "E09: remove generic craft explanation without a documented example; preserve real work, schedule, credits and recordings.",
+      "before_sha256": "a1a97b0c9045e3e371c6f7f8ecea3d0562a33dbee846bd8861f5ab5c23c31a35",
+      "after_sha256": "10315a831e1abeb4ede15939d69d5fb67621690b2c4646f78c72ce31b9e4349f",
+      "words_removed_net": 149,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "debi-prasad-lenka",
+      "reason": "E11: combine workshop and scripting testimony once, removing duplicated section.",
+      "before_sha256": "edb46b259c81e44b140a578d121ec11f53e3a77cd7c1702b26e278590d755ed8",
+      "after_sha256": "095cf289ad8a13ba004933590c7da05a9845820319bf24390efbd00ea37d3fed",
+      "words_removed_net": 76,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "literature-and-screen",
+      "reason": "Keep two sourced Fakir excerpts with translation credits in footnotes; consolidate proposal with final essay.",
+      "before_sha256": "7864441a05f90e3cc60c547c34399dc7941e2450d0a45a1a58f0d17fcf45a08c",
+      "after_sha256": "d1142dc15aa43c0f0e43579ae576821ce013be4c784018b317b637e0e8e1aa55",
+      "words_removed_net": 33,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "searching-for-sita-bibaha",
+      "reason": "E13: retain specific soundtrack/project/recoveredprint limits without repetitive process commentary.",
+      "before_sha256": "a71879d3a0ce4be1c5545de483e7e9909ffb333da82421c907781a4933710d45",
+      "after_sha256": "9e8eeab25fead317f223988c43c86f322cea9ddc93ecb9873b64f39648180586",
+      "words_removed_net": 63,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "who-keeps-a-film-alive",
+      "reason": "E19: avoid repeated skills list; progress from workshop evidence to continuity proposal.",
+      "before_sha256": "50790efba578a29f13ebd485ceee1e62e1757e4efd9e00319d68d6876a4b28f3",
+      "after_sha256": "5932e5bbaad1ffe73a5e6be5bb9d9f55375b94436179275e620681fa63df9dc4",
+      "words_removed_net": 18,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "gourahari-das",
+      "reason": "E17: remove repeated awards already tied to works, preserve Sarala and reading routes.",
+      "before_sha256": "adcb89475d80be6e0fc2f8c151489f0aaa24fa89d6c825b068015b63c4cdd27a",
+      "after_sha256": "fc037d222c6ed17cf8d7d2b313ab5e9caf8864d92da630c97b2f75f35b7ab32a",
+      "words_removed_net": 16,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "pratikshya",
+      "reason": "E18: foreground screenwriter; catalogue developmentdate context stays in source note; simplify trailer-access prose.",
+      "before_sha256": "cadef8b39bc93c9c39f80e574ff38bb392c3cd022473aa3ed8b568999b5898c3",
+      "after_sha256": "bf7c463c862e92fe995b596e2fe5a84ea85810fdf83c9c635bc7b7cf79c0ad91",
+      "words_removed_net": 30,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "odia-ott",
+      "reason": "E12: combine repeated sustainability closing and remove routine checklog text from reader links.",
+      "before_sha256": "c92f247c4abcf9052477229fd8fbc1e2e531c6568dc13a3f64f0e0a19a0f66e2",
+      "after_sha256": "9360192e49a82c06f563c9ffbc9ec0755dd70ecc9a3a736f2e258f6f3728aa47",
+      "words_removed_net": 91,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "deependra-samal",
+      "reason": "Remove repeated opening-request explanation; preserve actual director testimony and later credits.",
+      "before_sha256": "db871476d1d8bd908e2345bab073ca75ac9ac20e1eba2e2901ee29f416945826",
+      "after_sha256": "fb38c0b889e5847e0e6ba48bbd9202af4797847a463a471071a58e223ef13a2c",
+      "words_removed_net": 39,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "cinema-futures",
+      "reason": "E14: replace repeated closing checklist with one maker/audience invitation and an attested Odia dhaga; pilot screening conditional on readiness.",
+      "before_sha256": "0702c3e3a4b891d824505001e8e3101369db4afe2a598e3149724d4a54716e85",
+      "after_sha256": "73539b00ae27d9f68be9f7215b895f72c5ec4b16df91cf90eeef8678cda3279e",
+      "words_removed_net": -41,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "odia-cinema",
+      "reason": "Overview: move incomparable counts after narrative, name units, connect overlooked performers to work, remove repeated Ananta/Gijon/scaffolding.",
+      "before_sha256": "c2fcd83f056a005c7086e1204e9d446608c5878e81c2489d990ca2b211a3c74d",
+      "after_sha256": "dfcea18ae3497e1e71f5987524b3927cbc0e0b4c701dfe53ae2dc2f88e95c621",
+      "words_removed_net": 171,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "odia-cinema",
+      "reason": "Fresh primary 72nd award record extends selected recognition through2024; source for Siddhanta film credit; reduce duplicate catalogue material.",
+      "before_sha256": "dfcea18ae3497e1e71f5987524b3927cbc0e0b4c701dfe53ae2dc2f88e95c621",
+      "after_sha256": "6a84edd650d917958e914d5d6d5e65f3509c9b6744a79f8eca6edc09223166da",
+      "words_removed_net": -34,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "bhukha",
+      "reason": "Keep exact award distinction once, concise.",
+      "before_sha256": "5bc683044f6a134b1b4ee7da105a1c370c1efdc7d3f78347a558b0daff65fb2f",
+      "after_sha256": "1cfee8abcd3cf76a76c0c46ead1fc4ddcecdfa7cdef4bbb95a91c053ef95d44a",
+      "words_removed_net": 15,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "sabyasachi-mohapatra",
+      "reason": "Avoid repeating catalogue claim across overview, film and filmmaker.",
+      "before_sha256": "65d90f3c342082c08de722e15d449ae43316a2ed019332aeca62a57c727aed95",
+      "after_sha256": "d6f0e80bbec19a95b03565b308f035d6d72a7ddf9848fd779e8ab64e351d92c1",
+      "words_removed_net": 24,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "daman",
+      "reason": "Reduce repeated source-process prose and editingcredit; retain 2015story/2017programme and limits on health evidence.",
+      "before_sha256": "3070da9937f38a9ff075e58fc5d0e6335900f318df1e9ed197d8960c961502d5",
+      "after_sha256": "969b5e0397dd74360c92fe970cedfc0eb94a437ddabec8d7b76a66b52b3cbc49",
+      "words_removed_net": 61,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "debi-prasad-lenka",
+      "reason": "Retain distinctcareer/2018commercial/editing evidence withoutrepeatedcatalogue wording; award supportedindependentPIB.",
+      "before_sha256": "095cf289ad8a13ba004933590c7da05a9845820319bf24390efbd00ea37d3fed",
+      "after_sha256": "78bc5b608ee2744a0f1677f04223d851cd3e77400cf3fc7b1aaaf2234d74ddb3",
+      "words_removed_net": 44,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "reading-odia-cinema",
+      "reason": "Entries are not all physically inspected volumes; correct unit, keepscope and edition limits.",
+      "before_sha256": "a7a86cb5ca80f8770a1d5e546cf6a0b63767904991f824d42694bb65212e03cb",
+      "after_sha256": "2a794a4bd8f9257733a7b01ed2135558d02077881d0df4c921f8717f97439b39",
+      "words_removed_net": 1,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "commercial-successes",
+      "reason": "E04: remove lowconfidence tracker amount from comparison, retainnamedlead andsource; detailedoldfigurespreservedinKBbaseline.",
+      "before_sha256": "42688a60d25c353b4cfa626ed96e158852ed0c1bee82c9c1ad0b7daf9c4d4bbf",
+      "after_sha256": "6baab5905905b3fe0631e53c6fa097a1da06d63884fb7a9023f028f23fc7c83b",
+      "words_removed_net": 54,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "pranab-patnaik",
+      "reason": "Remove unused source notes after prose consolidation; evidence retained in auditbaseline.",
+      "before_sha256": "7f6995cff925c4d36c20adaddaf877d35e7fd959e9b776bdacca5c1ad87aba8a",
+      "after_sha256": "1b73b8d130172adba2763ddc5469ec87e56f40369ec1f5f4b9a787572906bf61",
+      "words_removed_net": 11,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "odia-cinema",
+      "reason": "Remove unused source notes after prose consolidation; evidence retained in auditbaseline.",
+      "before_sha256": "6a84edd650d917958e914d5d6d5e65f3509c9b6744a79f8eca6edc09223166da",
+      "after_sha256": "666653dadd9a5252f7c3f72c61dac527e46892ac8489f8d6d536e531e07686d3",
+      "words_removed_net": 44,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "sabyasachi-mohapatra",
+      "reason": "Remove unused source notes after prose consolidation; evidence retained in auditbaseline.",
+      "before_sha256": "d6f0e80bbec19a95b03565b308f035d6d72a7ddf9848fd779e8ab64e351d92c1",
+      "after_sha256": "417106f80b10b38d281314e8f4501f597e8a431aedaf203d168394d02b5fa0e4",
+      "words_removed_net": 18,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "odia-cinema",
+      "reason": "Register new cited source in canonical frontmatter for evidence consistency.",
+      "before_sha256": "666653dadd9a5252f7c3f72c61dac527e46892ac8489f8d6d536e531e07686d3",
+      "after_sha256": "d49e7f5fd30c2cf345c73498f3daf5968542b7fe828e61fcb58b9eb0abd9d1c0",
+      "words_removed_net": -10,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    },
+    {
+      "slug": "cinema-futures",
+      "reason": "Register new cited source in canonical frontmatter for evidence consistency.",
+      "before_sha256": "73539b00ae27d9f68be9f7215b895f72c5ec4b16df91cf90eeef8678cda3279e",
+      "after_sha256": "f9c5b32bd0152f4604af4b30b2ef607da3f7b55498bb3d515e7862b231897dad",
+      "words_removed_net": -9,
+      "review": "Supported prose changes reviewed independently; metadata reconciled and integrated checks passed. See review-final-prose.json and review-final-layout.json."
+    }
+  ],
+  "unresolved": [
+    {
+      "kind": "historicalevidence",
+      "detail": "Selected prizeyears,bookeditions,missingmaterials andcommunityresponses retainexactlimits; not allsourcefacts independently freshverified."
+    },
+    {
+      "kind": "commercialfigures",
+      "detail": "Datedreportsnotauditedsettlements; notcomparableprofit oralltime ranking."
+    },
+    {
+      "kind": "futurecoverage",
+      "detail": "Further standalone performerprofiles andTandraresearchremainpossibleextensions; no newinventedbiographicaldetail."
+    },
+    {
+      "kind": "printproduction",
+      "detail": "Stamp~74ppi,interiorauthorportrait~129ppi,covers~171ppi. Readingedition,notprinter-specificpressready. Physicalproofandresolutiondecisionremain."
+    },
+    {
+      "kind": "Odiaproof",
+      "detail": "Representativeglyphvisualcheckpassed; no native-speakercharacterbycharacterproofreadclaimed."
+    }
+  ],
+  "human_approval_claimed": false,
+  "publication": "not requested or performed in this audit; earlier public editions unchanged",
+  "scope_released": true,
+  "implementation_notes": [
+    "Overview replacement guard stopped before write on ambiguous Mihir Das row; narrowed to contribution table."
+  ],
+  "integration_changes": [
+    "Overview bookcompanion regenerated from canonical revised source",
+    "Two stale chapter bridges corrected",
+    "Three repetitive callouts removed; three genuine callbacks retained",
+    "Amada Bata peopleguide credit narrowed to screenplay",
+    "Bijay Mohanty/Parbati Ghose added to peopleguide through documentedroles",
+    "Both manifests sourcehashes reconciled"
+  ],
+  "completed_at": "2026-10-29T22:37:06.997969+00:00",
+  "series": {
+    "readings": 41,
+    "parts": 7,
+    "revised_articles": 23,
+    "approximate_narrative_words_trimmed": 1236,
+    "unique_article_images": 47,
+    "image_credit_records_rechecked": 19,
+    "cross_article_image_reuse": 0
+  },
+  "checks": {
+    "targeted_tests": {
+      "pass": 30,
+      "fail": 0,
+      "receipt": "outputs/cinema-deep-review-20261030/tests.log"
+    },
+    "site_build": "PASS",
+    "public_disclosure": {
+      "pages": 978,
+      "violations": 0
+    },
+    "rendered_readings": {
+      "pages": 41,
+      "issues": 0,
+      "receipt": "outputs/cinema-deep-review-20261030/rendered-audit.json"
+    },
+    "browser": "outputs/cinema-deep-review-20261030/browser-review.json",
+    "research_map": "PASS1821records71tasks; consistency only",
+    "team_assignments": "PASS; consistency only",
+    "autonomous_program": "PASS; no progresscountincrement",
+    "book_structure": "outputs/cinema-deep-review-20261030/structure.jsonl",
+    "book_text": "Rawcheckerexit1 retained;109exactmatchesrequire reconciliation peredition.103Odiaglyph extraction plus6intentionalpresentationchanges documented.",
+    "text_reconciliation": "outputs/cinema-deep-review-20261030/book-text-reconciliation.json",
+    "independent_final_layout": "outputs/cinema-deep-review-20261030/review-final-layout.json"
+  },
+  "books": [
+    {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-30-deep-review.pdf",
+      "pdf_sha256": "e1ed3cf111993128b093b4254d08697626f5680c85780fbfc55a3ac229476ae8",
+      "pages": 236,
+      "notes": 382,
+      "citation_pairs": 522,
+      "edition": "digital",
+      "image_placements": 47,
+      "bytes": 17087675,
+      "press_ready": false
+    },
+    {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-deep-review.pdf",
+      "pdf_sha256": "cd32c0ad6b174138bc39adb325b54f35ca5fa7844a97328c45df8edefe0107a1",
+      "pages": 260,
+      "notes": 382,
+      "citation_pairs": 522,
+      "edition": "print",
+      "image_placements": 47,
+      "bytes": 39977032,
+      "press_ready": false
+    }
+  ],
+  "older_audit_reconciliation": {
+    "CIN-AUD-01": "Subsectionanchors/contents andpeopleguideimproved; standaloneperformerchapteranddedicatedbookcontentsentryremaineditorialoptions.",
+    "CIN-AUD-02": "Resolved:unitsinestimatecells.",
+    "CIN-AUD-03": "Resolved:countsafternarrative.",
+    "CIN-AUD-04": "Previouslyresolved;preservedandverified.",
+    "CIN-AUD-05": "Resolvedwithinreviewedphrases/tables; no languageinferencefromscript.",
+    "CIN-AUD-06": "Resolved:broaderheadingandSiddhantaworkexample.",
+    "CIN-AUD-07": "Partial:Prasanta/Saratworkconnectionsadded,Tandrarequiresresearch;dedicatedprofilesnotinvented.",
+    "CIN-AUD-08": "Previouslyresolvedsharednumericnotes;verified.",
+    "CIN-AUD-09": "Resolvedsubstantialrepetitioncuts23articles;optionalpoeticvoicepreserved.",
+    "CIN-AUD-10": "Currentbookreceipts/hashcoverageupdated;unverifiedOdiatitlesnotinvented."
+  },
+  "evidence": [
+    "outputs/cinema-deep-review-20261030/audit.md",
+    "outputs/cinema-deep-review-20261030/research-audit.json",
+    "outputs/cinema-deep-review-20261030/editorial-audit.json",
+    "outputs/cinema-deep-review-20261030/media-inventory.json",
+    "outputs/cinema-deep-review-20261030/media-rights.json",
+    "outputs/cinema-deep-review-20261030/review-final-prose.json",
+    "outputs/cinema-deep-review-20261030/review-final-layout.json",
+    "outputs/cinema-deep-review-20261030/book-text-reconciliation.json"
+  ],
+  "next_actions": [
+    "Founderreadthroughofrevisedcandidate;noapprovalinferred.",
+    "Ifpublishingrequested,prepareactual41-readingreleasePDFassetsandupdatepublishedbookpagetothoseverifiedURLs.",
+    "Keepmaterialhistoricalgapsandpressspecificationsopen;donotrestart exhaustedsearcheswithoutnewevidence."
+  ]
+}

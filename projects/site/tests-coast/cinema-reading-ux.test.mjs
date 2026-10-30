@@ -39,13 +39,16 @@ test('language labels identify reviewed Odia without assuming script establishes
  const title=cinemaArticle(cinema.articles.find(e=>e.slug==='daman')).article.titleHtml;
  assert.match(title,/<span lang="or">ଦମନ<\/span>/);
 });
-test('hub provides all five named native part shortcuts with valid targets',()=>{
+test('hub provides every named native part shortcut with valid targets',()=>{
  const html=read('/cinema/'),nav=html.match(/<nav[^>]*aria-label="Parts of the cinema collection"[\s\S]*?<\/nav>/)?.[0];
- assert.ok(nav);assert.equal(cinema.parts.length,5);
+ assert.ok(nav);assert.equal((nav.match(/href="#/g)||[]).length,cinema.parts.length);assert.equal(new Set(cinema.parts.map(p=>p.id)).size,cinema.parts.length);
  for(const part of cinema.parts){assert.ok(nav.includes('href="#'+part.id+'"'));assert.ok(html.includes('id="'+part.id+'"'));}
 });
 test('current dated downloads and sizes appear before the cover, prior edition remains explicit',()=>{
  const html=read('/cinema/book/');
- for(const book of cinema.review_books){assert.ok(html.indexOf('href="'+book.file+'"')<html.indexOf('class="book-cover"'));assert.ok(html.includes(book.pages+' pages'));assert.ok(html.includes((book.bytes/1e6).toFixed(1)+' MB'));}
- assert.match(html,/Current review edition/);assert.match(html,/Earlier published edition/);
+ for(const book of cinema.review_books){const linkAt=html.indexOf('href="'+book.file+'"');assert.ok(linkAt>=0,book.edition+' download exists');assert.ok(linkAt<html.indexOf('class="book-cover"'));assert.ok(html.includes(book.pages+' pages'));assert.ok(html.includes((book.bytes/1e6).toFixed(1)+' MB'));}
+ assert.match(html,/Available PDF edition · 30 October 2026/);assert.match(html,/41 readings/);
+ for(const date of ['27 October 2026','26 October 2026'])assert.ok(html.includes('Earlier published edition · '+date));
+ for(const book of cinema.archived_review_books){assert.ok(html.includes('href="'+book.file+'"'));assert.ok(!cinema.review_books.some(current=>current.file===book.file));}
+ assert.match(html,/not a printer-specific press-ready PDF/);assert.match(html,/not tagged accessibility editions/);
 });

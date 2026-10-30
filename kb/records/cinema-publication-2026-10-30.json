@@ -1,0 +1,41 @@
+{
+  "id": "POD-CINEMA-PUBLICATION-20261030",
+  "status": "release_in_progress",
+  "started_at": "2026-10-30T05:08:31.068621+00:00",
+  "authorization": {
+    "actor": "Ahimanikya Satapathy",
+    "request": "publish",
+    "date": "2026-10-30",
+    "scope": "Reviewed41-readingcinemacollectionandupdateddigitalandprintbookeditions"
+  },
+  "active_article": null,
+  "scope": "Release integration of already-reviewed cinema readings; no new article research",
+  "workers": {
+    "Anvesha": {
+      "scope": "Read-only payload/source and dependency inspection",
+      "write_scope": []
+    },
+    "Samanta": {
+      "scope": "Book activation preparation and focused current-edition test updates",
+      "write_scope": [
+        "projects/site/tests/cinema-release.test.mjs",
+        "projects/site/tests-coast/cinema-reading-ux.test.mjs"
+      ]
+    },
+    "Drishti": {
+      "scope": "Independent release candidate review before publication and live verification",
+      "write_scope": []
+    },
+    "Disha": {
+      "scope": "Release metadata,sourceintegration,GitHubbookupload,PR,merge,deployandreceipts",
+      "write_scope": [
+        "Cinema release payload and shared records with preserved unrelated ownership"
+      ]
+    }
+  },
+  "baseline": "records/cinema-publication-readiness-2026-10-30.json",
+  "book_manifest": "outputs/cinema-publication-readiness-20261030/book-release-manifest.json",
+  "publication_performed": false,
+  "human_specialist_review_claimed": false,
+  "scope_released": false
+}

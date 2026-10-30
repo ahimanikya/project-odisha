@@ -1,0 +1,80 @@
+{
+  "id": "POD-REC-AKSHAYA-MOHANTY-20261029",
+  "date": "2026-10-29",
+  "status": "reviewed_local_draft",
+  "user_request": "Dedicated Akshaya Mohanty story, cinema contribution, musical personality, Surya Deo connection and fellow singers.",
+  "article": "kb/research/people/akshaya-mohanty.md",
+  "source_evidence": "kb/research/sources/akshaya-mohanty-story-evidence-2026-10-29.json",
+  "workers": {
+    "coordinator": "Disha/root: source verification, integration, evidence",
+    "research": "Anvesha: bounded credits, literary and recording evidence",
+    "implementation": "Samanta: one article, existing page wrapper, portrait delivery files",
+    "quality": "Drishti: independent factual and source review"
+  },
+  "preserved": {
+    "other_local_changes": true,
+    "published_site": true,
+    "dated_book_pdfs": true,
+    "original_photograph": true
+  },
+  "human_review_claimed": false,
+  "published": false,
+  "checks": [
+    {
+      "name": "independent content and source review",
+      "result": "PASS",
+      "evidence": "outputs/akshaya-mohanty/qa.json"
+    },
+    {
+      "name": "cinema focused regression checks",
+      "result": "PASS",
+      "passed": 20,
+      "failed": 0,
+      "evidence": "outputs/akshaya-mohanty/tests.log",
+      "resolved": "Expected credited-photo count increased from14 to15 for the new portrait."
+    },
+    {
+      "name": "site production build",
+      "result": "PASS",
+      "exit_code": 0,
+      "evidence": "outputs/akshaya-mohanty/build.log"
+    },
+    {
+      "name": "research-map inventory validation",
+      "result": "PASS",
+      "records": 1798,
+      "tasks": 71
+    },
+    {
+      "name": "browser review",
+      "result": "PASS",
+      "details": [
+        "New route, title, byline and portrait visible.",
+        "Hero uses natural portrait proportions; crop in the series card visually checked.",
+        "No horizontal overflow at390px or568px.",
+        "Photo credit10 and its return link navigated successfully.",
+        "Four related links resolve to local article cards.",
+        "PreviousAIR Cuttack and NextGourPrasadGhose,32-readinghub verified.",
+        "Two official Saregama watch pages loaded; players initially progressed, then paused. Full recordings not listened to."
+      ],
+      "screenshot": "outputs/akshaya-mohanty/preview-page.png"
+    }
+  ],
+  "next_actions": [
+    "Author review of new story before any publication.",
+    "Optional deeper research: original Surya Deo interviews with Akshaya and original1978 Anama correspondence scans."
+  ],
+  "source_sha256": "8d7985ab170ebb57c6cc5660ad3df132d7e0e433c15ae8befa3ebd7cf6c2335e",
+  "route": "/people/akshaya-mohanty/",
+  "preview": "http://127.0.0.1:8769/people/akshaya-mohanty/",
+  "series_placement": "A Shared Storytelling World, after AIR Cuttack and before Gour Prasad Ghose",
+  "series_articles": 32,
+  "book_status": "Existing dated PDFs and metadata preserved; new story not inserted into those editions.",
+  "resolved_during_review": [
+    "Primary archive name Ila Chakraborty retained.",
+    "Composer-debut assertion narrowed to documented Malajanha music-director role.",
+    "PIB source repetition removed in favour of familyarchive and existingTNIE evidence.",
+    "Routine research caveats retained in internal evidence; concise public numbered notes.",
+    "Further-reading targets localised to existing article routes and cards."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "POD-REC-CINEMA-INTRO-REFINEMENT-20261030",
+  "date": "2026-10-30",
+  "status": "local_review_ready",
+  "active_article": null,
+  "request": "Tighten as discussed; clearer preservation–literature–cinema and continued creative work; restore original full portrait after user review; update website and book previews.",
+  "authorization": "User: Good - let’s do as discussed. Re-emphasize preserving cinema history, connecting literature to cinema and how we can keep doing it.",
+  "workers": {
+    "Disha": "Canonical essay, manifests, build execution, review records",
+    "Anvesha": "Read-only evidence and purpose wording review",
+    "Samanta": "Article portrait layout and PDF builder only",
+    "Drishti": "Separate final editorial/integration QA"
+  },
+  "before_sha256": "949224f95db8c0ccf60601003cc6b50b42fe22f3de7cda1929e957c9d63009ef",
+  "before_narrative_words": 1650,
+  "before_snapshot": "outputs/cinema-intro-refinement/before.md",
+  "publication": false,
+  "human_review_claimed": false,
+  "scope_released": true,
+  "image_direction": "Latest user correction: I think full image was better. Original larger/natural portrait presentation restored in article and book; original asset and preview association retained.",
+  "completed_at": "2026-10-29T21:35:48.840208+00:00",
+  "source_sha256": "8aacfe9736b59b89db17c036ec19bf7563451f752e675f1ccae85df076277d53",
+  "narrative_words": 1298,
+  "word_reduction": 352,
+  "books": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-30-intro-revised.pdf",
+      "pages": 241,
+      "bytes": 17098736,
+      "sha256": "c723798744e7461445266fa2a2f89df71394d189f39448de625c8a4c6a94f085",
+      "receipt": "tmp/pdfs/2026-10-30-intro-revised/digital/book-build-2026-10-30-intro-revised.json"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-intro-revised.pdf",
+      "pages": 266,
+      "bytes": 39988562,
+      "sha256": "581237c7587c0ea7e38cf3cb10dd40ce0616e92f57e8ab309d5c0b00747aad5e",
+      "receipt": "tmp/pdfs/2026-10-30-intro-revised/print/book-build-2026-10-30-intro-revised.json"
+    }
+  ],
+  "checks": {
+    "content": "PASS — Drishti, final source hash; author testimony, intent/outcome distinction and preservation thread preserved.",
+    "independent_qa": "outputs/cinema-intro-refinement/review.json",
+    "site": "PASS — 555-page build; 978-page disclosure scan, zero violations.",
+    "tests": "PASS — 27 existing focused checks.",
+    "browser": "PASS — full600px desktop portrait,346px phone portrait in390px viewport; no horizontal overflow; captions aligned; source note/return exercised; viewport reset.",
+    "book_structure": "PASS — 41chapters,47imageplacements,382notes,531citationpairs; stable print page references; valid internal links, no offpage text.",
+    "book_text": "PASS with existing108 documented extraction/caption/navigation residuals unchanged; zero introduction omissions.",
+    "book_visual": "PASS — affected first12page contacts, fullsize closing and Poppler print closing; full portrait retained; closing poem kept with final paragraphs. Unchanged40readings supported by source-hash comparison and prior full-book review.",
+    "record_consistency": "PASS — autonomous programme, team assignment and research map validators."
+  },
+  "changes": [
+    "Condensed repeated explanations and conclusions while preserving personal memoir and first-person voice.",
+    "Added preservation of films, writing and contributors as part of continuing literature-to-cinema work and fair creative opportunities.",
+    "Retained exact Curiosity became research sentence and final writers-pocket callback.",
+    "Moved Rise, Children of Utkal reference to further reading; added Who Keeps a Film Alive link. Fuller project detail remains in existing linked Bhubaneswar-week account.",
+    "Restored original full/natural portrait presentation following latest user direction. Original assets, covers, card mapping and other40canonicalreadings unchanged.",
+    "Separate intro-revised PDFs preserve preceding30October editions; print closing poem and callback kept together."
+  ],
+  "remaining": [
+    "User editorial review; no publication performed.",
+    "Proposed expert conversation with Surya Deo remains unrecorded; no consultation or endorsement claimed.",
+    "Printer-specific press production and full tagged-PDF accessibility remain outside this local reading-edition revision."
+  ]
+}

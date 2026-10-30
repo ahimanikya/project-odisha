@@ -1,0 +1,97 @@
+{
+  "id": "POD-CINEMA-READINESS-20261030",
+  "status": "local_release_candidate_ready",
+  "authorization": "User: keep looking at issues and lets get ready for publishing",
+  "started_at": "2026-10-29T22:44:28.406183+00:00",
+  "baseline": "kb/records/cinema-deep-review-2026-10-30.json",
+  "base_head": "c1cf782366c7673e99ed76a4ad4b544ca977a44d",
+  "active_article": null,
+  "active_scope": "Cinema series release integration, one shared coordinator; no article revisions currently active",
+  "workers": {
+    "Anvesha": {
+      "scope": [
+        "outputs/cinema-publication-readiness-20261030/research-check.json"
+      ],
+      "role": "Read-only targeted source and reader-link research"
+    },
+    "Samanta": {
+      "scope": [
+        "outputs/cinema-publication-readiness-20261030/book-release-manifest.json",
+        "outputs/cinema-publication-readiness-20261030/activate-book-release.mjs"
+      ],
+      "role": "Implementation of cinema-only release route and full-image-link inclusion; regression coverage"
+    },
+    "Drishti": {
+      "scope": [
+        "outputs/cinema-publication-readiness-20261030/independent-audit.json",
+        "outputs/cinema-publication-readiness-20261030/transfer-review.json"
+      ],
+      "role": "Independent read-only quality audit"
+    },
+    "Disha": {
+      "scope": [
+        "kb/records/cinema-publication-readiness-2026-10-30.json",
+        "outputs/cinema-publication-readiness-20261030/",
+        "../cinema-publication-ready-20261030 cinema payload and bounded shared-record merges"
+      ],
+      "role": "Coordinate integration and record actual checks"
+    }
+  },
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "scope_released": true,
+  "release_checkout": "../cinema-publication-ready-20261030",
+  "latest_main": "6d9469e92edb4c8d2001325c38b51b9dda3525d3",
+  "reason_for_isolation": "45 newer upstream changes; preserve independent Dhaga/site work while integrating cinema.",
+  "candidate_root": "cinema-publication-ready-20261030",
+  "current_changes": [
+    "Added13missingselectedpublicationroutes",
+    "Added13fullimageallowlistentries",
+    "Searchholdentriesandderivedcoveragecheck",
+    "Transferredcinemadeltaontocurrentmainpreserving45upstreamcommits"
+  ],
+  "completed_at": "2026-10-29T23:03:08.340819+00:00",
+  "candidate_base_sha": "6d9469e92edb4c8d2001325c38b51b9dda3525d3",
+  "candidate_preview": "http://127.0.0.1:8770/cinema/",
+  "website": {
+    "readings": 41,
+    "parts": 7,
+    "distinct_original_images": 47,
+    "publication_bytes": 615607238,
+    "hosting_budget_bytes": 1000000000,
+    "indexable_routes": 11
+  },
+  "checks": {
+    "full_tests": 653,
+    "coast_tests": 535,
+    "activation_fixture_tests": 7,
+    "rendered_cinema_routes": 41,
+    "independent_local_links_fragments": 3776,
+    "independent_cinema_assets": 179,
+    "bundle": "PASS",
+    "catalogue": "PASS",
+    "rollout": "PASS",
+    "research_map": "PASS",
+    "team": "PASS",
+    "programme": "PASS, no count increment",
+    "browser": "Newwriterpage, source-note return, nextarticle, 390px no overflow; prior deep-review samples retained",
+    "diff_whitespace": "One pre-existing trailing space in odia-cinema.md line133 retained to preserve exact reviewed source/PDF bindings. No rendered whitespace defect; non-blocking source hygiene note."
+  },
+  "review": "outputs/cinema-publication-readiness-20261030/final-readiness-review.json",
+  "report": "outputs/cinema-publication-readiness-20261030/readiness.md",
+  "remaining_release_actions": [
+    "Create reviewed source PR and pass required checks",
+    "Upload exact PDF assets and verify real downloads",
+    "Activate current book metadata and revalidate changed output",
+    "Merge/deploy under publication authorization and verify live destinations"
+  ],
+  "residual_limits": [
+    "Prior historical/commercial evidence limitations remain explicit",
+    "Five access-limited external destinations not declared dead",
+    "Low-resolution archival images; physical proof and printer specifications remain",
+    "No native-speaker character-by-character Odia proof or tagged PDF accessibility claim"
+  ],
+  "latest_revision": "records/cinema-futures-open-recommendations-2026-10-30.json",
+  "revision_note": "User-requested non-timed recommendations incorporated and independently reviewed. New235-page digital and260-page print books have current source bindings; prior audit retained.",
+  "revision_checks": "See latest_revision for affected tests, book and browser checks. Earlier broad audit evidence is retained, not represented as rerun."
+}

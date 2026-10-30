@@ -1,0 +1,73 @@
+{
+  "id": "POD-CINEMA-FUTURES-OPEN-20261030",
+  "status": "local_review_ready",
+  "authorization": "User requests practical recommendations without a time-based framework or project-style work list.",
+  "active_article": null,
+  "candidate_root": "cinema-publication-ready-20261030",
+  "scope": [
+    "Revise Cinema Futures recommendations and matching descriptive metadata",
+    "Remove stale shared-programme wording in the economics cross-reference after main article is released",
+    "Rebuild local article and both book editions; update exact release bindings"
+  ],
+  "workers": {
+    "Anvesha": {
+      "role": "read-only framing and source-impact review",
+      "write_scope": []
+    },
+    "Samanta": {
+      "role": "implement cinema-futures prose revision",
+      "write_scope": [
+        "kb/research/culture/cinema-series/cinema-futures.md"
+      ]
+    },
+    "Drishti": {
+      "role": "independent review of revised prose and affected outputs",
+      "write_scope": []
+    },
+    "Disha": {
+      "role": "integrate metadata, book builds, preview and records",
+      "write_scope": [
+        "shared cinema metadata and revision records",
+        "affected generated outputs"
+      ]
+    }
+  },
+  "other_worker_ownership": "Preserve existing Dhaga operations/assignment records without alteration. Cinema-only scope.",
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "scope_released": true,
+  "futures_implementation_complete": true,
+  "phase": "complete",
+  "completed_at": "2026-10-30T04:37:17.754915+00:00",
+  "changes": [
+    "Removed the first-year pilot, month phases and project-style measurement list",
+    "Replaced the pilot with two connected paragraphs about particular creative needs and sharing experience",
+    "Reframed introduction and metadata as practical possibilities",
+    "Adjusted the economics cross-reference and removed unused BFI source",
+    "Rebuilt both books with unchanged images, covers and typography"
+  ],
+  "source_hashes": {
+    "cinema-futures": "ad4245f846c1b3c21770ea05e77e23493fe0fc6d6d4edd61019f67ee790da5c0",
+    "cinema-economics": "4c45967b86a75627c67257aee8099e3b1ee160f08b1d32e319b5eea66e126276"
+  },
+  "verification": {
+    "focused_cinema_tests": 26,
+    "focused_coast_tests": 7,
+    "book_activation_fixtures": 7,
+    "rendered_cinema_articles": 41,
+    "rendered_issues": 0,
+    "disclosure_violations": 0,
+    "digital_pages": 235,
+    "print_pages": 260,
+    "image_placements_each": 47,
+    "notes_each": 381,
+    "citation_pairs_each": 521,
+    "source_bindings_each": 41,
+    "print_page_map_stable": true,
+    "browser": "Updated ending visibly reviewed in current8770preview; screenshot retained"
+  },
+  "review": "outputs/cinema-futures-open-recommendations-20261030/independent-review.json",
+  "preview": "http://127.0.0.1:8770/cinema/cinema-futures/#give-the-work-room-to-continue",
+  "book_manifest": "outputs/cinema-publication-readiness-20261030/book-release-manifest.json",
+  "remaining": "User review and existing release workflow; no upload, merge or deployment in this revision."
+}

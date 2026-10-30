@@ -12,7 +12,7 @@ export function cinemaNavigationLabel(entry){return navigationLabels[entry.slug]
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 // Explicitly reviewed Odia titles and quotations. Script alone does not establish language:
 // Sambalpuri Bhukha and unreviewed passages deliberately remain unlabelled here.
-const odiaReadings=['ଆମର ଏଠି କିଛି ହେବନି','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ&#39;ଣ ?','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ\'ଣ ?','ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।','ଆକାଶବାଣୀ କଟକ','ଛମାଣ ଆଠଗୁଣ୍ଠ','ମାୟା ମିରିଗ','ବୋଉ ବୁଟୁ ଭୂତ','କର୍ମ','ପ୍ରତୀକ୍ଷା','ଦମନ','ରେବତୀ','ଅନନ୍ତା','ଲାବଣ୍ୟ ପ୍ରୀତି','ଆଦିମ ବିଚାର','ସୀତା ବିବାହ','ଶୀତ ରାତି','କା','ସ୍ତ୍ରୀ'];
+const odiaReadings=['ଏକା ହାତରେ ତାଳି ବାଜେ ନାହିଁ','ଲହରୀ','ମମତା','କୁଳନନ୍ଦନ','ଆଇ ଲଭ୍ ୟୁ','ଇସ୍କ ତୁ ହି ତୁ','ମୁଁ ଖାଣ୍ଟି ଓଡ଼ିଆ ଝିଅ','ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨','ଶ୍ରୀ ଶ୍ରୀ ପତିତପାବନ','ଶେଷ ଶ୍ରାବଣ','ଯାଯାବର','ଏଇ ଆମ ସଂସାର','ସୁନା ହରିଣୀ','ଆମର ଏଠି କିଛି ହେବନି','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ&#39;ଣ ?','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ\'ଣ ?','ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।','ଆକାଶବାଣୀ କଟକ','ଛମାଣ ଆଠଗୁଣ୍ଠ','ମାୟା ମିରିଗ','ବୋଉ ବୁଟୁ ଭୂତ','କର୍ମ','ପ୍ରତୀକ୍ଷା','ଦମନ','ରେବତୀ','ଅନନ୍ତା','ଲାବଣ୍ୟ ପ୍ରୀତି','ଆଦିମ ବିଚାର','ସୀତା ବିବାହ','ଶୀତ ରାତି','କା','ସ୍ତ୍ରୀ'];
 const odiaPattern=new RegExp(odiaReadings.sort((a,b)=>b.length-a.length).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'gu');
 export function markReviewedOdia(html){
  const elements=[];
@@ -57,6 +57,26 @@ const catalogueMaintenanceCopy=new Map([
  ['- **Provider catalogue: [AAO NXT](https://aaonxt.com/).** Homepage checked on 26 October 2026; login and subscription options were visible.','- **Provider catalogue: [AAO NXT](https://aaonxt.com/).**'],
  ['- **Provider app listing: [Kanccha Lannka on the App Store](https://apps.apple.com/in/app/kanccha-lannka/id1584598214).** Listing checked on 25 October 2026. Descriptions of titles or subtitles do not guarantee access in every location.','- **Provider app listing: [Kanccha Lannka on the App Store](https://apps.apple.com/in/app/kanccha-lannka/id1584598214).** Descriptions of titles or subtitles do not guarantee access in every location.']
 ]);
+// Cinema-only semantics preserve existing H2 anchors and the shared renderer elsewhere.
+export function cinemaReadingSemantics(html){
+ const used=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
+ html=html.replace(/<h3>([\s\S]*?)<\/h3>/g,(_,text)=>{
+  const base=text.replace(/<[^>]+>/g,'').toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu,'').trim().replace(/\s+/g,'-')||'subsection';
+  let id=base,n=2;while(used.has(id))id=base+'-'+n++;used.add(id);
+  return `<h3 id="${escape(id)}" tabindex="-1">${text}</h3>`;
+ });
+ const captions=new Map([
+  ['Performer|A contribution to follow',['performer-contributions-caption','Selected performers and their contributions']],
+  ['Performer|Reported estimate|Date and scope',['performer-estimates-caption','Reported film counts — dated estimates with differing scopes']]
+ ]);
+ return html.replace(/<div class="article-table"[^>]*><table>([\s\S]*?)<\/table><\/div>/g,(original,table)=>{
+  const headers=[...table.matchAll(/<th>([\s\S]*?)<\/th>/g)].map(m=>m[1].replace(/<[^>]*>/g,'').trim()).join('|');
+  const caption=captions.get(headers);if(!caption)return original;
+  const [id,title]=caption;
+  const semantic=table.replace(/<th>/g,'<th scope="col">').replace(/<tbody>([\s\S]*?)<\/tbody>/,(_,body)=>`<tbody>${body.replace(/<tr>\s*<td>([\s\S]*?)<\/td>/g,'<tr><th scope="row">$1</th>')}</tbody>`);
+  return `<div class="article-table" role="region" aria-labelledby="${id}" tabindex="0"><table><caption id="${id}">${title}</caption>${semantic}</table></div>`;
+ });
+}
 export function cinemaArticle(entry){
  let source=fs.readFileSync(path.join(root,entry.source),'utf8');
  source=source.split('\n').map(line=>catalogueMaintenanceCopy.get(line)??line).join('\n');
@@ -87,6 +107,8 @@ export function cinemaArticle(entry){
    return `<div class="article-table cinema-recognition" role="region" aria-labelledby="${captionId}" tabindex="0"><table><caption id="${captionId}">Selected National Film Awards in this series — award years, not release dates</caption>${semantic}</table></div>`;
   }));
  }
+ article.html=cinemaReadingSemantics(article.html);
+ article.headings=[...article.html.split('<h2 id="further-reading">')[0].matchAll(/<h([23]) id="([^"]+)"[^>]*>([\s\S]*?)<\/h\1>/g)].map(([,level,id,title])=>({title:title.replace(/<[^>]+>/g,'').replaceAll('&amp;','&'),href:'#'+id,level:Number(level)})).filter(h=>h.href!=='#footnote-label');
  const hero=entry.images.find(i=>i.role==='title');
  article.html=article.html.replace(new RegExp(`<figure><img[^>]*src="${hero.file.replaceAll('.','\\.')}"[\\s\\S]*?<\\/figure>`),'');
  for(const image of entry.images){const expression=new RegExp(`<img[^>]*src="${image.file.replaceAll('.','\\.')}"[^>]*>`,'g');article.html=article.html.replace(expression,img=>picture(image,img.match(/alt="([^"]*)"/)?.[1]||'',false));}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-29",
+  "reviewer": "Drishti independent AI review",
+  "status": "pass_content_image_and_static_integration",
+  "source_sha256": "77bc4d1d5357fbc68b51047547117336c5664174a25441cfe4d0ddace83ff8f3",
+  "source": "kb/research/people/kalindi-charan-panigrahi.md",
+  "required_public_corrections": [],
+  "research_record_correction": {
+    "path": "outputs/kalindi-charan-panigrahi/research.json",
+    "field": "root_verified_source.provenance",
+    "issue": "Still describes root direct OVA page read; root clarification says indexed body plus failed direct fetch. Article correctly omits OVA reliance.",
+    "action": "Coordinator/researcher should correct internal access provenance; not a public prose blocker.",
+    "status": "resolved",
+    "resolution": "Read corrected root_verified_source: indexed full body plus failed direct access accurately distinguished; public article remains unchanged and does not rely on OVA."
+  },
+  "fresh_checks": [
+    {
+      "url": "https://cdn.penguin.co.in/wp-content/uploads/2022/03/Penguin-Press.pdf",
+      "locator": "PDFp14,text173–174",
+      "result": "K.K.Mohapatra,LeelawatiMohapatra,PaulSt-Pierre credited together; May2022edition context."
+    },
+    {
+      "url": "https://niyogibooksindia.com/books/born-of-the-soil/",
+      "locator": "182,178",
+      "result": "BikramDas explicitly translatedby; ISBN9789385285585 matches."
+    }
+  ],
+  "retained_checks": [
+    "Sabuja circle/handwrittenmagazine attributed to retrospective Nayak, not contemporary witnessedscene.",
+    "SahityaAkademi1971Fellowship notannualbookaward; lifespan1901–1991 avoids disputedday.",
+    "Assamese1962edition and2015reprint notOdiaoriginaldate; originalfirsteditionleftunasserted.",
+    "Mrinal filmography credits authorstory,Sen screenplay/direction,Chayabani producer. Synopsis notourviewing/fidelityanalysis.",
+    "Bookrange comes from namedpublisher catalogue; no exhaustivebibliography,unreadpoemanalysis,Sashisena orBasanticoauthorcount."
+  ],
+  "budgets": {
+    "method": "Approximate source-specific factual+derived reflection+note counts; exclude genuine independent reader questions, do not charge entire mixed-source paragraphs. No reused direct quotations.",
+    "estimated_ranges": {
+      "Penguin_product_and_shared_catalogue_description_combined": [
+        100,
+        140
+      ],
+      "Nayak_OdishaReview": [
+        85,
+        120
+      ],
+      "BlackEagle_including_intro_range_and_readinglink": [
+        95,
+        140
+      ],
+      "Assamese_catalogue": [
+        55,
+        80
+      ],
+      "MrinalFilmography_combined_with_literature": [
+        100,
+        140
+      ],
+      "AkademiFellowship": [
+        30,
+        45
+      ],
+      "Niyogi": [
+        20,
+        35
+      ],
+      "AkademiMonograph": [
+        25,
+        40
+      ]
+    },
+    "verdict": "All below200 with room; no direct Mrinal source reuse located in overview."
+  },
+  "editorial": "Concrete magazine and translation routes widen writer beyondfilm. Selectedtitles showrange without claimingworkread; slight generic reading-invitation repetition optional only. Opening interpretation clearlyfollows publishersynopsis.",
+  "image": {
+    "path": "kb/research/media/cinema-series/kalindi-charan-land-and-family.png",
+    "viewed": true,
+    "verdict": "Anonymous rural figures on sharedridge; coherentfeet/field/housescape, labelledIllustration. Notportrait,filmstill or claimedhistoricalscene. Original+derivativehashesverified."
+  },
+  "integration": {
+    "entries": 36,
+    "metadata_source_binding": true,
+    "route": "/people/kalindi-charan-panigrahi/",
+    "manifest_hero_matches_site": true,
+    "local_reading_targets_exist": true,
+    "literature_incoming_link": "First Kalindi name links../../people/kalindi-charan-panigrahi.md; surroundingfilm/sourcecredits unchanged.",
+    "notes": 8,
+    "undefined_or_unused": false
+  },
+  "limits": [
+    "Other primary facts checked against retained research, not reopened all sources in this pass.",
+    "No fullnovel/filmread, no browser/build verification byreviewer; rootowns those checks.",
+    "No publicediting,publication orhumanapproval."
+  ],
+  "scope_released": true,
+  "final_copy_delta": {
+    "verdict": "PASS",
+    "scope": "Routine publisher framing removed from opening and work-list; factual premise and bibliography remain supported by unchanged citations. Named SubashNayak retrospective attribution retained. No new firsthand-reading claim.",
+    "integration_limit": "Root synchronises finalsource metadata/build; previous static binding was e7c3b95f."
+  }
+}

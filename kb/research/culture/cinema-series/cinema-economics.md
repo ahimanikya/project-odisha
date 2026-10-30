@@ -47,7 +47,7 @@ The redevelopment of Kalinga Studio, inaugurated in October 2026, can be judged 
 
 Streaming changes the route to a viewer, but does not abolish the cost of reaching one. The [OTT chapter](../odia-ott.md) follows the work of building platforms and catalogues. The economic question is what continuing arrangements these outlets can sustain with creators, as well as how many titles they carry.
 
-The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. That continuity is the practical ambition behind the [shared programme proposed in the final reading](cinema-futures.md).
+The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. That continuity is the practical ambition behind the [practical possibilities explored in the final reading](cinema-futures.md).
 
 ## Footnotes & Sources
 

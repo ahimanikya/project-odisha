@@ -20,7 +20,7 @@ test('all cinema figures preserve native dimensions and source associations with
   const html=read(entry.route);assert.match(html,/cinema-reader/);
   for(const block of html.matchAll(/<section\b[^>]*class="([^"]*article-reading-path[^"]*)"/g)){assert.match(block[1],/uniform-images/);assert.doesNotMatch(block[1],/contain-images/);};
  }
- assert.equal(placements,34);
+ assert.equal(placements,cinema.articles.reduce((count,entry)=>count+entry.images.length,0));
 });
 test('cinema cards use cropped preview frames while article images retain full sources',()=>{
  const hub=read('/cinema/');

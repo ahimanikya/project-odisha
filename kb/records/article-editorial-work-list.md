@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 846. completed: 131, excluded: 412, queued: 303.
+Route inventory: 859. completed: 131, excluded: 412, queued: 316.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -835,7 +835,7 @@ Route inventory: 846. completed: 131, excluded: 412, queued: 303.
 | POD-EDIT-VISHAL-MOURYA-20261027 | [Vishal Mourya: finding a filmmaking language together](https://projectodisha.org/people/vishal-mourya/) | queued | New public cinema profile; source review passed, local integration awaiting final check |
 | POD-EDIT-DEBI-PRASAD-LENKA-20261027 | [Debi Prasad Lenka: shaping the story, from script to edit](https://projectodisha.org/people/debi-prasad-lenka/) | queued | New public cinema profile; source review passed, local integration awaiting final check |
 | POD-EDIT-ANUPAM-PATNAIK-20261027 | [Anupam Patnaik: the work behind the waiting](https://projectodisha.org/people/anupam-patnaik/) | queued | Public profile reviewed locally; awaiting publication review |
-| POD-EDIT-CINEMA-AUTHOR-INTRODUCTION-20261027 | [The Question That Brought Me Here](https://projectodisha.org/cinema/the-question-that-brought-me-here/) | queued | Author-approved personal essay integrated and reviewed locally in series and bothbooks; queued for futurepublication. |
+| POD-EDIT-CINEMA-AUTHOR-INTRODUCTION-20261027 | [The Question That Brought Me Here](https://projectodisha.org/cinema/the-question-that-brought-me-here/) | queued | Authorized refinement of author introduction; full portrait retained after user correction; book/site previews only. |
 | POD-EDIT-CINEMA-READING-GUIDE-20261028 | [Cinema reading guide](https://projectodisha.org/cinema/reading-guide/) | excluded | cinema collection navigation and reading utility |
 | POD-EDIT-DHAGA-CULTURAL-20261029 | [The Poetry We Speak: Why Odia Dhaga Matter](https://projectodisha.org/stories/odia-dhaga/) | completed | Reviewed Founder essay connecting everyday Dhaga literary form and cultural transmission; shared reader header/footer integration. No new saying or programme credit. |
 | POD-EDIT-MANIABANDHA-20261029 | [Maniabandha: Where Odisha’s Weaving Heritage Meets a New Generation of Travellers](https://projectodisha.org/stories/maniabandha/) | completed | Approved new article and interpretive illustration, with independent sources and related reading links. |
@@ -867,3 +867,16 @@ Route inventory: 846. completed: 131, excluded: 412, queued: 303.
 | POD-EDIT-20261033 | [ଅଖା ଧୋଉଥିବୁ ଗୁଣ ଗାଉଥିବୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-177.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-20261034 | [ମୂଳପୋଛ କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-178.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-20261035 | [ଖୁଣ୍ଟ ଗୁଣେ ଘୋଡା କୁଦେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-179.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-GOPAL-CHHOTRAY-20261029 | [Gopal Chhotray: Words Made for Voices](https://projectodisha.org/people/gopal-chhotray/) | queued | Founder-requested cinema companion; not counted toward general article programme |
+| POD-EDIT-BASANTA-KUMARI-20261029 | [Basanta Kumari Patnaik: Writing, Publishing and the Screen](https://projectodisha.org/people/basanta-kumari-patnaik/) | queued | Founder-requested cinema companion; not counted toward general article programme |
+| POD-EDIT-LEARNING-CINEMA-20261029 | [Learning Cinema Together](https://projectodisha.org/cinema/learning-cinema-together/) | queued | Founder-requested cinema companion; not counted toward general article programme |
+| POD-EDIT-KALINDI-CHARAN-20261029 | [Kalindi Charan Panigrahi: A Writer Among People](https://projectodisha.org/people/kalindi-charan-panigrahi/) | queued | Founder-requested cinema writer profile; not counted toward general article programme |
+| POD-EDIT-CINEMA-MUSIC-20261030 | [Odia Cinema Music: The Songs We Carry Home](https://projectodisha.org/cinema/cinema-music/) | queued | Founder-requested cinema music readings; not counted toward general article programme |
+| POD-EDIT-PRAFULLA-KAR-20261030 | [Prafulla Kar: A Composer in the Company of Voices](https://projectodisha.org/people/prafulla-kar/) | queued | Founder-requested cinema music readings; not counted toward general article programme |
+| POD-EDIT-PRANAB-PATNAIK-20261030 | [Pranab Patnaik: A Voice That Kept Learning](https://projectodisha.org/people/pranab-patnaik/) | queued | Founder-requested cinema music readings; not counted toward general article programme |
+| POD-EDIT-TAPU-MISHRA-20261030 | [Tapu Mishra: A Singer Choosing Her Own Work](https://projectodisha.org/people/tapu-mishra/) | queued | Founder-requested cinema music readings; not counted toward general article programme |
+| POD-EDIT-CINEMA-PRESERVATION-20261030 | [Who Keeps a Film Alive?](https://projectodisha.org/cinema/who-keeps-a-film-alive/) | queued | Founder-requested cinema series; not counted toward general article programme |
+| POD-EDIT-CINEMA-AKSHAYA-MOHANTY-20261030 | [Akshaya Mohanty: Khoka Bhai and the art of singing to people](https://projectodisha.org/people/akshaya-mohanty/) | queued | Cinema series reading; no autonomous programme increment |
+| POD-EDIT-CINEMA-SURYA-DEO-20261030 | [Surya Deo: keeping a cinema’s memory alive](https://projectodisha.org/people/surya-deo/) | queued | Cinema series reading; no autonomous programme increment |
+| POD-EDIT-CINEMA-SEARCHING-FOR-SITA-BIBAHA-20261030 | [Searching for Sita Bibaha: the film beyond the missing print](https://projectodisha.org/cinema/searching-for-sita-bibaha/) | queued | Cinema series reading; no autonomous programme increment |
+| POD-EDIT-CINEMA-READING-ODIA-CINEMA-20261030 | [Reading Odia Cinema: the books behind the screen](https://projectodisha.org/cinema/reading-odia-cinema/) | queued | Cinema series reading; no autonomous programme increment |

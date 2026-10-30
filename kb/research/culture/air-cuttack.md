@@ -23,7 +23,7 @@ AIR Cuttack belongs within the history of Odia storytelling for that reason. Its
 
 ## 1948: a new institution in a city of stories
 
-All India Radio’s Cuttack station opened in **1948**. The district administration’s history places its early establishment in the old Madhupur building.[^district] Radio enthusiast Jose Jacob’s account of an engineer-guided visit dates the inauguration to **28 January 1948** and describes the initial arrangement of temporary studios and a small transmitter at Killa Fort.[^visit]
+All India Radio’s Cuttack station opened in **1948**. The district administration’s history places its early establishment in the old Madhupur building.[^district] Radio enthusiast Jose Jacob’s account of an engineer-guided visit dates the inauguration to **28 January 1948**: a temporary studio at Madhapur House and a small transmitter at Killa Fort.[^visit]
 
 **ସୀତା ବିବାହ (Sita Bibah)** appeared in 1936, before AIR Cuttack. The [cinema history](odia-cinema.md) follows its earlier stage connections.[^cinema]
 
@@ -35,7 +35,7 @@ What followed was an overlapping history. A writer could work for theatre and br
 
 ## Gopal Chhotray: the writer between the media
 
-Gopal Chhotray offers a particularly clear route through this history. The Library of Congress records his long association with AIR Cuttack and his writing of plays, operas and screenplays. It also recognises his work in the revival of Gitinatya, the verse-based musical-play tradition.[^loc]
+[Gopal Chhotray](../people/gopal-chhotray.md) connects this history with theatre and cinema. The Library of Congress recognises his contribution to reviving Gitinatya, the verse-based musical-play tradition.[^loc]
 
 His connection with cinema can be made precise. The Gour–Parbati film archive credits him with dialogue for **ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950)**. The same record names C.R. Mitra for direction and screenplay.[^jagannath]
 
@@ -43,9 +43,9 @@ For a dramatist, dialogue is more than information. It must reveal a relationshi
 
 ## A short story becomes a musical play
 
-Odia Bibhaba’s Chhotray collection identifies **ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani)** as an opera adapted from Fakir Mohan Senapati’s short story *Patent Medicine*. The collection also brings together stage plays, one-act plays, Gitinatya and unpublished manuscripts. Its catalogue includes a 1974 edition of *Srimati Samarjani*.[^bibhaba]
+Odia Bibhaba’s Chhotray collection identifies **ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani)** as an opera adapted from Fakir Mohan Senapati’s short story *Patent Medicine*.[^bibhaba]
 
-This is one of the most useful connections to follow: a named literary work, an adapter, and a different dramatic form. Adaptation changes the storyteller’s tools. Prose can describe a thought directly; a musical play can distribute meaning between spoken exchange, singing and a performer’s delivery. Investigating that change requires attention to the particular text and production, rather than treating “folk”, “literary” and “popular” as sealed categories.
+Adaptation changes the storyteller’s tools. Prose can describe a thought directly; a musical play distributes meaning between spoken exchange, singing and a performer’s delivery. Chhotray’s adaptation offers a place to listen for that change.
 
 [Pala](/sounds-of-odisha/pala/), [Daskathia](/sounds-of-odisha/daskathia/) and [Prahallad Nataka](prahallad-nataka.md) have their own performance arrangements and histories. They offer further ways to listen for the relationship between narration, song and an audience.
 
@@ -77,13 +77,9 @@ These are dated observations, but they help recover a less visible part of cultu
 
 The listening continues. Akashvani’s official Cuttack page provides dated Odia news bulletins online.[^news]
 
-There are several ways to explore the older work. [Odia Bibhaba offers digitised texts](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/); the [Library of Congress provides Chhotray’s readings](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html) from works including *Pheria* and *Parakalama*.[^bibhaba][^loc] These are author readings rather than original AIR productions: a chance to hear the writer’s delivery beside the printed words.
-
-Begin with one of Chhotray’s available readings. Listen for the pace of a line. Where a matching text is available, compare the printed passage with the reader’s emphasis; the digitised collection also offers a separate route into Chhotray’s writing. This small act of attention brings the writer, the recording and a present-day listener into the same continuing life of a work.
+The [Gopal Chhotray profile](../people/gopal-chhotray.md) offers a route into the writer’s work, with links for reading and listening. A specific work can be a starting point for following the people and performances around the station.
 
 ## Watch and explore
-
-These exploration pages were checked in the retained research on 25 October 2026. Audio playback was not tested.
 
 - **Literary audio catalogue: [Gopal Chhotray at the Library of Congress](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html).** Author readings, not original AIR drama broadcasts.
 - **News audio listings: [Akashvani Cuttack bulletins](https://newsonair.gov.in/bulletins-city/cuttack/).** Browse dated bulletins; not a complete historical radio archive.
@@ -93,9 +89,9 @@ These exploration pages were checked in the retained research on 25 October 2026
 [^district]: Cuttack district administration, [History](https://cuttack.odisha.gov.in/en/about-district/history), paragraph on 1948 and the old Madhupur building. Retrospective institutional chronology.
 [^visit]: Jose Jacob, [“A visit to AIR Cuttack & others”](https://www.qsl.net/vu2jos/art/cuttack.pdf), February–March 2008 visit account, pp.1–2. Engineer-guided observations and historical recollections; equipment descriptions are dated, not a current service inventory.
 [^cinema]: Kapilas Bhuyan, [PIB/IFFI cinema retrospective](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399), 22 November 2010, first-feature chronology.
-[^loc]: Library of Congress, [Gopal Chhotray: South Asian Literary Recordings Project](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html), profile and recording catalogue. Author readings are distinct from AIR drama recordings.
+[^loc]: [Gopal Chhotray profile](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html), Library of Congress.
 [^jagannath]: Gour–Parbati archive, [Sri Jagannath (1950)](https://www.gourparbati.com/movie_sri_jagannath.php), dialogue versus screenplay credits. Odia spelling is supplied for the film title; the source uses Roman script.
-[^bibhaba]: Odia Bibhaba, [Gopal Chhotray collection](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/), biography and catalogue. The 1974 listing dates the edition; no first-broadcast date or music credit is inferred here.
+[^bibhaba]: [Gopal Chhotray collection](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/), Odia Bibhaba.
 [^devdas]: Shyamanuja Das, [“In Conversation with Odia Lyricist Devdas Chhotray”](https://www.sahapedia.org/conversation-odia-lyricist-devdas-chhotray), Sahapedia, interview conducted September 2018, Parts II–III. Personal recollection of studio practice and his first recorded ghazal, not a claim to the first-ever Odia ghazal.
 [^shyamamani]: David Dennen and Amir Kumar Jeetendra Nayak, [“Shyamamani Devi on Odissi Music and Her Life as a Singer”](https://www.yumpu.com/en/document/view/16460695/shyamamani-devi-on-odissi-music-and-her-life-as-a-oaid-home), mirrored interview, opening section. Original interview date unverified; the cited passage names Akashvani but does not specify its station. It is used as wider broadcasting context, not proof of a Cuttack appointment.
 [^news]: Akashvani News, [Cuttack bulletins](https://newsonair.gov.in/bulletins-city/cuttack/), inspected 25 October 2026. Dated listings establish online availability; no listening figures or full audio-archive survey claimed.
@@ -110,7 +106,6 @@ These exploration pages were checked in the retained research on 25 October 2026
 
 - [Odia cinema: the world in our own voice](odia-cinema.md)
 - [Prahallad Nataka](prahallad-nataka.md)
-- [Gopal Chhotray’s digitised works](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/)
-- [Listen to Gopal Chhotray’s literary readings](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html)
+- [Gopal Chhotray: Words Made for Voices](../people/gopal-chhotray.md)
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fair-cuttack.md):** share a precise programme credit, dated schedule or archive reference. GitHub submissions are public; omit private contact details and consent documents.
