@@ -21,7 +21,7 @@
     "bytes": 97861155,
     "sha256": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b",
     "ancestor": "4a832a5f04c7c06f30e6972e285030be149bc7a6",
-    "fresh_remote_download_exact": false
+    "fresh_remote_download_exact": true
   },
   "preparation_evidence": [
     {
@@ -55,5 +55,11 @@
   },
   "local_review": "Separate AI review PASS: three art, 27 selected PDF pages, 22 tests; prior 211 entries/art/unit metrics preserved",
   "scope_release": "After reviewed receipt merge, checks and remote hash verification",
-  "next": "Site gates, exact-head review, PR checks, merge preserving PDF ancestor, approved deployment, live verification and receipt"
+  "next": "Site gates, exact-head review, PR checks, merge preserving PDF ancestor, approved deployment, live verification and receipt",
+  "export_budget": {
+    "previous_bytes": 23000000,
+    "new_bytes": 24000000,
+    "initial_measured_bytes": 23131919,
+    "reason": "Preserve all prior211 derivative settings and new three640px q60 illustrations; actual growth exceeds old guard by131919bytes, new headroom868081bytes."
+  }
 }
