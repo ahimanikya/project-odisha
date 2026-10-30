@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 891. completed: 149, excluded: 448, queued: 294.
+Route inventory: 894. completed: 149, excluded: 451, queued: 294.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -915,3 +915,6 @@ Route inventory: 891. completed: 149, excluded: 448, queued: 294.
 | POD-EDIT-DHAGA-209-20261030 | [ଗୁଡ଼ଘର ପିମ୍ପୂଡ଼ି ଖାଇଯିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-209.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-210-20261030 | [ପିମ୍ପୂଡ଼ି ଧାର ଲାଗିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-210.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-211-20261030 | [ଗୁଡ଼କୁ ପିମ୍ପୂଡ଼ି ବାଇ ହେବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-211.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-212-20261031 | [ଏତେ ଖାଇ ନ ପୂରିଲା ପେଟ ବିରି ଓଳିଆରେ ମାରୁଛ ହାତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-212.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-213-20261031 | [ଯେବେ ପାଇଥାଏ ଘଇତାବୁକୁ, ସଜ ହେଉଥାଏ ବାପ ଘରକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-213.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-214-20261031 | [ଜହ୍ନିଫୁଲ ପରି ଆୟୁଷ ପା ସଞ୍ଜେ ଫୁଟି ସକାଳେ ଯା](https://projectodisha.org/dhaga/sayings/pod-dhaga-214.html) | excluded | standalone_dhaga_collection |

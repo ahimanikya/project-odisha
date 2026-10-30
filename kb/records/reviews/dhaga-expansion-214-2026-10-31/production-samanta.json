@@ -1,0 +1,99 @@
+{
+  "status": "built and frozen for independent integrated review",
+  "input_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "staged_book": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/production/staged-book",
+  "counts": {
+    "entries": 214,
+    "illustrations": 214,
+    "sources": 103,
+    "pdf_pages": 126,
+    "accepted_increment": 0,
+    "programme_credit": 0
+  },
+  "pdf": {
+    "pages": 126,
+    "bytes": 97861155,
+    "sha256": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b"
+  },
+  "preservation": {
+    "prior211_entry_bytes_exact": true,
+    "prior_art_bytes_exact": true,
+    "prior211_unit_metrics_exact": true,
+    "all_canonical1139_files_unchanged": true,
+    "historical_rows_and_cursors_unchanged": true,
+    "source127_pending": 75,
+    "no_deleted_files": true
+  },
+  "implementation": "Only new212/213/214 added to explicit full-width set, after actual narrow measurement failures. Fonts/body10.5pt/text scale1 intact; all prior211 unit metrics exact. Three new assets and approved captions installed, source and generation evidence retained internally. No HTML/CSS design change; existing generator executed.",
+  "pdf_skill_marker": {
+    "executions": 1,
+    "command": "node mark_artifact_operation_started.mjs --operation-kind edit --expected-output-count 1 --output-format pdf",
+    "result": "Valid invocation; empty stderr/stdout consistent with marker implementation. Run immediately before first PDF authoring attempt, not repeated after layout correction."
+  },
+  "tests": {
+    "repository_inventory": "19 PASS",
+    "print_layout": "3 PASS",
+    "all214_bounds": "PASS",
+    "wide_pages_no_fillers": "PASS",
+    "initial_pdf": "Expected floor failure214; preserved in pdf-build-initial-failure.log",
+    "initial_html_attempt": "Wrong working directory command failed before execution; rerun in staged-book succeeded."
+  },
+  "new_units_measurement": "new-entry-measurement.json",
+  "renders": {
+    "directory": "pdf-pages",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      24,
+      25,
+      26,
+      43,
+      51,
+      63,
+      73,
+      85,
+      86,
+      87,
+      100,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ],
+    "dpi": 120,
+    "samanta_actual_pixels_viewed": [
+      1,
+      25,
+      86,
+      118,
+      126
+    ],
+    "result": "No clipping, overlap or missing glyphs on viewed pages; three new illustrations legible."
+  },
+  "manifest_changed_file_count": 251,
+  "bindings": {
+    "installation-manifest.json": "b875359e1c825343da8f291655502410f62051f13953a0a3231af9d3ad43a44d",
+    "page-map.json": "0be33a09ce9a0070f1d3b08a4837b9c29cb1f292b27512079a8457dc02dfb710",
+    "preservation.json": "866b9925bad97496ebb45c69c20d176612fd1a57178c3e0aa50af58d2af05ad1",
+    "new-entry-measurement.json": "f280c85666bb75c852624edfa5d89e42dd5fe22f0719ab16e86d176c2ca6c47e",
+    "book-tests.log": "7c0993bacf003f2d0e3c467a93ad1c7f0db7ad6c0e3b948917f6594dc8a7445b",
+    "layout-tests.log": "372ee57a30b8a8b17bb056a0814266786a922da7dcf4139f4f9a2457745d6424",
+    "pdf-build.log": "8f5ada4b6dbaecafec93a1e780d7dedcc0814f12c360884f18fefd2eb12b7495"
+  },
+  "limits": [
+    "Local staged edition only; no canonical install/publication/acceptance.",
+    "Separate Drishti integrated PDF review pending; actual sample pixels explicitly distinguished from all mechanical checks.",
+    "All three new full-width pages preserve intact bilingual prose without shrinking typography; pagination changes naturally.",
+    "No public derivative/browser verification in this output-only task."
+  ]
+}
