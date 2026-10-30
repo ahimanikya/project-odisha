@@ -302,7 +302,7 @@
       "id": "audiences",
       "title": "Audiences and the people who bring films to them",
       "scope": "Find a documented viewer, library, film-club, exhibitor or technician experience; connect access, work and livelihood without invented audience consensus.",
-      "status": "queued",
+      "status": "local_review_ready",
       "reuse_before_research": [
         "kb/records/cinema-research-loop-2026-10-25.json",
         "kb/research/culture/cinema-series/cinema-economics.md",
@@ -314,7 +314,16 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "outputs/cinema-expansion-20261031/audiences-evidence.json",
+        "outputs/cinema-expansion-20261031/audiences-review.json",
+        "outputs/cinema-expansion-20261031/audiences-integration.json",
+        "outputs/cinema-expansion-20261031/audiences-browser-review.json",
+        "outputs/cinema-expansion-20261031/audiences-targeted-tests.log",
+        "outputs/cinema-expansion-20261031/audiences-rendered-tests.log"
+      ],
+      "scope_released": true,
+      "outcome": "Enhanced cinema economics with Lokanath Das’s mobile-cinema recollections and Abhishek Parija’s student film-society organising, linking the literary films to their writers. No new article needed. No attendance, pay, profit or representative audience claim. Separate source/prose review, build and desktop/phone checks passed.50readings/56unique originals retained; publication and PDF alignment remain pending."
     },
     {
       "order": 12,
@@ -412,7 +421,7 @@
       "evidence": []
     }
   ],
-  "next_item": "audiences",
+  "next_item": "children",
   "scope_state": "released_after_local_review",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
@@ -788,6 +797,39 @@
           "outputs/cinema-expansion-20261031/aparajita-mohanty-*.png",
           "projects/site/tests/cinema-release.test.mjs",
           "kb/research/culture/odia-cinema.md"
+        ]
+      }
+    },
+    {
+      "item": "audiences",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/audiences-evidence.json"
+        ],
+        "Samanta": [
+          "kb/research/culture/cinema-series/cinema-economics.md"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/audiences-review.json"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "kb/research/culture/cinema-series/manifest.json",
+          "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+          "projects/site/src/data/cinema.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md",
+          "outputs/cinema-expansion-20261031/audiences-integration.json",
+          "outputs/cinema-expansion-20261031/audiences-browser-review.json",
+          "outputs/cinema-expansion-20261031/audiences-*.log",
+          "outputs/cinema-expansion-20261031/audiences-*.png"
         ]
       }
     }
