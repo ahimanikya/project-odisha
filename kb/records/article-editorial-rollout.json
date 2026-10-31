@@ -2687,12 +2687,15 @@
       "id": "POD-EDIT-100",
       "route": "/languages/districts/gajapati/",
       "title": "Gajapati · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/gajapati-language-utility-review-2026-10-31.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually exclude POD-EDIT-100 as a Census 2011 district data utility. Preserve Gajapati district389 tables, source notes, five language-profile links, multilingual guidance and search status. Its actual configuration has no destination or extra editorial-reading prose and no sustained Gajapati-specific authored narrative. Preserve separate Saora/Sora, Jhulana at Paralakhemundi, agripreneur, banking and royal-title material. Historical district mother-tongue counts do not establish town or individual speech, ancestry or community identity."
     },
     {
       "id": "POD-EDIT-101",
