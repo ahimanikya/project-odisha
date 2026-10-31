@@ -1,0 +1,142 @@
+{
+  "status": "IMPLEMENTATION_FROZEN_LOCAL_BUILDS_SCOPED_TESTS_PASS",
+  "input_head": "c073bcf4ed2ea4653fdea4fc005da863c04aa0d3",
+  "checked_at": "2026-10-31T17:12:28.774917+00:00",
+  "route": "/stories/kandhamal-haladi/",
+  "saved_id": "reading:stories/kandhamal-haladi",
+  "files": [
+    {
+      "path": "projects/site/src/pages/stories/kandhamal-haladi.astro",
+      "sha256": "85eeeeaea7944eef3f0e51b30ff3bb338190d205094cca488be6cee1cbc4e2a2"
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "6edb9214ec683c55a44a90feca0638b27e8f7bd5c5d442be47322d36f4e5dbfd"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "eadab2deba3df59bc0e0d31475a26d252c32cdc3d845ce59ef413f5a82f3cca5"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "40865e67b816a57217365fc8c8d3ec250ec539c7856b6691014849578137da30"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "6c7411dd5faf0d3b38513356485b11722e512ece965fd3a3f409a91e8755326a"
+    },
+    {
+      "path": "projects/site/tests/kandhamal-haladi-editorial.test.mjs",
+      "sha256": "44df5267cb7397a913d6ec7caa37493bb4559875ad1e865f859f981019386777"
+    },
+    {
+      "path": "projects/site/tests-coast/kandhamal-haladi-editorial.test.mjs",
+      "sha256": "44df5267cb7397a913d6ec7caa37493bb4559875ad1e865f859f981019386777"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "22c86180c142634133062123010f2f25ee60c431075f98667c8874cd0db9bc0a"
+    },
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "380d92681b300bc6968f06743b1f57a2e0d8fe30a535686a223e321009053f5c"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "408b7feddec59dbb9c89dd3580426ceee04dcc41b9a8a18a0b536f9fc3047861"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "4dd1fb32099b22cba9413dabd571e2e4019202114f61a6d2af6a0c00c0935c3c"
+    }
+  ],
+  "source_sha256": "e21b2be5128d720d9b520d6b6c3d299bb53ca8e86ba39fdb427c54e156b39715",
+  "source_parity": "Exact reviewed JSON e21b2be5 retained without changes: lead+7paragraphs+3complete notes,6reference-return pairs.",
+  "runtime": "Node24.15.0 explicit PATH",
+  "builds": {
+    "full": "PASS",
+    "coast": "PASS"
+  },
+  "tests": {
+    "full_article": 3,
+    "full_inventory": 6,
+    "coast_article_and_inventory": 13,
+    "failures": 0
+  },
+  "commands": [
+    "npm run build",
+    "node --test tests/kandhamal-haladi-editorial.test.mjs",
+    "node --test tests/build.test.mjs",
+    "npm run build:coast",
+    "node --test tests-coast/kandhamal-haladi-editorial.test.mjs tests-coast/cuttack-literature.test.mjs tests-coast/discovery-flow.test.mjs tests-coast/edition.test.mjs"
+  ],
+  "measured_counts": {
+    "full_html": 928,
+    "coast_selected_pages": 914,
+    "coast_html_with_404": 915,
+    "coast_explore": 155,
+    "coast_reading": 55
+  },
+  "count_change_evidence": "Only Haladi+1 against current cinema-aware baseline; full formula constant146→147, coast Reading54→55, Explore143→144 plus11reviewed. Cinema nine companion pages retained.",
+  "preservation": {
+    "source_exact": true,
+    "prior_catalog_source_exact": true,
+    "prior_discovery_source_exact": true,
+    "prior_editions_deep_equal": true
+  },
+  "products": {
+    "book": {
+      "count": 1246,
+      "mismatches": []
+    },
+    "prepared227": {
+      "count": 34,
+      "mismatches": []
+    }
+  },
+  "tests_cover": [
+    "Exact visible prose and source notes, all native citation return targets unique",
+    "Complete portableHTML/text lead/body/source notes/URLs and saved ID",
+    "Shared reading path expanded, no empty headings, singleh1,text-only",
+    "Explicit coast route/savedID and searchhold; previous edition objects unchanged"
+  ],
+  "guidance": {
+    "skill": "/Users/ahimanikya/.codex/skills/modern-web-guidance/SKILL.md",
+    "search": "accessible page navigation",
+    "retrieved": "accessibility",
+    "path": "outputs/kandhamal-haladi-2026-10-31/samanta/accessibility-guide.md",
+    "sha256": "0664f575db86ef1b06a083a188c02f450280299e0eebae5aeefe631f6846e782",
+    "quote": "Don't attach keyboard handlers to native interactive elements",
+    "applied": "Native anchors and shared citation return controller; no customkeyboardhandlers, standardfocus styles and logicalheadings retained."
+  },
+  "logs": {
+    "full-build": {
+      "path": "outputs/kandhamal-haladi-2026-10-31/samanta/full-build.log",
+      "sha256": "e57167c8b69d3cf6732c87005a98567913002153594d04d5169998bf6e30e0c1"
+    },
+    "full-focused": {
+      "path": "outputs/kandhamal-haladi-2026-10-31/samanta/full-focused.log",
+      "sha256": "f8982a8f1cfa9432af4ea8c41950f3547f9379f4a352715f55d3a4dfa9f3be13"
+    },
+    "full-inventory": {
+      "path": "outputs/kandhamal-haladi-2026-10-31/samanta/full-inventory.log",
+      "sha256": "cddc45c4e241c51923fa5a2204401560bc2629d3bea5de2e16abcb67a316f9f6"
+    },
+    "coast-build": {
+      "path": "outputs/kandhamal-haladi-2026-10-31/samanta/coast-build.log",
+      "sha256": "c79dc472a31d58575f51f4cc704535dbb9927420ad615f665928dd6941d42a81"
+    },
+    "coast-focused": {
+      "path": "outputs/kandhamal-haladi-2026-10-31/samanta/coast-focused.log",
+      "sha256": "5c609f26bac488ee6f65b891cc6e383ef68896ac2bcb3a4eeac605649123a1a4"
+    }
+  },
+  "limits": [
+    "Root owns broad suites,publication and browser verification; this report claims only worker runs.",
+    "No Git/sharedrecord/book mutations. Root sourceJSON and records maintained independently.",
+    "Two initial commands invoked from repository root rather than site returned missing-command/path errors; corrected site working directory used for passing runs.",
+    "Screenreader/user accessibility testing not performed by this worker."
+  ],
+  "scope_released": true,
+  "next": "Separate Drishti integrated/exact-head review and root publication gates; no further site edits planned."
+}

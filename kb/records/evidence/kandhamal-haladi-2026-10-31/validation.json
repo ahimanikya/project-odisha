@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "input_head": "c073bcf4ed2ea4653fdea4fc005da863c04aa0d3",
+  "full_tests": 672,
+  "coast_tests": 544,
+  "focused_full_tests": 9,
+  "focused_coast_tests": 13,
+  "publication": {
+    "status": "PASS",
+    "bytes": 629916363,
+    "files": 2551,
+    "indexable": 11,
+    "prior_catalog_items_exact": 111,
+    "new_catalog_items": 1,
+    "browser_tested_final_article_exact": true,
+    "public_catalog_objects_match_browser_tested_full_with_qualifications": true,
+    "catalog_qualifications": {
+      "full_only_items_excluded_by_edition": [
+        "base:konark-local",
+        "base:konark-puri",
+        "experience:konark-coast",
+        "experience:konark-dance",
+        "experience:konark-stone",
+        "experience:puri-temple-context",
+        "place:chandrabhaga",
+        "place:puri-beach",
+        "reading:mayurbhanj-ol-chiki"
+      ],
+      "food:pakhala_href": {
+        "full": "/knowledge/pakhala/",
+        "publication_and_prior_public": "/food/bhubaneswar/#pakhala"
+      }
+    },
+    "bindings": {
+      "stories/kandhamal-haladi/index.html": "a196a2763daa121f594005eb2399930e24646c0cf453b5ec462b0f1a70fde02d",
+      "assets/journey-data-39080014a7a845029f082cad646b66abac99159cf537c2a5da52d1ca76d9d6d1.js": "39080014a7a845029f082cad646b66abac99159cf537c2a5da52d1ca76d9d6d1"
+    }
+  },
+  "gates": {
+    "status": "PASS",
+    "results": [
+      {
+        "name": "full-tests",
+        "command": [
+          "npm",
+          "test"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "coast-tests",
+        "command": [
+          "npm",
+          "run",
+          "test:coast"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "disclosure-full",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "disclosure-coast",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-coast"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "coast-audit",
+        "command": [
+          "python3",
+          "tools/audit-coast.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "discovery-audit",
+        "command": [
+          "python3",
+          "tools/audit-discovery.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "search-review",
+        "command": [
+          "node",
+          "tools/prepare-search-review.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "launch-audit",
+        "command": [
+          "python3",
+          "tools/audit-launch-readiness.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "publication-build",
+        "command": [
+          "npm",
+          "run",
+          "build:publication"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "disclosure-publication",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-publish"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "search-shortlist",
+        "command": [
+          "python3",
+          "tools/audit-search-shortlist.py"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "checked_at": "2026-10-31T17:17:25.623324+00:00"
+  },
+  "browser": "kb/records/evidence/kandhamal-haladi-2026-10-31/browser-review.json",
+  "limits": [
+    "Separate AI review; no human or physical-device review claimed. Exact-head review and publication/live receipt pending."
+  ]
+}

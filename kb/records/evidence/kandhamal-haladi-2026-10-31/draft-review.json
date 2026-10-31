@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "decision": "PASS",
+  "review_type": "Separate AI source and actual frozen draft review",
+  "local_input_head": "2b56931f7108fc7a49a96ea6ffa1f8b606609b05",
+  "announced_remote_baseline": "c073bcf4ed2ea4653fdea4fc005da863c04aa0d3",
+  "input_bindings": {
+    "anvesha/article.md": "704f65d4db00faae2ac647dca401b11345d6a8cdce12e52d7ffa1fd811548f0e",
+    "anvesha/article.json": "e21b2be5128d720d9b520d6b6c3d299bb53ca8e86ba39fdb427c54e156b39715",
+    "anvesha/research.json": "9ef7f67c935b029cb146c0cb3640d738fe06883d3fa6f69ffe5f2b2b4c8c5b6b",
+    "anvesha/report.json": "027116c68ea76677565e54340c160e4bdb52be2d088258a096463fc6468929e9",
+    "samanta/report.json": "b502dce06d2165833c838ea8a958ec6b431e880e1bff2bb1b67f86d73f6087ca"
+  },
+  "actual_original_pages_visually_inspected": {
+    "official_gi_journal115": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "mahapatra2022_pdf_pages": [
+      18,
+      19,
+      21,
+      22
+    ],
+    "mahapatra_printed_pages": [
+      712,
+      713,
+      715,
+      716
+    ],
+    "jica_part02_pdf_pages": [
+      226,
+      227
+    ]
+  },
+  "review_render_hashes": {
+    "drishti/pages/gi-11.png": "9e4a6528b8848f1dde810c338fb8cad6055ce257364acac48cbf1adfb3aef276",
+    "drishti/pages/gi-12.png": "3fe0744c3cd49f18ac9facd5e8e8c77e8a087f11d6c22c44bd3ff5d89a86a53d",
+    "drishti/pages/gi-13.png": "27e43bdba0ff0c7f0c3874b366a4cfee443be50c6fcaa26650bb298b3d809a1f",
+    "drishti/pages/gi-14.png": "2470daaa3697e78e1cef41849e104a6464231b6ef11a92561a3a8afafb3d0360",
+    "drishti/pages/gi-15.png": "6ad5ccb1f14063da6a11f6861ad0c208f6cec9ccbd741a8f9e4d04046d990534",
+    "drishti/pages/jica-226.png": "45754231486dfaeda9af9ebaac0663ff4e9cc33a27e34bd674ce7098eb6761a0",
+    "drishti/pages/jica-227.png": "02af084607382d15fd20ed49bad30c44f08d93424009ffc90d5d58efbeef6a7e",
+    "drishti/pages/study-18.png": "fcfff3904c2b01d4227311ecec5835459253e4fb6063b892033f5e26ebc75fb1",
+    "drishti/pages/study-19.png": "4a10b0aa9da755f95e0610c493016fa7b0595ccdb3eaf91a50e7bc61c9c8c5bb",
+    "drishti/pages/study-21.png": "67ce7bf1872736296ecd4e662b8bf271e8182fd8c789a7149571d2b150ba3c2c",
+    "drishti/pages/study-22.png": "d2c710dc6aa5cd489c05ce9a48300dce105507da3a47898a957600af3d10df01"
+  },
+  "checks": {
+    "body_parity": "Lead plus seven section paragraphs exactly match Markdown visible wording; research claim map equals article sections",
+    "source_bindings": "All13 capture hashes/sizes and all3 source PDF hashes independently verified",
+    "source_budgets_independent": {
+      "gi-haladi": {
+        "specific": 146,
+        "shared_allowance": 45,
+        "total": 191
+      },
+      "forest-jica2017": {
+        "specific": 150,
+        "shared_allowance": 45,
+        "total": 195
+      },
+      "haladi-mahapatra2022": {
+        "specific": 148,
+        "shared_allowance": 45,
+        "total": 193
+      }
+    },
+    "shared_budget_method": "135 whitespace words from title/description/lead/closing plus headings including Footnotes & Sources, divided3 with ceiling45; specific headings/source titles/notes counted. No direct quotation.",
+    "GI": "Actual sectionG lists12tahsils; named four match. Seed retention/borrowing, leaf mulch, rainfed account and boiling/drying/polishing/grinding supported by inspected pages. Descriptions attributed to application, not all current farms.",
+    "registry_date": "Certificate1April2019 and application610 checked against retained selected registry fields and prior nucleus; full raw registry page not independently retrieved. Official journal supports applicant, journal date and geography, not later certificate by itself.",
+    "study": "2021 convenience22society-leader phone sample/fourblocks and unreached fifth preserved in note; own storage3of22 verified inTable8. Services examples supported.",
+    "JICA": "Actors and constraints tables support fuel/boiling/drying/quality bargaining/trader activity, storage and advance-linked low price. No prices/marketpercentages/composition or proposed outcomes adopted.",
+    "privacy_identity": "No individual authorized-user address/contact/signature or inferred farmer-community equivalence.",
+    "editorial": "Concrete crop/process/trade/support narrative; original synthesis distinguished from empirical results, no fabricated visits or testimony. Enduri further-reading does not claim GI ingredient provenance.",
+    "reuse": "Three bibliographic lineages retained, official access not treated as general reproduction licence; no facsimiles/photos proposed for publication."
+  },
+  "resolved_findings": [
+    {
+      "issue": "Initial wording could imply women were not targeted at all; Table2 assigns minor target to all22 and not-targeted0, despite prose not-specifically-targeted wording.",
+      "resolution": "Final paragraph states minor rather than major target and separately attributes authors recommendation; actualTable2 and conclusionp716 inspected.",
+      "status": "RESOLVED"
+    }
+  ],
+  "blockers": [],
+  "limits": [
+    "No independent fresh registry network request; certificate metadata relies on author selected-record capture consistent with prior saved nucleus.",
+    "No exhaustive validation of all assertions in source publications; broad organic, medicinal, ancient-origin, lab-composition and anomalous geography claims deliberately excluded.",
+    "PDF render review covers11 listed relevant pages, not full journals; selected full source texts additionally read.",
+    "Separate AI review, not human/community/field review, agricultural advice, legal entitlement or health assessment.",
+    "Output-only draft approval; no canonical implementation, browser testing or publication approved by this report."
+  ]
+}
