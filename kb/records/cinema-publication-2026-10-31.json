@@ -1,0 +1,47 @@
+{
+  "id": "POD-CINEMA-PUBLICATION-20261031",
+  "status": "publication_in_progress",
+  "started_at": "2026-10-31T14:21:48.312250+00:00",
+  "authorization": {
+    "actor": "Ahimanikya Satapathy",
+    "request": "Publish",
+    "date": "2026-10-31",
+    "scope": "Reviewed 50-reading cinema series and aligned digital and printable editions"
+  },
+  "active_article": null,
+  "scope": "Release integration of already-reviewed readings; no new article research",
+  "baseline_commit": "680ea31a",
+  "book_manifest": "outputs/cinema-publication-20261031/book-release-manifest.json",
+  "workers": {
+    "Anvesha": {
+      "scope": "Read-only payload and source audit",
+      "write_scope": [
+        "outputs/cinema-publication-20261031/source-release-audit.json"
+      ],
+      "status": "completed"
+    },
+    "Samanta": {
+      "scope": "Current book page and focused tests",
+      "write_scope": [
+        "projects/site/src/pages/cinema/book.astro",
+        "projects/site/tests/cinema-release.test.mjs",
+        "projects/site/tests-coast/cinema-reading-ux.test.mjs",
+        "outputs/cinema-publication-20261031/book-page-implementation.json"
+      ],
+      "status": "completed"
+    },
+    "Drishti": {
+      "scope": "Independent integrated release review",
+      "write_scope": [
+        "outputs/cinema-publication-20261031/independent-review.json"
+      ],
+      "status": "queued"
+    },
+    "Disha": {
+      "scope": "Release assets, metadata, integration, GitHub publication, shared records and live verification"
+    }
+  },
+  "publication_performed": false,
+  "human_specialist_review_claimed": false,
+  "scope_released": false
+}

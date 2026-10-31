@@ -155,9 +155,9 @@ test('author introduction leads to literature and preserves the expanded collect
  const out=cinemaArticle(first);assert.ok(out.article.html.includes('How could I help put money in writers’ pockets?'));assert.ok(out.readingLinks.some(link=>link.href==='/cinema/odia-cinema/'));assert.ok(!out.fullHTML.includes('Portrait supplied by Ahimanikya Satapathy; watercolor treatment.'));assert.ok(!out.fullHTML.includes('Image credit'));assert.ok(first.hero.alt.includes('watercolor-treated'));
 });
 
-test('current review books match the reviewed release manifest and retain both archives',()=>{
- const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-readiness-20261030/book-release-manifest.json'),'utf8'));
- assert.equal(manifest.edition_date,'2026-10-30');assert.equal(manifest.readings,41);
+test('current review books match the reviewed release manifest and retain all earlier editions',()=>{
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-20261031/book-release-manifest.json'),'utf8'));
+ assert.equal(manifest.edition_date,'2026-10-31');assert.equal(manifest.readings,50);
  assert.equal(cinema.review_books.length,2);const releaseBases=new Set();
  for(const b of cinema.review_books){
   const reviewed=manifest.assets.find(a=>a.edition===b.edition);assert.ok(reviewed,b.edition);
@@ -167,13 +167,17 @@ test('current review books match the reviewed release manifest and retain both a
   assert.equal(path.posix.basename(url.pathname),reviewed.filename);releaseBases.add(path.posix.dirname(url.pathname));
  }
  assert.equal(releaseBases.size,1);
+ assert.equal(cinema.review_books.find(b=>b.edition==='digital').pages,254);assert.equal(cinema.review_books.find(b=>b.edition==='print').pages,282);
+ assert.equal(cinema.archived_review_books.length,4);
+ assert.equal(new Set([...cinema.review_books,...cinema.archived_review_books].map(b=>b.file)).size,6);
  const page=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');
- assert.ok(page.includes('Available PDF edition · 30 October 2026'));assert.ok(page.includes('41 readings'));
- for(const date of ['27 October 2026','26 October 2026'])assert.ok(page.includes('Earlier published edition · '+date));
+ assert.ok(page.includes('Available PDF edition · 31 October 2026'));assert.ok(page.includes('50 readings'));
+ for(const date of ['30 October 2026','27 October 2026','26 October 2026'])assert.ok(page.includes('Earlier published edition · '+date));
  for(const archived of manifest.expected_previous_review_books){
   assert.ok(page.includes('href="'+archived.file+'"'));assert.ok(!cinema.review_books.some(b=>b.file===archived.file));
   assert.deepEqual(cinema.archived_review_books.find(b=>b.file===archived.file),archived);
  }
+ for(const archived of cinema.archived_review_books)assert.ok(page.includes('href="'+archived.file+'"'));
  for(const name of ['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'])assert.ok(page.includes('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/'+name));
  assert.ok(page.includes('cinema.review_books.map'));assert.ok(page.includes('not a printer-specific press-ready PDF'));assert.ok(page.includes('not tagged accessibility editions'));
 });
