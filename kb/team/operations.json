@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-expansion-222-2026-10-31.json",
+  "handoff_home": "records/badhei-editorial-team-2026-10-31.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-829",
+    "route": "/communities/badhei/",
+    "owner": "Disha",
+    "phase": "implementation"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_expansion_222",
+    "kind": "badhei_article",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/odia-dhaga-expansion-222-2026-10-31.json",
-    "scope_release": "After reviewed receipt merge/checks/remote verification"
+    "status": "implementation",
+    "handoff": "records/badhei-editorial-team-2026-10-31.json",
+    "scope_release": "After reviewed publication receipt merge/checks/remote verification"
   },
   "parallel_programmes": [
     {
@@ -102,14 +107,15 @@
       "note": "PR588 merged; deployment40352246855success; article,hub,economics andhero verifiedlive. Own scope released."
     }
   ],
-  "coordination_note": "222 readings/art and135-page PDF published and live verified; finite scope retained through reviewed receipt merge/checks/remote verification.",
+  "coordination_note": "Founder three-article sequence active; Badhei only. Dhaga227 reviewed local package preserved, no competing canonical release.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "dhaga_expansion_219",
+    "kind": "dhaga_expansion_222",
     "owner": "Disha",
-    "status": "published_and_live_verified",
-    "handoff": "records/odia-dhaga-expansion-219-2026-10-31.json",
-    "scope_release": "Effective only after separately reviewed receipt merge, passing required checks and exact remote hash verification."
+    "status": "released",
+    "handoff": "records/odia-dhaga-expansion-222-2026-10-31.json",
+    "scope_release": "After reviewed receipt merge/checks/remote verification",
+    "release_evidence": "PR632 merged674867f05a19677f6afc14f35ca13575c03190d4; CI41155599562success and16remotehashes verified."
   }
 }

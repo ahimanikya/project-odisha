@@ -1,0 +1,92 @@
+{
+  "status": "IMPLEMENTED_BUILDS_AND_FOCUSED_TESTS_PASS",
+  "input_head": "9d50066380c05803eaf61d17bc43649ff64aef3c",
+  "observed_head": "9d50066380c05803eaf61d17bc43649ff64aef3c",
+  "changed_files": {
+    "projects/site/src/pages/communities/badhei.astro": "39d8228b6f1a09464a14acba3fc9c60fcdc76e15c83148d6c0c2518ca44f42c5",
+    "projects/site/src/data/discovery.ts": "9e948efc4c67c07dd34d2798fc531a669da2b96279424d97398be81869c9882a",
+    "projects/site/src/data/journey-catalog.ts": "f3e40088ccb81d389055226520064055ba6b70ef22004816448da4fd2e34b9cc",
+    "projects/site/editions/coast.json": "7f8a31de081b7ebaa61c0dd5e20e985ffb2917f099709a225aec465f211494e1",
+    "projects/site/editions/search-candidate.json": "47c2a230b9819dcb0e951888120389c77ad4fcc51b12ad3c491840948772adbe",
+    "projects/site/tests/badhei-editorial.test.mjs": "f6fddabf33479120888affa371d2c32fd541f59f98712ab2823001fc98988573",
+    "projects/site/tests-coast/badhei-editorial.test.mjs": "f6fddabf33479120888affa371d2c32fd541f59f98712ab2823001fc98988573",
+    "projects/site/tests/build.test.mjs": "de78a1e86c128e695fe8660a80c031c6d776be02847ae7eb5467aba72b9cc537",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "1f8dfa31b391fa3c3238ea8a7c015f70efaf4f0f3b51a4fa336a9365e4312f32",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "15a9000835f96c0d4272d05d746abbbcb1ff0b3ddd952156ec42567caf66f703",
+    "projects/site/tests-coast/edition.test.mjs": "586b3881e976f63df7fd0916f8382b7896f185629cab4c1f738b11fb7c34ef1f"
+  },
+  "scope": "Seven reserved site files plus four explicitly authorized inventory-count tests. No book, KB, Git or publishing writes.",
+  "content": "Exact eight reviewed paragraphs retained via lead plus seven section paragraphs. All three complete source notes appear visibly and in saved HTML/text.",
+  "guidance": {
+    "file": "samanta/guidance-usage.json",
+    "sha256": "5a436c5d6846ae37b4a59abdc34e0205ec5c45afb200f3c55b81f381a7df9653",
+    "id": "accessibility",
+    "quote": "Don't attach keyboard handlers to native interactive elements",
+    "application": "Native source/reading links, shared exact-return handler, sequential headings with no empty introduction heading; expanded reading/source sections."
+  },
+  "tests": {
+    "npm run build": "PASS",
+    "npm run build:coast": "PASS",
+    "node --test tests/badhei-editorial.test.mjs": "3/3PASS",
+    "node --test tests-coast/badhei-editorial.test.mjs": "3/3PASS",
+    "node --test tests/build.test.mjs": "6/6PASS",
+    "node --test tests-coast/cuttack-literature.test.mjs tests-coast/discovery-flow.test.mjs tests-coast/edition.test.mjs": [
+      "ℹ tests 10",
+      "ℹ pass 10",
+      "ℹ fail 0"
+    ],
+    "runtime": "Node v24.15.0 explicit PATH"
+  },
+  "inventory_changes": {
+    "full_pages": "916→917, exactly new Badhei route",
+    "coast_pages": 903,
+    "coast_reading_items": "52→53, reading:badhei",
+    "explore": "141+reviewedArticleCount→142+reviewedArticleCount, exactly new Badhei discovery item",
+    "search": "hold; no eligibility expansion"
+  },
+  "preservation": {
+    "status": "PASS",
+    "reviewed_eight_paragraphs_exact": true,
+    "canonical_book_files_unchanged": 1246,
+    "frozen227package_files_unchanged": 34,
+    "draft_sha256": "251e9658cb5c7fb7aaf6400055454535adf6f46303d18b1e6a1bc48805b37e48",
+    "canonical_json_sha256": "b9066d0c3e1fdded06b8ad1449cd7b198a9c5fa521eee52d63ed205979f1838a"
+  },
+  "logs": {
+    "full-build": {
+      "path": "outputs/badhei-article-2026-10-31/samanta/full-build.log",
+      "sha256": "e57bb81669868a314a827eb3d7225c8d43704d61bd8207fdd5352af1afda4974"
+    },
+    "full-focused": {
+      "path": "outputs/badhei-article-2026-10-31/samanta/full-focused.log",
+      "sha256": "d7d61f4601099da790eaaf21d11960b79656d49d60ed9fe3d10993dd6ec13286"
+    },
+    "coast-build": {
+      "path": "outputs/badhei-article-2026-10-31/samanta/coast-build.log",
+      "sha256": "6ac53f8d4430bab5428c7e4fde76855839d153e9e4ee9c44f28b79b7b0eae8ad"
+    },
+    "coast-focused": {
+      "path": "outputs/badhei-article-2026-10-31/samanta/coast-focused.log",
+      "sha256": "0157b0eafa0a3673d2a27e127d3c5bbed5357bb53de7dc620c94f71dc3a6dfe1"
+    },
+    "inventory-test": {
+      "path": "outputs/badhei-article-2026-10-31/samanta/inventory-test.log",
+      "sha256": "04b435871a672fd4aefc23df0086c9341252df414adea7e45e0a760cdac96de1"
+    },
+    "coast-inventory-tests": {
+      "path": "outputs/badhei-article-2026-10-31/samanta/coast-inventory-tests.log",
+      "sha256": "8e3cf2d84c8b2c8e205191d5697d37fb753ca56aec7bd8be9996b68f10b42f66"
+    }
+  },
+  "resolved_validation_history": [
+    "Initial focused assertion wrongly banned shared native TOC details; narrowed guard to require reading/source sections outside disclosures. No product change.",
+    "Early coast focused invocation before final output move returned ENOENT; rerun after successful coast build passed.",
+    "Root broad suites identified four stale inventory expectations; explicitly authorized +1 corrections only, all affected tests rerun passed."
+  ],
+  "limits": [
+    "Root owns full suites, publication optimizer and actual browser review; not claimed as this worker execution.",
+    "No deployment/live result claimed.",
+    "No screen-reader or non-Chromium manual testing performed by this worker.",
+    "No rebuild needed after test-only count corrections."
+  ]
+}
