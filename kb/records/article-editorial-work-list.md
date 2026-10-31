@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 914. completed: 161, excluded: 462, queued: 291.
+Route inventory: 919. completed: 161, excluded: 467, queued: 291.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -938,3 +938,8 @@ Route inventory: 914. completed: 161, excluded: 462, queued: 291.
 | POD-EDIT-20261049 | [Uttam Mohanty: The Work Beside the Performance](https://projectodisha.org/people/uttam-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-20261050 | [Aparajita Mohanty: Helping a Film Take Shape](https://projectodisha.org/people/aparajita-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-831 | [Kandhamal Haladi: the work behind a place-name](https://projectodisha.org/stories/kandhamal-haladi/) | completed | One new Haladi article; preserve all prior articles, cinema publication, public Dhaga222, reviewed227package and historical cursors. |
+| POD-EDIT-DHAGA-223-20261101 | [କଅଁଳକହୀ ରାଧା, ଘରକୁ ଗଲେ କଥା ନ କହନ୍ତି ବାଟରେ ବଡ଼ ଶରଧା](https://projectodisha.org/dhaga/sayings/pod-dhaga-223.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-224-20261101 | [ଦେଉଳ ତୋଳେଇଲେ ନାଁ ପଡ଼େ, ବାଟରେ ହଗିଲେ ନାଁ ପଡ଼େ](https://projectodisha.org/dhaga/sayings/pod-dhaga-224.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-225-20261101 | [ଖଣ୍ଡ଼ିଗଣିଆଁର ଦିଗୁଣ ସରେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-225.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-226-20261101 | [କୋହଳ ପାଇଲେ ଦୋହଡ଼ ଚଷନ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-226.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-227-20261101 | [କାକର ଧରି କି ଘଡ଼ା ଭର୍ତ୍ତି ହୁଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-227.html) | excluded | standalone_dhaga_collection |
