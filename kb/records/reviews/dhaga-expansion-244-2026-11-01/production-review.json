@@ -1,0 +1,332 @@
+{
+  "status": "PASS_STAGED_244_PRODUCTION_REVIEW",
+  "decision": "PASS",
+  "reviewer": "Drishti, separate AI review",
+  "input_head": "0414cd13480844a535ebf38b8d352cae50f6e54e",
+  "checked_at": "2026-10-31T20:46:46.329289+00:00",
+  "scope": "Output-only staged book; no canonical integration or publication approval.",
+  "pdf": {
+    "pages": 155,
+    "bytes": 88245621,
+    "sha256": "a98e7051846821437d49c6e1948f5f403e396d93d74213527ca2a5eb667ee4d8"
+  },
+  "installation_manifest_sha256": "86030093fe4f14dac144cc427ce8082e56de09c9afba4b100f910581001d5999",
+  "bindings": {
+    "production/samanta.json": "cc80bc987dd9146b90228393c786a23df8e0c0a877d7677df88e7d2ba2020499",
+    "production/installation-manifest.json": "86030093fe4f14dac144cc427ce8082e56de09c9afba4b100f910581001d5999",
+    "production/page-map.json": "7c098e3721eb68c95c16326a42b450e3c7ea22ce4d157a9d62228e72d4b5c06c",
+    "production/preservation.json": "2f32fc600648edfe41c73ffe65d4cb9ae4b375846b5deb82f491268d33720e0f",
+    "production/244-lossless-pair-check.json": "0db359d10fc694dfce663657b3d7cc9730c56192f2684b095048a0ab7d4a92d3",
+    "production/pair-command-deterministic.json": "87b14f9f76c2f1954c8dabc587bae42e2408f9e46a2236459474004931ed82b8",
+    "production/stage/odia-dhaga-book.pdf": "a98e7051846821437d49c6e1948f5f403e396d93d74213527ca2a5eb667ee4d8",
+    "anvesha/release-source-review.json": "2a6b3a7889a4bed6726e7b73f2162c7680ece90df2feadf30880d95ab9d81013",
+    "drishti/art-review.json": "99e47d2f4abba5f6fab719ae328b10fe99495d323ce85a54c043692092d428dd",
+    "drishti/preparation-review.json": "9bb44c31c51b510b69725daccbfadbf6933a352a43caae195b05997baeddfc62",
+    "drishti/lossless-strategy-review.json": "2ae7d44056414472a72ea994ded8ccbf0ab6ec99750473ffd1288fe5979e0c9c",
+    "drishti/independent-tests.log": "c4e72d3ada258be58fec58a9ce60384eee44a07ac5d6b291ca16745d7af87047",
+    "drishti/independent-preservation.json": "304bb9b9e01e13b5cdc787035ee518814071461c0f53cfbdde1cba32f2fd9c5b",
+    "drishti/independent-final-pair-check.json": "0db359d10fc694dfce663657b3d7cc9730c56192f2684b095048a0ab7d4a92d3"
+  },
+  "actual_checks": {
+    "independent_temporary_copy_tests": "22 PASS: test_repository, test_source_inventory, test_print_layout; temporary copy removed; stage not rebuilt.",
+    "all_stage_hashes_verified": 1357,
+    "canonical_baseline_hashes_verified": 1272,
+    "installation_files": 325,
+    "prior227_entry_and_asset_bytes_exact": true,
+    "prior227_unit_metrics_exact": true,
+    "all17_nongraphic_entry_objects_exact_package": true,
+    "new_fullwidth_only": [
+      235,
+      236,
+      241,
+      243
+    ],
+    "body_font_pt": 10.5,
+    "all_text_scales": 1,
+    "independent_strict_pair_verifier": "PASS155; actually rerun read-only against deterministic reference. Compressed image payloads, decoded images, all-page96dpi pixels, text, geometry, embedded font bytes/descriptors, links and reader metadata exact.",
+    "bytes_below_104857600": 16611979,
+    "source_roles": "169883 remains note-only lexical context on228 and primary witness241, one source object; no073 patch. Historical source coverage and75pending preserved as bound source review verifies."
+  },
+  "visual_review": {
+    "actual_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      28,
+      29,
+      30,
+      47,
+      48,
+      49,
+      50,
+      51,
+      59,
+      70,
+      71,
+      72,
+      85,
+      86,
+      87,
+      88,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      126,
+      127,
+      128,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "count": 43,
+    "renders": [
+      {
+        "page": 1,
+        "path": "pdf-pages/page-001.png",
+        "sha256": "e489dd7ec5047a27e3b9c20cbfe17218228a1209c8145241a5b67a0abcd5f759"
+      },
+      {
+        "page": 2,
+        "path": "pdf-pages/page-002.png",
+        "sha256": "7432e938371a385050c7d23a4ee8667d14f4ba4f071212a8996ac54fdb3a84fe"
+      },
+      {
+        "page": 3,
+        "path": "pdf-pages/page-003.png",
+        "sha256": "39b1c170ab3dc6e11e55a8d36a74b6b63a44986bdeaa3da36b8c14e864a0c0a6"
+      },
+      {
+        "page": 4,
+        "path": "pdf-pages/page-004.png",
+        "sha256": "c1f8208472a31319daedb896c39b657a6f7e67af808f4efc9f6031ea93da4153"
+      },
+      {
+        "page": 5,
+        "path": "pdf-pages/page-005.png",
+        "sha256": "51e0e4ce0310433417f4e378b3a45cf1bc85a78f9c7a25d8d3c7e147ff60be9c"
+      },
+      {
+        "page": 6,
+        "path": "pdf-pages/page-006.png",
+        "sha256": "cebcb5c1b8682ee05efadf2a3bfadffd77e9fd55c49f3ef2a512d1fddb392dcb"
+      },
+      {
+        "page": 28,
+        "path": "pdf-pages/page-028.png",
+        "sha256": "1dc5bf726a505f465a28feea8ae59f2c80b20c51b23458b143a0bc8284bc2b34"
+      },
+      {
+        "page": 29,
+        "path": "pdf-pages/page-029.png",
+        "sha256": "5f4d268ebbd5fe236746f835bd8a9588d9fa8e7b7da08c59a10c3f5e4d7b2e5a"
+      },
+      {
+        "page": 30,
+        "path": "pdf-pages/page-030.png",
+        "sha256": "93f7207a8c3447c1b9423ace1bfbd536900eaf77fa1109dd339dce984115c393"
+      },
+      {
+        "page": 47,
+        "path": "pdf-pages/page-047.png",
+        "sha256": "8c276e8a8587ac0bd9f8a09e69c6495c6afafb3b688167080ee2c983272b931a"
+      },
+      {
+        "page": 48,
+        "path": "pdf-pages/page-048.png",
+        "sha256": "3f8d0465b6a2f466d415a660ca260222a4e12bc124de478acc44eb334e1b2c8f"
+      },
+      {
+        "page": 49,
+        "path": "pdf-pages/page-049.png",
+        "sha256": "9ddd56834d75e81f838921a62c6b247bf42aadee4330b4a50ad073a7d295eddd"
+      },
+      {
+        "page": 50,
+        "path": "pdf-pages/page-050.png",
+        "sha256": "57cc6d3b0500b4cf76fcacf80f2d6b45e48e7aa175f648ced67b375fc662c90f"
+      },
+      {
+        "page": 51,
+        "path": "pdf-pages/page-051.png",
+        "sha256": "b3c48adcd43198eed875c34b3ff2fc1df4a1a8bd1bfd0d492ea7a3b39b77a333"
+      },
+      {
+        "page": 59,
+        "path": "pdf-pages/page-059.png",
+        "sha256": "4f2bb34b0038af41c1ae1beeddce6980de20f07555575fdf732a997be5189bb7"
+      },
+      {
+        "page": 70,
+        "path": "pdf-pages/page-070.png",
+        "sha256": "db204695c79c1f317ef4c191f3126e7a5b807e17f5c4579b05639f106df5f713"
+      },
+      {
+        "page": 71,
+        "path": "pdf-pages/page-071.png",
+        "sha256": "20a04d6e3a3f5928f9472eae7227ac608fab298b8aea50c1ebea3cec427115d3"
+      },
+      {
+        "page": 72,
+        "path": "pdf-pages/page-072.png",
+        "sha256": "1a6f2c6e876d89d2d21726b586c8aa89139eb68ea550b5279821880040b63bdd"
+      },
+      {
+        "page": 85,
+        "path": "pdf-pages/page-085.png",
+        "sha256": "52d99d2065357dde2857a9fceeb90fde7b9e4ffacb908ddce2ca141587753cea"
+      },
+      {
+        "page": 86,
+        "path": "pdf-pages/page-086.png",
+        "sha256": "d6a6dfae39ce0f3a410158c84cd0f940d127cba7b6769564a2c1bd6776414121"
+      },
+      {
+        "page": 87,
+        "path": "pdf-pages/page-087.png",
+        "sha256": "021dde038b16c527969ba21bab58f62ff3c8e4d1e7a135f2fa75d40cf7f651ba"
+      },
+      {
+        "page": 88,
+        "path": "pdf-pages/page-088.png",
+        "sha256": "bb3120258b5e198f04fb3354cc6f4da38f30bf2f8d43ffea72658ab37b7c9095"
+      },
+      {
+        "page": 105,
+        "path": "pdf-pages/page-105.png",
+        "sha256": "981d7637dc44020d0eaca6b8f029204a4fb853652aba5ea1997980ad8e3cc241"
+      },
+      {
+        "page": 106,
+        "path": "pdf-pages/page-106.png",
+        "sha256": "faaa48796fbb40324df550d583e13e023239cf02c5b15fc04a92995a2d411db1"
+      },
+      {
+        "page": 107,
+        "path": "pdf-pages/page-107.png",
+        "sha256": "89233a5bb7a9c6084f35d48ac1add7bd83ff11c7aa82c509c85c85b1ec1ca1b1"
+      },
+      {
+        "page": 108,
+        "path": "pdf-pages/page-108.png",
+        "sha256": "a9782ff2f7b65eb59f0fcbf77c1050c410866742f16d5cd491153739df2f5b0d"
+      },
+      {
+        "page": 109,
+        "path": "pdf-pages/page-109.png",
+        "sha256": "6060398ecea223b5146f36157be04799d4f43383a0d175162fa52e0e79638489"
+      },
+      {
+        "page": 110,
+        "path": "pdf-pages/page-110.png",
+        "sha256": "6d6e9fbb8055a6114bbb3d4c7438c7e892252870a613eb6e7692b3b802523b17"
+      },
+      {
+        "page": 111,
+        "path": "pdf-pages/page-111.png",
+        "sha256": "fde3d11d834eb895891f9736233eeac7a41758da71fed3913d65c69a9407f175"
+      },
+      {
+        "page": 126,
+        "path": "pdf-pages/page-126.png",
+        "sha256": "c3a6d56afb8c9f9cf2a1696f1371a286672a360a1c28d270bd47bbd1aae63fdf"
+      },
+      {
+        "page": 127,
+        "path": "pdf-pages/page-127.png",
+        "sha256": "307cf663761f5bba1431933e8fd285aaa4e6cbf8fc83fa48f0187cbcebeb9ce3"
+      },
+      {
+        "page": 128,
+        "path": "pdf-pages/page-128.png",
+        "sha256": "e3ef663380e7c90f1c77c104b33f6dae12e10cdf9c460935393edd4d37b0a5b1"
+      },
+      {
+        "page": 145,
+        "path": "pdf-pages/page-145.png",
+        "sha256": "367d9d7cb173f04b1edeaa24e49666740e5b94a79afd0011592343f74f42619c"
+      },
+      {
+        "page": 146,
+        "path": "pdf-pages/page-146.png",
+        "sha256": "da58cb60bce038cc6400a1acc3a4c7607c42f00b88cdfe00c2871ab8b877185c"
+      },
+      {
+        "page": 147,
+        "path": "pdf-pages/page-147.png",
+        "sha256": "cb7115cede3ce1edacb1e0f6372d84c702d2b7ab0257729c6e44679a886ce424"
+      },
+      {
+        "page": 148,
+        "path": "pdf-pages/page-148.png",
+        "sha256": "654e8c74a3d6d9ce165cddeb529356aef729b5cc8b458285f0c7ecfab8bb6ec9"
+      },
+      {
+        "page": 149,
+        "path": "pdf-pages/page-149.png",
+        "sha256": "0532de84891b328e6ad78b747a41a45c7000ce74a99476b069e7699e9b610358"
+      },
+      {
+        "page": 150,
+        "path": "pdf-pages/page-150.png",
+        "sha256": "61794f40a698db4181c56e1c549f9fe1248908e7928433b117cea8119e29ce17"
+      },
+      {
+        "page": 151,
+        "path": "pdf-pages/page-151.png",
+        "sha256": "5f93ffd2972bef63b75d76ade4b0e99434892d8c4903925fab54bce5870310a3"
+      },
+      {
+        "page": 152,
+        "path": "pdf-pages/page-152.png",
+        "sha256": "bae4d60a86876a7d02f586e58daef58d6625ddc2921dc4da53860501ed0165a4"
+      },
+      {
+        "page": 153,
+        "path": "pdf-pages/page-153.png",
+        "sha256": "5ebfaf33afe6efcd568c3cba126db54ced35d64612189240761befc10492126a"
+      },
+      {
+        "page": 154,
+        "path": "pdf-pages/page-154.png",
+        "sha256": "285533589ed16a2cd0b806aba1be92b0067a1e930744286af49d61c893c7df91"
+      },
+      {
+        "page": 155,
+        "path": "pdf-pages/page-155.png",
+        "sha256": "f4673e9386b8a399753142df538484b98792c511f97c6a37e3f3c8a951318be1"
+      }
+    ],
+    "method": "Each supplied full page PNG individually opened with view_image; pdftoppm scale-to1404, not fixedDPI.",
+    "findings": [
+      "All17 new readings visible with intact Odia/English headings, explanations, examples and context. No clipping, overlaps, tofu or lost illustration detail found.",
+      "Four full-width new readings preserve ordinary type and complete prose; other new illustrations remain above130pt floor. Sparse neighboring columns are a consequence of existing full-width packing, not missing text.",
+      "Cover244, contents chapter positions, representative prior pages and sources146–155 inspected. Source credits preserve SCERT exception, Wikimedia attribution, verification-only scan qualifications and contextual source roles.",
+      "All17 original art approvals reused and final page reproductions inspected; imagined/critical captions remain consistent."
+    ]
+  },
+  "lossless_history": "Initial separate-run reference failed strict embedded-font equality because fontTools modified timestamps differed. Initial failure/reference retained. Only reference regenerated with SOURCE_DATE_EPOCH1793479128 matching candidate; candidate PDF unchanged. Strict font-byte comparison was not weakened; independent rerun passes.",
+  "findings": [],
+  "limits": [
+    "Separate AI review, not human editorial or physical print proof.",
+    "43 pages visually inspected; all155 compared by machine, not claimed manually viewed.",
+    "No new source retrieval or historical reading certification; frozen research/preparation/art reviews reused with actual integration parity.",
+    "No website export, browser, CI, deployment or public acceptance certified; future canonical release requires its own gates.",
+    "Minor inherited source-apparatus spacing remains unchanged; no source quotation normalization or unsolicited copyediting performed.",
+    "Read-only pair test logged local macOS cache warnings but exited0 and completed every155-page assertion."
+  ]
+}

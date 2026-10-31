@@ -1,0 +1,39 @@
+{
+  "decision": "PASS",
+  "status": "PASS_BOUNDED_LOSSLESS_STRATEGY_EXPERIMENT",
+  "reviewer": "Separate AI review",
+  "source_sha256": "2563604ec1ea8f7a87acec2d97bf4941f70b5e6fc452c71f08289134a9080b82",
+  "output_sha256": "0f9d5636d2111b5c22eb533f0622e375be03d02fa90f633aef5f54b137c483cb",
+  "bytes_before": 103428413,
+  "bytes_after": 82785284,
+  "saved_bytes": 20643129,
+  "bindings": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-244-2026-11-01/production/lossless-experiment.py": "4c3979dd2b88b2a2b2c27e83cbc637b3ed108d9f8f4f9d2f49e44fc723550aa9",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-244-2026-11-01/production/compare-lossless.py": "271828b48c0d98b70a6c5782ec56891b1e5c3360fde2a73576371a8149ae10ac",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-244-2026-11-01/production/lossless-experiment.json": "e2298d959f3ef3436c8edfcbac5c9b9d1eeb56d2ea55be8330caf86b5f8e1c65",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-244-2026-11-01/production/lossless-render-comparison.json": "5d166a4d4b6a2dfa3dc5ef04187c4f798b7db4da5e83b5347cb6414feb25360a",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-244-2026-11-01/drishti/independent-lossless-render-comparison.json": "5d166a4d4b6a2dfa3dc5ef04187c4f798b7db4da5e83b5347cb6414feb25360a",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-244-2026-11-01/production/227-ascii85-unwrapped-experiment.pdf": "0f9d5636d2111b5c22eb533f0622e375be03d02fa90f633aef5f54b137c483cb"
+  },
+  "checks": [
+    "Read actual transformation: outer ASCII85 decoding only, inner JPEG/Flate payloads retained; no image resampling/reencoding.",
+    "Inspected recorded all141 text/geometry/decoded-image equality and metadata equality.",
+    "Independently executed read-only comparison: all141 page pixels exact at96dpi, embedded font bytes/descriptors and links exact excluding object references.",
+    "Actually viewed eight PNGs: both sides of pages1,28,98,141. No visible difference or new layout defect."
+  ],
+  "actual_visual_pairs": [
+    1,
+    28,
+    98,
+    141
+  ],
+  "findings": [],
+  "permitted_next_step": "Narrow output-stage generator useA85=0 experiment is supported; verify actual generated244 PDF using before/after stream/pixel/layout proof and measured final size before production approval.",
+  "limits": [
+    "This227 experiment is not a built244book approval or canonical adoption.",
+    "Independently rendered141comparisons are automated equality checks, not a claim of visually reading all282page images.",
+    "MuPDF96dpi equality is bounded; no every-engine/every-resolution claim.",
+    "Generator-level useA85=0 is a different code path from this pypdf experiment and needs its own final proof.",
+    "No canonical or PDF edits by reviewer."
+  ]
+}
