@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "decision": "PASS",
+  "review_type": "Separate AI actual live evidence review",
+  "reviewed_head": "bea9fe47063f1a0478a2202de4a0c48ce38e1ac7",
+  "merge_commit": "32992fb499dc3f7d25a04927b18a82355ce5ecaa",
+  "evidence_bindings": {
+    "live_http": "062758f5bcab761f9fa7e4a68d43b7bc9545091249e8ab1128082daaf204bd4a",
+    "live_browser": "33dda83aa1743a17e34f243f48b1bec6f0dd276e89b56561f12720dc408f839d"
+  },
+  "additional_bindings": {
+    "live-browser/desktop-opening.png": "dd9e4c4ca9f20802d4d6ec808948807557c93a02608e1db7249c35f9cac4146b",
+    "live-browser/desktop-sources.png": "2be366188add9f12ba6fb3ce4fd4c2a7fb5b82686362c6d2c607f31d93d73d5b",
+    "live-browser/phone-opening.png": "ad4c464b6f2fe5b68ec2d0fa5e4f208f294d29cdfc16d66d367315cbf4d876e8",
+    "live-browser/phone-sources.png": "3215a569afcae87e503ea5cdf3b919805b3f1b2c9e4b8cadf698b47c7b7fb913",
+    "live/live-http-report.json": "6530eb2838b6653ea36cbf7e094719159cd0011dadd296f57844f05f3182de00",
+    "live-browser/browser-review.json": "f61def7efb37052161a1ef289524eea3e934a069dce1fc4b0c2d3121c7667c8f",
+    "validation-run.json": "bc498e5fa82917e8ab5be96fb2f75d70b09c060beba29c219c7026aefe1cce73",
+    "deployment-run.json": "a5910ed3790f2560b0c7f03a1ea9b0d6ae0850be943956a39d2ad90fd2afec4e",
+    "live/captures/article.html": "f4fb3acfa885ddc734d2cd750edebad347489fabd13b2b7fa2a2132baf617751",
+    "live/captures/explore.html": "b8a3679946a95a3d9036bbcd93a4728043dff66145e321987b581fdb031cc5fb",
+    "live/captures/journey-data.js": "39080014a7a845029f082cad646b66abac99159cf537c2a5da52d1ca76d9d6d1",
+    "anvesha/article.json": "e21b2be5128d720d9b520d6b6c3d299bb53ca8e86ba39fdb427c54e156b39715"
+  },
+  "delivery_wrapper": {
+    "programme_id": "POD-A500-134",
+    "work_id": "POD-WORK-325",
+    "authorization": "POD-DEC-225",
+    "status": "pass_with_limitations",
+    "verification": {
+      "body_blocks_exact": 8,
+      "complete_notes": 3,
+      "source_urls": 3,
+      "reference_return_pairs_reported": 6,
+      "actual_browser_keyboard_returns_reported": 12,
+      "save_reload_both_reported": true,
+      "actual_downloads_independently_parsed": {
+        "desktop": {
+          "sha256": "ed39cfd41335643db1510bbd2d403030fb1d7d37a02b543168b1c341afce8470",
+          "body_blocks": 8,
+          "complete_notes": 3,
+          "source_urls": 3
+        },
+        "phone": {
+          "sha256": "ed39cfd41335643db1510bbd2d403030fb1d7d37a02b543168b1c341afce8470",
+          "body_blocks": 8,
+          "complete_notes": 3,
+          "source_urls": 3
+        }
+      },
+      "captures": "All3actual HTTP capture hashes/sizes/status200 verified",
+      "catalog": "Live asset byteexact reviewed publiccatalog39080014…,112objects including111preserved siblings; no whole full-buildcatalog equivalence claim",
+      "release": "Successful deployment41227365799 exactmerge32992fb4; CI successful reviewedcandidate; boundreporttimestamps after deploymentcompletion",
+      "actual_images_viewed": [
+        "live-browser/desktop-opening.png",
+        "live-browser/desktop-sources.png",
+        "live-browser/phone-opening.png",
+        "live-browser/phone-sources.png"
+      ]
+    }
+  },
+  "findings": [
+    "Individually viewed all4 actual live screenshots. Desktop1280 andphone390 title,byline,lead,save andall3source notes readable without observed clipping or overlap.",
+    "Live and both downloaded readings preserve approved prose and corrected minor-target wording plus dated sampling/source limitations.",
+    "Wrappers preserve every raw report field and bind originalrawhashes; only actualmerge/timestamp metadata added.",
+    "LiveHTML semantic equivalence asserted, not complete liveHTML byteidentity."
+  ],
+  "blockers": [],
+  "limits": [
+    "Separate AI review, not human/community/fieldwork review.",
+    "Actual headless Chrome actions run by coordinator; reviewer inspected four images and parsed actual files, did not replay interactions.",
+    "Phone viewport is not physical-device testing; no AT/Firefox/WebKit claim.",
+    "No new source research or re-verification of all222Dhaga assets.",
+    "This is live delivery evidence approval; receipt merge/CI/remotehashverification and final scope release remain separate."
+  ]
+}

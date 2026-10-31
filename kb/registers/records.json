@@ -9498,18 +9498,20 @@
       "id": "POD-WORK-325",
       "title": "Research and publish Kandhamal Haladi article",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Implement exact reviewed draft, complete tests and separate review, publish and retain scope through reviewed delivery receipt.",
+      "next_action": "Published and verified; retain delivery receipt and source limits.",
       "blockers": [],
       "refs": [
         "POD-DEC-225"
       ],
       "evidence": [
-        "records/kandhamal-haladi-team-2026-10-31.json"
+        "records/kandhamal-haladi-team-2026-10-31.json",
+        "records/kandhamal-haladi-delivery-review-2026-10-31.json",
+        "records/kandhamal-haladi-editorial-publication-2026-10-31.json"
       ]
     }
   ],
@@ -23172,6 +23174,28 @@
         "Dated project and language-source accounts, not a district-wide current livelihood or universal community identity claim.",
         "No community fieldwork or human review claimed."
       ]
+    },
+    {
+      "id": "POD-REV-2026103103",
+      "title": "Kandhamal Haladi separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human community or field review.",
+      "reviewed_head": "bea9fe47063f1a0478a2202de4a0c48ce38e1ac7",
+      "refs": [
+        "POD-WORK-325"
+      ],
+      "evidence": [
+        "records/kandhamal-haladi-delivery-review-2026-10-31.json"
+      ],
+      "limitations": [
+        "GI geography is not blanket organic certification or medical proof; dated trading-chain and sampled producer-service findings do not establish district-wide present practice.",
+        "No community fieldwork or human review claimed."
+      ]
     }
   ],
   "releases": [
@@ -27078,6 +27102,22 @@
         "records/kandhamal-cultural-editorial-publication-2026-10-31.json"
       ],
       "note": "Published and live verified at https://github.com/ahimanikya/project-odisha/pull/637; receipt integration remains pending its reviewed merge and remote verification."
+    },
+    {
+      "id": "POD-REL-2026103103",
+      "title": "Kandhamal Haladi: the work behind a place-name",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/stories/kandhamal-haladi/",
+      "refs": [
+        "POD-WORK-325",
+        "POD-REV-2026103103",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kandhamal-haladi-editorial-publication-2026-10-31.json"
+      ],
+      "note": "Published and live verified at https://github.com/ahimanikya/project-odisha/pull/641; receipt integration remains pending its reviewed merge and remote verification."
     }
   ],
   "sources": [
