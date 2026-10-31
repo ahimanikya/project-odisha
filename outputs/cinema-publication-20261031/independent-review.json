@@ -1,7 +1,7 @@
 {
   "status": "PASS_PUBLICATION_CANDIDATE",
   "reviewer": "Drishti; independent AI review",
-  "head": "1fe26222d983e33b633a0101c8d0ee3b19ae56f1",
+  "head": "4c13fc13ed437e07761014cf0a8e888b2ed131e4",
   "reviewed_premerge": "be1050bade1d081edb5a927d7b5735c450528589",
   "upstream": "8a744d8d3ad07ebb7b114372d41d052f6987f50a",
   "checks": {
@@ -128,5 +128,18 @@
     },
     "Kandhamal_status": "completed",
     "scope": "Diff from activated payload head contains internal records/registers/search-index/evidence and live-verification script only; no article, asset, template, edition or PDF/build source changes. Previously inspected publication payload therefore unchanged."
+  },
+  "generated_workbench_followup": {
+    "status": "PASS",
+    "base": "1fe26222d983e33b633a0101c8d0ee3b19ae56f1",
+    "head": "4c13fc13ed437e07761014cf0a8e888b2ed131e4",
+    "verified_changes": [
+      "kb/research/search-index.json",
+      "projects/site/editions/coast.json"
+    ],
+    "actual_file_hashes_match": true,
+    "other_workbench_data_unchanged": true,
+    "scope": "Remaining diff is publication record and review/build evidence only. No public article, asset, template, edition or PDF source change. Prior payload review remains applicable.",
+    "CI_limit": "Required hosted CI still running per coordinator; no completed CI/deployment claim by reviewer."
   }
 }

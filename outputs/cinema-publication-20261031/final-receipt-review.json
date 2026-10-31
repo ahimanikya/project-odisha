@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "reviewer": "Drishti, independent AI review",
+  "date": "2026-10-31",
+  "scope": "Consistency of final publication receipts and rollout completion with retained actual evidence; no new live/browser run.",
+  "publication": {
+    "PR": 639,
+    "merge_sha": "9295ae8463d297b6730c947cfbc2253249c02431",
+    "required_validation_run": 41212569647,
+    "required_validation_head": "4c13fc13ed437e07761014cf0a8e888b2ed131e4",
+    "deployment_run": 41213762375,
+    "saved_run_conclusions": "Both success/completed; deployment head equals merged PR SHA."
+  },
+  "checks": {
+    "live_pages": 54,
+    "live_image_files": 61,
+    "all_saved_HTTP200_and_release_matches": true,
+    "canonical_verified_routes_match_live_set": true,
+    "PDF_remote_hashes_match_approved_assets": true,
+    "rollout_completed_articles": 50,
+    "utility_routes_excluded": 4,
+    "rollout_changes_outside54cinema_routes": 0,
+    "human_review_claimed": false,
+    "queue": "Published with evidence gaps; no active item, gaps retained.",
+    "operations_and_ledger": "Publication closed with retained research gaps; no programme credit, social posting, ISBN or specialist review claimed."
+  },
+  "resolved_minor_findings": [
+    "Canonical independent review revision corrected to4c13fc13.",
+    "Earlier30October books wording corrected to avoid current-edition ambiguity."
+  ],
+  "findings": [],
+  "limits": [
+    "Completion denotes the reviewed editorial/delivery workflow and user-authorized publication; it is not human specialist approval.",
+    "This check validates retained deployment/live evidence; it does not independently repeat network or browser verification."
+  ],
+  "scope_released": true,
+  "input_hashes": {
+    "kb/records/cinema-publication-2026-10-31.json": "f4379a3519f8ebb05080b4438b1ffce4db5c07df652a9efac84628849cd0b220",
+    "kb/records/article-editorial-rollout.json": "7d1714c0d14fa6081e227ca18c657b047c9d14e49c8098dafd386935d241c18f",
+    "kb/records/cinema-expansion-work-list-2026-10-31.json": "f0874a7c0b10ba62579c6e45b16cd1c95c2621bfa00b915f95410aba216adc22",
+    "kb/index.md": "2b2cad704834a9208dc00989d070964c50f4d98915679d615c203ad50ef2c376",
+    "kb/team/operations.json": "ccd0845a9705cb48a21b088f2c2be69701a76e8321f89b086c6016da4da1ebed",
+    "outputs/cinema-publication-20261031/merged-pr.json": "76d54dfff962e9d788a3e0e0dc316fa4edbd5e3adf69378c1dab339b89ef9b4d",
+    "outputs/cinema-publication-20261031/validation-run.json": "25ab26229b8e8b353c3d7e29daaa9f967955396909444c335da7661ada6326a6",
+    "outputs/cinema-publication-20261031/deployment-run.json": "3569f1da4b6a2760e5950542f644c8af953971eaaaafcc3172ebc84065be32c8",
+    "outputs/cinema-publication-20261031/live-verification.json": "0da82578507971900b004b5be0c7223671182e5a304b2302b11113820f1158e8",
+    "outputs/cinema-publication-20261031/remote-book-verification.json": "7649433766d76e83686d216dc0b5095d78a18c1932311ab5950c22609fb545c3"
+  }
+}

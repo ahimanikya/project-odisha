@@ -1,6 +1,6 @@
 {
   "id": "POD-CINEMA-PUBLICATION-20261031",
-  "status": "publication_in_progress",
+  "status": "published_verified",
   "started_at": "2026-10-31T14:21:48.312250+00:00",
   "authorization": {
     "actor": "Ahimanikya Satapathy",
@@ -41,14 +41,14 @@
       "scope": "Release assets, metadata, integration, GitHub publication, shared records and live verification"
     }
   },
-  "publication_performed": false,
+  "publication_performed": true,
   "human_specialist_review_claimed": false,
-  "scope_released": false,
+  "scope_released": true,
   "book_release": {
     "status": "published_assets_verified",
     "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-10-31",
     "tag": "odia-cinema-book-2026-10-31",
-    "source_revision": "809b2568",
+    "source_revision": "809b2568709488a2a573faf5f2233e2649cdb56e",
     "assets": [
       {
         "edition": "digital",
@@ -76,16 +76,108 @@
     "disclosure_violations": 0,
     "publication_bytes": 629881374,
     "record_checks": "27 checks; initial three portable metadata failures corrected and rerun successfully",
-    "browser": "Desktop and390pxphone bookpagePASS"
+    "browser": "Desktop and390pxphone bookpagePASS",
+    "github_required_checks": {
+      "run_id": 41212569647,
+      "conclusion": "success"
+    },
+    "resolved_ci_issue": "Two stale generated workbench input hashes refreshed; six Python and three JavaScript checks passed, then hosted validation succeeded."
   },
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/639",
   "independent_review": {
     "reviewer": "Drishti AI subagent",
     "result": "PASS",
-    "revision": "1fe26222d983e33b633a0101c8d0ee3b19ae56f1",
+    "revision": "4c13fc13ed437e07761014cf0a8e888b2ed131e4",
     "receipt": "outputs/cinema-publication-20261031/independent-review.json",
     "routes": 54,
     "internal_references_checked": 4336,
     "missing_targets": 0
+  },
+  "completed_at": "2026-10-31T15:29:39.816552+00:00",
+  "website": {
+    "status": "published_verified",
+    "merge_commit": "9295ae8463d297b6730c947cfbc2253249c02431",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/639",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/41212569647",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/41213762375"
+  },
+  "deployment": {
+    "run_id": 41213762375,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41213762375",
+    "conclusion": "success",
+    "head_sha": "9295ae8463d297b6730c947cfbc2253249c02431"
+  },
+  "verified_routes": [
+    "/cinema/the-question-that-brought-me-here/",
+    "/cinema/literature-and-screen/",
+    "/people/basanta-kumari-patnaik/",
+    "/people/kalindi-charan-panigrahi/",
+    "/people/kanhu-charan-mohanty/",
+    "/people/manglu-charan-biswal/",
+    "/people/gopal-chhotray/",
+    "/people/bijay-mishra/",
+    "/cinema/air-cuttack/",
+    "/cinema/cinema-music/",
+    "/people/akshaya-mohanty/",
+    "/people/prafulla-kar/",
+    "/people/pranab-patnaik/",
+    "/people/tapu-mishra/",
+    "/cinema/odia-cinema/",
+    "/people/gour-prasad-ghose/",
+    "/cinema/parbati-ghose/",
+    "/cinema/sadhu-meher/",
+    "/people/bijay-mohanty/",
+    "/people/uttam-mohanty/",
+    "/people/aparajita-mohanty/",
+    "/cinema/manmohan-mahapatra/",
+    "/cinema/maya-miriga/",
+    "/people/nirad-mohapatra/",
+    "/cinema/bhukha/",
+    "/people/sabyasachi-mohapatra/",
+    "/cinema/aadim-vichar/",
+    "/cinema/lavanya-preeti/",
+    "/people/ak-bir/",
+    "/people/bijaya-jena/",
+    "/cinema/nandita-das/",
+    "/people/pramod-pati/",
+    "/people/lipika-singh-darai/",
+    "/cinema/learning-cinema-together/",
+    "/people/surya-deo/",
+    "/cinema/searching-for-sita-bibaha/",
+    "/cinema/who-keeps-a-film-alive/",
+    "/cinema/reading-odia-cinema/",
+    "/people/gourahari-das/",
+    "/cinema/pratikshya/",
+    "/people/anupam-patnaik/",
+    "/cinema/daman/",
+    "/people/vishal-mourya/",
+    "/people/debi-prasad-lenka/",
+    "/people/deependra-samal/",
+    "/cinema/odia-television/",
+    "/cinema/odia-ott/",
+    "/cinema/commercial-successes/",
+    "/cinema/cinema-economics/",
+    "/cinema/cinema-futures/",
+    "/cinema/",
+    "/cinema/book/",
+    "/cinema/reading-guide/",
+    "/cinema/watch/"
+  ],
+  "live_verification": {
+    "receipt": "outputs/cinema-publication-20261031/live-verification.json",
+    "pages": 54,
+    "image_files": 61,
+    "result": "PASS",
+    "book_remote_hashes_verified": true,
+    "browser_screenshot": "outputs/cinema-publication-20261031/live-book.png"
+  },
+  "remaining_limits": [
+    "Previously recorded research gaps remain unresolved unless supported by new evidence.",
+    "No ISBN registration, printer-specific press certification or human specialist review is claimed."
+  ],
+  "independent_receipt_review": {
+    "result": "PASS",
+    "reviewer": "Drishti AI subagent",
+    "receipt": "outputs/cinema-publication-20261031/final-receipt-review.json"
   }
 }
