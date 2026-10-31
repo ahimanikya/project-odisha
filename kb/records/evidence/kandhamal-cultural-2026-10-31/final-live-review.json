@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "decision": "PASS",
+  "review_type": "Separate AI actual live evidence review",
+  "reviewed_head": "ba7dd704a5947d2658f36becadd394a888ce9bdb",
+  "merge_commit": "8a744d8d3ad07ebb7b114372d41d052f6987f50a",
+  "evidence_bindings": {
+    "live_http": "040b0a1530b38695f09f72dca60777293c1e48979f735cabf79028ffc9e68188",
+    "live_browser": "9445adb4b34b36c9885d0df168077450e771b8d70d01b90ce6404d6206fd83aa"
+  },
+  "additional_bindings": {
+    "live-browser/desktop-opening.png": "9484de8b8701da2cc4e63abe90df73eef209e5be703443b53ea8381d6f827904",
+    "live-browser/desktop-sources.png": "b8a6e3f30e2040b3b6427368938c9fb54ef236a792e26840448754ebda679068",
+    "live-browser/phone-opening.png": "a1a747f07de5f19bc3c6247d4c13760d310ee338b12474095282bc73b72c9ff5",
+    "live-browser/phone-sources.png": "887b1767835b2a2a78b375b81afcdd2653eb3b2412a9b5c839883fd822839389",
+    "exact-head-review.json": "ec87e52f0fc2498288ed83876422aa75e2bc85f0fbf19a49021434374bea81e6",
+    "live/captures/article.html": "3a7fb9fc9cacad8fd59b9f375f69d073cc37047a151a1e5985da612ec2409212",
+    "live/captures/explore.html": "7aa3cef32ce530f21437676e48ea9f990b11fe74004217b79a1a88db174bdddc",
+    "live/captures/journey-data.js": "807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281"
+  },
+  "release_facts_reviewed": {
+    "validation": {
+      "conclusion": "success",
+      "createdAt": "2026-10-31T12:51:34Z",
+      "databaseId": 41202958334,
+      "headSha": "ba7dd704a5947d2658f36becadd394a888ce9bdb",
+      "status": "completed",
+      "updatedAt": "2026-10-31T13:03:37Z",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41202958334"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "createdAt": "2026-10-31T14:01:13Z",
+      "databaseId": 41208173328,
+      "headSha": "8a744d8d3ad07ebb7b114372d41d052f6987f50a",
+      "status": "completed",
+      "updatedAt": "2026-10-31T14:12:27Z",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41208173328",
+      "workflow": "publish-site.yml",
+      "publish_approved": true
+    },
+    "note": "Mutable coordination facts not whole-file hash bound, avoiding circular live-review linkage."
+  },
+  "delivery_wrapper": {
+    "programme_id": "POD-A500-133",
+    "work_id": "POD-WORK-324",
+    "authorization": "POD-DEC-225",
+    "status": "pass_with_limitations",
+    "verification": {
+      "live_body_blocks": 10,
+      "complete_source_notes": 5,
+      "reference_return_pairs": 8,
+      "reported_keyboard_returns": 16,
+      "reported_save_reload_both_viewports": true,
+      "independently_parsed_actual_downloads": {
+        "desktop": {
+          "sha256": "66d47d236409003ac446ce451f5d464e567bf6a4104fe92e78538953864c2d77",
+          "body_blocks": 10,
+          "complete_notes": 5,
+          "source_urls": 5
+        },
+        "phone": {
+          "sha256": "66d47d236409003ac446ce451f5d464e567bf6a4104fe92e78538953864c2d77",
+          "body_blocks": 10,
+          "complete_notes": 5,
+          "source_urls": 5
+        }
+      },
+      "http_capture_hashes_and_sizes": "All three captured files match frozen report; HTTP200",
+      "entire_live_catalog": "Captured asset SHA matches tested candidate807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281; report retains110prior portable entries",
+      "discovery_byline_save_noindexfollow": "PASS in bound HTTP report",
+      "actual_images_viewed": [
+        "live-browser/desktop-opening.png",
+        "live-browser/desktop-sources.png",
+        "live-browser/phone-opening.png",
+        "live-browser/phone-sources.png"
+      ],
+      "release_identity": "CI41202958334 successful reviewed head; approved deployment41208173328 successful exact merge; check timestamps after deployment completion"
+    }
+  },
+  "findings": [
+    "All four actual live screenshots individually viewed; desktop and390px opening/source text legible, no observed overlap or horizontal clipping.",
+    "Phone fifth note continues beyond viewport; complete wording and URL independently verified in live HTML and both actual offline downloads.",
+    "Full live HTML byte identity is not asserted; shared catalog bytes exact and reviewed article prose/notes exact."
+  ],
+  "blockers": [],
+  "limits": [
+    "Separate AI review, not human editorial approval.",
+    "Browser actions executed by coordinator using actual headless Chrome; reviewer inspected evidence and pixels rather than replaying interactions.",
+    "390px Chrome viewport is not a physical phone; no assistive-technology/Firefox/WebKit claim.",
+    "No re-verification of all222 Dhaga assets or new source research.",
+    "Release identities checked from saved actual facts without a new network API request."
+  ]
+}

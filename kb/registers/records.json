@@ -9478,18 +9478,20 @@
       "id": "POD-WORK-324",
       "title": "Research and publish Kandhamal place and cultural article",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Source-led draft, separate review and tested publication with delivery receipt.",
+      "next_action": "Published and verified; retain delivery receipt and source limits.",
       "blockers": [],
       "refs": [
         "POD-DEC-225"
       ],
       "evidence": [
-        "records/kandhamal-cultural-team-2026-10-31.json"
+        "records/kandhamal-cultural-team-2026-10-31.json",
+        "records/kandhamal-cultural-delivery-review-2026-10-31.json",
+        "records/kandhamal-cultural-editorial-publication-2026-10-31.json"
       ]
     }
   ],
@@ -23130,6 +23132,28 @@
         "Dated regional history, not present eligibility advice or universal identity rules.",
         "No community fieldwork or human review claimed."
       ]
+    },
+    {
+      "id": "POD-REV-2026103102",
+      "title": "Kandhamal separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human community or field review.",
+      "reviewed_head": "ba7dd704a5947d2658f36becadd394a888ce9bdb",
+      "refs": [
+        "POD-WORK-324"
+      ],
+      "evidence": [
+        "records/kandhamal-cultural-delivery-review-2026-10-31.json"
+      ],
+      "limitations": [
+        "Dated project and language-source accounts, not a district-wide current livelihood or universal community identity claim.",
+        "No community fieldwork or human review claimed."
+      ]
     }
   ],
   "releases": [
@@ -27020,6 +27044,22 @@
         "records/badhei-editorial-publication-2026-10-31.json"
       ],
       "note": "PR635 published and live verified; receipt integration remains pending its reviewed merge and remote verification."
+    },
+    {
+      "id": "POD-REL-2026103102",
+      "title": "Kandhamal: leaves, learning and everyday knowledge",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/stories/kandhamal/",
+      "refs": [
+        "POD-WORK-324",
+        "POD-REV-2026103102",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kandhamal-cultural-editorial-publication-2026-10-31.json"
+      ],
+      "note": "Published and live verified at https://github.com/ahimanikya/project-odisha/pull/637; receipt integration remains pending its reviewed merge and remote verification."
     }
   ],
   "sources": [
