@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **219 explained sayings and idioms, each illustrated, and 108 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **222 explained sayings and idioms, each illustrated, and 113 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -166,3 +166,7 @@ Three separately reviewed sayings join the211 edition, retaining all prior entry
 ## 31 October 2026 · 219-reading local edition
 
 Five reviewed dictionary-based sayings join the preceding214 readings, each with an original monochrome illustration. The hot-rice definition is cited as lexical context only, not another witness to the full saying. Historical transcription cursors and the75 unresolved original-list positions are unchanged. This staged edition awaits separate final review and publication.
+
+## 31 October 2026 · 222-reading local edition
+
+Three reviewed dictionary-based sayings join the preceding219 readings, each with an original monochrome illustration. The thorny-plant definition is lexical context only; the related ornament-and-twig variant retains its unresolved digital word. Historical transcription cursors and the75 unresolved original-list positions are unchanged. This staged edition awaits separate final review and publication.

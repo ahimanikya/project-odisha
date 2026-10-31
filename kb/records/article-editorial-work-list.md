@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 899. completed: 149, excluded: 457, queued: 293.
+Route inventory: 902. completed: 149, excluded: 460, queued: 293.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -923,3 +923,6 @@ Route inventory: 899. completed: 149, excluded: 457, queued: 293.
 | POD-EDIT-DHAGA-217-20261031 | [ଯେ ତବତ ଖାଇଛି ସେ ପଖାଳ ଖାଉ, ଯେ କିଛି ନ ଖାଇଛି ସେ ଗାଧୋଇ ଯାଉ](https://projectodisha.org/dhaga/sayings/pod-dhaga-217.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-218-20261031 | [ରଣ, ବଣ, ଛଣ, ବାଙ୍କିରଜା ଥାଇ ବୋଇଲେ ମୋ ଢୁଢୁଆ ବାଇଗଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-218.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-219-20261031 | [ବୁଢ଼ା ବଳଦକୁ ଜୂଆଁଣିଆ ଘାସ ଖାଉ କି ନ ଖାଉ ମେଲି ଦେଇ ଆସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-219.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-220-20261031 | [କଣ୍ଟାଫିରିକି, ଏତେ ଗୁଣ ବୋଲି ଜାଣିଥିଲି କି ବେଳସୁଁ ନ କହିଲୁ ଫୁଲପରା କରି ଟେକି ଧରିଥିଲୁ କଚାଡ଼ି ପକେଇଲୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-220.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-221-20261031 | [କାଣି କଉଡ଼ି ପିତା ତାଳ, ୟାକୁ ଦେଉଥିବ ରାତ୍ରିକାଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-221.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-222-20261031 | [ଅଳଙ୍କାର ମଇଧେ ନିମକାଠି ଥାନେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-222.html) | excluded | standalone_dhaga_collection |
