@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "review_type": "Separate AI visual and portable-reading evidence review",
+  "input_head": "e2ba51e13934daaa5f9dba2b7a3f644ba0467434",
+  "bindings": {
+    "browser/browser-review.json": "38f03f72cae009e3ab62d1ad5d880f4bf37cd375596b39401946b2a6de112d02",
+    "browser/verify.cjs": "d6e31ecd1200631ccfa4afe5ee7821f44a9755eb5729a397f8151e8c2453b8b6",
+    "browser/tested-artifact-bindings.json": "c75986a05ee9ffb3bf268fae2466a3735e97c541585d1ebbbaea118404ee05c8",
+    "validation/gates.json": "64a717b0a2a846caf5d747704c9070af957c1f82c512a25778a5573176606fd2",
+    "anvesha/article.json": "3766c4080a1f5b86880347b7937d8df8994682955e74a7f8d6c9c50a097f2e7e",
+    "browser/desktop-opening.png": "9484de8b8701da2cc4e63abe90df73eef209e5be703443b53ea8381d6f827904",
+    "browser/desktop-sources.png": "b8a6e3f30e2040b3b6427368938c9fb54ef236a792e26840448754ebda679068",
+    "browser/phone-opening.png": "a1a747f07de5f19bc3c6247d4c13760d310ee338b12474095282bc73b72c9ff5",
+    "browser/phone-sources.png": "887b1767835b2a2a78b375b81afcdd2653eb3b2412a9b5c839883fd822839389"
+  },
+  "actual_images_viewed": [
+    "browser/desktop-opening.png",
+    "browser/desktop-sources.png",
+    "browser/phone-opening.png",
+    "browser/phone-sources.png"
+  ],
+  "visual_findings": [
+    "Desktop opening and sources are legible with standard shared chrome and no observed overlap.",
+    "Phone title, opening prose and Save control wrap without horizontal clipping.",
+    "Phone sources screenshot shows four complete notes and the beginning of the fifth; its continuation is outside the screenshot, not clipped by the layout. Complete fifth-note text was independently verified in both downloaded HTML files."
+  ],
+  "independent_download_checks": {
+    "desktop": {
+      "sha256": "d4342c442e063f45464eecf99b7c22ede1a7a25f28b85cf51249485da1dac2c5",
+      "body_blocks_exact": 10,
+      "complete_source_notes": 5,
+      "source_urls_present": 5
+    },
+    "phone": {
+      "sha256": "d4342c442e063f45464eecf99b7c22ede1a7a25f28b85cf51249485da1dac2c5",
+      "body_blocks_exact": 10,
+      "complete_source_notes": 5,
+      "source_urls_present": 5
+    }
+  },
+  "final_publication_artifact_parity": {
+    "stories/kandhamal/index.html": {
+      "tested_sha256": "866c1754f9167708e347d6436a34c9e748810b9ca37f6d2c2927e82481c62504",
+      "final_sha256": "866c1754f9167708e347d6436a34c9e748810b9ca37f6d2c2927e82481c62504",
+      "exact": true
+    },
+    "assets/journey-data-807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281.js": {
+      "tested_sha256": "807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281",
+      "final_sha256": "807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281",
+      "exact": true
+    }
+  },
+  "browser_evidence_review": {
+    "actual_runner": "Headless Google Chrome through Playwright; script inspected, not replayed by reviewer",
+    "viewports": [
+      "1280x900",
+      "390x844"
+    ],
+    "reported_keyboard_returns": 16,
+    "reported_save_reload": true,
+    "reported_actual_downloads": 2,
+    "script_checks": "Focus and Enter navigation asserts exact forward/back hashes for all eight references per viewport; Save and reload, download event, saved file and browser-parsed portable text asserted."
+  },
+  "local_gates": {
+    "report_status": "PASS",
+    "all_11_recorded_exit_codes_zero": true
+  },
+  "blockers": [],
+  "limits": [
+    "AI review, not human editorial approval.",
+    "Reviewer inspected four actual saved screenshots and both actual downloaded files; did not rerun browser interactions.",
+    "Phone is a Chrome viewport simulation, not a physical handset. No assistive-technology, Firefox or WebKit testing claimed.",
+    "This approves local visual/portable evidence only, not an exact release head, remote CI or live publication."
+  ],
+  "decision": "PASS"
+}

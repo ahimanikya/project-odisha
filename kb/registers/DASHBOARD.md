@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9ee529990703bc7429fda044c018b1037720938b633ed084138a0d7fa225872a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4be965058c27b68ebc855fdabafdec556ba8b7fe40f889821539d794b2a4b5f3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -354,6 +354,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026102907 · Publish Maniabandha weaving and textile tourism article | completed | published | Ahimanikya Satapathy | Published and live verified; social copy remains unsent. | — |
 | POD-WORK-2026102908 · Publish Essential Odia Dhaga companion article | completed | published | Ahimanikya Satapathy | Published and live verified; finish reviewed receipt integration, then release own scope. | — |
 | POD-WORK-323 · Research and publish Badhei community history | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
+| POD-WORK-324 · Research and publish Kandhamal place and cultural article | in_progress | draft | Ahimanikya Satapathy | Source-led draft, separate review and tested publication with delivery receipt. | — |
 
 ## Pending human review and decisions
 
