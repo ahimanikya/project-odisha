@@ -1,0 +1,73 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti — separate AI exact-head review",
+  "input_head": "9b35cac2dcdbc60ba14dc66dd2664cbfdb8e67b8",
+  "base": "27bb7077542d5313074f0ebebfde9d6013f01547",
+  "supersedes": "2f6b0aeeffd0e6bfb5074fad9214aa42fc934b34",
+  "bindings": {
+    "candidate-manifest.json": "1d767126db4f81c6dad56682f0b5d60f36f5bac47a9fab2ad6889d7d37b73c34",
+    "production/installation-manifest.json": "ae3bbf18385c201d4c47377e995d904edcc4424a22a757f063e7c37edaf576c5",
+    "drishti/production-review.json": "896187fa9c25f89c32fe4ab52203ec883145b72d91d83b5664fed619d58ad293",
+    "release-review/browser-review.json": "77ffcdaf8847c6a92ceef987851b9c412b47efc521d0b76b91a593483a146e7c",
+    "site/samanta.json": "9c48b2ecbb02d890e85e8431eff9d1de9e59a8ad954c03666e1a6e2f7cf1a000",
+    "site/validation-site.json": "97b5affb8eb049ea7f8c387908fa58d65f02c43f6313162de05c6b840e8de8d8",
+    "site/derivative-preservation.json": "cd84ef015fd58e7e205eeadab85f7ad9076942a54ea7e279de6946f15262ce6f",
+    "site/budget-first-measurement.json": "180df3af45d0f2dc87c59ce16e71f56f7fc69fe626cba0bcf6ce867b5f1f6cf7",
+    "pinned-pdf-verification.json": "dd7c36157ae11b37aff0cd3d435be28b3da7ee663e5d09dd3189e7f2ef7aa49c"
+  },
+  "checks": {
+    "all279_committed_manifest_hashes_exact": true,
+    "all263_installed_book_files_equal_reviewed_stage": true,
+    "prior278_candidate_files_unchanged_after_workbench_fix": true,
+    "immutable_pdf_ancestor_preserved": "e8dab809e0be91687675154a73a8bd942978c56c",
+    "all899_prior_rollout_items_unchanged": true,
+    "new_routes": 3,
+    "rollout_counts": {
+      "completed": 149,
+      "excluded": 460,
+      "queued": 293
+    },
+    "programme_completed": 131,
+    "canonical_evidence_hashes_resolve": true,
+    "all13_site_gate_exit_codes_and_log_hashes_verified": true
+  },
+  "actual_independent_checks": [
+    "git committed manifest scope and blob hashes279",
+    "git ancestry and workbench-only finaldelta",
+    "python3 tools/editorial/build_workbench.py --check: initial failure at2f6b0aee; PASS after9b35cac2 correction",
+    "python3 tools/editorial/article_rollout.py --check: PASS",
+    "python3 tools/check_team_assignments.py: PASS",
+    "Previous separate22booktests/temp-copy and28selectedPDFpage review reused through exact installed bytes",
+    "Actual CUA desktop and independent six mobile screenshot inspections, qualified in browser report"
+  ],
+  "reviewed_worker_gates": {
+    "full_tests": 657,
+    "coast_tests": 535,
+    "all_local_gates": 13,
+    "publication_bytes": 622037983,
+    "dhaga_publication_bytes": 24405669,
+    "public_files": 453,
+    "html_pages": 225,
+    "indexable_routes": 11
+  },
+  "findings": [
+    "Only three new standalone book routes added to coast/portable inventory and explicit search holds; no search eligibility increase.",
+    "199211 note-only context witness and88757 exact unresolved variant retain source limits and regression coverage.",
+    "Measured initial24415344byte export cannot meet24MB even removing106676bytes of new art; approved25MB limit preserves225 prior asset hashes and three640px/q60 artworks. Final24405669bytes is below bound.",
+    "Workmanlike exact source/prose/art preservation, previous219 metrics and PDF135pages remain bound to prior production review. No repeat visual claim.",
+    "Finite operations task remains active until reviewed receipt merge/checks/remoteverification. Record honestly keeps accepted_increment0/public219/programme_credit0 before delivery."
+  ],
+  "resolved_blockers": [
+    {
+      "issue": "Stale editorial-workbench coast fingerprint",
+      "resolution": "One-line regeneration in9b35cac2; independently reruncheckPASS; all prior278files unchanged."
+    }
+  ],
+  "blockers": [],
+  "limits": [
+    "Separate AI review, not human proofreading or rights clearance.",
+    "CI, deployment, live acceptance and local-reader sync are future release gates, not claimed here.",
+    "Mobile actual interactions were performed by Samanta headless Chrome fallback; Drishti independently inspected six actual screenshots after CUA recovery failure.",
+    "No canonical/Git edits performed by reviewer."
+  ]
+}

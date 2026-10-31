@@ -1,0 +1,60 @@
+{
+  "status": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "decision": "PASS",
+  "reviewer": "Drishti — separate AI evidence and actual screenshot review",
+  "reviewed_head": "9b35cac2dcdbc60ba14dc66dd2664cbfdb8e67b8",
+  "deployed_merge": "6284922dd8605a53a11af6243a277ff50f762b82",
+  "deployment_id": "41154089230",
+  "bindings": {
+    "deployment-status.json": "3c3251788f4cb9af66b8b336bdc4666381197ad51432dd6ea487375468b56b7a",
+    "candidate-manifest.json": "1d767126db4f81c6dad56682f0b5d60f36f5bac47a9fab2ad6889d7d37b73c34",
+    "live-preparation/merged-verification.json": "b7a9e15f1f993ed9ec43622d4e081bebc3dfd577411adcabde9eeb6a019fa41c",
+    "live-preparation/merged-reconciliation.json": "3a470d9dd4f8163c4506e049b9a4e48c23a89bde0003973f7b257333d29ba05b",
+    "live-preparation/merged-verification-original-size-key-failure.json": "82f30d9e021eac1ec870c025a530ccccbbe5d1a04926f30b5e4ba9420e434b87",
+    "live-preparation/live-verification.json": "7e9586a6839144501aef4132edd7a665f0aac308927b45ba84563a9f042338d3",
+    "live-preparation/supplemental-live-verification.json": "d4801f7ef8da678ab3b8adb09204ea82c28cc5a230be45d92236a902aca8d35e",
+    "live-preparation/companion-main-verification.json": "abad249a9c7a932e049d385e6a9597d69d52b44b43a534b23b514ccc9f3b572d",
+    "live-preparation/known-image-pairs.json": "3dd5ebe4f7b123e663e1267f2d711d9cdfbb8fe688fc5b1c58d2bf3ea2c1d361",
+    "live-preparation/known-responsive-pairs.json": "71e09f0f9ce6127700e00b3508e3431db23f17340005b17a4bd176e478eb3c40",
+    "live-browser/report.json": "00edc17b772cb0212ee9b2ee1e72f53fa3dbc2fe5f2b7ca1134bd060513951fb"
+  },
+  "counts": {
+    "remote_committed_files_exact": 279,
+    "live_http200": 453,
+    "live_raw_byte_exact": 432,
+    "live_html_exact": 225,
+    "previously_reviewed_both_hash_pairs": 21,
+    "new3_images_byte_exact": 3,
+    "companion_mains_qualified_exact": 3,
+    "responsive_prior_pairs_exact": 29,
+    "pdf_pages": 135
+  },
+  "actual_checks": [
+    "Independently recomputed453row counts and matched candidate expected hashes",
+    "All21 non-byte-equal reader images match both sides of prior reviewed pair; no new variance waived",
+    "Three new220–222images and all225HTML byte-exact",
+    "All29responsive pairs match both hashes; three companion mains normalized exact; nonemptycatalog exact",
+    "279immutable remote response hashes match manifest; original missing-bytes-key failure and zero-network reconciliation retained",
+    "Successful deployment identity, fresh actual-index PDFhref/hash, three search holds and four internal404s verified from saved actual reports",
+    "Read actual live browser report and independently viewed seven listed screenshots: readable, no clipping, all3artworks intact, lexical and variant limits clear"
+  ],
+  "actual_pixels_viewed": {
+    "live-browser/desktop-index.png": "e689e7335b0fc558e85e09e4f8a24f2a82f9fb4d442fd30b9fd0746a3bff6708",
+    "live-browser/desktop-220-art.png": "cc0785a23373f7fb8ead96e3c60b53a823b14716459677ca80993b1bd186d768",
+    "live-browser/desktop-221-art.png": "c4014b3d1b55afef9ad19aa319b302ddef3aa5b4a1919ef42d951481481386be",
+    "live-browser/desktop-222-art.png": "e3921c666c1367e8c1c6323fbb229de7bcb8b8e0b908121d3928932e09942c14",
+    "live-browser/phone-220-source.png": "1b96829d58370da7978c277967d4840abaa12599a77090c720cf7619436ffdb5",
+    "live-browser/phone-222-source.png": "24353f0dfa1ded4d28fbac515600fa79b528aef9d0978f5d14f0eefd055e71f8",
+    "live-browser/phone-221-opening.png": "aa2287a3d7a98b7850025b80bbb88d8e7deab4e8912426cd25c883e9e3c58791"
+  },
+  "browser_scope": "Samanta executed real headless Chrome fresh1440x1000/390x844 contexts. Drishti independently viewed listed actual screenshots; no own live CUA interaction claimed.",
+  "resolved_evidence_issue": "Remote helper expected absent manifest bytes key after successful hash fetch; hashes independently reconcile all279. This is not a transport waiver or independent expected-size validation.",
+  "blockers": [],
+  "limits": [
+    "Raw432/453 exact retained;21 known image variants are qualified equivalence, not byte equality.",
+    "Companion raw whole HTML differs; only declared normalized main content/catalog/pair checks pass.",
+    "Saved actual network evidence reviewed without repeating network requests.",
+    "No new rights clearance, human proofreading, programme credit or acceptance inference.",
+    "Local reader sync and receipt integration not covered or approved by this live gate."
+  ]
+}
