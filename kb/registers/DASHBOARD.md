@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4be965058c27b68ebc855fdabafdec556ba8b7fe40f889821539d794b2a4b5f3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c7b4f6db8e59eb94b708356751e47e11807525bef4ccf352e29f96f9407683ee`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -354,7 +354,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026102907 · Publish Maniabandha weaving and textile tourism article | completed | published | Ahimanikya Satapathy | Published and live verified; social copy remains unsent. | — |
 | POD-WORK-2026102908 · Publish Essential Odia Dhaga companion article | completed | published | Ahimanikya Satapathy | Published and live verified; finish reviewed receipt integration, then release own scope. | — |
 | POD-WORK-323 · Research and publish Badhei community history | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
-| POD-WORK-324 · Research and publish Kandhamal place and cultural article | in_progress | draft | Ahimanikya Satapathy | Source-led draft, separate review and tested publication with delivery receipt. | — |
+| POD-WORK-324 · Research and publish Kandhamal place and cultural article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 
 ## Pending human review and decisions
 
@@ -1037,6 +1037,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102907 | pass_with_limitations | True | Current visitor arrangements unverified; Government Khandua compendium page checked via indexed excerpt |
 | POD-REV-2026102908 | pass_with_limitations | True | Editorial selection, not popularity ranking; No first coinage or historical origin claim |
 | POD-REV-2026103101 | pass_with_limitations | True | Dated regional history, not present eligibility advice or universal identity rules.; No community fieldwork or human review claimed. |
+| POD-REV-2026103102 | pass_with_limitations | True | Dated project and language-source accounts, not a district-wide current livelihood or universal community identity claim.; No community fieldwork or human review claimed. |
 
 ## Publication and application history
 
@@ -1280,6 +1281,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102907 · Maniabandha weaving and textile tourism article | published | https://projectodisha.org/stories/maniabandha/ | POD-DEC-2026102907 |
 | POD-REL-2026102908 · Essential Odia Dhaga companion article | published | https://projectodisha.org/stories/essential-odia-dhaga/ | POD-DEC-2026102908 |
 | POD-REL-2026103101 · Badhei woodworking, obligation and a name | published | https://projectodisha.org/communities/badhei/ | POD-DEC-225 |
+| POD-REL-2026103102 · Kandhamal: leaves, learning and everyday knowledge | published | https://projectodisha.org/stories/kandhamal/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1317,7 +1319,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102483 | 2026-10-24T02:08:36.906284+00:00 | Verified current Blueprint roster: Disha, Anvesha, Samanta and Drishti all assigned and oriented for this chat. Explicit Characters scope and no-redirect history loaded. Separate specialist acknowledgements and Drishti review recorded; no new access, schedules, article claim or programme credit. | — |
 | POD-EVT-2026102491 | 2026-10-24T14:14:28.870294+00:00 | Prepared author-directed personal essay and original supplied photographs with separate evidence and implementation passes. Publication and live verification pending; no programme credit or social posting. | — |
 | POD-EVT-2026102492 | 2026-10-24T17:54:35.622277+00:00 | Published author-directed essay via PR527 and deployment40117643003; verified live content, original images and mobile/desktop layout. No programme credit or social posting. | — |
 | POD-EVT-2026102699 | 2026-10-25T23:07:41.478596+00:00 | Founder-requested159-entry illustrated Dhaga reader and exact86-page PDF published via PR564/deployment40242598763. All162routes/159images/PDFhash and live mobile navigation verified. No new saying acceptance, article completion, human proof or500programme credit. Receipt: records/odia-dhaga-publication-2026-10-26.json | — |
@@ -1327,6 +1328,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102910 | 2026-10-29T18:08:50.067960+00:00 | Essential Odia Dhaga companion published and live verified; receipt integration pending. No programme credit. | — |
 | POD-EVT-2026103101 | 2026-10-31T07:11:31.201262+00:00 | Founder authorized sequential Badhei, Kandhamal and Kandhamal Haladi articles; reserve first Badhei release only. No completion credit. | — |
 | POD-EVT-2026103102 | 2026-10-31T08:26:48.853328+00:00 | Badhei article publication and live verification complete; programme132 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
+| POD-EVT-2026103103 | 2026-10-31T14:16:35.048662+00:00 | Kandhamal article publication and live verification complete; programme133 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 
 ## Deferred extensions
 

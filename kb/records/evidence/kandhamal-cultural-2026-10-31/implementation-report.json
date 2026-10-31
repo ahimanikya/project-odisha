@@ -1,0 +1,137 @@
+{
+  "status": "IMPLEMENTED_LOCAL_BUILDS_AND_SCOPED_TESTS_PASS",
+  "checked_at": "2026-10-31T12:42:35.487346+00:00",
+  "input_head": "e2ba51e13934daaa5f9dba2b7a3f644ba0467434",
+  "canonical_source_sha256": "3766c4080a1f5b86880347b7937d8df8994682955e74a7f8d6c9c50a097f2e7e",
+  "route": "/stories/kandhamal/",
+  "saved_id": "reading:stories/kandhamal",
+  "files": [
+    {
+      "path": "projects/site/src/pages/stories/kandhamal.astro",
+      "sha256": "260e14c29b2e3058bada842149edcef5359e028a2c00568a69e351f344fa3984"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "d8c1194a2d5be2c6d4ea8082a6e0713ac3858dc8642bd93fb1408b33fb13b110"
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "414eaae7025ad7470dabb8c501ca344be07b3993b3a869b24b0ef52f56551898"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "cc98b7cc22230914e7015c86c0f8ab29bb442121dc27f3da7cfae3423e900285"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "515288fdbdc2f0f56f94e706ae205b6d6f74e221efcbb6488185edb92f1ce277"
+    },
+    {
+      "path": "projects/site/tests/kandhamal-editorial.test.mjs",
+      "sha256": "5016d6951946929aae1cae10123c02bceb01d085e54f67c501f046391ad38ead"
+    },
+    {
+      "path": "projects/site/tests-coast/kandhamal-editorial.test.mjs",
+      "sha256": "5016d6951946929aae1cae10123c02bceb01d085e54f67c501f046391ad38ead"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "68a2416078498996f305c9c62c87cc83669336649a14953a558fddac14e4a8c8"
+    },
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "3e24ae56ed9acc112d181f4c11e37727a657f3143ac24db86c5606fc097ecbc2"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "df1f1c33e788799e4e317499272b3b9541c8368fdc3841e8d5152ca07986da58"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "018eae0562180d22025c1150799260f454e7a794a50ed19f7b8d3d153cfc5ca1"
+    }
+  ],
+  "builds": {
+    "full": "PASS",
+    "coast": "PASS"
+  },
+  "tests": {
+    "full_scoped": {
+      "passed": 9,
+      "article": 3,
+      "inventory": 6
+    },
+    "coast_scoped": {
+      "passed": 13,
+      "article": 3,
+      "inventory": 10
+    }
+  },
+  "measured_counts": {
+    "full_html": 918,
+    "coast_selected_pages": 904,
+    "coast_html_including_404": 905,
+    "coast_explore": 154,
+    "coast_reading": 54,
+    "full_explore": 165,
+    "full_reading": 55
+  },
+  "count_changes": "Only one new article/reading/discovery item; full expected constant145→146, coast reading53→54, coast Explore base142→143. No route deletions.",
+  "preservation": {
+    "book": {
+      "verified": 1246,
+      "mismatches": []
+    },
+    "prepared227": {
+      "verified": 34,
+      "mismatches": []
+    }
+  },
+  "prior_catalog": {
+    "objects_unchanged": 119,
+    "new_total": 120,
+    "exact_deep_equality": true
+  },
+  "prior_discovery_source_unchanged_after_removing_new_line": true,
+  "content_checks": [
+    "Exact reviewed lead plus9 paragraphs and5 substantive source notes retained",
+    "Eight citation references resolve to visible notes and exact return targets",
+    "Portable HTML/text retain all source qualifications and URLs",
+    "Text-only article, logical headings, expanded further reading; one held route with no eligible search expansion"
+  ],
+  "guidance": {
+    "path": "outputs/kandhamal-cultural-2026-10-31/accessibility-guide.md",
+    "quote": "Don't attach keyboard handlers to native interactive elements",
+    "application": "Native anchors/shared established exact-return controller; no custom keyboard handlers; one h1 and no empty headings."
+  },
+  "commands": [
+    "npm run build",
+    "node --test tests/kandhamal-editorial.test.mjs tests/build.test.mjs",
+    "npm run build:coast",
+    "node --test tests-coast/kandhamal-editorial.test.mjs tests-coast/cuttack-literature.test.mjs tests-coast/discovery-flow.test.mjs tests-coast/edition.test.mjs"
+  ],
+  "runtime": "Node24.15.0 explicit PATH",
+  "logs": {
+    "full-build": {
+      "path": "outputs/kandhamal-cultural-2026-10-31/samanta/full-build.log",
+      "sha256": "f6e3666c0ec80001583442b48b745c5832c185c07d031b754f836ed61a11a7d5"
+    },
+    "coast-build": {
+      "path": "outputs/kandhamal-cultural-2026-10-31/samanta/coast-build.log",
+      "sha256": "2aadeca907d20bc57be52786cba5e5de04407dde4bee5c14ce75439faff2ab62"
+    },
+    "full-final-focused": {
+      "path": "outputs/kandhamal-cultural-2026-10-31/samanta/full-final-focused.log",
+      "sha256": "e5ba89d97cbf558ea7cfab09744539d730ceee15b8a21ed603020c701a9552bc"
+    },
+    "coast-focused": {
+      "path": "outputs/kandhamal-cultural-2026-10-31/samanta/coast-focused.log",
+      "sha256": "9e3eb274be4903ddcf0d965d2e738eb181f76d288053e77dc5b2c7be7bd8200d"
+    }
+  },
+  "limits": [
+    "No live/publication assertion. Root owns broad suites, publication and actual browser checks.",
+    "Earlier wrong-directory invocation refused; corrected working directory used. Initial focused-test regex slash syntax corrected before passing tests; no product rebuild required.",
+    "Root independently owns source JSON/shared records, route-inventory and workbench updates; this worker changed only11 reserved site files."
+  ]
+}

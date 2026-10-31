@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 913. completed: 150, excluded: 462, in_progress: 1, queued: 300.
+Route inventory: 913. completed: 151, excluded: 462, queued: 300.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -927,7 +927,7 @@ Route inventory: 913. completed: 150, excluded: 462, in_progress: 1, queued: 300
 | POD-EDIT-DHAGA-221-20261031 | [କାଣି କଉଡ଼ି ପିତା ତାଳ, ୟାକୁ ଦେଉଥିବ ରାତ୍ରିକାଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-221.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-222-20261031 | [ଅଳଙ୍କାର ମଇଧେ ନିମକାଠି ଥାନେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-222.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-829 | [Badhei: woodworking, obligation and a name](https://projectodisha.org/communities/badhei/) | completed | One new substantive article; search eligibility unchanged;222book and227localpackage preserved. |
-| POD-EDIT-830 | [Kandhamal: leaves, learning and everyday knowledge](https://projectodisha.org/stories/kandhamal/) | in_progress | One new cultural article; preserve Census utility101, Kui narrative, later Haladi scope, public Dhaga222 and reviewed227package. |
+| POD-EDIT-830 | [Kandhamal: leaves, learning and everyday knowledge](https://projectodisha.org/stories/kandhamal/) | completed | One new cultural article; preserve Census utility101, Kui narrative, later Haladi scope, public Dhaga222 and reviewed227package. |
 | POD-EDIT-20261042 | [Kanhu Charan Mohanty: The Household and the Wider World](https://projectodisha.org/people/kanhu-charan-mohanty/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261043 | [Manglu Charan Biswal: Words for the Stage and the Page](https://projectodisha.org/people/manglu-charan-biswal/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261044 | [Bijay Mishra: People, Plays and the Work of Cinema](https://projectodisha.org/people/bijay-mishra/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
