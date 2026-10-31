@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **222 explained sayings and idioms, each illustrated, and 113 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **227 explained sayings and idioms, each illustrated, and 121 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -170,3 +170,7 @@ Five reviewed dictionary-based sayings join the preceding214 readings, each with
 ## 31 October 2026 · 222-reading local edition
 
 Three reviewed dictionary-based sayings join the preceding219 readings, each with an original monochrome illustration. The thorny-plant definition is lexical context only; the related ornament-and-twig variant retains its unresolved digital word. Historical transcription cursors and the75 unresolved original-list positions are unchanged. This staged edition awaits separate final review and publication.
+
+## 1 November 2026 · 227-reading local edition
+
+Five reviewed dictionary-based readings and original monochrome illustrations extend the222-reading edition. The thematic comparison appended to176 adds no reading. Two lexical notes remain context-only; the75 unresolved original-list positions and historical transcription cursors are unchanged. This isolated local edition awaits final review and publication.

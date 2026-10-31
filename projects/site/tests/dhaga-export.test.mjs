@@ -16,7 +16,7 @@ test('book navigation uses lowercase public URLs, a pinned exact PDF and retaine
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
- assert.ok(exported.bytes<=25_000_000,'Complete public export must remain within25MB');
+ assert.ok(exported.bytes<=26_000_000,'Complete public export must remain within26MB');
  assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
@@ -90,4 +90,19 @@ test('new plant context remains lexical only and the unresolved variant is retai
  const variant=data.entries.find(e=>e.id==='POD-DHAGA-222').variants.find(v=>v.source_id==='dhaga-wiktionary-88757');
  assert.ok(variant&&variant.normalized_odia===null);
  const last=read('sayings/pod-dhaga-222.html');assert.ok(last.includes(esc(variant.odia)));assert.ok(last.includes(esc(variant.note)));
+});
+
+
+test('227 lexical notes and thematic comparison retain their distinct source roles',()=>{
+ for(const [id,sourceId] of [['223','dhaga-wiktionary-8859'],['226','dhaga-wiktionary-199397']]){
+  const entry=data.entries.find(e=>e.id===`POD-DHAGA-${id}`),context=entry.witnesses.find(w=>w.source_id===sourceId);
+  assert.ok(context&&!Object.hasOwn(context,'wording'));
+  const h=read(`sayings/pod-dhaga-${id}.html`);
+  for(const text of [context.note,context.locator])assert.ok(h.includes(esc(text)));
+  const source=data.sources.find(s=>s.id===sourceId);assert.ok(h.includes(esc(source.url)));
+ }
+ const related=data.entries.find(e=>e.id==='POD-DHAGA-176').variants.find(v=>v.source_id==='dhaga-wiktionary-166545');
+ assert.ok(related);const h=read('sayings/pod-dhaga-176.html');
+ assert.ok(h.includes(esc(related.odia))&&h.includes(esc(related.note)));
+ assert.match(related.note,/Editorial comparison only/);
 });

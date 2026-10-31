@@ -1,0 +1,169 @@
+{
+  "status": "FROZEN_PRODUCTION_AWAITING_SEPARATE_REVIEW",
+  "checked_at": "2026-10-31T18:49:02.971552+00:00",
+  "input_head": "b2098ecf3459957c3536948fa1d9f80e881237e1",
+  "stage": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-227-2026-10-31/production/stage",
+  "bindings": {
+    "samanta/manifest.json": "bc709e4ede3f3e064e207955e03bd296fed81a27aa0bc4ac2d076cb8da900e16",
+    "samanta/import-package.py": "59b59ae683dc0908eff34d780f199cb7a2950b362f0c26c6b7ede9c27edab5fe",
+    "drishti/preparation-review.json": "2c3b29aa787ce2da59d2fdce31312eab7bd7db95962fcd458033c4ab49e3b069"
+  },
+  "checks": {
+    "canonical_baseline_files_unchanged": 1246,
+    "prior_entries_byte_equal": 221,
+    "entry176_only_reviewed_thematic_parallel": true,
+    "prior_assets_unchanged": true,
+    "dry_run": "PASS",
+    "guarded_apply": "PASS",
+    "existing_generated_collection_pdf_unchanged": true
+  },
+  "changed_baseline_stage_files": [
+    "collection-metadata.json",
+    "coverage-ledger.json",
+    "entries/POD-DHAGA-176.json",
+    "research-design.json",
+    "source127.json"
+  ],
+  "proposed_entry_ids": [
+    "POD-DHAGA-223",
+    "POD-DHAGA-224",
+    "POD-DHAGA-225",
+    "POD-DHAGA-226",
+    "POD-DHAGA-227"
+  ],
+  "art_requirements": {
+    "location": "production/art/ supplied by root",
+    "needed_fields": [
+      "entry ID",
+      "selected actual image path and SHA256",
+      "generation prompt/tool provenance",
+      "approved alt and caption",
+      "separate actual-pixel review bound to selected hashes"
+    ],
+    "installation": "Only approved assets, exact selected filenames under staged assets/. Preserve generation/review evidence. No placeholder paths or images."
+  },
+  "constraints": [
+    "8859/199397 visible context-only lexical notes.",
+    "176 thematic parallel zero count, not exact variant claim.",
+    "75 pending/historical cursors unchanged; no canonical acceptance increment."
+  ],
+  "skills": {
+    "pdf": "Read current skill; marker successful once immediately before initial measurement authoring; no repeated marker.",
+    "frontend": "Existing generator execution only; no HTML/CSS/clientJS changes."
+  },
+  "next": "Independent final review; worker staged write scope released, no further changes planned.",
+  "limits": [
+    "Local isolated production only, no acceptance/publication/programme claim.",
+    "No canonical/Git/shared modifications; final publication adapter not within this stage.",
+    "Initial measurement failed lowercase asset-path schema; staged filename adaptation fixed without altering image bytes.",
+    "Measurement forced full-width for all five new readings; fulltext/font retained; body10.5/art159.701 unchanged.",
+    "Final19tests rerun aftercopyedit;3layout tests reused because no layoutcode change. Initial proof/map/logs retained under prior-spacing-proof."
+  ],
+  "updated_at": "2026-10-31T18:57:57.729917+00:00",
+  "pdf": {
+    "pages": 141,
+    "bytes": 103428413,
+    "sha256": "2563604ec1ea8f7a87acec2d97bf4941f70b5e6fc452c71f08289134a9080b82"
+  },
+  "product_counts": {
+    "readings": 227,
+    "sources": 121,
+    "stage_product_files": 1272,
+    "installation_changed_files": 272
+  },
+  "tests": {
+    "book_tests": 19,
+    "layout_tests": 3,
+    "result": "PASS"
+  },
+  "layout": {
+    "new_full_width_ids": [
+      "POD-DHAGA-223",
+      "POD-DHAGA-224",
+      "POD-DHAGA-225",
+      "POD-DHAGA-226",
+      "POD-DHAGA-227"
+    ],
+    "body_font": 10.5,
+    "text_scale": 1,
+    "art_height_pt": 159.7014735658043,
+    "prior222_unit_metrics_exact": true,
+    "fullwidth_pages_no_fillers": true
+  },
+  "preservation": {
+    "prior_art_bytes_exact": true,
+    "prior222_unit_metrics_exact": true,
+    "metric_keys": [
+      "height",
+      "original_image_height_pt",
+      "image_height_pt",
+      "image_scale_factor",
+      "text_scale_factor",
+      "measured_width_pt",
+      "layout"
+    ],
+    "canonical1236_hashes_unchanged": true,
+    "historical_rows_cursors_and_source127_75pending_unchanged": true,
+    "all227_bounds_pass": true,
+    "wide_pages_skip_fillers": true,
+    "body_font": 10.5,
+    "text_scale": 1,
+    "lexical_context_visible_html": true,
+    "prior221_entry_bytes_exact": true,
+    "entry176_only_reviewed_thematic_parallel": true,
+    "new_prose_exact_package_except_authorized223_space": true,
+    "correction": "POD-DHAGA-223 cultural_context: established.8859→established. 8859; exact delta/hash copy-correction.json"
+  },
+  "art": {
+    "review_sha256": "445f10c0681e203175d32d3f964ab789be209b5a3406a561823e73ecaf66448e",
+    "manifest_sha256": "9b6b31ab3d3e130d9d553e32c3c0c225ae846d2cf7573d7d8bdbcf7b10399de7",
+    "selected5_exact_approved_hashes": true,
+    "filename_mapping": "Original uppercase POD-DHAGA-N-v1 filenames copied byte-exact to assets/dhaga-N-line-v1.png to satisfy existing validator; generation originals/provenance unchanged."
+  },
+  "evidence": {
+    "installation-manifest.json": "2d33283fb97025209559448744e1b34afcd4717079b34ce2a768bf23b11e970d",
+    "page-map.json": "0596d8684b310b94efd3ae0ed3070827fd9e2f8ca75e1aa48f2884c7eddead56",
+    "preservation.json": "fd083e1e12cbfbe146b1dcd002457bcb9358e2e0431f6e2c0afd1d65bb8fb19d",
+    "copy-correction.json": "ef8737990eec1e4821ad513bc570fef9aa9eab8380b247d7f1acece88402e488",
+    "new-entry-measurement.json": "ed446a1cba05658c5521e6ca2c652e22a99d3e866de1f328713be846cc441029",
+    "pdf-marker.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "html-build.log": "96e22e5585e468a008d53a0a94b5e474282f6abee02bf27d7fc83f79d55944aa",
+    "pdf-build.log": "5b39b7d5429278d0caca7ba9e296d79070cd30dd4bc8a9688c9d3442e9ff60b5",
+    "inventory-build.log": "0e319c8e7ec4ad68f4e5d46ee8ea32d6993e22162ac7a6d116edd64fc28efd5b",
+    "book-tests.log": "0e62a38178d1cc3724c2841d1d6be50f31906e12ec02b541a205459a2a703b65",
+    "layout-tests.log": "921b60a7fd52e978fbb551cacd29df2d6708879400278e1fcc70fceeb0c6f8e0"
+  },
+  "paths": {
+    "manifest": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-227-2026-10-31/production/stage/production-validation/installation-manifest.json",
+    "page_map": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-227-2026-10-31/production/stage/production-validation/page-map.json",
+    "renders": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-227-2026-10-31/production/stage/production-validation/pdf-pages"
+  },
+  "actual_visual_check": {
+    "worker_pages_viewed": [
+      28,
+      46,
+      80,
+      98,
+      114
+    ],
+    "result": "Readable full-prose layout and all five art at actual PDF size; no clipping observed. Separate reviewer must inspect requested34-page set.",
+    "copy_limit": "Authorized missing-space correction applied; source meaning unchanged, original frozen package untouched."
+  },
+  "copy_correction": {
+    "id": "POD-DHAGA-223",
+    "prior_sha256": "34d499c7bc202df8815d4e7302432f6c7a04e0802f77e274f540d06afeff8ddb",
+    "new_sha256": "74bc46d176f67d124df101e493f9c3f57898bae2d7c17bd7feb021ec8e2a8333",
+    "changes": [
+      {
+        "field": "cultural_context",
+        "before": "Radha is the name in the wording; no mythological identity, romance or biography is established.8859 is lexical context only, not another full-saying witness. The visitor and relationship remain unspecified. Teasing force follows the source contrast and linked flattering-speech definition; contemporary situation is editorial.",
+        "after": "Radha is the name in the wording; no mythological identity, romance or biography is established. 8859 is lexical context only, not another full-saying witness. The visitor and relationship remain unspecified. Teasing force follows the source contrast and linked flattering-speech definition; contemporary situation is editorial."
+      }
+    ],
+    "authorization": "Root bounded punctuation spacing correction; frozen draft untouched"
+  },
+  "scope_released": true,
+  "render_change_after_copyedit": [
+    98
+  ]
+}
