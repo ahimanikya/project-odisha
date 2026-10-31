@@ -5,14 +5,14 @@
   "title": "Odia cinema research and story work list",
   "authorization": "Founder: These are very good suggestion - let's create a work list and do one by one",
   "purpose": "Strengthen literature, people, creative livelihoods and audience connections through sequential evidence-led work.",
-  "status": "in_progress",
+  "status": "local_review_ready_with_evidence_gaps",
   "worktree": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030",
   "baseline": "f8365e40",
   "active_item": null,
   "active_article": null,
   "publication_authorized_this_cycle": false,
   "programme_progress_credit": 0,
-  "remote_ownership_check": "31 October: gh pr list could not connect to api.github.com; no tracked competing local edits at intake. No remote mutation planned.",
+  "remote_ownership_check": "31 October: clean tracked intake at da44c895; gh pr list could not connect to api.github.com. No remote mutation planned.",
   "rules": [
     "One active article at a time; research, implement, independently review, then release its local scope.",
     "Reuse saved evidence and existing profiles before creating content.",
@@ -446,7 +446,7 @@
       "id": "edition-alignment",
       "title": "Align the revised series and book editions",
       "scope": "Rebuild and review the accumulated accepted changes, check unique image use, source notes and book contents; prepare matching digital/print downloads for a separately recorded release.",
-      "status": "queued",
+      "status": "local_review_ready",
       "reuse_before_research": [
         "kb/records/cinema-image-rollout-2026-10-30.json",
         "projects/site/src/data/cinema.json",
@@ -458,10 +458,17 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "kb/records/cinema-edition-alignment-2026-10-31.json",
+        "outputs/cinema-expansion-20261031/edition-alignment-review.json",
+        "outputs/cinema-expansion-20261031/edition-alignment-digital-final-review.json",
+        "outputs/cinema-expansion-20261031/edition-alignment-structure.json"
+      ],
+      "scope_released": true,
+      "outcome": "Current50readings aligned into254page digital and282page print candidates.56distinct originals, credits,432notes, bookmarks and print page references verified. Companion updates and sparse endings repaired; published downloads unchanged. Author review and separate release next; prior research gaps retained."
     }
   ],
-  "next_item": "edition-alignment",
+  "next_item": null,
   "scope_state": "released_after_local_review",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
@@ -1017,6 +1024,44 @@
           "outputs/cinema-expansion-20261031/studio-access-*.png"
         ]
       }
+    },
+    {
+      "item": "edition-alignment",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/edition-alignment-evidence.json",
+          "outputs/cinema-expansion-20261031/edition-alignment-digital-final-review.json"
+        ],
+        "Samanta": [
+          "output/pdf/build_book.py",
+          "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+          "outputs/cinema-expansion-20261031/edition-alignment-implementation.json",
+          "tmp/pdfs/2026-10-31-tail-trial/",
+          "output/pdf/odia-cinema-a-living-screen-2026-10-31-tail-trial.pdf",
+          "output/pdf/odia-cinema-a-living-screen-print-2026-10-31-tail-trial.pdf"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/edition-alignment-review.json",
+          "outputs/cinema-expansion-20261031/edition-alignment-review/"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "outputs/cinema-expansion-20261031/edition-alignment-*",
+          "output/pdf/odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+          "output/pdf/odia-cinema-a-living-screen-print-2026-10-31-aligned.pdf",
+          "tmp/pdfs/2026-10-31-aligned/",
+          "kb/records/cinema-edition-alignment-2026-10-31.json",
+          "kb/research/culture/cinema-series/image-layout-2026-10-30.json"
+        ]
+      }
     }
-  ]
+  ],
+  "next_action": "Author review of aligned digital/print candidates, then separately authorized publication; existing evidence gaps remain preserved."
 }

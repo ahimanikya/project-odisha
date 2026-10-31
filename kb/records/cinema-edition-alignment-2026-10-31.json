@@ -1,0 +1,103 @@
+{
+  "id": "POD-CINEMA-EDITION-ALIGNMENT-20261031",
+  "date": "2026-10-31",
+  "baseline_commit": "da44c895",
+  "status": "local_review_ready",
+  "authorization": "Founder: Ok, let’s pick up next in Q; queue16 aligns reviewed series and book editions.",
+  "scope": "Align current50readings with digital/print candidates; preserve original covers, image families, approved prose and published downloads.",
+  "books": [
+    {
+      "edition": "digital",
+      "file": "output/pdf/odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+      "bytes": 23138230,
+      "sha256": "457f084fd7574aabf622467f2786d8065c3b9b1dc9ad368d91104fc440ce9486",
+      "pages": 254,
+      "readings": 50,
+      "status": "reviewed_local_candidate",
+      "build_receipt": "outputs/cinema-expansion-20261031/edition-alignment-digital-book-build.json"
+    },
+    {
+      "edition": "print",
+      "file": "output/pdf/odia-cinema-a-living-screen-print-2026-10-31-aligned.pdf",
+      "bytes": 49031052,
+      "sha256": "deeab8c32c04e37af4c57bd3c656a556c76beb72bea485c3977637a33d08e6a6",
+      "pages": 282,
+      "readings": 50,
+      "status": "reviewed_local_candidate",
+      "build_receipt": "outputs/cinema-expansion-20261031/edition-alignment-print-book-build.json"
+    }
+  ],
+  "parts": 7,
+  "readings": 50,
+  "image_placements": 56,
+  "unique_originals": 56,
+  "line_art_placements": 3,
+  "changes": [
+    "Refreshed overview companion from current canonical source: training/services, children, actor links and Tara award row plus matching source notes.",
+    "Preserved approved short overview opening and original cover/back cover.",
+    "Updated stale descriptive counts and added guard rejecting stale overview adaptation.",
+    "Grouped final sections for Tapu Mishra, Uttam Mohanty and Anupam Patnaik without shrinking fonts or changing image geometry.",
+    "Removed eight routine watch-link check notices in book only; relevant availability/payment/catalogue qualifications retained.",
+    "Built current 6x9 inch digital and mirrored-margin print reading editions with stable contents and page references."
+  ],
+  "evidence": {
+    "source_audit": "outputs/cinema-expansion-20261031/edition-alignment-evidence.json",
+    "implementation": "outputs/cinema-expansion-20261031/edition-alignment-implementation.json",
+    "quality_review": "outputs/cinema-expansion-20261031/edition-alignment-review.json",
+    "digital_visual_review": "outputs/cinema-expansion-20261031/edition-alignment-digital-final-review.json",
+    "structure": "outputs/cinema-expansion-20261031/edition-alignment-structure.json",
+    "marker": "outputs/cinema-expansion-20261031/edition-alignment-marker.json"
+  },
+  "validation": {
+    "targeted_checks_passed": 32,
+    "rendered_checks_passed": 7,
+    "build_exit": 0,
+    "coastal_pages": 874,
+    "disclosure_pages": 1003,
+    "disclosure_violations": 0,
+    "pdf_internal_link_errors": 0,
+    "pdf_text_outside_trim": 0,
+    "canonical_article_sources_edited": 0,
+    "notes_per_edition": 432,
+    "citation_pairs_per_edition": 588,
+    "record_gates": {
+      "team_assignments": "PASS",
+      "autonomous_program": "PASS",
+      "research_map": "PASS",
+      "diff_whitespace": "PASS"
+    }
+  },
+  "published_downloads_unchanged": [
+    {
+      "edition": "digital",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-30/odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+      "bytes": 17085322,
+      "sha256": "cab8a61622abe576c2a21cadcbf3868fc2d33615b8da136ea18c4b516743b537",
+      "pages": 235,
+      "status": "reviewed_release_asset"
+    },
+    {
+      "edition": "print",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-30/odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+      "bytes": 39974692,
+      "sha256": "14160f265ad6f7c4756d2689fd9ac39d6b88ea2909f8470fc52f0be3e4dd2e17",
+      "pages": 260,
+      "status": "reviewed_release_asset"
+    }
+  ],
+  "publication_performed": false,
+  "publication_authorized_this_cycle": false,
+  "human_review_claimed": false,
+  "programme_progress_credit": 0,
+  "release_preparation": "Final PDFs are local release assets, outside source-control binary history. Exact bytes/hashes and sources are recorded. No remote tag, upload or website download activation performed.",
+  "remaining": [
+    "Author review and separate release of the candidate editions.",
+    "Research gaps from previous queue items remain recorded: source-author compensation, original periodicals/complete-book reading and current studio production-hire terms.",
+    "Rights-cleared portraits remain an open improvement for Uttam and Aparajita; existing conceptual illustrations are retained."
+  ],
+  "print_limit": "Printable reading edition,6x9 inches with mirrored margins; not a printer-specific press-ready PDF/X or tagged accessibility edition. Existing source photograph/cover resolution retained; no invented detail or source upscaling.",
+  "next_action": "Review the two candidate editions, then publish under a separately recorded release. Do not repeat exhausted evidence searches without a new source.",
+  "builder_sha256": "ed3013cfc67fbae6305a5733be3efeb687b32b638715a9bf8f01bafd8054dafc",
+  "narrative_plan_sha256": "7b46d20ab510aeaf22f0fa19f23c137582004e6b23fb749e9007fb8d5326ab52",
+  "image_layout_sha256": "5a9996030514d06b399dd2f6d1d21fed85762c87148e94bb1805f374d689517c"
+}

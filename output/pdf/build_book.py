@@ -1,7 +1,7 @@
 from pathlib import Path
 from urllib.parse import quote
 import sys,json,re,html,hashlib,datetime,argparse
-parser=argparse.ArgumentParser();parser.add_argument("--edition",choices=["digital","print"],default="digital");parser.add_argument("--layout-only",action="store_true");parser.add_argument("--page-map");parser.add_argument("--date",required=True);parser.add_argument("--revision",default="",help="Optional lowercase filename suffix, e.g. intro-revised; isolates PDFs, page maps and render receipts.");args=parser.parse_args();
+parser=argparse.ArgumentParser();parser.add_argument("--edition",choices=["digital","print"],default="digital");parser.add_argument("--layout-only",action="store_true");parser.add_argument("--page-map");parser.add_argument("--date",required=True);parser.add_argument("--revision",default="",help="Optional lowercase filename suffix, e.g. intro-revised; isolates PDFs, page maps and render receipts.");parser.add_argument("--artifact-marker-evidence",help="Path to actual coordinator marker receipt; records supplied evidence without independently asserting execution.");args=parser.parse_args();
 if args.revision and not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*",args.revision):parser.error("--revision must contain lowercase letters, digits and single hyphens")
 EDITION_KEY=args.date+("-"+args.revision if args.revision else "");EDITION_DATE=datetime.date.fromisoformat(args.date);DATE_TEXT=EDITION_DATE.strftime("%d %B %Y").lstrip("0");PRINT=args.edition=="print";WIDTH=336 if PRINT else 348
 R=Path(__file__).resolve().parents[2];sys.path.insert(0,str(R.parent/'prahallad-nataka-research/tmp/pdfs/deps'))
@@ -68,6 +68,23 @@ manifest=json.loads((R/'projects/site/src/data/cinema.json').read_text());entrie
 additions={}
 narrative_path=R/'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'
 narrative=json.loads(narrative_path.read_text()) if narrative_path.exists() else {}
+def validate_overview_adaptation(plan,root):
+ if not plan.get('overview'):return
+ preservation=plan.get('preservation',{});source=root/preservation['overview_source'];raw=source.read_bytes()
+ if hashlib.sha256(raw).hexdigest()!=preservation.get('overview_source_sha256'):raise ValueError('Stale overview adaptation: canonical source hash changed')
+ text=raw.decode();headings=list(re.finditer(r'^#{1,2} .+$',text,re.M))
+ chunks={m.group():text[m.start():headings[i+1].start() if i+1<len(headings) else len(text)] for i,m in enumerate(headings)}
+ mapped=plan['overview'].get('section_map',[])
+ if len(mapped)!=len(chunks) or {item['heading'] for item in mapped}!=set(chunks):raise ValueError('Overview section map is incomplete or duplicated')
+ for item in mapped:
+  chunk=chunks[item['heading']];target=plan['overview'][item['destination']+'_markdown']
+  if hashlib.sha256(chunk.encode()).hexdigest()!=item['source_sha256'] or len(chunk)!=item['source_characters'] or target.count(chunk.strip())!=1:raise ValueError('Stale overview section: '+item['heading'])
+validate_overview_adaptation(narrative,R)
+artifact_marker={'status':'not_supplied','scope':'No marker execution is claimed by this builder.'}
+if args.artifact_marker_evidence:
+ marker_path=Path(args.artifact_marker_evidence).resolve()
+ artifact_marker={'status':'operator_supplied_evidence','path':str(marker_path),'sha256':hashlib.sha256(marker_path.read_bytes()).hexdigest(),'scope':'Receipt supplied by build operator; execution is not independently verified by this builder.'}
+
 section_guide=narrative.get('section_guide',[])
 section_keys=[item['id'] for item in section_guide]
 if len(section_keys)!=len(set(section_keys)):raise ValueError('Duplicate discovery section IDs')
@@ -128,17 +145,22 @@ def inline(text,slug=None,refs=True):
  for k,v in tokens.items():text=text.replace(k,v)
  return text
 
+TAIL_SPACING_CHAPTERS={'tapu-mishra','uttam-mohanty','anupam-patnaik'}
 COMPACT_SPACING_CHAPTERS={'odia-cinema','learning-cinema-together','cinema-economics','cinema-futures'}
 TIGHT_CHAPTERS={'the-question-that-brought-me-here','literature-and-screen','gour-prasad-ghose','nirad-mohapatra','aadim-vichar','lavanya-preeti','deependra-samal','vishal-mourya','ak-bir'}
 CLOSING_FLOW_CHAPTERS={'prafulla-kar','commercial-successes','cinema-music','debi-prasad-lenka'}
 styles['body-tight']=ParagraphStyle('body-tight',parent=styles['body'],spaceAfter=6)
+styles['body-tail']=ParagraphStyle('body-tail',parent=styles['body'],spaceAfter=4)
+styles['h2-tail']=ParagraphStyle('h2',parent=styles['h2'],spaceBefore=5,spaceAfter=3)
 styles['body-economics']=ParagraphStyle('body-economics',parent=styles['body'],spaceAfter=4)
 styles['h2-closing']=ParagraphStyle('h2',parent=styles['h2'],spaceBefore=6,spaceAfter=4)
 styles['odiaquote']=ParagraphStyle('odiaquote',parent=styles['body'],fontName='Odia',fontSize=13,leading=21)
 def para(t,style='body',slug=None,refs=True):
- if style=='h2' and slug in {'cinema-economics','cinema-futures'}:style='h2-closing'
+ if style=='h2' and slug in TAIL_SPACING_CHAPTERS:style='h2-tail'
+ elif style=='body' and slug in TAIL_SPACING_CHAPTERS:style='body-tail'
+ elif style=='h2' and slug in {'cinema-economics','cinema-futures'}:style='h2-closing'
  elif style=='body' and (slug=='cinema-economics' or PRINT and slug=='cinema-futures'):style='body-economics'
- elif style=='body' and slug in TIGHT_CHAPTERS|CLOSING_FLOW_CHAPTERS|COMPACT_SPACING_CHAPTERS:style='body-tight'
+ elif style=='body' and slug in TIGHT_CHAPTERS|CLOSING_FLOW_CHAPTERS|COMPACT_SPACING_CHAPTERS|TAIL_SPACING_CHAPTERS:style='body-tight'
  if re.match(r'^[“"]?[\u0b00-\u0b7f]',t) and len(re.findall(r'[\u0b00-\u0b7f]',t))>len(re.findall(r'[A-Za-z]',t))*3:return Paragraph(html.escape(norm(t)),styles['odiaquote'])
  return Paragraph(inline(t,slug,refs),styles[style])
 image_layout_path=R/'kb/research/culture/cinema-series/image-layout-2026-10-30.json'
@@ -250,6 +272,16 @@ for a in entries.values():
  short.setdefault(a['slug'],re.sub(r'\s+',' ',re.sub(r'[\u0b00-\u0b7f]+','',a['title'])).strip(' |'))
  short[a['slug']]=re.sub(r'^\(([^)]+)\)',r'\1',short[a['slug']])
 suppressed_viewing=[]
+# Exact book-only maintenance prose; dated evidence and source notes remain intact.
+ROUTINE_VIEWING_NOTICES={
+ 'Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.':'Availability may vary by region and subscription.',
+ 'These exploration pages were checked in the retained research on 25 October 2026. Audio playback was not tested.':'',
+ 'Archive and song links checked on 26 October 2026; clip playback untested.':'',
+ 'Restoration page checked on 26 October 2026; clip playback untested.':'',
+ 'Listings checked on 26 October 2026.':'',
+ 'Catalogue links checked on 26 October 2026.':'',
+ 'Programme links were checked on 25 October 2026; the producer catalogue on 26 October 2026. Playback and current account or regional conditions were not tested.':'Availability may vary by region and account conditions.',
+}
 styles['aside']=ParagraphStyle('aside',parent=styles['body'],fontSize=10.5,leading=15,spaceAfter=0)
 def callout(item,slug):
  label='A connection' if item['kind']=='thread' else 'In focus'
@@ -362,8 +394,11 @@ def render_body(body,slug,companion=False):
   while i<len(lines) and lines[i].strip() and not lines[i].startswith(('#','!','- ','|')):
    chunk.append(lines[i].strip());i+=1
   text=' '.join(chunk)
-  if narrative.get('viewing_note') and text.startswith('Links checked on ') and 'Playback was not tested' in text:
-   suppressed_viewing.append({'slug':slug,'text':text});continue
+  if narrative.get('viewing_note') and text in ROUTINE_VIEWING_NOTICES:
+   replacement=ROUTINE_VIEWING_NOTICES[text]
+   suppressed_viewing.append({'slug':slug,'text':text,'replacement':replacement})
+   if not replacement:continue
+   text=replacement
   story.append(para(text,'body',slug));paragraphs+=1
   if slug=='lavanya-preeti' and len(story)>1 and isinstance(story[-2],Paragraph) and story[-2].getPlainText()=='Find the film in the catalogue':
    start=len(story)-2
@@ -447,6 +482,25 @@ for index,slug in enumerate(order,1):
    closing.insert(0,story.pop())
    if slug=='aadim-vichar' and story and isinstance(story[-1],Paragraph):closing.insert(0,story.pop())
   story.append(KeepTogether(closing))
+ # For these three short endings, prefer a coherent section over a detached tail.
+ # Include an existing closing bridge, but never bind images or more than 300pt.
+ if slug in TAIL_SPACING_CHAPTERS:
+  if isinstance(story[-1],KeepTogether) and all(isinstance(f,Paragraph) for f in flatten_flows([story[-1]])):
+   story.extend(flatten_flows([story.pop()]))
+  end=len(story);start=end
+  for j in range(end-1,chapter_start-1,-1):
+   if not isinstance(story[j],Paragraph):break
+   if story[j].style.name in ['h2','h3']:
+    start=j;break
+  candidate=story[start:end]
+  height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in candidate)
+  if not candidate or height>300:
+   start=end-2;candidate=story[start:end]
+   if start>chapter_start and isinstance(story[start-1],Paragraph) and story[start-1].style.name in ['h2','h3']:
+    start-=1;candidate=story[start:end]
+  if candidate and all(isinstance(f,Paragraph) for f in candidate):
+   height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in candidate)
+   if height<=300:story[start:end]=[KeepTogether(candidate)]
  chapters.append({'slug':slug,'source':a['source'],'source_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'book_body_sha256':hashlib.sha256(body.encode()).hexdigest(),'adaptation':'shortened opening; remaining survey in companion appendix' if slug=='odia-cinema' and narrative.get('overview') else 'canonical narrative with separately recorded reading aids','paragraphs':paragraphs,'notes':len(notes[slug])})
 if narrative.get('overview',{}).get('companion_markdown'):
  story.append(PageBreak());h=para('Companion survey: the wider screen','chapter');h.bookkey='overview-companion';h.booktitle='Companion survey: the wider screen';story.append(h)
@@ -486,7 +540,7 @@ for index,slug in enumerate(order,1):
 
 if PRINT:
  story.append(PageBreak());h=para('Printed source and viewing directory','chapter');h.bookkey='printed-sources';h.booktitle='Printed source and viewing directory';story.append(h)
- story.append(para('References marked S identify the source or viewing address below. Checked dates and access classifications remain beside the relevant chapter links. Type the full address; availability may change.','small'))
+ story.append(para('References marked S identify the source or viewing address below. Access qualifications remain beside the relevant chapter links. Type the full address; availability may change.','small'))
  for url,n in url_directory.items():story.append(Paragraph('<b>S'+str(n)+'.</b> '+html.escape(quote(url,safe=':/?&=%#')),styles['small']))
 story.extend([Spacer(1,20),CondPageBreak(130)]);h=para('Edition note','chapter');h.bookkey='credits';h.booktitle='Edition note';story.append(h)
 story.append(para('Cover illustration: a symbolic reading of the household world associated with Maya Miriga; not a film still. Cover artwork and design are credited to Project Odisha.','small'))
@@ -526,5 +580,5 @@ for offset in range(0,len(thumbs),12):
   x=12+(k%4)*234;y=12+(k//4)*370;sheet.paste(im,(x,y));draw.text((x,y+329),f'Page {offset+k+1}',fill='black')
  sheet.save(TMP/f'contact-{offset//12+1:02}.jpg',quality=90)
 for chapter in chapters:chapter['notes']=len(notes[chapter['slug']])
-record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':'Disha executed PDF edit marker once on2026-10-30; expected output count2; existing covers unchanged','browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
+record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
 (TMP/('book-build-'+EDITION_KEY+'.json')).write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:record[k] for k in ['pages','notes','citation_pairs','chapter_pages']},indent=2))

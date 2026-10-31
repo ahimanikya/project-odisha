@@ -1,0 +1,88 @@
+{
+  "review_date": "2026-10-31",
+  "artifact": "output/pdf/odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+  "sha256": "457f084fd7574aabf622467f2786d8065c3b9b1dc9ad368d91104fc440ce9486",
+  "page_count": 254,
+  "verdict": "PASS within visual scope; no blocking clipping, overlap, missing image or broken table layout observed.",
+  "inspection": {
+    "contact_sheets": [
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-01.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-02.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-03.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-04.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-05.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-06.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-07.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-08.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-09.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-10.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-11.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-12.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-13.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-14.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-15.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-16.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-17.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-18.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-19.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-20.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-21.jpg",
+      "tmp/pdfs/2026-10-31-aligned/digital/contact-22.jpg"
+    ],
+    "contact_sheet_pages": "1–254, all 22 supplied sheets visually inspected",
+    "full_size_pages": [
+      67,
+      69,
+      191,
+      194,
+      197,
+      204,
+      220,
+      253
+    ],
+    "checks": [
+      "Reading sequence and chapter openings across all contact sheets",
+      "Portrait, group photograph, stamp and printed-page sizing/caption alignment",
+      "Commercial and award table rows within margins",
+      "Conclusion Odia saying and line drawing on page191",
+      "Expanded children and studio material visible in companion",
+      "Numbered notes and source-section typography; no separate image-credit section",
+      "Final cover and edition note"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "minor-layout-observation",
+      "page": 253,
+      "detail": "The final numbered source note (dhaga note7) precedes the Edition note heading on the same page. It is legible with a clear gap and does not collide with the heading; this is acceptable, though a future design could keep the note with the preceding source page."
+    },
+    {
+      "severity": "accepted-layout",
+      "pages": [
+        42,
+        60,
+        73,
+        84,
+        88,
+        91,
+        110,
+        173
+      ],
+      "detail": "Some short chapters finish with substantial whitespace or compact watch/read paragraphs. These contain meaningful closing text rather than stray superscripts or clipped fragments; no change required in this bounded final pass."
+    }
+  ],
+  "observations": [
+    "All photographed faces and archival object edges reviewed at contact scale remain within their image frames.",
+    "Stamp page67 is modestly sized with caption aligned to its left edge; facsimile page69 remains complete.",
+    "Full-size page191 displays Odia glyphs, superscript citation and line drawing cleanly.",
+    "Full-size page204 award cards retain their separate rows without overlap.",
+    "Page253 correctly states50readings in7parts."
+  ],
+  "limits": [
+    "All pages inspected at contact-sheet scale; only listed8pages inspected at full size. This does not assert word-by-word proofing of254pages.",
+    "No new fact-checking, accessibility-tag, annotation-target or PDF text-extraction validation in this visual pass.",
+    "No PDF generation or source changes performed.",
+    "Source/PDF SHA verified directly; supplied raster sequence reviewed as the final254-page render."
+  ],
+  "scope_released": true
+}

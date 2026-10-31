@@ -1,0 +1,820 @@
+
+> project-odisha-site@0.1.0 build:coast
+> node tools/build-coast.mjs
+
+
+> project-odisha-site@0.1.0 build
+> node tools/build-local-verification.mjs && node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro build && node tools/export-dhaga.mjs
+
+Generated Utkal 0.1.0-rc.5 tokens.
+Prepared Utkal Design System 0.1.0-rc.5 and font licences.
+Prepared 5 explicitly selected research notes; no automatic full-KB export.
+Prepared 166 credited art photographs and visible source notes; source originals unchanged.
+Prepared responsive variants for 88 existing images.
+18:21:18 [types] Generated 44ms
+18:21:18 [build] output: "static"
+18:21:18 [build] mode: "static"
+18:21:18 [build] directory: /Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/.coast-staging/
+18:21:18 [build] Collecting build info...
+18:21:18 [build] ✓ Completed in 79ms.
+18:21:18 [build] Building static entrypoints...
+18:21:19 [vite] ✓ built in 651ms
+18:21:21 [vite] ✓ built in 2.34s
+18:21:21 [build] Rearranging server assets...
+
+ generating static routes
+18:21:21   ├─ /404.html (+30ms)
+18:21:21   ├─ /about/editorial-process/index.html (+8ms)
+18:21:21   ├─ /about/index.html (+21ms)
+18:21:21   ├─ /archive/sashi-sena-prachi-samiti.pdf (+6ms)
+18:21:21   ├─ /archive/kathalahari-sixth-edition-1927.pdf (+6ms)
+18:21:21   ├─ /brand-review/index.html (+6ms)
+18:21:21   ├─ /business/puri-resort/index.html (+6ms)
+18:21:21   ├─ /cinema/book/index.html (+6ms)
+18:21:21   ├─ /cinema/reading-guide/index.html (+6ms)
+18:21:21   ├─ /cinema/watch/index.html (+4ms)
+18:21:21   ├─ /cinema/the-question-that-brought-me-here/index.html (+8ms)
+18:21:21   ├─ /cinema/literature-and-screen/index.html (+7ms)
+18:21:21   ├─ /cinema/air-cuttack/index.html (+10ms)
+18:21:21   ├─ /cinema/cinema-music/index.html (+5ms)
+18:21:21   ├─ /cinema/odia-cinema/index.html (+11ms)
+18:21:22   ├─ /cinema/parbati-ghose/index.html (+5ms)
+18:21:22   ├─ /cinema/sadhu-meher/index.html (+4ms)
+18:21:22   ├─ /cinema/manmohan-mahapatra/index.html (+5ms)
+18:21:22   ├─ /cinema/maya-miriga/index.html (+4ms)
+18:21:22   ├─ /cinema/bhukha/index.html (+5ms)
+18:21:22   ├─ /cinema/aadim-vichar/index.html (+4ms)
+18:21:22   ├─ /cinema/lavanya-preeti/index.html (+5ms)
+18:21:22   ├─ /cinema/nandita-das/index.html (+5ms)
+18:21:22   ├─ /cinema/learning-cinema-together/index.html (+4ms)
+18:21:22   ├─ /cinema/searching-for-sita-bibaha/index.html (+5ms)
+18:21:22   ├─ /cinema/who-keeps-a-film-alive/index.html (+6ms)
+18:21:22   ├─ /cinema/reading-odia-cinema/index.html (+8ms)
+18:21:22   ├─ /cinema/pratikshya/index.html (+8ms)
+18:21:22   ├─ /cinema/daman/index.html (+21ms)
+18:21:22   ├─ /cinema/odia-television/index.html (+8ms)
+18:21:22   ├─ /cinema/odia-ott/index.html (+5ms)
+18:21:22   ├─ /cinema/commercial-successes/index.html (+6ms)
+18:21:22   ├─ /cinema/cinema-economics/index.html (+6ms)
+18:21:22   ├─ /cinema/cinema-futures/index.html (+9ms)
+18:21:22   ├─ /cinema/index.html (+7ms)
+18:21:22   ├─ /communities/bhandari/index.html (+11ms)
+18:21:22   ├─ /communities/bhulia/index.html (+8ms)
+18:21:22   ├─ /communities/chasa/index.html (+13ms)
+18:21:22   ├─ /communities/chitrakara/index.html (+10ms)
+18:21:22   ├─ /communities/dhoba/index.html (+7ms)
+18:21:22   ├─ /communities/gopala/index.html (+6ms)
+18:21:22   ├─ /communities/kaibarta/index.html (+7ms)
+18:21:22   ├─ /communities/kamar/index.html (+6ms)
+18:21:22   ├─ /communities/kansari/index.html (+5ms)
+18:21:22   ├─ /communities/karana/index.html (+7ms)
+18:21:22   ├─ /communities/khandayat/index.html (+13ms)
+18:21:22   ├─ /communities/kumbhara/index.html (+7ms)
+18:21:22   ├─ /communities/mali/index.html (+5ms)
+18:21:22   ├─ /communities/nolia/index.html (+6ms)
+18:21:22   ├─ /communities/paika/index.html (+5ms)
+18:21:22   ├─ /communities/patara/index.html (+13ms)
+18:21:22   ├─ /communities/sunari/index.html (+7ms)
+18:21:22   ├─ /communities/tanti/index.html (+6ms)
+18:21:22   ├─ /communities/teli/index.html (+15ms)
+18:21:22   ├─ /contribute/index.html (+40ms)
+18:21:22   ├─ /crafts/balakati-metalcraft/index.html (+8ms)
+18:21:22   ├─ /crafts/pipili-applique/index.html (+4ms)
+18:21:22   ├─ /crafts/pattachitra/index.html (+4ms)
+18:21:22   ├─ /crafts/index.html (+5ms)
+18:21:22   ├─ /culture/osha/finding-seasonal-food/index.html (+18ms)
+18:21:22   ├─ /culture/osha/which-osha/index.html (+6ms)
+18:21:22   ├─ /culture/osha/khudurukuni/index.html (+6ms)
+18:21:22   ├─ /culture/osha/manabasa-gurubara/index.html (+6ms)
+18:21:22   ├─ /culture/osha/sudasa-brata/index.html (+10ms)
+18:21:22   ├─ /culture/osha/dutiya/index.html (+6ms)
+18:21:22   ├─ /culture/osha/budhei/index.html (+5ms)
+18:21:22   ├─ /culture/osha/alana/index.html (+4ms)
+18:21:22   ├─ /culture/osha/kanji-anla/index.html (+4ms)
+18:21:22   ├─ /culture/osha/bada/index.html (+5ms)
+18:21:22   ├─ /culture/osha/samba-dashami/index.html (+7ms)
+18:21:22   ├─ /culture/osha/prathamastami/index.html (+5ms)
+18:21:22   ├─ /culture/osha/sabitri/index.html (+3ms)
+18:21:22   ├─ /culture/osha/janhi/index.html (+4ms)
+18:21:22   ├─ /culture/osha/chaitra-mangala/index.html (+4ms)
+18:21:22   ├─ /culture/osha/sathi/index.html (+5ms)
+18:21:22   ├─ /culture/osha/nisha-mangalabara/index.html (+3ms)
+18:21:22   ├─ /culture/osha/pua-jiuntia/index.html (+6ms)
+18:21:22   ├─ /culture/osha/bhai-jiuntia/index.html (+3ms)
+18:21:22   ├─ /culture/osha/nuakhai/index.html (+4ms)
+18:21:22   ├─ /culture/osha/bata/index.html (+7ms)
+18:21:22   ├─ /culture/osha/pandu/index.html (+5ms)
+18:21:22   ├─ /culture/osha/shani-tota/index.html (+10ms)
+18:21:22   ├─ /culture/osha/bali-trutiya/index.html (+4ms)
+18:21:22   ├─ /culture/osha/sita-navami/index.html (+5ms)
+18:21:22   ├─ /culture/osha/rambha-trutiya/index.html (+4ms)
+18:21:22   ├─ /culture/osha/nagala-chaturthi/index.html (+3ms)
+18:21:22   ├─ /culture/osha/naga-panchami/index.html (+3ms)
+18:21:22   ├─ /culture/osha/ananta-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/rabinarayana-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/somnath-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/kukkuti-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/santoshi-mata-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/kedar-brata/index.html (+7ms)
+18:21:22   ├─ /culture/osha/rai-damodara-brata/index.html (+6ms)
+18:21:22   ├─ /culture/osha/magha-brata/index.html (+5ms)
+18:21:22   ├─ /culture/osha/baisakha-brata/index.html (+14ms)
+18:21:22   ├─ /culture/osha/guru-panchami/index.html (+10ms)
+18:21:22   ├─ /culture/osha/rushi-panchami/index.html (+5ms)
+18:21:22   ├─ /culture/osha/gouri-brata/index.html (+9ms)
+18:21:22   ├─ /culture/osha/bipattarini-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/sankata-chaturthi/index.html (+3ms)
+18:21:22   ├─ /culture/osha/radhastami-brata/index.html (+6ms)
+18:21:22   ├─ /culture/osha/shibaratri-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/janmastami-brata/index.html (+6ms)
+18:21:22   ├─ /culture/osha/pusa-rabibara-brata/index.html (+5ms)
+18:21:22   ├─ /culture/osha/binayaka-brata/index.html (+10ms)
+18:21:22   ├─ /culture/osha/skanda-sasthi-brata/index.html (+18ms)
+18:21:22   ├─ /culture/osha/guru-purnima-brata/index.html (+7ms)
+18:21:22   ├─ /culture/osha/shiva-pradosha-brata/index.html (+9ms)
+18:21:22   ├─ /culture/osha/tarini-brata/index.html (+8ms)
+18:21:22   ├─ /culture/osha/bajra-mahakali-brata/index.html (+7ms)
+18:21:22   ├─ /culture/osha/mahastami-brata/index.html (+138ms)
+18:21:22   ├─ /culture/osha/ashoka-astami-brata/index.html (+4ms)
+18:21:22   ├─ /culture/osha/raja-parba/index.html (+3ms)
+18:21:22   ├─ /culture/osha/index.html (+9ms)
+18:21:22   ├─ /destinations/balasore/index.html (+14ms)
+18:21:22   ├─ /destinations/mayurbhanj/index.html (+5ms)
+18:21:22   ├─ /destinations/bhubaneswar/index.html (+4ms)
+18:21:22   ├─ /destinations/puri/index.html (+4ms)
+18:21:22   ├─ /destinations/cuttack/index.html (+4ms)
+18:21:22   ├─ /destinations/index.html (+5ms)
+18:21:22   ├─ /events/arts-literature/index.html (+5ms)
+18:21:22   ├─ /events/index.html (+5ms)
+18:21:22   ├─ /explore/index.html (+5ms)
+18:21:22   ├─ /food/bhubaneswar/index.html (+6ms)
+18:21:22   ├─ /food/cuttack/index.html (+4ms)
+18:21:22   ├─ /food/everyday/index.html (+6ms)
+18:21:22   ├─ /food/fire-cooking/index.html (+5ms)
+18:21:22   ├─ /food/puri-coast/index.html (+7ms)
+18:21:22   ├─ /food/restaurants/odraa/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/atithi-devo-bhaba/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/zaika/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/pind-da-dhaba/index.html (+9ms)
+18:21:22   ├─ /food/restaurants/breeze/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/crunchy-munchie/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/welcomcafe/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/golden-bird/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/the-salt-theory-kitchen-and-bar/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/kanika/index.html (+7ms)
+18:21:22   ├─ /food/restaurants/garam-masala/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/silver-streak/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/barbeque-nation/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/pizza-hut/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/domino-s-pizza/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/yum-yum-fast-food/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/the-chef-restaurant/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/cuttack-odisha-hotel/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/cuttack-zaikedaar-dhaba/index.html (+3ms)
+18:21:22   ├─ /food/restaurants/puri-oudichi-hans-coco-palms/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/puri-nimantran/index.html (+4ms)
+18:21:22   ├─ /food/restaurants/puri-pearl/index.html (+9ms)
+18:21:23   ├─ /food/restaurants/berhampur-vayu/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/balasore-julian/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/balasore-barjorjis-banjara/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/jeypore-swad-sadan/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/jeypore-hotel-signature/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/koraput-raj-residency/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/paradip-mosaic/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/paradip-sea-pearl/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/rourkela-super-snax-mayfair-garden/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/rourkela-tea-pot-world-cup-village/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/sambalpur-nimantran/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/sambalpur-sapphire-grand-siba/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/jharsuguda-naivaidyam-mohini-royale/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/jharsuguda-pipul-utkal-continental/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/balangir-cupid-apoorva-royale/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/balangir-swayam-hotel-resort/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/angul-shakti-continental/index.html (+9ms)
+18:21:23   ├─ /food/restaurants/dhenkanal-nirupama/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/baripada-shakti-hotel-durga/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/bhadrak-soukheen-hotel-orion/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/bargarh-royal-leaf/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/rayagada-jyoti-mahal/index.html (+5ms)
+18:21:23   ├─ /food/restaurants/bhawanipatna-amrapali-classic/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/jajpur-road-paradise-restro/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/bhubaneswar-odisha-hotel/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/bhubaneswar-nimantran/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/puri-holiday-palms/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/konark-lotus-restaurant/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/chilika-orana/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/gopalpur-yummies/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/gopalpur-1914/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/sambalpur-kedias-restaurant/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/rourkela-yavis/index.html (+5ms)
+18:21:23   ├─ /food/restaurants/jharsuguda-the-marinated/index.html (+7ms)
+18:21:23   ├─ /food/restaurants/berhampur-bojanam/index.html (+4ms)
+18:21:23   ├─ /food/restaurants/balasore-yum-chinese/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/jharsuguda-super-snax-mayfair-oasis/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/cuttack-vdumpling-dynasty/index.html (+3ms)
+18:21:23   ├─ /food/restaurants/chilika-rambha-island-breakfast/index.html (+3ms)
+18:21:23   ├─ /food/sweets-and-places/index.html (+6ms)
+18:21:23   ├─ /food/three-tastes/index.html (+5ms)
+18:21:23   ├─ /food/where-to-eat/index.html (+5ms)
+18:21:23   ├─ /food/chhena-poda/index.html (+6ms)
+18:21:23   ├─ /food/mudhi-mansa/index.html (+4ms)
+18:21:23   ├─ /food/balasore/index.html (+5ms)
+18:21:23   ├─ /food/odisha-rasagola/index.html (+5ms)
+18:21:23   ├─ /food/enduri-pitha/index.html (+5ms)
+18:21:23   ├─ /food/poda-pitha/index.html (+8ms)
+18:21:23   ├─ /food/ou-khatta/index.html (+4ms)
+18:21:23   ├─ /food/badi-chura/index.html (+6ms)
+18:21:23   ├─ /food/tala-pitha/index.html (+13ms)
+18:21:23   ├─ /food/baigana-poda/index.html (+5ms)
+18:21:23   ├─ /food/tomato-poda/index.html (+4ms)
+18:21:23   ├─ /food/patrapoda/index.html (+4ms)
+18:21:23   ├─ /food/dalma/index.html (+4ms)
+18:21:23   ├─ /food/dahibara-aloodum/index.html (+5ms)
+18:21:23   ├─ /food/machha-besara/index.html (+4ms)
+18:21:23   ├─ /food/index.html (+7ms)
+18:21:23   ├─ /founder/index.html (+5ms)
+18:21:23   ├─ /global-connections/index.html (+6ms)
+18:21:23   ├─ /heritage-walks/index.html (+9ms)
+18:21:23   ├─ /how-to-use/index.html (+7ms)
+18:21:23   ├─ /internal/dhaga-chrome/index.html (+4ms)
+18:21:23   ├─ /journey/index.html (+8ms)
+18:21:23   ├─ /journey-starters/balasore/index.html (+5ms)
+18:21:23   ├─ /journey-starters/chilika/index.html (+6ms)
+18:21:23   ├─ /journey-starters/cuttack/index.html (+10ms)
+18:21:23   ├─ /journey-starters/mayurbhanj/index.html (+7ms)
+18:21:23   ├─ /journey-starters/bhubaneswar-objects-ideas/index.html (+9ms)
+18:21:23   ├─ /journey-starters/cuttack-river-silver/index.html (+4ms)
+18:21:23   ├─ /journey-starters/puri-craft-connections/index.html (+3ms)
+18:21:23   ├─ /journey-starters/index.html (+6ms)
+18:21:23   ├─ /knowledge/kotpad/index.html (+4ms)
+18:21:23   ├─ /knowledge/chilika/index.html (+5ms)
+18:21:23   ├─ /knowledge/konark/index.html (+5ms)
+18:21:23   ├─ /knowledge/pakhala/index.html (+6ms)
+18:21:23   ├─ /knowledge/boita-bandana/index.html (+4ms)
+18:21:23   ├─ /languages/atlas/index.html (+11ms)
+18:21:23   ├─ /languages/desia/index.html (+12ms)
+18:21:23   ├─ /languages/districts/bargarh/index.html (+26ms)
+18:21:23   ├─ /languages/districts/jharsuguda/index.html (+15ms)
+18:21:23   ├─ /languages/districts/sambalpur/index.html (+13ms)
+18:21:23   ├─ /languages/districts/debagarh/index.html (+11ms)
+18:21:23   ├─ /languages/districts/sundargarh/index.html (+35ms)
+18:21:23   ├─ /languages/districts/kendujhar/index.html (+35ms)
+18:21:23   ├─ /languages/districts/mayurbhanj/index.html (+20ms)
+18:21:23   ├─ /languages/districts/baleshwar/index.html (+15ms)
+18:21:23   ├─ /languages/districts/bhadrak/index.html (+19ms)
+18:21:23   ├─ /languages/districts/kendrapara/index.html (+17ms)
+18:21:23   ├─ /languages/districts/jagatsinghapur/index.html (+25ms)
+18:21:23   ├─ /languages/districts/cuttack/index.html (+42ms)
+18:21:23   ├─ /languages/districts/jajapur/index.html (+21ms)
+18:21:23   ├─ /languages/districts/dhenkanal/index.html (+69ms)
+18:21:23   ├─ /languages/districts/anugul/index.html (+19ms)
+18:21:23   ├─ /languages/districts/nayagarh/index.html (+11ms)
+18:21:23   ├─ /languages/districts/khordha/index.html (+16ms)
+18:21:23   ├─ /languages/districts/puri/index.html (+18ms)
+18:21:23   ├─ /languages/districts/ganjam/index.html (+18ms)
+18:21:23   ├─ /languages/districts/gajapati/index.html (+10ms)
+18:21:23   ├─ /languages/districts/kandhamal/index.html (+35ms)
+18:21:23   ├─ /languages/districts/baudh/index.html (+12ms)
+18:21:23   ├─ /languages/districts/subarnapur/index.html (+10ms)
+18:21:23   ├─ /languages/districts/balangir/index.html (+14ms)
+18:21:23   ├─ /languages/districts/nuapada/index.html (+11ms)
+18:21:23   ├─ /languages/districts/kalahandi/index.html (+12ms)
+18:21:23   ├─ /languages/districts/rayagada/index.html (+13ms)
+18:21:23   ├─ /languages/districts/nabarangapur/index.html (+10ms)
+18:21:23   ├─ /languages/districts/koraput/index.html (+14ms)
+18:21:23   ├─ /languages/districts/malkangiri/index.html (+15ms)
+18:21:23   ├─ /languages/districts/index.html (+5ms)
+18:21:24   ├─ /languages/ho/index.html (+5ms)
+18:21:24   ├─ /languages/juang/index.html (+5ms)
+18:21:24   ├─ /languages/koya/index.html (+11ms)
+18:21:24   ├─ /languages/kui/index.html (+5ms)
+18:21:24   ├─ /languages/kuvi/index.html (+5ms)
+18:21:24   ├─ /languages/multilingual-odisha/index.html (+11ms)
+18:21:24   ├─ /languages/odia/index.html (+5ms)
+18:21:24   ├─ /languages/sambalpuri/index.html (+4ms)
+18:21:24   ├─ /languages/santali/index.html (+5ms)
+18:21:24   ├─ /languages/saora/index.html (+4ms)
+18:21:24   ├─ /languages/index.html (+5ms)
+18:21:24   ├─ /literature/abana-rasataranga/index.html (+4ms)
+18:21:24   ├─ /literature/alankara-and-bhanja/index.html (+5ms)
+18:21:24   ├─ /literature/bhanita-and-poet-signatures/index.html (+4ms)
+18:21:24   ├─ /literature/champu-and-sakhi/index.html (+6ms)
+18:21:24   ├─ /literature/reading-journey/index.html (+4ms)
+18:21:24   ├─ /literature/six-acres-and-a-third/index.html (+4ms)
+18:21:24   ├─ /literature/index.html (+6ms)
+18:21:24   ├─ /odia-poetry-jhula/index.html (+8ms)
+18:21:24   ├─ /opportunities/index.html (+5ms)
+18:21:24   ├─ /people/ak-bir/index.html (+5ms)
+18:21:24   ├─ /people/akshaya-mohanty/index.html (+6ms)
+18:21:24   ├─ /people/anupam-patnaik/index.html (+5ms)
+18:21:24   ├─ /people/aparajita-mohanty/index.html (+4ms)
+18:21:24   ├─ /people/basanta-kumari-patnaik/index.html (+5ms)
+18:21:24   ├─ /people/bhima-bhoi/index.html (+4ms)
+18:21:24   ├─ /people/bijay-mishra/index.html (+5ms)
+18:21:24   ├─ /people/bijay-mohanty/index.html (+5ms)
+18:21:24   ├─ /people/bijaya-jena/index.html (+6ms)
+18:21:24   ├─ /people/debi-prasad-lenka/index.html (+5ms)
+18:21:24   ├─ /people/deependra-samal/index.html (+4ms)
+18:21:24   ├─ /people/fakir-mohan-senapati/index.html (+5ms)
+18:21:24   ├─ /people/gangadhar-meher/index.html (+3ms)
+18:21:24   ├─ /people/gopal-chhotray/index.html (+5ms)
+18:21:24   ├─ /people/gopinath-mohanty/index.html (+4ms)
+18:21:24   ├─ /people/gour-prasad-ghose/index.html (+6ms)
+18:21:24   ├─ /people/gourahari-das/index.html (+8ms)
+18:21:24   ├─ /people/kalindi-charan-panigrahi/index.html (+5ms)
+18:21:24   ├─ /people/kanhu-charan-mohanty/index.html (+5ms)
+18:21:24   ├─ /people/lipika-singh-darai/index.html (+4ms)
+18:21:24   ├─ /people/manglu-charan-biswal/index.html (+5ms)
+18:21:24   ├─ /people/nirad-mohapatra/index.html (+5ms)
+18:21:24   ├─ /people/prafulla-kar/index.html (+6ms)
+18:21:24   ├─ /people/pramod-pati/index.html (+4ms)
+18:21:24   ├─ /people/pranab-patnaik/index.html (+5ms)
+18:21:24   ├─ /people/pratibha-ray/index.html (+4ms)
+18:21:24   ├─ /people/sabyasachi-mohapatra/index.html (+4ms)
+18:21:24   ├─ /people/samanta-chandrasekhar/index.html (+5ms)
+18:21:24   ├─ /people/sarala-das/index.html (+4ms)
+18:21:24   ├─ /people/subhas-chandra-bose/index.html (+5ms)
+18:21:24   ├─ /people/surya-deo/index.html (+4ms)
+18:21:24   ├─ /people/tapu-mishra/index.html (+5ms)
+18:21:24   ├─ /people/uttam-mohanty/index.html (+6ms)
+18:21:24   ├─ /people/vishal-mourya/index.html (+6ms)
+18:21:24   ├─ /reading-room/index.html (+8ms)
+18:21:24   ├─ /reading-room/cities/bhubaneswar/index.html (+5ms)
+18:21:24   ├─ /reading-room/collections/made-in-odisha/index.html (+7ms)
+18:21:24   ├─ /reading-room/collections/odisha-and-world/index.html (+7ms)
+18:21:24   ├─ /reading-room/collections/odisha-gi-products/index.html (+11ms)
+18:21:24   ├─ /reading-room/collections/religion-and-spirituality/index.html (+12ms)
+18:21:24   ├─ /reading-room/culture/boita-bandana/index.html (+8ms)
+18:21:24   ├─ /reading-room/culture/cuttack-tarakasi/index.html (+5ms)
+18:21:24   ├─ /reading-room/culture/dhokra/index.html (+4ms)
+18:21:24   ├─ /reading-room/culture/material-arts/index.html (+7ms)
+18:21:24   ├─ /reading-room/culture/osha-brata-seasonal-food/index.html (+5ms)
+18:21:24   ├─ /reading-room/culture/osha-coverage-audit/index.html (+6ms)
+18:21:24   ├─ /reading-room/culture/osha-identity-guide/index.html (+5ms)
+18:21:24   ├─ /reading-room/culture/osha-seasonal-navigation/index.html (+5ms)
+18:21:24   ├─ /reading-room/culture/osha-text-witnesses/index.html (+6ms)
+18:21:24   ├─ /reading-room/culture/osha/sudasa-text-comparison/index.html (+5ms)
+18:21:24   ├─ /reading-room/culture/palm-leaf-engraving/index.html (+6ms)
+18:21:24   ├─ /reading-room/culture/palm-leaf-gi-applications/index.html (+9ms)
+18:21:24   ├─ /reading-room/culture/raghurajpur-pattachitra/index.html (+12ms)
+18:21:24   ├─ /reading-room/culture/sand-art/index.html (+7ms)
+18:21:24   ├─ /reading-room/culture/stone-carving/index.html (+5ms)
+18:21:24   ├─ /reading-room/culture/terracotta/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/bargarh-textile-catalogue-service/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/bauxite-mine-identities/index.html (+4ms)
+18:21:24   ├─ /reading-room/economy/bauxite-to-aluminium/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/bharatpur-mine-safety/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/cement-and-fertiliser-production/index.html (+6ms)
+18:21:24   ├─ /reading-room/economy/company-imfa/index.html (+6ms)
+18:21:24   ├─ /reading-room/economy/dmf-from-funds-to-services/index.html (+13ms)
+18:21:24   ├─ /reading-room/economy/food-processing-and-dairy/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/forest-products/index.html (+4ms)
+18:21:24   ├─ /reading-room/economy/gdp-story/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/gi-opportunity-programme/index.html (+7ms)
+18:21:24   ├─ /reading-room/economy/gi-readiness-matrix/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/kalamata-gi-comparison/index.html (+6ms)
+18:21:24   ├─ /reading-room/economy/khaja-gi-comparison/index.html (+12ms)
+18:21:24   ├─ /reading-room/economy/koraput-business-opportunities/index.html (+4ms)
+18:21:24   ├─ /reading-room/economy/koraput-coffee-retail/index.html (+6ms)
+18:21:24   ├─ /reading-room/economy/manufacturing-output-and-suppliers/index.html (+4ms)
+18:21:24   ├─ /reading-room/economy/minerals-research-immt/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/mining-receipts/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/mining/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/niyamgiri-rights-and-mining/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/puri-heritage-walk-service/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/rice-economy/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/rourkela-steel-chain/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/sugar-production/index.html (+5ms)
+18:21:24   ├─ /reading-room/economy/talcher-coal-history/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/arisa-pitha/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/chakuli/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/chhena-jhili/index.html (+6ms)
+18:21:24   ├─ /reading-room/food/chilika-curd-science/index.html (+7ms)
+18:21:24   ├─ /reading-room/food/dalma/index.html (+9ms)
+18:21:24   ├─ /reading-room/food/enduri-pitha/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/forest-foods/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/gaja-kanti-evidence/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/ghanta-tarkari/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/kakara-pitha/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/korakhai-gi-evidence/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/korakhai/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/koraput-coffee/index.html (+3ms)
+18:21:24   ├─ /reading-room/food/koraput-kalajeera-rice/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/mahaprasad/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/manda-pitha/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/manikapatna-curd-application/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/mohu-honey/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/nimapada-jhili-evidence/index.html (+5ms)
+18:21:24   ├─ /reading-room/food/poda-arisa-place-evidence/index.html (+4ms)
+18:21:24   ├─ /reading-room/food/poda-pitha/index.html (+7ms)
+18:21:24   ├─ /reading-room/food/preparation-and-variation/index.html (+7ms)
+18:21:24   ├─ /reading-room/food/rice-varieties/index.html (+9ms)
+18:21:24   ├─ /reading-room/food/temple-food-gi-governance/index.html (+12ms)
+18:21:24   ├─ /reading-room/food/torani-kanji/index.html (+5ms)
+18:21:24   ├─ /reading-room/handlooms/bargarh/index.html (+6ms)
+18:21:24   ├─ /reading-room/handlooms/garments-and-markets/index.html (+4ms)
+18:21:24   ├─ /reading-room/handlooms/puri-gamucha-gi-study/index.html (+5ms)
+18:21:24   ├─ /reading-room/history/forest-livelihoods/index.html (+4ms)
+18:21:24   ├─ /reading-room/history/maritime-evidence/index.html (+5ms)
+18:21:24   ├─ /reading-room/history/research-agenda/index.html (+4ms)
+18:21:24   ├─ /reading-room/history/sadhaba-maritime-science/index.html (+5ms)
+18:21:24   ├─ /reading-room/journeys/investment/index.html (+4ms)
+18:21:24   ├─ /reading-room/journeys/rare-earths/index.html (+5ms)
+18:21:24   ├─ /reading-room/people/biswanath-swain/index.html (+5ms)
+18:21:24   ├─ /reading-room/people/jayadev-rana/index.html (+4ms)
+18:21:24   ├─ /reading-room/people/laxmidhar-subudhi/index.html (+5ms)
+18:21:24   ├─ /reading-room/people/m-g-sujana/index.html (+4ms)
+18:21:24   ├─ /reading-room/people/mamata-mohapatra/index.html (+6ms)
+18:21:24   ├─ /reading-room/people/manabodh-rana/index.html (+6ms)
+18:21:24   ├─ /reading-room/people/pankaj-kumar-sahoo/index.html (+10ms)
+18:21:24   ├─ /reading-room/people/people-and-creations/index.html (+7ms)
+18:21:24   ├─ /reading-room/people/raghunath-mohapatra/index.html (+5ms)
+18:21:24   ├─ /reading-room/people/ramakanta-mahapatra/index.html (+6ms)
+18:21:24   ├─ /reading-room/people/ramesh-behera/index.html (+4ms)
+18:21:24   ├─ /reading-room/people/sansari-gadatia/index.html (+4ms)
+18:21:24   ├─ /reading-room/people/science-and-contributions/index.html (+4ms)
+18:21:24   ├─ /reading-room/people/sudarsan-pattnaik/index.html (+4ms)
+18:21:24   ├─ /reading-room/people/sudarshan-sahoo/index.html (+5ms)
+18:21:24   ├─ /reading-room/places/koraput/index.html (+4ms)
+18:21:24   ├─ /reading-room/places/puri/index.html (+4ms)
+18:21:24   ├─ /reading-room/places/sambalpur-bargarh/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/agriculture/index.html (+6ms)
+18:21:24   ├─ /reading-room/statistics/air-quality/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/aviation/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/coal-production/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/company-investment/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/coverage/index.html (+8ms)
+18:21:24   ├─ /reading-room/statistics/district-coverage/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/angul/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/balangir/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/balasore/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/bargarh/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/bhadrak/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/boudh/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/cuttack/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/deogarh/index.html (+6ms)
+18:21:24   ├─ /reading-room/statistics/districts/dhenkanal/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/gajapati/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/ganjam/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/jagatsinghpur/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/jajpur/index.html (+6ms)
+18:21:24   ├─ /reading-room/statistics/districts/jharsuguda/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/kalahandi/index.html (+6ms)
+18:21:24   ├─ /reading-room/statistics/districts/kandhamal/index.html (+7ms)
+18:21:24   ├─ /reading-room/statistics/districts/kendrapara/index.html (+9ms)
+18:21:24   ├─ /reading-room/statistics/districts/keonjhar/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/khordha/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/koraput/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/malkangiri/index.html (+5ms)
+18:21:24   ├─ /reading-room/statistics/districts/mayurbhanj/index.html (+4ms)
+18:21:24   ├─ /reading-room/statistics/districts/nabarangpur/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/districts/nayagarh/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/districts/nuapada/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/districts/puri/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/districts/rayagada/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/districts/sambalpur/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/districts/subarnapur/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/districts/sundargarh/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/economic-size-and-income/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/education/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/employment/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/entrepreneurship-skills/index.html (+6ms)
+18:21:25   ├─ /reading-room/statistics/export-values-and-attribution/index.html (+9ms)
+18:21:25   ├─ /reading-room/statistics/fisheries/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/forests/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/health/index.html (+9ms)
+18:21:25   ├─ /reading-room/statistics/industrial-production/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/livestock/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/minerals-and-mining/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/nutrition/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/ports/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/textile-and-apparel-exports/index.html (+4ms)
+18:21:25   ├─ /reading-room/statistics/urban-sanitation/index.html (+5ms)
+18:21:25   ├─ /reading-room/statistics/western-southern-baselines/index.html (+3ms)
+18:21:25   ├─ /reading-room/stories/exports-recovery-and-concentration/index.html (+5ms)
+18:21:25   ├─ /reading-room/stories/fish-growth-beyond-the-coast/index.html (+3ms)
+18:21:25   ├─ /reading-room/stories/ports-diverging-cargo/index.html (+4ms)
+18:21:25   ├─ /reading-room/stories/sugar-output-recovery/index.html (+4ms)
+18:21:25   ├─ /reading-room/stories/sweets-from-milk-to-market/index.html (+6ms)
+18:21:25   ├─ /reading-room/trade/connection-matrix/index.html (+5ms)
+18:21:25   ├─ /reading-room/trade/export-business-questions/index.html (+6ms)
+18:21:25   ├─ /reading-room/trade/export-destinations/index.html (+5ms)
+18:21:25   ├─ /reading-room/trade/merchandise-exports/index.html (+3ms)
+18:21:25   ├─ /reading-room/visitor-index/seasonal-food-guide/index.html (+5ms)
+18:21:25   ├─ /reading-room/visitor-index/seasonal-food-offer-evidence/index.html (+4ms)
+18:21:25   ├─ /reading-room/works/ferric-hydroxide-fluoride/index.html (+4ms)
+18:21:25   ├─ /reading-room/works/manabodh-rana-ina-terracotta-mural/index.html (+3ms)
+18:21:25   ├─ /reading-room/works/mohapatra-sun-god-parliament/index.html (+4ms)
+18:21:25   ├─ /reading-room/works/mohapatra-wooden-buddha-paris/index.html (+4ms)
+18:21:25   ├─ /reading-room/works/puri-tiranga-sand-2025/index.html (+3ms)
+18:21:25   ├─ /reading-room/works/spent-cathodes-review/index.html (+4ms)
+18:21:25   ├─ /sounds-of-odisha/dalkhai/index.html (+6ms)
+18:21:25   ├─ /sounds-of-odisha/daskathia/index.html (+5ms)
+18:21:25   ├─ /sounds-of-odisha/dhemsa/index.html (+4ms)
+18:21:25   ├─ /sounds-of-odisha/ghanta-ghanti/index.html (+5ms)
+18:21:25   ├─ /sounds-of-odisha/huluhuli/index.html (+4ms)
+18:21:25   ├─ /sounds-of-odisha/listening-notebook/index.html (+6ms)
+18:21:25   ├─ /sounds-of-odisha/mardala/index.html (+10ms)
+18:21:25   ├─ /sounds-of-odisha/odissi-tala-and-changing-cycles/index.html (+5ms)
+18:21:25   ├─ /sounds-of-odisha/pala/index.html (+5ms)
+18:21:25   ├─ /sounds-of-odisha/sankha/index.html (+4ms)
+18:21:25   ├─ /sounds-of-odisha/index.html (+5ms)
+18:21:25   ├─ /stay-areas/index.html (+4ms)
+18:21:25   ├─ /stories/a-place-to-learn-together/index.html (+5ms)
+18:21:25   ├─ /stories/ashta-nayika/index.html (+5ms)
+18:21:25   ├─ /stories/bhubaneswar-fresco/story/index.html (+7ms)
+18:21:25   ├─ /stories/bhubaneswar-fresco/index.html (+8ms)
+18:21:25   ├─ /stories/bhubaneswar-week/index.html (+6ms)
+18:21:25   ├─ /stories/boat-songs/index.html (+4ms)
+18:21:25   ├─ /stories/buddhist-diamond-triangle/index.html (+4ms)
+18:21:25   ├─ /stories/chaiti-ghoda/index.html (+5ms)
+18:21:25   ├─ /stories/chilika-listening/index.html (+4ms)
+18:21:25   ├─ /stories/craft-listening/index.html (+6ms)
+18:21:25   ├─ /stories/culture-trails/index.html (+10ms)
+18:21:25   ├─ /stories/danda-nata/index.html (+45ms)
+18:21:25   ├─ /stories/dhuduki/index.html (+5ms)
+18:21:25   ├─ /stories/essential-odia-dhaga/index.html (+7ms)
+18:21:25   ├─ /stories/ghumura/index.html (+5ms)
+18:21:25   ├─ /stories/gotipua/index.html (+6ms)
+18:21:25   ├─ /stories/jhulana-in-odisha/index.html (+5ms)
+18:21:25   ├─ /stories/kendara/index.html (+4ms)
+18:21:25   ├─ /stories/lalitgiri/index.html (+6ms)
+18:21:25   ├─ /stories/mahuri/index.html (+5ms)
+18:21:25   ├─ /stories/maniabandha/index.html (+6ms)
+18:21:25   ├─ /stories/maritime-memory/index.html (+4ms)
+18:21:25   ├─ /stories/nimuhi-temple/index.html (+5ms)
+18:21:25   ├─ /stories/odia-cultural-identity/index.html (+5ms)
+18:21:25   ├─ /stories/odia-dhaga/index.html (+4ms)
+18:21:25   ├─ /stories/odia-lullabies/index.html (+6ms)
+18:21:25   ├─ /stories/odissi-abhinaya/index.html (+5ms)
+18:21:25   ├─ /stories/odissi-music/index.html (+8ms)
+18:21:25   ├─ /stories/prahlada-nataka/index.html (+5ms)
+18:21:25   ├─ /stories/ranapa/index.html (+4ms)
+18:21:25   ├─ /stories/ratnagiri/index.html (+5ms)
+18:21:25   ├─ /stories/rise-children-of-utkal/index.html (+4ms)
+18:21:25   ├─ /stories/sahi-jatra/index.html (+5ms)
+18:21:25   ├─ /stories/sakhi-nata-and-sakhi-pila/index.html (+4ms)
+18:21:25   ├─ /stories/udayagiri-buddhist/index.html (+5ms)
+18:21:25   ├─ /textiles/sambalpuri-bandha/index.html (+3ms)
+18:21:25   ├─ /textiles/khandua/index.html (+3ms)
+18:21:25   ├─ /textiles/tasar/index.html (+3ms)
+18:21:25   ├─ /textiles/index.html (+4ms)
+18:21:25   ├─ /things-to-do/index.html (+5ms)
+18:21:25   ├─ /visit/places/mangalajodi/index.html (+5ms)
+18:21:25   ├─ /visit/places/kalijai/index.html (+3ms)
+18:21:25   ├─ /visit/places/satapada/index.html (+3ms)
+18:21:25   ├─ /visit/places/chandrabhaga/index.html (+4ms)
+18:21:25   ├─ /visit/experiences/mangalajodi-birdwatching/index.html (+6ms)
+18:21:25   ├─ /visit/experiences/kalijai-crossing/index.html (+7ms)
+18:21:25   ├─ /visit/experiences/satapada-boating/index.html (+4ms)
+18:21:25   ├─ /visit/experiences/konark-sculpture/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/chandrabhaga-shore/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/konark-dance/index.html (+3ms)
+18:21:25   ├─ /visit/stays/mangalajodi/index.html (+3ms)
+18:21:25   ├─ /visit/stays/barkul-rambha/index.html (+3ms)
+18:21:25   ├─ /visit/stays/rajhans-satapada/index.html (+3ms)
+18:21:25   ├─ /visit/stays/konark/index.html (+3ms)
+18:21:25   ├─ /visit/stays/puri/index.html (+3ms)
+18:21:25   ├─ /visit/places/chandipur/index.html (+3ms)
+18:21:25   ├─ /visit/places/similipal/index.html (+3ms)
+18:21:25   ├─ /visit/stays/balasore-coast/index.html (+3ms)
+18:21:25   ├─ /visit/stays/similipal-gateways/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/mayurbhanj-chhau/index.html (+3ms)
+18:21:25   ├─ /visit/places/dhauli/index.html (+4ms)
+18:21:25   ├─ /visit/places/raghurajpur/index.html (+4ms)
+18:21:25   ├─ /visit/places/puri-beach/index.html (+6ms)
+18:21:25   ├─ /visit/places/mukteswar/index.html (+7ms)
+18:21:25   ├─ /visit/stays/bhubaneswar/index.html (+3ms)
+18:21:25   ├─ /visit/stays/puri-coast/index.html (+3ms)
+18:21:25   ├─ /visit/places/barabati/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/cuttack-filigree/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/cuttack-netaji/index.html (+3ms)
+18:21:25   ├─ /visit/stays/cuttack/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/jobra-maritime-museum/index.html (+3ms)
+18:21:25   ├─ /visit/experiences/kala-bhoomi/index.html (+3ms)
+18:21:25   ├─ /index.html (+6ms)
+18:21:25 ✓ Completed in 3.86s.
+
+18:21:25 [build] ✓ Completed in 6.89s.
+18:21:25 [build] 568 page(s) built in 6.97s
+18:21:25 [build] Complete!
+{
+  entries: 185,
+  routes: [
+    '/dhaga/',
+    '/dhaga/reader.html',
+    '/dhaga/sources.html',
+    '/dhaga/sayings/pod-dhaga-001.html',
+    '/dhaga/sayings/pod-dhaga-002.html',
+    '/dhaga/sayings/pod-dhaga-003.html',
+    '/dhaga/sayings/pod-dhaga-004.html',
+    '/dhaga/sayings/pod-dhaga-005.html',
+    '/dhaga/sayings/pod-dhaga-006.html',
+    '/dhaga/sayings/pod-dhaga-007.html',
+    '/dhaga/sayings/pod-dhaga-008.html',
+    '/dhaga/sayings/pod-dhaga-009.html',
+    '/dhaga/sayings/pod-dhaga-010.html',
+    '/dhaga/sayings/pod-dhaga-011.html',
+    '/dhaga/sayings/pod-dhaga-012.html',
+    '/dhaga/sayings/pod-dhaga-013.html',
+    '/dhaga/sayings/pod-dhaga-014.html',
+    '/dhaga/sayings/pod-dhaga-015.html',
+    '/dhaga/sayings/pod-dhaga-016.html',
+    '/dhaga/sayings/pod-dhaga-017.html',
+    '/dhaga/sayings/pod-dhaga-018.html',
+    '/dhaga/sayings/pod-dhaga-019.html',
+    '/dhaga/sayings/pod-dhaga-020.html',
+    '/dhaga/sayings/pod-dhaga-021.html',
+    '/dhaga/sayings/pod-dhaga-022.html',
+    '/dhaga/sayings/pod-dhaga-023.html',
+    '/dhaga/sayings/pod-dhaga-024.html',
+    '/dhaga/sayings/pod-dhaga-025.html',
+    '/dhaga/sayings/pod-dhaga-026.html',
+    '/dhaga/sayings/pod-dhaga-027.html',
+    '/dhaga/sayings/pod-dhaga-028.html',
+    '/dhaga/sayings/pod-dhaga-029.html',
+    '/dhaga/sayings/pod-dhaga-030.html',
+    '/dhaga/sayings/pod-dhaga-031.html',
+    '/dhaga/sayings/pod-dhaga-032.html',
+    '/dhaga/sayings/pod-dhaga-033.html',
+    '/dhaga/sayings/pod-dhaga-034.html',
+    '/dhaga/sayings/pod-dhaga-035.html',
+    '/dhaga/sayings/pod-dhaga-036.html',
+    '/dhaga/sayings/pod-dhaga-037.html',
+    '/dhaga/sayings/pod-dhaga-038.html',
+    '/dhaga/sayings/pod-dhaga-039.html',
+    '/dhaga/sayings/pod-dhaga-040.html',
+    '/dhaga/sayings/pod-dhaga-041.html',
+    '/dhaga/sayings/pod-dhaga-042.html',
+    '/dhaga/sayings/pod-dhaga-043.html',
+    '/dhaga/sayings/pod-dhaga-044.html',
+    '/dhaga/sayings/pod-dhaga-045.html',
+    '/dhaga/sayings/pod-dhaga-046.html',
+    '/dhaga/sayings/pod-dhaga-047.html',
+    '/dhaga/sayings/pod-dhaga-048.html',
+    '/dhaga/sayings/pod-dhaga-049.html',
+    '/dhaga/sayings/pod-dhaga-050.html',
+    '/dhaga/sayings/pod-dhaga-051.html',
+    '/dhaga/sayings/pod-dhaga-052.html',
+    '/dhaga/sayings/pod-dhaga-053.html',
+    '/dhaga/sayings/pod-dhaga-054.html',
+    '/dhaga/sayings/pod-dhaga-055.html',
+    '/dhaga/sayings/pod-dhaga-056.html',
+    '/dhaga/sayings/pod-dhaga-057.html',
+    '/dhaga/sayings/pod-dhaga-058.html',
+    '/dhaga/sayings/pod-dhaga-059.html',
+    '/dhaga/sayings/pod-dhaga-060.html',
+    '/dhaga/sayings/pod-dhaga-061.html',
+    '/dhaga/sayings/pod-dhaga-062.html',
+    '/dhaga/sayings/pod-dhaga-063.html',
+    '/dhaga/sayings/pod-dhaga-064.html',
+    '/dhaga/sayings/pod-dhaga-065.html',
+    '/dhaga/sayings/pod-dhaga-066.html',
+    '/dhaga/sayings/pod-dhaga-067.html',
+    '/dhaga/sayings/pod-dhaga-068.html',
+    '/dhaga/sayings/pod-dhaga-069.html',
+    '/dhaga/sayings/pod-dhaga-070.html',
+    '/dhaga/sayings/pod-dhaga-071.html',
+    '/dhaga/sayings/pod-dhaga-072.html',
+    '/dhaga/sayings/pod-dhaga-073.html',
+    '/dhaga/sayings/pod-dhaga-074.html',
+    '/dhaga/sayings/pod-dhaga-075.html',
+    '/dhaga/sayings/pod-dhaga-076.html',
+    '/dhaga/sayings/pod-dhaga-077.html',
+    '/dhaga/sayings/pod-dhaga-078.html',
+    '/dhaga/sayings/pod-dhaga-079.html',
+    '/dhaga/sayings/pod-dhaga-080.html',
+    '/dhaga/sayings/pod-dhaga-081.html',
+    '/dhaga/sayings/pod-dhaga-082.html',
+    '/dhaga/sayings/pod-dhaga-083.html',
+    '/dhaga/sayings/pod-dhaga-084.html',
+    '/dhaga/sayings/pod-dhaga-085.html',
+    '/dhaga/sayings/pod-dhaga-086.html',
+    '/dhaga/sayings/pod-dhaga-087.html',
+    '/dhaga/sayings/pod-dhaga-088.html',
+    '/dhaga/sayings/pod-dhaga-089.html',
+    '/dhaga/sayings/pod-dhaga-090.html',
+    '/dhaga/sayings/pod-dhaga-091.html',
+    '/dhaga/sayings/pod-dhaga-092.html',
+    '/dhaga/sayings/pod-dhaga-093.html',
+    '/dhaga/sayings/pod-dhaga-094.html',
+    '/dhaga/sayings/pod-dhaga-095.html',
+    '/dhaga/sayings/pod-dhaga-096.html',
+    '/dhaga/sayings/pod-dhaga-097.html',
+    ... 88 more items
+  ],
+  downloads: [
+    '/dhaga/assets/NotoSerifOriya-OFL.txt',
+    '/dhaga/assets/SourceSerif4-OFL.txt'
+  ],
+  standalone_routes: [
+    '/dhaga/',
+    '/dhaga/reader.html',
+    '/dhaga/sources.html',
+    '/dhaga/sayings/pod-dhaga-001.html',
+    '/dhaga/sayings/pod-dhaga-002.html',
+    '/dhaga/sayings/pod-dhaga-003.html',
+    '/dhaga/sayings/pod-dhaga-004.html',
+    '/dhaga/sayings/pod-dhaga-005.html',
+    '/dhaga/sayings/pod-dhaga-006.html',
+    '/dhaga/sayings/pod-dhaga-007.html',
+    '/dhaga/sayings/pod-dhaga-008.html',
+    '/dhaga/sayings/pod-dhaga-009.html',
+    '/dhaga/sayings/pod-dhaga-010.html',
+    '/dhaga/sayings/pod-dhaga-011.html',
+    '/dhaga/sayings/pod-dhaga-012.html',
+    '/dhaga/sayings/pod-dhaga-013.html',
+    '/dhaga/sayings/pod-dhaga-014.html',
+    '/dhaga/sayings/pod-dhaga-015.html',
+    '/dhaga/sayings/pod-dhaga-016.html',
+    '/dhaga/sayings/pod-dhaga-017.html',
+    '/dhaga/sayings/pod-dhaga-018.html',
+    '/dhaga/sayings/pod-dhaga-019.html',
+    '/dhaga/sayings/pod-dhaga-020.html',
+    '/dhaga/sayings/pod-dhaga-021.html',
+    '/dhaga/sayings/pod-dhaga-022.html',
+    '/dhaga/sayings/pod-dhaga-023.html',
+    '/dhaga/sayings/pod-dhaga-024.html',
+    '/dhaga/sayings/pod-dhaga-025.html',
+    '/dhaga/sayings/pod-dhaga-026.html',
+    '/dhaga/sayings/pod-dhaga-027.html',
+    '/dhaga/sayings/pod-dhaga-028.html',
+    '/dhaga/sayings/pod-dhaga-029.html',
+    '/dhaga/sayings/pod-dhaga-030.html',
+    '/dhaga/sayings/pod-dhaga-031.html',
+    '/dhaga/sayings/pod-dhaga-032.html',
+    '/dhaga/sayings/pod-dhaga-033.html',
+    '/dhaga/sayings/pod-dhaga-034.html',
+    '/dhaga/sayings/pod-dhaga-035.html',
+    '/dhaga/sayings/pod-dhaga-036.html',
+    '/dhaga/sayings/pod-dhaga-037.html',
+    '/dhaga/sayings/pod-dhaga-038.html',
+    '/dhaga/sayings/pod-dhaga-039.html',
+    '/dhaga/sayings/pod-dhaga-040.html',
+    '/dhaga/sayings/pod-dhaga-041.html',
+    '/dhaga/sayings/pod-dhaga-042.html',
+    '/dhaga/sayings/pod-dhaga-043.html',
+    '/dhaga/sayings/pod-dhaga-044.html',
+    '/dhaga/sayings/pod-dhaga-045.html',
+    '/dhaga/sayings/pod-dhaga-046.html',
+    '/dhaga/sayings/pod-dhaga-047.html',
+    '/dhaga/sayings/pod-dhaga-048.html',
+    '/dhaga/sayings/pod-dhaga-049.html',
+    '/dhaga/sayings/pod-dhaga-050.html',
+    '/dhaga/sayings/pod-dhaga-051.html',
+    '/dhaga/sayings/pod-dhaga-052.html',
+    '/dhaga/sayings/pod-dhaga-053.html',
+    '/dhaga/sayings/pod-dhaga-054.html',
+    '/dhaga/sayings/pod-dhaga-055.html',
+    '/dhaga/sayings/pod-dhaga-056.html',
+    '/dhaga/sayings/pod-dhaga-057.html',
+    '/dhaga/sayings/pod-dhaga-058.html',
+    '/dhaga/sayings/pod-dhaga-059.html',
+    '/dhaga/sayings/pod-dhaga-060.html',
+    '/dhaga/sayings/pod-dhaga-061.html',
+    '/dhaga/sayings/pod-dhaga-062.html',
+    '/dhaga/sayings/pod-dhaga-063.html',
+    '/dhaga/sayings/pod-dhaga-064.html',
+    '/dhaga/sayings/pod-dhaga-065.html',
+    '/dhaga/sayings/pod-dhaga-066.html',
+    '/dhaga/sayings/pod-dhaga-067.html',
+    '/dhaga/sayings/pod-dhaga-068.html',
+    '/dhaga/sayings/pod-dhaga-069.html',
+    '/dhaga/sayings/pod-dhaga-070.html',
+    '/dhaga/sayings/pod-dhaga-071.html',
+    '/dhaga/sayings/pod-dhaga-072.html',
+    '/dhaga/sayings/pod-dhaga-073.html',
+    '/dhaga/sayings/pod-dhaga-074.html',
+    '/dhaga/sayings/pod-dhaga-075.html',
+    '/dhaga/sayings/pod-dhaga-076.html',
+    '/dhaga/sayings/pod-dhaga-077.html',
+    '/dhaga/sayings/pod-dhaga-078.html',
+    '/dhaga/sayings/pod-dhaga-079.html',
+    '/dhaga/sayings/pod-dhaga-080.html',
+    '/dhaga/sayings/pod-dhaga-081.html',
+    '/dhaga/sayings/pod-dhaga-082.html',
+    '/dhaga/sayings/pod-dhaga-083.html',
+    '/dhaga/sayings/pod-dhaga-084.html',
+    '/dhaga/sayings/pod-dhaga-085.html',
+    '/dhaga/sayings/pod-dhaga-086.html',
+    '/dhaga/sayings/pod-dhaga-087.html',
+    '/dhaga/sayings/pod-dhaga-088.html',
+    '/dhaga/sayings/pod-dhaga-089.html',
+    '/dhaga/sayings/pod-dhaga-090.html',
+    '/dhaga/sayings/pod-dhaga-091.html',
+    '/dhaga/sayings/pod-dhaga-092.html',
+    '/dhaga/sayings/pod-dhaga-093.html',
+    '/dhaga/sayings/pod-dhaga-094.html',
+    '/dhaga/sayings/pod-dhaga-095.html',
+    '/dhaga/sayings/pod-dhaga-096.html',
+    '/dhaga/sayings/pod-dhaga-097.html',
+    ... 88 more items
+  ],
+  pdf_url: 'https://raw.githubusercontent.com/ahimanikya/project-odisha/8be61895fd213ec15ff7eec58f1633acc7aa5b6b/projects/odia-dhaga/odia-dhaga-book.pdf',
+  pdf_pages: 104,
+  pdf_bytes: 87816084,
+  pdf_sha256: '030dc508ca71b4343bbe1053b90f05ea411ce116b2348e7a9a44f79b7f5ffc37',
+  bytes: 18956394,
+  files: 379
+}
+Coastal candidate: 874 pages, 2468 files, 1,126,184,763 bytes; 316 unused files excluded.

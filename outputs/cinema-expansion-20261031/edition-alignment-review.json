@@ -1,0 +1,306 @@
+{
+  "task": "queue16 edition alignment",
+  "date": "2026-10-31",
+  "reviewer": "Drishti; independent AI review",
+  "status": "PASS",
+  "static_checks": {
+    "source_bindings": {
+      "count": 50,
+      "mismatches": []
+    },
+    "canonical_and_site_manifest_order_equal": true,
+    "overview_mapped_sections": 24,
+    "approved_short_opening_byte_identical": true,
+    "guard_actual_execution": {
+      "current_plan": "PASS",
+      "mutated_source_hash": "rejected",
+      "mutated_section_hash": "rejected"
+    },
+    "plan_delta": "Refreshed canonical overview chunks and preservation metadata. Removed stale Forty-one readings sentence from author-introduction placement; substantive introduction and approved opening unchanged.",
+    "marker_evidence": "Builder now records supplied receipt hash or explicitly not_supplied, rather than asserting historical marker execution."
+  },
+  "input_hashes": {
+    "output/pdf/build_book.py": "ed3013cfc67fbae6305a5733be3efeb687b32b638715a9bf8f01bafd8054dafc",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "7b46d20ab510aeaf22f0fa19f23c137582004e6b23fb749e9007fb8d5326ab52",
+    "kb/research/culture/cinema-series/manifest.json": "a881dab42dab09e5e722a5c11927603e680c12969b539c9be5c978b7df453c25",
+    "projects/site/src/data/cinema.json": "72e9bd6732f4a7c70648bcc45c16cf48a5c8cbd30a957b1f99babd6d001fd8c5",
+    "outputs/cinema-expansion-20261031/edition-alignment-implementation.json": "a4b22f3df032487be213dd5cee8f99cad558044abbcabc91d1a5c8a6d7896ea5",
+    "tmp/pdfs/2026-10-31-aligned/digital/book-build-2026-10-31-aligned.json": "88f66ce586e395ec61de9da444ad52f18641de5421d1415c6732dc4c8fbe5934",
+    "tmp/pdfs/2026-10-31-aligned/print/book-build-2026-10-31-aligned.json": "447a2db099a5995e3b3b796353fe6b22b4c109abde48bc983e8f3172146c6fd9"
+  },
+  "limits": [
+    "No source editing, rebuild, browser action or publication by reviewer.",
+    "Independent AI quality review, not human/specialist approval or accessibility/press-ready certification.",
+    "Final artifact verdict binds only recorded SHA256 values."
+  ],
+  "scope_released": true,
+  "pre_repair_evidence": {
+    "status": "PRE_REPAIR_PASS_WITH_NONBLOCKING_LAYOUT_SUGGESTIONS",
+    "editions": {
+      "digital": {
+        "pdf_sha256": "b4b8c2f3162083ec63af0747acd8ba1a5823bb4d80b3fc63ab975ef6dd05b85a",
+        "pages": 256,
+        "source_bindings": 50,
+        "images": 56,
+        "unique_source_images": 56,
+        "image_credits": 23,
+        "notes": 432,
+        "citation_pairs": 588,
+        "internal_links": 1351,
+        "broken_page_destinations": [],
+        "section_outlines": [
+          {
+            "title": "Budgets and box-office collections",
+            "page": 177,
+            "level": 1
+          },
+          {
+            "title": "Studios and production support",
+            "page": 196,
+            "level": 1
+          },
+          {
+            "title": "Awards and recognition",
+            "page": 205,
+            "level": 1
+          }
+        ],
+        "errors": [],
+        "new_material_present": {
+          "BPFTIO": true,
+          "Shreyas Sahil": true,
+          "Lokanath Das": true,
+          "Kanhu Charan Mohanty": true,
+          "Manglu Charan Biswal": true
+        },
+        "all_full_credit_urls_in_pdf": true,
+        "missing_credit_urls": []
+      },
+      "print": {
+        "pdf_sha256": "2bdd383e49f2753e47565a3121ff9ba287d243c97d6c928415bfd718ff4bd8a8",
+        "pages": 284,
+        "source_bindings": 50,
+        "images": 56,
+        "unique_source_images": 56,
+        "image_credits": 23,
+        "notes": 432,
+        "citation_pairs": 588,
+        "internal_links": 1360,
+        "broken_page_destinations": [],
+        "section_outlines": [
+          {
+            "title": "Budgets and box-office collections",
+            "page": 178,
+            "level": 1
+          },
+          {
+            "title": "Studios and production support",
+            "page": 198,
+            "level": 1
+          },
+          {
+            "title": "Awards and recognition",
+            "page": 208,
+            "level": 1
+          }
+        ],
+        "errors": [],
+        "new_material_present": {
+          "BPFTIO": true,
+          "Shreyas Sahil": true,
+          "Lokanath Das": true,
+          "Kanhu Charan Mohanty": true,
+          "Manglu Charan Biswal": true
+        },
+        "all_full_credit_urls_in_pdf": true,
+        "missing_credit_urls": []
+      }
+    },
+    "print_visual_review": {
+      "contact_sheets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "page_coverage": "All 284 print pages viewed at contact-sheet scale.",
+      "full_size_pages": [
+        1,
+        5,
+        25,
+        28,
+        34,
+        76,
+        79,
+        82,
+        105,
+        112,
+        115,
+        185,
+        199,
+        202,
+        209,
+        235,
+        243,
+        248,
+        262,
+        284
+      ],
+      "result": "No clipped text, stranded heading, missing illustration or detached credit marker observed. New training, child-voice, audience and award content appears with source numbers. Photo attributions and licence/source URLs retained in ordinary notes. Covers legible and unchanged in appearance."
+    },
+    "navigation": "Both PDF outline trees have exactly three expected discovery subentries at level1 and destinations matching build page maps. Internal link page-reference objects checked; no invalid page object targets found. Print map reports stable.",
+    "limits": [
+      "Digital visual inspection belongs to coordinator; this reviewer independently checked digital structure and bindings, not all digital pixels.",
+      "Contact-scale review is not a full-size proofread of every page. Selected full-size samples listed explicitly.",
+      "Unicode-shaped Odia extraction is not treated as lossless text verification; selected visible Odia headings and children text inspected.",
+      "No accessibility certification, press-ready certification, human approval or publication claimed."
+    ]
+  },
+  "artifact_review": {
+    "status": "FINAL_PASS",
+    "editions": {
+      "digital": {
+        "pdf_sha256": "457f084fd7574aabf622467f2786d8065c3b9b1dc9ad368d91104fc440ce9486",
+        "pages": 254,
+        "sources": 50,
+        "unique_images": 56,
+        "image_credit_records": 23,
+        "all_credit_urls_present": true,
+        "notes": 432,
+        "citation_pairs": 588,
+        "valid_internal_destinations": 1351,
+        "section_outlines": [
+          {
+            "title": "Budgets and box-office collections",
+            "page": 175,
+            "level": 1
+          },
+          {
+            "title": "Studios and production support",
+            "page": 194,
+            "level": 1
+          },
+          {
+            "title": "Awards and recognition",
+            "page": 203,
+            "level": 1
+          }
+        ],
+        "print_map_stable": true,
+        "suppressed_exact_notice_occurrences": 8,
+        "retained_qualification_text": {
+          "Availability may vary by region and subscription.": true,
+          "Availability may vary by region and account conditions.": true,
+          "access elsewhere is not guaranteed": true,
+          "not a stream": true,
+          "not the full film": true
+        },
+        "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+        "errors": []
+      },
+      "print": {
+        "pdf_sha256": "deeab8c32c04e37af4c57bd3c656a556c76beb72bea485c3977637a33d08e6a6",
+        "pages": 282,
+        "sources": 50,
+        "unique_images": 56,
+        "image_credit_records": 23,
+        "all_credit_urls_present": true,
+        "notes": 432,
+        "citation_pairs": 588,
+        "valid_internal_destinations": 1360,
+        "section_outlines": [
+          {
+            "title": "Budgets and box-office collections",
+            "page": 176,
+            "level": 1
+          },
+          {
+            "title": "Studios and production support",
+            "page": 196,
+            "level": 1
+          },
+          {
+            "title": "Awards and recognition",
+            "page": 206,
+            "level": 1
+          }
+        ],
+        "print_map_stable": true,
+        "suppressed_exact_notice_occurrences": 8,
+        "retained_qualification_text": {
+          "Availability may vary by region and subscription.": true,
+          "Availability may vary by region and account conditions.": true,
+          "access elsewhere is not guaranteed": true,
+          "not a stream": true,
+          "not the full film": true
+        },
+        "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+        "errors": []
+      }
+    },
+    "final_visual_delta": {
+      "digital_full_size_pages": [
+        59,
+        60,
+        78,
+        148,
+        149
+      ],
+      "print_full_size_pages": [
+        59,
+        78,
+        79,
+        148,
+        149
+      ],
+      "print_contact_sheets": [
+        5,
+        7,
+        9,
+        13,
+        14,
+        17,
+        24
+      ],
+      "result": "All three flagged endings now either fit preceding page or form a coherent headed closing section. Remaining air on digital Tapu60 and both Anupam149 is balanced chapter-end design, not a detached paragraph or clipping defect. Print Uttam79 groups heading and complete concluding section. Nearby sampled chapter transitions, notes and back cover remain clean."
+    },
+    "maintenance_note_delta": "Eight exact standalone routine-check occurrences removed or replaced book-only. Reviewed exact-match implementation; no broad date/paragraph removal. Region/subscription/account limitations remain; detailed full-film/trailer/catalogue and untested-access qualifications survive. Shared front viewing note remains. Source footnotes and source bytes unchanged.",
+    "bindings": "50 current sources in manifest order,56 unique source image hashes,23 image credits and all their source/licence URLs;432 notes/588 citation pairs unchanged. Exact final hashes verified. Three outline subentries match revised page map; all internal page object destinations valid; print map stable.",
+    "coverage_limit": "All 24 print sheets and20 full-size samples were reviewed before repair, preserved under pre_repair_evidence. Final review is the specified affected pages and7 shifted print contact sheets, not a new all-page full-size proof. No digital all-contact visual claim by this reviewer."
+  },
+  "findings_history": [
+    {
+      "severity": "low",
+      "blocking": false,
+      "edition": "print",
+      "pages": [
+        60,
+        81,
+        151
+      ],
+      "finding": "Short chapter-ending leaves: Tapu final link and bridge (~7 lines), Uttam closing paragraph (~6 lines), Anupam final paragraph (~4 lines). Text remains complete and readable.",
+      "recommendation": "Optional bounded spacing/tail grouping; no prose cut required."
+    }
+  ],
+  "findings": []
+}
