@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 874. completed: 149, excluded: 420, queued: 305.
+Route inventory: 913. completed: 150, excluded: 462, in_progress: 1, queued: 300.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -110,11 +110,11 @@ Route inventory: 874. completed: 149, excluded: 420, queued: 305.
 | POD-EDIT-094 | [Dhenkanal · languages and population](https://projectodisha.org/languages/districts/dhenkanal/) | excluded | classification_pending |
 | POD-EDIT-095 | [Anugul · languages and population](https://projectodisha.org/languages/districts/anugul/) | excluded | classification_pending |
 | POD-EDIT-096 | [Nayagarh · languages and population](https://projectodisha.org/languages/districts/nayagarh/) | excluded | classification_pending |
-| POD-EDIT-097 | [Khordha · languages and population](https://projectodisha.org/languages/districts/khordha/) | queued | classification_pending |
-| POD-EDIT-098 | [Puri · languages and population](https://projectodisha.org/languages/districts/puri/) | queued | classification_pending |
-| POD-EDIT-099 | [Ganjam · languages and population](https://projectodisha.org/languages/districts/ganjam/) | queued | classification_pending |
-| POD-EDIT-100 | [Gajapati · languages and population](https://projectodisha.org/languages/districts/gajapati/) | queued | classification_pending |
-| POD-EDIT-101 | [Kandhamal · languages and population](https://projectodisha.org/languages/districts/kandhamal/) | queued | classification_pending |
+| POD-EDIT-097 | [Khordha · languages and population](https://projectodisha.org/languages/districts/khordha/) | excluded | classification_pending |
+| POD-EDIT-098 | [Puri · languages and population](https://projectodisha.org/languages/districts/puri/) | excluded | classification_pending |
+| POD-EDIT-099 | [Ganjam · languages and population](https://projectodisha.org/languages/districts/ganjam/) | excluded | classification_pending |
+| POD-EDIT-100 | [Gajapati · languages and population](https://projectodisha.org/languages/districts/gajapati/) | excluded | classification_pending |
+| POD-EDIT-101 | [Kandhamal · languages and population](https://projectodisha.org/languages/districts/kandhamal/) | excluded | classification_pending |
 | POD-EDIT-102 | [Baudh · languages and population](https://projectodisha.org/languages/districts/baudh/) | queued | classification_pending |
 | POD-EDIT-103 | [Subarnapur · languages and population](https://projectodisha.org/languages/districts/subarnapur/) | queued | classification_pending |
 | POD-EDIT-104 | [Balangir · languages and population](https://projectodisha.org/languages/districts/balangir/) | queued | classification_pending |
@@ -889,6 +889,45 @@ Route inventory: 874. completed: 149, excluded: 420, queued: 305.
 | POD-EDIT-CINEMA-SURYA-DEO-20261030 | [Surya Deo: keeping a cinema’s memory alive](https://projectodisha.org/people/surya-deo/) | completed | Cinema series reading; no autonomous programme increment |
 | POD-EDIT-CINEMA-SEARCHING-FOR-SITA-BIBAHA-20261030 | [Searching for Sita Bibaha: the film beyond the missing print](https://projectodisha.org/cinema/searching-for-sita-bibaha/) | completed | Cinema series reading; no autonomous programme increment |
 | POD-EDIT-CINEMA-READING-ODIA-CINEMA-20261030 | [Reading Odia Cinema: the books behind the screen](https://projectodisha.org/cinema/reading-odia-cinema/) | completed | Cinema series reading; no autonomous programme increment |
+| POD-EDIT-DHAGA-186-20261030 | [ମିତ ରହିବ ମାଣିକ ରହିବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-186.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-187-20261030 | [ନଖ ବାଳ ରଖି ଭାଲୁଏ ଏ କେତେ ଯୋଗୀ ହେଲେଣି?](https://projectodisha.org/dhaga/sayings/pod-dhaga-187.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-188-20261030 | [ରଖେ ହରି ମାରେ କିଏ? ମାରେ ହରି ରଖେ କିଏ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-188.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-189-20261030 | [ତୁଳସୀ ବଣରେ ବାଘ](https://projectodisha.org/dhaga/sayings/pod-dhaga-189.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-190-20261030 | [କଖାରୁଡ଼ଙ୍କ ! ବଡ଼ଘରପୁଅ ଏଡ଼ିକି ରଙ୍କ !](https://projectodisha.org/dhaga/sayings/pod-dhaga-190.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-191-20261030 | [ରଙ୍କ ଇଚ୍ଛାରେ କି ଭୋଜନ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-191.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-192-20261030 | [କାର୍ତ୍ତିକି—ଶୀତ କରେ ରାତିକି](https://projectodisha.org/dhaga/sayings/pod-dhaga-192.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-193-20261030 | [କାଉଁରିଆ କାଠି ଭାଙ୍ଗିୟିବ ନଇଁବ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-193.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-194-20261030 | [ପେଟ ଦୁଖ ପିଠି କାହୁଁ ଜାଣିବ ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-194.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-195-20261030 | [ଲୁଣ ଖାଇବା ଯାହାର, ଗୁଣ ଗାଇ ତାହାର](https://projectodisha.org/dhaga/sayings/pod-dhaga-195.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-196-20261030 | [କହିଲେ କୁଳକୁଟୁମ୍ଭଙ୍କୁ ଲାଜ, ନ କହିଲେ କୁଳ ଭାସି ୟାଉଛି](https://projectodisha.org/dhaga/sayings/pod-dhaga-196.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-197-20261030 | [ଖୋଳ ପର୍ବତ ମାର ମୂଷା](https://projectodisha.org/dhaga/sayings/pod-dhaga-197.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-198-20261030 | [ବ୍ରହ୍ମା ବିଳିବିଳେଇଲେ ବେଦ](https://projectodisha.org/dhaga/sayings/pod-dhaga-198.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-199-20261030 | [ଖାଇଲାଘରର ପୁଅ ରଙ୍କ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-199.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-200-20261030 | [ରଙ୍କ ତିନି ଜନମ କଥା ଜାଣେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-200.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-201-20261030 | [ଜାଉ ଖାଇବ କି ମାଛି ହୁରୁଡ଼େଇବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-201.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-202-20261030 | [ଏଡ଼େ ମଲାଠେଇଁ ଦିଓଳି ବି ତତଲା ଖିଆ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-202.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-203-20261030 | [ଗୁଡ଼ଘରେ ପିମ୍ପୂଡ଼ି ଜଗୁଆଳି](https://projectodisha.org/dhaga/sayings/pod-dhaga-203.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-204-20261030 | [ପିମ୍ପୂଡ଼ିର ପକ୍ଷୀ ଲାଗିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-204.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-205-20261030 | [ହାତୀ ଗଳି ଯାଉଛି ପିମ୍ପୂଡ଼ି ଗଳିବାକୁ ବାଟ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-205.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-206-20261030 | [ପିମ୍ପୂଡ଼ି ହୋଇ ଦୀପରୁଖାରେ ଚଢ଼ିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-206.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-207-20261030 | [ହାତୀ ମୁହଁରୁ କଳେ ଖସି ପଡ଼ିଲେ ପିମ୍ପୂଡ଼ିକୁ ଖାଇବାକୁ ଶହେ ବରଷ ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-207.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-208-20261030 | [ହାତୀ ମୁତି ଦେଲେ ପିମ୍ପୂଡ଼ି ପହଁରାଏ ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-208.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-209-20261030 | [ଗୁଡ଼ଘର ପିମ୍ପୂଡ଼ି ଖାଇଯିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-209.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-210-20261030 | [ପିମ୍ପୂଡ଼ି ଧାର ଲାଗିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-210.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-211-20261030 | [ଗୁଡ଼କୁ ପିମ୍ପୂଡ଼ି ବାଇ ହେବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-211.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-212-20261031 | [ଏତେ ଖାଇ ନ ପୂରିଲା ପେଟ ବିରି ଓଳିଆରେ ମାରୁଛ ହାତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-212.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-213-20261031 | [ଯେବେ ପାଇଥାଏ ଘଇତାବୁକୁ, ସଜ ହେଉଥାଏ ବାପ ଘରକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-213.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-214-20261031 | [ଜହ୍ନିଫୁଲ ପରି ଆୟୁଷ ପା ସଞ୍ଜେ ଫୁଟି ସକାଳେ ଯା](https://projectodisha.org/dhaga/sayings/pod-dhaga-214.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-215-20261031 | [କେତେ ଅନଉଛୁ ମତେ, ତୋଠଉଁ ସୁନ୍ଦର ମୋର ବିନୋଦିଆ, ଚାକର ରଖିବ ତତେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-215.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-216-20261031 | [ହାଣ୍ଡିରେ ଖାଏ, ଗୋଡ଼ରେ ପଡ଼ିଲେ ଗାଧୋଇ ଯାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-216.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-217-20261031 | [ଯେ ତବତ ଖାଇଛି ସେ ପଖାଳ ଖାଉ, ଯେ କିଛି ନ ଖାଇଛି ସେ ଗାଧୋଇ ଯାଉ](https://projectodisha.org/dhaga/sayings/pod-dhaga-217.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-218-20261031 | [ରଣ, ବଣ, ଛଣ, ବାଙ୍କିରଜା ଥାଇ ବୋଇଲେ ମୋ ଢୁଢୁଆ ବାଇଗଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-218.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-219-20261031 | [ବୁଢ଼ା ବଳଦକୁ ଜୂଆଁଣିଆ ଘାସ ଖାଉ କି ନ ଖାଉ ମେଲି ଦେଇ ଆସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-219.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-220-20261031 | [କଣ୍ଟାଫିରିକି, ଏତେ ଗୁଣ ବୋଲି ଜାଣିଥିଲି କି ବେଳସୁଁ ନ କହିଲୁ ଫୁଲପରା କରି ଟେକି ଧରିଥିଲୁ କଚାଡ଼ି ପକେଇଲୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-220.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-221-20261031 | [କାଣି କଉଡ଼ି ପିତା ତାଳ, ୟାକୁ ଦେଉଥିବ ରାତ୍ରିକାଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-221.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-222-20261031 | [ଅଳଙ୍କାର ମଇଧେ ନିମକାଠି ଥାନେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-222.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-829 | [Badhei: woodworking, obligation and a name](https://projectodisha.org/communities/badhei/) | completed | One new substantive article; search eligibility unchanged;222book and227localpackage preserved. |
+| POD-EDIT-830 | [Kandhamal: leaves, learning and everyday knowledge](https://projectodisha.org/stories/kandhamal/) | in_progress | One new cultural article; preserve Census utility101, Kui narrative, later Haladi scope, public Dhaga222 and reviewed227package. |
 | POD-EDIT-20261042 | [Kanhu Charan Mohanty: The Household and the Wider World](https://projectodisha.org/people/kanhu-charan-mohanty/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261043 | [Manglu Charan Biswal: Words for the Stage and the Page](https://projectodisha.org/people/manglu-charan-biswal/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261044 | [Bijay Mishra: People, Plays and the Work of Cinema](https://projectodisha.org/people/bijay-mishra/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |

@@ -105,7 +105,7 @@ At home, a small word notebook could keep the expression beside the name of the 
 
 Older expressions also deserve judgement. Familiarity and age cannot excuse cruelty or prejudice. We can study an inherited expression while choosing not to use it against someone. Passing on culture includes showing how to question what we inherit.
 
-Project Odisha’s [*Words We Carry* collection](https://projectodisha.org/dhaga/) brings together 185 illustrated expressions with Odia and English explanations and source notes. It offers a place to begin reading and listening. The next step can be small: choose one saying, hear its sound, consider its image, and bring it into a conversation where it belongs.
+Project Odisha’s [*Words We Carry* collection](https://projectodisha.org/dhaga/) brings together 201 illustrated expressions with Odia and English explanations and source notes. It offers a place to begin reading and listening. The next step can be small: choose one saying, hear its sound, consider its image, and bring it into a conversation where it belongs.
 
 I want a learner to feel the pleasure of that discovery—the moment when familiar words reveal another meaning, or a short line holds more life than its length suggests. That pleasure gives us a reason to return. And returning gives the language another occasion to be spoken.
 

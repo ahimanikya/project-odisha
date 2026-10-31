@@ -1,0 +1,270 @@
+{
+  "status": "published_and_live_verified_receipt_integration",
+  "owner": "Disha",
+  "scope": "Finite 214 release through reviewed publication and receipt",
+  "baseline": 211,
+  "proposed": 214,
+  "accepted_increment": 3,
+  "public_delivered_entries": 214,
+  "programme_credit": 0,
+  "canonical_release_active": true,
+  "branch": "codex/dhaga-214-expansion-20261031",
+  "base_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "roles": {
+    "Disha": "Shared records, Git and publishing",
+    "Samanta": "Site adapter and validation",
+    "Anvesha": "Source preservation and verification preparation",
+    "Drishti": "Separate integrated and exact-head review"
+  },
+  "pdf": {
+    "pages": 126,
+    "bytes": 97861155,
+    "sha256": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b",
+    "ancestor": "4a832a5f04c7c06f30e6972e285030be149bc7a6",
+    "fresh_remote_download_exact": true
+  },
+  "preparation_evidence": [
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/production-samanta.json",
+      "sha256": "576538a6e26ce86fb825eed4bbc727c992b7d00352fb5dcab8747bf5b6974a8b"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/production-installation-manifest.json",
+      "sha256": "b875359e1c825343da8f291655502410f62051f13953a0a3231af9d3ad43a44d"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/drishti-integrated-review.json",
+      "sha256": "2fba5985f78db18f554ced2041af6208021afcb7d0012bf6b0efb1a25b46ffbd"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/drishti-art-review.json",
+      "sha256": "7c9f57905fae03dca1b959d0af8705c4f431ff3995c4ebf078c4cdde73f38ec0"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/release-source-review.json",
+      "sha256": "4b0c62bba4d3a3a599fb83e52acad2de3a8148525946d04013950b289a3ceef7"
+    }
+  ],
+  "preservation": {
+    "original_pending": 75,
+    "1926_next_inventory": 103,
+    "1926_full_transcription": 31,
+    "1893_full_transcription": 2,
+    "1893_drafts": 83,
+    "programme_completed": 131
+  },
+  "local_review": "Separate AI review PASS: three art, 27 selected PDF pages, 22 tests; prior 211 entries/art/unit metrics preserved",
+  "scope_release": "After reviewed receipt merge, checks and remote hash verification",
+  "next": "Merge reviewed receipt, verify remote hashes, release finite scope; editorial099 individual readiness remains separate.",
+  "export_budget": {
+    "previous_bytes": 23000000,
+    "new_bytes": 24000000,
+    "initial_measured_bytes": 23131919,
+    "reason": "Preserve all prior211 derivative settings and new three640px q60 illustrations; actual growth exceeds old guard by131919bytes, new headroom868081bytes."
+  },
+  "publication_receipt": {
+    "status": "published_and_live_verified",
+    "release_pr": 626,
+    "reviewed_head": "9594c8b98305143deae7a5b3db49ed51f2f43483",
+    "merge": "ec8f92c5f991b115fafc432d45b6b494a6ca6b6b",
+    "merged_at": "2026-10-30T19:43:16Z",
+    "required_ci": {
+      "run": 41115528985,
+      "result": "SUCCESS",
+      "head": "9594c8b98305143deae7a5b3db49ed51f2f43483",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41115528985",
+      "finished_at": "2026-10-30T19:42:52Z",
+      "finished_at_basis": "Latest actual job completedAt; not updatedAt."
+    },
+    "deployment": {
+      "run": 41117598609,
+      "result": "SUCCESS",
+      "head": "ec8f92c5f991b115fafc432d45b6b494a6ca6b6b",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41117598609",
+      "finished_at": "2026-10-30T19:57:46Z",
+      "finished_at_basis": "Latest actual job completedAt; not updatedAt."
+    },
+    "pdf": {
+      "pages": 126,
+      "bytes": 97861155,
+      "sha256": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b",
+      "immutable_commit": "4a832a5f04c7c06f30e6972e285030be149bc7a6"
+    },
+    "counts": {
+      "entries": 214,
+      "illustrations": 214,
+      "original_pending": 75,
+      "programme_credit": 0
+    },
+    "distinct_additions": 3,
+    "url": "https://projectodisha.org/dhaga/",
+    "live_raw_exact": 416,
+    "live_raw_total": 437,
+    "raw_mismatches_retained": 21,
+    "evidence": [
+      {
+        "result": "PASS",
+        "sha256": "f7d0d8b9038291f8c4b28e526430c24b26c5bbc4b674b885ff335b6df14c576c",
+        "actual_checks": [
+          "Actual completed successful run41115528985 at reviewed head."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/required_ci_status.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "214a83ea21123a6adca9f2265f1abb68ab7bd13514b3ed9e1b0ae35cd9bef3da",
+        "actual_checks": [
+          "Actual completed successful run41117598609 at merge."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/deployment_status.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "4b0c62bba4d3a3a599fb83e52acad2de3a8148525946d04013950b289a3ceef7",
+        "actual_checks": [
+          "214 staged entries and prior211 entry/art preservation checked in frozen report."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/source_preservation.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "a76924c2f4e83f25b9b3608aadbad27524af96f2e3fe8fcaa96090e291957f12",
+        "actual_checks": [
+          "All13 local gates exit0 at reviewed head."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/site_validation.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "6f811896190d18627fd9bcdc9c1dbff2b3a58a5a05ada0d1bc8002da0761622c",
+        "actual_checks": [
+          "Separate exact-head PASS and all evidence hashes rechecked."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/exact_head_review.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "08b703a9197f5100244ec53800ee314d1e78efdd97b0c9c9a6befe5b1e0cdd4e",
+        "actual_checks": [
+          "266/266 immutable merged files exact."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/remote_merge_files.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "3da7d359c8523d0f2e6ed44e969319514d3eef19eee0861d5ef190009802a455",
+        "actual_checks": [
+          "437 rows,217 exact HTML;416 byte-exact files and21 qualified known pairs."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/live_reader.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "95165e1fbea94846a3273732e3a51947c395615ca790f44427396589482be920",
+        "actual_checks": [
+          "Actual index pinned link and fresh PDF hash exact."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/live_pdf.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "f9fbdf9293814f2c78b6d53d9ee5972a57ebc00dc9d6668cb920fc0e444f3e27",
+        "actual_checks": [
+          "3 normalized mains,29 known pairs and nonempty exact catalog; raw HTML nonexact."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/live_catalog_companions.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "061be2b151b8116576e7cd7ee1bfb7c9b83fa8f35730e7a4b9f627ed60c62a9b",
+        "actual_checks": [
+          "Actual desktop/mobile interactions and screenshots reported PASS."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/live_browser.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "a60619c7f393ae71c55b778ecfd00d6f26b16c5fc8ba60fdff966f4e872886da",
+        "actual_checks": [
+          "Guarded actual copy, post-test product/PDF and extras verification, tests exit0."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/local_reader_sync.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "95165e1fbea94846a3273732e3a51947c395615ca790f44427396589482be920",
+        "actual_checks": [
+          "Sitemap and3 search holds pass."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/sitemap_search_holds.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "95165e1fbea94846a3273732e3a51947c395615ca790f44427396589482be920",
+        "actual_checks": [
+          "4 internal routes return404."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/internal_research_absence.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "04e6e67e1db7db870e301ce8d2aaf835c612fb9228ae0f891a1644b91bcc8cb5",
+        "actual_checks": [
+          "Separate qualified live evidence PASS; all bindings rehashed."
+        ],
+        "limits": [
+          "Saved evidence checked offline; this builder performs no network or browser operations."
+        ],
+        "path": "records/reviews/dhaga-expansion-214-2026-10-31/receipt/separate_final_review.json"
+      }
+    ],
+    "limits": [
+      "416/437 reader files byte exact;21 known image hash pairs qualified separately.",
+      "Companion main normalization only; raw whole HTML not byte exact.",
+      "Separate AI reviews, no human proof claim.",
+      "Scope release still requires canonical receipt review, CI, merge and remote verification."
+    ],
+    "scope_release": "Effective only after separately reviewed receipt merge, passing required checks and exact remote hash verification.",
+    "review_type": "Separate AI review, not human proofreading",
+    "assembler_limit": "Evidence hash/gate checks, not independent execution of reported checks. All source files preserved."
+  }
+}

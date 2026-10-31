@@ -9453,6 +9453,44 @@
       "evidence": [
         "records/essential-dhaga-publication-2026-10-29.json"
       ]
+    },
+    {
+      "id": "POD-WORK-323",
+      "title": "Research and publish Badhei community history",
+      "category": "website_and_knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
+      "authorization": "POD-DEC-225",
+      "next_action": "Published and verified; retain delivery receipt and source limits.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/badhei-editorial-team-2026-10-31.json",
+        "records/badhei-delivery-review-2026-10-31.json",
+        "records/badhei-editorial-publication-2026-10-31.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-324",
+      "title": "Research and publish Kandhamal place and cultural article",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
+      "authorization": "POD-DEC-225",
+      "next_action": "Source-led draft, separate review and tested publication with delivery receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kandhamal-cultural-team-2026-10-31.json"
+      ]
     }
   ],
   "decisions": [
@@ -23070,6 +23108,28 @@
         "Editorial selection, not popularity ranking",
         "No first coinage or historical origin claim"
       ]
+    },
+    {
+      "id": "POD-REV-2026103101",
+      "title": "Badhei separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human community or field review.",
+      "reviewed_head": "42598e833cb95fffe38704ee90ebe2834c17ab96",
+      "refs": [
+        "POD-WORK-323"
+      ],
+      "evidence": [
+        "records/badhei-delivery-review-2026-10-31.json"
+      ],
+      "limitations": [
+        "Dated regional history, not present eligibility advice or universal identity rules.",
+        "No community fieldwork or human review claimed."
+      ]
     }
   ],
   "releases": [
@@ -26944,6 +27004,22 @@
         "records/essential-dhaga-publication-2026-10-29.json"
       ],
       "note": "PR604; approved successful deployment and actual live verification. No new saying or programme credit."
+    },
+    {
+      "id": "POD-REL-2026103101",
+      "title": "Badhei woodworking, obligation and a name",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/badhei/",
+      "refs": [
+        "POD-WORK-323",
+        "POD-REV-2026103101",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/badhei-editorial-publication-2026-10-31.json"
+      ],
+      "note": "PR635 published and live verified; receipt integration remains pending its reviewed merge and remote verification."
     }
   ],
   "sources": [

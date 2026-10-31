@@ -1,0 +1,49 @@
+{
+  "decision": "PASS_SCOPED_IMPLEMENTATION_REVIEW",
+  "input_head": "9d50066380c05803eaf61d17bc43649ff64aef3c",
+  "working_tree_review": true,
+  "bindings": {
+    "kb/research/communities/badhei.json": "b9066d0c3e1fdded06b8ad1449cd7b198a9c5fa521eee52d63ed205979f1838a",
+    "kb/research/communities/badhei.md": "7f31b0373f815f8fcbe2d4d190bbc8ff38ee57b3289e6f723da6e6a640d225a8",
+    "kb/research/sources/badhei-research.json": "a2b3c989b7100cc1d6aed7c8c0efe51a2b4a4b4a2a4f405e9a7a745ee34b53e6",
+    "projects/site/src/pages/communities/badhei.astro": "39d8228b6f1a09464a14acba3fc9c60fcdc76e15c83148d6c0c2518ca44f42c5",
+    "projects/site/src/data/journey-catalog.ts": "f3e40088ccb81d389055226520064055ba6b70ef22004816448da4fd2e34b9cc",
+    "projects/site/src/data/discovery.ts": "9e948efc4c67c07dd34d2798fc531a669da2b96279424d97398be81869c9882a",
+    "projects/site/editions/coast.json": "7f8a31de081b7ebaa61c0dd5e20e985ffb2917f099709a225aec465f211494e1",
+    "projects/site/editions/search-candidate.json": "47c2a230b9819dcb0e951888120389c77ad4fcc51b12ad3c491840948772adbe",
+    "projects/site/tests/badhei-editorial.test.mjs": "f6fddabf33479120888affa371d2c32fd541f59f98712ab2823001fc98988573",
+    "projects/site/tests-coast/badhei-editorial.test.mjs": "f6fddabf33479120888affa371d2c32fd541f59f98712ab2823001fc98988573"
+  },
+  "prior_draft_review_sha256": "a340715cda930d2a5a1d796e34220d171b739871de12d9cb34fbbd2c18f96b96",
+  "checks": [
+    "Independently compared all eight canonical paragraphs with reviewed draft; only footnote-marker removal and typographic-apostrophe normalization. Exact prose parity passed.",
+    "Read all three complete structured source notes and source audit; attribution, historical limits and source revision preserved.",
+    "Read actual page, shared footnote components, catalog mapping and focused tests. Six distinct reference anchors and all their return links retained; reading path and source section outside native TOC details.",
+    "Independently ran Node24 focused tests against actual full dist after bounded test correction:3/3 PASS. Tests cover rendered prose/notes, unique six return pairs, portable HTML/text with all paragraphs/notes/URLs, discovery and search hold.",
+    "Rehashed all1246 book baseline files and34 reviewed227 package files: zero changes.",
+    "Read shared rollout/programme/operations delta: only new Badhei in-progress article/programme candidate, no completed credit or publication claim; finite own scope."
+  ],
+  "resolved_finding": {
+    "initial": "Focused run2/3 passed: blanket article-wide details ban incorrectly rejected native ResearchContents.",
+    "resolution": "Author narrowed test to verify Further reading and Sources occur outside details. Independently re-ran final3/3PASS. No product prose changed."
+  },
+  "source_budgets": {
+    "1909": 198,
+    "ganjam": 127,
+    "judgment": 184,
+    "limit_each": 200,
+    "note": "Reviewed narrative/notes unchanged; portable repetition is same text, no expanded new source-derived narrative."
+  },
+  "blockers": [],
+  "remaining_gates": [
+    "Full/coast comprehensive gates and final publication report not certified here.",
+    "Actual desktop/phone/keyboard/save/download/browser screenshots not reviewed in this report.",
+    "Final committed exact-head review, CI and publication/live receipt remain required."
+  ],
+  "limits": [
+    "Separate AI review, no human/community review claim.",
+    "Read-only canonical inspection; only this output report written.",
+    "Modern-web guidance skill read and offline search attempted, unavailable ENOTCACHED. Existing native anchors/components inspected directly; no new frontend implementation authored.",
+    "Working-tree hash snapshot, not approval of a future head."
+  ]
+}

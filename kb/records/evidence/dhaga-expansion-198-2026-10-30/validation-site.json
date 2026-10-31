@@ -1,0 +1,229 @@
+{
+  "status": "PASS_FINAL_LOCAL_SITE_GATES",
+  "input_head": "2283967e2da98993418ad3afcd1b97940e764ecb",
+  "runtime": "Node v24.15.0 explicitly prepended to PATH",
+  "gates": [
+    {
+      "name": "final-full-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-final-full-build.log",
+      "seconds": 33.32,
+      "log_sha256": "daf37868902d8b80a6da5725d1b64b95857ee27400918b26dc53a68a2b75ea4e"
+    },
+    {
+      "name": "final-full-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-final-full-disclosures.log",
+      "seconds": 1.26,
+      "log_sha256": "5133fd53dfe1ca980b08721aec75241de0db28864eb789c59b8129656fadd7f4"
+    },
+    {
+      "name": "final-full-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-final-full-tests.log",
+      "seconds": 12.64,
+      "log_sha256": "830a3c7cb1e12675497fd4597406544d1570b9c6fe79b0ec57d3e1a79c896172"
+    },
+    {
+      "name": "final-coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-final-coast-build.log",
+      "seconds": 42.69,
+      "log_sha256": "0bebe98ef2870959d02fb2ec862a70e8d70020e6f62b008f77c1218b6c6b5b78"
+    },
+    {
+      "name": "final-coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-final-coast-disclosures.log",
+      "seconds": 0.69,
+      "log_sha256": "886f3e17af89e8df7137d1d79edaf82a0c643889314e489754d36f6bce73a502"
+    },
+    {
+      "name": "final-coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-final-coast-tests.log",
+      "seconds": 4.6,
+      "log_sha256": "68c0bb2148abc44a0791274bb7f1f12c59b9095f0a2de07857ba59beab2efae4"
+    },
+    {
+      "name": "acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-acceptance.log",
+      "seconds": 5.07,
+      "log_sha256": "c79c49b7f1f7244474f2a751cf92c052cf9d97f3d352ac1207cf70526ce7ea4e"
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-discovery.log",
+      "seconds": 1.56,
+      "log_sha256": "47adcaf6c22ad9d40e95116cf465e5babee983a8980a1bc941d4aabdfa2f6ffd"
+    },
+    {
+      "name": "search-preparation",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-search-preparation.log",
+      "seconds": 14.62,
+      "log_sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "name": "launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-launch.log",
+      "seconds": 2.45,
+      "log_sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "name": "publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-publication.log",
+      "seconds": 282.86,
+      "log_sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    {
+      "name": "publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-publication-disclosures.log",
+      "seconds": 0.52,
+      "log_sha256": "2b2d7b4b98941c1b1254c8582bbffa54e9b80b2f3e8117c0d3a4be0abad0ee38"
+    },
+    {
+      "name": "shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/dh198-shortlist.log",
+      "seconds": 2.0,
+      "log_sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  ],
+  "counts": {
+    "full_tests": 653,
+    "coast_tests": 535,
+    "acceptance_checks": 3512,
+    "launch_sitemap_urls": 11,
+    "launch_contrast_pairs": 14,
+    "full_reader": {
+      "files": 405,
+      "bytes": 20749324,
+      "html": 201
+    },
+    "coast_reader": {
+      "files": 405,
+      "bytes": 20741083,
+      "html": 201
+    },
+    "published_reader": {
+      "files": 405,
+      "bytes": 20740681,
+      "html": 201
+    },
+    "publication_artifact": {
+      "files": 2449,
+      "bytes": 618372995,
+      "html": 880
+    }
+  },
+  "pdf": {
+    "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/2283967e2da98993418ad3afcd1b97940e764ecb/projects/odia-dhaga/odia-dhaga-book.pdf",
+    "sha256": "3260a6e99ddf58ef9516979d85eb5dc73c10d148e30d38738d2cf15871282d41",
+    "packing": {
+      "pages": 111,
+      "bytes": 91216308,
+      "sha256": "3260a6e99ddf58ef9516979d85eb5dc73c10d148e30d38738d2cf15871282d41"
+    }
+  },
+  "candidate_plan_sha256": "cea4321a583e5623b9e3e9b1155dbf035f42aa80599754edc99c97500ed1195f",
+  "prior185_art_parity": {
+    "report": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-198-2026-10-30/anvesha/prior185-art-parity.json",
+    "sha256": "ac4728120713a3fad4449544b943e79a9909d2b7f564c692dc71934b1b071412",
+    "all185_unchanged": true
+  },
+  "new13_web_manifest": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-198-2026-10-30/anvesha/web-art-paths.json",
+    "sha256": "4265b3e3bfb50b3c72bd2a84576879bc14a826b0e740961ef0f2e3920aa50237",
+    "all_current_hashes_equal": true
+  },
+  "initial_failures_preserved": [
+    {
+      "log": "/tmp/dh198-full-tests.log",
+      "result": "651/653; missing13route configuration caused count/design scope failures"
+    },
+    {
+      "log": "/tmp/dh198-coast-build.log",
+      "result": "Links outside scope to186\u2013198"
+    },
+    {
+      "log": "/tmp/dh198-coast-build-rerun.log",
+      "result": "Standalone13not yet in selected routes"
+    }
+  ],
+  "resolution": "Root completed coast routes/standalone, public route and search exclusion metadata plus displayed count updates; then all final gates rerun. No tests weakened by this worker.",
+  "scope": [
+    "Generated site builds and .astro/.search-review only; no source or Git edits by this worker.",
+    "Final candidate freeze405publicfiles/201HTML; source sync allowlist606files,509local extras protected.",
+    "No live network verification, publication dispatch or reader sync executed."
+  ],
+  "limits": [
+    "Visual derivative review belongs to Drishti and is not replaced by build checks.",
+    "PDF pin extracted from actual generated index and matched local frozen PDF hash; remote pinned bytes not fetched in this task.",
+    "Initial failures retained, not overwritten by final success."
+  ]
+}

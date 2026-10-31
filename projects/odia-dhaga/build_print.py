@@ -18,6 +18,8 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, 
 from svglib.svglib import svg2rlg
 from build import load_library, reading_caption, book_cover, intro_source_ids
 ROOT=Path(__file__).resolve().parent
+# Reviewed exception: preserve the complete critical bilingual reading at normal type size.
+FULL_WIDTH_READING_IDS=frozenset({"POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
 
 class FlowPage(Flowable):
     def __init__(self, placements, width, height, filler=None):
@@ -25,7 +27,8 @@ class FlowPage(Flowable):
     def draw(self):
         c=self.canv;shift=6 if c.getPageNumber()%2 else -6
         for item in self.placements:
-            blocks,image,caption=item['unit'];x=item['column']*(self.width+20)/2+shift;y=self.height-item['top'];cw=(self.width-20)/2
+            blocks,image,caption=item['unit'];cw=self.width if item.get('layout')=='full-width' else (self.width-20)/2
+            x=shift if item.get('layout')=='full-width' else item['column']*(self.width+20)/2+shift;y=self.height-item['top']
             def draw_image(y):
                 ih=image.drawHeight if isinstance(image,Image) else image.height;iw=image.drawWidth if isinstance(image,Image) else image.width
                 y-=ih;image.drawOn(c,x+(cw-iw)/2,y);y-=5
@@ -64,6 +67,32 @@ def fit_reading_unit(unit, column_width, available):
         height=unit_height(unit,column_width)
     if height>available:raise ValueError(f'Complete reading exceeds column: {height:.2f}pt > {available:.2f}pt')
     return height,{'original_image_height_pt':original,'image_height_pt':original*factor,'image_scale_factor':factor,'text_scale_factor':1}
+
+def pack_reading_units(units,column_width,page_width,available):
+    """Pack intact units; only explicitly reviewed exceptions get a dedicated wide page."""
+    pages=[];placed=[];column=0;top=0;chapter_pages={};packing=[]
+    for item in units:
+        wide=item['id'] in FULL_WIDTH_READING_IDS
+        measure_width=page_width if wide else column_width
+        try:h,image_fit=fit_reading_unit(item['unit'],measure_width,available)
+        except ValueError as error:raise ValueError(f"Unit {item['id']}: {error}") from error
+        item.update(image_fit)
+        if wide:
+            if placed:pages.append(placed)
+            placed=[];column=0;top=0
+        elif top and top+h>available:
+            if column==0:column=1;top=0
+            else:pages.append(placed);placed=[];column=0;top=0
+        item.update(column=column,top=top,height=h,image_position=('below' if wide else 'above' if column==0 else 'below') if item['unit'][1] else None,
+                    layout='full-width' if wide else 'two-column',measured_width_pt=measure_width)
+        page=4+len(pages);chapter_pages.setdefault(item['chapter'],page)
+        packing.append({k:v for k,v in item.items() if k!='unit'}|{'page':page})
+        if wide:
+            pages.append([item]);column=0;top=0
+        else:
+            placed.append(item);top+=h+22
+    if placed:pages.append(placed)
+    return pages,chapter_pages,packing
 
 def make_book(root=ROOT):
     root=Path(root);data=load_library(root);design=json.loads((root/'research-design.json').read_text())
@@ -161,25 +190,14 @@ def make_book(root=ROOT):
                 for sid in dict.fromkeys(w['source_id'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')):
                     primary.setdefault(sid,[]).append(e['id'].rsplit('-',1)[1])
         # First pass: measure intact reading units and pack down left, then right.
-        pages=[];placed=[];column=0;top=0;chapter_pages={};packing=[]
         available=bodyheight-12
-        for item in units:
-            try:h,image_fit=fit_reading_unit(item['unit'],cardwidth,available)
-            except ValueError as error:raise ValueError(f"Unit {item['id']}: {error}") from error
-            item.update(image_fit)
-            if top and top+h>available:
-                if column==0:column=1;top=0
-                else:pages.append(placed);placed=[];column=0;top=0
-            item.update(column=column,top=top,height=h,image_position=('above' if column==0 else 'below') if item['unit'][1] else None)
-            page=4+len(pages);chapter_pages.setdefault(item['chapter'],page)
-            packing.append({k:v for k,v in item.items() if k!='unit'}|{'page':page})
-            placed.append(item);top+=h+22
-        if placed:pages.append(placed)
+        pages,chapter_pages,packing=pack_reading_units(units,cardwidth,usable-12,available)
         # Decorative tail art never participates in measurement or text packing.
         filler_manifest=root/'filler-manifest.json'
         motifs=json.loads(filler_manifest.read_text()).get('motifs',[]) if filler_manifest.exists() else []
         fillers=[];page_fillers={}
         for index,placements in enumerate(pages):
+            if any(i.get('layout')=='full-width' for i in placements):continue
             tails=[{'column':col,'content_end':max((i['top']+i['height'] for i in placements if i['column']==col),default=0)} for col in (0,1)]
             # Never decorate an otherwise empty column; whitespace may be intentional.
             tails=[t for t in tails if t['content_end']>0]
@@ -214,7 +232,7 @@ def make_book(root=ROOT):
         for index,placements in enumerate(pages):story.extend([PageBreak(),FlowPage(placements,usable-12,available,page_fillers.get(index))])
         styles=front_styles
         sources={s['id']:s for s in data['sources']}
-        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Wikimedia source wording is credited below. Project Odisha supplies original translations, explanations and examples. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
+        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Explanations expanded by Project Odisha, drawing on the sources below. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
         credit_units=[]
         for sid in intro_source_ids(data):primary.setdefault(sid,[])
         for sid,ids in primary.items():

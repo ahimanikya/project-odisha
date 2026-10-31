@@ -1,0 +1,106 @@
+{
+  "decision": "PASS_ONE_DRAFT_TWO_DEFERRALS",
+  "reviewer": "Drishti, separate AI reviewer",
+  "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+  "candidate_sha256": "83df14dcc6c4051f791b1a2b9d2999c66f340c434c02a8d1fd6e264863e111b8",
+  "report_sha256": "1a1750783f9ac215fa94a916c283986e9ec05e67ae0c908444d407a81a02f795",
+  "capture_hashes": [
+    {
+      "path": "captures/context-reading.json",
+      "sha256": "0755cb89cc2ea4cf5dd574a7999c3ed26a7a675931c28378a80d1d205f99f6c0",
+      "bytes": 1015
+    },
+    {
+      "path": "captures/dsal-dioli.html",
+      "sha256": "63063f5361d37371c9109a139ceade28cc95702157a19f6fc557558fcb7f12aa",
+      "bytes": 4049
+    },
+    {
+      "path": "captures/dsal-mala.html",
+      "sha256": "082b8d29d6461c0c1f82d44103d6ef95a9b13c08b4fa9dff5f20788ce9440e29",
+      "bytes": 6949
+    },
+    {
+      "path": "captures/praharaj-6322-noun2.png",
+      "sha256": "748cee05d3d443c394021345249239d230a099fa371f0070275c6bc15bda5108",
+      "bytes": 77057
+    },
+    {
+      "path": "captures/praharaj-6322.jpg",
+      "sha256": "bcfa8200a95fbdd94efc0682a87ee0de7e9af5b0f40409cbb98775f8572ac62d",
+      "bytes": 765918
+    },
+    {
+      "path": "captures/saved-133124.txt",
+      "sha256": "0a243012e956384a9fc27d87eb1911a74d020f05f360c40dda70adc776b81d53",
+      "bytes": 3889
+    },
+    {
+      "path": "captures/saved-217462.txt",
+      "sha256": "ada3c8691319fd63f8d5b559ea3e06df056b345ed70569f758294a91dfc813f9",
+      "bytes": 2503
+    },
+    {
+      "path": "captures/saved-217981.txt",
+      "sha256": "22baf7cae08d9cac1b1d10f443286bfcae1e41fcbdf6fe433436585e0affda9f",
+      "bytes": 2084
+    }
+  ],
+  "actual_visual_review": [
+    {
+      "path": "samanta/captures/praharaj-6322.jpg",
+      "sha256": "bcfa8200a95fbdd94efc0682a87ee0de7e9af5b0f40409cbb98775f8572ac62d",
+      "method": "Viewed full page; tool display resized2481x3130 to1408x1776."
+    },
+    {
+      "path": "samanta/captures/praharaj-6322-noun2.png",
+      "sha256": "748cee05d3d443c394021345249239d230a099fa371f0070275c6bc15bda5108",
+      "method": "Viewed native-detail crop of noun2 and quoted example."
+    }
+  ],
+  "per_position": [
+    {
+      "locator": "217462 noun2 / printed6322",
+      "decision": "READY_FOR_FUTURE_INTEGRATION",
+      "wording": "ଏଡ଼େ ମଲାଠେଇଁ ଦିଓଳି ବି ତତଲା ଖିଆ!",
+      "findings": [
+        "Printed noun2 explicitly means very impoverished condition and labels example Dhaga. Crop confirms ବି and terminal ଖିଆ; preserve corrupted217462 digital witness separately.",
+        "Literal translation preserves poverty/two hot meals contrast. Teasing challenge is plausible and explicitly editorial in both languages, not a certified universal use. No inference that hot food establishes means or false poverty.",
+        "New imagined expenses discussion actually quotes the saying and permits a reply challenging its inference; it is labelled original rather than collected testimony.",
+        "Rudrakshya context now mapped to named creator/title/URL/paragraph and separate rights. It supports meal/fuel vocabulary only, not proverb origin or whole-line corroboration.",
+        "Distinct from190 stinginess,191 dependent meal choice,199 child eagerness and200 karma-poverty belief; exact phrase absent from201 snapshot."
+      ],
+      "required_preservation": [
+        "Exact printed selected wording and faulty digital witness both retained.",
+        "Project Odisha informed-by-sources narrative credit; no traditional authorship assigned to Wikimedia.",
+        "Printed scan remains internal verification, not a cleared public facsimile; story is paraphrased context with separate rights."
+      ]
+    },
+    {
+      "locator": "133124 noun1",
+      "decision": "DEFER",
+      "reason": "Gem status contempt and unusual ହାତକକୁ unresolved; do not silently repair or replace with generic wrong owner moral."
+    },
+    {
+      "locator": "217981 sense2",
+      "decision": "DEFER",
+      "reason": "Amongst-many lexical sense does not establish moral excellence or intended referent of complete line; other one-in-crore phrases do not settle this one."
+    }
+  ],
+  "corrections_resolved": [
+    "Added literary contextual-source mapping and rights.",
+    "Replaced meta reading-group explanation with explicitly imagined actual saying use."
+  ],
+  "checks": [
+    "Verified all frozen captures against manifest hashes and read saved217462/133124/217981 witness contexts.",
+    "Compared selected wording and two deferred phrases against201 entry/variant snapshot; no exact normalized phrase matches.",
+    "Read complete final Odia/English explanation,summaries,example,context and credit; checked source versus editorial boundaries."
+  ],
+  "limits": [
+    "No fresh network retrieval by reviewer; literary context assessed from saved short evidence and producer access record, not an independently retrieved complete story.",
+    "Same dictionary lineage is not two independent oral witnesses. No origin, popularity, earliest attestation, human review or worldwide public-domain certification.",
+    "Targeted semantic comparison does not prove exhaustive variant uniqueness.",
+    "This is reviewed local research readiness only; no canonical acceptance, art, integration or publication."
+  ],
+  "blockers": []
+}

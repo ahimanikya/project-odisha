@@ -1,0 +1,41 @@
+{
+  "decision": "PASS_SCOPED_IMPLEMENTATION",
+  "input_head": "e2ba51e13934daaa5f9dba2b7a3f644ba0467434",
+  "bindings": {
+    "projects/site/src/pages/stories/kandhamal.astro": "260e14c29b2e3058bada842149edcef5359e028a2c00568a69e351f344fa3984",
+    "projects/site/src/data/discovery.ts": "d8c1194a2d5be2c6d4ea8082a6e0713ac3858dc8642bd93fb1408b33fb13b110",
+    "projects/site/src/data/journey-catalog.ts": "414eaae7025ad7470dabb8c501ca344be07b3993b3a869b24b0ef52f56551898",
+    "projects/site/editions/coast.json": "cc98b7cc22230914e7015c86c0f8ab29bb442121dc27f3da7cfae3423e900285",
+    "projects/site/editions/search-candidate.json": "515288fdbdc2f0f56f94e706ae205b6d6f74e221efcbb6488185edb92f1ce277",
+    "projects/site/tests/kandhamal-editorial.test.mjs": "5016d6951946929aae1cae10123c02bceb01d085e54f67c501f046391ad38ead",
+    "projects/site/tests-coast/kandhamal-editorial.test.mjs": "5016d6951946929aae1cae10123c02bceb01d085e54f67c501f046391ad38ead",
+    "projects/site/tests/build.test.mjs": "68a2416078498996f305c9c62c87cc83669336649a14953a558fddac14e4a8c8",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "3e24ae56ed9acc112d181f4c11e37727a657f3143ac24db86c5606fc097ecbc2",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "df1f1c33e788799e4e317499272b3b9541c8368fdc3841e8d5152ca07986da58",
+    "projects/site/tests-coast/edition.test.mjs": "018eae0562180d22025c1150799260f454e7a794a50ed19f7b8d3d153cfc5ca1",
+    "kb/research/stories/kandhamal.json": "3766c4080a1f5b86880347b7937d8df8994682955e74a7f8d6c9c50a097f2e7e",
+    "kb/research/sources/kandhamal-cultural-research.json": "7b2c6119cd609fd0f43aa5c689a6c169cb256e1a2966073617b424a9dfd12a71",
+    "samanta/implementation-report.json": "5ecf0231c67ca0607a29c419b0dfbbea999d561fe758ef1e01f8afcdae1cee50"
+  },
+  "checks": [
+    "Canonical article and research ledger exact byte parity with approved frozen outputs.",
+    "Read full page/catalog/config/tests: all9sectionparagraphs pluslead and5substantivenotes preserved,8source refs with unique returns, expanded reading links.",
+    "One new coast route/catalog item/discoveryentry with search hold; existing entries not rewritten.",
+    "Independently ran actual full-dist focused tests:3/3PASS.",
+    "Shared programme133/editorial830 remain in_progress, previousBadhei released evidence explicit and finite new claim.",
+    "Independently coast focused3/3PASS; combined independent article tests6/6.",
+    "All11 final site source hashes and4build/test log hashes match frozen report. Final actual worker full9/coast13 scoped tests and both builds PASS.",
+    "Independently deep-compared119 prior catalog objects: unchanged, exactly one new item.",
+    "Independently rehashed1246 book files and34 prepared227 package files: unchanged.",
+    "Four existing inventory tests only increment counts by one; substantive assertions retained."
+  ],
+  "blockers": [],
+  "pending": [
+    "Actual browser/download/pixels later",
+    "Final exact committed head/fullpublication gate later"
+  ],
+  "limits": [
+    "Scoped working-tree implementation review, not final release approval. No concurrent builds or canonical edits performed.",
+    "Worker build results read from actual bound reports/logs; focused full/coast tests independently executed."
+  ]
+}

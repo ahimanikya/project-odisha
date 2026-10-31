@@ -1,0 +1,46 @@
+{
+  "reviewer": "Drishti separate AI",
+  "decision": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "deployed_head": "498d53b8cf47b1904923b6a803a553f5fabe93fc",
+  "deployment_id": "41095946656",
+  "bindings": {
+    "live-preparation/live-verification.json": "599582b85d96e10bf3e9ad00f131e9b6db1b9682befa9e4f121dcdb64152da4b",
+    "live-verification-final.json": "ffc3737889c2200875e074e995a602aa4b10c51df392a93c386a041b9db51931",
+    "live-119-retry.json": "c1ef36f46a17d2ecf1beff7a361ab9ef09b805bff89cea84789eb588479821f3",
+    "live-art-review.json": "236ce98df9198760288ca414d03bea54a3e9cf0f9c2fc986b6a1f0d203ec1e62",
+    "live-browser.json": "b09c509bee535125b565006b2a4d9182075796ec55f2b26a50efd3aa5360d248",
+    "local-sync/local-reader-sync-result.json": "020f9eb788bbaf911fa01ba13b4b3f525bba7de2cb056d092689767d3c6a5da4",
+    "live-preparation/supplemental-live-verification.json": "f70b46a346e3655af1845284f768066c71c9ddb810ce67431d8fa7122d422168",
+    "live-preparation/companion-main-verification.json": "44fe263735d4cc26b3dbd2b362c2f0d85686590a176fd5d5bb2f29fa4b2ed92f",
+    "live-preparation/merged-verification.json": "2ffc4301b645cee51042f65f54aa00894f1bd439371bd0bdac6040f04b39e1cb",
+    "live-preparation/known-image-pairs.json": "3dd5ebe4f7b123e663e1267f2d711d9cdfbb8fe688fc5b1c58d2bf3ea2c1d361"
+  },
+  "actual_checks": [
+    "Raw119entry inspected:503transporterror, no originalhashpair. Fresh actualdownload and local capture byteexact and both pixels viewed.",
+    "All431final results200/pass;410byteexact,21old mismatches match both known hashes;214HTMLexact.",
+    "Four livebrowserJPEGscreenshots independently viewed and hashverified: desktopindex211,202phonebody/art,211phone readable without visible clipping. Keyboard/menu/search actions are reviewed worker evidence, not independently replayed.",
+    "Companion3mains qualified by explicit29priorresponsivepair mappings; rawHTMLnotexact; nonemptycatalogexact.",
+    "Local sync log hash verified,testexit0,reported19tests/648products/508protected/238copied; not rerun or resynced.",
+    "Remote mergedmanifest report296exact and supplemental freshPDF/indexlink/sitemap/searchholds/internal404reports inspected."
+  ],
+  "counts": {
+    "original_attempt_exact": 409,
+    "final_exact": 410,
+    "files": 431,
+    "known_image_pairs": 21,
+    "new_variance_exceptions": 0,
+    "html_exact": 214,
+    "new_art_byteexact": 10,
+    "local_products": 648,
+    "protected_extras": 508,
+    "local_tests": 19
+  },
+  "blockers": [],
+  "limits": [
+    "No alteration of originalfailedattempt; finalaggregate is separate.",
+    "Knownimagepairs reusedbybothhashes; no repeated21-imageor29-responsivepixelclaim.",
+    "Representative livebrowserpixels,not all214routes visuallyinspected.",
+    "Actual deployment identity supplied bycoordinator/reports; no independentGitHubstatusquery inthisreview.",
+    "SeparateAIreview,nohumanproofreading,programmecreditorblanketrightsclaim."
+  ]
+}

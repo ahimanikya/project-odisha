@@ -1,0 +1,72 @@
+{
+  "status": "PASS_EXACT_HEAD_LOCAL_RELEASE_CANDIDATE",
+  "input_head": "9594c8b98305143deae7a5b3db49ed51f2f43483",
+  "base_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "bindings": {
+    "candidate-manifest.json": "09012342c9c61c007c5be6e64736944e048e0449e88429d0f451568f5750bb6c",
+    "immutable-pdf-verification.json": "e0233f004e38cb7c337f02ef15fe55ceef5875fd61ed707f85cc56805124c15b",
+    "release-review/preliminary-checks.json": "029b3dfa174084b888d7a8577fd8ba1439715cc3cc8cd3c99b646a86fcef4f71",
+    "release-review/record-checks.json": "06daaa2e4056d9c90b32b479a5c1ceaa728543f967c87facb0373a0b30cbb041",
+    "release-review/web-art-review.json": "cdc183c185f4a914a2fe63c98bd37dc41178e245c7358a5b82947444b42a8e5d",
+    "drishti/integrated-review.json": "2fba5985f78db18f554ced2041af6208021afcb7d0012bf6b0efb1a25b46ffbd",
+    "site/samanta.json": "ecac7e7732a3760b279a2569460960ec815f313a12adf82dacfa4362804529d7",
+    "site/validation-site.json": "a76924c2f4e83f25b9b3608aadbad27524af96f2e3fe8fcaa96090e291957f12",
+    "site/browser-review.json": "b2e9c5db10b3014181fb25593b8cddda4a4724539793f9d9da7df5679dd9c998",
+    "site/derivative-preservation.json": "79778d718ab6e875fc29ccb0f6317ebae6ff8a72b5bb1ea7f878164a1e261adb",
+    "live-preparation/candidate-plan.json": "b700de9cd7a01a585304f0a15ea6a13b06e5c3a4310f34e832dfdce388be3897"
+  },
+  "verified": [
+    "266 changed committed blobs match candidate manifest; all1167 committed book files exactly equal separately reviewed production stage.",
+    "Immutable4a832a5f ancestor and PDF blob verified; saved fresh remote download evidence independently inspected for exact URL/hash/97,861,155bytes.",
+    "All891 previous rollout items unchanged; only three explicit book/reference exclusions added. Counts149completed451excluded294queued; programme131 retained.",
+    "Independently ran rollout, team assignments, autonomous programme, workbench and bundle checks: all five PASS.",
+    "Reviewed site adapter/test/config diff: immutablePDF URL and measured24MB gate; explicit212–214 coast/standalone/portableinventory routes and search holds; no prior route removed. New regression verifies corrected print and faulty digital witnesses both remain visible.",
+    "Original23MB failure preserved and bounded24MB rationale matches measured23,131,919bytes. Derivative dimensions/quality unchanged; three actual640px web images individually viewed and readable.",
+    "Own finite operations claim retains release until reviewed receipt merge/checks/remote verification. Record accepted_increment0/public_delivered211 accurately separates candidate214 from publication.",
+    "Final 13 site gate logs individually hash-verified and their results inspected: 655 full tests, 535 coast tests, 3576/3576 acceptance checks; disclosure/discovery/launch/shortlist pass and 11 indexable routes retained.",
+    "Final local publication is 620,754,902 bytes; Dhaga package 23,122,588 bytes, 437 files and 217 HTML pages. This fits the approved 24 MB reader and 1 GB publication budgets.",
+    "Independently viewed all six hash-bound browser screenshots: desktop index/214 and phone entry/detail/art/menu are readable without visible clipping. Worker browser evidence records actual search, keyboard, navigation, skip link and menu checks; these interactions were not rerun by this reviewer.",
+    "Rehashed all three final publication derivatives and confirmed exact equality to the full-build images independently viewed earlier. Prior 217-asset preservation report is bound; no new derivative settings introduced.",
+    "Final site source hashes match frozen head 9594c8b98305143deae7a5b3db49ed51f2f43483; final gate, browser, candidate plan and preservation evidence bindings verified."
+  ],
+  "blockers_found": [],
+  "pending": [],
+  "limits": [
+    "No repeat27PDFpage or original-art review because committed book exactly matches frozen reviewed stage.",
+    "Separate AI review, no human review/live deployment/merge approval claimed.",
+    "No canonical or Git writes.",
+    "CI success, deployment, live checks and receipt merge are subsequent gates; this PASS does not assert publication or release completion.",
+    "Fresh remote PDF retrieval was performed by coordinator; reviewer checked its saved URL/hash/size evidence against independently hashed immutable ancestor blob."
+  ],
+  "actual_checks": {
+    "independently_executed": "Five record checks and committed manifest/stage/ancestor/source/evidence/hash comparisons recorded in supporting reports; prior isolated 22 book tests retained.",
+    "site_tests": "Executed by Samanta; reviewer independently verified all 13 log hashes and inspected result summaries, not a fresh suite run.",
+    "browser_screenshots_independently_viewed": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/site/desktop-214.jpg",
+        "sha256": "e97290e09947d60583298e54008ca4c8a064eb1809554866fa836d5b64daa5c4"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/site/desktop-index.jpg",
+        "sha256": "771a3037f10426d3eb9319526e1e3e06cb6d59cf3d7299e4a276ca9c3bb3dbdc"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/site/mobile-214-art.jpg",
+        "sha256": "78ef64c8b29bd2ca200ba7458c83585af75750be2dbe63f379bf667e5f338c8c"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/site/mobile-214-detail.jpg",
+        "sha256": "f4b646d607df0457bf41e37b0d150715ecbd392e1013de9272fdb7e9919ed58f"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/site/mobile-214.jpg",
+        "sha256": "5764b52b28dec374e8d172a4a1cd63a634d3066adb5a1694c3e23e1af5997497"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/site/mobile-menu.jpg",
+        "sha256": "b4f0f713f4c3b85295d5d74414158d89dc6821a391dff1ce57ac7b1dcc6573a8"
+      }
+    ],
+    "publication_gate": "Completed; earlier pending condition resolved."
+  }
+}

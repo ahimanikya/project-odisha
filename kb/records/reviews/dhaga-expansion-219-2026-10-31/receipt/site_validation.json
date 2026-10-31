@@ -1,0 +1,183 @@
+{
+  "status": "PASS_ALL_LOCAL_SITE_GATES",
+  "gates": [
+    {
+      "name": "full-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 47.97,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/full-build.log",
+      "log_sha256": "8333dd3c341f22c61a513a778a693a6a44638160d6ea5f0f2c8862426f32b575"
+    },
+    {
+      "name": "full-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "seconds": 1.53,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/full-disclosures.log",
+      "log_sha256": "ce10b308f3af26ce325c5a3f59075a817c00ebc51fffdb1c2b570b105fd9de18"
+    },
+    {
+      "name": "full-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "seconds": 19.92,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/full-tests.log",
+      "log_sha256": "3b8afe68a03a010cf5166b8e7c8eb0b7a6091fc4def0616e7cdb5023e06c49c1"
+    },
+    {
+      "name": "coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 60.8,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/coast-build.log",
+      "log_sha256": "60d09ff7df9f20bf3cd2fb9d17b4f3ec5722175de5976ee578efb9869ff00c20"
+    },
+    {
+      "name": "coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/coast-disclosures.log",
+      "log_sha256": "798be37cfb8e00289c3782a91b0a9f5320a0ecae14c7e56c55ecb83deeb52d64"
+    },
+    {
+      "name": "coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 8.08,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/coast-tests.log",
+      "log_sha256": "fb9933a9e092307d3dfaf08f64dae9c12b2de2e1ac17f75c2dd857026c6b4d30"
+    },
+    {
+      "name": "acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 7.37,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/acceptance.log",
+      "log_sha256": "d58938f6d0de17a771401afb2e56449ab8970a6be81a71c51253e6917bb562ad"
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.89,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/discovery.log",
+      "log_sha256": "bd793f16a0564a488ca04060a54e5726bd7bad28b0b9376997f239b78f260a98"
+    },
+    {
+      "name": "search-preparation",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 9.2,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/search-preparation.log",
+      "log_sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "name": "launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.33,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/launch.log",
+      "log_sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "name": "publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 331.45,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/publication.log",
+      "log_sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    {
+      "name": "publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.61,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/publication-disclosures.log",
+      "log_sha256": "81988480ce0359f53f26b2bbe30d698699e4a73323a2343eaa982a4122694981"
+    },
+    {
+      "name": "shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.85,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/shortlist.log",
+      "log_sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  ],
+  "input_head": "29b2b429a540445132183259f6eb80f704f064e1",
+  "full_tests": 656,
+  "coast_tests": 535,
+  "publication_bytes": 621541697,
+  "dhaga_publication_bytes": 23909383,
+  "public_html_pages": 901,
+  "dhaga_html_pages": 222,
+  "dhaga_public_files": 447,
+  "export_budget_bytes": 24000000,
+  "book_pdf_sha256": "8a87d79048ebbe75dfc391ae84d54ebf7620e7aefcd8e4108c3558ea40725282",
+  "book_pdf_pages": 132,
+  "immutable_pdf_commit": "273450a85d262aeb55d0482842f170c68122a75e",
+  "derivative_preservation": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/site/derivative-preservation.json",
+    "sha256": "f3c8c7c5bf44d240cfacdae9652ec4a56282e25e421e5389e6789866b8c026ae"
+  },
+  "budget_rationale": "Existing 24 MB ceiling retained; all prior214 derivatives preserved byte exactly; five new derivatives use640px/q60.",
+  "limitations": [
+    "Local build and audits only; no CI, deployment or live success claimed.",
+    "Book and PDF were not rebuilt in this site scope.",
+    "Browser review is independently performed by Drishti against the stable full build; see separate review evidence."
+  ],
+  "indexable_routes": 11,
+  "browser_report": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/release-review/browser-review.json",
+    "sha256": "cee6415c6883f4a95a61c9ec15925f4d8e60e60f5ec79fcfaa5bdde578ca7d14"
+  },
+  "budget_headroom_bytes": 90617
+}

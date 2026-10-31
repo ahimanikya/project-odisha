@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "input_head": "e2ba51e13934daaa5f9dba2b7a3f644ba0467434",
+  "full_tests": 663,
+  "coast_tests": 541,
+  "focused_full_tests": 9,
+  "focused_coast_tests": 13,
+  "publication": {
+    "status": "PASS",
+    "bytes": 622108368,
+    "files": 2501,
+    "indexable": 11,
+    "prior_catalog_items_exact": 110,
+    "new_catalog_items": 1,
+    "browser_tested_final_html_catalog_exact": true,
+    "bindings": {
+      "stories/kandhamal/index.html": "866c1754f9167708e347d6436a34c9e748810b9ca37f6d2c2927e82481c62504",
+      "assets/journey-data-807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281.js": "807b57c85132ac3a3bf1573e3b918d7fa9bf88ca559ea86b826d07747a2ea281"
+    }
+  },
+  "gates": {
+    "status": "PASS",
+    "results": [
+      {
+        "name": "full-tests",
+        "command": [
+          "npm",
+          "test"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "coast-tests",
+        "command": [
+          "npm",
+          "run",
+          "test:coast"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "disclosure-full",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "disclosure-coast",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-coast"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "coast-audit",
+        "command": [
+          "python3",
+          "tools/audit-coast.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "discovery-audit",
+        "command": [
+          "python3",
+          "tools/audit-discovery.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "search-review",
+        "command": [
+          "node",
+          "tools/prepare-search-review.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "launch-audit",
+        "command": [
+          "python3",
+          "tools/audit-launch-readiness.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "publication-build",
+        "command": [
+          "npm",
+          "run",
+          "build:publication"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "disclosure-publication",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-publish"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "search-shortlist",
+        "command": [
+          "python3",
+          "tools/audit-search-shortlist.py"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "checked_at": "2026-10-31T12:47:00.782219+00:00"
+  },
+  "browser": "records/evidence/kandhamal-cultural-2026-10-31/browser/browser-review.json",
+  "limits": [
+    "Actual headless Google Chrome desktop and390px viewport; not physical phone or assistive-technology testing.",
+    "No publication or live verification yet."
+  ]
+}

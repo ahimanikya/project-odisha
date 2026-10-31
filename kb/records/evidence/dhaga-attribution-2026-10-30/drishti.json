@@ -1,0 +1,61 @@
+{
+  "status": "PASS: final185 concise attribution, generated HTML and unchanged reviewed PDF",
+  "checks": [
+    "185 exact non-credit field parity, rights substitution, credit-map text and generated HTML checks passed",
+    "Escaping/fallback and18 adapted source links passed"
+  ],
+  "counts": {
+    "adapted": 20,
+    "source_informed_default": 165
+  },
+  "limits": [
+    "Separate AI review, no fluent-human proofreading or legal clearance claimed.",
+    "Source-informed default is not a certification of wholly source-independent composition or exhaustive adaptation classification.",
+    "No live deployment, final integrated commit or public-site/browser review in this scoped review.",
+    "PDF visual coverage remains55/99/102/103 plus all104 content-stream comparison and55 pixel parity, not all104 pages freshly viewed."
+  ],
+  "hashes": {
+    "baseline-entries.json": "2d74fde36c27a909a6ae3b81df71f30bb81dd615b3b9d846f70519f8b17f9abe",
+    "concise-credits.json": "4a0a04960544e532663779048eab575a7134c3946649f239cb19d7892684cb98",
+    "concise-credit-hash-method.json": "fa2a8dcdbc1195a63b198e20c03f0da9234a2477dfc4420f25698805c45f083b",
+    "concise-credits-060-147-addendum.json": "f613248d310f6802e4cfdf9cc76bcc86e049ee5ca8c42486db943657a0d5060f",
+    "anvesha.json": "a818fc5e45960c54262f41015c219b67f1b2c58b655dcaeea6fcf4d7c87ff41b",
+    "samanta.json": "4a1b93561cc81e040e9faa3c647d9298f22938325a0b3cda018e942951b2e4a2"
+  },
+  "pdf": {
+    "sha256": "8bad022dbf11e2eb820e1a87b8659fcb6c3843b6be4cff4a8d515ccf0ef6b433",
+    "bytes": 87816056,
+    "pages": 104,
+    "actual_full_pages_viewed": [
+      55,
+      99,
+      102,
+      103
+    ],
+    "comparison": "All104 page content streams compared against previous030dc508 PDF; only99 differs. Page55 old/new independently rendered PNG bytes identical. Content-stream equality is not a claim to have viewed every page.",
+    "findings": [
+      "Revised concise global attribution fits page99 without clipping or changing source units.",
+      "SCERT exception on99 explicitly remains not openly licensed; historical publisher-versus-author uncertainty remains on103.",
+      "Odia source titles and existing layouts visible on99/102/103 remain readable; dense existing locator apparatus and original encoded irregularities are not newly corrected in this change.",
+      "Page55 retains four explicit183 lines, readable art and unclipped177/183 text."
+    ]
+  },
+  "input_head": "5b18adef5d5a17486f3f2e408e7cd60effec99ca",
+  "final_checks": [
+    "Applied original mapping plus exactly060/147 addendum in memory; all185 canonical credit strings match.",
+    "Both addendum capture hashes and exact source gloss strings independently verified.",
+    "All185 individual entries equal generated collection objects; all non-credit fields equal frozen baseline.",
+    "All185 generated reading HTML contain exact escaped/linkified credit, without verbose Wording credited to wording.",
+    "Final PDF hash unchanged from separate page review."
+  ],
+  "product_hashes": {
+    "build.py": "56bcacf00c8bfe753f83b816f11da83252845a11a3f855f96639fb0aeb199c1e",
+    "build_print.py": "8f25cbb01aa2ee2debf66059700419c60e3be52fd2cac60ee921577360a71959",
+    "collection.json": "8b77c74c510e6b116a9aae126901d2129717958840537842ad651267a1f4d96d",
+    "collection-metadata.json": "ffe6508ed31d82c64bf043bc30f868d2e44f1df58c22394e7add80f33dda342f",
+    "index.html": "20daa5707f60876c6ee0ecbe140712c01e48b0c6b2949f860028c4f8a62904fb",
+    "odia-dhaga-book.pdf": "8bad022dbf11e2eb820e1a87b8659fcb6c3843b6be4cff4a8d515ccf0ef6b433"
+  },
+  "correction_resolution": "060/147 now explicitly adapted; earlier18/167 counts superseded by20/165. Original mapping retained as historical baseline, addendum is final override.",
+  "blockers": []
+}

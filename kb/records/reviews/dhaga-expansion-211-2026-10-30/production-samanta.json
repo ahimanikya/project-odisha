@@ -1,0 +1,213 @@
+{
+  "status": "built_and_frozen_awaiting_final_independent_integrated_review",
+  "input_head": "c284f2a5cd742bd1bca627e1010c4f7092199ba7",
+  "scope": "Output-only staged211 edition; canonical, shared records, Git and public website unchanged.",
+  "counts": {
+    "staged_entries": 211,
+    "staged_illustrations": 211,
+    "sources": 99,
+    "pdf_pages": 122,
+    "new_vs_reviewed202": 9,
+    "cumulative_new_vs_canonical201": 10,
+    "accepted_increment": 0
+  },
+  "pdf": {
+    "pages": 122,
+    "bytes": 96433030,
+    "sha256": "1babc5d71db9522c65eb8ee23887c9da3917f54fa0fea306f37b4502f2786877",
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-211-2026-10-30/staged-book/odia-dhaga-book.pdf"
+  },
+  "preservation": {
+    "prior202_entry_bytes_exact": true,
+    "prior210_asset_bytes_exact": true,
+    "prior202_layout_metrics_exact": true,
+    "all211_bounds_pass": true,
+    "full_width_pages": [
+      41,
+      71,
+      95,
+      97,
+      114
+    ],
+    "wide_pages_skip_fillers": true,
+    "body_font": 10.5,
+    "text_scale": 1,
+    "sources": 99,
+    "entries": 211,
+    "historical_rows_unchanged": true,
+    "source127_pending": 75,
+    "canonical_writes": false,
+    "accepted_increment": 0
+  },
+  "source_mapping": {
+    "digital_alias": "dhaga-wiktionary-pimpudi-213323 -> dhaga-wiktionary-213323",
+    "printed_witness": "dhaga-praharaj-pimpudi-4856; same dictionary lineage, not independent corroboration",
+    "new_source_objects": 2,
+    "prior_source_objects_preserved": 97,
+    "prior_ledger_rows_preserved": 93
+  },
+  "implementation": {
+    "new_entries": "203–211 exact reviewed narrative/witness/rights under schema aliases; ID, illustration and internal status added.",
+    "builder_change": "Only new IDs204/206 added to existing explicit full-width exception set. Existing199/200/202 retained. No HTML generator design change.",
+    "layout": "Unchanged10.5pt body font and text scale1; no truncation/cropping.203/205 artwork reduced within130pt floor.204/206 narrow measurements failed floor, so authorized full-width pages used and fillers skipped.",
+    "illustrations": "Nine selected original assets, independently reviewed; three rejected initial versions retained output-only. All prompts/tool output paths/hashes recorded.",
+    "inventory_binding": "Generated reader, collection, source inventory and research-design collection hash refreshed."
+  },
+  "pdf_skill_marker": {
+    "status": "success",
+    "operation": "edit",
+    "output_count": 1,
+    "artifact_type": "pdf",
+    "tool_chunk": "7b8ea9",
+    "timing": "Exactly once immediately before first211 PDF authoring command; no repeat."
+  },
+  "commands_and_results": [
+    {
+      "command": "python3 build.py",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 build_source_inventory.py",
+      "result": "PASS"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/dhaga173-pdf-libs bundled-python build_print.py",
+      "result": "PASS122pages"
+    },
+    {
+      "command": "python3 -m unittest test_repository test_source_inventory",
+      "result": "PASS19tests",
+      "log": "book-tests-final.log"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/dhaga173-pdf-libs bundled-python -m unittest test_print_layout",
+      "result": "PASS3tests",
+      "log": "layout-tests-final.log"
+    }
+  ],
+  "python_runtime": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "render_evidence": {
+    "dpi": 120,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      23,
+      24,
+      25,
+      39,
+      40,
+      41,
+      42,
+      50,
+      60,
+      61,
+      62,
+      71,
+      72,
+      73,
+      85,
+      95,
+      96,
+      97,
+      98,
+      99,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+    ],
+    "directory": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-211-2026-10-30/production/pdf-pages",
+    "samanta_actual_pixels_viewed": [
+      1,
+      24,
+      40,
+      41,
+      61,
+      72,
+      96,
+      97,
+      98,
+      115,
+      118
+    ],
+    "samanta_result": "No visible clipping, overlap or missing Odia glyphs on inspected pages. Full-width204/206 readable; source credit118 fits.",
+    "render_hashes": {
+      "page-001.png": "cc17f253ad777838e2dc736f85fc9796cf63652a7cde66b4f89ed2d2c39441c5",
+      "page-002.png": "008e514e16ad8bc3c69730c5e760be4997a5db3da367c5946cf7e471c8ffef65",
+      "page-003.png": "42a6b10f45c8cceb2b066cbd12f39408c87e1dea103c9a3b1b29667a250fe233",
+      "page-004.png": "c85001b97d583e4bfb709d473032b386706689658afb0707eb3d1b9c43841baf",
+      "page-005.png": "a44bcdef45edc29e0ed4ca67b582676661ac37356e7106ecff9f932403f93006",
+      "page-006.png": "81e477390fff006b4d121c89c4701c398081358ea49ab8381fb27ce48ac8000e",
+      "page-023.png": "52bc9618b9e06289228c97a511fc763664f98b0a485d7bd64fbc31b7831185a8",
+      "page-024.png": "1d448027e2c831c2bf4aa5c1692052ec7b1b678ca9344386c0bca83c3e63ff02",
+      "page-025.png": "bc3770c8bde2c1ef23f531911409b681b271e66c13ede72279c7cab4657525cc",
+      "page-039.png": "c861a4378f754907802f200bada3131c27029c2dc8287251e60ff72738a5419f",
+      "page-040.png": "42934c48e653d5982966a82d00563fd6e7d08cc030a5d5f9826917b78a182692",
+      "page-041.png": "dd58954a52aaf9876077899c0dcc512cd7126a73bf93807d0f6fabf1821be3ce",
+      "page-042.png": "23dc700cad0f988792c904c2e8c3686307aab25a9bc7533f76421af40a6096ed",
+      "page-050.png": "ff1986a4df518c7cce6d55e5b88df41e4605f837cd6961b2f1f0999edb188148",
+      "page-060.png": "f4f3f4e3c15ea1d2229c51c12a6cce4e6c8c78051c6174caeabfa38f2be6328e",
+      "page-061.png": "0e0b97adfed696e6b19fbb1ccc9400949559298056155e84e8860f78bd098ab8",
+      "page-062.png": "e40ccc5e13cc04a5169b8f62baf478f99ace0051ba48c79aaae761bb27ff775f",
+      "page-071.png": "495c6a1314c7252d8c51038e8e64574d2a16c0181b30a32d9a87f997db599257",
+      "page-072.png": "cd1695966fa5060c0bcaad1a085f377c9e04bdd733b1415bb3b832c22d44f780",
+      "page-073.png": "527cf6ea349a0694045d27e82b7c9ee1f9345aec2e4ec66ac690fbabc29b316e",
+      "page-085.png": "14d86ff10f38120a5034a7254d0cae366bda296395db9284065d64e7cafdb66b",
+      "page-095.png": "59674388c1eb5de537ac6176a27417b46779bcac2639c91812f244ea24cb879f",
+      "page-096.png": "37abb655a4c08ab9d915dd982ad7477ffa313565ef27f885634d4ccb1ff58e2e",
+      "page-097.png": "131fe2a1bb9968aa7285bdd4e70465c5d1599fa5870d911c25f2d56b187aa46f",
+      "page-098.png": "382cf871e848724ebfeac08f32302f47528d17d816dcc167d107dd57b14a820f",
+      "page-099.png": "cbe65a902ebf2804885acaeac1f593a69cf8808851026b62b2fdf5e3bce027e6",
+      "page-114.png": "356bd1324bcd56c2d928b99ffe8c4c34cfe6e66450da61b1b0a08d7def998d72",
+      "page-115.png": "f81b2e313385d491e3be57b627312a2cbe3ddddbeda7a1018edac2aafba44ec9",
+      "page-116.png": "994251823e39123585b7613950dea7e826d3098f48d51965c942a5938707dffd",
+      "page-117.png": "3f3ffc51f46a2474c3af681852703d8feb4e0fe26d75e79b954fe989faffe928",
+      "page-118.png": "0b5d2b2742e0b0bd5073e44e9229647b2a189aef2eb8ac452658b71a52a7b81c",
+      "page-119.png": "571951a864bc4faf9da17b9ed65ae8bc42dae0136e3fc91c85be24f6a2674cc7",
+      "page-120.png": "83355c21dcf5a5f903ce3eee5662cd997467f3c732952a69b7a0b30181940211",
+      "page-121.png": "4c00ce15d71b2200238b090129f50f69ed0228de889aa5ae549f70df7a2b7870",
+      "page-122.png": "b8f54558bad8739f304a1931bba57986c327f1e3fca898240046cabfbe84c544"
+    }
+  },
+  "independent_review_bindings": {
+    "anvesha/art-review.json": "4393e32c5719fcecdae6872246688569747a800f4c9aa1e587a7c6eb5862c3f6",
+    "drishti/text-review.json": "1b753102d6d8a415886b13a467a8564bed226080f782965b4419ce3a9604f66b",
+    "anvesha/source-preservation.json": "383b67af5c7194f8a3a6acb0398fc42edd6c1587aaa2d4cc070730a22960562f"
+  },
+  "evidence": {
+    "baseline202.json": "a0526561fe41ee9630eac21f8353dfb6b17dce7705090681dad277d5db07c92a",
+    "entry-map.json": "0c940514ab1819037ff8f045dd054a709b7578d3cad1048180e9ea3a917185a6",
+    "text-preservation.json": "defe822dc571f4018c6a4a7cd57af5d8292265c07ae0319079894d19ef45b112",
+    "narrative-parity.json": "2a7c53188587bee4ebc4325166717c346dda2816a113473faa4656f04cae5eaf",
+    "preservation.json": "fd59d45f8822b5f31c4759f9a49931888fbd23ea1902ed08d012d63275c8d978",
+    "new-entry-measurement.json": "2e2932dfb345f07f9a9a19b60eef913160076c87cfeb7f9ffc13e8201edcf4c9",
+    "page-map.json": "3de2997319ed97a674dffbaa00da7b6464df598da5d62ee25fdebf64b904ae36",
+    "selected-art.json": "81ad4134b6f3e65837971db8a50317b6b7bf2d3c2e037d68abecf465ca64e0be",
+    "all-generation-provenance.json": "b932bb0dc66ccb451866f46b11e9e593e4d48663d52c8dadfc9cc40c6e353181",
+    "book-tests-final.log": "8e1057fcaeadbc5553629a709ea7fcbab717ba14ebbf1b6cf80db98ff2ba2f38",
+    "layout-tests-final.log": "921b60a7fd52e978fbb551cacd29df2d6708879400278e1fcc70fceeb0c6f8e0",
+    "pdf-build.log": "4c893cfd891c22cfe10968749533a0a8ebb639b05259ffb05384d7bb01b59269",
+    "installation-manifest.json": "4d82cd8411a2e746b4d93bf44e061d897b4f2f8ef830dad688f5f02417dcc02b"
+  },
+  "manifest_counts": {
+    "stage_files": 1139,
+    "changed_vs202": 266,
+    "cumulative_changed_vs201": 281
+  },
+  "limits": [
+    "Local staged edition only; not accepted, installed, published or deployed.",
+    "Original75pending and historical transcription/inventory cursors unchanged.",
+    "Full-width exceptions flush preceding columns, leaving deliberate space on pages40/96; no text or font reduction used to fill it.",
+    "Sampler pixel review is explicitly listed; Drishti independently viewed all35 selected pages and final integrated report remains separately bound.",
+    "No new source research or public derivative-image verification in this task."
+  ]
+}

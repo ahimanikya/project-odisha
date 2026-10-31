@@ -1,0 +1,92 @@
+{
+  "decision": "PASS",
+  "status": "PASS_SEPARATE_AI_DRAFT_AND_SCHEMA_REVIEW",
+  "input_head": "e2ba51e13934daaa5f9dba2b7a3f644ba0467434",
+  "bindings": {
+    "anvesha/article.md": "fa8b5db594e045a4171c9554e6d4b288c356655bc973dc8e7d438f35bc8b6dbd",
+    "anvesha/article.json": "3766c4080a1f5b86880347b7937d8df8994682955e74a7f8d6c9c50a097f2e7e",
+    "anvesha/research.json": "7b2c6119cd609fd0f43aa5c689a6c169cb256e1a2966073617b424a9dfd12a71",
+    "anvesha.json": "03b038f890a0f8a8e09c382aba897ab51a0f5bfa117cb3eee64a558fe4c5a2bb",
+    "samanta/template-report.json": "abfbef7960eec33e206e9b690fc4219832708d9b59705b9694516a52e7ecdb44",
+    "drishti/source-check.json": "41d0171f1bacef7444dc4557f7f2d473755220eea8d6c1ae9247e04d907f807c",
+    "drishti/evidence-risk-review.json": "a3bde2cd52c59af3b32126c82d60f121e4d3f4aad8c96431829a57b8d10a592e"
+  },
+  "checks": {
+    "all_nine_section_paragraphs_plus_lead_exact_markdown_json": true,
+    "five_source_ids_resolve": true,
+    "all_eight_capture_hashes_and_sizes_match": true,
+    "shared_budget_words": 148,
+    "recomputed_budgets": [
+      {
+        "source": "kandhamal-district-sand-survey",
+        "direct": 62,
+        "shared_allowance": 30,
+        "total": 92
+      },
+      {
+        "source": "kui-ciil",
+        "direct": 53,
+        "shared_allowance": 30,
+        "total": 83
+      },
+      {
+        "source": "forest-balliguda2021",
+        "direct": 145,
+        "shared_allowance": 30,
+        "total": 175
+      },
+      {
+        "source": "forest-jica2017",
+        "direct": 141,
+        "shared_allowance": 30,
+        "total": 171
+      },
+      {
+        "source": "kui-primer",
+        "direct": 116,
+        "shared_allowance": 30,
+        "total": 146
+      }
+    ]
+  },
+  "source_verification": [
+    {
+      "source": "district survey",
+      "inspection": "Independently opened original official PDF sections7–7.2 printed7–8. Headquarters, subdivisions and topographic framing supported. No area/distance/community generalizations adopted.",
+      "url": "https://kandhamal.odisha.gov.in/sites/default/files/2023-07/District%20Survey%20Report%20for%20Minor%20Mineral%20Excavation%20%28Sand%29..pdf"
+    },
+    {
+      "source": "CIIL Kui overview",
+      "inspection": "Independently opened original CIIL page; opening language/community association supports limited attributed statement. Population and broad cultural claims excluded.",
+      "url": "https://sanchika.ciil.org/communities/ad651338-c2a2-49ec-ae49-0731c4d175b6"
+    },
+    {
+      "source": "Balliguda and JICA",
+      "inspection": "Prior source-check binds actual viewed Balliguda199 and JICAcover+216–218; selected text198 supports woody climber. Sequence, quality, trade and constraints remain dated and locally attributed. JICA stray turmeric labels excluded.",
+      "evidence": "drishti/source-check.json"
+    },
+    {
+      "source": "Kui Primer",
+      "inspection": "Named roles compared with retained prior reviewed Kui research/editorial records. No new primer retrieval/visual verification claimed; final ledger explicitly retains2026-10-21 inspection."
+    }
+  ],
+  "editorial_findings": [
+    "Concrete work sequence and market pressures provide a distinct district-focused account; brief named-credit connection complements rather than replaces the existing Kui article.",
+    "Routine repeated disclaimers consolidated into notes; important proposal/outcome and fair-pay/sustainability limits retained. Closing compares visibility of roles and names without inventing interviews.",
+    "District, language and community are distinct; no personal link between credited educators and leaf workers inferred. Haladi product/GI depth remains reserved for separate article.",
+    "All prose is attributed paraphrase/editorial reflection; no copied source illustrations or universal contemporary cultural-practice assertions."
+  ],
+  "implementation_requirements": [
+    "Preserve all nine section paragraphs plus lead and five complete substantive notes in visible and portable reading.",
+    "JSON uses plain text for Our Kui introduction; preserve functioning Kui link through further-reading section if no inline-link schema is added.",
+    "Retain shared source IDs kui-ciil/kui-primer and honest prior-inspection date; JICA parts are one publication.",
+    "Recalculate budgets for edits; current all-source totals remain below200."
+  ],
+  "blockers": [],
+  "limits": [
+    "Separate AI review, no human/community consultation or fieldwork.",
+    "Bounded source passages only; not a comprehensive district portrait or current livelihoods survey.",
+    "Prior primer credits reused honestly; no new fluent-speaker review or classroom-outcome verification.",
+    "No canonical/site/Git changes, build, browser, publication or programme credit approved by this draft review."
+  ]
+}

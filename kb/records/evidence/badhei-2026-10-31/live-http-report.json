@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-31T08:21:14.612624+00:00",
+  "origin": "https://projectodisha.org",
+  "candidate_head": "42598e833cb95fffe38704ee90ebe2834c17ab96",
+  "candidate_bindings": {
+    "article_html_sha256": "66006b1a3de5ace92e43e72af609f0a88da95ca5aab8e36a015ab3ff9118964f",
+    "catalog_path": "/assets/journey-data-4001c4f33b0096aae28e3292fcd8551da2bf63718cefcffca40986e0988d0bce.js",
+    "catalog_asset_sha256": "4001c4f33b0096aae28e3292fcd8551da2bf63718cefcffca40986e0988d0bce",
+    "source_json_sha256": "b9066d0c3e1fdded06b8ad1449cd7b198a9c5fa521eee52d63ed205979f1838a"
+  },
+  "checks": {
+    "eight_paragraphs": true,
+    "three_complete_notes": true,
+    "six_unique_refs_and_returns": true,
+    "byline_save_id": true,
+    "robots_noindex_follow": true,
+    "explore_discovery": true,
+    "badhei_portable_payload_exact": true,
+    "all_other_catalog_payloads_exact": 109,
+    "entire_shared_payload_exact": true
+  },
+  "captures": {
+    "article.html": {
+      "url": "https://projectodisha.org/communities/badhei/",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "sha256": "44d2aebfc0179aa04e43aa01ca82e21339cbc157cf3349a2ee7353a84ed8978f",
+      "bytes": 24520
+    },
+    "explore.html": {
+      "url": "https://projectodisha.org/explore/",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "sha256": "059caf46892191a164d401ecd9b03e7737aa273770bd0908ec4ecbd0fd74c23b",
+      "bytes": 245464
+    },
+    "journey-data.js": {
+      "url": "https://projectodisha.org/assets/journey-data-4001c4f33b0096aae28e3292fcd8551da2bf63718cefcffca40986e0988d0bce.js",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "sha256": "4001c4f33b0096aae28e3292fcd8551da2bf63718cefcffca40986e0988d0bce",
+      "bytes": 885180
+    }
+  },
+  "limits": [
+    "HTTP/semantic verification only; browser interaction and actual downloaded-file checks are separately owned by root.",
+    "Shared asset filename is discovered from live HTML; semantic payload compared, no false complete HTML byte identity claim.",
+    "No re-verification of all222 Dhaga delivery assets."
+  ]
+}

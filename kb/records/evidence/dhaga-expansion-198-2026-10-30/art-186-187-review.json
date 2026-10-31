@@ -1,0 +1,53 @@
+{
+  "review_type": "Separate AI actual full-image review",
+  "verdict": "PASS selected artwork; use pixel-accurate alt text below, not the unused brief descriptions",
+  "input_head": "20dae61ffda9e49f76b7522acea8b5e024c7aa19",
+  "bindings": {
+    "art/manifest.json": "86a33964b779cf2d8fdb9413f24c7d1d39ce7556030f8ce087b475135c9db3f8",
+    "anvesha/continuation-brief.json": "79e040ef423d06ec97bbb090ff4c61060410c6e9a5fe9b87252831debbcac32c",
+    "anvesha/source-provenance.json": "c7b2aa795c09d6e0ca266f69d7da75fb5a3f50932636f5acea4527b3bb10efcb",
+    "samanta/entries/POD-DHAGA-186.json": "db1b0ceeb7d0b63ebdbd526627a776b6595c57058f43b2ca0b1532509c2912d7",
+    "samanta/entries/POD-DHAGA-187.json": "b9118920acdd4836917661d6b432b3c52bf4181093ada2f34bb45e76139adc91"
+  },
+  "assets": [
+    {
+      "id": "POD-DHAGA-186",
+      "sha256": "0d3849b2e5f089e94b44c9a16eca544c7b2e9ab5babd8989bfac3f8e989b34cf",
+      "actual_pixels_viewed": true,
+      "decision": "keep",
+      "findings": [
+        "One ordinary adult seen from behind at a forked lane; two closed doors and empty chairs. Arms, hands, legs and feet coherently connected; no obvious extra limbs or distorted joints.",
+        "Black linework with hatching and white space; ordinary clothing and modest buildings do not claim a named historical setting.",
+        "Closed destinations support the imagined lost-opportunities analogy. The image alone does not prove two gatherings occurred, so retain an explicitly imagined caption.",
+        "Departing groups and invitations in the brief are absent. Do not describe them in alt text."
+      ],
+      "suggested_alt": "A person stands at a forked lane facing two closed doors, with empty chairs outside both houses.",
+      "suggested_caption": "An imagined scene: delaying a choice, missing both gatherings."
+    },
+    {
+      "id": "POD-DHAGA-187",
+      "sha256": "0a3b310c42dfe8056973fed804026b160bb491138165800907bbd1b4df1313fc",
+      "actual_pixels_viewed": true,
+      "decision": "keep",
+      "findings": [
+        "A shaggy bear sits with front paws grounded and rear paws visible to either side; four paws are visually distinct and connections plausible under fur.",
+        "Calm animal face, rounded ears and visible claws; no robes, beads, sacred marks, human hands, ritual objects or identifiable practitioner. The ordinary seated posture is not presented as meditation.",
+        "Dense fur hatching remains separated by white areas. Meaning rests on ordinary fur/claws, not an anthropomorphic spiritual claim.",
+        "Seated frontal image differs from requested standing three-quarter pose; this does not weaken the rhetorical contrast, but alt must say seated."
+      ],
+      "suggested_alt": "A calm shaggy bear sits with its front paws on the ground, showing its fur and claws.",
+      "suggested_caption": "Hair and claws do not make a yogi."
+    }
+  ],
+  "blockers": [],
+  "integration_requirements": [
+    "Replace brief alt strings:186 has no invitations or departing people;187 is seated, not standing on four paws.",
+    "Keep contemporary imagined illustration framing and exact source/explanation distinctions.",
+    "Review both images at actual PDF/web display sizes after integration; original pixels alone cannot certify small-size hatching legibility."
+  ],
+  "limits": [
+    "Both actual full PNGs viewed individually through view_image. No historical/documentary authenticity, species identity or human review claimed.",
+    "No canonical edits, new accepted IDs, PDF/site generation or release approval.",
+    "Manifest identifies image tool/source paths but does not contain exact generation prompts; preserve actual tool prompts in final internal provenance rather than treating the differing continuation brief as a verbatim executed prompt."
+  ]
+}

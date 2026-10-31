@@ -1,0 +1,144 @@
+{
+  "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+  "requested_input": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+  "scope": "Three saved lexical resolution leads only; output-only",
+  "skill": "Human Natural Translation read with English/Odia guidance; exact witness separated from editorial application, no invented moral excellence or class judgment.",
+  "baseline": {
+    "entries": 201,
+    "sha256": "f89e028b5b43d66c94a7f99022a1fd636d15cbef917e2e8a66145d6b4ba714cd"
+  },
+  "outcomes": [
+    {
+      "revision": 217462,
+      "locator": "ମଲା noun2",
+      "status": "printed_corruption_resolved_draft_for_review",
+      "exact_printed": "ଏଡ଼େ ମଲାଠେଇଁ ଦିଓଳି ବି ତତଲା ଖିଆ!",
+      "resolution": "Fresh exact DSAL headword lookup identifies6322; actual full scan and native-detail lower-right crop viewed. ବି is not grammatical metadata and final word is ଖିଆ, not guessed ଘିଅ.",
+      "remaining_limit": "No explicit independent proverb-use gloss; draft transparently labels interpretation."
+    },
+    {
+      "revision": 133124,
+      "locator": "ରଙ୍କ noun1",
+      "exact_witness": "ରଙ୍କ ହାତକକୁ ମାଣିକ ଗଲା, ମାଣିକ ବୋଇଲା ମୋ ମହତ ଗଲା",
+      "status": "deferred",
+      "reason": "Targeted exact-context search returned same Wiktionary witness or unrelated results, not independent usage. Unusual ହାତକକୁ and status contempt remain unresolved; do not sanitize as generic wrong owner.",
+      "next_step": "A located printed page can check spelling, but acceptance still needs contextual treatment of the gem’s status judgment; do not repeat same exact web query without a new source."
+    },
+    {
+      "revision": 217981,
+      "locator": "ଭିତରେ sense2",
+      "exact_witness": "କୋଟିଏ ଭିତରେ ଗୋଟିଏ ମଣିଷ ଦେଖିଲିତ ନାହିଁ ଡୋଳେ",
+      "status": "deferred",
+      "reason": "Sense means amongst many; example contains no explicit moral-excellence gloss. Exact phrase search did not recover independent contextual use. Different କୋଟିକେ ଗୋଟିଏ literary usages are not this witness and cannot settle its intended judgment.",
+      "next_step": "Locate this full line within a named work or usage context; no moral-excellence draft until then."
+    }
+  ],
+  "actual_requests": [
+    {
+      "type": "curl DSAL exactମଲା",
+      "result": "First sandbox DNS failure; one authorized network retry succeeded, full HTML saved."
+    },
+    {
+      "type": "curl identified6322scan",
+      "result": "Success; actually viewed full image and detail crop."
+    },
+    {
+      "type": "curl DSAL exactଦିଓଳି",
+      "result": "No results; retained response, no repeated query."
+    },
+    {
+      "type": "targeted web queries",
+      "queries": [
+        "ରଙ୍କ + ମାଣିକ + ମହତ",
+        "କୋଟିଏ ଭିତରେ + ମଣିଷ",
+        "ଦିଓଳି + ତତଲା",
+        "ଏଡ଼େ ମଲାଠେଇଁ"
+      ],
+      "result": "No independent full-line contexts for gem/crore. Rudrakshya lexical context found and opened, lines97–103 author/date and156 meal/fuel paragraph read; short excerpt saved."
+    }
+  ],
+  "dedup": {
+    "exact_phrase_anywhere_in201": {
+      "ଏଡ଼େ ମଲାଠେଇଁ ଦିଓଳି ବି ତତଲା ଖିଆ!": [],
+      "ରଙ୍କ ହାତକକୁ ମାଣିକ ଗଲା, ମାଣିକ ବୋଇଲା ମୋ ମହତ ଗଲା": [],
+      "କୋଟିଏ ଭିତରେ ଗୋଟିଏ ମଣିଷ ଦେଖିଲିତ ନାହିଁ ଡୋଳେ": []
+    },
+    "semantic_notes": [
+      "199/200 also document poverty-linked speech but depict child eagerness and three-birth belief, not hot-meal contrast.",
+      "No exact new-wording match; thematic poverty overlap does not establish identical saying."
+    ],
+    "limits": "Exact comparisons and targeted semantic comparisons, not exhaustive historical variants proof."
+  },
+  "counts": {
+    "processed_positions": 3,
+    "reviewable_drafts": 1,
+    "deferred": 2,
+    "accepted": 0,
+    "programme_credit": 0
+  },
+  "research_map": "Read dated research-map and ran query_research.py Dhaga; no mapped result establishes this interpretation.",
+  "limits": [
+    "No canonical entry/source/ledger/art/Git edits.",
+    "Source12775pending and all historical cursors preserved.",
+    "Scan not for public facsimile reproduction; dictionary text and modern story rights remain distinct.",
+    "No independent fluent-human or specialist review claimed."
+  ],
+  "capture_manifest": [
+    {
+      "path": "captures/context-reading.json",
+      "sha256": "0755cb89cc2ea4cf5dd574a7999c3ed26a7a675931c28378a80d1d205f99f6c0",
+      "bytes": 1015
+    },
+    {
+      "path": "captures/dsal-dioli.html",
+      "sha256": "63063f5361d37371c9109a139ceade28cc95702157a19f6fc557558fcb7f12aa",
+      "bytes": 4049
+    },
+    {
+      "path": "captures/dsal-mala.html",
+      "sha256": "082b8d29d6461c0c1f82d44103d6ef95a9b13c08b4fa9dff5f20788ce9440e29",
+      "bytes": 6949
+    },
+    {
+      "path": "captures/praharaj-6322-noun2.png",
+      "sha256": "748cee05d3d443c394021345249239d230a099fa371f0070275c6bc15bda5108",
+      "bytes": 77057
+    },
+    {
+      "path": "captures/praharaj-6322.jpg",
+      "sha256": "bcfa8200a95fbdd94efc0682a87ee0de7e9af5b0f40409cbb98775f8572ac62d",
+      "bytes": 765918
+    },
+    {
+      "path": "captures/saved-133124.txt",
+      "sha256": "0a243012e956384a9fc27d87eb1911a74d020f05f360c40dda70adc776b81d53",
+      "bytes": 3889
+    },
+    {
+      "path": "captures/saved-217462.txt",
+      "sha256": "ada3c8691319fd63f8d5b559ea3e06df056b345ed70569f758294a91dfc813f9",
+      "bytes": 2503
+    },
+    {
+      "path": "captures/saved-217981.txt",
+      "sha256": "22baf7cae08d9cac1b1d10f443286bfcae1e41fcbdf6fe433436585e0affda9f",
+      "bytes": 2084
+    }
+  ],
+  "candidate_sha256": "83df14dcc6c4051f791b1a2b9d2999c66f340c434c02a8d1fd6e264863e111b8",
+  "review_corrections": [
+    {
+      "fields": [
+        "source_ids",
+        "sources"
+      ],
+      "change": "Added named Rudrakshya contextual source, exact author/URL/paragraph locator and separate rights; not whole-proverb corroboration."
+    },
+    {
+      "fields": [
+        "example"
+      ],
+      "change": "Replaced explanatory reading-group scene with explicitly original imagined quoted use and reply preserving its social sting without treating hot food as proof of false poverty."
+    }
+  ]
+}
