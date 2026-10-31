@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "scope": "Book-only enlargement of Nirad portrait to85percent of text width; no web review or series rollout.",
+  "visual_pages": {
+    "digital": [
+      72,
+      73,
+      74
+    ],
+    "print": [
+      73,
+      74
+    ]
+  },
+  "visual_assessment": [
+    "Top-aligned4:5 crop safely retains hairline, face and shoulders in both editions.",
+    "Caption begins at actual image left edge; numbered credit4 remains attached and legible.",
+    "No clipped text, image distortion or stranded heading on inspected pages.",
+    "Digital opening paragraph divides after two lines; next pages contain coherent sections. Airier digital layout is an enlargement trade-off, not a content defect.",
+    "Print title, portrait, caption and complete opening paragraph fit on73; remaining sections readable on74."
+  ],
+  "scope_checks": {
+    "all41_source_and_book_body_hashes_unchanged": true,
+    "all47_source_image_bindings_unchanged": true,
+    "notes_pairs_image_credit_records_covers_unchanged": true,
+    "geometry_changes_only": [
+      "nirad-mohapatra"
+    ],
+    "digital_dimensions_pt": [
+      295.8,
+      369.75
+    ],
+    "print_dimensions_pt": [
+      285.6,
+      357.0
+    ]
+  },
+  "required_metadata_correction": "Current digital PDF and receipt are223 pages, not the222 stated in handoff; Nirad72–74 and Bhukha75. Print remains246. Coordinator notified.",
+  "blocking_visual_findings": [],
+  "artifacts": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-30-image-trial-large-portrait.pdf",
+      "sha256": "f6fee6511985e6be90a2394e324f8910fd9c3e83bcd5919bf717109ecc2a43e1",
+      "pages": 223,
+      "page_map_stable": true,
+      "receipt": "tmp/pdfs/2026-10-30-image-trial-large-portrait/digital/book-build-2026-10-30-image-trial-large-portrait.json"
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-image-trial-large-portrait.pdf",
+      "sha256": "617e3c372a2e4f484c9e3fdf373e8350222c133165aa1ae7af7330a81926ca95",
+      "pages": 246,
+      "page_map_stable": true,
+      "receipt": "tmp/pdfs/2026-10-30-image-trial-large-portrait/print/book-build-2026-10-30-image-trial-large-portrait.json"
+    }
+  },
+  "limitations": [
+    "Read-only affected-page review, not full-book reproving.",
+    "No browser interactions, source changes, press/PDF-UA certification, human approval or publication."
+  ],
+  "final_rebind": {
+    "caption_experiment": "6pt reduction reverted; original18pt caption spacing restored.",
+    "pixels_rechecked": {
+      "digital": [
+        72
+      ],
+      "print": [
+        73
+      ]
+    },
+    "result": "Visually matches initially reviewed layout: safe crop and alignedcaption; digital opening paragraph splits normally after two lines, print opening paragraph stays whole.",
+    "page_counts": {
+      "digital": 223,
+      "print": 246
+    },
+    "web": "Unchanged; not re-reviewed.",
+    "metadata": "Coordinator updating delivery metadata to actual223digital/246print."
+  }
+}

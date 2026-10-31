@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 904. completed: 151, excluded: 462, queued: 291.
+Route inventory: 913. completed: 151, excluded: 462, queued: 300.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -928,3 +928,12 @@ Route inventory: 904. completed: 151, excluded: 462, queued: 291.
 | POD-EDIT-DHAGA-222-20261031 | [ଅଳଙ୍କାର ମଇଧେ ନିମକାଠି ଥାନେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-222.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-829 | [Badhei: woodworking, obligation and a name](https://projectodisha.org/communities/badhei/) | completed | One new substantive article; search eligibility unchanged;222book and227localpackage preserved. |
 | POD-EDIT-830 | [Kandhamal: leaves, learning and everyday knowledge](https://projectodisha.org/stories/kandhamal/) | completed | One new cultural article; preserve Census utility101, Kui narrative, later Haladi scope, public Dhaga222 and reviewed227package. |
+| POD-EDIT-20261042 | [Kanhu Charan Mohanty: The Household and the Wider World](https://projectodisha.org/people/kanhu-charan-mohanty/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
+| POD-EDIT-20261043 | [Manglu Charan Biswal: Words for the Stage and the Page](https://projectodisha.org/people/manglu-charan-biswal/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
+| POD-EDIT-20261044 | [Bijay Mishra: People, Plays and the Work of Cinema](https://projectodisha.org/people/bijay-mishra/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
+| POD-EDIT-20261045 | [Bijaya Jena: Making a Film, Finding Its Audience](https://projectodisha.org/people/bijaya-jena/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
+| POD-EDIT-20261046 | [Lipika Singh Darai: Listening Beyond the Performance](https://projectodisha.org/people/lipika-singh-darai/) | queued | New filmmaker profile in the local cinema expansion; publication separately pending |
+| POD-EDIT-20261047 | [Pramod Pati: A Room for Experiment](https://projectodisha.org/people/pramod-pati/) | queued | New filmmaker profile in the local cinema expansion; publication separately pending |
+| POD-EDIT-20261048 | [Bijay Mohanty: Learning a Role, Sharing a Craft](https://projectodisha.org/people/bijay-mohanty/) | queued | New filmmaker profile in the local cinema expansion; publication separately pending |
+| POD-EDIT-20261049 | [Uttam Mohanty: The Work Beside the Performance](https://projectodisha.org/people/uttam-mohanty/) | queued | New actor profile in the local cinema expansion; publication separately pending |
+| POD-EDIT-20261050 | [Aparajita Mohanty: Helping a Film Take Shape](https://projectodisha.org/people/aparajita-mohanty/) | queued | New actor and producer profile in the local cinema expansion; publication separately pending |

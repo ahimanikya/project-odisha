@@ -23,7 +23,7 @@ test('manifest canonical articles preserve notes, captions and source hashes',()
  }
 });
 test('children sections and Watch links promoted exactly once',()=>{for(const [slug,heading,note]of [['odia-cinema','Children, imagination and the screen','children-babula-parliament'],['odia-television','Animation, and the language a child hears','child-idmt']]){const entry=cinema.articles.find(e=>e.slug===slug),source=fs.readFileSync(path.join(root,entry.source),'utf8');assert.equal(source.split('## '+heading).length-1,1);assert.equal(source.split('[^'+note+']:').length-1,1);assert.ok(cinemaArticle(entry).article.html.includes(heading));}});
-test('books staged byte-exact and no source-sized hero PNGs deployed',()=>{for(const book of cinema.books){assert.equal(hash(fs.readFileSync(path.join(site,'public',book.file))),book.sha256);const delivery=JSON.parse(fs.readFileSync(path.join(root,'kb/records/cinema-book-disclosure-fix-2026-10-26.json'),'utf8'));const reviewed=Object.values(delivery.outputs).find(output=>path.basename(output.path)===path.basename(book.file));assert.ok(reviewed);assert.equal(book.sha256,reviewed.sha256);}const deployed=fs.readdirSync(path.join(site,'public/assets/cinema'));assert.ok(!deployed.some(f=>f.endsWith('.png')));});
+test('books staged byte-exact and no source-sized hero PNGs deployed',()=>{for(const book of cinema.books){assert.equal(hash(fs.readFileSync(path.join(site,'public',book.file))),book.sha256);const delivery=JSON.parse(fs.readFileSync(path.join(root,'kb/records/cinema-book-disclosure-fix-2026-10-26.json'),'utf8'));const reviewed=Object.values(delivery.outputs).find(output=>path.basename(output.path)===path.basename(book.file));assert.ok(reviewed);assert.equal(book.sha256,reviewed.sha256);}const deployed=fs.readdirSync(path.join(site,'public/assets/cinema'));const drawings=cinemaNarrative.line_art.map(item=>path.basename(item.public_image));assert.deepEqual(deployed.filter(f=>f.endsWith('.png')).sort(),drawings.sort());});
 test('player logic source-identical, scoped styling, explicit frame policy',()=>{for(const name of ['app.js','core.js','catalogue.js'])assert.equal(fs.readFileSync(path.join(site,'public/assets/cinema/player',name),'utf8'),fs.readFileSync(path.join(root,'outputs/odia-movie-player',name),'utf8'));const app=fs.readFileSync(path.join(site,'public/assets/cinema/player/app.js'),'utf8');assert.ok(app.includes("frame.referrerPolicy='strict-origin-when-cross-origin'"));assert.ok(!app.includes('innerHTML'));const css=fs.readFileSync(path.join(site,'public/assets/cinema/player/player.css'),'utf8');assert.ok(css.includes('.cinema-player'));const page=fs.readFileSync(path.join(site,'src/pages/cinema/watch.astro'),'utf8');assert.ok(!page.includes('<iframe'));assert.equal((page.match(/is:inline defer/g)||[]).length,3);});
 
 test('cinema delivery preserves responsive JPEGs and release PDF URLs',()=>{
@@ -53,10 +53,10 @@ test('documentary hero promotes an existing body photograph once with escaped li
  entry.hero={kind:'documentary',alt:'Nirad portrait',caption:'Full portrait <not markup>',credit:{creator:'Photographer & archive',source_url:'https://commons.wikimedia.org/wiki/File:Portrait.jpg?a=1&b=2',license:'CC BY-SA 4.0',license_url:'https://creativecommons.org/licenses/by-sa/4.0/',notes:'Uncropped <original>'}};
  const html=cinemaArticle(entry).fullHTML;
  assert.equal((html.match(/<figure\b/g)||[]).length,1);
- for(const expected of ['Full portrait &lt;not markup&gt;','Photographer &amp; archive','Uncropped &lt;original&gt;','a=1&amp;b=2','>Source</a>','>CC BY-SA 4.0</a>'])assert.ok(html.includes(expected),expected);
+ for(const expected of ['Full portrait &lt;not markup&gt;','Photographer &amp; archive','Uncropped &lt;original&gt;','a=1&amp;b=2','>Source</a>','>CC BY-SA 4.0</a>'])assert.ok(html.replace(/<span class="cinema-citation-tail">([\s\S]*?)<\/span>/g,'$1').includes(expected),expected);
  assert.ok(!html.includes('<not markup>'));
  entry.hero.credit.source_url='javascript:alert(1)';assert.throws(()=>cinemaArticle(entry),/requires HTTPS/);
- const naturalWidth=Math.min(photo.width,600*photo.width/photo.height);assert.ok(html.includes(`--cinema-figure-width:${naturalWidth}px`));assert.equal(naturalWidth/photo.width*photo.height,600);
+ assert.ok(html.includes('--cinema-figure-width:380px;--cinema-image-ratio:4 / 5'));assert.ok(html.includes('--cinema-image-position:50% 0%'));assert.ok(html.includes('Display crop.'));
 });
 
 
@@ -127,8 +127,9 @@ test('overview national awards preserve column relationships, row citations and 
  assert.ok(region);assert.ok(region[1].includes('tabindex="0"'));assert.ok(region[1].includes('role="region"'));assert.ok(region[1].includes('aria-labelledby="national-awards-caption"'));
  assert.ok(region[2].includes('<caption id="national-awards-caption">Selected National Film Awards in this series — award years, not release dates</caption>'));
  assert.deepEqual([...region[2].matchAll(/<th scope="col">([\s\S]*?)<\/th>/g)].map(m=>m[1]),['Film','Recognition','Award year and edition','Filmmakers to explore']);
- const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,7);
+ const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,8);
  assert.ok(region[2].includes("Lahari"));
+ assert.ok(region[2].includes("Tara"));assert.ok(region[2].includes("/people/bijaya-jena/"));
  for(const row of rows){assert.ok(row.includes('scope="row"'));assert.ok(/data-footnote-ref|href="#fn/.test(row),'award row retains source citation');}
  assert.equal((html.match(/id="national-awards-caption"/g)||[]).length,1);
  for(const other of cinema.articles.filter(a=>a.slug!=='odia-cinema'))assert.ok(!cinemaArticle(other).fullHTML.includes('national-awards-caption'),other.slug+' table remains unchanged');
@@ -149,14 +150,14 @@ test('reading order is coherent across parts, callbacks preserve citations, imag
  }
 });
 
-test('author introduction precedes overview and preserves the expanded collection',()=>{
- const first=cinema.articles[0];assert.equal(first.slug,'the-question-that-brought-me-here');assert.equal(cinema.articles[1].slug,'odia-cinema');assert.equal(cinema.parts.length,7);assert.equal(cinema.parts[0].chapters[0],first.slug);assert.equal(first.hero.kind,'author-portrait');assert.equal(first.images[0].original_sha256,hash(fs.readFileSync(path.join(root,first.hero.path))));
+test('author introduction leads to literature and preserves the expanded collection',()=>{
+ const first=cinema.articles[0];assert.equal(first.slug,'the-question-that-brought-me-here');assert.equal(cinema.articles[1].slug,'literature-and-screen');assert.equal(cinema.parts[2].chapters[0],'odia-cinema');assert.equal(cinema.parts.length,7);assert.equal(cinema.parts[0].chapters[0],first.slug);assert.equal(first.hero.kind,'author-portrait');assert.equal(first.images[0].original_sha256,hash(fs.readFileSync(path.join(root,first.hero.path))));
  const out=cinemaArticle(first);assert.ok(out.article.html.includes('How could I help put money in writers’ pockets?'));assert.ok(out.readingLinks.some(link=>link.href==='/cinema/odia-cinema/'));assert.ok(!out.fullHTML.includes('Portrait supplied by Ahimanikya Satapathy; watercolor treatment.'));assert.ok(!out.fullHTML.includes('Image credit'));assert.ok(first.hero.alt.includes('watercolor-treated'));
 });
 
-test('current review books match the reviewed release manifest and retain both archives',()=>{
- const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-readiness-20261030/book-release-manifest.json'),'utf8'));
- assert.equal(manifest.edition_date,'2026-10-30');assert.equal(manifest.readings,41);
+test('current review books match the reviewed release manifest and retain all earlier editions',()=>{
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-20261031/book-release-manifest.json'),'utf8'));
+ assert.equal(manifest.edition_date,'2026-10-31');assert.equal(manifest.readings,50);
  assert.equal(cinema.review_books.length,2);const releaseBases=new Set();
  for(const b of cinema.review_books){
   const reviewed=manifest.assets.find(a=>a.edition===b.edition);assert.ok(reviewed,b.edition);
@@ -166,13 +167,17 @@ test('current review books match the reviewed release manifest and retain both a
   assert.equal(path.posix.basename(url.pathname),reviewed.filename);releaseBases.add(path.posix.dirname(url.pathname));
  }
  assert.equal(releaseBases.size,1);
+ assert.equal(cinema.review_books.find(b=>b.edition==='digital').pages,254);assert.equal(cinema.review_books.find(b=>b.edition==='print').pages,282);
+ assert.equal(cinema.archived_review_books.length,4);
+ assert.equal(new Set([...cinema.review_books,...cinema.archived_review_books].map(b=>b.file)).size,6);
  const page=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');
- assert.ok(page.includes('Available PDF edition · 30 October 2026'));assert.ok(page.includes('41 readings'));
- for(const date of ['27 October 2026','26 October 2026'])assert.ok(page.includes('Earlier published edition · '+date));
+ assert.ok(page.includes('Available PDF edition · 31 October 2026'));assert.ok(page.includes('50 readings'));
+ for(const date of ['30 October 2026','27 October 2026','26 October 2026'])assert.ok(page.includes('Earlier published edition · '+date));
  for(const archived of manifest.expected_previous_review_books){
   assert.ok(page.includes('href="'+archived.file+'"'));assert.ok(!cinema.review_books.some(b=>b.file===archived.file));
   assert.deepEqual(cinema.archived_review_books.find(b=>b.file===archived.file),archived);
  }
+ for(const archived of cinema.archived_review_books)assert.ok(page.includes('href="'+archived.file+'"'));
  for(const name of ['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'])assert.ok(page.includes('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/'+name));
  assert.ok(page.includes('cinema.review_books.map'));assert.ok(page.includes('not a printer-specific press-ready PDF'));assert.ok(page.includes('not tagged accessibility editions'));
 });
@@ -193,7 +198,7 @@ test('image attributions continue the regular source-note sequence with matching
   assert.equal(new Set(sourceIds).size,sourceIds.length);
   for(const [,caption]of html.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g))assert.ok(!/>\s*(?:Photo credit|Image credit)\s*</.test(caption));
  }
- assert.equal(total,19,'all required image attributions retained in regular notes');
+ assert.equal(total,23,'all required image attributions retained in regular notes, including Bijay Mohanty');
 });
 
 test('overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition',()=>{
@@ -204,7 +209,7 @@ test('overview keeps performer profiles, dated scoped counts and music ahead of 
  assert.ok(html.indexOf('The songs people carried home')<html.indexOf('Actors whose journeys crossed languages'));
  const table=[...html.matchAll(/<table>([\s\S]*?)<\/table>/g)].map(m=>m[1]).find(t=>t.includes('Reported estimate'));
  assert.ok(table);assert.equal((table.match(/<tbody>[\s\S]*<\/tbody>/)?.[0].match(/<tr>/g)||[]).length,9);
- assert.ok(table.includes('language breakdown unspecified'));
+ assert.ok(table.replace(/<[^>]+>/g,'').includes('language breakdown unspecified'));
  assert.ok(table.includes('Hindi film Naya Zahar named'));
  for(const note of ['performer-bijay','performer-aparajita-production','count-siddhanta','music-chitta-collaboration'])assert.ok(html.includes(`id="user-content-fn-${note}"`));
 });
@@ -223,4 +228,8 @@ test('publication scope includes every current cinema reading and complete image
    assert.ok(fs.existsSync(path.join(site,'public',image.file)),entry.slug+' complete image exists');
   }
  }
+});
+
+ test('purposeful line drawings appear once without replacing article images',()=>{
+ const ids=new Set();for(const item of cinemaNarrative.line_art){assert.ok(!ids.has(item.id));ids.add(item.id);const entry=cinema.articles.find(a=>a.slug===item.slug);const html=cinemaArticle(entry).fullHTML;assert.equal(html.split('data-line-art="'+item.id+'"').length-1,1);assert.equal((html.match(/<figure\b/g)||[]).length,entry.images.length);assert.equal(hash(fs.readFileSync(path.join(root,item.image))),hash(fs.readFileSync(path.join(site,'public',item.public_image))));}
 });

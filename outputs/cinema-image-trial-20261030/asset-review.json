@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-30",
+  "scope": "Read-only five-page original-asset review; no media edits/new downloads. Six original assets visually inspected (intro, Nirad, AKBir, literature, stamp, book sheet); Parbati conceptual hero dimensions inventoried only.",
+  "assets": [
+    {
+      "slug": "the-question-that-brought-me-here",
+      "source": "kb/research/media/cinema-book/ahimanikya-satapathy-portrait.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "49b203a4c68f277d80b5e3204fcf73175d74576dd6f24a26d4ebb4736457d616",
+      "provenance": [
+        "/assets/cinema/author-introduction-provenance.json"
+      ],
+      "hero_credit": null
+    },
+    {
+      "slug": "literature-and-screen",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/literature-and-screen.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "bc0055b9805184e77133810af4a54d94d6adcab3eb5f3ffdfa37cf0a868ef948",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ],
+      "hero_credit": null
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/media/cinema-series/parbati-ghose-title.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "738b007cd0b81b5a202cc036a62a2a05733d47362c49404b6f1b51156244b5d6",
+      "provenance": [
+        "/assets/cinema/parbati-ghose-title-documentary-media.json",
+        "/assets/cinema/parbati-ghose-title-illustrations.json"
+      ],
+      "hero_credit": null
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/media/cinema-series/additions/parbati-ghose-india-post-2023.jpg",
+      "dimensions": [
+        344,
+        461
+      ],
+      "sha256": "aab230e5b432bec75ac0b74c456b83e44ce596092bae515ff71023f0c79c2a22",
+      "provenance": [
+        "/assets/cinema/parbati-ghose-documentary-1-provenance.json"
+      ],
+      "hero_credit": null
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/media/cinema-series/chha-mana-atha-guntha-opening.png",
+      "dimensions": [
+        918,
+        1188
+      ],
+      "sha256": "31992a6c8a8f68bd394d5d454235b3709c34d1a0ce45bba829b24f674171420f",
+      "provenance": [
+        "/assets/cinema/parbati-ghose-documentary-2-documentary-media.json",
+        "/assets/cinema/parbati-ghose-documentary-2-illustrations.json"
+      ],
+      "hero_credit": null
+    },
+    {
+      "slug": "nirad-mohapatra",
+      "source": "kb/research/media/cinema-series/nirad-mohapatra-raj-sampad.jpg",
+      "dimensions": [
+        1728,
+        2574
+      ],
+      "sha256": "d20471c5457cd46f08f29b9aad63cd340ac9ef1a504a5e279581ea7b53682697",
+      "provenance": [
+        "/assets/cinema/maya-miriga-documentary-1-documentary-media.json",
+        "/assets/cinema/maya-miriga-documentary-1-illustrations.json"
+      ],
+      "hero_credit": {
+        "creator": "Raj Sampad",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nirad_Mohapatra_-_Filmmaker.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notes": ""
+      }
+    },
+    {
+      "slug": "ak-bir",
+      "source": "kb/research/media/cinema-series/portraits-2026-10-26/ak-bir-iffi-2015.jpg",
+      "dimensions": [
+        2200,
+        1041
+      ],
+      "sha256": "d29ff9e8f692f5ddb268c0cbd00643146b5a3a449a7e02b7c378dfb9eb995351",
+      "provenance": [],
+      "hero_credit": {
+        "creator": "Ministry of Information and Broadcasting, Government of India",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Shri_A.K_Bir,_Shri_Parambrata_Chatterjee,_Shri_Suman_Ghosh_and_Ms._Asha_Achy_Joseph_addressing_a_press_conference,_at_the_46th_International_Film_Festival_of_India_(IFFI-2015),_in_Panaji,_Goa_on_November_25,_2015.jpg",
+        "license": "Government Open Data License–India",
+        "license_url": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+        "notes": ""
+      }
+    }
+  ],
+  "recommendations": {
+    "nirad-mohapatra": {
+      "display_ratio": "4:5",
+      "object_position": "50% 0%",
+      "crop_box_original_pixels": [
+        0,
+        0,
+        1728,
+        2160
+      ],
+      "rationale": "Hair already touches original top edge. Top alignment preserves head; remove414px lower torso. Default center crop would remove207px at top and cut scalp. Keep original1728×2574 accessible/retained.",
+      "credit": "Raj Sampad / Wikimedia Commons / CC BY-SA4.0; disclose display crop in image credit or linked provenance, preserve licence/source."
+    },
+    "ak-bir": {
+      "display": "Full2200×1041 natural ratio; no crop.",
+      "rationale": "Five visible panellists with four named by source. Do not turn into solo portrait or omit other panellists. Keep event/date and government source/GODL attribution."
+    },
+    "the-question-that-brought-me-here": {
+      "display": "Full600×600 square, modest portrait size, no crop.",
+      "rationale": "Watercolour-treated user-supplied portrait, not untreated documentary photo or independently CC licensed. Original painterly margins integral; retain."
+    },
+    "literature-and-screen": {
+      "display": "Full1536×1024 natural3:2.",
+      "rationale": "Left book and right storyboard both support adaptation concept; aggressive portrait crop loses one half. Conceptual illustration, not archival still."
+    },
+    "parbati-ghose": {
+      "stamp": "Full344×461, no crop/perforation removal; prefer172–230CSSpx modest object. At344CSSpx only1xresolution. Never call it a film poster or ordinary photograph.",
+      "sheet": "Full918×1188, no crop; preserves opening chapter and margins. Reader can open original for text.",
+      "credits": "Stamp: India Post/Government of India, GODL, Commons link. Book-page rendering: Srujanika/NIT Rourkela digitisation, CommonsCC0 as retained record; caption says PDFpage4. Keep existing qualifiers; no new rights adjudication."
+    }
+  },
+  "limits": [
+    "No crop rendered or destructive edit performed. CSS top-aligned recommendation derives from source geometry and direct inspection.",
+    "Existing licences/provenance reused; external rights sources were not freshly re-verified.",
+    "Layout sharpness must be judged at actual trial display sizes."
+  ]
+}

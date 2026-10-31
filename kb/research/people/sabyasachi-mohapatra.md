@@ -15,9 +15,9 @@ hero_image: "../media/odia-cinema/sabyasachi-mohapatra.jpg"
 
 By Ahimanikya Satapathy
 
-In a 2022 interview, **Sabyasachi Mohapatra** described learning through discussions with his cinematographer son, even when their ideas about an image differed.[^interview] The exchange offers a way into his career: a director rooted in western Odisha’s stories, still working out how to tell them with another generation.
+In a 2022 interview, **Sabyasachi Mohapatra** described learning through discussions with his cinematographer son, even when their ideas about an image differed.[^interview] A director rooted in western Odisha’s stories was still working out how to tell them with another generation.
 
-Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods, musical world and international recognition. The director’s wider profile follows the collaborations around such films.
+Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods, musical world and international recognition. Here, the discussion with his son brings those collaborations close to home.
 
 ![Sabyasachi Mohapatra seated at the Odisha State Film Awards](../media/odia-cinema/sabyasachi-mohapatra.jpg)
 
@@ -27,15 +27,13 @@ Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follo
 
 In a 2022 interview, Mohapatra recalled *Bhukha* reaching audiences across western and coastal Odisha. He also described promotion as a separate expense.[^interview] Making a film and bringing it to viewers are connected undertakings.
 
-That problem belongs beside the creative achievement. A local story does not reach viewers merely because it has been made. Distribution, publicity and the places where people can watch it help determine whether the conversation continues.
+A completed film still needed publicity and places to be seen. Mohapatra’s recollection keeps that expense beside the work of making it.
 
 Mohapatra also argued that art films and mainstream films could coexist.[^interview] His account leaves room for different audiences and ambitions within the same film culture.
 
 ## The names beside the director
 
 *ଆଦିମ ବିଚାର (Aadim Vichar)* offers a later point of entry. Its Indian Panorama credits name **Kapileswar Prasad Mohapatra** for the story, **Kumar C. Dev Mohapatra** for cinematography, **Rajendra Mohapatra** for editing, and **Pankaj Jal and Ghasiram Mishra** for music. Sabyasachi wrote the screenplay and directed.[^panorama]
-
-A director’s profile can make those relationships visible. Writing supplies a story; performance gives it people; photography, editing and music give it duration, space and rhythm. Recognition of the director need not hide the work around him.
 
 ## What the national award recognises
 
@@ -45,7 +43,7 @@ Our [film companion](../culture/cinema-series/aadim-vichar.md) considers its enc
 
 ## A regional world, with room for difference
 
-These films invite a more particular way of reading Odisha’s cinema. Language, location and collaborators matter; “regional cinema” need not mean one uniform experience. Viewers can follow a filmmaker across works while still asking whose voice leads each story, who performs it and who gets to see it.
+The discussion with his son returns us to a work still taking shape. Regional rootedness can coexist with disagreement over an image—and with a filmmaker’s willingness to keep learning.
 
 ## Footnotes & Sources
 

@@ -21,7 +21,7 @@ For someone arriving through Odia cinema, the title may first suggest Mrinal Sen
 
 In his retrospective account of Panigrahi, Subash Nayak traces a circle of Ravenshaw students associated with the Nonsense Club and the Sabuja writers. A handwritten magazine, *Abakash*, later became *Shakti Sadhana*. Among the writers he names are Panigrahi, Annada Shankar Ray, Baikunthanath Pattnaik, Sarat Chandra Mukherjee and Harihar Mohapatra.[^circle]
 
-The handwritten magazine is a particularly approachable part of this history. Before a literary circle becomes a subject in a history book, there is work to gather and something to put before other readers. The magazine gives that shared undertaking a concrete form.
+A handwritten magazine makes this literary circle feel close: friends gathering work and putting it before one another. The shared page preceded the place these names would occupy in literary history.
 
 Penguin describes the Sabuja movement through its Romanticism and inspiration from Tagore.[^penguin] That description offers a starting point for exploring the circle. The individual poems and stories still invite their own encounters: a reader can follow a writer’s name from the movement into a particular work, and discover what holds their attention there.
 
@@ -43,7 +43,7 @@ The dates make a useful pause in a cinema-centred journey: this Assamese edition
 
 Sen’s filmography identifies *ମାଟିର ମଣିଷ (Matira Manisha)* as his 1966 Odia film. It credits Panigrahi with the story, Sen with screenplay and direction, and Chayabani as producer. Its synopsis describes the brothers’ different attitudes towards inherited land and the pressures of the agrarian economy.[^film]
 
-Those credits let the novelist and filmmaker remain visible together. A story has reached another form, with a screenplay, a director and a producing organisation. The [literature and cinema reading](../culture/cinema-series/literature-and-screen.md) places this collaboration beside other writers’ journeys to the screen.
+The brothers’ inheritance becomes a question for another art. Sen’s film and screenplay enter a world Panigrahi had made in prose; the disagreement over land remains something people must live through.
 
 For a reader who can reach both book and film, the family offers a manageable point of comparison. Follow one disagreement: what does the prose let you know, and what does the screen ask you to notice? The question leaves room for each work to make its own impression.
 
@@ -51,7 +51,7 @@ For a reader who can reach both book and film, the family offers a manageable po
 
 An Odia reader can look for Black Eagle Books’ 2022 edition of *Matira Manisha*.[^works] In English, Penguin’s *Salt of the Earth* appeared in May 2022, translated by K. K. Mohapatra, Leelawati Mohapatra and Paul St-Pierre.[^penguin] Niyogi Books offers *Born of the Soil*, translated by Bikram Das.[^niyogi] For a wider introduction to the writer, the Sahitya Akademi lists Madhusudan Pati’s monograph *Kalindi Charan Panigrahi*, first published in 2001.[^monograph]
 
-There is no need to begin with a complete bibliography. Choose a book, keep the edition and translator’s name close, and follow the questions it raises. The film can remain part of that journey, alongside a writer whose work gives us more than one place to enter.
+The brothers remain a place to begin. Land can pass from one generation to another; so can a story about what it means to share it. Through Odia, Assamese, English and cinema, different readers and viewers can enter that unsettled household.
 
 ## Footnotes & Sources
 

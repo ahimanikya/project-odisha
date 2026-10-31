@@ -21,7 +21,7 @@ One name in the credits invites a second look: **Shrabani**.
 
 In the published credits for *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*, Parbati Ghose appears as producer, director and performer. The screenplay and dialogue are credited to Shrabani, identified there as Parbati Ghose. The archive dates this adaptation of Fakir Mohan Senapati’s novel to 1986.[^adaptation]
 
-Those entries ask us to look beyond the familiar photograph of an actress. They place her in the decisions that turn a literary work into a screen production: what to retain, how to organise it, how it should sound, and how it can be made.
+Parbati was both shaping the adaptation and performing within it. Writing, producing and acting met in the same working life.
 
 ![Parbati Ghose on an India Post commemorative stamp](../../media/cinema-series/additions/parbati-ghose-india-post-2023.jpg)
 
@@ -53,19 +53,19 @@ The weavers’ place in this literary world gives a reader a starting point for 
 
 In the adaptation, Parbati played Saria, Bijay Mohanty played Bhagia and Sarat Pujari played Mangaraj. The archive names Ashok Swain for camera, Tapas Mukherjee for editing and Prafulla Kar for music.[^adaptation]
 
-These credits give the relationship between literature and film a concrete form. A novel’s words must meet actors’ voices, images, cuts and music. Adaptation is a sequence of artistic decisions made by several people, even where one filmmaker carries unusually broad responsibility.
+Parbati’s Saria belongs to that ensemble: a weaver from the novel given a voice and presence alongside Bhagia and Mangaraj.
 
 ## Beyond the feature film
 
 The archive also follows Parbati through television, radio drama, literacy work and films for public institutions. Its biography credits her with *Salabeg* for Films Division. It also identifies *Pratibha* as a television adaptation of Harekrushna Mahtab’s novel. These extend the literary connection beyond her better-known Fakir Mohan adaptation.[^life]
 
-Her work in shorter forms belongs within the history too. A film made for television or a public programme can involve writing, performance and production skills even when it attracts less retrospective attention than a theatrical feature. The archive records her death on **12 February 2018**.[^life]
+Television and public programmes were also part of her working life. The archive records her death on **12 February 2018**.[^life]
 
 ## The work within the recognition
 
 The archive records national recognition for *Laxmi*, *Kaa* and *Stree* as film honours.[^awards]
 
-Returning to the credits brings the work into view: Parbati helped carry stories from a page to a production, while making room for other artists’ contributions. Her career invites us to stay with those shared decisions as well as the performance we see.
+Shrabani’s screenplay and Parbati’s Saria bring us back to the same woman: writing the adaptation and taking her place among its performers.
 
 ## Watch and explore
 

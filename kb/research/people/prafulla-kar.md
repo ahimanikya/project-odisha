@@ -16,7 +16,7 @@ By Ahimanikya Satapathy
 
 Pranab Patnaik remembered a birthday request. At a celebration for Prafulla Kar at Rabindra Mandap, Kar asked him to sing his compositions “Majhire” and “Re Atman.” Recalling their long friendship after Kar’s death, Patnaik kept that occasion among his memories.[^remembrance]
 
-A composer asking a friend to sing gives this musical life an intimate point of entry. The songs had a place in a working relationship, and the relationship could return through a song. [Pranab’s story](pranab-patnaik.md) belongs beside Kar’s: one voice carrying another musician’s composition, with years of shared work behind it.
+In [Pranab’s story](pranab-patnaik.md), a song could recall years of working with its composer. Here it was also a request from a friend.
 
 ## A singer who made music for others
 
@@ -28,11 +28,11 @@ His work also reached the microphone through All India Radio and Doordarshan. Th
 
 In *Mamata*, “Re Mita Aa Sangata” names Pranab Kishore Patnaik and Sikandar Alam among its singers, with Kar as music director and Sibabrata Das as lyricist.[^mamata] “Dekhi Se Banamalli” brings Chitta Jena and P. Susheela together, again with Kar’s music and Das’s words.[^banamalli]
 
-A third song, “Mu Ta Manisha Marini,” gives Sikandar Alam the singer’s credit, Kar the music-direction credit and Sibabrata Das the lyric credit.[^mu-ta] The repeated names hold the soundtrack together while the combinations change. A listener can follow the composer across the songs, or stay with a singer and hear how that voice belongs within the larger work.
+A third song, “Mu Ta Manisha Marini,” gives Sikandar Alam the singer’s credit, Kar the music-direction credit and Sibabrata Das the lyric credit.[^mu-ta] Kar and Das worked across these changing combinations of voices.
 
 ## Hearing the composer sing
 
-Kar’s own voice offers another route. The distributed soundtrack listing for *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)* credits him as composer and main artist for “Kali Kapali.”[^kali] Here the person shaping the music is also named as its performer.
+The distributed soundtrack listing for *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)* credits him as composer and main artist for “Kali Kapali.”[^kali] 
 
 His musical range also included compositions for Odissi dance dramas.[^career] Film, broadcast and dance place music in different relationships with words, performers and an audience. The [AIR Cuttack reading](../culture/air-cuttack.md) follows one of those wider settings, where a song could have a life beyond its place in a film.
 

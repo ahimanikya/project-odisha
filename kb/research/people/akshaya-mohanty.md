@@ -16,15 +16,13 @@ By Ahimanikya Satapathy
 
 “Khoka Bhai” is a name with room for affection: Akshaya Mohanty remembered with the familiarity of a brother.[^name] It offers a way into his work, through the kinds of company a song can invite—a teasing answer, a shared refrain, words that leave space for another voice.
 
-With Mohanty, that company includes other singers, writers and filmmakers. Following those relationships takes us beyond a list of hits. It brings us to the words a composer chooses to notice, the space left for another voice, and the work of keeping a song available after its first audience has gone.
+His songs also lead to writers, fellow singers and a historian he encouraged to search old newspapers. Their recollections bring the musician into company.
 
 ## The pleasure of an answer
 
 One useful way to approach his *rasika pana* is through the pleasure of exchange: affection, teasing, a question and a quick reply. Flirtation can be part of that world without explaining all of it. Humour also depends on timing and on allowing the other person an answer.
 
 In a public caption headed “ଲୋକସ୍ୱର ଛାଞ୍ଚ”, film historian Surya Deo discusses a duet by Akshaya Mohanty and **Trupti Das**, with lyrics by **Sirshananda Das Kanungo**. Deo draws attention to a folk-shaped pattern of question, answer and retort, and to a simple, expressive delivery.[^folk-exchange] His account directs attention to something shared: the lyric creates an exchange, and two singers carry it.
-
-This gives a listener a precise question to take to a recording. How does one phrase make room for the next? A teasing line can invite laughter, but it can also depend on recognition of an everyday expression or relationship.
 
 ## From a voice in a film to making its music
 
@@ -40,7 +38,7 @@ The song catalogue for **ଯାଯାବର (Jajabara, 1975)** gives another sma
 
 Lyricist **Devdas Chhotray** remembers Mohanty’s pleasure in words, wit and repartee. He also recalls a book of Ghalib beside Mohanty’s bed—and buying his own copy at Cuttack railway station.[^devdas] That small journey from one reader’s bedside to another reader’s hands belongs beside the story of their songs.
 
-Mohanty also wrote beyond the immediate demands of a film. Shyamanuja Das’s study discusses collections including *Ei Katha Rahila* (1962), *Geeti* (1968) and *Madhushala* (2001), the last edited by **Renubala Mishra**. Das describes the four pieces on the 1984 album *Kalankita Nayaka* as written, composed and sung by Mohanty.[^writing] The books and recordings offer different routes into the same working life. They invite attention to the writer as well as the voice.
+Mohanty also wrote beyond the immediate demands of a film. Shyamanuja Das’s study discusses collections including *Ei Katha Rahila* (1962), *Geeti* (1968) and *Madhushala* (2001), the last edited by **Renubala Mishra**. Das describes the four pieces on the 1984 album *Kalankita Nayaka* as written, composed and sung by Mohanty.[^writing] The singing and the writing were both part of his work.
 
 ## A musician who sent a historian to the newspapers
 
@@ -52,7 +50,7 @@ The advice has a practical generosity. A newspaper may preserve something that m
 
 A 2016 Prasar Bharati archive announcement described *Punyara Nadi Tire*: thirty-five Akashvani Cuttack recordings of Mohanty spanning four decades.[^archive] His preserved work therefore reaches beyond film soundtracks into broadcasting, another setting in which a voice could meet its listeners.
 
-The possibility ahead is modest and meaningful. Let readers find a recording with its singer, lyricist and composer named. Let a young musician encounter the words as well as the tune, and let listeners follow Trupti, Geeta, Pranab or Binodini towards work of their own. A living language needs room for new songs, too. Keeping these earlier exchanges within reach can offer companionship and questions to those making the next ones.
+A recording kept within reach can still bring people together: a listener returning to a familiar voice, or a musician discovering words to carry into a new performance. Trupti, Geeta, Pranab and Binodini belong beside Mohanty in that continuing company.
 
 <span id="listen-and-explore"></span>
 

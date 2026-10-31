@@ -1,0 +1,91 @@
+{
+  "id": "POD-CINEMA-PUBLICATION-20261031",
+  "status": "publication_in_progress",
+  "started_at": "2026-10-31T14:21:48.312250+00:00",
+  "authorization": {
+    "actor": "Ahimanikya Satapathy",
+    "request": "Publish",
+    "date": "2026-10-31",
+    "scope": "Reviewed 50-reading cinema series and aligned digital and printable editions"
+  },
+  "active_article": null,
+  "scope": "Release integration of already-reviewed readings; no new article research",
+  "baseline_commit": "680ea31a",
+  "book_manifest": "outputs/cinema-publication-20261031/book-release-manifest.json",
+  "workers": {
+    "Anvesha": {
+      "scope": "Read-only payload and source audit",
+      "write_scope": [
+        "outputs/cinema-publication-20261031/source-release-audit.json"
+      ],
+      "status": "completed"
+    },
+    "Samanta": {
+      "scope": "Current book page and focused tests",
+      "write_scope": [
+        "projects/site/src/pages/cinema/book.astro",
+        "projects/site/tests/cinema-release.test.mjs",
+        "projects/site/tests-coast/cinema-reading-ux.test.mjs",
+        "outputs/cinema-publication-20261031/book-page-implementation.json"
+      ],
+      "status": "completed"
+    },
+    "Drishti": {
+      "scope": "Independent integrated release review",
+      "write_scope": [
+        "outputs/cinema-publication-20261031/independent-review.json"
+      ],
+      "status": "completed"
+    },
+    "Disha": {
+      "scope": "Release assets, metadata, integration, GitHub publication, shared records and live verification"
+    }
+  },
+  "publication_performed": false,
+  "human_specialist_review_claimed": false,
+  "scope_released": false,
+  "book_release": {
+    "status": "published_assets_verified",
+    "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-10-31",
+    "tag": "odia-cinema-book-2026-10-31",
+    "source_revision": "809b2568",
+    "assets": [
+      {
+        "edition": "digital",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-31/odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+        "bytes": 23138230,
+        "sha256": "457f084fd7574aabf622467f2786d8065c3b9b1dc9ad368d91104fc440ce9486",
+        "pages": 254,
+        "status": "reviewed_release_asset"
+      },
+      {
+        "edition": "print",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-31/odia-cinema-a-living-screen-print-2026-10-31-aligned.pdf",
+        "bytes": 49031052,
+        "sha256": "deeab8c32c04e37af4c57bd3c656a556c76beb72bea485c3977637a33d08e6a6",
+        "pages": 282,
+        "status": "reviewed_release_asset"
+      }
+    ],
+    "verification": "outputs/cinema-publication-20261031/remote-book-verification.json"
+  },
+  "validation": {
+    "full_site_tests": 669,
+    "coast_tests": 541,
+    "publication_pages_scanned": 1043,
+    "disclosure_violations": 0,
+    "publication_bytes": 629881374,
+    "record_checks": "27 checks; initial three portable metadata failures corrected and rerun successfully",
+    "browser": "Desktop and390pxphone bookpagePASS"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/639",
+  "independent_review": {
+    "reviewer": "Drishti AI subagent",
+    "result": "PASS",
+    "revision": "1fe26222d983e33b633a0101c8d0ee3b19ae56f1",
+    "receipt": "outputs/cinema-publication-20261031/independent-review.json",
+    "routes": 54,
+    "internal_references_checked": 4336,
+    "missing_targets": 0
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "status": "complete_bounded_research_ready_for_review",
+  "date": "2026-10-31",
+  "scope": "Queue13 enhance Reading Odia Cinema only; no article edits",
+  "reuse": {
+    "read": [
+      "kb/research/culture/cinema-series/reading-odia-cinema.md",
+      "outputs/surya-six-points-2026-10-29/coverage-map.json",
+      "outputs/cinema-memory-and-discovery/surya-followup-findings-2026-10-29.json"
+    ],
+    "query": "query_research.py cinema periodicals",
+    "result": "No mapped result beyond inventory notice",
+    "protected_gap": "No new generic Banichitra1978/SunaSansara search. Originalissue and finance remain unresolved."
+  },
+  "sources": [
+    {
+      "id": "reading-encyclopedia-method",
+      "url": "https://api.pageplace.de/preview/DT0400.9781135943189_A23811970/preview-9781135943189_A23811970.pdf",
+      "type": "Authorized publisher preview, original book pages",
+      "inspection": "Fresh direct66pagePDF text; acknowledgements printedp7/PDFpage8; explanatorynotes printedp12/PDFpage13 and p14/PDFpage15. Selectedpages only, notfullbook orvisualinspection.",
+      "edition": "Revised1999 copyright; this Routledge edition2012; firstedition1994.",
+      "claims": [
+        "Acknowledgements name Chandidas Mishra and Samarendra Das as Oriya contributors/consultants.",
+        "Explanatorynotes identify Kartick Kumar Ghosh edited Oriya Chalachitrara Itihas1984 as a source, and Samarendra Das as compiler of information after1986.",
+        "Closing explanatorynotes invite corrections accompanied by evidence, framing filmhistory as continuing collective scholarship."
+      ],
+      "limits": [
+        "Do not turn listed1934–84 coverage into claim firstOdiafilm1934.",
+        "Contributor acknowledgement not sole authorship or proof allentriescorrect.",
+        "Existing readingguide already mentionsGhosh, so new paragraph should focusnamed researchlabour ratherthanrepeatbibliography."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_conservative_allowance": 80,
+        "new_max_including_note": 90
+      }
+    },
+    {
+      "id": "reading-chitrapuri-deo",
+      "url": "https://odishasambad.in/chhayalipi-an-article-about-odia-film-magazine-chitrapuri-by-surya-deo-5/",
+      "type": "Historian’s original retrospective Odia essay; not originalmagazineissue",
+      "author": "Surya Deo",
+      "date": "2021-08-22",
+      "title": "ଚିତ୍ରପୁରୀ : ଅର୍ଦ୍ଧେକ ଇନ୍ଦ୍ରଜାଲ, ଅର୍ଦ୍ଧେକ ଦ୍ୟୋତକ",
+      "locator": "Chhayalipi part14, paragraphs1–6; web lines84–89",
+      "inspection": "Freshdirectfullbodytext. Embedded189x300image attempted butcachemiss; no facsimile inspection.",
+      "claims": [
+        "Deo describes Chitrapuri film-specialissues containing stories,songs,crew names,censorshipinformation andfirst-person contributoraccounts.",
+        "He describesproduceradvertising/publicationsupport as a purpose behind specialissues.",
+        "He also describesfiction/radioplays appearing alongside cinema writing; namesKanhuCharan andGopalChhotray examples."
+      ],
+      "limits": [
+        "Attribute claims toDeo, not independent originalissueinspection.",
+        "Do not repeatfirst-specialissue claim, productiontotals or encyclopedia metaphor as fact.",
+        "No issue/date/page evidence for namedfiction serialisations; avoid exactpriority claims.",
+        "No advertisingamounts,paidtestimonial inference or SunaSansara finance verification."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_public_use_found": 0,
+        "new_max_including_note": 100
+      }
+    },
+    {
+      "id": "reading-iu-ephemera",
+      "url": "https://archives.iu.edu/html/VAE6127.html",
+      "type": "Primary archival finding aid only",
+      "title": "South Asian Cinema Ephemera Collection",
+      "collection_id": "SSEA001",
+      "inspection": "Freshdirectfindingaid; Scope andContents Booklets lines29–31; itemline4019",
+      "claims": [
+        "Booklets series lists Shesha drushti = The last vision: an Oriya film,1997.",
+        "Collectiondescription says promotional booklets can containlyrics,cast/crew,stills,advertising andsynopses."
+      ],
+      "limits": [
+        "Itemnotinspected;1997 iscatalogueditemdate, notindependentlyverifiedfilmreleasedate.",
+        "No exactbookletpage ororiginalcredit checked.",
+        "Do not assume allnamedtypicalcontents appear in thisitem.",
+        "No clearedimagereuseorpublicdomain claim; digitisationongoing doesnotestablishthisitemonline."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_public_use_found": 0,
+        "new_max_including_note": 75
+      }
+    },
+    {
+      "id": "reading-cinemaazi-reproduction",
+      "url": "https://www.cinemaazi.com/feature/an-overview-of-oriya-cinema-1994",
+      "inspection": "Freshdirecttext;25Jan2021reproduction identifiedasIndianPanorama94; subscriberpromptpresent",
+      "limits": [
+        "Not originalbookletscan. Imagesaddedfrominternet,explicitlynotoriginaldocument.",
+        "Historicalfirstyear/periodclaimsconflict withstrongerevidence; do notimport."
+      ],
+      "recommendation": "Notneededfornewprose"
+    }
+  ],
+  "search_ledger": [
+    {
+      "approach": "Exactmagazinecollectionsearch",
+      "queries": [
+        "Chitrapuri magazine archive pdf Odia",
+        "Manoranjan magazine Odia archive",
+        "site.odiabibhaba.in ଚିତ୍ରପୁରୀ",
+        "Chitrapuri pdf"
+      ],
+      "outcome": "No originalissuecleared. Srujanikaindexopened; Chitra1995 mustnotbeconfusedwithChitrapuri. Suryaessayfound."
+    },
+    {
+      "approach": "Filmephemeracollection",
+      "queries": [
+        "Odia song booklet archive",
+        "site.archive.org Oriya cinema",
+        "site.cinemaazi.com Oriya booklet",
+        "site.cinemaazi.com Ka booklet",
+        "site.ova.gov.in ଚିତ୍ରପୁରୀ"
+      ],
+      "outcome": "NewIndianaUniversityfindingaidwithspecificOriya booklet. Catalogueonly."
+    },
+    {
+      "approach": "Authorizedbookpreview",
+      "action": "Freshly opened retainedPageplacepreview and inspectedacknowledgements/explanatorynotes",
+      "outcome": "Concrete original-page detail about contributors andsourcecompilation, usable now."
+    }
+  ],
+  "recommendation": {
+    "section": "Periodicals and the work behind a reference book",
+    "suggested_paragraphs": [
+      "A magazine can preserve a film’s working life beside its publicity. In his account of Chitrapuri, Surya Deo describes special issues bringing together stories, songs, contributor names and first-person experiences. Literature also appeared alongside cinema writing. These are routes into particular issues, rather than substitutes for reading the originals. [reading-chitrapuri-deo]",
+      "A reference book makes some of that research labour visible in its opening pages. The Encyclopaedia of Indian Cinema thanks Chandidas Mishra and Samarendra Das among its Odia contributors. Its explanatory notes identify Ghosh’s earlier history and credit Das with compiling later information. Before turning to a film entry, a reader can ask whose records helped put it there. [reading-encyclopedia-method]",
+      "For a further archival lead, Indiana University’s finding aid lists a booklet for Shesha drushti, catalogued1997. The entry identifies an object to pursue; it does not put the booklet’s pages before us. [reading-iu-ephemera]"
+    ],
+    "priority": "Usefirsttwo;thirdoptionalreaderroute. No newstandalonearticle.",
+    "reader_value": "Distinguish readinganoriginalpage, readingareproduction, andlocatinganitem; encouragecheckingmasthead/date/credits ratherthanassuming a coverestablishescontents."
+  },
+  "unresolved": [
+    "No originalChitrapuri/Manoranjan issue fullyinspected.",
+    "No earlyOdiasongbook pagewithoriginalcreditcleared.",
+    "Banichitra1978/SunaSansara finance remainsunresolved; no claim noholdings exist."
+  ],
+  "scope_release": true
+}

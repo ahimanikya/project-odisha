@@ -35,16 +35,14 @@ The 29th National Film Awards catalogue lists *Seeta Raati* as Best Oriya Film i
 
 *Prabhat Studio Complex at FTII, Pune, photographed in 2018. Photo: DesiBoy101, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prabhat_Studio_Complex,_FTII_Pune.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
-## Read the collaborators, too
+## The people making Klanta Aparanha
 
 For *Klanta Aparanha*, the Panorama catalogue names Nandalal Mahapatra for the story, Ranajit Ray for cinematography, Satyendra Mohanty for editing and Shantanu Mahapatra for music.[^panorama]
-
-The story, images, editing and music carry separate credits. They offer a route into how this particular production was made.
 
 
 ## A practice carried by people
 
-An actor’s guidance, a subtitled film and a borrowed camera offer different views of the same working life. These recollections invite us to follow the people around Mahapatra as closely as the awards attached to his films. [Maya Miriga](maya-miriga.md) continues the viewing journey into another filmmaker’s household story, with its own collaborators and choices.
+Jayaswami remembered help with her acting; Pradeep Mohanty remembered a camera he could borrow. Alongside the finished films, such recollections preserve the help one filmmaker could give another person’s work. [Maya Miriga](maya-miriga.md) takes us into another household story and the people who made it.
 
 ## Watch and explore
 

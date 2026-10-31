@@ -22,21 +22,21 @@ Lenka is from Cuttack. His public professional biography describes a three-year 
 
 ## A career beyond the feature-film poster
 
-His earlier credits include corporate films, documentaries, government productions and a commercial for the 2018 Men’s Hockey World Cup.[^catalogue] These credits matter because a filmmaker’s working life often includes projects that viewers may never associate with the person behind them.
+His earlier credits include corporate films, documentaries, government productions and a commercial for the 2018 Men’s Hockey World Cup.[^catalogue]
 
-Mentis Films identifies him as a filmmaker, director, editor and founder. Its profile connects him with *B for Bundelkhand*, *ବିଜୁ ବାବୁ (Biju Babu)* and *DAMaN*.[^mentis] The range suggests a useful way to approach his public career: follow the work across formats, rather than begin and end with one award.
+Mentis Films identifies him as a filmmaker, director, editor and founder. Its profile connects him with *B for Bundelkhand*, *ବିଜୁ ବାବୁ (Biju Babu)* and *DAMaN*.[^mentis]
 
 ## A partnership formed at work
 
 Vishal Mourya recalls meeting Lenka, then an editor, on a Zoom television project in 2010.[^partnership] They later made films together. NFDC’s 2017 Film Bazaar catalogue lists both as writers and directors of *B for Bundelkhand*, a Hindi film about a farming family under pressure.[^bundelkhand]
 
-The partnership carried into Odia cinema through *Biju Babu* and then *DAMaN*.[^mentis] The two directors’ careers overlap, but an individual profile makes room to notice the skills each had developed before they met.
+The partnership carried into Odia cinema through *Biju Babu* and then *DAMaN*.[^mentis]
 
 ## Recognition, and work still to explore
 
 *DAMaN* received Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]
 
-Return to the workshop with which this account began: a line is tried, discussed and revised. Lenka’s account lets us see one part of the preparation behind the finished film. His editing credit invites another kind of attention—to how scenes join, and to what a film chooses to hold or leave out.
+Lenka’s recollection returns to dialogue revised in preparation, before filming began. His work on the film continued in the edit. Between those moments, a story moved from the script through performances into its finished form.
 
 ## Footnotes & Sources
 

@@ -1,0 +1,142 @@
+{
+  "status": "research_complete_ready_for_review",
+  "date": "2026-10-31",
+  "scope": "Queue12; enhance existing overview Children, imagination and the screen only",
+  "reuse": {
+    "query": "python3 tools/research/query_research.py children cinema",
+    "result": "No mapped narrative returned beyond inventory notice",
+    "read": [
+      "kb/records/cinema-expansion-work-list-2026-10-31.json",
+      "kb/records/cinema-children-research-2026-10-26.json",
+      "kb/records/cinema-children-animation-2026-10-26.json",
+      "kb/research/culture/odia-cinema.md",
+      "kb/research/culture/odia-television.md",
+      "kb/research/culture/cinema-series/lavanya-preeti.md",
+      "kb/research/culture/cinema-series/the-question-that-brought-me-here.md"
+    ],
+    "existing_coverage": "Overview already distinguishes children live action, Lavanya award and dubbed Hanuman. TV already covers IDMT, Kuni Ganesha production and ELE ventures. Lavanya page covers Kedar–Gouri/jatra and crew. Intro birthday-party question is personal testimony, not demand statistics."
+  },
+  "sources": [
+    {
+      "id": "children-kuni-voice",
+      "url": "https://www.newindianexpress.com/states/odisha/2010/Sep/02/ganesha-comes-alive-through-animation-183512.html",
+      "inspection": "Fresh direct fulltext31Oct2026; lines52–61",
+      "title": "Ganesha comes alive through animation",
+      "dates": "URL2Sep2010; displayed update16May2012; do not derive exact premiere from tomorrow/Saturday wording",
+      "supported": [
+        "Media Pixels Productions prepared eight episodes of Odia 3D Kuni Ganesha for planned Doordarshan broadcast.",
+        "Jyotiranjan Swain scripted and directed; Rajesh Shankar scored music.",
+        "Shreyas Sahil, described at the time as a ClassIV Kendriya Vidyalaya pupil, voiced Kuni Ganesha.",
+        "Producer/animator Gouri Shankar Singh described funding and technology challenges; animation team credits also listed."
+      ],
+      "new_use": "Child voice is concrete undercovered contribution; connect child as performer to child as audience without claiming reception. No need extend teamlist.",
+      "limits": [
+        "Report of preparation/private media screening and planned broadcast, not transmission log.",
+        "No verified current voice career, biography or education claim.",
+        "No listening/full-series viewing or educational-impact evidence.",
+        "Do not repeat first/globalquality claims."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_conservative_estimate": 100,
+        "recommended_new_max_including_note": 75,
+        "existing_location": "odia-television.md Kuni paragraph and child-ganesha note"
+      }
+    },
+    {
+      "id": "children-babula-panorama",
+      "url": "https://www.dff.nic.in/images/Documents/137_IPCatalogue1987.pdf",
+      "title": "Indian Panorama1987, Growing Up",
+      "locator": "printed p93",
+      "inspection": "Fresh official indexed complete paragraph read; attempted direct PDF retrieval timed out",
+      "supported": [
+        "CFSI summary lists Babula by Sadhu Meher among completed children features.",
+        "Synopsis capsule describes an extraterrestrial making an emergency landing on Earth."
+      ],
+      "limits": [
+        "Do not interpret catalogue-year or last-year wording as exact theatrical release date.",
+        "Do not infer film language from this paragraph alone; retained parliamentary record identifies Oriya.",
+        "No full-film viewing. Broader film synopsis/cast from IMDb/RottenTomatoes not adopted (latter incorrectly labels Kannada)."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_use_found": 0,
+        "recommended_new_max_including_note": 60
+      }
+    },
+    {
+      "id": "children-babula-parliament",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/2965152/1/lsd_08_09_07-12-1987.pdf",
+      "inspection": "Fresh direct attempt timed out; reuse26Oct indexed parliamentary evidence, not fresh verified body",
+      "supported": [
+        "Lok Sabha7Dec1987 printed99–100 lists Babula as Oriya feature in CFSI1985–86 production list."
+      ],
+      "limits": [
+        "Financial year not exact release date; preserve existing note."
+      ],
+      "recommendation": "Retain current bounded statement; no expansion needed"
+    },
+    {
+      "id": "children-idmt",
+      "url": "https://idmt.in/category/idmt-in-utkal-cartoon-world/",
+      "inspection": "Fresh direct full producer catalogue,lines36–114",
+      "supported": [
+        "Chatura Kau described as Odia animated short released14Jan2008.",
+        "Catalogue includes social-message animation and Dharmapada feature project."
+      ],
+      "limits": [
+        "First claims unverified; Dharmapada completion/release not independently established.",
+        "Chatura Kau detail click returned cache miss. No additional voice credits verified."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_estimate": 90,
+        "recommended_new_max_including_note": 45
+      },
+      "recommendation": "Prefer short reference linking TV; no catalogue inventory in overview"
+    },
+    {
+      "id": "children-hanuman-provider",
+      "url": "https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915",
+      "inspection": "Fresh direct provider listing lines54–59",
+      "supported": [
+        "Lists2007 Anurag Kashyap film available in Odia via JioHotstar on AirtelXstream."
+      ],
+      "limits": [
+        "Playback/audio/territory/subscription not tested.",
+        "Generic cast list not evidence of Odia dub voice cast.",
+        "No guaranteedfree/access claim, downloads contradictory withinproviderFAQ."
+      ],
+      "recommendation": "Retain current distinction and link; no new detail"
+    },
+    {
+      "id": "children-nfdc-2024",
+      "url": "https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf",
+      "inspection": "Fresh direct attempt502; retainedLavanya record remains source",
+      "limits": [
+        "Do not describe this pass as a fresh read of catalogue.",
+        "Shared41stNFA budget already used overview+AKBir+Lavanya; no further synopsis/awardderivation required."
+      ],
+      "recommendation": "Crosslink existing Lavanya page rather than retell"
+    }
+  ],
+  "recommendation": {
+    "type": "bounded enhancement",
+    "target": "kb/research/culture/odia-cinema.md Children, imagination and the screen",
+    "strategy": [
+      "Briefly return to introduction question: a character a child wants to return to, without generalising authorpartyexperience.",
+      "Keep Babula and Lavanya as live-action examples; optional officialBabula capsule replaces rather than expands existing historicalcatalogue narration.",
+      "Add one small animation paragraph naming actual childvoice, composer/writer; link TV for wider animation history.",
+      "Keep dubbedHanuman distinction; do not imply childviewingcausesbookreading or languageproficiency."
+    ],
+    "proposed_addition": "The question in the introduction—what might make a child want to return to an Odia character?—also has people behind it. For କୁନି ଗଣେଶ (Kuni Ganesha), a report on the planned television series names Shreyas Sahil, then a primary-school pupil, as the character’s voice. Jyotiranjan Swain wrote and directed the series, with music by Rajesh Shankar. [children-kuni-voice] A child was helping give the animated figure its voice. The television reading follows the wider animation work; here it brings another kind of collaboration beside the live-action films and translated versions.",
+    "suggested_budget": "One short newparagraph, not a newarticle;≤75source-derivedwords including note fromTNIE. Overallsection need notgrow by more than~100words."
+  },
+  "access_limits": [
+    "No new film or episode watched.",
+    "No author/producer contacted.",
+    "No currentchildren audience response orfinancialoutcome verified.",
+    "No newfirst/only claim."
+  ],
+  "scope_release": true
+}

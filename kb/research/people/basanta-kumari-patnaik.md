@@ -31,7 +31,7 @@ His translation appears in *Spark of Light* (2016), edited by Valerie Henitiuk a
 
 Basanta earned an MA in economics at Ravenshaw College, Cuttack. With her brother she established Shanti Nibas Bani Mandira, a publishing firm that operated from 1959 to 1962. Her novels include *Amada Bata*, *Chorabali* and *Alibha Chita*.[^spark]
 
-The publishing venture gives her literary life another dimension. Writing a book and helping books reach readers involve different kinds of responsibility. The recorded partnership places her within both worlds. It offers a concrete starting point for remembering women’s work in the making and circulation of Odia literature, alongside their presence as authors.
+She knew the work on both sides of a manuscript: writing it and helping it reach a reader. That publishing partnership belongs beside the novels when we remember her contribution.
 
 ## A novel meets the screen
 
@@ -43,7 +43,7 @@ The [literature-and-cinema chapter](../culture/cinema-series/literature-and-scre
 
 Odisha’s official award table records Basanta Kumari Patnaik’s Atibadi Jagannath Das award for 2001.[^award] The recognition sits beside something readers can still do: seek out a work and spend time with its language.
 
-Begin with one of the available translations, keeping its translator’s name in view. A story can lead towards another story, an Odia edition, or a conversation about what changes between languages. For publishers and reading groups, making such connections easier to follow is a modest, useful possibility: a clear edition, a credited translation and a route to the writer’s wider work.
+The film may bring us to her name. Her fiction asks us to stay: with Nanda preparing to leave, or with a woman whose apparently free hours fill with knitting. The lives on these pages have more to tell us than any single adaptation could hold.
 
 ## Read her work
 

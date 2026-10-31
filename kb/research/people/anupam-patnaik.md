@@ -20,23 +20,19 @@ Seventeen drafts and three years of work: that is how Anupam Patnaik described m
 
 Patnaik’s education took him through business administration and information technology at Symbiosis, then an MSc in International Marketing Management at Leeds University Business School. His production company’s biography dates his entry into television and film production to 2011, with work on Tarang’s *Horror Zone* and the shorts *Ichha—A Silent Urge* and *Smruti—Memories*.[^company]
 
-Feature production came before the recognition for his direction. The Bengaluru International Film Festival’s 2016 catalogue credits him as producer of *ତୁଳସୀ ଅପା (Tulasi Apa)*, directed by his father, Amiya Patnaik. The film follows the life and educational work of Tulasi Munda.[^tulasi] It offers an early connection between his filmmaking and a life rooted in Odisha, carried to audiences through Odia.
-
-These beginnings bring several parts of the industry into view: television, short films, production and feature direction. A filmmaker’s public breakthrough can rest on years of less visible work across them.
+Feature production came before the recognition for his direction. The Bengaluru International Film Festival’s 2016 catalogue credits him as producer of *ତୁଳସୀ ଅପା (Tulasi Apa)*, directed by his father, Amiya Patnaik. The film follows the life and educational work of Tulasi Munda.[^tulasi] 
 
 ## A family story carried through loss
 
 *Pratikshya* drew inspiration from a short story by Gourahari Das. As Patnaik recounted at IFFI in 2022, his father died during the film’s development. He considered stopping; his family encouraged him to finish it. The same festival account records Dipanwit Dashmohapatra describing Sanjay as his first leading role.[^iffi]
 
-The finished film carries several kinds of contribution: the source writer, Bisoi’s screenwriting, Patnaik’s direction and the performers who gave the household its screen presence. Recognising that shared work makes the story behind its achievement more human.
-
-*Pratikshya* received **Best Odia Film at the 69th National Film Awards**, announced in August 2023 for films of **2021**. The official result names **Amiya Patnaik Productions** as producer recipient and **Anupam Patnaik** as director recipient.[^award] The recognition gives this carefully developed family drama a place beside the other films through which Odia storytelling has reached a national audience.
+*Pratikshya* received **Best Odia Film at the 69th National Film Awards**, announced in August 2023 for films of **2021**. The official result names **Amiya Patnaik Productions** as producer recipient and **Anupam Patnaik** as director recipient.[^award]
 
 ## Another story, another form
 
 Patnaik’s later *କର୍ମ (Karma, 2024)* moved into a murder-investigation thriller, with Anubhav Mohanty playing investigator Amar Patnaik.[^karma] A family drama and a thriller ask different things of a director. Together, they suggest a career still exploring what kinds of stories can find an audience in the language.
 
-Alongside the filmmakers behind *ଦମନ (DAMaN)*, Patnaik belongs in a conversation about how recent Odia films are made: who develops the script, who supports the production, and how collaborators keep working towards an audience. Their successes give that conversation a practical beginning. The next question remains open—how can the experience gained on one film make the next good story easier to bring to the screen?
+Seventeen drafts are easy to compress into a sentence. Patnaik’s recollection asks us to leave room for the time behind them: writing with Bisoi, losing his father, and accepting his family’s encouragement to continue.
 
 ## Footnotes & Sources
 

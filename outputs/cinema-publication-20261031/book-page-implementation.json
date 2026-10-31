@@ -1,0 +1,35 @@
+{
+  "status": "prepared_pending_root_release_activation_and_build",
+  "scope": "Book page copy/archive addition and release assertions only; no layout/CSS change.",
+  "current_edition": {
+    "date": "2026-10-31",
+    "readings": 50,
+    "digital_pages": 254,
+    "print_pages": 282
+  },
+  "archives": [
+    "2026-10-30",
+    "2026-10-27",
+    "2026-10-26"
+  ],
+  "metadata_contract": {
+    "review_books": "Two new31Oct release assets, exact bytes/hash/pages from manifest.",
+    "archived_review_books": "Four objects: former30Oct current assets plus existing27Oct archive.",
+    "manifest": "outputs/cinema-publication-20261031/book-release-manifest.json; edition_date/readings/assets/expected_previous_review_books"
+  },
+  "checks": {
+    "node_syntax_both_tests": "PASS",
+    "runtime_release_tests": "Awaiting root activation; not run against knowingly stale metadata",
+    "coast_rendered_tests": "Awaiting root coast build"
+  },
+  "commands_after_activation": [
+    "node --test tests/cinema-release.test.mjs (projects/site)",
+    "node --test tests-coast/cinema-reading-ux.test.mjs (projects/site, after coast build)"
+  ],
+  "no_shared_data_or_build_changes": true,
+  "files": {
+    "projects/site/src/pages/cinema/book.astro": "d4303e1758be8c97e6fc262b2cd0bf05eeaf8b57231af07abc690086aaf9d742",
+    "projects/site/tests/cinema-release.test.mjs": "f727e6a807bee5a3f9c09db841228b23ba9f526d1cd90b995c23bf9f042e7648",
+    "projects/site/tests-coast/cinema-reading-ux.test.mjs": "d2d90ebaa657c923bf2a12155b39d1effd74bc616c3b7ad72e0c8a4ff41fd3cd"
+  }
+}

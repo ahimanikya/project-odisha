@@ -9,6 +9,12 @@ export const cinemaNarrative=JSON.parse(fs.readFileSync(path.join(root,'kb/resea
 export function cinemaRouteEntries(entries=cinema.articles){return entries.filter(entry=>entry.route===`/cinema/${entry.slug}/`);}
 const navigationLabels={'the-question-that-brought-me-here':'Why this book','odia-cinema':'Odia cinema','literature-and-screen':'Literature and cinema','air-cuttack':'AIR Cuttack','odia-television':'Odia television','odia-ott':'Odia OTT','commercial-successes':'Commercial successes','cinema-economics':'Cinema economics','cinema-futures':'The road ahead'};
 export function cinemaNavigationLabel(entry){return navigationLabels[entry.slug]||entry.title.split(':')[0].trim();}
+// Keep a trailing plain-text word and its citation together. Never cross an
+// inline element boundary or wrap a whole paragraph/link to prevent reflow.
+export function joinCinemaCitations(html){
+ return html.replace(/([^\s<>]+?)(?:&#8288;)?[ \t]*((?:<sup><a\b[^>]*data-footnote-ref[^>]*>\d+<\/a><\/sup>)+)/g,
+  '<span class="cinema-citation-tail">$1$2</span>');
+}
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 // Explicitly reviewed Odia titles and quotations. Script alone does not establish language:
 // Sambalpuri Bhukha and unreviewed passages deliberately remain unlabelled here.
@@ -31,11 +37,21 @@ export function markReviewedOdia(html){
  }).join('');
 }
 export function picture(image,alt,priority=false){const set=format=>image.derivatives.filter(d=>d.format===format).map(d=>`${d.file} ${d.width}w`).join(', ');const sizes='(max-width: 784px) calc(100vw - 44px), 740px';return `<picture><img src="${image.file}" srcset="${set('jpeg')}" sizes="${sizes}" alt="${escape(alt)}" width="${image.width}" height="${image.height}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async"></picture>`;}
-function figureStyle(image){
- // Portraits and square artwork share their image width with the caption; small archival objects are not enlarged.
- const width=image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
- return `--cinema-figure-width:${width};--cinema-image-ratio:${image.width} / ${image.height}`;
+const imageLayoutPath=path.join(root,'kb/research/culture/cinema-series/image-layout-2026-10-30.json');
+export const cinemaImageLayout=JSON.parse(fs.readFileSync(imageLayoutPath,'utf8')).frames;
+const placementKeys=cinema.articles.flatMap(entry=>entry.images.map(image=>`${entry.slug}\n${image.source}`));
+const frameKeys=cinemaImageLayout.map(frame=>`${frame.slug}\n${frame.source}`);
+if(new Set(frameKeys).size!==frameKeys.length||frameKeys.length!==placementKeys.length||placementKeys.some(key=>!frameKeys.includes(key)))throw Error('Cinema image layout must match every source placement exactly once');
+function imageFrame(image,slug){return cinemaImageLayout.find(frame=>frame.slug===slug&&frame.source===image?.source);}
+export function figureStyle(image,slug){
+ const layout=imageFrame(image,slug)?.web;
+ const width=layout?layout.width_px===null?'100%':`${layout.width_px}px`:image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
+ const ratio=layout?.ratio||[image.width,image.height];
+ if(layout&&(!(layout.width_px===null||Number.isFinite(layout.width_px)&&layout.width_px>0)||!['natural','cover'].includes(layout.fit)||ratio.length!==2||ratio.some(n=>!Number.isFinite(n)||n<=0)||layout.position.length!==2||layout.position.some(n=>!Number.isFinite(n)||n<0||n>100)))throw Error('Invalid cinema image layout '+slug);
+ return `--cinema-figure-width:${width};--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`+(layout?.fit==='cover'?`;--cinema-image-fit:cover;--cinema-image-position:${layout.position[0]}% ${layout.position[1]}%`:'');
 }
+function layoutCredit(credit,image,slug){const note=imageFrame(image,slug)?.credit_note;return credit+(note?' '+escape(note):'');}
+
 function heroCaption(entry){
  const caption=escape(entry.hero.caption||'Editorial illustration; not a film still, historical photograph or reconstruction of a documented scene.');
  if(entry.hero.kind!=='documentary')return caption;
@@ -76,6 +92,31 @@ export function cinemaReadingSemantics(html){
   const semantic=table.replace(/<th>/g,'<th scope="col">').replace(/<tbody>([\s\S]*?)<\/tbody>/,(_,body)=>`<tbody>${body.replace(/<tr>\s*<td>([\s\S]*?)<\/td>/g,'<tr><th scope="row">$1</th>')}</tbody>`);
   return `<div class="article-table" role="region" aria-labelledby="${id}" tabindex="0"><table><caption id="${id}">${title}</caption>${semantic}</table></div>`;
  });
+}
+// Optional literary pauses: original article figures and source credits remain untouched.
+export function cinemaLineArt(html,slug,items=cinemaNarrative.line_art||[]){
+ const selected=items.filter(item=>item.slug===slug);const seen=new Set();
+ for(const item of selected){
+  if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id)||seen.has(item.id))throw Error('Invalid/duplicate line-art ID');seen.add(item.id);
+  if(!['before_heading','after_section'].includes(item.placement)||typeof item.heading!=='string')throw Error('Invalid line-art placement '+item.id);
+  if(!/^kb\/media\/cinema-series\/literature-care-20261030\/[a-z0-9-]+\.png$/.test(item.image))throw Error('Invalid line-art source '+item.id);
+  const bytes=fs.readFileSync(path.join(root,item.image));
+  if(bytes.subarray(0,8).toString('hex')!=='89504e470d0a1a0a')throw Error('Line art must be PNG');
+  const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);if(!width||!height)throw Error('Invalid line-art dimensions');
+  const file=item.public_image||'/assets/cinema/'+path.basename(item.image);
+  if(!/^\/assets\/cinema\/[a-z0-9-]+\.png$/.test(file))throw Error('Invalid line-art public path');
+  if(!fs.readFileSync(path.join(root,'projects/site/public',file)).equals(bytes))throw Error('Line-art public copy differs from original');
+  const headings=[...html.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>/g)];
+  const matches=headings.filter(h=>h[1].replace(/<[^>]+>/g,'')===escape(item.heading));
+  if(matches.length!==1)throw Error('Missing/ambiguous line-art heading '+item.id);
+  const heading=matches[0],next=headings[headings.indexOf(heading)+1];
+  const at=item.placement==='before_heading'?heading.index:(next?.index??html.length);
+  const pt=Number(item.width_pt??144);if(!Number.isFinite(pt)||pt<48||pt>240)throw Error('Invalid line-art width');
+  const display=Math.min(pt*4/3,120*width/height,width);
+  const block=`<div class="cinema-line-art" data-line-art="${item.id}" style="--line-art-width:${display}px;--line-art-ratio:${width}/${height}"><img src="${escape(file)}" width="${width}" height="${height}" alt="${escape(item.alt||'')}" loading="lazy" decoding="async">${item.caption?`<p class="cinema-line-art-caption">${escape(item.caption)}</p>`:''}</div>`;
+  html=html.slice(0,at)+block+html.slice(at);
+ }
+ return html;
 }
 export function cinemaArticle(entry){
  let source=fs.readFileSync(path.join(root,entry.source),'utf8');
@@ -119,12 +160,12 @@ export function cinemaArticle(entry){
   return `<sup><a href="#user-content-fn-cinema-image-${index}" id="user-content-fnref-cinema-image-${index}" data-footnote-ref aria-describedby="footnote-label" aria-label="Source note ${n}">${n}</a></sup>`;
  };
  let heroDescription=escape(entry.hero.caption||'Illustration.');
- if(entry.hero.kind==='documentary')heroDescription+=' '+creditRef(heroCaption(entry));
+ if(entry.hero.kind==='documentary')heroDescription+=' '+creditRef(layoutCredit(heroCaption(entry),hero,entry.slug));
  if(entry.hero.kind==='supplied-portrait')heroDescription+=' '+creditRef(escape(entry.hero.credit_note));
  article.html=article.html.replace(/<figure>([\s\S]*?)<figcaption>([\s\S]*?)<\/figcaption><\/figure>/g,(whole,image,caption)=>{
   if(!/Photo:|Wikimedia Commons|Digitisation:/.test(caption))return whole;
   const description=caption.split(/(?<=\.)\s/)[0];
-  return `<figure>${image}<figcaption>${description} ${creditRef(caption)}</figcaption></figure>`;
+  return `<figure>${image}<figcaption>${description} ${creditRef(layoutCredit(caption,entry.images.find(i=>image.includes(`src="${i.file}"`)),entry.slug))}</figcaption></figure>`;
  });
  for(const c of callouts){
   const start=`<p>CINEMACALLOUTSTART${c.id}</p>`,end=`<p>CINEMACALLOUTEND${c.id}</p>`;
@@ -140,17 +181,19 @@ export function cinemaArticle(entry){
  article.html=article.html.replace(/<figure>([\s\S]*?)<\/figure>/g,(_,body)=>{
   const src=body.match(/<img[^>]*src="([^"]+)"/)?.[1],image=entry.images.find(i=>i.file===src);
   if(!image)throw Error('Missing figure dimensions '+entry.slug);
-  return `<figure style="${figureStyle(image)}">${body}</figure>`;
+  return `<figure style="${figureStyle(image,entry.slug)}">${body}</figure>`;
  });
  article.html=article.html.replace(/<picture>([\s\S]*?)<\/picture>/g,(whole,img)=>{const src=img.match(/src="([^"]+)"/)?.[1];return src?`<a class="cinema-full-image" href="${src}" aria-label="View complete image">${whole}</a>`:whole;});
  const portrait=hero.height>hero.width;
- const heroHTML=`<figure class="cinema-hero${portrait?' cinema-hero-portrait':''}" style="${figureStyle(hero)}"><a class="cinema-full-image" href="${hero.file}" aria-label="View complete image">${picture(hero,entry.hero.alt,true)}</a><figcaption>${heroDescription}</figcaption></figure>`;
+ const heroHTML=joinCinemaCitations(`<figure class="cinema-hero${portrait?' cinema-hero-portrait':''}" style="${figureStyle(hero,entry.slug)}"><a class="cinema-full-image" href="${hero.file}" aria-label="View complete image">${picture(hero,entry.hero.alt,true)}</a><figcaption>${heroDescription}</figcaption></figure>`);
  const next=cinema.articles[cinema.articles.findIndex(a=>a.slug===entry.slug)+1];
  const onward=next?`<nav class="cinema-narrative-continue" aria-label="Continue this reading journey"><a href="${escape(next.route)}" rel="next">Continue reading: ${escape(cinemaNavigationLabel(next))} <span aria-hidden="true">→</span></a></nav>`:`<nav class="cinema-narrative-continue" aria-label="Continue exploring"><a href="/cinema/">Explore all cinema readings <span aria-hidden="true">→</span></a></nav>`;
  article.html=article.html.replace(/(?=<section (?:class="cinema-image-notes"|data-footnotes))/,onward);
  article.html=article.html.replace(/<a\b([^>]*data-footnote-ref[^>]*)>(\d+)<\/a>/g,(_,attrs,n)=>`<a${attrs}${attrs.includes('aria-label=')?'':` aria-label="Source note ${n}"`}>${n}</a>`);
  article.html=article.html.replace(/aria-label="Back to reference (\d+)(?:-(\d+))?"/g,(_,n,occurrence)=>`aria-label="Return to citation ${n}${occurrence?', occurrence '+occurrence:''}"`);
  article.html=article.html.replace(/<li id="(user-content-fn-[^"]+)"/g,'<li id="$1" tabindex="-1"');
+ article.html=joinCinemaCitations(article.html);
+ article.html=cinemaLineArt(article.html,entry.slug);
  article.html=markReviewedOdia(article.html);
  article.titleHtml=markReviewedOdia(escape(article.title));
  const marker='<h2 id="further-reading">Further reading</h2>';

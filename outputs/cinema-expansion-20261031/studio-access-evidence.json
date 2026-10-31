@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-31",
+  "status": "bounded_research_complete_practical_rates_unresolved",
+  "scope": "Queue15 overview studiosection enhancement; nobooking/contact/publication",
+  "reuse": {
+    "query": "query_research.py Kalinga studio",
+    "result": "No mappednarrative returned beyond inventorynotice",
+    "read": [
+      "kb/records/cinema-deep-revision-new-evidence-2026-10-26.json",
+      "kb/research/culture/odia-cinema.md",
+      "kb/research/culture/cinema-series/cinema-economics.md"
+    ],
+    "preserve": "ExistinghistoricalChhaManaAthaGuntha creditdoesnotidentifyservices; inaugurationdoesnotprovebookings."
+  },
+  "sources": [
+    {
+      "id": "studio-mute-ich",
+      "url": "https://www.indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute",
+      "inspection": "Freshdirectofficialdirectory31Oct2026 lines81–103; displayedlastupdated09-07-2026",
+      "claims": [
+        "Bhubaneswar MuteStudio listedaspostproductioncompany.",
+        "Categories nameAnimation,ColorGrading,MotionGraphics,SoundDesignandMixing,VideoEditing,VisualEffects.",
+        "Additionalinformation advertisesediting,VFX,chromasetups."
+      ],
+      "limits": [
+        "Directoryadvertisement not independently inspectedservicecapacity, equipmentstock oravailability.",
+        "No ratecard,servicepackage,bookingcalendar orhireterms on inspectedpage.",
+        "GlobalICHapplicationfee displayedat top is NOT Mutehirefee.",
+        "Directmutestudio.in inaccessible; exactdomainsearchyieldedno usableoperatorpage."
+      ],
+      "budget": {
+        "cap": 200,
+        "existing_overview_economics_estimate": 120,
+        "recommended_new_max_including_note": 35
+      }
+    },
+    {
+      "id": "studio-ofdc-rti",
+      "url": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang",
+      "inspection": "Freshdirectofficialmanual31Oct2026; lines145–254 and280–284",
+      "claims": [
+        "Manualdescribesplannedindoorfloors,chroma,postproduction,andoutdoorlocales.",
+        "Operatorwebsitelink suppliedasodfilm.org."
+      ],
+      "limits": [
+        "Stillusesrenovationunderprogress andfuturetense; doNOTtreataspostinaugurationoperationalinventory.",
+        "No currenttariff orhiretermsverified.",
+        "odfilm.org directfetch502.",
+        "Sharedsourcealreadyusedwidely; nonewderivedpublicprose recommended."
+      ],
+      "budget": {
+        "cap": 200,
+        "recommended_new_max": 0
+      }
+    },
+    {
+      "id": "studio-idco-cancellation",
+      "url": "https://idco.in/tender/cancelDocument/920f1fad-7f72-47cf-98ab-ffa129bb9fd2",
+      "inspection": "Officialsearchindexedtextonly; directcachemiss",
+      "claims": [
+        "Cancellationdocument referencesoperationmaintenanceandmanagementRFP forKalingaStudio."
+      ],
+      "limits": [
+        "Notbookinginformation,notawardedoperatorcontract; no datedcontractoutcome established."
+      ],
+      "recommendation": "Holdresearchonly"
+    },
+    {
+      "id": "studio-prameya-followup",
+      "url": "https://www.prameyanews.com/huge-crowds-at-revamped-kalinga-studio-online-ticketing-soon",
+      "author": "BratatiBaral",
+      "date": "2026-10-23",
+      "inspection": "Freshdirectpage; lines17–23 read andsearchindexedproductionparagraph",
+      "claims": [
+        "Reportannouncesanticipatedonlineticketing forvisitors.",
+        "Indexedparagraph saysalbumshotandfeatureunderproduction."
+      ],
+      "limits": [
+        "Visitoradmissionnotproductionhire.",
+        "Do notinferoperatorbookingportalexistsfromannouncedplan.",
+        "Productionparagraphnotindependentlyverifiedwithproducer/credits; optionalfutureleadnotrecommendedprose."
+      ],
+      "budget": {
+        "recommended_new_max": 0
+      }
+    }
+  ],
+  "attempts_by_gap": {
+    "kalinga_hire": [
+      {
+        "approach": "Official/operator discovery",
+        "queries": [
+          "site.odishafilm.com Kalinga studio booking rate",
+          "site.ofdc.in Kalinga studio facilities rates"
+        ],
+        "result": "No currentratecard; no operatoridentityinferredfromsearchdomains."
+      },
+      {
+        "approach": "Institutionalmanual andoperatorlink",
+        "action": "DirectOFDC RTImanual anditsodfilm.orglink",
+        "result": "Plannedfacilitylist; operatorlink502."
+      },
+      {
+        "approach": "Exacthire/booking plusprocurement",
+        "queries": [
+          "Kalinga Studios booking official",
+          "Odisha Film Development rates studio booking",
+          "Kalinga Studio hire rates",
+          "Kalinga Studios Limited official booking2026"
+        ],
+        "result": "No currentproductionhireterms; officialIDCOcancellationnotbooking; visitorpresspricesexcluded."
+      }
+    ],
+    "mute_access": [
+      {
+        "approach": "Officialpublicfilmicdirectory",
+        "result": "DirectIndiaCineHubcategoriesverified."
+      },
+      {
+        "approach": "Operatorhomepage",
+        "url": "https://mutestudio.in",
+        "result": "Inaccessibleviatool."
+      },
+      {
+        "approach": "Exactdomainindex",
+        "query": "site:mutestudio.in studio services",
+        "result": "No usableoperatorrate/equipmentpage."
+      }
+    ]
+  },
+  "recommendation": {
+    "action": "Minimaloverviewenhancementonly; noforcedpracticalratesparagraph",
+    "ready_sentence": "India Cine Hub’s Mute Studio listing also names colour grading and sound design and mixing—services through which a production’s images and voices can take their finished form.",
+    "limits": "Keep advertised/listing qualification. Do notcallservicebookable,guaranteed orcertified. Replace/extendexistingMuteparagraph ratherthanrepeatineconomics.",
+    "alternate": "Retaincurrentprose unchanged ifaddedservicecategories do notimproveflow. Practicalhiregapremainsinternal; no datedpublicresearchdisclaimer needed."
+  },
+  "unresolved": [
+    "Kalingacurrentproductionhiretariff,bookingroute,equipmentinventory,terms andoperatorserviceavailability",
+    "Mutecurrentrates,availableequipment,bookingterms andcompletedprojectservicecredits"
+  ],
+  "no_additional_facility": "Notneeded; avoidbroadprivatefacilityinventory",
+  "scope_release": true
+}

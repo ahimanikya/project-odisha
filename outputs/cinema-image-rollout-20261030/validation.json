@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "date": "2026-10-30",
+  "baseline": "c66f1b22b03312b57ec880bc6c6c35207296a41b",
+  "articles": 41,
+  "unique_image_sources": 47,
+  "image_placements": 47,
+  "canonical_prose_unchanged": true,
+  "original_images_unchanged": true,
+  "manifest_and_card_metadata_unchanged": true,
+  "preview_url": "http://127.0.0.1:8771/cinema/",
+  "configuration": "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+  "configuration_sha256": "cfa6e934f2fef3c40185adef508bdb445e391b0c5e0ab39769903a2e0794d027",
+  "tests": {
+    "focused": 29,
+    "site": 656,
+    "coast": 535,
+    "disclosure_pages": 994,
+    "disclosure_violations": 0
+  },
+  "browser": {
+    "article_viewport_checks": 82,
+    "desktop_css_width": 1280,
+    "phone_css_width": 390,
+    "figure_checks": 94,
+    "caption_edge_failures": 0,
+    "document_overflow_failures": 0,
+    "initial_deferred_image_instances": 8,
+    "deferred_instances_verified_loaded_at_section": 8,
+    "complete_image_link_check": {
+      "slug": "akshaya-mohanty",
+      "path": "/assets/cinema/akshaya-mohanty-809.jpg",
+      "dimensions": [
+        809,
+        1196
+      ]
+    },
+    "viewport_restored": true
+  },
+  "books": {
+    "digital": {
+      "file": "output/pdf/odia-cinema-a-living-screen-2026-10-30-image-layout.pdf",
+      "sha256": "67ea96e6a0ffca3b56a1cefbeba23e8b78aeab2a46afd0161c27d71624560f98",
+      "pages": 223,
+      "receipt": "outputs/cinema-image-rollout-20261030/digital-book-build.json"
+    },
+    "print": {
+      "file": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-image-layout.pdf",
+      "sha256": "b212009537cf29b625641f2b67824e120e085ebcd60526f15a5bb62b585f6a62",
+      "pages": 246,
+      "receipt": "outputs/cinema-image-rollout-20261030/print-book-build.json"
+    }
+  },
+  "review": "outputs/cinema-image-rollout-20261030/quality-review.json",
+  "limits": [
+    "Formatting and image-preservation review only; no fresh factual audit.",
+    "All book pages rendered; independent visual review sampled affected pages, with all47 placements checked structurally.",
+    "Local digital and print proofs, not press-certified or published."
+  ],
+  "publication_performed": false,
+  "record_consistency_checks": {
+    "team_assignments": "PASS",
+    "autonomous_program": "PASS",
+    "git_diff_check": "PASS"
+  }
+}

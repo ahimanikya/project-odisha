@@ -19,7 +19,7 @@ A song, a contract, a poster: small things can hold a large absence.
 
 The first Odia film, *ସୀତା ବିବାହ (Sita Bibaha)*, has a place in our histories that few readers have been able to encounter on a screen. In 2011, Mohan Sunder Deb Goswami’s grandson, Kabiraj Deb Goswami, told a reporter that no print was available.[^memory] That was a statement about what could be found then, not a reason to stop asking.
 
-Years later, filmmaker **Lipika Singh Darai** made the search the subject of a new project, with **Surya Deo** as collaborator. Their point of departure includes recordings and paper records he has collected.[^search] A history that seems to end with an unavailable film opens into the possibility of another.
+Years later, filmmaker **[Lipika Singh Darai](../../people/lipika-singh-darai.md)** made the search the subject of a new project, with **Surya Deo** as collaborator. Their point of departure includes recordings and paper records he has collected.[^search] A history that seems to end with an unavailable film opens into the possibility of another.
 
 ## Returning to 1936
 
@@ -33,9 +33,7 @@ The 2011 report identifies a play by **Kamapal Mishra** as the source and names 
 
 Piyush Roy’s research connects Goswami to touring rasalila and records Surya Deo’s interpretation of the film as primarily *gitinatya*, or musical drama. Roy also distinguishes Goswami’s credited role from accounts of Kali Films and technical collaborators in Calcutta.[^roy] These are questions for closer historical reading, rather than grounds for silently rewriting the credits.
 
-For our series, the stage connection is especially important. An existing dramatic text, performance practice and a new recording medium met in a particular production. That gives us a specific connection between literature, theatre and cinema. It does not establish that every Odia performance tradition led directly to this one film.
-
-The names matter, too. Following a performer or a writer can take us beyond the familiar anniversary and towards a working life.
+An existing dramatic text and Goswami’s performance experience met a new recording medium. That connection is specific to this production; it does not make every Odia performance tradition its direct ancestor.
 
 ## What a surviving object can tell us
 
@@ -44,8 +42,6 @@ India Foundation for the Arts describes the material informing Darai’s project
 Each kind of record invites a different question. What does a contract say someone was expected to do? What did a poster promise an audience? How was a story presented in a recording? A record may answer one question and leave another open.
 
 These musical narrations have not been established as the film’s original soundtrack. Heard alongside a poster or contract, they can still help us explore the world around its making.
-
-An artist named in an agreement, a printer on a poster or a musician in a recording may offer another path into the production.
 
 ## A filmmaker who listens for memory
 
@@ -65,7 +61,7 @@ This story returns us to the work of [keeping cinema’s memory available](../..
 
 There are still things to seek: a traceable copy, original credits, fuller accounts of the performers, and the relationship between the surviving music and the film. A responsible telling can acknowledge these gaps without making absence the whole story.
 
-For a new generation of filmmakers, there is a possibility here beyond retelling a familiar achievement. The process of looking can itself become a subject. A question carried across a newspaper, a song and a conversation may lead to a film that could not have existed before that encounter.
+For Darai, the process of looking has itself become a subject. The newspaper, the song and the conversation are material for a new work, even while the older film remains unavailable.
 
 *Sita Bibaha* remains a beginning. The search around it offers another.
 

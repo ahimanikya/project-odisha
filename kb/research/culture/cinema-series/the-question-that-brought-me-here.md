@@ -21,9 +21,7 @@ These questions felt close to me. I am an artist and a poet at heart, though muc
 
 For years, I had been absorbed in building my own world. Now my attention was turning towards the language and culture that had helped shape it.
 
-The more I looked, the more I wanted to know about the people behind what I loved: the writer searching for a reader, the artisan seeking a fair return, the storyteller hoping someone would listen.
-
-Admiration brought me closer to their work. A question about livelihood kept me there.
+Behind the things I loved were people trying to keep creating: a writer searching for a reader, an artisan seeking a fair return. Admiration brought me closer to their work. A question about livelihood kept me there.
 
 **How could I help put money in writers’ pockets?**
 
@@ -33,13 +31,11 @@ Farming and writing have different needs. Yet I recognised a question about the 
 
 I wanted writers to have a fair chance to keep creating. I worried about the person who spent years writing a book, paid to have it printed, and then had to carry the burden of finding readers alone.
 
-Helping with publication could be useful. But a writer’s work could live in many forms. Art and poetry should have a place in ordinary life: with the person who enjoys a song without studying its metre, the child who remembers a character, and the audience drawn into a performance.
+Art and poetry should live with people: with the person who enjoys a song without studying its metre, the child who remembers a character, the audience drawn into a performance. A book is one home for that work. I wanted to explore the others.
 
 Odisha gave me many paths to explore. Pala, nataka and dance brought me towards the meeting of language, music, movement and an audience. Researching my own name led me towards Ahimanikya and Sashisena, and the relationship between a story and its remembered life in a place.
 
-I began to see poetry as something that could be encountered before it was identified as poetry.
-
-A child might first love a melody. Someone else might remember a line because a performer gave it an unforgettable voice. A story could become part of a family’s conversation long before anyone went looking for its written source.
+A child might love a melody before knowing it as poetry. A performer could make a line unforgettable. A story might enter a family’s conversation long before anyone sought its written source.
 
 Selling a poetry collection could be one way for a writer to earn. Songs, performances, adaptations and illustrated stories offered other possibilities. Royal patronage belongs to the history of sustaining art; in our own time, audiences, publishers, producers and others can commission work, pay for its use or buy a ticket. Appreciation needed a practical expression.
 
@@ -67,13 +63,13 @@ Curiosity became research. That research is now taking shape as a book and a ser
 
 I did not set out to write a history of Odia cinema. I turned to its past to understand the people, choices and creative possibilities that might help us move forward. The history in these pages serves that exploration; it does not attempt to record every film, every contributor or every period.
 
-Preserving that history is part of looking ahead. A film, a script, a songbook or a remembered credit can help us trace how a story reached its audience. I want this work to help keep those connections within reach, including the writers and collaborators whose names may be less familiar. A reader finding a book through a film, or a filmmaker finding a writer through an older adaptation, could begin another journey.
+Preserving a film, a script or a songbook keeps more than a date within reach. It keeps a way back to the people who made it. A viewer might find a book through a film; a filmmaker might find a writer through an older adaptation. I want those encounters to remain possible.
 
-Keeping that relationship alive takes continued work: reading, recording what we learn, bringing people together and making room for new stories. I want to explore how those encounters can lead to fair agreements and paid opportunities, so that the people creating in our language have reasons and resources to continue.
+Cinema cannot guarantee readers or a writer’s livelihood. But a thoughtful adaptation can offer a work another life. A fair agreement can pay for that work. A film made with care can invite someone to look more closely at a place, a language, a neighbour.
 
-Cinema would not solve every difficulty facing literature. A film would not automatically create readers or guarantee a writer a livelihood. A thoughtful adaptation could nevertheless offer a work another life.
+That is the possibility I want to explore with makers and audiences alike. How can the achievements we already have make another beginning easier? How can our stories travel nationally and internationally while remaining attentive to the lives from which they come?
 
-The successes we already have make these possibilities worth examining. People have created films that moved audiences, traveled beyond Odisha and earned recognition. How could one success make the next beginning easier? The question guiding these pages is what we can build from here: an Odia-language cinema nourished by the lives and cultures of Odisha, reaching wider audiences and sustaining the people who make it.
+For me, this is an act of care: keeping our stories close enough for our own children to know them, and open enough for others to enter. Pride can grow from the work itself—from the attention we give it and the people we bring with us.
 
 There is much I am still learning. These stories leave room for that learning—and for people whose experience may deepen or challenge what I have understood.
 

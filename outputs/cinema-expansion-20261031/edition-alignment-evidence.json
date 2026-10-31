@@ -1,0 +1,861 @@
+{
+  "task": "queue16 edition alignment",
+  "review_date": "2026-10-31",
+  "baseline": "da44c8950c1206bfa3143551e72b05066fc53191",
+  "scope": "Read-only current canonical/manifest/book-plan/media binding audit. No fresh historical research; no current-edition PDF build or visual verification.",
+  "verdict": "Canonical and media bindings pass; refresh overview snapshot and descriptive counts before building expanded edition. Existing published book bindings are earlier editions, not evidence of a current 50-reading build.",
+  "coverage": {
+    "canonical_readings": 50,
+    "manifest_order_agrees": true,
+    "book_reviewed_articles_order_agrees": true,
+    "source_hashes_agree": true,
+    "original_image_placements": 56,
+    "unique_original_byte_hashes": 56,
+    "original_hashes_match": true,
+    "provenance_paths_resolve": true,
+    "layout_frames": 56,
+    "layout_source_pairs_match": true,
+    "derivative_files_and_hashes_pass": true,
+    "derivative_dimensions": "Not freshly inspected: system Python lacks PIL. Prior asset review remains applicable; this audit does not claim new pixel or EXIF validation.",
+    "people_guide_note_targets_checked": 11,
+    "timeline_note_targets_checked": 7,
+    "callout_slug_targets_checked": 3,
+    "missing_note_or_slug_targets": []
+  },
+  "bindings": {
+    "site_sha256": "72e9bd6732f4a7c70648bcc45c16cf48a5c8cbd30a957b1f99babd6d001fd8c5",
+    "manifest_sha256": "a881dab42dab09e5e722a5c11927603e680c12969b539c9be5c978b7df453c25",
+    "book_plan_sha256": "8d4886e6e7c79259f2b6afed650d615371df0c1619b7dbcf4c2397ba9ddc4aa1",
+    "image_layout_sha256": "8fd3b7598971380ba4795d7ceec0011a3c7e8aa5a404fa1f9f21a9578002d694",
+    "current_overview_sha256": "a4e554424dacd6c51bd502d082f74fce1ccdd51fd6b467807c37143afdad91e8",
+    "stored_overview_sha256": "ed85e691dbf196b3aa791354c1d19b9f12392c7912f261307495e4759b3801c5"
+  },
+  "required_book_refresh": [
+    {
+      "heading": "The places and teams that sustain production",
+      "changes": [
+        "Mute services now include colour grading and sound design/mixing.",
+        "BPFTIO four-year B.CAT training and OJEE admissions paragraph absent from snapshot; preserve builders-training note."
+      ]
+    },
+    {
+      "heading": "Children, imagination and the screen",
+      "changes": [
+        "Restore link to author introduction birthday-party question.",
+        "Restore Kuni Ganesha child voice Shreyas Sahil, writer/director Jyotiranjan Swain and music Rajesh Shankar paragraph; preserve planned broadcast distinction and child-ganesha note.",
+        "Restore invitation linking characters, reading and creative work; do not convert invitation into proven outcomes."
+      ]
+    },
+    {
+      "heading": "The people audiences returned to",
+      "changes": [
+        "Bring across Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty profile links; no factual discrepancy found in unchanged capsule text."
+      ]
+    },
+    {
+      "heading": "National and international recognition",
+      "changes": [
+        "Bring across Tara (1991 award year) 39th National Film Awards row and tara-nfa39 note, preserving film award/producer/director distinction."
+      ]
+    },
+    {
+      "heading": "Footnotes & Sources",
+      "changes": [
+        "Include tara-nfa39, builders-training and child-ganesha; rebuild numeric note mapping from current text."
+      ]
+    }
+  ],
+  "metadata_corrections": [
+    {
+      "path": "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+      "field": "scope",
+      "current": "All 53 image placements across 47 cinema readings",
+      "correct": "56 original image placements across 50 cinema readings; line art and covers separately counted."
+    },
+    {
+      "path": "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "field": "author_introduction.placement",
+      "current_fragment": "Forty-one readings in seven parts.",
+      "recommendation": "Update count to 50 or remove volatile count; preserve actual part order."
+    },
+    {
+      "path": "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "field": "preservation.overview_source_sha256",
+      "recommendation": "Recompute only after paragraph-preserving snapshot refresh."
+    }
+  ],
+  "preserve": [
+    "Intentional book-only companion navigation bridge is not an unsupported historical claim.",
+    "Existing economics web-navigation sentence omission is recorded and does not omit substantive economics.",
+    "Existing download metadata identifies earlier published books; replace only after rebuilt, checked editions exist.",
+    "Original captions/licence/provenance references must be carried with images; resolving paths is not a fresh independent rights determination."
+  ],
+  "source_inventory": [
+    {
+      "slug": "the-question-that-brought-me-here",
+      "source": "kb/research/culture/cinema-series/the-question-that-brought-me-here.md",
+      "sha256": "5b7c521d3df428b9f2f9093aa8308beedcf3cc14278986cedfc76a348136c226",
+      "manifest_match": true
+    },
+    {
+      "slug": "literature-and-screen",
+      "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+      "sha256": "970d0d86dd812e23978a4b5597c9226d1c4be24c5359d2d1115ab2f610d034e2",
+      "manifest_match": true
+    },
+    {
+      "slug": "basanta-kumari-patnaik",
+      "source": "kb/research/people/basanta-kumari-patnaik.md",
+      "sha256": "286285887baa6b604dd8834c4f8cb1a551b59e8aa3962bc71bdc15eba38fc311",
+      "manifest_match": true
+    },
+    {
+      "slug": "kalindi-charan-panigrahi",
+      "source": "kb/research/people/kalindi-charan-panigrahi.md",
+      "sha256": "429d79b53f87b201b9cba054833fff4632260114daa094f79e3e4e306333c8b4",
+      "manifest_match": true
+    },
+    {
+      "slug": "kanhu-charan-mohanty",
+      "source": "kb/research/people/kanhu-charan-mohanty.md",
+      "sha256": "e594b36c797646136e9c387b2eac8114788a7932680f457026f96e40230b97c1",
+      "manifest_match": true
+    },
+    {
+      "slug": "manglu-charan-biswal",
+      "source": "kb/research/people/manglu-charan-biswal.md",
+      "sha256": "dc41277d7d23642285dcd8ae8c47fcb673b887021c9c95b791b8af791881b022",
+      "manifest_match": true
+    },
+    {
+      "slug": "gopal-chhotray",
+      "source": "kb/research/people/gopal-chhotray.md",
+      "sha256": "63676f043a10d7b4623cad155f7ec9b80e5aac1b64e51cefef19f0f0bfbefe3a",
+      "manifest_match": true
+    },
+    {
+      "slug": "bijay-mishra",
+      "source": "kb/research/people/bijay-mishra.md",
+      "sha256": "b6ce9a878dd6d9b6955498c34245960b56768c79a5603b64710603f6c0edff5c",
+      "manifest_match": true
+    },
+    {
+      "slug": "air-cuttack",
+      "source": "kb/research/culture/air-cuttack.md",
+      "sha256": "11c4aad3f80cb1e43fcd109e090b4d85db898e3d4078fe4aed66d7a3d18cab01",
+      "manifest_match": true
+    },
+    {
+      "slug": "cinema-music",
+      "source": "kb/research/culture/cinema-series/cinema-music.md",
+      "sha256": "38180599a5194724d14a3eafa45e25b5311e6cd0d48cdda4129cada795e3edc7",
+      "manifest_match": true
+    },
+    {
+      "slug": "akshaya-mohanty",
+      "source": "kb/research/people/akshaya-mohanty.md",
+      "sha256": "30962c9edf3f42a5ccc772b95b9e04f6c28c83cf24d1e479c3bcf8f8b90d823c",
+      "manifest_match": true
+    },
+    {
+      "slug": "prafulla-kar",
+      "source": "kb/research/people/prafulla-kar.md",
+      "sha256": "7c04fdbbc6b379765090002ae28122ca0c4147ad581061960895f957f3266f33",
+      "manifest_match": true
+    },
+    {
+      "slug": "pranab-patnaik",
+      "source": "kb/research/people/pranab-patnaik.md",
+      "sha256": "24adebd4b629d6eec2a5ad5f65c791355e039271d13a7f0860eb977905335b05",
+      "manifest_match": true
+    },
+    {
+      "slug": "tapu-mishra",
+      "source": "kb/research/people/tapu-mishra.md",
+      "sha256": "3373c58077699e7abf4bd17b8e503f27a53c9379d8d513afa3a54ff28c61d4b8",
+      "manifest_match": true
+    },
+    {
+      "slug": "odia-cinema",
+      "source": "kb/research/culture/odia-cinema.md",
+      "sha256": "a4e554424dacd6c51bd502d082f74fce1ccdd51fd6b467807c37143afdad91e8",
+      "manifest_match": true
+    },
+    {
+      "slug": "gour-prasad-ghose",
+      "source": "kb/research/people/gour-prasad-ghose.md",
+      "sha256": "b2cf53cd8b442d622fa5cbfc1fa2f4025082afd2489779286079733f55eb6db1",
+      "manifest_match": true
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/culture/cinema-series/parbati-ghose.md",
+      "sha256": "65c608c60facea50c74da7a81a0ca57348727a42c357f5453517c0c6c82ed55e",
+      "manifest_match": true
+    },
+    {
+      "slug": "sadhu-meher",
+      "source": "kb/research/culture/cinema-series/sadhu-meher.md",
+      "sha256": "0342cde651c557a2446b7c8029385fba0810d3987490178fcaef0b2649b81675",
+      "manifest_match": true
+    },
+    {
+      "slug": "bijay-mohanty",
+      "source": "kb/research/people/bijay-mohanty.md",
+      "sha256": "14318f49f1aad49994a24554550f4edc66b4da29a366b96aec71ea7dce658da9",
+      "manifest_match": true
+    },
+    {
+      "slug": "uttam-mohanty",
+      "source": "kb/research/people/uttam-mohanty.md",
+      "sha256": "6583d3ec47ad683b62f0d10471a2958533e57a1068c048d7599ee3c3bd8e4893",
+      "manifest_match": true
+    },
+    {
+      "slug": "aparajita-mohanty",
+      "source": "kb/research/people/aparajita-mohanty.md",
+      "sha256": "1d55ed5e853a7e2b658585b43f4226b42434521043412f4b65e0baf106c2a1ec",
+      "manifest_match": true
+    },
+    {
+      "slug": "manmohan-mahapatra",
+      "source": "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+      "sha256": "dfcf53c80a100d65fa5881d951bcb903e57896be4db5dda5b7d09cf9f6557c3c",
+      "manifest_match": true
+    },
+    {
+      "slug": "maya-miriga",
+      "source": "kb/research/culture/cinema-series/maya-miriga.md",
+      "sha256": "95bcb997d09aae4057f17a9d78c306fda473211a472432043b796ad1fcc72947",
+      "manifest_match": true
+    },
+    {
+      "slug": "nirad-mohapatra",
+      "source": "kb/research/people/nirad-mohapatra.md",
+      "sha256": "1da62fa6bd84db5f2dddd3cfad10efa61f7b0f2ba197b4c1c1c3fd3d9ac795cf",
+      "manifest_match": true
+    },
+    {
+      "slug": "bhukha",
+      "source": "kb/research/culture/cinema-series/bhukha.md",
+      "sha256": "f2ff0bc22106f40e567f0725b9a13a6d9b6478c219643b1d9e36e9d729c01b28",
+      "manifest_match": true
+    },
+    {
+      "slug": "sabyasachi-mohapatra",
+      "source": "kb/research/people/sabyasachi-mohapatra.md",
+      "sha256": "41ab1b155696766cef6e8c0e596ecd11d57b1c7529a4b44b6c3c24075270af4d",
+      "manifest_match": true
+    },
+    {
+      "slug": "aadim-vichar",
+      "source": "kb/research/culture/cinema-series/aadim-vichar.md",
+      "sha256": "c4decf0757e27c58be24d533ee93fae53a4081a719a7782fefb95cd968681ece",
+      "manifest_match": true
+    },
+    {
+      "slug": "lavanya-preeti",
+      "source": "kb/research/culture/cinema-series/lavanya-preeti.md",
+      "sha256": "4f1f442c63d52b694efdb00a7a580719f617f2963dc541ec2d53e871fd04193a",
+      "manifest_match": true
+    },
+    {
+      "slug": "ak-bir",
+      "source": "kb/research/people/ak-bir.md",
+      "sha256": "aa82c978156923c565ec115bb0692fe5c8157a149ac15283a4948bed5e6d0f88",
+      "manifest_match": true
+    },
+    {
+      "slug": "bijaya-jena",
+      "source": "kb/research/people/bijaya-jena.md",
+      "sha256": "d07f7c4aee605587c6f194308f2bf9474954ef5dc42d258f7f6a55b8f6f27e62",
+      "manifest_match": true
+    },
+    {
+      "slug": "nandita-das",
+      "source": "kb/research/culture/cinema-series/nandita-das.md",
+      "sha256": "0c761644e5a51a81ff6424935dfcca1d39452fc180d650e7974661207e3706d3",
+      "manifest_match": true
+    },
+    {
+      "slug": "pramod-pati",
+      "source": "kb/research/people/pramod-pati.md",
+      "sha256": "786b812fbeaf68ee301bbc8970dbf7839d8b2b3ae1b92a9592a61e59c004a6e3",
+      "manifest_match": true
+    },
+    {
+      "slug": "lipika-singh-darai",
+      "source": "kb/research/people/lipika-singh-darai.md",
+      "sha256": "d9a4f8a62be01a250b6fcb404c58106d571c1095a0c4d4d57f3eb77e5dc011da",
+      "manifest_match": true
+    },
+    {
+      "slug": "learning-cinema-together",
+      "source": "kb/research/culture/cinema-series/learning-cinema-together.md",
+      "sha256": "c5d0be2bf3b2079b1cbd58d653534594c571584faa32c31e47b1b1702d60482a",
+      "manifest_match": true
+    },
+    {
+      "slug": "surya-deo",
+      "source": "kb/research/people/surya-deo.md",
+      "sha256": "9117d1b426c379e360cf7591ab228d2e2e82fb0781b6dd1cfdc964148e1d5c63",
+      "manifest_match": true
+    },
+    {
+      "slug": "searching-for-sita-bibaha",
+      "source": "kb/research/culture/cinema-series/searching-for-sita-bibaha.md",
+      "sha256": "055476616b1dffd8b91a81bb2262ce7d6e4d4fc3b6426ab4a33cd250361d26d4",
+      "manifest_match": true
+    },
+    {
+      "slug": "who-keeps-a-film-alive",
+      "source": "kb/research/culture/cinema-series/who-keeps-a-film-alive.md",
+      "sha256": "3c58ed670289117122a77927b4117333b2530a429222938c471937f9226a7dca",
+      "manifest_match": true
+    },
+    {
+      "slug": "reading-odia-cinema",
+      "source": "kb/research/culture/cinema-series/reading-odia-cinema.md",
+      "sha256": "086201cf0f8de78be599c561284e24a78107b2fbfdad2e7f56a226876149d609",
+      "manifest_match": true
+    },
+    {
+      "slug": "gourahari-das",
+      "source": "kb/research/people/gourahari-das.md",
+      "sha256": "dfdf78a1fe9cf060d462cd4ad3e811317d3daa4f05d13d1eb26195302947d4c5",
+      "manifest_match": true
+    },
+    {
+      "slug": "pratikshya",
+      "source": "kb/research/culture/cinema-series/pratikshya.md",
+      "sha256": "ccb0deb71fff8cc63231f00956fca341458f186b96f786d45c58b46649f08092",
+      "manifest_match": true
+    },
+    {
+      "slug": "anupam-patnaik",
+      "source": "kb/research/people/anupam-patnaik.md",
+      "sha256": "94b2c5282fa1695601ebd449f2fe0045ae8cdec0be67c69d8fcf2fb2c6fa9dfa",
+      "manifest_match": true
+    },
+    {
+      "slug": "daman",
+      "source": "kb/research/culture/cinema-series/daman.md",
+      "sha256": "01058b067a6331a9e20e25ec47e291029448e9599a332f5cdbc8da572793bab8",
+      "manifest_match": true
+    },
+    {
+      "slug": "vishal-mourya",
+      "source": "kb/research/people/vishal-mourya.md",
+      "sha256": "49e37b1fb328a73be9d6cf406a85ab760a8d73e65f40e7eb8120cac594a14530",
+      "manifest_match": true
+    },
+    {
+      "slug": "debi-prasad-lenka",
+      "source": "kb/research/people/debi-prasad-lenka.md",
+      "sha256": "f6c0a4bbf839cf9b599a4b475788bb4d9b9d444cd65be2d16727bf1fb301119b",
+      "manifest_match": true
+    },
+    {
+      "slug": "deependra-samal",
+      "source": "kb/research/people/deependra-samal.md",
+      "sha256": "762931fa833083e273d22d0ed461aa52bfa787e6f8d2efdd50f595bae5e4d804",
+      "manifest_match": true
+    },
+    {
+      "slug": "odia-television",
+      "source": "kb/research/culture/odia-television.md",
+      "sha256": "65a134169f29c0705947bca65bbdf2058b8925ba7d06850be86fee1781e39796",
+      "manifest_match": true
+    },
+    {
+      "slug": "odia-ott",
+      "source": "kb/research/culture/odia-ott.md",
+      "sha256": "395d67434ef2137a98360fd2b58ff3e90954aa9d5dbb858e0f0a8f61c7645688",
+      "manifest_match": true
+    },
+    {
+      "slug": "commercial-successes",
+      "source": "kb/research/culture/cinema-series/commercial-successes.md",
+      "sha256": "92f3dea86358d21fe87e2f64ebbad8f4da7f695a48b77f65fa27d780be52c86a",
+      "manifest_match": true
+    },
+    {
+      "slug": "cinema-economics",
+      "source": "kb/research/culture/cinema-series/cinema-economics.md",
+      "sha256": "b1fc0593559990968d1d24175910b026a36ecb62a4e75fa58cee8e2006e78e96",
+      "manifest_match": true
+    },
+    {
+      "slug": "cinema-futures",
+      "source": "kb/research/culture/cinema-series/cinema-futures.md",
+      "sha256": "725d2b096d1430278b2345b63479a301d8ecb2671bba19f389d387580c33fdec",
+      "manifest_match": true
+    }
+  ],
+  "media_inventory": [
+    {
+      "slug": "the-question-that-brought-me-here",
+      "source": "kb/research/media/cinema-book/ahimanikya-satapathy-portrait.png",
+      "sha256": "49b203a4c68f277d80b5e3204fcf73175d74576dd6f24a26d4ebb4736457d616",
+      "provenance": [
+        "/assets/cinema/author-introduction-provenance.json"
+      ]
+    },
+    {
+      "slug": "literature-and-screen",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/literature-and-screen.png",
+      "sha256": "bc0055b9805184e77133810af4a54d94d6adcab3eb5f3ffdfa37cf0a868ef948",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "basanta-kumari-patnaik",
+      "source": "kb/research/media/cinema-series/basanta-kumari-bookmaking.png",
+      "sha256": "8d258bb4429a154c0b2c897502654da531d125115ab898539eecb0e8449d13fd",
+      "provenance": [
+        "/assets/cinema/basanta-kumari-provenance.json"
+      ]
+    },
+    {
+      "slug": "kalindi-charan-panigrahi",
+      "source": "kb/research/media/cinema-series/kalindi-charan-land-and-family.png",
+      "sha256": "d69501a0a3fc74290d7bb458bb2a84212a19d973d5dfe35a3ff50e2bb17834c4",
+      "provenance": [
+        "/assets/cinema/kalindi-charan-provenance.json"
+      ]
+    },
+    {
+      "slug": "kanhu-charan-mohanty",
+      "source": "kb/research/media/cinema-series/kanhu-charan-household.png",
+      "sha256": "3b63e5068655cf212a77ad276b02e652ad1abcb37a60aabe5e0639d5a9d36cba",
+      "provenance": [
+        "/assets/cinema/kanhu-charan-provenance.json"
+      ]
+    },
+    {
+      "slug": "manglu-charan-biswal",
+      "source": "kb/research/media/cinema-series/manglu-charan-stage.png",
+      "sha256": "336a937bffd8494dd1500c42db0f7f70c6a603273570c5633085db0d250b05ad",
+      "provenance": [
+        "/assets/cinema/manglu-charan-provenance.json"
+      ]
+    },
+    {
+      "slug": "gopal-chhotray",
+      "source": "kb/research/media/cinema-series/gopal-chhotray-words-and-stage.png",
+      "sha256": "a17b272ca77ab777778d4527ed8f9db0e2538d6c582bee659af4d965f8bf8438",
+      "provenance": [
+        "/assets/cinema/gopal-chhotray-provenance.json"
+      ]
+    },
+    {
+      "slug": "bijay-mishra",
+      "source": "kb/research/media/cinema-series/bijay-mishra-hellohappy.jpg",
+      "sha256": "f63f490594c26c6f17900f530bd9ba8fe6c2693d01742156a6a2c2ac1037a1e1",
+      "provenance": [
+        "/assets/cinema/bijay-mishra-provenance.json"
+      ]
+    },
+    {
+      "slug": "air-cuttack",
+      "source": "kb/research/media/air-cuttack/air-cuttack-title.png",
+      "sha256": "82781cb803f820eb1f0acb74fd78a16ac6b0404d1a3507ffc86dfb55cd4fbff3",
+      "provenance": [
+        "/assets/cinema/air-cuttack-title-illustration.json",
+        "/assets/cinema/air-cuttack-title-provenance.json"
+      ]
+    },
+    {
+      "slug": "air-cuttack",
+      "source": "kb/research/media/air-cuttack/akashvani-cuttack-2013.jpg",
+      "sha256": "650c2ac3aec5cf6e979ea0121c935ee9145ce6482d55aaf3964a1279c0ccbc26",
+      "provenance": [
+        "/assets/cinema/air-cuttack-documentary-1-illustration.json",
+        "/assets/cinema/air-cuttack-documentary-1-provenance.json"
+      ]
+    },
+    {
+      "slug": "cinema-music",
+      "source": "kb/research/media/cinema-series/music-2026-10-30/cinema-music.jpg",
+      "sha256": "a9ed71f4b9ba53ff190915b1bf9ff417f9152fa247dd4c8273459f43b224864e",
+      "provenance": [
+        "/assets/cinema/cinema-music-provenance.json"
+      ]
+    },
+    {
+      "slug": "akshaya-mohanty",
+      "source": "kb/research/media/cinema-series/akshaya-mohanty-krupasindhu-muduli.jpg",
+      "sha256": "211e75784c634b5658b27e9a0839ed185ce2dbe03c07f5845b22af2c4df4b350",
+      "provenance": [
+        "/assets/cinema/akshaya-mohanty-provenance.json"
+      ]
+    },
+    {
+      "slug": "prafulla-kar",
+      "source": "kb/research/media/cinema-series/music-2026-10-30/prafulla-kar.jpg",
+      "sha256": "ef768425f4e35a9bee52fb6d42947c4db87b68c16678a00c503222ad6540e594",
+      "provenance": [
+        "/assets/cinema/prafulla-kar-provenance.json"
+      ]
+    },
+    {
+      "slug": "pranab-patnaik",
+      "source": "kb/research/media/cinema-series/music-2026-10-30/pranab-patnaik.jpg",
+      "sha256": "25a98488d65d95d5754ed5d2e5eea4ba31709272dce30fafbf2a3512b64a40df",
+      "provenance": [
+        "/assets/cinema/pranab-patnaik-provenance.json"
+      ]
+    },
+    {
+      "slug": "tapu-mishra",
+      "source": "kb/research/media/cinema-series/music-2026-10-30/tapu-mishra.jpg",
+      "sha256": "e6449b5b3f6bcbdfe0d94971b55038c62571809d786038e5c17b69acd41fea9e",
+      "provenance": [
+        "/assets/cinema/tapu-mishra-provenance.json"
+      ]
+    },
+    {
+      "slug": "odia-cinema",
+      "source": "kb/research/media/cinema-series/reviewed-2026-10-26/odia-cinema-title-v2.png",
+      "sha256": "26ea72baeb3894eb1a1b321d90ed9a82e001db25df13b7f3635c9a2d6ad0e647",
+      "provenance": [
+        "/assets/cinema/odia-cinema-title-daman-provenance.json",
+        "/assets/cinema/odia-cinema-title-nandita-provenance.json",
+        "/assets/cinema/odia-cinema-title-odia-cinema-provenance.json",
+        "/assets/cinema/odia-cinema-title-sadhu-meher-provenance.json"
+      ]
+    },
+    {
+      "slug": "odia-cinema",
+      "source": "kb/research/media/cinema-series/archive/pranab-bijay-mihir-behind-scenes-1989.jpg",
+      "sha256": "7a9fb4f8dd0547a8c8f30c3d2e4390d6e5aef6950735051b88bcb16ee9457a57",
+      "provenance": [
+        "/assets/cinema/pranab-bijay-mihir-1989-provenance.json"
+      ]
+    },
+    {
+      "slug": "gour-prasad-ghose",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/gour-prasad-ghose.png",
+      "sha256": "1cf4bccb8807d7f8056bc87d7d69833495ab825be35b631af572c987ff8ec172",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/media/cinema-series/parbati-ghose-title.png",
+      "sha256": "738b007cd0b81b5a202cc036a62a2a05733d47362c49404b6f1b51156244b5d6",
+      "provenance": [
+        "/assets/cinema/parbati-ghose-title-documentary-media.json",
+        "/assets/cinema/parbati-ghose-title-illustrations.json"
+      ]
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/media/cinema-series/additions/parbati-ghose-india-post-2023.jpg",
+      "sha256": "aab230e5b432bec75ac0b74c456b83e44ce596092bae515ff71023f0c79c2a22",
+      "provenance": [
+        "/assets/cinema/parbati-ghose-documentary-1-provenance.json"
+      ]
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/media/cinema-series/chha-mana-atha-guntha-opening.png",
+      "sha256": "31992a6c8a8f68bd394d5d454235b3709c34d1a0ce45bba829b24f674171420f",
+      "provenance": [
+        "/assets/cinema/parbati-ghose-documentary-2-documentary-media.json",
+        "/assets/cinema/parbati-ghose-documentary-2-illustrations.json"
+      ]
+    },
+    {
+      "slug": "sadhu-meher",
+      "source": "kb/research/media/cinema-series/additions/sadhu-meher-padma-shri-2017.jpg",
+      "sha256": "3e768984074ede1566cb670a80c69ad56e5435ca3a0814c28bc0123eb99da58a",
+      "provenance": [
+        "/assets/cinema/sadhu-meher-documentary-1-provenance.json"
+      ]
+    },
+    {
+      "slug": "bijay-mohanty",
+      "source": "kb/research/media/cinema-series/bijay-mohanty-sahari-bagha.jpg",
+      "sha256": "a18f13724ae905dd2aa83d5c8b225355381aa8968d7d3f52a4fcd56c18aeb218",
+      "provenance": [
+        "/assets/cinema/bijay-mohanty-provenance.json"
+      ]
+    },
+    {
+      "slug": "uttam-mohanty",
+      "source": "kb/research/media/cinema-series/uttam-mohanty-rehearsal.png",
+      "sha256": "9e3a3bdd3ef4110fb56e241579dcd84bd872a767219967d55d24bc626de4f1f1",
+      "provenance": [
+        "/assets/cinema/uttam-mohanty-provenance.json"
+      ]
+    },
+    {
+      "slug": "aparajita-mohanty",
+      "source": "kb/research/media/cinema-series/aparajita-mohanty-script-discussion.png",
+      "sha256": "6088591b11774e8256d5299035582feeb3e0abccaa8aac478568f316054c3f59",
+      "provenance": [
+        "/assets/cinema/aparajita-mohanty-provenance.json"
+      ]
+    },
+    {
+      "slug": "manmohan-mahapatra",
+      "source": "kb/research/media/cinema-series/manmohan-mahapatra-title.png",
+      "sha256": "ccfd5aaa974a0e3f6724d0acb96d2352204a8bdf2bd134a535a902237be7e609",
+      "provenance": [
+        "/assets/cinema/manmohan-mahapatra-title-documentary-media.json",
+        "/assets/cinema/manmohan-mahapatra-title-illustrations.json"
+      ]
+    },
+    {
+      "slug": "manmohan-mahapatra",
+      "source": "kb/research/media/cinema-series/ftii-prabhat-exterior-2018.jpg",
+      "sha256": "e14e1130d5a43bf37ec03916f23bab4ac9d71a1bc776f353f84457be769c8dbb",
+      "provenance": [
+        "/assets/cinema/manmohan-mahapatra-documentary-1-documentary-media.json",
+        "/assets/cinema/manmohan-mahapatra-documentary-1-illustrations.json"
+      ]
+    },
+    {
+      "slug": "maya-miriga",
+      "source": "kb/research/media/cinema-series/maya-miriga-title.png",
+      "sha256": "43b75b2b683a78ef8939406c1a48783c7df8f8fc88f5ef87631f797523f7cd0d",
+      "provenance": [
+        "/assets/cinema/maya-miriga-title-documentary-media.json",
+        "/assets/cinema/maya-miriga-title-illustrations.json"
+      ]
+    },
+    {
+      "slug": "nirad-mohapatra",
+      "source": "kb/research/media/cinema-series/nirad-mohapatra-raj-sampad.jpg",
+      "sha256": "d20471c5457cd46f08f29b9aad63cd340ac9ef1a504a5e279581ea7b53682697",
+      "provenance": [
+        "/assets/cinema/maya-miriga-documentary-1-documentary-media.json",
+        "/assets/cinema/maya-miriga-documentary-1-illustrations.json"
+      ]
+    },
+    {
+      "slug": "bhukha",
+      "source": "kb/research/media/cinema-series/bhukha-title.png",
+      "sha256": "b92c4ddfd24bc587cb4e122bd4e919cab96cf5ac3323548728a0c1f5935ab1d7",
+      "provenance": [
+        "/assets/cinema/bhukha-title-documentary-media.json",
+        "/assets/cinema/bhukha-title-illustrations.json"
+      ]
+    },
+    {
+      "slug": "sabyasachi-mohapatra",
+      "source": "kb/research/media/odia-cinema/sabyasachi-mohapatra.jpg",
+      "sha256": "32e5a118fa9793bdf9a91c80947075459bdd0db44b12bd518fffbf86f378da40",
+      "provenance": [
+        "/assets/cinema/bhukha-documentary-1-provenance.json"
+      ]
+    },
+    {
+      "slug": "aadim-vichar",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/aadim-vichar.png",
+      "sha256": "128af5edd9663d83efcee312f94c9cc69b97591f20bbc9444c265c0e1ba05223",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "lavanya-preeti",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/lavanya-preeti.png",
+      "sha256": "665f7eb567425cb1cb09ae3a110f889bb4b40b564262e196707299a490e3c609",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "ak-bir",
+      "source": "kb/research/media/cinema-series/portraits-2026-10-26/ak-bir-iffi-2015.jpg",
+      "sha256": "d29ff9e8f692f5ddb268c0cbd00643146b5a3a449a7e02b7c378dfb9eb995351",
+      "provenance": []
+    },
+    {
+      "slug": "bijaya-jena",
+      "source": "kb/research/media/cinema-series/bijaya-jena-portrait.jpg",
+      "sha256": "0d08bafcc5e5074c0fbc9d71327e7c564b4739ffe20e2bcb8d3ac9897a55d3de",
+      "provenance": [
+        "/assets/cinema/bijaya-jena-provenance.json"
+      ]
+    },
+    {
+      "slug": "nandita-das",
+      "source": "kb/research/media/cinema-series/nandita-das-2008.jpg",
+      "sha256": "4818aca978dbffe898648762b16600c4eeadbf4de548aff558c52d32ffaafbf1",
+      "provenance": [
+        "/assets/cinema/nandita-das-documentary-1-documentary-media.json",
+        "/assets/cinema/nandita-das-documentary-1-illustrations.json"
+      ]
+    },
+    {
+      "slug": "pramod-pati",
+      "source": "kb/research/media/cinema-series/pramod-pati-animation-study.png",
+      "sha256": "6b89d6db020abdf951bab6e0d00468135eed41f1d8b5e2da21055fabf909c318",
+      "provenance": [
+        "/assets/cinema/pramod-pati-provenance.json"
+      ]
+    },
+    {
+      "slug": "lipika-singh-darai",
+      "source": "kb/research/media/cinema-series/lipika-singh-darai-iffr-2023.jpg",
+      "sha256": "3482399da2d0f9f3d5262acc9bfcf57d2c2e5df73d9caadd3e349e084ae6ec7f",
+      "provenance": [
+        "/assets/cinema/lipika-singh-darai-provenance.json"
+      ]
+    },
+    {
+      "slug": "learning-cinema-together",
+      "source": "kb/research/media/cinema-series/learning-cinema-script-discussion.png",
+      "sha256": "73399d19e677a8d387a89f7f7cf747cba53d54082397283a5f31310d0a207bf8",
+      "provenance": [
+        "/assets/cinema/learning-cinema-provenance.json"
+      ]
+    },
+    {
+      "slug": "surya-deo",
+      "source": "kb/research/media/cinema-series/surya-deo-sangram-keshari-senapati-2023.jpg",
+      "sha256": "7bd034420b43b6bccb6bca45ef7ab10bb851d1cfacff3f91fd504ab254e568eb",
+      "provenance": [
+        "/assets/cinema/surya-deo-provenance.json"
+      ]
+    },
+    {
+      "slug": "searching-for-sita-bibaha",
+      "source": "kb/research/media/cinema-series/searching-for-sita-bibaha-illustration.png",
+      "sha256": "afbc5ee8392bae83f5497f748cd196c0e5ef7814a1e6e6bacc3b3060470306f2",
+      "provenance": [
+        "/assets/cinema/searching-for-sita-bibaha-provenance.json"
+      ]
+    },
+    {
+      "slug": "who-keeps-a-film-alive",
+      "source": "kb/research/media/cinema-series/preserving-a-collection-20261030.png",
+      "sha256": "0156d218be77c6eb2af5c17eb1634a7c850224d680b7ff3491a07a7444d0acec",
+      "provenance": [
+        "/assets/cinema/preservation-provenance.json"
+      ]
+    },
+    {
+      "slug": "reading-odia-cinema",
+      "source": "kb/research/media/cinema-series/reading-odia-cinema-illustration.png",
+      "sha256": "29f5c8d62a7303597541fbf22d8410c1c48a25c5f01a1b1b8ba66bd19fa9616d",
+      "provenance": [
+        "/assets/cinema/reading-odia-cinema-provenance.json"
+      ]
+    },
+    {
+      "slug": "gourahari-das",
+      "source": "kb/research/media/cinema-series/portraits-2026-10-26/gourahari-das-2011.jpg",
+      "sha256": "21cd9e3d1b5bf4192c5fc6a98b238e41cf11e46ea7b9545ae59634eac3f0c8a3",
+      "provenance": []
+    },
+    {
+      "slug": "pratikshya",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/pratikshya.png",
+      "sha256": "82594ce735adcfc95ca620d18350287e42a859914bdd3bb614437e562630cea5",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "anupam-patnaik",
+      "source": "kb/research/media/cinema-series/anupam-patnaik-sangram-keshari-senapati.jpg",
+      "sha256": "41910d53fff8bee3d2bb349e14508601eb2d109672aef7570110b86191c8dd71",
+      "provenance": [
+        "kb/records/anupam-patnaik-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "daman",
+      "source": "kb/research/media/cinema-series/reviewed-2026-10-26/daman-title-v2.png",
+      "sha256": "2bd5182c071b870a4ea53fbff0d40150dad72160ecef5f22a731e9cca80c677b",
+      "provenance": [
+        "/assets/cinema/daman-title-daman-provenance.json",
+        "/assets/cinema/daman-title-nandita-provenance.json",
+        "/assets/cinema/daman-title-odia-cinema-provenance.json",
+        "/assets/cinema/daman-title-sadhu-meher-provenance.json"
+      ]
+    },
+    {
+      "slug": "daman",
+      "source": "kb/research/media/cinema-series/daman/babushaan-mohanty-2018-closeup.jpg",
+      "sha256": "19035cdf5d1b61cf3b057b411c167c9f924606b1c318f8717fdb4ff2a8fed9ea",
+      "provenance": [
+        "/assets/cinema/daman-documentary-1-closeup-provenance.json",
+        "/assets/cinema/daman-documentary-1-illustration.json",
+        "/assets/cinema/daman-documentary-1-provenance.json"
+      ]
+    },
+    {
+      "slug": "vishal-mourya",
+      "source": "kb/research/media/cinema-series/daman-makers-2026-10-27/vishal-mourya.png",
+      "sha256": "2c6d96423a55e44d2d4018c744f5dfec1b00f0ce7de404a969a504b3073e3791",
+      "provenance": [
+        "kb/records/daman-makers-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "debi-prasad-lenka",
+      "source": "kb/research/media/cinema-series/daman-makers-2026-10-27/debi-prasad-lenka.png",
+      "sha256": "c24024bdb821199c116104344de092d3601110cee9e12b22716da6f3a5edf898",
+      "provenance": [
+        "kb/records/daman-makers-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "deependra-samal",
+      "source": "kb/research/media/cinema-series/daman-makers-2026-10-27/deependra-samal.png",
+      "sha256": "a9afe99e33897d3438dfb9affa902c6c197042e1bd1e08925ef060e6d1a40091",
+      "provenance": [
+        "kb/records/daman-makers-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "odia-television",
+      "source": "kb/research/media/odia-television/odia-television-title.png",
+      "sha256": "5a3233de9353ab0364f8940b0cbb737cdbe976321aa7cac649f2fb108af1b110",
+      "provenance": [
+        "/assets/cinema/odia-television-title-provenance.json"
+      ]
+    },
+    {
+      "slug": "odia-ott",
+      "source": "kb/research/media/odia-ott/odia-ott-title.png",
+      "sha256": "ee717f2d671f557332de29e59414cf6079bbedc0176542641c993966a4401ecf",
+      "provenance": [
+        "/assets/cinema/odia-ott-title-provenance.json"
+      ]
+    },
+    {
+      "slug": "commercial-successes",
+      "source": "kb/research/media/cinema-series/distinct-2026-10-27/commercial-successes.png",
+      "sha256": "6f0a1efbfd77fa3330aeb7bc0f458d163765df8c861a461e110c903de71be5d9",
+      "provenance": [
+        "kb/records/cinema-distinct-images-2026-10-27.json"
+      ]
+    },
+    {
+      "slug": "cinema-economics",
+      "source": "kb/research/media/cinema-series/human-natural-2026-10-26/cinema-economics.png",
+      "sha256": "adfd2c42f544806f891f2f26cd03f096f14315b561bd685b4752260df326c014",
+      "provenance": []
+    },
+    {
+      "slug": "cinema-futures",
+      "source": "kb/research/media/cinema-series/human-natural-2026-10-26/cinema-futures.png",
+      "sha256": "7965aea49d4901652c3b9646b875b910915c89942a7a8f3c191754addd43691b",
+      "provenance": []
+    }
+  ],
+  "limits": [
+    "No claim that every historical statement has been independently reverified in this local edition-alignment pass.",
+    "No current book pagination, internal PDF destinations, accessible tags or visual crop claims; those require the next actual build.",
+    "Byte-unique originals do not prove perceptual uniqueness; earlier image audits retain that separate evidence."
+  ],
+  "scope_released": true
+}

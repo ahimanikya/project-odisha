@@ -3,10 +3,10 @@ type: "Cinema History"
 title: "What Makes the Next Film Possible"
 description: "Odia cinema economics: the financing of Maya Miriga, Bou Buttu Bhuta’s reported box-office success, screens, studios and streaming."
 status: "draft"
-research_date: "2026-10-26"
+research_date: "2026-10-31"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-sources: [{"id": "eco-maya-finance", "resource": "https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema"}, {"id": "eco-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "eco-ofdc", "resource": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang"}, {"id": "eco-kalinga", "resource": "https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum"}, {"id": "eco-private", "resource": "https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute"}]
+sources: [{"id": "eco-maya-finance", "resource": "https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema"}, {"id": "eco-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "eco-ofdc", "resource": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang"}, {"id": "eco-kalinga", "resource": "https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum"}, {"id": "eco-private", "resource": "https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute"}, {"id": "audience-mobile-das", "resource": "https://odishapostepaper.com/uploads/epaper/2020-07/5f2306de2891c.pdf"}, {"id": "audience-fsb-parija", "resource": "https://www.edexlive.com/breaking/2018/Jul/20/how-the-film-society-of-bhubaneswar-continues-to-bring-good-cinema-to-odishas-youngsters-3459.html"}]
 hero_image: "../../media/cinema-series/human-natural-2026-10-26/cinema-economics.png"
 series_intro: "Follow the money behind the screen: film finance, reported box-office success and the conditions for making another film."
 series_position: 12
@@ -29,13 +29,17 @@ It helps to follow money through the work. **Finance** makes preparation and pro
 
 A film may also earn through separately agreed television, streaming or other rights. Those payments can arrive on different schedules. To understand what can support another production, the producer needs to bring the actual receipts together and set them against the full costs and obligations. The published Bou Buttu Bhuta reports do not supply that settlement, so they establish a reported hit rather than an audited profit.
 
-This is why a successful release can be both a cultural occasion and a practical opening. It can make a new project worth discussing. Turning that possibility into paid work requires a plan for when money is available and what the next team can responsibly undertake.
+A successful release can make a new project worth discussing. For the next team, the question becomes concrete: when will the money arrive, and what work can it pay for?
 
 ## The audience needs a screen
 
-The [overview](../odia-cinema.md) describes the tension between busy shows and places without convenient cinema access. A successful film and a healthy exhibition network remain different questions.
+For **Lokanath Das**, bringing a film to viewers could mean a boat journey. In a 2020 recollection, the retired Dhenkanal information and public relations employee described putting on village screenings between 1978 and 1995. The government mobile-cinema programme combined films with information documentaries. Among the films he remembered were [ଅମଡ଼ା ବାଟ (Amada Bata)](../../people/basanta-kumari-patnaik.md) and [ମାଟିର ମଣିଷ (Matira Manisha)](../../people/kalindi-charan-panigrahi.md).[^audience-mobile-das] Someone had to make the journey and arrange the encounter between a film and the people who would see it.
 
-Location, showtimes, ticket affordability and the duration of a run shape who can attend. A release plan can begin with those everyday conditions: which towns have suitable screens, when the intended audience can come, and how long the film can remain available as word spreads. Opening-day business and a longer run tell different parts of that story.
+A different route into organising appears in **Abhishek Parija’s** account of the Film Society of Bhubaneswar. He joined its core team after submitting his own film to its festival. At Ravenshaw, he helped a junior and friends establish a film society. A July 2018 report records their screening of Spike Lee’s *Do the Right Thing* on 18 July. Parija described screenings followed by conversation, with attention to a film’s wider context.[^audience-fsb-parija]
+
+These accounts bring the people arranging access into the economics of cinema. What would allow them to keep doing that work? Transport, a suitable venue, permission to exhibit a film and dependable technical arrangements all need attention. So does the time of those who organise the show and welcome its viewers.
+
+A public information programme, a film society and a commercial theatre will answer those questions differently. Ticket receipts describe one part of the relationship. A screening also needs people who can prepare it, bring viewers together and make another encounter possible.
 
 ## Support is more than a building
 
@@ -47,7 +51,7 @@ The redevelopment of Kalinga Studio, inaugurated in October 2026, can be judged 
 
 Streaming changes the route to a viewer, but does not abolish the cost of reaching one. The [OTT chapter](../odia-ott.md) follows the work of building platforms and catalogues. The economic question is what continuing arrangements these outlets can sustain with creators, as well as how many titles they carry.
 
-The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. That continuity is the practical ambition behind the [practical possibilities explored in the final reading](cinema-futures.md).
+The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. The [final reading](cinema-futures.md) stays with the possibilities for giving that work room to continue.
 
 ## Footnotes & Sources
 
@@ -62,6 +66,10 @@ The next film begins where these relationships meet: a writer with time to devel
 [^eco-kalinga]: Chief Minister of Odisha, Kalinga Studio and cinema archive/museum inauguration announcement, 5 October 2026. The announcement does not measure bookings or outcomes. [Read source](https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum).
 
 [^eco-private]: India Cine Hub, Mute Entertainment Private Limited / Mute Studio, Bhubaneswar, directory listing. Advertised services, not independently inspected capacity. [Read source](https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute).
+
+[^audience-mobile-das]: [“Mobile cinema still has its utility, audience,” OrissaPOST](https://odishapostepaper.com/uploads/epaper/2020-07/5f2306de2891c.pdf), 31 July 2020, p. 5; Lokanath Das’s recollections.
+
+[^audience-fsb-parija]: Seema Rajpal, [Film Society of Bhubaneswar and its young organisers](https://www.edexlive.com/breaking/2018/Jul/20/how-the-film-society-of-bhubaneswar-continues-to-bring-good-cinema-to-odishas-youngsters-3459.html), *EdexLive*, 20 July 2018; Abhishek Parija’s account.
 
 ## Further reading
 

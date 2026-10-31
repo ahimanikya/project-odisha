@@ -47,8 +47,8 @@ test('hub provides every named native part shortcut with valid targets',()=>{
 test('current dated downloads and sizes appear before the cover, prior edition remains explicit',()=>{
  const html=read('/cinema/book/');
  for(const book of cinema.review_books){const linkAt=html.indexOf('href="'+book.file+'"');assert.ok(linkAt>=0,book.edition+' download exists');assert.ok(linkAt<html.indexOf('class="book-cover"'));assert.ok(html.includes(book.pages+' pages'));assert.ok(html.includes((book.bytes/1e6).toFixed(1)+' MB'));}
- assert.match(html,/Available PDF edition · 30 October 2026/);assert.match(html,/41 readings/);
- for(const date of ['27 October 2026','26 October 2026'])assert.ok(html.includes('Earlier published edition · '+date));
+ assert.match(html,/Available PDF edition · 31 October 2026/);assert.match(html,/50 readings/);
+ for(const date of ['30 October 2026','27 October 2026','26 October 2026'])assert.ok(html.includes('Earlier published edition · '+date));
  for(const book of cinema.archived_review_books){assert.ok(html.includes('href="'+book.file+'"'));assert.ok(!cinema.review_books.some(current=>current.file===book.file));}
  assert.match(html,/not a printer-specific press-ready PDF/);assert.match(html,/not tagged accessibility editions/);
 });

@@ -15,9 +15,7 @@ hero_image: "../media/cinema-series/portraits-2026-10-26/ak-bir-iffi-2015.jpg"
 
 By Ahimanikya Satapathy
 
-A person behind a camera makes choices about what we notice: a face, a distance, the space between two people. **A. K. Bir’s** career offers a way into cinema through that craft. Trained in cinematography at FTII, he went on to write, photograph and direct films, including *ଆଦି ମୀମାଂସା (Adi Mimansa)* and *ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)*.[^career]
-
-These combined credits give his career a particular shape. The person considering how a story is written was also considering how it would be photographed and directed. Following Bir means attending to those crafts together.
+**A. K. Bir** trained in cinematography at FTII, then went on to write, photograph and direct films, including *ଆଦି ମୀମାଂସା (Adi Mimansa)* and *ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)*.[^career] A story could stay with him through the writing, the camera and the direction of its performers.
 
 ## Making a film for younger viewers
 
@@ -25,19 +23,19 @@ Bir was a director recipient of the **Best Children’s Film of 1993** award for
 
 The [film companion](../culture/cinema-series/lavanya-preeti.md) follows its connection between an inherited love story and the feelings of young people. NFDC’s children’s catalogue also lists it under **Loving Hearts**.[^nfdc] Both names lead to the same film.
 
-Children’s cinema deserves a place within the history of Odia filmmaking because young viewers also encounter language, relationships and cultural memory through stories. It need not be confined to instruction. Curiosity, uncertainty and imagination can be subjects in their own right.
+In this children’s film, adolescent feeling and an inherited tale belong together. Young people’s curiosity and uncertainty are enough to sustain a story.
 
 ## Work beyond a single title
 
 The 45th National Film Awards catalogue records Bir’s films associated with the National Literacy Mission and his involvement in organising international film festivals for children and young people.[^career] The account broadens the picture from creating a film to helping films meet an audience.
 
-Those activities are useful to consider alongside the industry’s economics. A film requires skilled production, but its life also depends on programming, access and the occasions on which people can watch together. Bir’s festival involvement belongs to that work of bringing films and young viewers together.
+His festival work brought another responsibility beside filmmaking: helping create occasions for young people to watch.
 
 ## Looking at the work together
 
 Our series follows directors through different routes: [Nirad Mohapatra](nirad-mohapatra.md) through film societies and teaching, [Sabyasachi Mohapatra](sabyasachi-mohapatra.md) through regional stories and performance, and Bir through cinematography and children’s cinema. Their activities meet in a shared interest: making room for viewers to encounter cinema.
 
-Watch what an image lets us notice before a character speaks. Bir’s combined work as writer, cinematographer and director makes that a particularly rewarding question to bring to his films.
+The filmmaker behind the camera also helped make a place for the child in the audience.
 
 ## Footnotes & Sources
 

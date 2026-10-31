@@ -19,13 +19,13 @@ By Ahimanikya Satapathy
 
 A cinema screening asks viewers to enter a theatre. A television serial asks them to return to a story. Its characters can become familiar through repetition: a conversation continues tomorrow, a conflict develops over weeks, and a household’s ordinary routines become the setting for drama.
 
-For Odia storytelling, television added a different relationship between performers and audiences. It brought pictures into the domestic space already occupied by radio, and created a continuing demand for programmes. Its history belongs beside [AIR Cuttack](air-cuttack.md) and [Odia cinema](odia-cinema.md), with room for their shared writers, performers, music and audiences. These media continued together; none simply erased the one before it.
+For Odia storytelling, television added a different relationship between performers and audiences. It brought pictures into the domestic space already occupied by radio, and created a continuing demand for programmes. Its history belongs beside [AIR Cuttack](air-cuttack.md) and [Odia cinema](odia-cinema.md), with room for their shared writers, performers, music and audiences. They continued to share artists and audiences.
 
 ## A film actor on the small screen
 
 **କେମିତି କହିବି କହ (Kemiti Kahibi Kaha)** offers a concrete connection between television and cinema’s performers. ZEE5’s programme page identifies **Siddhant Mohapatra** and **Supriya Nayak** in its cast and dates the Odia drama to 2021. Its central relationship brings a wealthy businessman and a younger woman into a story about love and an age difference.[^kemiti]
 
-A familiar screen performer can meet viewers in a new rhythm here. Instead of a single feature-length encounter, a serial permits repeated meetings with a character. That difference creates possibilities for development, while also placing pressure on a story to sustain its course.
+A serial gives that relationship time to develop across repeated episodes—and asks the production to keep it alive.
 
 ## Before the satellite channel
 
@@ -40,8 +40,6 @@ Prasar Bharati dates the Odia Regional Language Satellite Service to **2 October
 The broadcaster describes a programme mix spanning literature, folk music, dance, agriculture, news and festivals. Its public catalogue links **କଥା ସରିତା (Katha Sarita)** stories and **ଗୋପାଳ ରହସ୍ୟ (Gopala Rahasya)**, alongside a programme identified with Godabarisha Mishra’s **ପାଣୁ ମିଶ୍ର (Panu Mishra)**. The catalogue connects literary and oral storytelling with television.[^dd]
 
 A retrospective of Manmohan Mahapatra’s work lists *Rakta Tirtha Eram* (1997) and *Nua Sakala* (2000) for DDK Bhubaneswar. The work list places a feature filmmaker within the broadcaster’s production history.[^manmohan-television]
-
-A televised story has choices that radio handles differently. A face can hold a pause; an entrance can be shown rather than announced. Yet dialogue, timing and the listener’s attention still matter. The change is in the tools available to the storyteller, not a measure of which medium is more accomplished.
 
 ## Cable and private channels broaden the schedule
 
@@ -67,7 +65,7 @@ The distinction continues into features. ELE’s ମହାପ୍ରଭୁ ଜଗ
 
 These productions also widen the economics story. ELE’s agreement announcement describes distribution, licensing and merchandising alongside the series itself. Such rights offer possible income beyond tickets; the announcement provides no audited return.[^child-ele-rights]
 
-Original Odia stories, Odia voice performances and translations of work made elsewhere can all enrich children’s viewing. Naming the writers and voice artists gives families another way to explore: following a voice, a story or a studio from one work to the next.
+A child may meet an original Odia story or hear a translated one in Odia. Both depend on people shaping words and voices for that audience.
 
 ## The people keeping the pictures on air
 
@@ -88,7 +86,7 @@ More episodes can create more work, while preparation time, pay and continuity o
 
 The same ZEE5 catalogue advertises episodes of *Kemiti Kahibi Kaha* before their television telecast for viewers in India. A television serial can therefore also be an on-demand offering. The serial’s life now extends beyond its broadcast hour.[^kemiti]
 
-That distinction matters to the [Odia OTT journey](odia-ott.md). Streaming can carry live channels, earlier television episodes, acquired films or productions commissioned specifically for the platform. Each route offers a different relationship between the people commissioning a story and those returning to watch it.
+The [Odia OTT journey](odia-ott.md) follows this extension of the schedule into a catalogue, alongside acquired films and work commissioned for streaming.
 
 Television’s continuing importance is not only a question of who owns a channel. It lies in the programmes people can find, the languages and places they recognise, and the conditions under which the next episode is created.
 

@@ -17,17 +17,15 @@ By Ahimanikya Satapathy
 
 A constable wants a promotion. The man in his custody begins to speak. In Gourahari Das’s short story **“The Culprit,”** the encounter gradually unsettles the policeman’s sense of what that promotion would mean. Listening changes the weight of the case before him.[^culprit]
 
-It is one way into **ଗୌରହରି ଦାସ (Gourahari Das)**: through the movement of a story, before the list of honours or the film adaptation. His writing extends across short fiction, novels, columns, essays, plays and translation.[^author] Cinema is one of the places that work has travelled; the literary life is larger.
+**ଗୌରହରି ଦାସ (Gourahari Das)** writes across short fiction, novels, columns, essays, plays and translation.[^author] Cinema is one of the places that work has travelled; the literary life is larger.
 
 ## Formative surroundings and education
 
 The biographical account on his website places his beginnings in **Sandhagara near the Mantei river**. It describes growing up in a monastery amid financial hardship, then continuing his education with scholarships, studying at Ravenshaw and pursuing postgraduate study at Utkal University.[^traveller]
 
-Those surroundings offer one starting point for approaching his writing. Fiction gives him room to transform experience and enter lives beyond his own; the stories deserve to be met as imagined worlds as well as works by a particular writer.
-
 ## What a short story can make us reconsider
 
-The exchange between Nimai and Sanatan in “The Culprit” gives the detained man room to be heard. Read the complete story in **Snehaprava Das’s translation** at [The Dreaming Machine](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), published through an exchange with *The Antonym*.[^culprit] Following the dialogue lets the reader experience the change that a synopsis can only name. The translator and journal bring that encounter to people who do not read Odia.
+The exchange between Nimai and Sanatan in “The Culprit” gives the detained man room to be heard. Read the complete story in **Snehaprava Das’s translation** at [The Dreaming Machine](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), published through an exchange with *The Antonym*.[^culprit] The translator and journal bring that encounter to people who do not read Odia.
 
 The description of **The Little Monk and Other Stories** on Das’s website introduces rural lives, uneasy family relationships and people living with unequal power. It identifies the Rupa edition by ISBN **978-81-291-1699-4**.[^monk] This is another route into his short fiction, alongside **Kanta O’ Anyanya Galpa**, the collection recognised by the Sahitya Akademi in 2012.[^award]
 
@@ -37,15 +35,13 @@ The description of **The Little Monk and Other Stories** on Das’s website intr
 
 One English reading route is **The Labyrinth**, translated by **Manoranjan Mishra**. Niyogi Books describes its central character, Draupadi, caught between reporting a crime and protecting her family.[^labyrinth] The dilemma is a useful question to carry into the novel: what happens when doing what seems right also threatens someone one loves?
 
-The novel gives that dilemma space to unfold beyond the quick decision a synopsis seems to demand.
-
 ## The newspaper column and the editor’s desk
 
 Das’s literary life also includes journalism. The Kalinga Literary Festival biography identifies **Rajdhani Rajneeti**, a Sambad column written as **Sri Narada**, and **Jibanara Jalachabi**, a column drawing on observations of life.[^columns] The newspaper offers a different rhythm from the novel: a recurring conversation with readers, returning to public affairs and daily experience.
 
 The **2022 Kolkata Literary Meet** profile records him as Sambad’s features editor, editor of the literary monthly **Katha**, and principal of the **Sambad School of Media and Culture**.[^kolkata]
 
-His website’s 2019 account also describes *Katha*’s young-writer competition and his theatre involvement.[^stage] Editing and encouraging new writing make the literary world visible as shared work. Alongside the writer whose name appears on a cover are other writers finding a first reader, a publication and the confidence to continue.
+His website’s 2019 account also describes *Katha*’s young-writer competition and his theatre involvement.[^stage] Editing brought him into contact with other writers’ work, including those entering through the young-writer competition.
 
 ## Translation in both directions
 
@@ -67,7 +63,7 @@ The IFFI account of **ପ୍ରତୀକ୍ଷା (Pratikshya)** credits a short
 
 The [film companion](../culture/cinema-series/pratikshya.md) explores the family drama. The original story’s title remains unidentified in the IFFI account. The adaptation nevertheless offers a way back to the writer, just as a book can send a reader towards theatre or a film.
 
-In Project Odisha’s growing account of contemporary writers, Das belongs first among literary lives. His cinema connection sits beside the short story, the novel, the column, the translator’s work and the occasions on which new voices are heard.
+A viewer coming from *Pratikshya* can return to Nimai and Sanatan in “The Culprit,” or to Draupadi’s dilemma in *The Labyrinth*. The film opens a door into a much larger body of writing.
 
 ## Footnotes & Sources
 

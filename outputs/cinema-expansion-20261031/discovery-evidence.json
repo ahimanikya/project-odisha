@@ -1,0 +1,131 @@
+{
+  "status": "local_map_complete_trailer_uploader_refresh_pending_root_UI",
+  "date": "2026-10-31",
+  "scope": "Queue14 selected discovery only; no source/UI/catalogue changes",
+  "reuse": [
+    "projects/site/src/data/cinema.json",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+    "kb/research/culture/odia-cinema.md",
+    "kb/research/culture/cinema-series/commercial-successes.md",
+    "kb/research/people/pratibha-ray.md",
+    "kb/research/people/fakir-mohan-senapati.md",
+    "kb/records/cinema-new-stories-2026-10-27.json",
+    "kb/records/cinema-viewing-links-contemporary-2026-10-26.json",
+    "projects/site/public/assets/cinema/player/catalogue.json"
+  ],
+  "query_research": {
+    "query": "cinema discovery",
+    "match": "records/cinema-memory-articles-2026-10-29"
+  },
+  "routes": [
+    {
+      "label": "National Film Awards",
+      "url": "/cinema/odia-cinema/#national-film-awards",
+      "evidence": "Exact heading ID inspected in dist-coast current overview",
+      "copy": "Selected film honours, with award years and links to their makers.",
+      "limits": "Not completecensus; awardyear distinctrelease/announcement; no newfacts."
+    },
+    {
+      "label": "International prizes and festival journeys",
+      "url": "/cinema/odia-cinema/#international-prizes-and-festival-journeys",
+      "evidence": "Exact rendered ID",
+      "copy": "Follow prizes, screenings and the different kinds of recognition.",
+      "limits": "Keep festivalselection distinctaward."
+    },
+    {
+      "label": "Studios and the people behind production",
+      "url": "/cinema/odia-cinema/#the-places-and-teams-that-sustain-production",
+      "evidence": "Exact rendered ID; existing sectionOFDC,Kalinga,privatefacility,technicalmemory",
+      "copy": "The facilities, services and collaborations that help films take shape.",
+      "limits": "Directorylisting notcurrentoperationalassessment; inauguration notoutcomes."
+    },
+    {
+      "label": "Reported budgets and collections",
+      "url": "/cinema/commercial-successes/#reported-budgets-and-collections",
+      "evidence": "Exact rendered ID and table read",
+      "copy": "Read dated reports alongside their accounting limits.",
+      "limits": "Notalltime ranking; inconsistentgross/net/territory; notproducerprofit."
+    },
+    {
+      "label": "Fakir Mohan Senapati",
+      "url": "/people/fakir-mohan-senapati/",
+      "evidence": "Existing canonical profile and explicitAstropage",
+      "copy": "Return to the writer behind stories that filmmakers continue to revisit.",
+      "limits": "No duplicate biography needed; Ananta adaptation supportedexistingoverview."
+    },
+    {
+      "label": "Pratibha Ray",
+      "url": "/people/pratibha-ray/",
+      "evidence": "Existing canonical profile and explicitAstropage",
+      "copy": "Explore a literary life and the works that travelled into other arts.",
+      "limits": "Do notimply everyworkadapted oraddnewawardclaims."
+    },
+    {
+      "label": "New stories to follow",
+      "url": "/cinema/odia-cinema/#new-stories-to-follow",
+      "evidence": "Exact renderedH2; saferreadableanchor thanUnicodeH3generatedIDs",
+      "copy": "Begin with selected premises, makers and trailers.",
+      "limits": "Discovery notqualityranking."
+    },
+    {
+      "label": "Selected viewing routes",
+      "url": "/cinema/watch/",
+      "evidence": "Existing watch.astro andpubliccatalogue7entries",
+      "copy": "Check whether each link opens a film, trailer or catalogue.",
+      "limits": "Maintain usercuration; do notrestorepreviousbroadlisting."
+    }
+  ],
+  "videos": [
+    {
+      "id": "bara-badhu-trailer",
+      "titleOdia": "ବର ବଧୂ",
+      "titleEnglish": "Bara Badhu",
+      "videoID": "JiBjnGMaw2Y",
+      "url": "https://www.youtube.com/watch?v=JiBjnGMaw2Y",
+      "type": "trailer",
+      "sourceChannel_retained": "Amara Muzik Odia",
+      "prior_evidence": "overview footnote bara-trailer; cinema-new-stories-2026-10-27 records historicalprimaryindexedmetadata",
+      "fresh_check": "Directwebfetchcachemiss; exactIDsearchonlysecondarymirrors. LocaloEmbedattemptDNSfailure. No freshuploaderconfirmation byAnvesha.",
+      "eligibility": "RootUIconfirmationrequested before newplayerentry",
+      "reason": "A story about work, friendship and a consequential marriage arrangement.",
+      "reason_source": "ExistingCBFCsynopsis andoverview; fictionalplot, notemploymentruleevidence.",
+      "playback_verified": false,
+      "public_domain_verified": false
+    },
+    {
+      "id": "maliput-melodies-trailer",
+      "titleOdia": "ମାଲିପୁଟ",
+      "titleEnglish": "Maliput Melodies",
+      "videoID": "VlETtNwEX9U",
+      "url": "https://www.youtube.com/watch?v=VlETtNwEX9U",
+      "type": "trailer",
+      "sourceChannel_retained": "AAO NXT",
+      "prior_evidence": "overview footnote maliput-trailer; cinema-new-stories-2026-10-27",
+      "fresh_check": "Directwebfetchcachemiss; secondaryexactIDresult suppliestrailer titlebutnotindependentofficialchannelproof. LocaloEmbedDNSfailure.",
+      "eligibility": "RootUIconfirmationrequested before newplayerentry",
+      "reason": "Explore local voices and a film introduced at Indian Panorama2025.",
+      "reason_source": "ExistingPIB PRID2193029 andIFFIfilmguideid6722; selection/screening, notaward.",
+      "playback_verified": false,
+      "public_domain_verified": false
+    },
+    {
+      "id": "ananta-trailer",
+      "titleOdia": "ଅନନ୍ତା",
+      "titleEnglish": "Ananta",
+      "videoID": "aNGaiOD2d74",
+      "url": "https://www.youtube.com/watch?v=aNGaiOD2d74",
+      "type": "trailer",
+      "sourceChannel_retained": "Amara Muzik Odia",
+      "prior_evidence": "cinema-viewing-links-contemporary-2026-10-26 primaryindexedtitle/description; alreadypubliccatalogue7entries",
+      "fresh_check": "DirectYouTubeopensshellwithexactofficialtrailer title, notfullchannelbody.",
+      "eligibility": "Alreadycatalogued; no duplicateentry",
+      "reason": "A recent route from Fakir Mohan’s fiction to the screen.",
+      "playback_verified": false,
+      "public_domain_verified": false
+    }
+  ],
+  "book_guidance": "Expose recognition,studiosection andcommercialtable asselected thematicfinders inbookcontents/readerguide; useexistingchapterheading/page-map rather thanhardcodedpagenumbers. No newchapter orbiography required.",
+  "source_budgets": "No new historicalsource-derivedprose needed; short discoverylabels summarisealreadycitedsections. Existingstatementlimits travelwithlink.",
+  "scope_release": true,
+  "remaining": "RootUItitle/uploaderconfirmation for BaraBadhu andMaliput before newplayerinclusion."
+}

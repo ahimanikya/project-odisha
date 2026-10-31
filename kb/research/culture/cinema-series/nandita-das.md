@@ -29,7 +29,7 @@ Her connection to Odia cinema also includes acting in the language. She appears 
 
 The film received Best Feature Film in Oriya recognition for 1999 at the 47th National Film Awards. The film honour went to its producer and director.[^biswaprakash]
 
-That credit adds a direct professional connection to the family memories with which this story begins: Odisha is also part of her work as a performer.
+Odisha was part of her acting life as well as her family memory.
 
 ## Cannes: serving on a jury, bringing a film
 
@@ -40,7 +40,7 @@ Cannes records Das as a member of its feature-film jury in 2005 and its Cinéfon
 
 *Manto* follows the writer Saadat Hasan Manto through Partition and the move from Bombay to Lahore. Cannes’ synopsis describes a life unsettled by separation, difficulty publishing and obscenity trials. Das wrote and directed the film.[^manto]
 
-The subject gives the festival entry a human shape: a writer whose ability to describe his world is tested by upheaval and prosecution. Beside *ଜ୍ୱିଗାଟୋ (Zwigato)*, it offers a second way into Das’s choice of stories—one concerned with a writer’s freedom, the other with the pressures of earning a living.
+A writer’s freedom is at stake in *Manto*. In *ଜ୍ୱିଗାଟୋ (Zwigato)*, the pressures gather around earning a living.
 
 ## Bhubaneswar, seen through working lives
 
@@ -48,7 +48,7 @@ With *Zwigato*, Odisha becomes the setting of a film she directs. The official s
 
 In her director’s note, Das describes the challenge of making ratings, incentives and algorithmic work legible through human lives. The same page records festival premieres at Toronto, Busan and Kerala in 2022.[^zwigato]
 
-Baripada belongs to her family memory; *Biswaprakash* to her acting work in Odia; *Zwigato* to her work in Odisha as a director. Following those different connections allows a family memory and a working life to remain visible together. *Manto* extends the journey to another writer and another set of places, within a career across languages.
+Baripada belongs to her family memory; *Biswaprakash* to her acting work in Odia; *Zwigato* to her work in Odisha as a director. *Manto* extends that working life to another writer and another set of places.
 
 ## Watch and explore
 

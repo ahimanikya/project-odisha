@@ -17,33 +17,31 @@ By Ahimanikya Satapathy
 
 A film version of *Bhata* was planned, but never made. Among the people involved were Gour Prasad Ghose, Nitai Palit and Gobinda Tej; they went on to form the United Artists theatre group.[^life] An unfinished film had brought future collaborators together.
 
-**Gour Prasad Ghose (1929–1994)** would work as actor, producer and director, later extending his work into television.[^life] Following those responsibilities takes us inside the effort of gathering people around a story.
+**Gour Prasad Ghose (1929–1994)** would work as actor, producer and director, later extending his work into television.[^life]
 
 ## The stage before the screen
 
 The Gour–Parbati archive traces his early acting to Ravenshaw College in Cuttack and to theatre under the name Rai Gour. It recalls his participation in Manoranjan Das’s *August Na* and Kalicharan Patnaik’s *Bhata*.[^life]
 
-That unfinished adaptation is part of the story too. An idea may fail to become a film while the relationships around it continue into other work. Theatre offered more than material to adapt: it brought performers and future collaborators into contact.
+The film remained unmade; the theatre group continued the association. In Gour’s early career, the people gathered around a story could matter beyond the fate of that one production.
 
 ## Bhai Bhai and the work of a producer
 
 The archive identifies **ଭାଇ ଭାଇ (Bhai Bhai, 1956)** as Gour’s first production, under Chitram. Its subject concerned caste and untouchability. The credits name **Santanu Kumar Das** for the story, **Nitai Palit** for screenplay and direction, and **Manoj Das** for dialogue. **Bhubaneswar Mishra and Balakrushna Das**, credited as Bhuban-Kissen, provided the music.[^bhai]
 
-This is a useful way to read a producer’s achievement: through the people whose different skills meet within a film. Gour and Chapala, later known as Parbati Ghose, appeared in the cast alongside performers drawn from the stage and radio. The archive also remembers assistance from Odisha’s Information and Public Relations Department and the government of Nabakrushna Choudhury.[^bhai]
-
-A production brought these people into working relationships: writing and music beside performance, with public assistance remembered as part of the effort.
+Gour and Chapala, later known as Parbati Ghose, appeared in the cast alongside performers drawn from the stage and radio. The archive also remembers assistance from Odisha’s Information and Public Relations Department and the government of Nabakrushna Choudhury.[^bhai]
 
 ## Maa and a wider creative circle
 
 For **ମାଆ (Maa, 1959)**, the credits again name Gour as producer and Nitai Palit for screenplay and direction. **Gopal Chhotray and Biswajit Das** supplied dialogue; **Bhubaneswar Misra** composed the music. Playback credits include **Akshay Mohanty, Pranab Patnaik and Ila Chakraborty**, while **Kelucharan Mahapatra** is credited for dance.[^maa]
 
-The names connect a film to several histories at once: drama, radio, music and dance. A story of cinema told only through its leading actors would miss much of this exchange. The [AIR Cuttack article](../culture/air-cuttack.md) follows another part of that shared creative world.
+Drama, radio, music and dance met in this production. The [AIR Cuttack article](../culture/air-cuttack.md) follows the writers and performers who also worked around the microphone.
 
 ## Gour and Parbati as collaborators
 
-The archive’s filmography records Gour and Parbati across productions including *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. For the latter two, it identifies the directing name **Siddharth** with **Ram Chandra Thakur, Gour and Parbati**.[^credits] That collective credit should remain visible rather than being reassigned to one person.
+The archive’s filmography records Gour and Parbati across productions including *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. For the latter two, it identifies the directing name **Siddharth** with **Ram Chandra Thakur, Gour and Parbati**.[^credits]
 
-[Parbati’s own profile](../culture/cinema-series/parbati-ghose.md) follows her producing, writing, directing and performance work, including *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*. Their partnership belongs in both lives, without making either career merely an appendix to the other.
+[Parbati’s own profile](../culture/cinema-series/parbati-ghose.md) follows her producing, writing, directing and performance work, including *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*. Their partnership continued across these changing responsibilities.
 
 ## Another audience through television
 

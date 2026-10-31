@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "baseline": "c4611bd1b03994f1b1c4f3c78331cfd70f8d1db7",
+  "scope": "Independent AI review; local seven-placement/five-article trial only.",
+  "observed_candidates": {
+    "digital": {
+      "sha256": "83e368ed6f1ca3874e77d891cc5649e3ed4f9ad503a069961d08045699e96270",
+      "pages": 222,
+      "full_pages_viewed": [
+        6,
+        12,
+        56,
+        57,
+        59,
+        72,
+        84
+      ]
+    },
+    "print": {
+      "sha256": "c95f4daa0bcc8802621f39153de7d519f9f3e2da55ce487798ab4762019a027e",
+      "pages": 246,
+      "full_pages_viewed": [
+        6,
+        12,
+        57,
+        58,
+        60,
+        73,
+        85
+      ]
+    }
+  },
+  "scope_checks": {
+    "all41_canonical_files_byte_identical_to_task_baseline": true,
+    "all41_book_body_and_source_hashes_equal_prior_literature_care": true,
+    "seven_original_images_byte_identical_to_baseline": true,
+    "only_actual_geometry_changes": [
+      "Nirad",
+      "Parbati stamp",
+      "Parbati facsimile"
+    ],
+    "other_geometry_unchanged_with_float_tolerance": true,
+    "notes": 382,
+    "citation_pairs": 519,
+    "covers_unchanged": true,
+    "credit_change_only": "Nirad adds Display crop; creator, source and licence retained."
+  },
+  "visual_result": "No blocking failures. Nirad top4:5 crop retains hairline/face and has aligned caption. Author/group/archival frames complete. All seven placements inspected in each edition; no clipping/orphan heading.",
+  "nonblocking_observations": [
+    "Stamp numeric credit wrapped alone; root now repairing with nonbreaking separator.",
+    "216pt facsimile supports context; full-size original preferable for sustained reading.",
+    "Author print~129ppi is unchanged retained treatment, not a new regression."
+  ],
+  "pending": [],
+  "limitations": [
+    "Direct PDF pixel review of listed affected pages, not a whole-book reproving.",
+    "Web conclusions rely on independent assessment of supplied CUA measurements/screenshots, not own browser interaction.",
+    "Full-size-link interaction reported by coordinator.",
+    "No press/PDF-UA certification or human approval."
+  ],
+  "final_caption_delta": {
+    "digital_page": 57,
+    "print_page": 58,
+    "result": "PASS: numeric credit6 stays with final caption word stamp; complete stamp and image/caption edges preserved."
+  },
+  "final_books": {
+    "digital": {
+      "sha256": "0a142538d0d79b78fc10d1c46170e979fb35014c6efb6ca03148072bc14899bb",
+      "pages": 222,
+      "stable_page_map": true,
+      "status": "PASS within seven-placement scope"
+    },
+    "print": {
+      "sha256": "9d6b85b96ddb6686ff108c805ded77872a420f875646d723ad769da6ed5d9c56",
+      "pages": 246,
+      "stable_page_map": true,
+      "status": "PASS within seven-placement scope"
+    }
+  },
+  "web_capture_review": {
+    "provider": "Root CUA captures; independently viewed screenshots, not own browser interaction",
+    "screenshots": [
+      "screenshots/nirad-desktop.png",
+      "screenshots/parbati-facsimile-desktop.png"
+    ],
+    "result": "Nirad face/hairline safely retained and caption begins at image edge. Facsimile complete and proportionate with caption aligned to canvas; screenshot lower caption edge is outside capture area, so complete caption/overflow requires root measurements.",
+    "limitations": "No mobile geometry or keyboard/source-return interaction independently verified from these two captures."
+  },
+  "final_web_evidence_review": {
+    "status": "PASS",
+    "basis": "Independently read coordinator-supplied CUA geometry JSON and visually inspected four screenshots; no own browser interaction claimed.",
+    "measurements_sha256": "f02ce6d584d8109ce22bcd8ded7a999df054a2b4d3f16305568f792b446b5bf5",
+    "routes": 5,
+    "placements_per_viewport": 7,
+    "actual_viewports": [
+      [
+        984,
+        692
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "results": [
+      "All14 measured figure instances loaded and caption-aligned; no document overflow on10 route/viewport checks.",
+      "Only Nirad uses4:5 cover at top center; phone crop retains hairline, face and shoulders.",
+      "Facsimile mobile capture shows all edges, complete caption and numeric7; no clipping.",
+      "Author, group, illustrations, stamp and facsimile measured at natural aspect ratios."
+    ],
+    "screenshots_independently_viewed": [
+      "nirad-desktop.png",
+      "parbati-facsimile-desktop.png",
+      "nirad-mobile.png",
+      "parbati-facsimile-mobile.png"
+    ],
+    "coordinator_only_interaction": "Coordinator reports complete-image link opened intact1200x1788JPEG and returned; not independently replayed."
+  },
+  "final_assessment": "PASS for bounded five-article/seven-placement local trial. No material visual or scope failures. No publication or series-wide rollout authorization implied."
+}
