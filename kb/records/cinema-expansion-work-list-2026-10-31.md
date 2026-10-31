@@ -1,7 +1,7 @@
 ---
 type: "Work list"
 title: "Odia cinema research and story work list"
-status: "publication_in_progress"
+status: "published_with_evidence_gaps"
 ---
 
 # Odia cinema research and story work list
@@ -10,9 +10,9 @@ Strengthen the series through literature, people, creative livelihoods and audie
 
 ## Current progress
 
-The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty now have separately reviewed local articles. Aparajita’s profile follows creative input, learning from Anita Das and producing. The economics chapter now includes documented village-screening and student film-society experiences. The overview now connects children’s viewing to their creative participation and the introduction’s cartoon-character question. The reading guide now follows periodicals, named research contributors and a specific archival booklet lead. The discovery guide now links awards, commercial comparisons, studios and supplementary writers; two official trailers join the viewing room. The overview now includes a verified BPFTIO training route and clarified advertised private post-production services. Production-hire rates and booking terms remain open. The edition-alignment pass is now reviewed: 254-page digital and 282-page print candidates include all 50 readings. Next: author review and separate publication.
+The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty now have separately reviewed local articles. Aparajita’s profile follows creative input, learning from Anita Das and producing. The economics chapter now includes documented village-screening and student film-society experiences. The overview now connects children’s viewing to their creative participation and the introduction’s cartoon-character question. The reading guide now follows periodicals, named research contributors and a specific archival booklet lead. The discovery guide now links awards, commercial comparisons, studios and supplementary writers; two official trailers join the viewing room. The overview now includes a verified BPFTIO training route and clarified advertised private post-production services. Production-hire rates and booking terms remain open. The edition-alignment pass is now reviewed: 254-page digital and 282-page print candidates include all 50 readings. The reviewed 50-reading series and both aligned editions are now [published and live-verified](cinema-publication-2026-10-31.json).
 
-[Preview the reading guide](http://127.0.0.1:8771/cinema/reading-guide/). The local series and candidate books have 50 readings; the published downloads remain the earlier 41-reading edition. [Edition alignment receipt](cinema-edition-alignment-2026-10-31.json).
+[Preview the reading guide](http://127.0.0.1:8771/cinema/reading-guide/). The published series and current books have 50 readings; earlier editions remain archived. [Edition alignment receipt](cinema-edition-alignment-2026-10-31.json).
 
 ## Sequence
 
