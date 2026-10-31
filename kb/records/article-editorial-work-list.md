@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 919. completed: 161, excluded: 467, queued: 291.
+Route inventory: 936. completed: 161, excluded: 484, queued: 291.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -943,3 +943,20 @@ Route inventory: 919. completed: 161, excluded: 467, queued: 291.
 | POD-EDIT-DHAGA-225-20261101 | [ଖଣ୍ଡ଼ିଗଣିଆଁର ଦିଗୁଣ ସରେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-225.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-226-20261101 | [କୋହଳ ପାଇଲେ ଦୋହଡ଼ ଚଷନ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-226.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-227-20261101 | [କାକର ଧରି କି ଘଡ଼ା ଭର୍ତ୍ତି ହୁଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-227.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-228-20261101 | [ଥିଲାବେଳେ ଚିରାକନା ହଜିଗଲେ ମାଠ](https://projectodisha.org/dhaga/sayings/pod-dhaga-228.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-229-20261101 | [ମାଗଣୁ ମହର୍ଗ](https://projectodisha.org/dhaga/sayings/pod-dhaga-229.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-230-20261101 | [ରୋହଦ୍ର ଖରାରେ ଯେ ବସଇ ମୁହିଁ, ଆ ଛାଇକି ବୋଲି ବୋଲନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-230.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-231-20261101 | [ଯଚ୍ନିୟା ମାଲର ରଙ୍ଗ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-231.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-232-20261101 | [ଗାଡ଼ିଆରେ ହଜାଇ ପୋଖରୀରେ ଖୋଜିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-232.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-233-20261101 | [ଦିଆକୁ ଦିଆ, ଅଦିଆକୁ ଦୁଆର ଦିଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-233.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-234-20261101 | [ନାନା ମୁନିଙ୍କର ନାନା ମତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-234.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-235-20261101 | [ଢିଙ୍କି ପଡ଼େ ଧମଧମ, ସାହାବ ଚାକିରି ଭାରି କଠିଣ; ଝାଳ ବୁହେ ଗମଗମ](https://projectodisha.org/dhaga/sayings/pod-dhaga-235.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-236-20261101 | [ଗଛରେ ଚଢ଼ିଛି ମରିବା ପାଇଁ ଜାମିନ ହୋଇଛି ଦେବା ପାଇଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-236.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-237-20261101 | [ପେଟ ପୋଷ ନାହିଁ ଦୋଷ](https://projectodisha.org/dhaga/sayings/pod-dhaga-237.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-238-20261101 | [ଗାଁଆଁ ପରିମଳ ଧୋବା ତୁଠରୁ ଜଣା](https://projectodisha.org/dhaga/sayings/pod-dhaga-238.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-239-20261101 | [ପଡ଼ିଲା ଉତ୍ତାରୁ ଯେ ମାରସି ଲାତ, ପୁଡ଼ିଯାଉ ସେ ଗୋଡ଼ହାତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-239.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-240-20261101 | [ଛେଛରି ଛତା, ହାଟ୍କେ ନେଲେ ପଇସା ହେତା](https://projectodisha.org/dhaga/sayings/pod-dhaga-240.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-241-20261101 | [ପୂରୂବ କହ୍ନେଇ କି? ଲହୁଣିଆଁ ମାଠ କାନ୍ଧରେ ପଡିଲେ, ମଣିଷ ଚିହ୍ନଇ କି?](https://projectodisha.org/dhaga/sayings/pod-dhaga-241.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-242-20261101 | [ନିତି ମଳୁକୁ ଚାହାନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-242.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-243-20261101 | [ଝିଅ ମଲେ ଜୋଇଁ କାହାର ଗୋତ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-243.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-244-20261101 | [ଘୁ ଘୁ ଦେଖିଛି ଫାନ୍ଦ ଦେଖି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-244.html) | excluded | standalone_dhaga_collection |

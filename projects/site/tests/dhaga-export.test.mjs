@@ -106,3 +106,14 @@ test('227 lexical notes and thematic comparison retain their distinct source rol
  assert.ok(h.includes(esc(related.odia))&&h.includes(esc(related.note)));
  assert.match(related.note,/Editorial comparison only/);
 });
+
+
+test('244 shared dictionary source retains lexical228 and primary241 roles',()=>{
+ const sid='dhaga-wiktionary-169883';
+ assert.equal(data.sources.filter(s=>s.id===sid).length,1);
+ const context=data.entries.find(e=>e.id==='POD-DHAGA-228').witnesses.find(w=>w.source_id===sid);
+ assert.ok(context);assert.equal(context.wording,undefined);assert.match(context.note,/Lexical context only/);
+ const h=read('sayings/pod-dhaga-228.html');assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(context.locator)));
+ const primary=data.entries.find(e=>e.id==='POD-DHAGA-241').witnesses.find(w=>w.source_id===sid);assert.ok(primary.wording);
+ const full=read('sayings/pod-dhaga-241.html');assert.ok(full.includes(esc(primary.wording)));assert.ok(full.includes(esc(primary.locator)));
+});
