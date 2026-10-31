@@ -1,0 +1,65 @@
+{
+  "decision": "PASS",
+  "status": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "candidate_head": "42598e833cb95fffe38704ee90ebe2834c17ab96",
+  "deployed_merge": "6d5b7dd9effc15a3ea7a6142c68b4d11c39f8a72",
+  "deployment_run": 41181933112,
+  "deployment_success_evidence": {
+    "path": "/tmp/badhei-run.json",
+    "sha256": "1559ffa71a4dac68b157f604388cb78d4f0e8aff6a397c014803839dd1aed1c1",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "bindings": {
+    "live/live-http-report.json": "4aee4e91da2d1e2e4cebff0261a629f7b774ea717aaf88ec715c9474c7002069",
+    "live/expected.json": "1387f11225f85815ddbdcc07ca4f62b00033c166f3676a7319615517802429d3",
+    "live/verify-live.py": "ff52d85dbc331a33b879080faa582d618b0b590f77ca35a2410a92f35ded676d",
+    "live/captures/article.html": "44d2aebfc0179aa04e43aa01ca82e21339cbc157cf3349a2ee7353a84ed8978f",
+    "live/captures/explore.html": "059caf46892191a164d401ecd9b03e7737aa273770bd0908ec4ecbd0fd74c23b",
+    "live/captures/journey-data.js": "4001c4f33b0096aae28e3292fcd8551da2bf63718cefcffca40986e0988d0bce",
+    "live-browser/browser-review.json": "6da18631cab8f735e0dda866117b3e0508a57580f205114fcf121630a1e52e6a",
+    "live-browser/desktop-opening.png": "7cd824e50fb530ec0b0bf976c00e1c1f8b7842ecf919b478afe19b587d0ceceb",
+    "live-browser/desktop-sources.png": "86348ed3cf12169cf7078f58ce5d5df4d8693b914c9fb394d0ba90bf211ed3da",
+    "live-browser/desktop-reading.html": "0fd33c4869bc1b7985ebcad365960cf2a1e648339e0833cbbd6a48e876261148",
+    "live-browser/phone-opening.png": "8b35c5d9d6b620af14e8630be010c47ca32a722ceb954c595b41d46cd13156ed",
+    "live-browser/phone-sources.png": "e4ab4b2cf246e37e43368d9736436f0d0e38be724064495dc1d9556800d26391",
+    "live-browser/phone-reading.html": "0fd33c4869bc1b7985ebcad365960cf2a1e648339e0833cbbd6a48e876261148"
+  },
+  "actual_visual_review": [
+    "desktop-opening.png",
+    "desktop-sources.png",
+    "phone-opening.png",
+    "phone-sources.png"
+  ],
+  "findings": [
+    "Actually viewed all four fresh live screenshots individually: readable opening and source regions at1280x900 and390x844, no visible clipping/overlap. Phone further-reading arrow wraps harmlessly.",
+    "Independently rehashed all three HTTP captures and parsed actual live article: eight paragraphs and three complete notes present, noindex-follow retained.",
+    "Parsed saved live catalog asset: entire payload equals frozen expected candidate, including Badhei and109 other catalog items.",
+    "Independently parsed both actual downloaded HTML files: eight paragraphs, three substantive source notes and their three links retained.",
+    "Coordinator actual headless Chrome report records12 keyboard note roundtrips, both save/reload checks and both download events. This reviewer inspected evidence, not replayed interactions."
+  ],
+  "blockers": [],
+  "initial_attempts": "Coordinator reports initial wrong-cwd/relative-output setup and file-URL failures; corrected absolute-path run produced final PASS artifacts. No failed attempt is represented as product success.",
+  "limits": [
+    "Live HTML bytes differ from local publication; only the explicitly tested content/catalog is asserted exact.",
+    "No CUA phone, screen-reader, Firefox/WebKit or physical-device claim.",
+    "No exhaustive screenshot coverage of every scroll position and no repeated222-asset re-verification.",
+    "Separate AI review; no human/community approval or new source research.",
+    "Receipt canonical integration/exact-head review remains subsequent."
+  ],
+  "delivery_wrapper": {
+    "programme_id": "POD-A500-132",
+    "work_id": "POD-WORK-323",
+    "authorization": "POD-DEC-225",
+    "status": "pass_with_limitations",
+    "verification": {
+      "deployment_success": true,
+      "live_article_content": true,
+      "whole_catalog_exact": true,
+      "desktop_and_phone_pixels": true,
+      "actual_download_content": true,
+      "complete_html_byte_identity_claimed": false,
+      "receipt_merge_complete": false
+    }
+  }
+}
