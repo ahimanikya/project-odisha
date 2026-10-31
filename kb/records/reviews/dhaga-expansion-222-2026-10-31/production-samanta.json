@@ -1,0 +1,225 @@
+{
+  "status": "READY_FOR_INDEPENDENT_PRODUCTION_REVIEW",
+  "scope": "Isolated output-only staged 222 edition; no canonical installation, Git mutation or publication.",
+  "input_head": "b563120a6384fe87b44163caead28315477517c0",
+  "frozen_book_baseline_head": "323152576f2f0b4bacc997ee6559da3fd99bc389",
+  "stage": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-222-2026-10-31/production/staged-book",
+  "counts": {
+    "entries": 222,
+    "prior_entries_preserved": 219,
+    "new_entries": 3,
+    "sources": 113,
+    "pdf_pages": 135
+  },
+  "pdf": {
+    "pages": 135,
+    "bytes": 101082472,
+    "sha256": "abd51159d42de9d3e2e11a7fe827386b6e293ad19137264508c4804d9fd000a6",
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-222-2026-10-31/production/staged-book/odia-dhaga-book.pdf"
+  },
+  "manifest": {
+    "path": "installation-manifest.json",
+    "sha256": "ae3bbf18385c201d4c47377e995d904edcc4424a22a757f063e7c37edaf576c5",
+    "verified_stage_files": 1236,
+    "changed_or_new_files": 263,
+    "deleted_files": []
+  },
+  "preservation": {
+    "prior219_entry_bytes_exact": true,
+    "prior_art_bytes_exact": true,
+    "prior219_unit_metrics_exact": true,
+    "metric_keys": [
+      "height",
+      "original_image_height_pt",
+      "image_height_pt",
+      "image_scale_factor",
+      "text_scale_factor",
+      "measured_width_pt",
+      "layout"
+    ],
+    "canonical1205_hashes_unchanged": true,
+    "historical_rows_cursors_and_source127_75pending_unchanged": true,
+    "all222_bounds_pass": true,
+    "wide_pages_skip_fillers": true,
+    "body_font": 10.5,
+    "text_scale": 1,
+    "new_prose_exact_package": true,
+    "lexical_context_visible_html": true
+  },
+  "layout": {
+    "new_full_width_ids": [
+      "POD-DHAGA-220",
+      "POD-DHAGA-221",
+      "POD-DHAGA-222"
+    ],
+    "authorization": "Root explicitly approved all three measured floor failures.",
+    "measurements": [
+      {
+        "id": "POD-DHAGA-221",
+        "column_width": 239.63779527559058,
+        "available": 739.8897637795277,
+        "unfitted_height": 836.7014735658042,
+        "original_image_height": 159.7014735658043,
+        "required_image_height": 60.889763779527755,
+        "full_width_required": true,
+        "full_width_unfitted_height": 576.7014735658042
+      },
+      {
+        "id": "POD-DHAGA-222",
+        "column_width": 239.63779527559058,
+        "available": 739.8897637795277,
+        "unfitted_height": 936.7014735658042,
+        "original_image_height": 159.7014735658043,
+        "required_image_height": -39.110236220472245,
+        "full_width_required": true,
+        "full_width_unfitted_height": 632.7014735658042
+      },
+      {
+        "id": "POD-DHAGA-220",
+        "column_width": 239.63779527559058,
+        "available": 739.8897637795277,
+        "unfitted_height": 918.7014735658042,
+        "original_image_height": 159.7014735658043,
+        "required_image_height": -21.110236220472245,
+        "full_width_required": true,
+        "full_width_unfitted_height": 612.7014735658042
+      }
+    ],
+    "final_placements": [
+      {
+        "id": "POD-DHAGA-221",
+        "chapter": "Words & appearances",
+        "original_image_height_pt": 159.7014735658043,
+        "image_height_pt": 159.7014735658043,
+        "image_scale_factor": 1.0,
+        "text_scale_factor": 1,
+        "column": 0,
+        "top": 0,
+        "height": 576.7014735658042,
+        "image_position": "below",
+        "layout": "full-width",
+        "measured_width_pt": 499.27559055118115,
+        "page": 27
+      },
+      {
+        "id": "POD-DHAGA-222",
+        "chapter": "Money & means",
+        "original_image_height_pt": 159.7014735658043,
+        "image_height_pt": 159.7014735658043,
+        "image_scale_factor": 1.0,
+        "text_scale_factor": 1,
+        "column": 0,
+        "top": 0,
+        "height": 632.7014735658042,
+        "image_position": "below",
+        "layout": "full-width",
+        "measured_width_pt": 499.27559055118115,
+        "page": 77
+      },
+      {
+        "id": "POD-DHAGA-220",
+        "chapter": "Relationships & belonging",
+        "original_image_height_pt": 159.7014735658043,
+        "image_height_pt": 159.7014735658043,
+        "image_scale_factor": 1.0,
+        "text_scale_factor": 1,
+        "column": 0,
+        "top": 0,
+        "height": 612.7014735658042,
+        "image_position": "below",
+        "layout": "full-width",
+        "measured_width_pt": 499.27559055118115,
+        "page": 94
+      }
+    ],
+    "body_font_pt": 10.5,
+    "art_height_pt": 159.7014735658043,
+    "prior219_unit_metrics_unchanged": true,
+    "new_full_width_pages_have_no_fillers": true
+  },
+  "tests": [
+    {
+      "command": "python3 build.py",
+      "result": "PASS",
+      "log": "html-build.log"
+    },
+    {
+      "command": "python3 build_source_inventory.py",
+      "result": "PASS",
+      "log": "inventory-build.log"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/dhaga173-pdf-libs bundled-python build_print.py",
+      "result": "PASS",
+      "log": "pdf-build.log"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/dhaga173-pdf-libs bundled-python -m unittest test_repository test_source_inventory",
+      "result": "PASS",
+      "tests": 19,
+      "log": "book-tests.log"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/dhaga173-pdf-libs bundled-python -m unittest test_print_layout",
+      "result": "PASS",
+      "tests": 3,
+      "log": "layout-tests.log"
+    },
+    {
+      "command": "python3 finalize.py and final manifest hash verification",
+      "result": "PASS",
+      "verified_files": 1236
+    }
+  ],
+  "runtime_python": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "pdf_marker": {
+    "executions": 1,
+    "result": "PASS exit 0",
+    "operation": "create",
+    "expected_output_count": 1,
+    "format": "pdf",
+    "log": "pdf-marker.log",
+    "timing": "Immediately before first production measurement/authoring setup command; not repeated for final PDF."
+  },
+  "visual_review": {
+    "rendered_complete_pages": 28,
+    "page_map": "page-map.json",
+    "samanta_actually_viewed_pages": [
+      1,
+      27,
+      77,
+      94,
+      134,
+      135
+    ],
+    "observed": "New reading text and fine artwork hatching are readable without clipping; cover count and selected source credits readable.",
+    "independent_review": "Drishti notified; final integrated verdict pending."
+  },
+  "source_constraints": {
+    "199211": "Visible note-only lexical context, without full-saying wording; not a saying attestation.",
+    "88757": "Exact unresolved variant retained; same dictionary lineage; zero additional entry count.",
+    "prior_source_and_research_rows": "Preserved; original75 pending, 1926 inventory103/full31, 1893 full2/83 drafts unchanged."
+  },
+  "evidence_bindings": {
+    "initial-import.log": "765c9bc1fd42a8ae1dc814d8bdf8905239cd2f09d8de223828c95d373cccacad",
+    "pdf-marker.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "html-build.log": "ea0f1a5aaaee37727a32f30705d001850b19300abc38dbcfad15e58e9b79d1ac",
+    "inventory-build.log": "0e319c8e7ec4ad68f4e5d46ee8ea32d6993e22162ac7a6d116edd64fc28efd5b",
+    "pdf-build.log": "bbec4c228c7c93679e0097b596b390b727d23af747b849844efbdaae5d06ffff",
+    "book-tests.log": "05eb8ee8eeaf414be46369d73d0e052d766137b8b58e8dc09930006727d47543",
+    "layout-tests.log": "921b60a7fd52e978fbb551cacd29df2d6708879400278e1fcc70fceeb0c6f8e0",
+    "preservation.json": "48f69a82ca7d63a1f4776dedb1e31b284ab72e8afcfe0eec89afeffb25df4b5a",
+    "page-map.json": "0d2260b835db618c12305b69c54df87d831319d2291b1413a14143f1382cecd8",
+    "new-entry-measurement.json": "ecaee975dd0dc3b0562525a4a283f7000cda8f57cc082b57526aaa6384a38eee",
+    "../art/generation-provenance.json": "eec4b51cdf39b18c1f908c8869ea2db84d2cf14655baef3371764baa4a684f71",
+    "../drishti/art-review.json": "f7533e39ab29c4c4d4b5c69548cc10944e254dc6b88044961c6a0bfa85f28225",
+    "../anvesha/source-parity.json": "b4cdaf0928fb0cbe13e20fbb0e09da60cc64c22d80db2cc03785acc75ad8c8a0",
+    "../samanta/manifest.json": "11d5ee4e2a518c63f66a5da7dde9ee404ba1d4bd1cfdceeec6c5c95c6ab92584"
+  },
+  "limits": [
+    "Output-only staged edition; no new public acceptance or delivery claim.",
+    "No source research repeated; three approved drafts and five used source records installed exactly with reviewed schema mappings.",
+    "Samanta viewed six selected pages; all28 renders supplied for independent review.",
+    "Repagination follows new full-width units; prior219 unit dimensions, prose and artwork bytes remain unchanged."
+  ]
+}

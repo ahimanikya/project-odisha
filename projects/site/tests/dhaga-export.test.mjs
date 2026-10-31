@@ -15,6 +15,9 @@ test('book navigation uses lowercase public URLs, a pinned exact PDF and retaine
 
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
+ const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
+ assert.ok(exported.bytes<=25_000_000,'Complete public export must remain within25MB');
+ assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
  assert.ok(h.includes('class="book-cover" src="'+cover+'"'));
@@ -72,4 +75,19 @@ test('hot-rice lexical context stays visible without becoming a second saying wi
  assert.match(h,/Lexical context only/);assert.match(h,/does not attest this complete saying/);
  const source=data.sources.find(s=>s.id===context.source_id);
  assert.ok(h.includes(esc(source.url)));assert.ok(read('sources.html').includes(esc(source.url)));
+});
+
+
+test('new plant context remains lexical only and the unresolved variant is retained',()=>{
+ const entry=data.entries.find(e=>e.id==='POD-DHAGA-220');
+ const context=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-199211');
+ assert.ok(context&&!Object.hasOwn(context,'wording'));
+ const h=read('sayings/pod-dhaga-220.html');
+ assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(context.locator)));
+ assert.match(h,/Lexical context only/);assert.match(h,/does not attest this complete saying/);
+ const source=data.sources.find(s=>s.id===context.source_id);
+ assert.ok(h.includes(esc(source.url)));assert.ok(read('sources.html').includes(esc(source.url)));
+ const variant=data.entries.find(e=>e.id==='POD-DHAGA-222').variants.find(v=>v.source_id==='dhaga-wiktionary-88757');
+ assert.ok(variant&&variant.normalized_odia===null);
+ const last=read('sayings/pod-dhaga-222.html');assert.ok(last.includes(esc(variant.odia)));assert.ok(last.includes(esc(variant.note)));
 });

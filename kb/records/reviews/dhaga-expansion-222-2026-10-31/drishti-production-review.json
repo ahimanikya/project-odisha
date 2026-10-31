@@ -1,0 +1,298 @@
+{
+  "reviewer": "Drishti — separate AI review",
+  "decision": "PASS",
+  "scope": "Output-only staged 222 local production; not canonical integration or publication approval",
+  "input_head": "b563120a6384fe87b44163caead28315477517c0",
+  "baseline_head": "323152576f2f0b4bacc997ee6559da3fd99bc389",
+  "pdf": {
+    "pages": 135,
+    "bytes": 101082472,
+    "sha256": "abd51159d42de9d3e2e11a7fe827386b6e293ad19137264508c4804d9fd000a6"
+  },
+  "bindings": {
+    "production/samanta.json": "466401c2311a36e564cac55cba02304718e6ea09227ee047dc43027f1b14ae0d",
+    "production/installation-manifest.json": "ae3bbf18385c201d4c47377e995d904edcc4424a22a757f063e7c37edaf576c5",
+    "production/page-map.json": "0d2260b835db618c12305b69c54df87d831319d2291b1413a14143f1382cecd8",
+    "production/preservation.json": "48f69a82ca7d63a1f4776dedb1e31b284ab72e8afcfe0eec89afeffb25df4b5a",
+    "production/new-entry-measurement.json": "ecaee975dd0dc3b0562525a4a283f7000cda8f57cc082b57526aaa6384a38eee",
+    "drishti/preparation-review.json": "df201c68d15339f7844b84a537b098b283975bde70e0868db2a5c9e0e37cea35",
+    "drishti/art-review.json": "f7533e39ab29c4c4d4b5c69548cc10944e254dc6b88044961c6a0bfa85f28225",
+    "drishti/production-checks.json": "23f3932663a979642412c998f38c85d0379c77189156b9234af671e372dfea1c",
+    "drishti/independent-tests.log": "6d101bffc8246b1be893f27b6e7f8d268e01dbfcdfe5ea133b7b0ec66a4a233b"
+  },
+  "checks": {
+    "all_stage_hashes": true,
+    "all1205_baseline_hashes": true,
+    "prior_entry_asset_bytes": true,
+    "prior219_metrics": true,
+    "render_hashes": true,
+    "pdf_hash": true,
+    "independent22_tests": true,
+    "frozen_stage_unchanged_after_tests": true,
+    "new3_prose_exact_package_except_approved_graphic": true,
+    "199211_visible_context_only": true,
+    "88757_exact_uncertain_variant": true,
+    "all_prior_ledger_source_rows_exact": true,
+    "final_report_all_evidence_bindings": true
+  },
+  "manifest": {
+    "stage_files": 1236,
+    "changed_or_new_files": 263,
+    "deleted_files": []
+  },
+  "independent_tests": {
+    "count": 22,
+    "result": "PASS",
+    "command": "bundled Python -m unittest test_repository.py test_source_inventory.py test_print_layout.py",
+    "execution": "Temporary copy; frozen stage rehashed unchanged afterward"
+  },
+  "visual_review": {
+    "actual_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      26,
+      27,
+      28,
+      45,
+      53,
+      65,
+      76,
+      77,
+      78,
+      93,
+      94,
+      95,
+      110,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135
+    ],
+    "render_bindings": [
+      {
+        "page": 1,
+        "path": "pdf-pages/page-001.png",
+        "sha256": "2b7f79a056b81beb9c99d0af0d35e7477f2eb25665ff3734fbe5eadaee4e6a61",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 2,
+        "path": "pdf-pages/page-002.png",
+        "sha256": "7432e938371a385050c7d23a4ee8667d14f4ba4f071212a8996ac54fdb3a84fe",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 3,
+        "path": "pdf-pages/page-003.png",
+        "sha256": "39b1c170ab3dc6e11e55a8d36a74b6b63a44986bdeaa3da36b8c14e864a0c0a6",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 4,
+        "path": "pdf-pages/page-004.png",
+        "sha256": "c1f8208472a31319daedb896c39b657a6f7e67af808f4efc9f6031ea93da4153",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 5,
+        "path": "pdf-pages/page-005.png",
+        "sha256": "a91a25791e0c34646c87aeb6a162ad8155740520b321f0da83c213bd334e74dd",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 6,
+        "path": "pdf-pages/page-006.png",
+        "sha256": "cebcb5c1b8682ee05efadf2a3bfadffd77e9fd55c49f3ef2a512d1fddb392dcb",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 26,
+        "path": "pdf-pages/page-026.png",
+        "sha256": "a2e1fdfe3350163692adcfab6e758ba2c9da444eb986f30c739256327ddc3134",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 27,
+        "path": "pdf-pages/page-027.png",
+        "sha256": "257da92ab4ffa2637f052ec123cf0983db57afad46a8e7d5ee36595e0407f454",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 28,
+        "path": "pdf-pages/page-028.png",
+        "sha256": "178dc405f28c4d77f83055a3dab9c2442b728f840e8e54579f5b9a8b0a080347",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 45,
+        "path": "pdf-pages/page-045.png",
+        "sha256": "8901a68e6f76e5bebc88ef17aab940721c32ced1c78b6d23ad20fe5ffb60e911",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 53,
+        "path": "pdf-pages/page-053.png",
+        "sha256": "e9437e473512a9745a41ad8b3e827a589740b3ee466d4a0e40911f27dfab3b59",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 65,
+        "path": "pdf-pages/page-065.png",
+        "sha256": "b772313b421b66a50c44f3fcd4228d0ca948e7e2d52677dcc92aac2019a66cc3",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 76,
+        "path": "pdf-pages/page-076.png",
+        "sha256": "06a24830e0cc76d150df184723fed1d94a407fe99b930a4d232733de5b0dcaa7",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 77,
+        "path": "pdf-pages/page-077.png",
+        "sha256": "c1a2004fa2c762866fa41afdf740ea722937e5b2e9d3847d7f51ee3a1dbc0c69",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 78,
+        "path": "pdf-pages/page-078.png",
+        "sha256": "8828b9c6604f0e672f5839fcc2d1a243205aeb2798902f1eef53b527af64f709",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 93,
+        "path": "pdf-pages/page-093.png",
+        "sha256": "ee95d061d6b472726056850e2eac318ddf359847f53ef683afd67b92f4a38292",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 94,
+        "path": "pdf-pages/page-094.png",
+        "sha256": "0b551bfd1e4c907d4b1e96bf16a157a4ed8bfa68497868db490b9ff18a8c1ff6",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 95,
+        "path": "pdf-pages/page-095.png",
+        "sha256": "c427317a91dd3acba07ab325a81d37b09c4968f13940557043ec1be344e0453d",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 110,
+        "path": "pdf-pages/page-110.png",
+        "sha256": "2622440f620e1e39a8809162f9a6ed2984b82c2e50dedd5bbac1ebd7c137f17c",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 127,
+        "path": "pdf-pages/page-127.png",
+        "sha256": "113056dd7d389dadc0945c81e724cf3f7a2438644a3b369fc1979e3b0aa6d3e6",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 128,
+        "path": "pdf-pages/page-128.png",
+        "sha256": "03d249950021ecd782c616b5915725c512c3ca9ac64495eff75a9e2d37d72c12",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 129,
+        "path": "pdf-pages/page-129.png",
+        "sha256": "185c47a619625726b681019058f0d6c29b64e4f3554ef20919f56a15dc3e09bd",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 130,
+        "path": "pdf-pages/page-130.png",
+        "sha256": "a8febc3794c01f6b251ec030983de4f95092db3bbe9fc469e8c8780a85bfda09",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 131,
+        "path": "pdf-pages/page-131.png",
+        "sha256": "c20293aa6575e6545aa531180d72c94aaad3d40a78b811eb66cbfadeafb221ed",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 132,
+        "path": "pdf-pages/page-132.png",
+        "sha256": "f60a68e21ac674398d577c9a818ab6af46f79eb92bc0d2666ffea3a8e185863c",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 133,
+        "path": "pdf-pages/page-133.png",
+        "sha256": "a43780c9880fd4f5b32ad0d5c7e2e1d66d85809ddaadd9da686d04a233e5a09f",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 134,
+        "path": "pdf-pages/page-134.png",
+        "sha256": "d58fa9485c873787c86cd19b9d74c8fa6ebed23485dcb1c056b3bec11b9da6ee",
+        "width": 993,
+        "height": 1404
+      },
+      {
+        "page": 135,
+        "path": "pdf-pages/page-135.png",
+        "sha256": "0d97de7677847ea06193d9dc9696050de15cf4bca0a404d9934308ef2d88cabe",
+        "width": 993,
+        "height": 1404
+      }
+    ],
+    "coverage": "All 28 selected full-page renders individually inspected; all three selected original illustrations reviewed separately.",
+    "findings": [
+      "New 221 page27, 222 page77, and220 page94 retain complete prose, legible Odia shaping and artwork, with no overlap or clipping.",
+      "All three approved full-width exceptions preserve 10.5pt body and text scale1, artwork159.70pt; only their IDs were added to the existing builder exception set. Prior219 unit metrics remain exact.",
+      "Cover222, contents/chapter starts, affected neighbors and credits128–135 fit. SCERT exception retained; 199211 noun-definition credit is lexical only and88757 uncertain variant remains unrepaired.",
+      "Illustrations are imagined editorial examples, not historical evidence; inherited page26 standalone danda wrap is nonblocking and not a changed source text."
+    ]
+  },
+  "source_findings": [
+    "Only approved graphic objects differ from frozen package entry bodies. Three new entries and five used source records; no extra count for variant88757.",
+    "Night-giving concealment remains an explicitly possible editorial reading, not a documented practice. Both second-person verbs in220 remain intact.",
+    "All1205 canonical baseline hashes and prior219 entry/art bytes remain exact."
+  ],
+  "blockers": [],
+  "limits": [
+    "This is separate AI review, not human proofreading, rights clearance, or acceptance/publication credit.",
+    "28 selected pages viewed, not every page of135; prior content protected by byte/metric parity.",
+    "No new source research, live website verification or canonical/Git mutations.",
+    "Public export, responsive derivatives, release checks and deployment remain future gates."
+  ]
+}
