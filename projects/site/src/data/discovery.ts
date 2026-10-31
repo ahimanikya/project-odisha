@@ -46,6 +46,7 @@ const collectionEntries=[
  {label:"Dhoba: washing, payment and ceremonial work",category:"Living culture",dek:"Village payments, ceremonial water, Gandi worship and changing work.",href:"/communities/dhoba/",regions:["Across Odisha"],aliases:[]},
  {label:"Patara: yarn, trade and temple craft",category:"Living culture",dek:"Yarn supplies, silk-rope skills and Gamha Purnima craft.",href:"/communities/patara/",regions:["Across Odisha"],aliases:[]},
  {label:"Kandhamal: leaves, learning and everyday knowledge",category:"Living culture",dek:"Leaf plates, market pressures and locally credited language work.",href:"/stories/kandhamal/",regions:["Kandhamal"],aliases:[]},
+ {label:"Kandhamal Haladi: the work behind a place-name",category:"Food",dek:"Growing, processing and selling turmeric within a documented GI geography.",href:"/stories/kandhamal-haladi/",regions:["Kandhamal"],aliases:[]},
  {label:"Badhei: woodworking, obligation and a name",category:"Living culture",dek:"Dated records of woodworking, community organisation and a naming dispute.",href:"/communities/badhei/",regions:["Across Odisha"],aliases:[]},
  {label:"Kamar: iron, household work and village tools",category:"Living culture",dek:"Household smelting, village tools and changing access to materials.",href:"/communities/kamar/",regions:["Across Odisha"],aliases:[]},
   {label:"Sunari: ornaments, family learning and changing work",category:"Living culture",dek:"Regional ornament work, household learning and changing markets.",href:"/communities/sunari/",regions:["Across Odisha"],aliases:[]},

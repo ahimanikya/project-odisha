@@ -1,0 +1,89 @@
+{
+  "status": "PASS_SCOPED_IMPLEMENTATION",
+  "decision": "PASS",
+  "input_head": "c073bcf4ed2ea4653fdea4fc005da863c04aa0d3",
+  "source_bindings": [
+    {
+      "path": "projects/site/src/pages/stories/kandhamal-haladi.astro",
+      "sha256": "85eeeeaea7944eef3f0e51b30ff3bb338190d205094cca488be6cee1cbc4e2a2"
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "6edb9214ec683c55a44a90feca0638b27e8f7bd5c5d442be47322d36f4e5dbfd"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "eadab2deba3df59bc0e0d31475a26d252c32cdc3d845ce59ef413f5a82f3cca5"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "40865e67b816a57217365fc8c8d3ec250ec539c7856b6691014849578137da30"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "6c7411dd5faf0d3b38513356485b11722e512ece965fd3a3f409a91e8755326a"
+    },
+    {
+      "path": "projects/site/tests/kandhamal-haladi-editorial.test.mjs",
+      "sha256": "44df5267cb7397a913d6ec7caa37493bb4559875ad1e865f859f981019386777"
+    },
+    {
+      "path": "projects/site/tests-coast/kandhamal-haladi-editorial.test.mjs",
+      "sha256": "44df5267cb7397a913d6ec7caa37493bb4559875ad1e865f859f981019386777"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "22c86180c142634133062123010f2f25ee60c431075f98667c8874cd0db9bc0a"
+    },
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "380d92681b300bc6968f06743b1f57a2e0d8fe30a535686a223e321009053f5c"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "408b7feddec59dbb9c89dd3580426ceee04dcc41b9a8a18a0b536f9fc3047861"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "4dd1fb32099b22cba9413dabd571e2e4019202114f61a6d2af6a0c00c0935c3c"
+    }
+  ],
+  "bindings": {
+    "samanta/implementation-report.json": "a41d9d13c40cd1684f97b4a898147ed7600797731e2db5ca247a727809fee29f",
+    "drishti/draft-review.json": "3351cf05a7cee05164dadc7eb06df83373c98ac254783fab4c2353a2a964a16a",
+    "drishti/visual-review.json": "3b18b69d4d2e049e690ec1187dfbdfa21246094949855ecd321766a840333246",
+    "anvesha/article.json": "e21b2be5128d720d9b520d6b6c3d299bb53ca8e86ba39fdb427c54e156b39715",
+    "anvesha/research.json": "9ef7f67c935b029cb146c0cb3640d738fe06883d3fa6f69ffe5f2b2b4c8c5b6b"
+  },
+  "checks": {
+    "canonical_prose_source": "Byte exact reviewed articlee21b2be5 and research9ef7f67c; no source claim changes",
+    "page": "Shared Shell/byline/native numbered footnotes and exact returns/expanded reading paths; unique paragraph IDs; native Save control and no custom keyboard handling",
+    "portable": "Lead+7paragraphs+3complete notes/sourceURLs retained via existing catalog/book functions",
+    "prior_catalog_discovery": "Actual prior source bytes exact after removing only new import/item and one discovery entry",
+    "coast_delta": {
+      "routes": [
+        "/stories/kandhamal-haladi/"
+      ],
+      "journey_ids": [
+        "reading:stories/kandhamal-haladi"
+      ]
+    },
+    "search": "One explicit hold, no eligibility expansion",
+    "preservation": "Independently rehashed1246book files and34reviewed227package files unchanged",
+    "records": "Existing rollout items deep-equal; only831 added.134/325 remain inprogress, finite ownership until reviewed receipt release. Team/programme checks independently PASS",
+    "tests_independently_run": {
+      "command": "Node24 --test tests/kandhamal-haladi-editorial.test.mjs tests-coast/kandhamal-haladi-editorial.test.mjs",
+      "passed": 6,
+      "failed": 0
+    },
+    "worker_evidence": "All11 source hashes and5build/test log hashes match frozen report; full/coast builds and full3+6/coast13 scoped tests PASS",
+    "count_tests": "Only measured+1inventory increments; substantive guards retained"
+  },
+  "blockers": [],
+  "limits": [
+    "Scoped working-tree implementation approval; final committed head and broader/publication gates reviewed separately.",
+    "No reviewer rebuild; independent focused tests read actual built full/coast artifacts.",
+    "Source/visual reviews retained with their explicit limitations; no human/AT/physicalphone claim.",
+    "Future live deployment and delivery receipt not approved by this local review."
+  ]
+}

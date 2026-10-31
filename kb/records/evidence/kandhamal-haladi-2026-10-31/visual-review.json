@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "decision": "PASS",
+  "scope": "Separate AI review of actual local browser pixels and downloaded readings",
+  "bindings": {
+    "browser/desktop-opening.png": "dd9e4c4ca9f20802d4d6ec808948807557c93a02608e1db7249c35f9cac4146b",
+    "browser/desktop-sources.png": "2be366188add9f12ba6fb3ce4fd4c2a7fb5b82686362c6d2c607f31d93d73d5b",
+    "browser/phone-opening.png": "ad4c464b6f2fe5b68ec2d0fa5e4f208f294d29cdfc16d66d367315cbf4d876e8",
+    "browser/phone-sources.png": "3215a569afcae87e503ea5cdf3b919805b3f1b2c9e4b8cadf698b47c7b7fb913",
+    "browser/browser-review.json": "45462afcf0e7fcabccbe94daf9f29f5732e003eb505fbe43d5361257107f4f21",
+    "browser/verify.cjs": "94d006c0367470a886c7aa34a4861568ac0e0711523f2dc9316513e37e89b655",
+    "anvesha/article.json": "e21b2be5128d720d9b520d6b6c3d299bb53ca8e86ba39fdb427c54e156b39715"
+  },
+  "actual_images_viewed": [
+    "browser/desktop-opening.png",
+    "browser/desktop-sources.png",
+    "browser/phone-opening.png",
+    "browser/phone-sources.png"
+  ],
+  "findings": [
+    "Desktop and390px opening title/byline/lead/save control are readable without observed clipping.",
+    "All three source notes are visible in desktop and phone screenshots, including dated sample and no-current-outcome limitations. Source/return links remain distinct; no overlap seen.",
+    "The source label application610 is compact typography but not a factual ambiguity; no blocking issue."
+  ],
+  "independent_download_checks": {
+    "desktop": {
+      "sha256": "7f6db6eead6dc1a8f2c6aeb96492e6de917b2465b4b63690fa973403bbd5cf41",
+      "exact_body_blocks": 8,
+      "complete_notes": 3,
+      "source_urls": 3
+    },
+    "phone": {
+      "sha256": "7f6db6eead6dc1a8f2c6aeb96492e6de917b2465b4b63690fa973403bbd5cf41",
+      "exact_body_blocks": 8,
+      "complete_notes": 3,
+      "source_urls": 3
+    }
+  },
+  "reported_interactions": {
+    "browser": "Actual headless Google Chrome",
+    "viewports": [
+      "1280x900",
+      "390x844"
+    ],
+    "keyboard_exact_note_returns": 12,
+    "save_reload_both": true,
+    "actual_saved_downloads": 2
+  },
+  "blockers": [],
+  "limits": [
+    "Reviewer inspected actual saved screenshots and parsed files; did not replay browser interactions.",
+    "No physical-phone, assistive-technology, Firefox/WebKit or human-editorial review claim.",
+    "Local visual evidence only; final publication artifact binding, exact release head and live review are later gates."
+  ]
+}
