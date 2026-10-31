@@ -2715,12 +2715,15 @@
       "id": "POD-EDIT-102",
       "route": "/languages/districts/baudh/",
       "title": "Baudh \u00b7 languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/baudh-language-utility-review-2026-11-01.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually exclude POD-EDIT-102 as a Census2011 district data utility. Preserve Baudh district391 tables, all44source rows, parent/member classifications, residence denominators, fourlanguage-profile links, interpretation limits and search status. Actual route configuration has no destination or related-discovery narrative. Preserve separate Boudh banking, Bomkai production, Danda and Odia cultural-identity material. Historical district returns do not establish current population, city speech, ancestry or community identity."
     },
     {
       "id": "POD-EDIT-103",
