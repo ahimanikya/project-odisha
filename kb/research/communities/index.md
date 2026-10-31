@@ -27,10 +27,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Patara](https://projectodisha.org/communities/patara/) | Published | Yarn work, trade and named temple services; no universal alias or surname inference. |
 | [Kamar](https://projectodisha.org/communities/kamar/) | Published | Household smelting and village tools; no universal name or metalworker identity inference. |
 | [Sunari](https://projectodisha.org/communities/sunari/) | Published | Regional ornament work, household learning and mixed-community trades; no universal alias. |
+| Badhei | Article in progress | Dated woodworking, service and community councils; naming dispute does not establish current eligibility or surname identity. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The twenty-one topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
+The twenty-two topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
 
 ## Source coverage as accessed on 22 October 2026
 

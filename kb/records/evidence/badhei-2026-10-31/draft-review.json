@@ -1,0 +1,108 @@
+{
+  "decision": "PASS",
+  "status": "PASS_SEPARATE_AI_DRAFT_REVIEW",
+  "input_head": "9d50066380c05803eaf61d17bc43649ff64aef3c",
+  "scope": "Output-only source and editorial review of the complete Badhei draft, not implementation or publication approval.",
+  "bindings": {
+    "HANDOFF.json": "6ca486d703e057d402783d2e771d8738e6cb773c45e936add3b3a617a9770124",
+    "anvesha/article.md": "251e9658cb5c7fb7aaf6400055454535adf6f46303d18b1e6a1bc48805b37e48",
+    "anvesha/claim-source-map.json": "8dd8fde6de9e351b4796baf4cf2afd30f24dc02f14f265fdacb53cb5d93a29a1",
+    "anvesha/report.json": "c3be770007949401957039e1da9570d43c7b52367719b646c4ce6485407dd99b",
+    "samanta/report.json": "cab26dc7787b4f6a7c7ff807ef815beba4b7ce67383bd46c2bc20796ae939988",
+    "samanta/preservation-baseline.json": "f6b436e8676bbaff2681cd2d1ce3fefbbbf77ae531a17e27174e1638a13793b4"
+  },
+  "draft_sha256": "251e9658cb5c7fb7aaf6400055454535adf6f46303d18b1e6a1bc48805b37e48",
+  "blockers": [],
+  "checks": {
+    "complete_article_read": true,
+    "body_paragraphs": 8,
+    "note_definitions": [
+      "1",
+      "2",
+      "3"
+    ],
+    "reference_occurrences": 6,
+    "source_budget_independently_recomputed": {
+      "badhei-thurston1909": {
+        "direct": 146,
+        "shared": 41,
+        "heading": 11,
+        "total": 198,
+        "ceiling": 200
+      },
+      "nolia-ganjam-gazetteer": {
+        "direct": 75,
+        "shared": 41,
+        "heading": 11,
+        "total": 127,
+        "ceiling": 200
+      },
+      "badhei-moharana-judgment2015": {
+        "direct": 132,
+        "shared": 41,
+        "heading": 11,
+        "total": 184,
+        "ceiling": 200
+      }
+    },
+    "preservation": {
+      "canonical_book": {
+        "checked": 1246,
+        "mismatches": []
+      },
+      "reviewed227package": {
+        "checked": 34,
+        "mismatches": []
+      }
+    },
+    "facsimiles_actually_viewed": {
+      "anvesha/captures/scan-7.jpg": "cafb2cfe56755da67bc47d68b12c6961d84b9aca3be04c444582434ef546acd4",
+      "anvesha/captures/scan-225.jpg": "75bcb07499985803ef81f8a4855d561f2b8244ae86d0e9d341537c1b798bb83b",
+      "anvesha/captures/scan-226.jpg": "5d409dedcaef403ecf96421471620897379140d35dad61f8c02cd185acb660fc",
+      "anvesha/captures/scan-227.jpg": "a05eb230ce02b5761e70d9f9389ba0cd7c8e3f1c3e623aaba64253a8a9913879",
+      "anvesha/captures/scan-228.jpg": "cb73e501bf88b23889f0732f662845a6e0408dd3c12df43160b6e5b9dc4b50ee"
+    }
+  },
+  "source_findings": [
+    {
+      "source": "badhei-thurston1909",
+      "result": "Actual title and printed125–128 inspected. Creator roles, service-land obligations, councils and fund supported. Printed Bindhani Būshano differs from transcription; article omits that unusual title. Same work, not independent corroboration.",
+      "url": "https://en.wikisource.org/w/index.php?title=Castes_and_Tribes_of_Southern_India/Badhōyi&oldid=15254115"
+    },
+    {
+      "source": "nolia-ganjam-gazetteer",
+      "result": "Official PDF printed93 and preface checked. Regional wood/iron/stone distinction supported; compilation dependency and upload-date limits retained.",
+      "url": "https://ganjam.odisha.gov.in/sites/default/files/2023-06/2018032995.pdf"
+    },
+    {
+      "source": "badhei-moharana-judgment2015",
+      "result": "Official case facts/date and operative paragraph7 checked. Petitioner-specific certificate direction supported. Article does not turn it into current eligibility advice or universal identity equivalence.",
+      "url": "https://www.orissahighcourt.nic.in/uploads/ilr_cuttack/1581744840.pdf"
+    }
+  ],
+  "editorial_findings": [
+    "A distinct concise article: work leads to obligations, institutions and consequences of naming. It is readable prose rather than a research log.",
+    "No invented fieldwork, dialogue, origin, universal occupational/surname identity or temple-service extension. Future working-family voices are clearly proposed, not claimed obtained.",
+    "Brief Ganjam overlap with Kamar supplies orientation; the institution and naming sections provide substantive distinct reader value.",
+    "Byline is the supplied project author attribution; this review does not certify personal experience."
+  ],
+  "rights_and_attribution": [
+    "Attributed paraphrase and bounded source use; no facsimile publication proposed. Historical date alone is not asserted as image clearance.",
+    "Preserve transcription licence terms, creator roles and exact revision in source metadata. No unrestricted government-image licence inferred."
+  ],
+  "implementation_requirements": [
+    "Preserve all eight paragraphs and three complete source notes in visible and portable reading.",
+    "Recalculate source budgets for any expansion; 1909 allocation is198/200.",
+    "Retain existing Ganjam source identity; facsimile and transcription remain one documentary lineage.",
+    "Do not copy legacy Kamar note omission or collapsed reading path. Actual implementation, browser, download and release gates remain future work."
+  ],
+  "nonblocking_notes": [
+    "Claim map retains the old transcription title spelling in historical findings while separately resolving it against print; do not promote that old spelling to public prose."
+  ],
+  "limits": [
+    "Separate AI review, not human/community consultation or rights/legal certification.",
+    "Only specified title and printed125–128 facsimiles viewed, not the entire1909 volume.",
+    "No current eligibility research, wider ethnographic verification, new source discovery or publication performed.",
+    "No code/build/browser tests needed or claimed for this unchanged output-only draft. Canonical files and reviewed227 package were read and rehashed, not modified."
+  ]
+}

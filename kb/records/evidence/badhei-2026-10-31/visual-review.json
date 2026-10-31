@@ -1,0 +1,55 @@
+{
+  "decision": "PASS",
+  "scope": "Separate AI review of actual saved local Chrome screenshots, browser evidence and downloaded HTML; not live publication.",
+  "bindings": {
+    "browser-review.json": "bd3b4a7e0664d96888b890f252b5e8c0492f01a61bf8aab9a8f82055521e360f",
+    "verify.cjs": "4c855bca13915a18b2104002e3d378bd2b4403bdf0b514118b20c1d006a91371",
+    "desktop-opening.png": "7cd824e50fb530ec0b0bf976c00e1c1f8b7842ecf919b478afe19b587d0ceceb",
+    "desktop-sources.png": "86348ed3cf12169cf7078f58ce5d5df4d8693b914c9fb394d0ba90bf211ed3da",
+    "phone-opening.png": "8b35c5d9d6b620af14e8630be010c47ca32a722ceb954c595b41d46cd13156ed",
+    "phone-sources.png": "e4ab4b2cf246e37e43368d9736436f0d0e38be724064495dc1d9556800d26391"
+  },
+  "canonical_story_sha256": "b9066d0c3e1fdded06b8ad1449cd7b198a9c5fa521eee52d63ed205979f1838a",
+  "actual_images_viewed": [
+    "desktop-opening.png",
+    "desktop-sources.png",
+    "phone-opening.png",
+    "phone-sources.png"
+  ],
+  "visual_findings": [
+    "All four actual PNGs viewed individually. Desktop1280x900 and phone390x844 opening/source views are readable with no visible overlap or horizontal cutoff.",
+    "Title/byline/body hierarchy and visible expanded source notes are clear; phone note wrapping remains readable.",
+    "Phone further-reading arrow wraps onto another line, harmless cosmetic behavior rather than lost content."
+  ],
+  "download_checks": [
+    {
+      "file": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/badhei-article-2026-10-31/browser/desktop-reading.html",
+      "sha256": "21904f8416c37e3ad5c5ae7a4c760a5007c0c23720a54e1386b92dce85d6e316",
+      "eight_paragraphs": true,
+      "three_substantive_notes": true,
+      "three_source_urls": true
+    },
+    {
+      "file": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/badhei-article-2026-10-31/browser/phone-reading.html",
+      "sha256": "21904f8416c37e3ad5c5ae7a4c760a5007c0c23720a54e1386b92dce85d6e316",
+      "eight_paragraphs": true,
+      "three_substantive_notes": true,
+      "three_source_urls": true
+    }
+  ],
+  "reported_browser_interactions_reviewed": {
+    "harness_read": true,
+    "keyboard_note_roundtrips": 12,
+    "save_reload_both": true,
+    "actual_offline_download_both": true,
+    "width_equal_scrollWidth_both": true,
+    "qualification": "Actions executed by coordinator headless Chrome harness. I inspected its code, saved report, screenshots and actual downloaded bytes; I did not replay interactions."
+  },
+  "blockers": [],
+  "limits": [
+    "No CUA phone or assistive-technology testing claimed.",
+    "No Firefox/WebKit or physical phone testing.",
+    "Four saved viewport screenshots are not full-page pixel coverage; complete prose/notes checked through downloaded HTML and existing focused rendering tests.",
+    "No live deployment or final committed head approval."
+  ]
+}

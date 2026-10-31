@@ -1,0 +1,198 @@
+{
+  "status": "PASS_DRAFT_OVERLAP_AND_IMPLEMENTATION_MAPPING_PENDING_SEPARATE_REVIEW",
+  "input_head": "280d7b00bbe31fec1acbff4782c8d1ad8a77c286",
+  "scope": "Output-only repository overlap and implementation mapping; no source retrieval or current legal advice.",
+  "inspected_files": {
+    "projects/site/src/pages/communities/kamar.astro": "3ad6e2f31a011d761ceea9947779ead19dc31d54a895092882186d2632d95781",
+    "projects/site/src/data/journey-catalog.ts": "a1e4d6e53dacbe4d48618f983bc82b55df1fe99023b353c87a3f403a0ab07581",
+    "projects/site/src/data/discovery.ts": "09210fff6f589652a949c17cd6f081911fb15832f008d2e5f93957547a57d351",
+    "projects/site/src/lib/tour-book.mjs": "b62e85982617923810f87541cd2ca69d884f015d47e10bcc35e83ca6d3971253",
+    "projects/site/src/components/ArticleReadingPath.astro": "d3c82142a083ae763edb35f28519272424a11bf2c679d30758f23cb496fa6081",
+    "projects/site/tests-coast/kamar-editorial.test.mjs": "f38c2f5def6300db5ce27b6dad59366ec9f6b6370c247d1247cda4c66e1ff090",
+    "projects/site/editions/coast.json": "95a93fb89de27774c58aa38c1b2398e1776ae29e6dd35b36c36d902a6b3fd828",
+    "projects/site/editions/search-candidate.json": "0716631093b0c36db2b968d98284eb02c39a33bf89cd8ef515d8f45ce6e79329",
+    "kb/research/communities/kamar.json": "c3497672dcfde15a9f9be5e24363d1f32a50ae85323776ea9a126df617bac761",
+    "kb/research/sources/kamar-research.json": "95249119637206ac6b0eaeb78d0708d27bf41443630b03b5e6bcebb72264c24e",
+    "kb/research/communities/coverage-index.json": "e31a58389727cc4111cd52b3fd335ffd7dd0644a90589f277ad07d44bf092390",
+    "kb/research/communities/index.md": "7217520b00879c72366a94ae3ca6975910f665a37eef1772d885c04339558f6d",
+    "kb/reference/article-editorial-standard.md": "2cf78004a05aa57dc303950ad37004484389f1645775532081c0013a09a13238",
+    "kb/records/article-editorial-rollout.json": "4da7a2e861043f82c046cfdb6467308c83ffcb2147b5e545516627c505950677"
+  },
+  "actual_route_findings": {
+    "badhei_route_exists": false,
+    "community_index_route_exists": false,
+    "navigation": "Explore discovery.ts; canonical communities/index.md and coverage-index.json are knowledge records, not an existing public community index route.",
+    "proposed_route": "/communities/badhei/",
+    "proposed_saved_id": "reading:badhei"
+  },
+  "overlap": [
+    {
+      "existing": "Kamar",
+      "shared_source": "nolia-ganjam-gazetteer",
+      "locator": "printed93/PDF109 Badhei entry",
+      "already_told": "Wood/iron/stone regional distinction and Biswakarma grouping.",
+      "distinct_reader_question": "What dated service obligations and community organisation accompanied woodworking, and why does work not settle identity?",
+      "avoid": "Do not reproduce Kamar Penthabahal smelting and Daanla payment narrative as Badhei evidence."
+    },
+    {
+      "existing": "Chitrakara/Raghurajpur occupation table",
+      "limit": "Carpenter occupation or Maharana surname cannot identify Badhei membership."
+    },
+    {
+      "existing": "Patara temple service framing",
+      "limit": "Useful distinction between specific service and entire community; not evidence for Badhei roles."
+    }
+  ],
+  "source_chain": {
+    "prior_readiness": "outputs/community-badhei-readiness-2026-10-24/anvesha.json",
+    "1909": "Previously transcription only; Anvesha owns facsimile resolution before unusual names or exact quotations. Preserve date/colonial attribution, no universal formation claim.",
+    "regional_gazetteers": "Reuse existing nolia-ganjam-gazetteer ID. Bhadrak similarity is not independent corroboration until dependency assessed; upload date is not edition date.",
+    "2015_case": "Historical named dispute, not current eligibility advice or blanket equivalence of administrative labels.",
+    "temple_service": "Supplementary optional only with independent source support; no occupation/surname/service-office equivalence.",
+    "administrative_rows": "Keep raw row004 labels/qualifiers and separate216 unchanged; append a topic only when approved, no splitting/alias inference."
+  },
+  "future_file_map": {
+    "article_and_source": [
+      "kb/research/communities/badhei.json",
+      "kb/research/communities/badhei.md",
+      "kb/research/sources/badhei-research.json",
+      "projects/site/src/pages/communities/badhei.astro"
+    ],
+    "discovery_download": [
+      "projects/site/src/data/discovery.ts",
+      "projects/site/src/data/journey-catalog.ts",
+      "kb/research/communities/index.md",
+      "kb/research/communities/coverage-index.json"
+    ],
+    "edition": [
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json"
+    ],
+    "tests": [
+      "projects/site/tests-coast/badhei-editorial.test.mjs",
+      "projects/site/tests/badhei-editorial.test.mjs"
+    ],
+    "coordinator_records": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/reference/public-website-routes.json",
+      "kb/records/editorial-workbench.json"
+    ],
+    "conditional": "Existing count assertions only if actual new route/catalog count changes; coordinator assigns new acceptance/work/progress records rather than fabricating IDs."
+  },
+  "implementation_details": [
+    "Reuse Shell, ArticleByline, ArticleFootnote/Footnotes, ResearchContents and SaveJourney. Existing Kamar collapsed reading-path markup/test is obsolete for new article; use ArticleReadingPath and leave prior article unchanged.",
+    "Map every canonical paragraph to source IDs; exact numbered return anchors. Include all substantive note qualifications and any timeline in portable practical sections; legacy Kamar mapping drops notes/timeline, so do not copy blindly. Existing tour-book accepts paragraphs without renderer change.",
+    "Keep search hold until separately approved, preserving11 eligible. No illustrative identity assertions or copying unlicensed source photographs.",
+    "Read mandatory modern-web guidance before actual frontend edits; current task is read-only mapping."
+  ],
+  "checks_performed": [
+    "Actual filenames/routes, canonical story/source JSON, source chain and saved-readiness inspection.",
+    "Read actual current template, portable catalog construction, download renderer and existing test assertions.",
+    "No Badhei string in current rollout; no existing article found in inspected route/source paths.",
+    "Actual complete final draft, three-note consistency, author/capture hashes and all preserved book/package hashes checked."
+  ],
+  "future_acceptance": [
+    "Exact canonical-to-rendered and downloadable full-prose/notes parity; source IDs/locators resolve and source-chain limits remain visible.",
+    "Native note navigation and exact returns; expanded reading links; Save/reload and actual downloaded HTML/text.",
+    "Full/coast tests, disclosure and publication budgets; source/map/bundle/rollout/team checks as applicable.",
+    "Actual desktop/390phone readability, no overflow, keyboard/source links; separate review and later release/live receipt."
+  ],
+  "preservation": {
+    "canonical_book_files": 1246,
+    "reviewed227_package_files": 34,
+    "baseline": "samanta/preservation-baseline.json",
+    "final_recheck": "All saved canonical222 book and reviewed227 package hashes unchanged."
+  },
+  "limits": [
+    "No new external verification or legal research; historical evidence resolution belongs to Anvesha.",
+    "No builds/tests/browser warranted for unchanged output-only mapping; listed future checks not claimed executed.",
+    "No canonical/Git writes, publication or programme credit."
+  ],
+  "programme_credit": 0,
+  "draft_review": {
+    "article_sha256": "251e9658cb5c7fb7aaf6400055454535adf6f46303d18b1e6a1bc48805b37e48",
+    "claim_source_map_sha256": "8dd8fde6de9e351b4796baf4cf2afd30f24dc02f14f265fdacb53cb5d93a29a1",
+    "author_report_sha256": "c3be770007949401957039e1da9570d43c7b52367719b646c4ce6485407dd99b",
+    "article_title": "Badhei: woodworking, obligation and a name",
+    "body_paragraphs": 8,
+    "source_definitions": 3,
+    "source_markers": 6,
+    "exact_reference_set": [
+      "1",
+      "2",
+      "3"
+    ],
+    "reader_question_answered": "Dated woodworking description is extended by service-land obligations, council support and consequences of a spelling-based certificate refusal. This supplies a distinct article beyond Kamar.",
+    "overlap_assessment": "One short regional wood/iron/stone paragraph overlaps the same Ganjam source. Remaining1909 organisation/service material and2015 case are distinct from published Kamar; no duplicated Penthabahal or Daanla narrative.",
+    "limits_preserved": [
+      "Colonial description explicitly dated and not present customs.",
+      "Petitioner-specific2015 judgment, no current eligibility advice or universal name/occupation/surname equivalence.",
+      "Maharana title is not a membership test.",
+      "No Puri service extension, ancestry or creation date.",
+      "Conclusion invites working-family voices without claiming fieldwork."
+    ],
+    "source_chain": "Same1909 work in facsimile/transcription; no extra source count. Ganjam preface reuse retained in note1. Reuse nolia-ganjam-gazetteer ID; two dedicated new IDs for1909 and2015.",
+    "source_budgets_as_author_reported": {
+      "badhei-thurston1909": {
+        "assigned_paragraph_indices": [
+          4,
+          5,
+          6,
+          7,
+          15
+        ],
+        "paragraph_words_including_headings_notes": 146,
+        "shared_intro_and_conclusion_allowance": 41,
+        "full_title_and_source_heading_allowance": 11,
+        "total_conservative_derived_words": 198,
+        "limit": 200
+      },
+      "nolia-ganjam-gazetteer": {
+        "assigned_paragraph_indices": [
+          3,
+          11,
+          14
+        ],
+        "paragraph_words_including_headings_notes": 75,
+        "shared_intro_and_conclusion_allowance": 41,
+        "full_title_and_source_heading_allowance": 11,
+        "total_conservative_derived_words": 127,
+        "limit": 200
+      },
+      "badhei-moharana-judgment2015": {
+        "assigned_paragraph_indices": [
+          8,
+          9,
+          10,
+          16
+        ],
+        "paragraph_words_including_headings_notes": 132,
+        "shared_intro_and_conclusion_allowance": 41,
+        "full_title_and_source_heading_allowance": 11,
+        "total_conservative_derived_words": 184,
+        "limit": 200
+      }
+    },
+    "budget_limit": "Do not expand source-derived prose during wrapper conversion; retain exact eight paragraphs/three notes and recalculate if amended.",
+    "checks": "Read complete draft and claim map; verified all supplied capture hashes, but did not repeat researcher scan inspection or legal retrieval. No factual-overlap blocker found.",
+    "publication": "Not approved or performed by this report."
+  },
+  "sequential_tasklist": {
+    "path": "outputs/article-series-2026-10-31/TASKS.md",
+    "sha256": "43f4c071363f73e8ee0cd697ea5921e61a2e964114c0413366db574cddfef518",
+    "order": [
+      "Badhei",
+      "Kandhamal narrative distinct from Census utility",
+      "Kandhamal Haladi"
+    ],
+    "constraint": "Finish separate review, authorized implementation, tests, publication/live verification/receipt for one article before next. Current output mapping creates no claim or count."
+  },
+  "portable_exact_mapping": {
+    "lead": "First body paragraph, once; preserve byline/title.",
+    "sections": "Regional opening paragraph plus three headed sections; all eight paragraphs must survive exactly once.",
+    "notes": "All three source note texts retained as a source-notes practical section, in addition to title/URL reference links. Do not follow legacy Kamar omission.",
+    "source_pin": "Retain1909 exact revision15254115 in canonical source metadata; preserve printed125–128 locator and creator roles.",
+    "further_reading": "Use Kamar as a complementary craft reading; Patara only as distinction of specific service from community, not evidence about Badhei. No unsupported new connection."
+  }
+}
