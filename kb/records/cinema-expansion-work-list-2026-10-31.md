@@ -4,9 +4,9 @@ Strengthen the series through literature, people, creative livelihoods and audie
 
 ## Current progress
 
-The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty now have separately reviewed local articles. Aparajita’s profile follows creative input, learning from Anita Das and producing. The economics chapter now includes documented village-screening and student film-society experiences. The overview now connects children’s viewing to their creative participation and the introduction’s cartoon-character question. Next: Read the sources more deeply.
+The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty now have separately reviewed local articles. Aparajita’s profile follows creative input, learning from Anita Das and producing. The economics chapter now includes documented village-screening and student film-society experiences. The overview now connects children’s viewing to their creative participation and the introduction’s cartoon-character question. The reading guide now follows periodicals, named research contributors and a specific archival booklet lead. Next: Make the existing research easier to find.
 
-[Preview the children’s section](http://127.0.0.1:8771/cinema/odia-cinema/#children-imagination-and-the-screen). The local series has 50 readings; the published books remain the earlier 41-reading edition.
+[Preview the expanded reading guide](http://127.0.0.1:8771/cinema/reading-odia-cinema/#periodicals-and-the-people-behind-the-pages). The local series has 50 readings; the published books remain the earlier 41-reading edition.
 
 ## Sequence
 
@@ -24,7 +24,7 @@ The adaptation research pass is reviewed. Source-author film compensation remain
 | 10 | Aparajita Mohanty | Develop acting and production work; fairly connect supporting performers, Anita Das and comedy where evidence warrants. | Local draft reviewed |
 | 11 | Audiences and the people who bring films to them | Find a documented viewer, library, film-club, exhibitor or technician experience; connect access, work and livelihood without invented audience consensus. | Economics enhancement reviewed |
 | 12 | Children and Odia screen stories | Connect scattered film, animation and dubbing research to the introduction's children's question. Enhance first; a dedicated article requires substantial additional evidence. | Overview enhancement reviewed |
-| 13 | Read the sources more deeply | Inspect selected complete works and accessible original film periodicals/booklets. Pursue the Banichitra and Suna Sansara finance lead only with original evidence. | Queued |
+| 13 | Read the sources more deeply | Inspect selected complete works and accessible original film periodicals/booklets. Pursue the Banichitra and Suna Sansara finance lead only with original evidence. | Reading-guide enhancement reviewed; original issues and finance open |
 | 14 | Make the existing research easier to find | Connect awards, commercial comparisons and studio material in the book contents; connect verified newer-film trailers to viewing discovery. Reuse Pratibha Ray and Fakir Mohan profiles. | Queued |
 | 15 | Establish practical studio access | Verify actual booking, services, equipment or training access where public evidence exists; distinguish plans and advertised services from inspected operations. | Queued |
 | 16 | Align the revised series and book editions | Rebuild and review the accumulated accepted changes, check unique image use, source notes and book contents; prepare matching digital/print downloads for a separately recorded release. | Queued |
@@ -56,3 +56,5 @@ Research and review files are linked from the structured queue. [Kanhu illustrat
 [Audience research](../../outputs/cinema-expansion-20261031/audiences-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/audiences-review.json) and [integration checks](../../outputs/cinema-expansion-20261031/audiences-integration.json) preserve the public-outreach and student-screening accounts, their limits and the unchanged image.
 
 [Children research](../../outputs/cinema-expansion-20261031/children-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/children-review.json) and [integration checks](../../outputs/cinema-expansion-20261031/children-integration.json) preserve the animation credits, language distinctions, source-access limits and reader links.
+
+[Books and periodicals research](../../outputs/cinema-expansion-20261031/books-periodicals-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/books-periodicals-review.json) and [integration checks](../../outputs/cinema-expansion-20261031/books-periodicals-integration.json) distinguish inspected original preview pages, an attributed retrospective and a catalogue-only booklet. Complete-work and original-periodical reading remain open; exhausted Banichitra finance searches are not repeated without new primary evidence.
