@@ -1,0 +1,36 @@
+{
+  "decision": "PASS",
+  "status": "PASS_ASSEMBLED_PARITY",
+  "input_head": "196c71595dc3a5562d140cfbf9971423803a9417",
+  "bundle_sha256": "cbbbd5d262351d10275cfaa1b4528c988c2428e1458e6200d66b8b4f2ea83b49",
+  "evidence_hashes": {
+    "anvesha/candidates.json": "24a3c1e1987576a1539fd16e70a18afda85b183de0259e37a71f90256ccfa83f",
+    "anvesha/report.json": "1d2a97e25236a7067cef60ee5390089b24357095aa1d17385996b925e4ef5fbb",
+    "anvesha/dispositions.json": "914f94f160a3cf1f162ade6f916eb2fae8d5a3db7b3b5995bd45e2eb5dcb1c9c",
+    "samanta/report.json": "ca84858491e30261f821081743d65fe1ce51da15602c819da4b1fd797e98fc16",
+    "samanta/validation.json": "892f72f2fe2683998cbfcd5ce75c27b81d09c37774fef08fca1905bfa8b9b8f4",
+    "drishti/integrated-review.json": "2199f983601875745d79c6ea1eea784e607c65f3e0e4a4f01dd19c33b8663724"
+  },
+  "checks": {
+    "three_entry_objects_exact": true,
+    "fourteen_research_source_objects_exact": true,
+    "six_deferred_objects_exact": true,
+    "six_evidence_hashes_exact": true,
+    "nine_positions_three_drafts_six_deferrals": true,
+    "zero_acceptance_and_credit": true
+  },
+  "requirements_reviewed": [
+    "Import only five referenced source IDs13554,199211,39121,223744,88757; other research source objects stay in evidence.",
+    "199211 is lexical context only. Expose its citation via a context note without full-saying witness wording; context_source_ids alone is not rendered.",
+    "88757 contains an exact related variant with unresolvedନୀକରେ; preserve it without normalization, no extra unique count.",
+    "Giving after dark is an explicitly possible editorial reading; no fixed gift custom or certified traditional moral.",
+    "Preserve historical twig context without medical/botanical recommendations."
+  ],
+  "findings": [],
+  "limits": [
+    "Parity-only separate AI review reusing frozen integrated source review; no repeated research or new source verification.",
+    "Five used sources only in any future public package;199211 context-only visible citation and88757 unresolved same-lineage variant remain mandatory.",
+    "No canonical/Git/public writes; current219 edition and1205-file preservation remain bound to prior technical evidence, not rehashed in this parity pass."
+  ],
+  "next_action": "Local reviewed research handoff ready; illustrated integration and publication require their separate gates."
+}

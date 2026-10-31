@@ -1,0 +1,100 @@
+{
+  "decision": "PASS",
+  "status": "PASS_SEPARATE_STAGING_PREPARATION_REVIEW",
+  "input_head": "323152576f2f0b4bacc997ee6559da3fd99bc389",
+  "bindings": {
+    "HANDOFF.json": "4c60d17d45c6973d0c242d70cd011a7b02592ca7670550050f83a3101e4471ce",
+    "samanta/manifest.json": "11d5ee4e2a518c63f66a5da7dde9ee404ba1d4bd1cfdceeec6c5c95c6ab92584",
+    "samanta/import-package.py": "0fcce4c7cf982c104b03a043b20d54e072b49c4af5041e06388df05793b96a26",
+    "samanta/report.json": "16a56cf769ec37e8d4bdcc0ba34505c96dfca823067ae87aa9aaf23de714ddc2",
+    "samanta/prose-parity.json": "962eb28247a3792a356f8ab941ba834e2a2b8a6886a7c5493196cbd0f143dee3",
+    "samanta/staging-validation.json": "fc0c75782757e8eb883c8b8157ba39820b06548dfa2e0c5d58698ed19eaac1e9",
+    "anvesha/source-parity.json": "b4cdaf0928fb0cbe13e20fbb0e09da60cc64c22d80db2cc03785acc75ad8c8a0",
+    "anvesha/illustration-briefs.json": "f064804cdcd18391d33bcbd2dccf14ddcba7becd63a61d7154596cd808707482"
+  },
+  "actual_independent_tests": {
+    "manifest_sha256": "11d5ee4e2a518c63f66a5da7dde9ee404ba1d4bd1cfdceeec6c5c95c6ab92584",
+    "importer_sha256": "0fcce4c7cf982c104b03a043b20d54e072b49c4af5041e06388df05793b96a26",
+    "baseline_files": 1205,
+    "dry_run": true,
+    "actual_temp_apply": true,
+    "refused_no_env": true,
+    "refused_git_destination": true,
+    "refused_wrong_baseline": true,
+    "refused_repeat": true,
+    "only_four_existing_metadata_files_changed": [
+      "collection-metadata.json",
+      "coverage-ledger.json",
+      "research-design.json",
+      "source127.json"
+    ],
+    "three_entries_exact_approved_mapping": true,
+    "five_sources_only": true,
+    "prior219_and_generated_collection_pdf_unchanged": true,
+    "historical_ledger_fields_unchanged": true,
+    "canonical_baseline_rehashed_unchanged": true,
+    "temporary_copy_removed": true,
+    "apply_result": {
+      "mode": "staging applied",
+      "planned_files": [
+        "collection-metadata.json",
+        "coverage-ledger.json",
+        "entries/POD-DHAGA-220.json",
+        "entries/POD-DHAGA-221.json",
+        "entries/POD-DHAGA-222.json",
+        "evidence/expansion222-2026-10-31/anvesha/candidates.json",
+        "evidence/expansion222-2026-10-31/anvesha/captures/13554.txt",
+        "evidence/expansion222-2026-10-31/anvesha/captures/199211.txt",
+        "evidence/expansion222-2026-10-31/anvesha/captures/223744.txt",
+        "evidence/expansion222-2026-10-31/anvesha/captures/39121.txt",
+        "evidence/expansion222-2026-10-31/anvesha/captures/88757.txt",
+        "evidence/expansion222-2026-10-31/anvesha/captures/lexical.json",
+        "evidence/expansion222-2026-10-31/anvesha/captures/originals.json",
+        "evidence/expansion222-2026-10-31/anvesha/dispositions.json",
+        "evidence/expansion222-2026-10-31/anvesha/report.json",
+        "evidence/expansion222-2026-10-31/candidate-bundle.json",
+        "evidence/expansion222-2026-10-31/delivery.json",
+        "evidence/expansion222-2026-10-31/drishti/assembled-review.json",
+        "evidence/expansion222-2026-10-31/drishti/integrated-review.json",
+        "evidence/expansion222-2026-10-31/drishti/source-context.json",
+        "evidence/expansion222-2026-10-31/samanta/report.json",
+        "evidence/expansion222-2026-10-31/samanta/validation.json",
+        "research-design.json",
+        "source127.json"
+      ],
+      "proposed_total": 222,
+      "prior_entries_untouched": 219,
+      "new_sources": 5,
+      "art_missing": 3,
+      "final_build_ready": false,
+      "accepted_increment": 0,
+      "generated_collection_pdf_unchanged": true
+    }
+  },
+  "resolved_findings": [
+    {
+      "issue": "Draft variant wording key in222 was incompatible with current build.validate/reader variant odia requirement.",
+      "resolution": "Author mapped wording→odia only; exact uncertain text, source, locator, note and normalized-null preserved. Independent final temp test rerun passed; all three draft objects equal after declared mappings.",
+      "final_manifest_sha256": "11d5ee4e2a518c63f66a5da7dde9ee404ba1d4bd1cfdceeec6c5c95c6ab92584"
+    }
+  ],
+  "source_review": [
+    "Five used source identity/revision/creator/rights/limits fields exact against frozen batch13 registry; all five portable capture hashes exact. Nine unused research sources not added to public registry.",
+    "220 has an explicit note-only199211 lexical witness without wording. Inspected existing renderer: note is emitted and witness source retained in Sources. Actual rendered output remains a later production gate.",
+    "222 variant preserves unresolved ନୀକରେ and same-lineage qualification; one proposed entry only. Current schema now uses odia.",
+    "English/Odia explanations, summaries, original examples and source-informed narrative credits remain frozen; no research or interpretation rewritten."
+  ],
+  "preservation": [
+    "All1205 canonical baseline files independently rehashed before/after tests unchanged.",
+    "All219 prior entries/art and generated collection/PDF remain byte-identical in temporary applied stage. Only four existing metadata files changed as proposed; historical ledger rows/cursors and other ledger fields exact.",
+    "Three new graphics remain null; proposed222 staging counters do not mean publication or acceptance. New source accepted_entry_ids remain empty."
+  ],
+  "blockers": [],
+  "limits": [
+    "Separate AI review, not human proofreading or rights clearance.",
+    "Actual isolated temporary-copy apply performed and temporary copy removed. No canonical/Git/public writes, art generation, generator build, PDF or browser validation.",
+    "Importer uses Python assertions: execute with ordinary python3 as reviewed, not optimization flags that disable guards. This is a bounded trusted-manifest staging tool, not a general hostile-input importer.",
+    "Anvesha source-parity report predates completed package and correctly claims source preparation only; package parity and guard tests were independently performed here."
+  ],
+  "next_action": "Output-only package is ready for separately authorized illustration and staged production; all three art approvals, builds, layout/render review and later canonical/public release gates remain outstanding."
+}
