@@ -420,7 +420,7 @@
       "id": "studio-access",
       "title": "Establish practical studio access",
       "scope": "Verify actual booking, services, equipment or training access where public evidence exists; distinguish plans and advertised services from inspected operations.",
-      "status": "queued",
+      "status": "reviewed_with_evidence_gap",
       "reuse_before_research": [
         "kb/research/culture/odia-cinema.md",
         "kb/research/culture/cinema-series/cinema-economics.md"
@@ -431,7 +431,15 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "outputs/cinema-expansion-20261031/studio-access-evidence.json",
+        "outputs/cinema-expansion-20261031/studio-access-training.json",
+        "outputs/cinema-expansion-20261031/studio-access-review.json",
+        "outputs/cinema-expansion-20261031/studio-access-browser-review.json",
+        "outputs/cinema-expansion-20261031/studio-access-integration.json"
+      ],
+      "scope_released": true,
+      "outcome": "Overview now links script to image, editing and sound through BPFTIO’s four-year B.CAT streams and OJEE admission route; Mute advertised services clarified. Independent review,39checks and desktop/phone verification passed. Current production-hire rates, booking terms and equipment availability remain unresolved.50readings/56unique originals retained; no publication or PDF rebuild."
     },
     {
       "order": 16,
@@ -453,7 +461,7 @@
       "evidence": []
     }
   ],
-  "next_item": "studio-access",
+  "next_item": "edition-alignment",
   "scope_state": "released_after_local_review",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
@@ -976,6 +984,37 @@
           "outputs/cinema-expansion-20261031/discovery-book-proof/",
           "output/pdf/odia-cinema-a-living-screen-2026-10-31-discovery-proof.pdf",
           "tmp/pdfs/2026-10-31-discovery-proof/"
+        ]
+      }
+    },
+    {
+      "item": "studio-access",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/studio-access-evidence.json"
+        ],
+        "Samanta": [
+          "kb/research/culture/odia-cinema.md"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/studio-access-review.json"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "kb/research/culture/cinema-series/manifest.json",
+          "projects/site/src/data/cinema.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md",
+          "outputs/cinema-expansion-20261031/studio-access-*.json",
+          "outputs/cinema-expansion-20261031/studio-access-*.log",
+          "outputs/cinema-expansion-20261031/studio-access-*.png"
         ]
       }
     }
