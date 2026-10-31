@@ -68,6 +68,10 @@ manifest=json.loads((R/'projects/site/src/data/cinema.json').read_text());entrie
 additions={}
 narrative_path=R/'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'
 narrative=json.loads(narrative_path.read_text()) if narrative_path.exists() else {}
+section_guide=narrative.get('section_guide',[])
+section_keys=[item['id'] for item in section_guide]
+if len(section_keys)!=len(set(section_keys)):raise ValueError('Duplicate discovery section IDs')
+section_matches={ident:0 for ident in section_keys}
 page_map=json.loads(Path(args.page_map).read_text()) if args.page_map else {}
 plan={'parts':manifest['parts'],'image_note':'Illustrations and credited documentary photographs accompany the readings.','preface':manifest.get('reading_intro','Read these chapters as connected journeys through language, performance and filmmaking.')}
 order=[slug for part in plan['parts'] for slug in part['chapters']]
@@ -230,8 +234,9 @@ class Book(BaseDocTemplate):
  def afterFlowable(self,f):
   if hasattr(f,'runningtitle'):self.current=f.runningtitle
   if hasattr(f,'bookkey'):
-   self.current=f.booktitle
-   self.canv.bookmarkPage(f.bookkey);self.canv.addOutlineEntry(f.booktitle,f.bookkey,0,False);self.notify('TOCEntry',(0,f.booktitle,self.page,f.bookkey));self.chapter_pages[f.bookkey]=self.page
+   level=getattr(f,'booklevel',0)
+   if level==0:self.current=f.booktitle
+   self.canv.bookmarkPage(f.bookkey);self.canv.addOutlineEntry(f.booktitle,f.bookkey,level,False);self.notify('TOCEntry',(level,f.booktitle,self.page,f.bookkey));self.chapter_pages[f.bookkey]=self.page
 story=[]
 # First page reserved for the separately reviewed front cover.
 story += [Spacer(1,1),PageBreak()]
@@ -239,7 +244,7 @@ story += [para('Odia Cinema: A Living Screen','chapter'),para('Stories, People a
 story.append(para(narrative.get('preface',plan['preface']),'body'))
 if narrative.get('viewing_note'):story.extend([para('Viewing and reading','h2'),para(narrative['viewing_note'],'small')])
 story +=[PageBreak(),para('Contents','chapter')]
-toc=TableOfContents();toc.levelStyles=[ParagraphStyle('toc',fontName='Book',fontSize=10.4,leading=14,spaceBefore=3 if PRINT else 5,leftIndent=0,firstLineIndent=0,rightIndent=16,shaping=False)];story.append(toc)
+toc=TableOfContents();toc.levelStyles=[ParagraphStyle('toc',fontName='Book',fontSize=10.4,leading=14,spaceBefore=3 if PRINT else 5,leftIndent=0,firstLineIndent=0,rightIndent=16,shaping=False),ParagraphStyle('toc-section',fontName='Book',fontSize=9.5,leading=13,spaceBefore=2,leftIndent=14,firstLineIndent=0,rightIndent=16,shaping=False)];story.append(toc)
 short={}
 for a in entries.values():
  short.setdefault(a['slug'],re.sub(r'\s+',' ',re.sub(r'[\u0b00-\u0b7f]+','',a['title'])).strip(' |'))
@@ -344,7 +349,13 @@ def render_body(body,slug,companion=False):
      if item['slug']==slug and item['before_heading']==title:
       aside_start=len(story);story.extend([Spacer(1,8),callout(item,slug)])
    if title=='Watch and explore':watch_start=len(story)
-   story.append(para(title,'h2',slug));continue
+   heading=para(title,'h2',slug)
+   matches=[item for item in section_guide if item['slug']==slug and item['heading']==title and bool(item.get('companion',False))==companion]
+   if len(matches)>1:raise ValueError('Multiple discovery entries for heading: '+title)
+   if matches:
+    item=matches[0];section_matches[item['id']]+=1
+    heading.bookkey='section-'+item['id'];heading.booktitle=item['title'];heading.booklevel=1
+   story.append(heading);continue
   if line.startswith('### '):story.append(para(line[4:],'h3',slug));continue
   if line.startswith('- '):story.append(para('- '+line[2:],'body',slug));continue
   chunk=[line]
@@ -484,6 +495,7 @@ for p in ['Documentary photographs retain their creators, sources and licences i
 if PRINT:story.append(para('Printing: 6 x 9 inch pages, no bleed. Print at 100% on 6 x 9 inch stock, or ask a print shop to impose and trim to this size. For duplex printing use the long-edge setting. Mirrored inner margins allow binding space. This reading edition is not a printer-specific press-ready, CMYK or PDF/X file. The final blank verso, if present, keeps the page count even.','small'))
 doc=Book(str(OUT),pagesize=(432,648),title='Odia Cinema: A Living Screen',author='Ahimanikya Satapathy',subject='Stories, People and the Places Between',allowSplitting=1)
 if len(line_art_placements)!=len(narrative.get('line_art',[])):raise ValueError('Unresolved line-art placements; check section headings and article slugs')
+if any(count!=1 for count in section_matches.values()):raise ValueError('Discovery sections must appear exactly once: '+repr(section_matches))
 doc.multiBuild(story)
 (TMP/'page-map.json').write_text(json.dumps(doc.chapter_pages,indent=2))
 if args.layout_only:
@@ -514,5 +526,5 @@ for offset in range(0,len(thumbs),12):
   x=12+(k%4)*234;y=12+(k//4)*370;sheet.paste(im,(x,y));draw.text((x,y+329),f'Page {offset+k+1}',fill='black')
  sheet.save(TMP/f'contact-{offset//12+1:02}.jpg',quality=90)
 for chapter in chapters:chapter['notes']=len(notes[chapter['slug']])
-record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'image_placements':images,'line_art_placements':line_art_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':'Disha executed PDF edit marker once on2026-10-30; expected output count2; existing covers unchanged','browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
+record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':'Disha executed PDF edit marker once on2026-10-30; expected output count2; existing covers unchanged','browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
 (TMP/('book-build-'+EDITION_KEY+'.json')).write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:record[k] for k in ['pages','notes','citation_pairs','chapter_pages']},indent=2))

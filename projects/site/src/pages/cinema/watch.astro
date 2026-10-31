@@ -6,7 +6,7 @@ const lead=cinema.articles[0],hero=lead.images.find(i=>i.role==='title');
 ---
 <Shell title="Odia cinema viewing room" description="Find official Odia film uploads, trailers, archive clips and provider listings, with clear sources and access conditions." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
  <link rel="stylesheet" href="/assets/cinema/player/player.css"/>
- <div class="cinema-player"><nav aria-label="Cinema companions"><a href="/cinema/">← The cinema readings</a><a href="/cinema/book/">Read or print the book →</a></nav><Fragment set:html={content}/><noscript><p>This collection needs JavaScript to filter and select a player. <a href="https://www.youtube.com/watch?v=bX9WYaIzVa4">Open the official DAMaN upload on YouTube</a>.</p></noscript></div>
+ <div class="cinema-player"><nav aria-label="Cinema companions"><a href="/cinema/">← The cinema readings</a><a href="/cinema/reading-guide/">People and turning points →</a><a href="/cinema/book/">Read or print the book →</a></nav><Fragment set:html={content}/><noscript><p>This collection needs JavaScript to filter and select a player. <a href="https://www.youtube.com/watch?v=bX9WYaIzVa4">Open the official DAMaN upload on YouTube</a>.</p></noscript></div>
  <script is:inline defer src="/assets/cinema/player/catalogue.js"></script>
  <script is:inline defer src="/assets/cinema/player/core.js"></script>
  <script is:inline defer src="/assets/cinema/player/app.js"></script>

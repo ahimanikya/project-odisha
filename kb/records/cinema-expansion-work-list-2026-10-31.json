@@ -390,7 +390,7 @@
       "id": "discovery",
       "title": "Make the existing research easier to find",
       "scope": "Connect awards, commercial comparisons and studio material in the book contents; connect verified newer-film trailers to viewing discovery. Reuse Pratibha Ray and Fakir Mohan profiles.",
-      "status": "queued",
+      "status": "local_review_ready",
       "reuse_before_research": [
         "projects/site/src/data/cinema.json",
         "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
@@ -404,7 +404,16 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "kb/records/cinema-discovery-refresh-2026-10-31.json",
+        "outputs/cinema-expansion-20261031/discovery-evidence.json",
+        "outputs/cinema-expansion-20261031/discovery-review.json",
+        "outputs/cinema-expansion-20261031/discovery-browser-review.json",
+        "outputs/cinema-expansion-20261031/discovery-book-proof/receipt.json",
+        "outputs/cinema-expansion-20261031/discovery-integration.json"
+      ],
+      "scope_released": true,
+      "outcome": "Added exact section links for recognition, reported commercial comparisons and studio support; two existing writer profiles remain supplementary to50readings. Retained7selected viewing entries and added2official trailers. Independent code/data and255page layout-only navigation proof reviewed. Full digital/print alignment remainsqueue16; no publication."
     },
     {
       "order": 15,
@@ -444,7 +453,7 @@
       "evidence": []
     }
   ],
-  "next_item": "discovery",
+  "next_item": "studio-access",
   "scope_state": "released_after_local_review",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
@@ -918,6 +927,55 @@
           "outputs/cinema-expansion-20261031/books-periodicals-browser-review.json",
           "outputs/cinema-expansion-20261031/books-periodicals-*.log",
           "outputs/cinema-expansion-20261031/books-periodicals-*.png"
+        ]
+      }
+    },
+    {
+      "item": "discovery",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/discovery-evidence.json"
+        ],
+        "Samanta": [
+          "projects/site/src/pages/cinema/reading-guide.astro",
+          "projects/site/src/pages/cinema/book.astro",
+          "projects/site/src/pages/cinema/watch.astro",
+          "projects/site/src/components/CinemaDiscovery.astro",
+          "projects/site/src/pages/cinema/index.astro",
+          "output/pdf/build_book.py",
+          "outputs/odia-movie-player/app.js",
+          "projects/site/public/assets/cinema/player/app.js",
+          "outputs/odia-movie-player/index.html",
+          "projects/site/src/data/cinema-player.html"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/discovery-review.json"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md",
+          "projects/site/tests/cinema-discovery.test.mjs",
+          "outputs/cinema-expansion-20261031/discovery-*.json",
+          "outputs/cinema-expansion-20261031/discovery-*.log",
+          "outputs/cinema-expansion-20261031/discovery-*.png",
+          "kb/records/cinema-discovery-refresh-2026-10-31.json",
+          "outputs/odia-movie-player/sync-catalogue.py",
+          "outputs/odia-movie-player/catalogue.json",
+          "outputs/odia-movie-player/catalogue.js",
+          "projects/site/public/assets/cinema/player/catalogue.json",
+          "projects/site/public/assets/cinema/player/catalogue.js",
+          "outputs/cinema-expansion-20261031/discovery-book-proof/",
+          "output/pdf/odia-cinema-a-living-screen-2026-10-31-discovery-proof.pdf",
+          "tmp/pdfs/2026-10-31-discovery-proof/"
         ]
       }
     }

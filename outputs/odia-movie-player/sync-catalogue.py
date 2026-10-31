@@ -5,6 +5,7 @@ read=lambda p:json.loads((root/p).read_text())
 cat=read('kb/records/cinema-player-catalogue-2026-10-26.json')
 browser=read('kb/records/cinema-player-browser-evidence-2026-10-26.json')
 clips=read('kb/records/cinema-viewing-links-contemporary-2026-10-26.json')
+discovery=read('kb/records/cinema-discovery-refresh-2026-10-31.json')
 verified={e['videoID']:e for e in browser['entries']}
 entries=[]
 for item in cat['entries']:
@@ -64,6 +65,7 @@ if provider_path.exists():
     for e in providers['entries']:
         entries.append(dict(id=e['id'],filmID=e['filmId'],titleEnglish=e['titleEn'],titleOdia=e.get('titleOr'),year=e.get('year'),genres=e.get('genres',[]),language=e['language'],languageType=e.get('languageVersion','unknown'),type=e['format'],access='provider-listing',watchURL=e['sourceUrl'],sourceChannel=e['provider'],evidenceURLs=e.get('evidenceURLs',[e['sourceUrl']]),rightsStatus='Provider listing; copyright retained; no public-domain determination',publicDomainVerified=False,checkedOn=e['checkedAt'],verificationSummary=e['sourceNotes'],classificationNote=e.get('yearEvidence','Year and genre follow the provider listing; independent release-date verification is not implied.'),displayTitleNote=e.get('titleOrStatus',''),accessNote='Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed.'))
     coverage+=providers.get('coverage',[])
+entries.extend(dict(e) for e in discovery['player_entries'])
 for e in entries:
     e.setdefault('access','official-upload')
     e.setdefault('filmID',e.get('filmId',e['id'].removesuffix('-trailer') if e['id']!='stree-kali-juga' else 'stree-1968'))
@@ -81,7 +83,9 @@ curation={
   {'id':'ananta-trailer','reason':'Fakir Mohan Senapati’s Randi Pua Ananta reaches the screen in Sabyasachi Mohapatra’s adaptation.','evidence':[{'label':'Reporting on the adaptation','url':'https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses'}]}
  ]
 }
+curation['explorations'].extend(discovery['curation'])
 public_ids={'daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel'}
+public_ids.update(e['id'] for e in discovery['player_entries'])
 entries=[e for e in entries if e['id'] in public_ids]
 assert {e['id'] for e in entries}==public_ids
 coverage=[
@@ -93,7 +97,7 @@ coverage=[
 for choice in curation['explorations']:
  choice['reading']='../odia-cinema-series/odia-cinema.html'
  choice['readingLabel']='Read the cinema overview'
-output={'checkedOn':'2026-10-26','entries':entries,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
+output={'checkedOn':'2026-10-26','updatedOn':discovery['date'],'entries':entries,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
 (root/'outputs/odia-movie-player/catalogue.js').write_text('window.ODIA_CATALOGUE='+json.dumps(output,ensure_ascii=False,indent=2)+';\n')
 (root/'outputs/odia-movie-player/catalogue.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(entries)} entries assembled')

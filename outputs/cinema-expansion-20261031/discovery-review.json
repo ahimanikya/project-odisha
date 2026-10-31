@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS",
+  "reviewer": "Drishti independent AI",
+  "scope": "Discovery code, catalogue and layout-only book proof; no publication",
+  "file_sha256": {
+    "projects/site/src/components/CinemaDiscovery.astro": "f65365d61b9d3eeffbf34e719ac5500c56635b0d3416ebfaabe429cae111edcb",
+    "projects/site/src/pages/cinema/book.astro": "236ed87159cf7eb7da76296f4eba96f08243fa43098ac81e20f1359aab4564fe",
+    "projects/site/src/pages/cinema/index.astro": "1f528da004db0500915b54d7dd17634a086e14457f1c4481d096a64eea4d87a7",
+    "projects/site/src/pages/cinema/reading-guide.astro": "b70897047ee39971368e8e4a7dd6bb4ffa7cf9bad4a95acae306cd1ca887ed73",
+    "projects/site/src/pages/cinema/watch.astro": "08d45f6ba824cbf04a845a0daf2ce31d2d7ee523fc0ffb70882760bd4a1ed254",
+    "output/pdf/build_book.py": "dba71f6f60c7f41a962ab8afa3d1fcb2db4efe5ac8c18931d8a9ad0324dcedb0",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "8d4886e6e7c79259f2b6afed650d615371df0c1619b7dbcf4c2397ba9ddc4aa1",
+    "outputs/odia-movie-player/sync-catalogue.py": "4024f653a25b64aa12d7a848da0085a27d9988b6426c484545813b430fddf66c",
+    "outputs/odia-movie-player/catalogue.json": "decde97cd8dfada57a3a1a2763e69708191f64267e333f144d2f7a411f73dab4",
+    "outputs/odia-movie-player/catalogue.js": "2402fb9655b8a2505583d3b9a9ab2342656824e7c12d7dc16c094bbe161cb3a2",
+    "projects/site/public/assets/cinema/player/catalogue.json": "decde97cd8dfada57a3a1a2763e69708191f64267e333f144d2f7a411f73dab4",
+    "projects/site/public/assets/cinema/player/catalogue.js": "2402fb9655b8a2505583d3b9a9ab2342656824e7c12d7dc16c094bbe161cb3a2",
+    "kb/records/cinema-discovery-refresh-2026-10-31.json": "5d7a6e213d26a07d9e309678e770a770a7856d88c655038719e59d429f89d7a9",
+    "outputs/odia-movie-player/index.html": "f19911b18048d763715083b6d9057a8ee57206effac1ae192075c7168d5dc0d1",
+    "projects/site/src/data/cinema-player.html": "936ae44b52eb6e10436b9758e21cd624d22461de7c49bea79b6892901f917d7f"
+  },
+  "web_static": {
+    "three_exact_anchors_resolve_in_existing_rendered_destinations": true,
+    "supplementary_writer_routes_exist": true,
+    "writers_outside_50_sequence": true,
+    "new_component": "Reuses existing escaped ArticleReadingPath with trusted local links; no raw HTML or new interaction script",
+    "article_entries_and_download_metadata_unchanged": true,
+    "article_prose_and_images_unchanged": true
+  },
+  "catalogue": {
+    "prior_seven_entries_exactly_preserved": true,
+    "entries": 9,
+    "full_film_routes": 4,
+    "trailers": 4,
+    "song_clip": 1,
+    "new_ids": [
+      "bara-badhu-trailer",
+      "maliput-melodies-trailer"
+    ],
+    "new_dates": "2026-10-31",
+    "old_dates_retained": true,
+    "staged_entries_match": true,
+    "rights": "Copyright retained; no public domain claim. Festival introduction is not award. No release year inferred.",
+    "evidence_limit": "Root browser title/publisher/duration and collaborator-dialog verification recorded in current task record. This reviewer did not independently play videos or test embeds. Earlier research packet pending-uploader state is historical and superseded by that record."
+  },
+  "book": {
+    "proof_pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-31-discovery-proof.pdf",
+    "sha256": "2a24c0697cda56f6721079a23d95b63d7f3c3f933dfd78683050fcd0abd1a409",
+    "pages": 255,
+    "independent_pypdf_check": true,
+    "level1_destinations": {
+      "Budgets and box-office collections": 177,
+      "Studios and production support": 196,
+      "Awards and recognition": 205
+    },
+    "each_TOC_label_once": true,
+    "running_chapter_titles_preserved": true,
+    "pages_visually_viewed": [
+      5,
+      6,
+      177,
+      196,
+      205
+    ],
+    "visual_result": "Readable indented TOC items and target headings; no clipping or collision. Studio blank area is deliberately omitted photograph in layout-only proof, not deliverable defect.",
+    "code_guards": "Unique section IDs, at most one match per heading and exact-one count before build. Level1 entries do not change running chapter title.",
+    "limit": "Proof omits images; not a complete visual review or a new published/full reading edition."
+  },
+  "guidance": "Read relevant skill instructions; respect recorded automatic-review CLI rejection, no retry. Existing native links/heading component retained.",
+  "findings": [],
+  "limitations": [
+    "No independent responsive browser interaction in this scope",
+    "No new PDF download activation or publication",
+    "No specialist human approval"
+  ],
+  "scope_released": true,
+  "wording_followup": {
+    "status": "PASS",
+    "correction": "Follow literary connections and newer stories through their official trailers. These links are trailers, not full films.",
+    "reason": "Removes stale two-item count now that four trailer explorations are present. Explicit format distinction retained.",
+    "file_sha256": {
+      "outputs/odia-movie-player/index.html": "f19911b18048d763715083b6d9057a8ee57206effac1ae192075c7168d5dc0d1",
+      "projects/site/src/data/cinema-player.html": "936ae44b52eb6e10436b9758e21cd624d22461de7c49bea79b6892901f917d7f"
+    },
+    "coordinator_browser_evidence": "Root reports desktop/phone section/writer navigation and exact two new trailer detail URLs verified without starting playback; not independent reviewer browser execution."
+  },
+  "metadata_followup": {
+    "status": "PASS",
+    "record_status": "local_review_ready",
+    "content_check": "All player-entry fields and curation fields equal reviewed generated catalogue; only completion metadata added.",
+    "sha256": "5d7a6e213d26a07d9e309678e770a770a7856d88c655038719e59d429f89d7a9"
+  }
+}
