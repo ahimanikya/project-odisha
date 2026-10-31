@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 914. completed: 160, excluded: 462, in_progress: 1, queued: 291.
+Route inventory: 914. completed: 161, excluded: 462, queued: 291.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -937,4 +937,4 @@ Route inventory: 914. completed: 160, excluded: 462, in_progress: 1, queued: 291
 | POD-EDIT-20261048 | [Bijay Mohanty: Learning a Role, Sharing a Craft](https://projectodisha.org/people/bijay-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-20261049 | [Uttam Mohanty: The Work Beside the Performance](https://projectodisha.org/people/uttam-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-20261050 | [Aparajita Mohanty: Helping a Film Take Shape](https://projectodisha.org/people/aparajita-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
-| POD-EDIT-831 | [Kandhamal Haladi: the work behind a place-name](https://projectodisha.org/stories/kandhamal-haladi/) | in_progress | One new Haladi article; preserve all prior articles, cinema publication, public Dhaga222, reviewed227package and historical cursors. |
+| POD-EDIT-831 | [Kandhamal Haladi: the work behind a place-name](https://projectodisha.org/stories/kandhamal-haladi/) | completed | One new Haladi article; preserve all prior articles, cinema publication, public Dhaga222, reviewed227package and historical cursors. |

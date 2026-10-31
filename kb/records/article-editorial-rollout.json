@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-31T17:07:12.554536+00:00",
+  "updated_at": "2026-10-31T18:24:39.818505+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -15582,15 +15582,31 @@
       "id": "POD-EDIT-831",
       "route": "/stories/kandhamal-haladi/",
       "title": "Kandhamal Haladi: the work behind a place-name",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "One new Haladi article; preserve all prior articles, cinema publication, public Dhaga222, reviewed227package and historical cursors.",
       "source_template": "projects/site/src/pages/stories/kandhamal-haladi.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/kandhamal-haladi-editorial-publication-2026-10-31.json",
+        "separate_review": "records/kandhamal-haladi-delivery-review-2026-10-31.json",
+        "live_http": "records/evidence/kandhamal-haladi-2026-10-31/live-http-report.json",
+        "live_browser": "records/evidence/kandhamal-haladi-2026-10-31/live-browser-review.json"
+      },
       "evidence": [
-        "records/kandhamal-haladi-team-2026-10-31.json"
+        "records/kandhamal-haladi-team-2026-10-31.json",
+        "records/kandhamal-haladi-delivery-review-2026-10-31.json",
+        "records/kandhamal-haladi-editorial-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-31T17:07:12.554536+00:00"
+      "started_at": "2026-10-31T17:07:12.554536+00:00",
+      "completed_at": "2026-10-31T18:24:39.818505+00:00",
+      "publication_receipt": "records/kandhamal-haladi-editorial-publication-2026-10-31.json"
     }
   ]
 }
