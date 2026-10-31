@@ -1,0 +1,202 @@
+[
+  {
+    "command": [
+      "python3",
+      "tools/test_registers.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/test_config.py"
+    ],
+    "exit": 1
+  },
+  {
+    "command": [
+      "python3",
+      "tools/test_project_prefix.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/test_family_id_aliases.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_bundle.py"
+    ],
+    "exit": 1
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_autonomous_program.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/test_team_assignments.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/test_autonomous_program.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_sound_collection.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/test_sound_collection.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/registers.py",
+      "--check"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/catalog.py",
+      "--check"
+    ],
+    "exit": 1
+  },
+  {
+    "command": [
+      "python3",
+      "tools/editorial/article_rollout.py",
+      "--check"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_visitor_index.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_maritime.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_growth_journeys.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_statistics.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_homestays.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_classification.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_collections.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_prd.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_creations.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_sports.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_research_map.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_osha_culture.py"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_seasonal_food.py"
+    ],
+    "exit": 0
+  },
+  {
+    "resolved_failures": [
+      "test_config",
+      "check_bundle",
+      "catalog"
+    ],
+    "resolution": "Portable route inventory refreshed, work-list concept frontmatter added, escaping repository evidence links replaced with exact code paths; catalog regenerated. All reruns passed."
+  }
+]
