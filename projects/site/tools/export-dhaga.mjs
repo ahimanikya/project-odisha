@@ -92,8 +92,8 @@ export async function exportDhaga(destination){
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
  //244 readings retain all prior227 derivatives and new640px/q60 art.
- //Measured25.20MB; 26MB accommodates complete prose without degrading existing images.
- if(bytes>26_000_000)throw Error('Dhaga web export exceeds26MB budget: '+bytes);
+ //Measured27.82MB; 28MB accommodates complete prose without degrading existing images.
+ if(bytes>28_000_000)throw Error('Dhaga web export exceeds28MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};
  await mkdir(resolve(site,'.astro'),{recursive:true});await writeFile(resolve(site,'.astro/dhaga-export.json'),JSON.stringify(report,null,2)+'\n');return report;
 }

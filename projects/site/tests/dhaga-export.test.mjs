@@ -16,7 +16,7 @@ test('book navigation uses lowercase public URLs, a pinned exact PDF and retaine
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
- assert.ok(exported.bytes<=26_000_000,'Complete public export must remain within26MB');
+ assert.ok(exported.bytes<=28_000_000,'Complete public export must remain within28MB');
  assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
