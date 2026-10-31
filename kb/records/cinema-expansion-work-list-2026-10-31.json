@@ -12,7 +12,7 @@
   "active_article": null,
   "publication_authorized_this_cycle": false,
   "programme_progress_credit": 0,
-  "remote_ownership_check": "gh pr list could not connect to api.github.com; local working tree has no tracked competing edits. No remote mutation planned.",
+  "remote_ownership_check": "31 October: gh pr list could not connect to api.github.com; no tracked competing local edits at intake. No remote mutation planned.",
   "rules": [
     "One active article at a time; research, implement, independently review, then release its local scope.",
     "Reuse saved evidence and existing profiles before creating content.",
@@ -330,7 +330,7 @@
       "id": "children",
       "title": "Children and Odia screen stories",
       "scope": "Connect scattered film, animation and dubbing research to the introduction's children's question. Enhance first; a dedicated article requires substantial additional evidence.",
-      "status": "queued",
+      "status": "local_review_ready",
       "reuse_before_research": [
         "kb/records/cinema-children-research-2026-10-26.json",
         "kb/records/cinema-children-animation-2026-10-26.json",
@@ -342,7 +342,16 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "outputs/cinema-expansion-20261031/children-evidence.json",
+        "outputs/cinema-expansion-20261031/children-review.json",
+        "outputs/cinema-expansion-20261031/children-integration.json",
+        "outputs/cinema-expansion-20261031/children-browser-review.json",
+        "outputs/cinema-expansion-20261031/children-targeted-tests.log",
+        "outputs/cinema-expansion-20261031/children-rendered-tests.log"
+      ],
+      "scope_released": true,
+      "outcome": "Enhanced overview children section with the introduction callback, Shreyas Sahil voice contribution and Kuni Ganesha writer/director/music credits, linking existing television and Lavanya readings. Separate evidence/prose review and desktop/phone checks passed; no reception, transmission or learning outcome inferred. No separate article needed;50readings/56distinct originals retained. Publication and book alignment pending."
     },
     {
       "order": 13,
@@ -421,7 +430,7 @@
       "evidence": []
     }
   ],
-  "next_item": "children",
+  "next_item": "books-periodicals",
   "scope_state": "released_after_local_review",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
@@ -830,6 +839,38 @@
           "outputs/cinema-expansion-20261031/audiences-browser-review.json",
           "outputs/cinema-expansion-20261031/audiences-*.log",
           "outputs/cinema-expansion-20261031/audiences-*.png"
+        ]
+      }
+    },
+    {
+      "item": "children",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/children-evidence.json"
+        ],
+        "Samanta": [
+          "kb/research/culture/odia-cinema.md"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/children-review.json"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "kb/research/culture/cinema-series/manifest.json",
+          "projects/site/src/data/cinema.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md",
+          "outputs/cinema-expansion-20261031/children-integration.json",
+          "outputs/cinema-expansion-20261031/children-browser-review.json",
+          "outputs/cinema-expansion-20261031/children-*.log",
+          "outputs/cinema-expansion-20261031/children-*.png"
         ]
       }
     }

@@ -1,0 +1,101 @@
+✔ cinema subsection anchors preserve existing destinations and avoid collisions (0.877209ms)
+✔ all cinema tables have captions and native scoped headers; subsection contents resolve (77.681083ms)
+✔ language tagging uses verified phrases, respects existing language, and leaves Sambalpuri unclassified (0.092041ms)
+✔ citation tails keep a plain final word with adjacent native references without crossing inline tags (1.248834ms)
+✔ image layout targets exact source and slug, retains complete-image links and bounded frames (33.761916ms)
+✔ manifest canonical articles preserve notes, captions and source hashes (160.866375ms)
+✔ children sections and Watch links promoted exactly once (7.290209ms)
+✔ books staged byte-exact and no source-sized hero PNGs deployed (61.58325ms)
+✔ player logic source-identical, scoped styling, explicit frame policy (1.423583ms)
+✔ cinema delivery preserves responsive JPEGs and release PDF URLs (1.093416ms)
+✔ further reading preserves all source links and enriches destination articles (34.455917ms)
+✔ people route overrides are excluded from cinema slug emission (0.511292ms)
+✔ Gourahari is a people companion with an accurately labelled hero (0.2455ms)
+✔ Nirad people profile reuses the licensed uncropped documentary photograph (2.038791ms)
+✔ Sabyasachi people profile preserves the existing licensed portrait and its credit (2.425833ms)
+✔ documentary hero promotes an existing body photograph once with escaped linked credits (1.143625ms)
+✔ active article photographs and title artwork do not repeat across readings (129.891ms)
+✖ public cinema readings do not expose internal KB file links (37.007625ms)
+✔ new stories grouping connects both films with their makers exactly once (0.110167ms)
+✔ overview national awards preserve column relationships, row citations and separate international prose (30.695583ms)
+✔ reading order is coherent across parts, callbacks preserve citations, image credits return to figures (16.593708ms)
+✔ author introduction leads to literature and preserves the expanded collection (0.717167ms)
+✔ current review books match the reviewed release manifest and retain both archives (0.648542ms)
+✔ image attributions continue the regular source-note sequence with matching native returns (31.251958ms)
+✔ overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition (5.546875ms)
+✔ publication scope includes every current cinema reading and complete image (2.202958ms)
+✔ purposeful line drawings appear once without replacing article images (5.348875ms)
+✔ reading and travel breadcrumbs point to the right collection without self-links (1.135792ms)
+✔ share previews keep subject provenance and use an honest fallback for missing portraits or script SVGs (0.181375ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 28
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 613.389
+
+✖ failing tests:
+
+test at projects/site/tests/cinema-release.test.mjs:95:1
+✖ public cinema readings do not expose internal KB file links (37.007625ms)
+  AssertionError [ERR_ASSERTION]: Internal KB destinations must be replaced by reader-facing links
+  + actual - expected
+  
+  + [
+  +   'odia-cinema: https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/odia-television.md#animation-and-the-language-a-child-hears'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/tests/cinema-release.test.mjs:112:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 'odia-cinema: https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/odia-television.md#animation-and-the-language-a-child-hears' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ cinema subsection anchors preserve existing destinations and avoid collisions (0.729458ms)
+✔ all cinema tables have captions and native scoped headers; subsection contents resolve (48.315792ms)
+✔ language tagging uses verified phrases, respects existing language, and leaves Sambalpuri unclassified (0.06275ms)
+✔ citation tails keep a plain final word with adjacent native references without crossing inline tags (1.137375ms)
+✔ image layout targets exact source and slug, retains complete-image links and bounded frames (32.990375ms)
+✔ manifest canonical articles preserve notes, captions and source hashes (116.680041ms)
+✔ children sections and Watch links promoted exactly once (6.925ms)
+✔ books staged byte-exact and no source-sized hero PNGs deployed (42.665ms)
+✔ player logic source-identical, scoped styling, explicit frame policy (1.029208ms)
+✔ cinema delivery preserves responsive JPEGs and release PDF URLs (0.860458ms)
+✔ further reading preserves all source links and enriches destination articles (34.837708ms)
+✔ people route overrides are excluded from cinema slug emission (0.378083ms)
+✔ Gourahari is a people companion with an accurately labelled hero (0.186209ms)
+✔ Nirad people profile reuses the licensed uncropped documentary photograph (2.04525ms)
+✔ Sabyasachi people profile preserves the existing licensed portrait and its credit (1.005542ms)
+✔ documentary hero promotes an existing body photograph once with escaped linked credits (0.801833ms)
+✔ active article photographs and title artwork do not repeat across readings (127.438625ms)
+✔ public cinema readings do not expose internal KB file links (170.036542ms)
+✔ new stories grouping connects both films with their makers exactly once (0.173667ms)
+✔ overview national awards preserve column relationships, row citations and separate international prose (61.265ms)
+✔ reading order is coherent across parts, callbacks preserve citations, image credits return to figures (23.227458ms)
+✔ author introduction leads to literature and preserves the expanded collection (0.782542ms)
+✔ current review books match the reviewed release manifest and retain both archives (0.891459ms)
+✔ image attributions continue the regular source-note sequence with matching native returns (33.421875ms)
+✔ overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition (5.976708ms)
+✔ publication scope includes every current cinema reading and complete image (2.6585ms)
+✔ purposeful line drawings appear once without replacing article images (5.303292ms)
+✔ reading and travel breadcrumbs point to the right collection without self-links (0.688417ms)
+✔ share previews keep subject provenance and use an honest fallback for missing portraits or script SVGs (0.15825ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 698.146459
