@@ -1,11 +1,11 @@
 {
-  "status": "integration_active",
+  "status": "published_and_live_verified_receipt_integration",
   "owner": "Disha",
   "scope": "Finite245release through reviewed publication/live/receipt",
   "baseline": 244,
   "proposed": 245,
-  "accepted_increment": 0,
-  "public_delivered_entries": 244,
+  "accepted_increment": 1,
+  "public_delivered_entries": 245,
   "programme_credit": 0,
   "canonical_release_active": true,
   "branch": "codex/dhaga-245-expansion-20261101",
@@ -34,11 +34,11 @@
   "production_review_sha256": "427fc12be2e68b7dbda08bae302babd757fc3ef4c755b8bce1e08bee3fbae62b",
   "installation_manifest_sha256": "6b6ca986f05024d44475458ee8a4ea75fdafac1919e8143bf2396c77a203dec8",
   "scope_release": "After separatelyreviewedreceiptmerge/checks/remoteverification",
-  "next": "ImmutablePDFpin/siteadapter/fullgates/browser/exactheadreview/publication/live/receipt",
+  "next": "Merge separately reviewed receipt after passing checks; verify remote receipt hashes and release finite scope. Then eligible separately reviewed Kalahandi106 classification; preserve Dhaga saved source positions.",
   "limits": [
-    "Local277products installed and1377verified exactly; no rebuilding",
-    "009relatedhungerbitingparallel zeroextra;74876lexicalcontextonly",
-    "No publicdelivery/newacceptance claimed yet"
+    "009 hunger-bowl BITING related parallel adds zero unique readings;74876 remains lexical context only.",
+    "Separate AI review, not human proofreading.",
+    "Finite release remains active through receipt checks,merge andremoteverification."
   ],
   "preparation_evidence": [
     {
@@ -71,5 +71,179 @@
     "projects/site/editions/coast.json",
     "projects/site/editions/search-candidate.json",
     "projects/site/tests/dhaga-export.test.mjs"
-  ]
+  ],
+  "publication_receipt": {
+    "status": "published_and_live_verified_receipt_candidate",
+    "release_pr": 655,
+    "reviewed_head": "4077f421b6de3aa582cf4681247edb46206ab1cc",
+    "merge": "fc8fb477212f19d0503d4687988b1e68887f9c8b",
+    "merged_at": "2026-11-01T14:23:42Z",
+    "required_ci": {
+      "result": "SUCCESS",
+      "head": "4077f421b6de3aa582cf4681247edb46206ab1cc",
+      "run": 41311501657,
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41311501657",
+      "finished_at": "2026-11-01T13:43:54Z"
+    },
+    "deployment": {
+      "result": "SUCCESS",
+      "head": "fc8fb477212f19d0503d4687988b1e68887f9c8b",
+      "run": 41316006459,
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41316006459",
+      "finished_at": "2026-11-01T14:37:16Z"
+    },
+    "pdf": {
+      "sha256": "c459423800d55973aa05fa7efd59179005f36a8831996dc3c91ac2ef90dcc5c4",
+      "pages": 156,
+      "bytes": 88565474,
+      "immutable_commit": "cc8739af234344fb1e959f960d4d01e09371192f"
+    },
+    "counts": {
+      "entries": 245,
+      "illustrations": 245,
+      "original_pending": 75,
+      "programme_credit": 0
+    },
+    "distinct_additions": 1,
+    "url": "https://projectodisha.org/dhaga/",
+    "live_raw_exact": 478,
+    "live_raw_total": 499,
+    "raw_mismatches_retained": 21,
+    "evidence": [
+      {
+        "result": "PASS",
+        "sha256": "68a07455f6e918d7c74153fe09f3ba7109928ecabe397cd3439debfecc8f2bde",
+        "actual_checks": "Actual saved required ci status evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/required_ci_status.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "15b4f25868709bb03cc2d9187706f1bc63819077fe9b677a76e2b444304a26d8",
+        "actual_checks": "Actual saved deployment status evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/deployment_status.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "d75585eff0936f91d504d7f8a8fd310c6e31ca1e6066d16141ad5c98e2e13aa7",
+        "actual_checks": "Actual saved source preservation evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/source_preservation.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "d93372cd25bfebc0cd473089a97c997ec92223c810cc268e342cc3996fb42856",
+        "actual_checks": "Actual saved site validation evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/site_validation.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "77a62462ab68375082d5e2aaede52513a53f07f642279366dde12a4376d5a7d9",
+        "actual_checks": "Actual saved exact head review evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/exact_head_review.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "2c964cc006017695eea0a2cd408ca628853fe17ae4cbe2e4f08d65a0f1c3b5c3",
+        "actual_checks": "Actual saved remote merge files evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/remote_merge_files.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "6f059e53a26cc647dd2c783abcea7fe56635b64b822aa2be7c8e7568a60d4dde",
+        "actual_checks": "Actual saved live reader evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/live_reader.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "f06d51c7d4f4a1a4677e0f0479c67862acd23597bbafbdf7e9884242b4db43b0",
+        "actual_checks": "Actual saved live pdf evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/live_pdf.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "6569ab7f131b7660d504aba16ab7215b29f5516da9a70551430ecb7e7ce4a9bf",
+        "actual_checks": "Actual saved live catalog companions evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/live_catalog_companions.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "484e538a00eb1122386afbcef28c855489e86ee2e26752b9505b8d227891e7ad",
+        "actual_checks": "Actual saved live browser evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/live_browser.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "8c697283c76360c74e6c3a008769f862ae7314477a5cfbef770a8e3334b71065",
+        "actual_checks": "750 product hashes and sizes verified;255 copied,515 extras preserved;19 tests and post-test hashes PASS.",
+        "limits": [],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/local_reader_sync.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "f06d51c7d4f4a1a4677e0f0479c67862acd23597bbafbdf7e9884242b4db43b0",
+        "actual_checks": "Actual saved sitemap search holds evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/sitemap_search_holds.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "f06d51c7d4f4a1a4677e0f0479c67862acd23597bbafbdf7e9884242b4db43b0",
+        "actual_checks": "Actual saved internal research absence evidence; scope and results retained in bound report.",
+        "limits": [
+          "Exact evidence binding; actual checks and limitations are retained in the linked report."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/internal_research_absence.json"
+      },
+      {
+        "result": "PASS",
+        "sha256": "c368bb6f1d5d6225acc17c1b5fabd1339a5ee27368ef9933762f3baaa7daa9a5",
+        "actual_checks": "Separate AI reviewer inspected8actual live PNGs and499local hashes;live HTTP/PDF/companions independently bound;known21pairs retained.",
+        "limits": [
+          "Separate AI review is not human proofreading."
+        ],
+        "path": "records/reviews/dhaga-expansion-245-2026-11-01/receipt/separate_final_review.json"
+      }
+    ],
+    "limits": [
+      "478/499raw files exact;21known image pairs qualified by both hashes,248HTMLexact.",
+      "Three companion mains normalized exact with29known responsivepairs/catalog;whole HTML not byte-exact.",
+      "Actual Chrome desktop and390px emulation;no physical phone,assistive technology or human proofreading claim.",
+      "CI/deployment completion timestamps use saved API updatedAt.",
+      "75pending,historicalcursors andprogramme134 unchanged;zero500credit. Receipt release awaits reviewed merge/checks/remote verification."
+    ],
+    "scope_release": "Effective after separately reviewed receipt merge, passing required checks and exact remote hash verification.",
+    "review_type": "Separate AI review, not human proofreading",
+    "assembler_limit": "Evidence hash/gate checks, not independent execution of reported checks. All source files preserved."
+  }
 }

@@ -1,0 +1,52 @@
+{
+  "deployment": "41316006459",
+  "head": "fc8fb477212f19d0503d4687988b1e68887f9c8b",
+  "pdf": {
+    "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/cc8739af234344fb1e959f960d4d01e09371192f/projects/odia-dhaga/odia-dhaga-book.pdf",
+    "status": 200,
+    "sha256": "c459423800d55973aa05fa7efd59179005f36a8831996dc3c91ac2ef90dcc5c4",
+    "expected_sha256": "c459423800d55973aa05fa7efd59179005f36a8831996dc3c91ac2ef90dcc5c4",
+    "pass": true
+  },
+  "actual_live_index_pdf_link": {
+    "status": 200,
+    "pdf_links": [
+      "https://raw.githubusercontent.com/ahimanikya/project-odisha/cc8739af234344fb1e959f960d4d01e09371192f/projects/odia-dhaga/odia-dhaga-book.pdf"
+    ],
+    "pass": true
+  },
+  "sitemap": {
+    "status": 200,
+    "pass": true
+  },
+  "new_search_holds": [
+    {
+      "url": "https://projectodisha.org/dhaga/sayings/pod-dhaga-245.html",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "internal_404": [
+    {
+      "path": "coverage-ledger.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "source127.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "source127.html",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "README.md",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "pass": true
+}
