@@ -1,0 +1,74 @@
+{
+  "status": "PASS_TECHNICAL_RESEARCH_VALIDATION",
+  "checked_at": "2026-10-31T23:43:35.801537+00:00",
+  "input_head": "d586b8fbead0cac79c5571068ec19e8757deca3c",
+  "bindings": {
+    "anvesha/candidates.json": "4d257173f2355b6e91146eeece746bfb60a135adaec45952c46dfce950690e71",
+    "anvesha/report.json": "e1782b287d8b08896c694d3235a73e166b73cf2eb71e7803699e2d661aefbd8f",
+    "anvesha/dispositions.json": "bf123b329c9cd9d10fc3dd105fad4cef38424a87e66f7efa7882e8995ef8172a",
+    "anvesha/source-coverage.json": "ebdf9f204ca0780396f772b29ff9bfbc202e7889ccab26cded40696cf7d3e99f",
+    "candidate-bundle.json": "6acef8120942c7ed3d079e42f702a681b2ec0e3b36abc119a57424be9b5a2dbc",
+    "baseline.json": "d7da281944b671679ca99a9b6d7ca992c6930ee94c2df377288402853bc09d6d",
+    "samanta/selection-audit.json": "d89d6a57835c0f555bd4f37aeceea0ea43d8d44f122d6049f24de413ad43a932"
+  },
+  "checks": {
+    "author_file_bindings_verified": 24,
+    "api_capture_revision_and_text_pairs": 13,
+    "research_registry": 13,
+    "used_sources": [
+      "dhaga-wiktionary-130525"
+    ],
+    "drafts": [
+      {
+        "candidate_key": "anvesha-b16-02",
+        "exact_witness": true,
+        "bilingual_schema": true,
+        "normalized_exact_matches": []
+      }
+    ],
+    "fresh_positions": 7,
+    "fresh_drafts": 1,
+    "related_parallel_proposals": 1,
+    "fresh_deferred": 5,
+    "screening_heads": 4,
+    "lexical_context_heads": 2,
+    "failed_lexical_title": 1,
+    "canonical_entries_checked": 244,
+    "canonical_baseline_files_unchanged": 1367,
+    "assembled_drafts_exact": true,
+    "accepted_increment": 0
+  },
+  "semantic_review": [
+    {
+      "candidate": "anvesha-b16-01",
+      "finding": "Bowl rather than food preserves the frustrated-need image. Wider impatience use is explicitly editorial; author intention is not claimed as a historical ban on mocking hunger. Actual009 also bites the bowl, in anger at medicine. Hunger changes the trigger; this is a related-image parallel009, not a distinct new entry. My prior breaking comparison was wrong and is withdrawn."
+    },
+    {
+      "candidate": "anvesha-b16-02",
+      "finding": "Effort/gem conditional and jatna/ratna sound contrast retained. Encouragement is editorial close reading; neither guaranteed success nor moral judgement of failure is claimed."
+    }
+  ],
+  "integration_requirements": [
+    "Only130525 supports the one proposed new entry;119031 and lexical74876 belong to the research-only009parallel. Do not import all13 research sources.",
+    "74876 must be visible note-only lexical context; do not supply the complete proverb as its wording or silently repair its different quotation.",
+    "Traditional wording, dictionary gloss and original imagined applications remain distinct.",
+    "No candidate IDs accepted and no parallel patch authorized."
+  ],
+  "coverage_qualification": [
+    "Seven fresh positions comprise1 draft,1 related009parallel and5 deferrals; four screening heads are separate and not four fresh sayings.",
+    "100452 first quote overlaps195; second exact quotation remains captured unresolved, not exhausted or accepted.",
+    "36112 is already captured lexical context; its quotation unresolved and routine re-fetch unnecessary.",
+    "Remaining discovery pointers are not certified unworked: prior selection-audit retains earlier processed/alias checks; offset200 is a continuation pointer, not proof prior coverage complete."
+  ],
+  "limits": [
+    "Read saved digital originals/API rights only; no fresh network requests or printed facsimile inspection.",
+    "Same dictionary lineage is not independent corroboration, origin or popularity proof.",
+    "No canonical, source draft, Git, art, book or public changes.",
+    "Validation is research readiness, not acceptance or publication."
+  ],
+  "correction_history": {
+    "supersedes_report_sha256": "c08a1ccd247651d06151782fa5790e80e33a093c04445fbed21c4c4231998835",
+    "prior_error": "009 was incorrectly described as bowl breaking; actual009 is bowl biting. Earlier two-new conclusion withdrawn.",
+    "corrected_disposition": "One proposed distinct draft, one related009parallel at zero increment; no canonical patch."
+  }
+}

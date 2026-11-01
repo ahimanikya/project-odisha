@@ -1,0 +1,37 @@
+{
+  "decision": "REVISE",
+  "status": "TARGETED_VISUAL_REVISION_REQUIRED",
+  "asset": "art/245-chair-repair-v1.png",
+  "actual_pixels_viewed": true,
+  "review_method": "Individually viewed the actual full image using view_image; read generation metadata and frozen illustration brief.",
+  "bindings": {
+    "art/245-chair-repair-v1.png": "f429a941f206b37dfa46f624c893a8b348f6b0d934ce30ddcb030b26c0dfcc56",
+    "art/generation.json": "bbc007b26cb3932c94103e43a0e50a316fb047c6c6b212dbd69afaad5a25e70a",
+    "anvesha/illustration-briefs.json": "1286c17cdb90744d8492f4cca4938a31f536ce86f4f885337122bfded04ed24a"
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "area": "Chair geometry and intended joint",
+      "finding": "Four long legs project left from the seat, while the right-hand assembly reads as a separate bent extra leg or incomplete back. A coherent paired back structure is not legible. The working hand therefore appears to repair this ambiguous right-hand member rather than a clearly identifiable one of the four seat-leg joints.",
+      "requested_fix": "Use a simple recognisable chair with exactly four coherent legs and a clearly connected two-post back. Tilt it so one actual seat-to-leg joint faces the viewer; keep other members visibly connected or plausibly occluded. Put the repair at that identified joint."
+    },
+    {
+      "severity": "blocking",
+      "area": "Screwdriver engagement",
+      "finding": "The visible round fastener is on the front face of the bracket, while the screwdriver shaft ends on the upper edge of the adjoining wooden member. It does not visibly align with the shown screw head.",
+      "requested_fix": "Show one visible screw head in the joint bracket and align the screwdriver shaft and tip with its slot. Keep the stabilising fingers clear of the tool."
+    },
+    {
+      "severity": "nonblocking",
+      "area": "People and style",
+      "finding": "Both adults have focused expressions and plausible hand grips without an obvious fused-finger defect. Sparse background and monochrome contours suit the collection. The joint remains the material weakness, not the people or tone."
+    }
+  ],
+  "caption_alt_assessment": "Imagined second-attempt caption is appropriate, but current alt claiming a leg-joint check should not be accepted until the depicted joint is mechanically clear. No text-only fix substitutes for repairing the image.",
+  "reduced_readability": "Full-image inspection suggests the ambiguous right-hand member and small tool contact will become less clear at reduced size. No actual web derivative has been inspected or approved.",
+  "limits": [
+    "Separate AI visual review, not human craft expertise or historical documentation.",
+    "No image edit, canonical installation, book or web approval. Preserve v1 as rejected history and review the actual replacement pixels."
+  ]
+}
