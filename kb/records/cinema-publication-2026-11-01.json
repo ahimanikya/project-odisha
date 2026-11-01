@@ -1,7 +1,7 @@
 {
   "id": "POD-CINEMA-PUBLICATION-20261101",
   "date": "2026-11-01",
-  "status": "book_assets_published_website_pending",
+  "status": "published_verified",
   "authorization": {
     "actor": "Ahimanikya Satapathy",
     "request": "publish",
@@ -18,28 +18,32 @@
       "scope": "Payload and dependency audit",
       "write_scope": [
         "outputs/cinema-publication-20261101/source-audit.json"
-      ]
+      ],
+      "status": "completed"
     },
     "Samanta": {
       "scope": "Read-only release validation and runtime audit; bounded implementation only after explicit follow-up",
       "write_scope": [
         "outputs/cinema-publication-20261101/implementation-review.json"
-      ]
+      ],
+      "status": "completed"
     },
     "Drishti": {
       "scope": "Independent integrated revision and release review",
       "write_scope": [
         "outputs/cinema-publication-20261101/independent-review.json",
         "outputs/cinema-publication-20261101/receipt-review.json"
-      ]
+      ],
+      "status": "completed"
     }
   },
   "publication_performed": true,
   "human_specialist_review_claimed": false,
   "scope_released": false,
   "remaining_limits": [
+    "Previously recorded research gaps require new evidence; publication does not resolve them.",
     "Tagged PDF and assistive-technology validation remain separate.",
-    "Physical print proof and actual reader feedback remain separate."
+    "Physical print proof, ISBN registration and actual reader feedback remain separate."
   ],
   "book_release": {
     "status": "published_assets_verified",
@@ -82,5 +86,117 @@
       281
     ],
     "scope": "Unrelated open proposals left unchanged; all newer routes retained. Reviewed Bhukha title derivative replacement retained."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/649",
+  "source_head": "f44ce28e6bb95184bf1e375065da55227412d9d8",
+  "validation": {
+    "knowledge_and_research_checks": 37,
+    "full_site_tests": 680,
+    "coast_tests": 544,
+    "independent_source_review": "PASS at f44ce28e",
+    "hosted_run": 41265542148,
+    "hosted_status": "success",
+    "publication_bytes": 702832481,
+    "local_references_checked": 4904,
+    "missing_targets": 0
+  },
+  "book_build_receipts": {
+    "digital": "outputs/cinema-publication-20261101/digital-book-build.json",
+    "print": "outputs/cinema-publication-20261101/print-book-build.json"
+  },
+  "builder_reproduction_limit": "The saved local PDF builder expects the recorded Python runtime and Odia font. Website publication serves the verified immutable PDFs and does not regenerate them.",
+  "merge_commit": "e315bed1dc3541761fcb3beedc2b967c7e6dfbdd",
+  "deployment": {
+    "run_id": 41266621113,
+    "head_sha": "e315bed1dc3541761fcb3beedc2b967c7e6dfbdd",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41266621113",
+    "conclusion": "success",
+    "receipt": "outputs/cinema-publication-20261101/deployment-run.json"
+  },
+  "published_verified_at": "2026-11-01T02:59:36.102108+00:00",
+  "live_verification": {
+    "result": "PASS",
+    "pages": 54,
+    "image_files": 260,
+    "receipt": "outputs/cinema-publication-20261101/live-verification.json",
+    "scope": "Live main text, link lists and inline image bindings match the reviewed local artifact; inline cinema image bytes match. Target fragments were checked separately in the local artifact. This is not a full visual or assistive-technology audit.",
+    "book_remote_hashes_verified": true,
+    "browser_screenshot": "outputs/cinema-publication-20261101/live-book.png",
+    "browser": "Live 1 November edition and correct 246/254-page download links visibly checked"
+  },
+  "verified_routes": [
+    "/cinema/the-question-that-brought-me-here/",
+    "/cinema/literature-and-screen/",
+    "/people/basanta-kumari-patnaik/",
+    "/people/kalindi-charan-panigrahi/",
+    "/people/kanhu-charan-mohanty/",
+    "/people/manglu-charan-biswal/",
+    "/people/gopal-chhotray/",
+    "/people/bijay-mishra/",
+    "/cinema/air-cuttack/",
+    "/cinema/cinema-music/",
+    "/people/akshaya-mohanty/",
+    "/people/prafulla-kar/",
+    "/people/pranab-patnaik/",
+    "/people/tapu-mishra/",
+    "/cinema/odia-cinema/",
+    "/people/gour-prasad-ghose/",
+    "/cinema/parbati-ghose/",
+    "/cinema/sadhu-meher/",
+    "/people/bijay-mohanty/",
+    "/people/uttam-mohanty/",
+    "/people/aparajita-mohanty/",
+    "/cinema/manmohan-mahapatra/",
+    "/cinema/maya-miriga/",
+    "/people/nirad-mohapatra/",
+    "/cinema/bhukha/",
+    "/people/sabyasachi-mohapatra/",
+    "/cinema/aadim-vichar/",
+    "/cinema/lavanya-preeti/",
+    "/people/ak-bir/",
+    "/people/bijaya-jena/",
+    "/cinema/nandita-das/",
+    "/people/pramod-pati/",
+    "/people/lipika-singh-darai/",
+    "/cinema/learning-cinema-together/",
+    "/people/surya-deo/",
+    "/cinema/searching-for-sita-bibaha/",
+    "/cinema/who-keeps-a-film-alive/",
+    "/cinema/reading-odia-cinema/",
+    "/people/gourahari-das/",
+    "/cinema/pratikshya/",
+    "/people/anupam-patnaik/",
+    "/cinema/daman/",
+    "/people/vishal-mourya/",
+    "/people/debi-prasad-lenka/",
+    "/people/deependra-samal/",
+    "/cinema/odia-television/",
+    "/cinema/odia-ott/",
+    "/cinema/commercial-successes/",
+    "/cinema/cinema-economics/",
+    "/cinema/cinema-futures/",
+    "/cinema/",
+    "/cinema/book/",
+    "/cinema/reading-guide/",
+    "/cinema/watch/"
+  ],
+  "independent_review": {
+    "reviewer": "Drishti AI subagent",
+    "result": "PASS",
+    "revision": "f44ce28e6bb95184bf1e375065da55227412d9d8",
+    "receipt": "outputs/cinema-publication-20261101/independent-review.json"
+  },
+  "receipt_integration": {
+    "status": "independently_reviewed_pending_source_integration",
+    "website_redeployment_required": false,
+    "reason": "Remaining changes record actual publication evidence only.",
+    "scope_release_condition": "Coordinator scope closes after required checks, receipt merge and remote hash verification; this receipt records the state before that integration.",
+    "completion_evidence_destination": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01/publication-completion.json"
+  },
+  "independent_receipt_review": {
+    "result": "PASS",
+    "reviewer": "Drishti AI subagent",
+    "receipt": "outputs/cinema-publication-20261101/receipt-review.json"
   }
 }

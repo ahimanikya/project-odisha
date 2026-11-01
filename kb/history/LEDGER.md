@@ -1331,3 +1331,7 @@ At the Founder’s request, replaced general explanation with bounded close read
 ### 1 November 2026 · Cinema release package prepared
 
 All 50 readings, the people and milestones guide and the exact 246-page digital / 254-page print books are assembled for local review. Independent review verified 54 cinema pages and 4,905 local references; 675 site and 541 publication-edition checks passed. Corrected one local-preview footer link, retained earlier edition downloads and verified both PDF responses byte for byte. Published metadata remains unchanged. Tagged-PDF accessibility, physical print proof and reader feedback are separate follow-ups. No upload or publication. [Release preparation](../records/cinema-release-preparation-2026-11-01.json).
+
+### 1 November 2026 · Revised cinema collection and books published
+
+Published all 50 readings, the strengthened people and milestones guide, illustrations and exact 246-page digital / 254-page printable books under the Founder’s instruction. PR649 passed hosted validation; deployment41266621113 succeeded at e315bed1. All54cinema pages and260inline image files match the reviewed release, and both unauthenticated PDF downloads match the recorded bytes and hashes. Earlier editions and newer unrelated work remain intact. Research gaps, tagged-PDF accessibility, physical proof and reader feedback remain separate; no human specialist review or programme increment claimed. [Publication receipt](../records/cinema-publication-2026-11-01.json).

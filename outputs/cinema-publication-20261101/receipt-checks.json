@@ -1,0 +1,32 @@
+[
+  {
+    "command": "python3 tools/registers.py --check",
+    "exit_code": 0,
+    "output": "POD: valid; 1209 records, 697 events; dashboard current\n"
+  },
+  {
+    "command": "python3 tools/catalog.py --check",
+    "exit_code": 0,
+    "output": "Whole-project catalogue current: 1867 concepts\n"
+  },
+  {
+    "command": "python3 tools/check_bundle.py",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1867,\n  \"local_links\": 8051,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n"
+  },
+  {
+    "command": "python3 tools/check_autonomous_program.py",
+    "exit_code": 0,
+    "output": "PASS: autonomous program count and linked delivery records\n"
+  },
+  {
+    "command": "python3 tools/check_team_assignments.py",
+    "exit_code": 0,
+    "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n"
+  },
+  {
+    "command": "python3 tools/editorial/build_workbench.py --check",
+    "exit_code": 0,
+    "output": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 579}, \"mode\": \"check\"}\n"
+  }
+]
