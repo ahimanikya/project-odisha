@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-expansion-245-2026-11-01.json",
+  "handoff_home": "records/prahallad-story-only-2026-11-01.json",
   "roles": [
     {
       "name": "Disha",
@@ -57,11 +57,10 @@
   "current_article": null,
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_245_expansion",
+    "kind": "prahallad_story_only",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/odia-dhaga-expansion-245-2026-11-01.json",
-    "scope_release": "After separatelyreviewedreceiptmerge/checks/remoteverification"
+    "status": "implementation",
+    "handoff": "records/prahallad-story-only-2026-11-01.json"
   },
   "parallel_programmes": [
     {
@@ -109,13 +108,14 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "245 release655 mergedfc8fb477;deployment41316006459SUCCESS,live499readerfiles/exact156pagePDF/desktop390/browser verified and local750product sync complete. Finite scope retained through separately reviewed receipt merge/checks/remoteverification;106 readiness remains separately queued.",
+  "coordination_note": "Founder-requested removal of event details from Prahallad article. Dhaga245 fully delivered/released; Kalahandi106 reviewed readiness remains queued.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "dhaga_244_expansion",
+    "kind": "dhaga_245_expansion",
     "status": "released",
-    "handoff": "records/odia-dhaga-expansion-244-2026-11-01.json",
-    "release_evidence": "Receipt646merged31db49fd afterCI41243787318SUCCESS/all16remotehashes verified"
+    "receipt_pr": 656,
+    "merge": "e16b0ba285af1cedbf383543c236ca3af62ef6e0",
+    "remote_files_verified": 16
   }
 }
