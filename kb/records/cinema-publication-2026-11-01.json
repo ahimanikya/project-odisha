@@ -1,19 +1,86 @@
 {
   "id": "POD-CINEMA-PUBLICATION-20261101",
   "date": "2026-11-01",
-  "status": "in_progress",
-  "authorization": {"actor": "Ahimanikya Satapathy", "request": "publish", "scope": "Reviewed 50-reading cinema series, guide, images and exact 246-page digital and 254-page print books"},
+  "status": "book_assets_published_website_pending",
+  "authorization": {
+    "actor": "Ahimanikya Satapathy",
+    "request": "publish",
+    "scope": "Reviewed 50-reading cinema series, guide, images and exact 246-page digital and 254-page print books"
+  },
   "baseline": "kb/records/cinema-release-preparation-2026-11-01.json",
   "active_article": null,
   "scope": "Release integration of reviewed material; preserve all newer main-branch work and earlier downloads.",
   "workers": {
-    "Disha": {"scope": "Integration, shared records, GitHub assets, pull request, publication and live verification"},
-    "Anvesha": {"scope": "Payload and dependency audit", "write_scope": ["outputs/cinema-publication-20261101/source-audit.json"]},
-    "Samanta": {"scope": "Read-only release validation and runtime audit; bounded implementation only after explicit follow-up", "write_scope": ["outputs/cinema-publication-20261101/implementation-review.json"]},
-    "Drishti": {"scope": "Independent integrated revision and release review", "write_scope": ["outputs/cinema-publication-20261101/independent-review.json", "outputs/cinema-publication-20261101/receipt-review.json"]}
+    "Disha": {
+      "scope": "Integration, shared records, GitHub assets, pull request, publication and live verification"
+    },
+    "Anvesha": {
+      "scope": "Payload and dependency audit",
+      "write_scope": [
+        "outputs/cinema-publication-20261101/source-audit.json"
+      ]
+    },
+    "Samanta": {
+      "scope": "Read-only release validation and runtime audit; bounded implementation only after explicit follow-up",
+      "write_scope": [
+        "outputs/cinema-publication-20261101/implementation-review.json"
+      ]
+    },
+    "Drishti": {
+      "scope": "Independent integrated revision and release review",
+      "write_scope": [
+        "outputs/cinema-publication-20261101/independent-review.json",
+        "outputs/cinema-publication-20261101/receipt-review.json"
+      ]
+    }
   },
-  "publication_performed": false,
+  "publication_performed": true,
   "human_specialist_review_claimed": false,
   "scope_released": false,
-  "remaining_limits": ["Tagged PDF and assistive-technology validation remain separate.", "Physical print proof and actual reader feedback remain separate."]
+  "remaining_limits": [
+    "Tagged PDF and assistive-technology validation remain separate.",
+    "Physical print proof and actual reader feedback remain separate."
+  ],
+  "book_release": {
+    "status": "published_assets_verified",
+    "tag": "odia-cinema-book-2026-11-01",
+    "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-11-01",
+    "source_revision": "dffb9bef37066b4a1a33e3b6a6bbb36d70b8c8c7",
+    "assets": [
+      {
+        "edition": "digital",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01/odia-cinema-a-living-screen-2026-11-01-milestones.pdf",
+        "bytes": 31754480,
+        "sha256": "53d7c90819817909c13436eb5fd1fbe9d0d9f58a03f0c82717d0ea97a4cfaa9e",
+        "pages": 246,
+        "status": "reviewed_release_asset",
+        "edition_date": "2026-11-01",
+        "readings": 50,
+        "description": "A linked edition for reading on screen."
+      },
+      {
+        "edition": "print",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01/odia-cinema-a-living-screen-print-2026-11-01-milestones.pdf",
+        "bytes": 57669360,
+        "sha256": "8499a37efa4c6569dd4b95838e4877825ee04b3d9f71fea11c9987806bb7f370",
+        "pages": 254,
+        "status": "reviewed_release_asset",
+        "edition_date": "2026-11-01",
+        "readings": 50,
+        "description": "Mirrored margins, selected printed links and credited images."
+      }
+    ],
+    "verification": "outputs/cinema-publication-20261101/remote-book-verification.json"
+  },
+  "upstream_reconciliation": {
+    "main": "00eb4044",
+    "preserved_upstream_only_paths": 453,
+    "competing_publication_jobs": false,
+    "other_open_pull_requests": [
+      534,
+      304,
+      281
+    ],
+    "scope": "Unrelated open proposals left unchanged; all newer routes retained. Reviewed Bhukha title derivative replacement retained."
+  }
 }

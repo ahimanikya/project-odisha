@@ -1,5 +1,5 @@
 {
-  "status": "read_only_audit_complete_pending_activation_merge_and_gates",
+  "status": "post_merge_knowledge_research_workbench_checks_pass_site_activation_gates_coordinator_owned",
   "workflow_sha256": "560051bf3f75b27d74404724cae1ab99e94ac59158f2783f0052077eae1d94d5",
   "confirmed_blockers": [
     {
@@ -97,5 +97,246 @@
     "Remote assets not fetched by this audit; coordinator owns upload/download verification.",
     "No builds, Git mutations or source/UI edits.",
     "Merge may change workflow and generated inputs; rerun checks against final commit."
-  ]
+  ],
+  "post_merge_validation": {
+    "results": [
+      {
+        "command": "python3 tools/registers.py --check",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-01.log",
+        "summary": "POD: valid; 1209 records, 697 events; dashboard current\n"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-02.log",
+        "summary": "Whole-project catalogue current: 1867 concepts\n"
+      },
+      {
+        "command": "python3 tools/check_bundle.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-03.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1867,\n  \"local_links\": 8049,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/test_registers.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-04.log",
+        "summary": "POD: valid; 1209 records, 697 events; dashboard current\n{\n  \"result\": \"pass\",\n  \"checks\": [\n    \"valid records\",\n    \"duplicate ID\",\n    \"dangling reference\",\n    \"AI approval\",\n    \"work used as approval\",\n    \"external non-decision used as approval\",\n    \"published without release evidence\",\n    \"release without destination\",\n    \"missing evidence\",\n    \"repository path traversal\",\n    \"self-review false remains visible\",\n    \"deterministic rendering\",\n    \"changed source fingerprint changes view\",\n    \"dashboard current\"\n  ],\n  \"independent\": false\n}\n"
+      },
+      {
+        "command": "python3 tools/test_config.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-05.log",
+        "summary": "POD: valid; 1209 records, 697 events; dashboard current\nPASS: standalone KB; matching config; wrong prefix/kind/path; missing root config; config inside KB\n"
+      },
+      {
+        "command": "python3 tools/test_project_prefix.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-06.log",
+        "summary": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.126s\n\nOK\n"
+      },
+      {
+        "command": "python3 tools/test_family_id_aliases.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-07.log",
+        "summary": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.349s\n\nOK\n"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-08.log",
+        "summary": "PASS: autonomous program count and linked delivery records\n"
+      },
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-09.log",
+        "summary": "{\"result\": \"PASS\", \"counts\": {\"completed\": 161, \"excluded\": 486, \"queued\": 289}, \"errors\": []}\n"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-10.log",
+        "summary": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n"
+      },
+      {
+        "command": "python3 tools/test_team_assignments.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-11.log",
+        "summary": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.049s\n\nOK\n"
+      },
+      {
+        "command": "python3 tools/test_autonomous_program.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-12.log",
+        "summary": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 9.461s\n\nOK\n"
+      },
+      {
+        "command": "python3 tools/check_sound_collection.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-13.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"records\": 8,\n  \"errors\": [],\n  \"scope\": \"Record consistency only; not audio, consent or human review.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/test_sound_collection.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-14.log",
+        "summary": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.009s\n\nOK\n"
+      },
+      {
+        "command": "python3 tools/research/validate.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-15.log",
+        "summary": "{\n  \"checked_at\": \"2026-11-01T07:57:32+05:30\",\n  \"result\": \"PASS\",\n  \"concepts\": 1505,\n  \"local_link_checks\": 5787,\n  \"growth_arithmetic_checks\": 38,\n  \"preserved_evidence_records\": 71,\n  \"errors\": [],\n  \"scope\": \"Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_visitor_index.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-16.log",
+        "summary": "{\n  \"checked_at\": \"2026-11-01T07:57:32+05:30\",\n  \"result\": \"PASS\",\n  \"counts\": {\n    \"areas\": 5,\n    \"foods\": 22,\n    \"heritage\": 10,\n    \"facilities\": 14\n  },\n  \"relationship_checks\": 32,\n  \"errors\": [],\n  \"scope\": \"Local references, provenance linkage and seed evidence-state controls; not source accuracy or current operation.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_maritime.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-17.log",
+        "summary": "{\n  \"checked_at\": \"2026-11-01T02:27:32+00:00\",\n  \"result\": \"PASS\",\n  \"graph_nodes\": 106,\n  \"qualified_relationships\": 39,\n  \"numeric_observations\": 21,\n  \"arithmetic_checks\": 7,\n  \"local_queries_checked\": [\n    \"China\",\n    \"Paradip\",\n    \"archaeological_finding\"\n  ],\n  \"errors\": [],\n  \"scope\": \"Internal references, explicit evidence classes, metric/graph equality and arithmetic; no certification of historical claims.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_growth_journeys.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-18.log",
+        "summary": "{\n  \"checked_at\": \"2026-11-01T07:57:32+05:30\",\n  \"result\": \"PASS\",\n  \"observations\": 29,\n  \"derived_calculations\": 4,\n  \"timeline_events\": 15,\n  \"errors\": [],\n  \"scope\": \"Sources, units, period comparability, arithmetic and evidence-state safeguards; no independent verification of reported outcomes.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_statistics.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-19.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"observations\": 1713,\n  \"topics\": 48,\n  \"districts\": 30,\n  \"calculations\": 136,\n  \"readiness\": {\n    \"source_checked_editorial_review_pending\": 1216,\n    \"needs_source_table_review\": 397,\n    \"hold_conflict\": 100\n  },\n  \"errors\": [],\n  \"scope\": \"Structure, references and arithmetic; not independent source verification or human editorial review.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_homestays.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-20.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"homestay_observations\": 33,\n  \"unknown_outcome_metrics\": 9,\n  \"arithmetic_checks\": 2,\n  \"errors\": [],\n  \"scope\": \"Stage and qualifier fields, register references, conflict holds and policy arithmetic; not legal certification, source authentication or proof of demand.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_classification.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-21.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"subject_families\": 9,\n  \"classified_concepts\": 639,\n  \"atlas_topics\": 48,\n  \"atlas_observations\": 1713,\n  \"explained_relationships\": 613,\n  \"errors\": [],\n  \"scope\": \"Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_collections.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-22.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"collections_and_profiles\": 5,\n  \"progress_cards\": 6,\n  \"errors\": [],\n  \"scope\": \"Collection links, observation references, stage compatibility, public-card data agreement and one settlement reconciliation; not independent source verification or publication approval.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_prd.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-23.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"prd_version\": \"0.3.0\",\n  \"preserved_versions\": 4,\n  \"requirements\": 45,\n  \"phase_counts\": {\n    \"launch\": 32,\n    \"later\": 9,\n    \"deferred\": 4\n  },\n  \"errors\": [],\n  \"scope\": \"Requirement IDs, phase/basis/ADR references, version pointers and snapshot checksums; not feature acceptance, formal approval or factual certification.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_creations.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-24.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"people\": 71,\n  \"works\": 60,\n  \"garment_forms\": 13,\n  \"market_observation_refs\": 5,\n  \"errors\": [],\n  \"scope\": \"Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_sports.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-25.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"athletes\": 8,\n  \"sports\": 4,\n  \"observations\": 14,\n  \"errors\": [],\n  \"scope\": \"Identity, event scope, attribution and historical/current separation; not factual certification.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-26.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"records\": 1821,\n  \"tasks\": 71,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_osha_culture.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-27.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"profiles\": 53,\n  \"catalogue_records\": 32,\n  \"digital_texts\": 7,\n  \"web_text_witnesses\": 1,\n  \"comparison_dimensions\": 7,\n  \"narrative_checkpoints\": 15,\n  \"errors\": [],\n  \"scope\": \"Identity, provenance, prose/data consistency and unverified-field boundaries; not independent cultural review.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/research/validate_seasonal_food.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-28.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"errors\": [],\n  \"selected_observances\": 53,\n  \"provisional_associations\": 0,\n  \"scope\": \"Reference and evidence-boundary consistency only.\"\n}\n"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-29.log",
+        "summary": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 579}, \"mode\": \"check\"}\n"
+      },
+      {
+        "command": "python3 tools/editorial/test_workbench.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-30.log",
+        "summary": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.054s\n\nOK\n"
+      },
+      {
+        "command": "node --test projects/editorial-workbench/workbench.test.mjs",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-31.log",
+        "summary": "\u2714 searches actual record identities, source relationships and Odia metadata without modifying the selection (31.623833ms)\n\u2714 focus filters distinguish source aliases, mapped pages and research still without a page (2.244791ms)\n\u2714 portable HTML embeds the complete selection without external scripts, analytics or write actions (5.237209ms)\n\u2139 tests 3\n\u2139 suites 0\n\u2139 pass 3\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 146.955667\n"
+      },
+      {
+        "command": "python3 projects/odia-dhaga/test_repository.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-32.log",
+        "summary": "..............\n----------------------------------------------------------------------\nRan 14 tests in 4.275s\n\nOK\n"
+      },
+      {
+        "command": "python3 projects/odia-dhaga/test_transcription.py",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-33.log",
+        "summary": "Page2 with exact review passes; 22 malformed fixtures rejected.\nWrapped same-line segmentation and review alias pass; 28 negative cases rejected.\nPage3 nested boundaries pass; 32 negative cases rejected.\n"
+      },
+      {
+        "command": "python3 tools/languages/build_atlas.py --check",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-34.log",
+        "summary": "{\n  \"c16_rows_inspected\": 21188,\n  \"state_and_district_rows\": 3415,\n  \"districts\": 30,\n  \"state_language_groups_including_others\": 90,\n  \"state_mother_tongue_entries\": 205,\n  \"c16_state_population\": 41974218,\n  \"sex_and_residence_sums\": \"pass_all_source_rows\",\n  \"district_to_state_all_codes\": \"pass\",\n  \"children_to_group_where_children_listed\": \"pass\",\n  \"c17_to_c16_group_populations\": \"pass\",\n  \"additional_language_subset_checks\": \"pass\"\n}\n"
+      },
+      {
+        "command": "python3 tools/test_project_prefix.py",
+        "cwd": "projects/store",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-store-34.log",
+        "summary": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.187s\n\nOK\n"
+      },
+      {
+        "command": "python3 tools/registers.py --check",
+        "cwd": "projects/store",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-store-35.log",
+        "summary": "ODS: valid; 17 records, 15 events; dashboard current\n"
+      },
+      {
+        "command": "python3 tools/check_bundle.py",
+        "cwd": "projects/store",
+        "exit_code": 0,
+        "log": "outputs/cinema-publication-20261101/validation-store-36.log",
+        "summary": "{\n  \"result\": \"PASS\",\n  \"concepts\": 20,\n  \"local_links\": 65,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n"
+      }
+    ],
+    "passed": 37,
+    "failed": 0,
+    "scope": "Read-only validation commands only; no reindex/build/regeneration/Git mutation",
+    "search_index": {
+      "command": "In-memory reindex comparison (no write)",
+      "matches": true
+    }
+  },
+  "initial_findings_resolution": {
+    "search_index": "Resolved: in-memory regenerated contents match committed working file exactly",
+    "workbench": "Resolved: build_workbench --check and tests pass",
+    "publication_manifest": "Still awaits coordinator activation manifest"
+  }
 }
