@@ -1,7 +1,7 @@
 {
   "id": "POD-CINEMA-PORTRAITS-PUBLICATION-20261101",
   "date": "2026-11-01",
-  "status": "preparing_release",
+  "status": "assets_published_site_checks_pending",
   "authorization": {
     "actor": "Ahimanikya Satapathy",
     "request": "publish",
@@ -38,7 +38,7 @@
         "outputs/cinema-portraits-publication-20261101/independent-review.json",
         "outputs/cinema-portraits-publication-20261101/receipt-review.json"
       ],
-      "status": "review_in_progress"
+      "status": "source_review_pass"
     }
   },
   "publication_performed": false,
@@ -57,6 +57,48 @@
       534,
       304,
       281
+    ]
+  },
+  "source_head": "092ce50b5987615f9561c65f568d591e4e928b3d",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/653",
+  "validation": {
+    "local": "PASS",
+    "full_site_tests": 682,
+    "coast_tests": 544,
+    "checks": "outputs/cinema-portraits-publication-20261101/validation.json",
+    "three_disclosure_gates": "PASS",
+    "hosted": "pending",
+    "hosted_first_attempt": {
+      "run_id": 41290417286,
+      "status": "failed",
+      "reason": "Generated editorial-workbench coast-input hash stale",
+      "correction": "Regenerated exact coast input hash; 6 Python and3 Node workbench checks passed.",
+      "log": "outputs/cinema-portraits-publication-20261101/hosted-failure.log"
+    }
+  },
+  "book_release": {
+    "tag": "odia-cinema-book-2026-11-01-portraits",
+    "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-11-01-portraits",
+    "verification": "outputs/cinema-portraits-publication-20261101/remote-book-verification.json",
+    "assets": [
+      {
+        "edition": "digital",
+        "path": "output/pdf/odia-cinema-a-living-screen-2026-11-01-editorial-portraits.pdf",
+        "filename": "odia-cinema-a-living-screen-2026-11-01-editorial-portraits.pdf",
+        "pages": 246,
+        "bytes": 29981249,
+        "sha256": "9471af73924ddcaa9bc9ba0781137ed6058e2c1115861037ba5a2d257c666b6f",
+        "planned_release_url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01-portraits/odia-cinema-a-living-screen-2026-11-01-editorial-portraits.pdf"
+      },
+      {
+        "edition": "print",
+        "path": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf",
+        "filename": "odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf",
+        "pages": 254,
+        "bytes": 55059730,
+        "sha256": "5b9684b805c19990126269f3eab749a975c6434b7e21a8f806543790bc64bb03",
+        "planned_release_url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01-portraits/odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf"
+      }
     ]
   }
 }
