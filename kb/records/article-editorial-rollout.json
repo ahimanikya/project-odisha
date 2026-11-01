@@ -2757,12 +2757,15 @@
       "id": "POD-EDIT-105",
       "route": "/languages/districts/nuapada/",
       "title": "Nuapada \u00b7 languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/nuapada-language-utility-review-2026-11-01.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually verified generated Census2011 district394 data utility: calculated opening and total/rural/urban parent/member tables with common interpretation prompts. No configured district-specific authored destination or related-reading narrative in this route. Preserve source data, six language-story links, search status and separate geographic/institutional and banking material; no article/programme credit."
     },
     {
       "id": "POD-EDIT-106",
