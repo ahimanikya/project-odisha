@@ -1,0 +1,101 @@
+{
+  "status": "read_only_audit_complete_pending_activation_merge_and_gates",
+  "workflow_sha256": "560051bf3f75b27d74404724cae1ab99e94ac59158f2783f0052077eae1d94d5",
+  "confirmed_blockers": [
+    {
+      "path": "outputs/cinema-publication-20261101/book-release-manifest.json",
+      "finding": "Absent at inspection. Current source test derives this location from activated edition_date; candidate manifest is in outputs/cinema-release-20261101.",
+      "action": "Coordinator writes authoritative publication manifest after verified upload, preserving asset hashes and prior-book bindings."
+    },
+    {
+      "path": "kb/research/search-index.json",
+      "finding": "In-memory tools/research/kb_io.concepts output differs from existing search-index. CI reindexes and requires clean diff.",
+      "action": "Reindex after merge and include regenerated search-index; do not regenerate while merge is in progress."
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "finding": "python3 tools/editorial/build_workbench.py --check reports outdated generated file.",
+      "action": "Regenerate with existing workbench builder after shared records finalized, then run --check."
+    }
+  ],
+  "observed_checks": {
+    "local_reviewed_assets": "Both PDF bytes and SHA256 match candidate manifest:246digital/254print",
+    "catalog": "python3 tools/catalog.py --check PASS,1867concepts",
+    "production_metadata": "Still31October remote published pair at inspection; safe pendingupload",
+    "existing_gate_receipt": "outputs/cinema-release-20261101/final-checks.json reports675full/541coast,0disclosure violations,699388565publicationbytes; predates final merge/activation and not a fresh combined-release PASS"
+  },
+  "required_after_merge": [
+    "Verify uploaded asset downloads SHA256/bytes before activating metadata; preserve all six earlier review assets and static26October archives.",
+    "Reconcile coast.json union of upstream and cinema routes/downloads; do not replace newer main releases.",
+    "Regenerate root-owned research/search/workbench/register/catalog views as needed, then execute knowledge/research CI checks.",
+    "Rebuild full/coast/publication against restored production metadata containing verified remote1NovemberURLs; candidate review-site/dist must never become publish input.",
+    "Rerun full/coast tests and all three disclosure gates against final merged commit; retained premerge counts are not proof for changed main.",
+    "Run additional coast/discovery/search/launch audits from workflow; confirm actual final artifact below decimal1GB.",
+    "Validate Store, design-system, offline dhaga and language-atlas CI jobs too; prior cinema tests do not cover them."
+  ],
+  "exact_workflow_commands": [
+    "python3 tools/registers.py --check",
+    "python3 tools/catalog.py --check",
+    "python3 tools/check_bundle.py",
+    "python3 tools/test_registers.py",
+    "python3 tools/test_config.py",
+    "python3 tools/test_project_prefix.py",
+    "python3 tools/test_family_id_aliases.py",
+    "(cd projects/store && python3 tools/test_project_prefix.py && python3 tools/registers.py --check && python3 tools/check_bundle.py)",
+    "python3 tools/check_autonomous_program.py",
+    "python3 tools/editorial/article_rollout.py --check",
+    "python3 tools/check_team_assignments.py",
+    "python3 tools/test_team_assignments.py",
+    "python3 tools/test_autonomous_program.py",
+    "python3 tools/check_sound_collection.py",
+    "python3 tools/test_sound_collection.py",
+    "npm ci",
+    "npm run build",
+    "npm test",
+    "npm run test:server",
+    "python3 tools/research/reindex.py",
+    "git diff --exit-code -- kb/research/search-index.json",
+    "python3 tools/research/validate.py",
+    "python3 tools/research/validate_visitor_index.py",
+    "python3 tools/research/validate_maritime.py",
+    "python3 tools/research/validate_growth_journeys.py",
+    "python3 tools/research/validate_statistics.py",
+    "python3 tools/research/validate_homestays.py",
+    "python3 tools/research/validate_classification.py",
+    "python3 tools/research/validate_collections.py",
+    "python3 tools/research/validate_prd.py",
+    "python3 tools/research/validate_creations.py",
+    "python3 tools/research/validate_sports.py",
+    "python3 tools/research/validate_research_map.py",
+    "python3 tools/research/validate_osha_culture.py",
+    "python3 tools/research/validate_seasonal_food.py",
+    "python3 projects/odia-dhaga/test_repository.py",
+    "python3 projects/odia-dhaga/test_transcription.py",
+    "python3 projects/odia-dhaga/build.py",
+    "git diff --exit-code -- projects/odia-dhaga/index.html",
+    "python3 tools/editorial/build_workbench.py --check",
+    "python3 tools/editorial/test_workbench.py",
+    "node --test projects/editorial-workbench/workbench.test.mjs",
+    "npm run build",
+    "node tools/check-public-disclosures.mjs dist",
+    "npm test",
+    "npm run review",
+    "npm test",
+    "npm run build:coast",
+    "node tools/check-public-disclosures.mjs dist-coast",
+    "npm run test:coast",
+    "python3 tools/audit-coast.py",
+    "python3 tools/audit-discovery.py",
+    "node tools/prepare-search-review.mjs",
+    "python3 tools/audit-launch-readiness.py",
+    "npm run build:publication",
+    "node tools/check-public-disclosures.mjs dist-publish",
+    "python3 tools/audit-search-shortlist.py"
+  ],
+  "publication_workflow": "publish-site.yml requires main branch, actor ahimanikya and explicit publish_approved; rebuilds from checkout, publishes dist-publish. No publication executed by this agent.",
+  "limits": [
+    "Remote assets not fetched by this audit; coordinator owns upload/download verification.",
+    "No builds, Git mutations or source/UI edits.",
+    "Merge may change workflow and generated inputs; rerun checks against final commit."
+  ]
+}

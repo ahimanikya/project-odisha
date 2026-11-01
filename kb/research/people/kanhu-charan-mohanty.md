@@ -21,7 +21,7 @@ An unpublished manuscript can hold the beginning of a writing life. Kanhu Charan
 
 Financial constraints interrupted Mohanty’s engineering studies. He graduated from Ravenshaw in 1929 and entered government service in 1931. Retirement came in 1964, followed by three years as secretary of the Odisha Sahitya Akademi.[^akademi-fellowship]
 
-Writing continued through those working years. The dates place his novels alongside a life of employment, rather than apart from it. There is something worth pausing over here: a book may eventually stand alone on a shelf, but the time given to it belonged to a person carrying other responsibilities too.
+Writing continued through those working years: *Ha Anna*, *Sasti*, *Abhinetri* and *Kaa* appeared before his retirement.
 
 *Kaa* received the **Sahitya Akademi Award in 1958**.[^akademi-fellowship] This was recognition of the literary work. The novel’s later life on screen would involve another set of makers and decisions.
 

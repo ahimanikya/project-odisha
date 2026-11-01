@@ -61,13 +61,13 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 
 ## Footnotes & Sources
 
-[^roots]: Nandita Das, [“I am still searching for a place to call home”](https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/), Open, 8 August 2013. First-person account of birthplace, upbringing and Baripada visits.
-[^cannes]: Festival de Cannes, [Nandita Das](https://www.festival-cannes.com/en/p/nandita-das/), jury attendance and Manto selection. Jury membership and selection are distinguished from awards.
-[^zwigato]: Nandita Das Initiatives, [Zwigato: story and director’s note](https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/), setting, languages and 2022 festival premieres. These are festival premiere dates, not a theatrical release date.
+[^roots]: Nandita Das, [“I am still searching for a place to call home”](https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/), Open, 8 August 2013. Personal essay.
+[^cannes]: Festival de Cannes, [Nandita Das](https://www.festival-cannes.com/en/p/nandita-das/), jury attendance and Manto selection.
+[^zwigato]: Nandita Das Initiatives, [Zwigato: story and director’s note](https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/), 2022 festival premieres, not theatrical release dates.
 
-[^manto]: Festival de Cannes, [Manto: official synopsis and credits](https://www.festival-cannes.com/en/f/manto/), 2018. Synopsis-based discussion rather than fresh scene-level viewing.
+[^manto]: Festival de Cannes, [Manto: official synopsis and credits](https://www.festival-cannes.com/en/f/manto/), 2018.
 
-[^biswaprakash]: Nandita Das, [Acting](https://nanditadas.com/acting/), “Biswaprakash – The Young Rebel”; Directorate of Film Festivals, [47th National Film Awards catalogue](https://dff.nic.in/images/Documents/70_47thNfacatalogue.pdf), Biswaprakash cast entry and Best Feature Film in Oriya citation, printed p. 72. Award for films of 1999; cast and award evidence are not an individual acting-prize claim.
+[^biswaprakash]: Nandita Das, [Acting](https://nanditadas.com/acting/), “Biswaprakash – The Young Rebel”; Directorate of Film Festivals, [47th National Film Awards catalogue](https://dff.nic.in/images/Documents/70_47thNfacatalogue.pdf), Biswaprakash cast entry and Best Feature Film in Oriya citation, printed p. 72. Film award for 1999.
 
 ## Further reading
 

@@ -79,13 +79,13 @@ Archive and song links checked on 26 October 2026; clip playback untested.
 
 ## Footnotes & Sources
 
-[^life]: Gour–Parbati archive, [Parbati Ghose](https://www.gourparbati.com/parbati_ghose.php), retrospective biography. Used for family context, radio and later work. Claimed social impact, superlatives and disputed debut-year chronology are not repeated.
+[^life]: Gour–Parbati archive, [Parbati Ghose](https://www.gourparbati.com/parbati_ghose.php), retrospective biography.
 
 [^adaptation]: Gour–Parbati archive, [Chha Mana Atha Guntha (1986)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php), production, screenplay, cast and technical credits.
 [^filmography]: Gour–Parbati archive, [Filmography](https://www.gourparbati.com/filmography.php), entries for Laxmi, Kaa and Stree.
-[^awards]: Gour–Parbati archive, [Awards](https://www.gourparbati.com/award.php). Used for the films’ recognition, not an individual acting-award claim.
+[^awards]: Gour–Parbati archive, [Awards](https://www.gourparbati.com/award.php). Film honours.
 
-[^novel]: Peter Samuels, [“Teaching about the Colonial India State and Society with Six Acres and a Third”](https://www.educationaboutasia.org/article/id/1629/), Education About Asia, 10 June 2020. Used for the novel’s conflict; no claim of scene-by-scene fidelity in the film adaptation.
+[^novel]: Peter Samuels, [“Teaching about the Colonial India State and Society with Six Acres and a Third”](https://www.educationaboutasia.org/article/id/1629/), Education About Asia, 10 June 2020. Novel commentary.
 
 ## Further reading
 

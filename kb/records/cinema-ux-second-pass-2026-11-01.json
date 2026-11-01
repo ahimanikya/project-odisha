@@ -1,0 +1,124 @@
+{
+  "id": "POD-CINEMA-UX-SECOND-PASS-20261101",
+  "date": "2026-11-01",
+  "status": "audit_complete_findings_for_review",
+  "scope": "Read-only spacing, typography and image/story representation audit of 50 cinema readings and current 252/278-page books. No article, public source, image or book mutations.",
+  "authorization": "User requested second UX audit focused on spacing, typography and incorrect image representation.",
+  "baseline": "records/cinema-reading-ux-implementation-2026-11-01.json",
+  "active_article": null,
+  "global_owner_unchanged": true,
+  "workers": {
+    "Disha": {
+      "task": "Browser visual review, findings integration, shared records",
+      "write_scope": [
+        "outputs/cinema-ux-second-pass-20261101/",
+        "kb/records/cinema-ux-second-pass-2026-11-01.json"
+      ]
+    },
+    "Anvesha": {
+      "task": "Image-to-story fit and provenance review",
+      "write_scope": [
+        "outputs/cinema-ux-second-pass-20261101/image-review.json",
+        "outputs/cinema-ux-second-pass-20261101/image-contact-sheets/"
+      ]
+    },
+    "Samanta": {
+      "task": "Read-only website spacing/typography structural audit",
+      "write_scope": [
+        "outputs/cinema-ux-second-pass-20261101/web-review.json"
+      ]
+    },
+    "Drishti": {
+      "task": "Independent book visual review and final findings review",
+      "write_scope": [
+        "outputs/cinema-ux-second-pass-20261101/book-review.json",
+        "outputs/cinema-ux-second-pass-20261101/quality-review.json"
+      ]
+    }
+  },
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "coverage": {
+    "readings": 50,
+    "structural_web_pages": 53,
+    "image_placements": 56,
+    "extra_line_art": 6,
+    "pdf_pages_contact_reviewed": 530,
+    "full_size_pdf_pages_this_pass": 14,
+    "same_artifact_full_size_pdf_pages_reused": 11,
+    "selected_full_size_image_originals": 8,
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ]
+  },
+  "artifacts": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-ux.pdf",
+      "sha256": "a751c944786b957e17179795417e70f9bafda452c46f0d5a3ada6f160c6809c4",
+      "pages": 252,
+      "build_receipt": "tmp/pdfs/2026-11-01-ux/digital/book-build-2026-11-01-ux.json",
+      "receipt_sha256": "97747910a2c8a5601b9da2df6523a95ab2397650228686f7cbf53ef7a9fe7188"
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-ux.pdf",
+      "sha256": "882d0de86b207c6d6610e541d99f068137d10f886015ac1bac647a90ff6d3dd5",
+      "pages": 278,
+      "build_receipt": "tmp/pdfs/2026-11-01-ux/print/book-build-2026-11-01-ux.json",
+      "receipt_sha256": "effb913058a091d70a450e287f023c58791197360f79571a1e9eb08b8816bea8"
+    }
+  },
+  "reports": [
+    "outputs/cinema-ux-second-pass-20261101/report.md",
+    "outputs/cinema-ux-second-pass-20261101/web-review.json",
+    "outputs/cinema-ux-second-pass-20261101/image-review.json",
+    "outputs/cinema-ux-second-pass-20261101/book-review.json",
+    "outputs/cinema-ux-second-pass-20261101/browser-measurements.json",
+    "outputs/cinema-ux-second-pass-20261101/quality-review.json"
+  ],
+  "findings": {
+    "confirmed": [
+      "TYPE02 bilingual heading line-height visibly uneven",
+      "B01 isolated digital closing paragraph on page 188",
+      "B02 inherited Contents header in both editions",
+      "TYPE01 incomplete verified Odia language markup"
+    ],
+    "representation_risks": [
+      "IMG01 bookbinding metaphor must not become an undocumented biographical claim",
+      "IMG02 anonymous illustrated performers on actor profiles may be mistaken for likenesses; existing illustration captions mitigate this"
+    ],
+    "optional": [
+      "IMG03 recurring desk/window visual treatment",
+      "IMG04 small signature-like mark in Bhukha illustration",
+      "Standalone reading-link arrows at mobile width",
+      "B03 Nirad opening paragraph split after two lines",
+      "B04 sparse viewing-list end pages",
+      "B05 print source-label and URL wrapping"
+    ],
+    "not_confirmed_as_defects": [
+      "SPACE01 Further reading divider remains coherent",
+      "TYPE03 no demonstrated citation collision in narrow body-text sample"
+    ]
+  },
+  "remaining_limits": [
+    "No new rights-owner verification or comprehensive historical fact check",
+    "No physical print proof, enlarged-text/AT testing or human reader study",
+    "PDF tags and reading order remain open from prior review",
+    "Image duplicates checked by original hashes plus visual triage, not exhaustive transformed-source matching"
+  ],
+  "article_changes": 0,
+  "image_changes": 0,
+  "pdf_changes": 0,
+  "publish_authority_used": false,
+  "pdf_hashes_rechecked": true,
+  "independent_review": "outputs/cinema-ux-second-pass-20261101/quality-review.json",
+  "independent_review_result": "PASS — no required wording corrections; audit-only scope confirmed",
+  "next_actions": [
+    "Correct bilingual heading rhythm and verified Odia language labels",
+    "Reflow digital closing paragraph and correct Contents running headers",
+    "Refine imagined-scene captions and reading-link arrow wrapping",
+    "Consider optional book end-page and print source-directory improvements selectively"
+  ],
+  "review_only": true
+}

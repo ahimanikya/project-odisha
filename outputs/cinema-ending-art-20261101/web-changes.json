@@ -1,0 +1,98 @@
+{
+  "status": "complete_web_built_pending_independent_browser_review",
+  "changed_files": [
+    "projects/site/src/lib/cinema-article.mjs",
+    "projects/site/tests/cinema-ux.test.mjs"
+  ],
+  "changes": [
+    "Explicit required web_placement enum replaces slug-specific placement map.",
+    "PNG source allowlist permits only reader-refinement-20261031 and ending-art-20261101 directories.",
+    "Existing exact public-copy, PNG dimensions, uncropped size and figure-credit invariants preserved.",
+    "Focused placement assertions support additional configured motifs and reject invalid placement/source."
+  ],
+  "tests": {
+    "run": true,
+    "passed": 26,
+    "failed": 0,
+    "log": "outputs/cinema-ending-art-20261101/focused-tests.log"
+  },
+  "book_advice": "Confirmed digital-only unconditional PageBreak at render_body line405 for new_book_page. Removing shared-story flag is simplest first trial; CondPageBreak(h+85) remains. No book edit performed.",
+  "guidance": "Reused retained accessibility guidance: meaningful alt text/caption, native content; no CSS/interface redesign.",
+  "file_hashes": {
+    "projects/site/src/lib/cinema-article.mjs": "1705a99614382c38e3cee77321c8b7d8152339688bd990a8bdf11df6d7f11927",
+    "projects/site/tests/cinema-ux.test.mjs": "bf855a64bcad18f6704c4b4ec7ef401983740b926b068e23fb297f6bc4d6b5fb"
+  },
+  "preserved": [
+    "Canonical prose",
+    "CSS",
+    "Source images",
+    "Book builder and config",
+    "Published URLs"
+  ],
+  "build_run": true,
+  "publication_performed": false,
+  "build": {
+    "command": "npm run build (Node24 PATH)",
+    "pages": 570,
+    "exit_code": 0,
+    "log": "outputs/cinema-ending-art-20261101/site-build.log"
+  },
+  "disclosure": {
+    "pages_checked": 1055,
+    "violations": 0,
+    "log": "outputs/cinema-ending-art-20261101/disclosure.log"
+  },
+  "motifs": [
+    {
+      "id": "courtyard-threshold",
+      "slug": "maya-miriga",
+      "placement": "before-watch",
+      "source_sha256": "4f725bbef3db326d9ed1c050be8bd1ea8cfc980d985de70ce82702320f20a6b6",
+      "public_byte_identical": true,
+      "rendered_once": true
+    },
+    {
+      "id": "bringing-a-film-to-viewers",
+      "slug": "bhukha",
+      "placement": "before-watch",
+      "source_sha256": "256a81f9389cb84e15222e33115a579955a0ac93068d66ee7c5530c8d922acd7",
+      "public_byte_identical": true,
+      "rendered_once": true
+    },
+    {
+      "id": "household-waiting",
+      "slug": "pratikshya",
+      "placement": "before-continue",
+      "source_sha256": "4b7181143af1bb436fcacffec3dfcc4d2770c49d894d55b0cf0e1c3932de386f",
+      "public_byte_identical": true,
+      "rendered_once": true
+    },
+    {
+      "id": "arriving-for-a-conversation",
+      "slug": "learning-cinema-together",
+      "placement": "before-continue",
+      "source_sha256": "b11aa04b49ea5435f4090ef3b2bfe135f3ec88eff37bbb21feefadd91c867160",
+      "public_byte_identical": true,
+      "rendered_once": true
+    },
+    {
+      "id": "material-passed-on",
+      "slug": "surya-deo",
+      "placement": "before-continue",
+      "source_sha256": "42821dd260d3a53868c62e51b8aa6eb60b8ae39c229280e3025d2360b95d61d6",
+      "public_byte_identical": true,
+      "rendered_once": true
+    }
+  ],
+  "metadata_review": "New descriptions clearly conceptual; no named likeness, documented-event or film-still claim. Captions/alt escaped by renderer.",
+  "browser_run": false,
+  "pdf_work_performed": false,
+  "after_section_followup": {
+    "slug": "cinema-futures",
+    "id": "shared-story",
+    "placement": "after final invitation, before Continue",
+    "regression_pass": true,
+    "full_build_pass": true,
+    "rendered_order_pass": true
+  }
+}

@@ -15,7 +15,7 @@ test('manifest canonical articles preserve notes, captions and source hashes',()
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,entry.slug+' duplicate anchors');
   for(const [,target]of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(target),entry.slug+' '+target);
   assert.equal((html.match(/<figure\b/g)||[]).length,entry.images.length,entry.slug+' figures');
-  const heroCaption=html.match(/<figure class="cinema-hero[^"]*"[^>]*>[\s\S]*?<figcaption>([\s\S]*?)<\/figcaption>/)?.[1];assert.ok(heroCaption,entry.slug+' visible hero caption');if(entry.hero.kind==='documentary'){assert.ok(entry.hero.credit?.creator);const escaped=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');assert.ok(html.includes(escaped(entry.hero.credit.creator)),entry.slug+' visible creator credit');assert.ok(heroCaption.includes('href="#user-content-fn-cinema-image-1"'),entry.slug+' caption links to credit');assert.ok(!heroCaption.includes('Credit:'),entry.slug+' credit moved to notes');for(const value of [entry.hero.credit.source_url,entry.hero.credit.license_url])assert.ok(html.includes('href="'+escaped(new URL(value).href)+'"'),entry.slug+' linked documentary credit');assert.ok(html.includes(escaped(entry.hero.credit.license)));}else if(entry.hero.kind==='author-portrait'){assert.equal(heroCaption,'Ahimanikya Satapathy.');assert.ok(!html.includes('id="image-credits"'));assert.ok(!entry.hero.credit?.license);}else assert.match(heroCaption,/\billustration\b/i,entry.slug+' clearly labelled illustration');assert.ok(!/AI-generated|Human Natural Editorial|Editorial Natural/.test(html),entry.slug+' production explanation reserved for process page');
+  const heroCaption=html.match(/<figure class="cinema-hero[^"]*"[^>]*>[\s\S]*?<figcaption>([\s\S]*?)<\/figcaption>/)?.[1];assert.ok(heroCaption,entry.slug+' visible hero caption');if(entry.hero.kind==='documentary'){assert.ok(entry.hero.credit?.creator);const escaped=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');assert.ok(html.includes(escaped(entry.hero.credit.creator)),entry.slug+' visible creator credit');assert.ok(heroCaption.includes('href="#user-content-fn-cinema-image-1"'),entry.slug+' caption links to credit');assert.ok(!heroCaption.includes('Credit:'),entry.slug+' credit moved to notes');for(const value of [entry.hero.credit.source_url,entry.hero.credit.license_url])assert.ok(html.includes('href="'+escaped(new URL(value).href)+'"'),entry.slug+' linked documentary credit');assert.ok(html.includes(escaped(entry.hero.credit.license)));}else if(entry.hero.kind==='author-portrait'){assert.equal(heroCaption,'Ahimanikya Satapathy.');assert.ok(!html.includes('id="image-credits"'));assert.ok(!entry.hero.credit?.license);}else assert.match(heroCaption,/\b(?:illustration|imagined)\b/i,entry.slug+' clearly labelled illustration');assert.ok(!/AI-generated|Human Natural Editorial|Editorial Natural/.test(html),entry.slug+' production explanation reserved for process page');
   assert.ok(html.includes('Footnotes &amp; Sources')||html.includes('Footnotes & Sources'),entry.slug+' sources');
   assert.ok(html.includes('/contribute/?page='+encodeURIComponent(entry.route)),entry.slug+' update route');
   assert.ok(readingLinks.length,entry.slug+' reading links');assert.equal(hero.file,entry.images.find(i=>i.role==='title').file);
@@ -23,7 +23,7 @@ test('manifest canonical articles preserve notes, captions and source hashes',()
  }
 });
 test('children sections and Watch links promoted exactly once',()=>{for(const [slug,heading,note]of [['odia-cinema','Children, imagination and the screen','children-babula-parliament'],['odia-television','Animation, and the language a child hears','child-idmt']]){const entry=cinema.articles.find(e=>e.slug===slug),source=fs.readFileSync(path.join(root,entry.source),'utf8');assert.equal(source.split('## '+heading).length-1,1);assert.equal(source.split('[^'+note+']:').length-1,1);assert.ok(cinemaArticle(entry).article.html.includes(heading));}});
-test('books staged byte-exact and no source-sized hero PNGs deployed',()=>{for(const book of cinema.books){assert.equal(hash(fs.readFileSync(path.join(site,'public',book.file))),book.sha256);const delivery=JSON.parse(fs.readFileSync(path.join(root,'kb/records/cinema-book-disclosure-fix-2026-10-26.json'),'utf8'));const reviewed=Object.values(delivery.outputs).find(output=>path.basename(output.path)===path.basename(book.file));assert.ok(reviewed);assert.equal(book.sha256,reviewed.sha256);}const deployed=fs.readdirSync(path.join(site,'public/assets/cinema'));const drawings=cinemaNarrative.line_art.map(item=>path.basename(item.public_image));assert.deepEqual(deployed.filter(f=>f.endsWith('.png')).sort(),drawings.sort());});
+test('books staged byte-exact and no source-sized hero PNGs deployed',()=>{for(const book of cinema.books){assert.equal(hash(fs.readFileSync(path.join(site,'public',book.file))),book.sha256);const delivery=JSON.parse(fs.readFileSync(path.join(root,'kb/records/cinema-book-disclosure-fix-2026-10-26.json'),'utf8'));const reviewed=Object.values(delivery.outputs).find(output=>path.basename(output.path)===path.basename(book.file));assert.ok(reviewed);assert.equal(book.sha256,reviewed.sha256);}const deployed=fs.readdirSync(path.join(site,'public/assets/cinema'));const drawings=[...cinemaNarrative.line_art.map(item=>path.basename(item.public_image)),...cinemaNarrative.book_tail_vignettes.map(item=>path.basename(item.image))];assert.deepEqual(deployed.filter(f=>f.endsWith('.png')).sort(),drawings.sort());});
 test('player logic source-identical, scoped styling, explicit frame policy',()=>{for(const name of ['app.js','core.js','catalogue.js'])assert.equal(fs.readFileSync(path.join(site,'public/assets/cinema/player',name),'utf8'),fs.readFileSync(path.join(root,'outputs/odia-movie-player',name),'utf8'));const app=fs.readFileSync(path.join(site,'public/assets/cinema/player/app.js'),'utf8');assert.ok(app.includes("frame.referrerPolicy='strict-origin-when-cross-origin'"));assert.ok(!app.includes('innerHTML'));const css=fs.readFileSync(path.join(site,'public/assets/cinema/player/player.css'),'utf8');assert.ok(css.includes('.cinema-player'));const page=fs.readFileSync(path.join(site,'src/pages/cinema/watch.astro'),'utf8');assert.ok(!page.includes('<iframe'));assert.equal((page.match(/is:inline defer/g)||[]).length,3);});
 
 test('cinema delivery preserves responsive JPEGs and release PDF URLs',()=>{
@@ -37,7 +37,7 @@ test('further reading preserves all source links and enriches destination articl
  const page=fs.readFileSync(path.join(site,'src/components/CinemaReading.astro'),'utf8');assert.ok(page.includes('headingLevel={3} compact'));assert.ok(page.includes('class="cinema-sequence"'));assert.ok(page.includes('class="cinema-utilities"'));assert.ok(!page.includes('All eleven'));
 });
 
-test('people route overrides are excluded from cinema slug emission',()=>{const sample=[{slug:'gourahari-das',route:'/people/gourahari-das/'},{slug:'nirad-mohapatra',route:'/people/nirad-mohapatra/'},{slug:'pratikshya',route:'/cinema/pratikshya/'}];assert.deepEqual(cinemaRouteEntries(sample),[sample[2]]);assert.ok(cinemaRouteEntries().every(e=>e.route===`/cinema/${e.slug}/`));const prep=fs.readFileSync(path.join(site,'tools/prepare-cinema.mjs'),'utf8');assert.ok(prep.includes("route:entry.route||'/cinema/'+entry.slug+'/'"));const route=fs.readFileSync(path.join(site,'src/pages/cinema/[slug].astro'),'utf8');assert.ok(route.includes('cinemaRouteEntries()'));assert.ok(route.includes('<CinemaReading entry={entry}/>'));const book=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');assert.ok(book.includes('Available PDF edition · '));assert.ok(book.includes('Earlier published edition · 26 October 2026'));assert.ok(book.includes('{cinema.articles.length} readings'));assert.ok(book.includes('fourteen-chapter edition of 26 October 2026'));});
+test('people route overrides are excluded from cinema slug emission',()=>{const sample=[{slug:'gourahari-das',route:'/people/gourahari-das/'},{slug:'nirad-mohapatra',route:'/people/nirad-mohapatra/'},{slug:'pratikshya',route:'/cinema/pratikshya/'}];assert.deepEqual(cinemaRouteEntries(sample),[sample[2]]);assert.ok(cinemaRouteEntries().every(e=>e.route===`/cinema/${e.slug}/`));const prep=fs.readFileSync(path.join(site,'tools/prepare-cinema.mjs'),'utf8');assert.ok(prep.includes("route:entry.route||'/cinema/'+entry.slug+'/'"));const route=fs.readFileSync(path.join(site,'src/pages/cinema/[slug].astro'),'utf8');assert.ok(route.includes('cinemaRouteEntries()'));assert.ok(route.includes('<CinemaReading entry={entry}/>'));const book=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');assert.ok(book.includes("'Available PDF edition'"));assert.ok(book.includes('Earlier published edition · 26 October 2026'));assert.ok(book.includes('{cinema.articles.length} readings'));assert.ok(book.includes('fourteen-chapter edition of 26 October 2026'));});
 
 test('Gourahari is a people companion with an accurately labelled hero',()=>{const entry=cinema.articles.find(a=>a.slug==='gourahari-das');assert.ok(entry);assert.equal(entry.route,'/people/gourahari-das/');assert.ok(!cinemaRouteEntries().includes(entry));if(entry.hero.kind!=='documentary'){assert.match(entry.hero.caption,/illustration/i);}const page=fs.readFileSync(path.join(site,'src/pages/people/gourahari-das.astro'),'utf8');assert.ok(page.includes("article.route==='/people/gourahari-das/'"));assert.ok(page.includes('<CinemaReading entry={entry}/>'));});
 
@@ -145,8 +145,23 @@ test('reading order is coherent across parts, callbacks preserve citations, imag
   for(const [,note]of c.text.matchAll(/\[\^([^\]]+)\]/g))assert.ok(html.includes(`href="#user-content-fn-${note}"`));
  }
  for(const item of [...cinemaNarrative.people_guide,...cinemaNarrative.timeline]){
-  const html=cinemaArticle(cinema.articles.find(a=>a.slug===item.slug)).fullHTML;
-  assert.ok(html.includes(`id="user-content-fn-${item.source_note_id}"`),item.label||item.text);
+  const label=item.label||item.text;
+  assert.ok(cinema.articles.some(a=>a.slug===item.slug),label+' reading destination');
+  const refs=item.source_refs??[{slug:item.slug,source_note_id:item.source_note_id}];
+  assert.ok(Array.isArray(refs)&&refs.length>0,label+' has source references');
+  const seen=new Set();
+  for(const ref of refs){
+   assert.ok(typeof ref.slug==='string'&&ref.slug.length>0&&typeof ref.source_note_id==='string'&&ref.source_note_id.length>0,label+' nonempty source binding');
+   const binding=JSON.stringify([ref.slug,ref.source_note_id]);
+   assert.ok(!seen.has(binding),label+' duplicate source binding');seen.add(binding);
+   const source=cinema.articles.find(a=>a.slug===ref.slug);assert.ok(source,label+' source chapter exists');
+   const html=cinemaArticle(source).fullHTML;
+   assert.ok(html.includes(`id="user-content-fn-${ref.source_note_id}"`),label+' resolves '+binding);
+  }
+ }
+ for(const [i,item]of cinemaNarrative.timeline.entries()){
+  assert.ok(typeof item.sort_year==='number'&&Number.isFinite(item.sort_year),'numeric milestone year: '+item.date);
+  if(i)assert.ok(item.sort_year>=cinemaNarrative.timeline[i-1].sort_year,'chronological milestone: '+item.date);
  }
 });
 
@@ -156,10 +171,12 @@ test('author introduction leads to literature and preserves the expanded collect
 });
 
 test('current review books match the reviewed release manifest and retain all earlier editions',()=>{
- const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-20261031/book-release-manifest.json'),'utf8'));
- assert.equal(manifest.edition_date,'2026-10-31');assert.equal(manifest.readings,50);
+ const date=cinema.review_books[0].edition_date;assert.match(date,/^\d{4}-\d{2}-\d{2}$/);
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-'+date.replaceAll('-','')+'/book-release-manifest.json'),'utf8'));
+ assert.equal(manifest.edition_date,date);assert.equal(manifest.readings,cinema.review_books[0].readings);
  assert.equal(cinema.review_books.length,2);const releaseBases=new Set();
  for(const b of cinema.review_books){
+  assert.equal(b.edition_date,date);assert.equal(b.readings,manifest.readings);assert.equal(b.status,'reviewed_release_asset');
   const reviewed=manifest.assets.find(a=>a.edition===b.edition);assert.ok(reviewed,b.edition);
   for(const key of ['sha256','bytes','pages'])assert.equal(b[key],reviewed[key],b.edition+' '+key);
   const url=new URL(b.file);assert.equal(url.origin,'https://github.com');assert.equal(url.search,'');assert.equal(url.hash,'');
@@ -167,17 +184,19 @@ test('current review books match the reviewed release manifest and retain all ea
   assert.equal(path.posix.basename(url.pathname),reviewed.filename);releaseBases.add(path.posix.dirname(url.pathname));
  }
  assert.equal(releaseBases.size,1);
- assert.equal(cinema.review_books.find(b=>b.edition==='digital').pages,254);assert.equal(cinema.review_books.find(b=>b.edition==='print').pages,282);
- assert.equal(cinema.archived_review_books.length,4);
- assert.equal(new Set([...cinema.review_books,...cinema.archived_review_books].map(b=>b.file)).size,6);
+ assert.equal(new Set([...cinema.review_books,...cinema.archived_review_books].map(b=>b.file)).size,cinema.review_books.length+cinema.archived_review_books.length);
  const page=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');
- assert.ok(page.includes('Available PDF edition · 31 October 2026'));assert.ok(page.includes('50 readings'));
- for(const date of ['30 October 2026','27 October 2026','26 October 2026'])assert.ok(page.includes('Earlier published edition · '+date));
+ assert.ok(page.includes("'Available PDF edition'"));assert.ok(page.includes('{current.readings} readings'));assert.ok(page.includes('archives.map'));
  for(const archived of manifest.expected_previous_review_books){
-  assert.ok(page.includes('href="'+archived.file+'"'));assert.ok(!cinema.review_books.some(b=>b.file===archived.file));
-  assert.deepEqual(cinema.archived_review_books.find(b=>b.file===archived.file),archived);
+  assert.ok(!cinema.review_books.some(b=>b.file===archived.file));
+  const actual=cinema.archived_review_books.find(b=>b.file===archived.file);assert.ok(actual);
+  for(const [key,value]of Object.entries(archived))assert.deepEqual(actual[key],value);
  }
- for(const archived of cinema.archived_review_books)assert.ok(page.includes('href="'+archived.file+'"'));
+ for(const archived of cinema.archived_review_books){
+  assert.match(archived.edition_date,/^\d{4}-\d{2}-\d{2}$/);assert.ok(archived.edition_date<date);
+  assert.ok(Number.isInteger(archived.readings)&&archived.readings>0);
+  assert.match(archived.file,/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\/[^/]+\/[^/]+\.pdf$/);
+ }
  for(const name of ['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'])assert.ok(page.includes('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/'+name));
  assert.ok(page.includes('cinema.review_books.map'));assert.ok(page.includes('not a printer-specific press-ready PDF'));assert.ok(page.includes('not tagged accessibility editions'));
 });

@@ -36,12 +36,12 @@ Seventeen drafts are easy to compress into a sentence. Patnaik’s recollection 
 
 ## Footnotes & Sources
 
-[^drafts]: Atmaja Mohanty, [interview with Anupam Patnaik](https://odishabytes.com/odia-producer-cum-director-anupam-patnaiks-movie-pratikshya-to-hit-theatres-this-december/amp/), OdishaBytes, 6 October 2022. Writing process and collaboration, in Patnaik’s account.
-[^company]: [Amiya Patnaik Productions, About Us](https://technoartproductionz.com/about.html), Anupam Patnaik biography. Education and early credits.
-[^tulasi]: [Bengaluru International Film Festival 2016 catalogue](https://www.biffes.org/public/assets/images/pdf/08th-Biffes-Festival-Catalogue-2016.pdf), printed p. 48, *Tulasi Apa* (2015). Producer, director and synopsis.
-[^iffi]: Press Information Bureau, [IFFI cast-and-crew account](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Source-story connection and the director’s and actor’s recollections.
+[^drafts]: Atmaja Mohanty, [interview with Anupam Patnaik](https://odishabytes.com/odia-producer-cum-director-anupam-patnaiks-movie-pratikshya-to-hit-theatres-this-december/amp/), OdishaBytes, 6 October 2022.
+[^company]: [Amiya Patnaik Productions, About Us](https://technoartproductionz.com/about.html), Anupam Patnaik biography.
+[^tulasi]: [Bengaluru International Film Festival 2016 catalogue](https://www.biffes.org/public/assets/images/pdf/08th-Biffes-Festival-Catalogue-2016.pdf), printed p. 48, *Tulasi Apa* (2015).
+[^iffi]: Press Information Bureau, [IFFI cast-and-crew account](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022.
 [^award]: Press Information Bureau, [69th National Film Awards results](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48), 24 August 2023, Best Odia Film for 2021.
-[^karma]: OrissaPOST, [Four Odia flicks to clash at box office](https://www.orissapost.com/four-odia-flicks-to-clash-at-box-office/), 8 October 2024. *Karma* director, lead actor and premise.
+[^karma]: OrissaPOST, [Four Odia flicks to clash at box office](https://www.orissapost.com/four-odia-flicks-to-clash-at-box-office/), 8 October 2024. *Karma* pre-release report.
 
 ## Further reading
 

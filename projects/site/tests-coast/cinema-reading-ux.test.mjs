@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {cinema,cinemaArticle,markReviewedOdia} from '../src/lib/cinema-article.mjs';
+import {cinema,cinemaNarrative,cinemaArticle,markReviewedOdia} from '../src/lib/cinema-article.mjs';
 const read=route=>readFileSync(new URL('../'+(process.env.CINEMA_UX_DIST||'dist-coast')+route+'index.html',import.meta.url),'utf8');
 test('every narrative offers its next reading before sources without losing bottom navigation',()=>{
  for(const [index,entry] of cinema.articles.entries()){
@@ -11,8 +11,20 @@ test('every narrative offers its next reading before sources without losing bott
   assert.ok(onward>=0,entry.slug);
   assert.ok(onward<article.html.indexOf('<section data-footnotes'),entry.slug);
   if(article.html.includes('class="cinema-image-notes"'))assert.ok(onward<article.html.indexOf('class="cinema-image-notes"'),entry.slug);
-  assert.match(article.html.slice(onward),new RegExp('href="'+(next?.route||'/cinema/')+'"'));
-  assert.match(html,/aria-label="Reading sequence"/);
+  const central=cinemaNarrative.reading_paths.find(path=>path.primary===true).chapters;
+  const routeIndex=central.indexOf(entry.slug);
+  const expected=routeIndex<0?(next?.route||'/cinema/'):(cinema.articles.find(a=>a.slug===central[routeIndex+1])?.route||'/cinema/reading-guide/#central-reading-route');
+  for(const rendered of [article.html,html]){
+   const nav=rendered.match(/<nav class="cinema-narrative-continue"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+   assert.ok(nav?.includes('href="'+expected+'"'),entry.slug+' intended onward route');
+   assert.ok(nav.includes('aria-label="'+(routeIndex>=0?'Central reading route':'Full collection reading sequence')+'"'),entry.slug+' onward accessible name');
+  }
+  const sequence=html.match(/<nav class="cinema-sequence"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+  assert.ok(sequence?.includes('aria-label="Full collection reading sequence"'),entry.slug);
+  for(const [direction,target]of [['prev',cinema.articles[index-1]],['next',next]]){
+   if(target)assert.ok(sequence.includes('href="'+target.route+'" rel="'+direction+'"'),entry.slug+' full collection '+direction);
+   else assert.ok(!sequence.includes('rel="'+direction+'"'),entry.slug+' boundary');
+  }
   assert.ok(html.indexOf('<h1>')<html.indexOf('class="cinema-reading-intro"'),entry.slug);
  }
 });
@@ -47,8 +59,11 @@ test('hub provides every named native part shortcut with valid targets',()=>{
 test('current dated downloads and sizes appear before the cover, prior edition remains explicit',()=>{
  const html=read('/cinema/book/');
  for(const book of cinema.review_books){const linkAt=html.indexOf('href="'+book.file+'"');assert.ok(linkAt>=0,book.edition+' download exists');assert.ok(linkAt<html.indexOf('class="book-cover"'));assert.ok(html.includes(book.pages+' pages'));assert.ok(html.includes((book.bytes/1e6).toFixed(1)+' MB'));}
- assert.match(html,/Available PDF edition · 31 October 2026/);assert.match(html,/50 readings/);
- for(const date of ['30 October 2026','27 October 2026','26 October 2026'])assert.ok(html.includes('Earlier published edition · '+date));
+ const formatDate=date=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(date+'T00:00:00Z'));
+ const current=cinema.review_books[0];assert.notEqual(current.status,'local_review_candidate','production coast remains published');
+ assert.ok(html.includes('Available PDF edition · '+formatDate(current.edition_date)));assert.ok(html.includes(current.readings+' readings'));
+ for(const date of new Set(cinema.archived_review_books.map(book=>book.edition_date)))assert.ok(html.includes('Earlier published edition · '+formatDate(date)));
+ assert.ok(html.includes('Earlier published edition · 26 October 2026'));
  for(const book of cinema.archived_review_books){assert.ok(html.includes('href="'+book.file+'"'));assert.ok(!cinema.review_books.some(current=>current.file===book.file));}
  assert.match(html,/not a printer-specific press-ready PDF/);assert.match(html,/not tagged accessibility editions/);
 });

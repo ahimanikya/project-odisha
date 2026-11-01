@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-01",
+  "status": "research_complete_implementation_and_manual_validation_required",
+  "scope": "Read-only inspection of existing prototype, production builder, prior QA and official documentation. No PDF authored or regenerated; no present-edition accessibility certification.",
+  "evidence": [
+    {
+      "path": "tools/cinema-book/build_tagged_reading.mjs",
+      "inspection": "Full source read",
+      "findings": [
+        "Uses Chromium/Playwright page.pdf tagged:true and outline:true, semantic chapter HTML, source hashes and local assets.",
+        "Checks loaded images, duplicate IDs and internal HTML fragments before printing.",
+        "Hardcoded 28-reading/five-part/27 October title copy is stale; current content is dynamically read from cinema manifest.",
+        "Converts figure/figcaption into div/p; preserve appropriate figure/caption semantics in revised implementation and inspect resultant PDF associations.",
+        "Odia font depends on tmp/pdfs/fonts/NotoSerifOriya-Regular.ttf; choose durable licensed source and verify all embedded font files.",
+        "A4 proof is a distinct reading edition, not approved typeset print layout. Existing max-height image rule does not consume current image-family configuration."
+      ]
+    },
+    {
+      "path": "kb/records/cinema-reading-ux-implementation-2026-10-27.json",
+      "inspection": "Retained independent-review record, not fresh binary validation",
+      "findings": [
+        "Previous 133-page prototype had real structure and parent trees, 1280 linked object references, 33 figures with alt, and two tables with row/column header scope.",
+        "Only English propagated into PDF language structure; Odia passage language, complete marked-content coverage and AT reading/navigation were unresolved.",
+        "No PDF/UA or screen-reader PASS was claimed; prototype was internal."
+      ]
+    },
+    {
+      "path": "output/pdf/build_book.py",
+      "inspection": "Current shaping and final PDF assembly code inspected",
+      "findings": [
+        "Production uses ReportLab shaping=True/HarfBuzz and embedded Odia font, then pypdf assembly.",
+        "Root /Lang=en is metadata only, not a semantic structure tree.",
+        "Front cover merge/back cover/parity assembly must be handled explicitly in any tagged edition; arbitrary post-generation page merging is not validated as preserving complete semantics."
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/api/class-page#page-pdf",
+      "inspection": "Fresh official documentation opened and tagged/outline sections located",
+      "locator": "page.pdf options; outline and tagged added v1.42",
+      "support": "Tagged output and embedded document outline are supported options. This is capability evidence, not conformance certification of this book."
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF3",
+      "inspection": "Fresh official technique opened",
+      "support": "Logical reading and tab order depend on document structure. Complex graphics, tables and footnotes can require correction after conversion; correct source structure and actual reading-order testing matter."
+    }
+  ],
+  "recommended_path": [
+    "Keep the reviewed visual editions intact while preparing a separately named semantic reading edition from canonical HTML and current manifest, with source hashes and explicit source coverage.",
+    "Refresh stale metadata, seven-part/current-reading bindings, durable licensed fonts, image-family handling and actual alt text. Preserve headings, lists, figures/captions, table header associations and source-note return links; do not flatten meaningful material into page screenshots.",
+    "Generate tags and outline in Chromium as the prototype already supports. Include covers within the semantic generation or explicitly validate any subsequent assembly. Mark decorative ornaments appropriately, while retaining credit notes and meaningful image descriptions.",
+    "Inspect final structure tree, ParentTree and marked-content references, figure alt text, header scopes, annotation object associations and internal targets. Compare extracted Unicode and rendered Odia shaping against source; successful visual shaping does not establish correct searchable/readable Unicode.",
+    "Check lang=or passage semantics in the output tree. If browser output still loses language, repair only correctly identified Odia structure spans using a validated tagging/remediation workflow; a global language flag or guessed whole-paragraph relabel is insufficient.",
+    "Validate reading order and coverage throughout the complete book, then manually test representative complex chapters with assistive technology, keyboard citation/return and table navigation. Only describe tested capabilities; reserve PDF/UA claims for complete applicable validation."
+  ],
+  "feasible_this_pass": [
+    "Document the implementation route and unresolved gates.",
+    "Retain current HTML reading routes as the existing alternative format, without asserting their complete AT certification.",
+    "Root may reserve a distinct implementation and review scope for the refreshed genuine tagged proof; this research task does not build it."
+  ],
+  "requires_followup": [
+    "Updated prototype implementation and source-bound generation.",
+    "Odia structure-language investigation and any verified remediation.",
+    "Machine validation of complete final structure and Unicode mapping, not merely Marked=true.",
+    "Manual screen-reader and keyboard testing of reading order, Odia language switching where supported, tables, meaningful images and citation returns.",
+    "Full visual regression on final tagged artifact; current book layout approval cannot transfer automatically."
+  ],
+  "limitations": [
+    "No new binaries built or inspected in this task; historical structural counts are explicitly retained evidence.",
+    "No PDF/UA validator or AT was run.",
+    "No promise that Chromium alone resolves language tagging or all semantic coverage.",
+    "No claim that current ReportLab dependencies cannot ever support semantic tagging; current inspected builder does not implement it."
+  ],
+  "scope_released": true
+}

@@ -25,9 +25,7 @@ Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follo
 
 ## A film must also travel
 
-In a 2022 interview, Mohapatra recalled *Bhukha* reaching audiences across western and coastal Odisha. He also described promotion as a separate expense.[^interview] Making a film and bringing it to viewers are connected undertakings.
-
-A completed film still needed publicity and places to be seen. Mohapatra’s recollection keeps that expense beside the work of making it.
+Mohapatra recalled promotion as a separate expense; the [*Bhukha* chapter](../culture/cinema-series/bhukha.md) follows his account of reaching audiences across western and coastal Odisha.[^interview]
 
 Mohapatra also argued that art films and mainstream films could coexist.[^interview] His account leaves room for different audiences and ambitions within the same film culture.
 
@@ -37,7 +35,7 @@ Mohapatra also argued that art films and mainstream films could coexist.[^interv
 
 ## What the national award recognises
 
-*Aadim Vichar* received **Best Odiya Film** at the 62nd National Film Awards, announced on 24 March 2015 for films of 2014. The result names Mohapatra Movie Magic Pvt Ltd and Sabyasachi Mohapatra as producer and director recipients. It was recognition in the language-category film award.[^award]
+*Aadim Vichar* received the National Film Award for **Best Odiya Film**, with Mohapatra Movie Magic Pvt Ltd and Sabyasachi Mohapatra named as producer and director recipients.[^award]
 
 Our [film companion](../culture/cinema-series/aadim-vichar.md) considers its encounter between a community’s understanding of justice and outside authority. Its credited writer and performers give that discussion particular voices.
 

@@ -1,0 +1,149 @@
+{
+  "id": "POD-CINEMA-READING-UX-AUDIT-20261101",
+  "date": "2026-11-01",
+  "status": "audit_complete_recommendations_pending",
+  "request": "Audit reading usability, article-ending line art and the author portrait's separate page.",
+  "active_article": null,
+  "public_changes": false,
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "scope": {
+    "web": "Current local projects/site/dist served on http://127.0.0.1:8772/",
+    "structural_articles": 50,
+    "browser_pages": [
+      "the-question-that-brought-me-here",
+      "reading-guide",
+      "basanta-kumari-patnaik",
+      "commercial-successes",
+      "cinema hub",
+      "book"
+    ],
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 720
+      }
+    ],
+    "viewport_restored": true,
+    "pdfs": "1 November close-readings editions; selected rendered pages and metadata, not an all-page new proof"
+  },
+  "baseline": "records/cinema-close-readings-2026-11-01.json",
+  "reports": {
+    "summary": "outputs/cinema-ux-audit-20261101/report.md",
+    "editorial": "outputs/cinema-ux-audit-20261101/editorial-findings.json",
+    "technical": "outputs/cinema-ux-audit-20261101/technical-findings.json",
+    "book": "outputs/cinema-ux-audit-20261101/book-findings.json",
+    "quality": "outputs/cinema-ux-audit-20261101/quality-review.json"
+  },
+  "workers": {
+    "Disha": "Live desktop/mobile checks and report integration",
+    "Anvesha": "Editorial endings, existing art and reading hierarchy",
+    "Samanta": "50-route structure, citations, navigation and download metadata",
+    "Drishti": "Independent PDF visual review and audit consistency"
+  },
+  "findings": [
+    {
+      "id": "UX01",
+      "priority": 1,
+      "status": "proposed",
+      "title": "Reflow two orphaned book endings",
+      "evidence": "Digital pages32 and49 contain two continuation lines"
+    },
+    {
+      "id": "UX02",
+      "priority": 2,
+      "status": "proposed",
+      "title": "Carry the central ten-reading route through its articles",
+      "evidence": "Six onward transitions currently follow full50sequence"
+    },
+    {
+      "id": "UX03",
+      "priority": 2,
+      "status": "proposed",
+      "title": "Suppress the introduction's contents menu with no narrative headings",
+      "evidence": "Expanded menu contains only Footnotes & Sources"
+    },
+    {
+      "id": "UX04",
+      "priority": 2,
+      "status": "proposed",
+      "title": "Bring start and shorter route higher on the mobile hub",
+      "evidence": "At320px Start reading y1222; route link y1658"
+    },
+    {
+      "id": "UX05",
+      "priority": 2,
+      "status": "open_existing_limitation",
+      "title": "Create and test semantic digital PDF structure",
+      "evidence": "Both PDFs lack StructTreeRoot/MarkInfo; bookmarks exist"
+    },
+    {
+      "id": "UX06",
+      "priority": 3,
+      "status": "proposed",
+      "title": "Add three story-specific article-ending drawings",
+      "evidence": "Maya, Bhukha, Pratikshya drawings already in books; absent from web"
+    },
+    {
+      "id": "UX07",
+      "priority": 3,
+      "status": "proposed",
+      "title": "Simplify redundant ending labels and print Return text"
+    },
+    {
+      "id": "UX08",
+      "priority": 3,
+      "status": "proposed",
+      "title": "Clarify draft/released edition in review and prioritize current printing instructions"
+    }
+  ],
+  "portrait": {
+    "current": "Full author portrait p8; introduction p9 in both editions",
+    "recommendation": "Retain facing portrait in print; optional compact uncropped digital opener only if preferred. No removal assumed."
+  },
+  "validation": {
+    "footnote_references": 573,
+    "footnote_returns": 573,
+    "duplicate_ids": 0,
+    "broken_note_targets": 0,
+    "multi_occurrence_notes": 102,
+    "tables_structurally_checked": 4,
+    "mobile_citation_focus_return": "PASS exact second occurrence",
+    "mobile_overflow": "No horizontal document overflow in sampled390pxintro,320pxhub and commercial article",
+    "table_keyboard": "PASS named region focus and ArrowRight scrolling at320px",
+    "guide_link": "Native navigation succeeds; earlier Playwright no-op excluded as a browser-control artifact",
+    "alternate_build": "Stale dist-coast excluded; current serving dist matches canonical",
+    "kb_bundle": {
+      "result": "PASS",
+      "concepts": 1867,
+      "local_links": 8039
+    }
+  },
+  "implementation_queue": [
+    "UX01",
+    "UX02",
+    "UX03",
+    "UX04",
+    "UX06",
+    "UX07",
+    "UX08",
+    "UX05"
+  ],
+  "boundaries": [
+    "No new artwork or public article edits",
+    "No source-rights or fresh historical fact-certification claimed",
+    "No screen-reader/user/physical-print testing",
+    "No change to global Kandhamal owner or operations state",
+    "No Git mutations or publication"
+  ],
+  "completed_worker_scopes_released": true,
+  "quality_review": "PASS; separate Drishti consistency review, not a human reader study"
+}

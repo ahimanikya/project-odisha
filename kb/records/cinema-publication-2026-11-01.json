@@ -1,0 +1,19 @@
+{
+  "id": "POD-CINEMA-PUBLICATION-20261101",
+  "date": "2026-11-01",
+  "status": "in_progress",
+  "authorization": {"actor": "Ahimanikya Satapathy", "request": "publish", "scope": "Reviewed 50-reading cinema series, guide, images and exact 246-page digital and 254-page print books"},
+  "baseline": "kb/records/cinema-release-preparation-2026-11-01.json",
+  "active_article": null,
+  "scope": "Release integration of reviewed material; preserve all newer main-branch work and earlier downloads.",
+  "workers": {
+    "Disha": {"scope": "Integration, shared records, GitHub assets, pull request, publication and live verification"},
+    "Anvesha": {"scope": "Payload and dependency audit", "write_scope": ["outputs/cinema-publication-20261101/source-audit.json"]},
+    "Samanta": {"scope": "Read-only release validation and runtime audit; bounded implementation only after explicit follow-up", "write_scope": ["outputs/cinema-publication-20261101/implementation-review.json"]},
+    "Drishti": {"scope": "Independent integrated revision and release review", "write_scope": ["outputs/cinema-publication-20261101/independent-review.json", "outputs/cinema-publication-20261101/receipt-review.json"]}
+  },
+  "publication_performed": false,
+  "human_specialist_review_claimed": false,
+  "scope_released": false,
+  "remaining_limits": ["Tagged PDF and assistive-technology validation remain separate.", "Physical print proof and actual reader feedback remain separate."]
+}

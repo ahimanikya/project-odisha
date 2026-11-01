@@ -1,6 +1,6 @@
 ---
 import ResponsiveImage from './ResponsiveImage.astro';
-interface Link { href: string; title: string; description?: string; image?: string; imagePosition?: string }
+interface Link { href: string; title: string; titleHtml?: string; imageNote?: string; description?: string; image?: string; imagePosition?: string }
 interface Props { links: Link[]; heading?: string; intro?: string; id?: string; class?: string; headingLevel?: 2 | 3; compact?: boolean; uniformImages?: boolean; containImages?: boolean }
 const { links, heading = 'Continue reading', intro, id, class: className, headingLevel = 2, compact = false, uniformImages = false, containImages = false } = Astro.props;
 const Heading = headingLevel === 3 ? 'h3' : 'h2';
@@ -12,8 +12,8 @@ const Heading = headingLevel === 3 ? 'h3' : 'h2';
     <ul>{links.map(link => <li>
       <a href={link.href} class:list={['reading-path-link', {'has-image': link.image}]}>
         {link.image && (uniformImages ? <span class="reading-path-image" style={{'--reading-image-position': link.imagePosition || 'center'}}><ResponsiveImage src={link.image} sizes={compact ? "(max-width: 600px) 88px, 120px" : "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"} alt="" width="180" height="120" loading="lazy"/></span> : <ResponsiveImage src={link.image} sizes={compact ? "(max-width: 350px) 120px, (max-width: 600px) 88px, 120px" : "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"} alt="" width="180" height="120" loading="lazy"/>)}
-        <span class="reading-path-copy"><span class="reading-path-title">{link.title} <span aria-hidden="true">→</span></span>
-        {link.description && <span class="reading-path-description">{link.description}</span>}</span>
+        <span class="reading-path-copy"><span class="reading-path-title">{link.titleHtml ? <Fragment set:html={link.titleHtml}/> : <>{link.title} <span aria-hidden="true">→</span></>}</span>
+        {link.imageNote && <span class="reading-path-image-note">{link.imageNote}</span>}{link.description && <span class="reading-path-description">{link.description}</span>}</span>
       </a>
     </li>)}</ul>
   </nav>
@@ -28,6 +28,7 @@ const Heading = headingLevel === 3 ? 'h3' : 'h2';
 .article-reading-path a{display:inline-block;font-size:1.05rem;line-height:1.65;text-underline-offset:.2em;overflow-wrap:anywhere}
 .article-reading-path .reading-path-link{text-decoration:none;display:flex;align-items:flex-start;gap:1rem}
 .article-reading-path .reading-path-title{text-decoration:underline;text-underline-offset:.2em}
+.article-reading-path .reading-path-image-note{display:block;font-size:.8rem;line-height:1.5;margin-top:.25rem;color:var(--muted)}
 .article-reading-path .reading-path-copy{min-width:0}
 .article-reading-path .reading-path-description{display:block;font-size:.95rem;line-height:1.7;margin-top:.35rem;color:var(--muted)}
 .article-reading-path :global(img){display:block;width:180px;height:auto;flex:none;margin:0;aspect-ratio:3/2;object-fit:contain;background:var(--paper)}

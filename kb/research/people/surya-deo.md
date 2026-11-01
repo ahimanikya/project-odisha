@@ -29,8 +29,6 @@ A column needs an answer by its deadline. Research can leave the writer with mor
 
 At *Geeti Chhaya*, an exhibition opened at the Odisha State Museum in 2017, singer Trupti Das expressed surprise at seeing photographs she did not herself possess. Reporting on the exhibition described more than a hundred photographs of film-music work from 1950 to 1986, alongside gramophone records. The Culture Department and Film Journalists’ Forum collaborated on it; Deo credited material gathered from producers, directors, composers, lyricists, researchers and actors.[^exhibition]
 
-The photograph of a recording session can change the way we remember a song. It returns the song to a room of people working together. The singer remains visible, but so do the composer, the equipment and the other hands behind the sound.
-
 ## Writing that travels beyond a screening
 
 Some of the writing collected in *Kali Paine Kalira Cinema* grew from booklets prepared around Film Journalists’ Forum screenings. The book brings together accounts of 21 films, giving an evening’s encounter a life on the page.[^book] Its recognition was a **Special Mention in Best Writing on Cinema at the 68th National Film Awards**, for the 2020 award cycle, announced in 2022.[^award]
@@ -55,14 +53,14 @@ Deo’s public record gives us a picture of sustained attention, supported by ma
 
 ## Footnotes & Sources
 
-[^origin]: Bijay Mandal, [interview with Surya Deo](https://odishapostepaper.com/uploads/epaper/2022-07/62e193c9b5bc2.pdf), *OrissaPOST*, 28 July 2022, p. 2. Deo’s recollections.
+[^origin]: Bijay Mandal, [interview with Surya Deo](https://odishapostepaper.com/uploads/epaper/2022-07/62e193c9b5bc2.pdf), *OrissaPOST*, 28 July 2022, p. 2.
 [^exhibition]: Minati Singha, [*Geeti Chhaya* exhibition report](https://timesofindia.indiatimes.com/city/bhubaneswar/rare-photo-exhibition-chronicles-journey-of-odia-film-music-begins/articleshow/60947111.cms), *The Times of India*, 5 October 2017.
-[^book]: [Deo on his book and the screening booklets](https://odishabytes.com/national-film-awards-2022-odisha-film-historian-surya-deos-kali-paain-kalira-cinema-wins-best-book-on-cinema/), *Odisha Bytes*, 22 July 2022. Award classification follows the official record below.
+[^book]: [Deo on his book and the screening booklets](https://odishabytes.com/national-film-awards-2022-odisha-film-historian-surya-deos-kali-paain-kalira-cinema-wins-best-book-on-cinema/), *Odisha Bytes*, 22 July 2022.
 [^award]: Press Information Bureau, [68th National Film Awards](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843932), Best Writing on Cinema, Special Mention.
-[^works]: Shyamhari Chakra, [profile of Surya Deo](https://thesamikhsya.com/special/the-walking-encyclopedia-odia-cinema), 27 October 2020. Publication details and edition uncertainties appear in the linked books guide.
+[^works]: Shyamhari Chakra, [profile of Surya Deo](https://thesamikhsya.com/special/the-walking-encyclopedia-odia-cinema), 27 October 2020.
 [^fellowship]: NFAI, [Research Fellowship](https://nfai.nfdcindia.com/research-fellowship.php?catId=VFhwQlBRPT0%3D&patId=VFhwQlBRPT0%3D), completed-project list, “History of Odia Film”.
 [^ulka]: [“Ulka shines bright after 43 years”](https://odishapostepaper.com/uploads/epaper/2024-07/669abd1ebfd48.pdf), *OrissaPOST*, 20 July 2024.
-[^ifa]: India Foundation for the Arts, [Lipika Singh Darai project record](https://indiaifa.org/grants-projects/lipika-singh-darai.html), 2024–25. Describes a project in development, not a recovered print.
+[^ifa]: India Foundation for the Arts, [Lipika Singh Darai project record](https://indiaifa.org/grants-projects/lipika-singh-darai.html), 2024–25. Project in development; no recovered print.
 
 ## Further reading
 

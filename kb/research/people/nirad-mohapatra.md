@@ -43,8 +43,8 @@ Cinexstasy lasted nearly a decade. Making those screenings and discussions possi
 
 ## Footnotes & Sources
 
-[^life]: [Nirad Mohapatra’s official memorial biography](https://niradmohapatra.com/about-me/), education, teaching, Cinexstasy and *Mana Phasal*. Retrospective account.
-[^national]: Directorate of Film Festivals, [31st National Film Awards catalogue](https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf), Second Best Feature Film. Award year distinguished from presentation and festival dates.
+[^life]: [Nirad Mohapatra’s official memorial biography](https://niradmohapatra.com/about-me/), retrospective account.
+[^national]: Directorate of Film Festivals, [31st National Film Awards catalogue](https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf), Second Best Feature Film.
 [^cannes]: Cannes Critics’ Week, [Maya Miriga, 1984](https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga), selection record.
 
 ## Further reading

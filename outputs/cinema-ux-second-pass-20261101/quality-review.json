@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-01",
+  "reviewer": "Drishti — independent AI quality review",
+  "status": "PASS_audit_synthesis_consistency",
+  "scope_released": true,
+  "scope": "Read-only reconciliation of integrated report against specialist audit records, own book review and supplied coordinator browser evidence. No implementation, source edit, new browser action, PDF rebuild or publication.",
+  "input_sha256": {
+    "report.md": "71079f64b2f0922eeb00493902748839d51231863a7b696ccc1d0ef44f0025c0",
+    "book-review.json": "45b1d4551e7773b2fbb8482d7c181e4b5d1bb5e719a0cfd217f67a1087477245",
+    "image-review.json": "0215041d119ff9a3f993bafab03b7744c839172477cb6e39f86c8829dff7c17c",
+    "web-review.json": "c84958a826fcf60ed8b537acbb6c99ecbd0716fab3c3d3f154bf85fdfbcb0af4",
+    "browser-measurements.json": "0f3acd94109e8644cc755ff97adc9d83151c573db134c77056a8484f67839c38",
+    "pratikshya-mobile-heading.png": "6e6f41286ddcb591209e732bc303b0512a09b2c19e85c325b260237e0489ebff",
+    "literature-mobile-further-reading.png": "f0fc547bdb3eb7bac2061e3ea09acc6f5bae878818dfb26b2f7f846731f778e5",
+    "hub-mobile-actor-cards.png": "fc1e9f824d903e1128b1db4cedb8982b6d0717c24a0afa7d7652ac9d618a1353",
+    "literature-320-body.png": "fe7ce86dba0d76ceab91f9a75dd01c80ff3a9efff06ceb88dbf7ff5a041064f2"
+  },
+  "required_corrections": [],
+  "verified_consistency": [
+    {
+      "topic": "Bilingual heading",
+      "result": "Supplied settled Pratikshya screenshot visibly shows extra separation after its first line. Browser record measures H1 40px/46px and Odia span 76px, total168px. Report appropriately upgrades the structural candidate to a sampled visual finding, not a collection-wide measured failure."
+    },
+    {
+      "topic": "Book findings",
+      "result": "Digital188–189 fragment, Contents4–7 header, optional Nirad88–89 tradeoff, Watch leaves and printed URL breaks match book-review. Print189–190 is correctly treated as coherent breathing room rather than an equivalent defect."
+    },
+    {
+      "topic": "Illustration versus likeness",
+      "result": "Report preserves existing illustration labels, anonymous-person/provenance boundaries and uncertainty about reader interpretation. It does not claim a proven historical mismatch, that Basanta personally bound books, or a rights violation from the Bhukha mark."
+    },
+    {
+      "topic": "Settled card evidence",
+      "result": "hub-mobile-actor-cards.png shows photographic Bijay card immediately followed by illustrated Uttam rehearsal card without an illustration caption. This supports potential visual-association risk, not proof of reader confusion. Aparajita risk is based on the image/provenance review and shared card presentation, not a claimed independent screenshot of that card."
+    },
+    {
+      "topic": "Link wrapping and divider",
+      "result": "literature-mobile-further-reading.png visibly leaves the Akshaya arrow on a separate line; Further reading divider is coherent. Integrated report correctly makes arrow wrapping a small refinement and declines to call the divider a defect."
+    },
+    {
+      "topic": "Inspection scope",
+      "result": "53-page structural scope,50 readings,56 distinct original hashes,six line-art motifs,eight full-size originals,530 book pages at contact scale and14 current plus11 prior same-artifact full-size book checks match underlying records. No all-page full-size or whole-site browser PASS claim."
+    },
+    {
+      "topic": "Accessibility",
+      "result": "Known language-label gap is separated from untested actual assistive-technology pronunciation. Sambalpuri distinction retained. Enlarged-text/AT/physical-print exclusions and outstanding PDF tagging/reading-order work remain explicit."
+    }
+  ],
+  "screenshots_independently_viewed": [
+    "pratikshya-mobile-heading.png",
+    "literature-mobile-further-reading.png",
+    "hub-mobile-actor-cards.png",
+    "literature-320-body.png"
+  ],
+  "excluded_as_card_proof": [
+    "hub-desktop-portraits.png",
+    "hub-mobile-portraits.png"
+  ],
+  "evidence_attribution": "Web screenshots and measurements were produced by coordinator/root and inspected independently here; not browser actions by this reviewer. Book visual audit was performed by this reviewer as separately recorded. Image-intent conclusions are specialist findings checked for faithful reporting, not a new full rights/identity audit.",
+  "limits": [
+    "No new implementation verified or authorized by this report.",
+    "No human-reader study, cultural-authenticity certification, PDF/UA or assistive-technology conformance claim.",
+    "Representation and aesthetic recommendations remain editorial risk judgments, not demonstrated factual errors."
+  ],
+  "decision": "Integrated report is an accurate, bounded audit synthesis. No required wording corrections found. Ready for coordinator to finalize audit records; recommendations remain unimplemented."
+}

@@ -92,11 +92,11 @@ The [Gopal Chhotray profile](../people/gopal-chhotray.md) offers a route into th
 [^loc]: [Gopal Chhotray profile](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html), Library of Congress.
 [^jagannath]: Gour–Parbati archive, [Sri Jagannath (1950)](https://www.gourparbati.com/movie_sri_jagannath.php), film credits.
 [^bibhaba]: [Gopal Chhotray collection](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/), Odia Bibhaba.
-[^devdas]: Shyamanuja Das, [“In Conversation with Odia Lyricist Devdas Chhotray”](https://www.sahapedia.org/conversation-odia-lyricist-devdas-chhotray), Sahapedia, interview conducted September 2018, Parts II–III. Devdas’s recollection of his first recorded ghazal.
+[^devdas]: Shyamanuja Das, [“In Conversation with Odia Lyricist Devdas Chhotray”](https://www.sahapedia.org/conversation-odia-lyricist-devdas-chhotray), Sahapedia, interview conducted September 2018, Parts II–III.
 [^shyamamani]: David Dennen and Amir Kumar Jeetendra Nayak, [“Shyamamani Devi on Odissi Music and Her Life as a Singer”](https://www.yumpu.com/en/document/view/16460695/shyamamani-devi-on-odissi-music-and-her-life-as-a-oaid-home), mirrored interview, opening section. Interview date and station unspecified in this passage.
 [^news]: Akashvani News, [Cuttack bulletins](https://newsonair.gov.in/bulletins-city/cuttack/), dated Odia bulletins.
 
-[^pvk]: Shyamanuja Das, [PV Krishnamoorthy and modern Odia songs](https://odishabytes.com/pv-krishnamoorthy-the-unsung-force-behind-modern-odia-songs/), OdishaBytes, 16 October 2020. Retrospective based on artists’ recollections.
+[^pvk]: Shyamanuja Das, [PV Krishnamoorthy and modern Odia songs](https://odishabytes.com/pv-krishnamoorthy-the-unsung-force-behind-modern-odia-songs/), OdishaBytes, 16 October 2020. Retrospective.
 
 ## Further reading
 

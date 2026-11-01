@@ -1323,3 +1323,11 @@ Applied seven explicit placements across five readings: a safe 4:5 portrait, com
 ### 30 October 2026 · Larger portrait in the book trial
 
 At the Founder’s request, enlarged Nirad Mohapatra’s portrait to85% of the text width in both book editions. The printed opening keeps the title, image, caption and first paragraph together. The digital edition gains one page; final proofs contain223 and246 pages respectively. Source images, prose, web frames and all other book image sizes are unchanged. Local drafts only. [Trial and follow-up](../records/cinema-image-trial-2026-10-30.json).
+
+### 1 November 2026 · Three cinema and literature encounters
+
+At the Founder’s request, replaced general explanation with bounded close readings of a Pratikshya trailer frame, a Maya Miriga restoration-excerpt frame, and the primer episode in Fakir Mohan’s Rebati. Actual visible frames and original literary transcription inspected; no invented dialogue, audio response, author memory or whole-film viewing. Three canonical readings and source bindings updated. Separate quality review passed;22relevantsitechecks, sitebuild and disclosuregate passed. Reviewed254-page digital and280-page print drafts retain all50readings, images, covers and23creditrecords. All1386digital/1396printinternalPDFlinks resolve. Local only; no publication, outreach, human approval or programme increment. [Review record](../records/cinema-close-readings-2026-11-01.json).
+
+### 1 November 2026 · Cinema release package prepared
+
+All 50 readings, the people and milestones guide and the exact 246-page digital / 254-page print books are assembled for local review. Independent review verified 54 cinema pages and 4,905 local references; 675 site and 541 publication-edition checks passed. Corrected one local-preview footer link, retained earlier edition downloads and verified both PDF responses byte for byte. Published metadata remains unchanged. Tagged-PDF accessibility, physical print proof and reader feedback are separate follow-ups. No upload or publication. [Release preparation](../records/cinema-release-preparation-2026-11-01.json).

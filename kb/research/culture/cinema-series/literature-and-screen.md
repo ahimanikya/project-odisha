@@ -19,7 +19,7 @@ Sometimes a story comes home as a song, long before anyone asks for the book.
 
 Manas Ranjan Mahapatra remembers watching ଅମଡ଼ା ବାଟ (Amada Bata) with his mother. Years later, working with the National Book Trust, he sought permission to publish [Basanta Kumari Pattanayak](../../people/basanta-kumari-patnaik.md)’s novel. In his account, Dr Narendra Prasad Das and his wife helped him reach the author; Pattanayak asked that the royalties go to the Krishnamurthy Foundation.[^amada-memory]
 
-A film seen with a parent, a novel sought out later, an author deciding where its royalties should go: the recollection gives a human shape to the passage between literature and cinema. It is one person’s journey, with a writer and a book at its centre. It also leaves us with a hopeful question. How might more films help their audiences find the writing behind them—and how might writers share in the work and opportunity that follow?
+The royalties in that recollection concern a later book edition. Even so, the journey from a childhood screening to a novelist’s door gives my question somewhere to begin. What might a film make possible for the writing behind it?
 
 ## Writers who give a film its first world
 
@@ -28,8 +28,6 @@ A page can hold a voice before a camera finds a face for it. Basanta Kumari Patt
 There are other routes through this shared history. [Kalindi Charan Panigrahi](../../people/kalindi-charan-panigrahi.md)’s ମାଟିର ମଣିଷ (Matira Manisha) became Mrinal Sen’s 1966 Odia film. Sen’s filmography credits Panigrahi with the story and Sen with screenplay and direction.[^matira] In କା (Kaa), Kanhucharan Mohanty’s novel meets the screenplay and dialogue of Sarada Naik; the Gour–Parbati archive names the directing collective Siddharth as Ram Chandra Thakur, Gour Ghose and Parbati Ghose.[^lit-kaa]
 
 A novelist may give us access to a character’s thoughts over many pages. A screenwriter must decide what can be seen and heard, what can be left to an actor, and where one scene should end. Dialogue has to live in a performer’s mouth. The source author remains present even when the film finds a different rhythm.
-
-Odia cinema’s literary relationships also include collaboration across languages and filmmaking traditions. Panigrahi and Sen belong in the same account. Their collaboration makes room for a story rooted in Odisha and a filmmaker bringing another experience of cinema to it.
 
 ## What a story asks us to notice
 
@@ -49,7 +47,7 @@ The question reaches beyond any one adaptation. What do we learn to notice when 
 
 Chhotray wrote across theatre, radio and cinema.[^chhotray] The family archive for ମା (Maa) credits Chhotray and Biswajit Das jointly for dialogue, while Nitai Palit supplied screenplay and direction.[^maa]
 
-A writer’s movement into cinema can also involve learning a new craft. In a 2019 interview, [Bijay Mishra](../../people/bijay-mishra.md) recalled learning screenplay writing from Shyamal Mukherjee while working on ଯାଯାବର (Jajabara).[^bijay] Such recollections bring the working relationship into view: a literary or theatrical life can continue through conversations, revisions and decisions made for the screen.
+A writer’s movement into cinema can also involve learning a new craft. In a 2019 interview, [Bijay Mishra](../../people/bijay-mishra.md) recalled learning screenplay writing from Shyamal Mukherjee while working on ଯାଯାବର (Jajabara).[^bijay]
 
 Songs open another path. A lyric has to find room within a tune and a voice, yet its phrasing can carry a writer’s wit and feeling. The [Akshaya Mohanty chapter](../../people/akshaya-mohanty.md) follows some of those exchanges through named singers and lyricists. A remembered voice can lead us back to the person who found the words.
 
@@ -59,7 +57,9 @@ In the opening household passage of ରେବତୀ (Rebati), Fakir Mohan descri
 
 “Rebati would sit beside him and listen.”[^lit-rebati]
 
-Rebati’s listening gives this literary household its quiet centre. It offers a parallel to explore alongside [AIR Cuttack](../air-cuttack.md): a voice gathering listeners beside a family member, around a radio, inside a cinema. Each setting changes who can hear and how a story reaches them.
+A few paragraphs later, Basudev gives Rebati a primer. Beside her father, she turns its pages, delighted by pictures of elephants, horses and cattle. She takes the book to show her mother and grandmother. The narrator measures that pleasure against grander possessions: kings have elephants and horses; others enjoy riding them; Rebi is happy with their pictures. Her grandmother responds impatiently. Before the alphabet lessons begin, the book has already set the child in motion, looking and showing. Reading this passage, we meet her pleasure before the work of learning to read.[^lit-rebati]
+
+The [AIR Cuttack](../air-cuttack.md) chapter follows the later journeys of words into listeners’ homes.
 
 ## The connection continues
 
@@ -67,26 +67,30 @@ Pratibha Ray’s official bibliography identifies her novel ଅପରିଚି�
 
 Other paths lead through theatre and contemporary short fiction. ଭୂଖା (Bhukha) grew from Manglu Charan Biswal’s play, bringing folk performers’ livelihoods into a Sambalpuri screen story.[^lit-bhukha] [ପ୍ରତୀକ୍ଷା (Pratikshya)](pratikshya.md) draws on a short story by [Gourahari Das](../../people/gourahari-das.md).[^lit-pratikshya] BookMyShow’s listing for ଅନନ୍ତା (Ananta) identifies Fakir Mohan’s *Randi Pua Ananta* as its literary source.[^lit-ananta]
 
-These examples keep different forms and languages in the picture. A play, a novel and a short story give filmmakers different starting points. Sambalpuri speech and performance carry particular local relationships. Each adaptation also enters the circumstances of its own production and audience.
+## What returned to the writer?
+
+The credits above name literary contributions. Following those names into the agreements behind the films is harder. The public sources examined for these adaptations do not establish what the original authors received for screen use. A credit and a payment answer different questions.
+
+That uncertainty troubles me. If adaptation is one way to sustain literature, we need to hear how its writers experienced the exchange: whether they felt recognised, what was agreed and what they received. Why is that part of the story harder to recover? The sources do not explain. Missing information cannot tell us that a writer went unpaid or was treated unfairly. It does leave a question about fair recognition and compensation that I do not want this book to pass over.
+
+A better account could begin with writers and producers willing to describe their experience, while keeping private terms confidential where they wish. For new work, naming the author and source clearly, agreeing payment and later uses, and keeping a record of what was received would give the next conversation something firmer to build on.
 
 ## When a film brings a book into view
 
-Mahapatra’s remembered visit to *Amada Bata* did not end at the cinema door. Years later, it became part of his search for its author and a new edition. That is one documented journey, not a promise that every adaptation creates readers. It is enough to make us wonder what happens after a film stays with someone.
+Mahapatra’s remembered visit to *Amada Bata* eventually led to a new edition. His account cannot tell us how often that happens. It does give us a particular journey to follow.
 
 A character may send us looking for a novel. A line may make us curious about the language in which it was first written. The book need not become an obligation after the pleasure of the film. It can be another pleasure waiting nearby.
 
-There is a practical kindness in keeping that next encounter possible: an obtainable edition, the author’s name, a translation that welcomes another reader. The [closing essay](cinema-futures.md) returns to the paid work and partnerships that could make more such encounters possible. Here, we can begin with the stories themselves.
-
-Basanta’s novel, Panigrahi’s brothers, Fakir Mohan’s neighbours and Rebati listening beside her father belong to different works. Together they remind us what literature offers the screen: people whose lives deserve our attention, and language through which we can begin to know them.
+Beside a film, there could be an obtainable edition, its author’s name and a translation that welcomes another reader. The [closing essay](cinema-futures.md) returns to the work that might make that possible. In *Rebati*, a child sits beside her father and listens. The words have already found someone.
 
 ## Footnotes & Sources
 
 [^lit-neighbours]: Fakir Mohan Senapati, [Chha Mana Atha Guntha, “Bhagia and Saria”](https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ଭଗିଆ_ଆଉ_ସାରିଆ), opening paragraph; Odia Wikisource transcription. English rendering for this edition; “community” retains the social/caste context.
-[^lit-rebati]: Fakir Mohan Senapati, [Rebati](https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ରେବତୀ), opening household passage; Odia Wikisource transcription. English rendering for this edition.
-[^lit-kaa]: Gour–Parbati archive, Kaa: [Source](https://www.gourparbati.com/movie_kaa.php). Source novel, screenplay/dialogue and directing credits.
+[^lit-rebati]: Fakir Mohan Senapati, [Rebati](https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ରେବତୀ), opening household passage and primer episode beginning “ତହିଁ ଆରଦିନ ଉପରଓଳି”; Odia Wikisource transcription. English rendering and paraphrase for this edition.
+[^lit-kaa]: Gour–Parbati archive, Kaa: [Source](https://www.gourparbati.com/movie_kaa.php). Film credits.
 [^lit-bhukha]: Riyan Ramanath V, “Film highlights struggle to survive in rural Odisha,” Times of India, 28 November 2012: [Source](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms).
 [^lit-pratikshya]: PIB, IFFI 53 cast-and-crew account, 23 November 2022: [Source](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242).
-[^lit-ananta]: [BookMyShow, Ananta film listing](https://in.bookmyshow.com/movies/bengaluru/randi-pua-ananta/ET00432461), “About movie.” Literary source identified in the film synopsis.
+[^lit-ananta]: [BookMyShow, Ananta film listing](https://in.bookmyshow.com/movies/bengaluru/randi-pua-ananta/ET00432461), “About movie.”
 
 [^amada-memory]: [Manas Ranjan Mahapatra, “Remembering Amada Bata,” OdishaPlus, 20 July 2022.](https://odisha.plus/2022/07/remembering-amada-bata/)
 [^amada-film]: [Amada Bata, Odia Movie Database, film credits.](https://odiamoviedb.com/movie/amada-bata/)

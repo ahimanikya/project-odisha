@@ -33,13 +33,11 @@ A successful release can make a new project worth discussing. For the next team,
 
 ## The audience needs a screen
 
-For **Lokanath Das**, bringing a film to viewers could mean a boat journey. In a 2020 recollection, the retired Dhenkanal information and public relations employee described putting on village screenings between 1978 and 1995. The government mobile-cinema programme combined films with information documentaries. Among the films he remembered were [ଅମଡ଼ା ବାଟ (Amada Bata)](../../people/basanta-kumari-patnaik.md) and [ମାଟିର ମଣିଷ (Matira Manisha)](../../people/kalindi-charan-panigrahi.md).[^audience-mobile-das] Someone had to make the journey and arrange the encounter between a film and the people who would see it.
+For **Lokanath Das**, bringing a film to viewers could mean a boat journey. In a 2020 recollection, the retired Dhenkanal information and public relations employee described putting on village screenings between 1978 and 1995. The government mobile-cinema programme combined films with information documentaries. Among the films he remembered were [ଅମଡ଼ା ବାଟ (Amada Bata)](../../people/basanta-kumari-patnaik.md) and [ମାଟିର ମଣିଷ (Matira Manisha)](../../people/kalindi-charan-panigrahi.md).[^audience-mobile-das]
 
 A different route into organising appears in **Abhishek Parija’s** account of the Film Society of Bhubaneswar. He joined its core team after submitting his own film to its festival. At Ravenshaw, he helped a junior and friends establish a film society. A July 2018 report records their screening of Spike Lee’s *Do the Right Thing* on 18 July. Parija described screenings followed by conversation, with attention to a film’s wider context.[^audience-fsb-parija]
 
-These accounts bring the people arranging access into the economics of cinema. What would allow them to keep doing that work? Transport, a suitable venue, permission to exhibit a film and dependable technical arrangements all need attention. So does the time of those who organise the show and welcome its viewers.
-
-A public information programme, a film society and a commercial theatre will answer those questions differently. Ticket receipts describe one part of the relationship. A screening also needs people who can prepare it, bring viewers together and make another encounter possible.
+Das’s journeys and Parija’s organising bring me back to the question raised in my conversation with the *DAMaN* team: how does a good film reach people? Here are two specific ways people have tried. Transport, a venue, permission and working equipment still need to be arranged; so does the time of the people putting on the show. A public information programme, a film society and a commercial theatre must each find a way to meet those costs.
 
 ## Support is more than a building
 
@@ -51,21 +49,23 @@ The redevelopment of Kalinga Studio, inaugurated in October 2026, can be judged 
 
 Streaming changes the route to a viewer, but does not abolish the cost of reaching one. The [OTT chapter](../odia-ott.md) follows the work of building platforms and catalogues. The economic question is what continuing arrangements these outlets can sustain with creators, as well as how many titles they carry.
 
-The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. The [final reading](cinema-futures.md) stays with the possibilities for giving that work room to continue.
+The [literature reading](/cinema/literature-and-screen/#what-returned-to-the-writer) leaves the original author’s compensation unresolved in the accounts examined there. That question belongs beside the producer’s receipts and the crew’s wages. For someone deciding whether they can commit to another work, a dependable payment matters more than a headline collection.
+
+The [final reading](cinema-futures.md) begins from these unfinished questions: what can writers, filmmakers and audiences make possible together, and what would let them continue?
 
 ## Footnotes & Sources
 
-[^eco-maya-finance]: The New Indian Express, “Maya Miriga is Nirad’s gift to Odia cinema,” 22 September 2024. Reports Sabita Mohanty’s festival recollection of a Rs 4 lakh NFDC loan; the total production budget is not supplied. [Read source](https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema).
+[^eco-maya-finance]: The New Indian Express, “Maya Miriga is Nirad’s gift to Odia cinema,” 22 September 2024. Sabita Mohanty’s Rs 4 lakh loan recollection; total budget unspecified. [Read source](https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema).
 
-[^eco-bou-june]: The Federal, report on Bou Buttu Bhuta, 30 June 2025 (updated 1 July). Reports a Rs 2–3 crore production budget and almost Rs 12 crore box office after 17 days; no audited settlement or producer share is supplied. [Read source](https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582).
+[^eco-bou-june]: The Federal, report on Bou Buttu Bhuta, 30 June 2025 (updated 1 July). Reported budget/17-day receipts; no audited settlement or producer share. [Read source](https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582).
 
 
 
-[^eco-ofdc]: Odisha Film Development Corporation, RTI Manual 1, institutional objectives. Stated purposes do not establish individual disbursements or current access. [Read source](https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang).
+[^eco-ofdc]: Odisha Film Development Corporation, RTI Manual 1, institutional objectives. [Read source](https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang).
 
-[^eco-kalinga]: Chief Minister of Odisha, Kalinga Studio and cinema archive/museum inauguration announcement, 5 October 2026. The announcement does not measure bookings or outcomes. [Read source](https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum).
+[^eco-kalinga]: Chief Minister of Odisha, Kalinga Studio and cinema archive/museum inauguration announcement, 5 October 2026. [Read source](https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum).
 
-[^eco-private]: India Cine Hub, Mute Entertainment Private Limited / Mute Studio, Bhubaneswar, directory listing. Advertised services, not independently inspected capacity. [Read source](https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute).
+[^eco-private]: India Cine Hub, Mute Entertainment Private Limited / Mute Studio, Bhubaneswar, directory listing. Advertised services; capacity unverified. [Read source](https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute).
 
 [^audience-mobile-das]: [“Mobile cinema still has its utility, audience,” OrissaPOST](https://odishapostepaper.com/uploads/epaper/2020-07/5f2306de2891c.pdf), 31 July 2020, p. 5; Lokanath Das’s recollections.
 

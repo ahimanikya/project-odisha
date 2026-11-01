@@ -1,0 +1,167 @@
+{
+  "id": "POD-CINEMA-ENDING-ART-20261101",
+  "date": "2026-11-01",
+  "status": "local_review_ready",
+  "authorization": "User asks to use meaningful, relatable line art to fill end-of-article gaps, connected to each story.",
+  "scope": "Selective new closing motifs in articles and both book proofs; preserve existing artwork/prose and reflow isolated closing paragraph where necessary.",
+  "active_article": null,
+  "global_operations_owner_unchanged": true,
+  "workers": {
+    "Disha": {
+      "scope": [
+        "kb/records/cinema-ending-art-2026-11-01.json",
+        "kb/media/cinema-series/ending-art-20261101/",
+        "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+        "output/pdf/build_book.py",
+        "output/pdf/*2026-11-01-ending-art*",
+        "tmp/pdfs/2026-11-01-ending-art/",
+        "outputs/cinema-ending-art-20261101/"
+      ],
+      "task": "Select contexts sequentially, generate art, integrate book, browser checks and shared records"
+    },
+    "Anvesha": {
+      "scope": [
+        "outputs/cinema-ending-art-20261101/story-directions.json"
+      ],
+      "task": "Read-only story/image purpose review"
+    },
+    "Samanta": {
+      "scope": [
+        "projects/site/src/lib/cinema-article.mjs",
+        "projects/site/tests/cinema-ux.test.mjs",
+        "projects/site/tests/cinema-release.test.mjs",
+        "outputs/cinema-ending-art-20261101/web-changes.json"
+      ],
+      "task": "Extend validated ending-art source directory and explicit placement configuration; targeted checks; no CSS redesign or source prose edits"
+    },
+    "Drishti": {
+      "scope": [
+        "outputs/cinema-ending-art-20261101/quality-review.json"
+      ],
+      "task": "Independent final review after integration"
+    }
+  },
+  "boundaries": [
+    "No publication, merge, social posts or human approval claim",
+    "Do not replace existing documentary photographs or approved art",
+    "No invented film stills, historical events or likenesses",
+    "No repeated ornament merely to fill every empty page",
+    "Retain unrelated dirty work and existing ownership"
+  ],
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "selected_slugs": [
+    "learning-cinema-together",
+    "surya-deo"
+  ],
+  "selection_reason": "Concrete opening-to-ending callbacks; avoids decorating sparse provider-link leaves.",
+  "baseline_source_hashes": {
+    "kb/research/culture/cinema-series/learning-cinema-together.md": "189f9be096a1d2ea790b06fa8026441a4dd41a83a38d5f1e0fd5240847e299d7",
+    "kb/research/people/surya-deo.md": "de129d930d0a030b421d9cabb6b031f26d276e3878dd49c97c6ca6f2de3f62d8"
+  },
+  "sequential_integration": [
+    {
+      "slug": "learning-cinema-together",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "surya-deo",
+      "status": "reviewed_local"
+    }
+  ],
+  "provenance": "kb/media/cinema-series/ending-art-20261101/provenance.json",
+  "book_reflow": "Moved existing shared-story drawing after the final invitation; bounded last two prose paragraphs and drawing together. Both books rebuilt with no added pages. Digital closing paragraph is no longer isolated between forced breaks. An art-only trial was rejected. Learning vignette skips digital full ending (12pt available); both new drawings fit print.",
+  "artifacts": {
+    "digital": {
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-11-01-ending-art.pdf",
+      "sha256": "3a2b2bd8cfc466a3a39428d108f46f3f975893282283aed98ac40d073e9eb9e6",
+      "pages": 252,
+      "receipt": "tmp/pdfs/2026-11-01-ending-art/digital/book-build-2026-11-01-ending-art.json",
+      "chapter_page_references_stable": true,
+      "tail_vignettes": [
+        {
+          "slug": "maya-miriga",
+          "status": "placed",
+          "page": 87
+        },
+        {
+          "slug": "bhukha",
+          "status": "placed",
+          "page": 93
+        },
+        {
+          "slug": "learning-cinema-together",
+          "status": "skipped_insufficient_space"
+        },
+        {
+          "slug": "surya-deo",
+          "status": "placed",
+          "page": 122
+        },
+        {
+          "slug": "pratikshya",
+          "status": "placed",
+          "page": 145
+        }
+      ]
+    },
+    "print": {
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-ending-art.pdf",
+      "sha256": "d500ee6c9767660081016b6beb91e158e9d86c3cb89e028356108da28b45e0a6",
+      "pages": 278,
+      "receipt": "tmp/pdfs/2026-11-01-ending-art/print/book-build-2026-11-01-ending-art.json",
+      "chapter_page_references_stable": true,
+      "tail_vignettes": [
+        {
+          "slug": "maya-miriga",
+          "status": "placed",
+          "page": 87
+        },
+        {
+          "slug": "bhukha",
+          "status": "placed",
+          "page": 92
+        },
+        {
+          "slug": "learning-cinema-together",
+          "status": "placed",
+          "page": 118
+        },
+        {
+          "slug": "surya-deo",
+          "status": "placed",
+          "page": 122
+        },
+        {
+          "slug": "pratikshya",
+          "status": "placed",
+          "page": 145
+        }
+      ]
+    }
+  },
+  "validation": {
+    "web_tests": 26,
+    "site_pages": 570,
+    "disclosure_files": 1055,
+    "disclosure_violations": 0,
+    "browser_review": "outputs/cinema-ending-art-20261101/browser-review.json",
+    "independent_review": "outputs/cinema-ending-art-20261101/quality-review.json",
+    "independent_result": "PASS within selected ending-art scope",
+    "source_articles_preserved": 50,
+    "original_image_placements_preserved": 56,
+    "notes_preserved": 432,
+    "image_credit_notes_preserved": 23,
+    "unique_configured_motifs": 8,
+    "motifs_placed": {
+      "digital": 7,
+      "print": 8
+    }
+  },
+  "remaining_outside_scope": [
+    "Earlier bilingual H1 typography and verified Odia language markup findings",
+    "Inherited Contents running header",
+    "Tagged-PDF/assistive-technology and physical print verification"
+  ],
+  "workers_scopes_released": true
+}

@@ -16,7 +16,7 @@ By Ahimanikya Satapathy
 
 Before *ଦମନ (DAMaN)* was filmed, its actors spent fifteen days in a workshop. Debi Prasad Lenka recalled detailed scripting and preparation that helped the team revise dialogue and translate passages spoken by tribal characters.[^workshop] The script was being tested through voices.
 
-Lenka also edited *DAMaN*.[^catalogue] Rehearsal and editing stand at different moments in a production, but both ask what a story needs when it is heard and seen.
+Lenka also edited *DAMaN*.[^catalogue]
 
 Lenka is from Cuttack. His public professional biography describes a three-year filmmaking course followed by work as an assistant director and editor in Odisha and Mumbai.[^background] A 2022 *Sunday Post* profile identifies him as an alumnus of the Biju Patnaik Film and Television Institute of Odisha.[^training] His route into feature films therefore connects local training with the wider working world of television and production.
 
@@ -28,25 +28,23 @@ Mentis Films identifies him as a filmmaker, director, editor and founder. Its pr
 
 ## A partnership formed at work
 
-Vishal Mourya recalls meeting Lenka, then an editor, on a Zoom television project in 2010.[^partnership] They later made films together. NFDC’s 2017 Film Bazaar catalogue lists both as writers and directors of *B for Bundelkhand*, a Hindi film about a farming family under pressure.[^bundelkhand]
-
-The partnership carried into Odia cinema through *Biju Babu* and then *DAMaN*.[^mentis]
+[Vishal Mourya](vishal-mourya.md) recalls meeting Lenka, then an editor, on a Zoom television project in 2010.[^partnership] NFDC’s 2017 Film Bazaar catalogue credits them both as writers and directors of the Hindi film *B for Bundelkhand*.[^bundelkhand] Mourya’s profile follows their early work together.
 
 ## Recognition, and work still to explore
 
-*DAMaN* received Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]
+Their [*DAMaN*](../culture/cinema-series/daman.md) received the National Film Award for Best Odia Film.[^award]
 
 Lenka’s recollection returns to dialogue revised in preparation, before filming began. His work on the film continued in the edit. Between those moments, a story moved from the script through performances into its finished form.
 
 ## Footnotes & Sources
 
 [^catalogue]: [70th National Film Awards catalogue](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf), pp. 082–083.
-[^background]: [BookMyShow, Debi Prasad Lenka professional biography](https://in.bookmyshow.com/person/debi-prasad-lenka/2021303), indexed profile inspected. Cuttack, film training and early professional roles.
-[^training]: [Sunday Post, “My Sunday” profile of Debi Prasad Lenka](https://odishapostepaper.com/uploads/epaper/2022-12/639484d5e6380.pdf), edition labelled 4–10 December 2022. Film-institute background.
-[^mentis]: [Mentis Films, About Us](https://mentisfilms.com/aboutus.php), Debi Prasad Lenka profile and the company’s film list. Company biography and film credits.
+[^background]: [BookMyShow, Debi Prasad Lenka professional biography](https://in.bookmyshow.com/person/debi-prasad-lenka/2021303), Indexed profile.
+[^training]: [Sunday Post, “My Sunday” profile of Debi Prasad Lenka](https://odishapostepaper.com/uploads/epaper/2022-12/639484d5e6380.pdf), edition labelled 4–10 December 2022.
+[^mentis]: [Mentis Films, About Us](https://mentisfilms.com/aboutus.php), Debi Prasad Lenka profile and the company’s film list.
 [^partnership]: Anish Mohanty, [Vishal Mourya interview](https://planetbollywood.com/wp/interviews/i-am-hoping-the-hindi-version-of-daman-gets-a-lot-of-love-from-the-audience-vishal-mourya/), Planet Bollywood, partnership recollection.
-[^bundelkhand]: [NFDC Film Bazaar 2017 Viewing Room catalogue](https://filmbazaarindia.com/media/2548/viewing-room-catalogue_s.pdf), printed page 78. Market-library participation does not establish a theatrical release or festival award.
-[^workshop]: [The Federal, interview with Debi Prasad Lenka and Vishal Mourya](https://thefederal.com/entertainment/its-not-just-kantara-odia-film-daman-is-making-waves-nationwide-meet-the-directors), December 2022, Lenka’s answer on preparation and the actors’ workshop. Indexed interview text. This does not identify the translators or establish how every community received the film.
+[^bundelkhand]: [NFDC Film Bazaar 2017 Viewing Room catalogue](https://filmbazaarindia.com/media/2548/viewing-room-catalogue_s.pdf), printed page 78. Market-library entry, not a release or award.
+[^workshop]: [The Federal, interview with Debi Prasad Lenka and Vishal Mourya](https://thefederal.com/entertainment/its-not-just-kantara-odia-film-daman-is-making-waves-nationwide-meet-the-directors), December 2022, Lenka’s workshop answer; indexed interview. Translators unnamed.
 [^award]: [Press Information Bureau, 70th National Film Awards for 2022](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48), 16 August 2024, Best Odia Film entry.
 
 ## Further reading

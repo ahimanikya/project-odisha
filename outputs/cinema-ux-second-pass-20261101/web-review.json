@@ -1,0 +1,796 @@
+{
+  "status": "read_only_structural_audit_complete_browser_findings_pending_root",
+  "coverage": {
+    "reading_pages": 50,
+    "other_pages": 3,
+    "reading_figures": 56,
+    "reading_tables": 4,
+    "raw_markdown_findings": 0,
+    "single_h1_all_pages": true
+  },
+  "findings": [
+    {
+      "id": "TYPE01",
+      "classification": "confirmed structural accessibility gap",
+      "priority": "medium",
+      "evidence": [
+        "projects/site/src/lib/cinema-article.mjs:21 finite reviewed phrase allowlist",
+        "projects/site/dist/cinema/literature-and-screen/index.html: Amada Bata and Matira Manisha Odia title strings lack lang=or",
+        "projects/site/dist/cinema/air-cuttack/index.html: Sri Jagannath title lacks lang=or"
+      ],
+      "impact": "Known Odia titles inherit English language and do not receive the explicit Odia font rule. Generated navigation labels also bypass the language helper.",
+      "recommendation": "Expand only explicitly verified Odia phrases and apply safe escaping/language markup to generated labels; keep Sambalpuri and ambiguous script distinctions."
+    },
+    {
+      "id": "TYPE02",
+      "classification": "CSS-supported browser check, not confirmed visual defect",
+      "priority": "medium",
+      "selector": "body.utk [lang=or]:not(.brand-odia)",
+      "evidence": "projects/site/src/styles/design-system.css:10 sets line-height:1.9 for inline Odia spans, including H1; heading rules use1.12/1.15.",
+      "pages": [
+        "/cinema/maya-miriga/",
+        "/cinema/pratikshya/",
+        "/cinema/air-cuttack/"
+      ],
+      "recommendation": "Measure bilingual title line boxes at390px/desktop; if excessive, inherit heading line-height for its Odia spans while checking glyph clearance."
+    },
+    {
+      "id": "SPACE01",
+      "classification": "visual refinement candidate",
+      "priority": "low",
+      "selector": ".cinema-related-unheaded.article-reading-path.is-compact",
+      "evidence": "ArticleReadingPath.astro retains border-top/padding-top after its H3 is hidden; outer Further reading already provides an H2.",
+      "recommendation": "Check redundant divider/gap below Further reading; remove only if browser confirms unnecessary separation."
+    },
+    {
+      "id": "TYPE03",
+      "classification": "browser check, no demonstrated overlap",
+      "priority": "low",
+      "selector": ".cinema-reader [data-footnote-ref], .cinema-citation-tail",
+      "evidence": "24px inline-flex reference target is inside superscript and final-word nowrap wrapper.",
+      "recommendation": "Inspect literature mixed-script lines at320/390px and enlarged text; preserve target size and word attachment, avoid reverting to orphan markers."
+    }
+  ],
+  "positive_checks": [
+    "All53 pages inspected have a single H1.",
+    "No unresolved footnote tokens, bold Markdown delimiters or Markdown image syntax found in main text.",
+    "Existing4 article tables have explicit cinema overflow treatment; browser scrolling requires root confirmation.",
+    "Current book page distinguishes published31October edition from later online revisions and retains original releases; no new local PDF URL exposed.",
+    "Full portrait geometry is approved and intentionally retained; height alone is not classified as a defect."
+  ],
+  "contrast": {
+    "muted_on_canvas": 5.23,
+    "method": "WCAG relative luminance from current design tokens; not whole-page browser contrast audit"
+  },
+  "guidance": {
+    "file": "outputs/cinema-ux-implementation-20261101/web-guidance.txt",
+    "quotes": [
+      "Provide distinguishable accessible names for navigation regions",
+      "Use one `<h1>` element per page"
+    ],
+    "limit": "Retrieved accessibility guide refers typography to a separate guide; no claim that separate typography guidance was retrieved."
+  },
+  "pages": [
+    {
+      "route": "/cinema/the-question-that-brought-me-here/",
+      "path": "projects/site/dist/cinema/the-question-that-brought-me-here/index.html",
+      "sha256": "820bd50c03e084b728a3daa42e0839707f293dc1a72e5d655ec7d4179ab1d539",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/literature-and-screen/",
+      "path": "projects/site/dist/cinema/literature-and-screen/index.html",
+      "sha256": "b5de8c7753abe41d6ecfdc81664609ff9bcfbc2c80022641f01a0c30b62ba07b",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "Manas Ranjan Mahapatra remembers watching ଅମଡ଼ା ବାଟ (Amada Bata) with his mother. Years later, working with the National Book Trust, he sought permiss",
+        "’s ମାଟିର ମଣିଷ (Matira Manisha) became Mrinal Sen’s 1966 Odia film. Sen’s filmography credits Panigrahi with the story and Sen with screenplay and ",
+        " The family archive for ମା (Maa) credits Chhotray and Biswajit Das jointly for dialogue, while Nitai Palit supplied screenplay and ",
+        "Pratibha Ray’s official bibliography identifies her novel ଅପରିଚିତା (Aparichita) as adapted into a film and the title story of ମୋକ୍ଷ (Moksha) as adapte",
+        "Other paths lead through theatre and contemporary short fiction. ଭୂଖା (Bhukha) grew from Manglu Charan Biswal’s play, bringing folk performers’ liveli",
+        ", opening household passage and primer episode beginning “ତହିଁ ଆରଦିନ ଉପରଓଳି”; Odia Wikisource transcription. English rendering and paraphrase for this"
+      ]
+    },
+    {
+      "route": "/people/basanta-kumari-patnaik/",
+      "path": "projects/site/dist/people/basanta-kumari-patnaik/index.html",
+      "sha256": "2960cf3f666fe43191d55454405eefc7aad700a9ccc91101f08d7689868ec4de",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "A wish to leave can sit beside the comfort of being cared for. That closeness is a way into Basanta’s fiction: a large decision taking shape among sma"
+      ]
+    },
+    {
+      "route": "/people/kalindi-charan-panigrahi/",
+      "path": "projects/site/dist/people/kalindi-charan-panigrahi/index.html",
+      "sha256": "0fcf6007cb5ffc7d8f5385b49a44ba8250b98f70d48c42309f3579b43f0e96f2",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "Two brothers inherit land, but they do not see their inheritance in the same way. Their family lies at the centre of Kalindi Charan Panigrahi’s ମାଟିର ",
+        "ମାଟିର ମଣିଷ (Matira Manisha)"
+      ]
+    },
+    {
+      "route": "/people/kanhu-charan-mohanty/",
+      "path": "projects/site/dist/people/kanhu-charan-mohanty/index.html",
+      "sha256": "268d0e74b79ebc78935c17ceb0be72b1587037dc5fe6a40a7df622dd638ce608",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଅଭିନେତ୍ରୀ (Abhinetri)"
+      ]
+    },
+    {
+      "route": "/people/manglu-charan-biswal/",
+      "path": "projects/site/dist/people/manglu-charan-biswal/index.html",
+      "sha256": "9cbad14a6e9fe63cd354dbf8f1f5e3439716d9920f7716a547c2b56de2cda542",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଭୂଖା (Bhukha)",
+        "ଭୂଖା (Bhukha): when a tradition must also feed a family "
+      ]
+    },
+    {
+      "route": "/people/gopal-chhotray/",
+      "path": "projects/site/dist/people/gopal-chhotray/index.html",
+      "sha256": "8853895fd2f829bb98644f6dc3c3a227737d07fe3717fbb6aa107736217e1f90",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "Odia Bibhaba’s collection identifies ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani) as Chhotray’s opera adaptation of Fakir Mohan Senapati’s short story ",
+        "In ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950), the Gour–Parbati archive credits Chhotray for dialogue and C.R. Mitra for screenplay and ",
+        " For ମାଆ (Maa), Chhotray shares the dialogue credit with Biswajit Das; Nitai Palit is credited with screenplay and "
+      ]
+    },
+    {
+      "route": "/people/bijay-mishra/",
+      "path": "projects/site/dist/people/bijay-mishra/index.html",
+      "sha256": "57a3dc8313c25ab6ac2150e863c6de171663a56e681cfa18854047a35d603f75",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/air-cuttack/",
+      "path": "projects/site/dist/cinema/air-cuttack/index.html",
+      "sha256": "d28ef5f0e3ab7bc12e527193294ff8d97614701cb1baf16452695a0fc613fcff",
+      "h1_count": 1,
+      "figures": 2,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950)",
+        "ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani)"
+      ]
+    },
+    {
+      "route": "/cinema/cinema-music/",
+      "path": "projects/site/dist/cinema/cinema-music/index.html",
+      "sha256": "f57b5164a33ed85f34fd922ba97a0346f75774ba8c32479d24a4a62a36029d9b",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)"
+      ]
+    },
+    {
+      "route": "/people/akshaya-mohanty/",
+      "path": "projects/site/dist/people/akshaya-mohanty/index.html",
+      "sha256": "c6ac5dc8e05e64001d35adb846bfa755cc16bc14a09afd1f914de754e98b1abf",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଅକ୍ଷୟ ମହାନ୍ତି — Akshaya Mohanty, remembered as Khoka ",
+        "In a public caption headed “ଲୋକସ୍ୱର ଛାଞ୍ଚ”, film historian Surya Deo discusses a duet by Akshaya Mohanty and ",
+        "ମାଆ (Maa)",
+        "ମଲାଜହ୍ନ (Malajanha, 1965)",
+        "“ଲୋକସ୍ୱର ଛାଞ୍ଚ”"
+      ]
+    },
+    {
+      "route": "/people/prafulla-kar/",
+      "path": "projects/site/dist/people/prafulla-kar/index.html",
+      "sha256": "428a2cfbb81a424a6f6fc4db64499d76f4b8202443058a50ed713729c9851b3e",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/pranab-patnaik/",
+      "path": "projects/site/dist/people/pranab-patnaik/index.html",
+      "sha256": "6c43ec53ec8ecbf2fb30b97c191a8515078cbec83c6526ba095d091750747842",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/tapu-mishra/",
+      "path": "projects/site/dist/people/tapu-mishra/index.html",
+      "sha256": "867b01cbffa01db55533773573477c56b8aa7774eaeebf739c659148de86b121",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/odia-cinema/",
+      "path": "projects/site/dist/cinema/odia-cinema/index.html",
+      "sha256": "997cc692252e66fef36754d2c4eb92f7788114aaadb425625f1df4797157e7cc",
+      "h1_count": 1,
+      "figures": 2,
+      "tables": 3,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ବର ବଧୂ (Bara Badhu): work, friendship and dignity",
+        "ମାଲିପୁଟ (Maliput Melodies): making room for local voices",
+        "ମଧୁମାଳତୀ (Madhumallati): another age of love",
+        "ଦଶାହ (Dassaaha): returning to an audience",
+        "ଦେବକନ୍ୟା (Debakanya): a performance tradition meets the screen",
+        "ଲଳିତା (Lalita)",
+        "ଅମଡ଼ା ବାଟ (Amada Bata)",
+        "ମଲାଜହ୍ନ (Malajanha)",
+        "ମାଟିର ମଣିଷ (Matira Manisha)",
+        "ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath)",
+        "ଲକ୍ଷ୍ମୀ (Laxmi)",
+        "ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)",
+        "ଶୀତରାତି (Seeta Raati)",
+        "ନୀରବ ଝଡ଼ (Niraba Jhada)",
+        "ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ (Nisiddha Swapna)",
+        "ଭୂଖା (Bhukha)",
+        "ଶଳାବୁଢ଼ା (Sala Budha)",
+        "Sadhu Meher’s ବାବୁଲା (Babula) provides a concrete starting point for the first history. A Lok Sabha answer of 7 December 1987 lists it among the Child",
+        "For କୁନି ଗଣେଶ (Kuni Ganesha), ",
+        "Children can also encounter films through Odia-language versions. CBFC’s 2022 list records an Odia video version of ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Han",
+        "ଚିଲିକା ତୀରେ (Chilika Tire)",
+        "ନାଗଫାଶ (Nagaphasa)",
+        "ଚକା ଭଉଁରୀ (Chaka Bhaunri)",
+        "ଅଭିମାନ (Abhiman)",
+        "ନୟା ଜହର (Naya Zahar)",
+        "ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)",
+        "ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)",
+        "ଶ୍ରୀ ଜଗନ୍ନାଥ (Sri Jagannath, 1950)",
+        "ସୂର୍ଯ୍ୟମୁଖୀ (Suryamukhi)",
+        "ଅରୁନ୍ଧତୀ (Arundhati)",
+        "ମଲାଜହ୍ନ (Malajanha)",
+        "କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)",
+        "ଅଙ୍କୁର (Ankur)",
+        "ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel, 1999)",
+        "ମଣ୍ଟୋ (Manto)",
+        "ଶୀତରାତି (Seeta Raati)",
+        "ତାରା (Tara)",
+        "ଅଙ୍କୁର (Ankur)",
+        "ମାଲିପୁଟ (Maliput Melodies)",
+        "ବର ବଧୂ (Bara Badhu): work, friendship and dignity",
+        "ମାଲିପୁଟ (Maliput Melodies): making room for local voices",
+        "ମଧୁମାଳତୀ (Madhumallati): another age of love",
+        "ଦଶାହ (Dassaaha): returning to an audience",
+        "ଦେବକନ୍ୟା (Debakanya): a performance tradition meets the screen",
+        "ଫାଲ୍ଗୁନ ଚୈତ୍ର (Phalguna Chaitra)",
+        "ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman)"
+      ]
+    },
+    {
+      "route": "/people/gour-prasad-ghose/",
+      "path": "projects/site/dist/people/gour-prasad-ghose/index.html",
+      "sha256": "c0d43946da92378909c264e0546890f9c119d3cb288953b64d9aeefc85ba4674",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଭାଇ ଭାଇ (Bhai Bhai, 1956)",
+        "ମାଆ (Maa, 1959)",
+        "ଲକ୍ଷ୍ମୀ (Laxmi)",
+        "ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)"
+      ]
+    },
+    {
+      "route": "/cinema/parbati-ghose/",
+      "path": "projects/site/dist/cinema/parbati-ghose/index.html",
+      "sha256": "440dac49543b13a4f91860aea7e5ba2d104181e59e684083de0555403e54d359",
+      "h1_count": 1,
+      "figures": 3,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)",
+        "ଲକ୍ଷ୍ମୀ (Laxmi)",
+        "ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)",
+        "ଲକ୍ଷ୍ମୀ (Laxmi)"
+      ]
+    },
+    {
+      "route": "/cinema/sadhu-meher/",
+      "path": "projects/site/dist/cinema/sadhu-meher/index.html",
+      "sha256": "8b6cf34d32a093cc2a1eaf5a8d9c6231abc4824b323ed45e2e731dded07ca065",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଅଙ୍କୁର (Ankur)",
+        "ଅଭିମାନ (Abhiman)",
+        "ଅଙ୍କୁର (Ankur) on Shemaroo’s YouTube channel",
+        "ଅଭିମାନ (Abhiman) in an IFFI retrospective"
+      ]
+    },
+    {
+      "route": "/people/bijay-mohanty/",
+      "path": "projects/site/dist/people/bijay-mohanty/index.html",
+      "sha256": "7d19cc6f9b6db7dc2ab01b1502dcba299476616cc479bbabdefebe4031d6daae",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଚିଲିକା ତୀରେ (Chilika Tire)"
+      ]
+    },
+    {
+      "route": "/people/uttam-mohanty/",
+      "path": "projects/site/dist/people/uttam-mohanty/index.html",
+      "sha256": "139193fbd26aa9c5dbb86cfe124112ddf2906bceb79d73177521578f37c36c41",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/aparajita-mohanty/",
+      "path": "projects/site/dist/people/aparajita-mohanty/index.html",
+      "sha256": "ce5df74b6c40162dc6b607430c17604dfb55a634e01f3fe4e2ec10e65b6b2ef5",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/manmohan-mahapatra/",
+      "path": "projects/site/dist/cinema/manmohan-mahapatra/index.html",
+      "sha256": "04f617752bbdd042700230f29e5a1f151504e514d16cb02cd26d03970a50526b",
+      "h1_count": 1,
+      "figures": 2,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "କ୍ଳାନ୍ତ ଅପରାହ୍ନ (Klanta Aparanha)",
+        "ଶୀତରାତି (Seeta Raati)",
+        "ଶୀତରାତି (Seeta Raati)",
+        "କ୍ଳାନ୍ତ ଅପରାହ୍ନ (Klanta Aparanha)",
+        "ମାୟା ମିରିଗ (Maya Miriga)"
+      ]
+    },
+    {
+      "route": "/cinema/maya-miriga/",
+      "path": "projects/site/dist/cinema/maya-miriga/index.html",
+      "sha256": "26af41bc7890ad1a80c62a40363f6b01a65518aebf07314e2e200e8614b2a912",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଲେଇଲା ଏ ଲେ ଲୁ (Leila et les loups)"
+      ]
+    },
+    {
+      "route": "/people/nirad-mohapatra/",
+      "path": "projects/site/dist/people/nirad-mohapatra/index.html",
+      "sha256": "5ab08c3bd1cdb3604b82ad3db1073f7d40581bde56bda95ac1198deac161d905",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "Continue the full collection: ଭୂଖା (Bhukha) ",
+        "ମାୟା ମିରିଗ (Maya Miriga)",
+        "ଭୂଖା (Bhukha)"
+      ]
+    },
+    {
+      "route": "/cinema/bhukha/",
+      "path": "projects/site/dist/cinema/bhukha/index.html",
+      "sha256": "74cc6c6cb95015d478ad4940a382917038bdd46247bbb801f202e6ea952f10a1",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଭୂଖା (Bhukha): when a tradition must also feed a family",
+        "ଭୂଖା (Bhukha)",
+        "Sabyasachi Mohapatra and ଭୂଖା (Bhukha)"
+      ]
+    },
+    {
+      "route": "/people/sabyasachi-mohapatra/",
+      "path": "projects/site/dist/people/sabyasachi-mohapatra/index.html",
+      "sha256": "e36fccc78a52d0764832e5aca6c2904f623ee612937f5ffad1f15828f8db9d5d",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "article on ଭୂଖା (Bhukha)",
+        "ଭୂଖା (Bhukha)",
+        "ଆଦିମ ବିଚାର (Aadim Vichar)"
+      ]
+    },
+    {
+      "route": "/cinema/aadim-vichar/",
+      "path": "projects/site/dist/cinema/aadim-vichar/index.html",
+      "sha256": "81a083aa88b1db2f92c77521491e2fcf9c05505af4683dfb212fe0f520a0c123",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)"
+      ]
+    },
+    {
+      "route": "/cinema/lavanya-preeti/",
+      "path": "projects/site/dist/cinema/lavanya-preeti/index.html",
+      "sha256": "b8ede2fecf3448578f857d890677de601b40f9da50f5ae05ad9089ebbf5d7591",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଆଦିମ ବିଚାର (Aadim Vichar)"
+      ]
+    },
+    {
+      "route": "/people/ak-bir/",
+      "path": "projects/site/dist/people/ak-bir/index.html",
+      "sha256": "0c2f26c79bc1880c856ac029bf965eadd1c1527f140f4be217581b998a1ada3d",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଆଦି ମୀମାଂସା (Adi Mimansa)",
+        "ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)"
+      ]
+    },
+    {
+      "route": "/people/bijaya-jena/",
+      "path": "projects/site/dist/people/bijaya-jena/index.html",
+      "sha256": "8b8c2515ece866848434f9787a3c52436a1189a29007bafa19757ae86ce89ab6",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ତାରା (Tara)"
+      ]
+    },
+    {
+      "route": "/cinema/nandita-das/",
+      "path": "projects/site/dist/cinema/nandita-das/index.html",
+      "sha256": "a6fb7da8dd5157f2208f47135ed035c5d13bb027d4ca93a34fce97dff6ba47e4",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel)",
+        "ମଣ୍ଟୋ (Manto)",
+        "ଜ୍ୱିଗାଟୋ (Zwigato)",
+        "ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash) on Prime Video",
+        "ମଣ୍ଟୋ (Manto) on Netflix",
+        "ଜ୍ୱିଗାଟୋ (Zwigato) on Prime Video",
+        "ଜ୍ୱିଗାଟୋ (Zwigato)"
+      ]
+    },
+    {
+      "route": "/people/pramod-pati/",
+      "path": "projects/site/dist/people/pramod-pati/index.html",
+      "sha256": "4c2f97d52c17f33eedd364c7db7e9a7aee130a2fe7b3231b489e578745ae49fd",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/lipika-singh-darai/",
+      "path": "projects/site/dist/people/lipika-singh-darai/index.html",
+      "sha256": "c0df732257ab0509f5e28e5f43ec5d003cac2f988945ed95c0a47f44e1df3c39",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "କଙ୍କି ଓ ସାପ (Kankee O Saapo)",
+        "ରାତି ଓ ଭୟ (Raati O Bhaya)",
+        "ବି ଓ ଏସ (B O S)",
+        "ଭୂଖା (Bhukha): when a tradition must also feed a family "
+      ]
+    },
+    {
+      "route": "/cinema/learning-cinema-together/",
+      "path": "projects/site/dist/cinema/learning-cinema-together/index.html",
+      "sha256": "532238136550543d647d366f1eef0ddd897da6e1c737d4d1f51ca19654e2b581",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/surya-deo/",
+      "path": "projects/site/dist/people/surya-deo/index.html",
+      "sha256": "8b38db3430ba544c2275b30a6ec25cc31882870c4cf8116b03ca94f2ac69c81e",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଉଲ୍କା (Ulka)"
+      ]
+    },
+    {
+      "route": "/cinema/searching-for-sita-bibaha/",
+      "path": "projects/site/dist/cinema/searching-for-sita-bibaha/index.html",
+      "sha256": "938e3609d0f5ae99a391937e4223f1cc7e6fa1279c301b522f791f1e639ee675",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/who-keeps-a-film-alive/",
+      "path": "projects/site/dist/cinema/who-keeps-a-film-alive/index.html",
+      "sha256": "6c1a663f184cf1415cf7161b7a99a3d0b2a7f36d6a2b59c21fe356e92ba551d7",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/reading-odia-cinema/",
+      "path": "projects/site/dist/cinema/reading-odia-cinema/index.html",
+      "sha256": "7ca09d61f3a6150142848251fe1b96b31a92b55e8cca997c4da34daac9d40147",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ରକ୍ତ ଗୋଲାପ (Rakta Golapa)"
+      ]
+    },
+    {
+      "route": "/people/gourahari-das/",
+      "path": "projects/site/dist/people/gourahari-das/index.html",
+      "sha256": "9f546eca6d6e654fc39b794313f02191a64afe760dd88a69550444c4ef00428c",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଗୌରହରି ଦାସ (Gourahari Das)",
+        "ପ୍ରତୀକ୍ଷା (Pratikshya)"
+      ]
+    },
+    {
+      "route": "/cinema/pratikshya/",
+      "path": "projects/site/dist/cinema/pratikshya/index.html",
+      "sha256": "3d6f7f70f240b1c9057f79854557be3ed1680dbf55fbe37d583bfb442c555cf5",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/anupam-patnaik/",
+      "path": "projects/site/dist/people/anupam-patnaik/index.html",
+      "sha256": "a176ce26a2051a42a8014916e6b56e2a47681d9c36828299de0e885918c49879",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ତୁଳସୀ ଅପା (Tulasi Apa)",
+        "ପ୍ରତୀକ୍ଷା (Pratikshya)",
+        "ଦମନ (DAMaN)"
+      ]
+    },
+    {
+      "route": "/cinema/daman/",
+      "path": "projects/site/dist/cinema/daman/index.html",
+      "sha256": "847282752eaf1aa1ffc9a5ae30ace94a149e46b40e723a2e5f13cc5299b293c8",
+      "h1_count": 1,
+      "figures": 2,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/people/vishal-mourya/",
+      "path": "projects/site/dist/people/vishal-mourya/index.html",
+      "sha256": "08d2bab1a1a2c900445921a1ffb62ffbe2af208ac42b7654ff16a743acd892a3",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ବିଜୁ ବାବୁ (Biju Babu)",
+        "ଦମନ (DAMaN)"
+      ]
+    },
+    {
+      "route": "/people/debi-prasad-lenka/",
+      "path": "projects/site/dist/people/debi-prasad-lenka/index.html",
+      "sha256": "39602c21dc8c54407876ae817343da79b821dbd6064e167154633a51ea3a0cab",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ବିଜୁ ବାବୁ (Biju Babu)"
+      ]
+    },
+    {
+      "route": "/people/deependra-samal/",
+      "path": "projects/site/dist/people/deependra-samal/index.html",
+      "sha256": "eb88ed6393431f5b1412572a93df474825671e966e8e712049ce39332e7b860a",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ପରବ (Parab)"
+      ]
+    },
+    {
+      "route": "/cinema/odia-television/",
+      "path": "projects/site/dist/cinema/odia-television/index.html",
+      "sha256": "c271a3e947413faee52f8da8bbe56bacdb4d4d70f5bb7dd5756993dfd8c174ae",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "କେମିତି କହିବି କହ (Kemiti Kahibi Kaha)",
+        "କଥା ସରିତା (Katha Sarita)",
+        "ଗୋପାଳ ରହସ୍ୟ (Gopala Rahasya)",
+        "ପାଣୁ ମିଶ୍ର (Panu Mishra)",
+        "IDMT’s own catalogue records ଚତୁର କାଉ (Chatura Kau) as an Odia animated short released on 14 January 2008. It also describes ଧର୍ମପଦ (Dharmapada) as an",
+        "କୁନି ଗଣେଶ (Kuni Ganesha) provides a television connection. Reporting on Media Pixels Productions described an eight-episode Odia 3D series prepared fo",
+        "A later example connects local production to national broadcasting. ELE Animations’ announcement for ଜୟ ଜଗନ୍ନାଥ (Jay Jagannath) describes its collabor",
+        "The distinction continues into features. ELE’s ମହାପ୍ରଭୁ ଜଗନ୍ନାଥ (Mahaprabhu Jagannath), directed by Shripad Warkhedkar, received a trade review record",
+        "କେମିତି କହିବି କହ (Kemiti Kahibi Kaha) on ZEE5"
+      ]
+    },
+    {
+      "route": "/cinema/odia-ott/",
+      "path": "projects/site/dist/cinema/odia-ott/index.html",
+      "sha256": "8d18949efdb9a16b67d36cf6d544417780a3c68d36787f506542f31161a1b2ce",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଚୁମ୍ବକ (Chumbak)"
+      ]
+    },
+    {
+      "route": "/cinema/commercial-successes/",
+      "path": "projects/site/dist/cinema/commercial-successes/index.html",
+      "sha256": "a8bda56dc59038cb960844d015c44caa621f0c8bf891bcd6e9f7595aac595a94",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 1,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    },
+    {
+      "route": "/cinema/cinema-economics/",
+      "path": "projects/site/dist/cinema/cinema-economics/index.html",
+      "sha256": "0e4ac37a64ecf59ddfcc345341384a6914964af624f09d8df120474124acaed8",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଅମଡ଼ା ବାଟ (Amada Bata)",
+        "ମାଟିର ମଣିଷ (Matira Manisha)"
+      ]
+    },
+    {
+      "route": "/cinema/cinema-futures/",
+      "path": "projects/site/dist/cinema/cinema-futures/index.html",
+      "sha256": "438577936c9b34b03264b03b160927a148016528b62b2c27ef85525c42105cac",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "“ତାଳି,” revision 212890"
+      ]
+    },
+    {
+      "route": "/cinema/",
+      "path": "projects/site/dist/cinema/index.html",
+      "sha256": "b5d4d6babe9be22d46e748e5f4894e486addb9a8ea170710c1a5d96ab9f4a4ea",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଆକାଶବାଣୀ କଟକ | AIR Cuttack: where stories found another voice ",
+        "ମାୟା ମିରିଗ (Maya Miriga): a family, a fragile film, a second life ",
+        "ଭୂଖା (Bhukha): when a tradition must also feed a family ",
+        "ଆଦିମ ବିଚାର (Aadim Vichar): whose understanding of justice? ",
+        "ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story ",
+        "ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security ",
+        "ଦମନ (DAMaN): the road from Malkangiri to national recognition "
+      ]
+    },
+    {
+      "route": "/cinema/reading-guide/",
+      "path": "projects/site/dist/cinema/reading-guide/index.html",
+      "sha256": "447084c26dc87f112208705a4cca7316963c84bcbdc14051c91445462e0835f7",
+      "h1_count": 1,
+      "figures": 0,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": [
+        "ଆକାଶବାଣୀ କଟକ | AIR Cuttack: where stories found another voice",
+        "ମାୟା ମିରିଗ (Maya Miriga): a family, a fragile film, a second life",
+        "ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security",
+        "ଦମନ (DAMaN): the road from Malkangiri to national recognition"
+      ]
+    },
+    {
+      "route": "/cinema/book/",
+      "path": "projects/site/dist/cinema/book/index.html",
+      "sha256": "518bdf8bf04f8e78664f4e0dce6059616bdb1ae202168181a2ed86b6aac216f5",
+      "h1_count": 1,
+      "figures": 1,
+      "tables": 0,
+      "raw_markdown": [],
+      "unlabelled_odia_script_candidates": []
+    }
+  ],
+  "limitations": [
+    "No browser, screenshots or computed geometry captured by this agent.",
+    "Odia-script candidates are not automatically Odia-language defects: explicit examples identified separately; Sambalpuri and unresolved labels require language review.",
+    "No build, test, canonical or renderer edits performed."
+  ]
+}

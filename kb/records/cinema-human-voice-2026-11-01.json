@@ -1,0 +1,199 @@
+{
+  "status": "local_review_ready",
+  "authorization": "Founder approved the reader-appeal recommendations, asking for stronger concern about the publicly unresolved literary credit and compensation question.",
+  "baseline_record": "records/cinema-reader-refinement-2026-10-31.json",
+  "active_article": null,
+  "scope": "Sequential source-preserving narrative revision; distinct voices, concrete testimony, fewer moral summaries, an optional central reading journey, and rebuilt reviewed books. Preserve all50readings and existing images.",
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "workers": {
+    "Disha": "Coordination, main question/closing integration after sequential source release, narrative route metadata, books/site builds and records",
+    "Anvesha": "Read-only evidence audit and wording advice; may write only outputs/cinema-human-voice-20261101/evidence-review.json",
+    "Samanta": "Sequential edits of14approved articles; outputs/cinema-human-voice-20261101/editorial-progress.json. Only after these are released may edit output/pdf/build_book.py for optional primary reading route. No shared metadata/records/Git.",
+    "Drishti": "Read-only acceptance/review; may write only outputs/cinema-human-voice-20261101/quality-review.json"
+  },
+  "boundaries": [
+    "Missing accessible payment evidence is not evidence of nonpayment or unfair treatment",
+    "No invented viewing, memories, dialogue, interviews or scenes",
+    "Keep author testimony distinct from public participant testimony",
+    "No outreach, publication or changes to other workers scopes",
+    "Reader testing remains unperformed; prepare questions only"
+  ],
+  "article_queue": [
+    "kanhu-charan-mohanty",
+    "bijay-mishra",
+    "prafulla-kar",
+    "pranab-patnaik",
+    "tapu-mishra",
+    "bijay-mohanty",
+    "uttam-mohanty",
+    "aparajita-mohanty",
+    "bijaya-jena",
+    "lipika-singh-darai",
+    "surya-deo",
+    "vishal-mourya",
+    "debi-prasad-lenka",
+    "odia-television"
+  ],
+  "root_articles_complete": [
+    "the-question-that-brought-me-here",
+    "literature-and-screen",
+    "cinema-economics",
+    "cinema-futures"
+  ],
+  "phase": "completed",
+  "completed_on": "2026-11-01",
+  "results": {
+    "readings_revised": 18,
+    "collection_readings": 50,
+    "primary_journey_readings": 10,
+    "other_reading_paths_retained": 4,
+    "main_changes": [
+      "Founder-supplied DAMaN conversation becomes personal turning point; recalled50screen count not asserted as current inventory",
+      "Literary-credit/compensation question made explicit, with consulted-source scope and no nonpayment inference",
+      "Author question returns in economics and closing",
+      "Fourteen related readings lose repetitive explanations while preserving named testimony and material limits",
+      "Optional central journey appears before book narrative and on web guide; original50reading order retained"
+    ],
+    "images": "All original images, covers and23requiredcreditrecords unchanged. Three new tail drawings from prior revision remain placed in each edition."
+  },
+  "evidence": {
+    "root_changes": "outputs/cinema-human-voice-20261101/root-editorial-progress.json",
+    "profile_changes": "outputs/cinema-human-voice-20261101/editorial-progress.json",
+    "integration_corrections": "outputs/cinema-human-voice-20261101/integration-corrections.json",
+    "source_review": "outputs/cinema-human-voice-20261101/evidence-review.json",
+    "author_memory": "outputs/cinema-human-voice-20261101/author-memory.json",
+    "quality_review": "outputs/cinema-human-voice-20261101/quality-review.json"
+  },
+  "validation": {
+    "site_tests": {
+      "passed": 669,
+      "failed": 0,
+      "log": "outputs/cinema-human-voice-20261101/site-tests.log"
+    },
+    "final_source_tests": {
+      "status": "PASS",
+      "log": "outputs/cinema-human-voice-20261101/final-source-tests.log"
+    },
+    "site_build": {
+      "status": "PASS",
+      "log": "outputs/cinema-human-voice-20261101/site-build.log"
+    },
+    "disclosure_gate": {
+      "pages": 1055,
+      "violations": 0
+    },
+    "registers": "PASS:1206records,695events",
+    "bundle": "PASS:1867concepts,8036local links",
+    "browser": {
+      "origin": "http://127.0.0.1:8772",
+      "verified": [
+        "New author meeting passage",
+        "Writer compensation section and heading anchor",
+        "Ten-reading main route, followed by existing four paths"
+      ],
+      "screenshot": "outputs/cinema-human-voice-20261101/writer-question-preview.png",
+      "scope": "Desktop rendered checks; existing responsive layout unchanged, no new mobile check this turn."
+    }
+  },
+  "artifacts": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-11-01-human-voice.pdf",
+      "sha256": "7adc203d518112835a78f3cc9d2d19a7e1a6a076fa0a0115a978ede00da78763",
+      "pages": 253,
+      "bytes": 29122452,
+      "receipt": "tmp/pdfs/2026-11-01-human-voice/digital/book-build-2026-11-01-human-voice.json",
+      "all_pages_rendered": true,
+      "selected_pages_reviewed": true,
+      "primary_path": {
+        "destination": "primary-reading-path",
+        "title": "Follow the central question",
+        "slugs": [
+          "the-question-that-brought-me-here",
+          "literature-and-screen",
+          "basanta-kumari-patnaik",
+          "akshaya-mohanty",
+          "maya-miriga",
+          "bhukha",
+          "pratikshya",
+          "daman",
+          "cinema-economics",
+          "cinema-futures"
+        ],
+        "measured_height_pt": 392.5,
+        "page": 7
+      },
+      "new_tail_drawings": [
+        {
+          "slug": "maya-miriga",
+          "page": 88,
+          "status": "placed"
+        },
+        {
+          "slug": "bhukha",
+          "page": 94,
+          "status": "placed"
+        },
+        {
+          "slug": "pratikshya",
+          "page": 146,
+          "status": "placed"
+        }
+      ]
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-human-voice.pdf",
+      "sha256": "57f78ed13683ee585051ce7a2f7aa263394e9afa3f352a1fb46e1bf931f90ecd",
+      "pages": 280,
+      "bytes": 55014708,
+      "receipt": "tmp/pdfs/2026-11-01-human-voice/print/book-build-2026-11-01-human-voice.json",
+      "all_pages_rendered": true,
+      "selected_pages_reviewed": true,
+      "primary_path": {
+        "destination": "primary-reading-path",
+        "title": "Follow the central question",
+        "slugs": [
+          "the-question-that-brought-me-here",
+          "literature-and-screen",
+          "basanta-kumari-patnaik",
+          "akshaya-mohanty",
+          "maya-miriga",
+          "bhukha",
+          "pratikshya",
+          "daman",
+          "cinema-economics",
+          "cinema-futures"
+        ],
+        "measured_height_pt": 392.5,
+        "page": 7
+      },
+      "new_tail_drawings": [
+        {
+          "slug": "maya-miriga",
+          "page": 88,
+          "status": "placed"
+        },
+        {
+          "slug": "bhukha",
+          "page": 93,
+          "status": "placed"
+        },
+        {
+          "slug": "pratikshya",
+          "page": 146,
+          "status": "placed"
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "Actual reader response has not been collected; a short response sheet is prepared, with no outreach performed.",
+    "No new film-viewing or remembered exchange has been invented; later close readings need actual viewing/reading material.",
+    "Original-author compensation remains an open evidence question, not a finding of nonpayment or unfairness.",
+    "A later publication must use the reviewed artifacts; current public release remains unchanged."
+  ],
+  "reader_response_sheet": "outputs/cinema-human-voice-20261101/reader-response-sheet.txt",
+  "worker_scopes_released": true
+}

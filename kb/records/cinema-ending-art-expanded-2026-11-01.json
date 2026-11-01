@@ -1,0 +1,166 @@
+{
+  "id": "POD-CINEMA-ENDING-ART-EXPANDED-20261101",
+  "date": "2026-11-01",
+  "status": "local_review_ready",
+  "authorization": [
+    "Use as many meaningful ending drawings as make sense",
+    "Apply all recommendations from second-pass UX audit"
+  ],
+  "baseline": "records/cinema-ending-art-2026-11-01.json",
+  "active_article": null,
+  "global_owner_unchanged": true,
+  "workers": {
+    "Disha": "Coordinator; sequential art/assets/captions, narrative config, book builder, books and shared records",
+    "Anvesha": "outputs/cinema-ending-art-expanded-20261101/story-directions.json; read-only all50 conceptual review",
+    "Samanta": "Read-only layout-opportunities.json then bounded web typography/language/link/card fixes; exact file scope saved before edits",
+    "Drishti": "Independent review after final integration; quality-review.json only",
+    "Samanta_files": [
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/src/components/ArticleReadingPath.astro",
+      "projects/site/src/pages/cinema/index.astro",
+      "projects/site/src/pages/cinema/reading-guide.astro",
+      "projects/site/tests/cinema-ux.test.mjs"
+    ]
+  },
+  "boundaries": [
+    "No publishing",
+    "No human approval claim",
+    "No new historical likeness or undocumented scene",
+    "Preserve photos, references and unrelated dirty work"
+  ],
+  "prior_fixes_retained": [
+    "Shared-story ending and digital fragment reflow"
+  ],
+  "audit_actions": {
+    "TYPE01": "verified language markup",
+    "TYPE02": "bilingual heading rhythm",
+    "B02": "Contents running heading",
+    "IMG01_IMG02": "terse imagined-scene captions/cards",
+    "arrow_wrap": "keep trailing arrow with final title word",
+    "B03": "keep Nirad opening paragraph together",
+    "B04": "locally reflow sparse viewing leaves",
+    "B05": "source labels remain with start of URL",
+    "IMG03": "avoid repeated desk imagery in new art; no blanket replacement per audit",
+    "IMG04": "remove small signature-like decoration if targeted revision is appropriate"
+  },
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "sequential_integration": [
+    {
+      "slug": "basanta-kumari-patnaik",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "air-cuttack",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "bijay-mishra",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "pramod-pati",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "lipika-singh-darai",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "cinema-economics",
+      "status": "reviewed_local"
+    },
+    {
+      "slug": "vishal-mourya",
+      "status": "reviewed_local"
+    }
+  ],
+  "image_cleanup": {
+    "prompt": "Precise-object-edit. Human Natural Poetic Natural. Edit only the tiny dark signature-like squiggle at the extreme bottom-left of this existing painting. Replace that tiny mark with the immediately surrounding ochre floor texture so the painting is unsigned. Preserve the drum, folded cloth, strap, floor cracks, architecture, shadow shapes, composition, dimensions, colour, brush texture and all other details. Do not add or remove any other object. No new text, signature, watermark or border.",
+    "generated_path": "/Users/ahimanikya/.codex/generated_images/01a166e7-8279-7d61-8fb5-7c9a20fef128/exec-998e40a5-643f-44a6-8589-a29c868af44d.png",
+    "original": "kb/research/media/cinema-series/bhukha-title.png",
+    "original_sha256": "b92c4ddfd24bc587cb4e122bd4e919cab96cf5ac3323548728a0c1f5935ab1d7",
+    "path": "kb/research/media/cinema-series/bhukha-title-clean-20261101.png",
+    "sha256": "ba2076abdea74ce68e9fad8905b7a149537bf264c21d4c0dda6e533eacf68bb5",
+    "scope": "Targeted decorative signature-like mark removal; drum, cloth, composition and colour retained. Small texture changes accompany generation. Original retained.",
+    "tool": "built-in image_gen",
+    "mode": "Poetic Natural"
+  },
+  "root_additional_scope": [
+    "projects/site/editions/coast.json: replace Bhukha complete-image allowlist destination",
+    "kb/research/culture/cinema-series/manifest.json: captions and selected Bhukha sibling",
+    "projects/site/src/data/cinema.json: matching caption/image metadata",
+    "kb/research/culture/cinema-series/image-layout-2026-10-30.json: matching Bhukha source key"
+  ],
+  "book_access_review": "OTT final section grouped with access list and bridge; measured409ptdigital/442ptprint within480pt guard. Nandita half-page viewing list retained after review because the complete section does not fit the preceding page without reducing type or removing access qualifications.",
+  "workers_released": true,
+  "art": {
+    "configured_motifs": 15,
+    "unique_motifs": 15,
+    "additional_endings": 7,
+    "new_generated_motifs": 6,
+    "retained_previously_unused_motif": 1,
+    "all50_endings_reviewed": true,
+    "generation_mode": "Human Natural Poetic Natural",
+    "provenance": "kb/media/cinema-series/ending-art-20261101/provenance-expanded.json",
+    "policy": "Fit-only in books; never force an art-only leaf."
+  },
+  "books": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-expanded-art.pdf",
+      "pdf_sha256": "c60661508459078351d39b5bd36522eacf4cdbc15e9ef3145f199ba09891fa10",
+      "pages": 252,
+      "chapter_page_references_stable": true,
+      "notes": 432,
+      "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+      "receipt": "tmp/pdfs/2026-11-01-expanded-art/digital/book-build-2026-11-01-expanded-art.json",
+      "configured_tail_vignettes": 12,
+      "placed_tail_vignettes": 9,
+      "skipped_tails": [
+        "basanta-kumari-patnaik",
+        "learning-cinema-together",
+        "vishal-mourya"
+      ],
+      "inline_motifs": 3
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-expanded-art.pdf",
+      "pdf_sha256": "7601a734ab95776c8534b7866561f7682e50ac34fc6896d9022c38da153fd6d0",
+      "pages": 276,
+      "chapter_page_references_stable": true,
+      "notes": 432,
+      "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+      "receipt": "tmp/pdfs/2026-11-01-expanded-art/print/book-build-2026-11-01-expanded-art.json",
+      "configured_tail_vignettes": 12,
+      "placed_tail_vignettes": 9,
+      "skipped_tails": [
+        "basanta-kumari-patnaik",
+        "air-cuttack",
+        "vishal-mourya"
+      ],
+      "inline_motifs": 3
+    }
+  },
+  "validation": {
+    "focused_site_tests": 28,
+    "failures": 0,
+    "build_pages": 570,
+    "disclosure_pages_scanned": 1055,
+    "disclosure_violations": 0,
+    "browser": "outputs/cinema-ending-art-expanded-20261101/browser-review.json",
+    "quality": "outputs/cinema-ending-art-expanded-20261101/quality-review.json",
+    "web": "outputs/cinema-ending-art-expanded-20261101/web-changes.json",
+    "preservation": "All50 chapter bodies,432notes,23creditrecords and covers unchanged; one declared Bhukha hero sibling replaces display image with original retained. Three imagined-scene captions clarified.",
+    "kb_checks": {
+      "registers": "PASS1206records695events",
+      "bundle": "PASS1867concepts8043local_links",
+      "diff_check": "PASS"
+    }
+  },
+  "remaining_limits": [
+    "Nandita viewing-list leaf retained as a reviewed layout tradeoff.",
+    "Configured drawings skip book endings without adequate space; all seven additions appear in web articles.",
+    "Bounded desktop/mobile checks are not assistive-technology certification. Physical print proof and press preparation remain outside this task."
+  ]
+}

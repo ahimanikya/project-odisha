@@ -55,10 +55,10 @@ The [Gour–Parbati archive](https://www.gourparbati.com/) offers individual bio
 
 ## Footnotes & Sources
 
-[^life]: Gour–Parbati archive, [Gour Prasad Ghose](https://www.gourparbati.com/gour_prasad_ghose.php), retrospective biography. Theatre, television and life dates.
-[^bhai]: Gour–Parbati archive, [Bhai Bhai](https://www.gourparbati.com/movie_bhaibhai.php), credits and production recollections. Government assistance is attributed testimony, not a quantified funding record.
+[^life]: Gour–Parbati archive, [Gour Prasad Ghose](https://www.gourparbati.com/gour_prasad_ghose.php), retrospective biography.
+[^bhai]: Gour–Parbati archive, [Bhai Bhai](https://www.gourparbati.com/movie_bhaibhai.php), credits and production recollections. Government assistance described retrospectively; amount unspecified.
 [^maa]: Gour–Parbati archive, [Maa](https://www.gourparbati.com/movie_maa.php), production, dialogue, music, playback and dance credits.
-[^credits]: Gour–Parbati archive, [Filmography](https://www.gourparbati.com/filmography.php). Film roles and collective direction are distinct from individual award categories.
+[^credits]: Gour–Parbati archive, [Filmography](https://www.gourparbati.com/filmography.php).
 
 ## Further reading
 

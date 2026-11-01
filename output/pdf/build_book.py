@@ -63,7 +63,10 @@ styles['h3'].fontName='BookBold';styles['h3'].keepWithNext=True
 styles['part'].textColor=accent;styles['part'].fontName='BookBold';styles['part'].spaceAfter=10
 styles['caption'].textColor=muted;styles['caption'].spaceAfter=18
 styles['bridge'].fontName='BookItalic';styles['bridge'].textColor=accent;styles['bridge'].spaceBefore=6
-styles['note'].spaceAfter=9
+# Compact reference matter only; narrative typography is unchanged.
+styles['note'].spaceAfter=3.5
+styles['source-heading']=ParagraphStyle('source-heading',parent=styles['h2'],fontSize=11.5,leading=15,spaceBefore=10,spaceAfter=4,keepWithNext=True)
+styles['source-address']=ParagraphStyle('source-address',parent=styles['small'],spaceAfter=0)
 manifest=json.loads((R/'projects/site/src/data/cinema.json').read_text());entries={a['slug']:a for a in manifest['articles']}
 additions={}
 narrative_path=R/'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'
@@ -107,7 +110,7 @@ def public_label(s):
 
 def norm(s):return public_label(s).replace('\u2011','-').replace('–','-').replace('—',' - ').replace('\u00a0',' ')
 def odia(t):return re.sub(r'([\u0b00-\u0b7f]+)',r'<font name="Odia">\1</font>',t)
-def inline(text,slug=None,refs=True):
+def inline(text,slug=None,refs=True,print_address=True):
  text=norm(text);tokens={}
  def token(v):k=f'ZZZLINK{len(tokens)}ZZZ';tokens[k]=v;return k
  def link(m):
@@ -128,8 +131,8 @@ def inline(text,slug=None,refs=True):
   if PRINT and target.startswith('#ch-'):
    dest=target[4:]
    if dest in order:suffix=f' (Chapter {order.index(dest)+1}, p. {page_map.get(target[1:],"000")})'
-  if PRINT and target=='https://projectodisha.org/about/editorial-process/':label=target
-  elif PRINT and target.startswith(('http://','https://')):
+  if PRINT and print_address and target=='https://projectodisha.org/about/editorial-process/':label=target
+  elif PRINT and print_address and target.startswith(('http://','https://')):
    if target not in url_directory:url_directory[target]=len(url_directory)+1
    suffix=' [S'+str(url_directory[target])+']'
   return token('<link href="'+html.escape(target,quote=True)+'" color="'+LINK_COLOR+'">'+odia(html.escape(label))+'</link>'+suffix)
@@ -147,7 +150,7 @@ def inline(text,slug=None,refs=True):
 
 TAIL_SPACING_CHAPTERS={'tapu-mishra','uttam-mohanty','anupam-patnaik'}
 COMPACT_SPACING_CHAPTERS={'odia-cinema','learning-cinema-together','cinema-economics','cinema-futures'}
-TIGHT_CHAPTERS={'the-question-that-brought-me-here','literature-and-screen','gour-prasad-ghose','nirad-mohapatra','aadim-vichar','lavanya-preeti','deependra-samal','vishal-mourya','ak-bir'}
+TIGHT_CHAPTERS={'manglu-charan-biswal','bijay-mohanty','sabyasachi-mohapatra','the-question-that-brought-me-here','literature-and-screen','gour-prasad-ghose','nirad-mohapatra','aadim-vichar','lavanya-preeti','deependra-samal','vishal-mourya','ak-bir'}
 CLOSING_FLOW_CHAPTERS={'prafulla-kar','commercial-successes','cinema-music','debi-prasad-lenka'}
 styles['body-tight']=ParagraphStyle('body-tight',parent=styles['body'],spaceAfter=6)
 styles['body-tail']=ParagraphStyle('body-tail',parent=styles['body'],spaceAfter=4)
@@ -158,8 +161,8 @@ styles['odiaquote']=ParagraphStyle('odiaquote',parent=styles['body'],fontName='O
 def para(t,style='body',slug=None,refs=True):
  if style=='h2' and slug in TAIL_SPACING_CHAPTERS:style='h2-tail'
  elif style=='body' and slug in TAIL_SPACING_CHAPTERS:style='body-tail'
- elif style=='h2' and slug in {'cinema-economics','cinema-futures'}:style='h2-closing'
- elif style=='body' and (slug=='cinema-economics' or PRINT and slug=='cinema-futures'):style='body-economics'
+ elif style=='h2' and slug in {'cinema-economics','cinema-futures','cinema-music'}:style='h2-closing'
+ elif style=='body' and (slug in {'cinema-economics','cinema-music'} or PRINT and slug=='cinema-futures'):style='body-economics'
  elif style=='body' and slug in TIGHT_CHAPTERS|CLOSING_FLOW_CHAPTERS|COMPACT_SPACING_CHAPTERS|TAIL_SPACING_CHAPTERS:style='body-tight'
  if re.match(r'^[“"]?[\u0b00-\u0b7f]',t) and len(re.findall(r'[\u0b00-\u0b7f]',t))>len(re.findall(r'[A-Za-z]',t))*3:return Paragraph(html.escape(norm(t)),styles['odiaquote'])
  return Paragraph(inline(t,slug,refs),styles[style])
@@ -192,6 +195,17 @@ def frame_geometry(path,slug,width,height):
 delivery={}
 for entry in entries.values():
  for im in entry.get('images',[]):delivery[im['source']]=R/'projects/site/public'/im['file'].lstrip('/')
+def displayed_image_credit(full_credit,description,hero=False):
+ # Remove only the exact description already printed beneath this figure.
+ if hero and description and full_credit.startswith(description+' '):
+  remainder=full_credit[len(description):].strip()
+  if remainder:return remainder
+ if not hero:
+  for marker in [' Photo:',' Photograph:',' Digitisation:']:
+   at=full_credit.find(marker)
+   if at>=0 and full_credit[:at]==description:return full_credit[at:].strip()
+ return full_credit
+
 def figure(path,caption,slug,hero=False):
  layout=image_frames.get((slug,str(Path(path).relative_to(R))),{})
  full_caption=caption+(' '+layout['credit_note'] if layout.get('credit_note') else '')
@@ -201,16 +215,21 @@ def figure(path,caption,slug,hero=False):
   credit_key="cinema-image-"+str(1+sum(x["slug"]==slug for x in image_credit_notes))
   assert credit_key not in notes[slug]
   credit_number=len(notes[slug])+1
-  notes[slug][credit_key]=full_caption
   numbers[slug][credit_key]=credit_number
   refseq[slug][credit_key]=1
   if hero:caption=entries[slug]['hero'].get('caption',caption)
   else:
    for marker in [' Photo:',' Photograph:',' Digitisation:',' India Post, Government of India, via']:
     if marker in caption:caption=caption.split(marker,1)[0];break
-  image_credit_notes.append({'number':credit_number,'note_key':credit_key,'slug':slug,'full_credit':full_caption,'description':caption,'source':str(Path(path).relative_to(R))})
+  displayed_credit=displayed_image_credit(full_caption,caption,hero)
+  notes[slug][credit_key]=displayed_credit
+  image_credit_notes.append({'number':credit_number,'note_key':credit_key,'slug':slug,'full_credit':full_caption,'displayed_credit':displayed_credit,'description':caption,'source':str(Path(path).relative_to(R))})
  p=Path(path);original=PILImage.open(p);oriented=ImageOps.exif_transpose(original);w,h=oriented.size
  layout,fw,fh=frame_geometry(p,slug,w,h);cfg=layout.get('book',{});cover=cfg.get('fit')=='cover'
+ # Keep the whole portrait with the opening in the digital reading edition.
+ # The print edition retains its full-width facing portrait page.
+ if hero and slug=='the-question-that-brought-me-here' and not PRINT:
+  fw=210;fh=fw*h/w;cover=False
  draw_w=max(fw,fh*w/h) if cover else fw;draw_h=draw_w*h/w;scale=draw_w/w
  embedded=p if PRINT else delivery.get(str(p.relative_to(R)),p)
  if embedded==p and original.getexif().get(274,1)!=1:
@@ -255,22 +274,47 @@ class Book(BaseDocTemplate):
   return title
  def afterFlowable(self,f):
   if hasattr(f,'runningtitle'):self.current=f.runningtitle
+  if hasattr(f,'partkey'):
+   self.canv.bookmarkPage(f.partkey);self.notify('TOCEntry',(0,f.parttitle,self.page,f.partkey));self.chapter_pages[f.partkey]=self.page
   if hasattr(f,'bookkey'):
    level=getattr(f,'booklevel',0)
    if level==0:self.current=f.booktitle
-   self.canv.bookmarkPage(f.bookkey);self.canv.addOutlineEntry(f.booktitle,f.bookkey,level,False);self.notify('TOCEntry',(level,f.booktitle,self.page,f.bookkey));self.chapter_pages[f.bookkey]=self.page
+   self.canv.bookmarkPage(f.bookkey);self.canv.addOutlineEntry(f.booktitle,f.bookkey,level,False);self.notify('TOCEntry',(level+1,f.booktitle,self.page,f.bookkey));self.chapter_pages[f.bookkey]=self.page
 story=[]
 # First page reserved for the separately reviewed front cover.
 story += [Spacer(1,1),PageBreak()]
 story += [para('Odia Cinema: A Living Screen','chapter'),para('Stories, People and the Places Between','h2'),para('By Ahimanikya Satapathy','body'),para('Reading edition · '+DATE_TEXT,'small')]
 story.append(para(narrative.get('preface',plan['preface']),'body'))
 if narrative.get('viewing_note'):story.extend([para('Viewing and reading','h2'),para(narrative['viewing_note'],'small')])
-story +=[PageBreak(),para('Contents','chapter')]
-toc=TableOfContents();toc.levelStyles=[ParagraphStyle('toc',fontName='Book',fontSize=10.4,leading=14,spaceBefore=3 if PRINT else 5,leftIndent=0,firstLineIndent=0,rightIndent=16,shaping=False),ParagraphStyle('toc-section',fontName='Book',fontSize=9.5,leading=13,spaceBefore=2,leftIndent=14,firstLineIndent=0,rightIndent=16,shaping=False)];story.append(toc)
+contents_heading=para('Contents','chapter')
+contents_heading.runningtitle='Contents'
+toc=TableOfContents();toc.levelStyles=[ParagraphStyle('toc-part',fontName='BookBold',fontSize=10.8,leading=15,spaceBefore=12,spaceAfter=3,keepWithNext=True,leftIndent=0,firstLineIndent=0,rightIndent=16,shaping=False),ParagraphStyle('toc',fontName='Book',fontSize=10.4,leading=14,spaceBefore=3 if PRINT else 5,leftIndent=0,firstLineIndent=0,rightIndent=16,shaping=False),ParagraphStyle('toc-section',fontName='Book',fontSize=9.5,leading=13,spaceBefore=2,leftIndent=14,firstLineIndent=0,rightIndent=16,shaping=False)]
 short={}
 for a in entries.values():
  short.setdefault(a['slug'],re.sub(r'\s+',' ',re.sub(r'[\u0b00-\u0b7f]+','',a['title'])).strip(' |'))
  short[a['slug']]=re.sub(r'^\(([^)]+)\)',r'\1',short[a['slug']])
+def primary_reading_path(paths,entries):
+ primary=[path for path in paths if path.get('primary') is True]
+ if len(primary)>1:raise ValueError('Only one primary reading path is allowed')
+ if not primary:return None
+ path=primary[0];destinations=path.get('chapters',[]);labels=path.get('labels',{})
+ if not 1<=len(destinations)<=10 or len(destinations)!=len(set(destinations)) or any(slug not in entries for slug in destinations):raise ValueError('Primary reading path requires 1–10 unique existing chapters')
+ if not isinstance(labels,dict) or set(labels)-set(destinations) or any(not isinstance(label,str) or not label.strip() for label in labels.values()):raise ValueError('Primary path labels must name its chapter destinations')
+ if any(not isinstance(path.get(key),str) or not path[key].strip() for key in ['title','text']):raise ValueError('Primary reading path requires a title and introduction')
+ return path
+primary_path=primary_reading_path(narrative.get('reading_paths',[]),entries)
+primary_path_height=None
+if primary_path:
+ h=para(primary_path['title'],'chapter');h.bookkey='primary-reading-path';h.booktitle=primary_path['title']
+ primary_flows=[h,para(primary_path['text'],'body')]
+ for destination in primary_path['chapters']:
+  label=primary_path.get('labels',{}).get(destination,short[destination])
+  primary_flows.append(para('['+label+']('+entries[destination]['route']+')','body'))
+ primary_path_height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in primary_flows)
+ if primary_path_height>559:raise ValueError('Primary reading path exceeds one page; shorten its labels or introduction')
+ story.extend([PageBreak()]+primary_flows)
+# Offer the short route before the full catalogue of readings.
+story.extend([PageBreak(),contents_heading,toc])
 suppressed_viewing=[]
 # Exact book-only maintenance prose; dated evidence and source notes remain intact.
 ROUTINE_VIEWING_NOTICES={
@@ -295,6 +339,62 @@ def flatten_flows(items):
  return result
 # Optional line drawings are recorded separately from the original image placements.
 line_art_placements=[]
+# Book-only optional chapter endings. A drawing must fit the current frame;
+# its absence is preferable to moving prose or creating a decorative page.
+book_tail_vignettes=narrative.get('book_tail_vignettes',[])
+if len({x['id'] for x in book_tail_vignettes})!=len(book_tail_vignettes):raise ValueError('Duplicate tail vignette ID')
+if len({x['slug'] for x in book_tail_vignettes})!=len(book_tail_vignettes):raise ValueError('Only one tail vignette per chapter')
+if any(x['slug'] not in entries for x in book_tail_vignettes):raise ValueError('Unknown tail vignette chapter')
+tail_vignette_placements=[]
+class TailVignette(Flowable):
+ def __init__(self,item):
+  super().__init__();self.hAlign='CENTER'
+  if item['slug'] not in entries:raise ValueError('Unknown tail vignette chapter')
+  path=(R/item['image']).resolve();allowed=(R/'kb/media/cinema-series').resolve()
+  if not path.is_relative_to(allowed) or path.suffix.lower()!='.png':raise ValueError('Invalid tail vignette image')
+  if not item.get('alt','').strip():raise ValueError('Tail vignette requires descriptive alt metadata')
+  width=float(item.get('width_pt',144));height=float(item.get('max_height_pt',80))
+  if not 48<=width<=240 or not 24<=height<=120:raise ValueError('Invalid tail vignette dimensions')
+  original=ImageOps.exif_transpose(PILImage.open(path));iw,ih=original.size
+  scale=min(width/iw,height/ih,1);self.iw,self.ih=iw*scale,ih*scale
+  # Book-only300ppi PNG delivery preserves alpha and the unchanged master.
+  pixel_scale=min(1,self.iw*300/72/iw,self.ih*300/72/ih)
+  pixels=(max(1,round(iw*pixel_scale)),max(1,round(ih*pixel_scale)))
+  embedded=path
+  if pixels!=original.size:
+   directory=TMP/'tail-images';directory.mkdir(parents=True,exist_ok=True)
+   embedded=directory/(hashlib.sha256(path.read_bytes()).hexdigest()+f'-{pixels[0]}x{pixels[1]}-300ppi.png')
+   original.resize(pixels,PILImage.Resampling.LANCZOS).save(embedded,format='PNG',optimize=True)
+  self.image=Image(str(embedded),width=self.iw,height=self.ih)
+  self.caption=para(item['caption'],'caption',item['slug']) if item.get('caption') else None
+  self.caption_height=self.caption.wrap(self.iw,559)[1] if self.caption else 0
+  self.required=12+self.ih+(5+self.caption_height if self.caption else 0)+12
+  self.width=self.iw;self.height=0;self.fits=False
+  self.record={'id':item['id'],'slug':item['slug'],'source':item['image'],'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'width_pt':self.iw,'height_pt':self.ih,'alt':item['alt'],'caption':item.get('caption',''),'status':'not_laid_out'}
+  self.record.update(embedded_file=str(embedded.relative_to(R)),embedded_sha256=hashlib.sha256(embedded.read_bytes()).hexdigest(),embedded_pixels=list(pixels),source_pixels=[iw,ih],alpha_preserved='A' in original.getbands(),effective_dpi=pixels[0]*72/self.iw)
+  tail_vignette_placements.append(self.record)
+ def frameAction(self,frame):
+  # Frame calls this before its ordinary h>0 gate. A full frame must consume
+  # an optional drawing as a skip, never postpone it onto a fresh page.
+  available_width=frame._getAvailableWidth()
+  self.wrap(available_width,max(0,frame._y-frame._y1p))
+  if not self.fits:return
+  y=frame._y-self.height
+  self.drawOn(self.canv,frame._x+frame._leftExtraIndent,y,_sW=available_width-self.width)
+  frame._y=y;frame._atTop=0;frame._prevASpace=0
+ def wrap(self,availWidth,availHeight):
+  self.fits=self.width<=availWidth and self.required<=availHeight
+  self.height=self.required if self.fits else 0
+  self.record.update(status='fits_pending_draw' if self.fits else 'skipped_insufficient_space',available_height_pt=availHeight)
+  self.record.pop('page',None)
+  return (self.width,self.height)
+ def draw(self):
+  if not self.fits:return
+  y=12+self.caption_height+(5 if self.caption else 0)
+  self.image.drawOn(self.canv,0,y)
+  if self.caption:self.caption.drawOn(self.canv,0,12)
+  self.record.update(status='placed',page=self.canv.getPageNumber())
+
 def line_art_markers(body,slug):
  for item in narrative.get('line_art',[]):
   if item['slug']!=slug:continue
@@ -321,11 +421,46 @@ def append_line_art(ident,slug):
  if item.get('caption'):
   caption=LongTable([[para(item['caption'],'caption',slug)]],colWidths=[w],hAlign='CENTER')
   caption.setStyle(TableStyle([('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),0)]));flow.append(caption)
- flow.append(Spacer(1,12));story.extend([CondPageBreak(h+85),KeepTogether(flow)])
+ flow.append(Spacer(1,12))
+ keep_previous=item.get('keep_previous_paragraphs',0)
+ if keep_previous:
+  if item['placement']!='after_section' or type(keep_previous) is not int or not 1<=keep_previous<=2:raise ValueError('Invalid closing-art paragraph grouping')
+  previous=story[-keep_previous:]
+  if len(previous)!=keep_previous or not all(isinstance(f,Paragraph) and f.style.name in {'body','body-tight','body-economics'} for f in previous):raise ValueError('Closing-art paragraph boundary changed')
+  grouped=previous+flow
+  height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in grouped)
+  if height>300:raise ValueError('Closing-art group is too large')
+  del story[-keep_previous:]
+  story.append(KeepTogether(grouped))
+ else:story.extend([CondPageBreak(h+85),KeepTogether(flow)])
  line_art_placements.append({'id':ident,'slug':slug,'source':item['image'],'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'width_pt':w,'height_pt':h,'alt':item.get('alt',''),'caption':item.get('caption','')})
+
+book_section_omissions=[]
+def omit_book_sections(body,slug,omissions):
+ records=[]
+ selected=[item for item in omissions if item['slug']==slug]
+ if len({item['heading'] for item in selected})!=len(selected):raise ValueError('Duplicate book section omission: '+slug)
+ for item in selected:
+  matches=list(re.finditer(r'^(#{1,6}) '+re.escape(item['heading'])+r'[ \t]*$',body,re.M))
+  if len(matches)!=1:raise ValueError('Book section omission must match exactly once: '+slug+' / '+item['heading'])
+  match=matches[0];level=len(match[1]);start=match.start()
+  following=re.search(r'^#{1,'+str(level)+r'}[ \t]+',body[match.end():],re.M)
+  end=match.end()+following.start() if following else len(body)
+  anchor=item.get('preceding_anchor')
+  if anchor:
+   before=re.search(r'<span id="'+re.escape(anchor)+r'"></span>\s*$',body[:start])
+   if not before:raise ValueError('Book section omission anchor missing: '+slug)
+   start=before.start()
+  removed=body[start:end]
+  if re.search(r'\[\^[^]]+\]',removed):raise ValueError('Book section omission contains source notes: '+slug)
+  records.append({'slug':slug,'heading':item['heading'],'removed_text':removed,'removed_sha256':hashlib.sha256(removed.encode()).hexdigest(),'reason':item.get('reason','')})
+  body=body[:start]+body[end:]
+ return body,records
 
 def render_body(body,slug,companion=False):
  p=R/entries[slug]['source'];a=entries[slug]
+ body,omitted=omit_book_sections(body,slug,narrative.get('book_section_omissions',[]))
+ book_section_omissions.extend(omitted)
  for omission in narrative.get('book_navigation_omissions',[]):
   if omission['slug']==slug:
    if body.count(omission['text'])!=1:raise ValueError('Book navigation omission no longer matches: '+slug)
@@ -399,7 +534,9 @@ def render_body(body,slug,companion=False):
    suppressed_viewing.append({'slug':slug,'text':text,'replacement':replacement})
    if not replacement:continue
    text=replacement
-  story.append(para(text,'body',slug));paragraphs+=1
+  paragraph=para(text,'body',slug)
+  # Keep the first thought intact beneath Nirad's approved large portrait.
+  story.append(KeepTogether([paragraph]) if slug=='nirad-mohapatra' and paragraphs==0 else paragraph);paragraphs+=1
   if slug=='lavanya-preeti' and len(story)>1 and isinstance(story[-2],Paragraph) and story[-2].getPlainText()=='Find the film in the catalogue':
    start=len(story)-2
    for j in range(start-1,max(-1,start-7),-1):
@@ -426,7 +563,7 @@ def render_body(body,slug,companion=False):
   watch_block=[]
   for item in story[watch_start:]:
    watch_block.extend(item._content if isinstance(item,KeepTogether) else [item])
-  if len(watch_block)<=5 and isinstance(story[watch_start-1],Paragraph):
+  if slug not in {'odia-ott','nandita-das'} and len(watch_block)<=5 and isinstance(story[watch_start-1],Paragraph):
    watch_start-=1;watch_block.insert(0,story[watch_start])
    if isinstance(story[watch_start-1],Paragraph) and story[watch_start-1].style.name in ['h2','h3']:
     watch_start-=1;watch_block.insert(0,story[watch_start])
@@ -458,7 +595,9 @@ for index,slug in enumerate(order,1):
  a=entries[slug];p=R/a['source'];s=chapter_source(slug);body=re.sub(r'^---\n.*?\n---\n','',s,count=1,flags=re.S);body=re.sub(r'^\[\^[^]]+\]:.*$','',body,flags=re.M)
  body=body.split('## Further reading',1)[0]
  if slug=='odia-cinema' and narrative.get('overview'):body=narrative['overview']['opening_markdown']
- story.append(PageBreak());pn,pt=partmap[slug];chapter_start=len(story);story.append(para(f'PART {pn} · {pt.upper()}','part'));h=para(f'{index:02}  {a["title"]}','chapter');h.bookkey='ch-'+slug;h.booktitle=f'{index:02}  {short[slug]}';story.append(h)
+ story.append(PageBreak());pn,pt=partmap[slug];chapter_start=len(story);part_label=para(f'PART {pn} · {pt.upper()}','part')
+ if slug==plan['parts'][pn-1]['chapters'][0]:part_label.partkey=f'part-{pn}';part_label.parttitle=f'Part {pn} · {pt}'
+ story.append(part_label);h=para(f'{index:02}  {a["title"]}','chapter');h.bookkey='ch-'+slug;h.booktitle=f'{index:02}  {short[slug]}';story.append(h)
  if slug==plan['parts'][pn-1]['chapters'][0] and narrative.get('part_intros',{}).get(pt):story.append(para(narrative['part_intros'][pt],'bridge'))
  cap=a.get('hero',{}).get('caption') or 'Illustration.'
  credit=a.get('hero',{}).get('credit',{})
@@ -482,6 +621,16 @@ for index,slug in enumerate(order,1):
    closing.insert(0,story.pop())
    if slug=='aadim-vichar' and story and isinstance(story[-1],Paragraph):closing.insert(0,story.pop())
   story.append(KeepTogether(closing))
+ # Keep the OTT closing thought with its short access list, avoiding a links-only leaf.
+ if slug=='odia-ott':
+  for j in range(len(story)-1,chapter_start-1,-1):
+   if isinstance(story[j],Paragraph) and story[j].getPlainText()=='Reach must become sustainable work':
+    candidate=flatten_flows(story[j:])
+    height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in candidate)
+    print('OTT closing group height:',height,'paragraphs:',len(candidate),flush=True)
+    if all(isinstance(f,Paragraph) for f in candidate) and height<=480:
+     story[j:]=[KeepTogether(candidate)]
+    break
  # For these three short endings, prefer a coherent section over a detached tail.
  # Include an existing closing bridge, but never bind images or more than 300pt.
  if slug in TAIL_SPACING_CHAPTERS:
@@ -501,56 +650,100 @@ for index,slug in enumerate(order,1):
   if candidate and all(isinstance(f,Paragraph) for f in candidate):
    height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in candidate)
    if height<=300:story[start:end]=[KeepTogether(candidate)]
+ for vignette in book_tail_vignettes:
+  if vignette['slug']==slug:story.append(TailVignette(vignette))
  chapters.append({'slug':slug,'source':a['source'],'source_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'book_body_sha256':hashlib.sha256(body.encode()).hexdigest(),'adaptation':'shortened opening; remaining survey in companion appendix' if slug=='odia-cinema' and narrative.get('overview') else 'canonical narrative with separately recorded reading aids','paragraphs':paragraphs,'notes':len(notes[slug])})
 if narrative.get('overview',{}).get('companion_markdown'):
  story.append(PageBreak());h=para('Companion survey: the wider screen','chapter');h.bookkey='overview-companion';h.booktitle='Companion survey: the wider screen';story.append(h)
  story.append(para(f'The detailed survey continues here. Its numbered sources belong to Chapter {order.index("odia-cinema")+1}.','small'))
  render_body(narrative['overview']['companion_markdown'],'odia-cinema',True)
+def guide_refs(item):
+ assert item['slug'] in entries, 'Unknown guide reading'
+ refs=item.get('source_refs',[{'slug':item['slug'],'source_note_id':item.get('source_note_id')}])
+ assert isinstance(refs,list) and refs, 'Guide entry needs source references'
+ seen=set()
+ for ref in refs:
+  pair=(ref['slug'],ref['source_note_id'])
+  assert pair not in seen, 'Duplicate guide source reference'
+  assert pair[0] in notes and pair[1] in notes[pair[0]], 'Unknown guide source note'
+  seen.add(pair)
+ return refs
+
+def guide_entry(item,heading):
+ references=[]
+ for ref in guide_refs(item):
+  owner,key=ref['slug'],ref['source_note_id']
+  references.append(f'<link href="#note-{owner}-{key}" color="{LINK_COLOR}">Ch. {order.index(owner)+1}, note {numbers[owner][key]}</link>')
+ destination=item['slug']
+ heading_link=f'<link href="#ch-{destination}" color="{LINK_COLOR}">'+inline(heading,destination)+'</link>'
+ page_link=(f' <link href="#ch-{destination}" color="{LINK_COLOR}">Reading p. {page_map.get("ch-"+destination,"000")}</link>.' if PRINT else '')
+ flows=[Paragraph(heading_link,styles['h3']),Paragraph(inline(item['text'],destination)+' '+ '; '.join(references)+'.'+page_link,styles['body'])]
+ height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in flows)
+ if height<=100:story.append(KeepTogether(flows))
+ else:story.extend(flows)
+
+for item in narrative.get('people_guide',[])+narrative.get('timeline',[]):guide_refs(item)
+years=[item['sort_year'] for item in narrative.get('timeline',[])]
+assert all(isinstance(year,(int,float)) and not isinstance(year,bool) for year in years), 'Timeline sort_year must be numeric'
+assert years==sorted(years), 'Timeline must be chronological by sort_year'
 if narrative.get('people_guide') or narrative.get('timeline'):
  story.append(PageBreak());h=para('People, work and selected milestones','chapter');h.bookkey='reference-guide';h.booktitle='People, work and selected milestones';story.append(h)
- if narrative.get('reading_paths'):
+ appendix_paths=[path for path in narrative.get('reading_paths',[]) if path.get('primary') is not True]
+ if appendix_paths:
   story.append(para('Choose a thread','h2'))
-  for path in narrative['reading_paths']:
+  for path in appendix_paths:
    story.append(para(path['title'],'h3'))
    story.append(para(path['text'],'body'))
    for destination in path['chapters']:
     story.append(para('['+short[destination]+']('+entries[destination]['route']+')','body'))
+ if narrative.get('reference_guide_intro'):story.append(para(narrative['reference_guide_intro'],'body'))
  if narrative.get('people_guide'):
   story.append(para('People and their work','h2'))
+  group=None
   for item in narrative['people_guide']:
-   slug=item['slug'];key=item['source_note_id'];assert key in notes[slug]
-   story.append(para(item['label']+' · '+item['relationship'],'h3'))
-   story.append(para(item['text']+f" Source note[^{key}] in Chapter {order.index(slug)+1}. "+f"[Read the chapter]({entries[slug]['route']})",'body',slug))
+   if item.get('group') and item['group']!=group:
+    group=item['group'];story.append(para(group,'h2'))
+   guide_entry(item,item['label']+' · '+item['relationship'])
  if narrative.get('timeline'):
+  milestone_start=len(story)
   story.append(para('Selected milestones','h2'));story.append(para('Dates mark different kinds of events; releases, awards, institutions and restorations are identified separately.','small'))
-  for item in narrative['timeline']:
-   slug=item['slug'];key=item['source_note_id'];assert key in notes[slug]
-   story.append(para(str(item['date'])+' · '+item['kind'].replace('-',' ').capitalize(),'h3'))
-   story.append(para(item['text']+f" Source note[^{key}] in Chapter {order.index(slug)+1}. "+f"[Read the chapter]({entries[slug]['route']})",'body',slug))
+  for index,item in enumerate(narrative['timeline']):
+   guide_entry(item,str(item['date'])+' · '+item['kind'].replace('-',' ').capitalize())
+   if index==0:
+    story[milestone_start:]=[KeepTogether(flatten_flows(story[milestone_start:]))]
 # Linked chapter-grouped endnotes
 story.append(PageBreak());h=para('Sources and reading notes','chapter');h.bookkey='sources';h.booktitle='Sources and reading notes';story.append(h)
-story.append(para('Numbered notes give sources and image credits. Return links lead to the cited passages.','small'))
+story.append(para('Numbered notes give sources and image credits, grouped by chapter. Full source links accompany the articles at projectodisha.org/cinema.' if PRINT else 'Numbered notes give sources and image credits. Return links lead to the cited passages.','small'))
 for index,slug in enumerate(order,1):
  if not notes[slug]:continue
- story.append(para(f'{index:02}  {short[slug]}','h2'))
+ story.append(para(f'{index:02}  {short[slug]}','source-heading'))
  for key,note in notes[slug].items():
   n=numbers[slug][key];return_dest=f'ref-{slug}-{key}-1' if refseq[slug].get(key) else 'ch-'+slug
-  text=f'<a name="note-{slug}-{key}"/><b>{n}.</b> '+inline(note,slug,False)+f' <link href="#{return_dest}" color="#8c3c2e">Return</link>'
+  text=f'<a name="note-{slug}-{key}"/><b>{n}.</b> '+inline(note,slug,False,print_address=key.startswith('cinema-image-'))
+  if not PRINT:text+=f' <link href="#{return_dest}" color="#8c3c2e">Return</link>'
   story.append(Paragraph(text,styles['note']))
 
 if PRINT:
- story.append(PageBreak());h=para('Printed source and viewing directory','chapter');h.bookkey='printed-sources';h.booktitle='Printed source and viewing directory';story.append(h)
- story.append(para('References marked S identify the source or viewing address below. Access qualifications remain beside the relevant chapter links. Type the full address; availability may change.','small'))
- for url,n in url_directory.items():story.append(Paragraph('<b>S'+str(n)+'.</b> '+html.escape(quote(url,safe=':/?&=%#')),styles['small']))
+ story.append(PageBreak());h=para('Selected links','chapter');h.bookkey='printed-sources';h.booktitle='Selected links';story.append(h)
+ story.append(para('S numbers identify addresses cited in the text and image credits.','small'))
+ # A hanging label column cannot break away from the start of its address.
+ for url,n in url_directory.items():
+  source_row=LongTable([[Paragraph('<b>S'+str(n)+'.</b>',styles['source-address']),Paragraph(html.escape(quote(url,safe=':/?&=%#')),styles['source-address'])]],colWidths=[36,WIDTH-36],hAlign='LEFT')
+  source_row.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(0,-1),6),('RIGHTPADDING',(1,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),3)]))
+  story.append(source_row)
 story.extend([Spacer(1,20),CondPageBreak(130)]);h=para('Edition note','chapter');h.bookkey='credits';h.booktitle='Edition note';story.append(h)
 story.append(para('Cover illustration: a symbolic reading of the household world associated with Maya Miriga; not a film still. Cover artwork and design are credited to Project Odisha.','small'))
 for p in ['Documentary photographs retain their creators, sources and licences in the numbered notes. Original line drawings accompany selected passages.',f'{len(order)} readings in {len(plan["parts"])} parts. The longer overview appears in the companion survey. Suggestions and corrections are welcome through [Project Odisha](https://projectodisha.org/cinema/).','Typography: Source Serif 4 and Noto Serif Oriya, licensed under the SIL Open Font License.','[Editorial process](https://projectodisha.org/about/editorial-process/).',f'Ahimanikya Satapathy · Project Odisha · {DATE_TEXT}.']:
- story.append(para(p,'small'))
+ if PRINT and '[Project Odisha](https://projectodisha.org/cinema/)' in p:
+  p=p.replace('[Project Odisha](https://projectodisha.org/cinema/)','[projectodisha.org/cinema/](https://projectodisha.org/cinema/)')
+  story.append(Paragraph(inline(p,print_address=False),styles['small']))
+ else:story.append(para(p,'small'))
 if PRINT:story.append(para('Printing: 6 x 9 inch pages, no bleed. Print at 100% on 6 x 9 inch stock, or ask a print shop to impose and trim to this size. For duplex printing use the long-edge setting. Mirrored inner margins allow binding space. This reading edition is not a printer-specific press-ready, CMYK or PDF/X file. The final blank verso, if present, keeps the page count even.','small'))
 doc=Book(str(OUT),pagesize=(432,648),title='Odia Cinema: A Living Screen',author='Ahimanikya Satapathy',subject='Stories, People and the Places Between',allowSplitting=1)
 if len(line_art_placements)!=len(narrative.get('line_art',[])):raise ValueError('Unresolved line-art placements; check section headings and article slugs')
 if any(count!=1 for count in section_matches.values()):raise ValueError('Discovery sections must appear exactly once: '+repr(section_matches))
 doc.multiBuild(story)
+if sum(k.startswith('part-') for k in doc.chapter_pages)!=len(plan['parts']):raise ValueError('Missing part contents entries')
 (TMP/'page-map.json').write_text(json.dumps(doc.chapter_pages,indent=2))
 if args.layout_only:
  print(json.dumps({'pages':doc.page,'page_map':doc.chapter_pages},indent=2));sys.exit(0)
@@ -580,5 +773,5 @@ for offset in range(0,len(thumbs),12):
   x=12+(k%4)*234;y=12+(k//4)*370;sheet.paste(im,(x,y));draw.text((x,y+329),f'Page {offset+k+1}',fill='black')
  sheet.save(TMP/f'contact-{offset//12+1:02}.jpg',quality=90)
 for chapter in chapters:chapter['notes']=len(notes[chapter['slug']])
-record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
+record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'print_directory_mode':'body-and-image-credit-links' if PRINT else 'not-applicable','print_directory_policy':'Bibliographic notes retain full clickable URLs without duplicate S-address entries; body/viewing links and image source/licence links retain printed addresses.','date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'tail_vignette_placements':tail_vignette_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'book_section_omissions':book_section_omissions,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'primary_path':{'destination':'primary-reading-path','title':primary_path['title'],'slugs':primary_path['chapters'],'measured_height_pt':primary_path_height,'page':doc.chapter_pages.get('primary-reading-path')} if primary_path else None,'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
 (TMP/('book-build-'+EDITION_KEY+'.json')).write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:record[k] for k in ['pages','notes','citation_pairs','chapter_pages']},indent=2))

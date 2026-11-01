@@ -12,7 +12,7 @@ test('commercial comparison preserves five sourced comparisons, scoped headers a
  assert.equal((table.match(/<th scope="row">/g)||[]).length,5);
  for(const film of ['Bou Buttu Bhuta','Jadi','DAMaN','Karma','Pabaar'])assert.ok(table.includes(film),film);
  for(const [,target]of table.matchAll(/href="#([^"]+)"/g))assert.ok(html.includes(`id="${target}"`),target);
- assert.ok(!table.includes('Mantra Muugdha'));assert.match(html,/Mantra Muugdha/);assert.match(html.replace(/<[^>]+>/g,''),/outside this comparison/);
+ assert.doesNotMatch(html,/Mantra Muugdha|commercial-mantra/); // Rejected research leads stay outside the reader-facing article.
 });
 test('comparison enhancement leaves other cinema articles unchanged',()=>{
  for(const e of cinema.articles.filter(e=>e.slug!=='commercial-successes'))assert.ok(!cinemaArticle(e).fullHTML.includes('commercial-comparison-caption'),e.slug);

@@ -1,0 +1,79 @@
+{
+  "status": "complete_pending_independent_browser_review",
+  "changed_files": [
+    "projects/site/src/lib/cinema-article.mjs",
+    "projects/site/src/components/CinemaReading.astro",
+    "projects/site/src/components/ArticleReadingPath.astro",
+    "projects/site/src/pages/cinema/index.astro",
+    "projects/site/src/pages/cinema/reading-guide.astro",
+    "projects/site/tests/cinema-ux.test.mjs",
+    "projects/site/tests/cinema-release.test.mjs"
+  ],
+  "changes": {
+    "TYPE01": "Added explicit known Odia title/quotation phrases; safe escaped label helper used for generated cinema cards, sequence and guide links. Sambalpuri Bhukha remains unlabelled as Odia. No blanket script inference.",
+    "TYPE02": "Cinema H1 Odia spans inherit unitless heading line height; body language spacing remains1.9. Browser glyph-clearance and mobile geometry check pending.",
+    "reading_arrows": "Only final plain-text word and decorative arrow are joined in nowrap span; preceding title can wrap. Shared reading-path fallback untouched unless trusted cinema titleHtml supplied.",
+    "image_representation": "Only Uttam and Aparajita cards receive concise Imagined rehearsal / Imagined script discussion labels, through optional imageNote property. Original images/credits unchanged.",
+    "caption_test": "Accepts explicit illustration or imagined wording, preserving required conceptual-image distinction."
+  },
+  "validation": {
+    "focused_tests": 28,
+    "failed": 0,
+    "log": "outputs/cinema-ending-art-expanded-20261101/focused-tests.log",
+    "command": "Node24 node --test projects/site/tests/cinema-ux.test.mjs projects/site/tests/cinema-release.test.mjs",
+    "diff_check": "PASS",
+    "full_build_run": true,
+    "browser_review": "pending root",
+    "passed": 28,
+    "build_pages": 570,
+    "build_exit_code": 0,
+    "build_log": "outputs/cinema-ending-art-expanded-20261101/site-build.log",
+    "disclosure": {
+      "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist",
+      "pages": 1055,
+      "violations": []
+    },
+    "bhukha_render": "Clean20261101 hero bound in built page; all8 declared JPEG/WebP derivatives present.",
+    "hub_render": "50 safe final-word arrow wrappers; exactly2 imagined actor-card labels.",
+    "integration_note": "Root aligned coast Bhukha allowlist; final rerun28/28 PASS."
+  },
+  "guidance": {
+    "search": "improve text wrapping",
+    "retrieved": [
+      "typography",
+      "improve-text-layout-and-legibility"
+    ],
+    "path": "/tmp/cinema-expanded-typography.txt",
+    "applied_rule": "Use unitless numbers for `line-height` (e.g., `1.5`) to ensure relative scaling during font-size inheritance.",
+    "decision": "Inherit the existing unitless H1 rhythm for inline Odia. Preserve current balanced headings; do not apply pretty/balance globally or change body copy for arrow attachment. Reused accessibility guidance for language and accessible image context."
+  },
+  "file_hashes": {
+    "projects/site/src/lib/cinema-article.mjs": "719493392e2c7bac5457d1bba6e8c8873467805076cea1012a2b11041f3f615a",
+    "projects/site/src/components/CinemaReading.astro": "8d4217766d17f6d1a54a29cb0c8f1068df72170b31b2699ac9435dd4a41c9eac",
+    "projects/site/src/components/ArticleReadingPath.astro": "d250769d5782d3f2543a0be6ce2c4469f0b3366b19ee0191acbfe5a74f154bcf",
+    "projects/site/src/pages/cinema/index.astro": "5469383bb2cfc485a5c83ec4e0ea708dcc9a4ff9143f4cd7188344e716825c58",
+    "projects/site/src/pages/cinema/reading-guide.astro": "a46b32585b524901f96764d4685115d4e753d9c9b1fc1f8d17703d5d60a2da87",
+    "projects/site/tests/cinema-ux.test.mjs": "21291cc036e6ea8309c5b62ac48817a10e982c1c17589f626d540c6f2ea11562",
+    "projects/site/tests/cinema-release.test.mjs": "9c867bc5fd0f79e45a0c10d67b1372c7194c166ea72c6db3ede6953e2cc2fc5b"
+  },
+  "preserved": [
+    "canonical prose",
+    "cinema.json",
+    "narrative config",
+    "PDF builder/PDFs",
+    "original images and cropping",
+    "noncinema shared-component default behavior"
+  ],
+  "scope_released_for_integration": true,
+  "heading_specificity_followup": {
+    "cause": "Original selector tied global language rule at0,3,1; actual DOM ancestry correct.",
+    "new_selector": "body.utk .cinema-reader .article-reading h1 [lang=or]",
+    "specificity": "0,4,2",
+    "built_css": "/_astro/CinemaReading.yEFXVFdE.css",
+    "tests_passed": 28,
+    "build_pages": 570,
+    "build_exit": 0,
+    "browser_check": "pending root fresh navigation",
+    "server_8772": "PID42352 cwd correct checkout; ps and localhost fetch unavailable under sandbox; no served-byte equivalence claim."
+  }
+}

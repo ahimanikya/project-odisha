@@ -19,7 +19,7 @@ By Ahimanikya Satapathy
 
 A cinema screening asks viewers to enter a theatre. A television serial asks them to return to a story. Its characters can become familiar through repetition: a conversation continues tomorrow, a conflict develops over weeks, and a household’s ordinary routines become the setting for drama.
 
-For Odia storytelling, television added a different relationship between performers and audiences. It brought pictures into the domestic space already occupied by radio, and created a continuing demand for programmes. Its history belongs beside [AIR Cuttack](air-cuttack.md) and [Odia cinema](odia-cinema.md), with room for their shared writers, performers, music and audiences. They continued to share artists and audiences.
+For Odia storytelling, television added a different relationship between performers and audiences. It brought pictures into the domestic space already occupied by radio, and created a continuing demand for programmes. Its history belongs beside [AIR Cuttack](air-cuttack.md) and [Odia cinema](odia-cinema.md), with room for their shared writers, performers, music and audiences.
 
 ## A film actor on the small screen
 
@@ -88,8 +88,6 @@ The same ZEE5 catalogue advertises episodes of *Kemiti Kahibi Kaha* before their
 
 The [Odia OTT journey](odia-ott.md) follows this extension of the schedule into a catalogue, alongside acquired films and work commissioned for streaming.
 
-Television’s continuing importance is not only a question of who owns a channel. It lies in the programmes people can find, the languages and places they recognise, and the conditions under which the next episode is created.
-
 ## Watch and explore
 
 Programme links were checked on 25 October 2026; the producer catalogue on 26 October 2026. Playback and current account or regional conditions were not tested.
@@ -101,24 +99,24 @@ Programme links were checked on 25 October 2026; the producer catalogue on 26 Oc
 
 ## Footnotes & Sources
 
-[^early]: Prasar Bharati, [Annual Report 2010–11](https://prasarbharati.gov.in/wp-content/uploads/annual_report/AnnualReport-English-2010-11.pdf), printed p.118, DD Bhubneshwar history. Dates distinguish production facilities, transmission and later satellite service.
-[^private]: Mrinal Chatterjee, [Television in Odisha](https://www.osou.ac.in/eresources/television-in-odisha.pdf), Odisha State Open University hosted historical resource, pp.1–4. Its ETV dates differ between text and table; only the early-2000s period is used here. Historical account, not a present-day market census.
+[^early]: Prasar Bharati, [Annual Report 2010–11](https://prasarbharati.gov.in/wp-content/uploads/annual_report/AnnualReport-English-2010-11.pdf), printed p.118, DD Bhubneshwar history.
+[^private]: Mrinal Chatterjee, [Television in Odisha](https://www.osou.ac.in/eresources/television-in-odisha.pdf), Odisha State Open University hosted historical resource, pp.1–4. ETV dates conflict between text/table; early-2000s period only.
 [^otv]: Odisha Television Network, [institutional history](https://odishatv.org/), inspected 25 October 2026. Owner’s account of 1997 cable beginnings and 2006 satellite conversion.
 [^zee]: ZEE, [2015–16 annual report financial notes](https://www.zee.com/investor-relations/html-annual-report-2016/pdf/Notes_Standalone.pdf), note 35, printed p.130. Acquisition effective 4 December 2015.
 
-[^dd]: Prasar Bharati, [DD Odia](https://prasarbharati.gov.in/dd-oriya/), institutional history and linked programme catalogue, inspected 25 October 2026. Current channel history distinguishes the 1993 service from the 1994 name change. Catalogue links are not evidence of original broadcast dates or a claim of full programme viewing.
+[^dd]: Prasar Bharati, [DD Odia](https://prasarbharati.gov.in/dd-oriya/), institutional history and linked programme catalogue, inspected 25 October 2026. 1993 service and 1994 name change; catalogue does not establish original broadcast dates.
 [^work]: Jyoti Prakash Sahoo, [From Spotlight to Struggles](https://www.mycitylinks.in/from-spotlight-to-struggles-exploring-the-challenges-of-the-odia-serial-industry), MyCityLinks, 8 January 2025. Interviews with television practitioners.
-[^kemiti]: ZEE5, [Kemiti Kahibi Kaha](https://www.zee5.com/tv-shows/details/kemiti-kahibi-kaha/0-6-3141), programme synopsis, cast and episode catalogue, inspected 25 October 2026. Platform descriptions establish the listed offering, not independent reception or revenue.
+[^kemiti]: ZEE5, [Kemiti Kahibi Kaha](https://www.zee5.com/tv-shows/details/kemiti-kahibi-kaha/0-6-3141), programme synopsis, cast and episode catalogue, inspected 25 October 2026.
 
 [^live-team]: Fakira Mohan Nahak, [Live Broadcast, Rath Yatra and ETV](https://odisha.plus/2022/02/live-broadcast-rathyatra-and-etv/), OdishaPlus, 24 February 2022. Participant recollection; engineer Akshay Mohanty is not identified as composer Akshaya Mohanty.
 
-[^manmohan-television]: [Exit of a cinematic giant](https://www.orissapost.com/exit-of-a-cinematic-giant/). Bijay Mandal, OrissaPOST, 28 January 2020; retrospective work list. Its years are not independently established broadcast dates.
+[^manmohan-television]: [Exit of a cinematic giant](https://www.orissapost.com/exit-of-a-cinematic-giant/). Bijay Mandal, OrissaPOST, 28 January 2020; retrospective work list. Broadcast dates unverified.
 
-[^child-idmt]: IDMT, Utkal Cartoon World catalogue. Producer claims; priority and feature-release status not independently established. [Read source](https://idmt.in/category/idmt-in-utkal-cartoon-world/)
-[^child-ganesha]: The New Indian Express, “Ganesha comes alive through animation.” URL dated 2010; displayed update 2012. Report of planned broadcasting, not independently checked transmission log. [Read source](https://www.newindianexpress.com/states/odisha/2010/Sep/02/ganesha-comes-alive-through-animation-183512.html)
+[^child-idmt]: IDMT, Utkal Cartoon World catalogue. Producer catalogue; priority/release status unverified. [Read source](https://idmt.in/category/idmt-in-utkal-cartoon-world/)
+[^child-ganesha]: The New Indian Express, “Ganesha comes alive through animation.” URL dated 2010; displayed update 2012. Planned broadcast, transmission unverified. [Read source](https://www.newindianexpress.com/states/odisha/2010/Sep/02/ganesha-comes-alive-through-animation-183512.html)
 [^child-ele-pogo]: ELE Animations, “Pogo’s new show Jay Jagannath celebrates friendship,” 8 May 2024. Announcement lists Hindi, Tamil, Telugu, Kannada, Marathi and Malayalam. [Read source](https://eleanimations.com/Pogo-new-show-Jay-Jagannath.php)
-[^child-ele-rights]: ELE Animations, Toonz partnership announcement, 18 February 2023. Announced rights arrangement, not evidence of realised earnings. [Read source](https://eleanimations.com/Toonz-Media-Group-and-Ele-Animations.php)
-[^child-mahaprabhu]: Film Information, Mahaprabhu Jagannath review, 4 September 2026. Release/credits used; critical verdict not presented as consensus. [Read source](https://filminformation.com/reviews/mahaprabhu-jagannath-animation-review-4-september-2026/)
+[^child-ele-rights]: ELE Animations, Toonz partnership announcement, 18 February 2023. Rights announcement, not earnings. [Read source](https://eleanimations.com/Toonz-Media-Group-and-Ele-Animations.php)
+[^child-mahaprabhu]: Film Information, Mahaprabhu Jagannath review, 4 September 2026. Release/credit review. [Read source](https://filminformation.com/reviews/mahaprabhu-jagannath-animation-review-4-september-2026/)
 [^child-mahaprabhu-languages]: ELE Animations public company feed, indexed 26 October 2026. Company language announcement. [Read source](https://in.linkedin.com/company/ele-animations)
 
 ## Further reading

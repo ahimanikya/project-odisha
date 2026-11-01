@@ -24,21 +24,17 @@ For **ଚିଲିକା ତୀରେ (Chilika Tire)**, Mohanty recalled living 
 
 His *Chilika Tire* co-star **Tandra Ray** described another kind of learning. In a joint interview with Mohanty, she recalled learning Odia from senior colleagues and reading Odia novels. She had signed *Chilika Tire* before *Punar Milan*, although the latter reached audiences first.[^bijay-twosome2012]
 
-Their accounts bring language and reading close to performance. A novel can offer an actor company beyond the screenplay; a colleague can help with the words that must eventually be spoken before a camera. The [literature and cinema reading](../culture/cinema-series/literature-and-screen.md) follows those connections through writers and adaptations.
+Their accounts bring language and reading close to performance. The [literature and cinema reading](../culture/cinema-series/literature-and-screen.md) follows those connections through writers and adaptations.
 
 ## A classroom could become a stage
 
 Mohanty taught at Utkal Sangeet Mahavidyalaya. Theatre director **Subodh Pattnaik**, remembering his teacher, singled out his work with props in *Madhyanha Ra Ranga*. He also recalled a production that used the entire college building as its performance space, and learning while assisting Mohanty on *Bhuli Huena*.[^subodh-memory]
-
-A prop asks for a practical decision: where it belongs, how it is handled, what it allows a performer to do. Using a building for performance asks people to reconsider a place they already know. These are tangible parts of theatre learning, carried through work as well as explanation.
 
 Other students remembered different aspects of his care. **Ashrumochan Mohanty** recalled being given tasks when his teacher was away filming. **Mihir Swain** remembered encouragement that recognised individual students’ strengths.[^student-panel2020] Their accounts give the classroom a continuing life beside the screen career.
 
 ## Words for another company
 
 Mohanty also wrote for theatre. Manana Natya Sanstha’s productions of *Amari Bhagaban* in 1990, 2004 and 2006 credit him as writer and **Manoj Pattanayak** as director.[^manana-productions]
-
-The returning title brings another group of collaborators into his story. An actor’s work can remain in a film; a written play can be taken up again by a company, with people gathering to give its words a new performance.
 
 The [cinema overview](../culture/odia-cinema.md) places Mohanty among the performers audiences returned to. Here, the memories of preparation and teaching let us accompany him a little further. [Learning Cinema Together](../culture/cinema-series/learning-cinema-together.md) continues that conversation through introductions, shared work and the attention one practitioner gives another.
 

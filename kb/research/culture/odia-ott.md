@@ -72,21 +72,21 @@ Check the provider’s current catalogue, location and subscription terms.
 
 ## Footnotes & Sources
 
-[^tarang]: Basil Kannagi Arasu, [Tarang Plus launch report](https://onlytech.com/tarang-plus-first-odia-ott-otv/), OnlyTech, 4 November 2019. Reports the 27 October launch and its initial offering.
+[^tarang]: Basil Kannagi Arasu, [Tarang Plus launch report](https://onlytech.com/tarang-plus-first-odia-ott-otv/), OnlyTech, 4 November 2019. Launch reported as 27 October.
 
-[^chumbak]: Jyoti Prakash Sahoo, [Tarang Plus and Chumbak](https://www.mycitylinks.in/tarang-plus-first-odia-ott-platform-to-break-stereotypes), MyCityLinks, 4 March 2020. Maker and actor interviews about production, not audience-reception evidence.
+[^chumbak]: Jyoti Prakash Sahoo, [Tarang Plus and Chumbak](https://www.mycitylinks.in/tarang-plus-first-odia-ott-platform-to-break-stereotypes), MyCityLinks, 4 March 2020. Maker and actor interviews.
 
-[^aao]: Choudhury Rajeshwari, [Interview with Kaushik Das](https://www.mediainfoline.com/interview/interview-of-kaushik-das-ceo-founder-aaonxt), Media Infoline, 15 February 2023. Founder’s chronology and operational account; announced future releases, “first” claims and subscriber totals are not treated as audited outcomes.
+[^aao]: Choudhury Rajeshwari, [Interview with Kaushik Das](https://www.mediainfoline.com/interview/interview-of-kaushik-das-ceo-founder-aaonxt), Media Infoline, 15 February 2023. Founder’s account.
 
-[^kanccha]: [Individual creator can challenge large organisations, says Rath](https://www.orissapost.com/individual-creator-can-challenge-large-organisations-says-rath/), OrissaPOST, 21 March 2025. Co-founder’s account of the platform and its catalogue; not an independent ranking or revenue audit.
+[^kanccha]: [Individual creator can challenge large organisations, says Rath](https://www.orissapost.com/individual-creator-can-challenge-large-organisations-says-rath/), OrissaPOST, 21 March 2025. Co-founder’s account.
 
-[^diaspora]: Lata Jha, [Overseas markets emerge as big opportunity for local streaming platforms](https://www.livemint.com/industry/media/overseas-markets-big-opportunity-local-streaming-platforms-regional-stories-zee5-ott-diaspora-hoichoi-11743406476365.html), Mint, 1 April 2025. AAO NXT founder’s diaspora comments; broader regional-platform percentages cannot be assigned to Odia cinema.
+[^diaspora]: Lata Jha, [Overseas markets emerge as big opportunity for local streaming platforms](https://www.livemint.com/industry/media/overseas-markets-big-opportunity-local-streaming-platforms-regional-stories-zee5-ott-diaspora-hoichoi-11743406476365.html), Mint, 1 April 2025. AAO NXT founder’s account; regional percentages are not Odia-specific.
 
-[^app]: [Kanccha Lannka](https://apps.apple.com/in/app/kanccha-lannka/id1584598214), Apple App Store, developer description inspected 25 October 2026. English subtitles advertised for selected titles; catalogue description, not playback or territorial-availability testing.
+[^app]: [Kanccha Lannka](https://apps.apple.com/in/app/kanccha-lannka/id1584598214), Apple App Store, developer description inspected 25 October 2026. Selected titles advertise English subtitles; playback/territory untested.
 
-[^binge]: Tata Play, [Binge adds regional OTT services including Tarang Plus](https://www.tataplay.com/dth/press-releases/tata-play-binge-adds-regional-otts-manoraramamax-koode-tarang), 12 January 2023. Corporate distribution announcement; historical package terms are not a current subscription guide.
+[^binge]: Tata Play, [Binge adds regional OTT services including Tarang Plus](https://www.tataplay.com/dth/press-releases/tata-play-binge-adds-regional-otts-manoraramamax-koode-tarang), 12 January 2023. Historical distribution announcement.
 
-[^four-review]: [AAO NXT’s Four anthology](https://www.mediainfoline.com/film-review/aao-nxts-four-anthology). Madhushree Chakrabarty, Media Infoline, 15 December 2022; one critic’s response, not audience measurement or evidence of a particular subtitle arrangement.
+[^four-review]: [AAO NXT’s Four anthology](https://www.mediainfoline.com/film-review/aao-nxts-four-anthology). Madhushree Chakrabarty, Media Infoline, 15 December 2022; Critical review; subtitle arrangement unspecified.
 
 ## Further reading
 

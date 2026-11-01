@@ -1,0 +1,114 @@
+{
+  "status": "PASS_bounded_final_art_web_and_book_review",
+  "reviewer": "Drishti — independent AI QA",
+  "scope": "Only selective ending-art integration and shared-story forced-page-break removal; earlier second-pass typography/running-header findings remain outside this implementation. No source edits, browser actions or publication.",
+  "input_hashes": {
+    "kb/media/cinema-series/ending-art-20261101/provenance.json": "3c7b0ecb690145dadac4ad5265855fdb9561c572b4997746a9975e197f67d144",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "3ebeed4bbd5d88fa0f39c4bfe6dcb14d7411eefae11a7bbf5fe72dcbf993f02e",
+    "projects/site/src/lib/cinema-article.mjs": "1705a99614382c38e3cee77321c8b7d8152339688bd990a8bdf11df6d7f11927",
+    "outputs/cinema-ending-art-20261101/web-changes.json": "a74955948ba55f04bae70aecef9959bdf80e8f10906e0dd9e3460e08187acd05"
+  },
+  "art_review": {
+    "originals_viewed": [
+      "kb/media/cinema-series/ending-art-20261101/learning-three-bicycles.png",
+      "kb/media/cinema-series/ending-art-20261101/surya-material-passed-on.png"
+    ],
+    "result": "No representational blocker found. Three distinct practical bicycles beside an imagined doorway connect to attributed arrivals for discussions. Hand-supported shallow box/booklets/envelope connects to materials retained for others. Neither identifies a historical house, actual holdings, conservation procedure, named person or documentary event.",
+    "limits": "Both transparent originals and their ordinary-size book/web presentations inspected. No exact historical bicycle design, house, holdings or storage practice asserted or certified."
+  },
+  "static_web": {
+    "articles": 50,
+    "ordinary_figure_count": 56,
+    "image_credit_note_count": 17,
+    "five_endings_once_each": true,
+    "public_png_bytes_match": true,
+    "placements": {
+      "maya-miriga": "before-watch",
+      "bhukha": "before-watch",
+      "pratikshya": "before-continue",
+      "learning-cinema-together": "before-continue",
+      "surya-deo": "before-continue"
+    },
+    "alt_caption": "Both new alternatives explain conceptual content; escaped alt/caption rendering retained. Five existing/new motifs have text alternatives and captions.",
+    "learning_and_surya_source_hashes_match_baseline": true,
+    "tests": "Latest implementer receipt reports26 focused tests PASS,570-page build PASS and1055-page disclosure gate; not rerun by reviewer.",
+    "browser_review_performed_by_reviewer": false,
+    "image_credit_count_scope": "17 rendered cinema-image-credit spans are a web-selector count, not the23 full book credit-record total. All23 book records independently compare equal to baseline."
+  },
+  "pdf_review": {
+    "status": "PASS",
+    "full_size_pages_viewed": {
+      "digital": [
+        118,
+        122,
+        187,
+        188,
+        189
+      ],
+      "print": [
+        118,
+        122,
+        188,
+        189,
+        190
+      ]
+    },
+    "baseline": "2026-11-01-ux252digital/278print",
+    "artifacts": {
+      "digital": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-ending-art.pdf",
+        "sha256": "3a2b2bd8cfc466a3a39428d108f46f3f975893282283aed98ac40d073e9eb9e6",
+        "pages": 252,
+        "receipt": "tmp/pdfs/2026-11-01-ending-art/digital/book-build-2026-11-01-ending-art.json",
+        "receipt_sha256": "8808ad45356f48e50fe94cd1bb52a7083d599ed778d65042d85c1e4604e7f9b3",
+        "chapter_page_references_stable": true
+      },
+      "print": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-ending-art.pdf",
+        "sha256": "d500ee6c9767660081016b6beb91e158e9d86c3cb89e028356108da28b45e0a6",
+        "pages": 278,
+        "receipt": "tmp/pdfs/2026-11-01-ending-art/print/book-build-2026-11-01-ending-art.json",
+        "receipt_sha256": "5fb25e46646c49829bc1fd4519359baa068bf53b93e2bdc6dc13ec815129cb9d",
+        "chapter_page_references_stable": true
+      }
+    },
+    "preservation": {
+      "all50_chapter_source_and_book_body_records_equal_baseline": true,
+      "all50_current_source_hashes_match": true,
+      "original56_image_placement_records_equal_excluding_revision_cache_path": true,
+      "all23_full_image_credit_records_equal": true,
+      "notes": 432,
+      "citation_pairs": 590,
+      "cover_hashes_unchanged": true,
+      "eight_configured_motifs_unique": true
+    },
+    "visual_findings": [
+      "Surya digital122/print122: hand-supported box/booklets visible, coherent with final paragraph, caption legible, no art-only leaf or clipping.",
+      "Learning print118: three bicycles remain distinguishable at180pt and sit below substantive closing prose and bridge; caption legible.",
+      "Learning digital118: deliberately skipped for insufficient room (12pt available in receipt); full prose remains and no extra art-only page is introduced.",
+      "Digital187–189: old isolated children-screening paragraph is now followed by the closing heading and substantive prose on188; last two paragraphs plus shared-story drawing form a coherent, airy final leaf189.",
+      "Print188–190: closing section continues coherently and last two paragraphs plus drawing form190; no clipped heading or orphaned image."
+    ],
+    "limits": [
+      "Targeted ten-page full-size delta review, not a new all-page scan.",
+      "No physical print/assistive-technology or PDF/UA claim.",
+      "Eight motifs are configured; digital places seven because Learning is intentionally skipped, print places all eight."
+    ]
+  },
+  "required_corrections": [],
+  "scope_released": true,
+  "human_approval_claimed": false,
+  "publication_performed": false,
+  "coordinator_browser_evidence": {
+    "screenshots_independently_viewed": [
+      "learning-desktop.png",
+      "learning-mobile.png",
+      "surya-desktop.png",
+      "surya-mobile.png"
+    ],
+    "result": "Both motifs clear and uncropped at supplied desktop/mobile reading sizes; caption and final prose→drawing→Continue order coherent.",
+    "attribution": "Browser actions/screenshots by root; reviewer inspected saved screenshots only."
+  },
+  "unrelated_open_items": "Prior second-pass Contents running header, bilingual heading/language and other optional typography findings remain outside this change. This pass does not mark them fixed.",
+  "decision": "No blocking issue in the scoped ending-art implementation. Preserve selective skip-on-full-page behavior. Local QA only; no publication or human approval."
+}

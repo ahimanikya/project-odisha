@@ -1,0 +1,96 @@
+{
+  "status": "PASS_local_release_preparation",
+  "independent_ai_review": true,
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "reviewed_files": {
+    "outputs/cinema-release-20261101/prepare-preview.py": "ee2fb21910b0771293550f99fe6ab1125a18a9e86993e473e1071a4290edac97",
+    "outputs/cinema-release-20261101/preview-metadata.json": "b8a0424fad567bb14d66d812ae1418c2cea969da95743fa1f45d8280337e8af6",
+    "outputs/cinema-release-20261101/activation-metadata.json": "b709cfc91b6616913107f15b4066c227feb56ab92748b434a9ff324d29c0ed1d",
+    "outputs/cinema-release-20261101/book-release-manifest.json": "2e0bdf6a1cb9f087479be847ffbda4a2ffa10ae96d2b1a2331df949045654b2b"
+  },
+  "checks": {
+    "canonical_source_bindings": {
+      "count": 50,
+      "mismatches": 0
+    },
+    "reviewed_pdf_hashes_and_bytes": "PASS; exact246/254-page milestones artifacts",
+    "production_metadata": "31October reviewed_release_asset entries remain active",
+    "archive_preservation": "All previous URLs, hashes, bytes and pagecounts retained in both planned overlays",
+    "candidate_claims": "Local review candidates labelled Review PDF edition; previous editions labelled published",
+    "packaging_procedure": "Verifies PDFs before copy; restores temporary metadata in finally with concurrent-change guard; refuses existing preview folder; local robots disallow and removes sitemap",
+    "activation": "Prepared JSON only; requires later upload and remote byte/hash verification before activation"
+  },
+  "findings": [
+    {
+      "severity": "broken_local_navigation",
+      "route": "/cinema/book/",
+      "target": "/brand-review/",
+      "cause": "Full-edition candidate HTML copied into coast publication payload",
+      "recommendation": "Render candidate with matching coast edition, then refresh binding and reassemble preview.",
+      "status": "resolved",
+      "resolution": "Candidate rendered with PUBLIC_UTKAL_EDITION=coast; all54route local references and anchors rechecked without missing targets."
+    }
+  ],
+  "pending": [],
+  "followups": [
+    "Tagged PDF and actual assistive-technology testing remain separate.",
+    "Physical print proof and actual reader feedback remain separate."
+  ],
+  "limits": [
+    "No builds or browser actions by reviewer.",
+    "No remote availability claim or upload verification at preparation stage."
+  ],
+  "scope_released": true,
+  "final_package_checks": {
+    "routes": 54,
+    "local_references_checked": 4905,
+    "missing": [],
+    "missing_anchors": [],
+    "private_markers": [],
+    "PDFs": [
+      {
+        "edition": "digital",
+        "sha256": "53d7c90819817909c13436eb5fd1fbe9d0d9f58a03f0c82717d0ea97a4cfaa9e",
+        "matches": true
+      },
+      {
+        "edition": "print",
+        "sha256": "8499a37efa4c6569dd4b95838e4877825ee04b3d9f71fea11c9987806bb7f370",
+        "matches": true
+      }
+    ],
+    "labels": {
+      "Review PDF edition": true,
+      "1 November 2026": true,
+      "246 pages": true,
+      "254 pages": true,
+      "31 October 2026": true,
+      "30 October 2026": true,
+      "27 October 2026": true,
+      "26 October 2026": true,
+      "282 pages": true,
+      "235 pages": true,
+      "260 pages": true,
+      "176 pages": true,
+      "196 pages": true
+    },
+    "production_metadata_restored": true,
+    "candidate_html_matches": true,
+    "candidate_html_sha256": "223b53451218edd218edcc9b215475467a797f1a87bb75998d84cbf2bf23c1f5"
+  },
+  "package_diff": {
+    "changed": [
+      "robots.txt",
+      "cinema/book/index.html"
+    ],
+    "added": [
+      "archive/odia-cinema-a-living-screen-2026-11-01-milestones.pdf",
+      "archive/odia-cinema-a-living-screen-print-2026-11-01-milestones.pdf"
+    ],
+    "removed": [
+      "sitemap.xml"
+    ]
+  },
+  "release_boundary": "Local package only. Upload, remote hash verification, production activation, deployment and live checks remain separate authorized release actions."
+}

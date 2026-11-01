@@ -53,9 +53,11 @@ It was easy to discuss what children should read or what a community should pres
 
 Cinema began to gather many of these thoughts together. Here was a form in which writing, music, performance, visual imagination and technology could meet. It could carry an Odia story into a shared experience, and perhaps towards people who would never have encountered it on a bookshelf.
 
-During a week in Bhubaneswar, I met *DAMaN* directors Vishal Mourya and Debi Prasad Lenka, and producer Deependra Samal. Their energy and willingness to build something stayed with me. Conversations with writers, filmmakers and heritage storyteller Shakti Badjena gave me further reasons to listen and explore.[^week]
+During a week in Bhubaneswar, I met *DAMaN* directors Vishal Mourya and Debi Prasad Lenka, and producer Deependra Samal.[^week] I had been thinking about cinema as a way to take literature to children. Our conversation brought me to a difficulty I needed to understand: even if we made a good film, how would it reach people? We talked about the limited number of screens in Odisha.
 
-I began reading more closely about the work behind the films.
+I came away thinking beyond the children I had first imagined reaching. How could our literature reach ordinary people, of different ages, through cinema? Making the film was one undertaking. Getting it before an audience was another.
+
+That question led me into this project. I began reading about the work behind the films, and about the people who found ways to show them. Conversations with writers, filmmakers and heritage storyteller Shakti Badjena kept opening further paths.[^week]
 
 A screen gathers attention around actors and stories, but many people make that encounter possible. Writers, producers, technicians, musicians, performers, distributors and exhibitors contribute different kinds of skill and take different kinds of risk. If I wanted to understand how cinema could support literature, I also needed to understand the livelihoods and relationships that sustained cinema itself.
 
@@ -79,12 +81,12 @@ Through it all, a line from my teenage poem has returned:
 
 I hear it differently now. The journeys through poetry, software, farming, literature and cinema are beginning to meet. Each has taught me to look for the person on the other side of what we create.
 
-I began by asking how to put money in a writer’s pocket. I am still following that question.
+I began by asking how to put money in a writer’s pocket. The conversation about screens added another question: how would the work reach the people who might value it? These pages follow both.
 
 
 ## Footnotes & Sources
 
-[^week]: Ahimanikya Satapathy, [A Week in Bhubaneswar: Conversations and New Beginnings](https://projectodisha.org/stories/bhubaneswar-week/), the author’s account of the conversations and creative explorations recalled here.
+[^week]: Ahimanikya Satapathy, [A Week in Bhubaneswar: Conversations and New Beginnings](https://projectodisha.org/stories/bhubaneswar-week/), personal account.
 
 ## Further reading
 

@@ -20,25 +20,25 @@ Samal produced *DAMaN* under JP Motion Pictures; the CBFC’s certification reco
 
 ## A producer in the conversation
 
-The directors’ public recollections describe more than financial backing. In their interview with *The Federal*, they credited Samal with constructive feedback and an understanding of what the project needed.[^conversation] They remembered a producer engaged in developing the idea as well as backing it.
+The directors’ public recollections describe more than financial backing. In their interview with *The Federal*, they credited Samal with constructive feedback and an understanding of what the project needed.[^conversation]
 
 ## Recognition for a shared work
 
-JP Motion Pictures is the credited producer of *DAMaN*, named Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]
+JP Motion Pictures is the producer recipient of *DAMaN*’s National Film Award for Best Odia Film.[^award]
 
 The [DAMaN story](../culture/cinema-series/daman.md) follows the actors, local performers, healthcare context and questions of representation around the production.
 
 ## The work continues
 
-Samal’s public production credits extend to *ପରବ (Parab)*. Its colourist Sriprasad Sahoo’s project announcement names him as producer, Chinmay Das as director and Anu Choudhury as co-producer, again under JP Motion Pictures.[^parab] The production brought Samal together with another director and co-producer.
+Samal’s public production credits extend to *ପରବ (Parab)*. Its colourist Sriprasad Sahoo’s project announcement names him as producer, Chinmay Das as director and Anu Choudhury as co-producer, again under JP Motion Pictures.[^parab]
 
 ## Footnotes & Sources
 
-[^making]: [Cinema Express, interview with Vishal Mourya](https://www.cinemaexpress.com/international/interviews/2022/Dec/07/daman-director-vishal-maurya-success-of-my-film-could-be-a-ray-of-hope-for-odia-filmmakers-37464.html), 7 December 2022, answer on the film’s inspiration. This is Mourya’s account of Samal’s request, not an interview conducted for Project Odisha.
-[^certificate]: [Central Board of Film Certification, feature films certified in 2022](https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/CC_Issued_2022.pdf), Odia table, DAMAN row 78: Deependra Samal, M/S. J P Motion Pictures, certified 21 October 2022. The certification date is distinct from the release date.
+[^making]: [Cinema Express, interview with Vishal Mourya](https://www.cinemaexpress.com/international/interviews/2022/Dec/07/daman-director-vishal-maurya-success-of-my-film-could-be-a-ray-of-hope-for-odia-filmmakers-37464.html), 7 December 2022, answer on the film’s inspiration. Mourya’s recollection.
+[^certificate]: [Central Board of Film Certification, feature films certified in 2022](https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/CC_Issued_2022.pdf), Odia table, DAMAN row 78: Deependra Samal, M/S. J P Motion Pictures, certified 21 October 2022.
 [^conversation]: [The Federal, interview with Debi Prasad Lenka and Vishal Mourya](https://thefederal.com/entertainment/its-not-just-kantara-odia-film-daman-is-making-waves-nationwide-meet-the-directors), December 2022. Indexed interview text.
 [^award]: [Press Information Bureau, 70th National Film Awards for 2022](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48), 16 August 2024, Best Odia Film entry.
-[^parab]: [Sriprasad Sahoo, PARAB teaser and production credits](https://www.linkedin.com/posts/sriprasad-sahoo-4b191a183_teaser-filmmaking-featurefilm-activity-7258783065345253376-e7k3), public project post by the credited colourist. Production credits.
+[^parab]: [Sriprasad Sahoo, PARAB teaser and production credits](https://www.linkedin.com/posts/sriprasad-sahoo-4b191a183_teaser-filmmaking-featurefilm-activity-7258783065345253376-e7k3), Colourist’s public project post.
 
 ## Further reading
 

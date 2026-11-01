@@ -1,0 +1,36 @@
+{
+  "status": "implemented_released_for_coordinator_build",
+  "files": {
+    "projects/site/src/pages/cinema/book.astro": "7e66a186e528e5c6116794615e43adb6dc7549538da944407db63cd22a49d31c",
+    "projects/site/tests/cinema-release.test.mjs": "68a1c68ff6d5b49cdb4981acf530b4192226e17c04ca1fa16269a9491d2b6ed2",
+    "projects/site/tests-coast/cinema-reading-ux.test.mjs": "0596a2d5f6b9a074e88a4bb663361b4a748a41cbfa8b9b29ad860c96320f0e07"
+  },
+  "changes": [
+    "Current date/readings/description from metadata; local_review_candidate explicitly labelled Review PDF edition",
+    "Archives dynamically grouped descending by edition_date; 26 October static historical block retained",
+    "Visible edition/date/format/size download names distinguish files; selected printed links description for1Nov",
+    "Production tests remain strict GitHub release assets and dated manifest hashes/bytes/pages; historical manifest subset preserved"
+  ],
+  "checks": {
+    "astro_compile": "PASS",
+    "source_tests": "28 passed,0 failed",
+    "published_and_candidate_frontmatter": "PASS using actual production data and preview-metadata overlay in memory only",
+    "existing_coast_dom": "4 passed,1 failed; book download test PASS. Existing first navigation assertion expects full-collection next instead of central route. Reported to coordinator; not modified."
+  },
+  "guidance": {
+    "id": "accessibility",
+    "file": "outputs/cinema-release-20261101/modern-web-accessibility.md",
+    "quote": "Don't reuse an accessible name across hyperlinks that point to different `href` targets",
+    "applied": "Visible labels distinguish digital/print and each edition date without redundant aria labels."
+  },
+  "limits": [
+    "No full build",
+    "No metadata mutation or publication",
+    "Coordinator must validate newly built production and candidate DOM; existing dist does not validate new template output"
+  ],
+  "navigation_test_followup": {
+    "authorization": "cinema-reading-ux-implementation-2026-11-01.json explicitly preserves central-route onward plus separate full collection navigation",
+    "correction": "Expected central path derived independently from narrative configuration; renderer and built DOM onward destination/label checked, footer prev/next destinations and boundaries retained",
+    "existing_dist_result": "4/5 pass; outdated intro onward accessible name in dist-coast now caught. Coordinator rebuilding; no weakening or runtime edits."
+  }
+}

@@ -41,8 +41,6 @@ His work also travelled into other theatrical productions. The National School o
 
 In June 2026, Pradeep Pattanayak reported four groups performing Mishra’s plays at Shruti Natak Utsav in Bhubaneswar, organised by the Odisha Sahitya Akademi and Odisha Natya Sangha. Canmass of Paradip presented *Taari Laagi*; Sobha Ebang Kalakar of Balasore, *Last Train*; Swara of Sambalpur, *Ekada Labanya*; and Damayanti Kala Parishad of Kotpad, *Janta*. The performances used live dialogue without elaborate costumes, lighting or props.[^shruti-2026]
 
-The report brings four places into the same account of a writer’s work. Each group had taken up a different play. In this setting, spoken dialogue carried the encounter, giving listeners a way to attend to the words through the performers.
-
 [Gopal Chhotray’s story](gopal-chhotray.md) offers another passage through writing made for voices. Mishra’s plays invite a further encounter of their own: choose a title, seek a text or performance, and listen for the people it brings into conversation.
 
 ## Footnotes & Sources
