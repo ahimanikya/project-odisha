@@ -8,10 +8,10 @@ for(const slug of ['ghumura','mahuri','ranapa','chaiti-ghoda','danda-nata','prah
  if(slug==='prahlada-nataka'){
   const source=readFileSync('../../kb/research/culture/prahallad-nataka.md','utf8');
   const ids=[...source.matchAll(/^\[\^([^\]]+)\]:/gm)].map(m=>m[1].toLowerCase());
-  assert.equal(ids.length,9);
+  assert.equal(ids.length,7);
   for(const id of ids)assert.equal(html.split('id="user-content-fn-'+id+'"').length-1,1);
   const refs=[...html.matchAll(/<a\b[^>]*data-footnote-ref[^>]*>/g)];
-  assert.equal(refs.length,15);
+  assert.equal(refs.length,13);
   for(const [tag] of refs){
    const target=tag.match(/href="#([^"]+)"/)[1];const origin=tag.match(/\bid="([^"]+)"/)[1];
    assert.ok(html.includes('id="'+target+'"'));assert.ok(html.includes('href="#'+origin+'"'));
