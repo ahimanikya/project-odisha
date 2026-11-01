@@ -1,0 +1,240 @@
+{
+  "input_head": "2b56931f7108fc7a49a96ea6ffa1f8b606609b05",
+  "announced_remote_baseline": "c073bcf4ed2ea4653fdea4fc005da863c04aa0d3",
+  "source_records": [
+    {
+      "id": "gi-haladi",
+      "role": "Official application/registry record, not independent verification of every specification claim",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/610",
+      "capture": "captures/gi-journal-official.pdf",
+      "sha256": "5a312066524aa9d3776858fd73e053583e8338277ec78073402aa3e4030feb8b",
+      "access": "Official POST document form, exact parameters in registry-selected.json. Mirrored journal was discovery/read lead only; final evidence is official PDF.",
+      "locators": "GI registry application/date; journal printed/PDF11 sectionG geography,12 seed/mulch,13 water/harvest,14 curing,15 polishing/grinding",
+      "limits": [
+        "2018description and2019certificate, no present farm-wide claims.",
+        "Medical remedies, antique-origin list, broad community statements and organic-by-default claims omitted. Specification also mentions fungicide under storage, so it cannot support blanket certification.",
+        "No claim that applicant KASAM includes every grower; no current legal entitlement guidance.",
+        "Coordinates in journal wrongly labelled altitude; unused."
+      ]
+    },
+    {
+      "id": "forest-jica2017",
+      "role": "Dated technical trading-chain report, reused source identity; fresh turmeric-section inspection",
+      "url": "https://openjicareport.jica.go.jp/pdf/12284139_02.pdf#page=225",
+      "capture": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/kandhamal-cultural-2026-10-31/anvesha/captures/jica02.pdf",
+      "sha256": "f5c537734d5232ed937caf12ee856d021cdb153ff846323fcd86c97170e88168",
+      "date_capture": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/kandhamal-cultural-2026-10-31/anvesha/captures/jica01.pdf",
+      "date_capture_sha256": "66726f10b997ad549d00e3f3313f2401cc8333b7549abf4e4a69472348438b66",
+      "locators": "PDF225–227,attachment6.9.3-22–24,actors and constraints tables",
+      "limits": [
+        "Part01cover February2017 and part02 are one publication, not independent corroboration.",
+        "Reported prices/market percentages/curcumin and generic science omitted. Erode/Nizamabad geographic errors in background are not adopted.",
+        "Constraints and proposed activities are distinct; no current outcomes inferred."
+      ]
+    },
+    {
+      "id": "haladi-mahapatra2022",
+      "role": "Original study published2022,2021convenience sample of22society leaders",
+      "url": "https://mobilization.org.in/images/Journal%20of%20Mobilization%20Vol.%2017%20%283%29%20July-September%2C%202022%20final%20book%2020.10.22%20%28total%2057%20articles%29.pdf#page=17",
+      "capture": "captures/mobilization2022.pdf",
+      "sha256": "ccff4241f79393498c375cb24cfff2a1a7011c13f1bbf0f4692e4fe9c7ecd740",
+      "locators": "printed712–715/PDF18–21,methods and tables2/8",
+      "authors": [
+        "Ankit Mahapatra",
+        "Vinayak Nikam",
+        "Sudipta Paul",
+        "Mrinmoy Ray",
+        "Girijesh Singh Mahra"
+      ],
+      "limits": [
+        "Phone interviews with presidents/secretaries, not random household sample; four blocks and unreachable fifth retained.",
+        "Women are classified minor target in all22 societies in table2, not wholly excluded. Final draft explicitly preserves minor versus major and separately attributes authors’ recommendation.",
+        "Own-storage3/22 result not currentdistrict total.",
+        "No inference that region/community/language/growing occupation are identical."
+      ]
+    }
+  ],
+  "claim_map": [
+    {
+      "section": "name-and-geography",
+      "paragraphs": [
+        {
+          "text": "The GI Registry records Kandhamal Haladi under application 610, filed by the Kandhamal Apex Spices Association for Marketing (KASAM), with a certificate dated 1 April 2019. The specification published in November 2018 names twelve tahsils within Kandhamal, including Phulbani, Daringbadi, Raikia and Baliguda. The name is tied to a defined production area.",
+          "source_ids": [
+            "gi-haladi"
+          ],
+          "locator": "GI registry application/date; journal printed/PDF11 sectionG geography,12 seed/mulch,13 water/harvest,14 curing,15 polishing/grinding"
+        },
+        {
+          "text": "Its cultivation account begins with rhizomes saved from a previous crop or borrowed from neighbours. It describes mostly rain-fed cultivation and leaf mulching. After harvesting, some rhizomes are retained for planting; others are boiled and dried for sale. Further processing includes cleaning, polishing and grinding. These are the application’s descriptions of practice, not a timetable for every farm today.",
+          "source_ids": [
+            "gi-haladi"
+          ],
+          "locator": "GI registry application/date; journal printed/PDF11 sectionG geography,12 seed/mulch,13 water/harvest,14 curing,15 polishing/grinding"
+        }
+      ]
+    },
+    {
+      "section": "crop-and-buyer",
+      "paragraphs": [
+        {
+          "text": "A February 2017 JICA report traces another side of Kandhamal's turmeric: the work between harvesting and a sale. Its account includes gathering fuel for boiling, drying the crop and negotiating with a local trader after quality is examined. Traders sort, store and move the produce; processors may sell polished fingers or grind them into powder.",
+          "source_ids": [
+            "forest-jica2017"
+          ],
+          "locator": "PDF225–227,attachment6.9.3-22–24,actors and constraints tables"
+        },
+        {
+          "text": "The report records constraints as well as activities: limited storage, drying conditions that could damage the crop, and lower purchase prices associated with traders' advances. These details matter because a sale is shaped by more than the reputation of a place. Having a crop ready and having room or money to wait for a buyer are different things.",
+          "source_ids": [
+            "forest-jica2017"
+          ],
+          "locator": "PDF225–227,attachment6.9.3-22–24,actors and constraints tables"
+        }
+      ]
+    },
+    {
+      "section": "organisation-and-support",
+      "paragraphs": [
+        {
+          "text": "A 2022 study by Ankit Mahapatra and colleagues examined KASAM's services through 2021 interviews with leaders of twenty-two Spice Development Societies. It describes support including improved boiling units, drying sheets and market information. Only three sampled societies had their own storage facility.",
+          "source_ids": [
+            "haladi-mahapatra2022"
+          ],
+          "locator": "printed712–715/PDF18–21,methods and tables2/8"
+        },
+        {
+          "text": "The study classifies women as a minor rather than major target across the sampled societies. Its authors argued for more specific attention to women’s work, including harvesting, boiling and drying. Their findings raise a practical question: do the people doing the work also receive the support intended to improve it?",
+          "source_ids": [
+            "haladi-mahapatra2022"
+          ],
+          "locator": "printed712–715/PDF18–21,methods and tables2/8"
+        }
+      ]
+    },
+    {
+      "section": "reading-the-name",
+      "paragraphs": [
+        {
+          "text": "A place-name on turmeric can prompt more attentive questions: where was it grown, how was it processed, and whose work connects it to the buyer? A GI record, a trading-chain account and a study of producer services answer different parts of that enquiry. Together they make Kandhamal Haladi more than a celebrated label: a crop whose value is worked on, negotiated and shared through particular relationships.",
+          "source_ids": [],
+          "locator": "Editorial synthesis of the three source roles; no new empirical result"
+        }
+      ]
+    }
+  ],
+  "source_budgets": [
+    {
+      "source_id": "gi-haladi",
+      "specific_words_including_heading_title_note": 146,
+      "shared_editorial_allowance": 45,
+      "conservative_total": 191,
+      "cap": 200
+    },
+    {
+      "source_id": "forest-jica2017",
+      "specific_words_including_heading_title_note": 150,
+      "shared_editorial_allowance": 45,
+      "conservative_total": 195,
+      "cap": 200
+    },
+    {
+      "source_id": "haladi-mahapatra2022",
+      "specific_words_including_heading_title_note": 148,
+      "shared_editorial_allowance": 45,
+      "conservative_total": 193,
+      "cap": 200
+    }
+  ],
+  "budget_method": "Whitespace words in unique visible narrative, source headings/titles/notes; all shared title/description/lead/closing split equally with ceiling. Markdown and JSON duplicate text not double-counted. No direct source quotation.",
+  "captures": [
+    {
+      "path": "captures/gi-journal-official.pdf",
+      "sha256": "5a312066524aa9d3776858fd73e053583e8338277ec78073402aa3e4030feb8b",
+      "bytes": 1966599
+    },
+    {
+      "path": "captures/gi-journal-official.txt",
+      "sha256": "c48146b0a2bbf8b3e7464a0ffda49788de51c0c638ede8064d79f0f58ac75c80",
+      "bytes": 45032
+    },
+    {
+      "path": "captures/gi-p11.png",
+      "sha256": "348ce0183825bd9d9885e9030124a849cee9b49126bfda79965985ed33a5ffdf",
+      "bytes": 256527
+    },
+    {
+      "path": "captures/gi-p12.png",
+      "sha256": "71ad34715e67cb776e5a2b56a6348ce77e390db676bcd9f637d3d45bfb7a4a0b",
+      "bytes": 367272
+    },
+    {
+      "path": "captures/gi-p14.png",
+      "sha256": "3e0044a5d5956acbb60479e02043188f600003ed3c1c0404699b1ff95a28669e",
+      "bytes": 376015
+    },
+    {
+      "path": "captures/gi-p15.png",
+      "sha256": "a8d379dce884afd6a71d44c15ea41128799bb44f95f51aa3a12e43ab1cb87edb",
+      "bytes": 297440
+    },
+    {
+      "path": "captures/jica-p226.png",
+      "sha256": "ed75f0d8e577cb676e0325f2b7106e42e1445d0835dfb256f68f257f50ee0300",
+      "bytes": 333077
+    },
+    {
+      "path": "captures/jica-turmeric-selected.txt",
+      "sha256": "d9b1069ecf53236bdce0936fb412b51fc058ddd5b50943183cd80b8eca73300f",
+      "bytes": 7741
+    },
+    {
+      "path": "captures/mobilization-selected.txt",
+      "sha256": "a849cece4235ca7da1d4d0e7825a97319ef18aff4fa1cc72704867ecc5e11cc7",
+      "bytes": 27433
+    },
+    {
+      "path": "captures/mobilization2022.pdf",
+      "sha256": "ccff4241f79393498c375cb24cfff2a1a7011c13f1bbf0f4692e4fe9c7ecd740",
+      "bytes": 18001714
+    },
+    {
+      "path": "captures/registry-selected.json",
+      "sha256": "bf6393b76a89934e0413cc3ed8c99d3c4622f43c4bf9fef04c9917775e8b6da4",
+      "bytes": 848
+    },
+    {
+      "path": "captures/study-p713.png",
+      "sha256": "14d3a9ecdc6beadb9eb6e931928ab5f115564efd50dd34c0f3c94b8a93624e1b",
+      "bytes": 397612
+    },
+    {
+      "path": "captures/study-p715.png",
+      "sha256": "37aebeefe4b7d39f5452c86dd18f9d24f0922b56868b99477d3ecd990a61c2ce",
+      "bytes": 358847
+    }
+  ],
+  "actual_full_images_viewed": [
+    "gi-p11.png",
+    "gi-p12.png",
+    "gi-p14.png",
+    "gi-p15.png",
+    "study-p713.png",
+    "study-p715.png",
+    "jica-p226.png"
+  ],
+  "limits": [
+    "No fieldwork/interviews by Project Odisha; original reflection distinguished from source assertions.",
+    "No crop advice, health guidance, organic certification claim, invented historical scene or antiquity claim.",
+    "Government hosting/access does not establish blanket reuse licence. Public text uses original concise paraphrases, no facsimiles, logos or source photos.",
+    "No authorized-user personal addresses retained.",
+    "Draft is not a public release or current legal/market guide.",
+    "Fresh local input head differs from remote baseline; no Git changes or canonical edits performed."
+  ],
+  "retrieval_limits": [
+    "SWATI original PDF web fetch inaccessible; not used.",
+    "Mobilization web tool rejected full18MB journal size; actual original downloaded withcurl and selected full article read inPDFtext.",
+    "GI initial curl network sandbox request failed; authorized retrieval succeeded.",
+    "Additional studies/searchresults were discovery only and are not adopted."
+  ]
+}

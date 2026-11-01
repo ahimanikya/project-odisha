@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-31T18:21:24.145283+00:00",
+  "origin": "https://projectodisha.org",
+  "candidate_head": "bea9fe47063f1a0478a2202de4a0c48ce38e1ac7",
+  "deployed_head": "32992fb499dc3f7d25a04927b18a82355ce5ecaa",
+  "deployment_id": 41227365799,
+  "deployment_status_sha256": "a5b17d8156de81542282ded2868991cc6384e258f81d12b66ac42b1a73f223a1",
+  "candidate_bindings": {
+    "built_article_sha256": "a196a2763daa121f594005eb2399930e24646c0cf453b5ec462b0f1a70fde02d",
+    "reviewed_article_json_sha256": "e21b2be5128d720d9b520d6b6c3d299bb53ca8e86ba39fdb427c54e156b39715",
+    "shared_catalog_sha256": "39080014a7a845029f082cad646b66abac99159cf537c2a5da52d1ca76d9d6d1"
+  },
+  "checks": {
+    "paragraphs_exact": 8,
+    "complete_notes": 3,
+    "unique_refs_and_returns": 6,
+    "byline_save_id": true,
+    "robots_noindex_follow": true,
+    "explore_discovery": true,
+    "article_portable_payload_exact": true,
+    "all_other_catalog_payloads_exact": 111,
+    "entire_shared_payload_exact": true
+  },
+  "captures": {
+    "article.html": {
+      "url": "https://projectodisha.org/stories/kandhamal-haladi/",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "sha256": "f4fb3acfa885ddc734d2cd750edebad347489fabd13b2b7fa2a2132baf617751",
+      "bytes": 25645
+    },
+    "explore.html": {
+      "url": "https://projectodisha.org/explore/",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "sha256": "b8a3679946a95a3d9036bbcd93a4728043dff66145e321987b581fdb031cc5fb",
+      "bytes": 247256
+    },
+    "journey-data.js": {
+      "url": "https://projectodisha.org/assets/journey-data-39080014a7a845029f082cad646b66abac99159cf537c2a5da52d1ca76d9d6d1.js",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "sha256": "39080014a7a845029f082cad646b66abac99159cf537c2a5da52d1ca76d9d6d1",
+      "bytes": 903556
+    }
+  },
+  "limits": [
+    "HTTP/semantic verification only; browser interaction and actual downloaded-file checks are separately owned by root.",
+    "Shared asset filename is discovered from live HTML; semantic payload compared, no false complete HTML byte identity claim.",
+    "No re-verification of all222 Dhaga delivery assets.",
+    "Only catalog JSON decoding and trailing numeric footnote text are normalized; full live HTML byte identity is not claimed."
+  ]
+}

@@ -9,6 +9,9 @@ from urllib.parse import urlsplit, urlunsplit, parse_qs, quote
 from html import escape
 from fontTools.ttLib import TTFont as Font
 from fontTools.varLib.instancer import instantiateVariableFont
+from reportlab import rl_config
+# Binary PDF streams preserve the compressed image bytes without ASCII85 overhead.
+rl_config.useA85 = 0
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
@@ -19,7 +22,7 @@ from svglib.svglib import svg2rlg
 from build import load_library, reading_caption, book_cover, intro_source_ids
 ROOT=Path(__file__).resolve().parent
 # Reviewed exception: preserve the complete critical bilingual reading at normal type size.
-FULL_WIDTH_READING_IDS=frozenset({"POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
+FULL_WIDTH_READING_IDS=frozenset({'POD-DHAGA-236', 'POD-DHAGA-235', 'POD-DHAGA-241', 'POD-DHAGA-243', "POD-DHAGA-223", "POD-DHAGA-224", "POD-DHAGA-225", "POD-DHAGA-226", "POD-DHAGA-227", "POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
 
 class FlowPage(Flowable):
     def __init__(self, placements, width, height, filler=None):

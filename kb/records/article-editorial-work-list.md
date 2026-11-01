@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 913. completed: 160, excluded: 462, queued: 291.
+Route inventory: 936. completed: 161, excluded: 486, queued: 289.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -115,8 +115,8 @@ Route inventory: 913. completed: 160, excluded: 462, queued: 291.
 | POD-EDIT-099 | [Ganjam · languages and population](https://projectodisha.org/languages/districts/ganjam/) | excluded | classification_pending |
 | POD-EDIT-100 | [Gajapati · languages and population](https://projectodisha.org/languages/districts/gajapati/) | excluded | classification_pending |
 | POD-EDIT-101 | [Kandhamal · languages and population](https://projectodisha.org/languages/districts/kandhamal/) | excluded | classification_pending |
-| POD-EDIT-102 | [Baudh · languages and population](https://projectodisha.org/languages/districts/baudh/) | queued | classification_pending |
-| POD-EDIT-103 | [Subarnapur · languages and population](https://projectodisha.org/languages/districts/subarnapur/) | queued | classification_pending |
+| POD-EDIT-102 | [Baudh · languages and population](https://projectodisha.org/languages/districts/baudh/) | excluded | classification_pending |
+| POD-EDIT-103 | [Subarnapur · languages and population](https://projectodisha.org/languages/districts/subarnapur/) | excluded | classification_pending |
 | POD-EDIT-104 | [Balangir · languages and population](https://projectodisha.org/languages/districts/balangir/) | queued | classification_pending |
 | POD-EDIT-105 | [Nuapada · languages and population](https://projectodisha.org/languages/districts/nuapada/) | queued | classification_pending |
 | POD-EDIT-106 | [Kalahandi · languages and population](https://projectodisha.org/languages/districts/kalahandi/) | queued | classification_pending |
@@ -937,3 +937,26 @@ Route inventory: 913. completed: 160, excluded: 462, queued: 291.
 | POD-EDIT-20261048 | [Bijay Mohanty: Learning a Role, Sharing a Craft](https://projectodisha.org/people/bijay-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-20261049 | [Uttam Mohanty: The Work Beside the Performance](https://projectodisha.org/people/uttam-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-20261050 | [Aparajita Mohanty: Helping a Film Take Shape](https://projectodisha.org/people/aparajita-mohanty/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
+| POD-EDIT-831 | [Kandhamal Haladi: the work behind a place-name](https://projectodisha.org/stories/kandhamal-haladi/) | completed | One new Haladi article; preserve all prior articles, cinema publication, public Dhaga222, reviewed227package and historical cursors. |
+| POD-EDIT-DHAGA-223-20261101 | [କଅଁଳକହୀ ରାଧା, ଘରକୁ ଗଲେ କଥା ନ କହନ୍ତି ବାଟରେ ବଡ଼ ଶରଧା](https://projectodisha.org/dhaga/sayings/pod-dhaga-223.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-224-20261101 | [ଦେଉଳ ତୋଳେଇଲେ ନାଁ ପଡ଼େ, ବାଟରେ ହଗିଲେ ନାଁ ପଡ଼େ](https://projectodisha.org/dhaga/sayings/pod-dhaga-224.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-225-20261101 | [ଖଣ୍ଡ଼ିଗଣିଆଁର ଦିଗୁଣ ସରେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-225.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-226-20261101 | [କୋହଳ ପାଇଲେ ଦୋହଡ଼ ଚଷନ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-226.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-227-20261101 | [କାକର ଧରି କି ଘଡ଼ା ଭର୍ତ୍ତି ହୁଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-227.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-228-20261101 | [ଥିଲାବେଳେ ଚିରାକନା ହଜିଗଲେ ମାଠ](https://projectodisha.org/dhaga/sayings/pod-dhaga-228.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-229-20261101 | [ମାଗଣୁ ମହର୍ଗ](https://projectodisha.org/dhaga/sayings/pod-dhaga-229.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-230-20261101 | [ରୋହଦ୍ର ଖରାରେ ଯେ ବସଇ ମୁହିଁ, ଆ ଛାଇକି ବୋଲି ବୋଲନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-230.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-231-20261101 | [ଯଚ୍ନିୟା ମାଲର ରଙ୍ଗ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-231.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-232-20261101 | [ଗାଡ଼ିଆରେ ହଜାଇ ପୋଖରୀରେ ଖୋଜିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-232.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-233-20261101 | [ଦିଆକୁ ଦିଆ, ଅଦିଆକୁ ଦୁଆର ଦିଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-233.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-234-20261101 | [ନାନା ମୁନିଙ୍କର ନାନା ମତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-234.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-235-20261101 | [ଢିଙ୍କି ପଡ଼େ ଧମଧମ, ସାହାବ ଚାକିରି ଭାରି କଠିଣ; ଝାଳ ବୁହେ ଗମଗମ](https://projectodisha.org/dhaga/sayings/pod-dhaga-235.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-236-20261101 | [ଗଛରେ ଚଢ଼ିଛି ମରିବା ପାଇଁ ଜାମିନ ହୋଇଛି ଦେବା ପାଇଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-236.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-237-20261101 | [ପେଟ ପୋଷ ନାହିଁ ଦୋଷ](https://projectodisha.org/dhaga/sayings/pod-dhaga-237.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-238-20261101 | [ଗାଁଆଁ ପରିମଳ ଧୋବା ତୁଠରୁ ଜଣା](https://projectodisha.org/dhaga/sayings/pod-dhaga-238.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-239-20261101 | [ପଡ଼ିଲା ଉତ୍ତାରୁ ଯେ ମାରସି ଲାତ, ପୁଡ଼ିଯାଉ ସେ ଗୋଡ଼ହାତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-239.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-240-20261101 | [ଛେଛରି ଛତା, ହାଟ୍କେ ନେଲେ ପଇସା ହେତା](https://projectodisha.org/dhaga/sayings/pod-dhaga-240.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-241-20261101 | [ପୂରୂବ କହ୍ନେଇ କି? ଲହୁଣିଆଁ ମାଠ କାନ୍ଧରେ ପଡିଲେ, ମଣିଷ ଚିହ୍ନଇ କି?](https://projectodisha.org/dhaga/sayings/pod-dhaga-241.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-242-20261101 | [ନିତି ମଳୁକୁ ଚାହାନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-242.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-243-20261101 | [ଝିଅ ମଲେ ଜୋଇଁ କାହାର ଗୋତ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-243.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-244-20261101 | [ଘୁ ଘୁ ଦେଖିଛି ଫାନ୍ଦ ଦେଖି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-244.html) | excluded | standalone_dhaga_collection |

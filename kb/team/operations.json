@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/kandhamal-cultural-team-2026-10-31.json",
+  "handoff_home": "records/odia-dhaga-expansion-244-2026-11-01.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,18 +54,13 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": {
-    "id": "POD-EDIT-830",
-    "route": "/stories/kandhamal/",
-    "owner": "Disha",
-    "phase": "receipt_integrated"
-  },
+  "current_article": null,
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "kandhamal_cultural_article",
+    "kind": "dhaga_244_expansion",
     "owner": "Disha",
-    "status": "receipt_integration_pending_merge",
-    "handoff": "records/kandhamal-cultural-team-2026-10-31.json",
+    "status": "receipt_integration",
+    "handoff": "records/odia-dhaga-expansion-244-2026-11-01.json",
     "scope_release": "After reviewed publication receipt merge/checks/remote verification"
   },
   "parallel_programmes": [
@@ -83,7 +78,7 @@
       "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
     },
     {
-      "name": "Dhaga historical pages 10\u201312 research",
+      "name": "Dhaga historical pages 10–12 research",
       "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
       "status": "integration_review",
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
@@ -114,15 +109,13 @@
       "note": "Live routes, images and current PDF hashes verified. Earlier research gaps remain open for new evidence; no human specialist review or programme credit claimed."
     }
   ],
-  "coordination_note": "Founder sequential article2 active: Kandhamal cultural article. Badhei complete/released; Haladi next. Dhaga227 package preserved; no competing release.",
+  "coordination_note": "244published/liveverified and localreader delivered; finite claim retained through reviewed receipt merge/checks/remoteverification. Preserve completedarticles/cinema/separatequeues.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "badhei_article",
-    "owner": "Disha",
+    "kind": "dhaga_227_expansion",
     "status": "released",
-    "handoff": "records/badhei-editorial-team-2026-10-31.json",
-    "scope_release": "After reviewed publication receipt merge/checks/remote verification",
-    "release_evidence": "Badhei636 merged e2ba51e13934daaa5f9dba2b7a3f644ba0467434 after CI41184706949SUCCESS; all21remote hashes/sizes verified."
+    "handoff": "records/odia-dhaga-expansion-227-2026-11-01.json",
+    "release_evidence": "Receipt644 merged0414cd13480844a535ebf38b8d352cae50f6e54e afterCI41235933048SUCCESS/all16remotehashes exact."
   }
 }
