@@ -1,0 +1,114 @@
+{
+  "status": "PASS_FINAL_LOCAL_EXACT_HEAD_REVIEW",
+  "decision": "PASS",
+  "reviewed_head": "72b8a929c6e61036130eb7fd9b55e9a8218f2d79",
+  "base": "e16b0ba285af1cedbf383543c236ca3af62ef6e0",
+  "reviewer": "Drishti — separate AI review",
+  "content_review_sha256": "65260a9bb0fa01ce4793eb87387ab078b0748826b2655c2866b2a3d8f93c4872",
+  "committed_files": [
+    {
+      "path": "kb/records/prahallad-story-only-2026-11-01.json",
+      "sha256": "7dbd4e55c0abd2653cbb010ca11a1342a28fad440b71f1953399346ede869ea9",
+      "bytes": 1527
+    },
+    {
+      "path": "kb/research/culture/prahallad-nataka.md",
+      "sha256": "1f02920385aaf559b522329065bbea02eac299fa62b019e21d6a4d5638943de9",
+      "bytes": 13782
+    },
+    {
+      "path": "kb/team/operations.json",
+      "sha256": "cf10405d00284de9c8c5d9acfcebbfb7a15c423b11ece4d08578cfef939f8f25",
+      "bytes": 8289
+    },
+    {
+      "path": "projects/site/src/pages/stories/prahlada-nataka.astro",
+      "sha256": "ec670f9bcbaa0d72fc6c62f53550b6dd387a18ba120023dd6273b70fb5e1b40e",
+      "bytes": 2037
+    },
+    {
+      "path": "projects/site/tests-coast/prahlada-nataka-story.test.mjs",
+      "sha256": "e54f090b5e271e24e58da0cbe1493180cd988dd84e15fb9cb77e5e064a7e58a7",
+      "bytes": 2824
+    },
+    {
+      "path": "projects/site/tests-coast/sound-source-links.test.mjs",
+      "sha256": "c0413396047c223daccd17f71c3ca0b5bb3a9849333f3f70cfaadbe6514f4df2",
+      "bytes": 2912
+    },
+    {
+      "path": "projects/site/tests/prahallad-editorial.test.mjs",
+      "sha256": "b5c6e183b227b4174cafbeb8253fcdbb0524993af16add537a86af7866273b84",
+      "bytes": 2130
+    }
+  ],
+  "checks": [
+    {
+      "name": "team",
+      "exit_code": 0,
+      "log_sha256": "293f1d8041d91d30bd3970051bf6b4334b49ba0a03900c599285c8f92abadb85"
+    },
+    {
+      "name": "programme",
+      "exit_code": 0,
+      "log_sha256": "24ef5b3a6b8120471f476dc875574fcbc58612fac17701423abc32556040b73d"
+    },
+    {
+      "name": "bundle",
+      "exit_code": 0,
+      "log_sha256": "303457c0ced25e15b7052eba9ebd8cb4011ed0ecec7603a461742494bb830615"
+    },
+    {
+      "name": "diff",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "findings": [
+    "Exactly five scoped files changed: source story, Astro navigation, focused citation expectation, finite scope record and operations. All three product blobs and review-record blob equal already reviewed hashes.",
+    "Event details fully removed from current article metadata/body/caption/notes/navigation; historical event source record intentionally remains separately unchanged.",
+    "Theatre history/music/staging/teaching/performers and documentary photo rights retained. Seven unchanged source notes and13 citation references remain valid; narrative ending coherent.",
+    "Operations records prior245 release656 and assumes only finite Prahallad task; no competing article claim,programme increment or completed publication claim. Scope record publication remains pending.",
+    "Focused2tests previously independently passed; four appropriate independent record/diff checks pass at exact candidate.",
+    "Final seven-file candidate adds only three corrected numeric expectations in two coast test files:34→30 paragraphs,9→7 notes,15→13 references. Complete paragraph/anchor/source assertions remain intact. Prior failed assertions are retained as history.",
+    "All14 local gates now pass with exact log bindings. Final full/coast/publication article fragment is byte-identical; surrounding edition HTML differs and is not claimed byte-exact. Browser-tested fullHTML hash exactly matches final artifact.",
+    "No portable/save/download feature or Prahallad catalog item exists; none is claimed. Existing photograph attribution and rights retained."
+  ],
+  "release_gates_remaining": [
+    "Required remote CI",
+    "Reviewed publication and live verification before finite scope release"
+  ],
+  "limits": [
+    "Local exact-head/content/artifact review complete; remote CI,publication and live verification still required before release.",
+    "No new source research,human review,assistive-technology orphysical-device claim.",
+    "Originalcc86391a release-gated review preserved unchanged as history.",
+    "No builds,browser reruns,canonical orGit edits by reviewer."
+  ],
+  "bindings": {
+    "candidate-manifest.json": "ab7ddece8b430cdbab55d72614e323b2d4febb5a2d1e8a74b3203209b1a91c76",
+    "samanta.json": "c478b9e9438bfa307dc351d0b277cd59757b682fd72720941f94f602bd90d0d7",
+    "validation-site.json": "69c72534cc706964c29c1658dcc88e8c29273ac292aa55ffed52f45e57c13461",
+    "browser-review.json": "dd69090de808ef783cf05b2e476763e7b448dfd641767eeae1c54a226a5117fa",
+    "visual-review.json": "8f1a4c47f10d1a270db3c781e44e665a1f1978d7804814c21192d6cbdae7457b",
+    "review.json": "65260a9bb0fa01ce4793eb87387ab078b0748826b2655c2866b2a3d8f93c4872",
+    "exact-head-review-cc86391a.json": "ea4c279e756968be9f3710489bd04de853ec9816c44b2b0000e924ede5ca4ebf"
+  },
+  "final_artifact_checks": {
+    "all14_gate_log_hashes_verified": true,
+    "full_tests": 683,
+    "coast_tests": 544,
+    "focused_tests": 2,
+    "three_generated_HTML_hashes_verified": true,
+    "browser_tested_full_HTML_hash_unchanged": true,
+    "article_fragment_exact_full_coast_publication": true,
+    "whole_HTML_byte_exact_between_editions": false,
+    "event_details_absent_all_three": true,
+    "references_per_edition": 13,
+    "notes_per_edition": 7,
+    "publication_bytes_reported": 699735118,
+    "indexable_pages": 11,
+    "actual_screenshots_viewed_reused": 6,
+    "actual_browser_note_return_pairs": 26
+  },
+  "final_diff_check": "PASS"
+}

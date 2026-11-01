@@ -1,0 +1,50 @@
+{
+  "status": "PASS_ACTUAL_LIVE_REVIEW",
+  "decision": "PASS",
+  "reviewer": "Drishti — separate AI review",
+  "reviewed_head": "72b8a929c6e61036130eb7fd9b55e9a8218f2d79",
+  "deployed_merge": "6ee6813a3a7a552329e219b9b136327f88e6d282",
+  "deployment_id": 41332785278,
+  "bindings": {
+    "deployment-status.json": "db8de242dd53fbc840845499bf5972b92a1b26af73386b8dabe6e4ea042db250",
+    "live-verification.json": "b9d18ec9f78ae475426e1c02dbe0c91cca99b5580e86b05fa1bdbbabd2574e2e",
+    "live.html": "79e5c8c9ad01eb4ad22703dd8f2323db1ac650ac112ee49b2593589d7b00c668",
+    "live-browser/browser-review.json": "2028d3a2f604d2d1c181ed94938b18b7f426cd697278c4e9b6f8c601da90e5ad",
+    "exact-head-review.json": "5e7278b6b9ee44a90b30271e971132f4dd787b19f8cac8bf53dc125104ecba67"
+  },
+  "actual_screenshots_individually_viewed": {
+    "390-opening.png": "d0a6b3ecafdaee990b72706ccc52af019b757e629e1481a4e7a733edee3ad301",
+    "1440-opening.png": "cd09e07fe2c3dbbab29abcc55eebd39e31e54d234835879ca2450b082cfa2a25",
+    "1440-photograph.png": "fec9ec66aba6d8b38eaf0af5b0a721fb8d259578018d54b96e8c6a6231ae7e51",
+    "390-photograph.png": "f51278e8a31316751fe39c4b6cbb0cdcdb40afbceedda302de43ddb1e4ab4446",
+    "1440-notes.png": "bb29d43995ff8c74179916b2789d25408b13e8cdd35a1a482099c4111eb210bb",
+    "390-notes.png": "1d49188c5fd393fe46a5e9405ec8dab4c047f609bdc77bbefaf958084d403aeb"
+  },
+  "checks": {
+    "actual_live_screenshots_viewed": 6,
+    "viewports": [
+      1440,
+      390
+    ],
+    "live_article_normalized_text_independently_equals_final_publication": true,
+    "footnote_references": 13,
+    "source_notes": 7,
+    "actual_browser_note_return_pairs": 26,
+    "event_details_absent_in_actual_live_HTML": true,
+    "photo_bytes_exact_reported_and_local_hash_bound": true,
+    "photo_sha256": "bce2dee1422174f570f827d34c6d1c50c9c39ce156805e4549156c0954b87a0d"
+  },
+  "findings": [
+    "All six actual live opening,photograph and notes screenshots individually inspected. Readable desktop/mobile typography,legible photograph credit and source trail; no observed clipping or horizontal overflow.",
+    "Actual captured liveHTML hash verified and parsed independently: article text equals final publication after whitespace normalization;13referenceanchors and7notes. Named Baithak event,venue,times,date and eventlinks absent.",
+    "Photo remains identified as24June2018 Crafts Museum image, Government ofOdisha/WikimediaCommons/CC BY4.0,unaltered and unnamed performers. ActualHTTPreport confirms photo bytes exact; live browser shows loaded1280px image.",
+    "26native reference/return pairs passed in actualChrome report. No save/download feature exists or is claimed.",
+    "Saved successful deployment is for the exact merged candidate; no new content change inferred from surrounding wholeHTML differences."
+  ],
+  "limits": [
+    "Whole liveHTML not asserted byte-exact; article comparison is parsed whitespace-normalized text.",
+    "Separate AI review of actual saved evidence,not human proofreading,assistive technology,physicalphone orcross-engine testing.",
+    "No new historical research,browser rerun oradditionalnetworkfetch by reviewer.",
+    "This review does not claim receipt merge or authorize premature finite-scope release."
+  ]
+}
