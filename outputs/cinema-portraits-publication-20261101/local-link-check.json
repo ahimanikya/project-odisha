@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "routes": 54,
+  "references": 4031,
+  "failures": [],
+  "initial_static_finding": [
+    [
+      "/cinema/pratikshya/",
+      "https://projectodisha.org/cinema/watch/#pratikshya-trailer",
+      "missing anchor"
+    ]
+  ],
+  "dynamic_hash_routes": [
+    {
+      "url": "/cinema/watch/#pratikshya-trailer",
+      "resolution": "Selection identifier exists in the player catalogue and is handled by the documented location.hash selection code; not a static element ID.",
+      "scope": "Source-verified handler; browser check preserved in previous player review."
+    }
+  ]
+}

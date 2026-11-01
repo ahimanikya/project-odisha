@@ -1,0 +1,35 @@
+{
+  "status": "PASS_receipt_evidence_with_minor_index_clarity_recommendation",
+  "scope": "Independent saved evidence/receipt consistency and two screenshot review; no new network or browser actions.",
+  "merge_commit": "8a802dae8a00f19a57cbb96cb4c763aca85fc9f1",
+  "deployment_run": 41291976014,
+  "checks": [
+    "Deployment success/head matches canonical receipt.",
+    "Live54pages249imagefiles report matches stated scope and revision.",
+    "Both saved publicPDF download hashes/bytes match reviewed release.",
+    "Four rights-unverified sources, no human specialist review, no programme increment and separate AT/physicalproof limits retained.",
+    "Ledger append accurately describes this seven-image release; earlier local historical receipts retained."
+  ],
+  "screenshots_reviewed": [
+    "live-book.png",
+    "live-aparajita.png"
+  ],
+  "screenshot_limits": "Book capture shows title/date, not actual download URLs; those claims supported by saved live verifier/coordinator browser evidence. Aparajita full photograph and numbered caption visible.",
+  "findings": [
+    {
+      "severity": "minor",
+      "path": "kb/index.md",
+      "issue": "Previous paragraph still labels prior260-image edition Latest cinema publication directly below newer249-image publication.",
+      "recommendation": "Relabel previous paragraph Earlier1November cinema release and use past tense to preserve historicalcount clearly.",
+      "blocking": false
+    }
+  ],
+  "input_hashes": {
+    "kb/records/cinema-portraits-publication-2026-11-01.json": "45e6bf1620d7a2e77d3017f43cd09728ed0725b2a59e0556cc2da246c9f721e6",
+    "outputs/cinema-portraits-publication-20261101/deployment-run.json": "b45e21fba45221014f8670e699c12714da93fffecf7d3e793d2c2d0a335ac4ad",
+    "outputs/cinema-portraits-publication-20261101/live-verification.json": "b475bf7da2d6999b7fbe08d2767459316141fdd9f13ab57cd4295428f8326423",
+    "outputs/cinema-portraits-publication-20261101/remote-book-verification.json": "5171a1e97165af559b8c07b345bc153df4796ae25861027f78f7b1926adf181c"
+  },
+  "scope_released": true,
+  "public_changes_performed": false
+}
