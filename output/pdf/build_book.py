@@ -601,7 +601,13 @@ for index,slug in enumerate(order,1):
  if slug==plan['parts'][pn-1]['chapters'][0] and narrative.get('part_intros',{}).get(pt):story.append(para(narrative['part_intros'][pt],'bridge'))
  cap=a.get('hero',{}).get('caption') or 'Illustration.'
  credit=a.get('hero',{}).get('credit',{})
- if credit:cap+=' '+credit.get('creator','')+'. [Source]('+credit['source_url']+'); ['+credit['license']+']('+credit['license_url']+'). '+credit.get('notes','')
+ if credit:
+  if not credit.get('creator') or not credit.get('source_url'):raise ValueError('Missing documentary credit: '+slug)
+  has_licence=bool(credit.get('license'));has_licence_url=bool(credit.get('license_url'))
+  if has_licence!=has_licence_url or (not has_licence and credit.get('rights_status')!='unverified'):raise ValueError('Missing documentary licence or recorded rights status: '+slug)
+  cap+=' '+credit['creator']+'. [Source]('+credit['source_url']+')'
+  if has_licence:cap+='; ['+credit['license']+']('+credit['license_url']+')'
+  cap+='. '+credit.get('notes','')
  if a.get('hero',{}).get('credit_note'):cap+=' '+a['hero']['credit_note']
  if a.get('hero'):
   image_path=R/a['hero']['path'];iw,ih=ImageOps.exif_transpose(PILImage.open(image_path)).size
@@ -733,7 +739,7 @@ if PRINT:
   story.append(source_row)
 story.extend([Spacer(1,20),CondPageBreak(130)]);h=para('Edition note','chapter');h.bookkey='credits';h.booktitle='Edition note';story.append(h)
 story.append(para('Cover illustration: a symbolic reading of the household world associated with Maya Miriga; not a film still. Cover artwork and design are credited to Project Odisha.','small'))
-for p in ['Documentary photographs retain their creators, sources and licences in the numbered notes. Original line drawings accompany selected passages.',f'{len(order)} readings in {len(plan["parts"])} parts. The longer overview appears in the companion survey. Suggestions and corrections are welcome through [Project Odisha](https://projectodisha.org/cinema/).','Typography: Source Serif 4 and Noto Serif Oriya, licensed under the SIL Open Font License.','[Editorial process](https://projectodisha.org/about/editorial-process/).',f'Ahimanikya Satapathy · Project Odisha · {DATE_TEXT}.']:
+for p in ['Image sources and available creator and licence credits appear in the numbered notes. Original line drawings accompany selected passages.',f'{len(order)} readings in {len(plan["parts"])} parts. The longer overview appears in the companion survey. Suggestions and corrections are welcome through [Project Odisha](https://projectodisha.org/cinema/).','Typography: Source Serif 4 and Noto Serif Oriya, licensed under the SIL Open Font License.','[Editorial process](https://projectodisha.org/about/editorial-process/).',f'Ahimanikya Satapathy · Project Odisha · {DATE_TEXT}.']:
  if PRINT and '[Project Odisha](https://projectodisha.org/cinema/)' in p:
   p=p.replace('[Project Odisha](https://projectodisha.org/cinema/)','[projectodisha.org/cinema/](https://projectodisha.org/cinema/)')
   story.append(Paragraph(inline(p,print_address=False),styles['small']))

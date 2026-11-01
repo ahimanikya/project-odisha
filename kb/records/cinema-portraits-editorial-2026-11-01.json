@@ -1,0 +1,122 @@
+{
+  "id": "POD-CINEMA-PORTRAITS-EDITORIAL-20261101",
+  "status": "implemented_reviewed_local",
+  "authorization": [
+    "User: I think let's use these pictures when you are not sure, unless restricted specifically.",
+    "User: This will now enable us to take pictures from the internet that do not declare reuse, but do not restrict either. Let's take advantage of that."
+  ],
+  "scope": "Apply identified portraits under the user's editorial-use direction, distinguishing declared licences, unresolved rights and explicit restrictions. Preserve concise credits and actual source evidence; do not label unlicensed photographs as licensed or public domain.",
+  "active_article": null,
+  "sequence": [
+    "kanhu-charan-mohanty",
+    "gopal-chhotray",
+    "manmohan-mahapatra",
+    "debi-prasad-lenka",
+    "deependra-samal"
+  ],
+  "workers": {
+    "Disha": {
+      "scope": "Coordinator, classification decisions, recordkeeping, book rebuild and local preview; output/pdf/build_book.py optional licence support; projects/site/tests/cinema-release.test.mjs related credit assertions",
+      "status": "scope_released"
+    },
+    "Anvesha": {
+      "scope": "Reclassify12 existing candidates under explicit-restriction criterion; no public edits",
+      "write_scope": [
+        "outputs/cinema-portraits-editorial-20261101/source-review.json"
+      ],
+      "status": "scope_released"
+    },
+    "Samanta": {
+      "scope": "Sequential integration of the five named profiles, each handed off after independent pre-render review",
+      "write_scope": [
+        "kb/research/people/kanhu-charan-mohanty.md",
+        "kb/research/culture/cinema-series/manifest.json",
+        "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+        "kb/research/media/cinema-series/portraits-2026-11-01/",
+        "projects/site/src/data/cinema.json",
+        "projects/site/public/assets/cinema/",
+        "outputs/cinema-portraits-editorial-20261101/implementation.json",
+        "kb/research/people/gopal-chhotray.md",
+        "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+        "kb/research/people/debi-prasad-lenka.md",
+        "kb/research/people/deependra-samal.md",
+        "projects/site/editions/coast.json",
+        "projects/site/src/lib/cinema-article.mjs",
+        "projects/site/tests/cinema-ux.test.mjs",
+        "projects/site/tests/cinema-image-layout.test.mjs"
+      ],
+      "status": "scope_released"
+    },
+    "Drishti": {
+      "scope": "Independent source/layout quality review; no public edits",
+      "write_scope": [
+        "outputs/cinema-portraits-editorial-20261101/review.json"
+      ],
+      "status": "scope_released"
+    }
+  },
+  "publication_performed": false,
+  "outreach_performed": false,
+  "global_ownership_unchanged": true,
+  "kanhu_pre_render": "PASS; separate reviewer",
+  "gopal_pre_render": "PASS; separate reviewer",
+  "manmohan_pre_render": "PASS; separate reviewer",
+  "debi_pre_render": "PASS; separate reviewer",
+  "deependra_pre_render": "PASS; separate reviewer",
+  "validation": {
+    "independent_review": "outputs/cinema-portraits-editorial-20261101/review.json",
+    "status": "PASS_scoped_editorial_portrait_integration",
+    "targeted_tests": {
+      "pass": 35,
+      "fail": 0
+    },
+    "site_pages": 571,
+    "lead_images": 50,
+    "unique_lead_images": 50,
+    "mobile_profiles_checked": 5,
+    "digital_pages": 246,
+    "print_pages": 254,
+    "page_references_stable": true,
+    "disclosure_gate": "passed",
+    "integrity_report": "outputs/cinema-portraits-editorial-20261101/final-integrity.json"
+  },
+  "outputs": {
+    "preview": "http://127.0.0.1:8775/cinema/",
+    "book_preview": "http://127.0.0.1:8775/cinema/book/",
+    "digital_pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-editorial-portraits.pdf",
+    "print_pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf",
+    "implementation": "outputs/cinema-portraits-editorial-20261101/implementation.json",
+    "source_review": "outputs/cinema-portraits-editorial-20261101/source-review.json"
+  },
+  "rights": {
+    "declared_licence": [
+      "kanhu-charan-mohanty"
+    ],
+    "unverified": [
+      "gopal-chhotray",
+      "manmohan-mahapatra",
+      "debi-prasad-lenka",
+      "deependra-samal"
+    ],
+    "meaning": "User editorial direction recorded; silence about reuse is not permission or public-domain evidence. Original source and creator/broadcast credits retained. No invented licence."
+  },
+  "remaining_candidates": {
+    "held": [
+      "basanta-kumari-patnaik",
+      "kalindi-charan-panigrahi",
+      "manglu-charan-biswal",
+      "gour-prasad-ghose",
+      "parbati-ghose",
+      "pramod-pati",
+      "uttam-mohanty"
+    ],
+    "detail": "See source-review.json for specific limits versus general copyright notices; existing illustrations unchanged."
+  },
+  "limitations": [
+    "Targeted digital layout review, not physical press proof.",
+    "Low-resolution source images retain native softness; no invented detail.",
+    "This is a local review candidate, not a publication or legal clearance."
+  ],
+  "next_action": "User review of the local images and rebuilt books; no further implementation pending in this five-image batch.",
+  "human_approval_claimed": false
+}

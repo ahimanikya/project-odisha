@@ -1,0 +1,62 @@
+{
+  "id": "POD-CINEMA-PORTRAITS-PUBLICATION-20261101",
+  "date": "2026-11-01",
+  "status": "preparing_release",
+  "authorization": {
+    "actor": "Ahimanikya Satapathy",
+    "request": "publish",
+    "scope": "Reviewed seven-profile photograph update and exact rebuilt 246-page digital / 254-page print books"
+  },
+  "baseline": [
+    "kb/records/cinema-portrait-implementation-2026-11-01.json",
+    "kb/records/cinema-portraits-editorial-2026-11-01.json"
+  ],
+  "active_article": null,
+  "global_ownership_unchanged": true,
+  "workers": {
+    "Disha": {
+      "scope": "Metadata activation, integration, explicit Git staging, release assets, publication and receipts"
+    },
+    "Anvesha": {
+      "scope": "Source and credit audit",
+      "write_scope": [
+        "outputs/cinema-portraits-publication-20261101/source-audit.json"
+      ],
+      "status": "completed"
+    },
+    "Samanta": {
+      "scope": "Engineering audit and same-date release manifest test binding",
+      "write_scope": [
+        "outputs/cinema-portraits-publication-20261101/implementation-review.json",
+        "projects/site/tests/cinema-release.test.mjs"
+      ],
+      "status": "completed"
+    },
+    "Drishti": {
+      "scope": "Independent final integrated release review",
+      "write_scope": [
+        "outputs/cinema-portraits-publication-20261101/independent-review.json",
+        "outputs/cinema-portraits-publication-20261101/receipt-review.json"
+      ],
+      "status": "review_in_progress"
+    }
+  },
+  "publication_performed": false,
+  "human_specialist_review_claimed": false,
+  "programme_credit": 0,
+  "remaining_limits": [
+    "Four new images retain unverified reuse rights under recorded editorial direction; no public-domain or permission claim.",
+    "Native low-resolution source softness remains.",
+    "Tagged-PDF accessibility, physical print proof and ISBN remain separate."
+  ],
+  "upstream_reconciliation": {
+    "main": "fa8db6d662166726dc843e98e94e7304c52fd487",
+    "preserved_upstream_paths": 4,
+    "competing_publication_jobs": false,
+    "other_open_pull_requests": [
+      534,
+      304,
+      281
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "status": "source_and_metadata_PASS_final_head_and_build_pending",
+  "reviewed_base_head": "fa8db6d662166726dc843e98e94e7304c52fd487",
+  "scope": "Independent integration delta review; reuses prior actual seven-image source and affected-page visual QA, not a new whole-series audit.",
+  "checks": {
+    "all50_canonical_source_hashes_match_manifest": true,
+    "exact_two_PDF_hashes_and_sizes_match": true,
+    "changed_article_count": 7,
+    "all_seven_body_bytes_unchanged": true,
+    "old_archives_and_previous_same_date_current_books_preserved_exactly": true,
+    "top_level_cinema_changes": [
+      "articles",
+      "review_books",
+      "archived_review_books",
+      "review_book_manifest"
+    ],
+    "same_date_manifest_pointer": "outputs/cinema-portraits-publication-20261101/book-release-manifest.json",
+    "four_upstream_paths_preserved": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/balangir-language-utility-review-2026-11-01.json",
+      "kb/records/nuapada-language-utility-review-2026-11-01.json"
+    ],
+    "credit_renderer": "Required source/creator plus paired licence OR explicit internal unverified status; no fabricated licence for four editorial uses.",
+    "coast_delta": "Seven exact image-download substitutions; no broad exemption.",
+    "tests": "Manifest path allows safe explicit same-date revision path; earlier edition comparison permits equal date while exact archived metadata preserved;30numericcredits expected."
+  },
+  "prior_QA": [
+    "outputs/cinema-portrait-implementation-20261101/review.json",
+    "outputs/cinema-portraits-editorial-20261101/review.json"
+  ],
+  "validation_observed": [
+    {
+      "check": "registers",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/registers.log"
+    },
+    {
+      "check": "bundle",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/bundle.log"
+    },
+    {
+      "check": "team",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/team.log"
+    },
+    {
+      "check": "programme",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/programme.log"
+    },
+    {
+      "check": "catalog",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/catalog.log"
+    },
+    {
+      "check": "site-build",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/site-build.log"
+    },
+    {
+      "check": "site-test",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/site-test.log"
+    },
+    {
+      "check": "disclosures-full",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/disclosures-full.log"
+    },
+    {
+      "check": "coast-build",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/coast-build.log"
+    },
+    {
+      "check": "coast-test",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/coast-test.log"
+    },
+    {
+      "check": "disclosures-coast",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/disclosures-coast.log"
+    }
+  ],
+  "findings": [],
+  "pending": [
+    "Final commit binding",
+    "Remaining coast/publication validation",
+    "Remote asset and deployment evidence handled by coordinator"
+  ],
+  "rights_limit": "Four sources retain rights-unverified editorial-use status, not legal clearance.",
+  "publication_performed_by_reviewer": false,
+  "human_review_claimed": false,
+  "scope_released": false
+}

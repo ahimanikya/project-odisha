@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-01",
+  "status": "bounded second pass complete",
+  "scope": "Gour Prasad Ghose, Parbati Ghose, Pramod Pati, Uttam Mohanty. Evidence only.",
+  "reuse": "outputs/cinema-portrait-search-20261101/root.json",
+  "findings": [
+    {
+      "name": "Gour Prasad Ghose",
+      "disposition": "Stronger archival candidate found; reproduction permission unestablished",
+      "portrait_page": "https://www.gourparbati.com/gallery.php",
+      "best_asset": "root/gour-maa.jpg",
+      "dimensions": [
+        812,
+        1311
+      ],
+      "identity_basis": "Archive caption names Gour Ghose under Maa (1959) gallery; filename r3.jpg. Source association, not independently established date of photography.",
+      "visual_review": "Original pixels inspected: sepia full-length film-era portrait, face larger and composition more usable than prior soft environmental photograph. Face remains naturally soft; avoid artificial detail reconstruction.",
+      "alternative": "root/gour-parbati-laxmi.jpg",
+      "rights": "Family archive footer All Rights Reserved; no reuse licence on inspected gallery. Family custody does not by itself identify photographer or confer public-domain status.",
+      "new_attempts": [
+        {
+          "avenue": "Named film-specific family gallery, rather than previous biography circles and personal snapshots",
+          "result": "Retrieved original Maa portrait and high-resolution Laxmi pair image; original bytes and hashes retained in root/retrieval.json."
+        },
+        {
+          "avenue": "Commons/independent licensed portrait discovery",
+          "result": "No additional licence-bearing image recovered; aggregators do not supply image rights."
+        }
+      ]
+    },
+    {
+      "name": "Parbati Ghose",
+      "disposition": "Stronger archival candidate found; reproduction permission unestablished",
+      "portrait_page": "https://www.gourparbati.com/gallery.php",
+      "best_asset": "root/gour-parbati-laxmi.jpg",
+      "dimensions": [
+        2456,
+        2955
+      ],
+      "identity_basis": "Archive explicitly captions Parbati Ghose & Gour Ghose in its Laxmi (1962) grouping.",
+      "visual_review": "Original pixels inspected: full rectangular monochrome image of both performers, suitable for story context and higher-quality than prior circular biography image. Not a solo portrait; don't mislabel it.",
+      "alternative": "root/parbati-award.jpg",
+      "alternative_review": "829x600 colour group photo, gallery labels Bhumikanya award; contextual group picture with smaller face, less useful as hero. No identities of other people inferred.",
+      "rights": "All Rights Reserved archive; no specific reproduction grant located.",
+      "new_attempts": [
+        {
+          "avenue": "Film-era and named award-gallery originals",
+          "result": "Retrieved and visually inspected both images. Kept full originals. Stamp remains prior known source, not counted as a new portrait."
+        }
+      ]
+    },
+    {
+      "name": "Pramod Pati",
+      "disposition": "New institutional and periodical leads, no newly cleared or newly visually verified portrait",
+      "portrait_page": "https://arcurea.in/museum/",
+      "known_asset": "https://arcurea.in/wp-content/uploads/2024/03/download.jpg",
+      "dimensions": [
+        250,
+        202
+      ],
+      "identity_basis": "Previously inspected museum bio-context image; not a fresh discovery.",
+      "new_attempts": [
+        {
+          "avenue": "Original institutional host policy and faculty monograph provenance",
+          "urls": [
+            "https://srfti.ac.in/",
+            "https://ftii.ac.in/en/faculty/shri-mandar-digrajkar"
+          ],
+          "result": "SRFTI homepage read; no applicable free-reuse grant found. Previously read museum footer reserves rights. FTII lists Pramod Pati research/monograph, no portrait-specific licence."
+        },
+        {
+          "avenue": "Odisha Review original periodical portrait",
+          "urls": [
+            "https://magazines.odisha.gov.in/orissareview/2021/Feb-Mar/engpdf/entire_book.pdf",
+            "https://magazines.odisha.gov.in/Orissareview/2021/Feb-Mar/engpdf/64-67.pdf"
+          ],
+          "result": "Indexed full issue identifies portrait beside biography at printed p64. Web direct PDF retrieval timed out; original-host Python retrieval failed expired TLS certificate. No fresh pixels inspected. Do not claim this is a cleared or recovered portrait."
+        },
+        {
+          "avenue": "Museum Mosaic 2024 original publisher route",
+          "urls": [
+            "https://www.scribd.com/document/1075464917/Museum-Mosaic-2024",
+            "https://www.linkedin.com/posts/cultreapp_in-the-wake-of-international-museum-day-celebrations-activity-7330196902426107904-Bp0G",
+            "https://bit.ly/3FiYjLL"
+          ],
+          "result": "Indexed credits identify museum photographs on pp93–96. Publisher Cultre supplies high-resolution shortlink, but shortlink inaccessible via web tool. No portrait claim or free licence established."
+        }
+      ],
+      "rights": "Museum/photo copyright remains unestablished for reuse. Exclude conservationist Pramod Patil namesake and photographs by Pati that are not of him."
+    },
+    {
+      "name": "Uttam Mohanty",
+      "disposition": "Known identified institutional portrait retained; no better licensed source recovered",
+      "portrait_page": "https://www.srjan.com/gkcmawardee.php",
+      "known_asset": "https://www.srjan.com/admin/images/AwardeeImage/AwardeeImage104.jpg",
+      "dimensions": [
+        300,
+        400
+      ],
+      "identity_basis": "Fresh direct Srjan page names Shri Uttam Mohanty(CINEMA) with its 2024 award entry.",
+      "rights": "Fresh page footer All rights reserved. Reproduction grant unestablished.",
+      "new_attempts": [
+        {
+          "avenue": "Government cultural image records and Flickr",
+          "queries": [
+            "\"Uttam Mohanty\" photo site:odishaculture.gov.in",
+            "\"Uttam Mohanty\" Flickr",
+            "\"Uttam Mohanty\" portrait Flickr license"
+          ],
+          "result": "No image-specific licensed candidate recovered; official annual-reference list confirms award history but supplies no relevant photo."
+        },
+        {
+          "avenue": "Srjan original event-photo collection beyond awardee portrait",
+          "url": "https://www.srjan.com/photograph.php",
+          "result": "Fresh direct page shows photo galleries through 2019; no named 2024 portrait origin or licence isolated. No identity inference from unlabelled gallery images."
+        }
+      ],
+      "excluded": "Previously deleted unsourced Commons file and local Odia Wikipedia nonfree poster crop not promoted to free-use status."
+    }
+  ],
+  "limits": [
+    "No public site/book changes.",
+    "No outreach or purchases.",
+    "Only three newly downloaded family-archive photographs visually inspected by root this pass; hashes and dimensions recorded.",
+    "Archive dates and gallery groupings are attribution context, not independently verified photography dates.",
+    "No inference of image rights from government hosting or public visibility."
+  ],
+  "next_action": "Kanhu retrieval/metadata is in awards/kanhu-* and reviewed separately. Other candidate-specific limitations preserved for independent QA."
+}

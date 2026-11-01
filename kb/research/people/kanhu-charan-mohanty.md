@@ -7,7 +7,7 @@ status: "draft"
 research_date: "2026-10-31"
 human_review_claimed: false
 series_intro: "A working life in government and literature, and novels that carried questions of home and society towards the screen."
-hero_image: "../media/cinema-series/kanhu-charan-household.png"
+hero_image: "../media/cinema-series/portraits-2026-11-01/kanhu-charan-mohanty.png"
 sources: [{"id":"akademi-fellowship","resource":"https://sahitya-akademi.gov.in/library/fellowship_pdf/Shri.%20Kanhu%20Charan%20Mohanty.pdf"},{"id":"orissa-review-2008","resource":"https://magazines.odisha.gov.in/Orissareview/2008/November-2008/engpdf/65-72.pdf"},{"id":"gour-parbati-kaa","resource":"https://www.gourparbati.com/movie_kaa.php"},{"id":"abhinetri-database","resource":"https://odiamoviedb.com/movie/abhinetri/"}]
 ---
 

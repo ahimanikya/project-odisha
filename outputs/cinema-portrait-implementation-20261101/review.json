@@ -1,0 +1,92 @@
+{
+  "status": "PASS_bounded_source_and_PDF_review",
+  "scope": "Independent source/metadata/renderer fragment and four actual PDF opening-page visual checks; no independent browser actions, build or publication.",
+  "human_review_claimed": false,
+  "publication_performed": false,
+  "vishal": {
+    "source_sha256": "134a27f07a51d3a9fda1577cb65056fa6516c5ad0eabd7fc1ec85f01dff92656",
+    "original_sha256": "0a151ce32f0f5f2c8bca5341b1fc031765006f10f72777af0710c7cd1b8e2014",
+    "original_and_native_delivery_byte_identical": true,
+    "four_derivative_hashes_match": true,
+    "canonical_body_unchanged_from_HEAD": true,
+    "canonical_site_metadata_agree": true,
+    "credit": "Shreya Mourya; Commons source; CC0; no unsupported photography date.",
+    "numbered_render": "Actual cinemaArticle fragment produces Source note5 on caption and ordinary note5 with source/licence and matching return anchor.",
+    "layout": {
+      "web_width_px": 380,
+      "book_width_pt": 206,
+      "effective_native_ppi": 150.29126213592232,
+      "fit": "natural uncropped",
+      "card_position": "50% 60%"
+    },
+    "coast_allowance": "Exact old fullimage replaced by /assets/cinema/vishal-mourya-portrait-430w.jpg; no broad exemption.",
+    "historical_illustration": "Retained; no claim of deletion or overwritten provenance."
+  },
+  "findings": [
+    {
+      "id": "credit-preview-context",
+      "severity": "minor",
+      "status": "resolved",
+      "evidence": "Both current PDF full_credit records say Preview cropped. while book photographs are uncropped.",
+      "recommendation": "Change only to Online preview cropped. to identify where the alteration occurs; retain alteration disclosure for the actual online card.",
+      "resolution": "Both metadata files, provenance and both final PDF credit records now say Online preview cropped."
+    }
+  ],
+  "limits": [
+    "Independent visual inspection covers the four named opening pages only, not a full-book reproof.",
+    "Vishal 206pt portrait is approximately150ppi; acceptable observed screen rendering is not a physical press proof.",
+    "Root browser checks are separate; not claimed here.",
+    "Metadata licences do not constitute independent chain-of-title adjudication.",
+    "Final Vishal card recrop is metadata-verified; final card screenshot remains coordinator follow-up, not independently visually certified."
+  ],
+  "pending": [],
+  "scope_released": true,
+  "aparajita": {
+    "source_sha256": "eca801bba845dc6ae3d4b55384b4c691df32c5a96b1d0af06d63f811e90c90e7",
+    "original_sha256": "d419a88510e99eefb98712b4b0e321679b49e8074f6b281f33703382b7c9bafd",
+    "dimensions": [
+      2476,
+      1785
+    ],
+    "body_unchanged_from_HEAD": true,
+    "eight_derivative_hashes_match": true,
+    "credit": "Pragyanparamitadas; Dharitri Das archive; local Odia Wikipedia exact file source; CC BY-SA 3.0. No asserted photographer or photo date.",
+    "caption": "Aparajita Mohanty with fellow actors.",
+    "book": "Complete uncropped group, ordinary numeric note 4; readable caption aligned with image left edge in both editions."
+  },
+  "pdf_review": {
+    "digital": {
+      "sha256": "ae5e69469622acc36f7d2fee80104a4fc72688fcf1b4470e0c5bf19bdca13531",
+      "pages": 246,
+      "full_size_pages_independently_viewed": [
+        78,
+        154
+      ],
+      "chapter_page_references_stable": true,
+      "all_current_source_bindings_match": true,
+      "verdict": "PASS: image/caption alignment, whole group and original portrait framing retained, title and opening prose coherent; no clipping or orphan image-only leaf.",
+      "prior_visual_review_pdf_sha256": "d2abfb61eb17b76fa0f29de800f49a41adbb820c4d192c5e07d9b2ec5316c68a",
+      "final_delta": "Credit wording only; final receipt/actual PDF hash verified, page counts and stable maps unchanged. Earlier four-page visual review not represented as a second full-book review."
+    },
+    "print": {
+      "sha256": "c56591010529c14551fc50ad8dc9c46f8f7022b3f420bdcc272d8fd252fa56e4",
+      "pages": 254,
+      "full_size_pages_independently_viewed": [
+        79,
+        155
+      ],
+      "chapter_page_references_stable": true,
+      "all_current_source_bindings_match": true,
+      "verdict": "PASS: image/caption alignment, whole group and original portrait framing retained, title and opening prose coherent; no clipping or orphan image-only leaf.",
+      "prior_visual_review_pdf_sha256": "55757f96f4df4328c48d6d92bc41acebb5306082d9614c28c28f8de03d89f70c",
+      "final_delta": "Credit wording only; final receipt/actual PDF hash verified, page counts and stable maps unchanged. Earlier four-page visual review not represented as a second full-book review."
+    }
+  },
+  "coordinator_browser_evidence": {
+    "receipt": "outputs/cinema-portrait-implementation-20261101/verification.json",
+    "ownership": "Coordinator browser actions; independently read receipt and viewed Aparajita mobile/card captures.",
+    "observed_screenshot_result": "Complete three-person group on narrow article, aligned caption/numeric note; preview retains all three faces.",
+    "reported_checks": "17 targeted tests PASS; disclosure830files0violations; local book hashes/sizes verified separately from production URL assertions.",
+    "vishal_card_limit": "Final 50%60% metadata independently confirmed; coordinator final screenshot pending at this review."
+  }
+}

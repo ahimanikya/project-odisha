@@ -1,0 +1,97 @@
+{
+  "id": "POD-CINEMA-PORTRAIT-IMPLEMENTATION-20261101",
+  "status": "implemented_reviewed_local",
+  "authorization": "User: lets start, following portrait-source shortlist",
+  "active_article": null,
+  "sequence": [
+    "vishal-mourya",
+    "aparajita-mohanty"
+  ],
+  "scope": "Apply two reviewed open-licence photograph candidates to profiles, their preview cards and book proofs. Preserve original photographs and concise numeric credits. No permission-only images, outreach or publication.",
+  "reuse": [
+    "kb/records/cinema-portrait-search-2026-11-01.json",
+    "outputs/cinema-portrait-search-20261101/review.json"
+  ],
+  "workers": {
+    "Disha": {
+      "scope": "Coordinator, shared records, sequential article acceptance, book proofs and local previews",
+      "scope_released": true
+    },
+    "Anvesha": {
+      "scope": "Final source/caption/licence checks only",
+      "write_scope": [
+        "outputs/cinema-portrait-implementation-20261101/source-check.json"
+      ],
+      "scope_released": true
+    },
+    "Samanta": {
+      "scope": "Vishal integration first, then Aparajita only after coordinator followup",
+      "write_scope": [
+        "kb/research/people/vishal-mourya.md",
+        "kb/research/people/aparajita-mohanty.md",
+        "kb/research/culture/cinema-series/manifest.json",
+        "kb/research/media/cinema-series/portraits-2026-11-01/",
+        "projects/site/src/data/cinema.json",
+        "projects/site/public/assets/cinema/",
+        "outputs/cinema-portrait-implementation-20261101/implementation.json",
+        "projects/site/editions/coast.json",
+        "projects/site/src/lib/cinema-article.mjs",
+        "projects/site/tests/cinema-ux.test.mjs"
+      ],
+      "scope_released": true
+    },
+    "Drishti": {
+      "scope": "Independent quality review after each article plus final bookproof",
+      "write_scope": [
+        "outputs/cinema-portrait-implementation-20261101/review.json"
+      ],
+      "scope_released": true
+    }
+  },
+  "global_ownership_unchanged": true,
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "coordinator_files": [
+    "kb/research/culture/cinema-series/image-layout-2026-10-30.json"
+  ],
+  "vishal_pre_render_review": "PASS; outputs/cinema-portrait-implementation-20261101/review.json",
+  "preview_url": "http://127.0.0.1:8774/cinema/",
+  "article_reviews": {
+    "vishal-mourya": "PASS; source, numbered credit, natural portrait and revisedcard crop",
+    "aparajita-mohanty": "PASS; archive group, numbered credit, full frame and online preview notice"
+  },
+  "completed_on": "2026-11-01",
+  "scope_released": true,
+  "review": "outputs/cinema-portrait-implementation-20261101/review.json",
+  "verification": "outputs/cinema-portrait-implementation-20261101/verification.json",
+  "preview": "outputs/cinema-portrait-implementation-20261101/review-site",
+  "remaining": [
+    "Twelve illustrated profiles still require source, provenance, permission or original-resolution follow-up as recorded in the portrait search.",
+    "Physical print proof has not been made; Vishal source is430x580 (~150ppi at reviewed size).",
+    "This revision is local; current published articles and PDF download metadata remain unchanged."
+  ],
+  "books": [
+    {
+      "edition": "digital",
+      "file": "/archive/odia-cinema-a-living-screen-2026-11-01-portraits.pdf",
+      "bytes": 31455098,
+      "sha256": "ae5e69469622acc36f7d2fee80104a4fc72688fcf1b4470e0c5bf19bdca13531",
+      "pages": 246,
+      "status": "local_review_candidate",
+      "edition_date": "2026-11-01",
+      "readings": 50,
+      "description": "Linked contents and credited photographs."
+    },
+    {
+      "edition": "print",
+      "file": "/archive/odia-cinema-a-living-screen-print-2026-11-01-portraits.pdf",
+      "bytes": 56808015,
+      "sha256": "c56591010529c14551fc50ad8dc9c46f8f7022b3f420bdcc272d8fd252fa56e4",
+      "pages": 254,
+      "status": "local_review_candidate",
+      "edition_date": "2026-11-01",
+      "readings": 50,
+      "description": "Mirrored margins and credited photographs."
+    }
+  ]
+}

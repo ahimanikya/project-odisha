@@ -1,0 +1,253 @@
+{
+  "status": "installed_pending_visual_qa",
+  "active_article": "aparajita-mohanty",
+  "changed_files": [
+    "kb/research/people/vishal-mourya.md",
+    "kb/research/media/cinema-series/portraits-2026-11-01/vishal-mourya.jpg",
+    "kb/research/media/cinema-series/portraits-2026-11-01/vishal-mourya-provenance.json",
+    "projects/site/public/assets/cinema/vishal-mourya-portrait-320w.jpg",
+    "projects/site/public/assets/cinema/vishal-mourya-portrait-320w.webp",
+    "projects/site/public/assets/cinema/vishal-mourya-portrait-430w.jpg",
+    "projects/site/public/assets/cinema/vishal-mourya-portrait-430w.webp",
+    "kb/research/culture/cinema-series/manifest.json",
+    "projects/site/src/data/cinema.json",
+    "projects/site/editions/coast.json"
+  ],
+  "source_sha256": "134a27f07a51d3a9fda1577cb65056fa6516c5ad0eabd7fc1ec85f01dff92656",
+  "original_sha256": "0a151ce32f0f5f2c8bca5341b1fc031765006f10f72777af0710c7cd1b8e2014",
+  "canonical_body_unchanged": true,
+  "other_entries_mutated": false,
+  "derivatives": [
+    {
+      "file": "/assets/cinema/vishal-mourya-portrait-320w.jpg",
+      "width": 320,
+      "height": 432,
+      "format": "jpeg",
+      "bytes": 29977,
+      "sha256": "5792ed87caf9d1d579aaf9d710c7f61fa42cfd7767b15504017490dd9a15cd2d"
+    },
+    {
+      "file": "/assets/cinema/vishal-mourya-portrait-320w.webp",
+      "width": 320,
+      "height": 432,
+      "format": "webp",
+      "bytes": 22528,
+      "sha256": "a0499ec85a857478b7607a44bae8f37f6db9b1358d2a11fcb2c53662cb6ee684"
+    },
+    {
+      "file": "/assets/cinema/vishal-mourya-portrait-430w.jpg",
+      "width": 430,
+      "height": 580,
+      "format": "jpeg",
+      "bytes": 57096,
+      "sha256": "0a151ce32f0f5f2c8bca5341b1fc031765006f10f72777af0710c7cd1b8e2014"
+    },
+    {
+      "file": "/assets/cinema/vishal-mourya-portrait-430w.webp",
+      "width": 430,
+      "height": 580,
+      "format": "webp",
+      "bytes": 40464,
+      "sha256": "9cee775ddf4c02db7bf689b7ff321c626af1ec8c9b5e8ec2a9441e477d5b2fe4"
+    }
+  ],
+  "credit_mechanism": "Existing documentary hero.credit renders normal numbered note.",
+  "pipeline": "Targeted Pillow responsive derivatives and preserved metadata; broad prepare-cinema would reset current books and all entries, so not run.",
+  "suggested_layout": {
+    "web": {
+      "width_px": 380,
+      "ratio": null,
+      "fit": "natural",
+      "position": [
+        50,
+        0
+      ]
+    },
+    "book": {
+      "width_pt": 144,
+      "ratio": null,
+      "fit": "natural",
+      "position": [
+        50,
+        0
+      ]
+    },
+    "book_effective_ppi": 215,
+    "card": "Visual trial uses50%40%; review pending."
+  },
+  "root_required": [
+    "Update layout source binding and sizing",
+    "Replace coast old fullimage allowance with new430wJPEG",
+    "Run coordinated site/book checks"
+  ],
+  "builds_run": false,
+  "publication": false,
+  "historical_assets_retained": true,
+  "attempts": [
+    "Default node lacks module flag; no writes",
+    "Node24 Sharp unavailable at site path; no writes",
+    "Bundled Python Pillow succeeded"
+  ],
+  "checks": {
+    "all_other_metadata_matches_HEAD": {
+      "kb/research/culture/cinema-series/manifest.json": true,
+      "projects/site/src/data/cinema.json": true
+    },
+    "fragment_render": "Blocked by exact image-layout source match until coordinator updates reserved config; no code defect or full build attempted.",
+    "original_and_native_delivery_byte_identical": true
+  },
+  "followup": {
+    "authorization": "Coordinator reserved exact coast allowance and Vishal card position correction before QA",
+    "card_image_position": "50% 40%",
+    "coast_replacement": {
+      "before": "/assets/cinema/vishal-mourya-editorial-1200w.jpg",
+      "after": "/assets/cinema/vishal-mourya-portrait-430w.jpg"
+    },
+    "root_owned_layout": {
+      "web_width_px": 380,
+      "book_width_pt": 206,
+      "approx_ppi": 150
+    },
+    "no_build_performed": true
+  },
+  "aparajita": {
+    "status": "installed_pending_root_layout_and_visual_QA",
+    "changed_files": [
+      "kb/research/people/aparajita-mohanty.md",
+      "kb/research/media/cinema-series/portraits-2026-11-01/aparajita-mohanty-group.jpg",
+      "kb/research/media/cinema-series/portraits-2026-11-01/aparajita-mohanty-group.json",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-320w.jpg",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-320w.webp",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-640w.jpg",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-640w.webp",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-960w.jpg",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-960w.webp",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-1200w.jpg",
+      "projects/site/public/assets/cinema/aparajita-mohanty-archive-1200w.webp",
+      "kb/research/culture/cinema-series/manifest.json",
+      "projects/site/src/data/cinema.json",
+      "projects/site/editions/coast.json",
+      "projects/site/src/lib/cinema-article.mjs"
+    ],
+    "source_sha256": "eca801bba845dc6ae3d4b55384b4c691df32c5a96b1d0af06d63f811e90c90e7",
+    "original_sha256": "d419a88510e99eefb98712b4b0e321679b49e8074f6b281f33703382b7c9bafd",
+    "original_dimensions": [
+      2476,
+      1785
+    ],
+    "original_byte_identical": true,
+    "body_unchanged": true,
+    "other_entries_preserved": {
+      "kb/research/culture/cinema-series/manifest.json": true,
+      "projects/site/src/data/cinema.json": true
+    },
+    "derivatives": [
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-320w.jpg",
+        "width": 320,
+        "height": 231,
+        "format": "jpeg",
+        "bytes": 23889,
+        "sha256": "877643cf96519063a01b08616a525ea5ef846609ddd2de86d4396ddfdeed82dc"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-320w.webp",
+        "width": 320,
+        "height": 231,
+        "format": "webp",
+        "bytes": 19196,
+        "sha256": "8dbeb5e698d014604e490ddb1803040ddefee05e5e7a0810ef8affbbc1367032"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-640w.jpg",
+        "width": 640,
+        "height": 461,
+        "format": "jpeg",
+        "bytes": 72717,
+        "sha256": "e814de18ab59aa84b13125edd5c9b833498d7efcfa4e57cc86a681dd7cbb5940"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-640w.webp",
+        "width": 640,
+        "height": 461,
+        "format": "webp",
+        "bytes": 54692,
+        "sha256": "8992bd6bfaddae9e0b06144aa52f9317ab68041a36904d1807b8651e24ecff20"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-960w.jpg",
+        "width": 960,
+        "height": 692,
+        "format": "jpeg",
+        "bytes": 139468,
+        "sha256": "3e8e15635095c49176508a678626dce9caced9bb8db94944f2137e6875e1cf2d"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-960w.webp",
+        "width": 960,
+        "height": 692,
+        "format": "webp",
+        "bytes": 95620,
+        "sha256": "75ad7c14697f9aee2ed4313ba48a9b449b054ac8a181bf75fb8febc93f907935"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-1200w.jpg",
+        "width": 1200,
+        "height": 865,
+        "format": "jpeg",
+        "bytes": 198733,
+        "sha256": "a05cf3e85f8c4ebcd7b05a8cd0661cca482954df01c812a7ca4987adfd38af8e"
+      },
+      {
+        "file": "/assets/cinema/aparajita-mohanty-archive-1200w.webp",
+        "width": 1200,
+        "height": 865,
+        "format": "webp",
+        "bytes": 132112,
+        "sha256": "a5a5cc5b6acfc29ea36259bd83017c76d50ce232b364ab6788351bace588cf1e"
+      }
+    ],
+    "credit": {
+      "creator": "Pragyanparamitadas; Dharitri Das archive",
+      "source_url": "https://or.wikipedia.org/wiki/File:With_Co-Stars_Debu_Bose_%26_Aparajita.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "notes": "Online preview cropped."
+    },
+    "card_position": "50% 0%",
+    "layout_needed": "Replace old source path; article and book natural completegroup, width fullcolumn; source2476px adequate. No crop except preview3:2 topaligned.",
+    "obsolete_preview_note_removed": true,
+    "uttam_preview_note_preserved": true,
+    "builds_run": false,
+    "historical_illustration_retained": true,
+    "fixture_followup": {
+      "file": "projects/site/tests/cinema-ux.test.mjs",
+      "change": "Expect Uttam alone; assert every documentary hero has no imagined-preview note; retain overview reading-link metadata checks.",
+      "builds_run": false,
+      "validation": {
+        "command": "Node24 node --test projects/site/tests/cinema-ux.test.mjs",
+        "passed": 6,
+        "failed": 0
+      }
+    },
+    "final_credit_refinement": {
+      "before": "Preview cropped.",
+      "after": "Online preview cropped.",
+      "reason": "Distinguish online card crop from complete photograph retained in article and book.",
+      "changed_files": [
+        "kb/research/culture/cinema-series/manifest.json",
+        "projects/site/src/data/cinema.json",
+        "kb/research/media/cinema-series/portraits-2026-11-01/aparajita-mohanty-group.json"
+      ],
+      "canonical_prose_unchanged": true,
+      "builds_run": false
+    }
+  },
+  "vishal_final_focal_adjustment": {
+    "before": "50% 40%",
+    "after": "50% 60%",
+    "reason": "Coordinator browser review found chin cropped; lower preview window retains chin.",
+    "scope": "Card position in canonical manifest and staged data only; original, article geometry and books unchanged.",
+    "builds_run": false
+  }
+}

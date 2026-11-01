@@ -61,11 +61,44 @@ test('reviewed Odia titles retain language while cinema links escape content and
  assert.match(link,/white-space:nowrap">Manisha\) <span aria-hidden="true">→/);
  assert.ok(!cinemaLinkTitle('<img src=x onerror=alert(1)>').includes('<img'));
 });
-test('only the two reviewed imagined actor scenes receive concise preview labels',()=>{
- assert.deepEqual(cinema.articles.filter(a=>cinemaPreviewNote(a)).map(a=>[a.slug,cinemaPreviewNote(a)]),[['uttam-mohanty','Imagined rehearsal'],['aparajita-mohanty','Imagined script discussion']]);
+test('only Uttam’s reviewed imagined scene receives a preview label; documentary photographs remain unlabelled',()=>{
+ assert.deepEqual(cinema.articles.filter(a=>cinemaPreviewNote(a)).map(a=>[a.slug,cinemaPreviewNote(a)]),[['uttam-mohanty','Imagined rehearsal']]);
+ for(const entry of cinema.articles.filter(a=>a.hero.kind==='documentary'))assert.equal(cinemaPreviewNote(entry),undefined,entry.slug+' is a photograph');
  const overview=cinemaArticle(cinema.articles.find(a=>a.slug==='odia-cinema'));
  for(const slug of ['uttam-mohanty','aparajita-mohanty']){
   const entry=cinema.articles.find(a=>a.slug===slug),link=overview.readingLinks.find(a=>a.href===entry.route);
   if(link)assert.equal(link.imageNote,cinemaPreviewNote(entry));
+ }
+});
+
+test('documentary credits require a complete licence or an explicit unverified-rights decision',()=>{
+ const original=cinema.articles.find(a=>a.slug==='gopal-chhotray');
+ const render=credit=>cinemaArticle({...original,hero:{...original.hero,credit}}).fullHTML;
+ const credit={creator:'Brij Mahajan / Library of Congress',source_url:'https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html'};
+ assert.throws(()=>render(credit),/Missing documentary hero credit/);
+ const html=render({...credit,rights_status:'unverified'});
+ assert.ok(html.includes(`href="${credit.source_url}">Source</a>`));
+ assert.ok(!html.includes('Public domain'));
+ assert.ok(html.includes('user-content-fn-cinema-image-1'));
+ for(const partial of [{license:'CC BY 4.0'},{license_url:'https://creativecommons.org/licenses/by/4.0/'}])assert.throws(()=>render({...credit,...partial,rights_status:'unverified'}),/Missing documentary hero credit/);
+ assert.throws(()=>render({...credit,creator:'',rights_status:'unverified'}),/Missing documentary hero credit/);
+ assert.throws(()=>render({...credit,source_url:'javascript:alert(1)',rights_status:'unverified'}),/requires HTTPS/);
+ assert.ok(render({...credit,license:'CC BY 4.0',license_url:'https://creativecommons.org/licenses/by/4.0/'}).includes('>CC BY 4.0</a>'));
+});
+
+
+test('migrated portrait cards use the selected documentary hero rather than retired illustrations',()=>{
+ const chosen={
+  'kanhu-charan-mohanty':'/assets/cinema/kanhu-charan-mohanty-portrait-1080w.jpg',
+  'gopal-chhotray':'/assets/cinema/gopal-chhotray-portrait-200w.jpg',
+  'manmohan-mahapatra':'/assets/cinema/manmohan-mahapatra-portrait-235w.jpg',
+  'debi-prasad-lenka':'/assets/cinema/debi-prasad-lenka-award-564w.jpg',
+  'deependra-samal':'/assets/cinema/deependra-samal-award-695w.jpg',
+ };
+ for(const [slug,file] of Object.entries(chosen)){
+  const entry=cinema.articles.find(a=>a.slug===slug);
+  const hero=entry.images.find(image=>image.role==='title');
+  assert.equal(hero.file,file,slug+' chosen hero');
+  assert.equal(entry.card_image||hero.file,file,slug+' preview card');
  }
 });

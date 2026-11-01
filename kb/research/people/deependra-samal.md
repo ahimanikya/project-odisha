@@ -7,7 +7,7 @@ research_date: "2026-10-27"
 human_review_claimed: false
 sources: [{"id": "deependra-samal-making", "resource": "https://www.cinemaexpress.com/international/interviews/2022/Dec/07/daman-director-vishal-maurya-success-of-my-film-could-be-a-ray-of-hope-for-odia-filmmakers-37464.html"}, {"id": "deependra-samal-certificate", "resource": "https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/CC_Issued_2022.pdf"}, {"id": "deependra-samal-conversation", "resource": "https://thefederal.com/entertainment/its-not-just-kantara-odia-film-daman-is-making-waves-nationwide-meet-the-directors"}, {"id": "deependra-samal-award", "resource": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48"}, {"id": "deependra-samal-parab", "resource": "https://www.linkedin.com/posts/sriprasad-sahoo-4b191a183_teaser-filmmaking-featurefilm-activity-7258783065345253376-e7k3"}]
 author: "Ahimanikya Satapathy"
-hero_image: "../media/cinema-series/daman-makers-2026-10-27/deependra-samal.png"
+hero_image: "../media/cinema-series/portraits-2026-11-01/deependra-samal-award.jpg"
 ---
 
 # Deependra Samal: making room for a different film
