@@ -98,13 +98,13 @@
   ],
   "findings": [],
   "pending": [
-    "Remote upload/download hash verification and subsequent deployment/live verification are separate coordinator release steps, not claimed by this source review."
+    "Hosted CI rerun, deployment and live verification remain coordinator release steps."
   ],
   "rights_limit": "Four sources retain rights-unverified editorial-use status, not legal clearance.",
   "publication_performed_by_reviewer": false,
   "human_review_claimed": false,
   "scope_released": true,
-  "reviewed_source_head": "092ce50b5987615f9561c65f568d591e4e928b3d",
+  "reviewed_source_head": "c73115fd4cfc4742354d982931328245a25ec824",
   "pull_request": 653,
   "final_binding": {
     "all50_source_hashes_rechecked": true,
@@ -112,5 +112,14 @@
     "validation_receipt_sha256": "c4bc8d5375eefb63371d67def574b5bfd9dcc60d38e08998f77c8b8dc5b90be6",
     "manifest_sha256": "c7e7ad4f6a7de95ce00d3530f8ee9b62dd168cf37ba4852af2378d92ca1f9703",
     "source_QA_distinct_from_remote_verification": true
+  },
+  "final_head_followup": {
+    "head": "c73115fd4cfc4742354d982931328245a25ec824",
+    "baseline": "092ce50b5987615f9561c65f568d591e4e928b3d",
+    "result": "PASS",
+    "delta": "Seven files: release/evidence records and one generated coast input hash. No public article, asset, website implementation or PDF changes.",
+    "generated_coast_hash_matches": true,
+    "remote_receipt": "Both200responses, exact reviewed hashes/bytes; independently compared saved coordinator receipt to manifest, no network rerun.",
+    "ci": "First hosted stale-hash failure corrected; rerun still pending, no hosted success claimed."
   }
 }

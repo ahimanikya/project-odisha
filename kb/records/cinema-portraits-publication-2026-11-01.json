@@ -1,7 +1,7 @@
 {
   "id": "POD-CINEMA-PORTRAITS-PUBLICATION-20261101",
   "date": "2026-11-01",
-  "status": "assets_published_site_checks_pending",
+  "status": "published_verified",
   "authorization": {
     "actor": "Ahimanikya Satapathy",
     "request": "publish",
@@ -38,10 +38,10 @@
         "outputs/cinema-portraits-publication-20261101/independent-review.json",
         "outputs/cinema-portraits-publication-20261101/receipt-review.json"
       ],
-      "status": "source_review_pass"
+      "status": "completed"
     }
   },
-  "publication_performed": false,
+  "publication_performed": true,
   "human_specialist_review_claimed": false,
   "programme_credit": 0,
   "remaining_limits": [
@@ -59,7 +59,7 @@
       281
     ]
   },
-  "source_head": "092ce50b5987615f9561c65f568d591e4e928b3d",
+  "source_head": "c73115fd4cfc4742354d982931328245a25ec824",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/653",
   "validation": {
     "local": "PASS",
@@ -67,7 +67,11 @@
     "coast_tests": 544,
     "checks": "outputs/cinema-portraits-publication-20261101/validation.json",
     "three_disclosure_gates": "PASS",
-    "hosted": "pending",
+    "hosted": {
+      "run_id": 41290801890,
+      "status": "success",
+      "source_head": "c73115fd4cfc4742354d982931328245a25ec824"
+    },
     "hosted_first_attempt": {
       "run_id": 41290417286,
       "status": "failed",
@@ -100,5 +104,43 @@
         "planned_release_url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01-portraits/odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf"
       }
     ]
+  },
+  "merge_commit": "8a802dae8a00f19a57cbb96cb4c763aca85fc9f1",
+  "independent_review": {
+    "result": "PASS",
+    "source_head": "c73115fd4cfc4742354d982931328245a25ec824",
+    "receipt": "outputs/cinema-portraits-publication-20261101/independent-review.json"
+  },
+  "deployment": {
+    "run_id": 41291976014,
+    "head_sha": "8a802dae8a00f19a57cbb96cb4c763aca85fc9f1",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41291976014",
+    "receipt": "outputs/cinema-portraits-publication-20261101/deployment-run.json"
+  },
+  "published_verified_at": "2026-11-01T09:24:30.077142+00:00",
+  "live_verification": {
+    "result": "PASS",
+    "pages": 54,
+    "image_files": 249,
+    "receipt": "outputs/cinema-portraits-publication-20261101/live-verification.json",
+    "book_remote_hashes_verified": true,
+    "browser": "Live new download URLs and Aparajita full archival photograph/caption verified.",
+    "screenshots": [
+      "outputs/cinema-portraits-publication-20261101/live-book.png",
+      "outputs/cinema-portraits-publication-20261101/live-aparajita.png"
+    ]
+  },
+  "receipt_integration": {
+    "status": "reviewed_pending_source_integration",
+    "website_redeployment_required": false,
+    "reason": "Receipt and KB index changes only; published content is unchanged.",
+    "completion_evidence_destination": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01-portraits/publication-completion.json"
+  },
+  "independent_receipt_review": {
+    "result": "PASS",
+    "receipt": "outputs/cinema-portraits-publication-20261101/receipt-review.json",
+    "nonblocking_index_clarity": "Resolved by labelling the preceding publication as earlier and using past tense."
   }
 }

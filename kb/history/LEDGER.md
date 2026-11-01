@@ -1335,3 +1335,9 @@ All 50 readings, the people and milestones guide and the exact 246-page digital 
 ### 1 November 2026 · Revised cinema collection and books published
 
 Published all 50 readings, the strengthened people and milestones guide, illustrations and exact 246-page digital / 254-page printable books under the Founder’s instruction. PR649 passed hosted validation; deployment41266621113 succeeded at e315bed1. All54cinema pages and260inline image files match the reviewed release, and both unauthenticated PDF downloads match the recorded bytes and hashes. Earlier editions and newer unrelated work remain intact. Research gaps, tagged-PDF accessibility, physical proof and reader feedback remain separate; no human specialist review or programme increment claimed. [Publication receipt](../records/cinema-publication-2026-11-01.json).
+
+## POD-HIS-CINEMA-PORTRAITS-PUBLICATION-20261101 · Cinema photographs and matching books
+
+**1 November 2026 · published and verified**
+
+Seven profile illustrations were replaced with sourced photographs under the Founder’s editorial and publication direction. All 54 cinema pages and 249 referenced image files matched the live release; the 246-page digital and 254-page print downloads matched their reviewed hashes. Four images retain unverified reuse status. Earlier editions and historical evidence remain intact. See the [publication receipt](../records/cinema-portraits-publication-2026-11-01.json).
