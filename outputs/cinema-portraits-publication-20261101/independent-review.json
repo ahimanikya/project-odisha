@@ -1,0 +1,116 @@
+{
+  "status": "PASS_integrated_source_release_candidate",
+  "reviewed_base_head": "fa8db6d662166726dc843e98e94e7304c52fd487",
+  "scope": "Independent integration delta review; reuses prior actual seven-image source and affected-page visual QA, not a new whole-series audit.",
+  "checks": {
+    "all50_canonical_source_hashes_match_manifest": true,
+    "exact_two_PDF_hashes_and_sizes_match": true,
+    "changed_article_count": 7,
+    "all_seven_body_bytes_unchanged": true,
+    "old_archives_and_previous_same_date_current_books_preserved_exactly": true,
+    "top_level_cinema_changes": [
+      "articles",
+      "review_books",
+      "archived_review_books",
+      "review_book_manifest"
+    ],
+    "same_date_manifest_pointer": "outputs/cinema-portraits-publication-20261101/book-release-manifest.json",
+    "four_upstream_paths_preserved": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/balangir-language-utility-review-2026-11-01.json",
+      "kb/records/nuapada-language-utility-review-2026-11-01.json"
+    ],
+    "credit_renderer": "Required source/creator plus paired licence OR explicit internal unverified status; no fabricated licence for four editorial uses.",
+    "coast_delta": "Seven exact image-download substitutions; no broad exemption.",
+    "tests": "Manifest path allows safe explicit same-date revision path; earlier edition comparison permits equal date while exact archived metadata preserved;30numericcredits expected."
+  },
+  "prior_QA": [
+    "outputs/cinema-portrait-implementation-20261101/review.json",
+    "outputs/cinema-portraits-editorial-20261101/review.json"
+  ],
+  "validation_observed": [
+    {
+      "check": "registers",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/registers.log"
+    },
+    {
+      "check": "bundle",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/bundle.log"
+    },
+    {
+      "check": "team",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/team.log"
+    },
+    {
+      "check": "programme",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/programme.log"
+    },
+    {
+      "check": "catalog",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/catalog.log"
+    },
+    {
+      "check": "site-build",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/site-build.log"
+    },
+    {
+      "check": "site-test",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/site-test.log"
+    },
+    {
+      "check": "disclosures-full",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/disclosures-full.log"
+    },
+    {
+      "check": "coast-build",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/coast-build.log"
+    },
+    {
+      "check": "coast-test",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/coast-test.log"
+    },
+    {
+      "check": "disclosures-coast",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/disclosures-coast.log"
+    },
+    {
+      "check": "publication-build",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/publication-build.log"
+    },
+    {
+      "check": "disclosures-publication",
+      "exit_code": 0,
+      "log": "outputs/cinema-portraits-publication-20261101/disclosures-publication.log"
+    }
+  ],
+  "findings": [],
+  "pending": [
+    "Remote upload/download hash verification and subsequent deployment/live verification are separate coordinator release steps, not claimed by this source review."
+  ],
+  "rights_limit": "Four sources retain rights-unverified editorial-use status, not legal clearance.",
+  "publication_performed_by_reviewer": false,
+  "human_review_claimed": false,
+  "scope_released": true,
+  "reviewed_source_head": "092ce50b5987615f9561c65f568d591e4e928b3d",
+  "pull_request": 653,
+  "final_binding": {
+    "all50_source_hashes_rechecked": true,
+    "both_PDF_hashes_rechecked": true,
+    "validation_receipt_sha256": "c4bc8d5375eefb63371d67def574b5bfd9dcc60d38e08998f77c8b8dc5b90be6",
+    "manifest_sha256": "c7e7ad4f6a7de95ce00d3530f8ee9b62dd168cf37ba4852af2378d92ca1f9703",
+    "source_QA_distinct_from_remote_verification": true
+  }
+}

@@ -6,6 +6,7 @@ author: "Ahimanikya Satapathy"
 status: "draft"
 research_date: "2026-10-31"
 human_review_claimed: false
+hero_image: "../media/cinema-series/portraits-2026-11-01/aparajita-mohanty-group.jpg"
 series_intro: "Aparajita Mohanty’s acting and producing connect the work of learning from another woman with contributing to a new film."
 sources: [{"id":"mcl-imraan2025","resource":"https://www.mycitylinks.in/ghosts-deserve-a-seat-at-the-table-story-writer-imraan-on-bou-buttu-bhutta"},{"id":"performer-anita","resource":"https://www.newindianexpress.com/states/odisha/2018/May/12/veteran-actor-anita-das-passes-away-1813646.html"},{"id":"toi-production2012","resource":"https://timesofindia.indiatimes.com/entertainment/regional/movie-details/news-interviews/ollywood-at-a-glance-in-2012/articleshow/17805708.cms"}]
 ---

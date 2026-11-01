@@ -7,7 +7,7 @@ research_date: "2026-10-25"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
 sources: [{"id": "cinema-new-wave", "title": "“The New Wave Cinema of Odisha”", "resource": "https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf"}, {"id": "cinema-manmohan-mahapatra-panorama", "title": "Indian Panorama 1985 catalogue", "resource": "https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf"}, {"id": "cinema-seeta", "title": "29th National Film Awards catalogue", "resource": "https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "colleagues", "title": "Exit of a cinematic giant", "resource": "https://www.orissapost.com/exit-of-a-cinematic-giant/"}]
-hero_image: "../../media/cinema-series/manmohan-mahapatra-title.png"
+hero_image: "../../media/cinema-series/portraits-2026-11-01/manmohan-mahapatra-nfa31.png"
 series_intro: "Move closer to households under pressure and the collaborators who gave their stories form."
 series_position: 5
 series_part: "Films and Filmmakers"

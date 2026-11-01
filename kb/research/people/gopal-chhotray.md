@@ -6,6 +6,7 @@ author: "Ahimanikya Satapathy"
 status: "draft"
 research_date: "2026-10-29"
 human_review_claimed: false
+hero_image: "../media/cinema-series/portraits-2026-11-01/gopal-chhotray-loc.jpg"
 sources: [{"id": "sova", "resource": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Indian_Listener_Vol._XXII_No._15.pdf"}, {"id": "archive", "resource": "https://odiabibhaba.in/en/compilations/gopal-chhotray-e/"}, {"id": "award", "resource": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2005/pdf/recipients_of_kendra_sahitya.pdf"}, {"id": "loc", "resource": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html"}, {"id": "jagannath", "resource": "https://www.gourparbati.com/movie_sri_jagannath.php"}, {"id": "maa", "resource": "https://www.gourparbati.com/movie_maa.php"}]
 ---
 

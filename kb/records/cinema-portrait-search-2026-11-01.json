@@ -1,0 +1,94 @@
+{
+  "id": "POD-CINEMA-PORTRAIT-SEARCH-20261101",
+  "status": "research_complete_reviewed",
+  "authorization": "User requested a deep search for portraits of people currently represented by illustrations",
+  "scope": "14 existing person profiles; authentic-image identity, provenance, explicit reuse basis and quality. Research only; no article/image replacement, publication, outreach or purchases.",
+  "active_article": null,
+  "prior_release_complete": "outputs/cinema-publication-20261101/publication-completion.json",
+  "reuse": [
+    "kb/records/cinema-portraits-2026-10-27.json",
+    "outputs/cinema-expansion-20261031/uttam-mohanty-evidence.json",
+    "outputs/cinema-expansion-20261031/aparajita-mohanty-evidence.json",
+    "projects/site/src/data/cinema.json"
+  ],
+  "workers": {
+    "Disha": {
+      "scope": "Historic filmmakers and DAMaN makers; integrate evidence and shared records",
+      "scope_released": true
+    },
+    "Anvesha": {
+      "scope": "Five writers; source and rights research",
+      "write_scope": [
+        "outputs/cinema-portrait-search-20261101/writers.json",
+        "outputs/cinema-portrait-search-20261101/pramod.json"
+      ],
+      "scope_released": true
+    },
+    "Samanta": {
+      "scope": "Uttam and Aparajita; inspect repositories and explicit image metadata",
+      "write_scope": [
+        "outputs/cinema-portrait-search-20261101/actors.json"
+      ],
+      "scope_released": true
+    },
+    "Drishti": {
+      "scope": "Separate final evidence/identity/reuse review",
+      "write_scope": [
+        "outputs/cinema-portrait-search-20261101/review.json"
+      ],
+      "scope_released": true
+    }
+  },
+  "global_task_ownership_unchanged": true,
+  "publication_performed": false,
+  "human_permission_inferred": false,
+  "completed_on": "2026-11-01",
+  "scope_released": true,
+  "review": "outputs/cinema-portrait-search-20261101/review.json",
+  "shortlist": "outputs/cinema-portrait-search-20261101/shortlist.json",
+  "coverage": {
+    "illustrated_person_profiles": 14,
+    "source_leads": 14,
+    "useful_open_licence_candidates": 2,
+    "open_licence_candidates": [
+      "Vishal Mourya—CC0-labelled430x580portrait; modest web size",
+      "Aparajita Mohanty—CCBYSA3.0-labelled2476x1785archivegroup; source/author attribution preserved"
+    ],
+    "historical_provenance_holds": [
+      "Kanhu Charan Mohanty",
+      "Gopal Chhotray"
+    ],
+    "other_source_or_permission_followups": 10
+  },
+  "evidence_packets": [
+    "outputs/cinema-portrait-search-20261101/inventory.json",
+    "outputs/cinema-portrait-search-20261101/writers.json",
+    "outputs/cinema-portrait-search-20261101/actors.json",
+    "outputs/cinema-portrait-search-20261101/root.json",
+    "outputs/cinema-portrait-search-20261101/pramod.json",
+    "outputs/cinema-portrait-search-20261101/commons-root-file-metadata.json",
+    "outputs/cinema-portrait-search-20261101/award-gallery-image-metadata.json",
+    "outputs/cinema-portrait-search-20261101/pixel-inspection.json",
+    "outputs/cinema-portrait-search-20261101/shortlist.json",
+    "outputs/cinema-portrait-search-20261101/review.json"
+  ],
+  "independent_review": {
+    "role": "Drishti",
+    "performed": true,
+    "type": "Separate AI research quality review, not human or legal approval",
+    "result": "PASS_bounded_research_conclusions_with_candidate_limits"
+  },
+  "validation": [
+    "All14inventoryslugs covered exactly once byshortlist",
+    "AllsavedJSONparsed",
+    "Rootinspecteddownloadedoriginalpixels and recordedactualdimensions",
+    "Separatequalityreview acrossall14, no requiredcorrections"
+  ],
+  "production_changes": false,
+  "deployment_required": false,
+  "deployment_reason": "Evidence-only portrait search; no public content or assets changed.",
+  "outreach_performed": false,
+  "purchases_performed": false,
+  "programme_credit": 0,
+  "next_action": "Select final image/crop/credit for the two open-licence candidates; obtain original-resolution files or permission/source clarification for the remaining leads before replacing illustrations."
+}

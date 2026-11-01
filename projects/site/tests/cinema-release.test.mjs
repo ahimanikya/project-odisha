@@ -15,7 +15,7 @@ test('manifest canonical articles preserve notes, captions and source hashes',()
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,entry.slug+' duplicate anchors');
   for(const [,target]of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(target),entry.slug+' '+target);
   assert.equal((html.match(/<figure\b/g)||[]).length,entry.images.length,entry.slug+' figures');
-  const heroCaption=html.match(/<figure class="cinema-hero[^"]*"[^>]*>[\s\S]*?<figcaption>([\s\S]*?)<\/figcaption>/)?.[1];assert.ok(heroCaption,entry.slug+' visible hero caption');if(entry.hero.kind==='documentary'){assert.ok(entry.hero.credit?.creator);const escaped=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');assert.ok(html.includes(escaped(entry.hero.credit.creator)),entry.slug+' visible creator credit');assert.ok(heroCaption.includes('href="#user-content-fn-cinema-image-1"'),entry.slug+' caption links to credit');assert.ok(!heroCaption.includes('Credit:'),entry.slug+' credit moved to notes');for(const value of [entry.hero.credit.source_url,entry.hero.credit.license_url])assert.ok(html.includes('href="'+escaped(new URL(value).href)+'"'),entry.slug+' linked documentary credit');assert.ok(html.includes(escaped(entry.hero.credit.license)));}else if(entry.hero.kind==='author-portrait'){assert.equal(heroCaption,'Ahimanikya Satapathy.');assert.ok(!html.includes('id="image-credits"'));assert.ok(!entry.hero.credit?.license);}else assert.match(heroCaption,/\b(?:illustration|imagined)\b/i,entry.slug+' clearly labelled illustration');assert.ok(!/AI-generated|Human Natural Editorial|Editorial Natural/.test(html),entry.slug+' production explanation reserved for process page');
+  const heroCaption=html.match(/<figure class="cinema-hero[^"]*"[^>]*>[\s\S]*?<figcaption>([\s\S]*?)<\/figcaption>/)?.[1];assert.ok(heroCaption,entry.slug+' visible hero caption');if(entry.hero.kind==='documentary'){assert.ok(entry.hero.credit?.creator);const escaped=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');assert.ok(html.includes(escaped(entry.hero.credit.creator)),entry.slug+' visible creator credit');assert.ok(heroCaption.includes('href="#user-content-fn-cinema-image-1"'),entry.slug+' caption links to credit');assert.ok(!heroCaption.includes('Credit:'),entry.slug+' credit moved to notes');for(const value of [entry.hero.credit.source_url,...(entry.hero.credit.license_url?[entry.hero.credit.license_url]:[])])assert.ok(html.includes('href="'+escaped(new URL(value).href)+'"'),entry.slug+' linked documentary credit');if(entry.hero.credit.license)assert.ok(html.includes(escaped(entry.hero.credit.license)));else assert.equal(entry.hero.credit.rights_status,'unverified',entry.slug+' records unresolved rights explicitly');}else if(entry.hero.kind==='author-portrait'){assert.equal(heroCaption,'Ahimanikya Satapathy.');assert.ok(!html.includes('id="image-credits"'));assert.ok(!entry.hero.credit?.license);}else assert.match(heroCaption,/\b(?:illustration|imagined)\b/i,entry.slug+' clearly labelled illustration');assert.ok(!/AI-generated|Human Natural Editorial|Editorial Natural/.test(html),entry.slug+' production explanation reserved for process page');
   assert.ok(html.includes('Footnotes &amp; Sources')||html.includes('Footnotes & Sources'),entry.slug+' sources');
   assert.ok(html.includes('/contribute/?page='+encodeURIComponent(entry.route)),entry.slug+' update route');
   assert.ok(readingLinks.length,entry.slug+' reading links');assert.equal(hero.file,entry.images.find(i=>i.role==='title').file);
@@ -172,7 +172,11 @@ test('author introduction leads to literature and preserves the expanded collect
 
 test('current review books match the reviewed release manifest and retain all earlier editions',()=>{
  const date=cinema.review_books[0].edition_date;assert.match(date,/^\d{4}-\d{2}-\d{2}$/);
- const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-'+date.replaceAll('-','')+'/book-release-manifest.json'),'utf8'));
+ const manifestPath=cinema.review_book_manifest??('outputs/cinema-publication-'+date.replaceAll('-','')+'/book-release-manifest.json');
+ assert.equal(typeof manifestPath,'string');
+ assert.ok(!path.isAbsolute(manifestPath)&&!manifestPath.includes('\\')&&!manifestPath.split('/').some(segment=>segment==='..'||segment==='.'),'manifest must be a canonical root-relative path');
+ assert.match(manifestPath,/^outputs\/[A-Za-z0-9_-]+\/book-release-manifest\.json$/);
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,manifestPath),'utf8'));
  assert.equal(manifest.edition_date,date);assert.equal(manifest.readings,cinema.review_books[0].readings);
  assert.equal(cinema.review_books.length,2);const releaseBases=new Set();
  for(const b of cinema.review_books){
@@ -193,7 +197,7 @@ test('current review books match the reviewed release manifest and retain all ea
   for(const [key,value]of Object.entries(archived))assert.deepEqual(actual[key],value);
  }
  for(const archived of cinema.archived_review_books){
-  assert.match(archived.edition_date,/^\d{4}-\d{2}-\d{2}$/);assert.ok(archived.edition_date<date);
+  assert.match(archived.edition_date,/^\d{4}-\d{2}-\d{2}$/);assert.ok(archived.edition_date<=date);
   assert.ok(Number.isInteger(archived.readings)&&archived.readings>0);
   assert.match(archived.file,/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\/[^/]+\/[^/]+\.pdf$/);
  }
@@ -217,7 +221,7 @@ test('image attributions continue the regular source-note sequence with matching
   assert.equal(new Set(sourceIds).size,sourceIds.length);
   for(const [,caption]of html.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g))assert.ok(!/>\s*(?:Photo credit|Image credit)\s*</.test(caption));
  }
- assert.equal(total,23,'all required image attributions retained in regular notes, including Bijay Mohanty');
+ assert.equal(total,30,'all required image attributions retained in regular notes, including the seven sourced portrait replacements');
 });
 
 test('overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition',()=>{

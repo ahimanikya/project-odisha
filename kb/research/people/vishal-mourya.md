@@ -7,7 +7,7 @@ research_date: "2026-10-27"
 human_review_claimed: false
 sources: [{"id": "vishal-mourya-journey", "resource": "https://planetbollywood.com/wp/interviews/i-am-hoping-the-hindi-version-of-daman-gets-a-lot-of-love-from-the-audience-vishal-mourya/"}, {"id": "vishal-mourya-bundelkhand", "resource": "https://filmbazaarindia.com/media/2548/viewing-room-catalogue_s.pdf"}, {"id": "vishal-mourya-mentis", "resource": "https://mentisfilms.com/aboutus.php"}, {"id": "vishal-mourya-award", "resource": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48"}]
 author: "Ahimanikya Satapathy"
-hero_image: "../media/cinema-series/daman-makers-2026-10-27/vishal-mourya.png"
+hero_image: "../media/cinema-series/portraits-2026-11-01/vishal-mourya.jpg"
 ---
 
 # Vishal Mourya: finding a filmmaking language together

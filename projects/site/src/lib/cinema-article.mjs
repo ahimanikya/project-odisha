@@ -56,9 +56,10 @@ function heroCaption(entry){
  const caption=escape(entry.hero.caption||'Editorial illustration; not a film still, historical photograph or reconstruction of a documented scene.');
  if(entry.hero.kind!=='documentary')return caption;
  const credit=entry.hero.credit;
- if(!credit?.creator||!credit.source_url||!credit.license||!credit.license_url)throw Error('Missing documentary hero credit '+entry.slug);
+ const hasLicense=Boolean(credit?.license)&&Boolean(credit?.license_url);
+ if(!credit?.creator||!credit.source_url||Boolean(credit.license)!==Boolean(credit.license_url)||(!hasLicense&&credit.rights_status!=='unverified'))throw Error('Missing documentary hero credit '+entry.slug);
  const href=value=>{const url=new URL(value);if(url.protocol!=='https:')throw Error('Documentary credit requires HTTPS '+entry.slug);return escape(url.href);};
- return `<span class="cinema-image-credit">Credit: ${escape(credit.creator)}. <a href="${href(credit.source_url)}">Source</a> · <a href="${href(credit.license_url)}">${escape(credit.license)}</a>${credit.notes?`. ${escape(credit.notes)}`:''}</span>`;
+ return `<span class="cinema-image-credit">Credit: ${escape(credit.creator)}. <a href="${href(credit.source_url)}">Source</a>${hasLicense?` · <a href="${href(credit.license_url)}">${escape(credit.license)}</a>`:''}${credit.notes?`. ${escape(credit.notes)}`:''}</span>`;
 }
 const knownRoutes={'kb/research/culture/prahallad-nataka.md':'/stories/prahlada-nataka/','kb/research/culture/ashta-nayika.md':'/stories/ashta-nayika/','kb/research/culture/odissi-abhinaya.md':'/stories/odissi-abhinaya/','kb/research/culture/champu-and-sakhi.md':'/literature/champu-and-sakhi/'};
 // Exact maintenance-copy replacements only. Historical dates and source-note records remain intact.
@@ -101,7 +102,7 @@ export function cinemaLinkTitle(text){
  if(!match)return '';
  return cinemaLabelHtml(match[1])+`<span class="cinema-link-tail" style="white-space:nowrap">${cinemaLabelHtml(match[2])} <span aria-hidden="true">→</span></span>`;
 }
-export function cinemaPreviewNote(entry){return {'uttam-mohanty':'Imagined rehearsal','aparajita-mohanty':'Imagined script discussion'}[entry?.slug];}
+export function cinemaPreviewNote(entry){return {'uttam-mohanty':'Imagined rehearsal'}[entry?.slug];}
 export function cinemaLineArt(html,slug,items=cinemaNarrative.line_art||[]){
  const selected=items.filter(item=>item.slug===slug);const seen=new Set();
  for(const item of selected){

@@ -7,7 +7,7 @@ research_date: "2026-10-27"
 human_review_claimed: false
 sources: [{"id": "debi-prasad-lenka-catalogue", "resource": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "debi-prasad-lenka-background", "resource": "https://in.bookmyshow.com/person/debi-prasad-lenka/2021303"}, {"id": "debi-prasad-lenka-training", "resource": "https://odishapostepaper.com/uploads/epaper/2022-12/639484d5e6380.pdf"}, {"id": "debi-prasad-lenka-mentis", "resource": "https://mentisfilms.com/aboutus.php"}, {"id": "debi-prasad-lenka-partnership", "resource": "https://planetbollywood.com/wp/interviews/i-am-hoping-the-hindi-version-of-daman-gets-a-lot-of-love-from-the-audience-vishal-mourya/"}, {"id": "debi-prasad-lenka-bundelkhand", "resource": "https://filmbazaarindia.com/media/2548/viewing-room-catalogue_s.pdf"}, {"id": "debi-prasad-lenka-workshop", "resource": "https://thefederal.com/entertainment/its-not-just-kantara-odia-film-daman-is-making-waves-nationwide-meet-the-directors"}, {"id": "debi-prasad-lenka-award", "resource": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48"}]
 author: "Ahimanikya Satapathy"
-hero_image: "../media/cinema-series/daman-makers-2026-10-27/debi-prasad-lenka.png"
+hero_image: "../media/cinema-series/portraits-2026-11-01/debi-prasad-lenka-award.jpg"
 ---
 
 # Debi Prasad Lenka: shaping the story, from script to edit
