@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "verifier_sha256": "d5775973ea76f73529f06b092bb73c2c45dabceb0471d9d7c14c085a83134cf1",
+  "scope": "Read-only review of live verifier and precedent receipt consistency; no network run by reviewer.",
+  "verifier_assessment": "Suitable for bounded equality of expected main text, main href lists and rendered cinema image bytes on50article+4utility routes. Exceptions abort rather than produce PASS.",
+  "recommended_guard": [
+    "Assert54unique routes and nonempty expected/actual main content to avoid vacuous equality.",
+    "Record expected source/artifact revision with result."
+  ],
+  "limits": [
+    "Does not test target anchor IDs, clickable behavior, CSS/JS, visual layout or assistive technology.",
+    "Image fetches cover main img/source src/srcset cinema assets, not all full-size href-only downloads.",
+    "PDF verification is linked prior remote receipt, not repeated in this script."
+  ],
+  "receipt_requirements": [
+    "PR649 merge must equal e315bed1dc3541761fcb3beedc2b967c7e6dfbdd.",
+    "Deployment41266621113 must finish success at same merged revision before published_verified.",
+    "Actual live result must contain54pages and actual inspected image count; all equality fields pass.",
+    "Exact released PDF hash/bytes must match activated1Nov metadata,246/254pages; all archives remain.",
+    "Independent source review revision f44ce28e remains distinct from merge revision.",
+    "No human specialist, reader response, physical proof or PDF/UA claims."
+  ],
+  "publication_verified": true,
+  "human_review_claimed": false,
+  "scope_released": true,
+  "independent_ai_review": true,
+  "actual_checks": {
+    "deployment": "41266621113 completed success at e315bed1dc3541761fcb3beedc2b967c7e6dfbdd",
+    "live_pages": 54,
+    "unique_live_routes": 54,
+    "inline_image_files": 260,
+    "failed_page_or_image_rows": 0,
+    "screenshot_viewed": "outputs/cinema-publication-20261101/live-book.png",
+    "screenshot_result": "Visible1November2026 edition,50readings,246/254pages,31.8/57.7MB; no browser actions by reviewer.",
+    "PDFs": "Remote verification URLs/bytes/hashes match activated metadata and exact reviewed files.",
+    "guard_changes": "54unique routes and nonempty local/live main assertions now present; source and deployment heads recorded.",
+    "record_checks": "Six saved validator commands exit0.",
+    "operations": "Cinema pointer updated, unrelated work preserved; Unicode escape change is semantically identical.",
+    "scope": "Published_verified supported; receipt-integration still explicitly open, no premature human/specialist/AT or programme increment claim."
+  },
+  "findings": [
+    {
+      "severity": "minor_record_wording",
+      "file": "kb/index.md",
+      "issue": "Earlier preparation paragraph retains present-tense statement that31October links remain active and publication has not occurred, contradicting current publication paragraph.",
+      "requested_fix": "Put preparation-only state explicitly in past tense; preserve historical receipt.",
+      "status": "resolved",
+      "resolution": "Historical preparation paragraph now uses past tense, distinguishing it from current published state."
+    }
+  ],
+  "recommended_guard_status": "Both recommended guards implemented; no remaining verifier correction.",
+  "remaining_integration": "Coordinator retains evidence-only receipt merge/checks and completion persistence; this review does not claim that later integration has already completed."
+}

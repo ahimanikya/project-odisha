@@ -1,6 +1,6 @@
 {
-  "status": "merge_and_source_pass_awaiting_activated_head",
-  "head": "dffb9bef37066b4a1a33e3b6a6bbb36d70b8c8c7",
+  "status": "PASS_local_integrated_publication_artifact",
+  "head": "f44ce28e6bb95184bf1e375065da55227412d9d8",
   "reviewed_package_commit": "d7fcd82d",
   "upstream_commit": "00eb4044",
   "independent_ai_review": true,
@@ -39,9 +39,95 @@
   },
   "findings": [],
   "pending": [
-    "Activated metadata after remote verification",
-    "Final committed generated index/workbench and exact head",
-    "Current production build/live verification owned by coordinator"
+    "Hosted CI completion, deployment and live verification"
   ],
-  "scope_released": false
+  "scope_released": true,
+  "prior_merge_review_head": "dffb9bef37066b4a1a33e3b6a6bbb36d70b8c8c7",
+  "activation_review": {
+    "metadata_exactly_matches_reviewed_activation_plan": true,
+    "all_prior_archives_preserved": true,
+    "source_hash_mismatches": [],
+    "remote_evidence": "outputs/cinema-publication-20261101/remote-book-verification.json",
+    "remote_evidence_scope": "Coordinator unauthenticated public downloads, compared here against activated URL/hash/byte tuples; no separate reviewer download.",
+    "current_manifest_tracks_reviewed_assets": true,
+    "production_no_local_candidate_paths": true,
+    "book_template": "Available PDF edition/published wording for released status; dynamic1November date,246/254pages; earlier editions remain separate.",
+    "focused_tests": {
+      "command": "node --test tests/cinema-release.test.mjs",
+      "passed": 22,
+      "failed": 0
+    },
+    "delta_from_merge": "Only activation metadata/release evidence and regenerated search-index/workbench; no canonical article/image/template/builder changes."
+  },
+  "final_publication_artifact": {
+    "cinema_routes": 54,
+    "local_references_checked": 4904,
+    "missing_routes_assets": [],
+    "missing_anchors": [],
+    "private_markers": [],
+    "book_entries": [
+      {
+        "edition": "digital",
+        "date": "2026-11-01",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "print",
+        "date": "2026-11-01",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "digital",
+        "date": "2026-10-31",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "print",
+        "date": "2026-10-31",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "digital",
+        "date": "2026-10-30",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "print",
+        "date": "2026-10-30",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "digital",
+        "date": "2026-10-27",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      },
+      {
+        "edition": "print",
+        "date": "2026-10-27",
+        "url_present": true,
+        "pages_present": true,
+        "size_present": true
+      }
+    ],
+    "available_published_label": true,
+    "no_local_candidate_pdf_links": true,
+    "coast_routes": 936,
+    "coast_missing": [],
+    "source_mismatches": [],
+    "publication_bytes": 702832481
+  }
 }
