@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "method": "CUA browser interactions and read-only DOM measurements against rebuilt projects/site/dist served at127.0.0.1:8772; no user study or AT certification",
+  "checks": [
+    {
+      "page": "/cinema/",
+      "viewport": [
+        1280,
+        900
+      ],
+      "document_width": 1280,
+      "start_link_top": 535.015625,
+      "target_height": 49.1484375,
+      "hero_top": 752.4140625
+    },
+    {
+      "page": "/cinema/",
+      "viewport": [
+        320,
+        780
+      ],
+      "document_width": 320,
+      "start_link_top": 579.46875,
+      "central_route_top": 641.703125,
+      "target_heights": [
+        46.234375,
+        76.46875
+      ]
+    },
+    {
+      "page": "/cinema/reading-guide/#central-reading-route",
+      "viewport": [
+        320,
+        780
+      ],
+      "keyboard_navigation_from_hub": true,
+      "heading_top": 192.7578125,
+      "document_width": 320
+    },
+    {
+      "page": "/cinema/the-question-that-brought-me-here/",
+      "viewport": [
+        390,
+        844
+      ],
+      "narrative_toc_absent": true,
+      "document_width": 390,
+      "keyboard_continue_to": "/cinema/literature-and-screen/"
+    },
+    {
+      "page": "/cinema/pratikshya/",
+      "viewport": [
+        390,
+        844
+      ],
+      "document_width": 390,
+      "drawing_loaded": true,
+      "drawing_width": 240,
+      "drawing_next_element": "cinema-narrative-continue",
+      "drawing_after": "final economics-link paragraph",
+      "full_collection_navigation_distinguished": true,
+      "redundant_related_heading_visually_absent": true
+    },
+    {
+      "page": "/cinema/book/",
+      "archive_closed_initially": true,
+      "keyboard_enter_opens": true,
+      "archive_links": 6,
+      "keyboard_enter_closes": true,
+      "focus_remains_on_summary": true,
+      "published_downloads_date": "2026-10-31",
+      "print_instructions_beside_downloads": true
+    }
+  ],
+  "viewport_override_reset": true,
+  "screenshots": [
+    {
+      "path": "outputs/cinema-ux-implementation-20261101/hub-desktop.png",
+      "sha256": "62bf379e792064626db0966bd10d767b1b12091a597314205e48b91ac54a5524"
+    },
+    {
+      "path": "outputs/cinema-ux-implementation-20261101/hub-320.png",
+      "sha256": "8f526f7a6b6b5e94b9ad515cd9e80deab2891cef9399e6bdb3419ee2d87e587d"
+    },
+    {
+      "path": "outputs/cinema-ux-implementation-20261101/guide-mobile.png",
+      "sha256": "ef7615960881f21d7b75d4e194934be88a84312f2d109dc307a8c664ee8ef22f"
+    },
+    {
+      "path": "outputs/cinema-ux-implementation-20261101/pratikshya-ending-mobile.png",
+      "sha256": "4c37457d2ce6e88b19aca631c69250cf4ddad59d7d1085e606ff3103b23eaf9b"
+    },
+    {
+      "path": "outputs/cinema-ux-implementation-20261101/pratikshya-ending-final.png",
+      "sha256": "f8b5d35f82f542c1f4332650069d1cc4a1c2f08f691176c47087c90d8ef7cfd2"
+    }
+  ],
+  "limitation": "Browser interaction sampled affected pages; all50article structure checked separately."
+}

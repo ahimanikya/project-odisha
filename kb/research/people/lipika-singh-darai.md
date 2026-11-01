@@ -16,13 +16,11 @@ By Ahimanikya Satapathy
 
 After seeing a curated puppetry programme in 2013, Lipika Singh Darai wondered how much a city audience understood about the practitioners beyond their performance. In her account to journalist Nandini Ramnath, that question became a reason to seek them in their own surroundings.[^scroll-backstage]
 
-Her question asked for time with the people beyond their performance. *Backstage* grew through that longer attention.
-
 ## Finding the people behind the puppets
 
 Darai recalled asking rickshaw pullers at a station how to find the puppeteer **Maguni Charan Kuanr**, then meeting him at his home in Keonjhar. She worked with cinematographer **Indraneel Lahiri**[^iffi-backstage] and a crew over several years, with other filmmaking between periods of production.[^scroll-backstage]
 
-At the Mumbai International Film Festival in 2022, she spoke of spending a year and a half on research. The official account identifies her as *Backstage*’s director and editor.[^pib-miff2022] Research, filming and editing belong to different stages of the work; her account makes the time before the finished film visible.
+At the Mumbai International Film Festival in 2022, she spoke of spending a year and a half on research. The official account identifies her as *Backstage*’s director and editor.[^pib-miff2022]
 
 Ramnath’s report places the puppeteers’ livelihoods and changing forms alongside their art.[^scroll-backstage] An audience’s enjoyment and a performer’s ability to continue meet within the same story. The [Bhukha reading](../culture/cinema-series/bhukha.md) approaches that relationship through a fictional screen world; *Backstage* brings documentary attention to particular practitioners.
 
@@ -44,7 +42,7 @@ An imagined conversation leaves room for a present voice and for what remains be
 
 ## Follow the listening
 
-The [search for Sita Bibaha](../culture/cinema-series/searching-for-sita-bibaha.md) follows another project, where surviving records and remembered voices become material for filmmaking. That history has its own chapter here. Darai’s profile invites us to keep her wider practice beside it: recording, editing, returning to material and working with others.
+In the [search for Sita Bibaha](../culture/cinema-series/searching-for-sita-bibaha.md), she turns to surviving records and remembered voices. That search follows another kind of listening.
 
 ## Footnotes & Sources
 

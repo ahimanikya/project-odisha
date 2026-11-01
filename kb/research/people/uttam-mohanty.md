@@ -16,13 +16,11 @@ By Ahimanikya Satapathy
 
 **Jayiram Samal** remembered Uttam Mohanty wanting to improve each shot. **Mahasweta Ray** remembered the hard work they brought to sets with limited amenities.[^uttam-colleagues2025]
 
-These recollections bring us close to the work before a performance reaches its audience: trying again, responding to another actor, finding what a scene needs. A familiar face on screen belongs to a person working among other people.
-
 ## Working with others
 
-Filmmaker **Sabyasachi Mohapatra** remembered Mohanty’s responsiveness, alongside a talent he described as natural and untrained.[^uttam-craft2025] The observation holds two things together: what a performer brings and what changes through working with someone else.
+Filmmaker **Sabyasachi Mohapatra** remembered Mohanty’s responsiveness, alongside a talent he described as natural and untrained.[^uttam-craft2025]
 
-The [Sabyasachi Mohapatra profile](sabyasachi-mohapatra.md) follows that shared work from the filmmaker’s side.
+The [Sabyasachi Mohapatra profile](sabyasachi-mohapatra.md) follows the filmmaker’s other collaborations.
 
 ## Friendship across screen rivalry
 
@@ -34,9 +32,7 @@ The opposition within a story and the affection between its performers can coexi
 
 **Kuna Tripathy** remembered encouragement for newcomers and help offered to crew members. Producer **Pradyumna Lenka** recalled Mohanty helping filmmakers through difficulties involving finance and post-production.[^uttam-colleagues2025]
 
-A film can be held up at several stages. The [cinema economics reading](../culture/cinema-series/cinema-economics.md) follows those practical relationships between making a film and bringing it to viewers. Lenka’s recollection gives that larger discussion a personal connection.
-
-The audience sees the finished performance. These colleagues remembered the willingness to work on it, and the help that reached beyond it. Alongside the [overview’s account of performers audiences returned to](../culture/odia-cinema.md), their memories invite us to notice the quieter contributions around a familiar screen presence.
+Lenka’s recollection connects this help with the practical work of [bringing a film to viewers](../culture/cinema-series/cinema-economics.md).
 
 ## Footnotes & Sources
 

@@ -2,7 +2,7 @@
 import Shell from '../layouts/Shell.astro';
 import ReviewedCultureArticle from './ReviewedCultureArticle.astro';
 import ArticleReadingPath from './ArticleReadingPath.astro';
-import {cinema,cinemaArticle,cinemaNavigationLabel} from '../lib/cinema-article.mjs';
+import {cinema,cinemaArticle,cinemaNavigationLabel,cinemaLabelHtml,cinemaLinkTitle} from '../lib/cinema-article.mjs';
 const {entry}=Astro.props;
 const {article,readingSections,afterReading,hero}=cinemaArticle(entry);
 article.html=`<p class="cinema-reading-intro">${entry.series_intro.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')}</p>`+article.html;
@@ -13,10 +13,10 @@ const sequence=[index>0?{entry:cinema.articles[index-1],direction:'Previous'}:nu
 <Shell title={article.title} description={entry.series_intro} active="explore" related={false} shareImage={{src:hero.file,alt:entry.hero.alt,width:hero.width,height:hero.height}}>
  <div class="cinema-reader"><ReviewedCultureArticle article={article}>
   <p slot="intro" class="cinema-context"><a href="/cinema/">Odia cinema</a><span aria-hidden="true"> · </span><span>{part?.title}</span></p>
-  <section id="further-reading" class="cinema-further-reading"><h2>Further reading</h2>{readingSections.map(section=><Fragment><div set:html={section.before}/>{section.compactReferences ? <section id={section.id} class="cinema-references"><h3>{section.heading}</h3><ul>{section.links.map(link=><li><a href={link.href}>{link.title}</a></li>)}</ul></section> : <ArticleReadingPath uniformImages id={section.id} heading={section.heading} headingLevel={3} compact links={section.links}/>}</Fragment>)}</section>
+  <section id="further-reading" class="cinema-further-reading"><h2>Further reading</h2>{readingSections.map(section=><Fragment><div set:html={section.before}/>{section.compactReferences ? <section id={section.id} class="cinema-references">{!section.hideHeading&&<h3>{section.heading}</h3>}<ul>{section.links.map(link=><li><a href={link.href}><Fragment set:html={cinemaLabelHtml(link.title)}/></a></li>)}</ul></section> : <ArticleReadingPath class={section.hideHeading?'cinema-related-unheaded':undefined} uniformImages id={section.id} heading={section.heading} headingLevel={3} compact links={section.links}/>}</Fragment>)}</section>
   <div class="cinema-update" set:html={afterReading}/>
-  <nav class="cinema-sequence" aria-label="Reading sequence">{sequence.map(n=><a href={n.entry.route} rel={n.direction==='Next'?'next':'prev'}><span>{n.direction}</span>{n.direction==='Previous'&&<span aria-hidden="true">← </span>}{cinemaNavigationLabel(n.entry)}{n.direction==='Next'&&<span aria-hidden="true"> →</span>}</a>)}</nav>
-  <nav class="cinema-utilities" aria-label="Cinema collection"><a href="/cinema/">All {cinema.articles.length} readings</a><a href="/cinema/book/">Read or print the book</a><a href="/cinema/watch/">Find something to watch</a><a href="/cinema/reading-guide/">People and turning points</a></nav>
+  <nav class="cinema-sequence" aria-label="Full collection reading sequence">{sequence.map(n=><a href={n.entry.route} rel={n.direction==='Next'?'next':'prev'}><span>{n.direction} in full collection</span>{n.direction==='Previous'&&<span aria-hidden="true">← </span>}<Fragment set:html={n.direction==='Next'?cinemaLinkTitle(cinemaNavigationLabel(n.entry)):cinemaLabelHtml(cinemaNavigationLabel(n.entry))}/></a>)}</nav>
+  <nav class="cinema-utilities" aria-label="Cinema collection"><a href="/cinema/">All {cinema.articles.length} readings</a><a href="/cinema/book/">Read or print the book</a><a href="/cinema/watch/">Find something to watch</a><a href="/cinema/reading-guide/#reading-paths">Reading paths and connections</a></nav>
  </ReviewedCultureArticle></div>
 </Shell>
 <style>
@@ -75,4 +75,13 @@ const sequence=[index>0?{entry:cinema.articles[index-1],direction:'Previous'}:nu
 :global(.cinema-reader .article-reading.reviewed-culture .cinema-line-art){width:var(--line-art-width);max-width:100%;margin:2rem auto;break-inside:avoid}
 :global(.cinema-reader .article-reading.reviewed-culture .cinema-line-art img){display:block;width:100%;height:auto;max-height:none;aspect-ratio:var(--line-art-ratio);object-fit:contain;margin:0}
 :global(.cinema-reader .article-reading.reviewed-culture .cinema-line-art-caption){font-size:.8rem;line-height:1.5;text-align:left;margin:.5rem 0 0}
+</style>
+
+<style>
+:global(.cinema-reader .cinema-related-unheaded>h3){display:none}
+</style>
+
+<style>
+/* Match bilingual heading rhythm without tightening Odia body text. */
+:global(body.utk .cinema-reader .article-reading h1 [lang="or"]){line-height:inherit}
 </style>

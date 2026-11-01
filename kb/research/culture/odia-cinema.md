@@ -365,35 +365,35 @@ Availability and subscription terms can change by location.
 
 [^lahari]: Press Information Bureau, [72nd National Film Awards for 2024](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286143&lang=1&reg=3), 18 July 2026, Best Odia Film entry.
 
-[^karma-contemporary]: Arindam Ganguly, [“Four Odia flicks to clash at box office”](https://www.orissapost.com/four-odia-flicks-to-clash-at-box-office/), OrissaPOST, 8 October 2024. Pre-release account of Karma’s director, lead actor and investigator role; not evidence of eventual revenue.
-[^pratikshya-actor]: PIB, [IFFI53 cast-and-crew account of Pratikshya](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Synopsis, Gourahari Das story connection and Dipanwit’s lead-role testimony. Festival appearance is distinct from the film’s award eligibility year.
-[^bou-commercial]: Express News Service, [“KJo’s Dharma Productions to remake ‘Bou Buttu Bhuta’”](https://www.newindianexpress.com/states/odisha/2025/Sep/24/kjos-dharma-productions-to-remake-bou-buttu-bhuta), 24 September 2025. Reported cast, budget, revenue and acquisition-in-progress notice. The revenue figure is not clearly specified as net/gross or by territory; no audited profitability, all-time ranking or later deal completion is asserted.
-[^raja-audiences]: Express News Service, [“Amid cinema hall crisis, ‘Raja’ releases run to packed houses”](https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses), 18 June 2025. Contemporary reporting and named distributor testimony; not an audience survey or a current statewide theatre census.
+[^karma-contemporary]: Arindam Ganguly, [“Four Odia flicks to clash at box office”](https://www.orissapost.com/four-odia-flicks-to-clash-at-box-office/), OrissaPOST, 8 October 2024. Pre-release report.
+[^pratikshya-actor]: PIB, [IFFI53 cast-and-crew account of Pratikshya](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Festival testimony; not the award-year record.
+[^bou-commercial]: Express News Service, [“KJo’s Dharma Productions to remake ‘Bou Buttu Bhuta’”](https://www.newindianexpress.com/states/odisha/2025/Sep/24/kjos-dharma-productions-to-remake-bou-buttu-bhuta), 24 September 2025. Revenue basis (net/gross and territory) unspecified; acquisition reported in progress, not completed.
+[^raja-audiences]: Express News Service, [“Amid cinema hall crisis, ‘Raja’ releases run to packed houses”](https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses), 18 June 2025. Dated reporting and distributor testimony.
 
-[^first-play]: Minati Singha, [“Sita Bibaha prints lost”](https://timesofindia.indiatimes.com/city/bhubaneswar/sita-bibaha-prints-lost/articleshow/8116754.cms), The Times of India, 29 April 2011, paragraph identifying Kamapal Mishra’s play. Retrospective attribution; the original play edition was not inspected. Its missing-print report is not a current preservation survey.
-[^stage-roots]: Piyush Roy, [The Aesthetics of Emotional Acting](https://era.ed.ac.uk/bitstream/handle/1842/22910/Roy2017.pdf?isAllowed=y&sequence=1), University of Edinburgh PhD thesis, title page 2016, repository release 2017, printed pp.137–139 and 143–144. Goswami’s performing background and Roy’s 2014 interview with Surya Deo. The latter is an attributed historical reading, not a fresh viewing of the film.
-[^gitinatya]: Alok Baral, [“Communication Through Folk Elements: A Study in Modern Odia Drama”](https://www.caluniv.ac.in/global-mdia-journal/COMMENTARY-DEC%202013/Commentary_2_Alok_Baral.pdf), Global Media Journal–Indian Edition 4(2), December 2013, p.3, “Exploring the Geetinatya Style.” Theatre scholarship; a shared practitioner does not establish adaptation of a particular musical play.
-[^radio-archive]: Odia Bibhaba, [Gopal Chhotray collection](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/), biographical account of AIR Cuttack’s 1948 opening and Chhotray’s association. This dates the Cuttack institution, not the beginning of all Odia broadcasting or listening elsewhere.
-[^chhotray-loc]: Library of Congress, [Gopal Chhotray: South Asian Literary Recordings Project](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html), author profile and recording catalogue. Work across genres and association with AIR.
-[^jagannath-dialogue]: Gour–Parbati archive, [Sri Jagannath (1950)](https://www.gourparbati.com/movie_sri_jagannath.php), film credits. “Dialogue” names Gopal Chhottray; “Director & Screenplay” names C.R. Mitra. Spelling follows each source.
+[^first-play]: Minati Singha, [“Sita Bibaha prints lost”](https://timesofindia.indiatimes.com/city/bhubaneswar/sita-bibaha-prints-lost/articleshow/8116754.cms), The Times of India, 29 April 2011, Kamapal Mishra play attribution; original edition uninspected. Historical missing-print report.
+[^stage-roots]: Piyush Roy, [The Aesthetics of Emotional Acting](https://era.ed.ac.uk/bitstream/handle/1842/22910/Roy2017.pdf?isAllowed=y&sequence=1), University of Edinburgh PhD thesis, title page 2016, repository release 2017, printed pp.137–139 and 143–144. Includes Roy’s 2014 interview with Surya Deo.
+[^gitinatya]: Alok Baral, [“Communication Through Folk Elements: A Study in Modern Odia Drama”](https://www.caluniv.ac.in/global-mdia-journal/COMMENTARY-DEC%202013/Commentary_2_Alok_Baral.pdf), Global Media Journal–Indian Edition 4(2), December 2013, p.3, “Exploring the Geetinatya Style.”
+[^radio-archive]: Odia Bibhaba, [Gopal Chhotray collection](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/), biography; AIR Cuttack’s 1948 opening.
+[^chhotray-loc]: Library of Congress, [Gopal Chhotray: South Asian Literary Recordings Project](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html), author profile and recording catalogue.
+[^jagannath-dialogue]: Gour–Parbati archive, [Sri Jagannath (1950)](https://www.gourparbati.com/movie_sri_jagannath.php), film credits.
 
 [^restoration]: Il Cinema Ritrovato, [Māyā Miriga, 2024 programme](https://festival.ilcinemaritrovato.it/en/film/maya-miriga/), screening date, filmmaker’s note and restoration account.
-[^foundation]: Kapilas Bhuyan, [“75 Years of Odiya Film Making: A Flashback”](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399), IFFI retrospective hosted by PIB, 22 November 2010. Opening chronology, music and literary-adaptation paragraphs. An authored retrospective, not a surviving 1936 screening programme.
-[^gour-parbati]: [Gour–Parbati filmography](https://www.gourparbati.com/filmography.php), compiled by Khirod Naik and Shekhar Barman. Entries distinguish production from directing and identify the collective directing credit “Siddharth.”
+[^foundation]: Kapilas Bhuyan, [“75 Years of Odiya Film Making: A Flashback”](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399), IFFI retrospective hosted by PIB, 22 November 2010. Historical retrospective; not a 1936 programme.
+[^gour-parbati]: [Gour–Parbati filmography](https://www.gourparbati.com/filmography.php), compiled by Khirod Naik and Shekhar Barman.
 [^parbati-film]: Gour–Parbati archive, [*Chha Mana Atha Guntha* (1986)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php), story, direction, screenplay and cast credits.
-[^ofdc]: Odisha Film Development Corporation, [RTI Manual 1](https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang), incorporation date and objectives. Institutional remit is not a claim that every service operated continuously.
+[^ofdc]: Odisha Film Development Corporation, [RTI Manual 1](https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang), incorporation date and objectives.
 [^maya-national]: Directorate of Film Festivals, [31st National Film Awards catalogue](https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf), Second Best Feature Film citation: films of 1983, awards in 1984. Indexed catalogue text.
 [^maya-cannes]: Semaine de la Critique, [*Maya Miriga*, 1984](https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga), official selection record.
-[^maya-mannheim]: International Film Festival Mannheim–Heidelberg, [1984 archive](https://www.iffmh.de/festival/history/1984/index_eng.html), award list. The historical Third World competition category is reproduced to avoid conflation with the overall prize.
+[^maya-mannheim]: International Film Festival Mannheim–Heidelberg, [1984 archive](https://www.iffmh.de/festival/history/1984/index_eng.html), award list. Third World competition category.
 [^seeta]: [29th National Film Awards catalogue](https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf), Best Oriya Film citation for 1981; and [Indian Panorama 1985 catalogue](https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf), Manmohan Mahapatra biography naming Paris and Montreal screenings. Indexed catalogue text.
-[^new-wave]: Ashok Palit, [“The New Wave Cinema of Odisha”](https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf), *E-CineIndia*, October–December 2024, pp.3–4 and 6. Used for attributed critical descriptions, not as a substitute for festival award registers.
-[^bhukha-play]: Riyan Ramanath V, [“Film highlights struggle to survive in rural Odisha”](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms), *The Times of India*, 28 November 2012, paragraphs on *Bhukha*’s play source and folk drummers. Used for those details only; the report’s relative-year arithmetic is inconsistent and is not adopted.
+[^new-wave]: Ashok Palit, [“The New Wave Cinema of Odisha”](https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf), *E-CineIndia*, October–December 2024, pp.3–4 and 6. Critical essay.
+[^bhukha-play]: Riyan Ramanath V, [“Film highlights struggle to survive in rural Odisha”](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms), *The Times of India*, 28 November 2012, Play-source and folk-drummer passages; relative chronology inconsistent.
 [^sala]: Directorate of Film Festivals, [Indian Panorama 2014 catalogue](https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf), printed p.031, producer biography recording *Sala Budha*’s 2013 Panorama selection.
-[^aadim]: PIB, [62nd National Film Awards results](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636), 24 March 2015, Best Odiya Film category for 2014. Language-category wording follows the award record.
+[^aadim]: PIB, [62nd National Film Awards results](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636), 24 March 2015, Best Odiya Film category for 2014.
 [^sambalpuri-study]: Amrit Amlan Pattanaik, [“Reading auteurship and subregional subjectivities in the Sambalpuri cinema of Sabyasachi Mohapatra”](https://intellectdiscover.com/content/journals/10.1386/safm_00105_1), *Studies in South Asian Film & Media* 17(2), pp.153–172. Issue dated December 2025; publisher lists online publication on 27 March 2026. Abstract and bibliography consulted; full article unavailable.
 [^sadhu]: Directorate of Film Festivals, [22nd National Film Awards catalogue](https://www.dff.nic.in/images/Documents/94_22ndNfacatalogue.pdf), Best Actor citation for Sadhu Meher in *Ankur*, films of 1974. Indexed catalogue text.
 [^nandita-roots]: Nandita Das, [“I am still searching for a place to call home”](https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/), *Open*, 2013.
-[^nandita-acting]: Nandita Das, [Acting](https://nanditadas.com/acting/), “Biswaprakash – The Young Rebel”: 1999, director Susant Misra, language Oriya. An acting credit, not a claim that every film in her career is Odia.
+[^nandita-acting]: Nandita Das, [Acting](https://nanditadas.com/acting/), “Biswaprakash – The Young Rebel”: 1999, director Susant Misra, language Oriya.
 
 [^nandita-cannes]: Festival de Cannes, [Nandita Das](https://www.festival-cannes.com/en/p/nandita-das/), official jury and film-selection history.
 [^surya-jury]: Press Information Bureau, [72nd National Film Awards for 2024](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286143&lang=1&reg=3), 18 July 2026; East regional feature-film jury membership.
@@ -402,58 +402,58 @@ Availability and subscription terms can change by location.
 [^daman]: PIB, [70th National Film Awards results](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2045960&lang=2&reg=48), 16 August 2024, Best Odia Film for 2022. This is the Odia film *Daman*, not the unrelated Hindi film of 2001.
 
 
-[^current-screening]: [District, INOX SGBL Square Mall, 25 October 2026](https://www.district.in/movies/inox-sgbl-square-mall-town-hall-road-cuttack-CD1029236?fromdate=2026-10-25). Date-specific public listing inspected 25 October 2026; seats not checked.
+[^current-screening]: [District, INOX SGBL Square Mall, 25 October 2026](https://www.district.in/movies/inox-sgbl-square-mall-town-hall-road-cuttack-CD1029236?fromdate=2026-10-25). Listing inspected 25 October 2026; seats unchecked.
 
-[^daman-national-release]: [Two new films signal there’s hope for Odia movie industry](https://www.newindianexpress.com/entertainment/2022/Nov/13/two-new-films-signal-theres-hope-for-odia-movie-industry-2517844.html). The New Indian Express, 13 November 2022. Release geography and reported attendance; no market-level receipts.
+[^daman-national-release]: [Two new films signal there’s hope for Odia movie industry](https://www.newindianexpress.com/entertainment/2022/Nov/13/two-new-films-signal-theres-hope-for-odia-movie-industry-2517844.html). The New Indian Express, 13 November 2022. Release and attendance report; no market receipts.
 
 [^phalgun-australia]: [Phalgun Chaitra to be premiered in Australia](https://www.orissapost.com/phalgun-chaitra-to-be-premiered-in-australia/). Post News Network, OrissaPOST, 26 April 2023. An announcement of planned screenings.
 
-[^odia-overseas-streaming]: [Overseas markets emerge as big opportunity for local streaming platforms as diaspora seeks more regional content](https://www.livemint.com/industry/media/overseas-markets-big-opportunity-local-streaming-platforms-regional-stories-zee5-ott-diaspora-hoichoi-11743406476365.html). Lata Jha, Mint, 1 April 2025. AAO NXT founder’s account of diaspora demand; the article’s general regional-OTT percentage is not Odia-specific.
+[^odia-overseas-streaming]: [Overseas markets emerge as big opportunity for local streaming platforms as diaspora seeks more regional content](https://www.livemint.com/industry/media/overseas-markets-big-opportunity-local-streaming-platforms-regional-stories-zee5-ott-diaspora-hoichoi-11743406476365.html). Lata Jha, Mint, 1 April 2025. AAO NXT founder’s account; regional-OTT percentages are not Odia-specific.
 
-[^phalgun-followup]: [“Phalguna Chaitra returns to theatres”](https://odishapostepaper.com/uploads/epaper/2023-07/64b06e4f9229c.pdf), OrissaPOST, 14 July 2023. Indexed text of the original newspaper PDF; full PDF not inspected. The report’s multi-country screening claim is not an independently audited release or revenue total.
+[^phalgun-followup]: [“Phalguna Chaitra returns to theatres”](https://odishapostepaper.com/uploads/epaper/2023-07/64b06e4f9229c.pdf), OrissaPOST, 14 July 2023. Indexed newspaper text; full PDF uninspected. Reported screenings, not audited release or revenue totals.
 
-[^television-bridge]: Prasar Bharati, [DD Odia](https://prasarbharati.gov.in/dd-oriya/), official satellite-service history and programme catalogue. These dates do not mark the first television transmissions in Odisha.
+[^television-bridge]: Prasar Bharati, [DD Odia](https://prasarbharati.gov.in/dd-oriya/), official satellite-service history and programme catalogue.
 
-[^ott-bridge]: Basil Kannagi Arasu, [Tarang Plus launch report](https://onlytech.com/tarang-plus-first-odia-ott-otv/), OnlyTech, 4 November 2019. Launch-era offering; historical subscription terms are not presented as current.
+[^ott-bridge]: Basil Kannagi Arasu, [Tarang Plus launch report](https://onlytech.com/tarang-plus-first-odia-ott-otv/), OnlyTech, 4 November 2019. Historical launch offering.
 
 [^builders-training]: BPFTIO, [admissions](https://bpftio.ac.in/admission-aid/); OJEE, [2026 revised counselling brochure](https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/06/202606181156372451.pdf), printed pp. 6 and 18, B.CAT admission and streams.
 
-[^builders-society]: [Nirad Mohapatra’s memorial biography](https://niradmohapatra.com/about-me/), teaching, Cinexstasy and appreciation-course account. Retrospective biography; no audience totals adopted.
+[^builders-society]: [Nirad Mohapatra’s memorial biography](https://niradmohapatra.com/about-me/), retrospective biography.
 
-[^builders-preservation]: Film Heritage Foundation, [Maya Miriga restoration account and credits](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/). Named institutions are credited collectively; individual conservators are not all identified.
+[^builders-preservation]: Film Heritage Foundation, [Maya Miriga restoration account and credits](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/).
 
-[^builders-state]: Odisha Industries Department, [Activities Report 2021–22](https://industries.odisha.gov.in/sites/default/files/2023-09/Activity%20Report_2021-22_0.pdf), final two pages; [The New Indian Express, 26 March 2021](https://www.newindianexpress.com/cities/bhubaneswar/2021/Mar/26/odisha-cm-naveen-patnaik-lays-stone-for-kalinga-studio-development-2281805.html), identifies the then chief minister. Projected spending, deadlines and jobs are not treated as outcomes.
+[^builders-state]: Odisha Industries Department, [Activities Report 2021–22](https://industries.odisha.gov.in/sites/default/files/2023-09/Activity%20Report_2021-22_0.pdf), final two pages; [The New Indian Express, 26 March 2021](https://www.newindianexpress.com/cities/bhubaneswar/2021/Mar/26/odisha-cm-naveen-patnaik-lays-stone-for-kalinga-studio-development-2281805.html), identifies the then chief minister. Projected spending and jobs, not outcomes.
 
-[^builders-opening]: Chief Minister’s Office, [Kalinga Studio inauguration](https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum), 5 October 2026. Official event record, not an independent assessment of facility use.
+[^builders-opening]: Chief Minister’s Office, [Kalinga Studio inauguration](https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum), 5 October 2026. Inauguration announcement.
 
-[^uttam-technology]: [Actor, Heartthrob, Superstar](https://www.mycitylinks.in/actor-heartthrob-superstar). Jyoti Prakash Sahoo, MyCityLinks, 15 July 2018; Uttam Mohanty’s recollections of shooting conditions and an audience encounter.
+[^uttam-technology]: [Actor, Heartthrob, Superstar](https://www.mycitylinks.in/actor-heartthrob-superstar). Jyoti Prakash Sahoo, MyCityLinks, 15 July 2018; Uttam Mohanty’s recollections.
 
-[^private-facility]: [Mute Entertainment Private Limited / Mute Studio](https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute), India Cine Hub. Indexed directory entry. Crowd-sourced listing of advertised services, not verified current capacity, quality or a documented film client.
+[^private-facility]: [Mute Entertainment Private Limited / Mute Studio](https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute), India Cine Hub. Indexed, crowd-sourced directory; advertised services, capacity unverified.
 
-[^children-babula-parliament]: Lok Sabha, 7 December 1987, printed pp. 99–100, CFSI production list for financial year 1985–86. Indexed parliamentary record; financial year is not an exact theatrical release date. [Read source](https://eparlib.sansad.in/bitstream/123456789/2965152/1/lsd_08_09_07-12-1987.pdf).
-[^children-babula-arsenal]: Arsenal Berlin, Kino in Indien catalogue, 1986, Odia-cinema overview. Historical catalogue synopsis; no priority claim or fresh full-film viewing. Odia title spelling also appears in [OdishaLIVE](https://odisha.live/2018/02/07/ଏମାନଙ୍କ-କ୍ୟାରିଅର୍-ଅଭିମା/). [Read source](https://www.arsenal-berlin.de/assets/Legacy/katalog_blaetter/1986_KinoInIndien_komplett.pdf).
+[^children-babula-parliament]: Lok Sabha, 7 December 1987, printed pp. 99–100, CFSI production list for financial year 1985–86. Indexed record; financial year, not release date. [Read source](https://eparlib.sansad.in/bitstream/123456789/2965152/1/lsd_08_09_07-12-1987.pdf).
+[^children-babula-arsenal]: Arsenal Berlin, Kino in Indien catalogue, 1986, Odia-cinema overview. Historical catalogue synopsis. Odia title spelling also appears in [OdishaLIVE](https://odisha.live/2018/02/07/ଏମାନଙ୍କ-କ୍ୟାରିଅର୍-ଅଭିମା/). [Read source](https://www.arsenal-berlin.de/assets/Legacy/katalog_blaetter/1986_KinoInIndien_komplett.pdf).
 [^children-lavanya-nfa]: [41st National Film Awards catalogue](https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf), Best Children’s Film,1993.
 [^child-ganesha]: [“Ganesha comes alive through animation,” The New Indian Express](https://www.newindianexpress.com/states/odisha/2010/Sep/02/ganesha-comes-alive-through-animation-183512.html); planned series and voice credits.
 
 [^children-hanuman-cbfc]: Central Board of Film Certification, certificates issued 2022, p.127, Return of Hanuman, 11 February 2022, certificate VIL/1/10/2022-DEL. Video certification is not the original film’s release date. [Read source](https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/CC_Issued_2022.pdf).
-[^children-hanuman-provider]: Airtel Xstream, Return of Hanuman catalogue listing, checked 26 October 2026. Lists 2007, Odia, animation and children’s entertainment; playback, audio, subscription and territory not tested. The displayed Odia title is an editorial transliteration of the provider’s English title; an official Odia title spelling was not verified. Listing and certification runtimes differ and are not assumed to describe the same cut. [Read source](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915).
+[^children-hanuman-provider]: Airtel Xstream, Return of Hanuman catalogue listing, checked 26 October 2026. Lists 2007 and Odia animation; playback/audio untested. Odia title is an editorial transliteration, not a verified official spelling. Listing and certification runtimes differ; cuts unconfirmed. [Read source](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915).
 
 
-[^bara-cbfc]: Central Board of Film Certification, [Bara Badhu record](https://cbfcindia.gov.in/cbfcAdmin/search-result.php?recid=Q0EwMTAyMDgyMDI1MDAwMTY%3D), certificate dated 10 February 2026. Credits and fictional synopsis; the plot is not evidence of actual employment rules.
-[^bara-release]: BookMyShow, [Bara Badhu](https://in.bookmyshow.com/movies/kopt/bara-badhu/ET00485075), release listing, accessed 27 October 2026. Audience scores are not used as a representative survey.
-[^bara-trailer]: [Bara Badhu official trailer](https://www.youtube.com/watch?v=JiBjnGMaw2Y), Amara Muzik Odia. Channel and title identified from indexed metadata; playback untested.
-[^maliput-iffi]: Press Information Bureau, [Maliput Melodies at the 56th IFFI](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2193029), 22 November 2025. Indian Panorama screening and filmmakers’ accounts of production and casting.
-[^maliput-trailer]: [Maliput Melodies official trailer](https://www.youtube.com/watch?v=VlETtNwEX9U), AAO NXT. Channel and title identified from indexed metadata; playback untested.
+[^bara-cbfc]: Central Board of Film Certification, [Bara Badhu record](https://cbfcindia.gov.in/cbfcAdmin/search-result.php?recid=Q0EwMTAyMDgyMDI1MDAwMTY%3D), certificate dated 10 February 2026. Credits and fictional synopsis.
+[^bara-release]: BookMyShow, [Bara Badhu](https://in.bookmyshow.com/movies/kopt/bara-badhu/ET00485075), release listing, accessed 27 October 2026.
+[^bara-trailer]: [Bara Badhu official trailer](https://www.youtube.com/watch?v=JiBjnGMaw2Y), Amara Muzik Odia. Indexed channel/title; playback untested.
+[^maliput-iffi]: Press Information Bureau, [Maliput Melodies at the 56th IFFI](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2193029), 22 November 2025. Indian Panorama and filmmaker testimony.
+[^maliput-trailer]: [Maliput Melodies official trailer](https://www.youtube.com/watch?v=VlETtNwEX9U), AAO NXT. Indexed channel/title; playback untested.
 [^madhumallati]: BookMyShow, [Madhumallati](https://in.bookmyshow.com/movies/jabalpur/madhumallati/ET00521156), release listing, synopsis and credits, accessed 27 October 2026.
 
 [^maliput-credits]: IFFI, [Maliput Melodies film guide](https://filmguide.iffigoa.org/detail/?id=6722), Indian Panorama 2025, screenplay, music, editing and ensemble credits.
-[^dassaaha-announcement]: Odia Celebrity, [Dassaaha announcement report](https://odiacelebrity.com/anupam-patnaik-announces-new-odia-film-dassaaha/), 25 October 2026. Announcement and credited producers; release date and detailed cast not provided.
-[^debakanya-announcement]: Odia Celebrity, [first-look credits](https://odiacelebrity.com/first-look-launch-of-new-odia-film-debakanya/), 27 July 2025 (Rasesh Mohanty), and [Debakanya and Ghoda Nacha](https://odiacelebrity.com/odishas-traditional-ghoda-nach-takes-centre-stage-in-upcoming-odia-film-debakanya/), updated 5 October 2026. Reported premise and planned November release; promotional claims are not a review of the completed film.
+[^dassaaha-announcement]: Odia Celebrity, [Dassaaha announcement report](https://odiacelebrity.com/anupam-patnaik-announces-new-odia-film-dassaaha/), 25 October 2026. Announcement; release date and full cast unspecified.
+[^debakanya-announcement]: Odia Celebrity, [first-look credits](https://odiacelebrity.com/first-look-launch-of-new-odia-film-debakanya/), 27 July 2025 (Rasesh Mohanty), and [Debakanya and Ghoda Nacha](https://odiacelebrity.com/odishas-traditional-ghoda-nach-takes-centre-stage-in-upcoming-odia-film-debakanya/), updated 5 October 2026. Reported premise and planned November release.
 
-[^dassaaha-poster]: Amiya Patnaik Productions / Shubham Cine Productions, *Dassaaha* title-announcement poster supplied for this research; printed production credits inspected 27 October 2026. These are announcement credits, not an inspected final film credit roll.
-[^chaiti-ghoda-context]: Odisha Tourism, [Folk Dance](https://apps.odishatourism.gov.in/folk-dance), Chaiti Ghoda entry. Cultural background; not evidence of the film’s plot or its representation of individual troupes.
+[^dassaaha-poster]: Amiya Patnaik Productions / Shubham Cine Productions, *Dassaaha* title-announcement poster supplied for this research; printed production credits inspected 27 October 2026. Announcement credits; final film credits uninspected.
+[^chaiti-ghoda-context]: Odisha Tourism, [Folk Dance](https://apps.odishatourism.gov.in/folk-dance), Chaiti Ghoda entry. Cultural background.
 
-[^performer-bijay]: [Bijay Mohanty dies at 70 — PTI, The Indian Express](https://indianexpress.com/article/entertainment/regional/bijay-mohanty-odia-actor-dies-at-70-6515831/), 21 July 2020. The film award mentioned in this report belongs to Chilika Tire, not a personal national acting award.
+[^performer-bijay]: [Bijay Mohanty dies at 70 — PTI, The Indian Express](https://indianexpress.com/article/entertainment/regional/bijay-mohanty-odia-actor-dies-at-70-6515831/), 21 July 2020. National honour is for Chilika Tire, not an individual acting award.
 
 [^performer-bijay-theatre]: [A tearful adieu to Bijay Mohanty — The New Indian Express](https://www.newindianexpress.com/states/odisha/2020/Jul/22/a-tearful-adieu-to-bijay-mohanty-2173140.html), 22 July 2020.
 
@@ -482,7 +482,7 @@ Availability and subscription terms can change by location.
 
 [^count-anita]: [Anita Das passes away — The Times of India](https://timesofindia.indiatimes.com/entertainment/bengali/movies/news/odia-films-best-mother-anita-das-passes-away/articleshow/64125666.cms), 2018-05-11.
 
-[^music-sri-jagannath-archive]: [Sri Jagannath — Gour–Parbati family archive](https://www.gourparbati.com/movie_sri_jagannath.php). Retrospective credit listing; original screen credits not independently inspected.
+[^music-sri-jagannath-archive]: [Sri Jagannath — Gour–Parbati family archive](https://www.gourparbati.com/movie_sri_jagannath.php). Retrospective credits; original titles uninspected.
 
 [^music-malajanha-return]: [Malajanha comes alive again — The New Indian Express](https://www.newindianexpress.com/states/odisha/2011/May/06/malajanha-comes-alive-again-250732.html). Report URL dated 6 May 2011; displayed update 16 May 2012. The update is not a second screening date.
 
@@ -494,7 +494,7 @@ Availability and subscription terms can change by location.
 
 [^music-pranab-remembers]: [Pranab Patnaik’s remembrance, as told to Minati Singha — The Times of India](https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-prafulla-kar-cremated-with-full-state-honours-at-swargadwar/amp_articleshow/90925326.cms), 2022-04-19.
 
-[^count-siddhanta]: Diana Sahu, [An ideal student](https://www.newindianexpress.com/amp/story/education/edex/2013/Jan/07/an-ideal-student-440624.html), The New Indian Express, January 2013. URL dated 7 January; displayed update 5 January. Dated reported estimate, not a current total.
+[^count-siddhanta]: Diana Sahu, [An ideal student](https://www.newindianexpress.com/amp/story/education/edex/2013/Jan/07/an-ideal-student-440624.html), The New Indian Express, January 2013. URL dated 7 January; displayed update 5 January. Historical estimate.
 
 ## Further reading
 

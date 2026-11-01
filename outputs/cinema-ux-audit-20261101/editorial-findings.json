@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-01",
+  "mode": "Audit only; no changes",
+  "scope": [
+    "intro",
+    "literature-and-screen",
+    "maya-miriga",
+    "pratikshya",
+    "cinema-futures",
+    "cinema hub; existing Bhukha tail as relevant comparator"
+  ],
+  "sources_read": [
+    "kb/records/cinema-close-readings-2026-11-01.json",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+    "kb/research/culture/cinema-series/the-question-that-brought-me-here.md",
+    "kb/research/culture/cinema-series/literature-and-screen.md",
+    "kb/research/culture/cinema-series/maya-miriga.md",
+    "kb/research/culture/cinema-series/pratikshya.md",
+    "kb/research/culture/cinema-series/cinema-futures.md"
+  ],
+  "rendered_html_scope": "Initially parsed non-serving dist-coast alternate output. Corrected check reads projects/site/dist/cinema/literature-and-screen/index.html and cinema-futures/index.html, which parent identifies as server8772 source; no browser/CUA.",
+  "important_build_limit": {
+    "finding": "dist-coast is a stale alternate build, not the serving current local site.",
+    "corrected_check": "Current dist literature includes What returned to the writer; current dist futures omits Give the work room to continue, agreeing with canonical prose.",
+    "action": "No rebuild requirement or current-site defect inferred from the initial alternate-build observation."
+  },
+  "existing_render_order": "For inspected article HTML, narrative Continue navigation comes before numbered sources, Further reading cards, another reading-sequence nav and collection utilities. Maya/Pratikshya book-tail assets are absent from these HTML figures; literature/futures interior line art is present.",
+  "strongest_motifs": [
+    {
+      "slug": "maya-miriga",
+      "motif": "Household threshold",
+      "asset": "kb/media/cinema-series/reader-refinement-20261031/maya-miriga-threshold.png",
+      "evidence": "A house made ready for a family; the new close reading ends by asking what disappears if we see only the man’s face: the house.",
+      "placement": "After the final close-reading paragraph, before Watch and explore / Continue.",
+      "meaning": "Lets the reader carry the spatial question out of the chapter.",
+      "boundary": "An imagined household threshold, not the observed film doorway; retain distinction in alt/caption."
+    },
+    {
+      "slug": "pratikshya",
+      "motif": "Two chairs and a folder",
+      "asset": "kb/media/cinema-series/reader-refinement-20261031/pratikshya-waiting.png",
+      "evidence": "New trailer close reading begins with applicants waiting; the ending links household security and production uncertainty.",
+      "placement": "After final economics-link paragraph, before Continue and notes.",
+      "meaning": "A quiet pause around waiting and work.",
+      "boundary": "Existing drawing depicts two household chairs, not the four applicants/actual trailer furniture. Do not caption it as a frame reconstruction."
+    },
+    {
+      "slug": "bhukha",
+      "motif": "Publicity rolls beside a screen",
+      "asset": "kb/media/cinema-series/reader-refinement-20261031/bhukha-publicity.png",
+      "evidence": "Director recollection names posters/banners/distribution expense; ending says a film about performers needs viewers.",
+      "placement": "At narrative ending before Watch and explore / Continue.",
+      "meaning": "Connects performance livelihood to the work of reaching an audience; does not repeat drum hero.",
+      "boundary": "Symbolic arrangement, not actual poster designs or documented event."
+    },
+    {
+      "slug": "literature-and-screen",
+      "motif": "Book opening towards screen",
+      "asset": "kb/media/cinema-series/literature-care-20261030/literature-page-to-screen.png",
+      "evidence": "Final paragraph invites an obtainable edition and returns to Rebati listening; whole chapter moves between page and performance.",
+      "placement": "Optional relocate existing interior drawing to after final prose, before Continue. Remove its current interior occurrence if relocated.",
+      "meaning": "A single visual punctuation for the chapter’s whole movement.",
+      "boundary": "Do not add a second copy or borrow it for the intro. No need to imply that Rebati itself is the depicted film."
+    },
+    {
+      "slug": "cinema-futures",
+      "motif": "Hands sharing story work",
+      "asset": "kb/media/cinema-series/literature-care-20261030/shared-story-table.png",
+      "evidence": "Final question: There is room at this table. What story will we help one another bring to the screen?",
+      "placement": "Optional relocate current pre-heading drawing to immediately after final question and before Continue exploring.",
+      "meaning": "Makes the invitation concrete without adding another instruction.",
+      "boundary": "One occurrence in this article. Keep words and drawing together; do not force an art-only book leaf."
+    }
+  ],
+  "plain_endings": [
+    {
+      "slug": "the-question-that-brought-me-here",
+      "reason": "The author’s final statement ties writers’ income to reaching an audience. An extra generic book/hand motif would weaken that personal landing and repeat other articles. Keep the portrait once at the opening, with the ending’s next-reading link close to the words."
+    },
+    {
+      "slug": "cinema-hub",
+      "reason": "Hub already provides many illustrated choices and seven reading groups. It is navigation rather than a narrative needing a visual coda; a new ending ornament lengthens the route without clarifying the next choice."
+    },
+    {
+      "slug": "daman and maker profiles",
+      "reason": "Previously generated shared-case image lacks room in the strongest faithful placement and is not needed as filler in another chapter. Keep unused; do not repurpose solely because a tail is empty."
+    }
+  ],
+  "priorities": [
+    {
+      "priority": "P2",
+      "type": "editorial UX",
+      "recommendation": "End art should be a modest pause between prose and Continue, not an additional hero between the reader and notes. Keep source-number links usable and artwork alt/caption accurate."
+    },
+    {
+      "priority": "P2",
+      "type": "book portrait judgment",
+      "recommendation": "The existing separate author-portrait page is a frontispiece treatment, not inherently a defect. If the intent is quicker entry into a personal essay, test a smaller portrait on the same opening page, rather than simply shrinking an image that retains a forced page break. Do not claim this has been visually tested in this audit."
+    },
+    {
+      "priority": "P3",
+      "type": "navigation density",
+      "recommendation": "Continue, related-reading cards and later Previous/Next currently offer overlapping routes. Keep the immediate Continue strongest; later source/related utilities can be visually quieter. Line art should not become another navigation target."
+    }
+  ],
+  "unique_image_policy": "Same-article card/hero use remains expected. Proposed tail assets stay attached to their respective reading; relocating existing art means removing its old occurrence. No cross-article duplication.",
+  "limits": [
+    "No new visual asset or film evidence acquired.",
+    "No recommendation to decorate every ending or reduce valid source notes merely to save space.",
+    "Book line-art status and placement derive from latest close-reading record; this task does not independently re-render or review PDF geometry."
+  ],
+  "scope_released": true,
+  "correction": "Removed false current-site rebuild requirement after checking serving dist headings. Strongest motif recommendations unchanged: they derive from current canonical endings and existing assets."
+}

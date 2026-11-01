@@ -52,9 +52,9 @@ Listings checked on 26 October 2026.
 
 [^award]: Directorate of Film Festivals, [22nd National Film Awards catalogue](https://www.dff.nic.in/images/Documents/94_22ndNfacatalogue.pdf), Best Actor citation and Sadhu Meher biography. Indexed catalogue text.
 [^abhiman]: Kapilas Bhuyan, [“75 Years of Odiya Film Making: A Flashback”](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399), PIB/IFFI, 22 November 2010. Audience-response claim attributed to the author.
-[^jury]: [60th National Film Awards catalogue](https://nfaindia.org/images/pdf/60th%20National%20Film%20Award%20Catalogue.pdf), printed p. 043, South I jury biography; contemporary career count, not a lifetime census.
+[^jury]: [60th National Film Awards catalogue](https://nfaindia.org/images/pdf/60th%20National%20Film%20Award%20Catalogue.pdf), printed p. 043, South I jury biography; Count at publication.
 
-[^roles]: ShemarooMe, [Ankur: The Seedling](https://www.shemaroome.com/short-films/ankur-the-seedling), official cast-role synopsis. The plot account above follows published synopses, not a fresh full-film viewing.
+[^roles]: ShemarooMe, [Ankur: The Seedling](https://www.shemaroome.com/short-films/ankur-the-seedling), official cast-role synopsis.
 
 [^uttam-making]: [Actor, Heartthrob, Superstar](https://www.mycitylinks.in/actor-heartthrob-superstar). Jyoti Prakash Sahoo, MyCityLinks, 15 July 2018; Uttam Mohanty’s recollection.
 

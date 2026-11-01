@@ -16,7 +16,7 @@ By Ahimanikya Satapathy
 
 The writer **Imraan** remembered Aparajita Mohanty staying late to offer suggestions during the making of **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)**. Speaking about her character **Ratnamala**, he said she brought more to the role than he had imagined.[^mcl-imraan2025]
 
-A character begins in writing, then meets the person who will perform it. Imraan’s account gives us a glimpse of that exchange: an experienced actor contributing ideas while a new film takes shape. Her work belongs within the discussion as well as before the camera.
+Imraan remembered her contribution to the discussion as well as the performance.
 
 ## What another woman taught her
 
@@ -28,9 +28,7 @@ The affection in that memory accompanies a practical acknowledgement: another wo
 
 In 2012, Aparajita produced *Love Master* through her production house, **Sai Maa**. Reporting that move, *The Times of India* attributed to her the wish to make good films for audiences.[^toi-production2012]
 
-Producing adds another set of responsibilities to performance. The [cinema economics reading](../culture/cinema-series/cinema-economics.md) follows the resources, agreements and work through which a film reaches viewers. Aparajita’s production gives her a place in that conversation alongside her acting.
-
-Returning to Ratnamala with Imraan’s recollection in mind, a viewer can consider what an actor contributes beyond the written role. The [cinema overview](../culture/odia-cinema.md) places that work beside the other performers audiences have returned to.
+Her production work connects with the [cinema economics reading](../culture/cinema-series/cinema-economics.md), which follows the resources and agreements behind a film.
 
 ## Footnotes & Sources
 

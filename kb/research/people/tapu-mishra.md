@@ -32,7 +32,7 @@ Another project took a different form. Her Hindi single “Bali Umariya,” with
 
 Mishra won four Odisha State Film Awards and also released albums through her own YouTube channel. She died on 19 June 2021.[^career] Alongside that loss, her recordings preserve the work itself, while her interview preserves something more personal: her wish to choose carefully and make new music.
 
-For readers interested in how such ambitions become possible, the [cinema-economics reading](../culture/cinema-series/cinema-economics.md) opens questions about time, resources and sustaining creative work. Tapu’s story gives those questions a person’s scale.
+Her plans for making new songs leave a practical question for the [economics reading](../culture/cinema-series/cinema-economics.md): what would give a singer the time and resources to choose her next work?
 
 ## Footnotes & Sources
 

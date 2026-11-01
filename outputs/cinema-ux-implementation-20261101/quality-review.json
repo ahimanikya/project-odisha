@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS_completed_bounded_UX_quality_review",
+  "scope": "Independent read-only source/diff, focused-test inspection, actual built-dist static review, and bounded final digital/print PDF visual and structural review. Final browser interactions are coordinator evidence reviewed here, not actions performed by this reviewer. No implementation, build or publication by reviewer.",
+  "human_review_claimed": false,
+  "file_hashes": {
+    "projects/site/src/lib/cinema-article.mjs": "ff95934542a4947fa974d1fc7c1418e879bd8595f6f1cd9446d0e901d8a50dda",
+    "projects/site/src/components/CinemaReading.astro": "75d05aa5980f08a1c1a8d38c7120f918788715d6e06d37b1796a01e71978aae1",
+    "projects/site/src/components/ReviewedCultureArticle.astro": "3d408cd083278e722aada154f99f643390fc7b9e8ab9823c40436f507c19b4a3",
+    "projects/site/src/pages/cinema/index.astro": "83b9f6792e101fb3e69e7f3a0fb74bd3d003ea7152544bbedd7e22ae1a3f40d2",
+    "projects/site/src/pages/cinema/reading-guide.astro": "4fa0892dbb9e0cb4b7a03076e11274194273f4ca554ca236848613757d074024",
+    "projects/site/src/pages/cinema/book.astro": "07215d0f9109add3a9d210dbde71f62d7c511baac44fde040fd87f4fb2a8b0d2",
+    "projects/site/tests/cinema-release.test.mjs": "67260ed6c4fb3a5a3322c823df8b9f198a35cff8fbd77671911ecd050ed67289",
+    "projects/site/tests/cinema-ux.test.mjs": "f9892663eb7d7ad1792bd2a386e13db1b66f68bf137b0be37a6f7944b17363d5",
+    "projects/site/public/assets/cinema/maya-miriga-threshold.png": "4f725bbef3db326d9ed1c050be8bd1ea8cfc980d985de70ce82702320f20a6b6",
+    "projects/site/public/assets/cinema/bhukha-publicity.png": "256a81f9389cb84e15222e33115a579955a0ac93068d66ee7c5530c8d922acd7",
+    "projects/site/public/assets/cinema/pratikshya-waiting.png": "4b7181143af1bb436fcacffec3dfcc4d2770c49d894d55b0cf0e1c3932de386f"
+  },
+  "primary_route": [
+    {
+      "slug": "the-question-that-brought-me-here",
+      "actual_href": "/cinema/literature-and-screen/",
+      "expected_href": "/cinema/literature-and-screen/"
+    },
+    {
+      "slug": "literature-and-screen",
+      "actual_href": "/people/basanta-kumari-patnaik/",
+      "expected_href": "/people/basanta-kumari-patnaik/"
+    },
+    {
+      "slug": "basanta-kumari-patnaik",
+      "actual_href": "/people/akshaya-mohanty/",
+      "expected_href": "/people/akshaya-mohanty/"
+    },
+    {
+      "slug": "akshaya-mohanty",
+      "actual_href": "/cinema/maya-miriga/",
+      "expected_href": "/cinema/maya-miriga/"
+    },
+    {
+      "slug": "maya-miriga",
+      "actual_href": "/cinema/bhukha/",
+      "expected_href": "/cinema/bhukha/"
+    },
+    {
+      "slug": "bhukha",
+      "actual_href": "/cinema/pratikshya/",
+      "expected_href": "/cinema/pratikshya/"
+    },
+    {
+      "slug": "pratikshya",
+      "actual_href": "/cinema/daman/",
+      "expected_href": "/cinema/daman/"
+    },
+    {
+      "slug": "daman",
+      "actual_href": "/cinema/cinema-economics/",
+      "expected_href": "/cinema/cinema-economics/"
+    },
+    {
+      "slug": "cinema-economics",
+      "actual_href": "/cinema/cinema-futures/",
+      "expected_href": "/cinema/cinema-futures/"
+    },
+    {
+      "slug": "cinema-futures",
+      "actual_href": "/cinema/reading-guide/#central-reading-route",
+      "expected_href": "/cinema/reading-guide/#central-reading-route"
+    }
+  ],
+  "checks": {
+    "articles_scanned": 50,
+    "contents_hidden_only": [
+      "the-question-that-brought-me-here"
+    ],
+    "ending_art_slugs": [
+      "maya-miriga",
+      "bhukha",
+      "pratikshya"
+    ],
+    "citation_markers": 573,
+    "citation_return_links": 573,
+    "duplicate_ids": 0,
+    "broken_note_targets": 0,
+    "separate_nav_labels": "Central reading route versus Full collection reading sequence; footer explicitly identifies full-collection steps.",
+    "related_navigation": "Implicit redundant visual heading hidden only for cinema; ArticleReadingPath accessible heading/nav naming retained.",
+    "book_page": "Current downloads still point to published 31 October aligned edition; later online changes explicitly distinguished, three older editions retained inside native details; print instructions moved next to downloads; no tagged PDF claim.",
+    "assets": [
+      {
+        "source": "kb/media/cinema-series/reader-refinement-20261031/maya-miriga-threshold.png",
+        "public": "projects/site/public/assets/cinema/maya-miriga-threshold.png",
+        "sha256": "4f725bbef3db326d9ed1c050be8bd1ea8cfc980d985de70ce82702320f20a6b6",
+        "byte_identical": true
+      },
+      {
+        "source": "kb/media/cinema-series/reader-refinement-20261031/bhukha-publicity.png",
+        "public": "projects/site/public/assets/cinema/bhukha-publicity.png",
+        "sha256": "256a81f9389cb84e15222e33115a579955a0ac93068d66ee7c5530c8d922acd7",
+        "byte_identical": true
+      },
+      {
+        "source": "kb/media/cinema-series/reader-refinement-20261031/pratikshya-waiting.png",
+        "public": "projects/site/public/assets/cinema/pratikshya-waiting.png",
+        "sha256": "4b7181143af1bb436fcacffec3dfcc4d2770c49d894d55b0cf0e1c3932de386f",
+        "byte_identical": true
+      }
+    ],
+    "provenance": "Reuses exact three approved PNGs and existing truthful symbolic alternatives/captions; no new documentary image claim.",
+    "tests": "Read three new focused UX tests and implementation report25/25 passing. Not independently rerun; parent owns full build/tests.",
+    "guidance": "Read retained Modern Web Guidance accessibility guide for this read-only review; no implementation performed."
+  },
+  "required_changes": [],
+  "nonblocking_notes": [
+    {
+      "id": "art-order",
+      "slug": "pratikshya",
+      "finding": "Drawing inserted before Watch an official introduction rather than after final economics-link paragraph recommended by audit. Other two placements match their pre-Watch recommendation.",
+      "recommendation": "Coordinator may retain current coherent placement or move this single drawing immediately before onward navigation for a literal narrative coda; not an accuracy or functionality blocker.",
+      "status": "resolved_source_and_coordinator_browser_evidence",
+      "resolution": "Explicit Pratikshya branch places artwork after final economics-link paragraph immediately before onward navigation; coordinator browser receipt confirms loaded240px drawing at390px viewport and correct sibling order."
+    }
+  ],
+  "pending": [],
+  "boundaries": "No shared records, global operations owner, articles, source images or Git modified by reviewer.",
+  "artifact_review": {
+    "status": "PASS",
+    "editions": {
+      "digital": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-ux.pdf",
+        "sha256": "a751c944786b957e17179795417e70f9bafda452c46f0d5a3ada6f160c6809c4",
+        "receipt_sha256": "97747910a2c8a5601b9da2df6523a95ab2397650228686f7cbf53ef7a9fe7188",
+        "pages": 252,
+        "source_hash_errors": [],
+        "chapter_source_and_body_records_identical_prior": true,
+        "chapters": 50,
+        "notes": 432,
+        "image_credit_records": 23,
+        "image_credit_records_unchanged": true,
+        "cover_unchanged": true,
+        "primary_route_actual_pages": [
+          8,
+          14,
+          20,
+          48,
+          84,
+          91,
+          143,
+          149,
+          178,
+          182
+        ],
+        "primary_route_expected_pages": [
+          8,
+          14,
+          20,
+          48,
+          84,
+          91,
+          143,
+          149,
+          178,
+          182
+        ],
+        "primary_route_matches": true,
+        "internal_link_count": 1386,
+        "invalid_array_destinations": [],
+        "stable_print_map": true,
+        "full_size_pages_viewed": [
+          3,
+          8,
+          31,
+          47,
+          75,
+          96,
+          218
+        ],
+        "verdict": "PASS bounded layout delta",
+        "visual_findings": "Digital portrait complete and centered with caption, heading/part introduction/first prose on same page. Print full-size frontispiece preserved. Digital Manglu/music final paragraphs no longer stranded; Bijay/Sabyasachi final pages now coherent sections. Print notes omit Return actions while preserving credit/source entries; digital retains returns.",
+        "semantic_tags_present": false
+      },
+      "print": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-ux.pdf",
+        "sha256": "882d0de86b207c6d6610e541d99f068137d10f886015ac1bac647a90ff6d3dd5",
+        "receipt_sha256": "effb913058a091d70a450e287f023c58791197360f79571a1e9eb08b8816bea8",
+        "pages": 278,
+        "source_hash_errors": [],
+        "chapter_source_and_body_records_identical_prior": true,
+        "chapters": 50,
+        "notes": 432,
+        "image_credit_records": 23,
+        "image_credit_records_unchanged": true,
+        "cover_unchanged": true,
+        "primary_route_actual_pages": [
+          9,
+          14,
+          20,
+          49,
+          84,
+          90,
+          143,
+          149,
+          179,
+          183
+        ],
+        "primary_route_expected_pages": [
+          9,
+          14,
+          20,
+          49,
+          84,
+          90,
+          143,
+          149,
+          179,
+          183
+        ],
+        "primary_route_matches": true,
+        "internal_link_count": 964,
+        "invalid_array_destinations": [],
+        "stable_print_map": true,
+        "full_size_pages_viewed": [
+          3,
+          8,
+          9,
+          222
+        ],
+        "verdict": "PASS bounded layout delta",
+        "visual_findings": "Digital portrait complete and centered with caption, heading/part introduction/first prose on same page. Print full-size frontispiece preserved. Digital Manglu/music final paragraphs no longer stranded; Bijay/Sabyasachi final pages now coherent sections. Print notes omit Return actions while preserving credit/source entries; digital retains returns.",
+        "semantic_tags_present": false
+      }
+    },
+    "limits": [
+      "Eleven selected full-size pages inspected, not fresh every-page visual proof.",
+      "Chapter source/body hashes and full credit records compared with previous receipts; no new full-corpus factual audit.",
+      "Actual PDF array destinations validated; browser and assistive-technology interaction not performed.",
+      "Tagged PDF/AT work remains open; neither PDF claims PDF/UA."
+    ]
+  },
+  "coordinator_browser_evidence": {
+    "path": "outputs/cinema-ux-implementation-20261101/browser-review.json",
+    "sha256": "9b17abb12716354732f7d5d874044a50c5f57259f4e03a3d6a6b110d4cb9aee0",
+    "reported_status": "PASS",
+    "reviewed_checks": [
+      "1280px and320px hub entry position/no overflow",
+      "320px keyboard hub-to-central-route anchor",
+      "390px introduction TOC absence and keyboard onward link",
+      "390px Pratikshya correct final paragraph/drawing/Continue order",
+      "Native archive keyboard open/close with focus retained",
+      "Viewport override reset"
+    ],
+    "attribution": "These are root/coordinator CUA observations. Drishti read the receipt; did not repeat browser actions.",
+    "limit": "Browser interaction sampled affected pages; all50article structure checked separately."
+  },
+  "parent_validation_report": {
+    "site_tests_passed": 672,
+    "built_pages": 570,
+    "disclosure_files_passed": 1055,
+    "attribution": "Coordinator final handoff; not independently rerun."
+  },
+  "remaining_separate_work": [
+    "Real tagged-PDF semantic structure and assistive-technology testing remain outside this completed UX phase. Neither final PDF is asserted PDF/UA compliant."
+  ],
+  "scope_released": true
+}

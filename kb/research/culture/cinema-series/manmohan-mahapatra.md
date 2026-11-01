@@ -42,7 +42,7 @@ For *Klanta Aparanha*, the Panorama catalogue names Nandalal Mahapatra for the s
 
 ## A practice carried by people
 
-Jayaswami remembered help with her acting; Pradeep Mohanty remembered a camera he could borrow. Alongside the finished films, such recollections preserve the help one filmmaker could give another person’s work. [Maya Miriga](maya-miriga.md) takes us into another household story and the people who made it.
+Alongside the finished films, his colleagues’ recollections preserve the help one filmmaker could give another person’s work. [Maya Miriga](maya-miriga.md) takes us into another household story and the people who made it.
 
 ## Watch and explore
 
@@ -53,7 +53,7 @@ Catalogue links checked on 26 October 2026.
 
 ## Footnotes & Sources
 
-[^palit]: Ashok Palit, [“The New Wave Cinema of Odisha”](https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf), E-CineIndia, October–December 2024, pp. 3–4. Palit’s critical reading.
+[^palit]: Ashok Palit, [“The New Wave Cinema of Odisha”](https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf), E-CineIndia, October–December 2024, pp. 3–4.
 [^panorama]: Directorate of Film Festivals, [Indian Panorama 1985 catalogue](https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf), Klanta Aparanha entry and director biography. Indexed synopsis and credits. The production date is not an established release date.
 [^award]: [29th National Film Awards catalogue](https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf), Best Oriya Film, films of 1981; award recognition in 1982.
 

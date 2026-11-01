@@ -58,7 +58,7 @@ The brothers remain a place to begin. Land can pass from one generation to anoth
 [^penguin]: [Salt of the Earth, Penguin India](https://www.penguin.co.in/book/salt-of-the-earth/), May 2022 edition; [Penguin Press April–June 2022 catalogue](https://cdn.penguin.co.in/wp-content/uploads/2022/03/Penguin-Press.pdf), p. 14, credits the translators.
 [^circle]: Subash Nayak, “Kalandi Charan Panigrahi: A Story Teller of Eminence,” [Odisha Review, August–September 2013](https://magazines.odisha.gov.in/orissareview/2013/aug-sept/engpdf/august-september_or.pdf).
 [^works]: [Matira Manisha, Black Eagle Books](https://www.blackeaglebooks.org/product/matira-manisha/), 2022 edition and author bibliography.
-[^fellow]: [Sahitya Akademi Fellows](https://sahitya-akademi.gov.in/fellows/sahitya_akademi_fellowship.jsp), 1971 list. Fellowship, rather than an annual book award.
+[^fellow]: [Sahitya Akademi Fellows](https://sahitya-akademi.gov.in/fellows/sahitya_akademi_fellowship.jsp), 1971 list.
 [^assamese]: [Sahitya Akademi Assamese catalogue](https://sahitya-akademi.gov.in/publications/pdf/Assamese-catalogue.pdf), PDF p. 5; *Matir Manuh*, translated by Satyendranath Sarma.
 [^film]: [Matira Manisha, Mrinal Sen filmography](https://www.mrinalsen.org/matira_manisha.html), 1966 credits and synopsis.
 [^niyogi]: [Born of the Soil, Niyogi Books](https://niyogibooksindia.com/books/born-of-the-soil/), translated by Bikram Das, ISBN 9789385285585.

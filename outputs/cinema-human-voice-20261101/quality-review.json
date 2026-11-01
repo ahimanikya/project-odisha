@@ -1,0 +1,444 @@
+{
+  "status": "complete",
+  "date": "2026-11-01",
+  "scope_record": "kb/records/cinema-human-voice-2026-11-01.json",
+  "scope_record_sha256": "166506f16bc6043b5bee870add671a7bc6fc3b74de9ad4bbb2ac475edd3bd6d7",
+  "candidate_reviewed": true,
+  "approval": false,
+  "human_review_claimed": false,
+  "criteria": [
+    {
+      "id": "bounded_author_concern",
+      "criterion": "Concern is expressed as the author’s unresolved question within the sources actually consulted, with a concrete research limit. Avoid absolute claims that no public information exists or that the industry conceals it. A stronger concern must not become a stronger factual allegation.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "credit_vs_compensation",
+      "criterion": "Acknowledge already documented source-author, screenwriter, translator and collaborator credits. Missing payment terms must not erase those credits. Distinguish attribution, permission, contractual rights, remuneration and actual receipt of money.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "no_exploitation_inference",
+      "criterion": "No inference of nonpayment, missed payment, exploitation, unfair treatment, typical practice or causal livelihood harm from inaccessible agreements or unreported fees. Absence of evidence remains an unanswered question, not a verdict about named makers.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "payment_examples",
+      "criterion": "NBT book-publication royalties remain book royalties; Kher-to-Patnaik Hindi remake token remains a different transaction. Neither establishes the original story author’s adaptation fee. Hypothetical fair agreements remain proposals, not documented existing outcomes.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "distinct_voices",
+      "criterion": "Give particular choices, obstacles and attributed experiences room to differ. Cut interchangeable moral summaries without flattening disagreement, inventing motives or turning brief evidence into a fuller biography than it supports.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "experience_boundaries",
+      "criterion": "The author’s memoir/encounters, participant recollections in published sources, literary interpretation and present proposals remain distinguishable. No invented viewing, listening, remembered dialogue, witnessed gesture, interview or scene.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "necessary_qualifications",
+      "criterion": "Preserve concise attribution and material limits on award categories/years, restoration, language/geography, reported commercial estimates and programme versus film outcomes. Maintain genuine creator/source/licence credits and citation destinations.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "central_route",
+      "criterion": "Optional core journey provides a reason to continue, without implying other readings are disposable or making all50 mandatory. Preserve all50 articles, seven-part structure unless expressly changed, existing images and working routes; selected chapters should actually carry the concern promised by the route.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "ending",
+      "criterion": "Ending acknowledges what the inquiry established and what remains unresolved before inviting action. Retain five effectuation principles and unpaid-labour safeguard, avoid time-bound project plan, triumphalism, guaranteed readership/income or generic extra conclusion.",
+      "status": "reviewed_with_stated_limits"
+    },
+    {
+      "id": "artifacts_and_status",
+      "criterion": "Only after candidate-ready: bind changed sources/plan and actual book hashes; inspect selected affected pages, note/link integrity and metadata. Preserve previous editions. Distinguish independent AI QA from human specialist approval, and prepared reader questions from completed reader testing. No publication claim.",
+      "status": "reviewed_with_stated_limits"
+    }
+  ],
+  "wording_test": {
+    "acceptable_shape": "In the public accounts I have consulted, I can identify literary and screen credits more readily than the agreements showing what reached the source writer. That leaves the question that brought me here unresolved.",
+    "limit": "Illustrative editorial test only, not verified wording for every adaptation or replacement article text. Check against the evidence packet before adoption.",
+    "reject": [
+      "No public information exists about writers being paid.",
+      "Writers receive credit but no money.",
+      "Cinema has failed to pay its literary authors.",
+      "The absence of reported fees proves unfair treatment."
+    ]
+  },
+  "review_plan": "Compare actual changed paragraphs against baseline and evidence review; identify lost nuance or new implication, then check the optional route and affected artifacts after root handoff.",
+  "actions": "Read scope record and prepared criteria only. No article, image, metadata, build or publication change.",
+  "content_verdict": "PASS on current18 revised sources; two narrow corrections resolved.",
+  "findings": [
+    {
+      "id": "HV01",
+      "priority": "P2",
+      "path": "kb/research/people/lipika-singh-darai.md",
+      "quote": "That unfinished search follows another kind of listening.",
+      "issue": "Unconfirmed completion does not establish current unfinished status. Companion says completed film/recovered print not confirmed.",
+      "fix": "Remove unfinished; keep That search follows another kind of listening.",
+      "status": "resolved_in_current_source"
+    },
+    {
+      "id": "HV02",
+      "priority": "P2",
+      "path": "kb/research/culture/cinema-series/cinema-economics.md",
+      "quote": "literature-and-screen.md#what-returned-to-the-writer",
+      "issue": "Current exact-source URL resolver does not strip fragments before article lookup; risks public KB fallback. Prior same pattern failed.",
+      "fix": "Use explicit /cinema/literature-and-screen/#what-returned-to-the-writer or verify/fix fragment-aware routing.",
+      "status": "resolved_in_current_source"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "kb/research/people/kanhu-charan-mohanty.md",
+      "sha256": "569c4018bfe51cdbcd508a01a87817c93b3f617bb889c517edae8a921109e0ea",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/bijay-mishra.md",
+      "sha256": "27d9b7c68fed3961af3c6d8ece1efa522826c6b47eb7534c9535e6a2ca141ba2",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/prafulla-kar.md",
+      "sha256": "0c189407155cf4934f83fa05a9ffe78e0b60b3e4c6abbe43bf3beffde3ea272a",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/pranab-patnaik.md",
+      "sha256": "6155230f7f540cf3781cfb123a53fdca9d405da563ccf72d6cb44ba7b429442b",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/tapu-mishra.md",
+      "sha256": "d0eaba03c0db9c8b344798a4471102fb2ce4e17f300b20ae350d6d429969e3bc",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/bijay-mohanty.md",
+      "sha256": "74959f7f380da38a7b2a4320aff9a9f3aafac914259d5870b9967d10a672ed85",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/uttam-mohanty.md",
+      "sha256": "e4c809299a0e495d0616146e72b0b0b7c302a3cef61da6642fecb4e372ccb273",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/aparajita-mohanty.md",
+      "sha256": "cf59acb922fbb29bc97c7cebc48fdb82ae3fda8e85e852348acb6b1153d2cbbc",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/bijaya-jena.md",
+      "sha256": "6858f75d3e609ae80ccc0ad345035b72ce201667793f61bdd96e5444053a9731",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/lipika-singh-darai.md",
+      "sha256": "c14db3670de516af6d8418e82b547900c9f789da1cc6e7507619aa6194eaae25",
+      "journal_hash_matches": false
+    },
+    {
+      "path": "kb/research/people/surya-deo.md",
+      "sha256": "de129d930d0a030b421d9cabb6b031f26d276e3878dd49c97c6ca6f2de3f62d8",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/vishal-mourya.md",
+      "sha256": "c0918dc1ff5719ddffce12a788fde25769168b3b94103d607243764acbea5862",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/people/debi-prasad-lenka.md",
+      "sha256": "efc7568cfc7ff1cf58823fa4df170c2c171bae75f09d279bced3c2b0a0d5aa5e",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/culture/odia-television.md",
+      "sha256": "9ebe31d66da6f1de4632c0175126b6eaa722c2fa109fcfcc2a22af5631cde209",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/culture/cinema-series/the-question-that-brought-me-here.md",
+      "sha256": "f32b51d92ed5e250ae6cb82fd6e483d2914b6b18923d0e939ccda9f16c7d84a4",
+      "journal_hash_matches": true
+    },
+    {
+      "path": "kb/research/culture/cinema-series/literature-and-screen.md",
+      "sha256": "a5431ab7ea2e1a10659846e69bc6c899ec2ea67a9ba85c0f9cb7b4752ae79f27",
+      "journal_hash_matches": false
+    },
+    {
+      "path": "kb/research/culture/cinema-series/cinema-economics.md",
+      "sha256": "717ca1657b7cdd14dd448e5888d8eaffb718e4c5adaa94f2b727d7637ace3da5",
+      "journal_hash_matches": false
+    },
+    {
+      "path": "kb/research/culture/cinema-series/cinema-futures.md",
+      "sha256": "414a351b3bfb32d47c47849ea3465154ec3da3fe66a5aa61e35ec328f8f23886",
+      "journal_hash_matches": true
+    }
+  ],
+  "journal_reconstruction_errors": [
+    [
+      "kb/research/people/lipika-singh-darai.md",
+      "current differs journal"
+    ],
+    [
+      "kb/research/culture/cinema-series/literature-and-screen.md",
+      "current differs journal"
+    ],
+    [
+      "kb/research/culture/cinema-series/cinema-economics.md",
+      "current differs journal"
+    ]
+  ],
+  "author_concern_assessment": {
+    "verdict": "PASS",
+    "reasons": [
+      "Acknowledges existing credits before questioning undisclosed compensation terms.",
+      "Explicitly scopes gap to examined public sources and rejects inference of unpaid/unfair treatment.",
+      "Book royalties explicitly distinguished from screen use.",
+      "Strong first-person uncertainty is legitimate; not softened into an empty invitation.",
+      "No claim that all records are absent or a universal exploitative pattern exists."
+    ],
+    "flow": "Three paragraphs give the concern enough space without becoming excessive. Full treatment belongs here; brief economics/futures callbacks are proportionate. No further defensive disclaimers recommended."
+  },
+  "author_memory_assessment": {
+    "verdict": "PASS",
+    "source": "outputs/cinema-human-voice-20261101/author-memory.json",
+    "reasons": [
+      "Limited screens remains a remembered discussion, not a current statewide count.",
+      "No50-screen statistic or invented quotation.",
+      "Literature-for-children broadening towards ordinary people supplies an actual turning point and explains the exhibition thread.",
+      "Published maker interviews remain separate from author meeting memory."
+    ]
+  },
+  "distinct_voice_assessment": "The14 edits mostly remove repeated interpretation; specific named choices and testimony remain. Kanhu dates are present above the replacement, Prafulla request remains attributed, Tapu plans remain a question, Bijaya television recovery remains her account. Lipika current completion inference is the sole substantive correction.",
+  "core_route": {
+    "verdict": "PASS static editorial conception",
+    "count": 10,
+    "all_slugs_exist": true,
+    "all_unique": true,
+    "chapters": [
+      "the-question-that-brought-me-here",
+      "literature-and-screen",
+      "basanta-kumari-patnaik",
+      "akshaya-mohanty",
+      "maya-miriga",
+      "bhukha",
+      "pratikshya",
+      "daman",
+      "cinema-economics",
+      "cinema-futures"
+    ],
+    "assessment": "Optional route follows actual central material through writer/song/film/exhibition/compensation inquiry while retaining four other paths and all50readings. No retention outcome claimed.",
+    "rendered_review": "Print7 visually inspected; digital and print ten actual PDF link destinations independently checked against chapter targets. Printed chapter/page labels also match."
+  },
+  "artifacts": {
+    "digital": {
+      "receipt": "tmp/pdfs/2026-11-01-human-voice/digital/book-build-2026-11-01-human-voice.json",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-human-voice.pdf",
+      "sha256": "7adc203d518112835a78f3cc9d2d19a7e1a6a076fa0a0115a978ede00da78763",
+      "pages": 253,
+      "hash_verified": true,
+      "source_count": 50,
+      "all50_source_bindings_current": true,
+      "source_images_unchanged": true,
+      "required_credits": 23,
+      "credits_exactly_unchanged": true,
+      "covers_unchanged": true,
+      "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+      "primary_path_page": 7,
+      "primary_link_destinations": [
+        9,
+        14,
+        19,
+        49,
+        85,
+        92,
+        144,
+        150,
+        179,
+        183
+      ],
+      "matches_ten_selected_chapter_targets": true,
+      "print_page_labels_match": "not applicable",
+      "internal_destination_links_checked": 1382,
+      "invalid_internal_destinations": [],
+      "references_stable": true,
+      "notes": 431,
+      "citation_pairs": 587,
+      "tail_art": [
+        {
+          "id": "courtyard-threshold",
+          "slug": "maya-miriga",
+          "source": "kb/media/cinema-series/reader-refinement-20261031/maya-miriga-threshold.png",
+          "sha256": "4f725bbef3db326d9ed1c050be8bd1ea8cfc980d985de70ce82702320f20a6b6",
+          "width_pt": 180.0,
+          "height_pt": 120.0,
+          "alt": "An imagined doorway opens into a quiet courtyard.",
+          "caption": "A household threshold, imagined.",
+          "status": "placed",
+          "available_height_pt": 376.0,
+          "page": 88
+        },
+        {
+          "id": "bringing-a-film-to-viewers",
+          "slug": "bhukha",
+          "source": "kb/media/cinema-series/reader-refinement-20261031/bhukha-publicity.png",
+          "sha256": "256a81f9389cb84e15222e33115a579955a0ac93068d66ee7c5530c8d922acd7",
+          "width_pt": 180.0,
+          "height_pt": 120.0,
+          "alt": "Unlettered publicity sheets lie beside the edge of a screen.",
+          "caption": "Bringing a film to its audience.",
+          "status": "placed",
+          "available_height_pt": 273.0,
+          "page": 94
+        },
+        {
+          "id": "household-waiting",
+          "slug": "pratikshya",
+          "source": "kb/media/cinema-series/reader-refinement-20261031/pratikshya-waiting.png",
+          "sha256": "4b7181143af1bb436fcacffec3dfcc4d2770c49d894d55b0cf0e1c3932de386f",
+          "width_pt": 180.0,
+          "height_pt": 120.0,
+          "alt": "Two ordinary chairs, with a closed folder on one seat.",
+          "caption": "Waiting, within a household.",
+          "status": "placed",
+          "available_height_pt": 308.5,
+          "page": 146
+        }
+      ],
+      "fullsize_pages_viewed": [
+        17,
+        18,
+        190
+      ]
+    },
+    "print": {
+      "receipt": "tmp/pdfs/2026-11-01-human-voice/print/book-build-2026-11-01-human-voice.json",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-human-voice.pdf",
+      "sha256": "57f78ed13683ee585051ce7a2f7aa263394e9afa3f352a1fb46e1bf931f90ecd",
+      "pages": 280,
+      "hash_verified": true,
+      "source_count": 50,
+      "all50_source_bindings_current": true,
+      "source_images_unchanged": true,
+      "required_credits": 23,
+      "credits_exactly_unchanged": true,
+      "covers_unchanged": true,
+      "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+      "primary_path_page": 7,
+      "primary_link_destinations": [
+        9,
+        14,
+        20,
+        50,
+        85,
+        91,
+        144,
+        150,
+        180,
+        184
+      ],
+      "matches_ten_selected_chapter_targets": true,
+      "print_page_labels_match": true,
+      "internal_destination_links_checked": 1392,
+      "invalid_internal_destinations": [],
+      "references_stable": true,
+      "notes": 431,
+      "citation_pairs": 587,
+      "tail_art": [
+        {
+          "id": "courtyard-threshold",
+          "slug": "maya-miriga",
+          "source": "kb/media/cinema-series/reader-refinement-20261031/maya-miriga-threshold.png",
+          "sha256": "4f725bbef3db326d9ed1c050be8bd1ea8cfc980d985de70ce82702320f20a6b6",
+          "width_pt": 180.0,
+          "height_pt": 120.0,
+          "alt": "An imagined doorway opens into a quiet courtyard.",
+          "caption": "A household threshold, imagined.",
+          "status": "placed",
+          "available_height_pt": 376.0,
+          "page": 88
+        },
+        {
+          "id": "bringing-a-film-to-viewers",
+          "slug": "bhukha",
+          "source": "kb/media/cinema-series/reader-refinement-20261031/bhukha-publicity.png",
+          "sha256": "256a81f9389cb84e15222e33115a579955a0ac93068d66ee7c5530c8d922acd7",
+          "width_pt": 180.0,
+          "height_pt": 120.0,
+          "alt": "Unlettered publicity sheets lie beside the edge of a screen.",
+          "caption": "Bringing a film to its audience.",
+          "status": "placed",
+          "available_height_pt": 273.0,
+          "page": 93
+        },
+        {
+          "id": "household-waiting",
+          "slug": "pratikshya",
+          "source": "kb/media/cinema-series/reader-refinement-20261031/pratikshya-waiting.png",
+          "sha256": "4b7181143af1bb436fcacffec3dfcc4d2770c49d894d55b0cf0e1c3932de386f",
+          "width_pt": 180.0,
+          "height_pt": 120.0,
+          "alt": "Two ordinary chairs, with a closed folder on one seat.",
+          "caption": "Waiting, within a household.",
+          "status": "placed",
+          "available_height_pt": 250.0,
+          "page": 146
+        }
+      ],
+      "fullsize_pages_viewed": [
+        7,
+        12,
+        18,
+        88,
+        93,
+        146,
+        190,
+        191
+      ]
+    }
+  },
+  "scope_released": true,
+  "limits": [
+    "Independent AI quality review, not human or specialist approval.",
+    "No new external source verification, invented experience or reader-retention test.",
+    "No browser interaction or build run by reviewer; supplied screenshot inspected.",
+    "Selected-page visual QA only; no whole-book accessibility or press-ready certification.",
+    "No publication performed."
+  ],
+  "journal_reconstruction_followup": {
+    "status": "resolved",
+    "deltas": [
+      "Lipika removes unfinished, avoiding unsupported current status.",
+      "Economics uses explicit public route plus correct heading fragment.",
+      "Literature ends with attributed-text interpretation: In Rebati, a child sits beside her father and listens. The words have already found someone. This replaces personal-return phrasing, without claiming a new reading or encounter."
+    ],
+    "note": "All three current differences from the first journal reconstruction were inspected and accepted; source journals may be refreshed by coordinator."
+  },
+  "decision": "PASS: final prose and bounded artifact review",
+  "plan_sha256": "39a7cce01257e81940ad2d030076844818f019b4fd08ff589dd030ed5e6bdc86",
+  "visual_assessment": {
+    "result": "PASS on inspected final pages",
+    "details": [
+      "Print7 ten-reading route is legible and optional; no clipped labels.",
+      "Print12 personal turning point reads as author recollection; no numerical screen count.",
+      "Digital17–18 compensation paragraph crosses a normal page boundary; necessary no-nonpayment inference remains intact. Print18 holds complete subsection.",
+      "Digital190 and print190–191 preserve full closing invocation. Print191 is airy but holds three coherent closing paragraphs, not an orphan heading or two-line fragment.",
+      "Three shifted print tail illustrations remain clear and captioned, without forcing decorative leaves."
+    ],
+    "not_performed": "No new complete-contact-sheet scan or every-page visual proof."
+  },
+  "browser_evidence": {
+    "screenshot": "outputs/cinema-human-voice-20261101/writer-question-preview.png",
+    "independently_viewed": true,
+    "assessment": "Supplied screenshot shows current compensation section clearly and completely; not an independent interaction check."
+  }
+}

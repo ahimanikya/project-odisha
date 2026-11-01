@@ -26,9 +26,9 @@ His work also reached the microphone through All India Radio and Doordarshan. Th
 
 ## A soundtrack with several companions
 
-In *Mamata*, “Re Mita Aa Sangata” names Pranab Kishore Patnaik and Sikandar Alam among its singers, with Kar as music director and Sibabrata Das as lyricist.[^mamata] “Dekhi Se Banamalli” brings Chitta Jena and P. Susheela together, again with Kar’s music and Das’s words.[^banamalli]
+The [cinema-music reading](../culture/cinema-series/cinema-music.md) follows two of *Mamata*’s duets, composed by Kar with lyrics by Sibabrata Das.[^mamata][^banamalli]
 
-A third song, “Mu Ta Manisha Marini,” gives Sikandar Alam the singer’s credit, Kar the music-direction credit and Sibabrata Das the lyric credit.[^mu-ta] Kar and Das worked across these changing combinations of voices.
+Another song, “Mu Ta Manisha Marini,” gives Sikandar Alam the singer’s credit, Kar the music-direction credit and Sibabrata Das the lyric credit.[^mu-ta] Kar and Das worked across these changing combinations of voices.
 
 ## Hearing the composer sing
 
@@ -40,7 +40,7 @@ His musical range also included compositions for Odissi dance dramas.[^career] F
 
 The Sangeet Natak Akademi honoured Kar for Sugam Sangeet in its awards for 2015, presented on 4 October 2016. He also received the Padma Shri in 2015.[^akademi][^career] Earlier, the Odisha Society of the Americas recorded its own 2012 lifetime achievement award for his contributions as singer, music director, composer and lyricist.[^osa]
 
-The honours describe a career; the recordings let us spend time with it. Return to one song, and to the particular company of voices Kar brought together.
+Pranab’s birthday recollection leaves a more personal invitation: return to “Majhire” or “Re Atman,” the songs Kar asked his friend to sing.
 
 ## Footnotes & Sources
 

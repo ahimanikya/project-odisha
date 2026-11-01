@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-31",
+  "scope": "Read-only narrative, sequence and message audit. No site or book revision.",
+  "checks": {
+    "coverage": "All 50 canonical readings covered by three scoped agents; coordinator reviewed introduction, literature bridge, economics, futures, overview entry and identified cross-link issues.",
+    "live_pages": [
+      "https://projectodisha.org/cinema/",
+      "https://projectodisha.org/cinema/reading-guide/",
+      "https://projectodisha.org/cinema/commercial-successes/"
+    ],
+    "live_findings": "All three loaded in the browser. Existing four thematic reading routes confirmed; rejected Mantra Muugdha tracker discussion remains visible in commercial narrative.",
+    "digital_pdf": {
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+      "text_pages": [
+        3,
+        4,
+        5,
+        6,
+        61,
+        62,
+        189,
+        190,
+        191
+      ],
+      "visually_inspected_pages": [
+        3,
+        61,
+        190
+      ]
+    },
+    "print_pdf": {
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-31-aligned.pdf",
+      "text_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fresh_visual_review": false
+    },
+    "existing_release_checks": "Reuse kb/records/cinema-publication-2026-10-31.json for full site tests, source/image uniqueness checks, downloads and prior full-edition review. Those are not new checks in this reader audit."
+  },
+  "findings": [
+    {
+      "id": "ROOT-01",
+      "priority": "P2",
+      "type": "book orientation",
+      "finding": "Both books list all 50 readings in Contents without the seven part headings.",
+      "evidence": "Actual Contents pp3–6; digital p3 visually inspected; builder afterFlowable only registers keyed chapter/section entries while part headings lack a key. Independently confirmed by Samanta.",
+      "action": "Add the existing seven part titles once in Contents before each part's first chapter; preserve numbering and dynamic page references. No new part-opening prose is needed."
+    },
+    {
+      "id": "ROOT-02",
+      "priority": "P3",
+      "type": "message at entry",
+      "finding": "The hub introduces 50 readings and film/media coverage before the care/livelihood question becomes explicit in part introductions.",
+      "evidence": "Live hub opening: 'Follow 50 readings through the films and people of Odia cinema, then explore the television and online worlds around them.'",
+      "action": "Consider one concise purpose sentence at the entry connecting literature, audiences and sustainable creative work. Keep the seven-part architecture."
+    },
+    {
+      "id": "ROOT-03",
+      "priority": "P3",
+      "type": "reading route",
+      "finding": "Four short thematic paths already exist, including Keeping creative work possible. Hub/intro should expose these rather than add a duplicate guide.",
+      "evidence": "Live reading-guide page, Choose a thread.",
+      "action": "Clarify the People and turning points link to include reading paths, and optionally link directly from the introduction. Offer an early onward link in the long online overview, preserving the full reference survey."
+    },
+    {
+      "id": "ROOT-04",
+      "priority": "P3",
+      "type": "edition status consistency",
+      "finding": "The shared site footer still says 'Preview edition · articles await editorial review'.",
+      "evidence": "Visible on the three inspected live pages.",
+      "action": "Reconcile this label with the site's actual editorial status in a separate site-wide decision. Do not remove a true pending-review qualification or claim specialist approval. This is not evidence that publication failed."
+    }
+  ],
+  "conclusions": {
+    "intended_message_delivered": true,
+    "central_arc": "Personal concern for writers → literature in people's lives → songs and shared film work → preservation → contemporary making → audiences and economics → invitation to co-create.",
+    "history_is_context": true,
+    "practical_invitation_present": true,
+    "more_biographies_required": false,
+    "reordering_required": false,
+    "emphasis": "A subtraction and connection pass will improve the manuscript more than another expansion."
+  },
+  "limits": [
+    "No fresh external verification of every historical, financial or biographical claim.",
+    "No new viewing, audience research, financial audit or human specialist review.",
+    "No fresh full-book geometry audit or all-series visual reinspection.",
+    "An unsuccessful web-tool fetch was superseded by successful live browser access; it is not a site failure."
+  ]
+}

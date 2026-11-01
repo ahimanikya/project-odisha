@@ -1,0 +1,137 @@
+{
+  "id": "POD-CINEMA-UX-IMPLEMENTATION-20261101",
+  "status": "local_review_ready",
+  "date": "2026-11-01",
+  "authorization": "User: Let's apply these suggestions.",
+  "baseline": "records/cinema-reading-ux-audit-2026-11-01.json",
+  "active_article": null,
+  "scope": "Shared reading UX and book layout; no historical narrative rewrites. Root coordinates sequential affected-page checks.",
+  "workers": {
+    "Disha": {
+      "files": [
+        "output/pdf/build_book.py",
+        "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+        "kb/records/cinema-reading-ux-implementation-2026-11-01.json",
+        "outputs/cinema-ux-implementation-20261101",
+        "output/pdf/*2026-11-01-ux*",
+        "tmp/pdfs/2026-11-01-ux"
+      ],
+      "task": "Book layout, integration, builds, browser review, shared records"
+    },
+    "Samanta": {
+      "files": [
+        "projects/site/src/lib/cinema-article.mjs",
+        "projects/site/src/components/CinemaReading.astro",
+        "projects/site/src/components/ArticleContents.astro",
+        "projects/site/src/pages/cinema/index.astro",
+        "projects/site/src/pages/cinema/reading-guide.astro",
+        "projects/site/src/pages/cinema/book.astro",
+        "projects/site/src/styles/cinema-reading.css",
+        "projects/site/tools/export-cinema.mjs",
+        "projects/site/tests/cinema-release.test.mjs",
+        "projects/site/tests/cinema-ux.test.mjs",
+        "projects/site/src/components/ReviewedCultureArticle.astro",
+        "projects/site/public/assets/cinema/maya-miriga-threshold.png",
+        "projects/site/public/assets/cinema/bhukha-publicity.png",
+        "projects/site/public/assets/cinema/pratikshya-waiting.png"
+      ],
+      "task": "Website UX; ask root if another exact path needed"
+    },
+    "Anvesha": {
+      "files": [
+        "outputs/cinema-ux-implementation-20261101/accessibility-path.json"
+      ],
+      "task": "Read-only PDF tagging feasibility and prior prototype evidence"
+    },
+    "Drishti": {
+      "files": [
+        "outputs/cinema-ux-implementation-20261101/quality-review.json"
+      ],
+      "task": "Independent final review after integration"
+    }
+  },
+  "boundaries": [
+    "No publication, merge or social posts",
+    "Preserve historical source/artwork provenance and all prior uncommitted work",
+    "Do not change global Kandhamal operations owner",
+    "Reuse approved line art; no new image generation",
+    "Do not claim tagged PDF or reader testing without evidence"
+  ],
+  "human_review_claimed": false,
+  "publication_performed": false,
+  "completed": [
+    "Early hub start/central-route choices",
+    "Ten-reading central route with explicit onward links and distinct full-collection navigation",
+    "Intro-only empty contents suppression",
+    "Three approved story-specific closing drawings on web articles",
+    "Redundant related-reading heading hidden without losing navigation naming",
+    "Printing instructions beside downloads and collapsed earlier-edition archive",
+    "Short book route before full Contents",
+    "Compact complete portrait with digital opening, full print portrait preserved",
+    "Two stranded digital continuation pages removed; two other short endings rebalanced",
+    "Print-only Return labels removed; digital return links preserved"
+  ],
+  "artifacts": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-11-01-ux.pdf",
+      "sha256": "a751c944786b957e17179795417e70f9bafda452c46f0d5a3ada6f160c6809c4",
+      "bytes": 29123667,
+      "pages": 252,
+      "build_receipt": "tmp/pdfs/2026-11-01-ux/digital/book-build-2026-11-01-ux.json",
+      "source_bound_chapters": 50,
+      "notes": 432,
+      "required_image_credits": 23,
+      "all_pages_rendered": true,
+      "stable_print_page_references": true,
+      "semantic_pdf_tags": false
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-ux.pdf",
+      "sha256": "882d0de86b207c6d6610e541d99f068137d10f886015ac1bac647a90ff6d3dd5",
+      "bytes": 54935882,
+      "pages": 278,
+      "build_receipt": "tmp/pdfs/2026-11-01-ux/print/book-build-2026-11-01-ux.json",
+      "source_bound_chapters": 50,
+      "notes": 432,
+      "required_image_credits": 23,
+      "all_pages_rendered": true,
+      "stable_print_page_references": true,
+      "semantic_pdf_tags": false
+    }
+  ],
+  "verification": {
+    "focused_tests": 25,
+    "site_tests": 672,
+    "site_test_failures": 0,
+    "site_build_pages": 570,
+    "rendered_disclosure_files": 1055,
+    "disclosure_violations": 0,
+    "article_structure_pages": 50,
+    "web_citation_markers_and_returns": 573,
+    "broken_note_targets": 0,
+    "browser_receipt": "outputs/cinema-ux-implementation-20261101/browser-review.json",
+    "independent_review": "outputs/cinema-ux-implementation-20261101/quality-review.json",
+    "web_changes": "outputs/cinema-ux-implementation-20261101/web-changes.json",
+    "marker_evidence": "outputs/cinema-ux-implementation-20261101/pdf-operation-marker.json",
+    "guidance": "outputs/cinema-ux-implementation-20261101/web-guidance.txt",
+    "checked_rendered_book_pages": "Selected changed pages at full size; complete page renders retained; no every-page fresh visual certification"
+  },
+  "follow_up": [
+    {
+      "task": "Separate tagged reading PDF and assistive-technology review",
+      "status": "open",
+      "evidence": "outputs/cinema-ux-implementation-20261101/accessibility-path.json",
+      "remaining": "Refresh the stale semantic-reading prototype; verify Odia passage language, Unicode, structure and reading order, then actual assistive-technology navigation. Existing typeset PDFs do not have semantic tags and are not represented as PDF/UA."
+    },
+    {
+      "task": "Reader response to revised opening and reading journey",
+      "status": "awaiting_actual_reader_feedback",
+      "note": "AI and browser checks are not evidence of audience response."
+    }
+  ],
+  "preview": "http://127.0.0.1:8772/cinema/",
+  "global_operations_owner_unchanged": true,
+  "workers_released": true
+}

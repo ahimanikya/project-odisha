@@ -16,19 +16,17 @@ By Ahimanikya Satapathy
 
 Pranab Patnaik remembered learning Urdu from friends while an undergraduate at Aligarh Muslim University. Singing Urdu poetry and listening to ghazal singers helped him develop his style. Recalling that learning in 2017, he also spoke of sustained *riyaz*—practice.[^learning]
 
-Behind the familiar playback voice was a student learning a language among friends, then returning to the discipline of practice.
-
 ## A voice among composers
 
-Patnaik said successive composers had explored his voice differently. Among them were [Akshaya Mohanty](akshaya-mohanty.md) and [Prafulla Kar](prafulla-kar.md).[^learning] He remembered being asked to do different things with a voice audiences already knew.
+Patnaik said successive composers had explored his voice differently. Among them were [Akshaya Mohanty](akshaya-mohanty.md) and [Prafulla Kar](prafulla-kar.md).[^learning]
 
-In *ମମତା (Mamata)*, “Re Mita Aa Sangata” brought Pranab Kishore Patnaik and Sikandar Alam together, with Prafulla Kar’s music and Sibabrata Das’s words.[^mamata]
+His duet with Sikandar Alam in *ମମତା (Mamata)*, “Re Mita Aa Sangata,” opens the [cinema-music reading](../culture/cinema-series/cinema-music.md).[^mamata]
 
 “[Hai Se Harini Akhi](https://www.saregama.com/regional/odia_15/romantic_6/song),” from *ଯାଯାବର (Jajabara)*, carries Patnaik’s voice in a composition by Akshaya Mohanty.[^jajabara] Kar and Mohanty are two of the composers in the wider [Odia cinema-music story](../culture/cinema-series/cinema-music.md); here their songs meet in one singer’s career.
 
 ## A wider musical life
 
-Patnaik’s work extended beyond film playback into devotional, folk, Odissi, semi-classical and ghazal music. His collaborators included Vani Jairam, Usha Mangeshkar, S. Janaki and P. Susheela.[^life] Cinema was an important home for his voice within this wider musical life. The ghazal interest he remembered from his student years belongs alongside these other forms, rather than disappearing behind his film career.
+Patnaik’s work extended beyond film playback into devotional, folk, Odissi, semi-classical and ghazal music. His collaborators included Vani Jairam, Usha Mangeshkar, S. Janaki and P. Susheela.[^life]
 
 ## An honoured career, an open door to listening
 

@@ -1,0 +1,87 @@
+{
+  "status": "PASS_bounded_book_only_omission",
+  "scope_released": true,
+  "reviewer": "independent AI quality review; no human approval",
+  "source_and_web_unchanged": {
+    "kb/research/people/akshaya-mohanty.md": true,
+    "projects/site/src/data/cinema.json": true,
+    "projects/site/src/components/CinemaReading.astro": true
+  },
+  "implementation_review": {
+    "files": [
+      "output/pdf/build_book.py",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json"
+    ],
+    "result": "Current exact requested section only. Slug-specific matching, exactly one heading, required adjacent alias, next equal/higher heading boundary and refusal to remove note references provide bounded safeguards. Removed text/hash recorded in build receipt. No canonical/public article edit.",
+    "limitation": "This verifies current section contents, not arbitrary future editorial changes under the same heading."
+  },
+  "pending": [],
+  "artifacts": {
+    "digital": {
+      "pages": 252,
+      "sha256": "2ea88a3b87fdc5e33668d20be3318637b203f37294ec4d490a331a816e964500",
+      "checks": {
+        "actual_pdf_hash": true,
+        "all50_source_body_bindings_exact": true,
+        "notes432": true,
+        "credits23_exact": true,
+        "figures56_exact_except_cache": true,
+        "covers_same": true,
+        "heading_invitation_url_absent": true,
+        "one_omission": true,
+        "stable_map": true
+      },
+      "omission": [
+        {
+          "slug": "akshaya-mohanty",
+          "heading": "Essential Khoka Bhai listening",
+          "removed_text": "<span id=\"listen-and-explore\"></span>\n\n## Essential Khoka Bhai listening\n\nSpend some time with Khoka Bhai’s songs in this official Saregama collection.\n\n[Open the collection on YouTube](https://www.youtube.com/watch?v=LgqHdOa_U1g).\n\n",
+          "removed_sha256": "ac73173452bd87dbde29aee4511d926e7d77b91c491e30b85d2ee10941d419e5",
+          "reason": "Author requested book-only omission; web collection player retained."
+        }
+      ],
+      "chapter_delta": "Only Akshaya paragraph count15→13; all source/body hashes and other chapter record fields unchanged.",
+      "full_size_pages_viewed": [
+        51,
+        52,
+        53
+      ]
+    },
+    "print": {
+      "pages": 276,
+      "sha256": "955d209221ec794174dcc1006d918ede81d42de740842802ad75e4d2a3cd8e68",
+      "checks": {
+        "actual_pdf_hash": true,
+        "all50_source_body_bindings_exact": true,
+        "notes432": true,
+        "credits23_exact": true,
+        "figures56_exact_except_cache": true,
+        "covers_same": true,
+        "heading_invitation_url_absent": true,
+        "one_omission": true,
+        "stable_map": true
+      },
+      "omission": [
+        {
+          "slug": "akshaya-mohanty",
+          "heading": "Essential Khoka Bhai listening",
+          "removed_text": "<span id=\"listen-and-explore\"></span>\n\n## Essential Khoka Bhai listening\n\nSpend some time with Khoka Bhai’s songs in this official Saregama collection.\n\n[Open the collection on YouTube](https://www.youtube.com/watch?v=LgqHdOa_U1g).\n\n",
+          "removed_sha256": "ac73173452bd87dbde29aee4511d926e7d77b91c491e30b85d2ee10941d419e5",
+          "reason": "Author requested book-only omission; web collection player retained."
+        }
+      ],
+      "chapter_delta": "Only Akshaya paragraph count15→13; all source/body hashes and other chapter record fields unchanged.",
+      "full_size_pages_viewed": [
+        52,
+        53,
+        54
+      ]
+    }
+  },
+  "visual_verdict": "Akshaya closes with retained archive/listener paragraphs; no empty heading or collection invitation. Airy ending remains coherent. Following Prafulla photograph leaf, numeric credit and title/prose page intact in both editions; no clipped content or new stranded heading.",
+  "limits": [
+    "Six affected full-size pages inspected, not all pages.",
+    "Input-body hashes remain unchanged; omission separately recorded. No full corpus fact audit or PDF/UA claim.",
+    "Web files verified unchanged during initial review; no browser actions/publication."
+  ]
+}

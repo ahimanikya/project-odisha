@@ -17,8 +17,6 @@ By Ahimanikya Satapathy
 
 For her Odia-language film *ତାରା (Tara)*, Bijaya Jena had to find the means to make the film in which she would also perform. In her production notes, she recalls shooting on 16mm with limited lighting and money borrowed from family, friends and government agencies.[^jena-tara-notes] Acting was part of the work; keeping the production possible was hers too.
 
-These responsibilities bring us close to a filmmaker’s working life. A performance belongs within a larger undertaking: people, equipment, time and the resources needed to bring them together. Jena’s account begins with those practical conditions, alongside her wish to tell a story.
-
 ## Choosing the work
 
 In her own profile, Jena describes choosing acting studies at the Film and Television Institute of India despite opposition within her family. Her subsequent work included acting in Odia and Hindi cinema and television, before producing and directing her own films.[^jena-profile]
@@ -43,9 +41,7 @@ A book can accompany a filmmaker’s thinking without becoming the story being a
 
 In the same interview, she recalled difficulty obtaining theatrical distribution for *Abhaas*. Its premiere on national television, she said, helped her recover her money.[^film-international-interview]
 
-The film had been made, but reaching viewers remained another task. Her experience belongs beside the [cinema economics reading](../culture/cinema-series/cinema-economics.md), which follows the different stages between financing a production and receiving income from it.
-
-From *Tara* to *Abhaas*, Jena’s account keeps the making and the sharing of a film together. A viewer may begin with the woman on screen, then follow her into the writing, the production and the effort to find an audience. Each encounter brings another part of her work into view.
+Her account of recovering the money through television belongs beside the [economics reading](../culture/cinema-series/cinema-economics.md): completing *Abhaas* and finding its audience were separate difficulties.
 
 ## Footnotes & Sources
 

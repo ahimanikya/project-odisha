@@ -15,7 +15,7 @@ hero_image: "../../media/cinema-series/distinct-2026-10-27/pratikshya.png"
 
 By Ahimanikya Satapathy
 
-A secure job can become more than employment. It can stand for a family’s hopes, the ability to repay a loan and relief from being dependent on someone else. **ପ୍ରତୀକ୍ଷା (Pratikshya)** places that desire beside a father’s illness, until the son’s hope for security becomes entangled with the possibility of loss.
+Four applicants sit shoulder to shoulder, books and papers on their laps. In the official trailer for **ପ୍ରତୀକ୍ଷା (Pratikshya)**, Sanjay turns towards the woman beside him while the two men on his other side keep looking down at their reading material. The row fills the frame. His search for a job already has company: other people, other pages, another turn to wait for.[^ensemble]
 
 The Film Bazaar viewing-room synopsis locates the story in a middle-class Bhubaneswar household. Sanjay wants a government job; his father Bipin approaches retirement while the family carries wedding debt. Illness changes the meaning of their waiting.[^bazaar]
 
@@ -43,7 +43,7 @@ The Film Bazaar entry credits **Roshan Bisoi** as writer, placing screenwriting 
 
 ## Watch an official introduction
 
-[Amiya Patnaik Productions’ official trailer](https://www.youtube.com/watch?v=E_p4kHzZBTM) offers an introduction to the film. Availability may vary by location.
+[The official trailer](https://www.youtube.com/watch?v=E_p4kHzZBTM) offers an introduction to the film. Availability may vary by location.
 
 You can also select the [Pratikshya trailer in our viewing room](https://projectodisha.org/cinema/watch/#pratikshya-trailer), where it remains clearly separated from full-film listings.
 
@@ -55,7 +55,7 @@ The household’s search for stability lingers beyond its synopsis. The [economi
 [^iffi]: Press Information Bureau, [IFFI cast-and-crew account](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022, source-story connection and leading-role testimony.
 [^award]: Press Information Bureau, [69th National Film Awards results](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48), 24 August 2023, Best Odia Film for 2021.
 
-[^ensemble]: Amiya Patnaik Productions, [official Pratikshya trailer](https://www.youtube.com/watch?v=E_p4kHzZBTM), cast credits in indexed description, checked 27 October 2026. Playback not checked.
+[^ensemble]: [Pratikshya official trailer](https://www.youtube.com/watch?v=E_p4kHzZBTM&t=19s), 00:19 and cast credits in description. TechnoArt Productionz channel; Amiya Patnaik Productions film.
 [^crew]: Jyoti Prakash Sahoo, [Pratikshya: A Tale of Dreams, Desperation and Aspirations](https://www.mycitylinks.in/pratikshya-a-tale-of-dreams-desperation-and-aspirations/), MyCityLinks, 17 November 2022; production credits.
 
 ## Further reading

@@ -1,0 +1,30 @@
+{
+  "status": "complete_ready_for_root_book_build",
+  "changed_files": [
+    "output/pdf/build_book.py",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json"
+  ],
+  "canonical_source_sha256": "30962c9edf3f42a5ccc772b95b9e04f6c28c83cf24d1e479c3bcf8f8b90d823c",
+  "omission": {
+    "slug": "akshaya-mohanty",
+    "heading": "Essential Khoka Bhai listening",
+    "removed_text": "<span id=\"listen-and-explore\"></span>\n\n## Essential Khoka Bhai listening\n\nSpend some time with Khoka Bhai\u2019s songs in this official Saregama collection.\n\n[Open the collection on YouTube](https://www.youtube.com/watch?v=LgqHdOa_U1g).\n\n",
+    "removed_sha256": "ac73173452bd87dbde29aee4511d926e7d77b91c491e30b85d2ee10941d419e5",
+    "reason": "Author requested book-only omission; web collection player retained."
+  },
+  "validation": {
+    "builder_ast_parse": "PASS",
+    "one_exact_section_and_adjacent_alias_removed": "PASS",
+    "source_note_definitions_unchanged": "PASS",
+    "unrelated_slug_unchanged": "PASS",
+    "missing_and_duplicate_heading_fail_closed": "PASS",
+    "pdf_build_run": false,
+    "web_source_unchanged": true
+  },
+  "receipt_field": "book_section_omissions (removed text, SHA256, heading, slug, reason)",
+  "root_followup": "Run both editions; preservation checker should subtract recorded removed_text only. Canonical chapter source hash remains unchanged; book_body hash still describes input adaptation, with exact omission separately recorded.",
+  "file_hashes": {
+    "output/pdf/build_book.py": "2236f9186e3f602530553e06ff496fbd79bdd0b5a2b80711af6782063a19731c",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "e05360e89daab603f2f7ee3790d5a0b102b4d911223a042d68ba61abe4bf1071"
+  }
+}

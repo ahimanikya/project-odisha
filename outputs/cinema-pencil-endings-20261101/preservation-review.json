@@ -1,0 +1,139 @@
+{
+  "status": "final_structural_preservation_verified",
+  "scope": "Read-only final PDF/receipt/source comparison; no general visual-quality or external factual certification.",
+  "configuration": {
+    "tails": 41,
+    "inline": 3,
+    "unique_ids": 44,
+    "unique_source_paths": 44,
+    "unique_source_hashes": 44
+  },
+  "editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-pencil-endings.pdf",
+      "sha256": "a8fda010f21e84bf3cf0dbbceca505e7fea80c27a2ab2ff4a8ad93e501367f7b",
+      "bytes": 31753492,
+      "pages": 252,
+      "baseline_pages": 252,
+      "receipt": "tmp/pdfs/2026-11-01-pencil-endings/digital/book-build-2026-11-01-pencil-endings.json",
+      "receipt_sha256": "cade2c6102022ba2f23d541f9a12f8c4ab63537e4c30f2f0fa11e755db023825",
+      "checks": {
+        "receipt_pdf_hash_matches": true,
+        "50_source_bindings_identical": true,
+        "50_sources_match_current_disk": true,
+        "book_body_input_hashes_identical": true,
+        "56_original_figures_preserved": true,
+        "432_notes_preserved": true,
+        "23_image_credits_preserved": true,
+        "listening_omission_identical": true,
+        "cover_source_hash_identical": true,
+        "cover_page_streams_identical": true,
+        "page_count_unchanged": true,
+        "chapter_page_map_identical": true,
+        "printed_page_references_stable": true,
+        "reading_aids_identical": true,
+        "inline_art_identical": true,
+        "41_unique_tail_attempts": true,
+        "29_new_tail_attempts": true,
+        "tail_source_and_embedded_hashes_match_disk": true,
+        "zero_unresolved_internal_links": true,
+        "extracted_text_unchanged_except_tail_captions": true
+      },
+      "tail_status": {
+        "placed": 35,
+        "skipped_insufficient_space": 6
+      },
+      "new_tail_status": {
+        "placed": 26,
+        "skipped_insufficient_space": 3
+      },
+      "skipped_slugs": [
+        "basanta-kumari-patnaik",
+        "manglu-charan-biswal",
+        "gour-prasad-ghose",
+        "learning-cinema-together",
+        "daman",
+        "vishal-mourya"
+      ],
+      "new_skipped_slugs": [
+        "manglu-charan-biswal",
+        "gour-prasad-ghose",
+        "daman"
+      ],
+      "internal_link_count": 1386,
+      "external_or_other_link_count": 596,
+      "unresolved_links": [],
+      "image_comparison_note": "Revision-specific temporary embedded_file paths ignored for original figures; content SHA, geometry, crop and credit equality required."
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-pencil-endings.pdf",
+      "sha256": "ed9dab1adc7ace81f75f91d1270f2db337670c71e962809776068a950aaa5067",
+      "bytes": 57695212,
+      "pages": 276,
+      "baseline_pages": 276,
+      "receipt": "tmp/pdfs/2026-11-01-pencil-endings/print/book-build-2026-11-01-pencil-endings.json",
+      "receipt_sha256": "3d4971b52ec974d5c0fd1f98c415bd8b698d2d497602685d418d347b7ec99b7b",
+      "checks": {
+        "receipt_pdf_hash_matches": true,
+        "50_source_bindings_identical": true,
+        "50_sources_match_current_disk": true,
+        "book_body_input_hashes_identical": true,
+        "56_original_figures_preserved": true,
+        "432_notes_preserved": true,
+        "23_image_credits_preserved": true,
+        "listening_omission_identical": true,
+        "cover_source_hash_identical": true,
+        "cover_page_streams_identical": true,
+        "page_count_unchanged": true,
+        "chapter_page_map_identical": true,
+        "printed_page_references_stable": true,
+        "reading_aids_identical": true,
+        "inline_art_identical": true,
+        "41_unique_tail_attempts": true,
+        "29_new_tail_attempts": true,
+        "tail_source_and_embedded_hashes_match_disk": true,
+        "zero_unresolved_internal_links": true,
+        "extracted_text_unchanged_except_tail_captions": true
+      },
+      "tail_status": {
+        "skipped_insufficient_space": 6,
+        "placed": 35
+      },
+      "new_tail_status": {
+        "skipped_insufficient_space": 4,
+        "placed": 25
+      },
+      "skipped_slugs": [
+        "the-question-that-brought-me-here",
+        "basanta-kumari-patnaik",
+        "tapu-mishra",
+        "nirad-mohapatra",
+        "vishal-mourya",
+        "commercial-successes"
+      ],
+      "new_skipped_slugs": [
+        "the-question-that-brought-me-here",
+        "tapu-mishra",
+        "nirad-mohapatra",
+        "commercial-successes"
+      ],
+      "internal_link_count": 964,
+      "external_or_other_link_count": 603,
+      "unresolved_links": [],
+      "image_comparison_note": "Revision-specific temporary embedded_file paths ignored for original figures; content SHA, geometry, crop and credit equality required."
+    }
+  },
+  "web_preserved": {
+    "canonical_listening_heading_present": true,
+    "canonical_collection_link_present": true,
+    "built_web_listening_heading_present": true,
+    "built_web_player_enhancement_present": true
+  },
+  "passed": true,
+  "limits": [
+    "No full-page visual approval claimed; independent reviewer owns visual checks.",
+    "External links not re-fetched; PDF internal destinations validated against actual page references/named destinations.",
+    "Artwork caption additions are expected; text comparison normalizes whitespace then removes configured tail captions from both versions. Canonical MD unchanged.",
+    "PDF tagging/accessibility reading order not reassessed."
+  ]
+}

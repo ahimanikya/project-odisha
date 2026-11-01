@@ -1,10 +1,33 @@
 ---
 import Shell from '../../layouts/Shell.astro';
 import CinemaDiscovery from '../../components/CinemaDiscovery.astro';
-import {cinema,cinemaNarrative} from '../../lib/cinema-article.mjs';
+import {cinema,cinemaNarrative,cinemaLabelHtml,cinemaArticle} from '../../lib/cinema-article.mjs';
 import '../../styles/article-reading.css';
 const route=slug=>cinema.articles.find(a=>a.slug===slug).route;
-const note=item=>route(item.slug)+'#user-content-fn-'+item.source_note_id;
+const rendered=new Map();
+const sourceRefs=item=>{
+ if(!cinema.articles.some(a=>a.slug===item.slug))throw Error('Unknown guide reading');
+ const refs=item.source_refs??[{slug:item.slug,source_note_id:item.source_note_id}];
+ if(!Array.isArray(refs)||!refs.length)throw Error('Guide entry needs source references');
+ const seen=new Set();
+ return refs.map(ref=>{
+  const entry=cinema.articles.find(a=>a.slug===ref.slug);
+  const key=ref.slug+'#'+ref.source_note_id;
+  if(!entry||seen.has(key))throw Error('Unknown or duplicate guide source reference: '+key);
+  seen.add(key);
+  if(!rendered.has(ref.slug))rendered.set(ref.slug,cinemaArticle(entry).fullHTML);
+  const html=rendered.get(ref.slug);
+  const id='user-content-fn-'+ref.source_note_id;
+  const notes=[...html.matchAll(/<li id="(user-content-fn-[^"]+)"/g)].map(m=>m[1]);
+  const number=notes.indexOf(id)+1;
+  if(!number)throw Error('Unknown guide source note: '+key);
+  return {href:entry.route+'#'+id,number,label:`${entry.title}, note ${number}`};
+ });
+};
+const people=cinemaNarrative.people_guide.map(item=>({...item,refs:sourceRefs(item)}));
+const milestones=cinemaNarrative.timeline.map(item=>({...item,refs:sourceRefs(item)}));
+if(milestones.some((item,i)=>typeof item.sort_year!=='number'||!Number.isFinite(item.sort_year)||(i>0&&item.sort_year<milestones[i-1].sort_year)))throw Error('Timeline sort_year must be numeric and chronological');
+const groups=people.reduce((all,item)=>{const group=item.group||'';if(all.at(-1)?.label!==group)all.push({label:group,items:[]});all.at(-1).items.push(item);return all;},[]);
 const title=slug=>cinema.articles.find(a=>a.slug===slug).title;
 ---
 <Shell title="People, connections and turning points" description="A companion to A Living Screen: follow the people, collaborations and dated turning points in Odia cinema." active="explore" related={false}>
@@ -12,16 +35,17 @@ const title=slug=>cinema.articles.find(a=>a.slug===slug).title;
   <p><a href="/cinema/">← A Living Screen</a></p>
   <h1>People, connections and turning points</h1>
   <p>A place to return when a name or date echoes across the readings. These connections offer starting points for exploration; they are not a complete roll of contributors or a single line of progress.</p>
-  <CinemaDiscovery writers/>
-  <h2>Choose a thread</h2>
+  <h2 id="reading-paths">Choose a thread</h2>
   <p>Read the collection from the beginning, or follow one question across a few chapters.</p>
-  {cinemaNarrative.reading_paths.map(path=><section class="reading-thread"><h3>{path.title}</h3><p>{path.text}</p><ol>{path.chapters.map(slug=><li><a href={route(slug)}>{title(slug)}</a></li>)}</ol></section>)}
-  <h2>People working together</h2>
-  <dl>{cinemaNarrative.people_guide.map(item=><Fragment><dt><a href={route(item.slug)}>{item.label}</a></dt><dd><p class="relationship">{item.relationship}</p><p>{item.text} <a href={note(item)}>Source note →</a></p></dd></Fragment>)}</dl>
-  <h2>Dates to place in the story</h2>
+  {cinemaNarrative.reading_paths.map(path=><section class="reading-thread" id={path.primary?'central-reading-route':undefined}><h3>{path.title}</h3><p>{path.text}</p><ol>{path.chapters.map(slug=><li><a href={route(slug)}><Fragment set:html={cinemaLabelHtml(path.labels?.[slug]||title(slug))}/></a></li>)}</ol></section>)}
+  <CinemaDiscovery writers/>
+  {cinemaNarrative.reference_guide_intro&&<p><Fragment set:html={cinemaLabelHtml(cinemaNarrative.reference_guide_intro)}/></p>}
+  <h2 id="people-and-work">People working together</h2>
+  {groups.map(group=><Fragment>{group.label&&<h3>{group.label}</h3>}<dl>{group.items.map(item=><Fragment><dt><a href={route(item.slug)}>{item.label}</a></dt><dd><p class="relationship">{item.relationship}</p><p><Fragment set:html={cinemaLabelHtml(item.text)}/>{item.refs.map(ref=><sup><a class="guide-citation" href={ref.href} aria-label={ref.label}>{ref.number}</a></sup>)}</p></dd></Fragment>)}</dl></Fragment>)}
+  <h2 id="selected-milestones">Dates to place in the story</h2>
   <p>A release, a festival selection, a restoration and an award belong to different histories. Each date below says what it records.</p>
-  <ol class="timeline" role="list">{cinemaNarrative.timeline.map(item=><li><p><strong>{item.date}</strong> <span class="relationship"> · {item.kind.replaceAll('-',' ')}</span></p><p>{item.text} <a href={note(item)}>Read the account and source →</a></p></li>)}</ol>
+  <ol class="timeline" role="list">{milestones.map(item=><li><p><strong>{item.date}</strong> <span class="relationship"> · {item.kind.replaceAll('-',' ')}</span></p><p><Fragment set:html={cinemaLabelHtml(item.text)}/>{item.refs.map(ref=><sup><a class="guide-citation" href={ref.href} aria-label={ref.label}>{ref.number}</a></sup>)}</p></li>)}</ol>
   <p><a href="/cinema/">Return to the readings →</a></p>
  </article>
 </Shell>
-<style>.cinema-guide{max-width:804px;padding-inline:32px}.cinema-guide dt{font-size:1.15rem;margin-top:1.5rem}.cinema-guide dd{margin-inline-start:0}.cinema-guide .relationship{font-size:.85rem;color:var(--muted);margin-block:.25rem}.timeline{list-style:none;padding:0}.timeline li{padding:1rem 0;border-top:1px solid var(--line)}.timeline p{margin:.25rem 0}@media(max-width:600px){.cinema-guide{padding-inline:22px}}</style>
+<style>.guide-citation{display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:24px}.guide-citation:focus-visible{outline:2px solid currentColor;outline-offset:2px}.cinema-guide{max-width:804px;padding-inline:32px}.cinema-guide dt{font-size:1.15rem;margin-top:1.5rem}.cinema-guide dd{margin-inline-start:0}.cinema-guide .relationship{font-size:.85rem;color:var(--muted);margin-block:.25rem}.timeline{list-style:none;padding:0}.timeline li{padding:1rem 0;border-top:1px solid var(--line)}.timeline p{margin:.25rem 0}@media(max-width:600px){.cinema-guide{padding-inline:22px}}</style>

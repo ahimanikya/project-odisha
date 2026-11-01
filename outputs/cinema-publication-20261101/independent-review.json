@@ -1,0 +1,47 @@
+{
+  "status": "merge_and_source_pass_awaiting_activated_head",
+  "head": "dffb9bef37066b4a1a33e3b6a6bbb36d70b8c8c7",
+  "reviewed_package_commit": "d7fcd82d",
+  "upstream_commit": "00eb4044",
+  "independent_ai_review": true,
+  "human_specialist_review": false,
+  "publication_actions_by_reviewer": false,
+  "merge_preservation": {
+    "upstream_only_paths_compared": 453,
+    "different_from_upstream": [],
+    "overlap": [
+      "projects/site/editions/coast.json"
+    ],
+    "coast_result": "All upstream routes/starter IDs/journeys/overrides/documents/standalone routes retained. Only reviewed cinema download replacement bhukha-title-1200w.jpg -> bhukha-clean-20261101-1200w.jpg; source original retained.",
+    "reviewed_cinema_source_data_images_builder_changed_by_merge": false
+  },
+  "bindings": {
+    "canonical_sources": 50,
+    "source_hash_mismatches": [],
+    "pdfs": [
+      {
+        "edition": "digital",
+        "sha256": "53d7c90819817909c13436eb5fd1fbe9d0d9f58a03f0c82717d0ea97a4cfaa9e",
+        "actual_matches": true
+      },
+      {
+        "edition": "print",
+        "sha256": "8499a37efa4c6569dd4b95838e4877825ee04b3d9f71fea11c9987806bb7f370",
+        "actual_matches": true
+      }
+    ]
+  },
+  "tracked_payload": {
+    "new_files_over_10MB": [],
+    "new_pdf_html_txt_or_synced_source_mirrors": [],
+    "untracked_public_cinema_files": [],
+    "note": "Untracked historical outputs/PDFs are not part of committed payload; reviewed PDFs are uploaded release assets, not Git payload."
+  },
+  "findings": [],
+  "pending": [
+    "Activated metadata after remote verification",
+    "Final committed generated index/workbench and exact head",
+    "Current production build/live verification owned by coordinator"
+  ],
+  "scope_released": false
+}

@@ -41,7 +41,7 @@ The [official Indian Panorama catalogue](https://dff.nic.in/images/Documents/20_
 
 ## Footnotes & Sources
 
-[^conference]: Press Information Bureau, [IFFI press conference on Adim Vichar](https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=111903), 26 November 2014. Festival testimony and synopsis; the director’s view of justice is attributed, not treated as social research.
+[^conference]: Press Information Bureau, [IFFI press conference on Adim Vichar](https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=111903), 26 November 2014. Filmmaker testimony and synopsis.
 [^catalogue]: Directorate of Film Festivals, [Indian Panorama 2014 catalogue](https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf), printed p. 031, *Adim Vichar* entry. Indexed catalogue text.
 [^award]: Press Information Bureau, [62nd National Film Awards results](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636), 24 March 2015, Best Odiya Film.
 

@@ -21,6 +21,8 @@ The writing around Odia cinema belongs to this continuing exchange. It includes 
 
 This is a growing reading guide, not a claim to have found every book or reviewed each one. We have inspected selected public-preview pages of the studies by Ranjan Kumar Rath and Sanjoy Patnaik, and the acknowledgements and explanatory notes in the *Encyclopedia of Indian Cinema*. Other entries draw on publication records, author bibliographies, library catalogues and documented launches. Unsettled edition details remain open.
 
+Begin with the question you want to follow. For chronology, look towards Ghosh and Rath; for cinema’s social questions, Sanjoy Patnaik. For songs, try Surya Deo’s collections and Devdas Chhotray’s lyrics. For a working life remembered from within, turn to the memoirs below. The entries distinguish available previews from catalogue records and identify edition details still unsettled.
+
 ## Where a longer account begins
 
 **Kartik Kumar Ghosh — *Oriya Chalachitrara Itihas*.** A Fakir Mohan University accession list records a first edition dated **1984**. The explanatory notes in the *Encyclopedia of Indian Cinema* also identify Ghosh’s work as a source. This is an important earlier point of reference when tracing who has documented the field; later bibliographies give another date, so editions still need to be compared.[^ghosh]

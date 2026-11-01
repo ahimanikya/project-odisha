@@ -1,0 +1,27 @@
+{
+  "status": "prepared_not_executed",
+  "edition_date": "2026-11-01",
+  "local_review": "review-site/cinema/book/index.html",
+  "publication_sequence": [
+    "Confirm publication scope for the reviewed50-reading package and new books.",
+    "Reconcile remote branch, competing changes and publication jobs; retain scoped source and media changes only.",
+    "Upload exact reviewed PDFs as the1November release; verify public bytes and SHA-256 against book-release-manifest.json.",
+    "Apply only review_books and archived_review_books from activation-metadata.json; preserve article data.",
+    "Save the verified release manifest under outputs/cinema-publication-20261101/book-release-manifest.json for the strict release test.",
+    "Rebuild and validate with publicly verified URLs; independently review exact resulting revision before publishing.",
+    "After deployment verify54cinema routes, linked images, download hashes and release receipts."
+  ],
+  "excluded_from_source_commit": [
+    "review-site/ local preview copy",
+    "tmp/ renders and downloaded research working files",
+    "superseded intermediate PDFs",
+    "raw clipboard uploads and unlicensed research captures"
+  ],
+  "separate_followups": [
+    "Tagged PDF/assistive-technology validation",
+    "Physical print proof",
+    "Actual reader feedback"
+  ],
+  "publication_performed": false,
+  "human_review_claimed": false
+}

@@ -1,0 +1,157 @@
+{
+  "status": "local_review_ready",
+  "date": "2026-11-01",
+  "authorization": "User requested making films more encountered than described to make reading interesting.",
+  "baseline": "records/cinema-human-voice-2026-11-01.json",
+  "active_article": null,
+  "article_queue": [
+    "pratikshya",
+    "maya-miriga",
+    "literature-and-screen"
+  ],
+  "workers": {
+    "Disha": "Visual observation, integration, metadata, books/site and task record",
+    "Anvesha": "outputs/cinema-close-readings-20261101/literary-evidence.json only, released",
+    "Samanta": "Sequential canonical changes only for pratikshya.md, maya-miriga.md, literature-and-screen.md, plus exact-change receipt",
+    "Drishti": "outputs/cinema-close-readings-20261101/quality-review.json only"
+  },
+  "boundaries": [
+    "No invented author viewing or audio experience",
+    "Only bounded excerpts inspected, not whole films",
+    "No new images/reproduction of screenshots in public articles",
+    "Preserve actual credits and testimony",
+    "No publication, Git mutations or contact",
+    "Preserve shared Kandhamal ownership"
+  ],
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "implementation_complete": [
+    "pratikshya",
+    "maya-miriga",
+    "literature-and-screen"
+  ],
+  "validation": {
+    "site_tests": {
+      "passed": 22,
+      "failed": 0,
+      "log": "outputs/cinema-close-readings-20261101/site-tests.log"
+    },
+    "site_build": {
+      "status": "PASS",
+      "log": "outputs/cinema-close-readings-20261101/site-build.log"
+    },
+    "disclosure_gate": {
+      "pages": 1055,
+      "violations": 0
+    },
+    "browser_preview": "http://127.0.0.1:8772/cinema/pratikshya/",
+    "browser_screenshot": "outputs/cinema-close-readings-20261101/pratikshya-preview.png",
+    "bundle": "PASS:1867concepts,8038local links after index/ledger entry"
+  },
+  "prose_quality": "PASS; separate Drishti review, not human approval",
+  "evidence": {
+    "visual_observation": "outputs/cinema-close-readings-20261101/visual-observations.json",
+    "literary_passage": "outputs/cinema-close-readings-20261101/literary-evidence.json",
+    "worker_changes": "outputs/cinema-close-readings-20261101/editorial-progress.json",
+    "integration_refinements": "outputs/cinema-close-readings-20261101/integration-refinements.json",
+    "quality_review": "outputs/cinema-close-readings-20261101/quality-review.json"
+  },
+  "phase": "completed",
+  "completed_on": "2026-11-01",
+  "worker_scopes_released": true,
+  "artifacts": [
+    {
+      "edition": "digital",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-close-readings.pdf",
+      "sha256": "d353f9a999e2390d51808ef3272abb2698e4da1e8307e9b478455b6259ea295d",
+      "pages": 254,
+      "internal_links": 1386,
+      "broken_named_links": [],
+      "new_passage_pages": {
+        "Four applicants": [
+          145
+        ],
+        "An older man sits": [
+          89
+        ],
+        "Basudev gives Rebati": [
+          17
+        ]
+      },
+      "all_pages_rendered": true,
+      "chapter_page_references_stable": true,
+      "tail_vignettes": [
+        {
+          "slug": "maya-miriga",
+          "status": "placed",
+          "page": 89
+        },
+        {
+          "slug": "bhukha",
+          "status": "placed",
+          "page": 95
+        },
+        {
+          "slug": "pratikshya",
+          "status": "placed",
+          "page": 147
+        }
+      ]
+    },
+    {
+      "edition": "print",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-close-readings.pdf",
+      "sha256": "2018ac7434b40e58d2115e7ef70d684ff44297b9098d592c3c2afa904322b528",
+      "pages": 280,
+      "internal_links": 1396,
+      "broken_named_links": [],
+      "new_passage_pages": {
+        "Four applicants": [
+          144
+        ],
+        "An older man sits": [
+          88
+        ],
+        "Basudev gives Rebati": [
+          17
+        ]
+      },
+      "all_pages_rendered": true,
+      "chapter_page_references_stable": true,
+      "tail_vignettes": [
+        {
+          "slug": "maya-miriga",
+          "status": "placed",
+          "page": 88
+        },
+        {
+          "slug": "bhukha",
+          "status": "placed",
+          "page": 93
+        },
+        {
+          "slug": "pratikshya",
+          "status": "placed",
+          "page": 146
+        }
+      ]
+    }
+  ],
+  "results": {
+    "revised_readings": 3,
+    "collection_readings": 50,
+    "close_encounters": [
+      "Pratikshya trailer interview waiting row",
+      "Maya Miriga restoration excerpt seated figure and household space",
+      "Rebati original text primer and picture-sharing episode"
+    ],
+    "unchanged": "All images, covers and23requiredcreditrecords; no new public film stills.",
+    "review": "Separate evidence/implementation/quality agents; actual selected source frames and original literary transcription inspected. Both books rendered; affected pages visually reviewed."
+  },
+  "remaining": [
+    "No full-film or audio close reading claimed; these are bounded visual and textual encounters.",
+    "Actual reader responses have not yet been collected.",
+    "Original-author screen-use compensation remains unresolved, not evidence of nonpayment.",
+    "Local drafts only; no publication or human specialist approval claimed."
+  ]
+}

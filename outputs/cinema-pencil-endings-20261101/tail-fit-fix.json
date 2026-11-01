@@ -1,0 +1,63 @@
+{
+  "status": "implemented_ready_for_root_final_build",
+  "changed_file": "output/pdf/build_book.py",
+  "builder_sha256": "81cd19a1de725a692f53047e42d0b8a0d6dea15d904b8a96e36144e0d5348dea",
+  "fix": "frameAction dispatch occurs before ReportLab full-frame rejection; insufficient space is consumed as a skip even with negative cursor remainder. Confirmed fit alone draws and advances frame.",
+  "bounded_frame_cases": [
+    {
+      "available_height_pt": 0,
+      "accepted_without_new_page": true,
+      "status": "skipped_insufficient_space",
+      "required_height_pt": 141.5
+    },
+    {
+      "available_height_pt": -9,
+      "accepted_without_new_page": true,
+      "status": "skipped_insufficient_space",
+      "required_height_pt": 141.5
+    },
+    {
+      "available_height_pt": 12,
+      "accepted_without_new_page": true,
+      "status": "skipped_insufficient_space",
+      "required_height_pt": 141.5
+    },
+    {
+      "available_height_pt": 200,
+      "accepted_without_new_page": true,
+      "status": "placed",
+      "required_height_pt": 141.5
+    }
+  ],
+  "book_only_export": {
+    "source_bytes": 1761835,
+    "embedded_bytes": 180131,
+    "source_pixels": [
+      1536,
+      1024
+    ],
+    "embedded_pixels": [
+      625,
+      417
+    ],
+    "mode": "RGBA",
+    "alpha_channel_preserved": true,
+    "pixels_equal_expected_lanczos_resize": true,
+    "effective_dpi": 300.0
+  },
+  "source_unchanged": true,
+  "receipt_fields": [
+    "source sha256",
+    "embedded_file",
+    "embedded_sha256",
+    "embedded_pixels",
+    "source_pixels",
+    "alpha_preserved",
+    "effective_dpi",
+    "available_height_pt",
+    "status",
+    "page when placed"
+  ],
+  "full_pdf_build_run": false,
+  "limits": "In-memory Frame tests and actual-class resized PNG validation; root must rebuild both full editions/multipass references and independent visual QA."
+}

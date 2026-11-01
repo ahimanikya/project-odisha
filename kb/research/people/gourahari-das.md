@@ -27,7 +27,7 @@ The biographical account on his website places his beginnings in **Sandhagara ne
 
 The exchange between Nimai and Sanatan in “The Culprit” gives the detained man room to be heard. Read the complete story in **Snehaprava Das’s translation** at [The Dreaming Machine](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), published through an exchange with *The Antonym*.[^culprit] The translator and journal bring that encounter to people who do not read Odia.
 
-The description of **The Little Monk and Other Stories** on Das’s website introduces rural lives, uneasy family relationships and people living with unequal power. It identifies the Rupa edition by ISBN **978-81-291-1699-4**.[^monk] This is another route into his short fiction, alongside **Kanta O’ Anyanya Galpa**, the collection recognised by the Sahitya Akademi in 2012.[^award]
+The description of **The Little Monk and Other Stories** on Das’s website introduces rural lives, uneasy family relationships and people living with unequal power.[^monk] This is another route into his short fiction, alongside **Kanta O’ Anyanya Galpa**, the collection recognised by the Sahitya Akademi in 2012.[^award]
 
 ## Novels and the pressure of a choice
 
@@ -68,20 +68,20 @@ A viewer coming from *Pratikshya* can return to Nimai and Sanatan in “The Culp
 ## Footnotes & Sources
 
 
-[^film]: Press Information Bureau, [IFFI53 account of Pratikshya](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Confirms short-story inspiration and film synopsis; does not name the underlying story.
-[^author]: Niyogi Books, [Gourahari Das](https://niyogibooksindia.com/author/gourahari-das/), publisher biography. Broad career description, not an independently complete bibliography.
+[^film]: Press Information Bureau, [IFFI53 account of Pratikshya](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Underlying story unnamed.
+[^author]: Niyogi Books, [Gourahari Das](https://niyogibooksindia.com/author/gourahari-das/), publisher biography.
 [^catalogue]: Sahitya Akademi, [English publications catalogue](https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp), *The Nail and Other Stories*, translated by Mona Lisa Jena, 2017, ISBN 978-81-260-5384-1.
 [^award]: Sahitya Akademi, [Akademi Awards](https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp), Odia, 2012, *Kanta O’ Anyanya Galpa*.
-[^labyrinth]: Niyogi Books, [The Labyrinth](https://niyogibooksindia.com/books/the-labyrinth/), synopsis and translator credit. Synopsis attributed to publisher; exact edition date not asserted.
+[^labyrinth]: Niyogi Books, [The Labyrinth](https://niyogibooksindia.com/books/the-labyrinth/), synopsis and translator credit. Publisher synopsis; edition date unspecified.
 [^translation]: Sahitya Akademi, [Translation Prizes](https://sahitya-akademi.gov.in/awards/anuvad_samman_suchi.jsp), Odia, 2021. Award year distinguished from later announcement.
 
 
-[^traveller]: Author website, [A Traveller](https://gouraharidas.com/2019/07/11/gourahari-das/), 11 July 2019. The website describes third-party preparation with writer inputs. Biographies disagree on birth year; no birth date is asserted here.
-[^columns]: [Kalinga Literary Festival biography](https://kalingaliteraryfestival.com/speakers/gourahari-das/), column names and pseudonym. Undated career account; current tenure is not inferred.
-[^kolkata]: [Kolkata Literary Meet 2022](https://kolkatalitmeet.in/2022/speakers/gourahari-das/), speaker biography and session dated 25 March 2022. Editorial/teaching roles are anchored to that profile.
-[^culprit]: Gourahari Das, [The Culprit](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), translated by Snehaprava Das, The Dreaming Machine, 30 April 2022, courtesy The Antonym. Published fiction inspected; the discussion is an interpretation of the story, not testimony about real people.
-[^monk]: Author website, [The Little Monk and Other Stories](https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/), bibliographic entry and description. Website posting date is not an asserted book publication date.
-[^panchaparba]: Author website, [Panchaparba](https://gouraharidas.com/2019/08/03/panchaparba-2/), Friends Publishers, 2019, collected novels volume 1. Descriptive themes are attributed to this entry rather than an independent reading of all five novels.
+[^traveller]: Author website, [A Traveller](https://gouraharidas.com/2019/07/11/gourahari-das/), 11 July 2019. Prepared with writer inputs; birth-year accounts conflict.
+[^columns]: [Kalinga Literary Festival biography](https://kalingaliteraryfestival.com/speakers/gourahari-das/), column names and pseudonym. Undated career account.
+[^kolkata]: [Kolkata Literary Meet 2022](https://kolkatalitmeet.in/2022/speakers/gourahari-das/), speaker biography and session dated 25 March 2022.
+[^culprit]: Gourahari Das, [The Culprit](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), translated by Snehaprava Das, The Dreaming Machine, 30 April 2022, courtesy The Antonym.
+[^monk]: Author website, [The Little Monk and Other Stories](https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/), bibliographic entry and description; Rupa edition, ISBN 978-81-291-1699-4. Publication date unverified.
+[^panchaparba]: Author website, [Panchaparba](https://gouraharidas.com/2019/08/03/panchaparba-2/), Friends Publishers, 2019, collected novels volume 1. Catalogue description, not a reading of all five novels.
 [^stage]: Author website, [From page to stage](https://gouraharidas.com/2019/08/01/from-page-to-stage/), 1 August 2019, theatre and young-writer activity.
 [^sarala]: IMPaCT, [Sarala Puraskar recipients](https://www.imfa.in/impact), 2022 entry for Gourahari Das.
 

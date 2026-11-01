@@ -1,0 +1,201 @@
+{
+  "status": "implemented_ready_for_coordinator_build",
+  "changed_file": "output/pdf/build_book.py",
+  "sha256": "48b9a562e5de4d64b766194a206ea9ba167f833c0fc8f651915975d205f24280",
+  "changes": {
+    "endnotes": "Retain9.2pt/13pt; after-note spacing9\u21923.5pt. Numeric labels, anchors and Return links unchanged.",
+    "chapter_source_headings": "Dedicated11.5pt/15pt,10pt before/4pt after, keepWithNext; narrative h2 remains14pt/19pt.",
+    "print_directory": "Retain9pt/13pt, dedicated paragraph spaceAfter0, row bottompadding7\u21923pt;36pt S-label column and complete URL unchanged.",
+    "intro": "Existing concise sentence retained.",
+    "hanging_notes": "No new hanging-note mechanism; preserve current bold numeric labels."
+  },
+  "checks": {
+    "python_ast": "PASS",
+    "style_values_and_body_invariance": "PASS",
+    "git_diff_whitespace": "PASS",
+    "pdf_build_performed": false,
+    "artifact_marker_run_by_agent": false
+  },
+  "preserved": [
+    "All source URL values and clickable PDF targets",
+    "all numbered notes and image credit text",
+    "body/default link-address behavior",
+    "source IDs and anchors",
+    "existing compact layout and tail-fit fixes"
+  ],
+  "layout_expectation": "Reduced vertical padding in reference matter; coordinator builds and visual QA required. No page savings claimed before rendering.",
+  "selected_print_directory": {
+    "status": "implemented_ready_for_build",
+    "mode": "body-and-image-credit-links",
+    "normal_source_notes": "Full clickable hrefs preserved; no Ssuffix/directory registration.",
+    "image_credit_notes": "cinema-image- prefix keeps source/licence address registration.",
+    "body_and_watch": "Default behavior unchanged.",
+    "heading": "Selected links",
+    "notes_intro": "Numbered notes give sources and image credits, grouped by chapter. Full source links accompany the articles at projectodisha.org/cinema.",
+    "checks": {
+      "canonical_note_definitions_tested": 409,
+      "all_note_href_targets_unchanged": true,
+      "normal_notes_add_no_directory_entries": true,
+      "body_and_image_credit_registration_retained": true,
+      "ast_parse": true,
+      "full_pdf_build": false
+    }
+  },
+  "image_credit_display": {
+    "policy": "Remove exact displayed hero-caption prefix, or exact inline description before Photo/Photograph/Digitisation marker only. Unmatched text and IndiaPost stamp attribution remain intact.",
+    "full_credit_receipt_preserved": true,
+    "displayed_credit_receipt_added": true,
+    "baseline_credit_count_checked": 23,
+    "matched_count": 22,
+    "all_source_and_licence_urls_preserved": true,
+    "examples": [
+      {
+        "slug": "bijay-mishra",
+        "source": "kb/research/media/cinema-series/bijay-mishra-hellohappy.jpg",
+        "removed_exact_description": "Bijay Mishra, 2019.",
+        "displayed_credit": "Hellohappy. [Source](https://commons.wikimedia.org/wiki/File:Bijay_Mishra123.jpg); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).  Display crop."
+      },
+      {
+        "slug": "air-cuttack",
+        "source": "kb/research/media/air-cuttack/akashvani-cuttack-2013.jpg",
+        "removed_exact_description": "All India Radio, Cuttack, photographed on 27 March 2013.",
+        "displayed_credit": "Photo: Kamalakanta777, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Akashvani_cuttack.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)."
+      },
+      {
+        "slug": "cinema-music",
+        "source": "kb/research/media/cinema-series/music-2026-10-30/cinema-music.jpg",
+        "removed_exact_description": "Trupti Das at the Odisha State Television Awards, 2014.",
+        "displayed_credit": "Subhashish Panigrahi. [Source](https://commons.wikimedia.org/wiki/File:Odia_singer_Trupti_Das_felicitated_during_2nd_Odisha_State_Television_Award_01_(cropped).JPG); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Cropped version; resized for display."
+      },
+      {
+        "slug": "akshaya-mohanty",
+        "source": "kb/research/media/cinema-series/akshaya-mohanty-krupasindhu-muduli.jpg",
+        "removed_exact_description": "\u0b05\u0b15\u0b4d\u0b37\u0b5f \u0b2e\u0b39\u0b3e\u0b28\u0b4d\u0b24\u0b3f \u2014 Akshaya Mohanty, remembered as Khoka Bhai.",
+        "displayed_credit": "Krupasindhu Muduli. [Source](https://commons.wikimedia.org/wiki/File:Akshaya_Mohanty_(Khoka_Bhai).jpg); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for display. Display crop."
+      },
+      {
+        "slug": "prafulla-kar",
+        "source": "kb/research/media/cinema-series/music-2026-10-30/prafulla-kar.jpg",
+        "removed_exact_description": "Prafulla Kar in Bhubaneswar, 2014.",
+        "displayed_credit": "Subhashish Panigrahi. [Source](https://commons.wikimedia.org/wiki/File:Prafulla_Kar_01.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized for display."
+      },
+      {
+        "slug": "pranab-patnaik",
+        "source": "kb/research/media/cinema-series/music-2026-10-30/pranab-patnaik.jpg",
+        "removed_exact_description": "Pranab Patnaik performing in Bhubaneswar, 2014.",
+        "displayed_credit": "Subhashish Panigrahi. [Source](https://commons.wikimedia.org/wiki/File:Pranab_Patnaik.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized for display. Display crop."
+      },
+      {
+        "slug": "tapu-mishra",
+        "source": "kb/research/media/cinema-series/music-2026-10-30/tapu-mishra.jpg",
+        "removed_exact_description": "Tapu Mishra, Bhubaneswar, 2016.",
+        "displayed_credit": "Jnanaranjan Sahu. [Source](https://commons.wikimedia.org/wiki/File:Tapu_Mishra.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized for display. Display crop."
+      },
+      {
+        "slug": "parbati-ghose",
+        "source": "kb/research/media/cinema-series/chha-mana-atha-guntha-opening.png",
+        "removed_exact_description": "Opening chapter of Fakir Mohan Senapati\u2019s Chha Mana Atha Guntha, from the digitised text.",
+        "displayed_credit": "Digitisation: Srujanika and NIT Rourkela; [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chha_mana_atha_guntha.pdf), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Full page rendered from PDF page 4."
+      },
+      {
+        "slug": "sadhu-meher",
+        "source": "kb/research/media/cinema-series/additions/sadhu-meher-padma-shri-2017.jpg",
+        "removed_exact_description": "Sadhu Meher receiving the Padma Shri from President Pranab Mukherjee on 13 April 2017.",
+        "displayed_credit": "President\u2019s Secretariat, Government of India. [Source](https://commons.wikimedia.org/wiki/File:The_President,_Shri_Pranab_Mukherjee_presenting_the_Padma_Shri_Award_to_Shri_Sadhu_Meher,_at_the_Civil_Investiture_Ceremony,_at_Rashtrapati_Bhavan,_in_New_Delhi_on_April_13,_2017.jpg); [Government Open Data License\u2013India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf)."
+      },
+      {
+        "slug": "bijay-mohanty",
+        "source": "kb/research/media/cinema-series/bijay-mohanty-sahari-bagha.jpg",
+        "removed_exact_description": "Bijay Mohanty (centre) on the set of Sahari Bagha.",
+        "displayed_credit": "MM Junior (Aby), via Commons. [Source](https://commons.wikimedia.org/wiki/File:Mohammad_Mohsin_on_the_sets_of_Sahari_Bagha.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+      },
+      {
+        "slug": "manmohan-mahapatra",
+        "source": "kb/research/media/cinema-series/ftii-prabhat-exterior-2018.jpg",
+        "removed_exact_description": "Prabhat Studio Complex at FTII, Pune, photographed in 2018.",
+        "displayed_credit": "Photo: DesiBoy101, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prabhat_Studio_Complex,_FTII_Pune.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+      },
+      {
+        "slug": "nirad-mohapatra",
+        "source": "kb/research/media/cinema-series/nirad-mohapatra-raj-sampad.jpg",
+        "removed_exact_description": "Nirad Mohapatra, photographed in 2010.",
+        "displayed_credit": "Raj Sampad. [Source](https://commons.wikimedia.org/wiki/File:Nirad_Mohapatra_-_Filmmaker.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).  Display crop."
+      },
+      {
+        "slug": "sabyasachi-mohapatra",
+        "source": "kb/research/media/odia-cinema/sabyasachi-mohapatra.jpg",
+        "removed_exact_description": "Sabyasachi Mohapatra at the Odisha State Film Awards, Bhubaneswar, 21 November 2014.",
+        "displayed_credit": "Subhashish Panigrahi; existing crop by MKar. [Source](https://commons.wikimedia.org/wiki/File:Sabyasachi_Mohapatra.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).  Display crop."
+      },
+      {
+        "slug": "ak-bir",
+        "source": "kb/research/media/cinema-series/portraits-2026-10-26/ak-bir-iffi-2015.jpg",
+        "removed_exact_description": "A. K. Bir, Parambrata Chatterjee, Suman Ghosh and Asha Achy Joseph at an IFFI press conference in Panaji, Goa, 25 November 2015.",
+        "displayed_credit": "Ministry of Information and Broadcasting, Government of India. [Source](https://commons.wikimedia.org/wiki/File:Shri_A.K_Bir,_Shri_Parambrata_Chatterjee,_Shri_Suman_Ghosh_and_Ms._Asha_Achy_Joseph_addressing_a_press_conference,_at_the_46th_International_Film_Festival_of_India_(IFFI-2015),_in_Panaji,_Goa_on_November_25,_2015.jpg); [Government Open Data License\u2013India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf)."
+      },
+      {
+        "slug": "bijaya-jena",
+        "source": "kb/research/media/cinema-series/bijaya-jena-portrait.jpg",
+        "removed_exact_description": "Bijaya Jena.",
+        "displayed_credit": "Husband of Bijaya Jena. [Source](https://commons.wikimedia.org/wiki/File:Indian_actress_Bijaya_Jena.jpg); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).  Display crop."
+      },
+      {
+        "slug": "nandita-das",
+        "source": "kb/research/media/cinema-series/nandita-das-2008.jpg",
+        "removed_exact_description": "Nandita Das, 2008.",
+        "displayed_credit": "Nanditadas (credited Commons username). [Source](https://commons.wikimedia.org/wiki/File:NanditaDas2008.jpg); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)."
+      },
+      {
+        "slug": "lipika-singh-darai",
+        "source": "kb/research/media/cinema-series/lipika-singh-darai-iffr-2023.jpg",
+        "removed_exact_description": "Lipika Singh Darai at IFFR, 2023.",
+        "displayed_credit": "Vera de Kok. [Source](https://commons.wikimedia.org/wiki/File:Lipika_Singh_Darai_-_IFFR_2023.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+      },
+      {
+        "slug": "surya-deo",
+        "source": "kb/research/media/cinema-series/surya-deo-sangram-keshari-senapati-2023.jpg",
+        "removed_exact_description": "Surya Deo at Bhadrak, 2023.",
+        "displayed_credit": "Sangram Keshari Senapati. [Source](https://commons.wikimedia.org/wiki/File:Odia_film_critic_and_journalist_Surya_Deo_at_Bhadrak_in_2023.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+      },
+      {
+        "slug": "gourahari-das",
+        "source": "kb/research/media/cinema-series/portraits-2026-10-26/gourahari-das-2011.jpg",
+        "removed_exact_description": "Gourahari Das, photographed on 3 March 2011.",
+        "displayed_credit": "Prothombyakti. [Source](https://commons.wikimedia.org/wiki/File:Dr.Gourahari_Das.JPG); [CC0 1.0 public-domain dedication](https://creativecommons.org/publicdomain/zero/1.0/)."
+      },
+      {
+        "slug": "anupam-patnaik",
+        "source": "kb/research/media/cinema-series/anupam-patnaik-sangram-keshari-senapati.jpg",
+        "removed_exact_description": "Anupam Patnaik in Bhubaneswar, December 2023.",
+        "displayed_credit": "Sangram Keshari Senapati. [Source](https://commons.wikimedia.org/wiki/File:Anupam_Patnaik.jpg); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Uncropped; resized for display."
+      },
+      {
+        "slug": "daman",
+        "source": "kb/research/media/cinema-series/daman/babushaan-mohanty-2018-closeup.jpg",
+        "removed_exact_description": "Babushaan Mohanty, photographed in 2018, before DAMaN.",
+        "displayed_credit": "Photo: Jnanaranjan Sahu, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Babusan_Mohanty.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+      },
+      {
+        "slug": "odia-cinema",
+        "source": "kb/research/media/cinema-series/archive/pranab-bijay-mihir-behind-scenes-1989.jpg",
+        "removed_exact_description": "Pranab Das in conversation with Bijay Mohanty and Mihir Das; dated 1989 in the source record.",
+        "displayed_credit": "Photo: Commons credit Director Pranab Das; uploaded by Sunny Roy. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pranab_Das_behind_the_scenes_in_conversation_with_Actors_Bijay_Mohanty_and_Mihir_Das.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original photographer and film unidentified; complete source image retained."
+      }
+    ],
+    "unmatched_fallback_test": "PASS"
+  },
+  "post_directory_link_fix": {
+    "status": "implemented_no_build",
+    "scope": "Print Edition note Project Odisha link only",
+    "visible_address": "projectodisha.org/cinema/",
+    "target": "https://projectodisha.org/cinema/",
+    "behavior": "Clickable link uses print_address=False; digital branch unchanged.",
+    "checks": [
+      "AST PASS",
+      "Directory mapping unchanged",
+      "No new S number",
+      "Visible complete address and href retained"
+    ],
+    "pdf_build_run": false
+  }
+}

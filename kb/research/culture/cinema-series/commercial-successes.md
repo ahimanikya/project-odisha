@@ -6,7 +6,7 @@ status: "reviewed_draft"
 research_date: "2026-10-26"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-sources: [{"id": "commercial-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "commercial-bou-september", "resource": "https://www.newindianexpress.com/states/odisha/2025/Sep/24/kjos-dharma-productions-to-remake-bou-buttu-bhuta"}, {"id": "commercial-daman", "resource": "https://www.newindianexpress.com/entertainment/2022/Nov/13/two-new-films-signal-theres-hope-for-odia-movie-industry-2517844.html"}, {"id": "commercial-raja", "resource": "https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses"}, {"id": "commercial-pinkvilla", "resource": "https://www.pinkvilla.com/entertainment/box-office/box-office-bau-buttu-bhuta-emerges-1-odia-film-of-all-time-to-take-on-jawan-kgf-and-bahubali-2-in-odisha-1392081"}, {"id": "commercial-jadi", "resource": "https://cinejosh.com/news/1/130774/odia-blockbuster-film-jadi-releasing-in-telugu.html"}, {"id": "commercial-mantra", "resource": "https://www.ollypedia.in/box-office/mantra-muugdha-2026"}, {"id": "commercial-landfall", "resource": "https://odiacelebrity.com/landfall-wraps-shooting-sets-stage-for-a-landmark-chapter-in-odia-cinema/"}]
+sources: [{"id": "commercial-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "commercial-bou-september", "resource": "https://www.newindianexpress.com/states/odisha/2025/Sep/24/kjos-dharma-productions-to-remake-bou-buttu-bhuta"}, {"id": "commercial-daman", "resource": "https://www.newindianexpress.com/entertainment/2022/Nov/13/two-new-films-signal-theres-hope-for-odia-movie-industry-2517844.html"}, {"id": "commercial-raja", "resource": "https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses"}, {"id": "commercial-pinkvilla", "resource": "https://www.pinkvilla.com/entertainment/box-office/box-office-bau-buttu-bhuta-emerges-1-odia-film-of-all-time-to-take-on-jawan-kgf-and-bahubali-2-in-odisha-1392081"}, {"id": "commercial-jadi", "resource": "https://cinejosh.com/news/1/130774/odia-blockbuster-film-jadi-releasing-in-telugu.html"}, {"id": "commercial-landfall", "resource": "https://odiacelebrity.com/landfall-wraps-shooting-sets-stage-for-a-landmark-chapter-in-odia-cinema/"}]
 hero_image: "../../media/cinema-series/distinct-2026-10-27/commercial-successes.png"
 ---
 
@@ -70,7 +70,7 @@ The [literature-to-cinema reading](literature-and-screen.md) follows the choices
 
 Jadi extends the comparison into 2026. CineJosh’s October report paired its budget and collection estimates with an announcement of a Telugu version; a release date for that version was still to be announced.[^commercial-jadi] As with remake interest, this is a further commercial possibility, not evidence of receipts from the proposed version.
 
-Pabaar’s inclusion comes from the same Pinkvilla comparison that supplied the DAMaN and Karma lifetime figures. The tracker entry for *Mantra Muugdha* remains a research lead; its authenticity disclaimer leaves it outside this comparison.[^commercial-mantra]
+Pabaar’s inclusion comes from the same Pinkvilla comparison that supplied the DAMaN and Karma lifetime figures.
 
 A budget-only report belongs beside this discussion, but outside the collection table. Odia Celebrity reported a roughly **₹10 crore budget for Landfall** on 30 June 2026, when it announced completion of shooting.[^commercial-landfall] That is a reported investment, not evidence of release earnings or a verified highest-budget record.
 
@@ -94,9 +94,7 @@ The [future of Odia cinema](cinema-futures.md) rests partly on that continuity. 
 
 [^commercial-pinkvilla]: Himesh Mankad, [Pinkvilla’s box-office comparison](https://www.pinkvilla.com/entertainment/box-office/box-office-bau-buttu-bhuta-emerges-1-odia-film-of-all-time-to-take-on-jawan-kgf-and-bahubali-2-in-odisha-1392081), updated 23 June 2025. Comparator definitions are unspecified; its ranking is not adopted.
 
-[^commercial-jadi]: Rambabu, [“Odia Blockbuster Film Jadi Releasing In Telugu”](https://cinejosh.com/news/1/130774/odia-blockbuster-film-jadi-releasing-in-telugu.html), CineJosh, updated 22 October 2026. Indexed publisher text. Estimates and an announced Telugu version, not an audited profit or confirmation of a current theatrical run.
-
-[^commercial-mantra]: Ollypedia, [“Mantra Muugdha (2026)”](https://www.ollypedia.in/box-office/mantra-muugdha-2026), box-office tracker updated 4 October 2026. Low-confidence estimate with the tracker’s explicit authenticity disclaimer; no budget supplied.
+[^commercial-jadi]: Rambabu, [“Odia Blockbuster Film Jadi Releasing In Telugu”](https://cinejosh.com/news/1/130774/odia-blockbuster-film-jadi-releasing-in-telugu.html), CineJosh, updated 22 October 2026. Indexed report; estimates and Telugu-release announcement, not audited profit or confirmed run.
 
 [^commercial-landfall]: Odia Celebrity, [“Landfall wraps shooting, sets stage for a landmark chapter in Odia cinema”](https://odiacelebrity.com/landfall-wraps-shooting-sets-stage-for-a-landmark-chapter-in-odia-cinema/), 30 June 2026. Reported budget and shooting completion.
 

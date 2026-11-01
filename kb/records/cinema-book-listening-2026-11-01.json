@@ -1,0 +1,74 @@
+{
+  "id": "POD-CINEMA-BOOK-LISTENING-20261101",
+  "date": "2026-11-01",
+  "status": "local_review_ready",
+  "authorization": "Essential Khoka Bhai listening - can be skiped in book",
+  "active_article": null,
+  "scope": "Book-only omission of this heading and its collection invitation/link; web article and player retained. Rebuild current digital and print proofs.",
+  "baseline": "records/cinema-ending-art-expanded-2026-11-01.json",
+  "workers": {
+    "Samanta": [
+      "output/pdf/build_book.py",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "outputs/cinema-book-listening-20261101/implementation.json"
+    ],
+    "Drishti": [
+      "outputs/cinema-book-listening-20261101/quality-review.json"
+    ],
+    "Disha": [
+      "shared task record",
+      "book outputs",
+      "build receipts",
+      "index and history"
+    ]
+  },
+  "original_hashes": {
+    "kb/research/people/akshaya-mohanty.md": "30962c9edf3f42a5ccc772b95b9e04f6c28c83cf24d1e479c3bcf8f8b90d823c",
+    "projects/site/src/data/cinema.json": "9dd9a1e9a3d9b2a3e158d37e6c75ff71872fbc493086eea6ce97218bb086dbc9",
+    "projects/site/src/components/CinemaReading.astro": "8d4217766d17f6d1a54a29cb0c8f1068df72170b31b2699ac9435dd4a41c9eac"
+  },
+  "global_owner_unchanged": true,
+  "publication_performed": false,
+  "human_review_claimed": false,
+  "originals_unchanged": {
+    "kb/research/people/akshaya-mohanty.md": true,
+    "projects/site/src/data/cinema.json": true,
+    "projects/site/src/components/CinemaReading.astro": true
+  },
+  "books": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-book-listening.pdf",
+      "pdf_sha256": "2ea88a3b87fdc5e33668d20be3318637b203f37294ec4d490a331a816e964500",
+      "pages": 252,
+      "chapter_page_references_stable": true,
+      "book_section_omissions": [
+        {
+          "slug": "akshaya-mohanty",
+          "heading": "Essential Khoka Bhai listening",
+          "removed_text": "<span id=\"listen-and-explore\"></span>\n\n## Essential Khoka Bhai listening\n\nSpend some time with Khoka Bhai’s songs in this official Saregama collection.\n\n[Open the collection on YouTube](https://www.youtube.com/watch?v=LgqHdOa_U1g).\n\n",
+          "removed_sha256": "ac73173452bd87dbde29aee4511d926e7d77b91c491e30b85d2ee10941d419e5",
+          "reason": "Author requested book-only omission; web collection player retained."
+        }
+      ]
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-book-listening.pdf",
+      "pdf_sha256": "955d209221ec794174dcc1006d918ede81d42de740842802ad75e4d2a3cd8e68",
+      "pages": 276,
+      "chapter_page_references_stable": true,
+      "book_section_omissions": [
+        {
+          "slug": "akshaya-mohanty",
+          "heading": "Essential Khoka Bhai listening",
+          "removed_text": "<span id=\"listen-and-explore\"></span>\n\n## Essential Khoka Bhai listening\n\nSpend some time with Khoka Bhai’s songs in this official Saregama collection.\n\n[Open the collection on YouTube](https://www.youtube.com/watch?v=LgqHdOa_U1g).\n\n",
+          "removed_sha256": "ac73173452bd87dbde29aee4511d926e7d77b91c491e30b85d2ee10941d419e5",
+          "reason": "Author requested book-only omission; web collection player retained."
+        }
+      ]
+    }
+  },
+  "validation": "outputs/cinema-book-listening-20261101/validation.json",
+  "quality": "outputs/cinema-book-listening-20261101/quality-review.json",
+  "workers_released": true,
+  "kb_checks": "PASS1867concepts8044local_links; diff check PASS"
+}

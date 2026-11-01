@@ -16,11 +16,11 @@ By Ahimanikya Satapathy
 
 A song can be the part of a film we keep closest. We may forget the order of its scenes and still want to hear a voice again. Following that wish can lead us back into the film—or towards another singer, another soundtrack, another person whose name deserves a place beside the melody.
 
-Take *ମମତା (Mamata)*. “Re Mita Aa Sangata” brings **Pranab Kishore Patnaik** and **Sikandar Alam** into the same recording, with music by [Prafulla Kar](../../people/prafulla-kar.md) and words by **Sibabrata Das**.[^mamata] Elsewhere on the soundtrack, **Chitta Jena** and **P. Susheela** sing “Dekhi Se Banamalli,” again with Kar’s music and Das’s lyrics.[^banamalli] Pranab and Sikandar share one song; Chitta and Susheela another.
+Take *ମମତା (Mamata)*. “Re Mita Aa Sangata” brings **Pranab Kishore Patnaik** and **Sikandar Alam** into the same recording, with music by [Prafulla Kar](../../people/prafulla-kar.md) and words by **Sibabrata Das**.[^mamata] Elsewhere on the soundtrack, **Chitta Jena** and **P. Susheela** sing “Dekhi Se Banamalli,” again with Kar’s music and Das’s lyrics.[^banamalli]
 
 ## The possibilities inside a voice
 
-[Pranab Patnaik](../../people/pranab-patnaik.md) described that shared work from a singer’s side. In a 2017 interview, he remembered successive composers finding different possibilities in his voice. His account ranged across Bhubaneswar Mishra, Balakrushna Das, Upendra Kumar, Shantanu Mohapatra, Akshaya Mohanty, Prafulla Kar and Basudev Rath. He also recalled learning Urdu and ghazal singing during his studies in Aligarh, and spoke of the importance of regular practice.[^pranab]
+[Pranab Patnaik](../../people/pranab-patnaik.md) described that shared work from a singer’s side. In a 2017 interview, he remembered successive composers finding different possibilities in his voice. His profile follows that learning through composers, languages and regular practice.[^pranab]
 
 That is a generous way to approach a long career: listen for what changes when a familiar singer works with a different composer. Recognition of a voice can sit beside the surprise of hearing it do something new.
 
@@ -34,7 +34,7 @@ The movement between recordings and listeners also reaches beyond the cinema hal
 
 ## Tapu’s choices, and a newer duet
 
-[Tapu Mishra](../../people/tapu-mishra.md) spoke in a 2018 interview about choosing playback and stage work, and about wanting to create new songs through her own production house. Her Hindi single “Bali Umariya” was a non-film release.[^tapu] She was thinking about the songs she wanted to make, as well as the offers already before her.
+[Tapu Mishra](../../people/tapu-mishra.md)’s work reached beyond film playback to stage performance and the non-film Hindi single “Bali Umariya.” Her profile follows her choices and plans for making songs.[^tapu]
 
 Her voice also meets **Humane Sagar’s** in the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. The recording credits both singers, **Abhijit Majumdar** as composer and **Nizam** as writer.[^ishq] Reporting on Sagar’s career identifies the 2015 film’s title track as a breakthrough.[^humane] 
 

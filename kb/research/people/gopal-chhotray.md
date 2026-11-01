@@ -21,8 +21,6 @@ Born in Puranagarh in 1916, Chhotray made Cuttack the centre of his working life
 
 Odia Bibhaba’s collection identifies ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani) as Chhotray’s opera adaptation of Fakir Mohan Senapati’s short story *Patent Medicine*.[^archive] A work of fiction had become something that singers and performers could take up together.
 
-A reader can linger over a narrator’s irony. In performance, a line arrives through a particular voice: an exchange needs its pace, and a pause has to be held. Chhotray’s adaptation gives the literary work another company of people through whom to reach an audience.
-
 Fakir Mohan’s story and Chhotray’s musical play remain available as two encounters with the work. The [AIR Cuttack chapter](../culture/air-cuttack.md) follows the writers and performers who gave such exchanges a home.
 
 ## Room for humour
@@ -32,8 +30,6 @@ Chhotray’s *Hasyarasara Natak* received the Sahitya Akademi award in 1982.[^aw
 ## Learning from other languages
 
 The Library of Congress notes Chhotray’s translations from Hindi, Marathi and Gujarati.[^loc] Odia Bibhaba’s catalogue includes his translation *Natasamrat* in a 1994 edition.[^archive] Translation was another strand in a career that continued across forms and decades.
-
-His translations offer theatre groups speakable words from another dramatic tradition, alongside his own plays.
 
 ## Words within a film
 

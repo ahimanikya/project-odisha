@@ -1,0 +1,56 @@
+{
+  "status": "implementation_complete_awaiting_final_data_and_build",
+  "files": {
+    "output/pdf/build_book.py": "464574ed4b926e340d85e7b8cc11d863b69d2d08daf191b4ed5296f151757284",
+    "projects/site/src/pages/cinema/reading-guide.astro": "6d332798f23e8b36071279db52338ebef09abffcdb9f4a2985ee200fd10869bb",
+    "projects/site/tests/cinema-release.test.mjs": "44107d630a88798dcb4bcae79a3cb4a475f9b65ddda0b449fc42662f9d0713fd"
+  },
+  "changes": [
+    "Optional source_refs with legacy fallback; main reading destination separate from note owners",
+    "Every actual source note resolves; duplicate pairs rejected",
+    "Numeric web superscripts with chapter title and note in accessible name; 24px native link targets",
+    "Stable people-and-work and selected-milestones IDs; optional people groups and reference guide intro",
+    "Book Ch. N, note M links plus one chapter/page reading link; entries grouped only when measured <=100pt",
+    "Numeric nondecreasing sort_year required on every milestone"
+  ],
+  "checks": [
+    "Python AST PASS",
+    "Book guide_refs tested against 18 existing rows; multiple-owner, duplicate and missing-note cases PASS",
+    "Astro compiler-rs transform PASS",
+    "Web frontmatter executed against actual rendered notes: 11 people/7 milestones PASS",
+    "Web duplicate/missing refs and nonchronological timeline rejected; cross-chapter refs accepted"
+  ],
+  "test_fixture_limit": "Existing timeline lacks sort_year; isolated web test supplies numeric years without editing canonical JSON. Final canonical data and full build remain coordinator-owned.",
+  "guidance": {
+    "id": "accessibility",
+    "path": "outputs/cinema-milestones-20261101/modern-web-accessibility.md",
+    "quote": "Don't reuse an accessible name across hyperlinks that point to different `href` targets",
+    "application": "Each numeric source link names its actual source chapter and note; native links preserve keyboard behavior."
+  },
+  "builds_performed": false,
+  "canonical_data_modified": false,
+  "book_navigation_refinement": {
+    "heading": "Entire entry heading links to the main reading chapter",
+    "digital": "Body ends with chapter/note source references only",
+    "print": "Source references followed by one linked p. N reading destination",
+    "validation": "Python AST and exact guide_entry execution with digital/print fixtures PASS; no PDF build",
+    "preserved": "Existing heading/body styles and <=100pt KeepTogether threshold"
+  },
+  "final_data_test_update": {
+    "change": "Existing guide validation now checks source_refs with legacy fallback, nonempty bindings, duplicate rejection, actual rendered note anchors, independent main reading destination and finite nondecreasing sort_year.",
+    "command": "node --test tests/cinema-release.test.mjs tests/cinema-ux.test.mjs",
+    "cwd": "projects/site",
+    "runtime": "Node 24.15.0",
+    "result": "28 passed, 0 failed",
+    "build_performed": false
+  },
+  "final_layout_refinement": {
+    "milestones": "Heading, introduction and first milestone grouped in one flattened KeepTogether; later milestones unchanged",
+    "print_reading_link": "Reading p. N distinguishes chapter opening from Ch. N, note M evidence",
+    "checks": [
+      "Python AST PASS",
+      "Existing flatten_flows used to avoid nested KeepTogether"
+    ],
+    "pdf_build": "Not run; coordinator rebuild and independent visual review pending"
+  }
+}

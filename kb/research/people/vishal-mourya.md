@@ -32,17 +32,15 @@ The [DAMaN chapter](../culture/cinema-series/daman.md) follows the documentary e
 
 Mourya described a partnership in which either director could challenge an idea. They discussed shots together and worked through roughly ten drafts of *DAMaN* before filming.[^journey]
 
-Preparation could not remove every obstacle on location. Mourya recalled the crew leaving vehicles behind and carrying equipment for miles to reach some shooting sites, with rain and missing mobile coverage adding difficulties.[^journey] The work also had to reach the place where a scene would be filmed.
+Preparation could not remove every obstacle on location. Mourya recalled the crew leaving vehicles behind and carrying equipment for miles to reach some shooting sites, with rain and missing mobile coverage adding difficulties.[^journey]
 
-Their *DAMaN* received Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]
-
-In Mourya’s recollection, the shared drafts and the equipment carried on foot belong to the same production. Discussion continued into the practical demands of the shoot.
+Their *DAMaN* received the National Film Award for Best Odia Film.[^award]
 
 ## Footnotes & Sources
 
-[^journey]: Anish Mohanty, [interview with Vishal Mourya](https://planetbollywood.com/wp/interviews/i-am-hoping-the-hindi-version-of-daman-gets-a-lot-of-love-from-the-audience-vishal-mourya/), Planet Bollywood, ahead of the February 2023 Hindi release. Career, partnership and location-shoot recollections.
-[^bundelkhand]: [NFDC Film Bazaar 2017 Viewing Room catalogue](https://filmbazaarindia.com/media/2548/viewing-room-catalogue_s.pdf), printed page 78, B for Bundelkhand. Indexed catalogue entry. This is a market-library entry, not evidence of a festival prize or theatrical release.
-[^mentis]: [Mentis Films, About Us](https://mentisfilms.com/aboutus.php), Vishal Mourya profile. Company biography and film credits.
+[^journey]: Anish Mohanty, [interview with Vishal Mourya](https://planetbollywood.com/wp/interviews/i-am-hoping-the-hindi-version-of-daman-gets-a-lot-of-love-from-the-audience-vishal-mourya/), Planet Bollywood, ahead of the February 2023 Hindi release.
+[^bundelkhand]: [NFDC Film Bazaar 2017 Viewing Room catalogue](https://filmbazaarindia.com/media/2548/viewing-room-catalogue_s.pdf), printed page 78, B for Bundelkhand. Indexed market-library entry; not a festival prize or theatrical release.
+[^mentis]: [Mentis Films, About Us](https://mentisfilms.com/aboutus.php), Vishal Mourya profile.
 [^award]: [Press Information Bureau, 70th National Film Awards for 2022](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48), 16 August 2024, Best Odia Film entry.
 
 ## Further reading

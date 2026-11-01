@@ -25,8 +25,6 @@ He was born in Pitapali in 1935.[^translation] The village was later submerged f
 
 These titles open a larger writing life beyond the familiar connection between Biswal and *Bhukha*.
 
-Children’s stories belong in that picture alongside poems and plays. Writing for a child and writing for performers involve different encounters with an audience: the page can wait for a reader, while a spoken line must find its listeners in the moment. Biswal’s range invites us to follow both, without asking one kind of writing to stand for all the others.
-
 ## The people behind the performance
 
 His other plays include *Luraa*, *Ulgulaan*, *Baruaa*, *Maa Samlei* and *Udlaa Patar Budlaa Danga*. Hachette’s introduction to *The Starved* describes five Bajnias, professional rural folk performers, facing poverty, caste discrimination and a declining livelihood.[^translation]
@@ -39,7 +37,7 @@ The performers’ circumstances belong beside their art. A play can keep both wi
 
 Biswal’s Sambalpuri play became the basis of [Sabyasachi Mohapatra](sabyasachi-mohapatra.md)’s film *Bhukha*.[^film] The [film reading](../culture/cinema-series/bhukha.md) follows its music, audiences and circulation. Here, the connection brings the playwright into the foreground.
 
-The English translation provides a different return. Reading a play beside its screen adaptation can sharpen a question: what happens to a line when an actor speaks it, or to a pause when the camera stays with a face? Such comparisons begin with attention to the particular works, not an assumption that they must do the same thing.
+The English translation makes it possible to place the play beside the film and consider what each does with the performers’ story.
 
 The [page behind the screen](../culture/cinema-series/literature-and-screen.md) follows other writers through these exchanges. Biswal’s name asks us to remember that a film’s source has a life of its own—and that there may be poems, children’s stories and other plays waiting beyond the work we first encountered.
 

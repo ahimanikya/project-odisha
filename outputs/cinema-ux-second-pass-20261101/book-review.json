@@ -1,0 +1,182 @@
+{
+  "task": "cinema-ux-second-pass-2026-11-01",
+  "reviewer": "Drishti — independent AI review",
+  "status": "audit_complete_findings_for_discussion",
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "scope": "Read-only book spacing, typography, image presentation and rendering audit. No source changes, regeneration, browser use or fresh historical/image-rights certification.",
+  "artifacts": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-ux.pdf",
+      "sha256": "a751c944786b957e17179795417e70f9bafda452c46f0d5a3ada6f160c6809c4",
+      "pages": 252,
+      "build_receipt": "tmp/pdfs/2026-11-01-ux/digital/book-build-2026-11-01-ux.json",
+      "receipt_sha256": "97747910a2c8a5601b9da2df6523a95ab2397650228686f7cbf53ef7a9fe7188"
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-ux.pdf",
+      "sha256": "882d0de86b207c6d6610e541d99f068137d10f886015ac1bac647a90ff6d3dd5",
+      "pages": 278,
+      "build_receipt": "tmp/pdfs/2026-11-01-ux/print/book-build-2026-11-01-ux.json",
+      "receipt_sha256": "effb913058a091d70a450e287f023c58791197360f79571a1e9eb08b8816bea8"
+    }
+  },
+  "visual_scope": {
+    "contact_sheets": {
+      "digital": {
+        "files": "contact-01.jpg through contact-21.jpg",
+        "pages_seen_at_thumbnail_scale": 252
+      },
+      "print": {
+        "files": "contact-01.jpg through contact-24.jpg",
+        "pages_seen_at_thumbnail_scale": 278
+      }
+    },
+    "full_size_this_pass": {
+      "digital": [
+        4,
+        52,
+        88,
+        106,
+        171,
+        188,
+        189
+      ],
+      "print": [
+        4,
+        67,
+        69,
+        189,
+        190,
+        258,
+        275
+      ]
+    },
+    "same_hash_full_size_previous_phase_reused": {
+      "digital": [
+        3,
+        8,
+        31,
+        47,
+        75,
+        96,
+        218
+      ],
+      "print": [
+        3,
+        8,
+        9,
+        222
+      ]
+    },
+    "limitations": [
+      "All 530 pages were visually triaged at contact-sheet scale; only the listed 25 distinct pages received full-size inspection across this and the immediately preceding same-artifact review.",
+      "The first oversized print contact output failed and was not counted; all 24 print contact sheets were subsequently viewed successfully in batches of four.",
+      "No physical print, assistive-technology or full Odia linguistic proofreading performed. No every-page full-size PASS is claimed."
+    ]
+  },
+  "findings": [
+    {
+      "id": "B01",
+      "priority": "P2",
+      "confidence": "high",
+      "editions_pages": {
+        "digital": [
+          188,
+          189
+        ]
+      },
+      "finding": "A six-line paragraph occupies page 188 by itself immediately before the forced drawing and final section on page 189.",
+      "impact": "The closing argument is interrupted by a largely empty leaf before its final invitation; this is more disruptive than the intentional portrait frontispieces.",
+      "evidence_excerpt": "A children’s or family screening could let younger viewers encounter Odia as a language of imagination.",
+      "recommendation": "Try a local reflow before the closing section, preserving body font, prose and meaningful drawing. Avoid shrinking the whole chapter or adding filler artwork to page 188.",
+      "print_comparison": "Print 189–190 has a coherent three-paragraph final leaf (about twelve lines), not an equivalent six-line intervening fragment; its open closing space is a defensible design choice."
+    },
+    {
+      "id": "B02",
+      "priority": "P3",
+      "confidence": "high",
+      "editions_pages": {
+        "digital": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "print": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "finding": "Contents pages inherit the running header “Follow the central question” from the preceding route page.",
+      "impact": "A small but real navigation-label mismatch when browsing a long book.",
+      "recommendation": "Give the Contents run its own “Contents” header, or omit the running header there.",
+      "verification": "Page 4 viewed full size in both editions; remaining Contents pages viewed on contact sheets."
+    },
+    {
+      "id": "B03",
+      "priority": "P3",
+      "confidence": "high",
+      "editions_pages": {
+        "digital": [
+          88,
+          89
+        ]
+      },
+      "finding": "The approved large Nirad portrait leaves two lines of the introductory paragraph on page 88; the sentence continues on page 89.",
+      "impact": "Image emphasis competes with opening-paragraph continuity. No crop, caption clipping or attribution loss was observed.",
+      "recommendation": "Treat as an optional tradeoff, not a blocker: preserve the user-approved 85% portrait unless they prefer moving the entire first paragraph to the next page. Do not reduce or recrop automatically."
+    },
+    {
+      "id": "B04",
+      "priority": "P3",
+      "confidence": "high",
+      "editions_pages": {
+        "digital": [
+          171
+        ],
+        "print": [
+          108,
+          172
+        ]
+      },
+      "finding": "Some chapters end with a separate, mostly empty Watch-and-explore leaf. Digital 171/print 172 carry two provider links and the short transition; print 108 is Nandita’s viewing list.",
+      "impact": "Occasional additional page turns after the narrative has ended. The access qualifications and links are useful and should remain.",
+      "recommendation": "Optional targeted grouping/spacing review only if a preceding page can accommodate the complete viewing section; do not force every chapter to fill its final page or add unrelated line art.",
+      "verification": "Digital 171 full size; print examples contact-level triage."
+    },
+    {
+      "id": "B05",
+      "priority": "P3",
+      "confidence": "high",
+      "editions_pages": {
+        "print": [
+          258,
+          275
+        ]
+      },
+      "finding": "The printed URL directory contains very long encoded addresses and occasional source labels separated from the URL onto the next line (e.g. S58, S371).",
+      "impact": "Intact and readable at zoom, but awkward to transcribe from paper; the source directory is a reference apparatus rather than comfortable narrative reading.",
+      "recommendation": "Keep exact source destinations and required credits. For a future print refinement, consider a stable human-readable online source index alongside this directory, and keep a source label with at least the beginning of its URL. Do not use unverified or ephemeral URL shortening."
+    }
+  ],
+  "positive_observations": [
+    "Body typography is consistent: sampled prose uses 11pt text, sampled section heads 14pt, captions/directory 9pt. No obvious clipping or off-page image at contact-sheet scale.",
+    "Current compact digital author portrait shares page 8 with heading and opening; the print edition deliberately retains a complete portrait frontispiece on page 8 followed by the text on page 9.",
+    "Prafulla digital52/print53 and Nandita digital106/print105 preserve complete contextual photographs on separate leaves; these are intentional presentation choices, not accidental empty pages.",
+    "Parbati print67 stamp and print69 facsimile retain their complete artifact boundaries and numbered credits. The narrow stamp caption wraps but its number remains attached; the facsimile is an illustrative document image, not a promise of comfortable full-text reading at book size.",
+    "Sampled closing line art remains subordinate to text and visibly distinct from documentary photographs. Maya/Bhukha/Pratikshya tail drawings appear cohesive at contact scale.",
+    "The print closing on189–190 is airy but coherent; no need to keep chasing its white space.",
+    "Repaired Manglu/music and Bijay/Sabyasachi endings remain coherent in same-hash full-size evidence from the prior phase.",
+    "Odia glyphs are visibly present in the sampled Parbati titles and final saying; no tofu boxes or visible missing-glyph blocks found. This is not comprehensive linguistic proofreading."
+  ],
+  "accessibility_limits": {
+    "digital_structure_tree_present": false,
+    "print_structure_tree_present": false,
+    "document_language": "en",
+    "assessment": "Real PDF tagging/reading-order and language-run accessibility remains a separate previously acknowledged task. No PDF/UA, screen-reader or AT conformance claim. Existing internal link checks from the preceding same-hash review remain applicable, but no new interaction audit performed here."
+  },
+  "decision": "No critical missing-content, clipped-page or demonstrated false-image-identity defect found within this visual scope. Recommend fixing the digital closing fragment and Contents header; other points are optional design/reference usability improvements. Image-to-story factual fit is separately owned by Anvesha."
+}
