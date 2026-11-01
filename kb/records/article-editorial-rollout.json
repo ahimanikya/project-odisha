@@ -2743,12 +2743,15 @@
       "id": "POD-EDIT-104",
       "route": "/languages/districts/balangir/",
       "title": "Balangir \u00b7 languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/balangir-language-utility-review-2026-11-01.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually verified generated Census2011 district393 data utility: calculated opening and total/rural/urban parent/member tables with common interpretation prompts. No configured district-specific authored destination or related-reading narrative in this route. Preserve source data, seven language-story links, search status and separate Balangir/Bolangir authored material; no article/programme credit."
     },
     {
       "id": "POD-EDIT-105",

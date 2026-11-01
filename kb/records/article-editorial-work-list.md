@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 936. completed: 161, excluded: 486, queued: 289.
+Route inventory: 936. completed: 161, excluded: 487, queued: 288.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ Route inventory: 936. completed: 161, excluded: 486, queued: 289.
 | POD-EDIT-101 | [Kandhamal · languages and population](https://projectodisha.org/languages/districts/kandhamal/) | excluded | classification_pending |
 | POD-EDIT-102 | [Baudh · languages and population](https://projectodisha.org/languages/districts/baudh/) | excluded | classification_pending |
 | POD-EDIT-103 | [Subarnapur · languages and population](https://projectodisha.org/languages/districts/subarnapur/) | excluded | classification_pending |
-| POD-EDIT-104 | [Balangir · languages and population](https://projectodisha.org/languages/districts/balangir/) | queued | classification_pending |
+| POD-EDIT-104 | [Balangir · languages and population](https://projectodisha.org/languages/districts/balangir/) | excluded | classification_pending |
 | POD-EDIT-105 | [Nuapada · languages and population](https://projectodisha.org/languages/districts/nuapada/) | queued | classification_pending |
 | POD-EDIT-106 | [Kalahandi · languages and population](https://projectodisha.org/languages/districts/kalahandi/) | queued | classification_pending |
 | POD-EDIT-107 | [Rayagada · languages and population](https://projectodisha.org/languages/districts/rayagada/) | queued | classification_pending |
