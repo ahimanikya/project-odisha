@@ -117,3 +117,16 @@ test('244 shared dictionary source retains lexical228 and primary241 roles',()=>
  const primary=data.entries.find(e=>e.id==='POD-DHAGA-241').witnesses.find(w=>w.source_id===sid);assert.ok(primary.wording);
  const full=read('sayings/pod-dhaga-241.html');assert.ok(full.includes(esc(primary.wording)));assert.ok(full.includes(esc(primary.locator)));
 });
+
+test('245 edition keeps009 medicine narrative and hunger parallel with lexical-only context',()=>{
+ const entry=data.entries.find(e=>e.id==='POD-DHAGA-009');
+ const h=read('sayings/pod-dhaga-009.html');
+ assert.equal(entry.odia,'ଓଷଦ ରାଗରେ ତାଟିଆ କାମୁଡିବା');
+ assert.ok(h.includes(esc(entry.explanation)));
+ const parallel=entry.variants.find(v=>v.source_id==='dhaga-wiktionary-119031');
+ assert.equal(parallel.relation,'related_image_parallel');assert.ok(h.includes(esc(parallel.odia)));assert.ok(h.includes(esc(parallel.note)));
+ const context=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-74876');
+ assert.equal(context.wording,undefined);assert.ok(h.includes(esc(context.note)));assert.ok(h.includes('source-dhaga-wiktionary-74876'));
+ const added=data.entries.find(e=>e.id==='POD-DHAGA-245');assert.equal(added.odia,'ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ');
+ assert.ok(read('sayings/pod-dhaga-245.html').includes(esc(added.explanation)));
+});

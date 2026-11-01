@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 936. completed: 161, excluded: 488, queued: 287.
+Route inventory: 937. completed: 161, excluded: 489, queued: 287.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -960,3 +960,4 @@ Route inventory: 936. completed: 161, excluded: 488, queued: 287.
 | POD-EDIT-DHAGA-242-20261101 | [ନିତି ମଳୁକୁ ଚାହାନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-242.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-243-20261101 | [ଝିଅ ମଲେ ଜୋଇଁ କାହାର ଗୋତ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-243.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-244-20261101 | [ଘୁ ଘୁ ଦେଖିଛି ଫାନ୍ଦ ଦେଖି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-244.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-245-20261101 | [ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-245.html) | excluded | standalone_dhaga_collection |
