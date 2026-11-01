@@ -1,5 +1,5 @@
 {
-  "status": "implementation",
+  "status": "published_verified_receipt_integration",
   "authorization": "Founder request: Prahallad Nataka - remove event details, just keep story on Natak",
   "input_head": "e16b0ba285af1cedbf383543c236ca3af62ef6e0",
   "scope": "Remove Baithak event invitation, times, venue, event-only citations and disclaimers from existing article. Preserve theatre story and documentary photograph provenance.",
@@ -10,7 +10,7 @@
     "Drishti": "separate integrated review"
   },
   "programme_credit": 0,
-  "scope_release": "After reviewed publication and live verification",
+  "scope_release": "Effective after separately reviewed receipt merge, passing checks and remote file hash verification. No second deployment required for records-only receipt.",
   "limits": [
     "No new historical research or human review."
   ],
@@ -31,6 +31,36 @@
   "validation": {
     "records": "team/programme/bundle/research/rollout/catalog/workbench PASS",
     "focused_tests": "2 PASS",
-    "publication": "pending"
+    "publication": "14 local gates PASS; focused2/full683/coast544; required CI and deployment SUCCESS; separate live AI review PASS"
+  },
+  "publication": {
+    "pr": 657,
+    "reviewed_head": "72b8a929c6e61036130eb7fd9b55e9a8218f2d79",
+    "merge": "6ee6813a3a7a552329e219b9b136327f88e6d282",
+    "required_ci": 41331356845,
+    "deployment": 41332785278,
+    "deployment_status": "SUCCESS",
+    "url": "https://projectodisha.org/stories/prahlada-nataka/"
+  },
+  "evidence_sha256": {
+    "kb/records/evidence/prahallad-story-only-2026-11-01/deployment-status.json": "db8de242dd53fbc840845499bf5972b92a1b26af73386b8dabe6e4ea042db250",
+    "kb/records/evidence/prahallad-story-only-2026-11-01/live-verification.json": "b9d18ec9f78ae475426e1c02dbe0c91cca99b5580e86b05fa1bdbbabd2574e2e",
+    "kb/records/evidence/prahallad-story-only-2026-11-01/live-review.json": "1446f8ee2ed01fda45c35787aaa38df06dcf4fa5a2a9a2baf6be19386046ab9c",
+    "kb/records/evidence/prahallad-story-only-2026-11-01/exact-head-review.json": "5e7278b6b9ee44a90b30271e971132f4dd787b19f8cac8bf53dc125104ecba67",
+    "kb/records/evidence/prahallad-story-only-2026-11-01/remote-verification.json": "4e9bf3f0042763cc27630fc009f196a9c0bca1fdcee115f77e9d009d72e4624e",
+    "kb/records/evidence/prahallad-story-only-2026-11-01/browser-review.json": "2028d3a2f604d2d1c181ed94938b18b7f426cd697278c4e9b6f8c601da90e5ad"
+  },
+  "live_checks": {
+    "article_normalized_text_exact": true,
+    "event_details_absent": true,
+    "photo_bytes_exact": true,
+    "footnote_references": 13,
+    "source_notes": 7,
+    "chrome_viewports": [
+      1440,
+      390
+    ],
+    "native_note_return_pairs": 26,
+    "independently_viewed_live_pngs": 6
   }
 }
