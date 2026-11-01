@@ -2729,12 +2729,15 @@
       "id": "POD-EDIT-103",
       "route": "/languages/districts/subarnapur/",
       "title": "Subarnapur \u00b7 languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/subarnapur-language-utility-review-2026-11-01.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually verified generated Census2011 district392 data utility: calculated opening and total/rural/urban parent/member tables with common interpretation prompts. No configured district-specific authored destination or related-reading narrative in this route. Preserve source data, five language-story links, search status and separate Sonepur/Subarnapur authored material; no article/programme credit."
     },
     {
       "id": "POD-EDIT-104",
