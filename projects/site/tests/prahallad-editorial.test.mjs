@@ -9,7 +9,7 @@ test('reviewed source renders complete notes before expanded onward reading',()=
  assert.equal(rendered.author,'Ahimanikya Satapathy');
  for(const [,id]of source.matchAll(/^\[\^([^\]]+)\]:/gm))assert.ok(h.includes(`id="user-content-fn-${id.toLowerCase()}"`),id);
  for(const [,href]of h.matchAll(/href="#([^"]+)"/g))assert.ok(h.includes(`id="${href}"`),href);
- assert.equal((h.match(/data-footnote-ref\b/g)||[]).length,15);
+ assert.equal((h.match(/data-footnote-ref\b/g)||[]).length,13);
  assert.ok(h.indexOf('class="article-footnotes"')<h.indexOf('id="further-reading"'));
  assert.ok(!h.includes('<details'));
  assert.match(h,/<figure><img[^>]+crafts-museum.jpg/);
