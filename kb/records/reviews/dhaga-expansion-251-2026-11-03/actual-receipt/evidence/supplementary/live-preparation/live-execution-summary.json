@@ -1,0 +1,77 @@
+{
+  "status": "PASS_QUALIFIED_LIVE_NOT_SYNC",
+  "input_head": "a587e5263ce12f1e8de217361ec0929675b910f2",
+  "reviewed_head": "768c2c07ae3693aef928c61ca223318fd919cc84",
+  "merge": "a587e5263ce12f1e8de217361ec0929675b910f2",
+  "deployment_id": 41520298227,
+  "reader": {
+    "files": 511,
+    "html": 254,
+    "exact": 490,
+    "all_html_exact": true,
+    "known_pairs": 21,
+    "new_images_exact": true
+  },
+  "PDF": {
+    "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/221fb5b199562671a38dd5e2d9abb2e2c7066641/projects/odia-dhaga/odia-dhaga-book.pdf",
+    "status": 200,
+    "sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf",
+    "expected_sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf",
+    "bytes": 90424061,
+    "expected_bytes": 90424061,
+    "pass": true
+  },
+  "supplemental_overall": true,
+  "companions": {
+    "pass": true,
+    "mains": 3,
+    "known_responsive_pairs": 29,
+    "catalogs": [
+      {
+        "path": "/assets/journey-data-b6be95598c5841ad92dd99933b86aa6cda0a295aba7fc54c4c93f474740f1ead.js",
+        "exact": true
+      }
+    ]
+  },
+  "failure_history": {
+    "first_reader": "479exact+21known+11connection-reset failures retained. Only11failed rows retried; other500rows unchanged.",
+    "changed_rows": [
+      "sayings/pod-dhaga-175.html",
+      "sayings/pod-dhaga-048.html",
+      "sayings/pod-dhaga-224.html",
+      "sayings/pod-dhaga-009.html",
+      "sayings/pod-dhaga-232.html",
+      "sayings/pod-dhaga-218.html",
+      "sayings/pod-dhaga-062.html",
+      "sayings/pod-dhaga-170.html",
+      "sayings/pod-dhaga-035.html",
+      "sayings/pod-dhaga-171.html",
+      "sayings/pod-dhaga-034.html"
+    ],
+    "supplemental": "Initial connection-reset log retained; one bounded rerun passed.",
+    "companion": "Initial connection-reset log retained; one bounded rerun passed. No complete initial checkpoint report was produced by these two helpers."
+  },
+  "evidence_sha256": {
+    "plan.json": "c9821760cdda7c4fc9484342e6224aeff6b9dbcea3f8067330ab6781021e6411",
+    "candidate-plan.json": "94ec93929b0e9ae0e7977aa18587c7f13e851998cdbf2bdf10c22902e20aead7",
+    "live-verification.json": "600391ba044bdc17c33efd4ba19a83f9d93f36b2ffbb54e275cfac60167ba36f",
+    "supplemental-live-verification.json": "fd30a537c86cea2c2408f960b771a5c73950db8a9d3206a9f0f922221d00b414",
+    "companion-main-verification.json": "2c83743b65ab486637862bec2d1dd5b06bf5e6d0bb641a219aa8f6e9c3cde2b3",
+    "first-attempt-live-verification.json": "165d908c3f9024959b3cfb55785e87769515e415f693c8f83d15f651eec04137",
+    "reader-transport-retries.json": "323246e6a66a85dd0e1af662aa7d5a49fd466a6a3221f6bd0e8146f0d89673b9",
+    "verify-live.py.run.log": "dd6b4f8e9b6ac5eb3a47d8e8a5083b07da46b973f4b93290c57fecf31c649a48",
+    "verify-supplemental-live.py.run.log": "c71d5961e1d5e98ec6e1ffaf4da3a8e5040b478ec4d40d9d6621bec1f5c649d3",
+    "verify-companion-main.py.run.log": "6dd5fa01f1897a8f83cb31b50791e284288626ded22cfc69acfea41de0be8e15",
+    "reader-retry.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supplemental-retry.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "companion-retry.log": "823aa5202ee765c9bb5a14c1823391bca235187ceb3ba83fd2e4390b29531628",
+    "retry-reader-transports.py": "b2300dd61a7de282a47dfc5c32b2e4896e4ec4d5f0b9fb67f7c7db83e45d4c97"
+  },
+  "deployment_status_sha256": "50953d30d8d3126db11cdabf1f2a74fbb54d246043b5de536ae343321a59c6ab",
+  "limits": [
+    "21known imagepairs remain raw byte differences, not byte-exact. No new exception.",
+    "Three companionmains exact only under29known filename/pair mappings; wholeHTML notclaimedexact.",
+    "PDF160page identity from identical frozen hash; no new render/source research.",
+    "No local sync/canonical/Git edits. Separate review stillrequired."
+  ]
+}

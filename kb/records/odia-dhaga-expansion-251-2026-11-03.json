@@ -1,14 +1,14 @@
 {
-  "status": "candidate_ready_for_exact_head_review",
+  "status": "published_and_live_verified_receipt_integration",
   "owner": "Disha",
   "scope": "Finite251 release through reviewed publication/live/receipt",
   "baseline": 249,
   "proposed": 251,
-  "accepted_increment": 0,
-  "public_delivered_entries": 249,
+  "accepted_increment": 2,
+  "public_delivered_entries": 251,
   "programme_credit": 0,
   "canonical_release_active": true,
-  "branch": "codex/dhaga-251-expansion-20261103",
+  "branch": "codex/dhaga-251-receipt-20261103",
   "base_head": "cceb1b4526ebe14d5dc88a1c506565e658c78378",
   "started_at": "2026-11-02T19:49:21.763888+00:00",
   "roles": {
@@ -35,11 +35,11 @@
   "production_review_sha256": "6b5f8e9bfaf5cf2e0469213e5b9d8b5111912f4b1b1abc05127c3234e3faa33a",
   "installation_manifest_sha256": "4bdb9e3b8b053d4db70c0918df221ac90773d8edc53fe8ac57c13f954d00abeb",
   "scope_release": "After separately reviewed receipt merge/checks/remote verification",
-  "next": "Exact-head review and required CI before merge; then approved deployment/live/receipt",
+  "next": "Separate exact receipt head review, required CI, merge and remote hashes; then release finite scope.",
   "limits": [
     "Only four used sources;212713/227729 visible lexical context only.",
     "Both counterreadings explicitly editorial; no traditional moral or group traits asserted.",
-    "Separate AI review is not human review; no publication yet."
+    "Separate AI review is not human review; published and live verified; receipt integration pending."
   ],
   "installation_readiness_review_sha256": "d430c7dca51fa0583b17bc537c39197e63699ea2e3dc9eac86702067ab0391e5",
   "preparation_evidence": [
@@ -117,5 +117,14 @@
   "site_budget_decision": {
     "bytes": 29000000,
     "reason": "Unchanged existing bound; actual full28940289/coast28929875/publication28929367; all255priorassets preserved."
-  }
+  },
+  "receipt": "records/reviews/dhaga-expansion-251-2026-11-03/actual-receipt/receipt-candidate.json",
+  "publication": {
+    "pr": 667,
+    "reviewed_head": "768c2c07ae3693aef928c61ca223318fd919cc84",
+    "merge": "a587e5263ce12f1e8de217361ec0929675b910f2",
+    "deployment_run": 41520298227,
+    "deployment_status": "SUCCESS"
+  },
+  "receipt_sha256": "c7b380384bf35bc4ca5934e102e1704b810b4364c47502ce2190a60fefcf3fa8"
 }

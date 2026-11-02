@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-02T19:51:07.880702+00:00",
+  "status": "PASS_NARROW_HELPER_REPAIR",
+  "incident": "Reviewer optimized-Python refusal probe executed the old installer because assert __debug__ and all assert guards were removed under -O. Existing exact products were recopied. Reviewer independently rehashes canonical and stage; no repair installation rerun.",
+  "history": "pre-optimized-guard-fix/ preserves both old helpers and prior installation/preparation reports. Prior report describes actual ordinary-Python successful installation, not a valid optimized-mode refusal.",
+  "repair": "Explicit RuntimeError on not __debug__ at first executable lines, before imports/path reads; authorization also explicit RuntimeError in both helpers. Remaining asserts run only in mandatory ordinary mode.",
+  "checks": [
+    {
+      "helper": "install-reviewed.py",
+      "case": "optimized_no_auth",
+      "exit_code": 1,
+      "expected_refusal": "Optimized Python refused",
+      "isolated_without_repo_or_handoff": true,
+      "log_sha256": "e619d90d85630963e800a2436d1154f77758a8f15fa74bbb174bbf6a62979813"
+    },
+    {
+      "helper": "install-reviewed.py",
+      "case": "optimized_with_auth",
+      "exit_code": 1,
+      "expected_refusal": "Optimized Python refused",
+      "isolated_without_repo_or_handoff": true,
+      "log_sha256": "e619d90d85630963e800a2436d1154f77758a8f15fa74bbb174bbf6a62979813"
+    },
+    {
+      "helper": "install-reviewed.py",
+      "case": "ordinary_no_auth",
+      "exit_code": 1,
+      "expected_refusal": "authorization required",
+      "isolated_without_repo_or_handoff": true,
+      "log_sha256": "68990f2b654a0b9387bedcfb975a5dd2fb649dc3e8cfa027ab2ed90f88eab6ac"
+    },
+    {
+      "helper": "check-installed.py",
+      "case": "optimized_no_auth",
+      "exit_code": 1,
+      "expected_refusal": "Optimized Python refused",
+      "isolated_without_repo_or_handoff": true,
+      "log_sha256": "ccf731a2dff807d3ff78ad631b990f66003c048adbc6768e0d97ae8e051f7816"
+    },
+    {
+      "helper": "check-installed.py",
+      "case": "optimized_with_auth",
+      "exit_code": 1,
+      "expected_refusal": "Optimized Python refused",
+      "isolated_without_repo_or_handoff": true,
+      "log_sha256": "ccf731a2dff807d3ff78ad631b990f66003c048adbc6768e0d97ae8e051f7816"
+    },
+    {
+      "helper": "check-installed.py",
+      "case": "ordinary_no_auth",
+      "exit_code": 1,
+      "expected_refusal": "authorization required",
+      "isolated_without_repo_or_handoff": true,
+      "log_sha256": "793226e54f7fac7b72a653de9df0d21964612a3a7ef8c1cd18b6d1b3a7c48471"
+    }
+  ],
+  "helpers": {
+    "install-reviewed.py": "5b920d20c090cdfe27f24a74d9b8befb6eb716891cd22d2c2bb55df0ed631b1a",
+    "check-installed.py": "569216fc622351a7263069898737e8f00a7d495c55160ec06ec4fc2a8c9e9d7a"
+  },
+  "no_installation_rerun": true,
+  "limits": "Tests executed isolated helper copies with no repository/handoff, including optimized authorized mode; no canonical or stage mutations."
+}

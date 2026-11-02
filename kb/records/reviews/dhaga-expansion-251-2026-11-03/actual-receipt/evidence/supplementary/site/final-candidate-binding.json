@@ -1,0 +1,25 @@
+{
+  "status": "PASS_EXACT_FINAL_CANDIDATE_BINDING",
+  "candidate_head": "768c2c07ae3693aef928c61ca223318fd919cc84",
+  "candidate_manifest_sha256": "2ed4f8f050076553d3d2d0b45465fd2b66cfbbb6e133f9a04c77d5a97030b79f",
+  "site_source_hashes_exact_worktree_and_commit": {
+    "tools/export-dhaga.mjs": "cde9b8a222d860769f9ff046cda69d0187ca498b362c304ee959baea225c6813",
+    "editions/coast.json": "cba9ebfd18f850bc5f2a97ef49b2a67952016490b651f4d43e9f3f7da2cc505f",
+    "editions/search-candidate.json": "322e2447a69ccee097e60d6c5dba9262ca24767a9314043548e5a03942b0671b",
+    "tests/dhaga-export.test.mjs": "e6e4eae546753fc88bb3d321dd53a6c338849f1a135527f53f0dae90d0cfdc2e"
+  },
+  "actual_browser_products_rechecked_exact": {
+    "/dhaga/index.html": "55b6398cb483d4cff2243f8d8d8732b9fbe957efe7133df52964dc3bccb2a50b",
+    "/dhaga/sayings/pod-dhaga-250.html": "603f406eb31318a0975780fb8d0310d7b16a50e5f79225baf667c4538187e5a3",
+    "/dhaga/sayings/pod-dhaga-251.html": "368f4f7dc406a626fba7d3d5778eb9f2a43a5d2ed7f39b6488052df2245bc9a4"
+  },
+  "evidence_bindings": {
+    "samanta.json": "073cb14f4de4880d117a048b31dcdc2d6c3d775a82c8e917dad851fcef77758c",
+    "validation-site.json": "22313dba90cb2c5e4683a95b03228c697774c7f95b827f6b99278d08fdec1599",
+    "final-parity.json": "178cba5369bf40318544606e140d4f020b1a26640cc972bd17d8805129a70ce3",
+    "browser-review.json": "b70f01c2bcd16ccfe493ecf83de6614c820c021cb08461d7a7d5ad7c79ef8149",
+    "browser-product-binding.json": "4af45bcc98823d7b37a15b0698c5af0c09e36935de6c3fc949b170a5c39a7606"
+  },
+  "qualification": "Original browser/gate reports retain their actual execution HEAD and working-tree basis. This addendum verifies all four tested source bytes equal the final commit; no retrospective execution claim.",
+  "no_rerun_or_product_change": true
+}
