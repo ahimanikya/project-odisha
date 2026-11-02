@@ -50,3 +50,13 @@ Remembering Wadaka’s attention to roots keeps an individual’s reasoning in v
 ## Further reading
 
 [Mining in Odisha](mining.md) · [Forest products](forest-products.md) · [Religion and spirituality](../collections/religion-and-spirituality.md) · [Structured evidence and open questions](https://github.com/ahimanikya/project-odisha/blob/main/kb/research/references/data/mining-environment-rights.json)
+
+## KB relationship notes
+
+These retained research connections supplement the article above; the website and downloads use the reviewed article schema.
+
+[Mining overview](mining.md): Connects a dated rights decision to the wider mining economy without treating a proposal as production.
+
+[Forest products](forest-products.md): Connects community-resource rights with forest livelihoods without inferring sales or consent for a particular business.
+
+[Religion and spirituality](../collections/religion-and-spirituality.md): Connects the documented worship-rights issue with living traditions without claiming a single belief shared by every community member.
