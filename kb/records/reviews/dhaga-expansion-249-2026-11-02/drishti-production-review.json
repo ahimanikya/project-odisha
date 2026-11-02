@@ -1,0 +1,170 @@
+{
+  "decision": "PASS",
+  "status": "PASS_LOCAL_PRODUCTION_SEPARATE_AI_REVIEW",
+  "reviewer": "Drishti, separate AI reviewer; not human review",
+  "input_head": "49f14468595f9bc6ffc464d964526ef2df9ea57f",
+  "pdf": {
+    "pages": 159,
+    "bytes": 89619161,
+    "sha256": "b86a2216391776780fac30d097188a52a14e7bbf286a78042f5a469af46e69d4"
+  },
+  "bindings": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/production/samanta.json",
+      "sha256": "ef23db95eb630c81e0bee53c94091937f0450264ca02e749541702378965e211"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/production/installation-manifest.json",
+      "sha256": "cdba7cfe93cd2dbbbd3b8a91bba4dfe4b4d63a82d1f2b8c212adf2e802bd45c5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/production/page-map.json",
+      "sha256": "a02578da0f822e24c04d20da461d6cfc7b7829ad0b8cda15df5ef6aa00f0cf9c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/production/measurements.json",
+      "sha256": "8b159a2df35dbdb9bfe90f8917fd7c7214f3b4ca139a783b72860d8f3cdcade5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/production/preservation.json",
+      "sha256": "013713031545ec6297d802eddcb36d46eefe3e8d799f20eac6485c27306a17ba"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/production/stage/odia-dhaga-book.pdf",
+      "sha256": "b86a2216391776780fac30d097188a52a14e7bbf286a78042f5a469af46e69d4"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/drishti/production-independent-checks.json",
+      "sha256": "4c6efa8e7841137323e714d0a4a98901dcff355c7f44a56a55e6579bd6ad13d1"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/drishti/production-book-tests.log",
+      "sha256": "421ca64d3b1a0773cd5d8745e7074e340b043e5ce82d42dff9fd69b04144e8c8"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/drishti/production-layout-tests.log",
+      "sha256": "921b60a7fd52e978fbb551cacd29df2d6708879400278e1fcc70fceeb0c6f8e0"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/drishti/preparation-review.json",
+      "sha256": "ba4509676d69a0029dd1b8f2565277cdf1953bc219e813450b9f6b008852b055"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/drishti/art-review.json",
+      "sha256": "ea1e7ffc9e8ce98421b2e4733e397fb5c586ade685b0824ff2fb9c9a6a806e96"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/art/art-manifest.json",
+      "sha256": "28e829452f577484d2fc16134af6760be328f1a475c46011dd30268c81a3050f"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/samanta/manifest.json",
+      "sha256": "7e1c5d65b360ee533e819888a6dfd86cb724834e95d9a87bd113699c6103c293"
+    }
+  ],
+  "checks": {
+    "decision": "PASS",
+    "stage_hashes": 1406,
+    "canonical_hashes": 1377,
+    "prior_entries": 245,
+    "changed_files": 287,
+    "prior_metrics_exact": true,
+    "four_package_prose_exact": true,
+    "tests": [
+      {
+        "name": "book",
+        "command": [
+          "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "unittest",
+          "test_repository",
+          "test_transcription",
+          "test_source_inventory"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "layout",
+        "command": [
+          "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "unittest",
+          "test_print_layout"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "frozen_stage_and_canonical_unchanged_after_tests": true
+  },
+  "actual_pages_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    29,
+    30,
+    31,
+    50,
+    51,
+    52,
+    60,
+    73,
+    89,
+    90,
+    91,
+    92,
+    115,
+    131,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159
+  ],
+  "visual_method": "Individually opened all 31 final PNG renders at maximum image dimension 1404; not a fixed DPI claim. Four new art images assessed at actual printed reduction on pages30,51,90,91. Earlier original-art review reused.",
+  "findings": [
+    {
+      "decision": "PASS",
+      "topic": "Layout and art",
+      "detail": "No clipping, overlap, missing new text or unreadable selected art found. Corrected247 projector remains intelligible in column reduction;249 monochrome mouth gesture readable. Camera246 and symbolic coins248 remain clear. Cover/contents249 count, chapter boundaries, neighboring prior entries and all source-credit pages inspected."
+    },
+    {
+      "decision": "PASS",
+      "topic": "Measured exceptions",
+      "detail": "Only246 and248 added to existing FULL_WIDTH_READING_IDS; actual generator diff is this single line. Narrow art needs96.8898 and24.8898pt fail130pt floor; fullwidth retains159.7015pt art.247/249 retain134.8898/146.8898pt columns. Body10.5pt/textscale1; all245 prior measured units exact and all249 bounds checked."
+    },
+    {
+      "decision": "PASS_WITH_LIMITATION",
+      "topic": "Lexical216767",
+      "detail": "Actual248HTML includes full Lexical context only note and source anchor; witness remains note-only without wording. Actual PDF91 explicitly says lexical source is context-only, not a second witness. PDF157 credits revision216767 and noun senses1–7 locator but does not repeat full witness note; assessed together with page91, not represented as additional saying attestation."
+    },
+    {
+      "decision": "PASS",
+      "topic": "Preservation and prose",
+      "detail": "Rehashed all1406 manifest stage files and1377 canonical guards, repeated after independent tests.245 prior entry bytes and all prior assets exact. Four non-graphic objects equal prepared package; historical coverage rows exact. Frozen source/preparation review reused without new research."
+    },
+    {
+      "decision": "NONBLOCKING_PREEXISTING",
+      "topic": "Spacing",
+      "detail": "Prior small boundary-spacing defects visible in preserved245/011/012 contexts (such as definesଯତ୍ନ and The1893); no new correction or historical prose change authorized. They do not truncate the new readings."
+    }
+  ],
+  "tests": "Actually ran 19 repository/transcription/source tests and3 layout tests in reviewer-owned temporary copy of compatible fixture; both exit0. Frozen production fixture and stage not executed/mutated. Logs bound above.",
+  "limits": [
+    "Local staged production only; no canonical installation, accepted increment, public release or site/browser approval.",
+    "31 selected actual pages viewed, not every one of159 PDF pages; all249 unit bounds checked programmatically.",
+    "No physical print proof, assistive-technology or human review claimed.",
+    "Original source/draft/art approvals reused; no new source retrieval or historical facsimile verification.",
+    "Prior producer wrong-cwd test failure remains preserved; corrected producer tests and independent isolated tests pass.",
+    "No web derivative review claimed; reduced art assessed in final PDF renders."
+  ],
+  "blockers": []
+}

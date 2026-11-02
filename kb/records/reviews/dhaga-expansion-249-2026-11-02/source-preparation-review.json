@@ -1,0 +1,97 @@
+{
+  "input_head": "49f14468595f9bc6ffc464d964526ef2df9ea57f",
+  "status": "PASS_FROZEN_RESEARCH_AND_ACTUAL_PACKAGE_PARITY",
+  "scope": "Output-only E249/anvesha source parity and four briefs.",
+  "bindings": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch18/candidate-bundle.json": "a503cbe632c92850f9a7bdf0ba54719bb4b0ca73b32d55531a836591526f6318",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch18/anvesha/report.json": "c2ffc2302dc5d8887561cd68c14023a73d95a9f309f89a9df3b52c285f492d04",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch18/samanta/report.json": "6dc4e9e72834b381dbeeba53b813fd133be8f25a17715fc019c37523d091d8d0",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch18/drishti/integrated-review.json": "c81db99d1b370e4541d2f87c6955a641828854b199ee402803642c32c7d52597",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch18/drishti/assembled-review.json": "9aefa7c61d03f17d9d4fc6edd43f7ed56abd46d095574f50a2442d530bd20863"
+  },
+  "checks": {
+    "four_objects_exact_author_bundle": true,
+    "delivery_all_frozen_bindings_match": true,
+    "five_used_source_objects_and_capture_hashes_exact": true,
+    "six_research_only_records_excluded_from_used_subset": true,
+    "normalized_odia_all_null": true,
+    "parallel_proposals_empty": true
+  },
+  "used_source_ids": [
+    "dhaga-wiktionary-120002",
+    "dhaga-wiktionary-139264",
+    "dhaga-wiktionary-148953",
+    "dhaga-wiktionary-216767",
+    "dhaga-wiktionary-88950"
+  ],
+  "proposed_mapping": [
+    {
+      "id": "POD-DHAGA-246",
+      "candidate_key": "anvesha-b18-01",
+      "primary_source_id": "dhaga-wiktionary-139264",
+      "context_source_ids": []
+    },
+    {
+      "id": "POD-DHAGA-247",
+      "candidate_key": "anvesha-b18-02",
+      "primary_source_id": "dhaga-wiktionary-120002",
+      "context_source_ids": []
+    },
+    {
+      "id": "POD-DHAGA-248",
+      "candidate_key": "anvesha-b18-03",
+      "primary_source_id": "dhaga-wiktionary-148953",
+      "context_source_ids": [
+        "dhaga-wiktionary-216767"
+      ]
+    },
+    {
+      "id": "POD-DHAGA-249",
+      "candidate_key": "anvesha-b18-04",
+      "primary_source_id": "dhaga-wiktionary-88950",
+      "context_source_ids": []
+    }
+  ],
+  "integration_requirements": [
+    "Retain all four reviewed body objects; only proposed canonical id and independently approved graphic metadata may change.",
+    "248 must add a visible note-only lexical citation for216767 defining taṇḍa, with no wording field claiming a second full-saying witness. Retain context_source_ids.",
+    "Use exactly five source records. Six deferred/context research-only records stay evidence, not the public source list.",
+    "All five records are dictionary-lineage evidence, not independent corroboration or Wikimedia authorship of traditional expressions.",
+    "Preserve exact Odia spellings, source labels, original imagined examples and source-informed narrative credit.",
+    "Regional label on139264 applies to dictionary headword; no exclusive-origin claim. No legal/ritual/currency instruction or real boating accident.",
+    "No import or revision of deferred32863; it also has a strong existing028 parallel and earns no new count.",
+    "Prior245,75pending,historical cursors and programme134 remain unchanged."
+  ],
+  "preservation_basis": {
+    "prior_delivery_independently_verified_baseline_files": 1377,
+    "canonical_entry_count_now": 245,
+    "limit": "All actual Samanta baseline files independently rehashed against canonical book root; unchanged. No canonical writes."
+  },
+  "briefs": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/anvesha/illustration-briefs.json",
+    "sha256": "e1cf17f888fa4e8d7fbec634f1e5343cf88b9c92d83c64cd9e99839983ef81ef"
+  },
+  "limits": [
+    "No source rereading/retrieval, facsimile review, canonical acceptance, generation or publication.",
+    "Brief captions/alt require adjustment to actual generated pixels later."
+  ],
+  "package_checks": {
+    "manifest_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/samanta/manifest.json",
+    "manifest_sha256": "7e1c5d65b360ee533e819888a6dfd86cb724834e95d9a87bd113699c6103c293",
+    "manifest_files_checked": 21,
+    "four_entry_objects_exact_after_documented_mapping": true,
+    "lexical_context_note_actually_present": [
+      {
+        "source_id": "dhaga-wiktionary-216767",
+        "locator": "ତଣ୍ଡ, noun senses1–7 and following explanatory note, revision216767",
+        "note": "Lexical context only: fines, compelled expenditure and loss. This source does not attest the full saying; it is from the same dictionary lineage, not independent corroboration."
+      }
+    ],
+    "five_source_metadata_and_portable_captures_exact": true,
+    "canonical_baseline_files_rehashed": 1377,
+    "canonical_baseline_differences": [],
+    "samanta_report_sha256": "ca7946a02f3148263a856dadbcd2efe9be0fe61a38c95ea89dd72df504bb762a",
+    "samanta_tests_sha256": "359f8f84ce556002501fa39c2a594ddd4ee169928d097ff5f29b934ed63321d1",
+    "limit": "Actual isolated import/test execution is Samanta evidence; this reviewer independently rehashed package and canonical baseline and compared all mapped objects. No importer run here."
+  }
+}
