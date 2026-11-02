@@ -1,0 +1,99 @@
+{
+  "decision": "PASS",
+  "status": "PASS_EXACT_LOCAL_CANDIDATE",
+  "reviewed_head": "f787a5abb914425c75864ffcb2520575bec14137",
+  "base": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "candidate_manifest_sha256": "d4485b59fcbd51faecab686317bf9d44751e198232defd118ecc540584e27441",
+  "reviewer": "Drishti; separate AI review",
+  "checks": {
+    "committed_files_and_sizes_verified": 45,
+    "evidence_manifest_entries_verified": 23,
+    "all_nine_site_files_equal_frozen_tested_implementation": true,
+    "schema_byte_exact": true,
+    "copied_reviews_exact": true,
+    "prior_article_archive_byte_exact": true,
+    "only_rollout_change": "POD-EDIT-256 in_progress",
+    "unchanged_rollout_siblings": 936,
+    "counts": {
+      "completed": 162,
+      "excluded": 491,
+      "in_progress": 1,
+      "queued": 283
+    },
+    "programme_completed": 134,
+    "programme_credit": 0,
+    "book_and_read_only_sources_unchanged": true,
+    "independent_checks": [
+      "rollout PASS",
+      "autonomous programme PASS",
+      "team PASS",
+      "bundle PASS",
+      "research validate PASS",
+      "exact diff --check PASS"
+    ]
+  },
+  "evidence_bindings": {
+    "drishti/implementation/integrated-review.json": "4db92cdc33cf99a91d4ae582c8f3f63c932da09c6c7f5b13edb8709ff8877b78",
+    "drishti/implementation/visual-review.json": "e36c359b4c6116649be6c74054e58606b2087c8179a7a59251e7ea76beca1bf4",
+    "samanta/implementation/implementation-report.json": "95723753b1a567bbcd8931e504b446664b0ed6f01cf3725e51dc6bfcb1bbce15",
+    "samanta/implementation/validation-site.json": "20b6669bfaaf96986deb408b0b4654f4578d39a44c60735b4dd7e36d4b10cd28"
+  },
+  "scope": "Exact approved existing-route article opt-in,168sibling normalizedDOMs and prior122full/113publiccatalogs preserved as independently checked in bound integratedreview. Finite ownership remains through reviewed receipt; no completionclaimed.",
+  "findings": [],
+  "limits": [
+    "No repeated research/build/browser; finalcommitted nine site hashes and schema equal frozen implementation.",
+    "Actualbrowser workingtree baseline and metadata-only correction qualification retained; no remoteCI/live/deployment claim.",
+    "Sourcebudget192unique conservative includes original17wordeditorialquestion; duplicatedmetadata occurrence209explicitly qualified in integratedreview,not claimed physicaltotal<=200.",
+    "No human/AT/physicalphone review. Study visual/date/bibliography access limits unchanged."
+  ],
+  "supersedes": {
+    "path": "initial-exact-head-review.json",
+    "sha256": "5ff50531cbedf886183e3f6a40b7dbf8baf52b844f96e55ab4dac12953ecf1a4",
+    "head": "ffb564a132c83a7486921a2f7dd68d14b2395069"
+  },
+  "delta_review": {
+    "files": [
+      "kb/records/editorial-workbench.json",
+      "kb/research/economy/niyamgiri-rights-and-mining.md",
+      "kb/research/search-index.json"
+    ],
+    "all_45_committed_hashes_and_sizes_reverified": true,
+    "original_three_relationship_explanations_exact": true,
+    "prior_markdown_prefix_unchanged": true,
+    "all_site_and_schema_blobs_unchanged": true,
+    "all_previous_claims_and_evidence_unchanged": true,
+    "research_ci_correction_sha256": "b4daf62fedc6a63e9f9484a779c65d7d831978c2380576fa07857a66cd116db3",
+    "reported_research_validators_pass": 14,
+    "independent_checks": [
+      {
+        "command": [
+          "python3",
+          "tools/research/validate_classification.py"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"result\": \"PASS\",\n  \"subject_families\": 9,\n  \"classified_concepts\": 639,\n  \"atlas_topics\": 48,\n  \"atlas_observations\": 1713,\n  \"explained_relationships\": 613,\n  \"errors\": [],\n  \"scope\": \"Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval.\"\n}\n"
+      },
+      {
+        "command": [
+          "python3",
+          "tools/research/validate.py"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"checked_at\": \"2026-11-02T09:33:33+05:30\",\n  \"result\": \"PASS\",\n  \"concepts\": 1505,\n  \"local_link_checks\": 5789,\n  \"growth_arithmetic_checks\": 38,\n  \"preserved_evidence_records\": 71,\n  \"errors\": [],\n  \"scope\": \"Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification.\"\n}\n"
+      },
+      {
+        "command": [
+          "git",
+          "diff",
+          "--check",
+          "ffb564a132c83a7486921a2f7dd68d14b2395069",
+          "f787a5abb914425c75864ffcb2520575bec14137"
+        ],
+        "exit_code": 0,
+        "stdout": ""
+      }
+    ],
+    "history": "CI41385894860 caught omitted historical KB relationship explanations; original failure retained. Added explicit KB-only relationship notes after unchanged article, regenerated search index and dependent workbench fingerprint. No rebuild/browser repetition needed for unchanged product inputs.",
+    "live_preparation": "Old expected binding must be refreshed to new manifest/head before live execution; prior prepared-live review does not certify a refreshed expected file."
+  }
+}

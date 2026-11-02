@@ -1,0 +1,85 @@
+{
+  "decision": "PASS",
+  "status": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "reviewer": "Drishti; separate AI review",
+  "reviewed_head": "f787a5abb914425c75864ffcb2520575bec14137",
+  "deployed_merge": "0d2cee8dbba2999fe1d9dfa9f38d1baedf03c2a4",
+  "merge_commit": "0d2cee8dbba2999fe1d9dfa9f38d1baedf03c2a4",
+  "deployment_id": 41388880884,
+  "evidence_bindings": {
+    "anvesha/implementation/live-http-report.json": "c48dcf6a9e1e063cbea42c335b88192df0f42a24eb80823ac78a33b0163c63c9",
+    "live/browser/live-browser-report.json": "e1138a30a2a624176468d05a254855bf40b08ccc3c8ddbbe4e417ef9fd0e2810",
+    "anvesha/implementation/verify-live.py": "f3cc238349df801274b8ea62925716acdf71ede1f8c6ce5771d281e58ae94f53",
+    "anvesha/implementation/expected.json": "d650f395c0d08c7e09428b1e1d49ac77593f2735e856036a82556d8d9ca3c1e1",
+    "anvesha/implementation/explore-failure-review.json": "e1837eeda898e1aa6abf6168f55781b18e21573446adcde453a8096a5417d8ce",
+    "deployment-status.json": "6f3dba1de5e0f60b143d518872de15d8defaf7395d84e3ee5d09f908c80ca57d"
+  },
+  "actual_screenshots_viewed": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/desktop-opening.png",
+      "sha256": "c73c5ac9f68b7719d6cba6dfcb96eb000cf7566ca2f14eace65c435b37df3392",
+      "bytes": 109306
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/desktop-sources.png",
+      "sha256": "151b730f45e67a1b718e58da9d1b2b8ff921d77ba9f46e45e8712bac67af8a5c",
+      "bytes": 118016
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/phone-opening.png",
+      "sha256": "d9fe9880889fe4d0ddf1d4cdaca2047ec5dad065a15f38861ac89adb4c3671a0",
+      "bytes": 67248
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/phone-sources.png",
+      "sha256": "372964911bdd9f73f675a095419afe6903d7408e30c452d2c8242d0747b6619d",
+      "bytes": 85121
+    }
+  ],
+  "actual_downloads_parsed": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/desktop-reading.html",
+      "sha256": "4b676a45b4d67e60496b03160c698bf9d0ced9f266e112a612909751a89a70c5",
+      "bytes": 8709
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/phone-reading.html",
+      "sha256": "4b676a45b4d67e60496b03160c698bf9d0ced9f266e112a612909751a89a70c5",
+      "bytes": 8709
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/desktop-reading.txt",
+      "sha256": "2ab94a7f435e281b32639c9c25ad21ec52789ab13715f1b7285e4472fce9e1fe",
+      "bytes": 4864
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/live/browser/phone-reading.txt",
+      "sha256": "2ab94a7f435e281b32639c9c25ad21ec52789ab13715f1b7285e4472fce9e1fe",
+      "bytes": 4864
+    }
+  ],
+  "checks": {
+    "all_wrapper_and_capture_hashes_sizes_verified": true,
+    "saved_live_article_independent_reparse": "8 exact paragraphs once, 4 complete notes, 6 references and returns, byline/save ID, noindex follow",
+    "saved_live_catalog_independent_reparse": "Entire 114-item catalog exact against prepared expectations; 113 prior selected objects preserved",
+    "discovery": "Actual captured Explore links Reading room; actual captured Reading room links exact article route",
+    "portable_downloads": "Both actual HTML and both TXT contain eight approved paragraphs once, four short source titles and URLs, and production-origin full-article URL; full website notes excluded",
+    "pixels": "Individually viewed desktop opening/sources and phone opening/sources; readable text and four source notes, no observed overlap/clipping",
+    "reported_actual_chrome_interactions": "1440x900 and 390x844; 12 native note-return round trips, save/reload, no horizontal overflow, two HTML and two TXT downloads"
+  },
+  "failure_history": {
+    "initial": "Inherited helper incorrectly required direct story link on Explore. Original helper and actual failed-at-final-assertion captures retained under history-live-explore-failure.",
+    "correction": "Independently inspected helper diff: only discovery assertion replaced by two explicit links and report label changed. Prose/source/catalog/deployment guards unchanged.",
+    "resolution": "Corrected run fetched actual live reading-room index; independently parsed both captured native links. No website changes or blanket waiver."
+  },
+  "limits": [
+    "Separate AI review, not human editorial certification.",
+    "Reviewed actual saved live captures, four screenshot pixels and four downloads; reviewer did not repeat browser interactions or network requests.",
+    "Chrome automation only; no assistive technology, physical phone, Firefox or WebKit claim.",
+    "Raw tested_head is expected local schema basis; deployed identity comes from separately bound successful run record, not a server Git query.",
+    "HTML semantic comparison normalizes whitespace and excludes citation numerals/return text; no whole-page byte equality claim.",
+    "Preserves earlier undated study/binary and selected-image gaps, dated legal/committee/minister distinctions and metadata duplicate-token accounting; no new source verification or current legal-status claim.",
+    "No live re-verification of every Dhaga asset or all sibling DOMs; their earlier local preservation evidence remains separate.",
+    "Receipt integration, checks and merge remain subsequent gates; no canonical edits performed."
+  ]
+}
