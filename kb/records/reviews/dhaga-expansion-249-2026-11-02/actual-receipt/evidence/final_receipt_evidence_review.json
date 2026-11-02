@@ -1,0 +1,43 @@
+{
+  "decision": "PASS",
+  "status": "PASS_FINAL_LIVE_AND_LOCAL_SYNC_EVIDENCE",
+  "reviewer": "Drishti separate AI evidence review",
+  "reviewed_head": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "deployed_merge": "b695f6ca3093320a2fbb141f65e3df21789a81fc",
+  "deployment_id": 41482664751,
+  "bindings": {
+    "release-review/live-review.json": "dad7146ad35470e1c664d5b9b19682d5a1e30012660b2a440d71bf7680f0a41f",
+    "live-preparation/sync-authorization.json": "4c5ac0a6078ed8663b1c13d07725baebc9edf94ef5e6d32da46b30b4f8bcec82",
+    "live-preparation/sync-candidate-plan.json": "533e77605e8d61407b2ab063a69cfab853fbeafd04a4c677146679d8f1206cb4",
+    "live-preparation/local-baseline.json": "0a08da9ec13d42e1cf4672038b55555e23d896e5e4cc4923c5316bf82d5f3751",
+    "live-preparation/local-reader-sync-result.json": "7ecfc1ce839e27b67d4d77ca511ed776d1459457c90063889309d0aa11e416d8",
+    "live-preparation/local-tests.log": "a578385880b6017e353dcc749626544e2b2429ca153842772621276775699e22",
+    "live-preparation/sync-local.py": "46e464b54d91d6abf4c585afa05a6e94c3f04a8c4c9cff8cf0195028f29b210b",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-dhaga-reader-47/dhaga-249-delivery-2026-11-02.json": "7ecfc1ce839e27b67d4d77ca511ed776d1459457c90063889309d0aa11e416d8"
+  },
+  "actual_independent_checks": {
+    "authorization_gates_rehashed": 6,
+    "product_hashes_and_sizes_rechecked_local_and_source": 762,
+    "copied_paths_exact_against_baseline": 264,
+    "baseline_extras_rehashed_unchanged": 516,
+    "prior_overwritten_files_backed_up_exactly": 252,
+    "new_product_paths": 12,
+    "tests": "Actual saved unittest log19 tests in2.575s OK, exit0; log hash matches result. Reviewer did not rerun potentially rebuilding tests.",
+    "post_test_PDF_sha256": "b86a2216391776780fac30d097188a52a14e7bbf286a78042f5a469af46e69d4",
+    "local_delivery_receipt": "Exact bytes equal successful sync result",
+    "frozen_live_review": "Unchanged dad7146a\u2026 retained; all prior live qualifications carry forward."
+  },
+  "findings": [
+    "Actual sync result matches exact source allowlist and baseline; independent read-only rehash after tests confirms762 local/source product bytes and sizes.",
+    "All516 existing extra files retained, including historical research/receipts;264 copied paths exactly match changed/new allowlisted products. Backups reproduce prior bytes for every overwritten existing product.",
+    "Sync is actual completed action after parent authorization, not a proposed plan. No test or posthash failure concealed."
+  ],
+  "limits": [
+    "No network/browser/production work repeated; separate live-review remains frozen and qualified486rawexact+21knownpairs with preserved retry history.",
+    "Read-only evidence review and current file rehash are not a new test execution, human proofreading or physical-device check.",
+    "Canonical receipt integration/merge and finite scope release remain separate pending tasks; this report does not claim them complete."
+  ],
+  "local_sync_sha256": "7ecfc1ce839e27b67d4d77ca511ed776d1459457c90063889309d0aa11e416d8",
+  "live_review_sha256": "dad7146ad35470e1c664d5b9b19682d5a1e30012660b2a440d71bf7680f0a41f",
+  "contract_alias_note": "Added two top-level aliases of existing exact bindings only; checks and findings unchanged. Prior report bytes retained separately."
+}
