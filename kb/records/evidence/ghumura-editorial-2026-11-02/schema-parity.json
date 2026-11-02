@@ -1,0 +1,27 @@
+{
+  "status": "PASS_EXACT_PROSE_AND_FIVE_NOTES",
+  "input_head": "b064ccbb83e7b225bd9ea2977209183271165dc6",
+  "draft_sha256": "9d46572d60e52c1defa1b4471f20aa92b834024e94ecc7e81d96abedd664c700",
+  "schema_sha256": "646e331a32b75611aa96ada60a9782791f1e11a58a4be75adc8ca6e0ee1806c8",
+  "research_report_sha256": "4c232dcd99fd5ec59f47a39fda130ef7c29a9adc66df6017cbdfb3227bd06b53",
+  "body_paragraph_count": 11,
+  "section_count": 5,
+  "footnote_count": 5,
+  "parity": "Every body paragraph exact after removal only of numbered Markdown citation tokens. Four titled sections and untitled opening preserve order. Every complete note preserved verbatim as footnote_markdown and losslessly as text/link segments. No prose rewriting.",
+  "compatibility": [
+    "Original title,lead,kb_article,listening_panel retained for existing readers/discovery.",
+    "blocks paragraph strings/source_ids/items retained; additive paragraph_source_ids support exact numbered markers.",
+    "sources id/title/resource/locator retained; additive number/footnote_segments support complete exact visible notes.",
+    "Author from exact reviewed Markdown. Internal reviewed_on is this actual review preparation date, not human review."
+  ],
+  "explicit_navigation_correction": {
+    "original": "/stories/sounds-of-odisha/",
+    "corrected": "/sounds-of-odisha/",
+    "scope": "Only further-reading href; visible title exact, frozen Markdown unchanged. Root explicitly authorized correction."
+  },
+  "limits": [
+    "No canonical/site/Git writes or build. Template must consume additive note fields, not substitute short locator for full footnote.",
+    "Old listening panel retained as compatible editorial prompts, not new source claims. Implementation should apply current shared-process-disclosure policy.",
+    "No independent schema review claimed; Drishti must bind this conversion separately."
+  ]
+}

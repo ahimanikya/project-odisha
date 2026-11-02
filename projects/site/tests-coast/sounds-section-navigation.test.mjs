@@ -8,6 +8,17 @@ test('fourteen further-reading stories expose real section destinations and reve
   const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
   const html=readFileSync('dist-coast/stories/'+slug+'/index.html','utf8');
   const menu=html.match(/<details class="research-contents"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+  if(slug==='ghumura'){
+   assert.ok(menu);assert.match(menu,/<summary[^>]*>In this article<\/summary>/);
+   const links=[...menu.matchAll(/href="#([^"]+)"[^>]*>(.*?)<\/a>/g)];
+   assert.deepEqual(links.map(m=>m[1]),[...story.blocks.flatMap((b,i)=>b.title?[`story-section-${i+1}`]:[]),'reading-paths','ghumura-further-reading','story-sources']);
+   for(const [,id] of links)assert.equal(html.split('id="'+id+'"').length-1,1);
+   for(const block of story.blocks){if(block.title)assert.ok(html.includes(escape(block.title)));for(const text of block.paragraphs)assert.ok(html.includes(escape(text)));}
+   assert.match(html,/<section id="story-sources"[^>]*class="article-footnotes"/);
+   assert.match(html,/<section class="sound-reading-paths" id="reading-paths"/);
+   assert.match(html,/<meta[^>]*name="robots"[^>]*content="noindex, (?:no)?follow"/);
+   continue;
+  }
   if(slug==='prahlada-nataka'){
    assert.ok(menu);assert.match(menu,/<summary[^>]*>In this article<\/summary>/);
    const links=[...menu.matchAll(/href="#([^"]+)"[^>]*>(.*?)<\/a>/g)];

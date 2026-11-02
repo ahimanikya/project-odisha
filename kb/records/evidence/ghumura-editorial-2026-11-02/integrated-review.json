@@ -1,0 +1,60 @@
+{
+  "decision": "PASS",
+  "status": "PASS_LOCAL_INTEGRATED_IMPLEMENTATION",
+  "input_head": "b064ccbb83e7b225bd9ea2977209183271165dc6",
+  "reviewer": "Drishti; separate AI review",
+  "scope": "Uncommitted working implementation over recorded baseline; final exact committed-head review remains separate.",
+  "evidence_bindings": {
+    "drishti/draft-review.json": "493deb55e46a60247fe34b6c1f07659d0ca794de05522aeac258c48fd9791b26",
+    "drishti/visual-review.json": "8d21a831fadf6f9b147fdbd769a7d4538b414007816b6c6770d1abbbc18e464e",
+    "drishti/schema-check.json": "61a40cc2991aa75d9ecd8e0745d726ba69ac868e2c4db70e4168041d9a701f0d",
+    "drishti/implementation-findings.json": "39967b828087df243797b4d50d383ce041f443c382993c044ce6db0cf9d957cc",
+    "drishti/implementation-binding-check.json": "b248c5fe7430a68347c136a85065926dcb80a3bdd3f267dd4cfc3f1cfd234026",
+    "drishti/final-artifact-check.json": "5148d9d692dc23a4d0934bb4f772ce71db824bd7b98a94c3d8da8ffe91bdb841",
+    "drishti/focused-tests.log": "92aaf5c7574d3bc5039032c5b80e24da90b2bfb4a4168ddf6b1c5393be5bee70",
+    "samanta/implementation-report.json": "e8da5c9cd8c8fde8c54ae54e293cd84be0a9c876be9c6c24f0b356fdb7ef94b7",
+    "samanta/implementation-baseline.json": "2a9fff2b610d38975d4ace542bf401f14747ce6565ef4bbd66ccd0c132caec6b",
+    "samanta/prior-catalog.json": "0af1deb3ea3ff0af7da182b1ba87384bc4883418988829d7929433b4b39f0b25",
+    "samanta/preservation.json": "cf0be1e02d96b754bca4a35a19a49f314bc255e0b251aa5ba3d7de5015f11120",
+    "samanta/validation-site.json": "62707b3806bd2416c86a4a8214feac203b344267d9509bf4d4c39a953378eda2",
+    "samanta/browser/browser-review.json": "8ffbcd667cc3cc47b0cc45daaa31b90f2b49481b975e69f2a9d3170403738bd3",
+    "samanta/browser/tested-product-binding.json": "5167c12d17ea6cf10e2748486e84e063db6a3727bb1371043ec92d6db2a6c571"
+  },
+  "checks": {
+    "source_and_draft_review_reused": true,
+    "approved_body_paragraphs": 11,
+    "complete_notes": 5,
+    "source_urls": 6,
+    "independent_focused_tests_passed": 3,
+    "all_gate_logs_hash_verified": 14,
+    "reported_full_tests": 686,
+    "reported_coast_tests": 544,
+    "actual_screenshots_individually_viewed": 4,
+    "actual_offline_downloads_parsed": 2,
+    "browser_report_native_note_returns": 16,
+    "all_1377_prior_book_files_independently_rehashed": true,
+    "all_121_prior_full_catalog_objects_exact": true,
+    "all_112_prior_public_catalog_objects_exact_under_existing_edition_filters_and_href_overrides": true,
+    "full_coast_publication_body_and_note_parity": true,
+    "search_hold_preserved": true
+  },
+  "resolved_findings": [
+    "Prior reading destinations initially omitted; Dalkhai/listening notebook metadata and expanded shared SoundReadingPaths restored.",
+    "Initial coast assertions retained old count/layout; three narrow approved updates followed by successful rebuild and all fourteen gates.",
+    "Approved Markdown remains frozen; schema changes are authorized collection href repair and additive existing reading links, not body/notes rewriting."
+  ],
+  "historical_evidence_qualification": "Output inspect.py shadowed standard library and reran initial map producer, replacing initial map report/baseline. Do not treat their current bytes as the original historical artifacts. No invented restoration. Preservation independently verified against unaffected implementation-baseline.json and prior-catalog.json, both hash-bound here.",
+  "browser_binding_qualification": "Chrome tested working implementation over baseline b064, not the baseline committed page. Actual tested full HTML SHA equals final full HTML; full/coast/publication HTML differ, with substantive body and complete notes independently checked across editions.",
+  "publication_reported": {
+    "files": 2628,
+    "bytes": 699745557,
+    "indexable_urls": 11
+  },
+  "source_limits": "Reuses approved source budgets/chronology/attribution and zero-new-CCRT decision; no fresh source research or stronger current-class/origin claim.",
+  "limitations": [
+    "Local implementation review only; no committed-head, remote CI, live deployment or publication completion verdict.",
+    "Chrome screenshots and automated native keyboard checks do not constitute human, assistive technology, physical phone or cross-browser review.",
+    "No image/audio created or subject image claimed; no duplicate book/PDF review."
+  ],
+  "blocking_findings": []
+}

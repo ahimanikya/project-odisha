@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/prahallad-story-only-2026-11-01.json",
+  "handoff_home": "records/ghumura-editorial-team-2026-11-02.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,13 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-385",
+    "route": "/stories/ghumura/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/ghumura-editorial-team-2026-11-02.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "prahallad_story_only",
+    "kind": "ghumura_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/prahallad-story-only-2026-11-01.json"
+    "status": "implementation",
+    "handoff": "records/ghumura-editorial-team-2026-11-02.json"
   },
   "parallel_programmes": [
     {
@@ -108,14 +114,14 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "Prahallad story-only correction published and live verified. Retain finite scope until reviewed records-only receipt merge/checks/remote hashes. Kalahandi106 already reviewed readiness remains next; Dhaga245 complete.",
+  "coordination_note": "Ghumura existing article revision from separately reviewed draft; finite scope through reviewed publication/live verification/receipt. Niyamgiri next. Dhaga245 and Rayagada107 complete; separate Dhaga research queue preserved.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "dhaga_245_expansion",
+    "kind": "prahallad_story_only",
     "status": "released",
-    "receipt_pr": 656,
-    "merge": "e16b0ba285af1cedbf383543c236ca3af62ef6e0",
-    "remote_files_verified": 16
+    "receipt_pr": 658,
+    "merge": "2df6848df1178ab02a2fef2bf7cf2fb8561084e6",
+    "remote_files_verified": 8
   }
 }
