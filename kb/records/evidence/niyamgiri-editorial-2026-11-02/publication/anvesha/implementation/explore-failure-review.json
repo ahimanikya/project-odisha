@@ -1,0 +1,26 @@
+{
+  "status": "FALSE_NEGATIVE_IDENTIFIED_HELPER_CORRECTED_LIVE_INDEX_CHECK_PENDING",
+  "cause": "Inherited Ghumura helper assumed direct Explore link. Existing reading-room article discovery is Explore \u2192 Reading room index \u2192 article. Saved live Explore and final local Explore both link /reading-room/ and contain no direct Niyamgiri link.",
+  "actual_saved_checks": {
+    "body_paragraphs": 8,
+    "notes": 4,
+    "refs_returns": 6,
+    "catalog_exact_items": 114,
+    "sitemap_exclusion": true,
+    "live_explore_readingroom_link": true,
+    "local_readingroom_article_link": true
+  },
+  "pending": "Fetch actual live /reading-room/ and confirm exact article href before overall PASS. No live index evidence created by this correction.",
+  "helper_sha256": "f3cc238349df801274b8ea62925716acdf71ede1f8c6ce5771d281e58ae94f53",
+  "saved_failure_evidence": {
+    "verify-live.py": "e19a3728e5d7b4723bd9e8516b2a1075402d3d459881cff0c32efbc7f9b09876",
+    "article.html": "7f05f5fdbe6e50d41a9c5a8d0067eb1437bce964b42fa3be3d967b8f390fb9a3",
+    "journey-data.js": "b6be95598c5841ad92dd99933b86aa6cda0a295aba7fc54c4c93f474740f1ead",
+    "sitemap.xml": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd",
+    "http-attempts.json": "c8292f6f8edca836d8c680c88dfc6df25a631074a1b2d502c22b8bec60b1330f",
+    "explore.html": "903a6a033ec34abe1a001562806ab7b1c645d04ef27074bcd33571984b95e44b"
+  },
+  "network_requests_this_task": 0,
+  "changes": "Only route discovery assertion changed to two explicit native links; exact source/prose/catalog/deployment guards unchanged.",
+  "root_followup": "Run corrected helper after review; or capture live reading-room/index and perform that affected assertion with all frozen saved preceding checks bound. Do not claim overall PASS from local index alone."
+}
