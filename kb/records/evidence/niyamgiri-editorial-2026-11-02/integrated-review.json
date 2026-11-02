@@ -1,0 +1,71 @@
+{
+  "decision": "PASS",
+  "status": "PASS_LOCAL_INTEGRATED_IMPLEMENTATION",
+  "input_head": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "reviewer": "Drishti; separate AI review",
+  "evidence_bindings": {
+    "drishti/draft/draft-review.json": "a040b5ff49448867bbf421173f60e38b968632c91ae43a561f97c8ae57013f47",
+    "drishti/implementation/visual-review.json": "e36c359b4c6116649be6c74054e58606b2087c8179a7a59251e7ea76beca1bf4",
+    "drishti/implementation/final-artifact-check.json": "89e0261290d6faf22172af817297d952f689105837fac6d54b2c41769c38c7b9",
+    "samanta/implementation/implementation-report.json": "95723753b1a567bbcd8931e504b446664b0ed6f01cf3725e51dc6bfcb1bbce15",
+    "samanta/implementation/validation-site.json": "20b6669bfaaf96986deb408b0b4654f4578d39a44c60735b4dd7e36d4b10cd28",
+    "samanta/implementation/source-baseline.json": "4397cebe114a3f95f5ba8ec948ac9ef1b9cb48467769d0153d10f08dac7e2933",
+    "samanta/implementation/sibling-baseline.json": "72385e38d37c904acaf76c51c1310dae024ffba6096164cbcbe47a10b15ee228",
+    "samanta/implementation/prior-catalog.json": "cb6064d0b4b514bd8ad6ab07d089544d0af86a974fd0e06a5b0696a15be4a8b7",
+    "canonical-preservation.json": "058fb535b253d637b761e1af77b353937e7f49276fe60097fddcfd7ca4f04e36",
+    "book-preservation.json": "1c4089218adc887c998c770dd715487eb19eb75a51f933c1aa5d58532fe3d6c4"
+  },
+  "actual_checks": {
+    "all_nine_site_source_hashes_verified": true,
+    "all_fourteen_passing_gate_log_hashes_verified": true,
+    "independent_focused_tests": {
+      "passed": 3,
+      "failed": 0
+    },
+    "reported_full_coast_tests": [
+      690,
+      544
+    ],
+    "all_1377_book_files_independently_rehashed": true,
+    "all_168_sibling_article_DOMs_each_edition_independently_compared": true,
+    "prior_catalog_objects_exact": {
+      "full": 122,
+      "coast": 113,
+      "publication": 113
+    },
+    "approved_schema_exact": true,
+    "eight_paragraphs_four_notes_six_native_reference_returns": true,
+    "four_actual_screenshots_and_two_HTML_two_TXT_downloads_reviewed": true,
+    "search_eligible_routes": 11
+  },
+  "metadata_budget": {
+    "unique_conservative_court_allocation": 192,
+    "existing_original_editorial_question_words": 17,
+    "mechanical_total_with_one_duplicate": 209,
+    "decision": "Exact question already conservatively allocated; repetition as metadata adds no new source-derived wording or claim. Do not describe all physical repeated tokens as <=200. Frozen narrative/schema unchanged."
+  },
+  "preservation_and_scope": [
+    "Existing route only; no duplicate article;168generic siblings retain normalized article DOM, excluding only Astro scope attributes. WholeHTML/CSS/catalog bundles may differ.",
+    "All prior catalog payloads exact under preexisting edition filtering/href overrides. One new portable reading, exact eightparagraphs once with four concise sources.",
+    "OnlyNiyamgiri mining case revised; fourexistingsource records updated with history and one descriptive studyrecord added. Read-only sourcefiles untouched.",
+    "Claim256inprogress/zero programmecredit/finite release through reviewed receipt."
+  ],
+  "resolved_history": [
+    "KB unsupportedstatus/numeric citations/rootrelative links corrected by coordinator via draftstatus/stableIDs/equivalentrelativeKBlinks; prose/schema unchanged.",
+    "Initial coast count and metadata-length acceptance failures retained; narrow measured count correction and exact existing-question metadata reuse; affected builds/focused/disclosures/acceptance rerun. Broad690/544passed before metadata-only correction and explicitly retained.",
+    "Archive link validation fixed by exact.txt history, not modifying original archivebytes.",
+    "Localdownloadorigin expectation corrected in review; localhost articlehref expected duringlocaltest, actualproductionorigin remains livegate."
+  ],
+  "publication_artifact": {
+    "bytes": 700221522,
+    "files": 2628,
+    "indexable_urls": 11
+  },
+  "findings": [],
+  "limits": [
+    "Working implementation over baseline reviewed; not yet separate exactcommittedhead approval.",
+    "Actualbrowser ran before metadata-only correction; same schema/body/interactions reused, final three-edition artifact hashes and parity independently verified.",
+    "No new source research or repeated sourcepixelreview; uses frozen draft review and honest study cover/date/imageaccess limits.",
+    "No live/deployment/receipt/completion claim, human/AT/physicalphone or otherbrowserengine claim."
+  ]
+}

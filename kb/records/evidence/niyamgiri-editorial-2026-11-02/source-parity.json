@@ -1,0 +1,71 @@
+{
+  "status": "PASS_INSTALLED_SCHEMA_PARITY_WITH_REGISTRY_UPDATE_REQUIREMENTS",
+  "input_head": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "canonical_schema_sha256": "994d321f7dd0b02cddd793a41df0429f29f6c64dc56bc2d48437a0df04aac7b8",
+  "approved_schema_sha256": "994d321f7dd0b02cddd793a41df0429f29f6c64dc56bc2d48437a0df04aac7b8",
+  "reviewed_article_sha256": "0e4c9028516cda59b3d9e759190c486c4b6206b5bbc8f4119539fb8e584a5137",
+  "source_report_sha256": "7195bdc8efd2b21d2105e3dadbf0704ae55274b1bdaf263d13149b35369bb92a",
+  "checks": {
+    "canonical_bytes_equal_approved_schema": true,
+    "exact_body_paragraphs": 8,
+    "notes": 4,
+    "markers": 6,
+    "source_ids": [
+      "niyamgiri-scstrti-fes-land-water",
+      "mining-niyamgiri-sc2013",
+      "mining-xaxa-niyamgiri2014",
+      "mining-niyamgiri-rs2015"
+    ],
+    "budget_words": [
+      197,
+      192,
+      124,
+      90
+    ],
+    "same_court_lineage_grouped": true
+  },
+  "required_registry_updates": [
+    {
+      "path": "kb/research/sources/mining-niyamgiri-sc2013.md",
+      "action": "Append dated verification: exact official binary matches7c391d59…; PDF33containsprinted945/946 andPDF34contains947/948; paragraphs55–62 useprinted946–948. Retain original retrieval date and historic scope."
+    },
+    {
+      "path": "kb/research/sources/mining-niyamgiri-scr2013.md",
+      "action": "Correct locator only: paragraph51 beginsPDF32, so paragraphs51–63 requirePDF32–34; operative58–63PDF34. State same official report/URL/hash lineage as sc2013, not independent corroboration. Preserve stableID."
+    },
+    {
+      "path": "kb/research/sources/mining-xaxa-niyamgiri2014.md",
+      "action": "Append2November recovery without erasing3October indexed-only failure: fulloriginal recovered, printed/PDF353 visually checked, committee narrative reports18July–19August2013 and12hamlets. Footnote356 attributes translations supplied by state/on file withcommittee; signedoriginals/translations not separately inspected. AdjacentLafarge excluded."
+    },
+    {
+      "path": "kb/research/sources/mining-niyamgiri-rs2015.md",
+      "action": "Retain sourceID and original13May2015 scope. Add fresh officialwebreader check ofQ1978(a)–(b), printed236–237/PDF238–239; no newbinary/pageimage orcurrentstatus claim."
+    },
+    {
+      "path": "kb/research/sources/niyamgiri-scstrti-fes-land-water.md",
+      "action": "Create descriptive primary-study source record, no invented formal covertitle/year. Acknowledgement:SCSTRTI commissioning,FES organisation; methodologyPDF70–71/printed49–50; rootaccountPDF134/printed113. Originalwebreader excerpts actuallysaved; directbinary404/screenshottimeout; no PDF/imagehash. Exploratory convenience sample throughDKDAChatikona,season/language/village limitations. Filename2015 not publicationdate. No diagram/image reuse or universality."
+    },
+    {
+      "path": "kb/research/references/data/mining-environment-rights.json",
+      "action": "If updatingNiyamgiri only, append datedXaxa source/access evidence and committee-reported interval with evidence_class clearlycommittee_account; keep signedresolutions/ministryorder/currentpermission gaps. Do not overwrite unrelated minecases or turn historical record into presentstatus."
+    }
+  ],
+  "source_capture_bindings": {
+    "anvesha/captures/scr.pdf": "7c391d59dbfb3ae858cfede2a2f435064a59f467407cb723352151ac208b6e3f",
+    "anvesha/captures/xaxa.pdf": "2379ec7a17759c1eb86c9f511ddc2b81a6dd1ff28172e4b33c67c2609bc2d4e2",
+    "anvesha/captures/scr-33.png": "44ae286e965886da74225d871310bbb8e2ee67b2261cba339e040c3917615b5f",
+    "anvesha/captures/scr-34.png": "2aeb1c2b1cd2a533cf89da20b0f4893aefdb274c3c3e14868b8d46f4099d1801",
+    "anvesha/captures/xaxa-353.png": "13ac74deccf6f0c6039b346192dec2b512afaa4e8e7000e2e84a05e2e38b8d65",
+    "anvesha/draft/captures/study-web-selected.json": "1f38c9250aaa94d9a01fae180bd326014f47f8a459cac997f69e5e673b639d64"
+  },
+  "preserve": [
+    "All frozen readiness/draft/review bytes; dated failures remainhistorical.",
+    "Same existingreadingroomroute; no duplicatedstory.",
+    "245Dhaga/75pending/cursors;programme134zero credit."
+  ],
+  "limits": [
+    "Read-only canonical/source parity; no new research/network/art or actual live verification.",
+    "Registry changes are proposed to coordinator, not applied by this agent.",
+    "Exact body check normalizes only citation markers; full independent draft approval remains referenced, not repeated."
+  ]
+}

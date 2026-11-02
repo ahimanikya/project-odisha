@@ -1,0 +1,37 @@
+{
+  "decision": "PASS_LOCAL_VISUAL_AND_DOWNLOADS",
+  "reviewer": "Drishti; separate AI review",
+  "tested_baseline": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "qualification": "Browser tested working implementation over baseline, not committed baseline page. Final artifact/header metadata binding pending.",
+  "bindings": {
+    "browser-review.json": "7e3f8660f619b8ecae77bbfc7a9d2dcb7b540ba7f6394154cf04407f944cdb50",
+    "text-download-review.json": "f18cf32fec67cd436b1c49af6a6745db23073db5989fce9431fb52e0a148ffac",
+    "desktop-opening.png": "c73c5ac9f68b7719d6cba6dfcb96eb000cf7566ca2f14eace65c435b37df3392",
+    "desktop-sources.png": "9e0c8de6076176147523e9a2ec2234c5a0df8923778880b8f7ecb6c5e7c3f270",
+    "phone-opening.png": "d9fe9880889fe4d0ddf1d4cdaca2047ec5dad065a15f38861ac89adb4c3671a0",
+    "phone-sources.png": "2fac394bbfbf39d88041a3c621c43ba655974d16a8dc8bf9f6911c1ad7b74d92",
+    "desktop-reading.html": "0ba21e441da3f88ff21f89a37a3bf5c09a9f40c7803a75cd0ea56feb1e816fd2",
+    "phone-reading.html": "0ba21e441da3f88ff21f89a37a3bf5c09a9f40c7803a75cd0ea56feb1e816fd2",
+    "desktop-reading.txt": "0afc5a3b431cbfd6916ef253ecd3983229513a40a7f331433ebff35b30aa1188",
+    "phone-reading.txt": "0afc5a3b431cbfd6916ef253ecd3983229513a40a7f331433ebff35b30aa1188"
+  },
+  "actual_viewed_images": [
+    "desktop-opening.png",
+    "desktop-sources.png",
+    "phone-opening.png",
+    "phone-sources.png"
+  ],
+  "actual_checks": [
+    "Individually viewed four1440x900/390x844Chrome screenshots: readablecolumn/nooverlap/clipping, fourexpandednotes.",
+    "Parsed bothactualHTMLdownloads and bothTXTdownloads:eight exact paragraphs once,four concise titles/URLs,no fullnotes,correct article route.",
+    "Visible notes preserve undatedstudy,court-stage and uninspectedresolutions limits; no duplicatelead; desktopfourFurtherreadinglinks visible.",
+    "ActualChrome report records12native note-returnpairs,total,Save/reload and nooverflow; reviewer did not repeat interactions."
+  ],
+  "findings": [],
+  "limitations": [
+    "LocalheadlessChrome only,notlive/physicalphone/AT/Firefox/WebKit/humanreview.",
+    "Download articlehref correctly uses testedlocalhostorigin; actualproductionorigin must be checked inlive downloads. Initial reviewer expected productionorigin and assertion failed; corrected expectation,no productchange.",
+    "Fourselectedscreenshots do not show everyparagraph; completeness independently checked inactualdownloads.",
+    "Metadatafix/finalgates/fullcoastpublicationparity pending,no finalrelease verdict."
+  ]
+}

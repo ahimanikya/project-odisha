@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-02T03:51:50.236046+00:00",
+  "status": "PASS",
+  "results": [
+    {
+      "args": [
+        "tools/check_bundle.py"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1867,\n  \"local_links\": 8050,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "tools/catalog.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "Whole-project catalogue current: 1867 concepts\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "tools/editorial/build_workbench.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 580}, \"mode\": \"check\"}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "tools/check_team_assignments.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "tools/check_autonomous_program.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: autonomous program count and linked delivery records\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "tools/editorial/article_rollout.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"completed\": 162, \"excluded\": 491, \"in_progress\": 1, \"queued\": 283}, \"errors\": []}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "tools/registers.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "POD: valid; 1209 records, 697 events; dashboard current\n",
+      "stderr": ""
+    }
+  ],
+  "correction": "Historical original Markdown retained as exact .txt archive so old relative links do not create live KB concepts; initialfailure retained."
+}
