@@ -187,3 +187,8 @@ One reviewed effort-and-gem saying and original illustration extend the244-readi
 ### 2 November 2026 staged 249-reading edition
 
 Four reviewed sayings and their original illustrations extend the245-reading edition to249 readings. Earlier entry prose and artwork remain unchanged. The taṇḍa source for248 is lexical context only, not another witness to the saying. Historical source cursors and75 unresolved concordance positions remain unchanged.
+
+
+### 3 November 2026 staged251-reading edition
+
+Two reviewed sayings and their original illustrations extend the249-reading edition to251 readings. Earlier entry prose and artwork remain unchanged. Sources212713 and227729 provide lexical context only, not additional saying attestations. Critical counterreadings are editorial; historical source cursors and75 pending positions remain unchanged.

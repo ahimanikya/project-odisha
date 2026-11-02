@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 941. completed: 163, excluded: 495, queued: 283.
+Route inventory: 943. completed: 163, excluded: 497, queued: 283.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -965,3 +965,5 @@ Route inventory: 941. completed: 163, excluded: 495, queued: 283.
 | POD-EDIT-DHAGA-247-20261102 | [ଦଦରା ଡ଼ଙ୍ଗା, ମଝି ନଈରେ ଦେଲୁ ଦଗା](https://projectodisha.org/dhaga/sayings/pod-dhaga-247.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-248-20261102 | [ଷାଠିଏ କାହାଣ ତଣ୍ଡକୁ ଅଛି, ହରି ଭଗତିକି କଡ଼ାଏ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-248.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-249-20261102 | [ମୁଁ ଖାଇ ନାହିଁ, ପାଟି ଖାଇଚି ନିୟାମ କରିବା ଆସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-249.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-250-20261103 | [ଲଙ୍କା— ଗଡୁଁ ଯେତେକ ଜାତ, ସମସ୍ତେ ଅସୁରଙ୍କ ସୁତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-250.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-251-20261103 | [ଶତିକଈ ପୁରସ୍ତମ ଗଲା, ତୁଣ୍ଡ଼ କଥା କହି କହି ମଲା](https://projectodisha.org/dhaga/sayings/pod-dhaga-251.html) | excluded | standalone_dhaga_collection |

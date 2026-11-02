@@ -1,0 +1,113 @@
+{
+  "status": "PASS_SEPARATE_LOCAL_PRODUCTION_REVIEW",
+  "decision": "PASS",
+  "reviewer": "Drishti — separate AI review, not human review",
+  "input_head": "cceb1b4526ebe14d5dc88a1c506565e658c78378",
+  "scope": "Output-only staged251 local illustrated book; no canonical acceptance, publication or programme credit.",
+  "pdf": {
+    "pages": 160,
+    "bytes": 90424061,
+    "sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf"
+  },
+  "installation_manifest_sha256": "4bdb9e3b8b053d4db70c0918df221ac90773d8edc53fe8ac57c13f954d00abeb",
+  "bindings": {
+    "production/samanta.json": "155ae89bef4e86ca226edd0ebf7138e1c7c30244d88d95ae124e49b62e13f50d",
+    "production/installation-manifest.json": "4bdb9e3b8b053d4db70c0918df221ac90773d8edc53fe8ac57c13f954d00abeb",
+    "production/page-map.json": "161b7d8b4169990e3433c320b746518d43519791b14416a3d86889d53831095e",
+    "production/preservation.json": "6142af0b6fc3b522b0fe555b48e4c930e65a15fa2bc7ff04521a66d09fedb86e",
+    "production/lexical-note-check.json": "921c127ba0f9fd171c9fcc990fc9d7d4cd9d830a754e749cad32165496825ff0",
+    "production/generator.diff": "b1d893164252e41a1325973f207d19145c33be8243e14980f6cb48030c6218fd",
+    "production/test-fixture-policy.json": "7079e5e7669468791bf26ef991b5901c7f569007fd34404e0293f97cecbd0bce",
+    "production/test-fixture-copy-failure.json": "73855e9d4f01bc427539c61051fff68fd652e4f1b938ba0136d11e33541e3b81",
+    "production/metadata-binding-recovery.json": "b6d2be445b88d2cb34220b8a6dbb72ad53cced2ca971743af737cb89f500dadd",
+    "production/finalize-initial-ligature-check.log": "bb6a31147c10ab31be6a3f57ea192c50bb50efb14b961f1517dd5f5e030a8540",
+    "drishti/art-review.json": "732904ffc0fbe1c9e7ebf367714f0eb8375513e7795ab186414de71a4301d8b3",
+    "drishti/preparation-review.json": "5c299be71f63c368ad05e3e8e8871eb6e3f4a67e41b4b830712c63ebf0cf5293",
+    "drishti/reviewer-tests.log": "f154c7f01290a388e49d8a3c14bcaf032d98e73b003de713cd144ec9470f2d22",
+    "drishti/independent-checks.json": "a48580010bf399e756cf2249abd5a52f24f63eae06497450be06fd100a2dd2f7",
+    "production-handoff.json": "af135dd752eec375131184053d82a82a32beb25ab737579fcca635d2019bceb8"
+  },
+  "actual_visual_review": {
+    "method": "Individually opened all28 final pdftoppm PNGs through image viewer at supplied1404px maximum dimension; no contact-sheet-only inference.",
+    "pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      29,
+      30,
+      31,
+      51,
+      52,
+      53,
+      61,
+      74,
+      93,
+      116,
+      132,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160
+    ],
+    "new_entries": {
+      "251": 30,
+      "250": 52
+    },
+    "lexical_note_pages": {
+      "227729": 154,
+      "212713": 155
+    },
+    "findings": [
+      "Both new reduced illustrations remain clear: equal book discussion and workbench group retain gestures/relationships without caricature. Captions explicitly identify imagined critical interpretation.",
+      "Both new entries fit normal columns with no visible clipping, collision or text-size reduction;140.8897638pt artwork exceeds130pt floor. No new full-width exception.",
+      "Complete note-only limitations are visibly printed beneath their lexical source on154/155; no full-saying attestation, independent corroboration, present-day traits, pilgrimage or actual death inferred.",
+      "Cover251 count, contents chapter starts, source rights/credits and affected neighbors reviewed; no blocking visual defect.",
+      "Inherited compact locator spacing and older copy spacing (for example source wording on245/011) remain visible; no new correction or source alteration made."
+    ]
+  },
+  "independent_checks": {
+    "decision": "PASS",
+    "baseline_files_rehashed": 1406,
+    "stage_files_rehashed": 1428,
+    "changed_files_verified": 284,
+    "prior_entries_metrics_exact": 249,
+    "lexical_notes_full_html_and_pdf": {
+      "dhaga-wiktionary-212713": 155,
+      "dhaga-wiktionary-227729": 154
+    },
+    "pdf_sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf",
+    "pdf_bytes": 90424061,
+    "pdf_pages": 160,
+    "render_hashes_verified": 28,
+    "producer_bindings_verified": 14
+  },
+  "independent_tests": {
+    "command": "Bundled Python3.12 -B -m unittest test_repository test_source_inventory test_transcription test_print_layout",
+    "result": "22 tests PASS in8.422s",
+    "fixture": "Reviewer-owned lean copy of production/test-repo; symlinks preserved only for immutable stage assets/PDF.",
+    "write_path_assessment": "Inspected test/build code: repository build writes copied collection/index/reader/sayings; malformed fixtures write temporary directories. Layout tests invoke in-memory packing, not PDF authoring. No tested write path targets linked assets/PDF. Symlinks are not OS-enforced read-only; complete stage hashes independently rechecked after tests."
+  },
+  "generator_review": "Compared staged build_print.py to canonical249: only four-line targeted Sources&Credits block renders existing no-wording witness notes for212713/227729, deduplicated per source. No narrative change or reading-unit layout change.",
+  "preservation": "All1406 canonical baseline files and1428 stage files independently rehashed;284 changed manifest sizes/hashes exact;249 prior entry/art bytes and seven unit metrics exact. New entry objects match frozen package after graphic-only removal. Coverage historical rows/source127 retained.",
+  "history_retained": [
+    "Producer initial full-copy ENOSPC and invalid incomplete-fixture tests are preserved, superseded by actual lean-fixture tests; reviewer did not duplicate full artwork/PDF.",
+    "Initial PDF text check failed on fi ligature; final check uses NFKC and whitespace normalization without changing PDF or weakening semantic content; actual notes also visually read.",
+    "Initial metadata-binding relative-path error occurred before write and is separately recorded."
+  ],
+  "limits": [
+    "No new source research or original-generation repeat; frozen preparation/art reviews reused.",
+    "28 selected pages visually inspected, not every one of160 pages; all251 layout bounds and prior249 metrics checked programmatically.",
+    "AI visual/editorial review only, no human, physical-print or assistive-technology review.",
+    "Approval applies only to exact staged local outputs and does not authorize or assert canonical installation, website deployment or publication."
+  ]
+}

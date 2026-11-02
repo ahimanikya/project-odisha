@@ -1,0 +1,101 @@
+{
+  "status": "PASS_RESEARCH_DRAFT_REVIEW_WITH_LIMITS",
+  "decision": "PASS",
+  "reviewer": "Drishti, separate AI review; not human Odia proofreading",
+  "input_head": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "scope": "Two actual draft proposals, ten original positions, three lexical captures and final technical/assembly evidence; output-only research readiness, no acceptance or publication.",
+  "bindings": {
+    "anvesha/candidates.json": "76cc49f616e6edda0172137ef7d782eb7f05aa87cf93f35bc202bd89760ce587",
+    "anvesha/report.json": "44aa2043712cdae048a1899d36602c013ed3acbe30874c8cdb6a4228270da025",
+    "anvesha/originals.json": "d6710b520f7eb1d2fa3c1f9fe85d97baa475420f1ca9daf05f98653d79e23d1d",
+    "anvesha/lexical.json": "46eba7ba15cfbf91c9d9ad58adcd13513a812c81e3e11b32eb40e6c0db1e39ff",
+    "anvesha/dispositions.json": "7b66e1272178c93156fc4650cbc1f46321205b96d620583180015c58bec3a1ff",
+    "anvesha/source-coverage.json": "a6136b355640d64dbdb4c092aae4a584a361126eed93b0d1c4619c806121bb2c",
+    "anvesha/source-word-budgets.json": "93cd080b6171e056b8a57305d6096c9281e793cc59c6caa9fe25ec1ae91aa4eb",
+    "samanta/report.json": "652a5ad64dae2c5f7e85f56a9b31a3e51e421ba9aa08fb50af117fc940896428",
+    "candidate-bundle.json": "4e5c182c3c8f90a97903f935a4da21a869f11d89c86db9244f4141bbe5b96fda",
+    "samanta/baseline.json": "8701f37d5933d4901c8f513f14af91047d23565a302cf1711bd72bf69b6e5671"
+  },
+  "actual_inspection": [
+    "Read all thirteen full saved text captures and both complete bilingual draft objects, exact witnesses, original examples, source registry, dispositions and word-budget ledger.",
+    "Read final Samanta report and validation implementation; independently executed drishti/check.py without executing the producer script or changing producer outputs.",
+    "Read canonical objects131,135,144,159,175,198,223 for semantic comparison, including bilingual meanings and examples."
+  ],
+  "findings": [
+    {
+      "candidate": "anvesha-b19-01",
+      "decision": "PASS",
+      "finding": "The literal wording retains the totalizing place/descent accusation. Both languages and the English summary mark the challenge to that accusation as our critical reading, rather than claiming an anti-prejudice traditional moral. The original team example demonstrates critical quotation, not endorsement. Mythological Lanka sense2 supplies limited lexical context, not present-day population evidence.",
+      "distinctness": "135 concerns pride/downfall;159 uses chilli imagery/private thoughts;144 states individual difference. Neither shared Lanka spelling nor the editorial counterreading makes this wording an exact variant of those entries."
+    },
+    {
+      "candidate": "anvesha-b19-02",
+      "decision": "PASS",
+      "finding": "The feminine satirical lying/talkative lexeme is supported by the primary head. Literal death/talking exaggeration is retained, with interpretation openly editorial. Purastama remains untranslated, and context discloses Puri/personal-name senses without inventing a pilgrimage, biography or actual death. The discussion example is expressly invented.",
+      "distinctness": "Distinct from131 unsalted talk,175 quarrel/lost meal,198 prestige over incoherent speech,223 reception changing by setting."
+    },
+    {
+      "scope": "eight deferrals",
+      "decision": "PASS",
+      "finding": "Reasons identify actual uncertainty: named shooting/event; money/address fragment; mango fragment; adultery clause context; childbirth address/time phrase; monkey/coercion segment; first-person sandal line; disability-directed taunt with quoted spelling discrepancy. No silent repair or generic moral supplied. Sensitive content alone is not treated as a prohibition."
+    },
+    {
+      "scope": "rights and source roles",
+      "decision": "PASS",
+      "finding": "Thirteen saved API/capture/revision pairs and captured CC BY-SA4.0 rights URL match. Four sources used by drafts, nine research-only. Same dictionary lineage, not independent corroboration. Creator credit is for documentation, not invention of sayings. Source-informed Project Odisha narrative credit retained."
+    },
+    {
+      "scope": "word budgets",
+      "decision": "PASS_WITH_METHOD_LIMIT",
+      "finding": "Independent whitespace recount170/177 matches ledger; adding titles gives174/183. Original imagined examples and stock metadata excluded as stated; duplicate witness storage is not additional unique quotation. Seven/eight unique quoted words. These are bounded editorial allocation counts, not a claim that every repeated physical token across JSON/provenance is below200."
+    }
+  ],
+  "future_integration_requirements": [
+    "Map212713 and227729 to visible note-only contextual citations without wording, not full-saying witnesses. context_source_ids alone is not sufficient if a renderer ignores it.",
+    "Retain critical-counterreading qualification in both languages and summaries; do not promote it into the source’s original moral.",
+    "Keep eight deferrals and historical B18 positions separate; no automatic canonical patches or count changes."
+  ],
+  "independent_checks": {
+    "api_capture_revision_matches": 13,
+    "exact_witnesses": 2,
+    "canonical_entries_checked": 249,
+    "baseline_files_unchanged": 1406,
+    "bundle_entries_exact": true,
+    "used_source_ids": [
+      "dhaga-wiktionary-131963",
+      "dhaga-wiktionary-142938",
+      "dhaga-wiktionary-212713",
+      "dhaga-wiktionary-227729"
+    ],
+    "research_only_count": 9,
+    "coverage_dispositions_exact": true,
+    "budgets": [
+      {
+        "candidate": "anvesha-b19-01",
+        "reported_fields_recount": 170,
+        "with_title": 174,
+        "unique_quoted_tokens": 7
+      },
+      {
+        "candidate": "anvesha-b19-02",
+        "reported_fields_recount": 177,
+        "with_title": 183,
+        "unique_quoted_tokens": 8
+      }
+    ]
+  },
+  "correction_history": [
+    "Inherited coverage label processed_this_batch was clarified to B18; final author report44aa2043 and coveragea6136b35 bound. Drafts unchanged.",
+    "Reviewer found old095e2661 assembly still carried earlier coverage/report. Root replaced coverage and bindings; independent equality checks now pass on4e5c182c. Historical bundle retained."
+  ],
+  "limits": [
+    "No fresh retrieval, printed facsimile inspection, origin/date/popularity determination or exhaustive cultural uniqueness claim.",
+    "Prior259-report search is independently reported by Samanta; reviewer independently checked current249 exact text/variant/witness comparison and seven nearest semantic objects.",
+    "No image, PDF, package, build, live browser or human review performed in this research task.",
+    "Canonical1406 baseline files independently hashed unchanged. Accepted increment0; programme credit0."
+  ],
+  "check_evidence": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch19/drishti/check-results.json",
+    "sha256": "094e9b99438c23342ce71e534a4118db85b5860d22a7b96ebe6a02e34b06daa1"
+  }
+}

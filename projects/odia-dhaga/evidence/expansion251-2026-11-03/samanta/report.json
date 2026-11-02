@@ -1,0 +1,113 @@
+{
+  "status": "PASS_TECHNICAL_PRIOR_PROCESSING_AUDIT_FOR_SEPARATE_REVIEW",
+  "input_head": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "author_bindings": {
+    "candidates.json": "76cc49f616e6edda0172137ef7d782eb7f05aa87cf93f35bc202bd89760ce587",
+    "report.json": "44aa2043712cdae048a1899d36602c013ed3acbe30874c8cdb6a4228270da025",
+    "dispositions.json": "7b66e1272178c93156fc4650cbc1f46321205b96d620583180015c58bec3a1ff",
+    "source-coverage.json": "a6136b355640d64dbdb4c092aae4a584a361126eed93b0d1c4619c806121bb2c",
+    "originals.json": "d6710b520f7eb1d2fa3c1f9fe85d97baa475420f1ca9daf05f98653d79e23d1d",
+    "lexical.json": "46eba7ba15cfbf91c9d9ad58adcd13513a812c81e3e11b32eb40e6c0db1e39ff"
+  },
+  "counts": {
+    "selected_heads": 10,
+    "fully_captured_saying_positions": 10,
+    "proposals": 2,
+    "deferrals": 8,
+    "additional_lexical_heads": 3,
+    "research_source_records": 13,
+    "used_source_records": 4,
+    "accepted_increment": 0
+  },
+  "checks": [
+    {
+      "key": "anvesha-b19-01",
+      "required_bilingual_fields": 13,
+      "exact_primary_and_variant_hits": [],
+      "exact_witness": true,
+      "editorial_counterreading_explicit": true
+    },
+    {
+      "key": "anvesha-b19-02",
+      "required_bilingual_fields": 13,
+      "exact_primary_and_variant_hits": [],
+      "exact_witness": true,
+      "editorial_counterreading_explicit": true
+    }
+  ],
+  "source_checks": {
+    "capture_api_revision_and_text_matches": 13,
+    "exact_position_texts": 10,
+    "rights_basis": "Captured project-level Wikimedia rightsinfo in originals.json CC BY-SA4.0; lexical pages from same project. No independently inspected printed facsimile.",
+    "used_sources": [
+      "dhaga-wiktionary-131963",
+      "dhaga-wiktionary-142938",
+      "dhaga-wiktionary-212713",
+      "dhaga-wiktionary-227729"
+    ],
+    "visible_note_only_required": [
+      "dhaga-wiktionary-212713",
+      "dhaga-wiktionary-227729"
+    ]
+  },
+  "prior_processing": {
+    "search": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-02/batch19/samanta/prior-processing-search.json",
+    "sha256": "2c2d593a794e3cff5f796e419abc7259160a9b419a6edad87f298fa89b9edd57",
+    "finding": "259 prior noncapture JSON files screened. Four matching files are B18 discovery/next-position inventories, not prior full processing of these ten selected positions. No exact draft phrase found in prior processed reports. This is a bounded saved-corpus result, not a claim of exhaustive cultural uniqueness."
+  },
+  "semantic_comparisons": [
+    {
+      "candidate": "anvesha-b19-01",
+      "compared_ids": [
+        "POD-DHAGA-135",
+        "POD-DHAGA-159",
+        "POD-DHAGA-144"
+      ],
+      "finding": "Distinct quotation/family.135 concerns destructive pride and Lanka downfall;159 uses chilli imagery and private thoughts;144 says three named people differ. New source makes a totalizing descent/place judgment, while its explicitly editorial counter-reading challenges that judgment. Shared Lanka tokens or broad difference theme do not make an exact variant."
+    },
+    {
+      "candidate": "anvesha-b19-02",
+      "compared_ids": [
+        "POD-DHAGA-131",
+        "POD-DHAGA-175",
+        "POD-DHAGA-198",
+        "POD-DHAGA-223"
+      ],
+      "finding": "Distinct journey/talking/death exaggeration with explicitly gendered satirical lexeme.131 empty-talk salt metaphor,175 quarrel/lost-food consequence,198 authority validating incoherent speech,223 different reception by setting have different actions and imagery. No unchanged traditional moral of gender equality is attributed to the witness."
+    }
+  ],
+  "coverage": {
+    "next": {
+      "offset": 221,
+      "pageid": 68567,
+      "title": "ବାପ ଅମଳ",
+      "action": "Prior-processing check before any retrieval; discovery not a ready candidate."
+    },
+    "next_network_offset": 250,
+    "qualification": "Remaining discovery hits require prior-processing screening. Aliases identified only through snippets are not certified full-head identities and add no count. B18 processed/deferred positions remain historical."
+  },
+  "preservation": {
+    "baseline_files": 1406,
+    "unchanged_files": 1406,
+    "baseline_sha256": "8701f37d5933d4901c8f513f14af91047d23565a302cf1711bd72bf69b6e5671",
+    "canonical_entries": 249,
+    "public_delivery_claim": false,
+    "coverage_ledger_sha256": "e6c00e7993523e2b0d2443133a4fada3ffa1bd0da27149451ff431b6df63538d",
+    "source127_sha256": "02e72991d421a612af49418c4e3b46336169693bb13eb3928992890e64863d9d",
+    "historical_pending_and_cursors": "Unchanged exactly with all baseline files; no coverage count update."
+  },
+  "tests_run": [
+    "Hash/API/revision/text parity of13 saved sources",
+    "Exact primary/variant/witness comparison against249 entries",
+    "Bilingual draft schema and source references",
+    "Ten-position disposition accounting",
+    "1406 baseline hashes rechecked"
+  ],
+  "limits": [
+    "No retrieval, printed-scan inspection, build or canonical/Git writes.",
+    "Critical interpretations and imagined scenes are editorial rather than source-provided moral glosses.",
+    "Deferral reasons retain unresolved event/lexeme/agency/full-expression context; sensitive content alone is not treated as a prohibition.",
+    "No first author/date, popularity, independent corroboration or present-day community trait established.",
+    "Separate Drishti review required; no acceptance or programme credit."
+  ]
+}

@@ -251,6 +251,10 @@ def make_book(root=ROOT):
             blocks=[title,p(creator+(' · Dhaga '+', '.join(sorted(ids,key=int)) if ids else ' · Introduction'),'small')]
             if detail:blocks.append(p(detail,'small'))
             if locators:blocks.append(p('; '.join(locators),'small'))
+            # These new lexical references require their reviewed note-only limits in print.
+            if sid in {'dhaga-wiktionary-212713','dhaga-wiktionary-227729'}:
+                notes=dict.fromkeys(w['note'] for e in data['entries'] for w in e['witnesses'] if w.get('source_id')==sid and 'wording' not in w and w.get('note'))
+                blocks.extend(p(note,'small') for note in notes)
             if 'scert' in sid:
                 blocks.append(p('SCERT Odisha, 2024, p.139. Brief quotations retain separate source rights; not openly licensed.','small'))
             elif '1893' in sid:

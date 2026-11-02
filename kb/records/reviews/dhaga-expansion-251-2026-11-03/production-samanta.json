@@ -1,0 +1,95 @@
+{
+  "status": "LOCAL_PRODUCTION_FROZEN_PENDING_SEPARATE_REVIEW",
+  "input_head": "cceb1b4526ebe14d5dc88a1c506565e658c78378",
+  "stage": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/production/stage",
+  "pdf": {
+    "pages": 160,
+    "bytes": 90424061,
+    "sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf"
+  },
+  "entries": 251,
+  "new_layouts": [
+    {
+      "id": "POD-DHAGA-250",
+      "chapter": "Judgment & choices",
+      "original_image_height_pt": 159.7014735658043,
+      "image_height_pt": 140.88976377952775,
+      "image_scale_factor": 0.882207036877933,
+      "text_scale_factor": 1,
+      "column": 0,
+      "top": 0,
+      "height": 737.8897637795278,
+      "image_position": "above",
+      "layout": "two-column",
+      "measured_width_pt": 239.63779527559058,
+      "page": 52
+    },
+    {
+      "id": "POD-DHAGA-251",
+      "chapter": "Words & appearances",
+      "original_image_height_pt": 159.7014735658043,
+      "image_height_pt": 140.88976377952775,
+      "image_scale_factor": 0.882207036877933,
+      "text_scale_factor": 1,
+      "column": 1,
+      "top": 0,
+      "height": 737.8897637795278,
+      "image_position": "below",
+      "layout": "two-column",
+      "measured_width_pt": 239.63779527559058,
+      "page": 30
+    }
+  ],
+  "tests": {
+    "book_tests": 19,
+    "layout_tests": 3,
+    "result": "PASS",
+    "fixture_policy": "test-fixture-policy.json",
+    "fixture_limit": "Writable code/data isolated; assets and PDF linked read-only by inspected test behavior. No tests write linked assets or PDF."
+  },
+  "bindings": {
+    "book-tests.log": "6c2234add1e3769fbb03d04248e74e79a464c111c047ff1b74ae80dfd44c23e9",
+    "layout-tests.log": "921b60a7fd52e978fbb551cacd29df2d6708879400278e1fcc70fceeb0c6f8e0",
+    "measurements.json": "a5618028bbd091ad2db25c951ba51d7fd023849c54d930284949244d9ef11c9d",
+    "preservation.json": "6142af0b6fc3b522b0fe555b48e4c930e65a15fa2bc7ff04521a66d09fedb86e",
+    "page-map.json": "161b7d8b4169990e3433c320b746518d43519791b14416a3d86889d53831095e",
+    "installation-manifest.json": "4bdb9e3b8b053d4db70c0918df221ac90773d8edc53fe8ac57c13f954d00abeb",
+    "lexical-note-check.json": "921c127ba0f9fd171c9fcc990fc9d7d4cd9d830a754e749cad32165496825ff0",
+    "test-fixture-policy.json": "7079e5e7669468791bf26ef991b5901c7f569007fd34404e0293f97cecbd0bce",
+    "test-fixture-copy-failure.json": "73855e9d4f01bc427539c61051fff68fd652e4f1b938ba0136d11e33541e3b81",
+    "generator.diff": "b1d893164252e41a1325973f207d19145c33be8243e14980f6cb48030c6218fd",
+    "metadata-binding-recovery.json": "b6d2be445b88d2cb34220b8a6dbb72ad53cced2ca971743af737cb89f500dadd",
+    "finalize-initial-ligature-check.log": "bb6a31147c10ab31be6a3f57ea192c50bb50efb14b961f1517dd5f5e030a8540",
+    "initial-space-fixture-book-tests.log": "005c0ecf97bd58a7f14b539e4f0400c448a108865ba42f27ec9201e5f3b5b9d4",
+    "initial-space-fixture-layout-tests.log": "7d59a8fbca92ef540f42b6883247c3844892d23f501b6cf2621d0e535813fb81"
+  },
+  "current_handoff_sha256": "af135dd752eec375131184053d82a82a32beb25ab737579fcca635d2019bceb8",
+  "historical_plan_handoff_limit": "Execution plan bound earlier coordinator handoff snapshot; current lifecycle handoff independently bound here.",
+  "manifest_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/production/installation-manifest.json",
+  "changed_product_files": 284,
+  "rendered_pages": 28,
+  "art_review_sha256": "732904ffc0fbe1c9e7ebf367714f0eb8375513e7795ab186414de71a4301d8b3",
+  "generator_delta": "Only print Sources&Credits adds existing note-only notes for212713/227729; no other reading/layout change.",
+  "pdf_marker": "Successfully run once immediately before first PDF authoring command; measurement-only hook produced no PDF.",
+  "limits": [
+    "No canonical/Git/site/publication changes or accepted increment.",
+    "Both250/251 measured column artwork140.8898pt exceeds130pt floor; no new fullwidth exceptions. Prior249 metrics exact.",
+    "Original selected art/provenance/rejected-version history preserved; no generation repeated.",
+    "Actual final PDF and reduced-art visual review remains separate Drishti gate."
+  ],
+  "preserved_failure_history": [
+    "Initial full test fixture copy exhausted disk; only incomplete own test-repo removed with coordinator authorization.",
+    "Initial partial-fixture test logs retained; final successful tests used complete lean fixture.",
+    "Initial PDF note extraction comparison encountered a fi ligature; final comparison uses NFKC and whitespace normalization without changing PDF.",
+    "Initial metadata path failure retained; corrected metadata binding before final validation."
+  ],
+  "producer_visual_check": {
+    "actually_viewed_pages": [
+      30,
+      52,
+      154,
+      155
+    ],
+    "result": "No visible clipping or readability blocker; both full lexical-only notes visible. Separate reviewer must inspect final mapped set."
+  }
+}
