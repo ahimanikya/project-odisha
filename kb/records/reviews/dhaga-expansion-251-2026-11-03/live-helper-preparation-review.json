@@ -1,0 +1,52 @@
+{
+  "status": "PASS_PREPARED_OFFLINE_HELPERS_ONLY",
+  "decision": "PASS",
+  "reviewer": "Drishti, separate AI review",
+  "bindings": {
+    "producer_report": "7fa405f54ef05a007dc30d9c3d81c76e05e9c8bd3479c6dd274a2dd7143a4094",
+    "plan": "0f915c522cdd7f2b6d6eed4f297248ae449ddc0e473f7f5282ff7762deda9738",
+    "all_producer_files": {
+      "adaptation-history.json": "12743fae4917dab5d3e6c2331bddba6f10c2fd07e9cb164b95acdf686df5d28b",
+      "baseline-public-assets.json": "bdaa6c96763b13814bfb207b96a84c0e472f2eac5213ca607d763598500ae02d",
+      "deployment_guard.py": "c640181adfaad70ca74c42b3c39c74c51b6e11eba27179e4a37695d71332f195",
+      "freeze-local-baseline.py": "bcb83906c969c8a45ff214a0b38880107f3dd4f50e3bf7f148ad6cf793603e35",
+      "known-image-pairs.json": "7925f5f6e5854c4297c147b9c43aa9a696617f85dd7c6beca4b4a6dcae422214",
+      "known-responsive-pairs.json": "71e09f0f9ce6127700e00b3508e3431db23f17340005b17a4bd176e478eb3c40",
+      "offline-tests.json": "cccd8ce5f94e308cfadd92379afc22ca01280164bbb3cfd65b7e7b613b91c8f9",
+      "optimized-runtime-tests.json": "5fa6333c300074881f5b807407944ee8e3e7b145543fd0cfeec71eb8e83bc262",
+      "plan.json": "0f915c522cdd7f2b6d6eed4f297248ae449ddc0e473f7f5282ff7762deda9738",
+      "prepare-candidate.py": "7f28c1172d92cfa50538dbe05ecfd501cd83bd16e47c0b2513d0f0ef33040ddf",
+      "prepare-sync.py": "fe53568d1c8de6c5253af83c99e64555709c013ef4982b98530e935883543878",
+      "prior-source-allowlist.json": "f56a4d01421eb8b126c8e51eef86520eb0e9296d935bb77822d19953056f08ed",
+      "sync-local.py": "dd71632722e83efb3f7b250be23461e3516b490a95993be015da1bd7551bb693",
+      "test-guard-offline.py": "8b31fd56fc8cad29c22a35c4e89be6786e966964d5e260b135af9dc549b71429",
+      "test-optimized-isolated.py": "2f2785fc25f989d2b76fe43dd6981e09f73d8657b2c79872901afc3594d122a2",
+      "verify-companion-main.py": "8f039ced6eac1dab58cdf4aa7774c190e2ac394c5d03274159de9fff236f7370",
+      "verify-live.py": "af25ede3263637033d745c3ba43103691ee5860efdf12cc5f3ec2a31497832fb",
+      "verify-supplemental-live.py": "be3907bde1466de64e1fb8264252d316bbd4f6d6689f03a9ecfd5203789d7d5d"
+    },
+    "independent_optimized_tests": "ae83d16a9b4c3e47ad20b4fc573e518df061b2733c2913205f80775901c56146",
+    "independent_ordinary_tests": "906373496a5a8c2313aeac7d65a4c638ab0162febe2afcdabc7539989fa1c6ca",
+    "execution_log": "8a449a74fffbe43b84872c6d4b4b4b4905c52cf645e88dbd7f8df131108482a0"
+  },
+  "actual_checks": [
+    "Read deployment guard, candidate/sync preparation, baseline freeze, three live verifiers and local sync code.",
+    "Independently verified all18 producer file bindings,21 exact known image pairs and29 responsive pairs; final candidate/deployment/review fields remain null.",
+    "Independently executed copied isolated suite:18 optimized-mode early refusals with/without authorization,16 ordinary complete-positive/negative/pending cases. No actual helper network, local-reader copy or baseline freeze executed.",
+    "Runtime optimized-Python rejection now precedes all work; environment authorization explicitly raises for live/sync/baseline capture.",
+    "Candidate preparation requires exact-head PASS/hash/manifest/PDF pin/hash/bytes/pages and preserves prior255assets. Local baseline capture requires delivered249products/current reviewedhead; sync excludes evidence/ledgers/HANDOFF and protects all baseline extras.",
+    "Live reader uses exact bytes or both prior pair hashes, retains raw mismatches; supplemental checks actual index PDF link/bytes/hash/sitemap/holds/internal404; companions require29 exact pairs/nonempty catalog and qualified main-content equality.",
+    "Sync requires actual deployment/live/browser/separate-review bound gates, source sizes/hashes, baseline equality, backup and post-test product/PDF/extra checks."
+  ],
+  "history": "Static review found assert-only optimization bypass exposure in these prepared helpers. Originals/report/tests preserved in history-before-optimized-runtime-guard. Corrected here before any live/sync execution; separate installation incident remains separately documented and is not erased.",
+  "required_future_gates": [
+    "Bind actual final candidate manifest/review/PDF/counts after site review; freeze real current local baseline only with explicit authorization.",
+    "Preserve candidate plans and rebind plan hash after actual successful approved deployment; explicit root authorization before any live verification.",
+    "Actual live/browser/separate review PASS plus explicit authorization before local sync."
+  ],
+  "limits": [
+    "Prepared-code/offline review only; not final site, deployment, live or sync approval.",
+    "Synthetic positive fixture proves guard path, not real deployment.",
+    "No new network/source retrieval, canonical edits, builds or production review repeated."
+  ]
+}

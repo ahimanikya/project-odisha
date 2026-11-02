@@ -5,7 +5,7 @@ import {resolve,basename} from 'node:path';
 import {createHash} from 'node:crypto';
 import sharp from 'sharp';
 const site=fileURLToPath(new URL('../',import.meta.url)),book=resolve(site,'../odia-dhaga');
-export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/27e55bf79c1d35ca5f5c9ab0a2b039416a6d8518/projects/odia-dhaga/odia-dhaga-book.pdf';
+export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/221fb5b199562671a38dd5e2d9abb2e2c7066641/projects/odia-dhaga/odia-dhaga-book.pdf';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function publicSourceCredit(source){
  const url=new URL(source.url),revision=url.searchParams.get('oldid');
@@ -91,7 +91,7 @@ export async function exportDhaga(destination){
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- //249 readings retain all prior245 derivatives and new640px/q60 art.
+ //251 readings retain all prior249 derivatives and new640px/q60 art.
  //Measured28.59MB full export; bounded29MB preserves prior assets and new640px/q60 art.
  if(bytes>29_000_000)throw Error('Dhaga web export exceeds29MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};

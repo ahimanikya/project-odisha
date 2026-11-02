@@ -136,3 +136,15 @@ test('249 edition retains exact new prose and248 lexical-only source role',()=>{
  for(const id of ['246','247','248','249']){const e=data.entries.find(e=>e.id==='POD-DHAGA-'+id);assert.ok(e);const h=read('sayings/pod-dhaga-'+id+'.html');assert.ok(h.includes(esc(e.explanation)));assert.ok(h.includes(esc(e.meaning_odia)));assert.ok(h.includes(esc(e.graphic.caption)));}
  const e=data.entries.find(e=>e.id==='POD-DHAGA-248'),w=e.witnesses.filter(w=>w.source_id==='dhaga-wiktionary-216767');assert.equal(w.length,1);assert.ok(!('wording' in w[0]));assert.match(w[0].note,/Lexical context only/);const h=read('sayings/pod-dhaga-248.html');assert.ok(h.includes(esc(w[0].note)));assert.ok(h.includes('oldid=216767'));
 });
+
+
+test('251 edition visibly retains both lexical-only notes and exact critical commentary',()=>{
+ for(const [id,sid] of [['250','212713'],['251','227729']]){
+  const e=data.entries.find(e=>e.id==='POD-DHAGA-'+id),h=read('sayings/pod-dhaga-'+id+'.html');
+  const notes=e.witnesses.filter(w=>w.source_id==='dhaga-wiktionary-'+sid);
+  assert.equal(notes.length,1);assert.ok(!('wording' in notes[0]));assert.match(notes[0].note,/Lexical context only/);
+  assert.ok(h.includes(esc(notes[0].note)));assert.ok(h.includes('oldid='+sid));
+  for(const field of ['explanation','meaning_odia','cultural_context'])assert.ok(h.includes(esc(e[field])),id+': '+field);
+  assert.ok(h.includes(esc(e.graphic.caption)));
+ }
+});

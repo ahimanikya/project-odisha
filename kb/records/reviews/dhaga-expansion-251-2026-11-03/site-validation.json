@@ -1,0 +1,180 @@
+{
+  "status": "PASS_ALL_LOCAL_SITE_GATES",
+  "order_note": "Shortlist ran after launch and before publication; consumed ignored .search-review hash manifest preserved before authorized removal. Coast completed by exact export/finalize continuation after Astro passed.",
+  "gates": [
+    {
+      "name": "full-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/full-build.log",
+      "log_sha256": "1a6fc6dc20b8e9ae57a40875bfff925b6c4aa265705a21b9eecefff9516f134d",
+      "recovery_note": "Exit0 observed in runner terminal before subsequent coast ENOSPC; duration unavailable."
+    },
+    {
+      "name": "full-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/full-disclosures.log",
+      "log_sha256": "9ec00f9360c8f0be5c247ea2a7fb75c88f7a66e925e9f6eb2264aefac312868f",
+      "recovery_note": "Exit0 observed in runner terminal before subsequent coast ENOSPC; duration unavailable."
+    },
+    {
+      "name": "full-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/full-tests.log",
+      "log_sha256": "6bc5491969abb755d4a9a0a9db10b39b95606df807dbc03eb5612d1d7c3feecb",
+      "recovery_note": "Exit0 observed in runner terminal before subsequent coast ENOSPC; duration unavailable."
+    },
+    {
+      "name": "coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "command_execution": "Split continuation; no Astro repeat",
+      "parts": [
+        {
+          "name": "coast-export-continuation",
+          "command": [
+            "node",
+            "tools/export-dhaga.mjs"
+          ],
+          "exit_code": 0,
+          "seconds": 38.63,
+          "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/coast-export-continuation.log",
+          "log_sha256": "06c03c465cd1ee52e673637e0b7edc14a5fba66cbbdcf25a5ebd9c2a9bc17d03"
+        },
+        {
+          "name": "coast-finalize-continuation",
+          "command": [
+            "python3",
+            "tools/finalize-edition.py"
+          ],
+          "exit_code": 0,
+          "seconds": 35.4,
+          "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/coast-finalize-continuation.log",
+          "log_sha256": "4e182573bb3b097a6fe8915af423fe5bed49bfb54320c9ab79e0966ab041ce90"
+        }
+      ],
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/coast-build.log",
+      "log_sha256": "d2a50f2db2051553d76c42115a37b3be70d2e4671173dae87ecac3aa24189e99"
+    },
+    {
+      "name": "coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 4.09,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/coast-disclosures.log",
+      "log_sha256": "00a524dbe1389249369e7b46abc1b14a0f6694186761b6d5d494ab736812f29e"
+    },
+    {
+      "name": "coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 15.29,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/coast-tests.log",
+      "log_sha256": "e1ad5ee30d789b43c4d762b9097b147dc8c8c8a1276dc132cefcdfeb545454e5"
+    },
+    {
+      "name": "acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 21.41,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/acceptance.log",
+      "log_sha256": "655bc8b8493ae9a05e3fb97c4bfbb79b8a25a12e63b9b929a038b1507e58f1d8"
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 6.06,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/discovery.log",
+      "log_sha256": "f11981499d9935ea8ab1f5a9400b72bb8bb3a20512616fc148481e3e7f188d3c"
+    },
+    {
+      "name": "search-preparation",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 8.12,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/search-preparation.log",
+      "log_sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "name": "launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.23,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/launch.log",
+      "log_sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "name": "shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.16,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/shortlist.log",
+      "log_sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    },
+    {
+      "name": "publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 246.91,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/publication.log",
+      "log_sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    {
+      "name": "publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.49,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/site/publication-disclosures.log",
+      "log_sha256": "872c14c407ed6423c1998c73c44133a5baa40102e15be5d3187e2a8bcd6db149"
+    }
+  ]
+}
