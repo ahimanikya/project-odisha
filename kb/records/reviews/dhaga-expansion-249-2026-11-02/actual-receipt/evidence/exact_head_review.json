@@ -1,0 +1,186 @@
+{
+  "decision": "PASS",
+  "status": "PASS_QUALIFIED_LOCAL_EXACT_HEAD_REVIEW",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_head": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "base": "49f14468595f9bc6ffc464d964526ef2df9ea57f",
+  "pdf_ancestor": "27e55bf79c1d35ca5f5c9ab0a2b039416a6d8518",
+  "bindings": {
+    "candidate-manifest.json": "cbb7f5d79145ad3d105d5f081c1f60be8059238f74a2c93fb0262768d72bff1a",
+    "site/samanta.json": "4b21cd079fcd27746fe3e98fb723ddbeabec989483165b0b9b5450cec142963e",
+    "site/validation-site.json": "ab741dffe82ef1ae539edcb8450071d1274487b3dd88cc7c880e29a6acf5690b",
+    "site/final-parity.json": "e8927a296e44fe3d3ac7f016fa5da25465ba0456fd545a7bab8794b26a0a4035",
+    "site/browser-review.json": "77503880c0cd7b3d78018a86f8774adcd7494e4fa864ffb4c6b406c382f3479a",
+    "site/mobile-note.json": "f6a794b7ce5591fb15fbf531fd7a8cf3c59340bba9c58ef629e07451c73a9570",
+    "site/browser-product-binding.json": "0123238ce2c86d63aaf8cba454c1451278cae212f36240072fcdcb6fbb6e8872",
+    "site/final-candidate-source-binding.json": "df484ad37f98b82b21d9028bc66181573190f4c2ff77ee466086754238daf82f",
+    "site/prior245-public-assets.json": "1c593d733a8240c0d0e8393af58ede8d8e615d698a64e1d64cb1d6fbaae8e64f",
+    "site/budget-measurement.json": "a1cb0b26685bfd43a486f5d2db2069faa2fe32ca9077f56a86241e8cb3368fe4",
+    "integration/immutable-pdf-verification.json": "3a8a53d9a69dbdf47fe1bae94733c456be8c00c3010ce5e99055d564ba84a0db",
+    "release-review/visual-progress.json": "6bf518a385f7f4ffdc8d10b622733cee28a7abd9f2ff5f9a87afb276666222ed",
+    "release-review/integrated-progress.json": "58cc27715a0e55a9133d2554de91c0a54981ef05b3b029b349a01ae3734c03ae",
+    "release-review/exact-progress.json": "b17239302b0a9d889f2794056795b4076d897ae8598e685b8ebf04ae31f898b4",
+    "release-review/exact-diff-check.log": "9ac692bfe6f2465e1c52da1dc70d4041a2877971bfa977df9366f204d3dde6bc",
+    "drishti/production-review.json": "9d26fff67adc0dbbedac33c1e2d0493d3889247660585f31486844cedf9f14cd",
+    "production/installation-manifest.json": "cdba7cfe93cd2dbbbd3b8a91bba4dfe4b4d63a82d1f2b8c212adf2e802bd45c5"
+  },
+  "checks": {
+    "committed_manifest_files_hashes_sizes_exact": 304,
+    "installed_reviewed_products_exact": 1406,
+    "prior_rollout_objects_exact": 937,
+    "new_exclusions": 4,
+    "editorial_counts": {
+      "completed": 163,
+      "excluded": 495,
+      "queued": 283
+    },
+    "programme_completed_unchanged": 134,
+    "independent_record_checks": [
+      "rollout",
+      "programme",
+      "team",
+      "bundle",
+      "workbench"
+    ],
+    "site_gates_exit0_and_log_hashes_exact": 13,
+    "full_tests_reported": 691,
+    "coast_tests_reported": 544,
+    "actual_screenshots_individually_viewed": 25,
+    "actual640px_derivatives_individually_viewed": 4,
+    "prior_public_assets_rehashed_each_edition": 251,
+    "browser_tested_reader_hashes_exact_final_full": 5,
+    "site_source_hashes_exact_final_head": 4,
+    "coast_publication_raw_exact": 255,
+    "coast_publication_robots_only_changes": 252,
+    "reader_files_each_edition": 507,
+    "reader_html_each_edition": 252,
+    "entry_fields_reported_exact_each_edition": 1245,
+    "publication_bytes_reported": 700843122,
+    "indexable_pages": 11,
+    "pdf": {
+      "pages": 159,
+      "bytes": 89619161,
+      "sha256": "b86a2216391776780fac30d097188a52a14e7bbf286a78042f5a469af46e69d4"
+    }
+  },
+  "findings": [
+    "No blocking candidate defect found. Four new source-reviewed readings246–249 retain exact prepared prose/selected art;216767 is visible lexical-only context, with no second-saying claim.",
+    "All24 original screenshots and additional390px lexical-note screenshot actually inspected; responsive text, artwork and source credit readable. Four640px WebPs individually inspected; corrected247projector and249graycrumbs retained.",
+    "Actual Chrome report supports search Enter, native Sources disclosure, Browse return and previous/next keyboard.249 Last boundary shown. No per-source return anchor is claimed.",
+    "Browser working-ancestor label remains historical and honest. Five tested HTTP hashes match final full output; source binding matches committed four site files. Editions differ; all255coast nonHTML files byte-identical topublication and252HTML differ solely exact robots metadata replacement. Wholeedition byte equality is not claimed.",
+    "Authorized29MB threshold is supported by measured full28592430/coast28582098; even subtracting93706bytes of fournewimages leaves28498724/28488392 above28MB. Prior251 assets unchanged; overall1GBbound unchanged.",
+    "Current claim remains finite integration with publicdelivered245/zeroacceptedincrement/zeroprogrammecredit. Newfour routes are individually excluded utilities with search holds;11eligible unchanged. Immutable159page PDF pin/fresh-download report bound; no live delivery inferred.",
+    "git diff--check exit2 consists of retained frozen source-capture trailing whitespace and generated161/162 quotation whitespace. No normalization of source evidence or previously reviewed products performed.",
+    "Initial28MB export failures and browser open-state assumption are retained in producer history; subsequent actual13gates PASS. No failed remoteCI or successfuldeployment claim made."
+  ],
+  "actual_screenshots": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-246-art.png",
+      "sha256": "17719fccc8ba518da6b1daa98594758a4f2a542c94f2880452819bc9c3013eac"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-246-opening.png",
+      "sha256": "05e216ea73350f3444a106b5a3c53e2304e70786e884715eddc858bacab45a8c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-246-sources.png",
+      "sha256": "ff47eeac0fdfe73876754c87413e53830615878e2696e3991adcce0da7cb3603"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-247-art.png",
+      "sha256": "f55c01d2ea95a7500094735ec353d9e02a62144987de84aa68e272ad0f2c3793"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-247-opening.png",
+      "sha256": "c0db615c11bb51f79c5bcc60e8282dfc68e02ec2c2b6d7e668d4d8ffdde2afbb"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-247-sources.png",
+      "sha256": "79f98e37524991ae7ee79b2896800f4a387938808b2e2317397e91126821f329"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-248-art.png",
+      "sha256": "9639a7063deb161686038ed00566f5e2e0ff65ab87adae3804c4ba9d85db10d2"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-248-opening.png",
+      "sha256": "5e9f83e0237db9279954ddff0d7c3b1f572a5d615dfb50a78f7295b7888fb5c3"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-248-sources.png",
+      "sha256": "dd0ddb4386eb149821da5009beab7fdaa931f8e79cebd136f20dbff321c2d9d3"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-249-art.png",
+      "sha256": "fd2d8836158f1133756f017c66ca0972e3065dc72a6cee7e5f0d6da46389b698"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-249-opening.png",
+      "sha256": "bdeef5969d80bbcac3e66672fd44bb068351fc746cf065f5d8a1482e4d33d5e5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/1440-249-sources.png",
+      "sha256": "f52680b84a5191a097c4fe7cadc532eaae1b7a2eb086fe2690c9579226623283"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-246-art.png",
+      "sha256": "ccc072fc1a62f35ee8e4b72204ecf52cd6eb6ac89ac1804b739a827903265dab"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-246-opening.png",
+      "sha256": "f937a764bb2c3df1809731127d5cbfd2c23492fe71b635889fac3c70b495a02e"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-246-sources.png",
+      "sha256": "a4de69e226e15588da5a1593e775cf8790d16c3a0beaa61e60a5fc1924e3461c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-247-art.png",
+      "sha256": "fffe29e28936c93d3d4d524463959da469d946fcf2a78fd682396adc61c136f3"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-247-opening.png",
+      "sha256": "d5912075193bc4ada2955c9c7a1da6203894c21d2a33e49ede3431d8fcb8f9b6"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-247-sources.png",
+      "sha256": "cfdbe9792dbf428193856e03dc45735811b5532755f6061f2c3d7650b9a8de38"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-248-art.png",
+      "sha256": "f1e1fe751d9e41df6f20ef92952acf67249e1f466355302f0190fe2e5f238cf5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-248-opening.png",
+      "sha256": "52aa5d8057653b1a13976a95b74fcede857fd3ff0b9519bd5c6a7c79fa4287a9"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-248-sources.png",
+      "sha256": "c3f96e0c370acc0dc54d07f1b129cf2010efe3da1b3dbe81a6274bd00143cb9c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-249-art.png",
+      "sha256": "45c177b26c8940318612dd4d2b181faef97c71f5c1b153f3ed0a4ae9aa7f4df5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-249-opening.png",
+      "sha256": "924db6c7b04ea91161badd5b3f8e3bdf67e099aaabe72fa31201cc50e1a179de"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-249-sources.png",
+      "sha256": "ef8fc9da3af6cd603323bf911a722494ea8ab7fbdcdefa0ed07a70a8aca14015"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/site/390-248-full-lexical-note.png",
+      "sha256": "da40ad559a6b26dfc6ab4d193100819d4fb18b146a4cb05d12e1c041714bb8ce"
+    }
+  ],
+  "limits": [
+    "Local exactcandidate review only; remoteCI, deployment, liveverification and receipt release remain future gates.",
+    "Separate AI review; no human, assistive-technology, physicalphone or cross-engine review claimed.",
+    "Producer executed browser interactions/site suites; reviewer independently inspected pixels, artifacts, hashes, record checks and transformation parity.",
+    "Frozen production31page/art/source review reused without rebuild/research or additional wholePDF visual claim.",
+    "Mobile screenshot records390x900; no claim of physicalphone testing."
+  ],
+  "blockers": []
+}
