@@ -7,7 +7,7 @@ const entries=JSON.parse(read('../../kb/research/product/sounds-discovery.json')
 const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 for(const entry of entries)test(entry.id+' can continue through all reading paths with accurate current context',()=>{
  const html=read('dist-coast'+entry.href+'index.html');
- const chooser=entry.id==='prahlada-nataka'?html.split(/<section class="sound-reading-paths" id="reading-paths"[^>]*>/)[1]?.split('</div><p class="paths-note"')[0]:html.match(/<details class="sound-reading-paths" id="reading-paths"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+ const chooser=['prahlada-nataka','ghumura'].includes(entry.id)?html.split(/<section class="sound-reading-paths" id="reading-paths"[^>]*>/)[1]?.split('</div><p class="paths-note"')[0]:html.match(/<details class="sound-reading-paths" id="reading-paths"[^>]*>([\s\S]*?)<\/details>/)?.[1];
  assert.ok(chooser);assert.ok(chooser.includes('Continue your reading path'));
  assert.doesNotMatch(html,/<details class="sound-reading-paths"[^>]*\bopen(?:\s|=|>)/);
  const links=[...chooser.matchAll(/<a href="([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g)];

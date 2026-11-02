@@ -1,0 +1,167 @@
+{
+  "status": "PASS_ALL_LOCAL_SITE_GATES",
+  "gates": [
+    {
+      "name": "full-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 38.21,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/full-build.log",
+      "log_sha256": "6f23253ee29ac76f8f19e51170c9c1ab92ed990337397a554ab831eba27f9c05"
+    },
+    {
+      "name": "focused-ghumura",
+      "command": [
+        "node",
+        "--test",
+        "tests/ghumura-editorial.test.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/focused-ghumura.log",
+      "log_sha256": "fbdc8ad4c22750a31c5ca5ee5cc6766bb42eb64fcc9f4da9fa5161f87d570011"
+    },
+    {
+      "name": "full-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "seconds": 1.34,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/full-disclosures.log",
+      "log_sha256": "72888aa8db8d7f7bab8a0a534a1958109703a91c407fa65335e776757d7bc91d"
+    },
+    {
+      "name": "full-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "seconds": 14.54,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/full-tests.log",
+      "log_sha256": "35a6b3774496a738a35988a7f495815460d1195bed6a169107a9caab2b10c917"
+    },
+    {
+      "name": "coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 50.25,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/coast-build.log",
+      "log_sha256": "c20020c08c81d804bf9ef44c78e749a6d9bcb9d9089bd6acf349acc858991f0e"
+    },
+    {
+      "name": "coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 1.1,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/coast-disclosures.log",
+      "log_sha256": "823bc3058f9c3d9afc83217d7a473d977cc8fdb7f5fe9e70c3839723c9dcea88"
+    },
+    {
+      "name": "coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 5.5,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/coast-tests.log",
+      "log_sha256": "4b3e49cb500c388dbe3784419cc74bd879325d6a6d5ee0b6539c8958f1e0bad1"
+    },
+    {
+      "name": "acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 5.77,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/acceptance.log",
+      "log_sha256": "d638472f7c26f11fdd0baef7ba005015b6652d738db918cafd093913675de9c6"
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.84,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/discovery.log",
+      "log_sha256": "7e47023a83e9141311060776debb8c52cb4fa63d330590ebd7ed49ab98ba2d58"
+    },
+    {
+      "name": "search-preparation",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 4.99,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/search-preparation.log",
+      "log_sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "name": "launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.18,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/launch.log",
+      "log_sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "name": "publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 242.18,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/publication.log",
+      "log_sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    {
+      "name": "publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.47,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/publication-disclosures.log",
+      "log_sha256": "d791dc895fc47b1cd3edd93dd3d0388f37fc8bad61498e16930f7e3803a335a0"
+    },
+    {
+      "name": "shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.08,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/samanta/shortlist.log",
+      "log_sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  ]
+}
