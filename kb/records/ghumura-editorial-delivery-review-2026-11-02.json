@@ -1,0 +1,65 @@
+{
+  "decision": "PASS",
+  "status": "PASS_ACTUAL_LIVE_EVIDENCE",
+  "reviewed_head": "65cea75cb3a7d49fe8c9680898e8e6f244a90a89",
+  "deployed_merge": "1219ccd353ec5e6142bb8de955daad667b350f2e",
+  "deployment_id": 41370201443,
+  "reviewer": "Drishti; separate AI review",
+  "evidence_bindings": {
+    "live_http": "88d522e167cb49fc92ffe23e619e1f8267230f9b88fc60d2b3b1fc61001d2415",
+    "live_browser": "5f4eb32cd3995d81aafbe3a0f154ce46de589f5985e766f0157d430e0aa38a31",
+    "raw_browser": "ade5ef6ba2ae640d2a6644fbfb81d56703cad376c3eb59d6b18c5f739cd0731a"
+  },
+  "actual_viewed_images": {
+    "desktop-opening.png": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/live/browser/desktop-opening.png",
+      "sha256": "bdf7a142ac0a655d96cb4f1bd257dc99febb9a4ec3810fa5ba7912e7f74fbbfa",
+      "bytes": 78348
+    },
+    "desktop-sources.png": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/live/browser/desktop-sources.png",
+      "sha256": "c45782cc93bbec46e588fc60de2383392f266aa9fdee38ede838f247adfd844c",
+      "bytes": 109057
+    },
+    "phone-opening.png": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/live/browser/phone-opening.png",
+      "sha256": "7cdc931a16cabf923c1dad541d0cdb62a20a458bfe031166a19320079464e323",
+      "bytes": 61650
+    },
+    "phone-sources.png": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/live/browser/phone-sources.png",
+      "sha256": "6b4470f5edeaabf2e0fb31a4f919076eaee88b50db9fdb8585c352662f818a35",
+      "bytes": 88974
+    }
+  },
+  "actual_downloads_parsed": {
+    "desktop-reading.html": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/live/browser/desktop-reading.html",
+      "sha256": "df62594409ace35e62278c6cff282bb02d0b39e92042b03d99ea66d06f6c2d13",
+      "bytes": 9898
+    },
+    "phone-reading.html": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ghumura-editorial-2026-11-02/live/browser/phone-reading.html",
+      "sha256": "df62594409ace35e62278c6cff282bb02d0b39e92042b03d99ea66d06f6c2d13",
+      "bytes": 9898
+    }
+  },
+  "checks": {
+    "four_actual_live_screenshots_individually_viewed": true,
+    "visual_readability_no_overlap_or_clipping": true,
+    "both_downloads_11_body_paragraphs_5_full_notes_6_source_urls_exact": true,
+    "all_media_and_http_capture_hashes_verified": true,
+    "reported_actual_native_note_return_pairs": 16,
+    "reported_save_reload_both_viewports": true,
+    "http_112_prior_catalog_siblings_and_entire_expected_public_catalog_exact": true,
+    "http_8_references_returns_noindex_follow_sitemap_exclusion_and_explore_link": true
+  },
+  "findings": [],
+  "limits": [
+    "Actual live screenshots inspected and downloads parsed; interactions performed by separate actual Chrome helper, not manually repeated by reviewer.",
+    "1440 and390 headless Chrome viewports, not physical phone, human review, assistive technology or Firefox/WebKit.",
+    "HTTP paragraph/note comparisons normalize whitespace and omit citation/return markers; no whole live HTML byte-identity claim.",
+    "Deployment identity bound from saved successful deployment record; browser local tested_head identifies expected schema checkout, not independent remote Git lookup.",
+    "No repeated original source research, all Dhaga asset verification, canonical edit or new publication dispatch."
+  ]
+}

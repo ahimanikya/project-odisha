@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 937. completed: 161, excluded: 491, in_progress: 1, queued: 284.
+Route inventory: 937. completed: 162, excluded: 491, queued: 284.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -398,7 +398,7 @@ Route inventory: 937. completed: 161, excluded: 491, in_progress: 1, queued: 284
 | POD-EDIT-382 | [Puri Har Ghar Tiranga sand sculpture, 2025 — Research notes](https://projectodisha.org/reading-room/works/puri-tiranga-sand-2025/) | queued | classification_pending |
 | POD-EDIT-383 | [Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies — Research notes](https://projectodisha.org/reading-room/works/spent-cathodes-review/) | queued | classification_pending |
 | POD-EDIT-384 | [Kendara and the travelling song](https://projectodisha.org/stories/kendara/) | queued | classification_pending |
-| POD-EDIT-385 | [Ghumura: the drum carried into the dance](https://projectodisha.org/stories/ghumura/) | in_progress | Substantive evidence-backed Ghumura revision, shared reading treatment, complete portable narrative and reviewed publication receipt |
+| POD-EDIT-385 | [Ghumura: the drum carried into the dance](https://projectodisha.org/stories/ghumura/) | completed | Substantive evidence-backed Ghumura revision, shared reading treatment, complete portable narrative and reviewed publication receipt |
 | POD-EDIT-386 | [Mahuri: breath within the ensemble](https://projectodisha.org/stories/mahuri/) | queued | classification_pending |
 | POD-EDIT-387 | [Ranapa: rhythm above the ground](https://projectodisha.org/stories/ranapa/) | queued | classification_pending |
 | POD-EDIT-388 | [Chaiti Ghoda: a horse carried by song](https://projectodisha.org/stories/chaiti-ghoda/) | queued | classification_pending |

@@ -5880,14 +5880,28 @@
       "id": "POD-EDIT-385",
       "route": "/stories/ghumura/",
       "title": "Ghumura: the drum carried into the dance",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Substantive evidence-backed Ghumura revision, shared reading treatment, complete portable narrative and reviewed publication receipt",
       "source_template": "projects/site/src/pages/stories/ghumura.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/ghumura-editorial-publication-2026-11-02.json",
+        "separate_review": "records/ghumura-editorial-delivery-review-2026-11-02.json"
+      },
       "evidence": [
-        "records/ghumura-editorial-team-2026-11-02.json"
+        "records/ghumura-editorial-team-2026-11-02.json",
+        "records/ghumura-editorial-publication-2026-11-02.json",
+        "records/ghumura-editorial-delivery-review-2026-11-02.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "completed_at": "2026-11-02T01:35:03.425383+00:00",
+      "publication_receipt": "records/ghumura-editorial-publication-2026-11-02.json"
     },
     {
       "id": "POD-EDIT-386",
