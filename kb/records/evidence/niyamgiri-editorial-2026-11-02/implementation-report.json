@@ -1,0 +1,121 @@
+{
+  "status": "PASS_LOCAL_IMPLEMENTATION_AND_VALIDATION",
+  "checked_at": "2026-11-02T03:54:58.506538+00:00",
+  "input_head": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "current_head": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "files": {
+    "projects/site/editions/coast.json": "e008b0583b0ec34d91fac971fd1dc4785fd7896653710bd9e7817e0fc516cb5c",
+    "projects/site/editions/search-candidate.json": "4935d35602e250ba749028d5ab135e7ddc5b9670fd28ad6d4a50f0898acd2d24",
+    "projects/site/src/data/journey-catalog.ts": "559fa55223b724ee4ff5f9cebc9b103704e0dd3bbf1a364d9d64d52f9868a27d",
+    "projects/site/src/lib/reading-room.mjs": "ce57200c24f6dc1ebed027c2cdcb3992b48381f412e6e1c13f6b58481a839ce4",
+    "projects/site/src/pages/reading-room/[...slug].astro": "d822a79a83c9d4478bf1a9062cdb4f954f9d694dc98297a5154f59bbaf868676",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "4e1a13af141a1b1922e3500c91874944ea8944970b7bcaae4f68603e82478306",
+    "projects/site/tests-coast/reading-room.test.mjs": "f8b2a281a5231487ed015cd89f6fe70693f77bec1c7ce671a14a3c5b71fea002",
+    "projects/site/tests/niyamgiri-editorial.test.mjs": "4904423138df5ded90cd45dcda1501d44c861963d075f6f4248ce2d86efea3b1",
+    "projects/site/tests/reading-room-search.test.mjs": "b7ac9978d002c00765dcd2af1e86c16629d6484f8947baf36ef44be7ffc27ebb"
+  },
+  "schema_sha256": "994d321f7dd0b02cddd793a41df0429f29f6c64dc56bc2d48437a0df04aac7b8",
+  "reviewed_schema_exact": true,
+  "changes": "Existing reading-room route alone opts into shared article presentation. Exact8paragraphs/fournotes/sixnative markers, Founder byline, expanded reading paths and Save/download. No new imagery or duplicated route. All168siblings keep generic rendering.",
+  "artifact_parity": {
+    "dist": {
+      "article_sha256": "2a0b7038885e437ca5d0bbc4756dd496a759a9e94f7837ce74db5c5907484968",
+      "article_normalized_sha256": "e4d9a1b2945aad1e2f15ac2c1fdbd7739ca1b123a705607ba7ac8bfdb89f322f",
+      "siblings_exact_normalized_article_dom": 168,
+      "prior_catalog_items_exact_with_existing_edition_rules": 122,
+      "catalog_count": 123,
+      "paragraphs_once": 8,
+      "full_website_notes": 4,
+      "references_and_returns_each": 6,
+      "portable_short_sources": 4
+    },
+    "dist-coast": {
+      "article_sha256": "e52aa29193ba4d9e027331642c533d90d79e6c20aba11564b97100e9487cbd87",
+      "article_normalized_sha256": "e4d9a1b2945aad1e2f15ac2c1fdbd7739ca1b123a705607ba7ac8bfdb89f322f",
+      "siblings_exact_normalized_article_dom": 168,
+      "prior_catalog_items_exact_with_existing_edition_rules": 113,
+      "catalog_count": 114,
+      "paragraphs_once": 8,
+      "full_website_notes": 4,
+      "references_and_returns_each": 6,
+      "portable_short_sources": 4
+    },
+    "dist-publish": {
+      "article_sha256": "5f7dd99492fa18871b1c67a43e3b00676d8acd2abdf7b14f5035d6fee75c52e3",
+      "article_normalized_sha256": "e4d9a1b2945aad1e2f15ac2c1fdbd7739ca1b123a705607ba7ac8bfdb89f322f",
+      "siblings_exact_normalized_article_dom": 168,
+      "prior_catalog_items_exact_with_existing_edition_rules": 113,
+      "catalog_count": 114,
+      "paragraphs_once": 8,
+      "full_website_notes": 4,
+      "references_and_returns_each": 6,
+      "portable_short_sources": 4
+    }
+  },
+  "baseline": {
+    "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/source-baseline.json",
+    "sha256": "4397cebe114a3f95f5ba8ec948ac9ef1b9cb48467769d0153d10f08dac7e2933",
+    "book_files_exact": 1377,
+    "only_reserved_source_changes": true,
+    "sibling_baseline_sha256": "72385e38d37c904acaf76c51c1310dae024ffba6096164cbcbe47a10b15ee228"
+  },
+  "validation": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/validation-site.json",
+    "sha256": "20b6669bfaaf96986deb408b0b4654f4578d39a44c60735b4dd7e36d4b10cd28",
+    "gates": 14,
+    "full_tests": 690,
+    "coast_tests": 544,
+    "focused_tests": 3,
+    "broad_suite_qualification": "Broad suites passed before exact existing-question metadata-only correction; retained per coordinator. Affected full/coast builds, focused3, disclosures and acceptance rerun afterward."
+  },
+  "browser": {
+    "actual_engine": "Headless Google Chrome",
+    "viewports": [
+      1440,
+      390
+    ],
+    "note_return_round_trips": 12,
+    "save_reload": true,
+    "actual_downloads": {
+      "html": 2,
+      "text": 2
+    },
+    "raw_reports": {
+      "browser-review.json": "7e3f8660f619b8ecae77bbfc7a9d2dcb7b540ba7f6394154cf04407f944cdb50",
+      "text-download-review.json": "f18cf32fec67cd436b1c49af6a6745db23073db5989fce9431fb52e0a148ffac"
+    },
+    "files": {
+      "desktop-opening.png": "c73c5ac9f68b7719d6cba6dfcb96eb000cf7566ca2f14eace65c435b37df3392",
+      "desktop-reading.html": "0ba21e441da3f88ff21f89a37a3bf5c09a9f40c7803a75cd0ea56feb1e816fd2",
+      "desktop-reading.txt": "0afc5a3b431cbfd6916ef253ecd3983229513a40a7f331433ebff35b30aa1188",
+      "desktop-sources.png": "9e0c8de6076176147523e9a2ec2234c5a0df8923778880b8f7ecb6c5e7c3f270",
+      "phone-opening.png": "d9fe9880889fe4d0ddf1d4cdaca2047ec5dad065a15f38861ac89adb4c3671a0",
+      "phone-reading.html": "0ba21e441da3f88ff21f89a37a3bf5c09a9f40c7803a75cd0ea56feb1e816fd2",
+      "phone-reading.txt": "0afc5a3b431cbfd6916ef253ecd3983229513a40a7f331433ebff35b30aa1188",
+      "phone-sources.png": "2fac394bbfbf39d88041a3c621c43ba655974d16a8dc8bf9f6911c1ad7b74d92"
+    },
+    "qualification": "Actual browser checked working implementation over baseline ff88071b before metadata-only description correction. Frozen schema/body and interactions unchanged; final artifact parity verified. Raw tested_head is local checkout, not deployment proof. Separate Drishti pixels review required."
+  },
+  "publication": {
+    "files": 2628,
+    "bytes": 700221522,
+    "indexable_urls": 11
+  },
+  "history": [
+    "Initial coast543/544 failed only Reading57vs56; narrowly authorized test expectation updated and all544 passed, failure retained.",
+    "Acceptance3747/3748 flagged short exact-title description; used existing reviewed reader question verbatim with coordinator approval. Frozen schema unchanged, root manifest/KB description updated; rebuilt affected artifacts.",
+    "Initial supplemental text-download helper ran from wrong cwd and failed before Chrome; corrected cwd. Its first actual download assertion expected public base instead of localbase; corrected output-only assertion and both actual TXT downloads passed."
+  ],
+  "guidance": {
+    "skill": "/Users/ahimanikya/.codex/skills/modern-web-guidance/SKILL.md",
+    "guide_sha256": "0664f575db86ef1b06a083a188c02f450280299e0eebae5aeefe631f6846e782",
+    "quote": "Don't attach keyboard handlers to native interactive elements",
+    "applied": "Native source and return anchors, oneh1/logical headings, sharedfocus styles. No new client keyboard handlers."
+  },
+  "limits": [
+    "Local validation only, no live or publication/receipt claim.",
+    "No source retrieval/art/book rebuild/Git/shared-record mutation by this worker.",
+    "Headless Chrome only; no assistive-technology or other-engine verification.",
+    "Sibling DOM comparison ignores Astro compiler scope attributes; whole HTML bytes also include intentional shared stylesheet/catalog bundle changes."
+  ]
+}

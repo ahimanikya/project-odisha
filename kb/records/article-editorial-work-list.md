@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 937. completed: 162, excluded: 491, queued: 284.
+Route inventory: 937. completed: 162, excluded: 491, in_progress: 1, queued: 283.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -269,7 +269,7 @@ Route inventory: 937. completed: 162, excluded: 491, queued: 284.
 | POD-EDIT-253 | [From RRL to IMMT: Odisha’s mineral-research story — Research notes](https://projectodisha.org/reading-room/economy/minerals-research-immt/) | queued | classification_pending |
 | POD-EDIT-254 | [Mining receipts: five years of growth, with volatility visible — Research notes](https://projectodisha.org/reading-room/economy/mining-receipts/) | queued | classification_pending |
 | POD-EDIT-255 | [Odisha mining: minerals, industry and people — Research notes](https://projectodisha.org/reading-room/economy/mining/) | queued | classification_pending |
-| POD-EDIT-256 | [Niyamgiri: mining decisions, community rights and a sacred landscape — Research notes](https://projectodisha.org/reading-room/economy/niyamgiri-rights-and-mining/) | queued | classification_pending |
+| POD-EDIT-256 | [Niyamgiri: the landscape behind the decision](https://projectodisha.org/reading-room/economy/niyamgiri-rights-and-mining/) | in_progress | substantive_existing_article |
 | POD-EDIT-257 | [Puri: a pre-booked outdoor heritage-walk service — Research notes](https://projectodisha.org/reading-room/economy/puri-heritage-walk-service/) | queued | classification_pending |
 | POD-EDIT-258 | [Odisha’s rice economy: from paddy to value — Research notes](https://projectodisha.org/reading-room/economy/rice-economy/) | queued | classification_pending |
 | POD-EDIT-259 | [Rourkela: ore, steel and the evidence for work — Research notes](https://projectodisha.org/reading-room/economy/rourkela-steel-chain/) | queued | classification_pending |

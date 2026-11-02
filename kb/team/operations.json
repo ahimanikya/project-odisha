@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/ghumura-editorial-team-2026-11-02.json",
+  "handoff_home": "records/niyamgiri-editorial-team-2026-11-02.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,13 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-256",
+    "route": "/reading-room/economy/niyamgiri-rights-and-mining/",
+    "status": "in_progress",
+    "owner": "Disha",
+    "phase": "candidate_review"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "ghumura_editorial",
+    "kind": "niyamgiri_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/ghumura-editorial-team-2026-11-02.json"
+    "status": "candidate_review",
+    "handoff": "records/niyamgiri-editorial-team-2026-11-02.json"
   },
   "parallel_programmes": [
     {
@@ -108,14 +114,14 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "Ghumura live verified; finite scope retained until separately reviewed receipt merge/checks/hash verification. Next Niyamgiri256. Dhaga queue preserved.",
+  "coordination_note": "Niyamgiri256 finite implementation through reviewed publication receipt; Ghumura662 released; Dhaga queue preserved.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "prahallad_story_only",
+    "kind": "ghumura_editorial",
     "status": "released",
-    "receipt_pr": 658,
-    "merge": "2df6848df1178ab02a2fef2bf7cf2fb8561084e6",
-    "remote_files_verified": 8
+    "receipt_pr": 662,
+    "merge": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+    "remote_files_verified": 23
   }
 }

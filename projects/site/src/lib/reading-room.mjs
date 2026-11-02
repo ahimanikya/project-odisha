@@ -1,9 +1,12 @@
+import niyamgiriEditorial from '../../../../kb/research/economy/niyamgiri-editorial.json' with {type:'json'};
 import {readFileSync} from 'node:fs';
 import {posix,resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {createSatteriMarkdownProcessor} from '@astrojs/markdown-satteri';
 import manifest from '../../../../kb/records/pending-reading-room.json' with {type:'json'};
 export const entries=manifest.entries;
+// Editorial treatment is deliberately limited to this existing research identity.
+export function articleForEntry(entry){return entry.path==='economy/niyamgiri-rights-and-mining.md'?niyamgiriEditorial:null;}
 const paths=new Map(entries.map(e=>[e.path,e.route]));
 const root=pathToFileURL(resolve('../../kb/research')+'/');
 const repository='https://github.com/ahimanikya/project-odisha/blob/main/kb/research/';
