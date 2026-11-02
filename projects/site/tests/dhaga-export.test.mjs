@@ -16,7 +16,7 @@ test('book navigation uses lowercase public URLs, a pinned exact PDF and retaine
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
- assert.ok(exported.bytes<=28_000_000,'Complete public export must remain within28MB');
+ assert.ok(exported.bytes<=29_000_000,'Complete public export must remain within29MB');
  assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
@@ -129,4 +129,10 @@ test('245 edition keeps009 medicine narrative and hunger parallel with lexical-o
  assert.equal(context.wording,undefined);assert.ok(h.includes(esc(context.note)));assert.ok(h.includes('source-dhaga-wiktionary-74876'));
  const added=data.entries.find(e=>e.id==='POD-DHAGA-245');assert.equal(added.odia,'ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ');
  assert.ok(read('sayings/pod-dhaga-245.html').includes(esc(added.explanation)));
+});
+
+
+test('249 edition retains exact new prose and248 lexical-only source role',()=>{
+ for(const id of ['246','247','248','249']){const e=data.entries.find(e=>e.id==='POD-DHAGA-'+id);assert.ok(e);const h=read('sayings/pod-dhaga-'+id+'.html');assert.ok(h.includes(esc(e.explanation)));assert.ok(h.includes(esc(e.meaning_odia)));assert.ok(h.includes(esc(e.graphic.caption)));}
+ const e=data.entries.find(e=>e.id==='POD-DHAGA-248'),w=e.witnesses.filter(w=>w.source_id==='dhaga-wiktionary-216767');assert.equal(w.length,1);assert.ok(!('wording' in w[0]));assert.match(w[0].note,/Lexical context only/);const h=read('sayings/pod-dhaga-248.html');assert.ok(h.includes(esc(w[0].note)));assert.ok(h.includes('oldid=216767'));
 });

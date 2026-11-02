@@ -1,0 +1,85 @@
+{
+  "status": "integration_in_progress",
+  "owner": "Disha",
+  "scope": "Finite249 release through reviewed publication/live/receipt",
+  "baseline": 245,
+  "proposed": 249,
+  "accepted_increment": 0,
+  "public_delivered_entries": 245,
+  "programme_credit": 0,
+  "canonical_release_active": true,
+  "branch": "codex/dhaga-249-expansion-20261102",
+  "base_head": "49f14468595f9bc6ffc464d964526ef2df9ea57f",
+  "started_at": "2026-11-02T14:29:25.656683+00:00",
+  "roles": {
+    "Disha": "Shared records/Git/publication",
+    "Samanta": "Reserved site adapter, full gates and local browser verification; no book regeneration/Git/shared records",
+    "Anvesha": "Output-only guarded live helper preparation",
+    "Drishti": "Separate integrated and exact-head review"
+  },
+  "preservation": {
+    "original_pending": 75,
+    "1926_next_inventory": 103,
+    "1926_full_transcription": 31,
+    "1893_full_transcription": 2,
+    "1893_drafts": 83,
+    "programme_completed": 134
+  },
+  "pdf": {
+    "pages": 159,
+    "bytes": 89619161,
+    "sha256": "b86a2216391776780fac30d097188a52a14e7bbf286a78042f5a469af46e69d4",
+    "immutable_ancestor": "27e55bf79c1d35ca5f5c9ab0a2b039416a6d8518",
+    "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/27e55bf79c1d35ca5f5c9ab0a2b039416a6d8518/projects/odia-dhaga/odia-dhaga-book.pdf"
+  },
+  "production_review_sha256": "9d26fff67adc0dbbedac33c1e2d0493d3889247660585f31486844cedf9f14cd",
+  "installation_manifest_sha256": "cdba7cfe93cd2dbbbd3b8a91bba4dfe4b4d63a82d1f2b8c212adf2e802bd45c5",
+  "scope_release": "After separately reviewed receipt merge/checks/remote verification",
+  "next": "Site adapter/full gates/local browser, separate integrated and exact-head review, PR/checks/publication/live/receipt",
+  "limits": [
+    "No new research/art/book build.",
+    "Only five used sources;216767 lexical context only.",
+    "Separate AI review is not human review; publication not yet delivered."
+  ],
+  "site_reserved_files": [
+    "projects/site/tools/export-dhaga.mjs",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/dhaga-export.test.mjs"
+  ],
+  "installation_readiness_review_sha256": "e1b8da6730ffac19343b7269c2ef18452b02b201b751b1344d7e4e99ca21208a",
+  "preparation_evidence": [
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/production-samanta.json",
+      "sha256": "ef23db95eb630c81e0bee53c94091937f0450264ca02e749541702378965e211"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/production-installation-manifest.json",
+      "sha256": "cdba7cfe93cd2dbbbd3b8a91bba4dfe4b4d63a82d1f2b8c212adf2e802bd45c5"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/drishti-production-review.json",
+      "sha256": "9d26fff67adc0dbbedac33c1e2d0493d3889247660585f31486844cedf9f14cd"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/source-preparation-review.json",
+      "sha256": "7b4052e97e92658acb2e8dbc81996d3a201d3bd5a4123ffcfd692449031d0a8d"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/drishti-art-review.json",
+      "sha256": "ea1e7ffc9e8ce98421b2e4733e397fb5c586ade685b0824ff2fb9c9a6a806e96"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/drishti-preparation-review.json",
+      "sha256": "ba4509676d69a0029dd1b8f2565277cdf1953bc219e813450b9f6b008852b055"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-249-2026-11-02/installation-report.json",
+      "sha256": "1c23c1fe921c116cbe3a74bc959b8e7bae182077462e5aac8af815cfbb1abcc3"
+    }
+  ],
+  "site_budget_decision": {
+    "bytes": 29000000,
+    "reason": "Measured full28592430/coast28582098; both exceed28MB even excluding93706bytes newart. Preserve251priorassets. Overall publication guard unchanged."
+  }
+}

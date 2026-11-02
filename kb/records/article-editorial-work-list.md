@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 937. completed: 163, excluded: 491, queued: 283.
+Route inventory: 941. completed: 163, excluded: 495, queued: 283.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -961,3 +961,7 @@ Route inventory: 937. completed: 163, excluded: 491, queued: 283.
 | POD-EDIT-DHAGA-243-20261101 | [ଝିଅ ମଲେ ଜୋଇଁ କାହାର ଗୋତ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-243.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-244-20261101 | [ଘୁ ଘୁ ଦେଖିଛି ଫାନ୍ଦ ଦେଖି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-244.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-245-20261101 | [ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-245.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-246-20261102 | [ପରଧନେ ଲହର ଫହର; ଛଡାଇ ନେଲେ ଲାଜେ ମର](https://projectodisha.org/dhaga/sayings/pod-dhaga-246.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-247-20261102 | [ଦଦରା ଡ଼ଙ୍ଗା, ମଝି ନଈରେ ଦେଲୁ ଦଗା](https://projectodisha.org/dhaga/sayings/pod-dhaga-247.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-248-20261102 | [ଷାଠିଏ କାହାଣ ତଣ୍ଡକୁ ଅଛି, ହରି ଭଗତିକି କଡ଼ାଏ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-248.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-249-20261102 | [ମୁଁ ଖାଇ ନାହିଁ, ପାଟି ଖାଇଚି ନିୟାମ କରିବା ଆସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-249.html) | excluded | standalone_dhaga_collection |
