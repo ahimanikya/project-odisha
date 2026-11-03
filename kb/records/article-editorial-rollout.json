@@ -2799,12 +2799,15 @@
       "id": "POD-EDIT-108",
       "route": "/languages/districts/nabarangapur/",
       "title": "Nabarangapur · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/nabarangapur-language-utility-review-2026-11-03.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Actual route is generated for Census district397 from shared district template and numeric tables. Its introductory/context paragraphs explain historical statistics and invite further language reading; no sustained separately authored Nabarangapur narrative is present. This finding is based on this route, its complete original rows and actual configured links, not sibling classification. Preserve eight language links and all separate authored narratives; no cultural-absence inference."
     },
     {
       "id": "POD-EDIT-109",
