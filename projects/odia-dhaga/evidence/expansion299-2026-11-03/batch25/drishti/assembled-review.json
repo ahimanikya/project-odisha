@@ -1,0 +1,44 @@
+{
+  "decision": "PASS",
+  "status": "PASS_EXACT_RESEARCH_ASSEMBLY",
+  "reviewer": "Drishti separate AI review",
+  "input_head": "811fd70951c007466bbfb52a6e7dc3006545d7b8",
+  "bindings": {
+    "candidate-bundle.json": "3a63c8d7513f979825540e178c87827857cad1cbc9cbcb363b71fa4c52b63506",
+    "anvesha/report.json": "a9ff5cf4df31aa2998bef9ef8a5cf6e7b1cd4d698ef3ee6f7ca444045da8217a",
+    "anvesha/candidates.json": "50bf291b5b04b79620fd9e9290c2c8e23ebf6be0a83cd101e88c6d32786ce3d2",
+    "anvesha/dispositions.json": "4a2f23ce2f37d206f4aa19d179a39586ea679a464210ddfc5adfa4416121b2fc",
+    "anvesha/source-coverage.json": "2390486eeb0e6248d89e04fb5be3065a646d4517643ae0d6d9e4ed7e4b34394a",
+    "samanta/report.json": "06db8e287e21df2d21d6e489d201b55bbc86a65eff08eb717e474896282ede92",
+    "root-input-verification.json": "0ed4109aa51da3da4563bdf13aee3b1d504af3374b78fc24b222a8d8c0f7aee1",
+    "drishti/integrated-review.json": "506a59ce641ea65c53337ef7c369b8ed949519e6a7a4ad4b8417a9b77d7cc7e3"
+  },
+  "checks": {
+    "complete_candidate_data_deep_equal": true,
+    "all_dispositions_deep_equal": true,
+    "all_coverage_deep_equal": true,
+    "all_bundle_bindings_exact": true,
+    "counts": {
+      "fresh_heads": 8,
+      "quotation_positions": 8,
+      "proposals": 2,
+      "deferred": 6,
+      "used_sources": 2,
+      "research_sources": 8,
+      "accepted_increment": 0
+    },
+    "accepted_increment": 0
+  },
+  "findings": [
+    "Both complete bilingual objects and only two used sources exact; six deferred research sources not imported.",
+    "Eight fresh positions counted once; prior exclusions, ranking shift and next312/19053 preserved.",
+    "E267 remains prepared only. Two incremental proposals imply potential269, not produced267/269 or accepted credit.",
+    "Historical pending bundle status unchanged; separate report supplies bounded assembly verdict."
+  ],
+  "limits": [
+    "No fresh research, canonical edits, build/art or public changes",
+    "Research and assembly PASS only; future preparation, actual art/production and publication gates remain",
+    "AI review, no human review claim"
+  ],
+  "scope_released": true
+}

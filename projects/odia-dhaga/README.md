@@ -192,3 +192,13 @@ Four reviewed sayings and their original illustrations extend the245-reading edi
 ### 3 November 2026 staged251-reading edition
 
 Two reviewed sayings and their original illustrations extend the249-reading edition to251 readings. Earlier entry prose and artwork remain unchanged. Sources212713 and227729 provide lexical context only, not additional saying attestations. Critical counterreadings are editorial; historical source cursors and75 pending positions remain unchanged.
+
+
+### 3 November 2026 staged254-reading edition
+
+Three reviewed sayings and original illustrations extend the251-reading edition to254 readings. Earlier entry prose and artwork remain unchanged. Interpretations and imagined examples remain editorial, not established traditional morals or historical incidents. Historical source cursors and75 pending positions remain unchanged.
+
+
+### 3 November 2026 staged299-reading edition
+
+Forty-five reviewed readings and approved original illustrations extend the254-reading edition to299 readings. Earlier prose/art and historical source cursors/pending75 positions remain unchanged. Critical readings and imagined examples are editorial, not established traditional morals.

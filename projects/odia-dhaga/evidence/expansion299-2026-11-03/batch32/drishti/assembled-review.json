@@ -1,0 +1,45 @@
+{
+  "decision": "PASS",
+  "review_type": "Separate AI exact research assembly review",
+  "input_head": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "bundle_sha256": "3d9575432bee6ee8e609eaa06381a2d67c0994179c15015bd65911dd4d6c4c82",
+  "bindings": {
+    "anvesha/report.json": "b11b883e11205633ce347e38438953a02f8a8771a79ab9e89910bac0b4aa2888",
+    "anvesha/candidates.json": "242483652b4a6482c462ba56b8b67f606951c1a20da8c85cfeaf2bc8e7384a9d",
+    "anvesha/dispositions.json": "498c8c2306016d3828b7b7dff40049f47254767be135763b5f93e9dc9e62f38e",
+    "anvesha/source-coverage.json": "e1428e3db4ec7e0be6016d261a8028b0e301654ee6d78704adca7ecdb5aa0011",
+    "anvesha/source-word-budgets.json": "a34f76de7f39498286030fa0638a1cd3556e8346a8e5db95d5cafd36774d7050",
+    "samanta/report.json": "d3389691b03f42e1a14791aeb155eba9fc479daf57c42533407ad1588b5e3b66",
+    "drishti/integrated-review.json": "bc1da05e1630c617845d8a371b3aa1511f6974000c8210ad3f1afccf76dc9679",
+    "root-preservation.json": "7985969b24d52d3c08050818024ccb604b1147969ca3176f754e88f02c661dfb",
+    "reviewed-handoff.json": "ddac8028c6cba6366f5b3cbeb48aa4128feb2ba92b47cf0aa0bd64de894f3d26"
+  },
+  "integrated_review_sha256": "bc1da05e1630c617845d8a371b3aa1511f6974000c8210ad3f1afccf76dc9679",
+  "checks": [
+    "Full candidate_data including all three bilingual objects and three sources equals frozen author data.",
+    "All dispositions, coverage and word budgets equal frozen author inputs.",
+    "All nine bundle bindings rehashed exact; reviewed-handoff bytes match handoff actually bound by integrated review.",
+    "Used-source union equals exactly200624/214133/210605; no deferred or compound-related source imported.",
+    "Nine positions accounted as3 proposals+5 deferrals+1 compound related zero, with two clauses analysed.",
+    "Next query400 has unknown page ID;381/78844,388/92065 and88260 backlogs retained."
+  ],
+  "counts": {
+    "full_heads": 9,
+    "quotation_positions": 9,
+    "new_quote_family_positions": 8,
+    "proposals": 3,
+    "deferred": 5,
+    "related_compound_zero_increment": 1,
+    "compound_clauses_analysed": 2,
+    "research_sources": 9,
+    "used_sources": 3,
+    "accepted_increment": 0
+  },
+  "limits": [
+    "Bundle pending-review status is historical; this separate report supplies assembly verdict without mutating it.",
+    "Research readiness only; no acceptance, canonical release, human review, build, art or publication.",
+    "34 proposals beyond local254 suggest potential288 only; no expanded edition produced.",
+    "All source/translation/genre and preservation limitations of integrated review remain operative, including provisional third translation and no automatic compound variant patch."
+  ],
+  "scope_released": true
+}
