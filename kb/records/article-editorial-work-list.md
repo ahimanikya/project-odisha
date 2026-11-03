@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 943. completed: 163, excluded: 498, queued: 282.
+Route inventory: 943. completed: 163, excluded: 499, queued: 281.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -122,7 +122,7 @@ Route inventory: 943. completed: 163, excluded: 498, queued: 282.
 | POD-EDIT-106 | [Kalahandi · languages and population](https://projectodisha.org/languages/districts/kalahandi/) | excluded | classification_pending |
 | POD-EDIT-107 | [Rayagada · languages and population](https://projectodisha.org/languages/districts/rayagada/) | excluded | classification_pending |
 | POD-EDIT-108 | [Nabarangapur · languages and population](https://projectodisha.org/languages/districts/nabarangapur/) | excluded | classification_pending |
-| POD-EDIT-109 | [Koraput · languages and population](https://projectodisha.org/languages/districts/koraput/) | queued | classification_pending |
+| POD-EDIT-109 | [Koraput · languages and population](https://projectodisha.org/languages/districts/koraput/) | excluded | classification_pending |
 | POD-EDIT-110 | [Malkangiri · languages and population](https://projectodisha.org/languages/districts/malkangiri/) | queued | classification_pending |
 | POD-EDIT-111 | [The everyday Odisha table](https://projectodisha.org/food/everyday/) | queued | classification_pending |
 | POD-EDIT-112 | [Ou khatta](https://projectodisha.org/food/ou-khatta/) | queued | classification_pending |
