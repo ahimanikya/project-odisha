@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 991. completed: 163, excluded: 548, queued: 280.
+Route inventory: 992. completed: 163, excluded: 548, in_progress: 1, queued: 280.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1015,3 +1015,4 @@ Route inventory: 991. completed: 163, excluded: 548, queued: 280.
 | POD-EDIT-DHAGA-297-20261104 | [ତୁଚ୍ଛାକୁ ତୁଚ୍ଛା, ତୁଚ୍ଛା କାଞ୍ଜି ପାଣି ମନମୁରୁଛା](https://projectodisha.org/dhaga/sayings/pod-dhaga-297.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-298-20261104 | [ଲାଗ୍ ଖାଉଁ, ଲଗେଇ ନାଇ ହଉଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-298.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-299-20261104 | [କାହାଗେ କହିବି ଶୁଣିବ କେ? ସାଆନ୍ତ ଅବୁଝା ମାରିବ ଯେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-299.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-832 | [Odia Bibhaba and the Work of Keeping Literature Available](https://projectodisha.org/stories/odia-literature-preservation/) | in_progress | One sourced Odia literature preservation article: Odia Bibhaba/Srujanika, Recite World, Odia Wikisource and Odia Virtual Academy. Preserve all prior articles, cinema, Dhaga299 assets and historical research cursors. |

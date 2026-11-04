@@ -1,0 +1,28 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI static and offline review",
+  "scope": "Prepared helper only; actual candidate/build/deployment binding and execution pending",
+  "bindings": {
+    "live-preparation/verify-live.py": "cbcd1a2095896683f52dab83d6b44c66bcf897a7e7642881a7c940374466a4a1",
+    "live-preparation/test-offline.py": "995b4ca5b853f68f3bb21096e4fe50af6e4c2f72e88891df67216ba06b6e45ab",
+    "live-preparation/report.json": "6a7d6ac3fda7a0c9d2181c20fb83e6a3eebf8cfcdf8964aac494b771d39f56f1",
+    "live-preparation/offline-checks.json": "223eff9e48ba710cb005491847fea7aa0f2da3a5f475ef4f795ca4914f240097",
+    "drishti/live-helper-offline-checks.json": "223eff9e48ba710cb005491847fea7aa0f2da3a5f475ef4f795ca4914f240097",
+    "drishti/before-live-helper-repair/live-helper-review.json": "0a64bc4e4f976ef0ecc0005629f0f2e871673bbc80e03d379285e39933694274"
+  },
+  "resolved_findings": {
+    "F1": "Explicit review.decision PASS and review.reviewed_head equality replace arbitrary JSON substring. Actual wrong-head-with-history fixture refuses.",
+    "F2": "Ordered filtered narrative comparison now required; actual swapped-paragraph fixture refuses."
+  },
+  "actual_checks": [
+    "Read exact helper diff and complete expanded offline harness. Deployment guard extraction preserves before-network execution order.",
+    "Independently ran28 offline cases through unchanged test logic with only output destination redirected to reviewer scope. All28PASS; no network or actual prepare.",
+    "Complete candidate and deployment synthetic positives pass; review/hash/sibling/merge/run/ancestry/deployment/environment negatives refuse. Optimized mode, missing authorization, pending fields and exclusive-write checks pass."
+  ],
+  "findings": [],
+  "limits": [
+    "Actual HTML/parser contract, candidate manifest, final reviewed head, deployment identity and merge evidence must be bound after implementation.",
+    "HTTP helper covers ordered narrative, complete notes/source URLs/catalog and search hold; actual keyboard/native returns, save/download/mobile and emphasis presentation still require separate browser evidence.",
+    "No playback/PDF interiors/rights/current external availability claims. Initial REVISE report and14case evidence preserved."
+  ]
+}

@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-expansion-299-2026-11-04.json",
+  "handoff_home": "records/odia-literature-preservation-editorial-team-2026-11-04.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,15 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
-  "project_identity": "reference/project-identity.md",
-  "current_task": {
-    "kind": "dhaga_299_expansion",
+  "current_article": {
+    "id": "POD-EDIT-832",
+    "route": "/stories/odia-literature-preservation/",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/odia-dhaga-expansion-299-2026-11-04.json"
+    "phase": "implementation",
+    "handoff": "records/odia-literature-preservation-editorial-team-2026-11-04.json"
   },
+  "project_identity": "reference/project-identity.md",
+  "current_task": null,
   "parallel_programmes": [
     {
       "name": "Community history and editorial rollout",
@@ -108,13 +109,13 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "Finite299 release active through verified receipt. Exact reviewed book; delivery fallback separately reviewed. No new research or competing canonical release.",
+  "coordination_note": "299receipt673 reviewed, merged and81remote files verified. One finite Founder Odia literature article claim active through verified receipt.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "dhaga_251_expansion",
+    "kind": "dhaga_299_expansion",
     "status": "released",
-    "receipt_pr": 668,
-    "merge": "c38ef4da9d5d5cc84824bb489bd4d29dc9403f69"
+    "receipt_pr": 673,
+    "merge": "f99225b28444e3c17f7b94b556918d47d2c843eb"
   }
 }
