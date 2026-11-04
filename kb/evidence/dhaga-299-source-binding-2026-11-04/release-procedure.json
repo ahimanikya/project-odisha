@@ -1,0 +1,116 @@
+{
+  "status": "PREPARED_NOT_AUTHORIZED_FOR_EXECUTION",
+  "input_head": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "direction_sha256": "5ba6b75c44e5b1297b9c6ede149112d3490d56b02834c6a7adf6c774c5bda048",
+  "prior_mechanism_report_sha256": "d9386e5d42c4646f9fe12638ac9944d4d357358db1902a46fcfaa03a395c449b",
+  "repository": "ahimanikya/project-odisha",
+  "setting_observation": {
+    "enabled": false,
+    "enforced_by_owner": false,
+    "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/implementation-direction.json",
+    "settings_change_permitted": false
+  },
+  "delivery_model": "Versioned content-addressed asset on mutable GitHub release hosting; integrity checks detect drift but do not prevent privileged mutation or deletion.",
+  "immutable_host_claim": false,
+  "review_required_before_upload": "Separate Drishti fallback/helper PASS and explicit root execution authorization. Neither is implied by this procedure.",
+  "expected_pdf": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/production/stage/odia-dhaga-book.pdf",
+    "bytes": 109520119,
+    "sha256": "cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a",
+    "pages": 193
+  },
+  "planned_identity": {
+    "tag": null,
+    "filename": "odia-dhaga-299-cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a.pdf",
+    "full_commit": null,
+    "release_id": null,
+    "asset_id": null,
+    "browser_download_url": null,
+    "state": "Full commit, concrete tag, release/asset IDs and browser URL remain null until actual authorized creation and verified evidence. Filename binds the full64hex reviewed PDF SHA256.",
+    "tag_template": "dhaga-299-<full40commit>",
+    "tag_contract": "A lightweight tag exactly dhaga-299- followed by the reviewed full40hex commit; its Git ref object must directly be that commit. Annotated tags are refused by this helper contract."
+  },
+  "preconditions": [
+    "Require ordinary Python/runtime guards in any executor; explicit root authorization; actual separate PASS hash; correct repository and fresh single-owner reconciliation.",
+    "Require full40hex reviewed commit existing remotely; verify tag absent. Refuse existing tag/release/name unless resuming exact recorded same IDs with identical verified bytes. Never repoint a tag.",
+    "Stream local file size/SHA before upload; verify production review/hash unchanged; do not rebuild, recompress or copy different PDF.",
+    "Keep existing251 PDF archive and Cinema assets intact. Do not modify release immutability settings."
+  ],
+  "sequence": [
+    {
+      "step": 1,
+      "action": "After future authorization create the dedicated draft release for the exact reviewed full40hex commit. Concrete tag must be dhaga-299-<that full commit>, a lightweight ref directly resolving to that commit. Record actual release ID/raw response; never default branch/latest. Verify actual ref type and object SHA after publication."
+    },
+    {
+      "step": 2,
+      "action": "Upload exact raw PDF once under the planned content-addressed filename to recorded draft release. No --clobber, rename, replacement, deletion or overwriting. Record actual returned asset ID, state, name, size, digest and browser_download_url. Add provenance/checksum only before publication and only if separately included in authorized scope."
+    },
+    {
+      "step": 3,
+      "action": "Require state uploaded, exact filename109520119bytes and sha256:cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a. Require repository/release/asset association and dedicated tag. Any mismatch stops; no automatic cleanup or retry mutation."
+    },
+    {
+      "step": 4,
+      "action": "Publish the dedicated draft only after metadata verification. Preserve release_immutable:false honestly. Require lightweight tag ref object type commit and SHA equal exact full reviewed commit; annotated tags are refused. Verify release ID/tag, asset ID/fullhash filename/size/digest, published non-draft state and exact versioned browser URL again."
+    },
+    {
+      "step": 5,
+      "action": "Download via versioned browser_download_url WITHOUT credentials/cookies/Authorization to new output file. HTTPS only, follow bounded redirects, connection20s/total300s, at most2 transport retries. Save each failed attempt separately. Count and SHA256 actual body independently; reject error HTML, short/oversized responses or unexpected digest. Do not rely on Content-Length/API digest alone. Do not persist ephemeral signed redirect URL as canonical link."
+    },
+    {
+      "step": 6,
+      "action": "Re-read release+asset metadata and resolved tag after download. Require same IDs, filename, size, digest, published state and full commit. Bind raw API evidence, anonymous download report, PDF hash, reviewed source commit and explicit mutable-host limitation into small delivery descriptor."
+    },
+    {
+      "step": 7,
+      "action": "Coordinator may then integrate exact descriptor and reviewed hydration adapter. Clean checkout must hydrate only exact bytes and fail closed on changed metadata or download mismatch. Deploy only after normal CI/review. Verify live page links and fresh anonymous download; no book release completion from API upload alone."
+    }
+  ],
+  "resume_and_failure_rules": [
+    "Existing matching name is not sufficient: require previously recorded release/asset IDs and exact identity tuple. If none recorded, stop for reconciliation.",
+    "Upload502 may leave starter asset; preserve evidence and stop. This procedure authorizes no deletion, replacement or blind re-upload.",
+    "No latest aliases, mutable branch URLs or moving tags. New content requires a new version/tag/filename and review.",
+    "If host bytes or identity drift, stop hydration/publication and report; never refresh expected hash to accept drift. Restore only through separately authorized remediation, not this procedure."
+  ],
+  "binding_contract": {
+    "required_nonnull_fields": [
+      "repository",
+      "tag",
+      "resolved_full_commit",
+      "release_id",
+      "asset_id",
+      "filename",
+      "browser_download_url",
+      "size",
+      "sha256",
+      "github_digest",
+      "published_at",
+      "checked_at",
+      "anonymous_download_report_sha256",
+      "source_review_sha256"
+    ],
+    "fixed_size": 109520119,
+    "fixed_sha256": "cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a",
+    "immutable": false,
+    "integrity_assurance": "Observed exact-byte identity with fail-closed drift detection; not server-enforced immutability.",
+    "release_immutable": false,
+    "tag_pattern": "^dhaga-299-[0-9a-f]{40}$",
+    "filename": "odia-dhaga-299-cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a.pdf",
+    "tag_object_type": "commit"
+  },
+  "limits": [
+    "Content-addressed filename does not make hosting immutable. A privileged actor can delete/recreate assets or move tags; recorded ID/tag/hash checks detect these changes when run.",
+    "An attacker controlling both host and expected descriptor could defeat checks; review and committed expected bindings remain part of trust model.",
+    "A successful check establishes bytes at observation time, not future availability or uninterrupted integrity.",
+    "No settings, upload, release creation, network verification, Git or canonical changes performed by this preparation."
+  ],
+  "evidence_reuse": [
+    "Prior official-documentation.json and Cinema publication precedent reused; no broad new research."
+  ],
+  "correction_history": {
+    "finding": "Drishti F3: initial date/short-hash proposed names mismatched Samanta fullcommit/fullhash verifier.",
+    "preserved_original": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/anvesha/history-before-F3/release-procedure.json",
+    "original_sha256": "a2476cd6120b884eb6f4c23cee39930451dd39f7893327dc3250d318ebb27b21",
+    "change": "Exact naming/tag-type contract aligned; actual identifiers remain pending; no execution authorized."
+  }
+}

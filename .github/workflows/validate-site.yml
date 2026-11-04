@@ -84,6 +84,12 @@ jobs:
           python3 tools/editorial/build_workbench.py --check
           python3 tools/editorial/test_workbench.py
           node --test projects/editorial-workbench/workbench.test.mjs
+      - name: Verify release PDF delivery guards
+        run: python3 projects/site/tests/test_dhaga_pdf_delivery.py
+      - name: Hydrate exact reviewed Dhaga release PDF
+        env:
+          RUN_AUTHORIZED_PDF_HYDRATION: '1'
+        run: python3 projects/site/tools/verify-dhaga-pdf.py --descriptor projects/odia-dhaga/pdf-delivery.json --packing projects/odia-dhaga/packing-report.json --target projects/odia-dhaga/odia-dhaga-book.pdf
       - name: Build and test full draft
         run: |
           npm run build

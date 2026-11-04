@@ -1,0 +1,992 @@
+{
+  "input_head": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "status": "45 original briefs;13 exact reviewed E267 briefs reused and32 extensions; actual generation/pixel review pending separate package PASS",
+  "reused_brief_file": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-267-2026-11-03/anvesha/illustration-briefs.json",
+  "reused_brief_sha256": "e41e30f51060916a2cd3f6c4eff2a729f0403593ca75cbbc9b912871b43a9833",
+  "input_bindings": {
+    "outputs/dhaga-loop-2026-11-03/batch21/candidate-bundle.json": "0b60ba63c1dc089bacf7ea288e1b7326c64c1ac0b9170e34348f5bdf44ffcae7",
+    "outputs/dhaga-loop-2026-11-03/batch21/delivery.json": "9def3a387f5d5e918a15712245322dc665485d39745c946194c2249284272ce7",
+    "outputs/dhaga-loop-2026-11-03/batch21/anvesha/candidates.json": "eba891f67260a51f187cef72a894ff62b421bfd4a330f0256810da42e0cd20e6",
+    "outputs/dhaga-loop-2026-11-03/batch21/anvesha/report.json": "c4933433aa09653240abd7d667e09595b23380b048c79e4ff37b54e23560f475",
+    "outputs/dhaga-loop-2026-11-03/batch21/drishti/assembled-review.json": "c4286aa032068b03f645df69019fa951318dd10a54f235c5d402b88836d119a8",
+    "outputs/dhaga-loop-2026-11-03/batch22/candidate-bundle.json": "af5106b8a3b003c83b23ac7e6067c0c0f7dd6d49fe2382a700caa1cbc5ab5b70",
+    "outputs/dhaga-loop-2026-11-03/batch22/delivery.json": "a515f3218f846c725b6ba53c383348f099e980969c8968e4d237a2dfcf886cfb",
+    "outputs/dhaga-loop-2026-11-03/batch22/anvesha/candidates.json": "560120eb48afb94139e8fcef8fd2ef83adf5ca69d3205e5d78a11cd2367c6756",
+    "outputs/dhaga-loop-2026-11-03/batch22/anvesha/report.json": "44dd38bd87fda98ab0c328cc9e7ff7c879d16a5e618e3fb49e57db2c09be9238",
+    "outputs/dhaga-loop-2026-11-03/batch22/drishti/assembled-review.json": "72dc8cf47e9a8642c583e15c3d1be231fb6d959baf52b4f93a01acdc5c336c04",
+    "outputs/dhaga-loop-2026-11-03/batch23/candidate-bundle.json": "c2ebc4472db6c5389669f9d64800e9066e8d8b4a6c7d7ae04fb48c6b7328f3f5",
+    "outputs/dhaga-loop-2026-11-03/batch23/delivery.json": "dfac1883a47244a3fb0683d4d419f261becd979fb67e952d723ca569dd3870c5",
+    "outputs/dhaga-loop-2026-11-03/batch23/anvesha/candidates.json": "a800253baa883d6a8f6d45583da441f02fd28882fc53f55d3fffaa4d5d119834",
+    "outputs/dhaga-loop-2026-11-03/batch23/anvesha/report.json": "a952d46c9865fa295cf8f87919363210f56fbca86cd478de658420c9306c4466",
+    "outputs/dhaga-loop-2026-11-03/batch23/drishti/assembled-review.json": "47776e6865aa99ddd12b60348f37794732675db3931d417fee4e922b1f7060ab",
+    "outputs/dhaga-loop-2026-11-03/batch24/candidate-bundle.json": "b90dfe5b07cfa84619a1122cb9ecb4535e73864d1964446698b9a008dda91e49",
+    "outputs/dhaga-loop-2026-11-03/batch24/delivery.json": "c67e1a9eb23fac533cecc16b87236f1fee446dbc3c1880249cfa24fd7585f6ad",
+    "outputs/dhaga-loop-2026-11-03/batch24/anvesha/candidates.json": "1ea7b35b0f5abe36e154709f118735fe77ca09dd159d6a3a37d4364fb78ce3c4",
+    "outputs/dhaga-loop-2026-11-03/batch24/anvesha/report.json": "55965ed84ce8fa37b73c1797522e225b8da1be67b4cce72d818d1dca54049df0",
+    "outputs/dhaga-loop-2026-11-03/batch24/drishti/assembled-review.json": "5d4c3d961ebeaaed96bee7182b9bd030eb1bba8f10b3087551d841a437e90361",
+    "outputs/dhaga-loop-2026-11-03/batch25/candidate-bundle.json": "3a63c8d7513f979825540e178c87827857cad1cbc9cbcb363b71fa4c52b63506",
+    "outputs/dhaga-loop-2026-11-03/batch25/delivery.json": "874a6d067d414bee2237e12f8e17f091865e0228883f8117db0faf1cbb48f58c",
+    "outputs/dhaga-loop-2026-11-03/batch25/anvesha/candidates.json": "50bf291b5b04b79620fd9e9290c2c8e23ebf6be0a83cd101e88c6d32786ce3d2",
+    "outputs/dhaga-loop-2026-11-03/batch25/anvesha/report.json": "a9ff5cf4df31aa2998bef9ef8a5cf6e7b1cd4d698ef3ee6f7ca444045da8217a",
+    "outputs/dhaga-loop-2026-11-03/batch25/drishti/assembled-review.json": "f261630a276b1daa8d05e3722d30c5777c1ebb1d387c4e33b3f5d229aaf66f97",
+    "outputs/dhaga-loop-2026-11-03/batch26/candidate-bundle.json": "b51e7f0114f452f7488cd302476b422cd2dcb16568574ccd2abdd076e0fc921a",
+    "outputs/dhaga-loop-2026-11-03/batch26/delivery.json": "c28e4ce34e03fca13b98e3039a1f78d1f0b041326fe1e8b21757a4ea4a2501dd",
+    "outputs/dhaga-loop-2026-11-03/batch26/anvesha/candidates.json": "7c4741b64a6df850ca2871386bb09e017a64755ec73ade03205dbc1668ba0b39",
+    "outputs/dhaga-loop-2026-11-03/batch26/anvesha/report.json": "6b08550784292ab9e73eddcbd9f7a3b5531482d107c0abd2e6845f1f8f48aa2e",
+    "outputs/dhaga-loop-2026-11-03/batch26/drishti/assembled-review.json": "33440c8a1d12d94b18e3493078b772a1278c7a0c25cb2d5468e670126e9b32d2",
+    "outputs/dhaga-loop-2026-11-03/batch27/candidate-bundle.json": "8468280b3d0fe31bd102aaf2fb846419859bc9e074ed1a81d0fd0b97530df9e4",
+    "outputs/dhaga-loop-2026-11-03/batch27/delivery.json": "dccf61ad7b535496b10f61ad53b1a15209e883cc62139125f3d3ae7e86c3ccba",
+    "outputs/dhaga-loop-2026-11-03/batch27/anvesha/candidates.json": "c25c1cf206d7a118dc2ec58ccf4a9e8c5a40a4e9259493f276b4550f1b6b2b0d",
+    "outputs/dhaga-loop-2026-11-03/batch27/anvesha/report.json": "a3deb590f0661288fc91a9ca69b24382345735dfbdc02043c2b56c431b13a0a8",
+    "outputs/dhaga-loop-2026-11-03/batch27/drishti/assembled-review.json": "736a44b10dc1752daa1893fe8311bfb119b2690e0f95adcd729a0e4b77bcbaa2",
+    "outputs/dhaga-loop-2026-11-03/batch28/candidate-bundle.json": "0b1c9386ec29fb075069e1337bf042ead058644cfee150b4ab058ef8991ef7b8",
+    "outputs/dhaga-loop-2026-11-03/batch28/delivery.json": "d7eba648a564b98581acfd299cfa633074e10479fe61ce441dc1031208210dd4",
+    "outputs/dhaga-loop-2026-11-03/batch28/anvesha/candidates.json": "a6032b22b0fca2d661cf10c9b45f4ccab52b0e785434db5c8b97b0480490210e",
+    "outputs/dhaga-loop-2026-11-03/batch28/anvesha/report.json": "6a9e8506db46bded83fdc63e5904cd33cf56d698ff34db3ad04e2fcbd4e3476a",
+    "outputs/dhaga-loop-2026-11-03/batch28/drishti/assembled-review.json": "fac6fc5a8071bd37b0b50b382d2b278e0b0f94c17bb5fa6c502c705b11cf3cd2",
+    "outputs/dhaga-loop-2026-11-03/batch29/candidate-bundle.json": "51c8326b49d831ca371ad12cb3660a087577ad5a74f2bb867fa896a96c55a817",
+    "outputs/dhaga-loop-2026-11-03/batch29/delivery.json": "eb2d46b20a83cfe2d5416b59d738ec9322719cfdbe27216966f80e59ec819403",
+    "outputs/dhaga-loop-2026-11-03/batch29/anvesha/candidates.json": "619bd5a241e75017a1d372252aa3b987907d44006c398a5111a4edc8f73df5b6",
+    "outputs/dhaga-loop-2026-11-03/batch29/anvesha/report.json": "7a87b85484ffaccfa22dbb63e708960e50f952e46b225ae30f8f0a3b79120e3f",
+    "outputs/dhaga-loop-2026-11-03/batch29/drishti/assembled-review.json": "56a63b4135d5b0e3303a36388ab13dcad3a3973169a8179a4069a0e69f380e29",
+    "outputs/dhaga-loop-2026-11-03/batch30/candidate-bundle.json": "fd3a1d4476529686122e6c83f3696b9e2bd5bac8fc445799dab0b5f1b95dc147",
+    "outputs/dhaga-loop-2026-11-03/batch30/delivery.json": "803d9aec79857016c693eab6df7f2be1caef7394f53ff00d586eec05967d4703",
+    "outputs/dhaga-loop-2026-11-03/batch30/anvesha/candidates.json": "9e6d6ec4c58ca5691f134013381cdcbcbe42287b9ca0c8179c3773986293bc11",
+    "outputs/dhaga-loop-2026-11-03/batch30/anvesha/report.json": "d45a5de66d1ea3aeb1aaa1e774b028f49500404debff1c5dc681953643787805",
+    "outputs/dhaga-loop-2026-11-03/batch30/drishti/assembled-review.json": "c90236c6d1d56493b3b763968b9e1135c893a552155013b0f34daa1af27b3253",
+    "outputs/dhaga-loop-2026-11-03/batch31/candidate-bundle.json": "c67af7e8b81f94db253a70fb39850009b3ab4bbcfab9b1406edff349a6e63e92",
+    "outputs/dhaga-loop-2026-11-03/batch31/delivery.json": "0314f880d6e2f376b60761210f81ef08ce1033bd4e6342d44662729a35ce4284",
+    "outputs/dhaga-loop-2026-11-03/batch31/anvesha/candidates.json": "94955b1ed310218b5a995b5eda985a20a4b91b2afd2444d2e798c7ee2259fbc6",
+    "outputs/dhaga-loop-2026-11-03/batch31/anvesha/report.json": "b8fe5c86dc1adfbf005438dcddad499ba6f109cda87e2592c1bef1781fdfba09",
+    "outputs/dhaga-loop-2026-11-03/batch31/drishti/assembled-review.json": "56904a602e54ff206c16a4d99803fc963d7fea20b2acd1225bfd611d76f9ad17",
+    "outputs/dhaga-loop-2026-11-03/batch32/candidate-bundle.json": "3d9575432bee6ee8e609eaa06381a2d67c0994179c15015bd65911dd4d6c4c82",
+    "outputs/dhaga-loop-2026-11-03/batch32/delivery.json": "79aee341b5fbd45906fefebc02d36df797fb0f67e0f6abb17aee56a47b50b9e5",
+    "outputs/dhaga-loop-2026-11-03/batch32/anvesha/candidates.json": "242483652b4a6482c462ba56b8b67f606951c1a20da8c85cfeaf2bc8e7384a9d",
+    "outputs/dhaga-loop-2026-11-03/batch32/anvesha/report.json": "b11b883e11205633ce347e38438953a02f8a8771a79ab9e89910bac0b4aa2888",
+    "outputs/dhaga-loop-2026-11-03/batch32/drishti/assembled-review.json": "b0de7d251e76d6b8c24db712e25dddd68fd77f62b6653a14f595a3c71284db2f",
+    "outputs/dhaga-loop-2026-11-03/batch33/candidate-bundle.json": "15ea998d1ea232fc1c1435b6f4168bbdc23314c917d12682f45f26e84443b767",
+    "outputs/dhaga-loop-2026-11-03/batch33/delivery.json": "2233db54d769a15aa4293cfbc0fc6aa9622cb2f00842c102b57d2b383e70291d",
+    "outputs/dhaga-loop-2026-11-03/batch33/anvesha/candidates.json": "f26a449f8257ee7ba9fb1bed6c78e800c7c531cca433b99986000b7612f36706",
+    "outputs/dhaga-loop-2026-11-03/batch33/anvesha/report.json": "c1fbb8407dfc73d58eb8d33da62b66cc75ae18d204b0b3d1ab86468f5231e8b3",
+    "outputs/dhaga-loop-2026-11-03/batch33/drishti/assembled-review.json": "47c9ff846a47209b30d96bbc5634686960f44dfd6c5231255b7b2195e697b89b",
+    "outputs/dhaga-loop-2026-11-03/batch34/candidate-bundle.json": "09d6ed61db160e0c646c3697943fbff85dc54ac6afee22009c7530a196d9c792",
+    "outputs/dhaga-loop-2026-11-03/batch34/delivery.json": "e6d690a339be1a5b439aed4fa2d4ae352b932caea834b62725bd9c01e995834a",
+    "outputs/dhaga-loop-2026-11-03/batch34/anvesha/candidates.json": "065f7e825b5f405502a571972ba70e2487e88a1f3c32afe8be62176f2570a8d5",
+    "outputs/dhaga-loop-2026-11-03/batch34/anvesha/report.json": "eb0c0fad1132e6140ffaea387f35b653c2f3072d2028dc9a915d52452abad896",
+    "outputs/dhaga-loop-2026-11-03/batch34/drishti/assembled-review.json": "c8b8564951a3c926e7277d3641e6df433d7f021c1e81035a68cdb2a67e44d86f",
+    "outputs/dhaga-loop-2026-11-03/batch35/candidate-bundle.json": "4d00863d13b2b82b1bd0b19073c6087010b424525cb27d13bea51384e811babf",
+    "outputs/dhaga-loop-2026-11-03/batch35/delivery.json": "d842c6720b1a4e5d5e0c89befc33746d775358e279bec477b868ca469c60364a",
+    "outputs/dhaga-loop-2026-11-03/batch35/anvesha/candidates.json": "fab0eeb6c3832bcce424faa958b881f03bc79588ab76cf544252fe1a8a76a798",
+    "outputs/dhaga-loop-2026-11-03/batch35/anvesha/report.json": "921f28ecf2342d3ad963aea28a11bd0f8a5fa3ef4cb5a8d56a388ed6f502025e",
+    "outputs/dhaga-loop-2026-11-03/batch35/drishti/assembled-review.json": "b81c52e7aa1ff136a9a73d4fce441f77257d62558b6f14f2c3b3dab7ab318caa",
+    "outputs/dhaga-loop-2026-11-03/batch36/candidate-bundle.json": "a5270500da113c9f7f2fee63b1d66778b4ab350a431539dd41690b6e20afe1f0",
+    "outputs/dhaga-loop-2026-11-03/batch36/delivery.json": "a032c6d533feec91dc4ff89075928fcf9c922188f5ad45e7e731a38fa64f5787",
+    "outputs/dhaga-loop-2026-11-03/batch36/anvesha/candidates.json": "84c2491b6cb604591746f98e16f0f3e5725c82ea0504f98bb9fe917a88ce4461",
+    "outputs/dhaga-loop-2026-11-03/batch36/anvesha/report.json": "34dcfbcad4f7b70da78d9fb0dbffde33b2788410e98ce6c84e071ed83718763a",
+    "outputs/dhaga-loop-2026-11-03/batch36/drishti/assembled-review.json": "201ff77046a44f709002b7d0ffd09bff703643a21499ef1ed24d6abc6e44e851"
+  },
+  "briefs": [
+    {
+      "proposed_id": "POD-DHAGA-255",
+      "candidate_key": "anvesha-b21-01",
+      "exact_odia": "ଯେସା ବୀଜ ତେସା ଅଙ୍କୁର",
+      "draft_object_sha256": "2ceb733b8d1da80648a6d38afcf4f0db333fc5a41e51e63fc3ab8f68552b76df",
+      "scene": "Two small clay pots sit side by side on a low bench, each showing the same kind of young sprout. A few matching seeds rest in a shallow dish beside them. Simple garden setting, no botanical cross-section or diagram.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Two small clay pots sit side by side on a low bench, each showing the same kind of young sprout. A few matching seeds rest in a shallow dish beside them. Simple garden setting, no botanical cross-section or diagram.",
+      "caption": "Seed and sprout, pictured as a material analogy.",
+      "alt": "Two pots hold young sprouts beside a shallow dish of seeds.",
+      "interpretation_limits": [
+        "No human parentage, caste, inherited virtue or scientific species certification; specific plant choice is illustrative.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-256",
+      "candidate_key": "anvesha-b21-02",
+      "exact_odia": "କଟା ଘାରେ ବେଶର ଛାପ୍ୱା",
+      "draft_object_sha256": "6d1131337d65692af626fef7aa568c963c8c267c8a53d33ef92c1361ae1bfce7",
+      "scene": "At a plain desk, an adult looks disappointed at a closed folder. A second person gestures teasingly towards it; a third raises a calm open palm between them, asking for restraint. Keep bodies separated and expressions mild, no physical injury, paste or treatment objects.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. At a plain desk, an adult looks disappointed at a closed folder. A second person gestures teasingly towards it; a third raises a calm open palm between them, asking for restraint. Keep bodies separated and expressions mild, no physical injury, paste or treatment objects.",
+      "caption": "An imagined request to stop adding to someone’s disappointment.",
+      "alt": "Three adults beside a desk; one raises an open hand as another gestures toward a folder.",
+      "interpretation_limits": [
+        "Nonliteral editorial response to added taunting; no wound, medical use of mustard, or fixed original occasion.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-257",
+      "candidate_key": "anvesha-b21-03",
+      "exact_odia": "ରସ ଗଳିତଂ ଥପଂ ଥପଂ",
+      "draft_object_sha256": "7552e69bfd6598734e686c3b0bfc937ac21957fa8fe0c6c8e55216f3c5368545",
+      "scene": "Close view of one adult hand gently squeezing half an orange over a shallow bowl on a table. Two separate drops fall between fruit and bowl. Show credible fingers around the rind, clear downward gravity and modest juice; no words or diagram.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Close view of one adult hand gently squeezing half an orange over a shallow bowl on a table. Two separate drops fall between fruit and bowl. Show credible fingers around the rind, clear downward gravity and modest juice; no words or diagram.",
+      "caption": "An imagined rhythm of falling drops.",
+      "alt": "A hand squeezes a cut orange above a bowl as two drops fall.",
+      "interpretation_limits": [
+        "Fruit and occasion invented; descriptive sound-play, no moral or claim source named orange.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-258",
+      "candidate_key": "anvesha-b22-01",
+      "exact_odia": "ବାପ ଦେହେରି, ପୁଅ ପୁଜାରି, ଗଣ୍ଡି ମଣ୍ଡ ସବୁ ତୁମ୍ଭରି",
+      "draft_object_sha256": "c29fdac570845ee405c47ae6a6840f8cd2bd065ee9c67b905390ba9636fd674d",
+      "scene": "A small contemporary committee table seen from an oblique angle. Two adults sit together at its far end with several closed folders gathered before them. Two others on the near side exchange questioning glances; one rests an open palm on the table. No religious dress, sacred objects or family resemblance cues.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A small contemporary committee table seen from an oblique angle. Two adults sit together at its far end with several closed folders gathered before them. Two others on the near side exchange questioning glances; one rests an open palm on the table. No religious dress, sacred objects or family resemblance cues.",
+      "caption": "An imagined committee where the decisions gather at one end.",
+      "alt": "Four adults sit at a table, with several folders gathered before two of them.",
+      "interpretation_limits": [
+        "Editorial concentrated-control analogy, not actual father-son ritual roles, corruption proof or family/community caricature.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-259",
+      "candidate_key": "anvesha-b22-02",
+      "exact_odia": "ପଥ ପଚାରି ବାପଘର ଯିବୁ ଆଉ ଅଯୋଧ୍ୟାକୁ ମନ ନ କରିବୁ",
+      "draft_object_sha256": "910a26227f21699273e6df1060c52fffa06ef22e922ccd2894c2ac008a3ae751",
+      "scene": "Two adults stand beside a simple bus shelter. One holds a folded blank map horizontally; the other points along a visible fork in a footpath. Both look engaged and capable, with a small travel bag resting on the ground. No signs, temples or named destination.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Two adults stand beside a simple bus shelter. One holds a folded blank map horizontally; the other points along a visible fork in a footpath. Both look engaged and capable, with a small travel bag resting on the ground. No signs, temples or named destination.",
+      "caption": "Asking the way as part of preparing for a journey.",
+      "alt": "Two adults consult a folded map near a shelter and a fork in a path.",
+      "interpretation_limits": [
+        "Critical editorial reply; no Ayodhya reconstruction, pilgrimage claim or incapacity implied by asking.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-260",
+      "candidate_key": "anvesha-b22-03",
+      "exact_odia": "ଝିଅ ହୋଇ ଯେବେ ଚୂଲିମୁଣ୍ଡକୁ ଯୋଗ୍ୟ ନ ହେଲା, ତା ଜନମଟା ବୃଥା",
+      "draft_object_sha256": "4f5e492e407a4847898f17453ea4dbea44912fed05c41894d5cd89a5305c198a",
+      "scene": "Three adults of different genders share ordinary kitchen preparation at a broad table: one rinses vegetables in a bowl, one arranges them on a board, one dries a plate. Calm equal cooperation, ordinary clothing, no child being tested, no stove danger or instructor judging anyone.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Three adults of different genders share ordinary kitchen preparation at a broad table: one rinses vegetables in a bowl, one arranges them on a board, one dries a plate. Calm equal cooperation, ordinary clothing, no child being tested, no stove danger or instructor judging anyone.",
+      "caption": "An imagined kitchen where useful work is shared.",
+      "alt": "Three adults share vegetable preparation and washing at a kitchen table.",
+      "interpretation_limits": [
+        "Critical counterreading is editorial; do not present sexist source judgment as endorsed or claim all traditional households shared tasks.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-261",
+      "candidate_key": "anvesha-b23-01",
+      "exact_odia": "ଋଣ ଶେଷ, ରୋଗ ଶେଷ, ୟାଙ୍କର କେଭେ ନ ରଖିବ ଲେଶ",
+      "draft_object_sha256": "ce83aea06c5d721d95cdc2faac87220fe4752d6b21a4f3231aa43d7e0fb15aa8",
+      "scene": "An adult seated at a plain desk aligns one loose blank sheet with an open folder while another holds the folder steady. One small paper clip lies beside their hands. Clear paper edges and separate hands; no money, medicine, charts or legal seals.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. An adult seated at a plain desk aligns one loose blank sheet with an open folder while another holds the folder steady. One small paper clip lies beside their hands. Clear paper edges and separate hands; no money, medicine, charts or legal seals.",
+      "caption": "An imagined final page being put in place.",
+      "alt": "Two adults align a loose sheet with an open folder on a desk.",
+      "interpretation_limits": [
+        "Editorial unfinished-paperwork application only; no health or debt-elimination guarantee.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-262",
+      "candidate_key": "anvesha-b23-02",
+      "exact_odia": "ଦଳାଇ ଆସିଲେ ମୁଳରୁ ଗାଆ",
+      "draft_object_sha256": "2a4a0a8a348af65d809b6d9497a4c1611c07aad56165b5c32961c0942cd38201",
+      "scene": "At a modest meeting table, a newcomer pauses beside an empty chair holding a closed notebook. A seated speaker turns back toward an earlier blank sheet in a small stack while two other participants look on with patient, faintly amused expressions. No crown, uniforms or historical headman costume.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. At a modest meeting table, a newcomer pauses beside an empty chair holding a closed notebook. A seated speaker turns back toward an earlier blank sheet in a small stack while two other participants look on with patient, faintly amused expressions. No crown, uniforms or historical headman costume.",
+      "caption": "An imagined meeting returning to the beginning for a newcomer.",
+      "alt": "A newcomer stands beside an empty chair while a seated speaker turns to a sheet.",
+      "interpretation_limits": [
+        "Lateness and meeting are editorial inference, not documented village custom; avoid mocking identity or status dress.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-263",
+      "candidate_key": "anvesha-b23-03",
+      "exact_odia": "ପଳେଇ ପଶିଲି ମାଉସୀ ଘରେ ମାଉସୀ ମାଇଲା ଦିପହରେ",
+      "draft_object_sha256": "005c4625f14db3e1d103c7c96a6862bee1c2d8b66715cfb46b1ac55a379b042d",
+      "scene": "One adult carrying a closed folder sits on the edge of a chair seeking attention. Across a small table another adult leans forward with an emphatic open-hand gesture; the visitor looks ruefully disappointed. No aggressive pointing, contact, weapons or clocks.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. One adult carrying a closed folder sits on the edge of a chair seeking attention. Across a small table another adult leans forward with an emphatic open-hand gesture; the visitor looks ruefully disappointed. No aggressive pointing, contact, weapons or clocks.",
+      "caption": "An imagined conversation that adds to a difficult day.",
+      "alt": "Two adults face each other across a table, one gesturing as the other holds a folder.",
+      "interpretation_limits": [
+        "Nonliteral added criticism, not actual aunt or physical assault; no noon/midnight cue because source has multiple senses.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-264",
+      "candidate_key": "anvesha-b23-04",
+      "exact_odia": "ଚିତ୍ତ ଯେବେ ଦୃଢ଼, ତେବେ ଦାରୀ ସାହିରେ ଘର",
+      "draft_object_sha256": "00b3328d07090dc59ebbc6dcca7ee619953bcdf3ef0de2162e3b3e7c58a4aaba",
+      "scene": "Two adults pause at a simple residential doorway in an ordinary lane. One holds a small bag; the other offers a calm welcoming open hand. A seated neighbour nearby tends a potted plant without attention to the pair. No suggestive clothing, signs, red lights, luxury, poverty spectacle or moral contrast.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Two adults pause at a simple residential doorway in an ordinary lane. One holds a small bag; the other offers a calm welcoming open hand. A seated neighbour nearby tends a potted plant without attention to the pair. No suggestive clothing, signs, red lights, luxury, poverty spectacle or moral contrast.",
+      "caption": "An imagined welcome, without judging a person by an address.",
+      "alt": "Two adults meet at a doorway while a neighbour tends a small plant.",
+      "interpretation_limits": [
+        "Explicitly editorial anti-stigma response; no sex-worker identification, documentary neighbourhood or claim about residents conduct.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-265",
+      "candidate_key": "anvesha-b24-01",
+      "exact_odia": "ନିତି ମାଗନ୍ତାକୁ ଦିଅନ୍ତା ନାହିଁ",
+      "draft_object_sha256": "df9183b0326485b10e1d56b6a8467dd256b318c08a9a6942c46ddc40106f39f8",
+      "scene": "Outside a modest room set up for lessons, an adult stands with empty hands near a closed door. Through a separate open window, three chairs are visible inside; no person is shown deliberately refusing. A small book is held under one arm, expression patient rather than pleading.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Outside a modest room set up for lessons, an adult stands with empty hands near a closed door. Through a separate open window, three chairs are visible inside; no person is shown deliberately refusing. A small book is held under one arm, expression patient rather than pleading.",
+      "caption": "An imagined request with no giver in view.",
+      "alt": "An adult carrying a book waits beside a closed door; chairs are visible through a nearby window.",
+      "interpretation_limits": [
+        "Static absence not proof of deliberate refusal, poverty, entitlement or repeated visits; caption carries imagined context.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-266",
+      "candidate_key": "anvesha-b24-02",
+      "exact_odia": "କାହାର କି ଚିନ୍ତା, ବାଇଣ୍ଟି ପୋଇଲିର ଘଇତା ଚିନ୍ତା",
+      "draft_object_sha256": "9d00bce409c12ac0ee79eced67af048b1c3d29df77734a3257d95244ee4df254",
+      "scene": "Four adults sit in a loose semicircle for a reading discussion, including a young adult woman who speaks with an open hand while the others listen respectfully. One plain open book rests on a low table, faces all visible, no wedding symbols, mother scolding, laughter at a participant or readable print.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Four adults sit in a loose semicircle for a reading discussion, including a young adult woman who speaks with an open hand while the others listen respectfully. One plain open book rests on a low table, faces all visible, no wedding symbols, mother scolding, laughter at a participant or readable print.",
+      "caption": "An imagined discussion where everyone’s concerns can be heard.",
+      "alt": "Three adults listen as a young woman speaks beside an open book.",
+      "interpretation_limits": [
+        "Critical response rather than literal abusive address; no child marriage, assumed husband desire, regional costume or gender stereotype.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-267",
+      "candidate_key": "anvesha-b24-03",
+      "exact_odia": "ଦୁନିଆ ଦୋରଙ୍ଗ",
+      "draft_object_sha256": "7de190fe36b39a00a55ab59bab4d02aa5194200b161a2ffd811ceaaa6df4e7bb",
+      "scene": "An empty gathering space after a celebration: a simple strand of plain triangular bunting hangs above two adults stacking lightweight chairs. A few chairs remain in rows on the other side, clear stable legs and supported grips. No guests, rubbish spectacle, logos or text.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. An empty gathering space after a celebration: a simple strand of plain triangular bunting hangs above two adults stacking lightweight chairs. A few chairs remain in rows on the other side, clear stable legs and supported grips. No guests, rubbish spectacle, logos or text.",
+      "caption": "An imagined contrast between the occasion and the work around it.",
+      "alt": "Two adults stack chairs beneath simple bunting after a gathering.",
+      "interpretation_limits": [
+        "One editorial pair of contrasting pictures; no deceit moral or claim this was the sayings original setting.",
+        "Caption/alt provisional until separate review of actual pixels; no image generation authorized in this preparation."
+      ],
+      "review_checklist": [
+        "Check fingers, limbs, contact, weight and object support.",
+        "Ensure sparse detail remains legible at book scale.",
+        "Preserve variation in viewpoint, age and everyday clothing; avoid identical faces/hair across set.",
+        "No historical, botanical, regional or current-practice assertion from invented imagery."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-268",
+      "candidate_key": "anvesha-b25-01",
+      "exact_odia": "ଜର ଅଇଲା ଧାନକୁଟା ବେଳକୁ ଜର ଛାଡ଼ିଲା ଭାତ ଫୁଟା ବେଳକୁ",
+      "draft_object_sha256": "973e8db98dbfe3adc6decdd9ac356df1fa041804b344cdf893f17e8f1aa8d0a9",
+      "scene": "A single unbordered two-moment illustration: at left a wooden mortar and pestle stand idle while an adult rests on a stool; at right the same adult stands near a pot with a few steam lines. Modest kitchen, fully clothed figure, no grimace or triumphant smile. Keep the pot visibly cooking, no served meal.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A single unbordered two-moment illustration: at left a wooden mortar and pestle stand idle while an adult rests on a stool; at right the same adult stands near a pot with a few steam lines. Modest kitchen, fully clothed figure, no grimace or triumphant smile. Keep the pot visibly cooking, no served meal.",
+      "caption": "The saying notices timing; the illustration leaves the reason open.",
+      "alt": "Two moments show an adult resting near a mortar and later standing near a steaming pot.",
+      "interpretation_limits": [
+        "No feigned-illness diagnosis, lazy-person verdict, medical advice or eating scene; two moments are imagined.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-269",
+      "candidate_key": "anvesha-b25-02",
+      "exact_odia": "ଆଶା ଲୁବଧରେ ପୂରିଲା କାଳ, ଷଣ୍ଢ ପଛେଧାଇଁ ମଲା ଶିଆଳ",
+      "draft_object_sha256": "4aac3514c810d3f1a15a8c5f70afa9af0b888df4d9597b587df8869d6fdbe761",
+      "scene": "Side-on literary vignette of a small fox walking several body lengths behind a bull along a plain path. Both animals intact and alive, neutral posture; no prize, falling object, sexual detail, carcass or dramatic chase. Sparse ground line, large white space ahead.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Side-on literary vignette of a small fox walking several body lengths behind a bull along a plain path. Both animals intact and alive, neutral posture; no prize, falling object, sexual detail, carcass or dramatic chase. Sparse ground line, large white space ahead.",
+      "caption": "Pursuit pictured without inventing an object of desire.",
+      "alt": "A fox follows a bull at a distance along a path.",
+      "interpretation_limits": [
+        "No reconstructed fable, invented pursuit object, cause of death or zoological assertion; source outcome remains in text.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-270",
+      "candidate_key": "anvesha-b26-01",
+      "exact_odia": "ମୁ ଖାଉଥାଏଁ ମୋହୋର ଭାତ; ତୋହୋର କିଆଁ ଗାଲରେ ହାତ!",
+      "draft_object_sha256": "baa0060deb63f0b68fe420e32f3bdfe4c6d3abb531fafdff543ff613169f50b3",
+      "scene": "Three-quarter view of two adults at a small dining table. One sits beside a modest plate of rice and pauses with their hand near the plate; the other rests a cheek on one palm, elbow supported. Expressions restrained, no greedy stare, pointing or comic body proportions.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Three-quarter view of two adults at a small dining table. One sits beside a modest plate of rice and pauses with their hand near the plate; the other rests a cheek on one palm, elbow supported. Expressions restrained, no greedy stare, pointing or comic body proportions.",
+      "caption": "An imagined question between a meal and a troubled expression.",
+      "alt": "One adult sits beside a plate while another supports their cheek with a hand.",
+      "interpretation_limits": [
+        "Pose does not prove envy or a particular motive; no actual household documented.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-271",
+      "candidate_key": "anvesha-b26-02",
+      "exact_odia": "ଯାହାଁ ଯାହାଁ ବୁଢ଼ା, ତାହଁ ତାହାଁ ବେକୁବ୍",
+      "draft_object_sha256": "1e82c9791a0a6187b2f34b7b405892a918aa8deef9a78133857a118538d44473",
+      "scene": "At a repair bench, an older adult carefully holds a small wooden joint while a younger adult looks at the same joint. Both hands supported, tool lying on bench rather than in use. Side view, no teacher-pupil caricature or miraculous repair.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. At a repair bench, an older adult carefully holds a small wooden joint while a younger adult looks at the same joint. Both hands supported, tool lying on bench rather than in use. Side view, no teacher-pupil caricature or miraculous repair.",
+      "caption": "An imagined moment of attending to a person rather than an age label.",
+      "alt": "Two adults of different ages inspect a wooden joint at a workbench.",
+      "interpretation_limits": [
+        "Critical counterreading, not original taunt illustrated as fact; no claim age guarantees wisdom or skill.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-272",
+      "candidate_key": "anvesha-b27-01",
+      "exact_odia": "ମୂହଁଟି ସୁନ୍ଦର ଦେହଟି ଭେଲା",
+      "draft_object_sha256": "46bcaec25f9eb68e7ff5d3df8a02ff4cf75876be1a8732d9bd1911ee6ff37e41",
+      "scene": "An adult in ordinary loose clothing carries a folded cloth toward a community-room shelf. Another person holds the shelf door open and makes space for them. Full figures in a quiet side view, no mirrors, body comparison, beauty ranking or exaggerated anatomy.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. An adult in ordinary loose clothing carries a folded cloth toward a community-room shelf. Another person holds the shelf door open and makes space for them. Full figures in a quiet side view, no mirrors, body comparison, beauty ranking or exaggerated anatomy.",
+      "caption": "An imagined welcome that leaves appearance judgments aside.",
+      "alt": "One adult carries folded cloth while another holds open a cupboard.",
+      "interpretation_limits": [
+        "Editorial dignity response; no before-and-after body, assumed gender or supposed ugly body.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-273",
+      "candidate_key": "anvesha-b27-02",
+      "exact_odia": "ମହତଲୋକର ମହତ କଥା",
+      "draft_object_sha256": "738a14e4d3f44b20be310c32dc086940f3e09cd1bb5952e089f6c62779b2aae3",
+      "scene": "Low close view at a bus-stop bench: one adult moves a bag from the seat to their lap, leaving space for another adult standing nearby. Natural unequal spacing, modest clothes, no polished halo of virtue or cheering spectators.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Low close view at a bus-stop bench: one adult moves a bag from the seat to their lap, leaving space for another adult standing nearby. Natural unequal spacing, modest clothes, no polished halo of virtue or cheering spectators.",
+      "caption": "An imagined small act behind appreciative words.",
+      "alt": "A seated adult lifts a bag onto their lap beside an open place on a bench.",
+      "interpretation_limits": [
+        "Original illustration of consideration, not documented traditional use or class-based nobility.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-274",
+      "candidate_key": "anvesha-b27-03",
+      "exact_odia": "କଳି ନ ଥିଲେ ଦି ମାଇପ କର ଭାତ ନ ସରିଲେ ଦୋଘରା କର",
+      "draft_object_sha256": "a1290de6a1cdeb3ff17e1d8ae667afdf96002a4a23c440a27b0f301f6605fa33",
+      "scene": "An adult pauses between two simple rooms, holding a light basket of household items. In each room one unmade chair cushion and an empty shelf await attention. Clear open doorways and supported basket; no spouses, quarrel or poverty spectacle.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. An adult pauses between two simple rooms, holding a light basket of household items. In each room one unmade chair cushion and an empty shelf await attention. Clear open doorways and supported basket; no spouses, quarrel or poverty spectacle.",
+      "caption": "An imagined view of the work spread across two places.",
+      "alt": "An adult holding a basket stands between two sparsely furnished rooms.",
+      "interpretation_limits": [
+        "Uses the second clause as editorial cost image; no wives-causing-conflict claim or marriage prescription.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-275",
+      "candidate_key": "anvesha-b28-01",
+      "exact_odia": "ଆଖି କଜଳ ସୁହାଯାଏ ଟିରିକି କଜଳ ସୁହା ନ ଯାଏ",
+      "draft_object_sha256": "335a9dd5490edf61d7f32c17153dc3d7f1eefe1ed3f0c441b2602a03e91b3ce9",
+      "scene": "A hand holds a round wooden peg above a square opening in a toy sorting board. The peg diameter is visibly wider than the square opening; a suitably sized matching round opening is visible nearby. Board rests flat on table, perspective clear, no labels or arrow. Close object study rather than a lesson diagram.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A hand holds a round wooden peg above a square opening in a toy sorting board. The peg diameter is visibly wider than the square opening; a suitably sized matching round opening is visible nearby. Board rests flat on table, perspective clear, no labels or arrow. Close object study rather than a lesson diagram.",
+      "caption": "An imagined change of place makes the question of fit visible.",
+      "alt": "A hand holds a round peg near differently shaped openings in a wooden board.",
+      "interpretation_limits": [
+        "Nonliteral editorial application; no bodily kohl practice, shame, health instruction or human worth hierarchy.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-276",
+      "candidate_key": "anvesha-b29-01",
+      "exact_odia": "ନାମ ବଡ଼ା ଦର୍ଶନ ଥୋଡ଼ା",
+      "draft_object_sha256": "ba014b88191cea4c651a3291fb20bd18f6a14952abdd794ffb80379ee3597e5c",
+      "scene": "A tall plain presentation plinth supports a very small unfinished clay model. Beside it, an adult leans slightly to inspect the model without ridicule. No lettering, award, real institution or height-based caricature; emphasis on disparity between display and work.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A tall plain presentation plinth supports a very small unfinished clay model. Beside it, an adult leans slightly to inspect the model without ridicule. No lettering, award, real institution or height-based caricature; emphasis on disparity between display and work.",
+      "caption": "An imagined display invites a closer look at what it contains.",
+      "alt": "An adult examines a small clay model on a tall plain stand.",
+      "interpretation_limits": [
+        "No named incompetent person or physical-size measure of ability; display is an editorial analogy.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-277",
+      "candidate_key": "anvesha-b29-02",
+      "exact_odia": "ମୁଣ୍ଡ ନାହିଁ, ତାର ମୁଣ୍ଡ ବଥା",
+      "draft_object_sha256": "2e5b6c7e9f2a271227217f5b41b8bc2626d7f7897b40bc2399e309bfd07ac822",
+      "scene": "A person sits at an empty committee table with a worried but mild expression, one hand near the forehead. The surrounding chairs are empty; a closed plain notebook rests on the table. Wide view, no medical symbols or comic headlessness.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A person sits at an empty committee table with a worried but mild expression, one hand near the forehead. The surrounding chairs are empty; a closed plain notebook rests on the table. Wide view, no medical symbols or comic headlessness.",
+      "caption": "An imagined worry about a responsibility that has not been assigned.",
+      "alt": "An adult sits at a table with empty chairs and a closed notebook.",
+      "interpretation_limits": [
+        "Caption carries imagined absent responsibility; no assertion visible pain is fake, diagnosis or literal decapitation.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-278",
+      "candidate_key": "anvesha-b29-03",
+      "exact_odia": "ଯାହାକୁ ଯେ ? ବିରିକି ଚାଉଳ ତିନ୍ତେଇ ଦେ",
+      "draft_object_sha256": "0b55763fe0e6d94bf537e2817219a975d66202c4771f12adf2d22c7b1a12533c",
+      "scene": "Overhead study of two hands bringing a plain sketch sheet and a small physical wooden model alongside each other on a work surface. Sheet has only a few nonlinguistic outlines; the model is simple and intact. Objects complement one another without being identical.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Overhead study of two hands bringing a plain sketch sheet and a small physical wooden model alongside each other on a work surface. Sheet has only a few nonlinguistic outlines; the model is simple and intact. Objects complement one another without being identical.",
+      "caption": "An imagined pair of tools for understanding something together.",
+      "alt": "Hands place a sketch beside a small wooden model.",
+      "interpretation_limits": [
+        "Editorial complementarity, not a named rice dish, recipe, proportion or rule for grouping people.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-279",
+      "candidate_key": "anvesha-b30-01",
+      "exact_odia": "ଘରନିଆଁ ବୋଲି ଅଣ୍ଟିରେ ପୂରାଇବା",
+      "draft_object_sha256": "fa60c46ae0c3d06825c3f269a0e54bb1e643eaf61a39f476da881f0cb0d1e542",
+      "scene": "A person at an editing table pauses over a small torn page from their own handmade booklet. One hand holds the page flat while the other indicates the tear; a second adult looks on neutrally. No readable words, flame, weapon or family-conflict scene.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A person at an editing table pauses over a small torn page from their own handmade booklet. One hand holds the page flat while the other indicates the tear; a second adult looks on neutrally. No readable words, flame, weapon or family-conflict scene.",
+      "caption": "An imagined pause before overlooking a flaw because it is one’s own work.",
+      "alt": "Two adults examine a torn page in a handmade booklet.",
+      "interpretation_limits": [
+        "Nonliteral editorial warning; no fire-handling advice, source negation added, or invented domestic-abuse incident.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-280",
+      "candidate_key": "anvesha-b30-02",
+      "exact_odia": "ଶାହି ଶାହି ହୋଇ ବୁଲଇ ଗୋରସ, ମଦ ବିକାଯାଏ ବସି",
+      "draft_object_sha256": "da0d81565cb6a631a3e97137e5b1a18c90a1dfedf1c749cb066e45e5cb1143d1",
+      "scene": "Two modest market setups in a wide side view: at left an adult walks with a closed basket supported in both hands; at right another sits beside a small table of closed jars. No alcohol identifiers, buyers, price labels or superior/inferior expressions.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Two modest market setups in a wide side view: at left an adult walks with a closed basket supported in both hands; at right another sits beside a small table of closed jars. No alcohol identifiers, buyers, price labels or superior/inferior expressions.",
+      "caption": "An imagined contrast between taking an offering around and waiting beside it.",
+      "alt": "One adult carries a basket past another seated beside jars on a table.",
+      "interpretation_limits": [
+        "Movement contrast only; no verified milk/liquor trading custom, demand, moral ranking or consumer claim.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-281",
+      "candidate_key": "anvesha-b30-03",
+      "exact_odia": "ବୋହି ଗଲା ପାଣି ଯାଉ ତେଣିକି, ବନ୍ଧେଇଲା ପାଣି ରହୁ ଅଟକି",
+      "draft_object_sha256": "3c14c7ef329f62859c69a0123c8e3254713b85c907bebef8da5c848b1eba7b19",
+      "scene": "Close still life after a minor spill: a small tipped cup, a shallow puddle and a second upright cup still partly full on a sturdy table. A hand steadies the upright cup. No dam, river, dangerous liquid or impossible suspended water.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Close still life after a minor spill: a small tipped cup, a shallow puddle and a second upright cup still partly full on a sturdy table. A hand steadies the upright cup. No dam, river, dangerous liquid or impossible suspended water.",
+      "caption": "An imagined turn toward what remains.",
+      "alt": "A hand steadies an upright cup beside a tipped cup and small spill.",
+      "interpretation_limits": [
+        "Editorial application, not engineering, water conservation instructions or promise of loss recovery.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-282",
+      "candidate_key": "anvesha-b30-04",
+      "exact_odia": "ଛୋଟ ମୁହଁରେ ବଡ଼ କଥା, ଶୁଣିଲା ଲୋକର ମନ ବ୍ୟଥା",
+      "draft_object_sha256": "2de4237061f44ea29d8638ee763a6407868464db7b4a4c17a23cd71cd6de1c33",
+      "scene": "At an outdoor noticeboard with no readable writing, three adults stand at different angles. One speaks with a small open-hand gesture; a second listens directly; the third looks at the board. Equal dignity, no uniforms or visual caste/rank markers.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. At an outdoor noticeboard with no readable writing, three adults stand at different angles. One speaks with a small open-hand gesture; a second listens directly; the third looks at the board. Equal dignity, no uniforms or visual caste/rank markers.",
+      "caption": "An imagined hearing for words before judging the speaker’s standing.",
+      "alt": "Three adults gather by a plain board while one gestures and another listens.",
+      "interpretation_limits": [
+        "Critical response to hierarchy, not the source’s traditional moral; no class coded by clothing or body size.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-283",
+      "candidate_key": "anvesha-b31-01",
+      "exact_odia": "ମଉନମୁହୀଁର ଅପାର ଗୁଣ",
+      "draft_object_sha256": "624789b61af33048b8084159ac25174dbbdbd21b0a66881907932c01292526dd",
+      "scene": "A quiet adult sits at the edge of a rehearsal space holding a closed script on their knees. Nearby two others look toward the empty performance area rather than whispering about them. Loose natural spacing, no furtive gaze or scheming pose.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A quiet adult sits at the edge of a rehearsal space holding a closed script on their knees. Nearby two others look toward the empty performance area rather than whispering about them. Loose natural spacing, no furtive gaze or scheming pose.",
+      "caption": "An imagined pause that does not make silence a verdict.",
+      "alt": "An adult with a closed script sits near two people facing an open rehearsal space.",
+      "interpretation_limits": [
+        "Counterreading of source stereotype; no proof of deceit, gender trait or mandatory introversion story.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-284",
+      "candidate_key": "anvesha-b31-02",
+      "exact_odia": "ଧର୍ମ ଡଙ୍ଗା ସୁଖରେ ଯାଏ",
+      "draft_object_sha256": "a45be1e13514feeddb09583ac58c2d147ee5c7000b2ee5ca4a2dcd91ccb3c36d",
+      "scene": "A small empty wooden boat is tied securely beside a calm bank, seen obliquely with a loose coil of rope on shore. No passenger, storm, glowing deity, supernatural support or safety demonstration. Sparse reflection, white background.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A small empty wooden boat is tied securely beside a calm bank, seen obliquely with a loose coil of rope on shore. No passenger, storm, glowing deity, supernatural support or safety demonstration. Sparse reflection, white background.",
+      "caption": "The boat retained as an image of reassurance.",
+      "alt": "An empty wooden boat rests tied beside a calm bank.",
+      "interpretation_limits": [
+        "Literary faith image only; no guarantee that belief keeps boats afloat or navigation guidance.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-285",
+      "candidate_key": "anvesha-b31-03",
+      "exact_odia": "ଆଗେରେ କାଳିଆ ! ନାହିଁ କରୁଥିଲୁ ସିଘାଂଣି ନାକକୁ ଦେଖି, ଏବେରେ କାଳିଆ ! ଝୁରି ମରୁଅଛୁ ଥନ ଯଉବନ ଦେଖି",
+      "draft_object_sha256": "48dde115922dc13b2d514e7eb46c7c7083b89d7e518935dc819d27a9c96e516a",
+      "scene": "At a doorway, one adult pauses while another turns to look at them; the first maintains a composed expression and carries a plain bag. Both are unmistakably adults in ordinary clothing. Side view with a little space between them, no body emphasis or romantic staging.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. At a doorway, one adult pauses while another turns to look at them; the first maintains a composed expression and carries a plain bag. Both are unmistakably adults in ordinary clothing. Side view with a little space between them, no body emphasis or romantic staging.",
+      "caption": "An imagined pause under a changed gaze.",
+      "alt": "Two adults face one another near a doorway, one carrying a bag.",
+      "interpretation_limits": [
+        "Caption supplies editorial changed response; no depicted childhood, sexualized before-and-after, deity or specific relationship.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-286",
+      "candidate_key": "anvesha-b32-01",
+      "exact_odia": "ମନର ଗୁଣେ ଫଳ ଫଳେ",
+      "draft_object_sha256": "419e68f55379b75158927c4a3dcff7aa1a5c59355488b5f78a0c245de054d7d9",
+      "scene": "A person tending a small potted plant checks its drooping support tie while an open notebook lies nearby. The plant has ordinary leaves, no miraculous fruit or symbolic rays. Close side view, clear fingers and stem separate from support.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A person tending a small potted plant checks its drooping support tie while an open notebook lies nearby. The plant has ordinary leaves, no miraculous fruit or symbolic rays. Close side view, clear fingers and stem separate from support.",
+      "caption": "An imagined attentive approach to work, without a promised harvest.",
+      "alt": "An adult adjusts a support beside a potted plant.",
+      "interpretation_limits": [
+        "Editorial application of mind/fruit image; no thoughts-causing-success, blame for adversity or botanical guarantee.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-287",
+      "candidate_key": "anvesha-b32-02",
+      "exact_odia": "କହୁଛି ମତେ ରଗାନା, ମୋ ସାଙ୍ଗରେ ତୁ ଲାଗନା",
+      "draft_object_sha256": "c0ce9b93acd7ca0b20bd32ee506e3481bc4b60f40baee443401803914e539e3e",
+      "scene": "Two adults stand beside a game board on a low table. One holds a calm palm outward at chest height; the other has stopped reaching toward a piece. Distinct hands, relaxed shoulders, no clenched fist, threat or winner’s pose.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Two adults stand beside a game board on a low table. One holds a calm palm outward at chest height; the other has stopped reaching toward a piece. Distinct hands, relaxed shoulders, no clenched fist, threat or winner’s pose.",
+      "caption": "An imagined boundary voiced before play continues.",
+      "alt": "One adult raises an open palm while another pauses beside a game board.",
+      "interpretation_limits": [
+        "Peaceful original application, no documented quarrel, universal conflict rule or implied violence.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-288",
+      "candidate_key": "anvesha-b32-03",
+      "exact_odia": "ପୀଢ଼ା ଫାଟେ ନାହି ଲେଉଟେ ତେବେ ସେ ବ୍ରାହ୍ମଣ ଠାଆରୁ ଉଠ",
+      "draft_object_sha256": "0a6ba4bcf6cd820278b4f329c7a8c52c65306237cca58068e046b27cc9775f33",
+      "scene": "A plain sturdy stool and a modest plate stand on the floor beside three adults in a reading discussion; one adult gestures toward an open book on their lap while the others listen. No person sits on or breaks the stool; no swollen body, caste clothing or sacred markers.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A plain sturdy stool and a modest plate stand on the floor beside three adults in a reading discussion; one adult gestures toward an open book on their lap while the others listen. No person sits on or breaks the stool; no swollen body, caste clothing or sacred markers.",
+      "caption": "An imagined discussion that examines a bodily taunt rather than repeating its judgment.",
+      "alt": "Three adults discuss an open book beside an empty stool and a plate.",
+      "interpretation_limits": [
+        "Critical response; no literal group overeating, medical fact or repaired ending syntax. The provisional translation remains in prose.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-289",
+      "candidate_key": "anvesha-b33-01",
+      "exact_odia": "ଜାଣିଥିଲିକି? କିଏ ସୂନା କିଏ ପିତଳ ବୋଲି ନିକିତି ପକେଇ ତୁଳି ଥିଲିକି?",
+      "draft_object_sha256": "f699f5d57694ba3799dc2cc679d827de8a667bb48f8a6a133be5d627eb03340d",
+      "scene": "Close view of a tabletop balance with two plain metal pieces beside it, not on the pans. A hand hesitates near one piece, the other rests on the table. No gold colour, assay equipment, labels or claim the balance has given a verdict.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Close view of a tabletop balance with two plain metal pieces beside it, not on the pans. A hand hesitates near one piece, the other rests on the table. No gold colour, assay equipment, labels or claim the balance has given a verdict.",
+      "caption": "An imagined pause before a judgment is made.",
+      "alt": "A hand hovers near two metal pieces beside an empty tabletop balance.",
+      "interpretation_limits": [
+        "Source weighing image retained as question, not chemical identification or human-value hierarchy.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-290",
+      "candidate_key": "anvesha-b33-02",
+      "exact_odia": "ନିୟାମୀ ନାନୀ,ଦିହିରେ ମାରୁଛି ଗୋବର ପାଣି",
+      "draft_object_sha256": "69cb11188451ddff24a4da1d45cc036c39de5486d93a38d94e9b007ed4be2d35",
+      "scene": "An adult woman in ordinary clothing pauses beside a wash basin with a folded towel; she looks at a second adult who holds an open book at waist height. Neither mocks the other. No cow dung, body application, ritual costume or hygiene demonstration.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. An adult woman in ordinary clothing pauses beside a wash basin with a folded towel; she looks at a second adult who holds an open book at waist height. Neither mocks the other. No cow dung, body application, ritual costume or hygiene demonstration.",
+      "caption": "An imagined conversation about the judgment inside an ironic address.",
+      "alt": "Two adults stand beside a basin and towel, one holding an open book.",
+      "interpretation_limits": [
+        "Editorial reflection, not original cleansing practice, clinical diagnosis or claim about women/tradition.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-291",
+      "candidate_key": "anvesha-b33-03",
+      "exact_odia": "ଭୁଆ ଆପଣା ଛୁଆକୁ ଖାଇବା (ନ୍ୟାୟ)",
+      "draft_object_sha256": "5667f1af91482e257a54fda130765f2ac297ff2e3d86fe3dfcd6901f6ff11cf9",
+      "scene": "A small cat sits at a respectful distance from a closed basket on a shaded step. No kittens, prey, food, attack, threatening eyes or visible contents. A human hand rests nearby without reaching toward the cat. Simple quiet composition.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A small cat sits at a respectful distance from a closed basket on a shaded step. No kittens, prey, food, attack, threatening eyes or visible contents. A human hand rests nearby without reaching toward the cat. Simple quiet composition.",
+      "caption": "A restrained image beside a source analogy about expectation.",
+      "alt": "A cat sits near a closed basket on a step.",
+      "interpretation_limits": [
+        "No animal harm or biological generalization; basket contents intentionally unspecified, not a reconstructed fable.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-292",
+      "candidate_key": "anvesha-b33-04",
+      "exact_odia": "ଭଇଁରା ଗାଁରେ ପୁରାଣ ସଭା ଶୁଣିଲା ଲୋକେ ହୋଇବେ କାବା",
+      "draft_object_sha256": "b7fa0828ad39c7f9c0290e3c68c535f40e38a1351c3a86e512fd2fa5fbf186e4",
+      "scene": "A semicircle of four adults watches a fifth adult who gestures beside a large plain picture card with a simple tree outline. One participant has an unobstructed view from the side. Varied natural poses, no caricatured ears, ear-cupping or everyone staring at viewer.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A semicircle of four adults watches a fifth adult who gestures beside a large plain picture card with a simple tree outline. One participant has an unobstructed view from the side. Varied natural poses, no caricatured ears, ear-cupping or everyone staring at viewer.",
+      "caption": "An imagined gathering that offers more than one way to take part.",
+      "alt": "Four seated adults face a presenter holding a simple picture card.",
+      "interpretation_limits": [
+        "Inclusive editorial response; no diagnosis, actual village, verified signing language or claim deafness means poor understanding.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-293",
+      "candidate_key": "anvesha-b34-01",
+      "exact_odia": "ଏଇ ପେଟ ! ଏଇ ପେଟ ଲାଗି ବଙ୍ଗଳା ବାଟ",
+      "draft_object_sha256": "926903b9ed046aaa1d08494b1807467e0dc2bfd451b5df8af813baecda7cfc95",
+      "scene": "A lone adult traveller pauses on a simple roadside bench with a cloth bag beside their foot and a small food container in hand. No temple, pilgrimage entourage, destination sign, uniform or identifiable historic costume. Long quiet horizontal composition.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A lone adult traveller pauses on a simple roadside bench with a cloth bag beside their foot and a small food container in hand. No temple, pilgrimage entourage, destination sign, uniform or identifiable historic costume. Long quiet horizontal composition.",
+      "caption": "An imagined rest on a journey undertaken for livelihood.",
+      "alt": "A traveller sits on a bench beside a bag and food container.",
+      "interpretation_limits": [
+        "Source route explanation remains attributed in text; no documentary Puri agent, current recruitment practice or universal motive.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-294",
+      "candidate_key": "anvesha-b34-02",
+      "exact_odia": "ହିନ୍ଦୁ ନ ଖାଆନ୍ତି ପିଆଜ, ପଠାଣ ନ ଖାଆନ୍ତି ବିଆଜ",
+      "draft_object_sha256": "94757ef845a106db4a4a74983cb0b0fd91603f66ffea73e7eef71bb071fce3a2",
+      "scene": "On a reading table, a small onion rests beside a closed account notebook and a pencil. Two adults sit beyond the objects, discussing a plain open book with neutral expressions. No religious clothing, currency symbols, food prohibition gesture or moral contrast.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. On a reading table, a small onion rests beside a closed account notebook and a pencil. Two adults sit beyond the objects, discussing a plain open book with neutral expressions. No religious clothing, currency symbols, food prohibition gesture or moral contrast.",
+      "caption": "An imagined discussion of how the rhyme joins unlike prohibitions.",
+      "alt": "Two adults sit behind an onion, notebook and open book on a table.",
+      "interpretation_limits": [
+        "Editorial analysis, not religious ruling, financial advice or identity equivalence; no community dietary traits depicted.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-295",
+      "candidate_key": "anvesha-b35-01",
+      "exact_odia": "ପୋଡ଼ି ଯାଉ ଏ ଯୁଗର ରୀତି, ଅଜା ଥାଉଁ ଥାଉଁ ମରଇ ନାତି",
+      "draft_object_sha256": "88265958b52e6c22b4ae7251fa50c69975f1d2e02fb723a56cc04161c8ef8927",
+      "scene": "A quiet domestic corner: an older adult sits beside an empty ordinary chair, hands resting loosely on their knees. Another adult stands nearby with a glass of water, without forcing it upon them. No corpse, funeral symbols, age-coded portrait or dramatic tears.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. A quiet domestic corner: an older adult sits beside an empty ordinary chair, hands resting loosely on their knees. Another adult stands nearby with a glass of water, without forcing it upon them. No corpse, funeral symbols, age-coded portrait or dramatic tears.",
+      "caption": "An imagined moment of company beside an absence.",
+      "alt": "An older adult sits beside an empty chair while another stands nearby holding water.",
+      "interpretation_limits": [
+        "Poetic grief illustration, no documented death, generational statistics, specific bereaved family or cause.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-296",
+      "candidate_key": "anvesha-b35-02",
+      "exact_odia": "ବଡ଼ ଘର ଦେଖି ବନ୍ଧୁ କଲି ଝିଅକୁ ନେଇ ଯମକୁ ଦେଲି",
+      "draft_object_sha256": "853a6c3dd6b7cb5d94eba75d8c46440974a02f3cba65c0dea38bae4defff4a1a",
+      "scene": "At a plain table, an adult turns a framed photograph face down while another adult rests a hand on the table nearby. The reverse is blank; no wedding image, deity, mansion or violent detail. Both faces subdued, no accusatory pointing.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. At a plain table, an adult turns a framed photograph face down while another adult rests a hand on the table nearby. The reverse is blank; no wedding image, deity, mansion or violent detail. Both faces subdued, no accusatory pointing.",
+      "caption": "An imagined moment of reconsidering a choice made through appearances.",
+      "alt": "Two adults sit by a table with a face-down frame.",
+      "interpretation_limits": [
+        "Editorial regret, not evidence of dowry, abuse, death or a specific marriage; no universally harmful wealthy household.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-297",
+      "candidate_key": "anvesha-b35-03",
+      "exact_odia": "ତୁଚ୍ଛାକୁ ତୁଚ୍ଛା, ତୁଚ୍ଛା କାଞ୍ଜି ପାଣି ମନମୁରୁଛା",
+      "draft_object_sha256": "fa897b580e1302106de85de1999ac98549dcc378fa6b6ddef87ea0149a471c99",
+      "scene": "Three friends sit on ordinary chairs in a living room, one reading a thin script while another follows a separate page and the third listens. No stage, audience, food bowl or celebratory expressions. Side angle and restrained furnishing distinguish this from formal discussion circles.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. Three friends sit on ordinary chairs in a living room, one reading a thin script while another follows a separate page and the third listens. No stage, audience, food bowl or celebratory expressions. Side angle and restrained furnishing distinguish this from formal discussion circles.",
+      "caption": "An imagined smaller consolation after a larger plan falls through.",
+      "alt": "Three friends share a script and listen in a room.",
+      "interpretation_limits": [
+        "Original theatre-reading example, not a recipe, nutrition judgment or source performance occasion.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-298",
+      "candidate_key": "anvesha-b36-01",
+      "exact_odia": "ଲାଗ୍ ଖାଉଁ, ଲଗେଇ ନାଇ ହଉଁ",
+      "draft_object_sha256": "54c4ee1c6cc01678e64649314cf1b216f84b781d7e1055f715975e32b1db0ece",
+      "scene": "An adult carries their own small parcel while gently declining a second parcel offered by another adult with an open hand. Both parcels light, grips supported, expressions cordial; no contract, bank, money or accusatory expression.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. An adult carries their own small parcel while gently declining a second parcel offered by another adult with an open hand. Both parcels light, grips supported, expressions cordial; no contract, bank, money or accusatory expression.",
+      "caption": "An imagined distinction between one’s own burden and another’s.",
+      "alt": "One adult holds a parcel and raises an open hand toward a second offered parcel.",
+      "interpretation_limits": [
+        "Nonfinancial editorial analogy, no recommendation about borrowing or surety and no regional origin claim.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    },
+    {
+      "proposed_id": "POD-DHAGA-299",
+      "candidate_key": "anvesha-b36-02",
+      "exact_odia": "କାହାଗେ କହିବି ଶୁଣିବ କେ? ସାଆନ୍ତ ଅବୁଝା ମାରିବ ଯେ",
+      "draft_object_sha256": "df036be19e7fefe6f8dc584eaac76c0eaf707cdcfa0ac91d8ed4b1e874663bc9",
+      "scene": "In a quiet office doorway, a seated adult turns away from a small desk to face a standing adult and listen. The standing person holds their hands loosely together; no raised striking arm, weapon, uniform, bruise or threatening posture. Clear eye line and ordinary furniture.",
+      "image_prompt": "Original literary editorial illustration, fine black ink on clean white paper, sparse grey hatching and generous negative space; strictly monochrome, no sepia. Believable human anatomy, clear hands and physically supported objects. No text, labels, borders, speech balloons or identifiable real people. No documentary reconstruction. In a quiet office doorway, a seated adult turns away from a small desk to face a standing adult and listen. The standing person holds their hands loosely together; no raised striking arm, weapon, uniform, bruise or threatening posture. Clear eye line and ordinary furniture.",
+      "caption": "An imagined listener beyond the fear voiced in the saying.",
+      "alt": "A seated adult turns toward a standing person in a doorway.",
+      "interpretation_limits": [
+        "Explicit peaceful continuation, not a documented assault, authority stereotype or the source’s supplied outcome.",
+        "Provisional caption/alt must be checked against actual pixels; no generation or image approval in preparation."
+      ],
+      "review_checklist": [
+        "Check limb counts, grips, contact, gravity, seating and object support.",
+        "Keep fine black ink, white paper and sparse hatching readable at book scale.",
+        "Review neighbouring images for repeated faces, hair, furniture and framing; preserve distinct scenes.",
+        "No documentary event, invented origin, medical/financial advice or group-trait assertion from illustration."
+      ]
+    }
+  ],
+  "collection_direction": "Human Natural Image, Poetic/Editorial Natural: varied viewpoints and selective detail, credible supported objects, no generic repeated picturesque setting. Black ink/white paper matches existing book.",
+  "revision_note": "Separate Drishti brief review:269 caption removes unsupported promise;275 peg/square dimensions now physically support fit contrast. Previous full briefs preserved in history-before-brief-review-corrections."
+}

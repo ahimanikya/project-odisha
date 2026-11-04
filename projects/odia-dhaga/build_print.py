@@ -22,7 +22,7 @@ from svglib.svglib import svg2rlg
 from build import load_library, reading_caption, book_cover, intro_source_ids
 ROOT=Path(__file__).resolve().parent
 # Reviewed exception: preserve the complete critical bilingual reading at normal type size.
-FULL_WIDTH_READING_IDS=frozenset({'POD-DHAGA-246', 'POD-DHAGA-248', 'POD-DHAGA-236', 'POD-DHAGA-235', 'POD-DHAGA-241', 'POD-DHAGA-243', "POD-DHAGA-223", "POD-DHAGA-224", "POD-DHAGA-225", "POD-DHAGA-226", "POD-DHAGA-227", "POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
+FULL_WIDTH_READING_IDS=frozenset({'POD-DHAGA-268', 'POD-DHAGA-269', 'POD-DHAGA-280', 'POD-DHAGA-285', 'POD-DHAGA-288', 'POD-DHAGA-293', 'POD-DHAGA-252', 'POD-DHAGA-253', 'POD-DHAGA-254', 'POD-DHAGA-246', 'POD-DHAGA-248', 'POD-DHAGA-236', 'POD-DHAGA-235', 'POD-DHAGA-241', 'POD-DHAGA-243', "POD-DHAGA-223", "POD-DHAGA-224", "POD-DHAGA-225", "POD-DHAGA-226", "POD-DHAGA-227", "POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
 
 class FlowPage(Flowable):
     def __init__(self, placements, width, height, filler=None):
@@ -187,7 +187,10 @@ def make_book(root=ROOT):
                         im=svg2rlg(str(src));scale=min(cardwidth/im.width,190/im.height);im.width*=scale;im.height*=scale;im.scale(scale,scale)
                     else:
                         raster=RasterImage.open(src).convert('RGB');raster.thumbnail((1400,1000));encoded=BytesIO();raster.save(encoded,format='JPEG',quality=90);encoded.seek(0)
-                        im=Image(encoded);scale=min(cardwidth/im.imageWidth,190/im.imageHeight);im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale
+                        im=Image(encoded);scale=min(cardwidth/im.imageWidth,190/im.imageHeight)
+                        if ident in {'POD-DHAGA-268','POD-DHAGA-269','POD-DHAGA-280','POD-DHAGA-293'}:
+                            scale=min((usable-12)/im.imageWidth,159.7014735658043/im.imageHeight)
+                        im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale
                     caption=p(reading_caption(g['caption']),'small')
                 units.append({'id':ident,'chapter':ch['label'],'unit':(blocks,im,caption)})
                 for sid in dict.fromkeys(w['source_id'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')):
@@ -252,7 +255,7 @@ def make_book(root=ROOT):
             if detail:blocks.append(p(detail,'small'))
             if locators:blocks.append(p('; '.join(locators),'small'))
             # These new lexical references require their reviewed note-only limits in print.
-            if sid in {'dhaga-wiktionary-212713','dhaga-wiktionary-227729'}:
+            if sid in {'dhaga-wiktionary-212713','dhaga-wiktionary-227729','dhaga-wiktionary-220334'}:
                 notes=dict.fromkeys(w['note'] for e in data['entries'] for w in e['witnesses'] if w.get('source_id')==sid and 'wording' not in w and w.get('note'))
                 blocks.extend(p(note,'small') for note in notes)
             if 'scert' in sid:

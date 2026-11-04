@@ -1,0 +1,153 @@
+{
+  "status": "frozen author proposals pending independent review",
+  "input_head": "1fb301f042e1d536688f4ebb518ea3ed476e3d5a",
+  "scope": "B20/anvesha output only",
+  "method": "Read all ten complete original API bodies, retain exact quotations and source labels, source definitions distinct from editorial application. Applied Human Natural Translation guidance. Earlier research query returned no indexed records; that is not semantic exhaustion.",
+  "counts": {
+    "heads": 10,
+    "quotation_positions": 10,
+    "draft_proposals": 3,
+    "deferred": 7,
+    "accepted_increment": 0,
+    "used_sources": 3
+  },
+  "retrieval": {
+    "api_capture": "originals.json",
+    "api_sha256": "3ba81258104b078894e2160da878923b2e0d54e9134f4504daf262ed5bb8bc7b",
+    "rights": {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.or",
+      "text": "Creative Commons Attribution-Share Alike 4.0"
+    },
+    "failed_requests": [
+      {
+        "url": "https://or.wiktionary.org/w/index.php?curid=68567",
+        "result": "web tool inaccessible/internal error; no repeated webpage retry; API retrieval succeeded"
+      }
+    ]
+  },
+  "tests": {
+    "all_draft_wordings_exact_in_capture": true,
+    "current_corpus_token_search": "Read matching151/156/145 dog objects; no exact selected wording match in this bounded search. Samanta separate full semantic audit requested.",
+    "normalization": "All normalized_odia null; source dialect/typos not silently repaired."
+  },
+  "source_budgets": {
+    "method": "Whitespace words; total prose is explicitly not claimed below200. Separate exact original editorial qualifications/applications, conservatively charge every other narrative word plus saying quotation to its sole source. No further borrowed note passages. These are allocation ceilings, not claims that all counted prose is copied.",
+    "allocations": [
+      {
+        "candidate_key": "anvesha-b20-01",
+        "source_id": "dhaga-wiktionary-208920",
+        "narrative_field_words": {
+          "title": 5,
+          "literal_meaning": 9,
+          "explanation": 87,
+          "meaning_odia": 59,
+          "english_summary": 12,
+          "odia_summary": 9,
+          "cultural_context": 42
+        },
+        "total_narrative_words": 223,
+        "original_editorial_only_exclusions": [
+          {
+            "field": "explanation",
+            "exact_text": "That use depends on knowing the situation: the line cannot tell us whether another person is in pain or what they can safely manage.",
+            "words": 24,
+            "reason": "Original editorial ethical/use or evidence-limit qualification; not stated by or paraphrased from the dictionary."
+          },
+          {
+            "field": "explanation",
+            "exact_text": "In a playful exchange, it could tease someone who makes a tiny agreed task sound immense.",
+            "words": 16,
+            "reason": "Explicitly hypothetical original contemporary application, absent from source."
+          }
+        ],
+        "conservative_source_attributed_narrative_ceiling": 183,
+        "exact_saying_quotation_words": 5,
+        "accounting_note": "All remaining narrative words counted conservatively against the source, including original close reading and Odia commentary. Saying quotation is additionally counted below; original labelled example and stock origin/rights/credit metadata are not source paraphrase.",
+        "aggregate_source_ceiling_including_quote": 188
+      },
+      {
+        "candidate_key": "anvesha-b20-02",
+        "source_id": "dhaga-wiktionary-172901",
+        "narrative_field_words": {
+          "title": 3,
+          "literal_meaning": 11,
+          "explanation": 83,
+          "meaning_odia": 54,
+          "english_summary": 11,
+          "odia_summary": 11,
+          "cultural_context": 46
+        },
+        "total_narrative_words": 219,
+        "original_editorial_only_exclusions": [
+          {
+            "field": "explanation",
+            "exact_text": "The joke can also turn back on that speaker: what kind of response did the invitation encourage? Applying it to people is a sharp comparison, not a neutral description of their worth; boundaries can be discussed without treating anyone as inferior.",
+            "words": 41,
+            "reason": "Original editorial ethical/use or evidence-limit qualification; not stated by or paraphrased from the dictionary."
+          }
+        ],
+        "conservative_source_attributed_narrative_ceiling": 178,
+        "exact_saying_quotation_words": 5,
+        "accounting_note": "All remaining narrative words counted conservatively against the source, including original close reading and Odia commentary. Saying quotation is additionally counted below; original labelled example and stock origin/rights/credit metadata are not source paraphrase.",
+        "aggregate_source_ceiling_including_quote": 183
+      },
+      {
+        "candidate_key": "anvesha-b20-03",
+        "source_id": "dhaga-wiktionary-72209",
+        "narrative_field_words": {
+          "title": 5,
+          "literal_meaning": 12,
+          "explanation": 82,
+          "meaning_odia": 55,
+          "english_summary": 15,
+          "odia_summary": 11,
+          "cultural_context": 41
+        },
+        "total_narrative_words": 221,
+        "original_editorial_only_exclusions": [
+          {
+            "field": "explanation",
+            "exact_text": "A modern example can expose a manufactured problem without making accusations of witchcraft against any person.",
+            "words": 16,
+            "reason": "Original editorial ethical/use or evidence-limit qualification; not stated by or paraphrased from the dictionary."
+          },
+          {
+            "field": "cultural_context",
+            "exact_text": "No identified healer, ritual, community practice or origin is established.",
+            "words": 10,
+            "reason": "Original editorial ethical/use or evidence-limit qualification; not stated by or paraphrased from the dictionary."
+          },
+          {
+            "field": "explanation",
+            "exact_text": "The change of role, rather than a documented supernatural event, supplies the sting.",
+            "words": 13,
+            "reason": "Original interpretive assessment of rhetorical effect, explicitly distinguishing the image from a documented event; not a supplied dictionary gloss."
+          }
+        ],
+        "conservative_source_attributed_narrative_ceiling": 182,
+        "exact_saying_quotation_words": 6,
+        "accounting_note": "All remaining narrative words counted conservatively against the source, including original close reading and Odia commentary. Saying quotation is additionally counted below; original labelled example and stock origin/rights/credit metadata are not source paraphrase.",
+        "aggregate_source_ceiling_including_quote": 188
+      }
+    ],
+    "correction_history": {
+      "previous_report_sha256": "3e94c95226a282047a9f64470cb35d7da611ac60a9c98390091fc4c77e06df01",
+      "preserved_path": "outputs/dhaga-loop-2026-11-03/batch20/anvesha/history/report-before-budget-3e94c95226a2.json",
+      "draft_bytes_unchanged": true
+    }
+  },
+  "limits": [
+    "No print collation, independent attestation, first-author, popularity or exclusive regional-origin finding.",
+    "Seven deferrals retain specific meaning/agency gaps, not a blanket exclusion of sensitive historical material.",
+    "No art, canonical changes, public release or acceptance count.",
+    "Full separate semantic/source review still required; potential similarity cannot be ruled out by exact-token absence."
+  ],
+  "outputs": {
+    "selection.json": "74877e5845436016548e8dd5b9d35f6625889cba5dbc424f0c11477355843557",
+    "originals.json": "3ba81258104b078894e2160da878923b2e0d54e9134f4504daf262ed5bb8bc7b",
+    "sources.json": "2c7fcd1961823564b0cf13689bcd752653e37d704ece4a499be6ee56f75df417",
+    "candidates.json": "6a64206df02473e1ca9e74d07b9307655315fca20f22a15713578b035d5bd777",
+    "dispositions.json": "27f64b23b9878f8864d05d09a24150d6e8f846ed7d9a0d81bce14ff0b7cdc8d4",
+    "source-coverage.json": "c1b31484406d5cc787a14cbf32644b1a39e0a831451d8d38dbe92314dd02171f"
+  }
+}
