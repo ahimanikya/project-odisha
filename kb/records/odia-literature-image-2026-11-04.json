@@ -1,0 +1,71 @@
+{
+  "task_id": "POD-TASK-ODIA-LITERATURE-IMAGE-20261104",
+  "article_id": "POD-EDIT-832",
+  "owner": "Disha",
+  "status": "integrated_review",
+  "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+  "route": "/stories/odia-literature-preservation/",
+  "authorization": "POD-DEC-225",
+  "founder_direction": "Associate an image with the existing article.",
+  "scope": "One conceptual illustration, article hero and existing discovery/sharing/saved-reading image; preserve narrative and search eligibility.",
+  "programme_credit": 0,
+  "executions": [
+    {
+      "name": "Disha",
+      "scope": [
+        "kb/records/odia-literature-image-2026-11-04.json",
+        "kb/research/stories/odia-literature-preservation-image.json",
+        "kb/team/operations.json"
+      ],
+      "status": "active",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "scope": [
+        "projects/site/src/pages/stories/odia-literature-preservation.astro",
+        "projects/site/src/data/discovery.ts",
+        "projects/site/src/data/book-photos.ts",
+        "projects/site/editions/responsive-images.json",
+        "projects/site/tests/odia-literature-preservation.test.mjs",
+        "projects/site/public/assets/odia-literature-preservation/reading-table-v1.jpg",
+        "projects/site/public/images/responsive/<only new content-addressed variants for approved image>"
+      ],
+      "status": "active",
+      "scope_released": false
+    },
+    {
+      "name": "Anvesha",
+      "scope": [
+        "output-only image verification preparation"
+      ],
+      "status": "active",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "scope": [
+        "output-only separate art/integrated/exact-head/live review"
+      ],
+      "status": "active",
+      "scope_released": false
+    }
+  ],
+  "prior_receipt": {
+    "pr": 675,
+    "merge": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+    "remote_files_verified": 38,
+    "scope_released": true
+  },
+  "acceptance": "Separate actual art and integrated review; full site gates, responsive browser, exact-head review, passing PR checks, approved deployment, live image/article verification and reviewed receipt.",
+  "implementation": {
+    "evidence": "records/evidence/odia-literature-image-2026-11-04/implementation.json",
+    "sha256": "cec5e94bc1a2491d5f9992c0357e2162662bf9461ab8d436c223d689198b8512",
+    "gates": 13,
+    "full_tests": 697,
+    "coast_tests": 548,
+    "coast_acceptance": 3968
+  },
+  "image_metadata": "research/stories/odia-literature-preservation-image.json",
+  "evidence_home": "records/evidence/odia-literature-image-2026-11-04"
+}

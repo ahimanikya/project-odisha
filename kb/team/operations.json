@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-literature-preservation-editorial-team-2026-11-04.json",
+  "handoff_home": "records/odia-literature-image-2026-11-04.json",
   "roles": [
     {
       "name": "Disha",
@@ -57,10 +57,12 @@
   "current_article": null,
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_image_refinement",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/odia-literature-preservation-editorial-team-2026-11-04.json"
+    "status": "implementation",
+    "handoff": "records/odia-literature-image-2026-11-04.json",
+    "article_id": "POD-EDIT-832",
+    "scope": "Finite image refinement of an already completed article; original completion remains intact."
   },
   "parallel_programmes": [
     {
@@ -77,7 +79,7 @@
       "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
     },
     {
-      "name": "Dhaga historical pages 10–12 research",
+      "name": "Dhaga historical pages 10\u201312 research",
       "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
       "status": "integration_review",
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
@@ -108,13 +110,13 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "299receipt673 reviewed, merged and81remote files verified. One finite Founder Odia literature article claim active through verified receipt.",
+  "coordination_note": "Prior673 and675 receipts verified and released. One Founder-requested article image refinement active; zero programme credit. B37 research and111 readiness preserved output-only.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "dhaga_299_expansion",
+    "kind": "article_receipt",
     "status": "released",
-    "receipt_pr": 673,
-    "merge": "f99225b28444e3c17f7b94b556918d47d2c843eb"
+    "receipt_pr": 675,
+    "merge": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc"
   }
 }
