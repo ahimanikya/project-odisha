@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `520bbc552285e060edcd02179bfc94f36f1a075722cab558243f8b74f2af68c4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0cdd12aa30697736d4da90c17fb1c65c2eea12f8a8dbe2393460a772fa0134af`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -358,6 +358,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-325 · Research and publish Kandhamal Haladi article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-326 · Odia Bibhaba and the Work of Keeping Literature Available | completed | reviewed | Ahimanikya Satapathy | Maintain finite receipt integration claim until reviewed receipt merge and remote verification. | — |
 | POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | in_progress | reviewed | Ahimanikya Satapathy | Complete exact-head release gates and reviewed publication receipt for POD-EDIT-112; retain finite ownership until receipt merge and remote verification. | — |
+| POD-WORK-2026110501 · Integrate and publish the twelve-article Dongria series | in_progress | draft | Ahimanikya Satapathy | Finish release checks, merge reviewed head, publish and verify live routes. | — |
 
 ## Pending human review and decisions
 
@@ -671,6 +672,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026102491 · Expand and publish Bhubaneswar personal essay | recorded_direction | Ahimanikya Satapathy | Publish expanded personal essay on Project Odisha; prepare Facebook and Instagram captions without posting them. |
 | POD-DEC-2026102907 · Publish Maniabandha article and illustration | recorded_direction | Ahimanikya Satapathy | Publish the independently sourced Maniabandha article and approved illustration on Project Odisha; preserve companion social draft without sending it. |
 | POD-DEC-2026102908 · Publish Essential Odia Dhaga companion article | recorded_direction | Ahimanikya Satapathy | Publish the reviewed 25-saying Essential Odia Dhaga draft as a companion article, with series discovery and existing publication gates. |
+| POD-DEC-2026110501 · Publish the completed Dongria series | recorded_direction | Ahimanikya Satapathy | Latest user instruction follows explicit remaining scope: integrate twelve articles into current Project Odisha website, resolve checks, review final preview and publish. Bounded series batch, not broad research or changes to unrelated active articles. |
 
 ## Reviews
 
@@ -1326,7 +1328,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102910 | 2026-10-29T18:08:50.067960+00:00 | Essential Odia Dhaga companion published and live verified; receipt integration pending. No programme credit. | — |
 | POD-EVT-2026103101 | 2026-10-31T07:11:31.201262+00:00 | Founder authorized sequential Badhei, Kandhamal and Kandhamal Haladi articles; reserve first Badhei release only. No completion credit. | — |
 | POD-EVT-2026103102 | 2026-10-31T08:26:48.853328+00:00 | Badhei article publication and live verification complete; programme132 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103103 | 2026-10-31T14:16:35.048662+00:00 | Kandhamal article publication and live verification complete; programme133 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
@@ -1336,6 +1337,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110402 | 2026-11-04T06:15:04.354964+00:00 | Verified substantive article publication; programme135. Finite receipt integration remains active. | — |
 | POD-EVT-2026110403 | 2026-11-04T08:10:53.614043+00:00 | Founder requested an image for the completed Odia literature preservation article. One independently reviewed conceptual illustration; no new programme credit. Prior675 receipt complete and released. | — |
 | POD-EVT-2026110404 | 2026-11-04T09:08:58.100362+00:00 | Founder-requested literature illustration published and separately live-verified on desktop and phone, including discovery and illustrated downloads. Zero new programme credit; finite receipt integration remains. | — |
+| POD-EVT-2026110501 | 2026-11-04T23:02:24.255997+00:00 | Founder-authorized twelve-article Dongria series integrated into current production source with bounded worker reservations; existing Ou khatta claim and Niyamgiri overview preserved. No publication yet. | — |
 
 ## Deferred extensions
 

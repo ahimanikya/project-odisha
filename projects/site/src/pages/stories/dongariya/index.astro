@@ -1,0 +1,12 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import articles from '../../../data/dongariya.json';
+---
+<Shell title="Dongria Kondh: cloth, language and life in Niyamgiri" description="Twelve connected articles on Kapadaganda, Kuvi, cultivation, learning and life in Niyamgiri, with sources and credited images." active="explore" related={false} shareImage={{src:articles[0].image,alt:articles[0].alt,width:articles[0].dimensions[0],height:articles[0].dimensions[1]}}>
+<section class="series"><p class="eyebrow">People · Place · Living knowledge</p><h1>Dongria Kondh:<br/>life in Niyamgiri</h1><p class="intro">An embroidered cloth opens a wider story: of cultivation and exchange, language and learning, and the people whose lives connect them.</p><p>Explore twelve connected articles. Each includes source notes; photographs and conceptual illustrations are identified in their captions.</p>
+<ol>{articles.map((article,index)=><li><span class="number">{String(index+1).padStart(2,'0')}</span><a href={`/stories/dongariya/${article.slug}/`}>{article.title}<span aria-hidden="true"> ↗</span></a></li>)}</ol>
+<p>By Ahimanikya Satapathy.</p></section>
+</Shell>
+<style>
+.series{max-width:52rem;margin:3rem auto 5rem;padding:0 1.4rem;line-height:1.8}.series h1{font-size:clamp(2.3rem,1.4rem + 4vw,4rem);line-height:1.1;margin:1rem 0 2rem}.series p{margin-bottom:1.5rem}.intro{font-size:1.3rem}.series ol{list-style:none;padding:0;margin:3rem 0}.series li{display:flex;gap:1.25rem;align-items:baseline;border-top:1px solid #d5c9b7;padding:1.2rem 0}.number{color:#91462f;min-width:1.5rem}.series a{font-size:1.2rem;text-decoration:underline;text-underline-offset:4px}
+</style>
