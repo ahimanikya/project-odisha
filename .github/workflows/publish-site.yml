@@ -37,6 +37,12 @@ jobs:
           cache-dependency-path: projects/site/package-lock.json
       - uses: actions/configure-pages@v6
       - run: npm ci
+      - name: Verify release PDF delivery guards
+        run: python3 tests/test_dhaga_pdf_delivery.py
+      - name: Hydrate exact reviewed Dhaga release PDF
+        env:
+          RUN_AUTHORIZED_PDF_HYDRATION: '1'
+        run: python3 tools/verify-dhaga-pdf.py --descriptor ../odia-dhaga/pdf-delivery.json --packing ../odia-dhaga/packing-report.json --target ../odia-dhaga/odia-dhaga-book.pdf
       - run: npm run build
       - run: node tools/check-public-disclosures.mjs dist
       - run: npm test

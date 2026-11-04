@@ -10,13 +10,13 @@ test('public Dhaga export preserves every accepted entry and its source links wi
  const all=readdirSync(root+'/dhaga');assert.ok(!all.includes('collection.json'));assert.ok(!all.includes('evidence'));assert.ok(!all.includes('source127.html'));
 });
 test('book navigation uses lowercase public URLs, a pinned exact PDF and retained rights',()=>{
- assert.match(read('reader.html'),/id\.toLowerCase\(\)/);assert.match(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/[a-f0-9]{40}/);assert.match(read('sources.html'),/SCERT/);assert.match(read('sources.html'),/NotoSerifOriya-OFL.txt/);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to Dhaga/);
+ assert.match(read('reader.html'),/id\.toLowerCase\(\)/);const delivery=JSON.parse(readFileSync('../odia-dhaga/pdf-delivery.json'));assert.ok(read('index.html').includes(delivery.browser_download_url));assert.doesNotMatch(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/221fb5b/);assert.match(read('sources.html'),/SCERT/);assert.match(read('sources.html'),/NotoSerifOriya-OFL.txt/);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to Dhaga/);
 });
 
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
- assert.ok(exported.bytes<=29_000_000,'Complete public export must remain within29MB');
+ assert.ok(exported.bytes<=38_000_000,'Complete public export must remain within38MB');
  assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
@@ -147,4 +147,10 @@ test('251 edition visibly retains both lexical-only notes and exact critical com
   for(const field of ['explanation','meaning_odia','cultural_context'])assert.ok(h.includes(esc(e[field])),id+': '+field);
   assert.ok(h.includes(esc(e.graphic.caption)));
  }
+});
+
+
+test('299 lexical context and related variant retain exact source roles',()=>{
+ const e=data.entries.find(e=>e.id==='POD-DHAGA-256'),w=e.witnesses.find(w=>w.source_id==='dhaga-wiktionary-220334');assert.ok(w&&!Object.hasOwn(w,'wording'));const h=read('sayings/pod-dhaga-256.html');assert.ok(h.includes(esc(w.note)));assert.ok(h.includes(esc(w.locator)));
+ const v=data.entries.find(e=>e.id==='POD-DHAGA-260').variants[0];assert.ok(v.odia);assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.odia)));assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.note)));
 });

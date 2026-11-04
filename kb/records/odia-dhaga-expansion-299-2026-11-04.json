@@ -1,5 +1,5 @@
 {
-  "status": "canonical_installation",
+  "status": "site_integration",
   "owner": "Disha",
   "scope": "Finite299 release through separately reviewed publication/live/receipt",
   "canonical_release_active": true,
@@ -15,7 +15,7 @@
     "pages": 193,
     "bytes": 109520119,
     "sha256": "cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a",
-    "delivery": "Versioned release asset pending actual upload/verification; mutable hosting, integrity checks detect observed drift"
+    "delivery": "Dedicated versioned release asset published and anonymous full-byte download verified; mutable hosting with observed-drift detection."
   },
   "installation_manifest_sha256": "c7825646df5bfc0ed1cfb4081ebdd17c170047a99d431e69caa419b4f987f055",
   "production_review_sha256": "899b43d9680cd664a37c73e803b89af38abb654126e1d95f6f6a04d0cd4f9eb9",
@@ -48,5 +48,14 @@
     "checked_at": "2026-11-03T21:28:20.049570+00:00"
   },
   "scope_release": "After separately reviewed receipt merge/checks/remote verification",
-  "next": "Exact reviewed stage installation and separate readiness review, reviewed source-binding commit, release asset upload and anonymous full-byte verification, then site integration and publication gates."
+  "next": "Full site and browser gates, separate exact-head review, PR/checks/publication/live/receipt",
+  "source_binding_evidence": "kb/evidence/dhaga-299-source-binding-2026-11-04/binding.json",
+  "pdf_delivery_descriptor": "projects/odia-dhaga/pdf-delivery.json",
+  "release_asset": {
+    "release_id": 433286399,
+    "asset_id": 707321639,
+    "source_binding_commit": "b6ae771f1121c4449cced4173fa1d3c2d1177fc2",
+    "immutable": false,
+    "asset_adapter_review_sha256": "0e901b0fe2e38cfc50d7a66ffdbe5ce1b98359db12a1570190bd64ccfa7f42ac"
+  }
 }
