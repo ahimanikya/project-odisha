@@ -1,0 +1,34 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI review",
+  "reviewed_head": "ebb379b07b7768c879e2c7469584c32f5927cf61",
+  "deployed_merge": "b052dc9ace89f8764fe66b3a442b588ee6608d63",
+  "deployment_id": 41757002482,
+  "bindings": {
+    "integration/receipt-preparation/actual-receipt/receipt-manifest.json": "1964ea3e9c0e2608248dc56a7af2048dbbefe4ecea9bcf8d429fb00f14bed482",
+    "integration/receipt-preparation/actual-receipt/receipt-candidate.json": "cb0b155e064abefc9477de1d7af8f457f11bdcf37cfcc093af28b1f0a486ed97",
+    "integration/receipt-preparation/actual-receipt/input-facts.json": "21da00d8840f81778978a30f0486fb65fad8b951f2770af1f727cd30659bcd2e",
+    "integration/receipt-preparation/assembly-validation.json": "c3f5dea8490ffd024eda1f4a279fa67127e43ef027c1ac75cc1bcb4f2ede1c33",
+    "integration/receipt-preparation/assemble-receipt.py": "44b32c40d3002a51a05e3d0d7b8a22eb8761801a0437280fb512d7da7bd0d11e",
+    "integration/drishti/final-evidence-review.json": "b874b780fb43a6910d33587a0ed017b58282ff25f713c4235d37b2c27c365798",
+    "integration/receipt-preparation/report-before-final-assembly.json": "c24af1a67552e558506391d7cb3fd59a141049053ab7abbc44fdbf865cacb62d"
+  },
+  "checks": [
+    "All77manifest hashes/sizes and exact tree checked.13gate copies equal actual source reports;12preceding hashes equal final independent review.",
+    "All62portable copies checked against source bytes, using exact preserved historical report for one mutable lifecycle path.",
+    "Receipt equals actual facts with only declared pending integration status,relative gate paths,conditional scope release and evidence-only limitation.",
+    "299entries/299illustrations/48additions/zero programme credit and193page109520119byte PDF retained. Raw607 qualification remains584exact+21priorpairs+2newpairs;302HTMLexact; mutable release false."
+  ],
+  "provenance_qualification": {
+    "path": "evidence/post-sync/integration/receipt-preparation/report.json",
+    "sha256": "c24af1a67552e558506391d7cb3fd59a141049053ab7abbc44fdbf865cacb62d",
+    "actual_historical_source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration/receipt-preparation/report-before-final-assembly.json",
+    "note": "Copied reviewed bytes remain exact. Original source path named in historical input-facts now contains later assembly lifecycle report; historical exact bytes are preserved separately. Initial reviewer strict current-source assertion caught this, then exact historical copy was located and verified. No assembled bytes rewritten."
+  },
+  "limits": [
+    "Output-only assembly review; no canonical receipt commit/CI/merge/remote verification claimed.",
+    "Source reports retain local paths; copies are indexed and exact, not a fully standalone replay bundle. Oversized PDF external hash/size binding, no duplicate Git binary.",
+    "Producer positive/refusal evidence inspected; reviewer did not rerun assembly/sync/network/browser.",
+    "Root retains finite ownership until receipt CI/merge/remote checks."
+  ]
+}

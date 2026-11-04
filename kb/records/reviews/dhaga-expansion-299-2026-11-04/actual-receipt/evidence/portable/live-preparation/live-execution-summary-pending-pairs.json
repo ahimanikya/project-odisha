@@ -1,0 +1,39 @@
+{
+  "status": "PENDING_TWO_NEW_IMAGE_PAIR_REVIEWS",
+  "deployment_id": 41757002482,
+  "deployed_head": "b052dc9ace89f8764fe66b3a442b588ee6608d63",
+  "reader": {
+    "files": 607,
+    "html": 302,
+    "raw_exact": 584,
+    "html_exact": 302,
+    "known_pairs": 21,
+    "unapproved_new_pairs": [
+      293,
+      299
+    ],
+    "raw_pass": false
+  },
+  "supplemental": "PASS including exact109520119byte release PDF and before/after identity",
+  "companions": "PASS three normalized mains,29known image pairs and exact catalog; raw HTML not exact",
+  "attempts": {
+    "reader": 1,
+    "supplemental": 1,
+    "companions": 1,
+    "transport_retries": 0
+  },
+  "bindings": {
+    "plan.json": "290331ae7baab4299688dde9527d53fc70c236f970792ee54cc020c389aa314a",
+    "candidate-plan.json": "ff23dd2e099646eb7b25613f570a213eaa17c3dc7d33dab277d47697d751ee80",
+    "first-attempt-live-verification.json": "f584bbff4ad310f62bb34c78de1e25c3c133c22e06c1e46daff3876d850f7180",
+    "live-verification.json": "f584bbff4ad310f62bb34c78de1e25c3c133c22e06c1e46daff3876d850f7180",
+    "supplemental-live-verification.json": "e7c4434dfce7cfd40ee7b7e97f5f3bfcccd88c8b2d39fd8d6464e4662d084028",
+    "companion-main-verification.json": "7c9a509209c702b01a7ab1b38a9d635ce7a7bee17a250e517e69eaa350330ea1",
+    "new-image-pair-diagnostics.json": "6577e38d2d5cc97b0584d79924f16027fad0b41e68d7c13086d51fe13180cb7c"
+  },
+  "limits": [
+    "No final overall live PASS before separate two-pair review.",
+    "No local sync or canonical mutation.",
+    "Raw image hashes and decoded pixels differ; no normalization silently applied."
+  ]
+}

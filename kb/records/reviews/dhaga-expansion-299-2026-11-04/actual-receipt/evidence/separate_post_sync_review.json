@@ -1,0 +1,53 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI review, not human review",
+  "reviewed_at": "2026-11-04T03:59:22.262715+00:00",
+  "reviewed_head": "ebb379b07b7768c879e2c7469584c32f5927cf61",
+  "deployed_merge": "b052dc9ace89f8764fe66b3a442b588ee6608d63",
+  "deployment_id": 41757002482,
+  "local_sync_sha256": "3c5a33df085b1c9a1dbdf582e98fbc1955a231a5d24d2dc3d329efc534c2e991",
+  "live_review_sha256": "649574b54f0f57b476d95a9d1c291b958a4fd5af42f154510ab0027d2178fddd",
+  "receipt_gate_hashes": {
+    "required_ci": "b41ec83b75002cbb165ff3440de5400066cd258a97905835a2e793f3eab9d49f",
+    "deployment": "6fce43cfe3b598c1857a338584634d9f4a0ab9880d1153419642aac64704bf38",
+    "remote_files": "70634aa1c3343333c77127b36ad6cdc699981f0e8cb89f25f9f5923ba023523d",
+    "production_review": "899b43d9680cd664a37c73e803b89af38abb654126e1d95f6f6a04d0cd4f9eb9",
+    "source_preservation": "a9be2e026d891754c2c40302a5ecffd02f872d18b8ba1209549b675ae10b95ad",
+    "site_gates": "11fb6e65ff84db847cfe74042745e9961e06b70d2f49446f224146dc0b6c893b",
+    "exact_head_review": "85673b8201ec921140d41cd17532c54e1a8d7f77ecc9acb5504d0b35dde13961",
+    "release_asset_verification": "9e48f88dc4f5969dbb700e57c25c02196bfa430ac2b1904d09f9ddc106f27f19",
+    "live_http_qualified_summary": "c1c38a32d7d4a3e8fdb6ca1052cda7bbf8637d70017dc1bc7fa4a5758761722b",
+    "live_browser": "49a95cd636a91a6d66f1d6a087e3dcd9d62a61b017e29c806a0576c6a84a22b2",
+    "separate_live_review": "649574b54f0f57b476d95a9d1c291b958a4fd5af42f154510ab0027d2178fddd",
+    "local_reader_sync": "3c5a33df085b1c9a1dbdf582e98fbc1955a231a5d24d2dc3d329efc534c2e991"
+  },
+  "bindings": {
+    "integration/receipt-preparation/actual-facts.json": "6d44963bffcaa17e32d0377d51ee98d5966f833d527e0c1e725f6986b911136c",
+    "integration/receipt-preparation/assemble-receipt.py": "44b32c40d3002a51a05e3d0d7b8a22eb8761801a0437280fb512d7da7bd0d11e",
+    "integration/receipt-preparation/report.json": "c24af1a67552e558506391d7cb3fd59a141049053ab7abbc44fdbf865cacb62d",
+    "integration/drishti/sync-independent-checks.json": "5ce3676f5d7c51a7f029716169bc26d5698053414bcde9719698c6c0e88a8a1b",
+    "live-preparation/sync-authorization.json": "0f3900f6147f0ba3f4d226620b40f9c9dae8e936fa412c0f2710ab38173cd5ef",
+    "live-preparation/sync-post-test-hashes.json": "781abe4fe7629655cf11a300a767fe9ca5d4453ad6548536784aed72b58d7f49",
+    "live-preparation/local-tests.log": "2ac329835894d7b7f432fd9e340c0b7a83e760cda5afea44ecc4205b73ce9949",
+    "live-preparation/sync-candidate-plan.json": "fa7616c2a2d41ccbc20929b65d3f98d7e8739e7f40b39312c990553b0820de91",
+    "live-preparation/local-baseline.json": "80eb84caa6a2684d69b81eaefb5ee7db6b560e80b0d826098fb4dd27765487ab"
+  },
+  "actual_checks": [
+    "All12 preceding receipt gate paths/hashes and actual identity fields reconciled. RequiredCI41750235121 completed success at exact reviewedebb379; deployment41757002482 successful at mergedb052dc9.",
+    "Actual guarded sync912product SHA+sizes and518protected extras independently rehashed;402copy paths equal expected delta,258previous overwritten files retained in exact backups.",
+    "Saved19tests exit0/log exact; post-test hash report matches frozen plan;04dated local delivery receipt byte-identical to sync result. No reviewer sync/test rerun.",
+    "Frozen separate live review reused unchanged:607files=584rawexact+21priorqualifiedpairs+2new separately viewed exactpairs;302HTMLexact; retained fullPDF109520119/cb34aaab and before/after release/tag/asset identity exact;3normalized companion mains/29pairs;22actual live screenshots.",
+    "Actual receipt helper read: explicit optimization/authorization refusal, pending gate failure, exact12gate hashes required, safe new output folder only; no assembly executed by reviewer.",
+    "All currently inventoried portable evidence hashes/sizes checked; historical initial failure/raw mismatch evidence retained."
+  ],
+  "findings": [],
+  "scope": "Final actual post-sync evidence approval for output-only receipt assembly; canonical receipt still requires root integration, exact-head review, CI/merge/remote verification.",
+  "limits": [
+    "Raw HTTP verifier remains false;23images are exact-pair qualifications, not byte or decoded-pixel identity.",
+    "Mutable release host: exact observed identities/body bytes and drift detection, not prevention or availability guarantee.",
+    "Browser review is saved actual headlessChrome evidence; no cross-engine/assistive-technology or per-source return-anchor claim.",
+    "No repeated source/PDF/art/network/build work and no canonical/Git mutations by reviewer.",
+    "Initial raw requiredCI capture network failure/retry history belongs to coordinator evidence; successful actual saved response inspected.",
+    "Receipt helper positive assembly remains a later execution gate. Root finite ownership not released by this review."
+  ]
+}
