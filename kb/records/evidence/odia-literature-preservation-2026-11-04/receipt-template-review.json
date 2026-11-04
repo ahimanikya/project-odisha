@@ -1,0 +1,72 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI static/offline review",
+  "scope": "Pending receipt templates and remote file verifier only",
+  "bindings": {
+    "anvesha/publication/receipt-preparation/offline-checks.json": "f80e834342329490212b4729a58ed1f3ee99e4f0279b91c8ccc32af21034284d",
+    "anvesha/publication/receipt-preparation/receipt-evidence-checklist.json": "c524299159e91361988fd9442aaa7d03800fb9d9f9c0b43a2e0d77b2b921c904",
+    "anvesha/publication/receipt-preparation/report.json": "4c0cf151b13501a0614e8ef5b058132d8e4d390d3560a502e3525e8f7af0d58f",
+    "anvesha/publication/receipt-preparation/USAGE.md": "fc8c4fd1859902432c3c7c38b0aef6a00445dbccd74616b255789f2a72aa1bad",
+    "anvesha/publication/receipt-preparation/remote-pending.json": "d87e0887a9eeeb36b3608c9f1c567b624526755c064cedb65b6bef1c1e9c17da",
+    "anvesha/publication/receipt-preparation/verify-remote.py": "128f95781db14a1e8776e6ec5e0996ae4632958100d218de71bb87389fe69f6f",
+    "anvesha/publication/receipt-preparation/receipt-template.json": "5442561855ea545aaf436d6847ed597b6760b0bb1f2c27faf1f07ae119bb14cb"
+  },
+  "independent_cases": [
+    {
+      "name": "positive exact dynamic one-file inventory",
+      "pass": true
+    },
+    {
+      "name": "wrong reviewed_head",
+      "pass": true
+    },
+    {
+      "name": "wrong merge_head",
+      "pass": true
+    },
+    {
+      "name": "hash drift",
+      "pass": true
+    },
+    {
+      "name": "wrong head history",
+      "pass": true
+    },
+    {
+      "name": "unsafe ../escape",
+      "pass": true
+    },
+    {
+      "name": "unsafe /absolute",
+      "pass": true
+    },
+    {
+      "name": "optimized=False,authorization=False pending refusal",
+      "pass": true
+    },
+    {
+      "name": "optimized=False,authorization=True pending refusal",
+      "pass": true
+    },
+    {
+      "name": "optimized=True,authorization=False pending refusal",
+      "pass": true
+    },
+    {
+      "name": "optimized=True,authorization=True pending refusal",
+      "pass": true
+    }
+  ],
+  "actual_checks": [
+    "Read entire remote verifier, receipt template and evidence checklist; inventory is actual manifest list, no inherited81-file count.",
+    "Exact reviewed_head/manifest/PASS review/ancestry fields and file hash/size guards precede network. Optimized Python and unauthorized/pending invocation refuse.",
+    "Eleven independent synthetic positive/refusal cases pass; no network called.",
+    "Receipt status explicitly pending, all actual identities/evidence/credit values null; finite ownership retained until receipt CI/merge/remote."
+  ],
+  "findings": [],
+  "limits": [
+    "Preparation not actual remote verification or receipt assembly. Actual final manifest/schema and candidate/deployment binding required later.",
+    "Remote verifier checks manifest-present files only, not deletions or full repository preservation; actual diff/exact-head review must cover those if applicable.",
+    "Ancestry evidence supplied and hash-bound, not derived by this helper. No browser/live/build/canonical changes."
+  ]
+}

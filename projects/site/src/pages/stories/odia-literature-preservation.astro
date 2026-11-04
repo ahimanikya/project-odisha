@@ -1,0 +1,41 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleFootnote from '../../components/ArticleFootnote.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResearchContents from '../../components/ResearchContents.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import '../../styles/article-reading.css';
+import story from '../../../../../kb/research/stories/odia-literature-preservation.json';
+const passages=story.sections.flatMap(section=>section.paragraphs.map((paragraph,index)=>({...paragraph,id:`${section.id}-${index}`})));
+const contents=[...story.sections.filter(section=>section.title).map(section=>({title:section.title,href:'#'+section.id})),{title:'Further reading',href:'#preservation-further-reading'},{title:'Continue reading',href:'#preservation-continue-reading'},{title:'Footnotes & Sources',href:'#story-sources'}];
+---
+<Shell title={story.title} description={story.description} active="explore" wide related={false}>
+<article class="article-reading preservation-story">
+ <a class="collection-return" href={story.collection_return.href}>← {story.collection_return.title}</a>
+ <header><h1>{story.title}</h1><ArticleByline author={story.author}/><SaveJourney id="reading:stories/odia-literature-preservation" quiet/></header>
+ <ResearchContents items={contents} label="In this article"/>
+ {story.sections.map(section=><div id={section.id} class="preservation-section">
+  {section.title&&<h2>{section.title}</h2>}
+  {section.paragraphs.map((paragraph,index)=><p class:list={{'article-opening':passages[story.leadParagraphIndex].id===`${section.id}-${index}`}} data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.segments.map(segment=>segment.source_id?<ArticleFootnote ids={[segment.source_id]} sources={story.sources} passage={`${section.id}-${index}`}/>:segment.emphasis==='em'?<em>{segment.text}</em>:segment.emphasis==='strong'?<strong>{segment.text}</strong>:segment.text)}</p>)}
+ </div>)}
+ <ArticleReadingPath id="preservation-further-reading" heading="Further reading" links={story.further_reading}/>
+ <ArticleReadingPath id="preservation-continue-reading" heading="Continue reading" links={[story.continue_reading]}/>
+ <section id="story-sources" class="article-footnotes" aria-labelledby="footnote-title">
+  <h2 id="footnote-title">Footnotes &amp; Sources</h2>
+  <ol>{story.sources.map((source,index)=><li id={'note-'+source.id} tabindex="-1">{source.footnote_segments.map(segment=>segment.href?<a href={segment.href}>{segment.text}</a>:segment.emphasis==='em'?<em>{segment.text}</em>:segment.emphasis==='strong'?<strong>{segment.text}</strong>:segment.text)}{' '}<span class="footnote-returns">{passages.filter(p=>p.source_ids.includes(source.id)).map((p,i)=><a href={`#ref-${p.id}-${source.id}`} data-footnote-backref aria-label={`Return to passage ${i+1} for footnote ${index+1}`}>↩{i>0?i+1:''}</a>)}</span></li>)}</ol>
+ </section>
+ <p class="article-update"><a href="/contribute/?page=%2Fstories%2Fodia-literature-preservation%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article>
+</Shell>
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.preservation-story sup, .preservation-story .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.collection-return{display:inline-block;margin-bottom:2rem;font-size:.95rem}
+.preservation-story .article-opening{font-size:1.18rem}
+.preservation-section{margin-block:3rem}
+.article-update{font-size:.9rem;margin-top:2.5rem}
+@media(max-width:600px){.preservation-section{margin-block:2.5rem}}
+</style>

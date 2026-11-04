@@ -1,0 +1,94 @@
+{
+  "status": "PASS_SCOPED_OUTPUT_ONLY",
+  "article_sha256": "f0f19c2192f8742f16ddf3571053c7f68920f64e9811af5774402b187ce8e9ab",
+  "original_proposal_sha256": "256164137fa1bf87440e7a37927a43ec5c2a1d70602decf2dde66499cf9b4c47",
+  "variant_sha256": "40eedbef48c08205e305c126a7215e65d96bdbe26b2467d737d5115c286fa77c",
+  "validator_path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/tools/research/validate.py",
+  "validator_sha256": "c293f2bac6e46f16ce8cd306240e4f73c40b10baf15dfcbde4470335f0fb4144",
+  "finding": "Original numeric [n] references are not rejected by validate.py, but its footnote checks only recognize [^id]. New variant makes all citation definitions/references participate in those checks.",
+  "adaptation": "Only frontmatter source register and citation marker/definition syntax changed. Ten stable website citation-group IDs map to12 source URLs via unchanged research record. Full note text and all21paragraphs unchanged.",
+  "checks": [
+    "Actual kb_io.read_concept parser succeeded.",
+    "Mirrored type/status/unique-source/resource/footnote-definition rules passed.",
+    "Reverse citation conversion reproduced entire original article byte-for-byte.",
+    "Original article/proposal/research files unchanged."
+  ],
+  "mapping": [
+    {
+      "number": 1,
+      "group_id": "bibhaba-pathagara",
+      "source_ids": [
+        "bibhaba-pathagara"
+      ]
+    },
+    {
+      "number": 2,
+      "group_id": "bibhaba-srujanika-about",
+      "source_ids": [
+        "bibhaba-about"
+      ]
+    },
+    {
+      "number": 3,
+      "group_id": "bibhaba-transition-2021",
+      "source_ids": [
+        "bibhaba-blog"
+      ]
+    },
+    {
+      "number": 4,
+      "group_id": "bibhaba-periodicals",
+      "source_ids": [
+        "bibhaba-patrika"
+      ]
+    },
+    {
+      "number": 5,
+      "group_id": "bibhaba-gopal-chhotray",
+      "source_ids": [
+        "archive"
+      ]
+    },
+    {
+      "number": 6,
+      "group_id": "recite-world-about",
+      "source_ids": [
+        "recite-world-about"
+      ]
+    },
+    {
+      "number": 7,
+      "group_id": "recite-patent-medicine",
+      "source_ids": [
+        "recite-patent-medicine"
+      ]
+    },
+    {
+      "number": 8,
+      "group_id": "odia-wikisource-rebati-workflow",
+      "source_ids": [
+        "fakir-rebati-text",
+        "wikimedia-odia-wikisource-2015"
+      ]
+    },
+    {
+      "number": 9,
+      "group_id": "odia-wikisource-barnabodha-index",
+      "source_ids": [
+        "wikisource-barnabodha-1901-index"
+      ]
+    },
+    {
+      "number": 10,
+      "group_id": "ova-about-novels",
+      "source_ids": [
+        "ova-about",
+        "ova-novel-catalogue"
+      ]
+    }
+  ],
+  "limits": [
+    "Not canonical installed; full repository validator not run against uninstalled output.",
+    "Citation-group IDs distinguish grouped bibliographic notes from underlying publication/source lineage IDs."
+  ]
+}

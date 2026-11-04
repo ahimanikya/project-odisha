@@ -1,0 +1,24 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI review",
+  "scope": "Output-only KB citation adaptation",
+  "bindings": {
+    "anvesha/publication/kb-adaptation-report.json": "1654c2abc4650a00ec1d4b0e5cbb25e2b439591aaf0e64be4e5ff59dd44f3cf4",
+    "anvesha/publication/odia-literature-preservation-kb.md": "40eedbef48c08205e305c126a7215e65d96bdbe26b2467d737d5115c286fa77c",
+    "anvesha/publication/odia-literature-preservation.md": "256164137fa1bf87440e7a37927a43ec5c2a1d70602decf2dde66499cf9b4c47",
+    "anvesha/publication/odia-literature-preservation-research.json": "4263ffbe412efa7a874e8d855b8fe72afaf8edbd05a9e96bd401805ed175a550",
+    "article.md": "f0f19c2192f8742f16ddf3571053c7f68920f64e9811af5774402b187ce8e9ab"
+  },
+  "actual_checks": [
+    "Read actual proposal diff; only frontmatter source-register mapping and citation syntax changed.",
+    "Independent reverse conversion of ten stable-ID definitions and eleven references reproduces complete reviewed article byte-for-byte.",
+    "Ten unique citation groups retain12 underlying source IDs; each primary resource matches original source identity and both grouped URLs remain in unchanged full notes/research dossier.",
+    "Current validator file hash matches adaptation report; its producer parser checks remain scoped, not full repository acceptance."
+  ],
+  "findings": [],
+  "limits": [
+    "No full repository validator or canonical installation executed by reviewer.",
+    "Underlying publication IDs remain separate from citation groups; integration must retain the research dossier.",
+    "No fresh research or change to reviewed prose/source budgets."
+  ]
+}

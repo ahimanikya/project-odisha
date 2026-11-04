@@ -1,0 +1,63 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI visual/evidence review",
+  "scope": "Actual saved local Chrome screenshots and downloads; final integrated gates pending",
+  "bindings": {
+    "samanta/implementation/browser/product-binding.json": "208f86b4ba3b2a785a641f60f24c95572e8e3c6ae66b110c813e122ebc51e1b7",
+    "samanta/implementation/browser/desktop-sources.png": "c375c60f8b8355ab95950a9ae376f8c0aae5b7bfca8fa73450ba3720c22ce700",
+    "samanta/implementation/browser/phone-reading.txt": "cf41df704090fb36645c2a337743a26918c3de53196e8c73dab67681cc12b313",
+    "samanta/implementation/browser/phone-opening.png": "397ef536db8fcf182fc0914e5fc5ff804d2a1dbad3409cd691f176797b550290",
+    "samanta/implementation/browser/verify-before-text-extraction-fix.cjs": "fae5eff45e5931d48db025de28416407f5606496904fde1e19d70f6ed073ecd4",
+    "samanta/implementation/browser/phone-reading.html": "9e65466b3626c4ef716ecb49aea8a7bb18b12d0d677e7a01930d9d2e8e837399",
+    "samanta/implementation/browser/browser-review.json": "b19970b7c38b24046cb138dcadad09aeade8c0013192ee42cbabe6ba222730c0",
+    "samanta/implementation/browser/run.log": "cbe314a71d9c32cab7bef3a0a70c8ea6a06b015934cff95897ef75e69bfbef7c",
+    "samanta/implementation/browser/verify.cjs": "65ecf339058e07195e3dad4d187a353d9cc3a967fd09db07a2ff773e2d6f284f",
+    "samanta/implementation/browser/run-initial.log": "2bdf3536197e4b2c54971f54a5fa5203ff56a12336da8c3d2f6be13121d66e1e",
+    "samanta/implementation/browser/phone-sources.png": "5f9c666e5488febab2d3b402424994d900b623f695d760a2bfbd6655566de5fc",
+    "samanta/implementation/browser/desktop-reading.txt": "cf41df704090fb36645c2a337743a26918c3de53196e8c73dab67681cc12b313",
+    "samanta/implementation/browser/desktop-opening.png": "095f1d1bc8bcebb31810ecfc2e31bb869b044cf5b6988257337cd29c688e2b94",
+    "samanta/implementation/browser/desktop-reading.html": "9e65466b3626c4ef716ecb49aea8a7bb18b12d0d677e7a01930d9d2e8e837399"
+  },
+  "actual_visual_inspection": [
+    "Individually viewed allfour desktop1440/phone390 opening/source PNGs. Title/byline/Save/contents/opening read cleanly; no visible clipping or horizontal overflow.",
+    "Desktop source screenshot shows allten full notes including dated transition,edition and Recite caveats; note2 has two returns. Phone source crop covers portions2–8, not every note at once."
+  ],
+  "download_checks": [
+    {
+      "file": "desktop-reading.html",
+      "paragraphs_exact_once_ordered": 21,
+      "source_urls_semantically_exact": 12,
+      "return": "local tested origin"
+    },
+    {
+      "file": "desktop-reading.txt",
+      "paragraphs_exact_once_ordered": 21,
+      "source_urls_semantically_exact": 12,
+      "return": "local tested origin"
+    },
+    {
+      "file": "phone-reading.html",
+      "paragraphs_exact_once_ordered": 21,
+      "source_urls_semantically_exact": 12,
+      "return": "local tested origin"
+    },
+    {
+      "file": "phone-reading.txt",
+      "paragraphs_exact_once_ordered": 21,
+      "source_urls_semantically_exact": 12,
+      "return": "local tested origin"
+    }
+  ],
+  "browser_evidence": [
+    "Actual producer Chrome report records11 native note-return rounds perviewport,Save/reload and four downloads; reviewer inspected saved evidence, not another browser run.",
+    "All product-binding hashes/sizes independently exact. Baseline checkout correctly distinguished from tested uncommitted implementation.",
+    "Initial extraction mismatch retained; corrected comparison excludes superscripts without text changes."
+  ],
+  "findings": [],
+  "limits": [
+    "Independent first URL assertion expected literal Unicode/publicorigin; actual downloads correctly percent-encode Unicode and use localhost tested origin. Corrected reviewer check compares decoded exact URLs and local return; actual public-origin return remains live gate.",
+    "Selected screenshots are not exhaustive full-article pixels. No cross-engine/assistive-technology claim.",
+    "Portable narrative/shortbibliography independently inspected; full notes remain website only, HTML download not separately rendered by reviewer.",
+    "Final publication parity/exacthead/CI/deployment/live evidence pending."
+  ]
+}

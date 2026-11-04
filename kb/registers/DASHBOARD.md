@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d3d2b7a3bec6a119d0d7fdc10feee0a68d9fa3c7b0ff10fadc1a278f0e41e962`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `38a92fc09d6371f991a41420c59e0b2ee3d01556921eec3e2ea46b67f599e5d9`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -356,6 +356,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-323 · Research and publish Badhei community history | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-324 · Research and publish Kandhamal place and cultural article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-325 · Research and publish Kandhamal Haladi article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
+| POD-WORK-326 · Odia Bibhaba and the Work of Keeping Literature Available | in_progress | reviewed | Ahimanikya Satapathy | Implement reserved site paths, independently review actual candidate, publish with full gates and retain finite claim through verified receipt. | — |
 
 ## Pending human review and decisions
 
@@ -1322,7 +1323,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102699 | 2026-10-25T23:07:41.478596+00:00 | Founder-requested159-entry illustrated Dhaga reader and exact86-page PDF published via PR564/deployment40242598763. All162routes/159images/PDFhash and live mobile navigation verified. No new saying acceptance, article completion, human proof or500programme credit. Receipt: records/odia-dhaga-publication-2026-10-26.json | — |
 | POD-EVT-2026102907 | 2026-10-29T16:23:33.674154+00:00 | Founder approved publication of the independently sourced Maniabandha article and illustration. Separate research, implementation and quality review assigned. | — |
 | POD-EVT-2026102908 | 2026-10-29T16:56:50.520839+00:00 | Approved Maniabandha article and illustration published through PR603 and deployment40914015209. Live article, image and discovery links verified; social post remains unsent. | — |
 | POD-EVT-2026102909 | 2026-10-29T17:21:18.231378+00:00 | Founder explicitly requested publishing the reviewed Essential Odia Dhaga selection as a companion to the book series. | — |
@@ -1332,6 +1332,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026103103 | 2026-10-31T14:16:35.048662+00:00 | Kandhamal article publication and live verification complete; programme133 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103104 | 2026-10-31T17:08:36.184342+00:00 | Resume separately reviewed Founder third article Kandhamal Haladi. Prior Kandhamal638 and cinema640 releases reconciled. Reserve one finite implementation/publication scope; no completion credit. | — |
 | POD-EVT-2026103105 | 2026-10-31T18:24:39.818505+00:00 | Kandhamal Haladi article publication and live verification complete; programme134 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
+| POD-EVT-2026110401 | 2026-11-04T05:20:50.650657+00:00 | Start separately reviewed Founder Odia literature article after verified299receipt release. No completion credit. | — |
 
 ## Deferred extensions
 

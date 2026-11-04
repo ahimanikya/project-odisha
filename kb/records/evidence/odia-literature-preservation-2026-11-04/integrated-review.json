@@ -1,0 +1,108 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI integrated review",
+  "input_head": "f99225b28444e3c17f7b94b556918d47d2c843eb",
+  "scope": "Actual working candidate and final local artifacts, conditional on separate committed-head and release gates",
+  "bindings": {
+    "samanta/implementation/report.json": "3ba976ec658823b912c09673b258d1d2e180211531987d44cbc67d2fa9d80076",
+    "samanta/implementation/publication-parity.json": "3e50eacc2e987c84a5388c6d5e0c862be7b932b97f8d5b53d129ebc25b6d9c39",
+    "samanta/implementation/source-manifest.json": "80bc90175fed3a4e62074da20969c1b9fd6ed1c1882c33c170c3795756bdc4c1",
+    "samanta/implementation/implementation-history.json": "121739f6525aada8f66211009f27b3bb7113a190424eb9d61640b0aef69e6b9b",
+    "samanta/implementation/browser/product-binding.json": "208f86b4ba3b2a785a641f60f24c95572e8e3c6ae66b110c813e122ebc51e1b7",
+    "drishti/visual-review.json": "5bcd8912ca4b552028e8ed23a5a839bfbfea3fabae18eb7cb37b320f57b09362",
+    "drishti/independent-artifact-checks.json": "8e1a563d705baa9ba1bb8b7e598a70d95f12f2913d2051594a0636829149f540",
+    "drishti/shared-records-review.json": "372c5bcb1a7550cc4a20abb50fabf8e2d31854654d8aff89610da6062b54169a",
+    "drishti/schema-parity-review.json": "7b707d61e7e08c616e364114d7e94474ab27249383ab140fffb64a6a6ffc1553",
+    "drishti/kb-adaptation-review.json": "9f26e7a0904f3743c1d35eae2d971243256ad944a190fdc54ff3c6a0ba15bca4",
+    "drishti/odia-only-draft-review.json": "1c2ec2883e4c678cd9b9b25b9a53a8fe151093289d803784031d89fe6c3595c2",
+    "drishti/live-helper-review.json": "bc9762a9320037bbf7a8c99a6d1c1fc452db07c23726aeadb34c199d991017dc",
+    "research-validation.json": "a54dc1234e4a4ce7b94fd280a009a163841bacb4949e43add7d19b9ea37afc61"
+  },
+  "site_source_bindings": [
+    {
+      "path": "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "sha256": "9f623e891e050b04ec13e6c50c3f9bca6bc0398ff7d49579c68c9a7ee7117c66",
+      "bytes": 3786
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "f134a81be7cad23afd28fd8894854c22212ee136e11ba121dfe8e16c75cb5f44",
+      "bytes": 38192
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "cd30759ce498997da0d781afbcf0289c58e07ffd1f79b009e33bde1cec4336ce",
+      "bytes": 17905
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "9c4d18b7c11950444c6e0645bb75879ae5980b95e66f1dcc9e99eaf9017f2cd5",
+      "bytes": 90406
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "554970eec042777738256533374c5b292e03c8ddcc0aaaf823226b84d2f76eb0",
+      "bytes": 212844
+    },
+    {
+      "path": "projects/site/tests/odia-literature-preservation.test.mjs",
+      "sha256": "8759ad26b78547913c3508e25190def64af8c5087fc64c7c6a63e48b74fb6a67",
+      "bytes": 3723
+    },
+    {
+      "path": "projects/site/tests-coast/odia-literature-preservation.test.mjs",
+      "sha256": "eae990dc81a567f555bb38705397b7aa10d59f384b2f31862df9f6d91a4cd27b",
+      "bytes": 113
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "4b825327c602f2ea47b1565c73acc613c3be5174b883df0babe52563740bb706",
+      "bytes": 6529
+    },
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "8fc5b46f9b9a60d7093976c9abe4884f9fccd6828d876b4b8ca5208ca048716b",
+      "bytes": 4125
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "3aae67889c7526f56ddcb318bce6309ca464709304ddfe9f38c414d08a689f9e",
+      "bytes": 1613
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "709ed212e3d43badca2f2e214ff7042e551b6390c59ad235778dd8219a3198e6",
+      "bytes": 5496
+    }
+  ],
+  "actual_checks": [
+    "Read complete eleven-file site scope: schema-driven paragraph/emphasis/source rendering, native note/return anchors and shared focus helper; no invented prose, raw-HTML insertion or custom keyboard overrides.",
+    "Actual catalog adapter includes opening once and remaining20paragraphs with12shortsources; only new discovery entry, one coast route/journey and noindex search hold added.",
+    "Four existing count-test diffs are narrow +1 expected constants; other assertions retained. Root scope amendments and failed prior test history reviewed.",
+    "Independently parsed final full/coast/publication HTML:21ordered exactparagraphs,10fullnotes,11distinctreferences and12URLs. All123prior full/114prior coast/publication catalog objects equal saved prechange baselines; totals124/115/115.",
+    "Individually viewed four actual PNGs and checked four actual downloads in separately bound visual review;22native round trips andSave/reload supported by actual Chrome report.",
+    "All11current source hashes/sizes,7producer evidence bindings and13gate log hashes independently exact. Producer696full/547coast/3focused tests and3968acceptance PASS. No rerun of build/full suites.",
+    "Root installed schema/source/KBarticle exact and finite832/326/135 inprogress claim previously reviewed; programme134 remains unchanged. No tracked Dhaga book files differ.",
+    "Exact reviewed title metadata passed acceptance, search eligibility remains11; retained source/date/rights/access caveats and no publication completion claimed."
+  ],
+  "history": [
+    "Initial focused empty-attribute parser and browser superscript extraction failures preserved with fixes.",
+    "Measured full/coast expected-count failures led only to authorized assertions.",
+    "Accidental runner restart overwrote earliest duplicate failure log bytes; subsequent repeated failure log retained. This historical loss is explicit, not claimed restored.",
+    "Parity initially counted12string tokens including one script token; final counts11actual anchors, independently confirmed. Precorrection reports preserved, no source/product change."
+  ],
+  "findings": [],
+  "limits": [
+    "Working candidate not yet committed; exact-head review/required CI/merge/deployment/actual live and reviewed receipt remain mandatory.",
+    "Local headless Chrome only; no assistive-technology/cross-engine guarantee. Local downloads use testedlocalhost origin; live return must be verified after deployment.",
+    "Portable shortbibliography omits full website notes by explicit contract. Externalarchive playback/PDFinteriors/reusepermissions not newly tested.",
+    "No new source research/art/bookbuild/network or canonical edits by reviewer."
+  ],
+  "modern_web_guidance": {
+    "guides": [
+      "accessibility",
+      "html"
+    ],
+    "assessment": "Offline guidance consulted for native semantics,focus and disclosure audit. Existing native anchors/details and shared focus handling retained; no code changes made or accessibility certification inferred."
+  }
+}

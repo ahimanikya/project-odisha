@@ -1,0 +1,155 @@
+{
+  "status": "PASS_IMPLEMENTATION_AND_LOCAL_VALIDATION",
+  "input_head": "f99225b28444e3c17f7b94b556918d47d2c843eb",
+  "current_head": "f99225b28444e3c17f7b94b556918d47d2c843eb",
+  "route": "/stories/odia-literature-preservation/",
+  "changed_files": [
+    {
+      "path": "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "sha256": "9f623e891e050b04ec13e6c50c3f9bca6bc0398ff7d49579c68c9a7ee7117c66",
+      "bytes": 3786
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "f134a81be7cad23afd28fd8894854c22212ee136e11ba121dfe8e16c75cb5f44",
+      "bytes": 38192
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "cd30759ce498997da0d781afbcf0289c58e07ffd1f79b009e33bde1cec4336ce",
+      "bytes": 17905
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "9c4d18b7c11950444c6e0645bb75879ae5980b95e66f1dcc9e99eaf9017f2cd5",
+      "bytes": 90406
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "554970eec042777738256533374c5b292e03c8ddcc0aaaf823226b84d2f76eb0",
+      "bytes": 212844
+    },
+    {
+      "path": "projects/site/tests/odia-literature-preservation.test.mjs",
+      "sha256": "8759ad26b78547913c3508e25190def64af8c5087fc64c7c6a63e48b74fb6a67",
+      "bytes": 3723
+    },
+    {
+      "path": "projects/site/tests-coast/odia-literature-preservation.test.mjs",
+      "sha256": "eae990dc81a567f555bb38705397b7aa10d59f384b2f31862df9f6d91a4cd27b",
+      "bytes": 113
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "4b825327c602f2ea47b1565c73acc613c3be5174b883df0babe52563740bb706",
+      "bytes": 6529
+    },
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "8fc5b46f9b9a60d7093976c9abe4884f9fccd6828d876b4b8ca5208ca048716b",
+      "bytes": 4125
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "3aae67889c7526f56ddcb318bce6309ca464709304ddfe9f38c414d08a689f9e",
+      "bytes": 1613
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "709ed212e3d43badca2f2e214ff7042e551b6390c59ad235778dd8219a3198e6",
+      "bytes": 5496
+    }
+  ],
+  "content": {
+    "paragraphs": 21,
+    "full_website_notes": 10,
+    "native_markers_and_returns": 11,
+    "source_urls": 12,
+    "portable_opening_once": true,
+    "portable_remaining_paragraphs": 20,
+    "portable_short_sources": 12,
+    "reviewed_schema_unchanged": true,
+    "metadata_acceptance": "3968/3968 coast checks; exact title description accepted"
+  },
+  "tests": {
+    "full_suite": {
+      "passed": 696,
+      "failed": 0
+    },
+    "coast_suite": {
+      "passed": 547,
+      "failed": 0
+    },
+    "focused": {
+      "passed": 3,
+      "failed": 0
+    },
+    "final_gates_passed": 13
+  },
+  "browser": {
+    "actual": "headless Google Chrome",
+    "viewports": [
+      1440,
+      390
+    ],
+    "native_roundtrips_per_viewport": 11,
+    "save_reload": true,
+    "actual_html_downloads": 2,
+    "actual_text_downloads": 2,
+    "screenshots": 4,
+    "no_horizontal_overflow": true
+  },
+  "preservation": {
+    "prior_full_catalog_objects_exact": 123,
+    "prior_coast_and_publication_objects_exact": 114,
+    "search_indexable_pages": 11,
+    "book_build_or_art_generation": false,
+    "source_or_shared_record_writes": false,
+    "note": "Root-owned shared record changes are outside worker scope; eleven site paths include four authorized measured count assertions."
+  },
+  "evidence": {
+    "source-manifest.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/source-manifest.json",
+      "sha256": "80bc90175fed3a4e62074da20969c1b9fd6ed1c1882c33c170c3795756bdc4c1",
+      "bytes": 2026
+    },
+    "baseline.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/baseline.json",
+      "sha256": "c0c67f829eb6b6c1e6b9f2e395232e7d31e95a811befdc21901edb8e1679c705",
+      "bytes": 1077
+    },
+    "publication-parity.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/publication-parity.json",
+      "sha256": "3e50eacc2e987c84a5388c6d5e0c862be7b932b97f8d5b53d129ebc25b6d9c39",
+      "bytes": 7596
+    },
+    "implementation-history.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/implementation-history.json",
+      "sha256": "121739f6525aada8f66211009f27b3bb7113a190424eb9d61640b0aef69e6b9b",
+      "bytes": 1457
+    },
+    "browser/browser-review.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/browser/browser-review.json",
+      "sha256": "b19970b7c38b24046cb138dcadad09aeade8c0013192ee42cbabe6ba222730c0",
+      "bytes": 2103
+    },
+    "browser/product-binding.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/browser/product-binding.json",
+      "sha256": "208f86b4ba3b2a785a641f60f24c95572e8e3c6ae66b110c813e122ebc51e1b7",
+      "bytes": 5949
+    },
+    "focused-final.log": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/focused-final.log",
+      "sha256": "9045878a8c0dee25ee59e55651f11ac442ec5401dd3ab27b704b75d3324725a6",
+      "bytes": 413
+    }
+  },
+  "limits": [
+    "Independent visual/integrated review and final commit binding remain separate coordinator gates.",
+    "Local browser evidence does not verify deployed origin, assistive technology or Firefox/WebKit.",
+    "HEAD identifies the baseline checkout; exact working source and generated product hashes bind these tests.",
+    "No Git, publication, source research, book regeneration or new artwork performed."
+  ],
+  "write_scope": "Released after this frozen report; no further source edits planned.",
+  "report_correction": "Prior parity counted12 literal data-footnote-ref tokens including script text; now counts11 actual anchor start tags in each output. Previous reports/finalizer preserved with before-marker-count-correction suffix. Browser and focused tests already checked11 actual native anchors; no product change."
+}
