@@ -1,0 +1,28 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI prepared-live evidence review",
+  "reviewed_head": "3acf25aea3eb1050ff56c464e08578d9a4936536",
+  "bindings": {
+    "live-preparation/prepare-config.json": "b460bc213451e783cea8b1d4e2eb1179b05e1b644ec97ab4865ff1ef9d4a5618",
+    "live-preparation/prepared-3acf25ae/expected.json": "bc18336957b620ee59014ed91919d48e7eaa388eee2d76a597b63d7962a92dd4",
+    "live-preparation/prepared-3acf25ae/prepare-report.json": "60f57e701a1288b86d2a39783144cd89fc52a6bef51773d718b04165c9d11db0",
+    "live-preparation/prepare-history.json": "1ed03360e0a906ff8657dbe8e0560dd44972f97358a24109ebd04e4d0f1b516c",
+    "live-preparation/prior-catalog-object.json": "6c16169dfd3f1338192230785ec0326b27430f8d7ec90b8e5bc00bd2a51276f1",
+    "live-preparation/verify-live.py": "cbcd1a2095896683f52dab83d6b44c66bcf897a7e7642881a7c940374466a4a1",
+    "exact-head-review.json": "b9dce6168a209d445da9dd7a813eda1b4c0bdf67c114e5aac90c77aafd34cfd4",
+    "candidate-manifest.json": "51c07c316ab3594b013d8c618c10ac39a24e4bfd8e1dcd0a27ddca9301e78eaa"
+  },
+  "actual_checks": [
+    "All six bound inputs and expected report hash independently exact; explicit reviewed candidate matches exact-headPASS and manifest.",
+    "Prior catalog wrapper losslessly contains exact original list; no item changes. Initial TypeError before output creation and original configuration preserved.",
+    "Called read-only validation/inspection functions on existing expected/product files, not helper prepare/live main.21paragraphs10notes11orderedrefs and12sourceURLs match actual publishedHTML.",
+    "Exact externalized full catalog and sitemap match frozen expectations; prior catalog preservation validator passes; held article absent from sitemap.",
+    "Schema/edition/search-hold hashes equal actual reviewed commit blobs; final article artifact hash equals integrated reviewed publication product.",
+    "Unbound deployment validation explicitly refuses before network."
+  ],
+  "findings": [],
+  "limits": [
+    "Offline expectation freeze only, no liveHTTP/deployment/current-origin claim. Actualsuccessfuldeployment/mergeancestry/config/environment authorization still required.",
+    "No new build,actualprepare,network/browser or canonical mutation. Browser/live download public-origin return remains later gate."
+  ]
+}
