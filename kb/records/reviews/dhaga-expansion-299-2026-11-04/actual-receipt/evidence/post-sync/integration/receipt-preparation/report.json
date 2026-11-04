@@ -1,0 +1,47 @@
+{
+  "status": "ACTUAL_LIVE_BOUND_SYNC_FINAL_REVIEW_PENDING",
+  "input_head": "ebb379b07b7768c879e2c7469584c32f5927cf61",
+  "bindings": {
+    "assemble-receipt.py": "44b32c40d3002a51a05e3d0d7b8a22eb8761801a0437280fb512d7da7bd0d11e",
+    "actual-facts.json": "414ea520f4cc47e577c4433eb47b9834ae61a70144b6b46036324d4895c7cb7c",
+    "integration-proposal.json": "2660e84a8dde81c2918cc013afc28abbc3847eabf65debbe9a4cfbebcd497408",
+    "portable-evidence-inventory.json": "cb845ca21215827b7800468a13bdfa07e47679d54d7b7cddbe356ccbe8b6e6ff"
+  },
+  "refusal_tests": [
+    {
+      "name": "unauthorized",
+      "exit_code": 1,
+      "log_sha256": "454fe29e44e0b98bcd1000ef4ed8a459ae8f8cdbf5cf7a0d38abb3469a670726"
+    },
+    {
+      "name": "optimized",
+      "exit_code": 1,
+      "log_sha256": "79d8bd476bc3e58986b612ba2c28a4c696c9b1ede5501bacd4ed1ad9dc369911"
+    },
+    {
+      "name": "pending-facts",
+      "exit_code": 1,
+      "log_sha256": "d60d3d841bd7decf2e4e27bed67aff8ba1b5c34ab87c5c7768c99727641fbe3d"
+    }
+  ],
+  "pending_gates": [
+    "required_ci",
+    "local_reader_sync",
+    "separate_post_sync_review"
+  ],
+  "limits": [
+    "No receipt assembly/sync/canonical/Git/network/build/browser execution.",
+    "Positive assembly is intentionally untested until actual final gates; no synthetic approval or fakeIDs.",
+    "Raw report contract adaptation may be required after actual final evidence exists; facts remain pending."
+  ],
+  "actual_live_qualification": {
+    "raw_verifier_pass": false,
+    "raw_exact": 584,
+    "previously_reviewed_pairs": 21,
+    "new_exact_reviewed_pairs": 2,
+    "qualified_total": 607,
+    "html_exact": 302,
+    "release_immutable": false,
+    "host_limit": "Observed integrity; does not prevent future host mutation."
+  }
+}

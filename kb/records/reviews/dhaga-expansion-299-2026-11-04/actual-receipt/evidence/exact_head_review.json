@@ -1,0 +1,68 @@
+{
+  "decision": "PASS",
+  "reviewed_head": "ebb379b07b7768c879e2c7469584c32f5927cf61",
+  "base": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "source_binding_ancestor": "b6ae771f1121c4449cced4173fa1d3c2d1177fc2",
+  "reviewer": "Drishti, separate AI exact-head review, not human review",
+  "status": "EXACT_COMMITTED_CANDIDATE_PASS_PENDING_CI_PUBLICATION_LIVE_RECEIPT",
+  "bindings": [
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/candidate-manifest.json",
+      "sha256": "e746197fc2ebcdf9350d0e921a456d7135faf715bc63112adc21803fb9767584",
+      "bytes": 125019
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/drishti/final-head-independent-checks.json",
+      "sha256": "a9de71302373edbbbeeafa26bb5fe4df2a264ffac5912f7102f2e750815d0d4b",
+      "bytes": 657
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/drishti/check-final-head.py",
+      "sha256": "39fb10e5772efe939f411863d38f1c1a33ca12b85e8fa997e71088fe820f3f17",
+      "bytes": 3391
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/drishti/integrated-review.json",
+      "sha256": "8c2f0764f047c984a9726a0d7c6eaae66af701019bcd53ba7278f5a37a3d5275",
+      "bytes": 7657
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/drishti/source-binding-exact-head-review.json",
+      "sha256": "4d967518fa57a6fa0775886266dd25136b4dde38ced4ae0eaa339d6e5a2881b2",
+      "bytes": 4282
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/site/samanta.json",
+      "sha256": "367ad1e916842c08d47960a8e9aea75360c05ccbe2f3635c23ddc2368b7b91c8",
+      "bytes": 19922
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/site/validation-site.json",
+      "sha256": "11fb6e65ff84db847cfe74042745e9961e06b70d2f49446f224146dc0b6c893b",
+      "bytes": 5677
+    },
+    {
+      "path": "outputs/dhaga-expansion-299-2026-11-03/integration/site/browser-product-binding.json",
+      "sha256": "ef2b7a6172c0e202caef99ad69ab495628afaf8edd97b4dbf94e003e56e34289",
+      "bytes": 6198
+    }
+  ],
+  "actual_checks": [
+    "All641 present changed Git blobs independently hashed and byte-sized against actual manifest; actual642-path diff contains only those plus explicit tracked-PDF deletion. Worktree clean.",
+    "Immediate parent is separately reviewed b6ae source-binding commit; baseline1237 ancestry verified.596 cumulative book delivery accounting retained:595 exact nonPDF products and localreleasePDF, not570 local254 delta.",
+    "All19 canonical site evidence copies equal original outputs and their manifest hashes/sizes. Six actual tested site source hashes and bothworkflow hashes equal committed blobs.",
+    "Only pdf-delivery.json changed in book subtree after reviewed source-binding commit; exact109520119-byte localPDF cb34 remains untracked and retained. Currenttree maximum blob82106814bytes below100MiB.",
+    "Records/proposal/generated worklist/coastfingerprint and finite claim reuse separately reviewed exact integration;943siblings preserved/48newexclusions,163completed548excluded280queued. Programme and workbench selection byte-identical to baseline; public251/accepted0/programmecredit0 preserved.",
+    "Final13gate and localbrowser/artifact evidence binds these exact sources:693full/544coasttests,38MBauthorizedbound,257priorassets,299x5fields/edition,11indexable and709772466publicationbytes. No suite/browser/network/PDF rerun.",
+    "Committed workflow hydration occurs before builds, release descriptor binds actual433286399/707321639 to b6ae lightweighttag/fullPDFhash. Mutable-host limitation retained."
+  ],
+  "findings": [],
+  "limits": [
+    "This exact candidate is ready for root PR/requiredCI and subsequent publication/live/receipt gates; no CI, merge, website deployment or final release completion claimed.",
+    "Canonical evidence embeds exact reports and manifest, while referenced screenshots/logs remain local output artifacts as explicitly stated; not represented as fully portable visual evidence.",
+    "Historical whitespace in exact source/generated book files remains qualified; reviewed bytes preserved rather than normalized.",
+    "Dedicated asset publication was separately verified, but hosting remains mutable and checks detect observed drift, not prevention or permanentavailability.",
+    "Source-binding ancestor review and local integrated review remain frozen; no canonical/Git edits or uploads by reviewer."
+  ],
+  "scope_release": "Separate exact-head review complete; root retains finite release ownership through checked receipt."
+}

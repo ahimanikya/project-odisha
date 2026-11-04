@@ -1,0 +1,152 @@
+{
+  "decision": "PASS",
+  "status": "PASS_ACTUAL_LIVE_EVIDENCE_WITH_EXACT_IMAGE_PAIR_QUALIFICATIONS",
+  "reviewer": "Drishti — independent AI review, not human review",
+  "reviewed_at": "2026-11-04T02:57:14.327063+00:00",
+  "reviewed_head": "ebb379b07b7768c879e2c7469584c32f5927cf61",
+  "deployed_merge": "b052dc9ace89f8764fe66b3a442b588ee6608d63",
+  "deployment_id": 41757002482,
+  "bindings": {
+    "live-preparation/plan.json": "290331ae7baab4299688dde9527d53fc70c236f970792ee54cc020c389aa314a",
+    "live-preparation/candidate-plan.json": "ff23dd2e099646eb7b25613f570a213eaa17c3dc7d33dab277d47697d751ee80",
+    "live-preparation/first-attempt-live-verification.json": "f584bbff4ad310f62bb34c78de1e25c3c133c22e06c1e46daff3876d850f7180",
+    "live-preparation/live-verification.json": "f584bbff4ad310f62bb34c78de1e25c3c133c22e06c1e46daff3876d850f7180",
+    "live-preparation/supplemental-live-verification.json": "e7c4434dfce7cfd40ee7b7e97f5f3bfcccd88c8b2d39fd8d6464e4662d084028",
+    "live-preparation/companion-main-verification.json": "7c9a509209c702b01a7ab1b38a9d635ce7a7bee17a250e517e69eaa350330ea1",
+    "live-preparation/new-image-pair-diagnostics.json": "6577e38d2d5cc97b0584d79924f16027fad0b41e68d7c13086d51fe13180cb7c",
+    "live-preparation/live-execution-summary-pending-pairs.json": "c522c78e832339010ee97afb2343010874002ff0eb02d0f5cbc6aee655b7a841",
+    "integration/drishti/new-live-image-pairs-review.json": "b9dd30214e9a2edfbe36ae89737098e29ab3d0443e6f1b02ed131c99dc2d944b",
+    "live-browser/live-browser-report.json": "49a95cd636a91a6d66f1d6a087e3dcd9d62a61b017e29c806a0576c6a84a22b2",
+    "live-browser/provisional-addendum.json": "fd5a415e6a3d9ab9e3c9a3472f99b6957dd0599380839c20e14da84dd8e857fc",
+    "integration/drishti/live-browser-review.json": "2da63e4db6068820d4dcdc1be447bdd7f4adc167cd21ff691c736e89ae8f326a",
+    "deployment-status.json": "6fce43cfe3b598c1857a338584634d9f4a0ab9880d1153419642aac64704bf38",
+    "exact-head-review.json": "85673b8201ec921140d41cd17532c54e1a8d7f77ecc9acb5504d0b35dde13961",
+    "live-preparation/live-execution-summary.json": "c1c38a32d7d4a3e8fdb6ca1052cda7bbf8637d70017dc1bc7fa4a5758761722b",
+    "integration/drishti/live-binding-review.json": "044bdff6ac3516f7fe523e989f8ac715099e9d6635a295dcbff680e2af8875b3",
+    "integration/drishti/live-http-independent-checks.json": "5bc8a9412984cc0d61f549c8ab1f2b24144560d76dfa6da3779032fb7fade53b",
+    "live-preparation/known-image-pairs.json": "7925f5f6e5854c4297c147b9c43aa9a696617f85dd7c6beca4b4a6dcae422214",
+    "live-preparation/known-responsive-pairs.json": "71e09f0f9ce6127700e00b3508e3431db23f17340005b17a4bd176e478eb3c40",
+    "live-preparation/pdf-descriptor.json": "7e149f7c604f0c346f6c51cc00c99981065124827cd979b9cff113b597f50f2c",
+    "live-preparation/release-live-evidence/tag-after.json": "e8fad92f505586cd177c2743a9622807d6307346922fcd2845a37a94fa403f11",
+    "live-preparation/release-live-evidence/release-after.json": "82292851d550eec37a076c624d0d797d888005af096848e6b49c92f6c97378cb",
+    "live-preparation/release-live-evidence/odia-dhaga-299-cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a.pdf": "cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a",
+    "live-preparation/release-live-evidence/result.json": "b26cc376239ae3a78d833880f93730d2df21bfeef640f00909f7e17cb9d106da",
+    "live-preparation/release-live-evidence/asset-before.json": "225d49eab2bc3f63ab3b9af6032e867018da2b9d6a42c293d219b9affa0bcc70",
+    "live-preparation/release-live-evidence/tag-before.json": "e8fad92f505586cd177c2743a9622807d6307346922fcd2845a37a94fa403f11",
+    "live-preparation/release-live-evidence/asset-after.json": "225d49eab2bc3f63ab3b9af6032e867018da2b9d6a42c293d219b9affa0bcc70",
+    "live-preparation/release-live-evidence/release-before.json": "82292851d550eec37a076c624d0d797d888005af096848e6b49c92f6c97378cb"
+  },
+  "checks": {
+    "deployment": "Actual completed successful41757002482 binds b052dc9ace89f8764fe66b3a442b588ee6608d63; prior plan bytes retained and bounded merge/run/status/hash delta reviewed.",
+    "reader": "All607 saved result rows independently reconciled with frozen reader manifest;584 raw hashes exact,21 exact prior qualified pairs,2 exact newly visually reviewed pairs. All302HTML hashes exact; raw verifier remains false and unchanged.",
+    "new_image_pairs": "293 and299 local/live images individually viewed; same dimensions and scene with no discernible semantic/crop/geometry/readability difference. Raw/decoded differences retained; only exact pair hashes qualify.",
+    "pdf": "Retained actual anonymous download independently rehashed109520119bytes/cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a. Saved before/after release433286399,asset707321639,lightweight tag/full source commit and digest/size/URL identities match.",
+    "supplemental": "Actual live index release URL, sitemap,48new search holds and4internal404 results PASS.",
+    "companions": "Three normalized main comparisons PASS; all29 responsive image pair objects equal prior reviewed registry; shared catalog exact. Raw full HTML is not claimed equal.",
+    "browser": "Individually inspected22 fresh1440/390 screenshots, including full256lexical-only note,260separate recorded variant and288provisional literal/critical framing.49 live tested HTML hashes equal final published products. Saved Chrome keyboard/navigation/image/overflow results inspected; no rerun.",
+    "final_summary": "All12 final summary bindings rehashed exact; original pending summary and unchanged failed raw reader report retained. Single reader/supplemental/companion attempt reported, no transport retry."
+  },
+  "screenshots": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-256-art.png",
+      "sha256": "2cc3ee37c5aa061ac5119067e3839c5a71560405f1db8f2e994c091234075e26"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-256-full-lexical-note.png",
+      "sha256": "74122c9c4b1609a66a3d9c28e2ad9d691bd44866a75dba95fc8762cce4cfdb75"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-256-opening.png",
+      "sha256": "deb1609298dd31a91485178792c1761e5eea380a2fb2bcd3f995ebbf09609c84"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-256-sources.png",
+      "sha256": "74122c9c4b1609a66a3d9c28e2ad9d691bd44866a75dba95fc8762cce4cfdb75"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-260-art.png",
+      "sha256": "944a9a8f7b45bbd6c36ad1de02fa141e2612d2593af2f389458d0a93917f9af1"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-260-opening.png",
+      "sha256": "71abd80fb437df57eb6c5dfdee48518bfa3a524c20af5766ba0cf3398bc8b33b"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-260-sources.png",
+      "sha256": "772015bc7ebcaeca0b98c2c4374640b15ba7fa3cf3d8820b6f44328537815600"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-288-art.png",
+      "sha256": "7513c098278157e8e4477fd7836046533a1afc6518f401a9fca87802333fa768"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-288-opening.png",
+      "sha256": "56ec7b8983206f902abe3fc4c3805d77d0c0cd8394f7615db3b8e932e2e0a022"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-288-sources.png",
+      "sha256": "68527e640e17e5dffb272e849bf9903793d0cb5bd792ce3aa266b9f281239b10"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-256-art.png",
+      "sha256": "19aeead08d6fe96c82f7576deaa78b1810f642a38d0dc27360e95590551bc60e"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-256-full-lexical-note.png",
+      "sha256": "846459b0534479dfa7e5f45b941a3ea13a93da08adecfb107b91f110ba47f049"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-256-opening.png",
+      "sha256": "c746d5cccd7cba6441fff0b40a988719dbd641a89d464691e49a0afd188def55"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-256-sources.png",
+      "sha256": "d328dc3b4ac1165927a7f3767f6353eb0ae953a98b0462acb3d2622685f31eed"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-260-art.png",
+      "sha256": "ad91830bcdbc3edc049a166d6a1cec55895a575efe1a955b62ad71a1ba4844a5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-260-opening.png",
+      "sha256": "b0fdbc2181fed43ad38eb3fe724121b2fbc064cbda4683306a780b80ebaacc35"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-260-sources.png",
+      "sha256": "aa2fcbc5b83ed26411f7e55c78f0bf4e0aa52c80107f538a390dd8ddc69d92cb"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-288-art.png",
+      "sha256": "ca7d7d136fd5d1b25b4c21f1abe4c9bc536290b3a92cf823b47828a5f4a52c22"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-288-opening.png",
+      "sha256": "32ad685897ab1cb3e43c205cc0547c1bca572926cb10bb4471fb42ef63eafce4"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-288-sources.png",
+      "sha256": "044e74300a902d8aef7aeafc7cc1376a2d77f6f9f80123f36e559375ca74c55c"
+    },
+    {
+      "width": 1440,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/1440-288-provisional-literal.png",
+      "sha256": "2da92ac0dbb70f89f3c86c1078b133eae4e58b4832dabbe192b175cee74a97b5",
+      "literal": "Provisional reading: The stool cracks, the navel turns out—only then, Brahmin, rise from your place."
+    },
+    {
+      "width": 390,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/live-browser/390-288-provisional-literal.png",
+      "sha256": "b4052d939f8fde6dfea2bc20afbe2eaf1b3380e4ab3e6547f573a46357b54905",
+      "literal": "Provisional reading: The stool cracks, the navel turns out—only then, Brahmin, rise from your place."
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "This PASS uses explicitly qualified exact image pairs; it does not claim607raw-byte matches or decoded-pixel identity for23images.",
+    "Mutable-host release identity and full downloaded bytes were observed exact; drift detection does not prevent future host mutation, deletion or unavailability.",
+    "Saved actual headless Chrome evidence only; no cross-engine, assistive-technology or per-source citation-return-anchor certification.",
+    "Reviewer used saved HTTP reports/raw mismatch images/retained PDF and metadata; no duplicate network, build, source research or production review.",
+    "Deployment commit binding comes from captured deployment evidence, not browser inference.",
+    "No local sync authorization/execution, receipt completion or canonical changes are claimed. Root retains finite release ownership."
+  ]
+}
