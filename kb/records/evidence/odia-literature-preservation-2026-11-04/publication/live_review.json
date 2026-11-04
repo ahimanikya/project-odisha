@@ -1,0 +1,54 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti separate independent AI review, not human archival or community review",
+  "reviewed_head": "3acf25aea3eb1050ff56c464e08578d9a4936536",
+  "deployed_merge": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+  "deployment_id": 41782698753,
+  "receipt_bindings": {
+    "http": "90f6f99070f23757c1a41d5b5ce52250307c792024006504a8131c260719973e",
+    "browser": "d82b7df1c7c8a6affcebe7169933281c590932889a9b45a06ad0f9f3253def36",
+    "deployment": "45d78bcc9c56997362cdab6a19d0872e822a40796c9467c94c03d1cd16209e56",
+    "remote": "faa94c336d803349bad478c0d1fb443bdffd6236c04f74aa0e43271dfac45c97",
+    "exact_review": "b9dce6168a209d445da9dd7a813eda1b4c0bdf67c114e5aac90c77aafd34cfd4"
+  },
+  "bindings": {
+    "live/http/report.json": "90f6f99070f23757c1a41d5b5ce52250307c792024006504a8131c260719973e",
+    "live/browser/browser-review.json": "d82b7df1c7c8a6affcebe7169933281c590932889a9b45a06ad0f9f3253def36",
+    "deployment-status.json": "45d78bcc9c56997362cdab6a19d0872e822a40796c9467c94c03d1cd16209e56",
+    "remote-verification/remote-verification.json": "faa94c336d803349bad478c0d1fb443bdffd6236c04f74aa0e43271dfac45c97",
+    "exact-head-review.json": "b9dce6168a209d445da9dd7a813eda1b4c0bdf67c114e5aac90c77aafd34cfd4",
+    "live/live-browser-report.json": "5cf7b7c413faec8192d30a242a543fe22ac8bccebc483a61e62ab9604087ba09",
+    "drishti/live-http-independent-checks.json": "a7618c01fb54d34b589133fb304004e406cd8db281685068e3ab8d58982c53ac",
+    "merge-ancestry.json": "4a897f01c90e9efccb3a1d8f67af44ed33de5221444e124c9defe0518323f275",
+    "live/pre-execution-history.json": "a9df4629f93ab473dadf21e3c23b6a5f0092528f4e58bea21c8ed17bb1fa3ee8",
+    "live/browser/desktop-opening.png": "095f1d1bc8bcebb31810ecfc2e31bb869b044cf5b6988257337cd29c688e2b94",
+    "live/browser/desktop-reading.html": "a338404ddedbf99353f569c142a108e98b9389b03db9ba11173ae9806119368e",
+    "live/browser/desktop-reading.txt": "09bb50598fcdc0d56216eef145e40d066d837bd050dffe58c482e3ea61287ae7",
+    "live/browser/desktop-sources.png": "c375c60f8b8355ab95950a9ae376f8c0aae5b7bfca8fa73450ba3720c22ce700",
+    "live/browser/phone-opening.png": "397ef536db8fcf182fc0914e5fc5ff804d2a1dbad3409cd691f176797b550290",
+    "live/browser/phone-reading.html": "a338404ddedbf99353f569c142a108e98b9389b03db9ba11173ae9806119368e",
+    "live/browser/phone-reading.txt": "09bb50598fcdc0d56216eef145e40d066d837bd050dffe58c482e3ea61287ae7",
+    "live/browser/phone-sources.png": "5f9c666e5488febab2d3b402424994d900b623f695d760a2bfbd6655566de5fc"
+  },
+  "actual_checks": [
+    "Independently parsed saved live HTTP article:21 ordered paragraphs,10 complete notes,11 references and return links,12 source URLs; full catalog exact,correct noindex and sitemap checks. Four successful captured response body hashes verified.",
+    "Verified 53 remote file hashes/sizes against candidate manifest and successful deployment identity/expected bindings.",
+    "Individually viewed all four actual live PNGs: desktop and phone opening/title/byline/Save/contents readable, no clipping or overlap; desktop10 complete notes visible and phone visible note section wraps cleanly.",
+    "Independently parsed both actual HTML and both TXT downloads: all21 paragraphs exactly once and ordered,all12 short source URLs,public article return and no local origin.",
+    "Rehashed wrapper evidence, PNGs,downloads,raw browser report and execution log. Producer actual headless Chrome records11 native note-return round trips per viewport, Save/reload and no overflow."
+  ],
+  "visual_limits": [
+    "Phone sources screenshot shows only part of notes2\u20138; complete note content verified from saved HTTP,not inferred from that crop.",
+    "Reviewer inspected saved pixels/download contents; did not repeat browser interactions or separately render downloaded HTML."
+  ],
+  "history": [
+    "Root remote helper completed successfully; later wrong summary filename did not trigger another dispatch. Pre-execution live-directory handling history retained.",
+    "Raw reusable browser working_tree_basis label is qualified by wrapper committed-source/deployment binding; browser itself does not infer server Git identity."
+  ],
+  "limits": [
+    "No source research, external playback/PDF interior,rights/corpus-completeness or archive uptime revalidation.",
+    "No assistive-technology or Firefox/WebKit testing.",
+    "Downloads intentionally contain short source references, not full article footnotes.",
+    "This verifies actual publication evidence; receipt integration,exact-head checks,CI,merge and remote verification remain required before finite ownership release."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI review",
+  "input_head": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+  "scope": "Actual installed uncommitted receipt and narrow PR URL correction",
+  "bindings": {
+    "receipt-staged/assembly-report.json": "cd526c3b186599d1e2ec1cca40d71dd7b5211589276a51ce79e79eef76198909",
+    "receipt-pr-url-correction.json": "c94a9b2adba5c500d4683b4ea66627eb0589d3b0ca7b6406b53afedf1cbd48c0",
+    "receipt-publication-before-pr-url-correction.json": "1b0d5f2db002d0d25ef55c34cf67bbc0a4ec553a2ad846e0169b6e5dabc57dad",
+    "drishti/receipt-installed-checks.json": "091622219e3c29a5da3468827a6275edd8a0b539ab86ee6d1f039b6d1a70a127",
+    "drishti/receipt-assembly-review.json": "e47177be38deab27299896f0fafd394cd2b09af0ead87d39b11d349b7994ecd0"
+  },
+  "actual_checks": [
+    "16 of17 staged files installed byte-exact; publication receipt differs only pull_request numeric674 to actual repository PR URL. Historical bytes match original staged receipt.",
+    "17 extra supporting evidence files now present: original15 plus correction/before bytes. Every copy hash matches saved output evidence; screenshots/downloads retain exact reviewed bytes.",
+    "Independently ran all8 actual canonical checks: registers,catalog,bundle,programme,team,rollout,workbench,diff whitespace. All exited0.",
+    "Tracked changes confined to KB receipt/operations/registers and generated views; no site/book changes. Prior sibling and finite ownership findings remain applicable because installed staged objects are exact except PR URL."
+  ],
+  "extra_evidence": {
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/publication-dispatch-history.json": {
+      "sha256": "f2820872331d071903ea1832e1c5ddb01af00b65eabf2201dd55b450198b09d8",
+      "exact_output_sources": [
+        "publication-dispatch-history.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/live-pre-execution-history.json": {
+      "sha256": "a9df4629f93ab473dadf21e3c23b6a5f0092528f4e58bea21c8ed17bb1fa3ee8",
+      "exact_output_sources": [
+        "live/pre-execution-history.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/live-browser-report.json": {
+      "sha256": "5cf7b7c413faec8192d30a242a543fe22ac8bccebc483a61e62ab9604087ba09",
+      "exact_output_sources": [
+        "live/live-browser-report.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/assembly-report.json": {
+      "sha256": "cd526c3b186599d1e2ec1cca40d71dd7b5211589276a51ce79e79eef76198909",
+      "exact_output_sources": [
+        "receipt-staged/assembly-report.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/receipt-assembly-review.json": {
+      "sha256": "e47177be38deab27299896f0fafd394cd2b09af0ead87d39b11d349b7994ecd0",
+      "exact_output_sources": [
+        "drishti/receipt-assembly-review.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/receipt-pr-url-correction.json": {
+      "sha256": "c94a9b2adba5c500d4683b4ea66627eb0589d3b0ca7b6406b53afedf1cbd48c0",
+      "exact_output_sources": [
+        "receipt-pr-url-correction.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/prepared-live-review.json": {
+      "sha256": "4706788ae5f2e38ff72f1d6ab7c02251a4140b23c0d0c63f4dd263b671dba8e6",
+      "exact_output_sources": [
+        "drishti/prepared-live-review.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/receipt-publication-before-pr-url-correction.json": {
+      "sha256": "1b0d5f2db002d0d25ef55c34cf67bbc0a4ec553a2ad846e0169b6e5dabc57dad",
+      "exact_output_sources": [
+        "receipt-publication-before-pr-url-correction.json",
+        "receipt-staged/kb/records/odia-literature-preservation-editorial-publication-2026-11-04.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/receipt-assembler-review.json": {
+      "sha256": "55161a4261f4e5de2a46877bd3693835ecff4849ad8b259c646873d6ae6d536a",
+      "exact_output_sources": [
+        "drishti/receipt-assembler-review.json"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/desktop-sources.png": {
+      "sha256": "c375c60f8b8355ab95950a9ae376f8c0aae5b7bfca8fa73450ba3720c22ce700",
+      "exact_output_sources": [
+        "live/browser/desktop-sources.png",
+        "samanta/implementation/browser/desktop-sources.png"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/phone-reading.txt": {
+      "sha256": "09bb50598fcdc0d56216eef145e40d066d837bd050dffe58c482e3ea61287ae7",
+      "exact_output_sources": [
+        "live/browser/phone-reading.txt",
+        "live/browser/desktop-reading.txt"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/phone-opening.png": {
+      "sha256": "397ef536db8fcf182fc0914e5fc5ff804d2a1dbad3409cd691f176797b550290",
+      "exact_output_sources": [
+        "live/browser/phone-opening.png",
+        "samanta/implementation/browser/phone-opening.png"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/phone-reading.html": {
+      "sha256": "a338404ddedbf99353f569c142a108e98b9389b03db9ba11173ae9806119368e",
+      "exact_output_sources": [
+        "live/browser/phone-reading.html",
+        "live/browser/desktop-reading.html"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/phone-sources.png": {
+      "sha256": "5f9c666e5488febab2d3b402424994d900b623f695d760a2bfbd6655566de5fc",
+      "exact_output_sources": [
+        "live/browser/phone-sources.png",
+        "samanta/implementation/browser/phone-sources.png"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/desktop-reading.txt": {
+      "sha256": "09bb50598fcdc0d56216eef145e40d066d837bd050dffe58c482e3ea61287ae7",
+      "exact_output_sources": [
+        "live/browser/phone-reading.txt",
+        "live/browser/desktop-reading.txt"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/desktop-opening.png": {
+      "sha256": "095f1d1bc8bcebb31810ecfc2e31bb869b044cf5b6988257337cd29c688e2b94",
+      "exact_output_sources": [
+        "live/browser/desktop-opening.png",
+        "samanta/implementation/browser/desktop-opening.png"
+      ]
+    },
+    "kb/records/evidence/odia-literature-preservation-2026-11-04/publication/browser/desktop-reading.html": {
+      "sha256": "a338404ddedbf99353f569c142a108e98b9389b03db9ba11173ae9806119368e",
+      "exact_output_sources": [
+        "live/browser/phone-reading.html",
+        "live/browser/desktop-reading.html"
+      ]
+    }
+  },
+  "history": "Initial root seven-of-eight PASS and programme PR URL failure retained; current independent eight-check result supersedes that failure without deleting history.",
+  "limits": [
+    "Not a committed-head review or receipt CI/merge/remote release.",
+    "Synthetic helper tests used URL fixture and therefore did not catch numeric actual config; actual installed checks now cover correction.",
+    "No canonical modifications, build,network or repeated live review performed by reviewer."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "expected_sha256": "bc18336957b620ee59014ed91919d48e7eaa388eee2d76a597b63d7962a92dd4",
+  "deployment_sha256": "45d78bcc9c56997362cdab6a19d0872e822a40796c9467c94c03d1cd16209e56",
+  "candidate_head": "3acf25aea3eb1050ff56c464e08578d9a4936536",
+  "merge_head": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+  "deployment_id": 41782698753,
+  "checks": {
+    "paragraphs": 21,
+    "notes": 10,
+    "references": 11,
+    "source_urls": 12,
+    "full_catalog_exact": true,
+    "noindex_and_sitemap": true
+  },
+  "http": [
+    {
+      "path": "/stories/odia-literature-preservation/",
+      "exit": 0,
+      "http": "200",
+      "stderr": "",
+      "sha256": "9b805ab5828dbb9a53d314ce8d40f2b01dec62efd03c124142dd3c95e7b87cd3"
+    },
+    {
+      "path": "/assets/journey-data-a9dac421525d9b2a2a063895a06c1644c197711614f1ab77ac25d94f5ae4173c.js",
+      "exit": 0,
+      "http": "200",
+      "stderr": "",
+      "sha256": "a9dac421525d9b2a2a063895a06c1644c197711614f1ab77ac25d94f5ae4173c"
+    },
+    {
+      "path": "/sitemap.xml",
+      "exit": 0,
+      "http": "200",
+      "stderr": "",
+      "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+    },
+    {
+      "path": "/explore/",
+      "exit": 0,
+      "http": "200",
+      "stderr": "",
+      "sha256": "9ea2adf48a16772c32010d5b1e634960a565aeadfb2ec6a740ae44198296f275"
+    }
+  ],
+  "limits": [
+    "Whitespace/entity normalization; reference superscripts and return labels excluded from prose comparisons.",
+    "HTTP verification only; actual Save/download/keyboard/mobile browser interactions require separate evidence.",
+    "No external archive playback, item rights, uptime or source research revalidation."
+  ]
+}
