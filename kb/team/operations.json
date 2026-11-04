@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-literature-image-2026-11-04.json",
+  "handoff_home": "records/ou-khatta-editorial-2026-11-04.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-112",
+    "route": "/food/ou-khatta/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/ou-khatta-editorial-2026-11-04.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_image_receipt",
+    "kind": "article_editorial_revision",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-832",
-    "handoff": "records/odia-literature-image-2026-11-04.json"
+    "status": "implementation",
+    "article_id": "POD-EDIT-112",
+    "handoff": "records/ou-khatta-editorial-2026-11-04.json"
   },
   "parallel_programmes": [
     {
@@ -78,7 +84,7 @@
       "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
     },
     {
-      "name": "Dhaga historical pages 10\u201312 research",
+      "name": "Dhaga historical pages 10–12 research",
       "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
       "status": "integration_review",
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
@@ -109,13 +115,13 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "Requested literature illustration published via676/deployment41802622867 and independently live-verified. Disha retains only this records receipt; no new article/programme credit. B37 assembly and111 review remain output-only pending.",
+  "coordination_note": "Ou khatta112 finite release active through reviewed receipt. Exact separately reviewed local draft; no repeated research. Dhaga B42 complete; twelve proposals beyond local301 preserved, no competing canonical claim.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "article_receipt",
+    "kind": "article_image_receipt",
     "status": "released",
-    "receipt_pr": 675,
-    "merge": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc"
+    "receipt_pr": 677,
+    "merge": "d00262118e5adae759e039606fa63b7df4b3b0db"
   }
 }
