@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/registers.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "POD: valid; 1212 records, 700 events; dashboard current\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/catalog.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "Whole-project catalogue current: 1868 concepts\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_bundle.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1868,\n  \"local_links\": 8053,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_autonomous_program.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: autonomous program count and linked delivery records\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/editorial/article_rollout.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "{\"result\": \"PASS\", \"counts\": {\"completed\": 164, \"excluded\": 548, \"queued\": 280}, \"errors\": []}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_team_assignments.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

@@ -42,3 +42,18 @@ test('article is discoverable, edition included and held outside search shortlis
  const search=JSON.parse(read('editions/search-candidate.json'));assert.equal(search.pages.find(p=>p.route===story.route).decision,'hold');
  assert.match(html,/<meta[^>]*name="robots"[^>]*content="noindex, (?:no)?follow"/);
 });
+test('approved conceptual illustration serves hero, sharing, discovery and saved reading',()=>{
+ const image=JSON.parse(read('../../kb/research/stories/odia-literature-preservation-image.json'));
+ const hero=html.match(/<figure class="preservation-illustration"[^>]*>([\s\S]*?)<\/figure>/)?.[1];
+ assert.ok(hero);assert.ok(decode(hero).includes(`alt="${image.alt}"`));
+ assert.match(hero,/fetchpriority="high"/);assert.doesNotMatch(hero,/loading="lazy"/);
+ assert.match(hero,/width="1536"/);assert.match(hero,/height="1024"/);assert.match(hero,/srcset=/);
+ assert.ok(visible(hero).includes(image.caption));assert.ok(visible(hero).includes('Project Odisha'));
+ assert.ok(html.includes(`content="https://projectodisha.org${image.src}"`));
+ assert.ok(read(dist+'/explore/index.html').includes(image.src));
+ assert.equal(item.photo.src,image.src);assert.equal(item.photo.alt,image.alt);
+ assert.equal(item.photo.creator,'Project Odisha');
+ const book=buildTourBook({version:1,title:'Odia reading',items:[{id:item.id,day:1,notes:''}]},catalog,{illustrated:true,images:{[image.src]:'data:image/jpeg;base64,'+readFileSync('public'+image.src).toString('base64')}});
+ assert.ok(book.includes('data:image/jpeg;base64,'));assert.ok(book.includes(escapeHTML(image.caption)));
+ assert.equal(item.sources.length,12);
+});

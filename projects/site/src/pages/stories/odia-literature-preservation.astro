@@ -1,4 +1,6 @@
 ---
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import image from '../../../../../kb/research/stories/odia-literature-preservation-image.json';
 import Shell from '../../layouts/Shell.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import ArticleFootnote from '../../components/ArticleFootnote.astro';
@@ -10,10 +12,11 @@ import story from '../../../../../kb/research/stories/odia-literature-preservati
 const passages=story.sections.flatMap(section=>section.paragraphs.map((paragraph,index)=>({...paragraph,id:`${section.id}-${index}`})));
 const contents=[...story.sections.filter(section=>section.title).map(section=>({title:section.title,href:'#'+section.id})),{title:'Further reading',href:'#preservation-further-reading'},{title:'Continue reading',href:'#preservation-continue-reading'},{title:'Footnotes & Sources',href:'#story-sources'}];
 ---
-<Shell title={story.title} description={story.description} active="explore" wide related={false}>
+<Shell title={story.title} description={story.description} active="explore" shareImage={image} wide related={false}>
 <article class="article-reading preservation-story">
  <a class="collection-return" href={story.collection_return.href}>← {story.collection_return.title}</a>
  <header><h1>{story.title}</h1><ArticleByline author={story.author}/><SaveJourney id="reading:stories/odia-literature-preservation" quiet/></header>
+ <figure class="preservation-illustration"><ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 740px) 94vw, 740px" fetchpriority="high"/><figcaption>{image.caption} Project Odisha.</figcaption></figure>
  <ResearchContents items={contents} label="In this article"/>
  {story.sections.map(section=><div id={section.id} class="preservation-section">
   {section.title&&<h2>{section.title}</h2>}

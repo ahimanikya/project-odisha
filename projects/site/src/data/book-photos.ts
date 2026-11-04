@@ -1,3 +1,4 @@
+import literaturePreservationImage from '../../../../kb/research/stories/odia-literature-preservation-image.json';
 import maritime from '../../../../kb/research/stories/narratives/maritime-memory.json';
 import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
@@ -9,6 +10,7 @@ import konark from '../../../../kb/research/destinations/konark.json';
 import chilikaStory from '../../../../kb/research/stories/narratives/chilika.json';
 import bookImages from '../../../../kb/research/destinations/book-images.json';
 export const bookPhotos={
+ 'reading:stories/odia-literature-preservation':literaturePreservationImage,
  [textiles.collection.save_id]:textiles.assets[textiles.collection.hero],
  ...Object.fromEntries(textiles.pages.map(p=>[p.save_id,textiles.assets[p.hero]])),
  [crafts.collection.save_id]:crafts.assets[crafts.collection.hero],
