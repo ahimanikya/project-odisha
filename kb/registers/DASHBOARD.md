@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4bf766adf3abee052b47aa35837708c60105c7e105e64d577385860d3363180d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ae7c54bcd110be438c48d6b2685090d1610c53730690acf736f7100cfb8e8f6a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1325,7 +1325,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102909 | 2026-10-29T17:21:18.231378+00:00 | Founder explicitly requested publishing the reviewed Essential Odia Dhaga selection as a companion to the book series. | — |
 | POD-EVT-2026102910 | 2026-10-29T18:08:50.067960+00:00 | Essential Odia Dhaga companion published and live verified; receipt integration pending. No programme credit. | — |
 | POD-EVT-2026103101 | 2026-10-31T07:11:31.201262+00:00 | Founder authorized sequential Badhei, Kandhamal and Kandhamal Haladi articles; reserve first Badhei release only. No completion credit. | — |
 | POD-EVT-2026103102 | 2026-10-31T08:26:48.853328+00:00 | Badhei article publication and live verification complete; programme132 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
@@ -1335,6 +1334,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110401 | 2026-11-04T05:20:50.650657+00:00 | Start separately reviewed Founder Odia literature article after verified299receipt release. No completion credit. | — |
 | POD-EVT-2026110402 | 2026-11-04T06:15:04.354964+00:00 | Verified substantive article publication; programme135. Finite receipt integration remains active. | — |
 | POD-EVT-2026110403 | 2026-11-04T08:10:53.614043+00:00 | Founder requested an image for the completed Odia literature preservation article. One independently reviewed conceptual illustration; no new programme credit. Prior675 receipt complete and released. | — |
+| POD-EVT-2026110404 | 2026-11-04T09:08:58.100362+00:00 | Founder-requested literature illustration published and separately live-verified on desktop and phone, including discovery and illustrated downloads. Zero new programme credit; finite receipt integration remains. | — |
 
 ## Deferred extensions
 

@@ -1,0 +1,39 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI integrated image review",
+  "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+  "bindings": {
+    "samanta/report.json": "cec5e94bc1a2491d5f9992c0357e2162662bf9461ab8d436c223d689198b8512",
+    "drishti/final-artifact-checks.json": "883611a4b3493967fb9dbb955b4d910dd16c2a4176a558a2ec436be575b120c1",
+    "drishti/visual-review.json": "4dba9f23da60c9baee763073c6b2ecc8016c34e6065005980ba2befbe9fa7d5a",
+    "drishti/art-review.json": "6e98cda72e6ba0e6cd17796ccb1b3b75e2e84a1e92b7911ac5a522749822bca8",
+    "drishti/live-helper-review.json": "5016a275555bdb2ec555445dde2cb76a77b5da8d2011c4de632a705b3ad0bbcb",
+    "provenance.json": "b61992d92a34e264835d2b17341b07be6ca9ee02d2a9e1d5c1ebd4048e52a9ed",
+    "credit-metadata-note.json": "caa794a84859e5bf03dab5395b7b94affdcb078550dc6afc22d3af62136e84dd"
+  },
+  "source_hashes": {
+    "src/pages/stories/odia-literature-preservation.astro": "d08d6aa987092fd7869016ffdbbe6e10d8564920c9f2cf231ee0621f152718eb",
+    "src/data/discovery.ts": "057641fa2390f5f404aa2fbd52f738be9b02330fc4c079ad78336c104946ea61",
+    "src/data/book-photos.ts": "88dbd9d36a376466f2dcbb2565762b0b2143dfd67fcb813460b46e4f3a37636f",
+    "editions/responsive-images.json": "3b724cf552deb541322000c212258cccf0b2d763f86626cafdd853516e25787e",
+    "tests/odia-literature-preservation.test.mjs": "430597f36cb022f5f1623a23c1e697342657ae23f3d273aab80565ef7f6e29a3"
+  },
+  "actual_checks": [
+    "Read exact five-file site diff: existing ResponsiveImage hero,sharing,discovery,saved-reading association and meaningful image test; prose untouched.",
+    "Original/JPEG and10savedPNG actual visual reviews reused; bounded painted-desktop capture resolves initialblank.",
+    "Four originaldownloads plus2finalcreditHTML parsed;21paragraphs/12URLs and embeddedJPEG exact. Policy link identifies provenance context,not fabricated CC grant.",
+    "Final three-edition artifacts/preservation checked;13gate logs verified,producer697full/548coast testsPASS.",
+    "No internal provenance keys in target public photo. Exact generation provenance retained in canonical evidence."
+  ],
+  "history": [
+    "Exactprompt append preserves originalimage and historical art-review provenance binding.",
+    "Selector failures,blankpaint capture and originalmetadata kept as history.",
+    "MissingcreditURL acceptancefailure retained; corrected policyURL rebuiltfull/coast and targeted finaldownloads."
+  ],
+  "limits": [
+    "Working candidate review; exact committed head,CI,deployment,live andreceipt gates still required.",
+    "Three responsiveWebPs generated build-only;canonicalJPEG/config bind source.",
+    "No social cache refresh,AT/crossengine or human archival review.",
+    "Prose/source limits unchanged;zero programme credit."
+  ]
+}
