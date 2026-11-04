@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ae7c54bcd110be438c48d6b2685090d1610c53730690acf736f7100cfb8e8f6a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `520bbc552285e060edcd02179bfc94f36f1a075722cab558243f8b74f2af68c4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -357,6 +357,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-324 · Research and publish Kandhamal place and cultural article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-325 · Research and publish Kandhamal Haladi article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-326 · Odia Bibhaba and the Work of Keeping Literature Available | completed | reviewed | Ahimanikya Satapathy | Maintain finite receipt integration claim until reviewed receipt merge and remote verification. | — |
+| POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | in_progress | reviewed | Ahimanikya Satapathy | Complete exact-head release gates and reviewed publication receipt for POD-EDIT-112; retain finite ownership until receipt merge and remote verification. | — |
 
 ## Pending human review and decisions
 

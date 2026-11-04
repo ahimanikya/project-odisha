@@ -13,7 +13,7 @@ test('everyday stories retain licensed real photographs and reachable sources in
   assert.ok(read('/food/everyday/').includes('href="/food/'+slug+'/"'));
   assert.ok(read('/explore/').includes('href="/food/'+slug+'/"'));
   assert.ok(read('/food/').includes('data-save-journey="'+entry.save_id+'"'));
-  for(const text of [photo.alt,photo.creator,photo.license_url,entry.odia,'noindex, nofollow','Sources, image credit'])assert.ok(html.includes(text),slug+': '+text);
+  for(const text of [photo.alt,photo.creator,photo.license_url,entry.odia,'noindex, nofollow',slug==='ou-khatta'?'Footnotes &amp; Sources':'Sources, image credit'])assert.ok(html.includes(text),slug+': '+text);
   assert.equal(createHash('sha256').update(readFileSync('dist-coast'+photo.src)).digest('hex'),photo.sha256);
   for(const id of new Set(entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))assert.ok(html.includes(foods.sources[id].url));
  }
@@ -30,7 +30,7 @@ test('all four new saved ideas retain food context, source links and personal no
  assert.ok(read('/food/everyday/').includes('data-save-journey="reading:food/everyday"'));
 });
 test('connections preserve recipe distinctions and held Pala research stays outside the public candidate',()=>{
- assert.match(read('/food/ou-khatta/'),/same author/);
+ assert.match(read('/food/ou-khatta/'),/two recipes by the same cook/);
  assert.match(read('/food/tala-pitha/'),/Ripe-fruit preparations and palm-seed foods are separate/);
  assert.ok(read('/food/poda-pitha/').includes('href="/food/tala-pitha/"'));
  assert.ok(read('/destinations/bhubaneswar/').includes('href="/food/everyday/"'));

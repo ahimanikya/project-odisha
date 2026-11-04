@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 992. completed: 164, excluded: 549, queued: 279.
+Route inventory: 992. completed: 164, excluded: 549, in_progress: 1, queued: 278.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -125,7 +125,7 @@ Route inventory: 992. completed: 164, excluded: 549, queued: 279.
 | POD-EDIT-109 | [Koraput · languages and population](https://projectodisha.org/languages/districts/koraput/) | excluded | classification_pending |
 | POD-EDIT-110 | [Malkangiri · languages and population](https://projectodisha.org/languages/districts/malkangiri/) | excluded | classification_pending |
 | POD-EDIT-111 | [The everyday Odisha table](https://projectodisha.org/food/everyday/) | excluded | classification_pending |
-| POD-EDIT-112 | [Ou khatta](https://projectodisha.org/food/ou-khatta/) | queued | classification_pending |
+| POD-EDIT-112 | [Ou khatta](https://projectodisha.org/food/ou-khatta/) | in_progress | substantive_editorial_revision |
 | POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | queued | classification_pending |
 | POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | queued | classification_pending |
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | queued | classification_pending |
