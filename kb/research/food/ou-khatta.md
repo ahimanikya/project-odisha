@@ -54,7 +54,7 @@ Her 2019 sweet-and-sour version uses a mustard–cumin paste alongside panch pho
 
 Julie Acharya Ray’s 2014 memoir places ou khatta in her mother’s Kartik meal. On banana leaves, rice and dal occupy the centre, with vegetable dishes and ou khatta around them. This is one family’s remembered arrangement, not a menu for every household.[^food-ou-ray2014]
 
-The reviewed public narrative and visible source notes are recorded in [the food collection](collection.json) and [article metadata](ou-khatta-editorial.json). This reconciliation replaces the older summaries; it does not add a second public recipe account. Compare [Dalma](dalma.md).
+The reviewed public narrative and visible source notes are recorded in [the food collection](collection.json) and [article metadata](ou-khatta-editorial.json). This reconciliation replaces the older summaries; it does not add a second public recipe account. Compare [Dalma](dalma.md). The attributed relish account offers rice and dalma as a serving combination; meal context, not universal ritual prescription.
 
 The university’s Assam-labelled passage remains unresolved. These attributed accounts do not establish exclusive origin or make that other label an error. Recipe testing, locally contributed review, precise district distribution and current availability remain unverified.
 

@@ -1,0 +1,143 @@
+{
+  "status": "APPLIED_KB_ONLY_CI_CORRECTION_PENDING_NEW_HEAD_REVIEW",
+  "failed_run": 41894458952,
+  "proposal": {
+    "status": "PROPOSED_KB_ONLY_NOT_APPLIED",
+    "input_head": "b8e1eaf4f9a1f5d55386ec068cc73bd3d13c71e8",
+    "target": "kb/research/food/ou-khatta.md",
+    "before_sha256": "b80e90771f3dce1c1ce3876a738b1ec41edd50a105daa12ae84ece76ddaf4e7c",
+    "after_sha256": "7bba9f09eca48bf68dddc6359685ec1582280b1857466535ed07a421b412e26f",
+    "exact_anchor": "Compare [Dalma](dalma.md).",
+    "append_exact_existing_relationship_explanation": "The attributed relish account offers rice and dalma as a serving combination; meal context, not universal ritual prescription.",
+    "classification_relation": {
+      "from": "food/ou-khatta",
+      "to": "food/dalma",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The attributed relish account offers rice and dalma as a serving combination; meal context, not universal ritual prescription."
+    },
+    "classification_sha256": "abb8e002ef045c5e862cb1fb3ca82f8a8d820b36d349d608a4c4f2b99e4ca2af",
+    "before_exit_code": 1,
+    "preserved_source_bindings": {
+      "projects/site/src/components/OuKhattaArticle.astro": "cdc31e9dd83c3009d9aecc27db55d7a249efe5748a8949693e64b882cd8a0b07",
+      "projects/site/src/pages/food/[slug].astro": "184f81605c7554a80148b450fd6076343bc064bb12b1cb72c92a08c2d45e0dac",
+      "projects/site/src/data/journey-catalog.ts": "f87a850d702136f657f19480d9c58221ae5c693661fdb904c4f1246eb90fd467",
+      "projects/site/src/lib/tour-book.mjs": "134c2db22245ba108901d17a865405304071574de6958c6329f8ae033379eae6",
+      "projects/site/tests-coast/ou-khatta-editorial.test.mjs": "d42295afc38977e6a179af2b265a9868a8bbbf286cfb520cd6449434d67cd1f3",
+      "projects/site/tests-coast/everyday-food.test.mjs": "1d4bd88acdc06bda3e1ed9439d174625c9370453b34e99f913c951c964efb6f2",
+      "projects/site/tests-coast/bose-editorial.test.mjs": "7c43397fb05a50b258b66a15c974f09a8ad794096ac18db0abfd282b070e5c02",
+      "projects/site/tests-coast/enduri-editorial.test.mjs": "27de714e273927dbed5ac9fdee6cbda8421ab78d9755a4ba239a4d3b1eac0026",
+      "projects/site/tests-coast/rasagola-editorial.test.mjs": "472db8b28181bf87c2c887853af9d35f2c480253b05a667ddee6746f9c0c1650",
+      "projects/site/tests-coast/chandipur-meal-editorial.test.mjs": "62ac0737cb94bdfabadd6172cc9847155a7e732490812105d04287ca81816b9e",
+      "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs": "e087c15a3a05cdb1a1f65cce8b411767942b3e91f782b4c8d50bfc4494b0c544",
+      "projects/site/tests-coast/chhena-poda-editorial.test.mjs": "53d93c55eca7fabe5dfe0263dd1ec719faa4e54360c7d3cd4bed7c2eb916b41d",
+      "projects/site/tests-coast/poda-editorial.test.mjs": "d05da4e652f1d291f85a1d132b3f59cff75a3b22ee9a15006d50d31567aad058",
+      "kb/research/food/collection.json": "4be232543accc1e7fab4d452a1fd8bef1050c29ced2828de509ef2b11e4a1255",
+      "kb/research/food/ou-khatta-editorial.json": "b00cbd3ec8a31f1045e04a33462dbd24d41caac0e7bb25e72896987eb262fe89",
+      "kb/research/references/data/content-classification.json": "abb8e002ef045c5e862cb1fb3ca82f8a8d820b36d349d608a4c4f2b99e4ca2af"
+    },
+    "limits": [
+      "Root sole canonical writer; only one existing metadata explanation restored.",
+      "No reviewed article prose/notes/photo/source-budget or public link change.",
+      "No frontend edit/build/browser required; prior gates retained as historical actual tests."
+    ],
+    "root_apply_instructions": [
+      "Verify current target SHA equals before_sha256, classification SHA matches, and separate review PASS.",
+      "Copy exact ou-khatta.proposed.md to target; verify after_sha256.",
+      "Run tools/research/validate_classification.py and affected research index/workbench consistency checks; root alone regenerates derived records if required.",
+      "Confirm all preserved_source_bindings unchanged; obtain actual required CI retry."
+    ]
+  },
+  "review": {
+    "decision": "PASS",
+    "scope": "Single KB-only proposed relationship explanation restoration; not canonical applied or CI success",
+    "bindings": {
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/proposal.json": "c8a467b1d89eb93722663e09f174f0417a9ad8902aea2b180c6c314b08dd9201",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/ou-khatta.before.md": "b80e90771f3dce1c1ce3876a738b1ec41edd50a105daa12ae84ece76ddaf4e7c",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/ou-khatta.proposed.md": "7bba9f09eca48bf68dddc6359685ec1582280b1857466535ed07a421b412e26f",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/classification-before.json": "1386eaaf24e387c70312139e50257a46193244a8dfdd4eb80ac8de23a00158b6",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/classification-before.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/classification-proposed.json": "61c2b1a2838e8e067b699433d3813d9f661cd438c00e1292a4a0536807758440",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/test-proposal.py": "5c3bbccd5f92d998f3acb718b56f3bab14326837d262fba39cf63c7977bac0fd",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/components/OuKhattaArticle.astro": "cdc31e9dd83c3009d9aecc27db55d7a249efe5748a8949693e64b882cd8a0b07",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/pages/food/[slug].astro": "184f81605c7554a80148b450fd6076343bc064bb12b1cb72c92a08c2d45e0dac",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/data/journey-catalog.ts": "f87a850d702136f657f19480d9c58221ae5c693661fdb904c4f1246eb90fd467",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/lib/tour-book.mjs": "134c2db22245ba108901d17a865405304071574de6958c6329f8ae033379eae6",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/ou-khatta-editorial.test.mjs": "d42295afc38977e6a179af2b265a9868a8bbbf286cfb520cd6449434d67cd1f3",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/everyday-food.test.mjs": "1d4bd88acdc06bda3e1ed9439d174625c9370453b34e99f913c951c964efb6f2",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/bose-editorial.test.mjs": "7c43397fb05a50b258b66a15c974f09a8ad794096ac18db0abfd282b070e5c02",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/enduri-editorial.test.mjs": "27de714e273927dbed5ac9fdee6cbda8421ab78d9755a4ba239a4d3b1eac0026",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/rasagola-editorial.test.mjs": "472db8b28181bf87c2c887853af9d35f2c480253b05a667ddee6746f9c0c1650",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/chandipur-meal-editorial.test.mjs": "62ac0737cb94bdfabadd6172cc9847155a7e732490812105d04287ca81816b9e",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/mudhi-mansa-editorial.test.mjs": "e087c15a3a05cdb1a1f65cce8b411767942b3e91f782b4c8d50bfc4494b0c544",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/chhena-poda-editorial.test.mjs": "53d93c55eca7fabe5dfe0263dd1ec719faa4e54360c7d3cd4bed7c2eb916b41d",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/poda-editorial.test.mjs": "d05da4e652f1d291f85a1d132b3f59cff75a3b22ee9a15006d50d31567aad058",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/food/collection.json": "4be232543accc1e7fab4d452a1fd8bef1050c29ced2828de509ef2b11e4a1255",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/food/ou-khatta-editorial.json": "b00cbd3ec8a31f1045e04a33462dbd24d41caac0e7bb25e72896987eb262fe89",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/references/data/content-classification.json": "abb8e002ef045c5e862cb1fb3ca82f8a8d820b36d349d608a4c4f2b99e4ca2af",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/ci-correction/report.json": "31daeb9658d6ceecee9d15746d30afd2495f638186bd603e42a41b52256764c9"
+    },
+    "target": "kb/research/food/ou-khatta.md",
+    "before_sha256": "b80e90771f3dce1c1ce3876a738b1ec41edd50a105daa12ae84ece76ddaf4e7c",
+    "after_sha256": "7bba9f09eca48bf68dddc6359685ec1582280b1857466535ed07a421b412e26f",
+    "findings": [
+      "Exact one-sentence insertion after existing Dalma link, matching unchanged classification relationship verbatim.",
+      "Sentence attributes rice/dalma serving combination to the relish account and expressly excludes universal ritual prescription; no new research or broader cultural claim.",
+      "All13 site files, reviewed collection/editorial schema and classification hashes unchanged; public six paragraphs, notes, photo and three reading links unaffected.",
+      "Independent read-only in-memory projection executes unchanged production validator:613 explained relationships PASS. Prior actual failure retained; no validator bypass/edit."
+    ],
+    "actual_test": {
+      "exit": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"subject_families\": 9,\n  \"classified_concepts\": 639,\n  \"atlas_topics\": 48,\n  \"atlas_observations\": 1713,\n  \"explained_relationships\": 613,\n  \"errors\": [],\n  \"scope\": \"Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval.\"\n}\n",
+      "stderr": ""
+    },
+    "limits": [
+      "Root must verify before hash and apply exact after bytes, then run actual canonical validator/derived metadata checks.",
+      "New commit requires separate exact-head review and required CI; prior b8e1eaf4 review remains historical.",
+      "No canonical/Git/build/browser/network actions by reviewer."
+    ]
+  },
+  "report": {
+    "status": "PASS_KB_ONLY_PROPOSAL_PENDING_SEPARATE_REVIEW_AND_ROOT_APPLY",
+    "diagnosis": "Actual production validator requires exact related-reading explanation in KB Markdown. Dalma link retained, explanation omitted during KB reconciliation. Public component already passes reason→description; no frontend defect.",
+    "actual_failure": "classification-before.json exit1, sole missing Dalma explanation",
+    "proposal_validation": "Unchanged production validator executed with one in-memory Markdown body projection:613 explained relationships PASS, no file override or validator edit. This is proposed-state validation, not applied canonical PASS.",
+    "preservation": "13 site files, collection, editorial schema and classification exact unchanged; canonical KB target still before hash.",
+    "public_related_links": [
+      {
+        "title": "The everyday Odisha table",
+        "href": "/food/everyday/"
+      },
+      {
+        "title": "Badi chura: another small bowl",
+        "href": "/food/badi-chura/"
+      },
+      {
+        "title": "Meet an Odia meal in Bhubaneswar",
+        "href": "/food/bhubaneswar/"
+      }
+    ],
+    "actual_tests": [
+      "Reproduced current canonical classification failure.",
+      "Verified one exact string insertion only, from existing classification relationship.",
+      "Real validator proposed-state projection PASS.",
+      "17 guarded input hashes checked; no canonical writes."
+    ],
+    "limits": [
+      "No build/research/browser repeat.",
+      "Root applies only after separate review, then reruns actual canonical validator and affected generated metadata checks.",
+      "Required CI success/public completion not claimed."
+    ],
+    "bindings": {
+      "proposal.json": "c8a467b1d89eb93722663e09f174f0417a9ad8902aea2b180c6c314b08dd9201",
+      "ou-khatta.before.md": "b80e90771f3dce1c1ce3876a738b1ec41edd50a105daa12ae84ece76ddaf4e7c",
+      "ou-khatta.proposed.md": "7bba9f09eca48bf68dddc6359685ec1582280b1857466535ed07a421b412e26f",
+      "classification-before.json": "1386eaaf24e387c70312139e50257a46193244a8dfdd4eb80ac8de23a00158b6",
+      "classification-before.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification-proposed.json": "61c2b1a2838e8e067b699433d3813d9f661cd438c00e1292a4a0536807758440",
+      "test-proposal.py": "5c3bbccd5f92d998f3acb718b56f3bab14326837d262fba39cf63c7977bac0fd"
+    }
+  },
+  "exact_proposed_markdown": "---\ntype: \"Food\"\ntitle: \"Ou khatta\"\ndescription: \"Ou khatta — research and reuse notes.\"\ntags: [\"food\", \"odisha\"]\nstatus: \"draft\"\ngenerated: {\"by\": \"codex/gpt-6\", \"at\": \"2026-09-27T08:03:15+00:00\"}\nsources: [{\"id\": \"regional-cuisine\", \"title\": \"Regional Cuisine of India, BHM-602AT\", \"resource\": \"https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf\"}, {\"id\": \"food-ou-sasmita2017\", \"title\": \"Meetha Oou Khatta | Sweet Elephant Apple Relish\", \"resource\": \"https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/\"}, {\"id\": \"food-ou-sasmita2019\", \"title\": \"Khata Meetha Oou | Sweet & Sour Elephant Apple Relish\", \"resource\": \"https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/\"}, {\"id\": \"food-ou-ray2014\", \"title\": \"The Month of Kartik in my Mother’s Kitchen\", \"resource\": \"https://www.saveur.com/article/travels/kartik-holy-month/\"}]\nverified: [{\"by\": \"codex/gpt-6\", \"at\": \"2026-09-27T08:03:15+00:00\"}]\ngeography: \"Odisha\"\naliases: [\"Ou khatta\", \"ou khatta\"]\nverification_scope: \"Three primary recipe/memoir pages inspected in the 4 November 2026 readiness pass; exact reviewed editorial narrative linked below. Earlier university geography remains unresolved; no recipe testing or fieldwork claimed.\"\nstale_after: \"2027-09-27T00:00:00Z\"\nreadiness: \"Reviewed substantive draft and licensed photograph; implementation and publication verification pending\"\n---\n\n# Ou khatta\n\n## Sourced knowledge\n\nAn elephant-apple preparation within Odisha’s khatta repertoire.[^regional-cuisine]\n\n## Story opportunity\n\nGive the sour element its own place in a tasting menu.\n\n*Editorial proposal; audience response has not been measured.*\n\n## Next research\n\nRecipe testing, locally contributed accounts and precise distribution remain future work. The two published recipes below are by one cook; they are not independent household evidence.\n\n## Connections\n\n[Related knowledge](dalma.md) · [Research standards](../about/research-method.md)\n\n[^regional-cuisine]: [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf)\n\n## Preparation and variations · 1 October 2026\n\nThe menu describes elephant-apple chutney tempered with panch phutana. [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine), Odia Experience menu, accompaniment paragraph. Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu.\n\nThe Odisha summary lists Ouu khatta, but a later elephant-apple/jaggery entry is labelled Assam. That geography is unresolved. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.131 / PDF p.131, Odisha summary; p.292 / PDF p.292, Oou Khatta entry. University teaching reference; one described version, not a definitive formula.\n\n**Still to verify:** Keep the university’s Assam label visible; do not turn it into an Odisha regional recipe or an exclusivity claim. Odia and local review remain pending.\n\n[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.\n\n## A cook’s two versions and a remembered meal · reviewed 4 November 2026\n\nIn her 2017 sweet elephant-apple relish, Sasmita cooks and drains the fruit before moving it to another pan. Cumin and mustard seeds temper the oil; ginger, jaggery or sugar, and coconut follow. She also allows the cooked pieces to be crushed. Even within this recipe, texture is a choice.[^food-ou-sasmita2017]\n\nHer 2019 sweet-and-sour version uses a mustard–cumin paste alongside panch phoron in the oil. She blends the paste separately; the whole spices go into hot oil before the cooked fruit is added. The precooked, drained fruit then meets the paste and jaggery. She suggests rice and dalma alongside it. These are two recipes by the same cook, offering variation rather than evidence from two households.[^food-ou-sasmita2019]\n\nJulie Acharya Ray’s 2014 memoir places ou khatta in her mother’s Kartik meal. On banana leaves, rice and dal occupy the centre, with vegetable dishes and ou khatta around them. This is one family’s remembered arrangement, not a menu for every household.[^food-ou-ray2014]\n\nThe reviewed public narrative and visible source notes are recorded in [the food collection](collection.json) and [article metadata](ou-khatta-editorial.json). This reconciliation replaces the older summaries; it does not add a second public recipe account. Compare [Dalma](dalma.md). The attributed relish account offers rice and dalma as a serving combination; meal context, not universal ritual prescription.\n\nThe university’s Assam-labelled passage remains unresolved. These attributed accounts do not establish exclusive origin or make that other label an error. Recipe testing, locally contributed review, precise district distribution and current availability remain unverified.\n\n[^food-ou-sasmita2017]: [Meetha Oou Khatta | Sweet Elephant Apple Relish](https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/) — Sasmita, First Timer Cook, 2017-12-10.\n\n[^food-ou-sasmita2019]: [Khata Meetha Oou | Sweet & Sour Elephant Apple Relish](https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/) — Sasmita, First Timer Cook, 2019-01-04.\n\n[^food-ou-ray2014]: [The Month of Kartik in my Mother’s Kitchen](https://www.saveur.com/article/travels/kartik-holy-month/) — Julie Acharya Ray, Saveur, 2014-10-09.\n",
+  "limits": "Prior evidence remains exact historical snapshot; new KB hash above supersedes only the markdown target. Public prose and source budgets unchanged."
+}
