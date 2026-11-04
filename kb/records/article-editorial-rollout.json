@@ -2841,12 +2841,15 @@
       "id": "POD-EDIT-111",
       "route": "/food/everyday/",
       "title": "The everyday Odisha table",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": "projects/site/src/pages/food/everyday.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/everyday-food-utility-review-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected authored food collection/navigation page, outside sustained standalone-article rollout. Preserve public framing, five linked dish stories, photographs, credits, sources, saved identities and navigation; no cultural-absence or child-story completion inference."
     },
     {
       "id": "POD-EDIT-112",
