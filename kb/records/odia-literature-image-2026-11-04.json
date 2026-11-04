@@ -2,7 +2,7 @@
   "task_id": "POD-TASK-ODIA-LITERATURE-IMAGE-20261104",
   "article_id": "POD-EDIT-832",
   "owner": "Disha",
-  "status": "integrated_review",
+  "status": "published_verified_receipt_integration",
   "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
   "route": "/stories/odia-literature-preservation/",
   "authorization": "POD-DEC-225",
@@ -31,24 +31,24 @@
         "projects/site/public/assets/odia-literature-preservation/reading-table-v1.jpg",
         "projects/site/public/images/responsive/<only new content-addressed variants for approved image>"
       ],
-      "status": "active",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Anvesha",
       "scope": [
         "output-only image verification preparation"
       ],
-      "status": "active",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "scope": [
         "output-only separate art/integrated/exact-head/live review"
       ],
-      "status": "active",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "prior_receipt": {
@@ -67,5 +67,8 @@
     "coast_acceptance": 3968
   },
   "image_metadata": "research/stories/odia-literature-preservation-image.json",
-  "evidence_home": "records/evidence/odia-literature-image-2026-11-04"
+  "evidence_home": "records/evidence/odia-literature-image-2026-11-04",
+  "publication": "records/odia-literature-image-publication-2026-11-04.json",
+  "next_action": "Separate exact receipt-head review, required checks, merge and remote hash verification; then release this finite image scope. No second deployment.",
+  "scope_release": "Conditional on actual reviewed receipt merge, passing checks and remote verification."
 }
