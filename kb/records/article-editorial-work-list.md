@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 992. completed: 164, excluded: 549, in_progress: 1, queued: 278.
+Route inventory: 1005. completed: 164, excluded: 550, in_progress: 1, queued: 290.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1016,3 +1016,16 @@ Route inventory: 992. completed: 164, excluded: 549, in_progress: 1, queued: 278
 | POD-EDIT-DHAGA-298-20261104 | [ଲାଗ୍ ଖାଉଁ, ଲଗେଇ ନାଇ ହଉଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-298.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-299-20261104 | [କାହାଗେ କହିବି ଶୁଣିବ କେ? ସାଆନ୍ତ ଅବୁଝା ମାରିବ ଯେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-299.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-832 | [Odia Bibhaba and the Work of Keeping Literature Available](https://projectodisha.org/stories/odia-literature-preservation/) | completed | One sourced Odia literature preservation article: Odia Bibhaba/Srujanika, Recite World, Odia Wikisource and Odia Virtual Academy. Preserve all prior articles, cinema, Dhaga299 assets and historical research cursors. |
+| POD-EDIT-DONGRIA-INDEX | [Dongria Kondh: life in Niyamgiri](https://projectodisha.org/stories/dongariya/) | excluded | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-DONGARIYA-LIFE | [Dongariya life in Niyamgiri](https://projectodisha.org/stories/dongariya/dongariya-life/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-KAPADAGANDA | [Kapadaganda — the embroidered cloth of Niyamgiri](https://projectodisha.org/stories/dongariya/kapadaganda/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-ORNAMENTS-IN-USE | [Dongariya ornaments in use](https://projectodisha.org/stories/dongariya/ornaments-in-use/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-NIYAMGIRI | [Niyamgiri: cultivation and village decisions](https://projectodisha.org/stories/dongariya/niyamgiri/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-SEED-KEEPING | [Keeping seeds in circulation in Niyamgiri](https://projectodisha.org/stories/dongariya/seed-keeping/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-FOREST-FOODS | [Forest foods and home gardens in Rayagada](https://projectodisha.org/stories/dongariya/forest-foods/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-HARVEST-TO-MARKET | [From Niyamgiri harvests to market](https://projectodisha.org/stories/dongariya/harvest-to-market/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-HOMES-AND-REPAIR | [Homes and the work of repair in Niyamgiri](https://projectodisha.org/stories/dongariya/homes-and-repair/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-LEARNING-AND-BELONGING | [Learning and belonging in Niyamgiri](https://projectodisha.org/stories/dongariya/learning-and-belonging/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-KUVI-AND-JATAPU-SCRIPT | [Kuvi and the Jatapu script](https://projectodisha.org/stories/dongariya/kuvi-and-jatapu-script/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-SONGS-AND-SINGERS | [Songs and singers in Dongariya life](https://projectodisha.org/stories/dongariya/songs-and-singers/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA | [Kotpad and Kapadaganda through their makers](https://projectodisha.org/stories/dongariya/kotpad-and-kapadaganda/) | queued | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
