@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0cdd12aa30697736d4da90c17fb1c65c2eea12f8a8dbe2393460a772fa0134af`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `70f041dbfb99fc8080b2dc185da694c600aec55a0816467194f7c0cd890baa88`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -358,7 +358,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-325 · Research and publish Kandhamal Haladi article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-326 · Odia Bibhaba and the Work of Keeping Literature Available | completed | reviewed | Ahimanikya Satapathy | Maintain finite receipt integration claim until reviewed receipt merge and remote verification. | — |
 | POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | in_progress | reviewed | Ahimanikya Satapathy | Complete exact-head release gates and reviewed publication receipt for POD-EDIT-112; retain finite ownership until receipt merge and remote verification. | — |
-| POD-WORK-2026110501 · Integrate and publish the twelve-article Dongria series | in_progress | draft | Ahimanikya Satapathy | Finish release checks, merge reviewed head, publish and verify live routes. | — |
+| POD-WORK-2026110501 · Integrate and publish the twelve-article Dongria series | completed | reviewed | Ahimanikya Satapathy | No further Dongria work pending; maintain published series only when requested. | — |
 
 ## Pending human review and decisions
 
@@ -1328,7 +1328,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026103101 | 2026-10-31T07:11:31.201262+00:00 | Founder authorized sequential Badhei, Kandhamal and Kandhamal Haladi articles; reserve first Badhei release only. No completion credit. | — |
 | POD-EVT-2026103102 | 2026-10-31T08:26:48.853328+00:00 | Badhei article publication and live verification complete; programme132 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103103 | 2026-10-31T14:16:35.048662+00:00 | Kandhamal article publication and live verification complete; programme133 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103104 | 2026-10-31T17:08:36.184342+00:00 | Resume separately reviewed Founder third article Kandhamal Haladi. Prior Kandhamal638 and cinema640 releases reconciled. Reserve one finite implementation/publication scope; no completion credit. | — |
@@ -1338,6 +1337,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110403 | 2026-11-04T08:10:53.614043+00:00 | Founder requested an image for the completed Odia literature preservation article. One independently reviewed conceptual illustration; no new programme credit. Prior675 receipt complete and released. | — |
 | POD-EVT-2026110404 | 2026-11-04T09:08:58.100362+00:00 | Founder-requested literature illustration published and separately live-verified on desktop and phone, including discovery and illustrated downloads. Zero new programme credit; finite receipt integration remains. | — |
 | POD-EVT-2026110501 | 2026-11-04T23:02:24.255997+00:00 | Founder-authorized twelve-article Dongria series integrated into current production source with bounded worker reservations; existing Ou khatta claim and Niyamgiri overview preserved. No publication yet. | — |
+| POD-EVT-2026110502 | 2026-11-04T23:46:12.639579+00:00 | Published the twelve Dongria articles and series index; live article text and images match reviewed package. Existing Niyamgiri overview preserved. User-authorized topic complete; zero autonomous programme credit. | — |
 
 ## Deferred extensions
 
