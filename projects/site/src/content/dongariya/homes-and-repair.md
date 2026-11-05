@@ -6,11 +6,11 @@ title: "Homes and the work of repair in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/08-homes-and-repair-1200w.webp" srcset="/assets/dongariya/08-homes-and-repair-480w.webp 480w, /assets/dongariya/08-homes-and-repair-800w.webp 799w, /assets/dongariya/08-homes-and-repair-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Rain falling from a corrugated roof, with a toolbox and fasteners below." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/08-homes-and-repair-v2-1200w.webp" srcset="/assets/dongariya/08-homes-and-repair-v2-480w.webp 480w, /assets/dongariya/08-homes-and-repair-v2-800w.webp 800w, /assets/dongariya/08-homes-and-repair-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of earthen houses with wooden posts and low-reaching grass-thatched roofs, with bundled thatch beside a wall." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
-*Conceptual illustration of roof maintenance in the rains; not a reconstruction of a Dongariya house.*
+*Earthen walls, wooden posts and low-reaching thatch — an interpretive illustration informed by a 2016 description of Niyamgiri housing. This imagined scene does not represent every home or current building practice.*
 
-Illustration: Project Odisha.
+Illustration: Project Odisha. Housing reference: Meenal Tatpati, Ashish Kothari and Rashi Mishra, [The Niyamgiri Story](https://kalpavriksh.org/wp-content/uploads/2018/06/NiyamgiricasestudyJuly2016.pdf), Kalpavriksh, July 2016, p. 6.
 
 Mana Manjhi feared losing her roof in wind and heavy rain. In a UNDP account displayed with an August 2022 date, the Dongria Kondh farmer said support to build a pucca house had brought relief: she felt more confident that she and her grandson would have shelter during a storm.[^1]
 

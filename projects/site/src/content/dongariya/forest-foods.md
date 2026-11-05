@@ -6,11 +6,11 @@ title: "Forest foods and home gardens in Rayagada"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/06-forest-foods-1200w.webp" srcset="/assets/dongariya/06-forest-foods-480w.webp 480w, /assets/dongariya/06-forest-foods-800w.webp 799w, /assets/dongariya/06-forest-foods-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="A basket of vegetables beside a leafy garden patch." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/06-forest-foods-v2-1200w.webp" srcset="/assets/dongariya/06-forest-foods-v2-480w.webp 480w, /assets/dongariya/06-forest-foods-v2-800w.webp 800w, /assets/dongariya/06-forest-foods-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of a woman in a white wrap with coloured borders tending leafy plants beside an earthen house." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
-*Conceptual illustration of a home vegetable garden; not a specific household or a wild-food identification guide.*
+*Tending a home garden — an interpretive illustration using Dongria dress and a hill setting. The household and plants are imagined, not a wild-food identification guide.*
 
-Illustration: Project Odisha.
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
 
 For Padmavati Paleka of Leling Padar, the rainy season brought mushrooms, tender bamboo shoots, fruits and leaves. Her account in Basudev Mahapatra’s 2017 reporting follows Rayagada’s food through the changing year: what becomes available and what reaches the household.[^1]
 

@@ -6,7 +6,7 @@ title: "Dongariya life in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/01-dongariya-life-1200w.webp" srcset="/assets/dongariya/01-dongariya-life-480w.webp 480w, /assets/dongariya/01-dongariya-life-800w.webp 800w, /assets/dongariya/01-dongariya-life-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Green fields beneath wooded hills." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongariya/01-dongariya-life-1200w.webp" srcset="/assets/dongariya/01-dongariya-life-480w.webp 480w, /assets/dongariya/01-dongariya-life-800w.webp 800w, /assets/dongariya/01-dongariya-life-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Green fields beneath wooded hills." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
 
 *Fields and hills photographed during a Niyamgiri visit in 2018.*
 

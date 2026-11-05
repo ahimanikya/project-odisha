@@ -6,11 +6,11 @@ title: "Learning and belonging in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/09-learning-and-belonging-1200w.webp" srcset="/assets/dongariya/09-learning-and-belonging-480w.webp 480w, /assets/dongariya/09-learning-and-belonging-800w.webp 799w, /assets/dongariya/09-learning-and-belonging-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="One hand drawing a leaf in a notebook while another points to it." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/09-learning-and-belonging-v2-1200w.webp" srcset="/assets/dongariya/09-learning-and-belonging-v2-480w.webp 480w, /assets/dongariya/09-learning-and-belonging-v2-800w.webp 800w, /assets/dongariya/09-learning-and-belonging-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of a woman in a white wrap guiding a leaf drawing with two children beside an earthen wall." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
-*Conceptual illustration of shared learning; not a documented Dongariya classroom.*
+*Drawing and learning together — an interpretive illustration using Dongria dress and a hill setting. The figures and activity are imagined, not a documented classroom.*
 
-Illustration: Project Odisha.
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
 
 Mukteswar Wadaka taught children in Khambesi without charging for tuition during the pandemic lockdown. In Abhijit Mohanty’s January 2021 report, the Dongria Kondh student also spoke of wanting to enter the civil service and challenge assumptions about the work Adivasi people could do.[^1]
 
