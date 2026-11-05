@@ -6,7 +6,7 @@ title: "Forest foods and home gardens in Rayagada"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/06-forest-foods-1200w.webp" srcset="/assets/dongariya/06-forest-foods-480w.webp 480w, /assets/dongariya/06-forest-foods-800w.webp 799w, /assets/dongariya/06-forest-foods-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="A basket of vegetables beside a leafy garden patch." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/06-forest-foods-1200w.webp" srcset="/assets/dongariya/06-forest-foods-480w.webp 480w, /assets/dongariya/06-forest-foods-800w.webp 799w, /assets/dongariya/06-forest-foods-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="A basket of vegetables beside a leafy garden patch." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
 *Conceptual illustration of a home vegetable garden; not a specific household or a wild-food identification guide.*
 

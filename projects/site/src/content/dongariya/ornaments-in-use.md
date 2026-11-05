@@ -6,7 +6,7 @@ title: "Dongariya ornaments in use"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/03-ornaments-in-use-856w.webp" srcset="/assets/dongariya/03-ornaments-in-use-480w.webp 480w, /assets/dongariya/03-ornaments-in-use-800w.webp 800w, /assets/dongariya/03-ornaments-in-use-856w.webp 856w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Close view of hairpins and hoop-shaped ear ornaments." width="856" height="642" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:856/642;margin-inline:auto;">
+<img src="/assets/dongariya/03-ornaments-in-use-856w.webp" srcset="/assets/dongariya/03-ornaments-in-use-480w.webp 480w, /assets/dongariya/03-ornaments-in-use-800w.webp 800w, /assets/dongariya/03-ornaments-in-use-856w.webp 856w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Close view of hairpins and hoop-shaped ear ornaments." width="856" height="642" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:856/642;margin-inline:auto;">
 
 *Detail of hair and ear ornaments, photographed in 2018 and catalogued as “Dangaria accessory detail 01”.*
 

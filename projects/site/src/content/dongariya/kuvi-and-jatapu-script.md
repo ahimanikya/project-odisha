@@ -6,7 +6,7 @@ title: "Kuvi and the Jatapu script"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/10-kuvi-and-jatapu-script-1200w.webp" srcset="/assets/dongariya/10-kuvi-and-jatapu-script-480w.webp 480w, /assets/dongariya/10-kuvi-and-jatapu-script-800w.webp 799w, /assets/dongariya/10-kuvi-and-jatapu-script-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Open blank books beside an audio recorder and a drawn sound wave." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/10-kuvi-and-jatapu-script-1200w.webp" srcset="/assets/dongariya/10-kuvi-and-jatapu-script-480w.webp 480w, /assets/dongariya/10-kuvi-and-jatapu-script-800w.webp 799w, /assets/dongariya/10-kuvi-and-jatapu-script-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Open blank books beside an audio recorder and a drawn sound wave." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
 *Conceptual illustration of spoken language and writing. Blank pages avoid inventing or misrepresenting script characters.*
 

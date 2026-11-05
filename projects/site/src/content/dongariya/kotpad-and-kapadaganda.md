@@ -6,7 +6,7 @@ title: "Kotpad and Kapadaganda through their makers"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/12-kotpad-and-kapadaganda-1200w.webp" srcset="/assets/dongariya/12-kotpad-and-kapadaganda-480w.webp 480w, /assets/dongariya/12-kotpad-and-kapadaganda-800w.webp 800w, /assets/dongariya/12-kotpad-and-kapadaganda-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Film poster showing red and cream woven fabric and the title Kotpad Weaving." width="1200" height="675" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/675;margin-inline:auto;">
+<img src="/assets/dongariya/12-kotpad-and-kapadaganda-1200w.webp" srcset="/assets/dongariya/12-kotpad-and-kapadaganda-480w.webp 480w, /assets/dongariya/12-kotpad-and-kapadaganda-800w.webp 800w, /assets/dongariya/12-kotpad-and-kapadaganda-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Film poster showing red and cream woven fabric and the title Kotpad Weaving." width="1200" height="675" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/675;margin-inline:auto;">
 
 *Release poster for Kotpad Weaving (2018), directed by Biswanath Rath; not a workshop photograph.*
 

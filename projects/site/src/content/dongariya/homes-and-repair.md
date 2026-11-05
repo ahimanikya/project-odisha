@@ -6,7 +6,7 @@ title: "Homes and the work of repair in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/08-homes-and-repair-1200w.webp" srcset="/assets/dongariya/08-homes-and-repair-480w.webp 480w, /assets/dongariya/08-homes-and-repair-800w.webp 799w, /assets/dongariya/08-homes-and-repair-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Rain falling from a corrugated roof, with a toolbox and fasteners below." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/08-homes-and-repair-1200w.webp" srcset="/assets/dongariya/08-homes-and-repair-480w.webp 480w, /assets/dongariya/08-homes-and-repair-800w.webp 799w, /assets/dongariya/08-homes-and-repair-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Rain falling from a corrugated roof, with a toolbox and fasteners below." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
 *Conceptual illustration of roof maintenance in the rains; not a reconstruction of a Dongariya house.*
 

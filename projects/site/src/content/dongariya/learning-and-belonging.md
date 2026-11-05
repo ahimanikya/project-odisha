@@ -6,7 +6,7 @@ title: "Learning and belonging in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/09-learning-and-belonging-1200w.webp" srcset="/assets/dongariya/09-learning-and-belonging-480w.webp 480w, /assets/dongariya/09-learning-and-belonging-800w.webp 799w, /assets/dongariya/09-learning-and-belonging-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="One hand drawing a leaf in a notebook while another points to it." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/09-learning-and-belonging-1200w.webp" srcset="/assets/dongariya/09-learning-and-belonging-480w.webp 480w, /assets/dongariya/09-learning-and-belonging-800w.webp 799w, /assets/dongariya/09-learning-and-belonging-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="One hand drawing a leaf in a notebook while another points to it." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
 *Conceptual illustration of shared learning; not a documented Dongariya classroom.*
 

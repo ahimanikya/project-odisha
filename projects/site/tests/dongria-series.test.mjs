@@ -23,7 +23,9 @@ test('Dongria illustration and photographic provenance travel with optimized ass
  for(const a of articles){
   assert.ok(existsSync('public'+a.image));assert.ok(a.image.endsWith('.webp'));
   const html=read(`dist/stories/dongariya/${a.slug}/index.html`);
-  assert.ok(html.includes('width:85%')||html.includes('width: 85%'));
+  assert.ok(html.includes('width:100%')||html.includes('width: 100%'));
+  assert.doesNotMatch(html,/width:\s*85%/);
+  assert.ok(html.includes('calc(100vw - 2.8rem), 724px'));
   assert.doesNotMatch(html,/\/Users\/|GUNDERI_SHAWL|AI-generated|AI-assisted/);
   if(a.source){assert.ok(html.includes(a.license_url));assert.ok(html.includes('Resized; composition unchanged.'));}
  }
@@ -33,4 +35,19 @@ test('Niyamgiri series distinguishes and retains the existing legal overview',()
  assert.ok(html.includes('Niyamgiri: cultivation and village decisions'));
  assert.ok(html.includes('/reading-room/economy/niyamgiri-rights-and-mining/'));
  assert.ok(existsSync('dist/reading-room/economy/niyamgiri-rights-and-mining/index.html'));
+});
+
+test('Dongria series index uses a full-column clothing illustration with credit and sharing image',()=>{
+ const html=read('dist/stories/dongariya/index.html');
+ for(const width of [480,800,1200]){
+  const src=`/assets/dongariya/00-index-clothing-${width}w.webp`;
+  assert.ok(existsSync('public'+src));assert.ok(html.includes(src));
+ }
+ assert.ok(html.includes('Illustration of two women wearing embroidered Dongria wraps against green hills.'));
+ assert.ok(html.includes('Dongria dress and embroidered wraps'));
+ assert.ok(html.includes('interpretive illustration'));
+ assert.ok(html.includes('photograph by Debanutosh'));
+ assert.ok(html.includes('https://creativecommons.org/licenses/by-sa/4.0/'));
+ assert.match(html,/<meta[^>]*property="og:image"[^>]*content="https:\/\/projectodisha.org\/assets\/dongariya\/00-index-clothing-1200w.webp"/);
+ assert.doesNotMatch(html,/width:\s*85%|AI-generated|AI-assisted/);
 });

@@ -6,7 +6,7 @@ title: "From Niyamgiri harvests to market"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/07-harvest-to-market-1200w.webp" srcset="/assets/dongariya/07-harvest-to-market-480w.webp 480w, /assets/dongariya/07-harvest-to-market-800w.webp 800w, /assets/dongariya/07-harvest-to-market-1200w.webp 1200w" sizes="(max-width: 768px) calc((100vw - 2.8rem) * .85), 615px" alt="Three people posing beside produce stalls under market tarpaulins." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:85%;max-width:85%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongariya/07-harvest-to-market-1200w.webp" srcset="/assets/dongariya/07-harvest-to-market-480w.webp 480w, /assets/dongariya/07-harvest-to-market-800w.webp 800w, /assets/dongariya/07-harvest-to-market-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Three people posing beside produce stalls under market tarpaulins." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
 
 *A posed photograph during a market visit, catalogued as “Dangaria women 02” in 2018. It does not document a particular sale or identify the people discussed in this article.*
 
