@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/ou-khatta-editorial-2026-11-04.json",
+  "handoff_home": "records/badi-chura-editorial-2026-11-05.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,15 +54,15 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
-  "project_identity": "reference/project-identity.md",
-  "current_task": {
-    "kind": "article_receipt",
+  "current_article": {
+    "id": "POD-EDIT-113",
+    "route": "/food/badi-chura/",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-112",
-    "handoff": "records/ou-khatta-editorial-2026-11-04.json"
+    "phase": "implementation",
+    "handoff": "records/badi-chura-editorial-2026-11-05.json"
   },
+  "project_identity": "reference/project-identity.md",
+  "current_task": null,
   "parallel_programmes": [
     {
       "name": "Community history and editorial rollout",
@@ -109,13 +109,16 @@
       "note": "PR649 deployed successfully at e315bed1;54live routes,260image files and bothPDFhashes verified. Prior research gaps and separate human/physical/assistive-technology review remain open; no programme credit claimed."
     }
   ],
-  "coordination_note": "Ou khatta112 finite release active through reviewed receipt. Exact separately reviewed local draft; no repeated research. Dhaga B42 complete; twelve proposals beyond local301 preserved, no competing canonical claim.",
+  "coordination_note": "113 focused substantive revision active under Disha sole shared writer;112 receipt682 completed/released. Public299/local301 and50 Dhaga proposals preserved.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "article_image_receipt",
-    "status": "released",
-    "receipt_pr": 677,
-    "merge": "d00262118e5adae759e039606fa63b7df4b3b0db"
+    "kind": "article_receipt",
+    "article_id": "POD-EDIT-112",
+    "status": "completed_released",
+    "receipt_pr": 682,
+    "merge": "ccc9ddfbf112ae1b8e8c01ffe597c8f88eaebb5f",
+    "evidence": "outputs/ou-khatta-editorial-2026-11-04/receipt-integration/integration-delivery.json",
+    "note": "Actual postmerge delivery supersedes historical pending112 fields; old112 record bytes retained."
   }
 }
