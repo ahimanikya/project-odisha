@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cc34eaca5e812865724dabe02b3818bce1c491f2f1577d3977118f84de01fefb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0e390c9b2ee566a803ea2809c71cb2ec7391696033c78ae179827df10482dcae`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -359,6 +359,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-326 · Odia Bibhaba and the Work of Keeping Literature Available | completed | reviewed | Ahimanikya Satapathy | Maintain finite receipt integration claim until reviewed receipt merge and remote verification. | — |
 | POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | completed | reviewed | Ahimanikya Satapathy | Retain Disha finite receipt integration until reviewed receipt merge, required checks and remote verification; no duplicate substantive credit. | — |
 | POD-WORK-2026110501 · Integrate and publish the twelve-article Dongria series | completed | reviewed | Ahimanikya Satapathy | No further Dongria work pending; maintain published series only when requested. | — |
+| POD-WORK-328 · Badi chura: dried badi, preparation choices and a named meal | in_progress | reviewed | Ahimanikya Satapathy | Complete reviewed substantive113 implementation and publication receipt; retain finite release ownership until receipt merge/verification. | — |
 
 ## Pending human review and decisions
 
@@ -1330,7 +1331,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026103103 | 2026-10-31T14:16:35.048662+00:00 | Kandhamal article publication and live verification complete; programme133 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103104 | 2026-10-31T17:08:36.184342+00:00 | Resume separately reviewed Founder third article Kandhamal Haladi. Prior Kandhamal638 and cinema640 releases reconciled. Reserve one finite implementation/publication scope; no completion credit. | — |
 | POD-EVT-2026103105 | 2026-10-31T18:24:39.818505+00:00 | Kandhamal Haladi article publication and live verification complete; programme134 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026110401 | 2026-11-04T05:20:50.650657+00:00 | Start separately reviewed Founder Odia literature article after verified299receipt release. No completion credit. | — |
@@ -1340,6 +1340,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110501 | 2026-11-04T23:02:24.255997+00:00 | Founder-authorized twelve-article Dongria series integrated into current production source with bounded worker reservations; existing Ou khatta claim and Niyamgiri overview preserved. No publication yet. | — |
 | POD-EVT-2026110502 | 2026-11-04T23:46:12.639579+00:00 | Published the twelve Dongria articles and series index; live article text and images match reviewed package. Existing Niyamgiri overview preserved. User-authorized topic complete; zero autonomous programme credit. | — |
 | POD-EVT-2026110503 | 2026-11-05T01:58:16.397115+00:00 | Substantive Ou khatta revision published and separately live-verified at2026-11-04T22:11:36.477Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
+| POD-EVT-2026110504 | 2026-11-05T08:56:21.834345+00:00 | Installed separately reviewed Badi chura draft/schema and pending acceptance. Programme remains136 completed;113 finite release continues through reviewed publication and receipt. Prior112 receipt682 verified merged and released; historicalrecord preserved. | — |
 
 ## Deferred extensions
 

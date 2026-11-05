@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1005. completed: 177, excluded: 550, queued: 278.
+Route inventory: 1005. completed: 177, excluded: 550, in_progress: 1, queued: 277.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Route inventory: 1005. completed: 177, excluded: 550, queued: 278.
 | POD-EDIT-110 | [Malkangiri · languages and population](https://projectodisha.org/languages/districts/malkangiri/) | excluded | classification_pending |
 | POD-EDIT-111 | [The everyday Odisha table](https://projectodisha.org/food/everyday/) | excluded | classification_pending |
 | POD-EDIT-112 | [Ou khatta](https://projectodisha.org/food/ou-khatta/) | completed | substantive_editorial_revision |
-| POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | queued | classification_pending |
+| POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | in_progress | Publish a substantive source-supported Badi chura revision at /food/badi-chura/: exact reviewed lead, five paragraphs, two headings and two numbered notes with Founder byline. Explain dried badi, frying/dry-roasting, coarse preparation and one named meal account without universal origin, storage, health or tested-recipe claims. Preserve photo licence/credit, food:badi-chura Save ID, two source IDs and four reading links. Replace old same-route collection/KB summaries, maintain aggregate source budgets198/168 and short portable titles. Require exact KB/site/portable parity, full/coast/publication gates, responsive browser/download review, independent integrated/exact-head review, requiredCI success, reviewed merge and approved successful deployment, actual live checks and separate reviewed receipt before completion. |
 | POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | queued | classification_pending |
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | queued | classification_pending |
 | POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | queued | classification_pending |
