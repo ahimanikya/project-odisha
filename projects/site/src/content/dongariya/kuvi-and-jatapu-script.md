@@ -6,11 +6,11 @@ title: "Kuvi and the Jatapu script"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/10-kuvi-and-jatapu-script-1200w.webp" srcset="/assets/dongariya/10-kuvi-and-jatapu-script-480w.webp 480w, /assets/dongariya/10-kuvi-and-jatapu-script-800w.webp 799w, /assets/dongariya/10-kuvi-and-jatapu-script-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Open blank books beside an audio recorder and a drawn sound wave." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/10-kuvi-and-jatapu-script-v2-1200w.webp" srcset="/assets/dongariya/10-kuvi-and-jatapu-script-v2-480w.webp 480w, /assets/dongariya/10-kuvi-and-jatapu-script-v2-800w.webp 800w, /assets/dongariya/10-kuvi-and-jatapu-script-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of a woman in a white wrap and a man conversing beside an open blank notebook, with green hills behind them." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
-*Conceptual illustration of spoken language and writing. Blank pages avoid inventing or misrepresenting script characters.*
+*Conversation and a blank notebook — an interpretive illustration using Dongria dress and a hill setting. The figures are imagined; no script characters or recorded conversation are represented.*
 
-Illustration: Project Odisha.
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
 
 In Manipadma Jena’s September 2012 report, Jayanti Sabar, a teacher at Sikhsya Niketan residential school for Dongria Kondh girls, described pupils translating lessons into Kuvi for classmates.[^1] Understanding depended on someone who could explain the lesson in familiar words.
 

@@ -27,7 +27,22 @@ test('Dongria illustration and photographic provenance travel with optimized ass
   assert.doesNotMatch(html,/width:\s*85%/);
   assert.ok(html.includes('calc(100vw - 2.8rem), 724px'));
   assert.doesNotMatch(html,/\/Users\/|GUNDERI_SHAWL|AI-generated|AI-assisted/);
-  if(a.source){assert.ok(html.includes(a.license_url));assert.ok(html.includes('Resized; composition unchanged.'));}
+  if(a.kind==='photograph'||a.kind==='film poster'){assert.ok(html.includes(a.license_url));assert.ok(html.includes('Resized; composition unchanged.'));}
+  if(a.kind==='interpretive illustration'){
+   assert.ok(a.image.includes('-v2-'));
+   assert.ok(html.includes('interpretive illustration'));
+   assert.ok(html.includes(a.reference_url));
+   if(a.reference_license){
+    assert.equal(a.license,'CC BY-SA 4.0');
+    assert.ok(html.includes(a.license_url));
+    assert.ok(html.includes('photograph by Pillai Sree Vidya'));
+    assert.ok(html.includes('composition and activity are imagined'));
+   }else{
+    assert.equal(a.slug,'homes-and-repair');
+    assert.ok(html.includes('2016'));
+    assert.ok(html.includes('does not represent every home'));
+   }
+  }
  }
 });
 test('Niyamgiri series distinguishes and retains the existing legal overview',()=>{

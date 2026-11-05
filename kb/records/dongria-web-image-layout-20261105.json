@@ -3,18 +3,26 @@
   "authorization": [
     "Index page should have an image or illustration",
     "85% rule for book, not web page",
-    "Can you use Dogaria clothing in that illustration?"
+    "Can you use Dogaria clothing in that illustration?",
+    "Other illustrations must use Dongria elements"
   ],
-  "scope": "Add a Dongria clothing illustration to the series index; use full responsive reading-column width for website images; preserve 85% book layout.",
+  "scope": "Add a Dongria clothing illustration to the series index; use full responsive reading-column width for website images; preserve 85% book layout. Revise the five other conceptual illustrations using grounded Dongria elements; preserve documentary photographs.",
   "reservations": {
-    "Samanta": "released after implementation",
+    "Samanta": [
+      "projects/site/src/content/dongariya/{seed-keeping,forest-foods,homes-and-repair,learning-and-belonging,kuvi-and-jatapu-script}.md",
+      "projects/site/src/data/dongariya.json",
+      "projects/site/public/assets/dongariya/credits.json"
+    ],
     "Anvesha": "read-only existing image/source review",
     "Drishti": "read-only independent implementation review",
     "Disha": "KB records, generated illustration assets and provenance, validation and publication"
   },
   "book_width": "85% unchanged",
   "web_width": "Natural responsive reading-column width; no85percent rule",
-  "publication": null,
+  "publication": {
+    "pull_request": 681,
+    "status": "unmerged; expanded illustration review in progress"
+  },
   "human_review_claimed": false,
   "reviews": {
     "Anvesha": "No blocker in reference comparison; interpretive limits and CC BY-SA adaptation credit required and retained.",
@@ -27,5 +35,7 @@
     "mobile_index_width_px": 345.203125,
     "index_width_ratio": 1,
     "horizontal_overflow": false
-  }
+  },
+  "expanded_review": "Anvesha reference audit and Drishti individual full-size visual review of five illustrations: no blocking finding; not community validation.",
+  "final_checks": "Astro build, four Dongria tests, rendered disclosure gate and diff check pass."
 }

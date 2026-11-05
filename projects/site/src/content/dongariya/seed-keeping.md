@@ -6,11 +6,11 @@ title: "Keeping seeds in circulation in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/05-seed-keeping-1200w.webp" srcset="/assets/dongariya/05-seed-keeping-480w.webp 480w, /assets/dongariya/05-seed-keeping-800w.webp 799w, /assets/dongariya/05-seed-keeping-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Two hands passing a packet of small seeds." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongariya/05-seed-keeping-v2-1200w.webp" srcset="/assets/dongariya/05-seed-keeping-v2-480w.webp 480w, /assets/dongariya/05-seed-keeping-v2-800w.webp 800w, /assets/dongariya/05-seed-keeping-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of two women in white wraps with coloured borders exchanging a small packet beneath a tree." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
-*Conceptual illustration of seed exchange; not a documented exchange or an identified seed variety.*
+*Seed exchange in a Niyamgiri setting — an interpretive illustration. The figures and exchange are imagined; no seed variety is identified.*
 
-Illustration: Project Odisha.
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
 
 In Manipadma Jena’s July 2015 report, Dasara Kadraka of Kadaraguma described her concern about millet varieties disappearing from local fields. Jena described Dongria Kondh priestesses travelling between villages to obtain seeds for cultivation at home. Finding a seed began with finding someone who still grew it.[^1]
 
