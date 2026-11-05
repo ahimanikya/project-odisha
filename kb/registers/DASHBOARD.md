@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `70f041dbfb99fc8080b2dc185da694c600aec55a0816467194f7c0cd890baa88`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cc34eaca5e812865724dabe02b3818bce1c491f2f1577d3977118f84de01fefb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -357,7 +357,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-324 · Research and publish Kandhamal place and cultural article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-325 · Research and publish Kandhamal Haladi article | completed | reviewed | Ahimanikya Satapathy | Published and verified; retain delivery receipt and source limits. | — |
 | POD-WORK-326 · Odia Bibhaba and the Work of Keeping Literature Available | completed | reviewed | Ahimanikya Satapathy | Maintain finite receipt integration claim until reviewed receipt merge and remote verification. | — |
-| POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | in_progress | reviewed | Ahimanikya Satapathy | Complete exact-head release gates and reviewed publication receipt for POD-EDIT-112; retain finite ownership until receipt merge and remote verification. | — |
+| POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | completed | reviewed | Ahimanikya Satapathy | Retain Disha finite receipt integration until reviewed receipt merge, required checks and remote verification; no duplicate substantive credit. | — |
 | POD-WORK-2026110501 · Integrate and publish the twelve-article Dongria series | completed | reviewed | Ahimanikya Satapathy | No further Dongria work pending; maintain published series only when requested. | — |
 
 ## Pending human review and decisions
@@ -1045,6 +1045,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026103102 | pass_with_limitations | True | Dated project and language-source accounts, not a district-wide current livelihood or universal community identity claim.; No community fieldwork or human review claimed. |
 | POD-REV-2026103103 | pass_with_limitations | True | GI geography is not blanket organic certification or medical proof; dated trading-chain and sampled producer-service findings do not establish district-wide present practice.; No community fieldwork or human review claimed. |
 | POD-REV-2026110401 | pass_with_limitations | True | Separate AI review, not human archival or community review.; Source access and rights limitations preserved; no audio/PDF interior or corpus-completeness claim.; Receipt integration retains finite ownership until receipt checks, merge and remote verification. |
+| POD-REV-2026110501 | pass_with_limitations | True | Separate AI review, not human culinary or community review.; One cook two recipes; memoir one family; no nutrition/origin/current prevalence claims; older university geography unresolved. |
 
 ## Publication and application history
 
@@ -1291,6 +1292,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026103102 · Kandhamal: leaves, learning and everyday knowledge | published | https://projectodisha.org/stories/kandhamal/ | POD-DEC-225 |
 | POD-REL-2026103103 · Kandhamal Haladi: the work behind a place-name | published | https://projectodisha.org/stories/kandhamal-haladi/ | POD-DEC-225 |
 | POD-REL-2026110401 · Odia Bibhaba and the Work of Keeping Literature Available | published | https://projectodisha.org/stories/odia-literature-preservation/ | POD-DEC-225 |
+| POD-REL-2026110501 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | published | https://projectodisha.org/food/ou-khatta/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1328,7 +1330,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026103102 | 2026-10-31T08:26:48.853328+00:00 | Badhei article publication and live verification complete; programme132 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103103 | 2026-10-31T14:16:35.048662+00:00 | Kandhamal article publication and live verification complete; programme133 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
 | POD-EVT-2026103104 | 2026-10-31T17:08:36.184342+00:00 | Resume separately reviewed Founder third article Kandhamal Haladi. Prior Kandhamal638 and cinema640 releases reconciled. Reserve one finite implementation/publication scope; no completion credit. | — |
 | POD-EVT-2026103105 | 2026-10-31T18:24:39.818505+00:00 | Kandhamal Haladi article publication and live verification complete; programme134 delivery recorded. Finite claim remains through reviewed receipt integration, merge and remote hash verification. | — |
@@ -1338,6 +1339,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110404 | 2026-11-04T09:08:58.100362+00:00 | Founder-requested literature illustration published and separately live-verified on desktop and phone, including discovery and illustrated downloads. Zero new programme credit; finite receipt integration remains. | — |
 | POD-EVT-2026110501 | 2026-11-04T23:02:24.255997+00:00 | Founder-authorized twelve-article Dongria series integrated into current production source with bounded worker reservations; existing Ou khatta claim and Niyamgiri overview preserved. No publication yet. | — |
 | POD-EVT-2026110502 | 2026-11-04T23:46:12.639579+00:00 | Published the twelve Dongria articles and series index; live article text and images match reviewed package. Existing Niyamgiri overview preserved. User-authorized topic complete; zero autonomous programme credit. | — |
+| POD-EVT-2026110503 | 2026-11-05T01:58:16.397115+00:00 | Substantive Ou khatta revision published and separately live-verified at2026-11-04T22:11:36.477Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
 
 ## Deferred extensions
 
