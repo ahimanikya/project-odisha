@@ -6,7 +6,7 @@ title: "Songs and singers in Dongria life"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/11-songs-and-singers-1200w.webp" srcset="/assets/dongariya/11-songs-and-singers-480w.webp 480w, /assets/dongariya/11-songs-and-singers-800w.webp 800w, /assets/dongariya/11-songs-and-singers-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="A line of women in embroidered wraps performing together." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-songs-and-singers-1200w.webp" srcset="/assets/dongria-book/20261107-songs-and-singers-480w.webp 480w, /assets/dongria-book/20261107-songs-and-singers-800w.webp 800w, /assets/dongria-book/20261107-songs-and-singers-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Public dance performance identified by the photographer as Dongria Khond, photographed in 2018. This is not an identified song, singer or village ceremony" width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
 
 *Public dance performance identified by the photographer as Dongria Khond, photographed in 2018. This is not an identified song, singer or village ceremony.*
 

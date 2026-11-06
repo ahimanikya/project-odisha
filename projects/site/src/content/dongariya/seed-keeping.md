@@ -6,9 +6,9 @@ title: "Keeping seeds in circulation in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/05-seed-keeping-v2-1200w.webp" srcset="/assets/dongariya/05-seed-keeping-v2-480w.webp 480w, /assets/dongariya/05-seed-keeping-v2-800w.webp 800w, /assets/dongariya/05-seed-keeping-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of two women in white wraps with coloured borders exchanging a small packet beneath a tree." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-seed-keeping-992w.webp" srcset="/assets/dongria-book/20261107-seed-keeping-480w.webp 480w, /assets/dongria-book/20261107-seed-keeping-800w.webp 800w, /assets/dongria-book/20261107-seed-keeping-992w.webp 992w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Hands tipping seeds from a folded packet into a cupped palm" width="992" height="1586" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:992/1586;margin-inline:auto;">
 
-*Seed exchange in a Niyamgiri setting — an interpretive illustration. The figures and exchange are imagined; no seed variety is identified.*
+*Hands tipping seeds from a folded packet into a cupped palm - an interpretive illustration. The exchange is imagined; no seed variety is identified.*
 
 In Manipadma Jena’s July 2015 report, Dasara Kadraka of Kadaraguma described her concern about millet varieties disappearing from local fields. Jena described Dongria Kondh priestesses travelling between villages to obtain seeds for cultivation at home. Finding a seed began with finding someone who still grew it.[^1]
 
@@ -48,7 +48,7 @@ A collection kept for planting and a field given to another crop can exist in th
 
 ## Footnotes and sources
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
+Adapted illustration: Project Odisha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), CC BY-SA 4.0. Imagined composition; portrait adaptation for this edition.
 
 [^1]: Manipadma Jena, [Tribal Priestesses Become Guardians of Seeds in Eastern India](https://www.ipsnews.net/2015/07/tribal-priestesses-become-guardians-of-seeds-in-eastern-india/), Inter Press Service, 22 July 2015, “An intricate ritual.” Historical reporting; variety-loss recollections are not a botanical inventory.
 

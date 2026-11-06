@@ -6,7 +6,7 @@ title: "Niyamgiri: cultivation and village decisions"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/04-niyamgiri-1200w.webp" srcset="/assets/dongariya/04-niyamgiri-480w.webp 480w, /assets/dongariya/04-niyamgiri-800w.webp 800w, /assets/dongariya/04-niyamgiri-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Terraced fields below green hills, with power lines in the foreground." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-niyamgiri-1200w.webp" srcset="/assets/dongria-book/20261107-niyamgiri-480w.webp 480w, /assets/dongria-book/20261107-niyamgiri-800w.webp 800w, /assets/dongria-book/20261107-niyamgiri-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Cultivated land in the Niyamgiri landscape, photographed in 2018" width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
 
 *Cultivated land in the Niyamgiri landscape, photographed in 2018.*
 
@@ -46,7 +46,7 @@ Wadaka’s explanation of roots and the assemblies’ insistence on recording th
 
 ## Footnotes and sources
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Resized; composition unchanged.
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Colour and tone adjusted for print; composition unchanged.
 
 [^1]: Foundation for Ecological Security, [SCSTRTI-commissioned land and water management study](https://repository.tribal.gov.in/upload/bitstream/123456789/61296/1/SCST_2015_research_0339.pdf), acknowledgement; printed pp. 49–50, 113. The report describes convenience sampling; publication date unverified.
 

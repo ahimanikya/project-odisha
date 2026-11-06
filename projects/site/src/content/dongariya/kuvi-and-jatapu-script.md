@@ -6,9 +6,9 @@ title: "Kuvi and the Jatapu script"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/10-kuvi-and-jatapu-script-v2-1200w.webp" srcset="/assets/dongariya/10-kuvi-and-jatapu-script-v2-480w.webp 480w, /assets/dongariya/10-kuvi-and-jatapu-script-v2-800w.webp 800w, /assets/dongariya/10-kuvi-and-jatapu-script-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of a woman in a white wrap and a man conversing beside an open blank notebook, with green hills behind them." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-kuvi-and-jatapu-script-992w.webp" srcset="/assets/dongria-book/20261107-kuvi-and-jatapu-script-480w.webp 480w, /assets/dongria-book/20261107-kuvi-and-jatapu-script-800w.webp 800w, /assets/dongria-book/20261107-kuvi-and-jatapu-script-992w.webp 992w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Two women talking beside a market stall" width="992" height="1586" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:992/1586;margin-inline:auto;">
 
-*Conversation and a blank notebook — an interpretive illustration using Dongria dress and a hill setting. The figures are imagined; no script characters or recorded conversation are represented.*
+*Two women talking beside a market stall - an interpretive illustration. The figures and conversation are imagined; no speech or script is transcribed.*
 
 A lesson becomes useful when a learner can make sense of it. In the companion article, Jayanti Sabar’s pupils helped classmates by explaining lessons in Kuvi.[^1]
 
@@ -64,7 +64,7 @@ Sabar’s pupils explained lessons to classmates; Phulamani made resources for c
 
 ## Footnotes and sources
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
+Adapted illustration: Project Odisha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), CC BY-SA 4.0. Imagined composition; portrait adaptation for this edition.
 
 [^1]: Manipadma Jena, [India Coaxes Tribal Girls Into Schools](https://www.ipsnews.net/2012/09/india-coaxes-tribal-girls-into-schools/), IPS, 18 September 2012, Jayanti Sabar’s classroom account. Historical testimony, also used in the learning article; not a current school assessment.
 

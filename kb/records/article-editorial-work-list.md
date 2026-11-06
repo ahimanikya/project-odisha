@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1021. completed: 182, excluded: 564, queued: 275.
+Route inventory: 1022. completed: 182, excluded: 565, queued: 275.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1045,3 +1045,4 @@ Route inventory: 1021. completed: 182, excluded: 564, queued: 275.
 | POD-EDIT-DONGRIA-KUVI-AND-JATAPU-SCRIPT-ROUTE-20261107 | [Kuvi and the Jatapu script](https://projectodisha.org/stories/dongria/kuvi-and-jatapu-script/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
 | POD-EDIT-DONGRIA-SONGS-AND-SINGERS-ROUTE-20261107 | [Songs and singers in Dongria life](https://projectodisha.org/stories/dongria/songs-and-singers/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
 | POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA-ROUTE-20261107 | [Kotpad and Kapadaganda through their makers](https://projectodisha.org/stories/dongria/kotpad-and-kapadaganda/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-BOOK-20261107 | [Dongria Kondh: Life in Niyamgiri — the book](https://projectodisha.org/stories/dongria/book/) | excluded | Online companion and reading sequence for the existing published book. |

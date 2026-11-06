@@ -6,9 +6,9 @@ title: "Kapadaganda — the embroidered cloth of Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/01-dongariya-life-1200w.webp" srcset="/assets/dongariya/01-dongariya-life-480w.webp 480w, /assets/dongariya/01-dongariya-life-800w.webp 800w, /assets/dongariya/01-dongariya-life-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Green fields beneath wooded hills." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-kapadaganda-992w.webp" srcset="/assets/dongria-book/20261107-kapadaganda-480w.webp 480w, /assets/dongria-book/20261107-kapadaganda-800w.webp 800w, /assets/dongria-book/20261107-kapadaganda-992w.webp 992w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="An embroidered wrap across a shoulder and back" width="992" height="1586" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:992/1586;margin-inline:auto;">
 
-*Fields and wooded hills in Niyamgiri, photographed in 2018. A landscape view of the region discussed here, not a photograph of Kapadaganda cloth.*
+*An embroidered wrap across a shoulder and back - an interpretive illustration with imagined cloth folds.*
 
 Kumri Sikoka began learning embroidery at about nine or ten, taught by her father’s sister. Speaking to Kanak Rajadhyaksha in November 2017, she placed the skill within a family relationship. Other women also credited their *atta*, a paternal aunt.[^1]
 
@@ -69,9 +69,13 @@ New markets raise Dinja’s question again. RISA promoted Dongria embroidery and
 
 Kumri’s learning, Ram Hial’s cloth and Dinja’s question about payment belong to different moments in this history. Together they keep attention on the relationships that make the finished wrap possible: someone teaches, someone weaves, someone stitches, and someone wears or buys the work.
 
+<img class="heritage-spot" src="/assets/dongria-book/cloth-band.png" alt="Interpretive ink drawing of a short stitched band with triangular forms." width="600" height="355" loading="lazy" decoding="async" style="display:block;width:35%;height:auto;margin:2rem auto;">
+
 ## Footnotes and sources
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
+Interpretive stitch-band drawing: Project Odisha. Technique reference: Kanak Rajadhyaksha, [Kapdagondas: Motifs and Technique](https://www.sahapedia.org/kapdagondas-motifs-and-technique), Sahapedia.
+
+Adapted illustration: Project Odisha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Debanutosh](https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg), CC BY-SA 4.0. Imagined composition; portrait adaptation for this edition.
 
 [^1]: Kanak Rajadhyaksha, [Kapdagondas: Embroidery and Work for Dongariya Kondh Women](https://www.sahapedia.org/kapdagondas-embroidery-and-work-dongariya-kondh-women), Sahapedia. Interviews conducted 8–14 November 2017 with women and development-agency staff. These are historical interview accounts, not current earnings data.
 

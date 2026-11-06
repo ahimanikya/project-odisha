@@ -6,9 +6,9 @@ title: "Homes and the work of repair in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/08-homes-and-repair-v2-1200w.webp" srcset="/assets/dongariya/08-homes-and-repair-v2-480w.webp 480w, /assets/dongariya/08-homes-and-repair-v2-800w.webp 800w, /assets/dongariya/08-homes-and-repair-v2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Illustration of earthen houses with wooden posts and low-reaching grass-thatched roofs, with bundled thatch beside a wall." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-homes-and-repair-992w.webp" srcset="/assets/dongria-book/20261107-homes-and-repair-480w.webp 480w, /assets/dongria-book/20261107-homes-and-repair-800w.webp 800w, /assets/dongria-book/20261107-homes-and-repair-992w.webp 992w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Timber, earth and grass thatch beneath low eaves" width="992" height="1586" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:992/1586;margin-inline:auto;">
 
-*Earthen walls, wooden posts and low-reaching thatch — an interpretive illustration informed by a 2016 description of Niyamgiri housing. This imagined scene does not represent every home or current building practice.*
+*Timber, earth and grass thatch beneath low eaves - an interpretive architectural detail informed by a 2016 description. It is not a documented building or a universal present-day form.*
 
 Mana Manjhi feared losing her roof in wind and heavy rain. In a UNDP account displayed with an August 2022 date, the Dongria Kondh farmer said support to build a pucca house had brought relief: she felt more confident that she and her grandson would have shelter during a storm.[^1]
 
@@ -54,7 +54,7 @@ A household needs food as well as shelter. The next part of the story follows th
 
 ## Footnotes and sources
 
-Illustration: Project Odisha. Housing reference: Meenal Tatpati, Ashish Kothari and Rashi Mishra, [The Niyamgiri Story](https://kalpavriksh.org/wp-content/uploads/2018/06/NiyamgiricasestudyJuly2016.pdf), Kalpavriksh, July 2016, p. 6.
+Illustration: Project Odisha. Housing reference: Meenal Tatpati, Ashish Kothari and Rashi Mishra, [The Niyamgiri Story](https://kalpavriksh.org/wp-content/uploads/2018/06/NiyamgiricasestudyJuly2016.pdf), Kalpavriksh, July 2016, p. 6. Imagined composition; portrait adaptation for this edition.
 
 [^1]: UNDP India, [Odisha’s affordable and disaster resilient houses](https://www.undp.org/india/stories/odishas-affordable-and-disaster-resilient-houses), 4 August 2022, Mana Manjhi account. UNDP supported the housing programme; this is a participant account published by an implementing partner, not an independent engineering assessment. Her village, interview date and construction date are not specified. UNDP’s [2021 housing progress report](https://info.undp.org/docs/pdc/Documents/IND/Annual%20Progress%20Report%20-%202021_Odisha%20housing%20project.pdf), p. 4, mentions a published story with the same title. This leaves first publication and version history unresolved; August 2022 is the displayed webpage date. Report text inspected; PDF download and screenshot failed.
 
