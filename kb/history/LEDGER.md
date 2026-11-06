@@ -1366,3 +1366,7 @@ Added a sourced schematic locator,16-term glossary andpersonalclosing; resolvedf
 ### 6 November 2026 · Dongria photograph acquisition flags
 
 Flagged29items against the104-page draft and prepared a reviewed17-page illustrated photographer/buyer brief. Four verifiedstockleads andoriginal-photographer routes recorded. Kotpadsoftness explicitlyflagged despite nominaldensity. User reportslocalcollection arranged; no filesreceived, licence,purchase oroutreachcompleted. Bookandcoversunchanged. Briefhash2a3130b81f3850e6cc1af9566223fbf4abef3a71d64e64323134d1c5ba1bb18a. [Record](../records/dongria-coffee-table-20261105.json).
+
+### 7 November 2026 · Reviewed cinema research and current books published
+
+Published the accumulated cinema and connected literary updates under the Founder’s request, including refreshed documentary photographs and three companion profiles. PR 689 passed hosted validation and the actual website deployment succeeded. All 61 targeted routes match the released text and links. Of 265 referenced images, 262 match byte for byte; three responsive derivatives have verified dimensions, content hashes and visual equivalence despite platform-specific encoding differences. The 264-page digital, 270-page print and 6-page introduction downloads match the reviewed hashes through anonymous HTTPS. Prior editions, concurrent Dongria work and evidence limitations remain intact. No human specialist approval or programme increment claimed. [Publication receipt](../records/cinema-publication-2026-11-07.json).

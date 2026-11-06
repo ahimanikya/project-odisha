@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "required_corrections": [],
+  "scope": "Direct view_image inspection of all6 images in3 supplied pairs; no image edits or browser changes.",
+  "input_hashes": {
+    "responsive-pairs.json": "49cf6bf8491993342f4aae1b979ce1e53ec04f1af844d6d623af6180b3ed2284",
+    "responsive-verification.json": "4cd113dea330847276cea502b56412f8a7cc0bddf3a29a6c51a80bfd72f1ea3d"
+  },
+  "pairs": [
+    {
+      "live_path": "/tmp/cinema-responsive-proof-20261107/8b030c3b48acd32f-1440.webp",
+      "expected_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/images/responsive/f7fd7db2e2c9d60a-1440.webp",
+      "live_sha256": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+      "expected_sha256": "f7fd7db2e2c9d60a7e0c7c7ca4e239e108da495c669debc84da6c8e5a8c43fbd",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "dimensions_equal": true,
+      "byte_exact": false,
+      "independent_mean_pixel_difference_255": 0.7674048353909465,
+      "visually_viewed_both": true,
+      "observation": "Same bound palm-leaf bundle, cord, metal implements and blue background; framing and visible details preserved.",
+      "verdict": "visually equivalent; not byte-identical"
+    },
+    {
+      "live_path": "/tmp/cinema-responsive-proof-20261107/f1a21d431336d36c-480.webp",
+      "expected_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/images/responsive/8dd91ac7fc1eed76-480.webp",
+      "live_sha256": "f1a21d431336d36c024b160c18cfe32cbc3d8601386047f8e048cc7f4ff30d3f",
+      "expected_sha256": "8dd91ac7fc1eed7689ada57eb42d7b548ce706a922c21d675f979c8249d312e9",
+      "dimensions": [
+        480,
+        663
+      ],
+      "dimensions_equal": true,
+      "byte_exact": false,
+      "independent_mean_pixel_difference_255": 0.7813547427518016,
+      "visually_viewed_both": true,
+      "observation": "Same garlanded bust and pedestal; identical framing, flower arrangement and background.",
+      "verdict": "visually equivalent; not byte-identical"
+    },
+    {
+      "live_path": "/tmp/cinema-responsive-proof-20261107/26b3fc30a634879e-960.webp",
+      "expected_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/images/responsive/c0f0d2c518de974f-960.webp",
+      "live_sha256": "26b3fc30a634879ef9f0eb5d7791bff736c783192e746662b9e02b4d55f9ab50",
+      "expected_sha256": "c0f0d2c518de974f2376e57595db591e6464833e44b3c281ad98e7c90cac3083",
+      "dimensions": [
+        960,
+        1166
+      ],
+      "dimensions_equal": true,
+      "byte_exact": false,
+      "independent_mean_pixel_difference_255": 1.2163721531351248,
+      "visually_viewed_both": true,
+      "observation": "Same portrait, glasses, sari and surrounding people; expression, frame and visible details preserved.",
+      "verdict": "visually equivalent; not byte-identical"
+    }
+  ],
+  "conclusion": "All3 live responsive variants preserve subject, composition, dimensions and useful visual detail. Small encoding-level pixel differences are visible in metrics but do not materially alter these displayed images. Accept as visually equivalent derivatives, never byte-exact matches.",
+  "limits": [
+    "This review covers only these3 pairs, not all live images/texts or deployment mechanics.",
+    "Cross-platform Sharp explanation is coordinator/build context; visual review establishes equivalence, not encoder provenance.",
+    "No new facial identity inference; comparison is between corresponding supplied images."
+  ]
+}
