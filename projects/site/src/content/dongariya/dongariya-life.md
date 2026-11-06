@@ -12,43 +12,41 @@ By Ahimanikya Satapathy
 
 Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
 
-In Kurli, food crops, fruit grown for sale and shared cultivation work connected households to the hills and to one another. Anthropologist Sujatarani Dandapat described these relationships in research centred on the village during 2017–18.[^1]
+In Gandili, Singari Jakesika described a change in what her household grew and what she ate. Her husband had increased horticulture to earn more income; less land went to millets, and her own consumption of millet declined as she increasingly ate subsidised rice. Her account appears in Deepanwita Gita Niyogi’s November 2022 reporting.[^4]
 
-This series follows Dongariya life through farming, cloth, language, learning and household decisions. Its dated accounts concern particular people and villages; experiences differ between families and generations.
+That decision brings the landscape close to home. Land can provide food and income, but the balance between them depends partly on who makes the choices. This series follows those choices through cultivation, cloth, homes, learning and song.
 
-## A community and its places
+## Niyamgiri and its households
 
-Dongariya, Dongria and Dongaria appear in different spellings of the community’s name. The Odisha State Tribal Museum uses “Dongria Kandha” and identifies settlements in the Niyamgiri ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada. Its account emphasises horticulture and cultivation on hill slopes. The museum lists Dongria Kandha among Particularly Vulnerable Tribal Groups, the administrative category commonly abbreviated as PVTGs.[^2]
+The Niyamgiri landscape extends across Rayagada and Kalahandi. Dongariya, Dongria and Dongaria are spellings found in the accounts used here. The Odisha State Tribal Museum uses “Dongria Kandha” and locates settlements in the ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada.[^2][^4]
 
-The broader Niyamgiri landscape extends across Rayagada and Kalahandi. Reporting by Deepanwita Gita Niyogi brings in household perspectives from Gandili and Kadraguma.[^4]
+The museum describes horticulture and cultivation on hill slopes, and lists Dongria Kandha among Particularly Vulnerable Tribal Groups, commonly abbreviated as PVTGs. That administrative category helps identify the scope of government records; it cannot describe a household’s ambitions or everyday life on its own.[^2]
 
-## Language and everyday knowledge
+## Food, income and who decides
 
-The museum lists both Kui and Kuvi in its community profile. The Central Institute of Indian Languages treats them as related languages with separate entries; its Kuvi collection identifies a Dravidian language spoken in Odisha and Andhra Pradesh and written using the Odia script.[^2][^3]
+Singari’s account puts the effects of a crop choice within the household. In the same 2022 reporting, Palari of Kadraguma wanted greater emphasis on millets and connected crop choices with women having more authority over land.[^4]
 
-Identifying the language of a song, crop name or family story requires attention to the speaker; a community label alone is insufficient.
+Their views belong to particular women and villages. They draw attention to the work and preferences within a family, as well as the prices available outside it.
 
-Learning also happens through shared tasks. Women interviewed by Kanak Rajadhyaksha in November 2017 described learning embroidery from their paternal aunts.[^5] These relationships are explored in [Kapadaganda and its makers](/stories/dongariya/kapadaganda/); [Learning and belonging](/stories/dongariya/learning-and-belonging/) follows accounts of schooling and educational aspirations.
+## Cultivating with other people
 
-## Fields and cooperation
+Anthropologist Sujatarani Dandapat’s study, based on 2017–18 fieldwork centred on Kurli, describes finger millet, pulses, sesame and tubers among food crops, alongside pineapple, banana and other crops grown for sale.[^1]
 
-Dandapat’s study describes finger millet, pulses, sesame and tubers among food crops, alongside pineapple, banana and other crops grown for sale. It also records cooperative labour: people from different households helping with cultivation, with meals provided by the host family. Horticultural work in her account relied more on family members.[^1]
+Her account also follows cooperation between households. Neighbours and relatives helped families facing illness or a shortage of workers, and the household receiving help provided meals. Horticultural work relied more on family members. Food and labour therefore connected households as well as sustaining them.[^1]
 
-The [seed-keeping article](/stories/dongariya/seed-keeping/) follows another connection between growers: obtaining, planting and returning seed. [Harvests and markets](/stories/dongariya/harvest-to-market/) continues from cultivation to selling.
+[Seed keeping](/stories/dongariya/seed-keeping/) follows another relationship between growers: obtaining, planting and returning seed. [Harvests and markets](/stories/dongariya/harvest-to-market/) continues the story through selling days, buyers and the costs of reaching them.
 
-## Choices within the household
+## Learning in familiar words
 
-Income and food preferences can pull in different directions. In Deepanwita Gita Niyogi’s 2022 reporting, Singari Jakesika of Gandili described her husband’s decision to increase horticulture for income. Less land was then devoted to millets, and her own consumption of millet declined. Palari of Kadraguma wanted more emphasis on millets and connected crop choices with women having greater authority over land.[^4]
+Knowledge also passes through shared work. In Kanak Rajadhyaksha’s November 2017 interviews, women described learning embroidery from paternal aunts.[^5] The account of [Kapadaganda and its makers](/stories/dongariya/kapadaganda/) follows those relationships; [Learning and belonging](/stories/dongariya/learning-and-belonging/) turns to students and teachers.
 
-Their accounts show why a crop choice can also be a question of who decides how household land is used.
+Language needs the same attention to particular speakers. The museum lists both Kui and Kuvi in its community profile. The Central Institute of Indian Languages maintains separate entries for the related languages and describes Kuvi as a Dravidian language spoken in Odisha and Andhra Pradesh, with writing in the Odia script.[^2][^3] The language of a song or a crop name cannot be settled by a community label alone.
 
-## Living with change
+## From a programme to a household
 
-Government programmes form another part of contemporary life. A parliamentary reply dated 29 January 2026 described PM JANMAN support encompassing housing, water, education, healthcare and connectivity. Its Rayagada progress annex covers Dongria Kondh alongside other PVTGs; the district figures cannot be read as Dongariya-only results.[^6]
+A January 2026 parliamentary reply describes PM JANMAN support covering housing, water, education, healthcare and connectivity. Its Rayagada annex combines Dongria Kondh with other PVTGs; those district totals do not identify Dongria-only outcomes.[^6]
 
-[Homes and repair](/stories/dongariya/homes-and-repair/) places residents’ accounts alongside those totals, asking what happens after a house is built.
-
-Following these everyday decisions gives the series its direction: how people make a living, share knowledge and choose what to carry forward.
+The account of [homes and repair](/stories/dongariya/homes-and-repair/) follows what such totals leave open: whether a house shelters its residents and whether they can maintain it. Singari and Palari’s accounts ask a related question of the fields—what reaches the household, and who has a say? The next account follows land from household cultivation to the village assemblies that spoke about its future.
 
 ## Footnotes and sources
 

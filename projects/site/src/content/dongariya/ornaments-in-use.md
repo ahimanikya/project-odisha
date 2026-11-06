@@ -14,19 +14,16 @@ Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by
 
 As women stitched Kapadaganda, a hair ornament served as a cutting tool. Kanak Rajadhyaksha’s account, based on November 2017 interviews, describes them using a blade-shaped *katri* to cut thread into manageable lengths and trim loose ends.[^1]
 
-Following the katri from hair to embroidery work reveals a use that its appearance alone might not explain.
+In the embroiderer’s hands, the katri has work to do. Its appearance alone might not explain that use.
 
-## A knife in the museum
+## From households to markets
 
-Kala Bhoomi Odisha Crafts Museum holds an object catalogued as *Mila Katri*. The Virtual Museum of Images and Sounds describes it as a small, portable knife for cutting thread. Its acquisition record traces it through the General Manager of the Regional Industries Centre, Rayagada, to Nakul Pidikaka.[^2]
+Sanghamitra Sethi and Paramananda Naik’s Jhigidi study follows Ghasi households making ornaments and other metal objects. Older relatives watched over moulds drying outside, while women gathered soil and prepared wax and moulds. Children helped their parents and learned through that participation. Both husbands and wives sold work at weekly markets, including Chatikana. Sales could involve cash or exchanges for produce.[^5]
 
-The acquisition record does not name the maker. The collection was documented in 2019–20, but the knife itself is undated. Its described use resembles the interview account; that does not establish identical forms or histories.[^2]
+The authors also describe Ghasi manufacture of brass handles for the *katri* worn in Dongria women’s hair. The tool used while embroidering therefore connects another household’s metalwork with the making of cloth.[^5]
 
-## Hairpins and their names
+The study’s historical account also describes travelling sellers receiving food and a place to stay in Dongria settlements. Metalwork moved through relationships of hospitality as well as purchase and exchange. These descriptions are not verified current arrangements.[^5]
 
-G. N. Mohanty and T. Sahoo’s 2006 account distinguishes several hair ornaments. A museum-derived table lists *Aska* as a hairpin or small knife and *Sipna* as a separate hairpin. The accompanying prose calls a small knife worn in the hair *mila katra*.[^3]
-
-The table distinguishes the names. Whether a wearer uses them in the same way needs a wearer’s explanation.
 
 ## Makers and wearers
 
@@ -34,19 +31,28 @@ The Odisha State Tribal Museum’s 2019 catalogue describes *andu*, brass anklet
 
 Mohanty and Sahoo describe Dongria contributions to designs and manufacture by neighbouring artisans, particularly Ghasi craftspeople. Their account connects wearers and makers across communities, without naming the people behind a particular commission.[^3]
 
-## From households to markets
 
-Sanghamitra Sethi and Paramananda Naik’s Jhigidi study follows Ghasi households making ornaments and other metal objects. Family members shared production tasks, and both husbands and wives sold their work at weekly markets, including Chatikana. Sales could involve cash or exchanges for produce.[^5]
+## A knife in the museum
 
-The authors also describe Ghasi manufacture of brass handles for the *katri* worn in Dongria women’s hair. This identifies a craft relationship, not the maker of Kala Bhoomi’s particular knife.[^5]
+Kala Bhoomi Odisha Crafts Museum holds an object catalogued as *Mila Katri*. The Virtual Museum of Images and Sounds describes it as a small, portable knife for cutting thread. Its acquisition record traces it through the General Manager of the Regional Industries Centre, Rayagada, to Nakul Pidikaka.[^2]
 
-The study used observation, interviews and group discussions in a village selected for its craft activity. It describes historical household work and exchange, not verified present-day arrangements.[^5]
+The collection was documented in 2019–20, but the knife is undated and its maker unnamed. Nakul Pidikaka’s place in the acquisition record does not establish that he made it; nor does the Ghasi household study identify the maker of this particular object.[^2][^5]
+
+
+## Hairpins and their names
+
+G. N. Mohanty and T. Sahoo’s 2006 account distinguishes several hair ornaments. A museum-derived table lists *Aska* as a hairpin or small knife and *Sipna* as a separate hairpin. The accompanying prose calls a small knife worn in the hair *mila katra*.[^3]
+
+The table distinguishes the names. Whether a wearer uses them in the same way needs a wearer’s explanation.
+
 
 ## What a wearer can tell us
 
 The knife that trims an embroidery thread, the patterned anklet and the coin necklace invite different questions. Who made this piece? How was it acquired? When is it worn, and what does its owner value about it?
 
 Appearance alone cannot answer these questions or reliably establish someone’s age, marital status or beliefs. A catalogue can record an object’s name and acquisition; its wearer can explain how it fits into a life.
+
+The relationships between wearers and neighbouring craftspeople continue in the next comparison, which follows the distinct work of Jhigidi and Kotpad textile makers.
 
 ## Footnotes and sources
 

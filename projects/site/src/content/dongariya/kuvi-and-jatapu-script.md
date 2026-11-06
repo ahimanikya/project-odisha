@@ -12,7 +12,7 @@ By Ahimanikya Satapathy
 
 Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
 
-In Manipadma Jena’s September 2012 report, Jayanti Sabar, a teacher at Sikhsya Niketan residential school for Dongria Kondh girls, described pupils translating lessons into Kuvi for classmates.[^1] Understanding depended on someone who could explain the lesson in familiar words.
+A lesson becomes useful when a learner can make sense of it. In the companion article, Jayanti Sabar’s pupils helped classmates by explaining lessons in Kuvi.[^1]
 
 Three distinct resources matter here: the *Kuwi Primer*, written with Odia-based letters; the *Jatapu (Kuvi) Primer*, which uses Telugu-based writing; and a separate Jatapu script devised by Prasanna Sree. Her alphabet is not the one used in the Jatapu primer.[^3][^5][^6]
 
@@ -22,17 +22,23 @@ The Central Institute of Indian Languages identifies Kuvi as a Dravidian languag
 
 A familiar script can help a reader recognise letters without making the language itself familiar.
 
+## A teacher making resources
+
+A regional example comes from Putsil in Koraput. A November 2020 account by government and programme staff describes anganwadi worker Phulamani Jani noticing that children engaged more readily when she spoke Kuvi. Yet she wondered whether Odia would better prepare them for primary school; some community members shared that concern. After training in 2017, she combined purchased learning materials with ones she made locally and composed Kuvi songs.[^11]
+
+Her account brings a teacher’s choice into view: how to build on children’s understanding while preparing them for school. It does not identify the writing system of her materials or describe the community as Dongria.
+
 ## The Odia-based Kuwi primer
 
 The *Kuwi Primer* was prepared in an NCERT workshop with the Central University of Odisha, Koraput, according to its credits. Its alphabet chart and illustrated lessons use Odia-based writing.[^3]
 
 The Ministry of Education records its launch alongside the Desia primer in Bhubaneswar on 17 August 2023. The intended audience was children speaking these languages in undivided Koraput.[^4]
 
-The CIET newsletter for October–December 2025 records that revised Desia and Kuwi primers had been submitted for printing.[^12] The entry does not identify the revisions, confirm printing or name recipient schools.
+A 2025 CIET newsletter later records revised Desia and Kuwi primers submitted for printing, without confirming printing or identifying recipient schools.[^12]
 
 ## The Telugu-based Jatapu primer
 
-The CIIL–NCERT *Jatapu (Kuvi) Primer* has a first-edition date of 9 March 2024. It is intended for early learners at Balvatika and Anganwadi levels and for adult literacy programmes. Its alphabet chart and opening illustrated lesson use Telugu-based writing. The development credits name schoolteachers from Parvathipuram Manyam district in Andhra Pradesh as resource persons.[^5]
+The CIIL–NCERT *Jatapu (Kuvi) Primer* has a first-edition date of 9 March 2024. It is intended for early learners at Balvatika and Anganwadi levels and for adult literacy programmes. Its alphabet chart and opening illustrated lesson use Telugu-based writing. Its resource-person credits include headmaster Tadangi Timmarusu and teacher Puvvala Ramaswamy, both working in Parvathipuram Manyam district, Andhra Pradesh.[^5]
 
 *Jatapu (Kuvi)* is the publication’s title, not a name for every Kuvi-speaking community.
 
@@ -48,7 +54,7 @@ These sources document Prasanna Sree’s design. They do not establish that Dong
 
 Linguistic descriptions record speech sounds as well as written forms. PHOIBLE’s Kuvi sound inventory, drawing on Israel’s 1979 grammar, includes short and long vowels, such as /i/ and /iː/, and nasalised vowels such as /ĩ/.[^9] These symbols describe pronunciation, not letters in the devised Jatapu script.
 
-In a reproduced preface, Israel dates his fieldwork to 1971–74, with further examination of the material through 1977. Its main setting was Saptamaha near Putisil and Narengpodra on Deomali. He credits Binondo K. Manding of Narengpodra and contributors including Prokas Meleka and Anondo Meleka of Putisil.[^10]
+Behind a grammar are people who help a researcher hear and understand. In the reproduced preface to his grammar, Israel credits Binondo K. Manding of Narengpodra and contributors including Prokas Meleka and Anondo Meleka of Putisil. He dates his fieldwork to 1971–74, with further examination through 1977, mainly in Saptamaha near Putisil and Narengpodra on Deomali.[^10]
 
 PHOIBLE presents particular documented sound inventories, not every speaker’s pronunciation.[^9] This regional description cannot by itself map the devised Jatapu signs to spoken Kuvi in Niyamgiri; that needs examples and explanations from speakers.
 
@@ -56,9 +62,7 @@ PHOIBLE presents particular documented sound inventories, not every speaker’s 
 
 Publication and classroom use are separate milestones. Neither primer’s publication record identifies the edition used in a particular Dongria school.
 
-A regional example comes from Putsil in Koraput. A November 2020 account by government and programme staff describes anganwadi worker Phulamani Jani teaching in Kuvi and, after training in 2017, composing Kuvi songs and making learning materials from local resources.[^11] It gives a named example of spoken Kuvi in early education, but does not identify the writing system of her materials or describe the community as Dongria.
-
-Sabar’s pupils were helping classmates understand lessons through Kuvi. Their work brings the discussion back from alphabet charts to the classroom: what can a learner read, understand and explain to someone else?
+Sabar’s pupils explained lessons to classmates; Phulamani made resources for children she taught. Their accounts return attention to who can understand and use the words. The song accounts that follow introduce other people who explain, remember and pass them on.
 
 ## Footnotes and sources
 

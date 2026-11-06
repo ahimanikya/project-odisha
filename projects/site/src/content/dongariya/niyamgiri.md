@@ -12,45 +12,39 @@ By Ahimanikya Satapathy
 
 Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Resized; composition unchanged.
 
-Suresh Wadaka explained a slope through the roots of its crops. In an undated study commissioned by Odisha’s Scheduled Castes and Scheduled Tribes Research and Training Institute, the Dongaria Kondh informant described how shallow and deeper root systems worked differently against soil loss. Their spread and depth mattered when deciding what to plant together.[^1]
+Suresh Wadaka explained a slope through the roots of its crops. In an undated study commissioned by Odisha’s Scheduled Castes and Scheduled Tribes Research and Training Institute, he described how shallow and deeper root systems worked differently against soil loss. Their spread and depth mattered when deciding what to plant together.[^1]
 
-## Knowing the ground
+The Foundation for Ecological Security’s researchers used interviews and walks in selected villages around Chatikona. Wadaka’s explanation offers one way of understanding cultivated land from the work done upon it; the study records village differences, language barriers and gaps in its seasonal observations.[^1]
 
-The Foundation for Ecological Security’s study used interviews and walks in selected villages served by the development agency at Chatikona. It acknowledges seasonal gaps, language barriers and village differences. Wadaka’s explanation belongs to this particular account of cultivation.[^1]
+## A landscape that feeds households
 
-## Food crops and fruit income
+In 2017–18 fieldwork centred on Kurli, Sujatarani Dandapat described food crops and commercial horticulture sharing the farming landscape, sometimes the same plot. Finger millet, pulses and tubers appeared alongside pineapple, banana and turmeric.[^2]
 
-Sujatarani Dandapat’s study, based on 2017–18 fieldwork centred on Kurli, describes food crops and commercial horticulture sharing the farming landscape, sometimes the same plot. Finger millet, pulses and tubers appear alongside pineapple, banana and turmeric.[^2]
+Singari Jakesika and Palari’s later accounts bring household choices into that picture: how much land to give to millets, how to earn income and who has authority to decide.[^3] Those accounts describe different people and years from the village meetings of 2013. They help us see why land has everyday importance, without supplying the participants’ reasons for their votes.
 
-Deepanwita Gita Niyogi’s 2022 reporting describes women weighing millet consumption against horticultural income and seeking more authority over crop choices.[^3] Their household accounts appear in [Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/).
+## Asking the villages
 
-These later accounts do not establish participants’ reasons for their 2013 decisions. They show land supporting food and income, with crop choices debated within households.
+On 18 April 2013, the Supreme Court directed village assemblies, or Gram Sabhas, to examine individual, community, cultural and religious claims in the Niyamgiri case. They were to consider whether the proposed mining would affect those rights, including worship associated with Niyam-Raja and the deity’s abode.[^4]
 
-## What the court put before the villages
+A judicial officer of district-judge rank was to observe and certify the proceedings. The assemblies’ decisions would inform the Ministry’s final decision on Stage II forest clearance. These were distinct responsibilities; the judgment separately addressed alleged violations at the Lanjigarh refinery.[^4]
 
-On 18 April 2013, the Supreme Court directed Gram Sabhas—village assemblies—to consider individual, community, cultural and religious claims in the Niyamgiri case. Worship associated with Niyam-Raja was specifically at issue. The court asked the assemblies to examine whether the proposed mining would affect those rights, including the deity’s abode. This brought the meaning of the landscape into the decision, beyond a measurement of the proposed mining area.[^4]
+## What people asked to have recorded
 
-A judicial officer of district-judge rank was to observe the proceedings and sign the minutes certifying their independence. The assemblies’ decisions would then inform the Ministry’s final decision on Stage II forest clearance. Village deliberation and the Ministry’s clearance decision had different responsibilities. These proceedings concerned the proposed mine; the judgment separately addressed alleged violations at the Lanjigarh refinery.[^4]
+At Serkapadi on 18 July 2013, Dongria Kondh participants rejected mining. Sandip Das’s report the following day connected the resolution with worship of Niyam Raja and identified district judge Sarat Chandra Mishra as observer. Contemporary newspapers give different attendance figures, retained in the source note.[^7]
 
-## Twelve assemblies in the later record
+Kesarpadi’s assembly followed on 22 July and also rejected mining. *The New Indian Express* reported that 33 of the village’s 36 voters attended, attributing that figure to district collector Sashi Bhusan Padhi.[^8]
 
-The Xaxa Committee’s 2014 report supplies a later account. It says Palli Sabhas were held between 18 July and 19 August 2013 in twelve hamlets in Rayagada and Kalahandi districts, selected by the state as likely to be affected. All twelve rejected the proposed mining. The report’s footnote identifies its evidence: English translations of the resolutions supplied by the state and held by the committee. The committee’s account is therefore traceable to translated resolutions; it is not a transcript of the meetings.[^5]
+In *Down To Earth*’s account, Dondu Kutruka asked officials to record the villagers’ statements accurately and read them back. Residents insisted that their claims to the wider Niyamgiri landscape appear in the resolution before they signed. The report also identifies Suku Kutruka as the village forest rights committee president; he connected his opposition to mining with millet-growing slopes and forests shared with wildlife.[^9]
 
-A parliamentary answer on 13 May 2015 records the same outcome: twelve village Gram Sabhas had decided against mining, seven in Rayagada and five in Kalahandi. Those are village decisions, rather than a count of individual voters or every settlement in the hills. The answer records the position reported in May 2015, not current permissions or a permanent ban.[^6]
+What the record recognised—and how far that recognition extended—mattered alongside the vote itself. These are the reporter’s accounts of their interventions, not a new transcription of the meeting.
 
-## Two meetings, separately reported
+## Twelve village decisions
 
-Contemporary reporting gives two of those assemblies a more specific setting. Sandip Das’s report from Serkapadi, published on 19 July 2013, described Dongria Kondh participants rejecting mining at the previous day’s meeting. It identified district judge Sarat Chandra Mishra as the observer and connected the resolution with worship of Niyam Raja. Contemporary reports disagree on the number participating: *The Indian Express* gives 36, while *Down To Earth* gives 38.[^7]
+The Xaxa Committee’s 2014 report records twelve assemblies held between 18 July and 19 August 2013 in hamlets selected by the state as likely to be affected. All twelve rejected the proposed mining. The committee drew on English translations of resolutions supplied by the state.[^5]
 
-At Kesarpadi on 22 July, a second assembly also rejected mining. In its report the following day, *The New Indian Express* attributed the attendance figure to district collector Sashi Bhusan Padhi: 33 of the village’s 36 voters attended.[^8]
+A parliamentary answer in May 2015 records the same outcome, with seven villages in Rayagada and five in Kalahandi.[^6] These are decisions by particular village assemblies, not a count of every settlement or individual in Niyamgiri. The historical record does not establish current permissions or a permanent ban.
 
-The Kesarpadi discussion also concerned the extent of villagers’ claims. Down To Earth reported that residents rejected the government’s proposed settlement and insisted that their community and religious claims to the wider Niyamgiri landscape be recorded.[^9] The dispute concerned both mining and the scope of claims entered in the record.
-
-These figures describe participation at particular meetings, not the population of Niyamgiri. Down To Earth’s contemporary Kesarpadi report also links a six-page handwritten scan labelled as the resolution and minutes.[^9] Its signatures and thumb impressions are visible, but the wording and certification still require a checked transcription; the attendance figure above remains attributed to the newspaper report.
-
-## Reading the landscape and the record together
-
-Wadaka’s roots, the farmers’ crop choices and the assemblies’ claims describe different relationships with Niyamgiri. Keeping their dates and sources distinct lets us read them together without making one account stand for everyone. The landscape in these records is cultivated, worshipped and discussed by the people living within it.
+Wadaka’s explanation of roots and the assemblies’ insistence on recording their claims concern different ways of knowing and speaking for land. People cultivate within this landscape, worship within it and argue about its future. The story now turns to their homes, and the work of keeping a household sheltered.
 
 ## Footnotes and sources
 
