@@ -27,20 +27,20 @@ test('Dongria illustration and photographic provenance travel with optimized ass
   assert.doesNotMatch(html,/width:\s*85%/);
   assert.ok(html.includes('calc(100vw - 2.8rem), 724px'));
   assert.doesNotMatch(html,/\/Users\/|GUNDERI_SHAWL|AI-generated|AI-assisted/);
-  if(a.kind==='photograph'||a.kind==='film poster'){assert.ok(html.includes(a.license_url));assert.ok(html.includes('Resized; composition unchanged.'));}
+  if(a.kind==='photograph'||a.kind==='film poster'){assert.ok(html.includes(a.license_url));assert.ok(html.includes('Resized; composition unchanged.')||html.includes('Colour and tone adjusted for print; composition unchanged.'));}
   if(a.kind==='interpretive illustration'){
-   assert.ok(a.image.includes('-v2-'));
-   assert.ok(html.includes('interpretive illustration'));
+   assert.ok(a.image.startsWith('/assets/dongria-book/20261107-'));
+   assert.ok(html.includes('interpretive illustration')||html.includes('interpretive architectural detail'));
    assert.ok(html.includes(a.reference_url));
    if(a.reference_license){
     assert.equal(a.license,'CC BY-SA 4.0');
     assert.ok(html.includes(a.license_url));
-    assert.ok(html.includes('photograph by Pillai Sree Vidya'));
-    assert.ok(html.includes('composition and activity are imagined'));
+    assert.ok(html.includes('photograph by '+a.reference_creator));
+    assert.ok(html.includes('Imagined composition; portrait adaptation for this edition.'));
    }else{
     assert.equal(a.slug,'homes-and-repair');
     assert.ok(html.includes('2016'));
-    assert.ok(html.includes('does not represent every home'));
+    assert.ok(html.includes('not a documented building or a universal present-day form'));
    }
   }
  }

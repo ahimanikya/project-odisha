@@ -6,7 +6,7 @@ title: "Dongria life in Niyamgiri"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/01-dongariya-life-1200w.webp" srcset="/assets/dongariya/01-dongariya-life-480w.webp 480w, /assets/dongariya/01-dongariya-life-800w.webp 800w, /assets/dongariya/01-dongariya-life-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Green fields beneath wooded hills." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-dongariya-life-1200w.webp" srcset="/assets/dongria-book/20261107-dongariya-life-480w.webp 480w, /assets/dongria-book/20261107-dongariya-life-800w.webp 800w, /assets/dongria-book/20261107-dongariya-life-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Fields and hills photographed during a Niyamgiri visit in 2018" width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
 
 *Fields and hills photographed during a Niyamgiri visit in 2018.*
 
@@ -19,6 +19,10 @@ That decision brings the landscape close to home. Land can provide food and inco
 The Niyamgiri landscape extends across Rayagada and Kalahandi. This series uses Dongria; some sources use the spellings Dongariya or Dongaria. The Odisha State Tribal Museum uses “Dongria Kandha” and locates settlements in the ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada.[^2][^4]
 
 The museum describes horticulture and cultivation on hill slopes, and lists Dongria Kandha among Particularly Vulnerable Tribal Groups, commonly abbreviated as PVTGs. That administrative category helps identify the scope of government records; it cannot describe a household’s ambitions or everyday life on its own.[^2]
+
+<img src="/assets/dongria-book/20261107-commons-2-1200w.webp" srcset="/assets/dongria-book/20261107-commons-2-480w.webp 480w, /assets/dongria-book/20261107-commons-2-800w.webp 800w, /assets/dongria-book/20261107-commons-2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Children posed together in decorated white wraps, preparing for a wedding." width="1200" height="800" loading="lazy" decoding="async">
+
+*A requested group portrait of children preparing for a wedding, according to the photographer.*
 
 ## Food, income and who decides
 
@@ -48,7 +52,9 @@ The account of [homes and repair](/stories/dongria/homes-and-repair/) follows wh
 
 ## Footnotes and sources
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
+Additional photograph: Shubhamkindia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); [source](https://commons.wikimedia.org/wiki/File:Childhood_group_photo.jpg). Resized; composition unchanged.
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Colour and tone adjusted for print; composition unchanged.
 
 [^1]: Sujatarani Dandapat, [Traditional Ecological Knowledge and Continuation of Swidden Cultivation](https://www.arfjournals.com/image/catalog/Journals%20Papers/MII/2021/No.3-4/03.pdf), *Man In India* 101(3–4), 2021, pp. 159–173. Scope and methods pp. 160–161; crops and labour pp. 166–168. Fieldwork in 2017–18, centred on Kurli.
 

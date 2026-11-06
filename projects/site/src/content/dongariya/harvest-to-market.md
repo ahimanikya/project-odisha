@@ -6,7 +6,7 @@ title: "From Niyamgiri harvests to market"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/07-harvest-to-market-1200w.webp" srcset="/assets/dongariya/07-harvest-to-market-480w.webp 480w, /assets/dongariya/07-harvest-to-market-800w.webp 800w, /assets/dongariya/07-harvest-to-market-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Three people posing beside produce stalls under market tarpaulins." width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-harvest-to-market-1200w.webp" srcset="/assets/dongria-book/20261107-harvest-to-market-480w.webp 480w, /assets/dongria-book/20261107-harvest-to-market-800w.webp 800w, /assets/dongria-book/20261107-harvest-to-market-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="A posed photograph during a market visit, catalogued as “Dangaria women 02” in 2018. It does not document a particular sale or identify the people discussed in this article" width="1200" height="900" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/900;margin-inline:auto;">
 
 *A posed photograph during a market visit, catalogued as “Dangaria women 02” in 2018. It does not document a particular sale or identify the people discussed in this article.*
 
@@ -17,6 +17,10 @@ Growers also describe the time spent selling, the effects of losing a buyer and 
 ## A long selling day
 
 In July 2017, Bikash Khemka reported growers’ frustration despite a plentiful pineapple harvest. Pula Majhi described leaving home early and returning in the evening after selling her fruit. Nabaghana Badaka of Khambesi pointed to the lack of cold storage and wanted a nearby juice factory. The report traced truckloads from a yard near Chatikona railway station to Raipur.[^2]
+
+<img src="/assets/dongria-book/20261107-commons-4-1200w.webp" srcset="/assets/dongria-book/20261107-commons-4-480w.webp 480w, /assets/dongria-book/20261107-commons-4-800w.webp 800w, /assets/dongria-book/20261107-commons-4-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Three women beside a stall displaying colourful fabric." width="1200" height="900" loading="lazy" decoding="async">
+
+*Women photographed during Pillai Sree Vidya’s visit to the Dongria region.*
 
 ## Selling during the pandemic
 
@@ -42,7 +46,9 @@ Markets also appear in the accounts of Kapadaganda makers, who describe buying c
 
 ## Footnotes and sources
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg). Resized; composition unchanged.
+Additional photograph: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); [source](https://commons.wikimedia.org/wiki/File:Dangaria_women_03.jpg). Resized; composition unchanged.
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg). Colour and tone adjusted for print; composition unchanged.
 
 [^1]: Deepanwita Gita Niyogi, [Superfood Millets Need Revival at Home](https://www.iwmf.org/reporting/superfood-millets-need-revival-at-home/), The Citizen, reproduced by IWMF, 19 November 2022. Khajuri account. The body spells the name Telo; its photograph caption uses Tela.
 

@@ -12,10 +12,11 @@ const next=articles[(index+1)%articles.length];
 ---
 <Shell title={article.title} description={`Explore ${article.title.toLowerCase()}, with attributed accounts, photographs and source notes.`} active="explore" related={false} shareImage={{src:article.image,alt:article.alt,width:article.dimensions[0],height:article.dimensions[1]}}>
 <article class="dongariya-article">
-<nav aria-label="Series"><a href="/stories/dongria/">Dongria Kondh · The Niyamgiri series</a><span>{index+1} / {articles.length}</span></nav>
+<nav aria-label="Series"><a href="/stories/dongria/">Dongria Kondh · The Niyamgiri series</a><a href="/stories/dongria/book/">The book</a><span>{index+1} / {articles.length}</span></nav>
+{index===0&&<p><a href="/stories/dongria/book/#author-note">Before this chapter: A shawl, and the questions it opened →</a></p>}
 <div class="article-content"><Content/></div>
 
-<ArticleReadingPath heading="Continue reading" links={[{href:`/stories/dongria/${next.routeSlug || next.slug}/`,title:next.title,image:next.image}]} containImages/>
+<ArticleReadingPath heading="Continue reading" links={index===articles.length-1?[{href:'/stories/dongria/book/#looking-again',title:'Looking again: the closing essay'}]:[{href:`/stories/dongria/${next.routeSlug || next.slug}/`,title:next.title,image:next.image}]} containImages/>
 <section class="suggest-update"><h2>Suggest an update</h2><p><a href={`/contribute/?page=${encodeURIComponent(`/stories/dongria/${article.routeSlug || article.slug}/`)}`}>Share a correction or source for this article</a>.</p><p>GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
 </article>
 </Shell>

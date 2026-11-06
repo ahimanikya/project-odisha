@@ -2,6 +2,7 @@
 import Shell from '../../../layouts/Shell.astro';
 import articles from '../../../data/dongariya.json';
 import book from '../../../data/dongariya-book.json';
+import reading from '../../../data/dongria-book-reading.json';
 const indexImage={src:'/assets/dongariya/00-index-clothing-1200w.webp',alt:'Illustration of two women wearing embroidered Dongria wraps against green hills.',width:1200,height:800};
 ---
 <Shell title="Dongria Kondh: cloth, language and life in Niyamgiri" description="Twelve connected articles on Kapadaganda, Kuvi, cultivation, learning and life in Niyamgiri, with sources and credited images." active="explore" related={false} shareImage={indexImage}>
@@ -11,14 +12,16 @@ const indexImage={src:'/assets/dongariya/00-index-clothing-1200w.webp',alt:'Illu
  <figcaption>Dongria dress and embroidered wraps — an interpretive illustration. The figures and hillside setting are imagined.</figcaption>
 </figure>
 <p>Read the twelve articles in sequence, or begin with a subject that draws you in. Each includes source notes; photographs and interpretive illustrations are identified in their captions.</p>
-<p><a href={book.file}>Download the book: {book.edition} · {book.pages} pages · PDF</a> ({(book.bytes / 1000000).toFixed(1)} MB). Includes the author’s note, a locator map, glossary and source notes.</p>
+<section class="book-card"><img src={reading.cover.at(-1)!.src} width={reading.cover.at(-1)!.width} height={reading.cover.at(-1)!.height} alt={reading.cover_alt} loading="lazy"/><div><p class="eyebrow">The connected book</p><h2>A shawl, and the questions it opened</h2><p>A purchase at a supper club led Ahimanikya Satapathy to the people behind the cloth: makers, growers, teachers and singers. Begin with his story, then follow the twelve chapters.</p><p><a href="/stories/dongria/book/#author-note">Start reading the book online →</a></p><p><a href="/stories/dongria/book/">Explore the book, map and glossary</a></p><p><a href={book.file}>Download: {book.edition} · {book.pages} pages · PDF</a> ({(book.bytes / 1000000).toFixed(1)} MB).</p></div></section>
 <ol>{articles.map((article,index)=><li><span class="number">{String(index+1).padStart(2,'0')}</span><a href={`/stories/dongria/${article.routeSlug || article.slug}/`}>{article.title}<span aria-hidden="true"> ↗</span></a></li>)}</ol>
 <p>By Ahimanikya Satapathy.</p>
 <section><h2>Footnotes &amp; Sources</h2>
+<p class="series-image-credit">Book cover photograph: {reading.cover_credit.creator}. <a href={reading.cover_credit.source_url}>Source</a>. <a href={reading.cover_credit.licence_url}>{reading.cover_credit.licence}</a>. Preview of the published cover.</p>
  <p class="series-image-credit">Adapted illustration: Project Odisha, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Adapted from a clothing reference: <a href="https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg">photograph by Debanutosh</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 </section></section>
 </Shell>
 <style>
 .series{max-width:52rem;margin:3rem auto 5rem;padding:0 1.4rem;line-height:1.8}.series h1{font-size:clamp(2.3rem,1.4rem + 4vw,4rem);line-height:1.1;margin:1rem 0 2rem}.series p{margin-bottom:1.5rem}.intro{font-size:1.3rem}.series ol{list-style:none;padding:0;margin:3rem 0}.series li{display:flex;gap:1.25rem;align-items:baseline;border-top:1px solid #d5c9b7;padding:1.2rem 0}.number{color:#91462f;min-width:1.5rem}.series a{font-size:1.2rem;text-decoration:underline;text-underline-offset:4px}
 .series-hero{margin:2rem 0}.series-hero img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:3/2}.series-hero figcaption{margin-top:.85rem;font-size:1rem;line-height:1.65}.series .series-image-credit{margin-top:.5rem;font-size:.85rem;line-height:1.65}.series-image-credit a{font-size:inherit}
+.book-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:2rem;align-items:center;border-block:1px solid #d5c9b7;padding-block:2rem;margin-block:3rem}.book-card img{width:100%;height:auto;aspect-ratio:4/5}.book-card h2{font-size:1.8rem;line-height:1.25}.book-card a{font-size:1rem}@media(max-width:640px){.book-card{grid-template-columns:1fr}.book-card img{max-width:260px;margin-inline:auto}}
 </style>

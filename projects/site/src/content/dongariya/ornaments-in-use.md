@@ -6,7 +6,7 @@ title: "Dongria ornaments in use"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongariya/03-ornaments-in-use-856w.webp" srcset="/assets/dongariya/03-ornaments-in-use-480w.webp 480w, /assets/dongariya/03-ornaments-in-use-800w.webp 800w, /assets/dongariya/03-ornaments-in-use-856w.webp 856w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Close view of hairpins and hoop-shaped ear ornaments." width="856" height="642" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:856/642;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-ornaments-in-use-856w.webp" srcset="/assets/dongria-book/20261107-ornaments-in-use-480w.webp 480w, /assets/dongria-book/20261107-ornaments-in-use-800w.webp 800w, /assets/dongria-book/20261107-ornaments-in-use-856w.webp 856w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Detail of hair and ear ornaments, photographed in 2018 and catalogued as “Dangaria accessory detail 01”" width="856" height="642" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:856/642;margin-inline:auto;">
 
 *Detail of hair and ear ornaments, photographed in 2018 and catalogued as “Dangaria accessory detail 01”.*
 
@@ -48,9 +48,13 @@ Appearance alone cannot answer these questions or reliably establish someone’s
 
 The relationships between wearers and neighbouring craftspeople continue in the next comparison, which follows the distinct work of Jhigidi and Kotpad textile makers.
 
+<img class="heritage-spot" src="/assets/dongria-book/hairpins.png" alt="Interpretive ink drawing of two slender hairpins." width="600" height="365" loading="lazy" decoding="async" style="display:block;width:35%;height:auto;margin:2rem auto;">
+
 ## Footnotes and sources
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_accessory_detail_01.jpg). Resized; composition unchanged.
+Hairpin drawing: interpretive adaptation by Project Odisha from a [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_accessory_detail_01.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); adaptation under the same licence. Drawings simplify details.
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_accessory_detail_01.jpg). Colour and tone adjusted for print; composition unchanged.
 
 [^1]: Kanak Rajadhyaksha, [Kapdagondas: Motifs and Technique](https://www.sahapedia.org/kapdagondas-motifs-and-technique), Sahapedia, materials and “Process” sections. Interviews conducted 8–14 November 2017. The term katri and its described use are retained without equating it with other published hairpin names.
 
