@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1008. completed: 179, excluded: 551, queued: 278.
+Route inventory: 1021. completed: 179, excluded: 564, queued: 278.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1032,3 +1032,16 @@ Route inventory: 1008. completed: 179, excluded: 551, queued: 278.
 | POD-EDIT-BIBHUTI-PATTANAIK-20261102 | [Bibhuti Pattanaik: Books Within Reach](https://projectodisha.org/people/bibhuti-pattanaik/) | queued | Supplementary cinema writer profile outside the50-reading book sequence; local candidate only. |
 | POD-EDIT-SOLILA-PARIDA-20261103 | [Solila Parida: Carrying a Story Across Oceans](https://projectodisha.org/people/solila-parida/) | queued | Supplementary producer profile linked from literature and screen; outside50-reading book. Local candidate only. |
 | POD-EDIT-JATINDRA-NAYAK-20261103 | [Jatindra K. Nayak: Carrying the Voice Across](https://projectodisha.org/people/jatindra-k-nayak/) | queued | Supplementary translator companion linked fromBasanta; outside50-reading book. Localcandidate only. |
+| POD-EDIT-DONGRIA-INDEX-ROUTE-20261107 | [Dongria Kondh: life in Niyamgiri](https://projectodisha.org/stories/dongria/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-DONGARIYA-LIFE-ROUTE-20261107 | [Dongria life in Niyamgiri](https://projectodisha.org/stories/dongria/dongria-life/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-KAPADAGANDA-ROUTE-20261107 | [Kapadaganda — the embroidered cloth of Niyamgiri](https://projectodisha.org/stories/dongria/kapadaganda/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-ORNAMENTS-IN-USE-ROUTE-20261107 | [Dongria ornaments in use](https://projectodisha.org/stories/dongria/ornaments-in-use/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-NIYAMGIRI-ROUTE-20261107 | [Niyamgiri: cultivation and village decisions](https://projectodisha.org/stories/dongria/niyamgiri/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-SEED-KEEPING-ROUTE-20261107 | [Keeping seeds in circulation in Niyamgiri](https://projectodisha.org/stories/dongria/seed-keeping/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-FOREST-FOODS-ROUTE-20261107 | [Forest foods and home gardens in Rayagada](https://projectodisha.org/stories/dongria/forest-foods/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-HARVEST-TO-MARKET-ROUTE-20261107 | [From Niyamgiri harvests to market](https://projectodisha.org/stories/dongria/harvest-to-market/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-HOMES-AND-REPAIR-ROUTE-20261107 | [Homes and the work of repair in Niyamgiri](https://projectodisha.org/stories/dongria/homes-and-repair/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-LEARNING-AND-BELONGING-ROUTE-20261107 | [Learning and belonging in Niyamgiri](https://projectodisha.org/stories/dongria/learning-and-belonging/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-KUVI-AND-JATAPU-SCRIPT-ROUTE-20261107 | [Kuvi and the Jatapu script](https://projectodisha.org/stories/dongria/kuvi-and-jatapu-script/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-SONGS-AND-SINGERS-ROUTE-20261107 | [Songs and singers in Dongria life](https://projectodisha.org/stories/dongria/songs-and-singers/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
+| POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA-ROUTE-20261107 | [Kotpad and Kapadaganda through their makers](https://projectodisha.org/stories/dongria/kotpad-and-kapadaganda/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
