@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *A posed photograph during a market visit, catalogued as “Dangaria women 02” in 2018. It does not document a particular sale or identify the people discussed in this article.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg). Resized; composition unchanged.
-
 Telo Wadaka of Khajuri sold bananas, yams and pineapples at the weekly market in Chatikona, according to Deepanwita Gita Niyogi’s November 2022 reporting. Her journey from farm to market connects two parts of earning a living: growing produce and finding someone to buy it.[^1]
 
 Growers also describe the time spent selling, the effects of losing a buyer and the changes they wanted closer to home.
@@ -43,6 +41,8 @@ Pula Majhi’s long selling day, the unsold forest produce and the later complai
 Markets also appear in the accounts of Kapadaganda makers, who describe buying cloth and thread. Following those materials brings another kind of work into view.
 
 ## Footnotes and sources
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg). Resized; composition unchanged.
 
 [^1]: Deepanwita Gita Niyogi, [Superfood Millets Need Revival at Home](https://www.iwmf.org/reporting/superfood-millets-need-revival-at-home/), The Citizen, reproduced by IWMF, 19 November 2022. Khajuri account. The body spells the name Telo; its photograph caption uses Tela.
 

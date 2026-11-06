@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Seed exchange in a Niyamgiri setting — an interpretive illustration. The figures and exchange are imagined; no seed variety is identified.*
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
-
 In Manipadma Jena’s July 2015 report, Dasara Kadraka of Kadaraguma described her concern about millet varieties disappearing from local fields. Jena described Dongria Kondh priestesses travelling between villages to obtain seeds for cultivation at home. Finding a seed began with finding someone who still grew it.[^1]
 
 A stored seed still needs a grower. Keeping it in use means planting, tending the crop and retaining enough of the harvest for another season.
@@ -49,6 +47,8 @@ Having seed available and choosing to plant it are connected decisions. The earl
 A collection kept for planting and a field given to another crop can exist in the same landscape. These accounts do not establish a current variety count. They show why keeping seed requires continuing relationships: someone must know where it can be found, someone must share it, and someone must make room to plant it.
 
 ## Footnotes and sources
+
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
 
 [^1]: Manipadma Jena, [Tribal Priestesses Become Guardians of Seeds in Eastern India](https://www.ipsnews.net/2015/07/tribal-priestesses-become-guardians-of-seeds-in-eastern-india/), Inter Press Service, 22 July 2015, “An intricate ritual.” Historical reporting; variety-loss recollections are not a botanical inventory.
 

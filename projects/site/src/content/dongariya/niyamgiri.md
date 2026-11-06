@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Cultivated land in the Niyamgiri landscape, photographed in 2018.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Resized; composition unchanged.
-
 Suresh Wadaka explained a slope through the roots of its crops. In an undated study commissioned by Odisha’s Scheduled Castes and Scheduled Tribes Research and Training Institute, he described how shallow and deeper root systems worked differently against soil loss. Their spread and depth mattered when deciding what to plant together.[^1]
 
 The Foundation for Ecological Security’s researchers used interviews and walks in selected villages around Chatikona. Wadaka’s explanation offers one way of understanding cultivated land from the work done upon it; the study records village differences, language barriers and gaps in its seasonal observations.[^1]
@@ -47,6 +45,8 @@ A parliamentary answer in May 2015 records the same outcome, with seven villages
 Wadaka’s explanation of roots and the assemblies’ insistence on recording their claims concern different ways of knowing and speaking for land. People cultivate within this landscape, worship within it and argue about its future. The story now turns to their homes, and the work of keeping a household sheltered.
 
 ## Footnotes and sources
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Resized; composition unchanged.
 
 [^1]: Foundation for Ecological Security, [SCSTRTI-commissioned land and water management study](https://repository.tribal.gov.in/upload/bitstream/123456789/61296/1/SCST_2015_research_0339.pdf), acknowledgement; printed pp. 49–50, 113. The report describes convenience sampling; publication date unverified.
 

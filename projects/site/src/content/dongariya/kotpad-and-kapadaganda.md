@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Release poster for Kotpad Weaving (2018), directed by Biswanath Rath; not a workshop photograph.*
 
-Image: Seven5carrom (Commons contributor). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); [source](https://commons.wikimedia.org/wiki/File:Kotpad_Weaving.jpg). Resized; composition unchanged.
-
 Ram Hial learned weaving from his father in Jhigidi. Kapilo Mahanta’s profile places her work in Kotpad’s Mirgan Street. Following these two practitioners helps distinguish cloth woven as a ground for Dongria embroidery from yarn dyed and patterned at the Kotpad loom.[^1][^3]
 
 ## The cloth from Jhigidi
@@ -39,6 +37,8 @@ Dongria embroidery and Kotpad cotton also shared a promotional platform: RISA’
 Ram Hial learned weaving from his father; embroiderers describe learning from their aunts. Alongside the work of supplying cloth, preparing colour and forming patterns runs the work of passing on knowledge. The next articles turn to students, teachers and the languages through which they learn.
 
 ## Footnotes and sources
+
+Image: Seven5carrom (Commons contributor). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); [source](https://commons.wikimedia.org/wiki/File:Kotpad_Weaving.jpg). Resized; composition unchanged.
 
 [^1]: [Kapdaganda: No coarse cloth for Dongria designs](https://www.newindianexpress.com/states/odisha/2019/Jul/07/kapdaganda-no-coarse-cloth-for-dongria-designs-2000527.html), *The New Indian Express*, 7 July 2019. Dated reporting on Jhigidi and attempted substitute supply; not evidence of present capacity or a Kotpad connection. The interpretation of the women’s response is the author’s.
 

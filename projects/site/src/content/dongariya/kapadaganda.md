@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Fields and wooded hills in Niyamgiri, photographed in 2018. A landscape view of the region discussed here, not a photograph of Kapadaganda cloth.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
-
 Kumri Sikoka began learning embroidery at about nine or ten, taught by her father’s sister. Speaking to Kanak Rajadhyaksha in November 2017, she placed the skill within a family relationship. Other women also credited their *atta*, a paternal aunt.[^1]
 
 A Kapadaganda connects several kinds of work: weaving the cotton, embroidering its surface, and choosing how to wear or give it. “It is our identity,” Sindhe Wadakka of Khajuri told Annapurna Devi Pandey in an account published in April 2026. She related the joining of coloured threads to Kondh people coming together.[^9]
@@ -72,6 +70,8 @@ New markets raise Dinja’s question again. RISA promoted Dongria embroidery and
 Kumri’s learning, Ram Hial’s cloth and Dinja’s question about payment belong to different moments in this history. Together they keep attention on the relationships that make the finished wrap possible: someone teaches, someone weaves, someone stitches, and someone wears or buys the work.
 
 ## Footnotes and sources
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
 
 [^1]: Kanak Rajadhyaksha, [Kapdagondas: Embroidery and Work for Dongariya Kondh Women](https://www.sahapedia.org/kapdagondas-embroidery-and-work-dongariya-kondh-women), Sahapedia. Interviews conducted 8–14 November 2017 with women and development-agency staff. These are historical interview accounts, not current earnings data.
 

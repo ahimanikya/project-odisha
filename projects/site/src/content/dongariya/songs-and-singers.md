@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Public dance performance identified by the photographer as Dongria Khond, photographed in 2018. This is not an identified song, singer or village ceremony.*
 
-Image: Debanutosh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg). Resized; composition unchanged.
-
 Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongariya singers mentoring younger people. Singers and ritual specialists also helped her record songs and stories, then translate and explain them in Odia and English.[^1]
 
 ## Learning songs and their occasions
@@ -47,6 +45,8 @@ Kriti Film Club recalls screening Dash’s film in September 2009 and recommende
 Mishra learned with the help of singers and interpreters. For the students who wrote about Dambu Praska, a recording was also a way of remembering a person. These encounters ask us to keep a voice connected to a person, a language and an occasion. The singer’s name matters as much as the song’s journey.
 
 ## Footnotes and sources
+
+Image: Debanutosh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg). Resized; composition unchanged.
 
 [^1]: Priyadarshini Mishra, [Voices from the Mountain—Oral Tradition among the Dongaria Kondh of Rayagada, Odisha](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_11_2.pdf), *Lokaratna* XI(2), 2018, printed pp. 44–54; field visits and contributors pp. 45–46, song categories pp. 47 and 50. The article combines field observations with secondary descriptions; only the specified fieldwork material is used here. Names follow the printed account.
 

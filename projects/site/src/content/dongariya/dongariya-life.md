@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Fields and hills photographed during a Niyamgiri visit in 2018.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
-
 In Gandili, Singari Jakesika described a change in what her household grew and what she ate. Her husband had increased horticulture to earn more income; less land went to millets, and her own consumption of millet declined as she increasingly ate subsidised rice. Her account appears in Deepanwita Gita Niyogi’s November 2022 reporting.[^4]
 
 That decision brings the landscape close to home. Land can provide food and income, but the balance between them depends partly on who makes the choices. This series follows those choices through cultivation, cloth, homes, learning and song.
@@ -49,6 +47,8 @@ A January 2026 parliamentary reply describes PM JANMAN support covering housing,
 The account of [homes and repair](/stories/dongariya/homes-and-repair/) follows what such totals leave open: whether a house shelters its residents and whether they can maintain it. Singari and Palari’s accounts ask a related question of the fields—what reaches the household, and who has a say? The next account follows land from household cultivation to the village assemblies that spoke about its future.
 
 ## Footnotes and sources
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
 
 [^1]: Sujatarani Dandapat, [Traditional Ecological Knowledge and Continuation of Swidden Cultivation](https://www.arfjournals.com/image/catalog/Journals%20Papers/MII/2021/No.3-4/03.pdf), *Man In India* 101(3–4), 2021, pp. 159–173. Scope and methods pp. 160–161; crops and labour pp. 166–168. Fieldwork in 2017–18, centred on Kurli.
 
