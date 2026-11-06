@@ -5,7 +5,7 @@ description: "Odia narrative, land and reputation; translation metadata retained
 status: "draft"
 updated_at: "2026-10-20T04:49:37.488918+00:00"
 subjects: ["arts"]
-sources: [{"id": "creators-six-acres", "title": "Six Acres and a Third — publisher edition", "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper"}, {"id": "literature-six-acres-eaa", "title": "Teaching colonial India with Six Acres and a Third", "resource": "https://www.educationaboutasia.org/article/id/1629/"}, {"id": "fakir-novel-opening", "title": "Chha Mana Atha Guntha: chapter1 Ramachandra Mangaraj", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ରାମଚନ୍ଦ୍ର_ମଙ୍ଗରାଜ"}, {"id": "fakir-novel-weavers", "title": "Chha Mana Atha Guntha: chapter10 Bhagia and Saria", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ଭଗିଆ_ଆଉ_ସାରିଆ"}, {"id": "fakir-rout2010", "title": "Vyasakavi Fakirmohan Senapati: Leader of Odia Nationalist and Linguistic Movement", "resource": "https://magazines.odisha.gov.in/Orissareview/2010/April/engpdf/14-17.pdf"}, {"id": "fakir-novel-court", "title": "Chha Mana Atha Guntha: Cuttack Sessions Court chapter", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/କଟକ_ସେସନ୍_ଜଜକୋର୍ଟ"}]
+sources: [{"id": "creators-six-acres", "title": "Six Acres and a Third — publisher edition", "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper"}, {"id": "literature-six-acres-eaa", "title": "Teaching colonial India with Six Acres and a Third", "resource": "https://www.educationaboutasia.org/article/id/1629/"}, {"id": "fakir-novel-opening", "title": "Chha Mana Atha Guntha: chapter1 Ramachandra Mangaraj", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ରାମଚନ୍ଦ୍ର_ମଙ୍ଗରାଜ"}, {"id": "fakir-novel-weavers", "title": "Chha Mana Atha Guntha: chapter10 Bhagia and Saria", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ଭଗିଆ_ଆଉ_ସାରିଆ"}, {"id": "fakir-rout2010", "title": "Vyasakavi Fakirmohan Senapati: Leader of Odia Nationalist and Linguistic Movement", "resource": "https://magazines.odisha.gov.in/Orissareview/2010/April/engpdf/14-17.pdf"}, {"id": "fakir-novel-court", "title": "Chha Mana Atha Guntha: Cuttack Sessions Court chapter", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/କଟକ_ସେସନ୍_ଜଜକୋର୍ଟ"}, {"id": "nayak-cornell-cotranslation", "title": "Cornell University · Satya P. Mohanty’s co-translation bibliography", "resource": "https://fmsproject.as.cornell.edu/summer_institute_director.html"}]
 human_review_claimed: false
 ---
 
@@ -51,9 +51,9 @@ Then the narrator pauses: he and his readers are Odia, and the printing letters 
 
 ## An original novel and an English edition
 
-The University of California Press paperback dates from December 2005, ISBN 9780520228832. Its listing credits Rabi Shankar Mishra, Satya Mohanty, Jatindra N. Nayak and Paul St.-Pierre as translators. Those are the publisher’s display names; the date identifies this English edition.
+The University of California Press paperback dates from December 2005, ISBN 9780520228832. The translators are Rabi Shankar Mishra, Satya P. Mohanty, Jatindra K. Nayak and Paul St-Pierre. The date identifies this English edition.
 
-[University of California Press · Six Acres and a Third](https://www.ucpress.edu/books/six-acres-and-a-third/paper)
+[University of California Press · Six Acres and a Third](https://www.ucpress.edu/books/six-acres-and-a-third/paper) · [Co-translator bibliography](https://fmsproject.as.cornell.edu/summer_institute_director.html)
 
 The original Odia publication chronology remains open in the project’s evidence. Peter Samuels’s teaching essay gives 1902; Ramakanta Rout’s historical account gives 1905. Original serial and book imprints have not been examined, so these dates are kept distinct from the translation’s publication date.
 
@@ -89,3 +89,7 @@ The essay prints translator Jatindra K. Nayak where the publisher’s captured d
 ## Original date held ·11October2026
 
 Rout 2010 prints 1905 while the earlier scholarly chronology gives 1902. Neither is silently substituted for the other; original publication events need an imprint or serial issue. The earlier1919 lifetime discrepancy is resolved for the current person profile using the local account and foundation evidence for 1918.
+
+## Credit reconciliation · 3 November 2026
+
+The current credit uses Jatindra K. Nayak, corroborated by Cornell’s co-translator bibliography and original-book frontmatter search excerpts. The earlier publisher-display capture and unresolved-initial notes above are retained as dated research history. The complete original credit page was not available for visual inspection.

@@ -5,10 +5,10 @@ description: "Pratibha Ray — sourced research, relationships and open question
 tags: ["encyclopedia", "people-creations"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T02:25:47-07:00"}
-sources: [{"id": "creators-jnanpith", "title": "Jnanpith laureates — Odia entries", "resource": "https://jnanpith.net/laureates.html?id=3"}, {"id": "literature-spark-text", "title": "Spark of Light — edition and contributor notes", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"}, {"id": "ray-career", "title": "Pratibha Ray · Professional career", "resource": "https://pratibharay.com/professional-career/"}, {"id": "ray-work", "title": "Pratibha Ray · Jajnaseni", "resource": "https://pratibharay.com/jajnaseni/"}, {"id": "ray-adaptations", "title": "Pratibha Ray · Works adapted for screen and stage", "resource": "https://pratibharay.com/works-adopted-for-filmstelevision-dance/"}, {"id": "creators-yajnaseni", "title": "Pradip Bhattacharya · Yajnaseni: The Story of Draupadi", "resource": "https://pradipbhattacharya.com/book/yajnaseni-the-story-of-draupadi/"}, {"id": "literature-ray-loc", "title": "Library of Congress · Pratibha Ray readings and editions", "resource": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/pratibharay.html"}]
+sources: [{"id": "creators-jnanpith", "title": "Jnanpith laureates — Odia entries", "resource": "https://jnanpith.net/laureates.html?id=3"}, {"id": "literature-spark-text", "title": "Spark of Light — edition and contributor notes", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"}, {"id": "ray-career", "title": "Pratibha Ray · Professional career", "resource": "https://pratibharay.com/professional-career/"}, {"id": "ray-work", "title": "Pratibha Ray · Jajnaseni", "resource": "https://pratibharay.com/jajnaseni/"}, {"id": "ray-adaptations", "title": "Pratibha Ray · Works adapted for screen and stage", "resource": "https://pratibharay.com/works-adopted-for-filmstelevision-dance/"}, {"id": "creators-yajnaseni", "title": "Pradip Bhattacharya · Yajnaseni: The Story of Draupadi", "resource": "https://pradipbhattacharya.com/book/yajnaseni-the-story-of-draupadi/"}, {"id": "literature-ray-loc", "title": "Library of Congress · Pratibha Ray readings and editions", "resource": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/pratibharay.html"}, {"id": "ray-purple-pencil", "title": "Jessica Joshi · A writer ought to be a psychologist and a philosopher: Pratibha Ray", "resource": "https://www.purplepencilproject.com/pratibha-ray-interview/"}, {"id": "ring", "title": "Pratibha Ray, The Ring, translated by Bikram K. Das, in Spark of Light (2016), pp. 57–58", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf#page=81"}]
 human_review_claimed: false
 subjects: ["people", "arts"]
-updated_at: "2026-10-20"
+updated_at: "2026-11-03"
 ---
 
 # Pratibha Ray
@@ -27,13 +27,15 @@ AU Press’s 2016 contributor note records a master’s degree in education and 
 
 [The Ring](../works/the-ring.md) — Read this credited English translation alongside the author’s profile; edition date differs from original publication.
 
-## Reading introduction · 20 October 2026
+## Reading introduction · 2 November 2026
 
 Draupadi is walking towards heaven, yet the promised destination troubles her. In Pratibha Ray’s Jajnaseni, the journey gives a woman room to question what her life has meant.
 
 ### A writer’s life in education
 
 Pratibha Ray’s professional account traces a working life from school teaching to Odisha’s government colleges. She took voluntary retirement as a Professor of Education in 1998. That career belongs alongside the novels and stories: it is part of the life behind the writing, though it does not explain every choice a fictional character makes.
+
+Finding a way into print was another part of that working life. Ray recalled that her husband did not want her to wait for a publisher, and together they self-published Varsha Vasanta Baisakha. In the same interview, she remembered readers later asking bookstores for more of her books: a response she traced back to their decision to publish the novel themselves.
 
 ### Draupadi asks what the journey means
 
@@ -55,11 +57,21 @@ Pradip Bhattacharya’s bibliography identifies his English translation as Yajna
 
 The original publication year needs care too. The Library of Congress reading page lists a first Nalanda edition from 1984, while its biographical paragraph gives 1985. Until the original imprint settles that difference, retain the date attached to the particular edition rather than treating either year as an uncontested starting point.
 
+### What an ordinary object can hold
+
+In The Ring, translated by Bikram K. Das, a mother remembers having her silver toe-rings melted into a wedding ring for her son. Years of work have worn the ring thin and erased its engraving. He had cleaned it carefully each morning, trying to spare the metal. The small object carries a family history that its price cannot measure. Ray lets affection and the wear of earning a living meet on one working hand.[^ring]
+
 ### Read with an ear for the voice
 
 The Library of Congress also lists audio excerpts of Ray reading from Yajnaseni and other works. Its Yajnaseni entries are labelled pages 1–3 and 447–451. Those page references offer a way to keep a listening session tied to a text, provided the edition in hand matches the listed copy.
 
 Begin with a short passage. Mark the questions, then notice where the sentences pause and turn. Keep a note of the language, translator and edition. Leave room for the next passage to complicate the first impression.
+
+[Listen to Pratibha Ray: Mokhshya collection excerpt](https://tile.loc.gov/storage-services/service/asian/salrp/salrp_recordings/03009.mp3)
+
+[Literature and Screen](../culture/cinema-series/literature-and-screen.md) — Follow writers, adaptations and the work of bringing books towards new readers.
+
+[^ring]: [Pratibha Ray, The Ring, translated by Bikram K. Das, in Spark of Light (AU Press, 2016), pp. 57–58.](https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf#page=81)
 
 ## Evidence and scope of this revision
 
@@ -68,6 +80,8 @@ Begin with a short passage. Mark the questions, then notice where the sentences 
 - `ray-adaptations` — [Pratibha Ray · Works adapted for screen and stage](https://pratibharay.com/works-adopted-for-filmstelevision-dance/): Author’s adaptation account freshly retrieved and read20October2026: Hema Malini Jajnaseni stage ballet and Mahamoha/Ahalya Odissi ballet. No production dates, performance analysis or current availability inferred.
 - `creators-yajnaseni` — [Pradip Bhattacharya · Yajnaseni: The Story of Draupadi](https://pradipbhattacharya.com/book/yajnaseni-the-story-of-draupadi/): Existing KB source ID reused. Translator bibliography directly read: Rupa1995, English translation by Pradip Bhattacharya, ISBN9788171673230. Does not establish translator of uncredited author-hosted excerpt; no stock/price claim.
 - `literature-ray-loc` — [Library of Congress · Pratibha Ray readings and editions](https://www.loc.gov/acq/overseas-offices/delhi/salrp/pratibharay.html): Existing KB source ID reused. Actual page read: Yajnaseni first Nalanda edition1984 versus biography1985; listed readings pp1–3 and447–451. Linked LCCN retrieval failed; original imprint not inspected. Audio links catalogued only, recordings not auditioned. Historical office description not treated as current.
+
+- `ray-purple-pencil` — [Jessica Joshi · Purple Pencil Project](https://www.purplepencilproject.com/pratibha-ray-interview/): Full interview directly read and reopened in the 2 November 2026 research pass; early-career answer, retained extraction lines 141–143. Author recollection, not independently inspected original imprint, sales ledger or remuneration evidence. Publication date not established; footer year is not an interview date. No company foundation, first-novel chronology, copy totals or film fees adopted. Only this addition was newly reviewed; earlier source inspections retain their dates. Evidence: outputs/pratibha-publishing-20261102/research.json.
 
 Passage-to-source mapping is maintained in [the Pratibha editorial record](../voices/pratibha-editorial.json). The prose interprets a selected English passage; it does not claim that earlier epic traditions gave Draupadi no voice, nor compare the complete novel with a Sanskrit or Odia edition. The audio entries are a catalogue discovery route, not an assertion that the recordings have been listened to or transcribed. No production interview, human literary review or field visit occurred.
 

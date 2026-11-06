@@ -1,6 +1,6 @@
 from pathlib import Path
 from urllib.parse import quote
-import sys,json,re,html,hashlib,datetime,argparse
+import sys,json,re,html,hashlib,datetime,argparse,io
 parser=argparse.ArgumentParser();parser.add_argument("--edition",choices=["digital","print"],default="digital");parser.add_argument("--layout-only",action="store_true");parser.add_argument("--page-map");parser.add_argument("--date",required=True);parser.add_argument("--revision",default="",help="Optional lowercase filename suffix, e.g. intro-revised; isolates PDFs, page maps and render receipts.");parser.add_argument("--artifact-marker-evidence",help="Path to actual coordinator marker receipt; records supplied evidence without independently asserting execution.");args=parser.parse_args();
 if args.revision and not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*",args.revision):parser.error("--revision must contain lowercase letters, digits and single hyphens")
 EDITION_KEY=args.date+("-"+args.revision if args.revision else "");EDITION_DATE=datetime.date.fromisoformat(args.date);DATE_TEXT=EDITION_DATE.strftime("%d %B %Y").lstrip("0");PRINT=args.edition=="print";WIDTH=336 if PRINT else 348
@@ -156,13 +156,15 @@ styles['body-tight']=ParagraphStyle('body-tight',parent=styles['body'],spaceAfte
 styles['body-tail']=ParagraphStyle('body-tail',parent=styles['body'],spaceAfter=4)
 styles['h2-tail']=ParagraphStyle('h2',parent=styles['h2'],spaceBefore=5,spaceAfter=3)
 styles['body-economics']=ParagraphStyle('body-economics',parent=styles['body'],spaceAfter=4)
+styles['body-music']=ParagraphStyle('body-music',parent=styles['body-economics'],spaceAfter=2)
 styles['h2-closing']=ParagraphStyle('h2',parent=styles['h2'],spaceBefore=6,spaceAfter=4)
 styles['odiaquote']=ParagraphStyle('odiaquote',parent=styles['body'],fontName='Odia',fontSize=13,leading=21)
 def para(t,style='body',slug=None,refs=True):
  if style=='h2' and slug in TAIL_SPACING_CHAPTERS:style='h2-tail'
  elif style=='body' and slug in TAIL_SPACING_CHAPTERS:style='body-tail'
  elif style=='h2' and slug in {'cinema-economics','cinema-futures','cinema-music'}:style='h2-closing'
- elif style=='body' and (slug in {'cinema-economics','cinema-music'} or PRINT and slug=='cinema-futures'):style='body-economics'
+ elif style=='body' and slug=='cinema-music':style='body-music'
+ elif style=='body' and (slug=='cinema-economics' or PRINT and slug=='cinema-futures'):style='body-economics'
  elif style=='body' and slug in TIGHT_CHAPTERS|CLOSING_FLOW_CHAPTERS|COMPACT_SPACING_CHAPTERS|TAIL_SPACING_CHAPTERS:style='body-tight'
  if re.match(r'^[“"]?[\u0b00-\u0b7f]',t) and len(re.findall(r'[\u0b00-\u0b7f]',t))>len(re.findall(r'[A-Za-z]',t))*3:return Paragraph(html.escape(norm(t)),styles['odiaquote'])
  return Paragraph(inline(t,slug,refs),styles[style])
@@ -174,9 +176,9 @@ expected_image_frames={(slug,im['source']) for slug,entry in entries.items() for
 if set(image_frames)!=expected_image_frames:raise ValueError('Image layout must match all current source placements')
 class FramedImage(Flowable):
  """Clip only the PDF presentation; retain the complete embedded photograph."""
- def __init__(self,path,width,height,source_ratio,position):
+ def __init__(self,path,width,height,source_ratio,position,zoom=1):
   super().__init__();self.path=str(path);self.width=width;self.height=height;self.hAlign='CENTER'
-  self.draw_width=max(width,height*source_ratio);self.draw_height=self.draw_width/source_ratio
+  self.draw_width=max(width,height*source_ratio)*zoom;self.draw_height=self.draw_width/source_ratio
   self.offset_x=(width-self.draw_width)*position[0]/100
   self.offset_y=(height-self.draw_height)*(1-position[1]/100)
  def draw(self):
@@ -184,11 +186,11 @@ class FramedImage(Flowable):
   c.drawImage(self.path,self.offset_x,self.offset_y,width=self.draw_width,height=self.draw_height,mask='auto');c.restoreState()
 def frame_geometry(path,slug,width,height):
  item=image_frames.get((slug,str(Path(path).relative_to(R))),{});cfg=item.get('book',{})
- if 'width_fraction' in cfg:
-  fraction=cfg['width_fraction']
-  if isinstance(fraction,bool) or not isinstance(fraction,(int,float)) or not 0<fraction<=1:raise ValueError('Image width_fraction must be greater than 0 and at most 1')
-  fw=WIDTH*fraction
- else:fw=min(WIDTH,cfg.get('width_pt') or WIDTH)
+ percent=cfg.get('width_percent',100 if slug=='the-question-that-brought-me-here' or width>height else 85)
+ if isinstance(percent,bool) or percent not in (85,100):raise ValueError('Image width_percent must be 85 or 100')
+ fw=WIDTH*percent/100
+ zoom=cfg.get('zoom',1)
+ if isinstance(zoom,bool) or not isinstance(zoom,(int,float)) or not 1<=zoom<=3 or ('zoom' in cfg and cfg.get('fit')!='cover'):raise ValueError('Image zoom must be finite 1–3 and only configured for cover')
  ratio=cfg.get('ratio');fh=fw*ratio[1]/ratio[0] if ratio else fw*height/width
  return item,fw,fh
 
@@ -226,11 +228,8 @@ def figure(path,caption,slug,hero=False):
   image_credit_notes.append({'number':credit_number,'note_key':credit_key,'slug':slug,'full_credit':full_caption,'displayed_credit':displayed_credit,'description':caption,'source':str(Path(path).relative_to(R))})
  p=Path(path);original=PILImage.open(p);oriented=ImageOps.exif_transpose(original);w,h=oriented.size
  layout,fw,fh=frame_geometry(p,slug,w,h);cfg=layout.get('book',{});cover=cfg.get('fit')=='cover'
- # Keep the whole portrait with the opening in the digital reading edition.
- # The print edition retains its full-width facing portrait page.
- if hero and slug=='the-question-that-brought-me-here' and not PRINT:
-  fw=210;fh=fw*h/w;cover=False
- draw_w=max(fw,fh*w/h) if cover else fw;draw_h=draw_w*h/w;scale=draw_w/w
+ zoom=cfg.get('zoom',1)
+ draw_w=max(fw,fh*w/h)*zoom if cover else fw;draw_h=draw_w*h/w;scale=draw_w/w
  embedded=p if PRINT else delivery.get(str(p.relative_to(R)),p)
  if embedded==p and original.getexif().get(274,1)!=1:
   oriented_dir=TMP/'oriented';oriented_dir.mkdir(exist_ok=True)
@@ -241,10 +240,18 @@ def figure(path,caption,slug,hero=False):
   embedded=print_images/(hashlib.sha256(p.read_bytes()).hexdigest()+f'-{round(draw_w/72*300)}px-300dpi.jpg')
   if not embedded.exists():
    target_w=round(draw_w/72*300);target_h=round(h*target_w/w)
-   oriented.convert('RGB').resize((target_w,target_h),PILImage.Resampling.LANCZOS).save(embedded,quality=94,subsampling=0,optimize=True)
+   resized=oriented.convert('RGB').resize((target_w,target_h),PILImage.Resampling.LANCZOS)
+   encoded=io.BytesIO()
+   try:resized.save(encoded,format='JPEG',quality=94,subsampling=0,optimize=True)
+   except OSError as error:
+    if 'broken data stream when writing image file' not in str(error):raise
+    # Some detailed scans exceed Pillow's optimized JPEG buffer. Keep the
+    # same quantization and chroma sampling; only skip Huffman optimization.
+    encoded=io.BytesIO();resized.save(encoded,format='JPEG',quality=94,subsampling=0,optimize=False)
+   embedded.write_bytes(encoded.getvalue())
  ew,eh=PILImage.open(embedded).size
- im=Spacer(fw,fh) if args.layout_only else FramedImage(embedded,fw,fh,w/h,cfg.get('position',[50,50])) if cover else Image(str(embedded),width=fw,height=fh);im.hAlign='CENTER'
- images.append({'embedded_file':str(embedded.relative_to(R)),'embedded_sha256':hashlib.sha256(embedded.read_bytes()).hexdigest(),'embedded_pixels':[ew,eh],'effective_dpi':min(ew/(w*scale/72),eh/(h*scale/72)),'chapter':slug,'source':str(p.relative_to(R)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'width':w,'height':h,'placed_width_pt':fw,'placed_height_pt':fh,'image_draw_width_pt':draw_w,'image_draw_height_pt':draw_h,'layout_family':layout.get('family','existing'),'display_crop':cover,'crop_position':cfg.get('position') if cover else None,'role':entries[slug].get('hero',{}).get('kind','illustration') if hero else 'documentary','caption':caption,'full_credit':full_caption,'credit_number':credit_number})
+ im=Spacer(fw,fh) if args.layout_only else FramedImage(embedded,fw,fh,w/h,cfg.get('position',[50,50]),zoom) if cover else Image(str(embedded),width=fw,height=fh);im.hAlign='CENTER'
+ images.append({'embedded_file':str(embedded.relative_to(R)),'embedded_sha256':hashlib.sha256(embedded.read_bytes()).hexdigest(),'embedded_pixels':[ew,eh],'effective_dpi':min(ew/(w*scale/72),eh/(h*scale/72)),'chapter':slug,'source':str(p.relative_to(R)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'width':w,'height':h,'placed_width_pt':fw,'placed_height_pt':fh,'image_draw_width_pt':draw_w,'image_draw_height_pt':draw_h,'layout_family':layout.get('family','existing'),'display_crop':cover,'display_zoom':zoom if cover else 1,'crop_position':cfg.get('position') if cover else None,'role':entries[slug].get('hero',{}).get('kind','illustration') if hero else 'documentary','caption':caption,'full_credit':full_caption,'credit_number':credit_number})
  caption_flow=para(caption,'caption',slug)
  if credit_number:
   credit_space='&#160;' if layout and fw<WIDTH else ' '
@@ -414,7 +421,7 @@ def append_line_art(ident,slug):
  item=matches[0]
  if not re.fullmatch(r'kb/media/cinema-series/literature-care-20261030/[a-z0-9-]+\.png',item['image']):raise ValueError('Invalid line-art source')
  p=R/item['image'];iw,ih=ImageOps.exif_transpose(PILImage.open(p)).size
- width=float(item.get('width_pt',144))
+ width=float(item.get('print_width_pt',item.get('width_pt',144)) if PRINT else item.get('width_pt',144))
  if not 48<=width<=240:raise ValueError('Invalid line-art width')
  scale=min(width/iw,90/ih,1);w,h=iw*scale,ih*scale
  flow=[Spacer(1,12),Image(str(p),width=w,height=h,hAlign='CENTER')]
@@ -656,6 +663,15 @@ for index,slug in enumerate(order,1):
   if candidate and all(isinstance(f,Paragraph) for f in candidate):
    height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in candidate)
    if height<=300:story[start:end]=[KeepTogether(candidate)]
+ # Keep the print music chapter's final thought whole, without further compression.
+ if PRINT and slug=='cinema-music':
+  for count in (2,1):
+   candidate=story[-count:]
+   if all(isinstance(f,Paragraph) and f.style.name=='body-music' for f in candidate):
+    height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in candidate)
+    if height<=300:
+     print('Music closing group height:',height,'paragraphs:',count,flush=True)
+     story[-count:]=[KeepTogether(candidate)];break
  for vignette in book_tail_vignettes:
   if vignette['slug']==slug:story.append(TailVignette(vignette))
  chapters.append({'slug':slug,'source':a['source'],'source_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'book_body_sha256':hashlib.sha256(body.encode()).hexdigest(),'adaptation':'shortened opening; remaining survey in companion appendix' if slug=='odia-cinema' and narrative.get('overview') else 'canonical narrative with separately recorded reading aids','paragraphs':paragraphs,'notes':len(notes[slug])})
@@ -713,10 +729,20 @@ if narrative.get('people_guide') or narrative.get('timeline'):
  if narrative.get('timeline'):
   milestone_start=len(story)
   story.append(para('Selected milestones','h2'));story.append(para('Dates mark different kinds of events; releases, awards, institutions and restorations are identified separately.','small'))
+  milestone_tail_start=None
   for index,item in enumerate(narrative['timeline']):
+   if len(narrative['timeline'])>=4 and index==len(narrative['timeline'])-3:
+    milestone_tail_start=len(story)
    guide_entry(item,str(item['date'])+' · '+item['kind'].replace('-',' ').capitalize())
    if index==0:
     story[milestone_start:]=[KeepTogether(flatten_flows(story[milestone_start:]))]
+  # Avoid a lone final milestone; group only a comfortably sized closing trio.
+  if milestone_tail_start is not None:
+   closing=flatten_flows(story[milestone_tail_start:])
+   height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in closing)
+   if height<=300:
+    story[milestone_tail_start:]=[KeepTogether(closing)]
+    print('Milestone closing group height:',height,'entries:',3,flush=True)
 # Linked chapter-grouped endnotes
 story.append(PageBreak());h=para('Sources and reading notes','chapter');h.bookkey='sources';h.booktitle='Sources and reading notes';story.append(h)
 story.append(para('Numbered notes give sources and image credits, grouped by chapter. Full source links accompany the articles at projectodisha.org/cinema.' if PRINT else 'Numbered notes give sources and image credits. Return links lead to the cited passages.','small'))
@@ -737,7 +763,9 @@ if PRINT:
   source_row=LongTable([[Paragraph('<b>S'+str(n)+'.</b>',styles['source-address']),Paragraph(html.escape(quote(url,safe=':/?&=%#')),styles['source-address'])]],colWidths=[36,WIDTH-36],hAlign='LEFT')
   source_row.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(0,-1),6),('RIGHTPADDING',(1,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),3)]))
   story.append(source_row)
-story.extend([Spacer(1,20),CondPageBreak(130)]);h=para('Edition note','chapter');h.bookkey='credits';h.booktitle='Edition note';story.append(h)
+story.append(Spacer(1,20))
+edition_note_start=len(story)
+h=para('Edition note','chapter');h.bookkey='credits';h.booktitle='Edition note';story.append(h)
 story.append(para('Cover illustration: a symbolic reading of the household world associated with Maya Miriga; not a film still. Cover artwork and design are credited to Project Odisha.','small'))
 for p in ['Image sources and available creator and licence credits appear in the numbered notes. Original line drawings accompany selected passages.',f'{len(order)} readings in {len(plan["parts"])} parts. The longer overview appears in the companion survey. Suggestions and corrections are welcome through [Project Odisha](https://projectodisha.org/cinema/).','Typography: Source Serif 4 and Noto Serif Oriya, licensed under the SIL Open Font License.','[Editorial process](https://projectodisha.org/about/editorial-process/).',f'Ahimanikya Satapathy · Project Odisha · {DATE_TEXT}.']:
  if PRINT and '[Project Odisha](https://projectodisha.org/cinema/)' in p:
@@ -745,6 +773,8 @@ for p in ['Image sources and available creator and licence credits appear in the
   story.append(Paragraph(inline(p,print_address=False),styles['small']))
  else:story.append(para(p,'small'))
 if PRINT:story.append(para('Printing: 6 x 9 inch pages, no bleed. Print at 100% on 6 x 9 inch stock, or ask a print shop to impose and trim to this size. For duplex printing use the long-edge setting. Mirrored inner margins allow binding space. This reading edition is not a printer-specific press-ready, CMYK or PDF/X file. The final blank verso, if present, keeps the page count even.','small'))
+# Keep the complete short colophon together, including its final dateline.
+story[edition_note_start:]=[KeepTogether(story[edition_note_start:])]
 doc=Book(str(OUT),pagesize=(432,648),title='Odia Cinema: A Living Screen',author='Ahimanikya Satapathy',subject='Stories, People and the Places Between',allowSplitting=1)
 if len(line_art_placements)!=len(narrative.get('line_art',[])):raise ValueError('Unresolved line-art placements; check section headings and article slugs')
 if any(count!=1 for count in section_matches.values()):raise ValueError('Discovery sections must appear exactly once: '+repr(section_matches))

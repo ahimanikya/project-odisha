@@ -1,0 +1,114 @@
+{
+  "id": "POD-RES-SIKSHASANDHAN-20261103",
+  "date": "2026-11-03",
+  "status": "reviewed_local_revision",
+  "purpose": "Follow the institutional collecting work named by Jatindra K. Nayak with a specific cinema-related publication and provision for readers.",
+  "reuse": [
+    "research/people/jatindra-k-nayak.md",
+    "research/culture/cinema-series/reading-odia-cinema.md",
+    "outputs/nayak-profile-20261103/source-captures/printweek-visible-excerpts.json"
+  ],
+  "sources": [
+    {
+      "id": "siksha-library",
+      "url": "https://www.sikshasandhan.org/library.php",
+      "inspection": "Fresh direct full page text read",
+      "locator": "lines49-52",
+      "claims": "Institution describes a library covering literature, biographies and other subjects; free access for scholars, researchers, teachers and students; children’s Odia/English books and storytelling sessions.",
+      "limits": "Undated institutional self-description, not independently observed access or session attendance. Does not identify a particular original publication or preserved old textbook.",
+      "budget_words": 70
+    },
+    {
+      "id": "siksha-resource",
+      "url": "https://www.sikshasandhan.org/resource.php",
+      "inspection": "Fresh direct text read",
+      "locator": "lines43-55",
+      "claims": "Resource-centre description lists story-development and storytelling workshops alongside teacher training and contextual learning materials.",
+      "limits": "Programme description, not proof of outcomes, individual Nayak involvement or film archive.",
+      "budget_words": 40
+    },
+    {
+      "id": "siksha-governance",
+      "url": "https://www.sikshasandhan.org/governance.php",
+      "inspection": "Fresh direct text read",
+      "locator": "lines50-55",
+      "claims": "Governing-body page lists Jatindra Kumar Nayak as chairman and former Utkal English professor.",
+      "limits": "Undated institutional roster. Stronger than inferring current office from2021 interview, but no appointment chronology. Optional, not essential to reader narrative.",
+      "budget_words": 25
+    },
+    {
+      "source_id": "sikshasandhan-book-list",
+      "url": "https://www.sikshasandhan.org/siksha_panel/pdf/Pic_01072023125123651.pdf",
+      "discovery": "Book List link on official https://www.sikshasandhan.org/publication.php",
+      "access": "Browser downloadMedia on observed Book List link succeeded after direct web/curl failures. File copied unchanged.",
+      "sha256": "f7b3d22542daf436d7d1e5798f2ffadf0837b99853fc8c79c7ef1bdecab78291",
+      "pages": 6,
+      "visual_inspection": [
+        "PDF2 title row48: Nijaswa Chitranatya Smrutipatha(Autobiography)",
+        "PDF5 matching fifth author row: Sarat Chandra Pujari; corresponding row position and adjacent row order compared."
+      ],
+      "limits": [
+        "Catalogue is undated internally; URL timestamp not treated as publication year.",
+        "Six-page table exported in split columns: titles on1–3, author/price columns on4–6. Record exact pairing.",
+        "List price not evidence of current availability, sales, rights income or author compensation.",
+        "Publisher catalogue is inspected, not original autobiography title/imprint or full text.",
+        "No evidence Nayak personally edited, translated or published this title."
+      ],
+      "independent_corroboration_reused": "Existing reading-odia-cinema.md cites OdishaCulture2015–16selectionentry130 for Pujari NijaswaChitranatya firstedition2015/SikshyaSandhan; no new originalbookinspection."
+    }
+  ],
+  "access_history": [
+    {
+      "url": "https://www.sikshasandhan.org/publication.php",
+      "inspection": "Fresh direct page read; Book List link observed",
+      "target": "https://www.sikshasandhan.org/siksha_panel/pdf/Pic_01072023125123651.pdf",
+      "result": "Web cache miss. Ordinary local curl first failed DNS; approved-network curl returned403. No catalogue bytes or original pages inspected. Root informed and separately pursuing this link."
+    },
+    {
+      "url": "https://www.sikshasandhan.org/annual_report.php",
+      "inspection": "Fresh direct report-index page read",
+      "targets": [
+        "https://www.sikshasandhan.org/siksha_panel/pdf/Pic_06012026082857938.pdf",
+        "https://www.sikshasandhan.org/siksha_panel/pdf/Pic_07112025071602911.pdf"
+      ],
+      "labels": [
+        "Annual Report2024-2025",
+        "Annual Report2021-2022"
+      ],
+      "result": "Both web cache miss; report contents not inspected."
+    },
+    {
+      "url": "https://www.sikshasandhan.org/siksha_panel/pdf/Pic_09112024201642159.php",
+      "inspection": "Publication index link labelled fdfdfdf",
+      "result": "Web cache miss; no title or contents inferred."
+    },
+    {
+      "url": "https://www.sikshasandhan.org/tlm.php",
+      "inspection": "Observed Teaching Learning Material menu link",
+      "result": "Web fetch error; no sample inspected."
+    }
+  ],
+  "access_resolution": "The coordinator subsequently downloaded Book List through the ordinary browser. Six pages were retained and PDF pages 2 and 5 visually inspected. Earlier researcher 403/cache misses remain true for those attempts; the autobiography itself remains unread.",
+  "findings": [
+    {
+      "claim": "Official publisher list row48 names NijaswaChitranatyaSmrutipatha(Autobiography), matchingauthorcolumn SaratChandraPujari.",
+      "evidence": "Originalpublishercatalogue PDF2/5; a pre-existinggovernmentselectioncitation is reused independentbibliography."
+    },
+    {
+      "claim": "Library describes Odia/Englishchildrenbooks andstorytellingsessions.",
+      "evidence": "Institution ownundatedlibrarypage; no attendance/accessindependent observation."
+    }
+  ],
+  "public_decision": "Add 56 words and one compact note to the existing Nayak companion after its institutional paragraph. Change the following pronoun he to Nayak to avoid ambiguity after mentioning Pujari. No new institution page or book chapter; preserve the portrait and all other prior prose.",
+  "limits": [
+    "A book collection does not establish a film archive.",
+    "A publisher listing does not establish that the library holds this memoir.",
+    "The autobiography’s original title page and text remain uninspected; no new edition date, stock, price, sales or compensation claim.",
+    "No claim that Nayak personally edited or translated Pujari’s book.",
+    "The undated governance page names Nayak as chairman; this office was not needed for the narrative and is omitted."
+  ],
+  "handoff": "records/cinema-sikshasandhan-2026-11-03.json",
+  "publication": false,
+  "human_approval_claimed": false,
+  "next_action": "Seek the original title/imprint and a legally accessible contents page or excerpt of Sarat Chandra Pujari’s Nijaswa Chitranatya / Nijaswa Chitranatya Smrutipatha. Reuse the verified Sikshasandhan catalogue and existing government bibliography; reconcile title wording before treating entries as distinct works. A specific memoir recollection may enrich an existing cinema story if its text can be inspected. Do not infer sales, payment, library holdings or Nayak’s involvement. No new generic biography or repeat search of parked credit/audio gaps."
+}

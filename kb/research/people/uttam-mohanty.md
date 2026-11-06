@@ -8,6 +8,7 @@ research_date: "2026-10-31"
 human_review_claimed: false
 series_intro: "An actor remembered through shared work: improving a shot, working with others and helping another person continue."
 sources: [{"id":"uttam-colleagues2025","resource":"https://www.newindianexpress.com/cities/bhubaneswar/2025/Mar/01/versatile-guiding-light-affable-ollywood-remembers-the-titan"},{"id":"uttam-bijay2020","resource":"https://timesofindia.indiatimes.com/entertainment/events/bhubaneswar/uttam-mohanty-remembers-bygone-days-with-elder-brother-bijay-mohanty/articleshow/77089243.cms"},{"id":"uttam-craft2025","resource":"https://timesofindia.indiatimes.com/city/bhubaneswar/odia-superstar-who-brought-romance-mythological-legends-to-life/articleshow/118633786.cms"}]
+hero_image: "../media/cinema-series/portrait-refresh-2026-11-05/uttam-mohanty-younger-set-20261105.jpg"
 ---
 
 # Uttam Mohanty: The Work Beside the Performance

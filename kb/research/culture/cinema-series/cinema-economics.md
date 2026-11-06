@@ -3,11 +3,11 @@ type: "Cinema History"
 title: "What Makes the Next Film Possible"
 description: "Odia cinema economics: the financing of Maya Miriga, Bou Buttu Bhuta’s reported box-office success, screens, studios and streaming."
 status: "draft"
-research_date: "2026-10-31"
+research_date: "2026-11-05"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-sources: [{"id": "eco-maya-finance", "resource": "https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema"}, {"id": "eco-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "eco-ofdc", "resource": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang"}, {"id": "eco-kalinga", "resource": "https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum"}, {"id": "eco-private", "resource": "https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute"}, {"id": "audience-mobile-das", "resource": "https://odishapostepaper.com/uploads/epaper/2020-07/5f2306de2891c.pdf"}, {"id": "audience-fsb-parija", "resource": "https://www.edexlive.com/breaking/2018/Jul/20/how-the-film-society-of-bhubaneswar-continues-to-bring-good-cinema-to-odishas-youngsters-3459.html"}]
-hero_image: "../../media/cinema-series/human-natural-2026-10-26/cinema-economics.png"
+sources: [{"id": "eco-maya-finance", "resource": "https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema"}, {"id": "eco-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "eco-ofdc", "resource": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang"}, {"id": "eco-kalinga", "resource": "https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum"}, {"id": "eco-private", "resource": "https://indiacinehub.gov.in/index.php/location/states-union-territories/ffo-filmic-facilities/mute-entertainment-private-limited-mute"}, {"id": "audience-mobile-das", "resource": "https://odishapostepaper.com/uploads/epaper/2020-07/5f2306de2891c.pdf"}, {"id": "audience-fsb-parija", "resource": "https://www.edexlive.com/breaking/2018/Jul/20/how-the-film-society-of-bhubaneswar-continues-to-bring-good-cinema-to-odishas-youngsters-3459.html"}, {"id": "darai-films", "resource": "https://www.lipikasinghdarai.com/films"}, {"id": "school-cinema-producer", "resource": "https://www.newindianexpress.com/bengaluru/2017/May/03/citys-movie-lessons-win-national-honour-1600687.html"}, {"id": "school-cinema-about", "resource": "https://schoolcinema.lxl.in/about-us"}]
+hero_image: "../../media/cinema-series/photographs-expansion-2026-11-05/cinema-economics-kalinga-3-20261105b.jpg"
 series_intro: "Follow the money behind the screen: film finance, reported box-office success and the conditions for making another film."
 series_position: 12
 series_part: "Making the Next Film Possible"
@@ -37,7 +37,11 @@ For **Lokanath Das**, bringing a film to viewers could mean a boat journey. In a
 
 A different route into organising appears in **Abhishek Parija’s** account of the Film Society of Bhubaneswar. He joined its core team after submitting his own film to its festival. At Ravenshaw, he helped a junior and friends establish a film society. A July 2018 report records their screening of Spike Lee’s *Do the Right Thing* on 18 July. Parija described screenings followed by conversation, with attention to a film’s wider context.[^audience-fsb-parija]
 
-Das’s journeys and Parija’s organising bring me back to the question raised in my conversation with the *DAMaN* team: how does a good film reach people? Here are two specific ways people have tried. Transport, a venue, permission and working equipment still need to be arranged; so does the time of the people putting on the show. A public information programme, a film society and a commercial theatre must each find a way to meet those costs.
+*The Waterfall* was made by [Lipika Singh Darai](../../people/lipika-singh-darai.md) for LXL Ideas’ School Cinema. Shot around Khandadhar and the nearby forests of Sundergarh, it has English and Hindi versions.[^school-film]
+
+In a 2017 account, producer Syed Sultan Ahmed described choosing themes and selecting stories offered by independent filmmakers and scriptwriters. School Cinema describes screenings followed by discussion and workbook or digital activities, delivered by teachers with LXL training and support.[^school-cinema-model] For an Odia counterpart, makers and education partners could agree on a story, its language, payment and screening terms before production begins.
+
+Das’s journeys, Parija’s organising and the school programme bring me back to the question raised in my conversation with the *DAMaN* team: how does a good film reach people? Here are three specific routes. Transport, a venue, permission and working equipment still need to be arranged; so does the time of the people putting on the show. A public information programme, a film society, a school programme and a commercial theatre must each find a way to meet those costs.
 
 ## Support is more than a building
 
@@ -54,6 +58,9 @@ The [literature reading](/cinema/literature-and-screen/#what-returned-to-the-wri
 The [final reading](cinema-futures.md) begins from these unfinished questions: what can writers, filmmakers and audiences make possible together, and what would let them continue?
 
 ## Footnotes & Sources
+
+[^school-film]: Lipika Singh Darai, [*The Waterfall*, official filmography](https://www.lipikasinghdarai.com/films).
+[^school-cinema-model]: Akhila Damodaran, [“City’s movie lessons win national honour,” The New Indian Express, 4 May 2017](https://www.newindianexpress.com/bengaluru/2017/May/03/citys-movie-lessons-win-national-honour-1600687.html); School Cinema, [programme description](https://schoolcinema.lxl.in/about-us).
 
 [^eco-maya-finance]: The New Indian Express, “Maya Miriga is Nirad’s gift to Odia cinema,” 22 September 2024. Sabita Mohanty’s Rs 4 lakh loan recollection; total budget unspecified. [Read source](https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema).
 

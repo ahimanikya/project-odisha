@@ -1,0 +1,135 @@
+{
+  "id": "POD-CINEMA-BEST-PICTURES-20261105",
+  "date": "2026-11-05",
+  "status": "reviewed_local_image_selection",
+  "purpose": "Recover authentic visual evidence for illustrated biographies and film chapters, with specific, unique placements.",
+  "authorization": [
+    "Founder: Let’s get the best pictures we can without worrying about copyright.",
+    "Founder: approved."
+  ],
+  "publications_changed": false,
+  "gallery": "outputs/cinema-best-pictures-20261105/index.html",
+  "source_packets": {
+    "outputs/cinema-best-pictures-20261105/writer-candidates.json": "ce7a3f2750456f4a604c98fce63e87b4196e9d6ca82b702d312badd8c0821825",
+    "outputs/cinema-best-pictures-20261105/film-candidates.json": "0c7063c71f583b71dc993258c6ad56d64dad42d0f967d2ec9e49ff7dc633ead7",
+    "outputs/cinema-best-pictures-20261105/upgrades.json": "a7c10acc4f83036710fc57c74899a9218276273b3afa333996cc11dc63c19aa9",
+    "outputs/cinema-best-pictures-20261105/stills-candidates.json": "9d5da76aa179ccd8705b9c2a21a96162932139b61e8a581e8ff28ef33b4bdd1f",
+    "outputs/cinema-best-pictures-20261105/pramod-upgrade.json": "c810d19afd26456e7252836ac67be1970108e6a0beb6add25ccc10e142157564",
+    "outputs/cinema-best-pictures-20261105/inventory.json": "6c26445a40f35d9fcae6e23f9704e25ca87ae3024391e948e4cc823f43e513d0"
+  },
+  "selected_placements": [
+    {
+      "article": "manglu-charan-biswal",
+      "file": "outputs/cinema-best-pictures-20261105/writers/manglu-hachette.jpg",
+      "type": "portrait",
+      "placement": "Strong original; retain existing border."
+    },
+    {
+      "article": "kalindi-charan-panigrahi",
+      "file": "outputs/cinema-best-pictures-20261105/writers/kalindi-amarujala.jpg",
+      "type": "portrait",
+      "placement": "Modest display; government crop is the same underlying photograph."
+    },
+    {
+      "article": "basanta-kumari-patnaik",
+      "file": "outputs/cinema-best-pictures-20261105/writers/basanta-usawa-original.webp",
+      "type": "small_portrait",
+      "placement": "225px source; retain small scale."
+    },
+    {
+      "article": "gour-prasad-ghose",
+      "file": "outputs/cinema-best-pictures-20261105/film/gour-maa.jpg",
+      "type": "archival_portrait",
+      "placement": "Retain standing figure and complete frame."
+    },
+    {
+      "article": "uttam-mohanty",
+      "file": "outputs/cinema-best-pictures-20261105/upgrades/uttam-air.jpg",
+      "type": "portrait",
+      "placement": "600px source; restrained article and book placement."
+    },
+    {
+      "article": "pramod-pati",
+      "file": "outputs/cinema-best-pictures-20261105/film/pramod-arcurea.jpg",
+      "type": "small_portrait",
+      "placement": "250px source; larger original not recovered."
+    },
+    {
+      "article": "manmohan-mahapatra",
+      "file": "outputs/cinema-best-pictures-20261105/upgrades/manmohan-indianexpress.jpg",
+      "type": "portrait_candidate",
+      "placement": "Source is grainy and tightly cropped; larger pixels do not establish more optical detail."
+    },
+    {
+      "article": "parbati-ghose",
+      "file": "outputs/cinema-best-pictures-20261105/film/gour-parbati-maa.jpg",
+      "type": "contextual_photograph",
+      "placement": "Supports collaboration, not an isolated portrait replacement."
+    },
+    {
+      "article": "maya-miriga",
+      "file": "outputs/cinema-best-pictures-20261105/stills/maya-family-still.jpg",
+      "type": "film_still",
+      "placement": "Prefer as landscape hero; preserve whole scene."
+    },
+    {
+      "article": "who-keeps-a-film-alive",
+      "file": "outputs/cinema-best-pictures-20261105/stills/maya-film-repair.jpg",
+      "type": "archive_photograph",
+      "placement": "Preservation chapter; material evidence of film cans, not a fictional scene."
+    },
+    {
+      "article": "who-keeps-a-film-alive",
+      "file": "outputs/cinema-best-pictures-20261105/stills/maya-restoration-comparison.png",
+      "type": "restoration_comparison",
+      "placement": "Supporting pair; preserve complete before/after source composition."
+    },
+    {
+      "article": "nirad-mohapatra",
+      "file": "outputs/cinema-best-pictures-20261105/stills/maya-on-set.jpg",
+      "type": "production_photograph",
+      "placement": "Supporting photograph beside making-of account; no individual names inferred."
+    },
+    {
+      "article": "daman",
+      "file": "outputs/cinema-best-pictures-20261105/stills/daman-colleagues.png",
+      "type": "film_frame",
+      "placement": "Fictional performed scene; not evidence of real programme outcomes."
+    },
+    {
+      "article": "pratikshya",
+      "file": "outputs/cinema-best-pictures-20261105/stills/pratikshya-still-b.jpeg",
+      "type": "production_photograph",
+      "placement": "Collaborative production context; do not label as finished film still."
+    }
+  ],
+  "deferred": [
+    {
+      "article": "gopal-chhotray",
+      "file": "outputs/cinema-best-pictures-20261105/upgrades/gopal-site.jpg",
+      "reason": "Site context identifies subject but site ownership and individual caption not established; preserve existing LOC portrait until further confirmation."
+    }
+  ],
+  "quality_limits": [
+    "Basanta and Pramod remain small archival images; no synthetic detail generated.",
+    "Manmohan candidate remains visibly grainy despite larger dimensions.",
+    "Kalindi preferred and government alternative are the same underlying photo; never assign them to different articles as unique images.",
+    "Pratikshya photographs document production; DAMaN frames depict acted scenes.",
+    "Known source notices and unknown photographers retained in source packets; no licence or public-domain claim inferred.",
+    "No full series image replacement, public release or new book proof in this image-acquisition pass."
+  ],
+  "tool_limits": [
+    {
+      "action": "Run modern-web-guidance npx helper",
+      "result": "Automatic approval review rejected download/execution of unverified third-party package. Not retried. Official MDN and local patterns used."
+    },
+    {
+      "action": "Open local gallery file in in-app browser",
+      "result": "Browser URL policy rejected file protocol. No alternate-surface or local-server workaround attempted. Rendered browser layout not verified."
+    }
+  ],
+  "quality_review": "outputs/cinema-best-pictures-20261105/quality-review.json",
+  "quality_review_sha256": "59d94c68fdf984f951dd769ec101f70215d8ac26fba693630f6ce2de03f1d011",
+  "outcome": "Collected27 photograph/still candidates and prepared a23-image visual selection. Six currently illustrated biographies now have source-identified real-photo candidates; Basanta and Pramod remain small. Fourteen suggested placements across13 articles preserve unique assets, with Gopal deferred for stronger provenance. Film stills, production photographs and restoration evidence remain distinct. All23 gallery images independently viewed; dimensions, file hashes and local links checked. Seventy protected article/data/book files unchanged. Browser rendering could not be verified because file URLs were blocked. No article installation or publication.",
+  "next_action": "Install the reviewed stronger portraits sequentially, starting with Manglu, Kalindi, Gour and Uttam; review each article and book placement. Use small archival treatment for Basanta/Pramod and compare Manmohan without further cropping. Then place unique Maya Miriga, DAMaN, Pratikshya and preservation photographs. Keep Gopal deferred; no repeated exhausted portrait search without a new source. Browser layout check remains outstanding."
+}

@@ -1,0 +1,124 @@
+{
+  "id": "POD-CINEMA-MAYA-FAMILY-20261102",
+  "date": "2026-11-02",
+  "authorization": "Founder: Continue the research",
+  "status": "reviewed_local_candidates",
+  "coordinator": "Disha",
+  "active_article": null,
+  "scope": "Integrate reviewed collaborator evidence into Maya Miriga and rebuild both local book editions.",
+  "reuse": [
+    "records/cinema-maya-collaborators-research-2026-11-02.json",
+    "outputs/maya-collaborators-research-20261102/review.json"
+  ],
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": [
+        "outputs/cinema-maya-family-20261102/source-check.json"
+      ],
+      "status": "scope_released_after_completed_work"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "kb/research/culture/cinema-series/maya-miriga.md",
+        "outputs/cinema-maya-family-20261102/implementation.json"
+      ],
+      "status": "scope_released_after_completed_work"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": [
+        "outputs/cinema-maya-family-20261102/review.json"
+      ],
+      "status": "scope_released_after_completed_work"
+    }
+  ],
+  "boundaries": [
+    "One article; preserve other work, existing images and credits.",
+    "No publishing, merge, outreach or purchases.",
+    "Do not infer individual producer credit, royalty, financing or sole restoration authorship."
+  ],
+  "publication_performed": false,
+  "programme_progress_credit": 0,
+  "input_snapshot": "outputs/cinema-maya-family-20261102/input-hashes.json",
+  "visual_finding": "Digital page86 stranded the second citation of a duplicate cast-role reference on a new line. Retain the supporting Bologna reference and Alanen on the following review paragraph; no prose deletion.",
+  "source_sha256": "d3ec890f2e447652e6b475e8a89364c662022d0980fd5ed40757e6201840b88e",
+  "book_candidates": [
+    {
+      "edition": "digital",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-02-maya-family.pdf",
+      "pdf_sha256": "51509a3489eeaf87ecacdd13807e23bf76598b8b9f1e109609d95f1d4434f8b2",
+      "pages": 247,
+      "notes": 450,
+      "all_pages_rendered": true,
+      "chapter_page_references_stable": true,
+      "image_layout_sha256": "ea650ba84fe731b9b8908a81687349b23977bd4d1336831962c61c9b429f8c03",
+      "receipt": "tmp/pdfs/2026-11-02-maya-family/digital/book-build-2026-11-02-maya-family.json",
+      "sources": 50,
+      "source_bindings_verified": true,
+      "figures": 56,
+      "image_credits": 31,
+      "maya_source": {
+        "slug": "maya-miriga",
+        "source": "kb/research/culture/cinema-series/maya-miriga.md",
+        "source_sha256": "d3ec890f2e447652e6b475e8a89364c662022d0980fd5ed40757e6201840b88e",
+        "book_body_sha256": "73fdc7c4350cc5088038db62fe2a3d44087f081397ed5952356666ac18d5db54",
+        "adaptation": "canonical narrative with separately recorded reading aids",
+        "paragraphs": 17,
+        "notes": 10
+      },
+      "affected_narrative_pages": [
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "edition": "print",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-02-maya-family.pdf",
+      "pdf_sha256": "f40e2b1efda0171c9015103822dd5bd0eebd123d77be94082ba40087b5892301",
+      "pages": 258,
+      "notes": 450,
+      "all_pages_rendered": true,
+      "chapter_page_references_stable": true,
+      "image_layout_sha256": "ea650ba84fe731b9b8908a81687349b23977bd4d1336831962c61c9b429f8c03",
+      "receipt": "tmp/pdfs/2026-11-02-maya-family/print/book-build-2026-11-02-maya-family.json",
+      "sources": 50,
+      "source_bindings_verified": true,
+      "figures": 56,
+      "image_credits": 31,
+      "maya_source": {
+        "slug": "maya-miriga",
+        "source": "kb/research/culture/cinema-series/maya-miriga.md",
+        "source_sha256": "d3ec890f2e447652e6b475e8a89364c662022d0980fd5ed40757e6201840b88e",
+        "book_body_sha256": "73fdc7c4350cc5088038db62fe2a3d44087f081397ed5952356666ac18d5db54",
+        "adaptation": "canonical narrative with separately recorded reading aids",
+        "paragraphs": 17,
+        "notes": 10
+      },
+      "affected_narrative_pages": [
+        86,
+        87,
+        88,
+        89
+      ]
+    }
+  ],
+  "review": {
+    "status": "independent_scoped_content_and_pdf_pass",
+    "receipt": "outputs/cinema-maya-family-20261102/review.json",
+    "human_approval": false
+  },
+  "integration_record": "outputs/cinema-maya-family-20261102/integration.json",
+  "validation_record": "outputs/cinema-maya-family-20261102/validation.json",
+  "public_changes": "Local article and book candidates only; no live changes",
+  "deployment_required": false,
+  "deployment_reason": "Local reviewed candidates; no new publication instruction in this research cycle.",
+  "next_action": "Review accumulated local cinema changes for a separate release; browser spot-check completed on 2 November. Do not repeat exhausted rights, financing or detailed Badhu-credit searches without a precise new accessible source.",
+  "browser_followup": "outputs/bhukha-original-sources-20261102/maya-browser-followup.json"
+}

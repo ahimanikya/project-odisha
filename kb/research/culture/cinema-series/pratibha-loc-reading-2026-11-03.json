@@ -1,0 +1,69 @@
+{
+  "id": "pratibha-loc-reading-2026-11-03",
+  "date": "2026-11-03",
+  "status": "reviewed_local_integration_with_documented_gaps",
+  "article": "research/people/pratibha-ray.md",
+  "reuse": [
+    "outputs/cinema-writer-collaboration-20261102/new-reading.json",
+    "records/pratibha-publishing-2026-11-02.json"
+  ],
+  "findings": [
+    {
+      "source_id": "literature-ray-loc",
+      "url": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/pratibharay.html",
+      "inspection": "Fresh direct web-text read; Anvesha additionally inspected linked catalogue in Chrome.",
+      "evidence": "Item5 names Mokhshya, AdyaPrakasani1993 and recording pp302–303; same page biography lists Mokshya1996. No individual story label or transcript."
+    },
+    {
+      "source_id": "ray-loc-mokhshya-catalogue",
+      "url": "https://lccn.loc.gov/99937553",
+      "resolved_url": "https://search.catalog.loc.gov/instances/62e52e5a-5532-533a-9dbd-556394ccc182?option=lccn&query=99937553",
+      "evidence": "Actual catalogue identifies first edition1996,311pages,Oriya,short stories. This resolves earlier record-access failure, not every chronological question."
+    },
+    {
+      "source_id": "moksh-retailer-samples",
+      "url": "https://ritikart.com/products/moksh-by-dr-pratibha-ray",
+      "inspection": "Original four book-image pixels inspected by root and Drishti; hashes retained. No full collection read.",
+      "evidence": "Bilingual imprint explicitly1stEditionDecember1996/seventh2018,AdyaPrakashani,ISBN978-81-908545-0-9. Contents final story Moksh/ମୋକ୍ଷ starts315. Opening sample is Amoksh/ଅମୋକ୍ଷ; following spread lacks visible page numbers and has collection running head only.",
+      "limits": "2018pagination cannot identify1996/reading-pagepp302–303. First publication of title story is not established by collection edition. Do not infer contradiction with earlierfilm."
+    }
+  ],
+  "audio": {
+    "url": "https://tile.loc.gov/storage-services/service/asian/salrp/salrp_recordings/03009.mp3",
+    "file": "outputs/pratibha-loc-reading-20261103/03009.mp3",
+    "sha256": "a95aca69a18131bcb9656c13c2be0818cbc7c685bca3ccdc98b611c71dae00a7",
+    "http_status": 200,
+    "content_type": "audio/mpeg",
+    "bytes": 3249496,
+    "metadata_duration_seconds": 406.047375,
+    "format": "MP3,2channels,22050Hz,64000bit/s",
+    "metadata_evidence": "outputs/pratibha-loc-reading-20261103/audio-metadata.txt",
+    "browser_result": "IAB net::ERR_BLOCKED_BY_CLIENT; no bypass attempted",
+    "auditioned": false,
+    "transcribed": false,
+    "individual_story_identified": false,
+    "publication": "Official URL link only; no copied audio or book-image publication."
+  },
+  "source_limits": [
+    "1996imprint andcatalogueagree;1993reading-pageentryremains a discrepancy. Do not silently amendoriginalsource.",
+    "No interpretation,quote,emotionalquality or film-scene comparison from unheard recording.",
+    "No original1996contents/pages302–303 inspected.",
+    "No sales, filmrightspayment, licencegrant or currentavailabilityguarantee inferred."
+  ],
+  "research_evidence": [
+    "outputs/pratibha-loc-reading-20261103/research.json",
+    "outputs/pratibha-loc-reading-20261103/coverage.json",
+    "outputs/pratibha-loc-reading-20261103/sample-downloads.json",
+    "outputs/pratibha-loc-reading-20261103/retrieval.json",
+    "outputs/pratibha-loc-reading-20261103/retrieval-network.json"
+  ],
+  "next_dependency": "To identify recording story: audible original recording or original editionpp302–303 withcontents; current2018contents is insufficient. Avoid repeatedgenericMoksha/paymentsearches.",
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "implementation": "outputs/pratibha-loc-reading-20261103/implementation.json",
+  "validation": "outputs/pratibha-loc-reading-20261103/validation.json",
+  "public_change": "One official collection-excerpt listening link on existing profile. All11narrativeparagraphs and6notes retained; no new player or book change.",
+  "next_action": "Under books-periodicals, inspect whether the exact Indiana University SSEA001 Shesha drushti booklet record exposes any public digital object. Reuse outputs/cinema-expansion-20261031/books-periodicals-evidence.json and https://archives.iu.edu/html/VAE6127.html. If no inspectable pages, park the access dependency without generic search loops or contact. Do not treat catalogue1997 as film release.",
+  "review": "outputs/pratibha-loc-reading-20261103/review.json",
+  "handoff": "records/cinema-pratibha-loc-reading-2026-11-03.json"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "POD-CINEMA-MALAJANHA-POEM-SOURCE-20261104",
+  "date": "2026-11-04",
+  "authorization": "Founder: Continue the research",
+  "coordinator": "Disha",
+  "status": "reviewed_local_revision",
+  "active_article": null,
+  "candidate_article": "cinema-music",
+  "scope": "Trace Galani ta gala katha to an original printed poem and verify the film-song connection before quotation or song-specific attribution.",
+  "previous_handoff": "records/cinema-malajanha-song-credits-2026-11-04.json",
+  "reuse_before_research": [
+    "records/cinema-malajanha-song-credits-2026-11-04.json",
+    "research/culture/cinema-series/malajanha-song-credits-2026-11-04.json",
+    "research/culture/cinema-series/cinema-music.md",
+    "outputs/malajanha-song-credits-20261104/context-evidence.json"
+  ],
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/malajanha-poem-source-20261104/printed-evidence.json",
+        "outputs/malajanha-poem-source-20261104/printed-sources/"
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "completed_scope_released",
+      "scope": [
+        "kb/research/culture/cinema-series/cinema-music.md",
+        "kb/research/culture/cinema-series/manifest.json (cinema-music source hash only)",
+        "projects/site/src/data/cinema.json (cinema-music source hash only)",
+        "outputs/malajanha-poem-source-20261104/implementation.json and build logs",
+        "new 2026-11-04-ga-champu digital/print PDFs and render receipts"
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/malajanha-poem-source-20261104/review.json"
+      ]
+    }
+  ],
+  "before_hashes": {
+    "kb/research/culture/cinema-series/cinema-music.md": "94ced709a7077a3bb68f45bd9d50d34d46ea2351afa77f034fc3536373b64c92",
+    "projects/site/src/data/cinema.json": "bc2bbc0ad27f92bd7a79117cde45f5720b3ecd176cc0740fd2db0e428e840566",
+    "kb/research/culture/cinema-series/manifest.json": "0ac15e26a77b18408aff738c15a2c13073ffb06eadcba3a8d197e86f328a2c67",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-04-malajanha-songs.pdf": "4d9fc956c43718c54ba4433076178a20123e9b6fef5cd731190ffa1ee33c9be0",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-04-malajanha-songs.pdf": "67d65eeb1fc53e798c73779ec9f6c1d2694ecdeff8d9b58853c248d02911b5ac"
+  },
+  "boundaries": [
+    "One active article only if evidence warrants revision",
+    "No song-specific authorship inferred from generic film credits",
+    "No full-film viewing claim",
+    "No modern recording confused with film recording",
+    "No publication, contact, purchase or human approval claim"
+  ],
+  "scope_released": true,
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "programme_progress_credit": 0,
+  "books": {
+    "digital": {
+      "receipt": "tmp/pdfs/2026-11-04-ga-champu/digital/book-build-2026-11-04-ga-champu.json",
+      "receipt_sha256": "691a637b397c6f1a5354538781ed18d33761badca97b51874c4b7d03caf279f4",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-04-ga-champu.pdf",
+      "sha256": "10ed0f75143cf716bbf1de64370ee34ef5c509f2c71fe5e0e3efea59a71f72ad",
+      "pages": 255,
+      "notes": 470,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [
+        "cinema-music"
+      ],
+      "chapter_pages_unchanged": true,
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_named_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-04-ga-champu/digital/pages",
+      "music_pages": [
+        47,
+        51
+      ],
+      "new_text_or_notes_pages": [
+        48,
+        232
+      ],
+      "prior_pdf_unchanged": true
+    },
+    "print": {
+      "receipt": "tmp/pdfs/2026-11-04-ga-champu/print/book-build-2026-11-04-ga-champu.json",
+      "receipt_sha256": "1515f8cca75313b88097cd2dee6437a5788fa02d84b27636b493d9f096cf83f4",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-04-ga-champu.pdf",
+      "sha256": "96b01cf10e6ab7f17ddeeb5babe368d1c0c995b3efcf5a785e0806f83445edf2",
+      "pages": 262,
+      "notes": 470,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [
+        "cinema-music"
+      ],
+      "chapter_pages_unchanged": true,
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_named_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-04-ga-champu/print/pages",
+      "music_pages": [
+        48,
+        52
+      ],
+      "new_text_or_notes_pages": [
+        49,
+        234
+      ],
+      "prior_pdf_unchanged": true
+    }
+  },
+  "source_sha256": "5b3a985b002925bd8eed7f5e3d4ee6a811c1c9cc18ef0529369c3566d8b40f65",
+  "evidence": {
+    "printed": "outputs/malajanha-poem-source-20261104/printed-evidence.json",
+    "recording": "outputs/malajanha-poem-source-20261104/recording-evidence.json",
+    "review": "outputs/malajanha-poem-source-20261104/review.json",
+    "implementation": "outputs/malajanha-poem-source-20261104/implementation.json",
+    "browser": "outputs/malajanha-poem-source-20261104/browser-review.json",
+    "dossier": "research/culture/cinema-series/malajanha-poem-source-2026-11-04.json"
+  },
+  "next_action": "Locate the identified Galani ta gala katha excerpt within the original Malajanha player and verify a bounded segment in context before removing qualified upload-based identification. Reuse the printed Ga Champu scan; do not repeat resolved print searches or broad credit searches. Do not infer payment, rights or a specific edition used.",
+  "outcome": "Added52whitespace words and2compactnotes to Cinema Music: printed Ga Champu refrain, brief English sense rendering and explicitly upload-attributed recording connection. Earlierprose/images retained. Digital255pages andprint262pages rebuilt with470notes;14affected/adjacentPDFpages separately reviewed.27focusedtests, build,1081page disclosure and browsernotes4/5forward/return passed. No publication.",
+  "validation": "outputs/malajanha-poem-source-20261104/validation.json"
+}

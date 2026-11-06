@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "reviewed_at": "2026-11-07T03:05:08.658646",
+  "required_corrections": [],
+  "input_hashes": {
+    "outputs/cinema-publication-20261107/book-release-manifest.json": "2b789932bf415314a44f44b7a53a5077cddb474213b2890e8850a591726ac5ce",
+    "outputs/cinema-publication-20261107/pdf-download-verification.json": "4ddac6132d97cff3404e140d128075ab3e90e37414ba0d563c3e34389b6ba612",
+    "outputs/cinema-publication-20261107/integration-fixes.json": "b27ff22970cc8ca9edabb2af8a48cf7ed2972bd63275ebdf870543af9989f0a7",
+    "outputs/cinema-publication-20261107/full-tests-final.log": "021eb1bfa0ea3e9361e987ebe9090b53cdc4a107bfea64e794a7e669fb16a137",
+    "outputs/cinema-publication-20261107/coast-tests-final.log": "f4b7eeefc2f5dcffd157cf25c24cf683aa075e444c5406080de77c989a2a2257",
+    "outputs/cinema-publication-20261107/publication-build.log": "b7604da347bc3b27eb3bac77e6b1d7603d64ea275f03e479b5a2322d308c384a",
+    "outputs/cinema-publication-20261107/publication-disclosures.log": "1131cbe1f7450c0f46b03fc5f8eb089e7d313e8df1584583b4e5e1fda5d7a680",
+    "projects/site/src/data/cinema.json": "26ff932556315f59c08ae6bbc5c612d41b41476cea36ca4d489c5aeb246c7083",
+    "projects/site/src/data/cinema-companions.json": "3d41ba4f44128b4de3bcef7f5fdef830d12f24763212e5f6cff72acbbc026739",
+    "projects/site/tools/build-publication.mjs": "b487296c9f315547bc3352f4877989338873f819246a2a3e0c0a975bf8f43e91",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "afd78e004bde1616d27636938d25566e989d2590ae1538458720422d103468df",
+    "projects/site/tests-coast/voices-passage-sources.test.mjs": "04e54f5e849baf59ca26fb0cafa578a2fe4ce33ab4e8c426adfc1484d0e3216e",
+    "projects/site/tests/search-publication.test.mjs": "2fc579d3c5b44c3ae2656e190e7c4e235d1b74fa0ae42dd6764837a7e6eb35e9",
+    "projects/site/editions/coast.json": "47a091ef4d99ff7b884cd48c96f2a58ea93c00b0b0656b2a04e28911cca2b36f",
+    "projects/site/editions/search-publication.json": "6cbbbfc8be6bf4f2e094b26e361869891d74db7cbd5d839ed94f287913027c52"
+  },
+  "scope": "Independent integrated cinema release checks; no public/source/git mutations and no human-approval claim. Dongria PR688 implementation excluded.",
+  "checks": {
+    "conflicts": "git diff --check passes; prior JSON conflict blockers resolved.",
+    "source_bindings": "Independently recomputed all50 main +3 companion source hashes; all match. All53 routes included in coast configuration.",
+    "assets": "Prior preflight verified all60 original/derivative/provenance placements; final focused/full tests retain current source and image checks. No new image transformation introduced by this integration fix.",
+    "downloads": "Current264/270-page shared-culture downloads and6-page standalone intro metadata match reviewed hashes, sizes and URLs. Read anonymous HTTPS verifier: all3 HTTP200 with matching bytes/hashes. Manifest now published_assets_verified and binds release437065231/verification receipt. Standalone intro appears on book route; archived editions retained.",
+    "optimization": "Only preflight nonoptimizable-byte classification changed: existing eligible PNGs OR exact existing two-JPEG allowlist. Arbitrary JPEGs remain nonoptimizable; optimizer settings unchanged; actual final decimal1GB gate remains.",
+    "six_acres": "Route-specific test now asserts numbered image note, creator/source/licence/changes and reciprocal reference. Other Voices heading checks remain.",
+    "independent_focused_rerun": {
+      "passed": 26,
+      "failed": 0,
+      "command": "bundled Node --test tests/search-publication.test.mjs tests/publication-jpeg.test.mjs tests-coast/voices-passage-sources.test.mjs"
+    },
+    "coordinator_final_logs": {
+      "full_tests": {
+        "passed": 712,
+        "failed": 0
+      },
+      "coast_tests": {
+        "passed": 561,
+        "failed": 0
+      },
+      "full_disclosure": {
+        "pages": 1150,
+        "violations": 0
+      },
+      "coast_disclosure": {
+        "pages": 1137,
+        "violations": 0
+      },
+      "publication_disclosure": {
+        "pages": 1138,
+        "violations": 0
+      }
+    },
+    "publication_artifact": {
+      "build_completed": true,
+      "independently_summed_bytes": 721265459,
+      "files": 2799,
+      "below_1000000000": true,
+      "mode": "limited",
+      "indexable_routes": 11,
+      "cinema_book_noindex_present": true,
+      "three_new_companion_pages_present": true
+    },
+    "search_holds": "Existing limited search policy unchanged; cinema remains noindex, no automatic indexing expansion."
+  },
+  "preflight_resolution": [
+    "Integration conflict blocker cleared.",
+    "Old active download metadata superseded by exact verified Nov6 assets.",
+    "Stale Six Acres heading expectation corrected with stronger route-specific numeric-credit checks."
+  ],
+  "limits": [
+    "No new source research or whole-series factual recertification; reuse prior hash-bound content/PDF visual reviews.",
+    "Anonymous download verification performed by coordinator and inspected here; reviewer did not independently re-download.",
+    "Local publication artifact validated, not a claim of deployed website behavior. Final hosted checks and live URL verification remain coordinator responsibilities.",
+    "Root reports single nonpublic editorial-workbench hash reconciliation; this is not a new public prose change and is outside visual review."
+  ]
+}

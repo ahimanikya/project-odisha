@@ -1,0 +1,7 @@
+---
+import CinemaReading from '../../components/CinemaReading.astro';
+import companions from '../../data/cinema-companions.json';
+const entry=companions.articles.find(article=>article.route==='/people/solila-parida/');
+if(!entry)throw new Error('Missing Solila Parida companion');
+---
+<CinemaReading entry={entry}/>

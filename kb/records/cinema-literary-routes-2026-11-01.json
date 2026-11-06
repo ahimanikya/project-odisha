@@ -1,0 +1,126 @@
+{
+  "id": "POD-CINEMA-LITERARY-ROUTES-20261101",
+  "date": "2026-11-01",
+  "authorization": "Continue the research, within the ongoing research and article enhancement task",
+  "status": "local_article_reviewed_with_research_gaps",
+  "coordinator": "Disha",
+  "active_article": null,
+  "reuse": [
+    "records/cinema-stage-adaptation-2026-11-01.json",
+    "records/cinema-archive-followup-2026-11-01.json"
+  ],
+  "scope": [
+    "Resolve poem-to-performance source identity through original publications",
+    "Apply already reviewed stage-route evidence to Kalindi profile only",
+    "Verify new Pranabandhu Kar festival/publication evidence and conflicting award attribution"
+  ],
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": [
+        "outputs/cinema-literary-routes-20261101/poems.json",
+        "outputs/cinema-literary-routes-20261101/poems/"
+      ],
+      "status": "released"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "kb/research/people/kalindi-charan-panigrahi.md",
+        "outputs/cinema-literary-routes-20261101/implementation.json"
+      ],
+      "status": "released"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": [
+        "outputs/cinema-literary-routes-20261101/review.json"
+      ],
+      "status": "released"
+    }
+  ],
+  "baseline": {
+    "article_sha256": "71732deea59309b9158ce24d403b6dfaa8ccfa81a212c859d4f994d651ab796c",
+    "article_copy": "outputs/cinema-literary-routes-20261101/kalindi-before.md"
+  },
+  "evidence": [
+    "outputs/cinema-literary-routes-20261101/poems.json",
+    "outputs/cinema-literary-routes-20261101/kar-verification.json",
+    "outputs/cinema-literary-routes-20261101/implementation.json",
+    "outputs/cinema-literary-routes-20261101/review.json",
+    "outputs/cinema-literary-routes-20261101/render-checks.json",
+    "outputs/cinema-literary-routes-20261101/kalindi-charan-panigrahi-check.json",
+    "outputs/cinema-literary-routes-20261101/cinema-tests.log",
+    "outputs/cinema-literary-routes-20261101/build.log"
+  ],
+  "publication_performed": false,
+  "outreach_performed": false,
+  "programme_progress_credit": 0,
+  "boundaries": [
+    "Only one public article source may change.",
+    "No image changes, publication, outreach, purchase or access bypass.",
+    "Do not repeat exhausted script retailer requests.",
+    "No direct stage-to-film influence, first-adaptation or film-fee claim.",
+    "Preserve prior local revisions and unrelated Dhaga programme."
+  ],
+  "outcomes": {
+    "article": "Kalindi profile:50word stage paragraph and one compact source note; other substantive content unchanged",
+    "article_sha256": "7692106be473c88d93e692d17192e0669bfa4e0aa56bd42449eb2c20dc6c6286",
+    "new_evidence": "Original family-account pages and independent2015 theatre report; official award-list exclusion; OVA poetic-drama catalogue",
+    "poem_identity": "Mansinha same-title work established; link to unnamed-poet ballet and1958 chronology unresolved",
+    "award_correction": "Do not repeat central1968award claim: official Odia list explicitly says noaward thatyear; stateaward separate",
+    "new_portraits": 0,
+    "images_changed": false,
+    "film_payment_evidence": false,
+    "publication_performed": false,
+    "book_rebuilt": false,
+    "book_pending": "Rebuild coordinated digital/print candidates after next editorial integration; published downloads retain previous release."
+  },
+  "validation": {
+    "content_review": "outputs/cinema-literary-routes-20261101/review.json",
+    "site_build": "PASS:571pages; targeted output directory",
+    "cinema_release_tests": "PASS:22/22",
+    "browser": "Root narrow-viewport visual and citation/return focus check passed",
+    "human_approval_claimed": false,
+    "record_checks": {
+      "bundle": "PASS:1867concepts,8061local links",
+      "team_assignments": "PASS",
+      "autonomous_program": "PASS",
+      "research_map": "PASS:1821records,71tasks,8reviewedoverlaps",
+      "registers": "PASS:1209records,697events;generated",
+      "diff_whitespace": "PASS"
+    },
+    "independent_result": "Final scoped PASS; source/fragment QA independent from root browser report"
+  },
+  "preview": "http://127.0.0.1:8777/people/kalindi-charan-panigrahi/#a-novel-reaches-the-stage-and-another-language",
+  "next_actions": [
+    {
+      "priority": 1,
+      "destination": "research/culture/cinema-series/literature-and-screen.md",
+      "action": "Use the inspected original theatre essay and named2015 multilingual productions for a compact literature-to-audience passage. Keep opera remuneration separate from film fees; reuse existing packets before research."
+    },
+    {
+      "priority": 2,
+      "destination": "research/culture/air-cuttack.md",
+      "action": "Review previously captured Kumkum Mohanty collaboration recollection for one short attributed addition; preserve institution/date limits."
+    },
+    {
+      "priority": 3,
+      "destination": "Research dependencies",
+      "action": "Exact Kar script/title pages, state-award record, OVA Pujarini reader and PRADAKSHINA composition credits only when a new accessible source emerges. Do not repeat exhausted broad queries."
+    },
+    {
+      "priority": 4,
+      "destination": "Book candidates",
+      "action": "Refresh digital and print editions with reviewed local article changes before any future publication."
+    }
+  ],
+  "next_action": "Use the inspected original theatre essay and named2015 multilingual productions for a compact literature-to-audience passage. Keep opera remuneration separate from film fees; reuse existing packets before research.",
+  "followup": {
+    "record": "records/cinema-literature-performance-2026-11-01.json",
+    "book_sync": "Resolved in separately reviewed literary-routes digital/print candidates. Historical outcomes above describe that earlier run; published downloads remain unchanged."
+  }
+}

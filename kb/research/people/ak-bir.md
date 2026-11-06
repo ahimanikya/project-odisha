@@ -4,9 +4,9 @@ title: "A. K. Bir: from the camera to the child’s world"
 description: "Follow a cinematographer into directing, children’s stories and the work of bringing young audiences to films."
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-10-26"
+research_date: "2026-11-05"
 human_review_claimed: false
-sources: [{"id": "ak-bir-1", "resource": "https://nfaindia.org/images/pdf/45th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "ak-bir-2", "resource": "https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "ak-bir-3", "resource": "https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf"}]
+sources: [{"id": "ak-bir-1", "resource": "https://nfaindia.org/images/pdf/45th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "ak-bir-2", "resource": "https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "ak-bir-3", "resource": "https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf"}, {"id": "bir-craft-interview-2015", "resource": "https://www.craftfilmschool.com/userfiles/files/000_A%20K%20Bir.pdf"}]
 series_intro: "Follow a cinematographer into directing, children’s stories and the work of bringing young audiences to films."
 hero_image: "../media/cinema-series/portraits-2026-10-26/ak-bir-iffi-2015.jpg"
 ---
@@ -23,6 +23,8 @@ Bir was a director recipient of the **Best Children’s Film of 1993** award for
 
 The [film companion](../culture/cinema-series/lavanya-preeti.md) follows its connection between an inherited love story and the feelings of young people. NFDC’s children’s catalogue also lists it under **Loving Hearts**.[^nfdc] Both names lead to the same film.
 
+For his Hindi film *Baaja*,[^nfdc] Bir recalled preparing the boy’s character before looking for a young performer. Two students from the National School of Drama helped him run a workshop with the child. During filming, he said, he offered only a few instructions.[^bir-workshop] Preparation, in this account, made room for the child to perform.
+
 ## Work beyond a single title
 
 The 45th National Film Awards catalogue records Bir’s films associated with the National Literacy Mission and his involvement in organising international film festivals for children and young people.[^career]
@@ -35,9 +37,11 @@ The filmmaker behind the camera also helped make a place for the child in the au
 
 ## Footnotes & Sources
 
+[^bir-workshop]: A. K. Bir, [“Master Walks Down The Memory Lane,” interview](https://www.craftfilmschool.com/userfiles/files/000_A%20K%20Bir.pdf), January–March 2015, pp. 7–8; excerpt hosted by CRAFT Film School.
+
 [^career]: [45th National Film Awards catalogue](https://nfaindia.org/images/pdf/45th%20National%20Film%20Award%20Catalogue.pdf), printed p. 067, A. K. Bir biography. Indexed catalogue text.
 [^award]: [41st National Film Awards catalogue](https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf), Best Children’s Film award panel, *Lavanya Preeti*, award year 1993.
-[^nfdc]: NFDC, [Children’s Films Catalogue 2024](https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf), printed p. 15, entry 120, *Loving Hearts*. Catalogue listing, not a verified streaming service.
+[^nfdc]: NFDC, [Children’s Films Catalogue 2024](https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf), printed p. 9, entry 65, *Baaja* (Hindi); p. 15, entry 120, *Loving Hearts*. Catalogue listing, not a verified streaming service.
 
 ## Further reading
 

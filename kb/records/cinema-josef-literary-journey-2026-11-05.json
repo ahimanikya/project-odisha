@@ -1,0 +1,125 @@
+{
+  "id": "POD-CINEMA-JOSEF-LITERARY-JOURNEY-20261105",
+  "date": "2026-11-05",
+  "authorization": "Founder: Continue the deep research. Existing mandate to strengthen literary connections, maker experiences and accurately credited contributions.",
+  "status": "reviewed_local_revision",
+  "active_article": null,
+  "previous_handoff": "records/cinema-real-images-expansion-2026-11-05.json",
+  "question": "What documented steps carried Umakanta Mahapatra’s Joseph towards Josef – Born in Grace, and can this illuminate literary adaptation beyond Odia-language films?",
+  "reuse": [
+    "research/culture/cinema-series/literature-and-screen.md",
+    "records/cinema-lavanya-source-2026-11-05.json",
+    "research/culture/cinema-series/literary-thread-review-2026-11-05.json"
+  ],
+  "scope": "One bounded adaptation case; no repeat of exhausted compensation or source-story searches. Verify original story language, producer account, screenplay and film language. One article enhancement only if sufficiently supported.",
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/cinema-josef-literary-journey-20261105/research.json",
+        "outputs/cinema-josef-literary-journey-20261105/sources/**"
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "completed_scope_released",
+      "scope": [
+        "kb/research/culture/cinema-series/literature-and-screen.md",
+        "outputs/cinema-josef-literary-journey-20261105/implementation.json"
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/cinema-josef-literary-journey-20261105/review/**"
+      ]
+    }
+  ],
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "scope_released": true,
+  "programme_progress_credit": 0,
+  "evidence": "research/culture/cinema-series/josef-literary-journey-2026-11-05.json",
+  "implementation": "outputs/cinema-josef-literary-journey-20261105/implementation.json",
+  "quality_review": "outputs/cinema-josef-literary-journey-20261105/review/quality-review.json",
+  "quality_review_sha256": "6a593ebe2d1cb5d604edb94ab505ea281180ebf2490d9a16e1dcc3d77a2883a2",
+  "reviewer_type": "Separate AI reviewer; no human or specialist approval claimed",
+  "checks": {
+    "baseline_files": 60,
+    "changed_files": [
+      "kb/research/culture/cinema-series/literature-and-screen.md",
+      "projects/site/src/data/cinema.json",
+      "kb/research/culture/cinema-series/manifest.json"
+    ],
+    "other_52_article_sources_unchanged": true,
+    "prior_books_layout_and_narrative_unchanged": true,
+    "bindings": {
+      "projects/site/src/data/cinema.json": {
+        "count": 50,
+        "mismatches": []
+      },
+      "kb/research/culture/cinema-series/manifest.json": {
+        "count": 50,
+        "mismatches": []
+      }
+    },
+    "books": {
+      "digital": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-05-josef-literary-journey.pdf",
+        "pdf_sha256": "468c1f9a205d40fdb4ae37f915f21280c0d0c17a454758c14f770fa03c3d19f0",
+        "pages": 263,
+        "notes": 515,
+        "chapter_page_references_stable": true,
+        "image_layout_sha256": "60928ec6f2645d276b258817f3e8b3ac64c8dd50f62d883b3a88f3f81c6a93ed",
+        "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+        "chapter_page_maps_identical": true,
+        "image_placements_unchanged": false,
+        "geometry_and_image_bytes_preserved": true,
+        "expected_metadata_differences": "Literature image credit renumbered28→30; print derivative files in new edition directory have identical bytes."
+      },
+      "print": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-josef-literary-journey.pdf",
+        "pdf_sha256": "91d1d2c64d2c8464b4bfcd18a0f211a43d693cfee427ea3e3fb1b381848a6f78",
+        "pages": 270,
+        "notes": 515,
+        "chapter_page_references_stable": true,
+        "image_layout_sha256": "60928ec6f2645d276b258817f3e8b3ac64c8dd50f62d883b3a88f3f81c6a93ed",
+        "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+        "chapter_page_maps_identical": true,
+        "image_placements_unchanged": false,
+        "geometry_and_image_bytes_preserved": true,
+        "expected_metadata_differences": "Literature image credit renumbered28→30; print derivative files in new edition directory have identical bytes."
+      }
+    },
+    "tests": {
+      "cinema_tests": 48,
+      "failures": 0,
+      "site_build_pages": 574,
+      "disclosure_pages": 833,
+      "disclosure_violations": 0
+    }
+  },
+  "changes": {
+    "article": "literature-and-screen",
+    "added_body_words": 63,
+    "added_note_words": 20,
+    "new_source_notes": 2,
+    "all_prior_prose_retained": true
+  },
+  "next_actions": [
+    "Reuse this case in the existing literature chapter; no separate profile needed without a substantive new question.",
+    "Review the consolidated local books when preparing the next publication cycle.",
+    "Original Joseph edition/pages and unnamed English translator remain unresolved; only reopen with a new inspectable source. Do not repeat exhausted author-payment or source-story searches."
+  ],
+  "browser_review": {
+    "route": "http://127.0.0.1:62137/cinema/literature-and-screen/",
+    "note_24_and_25_forward_and_return": "PASS actual native browser clicks and resulting anchors",
+    "screenshot": "outputs/cinema-josef-literary-journey-20261105/review/article-passage.png",
+    "limits": "Desktop passage and footnote interaction inspected; no new mobile or whole-site visual audit. Old handles failed; fresh selected-browser tab worked."
+  }
+}

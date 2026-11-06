@@ -1,0 +1,133 @@
+{
+  "id": "POD-CINEMA-LITERATURE-PERFORMANCE-20261101",
+  "date": "2026-11-01",
+  "authorization": "Founder: go, approving the next Literature and Screen enhancement",
+  "status": "local_article_and_book_candidates_reviewed",
+  "coordinator": "Disha",
+  "active_article": null,
+  "reuse": [
+    "records/cinema-literary-routes-2026-11-01.json",
+    "records/cinema-stage-adaptation-2026-11-01.json",
+    "records/cinema-archive-followup-2026-11-01.json"
+  ],
+  "scope": [
+    "Strengthen the existing literature-to-audience narrative using inspected stage and performance sources",
+    "Keep historical troupe payments distinct from unknown film-rights terms",
+    "Rebuild isolated digital and print book candidates from current reviewed sources; preserve published filenames and download bindings."
+  ],
+  "baseline": {
+    "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+    "sha256": "349c46c523157bd4718ae05e13e1aac6fa013bf218234f21c6de64a60884b04e",
+    "copy": "outputs/cinema-literature-performance-20261101/before.md"
+  },
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": [
+        "outputs/cinema-literature-performance-20261101/evidence.json"
+      ],
+      "status": "released"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "kb/research/culture/cinema-series/literature-and-screen.md",
+        "outputs/cinema-literature-performance-20261101/implementation.json"
+      ],
+      "status": "released"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": [
+        "outputs/cinema-literature-performance-20261101/review.json"
+      ],
+      "status": "released"
+    }
+  ],
+  "boundaries": [
+    "Only the named public article source changes; preserve other local work.",
+    "No new claims from ambiguous Pujarini/Konarka chronology or conflicted award attribution.",
+    "No image changes, publication, outreach, purchase or human-approval claim.",
+    "Keep source-derived prose compact and the existing people/film narratives intact."
+  ],
+  "publication_performed": false,
+  "programme_progress_credit": 0,
+  "evidence": [
+    "outputs/cinema-literature-performance-20261101/evidence.json",
+    "outputs/cinema-literature-performance-20261101/implementation.json",
+    "outputs/cinema-literature-performance-20261101/review.json",
+    "outputs/cinema-literature-performance-20261101/integration.json",
+    "outputs/cinema-literature-performance-20261101/pdf-operation-marker.json"
+  ],
+  "coordinator_outputs": [
+    "outputs/cinema-literature-performance-20261101/",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-01-literary-routes.pdf",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-literary-routes.pdf",
+    "tmp/pdfs/2026-11-01-literary-routes/"
+  ],
+  "completed_article": "/cinema/literature-and-screen/",
+  "outcomes": {
+    "narrative_words_added": 138,
+    "article_sha256": "31e83a63df4cc11796e42e926b2b239658dd011cc36aa4f5c30b5b28fa9ac8af",
+    "article_content": "Three sourced bridges: oral performance, named cross-language theatre productions, historical payment by performing troupes. Existing substantive narrative retained.",
+    "footnotes": 16,
+    "new_images": 0,
+    "images_changed": false,
+    "book_candidates": [
+      {
+        "edition": "digital",
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-01-literary-routes.pdf",
+        "sha256": "f57a2f19408f4740aee39fff4f4d2d3b7bca7e2867e3cad0cdcab93a92deb70e",
+        "pages": 247
+      },
+      {
+        "edition": "print",
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-01-literary-routes.pdf",
+        "sha256": "6aa569d4f4ce34530dcb3dece1b7fc0a5213ec8dcc1b1b208235b9b7b8f9e5fe",
+        "pages": 254
+      }
+    ],
+    "book_source_alignment": "Both candidates bind to all50current article sources, including the preceding Kalindi revision and local Parbati image. Published downloads unchanged.",
+    "remaining_uncertainty": "Historical troupe payment does not establish any film-rights fee. No inference of nonpayment, causation or popularity."
+  },
+  "validation": {
+    "content_and_artifact_review": "outputs/cinema-literature-performance-20261101/review.json",
+    "integration_checks": "outputs/cinema-literature-performance-20261101/integration.json",
+    "cinema_release_tests": "PASS22/22",
+    "site_build": "PASS571pages",
+    "disclosures": "PASS830files/0findings",
+    "visual_review": "Independent26affectedPDFpages; root1280pxarticle paragraphs and numeric citation forward/return. No full-book manual review claimed.",
+    "record_checks": {
+      "bundle": "PASS1867concepts8061links",
+      "team_assignments": "PASS",
+      "autonomous_program": "PASS",
+      "research_map": "PASS1821records71tasks8reviewedoverlaps",
+      "diff_whitespace": "PASS",
+      "registers": "PASS1209records697events; generated/current"
+    }
+  },
+  "preview": "http://127.0.0.1:8778/cinema/literature-and-screen/",
+  "next_actions": [
+    {
+      "priority": 1,
+      "destination": "research/culture/air-cuttack.md",
+      "action": "Review the saved Kumkum Mohanty participant recollection of Kala Vikash Kendra, National Music Association and AIR collaborations for one concise attributed addition. Verify named roles and date claims; preserve source limits."
+    },
+    {
+      "priority": 2,
+      "destination": "Research dependencies",
+      "action": "Retain unresolved script access, composition identity/date, original periodicals, adaptation fees, portrait rights and studio-hire terms. Reopen exhausted searches only with a new accessible lead."
+    },
+    {
+      "priority": 3,
+      "destination": "Publication",
+      "action": "Current local article/book candidates await a separately authorized release; preserved published download metadata identifies previous release."
+    }
+  ],
+  "next_action": "Review the saved Kumkum Mohanty participant recollection of Kala Vikash Kendra, National Music Association and AIR collaborations for one concise attributed addition. Verify named roles and date claims; preserve source limits.",
+  "human_review_claimed": false,
+  "outreach_performed": false
+}

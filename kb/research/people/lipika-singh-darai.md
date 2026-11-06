@@ -4,10 +4,10 @@ title: "Lipika Singh Darai: Listening Beyond the Performance"
 description: "Through Backstage, sound work and film letters, Lipika Singh Darai follows the lives around a performance and the conversations a film can hold."
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-10-31"
+research_date: "2026-11-05"
 human_review_claimed: false
 series_intro: "A filmmaker’s listening connects puppeteers, collaborators, remembered relationships and the patient work of making a film."
-sources: [{"id":"iffi-backstage","resource":"https://dff.nic.in/images/Documents/173_ipcatalogue.pdf"},{"id":"scroll-backstage","resource":"https://scroll.in/reel/1005301/magic-and-resilience-in-documentary-about-the-puppeteers-of-odisha"},{"id":"pib-miff2022","resource":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=1830117"},{"id":"pib57","resource":"https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=65776"},{"id":"darai-films","resource":"https://www.lipikasinghdarai.com/films"},{"id":"iffr-person","resource":"https://iffr.com/en/person/lipika-singh-darai"}]
+sources: [{"id":"iffi-backstage","resource":"https://dff.nic.in/images/Documents/173_ipcatalogue.pdf"},{"id":"scroll-backstage","resource":"https://scroll.in/reel/1005301/magic-and-resilience-in-documentary-about-the-puppeteers-of-odisha"},{"id":"pib-miff2022","resource":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=1830117"},{"id":"pib57","resource":"https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=65776"},{"id":"darai-films","resource":"https://www.lipikasinghdarai.com/films"},{"id":"iffr-person","resource":"https://iffr.com/en/person/lipika-singh-darai"},{"id":"darai-first-film-tnie","resource":"https://www.newindianexpress.com/entertainment/2013/Jun/02/living-a-dream-frame-by-frame-482956.html"}]
 ---
 
 # Lipika Singh Darai: Listening Beyond the Performance
@@ -34,7 +34,9 @@ She records location sound and designs sound for her own films, and edits for ot
 
 ## A conversation held in a film
 
-Her filmography describes an imagined conversation with her late grandaunt, developed while revisiting image and sound recordings from Mumbai in 2013. Her film letters include **କଙ୍କି ଓ ସାପ (Kankee O Saapo)**, **ରାତି ଓ ଭୟ (Raati O Bhaya)** and **ବି ଓ ଏସ (B O S)**.[^darai-films]
+For her first film, *Eka Gachha, Eka Manisa, Eka Samudra (A Tree, A Man, A Sea)*, Darai turned towards her late Hindustani music teacher, Prafulla Kumar Das. An old surviving cassette held his voice. In 2013, she recalled retracing his teaching journey from Balasore to Baripada and meeting his family before filming. Mani Kaul encouraged her to begin with her own feelings of the teacher’s presence.[^darai-first-film-tnie]
+
+Her filmography also describes an imagined conversation with her late grandaunt, developed while revisiting image and sound recordings from Mumbai in 2013. Her film letters include **କଙ୍କି ଓ ସାପ (Kankee O Saapo)**, **ରାତି ଓ ଭୟ (Raati O Bhaya)** and **ବି ଓ ଏସ (B O S)**.[^darai-films]
 
 An imagined conversation leaves room for a present voice and for what remains beyond reply.
 
@@ -45,6 +47,8 @@ An imagined conversation leaves room for a present voice and for what remains be
 In the [search for Sita Bibaha](../culture/cinema-series/searching-for-sita-bibaha.md), she turns to surviving records and remembered voices. That search follows another kind of listening.
 
 ## Footnotes & Sources
+
+[^darai-first-film-tnie]: [“Living a dream, frame by frame,” The New Indian Express, 2 June 2013](https://www.newindianexpress.com/entertainment/2013/Jun/02/living-a-dream-frame-by-frame-482956.html).
 
 [^iffi-backstage]: [IFFI 2021 Indian Panorama catalogue](https://dff.nic.in/images/Documents/173_ipcatalogue.pdf), p. 058, *Backstage* cinematography credit.
 
