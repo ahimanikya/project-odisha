@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Conversation and a blank notebook — an interpretive illustration using Dongria dress and a hill setting. The figures are imagined; no script characters or recorded conversation are represented.*
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
-
 A lesson becomes useful when a learner can make sense of it. In the companion article, Jayanti Sabar’s pupils helped classmates by explaining lessons in Kuvi.[^1]
 
 Three distinct resources matter here: the *Kuwi Primer*, written with Odia-based letters; the *Jatapu (Kuvi) Primer*, which uses Telugu-based writing; and a separate Jatapu script devised by Prasanna Sree. Her alphabet is not the one used in the Jatapu primer.[^3][^5][^6]
@@ -66,6 +64,8 @@ Sabar’s pupils explained lessons to classmates; Phulamani made resources for c
 
 ## Footnotes and sources
 
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
+
 [^1]: Manipadma Jena, [India Coaxes Tribal Girls Into Schools](https://www.ipsnews.net/2012/09/india-coaxes-tribal-girls-into-schools/), IPS, 18 September 2012, Jayanti Sabar’s classroom account. Historical testimony, also used in the learning article; not a current school assessment.
 
 [^2]: CIIL, Bhasha Sanchika entries for [Kuvi](https://sanchika.ciil.org/collections/edf4dd66-e969-4277-863c-7032451b2358) and [Kui](https://sanchika.ciil.org/communities/ad651338-c2a2-49ec-ae49-0731c4d175b6), accessed 3 November 2026. Language classification and stated Odia-script use; not a survey of every community’s writing practices.
@@ -92,4 +92,4 @@ Sabar’s pupils explained lessons to classmates; Phulamani made resources for c
 
 ## Further reading
 
-[Dongariya life](/stories/dongariya/dongariya-life/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Songs and singers](/stories/dongariya/songs-and-singers/) · [Kapadaganda colours and motifs](/stories/dongariya/kapadaganda/)
+[Dongria life](/stories/dongria/dongria-life/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Songs and singers](/stories/dongria/songs-and-singers/) · [Kapadaganda colours and motifs](/stories/dongria/kapadaganda/)

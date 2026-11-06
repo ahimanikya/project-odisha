@@ -7,9 +7,9 @@ const scope=JSON.parse(read('editions/coast.json'));
 const notes={ 'dongariya-life':6,kapadaganda:21,'ornaments-in-use':5,niyamgiri:9,'seed-keeping':5,'forest-foods':5,'harvest-to-market':6,'homes-and-repair':7,'learning-and-belonging':7,'kuvi-and-jatapu-script':12,'songs-and-singers':8,'kotpad-and-kapadaganda':4 };
 test('Dongria series exposes twelve sourced articles and connected index in the active edition',()=>{
  assert.equal(articles.length,12);
- const index=read('dist/stories/dongariya/index.html');
+ const index=read('dist/stories/dongria/index.html');
  for(const a of articles){
-  const route=`/stories/dongariya/${a.slug}/`;
+  const route=`/stories/dongria/${a.routeSlug || a.slug}/`;
   assert.ok(scope.routes.includes(route));assert.ok(index.includes(`href="${route}"`));
   const html=read('dist'+route+'index.html');
   assert.ok(html.includes('https://projectodisha.org'+route));
@@ -22,7 +22,7 @@ test('Dongria series exposes twelve sourced articles and connected index in the 
 test('Dongria illustration and photographic provenance travel with optimized assets',()=>{
  for(const a of articles){
   assert.ok(existsSync('public'+a.image));assert.ok(a.image.endsWith('.webp'));
-  const html=read(`dist/stories/dongariya/${a.slug}/index.html`);
+  const html=read(`dist/stories/dongria/${a.routeSlug || a.slug}/index.html`);
   assert.ok(html.includes('width:100%')||html.includes('width: 100%'));
   assert.doesNotMatch(html,/width:\s*85%/);
   assert.ok(html.includes('calc(100vw - 2.8rem), 724px'));
@@ -46,14 +46,14 @@ test('Dongria illustration and photographic provenance travel with optimized ass
  }
 });
 test('Niyamgiri series distinguishes and retains the existing legal overview',()=>{
- const html=read('dist/stories/dongariya/niyamgiri/index.html');
+ const html=read('dist/stories/dongria/niyamgiri/index.html');
  assert.ok(html.includes('Niyamgiri: cultivation and village decisions'));
  assert.ok(html.includes('/reading-room/economy/niyamgiri-rights-and-mining/'));
  assert.ok(existsSync('dist/reading-room/economy/niyamgiri-rights-and-mining/index.html'));
 });
 
 test('Dongria series index uses a full-column clothing illustration with credit and sharing image',()=>{
- const html=read('dist/stories/dongariya/index.html');
+ const html=read('dist/stories/dongria/index.html');
  for(const width of [480,800,1200]){
   const src=`/assets/dongariya/00-index-clothing-${width}w.webp`;
   assert.ok(existsSync('public'+src));assert.ok(html.includes(src));
@@ -65,4 +65,21 @@ test('Dongria series index uses a full-column clothing illustration with credit 
  assert.ok(html.includes('https://creativecommons.org/licenses/by-sa/4.0/'));
  assert.match(html,/<meta[^>]*property="og:image"[^>]*content="https:\/\/projectodisha.org\/assets\/dongariya\/00-index-clothing-1200w.webp"/);
  assert.doesNotMatch(html,/width:\s*85%|AI-generated|AI-assisted/);
+});
+
+test('Dongria canonical routes replace unshared spelling variants without redirects',()=>{
+ assert.equal(existsSync('dist/stories/dongariya/index.html'),false);
+ assert.equal(existsSync('dist/stories/dongria/dongariya-life/index.html'),false);
+ assert.ok(existsSync('dist/stories/dongria/dongria-life/index.html'));
+ assert.equal(scope.routes.some(route=>route.startsWith('/stories/dongariya/')),false);
+ for(const a of articles){
+  const route=`/stories/dongria/${a.routeSlug || a.slug}/`;
+  const html=read('dist'+route+'index.html');
+  assert.ok(html.includes(`https://projectodisha.org${route}`));
+  assert.doesNotMatch(html,/href="(?:https:\/\/projectodisha\.org)?\/stories\/dongariya\//);
+  assert.doesNotMatch(a.title,/Dongariya|Dongaria/);
+ }
+ const sources=read('src/content/dongariya/kapadaganda.md');
+ assert.ok(sources.includes('Embroidery and Work for Dongariya Kondh Women'));
+ assert.ok(sources.includes('“Dongaria Kondh textiles,”'));
 });

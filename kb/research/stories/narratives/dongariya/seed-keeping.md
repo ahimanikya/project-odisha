@@ -59,4 +59,4 @@ A collection kept for planting and a field given to another crop can exist in th
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Forest foods and home gardens](forest-foods.md) · [Niyamgiri and cultivation](niyamgiri.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Forest foods and home gardens](forest-foods.md) · [Niyamgiri and cultivation](niyamgiri.md)

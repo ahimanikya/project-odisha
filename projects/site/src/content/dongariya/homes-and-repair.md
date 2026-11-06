@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Earthen walls, wooden posts and low-reaching thatch — an interpretive illustration informed by a 2016 description of Niyamgiri housing. This imagined scene does not represent every home or current building practice.*
 
-Illustration: Project Odisha. Housing reference: Meenal Tatpati, Ashish Kothari and Rashi Mishra, [The Niyamgiri Story](https://kalpavriksh.org/wp-content/uploads/2018/06/NiyamgiricasestudyJuly2016.pdf), Kalpavriksh, July 2016, p. 6.
-
 Mana Manjhi feared losing her roof in wind and heavy rain. In a UNDP account displayed with an August 2022 date, the Dongria Kondh farmer said support to build a pucca house had brought relief: she felt more confident that she and her grandson would have shelter during a storm.[^1]
 
 The value she described was practical: shelter for two people when the weather changed. Keeping a home habitable also involves repairs, money and access to help.
@@ -56,6 +54,8 @@ A household needs food as well as shelter. The next part of the story follows th
 
 ## Footnotes and sources
 
+Illustration: Project Odisha. Housing reference: Meenal Tatpati, Ashish Kothari and Rashi Mishra, [The Niyamgiri Story](https://kalpavriksh.org/wp-content/uploads/2018/06/NiyamgiricasestudyJuly2016.pdf), Kalpavriksh, July 2016, p. 6.
+
 [^1]: UNDP India, [Odisha’s affordable and disaster resilient houses](https://www.undp.org/india/stories/odishas-affordable-and-disaster-resilient-houses), 4 August 2022, Mana Manjhi account. UNDP supported the housing programme; this is a participant account published by an implementing partner, not an independent engineering assessment. Her village, interview date and construction date are not specified. UNDP’s [2021 housing progress report](https://info.undp.org/docs/pdc/Documents/IND/Annual%20Progress%20Report%20-%202021_Odisha%20housing%20project.pdf), p. 4, mentions a published story with the same title. This leaves first publication and version history unresolved; August 2022 is the displayed webpage date. Report text inspected; PDF download and screenshot failed.
 
 [^2]: Meenal Tatpati, Ashish Kothari and Rashi Mishra, [The Niyamgiri Story: Challenging the Idea of Growth Without Limits?](https://kalpavriksh.org/wp-content/uploads/2018/06/NiyamgiricasestudyJuly2016.pdf), Kalpavriksh, July 2016, printed pp. 6 and 20; limitations pp. 4–5. The study combined secondary material with short visits and translated discussions, with limited in-depth participation by women and young people. Its housing description is not a current architectural survey.
@@ -72,6 +72,6 @@ A household needs food as well as shelter. The next part of the story follows th
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Niyamgiri and its landscape](/stories/dongariya/niyamgiri/) · [Harvests and markets](/stories/dongariya/harvest-to-market/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Niyamgiri and its landscape](/stories/dongria/niyamgiri/) · [Harvests and markets](/stories/dongria/harvest-to-market/)
 
-[Kapadaganda](/stories/dongariya/kapadaganda/) explores the embroidered cloth and its attributed colour and motif meanings.
+[Kapadaganda](/stories/dongria/kapadaganda/) explores the embroidered cloth and its attributed colour and motif meanings.

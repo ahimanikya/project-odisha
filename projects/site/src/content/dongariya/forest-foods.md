@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Tending a home garden — an interpretive illustration using Dongria dress and a hill setting. The household and plants are imagined, not a wild-food identification guide.*
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
-
 For Padmavati Paleka of Leling Padar, the rainy season brought mushrooms, tender bamboo shoots, fruits and leaves. Her account in Basudev Mahapatra’s 2017 reporting follows Rayagada’s food through the changing year: what becomes available and what reaches the household.[^1]
 
 These regional accounts concern several communities, not exclusively Dongria Kondh. They follow food gathered in forests, grown in gardens and bought for meals, along with the work and choices connecting those sources.
@@ -48,6 +46,8 @@ What a household keeps for meals and what it sells lead to different decisions. 
 
 ## Footnotes and sources
 
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
+
 [^1]: Basudev Mahapatra, [Forest food ensures nutritional security of Odisha’s tribes](https://villagesquare.in/forest-food-ensures-nutritional-security-odishas-tribes/), *Village Square*, 2017; interview with Padmavati Paleka under “Perennial food source.” The page displays the date as 11/12/2017. This article uses her seasonal account, not the source’s broader assurances about freedom from hunger.
 
 [^2]: Debal Deb, [Food and Nutrition from Forest: Relationships with Forest Ecological Status and Management System](https://www.rosalux.de/fileadmin/user_upload/Food_and_Nutrition_from_Forest-_Relationships_with_Forest_Ecological_Status_and_Management_System_public.pdf), Living Farms, December 2017. See study design and harvest measurement, sections 3.1 and 3.4; relationships, section 6; limitations, section 10. Acknowledgements identify research during 2016–17. This is a local comparative study, not a survey of all Odisha households.
@@ -60,4 +60,4 @@ What a household keeps for meals and what it sells lead to different decisions. 
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Niyamgiri and cultivation](/stories/dongariya/niyamgiri/) · [Kapadaganda and its makers](/stories/dongariya/kapadaganda/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Niyamgiri and cultivation](/stories/dongria/niyamgiri/) · [Kapadaganda and its makers](/stories/dongria/kapadaganda/)

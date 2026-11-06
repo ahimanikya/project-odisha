@@ -9,12 +9,14 @@ const indexImage={src:'/assets/dongariya/00-index-clothing-1200w.webp',alt:'Illu
 <figure class="series-hero">
  <img src={indexImage.src} srcset="/assets/dongariya/00-index-clothing-480w.webp 480w, /assets/dongariya/00-index-clothing-800w.webp 800w, /assets/dongariya/00-index-clothing-1200w.webp 1200w" sizes="(max-width: 832px) calc(100vw - 2.8rem), 788px" alt={indexImage.alt} width={indexImage.width} height={indexImage.height} fetchpriority="high" decoding="async"/>
  <figcaption>Dongria dress and embroidered wraps — an interpretive illustration. The figures and hillside setting are imagined.</figcaption>
- <p class="series-image-credit">Adapted illustration: Project Odisha, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Adapted from a clothing reference: <a href="https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg">photograph by Debanutosh</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 </figure>
 <p>Read the twelve articles in sequence, or begin with a subject that draws you in. Each includes source notes; photographs and interpretive illustrations are identified in their captions.</p>
 <p><a href={book.file}>Download the book: {book.edition} · {book.pages} pages · PDF</a> ({(book.bytes / 1000000).toFixed(1)} MB). Includes the author’s note, a locator map, glossary and source notes.</p>
-<ol>{articles.map((article,index)=><li><span class="number">{String(index+1).padStart(2,'0')}</span><a href={`/stories/dongariya/${article.slug}/`}>{article.title}<span aria-hidden="true"> ↗</span></a></li>)}</ol>
-<p>By Ahimanikya Satapathy.</p></section>
+<ol>{articles.map((article,index)=><li><span class="number">{String(index+1).padStart(2,'0')}</span><a href={`/stories/dongria/${article.routeSlug || article.slug}/`}>{article.title}<span aria-hidden="true"> ↗</span></a></li>)}</ol>
+<p>By Ahimanikya Satapathy.</p>
+<section><h2>Footnotes &amp; Sources</h2>
+ <p class="series-image-credit">Adapted illustration: Project Odisha, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Adapted from a clothing reference: <a href="https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg">photograph by Debanutosh</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+</section></section>
 </Shell>
 <style>
 .series{max-width:52rem;margin:3rem auto 5rem;padding:0 1.4rem;line-height:1.8}.series h1{font-size:clamp(2.3rem,1.4rem + 4vw,4rem);line-height:1.1;margin:1rem 0 2rem}.series p{margin-bottom:1.5rem}.intro{font-size:1.3rem}.series ol{list-style:none;padding:0;margin:3rem 0}.series li{display:flex;gap:1.25rem;align-items:baseline;border-top:1px solid #d5c9b7;padding:1.2rem 0}.number{color:#91462f;min-width:1.5rem}.series a{font-size:1.2rem;text-decoration:underline;text-underline-offset:4px}

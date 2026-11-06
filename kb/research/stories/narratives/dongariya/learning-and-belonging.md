@@ -65,6 +65,6 @@ Mukteswar’s village tuition, Sabar’s pupils explaining lessons and the two w
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Learning Kapadaganda](kapadaganda.md) · [Niyamgiri and village decisions](niyamgiri.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Learning Kapadaganda](kapadaganda.md) · [Niyamgiri and village decisions](niyamgiri.md)
 
 [Kuvi and the Jatapu script](kuvi-and-jatapu-script.md) follows the distinction between a language, a writing system and evidence of its use.

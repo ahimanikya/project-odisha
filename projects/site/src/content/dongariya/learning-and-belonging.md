@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Drawing and learning together — an interpretive illustration using Dongria dress and a hill setting. The figures and activity are imagined, not a documented classroom.*
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
-
 Mukteswar Wadaka taught children in Khambesi without charging for tuition during the pandemic lockdown. In Abhijit Mohanty’s January 2021 report, the Dongria Kondh student also spoke of wanting to enter the civil service and challenge assumptions about the work Adivasi people could do.[^1]
 
 Mukteswar brought teaching close to home. For students who left Niyamgiri to study, education also raised questions about language, family and belonging.
@@ -52,6 +50,8 @@ Mukteswar’s village tuition, Sabar’s pupils explaining lessons and the two w
 
 ## Footnotes and sources
 
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
+
 [^1]: Abhijit Mohanty, [Residential school empowers tribal children through education](https://villagesquare.in/residential-school-empowers-tribal-children-through-education/), *Village Square*, 20 January 2021, “Identifying skills” and “Academic achievement.” Named accounts; not an independent evaluation of the institution. Uncorroborated claims of community-wide “firsts” are omitted.
 
 [^2]: Manipadma Jena, [India Coaxes Tribal Girls Into Schools](https://www.ipsnews.net/2012/09/india-coaxes-tribal-girls-into-schools/), Inter Press Service, 18 September 2012. Historical reporting; the named student’s later career and present school arrangements have not been established.
@@ -68,6 +68,6 @@ Mukteswar’s village tuition, Sabar’s pupils explaining lessons and the two w
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Learning Kapadaganda](/stories/dongariya/kapadaganda/) · [Niyamgiri and village decisions](/stories/dongariya/niyamgiri/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Learning Kapadaganda](/stories/dongria/kapadaganda/) · [Niyamgiri and village decisions](/stories/dongria/niyamgiri/)
 
-[Kuvi and the Jatapu script](/stories/dongariya/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.
+[Kuvi and the Jatapu script](/stories/dongria/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.

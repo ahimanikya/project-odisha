@@ -1,11 +1,11 @@
 ---
 type: "Editorial draft"
-title: "Dongariya ornaments in use"
+title: "Dongria ornaments in use"
 status: "draft for editorial review; not published"
 human_review_claimed: false
 ---
 
-# Dongariya ornaments in use
+# Dongria ornaments in use
 
 By Ahimanikya Satapathy
 
@@ -65,4 +65,4 @@ The relationships between wearers and neighbouring craftspeople continue in the 
 
 ## Related reading
 
-[Kapadaganda and its makers](kapadaganda.md) · [Dongariya life in Niyamgiri](dongariya-life.md) · [From harvests to market](harvest-to-market.md)
+[Kapadaganda and its makers](kapadaganda.md) · [Dongria life in Niyamgiri](dongariya-life.md) · [From harvests to market](harvest-to-market.md)

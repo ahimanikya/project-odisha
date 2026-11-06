@@ -113,6 +113,6 @@ Kumri’s learning, Ram Hial’s cloth and Dinja’s question about payment belo
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Learning and belonging](learning-and-belonging.md) · [Niyamgiri and village decisions](niyamgiri.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Learning and belonging](learning-and-belonging.md) · [Niyamgiri and village decisions](niyamgiri.md)
 
 [Kotpad and Kapadaganda through their makers](kotpad-and-kapadaganda.md) compares weaving, dyeing and embroidery across distinct regional traditions.

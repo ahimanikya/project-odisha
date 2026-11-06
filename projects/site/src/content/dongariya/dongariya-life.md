@@ -1,8 +1,8 @@
 ---
-title: "Dongariya life in Niyamgiri"
+title: "Dongria life in Niyamgiri"
 ---
 
-# Dongariya life in Niyamgiri
+# Dongria life in Niyamgiri
 
 By Ahimanikya Satapathy
 
@@ -10,15 +10,13 @@ By Ahimanikya Satapathy
 
 *Fields and hills photographed during a Niyamgiri visit in 2018.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
-
 In Gandili, Singari Jakesika described a change in what her household grew and what she ate. Her husband had increased horticulture to earn more income; less land went to millets, and her own consumption of millet declined as she increasingly ate subsidised rice. Her account appears in Deepanwita Gita Niyogi’s November 2022 reporting.[^4]
 
 That decision brings the landscape close to home. Land can provide food and income, but the balance between them depends partly on who makes the choices. This series follows those choices through cultivation, cloth, homes, learning and song.
 
 ## Niyamgiri and its households
 
-The Niyamgiri landscape extends across Rayagada and Kalahandi. Dongariya, Dongria and Dongaria are spellings found in the accounts used here. The Odisha State Tribal Museum uses “Dongria Kandha” and locates settlements in the ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada.[^2][^4]
+The Niyamgiri landscape extends across Rayagada and Kalahandi. This series uses Dongria; some sources use the spellings Dongariya or Dongaria. The Odisha State Tribal Museum uses “Dongria Kandha” and locates settlements in the ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada.[^2][^4]
 
 The museum describes horticulture and cultivation on hill slopes, and lists Dongria Kandha among Particularly Vulnerable Tribal Groups, commonly abbreviated as PVTGs. That administrative category helps identify the scope of government records; it cannot describe a household’s ambitions or everyday life on its own.[^2]
 
@@ -34,11 +32,11 @@ Anthropologist Sujatarani Dandapat’s study, based on 2017–18 fieldwork centr
 
 Her account also follows cooperation between households. Neighbours and relatives helped families facing illness or a shortage of workers, and the household receiving help provided meals. Horticultural work relied more on family members. Food and labour therefore connected households as well as sustaining them.[^1]
 
-[Seed keeping](/stories/dongariya/seed-keeping/) follows another relationship between growers: obtaining, planting and returning seed. [Harvests and markets](/stories/dongariya/harvest-to-market/) continues the story through selling days, buyers and the costs of reaching them.
+[Seed keeping](/stories/dongria/seed-keeping/) follows another relationship between growers: obtaining, planting and returning seed. [Harvests and markets](/stories/dongria/harvest-to-market/) continues the story through selling days, buyers and the costs of reaching them.
 
 ## Learning in familiar words
 
-Knowledge also passes through shared work. In Kanak Rajadhyaksha’s November 2017 interviews, women described learning embroidery from paternal aunts.[^5] The account of [Kapadaganda and its makers](/stories/dongariya/kapadaganda/) follows those relationships; [Learning and belonging](/stories/dongariya/learning-and-belonging/) turns to students and teachers.
+Knowledge also passes through shared work. In Kanak Rajadhyaksha’s November 2017 interviews, women described learning embroidery from paternal aunts.[^5] The account of [Kapadaganda and its makers](/stories/dongria/kapadaganda/) follows those relationships; [Learning and belonging](/stories/dongria/learning-and-belonging/) turns to students and teachers.
 
 Language needs the same attention to particular speakers. The museum lists both Kui and Kuvi in its community profile. The Central Institute of Indian Languages maintains separate entries for the related languages and describes Kuvi as a Dravidian language spoken in Odisha and Andhra Pradesh, with writing in the Odia script.[^2][^3] The language of a song or a crop name cannot be settled by a community label alone.
 
@@ -46,9 +44,11 @@ Language needs the same attention to particular speakers. The museum lists both 
 
 A January 2026 parliamentary reply describes PM JANMAN support covering housing, water, education, healthcare and connectivity. Its Rayagada annex combines Dongria Kondh with other PVTGs; those district totals do not identify Dongria-only outcomes.[^6]
 
-The account of [homes and repair](/stories/dongariya/homes-and-repair/) follows what such totals leave open: whether a house shelters its residents and whether they can maintain it. Singari and Palari’s accounts ask a related question of the fields—what reaches the household, and who has a say? The next account follows land from household cultivation to the village assemblies that spoke about its future.
+The account of [homes and repair](/stories/dongria/homes-and-repair/) follows what such totals leave open: whether a house shelters its residents and whether they can maintain it. Singari and Palari’s accounts ask a related question of the fields—what reaches the household, and who has a say? The next account follows land from household cultivation to the village assemblies that spoke about its future.
 
 ## Footnotes and sources
+
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
 
 [^1]: Sujatarani Dandapat, [Traditional Ecological Knowledge and Continuation of Swidden Cultivation](https://www.arfjournals.com/image/catalog/Journals%20Papers/MII/2021/No.3-4/03.pdf), *Man In India* 101(3–4), 2021, pp. 159–173. Scope and methods pp. 160–161; crops and labour pp. 166–168. Fieldwork in 2017–18, centred on Kurli.
 
@@ -64,10 +64,10 @@ The account of [homes and repair](/stories/dongariya/homes-and-repair/) follows 
 
 ## Further reading
 
-Cloth and adornment: [Kapadaganda](/stories/dongariya/kapadaganda/) · [Ornaments in use](/stories/dongariya/ornaments-in-use/)
+Cloth and adornment: [Kapadaganda](/stories/dongria/kapadaganda/) · [Ornaments in use](/stories/dongria/ornaments-in-use/)
 
-Land and food: [Niyamgiri and village decisions](/stories/dongariya/niyamgiri/) · [Seed keeping](/stories/dongariya/seed-keeping/) · [Forest foods and home gardens in Rayagada](/stories/dongariya/forest-foods/), a regional companion whose evidence is not exclusively Dongariya · [Harvests and markets](/stories/dongariya/harvest-to-market/)
+Land and food: [Niyamgiri and village decisions](/stories/dongria/niyamgiri/) · [Seed keeping](/stories/dongria/seed-keeping/) · [Forest foods and home gardens in Rayagada](/stories/dongria/forest-foods/), a regional companion whose evidence is not exclusively Dongria · [Harvests and markets](/stories/dongria/harvest-to-market/)
 
-Home and learning: [Homes and repair](/stories/dongariya/homes-and-repair/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Songs and singers](/stories/dongariya/songs-and-singers/)
+Home and learning: [Homes and repair](/stories/dongria/homes-and-repair/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Songs and singers](/stories/dongria/songs-and-singers/)
 
-[Kuvi and the Jatapu script](/stories/dongariya/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.
+[Kuvi and the Jatapu script](/stories/dongria/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.

@@ -1,8 +1,8 @@
 ---
-title: "Songs and singers in Dongariya life"
+title: "Songs and singers in Dongria life"
 ---
 
-# Songs and singers in Dongariya life
+# Songs and singers in Dongria life
 
 By Ahimanikya Satapathy
 
@@ -10,9 +10,7 @@ By Ahimanikya Satapathy
 
 *Public dance performance identified by the photographer as Dongria Khond, photographed in 2018. This is not an identified song, singer or village ceremony.*
 
-Image: Debanutosh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg). Resized; composition unchanged.
-
-Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongariya singers mentoring younger people. Singers and ritual specialists also helped her record songs and stories, then translate and explain them in Odia and English.[^1]
+Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongria singers mentoring younger people. Singers and ritual specialists also helped her record songs and stories, then translate and explain them in Odia and English.[^1]
 
 ## Learning songs and their occasions
 
@@ -22,7 +20,7 @@ To listen is also to ask who is singing, whom they address and what has brought 
 
 ## Dambu Praska and remembered voices
 
-A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongaria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. The song, as presented in Living Farms’ English rendering, moves from food and the mountain’s gifts to fear for its future. The translator is not credited, and the original recording has not been checked here. The account dates from July 2009; the performance is undated.[^4]
+A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. The song, as presented in Living Farms’ English rendering, moves from food and the mountain’s gifts to fear for its future. The translator is not credited, and the original recording has not been checked here. The account dates from July 2009; the performance is undated.[^4]
 
 In a statement published by *Round Table India* in August 2018, students identifying themselves as from Niyamgiri said Video Republic’s videos helped them know and remember the late Dambu Praska.[^5]
 
@@ -48,6 +46,8 @@ Mishra learned with the help of singers and interpreters. For the students who w
 
 ## Footnotes and sources
 
+Image: Debanutosh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg). Resized; composition unchanged.
+
 [^1]: Priyadarshini Mishra, [Voices from the Mountain—Oral Tradition among the Dongaria Kondh of Rayagada, Odisha](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_11_2.pdf), *Lokaratna* XI(2), 2018, printed pp. 44–54; field visits and contributors pp. 45–46, song categories pp. 47 and 50. The article combines field observations with secondary descriptions; only the specified fieldwork material is used here. Names follow the printed account.
 
 [^2]: Debabrata Mohanty, [Dongria Kondhs release music album](https://indianexpress.com/article/news-archive/web/dongria-kondhs-release-music-album/), *The Indian Express*, 21 October 2010. Launch report, not a review of the recordings. Its “first-ever” claim is not adopted; its Kui language label has not been checked against the audio or with speakers. No lyrics or recordings are reproduced.
@@ -66,6 +66,6 @@ Mishra learned with the help of singers and interpreters. For the students who w
 
 ## Further reading
 
-[Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Keeping seeds in circulation](/stories/dongariya/seed-keeping/)
+[Learning and belonging](/stories/dongria/learning-and-belonging/) · [Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Keeping seeds in circulation](/stories/dongria/seed-keeping/)
 
-[Kuvi and the Jatapu script](/stories/dongariya/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.
+[Kuvi and the Jatapu script](/stories/dongria/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.

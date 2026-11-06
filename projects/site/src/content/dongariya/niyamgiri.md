@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Cultivated land in the Niyamgiri landscape, photographed in 2018.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Resized; composition unchanged.
-
 Suresh Wadaka explained a slope through the roots of its crops. In an undated study commissioned by Odisha’s Scheduled Castes and Scheduled Tribes Research and Training Institute, he described how shallow and deeper root systems worked differently against soil loss. Their spread and depth mattered when deciding what to plant together.[^1]
 
 The Foundation for Ecological Security’s researchers used interviews and walks in selected villages around Chatikona. Wadaka’s explanation offers one way of understanding cultivated land from the work done upon it; the study records village differences, language barriers and gaps in its seasonal observations.[^1]
@@ -48,6 +46,8 @@ Wadaka’s explanation of roots and the assemblies’ insistence on recording th
 
 ## Footnotes and sources
 
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_01.jpg). Resized; composition unchanged.
+
 [^1]: Foundation for Ecological Security, [SCSTRTI-commissioned land and water management study](https://repository.tribal.gov.in/upload/bitstream/123456789/61296/1/SCST_2015_research_0339.pdf), acknowledgement; printed pp. 49–50, 113. The report describes convenience sampling; publication date unverified.
 
 [^2]: Sujatarani Dandapat, [“Traditional Ecological Knowledge and Continuation of Swidden Cultivation: A Case Study of the Dongria Kondh of Niyamgiri Hills, Odisha”](https://www.arfjournals.com/image/catalog/Journals%20Papers/MII/2021/No.3-4/03.pdf), *Man In India* 101(3–4), 2021, pp. 159–173; study scope and methods pp. 160–161, crops pp. 166–167, labour p. 168. Fieldwork centred on Kurli in 2017–18; this is not a current survey of all Niyamgiri villages.
@@ -70,4 +70,4 @@ Wadaka’s explanation of roots and the assemblies’ insistence on recording th
 
 [Niyamgiri rights and mining: the legal overview](/reading-room/economy/niyamgiri-rights-and-mining/)
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Kapadaganda and its makers](/stories/dongariya/kapadaganda/) · [Forest foods and home gardens](/stories/dongariya/forest-foods/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Kapadaganda and its makers](/stories/dongria/kapadaganda/) · [Forest foods and home gardens](/stories/dongria/forest-foods/)

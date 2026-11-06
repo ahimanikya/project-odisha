@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Seed exchange in a Niyamgiri setting — an interpretive illustration. The figures and exchange are imagined; no seed variety is identified.*
 
-Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
-
 In Manipadma Jena’s July 2015 report, Dasara Kadraka of Kadaraguma described her concern about millet varieties disappearing from local fields. Jena described Dongria Kondh priestesses travelling between villages to obtain seeds for cultivation at home. Finding a seed began with finding someone who still grew it.[^1]
 
 A stored seed still needs a grower. Keeping it in use means planting, tending the crop and retaining enough of the harvest for another season.
@@ -50,6 +48,8 @@ A collection kept for planting and a field given to another crop can exist in th
 
 ## Footnotes and sources
 
+Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Clothing reference: [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_women_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The composition and activity are imagined.
+
 [^1]: Manipadma Jena, [Tribal Priestesses Become Guardians of Seeds in Eastern India](https://www.ipsnews.net/2015/07/tribal-priestesses-become-guardians-of-seeds-in-eastern-india/), Inter Press Service, 22 July 2015, “An intricate ritual.” Historical reporting; variety-loss recollections are not a botanical inventory.
 
 [^2]: Abhijit Mohanty, [The Dongria Kondh are reviving their indigenous foods](https://icmagazine.org/dongria-kondh-reviving-indigenous-foods/), Intercontinental Cry, 12 October 2017, “Reviving indigenous crops”; credited republication of VillageSquare reporting. Page updated 2 February 2026; that is not a new observation date. Ghana Majhi’s twelve-variety figure is a recollection, not an inspected inventory. Raibari Sisaka’s village is not specified. Full republication inspected; original article link could not be retrieved.
@@ -62,4 +62,4 @@ A collection kept for planting and a field given to another crop can exist in th
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Forest foods and home gardens](/stories/dongariya/forest-foods/) · [Niyamgiri and cultivation](/stories/dongariya/niyamgiri/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Forest foods and home gardens](/stories/dongria/forest-foods/) · [Niyamgiri and cultivation](/stories/dongria/niyamgiri/)

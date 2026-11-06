@@ -1,15 +1,15 @@
 ---
 type: "Editorial draft"
-title: "Songs and singers in Dongariya life"
+title: "Songs and singers in Dongria life"
 status: "draft for editorial review; not published"
 human_review_claimed: false
 ---
 
-# Songs and singers in Dongariya life
+# Songs and singers in Dongria life
 
 By Ahimanikya Satapathy
 
-Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongariya singers mentoring younger people. Singers and ritual specialists also helped her record songs and stories, then translate and explain them in Odia and English.[^1]
+Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongria singers mentoring younger people. Singers and ritual specialists also helped her record songs and stories, then translate and explain them in Odia and English.[^1]
 
 ## Learning songs and their occasions
 
@@ -19,7 +19,7 @@ To listen is also to ask who is singing, whom they address and what has brought 
 
 ## Dambu Praska and remembered voices
 
-A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongaria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. The song, as presented in Living Farms’ English rendering, moves from food and the mountain’s gifts to fear for its future. The translator is not credited, and the original recording has not been checked here. The account dates from July 2009; the performance is undated.[^4]
+A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. The song, as presented in Living Farms’ English rendering, moves from food and the mountain’s gifts to fear for its future. The translator is not credited, and the original recording has not been checked here. The account dates from July 2009; the performance is undated.[^4]
 
 In a statement published by *Round Table India* in August 2018, students identifying themselves as from Niyamgiri said Video Republic’s videos helped them know and remember the late Dambu Praska.[^5]
 
@@ -63,6 +63,6 @@ Mishra learned with the help of singers and interpreters. For the students who w
 
 ## Related reading
 
-[Learning and belonging](learning-and-belonging.md) · [Dongariya life in Niyamgiri](dongariya-life.md) · [Keeping seeds in circulation](seed-keeping.md)
+[Learning and belonging](learning-and-belonging.md) · [Dongria life in Niyamgiri](dongariya-life.md) · [Keeping seeds in circulation](seed-keeping.md)
 
 [Kuvi and the Jatapu script](kuvi-and-jatapu-script.md) follows the distinction between a language, a writing system and evidence of its use.

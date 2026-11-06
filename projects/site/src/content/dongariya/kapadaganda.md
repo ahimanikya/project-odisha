@@ -10,8 +10,6 @@ By Ahimanikya Satapathy
 
 *Fields and wooded hills in Niyamgiri, photographed in 2018. A landscape view of the region discussed here, not a photograph of Kapadaganda cloth.*
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
-
 Kumri Sikoka began learning embroidery at about nine or ten, taught by her father’s sister. Speaking to Kanak Rajadhyaksha in November 2017, she placed the skill within a family relationship. Other women also credited their *atta*, a paternal aunt.[^1]
 
 A Kapadaganda connects several kinds of work: weaving the cotton, embroidering its surface, and choosing how to wear or give it. “It is our identity,” Sindhe Wadakka of Khajuri told Annapurna Devi Pandey in an account published in April 2026. She related the joining of coloured threads to Kondh people coming together.[^9]
@@ -73,6 +71,8 @@ Kumri’s learning, Ram Hial’s cloth and Dinja’s question about payment belo
 
 ## Footnotes and sources
 
+Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Resized; composition unchanged.
+
 [^1]: Kanak Rajadhyaksha, [Kapdagondas: Embroidery and Work for Dongariya Kondh Women](https://www.sahapedia.org/kapdagondas-embroidery-and-work-dongariya-kondh-women), Sahapedia. Interviews conducted 8–14 November 2017 with women and development-agency staff. These are historical interview accounts, not current earnings data.
 
 [^2]: Kanak Rajadhyaksha, [Kapdagondas: Motifs and Technique](https://www.sahapedia.org/kapdagondas-motifs-and-technique), Sahapedia. Interviews conducted 8–14 November 2017; sections on motifs and process. The two Sahapedia articles draw on the same interview period and are not independent corroboration of one another.
@@ -117,6 +117,6 @@ Kumri’s learning, Ram Hial’s cloth and Dinja’s question about payment belo
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Niyamgiri and village decisions](/stories/dongariya/niyamgiri/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Niyamgiri and village decisions](/stories/dongria/niyamgiri/)
 
-[Kotpad and Kapadaganda through their makers](/stories/dongariya/kotpad-and-kapadaganda/) compares weaving, dyeing and embroidery across distinct regional traditions.
+[Kotpad and Kapadaganda through their makers](/stories/dongria/kotpad-and-kapadaganda/) compares weaving, dyeing and embroidery across distinct regional traditions.

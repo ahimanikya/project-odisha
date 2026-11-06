@@ -69,6 +69,6 @@ A household needs food as well as shelter. The next part of the story follows th
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Learning and belonging](learning-and-belonging.md) · [Niyamgiri and its landscape](niyamgiri.md) · [Harvests and markets](harvest-to-market.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Learning and belonging](learning-and-belonging.md) · [Niyamgiri and its landscape](niyamgiri.md) · [Harvests and markets](harvest-to-market.md)
 
 [Kapadaganda](kapadaganda.md) explores the embroidered cloth and its attributed colour and motif meanings.
