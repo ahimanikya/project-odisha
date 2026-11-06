@@ -1,6 +1,7 @@
 ---
 import Shell from '../../../layouts/Shell.astro';
 import articles from '../../../data/dongariya.json';
+import book from '../../../data/dongariya-book.json';
 const indexImage={src:'/assets/dongariya/00-index-clothing-1200w.webp',alt:'Illustration of two women wearing embroidered Dongria wraps against green hills.',width:1200,height:800};
 ---
 <Shell title="Dongria Kondh: cloth, language and life in Niyamgiri" description="Twelve connected articles on Kapadaganda, Kuvi, cultivation, learning and life in Niyamgiri, with sources and credited images." active="explore" related={false} shareImage={indexImage}>
@@ -11,6 +12,7 @@ const indexImage={src:'/assets/dongariya/00-index-clothing-1200w.webp',alt:'Illu
  <p class="series-image-credit">Adapted illustration: Project Odisha, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Adapted from a clothing reference: <a href="https://commons.wikimedia.org/wiki/File:The_Dongria_Khond_is_an_ancient_tribe_of_Odisha._The_Dongria_Khonds_women_performing_a_traditional_Khonda_dance.jpg">photograph by Debanutosh</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 </figure>
 <p>Read the twelve articles in sequence, or begin with a subject that draws you in. Each includes source notes; photographs and interpretive illustrations are identified in their captions.</p>
+<p><a href={book.file}>Download the book: {book.edition} · {book.pages} pages · PDF</a> ({(book.bytes / 1000000).toFixed(1)} MB). Includes the author’s note, a locator map, glossary and source notes.</p>
 <ol>{articles.map((article,index)=><li><span class="number">{String(index+1).padStart(2,'0')}</span><a href={`/stories/dongariya/${article.slug}/`}>{article.title}<span aria-hidden="true"> ↗</span></a></li>)}</ol>
 <p>By Ahimanikya Satapathy.</p></section>
 </Shell>

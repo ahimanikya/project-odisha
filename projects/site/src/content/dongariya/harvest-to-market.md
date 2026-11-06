@@ -26,7 +26,7 @@ In Abhijit Mohanty’s June 2020 reporting, Sindhe Wadaka of Khajuri said her ho
 
 Satyanarayan Patnaik’s August 2021 report described a different arrangement during pandemic restrictions on train movements. Traders were travelling to growers rather than relying on farmers bringing fruit down to Chatikona. Programme manager Sudarshan Padhi said this saved growers transport costs.[^4]
 
-These contrasting experiences concern different crops and households. Buyers coming to a farm could shorten the selling journey; they did not establish a wider recovery in growers’ earnings.
+These contrasting experiences concern different crops and households. Buyers coming to a farm could shorten the selling journey. These reports do not establish a wider recovery in growers’ earnings.
 
 ## What growers wanted from processing
 

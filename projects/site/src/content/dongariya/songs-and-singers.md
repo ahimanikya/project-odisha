@@ -32,7 +32,7 @@ A different setting appears in Debabrata Mohanty’s October 2010 report on the 
 
 The launch reports label the album’s language as Kui, an identification not checked here against the recordings or with speakers. Participation in the album does not establish the singers’ political views or a community position.
 
-Composer Manmath Mishra described combining modern instruments with *Nishan* and *Mohuri* for popular appeal, according to a separate launch report in *The New Indian Express*.[^3] These are his reported instrument names; the recordings have not been checked here.
+Composer Manmath Mishra described combining modern instruments with *Nishan* and *Mohuri* for popular appeal, according to a separate launch report in *The New Indian Express*.[^3] These are his reported instrument names.
 
 ## From recording to film
 
