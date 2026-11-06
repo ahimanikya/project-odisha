@@ -14,15 +14,15 @@ Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org
 
 In Manipadma Jena’s July 2015 report, Dasara Kadraka of Kadaraguma described her concern about millet varieties disappearing from local fields. Jena described Dongria Kondh priestesses travelling between villages to obtain seeds for cultivation at home. Finding a seed began with finding someone who still grew it.[^1]
 
-Seed keeping involves more than storage. It depends on planting, tending the crop and retaining enough of the harvest for another season.
+A stored seed still needs a grower. Keeping it in use means planting, tending the crop and retaining enough of the harvest for another season.
 
 ## Finding and sharing
 
-Jena described priestesses, known as *bejuni*, visiting a village where a sought-after variety survived. Seeds brought home were divided among five families. After harvest, recipients repaid the seed in grain at twice the quantity received, according to Jena’s account. Members of the neighbouring Dom community carried news about where seeds could be found.[^1]
+Jena described priestesses, known as *bejuni*, visiting a village where a sought-after variety survived. Seeds brought home were divided among five families. After harvest, recipients repaid the seed in grain at twice the quantity received, according to Jena’s account. Members of the neighbouring Dom community carried news about where seeds could be found. Jena also describes priestesses asking about varieties at weekly markets and village gatherings: the search depended on conversation as well as travel.[^1]
 
 The 2015 report located sought-after seeds in two villages: *khidi janha*, described as related to sorghum, in Jangojodi, and *kanga-arka*, described as a form of foxtail millet, in Sagadi.[^1] These are reported local crop names, rather than botanically verified identities.
 
-This exchange arrangement belongs to the 2015 account; it is not established as a rule for every Dongariya village.
+Jena describes a particular exchange arrangement in 2015, rather than a rule for every village.
 
 ## Keeping a collection alive
 
@@ -30,9 +30,9 @@ In Abhijit Mohanty’s 2017 reporting, Ghana Majhi, identified as a Dongria farm
 
 In Sonali Prasad’s December 2018 Mongabay account, Gatri Kadraka of Rodango displayed seeds of millets, pulses and vegetables.[^3]
 
-Prasad also described families in Hundijali retaining seed for future planting and helping households that lacked it. Her account of Bijun Parab placed seed preparation and offerings before the planting season, with women bringing cleaned seeds to a priestess.[^3]
+Prasad also described families in Hundijali retaining seed for future planting and helping households that lacked it. Her account of Bijun Parab describes women cleaning seed and making baskets before bringing it to a priestess. Kumtadi Sikoka of Hundijali explained the prayer as seeking the deities’ favour before sowing.[^3]
 
-A photograph caption in Prasad’s report identifies farmer Drambu Jakesika, priestess Kumtadi Sikoka and messenger Sanyasi Takri of Hundijali. Together, these roles connect cultivation, ritual and the work of carrying news between villages.[^3]
+Prasad’s photograph caption names three people from Hundijali: farmer Drambu Jakesika, priestess Kumtadi Sikoka and messenger Sanyasi Takri. Keeping those names beside their roles makes visible the different work involved in cultivation, ritual and carrying news.[^3]
 
 ## Seeds across cultivation years
 
@@ -44,11 +44,9 @@ Seed saving also depends on space in the fields. In Deepanwita Gita Niyogi’s N
 
 Having seed available and choosing to plant it are connected decisions. The earlier accounts of exchange and revival can coexist with later shortages: they concern different households and years, not a measured trend across Niyamgiri.
 
-## What survives through use
+## Making room for another crop
 
-These accounts do not tell us how many varieties survive today. They show the work that keeps planting material available, and the pressures that can interrupt it.
-
-Dasara’s search for seeds, Gatri’s household collection and the exchanges described in Hundijali make that work tangible. Continuity depends on people knowing where seeds can be found, sharing them and making room for the next crop.
+A collection kept for planting and a field given to another crop can exist in the same landscape. These accounts do not establish a current variety count. They show why keeping seed requires continuing relationships: someone must know where it can be found, someone must share it, and someone must make room to plant it.
 
 ## Footnotes and sources
 

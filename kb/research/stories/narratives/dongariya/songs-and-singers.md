@@ -9,13 +9,19 @@ human_review_claimed: false
 
 By Ahimanikya Satapathy
 
-Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongariya singers mentoring younger people, and singers and ritual specialists helping her document and interpret songs and stories.[^1]
+Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongariya singers mentoring younger people. Singers and ritual specialists also helped her record songs and stories, then translate and explain them in Odia and English.[^1]
 
 ## Learning songs and their occasions
 
 Mishra named Sinde Wadaka of Kurli, teacher Laxman Hikaka and Siba Kadrka of Mundabali among those who helped her preliminary research. She also recorded a return visit during 5–14 December 2018. Her discussion distinguished entertainment songs, songs associated with birth, marriage and death, and ritual songs.[^1]
 
-A song’s occasion matters: who sings, whom they address and what brings people together.
+To listen is also to ask who is singing, whom they address and what has brought people together.
+
+## Dambu Praska and remembered voices
+
+A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongaria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. The song, as presented in Living Farms’ English rendering, moves from food and the mountain’s gifts to fear for its future. The translator is not credited, and the original recording has not been checked here. The account dates from July 2009; the performance is undated.[^4]
+
+In a statement published by *Round Table India* in August 2018, students identifying themselves as from Niyamgiri said Video Republic’s videos helped them know and remember the late Dambu Praska.[^5]
 
 ## An album and its credits
 
@@ -23,13 +29,7 @@ A different setting appears in Debabrata Mohanty’s October 2010 report on the 
 
 The launch reports label the album’s language as Kui, an identification not checked here against the recordings or with speakers. Participation in the album does not establish the singers’ political views or a community position.
 
-A separate launch report in *The New Indian Express* attributed the album’s combination of modern instruments with *Nishan* and *Mohuri* to composer Manmath Mishra, who said the arrangement sought popular appeal.[^3] These are his reported instrument names, not an identification made by listening to the album.
-
-## Dambu Praska and remembered voices
-
-A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongaria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. In the account, the song connects the mountain’s gifts with fear for its future. The account dates from July 2009; the performance is undated.[^4]
-
-In a statement published by *Round Table India* in August 2018, students identifying themselves as from Niyamgiri said Video Republic’s videos helped them know and remember the late Dambu Praska. For these students, recordings offered a connection with an elder.[^5]
+Composer Manmath Mishra described combining modern instruments with *Nishan* and *Mohuri* for popular appeal, according to a separate launch report in *The New Indian Express*.[^3] These are his reported instrument names.
 
 ## From recording to film
 
@@ -37,11 +37,11 @@ CircaFilms’ own Vimeo description identifies Dambu Praska as the singer behind
 
 A separate Culture Unplugged entry for *The Lament of Niyamraja* credits Dash as director and producer of a 13-minute film. It lists 2007 under “Focus Years,” which does not establish an exact performance date.[^7] The credits distinguish singer, recorder and filmmakers, but do not establish whether both films use the same recorded take.
 
-In a compilation posted on 31 October 2020, Kriti Film Club records recommending Dash’s film on 15 June that year and recalls its own first screening in September 2009.[^8] This dates the club’s screening, not the performance or the film’s premiere. A YouTube link in the compilation shows another route by which the film circulated.
+Kriti Film Club recalls screening Dash’s film in September 2009 and recommended it again in June 2020.[^8] Its screening history records another way audiences encountered his work, without establishing the performance date or the film’s premiere.
 
 ## Listening with context
 
-Mishra’s mentors and the students remembering Dambu Praska show two ways songs pass between generations: learning from singers and encountering their recorded work. Composer, singer, recorder and filmmaker each contribute differently. Keeping their credits—and the song’s language and occasion—clear helps an audience understand what it is hearing.
+Mishra learned with the help of singers and interpreters. For the students who wrote about Dambu Praska, a recording was also a way of remembering a person. These encounters ask us to keep a voice connected to a person, a language and an occasion. The singer’s name matters as much as the song’s journey.
 
 ## Footnotes and sources
 

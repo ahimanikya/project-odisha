@@ -11,15 +11,15 @@ By Ahimanikya Satapathy
 
 Mana Manjhi feared losing her roof in wind and heavy rain. In a UNDP account displayed with an August 2022 date, the Dongria Kondh farmer said support to build a pucca house had brought relief: she felt more confident that she and her grandson would have shelter during a storm.[^1]
 
-Her concern was what the house would do when the weather turned bad. Keeping a home habitable also involves maintenance, money and access to help.
+The value she described was practical: shelter for two people when the weather changed. Keeping a home habitable also involves repairs, money and access to help.
 
 ## Building for the weather
 
 In their July 2016 study of Niyamgiri, Meenal Tatpati, Ashish Kothari and Rashi Mishra described earthen houses arranged in parallel rows, with wooden posts and steeply sloping thatched roofs. They related the low-reaching roofs to protection from wind and rain.[^2]
 
-This description of a building form and Mana’s experience of her own roof cannot establish how every thatched home performs.
+The researchers describe a particular building form; Mana speaks about her own home. Neither account settles how every thatched house performs.
 
-The study also recorded some young men’s interest in lighting homes and village streets. They preferred solar power and were concerned about electricity infrastructure passing through the forest.[^2]
+The young men interviewed also wanted lighting at home and in village streets as kerosene became more expensive. They favoured solar power, explaining their concerns about wires in dense forest and the roads needed to bring in electricity poles.[^2] Their preference joined an interest in useful services with concerns about how those services would reach them.
 
 ## Repair before the rains
 
@@ -31,25 +31,25 @@ The report connects seasonal sales with maintenance costs, but does not say whet
 
 An October 2022 OdishaBytes report raised a different concern: the deterioration of roofs on houses built through earlier government assistance. It described households seeking help with repair or replacement and reported obstacles to obtaining further support. Minister Jagannath Saraka said the relevant department had been informed and that the problems would be addressed.[^4]
 
-The report named no affected households and documented no completed repairs; the minister’s assurance was a promise of action.
+No affected household was named, and the report recorded an assurance rather than completed repairs.
 
 ## Houses counted and homes maintained
 
-A parliamentary reply dated 29 January 2026 reported 7,702 houses sanctioned and 6,004 completed under PM JANMAN in Rayagada. The reply explicitly covered Dongria Kondh alongside other Particularly Vulnerable Tribal Groups in the district.[^5]
-
-The district totals do not identify Dongariya recipients separately or connect completed houses to the families discussed in 2022.
+The scale of a housing programme is easier to count than the condition of a particular home. A January 2026 parliamentary reply reported 7,702 houses sanctioned and 6,004 completed under PM JANMAN in Rayagada, combining Dongria Kondh with other PVTGs. It does not identify Dongria-only recipients or connect the totals to the households discussed in 2022.[^5]
 
 ## Cloth designs on house walls
 
 House walls also became part of a public effort to promote Dongria art. In September 2023, *OdishaBytes* reported a Special Development Council initiative to decorate homes with Kapdaganda designs in villages including Khambesi, Khajuri and Kurli. The report connected these designs with forms used on shrine walls and embroidered cloth.[^6]
 
-Later that month, *The Times of India* quoted Rayagada collector Swadha Dev Singh describing recognition and tourism as aims of the wall-painting project. It also quoted Sindhe Wadeka, identified as president of the Niyamgiri Dongria Kondh Weavers Association, welcoming the promotion of the community’s art. The wider district initiative included Lanjia Soura *idital* paintings, a separate tradition.[^7]
+Sindhe Wadeka, identified as president of the Niyamgiri Dongria Kondh Weavers Association, welcomed the promotion of the community’s art and associated it with belonging in *The Times of India*’s account later that month. Rayagada collector Swadha Dev Singh described recognition and tourism as aims. The district initiative also included Lanjia Soura *idital* paintings, a separate tradition.[^7]
 
 The accounts describe a programme to promote art, without identifying who painted each wall or chose its design. They do not measure an increase in household income.
 
 ## A home judged by its residents
 
 Mana’s relief and the October 2022 requests for repairs concern different households. Both draw attention to life after construction: whether a roof holds, repairs are affordable and help arrives when needed. A count of completed houses leaves those everyday questions open.
+
+A household needs food as well as shelter. The next part of the story follows the seeds, gardens and harvests that help sustain it.
 
 ## Footnotes and sources
 
