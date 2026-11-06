@@ -1341,3 +1341,28 @@ Published all 50 readings, the strengthened people and milestones guide, illustr
 **1 November 2026 · published and verified**
 
 Seven profile illustrations were replaced with sourced photographs under the Founder’s editorial and publication direction. All 54 cinema pages and 249 referenced image files matched the live release; the 246-page digital and 254-page print downloads matched their reviewed hashes. Four images retain unverified reuse status. Earlier editions and historical evidence remain intact. See the [publication receipt](../records/cinema-portraits-publication-2026-11-01.json).
+
+
+### 5 November 2026 · Dongria coffee-table image sizing
+
+Revised the96-page unpublished draft: main photograph plates use85% text width; lower-resolution originals retain smaller placement limits. Captions align directly below each image with8pt spacing. Separate AI visual review and preservation checks passed for hash0348a0e6b004bec9a0b10cd72067fa012bc39cc1a56a960529fa840893b2e9d0. Reading edition and cover-panel bytes unchanged. Image permissions, higher-resolution replacements and physical print proof remain open; no publication. [Record](../records/dongria-coffee-table-20261105.json).
+
+
+### 5 November 2026 · Dongria composed photograph pages
+
+Recomposed seven smaller-photo pages with side captions, staggered pairs, alternating portraits and selected existing narrative sentences. The96-page draft retains89unchanged page streams and all95source notes; covers and original reading edition unchanged. Separate AI visual review passed exact hash440729b2642ae1019bfaf90178131acc0eed9fdf97e1003703d0b453b5615576. No publication; source-resolution and permission limits remain. [Record](../records/dongria-coffee-table-20261105.json).
+
+
+### 6 November 2026 · Dongria author opening and biography
+
+Added the author’s supplied dinner-and-shawl origin story as two opening pages and a short Project Odisha biography beside the back portrait. New98-page coffee-table draft andmatching coverpanels passed separateAIreview, source-text preservation andpaginationchecks. Attachments retained as authoradaptation references; not inserted as traditional-product documentation. Originalreadingedition unchanged. Hashb43c8bedc4a8548b4678595ed62db9e2af7d9ef0baacbd002599813916ebe3ad. No publication. [Record](../records/dongria-coffee-table-20261105.json).
+
+
+### 6 November 2026 · Dongria first-edition editorial preparation
+
+Added a sourced schematic locator,16-term glossary andpersonalclosing; resolvedfivecopyfindings. Reviewed104-page draft hash58391e6d2f964c2ea7fe8306955737450913c1d41e6a1083c585c82c2666ee65 preserves95notes andearlierreadingedition. Preparedreader/printerbriefs,bookdescription,rightsactionmatrix,unsentrequestdrafts andreviewerleads. Humanreview,imagepermission/resolution,ISBN/imprint/binding/printer andphysicalproof remainopen. Nooutreach orpublication. [Record](../records/dongria-coffee-table-20261105.json).
+
+
+### 6 November 2026 · Dongria photograph acquisition flags
+
+Flagged29items against the104-page draft and prepared a reviewed17-page illustrated photographer/buyer brief. Four verifiedstockleads andoriginal-photographer routes recorded. Kotpadsoftness explicitlyflagged despite nominaldensity. User reportslocalcollection arranged; no filesreceived, licence,purchase oroutreachcompleted. Bookandcoversunchanged. Briefhash2a3130b81f3850e6cc1af9566223fbf4abef3a71d64e64323134d1c5ba1bb18a. [Record](../records/dongria-coffee-table-20261105.json).

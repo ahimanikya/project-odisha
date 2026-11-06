@@ -1,0 +1,102 @@
+{
+  "id": "POD-DONGRIA-PREPUBLICATION-AUDIT-20261105",
+  "status": "reviewed_local_candidate_no_blocking_findings",
+  "scope": "All twelve articles, series index, complete book and cover panels; local review, no publication",
+  "authorization": "User requested whole-book/article audit and fixes before publication, and confirmed reuse of existing author portrait",
+  "coordinator": "Disha/root",
+  "reservations": {
+    "root": "Four narrative-order edits, corresponding KB narratives, preface wording, replacement stitch-band and audit records",
+    "Samanta": "Book builder, covers, rendered build checks; no unrelated web changes",
+    "Anvesha": "Read-only evidence review",
+    "Drishti": "Read-only independent AI editorial/visual review"
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "issue": "Author portrait missing from back cover",
+      "fix": "Reuse identified user-supplied portrait intact in book and separate cover panels",
+      "status": "fixed_and_reviewed"
+    },
+    {
+      "id": "F2",
+      "issue": "Transparent image canvases force sparse ending pages; closing heading separated from concluding paragraph",
+      "fix": "Compact spot layout and keep closing section coherent",
+      "status": "fixed_and_reviewed"
+    },
+    {
+      "id": "F3",
+      "issue": "Four Kotpad source notes unnecessarily split",
+      "fix": "Keep short note group together",
+      "status": "fixed_and_reviewed"
+    },
+    {
+      "id": "F4",
+      "issue": "Preface contents entry follows chapter12",
+      "fix": "Move to reading order before chapter1",
+      "status": "fixed_and_reviewed"
+    },
+    {
+      "id": "F5",
+      "issue": "Preface promises adjacent captions although captions appear in end picture notes",
+      "fix": "Correct reader direction to picture notes at back",
+      "status": "fixed_and_reviewed"
+    },
+    {
+      "id": "F6",
+      "issue": "Old cloth photo reference insufficiently establishes textile identity",
+      "fix": "Replace with original text-based stitch-band drawing; archive old asset/provenance",
+      "status": "fixed_and_reviewed"
+    },
+    {
+      "id": "F7",
+      "issue": "Four web narratives retain less human-centred order than revised book",
+      "fix": "Align life,cloth,songs,Kotpad narratives; preserve web footnotes/navigation and KB relative links",
+      "status": "fixed_and_reviewed"
+    }
+  ],
+  "coverage": {
+    "editorial": "All12book/web bodies; all64previousPDFpages visually screened; 95compactnotes reviewed",
+    "source": "Reuse existing source captures and targeted current verification; not all95externaldocuments freshly retrieved",
+    "engineering_baseline": "13routes x3widths(320/390/1280),848localreferences,95footnotes pass beforefinalrebuild"
+  },
+  "limitations": [
+    "No new community/specialist review or fieldwork",
+    "UNESCO PDF currentURLtimedout; earlier page-levelcapture/hash retained",
+    "No printer-specific bleed/spine/profile or physicalpressproof"
+  ],
+  "website_published": false,
+  "completed": "2026-11-05T08:37:30.868969+00:00",
+  "outputs": {
+    "dongria-kondh-life-in-niyamgiri.pdf": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/dongria-kondh-life-in-niyamgiri.pdf",
+      "sha256": "88a99a30aef8fbe30476b124a0cc10daea56ed8230c37dfefabc24c5688f4abd"
+    },
+    "dongria-cover-panels.pdf": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/dongria-cover-panels.pdf",
+      "sha256": "9b63617146fec387bd6e852685b5c5e508db2a62e91c435f4750baee431d1f83"
+    }
+  },
+  "final_checks": {
+    "book_pages": 64,
+    "cover_pages": 2,
+    "body_items": 247,
+    "source_notes": 95,
+    "pdf_destinations": 172,
+    "source_urls": 93,
+    "printed_note_page_references": 12,
+    "web_routes": 13,
+    "local_references": 848,
+    "responsive_checks": 39,
+    "viewport_widths": [
+      320,
+      390,
+      1280
+    ],
+    "site_build_pages": 1005,
+    "targeted_tests_pass": 4,
+    "disclosure_violations": 0,
+    "git_diff_check": "pass"
+  },
+  "review": "Anvesha source audit; Drishti full editorial/visual audit and final correction recheck; root visual/diff review. Separate AI reviews, not community or specialist approval.",
+  "remaining": "No blocking findings in reviewed scope. Physical press proof and printer-specific cover specifications remain separate from this digital/trim-size edition."
+}

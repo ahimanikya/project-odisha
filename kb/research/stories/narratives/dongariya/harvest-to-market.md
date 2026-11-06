@@ -11,7 +11,7 @@ By Ahimanikya Satapathy
 
 Telo Wadaka of Khajuri sold bananas, yams and pineapples at the weekly market in Chatikona, according to Deepanwita Gita Niyogi’s November 2022 reporting. Her journey from farm to market connects two parts of earning a living: growing produce and finding someone to buy it.[^1]
 
-Across the dated accounts that follow, growers describe long selling days, crops without buyers and hopes for local processing.
+Growers also describe the time spent selling, the effects of losing a buyer and the changes they wanted closer to home.
 
 ## A long selling day
 
@@ -19,25 +19,25 @@ In July 2017, Bikash Khemka reported growers’ frustration despite a plentiful 
 
 ## Selling during the pandemic
 
-In Abhijit Mohanty’s June 2020 reporting, Sindhe Wadaka of Khajuri said her household had collected harada and bahada but found no buyers. Shyam Wadaka described stocks of siyali leaves and seeds, harada, bahada and amla that he could not sell; he said access to Chatikana market was also blocked.[^3]
+In Abhijit Mohanty’s June 2020 reporting, Sindhe Wadaka of Khajuri said her household had collected harada and bahada but found no buyers. She described both routes closing: traders no longer came to her village, and she could not take produce to the foothills to sell it. Shyam Wadaka described stocks of siyali leaves and seeds, harada, bahada and amla that he could not sell; he said access to Chatikana market was also blocked.[^3]
 
 Satyanarayan Patnaik’s August 2021 report described a different arrangement during pandemic restrictions on train movements. Traders were travelling to growers rather than relying on farmers bringing fruit down to Chatikona. Programme manager Sudarshan Padhi said this saved growers transport costs.[^4]
 
 These contrasting experiences concern different crops and households. Buyers coming to a farm could shorten the selling journey; they did not establish a wider recovery in growers’ earnings.
 
-## Processing plans and later complaints
+## What growers wanted from processing
 
-On 7 July 2021, *The New Indian Express* reported that a unit at Chatikana was expected to begin operating within two weeks. DKDA manager Sudarshan Padhy described plans for direct purchasing from growers and for Dongria self-help groups to make and package pineapple products through ORMAS.[^6]
+Processing also appeared in later official plans. In July 2021, *The New Indian Express* reported an expected opening for a unit at Chatikana. DKDA manager Sudarshan Padhy described direct purchasing from growers and Dongria self-help groups making and packaging products through ORMAS. These were plans, not records of completed sales or jobs.[^6]
 
-The report described a planned opening and purchasing arrangement, rather than completed sales or established jobs.
+A September 2026 Pioneer feature returned to the question of processing. Sindhe Wadaka and Pulmi Wadaka said unreliable machinery and insufficient capacity at the Chatikona unit left them dependent on outside traders. Shasil of Khambasi explained his choice to sell to traders rather than let available fruit go to waste; Uma Sankar wanted cold storage for excess fruit.[^5]
 
-A September 2026 Pioneer feature returned to the question of processing. Sindhe Wadaka and Pulmi Wadaka said unreliable machinery and insufficient capacity at the Chatikona unit left them dependent on outside traders. Uma Sankar of Khambasi wanted cold storage for excess fruit.[^5]
-
-These accounts describe growers’ difficulties, without establishing the unit’s commissioning date, throughput or repair history.
+The women’s complaints return attention to whether the machinery served their needs. The reports do not establish the unit’s commissioning date, throughput or repair history.
 
 ## What the seller takes home
 
 Pula Majhi’s long selling day, the unsold forest produce and the later complaints about machinery show how much happens between harvest and payment. A sale price alone leaves out travel costs, time and produce that finds no buyer. For a grower, access to a market means both reaching a customer and bringing home a return worth the journey.
+
+Markets also appear in the accounts of Kapadaganda makers, who describe buying cloth and thread. Following those materials brings another kind of work into view.
 
 ## Footnotes and sources
 

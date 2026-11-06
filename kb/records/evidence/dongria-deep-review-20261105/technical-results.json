@@ -1,0 +1,185 @@
+{
+  "status": "passed_local_build_and_final_visual_review",
+  "date": "2026-11-05T10:27:01.263289+00:00",
+  "book": {
+    "pages": 64,
+    "sha256": "5a91ac731aa27fec6c375122af80e036d15b04002a4ffea85027d35e57485606",
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/dongria-kondh-life-in-niyamgiri.pdf"
+  },
+  "cover_panels": {
+    "pages": 2,
+    "sha256": "33a28c7cfba390f90383e4b7c6e0d9421bc19a73b2a5bb4cec9fdd57cfd39f74",
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/dongria-cover-panels.pdf"
+  },
+  "crossformat": {
+    "chapters": 12,
+    "notes": 95,
+    "errors": []
+  },
+  "pdf_checks": {
+    "comparison_basis": "book manuscript overrides; all 95 source notes compacted with authorisation; note IDs and per-note URLs retained",
+    "read_more_section_removed": true,
+    "preface_checked": true,
+    "body_blocks_and_table_cells_checked": 236,
+    "source_notes_checked": 95,
+    "text_preservation_failures": [],
+    "odia_actualtext_spans": 3,
+    "internal_links": 175,
+    "invalid_internal_destinations": [],
+    "embedded_fonts": [
+      {
+        "name": "/AAAAAA+SourceSerif4-Regular",
+        "embedded": true
+      },
+      {
+        "name": "/AAAAAA+SourceSerif4-Bold",
+        "embedded": true
+      },
+      {
+        "name": "/AAAAAA+SourceSerif4-It",
+        "embedded": true
+      },
+      {
+        "name": "/AAAAAA+ArialMT",
+        "embedded": true
+      }
+    ],
+    "book_pages": 64,
+    "cover_pages": 2
+  },
+  "sequence_checks": "PASS12 shared/webindex/TOC/chapter/note order,12webnext+counter includingfinalsongcycle;prefacebeforechapter1",
+  "site_build": {
+    "command": "npm run build:coast",
+    "passed": true,
+    "html_pages": 1005,
+    "log": "/tmp/dongria-deep-site.log"
+  },
+  "site_tests": {
+    "command": "node --test /tmp/dongria-coast-existing-tests.mjs",
+    "passed": 4,
+    "failed": 0,
+    "adaptation": "Temporary copy of existing four tests points dist paths to dist-coast; assertions unchanged."
+  },
+  "static_references": {
+    "pages": 13,
+    "local_references": 848,
+    "footnote_ids": 95,
+    "failures": []
+  },
+  "responsive": {
+    "engine": "installed Google Chrome via Playwright",
+    "widths": [
+      320,
+      390,
+      1280
+    ],
+    "checks": 39,
+    "failures": [],
+    "report": "/tmp/dongria-deep-web-audit.json"
+  },
+  "disclosure": {
+    "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/projects/site/dist-coast",
+    "pages": 1134,
+    "violations": []
+  },
+  "image_sizing": {
+    "text_width_points": 336,
+    "chapter_plate_max_width_points": 285.6,
+    "chapter_plate_max_height_points": 453.543,
+    "ordinary_inline_images": 0,
+    "heritage_max_width_points": 117.6,
+    "heritage_fraction": 0.35,
+    "chapter_fitted_sizes": [
+      {
+        "slug": "dongariya-life",
+        "image_width_points": 285.6,
+        "image_height_points": 214.2,
+        "actual_text_width_fraction": 0.85
+      },
+      {
+        "slug": "niyamgiri",
+        "image_width_points": 285.6,
+        "image_height_points": 214.2,
+        "actual_text_width_fraction": 0.85
+      },
+      {
+        "slug": "homes-and-repair",
+        "image_width_points": 283.679,
+        "image_height_points": 453.543,
+        "actual_text_width_fraction": 0.84428
+      },
+      {
+        "slug": "seed-keeping",
+        "image_width_points": 283.679,
+        "image_height_points": 453.543,
+        "actual_text_width_fraction": 0.84428
+      },
+      {
+        "slug": "forest-foods",
+        "image_width_points": 283.679,
+        "image_height_points": 453.543,
+        "actual_text_width_fraction": 0.84428
+      },
+      {
+        "slug": "harvest-to-market",
+        "image_width_points": 285.6,
+        "image_height_points": 214.2,
+        "actual_text_width_fraction": 0.85
+      },
+      {
+        "slug": "kapadaganda",
+        "image_width_points": 283.679,
+        "image_height_points": 453.543,
+        "actual_text_width_fraction": 0.84428
+      },
+      {
+        "slug": "ornaments-in-use",
+        "image_width_points": 285.6,
+        "image_height_points": 214.2,
+        "actual_text_width_fraction": 0.85
+      },
+      {
+        "slug": "kotpad-and-kapadaganda",
+        "image_width_points": 285.6,
+        "image_height_points": 160.65,
+        "actual_text_width_fraction": 0.85
+      },
+      {
+        "slug": "learning-and-belonging",
+        "image_width_points": 283.679,
+        "image_height_points": 453.543,
+        "actual_text_width_fraction": 0.84428
+      },
+      {
+        "slug": "kuvi-and-jatapu-script",
+        "image_width_points": 283.679,
+        "image_height_points": 453.543,
+        "actual_text_width_fraction": 0.84428
+      },
+      {
+        "slug": "songs-and-singers",
+        "image_width_points": 285.6,
+        "image_height_points": 214.2,
+        "actual_text_width_fraction": 0.85
+      }
+    ]
+  },
+  "layout_fixes": [
+    "Kuvi closing section kept together.",
+    "All eight songs notes kept together.",
+    "Each chapter picture credit kept whole.",
+    "Picture-credit paragraph spacing reduced from9pt to6pt; fonts unchanged.",
+    "Chapter plate maximum width corrected to85% of336pt column; aspect ratios and height limit retained."
+  ],
+  "qa_directory": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/dongria-book-design/qa-deep-review",
+  "publication": false,
+  "commit": false,
+  "final_visual_review": {
+    "reviewers": [
+      "Root/Disha, AI coordinator",
+      "Drishti, separate AI reviewer"
+    ],
+    "result": "All 64 pages inspected through contact sheets, affected final pages enlarged; no remaining blocking issue found.",
+    "book_sha256": "5a91ac731aa27fec6c375122af80e036d15b04002a4ffea85027d35e57485606"
+  }
+}

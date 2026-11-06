@@ -1,0 +1,128 @@
+{
+  "id": "POD-DONGRIA-BOOK-NARRATIVE-AUDIT-20261105",
+  "status": "delivered_local_review_edition",
+  "authorization": "User requested book audit, human-centred narrative and a verified well-known saying or song excerpt.",
+  "scope": "Local book manuscript and PDF revision; published website unchanged.",
+  "coordinator": "Disha (root AI agent)",
+  "assignments": {
+    "Samanta": "output/dongria-book-design/build_book.py, manuscript/, narrative changes record; sequential chapter edits; build after coordinator marker",
+    "Anvesha": "Read-only literary excerpt verification",
+    "Drishti": "Read-only independent AI editorial and image audit"
+  },
+  "limits": [
+    "No invented interviews, dialogue, sensory scenes or emotions",
+    "No claim of community or human specialist review",
+    "All source notes and factual qualifications preserved",
+    "No website publication"
+  ],
+  "additional_user_direction": "Insert line art based on elements from Dongria Kondh life.",
+  "audit_findings": {
+    "overall": "All twelve chapters already contain credible named human agency. Targeted revision is preferable to wholesale rewriting. Repeated evidence-limit paragraphs and catalogue chronology sometimes displace people.",
+    "dongariya-life": "Bring differing household crop priorities forward.",
+    "kapadaganda": "Foreground learning, work, payment and makers choices.",
+    "ornaments-in-use": "Preserve practical use and wearer interpretation.",
+    "niyamgiri": "Connect cultivation knowledge and villagers defining claims; retain dates and legal limits.",
+    "seed-keeping": "Keep named growers, priestesses and messengers active; avoid timeless harmony.",
+    "forest-foods": "Preserve regional multi-community scope and women choosing what to gather, grow and buy.",
+    "harvest-to-market": "Preserve selling time, costs and growers requests.",
+    "homes-and-repair": "Keep Mana preference for secure shelter; avoid romanticising thatch.",
+    "learning-and-belonging": "Foreground students and peer teaching; reduce duplicated inventory framing.",
+    "kuvi-and-jatapu-script": "Avoid repeating classroom opening; distinguish all three writing systems.",
+    "songs-and-singers": "Centre Dambu and remembrance before distribution and album records.",
+    "kotpad-and-kapadaganda": "Begin with named makers and different work, preserving unproven supply connection."
+  },
+  "literary_sources": [
+    {
+      "author": "Rabindranath Tagore",
+      "work": "Gitanjali 35",
+      "excerpt": "Where the mind is without fear and the head is held high;",
+      "source": "https://poets.org/poem/gitanjali-35-0/print",
+      "scope": "External literary epigraph, not a Dongria saying. Source explicitly identifies public domain."
+    },
+    {
+      "performer": "Dambu Praska",
+      "excerpt": "He created fruit in the hills, grains in the plains,",
+      "word_count": 10,
+      "source": "https://grain.org/en/article/743-endangered-tribals-up-against-the-terror-of-vedanta",
+      "publication": "Living Farms, 26 July 2009",
+      "scope": "Published English rendering; translator unnamed, original recording and language unverified. Not claimed widely known."
+    }
+  ],
+  "review_provenance": {
+    "reviewer": "Drishti, separate AI agent",
+    "read": "All12 chapter bodies and current book representation",
+    "not_claimed": [
+      "community review",
+      "human specialist review",
+      "fresh full fact verification"
+    ]
+  },
+  "resolved_editorial_findings": [
+    "Household crop priorities precede administrative profile",
+    "Learning, work and payment precede colour glossary",
+    "Dambu Praska and student remembrance precede album chronology",
+    "Language chapter bridges from prior classroom account instead of repeating opening",
+    "Kotpad comparison begins with named makers",
+    "Further reading consolidated to avoid web-style closing fragments",
+    "Verified external epigraph and bounded attributed song excerpt added"
+  ],
+  "remaining_limits": [
+    "Research and programme chronology remains where needed for factual distinctions",
+    "No community or human specialist review conducted",
+    "Original song audio and unnamed translator remain unverified",
+    "Tagged-PDF accessibility and physical printer proof not established",
+    "Published website remains unchanged"
+  ],
+  "outputs": {
+    "book": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/dongria-kondh-life-in-niyamgiri.pdf",
+    "book_pages": 72,
+    "sha256": "79a81b6e7bdb9faf7e3ade205e1b8f2b946eb8f95d89e79a5b320e45a525994d",
+    "cover_panels": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/dongria-cover-panels.pdf",
+    "cover_sha256": "598b29e7622a5d5a1067ff7affd1328cdf72769a1d476e89fed662a3213f2599"
+  },
+  "validation": {
+    "date": "2026-11-05T06:50:48.741935+00:00",
+    "narrative": "All12chapters and revision diff reviewed by separate AI reviewer Drishti and root; excerpt wording verified against published sources.",
+    "visual": "Root inspected fullbook contact sheets and reading-size preface/song/line-art/changed closing pages; final compact navigation and final forest section checked after revision.",
+    "technical": {
+      "comparison_basis": "book manuscript overrides; all source note IDs retained, note 4 in songs amended",
+      "reading_destinations_checked": 14,
+      "preface_checked": true,
+      "body_blocks_and_table_cells_checked": 259,
+      "source_notes_checked": 95,
+      "text_preservation_failures": [],
+      "odia_actualtext_spans": 3,
+      "internal_links": 298,
+      "invalid_internal_destinations": [],
+      "embedded_fonts": [
+        {
+          "name": "/AAAAAA+SourceSerif4-Regular",
+          "embedded": true
+        },
+        {
+          "name": "/AAAAAA+SourceSerif4-Bold",
+          "embedded": true
+        },
+        {
+          "name": "/AAAAAA+SourceSerif4-It",
+          "embedded": true
+        },
+        {
+          "name": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "book_pages": 72,
+      "cover_pages": 2
+    },
+    "scope_limit": "Not a fresh re-verification of every factual source, community review, or printer certification."
+  },
+  "line_art": {
+    "count": 3,
+    "image_width_fraction_of_text": 0.85,
+    "record": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/dongria-book-design/line-art/provenance.json"
+  },
+  "assignments_released": true,
+  "publication": "Not required for local book delivery; no website changes or deployment.",
+  "prior_editions": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/dongria-book-design/previous"
+}

@@ -8,80 +8,64 @@ human_review_claimed: false
 
 By Ahimanikya Satapathy
 
-A Kapadaganda takes shape twice: first as woven cotton, then as embroidery. Dongria Kondh women work coloured threads into the fabric, building patterns whose meanings connect the cloth with Niyamgiri.[^5]
+Kumri Sikoka began learning embroidery at about nine or ten, taught by her father’s sister. Speaking to Kanak Rajadhyaksha in November 2017, she placed the skill within a family relationship. Other women also credited their *atta*, a paternal aunt.[^1]
 
-“It is our identity,” Sindhe Wadakka of Khajuri told Annapurna Devi Pandey in an account published in April 2026. She described the joining of coloured threads in relation to Kondh people coming together.[^9]
+A Kapadaganda connects several kinds of work: weaving the cotton, embroidering its surface, and choosing how to wear or give it. “It is our identity,” Sindhe Wadakka of Khajuri told Annapurna Devi Pandey in an account published in April 2026. She related the joining of coloured threads to Kondh people coming together.[^9]
 
-## The cloth beneath the colour
+## Learning, making and giving
 
-In a 2023 interview, textile researcher Pankaja Sethi described a foundation of unbleached cotton, loosely woven in a construction resembling basket weave, with paired warp and weft yarns. She traced its traditional production to neighbouring Dom weavers. Women then embroidered along the weave, counting fabric threads to position their work.[^5]
+Rajadhyaksha’s interviews follow embroidery alongside farming and household work. Binjo Jakesika and Sukri Kadraka fitted stitching into the time available; long training sessions could cause discomfort. Site Jakesika valued the independence that selling her work could bring.[^1]
 
-Kala Bhoomi’s catalogue describes another part of that relationship: harvested crops exchanged for the coarse base cloth supplied by Domb weavers. Its raw-cloth entry does not date the exchange or specify quantities, so it cannot tell us whether this arrangement continues today.[^5]
+The companion account describes wraps made for oneself, relatives or lovers, and worn at weddings and festivals. People could wrap and drape them in several ways. Not every woman embroidered: the account records choices about whether to do this work as well as how it was done.[^2]
 
-Twinkle Rastogi’s fieldwork paper, published in January 2023, describes another part of this preparation: the cotton warp is dipped in a mixture of maida flour and water, squeezed and stretched out to dry before weaving. This sizing strengthens the yarn and helps prevent threads from tangling and breaking. Her account places the weaving work with Hiyal Rama of Jigidi village.[^17]
+Binjo described wearing her own embroidery for celebrations until the cloth tore, then making another. Site sometimes preferred buying gifts because embroidery took so much work.[^1]
 
-That supply of cloth has its own history of difficulty. In July 2019, *The New Indian Express* reported that Ram Hial was the remaining base-cloth weaver in Jhigidi village. He had learned from his father, Kamala Hial, and associated the decline in weaving with demanding work and low returns. Officials obtained replacement cloth from Mayurbhanj, but embroiderers said it did not match the material Hial supplied.[^3]
+Making a cloth for someone and making one for sale could involve the same skill, but different relationships. In the 2017 interviews, Kumri reported selling two shawls for ₹2,000 each. At the DKDA training centre, women received ₹100 a day, lunch and materials; Binjo and Site did not know the eventual selling price of that work. These were different historical payment arrangements, not current rates or measures of profit.[^1]
 
-The supply problem remained in public discussion in August 2026. Diana Sahu reported that Jhigidi’s weavers had stopped producing the fabric. Department secretary Guha Poonam Tapas Kumar described plans for a local weaving cluster, with cloth from Koraput as a fallback. A detailed project report was still being sought.[^7]
+## The cloth beneath the stitches
 
-The proposed cluster’s production and deliveries remain unverified.
+The embroiderer’s work begins with someone else’s weaving. In July 2019, *The New Indian Express* followed Ram Hial in Jhigidi, where he had learned to weave from his father, Kamala Hial. The report described him as the village’s remaining maker of Kapadaganda base cloth. When officials brought replacement cloth from Mayurbhanj, embroiderers said it did not match his fabric.[^3]
 
-## Making and reading the pattern
+Textile researcher Pankaja Sethi describes unbleached cotton, loosely woven with paired warp and weft yarns in a construction resembling basket weave. She traces its traditional production to neighbouring Dom weavers. The open structure lets women count fabric threads as they position their embroidery.[^5]
 
-Kanak Rajadhyaksha’s account, drawn from interviews in November 2017, describes embroidery proceeding row by row in satin stitch. Women straighten the worked cloth and trim loose ends with a *katri*, a blade-shaped hair ornament.[^2]
+Preparing those yarns also takes work. Twinkle Rastogi’s fieldwork paper, published in January 2023, describes cotton warp dipped in maida flour and water, squeezed and stretched to dry. This sizing strengthens the yarn and helps prevent tangling and breakage. Her account names Hiyal Rama of Jigidi; it does not establish whether he is the Ram Hial named in the earlier report.[^17]
 
-In those interviews, *linga*, a triangular motif, represented the mountains and Niyam Raja. *Kairi*, diagonal lines, referred to cultivated fields; *akka*, larger triangles, to leaves; and *kanaka*, a circular motif, to eyes. The account also records variation in the size and arrangement of designs.[^2]
+In the 2017 interviews, Sukri recalled exchanging fruit for base cloth, followed by buying it with money at markets.[^1] Kala Bhoomi’s raw-cloth catalogue records harvested crops exchanged for cloth supplied by Domb weavers. The entry gives neither a transaction date nor quantities, leaving the continuation of that arrangement uncertain.[^5]
 
-In Deepanwita Gita Niyogi’s January 2026 reporting, Sumita Wadaka of Khambeshi called the triangle designs *Kudi Linga* and the lines *Keri*, connecting them with Niyamgiri’s history.[^8] The terms and their meanings remain specific to the speakers who explain them.
+## Working a pattern, explaining its meaning
 
-## Colours and their meanings
+Rajadhyaksha describes embroidery proceeding row by row in satin stitch. Women straighten the worked cloth and trim loose ends with a *katri*, a blade-shaped hair ornament. They buy coloured thread at weekly markets; Ritu Sethi’s 2022 UNESCO survey also describes a shift towards purchased thread.[^2][^18]
 
-Red, yellow and green recur in descriptions of Kapadaganda, alongside threads described as brown or maroon. Their meanings connect embroidery with cultivation, worship and community life.[^2][^5][^11]
+In Rajadhyaksha’s interviews, *linga*, a triangular motif, represented the mountains and Niyam Raja. *Kairi*, diagonal lines, referred to cultivated fields; *akka*, larger triangles, to leaves; and *kanaka*, a circular motif, to eyes. The women’s designs varied in size and arrangement.[^2]
+
+Sumita Wadaka of Khambeshi used the terms *Kudi Linga* for triangle designs and *Keri* for lines in Deepanwita Gita Niyogi’s January 2026 reporting, connecting them with Niyamgiri’s history.[^8] Keeping the speaker beside the explanation allows those differences to remain visible.
+
+## Colours in cloth and language
+
+Red, yellow and green recur alongside threads described as brown or maroon. The explanations connect embroidery with cultivation, worship and community life.[^2][^5][^11]
 
 | Colour | Attributed meanings |
 | --- | --- |
-| Red and maroon | Textile researcher Pankaja Sethi associates them with blood sacrifice.[^5] |
-| Green | Sethi relates it to the forest; the GI application description also links it with soil fertility and mountain biodiversity.[^5][^11] |
-| Yellow | Sethi associates it with turmeric. The GI description adds reciprocal help, harmony and community well-being.[^5][^11] |
-| Dark brown | Kanak Rajadhyaksha’s interview account connects it to cultivated soil in the mountain motif.[^2] |
+| Red and maroon | Pankaja Sethi associates them with blood sacrifice.[^5] |
+| Green | Sethi relates it to the forest; the GI description also names soil fertility and mountain biodiversity.[^5][^11] |
+| Yellow | Sethi associates it with turmeric; the GI description adds reciprocal help, harmony and community well-being.[^5][^11] |
+| Dark brown | Rajadhyaksha’s interview account connects it to cultivated soil in the mountain motif.[^2] |
 
-The GI description names red as *Kambita*, yellow as *Hinga* and green as *Sanja*. Rajadhyaksha records *netru* alongside red, *hinga* alongside yellow and *kadi* alongside dark brown.[^2][^11] A study by Sanghamitra Sethi and Paramananda Naik, published in 2020, records *Kambiti* for red, *Aka* for green, *Hinga* for yellow and *Mirga* for brown. The authors report research with 40 women and girls in Kurli gram panchayat.[^13] The sources do not explain whether the differences reflect pronunciation, transcription or usage; the terms remain source-specific.
+Colour words vary between accounts. The GI description gives *Kambita*, *Hinga* and *Sanja* for red, yellow and green. Rajadhyaksha records *netru*, *hinga* and *kadi* alongside red, yellow and dark brown. Sanghamitra Sethi and Paramananda Naik’s study of 40 women and girls in Kurli gram panchayat records *Kambiti*, *Aka*, *Hinga* and *Mirga* for red, green, yellow and brown.[^2][^11][^13] The sources do not resolve the differences in wording.
 
-The 2018 *Odia–Kuvi Sabdakosh* adds context: its blood entry includes **ନେତରୁ**, while turmeric is **ହିଙ୍ଗା** and yellow is **ହିଙ୍ଗାରାଙ୍ଗୁ**.[^12] A later word list gives both short and longer forms for yellow.[^12] The entries connect colour vocabulary with substances, but do not settle the embroidery terms.
+The 2018 *Odia–Kuvi Sabdakosh* adds another connection: its blood entry includes **ନେତରୁ**, while turmeric is **ହିଙ୍ଗା** and yellow is **ହିଙ୍ଗାରାଙ୍ଗୁ**.[^12] These entries help explain relationships between words and substances; they do not establish a dye recipe. Sethi treats earlier natural dyes as probable, while the GI description asserts forest-derived colours without a dated recipe or material test in the inspected passages. A yellow thread’s association with turmeric does not show what dyed it.[^5][^11]
 
-Symbolism does not identify a dye. Sethi describes earlier natural dyes as probable; the GI description asserts forest-derived colours, without providing a dated recipe or material test in the inspected passages.[^5][^11] A yellow thread’s association with turmeric does not establish that it was dyed with it.
+## Recognition and what reaches the maker
 
-The thread also has a history of purchase. Rajadhyaksha’s 2017 interview account describes women buying coloured thread at weekly markets for convenience; Ritu Sethi’s 2022 UNESCO survey likewise describes a shift toward purchased embroidery thread.[^2][^18] Purchased thread does not identify a shawl’s dye.
+In August 2026, embroiderer and former Kurli sarpanch Dinja Jakesika described greater demand and recognition, while questioning how much retail benefit reached the women. She also described training to apply Kapadaganda motifs to garments, bags, notebooks and other products.[^6]
 
-## Learning and wearing Kapadaganda
+Formal recognition and public support took several forms. Kapadaganda’s GI certificate is dated 2 January 2024; its application names the Niyamgiri Dongoria Kandho Weavers Association and SCSTRTI.[^4] A parliamentary reply records toolkits distributed to 20 artisans, while AdiShilpi records describe designer recruitment and plans for training, materials and honoraria. These documents establish particular kinds of support, not subsequent earnings.[^10][^14][^16]
 
-Kumri Sikoka told Rajadhyaksha that she began learning at about nine or ten, taught by her father’s sister. Other women interviewed also credited their *atta*, a paternal aunt. [^1]
+Reliable cloth remained a concern. Diana Sahu’s August 2026 reporting said Jhigidi’s weavers had stopped producing the fabric. Officials proposed a local weaving cluster, with Koraput cloth as a fallback. The report named Lahari Kundika, Murudi Wadaka and Bangari Wadaka of Khambesi as selected trainers. That selection recognised expertise within the community; completed training, cluster production and deliveries were not established.[^7]
 
-Rajadhyaksha’s companion account describes Kapadaganda being worn at weddings and festivals, and made for oneself, relatives or lovers. Its uses include wrapping and draping the body in several ways.[^2]
+New markets raise Dinja’s question again. RISA promoted Dongria embroidery and Kotpad cotton as distinct traditions.[^15] Boito’s “Dongria Overlay” description does not name its embroiderer or payment. A related profile’s prompt-payment testimony comes from Kotpad weaver Jagabandhu Panika, not a Dongria embroiderer.[^19] Folkweave’s Kapadaganda work appears among several regional textile traditions, and SPREAD’s reported exhibition sales combine several crafts; that total cannot identify an individual embroiderer’s return.[^20][^21]
 
-Making it took time alongside other work. Binjo Jakesika and Sukri Kadraka described fitting embroidery around farming and domestic tasks; long training sessions could cause discomfort. Site Jakesika valued the independence that sales could bring. [^1]
-
-The 2017 interviews distinguish selling a shawl from attending training. Kumri reported selling two shawls for ₹2,000 each. At the DKDA training centre, women received ₹100 a day, lunch and materials; Binjo and Site said they did not know the eventual selling price of the work made there.[^1] These are historical accounts of different payment arrangements, not current wage rates or a calculation of profit.
-
-## A reputation beyond Niyamgiri
-
-Kapadaganda received formal recognition through the geographical indications register. Application 773 names the Niyamgiri Dongoria Kandho Weavers Association and Odisha’s Scheduled Castes and Scheduled Tribes Research and Training Institute. Filed on 3 August 2021, it carries a certificate dated 2 January 2024.[^4]
-
-Support has taken several forms. A July 2023 parliamentary reply reported toolkits distributed to 20 Scheduled Tribe artisans practising Kapadaganda embroidery.[^10] AdiShilpi later sought a designer, with an empanelment recorded in the 2024–25 departmental report.[^16] Its March 2025 guidelines budgeted for training, materials and daily honoraria for 30 artisans over six months.[^14] These records describe distribution, recruitment and planned support; they do not establish subsequent earnings.
-
-## New products and makers’ returns
-
-The Ministry of Tribal Affairs launched *RISA: Timeless Tribal* in March 2026, including Dongria embroidery and Kotpad cotton as separate traditions; a dedicated New Delhi store followed in June.[^15] Shared promotion gives the crafts a common platform, but does not establish a cloth-supply relationship or payments to named makers.
-
-Boito describes its “Dongria Overlay” as made from a community-embroidered Kapdaganda shawl with dhokra accents, without naming the embroiderer or payment. Rekha Balakrishnan’s June 2024 profile describes the garment, but its prompt-payment testimony comes from Kotpad weaver Jagabandhu Panika, not a Dongria embroiderer.[^19]
-
-Folkweave offers another market route. Kiran Yadav’s February 2026 profile places its Kapadaganda work among several southern Odisha textile traditions.[^20] SPREAD’s 2024–25 report records ₹10.68 lakh in exhibition sales across its Rang Kerang programme, which includes Folkweave and several kinds of craft.[^21] That combined total cannot tell us how much came from Kapadaganda or reached its embroiderers.
-
-In Diana Sahu’s August 2026 reporting, embroiderer and former Kurli sarpanch Dinja Jakesika described increased demand and recognition, while questioning how much retail benefit reached the women. She also described training to apply Kapadaganda motifs to garments, bags, notebooks and other products.[^6]
-
-A pattern alone cannot identify its maker or what they received for the work.
-
-The accounts of Ram Hial, the women learning from their aunts, and Dinja Jakesika connect Kapadaganda’s reputation to particular skills and working lives. Recognition brings attention to the cloth. Reliable materials, room for makers’ choices and the terms of payment determine what that attention can offer the people making it.
+Kumri’s learning, Ram Hial’s cloth and Dinja’s question about payment belong to different moments in this history. Together they keep attention on the relationships that make the finished wrap possible: someone teaches, someone weaves, someone stitches, and someone wears or buys the work.
 
 ## Footnotes and sources
 
