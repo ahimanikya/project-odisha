@@ -257,3 +257,20 @@ test('publication scope includes every current cinema reading and complete image
  test('purposeful line drawings appear once without replacing article images',()=>{
  const ids=new Set();for(const item of cinemaNarrative.line_art){assert.ok(!ids.has(item.id));ids.add(item.id);const entry=cinema.articles.find(a=>a.slug===item.slug);const html=cinemaArticle(entry).fullHTML;assert.equal(html.split('data-line-art="'+item.id+'"').length-1,1);assert.equal((html.match(/<figure\b/g)||[]).length,entry.images.length);assert.equal(hash(fs.readFileSync(path.join(root,item.image))),hash(fs.readFileSync(path.join(site,'public',item.public_image))));}
 });
+
+
+test('standalone introduction is a separate verified download, outside the two book editions',()=>{
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,cinema.review_book_manifest),'utf8'));
+ const asset=manifest.assets.find(a=>a.edition==='standalone-introduction');assert.ok(asset);
+ const intro=cinema.standalone_intro;assert.ok(intro);assert.equal(cinema.review_books.length,2);
+ for(const key of ['pages','bytes','sha256'])assert.equal(intro[key],asset[key]);
+ assert.equal(intro.file,asset.planned_release_url);
+ assert.equal(path.posix.basename(new URL(intro.file).pathname),asset.filename);
+ assert.equal(new URL(intro.file).origin,'https://github.com');
+ assert.ok(!cinema.review_books.some(b=>b.file===intro.file));
+ assert.match(intro.sha256,/^[a-f0-9]{64}$/);assert.ok(Number.isInteger(intro.bytes)&&intro.bytes>0);assert.equal(intro.pages,6);
+ const localPath=path.join(root,asset.path);
+ if(fs.existsSync(localPath)){const bytes=fs.readFileSync(localPath);assert.equal(bytes.length,intro.bytes);assert.equal(hash(bytes),intro.sha256);}
+ const page=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');
+ assert.ok(page.includes('href={cinema.standalone_intro.file}'));assert.ok(page.includes('standalone PDF'));
+});

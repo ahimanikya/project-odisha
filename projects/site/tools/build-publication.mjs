@@ -1,10 +1,11 @@
 import {shareJourneyData} from './shared-journey-data.mjs';
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
 import {readFile,writeFile,cp,rm,lstat,readdir,mkdir} from 'node:fs/promises';
-import {optimizePublicationJPEGs} from './optimize-publication-jpeg.mjs';
+import {deliveryJPEGs,optimizePublicationJPEGs} from './optimize-publication-jpeg.mjs';
 import {eligiblePNG,optimizePublicationPNGs} from './optimize-publication-png.mjs';
 import {fileURLToPath} from 'node:url';
 import {publicationPlan,publicationPage,publicationCrawlerFiles} from '../src/lib/search-publication.mjs';
+export const eligiblePublicationOptimization=path=>eligiblePNG(path)||deliveryJPEGs.includes(path);
 export async function buildPublication(site){
  const read=async path=>JSON.parse(await readFile(new URL(path,site),'utf8'));
  const scope=await read('editions/coast.json'),selection=await read('editions/search-candidate.json'),policy=await read('editions/search-publication.json'),records=await read('../../kb/registers/records.json');
@@ -26,7 +27,7 @@ export async function buildPublication(site){
  }
  if((await lstat(input)).isSymbolicLink())throw Error('Publication input must not be a symlink');
  await walk(input);
- const nonOptimizableBytes=(await Promise.all(files.filter(path=>!eligiblePNG(path)).map(async path=>(await lstat(new URL(path,input))).size))).reduce((sum,size)=>sum+size,0);
+ const nonOptimizableBytes=(await Promise.all(files.filter(path=>!eligiblePublicationOptimization(path)).map(async path=>(await lstat(new URL(path,input))).size))).reduce((sum,size)=>sum+size,0);
  // Reject impossible oversized inputs before copying (also protects sparse-file fixtures).
  if(nonOptimizableBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${nonOptimizableBytes} non-optimizable bytes`);
  const paths=scope.routes.map(route=>route==='/'?'index.html':route.slice(1)+(route.endsWith('/')?'index.html':''));

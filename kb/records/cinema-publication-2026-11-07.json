@@ -1,7 +1,7 @@
 {
   "id": "POD-CINEMA-PUBLICATION-20261107",
   "date": "2026-11-07",
-  "status": "preparing_release",
+  "status": "release_checks_in_progress",
   "authorization": {
     "actor": "Ahimanikya Satapathy",
     "request": "Push all changes to the website?",
@@ -17,7 +17,10 @@
       "outputs/cinema-publication-20261107/content-audit.json"
     ],
     "Samanta": [
-      "outputs/cinema-publication-20261107/engineering-plan.json"
+      "projects/site/src/data/cinema.json",
+      "projects/site/src/pages/cinema/book.astro",
+      "projects/site/tests/cinema-release.test.mjs",
+      "outputs/cinema-publication-20261107/book-release-manifest.json"
     ],
     "Drishti": [
       "outputs/cinema-publication-20261107/preflight-review.json"
@@ -25,5 +28,23 @@
   },
   "publication_performed": false,
   "programme_credit": 0,
-  "other_open_work": "PR688 Dongria is separate; preserve current main and do not modify that PR."
+  "other_open_work": "PR688 Dongria is separate; preserve current main and do not modify that PR.",
+  "integration_head": "c3272e7d",
+  "worker_status": {
+    "Anvesha": "Complete; scope released",
+    "Samanta": "Complete; scope released",
+    "Drishti": "Final integrated review pending publication build"
+  },
+  "reviews": {
+    "content": "outputs/cinema-publication-20261107/content-audit.json",
+    "kb": "outputs/cinema-publication-20261107/kb-validation.json",
+    "preflight": "outputs/cinema-publication-20261107/preflight-review.json",
+    "integration_fixes": "outputs/cinema-publication-20261107/integration-fixes.json"
+  },
+  "tests": {
+    "full_site": 712,
+    "coast": 561,
+    "failures": 0
+  },
+  "pdf_assets": "outputs/cinema-publication-20261107/book-release-manifest.json"
 }

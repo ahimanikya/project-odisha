@@ -5,7 +5,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import {join} from 'node:path';
 import {publicationPlan,publicationPage,publicationCrawlerFiles} from '../src/lib/search-publication.mjs';
-import {buildPublication} from '../tools/build-publication.mjs';
+import {buildPublication,eligiblePublicationOptimization} from '../tools/build-publication.mjs';
 const selection=JSON.parse(await readFile('editions/search-candidate.json'));
 const scope=JSON.parse(await readFile('editions/coast.json'));
 const checkedInPolicy=JSON.parse(await readFile('editions/search-publication.json'));
@@ -60,4 +60,10 @@ test('publication assembly preserves source and media, removes stale sitemap and
   await write('dist-coast/oversized.bin','');await truncate(new URL('dist-coast/oversized.bin',site),1_000_000_000);await assert.rejects(buildPublication(site),/1 GB budget/);await rm(new URL('dist-coast/oversized.bin',site));
   await symlink(new URL('dist-coast/photo.webp',site),new URL('dist-coast/alias.webp',site));await assert.rejects(buildPublication(site),/symlinks/);
  }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+
+test('publication preflight accounts for only the explicitly optimized JPEG paths',()=>{
+ for(const file of ['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg'])assert.equal(eligiblePublicationOptimization(file),true,file);
+ for(const file of ['assets/unrelated.jpg','assets/sahi-jatra/unrelated.jpg','oversized.bin'])assert.equal(eligiblePublicationOptimization(file),false,file);
 });

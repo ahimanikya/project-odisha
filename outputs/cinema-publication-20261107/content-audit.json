@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-07",
+  "scope": "Read-only release-content and binding audit; not factual recertification or deployment.",
+  "source_bindings": {
+    "articles": 50,
+    "cinema_source_hashes": "All50 match actualbytes",
+    "manifest_source_hashes": "Checked all present fields",
+    "asset_checks": "All manifest image originals/delivery files/derivative hashes and provenance path existence checked",
+    "issues": []
+  },
+  "artifacts": [
+    {
+      "file": "output/pdf/odia-cinema-a-living-screen-2026-11-06-shared-culture.pdf",
+      "bytes": 34117531,
+      "sha256": "694f760dbfd0dcff3bfab278c4d5cd584aed87480a7d4b5f78f600be58c2b243",
+      "pages": 264,
+      "matches_receipt": true
+    },
+    {
+      "file": "output/pdf/odia-cinema-a-living-screen-print-2026-11-06-shared-culture.pdf",
+      "bytes": 48449288,
+      "sha256": "d3d6a903b6e8578f006c9c25098327544f32534fc4b6472843ced1b927fe0807",
+      "pages": 270,
+      "matches_receipt": true
+    },
+    {
+      "file": "output/pdf/the-question-that-brought-me-here-ahimanikya-satapathy.pdf",
+      "sha256": "8c5db39b9ee5fc262409c8636ca5abdb624774347c67e728a4fedc199934a933",
+      "pages": 6,
+      "bytes": 992878
+    }
+  ],
+  "companions": [
+    {
+      "slug": "bibhuti-pattanaik",
+      "source_exists": true,
+      "sha256": "012fc69b2370ebdb878cb3335b0641bf0e9755b28a0e4c1eb2763b02013f39b3",
+      "coast_route_present": true
+    },
+    {
+      "slug": "solila-parida",
+      "source_exists": true,
+      "sha256": "daaae3302af0ce33d7ce5d3d19a02f8a4009ed8b548acdff7dc37c55573f2646",
+      "coast_route_present": true
+    },
+    {
+      "slug": "jatindra-k-nayak",
+      "source_exists": true,
+      "sha256": "9a8d0c45a8eee9572703c70c3e4ebe62fa064a5987b6165cb3adb286781c31ac",
+      "coast_route_present": true
+    }
+  ],
+  "release_requirements": [
+    "Promote exact reviewed shared-culture264/270PDFassets and update cinema.json review_books plus book_manifest/download metadata. Current review_books remains1November246/254. Preserve historical archived editions.",
+    "Run final site/coast build and tests against staged release payload; verify new companion routes, references, download metadata and real deployed URLs after publication.",
+    "Preserve user-directed editorial image statuses; unknown or reserved rights are not licences. Do not reclassify images as public domain.",
+    "Decide explicit website destination for standalone6-page intro if it is to be offered online; local export alone is not a public download route."
+  ],
+  "publishable_scope": {
+    "canonical_content": [
+      "kb/research/culture/air-cuttack.md",
+      "kb/research/culture/cinema-series/aadim-vichar.md",
+      "kb/research/culture/cinema-series/bhukha.md",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "kb/research/culture/cinema-series/cinema-economics.md",
+      "kb/research/culture/cinema-series/cinema-futures.md",
+      "kb/research/culture/cinema-series/cinema-music.md",
+      "kb/research/culture/cinema-series/commercial-successes.md",
+      "kb/research/culture/cinema-series/daman.md",
+      "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+      "kb/research/culture/cinema-series/lavanya-preeti.md",
+      "kb/research/culture/cinema-series/learning-cinema-together.md",
+      "kb/research/culture/cinema-series/literature-and-screen.md",
+      "kb/research/culture/cinema-series/manifest.json",
+      "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+      "kb/research/culture/cinema-series/maya-miriga.md",
+      "kb/research/culture/cinema-series/parbati-ghose.md",
+      "kb/research/culture/cinema-series/pratikshya.md",
+      "kb/research/culture/cinema-series/reading-odia-cinema.md",
+      "kb/research/culture/cinema-series/searching-for-sita-bibaha.md",
+      "kb/research/culture/cinema-series/who-keeps-a-film-alive.md",
+      "kb/research/culture/odia-cinema.md",
+      "kb/research/culture/odia-ott.md",
+      "kb/research/culture/odia-television.md",
+      "kb/research/people/ak-bir.md",
+      "kb/research/people/aparajita-mohanty.md",
+      "kb/research/people/basanta-kumari-patnaik.md",
+      "kb/research/people/gour-prasad-ghose.md",
+      "kb/research/people/gourahari-das.md",
+      "kb/research/people/kalindi-charan-panigrahi.md",
+      "kb/research/people/lipika-singh-darai.md",
+      "kb/research/people/manglu-charan-biswal.md",
+      "kb/research/people/nirad-mohapatra.md",
+      "kb/research/people/pramod-pati.md",
+      "kb/research/people/pratibha-ray.md",
+      "kb/research/people/uttam-mohanty.md",
+      "kb/research/sources/odia-cinema-bibliography-2026-10-29.json",
+      "kb/research/voices/collection.json",
+      "kb/research/voices/culture-trails.json",
+      "kb/research/voices/fakir-editorial.json",
+      "kb/research/voices/literature-editorial.json",
+      "kb/research/voices/pratibha-editorial.json",
+      "kb/research/voices/six-acres-editorial.json",
+      "kb/research/works/six-acres-and-a-third.md"
+    ],
+    "new_companions": [
+      "kb/research/people/bibhuti-pattanaik.md",
+      "kb/research/people/solila-parida.md",
+      "kb/research/people/jatindra-k-nayak.md"
+    ],
+    "data_and_renderers": [
+      "projects/site/editions/coast.json",
+      "projects/site/src/components/CinemaDiscovery.astro",
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/MagazineCover.astro",
+      "projects/site/src/data/cinema.json",
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/lib/page-context.mjs",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests/cinema-reading-semantics.test.mjs",
+      "projects/site/tests/cinema-release.test.mjs",
+      "projects/site/tests/cinema-ux.test.mjs"
+    ],
+    "media": "Exactly referenced new originals, delivery images and provenance under kb/research/media, kb/media and projects/site/public/assets/cinema; include companion portraits and all selected replacements. Avoid blanket temp capture inclusion.",
+    "review_dependencies": "Relevant new cinema records, source evidence JSONs, completed implementation/QA/preservation receipts and exact final build receipts; exclude wholesale rawcopyright scans, intermediate PDFs, tmp and review-site mirrors.",
+    "book_dependencies": [
+      "output/pdf/build_book.py",
+      "tools/cinema-book/build_tagged_reading.mjs",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "kb/research/culture/cinema-series/image-layout-2026-10-30.json"
+    ]
+  },
+  "ownership_assessment": {
+    "voices": "Inspected diffs connect to reviewed cinema/literary work: Pratibha publishing/Ring, Jatindra K.Nayak correction and SixAcres credit/duplicate panel cleanup. Not grounds to discard as unrelated.",
+    "coast": "Inspected added companion routes and cinemaassets; retain existing Dhaga routes and shared ownership. No independent authority to overwrite upstream changes.",
+    "culture_trails": "One removal of SixAcres show_on matches prior route-specific duplication remedy."
+  },
+  "blockers_observed": [],
+  "rights_limits": "Prior selected photographs include restricted or unverified rights accepted under user editorial preference. This audit checks bindings/provenance presence, not legal clearance or original authorship. No new factual blocker identified from bounded retained-review check.",
+  "limits": [
+    "No fresh external research, full fifty-article fact audit, complete dependency closure or live-site inspection.",
+    "Preservation/review records are prior AI reviews, not new human approval.",
+    "Shared files may change during coordinator release work; recheck exact final bindings before commit."
+  ],
+  "scope_released": true
+}
