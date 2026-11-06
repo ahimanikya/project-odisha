@@ -9601,20 +9601,23 @@
       "id": "POD-WORK-329",
       "title": "Tala pitha: attributed baked and fried preparations",
       "category": "website_and_knowledge",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Complete exact-head release gates for locally reviewed114, retaining finite ownership through verified receipt integration. Article112/112; all reviewed surfaces114/114 including everyday compact titles. No completion credit yet.",
+      "next_action": "Retain finite receipt ownership until actual reviewed receipt merge and remote verification; no duplicate substantive credit.",
       "blockers": [],
       "refs": [
         "POD-DEC-225"
       ],
       "evidence": [
         "records/tala-pitha-editorial-2026-11-06.json",
-        "records/evidence/tala-pitha-editorial-2026-11-06/local-implementation/source-manifest.json"
-      ]
+        "records/evidence/tala-pitha-editorial-2026-11-06/local-implementation/source-manifest.json",
+        "records/tala-pitha-editorial-publication-2026-11-06.json",
+        "records/tala-pitha-delivery-review-2026-11-06.json"
+      ],
+      "completed_at": "2026-11-06T12:33:23.766Z"
     }
   ],
   "decisions": [
@@ -23379,6 +23382,31 @@
         "Budget validity requires replacing old same-route factual summaries; no expanded duplicate KB narrative.",
         "No completion or substantive programme credit at registration."
       ]
+    },
+    {
+      "id": "POD-REV-2026110601",
+      "title": "Tala pitha separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "reviewed_head": "7c1d0920b7e56655c6ac6ed2dbe5c98ebf50bdb3",
+      "refs": [
+        "POD-WORK-329"
+      ],
+      "evidence": [
+        "records/tala-pitha-delivery-review-2026-11-06.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human culinary validation.",
+        "No completion credit before actual reviewed receipt.",
+        "Article112/112 and all-reviewed114/114 require exact conditional replacements and short titles.",
+        "No source-image reuse or assumption of open recipe licences.",
+        "Article112/112; all reviewed surfaces114/114, including everyday compact titles. No new Panda/Gapu derivation.",
+        "Actual receipt integration and remote verification remain separate gates."
+      ]
     }
   ],
   "releases": [
@@ -27349,6 +27377,22 @@
         "records/badi-chura-editorial-publication-2026-11-05.json"
       ],
       "note": "Publication and live verification complete; finite receipt integration remains pending."
+    },
+    {
+      "id": "POD-REL-2026110601",
+      "title": "Tala pitha: attributed baked and fried preparations",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/tala-pitha/",
+      "refs": [
+        "POD-WORK-329",
+        "POD-REV-2026110601",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/tala-pitha-editorial-publication-2026-11-06.json"
+      ],
+      "note": "Finite receipt integration remains pending."
     }
   ],
   "sources": [

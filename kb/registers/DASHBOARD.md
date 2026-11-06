@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `de1487f590926c506829004a688d6a0b12da6ee694356a8ad599223e054a1f85`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3e3e98ee8aecc7159920f820cf551c228517f8b8e37f6930a0351fe65acf0430`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -360,7 +360,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-327 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | completed | reviewed | Ahimanikya Satapathy | Retain Disha finite receipt integration until reviewed receipt merge, required checks and remote verification; no duplicate substantive credit. | — |
 | POD-WORK-2026110501 · Integrate and publish the twelve-article Dongria series | completed | reviewed | Ahimanikya Satapathy | No further Dongria work pending; maintain published series only when requested. | — |
 | POD-WORK-328 · Badi chura: dried badi, preparation choices and a named meal | completed | reviewed | Ahimanikya Satapathy | Retain Disha finite receipt integration until reviewed receipt merge, required checks and remote verification; no duplicate substantive credit. | — |
-| POD-WORK-329 · Tala pitha: attributed baked and fried preparations | in_progress | reviewed | Ahimanikya Satapathy | Complete exact-head release gates for locally reviewed114, retaining finite ownership through verified receipt integration. Article112/112; all reviewed surfaces114/114 including everyday compact titles. No completion credit yet. | — |
+| POD-WORK-329 · Tala pitha: attributed baked and fried preparations | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt ownership until actual reviewed receipt merge and remote verification; no duplicate substantive credit. | — |
 
 ## Pending human review and decisions
 
@@ -1049,6 +1049,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026110401 | pass_with_limitations | True | Separate AI review, not human archival or community review.; Source access and rights limitations preserved; no audio/PDF interior or corpus-completeness claim.; Receipt integration retains finite ownership until receipt checks, merge and remote verification. |
 | POD-REV-2026110501 | pass_with_limitations | True | Separate AI review, not human culinary or community review.; One cook two recipes; memoir one family; no nutrition/origin/current prevalence claims; older university geography unresolved. |
 | POD-REV-2026110502 | pass_with_limitations | True | Separate AI review, not human culinary or community review.; One preparation author and one contributor meal account; no human culinary/field review.; Budget validity requires replacing old same-route factual summaries; no expanded duplicate KB narrative.; No completion or substantive programme credit at registration. |
+| POD-REV-2026110601 | pass_with_limitations | True | Separate AI review, not human culinary validation.; No completion credit before actual reviewed receipt.; Article112/112 and all-reviewed114/114 require exact conditional replacements and short titles.; No source-image reuse or assumption of open recipe licences.; Article112/112; all reviewed surfaces114/114, including everyday compact titles. No new Panda/Gapu derivation.; Actual receipt integration and remote verification remain separate gates. |
 
 ## Publication and application history
 
@@ -1297,6 +1298,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026110401 · Odia Bibhaba and the Work of Keeping Literature Available | published | https://projectodisha.org/stories/odia-literature-preservation/ | POD-DEC-225 |
 | POD-REL-2026110501 · Ou khatta: cooking the fruit, comparing two versions and remembering one family meal | published | https://projectodisha.org/food/ou-khatta/ | POD-DEC-225 |
 | POD-REL-2026110502 · Badi chura: dried badi, preparation choices and a named meal | published | https://projectodisha.org/food/badi-chura/ | POD-DEC-225 |
+| POD-REL-2026110601 · Tala pitha: attributed baked and fried preparations | published | https://projectodisha.org/food/tala-pitha/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1334,7 +1336,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026110401 | 2026-11-04T05:20:50.650657+00:00 | Start separately reviewed Founder Odia literature article after verified299receipt release. No completion credit. | — |
 | POD-EVT-2026110402 | 2026-11-04T06:15:04.354964+00:00 | Verified substantive article publication; programme135. Finite receipt integration remains active. | — |
 | POD-EVT-2026110403 | 2026-11-04T08:10:53.614043+00:00 | Founder requested an image for the completed Odia literature preservation article. One independently reviewed conceptual illustration; no new programme credit. Prior675 receipt complete and released. | — |
 | POD-EVT-2026110404 | 2026-11-04T09:08:58.100362+00:00 | Founder-requested literature illustration published and separately live-verified on desktop and phone, including discovery and illustrated downloads. Zero new programme credit; finite receipt integration remains. | — |
@@ -1344,6 +1345,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110504 | 2026-11-05T08:56:21.834345+00:00 | Installed separately reviewed Badi chura draft/schema and pending acceptance. Programme remains136 completed;113 finite release continues through reviewed publication and receipt. Prior112 receipt682 verified merged and released; historicalrecord preserved. | — |
 | POD-EVT-2026110505 | 2026-11-05T17:12:56.138742+00:00 | Substantive Badi chura revision published and separately live-verified at2026-11-05T16:10:46.992Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
 | POD-EVT-2026110601 | 2026-11-06T08:30:15.755575+00:00 | Installed separately reviewed Tala pitha draft/schema and pending acceptance. Programme remains137 completed, credit0; finite114 release continues through publication and receipt. Prior113 receipt684 verified merged and released. | — |
+| POD-EVT-2026110602 | 2026-11-06T12:48:18.741895+00:00 | Tala pitha published and separately live-verified at2026-11-06T12:33:23.766Z. Receipt prepared now for one conditional programme completion; finite receipt integration retained. | — |
 
 ## Deferred extensions
 
