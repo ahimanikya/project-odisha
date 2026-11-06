@@ -3,14 +3,14 @@ type: "Broadcasting History"
 title: "ଆକାଶବାଣୀ କଟକ | AIR Cuttack: where stories found another voice"
 description: "The writers, singers, musical plays and changing technologies that connect AIR Cuttack with Odisha’s stage, literature and cinema."
 status: "draft"
-research_date: "2026-10-25"
+research_date: "2026-11-03"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-hero_image: "../media/air-cuttack/air-cuttack-title.png"
+hero_image: "../media/cinema-series/photographs-expansion-2026-11-05/air-cuttack-akashvani-cuttack-2013-20261105b.jpg"
 series_intro: "Stay with the shared creative worlds behind the screen, and turn to writers, performers and radio."
 series_position: 2
 series_part: "Beginnings and Shared Voices"
-sources: [{"id": "watch-7c47fe972e", "title": "Gopal Chhotray at the Library of Congress", "resource": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html", "kind": "Literary audio catalogue", "playback_verified": false}, {"id": "watch-50b124b02d", "title": "Akashvani Cuttack bulletins", "resource": "https://newsonair.gov.in/bulletins-city/cuttack/", "kind": "News audio listings", "playback_verified": false}]
+sources: [{"id": "watch-7c47fe972e", "title": "Gopal Chhotray at the Library of Congress", "resource": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html", "kind": "Literary audio catalogue", "playback_verified": false}, {"id": "watch-50b124b02d", "title": "Akashvani Cuttack bulletins", "resource": "https://newsonair.gov.in/bulletins-city/cuttack/", "kind": "News audio listings", "playback_verified": false}, {"id": "kumkum-air-collaboration", "title": "In Conversation with Kumkum Mohanty: Learning with Kelucharan Mohapatra", "resource": "https://www.sahapedia.org/conversation-kumkum-mohanty-learning-kelucharan-mohapatra", "kind": "Participant interview transcript"}, {"id": "listener-calcutta-1939", "title": "The Indian Listener, 7 April 1939, p. 578", "resource": "https://upload.wikimedia.org/wikipedia/commons/8/88/The_Indian_Listener_Vol._IV_No._8.pdf#page=36", "kind": "Original printed radio programme schedule"}]
 ---
 
 # ଆକାଶବାଣୀ କଟକ | AIR Cuttack: where stories found another voice
@@ -21,6 +21,8 @@ A radio play gives the listener no stage to look at. A voice must establish who 
 
 AIR Cuttack belongs within the history of Odia storytelling for that reason. Its importance reaches beyond the installation of a transmitter. It offered another place for writers, actors and musicians to work, and another form in which a story could meet its audience.
 
+Before Cuttack had its own station, Odia drama had a place in AIR’s programme listings. For **22 April 1939**, Calcutta 2 scheduled **କେଦାର ଗୌରୀ (Kedar-Gouri)**, an Odia playlet. The listing credits Adwaitya Chandra Mohanti with writing and production, Nittyananda Sarma with music, and Abani Mukherjee with musical effects.[^listener-calcutta-1939] Writing, music and the shaping of sound were being planned together.
+
 ## 1948: a new institution in a city of stories
 
 All India Radio’s Cuttack station opened in **1948**. The district administration’s history places its early establishment in the old Madhupur building.[^district] Radio enthusiast Jose Jacob’s account of an engineer-guided visit dates the inauguration to **28 January 1948**: a temporary studio at Madhapur House and a small transmitter at Killa Fort.[^visit]
@@ -29,9 +31,7 @@ All India Radio’s Cuttack station opened in **1948**. The district administrat
 
 What followed was an overlapping history. A writer could work for theatre and broadcasting, then contribute dialogue to a film. A literary work could become a musical play. These movements are more revealing than a simple sequence in which one medium replaces another.
 
-![All India Radio Cuttack building photographed in 2013](../media/air-cuttack/akashvani-cuttack-2013.jpg)
 
-*All India Radio, Cuttack, photographed on 27 March 2013. Photo: Kamalakanta777, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Akashvani_cuttack.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
 
 ## Gopal Chhotray: the writer between the media
 
@@ -45,11 +45,13 @@ For a dramatist, dialogue is more than information. It must reveal a relationshi
 
 Odia Bibhaba’s Chhotray collection identifies **ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani)** as an opera adapted from Fakir Mohan Senapati’s short story *Patent Medicine*.[^bibhaba]
 
-Adaptation changes the storyteller’s tools. Prose can describe a thought directly; a musical play distributes meaning between spoken exchange, singing and a performer’s delivery. Chhotray’s adaptation offers a place to listen for that change.
+Senapati opens with a household rule: Chandramani may take a short walk, but must remain within his wife’s sight. Chhotray turns that confinement into a musical complaint. In the printed play’s opening, Chandramani sings about his predicament; Sulochana enters and asks whether he is crying. He insists that he is singing. His lament has become an argument between two voices. Chhotray explains in his preface that the play is led by song, with much of its dialogue also written in song metre. A story has acquired another way to meet its audience.[^samarjani-opening]
 
 [Pala](/sounds-of-odisha/pala/), [Daskathia](/sounds-of-odisha/daskathia/) and [Prahallad Nataka](prahallad-nataka.md) have their own performance arrangements and histories. They offer further ways to listen for the relationship between narration, song and an audience.
 
 ## From stage response to studio recording
+
+Radio musicians also helped make performances that listeners could not see. Recalling programmes organised by Cuttack’s Kumar Utsav Samiti, dancer Kumkum Mohanty describes students from Kala Vikash Kendra and the National Music Association joining AIR artists. Gobind Tej was among the scriptwriters guiding Kelucharan Mohapatra’s choreography; Bhubaneswar Mishra composed the music, while AIR staff played violin, flute and harmonium. The dance belonged to the stage. In her account, AIR recorded and broadcast only the music.[^kumkum-air-collaboration]
 
 Lyricist Devdas Chhotray gives a performer’s view of the difference. In an interview conducted by Shyamanuja Das in 2018, he contrasts studio singing with a stage performance shaped by immediate audience response. Devdas recalls that his first recorded ghazal was composed and sung by Akshaya Mohanty for AIR Cuttack, and explains that such songs were placed under the programme category *adhunika*.[^devdas]
 
@@ -86,12 +88,16 @@ The [Gopal Chhotray profile](../people/gopal-chhotray.md) offers a route into th
 
 ## Footnotes & Sources
 
+[^listener-calcutta-1939]: All India Radio, [*The Indian Listener*](https://upload.wikimedia.org/wikipedia/commons/8/88/The_Indian_Listener_Vol._IV_No._8.pdf#page=36), 7 April 1939, p. 578, Calcutta programme for 22 April.
+
 [^district]: Cuttack district administration, [History](https://cuttack.odisha.gov.in/en/about-district/history), 1948 and the old Madhupur building.
 [^visit]: Jose Jacob, [“A visit to AIR Cuttack & others”](https://www.qsl.net/vu2jos/art/cuttack.pdf), February–March 2008 visit account, pp. 1–2.
 [^cinema]: Kapilas Bhuyan, [PIB/IFFI cinema retrospective](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399), 22 November 2010, first-feature chronology.
 [^loc]: [Gopal Chhotray profile](https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html), Library of Congress.
 [^jagannath]: Gour–Parbati archive, [Sri Jagannath (1950)](https://www.gourparbati.com/movie_sri_jagannath.php), film credits.
 [^bibhaba]: [Gopal Chhotray collection](https://odiabibhaba.in/en/compilations/gopal-chhotray-e/), Odia Bibhaba.
+[^samarjani-opening]: Fakir Mohan Senapati, [*Patent Medicine*](https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ପେଟେଣ୍ଟ_ମେଡିସିନ), opening, Odia Wikisource transcription; Gopal Chhotray, [*Srimati Samarjani*](https://drive.google.com/file/d/1ZgGFmI35TJyKk0bBZ1OtjWO0bMYIclqO/view), Granthamandir, first edition, September 1974, preface and pp. 1–4; scan: Srujanika/Odia Bibhaba.
+[^kumkum-air-collaboration]: Kumkum Mohanty, [interview with Madhur Gupta, “Learning with Kelucharan Mohapatra”](https://www.sahapedia.org/conversation-kumkum-mohanty-learning-kelucharan-mohapatra), Sahapedia, 2018, Kumar Utsav recollection.
 [^devdas]: Shyamanuja Das, [“In Conversation with Odia Lyricist Devdas Chhotray”](https://www.sahapedia.org/conversation-odia-lyricist-devdas-chhotray), Sahapedia, interview conducted September 2018, Parts II–III.
 [^shyamamani]: David Dennen and Amir Kumar Jeetendra Nayak, [“Shyamamani Devi on Odissi Music and Her Life as a Singer”](https://www.yumpu.com/en/document/view/16460695/shyamamani-devi-on-odissi-music-and-her-life-as-a-oaid-home), mirrored interview, opening section. Interview date and station unspecified in this passage.
 [^news]: Akashvani News, [Cuttack bulletins](https://newsonair.gov.in/bulletins-city/cuttack/), dated Odia bulletins.

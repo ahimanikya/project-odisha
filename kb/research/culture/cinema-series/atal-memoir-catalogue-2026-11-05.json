@@ -1,0 +1,189 @@
+{
+  "superseding_notice": {
+    "recorded_on": "2026-11-05",
+    "status": "superseded_identity_inference",
+    "record": "records/cinema-musika-preface-2026-11-05.json",
+    "dossier": "research/culture/cinema-series/musika-preface-2026-11-05.json",
+    "correction": "Further original reading resolves Nirmal Pattnaik and Musa Pattnaik as the same person. Withdraw the earlier inference that the different names necessarily indicated a catalogue error or different authors.",
+    "evidence": "Full scan PDF4 inscription, PDF6 childhood-name explanation, and explicit Nirmal (Musa) pairing in the first line of PDF11.",
+    "genre": "Imprint labels short stories; PDF9 describes selected life incidents shaped into short natika/dramatic pieces and disclaims complete autobiography. Preserve both descriptions without treating represented dialogue as a factual transcript.",
+    "historical_preservation": "The preceding cycle text and original hash-bound worker reports remain historical evidence of what was then inspected. This notice supersedes its interpretation of author identity.",
+    "unaffected_gap": "Atal Bihari Panda original memoir-copy search remains unresolved; this source is not his reported work."
+  },
+  "id": "POD-RES-CINEMA-ATAL-MEMOIR-CATALOGUE-20261105",
+  "date": "2026-11-05",
+  "title": "Atal Bihari Panda memoir catalogue search and an adjacent attribution correction",
+  "status": "reviewed_research_only",
+  "handoff": "records/cinema-atal-memoir-catalogue-2026-11-05.json",
+  "research": {
+    "date": "2026-11-05",
+    "status": "bounded_catalogue_routes_complete_no_verified_holding",
+    "scope_released": true,
+    "reported_work": "Baandhu Ubacha, named as Panda’s biography in Punya Prava Rath’s6June2021 interview with Sabyasachi Mohapatra; title and editions remain reported, not verified from a book.",
+    "reuse": [
+      "kb/records/cinema-atal-memoir-catalogue-2026-11-05.json",
+      "outputs/atal-theatre-20261105/research.json"
+    ],
+    "routes": [
+      {
+        "route": "International institutional catalogue discovery: WorldCat/LOC",
+        "queries": [
+          "site:search.worldcat.org \"Panda\" \"Ubacha\"",
+          "site:loc.gov \"Atal\" \"Panda\""
+        ],
+        "direct_urls": [
+          "https://search.worldcat.org/search?q=Baandhu+Ubacha",
+          "https://www.loc.gov/books/?q=%22Atal+Bihari+Panda%22"
+        ],
+        "actual_results": "Search returned no identified memoir record; LOC hits were unrelated OCR/academic references and were rejected. Both direct search URLs were inaccessible via web tool, so no successful native-catalogue result page was inspected.",
+        "limits": "Not a proof of no holdings. No catalogue identifier, publisher, edition or pagination verified."
+      },
+      {
+        "route": "Sambalpur institutional library access, with national-library domain discovery",
+        "queries": [
+          "site:suniv.ac.in library catalogue OPAC",
+          "site:nationallibrary.gov.in \"Panda\" \"Ubacha\""
+        ],
+        "observed_urls": [
+          "https://www.suniv.ac.in/contact-central-library.php",
+          "https://www.suniv.ac.in/page.php?page=library-online-services",
+          "https://www.suniv.ac.in/page.php?page=library-collection",
+          "https://library.suniv.ac.in/"
+        ],
+        "actual_results": "Opened official contact page and followed its Online Services/Collection links. Online Services lines157–159 display Online Catalogue then Coming Soon. The separately observed Library navigation link leads to library.suniv.ac.in, which returned502. Domain query returned no identified National Library memoir record.",
+        "limits": "Library description is not a holding record; no functioning title search reached. Older page state must not become a claim that no catalogue exists anywhere."
+      }
+    ],
+    "identity_controls": [
+      "No Atal Bihari Vajpayee record accepted.",
+      "No academic author Panda or unrelated OCR token occurrence accepted.",
+      "No guessed Odia title or transliteration used to assert a separate edition."
+    ],
+    "outcome": {
+      "verified_holding": null,
+      "verified_edition": null,
+      "original_pages_read": 0,
+      "public_addition_justified": false,
+      "recommendation": "Keep memoir as a reported lead. Existing theatre testimony remains valid but this catalogue pass adds no book metadata. Stop these routes until a functioning catalogue, stable identified record or original title/imprint becomes available."
+    },
+    "limits": [
+      "No generic news searches repeated, no Bibhaba search duplicated.",
+      "No contact, purchase, login, source access bypass or public changes.",
+      "No new source-derived public prose proposed.",
+      "Source availability failures and unmatched search output do not establish nonexistence."
+    ]
+  },
+  "coordinator_research": {
+    "date": "2026-11-05",
+    "status": "bounded_catalogue_review_complete",
+    "public_change": false,
+    "target": "Baandhu Ubacha, a reported Atal Bihari Panda memoir; no original copy established.",
+    "archive_route": {
+      "url": "https://odiabibhaba.in/bahi/",
+      "catalogue_frame": "https://odiabibhaba.in/wp-content/uploads/book/bookview_od.php",
+      "access": "Web extraction returned403; normal browser catalogue opened successfully.",
+      "catalogue_total_displayed": 19025,
+      "queries": [
+        {
+          "term": "ଅଟଳ",
+          "type": "author fragment",
+          "returned_count": 3,
+          "evidence": "outputs/atal-memoir-catalogue-20261105/bibhaba-author-search.txt",
+          "outcome": "Other identities: Bhagaban Nayakbarma's Atalnama, Atal Bihari Nayak's Chhuama, Atal Bihari Vajpayee's He Mora Prabhu. No Panda memoir returned."
+        },
+        {
+          "term": "ଉବାଚ",
+          "type": "distinctive title word; not an asserted full Odia title",
+          "returned_count": 8,
+          "evidence": "outputs/atal-memoir-catalogue-20261105/bibhaba-title-search.txt",
+          "outcome": "No target memoir returned. Row3412 led to Musika Ubacha and revealed a catalogue/scan discrepancy."
+        }
+      ],
+      "limit": "Two focused filters, not a manually inspected full catalogue or proof of absence elsewhere."
+    },
+    "adjacent_book": {
+      "title_odia": "ମୂଷିକ ଉବାଚ",
+      "title_english": "Musika Ubacha",
+      "catalogue_row": 3412,
+      "catalogue_author": "ନିର୍ମଳ ପଟ୍ଟନାୟକ / Nirmal Pattanaik",
+      "catalogue_classification": "Autobiography, acting, All India Radio, Doordarshan, cinema",
+      "catalogue_year": 1996,
+      "preview_url": "https://drive.google.com/file/d/1lwjFJgdAFii2bE_8GAyUxJExq0yvHk_S/view",
+      "full_file_url": "https://drive.google.com/file/d/1bVcuRc9Z0m7ywXSsPUkKriYmvndKsprN/view",
+      "full_download_observed": "https://drive.google.com/uc?export=download&id=1bVcuRc9Z0m7ywXSsPUkKriYmvndKsprN",
+      "original_title_imprint": {
+        "author": "Er. Musa Pattnaik",
+        "classification": "Collection of Short Stories",
+        "publisher": "Kantilata Publication, Bhubaneswar",
+        "printed_date": "16.07.96",
+        "date_label": "English imprint labels it 1st Opening: Nabakalebar; do not silently convert to a separate confirmed publication event.",
+        "basis": "Preview PDF pages1–2; full linked PDF pages2–3. Both name the same author and genre."
+      },
+      "finding": "Catalogue author and genre conflict with both linked scans. Do not introduce Nirmal Pattanaik as the verified author or call this a verified Nirmal memoir. Do not conflate any of these with Panda's reported Baandhu Ubacha.",
+      "reading_scope": {
+        "preview_page_count": 10,
+        "preview_pages_inspected": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "preview_observation": "Title and imprint verified; opening first-person biographical preface visibly discusses engineering, theatre and screen/broadcast work. Preface continues; no complete episode, film credit, dates or totals promoted.",
+        "full_file_page_count": 313,
+        "full_pages_inspected": [
+          1,
+          2,
+          3
+        ],
+        "full_observation": "Cover, title and imprint only. Full file acquired, not fully read.",
+        "contents_inspected": false,
+        "pdf_text_layer": "Only digitisation watermark extracted; metadata/text extraction is not a reading of the Odia scan."
+      },
+      "local_files": {
+        "preview": "outputs/atal-memoir-catalogue-20261105/musika-ubacha-preview.pdf",
+        "full": "outputs/atal-memoir-catalogue-20261105/musika-ubacha-full.pdf"
+      },
+      "images": [
+        "outputs/atal-memoir-catalogue-20261105/musika-preview-01.png",
+        "outputs/atal-memoir-catalogue-20261105/musika-preview-02.png",
+        "outputs/atal-memoir-catalogue-20261105/musika-preview-03.png",
+        "outputs/atal-memoir-catalogue-20261105/musika-preview-04.png",
+        "outputs/atal-memoir-catalogue-20261105/musika-full-001.png",
+        "outputs/atal-memoir-catalogue-20261105/musika-full-002.png",
+        "outputs/atal-memoir-catalogue-20261105/musika-full-003.png"
+      ],
+      "provenance": "Digitised by Srujanika and linked from Odia Bibhaba. Reading copies retained internally; no image or book reproduction added to the public site."
+    },
+    "access_record": [
+      "Google Drive connector successfully identified and supplied PDF file references for both observed links.",
+      "Initial local network download of preview failed DNS; browser download attempt timed out without a confirmed saved file.",
+      "Approved network downloads of the connector-provided file references then succeeded: preview215702bytes; full7069508bytes.",
+      "No paywall/access-control bypass, account change, contacts or purchase."
+    ],
+    "target_outcome": "No verified Panda memoir holding, edition, publisher or original passage. Preserve gap after three different route families: international institutional, Sambalpur/national-library discovery, and live Odia archive.",
+    "editorial_decision": "Research-only. No article, imagery, bibliography, navigation or book revision justified.",
+    "next_action": "Park Panda memoir catalogue searches until an identifiable copy/record or functioning fresh catalogue is available. Next bounded source reading: complete Musa Pattnaik's own preface and inspect contents in the acquired Musika Ubacha scan; identify a concrete theatre/radio/cinema episode and verify its context before proposing any addition. Keep catalogue identity discrepancy attached to this source."
+  },
+  "evidence": {
+    "outputs/atal-memoir-catalogue-20261105/research.json": "8ac16396bcecffea90245076ba38a661e7b08dae9cc77b6c3ecfbbfe810d5108",
+    "outputs/atal-memoir-catalogue-20261105/editorial-assessment.json": "6b4ae4ac6b6aa003317bfade5e737fa4a113cdd0a189587b9e39a61cede12995",
+    "outputs/atal-memoir-catalogue-20261105/quality-review.json": "1150d0d884437227e4fd74748b327eeb1eed79dcb6e9d23037ff5bced955e447",
+    "outputs/atal-memoir-catalogue-20261105/coordinator-research.json": "90f251499282cbe9ac9c91eaa9ae8136da26ffff58e146f78cafef92551707ef",
+    "outputs/atal-memoir-catalogue-20261105/bibhaba-author-search.txt": "44d37ddc0faf32ac9c466236a331f992aba0dc4149628138eb06c1ed2d3cd34c",
+    "outputs/atal-memoir-catalogue-20261105/bibhaba-title-search.txt": "cef0cc7c73067b60ad230e633479200583f1f5607f9793ca92649b6768234236",
+    "outputs/atal-memoir-catalogue-20261105/musika-ubacha-preview.pdf": "91bacc7b086afe5f2cd846a24a81905344562ea5eef589f0276e4d6b4667140a",
+    "outputs/atal-memoir-catalogue-20261105/musika-ubacha-full.pdf": "f23c262aeccd385ba7ce27268c82caee565815aa00b4cc7e53124d35ded3e1e0"
+  },
+  "public_revision": null,
+  "source_distinctions": [
+    "A press-reported memoir is not a verified edition or holding.",
+    "Inaccessible catalogue, unmatched filtered result and absence are different.",
+    "Catalogue metadata cannot overrule the linked original title/imprint.",
+    "Musa Pattnaik is not established as Nirmal Pattanaik or Atal Bihari Panda.",
+    "Acquiring313 scanned pages does not mean reading them; inspection is explicitly bounded.",
+    "The autobiography category conflicts with the book genre printed in both scans; preserve this discrepancy rather than silently correcting the external archive."
+  ],
+  "next_action": "Park Panda memoir catalogue searches until an identifiable copy/record or functioning fresh catalogue is available. Next bounded source reading: complete Musa Pattnaik's own preface and inspect contents in the acquired Musika Ubacha scan; identify a concrete theatre/radio/cinema episode and verify its context before proposing any addition. Keep catalogue identity discrepancy attached to this source. Other exhausted gaps remain parked; prior reviewed local article and book revisions await separate publication.",
+  "publication_performed": false,
+  "human_approval_claimed": false
+}

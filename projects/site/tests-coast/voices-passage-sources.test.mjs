@@ -29,6 +29,14 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
    const cover=html.match(/<header[^>]*class="mag-cover[^"]*"[\s\S]*?<\/header>/)?.[0];assert.ok(cover);
    assert.match(cover,/class="culture-identity"/);assert.doesNotMatch(cover,/<img\b/);
    for(const line of entry.identity_panel)assert.ok(cover.includes(escape(line)),line);
+  }else if(entry.path==='literature/six-acres-and-a-third'){
+   assert.ok(!html.includes('Images and reuse'));
+   const number=editorial.sources.length+1,asset=collection.assets[entry.hero_asset];
+   const note=html.match(/<li id="note-six-acres-image"[^>]*>([\s\S]*?)<\/li>/)?.[1];assert.ok(note);
+   assert.match(html,new RegExp(`<ol start="${number}"[^>]*><li id="note-six-acres-image"`));
+   for(const value of [asset.source,asset.creator,asset.license_url,asset.license,asset.changes])assert.ok(note.includes(escape(value)),value);
+   assert.match(html,new RegExp(`id="image-ref-six-acres" href="#note-six-acres-image"[^>]*>${number}</a>`));
+   assert.match(note,/href="#image-ref-six-acres"[^>]*data-footnote-backref/);
   }else if(entry.path==='people/gangadhar-meher')assert.ok(!html.includes('Images and reuse'));else assert.ok(html.includes('Images and reuse'));
   return;
  }

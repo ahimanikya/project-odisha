@@ -1,0 +1,94 @@
+{
+  "id": "POD-CINEMA-SISIR-CROP-20261105",
+  "date": "2026-11-05",
+  "authorization": "Founder requests tighter Sisir Mishra face/expression framing.",
+  "status": "reviewed_local_revision",
+  "active_article": null,
+  "scope": "Presentation crop only. Preserve exact photographic original and full-image view; no generated replacement or facial editing. Keep85% image width, aligned captions and concise crop credit.",
+  "workers": [
+    {
+      "name": "Anvesha",
+      "status": "not_required",
+      "reason": "No new subject research; existing identified photograph and provenance reused."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "completed_scope_released",
+      "scope": [
+        "projects/site/src/lib/cinema-article.mjs",
+        "projects/site/src/components/CinemaReading.astro",
+        "output/pdf/build_book.py",
+        "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+        "outputs/cinema-sisir-crop-20261105/implementation.json",
+        "projects/site/tests/cinema-reading-semantics.test.mjs"
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/cinema-sisir-crop-20261105/review/**"
+      ]
+    }
+  ],
+  "publication_performed": false,
+  "scope_released": true,
+  "programme_progress_credit": 0,
+  "checks": {
+    "article_sources_unchanged": 53,
+    "source_image_sha256": "60950ee7ec320656656be7343d3bbca4053789b775d02c8b2892006e7051c56e",
+    "books": {
+      "digital": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-05-sisir-portrait-crop.pdf",
+        "pdf_sha256": "487c61eba9061f48caf5ec738b41a903147bff98d78d741c445706290afd1fa6",
+        "pages": 263,
+        "notes": 515,
+        "chapter_page_references_stable": true,
+        "other_images_unchanged": 56,
+        "target_crop": {
+          "placed_width_pt": 295.8,
+          "placed_height_pt": 295.8,
+          "display_crop": true,
+          "display_zoom": 1.6,
+          "crop_position": [
+            50,
+            0
+          ],
+          "sha256": "60950ee7ec320656656be7343d3bbca4053789b775d02c8b2892006e7051c56e"
+        }
+      },
+      "print": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-sisir-portrait-crop.pdf",
+        "pdf_sha256": "f375e3b48454100893f2630897be0e360f31a66551ebdef699a3bfa6be21c8ea",
+        "pages": 270,
+        "notes": 515,
+        "chapter_page_references_stable": true,
+        "other_images_unchanged": 56,
+        "target_crop": {
+          "placed_width_pt": 285.6,
+          "placed_height_pt": 285.6,
+          "display_crop": true,
+          "display_zoom": 1.6,
+          "crop_position": [
+            50,
+            0
+          ],
+          "sha256": "60950ee7ec320656656be7343d3bbca4053789b775d02c8b2892006e7051c56e"
+        }
+      }
+    }
+  },
+  "browser_review": {
+    "screenshot": "outputs/cinema-sisir-crop-20261105/review/sisir-article-crop.png",
+    "inspection": "Actual desktop screenshot; full hairline, face, cheek hand visible; square85% frame and caption aligned. Full-image link retains original.",
+    "route": "http://127.0.0.1:62137/cinema/learning-cinema-together/"
+  },
+  "guidance": "outputs/cinema-sisir-crop-20261105/guidance.json",
+  "quality_review": "outputs/cinema-sisir-crop-20261105/review/quality-review.json",
+  "quality_review_sha256": "c9cf12af6cd47095dbb9a9f2501fc385dc14e16b8488b4212fef29ddfc4945e5",
+  "reviewer_type": "Separate AI reviewer, not human approval",
+  "checks_summary": "49 cinema tests; Astro build574pages; disclosure833pages0violations. Separate visual review of original, web capture, digital123–124 and print122–123.",
+  "next_action": "Review local crop; no publication performed. Retain original and other placements."
+}

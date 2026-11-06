@@ -1,0 +1,324 @@
+{
+  "id": "POD-RES-CINEMA-BIR-CHILDHOOD-20261105",
+  "date": "2026-11-05",
+  "title": "A. K. Bir: preparing a child performer",
+  "status": "reviewed_local_revision",
+  "handoff": "records/cinema-bir-childhood-2026-11-05.json",
+  "research": {
+    "date": "2026-11-05",
+    "scope": "A. K. Bir’s own account of working with children; research and source inspection only. Root owns the separate Lavanya literary-source inquiry.",
+    "reuse": {
+      "read": [
+        "kb/records/cinema-bir-childhood-2026-11-05.json",
+        "kb/research/people/ak-bir.md",
+        "kb/research/culture/cinema-series/lavanya-preeti.md",
+        "outputs/cinema-expansion-20261031/children-evidence.json",
+        "kb/research/methods/research-map.md"
+      ],
+      "query": "python3 tools/research/query_research.py A K Bir children",
+      "result": "Inventory notice; no matching mapped narrative. Exact new interview URLs absent from scoped rg search of research and prior children output.",
+      "current_gap": "The Bir profile establishes awards and organising work but contains little participant detail about preparing a young performer."
+    },
+    "sources": [
+      {
+        "id": "bir-craft-interview-2015",
+        "url": "https://www.craftfilmschool.com/userfiles/files/000_A%20K%20Bir.pdf",
+        "title": "Master Walks Down The Memory Lane: Interview With A.K. Bir",
+        "date": "January–March 2015 printed on pages",
+        "publisher_boundary": "CRAFT Film School hosts this five-page interview excerpt; no journal title or interviewer byline is visible in the inspected excerpt. Do not invent either.",
+        "local_pdf": "outputs/cinema-bir-childhood-20261105/source-check/craft-bir.pdf",
+        "sha256": "9a62517a12b4e1fea8b9884e12e51e63dd4865e7a2281b1e2bb928c3fab7797b",
+        "actual_inspection": "All five rendered pages individually viewed, printed4–8. PDF4/printed7 has a clipped left edge in the source/render; relevant Baaja question and answer at right are readable. PDF5/printed8 continuation at left is fully readable. No complete parent issue inspected.",
+        "locator": "Question begins printed7, right column near bottom; answer starts there and continues printed8 left column to its bottom.",
+        "short_excerpt": "“two NSD students who assisted me in conducting a workshop with the child”",
+        "supported_paraphrase": "Bir says he wrote Baaja, sketched the boy’s character and searched for a performer. Two NSD students helped him conduct a workshop with the selected child. He recalls giving only a few instructions during filming, and later seeing the boy help other boys with acting.",
+        "limits": [
+          "This is director testimony, not direct observation or measured evidence of development.",
+          "No names of the workshop students or child actor established by this passage; do not infer them from pictures or another film.",
+          "The casting answer mentions an orphanage; omit this personal background from the proposed public paragraph because the working method can be conveyed without it.",
+          "His hopes for the boy’s future are not verified outcomes.",
+          "The account concerns Baaja, not Lavanya Preeti; do not transfer the workshop to the Odia film.",
+          "No film viewing, audition or making-of footage inspected.",
+          "Opening award/first claims and other film anecdotes are not adopted."
+        ],
+        "budget": {
+          "maximum_derived_words_per_source": 200,
+          "existing_public_reuse_found": 0,
+          "recommended_new_prose_max": 80,
+          "recommended_note_max": 30,
+          "verbatim_words_in_packet": 15,
+          "public_quote_words_recommended": 0
+        }
+      },
+      {
+        "id": "bir-navhind-interview-2018",
+        "url": "https://epaper.navhindtimes.in/PageImages/pdf/NAVHINDTIMEPDFMERGER/Merged/24112018-md-ga-all.pdf",
+        "author": "Ramnath N Pai Raikar",
+        "title": "I am putting my best efforts to overcome shortcomings in IFFI infrastructure area",
+        "date": "24 November 2018",
+        "local_pdf": "outputs/cinema-bir-childhood-20261105/source-check/navhind-20181124.pdf",
+        "sha256": "a6e969919e01e85352e202ebd250a44223d9e2728eac5ab4fd2f97bf9ea50e21",
+        "actual_inspection": "21-page merged newspaper; Bir interview text extracted from PDF14 and corresponding full page visually inspected. Zest opening page; printed folio not separately visible, so cite PDF14, not misleading P8/P3 teasers. Other newspaper pages not visually read.",
+        "locator": "Final Q&A at right of Bir article asks about children’s films.",
+        "supported_paraphrase": "Bir criticises the treatment of innocence and adventure in children’s films and discusses the relation of education, knowledge and commercial aims.",
+        "limit": "General evaluative opinion, not a concrete production account or established state of all children’s cinema. Not needed for public addition.",
+        "budget": {
+          "maximum_derived_words_per_source": 200,
+          "recommended_public_use": 0
+        }
+      },
+      {
+        "id": "bir-baaja-language",
+        "url": "https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf",
+        "locator": "printed9, entry65",
+        "actual_inspection": "Fresh official search-indexed table text; not a fresh direct binary or visual page inspection.",
+        "supported_paraphrase": "Entry65 identifies Baaja / Mouth Organ, A. K. Bir, Hindi, 2002.",
+        "limit": "Use only language/title distinction, not film viewing or exact release date. Shared catalogue is already used across Bir, Lavanya and overview; avoid further synopsis derivation.",
+        "budget": {
+          "maximum_derived_words_per_source": 200,
+          "recommended_new_public_use": "Hindi identification only; root/implementer must account for shared existing catalogue use."
+        }
+      }
+    ],
+    "routes": [
+      {
+        "name": "Focused filmmaker interview discovery",
+        "queries": [
+          "A K Bir children interview Lavanya",
+          "A.K. Bir children interview director"
+        ],
+        "outcome": "Located CRAFT2015 and Navhind2018 original interviews; no generic award expansion."
+      },
+      {
+        "name": "Named original PDF access and inspection",
+        "attempts": [
+          "CRAFT web fetch rejected12,233,703-byte source as too large.",
+          "Navhind upper-case PDF path cache miss; observed lower-case path returned size rejection12,184,830bytes.",
+          "Restricted shell could not resolve hosts; ordinary public downloads succeeded under approved network access.",
+          "Rendered all5 CRAFT pages and Navhind PDF14; inspected as specified."
+        ],
+        "outcome": "Concrete workshop account recovered from original page images."
+      },
+      {
+        "name": "Precise institutional language check",
+        "queries": [
+          "site.nfdcindia.com Baaja Hindi",
+          "site:nfdcindia.com/catalogue Baaja Hindi"
+        ],
+        "outcome": "Official indexed catalogue entry confirms Hindi. No broader search required."
+      }
+    ],
+    "candidate": {
+      "target": "kb/research/people/ak-bir.md, Making a film for younger viewers",
+      "text": "For his Hindi film Baaja, Bir recalled preparing the boy’s character before looking for a young performer. Two students from the National School of Drama helped him run a workshop with the child. By the time filming began, he said, he needed to offer only a few instructions. Preparation, in this account, made room for the child to perform.",
+      "note": "A. K. Bir, “Master Walks Down The Memory Lane,” interview, January–March 2015, pp7–8; excerpt hosted by CRAFT Film School.",
+      "interpretation": "Final sentence is a restrained reading of Bir’s reported method; not a claim that the child experienced freedom or that a specific outcome was objectively proven."
+    },
+    "recommendation": "A single existing Bir-profile enhancement is justified by the distinct workshop account. Do not duplicate it in Lavanya or the overview, transfer it to another film, or add an award inventory. The specific method used with Lavanya’s performers remains unestablished in this bounded pass.",
+    "scope_released": true,
+    "public_edits": false
+  },
+  "coordinator_research": {
+    "date": "2026-11-05",
+    "status": "bounded_source_inquiry_complete",
+    "question": "Which literary or performed text lies behind Lavanya Preeti’s Kedar–Gouri story?",
+    "reuse": [
+      "kb/research/culture/cinema-series/lavanya-preeti.md",
+      "kb/research/people/ak-bir.md",
+      "outputs/cinema-expansion-20261031/children-evidence.json"
+    ],
+    "sources": [
+      {
+        "id": "mishra-literature-2023",
+        "url": "https://odisha.live/2023/06/06/the-role-of-our-literature-in-odia-films-odia-news-odisha-news/",
+        "title": "ଓଡ଼ିଆ ଚଳଚ୍ଚିତ୍ରରେ ଆମ ସାହିତ୍ୟର ଭୂମିକା",
+        "author": "ସଂବିତ ମିଶ୍ର (Sambit Mishra)",
+        "date": "2023-06-06",
+        "inspection": "Odia web text, article heading/byline and paragraphs117–126; relevant full paragraph118 read. Not a complete reading of all article text.",
+        "finding": "Names Mahapatra Nilamani Sahu’s story material as the basis for Adi Mimansa and Lavanya Preeti.",
+        "limits": "Secondary essay. No exact short-story title, edition, film-credit role or relationship to the Kedar–Gouri frame established. General claims of awards/commercial success not adopted.",
+        "public_use": 0
+      },
+      {
+        "id": "indiancine-lavanya-metadata",
+        "url": "https://indiancine.ma/AHXV/info",
+        "inspection": "All8lines of catalogue metadata read; no film viewed.",
+        "finding": "Writer field lists Apurba Kishore Bir and 'Mahadatra Nilmani Saho' (spelling preserved).",
+        "limits": "Unlinked metadata provenance and misspelled name; does not establish story title or precise credited role. Not treated as independent confirmation of the essay.",
+        "public_use": 0
+      }
+    ],
+    "attempted_routes": [
+      {
+        "route": "Existing institutional synopsis and direct catalogue",
+        "queries": [
+          "\"Lavanya Preeti\" \"Kedar\" story Bir",
+          "\"Lavanya Preeti\" \"Radhanath\""
+        ],
+        "outcome": "Existing NFA and NFDC Kedar–Gouri/jatra synopsis. Direct41stNFA PDF timed out; indexed text not a new visual review. No poem attribution established."
+      },
+      {
+        "route": "English writer and CFSI routes",
+        "queries": [
+          "\"Lavanya Preeti\" \"Nilamani\"",
+          "\"Lavanya Preeti\" site:cfsindia.org",
+          "\"Lavanya Preeti\" writer Sahoo",
+          "\"Lavanya Preeti\" CFSI"
+        ],
+        "outcome": "IndianCine metadata writer lead; no inspectable original credits or source-story edition."
+      },
+      {
+        "route": "Odia and named writer refinement",
+        "queries": [
+          "\"ଲାବଣ୍ୟ ପ୍ରୀତି\" ନୀଳମଣି",
+          "\"Lavanya Preeti\" \"story\" \"Mahapatra\"",
+          "\"ଲାବଣ୍ୟ ପ୍ରୀତି\" \"ସାହୁ\""
+        ],
+        "outcome": "SambitMishra2023 essay gives a specific literary-author lead; precise original story remains unresolved."
+      }
+    ],
+    "conclusion": "No correction to existing Lavanya chapter justified: it does not claim a Radhanath Ray poem adaptation. Keep the newly found writer lead internal until an original credit, producer catalogue or source-story edition identifies the relationship.",
+    "source_review": {
+      "pages_viewed": [
+        "outputs/cinema-bir-childhood-20261105/source-check/craft-4.png",
+        "outputs/cinema-bir-childhood-20261105/source-check/craft-5.png"
+      ],
+      "finding": "Root visually confirms Bir’s workshop account in printed7–8; only relevant2 of5 interview pages personally inspected.",
+      "limit": "Creator testimony about Baaja; do not transfer it to Lavanya or claim measured child development."
+    },
+    "next_action": "The Bir workshop question is answered. For the next bounded adaptation inquiry, reuse the two NilamaniSahu leads and seek an inspectable original Lavanya/AdiMimansa credit, institutional catalogue or named source-story edition. Do not repeat the exhausted generic query routes, infer a Radhanath Ray adaptation, or treat missing contracts as proof of non-payment.",
+    "publication_performed": false
+  },
+  "evidence": {
+    "outputs/cinema-bir-childhood-20261105/research.json": "16b7bf90172439a60e94b4451f5d0641efbef2923dbf62cccab0e4bcbdbdae23",
+    "outputs/cinema-bir-childhood-20261105/editorial-assessment.json": "853a97e381a45539caf5d3498a785428b8bfbc0878c66d4dfc630c3d8e4f0693",
+    "outputs/cinema-bir-childhood-20261105/coordinator-research.json": "a6bebe49cc4df393edf98208a781c76d00765d80821c5d2d00607a1353754648",
+    "outputs/cinema-bir-childhood-20261105/implementation.json": "7d9de0aad836c18c557b7073410ccb255d58184be2339ccadce68a9a14d5107b",
+    "outputs/cinema-bir-childhood-20261105/quality-review.json": "105ed93ccc882617c69f9a095a6a102edbba53bc1485f6f18f7f74d8ebaf4d10",
+    "outputs/cinema-bir-childhood-20261105/browser-review.json": "1a021a9872162ff8dbb2a1713afae7ba6134e06d9fe74382f248092219376c83"
+  },
+  "public_revision": {
+    "source": "kb/research/people/ak-bir.md",
+    "sha256": "920c6c42ac58c719fe51b225dc514aef792727cb39c76a326ca07aae7ea6ed2b",
+    "scope": "One creator-attributed workshop account; one compact note. No Lavanya source-author attribution adopted.",
+    "source_budget": {
+      "new_body": 54,
+      "interview_note": 20,
+      "interview_conservative_total_including_language_phrase": 74,
+      "direct_quotes": 0,
+      "nfdc_existing_conservative_review_count": 152,
+      "nfdc_new_language_phrase": 6,
+      "nfdc_note_word_delta": 6,
+      "nfdc_projected_shared_total": 164,
+      "41st_nfa_allocation_unchanged": 180,
+      "limits": "Director testimony about Hindi Baaja only; no transferred Lavanya method, child outcome or unnamed contributor identities."
+    }
+  },
+  "pdf_editions": {
+    "digital": {
+      "receipt": "tmp/pdfs/2026-11-05-bir-childhood/digital/book-build-2026-11-05-bir-childhood.json",
+      "receipt_sha256": "51da25e725c4cb7dc85dce796a336d733bf1d30c75ebf8fb92bcd04f824b9165",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-05-bir-childhood.pdf",
+      "pdf_sha256": "de9dee29758e9a4dcfc8c447cc1c02a0840f7dd3ff1f350f9e3b2d0245f08034",
+      "pages": 258,
+      "notes": 488,
+      "figures": 56,
+      "image_credits": 31,
+      "reading_aids": {
+        "primary_path": {
+          "destination": "primary-reading-path",
+          "title": "Follow the central question",
+          "slugs": [
+            "the-question-that-brought-me-here",
+            "literature-and-screen",
+            "basanta-kumari-patnaik",
+            "akshaya-mohanty",
+            "maya-miriga",
+            "bhukha",
+            "pratikshya",
+            "daman",
+            "cinema-economics",
+            "cinema-futures"
+          ],
+          "measured_height_pt": 392.5,
+          "page": 3
+        },
+        "callouts": 3,
+        "bridges": 7,
+        "people": 21,
+        "milestones": 16
+      },
+      "all_50_sources_match": true,
+      "chapter_count": 50,
+      "changed_source_slugs": [
+        "ak-bir"
+      ],
+      "cover_unchanged": true,
+      "page_map_changes": {},
+      "page_references_stable": true,
+      "all_pages_rendered": true,
+      "unresolved_internal_destinations": [],
+      "interview_body_and_note_pages": [
+        106,
+        246
+      ],
+      "prior_pdf_unchanged": true,
+      "figure_content_geometry_unchanged": true,
+      "figure_difference_limit": "Bir photo numeric note shifts4→5; print temporary paths use new revision. Content and geometry unchanged."
+    },
+    "print": {
+      "receipt": "tmp/pdfs/2026-11-05-bir-childhood/print/book-build-2026-11-05-bir-childhood.json",
+      "receipt_sha256": "e7e201933ff58e61c2e4ec6484cde3586bb072afdcfe22588a8d933baa3b6266",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-bir-childhood.pdf",
+      "pdf_sha256": "43aa077bb21c4b9b9ecb77aa21d207c640a54c4e4ead7118785cfc0db81c6aae",
+      "pages": 264,
+      "notes": 488,
+      "figures": 56,
+      "image_credits": 31,
+      "reading_aids": {
+        "primary_path": {
+          "destination": "primary-reading-path",
+          "title": "Follow the central question",
+          "slugs": [
+            "the-question-that-brought-me-here",
+            "literature-and-screen",
+            "basanta-kumari-patnaik",
+            "akshaya-mohanty",
+            "maya-miriga",
+            "bhukha",
+            "pratikshya",
+            "daman",
+            "cinema-economics",
+            "cinema-futures"
+          ],
+          "measured_height_pt": 392.5,
+          "page": 3
+        },
+        "callouts": 3,
+        "bridges": 7,
+        "people": 21,
+        "milestones": 16
+      },
+      "all_50_sources_match": true,
+      "chapter_count": 50,
+      "changed_source_slugs": [
+        "ak-bir"
+      ],
+      "cover_unchanged": true,
+      "page_map_changes": {},
+      "page_references_stable": true,
+      "all_pages_rendered": true,
+      "unresolved_internal_destinations": [],
+      "interview_body_and_note_pages": [
+        106,
+        248
+      ],
+      "prior_pdf_unchanged": true,
+      "figure_content_geometry_unchanged": true,
+      "figure_difference_limit": "Bir photo numeric note shifts4→5; print temporary paths use new revision. Content and geometry unchanged."
+    }
+  },
+  "next_action": "The Bir workshop question is answered. For the next bounded adaptation inquiry, reuse the two NilamaniSahu leads and seek an inspectable original Lavanya/AdiMimansa credit, institutional catalogue or named source-story edition. Do not repeat the exhausted generic query routes, infer a Radhanath Ray adaptation, or treat missing contracts as proof of non-payment.",
+  "publication_performed": false,
+  "human_approval_claimed": false
+}

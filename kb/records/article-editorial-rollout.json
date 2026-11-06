@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-06T12:48:18.741895+00:00",
+  "updated_at": "2026-11-07",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1536,7 +1536,14 @@
       ],
       "blocker": null,
       "completed_at": "2026-10-20T02:14:40.287780+00:00",
-      "publication_receipt": "records/literature-editorial-publication-2026-10-20.json"
+      "publication_receipt": "records/literature-editorial-publication-2026-10-20.json",
+      "local_revision_followup": {
+        "record": "records/cinema-jatindra-nayak-2026-11-03.json",
+        "status": "local_revision_reviewed_not_published",
+        "date": "2026-11-03",
+        "scope": "Shared Six Acres translator credit only; source mappings and notes updated.",
+        "source_sha256": "e84449e18f0ae0f77b66cf13e559c4e2df251e187848fac27d48538a1132d5b5"
+      }
     },
     {
       "id": "POD-EDIT-044",
@@ -1560,7 +1567,14 @@
       ],
       "blocker": null,
       "completed_at": "2026-10-20T03:30:25.717262+00:00",
-      "publication_receipt": "records/fakir-editorial-publication-2026-10-20.json"
+      "publication_receipt": "records/fakir-editorial-publication-2026-10-20.json",
+      "local_revision_followup": {
+        "record": "records/cinema-jatindra-nayak-2026-11-03.json",
+        "status": "local_revision_reviewed_not_published",
+        "date": "2026-11-03",
+        "scope": "Shared Six Acres translator credit only; source mappings and notes updated.",
+        "source_sha256": "e84449e18f0ae0f77b66cf13e559c4e2df251e187848fac27d48538a1132d5b5"
+      }
     },
     {
       "id": "POD-EDIT-045",
@@ -1584,7 +1598,23 @@
       ],
       "blocker": null,
       "completed_at": "2026-10-20T05:05:08.039215+00:00",
-      "publication_receipt": "records/six-acres-editorial-publication-2026-10-20.json"
+      "publication_receipt": "records/six-acres-editorial-publication-2026-10-20.json",
+      "local_revision_history": [
+        {
+          "record": "records/cinema-jatindra-nayak-2026-11-03.json",
+          "status": "local_revision_reviewed_not_published",
+          "date": "2026-11-03",
+          "scope": "Shared Six Acres translator credit only; source mappings and notes updated.",
+          "source_sha256": "e84449e18f0ae0f77b66cf13e559c4e2df251e187848fac27d48538a1132d5b5"
+        }
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/voices/collection.json",
+        "source_sha256": "162f6eacc7708550209e498ebe499acf4a86a99805fd23d27e816618613306b3",
+        "date": "2026-11-04"
+      }
     },
     {
       "id": "POD-EDIT-046",
@@ -1628,12 +1658,28 @@
       },
       "evidence": [
         "records/pratibha-editorial-team-2026-10-20.json",
-        "records/pratibha-editorial-publication-2026-10-20.json"
+        "records/pratibha-editorial-publication-2026-10-20.json",
+        "records/cinema-pratibha-loc-reading-2026-11-03.json"
       ],
       "blocker": null,
       "started_at": "2026-10-20T06:11:19.448769+00:00",
       "completed_at": "2026-10-20T06:29:20.562550+00:00",
-      "publication_receipt": "records/pratibha-editorial-publication-2026-10-20.json"
+      "publication_receipt": "records/pratibha-editorial-publication-2026-10-20.json",
+      "local_revision_history": [
+        {
+          "record": "records/pratibha-publishing-2026-11-02.json",
+          "status": "local_profile_candidate_reviewed",
+          "date": "2026-11-02",
+          "publication_performed": false
+        }
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-pratibha-loc-reading-2026-11-03.json",
+        "status": "reviewed_not_published",
+        "date": "2026-11-03",
+        "publication_performed": false,
+        "review": "outputs/pratibha-loc-reading-20261103/review.json"
+      }
     },
     {
       "id": "POD-EDIT-048",
@@ -12749,9 +12795,48 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
+      "next_action": "Kalicharan/prospectus revision independently reviewed locally; publication remains separate. Earlier publication evidence preserved.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
-      "revision_status": "published_verified"
+      "revision_status": "published_verified",
+      "local_revision_followup": {
+        "record": "records/cinema-kalicharan-connections-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/odia-cinema.md",
+        "source_sha256": "a5433f5064a9dcdabc3e21b47e46b0118dad15a17d471f252be7560dcd036d2d",
+        "implementation": "outputs/kalicharan-connections-20261105/implementation.json",
+        "published": false
+      },
+      "local_revision_followup_history": [
+        {
+          "record": "records/cinema-pushkara-recognition-2026-11-04.json",
+          "date": "2026-11-04",
+          "status": "reviewed_local_revision",
+          "source_sha256": "5917490663b534cc57d6151b33c351365365495f75f3597b81fe28afb92b44a2",
+          "published": false
+        },
+        {
+          "record": "records/cinema-sea-seven-villages-2026-11-04.json",
+          "date": "2026-11-04",
+          "status": "reviewed_local_revision",
+          "source_sha256": "d5bfbe5457287bee16eeb6a0b1d3559d3755b9f1203b8732f401ef6696bc81be",
+          "published": false
+        },
+        {
+          "record": "records/cinema-mo-bou-mo-gaan-2026-11-04.json",
+          "date": "2026-11-04",
+          "status": "reviewed_local_revision",
+          "source_sha256": "1cb6cce81bde9c6fa8f659fa256fdd835b664a9b184fba5e42ca22faaa77958c",
+          "published": false
+        },
+        {
+          "record": "records/cinema-suvir-nath-editing-2026-11-04.json",
+          "date": "2026-11-04",
+          "status": "reviewed_local_revision",
+          "source_sha256": "9c9bda2138fb3611f704fac2800f551e68cec01556ca6eae1e75d94482fb99b7",
+          "published": false
+        }
+      ]
     },
     {
       "id": "POD-EDIT-791",
@@ -12784,7 +12869,13 @@
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
       "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-air-collaboration-2026-11-02.json",
+        "status": "local_revision_reviewed_not_published",
+        "source_sha256": "01c2f8a9954b6b2a32db306568c8e8dc22aa136cf454f7b5e8dae2f2cf5a29f6",
+        "date": "2026-11-02"
+      }
     },
     {
       "id": "POD-EDIT-792",
@@ -12820,7 +12911,14 @@
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
       "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/parbati-ghose.md",
+        "source_sha256": "8ffa62e54aedf8f71fd42e5c7860b4082944c9512d93e2e8daf1475d24c9aeeb",
+        "date": "2026-11-04"
+      }
     },
     {
       "id": "POD-EDIT-793",
@@ -12919,7 +13017,22 @@
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
       "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/maya-miriga.md",
+        "source_sha256": "420f45499b2785c6b34f28ebf8f458abd17925482ae36761695cecd4f3dc4962",
+        "date": "2026-11-04"
+      },
+      "local_revision": {
+        "record": "records/cinema-maya-family-2026-11-02.json",
+        "status": "reviewed_local_candidates_browser_spot_check_pending",
+        "source_sha256": "d3ec890f2e447652e6b475e8a89364c662022d0980fd5ed40757e6201840b88e",
+        "published": false,
+        "browser_spot_check": "pending; preview API unavailable",
+        "preserves_prior_publication_receipt": true
+      }
     },
     {
       "id": "POD-EDIT-796",
@@ -12952,7 +13065,16 @@
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
       "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision": {
+        "date": "2026-11-02",
+        "status": "reviewed_not_published",
+        "record": "records/cinema-bhukha-original-sources-2026-11-02.json",
+        "source_sha256": "69a6da8d403c788ab13bf0b4ea08349c46e798447248113e9486fc3e989397d2",
+        "scope": "Original play-opening and1990programme/collaborator evidence; compactnotes; prior art preserved.",
+        "review": "outputs/bhukha-original-sources-20261102/review.json",
+        "validation": "outputs/bhukha-original-sources-20261102/validation.json"
+      }
     },
     {
       "id": "POD-EDIT-797",
@@ -13225,8 +13347,17 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "next_action": "Current profile revision is reviewed locally and remains unpublished; earlier publication receipt is preserved.",
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-gourahari-bapa-connection-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/people/gourahari-das.md",
+        "source_sha256": "9e869393af6625674a89c5e30f1b17cff0a8475608020bcc4b420d05561f6977",
+        "implementation": "outputs/gourahari-bapa-connection-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-805",
@@ -13324,8 +13455,26 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "next_action": "Current theatre-memory addition is independently reviewed locally and remains unpublished; earlier publication evidence preserved.",
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-atal-theatre-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/aadim-vichar.md",
+        "source_sha256": "7bca1760de85ed791daf38fdeb24e093ef0fa0a0f0b22817fe376ccb69ffead1",
+        "implementation": "outputs/atal-theatre-20261105/implementation.json",
+        "published": false
+      },
+      "local_revision": {
+        "date": "2026-11-03",
+        "status": "reviewed_not_published",
+        "record": "records/cinema-aadim-source-book-2026-11-03.json",
+        "source_sha256": "618e2413cd3d38783e0727c065c560a9cd9fab5bd1e162170298c5e8c52d3b77",
+        "scope": "Attributed source-story title, compact note and literature link; previous prose and images retained.",
+        "review": "outputs/aadim-source-book-20261103/review.json",
+        "validation": "outputs/aadim-source-book-20261103/validation.json"
+      }
     },
     {
       "id": "POD-EDIT-808",
@@ -13357,8 +13506,17 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "next_action": "Creator-interview addition reviewed in local article and book proofs; publication remains separate. Earlier publication evidence preserved.",
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-bir-childhood-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/people/ak-bir.md",
+        "source_sha256": "920c6c42ac58c719fe51b225dc514aef792727cb39c76a326ca07aae7ea6ed2b",
+        "implementation": "outputs/cinema-bir-childhood-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-809",
@@ -13423,8 +13581,17 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "next_action": "This title-choice addition is reviewed locally and remains unpublished; existing publication receipt refers to the earlier edition.",
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-pratikshya-title-choice-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/pratikshya.md",
+        "source_sha256": "a84a6654d5ee9d55dc950451b4be572f1a2bff7daf9249e08b7847bb9d355980",
+        "implementation": "outputs/pratikshya-title-choice-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-811",
@@ -13456,8 +13623,87 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "next_action": "Publication of this reviewed local revision remains separate. The next source-led research candidate belongs in the dedicated Pratikshya chapter.",
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_history": [
+        {
+          "record": "records/cinema-literature-performance-2026-11-01.json",
+          "status": "local_revision_reviewed_not_published",
+          "source_sha256": "31e83a63df4cc11796e42e926b2b239658dd011cc36aa4f5c30b5b28fa9ac8af",
+          "date": "2026-11-01"
+        },
+        {
+          "record": "records/cinema-writer-collaboration-2026-11-02.json",
+          "status": "local_revision_reviewed_not_published",
+          "source_sha256": "cc35f25b58a830b6b7fe751fa01df363290893956ff5c2680ba989a8d12fa89c",
+          "date": "2026-11-02"
+        },
+        {
+          "record": "records/cinema-spark-collaboration-2026-11-03.json",
+          "status": "local_revision_reviewed_not_published",
+          "source_sha256": "79811f9b10439942c775a0ec865a3a62d2009ea12198f3f8944a87e2a922d993",
+          "date": "2026-11-03"
+        },
+        {
+          "record": "records/cinema-chakra-chapter-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source_sha256": "5c4cecac44f43312279aee867e9394bdcbe6cefbf1b861fbba07d60a1b79fc62",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-malajanha-source-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source_sha256": "373c160ce83dfa3eb5ea4bebd4889bc0c54eaf3da944e83603db64d9d3c674c2",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-integration-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+          "source_sha256": "1b23f00b3d11b9c640a586e3c4830ed2a61507a81239734b8d8d13a2e397c5ce",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-ananta-literary-source-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+          "source_sha256": "03101be88daa748c423a7b70e6ab5dceb06d202c536f78e107ed8a7adf70a54b",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-pushkara-literary-source-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+          "source_sha256": "2dbe4d487f17ee896ee50996aec90d752c22d360b1195c1d63409394f7547a2f",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-malajanha-close-reading-2026-11-04.json",
+          "date": "2026-11-04",
+          "status": "reviewed_local_revision",
+          "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+          "source_sha256": "5fc222f08891a648d7344ceeb99780dca2670e4381327e76c86770b444102765",
+          "published": false
+        },
+        {
+          "record": "records/cinema-amada-opening-scene-2026-11-04.json",
+          "date": "2026-11-04",
+          "status": "reviewed_local_revision",
+          "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+          "source_sha256": "137a2d52f7e7d8bec0c957d1532c851c436bdc63fc86646169fca9d92a2f43f3",
+          "implementation": "outputs/amada-opening-scene-20261104/implementation.json",
+          "published": false
+        }
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-literary-thread-review-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+        "source_sha256": "6fa653b3fa027f4e03e4f9db50a26c5228d5c64352a2d93f73e777117844c394",
+        "implementation": "outputs/literary-thread-review-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-812",
@@ -13494,8 +13740,37 @@
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026."
+      "next_action": "BYOFF addition separately reviewed in local article/book proofs; publication remains separate. Earlier publication evidence preserved.",
+      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-byoff-community-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/cinema-futures.md",
+        "source_sha256": "b80e9ac6f508dd66687bc74e002b9622647bf2287d4d07e91ebfc3cccdecb39a",
+        "implementation": "outputs/cinema-byoff-community-20261105/implementation.json",
+        "published": false
+      },
+      "local_revision_history": [
+        {
+          "date": "2026-11-02",
+          "record": "records/cinema-futures-books-2026-11-02.json",
+          "status": "local_article_and_book_candidates_reviewed",
+          "source_sha256": "ebc3c8dc37839520da2957b7fa67114e0caa6668cf1d818a3e7896e6a9a8c554",
+          "publication_performed": false,
+          "note": "101-word book-to-screen models passage and one compact note; prior publication receipt remains historical.",
+          "review": "outputs/cinema-futures-books-20261102/review.json"
+        }
+      ],
+      "local_revision_followup_history": [
+        {
+          "record": "records/cinema-integration-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/cinema-futures.md",
+          "source_sha256": "3b7ef0988ef0ebd46f43a2b1f5dc2e9ae0d82588db186aca604a721754da35fa",
+          "date": "2026-11-04"
+        }
+      ]
     },
     {
       "id": "POD-EDIT-PURI-PROJECT-20261026",
@@ -13802,7 +14077,14 @@
         "publication_receipt": "records/cinema-publication-2026-10-31.json"
       },
       "publication": true,
-      "publication_receipt": "records/cinema-publication-2026-10-31.json"
+      "publication_receipt": "records/cinema-publication-2026-10-31.json",
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+        "source_sha256": "fe73e0781ad064d37183c6f307bf444f506c748c4c7c5bc233f37d94d1181bfc",
+        "date": "2026-11-04"
+      }
     },
     {
       "id": "POD-EDIT-DHAGA-CULTURAL-20261029",
@@ -14367,7 +14649,14 @@
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
-      ]
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/people/basanta-kumari-patnaik.md",
+        "source_sha256": "eee8b6f99bddd75724056772fdb5f7c38b0da9ff225e2f59fa5e718cbe198d73",
+        "date": "2026-11-04"
+      }
     },
     {
       "id": "POD-EDIT-LEARNING-CINEMA-20261029",
@@ -14393,7 +14682,8 @@
       },
       "evidence": [
         "records/learning-cinema-together-2026-10-29.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-dhira-recollections-2026-11-03.json"
       ],
       "blocker": null,
       "human_review_claimed": false,
@@ -14405,7 +14695,23 @@
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
-      ]
+      ],
+      "latest_local_revision": {
+        "record": "records/cinema-dhira-recollections-2026-11-03.json",
+        "date": "2026-11-03",
+        "status": "reviewed_not_published",
+        "source_sha256": "bbef0f459afa22ef50da01bdf9ed3241f4ca86d4a7ccb2da69dc4a579842b3c1",
+        "published": false,
+        "review": "outputs/dhira-recollections-20261103/review.json"
+      },
+      "revision_status": "reviewed_not_published",
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/learning-cinema-together.md",
+        "source_sha256": "a021d2bba2288a062b952e6e3c358bc303a4c4210bcad4f0f6e3f35ee7718ac1",
+        "date": "2026-11-04"
+      }
     },
     {
       "id": "POD-EDIT-KALINDI-CHARAN-20261029",
@@ -14438,12 +14744,30 @@
       "publication": true,
       "source_sha256": "77bc4d1d5357fbc68b51047547117336c5664174a25441cfe4d0ddace83ff8f3",
       "editorial_stage": "published_verified",
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
+      "next_action": "Original-interview addition reviewed in local article and book proofs; publication remains separate. Earlier publication evidence preserved.",
       "publication_receipt": "records/cinema-publication-2026-10-31.json",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
-      ]
+      ],
+      "local_revision_followup_history": [
+        {
+          "record": "records/cinema-integration-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/people/kalindi-charan-panigrahi.md",
+          "source_sha256": "92fc1720d377789cc1a5692206e3b316bd7f1327cb3455cd93342236f2f82323",
+          "date": "2026-11-04"
+        }
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-matira-collaboration-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/people/kalindi-charan-panigrahi.md",
+        "source_sha256": "afc32cec1862ae1d4e36acfaf1f2b6efb269d4c0ee3a8b8933a6efa7dbad7886",
+        "implementation": "outputs/cinema-matira-collaboration-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-CINEMA-MUSIC-20261030",
@@ -14476,12 +14800,51 @@
       "publication": true,
       "source_sha256": "8a5d54384a14ca58aedf8e9d38b2d0a642aef62a7b7570b612c09d3a158423e1",
       "editorial_stage": "published_verified",
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
+      "next_action": "Sinema Sangita revision independently reviewed locally; publication remains separate. Earlier publication evidence preserved.",
       "publication_receipt": "records/cinema-publication-2026-10-31.json",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
-      ]
+      ],
+      "local_revision_followup_history": [
+        {
+          "record": "records/cinema-integration-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/cinema-music.md",
+          "source_sha256": "99af6a0710d357b000c1fe314e8bcc9d788ada333e1b8bf519dd8219f31eeec9",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-malajanha-song-credits-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/cinema-music.md",
+          "source_sha256": "94ced709a7077a3bb68f45bd9d50d34d46ea2351afa77f034fc3536373b64c92",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-malajanha-poem-source-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/cinema-music.md",
+          "source_sha256": "5b3a985b002925bd8eed7f5e3d4ee6a811c1c9cc18ef0529369c3566d8b40f65",
+          "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-malajanha-film-sequence-2026-11-04.json",
+          "status": "local_revision_reviewed_not_published",
+          "source": "kb/research/culture/cinema-series/cinema-music.md",
+          "source_sha256": "529510211117511e3eee2a9b63494f895ba0cef914adf83bdad093a5fe39646e",
+          "date": "2026-11-04"
+        }
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-sinema-sangita-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/cinema-music.md",
+        "source_sha256": "f9e6a80c6e6808eeb0953e8e83ceca780295e2449d1000584616b615a2393f49",
+        "implementation": "outputs/sinema-sangita-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-PRAFULLA-KAR-20261030",
@@ -14763,24 +15126,69 @@
       "evidence": [
         "records/cinema-deep-review-2026-10-30.json",
         "records/cinema-publication-readiness-2026-10-30.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-kalindi-monograph-reading-2026-11-03.json",
+        "records/cinema-odia-cinema90-chapter-2026-11-03.json",
+        "records/cinema-geeta-research-2026-11-03.json",
+        "records/cinema-pujari-memoir-2026-11-03.json"
       ],
       "publication_receipt": "records/cinema-publication-2026-10-31.json",
       "human_review_claimed": false,
       "publication": true,
-      "next_action": "Reader feedback and further source-supported research remain welcome.",
+      "next_action": "Review accumulated local revisions before publication; remaining original-text access gaps recorded.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "latest_local_revision": {
-        "record": "records/cinema-expansion-work-list-2026-10-31.json",
-        "date": "2026-10-31",
-        "status": "published_verified",
-        "source_sha256": "086201cf0f8de78be599c561284e24a78107b2fbfdad2e7f56a226876149d609",
-        "published": true,
-        "publication_receipt": "records/cinema-publication-2026-10-31.json"
+        "record": "records/cinema-pujari-memoir-2026-11-03.json",
+        "date": "2026-11-03",
+        "status": "reviewed_not_published",
+        "source_sha256": "21f9172a9b0e1cfda5ed38bb82fcdebf4c1744de6e77f7b3d74b5fbada26b9d8",
+        "published": false,
+        "review": "outputs/pujari-memoir-20261103/review.json"
       },
-      "revision_status": "published_verified",
+      "revision_status": "reviewed_not_published",
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/reading-odia-cinema.md",
+        "source_sha256": "a280863d391bf2ff5c5db133e0b7045b5e360454dfd0e71d2d169131dc5a2869",
+        "date": "2026-11-04"
+      },
+      "local_revision_history": [
+        {
+          "record": "records/cinema-expansion-work-list-2026-10-31.json",
+          "date": "2026-10-31",
+          "status": "published_verified",
+          "source_sha256": "086201cf0f8de78be599c561284e24a78107b2fbfdad2e7f56a226876149d609",
+          "published": true,
+          "publication_receipt": "records/cinema-publication-2026-10-31.json"
+        },
+        {
+          "record": "records/cinema-kalindi-monograph-reading-2026-11-03.json",
+          "date": "2026-11-03",
+          "status": "reviewed_not_published",
+          "source_sha256": "18963f3d7b206832489bd12c8019bd2af58d58bca6b1e595d41db48bba908410",
+          "published": false,
+          "review": "outputs/kalindi-monograph-reading-20261103/review.json"
+        },
+        {
+          "record": "records/cinema-odia-cinema90-chapter-2026-11-03.json",
+          "date": "2026-11-03",
+          "status": "reviewed_not_published",
+          "source_sha256": "d1265fec2417d879c79756a27803f3c8b6a6862588ffa277930a2d92915df4c3",
+          "published": false,
+          "review": "outputs/odia-cinema90-chapter-20261103/review.json"
+        },
+        {
+          "record": "records/cinema-geeta-research-2026-11-03.json",
+          "date": "2026-11-03",
+          "status": "reviewed_not_published",
+          "source_sha256": "9a28e35ce246ce9fe8aac79d6d2c43b40d398e78205f422bc10cff91159d77c1",
+          "published": false,
+          "review": "outputs/cinema-geeta-20261103/review.json"
+        }
       ]
     },
     {
@@ -17301,6 +17709,137 @@
       "blocker": null,
       "completed_at": "2026-11-04T23:46:12.639579+00:00",
       "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-BIBHUTI-PATTANAIK-20261102",
+      "route": "/people/bibhuti-pattanaik/",
+      "title": "Bibhuti Pattanaik: Books Within Reach",
+      "status": "queued",
+      "scope": "Supplementary cinema writer profile outside the50-reading book sequence; local candidate only.",
+      "source": "kb/research/people/bibhuti-pattanaik.md",
+      "source_sha256": "2f124662e029657aa1f58c2e45755c3b1148f734a553f996e956fafd800c365a",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "independent_review": "pass",
+        "targeted_checks": 25,
+        "site_build": "pass",
+        "browser": "pass",
+        "map": "pass"
+      },
+      "evidence": [
+        "records/cinema-bibhuti-profile-2026-11-02.json"
+      ],
+      "human_review_claimed": false,
+      "publication": false,
+      "editorial_stage": "independently_reviewed_local_candidate",
+      "blocker": null,
+      "next_action": "Review the accumulated local cinema candidates for a separate release. Before any wider source expansion, reconcile the existing Bologna-derived overview/Maya allocation; the new profile adds no Bologna summary. Detailed Badhu film credits and compensation remain unresolved and should reopen only for a precise new source.",
+      "status_normalization": {
+        "date": "2026-11-03",
+        "record": "records/cinema-aadim-source-book-2026-11-03.json",
+        "prior_status": "awaiting_review",
+        "meaning": "Queued for release; existing local review evidence retained."
+      },
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/people/bibhuti-pattanaik.md",
+        "source_sha256": "012fc69b2370ebdb878cb3335b0641bf0e9755b28a0e4c1eb2763b02013f39b3",
+        "date": "2026-11-04"
+      }
+    },
+    {
+      "id": "POD-EDIT-SOLILA-PARIDA-20261103",
+      "route": "/people/solila-parida/",
+      "title": "Solila Parida: Carrying a Story Across Oceans",
+      "status": "queued",
+      "scope": "Supplementary producer profile linked from literature and screen; outside50-reading book. Local candidate only.",
+      "source": "kb/research/people/solila-parida.md",
+      "source_sha256": "daaae3302af0ce33d7ce5d3d19a02f8a4009ed8b548acdff7dc37c55573f2646",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "independent_review": "pass",
+        "targeted_checks": 36,
+        "site_build": "pass",
+        "browser": "pass",
+        "map": "pass"
+      },
+      "evidence": [
+        "records/cinema-solila-profile-2026-11-03.json",
+        "records/cinema-solila-vishkanya-2026-11-03.json"
+      ],
+      "human_review_claimed": false,
+      "publication": false,
+      "editorial_stage": "independently_reviewed_local_candidate",
+      "blocker": null,
+      "next_action": "Review this companion with the accumulated cinema candidates before a separate authorized release. Image-specific licence remains unverified under existing Founder direction.",
+      "latest_targeted_review": {
+        "scope": "Original-publicity music credit; preserved prose and portrait",
+        "date": "2026-11-03",
+        "review": "outputs/solila-vishkanya-20261103/review.json",
+        "focused_tests_passed": 6,
+        "site_build": "pass",
+        "desktop_paragraph_and_footnote": "pass",
+        "publication": false
+      },
+      "status_normalization": {
+        "date": "2026-11-03",
+        "record": "records/cinema-aadim-source-book-2026-11-03.json",
+        "prior_status": "awaiting_review",
+        "meaning": "Queued for release; existing local review evidence retained."
+      }
+    },
+    {
+      "id": "POD-EDIT-JATINDRA-NAYAK-20261103",
+      "route": "/people/jatindra-k-nayak/",
+      "title": "Jatindra K. Nayak: Carrying the Voice Across",
+      "status": "queued",
+      "scope": "Supplementary translator companion linked fromBasanta; outside50-reading book. Localcandidate only.",
+      "source": "kb/research/people/jatindra-k-nayak.md",
+      "source_sha256": "9a8d0c45a8eee9572703c70c3e4ebe62fa064a5987b6165cb3adb286781c31ac",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "independent_review": "pass",
+        "targeted_checks": 38,
+        "site_build": "pass",
+        "browser": "pass"
+      },
+      "evidence": [
+        "records/cinema-nayak-profile-2026-11-03.json",
+        "records/cinema-sikshasandhan-2026-11-03.json"
+      ],
+      "human_review_claimed": false,
+      "publication": false,
+      "editorial_stage": "independently_reviewed_local_candidate",
+      "blocker": null,
+      "next_action": "Include with accumulated local candidates in a separately authorized cinema release.",
+      "latest_targeted_review": {
+        "date": "2026-11-03",
+        "scope": "Sikshasandhan catalogue and library addition; subject clarification",
+        "tests": 8,
+        "independent_review": "pass",
+        "normal_and_coast_render": "pass",
+        "browser": "desktop passage, note and reading-guide links passed",
+        "record": "records/cinema-sikshasandhan-2026-11-03.json"
+      }
     }
   ]
 }

@@ -1,0 +1,82 @@
+{
+  "id": "POD-CINEMA-GEETA-SOURCES-20261103",
+  "date": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://ketakibooks.com/devdas-chhotray-2/",
+      "inspection": "Direct web text",
+      "locator": "Books paragraph",
+      "supports": "Author and title; not independently a publisher statement."
+    },
+    {
+      "url": "https://ketakifoundation.org/book-publication/",
+      "inspection": "Direct web text",
+      "locator": "Cinema Geeta (Odia Poems), lines284–291",
+      "supports": {
+        "author": "Devdas Chhotray",
+        "language": "Odia",
+        "publication_year": 2020,
+        "publisher": "Ketaki Foundation Trust",
+        "format": "Paperback",
+        "isbn": "978-81-944562-3-0"
+      }
+    },
+    {
+      "url": "https://ketakibooks.com/product/cinema-geeta-odia-poems-paperback/",
+      "inspection": "Search indexed then directly inspected in browser after web fetch failed; gallery4images inspected visually",
+      "supports": "Publisher, language and ISBN from product description; title, firstpublicationJanuary2020 and publisher from photographed original imprint. Gallery has cover,imprint,title,dedication; no contents or lyric page.",
+      "original_images": [
+        {
+          "url": "https://ketakibooks.com/wp-content/uploads/2024/09/Cinema-gita-1.jpg",
+          "type": "cover",
+          "locator": "gallery1/4",
+          "read": "Odia title and author"
+        },
+        {
+          "url": "https://ketakibooks.com/wp-content/uploads/2024/09/Cinema-gita-2.jpg",
+          "type": "unnumbered imprint",
+          "locator": "gallery2/4",
+          "evidence": "outputs/cinema-geeta-20261103/publisher-imprint-enlarged.png",
+          "read": "First published in January2020; publisherKetakiFoundationTrust; ©2020DevdasChhotray. ISBN label blank in this sample, number derived only from catalogue/product."
+        },
+        {
+          "url": "https://ketakibooks.com/wp-content/uploads/2024/09/Cinema-gita-3.jpg",
+          "type": "title page",
+          "locator": "gallery3/4",
+          "evidence": "outputs/cinema-geeta-20261103/publisher-title.png",
+          "read": "ସିନେମା ଗୀତ / ଦେବଦାସ ଛୋଟରାୟ"
+        },
+        {
+          "url": "https://ketakibooks.com/wp-content/uploads/2024/09/Cinema-gita-4.jpg",
+          "type": "dedication",
+          "locator": "gallery4/4",
+          "evidence": "outputs/cinema-geeta-20261103/publisher-dedication.png",
+          "read": "Dedication addressed to Mili. Full identity and text not transcribed or used publicly."
+        }
+      ]
+    }
+  ],
+  "original_pages_inspected": true,
+  "whole_book_read": false,
+  "lyrics_inspected": false,
+  "lyric_words_quoted": 0,
+  "independence": "Ketaki Foundation and Ketaki Books are related firstparty sources, not independent corroboration. Original imprint adds direct documentary evidence.",
+  "source_limit": "No catalogue of songs, film-by-film associations or analysis of lyrics inferred.",
+  "title": "Cinema Geeta: original front matter and a resolved imprint",
+  "status": "reviewed_local_candidates_with_documented_gap",
+  "scope": "Bounded original-source inspection; one reading-guide entry revised",
+  "research_receipts": [
+    "outputs/cinema-geeta-20261103/research.json",
+    "outputs/cinema-geeta-20261103/coverage.json",
+    "outputs/cinema-geeta-20261103/coordinator-research.json"
+  ],
+  "change": "Replaced incomplete publication wording with verified Odia title, January2020firstpublication andpublisher; replaced host warning with compact originalimprint/catalogue citation;20footnotes retained.",
+  "remaining_gaps": [
+    "Contents page and individual lyrics not inspected",
+    "No reading of fullbook or lyric-to-recording comparison"
+  ],
+  "stopping_rule": "Do not repeat catalogue/ISBN searches for lyric content. Resume this book only with a precise original contents or lyric-page source.",
+  "next_action": "Seek original title/imprint pages of Dillip Kumar Pani’s Odia Chalachitra Ra Sahitika O Sanskrutika Mulyayana; reuse pani-evaluation, CIIL serial262/PDF44 and2019launch identity. Resolve title variants against original pages. Do not repeat parked Cinema Geeta lyric-access, Cinema@90 chapter, IU booklet or payment gaps without a precise new source.",
+  "publication_performed": false,
+  "review": "outputs/cinema-geeta-20261103/review.json"
+}

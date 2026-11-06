@@ -1,0 +1,142 @@
+{
+  "id": "aadim-source-book-2026-11-03",
+  "date": "2026-11-03",
+  "status": "reviewed_local_integration",
+  "article": "research/culture/cinema-series/aadim-vichar.md",
+  "reuse": [
+    "research/culture/cinema-series/aadim-writer-performance-2026-11-03.json",
+    "records/cinema-aadim-writer-performance-2026-11-03.json"
+  ],
+  "finding": "A director interview identifies the planned sequel to Sala Budha as an adaptation of his father Kapileswar Mohapatra’s short story AdimBichar. This supports an attributed source-title sentence, not a specific book/edition.",
+  "sources": [
+    {
+      "id": "odishadiary-sabyasachi-source-story",
+      "url": "https://orissadiary.com/salabudha-is-a-tribute-to-senior-citizens-sabyasachi-mohapatra/",
+      "title": "Salabudha is a tribute to senior citizens: Sabyasachi Mohapatra",
+      "interviewer": "Ashok Palit",
+      "publisher": "Odisha Diary",
+      "displayed_date": "2017-03-22",
+      "original_interview_date": null,
+      "inspection": "Disha directly read public original in Chrome; web retrieval403. Anvesha separately reviewed the captured excerpt, not an independently successful original fetch.",
+      "locator": "Are you going to make the Sequel of Sala Budha?",
+      "exact_story_title": "AdimBichar",
+      "public_title_normalisation": "Adim Bichar",
+      "supports": [
+        "Director testimony identifying father, short-story form and source title for planned sequel."
+      ],
+      "does_not_support": [
+        "Original publication/collection, edition or exact Odia spelling.",
+        "Actual filming dates or a2017 production: intro anticipates an IFFI screening in2013 despite2017page date.",
+        "Original work read, full film watched, adaptation permission or compensation."
+      ],
+      "capture": "outputs/aadim-source-book-20261103/interview-excerpt.txt",
+      "public_paraphrase_and_note_words": 37,
+      "verbatim_public_quote_words": 0
+    },
+    {
+      "id": "fm-library-sala-budha",
+      "url": "https://fmuniversity.nic.in/getdata?dir=InstituteNotice&rid=inotice221_24920211632468237547.pdf",
+      "inspection": "Text searched across PDF; actual rendered pages 50,60,63 visually inspected. No book title pages or contents inspected.",
+      "local_path": "outputs/aadim-source-book-20261103/library-captures/fmu-accessions.pdf",
+      "sha256": "e855525d49d305a190020b3bbcf67751cde8c0805e46d8febc1ae8abf6c6fffa",
+      "catalogue_rows": [
+        {
+          "accession": "D1993",
+          "printed_and_pdf_page": 63,
+          "author_as_catalogued": "Mohapatra, Kapileswar",
+          "title_as_catalogued": "Sala Budhara Kathani",
+          "edition": "1st",
+          "place": "Subarnapur",
+          "publisher": "Chetana",
+          "year": 2009,
+          "pages": 112
+        },
+        {
+          "accession": "D1581",
+          "printed_and_pdf_page": 50,
+          "author_as_catalogued": "Mahapatra, Kapileswar Prasad",
+          "title_as_catalogued": "Sala Budha",
+          "edition": "1st",
+          "place": "Subarnapur",
+          "publisher": "Chetana Trust",
+          "year": 2009,
+          "pages": 180
+        },
+        {
+          "accession": "D1582 and D1583",
+          "printed_and_pdf_page": 50,
+          "author_as_catalogued": "Mahapatra, Kapileswar Prasad",
+          "title_as_catalogued": "Sala Budhara Srimandira Darshna",
+          "edition": "1st",
+          "place": "Subarnapur",
+          "publisher": "Chetana Trust",
+          "year": 2011,
+          "pages": 100,
+          "limit": "Two accession rows repeat the same listed edition; not two distinct works."
+        },
+        {
+          "accession": "D1903",
+          "printed_and_pdf_page": 60,
+          "author_as_catalogued": "Mohanty, Kapieswar Prasad",
+          "title_as_catalogued": "Sala Budhara Geeta Darshan",
+          "edition": "1st",
+          "place": "Subarnapur",
+          "publisher": "Chetana Trust",
+          "year": 1999,
+          "pages": 186,
+          "limit": "Author surname and given-name spelling differ; retain as catalogue transcription, do not silently resolve identity or count as a confirmed work by the film-source author."
+        }
+      ],
+      "limits": [
+        "Catalogue entry is not original-edition inspection; possible cataloguing errors remain.",
+        "No Aadim Vichar story or film connection appears in these rows.",
+        "Do not equate Sala Budha180pp with Sala Budhara Kathani112pp.",
+        "No language field in these rows establishes exact literary language.",
+        "Cost column is library metadata, not writer compensation."
+      ],
+      "public_words": 0
+    }
+  ],
+  "additional_approaches": [
+    {
+      "approach": "Original FMU PDF and official OPAC route",
+      "record": "outputs/aadim-source-book-20261103/library-evidence.json",
+      "result": "Catalogue rows directly verified; no original book titlepage/contents found."
+    },
+    {
+      "approach": "Exact English/Odia title, author and publisher searches",
+      "result": "No original story text or original-edition scan located. Unrelated Chennai Chetana organisation must not be conflated with Subarnapur publisher."
+    },
+    {
+      "approach": "Odisha Culture RRRLF2010–11 selected-book list",
+      "url": "https://culture.odisha.gov.in/sites/default/files/2022-06/List%20of%20Selected%20Books%20Under%20Raja%20Rammohan%20Ray%20Library%20Foundation%20%28RRRLF%29%20Scheme%20for%20the%20Year%202010-11.pdf",
+      "result": "Accessible138pagePDF textfind did not locate exactKapileswar/SalaBudha; this is not an absence claim about all library holdings."
+    },
+    {
+      "approach": "Odia Bibhaba reference bibliography",
+      "url": "https://odiabibhaba.in/en/reference-e/reference-5-e/",
+      "result": "Reference gateway accessible; bibliography target403 in web tool. Shell fetchDNSfailure is a local network limitation, not independent publisherdenial. No bibliography pages inspected."
+    },
+    {
+      "approach": "Exact-title broad-index discovery led to director interview",
+      "result": "Original interview reached in normal Chrome, giving a source title without a collection assignment."
+    }
+  ],
+  "not_integrated_leads": [
+    {
+      "url": "https://shikhyaprod.s3.amazonaws.com/odia/CourseResource/482/files/8359/8359_lTiPplYi2b.pdf",
+      "description": "Aveti newsletter indexed Chetana: New Initiatives at Sonepur; originalPDFnotinspected, dateunverified. No personal biography or trust-history claim integrated."
+    }
+  ],
+  "editorial_decision": "Add22narrativewords and compact15wordnote, one related literature reading link. Preserve all previous prose, images and50reading structure.",
+  "remaining_gaps": [
+    "Original short-story text, original spelling and first publication remain uninspected.",
+    "No source connects AdimBichar to either2009catalogue volume.",
+    "Permission and compensation unverified."
+  ],
+  "stopping_rule": "Three different original-book approaches recorded. Park exact-edition question until a precise scan, contents page or new direct statement is available; do not repeat generic queries.",
+  "next_action": "Reuse already saved Kalindi monograph sample pages under books-periodicals queue for bounded coverage check. Review accumulated local candidates separately before publication.",
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "review_record": "outputs/aadim-source-book-20261103/review.json"
+}

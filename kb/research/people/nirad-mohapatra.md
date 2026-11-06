@@ -31,6 +31,10 @@ The same account connects his film-appreciation courses at Utkal University with
 
 The extended family at the centre of *ମାୟା ମିରିଗ (Maya Miriga)* provides the subject of our [companion film article](../culture/cinema-series/maya-miriga.md), which follows its collaborators and later restoration. The filmmaker who made that household drama also made time for other people’s films.
 
+![Two people on a rooftop during the making of Maya Miriga; one raises both hands.](../media/cinema-series/photographs-2026-11-05/nirad-mohapatra-maya-on-set-20261105.jpg)
+
+*During the making of Maya Miriga. Photo: [via Maya Miriga / Film Heritage Foundation](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/).*
+
 ## Recognition, and the work after recognition
 
 The film received **Second Best Feature Film** at the 31st National Film Awards, covering films of 1983 and presented in 1984. Cannes Critics’ Week records its **1984 selection**. The award and the festival selection mark distinct forms of recognition.[^national][^cannes]

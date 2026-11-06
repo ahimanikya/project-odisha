@@ -1,0 +1,61 @@
+{
+  "status": "PREFLIGHT_FINDINGS_PENDING_INTEGRATED_RELEASE",
+  "scope_released": true,
+  "reviewed_at": "2026-11-07T02:47:51.594358",
+  "scope": "Read-only cinema publication preflight. No source edits, builds, git mutations or publication. Dongria PR688 excluded. Concurrent integration snapshot, not final release verdict.",
+  "input_hashes": {
+    "projects/site/src/data/cinema.json": "c8edd79731bde5c753c3ceba681bc65900e2be196d00b3cda817244dab9a8b56",
+    "projects/site/src/data/cinema-companions.json": "3d41ba4f44128b4de3bcef7f5fdef830d12f24763212e5f6cff72acbbc026739",
+    "projects/site/editions/coast.json": "673f1dfabd805018bbe854f1d0313c5ed21a193761fdd5f685504818c4a1e6ab",
+    "projects/site/src/lib/cinema-article.mjs": "81ba844668df25c972215e47eaee1d96c863e8913ff23846862d56232ce0417a",
+    "projects/site/tests/cinema-release.test.mjs": "030eec4050a3c74bb36ec64d55bb35fcbee0d9b59593eb91468af97668ea0e69",
+    "outputs/cinema-shared-culture-20261106/review.json": "0a4a6713dee0afd8a8cfefb95417d618273fb5cc955d5833fa6dfaf8cd533424",
+    "tmp/pdfs/intro-standalone-20261106/review.json": "5572e5be82fd121b568daa45cf546fd8efb160c3a9101bfd2af045f683f2d3c1",
+    "outputs/cinema-publication-20261107/content-audit.json": "2d73ced2e9ebbee98e7c001bcd20a08353260b6d16237c212763fc455abbd4f7",
+    "outputs/cinema-publication-20261107/engineering-plan.json": "ca8f66e298e5730ad84ca81b9cd5cad054f03ba3b6416056199f4b3d5c856367"
+  },
+  "independent_checks": {
+    "article_source_bindings": "All50 main and3 companion source_sha256 fields match current file bytes.",
+    "image_bindings": "All60 main/companion placements: original hashes and responsive derivative hashes match. All provenance paths exist after normalizing scalar/list and KB/public path types. No missing referenced image assets found.",
+    "focused_tests": {
+      "command": "bundled Node --test tests/cinema*.test.mjs",
+      "tests": 49,
+      "pass": 46,
+      "fail": 3,
+      "cause": "All3 failures parse unresolved merge markers in coast.json. Initial system Node lacked --test; rerun used bundled current Node."
+    },
+    "diff_check": "Fails on unresolved merge markers in editorial rollout/work-list, public routes and coast edition.",
+    "review_receipts": "Latest shared-culture and standalone intro receipts both PASS and scope_released true; prior complete scoped visual reviews reused, no new whole-book visual claim.",
+    "guards": "Inspected image sizing/credit renderer and release/Six Acres test diffs. Exact source hashes, unique figures, HTTPS credits, explicit unverified rights, width85/100, zoom validation and numeric credit/return checks retained. Changes to counts correspond to added images/rows rather than removal of those safeguards."
+  },
+  "release_blockers": [
+    {
+      "id": "integration-conflicts",
+      "severity": "blocking",
+      "finding": "Unresolved merge markers make release configuration invalid JSON and fail3 focused tests.",
+      "required_action": "Resolve shared register/route/coast integration conflicts preserving unrelated upstream work, then rerun tests and diff check."
+    },
+    {
+      "id": "release-downloads",
+      "severity": "blocking_for_current_book_publication",
+      "finding": "Active review_books still identify Nov1 246/254-page books, while reviewed current local books are Nov6 shared-culture264/270.",
+      "required_action": "Publish verified current release assets and bind exact download URLs, hashes, sizes, counts and release manifest; preserve archived editions. Verify actual remote downloads after upload."
+    }
+  ],
+  "status_review": {
+    "observed": "Canonical frontmatter:51 draft,1 reviewed_draft,1 local_review across53 articles; intro manifest/site entry also local_review.",
+    "interpretation": "Renderer does not gate publication on these frontmatter labels; these are stale workflow labels, not evidence of missing content review. Do not bulk claim published before actual release.",
+    "required_reconciliation": "Make active release records truthful at successful publication; distinguish historical local review records from current published state. Standalone intro needs an explicit public destination only if included in requested site delivery."
+  },
+  "packaging_requirements": [
+    "Include required untracked companion routes/data, public images and provenance, reviewed source files, fonts and runtime dependencies in the deliberate cinema release payload. Existence on local disk alone does not guarantee deployed inclusion.",
+    "Re-run full/coast build, rendered disclosure gate, affected editorial/image tests and link/asset checks on the final integrated payload. Previously reported stale Six Acres assertion must be resolved or accurately assessed against final output; this preflight did not run the whole coast suite.",
+    "Do not ship research/tmp directories wholesale or alter unrelated Dongria changes."
+  ],
+  "limits": [
+    "No new historical source research or full-series factual recertification.",
+    "No fresh browser/deployment/remote release validation in this preflight.",
+    "No licence upgrades inferred from user permission; unknown rights remain honestly identified.",
+    "Final integrated release QA remains required after coordinator resolves blockers."
+  ]
+}

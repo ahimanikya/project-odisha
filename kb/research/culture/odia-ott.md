@@ -7,7 +7,7 @@ research_date: "2026-10-25"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
 sources: [{"id": "four-review", "title": "AAO NXT’s Four anthology", "resource": "https://www.mediainfoline.com/film-review/aao-nxts-four-anthology"}, {"id": "watch-0d1789a297", "title": "AAO NXT", "resource": "https://aaonxt.com/", "kind": "Provider catalogue", "playback_verified": false}, {"id": "watch-ab56e0d59e", "title": "Kanccha Lannka on the App Store", "resource": "https://apps.apple.com/in/app/kanccha-lannka/id1584598214", "kind": "Provider app listing", "playback_verified": false}]
-hero_image: "../media/odia-ott/odia-ott-title.png"
+hero_image: "../media/cinema-series/photographs-expansion-2026-11-05/odia-ott-kaushik-das-20261105b.jpg"
 series_intro: "Explore changing ways of finding stories, reaching viewers and sustaining creative work."
 series_position: 11
 series_part: "Changing Screens"

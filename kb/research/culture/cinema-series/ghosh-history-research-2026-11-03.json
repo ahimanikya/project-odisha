@@ -1,0 +1,56 @@
+{
+  "id": "POD-CINEMA-GHOSH-HISTORY-SOURCES-20261103",
+  "date": "2026-11-03",
+  "status": "access_gap_with_metadata_clarification",
+  "scope": "Original Ghosh history title/imprint/contents access; no public revision warranted.",
+  "fresh_checks": [
+    {
+      "url": "https://fmuniversity.nic.in/getdata?dir=InstituteNotice&rid=inotice223_24920211632468972449.pdf",
+      "inspection": "Fresh indexed table, page 64 of 294, accession 1478. Direct web open timed out; browser PDF navigation blocked by client. No original PDF visual inspection.",
+      "supports": "Accession date 17 December 2002; Ghosh Kartik Kumar; Oriya Chalachitrara Itihas; 1st; Orissa Book Store; 1984; 290 pages. These fields were already retained.",
+      "limits": "Accession description, not original title/imprint or current availability. Blank Place field; Cuttack comes from the separate bibliography."
+    },
+    {
+      "url": "https://indiancine.ma/documents/DSP/Encyclopedia%2520of%2520Indian%2520Cinema.pdf",
+      "inspection": "Fresh indexed bibliography; direct web retrieval rejected for file size.",
+      "supports": "Single citation combines Govind Charan Patra, Orissa Bookstore, 1984; not two competing publisher witnesses.",
+      "limits": "Original Ghosh imprint and relationship of personal and business names remain uninspected."
+    },
+    {
+      "url": "https://fmuniversity.nic.in/university_library.html",
+      "inspection": "Direct browser reading after web timeout; page footer dated 6 March 2023. Home and Facility menu inspected for public catalogue access.",
+      "supports": "Public library information includes reference and reprographic services.",
+      "limits": "No reachable title-level catalogue link or original Ghosh pages located on inspected surfaces. No services requested, logins attempted or credentials retained."
+    },
+    {
+      "url": "https://fmuniversity.nic.in/getdata?dir=InstituteNotice&rid=inotice693_25620241719308250590.pdf",
+      "inspection": "Indexed 2024–25 prospectus, printed page 61; direct fetch decoding error.",
+      "supports": "Describes remote eg4 OPAC and says its link is on university website.",
+      "limits": "Does not give an accessible original Ghosh copy; a public catalogue endpoint was not reached in this pass."
+    }
+  ],
+  "search_queries": [
+    "site:fmuniversity.nic.in \"1478\" \"Chalachitrara\"",
+    "site:fmuniversity.nic.in \"Chalachitra\" Ghosh",
+    "\"Oriya Chalachitrara Itihas\" \"1989\"",
+    "Fakir Mohan University library OPAC catalogue",
+    "\"Oriya Chalachitrara Itihas\" \"1989\" Patnaik",
+    "site:fmuniversity.nic.in \"eg4\" \"OPAC\" \"https\"",
+    "\"Fakir Mohan\" site:eg4.nic.in"
+  ],
+  "separate_research_receipt": "outputs/ghosh-cinema-history-20261103/research.json",
+  "reused_evidence": "1984 accession and Encyclopedia bibliography are known sources; refreshed access is not discovery of a new book or original Ghosh reading.",
+  "metadata_correction": "Preserve the two imprint names as one cited string rather than suggest conflicting publishers. Their roles and exact imprint remain open.",
+  "original_Ghosh_pages_read": false,
+  "public_article_changed": false,
+  "book_editions_changed": false,
+  "stop_condition": "Original title/imprint/contents not located through exact title/author and catalogue discovery or the institutional holding route. Park until a specific original-copy source or changed access appears; do not infer absence.",
+  "next_action": "Seek original title and colophon of Surya Deo’s second Odia Cinema Geeta volume, anchored by deo-gita-v2. Resolve the retained 1970–1978 versus 1969–1978 scope only with original pages or direct publisher evidence. This is distinct from Devdas Chhotray’s Cinema Geeta.",
+  "title": "Ghosh’s early cinema history: the library trail",
+  "handoff": "records/cinema-ghosh-history-research-2026-11-03.json",
+  "evidence": [
+    "outputs/ghosh-cinema-history-20261103/research.json",
+    "outputs/ghosh-cinema-history-20261103/coverage.json",
+    "outputs/ghosh-cinema-history-20261103/coordinator-research.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "scope_released": true,
+  "files": {
+    "projects/site/tools/build-publication.mjs": "b487296c9f315547bc3352f4877989338873f819246a2a3e0c0a975bf8f43e91",
+    "projects/site/tests/search-publication.test.mjs": "2fc579d3c5b44c3ae2656e190e7c4e235d1b74fa0ae42dd6764837a7e6eb35e9",
+    "projects/site/tests-coast/voices-passage-sources.test.mjs": "04e54f5e849baf59ca26fb0cafa578a2fe4ce33ab4e8c426adfc1484d0e3216e"
+  },
+  "changes": {
+    "six_acres": "Only this route checks numbered image note with creator/source/licence/changes and reciprocal reference instead of Images and reuse heading. Other route expectations unchanged.",
+    "preflight": "Uses existing PNG eligibility OR exact two-path deliveryJPEGs allowlist; arbitrary JPEGs remain nonoptimizable. Final actual output1GB check unchanged. No optimizer settings/image bytes or prose altered."
+  },
+  "validation": {
+    "command": "node --test tests/search-publication.test.mjs tests/publication-jpeg.test.mjs tests-coast/voices-passage-sources.test.mjs",
+    "cwd": "projects/site",
+    "passed": 26,
+    "failed": 0,
+    "sparse_fixture": "Existing1GBoversized.bin rejected before copy; test passed.",
+    "jpeg_geometry_and_metadata": "Existing aspect/orientation/metadata/original preservation test passed.",
+    "prior_attempts": "Initial command had wrong cwd; corrected run exposed Astro-added attributes in ordered-list markup, corrected assertion to allow attributes while retaining number and note-id requirement."
+  },
+  "limits": "No full build run; coordinator owns actual publication size verification. Final1GBgate remains authoritative even if optimization savings are insufficient."
+}

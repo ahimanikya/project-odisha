@@ -7,7 +7,7 @@ status: "draft"
 research_date: "2026-10-26"
 human_review_claimed: false
 sources: [{"id":"gour-life","resource":"https://www.gourparbati.com/gour_prasad_ghose.php"},{"id":"gour-bhai","resource":"https://www.gourparbati.com/movie_bhaibhai.php"},{"id":"gour-maa","resource":"https://www.gourparbati.com/movie_maa.php"},{"id":"gour-credits","resource":"https://www.gourparbati.com/filmography.php"}]
-hero_image: "../media/cinema-series/distinct-2026-10-27/gour-prasad-ghose.png"
+hero_image: "../media/cinema-series/photographs-2026-11-05/gour-prasad-ghose-gour-maa-20261105.jpg"
 series_intro: "Meet an actor who became a producer, connecting theatre, literary voices and the practical work of making films."
 ---
 

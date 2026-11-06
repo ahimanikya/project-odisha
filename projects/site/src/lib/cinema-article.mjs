@@ -5,6 +5,7 @@ import {renderReviewedCultureArticle} from './reviewed-culture-article.mjs';
 const root=[process.cwd(),path.resolve(process.cwd(),'../..')].find(candidate=>fs.existsSync(path.join(candidate,'kb/research/culture/cinema-series/manifest.json')));
 if(!root)throw Error('Cinema sources require the repository or site build working directory');
 export const cinema=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema.json'),'utf8'));
+export const cinemaCompanions=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema-companions.json'),'utf8')).articles;
 export const cinemaNarrative=JSON.parse(fs.readFileSync(path.join(root,'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'),'utf8'));
 export function cinemaRouteEntries(entries=cinema.articles){return entries.filter(entry=>entry.route===`/cinema/${entry.slug}/`);}
 const navigationLabels={'the-question-that-brought-me-here':'Why this book','odia-cinema':'Odia cinema','literature-and-screen':'Literature and cinema','air-cuttack':'AIR Cuttack','odia-television':'Odia television','odia-ott':'Odia OTT','commercial-successes':'Commercial successes','cinema-economics':'Cinema economics','cinema-futures':'The road ahead'};
@@ -18,7 +19,7 @@ export function joinCinemaCitations(html){
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 // Explicitly reviewed Odia titles and quotations. Script alone does not establish language:
 // Sambalpuri Bhukha and unreviewed passages deliberately remain unlabelled here.
-const odiaReadings=['ଅମଡ଼ା ବାଟ','ଅମଡ଼ା ବାଟ','ମାଟିର ମଣିଷ','ଶ୍ରୀଜଗନ୍ନାଥ','ଶ୍ରୀ ଜଗନ୍ନାଥ','ଶ୍ରୀମତୀ ସମାର୍ଜନୀ','ଅପରିଚିତା','ମୋକ୍ଷ','ମାଆ','ମା','ମଲାଜହ୍ନ','ଲକ୍ଷ୍ମୀ','ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ','ଶୀତରାତି','କ୍ଳାନ୍ତ ଅପରାହ୍ନ','ନୀରବ ଝଡ଼','ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ','ବାବୁଲା','କୁନି ଗଣେଶ','ଚିଲିକା ତୀରେ','ନାଗଫାଶ','ଚକା ଭଉଁରୀ','ଅଭିମାନ','ଉଦଣ୍ଡୀ ସୀତା','ସୂର୍ଯ୍ୟମୁଖୀ','ଅରୁନ୍ଧତୀ','କୃଷ୍ଣ ସୁଦାମା','ବିଶ୍ୱପ୍ରକାଶ','ତାରା','ଆଦି ମୀମାଂସା','ତୁଳସୀ ଅପା','ବିଜୁ ବାବୁ','ପରବ','କଙ୍କି ଓ ସାପ','ରାତି ଓ ଭୟ','ବି ଓ ଏସ','କେମିତି କହିବି କହ','କଥା ସରିତା','ଗୋପାଳ ରହସ୍ୟ','ପାଣୁ ମିଶ୍ର','ଚତୁର କାଉ','ମହାପ୍ରଭୁ ଜଗନ୍ନାଥ','ଚୁମ୍ବକ','ଅଭିନେତ୍ରୀ','ରକ୍ତ ଗୋଲାପ','ଉଲ୍କା','ତହିଁ ଆରଦିନ ଉପରଓଳି','ଏକା ହାତରେ ତାଳି ବାଜେ ନାହିଁ','ଲହରୀ','ମମତା','କୁଳନନ୍ଦନ','ଆଇ ଲଭ୍ ୟୁ','ଇସ୍କ ତୁ ହି ତୁ','ମୁଁ ଖାଣ୍ଟି ଓଡ଼ିଆ ଝିଅ','ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨','ଶ୍ରୀ ଶ୍ରୀ ପତିତପାବନ','ଶେଷ ଶ୍ରାବଣ','ଯାଯାବର','ଏଇ ଆମ ସଂସାର','ସୁନା ହରିଣୀ','ଆମର ଏଠି କିଛି ହେବନି','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ&#39;ଣ ?','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ\'ଣ ?','ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।','ଆକାଶବାଣୀ କଟକ','ଛମାଣ ଆଠଗୁଣ୍ଠ','ମାୟା ମିରିଗ','ବୋଉ ବୁଟୁ ଭୂତ','କର୍ମ','ପ୍ରତୀକ୍ଷା','ଦମନ','ରେବତୀ','ଅନନ୍ତା','ଲାବଣ୍ୟ ପ୍ରୀତି','ଆଦିମ ବିଚାର','ସୀତା ବିବାହ','ଶୀତ ରାତି','କା','ସ୍ତ୍ରୀ'];
+const odiaReadings=['ବଧୂ ନିରୁପମା','ଅମଡ଼ା ବାଟ','ଅମଡ଼ା ବାଟ','ମାଟିର ମଣିଷ','ଶ୍ରୀଜଗନ୍ନାଥ','ଶ୍ରୀ ଜଗନ୍ନାଥ','ଶ୍ରୀମତୀ ସମାର୍ଜନୀ','ଅପରିଚିତା','ମୋକ୍ଷ','ମାଆ','ମା','ମଲାଜହ୍ନ','ଲକ୍ଷ୍ମୀ','ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ','ଶୀତରାତି','କ୍ଳାନ୍ତ ଅପରାହ୍ନ','ନୀରବ ଝଡ଼','ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ','ବାବୁଲା','କୁନି ଗଣେଶ','ଚିଲିକା ତୀରେ','ନାଗଫାଶ','ଚକା ଭଉଁରୀ','ଅଭିମାନ','ଉଦଣ୍ଡୀ ସୀତା','ସୂର୍ଯ୍ୟମୁଖୀ','ଅରୁନ୍ଧତୀ','କୃଷ୍ଣ ସୁଦାମା','ବିଶ୍ୱପ୍ରକାଶ','ତାରା','ଆଦି ମୀମାଂସା','ତୁଳସୀ ଅପା','ବିଜୁ ବାବୁ','ପରବ','କଙ୍କି ଓ ସାପ','ରାତି ଓ ଭୟ','ବି ଓ ଏସ','କେମିତି କହିବି କହ','କଥା ସରିତା','ଗୋପାଳ ରହସ୍ୟ','ପାଣୁ ମିଶ୍ର','ଚତୁର କାଉ','ମହାପ୍ରଭୁ ଜଗନ୍ନାଥ','ଚୁମ୍ବକ','ଅଭିନେତ୍ରୀ','ରକ୍ତ ଗୋଲାପ','ଉଲ୍କା','ତହିଁ ଆରଦିନ ଉପରଓଳି','ଏକା ହାତରେ ତାଳି ବାଜେ ନାହିଁ','ଲହରୀ','ମମତା','କୁଳନନ୍ଦନ','ଆଇ ଲଭ୍ ୟୁ','ଇସ୍କ ତୁ ହି ତୁ','ମୁଁ ଖାଣ୍ଟି ଓଡ଼ିଆ ଝିଅ','ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨','ଶ୍ରୀ ଶ୍ରୀ ପତିତପାବନ','ଶେଷ ଶ୍ରାବଣ','ଯାଯାବର','ଏଇ ଆମ ସଂସାର','ସୁନା ହରିଣୀ','ଆମର ଏଠି କିଛି ହେବନି','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ&#39;ଣ ?','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ\'ଣ ?','ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।','ଆକାଶବାଣୀ କଟକ','ଛମାଣ ଆଠଗୁଣ୍ଠ','ମାୟା ମିରିଗ','ବୋଉ ବୁଟୁ ଭୂତ','କର୍ମ','ପ୍ରତୀକ୍ଷା','ଦମନ','ରେବତୀ','ଅନନ୍ତା','ଲାବଣ୍ୟ ପ୍ରୀତି','ଆଦିମ ବିଚାର','ସୀତା ବିବାହ','ଶୀତ ରାତି','କା','ସ୍ତ୍ରୀ'];
 const odiaPattern=new RegExp(odiaReadings.sort((a,b)=>b.length-a.length).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'gu');
 export function markReviewedOdia(html){
  const elements=[];
@@ -45,10 +46,13 @@ if(new Set(frameKeys).size!==frameKeys.length||frameKeys.length!==placementKeys.
 function imageFrame(image,slug){return cinemaImageLayout.find(frame=>frame.slug===slug&&frame.source===image?.source);}
 export function figureStyle(image,slug){
  const layout=imageFrame(image,slug)?.web;
- const width=layout?layout.width_px===null?'100%':`${layout.width_px}px`:image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
+ const percent=layout?.width_percent??(slug==='the-question-that-brought-me-here'||image.width>image.height?100:85);
+ const width=`${percent}%`;
  const ratio=layout?.ratio||[image.width,image.height];
- if(layout&&(!(layout.width_px===null||Number.isFinite(layout.width_px)&&layout.width_px>0)||!['natural','cover'].includes(layout.fit)||ratio.length!==2||ratio.some(n=>!Number.isFinite(n)||n<=0)||layout.position.length!==2||layout.position.some(n=>!Number.isFinite(n)||n<0||n>100)))throw Error('Invalid cinema image layout '+slug);
- return `--cinema-figure-width:${width};--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`+(layout?.fit==='cover'?`;--cinema-image-fit:cover;--cinema-image-position:${layout.position[0]}% ${layout.position[1]}%`:'');
+ const zoom=layout?.zoom??1;
+ if(!Number.isFinite(zoom)||zoom<1||zoom>3||(layout?.zoom!==undefined&&layout.fit!=='cover'))throw Error('Invalid cinema image zoom '+slug);
+ if(layout&&(![85,100].includes(layout.width_percent)||!['natural','cover'].includes(layout.fit)||ratio.length!==2||ratio.some(n=>!Number.isFinite(n)||n<=0)||layout.position.length!==2||layout.position.some(n=>!Number.isFinite(n)||n<0||n>100)))throw Error('Invalid cinema image layout '+slug);
+ return `--cinema-figure-width:${width};--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`+(layout?.fit==='cover'?`;--cinema-image-fit:cover;--cinema-image-position:${layout.position[0]}% ${layout.position[1]}%`+(layout.zoom!==undefined?`;--cinema-image-zoom:${zoom}`:''):'');
 }
 function layoutCredit(credit,image,slug){const note=imageFrame(image,slug)?.credit_note;return credit+(note?' '+escape(note):'');}
 
@@ -102,7 +106,7 @@ export function cinemaLinkTitle(text){
  if(!match)return '';
  return cinemaLabelHtml(match[1])+`<span class="cinema-link-tail" style="white-space:nowrap">${cinemaLabelHtml(match[2])} <span aria-hidden="true">→</span></span>`;
 }
-export function cinemaPreviewNote(entry){return {'uttam-mohanty':'Imagined rehearsal'}[entry?.slug];}
+export function cinemaPreviewNote(entry){return entry?.hero?.kind==='illustration'?{'uttam-mohanty':'Imagined rehearsal'}[entry?.slug]:undefined;}
 export function cinemaLineArt(html,slug,items=cinemaNarrative.line_art||[]){
  const selected=items.filter(item=>item.slug===slug);const seen=new Set();
  for(const item of selected){
@@ -153,6 +157,7 @@ export function cinemaTailArt(html,slug,items=cinemaNarrative.book_tail_vignette
  return html;
 }
 export function cinemaOnward(entry){
+ if(entry.companion)return entry.onward||{href:'/cinema/',label:'Explore the cinema collection',aria:'Related cinema reading'};
  const primary=cinemaNarrative.reading_paths.find(p=>p.primary===true);
  const index=primary?.chapters.indexOf(entry.slug)??-1;
  if(index>=0){

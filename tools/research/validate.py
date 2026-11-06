@@ -25,6 +25,10 @@ def link_target(path,link):
     if urlsplit(link).scheme or link.startswith('#'): return
     clean=unquote(link.split('#')[0])
     target=ROOT/clean.lstrip('/') if clean.startswith('/') else path.parent/clean
+    if not target.exists() and re.fullmatch(r'/people/[^/]+/', clean):
+        person_source = ROOT / (clean.strip('/') + '.md')
+        if person_source.is_file():
+            target = person_source
     check(target.exists(),str(path.relative_to(ROOT))+': broken link '+link)
     checked_links+=1
 

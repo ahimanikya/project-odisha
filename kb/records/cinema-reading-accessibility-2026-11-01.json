@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "POD-CINEMA-READING-ACCESSIBILITY-20261101",
+  "date": "2026-11-01",
+  "status": "internal_proof_reviewed_with_open_accessibility_gaps",
+  "authorization": "Founder: continue with pending work list",
+  "active_item": null,
+  "active_article": null,
+  "purpose": "Create a current semantic reading companion with genuine document tags while retaining the published typeset editions.",
+  "source_baseline": "41895b387537e2445d91b6f1bdd7246b4893c48e",
+  "published_editions_unchanged": true,
+  "publication": false,
+  "programme_progress_credit": 0,
+  "reuse_before_research": [
+    "outputs/cinema-ux-implementation-20261101/accessibility-path.json",
+    "tools/cinema-book/build_tagged_reading.mjs",
+    "kb/records/cinema-reading-ux-audit-2026-11-01.json",
+    "kb/records/cinema-portraits-publication-2026-11-01.json"
+  ],
+  "pdf_operation_marker": "create, expected1 PDF: succeeded once before authoring on1November",
+  "remaining_gates": [
+    "Repair source-bound Odia Unicode extraction: current proof has reordered characters and NUL mappings despite visually legible glyphs.",
+    "Preserve reviewed Odia passage language at PDF structure level; current structure inherits English throughout. Do not equate script with language or relabel Sambalpuri passages by guesswork.",
+    "Revalidate source coverage, tags, links and all final pages after any remediation.",
+    "Test reading order, keyboard notes/returns, table navigation and language behaviour with assistive technology. No PDF/UA or human specialist approval is claimed."
+  ],
+  "deferred_dependencies": [
+    "Restricted portrait permissions; no outreach authorized",
+    "Source-author film compensation and original periodical/finance sources; wait for new lead",
+    "Studio-hire rates and booking evidence",
+    "Physical print proof and ISBN decision"
+  ],
+  "research": "outputs/cinema-tagged-reading-20261101/research.json",
+  "renderer_decision": "Reuse existing isolated Chromium semantic-PDF builder; WeasyPrint/Pango absent. No new package installation. Language and AT validation remain explicit gates.",
+  "scope_state": "released_after_independent_review",
+  "reserved_scopes_history": {
+    "Disha": [
+      "kb/records/cinema-reading-accessibility-2026-11-01.json",
+      "kb/records/cinema-expansion-work-list-2026-10-31.json",
+      "kb/records/cinema-expansion-work-list-2026-10-31.md",
+      "kb/index.md",
+      "kb/history/ledger.jsonl",
+      "kb/team/operations.json",
+      "outputs/cinema-tagged-reading-20261101/validation*"
+    ],
+    "Anvesha": [
+      "outputs/cinema-tagged-reading-20261101/research.json"
+    ],
+    "Samanta": [
+      "tools/cinema-book/build_tagged_reading.mjs",
+      "tools/cinema-book/test_tagged_reading.mjs",
+      "outputs/cinema-tagged-reading-20261101/implementation.json",
+      "outputs/cinema-tagged-reading-20261101/build.json",
+      "tmp/pdfs/tagged-20261101/",
+      "output/pdf/odia-cinema-tagged-reading-proof-2026-11-01.pdf",
+      "tools/cinema-book/fonts/NotoSerifOriya-Regular.ttf",
+      "tools/cinema-book/fonts/NotoSerifOriya-OFL.txt"
+    ],
+    "Drishti": [
+      "outputs/cinema-tagged-reading-20261101/review.json",
+      "outputs/cinema-tagged-reading-20261101/review/"
+    ]
+  },
+  "reserved_scopes": {},
+  "artifact": {
+    "path": "output/pdf/odia-cinema-tagged-reading-proof-2026-11-01.pdf",
+    "sha256": "b91ad1ceddd919eee4c88f34c214e52aaf5558eb05996b974124e6017cc36be6",
+    "pages": 167,
+    "bytes": 62123646,
+    "purpose": "Internal semantic reading proof; separate from published typeset editions",
+    "publication_ready": false
+  },
+  "completed": [
+    "Reconciled all sixteen original queue items against actual publication evidence; preserved historical outcomes and unresolved research.",
+    "Rebuilt current fifty readings in seven parts with native figures, captions, tables, source notes, internal links and genuine PDF document structure.",
+    "Added a durable regular-weight Odia font and its existing SIL OFL licence.",
+    "Omitted the requested web-only listening section and repeated site/related-reading controls while preserving narrative and source-note destinations.",
+    "Allowed chapter flow to reduce nearly empty leaves; kept part breaks and corrected split multiline headings.",
+    "Separately reviewed final structure, all fifty source hashes, 439 rendered notes, internal destinations and source-note returns.",
+    "Rendered all 167 final pages; coordinator inspected all seven contact sheets for gross layout, and independent reviewer inspected selected full-size pages including corrected headings and closing."
+  ],
+  "evidence": {
+    "research": "outputs/cinema-tagged-reading-20261101/research.json",
+    "implementation": "outputs/cinema-tagged-reading-20261101/implementation.json",
+    "build": "outputs/cinema-tagged-reading-20261101/build.json",
+    "independent_review": "outputs/cinema-tagged-reading-20261101/review.json",
+    "source_asset_binding": "outputs/cinema-tagged-reading-20261101/validation-bindings.json",
+    "all_page_render": "outputs/cinema-tagged-reading-20261101/validation-heading-fixed/render.json"
+  },
+  "tests": {
+    "source_integrity_invariants": {
+      "passed": 3,
+      "failed": 0
+    },
+    "published_articles_unchanged": 50,
+    "published_book_hashes_unchanged": true,
+    "automated_structure": "Genuine tree and parent mappings; internal link destinations checked, not conformance certification."
+  },
+  "next_item": "Source-bound Odia text and language remediation in a small reproducible fixture before another whole-book conversion.",
+  "next_approaches": [
+    "Reuse exact failing phrases and nearby context from the independent review; include English, reviewed Odia and separately identified Sambalpuri examples.",
+    "Evaluate a renderer or verified ActualText/language-remediation workflow against that fixture; change only uniquely matched source spans, not guessed font/script ranges.",
+    "Scale a demonstrated correction to the full companion, preserving published editions until independent validation is complete."
+  ],
+  "delivery_note": "Local PDF proof and review evidence only. No deployment needed for this bounded format investigation; existing published digital/print books remain unchanged."
+}

@@ -15,7 +15,10 @@ test('all cinema figures preserve native dimensions and source associations with
    const trial=cinemaImageLayout.find(frame=>frame.slug===entry.slug&&frame.source===image.source);
    if(trial)configuredPlacements++;
    assert.ok(trial,entry.slug+' source configured');
-   const expected=trial.web.width_px===null?'100%':`${trial.web.width_px}px`;
+   const percent=entry.slug==='the-question-that-brought-me-here'||image.width>image.height?100:85;
+   assert.equal(trial.web.width_percent,percent);
+   assert.equal(trial.book.width_percent,percent);
+   const expected=`${percent}%`;
    assert.ok(attributes.includes(`--cinema-figure-width:${expected}`),entry.slug);
    const ratio=trial?.web.ratio||[image.width,image.height];
    assert.ok(attributes.includes(`--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`),entry.slug);
@@ -25,7 +28,7 @@ test('all cinema figures preserve native dimensions and source associations with
     assert.ok(attributes.includes(`--cinema-image-position:${trial.web.position[0]}% ${trial.web.position[1]}%`));
     assert.ok(cinemaArticle(entry).fullHTML.includes(trial.credit_note));
    }else assert.ok(!attributes.includes('--cinema-image-fit:cover'));
-   if(image.height>=image.width)assert.ok(Math.min(image.width,600*image.width/image.height)/image.width*image.height<=600.0001);
+   assert.ok(read(entry.route).includes(`--cinema-figure-width:${expected}`),entry.slug+' built percentage frame');
   }
   const html=read(entry.route);assert.match(html,/cinema-reader/);
   for(const block of html.matchAll(/<section\b[^>]*class="([^"]*article-reading-path[^"]*)"/g)){assert.match(block[1],/uniform-images/);assert.doesNotMatch(block[1],/contain-images/);};

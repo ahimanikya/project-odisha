@@ -8,6 +8,7 @@ research_date: "2026-10-30"
 human_review_claimed: false
 series_intro: "Follow a recording beyond its first audience, into the hands and skills that help it survive."
 sources: [{"id": "jdca-filmarchive", "resource": "https://www.jdcentreofart.org/filmarchive"}, {"id": "ofdc-report-2024-25", "resource": "https://industries.odisha.gov.in/sites/default/files/2025-03/English_Content_0.pdf"}, {"id": "kalinga-opening-2026", "resource": "https://cm.odisha.gov.in/index.php/en/latest-news/cm-mohan-charan-majhi-inaugurates-world-class-kalinga-studio-cinema-archive-museum"}, {"id": "fhf-workshop-2025", "resource": "https://filmheritagefoundation.co.in/film-preservation-restoration-workshop-india-2025/"}, {"id": "fhf-mou-2025", "resource": "https://www.newindianexpress.com/states/odisha/2025/Nov/20/odisha-govt-and-fhf-sign-pact-to-set-up-odia-film-archive-centre"}, {"id": "nfai-deposit", "resource": "https://nfai.nfdcindia.com/introduction.php?catId=VFdwSlBRPT0%3D&childId=VFhjOVBRPT0%3D&patId=VFhjOVBRPT0%3D&rootId=VFhjOVBRPT0%3D"}, {"id": "nfai-documentation", "resource": "https://nfai.nfdcindia.com/introduction.php?catId=VFZSTlBRPT0%3D&patId=VFdjOVBRPT0%3D&rootId=VFdjOVBRPT0%3D"}, {"id": "nfai-library-access", "resource": "https://nfai.nfdcindia.com/introduction.php?catId=VFZSclBRPT0%3D&childId=VFhjOVBRPT0%3D&patId=VFhjOVBRPT0%3D&rootId=VFhjOVBRPT0%3D"}, {"id": "nfai-distribution", "resource": "https://nfai.nfdcindia.com/introduction.php?catId=VFdwQlBRPT0%3D&childId=VFhjOVBRPT0%3D&patId=VFhjOVBRPT0%3D&rootId=VFhjOVBRPT0%3D"}]
+hero_image: "../../media/cinema-series/photographs-2026-11-05/who-keeps-a-film-alive-maya-film-repair-20261105.jpg"
 ---
 
 # Who Keeps a Film Alive?
@@ -31,6 +32,10 @@ A name on a photograph or a date on a booklet can give a later researcher somewh
 Conservation means caring for the material itself. Digitisation makes a digital representation of a film, tape or paper object. Restoration may involve further work on damaged or incomplete images and sound. Cataloguing makes the material identifiable and findable; arranging access allows someone else to encounter it. These are distinct skills, reflected in the Film Heritage Foundation and FIAF preservation workshop held at Kalabhoomi in Bhubaneswar in November 2025.[^workshop]
 
 The distinction is practical. Scanning a poster does not settle how to store the paper. Having a video file does not settle its identification or future upkeep. And a restored film still needs a route to viewers. The [return of ମାୟା ମିରିଗ (Maya Miriga)](maya-miriga.md) gives that last connection a particular history, with the restoration and its later screenings described together.
+
+![The same Maya Miriga image before and after restoration, with scratches and a colour cast visible in the left half.](../../media/cinema-series/photographs-2026-11-05/who-keeps-a-film-alive-maya-restoration-comparison-20261105.png)
+
+*Maya Miriga before and after restoration. Photo: [via Maya Miriga / Film Heritage Foundation](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/).*
 
 OFDC’s 2024–25 reporting described an archive at its Cuttack corporate office and recorded 51 films stored on LTO, with ten undergoing digitisation. Those are figures from that reporting period, rather than a current total or a count of fully restored films.[^ofdc] The figures record storage and work in progress.
 

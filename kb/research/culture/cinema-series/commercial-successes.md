@@ -7,7 +7,7 @@ research_date: "2026-10-26"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
 sources: [{"id": "commercial-bou-june", "resource": "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582"}, {"id": "commercial-bou-september", "resource": "https://www.newindianexpress.com/states/odisha/2025/Sep/24/kjos-dharma-productions-to-remake-bou-buttu-bhuta"}, {"id": "commercial-daman", "resource": "https://www.newindianexpress.com/entertainment/2022/Nov/13/two-new-films-signal-theres-hope-for-odia-movie-industry-2517844.html"}, {"id": "commercial-raja", "resource": "https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses"}, {"id": "commercial-pinkvilla", "resource": "https://www.pinkvilla.com/entertainment/box-office/box-office-bau-buttu-bhuta-emerges-1-odia-film-of-all-time-to-take-on-jawan-kgf-and-bahubali-2-in-odisha-1392081"}, {"id": "commercial-jadi", "resource": "https://cinejosh.com/news/1/130774/odia-blockbuster-film-jadi-releasing-in-telugu.html"}, {"id": "commercial-landfall", "resource": "https://odiacelebrity.com/landfall-wraps-shooting-sets-stage-for-a-landmark-chapter-in-odia-cinema/"}]
-hero_image: "../../media/cinema-series/distinct-2026-10-27/commercial-successes.png"
+hero_image: "../../media/cinema-series/photographs-expansion-2026-11-05/commercial-successes-bou-orissapost-20261105b.jpg"
 ---
 
 # Odia Cinema’s Commercial Successes
@@ -18,9 +18,7 @@ An Odia film reaching another city, a longer theatrical run, an audience for a l
 
 The comparison below gathers dated reports before following some of the films behind them. It is a selection, not a ranking of the highest earners.
 
-![An imagined cinema foyer with a ticket purchase and viewers entering an auditorium](../../media/cinema-series/distinct-2026-10-27/commercial-successes.png)
 
-*Illustration: an evening at an imagined cinema.*
 
 ## Reported budgets and collections
 

@@ -5,4 +5,4 @@ interface Props { heading?: string; writers?: boolean }
 const {heading='Explore a question', writers=false}=Astro.props;
 ---
 <ArticleReadingPath compact heading={heading} links={cinemaNarrative.section_guide || []}/>
-{writers && <ArticleReadingPath compact heading="Writers beyond this reading sequence" intro="These supplementary writer pages sit outside the numbered cinema readings." links={cinemaNarrative.writers_beyond_series || []}/>}
+{writers && <ArticleReadingPath compact heading="More people behind the stories" intro="Explore these online companions to the main reading sequence." links={cinemaNarrative.writers_beyond_series || []}/>}

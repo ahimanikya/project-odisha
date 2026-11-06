@@ -36,7 +36,14 @@ test('Six Acres has complete narrative, Founder byline and visible source notes 
 test('Six Acres preserves reading paths, documentary credit and save identity with collapsed onward reading and visible update',()=>{
  const html=page('/literature/six-acres-and-a-third/');
  assert.ok(html.includes(escape(entry.hero_caption)));
- const a=collection.assets.fakir;for(const key of ['src','source','creator','license_url','caption','changes'])assert.ok(html.includes(escape(a[key])),key);
+ const a=collection.assets.fakir;for(const key of ['src','source','creator','license_url','changes'])assert.ok(html.includes(escape(a[key])),key);
+ const imageNumber=editorial.sources.length+1;
+ assert.match(html,new RegExp(`id="image-ref-six-acres" href="#note-six-acres-image"[^>]*>${imageNumber}</a>`));
+ assert.match(html,new RegExp(`<ol start="${imageNumber}"[^>]*><li id="note-six-acres-image"`));
+ assert.equal(html.split('id="note-six-acres-image"').length-1,1);
+ assert.match(html,/href="#image-ref-six-acres"[^>]*data-footnote-backref/);
+ assert.doesNotMatch(html,/Images and reuse|id="language-image-credits"/);
+ assert.ok(page('/people/fakir-mohan-senapati/').includes('Images and reuse'),'Other Voices credit presentation stays unchanged');
  assert.match(html,/data-save-journey="reading:literature\/six-acres-and-a-third"/);
  for(const c of entry.cards)assert.ok(html.includes(`href="${c.href}"`));for(const l of entry.external_links)assert.ok(html.includes(`href="${escape(l.href)}"`));
  const onward=html.match(/<section class="culture-onward-disclosure"[\s\S]*?<\/section>/)?.[0];assert.ok(onward);
