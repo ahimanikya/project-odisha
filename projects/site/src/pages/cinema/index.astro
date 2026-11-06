@@ -1,7 +1,7 @@
 ---
 import Shell from '../../layouts/Shell.astro';
 import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
-import {cinema,picture,cinemaLinkTitle,cinemaPreviewNote} from '../../lib/cinema-article.mjs';
+import {cinema,cinemaNarrative,picture,cinemaLinkTitle,cinemaPreviewNote} from '../../lib/cinema-article.mjs';
 import '../../styles/article-reading.css';
 const lead=cinema.articles.find(a=>a.slug==='odia-cinema'),hero=lead.images.find(i=>i.role==='title');
 ---
@@ -14,6 +14,7 @@ const lead=cinema.articles.find(a=>a.slug==='odia-cinema'),hero=lead.images.find
   <figure><Fragment set:html={picture(hero,lead.hero.alt,true)}/><figcaption>{lead.hero.caption}</figcaption></figure>
   <nav class="cinema-actions" aria-label="Explore cinema"><a href="/cinema/odia-cinema/#national-and-international-recognition">Awards and recognition →</a><a href="/cinema/commercial-successes/#reported-budgets-and-collections">Budgets and collections →</a><a href="/cinema/odia-cinema/#the-places-and-teams-that-sustain-production">Studios and support →</a><a href="#new-search-for-stories">A New Search for Stories →</a><a href="/cinema/watch/">Find something to watch →</a><a href="/cinema/book/">Read or print the book →</a><a href="/cinema/reading-guide/#reading-paths">Reading paths and connections →</a></nav>
   {cinema.parts.map(part=><section id={part.id}><ArticleReadingPath uniformImages heading={part.title} intro={part.intro} links={part.chapters.map(slug=>{const entry=cinema.articles.find(a=>a.slug===slug);return {href:entry.route,title:entry.title,titleHtml:cinemaLinkTitle(entry.title),imageNote:cinemaPreviewNote(entry),description:entry.series_intro,imagePosition:entry.card_image_position,image:entry.card_image||entry.images.find(i=>i.role==='title').file};})}/>{part.explore && <p><a href={part.explore.href}>{part.explore.label} →</a></p>}</section>)}
+  <section><h2>More writers and translators</h2><ul>{cinemaNarrative.writers_beyond_series.map(person=><li><a href={person.href}>{person.title}</a> — {person.description}</li>)}</ul></section>
  </article>
 </Shell>
 <style>.cinema-part-shortcuts ol{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;list-style:none;padding:0;margin-block:1.5rem}.cinema-part-shortcuts li{margin:0;padding:0}.cinema-part-shortcuts a{display:inline-block;min-height:44px;padding-block:.5rem;font-size:.95rem}.cinema-hub{max-width:804px;padding-inline:32px}.cinema-hub :global(img){max-width:100%;height:auto}.cinema-actions{display:flex;gap:1rem;flex-wrap:wrap;padding-block:1rem}.cinema-actions a{padding:.5rem 0}.eyebrow{color:var(--earth)}@media(max-width:600px){.cinema-hub{padding-inline:22px}}</style>

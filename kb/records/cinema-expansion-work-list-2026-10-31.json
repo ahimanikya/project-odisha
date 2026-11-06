@@ -817,7 +817,7 @@
   ],
   "next_item": null,
   "scope_state": "released_after_research_review",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-07",
   "reserved_scopes_history": {
     "Disha": [
       "kb/records/cinema-expansion-work-list-2026-10-31.json",
@@ -1559,9 +1559,15 @@
       "date": "2026-11-05",
       "state": "released_after_local_review",
       "record": "records/cinema-picture-installation-2026-11-05.json"
+    },
+    {
+      "item": "three-focused-research-gaps",
+      "date": "2026-11-07",
+      "state": "released_after_research_review",
+      "record": "records/cinema-research-gaps-2026-11-07.json"
     }
   ],
-  "next_action": "Review accumulated local readings and current 264/270-page,523-note proofs. Next distinct research lead: a named completed film receiving Dhwani/BPFTIO production support, supported by credits or delivery evidence. Offers are not outcomes. Publication is separate; exhausted compensation/adaptation gaps remain parked without new evidence.",
+  "next_action": "Review the local writer-support addition; future research requires the named original documents. Publication, accessible-PDF work and press-ready preparation remain separate.",
   "publication_followup": {
     "date": "2026-11-01",
     "authorization": "Prior Founder publish instruction; completed before this continuation",
@@ -1573,7 +1579,7 @@
     "merge": "8a802dae8a00f19a57cbb96cb4c763aca85fc9f1",
     "receipt_merge": "41895b387537e2445d91b6f1bdd7246b4893c48e"
   },
-  "next_work_record": "records/cinema-shared-culture-2026-11-06.json",
+  "next_work_record": "records/cinema-research-gaps-2026-11-07.json",
   "publication_followup_history": [
     {
       "date": "2026-10-31",
@@ -1591,13 +1597,34 @@
     "status": "reviewed_not_published"
   },
   "latest_research_followup": {
-    "record": "records/cinema-dhwani-2026-11-06.json",
-    "status": "reviewed_local_revision",
-    "publication": false
+    "record": "records/cinema-research-gaps-2026-11-07.json",
+    "status": "reviewed_local_revision_with_external_evidence_gaps",
+    "publication": false,
+    "all_gaps_resolved": false
   },
   "latest_editorial_followup": {
     "record": "records/cinema-shared-culture-2026-11-06.json",
     "status": "reviewed_local_revision",
     "publication": false
-  }
+  },
+  "focused_external_dependencies": [
+    {
+      "id": "original-adaptation-texts",
+      "status": "unresolved_after_bounded_original_source_checks",
+      "finding": "Bapa original text/edition not established. Twelve original monograph preview images inspected for the Lavanya lead; title and contents verified, potentially relevant short-story pages not included.",
+      "next_evidence": "A specific Bapa publisher/library title record plus original imprint/contents/text; original Lavanya film writing credits or explicit maker account; Archana Nayak monograph pages41 onward/works list96 are precise access leads, not guaranteed answers."
+    },
+    {
+      "id": "writer-compensation",
+      "status": "historical_payments_unresolved_practical_support_added",
+      "finding": "No named original-author adaptation fee established. Added68word paragraph about SWA member guidance and conditional SRAI eligibility, with two compact footnotes.",
+      "next_evidence": "Original agreement, receipt or attributable author/producer account stating actual adaptation terms; do not substitute book royalties, actors’ fees or filmmaker remake rights."
+    },
+    {
+      "id": "completed-school-production-support",
+      "status": "unresolved_with_new_school_title_lead",
+      "finding": "Original Loyola July2024 newsletter p86 confirms a screening titled The Waterfall on19July, but does not identify Lipika Darai/LXL. No named completed Dhwani/BPFTIO-supported film established.",
+      "next_evidence": "An original programme/provider/filmmaker record connecting Darai to that screening; named completed film credits or delivery receipt for Dhwani/BPFTIO."
+    }
+  ]
 }

@@ -41,3 +41,25 @@ test('curated viewing room retains selected entries and distinguishes new traile
  for(const choice of [...data.curation.featured,...data.curation.explorations])assert.ok(data.entries.some(x=>x.id===choice.id),choice.id);
  assert.equal(data.entries.find(x=>x.id==='daman').checkedOn,'2026-10-26','earlier inspection date retained');
 });
+
+
+test('website and book use explicit distinct sequences with source-bound integrations',()=>{
+ assert.equal(cinema.articles.length,52);
+ assert.equal(cinemaNarrative.book_order.length,49);
+ assert.deepEqual(cinemaNarrative.book_parts.flatMap(part=>part.chapters),cinemaNarrative.book_order);
+ assert.equal(new Set(cinemaNarrative.book_order).size,49);
+ const excluded=cinema.articles.filter(entry=>!cinemaNarrative.book_order.includes(entry.slug)).map(entry=>entry.slug);
+ assert.deepEqual(excluded,['vishal-mourya','debi-prasad-lenka','deependra-samal']);
+ for(const slug of excluded){assert.equal(cinemaNarrative.book_integrated_profiles[slug],'daman');assert.equal(cinemaNarrative.book_images[slug].chapter,'daman');}
+ for(const [slug,override] of Object.entries(cinemaNarrative.book_overrides)){
+  const entry=cinema.articles.find(item=>item.slug===slug);
+  assert.equal(override.source_sha256,entry.source_sha256);
+  const source=fs.readFileSync(path.resolve(site,'../..',entry.source),'utf8');
+  for(const patch of override.patches)assert.equal(source.split(patch.anchor).length-1,1,patch.id+' unique exact source anchor');
+  const ids=override.notes.map(note=>note.match(/^\[\^([^\]]+)\]:/)[1]);
+  assert.equal(new Set(ids).size,ids.length);
+  for(const id of ids)assert.ok(!source.includes('[^'+id+']:'),'imported notes do not collide');
+ }
+ assert.equal(cinemaNarrative.writers_beyond_series.length,3);
+ assert.ok(!JSON.stringify(cinema.parts).includes('“The Culprit,” a constable listens'));
+});

@@ -1,0 +1,82 @@
+{
+  "id": "POD-CINEMA-SEQUENCE-AUDIT-20261107",
+  "date": "2026-11-07",
+  "status": "audit_complete_recommendations_only",
+  "authorization": "Review the main page, index and chapter sequence, verify the number of stories, and assess whether five online companion profiles belong in the book.",
+  "scope": "Read-only public-content audit; save findings and exact count. No reordering, publication, image or article edits.",
+  "active_article": null,
+  "publication_performed": false,
+  "programme_credit": 0,
+  "reserved_scopes": {
+    "Disha": [
+      "kb/records/cinema-sequence-audit-2026-11-07.json",
+      "outputs/cinema-sequence-audit-20261107/root-audit.json",
+      "kb/team/operations.json",
+      "kb/index.md",
+      "kb/history/ledger.jsonl",
+      "kb/history/LEDGER.md"
+    ],
+    "Anvesha": [
+      "outputs/cinema-sequence-audit-20261107/inventory.json"
+    ],
+    "Samanta": [
+      "outputs/cinema-sequence-audit-20261107/navigation-audit.json"
+    ],
+    "Drishti": [
+      "outputs/cinema-sequence-audit-20261107/editorial-review.json"
+    ]
+  },
+  "scope_released": true,
+  "counts": {
+    "core_readings": 50,
+    "parts": 7,
+    "online_companions": 5,
+    "connected_substantive_readings": 55
+  },
+  "review": {
+    "core_sequence_consistent": true,
+    "correct_previous_next_links": 98,
+    "broken_local_routes_or_fragments": 0,
+    "navigation_tests_passed": 11,
+    "public_content_changed": false,
+    "full_new_fact_audit_performed": false
+  },
+  "findings": [
+    "Clarify Bapa as the source of Pratikshya in the Part 5 introduction; The Culprit is a separate story.",
+    "Expose companion profiles on the main hub and distinguish their count from the core sequence.",
+    "Consolidate repeated onward navigation and clarify central-route versus full-collection choices."
+  ],
+  "book_proposal": {
+    "status": "not_implemented",
+    "new_short_readings": [
+      "Bibhuti Pattanaik after Kanhu Charan",
+      "Solila Parida after Nandita Das"
+    ],
+    "integrated_portraits": [
+      "Fakir Mohan Senapati in Literature and Screen",
+      "Pratibha Ray in Literature and Screen",
+      "Jatindra K. Nayak beside Basanta Kumari Patnaik translation discussion"
+    ],
+    "proposed_core_count": 52,
+    "current_core_count": 50
+  },
+  "evidence": [
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/editorial-review.json",
+      "sha256": "541dcb750a297c3ea8f8a59d8f59190b93f302ea894de2b652003f09a092b359"
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/inventory.json",
+      "sha256": "98c2f547c35b383265b09b7dedbe57c8181d7fe397bd387c61def47e8e177297"
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/navigation-audit.json",
+      "sha256": "493c9e068a5f5ca916436cfcc7690523e25f9eb3ee53fce9dcf425d2a067d642"
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/root-audit.json",
+      "sha256": "6a674942349b5106cf186d79edae754712d37fd032cbc59513da344bf115d681"
+    }
+  ],
+  "next_action": "Discuss the proposed treatments and corrections; no public content, chapter order or count changed during this audit."
+}

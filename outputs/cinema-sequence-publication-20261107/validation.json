@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "source_revision": "e6742fc0610c075bb4fe8b78ad04d00b2916a5e0",
+  "site_tests": {
+    "passed": 717,
+    "failed": 0
+  },
+  "coast_tests": {
+    "passed": 561,
+    "failed": 0
+  },
+  "builds": [
+    "full",
+    "coastal",
+    "publication"
+  ],
+  "disclosure_gates": [
+    "full",
+    "coastal",
+    "publication"
+  ],
+  "records": [
+    "registers",
+    "catalog",
+    "bundle",
+    "team",
+    "programme",
+    "research-map",
+    "article-rollout",
+    "research-collection"
+  ],
+  "browser_receipt": "outputs/cinema-sequence-publication-20261107/local-browser-check.json",
+  "pdf_review": "outputs/cinema-sequence-publication-20261107/review.json",
+  "download_verification": "outputs/cinema-sequence-publication-20261107/remote-assets.json",
+  "resolved_failures": [
+    "Stale coastal test expected the deliberately removed duplicate inline next link; updated to verify the distinct central/full-sequence navigation and all boundaries.",
+    "Hosted review42312752495 found stale generated editorial-workbench metadata; regenerated the count and passed workbench consistency plus6Python and3Node checks. No public text or PDF changed."
+  ]
+}

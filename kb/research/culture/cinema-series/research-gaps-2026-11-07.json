@@ -1,0 +1,402 @@
+{
+  "id": "POD-RES-CINEMA-RESEARCH-GAPS-20261107",
+  "date": "2026-11-07",
+  "title": "Original adaptation texts, writer compensation and delivered support",
+  "status": "reviewed_partial_progress",
+  "handoff": "records/cinema-research-gaps-2026-11-07.json",
+  "summary": "All three focused research areas investigated. One reviewed68word practical writer-support addition and two notes; historical source-text/payment and delivered-support gaps remain open. New monograph preview and original school newsletter retained as bounded evidence, not promoted into unsupported claims. Current website and published PDFs unchanged.",
+  "gaps": [
+    {
+      "id": "original-adaptation-texts",
+      "status": "unresolved_after_bounded_original_source_checks",
+      "finding": "Bapa original text/edition not established. Twelve original monograph preview images inspected for the Lavanya lead; title and contents verified, potentially relevant short-story pages not included.",
+      "next_evidence": "A specific Bapa publisher/library title record plus original imprint/contents/text; original Lavanya film writing credits or explicit maker account; Archana Nayak monograph pages41 onward/works list96 are precise access leads, not guaranteed answers."
+    },
+    {
+      "id": "writer-compensation",
+      "status": "historical_payments_unresolved_practical_support_added",
+      "finding": "No named original-author adaptation fee established. Added68word paragraph about SWA member guidance and conditional SRAI eligibility, with two compact footnotes.",
+      "next_evidence": "Original agreement, receipt or attributable author/producer account stating actual adaptation terms; do not substitute book royalties, actors’ fees or filmmaker remake rights."
+    },
+    {
+      "id": "completed-school-production-support",
+      "status": "unresolved_with_new_school_title_lead",
+      "finding": "Original Loyola July2024 newsletter p86 confirms a screening titled The Waterfall on19July, but does not identify Lipika Darai/LXL. No named completed Dhwani/BPFTIO-supported film established.",
+      "next_evidence": "An original programme/provider/filmmaker record connecting Darai to that screening; named completed film credits or delivery receipt for Dhwani/BPFTIO."
+    }
+  ],
+  "evidence_hashes": {
+    "outputs/cinema-research-gaps-20261107/literary-sources.json": "458cafd73f3806d5a04671b01f459003fd510c2ee9fbf2fed213387d02884b54",
+    "outputs/cinema-research-gaps-20261107/support-outcomes.json": "35b359cd07f290f93b673a0f90a95f8c7272cf4070ed373c9becd01850018ffb",
+    "outputs/cinema-research-gaps-20261107/coordinator-research.json": "fc327ba686ea47cb1730e8516dc36b9e1d85f1bb963b72c17ad36ddd0e478df4",
+    "outputs/cinema-research-gaps-20261107/review.json": "f61cabf82185a94d5985cb56bdcd67d97064a8ab2a49150092275a0aaf013457",
+    "outputs/cinema-research-gaps-20261107/implementation.json": "83f12baf63645497d5fa970d58eb37e0d2518c9d13a267c53299b035677f4947",
+    "outputs/cinema-research-gaps-20261107/final-review.json": "a71a8ee500374b86e59804ca266c95a0d37dcc470b6fb6f45d38225e8f68406a",
+    "outputs/cinema-research-gaps-20261107/builds/validation.json": "4a032b957b60f9316d8a6d3cb70f2a9d83da67dddea677274c98263200707580"
+  },
+  "research": {
+    "literary_sources": {
+      "date": "2026-11-07",
+      "status": "bounded_research_complete",
+      "scope_released": true,
+      "reuse": [
+        "outputs/gourahari-bapa-connection-20261105/research.json",
+        "outputs/pratikshya-title-choice-20261105/research.json",
+        "outputs/cinema-lavanya-source-20261105/research.json",
+        "outputs/cinema-lavanya-source-20261105/coordinator-research.json",
+        "kb/records/cinema-research-gaps-2026-11-07.json"
+      ],
+      "reuse_query": "python3 tools/research/query_research.py \"Lavanya Bapa\" returned only inventory notice; exact existing dossiers were read directly.",
+      "bapa": {
+        "established_prior": "Pioneer interview question identifies Bapa by Gourahari Das; original story text and collection remain uninspected.",
+        "routes": [
+          {
+            "route": "Exact title and ISBN discovery, including publisher-domain query",
+            "queries": [
+              "\"Bapa O Anyanya Galpa\" ISBN Gourahari",
+              "site:peninbooks.com \"ବାପା\"",
+              "\"Gourahari\" \"Bapa\" \"ISBN\"",
+              "\"Bapa O Anyanya Galpa\" \"Pen\"",
+              "site:peninbooks.com Gourahari"
+            ],
+            "result": "Known BooksWagon author listing resurfaced; no verified ISBN or publisher title entry. Other Bapa books were different authors and excluded. The known author-list page was inadvertently retried once and returned cache miss; no further retry."
+          },
+          {
+            "route": "Exact title/author library and preview discovery",
+            "queries": [
+              "\"Bapa O Anyanya Galpa\" site:worldcat.org OR site:books.google.com OR site:openlibrary.org",
+              "site:search.worldcat.org \"Bapa\" \"Gourahari\"",
+              "\"Gourahari Das\" \"Bapa\" site:catalog.loc.gov OR site:searchworks.stanford.edu OR site:iucat.iu.edu"
+            ],
+            "result": "No matching record surfaced. These are search-index queries, not exhaustive direct catalogue searches."
+          }
+        ],
+        "retained_locator": "https://www.bookswagon.ae/books-by-author/gourahari-das",
+        "limits": "Retailer listing remains a discovery lead for Odia Media Private Limited/5February2023. No original cover, imprint, contents, story text or ISBN verified. No claim of absence from libraries. Jaipur catalogue and author-site routes not repeated.",
+        "recommendation": "No article change; reopen only on a specific publisher or library title record/authorized contents or text. A similarly titled later collection must not be assumed to be the edition used for the2022 film."
+      },
+      "lavanya": {
+        "established_prior": "Original41st NFA entry credits Bir script and Kedar–Gouri legendary/jatra framing. Nilamani Sahu attribution remains secondary; film player unavailable in prior pass.",
+        "new_original_preview": {
+          "source_url": "https://www.exoticindiaart.com/book/details/mohapatra-nilamani-sahoo-bibliography-of-indian-literature-in-oriya-ham123/",
+          "access": "Direct web text had Look Inside but omitted gallery links. Ordinary public HTML retrieval revealed12 exact original image URLs; downloaded and individually visually inspected all12. Initial restricted-network DNS error, then authorized network retrieval succeeded. No endpoint guessed or access restriction bypassed.",
+          "retrieval_manifest": "sources/preview-retrieval.json",
+          "images": [
+            {
+              "file": "ham123.webp",
+              "scope": "Front cover"
+            },
+            {
+              "file": "ham123b.webp",
+              "scope": "Original title page: Mahapatra Nilamani Sahu, Archana Nayak, Sahitya Akademi; Indian literature makers series label."
+            },
+            {
+              "file": "ham123c.webp",
+              "scope": "Unnumbered descriptive author/subject biographical text; no film attribution located."
+            },
+            {
+              "file": "ham123d.webp",
+              "scope": "Preface first offered page"
+            },
+            {
+              "file": "ham123e.webp",
+              "scope": "Preface continuation offered page"
+            },
+            {
+              "file": "ham123f.webp",
+              "scope": "Contents: short-story discussion begins41; selected story excerpts89; brief biography95 and works list96. No separately named cinema chapter."
+            },
+            {
+              "file": "ham123g.webp",
+              "scope": "Opening biography, printed9 inferred from contents and following page10; no printed folio visible."
+            },
+            {
+              "file": "ham123h.webp",
+              "scope": "Printed10 biography"
+            },
+            {
+              "file": "ham123i.webp",
+              "scope": "Printed12 biography"
+            },
+            {
+              "file": "ham123j.webp",
+              "scope": "Printed13 biography"
+            },
+            {
+              "file": "ham123k.webp",
+              "scope": "Printed32 biography"
+            },
+            {
+              "file": "ham123l.webp",
+              "scope": "Printed33 biography"
+            }
+          ],
+          "finding": "Original title/author/publisher and a precise contents map are now inspected. The offered pages do not establish Lavanya Preeti source-story identity. Short-story discussion, selected excerpts and full works list were not supplied in this preview.",
+          "limits": [
+            "No original imprint page offered;2021/ISBN9789391494773 retain prior official-report and retailer support, not freshly read imprint.",
+            "No claim to read the98-page monograph or all its film references.",
+            "Absence of a dedicated cinema heading does not establish absence of film discussion inside a chapter.",
+            "No new biographical detail adopted from incidental sample pages."
+          ],
+          "next_precise_dependency": "Original pages41 onward or works-list96 could be useful if legally accessible, but the current public sample does not include them."
+        },
+        "other_routes": [
+          {
+            "route": "Exact ISBN in library/preview/archive indices",
+            "queries": [
+              "\"9789391494773\" preview Nilamani",
+              "\"9789391494773\" site:books.google.com OR site:archive.org OR site:worldcat.org"
+            ],
+            "result": "Retailer record reappeared; no additional original full text found."
+          },
+          {
+            "route": "Producer-domain indexed source field",
+            "query": "site:cfsindia.org \"Labanya\" \"story\"",
+            "result": "No result; prior failed NFDC binary and empty film player not retried."
+          }
+        ],
+        "recommendation": "Retain current public attribution. Record stronger monograph-preview access internally, without promoting Nilamani Sahu or a source-story title."
+      },
+      "budgets": {
+        "new_public_words": 0,
+        "direct_quotes_proposed": 0,
+        "monograph_total_future_source_ceiling_words": 200,
+        "notes": "Existing NFA and Pioneer source allocations unchanged. No long excerpts retained; incidental biography not paraphrased publicly."
+      },
+      "public_changes": false,
+      "limitations": [
+        "No contact, purchase, login or publication.",
+        "Negative search results do not prove unavailable books or absent holdings.",
+        "No story/film comparison, adaptation fidelity or payment inference.",
+        "This cycle closes its bounded attempts; it does not resolve either original-story dependency."
+      ]
+    },
+    "support_outcomes": {
+      "status": "bounded_research_complete",
+      "scope_released": true,
+      "date": "2026-11-07",
+      "public_changes": false,
+      "builds_performed": false,
+      "decision": "New original school report establishes a completed title-level screening; identification with Darai’s film remains unconfirmed. No named completed Dhwani/BPFTIO-supported film established. Retain public prose pending identity evidence.",
+      "reuse": [
+        "kb/research/culture/cinema-series/school-audiences-2026-11-05.json",
+        "kb/research/culture/cinema-series/dhwani-2026-11-06.json"
+      ],
+      "school": {
+        "original_report": {
+          "url": "https://icse.loyolaschooltrivandrum.com/Files/ENews/2024JUL-LENSJULY2024.pdf",
+          "title": "LENS: Loyola Electronic News Service, volume 5 number 3, July 2024",
+          "author": "Dhanvanth Rejith, VII C",
+          "locator": "Loyola Film Festival, printed/PDF page 86; cover PDF page 1",
+          "local_pdf": "outputs/cinema-research-gaps-20261107/support-sources/loyola-july-2024.pdf",
+          "sha256": "d985e2c2df1436fd061cd9113a130ee7a986f0ae3835c3766197458e9a348222",
+          "bytes": 25779174,
+          "page_count": 99,
+          "visually_inspected_pages": [
+            1,
+            86
+          ],
+          "finding": "A student reports The Waterfall among films screened on 19 July 2024 at Loyola School’s two-day festival. The event was organised by Sanjeev Sivan, Deepti Sivan and their son Shreyas. The account also describes a filmmaking workshop the next day.",
+          "limits": "No director, LXL, School Cinema, film language or identifying still for The Waterfall is supplied on this page. Title match alone does not prove Darai’s film. No attendance total, measured educational effect, licence/payment or completed homework inference. Only pages 1 and 86 visually inspected, not the entire newsletter."
+        },
+        "routes": [
+          {
+            "route": 1,
+            "type": "Original school screening report",
+            "result": "Original Loyola newsletter retrieved and visually verified; completed screening title verified, film identity unresolved."
+          },
+          {
+            "route": 2,
+            "type": "Provider film and learning-material catalogue",
+            "urls": [
+              "https://schoolcinema.lxl.in/",
+              "https://schoolcinema.lxl.in/about-us",
+              "https://schoolcinema.lxl.in/films",
+              "https://www.lipikasinghdarai.com/films"
+            ],
+            "result": "Provider describes general teaching materials; maker identifies her film as School Cinema/LXL production. No public film-specific workbook page or Loyola screening link established."
+          },
+          {
+            "route": 3,
+            "type": "School syllabus original-source trace",
+            "urls": [
+              "https://www.scribd.com/document/1067266436/Syl-4184751450",
+              "https://www.scribd.com/document/904092969/Class-X-Syllabus-2025-26-1",
+              "https://www.stkarenshighschool.com/",
+              "https://www.stpatricksacademy.in/images/Senior%20School%20Syllabus.pdf"
+            ],
+            "result": "Third-party indexed syllabuses mention School Cinema/The Waterfall and possible workbook pages, but original school-hosted copy not recovered. St Patrick’s original syllabus inspected by text search contains no Waterfall. Mirrors not adopted as official teaching evidence; scheduled syllabus would not by itself prove completed teaching."
+          }
+        ],
+        "conditional_public_candidate": "Loyola School’s July 2024 newsletter lists The Waterfall among the films screened for its students on 19 July.",
+        "candidate_gate": "Do not insert beside the Darai-specific passage until an original programme, filmmaker or provider identifies the screened film. Otherwise the sentence misleadingly supplies an unverified identity bridge.",
+        "best_existing_home_if_verified": "kb/research/culture/cinema-series/cinema-economics.md — The audience needs a screen, beside the School Cinema passage; one sentence, not a new section.",
+        "next_precise_evidence": "A public Loyola festival programme or provider record naming Lipika Singh Darai alongside this title, or a film-specific official School Cinema teaching resource. No outreach performed."
+      },
+      "production_support": {
+        "routes": [
+          {
+            "route": 1,
+            "type": "Organiser original rules and reports",
+            "urls": [
+              "https://www.aaina.org.in/dhwani.asp",
+              "https://www.aaina.org.in/doc/Dhwani-RULES-REGULATIONS-2025.pdf",
+              "https://www.aaina.org.in/Reports_Documents.asp",
+              "https://www.aaina.org.in/doc/Aaina-Annual-Report-2024-25.pdf",
+              "https://www.aaina.org.in/doc/Aaina-Annual-Report-2023-24.pdf"
+            ],
+            "locators": "Dhwani page: CALL FOR SCRIPTS; rules PDF page 4. Report index annual-report links; 2024–25 report text searched for Dhwani.",
+            "result": "2025 offer remains conditional: selected script, writer opting for support, possible screening if finished. Latest 2024–25 report text returned no Dhwani match; no named delivery found. 2023–24 report web retrieval cache miss, not inspected."
+          },
+          {
+            "route": 2,
+            "type": "Official institute records",
+            "urls": [
+              "https://bpftio.ac.in/",
+              "https://bpftio.ac.in/video/",
+              "https://bpftio.ac.in/faq/",
+              "https://bpftio.ac.in/cinematography/"
+            ],
+            "result": "Actual official domain resolved. Homepage/video page and targeted domain search did not establish a named Dhwani-supported film. General student-film training is a separate activity and cannot substantiate this offer’s delivery."
+          },
+          {
+            "route": 3,
+            "type": "Named completed production/credit search",
+            "queries": [
+              "\"BPFTIO\" \"Dhwani\" -rules",
+              "\"Dhwani\" \"script\" \"winner\"",
+              "\"Dhwani\" \"BPFTIO\" \"film\" \"produced\""
+            ],
+            "result": "No attributable named completed recipient film recovered. Unrelated people named Dhwani and repeated calls/rules excluded."
+          }
+        ],
+        "classification": {
+          "offer": "Verified conditional support advertised",
+          "entry": "Not proof of selection or support delivery",
+          "prize": "Festival awards and conditional prize-sharing rules are not production-support receipts",
+          "credit": "No new film-specific BPFTIO/Dhwani production credit established",
+          "outcome": "Unresolved, not evidence that support was never delivered"
+        },
+        "public_recommendation": "No addition or correction. Keep the already sourced festival/access rules separate from any production-delivery claim."
+      },
+      "access": {
+        "initial_failures": [
+          "Bundled Python lacks requests; no installation attempted.",
+          "Sandbox urllib DNS resolution failed.",
+          "Web original Loyola open returned error despite indexed text."
+        ],
+        "successful_retrieval": "Authorised curl network retrieval returned exit 0; original retained unchanged. Poppler text does not extract the relevant image text; source claim verified visually from rendered page 86.",
+        "capture_files": [
+          {
+            "path": "outputs/cinema-research-gaps-20261107/support-sources/loyola-july-2024.pdf",
+            "sha256": "d985e2c2df1436fd061cd9113a130ee7a986f0ae3835c3766197458e9a348222"
+          },
+          {
+            "path": "outputs/cinema-research-gaps-20261107/support-sources/loyola-july-2024.txt",
+            "sha256": "5503b4914b472b84afdbb20ad7c29e1dc3616a815960ab75fda57d8a5e33e737"
+          },
+          {
+            "path": "outputs/cinema-research-gaps-20261107/support-sources/loyola-page-1.png",
+            "sha256": "95490f3aa9db63c00afae996f1ebd73956564b9f7843bc2ddf628f469923d1ab"
+          },
+          {
+            "path": "outputs/cinema-research-gaps-20261107/support-sources/loyola-page-86.png",
+            "sha256": "b2dee36dcfe022914a03c7fd3f62d173c566dd529bd0a1c8f6e79d7bcd73dfd9"
+          }
+        ]
+      },
+      "source_budget": "Loyola summary below 100 derived words; no full article transcription. Other sources summarized briefly and reused only within their stated evidence limits. No new public source allocation.",
+      "checks": {
+        "head": "ea4dc61cf30b405970f208cb03db49baea6d6c6f",
+        "only_assigned_output_writes": true,
+        "no_public_or_shared_record_writes": true,
+        "no_contact_purchase_or_access_bypass": true,
+        "route_limit": "Three distinct routes per dependency; stopped without generic repeat loops."
+      }
+    },
+    "writer_compensation": {
+      "date": "2026-11-07",
+      "status": "research_complete_pending_review",
+      "reuse": [
+        "outputs/cinema-expansion-20261031/adaptation-evidence.json",
+        "kb/research/culture/cinema-series/literature-and-screen.md",
+        "kb/records/cinema-gourahari-bapa-connection-2026-11-05.json"
+      ],
+      "question": "Can original adaptation payments be established, and can practical writer-support routes strengthen the existing discussion?",
+      "routes": [
+        {
+          "type": "Named adaptation and payment discovery",
+          "queries": [
+            "Odia author film adaptation rights royalty payment Gourahari Das Bapa",
+            "Pratibha Ray Yajnaseni film rights payment",
+            "Pushkara Nadabindu author remuneration"
+          ],
+          "result": "No original contract, payment receipt or attributable author account of an adaptation fee established. Prior Pratikshya remake token concerns filmmaker remake rights, not the source author. Book royalties, actor fees and recording-royalty disputes are not substituted for literary-adaptation payments."
+        },
+        {
+          "type": "Writer association original guidance",
+          "url": "https://www.swaindia.org/askourlawyer",
+          "access": "Direct web open returns JavaScript shell. Targeted search index returns the full official FAQ, dated 2016/2017; current official homepage separately lists legal-counsel appointments exclusively for members.",
+          "finding": "SWA describes free member guidance on contracts and copyright; its legal officer does not draft members’ contracts.",
+          "limit": "General institutional support, not proof of any Odia writer’s fee or universal legal entitlement."
+        },
+        {
+          "type": "Rights association original eligibility and terms",
+          "url": "https://register.sraindia.org/",
+          "access": "Direct official page read, lines 5–8, 73–78 and membership conditions. No form submitted.",
+          "finding": "Eligibility includes qualifying story/screenplay/dialogue credits in any language. Terms explicitly say membership does not mean immediate royalties.",
+          "limit": "No payment to an Odia author is established. Eligibility depends on the published conditions; no blanket assertion that every novelist qualifies."
+        }
+      ],
+      "sources": [
+        {
+          "id": "swa-guidance",
+          "url": "https://www.swaindia.org/askourlawyer",
+          "kind": "official association guidance",
+          "claim": "Member advice on contracts and copyright, no contract drafting",
+          "direct_quote_words": 0
+        },
+        {
+          "id": "swa-home",
+          "url": "https://www.swaindia.org/",
+          "kind": "official current service listing",
+          "claim": "Member-only legal counsel; association explicitly says it has not officially issued a minimum rate card",
+          "access": "Official search-index page, current footer 2026; direct open JS shell",
+          "direct_quote_words": 0
+        },
+        {
+          "id": "srai-eligibility",
+          "url": "https://register.sraindia.org/",
+          "kind": "official membership terms",
+          "claim": "Eligible credited screenwriters in any language; membership does not mean immediate royalty payments",
+          "direct_quote_words": 0
+        }
+      ],
+      "rejected_inferences": [
+        "No records found does not establish nonpayment or unfair treatment.",
+        "Book royalties and film remake rights are not original literary-adaptation fees.",
+        "Third-party minimum-rate cards are not adopted; official SWA homepage disclaims an officially issued minimum rate card.",
+        "Association membership is not proof of payment or automatic eligibility for every prose author."
+      ],
+      "proposed_addition": "Writers need not approach these conversations alone. The Screenwriters Association offers its members guidance on contracts and copyright. The Screenwriters Rights Association of India accepts applications from eligible writers with story, screenplay or dialogue credits in any language; its terms make clear that joining does not mean immediate royalty payments. These are practical places to explore while writers and producers work out how a particular story will travel.",
+      "proposed_home": "kb/research/culture/cinema-series/literature-and-screen.md — after existing paragraph ending “firmer to build on.”",
+      "public_budget": {
+        "new_words_approximately": 71,
+        "direct_quotes": 0,
+        "footnotes": 2
+      },
+      "original_payment_gap": "unresolved; reopen on a named agreement, receipt, or attributable author/producer account with actual terms",
+      "actions_not_taken": [
+        "No outreach",
+        "No legal consultation",
+        "No application or payment",
+        "No publication"
+      ],
+      "next": "Independent source and wording review before a narrow local revision; all historic payment gaps remain explicit."
+    }
+  },
+  "public_revision": "literature-and-screen, local only",
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "stopping_rule": "No more generic searches for these exhausted gaps. Reopen when the specific original documents/credits become available; no outreach or purchase performed."
+}

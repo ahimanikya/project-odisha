@@ -1370,3 +1370,18 @@ Flagged29items against the104-page draft and prepared a reviewed17-page illustra
 ### 7 November 2026 · Reviewed cinema research and current books published
 
 Published the accumulated cinema and connected literary updates under the Founder’s request, including refreshed documentary photographs and three companion profiles. PR 689 passed hosted validation and the actual website deployment succeeded. All 61 targeted routes match the released text and links. Of 265 referenced images, 262 match byte for byte; three responsive derivatives have verified dimensions, content hashes and visual equivalence despite platform-specific encoding differences. The 264-page digital, 270-page print and 6-page introduction downloads match the reviewed hashes through anonymous HTTPS. Prior editions, concurrent Dongria work and evidence limitations remain intact. No human specialist approval or programme increment claimed. [Publication receipt](../records/cinema-publication-2026-11-07.json).
+
+
+### 7 November 2026 — Cinema focused research gaps
+
+All three focused research areas investigated. One reviewed68word practical writer-support addition and two notes; historical source-text/payment and delivered-support gaps remain open. New monograph preview and original school newsletter retained as bounded evidence, not promoted into unsupported claims. Current website and published PDFs unchanged. See [handoff](../records/cinema-research-gaps-2026-11-07.json).
+
+
+### 7 November 2026 · Cinema sequence and companion profiles
+
+Confirmed 50 core readings in seven parts, five connected companion profiles and 98 correct Previous/Next links. Recorded source-story clarification, companion discovery and onward-navigation improvements. Recommended two new short readings and three integrated portraits; current book remains unchanged. No publication or programme credit. [Audit](../records/cinema-sequence-audit-2026-11-07.json).
+
+
+### 7 November 2026 · Cinema sequence publication preparation
+
+Reviewed the 49-chapter book and 52-reading online sequence. Bibhuti Pattanaik and Solila Parida join the main sequence; DAMaN’s three filmmaker profiles are integrated in print and remain online. The 270/276-page proofs preserve prior photographs and 535 numbered notes. Publication authorized; actual delivery follows. [Record](../records/cinema-sequence-publication-2026-11-07.json).

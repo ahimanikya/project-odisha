@@ -9,7 +9,8 @@ test('central route continues through all ten destinations without changing full
   const entry=cinema.articles.find(a=>a.slug===slug),onward=cinemaOnward(entry);
   assert.equal(onward.href,i<9?cinema.articles.find(a=>a.slug===primary.chapters[i+1]).route:'/cinema/reading-guide/#central-reading-route');
   assert.equal(onward.aria,'Central reading route');
-  assert.ok(cinemaArticle(entry).article.html.includes(onward.href));
+  assert.ok(cinemaArticle(entry).article.html.includes('<!--cinema-onward-boundary-->'));
+  assert.ok(!cinemaArticle(entry).article.html.includes('<nav class="cinema-narrative-continue"'),'No duplicate in-body continuation');
  }
  for(const [i,entry] of cinema.articles.entries())if(!primary.chapters.includes(entry.slug)){
   assert.equal(cinemaOnward(entry).href,cinema.articles[i+1]?.route||'/cinema/');
@@ -26,7 +27,7 @@ test('approved ending drawings appear exactly once before viewing links or onwar
   assert.equal((html.match(/<figure\b/g)||[]).length,entry.images.length,entry.slug);
   if(item){
    const art=html.indexOf('cinema-ending-art'),watch=html.search(/<h2\b[^>]*>Watch(?: and explore| an official introduction)<\/h2>/);
-   const onward=html.indexOf('<nav class="cinema-narrative-continue"');
+   const onward=html.indexOf('<!--cinema-onward-boundary-->');
    if(item.web_placement==='before-continue'){
     if(watch>=0)assert.ok(watch<art,'Ending drawing follows viewing section');
     if(entry.slug==='pratikshya')assert.ok(html.lastIndexOf('href="/cinema/cinema-economics/',art)>=0,'Economics link precedes drawing');
@@ -47,7 +48,7 @@ test('shared-story closes the final invitation before onward navigation',()=>{
  const html=cinemaArticle(entry).article.html;
  const heading=html.indexOf('id="begin-with-the-next-encounter"');
  const art=html.indexOf('data-line-art="shared-story"');
- const onward=html.indexOf('<nav class="cinema-narrative-continue"');
+ const onward=html.indexOf('<!--cinema-onward-boundary-->');
  assert.ok(heading>=0&&heading<art&&art<onward);
  assert.ok(html.slice(heading,art).includes('</p>'),'Closing invitation precedes drawing');
  assert.match(html.slice(art,onward), /<\/div>$/,'No navigation is included in the narrative section');

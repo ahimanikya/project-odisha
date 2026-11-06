@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-07",
+  "status": "bounded_research_complete",
+  "scope_released": true,
+  "reuse": [
+    "outputs/gourahari-bapa-connection-20261105/research.json",
+    "outputs/pratikshya-title-choice-20261105/research.json",
+    "outputs/cinema-lavanya-source-20261105/research.json",
+    "outputs/cinema-lavanya-source-20261105/coordinator-research.json",
+    "kb/records/cinema-research-gaps-2026-11-07.json"
+  ],
+  "reuse_query": "python3 tools/research/query_research.py \"Lavanya Bapa\" returned only inventory notice; exact existing dossiers were read directly.",
+  "bapa": {
+    "established_prior": "Pioneer interview question identifies Bapa by Gourahari Das; original story text and collection remain uninspected.",
+    "routes": [
+      {
+        "route": "Exact title and ISBN discovery, including publisher-domain query",
+        "queries": [
+          "\"Bapa O Anyanya Galpa\" ISBN Gourahari",
+          "site:peninbooks.com \"ବାପା\"",
+          "\"Gourahari\" \"Bapa\" \"ISBN\"",
+          "\"Bapa O Anyanya Galpa\" \"Pen\"",
+          "site:peninbooks.com Gourahari"
+        ],
+        "result": "Known BooksWagon author listing resurfaced; no verified ISBN or publisher title entry. Other Bapa books were different authors and excluded. The known author-list page was inadvertently retried once and returned cache miss; no further retry."
+      },
+      {
+        "route": "Exact title/author library and preview discovery",
+        "queries": [
+          "\"Bapa O Anyanya Galpa\" site:worldcat.org OR site:books.google.com OR site:openlibrary.org",
+          "site:search.worldcat.org \"Bapa\" \"Gourahari\"",
+          "\"Gourahari Das\" \"Bapa\" site:catalog.loc.gov OR site:searchworks.stanford.edu OR site:iucat.iu.edu"
+        ],
+        "result": "No matching record surfaced. These are search-index queries, not exhaustive direct catalogue searches."
+      }
+    ],
+    "retained_locator": "https://www.bookswagon.ae/books-by-author/gourahari-das",
+    "limits": "Retailer listing remains a discovery lead for Odia Media Private Limited/5February2023. No original cover, imprint, contents, story text or ISBN verified. No claim of absence from libraries. Jaipur catalogue and author-site routes not repeated.",
+    "recommendation": "No article change; reopen only on a specific publisher or library title record/authorized contents or text. A similarly titled later collection must not be assumed to be the edition used for the2022 film."
+  },
+  "lavanya": {
+    "established_prior": "Original41st NFA entry credits Bir script and Kedar–Gouri legendary/jatra framing. Nilamani Sahu attribution remains secondary; film player unavailable in prior pass.",
+    "new_original_preview": {
+      "source_url": "https://www.exoticindiaart.com/book/details/mohapatra-nilamani-sahoo-bibliography-of-indian-literature-in-oriya-ham123/",
+      "access": "Direct web text had Look Inside but omitted gallery links. Ordinary public HTML retrieval revealed12 exact original image URLs; downloaded and individually visually inspected all12. Initial restricted-network DNS error, then authorized network retrieval succeeded. No endpoint guessed or access restriction bypassed.",
+      "retrieval_manifest": "sources/preview-retrieval.json",
+      "images": [
+        {
+          "file": "ham123.webp",
+          "scope": "Front cover"
+        },
+        {
+          "file": "ham123b.webp",
+          "scope": "Original title page: Mahapatra Nilamani Sahu, Archana Nayak, Sahitya Akademi; Indian literature makers series label."
+        },
+        {
+          "file": "ham123c.webp",
+          "scope": "Unnumbered descriptive author/subject biographical text; no film attribution located."
+        },
+        {
+          "file": "ham123d.webp",
+          "scope": "Preface first offered page"
+        },
+        {
+          "file": "ham123e.webp",
+          "scope": "Preface continuation offered page"
+        },
+        {
+          "file": "ham123f.webp",
+          "scope": "Contents: short-story discussion begins41; selected story excerpts89; brief biography95 and works list96. No separately named cinema chapter."
+        },
+        {
+          "file": "ham123g.webp",
+          "scope": "Opening biography, printed9 inferred from contents and following page10; no printed folio visible."
+        },
+        {
+          "file": "ham123h.webp",
+          "scope": "Printed10 biography"
+        },
+        {
+          "file": "ham123i.webp",
+          "scope": "Printed12 biography"
+        },
+        {
+          "file": "ham123j.webp",
+          "scope": "Printed13 biography"
+        },
+        {
+          "file": "ham123k.webp",
+          "scope": "Printed32 biography"
+        },
+        {
+          "file": "ham123l.webp",
+          "scope": "Printed33 biography"
+        }
+      ],
+      "finding": "Original title/author/publisher and a precise contents map are now inspected. The offered pages do not establish Lavanya Preeti source-story identity. Short-story discussion, selected excerpts and full works list were not supplied in this preview.",
+      "limits": [
+        "No original imprint page offered;2021/ISBN9789391494773 retain prior official-report and retailer support, not freshly read imprint.",
+        "No claim to read the98-page monograph or all its film references.",
+        "Absence of a dedicated cinema heading does not establish absence of film discussion inside a chapter.",
+        "No new biographical detail adopted from incidental sample pages."
+      ],
+      "next_precise_dependency": "Original pages41 onward or works-list96 could be useful if legally accessible, but the current public sample does not include them."
+    },
+    "other_routes": [
+      {
+        "route": "Exact ISBN in library/preview/archive indices",
+        "queries": [
+          "\"9789391494773\" preview Nilamani",
+          "\"9789391494773\" site:books.google.com OR site:archive.org OR site:worldcat.org"
+        ],
+        "result": "Retailer record reappeared; no additional original full text found."
+      },
+      {
+        "route": "Producer-domain indexed source field",
+        "query": "site:cfsindia.org \"Labanya\" \"story\"",
+        "result": "No result; prior failed NFDC binary and empty film player not retried."
+      }
+    ],
+    "recommendation": "Retain current public attribution. Record stronger monograph-preview access internally, without promoting Nilamani Sahu or a source-story title."
+  },
+  "budgets": {
+    "new_public_words": 0,
+    "direct_quotes_proposed": 0,
+    "monograph_total_future_source_ceiling_words": 200,
+    "notes": "Existing NFA and Pioneer source allocations unchanged. No long excerpts retained; incidental biography not paraphrased publicly."
+  },
+  "public_changes": false,
+  "limitations": [
+    "No contact, purchase, login or publication.",
+    "Negative search results do not prove unavailable books or absent holdings.",
+    "No story/film comparison, adaptation fidelity or payment inference.",
+    "This cycle closes its bounded attempts; it does not resolve either original-story dependency."
+  ]
+}

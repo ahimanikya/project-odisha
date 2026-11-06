@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-07",
+  "scope": "Read-only source/evidence dependency review; no staging, build or validator execution.",
+  "compact_files_to_include": [
+    {
+      "path": "outputs/cinema-research-gaps-20261107/coordinator-research.json",
+      "exists": true,
+      "bytes": 4720
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/review.json",
+      "exists": true,
+      "bytes": 5706
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/implementation.json",
+      "exists": true,
+      "bytes": 14131
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/final-review.json",
+      "exists": true,
+      "bytes": 4706
+    },
+    {
+      "path": "kb/records/cinema-research-gaps-2026-11-07.json",
+      "exists": true,
+      "bytes": 17086
+    },
+    {
+      "path": "kb/research/culture/cinema-series/research-gaps-2026-11-07.json",
+      "exists": true,
+      "bytes": 25280
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/literary-sources.json",
+      "exists": true,
+      "bytes": 7113
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/support-outcomes.json",
+      "exists": true,
+      "bytes": 8378
+    },
+    {
+      "path": "kb/research/methods/research-map.md",
+      "exists": true,
+      "bytes": 212986
+    },
+    {
+      "path": "kb/records/cinema-expansion-work-list-2026-10-31.json",
+      "exists": true,
+      "bytes": 84853
+    },
+    {
+      "path": "kb/records/cinema-expansion-work-list-2026-10-31.md",
+      "exists": true,
+      "bytes": 24479
+    },
+    {
+      "path": "kb/records/cinema-sequence-audit-2026-11-07.json",
+      "exists": true,
+      "bytes": 3111
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/editorial-review.json",
+      "exists": true,
+      "bytes": 14267
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/navigation-audit.json",
+      "exists": true,
+      "bytes": 17422
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/inventory.json",
+      "exists": true,
+      "bytes": 30950
+    },
+    {
+      "path": "outputs/cinema-sequence-audit-20261107/root-audit.json",
+      "exists": true,
+      "bytes": 3919
+    },
+    {
+      "path": "kb/records/cinema-sequence-publication-2026-11-07.json",
+      "exists": true,
+      "bytes": 2508
+    },
+    {
+      "path": "outputs/cinema-sequence-publication-20261107/editorial-content.json",
+      "exists": true,
+      "bytes": 12020
+    },
+    {
+      "path": "outputs/cinema-sequence-publication-20261107/implementation.json",
+      "exists": true,
+      "bytes": 6536
+    },
+    {
+      "path": "outputs/cinema-sequence-publication-20261107/release-plan.json",
+      "exists": true,
+      "bytes": 12074
+    },
+    {
+      "path": "outputs/cinema-sequence-publication-20261107/review.json",
+      "exists": true,
+      "bytes": 7882
+    },
+    {
+      "path": "outputs/cinema-sequence-publication-20261107/source-evidence-list.json",
+      "exists": true,
+      "bytes": 5215
+    }
+  ],
+  "compact_total_bytes": 525342,
+  "current_manifest_source_check": {
+    "articles": 52,
+    "mismatches": []
+  },
+  "map_markdown_dependencies": [
+    {
+      "link": "../culture/cinema-series/research-gaps-2026-11-07.json",
+      "resolved": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/kb/research/culture/cinema-series/research-gaps-2026-11-07.json",
+      "exists": true
+    },
+    {
+      "link": "../../records/cinema-research-gaps-2026-11-07.json",
+      "resolved": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/kb/records/cinema-research-gaps-2026-11-07.json",
+      "exists": true
+    }
+  ],
+  "validator_analysis": {
+    "check_bundle": "Reads local Markdown link destinations underkb, not arbitrary output path strings in research JSON. New map links need both research-gap dossier and handoff included.",
+    "validate_research_map": "Checks references/data/research-map.json and research-queue.json source_records/source_path fields. Narrative research-map.md addition does not create a dependency on raw preview captures.",
+    "team_and_records": "Keep currenthandoff and sequence-audit record alongside referenced compact receipts. Historical local capture pointers are evidence provenance, not executable build inputs."
+  },
+  "excluded_not_runtime_dependencies": [
+    "outputs/cinema-accessibility-20261107/ and tools/cinema-book tagged-reading experiment changes",
+    "outputs/cinema-research-gaps-20261107/sources/ and support-sources/",
+    "outputs/cinema-research-gaps-20261107/builds/",
+    "Old trial/archivalPDFs and review-site mirrors"
+  ],
+  "issues": [],
+  "limits": [
+    "The earlier read-only staged-name check returned empty; this report therefore specifies candidate inclusion, not a verified staged payload. No Git mutations performed.",
+    "Clean-checkout validators were not run. Their inspected path checks do not require raw monograph/newsletter images or PDFs for thisparagraph.",
+    "Any new final build/release manifest referenced by coordinator must be included separately when created; chosen immutable published PDFs are release assets rather than these research receipts.",
+    "Review.json and historicalhandoffs contain local capture paths; omission of raw captures limits later reproduction of visual inspection but does not erase the written scope/status or break the inspectedvalidators.",
+    "Unrelated pending files must not be swept into staging by broad outputs/ or tools/cinema-book/ directory inclusion."
+  ],
+  "scope_released": true
+}

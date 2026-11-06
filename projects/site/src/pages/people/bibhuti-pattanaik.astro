@@ -1,7 +1,7 @@
 ---
 import CinemaReading from '../../components/CinemaReading.astro';
-import companions from '../../data/cinema-companions.json';
-const entry=companions.articles.find(article=>article.route==='/people/bibhuti-pattanaik/');
-if(!entry)throw new Error('Missing Bibhuti Pattanaik companion');
+import cinema from '../../data/cinema.json';
+const entry=cinema.articles.find(article=>article.route==='/people/bibhuti-pattanaik/');
+if(!entry)throw new Error('Missing Bibhuti Pattanaik reading');
 ---
 <CinemaReading entry={entry}/>

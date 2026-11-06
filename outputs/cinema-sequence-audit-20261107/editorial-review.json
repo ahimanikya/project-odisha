@@ -1,0 +1,183 @@
+{
+  "status": "AUDIT_COMPLETE_ONE_RECOMMENDED_CLARITY_CORRECTION",
+  "scope_released": true,
+  "input_hashes": {
+    "projects/site/src/data/cinema.json": "e074a03c401c2b693f5b476bdea2c17616ff930ff818ad086d8c3c0856ef7c81",
+    "projects/site/src/data/cinema-companions.json": "3d41ba4f44128b4de3bcef7f5fdef830d12f24763212e5f6cff72acbbc026739",
+    "kb/research/culture/cinema-series/manifest.json": "67d59588c9398a4f5bfe5fc6031afbbe89c6c895e6468dfe30b0126fb464483b",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "90a614e31fccb8a483e67ad655b704315b05eb2358bbf4a271041af4ccfd41d9",
+    "projects/site/src/pages/cinema/index.astro": "5469383bb2cfc485a5c83ec4e0ea708dcc9a4ff9143f4cd7188344e716825c58",
+    "projects/site/src/pages/cinema/reading-guide.astro": "6d332798f23e8b36071279db52338ebef09abffcdb9f4a2985ee200fd10869bb",
+    "projects/site/src/pages/cinema/book.astro": "d1ffb28f0dc6219394f7e485fc82b803e06082bbe40feff9172a2f17cdb33a61"
+  },
+  "count_answer": {
+    "core_readings": 50,
+    "parts": 7,
+    "part_sizes": [
+      9,
+      5,
+      20,
+      4,
+      7,
+      2,
+      3
+    ],
+    "primary_short_route": 10,
+    "additional_cinema_companion_entries": 3,
+    "wider_profile_links_in_reading_guide": 5,
+    "interpretation": "50 is the coherent core sequence, including personal introduction, profiles, films, music/radio, archival reading and practical essays. It is not50film plots or50fiction stories. Three dedicated cinema companions are additional; the wider guide also links existing Fakir Mohan and Pratibha profiles. Guide, viewing room, appendices and standalone intro export do not add core chapters."
+  },
+  "sequence_integrity": {
+    "flattened_parts_unique_and_match_articles": true,
+    "manifest_order_matches_site": true,
+    "seven_part_intros_match_book_narrative": true,
+    "recommendation": "Retain core50 and current order; no evidence-driven need for a51st reading merely to grow the count."
+  },
+  "reader_journey": [
+    {
+      "part": "A Shared Storytelling World",
+      "assessment": "Personal question→literature→writers→stage/radio supplies the purpose before a historical survey. AIR-to-song bridge is concrete and natural."
+    },
+    {
+      "part": "Songs and Voices",
+      "assessment": "Music essay followed by contrasting creative lives keeps words and livelihoods connected; Tapu’s choices hand the reader to production rather than ending in a roll of names."
+    },
+    {
+      "part": "Films and Filmmakers",
+      "assessment": "Longest block20readings, but intelligible clusters: Gour/Parbati, performance/colleagues, households/Maya/Nirad, Bhukha/Sabyasachi/Aadim, children/Bir, cross-language/experimental/documentary makers, then collective learning. Do not rearrange chronologically: it would break these paired routes."
+    },
+    {
+      "part": "Memory and Discovery",
+      "assessment": "Learning→preservation→books forms a useful pause and returns the reader to written sources."
+    },
+    {
+      "part": "A New Search for Stories",
+      "assessment": "Gourahari/Pratikshya/Anupam and DAMaN/director/editor/producer are distinct process perspectives. Their proximity is purposeful; clarify which Gourahari story became the film."
+    },
+    {
+      "part": "Changing Screens",
+      "assessment": "Two chapters efficiently shift from making to reaching viewers without a separate expansion of the sequence."
+    },
+    {
+      "part": "Making the Next Film Possible",
+      "assessment": "Reported commercial performance→resources/obligations→concrete invitations is the correct finish. Futures90–106 returns literature, families, writers/weavers and agreed payment to the reader’s possible next action."
+    }
+  ],
+  "recommended_corrections": [
+    {
+      "priority": "high-value clarity; no structural reorder",
+      "location": "projects/site/src/data/cinema.json parts[new-search-for-stories].intro; corresponding manifest and book-narrative part_intro",
+      "evidence": "book-narrative-2026-10-27.json:189 places The Culprit and Pratikshya in one semicolon sentence; gourahari-das.md:64 explicitly identifies Bapa as source.",
+      "issue": "A reader scanning this introduction can infer The Culprit is the source of Pratikshya. Naming The Culprit fixed the earlier unnamed-story ambiguity but the adjacent film phrase still permits that inference.",
+      "proposed_replacement_sentence": "We meet Gourahari Das through “The Culprit,” then follow a different story of his, Bapa, into Pratikshya and its makers’ revisions.",
+      "boundary": "This names the interview-supported source; it does not claim original Bapa text has been read."
+    }
+  ],
+  "optional_refinements": [
+    {
+      "priority": "useful orientation",
+      "location": "projects/site/src/pages/cinema/index.astro:12 and linked reading-guide",
+      "proposal": "One concise line can say50core readings in7parts, with additional linked writer/producer/translator profiles; link to reading-guide’s More people behind the stories. Do not relabel core as53 or duplicate cards across the core.",
+      "reason": "The main hub currently counts50 accurately but does not expose companion distinction; the reading-guide does."
+    },
+    {
+      "priority": "optional, not needed for release",
+      "location": "Part3 Films and Filmmakers hub list",
+      "proposal": "If readers later report fatigue, use unobtrusive group labels or existing short route rather than adding/reordering chapters. Current ten-reading route already provides a good lighter path.",
+      "reason": "20of50readings are in this block, yet pairwise transitions are coherent."
+    }
+  ],
+  "preserve": [
+    "Ten-reading central route from author’s question to literature/song/films/economics/future.",
+    "Book’s short overview orientation and separate companion survey; online overview is longer but explicitly exploratory.",
+    "Distinct lived recollection, original text, catalogue credits and public proposals; no new payment or full-film-viewing inference identified in sampled transitions.",
+    "Specific new original-source examples; no generic expansion or removal justified by count alone."
+  ],
+  "actual_scope": {
+    "full_structural_reads": [
+      "all7part intros and50slug order",
+      "manifest order",
+      "all narrative bridges",
+      "all5reading paths",
+      "preface and reference-guide intro",
+      "hub/book/reading-guide source templates",
+      "companion discovery list"
+    ],
+    "selective_prose": "Read beginnings/endings for27named readings spanning all7parts, including intro/literature/AIR/music, film-maker clusters, learning/preservation, Gourahari/Pratikshya/DAMaN teams, television/OTT, commercial/economics/futures; full local compensation and concluding audience passages. This was not a new full-text fact audit of all50 articles.",
+    "key_evidence": [
+      "cinema/index.astro:12–16",
+      "CinemaDiscovery.astro:8",
+      "book-narrative-2026-10-27.json:182,189,636,639,643,1228",
+      "gourahari-das.md:60–66",
+      "cinema-futures.md:90–106"
+    ]
+  },
+  "limits": [
+    "No public edits, new web research, browser or PDF rendering.",
+    "Current local literature includes reviewed writer-support addition; published download version may differ, as book page explicitly states.",
+    "No requirement to expand beyond50 without a distinct sourced narrative that improves this journey."
+  ],
+  "new_user_question": {
+    "question": "Do we need to take five online companion profiles to the book?",
+    "recommendation": "Do not import all five as full chapters. Add short standalone readings for Bibhuti Pattanaik and Solila Parida; keep Fakir Mohan, Pratibha Ray and Jatindra K. Nayak present through concise integrated portraits and links to their fuller online readings.",
+    "count_consequence": "If these two additions are accepted, the core becomes 52 readings. Fifty is a useful current count, not a rule that should exclude two distinct contributions. Update hub, contents, chapter references and reading-guide counts together; do not announce 55 chapters merely because five companion pages exist.",
+    "profiles": [
+      {
+        "name": "Bibhuti Pattanaik",
+        "form": "Short standalone reading",
+        "placement": "Part 1, after Kanhu Charan Mohanty and before Manglu Charan Biswal.",
+        "reason": "A missing novelist connects books within reach, libraries, editing and book fairs with Badhu Nirupama and a separately credited collaboration on Maya Miriga. That is more than another biography: it makes the author-to-reader infrastructure tangible.",
+        "editorial_scope": "Current roughly 315-word narrative is already short. Preserve the distinction between the Badhu Nirupama adaptation and the joint Maya Miriga story credit. Retain the libraries/book-fair opening; avoid expanding the award list.",
+        "overlap": "Maya Miriga already names the joint credit (line 30); its link can point to this reading, without adding a second explanation there."
+      },
+      {
+        "name": "Solila Parida",
+        "form": "Short standalone reading, edited from existing profile",
+        "placement": "Part 3, after Nandita Das and before Pramod Pati (coordinator-preferred placement, accepted as coherent).",
+        "reason": "Adds the producer as an active collaborator: a writer offers a story, a producer gathers people, and script revisions and work across countries carry it towards an audience. This advances the book’s literature-to-making purpose beyond the current short example.",
+        "editorial_scope": "Prioritise Pati’s story, Parida’s production role and Kicklighter’s attributed account of revision and collaboration. Keep language distinction explicit: English with some Hindi. Compress the earlier filmography, plot summary and festival/release chronology; no inferred author fee. Aim for a short reading rather than copying every profile section.",
+        "overlap": "Literature already introduces this case in line 86. Keep that as a brief signpost, not a duplicate production narrative.",
+        "placement_reason": "Keeps the Odisha-connected, cross-language grouping together while preserving the Pratikshya → Anupam → DAMaN making sequence in Part 5. Part 3 is already the longest part, so retain a compact producer-focused reading.",
+        "alternative_considered": "Reviewer initially proposed after Anupam in Part 5 to compare production processes; not preferred after considering the uninterrupted recent-film/team momentum."
+      },
+      {
+        "name": "Fakir Mohan Senapati",
+        "form": "Concise integrated writer portrait; full profile remains online",
+        "placement": "Literature and Screen, beside the existing Rebati/Six Acres readings.",
+        "reason": "His fiction is already central to the opening literary encounter. Importing the long profile would repeat close readings and divert into language/province history. A few lines on writing, printing and readers can identify the person behind those works without a separate survey.",
+        "editorial_scope": "Do not repeat Rebati or add the whole Patent Medicine reading. Use the current public collection text and editorial source map, not the research Markdown nucleus."
+      },
+      {
+        "name": "Pratibha Ray",
+        "form": "Concise integrated writer portrait; full profile remains online",
+        "placement": "Literature and Screen, beside her existing adaptation and writer-filmmaker discussion.",
+        "reason": "Self-publishing provides a useful specific connection between literary work and reaching readers. The full Jajnaseni, The Ring and performance/edition discussion would enlarge a literary survey more than the cinema journey.",
+        "editorial_scope": "Select one useful personal detail, preferably the attributed self-publication account, without claiming sales or adaptation payments. Do not append all close readings or repeat existing adaptation credits."
+      },
+      {
+        "name": "Jatindra K. Nayak",
+        "form": "Concise translator portrait or inset; full profile remains online",
+        "placement": "Basanta Kumari Patnaik reading, adjacent to the existing In Bondage/idiom discussion (lines 25–29).",
+        "reason": "Translation and print labour deserve a visible person, but the existing Basanta passage already demonstrates the work. A short portrait can connect proof-reading and revisiting translations to this example without creating a second general translation essay.",
+        "editorial_scope": "Keep Basanta central; avoid importing the award chronology, institutional catalogue and unrelated reader-event list. Do not imply he personally edited the Pujari memoir."
+      }
+    ],
+    "narrative_word_counts": {
+      "fakir-mohan-senapati": 1037,
+      "pratibha-ray": 620,
+      "bibhuti-pattanaik": 315,
+      "solila-parida": 524,
+      "jatindra-k-nayak": 461
+    },
+    "word_count_method": "Whitespace tokens in public lead plus section paragraphs for the two Voices profiles; Markdown narrative before Footnotes for the three cinema companions, excluding headings/byline and removing link destinations/footnote markers. Counts are approximate editorial length measures, not source-allocation audits.",
+    "actual_review_scope": "Read all five narrative profiles; for Fakir Mohan and Pratibha Ray also read the actual public collection lead and every section paragraph. Checked existing Literature, Basanta and Maya Miriga overlaps and previously audited all seven parts/core order. No fresh source verification or new layout review.",
+    "input_hashes": {
+      "kb/research/voices/collection.json": "877dd45edade8a2d26273cc597bfd9f07a72e32373ac43bfad53dd62ef2c2303",
+      "kb/research/people/bibhuti-pattanaik.md": "012fc69b2370ebdb878cb3335b0641bf0e9755b28a0e4c1eb2763b02013f39b3",
+      "kb/research/people/solila-parida.md": "daaae3302af0ce33d7ce5d3d19a02f8a4009ed8b548acdff7dc37c55573f2646",
+      "kb/research/people/jatindra-k-nayak.md": "9a8d0c45a8eee9572703c70c3e4ebe62fa064a5987b6165cb3adb286781c31ac"
+    },
+    "implementation_status": "Recommendation only. No article, sequence, image, PDF or public count changed.",
+    "scope_released": true
+  }
+}
