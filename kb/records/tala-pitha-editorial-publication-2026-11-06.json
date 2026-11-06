@@ -1,0 +1,76 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-114",
+  "work_id": "POD-WORK-329",
+  "programme_id": "POD-A500-138",
+  "program_item": "POD-A500-138",
+  "authorization": "POD-DEC-225",
+  "reviewed_head": "7c1d0920b7e56655c6ac6ed2dbe5c98ebf50bdb3",
+  "merge_commit": "e8d0e511bc7317659307f5a0c6ff076cbdf008ee",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/685",
+  "deployment": {
+    "databaseId": 42216463326,
+    "headSha": "e8d0e511bc7317659307f5a0c6ff076cbdf008ee",
+    "conclusion": "success"
+  },
+  "verified_routes": [
+    "/food/tala-pitha/"
+  ],
+  "verified_at": "2026-11-06T12:33:23.766Z",
+  "live": {
+    "checked_at": "2026-11-06T12:33:23.766Z",
+    "status": "PASS",
+    "producer_sha256": "12e1a5668ae0b3a40f4222fef35459474bcdf9eee092e493705cc76e238df4e4",
+    "browser_sha256": "c56239998f2c6b434aeb1bc3d6b9e97e0b93f595b015754100f9fc6b895f0bf4",
+    "evidence_manifest": "records/evidence/tala-pitha-editorial-2026-11-06/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "8a1673115be5c4110079fb10522a12c18099b507744592fbbfd1152d3c123ac4"
+  },
+  "separate_live_review": {
+    "decision": "PASS",
+    "sha256": "60a8610c4d6aa36fff8e2823af728a3b5f142c007711bd95d9192cda16abe18d",
+    "portable_evidence": "records/evidence/tala-pitha-editorial-2026-11-06/live-verification/live-reports.json"
+  },
+  "programme_credit": 1,
+  "programme_completed": 138,
+  "source_limits": [
+    "Separate AI review, not human culinary validation.",
+    "No completion credit before actual reviewed receipt.",
+    "Article112/112 and all-reviewed114/114 require exact conditional replacements and short titles.",
+    "No source-image reuse or assumption of open recipe licences.",
+    "Article112/112; all reviewed surfaces114/114, including everyday compact titles. No new Panda/Gapu derivation.",
+    "Actual receipt integration and remote verification remain separate gates."
+  ],
+  "source_ids": [
+    "food-tala-delite2015",
+    "food-tala-oriyarasoi2016"
+  ],
+  "source_budget": {
+    "article": [
+      112,
+      112
+    ],
+    "all_reviewed": [
+      114,
+      114
+    ]
+  },
+  "receipt_only_deployment": "No additional deployment needed for later receipt-only metadata; original actual publication remains release evidence.",
+  "receipt_prepared_at": "2026-11-06T12:48:18.741895+00:00",
+  "review": "records/tala-pitha-delivery-review-2026-11-06.json",
+  "required_checks": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42213867390",
+    "qualification": "gh pr checks --required reported no required checks; actual validate check succeeded."
+  },
+  "receipt_integration": {
+    "status": "pending_actual_receipt_merge",
+    "commit": null,
+    "pull_request": null,
+    "remote_verified": false
+  },
+  "integration_input_head": "7c1d0920b7e56655c6ac6ed2dbe5c98ebf50bdb3",
+  "response_differences": {
+    "record_sha256": "62cd56ad52f234d30611d2e082bc7c1b9c8d2fd2806333376ba5ac66e5aaf281",
+    "qualification": "Whole HTML not byte-identical; reviewed shell/analytics and1440 responsivefilename differences retained. No1440image byte parity claimed."
+  }
+}

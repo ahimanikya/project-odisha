@@ -9539,19 +9539,22 @@
       "id": "POD-WORK-327",
       "title": "Ou khatta: cooking the fruit, comparing two versions and remembering one family meal",
       "category": "website_and_knowledge",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Complete exact-head release gates and reviewed publication receipt for POD-EDIT-112; retain finite ownership until receipt merge and remote verification.",
+      "next_action": "Retain Disha finite receipt integration until reviewed receipt merge, required checks and remote verification; no duplicate substantive credit.",
       "blockers": [],
       "refs": [
         "POD-DEC-225"
       ],
       "evidence": [
-        "records/ou-khatta-editorial-2026-11-04.json"
-      ]
+        "records/ou-khatta-editorial-2026-11-04.json",
+        "records/ou-khatta-editorial-publication-2026-11-05.json",
+        "records/ou-khatta-delivery-review-2026-11-05.json"
+      ],
+      "completed_at": "2026-11-04T22:11:36.477Z"
     },
     {
       "id": "POD-WORK-2026110501",
@@ -9572,6 +9575,49 @@
         "records/dongria-publication-20261105.json"
       ],
       "completed_at": "2026-11-04T23:46:12.639579+00:00"
+    },
+    {
+      "id": "POD-WORK-328",
+      "title": "Badi chura: dried badi, preparation choices and a named meal",
+      "category": "website_and_knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
+      "authorization": "POD-DEC-225",
+      "next_action": "Retain Disha finite receipt integration until reviewed receipt merge, required checks and remote verification; no duplicate substantive credit.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/badi-chura-editorial-2026-11-05.json",
+        "records/badi-chura-editorial-publication-2026-11-05.json",
+        "records/badi-chura-delivery-review-2026-11-05.json"
+      ],
+      "completed_at": "2026-11-05T16:10:46.992Z"
+    },
+    {
+      "id": "POD-WORK-329",
+      "title": "Tala pitha: attributed baked and fried preparations",
+      "category": "website_and_knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
+      "authorization": "POD-DEC-225",
+      "next_action": "Retain finite receipt ownership until actual reviewed receipt merge and remote verification; no duplicate substantive credit.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/tala-pitha-editorial-2026-11-06.json",
+        "records/evidence/tala-pitha-editorial-2026-11-06/local-implementation/source-manifest.json",
+        "records/tala-pitha-editorial-publication-2026-11-06.json",
+        "records/tala-pitha-delivery-review-2026-11-06.json"
+      ],
+      "completed_at": "2026-11-06T12:33:23.766Z"
     }
   ],
   "decisions": [
@@ -23292,6 +23338,75 @@
         "Source access and rights limitations preserved; no audio/PDF interior or corpus-completeness claim.",
         "Receipt integration retains finite ownership until receipt checks, merge and remote verification."
       ]
+    },
+    {
+      "id": "POD-REV-2026110501",
+      "title": "Ou khatta separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "reviewed_head": "177cf4ca65e9ca2216996a745687b3c702b81cbd",
+      "refs": [
+        "POD-WORK-327"
+      ],
+      "evidence": [
+        "records/ou-khatta-delivery-review-2026-11-05.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human culinary or community review.",
+        "One cook two recipes; memoir one family; no nutrition/origin/current prevalence claims; older university geography unresolved."
+      ]
+    },
+    {
+      "id": "POD-REV-2026110502",
+      "title": "Badi chura separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "reviewed_head": "e7e2e19e3be3ddeee69a3762e1c925027bb6abf1",
+      "refs": [
+        "POD-WORK-328"
+      ],
+      "evidence": [
+        "records/badi-chura-delivery-review-2026-11-05.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human culinary or community review.",
+        "One preparation author and one contributor meal account; no human culinary/field review.",
+        "Budget validity requires replacing old same-route factual summaries; no expanded duplicate KB narrative.",
+        "No completion or substantive programme credit at registration."
+      ]
+    },
+    {
+      "id": "POD-REV-2026110601",
+      "title": "Tala pitha separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "reviewed_head": "7c1d0920b7e56655c6ac6ed2dbe5c98ebf50bdb3",
+      "refs": [
+        "POD-WORK-329"
+      ],
+      "evidence": [
+        "records/tala-pitha-delivery-review-2026-11-06.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human culinary validation.",
+        "No completion credit before actual reviewed receipt.",
+        "Article112/112 and all-reviewed114/114 require exact conditional replacements and short titles.",
+        "No source-image reuse or assumption of open recipe licences.",
+        "Article112/112; all reviewed surfaces114/114, including everyday compact titles. No new Panda/Gapu derivation.",
+        "Actual receipt integration and remote verification remain separate gates."
+      ]
     }
   ],
   "releases": [
@@ -27230,6 +27345,54 @@
         "records/odia-literature-preservation-editorial-publication-2026-11-04.json"
       ],
       "note": "Publication verified; finite receipt integration not yet released."
+    },
+    {
+      "id": "POD-REL-2026110501",
+      "title": "Ou khatta: cooking the fruit, comparing two versions and remembering one family meal",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/ou-khatta/",
+      "refs": [
+        "POD-WORK-327",
+        "POD-REV-2026110501",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/ou-khatta-editorial-publication-2026-11-05.json"
+      ],
+      "note": "Publication and live verification complete; finite receipt integration remains pending."
+    },
+    {
+      "id": "POD-REL-2026110502",
+      "title": "Badi chura: dried badi, preparation choices and a named meal",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/badi-chura/",
+      "refs": [
+        "POD-WORK-328",
+        "POD-REV-2026110502",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/badi-chura-editorial-publication-2026-11-05.json"
+      ],
+      "note": "Publication and live verification complete; finite receipt integration remains pending."
+    },
+    {
+      "id": "POD-REL-2026110601",
+      "title": "Tala pitha: attributed baked and fried preparations",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/tala-pitha/",
+      "refs": [
+        "POD-WORK-329",
+        "POD-REV-2026110601",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/tala-pitha-editorial-publication-2026-11-06.json"
+      ],
+      "note": "Finite receipt integration remains pending."
     }
   ],
   "sources": [

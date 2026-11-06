@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-04T15:27:05.880085+00:00",
+  "updated_at": "2026-11-06T12:48:18.741895+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -2855,47 +2855,102 @@
       "id": "POD-EDIT-112",
       "route": "/food/ou-khatta/",
       "title": "Ou khatta",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "substantive_editorial_revision",
       "source_template": "kb/research/food/collection.json#pages/ou-khatta",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing licensed photograph and credit preserved; actual live image review bound separately. No new imagery.",
+        "delivery_receipt": "records/ou-khatta-editorial-publication-2026-11-05.json",
+        "separate_review": "records/ou-khatta-delivery-review-2026-11-05.json"
+      },
       "evidence": [
-        "records/ou-khatta-editorial-2026-11-04.json"
+        "records/ou-khatta-editorial-2026-11-04.json",
+        "records/ou-khatta-editorial-publication-2026-11-05.json",
+        "records/ou-khatta-delivery-review-2026-11-05.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "completed_at": "2026-11-04T22:11:36.477Z",
+      "publication_receipt": "records/ou-khatta-editorial-publication-2026-11-05.json"
     },
     {
       "id": "POD-EDIT-113",
       "route": "/food/badi-chura/",
       "title": "Badi chura",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Publish a substantive source-supported Badi chura revision at /food/badi-chura/: exact reviewed lead, five paragraphs, two headings and two numbered notes with Founder byline. Explain dried badi, frying/dry-roasting, coarse preparation and one named meal account without universal origin, storage, health or tested-recipe claims. Preserve photo licence/credit, food:badi-chura Save ID, two source IDs and four reading links. Replace old same-route collection/KB summaries, maintain aggregate source budgets198/168 and short portable titles. Require exact KB/site/portable parity, full/coast/publication gates, responsive browser/download review, independent integrated/exact-head review, requiredCI success, reviewed merge and approved successful deployment, actual live checks and separate reviewed receipt before completion.",
+      "source_template": "projects/site/src/pages/food/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing licensed photograph and credit preserved; actual live image review bound separately. No new imagery.",
+        "delivery_receipt": "records/badi-chura-editorial-publication-2026-11-05.json",
+        "separate_review": "records/badi-chura-delivery-review-2026-11-05.json"
+      },
+      "evidence": [
+        "records/badi-chura-editorial-2026-11-05.json",
+        "records/badi-chura-editorial-publication-2026-11-05.json",
+        "records/badi-chura-delivery-review-2026-11-05.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-05T07:56:14.056458+00:00",
+      "completed_at": "2026-11-05T16:10:46.992Z",
+      "publication_receipt": "records/badi-chura-editorial-publication-2026-11-05.json"
     },
     {
       "id": "POD-EDIT-114",
       "route": "/food/tala-pitha/",
       "title": "Tala pitha",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Publish the reviewed substantive Tala pitha preparation contrast at /food/tala-pitha/: exact two attributed paragraphs, lead, By Ahimanikya Satapathy and two native numbered notes. Preserve separate baked/fried sequences, unspecified Delite maturity/temperature scale, no tested recipe or statewide/season/storage/health claims. Replace old same-route summaries;112 words per new source across article surfaces;114 across all reviewed surfaces, including two additional compact-title words from everyday website and portable references, short source titles, no additional Panda/Gapu derivation. Preserve photo licence/credit without attributing it to either recipe, food:tala-pitha SaveID, three reading links, unrelated Talagaja and source records. Require exact KB/site/portable parity, complete gates, responsive browser/download and separate integrated/exact-head review, CI success, reviewed merge, successful authorized deployment, actual live verification and separately reviewed receipt before any completion credit.",
+      "source_template": "projects/site/src/pages/food/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing Commons photograph preserved, not claimed as either recipe author’s pictured dish.",
+        "delivery_receipt": "records/tala-pitha-editorial-publication-2026-11-06.json",
+        "separate_review": "records/tala-pitha-delivery-review-2026-11-06.json"
+      },
+      "evidence": [
+        "records/tala-pitha-editorial-2026-11-06.json",
+        "records/evidence/tala-pitha-editorial-2026-11-06/local-implementation/source-manifest.json",
+        "records/tala-pitha-editorial-publication-2026-11-06.json",
+        "records/tala-pitha-delivery-review-2026-11-06.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-06T07:23:02.231087+00:00",
+      "completed_at": "2026-11-06T12:33:23.766Z",
+      "publication_receipt": "records/tala-pitha-editorial-publication-2026-11-06.json"
     },
     {
       "id": "POD-EDIT-115",
       "route": "/food/fire-cooking/",
       "title": "Odisha cooks with fire",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": "projects/site/src/pages/food/fire-cooking.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/fire-cooking-utility-review-2026-11-06.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected authored food collection/navigation page, outside sustained standalone-article rollout. Preserve public framing, three linked preparation chapters, two onward dish stories, photographs, credits, sources, saved identities and navigation; no cultural-absence or child-story completion inference."
     },
     {
       "id": "POD-EDIT-116",
