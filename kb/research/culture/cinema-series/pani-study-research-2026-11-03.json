@@ -1,0 +1,77 @@
+{
+  "id": "POD-CINEMA-PANI-STUDY-SOURCES-20261103",
+  "date": "2026-11-03",
+  "status": "access_gap_no_public_revision",
+  "purpose": "Find the original title and imprint of the literary/cultural cinema study; bounded search using retained author/title anchors.",
+  "fresh_sources": [
+    {
+      "url": "https://www.mycitylinks.in/odia-classic-rakta-golapa-screened-at-fjf/",
+      "inspection": "Fresh browser page read, including visible byline, date and book-release paragraph; web extraction mainly returned navigation.",
+      "locator": "Jyoti Prakash Sahoo,1May2019; paragraph following cast/crew discussion",
+      "supports": "Reports a Pani book launch alongside screening; separately identifies a film booklet. The two objects are not interchangeable.",
+      "limitations": "Inline images broken/placeholder in current rendering; no legible cover,title or imprint. Report date does not establish first-edition publication date."
+    },
+    {
+      "url": "https://www.ciil.org/download/Minutesof32ndGIACmeeting.pdf",
+      "inspection": "Fresh direct extracted PDF text; screenshot cache miss",
+      "locator": "PDF44/zeroindex43,serial262,lines2429–2443;32ndGIAC22–23January2018",
+      "supports": "Dr.Dillip Kumar Pani, title with Mulyavana variant, publication-assistance proposal record.",
+      "limitations": "No original book pages, publisher or ISBN. Proposal and tabulated amounts are not disbursal evidence or proof of an edition; preserve author/title variants."
+    }
+  ],
+  "search_routes": [
+    {
+      "kind": "Exact title/author bookseller and institutional discovery",
+      "queries": [
+        "\"Dillip Kumar Pani\" cinema book",
+        "\"Dilip Pani\" \"Sahitika\"",
+        "\"ଓଡ଼ିଆ ଚଳଚ୍ଚିତ୍ର\" \"ମୂଲ୍ୟାୟନ\"",
+        "\"Pani\" \"Sanskrutika\" cinema",
+        "\"ଦିଲ୍ଲୀପ\" \"ପାଣି\" \"ଚଳଚ୍ଚିତ୍ର\" ପୁସ୍ତକ",
+        "\"Dilip Pani\" \"book\"",
+        "\"Dillip Kumar Pani\" \"Biju\"",
+        "\"Pani\" \"Mulyayana\" book",
+        "\"Pani\" \"Sahityika\" cinema",
+        "\"Dillip\" \"Pani\" site:bpftio.org",
+        "\"Dilip\" \"Pani\" site:odiabook.in"
+      ],
+      "result": "Retained grant and launch recur; other results unrelated. No original title/imprint or matching publisher listing found; this is a bounded retrieval result, not proof none exists."
+    },
+    {
+      "kind": "Library/catalogue/preview",
+      "receipt": "outputs/pani-cinema-study-20261103/research.json",
+      "result": "Separate exact-author/title routes found no accessible original book pages."
+    },
+    {
+      "kind": "Repository and Odia-title indexed discovery",
+      "queries": [
+        "\"Pani\" \"cinema\" site:shodhganga.inflibnet.ac.in",
+        "\"ଚଳଚ୍ଚିତ୍ରର\" \"ସାହିତ୍ୟିକ\" \"ପାଣି\"",
+        "\"Odia Chalachitrara\" \"Pani\""
+      ],
+      "result": "No title-specific original book or matching thesis found. Indexed search only, not an exhaustive internal repository search; unrelated magazine and literary results excluded."
+    }
+  ],
+  "reused_evidence": "Both grant and launch were known before this cycle; refreshed access is not a new historical discovery.",
+  "confirmed_new_book_facts": [],
+  "original_book_pages_read": false,
+  "public_article_changed": false,
+  "book_editions_changed": false,
+  "reason_no_public_revision": "Existing guide already states reported launch and unsettled title/imprint. Adding search narration or treating a proposal as publication would not improve the reader’s story.",
+  "do_not_infer": [
+    "Grant paid or print run produced",
+    "First edition2018or2019",
+    "Publisher/ISBN from proposal applicant address",
+    "Contents from title or launch",
+    "Same-name finance/administration people are the cinema author"
+  ],
+  "stop_condition": "Distinct title/author, institutional/catalogue and launch-image routes checked. Park original-copy access; resume only with precise book scan,holding,or publisher source.",
+  "title": "Pani’s cinema study: the book behind the launch report",
+  "handoff": "records/cinema-pani-study-research-2026-11-03.json",
+  "evidence": [
+    "outputs/pani-cinema-study-20261103/research.json",
+    "outputs/pani-cinema-study-20261103/coverage.json",
+    "outputs/pani-cinema-study-20261103/coordinator-research.json"
+  ],
+  "next_action": "Seek Kartik Kumar Ghosh’s original Oriya Chalachitrara Itihas title/imprint, anchored by Fakir Mohan University accession1478. Resolve retained1984/1989 and imprint variants using a precise original copy; do not count existing bibliography as new reading."
+}

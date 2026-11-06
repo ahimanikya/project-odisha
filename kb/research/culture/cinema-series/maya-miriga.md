@@ -3,11 +3,11 @@ type: "Cinema History"
 title: "ମାୟା ମିରିଗ (Maya Miriga): a family, a fragile film, a second life"
 description: "Nirad Mohapatra’s family drama travelled through festivals, nearly disappeared, and returned through restoration."
 status: "draft"
-research_date: "2026-10-25"
+research_date: "2026-11-02"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-sources: [{"id": "cinema-maya-miriga-moma", "title": "Māyā Miriga", "resource": "https://www.moma.org/calendar/events/10180"}, {"id": "cinema-maya-cannes", "title": "Maya Miriga, 1984", "resource": "https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga"}, {"id": "cinema-maya-mannheim", "title": "1984 archive", "resource": "https://www.iffmh.de/festival/history/1984/index_eng.html"}, {"id": "cinema-maya-national", "title": "31st National Film Awards catalogue", "resource": "https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf"}, {"id": "cinema-restoration", "title": "Māyā Miriga, 2024 programme", "resource": "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/"}, {"id": "cinema-maya-alanen2024", "title": "Māyā Miriga / The Mirage — restoration screening diary", "resource": "https://anttialanenfilmdiary.blogspot.com/2024/06/maya-miriga-mirage-2024-restoration.html"}, {"id": "watch-57967dbad4", "title": "Maya Miriga at Film Heritage Foundation", "resource": "https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/", "kind": "Restoration clip and information", "checked": "2026-11-01", "playback_verified": true, "playback_scope": "Bounded inspection of the embedded restoration-comparison clip; not the full film"}]
-hero_image: "../../media/cinema-series/maya-miriga-title.png"
+sources: [{"id": "cinema-maya-miriga-moma", "title": "Māyā Miriga", "resource": "https://www.moma.org/calendar/events/10180"}, {"id": "cinema-maya-cannes", "title": "Maya Miriga, 1984", "resource": "https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga"}, {"id": "cinema-maya-mannheim", "title": "1984 archive", "resource": "https://www.iffmh.de/festival/history/1984/index_eng.html"}, {"id": "cinema-maya-national", "title": "31st National Film Awards catalogue", "resource": "https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf"}, {"id": "cinema-restoration", "title": "Māyā Miriga, 2024 programme", "resource": "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/"}, {"id": "cinema-maya-alanen2024", "title": "Māyā Miriga / The Mirage — restoration screening diary", "resource": "https://anttialanenfilmdiary.blogspot.com/2024/06/maya-miriga-mirage-2024-restoration.html"}, {"id": "watch-57967dbad4", "title": "Maya Miriga at Film Heritage Foundation", "resource": "https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/", "kind": "Restoration clip and information", "checked": "2026-11-01", "playback_verified": true, "playback_scope": "Bounded inspection of the embedded restoration-comparison clip; not the full film"}, {"id": "maya-scroll2024", "title": "Nandini Ramnath, Maya Miriga restoration, Scroll, 27 May 2024", "resource": "https://scroll.in/reel/1068267/the-miraculous-resurrection-of-nirad-mohapatras-odia-classic-maya-miriga"}, {"id": "maya-mami2024", "title": "MAMI, Maya Miriga, 2024 restored-film programme", "resource": "https://mami.mumbaifilmfestival.com/detail/?UID=c9f08fbf-12e2-4eed-8da3-fbe53881e86d"}]
+hero_image: "../../media/cinema-series/photographs-2026-11-05/maya-miriga-maya-family-still-20261105.jpg"
 series_intro: "Stay with family life, then follow the work that allows a film to survive."
 series_position: 6
 series_part: "Films and Filmmakers"
@@ -27,11 +27,13 @@ Nirad Mohapatra’s 1984 film follows an extended middle-class family in a small
 
 Mohapatra’s own note, reproduced in the Bologna programme, describes married sons balancing competing responsibilities and daughters-in-law seeking freedom within the household. His interest held affection and frustration together: family could offer warmth while also constraining the people who lived within it.[^bologna]
 
-The household was shaped by several kinds of work. The Bologna programme credits **Nirad Mohapatra and Bibhuti Patnaik** with the story, **Rajgopal Mishra** with cinematography and **Bibekananda Satpathy** with editing.[^bologna]
+The household was shaped by several kinds of work. The Bologna programme credits **Nirad Mohapatra and [Bibhuti Patnaik](/people/bibhuti-pattanaik/)** with the story, **Rajgopal Mishra** with cinematography and **Bibekananda Satpathy** with editing.[^bologna]
 
 ## A house made ready for a family
 
 Mohapatra recalled arriving in Puri months in advance with a small crew and nonprofessional performers. They prepared an abandoned house and its courtyard as the film’s only set. In his director’s note, he described improvising within a written story.[^making-house] The household on screen had required another kind of shared work before filming: making a place ready for it.
+
+MAMI’s restored-film programme names Ramakanta Mohanty and Bijay K. Mahapatra as production designers.[^production-design]
 
 ## Different doors into the world
 
@@ -47,11 +49,13 @@ The restored version was assembled from a 16mm original camera negative and a 35
 
 Bologna’s programme also credits the director’s family, Digital Film Restore for digital restoration, and Prasad Corporation for scanning.[^bologna]
 
+The family’s contribution included detailed work on the film itself. Sandeep Mohapatra told Scroll that he supplied his father’s shooting script and taught himself to work on the new subtitles in his spare time. He consulted his mother and siblings; an unnamed friend from the National Institute of Design helped recreate damaged credits.[^family-work]
+
 The restoration was screened at Il Cinema Ritrovato in Bologna on 27 June 2024.[^bologna]
 
 ## A new encounter with the family
 
-Prabha, the eldest son Tuku’s wife, is played by Manaswini Mangaraj.[^bologna][^alanen]
+Prabha, the eldest son Tuku’s wife, is played by Manaswini Mangaraj.[^bologna]
 
 Writing after that screening, film historian Antti Alanen placed her at the film’s emotional centre and traced the family’s tensions through gender and generation. He admired its atmosphere and music, while also finding moments when it lacked intensity.[^alanen]
 
@@ -74,6 +78,10 @@ An older man sits towards the front of a long-backed chair, leaning forward, his
 [^comparison-frame]: Film Heritage Foundation, [Māyā Miriga restoration comparison](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/), embedded before-and-after clip, 01:05.
 
 [^making-house]: Nirad Mohapatra, director’s note reproduced by [Film Heritage Foundation](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/), first paragraph.
+
+[^family-work]: Nandini Ramnath, [Scroll, 27 May 2024](https://scroll.in/reel/1068267/the-miraculous-resurrection-of-nirad-mohapatras-odia-classic-maya-miriga), Sandeep Mohapatra’s account.
+
+[^production-design]: MAMI, [Maya Miriga, 2024 restored-film programme](https://mami.mumbaifilmfestival.com/detail/?UID=c9f08fbf-12e2-4eed-8da3-fbe53881e86d), production-design credits.
 
 ## Further reading
 

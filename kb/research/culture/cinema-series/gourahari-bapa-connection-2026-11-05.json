@@ -1,0 +1,233 @@
+{
+  "id": "POD-RES-CINEMA-GOURAHARI-BAPA-CONNECTION-20261105",
+  "date": "2026-11-05",
+  "title": "Gourahari Das and Bapa: connecting the writer and film accounts",
+  "status": "reviewed_local_revision",
+  "handoff": "records/cinema-gourahari-bapa-connection-2026-11-05.json",
+  "research": {
+    "date": "2026-11-05",
+    "status": "bounded_research_complete",
+    "scope_released": true,
+    "reuse": [
+      "outputs/pratikshya-title-choice-20261105/research.json",
+      "outputs/literary-thread-review-20261105/pratikshya-title-lead.json",
+      "kb/research/people/gourahari-das.md",
+      "kb/records/cinema-expansion-work-list-2026-10-31.json"
+    ],
+    "profile_recommendation": {
+      "placement": "One journey from fiction to cinema",
+      "wording": "Ashok Palit’s interview with Anupam Patnaik identifies the story as Bapa; the Pratikshya chapter follows the director’s explanation of the film’s title.",
+      "note": "Ashok Palit, interview with Anupam Patnaik, The Pioneer, 14 December 2022, p.2.",
+      "source_url": "https://www.dailypioneer.com/uploads/2022/epaper/december/bhubaneswar-english-edition-2022-12-14.pdf",
+      "boundary": "Interviewer identification in indexed original-PDF text, not inspection of the original story. Preserve existing wider literary profile and do not repeat title anecdote."
+    },
+    "publisher_route": {
+      "discovery": "Publisher-specific queries identified PEN IN BOOKS as Odia Media Private Limited’s imprint and an official Jaipur BookMark2026 rights catalogue. This is a concrete new institutional source route, not proof of the Bapa collection.",
+      "sources": [
+        {
+          "url": "https://jaipurbookmark.org/pdf/JBM-rights-catalogue-2026.pdf",
+          "inspection": "INITIAL WEB ATTEMPT (historical; superseded by catalogue_followthrough): search-index excerpt identified Pen In Books as an imprint of Odia Media Private Limited from2017. Direct web fetch rejected file size12560352bytes, so no original catalogue pages had been inspected at that stage. Subsequent successful download and visual inspection of PDF45–48 are recorded in catalogue_followthrough.",
+          "limits": "No Bapa title/ISBN/contents established."
+        },
+        {
+          "url": "https://www.peninbooks.com/",
+          "inspection": "Direct publisher homepage open returned not accessible via this tool.",
+          "limits": "No catalogue or book record read."
+        },
+        {
+          "url": "https://www.bookswagon.ae/books-by-author/gourahari-das",
+          "inspection": "Search output again exposed the previously known retailer listing: Bapa O Anyanya Galpa, Gourahari Das, Odia Media Private Limited,5February2023. No direct retailer retry.",
+          "limits": "Prior discovery lead, not an independently verified edition or ISBN; no original contents or imprint."
+        }
+      ],
+      "queries": [
+        "\"Odia Media\" \"Bapa\" \"Gourahari\" publisher",
+        "\"Odia Media\" publisher books official Bapa",
+        "\"Bapa O Anyanya Galpa\" ISBN -site:bookswagon.com -site:bookswagon.ae",
+        "site:jaipurbookmark.org/pdf/JBM-rights-catalogue-2026.pdf \"Bapa\"",
+        "site:peninbooks.com \"Bapa\""
+      ],
+      "last_two_results": "No search results returned; this is not evidence the book is absent.",
+      "outcome": "No verified ISBN, original edition, contents page or original story recovered. Park collection claims."
+    },
+    "next_open_item": {
+      "queue_pointer": "kb/records/cinema-expansion-work-list-2026-10-31.json next_action: original Bapa text/edition only through a concrete new publisher/library route.",
+      "specific_new_source": "https://jaipurbookmark.org/pdf/JBM-rights-catalogue-2026.pdf",
+      "bounded_action": "Completed in catalogue_followthrough. No further action on this catalogue for Bapa; wait for a genuinely new identified title-specific imprint/contents or authorized story source.",
+      "reason": "The new original publisher section has now been inspected and does not resolve the title-specific gap.",
+      "not_a_public_addition": "No Bapa metadata or unrelated publisher promotional facts adopted."
+    },
+    "budget": {
+      "new_publisher_derived_public_words": 0,
+      "pioneer": "Count the short proposed source-title sentence and note with the existing Pratikshya title paragraph under the same200-word ceiling; no independent allowance for reprints.",
+      "quotes_proposed": 0
+    },
+    "limits": [
+      "No original-book reading or film/source fidelity claim.",
+      "No purchase, contact, login or public/shared edits.",
+      "Author website route belongs to coordinator and was not duplicated.",
+      "No failed Pioneer PDF/screenshot or BooksWagon cachemiss paths repeated."
+    ],
+    "catalogue_followthrough": {
+      "url": "https://jaipurbookmark.org/pdf/JBM-rights-catalogue-2026.pdf",
+      "download": "Successful ordinary public curl download after authorized scope extension; prior web-size failure remains historical.",
+      "bytes": 12560352,
+      "sha256": "dff2202de7100638c0c64f6496f798d9dd74cc8cd956fe0f323991c71c7f0702",
+      "pages": 102,
+      "extraction": "All102pages extracted using pypdf; searched Bapa/Gourahari/Pen In Books. No Bapa or Gourahari text hits.",
+      "visual_inspection": [
+        {
+          "pdf_page": 45,
+          "finding": "Publisher introduction identifies Pen In Books as Odia Media Private Limited imprint."
+        },
+        {
+          "pdf_page": 46,
+          "finding": "Itara cover and catalogue fields, author Subhransu Panda."
+        },
+        {
+          "pdf_page": 47,
+          "finding": "Itara synopsis/author biography, not Bapa or Gourahari."
+        },
+        {
+          "pdf_page": 48,
+          "finding": "Next publisher Penguin Random House begins; closes inspected Pen In Books section."
+        }
+      ],
+      "renders": "catalogue-pages/page-045.png through page-048.png",
+      "limits": "This selected rights catalogue is not the complete publisher backlist. No Bapa edition, ISBN, contents or original story established. Promotional first/leading claims about unrelated works not adopted. Whole catalogue not visually read.",
+      "decision": "Concrete route completed; park Bapa bibliographic gap. Do not continue into unrelated Itara research."
+    }
+  },
+  "author_site_research": {
+    "method": "One domain search, author homepage, both Story Books category pages and linked e-book page inspected through web text. No requests to guessed source files.",
+    "queries": [
+      "site:gouraharidas.com \"Bapa\"",
+      "site:gouraharidas.com books short stories"
+    ],
+    "sources": [
+      {
+        "url": "https://gouraharidas.com/",
+        "result": "Book category and e-book navigation identified; mixed template material excluded."
+      },
+      {
+        "url": "https://gouraharidas.com/category/books-written-by-gourahari-das/short-story/",
+        "result": "First of two listed category pages; no Bapa title in inspected entries. Not proof of absence from author oeuvre."
+      },
+      {
+        "url": "https://gouraharidas.com/category/books-written-by-gourahari-das/short-story/page/2/",
+        "result": "Final category page inspected; five older titles, no Bapa listing. Catalogue not assumed complete/current."
+      },
+      {
+        "url": "https://gouraharidas.com/2022/03/10/%E0%AC%87-%E0%AC%AC%E0%AD%81%E0%AC%95%E0%AD%8D%E0%AC%B8/",
+        "result": "Extracted page contains three dflip shortcodes without accessible book names or file targets; no original story read."
+      },
+      {
+        "url": "https://gouraharidas.com/2019/09/23/paunsara-pandulipi/",
+        "result": "Linked collection detail failed to fetch; not retried. Category text advertises an e-book but no contents or Bapa identification inspected."
+      }
+    ],
+    "conclusion": "No original Bapa text or identifiable edition established; stop this route. Do not infer absence or first-publication date."
+  },
+  "source_distinctions": [
+    "Published interview identification is not an original-story title page.",
+    "Retailer catalogue lead is not a verified original edition.",
+    "A selected rights catalogue is not a complete publisher backlist.",
+    "No recovered text means no story-to-film comparison or payment inference."
+  ],
+  "public_revision": {
+    "source": "kb/research/people/gourahari-das.md",
+    "sha256": "9e869393af6625674a89c5e30f1b17cff0a8475608020bcc4b420d05561f6977",
+    "changes": [
+      "Replace the source-specific unidentified-title sentence with an attributed Bapa identification.",
+      "Remove the obsolete nevertheless contrast.",
+      "Add one compact newspaper note and matching source metadata."
+    ],
+    "source_budget": {
+      "method": "Whitespace count of visible candidate sentence and compact note; no URLs/frontmatter.",
+      "candidate_body_words": 11,
+      "candidate_note_words": 13,
+      "existing_same_interview_pratikshya_words": 50,
+      "prospective_aggregate": 74,
+      "direct_quote_words": 0,
+      "limit": 200
+    },
+    "preservation": "Only assessed sentence replacement, nevertheless removal, note/source metadata and targeted date changed. All other prose/notes/images retained."
+  },
+  "evidence": {
+    "outputs/gourahari-bapa-connection-20261105/research.json": "04129ff29cf2f1dcea419ac78c2e87ecb155215d9d1dff0a6ff7edd5362b291f",
+    "outputs/gourahari-bapa-connection-20261105/editorial-assessment.json": "cd050c3e0f66ab791af854d2369045cc3c8501af787ada4fb4cd0132fb1c1ca2",
+    "outputs/gourahari-bapa-connection-20261105/implementation.json": "54b45c852f891928178f08de007eb3cf7fc2dc805d700fa9251a83a228274393",
+    "outputs/gourahari-bapa-connection-20261105/quality-review.json": "382033e89666c77f8123aef99db4e7c7a4139db3ba88e34bf4a0761a30ba412f",
+    "outputs/gourahari-bapa-connection-20261105/browser-review.json": "0b69c2cd6c2368158f70a70a47dd0baa74996234f8fbc4bcf706932fdbd42d66",
+    "outputs/gourahari-bapa-connection-20261105/publisher-catalogue.pdf": "dff2202de7100638c0c64f6496f798d9dd74cc8cd956fe0f323991c71c7f0702"
+  },
+  "pdf_editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-05-gourahari-bapa-connection.pdf",
+      "sha256": "fb8f82d906353e8a2ce35465979795b283fcf5319520077cd241c9ef58126b6a",
+      "pages": 258,
+      "prior_pages": 258,
+      "receipt": "tmp/pdfs/2026-11-05-gourahari-bapa-connection/digital/book-build-2026-11-05-gourahari-bapa-connection.json",
+      "receipt_sha256": "e24ccb048057078020c07205ceea394ca6cdb6d35351d03a8dd6da69f1483a2c",
+      "notes": 482,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [
+        "gourahari-das"
+      ],
+      "page_map_changes": {},
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_internal_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-05-gourahari-bapa-connection/digital/pages",
+      "affected_pages": {
+        "prose": [
+          148
+        ],
+        "note": [
+          250
+        ]
+      },
+      "prior_pdf_unchanged": true
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-gourahari-bapa-connection.pdf",
+      "sha256": "79da76ff02028c3b8fb0b77fcd8fc1bc6aafb1801069899ca31953183c3fc302",
+      "pages": 264,
+      "prior_pages": 264,
+      "receipt": "tmp/pdfs/2026-11-05-gourahari-bapa-connection/print/book-build-2026-11-05-gourahari-bapa-connection.json",
+      "receipt_sha256": "6d985a257ca086ae4455afc2f6256a555dac0c5ab588d5e2b6a44f62d8328bc9",
+      "notes": 482,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [
+        "gourahari-das"
+      ],
+      "page_map_changes": {},
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_internal_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-05-gourahari-bapa-connection/print/pages",
+      "affected_pages": {
+        "prose": [
+          148
+        ],
+        "note": [
+          252
+        ]
+      },
+      "prior_pdf_unchanged": true
+    }
+  },
+  "next_action": "Prepare a consolidated review package for the accumulated unpublished cinema revisions, starting from the current digital and print books and source-bound article changes. Identify any unresolved material discrepancy before proposing further prose; do not restart completed original-source reading or repeat exhausted searches. The Bapa story text and exact edition remain parked pending a genuinely new title-specific imprint, contents page, library record or authorized text. The inspected Jaipur BookMark 2026 catalogue and author-site category/e-book routes do not resolve that gap; no further generic title-query variants. Keep payment, periodical, studio-access and silent-frame comparison limitations explicit in internal records. Publication remains separate.",
+  "publication_performed": false,
+  "human_approval_claimed": false
+}

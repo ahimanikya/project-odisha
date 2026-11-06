@@ -62,7 +62,9 @@ test('reviewed Odia titles retain language while cinema links escape content and
  assert.ok(!cinemaLinkTitle('<img src=x onerror=alert(1)>').includes('<img'));
 });
 test('only Uttam’s reviewed imagined scene receives a preview label; documentary photographs remain unlabelled',()=>{
- assert.deepEqual(cinema.articles.filter(a=>cinemaPreviewNote(a)).map(a=>[a.slug,cinemaPreviewNote(a)]),[['uttam-mohanty','Imagined rehearsal']]);
+ assert.deepEqual(cinema.articles.filter(a=>cinemaPreviewNote(a)).map(a=>[a.slug,cinemaPreviewNote(a)]),[]);
+ assert.equal(cinemaPreviewNote({slug:'uttam-mohanty',hero:{kind:'illustration'}}),'Imagined rehearsal');
+ assert.equal(cinemaPreviewNote({slug:'uttam-mohanty',hero:{kind:'documentary'}}),undefined);
  for(const entry of cinema.articles.filter(a=>a.hero.kind==='documentary'))assert.equal(cinemaPreviewNote(entry),undefined,entry.slug+' is a photograph');
  const overview=cinemaArticle(cinema.articles.find(a=>a.slug==='odia-cinema'));
  for(const slug of ['uttam-mohanty','aparajita-mohanty']){
@@ -91,7 +93,7 @@ test('migrated portrait cards use the selected documentary hero rather than reti
  const chosen={
   'kanhu-charan-mohanty':'/assets/cinema/kanhu-charan-mohanty-portrait-1080w.jpg',
   'gopal-chhotray':'/assets/cinema/gopal-chhotray-portrait-200w.jpg',
-  'manmohan-mahapatra':'/assets/cinema/manmohan-mahapatra-portrait-235w.jpg',
+  'manmohan-mahapatra':'/assets/cinema/manmohan-mahapatra-manmohan-indianexpress-20261105-1200w.jpg',
   'debi-prasad-lenka':'/assets/cinema/debi-prasad-lenka-award-564w.jpg',
   'deependra-samal':'/assets/cinema/deependra-samal-award-695w.jpg',
  };

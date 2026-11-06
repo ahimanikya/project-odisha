@@ -1,0 +1,139 @@
+{
+  "id": "POD-CINEMA-PORTRAIT-REFRESH-20261105",
+  "date": "2026-11-05",
+  "authorization": "Founder requests a younger photograph of Uttam Mohanty and a better image of Aparajita Mohanty. Existing authorization accepts online editorial photographs with source credit and truthful rights records.",
+  "status": "reviewed_local_revision",
+  "active_article": null,
+  "sequence": [
+    "aparajita-mohanty",
+    "uttam-mohanty"
+  ],
+  "previous_handoff": "records/cinema-learning-workshops-2026-11-05.json",
+  "scope": "Photograph replacement only; preserve prose, original archives, numeric credits and100%/85% width rules. No publication.",
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/cinema-portrait-refresh-20261105/research.json",
+        "outputs/cinema-portrait-refresh-20261105/candidates/**"
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "completed_scope_released",
+      "scope": [
+        "kb/research/people/uttam-mohanty.md (hero only)",
+        "projects/site/src/data/cinema.json (Uttam entry only)",
+        "kb/research/culture/cinema-series/manifest.json (Uttam entry only)",
+        "kb/research/culture/cinema-series/image-layout-2026-10-30.json (Uttam frame only)",
+        "kb/research/media/cinema-series/portrait-refresh-2026-11-05/uttam-*",
+        "projects/site/public/assets/cinema/uttam-mohanty-younger-set-20261105*",
+        "projects/site/editions/coast.json (exact Uttam asset only)",
+        "outputs/cinema-portrait-refresh-20261105/uttam-*"
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/cinema-portrait-refresh-20261105/review/**"
+      ]
+    }
+  ],
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "scope_released": true,
+  "programme_progress_credit": 0,
+  "aparajita_source_static_review": "outputs/cinema-portrait-refresh-20261105/review/aparajita-quality-review.json",
+  "research": "outputs/cinema-portrait-refresh-20261105/research.json",
+  "selections": {
+    "aparajita": {
+      "source": "https://starclinch.com/aparajita-mohanty",
+      "direct_image": "https://artistsimages.b-cdn.net/aparajita-mohanty/aparajita-mohanty-1.jpg",
+      "reason": "Clear smiling solo portrait replaces group photograph.1024x604 original; sourceprofile explicitly identifiesher. Dateandphotographerunknown.",
+      "root_visual_inspection": true
+    },
+    "uttam": {
+      "source": "https://www.mycitylinks.in/in-memory-uttam-mohanty-the-danda-balunga-of-ollywood-",
+      "reason": "Authentic1600x1071 archival group shows earliercareer and sharedfilmmaking. Selectedwholeframe; notsoloportrait. Publishedfilename givesnamesandfilm; noindividualpositionorexactphotodateinferred.",
+      "root_visual_inspection": true
+    }
+  },
+  "rejected_leads": {
+    "kalingatv_aparajita": "Publicsourcepage read; directimageHTTP403. No bypass.",
+    "orissacinema_aparajita": "Sourcepage timedout; notused.",
+    "young_uttam_solo": "SeeAnveshaevidence. Paintedimageandsmallrecordcoverrejected; originalgalleryinaccessiblewithoutTLSerrorbypass,notattempted."
+  },
+  "quality_review": "outputs/cinema-portrait-refresh-20261105/review/final-quality-review.json",
+  "quality_review_sha256": "ad1c4b5882333f8defa7a2a9d7555eae73433f596c6623a1b7e8acf882df0e30",
+  "reviewer_type": "Separate AI reviewer; no human or specialist approval claimed",
+  "implementations": [
+    "outputs/cinema-portrait-refresh-20261105/aparajita-implementation.json",
+    "outputs/cinema-portrait-refresh-20261105/uttam-implementation.json"
+  ],
+  "checks": {
+    "protected_count": 133,
+    "changed_protected_files": [
+      "kb/research/people/aparajita-mohanty.md",
+      "kb/research/people/uttam-mohanty.md",
+      "projects/site/src/data/cinema.json",
+      "kb/research/culture/cinema-series/manifest.json",
+      "kb/research/culture/cinema-series/image-layout-2026-10-30.json"
+    ],
+    "expected_changes_only": true,
+    "books": {
+      "digital": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-05-portrait-refresh.pdf",
+        "sha256": "8ea4fa305c235c2df7eb0eeb2adbdbb41c2caab4d310a8862553873efda5fe41",
+        "pages": 263,
+        "notes": 518,
+        "chapter_maps_preserved": true,
+        "image_placements": 57,
+        "unrelated_image_differences": [],
+        "cover_preserved": true,
+        "chapter_page_references_stable": true
+      },
+      "print": {
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-portrait-refresh.pdf",
+        "sha256": "1f4af23e17ab2dea278b0b25f5b78d3a02463ba653ce08c1533de7059489ebf7",
+        "pages": 270,
+        "notes": 518,
+        "chapter_maps_preserved": true,
+        "image_placements": 57,
+        "unrelated_image_differences": [],
+        "cover_preserved": true,
+        "chapter_page_references_stable": true
+      }
+    },
+    "browser": {
+      "article_previews": [
+        "http://127.0.0.1:62137/people/uttam-mohanty/",
+        "http://127.0.0.1:62137/people/aparajita-mohanty/"
+      ],
+      "screenshots": [
+        "outputs/cinema-portrait-refresh-20261105/review/uttam-page.png",
+        "outputs/cinema-portrait-refresh-20261105/review/aparajita-page.png",
+        "outputs/cinema-portrait-refresh-20261105/review/cards.png"
+      ],
+      "inspection": "Native browser desktop: images visible, full natural frames, aligned numeric captions, card crops retain subjects. No new mobile audit or interactive footnote test."
+    },
+    "unique_new_originals": true,
+    "both_article_bodies_unchanged": true,
+    "cinema_tests_passed": 49,
+    "cinema_tests_failed": 0,
+    "site_build": "PASS",
+    "disclosure": {
+      "pages": 1081,
+      "violations": 0
+    }
+  },
+  "next_actions": [
+    "Founder may review the two local profile images and updated books. No publication performed.",
+    "A younger solo Uttam portrait remains an optional further improvement; current whole archival group is correctly identified without positional inference. Do not reuse failed source routes without new evidence.",
+    "Resume distinct research from cinema-learning-workshops-2026-11-05.json only on a new research request."
+  ]
+}

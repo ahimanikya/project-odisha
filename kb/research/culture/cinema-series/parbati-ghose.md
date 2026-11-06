@@ -7,7 +7,7 @@ research_date: "2026-10-26"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
 sources: [{"id":"parbati-life","resource":"https://www.gourparbati.com/parbati_ghose.php"}, {"id": "cinema-parbati-film", "title": "Chha Mana Atha Guntha (1986)", "resource": "https://www.gourparbati.com/movie_chha_mana_atha_guntha.php"}, {"id": "cinema-gour-parbati", "title": "Gour–Parbati filmography", "resource": "https://www.gourparbati.com/filmography.php"}, {"id": "cinema-parbati-ghose-awards", "title": "Awards", "resource": "https://www.gourparbati.com/award.php"}, {"id": "cinema-parbati-ghose-novel", "title": "“Teaching about the Colonial India State and Society with Six Acres and a Third”", "resource": "https://www.educationaboutasia.org/article/id/1629/"}, {"id": "watch-0784752a93", "title": "Laxmi", "resource": "https://www.gourparbati.com/movie_laxmi.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-3726ea0671", "title": "Kaa", "resource": "https://www.gourparbati.com/movie_kaa.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-490fd1e306", "title": "Stree", "resource": "https://www.gourparbati.com/movie_stree.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-stree-song", "title": "Stree - Kali Juga song clip", "resource": "https://www.youtube.com/watch?v=OlNg8Y-g3Qk", "kind": "Archive-linked channel song clip", "checked": "2026-10-26", "playback_verified": false}]
-hero_image: "../../media/cinema-series/parbati-ghose-title.png"
+hero_image: "../../media/cinema-series/portraits-2026-11-01/parbati-ghose-odishaplus.jpg"
 series_intro: "Enter the film chapters through the overlapping work of producing, writing and performing."
 series_position: 3
 series_part: "Films and Filmmakers"
@@ -39,9 +39,13 @@ The Gour–Parbati archive records her as co-producer with Gour Prasad Ghose on 
 
 Her producing, directing and writing credits sit alongside the work of these collaborators. [Gour Prasad Ghose’s profile](../../people/gour-prasad-ghose.md) follows his theatre and production career, while the [shared archive](https://www.gourparbati.com/) lets readers explore both lives.
 
+![Gour and Parbati Ghose seated together outdoors in an archival film photograph.](../../media/cinema-series/photographs-2026-11-05/parbati-ghose-gour-parbati-maa-20261105.jpg)
+
+*Gour and Parbati Ghose, from the archive’s Maa gallery. Photo: [via Gour–Parbati archive, Maa gallery](https://www.gourparbati.com/gallery.php).*
+
 ## Land, power and a literary inheritance
 
-The novel at the centre of Parbati’s adaptation concerns Mangaraj, a moneylender who exploits the colonial legal order to acquire other people’s property. Among those he ruins are the weaver couple Bhagia and Saria. Peter Samuels explains how the story turns the workings of law and rural power into satire.[^novel]
+[The novel](/literature/six-acres-and-a-third/) at the centre of Parbati’s adaptation concerns Mangaraj, a moneylender who exploits the colonial legal order to acquire other people’s property. Among those he ruins are the weaver couple Bhagia and Saria. Peter Samuels explains how the story turns the workings of law and rural power into satire.[^novel]
 
 The weavers’ place in this literary world gives a reader a starting point for the adaptation: whose speech, livelihood and loss must find a form on screen?
 
@@ -74,7 +78,7 @@ Archive and song links checked on 26 October 2026; clip playback untested.
 - **Film information: [ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php).** Gour–Parbati archive: credits and production context, not a player.
 - **Film information: [ଲକ୍ଷ୍ମୀ (Laxmi)](https://www.gourparbati.com/movie_laxmi.php).** Gour–Parbati archive.
 - **Film information: [କା (Kaa)](https://www.gourparbati.com/movie_kaa.php).** Gour–Parbati archive.
-- **Film information: [ସ୍ତ୍ରୀ (Stree)](https://www.gourparbati.com/movie_stree.php).** Gour–Parbati archive. An authorised full-film route was not established in this check.
+- **Film information: [ସ୍ତ୍ରୀ (Stree)](https://www.gourparbati.com/movie_stree.php).** Gour–Parbati archive.
 - **Song clip: [ସ୍ତ୍ରୀ (Stree) - Kali Juga](https://www.youtube.com/watch?v=OlNg8Y-g3Qk).** GPG Productions, the channel linked by the Gour–Parbati archive; a song excerpt, not the full film.
 
 ## Footnotes & Sources

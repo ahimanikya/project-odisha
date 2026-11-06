@@ -1,0 +1,141 @@
+{
+  "id": "POD-CINEMA-REVIEW-PACKAGE-20261105",
+  "date": "2026-11-05",
+  "authorization": "Founder: Continue the research",
+  "coordinator": "Disha",
+  "status": "review_package_complete",
+  "active_article": null,
+  "scope": "Consolidate accumulated unpublished cinema research and source-bound revisions into one accurate review package. Read multiple related articles; no public revision until one target is separately reserved.",
+  "previous_handoff": "records/cinema-gourahari-bapa-connection-2026-11-05.json",
+  "reuse_before_research": [
+    "kb/records/cinema-integration-2026-11-04.json",
+    "kb/records/cinema-gourahari-bapa-connection-2026-11-05.json",
+    "kb/research/culture/cinema-series/manifest.json",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json"
+  ],
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": [
+        "outputs/cinema-review-package-20261105/evidence-review.json"
+      ],
+      "status": "completed_scope_released"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "outputs/cinema-review-package-20261105/artifact-audit.json",
+        "kb/research/culture/cinema-series/manifest.json (A New Search for Stories intro only)",
+        "kb/research/culture/cinema-series/book-narrative-2026-10-27.json (matching part_intro only)",
+        "projects/site/src/data/cinema.json (matching part intro only)",
+        "outputs/cinema-review-package-20261105/implementation.json",
+        "outputs/cinema-review-package-20261105/artifact-marker.json",
+        "outputs/cinema-review-package-20261105/*.log",
+        "outputs/cinema-review-package-20261105/builds/",
+        "tmp/pdfs/2026-11-05-consolidated-review/",
+        "output/pdf/odia-cinema-a-living-screen-2026-11-05-consolidated-review.pdf",
+        "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-consolidated-review.pdf"
+      ],
+      "status": "completed_scope_released"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": [
+        "outputs/cinema-review-package-20261105/narrative-review.json"
+      ],
+      "status": "completed_scope_released"
+    }
+  ],
+  "scope_released": true,
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "programme_progress_credit": 0,
+  "acceptance": [
+    "Inventory actual current article/book bindings and pending publication scope.",
+    "Review recent evidence for distinct narrative use and unresolved gaps.",
+    "Independently inspect the reading sequence and concrete overstatement/stale-reference risks.",
+    "Retain existing artifacts unless a material discrepancy warrants one bounded correction."
+  ],
+  "boundaries": [
+    "No publishing, pushing, merge, deployment, contacts, purchases or new image creation.",
+    "Do not rerun exhausted source routes or claim every fact revalidated.",
+    "Preserve other programmes and existing dirty work."
+  ],
+  "implementation_decision": "Name The Culprit in the A New Search for Stories part introduction; keep it distinct from Bapa/Pratikshya. Only this scalar in manifest, generated data and narrative override may change; no article prose or image changes.",
+  "coordinator_binding_correction": {
+    "slug": "aadim-vichar",
+    "field": "manifest source_sha256",
+    "before": "5c0ef61d9e00743de67ebe693957957abf1c41df465129176818362ca3fa1127",
+    "after": "618e2413cd3d38783e0727c065c560a9cd9fab5bd1e162170298c5e8c52d3b77",
+    "basis": "Current canonical source already matches site data and both previous final PDF receipts. Correct stale manifest binding only; no prose or image change."
+  },
+  "outcome": "Consolidated accumulated cinema research against the verified 1 November deployment: 15 changed main readings and three new online companions, within a 50-reading book sequence. Reconciled eleven recent evidence threads without claiming every fact freshly verified. Clarified The Culprit in the A New Search for Stories introduction, keeping it distinct from Bapa/Pratikshya, and repaired one stale Aadim Vichar manifest source hash. No canonical chapter text, image, cover or reading order changed in this cycle. Digital 258-page and print 264-page editions rebuilt; 27 tests, site build and disclosure checks passed, with independent selected-page and browser review. Published 1 November download pointers remain unchanged. No publication.",
+  "research": "outputs/cinema-review-package-20261105/evidence-review.json",
+  "implementation": "outputs/cinema-review-package-20261105/implementation.json",
+  "quality_review": "outputs/cinema-review-package-20261105/narrative-review.json",
+  "review_package": "outputs/cinema-review-package-20261105/review-package.json",
+  "review_note": "outputs/cinema-review-package-20261105/review-notes.md",
+  "next_action": "The accumulated local revisions are consolidated for Founder review; publication is separate. If research continues, take one bounded evidence question on Atal Bihari Panda’s writing and theatre practice, starting from the named Phata Mardala lead: seek an original title/credit page or a distinct participant account of writing, revision or rehearsal. Do not create a profile that repeats Aadim Vichar. If no distinct source is available, keep existing coverage. Original Bapa/Nadabindu texts, coherent Malajanha audiovisual comparison, Suvir Nath editing testimony/Kandana terminology, and author adaptation compensation remain open; reopen only for genuinely new evidence, not repeated exhausted queries.",
+  "public_change": true,
+  "canonical_article_text_changed": false,
+  "pdf_builds_performed": true,
+  "pdf_editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-05-consolidated-review.pdf",
+      "sha256": "136309ec6992a97b809f37ea768a926bfd280cbeb8dd340aff809f241d2ff68f",
+      "pages": 258,
+      "prior_pages": 258,
+      "receipt": "tmp/pdfs/2026-11-05-consolidated-review/digital/book-build-2026-11-05-consolidated-review.json",
+      "receipt_sha256": "551de8809e74f22923d3234edc007b7fcdf5e84d65b70c23d3b254fa4179354b",
+      "notes": 482,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [],
+      "all50_source_hashes_current": true,
+      "page_map_changes": {},
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_internal_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-05-consolidated-review/digital/pages",
+      "affected_intro_pages": [
+        145
+      ],
+      "prior_pdf_unchanged": true,
+      "narrative_hash_current": true
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-05-consolidated-review.pdf",
+      "sha256": "ecc3e45049e9249f79d426048dce8b9a468c2efc54c3a9cea2708b8cac2d1ca1",
+      "pages": 264,
+      "prior_pages": 264,
+      "receipt": "tmp/pdfs/2026-11-05-consolidated-review/print/book-build-2026-11-05-consolidated-review.json",
+      "receipt_sha256": "cbfdc6d5cc236132026fc2a72ede9c01d6321126045ebd733611d219af223822",
+      "notes": 482,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [],
+      "all50_source_hashes_current": true,
+      "page_map_changes": {},
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_internal_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-05-consolidated-review/print/pages",
+      "affected_intro_pages": [
+        145
+      ],
+      "prior_pdf_unchanged": true,
+      "narrative_hash_current": true
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "POD-RES-CINEMA-MALAJANHA-POEM-SOURCE-20261104",
+  "date": "2026-11-04",
+  "status": "reviewed_local_revision",
+  "question": "Can one Malajanha song be followed back to a printed literary text?",
+  "scope": "Ga Champu printed source and a qualified identified film excerpt; one Music passage.",
+  "reuse_before_research": [
+    "research/culture/cinema-series/malajanha-song-credits-2026-11-04.json",
+    "research/culture/cinema-series/malajanha-source-2026-11-04.json",
+    "research/culture/cinema-series/cinema-music.md"
+  ],
+  "research_query": "python3 tools/research/query_research.py Malajanha --json; no indexed hit, existing exact handoff and dossiers reused.",
+  "printed_evidence": "outputs/malajanha-poem-source-20261104/printed-evidence.json",
+  "recording_evidence": "outputs/malajanha-poem-source-20261104/recording-evidence.json",
+  "review": "outputs/malajanha-poem-source-20261104/review.json",
+  "implementation": "outputs/malajanha-poem-source-20261104/implementation.json",
+  "sources": [
+    {
+      "id": "champu-prabesha-scan",
+      "url": "https://odiabibhaba.in/en/compilations/kabichandra-e/",
+      "download_url": "https://drive.google.com/uc?export=download&id=1bavRxYY7NGD7CoF_hYweqhnX12XaQYOQ",
+      "local_file": "outputs/malajanha-poem-source-20261104/printed-sources/champu-prabesha.pdf",
+      "sha256": "86275cf8b9658809946e0943f74e5f99a88f66219163753db9e6cd9fa31e80b2",
+      "bytes": 2874199,
+      "pdf_pages": 163,
+      "title": "ଚମ୍ପୂ-ପ୍ରବେଶ (Champu Prabesha)",
+      "credited_author": "କବିଚନ୍ଦ୍ର ଡଃ କାଳୀଚରଣ ପଟ୍ଟନାୟକ (Kalicharan Pattnaik)",
+      "edition_year": null,
+      "bibliographic_limits": "Title and author visually inspected on PDF2. Imprint middle area is damaged/erased; no edition year adopted. Do not transfer 1968 from adjacent Kabisurya Gitabali catalogue entry. Decorative publisher lettering not confidently transcribed. This is a commentary/reproduction, not an author manuscript or first edition of the Champu.",
+      "inspected_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        25,
+        30,
+        35,
+        40,
+        43,
+        44,
+        45,
+        46
+      ],
+      "not_claimed": "No complete-book reading, audition, or film-specific lyric assignment.",
+      "locators": [
+        {
+          "pdf": 30,
+          "observation": "Body heading identifies Kishore Chandrananda and Champu Prabesha."
+        },
+        {
+          "pdf": 44,
+          "printed": 15,
+          "observation": "Ga section, introductory verse and Geeta heading precede the song opening."
+        },
+        {
+          "pdf": 45,
+          "printed": 16,
+          "observation": "Poem continues through numbered stanzas, followed by Geetakatha prose headed Shrimati kahile."
+        },
+        {
+          "pdf": 46,
+          "printed": 17,
+          "observation": "Explanatory prose continues; this is commentary, distinct from the poem."
+        }
+      ],
+      "short_identifying_excerpt": "ଗଲାଣି ତ ଗଲା କଥା, ରେ ସଙ୍ଗାତ !",
+      "derivation_budget": "Use at most 80 words of new public paraphrase plus a compact bibliographic note; no extended lyric quotation. Source images retained for research, not cleared for republication."
+    },
+    {
+      "id": "ga-champu-transcription",
+      "url": "https://or.wikisource.org/wiki/କିଶୋରଚନ୍ଦ୍ରାନନ୍ଦ_ଚମ୍ପୂ/ଗ_ଚମ୍ପୂ",
+      "access": "Direct web text inspected",
+      "support": "Explicitly identifies Ga Champu and credits Kabisurya Baladeva Rath; matching opening corroborates the printed section identity.",
+      "limits": "Community transcription, not an independently inspected imprint or critical edition. Original scan preface discusses Kabisurya; no inference from royal signature alone."
+    },
+    {
+      "id": "malajanha-galani-excerpt",
+      "url": "https://www.youtube.com/watch?v=VzACHyD_w5A",
+      "uploader": "odia melody",
+      "uploaded": "2012-10-11",
+      "duration": "4:40",
+      "access": "Ordinary browser page, description, visible film footage at00:53, exported automatic captions. No audio audition or full-film viewing claimed.",
+      "description_credits": {
+        "title": "Akshaya Mohanty sings Galani Ta Gala Katha in Odia Movie Mala Janha (1965)",
+        "lyrics": "Kabisurjya Baladev Ratha",
+        "music": "Akshaya Mohanty"
+      },
+      "limits": [
+        "Uploader not established as rights holder; no public-domain or official-upload claim.",
+        "Bengali automatic captions are phonetically recognizable but erroneous; not a source for exact Odia quotation.",
+        "Clip identification corroborated by existing collector catalogue and generic original film credits, not a new original songbook."
+      ],
+      "caption_locator_leads": [
+        {
+          "time": "00:55–01:14",
+          "match": "Opening refrain Galani ta gala katha re sangata"
+        },
+        {
+          "time": "01:27–01:40",
+          "match": "Opening Gupute...pacharili...byatha"
+        },
+        {
+          "time": "01:54–02:32",
+          "match": "First stanza Ganga...gab hira...sneha...upaya kaha"
+        },
+        {
+          "time": "03:01–03:36",
+          "match": "Gagana kusuma...kaha chandramukhi..."
+        }
+      ],
+      "caption_file": "outputs/malajanha-poem-source-20261104/film-clip-auto-captions.txt",
+      "public_reuse": "Link only; no downloaded clip or new image."
+    },
+    {
+      "id": "ga-champu-odiasahitya",
+      "url": "https://www.odiasahitya.com/smaraniya-lekha/kabya-kabita-smaraniyalekha/galani-ta-gala-kathare/",
+      "access": "Direct web text, whole poem and source note read",
+      "support": "Credits Kabisurya Baladeva Rath; identifies Kishore Chandrananda Champu. Modern transcription, subordinate to printed-page quotation."
+    },
+    {
+      "id": "odissi-geeta-seminar-2003",
+      "url": "https://pad.ma/ASI",
+      "access": "Direct public catalogue and annotation text; no audio audition",
+      "support": "Seminar annotation identifies Ramahari Das discussing ga champu and its colloquial expression. Contextual corroboration only; no verbatim excerpt needed."
+    }
+  ],
+  "findings": [
+    "Original printed Ga section in Champu Prabesha, pp15–16, contains the refrain and subsequent verses; commentary is distinct.",
+    "Modern Wikisource transcription and OdiaSahitya identify Kabisurya Baladeva Rath and Kishore Chandrananda Champu.",
+    "An odia melody upload identifies the footage as Malajanha and names Akshaya Mohanty as singer and composer, Kabisurjya as lyricist. The final prose attributes this identification rather than presenting an independently matched original-film sequence.",
+    "Several separated automatic-caption stems correspond to the printed poem. They are not used for exact quotation or translation."
+  ],
+  "coordinator_inspection": "Read printedpages15–16 in rendered scans and complete modern poem; inspected YouTube filmframe, visible title and uploaddescription; read export caption metadata and text. No audition or completefilmviewing.",
+  "translation": {
+    "mode": "Human Natural / Poetic Natural",
+    "source_unit": "Ga Champu, opening refrain; complete poem on printed15–16 and modern transcription read",
+    "source_fingerprint": "Champu Prabesha SHA25686275cf8b9658809946e0943f74e5f99a88f66219163753db9e6cd9fa31e80b2",
+    "odia": "ଗଲାଣି ତ ଗଲା କଥା, ରେ ସଙ୍ଗାତ !",
+    "english": "What is past is past, my friend.",
+    "limits": "A short sense rendering of the refrain, not a translation of the full poem or film performance. No rhyme, role or named speaker added. Original public-domain poet; modern commentary not reproduced.",
+    "human_review_claimed": false
+  },
+  "boundaries": [
+    "No firstedition/date inference from damaged imprint.",
+    "No claim film used this specific commentary edition.",
+    "No full poem reproduction, extended lyric quotation or rights ownership inference.",
+    "No new archival image, changed portrait or duplicated article image."
+  ],
+  "public_source_budget": "Exact7word Odia refrain plus a short original sense rendering. Printed source paraphrase under80words, compactnote. Recordingmetadata paraphrase under25words; sourcewordlimits not used as rightspermission.",
+  "article": "research/culture/cinema-series/cinema-music.md",
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "next_action": "Locate the identified Galani ta gala katha excerpt within the original Malajanha player and verify a bounded segment in context before removing qualified upload-based identification. Reuse the printed Ga Champu scan; do not repeat resolved print searches or broad credit searches. Do not infer payment, rights or a specific edition used.",
+  "final_editorial_choice": "Preserve existing film-wide credits; add the exact printed refrain with brief English meaning and a qualified upload-description attribution. No claim of independently auditioning or matching the original film sequence. Remove a redundant added invitation because the following paragraph already gives that reading path.",
+  "source_sha256": "5b3a985b002925bd8eed7f5e3d4ee6a811c1c9cc18ef0529369c3566d8b40f65",
+  "books": {
+    "digital": {
+      "receipt": "tmp/pdfs/2026-11-04-ga-champu/digital/book-build-2026-11-04-ga-champu.json",
+      "receipt_sha256": "691a637b397c6f1a5354538781ed18d33761badca97b51874c4b7d03caf279f4",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-04-ga-champu.pdf",
+      "sha256": "10ed0f75143cf716bbf1de64370ee34ef5c509f2c71fe5e0e3efea59a71f72ad",
+      "pages": 255,
+      "notes": 470,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [
+        "cinema-music"
+      ],
+      "chapter_pages_unchanged": true,
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_named_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-04-ga-champu/digital/pages",
+      "music_pages": [
+        47,
+        51
+      ],
+      "new_text_or_notes_pages": [
+        48,
+        232
+      ],
+      "prior_pdf_unchanged": true
+    },
+    "print": {
+      "receipt": "tmp/pdfs/2026-11-04-ga-champu/print/book-build-2026-11-04-ga-champu.json",
+      "receipt_sha256": "1515f8cca75313b88097cd2dee6437a5788fa02d84b27636b493d9f096cf83f4",
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-04-ga-champu.pdf",
+      "sha256": "96b01cf10e6ab7f17ddeeb5babe368d1c0c995b3efcf5a785e0806f83445edf2",
+      "pages": 262,
+      "notes": 470,
+      "chapters": 50,
+      "figures": 56,
+      "image_credits": 31,
+      "people": 21,
+      "changed_source_bindings": [
+        "cinema-music"
+      ],
+      "chapter_pages_unchanged": true,
+      "chapter_page_references_stable": true,
+      "cover_unchanged": true,
+      "figure_sources_unchanged": true,
+      "unresolved_named_destinations": [],
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-04-ga-champu/print/pages",
+      "music_pages": [
+        48,
+        52
+      ],
+      "new_text_or_notes_pages": [
+        49,
+        234
+      ],
+      "prior_pdf_unchanged": true
+    }
+  },
+  "body_whitespace_words_added": 52,
+  "coordinator_book_inspection": "Digitalpage48 directlyviewed: shortOdiaquote, Englishrendering, numericnotes and adjacentheadings legible, no clipping. Independent wideraffectedpage reviewpending.",
+  "visual_review": "Separate reviewer inspected14currentfull-sizepages: digital47–52/232, print48–53/234. No required layout correction. Exact hashes,50current sourcebindings,470notes,56figures,31credits, cover/imagebytes/geometry and chaptermaps verified. No fullbookmanualreview or audioaudition claim."
+}

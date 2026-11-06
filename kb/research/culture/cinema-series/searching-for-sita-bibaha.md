@@ -8,7 +8,7 @@ research_date: "2026-10-29"
 human_review_claimed: false
 sources: [{"id": "sita-search-1", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/sita-bibaha-prints-lost/articleshow/8116754.cms"}, {"id": "sita-search-2", "resource": "https://indiaifa.org/grants-projects/lipika-singh-darai.html"}, {"id": "sita-search-3", "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399"}, {"id": "sita-search-4", "resource": "https://era.ed.ac.uk/items/0143fa44-2869-4263-83e7-54e7f4cd9f0b"}, {"id": "sita-search-5", "resource": "https://www.lipikasinghdarai.com/about"}, {"id": "sita-search-6", "resource": "https://www.lipikasinghdarai.com/films"}, {"id": "sita-search-7", "resource": "https://indiaifa.org/sites/indiaifa/website/about_ifa/ifa_ar/AnnualReport2024-2025.pdf"}]
 series_intro: "A missing film can leave enough traces for another story to begin."
-hero_image: "../../media/cinema-series/searching-for-sita-bibaha-illustration.png"
+hero_image: "../../media/cinema-series/photographs-expansion-2026-11-05/searching-for-sita-bibaha-sita-bibaha-20261105b.jpg"
 ---
 
 # Searching for Sita Bibaha: the film beyond the missing print

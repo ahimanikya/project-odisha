@@ -1,0 +1,118 @@
+{
+  "id": "POD-CINEMA-PRATIBHA-AUDIO-20261103",
+  "date": "2026-11-03",
+  "authorization": "Founder: Continue the research",
+  "status": "reviewed_local_profile_revision_with_evidence_gap",
+  "coordinator": "Disha",
+  "active_article": null,
+  "scope": "Inspect the retained LOC author reading through a bounded listening route; preserve edition and individual-story uncertainties. Audio input is unavailable in this session; continue with the retained published-text lead The Ring to assess a short original close-reading addition to the same profile.",
+  "previous_handoff": "records/cinema-calcutta-radio-2026-11-03.json",
+  "reuse_before_research": [
+    "outputs/calcutta-radio-20261103/next-action.json",
+    "kb/records/cinema-pratibha-loc-reading-2026-11-03.json",
+    "outputs/pratibha-loc-reading-20261103/03009.mp3",
+    "outputs/pratibha-loc-reading-20261103/review.json",
+    "kb/research/people/pratibha-ray.md"
+  ],
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/pratibha-audio-20261103/research.json",
+        "outputs/pratibha-audio-20261103/research-captures/"
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/pratibha-audio-20261103/coverage.json",
+        "outputs/pratibha-audio-20261103/implementation.json",
+        "kb/research/people/pratibha-ray.md",
+        "kb/research/voices/pratibha-editorial.json",
+        "kb/research/voices/collection.json (Pratibha entry and source registration only)",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs (only necessary existing count expectations)"
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "completed_scope_released",
+      "scope": [
+        "outputs/pratibha-audio-20261103/review.json"
+      ]
+    }
+  ],
+  "before_hashes": {
+    "kb/research/people/pratibha-ray.md": "ad57a3bab138335067104674dd0b31d43947721bc18fb62d13cbf6210da43f91",
+    "kb/research/voices/pratibha-editorial.json": "a0171b33481356dd4c631543445e2670d3643afd86d01fff7488c613c4195aa8",
+    "kb/research/voices/collection.json": "b72aef1c4d2c3c386c932ff3679472d911a7529b504e59847eb966bf39f46f2d",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-03-calcutta-radio.pdf": "2664ae2aa541ba2ea056e042ddcb94a9f3f8cf0adb3f856d68c8add63aefe031",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-03-calcutta-radio.pdf": "9f7bbaf07d1adffa0287839de0c5999555cc59a9a803abf200fab7d5ad60a359",
+    "outputs/pratibha-loc-reading-20261103/03009.mp3": "a95aca69a18131bcb9656c13c2be0818cbc7c685bca3ccdc98b611c71dae00a7"
+  },
+  "publication_performed": false,
+  "human_approval_claimed": false,
+  "programme_progress_credit": 0,
+  "scope_released": true,
+  "scope_adjustment": {
+    "reason": "Nativeaudio conversion failed, no transcription tool installed, and functions.audio reported audio input unsupported. No audition claim.",
+    "same_active_article": true,
+    "alternative_primary_source": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf",
+    "reading_scope": "The Ring, printed53–64 (PDF77–88); first inspect exact story and credit, then decide if addition is useful."
+  },
+  "outcome": "Current tools could not expose audio input; no audition or transcript claimed. Original publisher story inspected and a 74-word close reading of The Ring added to Pratibha Ray profile with 18-word source note and translator credit. All earlier prose and art preserved. Separate review and browser note/return passed.",
+  "evidence": {
+    "dossier": "kb/research/culture/cinema-series/pratibha-audio-and-ring-2026-11-03.json",
+    "research": "outputs/pratibha-audio-20261103/research.json",
+    "audio_access": "outputs/pratibha-audio-20261103/audio-access.json",
+    "implementation": "outputs/pratibha-audio-20261103/implementation.json",
+    "independent_review": "outputs/pratibha-audio-20261103/review.json",
+    "browser_review": "outputs/pratibha-audio-20261103/browser-review.json",
+    "validation": "outputs/pratibha-audio-20261103/validation.json"
+  },
+  "checks": {
+    "profile_tests": {
+      "passed": 4,
+      "failed": 0,
+      "command": "POD_TEST_DIST=dist node --test tests-coast/pratibha-editorial.test.mjs",
+      "log": "outputs/pratibha-audio-20261103/tests-final.log"
+    },
+    "final_build": {
+      "exit_code": 0,
+      "log": "outputs/pratibha-audio-20261103/build-note-order.log"
+    },
+    "disclosure": {
+      "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist",
+      "pages": 832,
+      "violations": []
+    },
+    "source_map_exact": true,
+    "reverse_collection_baseline_hash": true,
+    "rendered_note_order": {
+      "literature-ray-loc": 6,
+      "literature-spark-text": 7
+    }
+  },
+  "after_hashes": {
+    "kb/research/people/pratibha-ray.md": "102f8bc595e36959e314d429f12cc65f5d88130b479d92f6a38fff6ec533a227",
+    "kb/research/voices/pratibha-editorial.json": "411443e4e8f96a536c2df2fa14d3a293e5d2f4cf150bc332174e0d596a76bfc9",
+    "kb/research/voices/collection.json": "6c433ba6aaf3110f492e8ee1652c5001a819e2357492ab4100570030033e0a56",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-03-calcutta-radio.pdf": "2664ae2aa541ba2ea056e042ddcb94a9f3f8cf0adb3f856d68c8add63aefe031",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-03-calcutta-radio.pdf": "9f7bbaf07d1adffa0287839de0c5999555cc59a9a803abf200fab7d5ad60a359",
+    "outputs/pratibha-loc-reading-20261103/03009.mp3": "a95aca69a18131bcb9656c13c2be0818cbc7c685bca3ccdc98b611c71dae00a7"
+  },
+  "public_article_changed": true,
+  "books_changed": false,
+  "book_reason": "Pratibha’s Voices companion profile is outside the50numbered cinema readings; source/article enrichment needs no book rebuild.",
+  "evidence_gaps": [
+    "LOC recording not heard; individual story unidentified.",
+    "LOC collection year/page differences not reconciled.",
+    "The Ring original Odia publication date not established."
+  ],
+  "next_action": "Inspect the retained Spark of Light acknowledgements (printed vii / PDF7) and publisher front matter for a specific account of how translators, editors and publishing partners brought Odia writing to new readers. Compare with Literature and Screen before deciding whether a small addition is warranted. Verify roles and edition identity; infer neither writer payment nor film rights. Do not retry the unsupported LOC audition without a genuinely new listening or transcript route.",
+  "next_action_record": "outputs/pratibha-audio-20261103/next-action.json"
+}

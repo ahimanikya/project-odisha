@@ -7,12 +7,13 @@ const read=path=>readFileSync(path,'utf8');
 const collection=JSON.parse(read('../../kb/research/voices/collection.json'));
 const entry=collection.pages.find(p=>p.path==='people/pratibha-ray');
 const editorial=JSON.parse(read('../../kb/research/voices/pratibha-editorial.json'));
-const page=path=>read(`dist-coast${path}index.html`).replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replaceAll('&#39;',"'");
+const dist=process.env.POD_TEST_DIST||'dist-coast';
+const page=path=>read(`${dist}${path}index.html`).replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replaceAll('&#39;',"'");
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 test('Pratibha source map covers all factual passages and preserves the documentary portrait hash',()=>{
  const passages=entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))).filter(p=>p.source_ids.length);
  assert.deepEqual(editorial.passages,passages);
- assert.equal(entry.sections.reduce((n,s)=>n+s.paragraphs.length,0),10);assert.equal(editorial.sources.length,5);
+ assert.equal(entry.sections.reduce((n,s)=>n+s.paragraphs.length,0),12);assert.equal(editorial.sources.length,7);
  const paragraphs=entry.sections.flatMap(s=>s.paragraphs);
  assert.ok(paragraphs.some(p=>p.text.includes('1984')&&p.text.includes('1985')));
  assert.ok(paragraphs.some(p=>p.text.includes('Pradip Bhattacharya')&&p.text.includes('does not name its translator')));
@@ -49,7 +50,7 @@ test('Pratibha preserves reading paths, documentary credit and save identity wit
  for(const route of ['/languages/','/languages/odia/','/literature/','/people/fakir-mohan-senapati/','/literature/six-acres-and-a-third/','/people/sarala-das/']){const previous=page(route);assert.ok(previous.includes('By Ahimanikya Satapathy'));assert.ok(previous.includes('id="story-sources"'));}
 });
 test('Pratibha portable reading keeps every narrative paragraph once, byline, short sources and portrait rights',()=>{
- const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;
+ const catalog=JSON.parse(read(`${dist}/index.html`).match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;
  const item=catalog.find(i=>i.id==='reading:people/pratibha-ray');assert.ok(item);
  assert.equal(item.author,editorial.author);assert.equal(item.checked,entry.checked_on||collection.checked_on);
  assert.deepEqual(item.practical.map(p=>p.paragraphs),entry.sections.map(s=>s.paragraphs.map(p=>p.text)));

@@ -41,7 +41,7 @@ test('people route overrides are excluded from cinema slug emission',()=>{const 
 
 test('Gourahari is a people companion with an accurately labelled hero',()=>{const entry=cinema.articles.find(a=>a.slug==='gourahari-das');assert.ok(entry);assert.equal(entry.route,'/people/gourahari-das/');assert.ok(!cinemaRouteEntries().includes(entry));if(entry.hero.kind!=='documentary'){assert.match(entry.hero.caption,/illustration/i);}const page=fs.readFileSync(path.join(site,'src/pages/people/gourahari-das.astro'),'utf8');assert.ok(page.includes("article.route==='/people/gourahari-das/'"));assert.ok(page.includes('<CinemaReading entry={entry}/>'));});
 
-test('Nirad people profile reuses the licensed uncropped documentary photograph',()=>{const entry=cinema.articles.find(a=>a.slug==='nirad-mohapatra');assert.equal(entry.route,'/people/nirad-mohapatra/');assert.ok(!cinemaRouteEntries().includes(entry));const photo=entry.images.find(i=>i.role===(entry.hero.kind==='documentary'?'title':'documentary-1'));assert.equal(photo.source,'kb/research/media/cinema-series/nirad-mohapatra-raj-sampad.jpg');assert.equal(photo.original_sha256,hash(fs.readFileSync(path.join(root,photo.source))));const out=cinemaArticle(entry);assert.equal((out.fullHTML.match(/<figure\b/g)||[]).length,entry.hero.kind==='documentary'?1:2);for(const credit of ['Raj Sampad','CC BY-SA 4.0'])assert.ok(out.fullHTML.includes(credit));const page=fs.readFileSync(path.join(site,'src/pages/people/nirad-mohapatra.astro'),'utf8');assert.ok(page.includes('<CinemaReading entry={entry}/>'));});
+test('Nirad people profile reuses the licensed uncropped documentary photograph',()=>{const entry=cinema.articles.find(a=>a.slug==='nirad-mohapatra');assert.equal(entry.route,'/people/nirad-mohapatra/');assert.ok(!cinemaRouteEntries().includes(entry));const photo=entry.images.find(i=>i.role===(entry.hero.kind==='documentary'?'title':'documentary-1'));assert.equal(photo.source,'kb/research/media/cinema-series/nirad-mohapatra-raj-sampad.jpg');assert.equal(photo.original_sha256,hash(fs.readFileSync(path.join(root,photo.source))));const out=cinemaArticle(entry);assert.equal((out.fullHTML.match(/<figure\b/g)||[]).length,entry.images.length);assert.ok(out.fullHTML.includes('During the making of Maya Miriga.'));assert.ok(entry.images.some(image=>image.role==='documentary-maya-on-set'));for(const credit of ['Raj Sampad','CC BY-SA 4.0'])assert.ok(out.fullHTML.includes(credit));const page=fs.readFileSync(path.join(site,'src/pages/people/nirad-mohapatra.astro'),'utf8');assert.ok(page.includes('<CinemaReading entry={entry}/>'));});
 
 test('Sabyasachi people profile preserves the existing licensed portrait and its credit',()=>{const entry=cinema.articles.find(a=>a.slug==='sabyasachi-mohapatra');assert.equal(entry.route,'/people/sabyasachi-mohapatra/');assert.ok(!cinemaRouteEntries().includes(entry));if(entry.hero.kind!=='documentary'){assert.match(entry.hero.caption,/illustration/i);}const photo=entry.images.find(i=>i.role===(entry.hero.kind==='documentary'?'title':'documentary-1'));assert.equal(photo.source,'kb/research/media/odia-cinema/sabyasachi-mohapatra.jpg');assert.equal(photo.original_sha256,hash(fs.readFileSync(path.join(root,photo.source))));const html=cinemaArticle(entry).fullHTML;for(const credit of ['Subhashish Panigrahi','MKar','CC BY-SA 4.0'])assert.ok(html.includes(credit));assert.equal((html.match(/<figure\b/g)||[]).length,entry.hero.kind==='documentary'?1:2);assert.ok(fs.readFileSync(path.join(site,'src/pages/people/sabyasachi-mohapatra.astro'),'utf8').includes('<CinemaReading entry={entry}/>'));});
 
@@ -49,14 +49,14 @@ test('Sabyasachi people profile preserves the existing licensed portrait and its
 test('documentary hero promotes an existing body photograph once with escaped linked credits',()=>{
  const entry=structuredClone(cinema.articles.find(a=>a.slug==='nirad-mohapatra'));
  const photo=entry.images.find(i=>i.role==='documentary-1')||entry.images.find(i=>i.role==='title');
- entry.images=[{...photo,role:'title'}];
+ entry.images=[{...photo,role:'title'},...entry.images.filter(image=>image!==photo && image.role!=='title')];
  entry.hero={kind:'documentary',alt:'Nirad portrait',caption:'Full portrait <not markup>',credit:{creator:'Photographer & archive',source_url:'https://commons.wikimedia.org/wiki/File:Portrait.jpg?a=1&b=2',license:'CC BY-SA 4.0',license_url:'https://creativecommons.org/licenses/by-sa/4.0/',notes:'Uncropped <original>'}};
  const html=cinemaArticle(entry).fullHTML;
- assert.equal((html.match(/<figure\b/g)||[]).length,1);
+ assert.equal((html.match(/<figure\b/g)||[]).length,entry.images.length);
  for(const expected of ['Full portrait &lt;not markup&gt;','Photographer &amp; archive','Uncropped &lt;original&gt;','a=1&amp;b=2','>Source</a>','>CC BY-SA 4.0</a>'])assert.ok(html.replace(/<span class="cinema-citation-tail">([\s\S]*?)<\/span>/g,'$1').includes(expected),expected);
  assert.ok(!html.includes('<not markup>'));
  entry.hero.credit.source_url='javascript:alert(1)';assert.throws(()=>cinemaArticle(entry),/requires HTTPS/);
- assert.ok(html.includes('--cinema-figure-width:380px;--cinema-image-ratio:4 / 5'));assert.ok(html.includes('--cinema-image-position:50% 0%'));assert.ok(html.includes('Display crop.'));
+ assert.ok(html.includes('--cinema-figure-width:85%;--cinema-image-ratio:4 / 5'));assert.ok(html.includes('--cinema-image-position:50% 0%'));assert.ok(html.includes('Display crop.'));
 });
 
 
@@ -83,11 +83,11 @@ test('active article photographs and title artwork do not repeat across readings
   assert.equal((cinemaArticle(entry).article.html.match(/<figure\b/g)||[]).length,1,slug+' has no repeated body portrait');
  }
  const overview=cinema.articles.find(a=>a.slug==='odia-cinema');
- assert.equal(overview.images.length,2,'overview retains its title and the approved archival photograph');
- const archival=overview.images.find(image=>image.role==='documentary');
- assert.equal(archival.source,'kb/research/media/cinema-series/archive/pranab-bijay-mihir-behind-scenes-1989.jpg');
+ assert.equal(overview.images.length,1,'overview promotes the approved archival photograph without duplication');
+ const archival=overview.images.find(image=>image.role==='title');
+ assert.equal(archival.source,overview.hero.path);
  assert.equal(archival.original_sha256,'7a9fb4f8dd0547a8c8f30c3d2e4390d6e5aef6950735051b88bcb16ee9457a57');
- assert.equal((cinemaArticle(overview).article.html.match(/<figure\b/g)||[]).length,2,'overview renders the archival photograph once');
+ assert.equal((cinemaArticle(overview).article.html.match(/<figure\b/g)||[]).length,1,'overview renders the archival photograph once');
  const daman=cinema.articles.find(a=>a.slug==='daman');
  assert.ok(daman.images.some(image=>image.source==='kb/research/media/cinema-series/daman/babushaan-mohanty-2018-closeup.jpg'),'DAMaN retains its Babushaan photograph');
 });
@@ -127,8 +127,9 @@ test('overview national awards preserve column relationships, row citations and 
  assert.ok(region);assert.ok(region[1].includes('tabindex="0"'));assert.ok(region[1].includes('role="region"'));assert.ok(region[1].includes('aria-labelledby="national-awards-caption"'));
  assert.ok(region[2].includes('<caption id="national-awards-caption">Selected National Film Awards in this series — award years, not release dates</caption>'));
  assert.deepEqual([...region[2].matchAll(/<th scope="col">([\s\S]*?)<\/th>/g)].map(m=>m[1]),['Film','Recognition','Award year and edition','Filmmakers to explore']);
- const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,8);
+ const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,9);
  assert.ok(region[2].includes("Lahari"));
+ assert.ok(rows.find(row=>row.includes("Pushkara"))?.includes('href="/cinema/literature-and-screen/#the-connection-continues"'),"literary route retains its section fragment");
  assert.ok(region[2].includes("Tara"));assert.ok(region[2].includes("/people/bijaya-jena/"));
  for(const row of rows){assert.ok(row.includes('scope="row"'));assert.ok(/data-footnote-ref|href="#fn/.test(row),'award row retains source citation');}
  assert.equal((html.match(/id="national-awards-caption"/g)||[]).length,1);
@@ -221,7 +222,7 @@ test('image attributions continue the regular source-note sequence with matching
   assert.equal(new Set(sourceIds).size,sourceIds.length);
   for(const [,caption]of html.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g))assert.ok(!/>\s*(?:Photo credit|Image credit)\s*</.test(caption));
  }
- assert.equal(total,30,'all required image attributions retained in regular notes, including the seven sourced portrait replacements');
+ assert.equal(total,56,'all required image attributions retained in regular notes, including the approved photographs and supporting images');
 });
 
 test('overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition',()=>{

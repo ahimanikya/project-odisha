@@ -1,0 +1,157 @@
+{
+  "id": "POD-CINEMA-FUTURES-BOOKS-20261102",
+  "date": "2026-11-02",
+  "authorization": "Founder: Continue the research; ongoing source-supported cinema-series enhancement",
+  "status": "local_article_and_book_candidates_reviewed",
+  "coordinator": "Disha",
+  "active_article": null,
+  "scope": "Integrate the reviewed book-to-screen model passage into the existing Cinema Futures essay. Check original programme catalogues for a precise Odia connection, without generalising absence or inferring deals. Rebuild and review affected article and book candidates.",
+  "reuse": [
+    "records/cinema-book-to-screen-2026-11-02.json",
+    "research/culture/cinema-series/book-to-screen-models-2026-11-02.json",
+    "outputs/cinema-book-to-screen-20261102/integration-plan.json"
+  ],
+  "baseline_article_sha256": "414a351b3bfb32d47c47849ea3465154ec3da3fe66a5aa61e35ec328f8f23886",
+  "workers": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": [
+        "outputs/cinema-futures-books-20261102/research.json",
+        "outputs/cinema-futures-books-20261102/sources/"
+      ],
+      "status": "scope_released"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "kb/research/culture/cinema-series/cinema-futures.md",
+        "outputs/cinema-futures-books-20261102/implementation.json"
+      ],
+      "status": "scope_released"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": [
+        "outputs/cinema-futures-books-20261102/review.json"
+      ],
+      "status": "scope_released"
+    }
+  ],
+  "boundaries": [
+    "One active article; preserve all existing narrative, illustrations, footnotes and earlier local revisions.",
+    "No publishing, outreach, purchases, current-application claims or inferred payments.",
+    "No generic retries of exhausted historic-payment, Mokshya, publisher-foundation or studio gaps.",
+    "Catalogue language/title evidence does not establish finished adaptations."
+  ],
+  "publication_performed": false,
+  "programme_progress_credit": 0,
+  "evidence": [
+    "outputs/cinema-futures-books-20261102/research.json",
+    "outputs/cinema-futures-books-20261102/implementation.json",
+    "outputs/cinema-futures-books-20261102/review.json",
+    "outputs/cinema-futures-books-20261102/integration.json",
+    "outputs/cinema-futures-books-20261102/pdf-operation-marker.json"
+  ],
+  "outcomes": {
+    "date": "2026-11-02",
+    "article": "/cinema/cinema-futures/",
+    "source_sha256": "ebc3c8dc37839520da2957b7fa67114e0caa6668cf1d818a3e7896e6a9a8c554",
+    "book_candidates": [
+      {
+        "edition": "digital",
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-02-futures-books.pdf",
+        "sha256": "74cf758fffb6d3d3a9878c85d3a709642fa033e810abe3019b0a1d475e0389d4",
+        "pages": 247,
+        "receipt": "tmp/pdfs/2026-11-02-futures-books/digital/book-build-2026-11-02-futures-books.json",
+        "sources": 50,
+        "notes": 448,
+        "image_credits": 31,
+        "figures": 56,
+        "stable_page_references": true,
+        "source_bindings_verified": true,
+        "all_pages_rendered": true,
+        "image_layout_sha256": "ea650ba84fe731b9b8908a81687349b23977bd4d1336831962c61c9b429f8c03"
+      },
+      {
+        "edition": "print",
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-02-futures-books.pdf",
+        "sha256": "b5e80494593bfe544d9a0674c126fec9af32782992fe12932815a9e25cc5dbb0",
+        "pages": 258,
+        "receipt": "tmp/pdfs/2026-11-02-futures-books/print/book-build-2026-11-02-futures-books.json",
+        "sources": 50,
+        "notes": 448,
+        "image_credits": 31,
+        "figures": 56,
+        "stable_page_references": true,
+        "source_bindings_verified": true,
+        "all_pages_rendered": true,
+        "image_layout_sha256": "ea650ba84fe731b9b8908a81687349b23977bd4d1336831962c61c9b429f8c03"
+      }
+    ],
+    "site_build": {
+      "pages": 571,
+      "status": "pass",
+      "log": "outputs/cinema-futures-books-20261102/site-build.log"
+    },
+    "cinema_tests": {
+      "passed": 22,
+      "failed": 0,
+      "log": "outputs/cinema-futures-books-20261102/site-tests.log"
+    },
+    "disclosure_check": {
+      "files": 830,
+      "violations": 0
+    },
+    "browser_review": {
+      "url": "http://127.0.0.1:50669/cinema/cinema-futures/#before-the-camera-begins",
+      "desktop": "Actual paragraph and compact note screenshots inspected. Note3 and return link clicked successfully.",
+      "mobile": "390x844 screenshot inspected: new paragraph wraps within reading column. Temporary override reset.",
+      "scope": "Root browser verification; separate independent article/PDF review in review.json."
+    },
+    "published_downloads_changed": false,
+    "publication_performed": false,
+    "content_preservation": "Existing narrative, headings, images and notes retained; 101-word passage and compact joint note added."
+  },
+  "completed_article": "/cinema/cinema-futures/",
+  "validation": {
+    "independent_review": "outputs/cinema-futures-books-20261102/review.json",
+    "content": "Whole essay compared with baseline; all prior substantive paragraphs, headings and images retained.",
+    "visual": "22 affected full-size pages independently inspected across both books; no required corrections.",
+    "site": "571 pages built; 22 tests passed; 830-file disclosure check found zero violations.",
+    "browser": "Desktop and 390px mobile inspected; new source note3 and return clicked successfully; viewport reset.",
+    "record_checks": {
+      "bundle": "PASS:1867concepts,8074local_links",
+      "team_assignments": "PASS",
+      "autonomous_program": "PASS",
+      "research_map": "PASS:1821records,71tasks,8reviewed_overlaps",
+      "registers": "PASS:1209records,697events; generated and current",
+      "diff_whitespace": "PASS"
+    }
+  },
+  "findings": [
+    "NFDC and MAMI examples integrated into Cinema Futures with a single compact note. Odia gathering remains a proposal.",
+    "All 30 NFDC2023 catalogue language fields inspected; no Odia-labelled entry found. This is not evidence of no Odia participation across the programmes.",
+    "MAMI2024 official catalogue target returned404; its open-pitch list is not a complete catalogue.",
+    "No author-income, completed-adaptation or current-application claims added."
+  ],
+  "limits": [
+    "Source review is bounded; unchanged historical assertions were not all re-researched this turn.",
+    "Named Odia participation and full MAMI2024 catalogue remain unresolved. Three distinct approaches recorded; avoid generic repetition.",
+    "No human-specialist approval, outreach or publication. Existing published downloads remain unchanged."
+  ],
+  "next_actions": [
+    "Review the accumulated local article, portrait and book candidates for a coordinated release. Continue research only from a new precise source or named participant lead; preserve unresolved evidence gaps.",
+    "Keep historical film-payment terms, original Mokshya imprint/text, studio hire terms, remaining portrait and accessible-reading issues open; act only on fresh evidence or the distinct pending presentation/accessibility work."
+  ],
+  "human_review_claimed": false,
+  "outreach_performed": false,
+  "final_receipt_hashes": {
+    "outputs/cinema-futures-books-20261102/research.json": "1bdd14e01426dee5ac35b71e94255de32876414aaa20384a7e41fde70cf19970",
+    "outputs/cinema-futures-books-20261102/implementation.json": "d0030c11e668ad86055fe03aacaf60a35793a4b8ae638650ebf6f83e66c92ac7",
+    "outputs/cinema-futures-books-20261102/review.json": "77280b8de7cdabb1ad27dbe05f2ad5af26fb51fe4ed9e91f90742048d8d76fdd",
+    "outputs/cinema-futures-books-20261102/integration.json": "15db911a0d90f8a27277a30c131c7efcb96c485af6d7fde5fb70333c4983e964"
+  }
+}

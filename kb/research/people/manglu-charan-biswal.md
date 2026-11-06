@@ -7,7 +7,7 @@ status: "draft"
 research_date: "2026-10-31"
 human_review_claimed: false
 series_intro: "Beyond the film Bhukha lies a writer’s work across plays, poems and children’s stories, and a later translation that returns us to the play."
-hero_image: "../media/cinema-series/manglu-charan-stage.png"
+hero_image: "../media/cinema-series/photographs-2026-11-05/manglu-charan-biswal-manglu-hachette-20261105.jpg"
 sources: [{"id":"hachette-starved","resource":"https://www.hachetteindia.com/Home/bookdetails/Info/9789393701817/the-starved"},{"id":"jla-translator","resource":"https://www.jlaindia.com/PDFs/JLA%202024%20July-Dec%20Full.pdf"},{"id":"pti-obituary","resource":"https://indianexpress.com/article/books-and-literature/odia-litterateur-manglu-charan-biswal-death-86-7718717/"},{"id":"toi-film-link","resource":"https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms"}]
 ---
 

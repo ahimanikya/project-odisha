@@ -13,8 +13,8 @@ const paths=['/people/fakir-mohan-senapati/','/literature/six-acres-and-a-third/
 const assets=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];
 test('Literature source map covers three factual passages and retains seven doors and documentary image hashes',()=>{
  const passages=[...entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))),...entry.cards.map((c,i)=>({id:`card-${i}`,source_ids:c.source_ids})),{id:'roster',source_ids:entry.roster_sources}].filter(p=>p.source_ids.length);
- assert.deepEqual(editorial.passages,passages);assert.equal(editorial.passages.length,3);assert.equal(editorial.sources.length,3);
- assert.equal(new Set(editorial.sources.map(s=>s.id)).size,3);
+ assert.deepEqual(editorial.passages,passages);assert.equal(editorial.passages.length,3);assert.equal(editorial.sources.length,4);
+ assert.equal(new Set(editorial.sources.map(s=>s.id)).size,4);
  for(const p of passages)for(const id of p.source_ids)assert.ok(editorial.sources.some(s=>s.id===id));
  assert.deepEqual(entry.cards.map(c=>c.href),paths);
  assert.ok(entry.cards.every(c=>c.source_ids.length===0),'Reading invitations need no repeated citations; future factual cards must enter the passage map.');
@@ -28,7 +28,7 @@ test('Literature begins with complete narrative before the seven reading doors a
  assert.ok(html.indexOf(`href="#${entry.sections[0].id}"`)<html.indexOf('href="#reading-doors"'));
  assert.match(html,/href="#story-sources"[^>]*>Footnotes &amp; Sources/);
  for(const p of entry.sections.flatMap(s=>s.paragraphs))assert.ok(html.includes(escape(p.text)),p.text);
- const refs=[...html.matchAll(/id="(ref-[^"]+)" href="#(note-[^"]+)"/g)];assert.equal(refs.length,3);assert.equal(new Set(refs.map(r=>r[1])).size,3);
+ const refs=[...html.matchAll(/id="(ref-[^"]+)" href="#(note-[^"]+)"/g)];const expectedRefs=editorial.passages.reduce((n,p)=>n+p.source_ids.length,0);assert.equal(refs.length,expectedRefs);assert.equal(new Set(refs.map(r=>r[1])).size,expectedRefs);
  for(const passage of editorial.passages)for(const id of passage.source_ids){const ref=`ref-${passage.id}-${id}`;assert.equal(html.split(`id="${ref}"`).length-1,1);assert.equal(html.split(`href="#${ref}"`).length-1,1);assert.equal(html.split(`id="note-${id}"`).length-1,1);}
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/<section id="story-sources"/);
  for(const s of editorial.sources){assert.ok(html.includes(escape(s.url)));assert.ok(html.includes(escape(s.note)));}

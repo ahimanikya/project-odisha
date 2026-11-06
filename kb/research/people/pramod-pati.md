@@ -8,6 +8,7 @@ research_date: "2026-10-31"
 human_review_claimed: false
 series_intro: "A painted room, a door in the floor and experiments with animation bring collaborators into the story of Pramod Pati’s filmmaking."
 sources: [{"id":"experimenta-surti","resource":"https://experimenta.in/texts/interviews/abid-surty/"},{"id":"pati-review","resource":"https://magazines.odisha.gov.in/Orissareview/2021/Feb-Mar/engpdf/64-67.pdf"},{"id":"dsource-ram-mohan","resource":"https://www.dsource.in/showcase/ram-mohan/interview"},{"id":"reel-explorer","resource":"https://archives.cinemadureel.org/en/film/explorer-2/"},{"id":"reel-trip","resource":"https://archives.cinemadureel.org/en/film/trip-2/"},{"id":"pati-pib","resource":"https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1690373&lang=2&reg=48"}]
+hero_image: "../media/cinema-series/photographs-2026-11-05/pramod-pati-pramod-arcurea-20261105.jpg"
 ---
 
 # Pramod Pati: A Room for Experiment

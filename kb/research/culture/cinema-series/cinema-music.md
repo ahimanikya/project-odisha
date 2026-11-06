@@ -4,9 +4,9 @@ title: "Odia Cinema Music: The Songs We Carry Home"
 description: "Follow the singers, composers and lyricists whose collaborations carry Odia film music into daily life, and the newer voices finding their own company."
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-10-30"
+research_date: "2026-11-05"
 human_review_claimed: false
-sources: [{"id": "mamata", "resource": "https://www.youtube.com/watch?v=wd3SLHMTfm8"}, {"id": "banamalli", "resource": "https://www.youtube.com/watch?v=dzRRMvhO5w8"}, {"id": "pranab", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/no-one-has-the-right-to-spoil-our-language-pranab-patnaik/articleshow/61868153.cms"}, {"id": "jajabara", "resource": "https://www.saregama.com/regional/odia_15/romantic_6/song"}, {"id": "bhubaneswari", "resource": "https://www.newindianexpress.com/states/odisha/2016/Feb/20/noted-odia-vocalist-mishra-passes-away-894535.html"}, {"id": "tapu", "resource": "https://odishabytes.com/tapu-mishras-hindi-single-bali-umariya-released-valentine-day/"}, {"id": "ishq", "resource": "https://www.youtube.com/watch?v=a1SSmBJw-hM"}, {"id": "humane", "resource": "https://timesofindia.indiatimes.com/entertainment/hindi/music/news/who-is-humane-sagar-remembering-the-iconic-voice-that-defined-modern-odia-music/amp_articleshow/125402991.cms"}, {"id": "aseema", "resource": "https://www.mycitylinks.in/i-just-wish-to-sing-says-state-awardee-aseema-panda"}, {"id": "diptirekha", "resource": "https://www.youtube.com/watch?v=r2rLxCCFVqs"}, {"id": "krishna", "resource": "https://www.planetbollywood.com/displayArticle.php?id=s031709014319"}, {"id": "maula", "resource": "https://www.yashrajfilms.com/music/chak-de-india/maula-mere-lele-meri-jaan-song-lyrics"}, {"id": "sona", "resource": "https://www.youtube.com/watch?v=fbx6ULRrhXg"}, {"id": "rituraj", "resource": "https://www.tseries.com/videos/tseries/UUq-Fj5jknLsUf-MWSy4_brA/8Wd4Yumll-s?page=36"}, {"id": "raw-star", "resource": "https://www.ndtv.com/entertainment/rituraj-mohanty-wins-indias-raw-star-706451"}]
+sources: [{"id": "mamata", "resource": "https://www.youtube.com/watch?v=wd3SLHMTfm8"}, {"id": "banamalli", "resource": "https://www.youtube.com/watch?v=dzRRMvhO5w8"}, {"id": "pranab", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/no-one-has-the-right-to-spoil-our-language-pranab-patnaik/articleshow/61868153.cms"}, {"id": "jajabara", "resource": "https://www.saregama.com/regional/odia_15/romantic_6/song"}, {"id": "bhubaneswari", "resource": "https://www.newindianexpress.com/states/odisha/2016/Feb/20/noted-odia-vocalist-mishra-passes-away-894535.html"}, {"id": "tapu", "resource": "https://odishabytes.com/tapu-mishras-hindi-single-bali-umariya-released-valentine-day/"}, {"id": "ishq", "resource": "https://www.youtube.com/watch?v=a1SSmBJw-hM"}, {"id": "humane", "resource": "https://timesofindia.indiatimes.com/entertainment/hindi/music/news/who-is-humane-sagar-remembering-the-iconic-voice-that-defined-modern-odia-music/amp_articleshow/125402991.cms"}, {"id": "aseema", "resource": "https://www.mycitylinks.in/i-just-wish-to-sing-says-state-awardee-aseema-panda"}, {"id": "diptirekha", "resource": "https://www.youtube.com/watch?v=r2rLxCCFVqs"}, {"id": "krishna", "resource": "https://www.planetbollywood.com/displayArticle.php?id=s031709014319"}, {"id": "maula", "resource": "https://www.yashrajfilms.com/music/chak-de-india/maula-mere-lele-meri-jaan-song-lyrics"}, {"id": "sona", "resource": "https://www.youtube.com/watch?v=fbx6ULRrhXg"}, {"id": "rituraj", "resource": "https://www.tseries.com/videos/tseries/UUq-Fj5jknLsUf-MWSy4_brA/8Wd4Yumll-s?page=36"}, {"id": "raw-star", "resource": "https://www.ndtv.com/entertainment/rituraj-mohanty-wins-indias-raw-star-706451"}, {"id": "amada-stage", "resource": "https://drive.google.com/file/d/1iq3UFL04xpa4CFPFhCPXjEOJoczbvwc8/view"}, {"id": "malajanha-credits", "resource": "https://indiancine.ma/LQT/player/00:00:58"}, {"id": "srjan-odissi-repertoire", "resource": "https://www.srjan.com/odissirepertoire.php"}, {"id": "ga-champu", "resource": "https://drive.google.com/file/d/1bavRxYY7NGD7CoF_hYweqhnX12XaQYOQ/view"}, {"id": "galani-recording", "resource": "https://www.youtube.com/watch?v=VzACHyD_w5A&t=55s"}, {"id": "malajanha-film-sequence", "resource": "https://indiancine.ma/LQT/player/01:39:20"}, {"id": "sinema-sangita", "resource": "https://drive.google.com/file/d/1O2tW4-lDO1RmUBP-HK5sNJTECndlx2xq/view"}]
 series_intro: "A song can send us from a familiar voice to a composer, a lyricist or a singer we have yet to discover. Follow that shared work across generations."
 ---
 
@@ -17,6 +17,16 @@ By Ahimanikya Satapathy
 A song can be the part of a film we keep closest. We may forget the order of its scenes and still want to hear a voice again. Following that wish can lead us back into the film—or towards another singer, another soundtrack, another person whose name deserves a place beside the melody.
 
 Take *ମମତା (Mamata)*. “Re Mita Aa Sangata” brings **Pranab Kishore Patnaik** and **Sikandar Alam** into the same recording, with music by [Prafulla Kar](../../people/prafulla-kar.md) and words by **Sibabrata Das**.[^mamata] Elsewhere on the soundtrack, **Chitta Jena** and **P. Susheela** sing “Dekhi Se Banamalli,” again with Kar’s music and Das’s lyrics.[^banamalli]
+
+## The poem inside the soundtrack
+
+A novel can give a film its story while other writers supply its songs. In *ମଲାଜହ୍ନ (Malajanha)*, Upendra Kishore Das’s name appears above the title, while Kabisurya and Banamali appear under lyric-writing. The singing credits include Kalyani Bhattacharya, Nandita Ghosh, Pranab Patnaik and Akshaya Mohanty.[^malajanha-credits]
+
+“ଗଲାଣି ତ ଗଲା କଥା, ରେ ସଙ୍ଗାତ !”—“What is past is past, my friend.” The opening belongs to Kabisurya Baladeva Rath’s *Ga Champu* in *Kishore Chandrananda Champu*, reproduced in Kalicharan Pattnaik’s *Champu Prabesha*.[^ga-champu] The film excerpt of “Galani ta gala katha” credits Akshaya Mohanty as singer and composer in its upload description.[^galani-recording]
+
+Kavisurya Baladeva Rath and Banamali Das also appear in Srjan’s account of the poetry performed in [Odissi abhinaya](/stories/odissi-abhinaya/).[^srjan-repertoire] Following these names offers a path from a film’s soundtrack to dance, and back to the written word.
+
+Kalicharan Pattnaik’s *ସିନେମା ସଙ୍ଗୀତ (Sinema Sangita)* (1941) brings another kind of page into this musical story. Its opening entry places Hindi and Odia song texts side by side, then aligns their syllables beneath shared musical notation.[^sinema-sangita]
 
 ## The possibilities inside a voice
 
@@ -31,6 +41,8 @@ That is a generous way to approach a long career: listen for what changes when a
 **Bhubaneswari Mishra** offers another starting point with “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)*.[^bhubaneswari]
 
 The movement between recordings and listeners also reaches beyond the cinema hall. The [AIR Cuttack story](../air-cuttack.md) follows broadcasting as another setting for words and music. A singer’s work may be encountered through a film, a radio recording or a concert; each encounter can prompt us to look for the others.
+
+The stage brought these kinds of work together too. Gopal Chhotray’s stage adaptation of [Basanta Kumari Patnaik’s](../../people/basanta-kumari-patnaik.md) *ଅମଡ଼ା ବାଟ (Amada Bata)* credits Narasingha Mahapatra with lyrics, Balakrushna Das with the musical setting and Samuel Sahu with direction.[^amada-stage]
 
 ## Tapu’s choices, and a newer duet
 
@@ -52,8 +64,6 @@ An Odisha musician’s wider career can introduce another language or another fo
 
 **Rituraj Mohanty** sang “Sahib” for the Hindi film *Bhoothnath Returns*, also with music by Ram Sampath and lyrics by Munna Dhiman.[^rituraj] His victory in *India’s Raw Star* in November 2014 belongs to television, a separate achievement from that film recording.[^raw-star] The two settings offer different ways an audience might first encounter the same singer.
 
-The Hindi recordings extend this story beyond Odia cinema. They belong to the singers’ wider working lives, alongside the films, languages and colleagues already encountered here.
-
 ## Keeping the work beside the song
 
 The [literature and cinema reading](literature-and-screen.md) begins with writers. Music brings that question close to the ear: whose words are these, who shaped the tune, and who performed it? A concise, dependable credit can help the next listener find all three.
@@ -65,6 +75,14 @@ There is practical work here for producers and labels. Agreements could make pay
 The [cinema economics reading](cinema-economics.md) asks how money moves through a production. Music belongs in that conversation: singers, lyricists, composers and instrumentalists need paid work as well as recognition. For listeners, a smaller action is available now. Follow an official recording, read its credits, and let a familiar song introduce someone new.
 
 ## Footnotes & Sources
+
+[^sinema-sangita]: Kalicharan Pattnaik, [*Sinema Sangita*](https://drive.google.com/file/d/1O2tW4-lDO1RmUBP-HK5sNJTECndlx2xq/view), first printing 1941, title page and pp. 1–4; Odia Bibhaba/Srujanika scan.
+
+[^ga-champu]: Kalicharan Pattnaik, [*Champu Prabesha*](https://drive.google.com/file/d/1bavRxYY7NGD7CoF_hYweqhnX12XaQYOQ/view), pp. 15–16 (Odia Bibhaba/Srujanika scan).
+[^galani-recording]: odia melody, [“Galani ta gala katha,” film excerpt](https://www.youtube.com/watch?v=VzACHyD_w5A&t=55s), upload description, 11 October 2012; [*Malajanha*, matching scene](https://indiancine.ma/LQT/player/01:39:20), 1:39:20–1:41:35.
+
+[^malajanha-credits]: [*Malajanha*, original opening credits](https://indiancine.ma/LQT/player/00:00:58), 00:18, 00:58 and 01:05.
+[^srjan-repertoire]: Srjan, [Odissi repertoire](https://www.srjan.com/odissirepertoire.php), “Abhinaya.”
 
 [^mamata]: Saregama Odia, [“Re Mita Aa Sangata”](https://www.youtube.com/watch?v=wd3SLHMTfm8), recording credits.
 [^banamalli]: Saregama Odia, [“Dekhi Se Banamalli”](https://www.youtube.com/watch?v=dzRRMvhO5w8), recording credits.
@@ -82,6 +100,8 @@ The [cinema economics reading](cinema-economics.md) asks how money moves through
 [^sona]: T-Series, [“Ambarsariya”](https://www.youtube.com/watch?v=fbx6ULRrhXg), *Fukrey* recording credits, 2013.
 [^rituraj]: T-Series, [“Sahib”](https://www.tseries.com/videos/tseries/UUq-Fj5jknLsUf-MWSy4_brA/8Wd4Yumll-s?page=36), *Bhoothnath Returns* recording credits.
 [^raw-star]: [“Rituraj Mohanty Wins India’s Raw Star”](https://www.ndtv.com/entertainment/rituraj-mohanty-wins-indias-raw-star-706451), NDTV, 1 December 2014; competition concluded 30 November.
+
+[^amada-stage]: [Gopal Chhotray, Amadabata, Annapurna B-group stage credits, Bibhaba/Srujanika scan, PDF p. 5.](https://drive.google.com/file/d/1iq3UFL04xpa4CFPFhCPXjEOJoczbvwc8/view)
 
 ## Further reading
 

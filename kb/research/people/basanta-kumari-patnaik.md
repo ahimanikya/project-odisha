@@ -5,10 +5,11 @@ description: "Stories, translation and a publishing partnership open a route int
 tags: ["encyclopedia", "literature"]
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-10-29"
+research_date: "2026-11-03"
 human_review_claimed: false
 subjects: ["people", "arts"]
-sources: [{"id": "velvet", "resource": "https://usawa.in/translations/velvet-mites-basanta-kumari-patnaik/"}, {"id": "nayak", "resource": "https://www.aupress.ca/blog/2017/01/10/sparkoflight/"}, {"id": "spark", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"}, {"id": "novel", "resource": "https://www.blackeaglebooks.org/product-category/novel/?filter_book-author=basanta-kumari-patnaik&layout=list&per_page=6"}, {"id": "film", "resource": "https://odiamoviedb.com/movie/amada-bata/"}, {"id": "award", "resource": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2009/pdf/page-102.pdf"}]
+sources: [{"id": "velvet", "resource": "https://usawa.in/translations/velvet-mites-basanta-kumari-patnaik/"}, {"id": "nayak", "resource": "https://www.aupress.ca/blog/2017/01/10/sparkoflight/"}, {"id": "spark", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"}, {"id": "novel", "resource": "https://www.blackeaglebooks.org/product-category/novel/?filter_book-author=basanta-kumari-patnaik&layout=list&per_page=6"}, {"id": "film", "resource": "https://odiamoviedb.com/movie/amada-bata/"}, {"id": "award", "resource": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2009/pdf/page-102.pdf"}, {"id": "stage", "resource": "https://drive.google.com/file/d/1iq3UFL04xpa4CFPFhCPXjEOJoczbvwc8/view"}]
+hero_image: "../media/cinema-series/photographs-2026-11-05/basanta-kumari-patnaik-basanta-usawa-original-20261105.webp"
 ---
 
 # Basanta Kumari Patnaik: Writing, Publishing and the Screen
@@ -21,7 +22,7 @@ A wish to leave can sit beside the comfort of being cared for. That closeness is
 
 ## The life within ordinary words
 
-Jatindra K. Nayak, who translated *In Bondage*, draws attention to Basanta’s irony, understatement and domestic settings. He describes the difficulty of carrying her idiomatic Odia into English.[^nayak] His account invites a reader to notice how much can depend on the shape of an expression.
+[Jatindra K. Nayak](/people/jatindra-k-nayak/), who translated *In Bondage*, draws attention to Basanta’s irony, understatement and domestic settings. He describes the difficulty of carrying her idiomatic Odia into English.[^nayak] His account invites a reader to notice how much can depend on the shape of an expression.
 
 In the passage from *In Bondage* reproduced with Nayak’s commentary, the narrator describes household work filling day and night. Even free time becomes knitting, leaving a pile of pullovers she wonders what to do with.[^nayak] Here, domestic life closes around a woman’s time.
 
@@ -33,7 +34,9 @@ Basanta earned an MA in economics at Ravenshaw College, Cuttack. With her brothe
 
 She knew the work on both sides of a manuscript: writing it and helping it reach a reader. That publishing partnership belongs beside the novels when we remember her contribution.
 
-## A novel meets the screen
+## A novel meets the stage and screen
+
+The printed play names Basanta’s novel on its title page, and Gopal Chhotray dedicates the adaptation to her. In his preface, Chhotray recalls a half-hour version broadcast by Cuttack radio in May 1954; encouragement led him to develop the stage play. He thanks its director, Samuel Sahu, and the actors. Basanta’s response appears a few pages later. Having watched Annapurna’s B group perform her story, she expresses her pleasure and praises both the dramatist and the performers. The novelist enters this record as a member of the audience, seeing her written world take shape in other people’s voices.[^stage]
 
 Black Eagle Books identifies *Amada Bata* with the 1964 film starring Jharana Das.[^novel] The film database credits Basanta’s story, Gopal Chhotray’s screenplay, Amar Ganguly’s direction and Babulal Doshi’s production.[^film]
 
@@ -58,6 +61,8 @@ The film may bring us to her name. Her fiction asks us to stay: with Nanda prepa
 [^novel]: [Amada Bata, Black Eagle Books catalogue.](https://www.blackeaglebooks.org/product-category/novel/?filter_book-author=basanta-kumari-patnaik&layout=list&per_page=6)
 [^film]: [Amada Bata, Odia Movie Database, film credits.](https://odiamoviedb.com/movie/amada-bata/)
 [^award]: [Atibadi Jagannath Das Awards, Odisha Annual Reference, 2009, p. 102.](https://magazines.odisha.gov.in/orissaannualreference/ORA-2009/pdf/page-102.pdf)
+
+[^stage]: [Gopal Chhotray, Amadabata: title, dedication, preface and Basanta’s appreciation; Bibhaba/Srujanika scan, PDF pp. 2, 4, 6, 8.](https://drive.google.com/file/d/1iq3UFL04xpa4CFPFhCPXjEOJoczbvwc8/view)
 
 ## Further reading
 

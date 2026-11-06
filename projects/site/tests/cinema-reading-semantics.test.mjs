@@ -47,16 +47,43 @@ test('image layout targets exact source and slug, retains complete-image links a
   for(const image of entry.images){
    const frame=cinemaImageLayout.find(f=>f.slug===entry.slug&&f.source===image.source);
    assert.ok(frame,entry.slug+' source configured');
-   if(frame.web.width_px===null)assert.ok(figureStyle(image,entry.slug).includes('--cinema-figure-width:100%'));
+   const percent=entry.slug==='the-question-that-brought-me-here'||image.width>image.height?100:85;
+   assert.equal(frame.web.width_percent,percent);assert.equal(frame.book.width_percent,percent);
+   for(const config of [frame.web,frame.book])for(const key of ['width_px','width_pt','width_fraction'])assert.ok(!(key in config));
+   assert.ok(figureStyle(image,entry.slug).includes(`--cinema-figure-width:${percent}%`));
+   const ratio=frame.web.ratio||[image.width,image.height];
+   assert.ok(figureStyle(image,entry.slug).includes(`--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`));
    assert.ok(html.includes(figureStyle(image,entry.slug)),entry.slug+' configured frame');
    assert.ok(html.includes(`href="${image.file}" aria-label="View complete image"`));
    const figure=[...html.matchAll(/<figure\b[\s\S]*?<\/figure>/g)].find(m=>m[0].includes(`src="${image.file}"`))?.[0];
    assert.ok(figure?.includes('<figcaption>'),'caption inside sized frame');
-   if(frame.web.fit==='cover')assert.ok(html.includes('Display crop.'));
+   if(frame.web.fit==='cover'){assert.ok(frame.credit_note?.trim());assert.ok(html.includes(frame.credit_note));}
    else assert.ok(!figure.includes('--cinema-image-fit:cover'));
   }
  }
  const parbati=cinemaArticle(cinema.articles.find(e=>e.slug==='parbati-ghose')).fullHTML;
- assert.ok(parbati.includes('--cinema-figure-width:172px'));
- assert.ok(parbati.includes('--cinema-figure-width:420px'));
+ assert.ok(parbati.includes('--cinema-figure-width:85%'));
+ assert.ok(parbati.includes('--cinema-figure-width:100%'));
+ assert.match(figureStyle({width:452,height:438,source:'companion'},'companion'),/--cinema-figure-width:100%/);
+ assert.match(figureStyle({width:430,height:580,source:'companion'},'companion'),/--cinema-figure-width:85%/);
+ assert.match(figureStyle({width:300,height:300,source:'companion'},'companion'),/--cinema-figure-width:85%/);
+});
+
+
+test('display zoom is explicit, bounded and valid only for a cover crop',()=>{
+ const entry=cinema.articles.find(e=>e.slug==='learning-cinema-together');
+ const image=entry.images.find(i=>i.role==='title');
+ const frame=cinemaImageLayout.find(f=>f.slug===entry.slug&&f.source===image.source);
+ const original={...frame.web};
+ try{
+  assert.match(figureStyle(image,entry.slug),/--cinema-figure-width:85%;--cinema-image-ratio:1 \/ 1/);
+  assert.match(figureStyle(image,entry.slug),/--cinema-image-zoom:1.6/);
+  for(const zoom of [0,0.9,3.1,NaN,Infinity,'1.6',true]){
+   frame.web.zoom=zoom;assert.throws(()=>figureStyle(image,entry.slug),/Invalid cinema image zoom/);
+  }
+  frame.web.zoom=1.6;frame.web.fit='natural';
+  assert.throws(()=>figureStyle(image,entry.slug),/Invalid cinema image zoom/);
+  delete frame.web.zoom;
+  assert.doesNotMatch(figureStyle(image,entry.slug),/--cinema-image-zoom/);
+ }finally{frame.web=original;}
 });

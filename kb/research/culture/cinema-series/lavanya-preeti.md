@@ -8,7 +8,7 @@ research_date: "2026-10-26"
 human_review_claimed: false
 sources: [{"id": "lavanya-preeti-1", "resource": "https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf"}, {"id": "lavanya-preeti-2", "resource": "https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf"}]
 series_intro: "A. K. Bir’s children’s film connects adolescent feeling with the inherited story of Kedar and Gouri."
-hero_image: "../../media/cinema-series/distinct-2026-10-27/lavanya-preeti.png"
+hero_image: "../../media/cinema-series/photographs-expansion-2026-11-05/lavanya-preeti-lavanya-catalogue-still-20261105b.png"
 ---
 
 # ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story

@@ -3,11 +3,11 @@ type: "Cinema History"
 title: "ଭୂଖା (Bhukha): when a tradition must also feed a family"
 description: "Sabyasachi Mohapatra’s Sambalpuri film brings the livelihood of folk performers into the history of Odisha’s cinema."
 status: "draft"
-research_date: "2026-10-25"
+research_date: "2026-11-02"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-sources: [{"id": "cinema-new-wave", "title": "“The New Wave Cinema of Odisha”", "resource": "https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf"}, {"id": "cinema-bhukha-play", "title": "“Film highlights struggle to survive in rural Odisha”", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms"}, {"id": "cinema-bhukha", "title": "70th National Film Awards catalogue", "resource": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "cinema-sambalpuri-study", "title": "“Reading auteurship and subregional subjectivities in the Sambalpuri cinema of Sabyasachi Mohapatra”", "resource": "https://intellectdiscover.com/content/journals/10.1386/safm_00105_1"}, {"id": "cinema-aadim", "title": "62nd National Film Awards results", "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636"}, {"id": "cinema-bhukha-interview", "title": "“Tete-e-tete with Sabyasachi Mohapatra”", "resource": "https://odisha.plus/2022/07/tete-e-tete-with-sabyasachi-mohapatra/"}, {"id": "music-forms", "title": "Sambalpuri sonority", "resource": "https://www.orissapost.com/sambalpuri-sonority/"}]
-hero_image: "../../media/cinema-series/bhukha-title-clean-20261101.png"
+sources: [{"id": "cinema-new-wave", "title": "“The New Wave Cinema of Odisha”", "resource": "https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf"}, {"id": "cinema-bhukha-play", "title": "“Film highlights struggle to survive in rural Odisha”", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms"}, {"id": "cinema-bhukha", "title": "70th National Film Awards catalogue", "resource": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "cinema-sambalpuri-study", "title": "“Reading auteurship and subregional subjectivities in the Sambalpuri cinema of Sabyasachi Mohapatra”", "resource": "https://intellectdiscover.com/content/journals/10.1386/safm_00105_1"}, {"id": "cinema-aadim", "title": "62nd National Film Awards results", "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636"}, {"id": "cinema-bhukha-interview", "title": "“Tete-e-tete with Sabyasachi Mohapatra”", "resource": "https://odisha.plus/2022/07/tete-e-tete-with-sabyasachi-mohapatra/"}, {"id": "music-forms", "title": "Sambalpuri sonority", "resource": "https://www.orissapost.com/sambalpuri-sonority/"}, {"id": "bhukha-starved-preview2023", "title": "Mangalu Charan Biswal, The Starved, translated by Nirjharini Tripathy, 2023", "resource": "https://books.google.co.in/books?id=XZDAEAAAQBAJ&pg=PT36"}, {"id": "cinema-bhukha-gijon1990", "title": "Gijón 28th festival catalogue, 1990, p. 25", "resource": "https://drupal.gijon.es/sites/default/files/2020-06/1990_catalogo_28ed.pdf"}]
+hero_image: "../../media/cinema-series/photographs-expansion-2026-11-05/bhukha-bhukha-catalogue-still-20261105b.png"
 series_intro: "Listen to a Sambalpuri screen story about folk performers, changing tastes and the work of sustaining a livelihood."
 series_position: 7
 series_part: "Films and Filmmakers"
@@ -25,9 +25,11 @@ In *ଭୂଖା (Bhukha)*, Sabyasachi Mohapatra’s 1989 Sambalpuri film, folk 
 
 The film grew from a play by [Manglu Charan Biswal](../../people/manglu-charan-biswal.md). A later report about Mohapatra’s work describes its concern with bajnia folk drummers whose livelihoods were threatened by changing musical tastes.[^play]
 
+In the opening scene of the play *Bhukha*, read in Nirjharini Tripathy’s English translation *The Starved*, Hadu suggests making music, but Paltu asks what the Nisan can do alone. They wonder why Maharagu is late and tease him. He arrives with his dhol and challenges their remarks; Hadu answers that they wanted him to hear. Before the livelihood question, this opening lets us meet the performers through their banter.[^play-opening]
+
 For a working musician, cultural change can arrive as the loss of the next engagement. The film’s subject brings an economic question into the celebration of inherited art: what allows a performer to continue?
 
-Ramesh Mahanand composed the film’s music. Himanshu Shekhar Guru’s 2015 account in *OrissaPOST* identifies a Nachnia song and a Sajani geet in its musical repertoire.[^music-forms]
+Himanshu Shekhar Guru’s 2015 account in *OrissaPOST* credits Ramesh Mahanand with the music and identifies a Nachnia song and a Sajani geet in its repertoire.[^music-forms]
 
 ## Finding an audience at home
 
@@ -36,6 +38,8 @@ In a 2022 interview, Mohapatra recalled that *Bhukha* did well in western Odisha
 In his recollection, the film travelled between western Odisha and the coastal cities. Its local audiences belong to its history alongside the festival record.
 
 ## A regional voice reaching another audience
+
+Gijón’s July 1990 programme lists *Bhukha* among its official feature films. Its credits name Sabyasachi Mohapatra as director and producer, B. Satish Kumar for cinematography, and a cast including [Sadhu Meher](sadhu-meher.md), Sarat Pujhari, Chitta Pattnaik, Swati Ray and Usha Nayer.[^gijon-programme]
 
 The 70th National Film Awards catalogue records an International Jury Award at Gijón for *Bhukha*, but gives no prize year.[^gijon]
 
@@ -50,8 +54,6 @@ The drum in this story belongs to someone’s working life. Listening to the mus
 
 ## Watch and explore
 
-Catalogue links checked on 26 October 2026.
-
 - **Institutional reference: [Sabyasachi Mohapatra and ଭୂଖା (Bhukha)](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf).** National Film Awards catalogue, printed page 036. A director biography, not a player; an authorised full-film route was not established in this check.
 
 ## Footnotes & Sources
@@ -65,6 +67,10 @@ Catalogue links checked on 26 October 2026.
 [^interview]: OdishaPlus, [“Tete-e-tete with Sabyasachi Mohapatra”](https://odisha.plus/2022/07/tete-e-tete-with-sabyasachi-mohapatra/), July 2022. Director’s retrospective testimony; revenue unaudited.
 
 [^music-forms]: [Sambalpuri sonority](https://www.orissapost.com/sambalpuri-sonority/). OrissaPOST, 2 August 2015; Music credits and forms.
+
+[^play-opening]: Mangalu Charan Biswal, [The Starved](https://books.google.co.in/books?id=XZDAEAAAQBAJ&pg=PT36), translated by Nirjharini Tripathy, 2023, Scene I, opening; Google Books preview PT36.
+
+[^gijon-programme]: [Gijón, 28th festival catalogue, 1990](https://drupal.gijon.es/sites/default/files/2020-06/1990_catalogo_28ed.pdf), p. 25, Bhukha programme entry and credits.
 
 ## Further reading
 

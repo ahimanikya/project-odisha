@@ -4,9 +4,9 @@ title: "Gourahari Das: fiction, public life and the art of listening"
 description: "Explore Gourahari Das through short stories, novels, journalism, translation, literary mentorship and adaptation."
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-10-26"
+research_date: "2026-11-05"
 human_review_claimed: false
-sources: [{"id": "gour-traveller", "resource": "https://gouraharidas.com/2019/07/11/gourahari-das/"}, {"id": "gour-klf", "resource": "https://kalingaliteraryfestival.com/speakers/gourahari-das/"}, {"id": "gour-kolkata", "resource": "https://kolkatalitmeet.in/2022/speakers/gourahari-das/"}, {"id": "gour-culprit", "resource": "https://www.thedreamingmachine.com/the-culprit-gourahari-das/"}, {"id": "gour-monks", "resource": "https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/"}, {"id": "gour-panchaparba", "resource": "https://gouraharidas.com/2019/08/03/panchaparba-2/"}, {"id": "gour-stage", "resource": "https://gouraharidas.com/2019/08/01/from-page-to-stage/"}, {"id": "gour-sarala", "resource": "https://www.imfa.in/impact"}, {"id": "gourahari-das-1", "resource": "https://niyogibooksindia.com/author/gourahari-das/"}, {"id": "gourahari-das-2", "resource": "https://niyogibooksindia.com/books/the-labyrinth/"}, {"id": "gourahari-das-3", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "gourahari-das-4", "resource": "https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp"}, {"id": "gourahari-das-5", "resource": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp"}, {"id": "gourahari-das-6", "resource": "https://sahitya-akademi.gov.in/awards/anuvad_samman_suchi.jsp"}]
+sources: [{"id": "gour-traveller", "resource": "https://gouraharidas.com/2019/07/11/gourahari-das/"}, {"id": "gour-klf", "resource": "https://kalingaliteraryfestival.com/speakers/gourahari-das/"}, {"id": "gour-kolkata", "resource": "https://kolkatalitmeet.in/2022/speakers/gourahari-das/"}, {"id": "gour-culprit", "resource": "https://www.thedreamingmachine.com/the-culprit-gourahari-das/"}, {"id": "gour-monks", "resource": "https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/"}, {"id": "gour-panchaparba", "resource": "https://gouraharidas.com/2019/08/03/panchaparba-2/"}, {"id": "gour-stage", "resource": "https://gouraharidas.com/2019/08/01/from-page-to-stage/"}, {"id": "gour-sarala", "resource": "https://www.imfa.in/impact"}, {"id": "gourahari-das-1", "resource": "https://niyogibooksindia.com/author/gourahari-das/"}, {"id": "gourahari-das-2", "resource": "https://niyogibooksindia.com/books/the-labyrinth/"}, {"id": "gourahari-das-3", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "gourahari-das-4", "resource": "https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp"}, {"id": "gourahari-das-5", "resource": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp"}, {"id": "gourahari-das-6", "resource": "https://sahitya-akademi.gov.in/awards/anuvad_samman_suchi.jsp"}, {"id": "pratikshya-title-choice", "resource": "https://www.dailypioneer.com/uploads/2022/epaper/december/bhubaneswar-english-edition-2022-12-14.pdf#page=2"}]
 series_intro: "Explore Gourahari Das through short stories, novels, journalism, translation, literary mentorship and adaptation."
 hero_image: "../media/cinema-series/portraits-2026-10-26/gourahari-das-2011.jpg"
 ---
@@ -61,11 +61,13 @@ For a first encounter, read “The Culprit” online. For a collection, explore 
 
 The IFFI account of **ପ୍ରତୀକ୍ଷା (Pratikshya)** credits a short story by Das as the film’s inspiration. Director **Anupam Patnaik** and lead actor **Dipanwit Dashmohapatra** bring another set of creative lives into that journey.[^film]
 
-The [film companion](../culture/cinema-series/pratikshya.md) explores the family drama. The original story’s title remains unidentified in the IFFI account. The adaptation nevertheless offers a way back to the writer, just as a book can send a reader towards theatre or a film.
+The [film companion](../culture/cinema-series/pratikshya.md) explores the family drama. Ashok Palit’s interview with Patnaik names the source story as *Bapa*.[^bapa-source] The adaptation offers a way back to the writer, just as a book can send a reader towards theatre or a film.
 
 A viewer coming from *Pratikshya* can return to Nimai and Sanatan in “The Culprit,” or to Draupadi’s dilemma in *The Labyrinth*. The film opens a door into a much larger body of writing.
 
 ## Footnotes & Sources
+
+[^bapa-source]: Ashok Palit, [interview with Anupam Patnaik](https://www.dailypioneer.com/uploads/2022/epaper/december/bhubaneswar-english-edition-2022-12-14.pdf#page=2), The Pioneer, 14 December 2022, p. 2.
 
 
 [^film]: Press Information Bureau, [IFFI53 account of Pratikshya](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Underlying story unnamed.

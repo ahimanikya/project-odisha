@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 936. completed: 161, excluded: 488, queued: 287.
+Route inventory: 939. completed: 161, excluded: 488, queued: 290.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -960,3 +960,6 @@ Route inventory: 936. completed: 161, excluded: 488, queued: 287.
 | POD-EDIT-DHAGA-242-20261101 | [ନିତି ମଳୁକୁ ଚାହାନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-242.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-243-20261101 | [ଝିଅ ମଲେ ଜୋଇଁ କାହାର ଗୋତ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-243.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-244-20261101 | [ଘୁ ଘୁ ଦେଖିଛି ଫାନ୍ଦ ଦେଖି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-244.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-BIBHUTI-PATTANAIK-20261102 | [Bibhuti Pattanaik: Books Within Reach](https://projectodisha.org/people/bibhuti-pattanaik/) | queued | Supplementary cinema writer profile outside the50-reading book sequence; local candidate only. |
+| POD-EDIT-SOLILA-PARIDA-20261103 | [Solila Parida: Carrying a Story Across Oceans](https://projectodisha.org/people/solila-parida/) | queued | Supplementary producer profile linked from literature and screen; outside50-reading book. Local candidate only. |
+| POD-EDIT-JATINDRA-NAYAK-20261103 | [Jatindra K. Nayak: Carrying the Voice Across](https://projectodisha.org/people/jatindra-k-nayak/) | queued | Supplementary translator companion linked fromBasanta; outside50-reading book. Localcandidate only. |
