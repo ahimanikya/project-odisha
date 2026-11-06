@@ -125,7 +125,7 @@ export function cinemaLineArt(html,slug,items=cinemaNarrative.line_art||[]){
   const heading=matches[0],next=headings[headings.indexOf(heading)+1];
   let at=item.placement==='before_heading'?heading.index:(next?.index??html.length);
   if(item.placement==='after_section'){
-   const onward=html.indexOf('<nav class="cinema-narrative-continue"',heading.index+heading[0].length);
+   const onward=html.indexOf('<!--cinema-onward-boundary-->',heading.index+heading[0].length);
    if(onward>=0&&onward<at)at=onward;
   }
   const pt=Number(item.width_pt??144);if(!Number.isFinite(pt)||pt<48||pt>240)throw Error('Invalid line-art width');
@@ -147,7 +147,7 @@ export function cinemaTailArt(html,slug,items=cinemaNarrative.book_tail_vignette
   const display=Math.min(240,160*width/height,width);
   const block=`<div class="cinema-line-art cinema-ending-art" data-line-art="${escape(item.id)}" style="--line-art-width:${display}px;--line-art-ratio:${width}/${height}"><img src="${file}" width="${width}" height="${height}" alt="${escape(item.alt||'')}" loading="lazy" decoding="async">${item.caption?`<p class="cinema-line-art-caption">${escape(item.caption)}</p>`:''}</div>`;
   const watch=html.search(/<h2\b[^>]*>Watch(?: and explore| an official introduction)<\/h2>/);
-  const onward=html.indexOf('<nav class="cinema-narrative-continue"');
+  const onward=html.indexOf('<!--cinema-onward-boundary-->');
   const placement=item.web_placement;
   if(!['before-watch','before-continue'].includes(placement))throw Error('Invalid ending drawing placement '+slug);
   const at=placement==='before-watch'?watch:onward;
@@ -238,9 +238,8 @@ export function cinemaArticle(entry){
  article.html=article.html.replace(/<picture>([\s\S]*?)<\/picture>/g,(whole,img)=>{const src=img.match(/src="([^"]+)"/)?.[1];return src?`<a class="cinema-full-image" href="${src}" aria-label="View complete image">${whole}</a>`:whole;});
  const portrait=hero.height>hero.width;
  const heroHTML=joinCinemaCitations(`<figure class="cinema-hero${portrait?' cinema-hero-portrait':''}" style="${figureStyle(hero,entry.slug)}"><a class="cinema-full-image" href="${hero.file}" aria-label="View complete image">${picture(hero,entry.hero.alt,true)}</a><figcaption>${heroDescription}</figcaption></figure>`);
- const onwardLink=cinemaOnward(entry);
- const onward=`<nav class="cinema-narrative-continue" aria-label="${escape(onwardLink.aria)}"><a href="${escape(onwardLink.href)}">${cinemaLinkTitle(onwardLink.label)}</a></nav>`;
- article.html=article.html.replace(/(?=<section (?:class="cinema-image-notes"|data-footnotes))/,onward);
+ // Navigation is rendered once by CinemaReading, after the reading itself.
+ article.html=article.html.replace(/(?=<section (?:class="cinema-image-notes"|data-footnotes))/, '<!--cinema-onward-boundary-->');
  article.html=article.html.replace(/<a\b([^>]*data-footnote-ref[^>]*)>(\d+)<\/a>/g,(_,attrs,n)=>`<a${attrs}${attrs.includes('aria-label=')?'':` aria-label="Source note ${n}"`}>${n}</a>`);
  article.html=article.html.replace(/aria-label="Back to reference (\d+)(?:-(\d+))?"/g,(_,n,occurrence)=>`aria-label="Return to citation ${n}${occurrence?', occurrence '+occurrence:''}"`);
  article.html=article.html.replace(/<li id="(user-content-fn-[^"]+)"/g,'<li id="$1" tabindex="-1"');

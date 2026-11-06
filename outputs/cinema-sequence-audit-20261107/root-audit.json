@@ -1,0 +1,98 @@
+{
+  "id": "POD-CINEMA-SEQUENCE-AUDIT-20261107-ROOT",
+  "date": "2026-11-07",
+  "status": "review_complete_recommendations_only",
+  "counts": {
+    "core_readings": 50,
+    "parts": 7,
+    "online_companions": 5,
+    "connected_substantive_readings": 55,
+    "utility_pages_excluded": 4
+  },
+  "scope": "Source and rendered local-page audit of main hub, reading guide, book landing page, chapter order and navigation. Not a new full-text fact audit of every article.",
+  "browser_review": {
+    "pages": [
+      "/cinema/",
+      "/cinema/reading-guide/#central-reading-route",
+      "/cinema/book/"
+    ],
+    "observations": [
+      "Hub and book say 50 readings in seven parts accurately.",
+      "Guide lists five companion profiles, absent from main hub.",
+      "Ten-reading route and full sequence are both present.",
+      "Book page distinguishes later online revisions from published PDFs."
+    ]
+  },
+  "navigation": {
+    "core_entries_unique": true,
+    "previous_next_links_correct": 98,
+    "broken_local_routes_or_fragments": 0,
+    "tests_passed": 11,
+    "duplicate_onward_targets": 43,
+    "central_vs_full_route_forks": 6
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "Clarify the Part 5 introduction: The Culprit and Bapa are different stories; Bapa is the reported source of Pratikshya.",
+      "proposed_sentence": "We meet Gourahari Das through “The Culprit,” then follow a different story of his, Bapa, into Pratikshya and its makers’ revisions."
+    },
+    {
+      "priority": 2,
+      "action": "Expose the five companions from the main hub and distinguish the 50 core readings from linked profiles."
+    },
+    {
+      "priority": 3,
+      "action": "Consolidate repeated onward controls; clearly distinguish the central reading route from the full collection at forks."
+    }
+  ],
+  "book_companion_recommendation": {
+    "status": "editorial_proposal_not_implemented",
+    "principle": "Include all five contributions in the book, using different lengths to protect the narrative flow.",
+    "short_standalone_readings": [
+      {
+        "name": "Bibhuti Pattanaik",
+        "placement": "Part 1, after Kanhu Charan and before Manglu Charan",
+        "reason": "A distinct writer, editor and reader-building story with documented novel-to-film and screenplay connections."
+      },
+      {
+        "name": "Solila Parida",
+        "placement": "Part 3, after Nandita Das",
+        "reason": "A distinct producer-led adaptation story spanning languages and places. This placement preserves the Pratikshya-to-DAMaN momentum in Part 5.",
+        "boundary": "Distinguish Odisha connection from the language of her films."
+      }
+    ],
+    "integrated_portraits": [
+      {
+        "name": "Fakir Mohan Senapati",
+        "placement": "Literature and Screen",
+        "reason": "Connect his narrative voice to adaptations without repeating existing close readings."
+      },
+      {
+        "name": "Pratibha Ray",
+        "placement": "Literature and Screen",
+        "reason": "Concentrate on literary circulation and cinema adaptations; retain the wider biography online."
+      },
+      {
+        "name": "Jatindra K. Nayak",
+        "placement": "Basanta Kumari Patnaik's translation discussion",
+        "reason": "Explain the human work of translation and reaching new readers; avoid presenting him as a filmmaker."
+      }
+    ],
+    "result_if_accepted": {
+      "core_readings": 52,
+      "additional_integrated_portraits": 3
+    },
+    "current_book_count_unchanged": 50
+  },
+  "preservation": {
+    "public_content_edited": false,
+    "reordered": false,
+    "published": false,
+    "pdf_rebuilt": false,
+    "images_changed": false,
+    "human_approval_claimed": false,
+    "programme_credit": 0
+  },
+  "next_action": "Discuss the proposed book treatments and navigation corrections with the user; implement only after this editorial decision."
+}
