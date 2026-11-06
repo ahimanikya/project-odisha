@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/badi-chura-editorial-2026-11-05.json",
+  "handoff_home": "records/tala-pitha-editorial-2026-11-06.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-114",
+    "route": "/food/tala-pitha/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/tala-pitha-editorial-2026-11-06.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-113",
-    "handoff": "records/badi-chura-editorial-2026-11-05.json"
+    "status": "implementation",
+    "article_id": "POD-EDIT-114",
+    "handoff": "records/tala-pitha-editorial-2026-11-06.json"
   },
   "parallel_programmes": [
     {
@@ -113,12 +119,18 @@
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
-    "kind": "article_receipt",
-    "article_id": "POD-EDIT-112",
-    "status": "completed_released",
-    "receipt_pr": 682,
-    "merge": "ccc9ddfbf112ae1b8e8c01ffe597c8f88eaebb5f",
-    "evidence": "outputs/ou-khatta-editorial-2026-11-04/receipt-integration/integration-delivery.json",
-    "note": "Actual postmerge delivery supersedes historical pending112 fields; old112 record bytes retained."
+    "original_current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-113",
+      "handoff": "records/badi-chura-editorial-2026-11-05.json"
+    },
+    "resolution": "COMPLETE_RELEASED",
+    "article_id": "POD-EDIT-113",
+    "receipt_pr": 684,
+    "receipt_merge": "30570364f3bdbef73e98f34d3e43882a5a3b6e22",
+    "delivery_sha256": "464088e4b40dde212e57cc850712d602c56df07980dd181d04f52031c9c98862",
+    "credit_added_here": 0
   }
 }
