@@ -1,0 +1,71 @@
+{
+  "status": "SCHEMA_AND_PORTABLE_PROPOSAL_READY_FOR_SEPARATE_REVIEW",
+  "checked_at": "2026-11-02T03:13:58.833777+00:00",
+  "input_head": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "article_id": "POD-EDIT-256",
+  "route": "/reading-room/economy/niyamgiri-rights-and-mining/",
+  "author_article_sha256": "0e4c9028516cda59b3d9e759190c486c4b6206b5bbc8f4119539fb8e584a5137",
+  "author_report_sha256": "7195bdc8efd2b21d2105e3dadbf0704ae55274b1bdaf263d13149b35369bb92a",
+  "artifacts": {
+    "niyamgiri-editorial.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/draft/niyamgiri-editorial.json",
+      "sha256": "994d321f7dd0b02cddd793a41df0429f29f6c64dc56bc2d48437a0df04aac7b8"
+    },
+    "portable-reading.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/draft/portable-reading.json",
+      "sha256": "4812693bad14c48e337df2ebd1b8560267b8f511e269237f5b29ca23e692aae4"
+    },
+    "parity.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/draft/parity.json",
+      "sha256": "8b7e49d480ba95fc73ce6474adc76036cca83c828b79524dd174d63f2fedfa37"
+    },
+    "portable-test.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/draft/portable-test.json",
+      "sha256": "38b4ab6585e5e661d97c07338794abe48a081c4a30ecdf68c291f14eb87f0064"
+    },
+    "package-schema.py": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/draft/package-schema.py",
+      "sha256": "6804066cee2cbdf51698f6293b1b990d74e33f44cb67c1ca1c359ebf35207e55"
+    },
+    "test-portable.mjs": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/draft/test-portable.mjs",
+      "sha256": "11beb30be835a106340cfe5cfbf5f97a99fb23cbce42a7760fcbc05478e66dcb"
+    }
+  },
+  "proposed_integration_fields": {
+    "presentation": "Explicit single-slug opt-in alongside existing generic reading-room behavior; no new route or duplicate article.",
+    "structured_data": "kb/research/economy/niyamgiri-editorial.json (proposed, not installed)",
+    "leadParagraphIndex": 0,
+    "narrative": "Eight paragraphs in five sections including untitled opening; four sources; six actual visible markers. Text and exact marker positions preserved in segments.",
+    "website_notes": "All four complete notes and their source links preserved exactly in segments/Markdown.",
+    "portable": "Exact opening in summary once; other seven paragraphs in practical. Four short exact source titles/URLs only, no full website notes. Article href retained for fuller notes.",
+    "claims": "Question and closing reflection keep author internal claim-map binding; no extra visible marker invented.",
+    "metadata": "No new description/dek/alt text; no duplicate lead; bibliography uses exact note-link titles.",
+    "navigation": "All four author Further-reading links verified against actual manifest/cache or existing repository structured-data target; collection return remains /reading-room/."
+  },
+  "source_budget": "No extra source-derived narrative introduced. Author conservative197/192/124/90 allocations remain unchanged; source-title repetition only. Same court aliases remain one lineage.",
+  "actual_tests": [
+    {
+      "command": "python3 package-schema.py",
+      "result": "PASS8paragraph/4note/6marker exact mapping, source identity and target checks"
+    },
+    {
+      "command": "Node24 test-portable.mjs",
+      "result": "PASS existing HTML/text download renderer in-memory: all8paragraphs exactly once, four short source titles/URLs and website link, no fullnotes"
+    }
+  ],
+  "preservation": {
+    "baseline_sha256": "516b76e817a6e78e78801039ba2a3d0b2cb132bfbf4a3ea94bc75685a4019006",
+    "files_exact": 7728,
+    "book_files_exact": 1377,
+    "git_status": ""
+  },
+  "history": [
+    "Initial portable test import used one parent directory too many and failed MODULE_NOT_FOUND before renderer execution; corrected output-only import path, actual test then passed."
+  ],
+  "limits": [
+    "No frontend implementation, site build, canonical/Git/source-research changes or public acceptance claim.",
+    "Targets checked against existing local manifest/cache/repository paths, not live network fetches.",
+    "Separate Drishti draft/schema approval remains required; technical parity is not independent factual review."
+  ]
+}

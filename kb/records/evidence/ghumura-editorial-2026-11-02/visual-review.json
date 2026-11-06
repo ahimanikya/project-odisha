@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ACTUAL_LOCAL_VISUAL_AND_DOWNLOAD_REVIEW",
+  "reviewer": "Drishti separate AI review",
+  "actual_individually_viewed_screenshots": {
+    "desktop-opening.png": "bdf7a142ac0a655d96cb4f1bd257dc99febb9a4ec3810fa5ba7912e7f74fbbfa",
+    "desktop-sources.png": "c45782cc93bbec46e588fc60de2383392f266aa9fdee38ede838f247adfd844c",
+    "phone-opening.png": "7cdc931a16cabf923c1dad541d0cdb62a20a458bfe031166a19320079464e323",
+    "phone-sources.png": "6b4470f5edeaabf2e0fb31a4f919076eaee88b50db9fdb8585c352662f818a35"
+  },
+  "browser_report_sha256": "8ffbcd667cc3cc47b0cc45daaa31b90f2b49481b975e69f2a9d3170403738bd3",
+  "schema_sha256": "a5885929ef4e314777c4b0b3c5a7c1517510014b475baa9dc339e49bc44cb705",
+  "actual_download_checks": {
+    "desktop-reading.html": {
+      "sha256": "913092061fddd050b3b1f865a42af35cbcb950af09931b7777139b3213eb1117",
+      "paragraphs": 11,
+      "complete_notes": 5,
+      "urls": 6
+    },
+    "phone-reading.html": {
+      "sha256": "913092061fddd050b3b1f865a42af35cbcb950af09931b7777139b3213eb1117",
+      "paragraphs": 11,
+      "complete_notes": 5,
+      "urls": 6
+    }
+  },
+  "findings": [
+    "Desktop1440 and phone390 openings and complete source-note screenshots legible; no clipping/overlap visible.",
+    "Dalkhai and listening-notebook restored in visible further reading.",
+    "All11body paragraphs and5complete notes independently found in each actual offline HTML; all6source URLs retained.",
+    "Reported16keyboard note-return pairs and save/reload are producer-executed actual Chrome evidence, not reviewer interaction."
+  ],
+  "binding_limit": "tested_head is baseline while implementation was uncommitted; exact schema hash verified. Final committed product/artifact binding still required.",
+  "limits": [
+    "No CUA session, physicalphone, assistive-technology, Firefox/WebKit or live deployment review claimed.",
+    "Only four actual screenshots viewed; do not claim exhaustive page pixels.",
+    "Final publication gates remain separate/pending."
+  ]
+}

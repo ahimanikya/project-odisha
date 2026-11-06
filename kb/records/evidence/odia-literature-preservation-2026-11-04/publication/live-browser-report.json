@@ -1,0 +1,94 @@
+{
+  "status": "PASS_ACTUAL_LIVE_CHROME_CHECKS",
+  "public_url": "https://projectodisha.org/stories/odia-literature-preservation/",
+  "deployment_run": 41782698753,
+  "deployed_merge": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+  "reviewed_candidate": "3acf25aea3eb1050ff56c464e08578d9a4936536",
+  "deployment_evidence": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/deployment-status.json",
+    "sha256": "45d78bcc9c56997362cdab6a19d0872e822a40796c9467c94c03d1cd16209e56"
+  },
+  "actual_local_source_head": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+  "binding_qualification": "Deployment evidence identifies the deployed merge; the browser does not independently infer server Git identity. All eleven reviewed site source blobs match the deployed merge and current local source. Raw helper working_tree_basis is a reusable generic label; this wrapper gives the actual committed-source/deployment basis.",
+  "actual_checks": {
+    "browser": "Headless Google Chrome",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "native_note_return_roundtrips": 22,
+    "paragraphs_exact_per_viewport": 21,
+    "save_reload": true,
+    "html_downloads": 2,
+    "text_downloads": 2,
+    "short_source_urls_per_download": 12,
+    "public_article_return_in_all_downloads": true,
+    "local_origin_absent_in_all_downloads": true,
+    "no_horizontal_overflow": true,
+    "pngs": 4
+  },
+  "evidence": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/browser-review.json",
+      "sha256": "d82b7df1c7c8a6affcebe7169933281c590932889a9b45a06ad0f9f3253def36",
+      "bytes": 2035
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/desktop-opening.png",
+      "sha256": "095f1d1bc8bcebb31810ecfc2e31bb869b044cf5b6988257337cd29c688e2b94",
+      "bytes": 91500
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/desktop-reading.html",
+      "sha256": "a338404ddedbf99353f569c142a108e98b9389b03db9ba11173ae9806119368e",
+      "bytes": 14156
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/desktop-reading.txt",
+      "sha256": "09bb50598fcdc0d56216eef145e40d066d837bd050dffe58c482e3ea61287ae7",
+      "bytes": 9732
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/desktop-sources.png",
+      "sha256": "c375c60f8b8355ab95950a9ae376f8c0aae5b7bfca8fa73450ba3720c22ce700",
+      "bytes": 142115
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/phone-opening.png",
+      "sha256": "397ef536db8fcf182fc0914e5fc5ff804d2a1dbad3409cd691f176797b550290",
+      "bytes": 67439
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/phone-reading.html",
+      "sha256": "a338404ddedbf99353f569c142a108e98b9389b03db9ba11173ae9806119368e",
+      "bytes": 14156
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/phone-reading.txt",
+      "sha256": "09bb50598fcdc0d56216eef145e40d066d837bd050dffe58c482e3ea61287ae7",
+      "bytes": 9732
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser/phone-sources.png",
+      "sha256": "5f9c666e5488febab2d3b402424994d900b623f695d760a2bfbd6655566de5fc",
+      "bytes": 82479
+    }
+  ],
+  "execution_log": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/live/browser-execution.log",
+    "sha256": "cbe314a71d9c32cab7bef3a0a70c8ea6a06b015934cff95897ef75e69bfbef7c"
+  },
+  "original_local_browser_evidence_unchanged": true,
+  "limitations": [
+    "No assistive-technology, Firefox or WebKit testing.",
+    "No per-source external destination content validation; Anvesha separately checks HTTP content and catalog parity.",
+    "Actual browser checks are not independent visual approval; Drishti reviews saved pixels/downloads separately."
+  ],
+  "no_build_or_source_changes": true
+}

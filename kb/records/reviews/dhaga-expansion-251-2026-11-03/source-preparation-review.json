@@ -1,0 +1,101 @@
+{
+  "status": "PASS_SOURCE_AND_PACKAGE_PARITY_PREPARATION_ONLY",
+  "input_head": "cceb1b4526ebe14d5dc88a1c506565e658c78378",
+  "source_review_reused": "B19 independent integrated and assembled reviews; no source retrieval or new interpretation",
+  "checks": {
+    "delivery_bindings": "All five B19 delivery bindings exact",
+    "package_manifest_files": 18,
+    "package_manifest_all_hashes_exact": true,
+    "draft_objects": [
+      {
+        "proposed_id": "POD-DHAGA-250",
+        "candidate_key": "anvesha-b19-01",
+        "file_sha256": "9f9dc0b8e271f2bdfc46ad9554ee92dced353ce0e163df28a627526447a97df5",
+        "all_reviewed_fields_exact": true,
+        "only_changes": [
+          "proposed id",
+          "graphic null",
+          "visible note-only lexical witness appended"
+        ],
+        "primary_source": "dhaga-wiktionary-131963",
+        "lexical_source": "dhaga-wiktionary-212713",
+        "lexical_note": "Lexical context only: mythological capital of Ravana. This source does not attest the full saying or establish traits of any present-day population; it belongs to the same dictionary lineage, not independent corroboration."
+      },
+      {
+        "proposed_id": "POD-DHAGA-251",
+        "candidate_key": "anvesha-b19-02",
+        "file_sha256": "566b8fba49abec25d534cfd27504b2215ae8001f773f9eb713490ef7034c4c5f",
+        "all_reviewed_fields_exact": true,
+        "only_changes": [
+          "proposed id",
+          "graphic null",
+          "visible note-only lexical witness appended"
+        ],
+        "primary_source": "dhaga-wiktionary-142938",
+        "lexical_source": "dhaga-wiktionary-227729",
+        "lexical_note": "Lexical context only: Puri and a form of the personal name Purushottama. This source does not attest the full saying or establish a pilgrimage, identified woman or actual death; it belongs to the same dictionary lineage, not independent corroboration."
+      }
+    ],
+    "sources": {
+      "used": 4,
+      "new_registry_ids": 4,
+      "research_only_excluded": 9,
+      "primary": [
+        "dhaga-wiktionary-131963",
+        "dhaga-wiktionary-142938"
+      ],
+      "lexical_only": [
+        "dhaga-wiktionary-212713",
+        "dhaga-wiktionary-227729"
+      ],
+      "capture_hashes_exact": true,
+      "rights_metadata_exact": true,
+      "same_lineage": "All four digital dictionary entries derive from Praharaj lineage; lexical citations are not independent full-saying corroboration."
+    },
+    "baseline_files_measured": 1406,
+    "baseline_files_unchanged": 1406,
+    "current_canonical_entries": 249,
+    "prior_entry_patches": 0
+  },
+  "interpretation_constraints": [
+    "Preserve original generalizing/gendered voices as historical source evidence; critical counterreadings are expressly our editorial readings, never attributed traditional counter-morals.",
+    "250 Lanka lexical context does not establish present-day group character, origin or epic authorship.",
+    "251 Purastama retains Puri/personal-name ambiguity. No specific pilgrimage, identified woman, death or named poet inferred.",
+    "Narrative credit remains Explanation by Project Odisha, informed by the sources below. Wikimedia credit concerns reused documentation, not invention of traditional expressions. CC BY-SA4.0 terms retained."
+  ],
+  "preservation": {
+    "coverage_ledger_sha256": "e6c00e7993523e2b0d2443133a4fada3ffa1bd0da27149451ff431b6df63538d",
+    "source127_sha256": "02e72991d421a612af49418c4e3b46336169693bb13eb3928992890e64863d9d",
+    "handoff_invariants_unchanged_by_full_file_parity": {
+      "pending": 75,
+      "1926_inventory": 103,
+      "1926_full": 31,
+      "1893_full": 2,
+      "1893_drafts": 83,
+      "programme": 134
+    },
+    "method_limit": "Full book hash equality validates unchanged existing ledger bytes; historical scan cursors were not re-researched. Programme134 retained as handoff constraint; no programme record writes."
+  },
+  "bindings": {
+    "outputs/dhaga-expansion-251-2026-11-03/HANDOFF.json": "acba75e68826abb64edb42582c9d3519eb79a499db062fa5834a0e663fdefaaf",
+    "outputs/dhaga-loop-2026-11-02/batch19/candidate-bundle.json": "4e5c182c3c8f90a97903f935a4da21a869f11d89c86db9244f4141bbe5b96fda",
+    "outputs/dhaga-loop-2026-11-02/batch19/delivery.json": "b2bc8b7089338495269bb839696e9300d56e54ceec59feb08d687a259b029c09",
+    "outputs/dhaga-loop-2026-11-02/batch19/anvesha/report.json": "44aa2043712cdae048a1899d36602c013ed3acbe30874c8cdb6a4228270da025",
+    "outputs/dhaga-loop-2026-11-02/batch19/anvesha/source-word-budgets.json": "93cd080b6171e056b8a57305d6096c9281e793cc59c6caa9fe25ec1ae91aa4eb",
+    "outputs/dhaga-loop-2026-11-02/batch19/drishti/integrated-review.json": "37bafe958a6462066353ec7e9b47f0b7528bd4bee7d01fcf2373a14003a82717",
+    "outputs/dhaga-loop-2026-11-02/batch19/drishti/assembled-review.json": "2dc0e9c853e0541f8078d68ca9cded7434ba13be2d2e2bcf92ce65bf439ddffd",
+    "outputs/dhaga-expansion-251-2026-11-03/samanta/manifest.json": "35f103ec3200897bbae40a4f5c8967993fb6a42eb240e48354cae15e2abc9694",
+    "outputs/dhaga-expansion-251-2026-11-03/samanta/report.json": "8a79989f2813fb66f1b0bde0e3b861a11d68e5bd070f3b006b0e3e8351621451",
+    "outputs/dhaga-expansion-251-2026-11-03/samanta/mapping.json": "77ab2ab48cc3bd64b524ca41efb0928ae53a5bff2ffcc84ef2f6109dd332805a",
+    "outputs/dhaga-expansion-251-2026-11-03/samanta/sources.json": "d7c48d96dc22a4408eeea8a1632e30ba157cfbd1de120b069c5a19c6a0e811f7",
+    "outputs/dhaga-expansion-251-2026-11-03/anvesha/baseline-book-hashes.json": "c86af05cef7227af5686229604b472efc9fce2b868960883108e4ba6cdb2ee56",
+    "outputs/dhaga-expansion-251-2026-11-03/anvesha/illustration-briefs.json": "eea4385aeb7571e86daa0bb001c9a20c73edb84adf1c3f36fb47a7b8c681c121"
+  },
+  "next": "Separate package/brief review. Any later generated illustration requires actual-pixel review and caption/alt reconciliation before production.",
+  "limits": [
+    "No canonical/Git writes, acceptance increment, programme credit, artwork generation or book build.",
+    "No new independent witness, print facsimile, origin or popularity claim.",
+    "Briefs are original visual proposals; they do not self-approve nonexistent artwork.",
+    "Canonical operations still contain historical receipt-integration wording; parent supplies completed666 release and current output-only HANDOFF. No ownership mutation by this task."
+  ]
+}

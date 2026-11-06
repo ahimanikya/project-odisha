@@ -1,0 +1,96 @@
+{
+  "task_id": "POD-TASK-ODIA-LITERATURE-PRESERVATION-20261104",
+  "article_id": "POD-EDIT-832",
+  "programme_id": "POD-A500-135",
+  "work_id": "POD-WORK-326",
+  "owner": "Disha",
+  "status": "published_verified_receipt_integration",
+  "input_head": "f99225b28444e3c17f7b94b556918d47d2c843eb",
+  "started_at": "2026-11-04T05:20:50.650657+00:00",
+  "route": "/stories/odia-literature-preservation/",
+  "authorization": "POD-DEC-225",
+  "founder_direction": "Publish299release then this Odia-only article in sequence; exclude Tamil and Mumbai examples.",
+  "acceptance": "Publish the exact separately source-reviewed Odia-only article with ten full notes, twelve source links, native note returns and complete saved-reading downloads. Require independent integrated and exact-head AI review, full/coastal/publication tests, actual responsive browser checks, passing CI, approved deployment, actual live verification and separately reviewed receipt before completion.",
+  "scope": "One sourced Odia literature preservation article: Odia Bibhaba/Srujanika, Recite World, Odia Wikisource and Odia Virtual Academy. Preserve all prior articles, cinema, Dhaga299 assets and historical research cursors.",
+  "prior_release": {
+    "receipt_pr": 673,
+    "merge": "f99225b28444e3c17f7b94b556918d47d2c843eb",
+    "remote_files_verified": 81,
+    "scope_released": true
+  },
+  "executions": [
+    {
+      "name": "Disha",
+      "scope": [
+        "kb/records/",
+        "kb/registers/",
+        "kb/team/operations.json",
+        "kb/research/stories/odia-literature-preservation.md",
+        "kb/research/stories/odia-literature-preservation.json",
+        "kb/research/sources/odia-literature-preservation-research.json",
+        "kb/reference/public-website-routes.json"
+      ],
+      "status": "active",
+      "scope_released": false
+    },
+    {
+      "name": "Anvesha",
+      "scope": [
+        "output-only source proposals and guarded live helpers"
+      ],
+      "status": "active",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "scope": [
+        "projects/site/src/pages/stories/odia-literature-preservation.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/data/discovery.ts",
+        "projects/site/editions/coast.json",
+        "projects/site/editions/search-candidate.json",
+        "projects/site/tests/odia-literature-preservation.test.mjs",
+        "projects/site/tests-coast/odia-literature-preservation.test.mjs",
+        "projects/site/tests-coast/cuttack-literature.test.mjs",
+        "projects/site/tests/build.test.mjs",
+        "projects/site/tests-coast/discovery-flow.test.mjs",
+        "projects/site/tests-coast/edition.test.mjs"
+      ],
+      "status": "active",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "scope": [
+        "output-only separate source, integrated, visual and exact-head review"
+      ],
+      "status": "active",
+      "scope_released": false
+    }
+  ],
+  "draft_review": {
+    "result": "PASS",
+    "kind": "separate AI review",
+    "evidence": "records/evidence/odia-literature-preservation-2026-11-04/odia-only-draft-review.json",
+    "sha256": "1c2ec2883e4c678cd9b9b25b9a53a8fe151093289d803784031d89fe6c3595c2"
+  },
+  "next_action": "Implement reserved site paths, independently review actual candidate, publish with full gates and retain finite claim through verified receipt.",
+  "scope_amendment": {
+    "file": "projects/site/tests/build.test.mjs",
+    "reason": "Actual full build has1006HTMLpages after one addedarticle; previous1005assertion is stale. Only expectedcount1005to1006 authorized.",
+    "evidence": "Actual03-tests.log retained in output implementation evidence; no weakened sibling assertions.",
+    "implementation": "Actual assertion uses fixed base147 plus dynamic route families; change fixedbase147to148 produces total1005to1006. Initial shorthand did not identify literal implementation."
+  },
+  "coast_scope_amendment": {
+    "reason": "Actual06-coast-tests failures: one addedarticle produces58vs57Readings,156vs155catalog and All-discoverycount+1.",
+    "files": [
+      "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs"
+    ],
+    "limits": "Only measuredcount increments; preserve prior sibling assertions and initialfailurelogs."
+  },
+  "publication": "records/odia-literature-preservation-editorial-publication-2026-11-04.json",
+  "live_review": "records/odia-literature-preservation-delivery-review-2026-11-04.json",
+  "scope_release": "Pending receipt exact review, CI, merge and remote verification."
+}

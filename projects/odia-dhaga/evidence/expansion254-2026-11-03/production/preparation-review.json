@@ -1,0 +1,101 @@
+{
+  "decision": "PASS",
+  "status": "PASS_OUTPUT_ONLY_PREPARATION_REVIEW",
+  "reviewer": "Drishti, separate AI review; no human review claimed",
+  "input_head": "c10f2bbcefec5a6347b3a045a65f749599a2a9bb",
+  "assigned_base": "1fb301f042e1d536688f4ebb518ea3ed476e3d5a",
+  "bindings": {
+    "HANDOFF.json": "f32a0e0fdfa9dffd73bb54b95dec2423e3a68e4564a88990f748df05054a1873",
+    "samanta/report.json": "4713feac4f6a1d06926a8b55be3ba89c2efc62d0cb3e0671f1541163b5837425",
+    "samanta/manifest.json": "7225c5913f86d714672f8147b876889feb37c1481040e1a652ca3d12cefd2761",
+    "samanta/import-package.py": "22ddbc6ed03535a1a3eb2de74effec1af17aa8323780cd431cedca1950cd15c2",
+    "samanta/baseline.json": "6c2464450c872f7c35fd9a446488e64461803ee0085086df88e5472859df898b",
+    "samanta/test-package.py": "b21cdc93b00f36d0a67606634115e42c315c7b1ab46f98720c6792813a3bb364",
+    "anvesha/source-parity.json": "17f68e61d3a4d3b112492af28180a6177b9b2065739122fb250ddef04ff1f9f1",
+    "anvesha/package-parity-addendum.json": "28c68b0e6ef5655a8e900dbdfb05a2e5d9823efe9e0dbeb256a99914c1e78475",
+    "anvesha/illustration-briefs.json": "d3a74f236c5e41f9e3d9e8b8300b1e72fbc6c73da8ab85d6b804d04d2f36307d",
+    "drishti/test-package-review.py": "3650659562fabccda969f966b30a83de5748c82c35b70a4b29a0d4981f5ff51d",
+    "drishti/test-results.json": "d371ed4a942bd08719def0c0269a8242212f9643b4b7e969a6aa5372de798a5a"
+  },
+  "checks": {
+    "manifest_files_exact": 17,
+    "entry_parity": [
+      {
+        "id": "POD-DHAGA-252",
+        "sha256": "0c38740a9a5de093ae2227da36c2d0bd6121460347a6381567d291e244a403b1",
+        "exact_except_id_graphic": true
+      },
+      {
+        "id": "POD-DHAGA-253",
+        "sha256": "901026f2cea4db4a660f83a856b8e376908b4041705bf2b05f1e5ba88fb940b6",
+        "exact_except_id_graphic": true
+      },
+      {
+        "id": "POD-DHAGA-254",
+        "sha256": "506a242d789443ba28ce03592569eca636b88a67afdbd404784d1f299cb0e627",
+        "exact_except_id_graphic": true
+      }
+    ],
+    "only_used_sources": [
+      "dhaga-wiktionary-208920",
+      "dhaga-wiktionary-172901",
+      "dhaga-wiktionary-72209"
+    ],
+    "source_identity_rights_credit_and_captures_exact": true,
+    "canonical_baseline_files_exact": 1428,
+    "independent_temporary_test_results": {
+      "status": "PASS",
+      "checks": [
+        "dry-run leaves all1428 baseline bytes unchanged",
+        "unauthorized apply refused",
+        "wrong baseline refused",
+        "actual temporary apply PASS",
+        "only four preexisting metadata files change; all251 entry/art bytes preserved",
+        "three source records added; original coverage source rows exact",
+        "repeat apply refused",
+        "isolated Git-checkout apply refused before package/baseline reads; canonical apply not attempted",
+        "optimized interpreter refused"
+      ],
+      "canonical_baseline_files_unchanged": 1428,
+      "no_art_or_build": true
+    }
+  },
+  "guard_assessment": [
+    "Importer rejects optimized Python before parsing arguments or touching book files; ordinary apply checks explicit authorization, Git ancestry, staging location, package hashes and complete baseline before writes.",
+    "Write map contains only four copied metadata files and absent new paths; linked immutable large assets/PDF are never write targets. No build invocation.",
+    "Reviewer copied harness into assigned output; package path remains original. Replaced canonical apply refusal with empty isolated Git-marked directory test; no canonical mutation attempt. Optimized invocation exits before all file reads.",
+    "Repeat, wrong baseline, unauthorized apply and optimized runtime refused; actual isolated dry/apply succeeded."
+  ],
+  "brief_review": [
+    {
+      "id": "252",
+      "decision": "PASS_BRIEF_ONLY",
+      "finding": "Imagined crowned figure and small flower illustrate textual exaggeration without historical costume, gender caricature, distress or pressure to ignore pain."
+    },
+    {
+      "id": "253",
+      "decision": "PASS_BRIEF_ONLY",
+      "finding": "Literal affectionate adult/dog encounter; distinct muzzle/face/hand, four grounded paws and provisional near-lick caption avoid degrading human analogy or animal-care claims."
+    },
+    {
+      "id": "254",
+      "decision": "PASS_BRIEF_ONLY",
+      "finding": "Same organizer removes/restores one sheet in paired views; explicitly imagined editorial manufactured-problem reading, no witch/healer depiction. Static pixels cannot prove intent; final caption must remain scenario framing and actual image must support sequence/geometry."
+    }
+  ],
+  "source_limits": [
+    "Exact digital dialect and source labels retained; no new lexical witnesses or context-only mapping.",
+    "Social readings are explicitly editorial, not supplied traditional moral, supernatural fact, historical queen or gender/health rule.",
+    "B20 budget correction reused without new prose: total narrative223/219/221; source allocations distinct, reviewer conservative third196.",
+    "Single dictionary lineage, no new print collation, independent origins or popularity claims."
+  ],
+  "preservation": [
+    "251 prior entry/art bytes unchanged; original source coverage rows,75pending and historical cursors preserved. Only isolated stage count254 proposed; zero accepted increment.",
+    "K109 records commit explains current head delta; canonical book unchanged and separate scope unaffected."
+  ],
+  "limits": [
+    "No source retrieval, artwork generation, pixel approval, HTML/PDF build, canonical/Git edits or publication.",
+    "Actual art/production review and separate canonical authorization remain future gates."
+  ],
+  "scope_released": true
+}

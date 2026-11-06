@@ -1,0 +1,127 @@
+{
+  "decision": "PASS",
+  "status": "PASS_SEPARATE_RESEARCH_REVIEW",
+  "reviewer": "Drishti — separate AI review, not human review",
+  "input_head": "1fb301f042e1d536688f4ebb518ea3ed476e3d5a",
+  "bindings": {
+    "HANDOFF.json": "c70091bcb2e60abc79b3f36aeaea76b972c26ff7555c5992c6bcddb5ef0c2dcc",
+    "anvesha/candidates.json": "6a64206df02473e1ca9e74d07b9307655315fca20f22a15713578b035d5bd777",
+    "anvesha/report.json": "8ef4e5af45250c95b28abc8223043bf2413692dbb46894fdb93ad697643f08e6",
+    "anvesha/originals.json": "3ba81258104b078894e2160da878923b2e0d54e9134f4504daf262ed5bb8bc7b",
+    "anvesha/sources.json": "2c7fcd1961823564b0cf13689bcd752653e37d704ece4a499be6ee56f75df417",
+    "anvesha/dispositions.json": "27f64b23b9878f8864d05d09a24150d6e8f846ed7d9a0d81bce14ff0b7cdc8d4",
+    "anvesha/source-coverage.json": "c1b31484406d5cc787a14cbf32644b1a39e0a831451d8d38dbe92314dd02171f",
+    "samanta/report.json": "934e8b9af9439aa9efead2bf4bb6e5571a86ebde0c1876c0efab72d88c3f4150",
+    "samanta/baseline.json": "1ca8e82b2dc41f62450a8ec6bb2d33a71e5f27ad34105b220e2666763fbd28dc",
+    "drishti/check.py": "0031da808cfeae1d39b8a2da47cbe0b71353c81b2448a8cdfccb9233bda98292",
+    "drishti/check-results.json": "b0fd94b67d0d433d5e699ed18b520161477af2fc55ed76bfa71b4f879f26e48c",
+    "drishti/budget-check.json": "3808b7dd9fe60f53c42f2a17d7743e7feffa536ec1714af85c5a77741fc83a7c"
+  },
+  "findings": [
+    {
+      "candidate": "anvesha-b20-01",
+      "finding": "Exact flower-weight/queen wording and light-weight definition preserved. Exaggerated delicacy/social teasing are labelled editorial readings; no historical queen, universal gender trait or judgment of pain inferred."
+    },
+    {
+      "candidate": "anvesha-b20-02",
+      "finding": "Exact dialect spelling retained. Excessive affection to face-licking differs from 156 help to urination and ingratitude. Self-directed boundaries interpretation and invented club example are editorial, not supplied traditional usage or animal-care advice."
+    },
+    {
+      "candidate": "anvesha-b20-03",
+      "finding": "Exact paired afflicter/healer roles retained. Same-agent manufactured-problem/claimed-relief reading is explicitly editorial in both languages; source itself supplies possession vocabulary without a figurative-use gloss. No supernatural or medical fact asserted."
+    }
+  ],
+  "source_and_deferral_review": {
+    "full_originals_read": [
+      4728,
+      7986,
+      24188,
+      33717,
+      40627,
+      48811,
+      64054,
+      68567,
+      83170,
+      99601
+    ],
+    "deferrals": "All seven tied to specific referent, agency, lexical or contextual uncertainty; historical sensitivity alone is not a reason to prohibit critical treatment. No silent repairs.",
+    "rights": "Ten recorded API sources carry CC BY-SA4.0 attribution; one dictionary lineage, not ten independent attestations. Three used revision IDs only; no note-only extra source required.",
+    "transcription": "Exact digital wording and source labels preserved; normalized_odia null; regional spelling retained.",
+    "aliases": "48812/64055 remain snippet-only family leads; zero extra count or verified full identity."
+  },
+  "semantic_review": {
+    "actual_full_objects_read": [
+      "026",
+      "045",
+      "145",
+      "151",
+      "156",
+      "159",
+      "214",
+      "220",
+      "221",
+      "234"
+    ],
+    "result": "No blocking duplicate found in bounded actual comparisons. Dog156 help/harm differs from affection/face-licking; 026 discord manipulation lacks claimed cure; flower220 reproach differs from exaggerated delicate burden. Samanta additional full comparisons inspected in report; those extra objects are producer evidence, not claimed independently reread."
+  },
+  "budget_review": {
+    "decision": "PASS",
+    "allocations": [
+      {
+        "candidate": "anvesha-b20-01",
+        "total_narrative_words": 223,
+        "author_ceiling": 188
+      },
+      {
+        "candidate": "anvesha-b20-02",
+        "total_narrative_words": 219,
+        "author_ceiling": 183
+      },
+      {
+        "candidate": "anvesha-b20-03",
+        "total_narrative_words": 221,
+        "author_ceiling": 188
+      }
+    ],
+    "reviewer_qualification": "For03, rhetorical role-change commentary is reasonably source-responsive. Counting its13 words back and excluding the independently authored5-word editorial title gives a stricter196-word allocation. Original hypothetical applications, dignity/evidence limitations and labelled invented examples are not dictionary paraphrases. Total narrative words are explicitly223/219/221, not below200.",
+    "historical_report_exact": true
+  },
+  "checks": {
+    "decision": "PASS",
+    "input_head": "1fb301f042e1d536688f4ebb518ea3ed476e3d5a",
+    "original_api_capture_revision_rights_pairs": 10,
+    "exact_witnesses": 3,
+    "canonical_entries_compared": 251,
+    "baseline_hashes_exact": 1428,
+    "assembly_objects_exact": true,
+    "bindings": {
+      "anvesha/candidates.json": "6a64206df02473e1ca9e74d07b9307655315fca20f22a15713578b035d5bd777",
+      "anvesha/report.json": "8ef4e5af45250c95b28abc8223043bf2413692dbb46894fdb93ad697643f08e6",
+      "samanta/report.json": "bec053b08dcca227ee30caa5c4ab87d340f8ee852cd30fad17d3d0d52197b81a",
+      "samanta/baseline.json": "1ca8e82b2dc41f62450a8ec6bb2d33a71e5f27ad34105b220e2666763fbd28dc",
+      "candidate-bundle.json": "b88a9caafdf9429307cf3666c703033308ccfad32df84e7c381133f13c2c2679"
+    },
+    "limits": [
+      "Exact normalization does not prove semantic uniqueness; separate prose assessment required.",
+      "No network, canonical writes, builds or acceptance."
+    ]
+  },
+  "accounting": {
+    "full_heads": 10,
+    "quoted_positions": 10,
+    "proposals": 3,
+    "deferrals": 7,
+    "used_sources": 3,
+    "accepted_increment": 0
+  },
+  "correction_history": "Original general budget claim retained in author history; explicit allocation now reviewed. All candidate wording, sources and dispositions unchanged. Preliminary reviewer findings retained.",
+  "recommendation": "Three proposals may proceed to a separately authorized preparation phase; retain seven specific deferrals. No automatic acceptance, canonical patch or publication.",
+  "limits": [
+    "Digital dictionary lineage, no printed scans or independent attestation.",
+    "No fresh retrieval, canonical edits, art, builds or publication.",
+    "Bounded semantic comparison is not proof of universal uniqueness.",
+    "Source-responsive editorial interpretation is not an attested traditional moral.",
+    "No art, printed-facsimile or rendered publication review at this phase."
+  ],
+  "scope_released": true
+}

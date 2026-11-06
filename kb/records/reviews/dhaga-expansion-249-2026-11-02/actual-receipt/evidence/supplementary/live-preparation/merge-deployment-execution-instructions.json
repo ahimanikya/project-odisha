@@ -1,0 +1,118 @@
+{
+  "status": "INSTRUCTIONS_ONLY_NO_LIVE_OR_SYNC",
+  "actual_merge": "b695f6ca3093320a2fbb141f65e3df21789a81fc",
+  "dispatched_run": 41482664751,
+  "deployment_success": null,
+  "reviewed_candidate": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "repair": {
+    "original_sha256": "3175f630b0af750d6a5badce1c3d2a1aa29f532cd0a244d4cbb79054822a296e",
+    "repaired_sha256": "4aafbcc6dd873329755eaf06e35c619212dca54ac456069bd4892042503d9936",
+    "reason": "Valid Python tuple-key defect, not syntax error: final-review lookup would raise KeyError after pending fields cleared. Replaced tuple key with intended final_review_sha256 scalar key only. Earlier message calling it syntax error was incorrect.",
+    "initial_edit_attempt": "Assertion failed before writes because search string assumed a different malformed form; no plans changed."
+  },
+  "offline_tests": [
+    {
+      "test": "synthetic complete guard positive path",
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "test": "review hash mismatch",
+      "exit": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from deployment_guard import verify_deployment;verify_deployment()\n                                                   ~~~~~~~~~~~~~~~~~^^\n  File \"/private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/tmplzmbw3lk/deployment_guard.py\", line 13, in verify_deployment\n    assert h(Path(p['final_review_path']))==p['final_review_sha256']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "test": "pending deployment",
+      "exit": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from deployment_guard import verify_deployment;verify_deployment()\n                                                   ~~~~~~~~~~~~~~~~~^^\n  File \"/private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/tmplzmbw3lk/deployment_guard.py\", line 9, in verify_deployment\n    assert all(p.get(k) for k in required),'Final reviewed candidate fields pending'\n           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Final reviewed candidate fields pending\n"
+    },
+    {
+      "test": "wrong merge",
+      "exit": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from deployment_guard import verify_deployment;verify_deployment()\n                                                   ~~~~~~~~~~~~~~~~~^^\n  File \"/private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/tmplzmbw3lk/deployment_guard.py\", line 16, in verify_deployment\n    assert head==p['expected_merge'] and run==str(p['expected_deployment_id']),'Actual approved deployment binding required'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Actual approved deployment binding required\n"
+    }
+  ],
+  "resume_steps": [
+    "Wait for coordinator authorization and actual completed/success deployment status JSON: databaseId41482664751, headSha b695f6ca3093320a2fbb141f65e3df21789a81fc. Dispatch alone is insufficient.",
+    "Preserve exact current plan.json and candidate-plan.json in versioned history. Change only plan.expected_merge and expected_deployment_id to actual successful deployment facts.",
+    "Update only candidate-plan.plan_sha256 to the new plan.json SHA256. Keep every frozen public/PDF/companion/source hash and candidate head unchanged. Do not rerun prepare-candidate or prepare-sync from receipt branch.",
+    "Run the three live commands separately with environment below; preserve failure/raw reports before any retry. Only exact both-side21known image pairs and29responsive pairs qualify; new mismatches need independent review.",
+    "After live/browser/separate review PASS and explicit root copy authorization, create sync-authorization.json using contract below. Then RUN_AUTHORIZED_SYNC=1 python3 sync-local.py. Retain tests/backups/post-test hash results."
+  ],
+  "live_environment": {
+    "RUN_AUTHORIZED_LIVE": "1",
+    "DEPLOYMENT_ID": "41482664751",
+    "DEPLOYED_HEAD": "b695f6ca3093320a2fbb141f65e3df21789a81fc"
+  },
+  "commands": [
+    "python3 verify-live.py",
+    "python3 verify-supplemental-live.py",
+    "python3 verify-companion-main.py"
+  ],
+  "sync_authorization_contract": {
+    "result": "PASS only after actual gates",
+    "approved_candidate_head": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+    "candidate_plan_sha256": "actual SHA256(sync-candidate-plan.json)",
+    "baseline_sha256": "actual SHA256(local-baseline.json)",
+    "merge": "actual merge above",
+    "deployment_id": 41482664751,
+    "gates": {
+      "deployment": {
+        "path": "absolute actual report path",
+        "sha256": "actual hash",
+        "result": "PASS after inspection"
+      },
+      "live_reader": {
+        "path": "absolute actual report path",
+        "sha256": "actual hash",
+        "result": "PASS after inspection"
+      },
+      "live_pdf": {
+        "path": "absolute actual report path",
+        "sha256": "actual hash",
+        "result": "PASS after inspection"
+      },
+      "companions": {
+        "path": "absolute actual report path",
+        "sha256": "actual hash",
+        "result": "PASS after inspection"
+      },
+      "browser": {
+        "path": "absolute actual report path",
+        "sha256": "actual hash",
+        "result": "PASS after inspection"
+      },
+      "separate_review": {
+        "path": "absolute actual report path",
+        "sha256": "actual hash",
+        "result": "PASS after inspection"
+      }
+    },
+    "separate_review_fields": [
+      "decision=PASS",
+      "reviewed_head=candidate",
+      "deployed_merge=actual merge",
+      "deployment_id=actual run"
+    ]
+  },
+  "counts": {
+    "public_files": 507,
+    "html": 252,
+    "source_products": 762,
+    "local_baseline": 1266,
+    "protected_extras": 516,
+    "pdf_pages": 159
+  },
+  "preserved_plan_hashes": {
+    "plan.json": "7ad25d6bdd038505285eba5b72ce25ba56482fb85f49736c392b6dcd3c9158a1",
+    "candidate-plan.json": "ab6f2b8b2dc619229d0f6d59dba9f322b263b0da225f5ef90af8befeda6ae8c4",
+    "sync-candidate-plan.json": "533e77605e8d61407b2ab063a69cfab853fbeafd04a4c677146679d8f1206cb4",
+    "local-baseline.json": "0a08da9ec13d42e1cf4672038b55555e23d896e5e4cc4923c5316bf82d5f3751",
+    "final-freeze-report.json": "e0f33f9bac1b2979bb42e2b95a187bdfe98cca7d4dfc1cde2e1d600b93dc0505"
+  },
+  "limits": [
+    "All positive tests synthetic offline fixtures only, not deployment evidence.",
+    "No network, plan mutation, local reader copy, canonical/Git changes.",
+    "Separate review of repair required before use."
+  ]
+}

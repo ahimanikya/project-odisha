@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-07",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1599,13 +1599,6 @@
       "blocker": null,
       "completed_at": "2026-10-20T05:05:08.039215+00:00",
       "publication_receipt": "records/six-acres-editorial-publication-2026-10-20.json",
-      "local_revision_followup": {
-        "record": "records/cinema-integration-2026-11-04.json",
-        "status": "local_revision_reviewed_not_published",
-        "source": "kb/research/voices/collection.json",
-        "source_sha256": "162f6eacc7708550209e498ebe499acf4a86a99805fd23d27e816618613306b3",
-        "date": "2026-11-04"
-      },
       "local_revision_history": [
         {
           "record": "records/cinema-jatindra-nayak-2026-11-03.json",
@@ -1614,7 +1607,14 @@
           "scope": "Shared Six Acres translator credit only; source mappings and notes updated.",
           "source_sha256": "e84449e18f0ae0f77b66cf13e559c4e2df251e187848fac27d48538a1132d5b5"
         }
-      ]
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/voices/collection.json",
+        "source_sha256": "162f6eacc7708550209e498ebe499acf4a86a99805fd23d27e816618613306b3",
+        "date": "2026-11-04"
+      }
     },
     {
       "id": "POD-EDIT-046",
@@ -1665,13 +1665,6 @@
       "started_at": "2026-10-20T06:11:19.448769+00:00",
       "completed_at": "2026-10-20T06:29:20.562550+00:00",
       "publication_receipt": "records/pratibha-editorial-publication-2026-10-20.json",
-      "local_revision_followup": {
-        "record": "records/cinema-pratibha-loc-reading-2026-11-03.json",
-        "status": "reviewed_not_published",
-        "date": "2026-11-03",
-        "publication_performed": false,
-        "review": "outputs/pratibha-loc-reading-20261103/review.json"
-      },
       "local_revision_history": [
         {
           "record": "records/pratibha-publishing-2026-11-02.json",
@@ -1679,7 +1672,14 @@
           "date": "2026-11-02",
           "publication_performed": false
         }
-      ]
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-pratibha-loc-reading-2026-11-03.json",
+        "status": "reviewed_not_published",
+        "date": "2026-11-03",
+        "publication_performed": false,
+        "review": "outputs/pratibha-loc-reading-20261103/review.json"
+      }
     },
     {
       "id": "POD-EDIT-048",
@@ -2817,111 +2817,186 @@
       "id": "POD-EDIT-106",
       "route": "/languages/districts/kalahandi/",
       "title": "Kalahandi · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/kalahandi-language-utility-review-2026-11-01.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually verified Census2011 district395 reference utility: calculated opening and parent/member/residence tables, common interpretation guidance and six dynamic language-story links. No configured destination or district-specific related narrative. Preserve the utility and separate authored narratives; no article or programme completion credit."
     },
     {
       "id": "POD-EDIT-107",
       "route": "/languages/districts/rayagada/",
       "title": "Rayagada · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/rayagada-language-utility-review-2026-11-02.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Actual396route is generated historical Census district reference: computed largest-group opening, residence totals, parent/member tables and common interpretation prompts. No configured destination or related authored narrative appears on this route; nine linked language introductions remain separate authored work. Only107 proposed for utility classification. Preserve the utility, all nine language links and separate cultural narratives; no cultural-absence inference."
     },
     {
       "id": "POD-EDIT-108",
       "route": "/languages/districts/nabarangapur/",
       "title": "Nabarangapur · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/nabarangapur-language-utility-review-2026-11-03.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Actual route is generated for Census district397 from shared district template and numeric tables. Its introductory/context paragraphs explain historical statistics and invite further language reading; no sustained separately authored Nabarangapur narrative is present. This finding is based on this route, its complete original rows and actual configured links, not sibling classification. Preserve eight language links and all separate authored narratives; no cultural-absence inference."
     },
     {
       "id": "POD-EDIT-109",
       "route": "/languages/districts/koraput/",
       "title": "Koraput · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/koraput-language-utility-review-2026-11-03.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected Census2011 district398 statistical utility: generated total/rural/urban tables and shared interpretation guidance, with nine language-story links and one Kotpad editorial reading connection. The actual Kotpad link is preserved and does not constitute a sustained Koraput-specific authored body on this statistical route. Exclude only109 from sustained-article rollout; preserve the public route, data and all connections."
     },
     {
       "id": "POD-EDIT-110",
       "route": "/languages/districts/malkangiri/",
       "title": "Malkangiri · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/malkangiri-language-utility-review-2026-11-03.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected Census district399 statistical utility, outside sustained authored-article rollout. Preserve route, tables and nine language-story links; no cultural-absence inference."
     },
     {
       "id": "POD-EDIT-111",
       "route": "/food/everyday/",
       "title": "The everyday Odisha table",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": "projects/site/src/pages/food/everyday.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/everyday-food-utility-review-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected authored food collection/navigation page, outside sustained standalone-article rollout. Preserve public framing, five linked dish stories, photographs, credits, sources, saved identities and navigation; no cultural-absence or child-story completion inference."
     },
     {
       "id": "POD-EDIT-112",
       "route": "/food/ou-khatta/",
       "title": "Ou khatta",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "substantive_editorial_revision",
+      "source_template": "kb/research/food/collection.json#pages/ou-khatta",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing licensed photograph and credit preserved; actual live image review bound separately. No new imagery.",
+        "delivery_receipt": "records/ou-khatta-editorial-publication-2026-11-05.json",
+        "separate_review": "records/ou-khatta-delivery-review-2026-11-05.json"
+      },
+      "evidence": [
+        "records/ou-khatta-editorial-2026-11-04.json",
+        "records/ou-khatta-editorial-publication-2026-11-05.json",
+        "records/ou-khatta-delivery-review-2026-11-05.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T22:11:36.477Z",
+      "publication_receipt": "records/ou-khatta-editorial-publication-2026-11-05.json"
     },
     {
       "id": "POD-EDIT-113",
       "route": "/food/badi-chura/",
       "title": "Badi chura",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Publish a substantive source-supported Badi chura revision at /food/badi-chura/: exact reviewed lead, five paragraphs, two headings and two numbered notes with Founder byline. Explain dried badi, frying/dry-roasting, coarse preparation and one named meal account without universal origin, storage, health or tested-recipe claims. Preserve photo licence/credit, food:badi-chura Save ID, two source IDs and four reading links. Replace old same-route collection/KB summaries, maintain aggregate source budgets198/168 and short portable titles. Require exact KB/site/portable parity, full/coast/publication gates, responsive browser/download review, independent integrated/exact-head review, requiredCI success, reviewed merge and approved successful deployment, actual live checks and separate reviewed receipt before completion.",
+      "source_template": "projects/site/src/pages/food/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing licensed photograph and credit preserved; actual live image review bound separately. No new imagery.",
+        "delivery_receipt": "records/badi-chura-editorial-publication-2026-11-05.json",
+        "separate_review": "records/badi-chura-delivery-review-2026-11-05.json"
+      },
+      "evidence": [
+        "records/badi-chura-editorial-2026-11-05.json",
+        "records/badi-chura-editorial-publication-2026-11-05.json",
+        "records/badi-chura-delivery-review-2026-11-05.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-05T07:56:14.056458+00:00",
+      "completed_at": "2026-11-05T16:10:46.992Z",
+      "publication_receipt": "records/badi-chura-editorial-publication-2026-11-05.json"
     },
     {
       "id": "POD-EDIT-114",
       "route": "/food/tala-pitha/",
       "title": "Tala pitha",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Publish the reviewed substantive Tala pitha preparation contrast at /food/tala-pitha/: exact two attributed paragraphs, lead, By Ahimanikya Satapathy and two native numbered notes. Preserve separate baked/fried sequences, unspecified Delite maturity/temperature scale, no tested recipe or statewide/season/storage/health claims. Replace old same-route summaries;112 words per new source across article surfaces;114 across all reviewed surfaces, including two additional compact-title words from everyday website and portable references, short source titles, no additional Panda/Gapu derivation. Preserve photo licence/credit without attributing it to either recipe, food:tala-pitha SaveID, three reading links, unrelated Talagaja and source records. Require exact KB/site/portable parity, complete gates, responsive browser/download and separate integrated/exact-head review, CI success, reviewed merge, successful authorized deployment, actual live verification and separately reviewed receipt before any completion credit.",
+      "source_template": "projects/site/src/pages/food/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing Commons photograph preserved, not claimed as either recipe author’s pictured dish.",
+        "delivery_receipt": "records/tala-pitha-editorial-publication-2026-11-06.json",
+        "separate_review": "records/tala-pitha-delivery-review-2026-11-06.json"
+      },
+      "evidence": [
+        "records/tala-pitha-editorial-2026-11-06.json",
+        "records/evidence/tala-pitha-editorial-2026-11-06/local-implementation/source-manifest.json",
+        "records/tala-pitha-editorial-publication-2026-11-06.json",
+        "records/tala-pitha-delivery-review-2026-11-06.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-06T07:23:02.231087+00:00",
+      "completed_at": "2026-11-06T12:33:23.766Z",
+      "publication_receipt": "records/tala-pitha-editorial-publication-2026-11-06.json"
     },
     {
       "id": "POD-EDIT-115",
       "route": "/food/fire-cooking/",
       "title": "Odisha cooks with fire",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": "projects/site/src/pages/food/fire-cooking.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/fire-cooking-utility-review-2026-11-06.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected authored food collection/navigation page, outside sustained standalone-article rollout. Preserve public framing, three linked preparation chapters, two onward dish stories, photographs, credits, sources, saved identities and navigation; no cultural-absence or child-story completion inference."
     },
     {
       "id": "POD-EDIT-116",
@@ -4495,13 +4570,29 @@
     {
       "id": "POD-EDIT-256",
       "route": "/reading-room/economy/niyamgiri-rights-and-mining/",
-      "title": "Niyamgiri: mining decisions, community rights and a sacred landscape — Research notes",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "title": "Niyamgiri: the landscape behind the decision",
+      "status": "completed",
+      "scope": "substantive_existing_article",
+      "source_template": "projects/site/src/pages/reading-room/[...slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/niyamgiri-editorial-publication-2026-11-02.json",
+        "separate_review": "records/niyamgiri-editorial-delivery-review-2026-11-02.json"
+      },
+      "evidence": [
+        "records/niyamgiri-editorial-team-2026-11-02.json",
+        "records/niyamgiri-editorial-publication-2026-11-02.json",
+        "records/niyamgiri-editorial-delivery-review-2026-11-02.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-02T05:09:04.431259+00:00",
+      "publication_receipt": "records/niyamgiri-editorial-publication-2026-11-02.json"
     },
     {
       "id": "POD-EDIT-257",
@@ -5920,12 +6011,28 @@
       "id": "POD-EDIT-385",
       "route": "/stories/ghumura/",
       "title": "Ghumura: the drum carried into the dance",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "Substantive evidence-backed Ghumura revision, shared reading treatment, complete portable narrative and reviewed publication receipt",
       "source_template": "projects/site/src/pages/stories/ghumura.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/ghumura-editorial-publication-2026-11-02.json",
+        "separate_review": "records/ghumura-editorial-delivery-review-2026-11-02.json"
+      },
+      "evidence": [
+        "records/ghumura-editorial-team-2026-11-02.json",
+        "records/ghumura-editorial-publication-2026-11-02.json",
+        "records/ghumura-editorial-delivery-review-2026-11-02.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-02T01:35:03.425383+00:00",
+      "publication_receipt": "records/ghumura-editorial-publication-2026-11-02.json"
     },
     {
       "id": "POD-EDIT-386",
@@ -12911,6 +13018,13 @@
       "human_review_claimed": false,
       "next_action": "Reader feedback and further source-supported research remain welcome.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/maya-miriga.md",
+        "source_sha256": "420f45499b2785c6b34f28ebf8f458abd17925482ae36761695cecd4f3dc4962",
+        "date": "2026-11-04"
+      },
       "local_revision": {
         "record": "records/cinema-maya-family-2026-11-02.json",
         "status": "reviewed_local_candidates_browser_spot_check_pending",
@@ -12918,13 +13032,6 @@
         "published": false,
         "browser_spot_check": "pending; preview API unavailable",
         "preserves_prior_publication_receipt": true
-      },
-      "local_revision_followup": {
-        "record": "records/cinema-integration-2026-11-04.json",
-        "status": "local_revision_reviewed_not_published",
-        "source": "kb/research/culture/cinema-series/maya-miriga.md",
-        "source_sha256": "420f45499b2785c6b34f28ebf8f458abd17925482ae36761695cecd4f3dc4962",
-        "date": "2026-11-04"
       }
     },
     {
@@ -13350,15 +13457,6 @@
       "human_review_claimed": false,
       "next_action": "Current theatre-memory addition is independently reviewed locally and remains unpublished; earlier publication evidence preserved.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
-      "local_revision": {
-        "date": "2026-11-03",
-        "status": "reviewed_not_published",
-        "record": "records/cinema-aadim-source-book-2026-11-03.json",
-        "source_sha256": "618e2413cd3d38783e0727c065c560a9cd9fab5bd1e162170298c5e8c52d3b77",
-        "scope": "Attributed source-story title, compact note and literature link; previous prose and images retained.",
-        "review": "outputs/aadim-source-book-20261103/review.json",
-        "validation": "outputs/aadim-source-book-20261103/validation.json"
-      },
       "local_revision_followup": {
         "record": "records/cinema-atal-theatre-2026-11-05.json",
         "date": "2026-11-05",
@@ -13367,6 +13465,15 @@
         "source_sha256": "7bca1760de85ed791daf38fdeb24e093ef0fa0a0f0b22817fe376ccb69ffead1",
         "implementation": "outputs/atal-theatre-20261105/implementation.json",
         "published": false
+      },
+      "local_revision": {
+        "date": "2026-11-03",
+        "status": "reviewed_not_published",
+        "record": "records/cinema-aadim-source-book-2026-11-03.json",
+        "source_sha256": "618e2413cd3d38783e0727c065c560a9cd9fab5bd1e162170298c5e8c52d3b77",
+        "scope": "Attributed source-story title, compact note and literature link; previous prose and images retained.",
+        "review": "outputs/aadim-source-book-20261103/review.json",
+        "validation": "outputs/aadim-source-book-20261103/validation.json"
       }
     },
     {
@@ -13518,15 +13625,6 @@
       "human_review_claimed": false,
       "next_action": "Publication of this reviewed local revision remains separate. The next source-led research candidate belongs in the dedicated Pratikshya chapter.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
-      "local_revision_followup": {
-        "record": "records/cinema-literary-thread-review-2026-11-05.json",
-        "date": "2026-11-05",
-        "status": "reviewed_local_revision",
-        "source": "kb/research/culture/cinema-series/literature-and-screen.md",
-        "source_sha256": "6fa653b3fa027f4e03e4f9db50a26c5228d5c64352a2d93f73e777117844c394",
-        "implementation": "outputs/literary-thread-review-20261105/implementation.json",
-        "published": false
-      },
       "local_revision_history": [
         {
           "record": "records/cinema-literature-performance-2026-11-01.json",
@@ -13596,7 +13694,16 @@
           "implementation": "outputs/amada-opening-scene-20261104/implementation.json",
           "published": false
         }
-      ]
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-literary-thread-review-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+        "source_sha256": "6fa653b3fa027f4e03e4f9db50a26c5228d5c64352a2d93f73e777117844c394",
+        "implementation": "outputs/literary-thread-review-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-812",
@@ -14643,15 +14750,6 @@
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
       ],
-      "local_revision_followup": {
-        "record": "records/cinema-matira-collaboration-2026-11-05.json",
-        "date": "2026-11-05",
-        "status": "reviewed_local_revision",
-        "source": "kb/research/people/kalindi-charan-panigrahi.md",
-        "source_sha256": "afc32cec1862ae1d4e36acfaf1f2b6efb269d4c0ee3a8b8933a6efa7dbad7886",
-        "implementation": "outputs/cinema-matira-collaboration-20261105/implementation.json",
-        "published": false
-      },
       "local_revision_followup_history": [
         {
           "record": "records/cinema-integration-2026-11-04.json",
@@ -14660,7 +14758,16 @@
           "source_sha256": "92fc1720d377789cc1a5692206e3b316bd7f1327cb3455cd93342236f2f82323",
           "date": "2026-11-04"
         }
-      ]
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-matira-collaboration-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/people/kalindi-charan-panigrahi.md",
+        "source_sha256": "afc32cec1862ae1d4e36acfaf1f2b6efb269d4c0ee3a8b8933a6efa7dbad7886",
+        "implementation": "outputs/cinema-matira-collaboration-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-CINEMA-MUSIC-20261030",
@@ -14699,15 +14806,6 @@
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
       ],
-      "local_revision_followup": {
-        "record": "records/cinema-sinema-sangita-2026-11-05.json",
-        "date": "2026-11-05",
-        "status": "reviewed_local_revision",
-        "source": "kb/research/culture/cinema-series/cinema-music.md",
-        "source_sha256": "f9e6a80c6e6808eeb0953e8e83ceca780295e2449d1000584616b615a2393f49",
-        "implementation": "outputs/sinema-sangita-20261105/implementation.json",
-        "published": false
-      },
       "local_revision_followup_history": [
         {
           "record": "records/cinema-integration-2026-11-04.json",
@@ -14737,7 +14835,16 @@
           "source_sha256": "529510211117511e3eee2a9b63494f895ba0cef914adf83bdad093a5fe39646e",
           "date": "2026-11-04"
         }
-      ]
+      ],
+      "local_revision_followup": {
+        "record": "records/cinema-sinema-sangita-2026-11-05.json",
+        "date": "2026-11-05",
+        "status": "reviewed_local_revision",
+        "source": "kb/research/culture/cinema-series/cinema-music.md",
+        "source_sha256": "f9e6a80c6e6808eeb0953e8e83ceca780295e2449d1000584616b615a2393f49",
+        "implementation": "outputs/sinema-sangita-20261105/implementation.json",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-PRAFULLA-KAR-20261030",
@@ -15042,6 +15149,13 @@
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json"
       ],
+      "local_revision_followup": {
+        "record": "records/cinema-integration-2026-11-04.json",
+        "status": "local_revision_reviewed_not_published",
+        "source": "kb/research/culture/cinema-series/reading-odia-cinema.md",
+        "source_sha256": "a280863d391bf2ff5c5db133e0b7045b5e360454dfd0e71d2d169131dc5a2869",
+        "date": "2026-11-04"
+      },
       "local_revision_history": [
         {
           "record": "records/cinema-expansion-work-list-2026-10-31.json",
@@ -15075,14 +15189,7 @@
           "published": false,
           "review": "outputs/cinema-geeta-20261103/review.json"
         }
-      ],
-      "local_revision_followup": {
-        "record": "records/cinema-integration-2026-11-04.json",
-        "status": "local_revision_reviewed_not_published",
-        "source": "kb/research/culture/cinema-series/reading-odia-cinema.md",
-        "source_sha256": "a280863d391bf2ff5c5db133e0b7045b5e360454dfd0e71d2d169131dc5a2869",
-        "date": "2026-11-04"
-      }
+      ]
     },
     {
       "id": "POD-EDIT-DHAGA-186-20261030",
@@ -16379,6 +16486,1229 @@
       ],
       "blocker": null,
       "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-245-20261101",
+      "route": "/dhaga/sayings/pod-dhaga-245.html",
+      "title": "ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-245-2026-11-01.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-246-20261102",
+      "route": "/dhaga/sayings/pod-dhaga-246.html",
+      "title": "ପରଧନେ ଲହର ଫହର; ଛଡାଇ ନେଲେ ଲାଜେ ମର",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-249-2026-11-02.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-247-20261102",
+      "route": "/dhaga/sayings/pod-dhaga-247.html",
+      "title": "ଦଦରା ଡ଼ଙ୍ଗା, ମଝି ନଈରେ ଦେଲୁ ଦଗା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-249-2026-11-02.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-248-20261102",
+      "route": "/dhaga/sayings/pod-dhaga-248.html",
+      "title": "ଷାଠିଏ କାହାଣ ତଣ୍ଡକୁ ଅଛି, ହରି ଭଗତିକି କଡ଼ାଏ ନାହିଁ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-249-2026-11-02.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-249-20261102",
+      "route": "/dhaga/sayings/pod-dhaga-249.html",
+      "title": "ମୁଁ ଖାଇ ନାହିଁ, ପାଟି ଖାଇଚି ନିୟାମ କରିବା ଆସ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-249-2026-11-02.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-250-20261103",
+      "route": "/dhaga/sayings/pod-dhaga-250.html",
+      "title": "ଲଙ୍କା— ଗଡୁଁ ଯେତେକ ଜାତ, ସମସ୍ତେ ଅସୁରଙ୍କ ସୁତ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-251-2026-11-03.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-251-20261103",
+      "route": "/dhaga/sayings/pod-dhaga-251.html",
+      "title": "ଶତିକଈ ପୁରସ୍ତମ ଗଲା, ତୁଣ୍ଡ଼ କଥା କହି କହି ମଲା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-251-2026-11-03.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-252-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-252.html",
+      "title": "ଫୁଲର ଭାର ନ ସହନ୍ତି ରାଣୀ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-253-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-253.html",
+      "title": "କୁକୁର୍କେ ଲାର୍ଡ କଲେ ମୁହେଁ ଚାଟ୍ସି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-254-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-254.html",
+      "title": "ଡାହାଣୀ ହୋଇ ଲାଗିବା; ଗୁଣିଆ ହେଇ ଝାଡିବା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-255-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-255.html",
+      "title": "ଯେସା ବୀଜ ତେସା ଅଙ୍କୁର",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-256-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-256.html",
+      "title": "କଟା ଘାରେ ବେଶର ଛାପ୍ୱା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-257-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-257.html",
+      "title": "ରସ ଗଳିତଂ ଥପଂ ଥପଂ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-258-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-258.html",
+      "title": "ବାପ ଦେହେରି, ପୁଅ ପୁଜାରି, ଗଣ୍ଡି ମଣ୍ଡ ସବୁ ତୁମ୍ଭରି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-259-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-259.html",
+      "title": "ପଥ ପଚାରି ବାପଘର ଯିବୁ ଆଉ ଅଯୋଧ୍ୟାକୁ ମନ ନ କରିବୁ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-260-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-260.html",
+      "title": "ଝିଅ ହୋଇ ଯେବେ ଚୂଲିମୁଣ୍ଡକୁ ଯୋଗ୍ୟ ନ ହେଲା, ତା ଜନମଟା ବୃଥା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-261-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-261.html",
+      "title": "ଋଣ ଶେଷ, ରୋଗ ଶେଷ, ୟାଙ୍କର କେଭେ ନ ରଖିବ ଲେଶ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-262-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-262.html",
+      "title": "ଦଳାଇ ଆସିଲେ ମୁଳରୁ ଗାଆ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-263-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-263.html",
+      "title": "ପଳେଇ ପଶିଲି ମାଉସୀ ଘରେ ମାଉସୀ ମାଇଲା ଦିପହରେ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-264-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-264.html",
+      "title": "ଚିତ୍ତ ଯେବେ ଦୃଢ଼, ତେବେ ଦାରୀ ସାହିରେ ଘର",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-265-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-265.html",
+      "title": "ନିତି ମାଗନ୍ତାକୁ ଦିଅନ୍ତା ନାହିଁ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-266-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-266.html",
+      "title": "କାହାର କି ଚିନ୍ତା, ବାଇଣ୍ଟି ପୋଇଲିର ଘଇତା ଚିନ୍ତା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-267-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-267.html",
+      "title": "ଦୁନିଆ ଦୋରଙ୍ଗ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-268-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-268.html",
+      "title": "ଜର ଅଇଲା ଧାନକୁଟା ବେଳକୁ ଜର ଛାଡ଼ିଲା ଭାତ ଫୁଟା ବେଳକୁ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-269-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-269.html",
+      "title": "ଆଶା ଲୁବଧରେ ପୂରିଲା କାଳ, ଷଣ୍ଢ ପଛେଧାଇଁ ମଲା ଶିଆଳ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-270-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-270.html",
+      "title": "ମୁ ଖାଉଥାଏଁ ମୋହୋର ଭାତ; ତୋହୋର କିଆଁ ଗାଲରେ ହାତ!",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-271-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-271.html",
+      "title": "ଯାହାଁ ଯାହାଁ ବୁଢ଼ା, ତାହଁ ତାହାଁ ବେକୁବ୍",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-272-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-272.html",
+      "title": "ମୂହଁଟି ସୁନ୍ଦର ଦେହଟି ଭେଲା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-273-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-273.html",
+      "title": "ମହତଲୋକର ମହତ କଥା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-274-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-274.html",
+      "title": "କଳି ନ ଥିଲେ ଦି ମାଇପ କର ଭାତ ନ ସରିଲେ ଦୋଘରା କର",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-275-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-275.html",
+      "title": "ଆଖି କଜଳ ସୁହାଯାଏ ଟିରିକି କଜଳ ସୁହା ନ ଯାଏ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-276-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-276.html",
+      "title": "ନାମ ବଡ଼ା ଦର୍ଶନ ଥୋଡ଼ା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-277-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-277.html",
+      "title": "ମୁଣ୍ଡ ନାହିଁ, ତାର ମୁଣ୍ଡ ବଥା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-278-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-278.html",
+      "title": "ଯାହାକୁ ଯେ ? ବିରିକି ଚାଉଳ ତିନ୍ତେଇ ଦେ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-279-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-279.html",
+      "title": "ଘରନିଆଁ ବୋଲି ଅଣ୍ଟିରେ ପୂରାଇବା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-280-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-280.html",
+      "title": "ଶାହି ଶାହି ହୋଇ ବୁଲଇ ଗୋରସ, ମଦ ବିକାଯାଏ ବସି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-281-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-281.html",
+      "title": "ବୋହି ଗଲା ପାଣି ଯାଉ ତେଣିକି, ବନ୍ଧେଇଲା ପାଣି ରହୁ ଅଟକି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-282-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-282.html",
+      "title": "ଛୋଟ ମୁହଁରେ ବଡ଼ କଥା, ଶୁଣିଲା ଲୋକର ମନ ବ୍ୟଥା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-283-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-283.html",
+      "title": "ମଉନମୁହୀଁର ଅପାର ଗୁଣ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-284-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-284.html",
+      "title": "ଧର୍ମ ଡଙ୍ଗା ସୁଖରେ ଯାଏ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-285-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-285.html",
+      "title": "ଆଗେରେ କାଳିଆ ! ନାହିଁ କରୁଥିଲୁ ସିଘାଂଣି ନାକକୁ ଦେଖି, ଏବେରେ କାଳିଆ ! ଝୁରି ମରୁଅଛୁ ଥନ ଯଉବନ ଦେଖି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-286-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-286.html",
+      "title": "ମନର ଗୁଣେ ଫଳ ଫଳେ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-287-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-287.html",
+      "title": "କହୁଛି ମତେ ରଗାନା, ମୋ ସାଙ୍ଗରେ ତୁ ଲାଗନା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-288-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-288.html",
+      "title": "ପୀଢ଼ା ଫାଟେ ନାହି ଲେଉଟେ ତେବେ ସେ ବ୍ରାହ୍ମଣ ଠାଆରୁ ଉଠ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-289-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-289.html",
+      "title": "ଜାଣିଥିଲିକି? କିଏ ସୂନା କିଏ ପିତଳ ବୋଲି ନିକିତି ପକେଇ ତୁଳି ଥିଲିକି?",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-290-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-290.html",
+      "title": "ନିୟାମୀ ନାନୀ,ଦିହିରେ ମାରୁଛି ଗୋବର ପାଣି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-291-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-291.html",
+      "title": "ଭୁଆ ଆପଣା ଛୁଆକୁ ଖାଇବା (ନ୍ୟାୟ)",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-292-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-292.html",
+      "title": "ଭଇଁରା ଗାଁରେ ପୁରାଣ ସଭା ଶୁଣିଲା ଲୋକେ ହୋଇବେ କାବା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-293-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-293.html",
+      "title": "ଏଇ ପେଟ ! ଏଇ ପେଟ ଲାଗି ବଙ୍ଗଳା ବାଟ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-294-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-294.html",
+      "title": "ହିନ୍ଦୁ ନ ଖାଆନ୍ତି ପିଆଜ, ପଠାଣ ନ ଖାଆନ୍ତି ବିଆଜ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-295-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-295.html",
+      "title": "ପୋଡ଼ି ଯାଉ ଏ ଯୁଗର ରୀତି, ଅଜା ଥାଉଁ ଥାଉଁ ମରଇ ନାତି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-296-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-296.html",
+      "title": "ବଡ଼ ଘର ଦେଖି ବନ୍ଧୁ କଲି ଝିଅକୁ ନେଇ ଯମକୁ ଦେଲି",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-297-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-297.html",
+      "title": "ତୁଚ୍ଛାକୁ ତୁଚ୍ଛା, ତୁଚ୍ଛା କାଞ୍ଜି ପାଣି ମନମୁରୁଛା",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-298-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-298.html",
+      "title": "ଲାଗ୍ ଖାଉଁ, ଲଗେଇ ନାଇ ହଉଁ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-DHAGA-299-20261104",
+      "route": "/dhaga/sayings/pod-dhaga-299.html",
+      "title": "କାହାଗେ କହିବି ଶୁଣିବ କେ? ସାଆନ୍ତ ଅବୁଝା ମାରିବ ଯେ",
+      "status": "excluded",
+      "scope": "standalone_dhaga_collection",
+      "source_template": "projects/site/tools/export-dhaga.mjs",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/odia-dhaga-expansion-299-2026-11-04.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-832",
+      "route": "/stories/odia-literature-preservation/",
+      "title": "Odia Bibhaba and the Work of Keeping Literature Available",
+      "status": "completed",
+      "scope": "One sourced Odia literature preservation article: Odia Bibhaba/Srujanika, Recite World, Odia Wikisource and Odia Virtual Academy. Preserve all prior articles, cinema, Dhaga299 assets and historical research cursors.",
+      "source_template": "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "images": true,
+        "image_review_note": "Text-only; no new imagery",
+        "delivery_receipt": "records/odia-literature-preservation-editorial-publication-2026-11-04.json",
+        "separate_review": "records/odia-literature-preservation-delivery-review-2026-11-04.json"
+      },
+      "evidence": [
+        "records/odia-literature-preservation-editorial-team-2026-11-04.json",
+        "records/odia-literature-preservation-editorial-publication-2026-11-04.json",
+        "records/odia-literature-preservation-delivery-review-2026-11-04.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-04T05:20:50.650657+00:00",
+      "completed_at": "2026-11-04T06:15:04.354964+00:00",
+      "publication_receipt": "records/odia-literature-preservation-editorial-publication-2026-11-04.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-INDEX",
+      "route": "/stories/dongariya/",
+      "title": "Dongria Kondh: life in Niyamgiri",
+      "status": "excluded",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/index.astro",
+      "checks": {},
+      "evidence": [
+        "records/dongria-release-integration-20261105.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Series navigation index; no article completion credit."
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-DONGARIYA-LIFE",
+      "route": "/stories/dongariya/dongariya-life/",
+      "title": "Dongariya life in Niyamgiri",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-KAPADAGANDA",
+      "route": "/stories/dongariya/kapadaganda/",
+      "title": "Kapadaganda — the embroidered cloth of Niyamgiri",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-ORNAMENTS-IN-USE",
+      "route": "/stories/dongariya/ornaments-in-use/",
+      "title": "Dongariya ornaments in use",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-NIYAMGIRI",
+      "route": "/stories/dongariya/niyamgiri/",
+      "title": "Niyamgiri: cultivation and village decisions",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-SEED-KEEPING",
+      "route": "/stories/dongariya/seed-keeping/",
+      "title": "Keeping seeds in circulation in Niyamgiri",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-FOREST-FOODS",
+      "route": "/stories/dongariya/forest-foods/",
+      "title": "Forest foods and home gardens in Rayagada",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-HARVEST-TO-MARKET",
+      "route": "/stories/dongariya/harvest-to-market/",
+      "title": "From Niyamgiri harvests to market",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-HOMES-AND-REPAIR",
+      "route": "/stories/dongariya/homes-and-repair/",
+      "title": "Homes and the work of repair in Niyamgiri",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-LEARNING-AND-BELONGING",
+      "route": "/stories/dongariya/learning-and-belonging/",
+      "title": "Learning and belonging in Niyamgiri",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-KUVI-AND-JATAPU-SCRIPT",
+      "route": "/stories/dongariya/kuvi-and-jatapu-script/",
+      "title": "Kuvi and the Jatapu script",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-SONGS-AND-SINGERS",
+      "route": "/stories/dongariya/songs-and-singers/",
+      "title": "Songs and singers in Dongariya life",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
+    },
+    {
+      "id": "POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA",
+      "route": "/stories/dongariya/kotpad-and-kapadaganda/",
+      "title": "Kotpad and Kapadaganda through their makers",
+      "status": "completed",
+      "scope": "Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited.",
+      "source_template": "projects/site/src/pages/stories/dongariya/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/dongria-publication-20261105.json"
+      },
+      "evidence": [
+        "records/dongria-release-integration-20261105.json",
+        "records/dongria-publication-20261105.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-04T23:46:12.639579+00:00",
+      "publication_receipt": "records/dongria-publication-20261105.json"
     },
     {
       "id": "POD-EDIT-BIBHUTI-PATTANAIK-20261102",

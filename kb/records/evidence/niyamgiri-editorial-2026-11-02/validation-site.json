@@ -1,0 +1,169 @@
+{
+  "status": "PASS_ALL_LOCAL_SITE_GATES",
+  "gates": [
+    {
+      "name": "full-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 41.82,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/full-build.log",
+      "log_sha256": "3a85c7ca9350cf19889303547a61ce1be5d2440e626d79b8e7c7d19c60be8787"
+    },
+    {
+      "name": "focused-niyamgiri",
+      "command": [
+        "node",
+        "--test",
+        "tests/niyamgiri-editorial.test.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/focused-niyamgiri.log",
+      "log_sha256": "6e06bf1f45f849c80d4ccfc02f8443361e1f96d276b1b3bf9d1b892c9e69bcad"
+    },
+    {
+      "name": "full-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "seconds": 1.57,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/full-disclosures.log",
+      "log_sha256": "72888aa8db8d7f7bab8a0a534a1958109703a91c407fa65335e776757d7bc91d"
+    },
+    {
+      "name": "full-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "seconds": 18.0,
+      "log": "outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/history-before-metadata-correction/full-tests.log",
+      "log_sha256": "87ec876922cf35bba6aa92ecdff67a87b5bf6534699783c6956cfe2f5d79645c",
+      "qualification": "Passed before exact existing-question metadata-only correction; retained per coordinator, no functional/prose change."
+    },
+    {
+      "name": "coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 54.97,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/coast-build.log",
+      "log_sha256": "e4b8df329ce805962c912d388c42e99dab989f1fbc81057229a84502b6b12e12"
+    },
+    {
+      "name": "coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 1.29,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/coast-disclosures.log",
+      "log_sha256": "823bc3058f9c3d9afc83217d7a473d977cc8fdb7f5fe9e70c3839723c9dcea88"
+    },
+    {
+      "name": "coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 8.59,
+      "log": "outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/history-before-metadata-correction/coast-tests.log",
+      "log_sha256": "aed5f7465e35fef469f13ead4c8c15affb1a176b12c2ab896ebe7965f33eecfb",
+      "qualification": "Passed before exact existing-question metadata-only correction; retained per coordinator, no functional/prose change."
+    },
+    {
+      "name": "acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 7.09,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/acceptance.log",
+      "log_sha256": "d638472f7c26f11fdd0baef7ba005015b6652d738db918cafd093913675de9c6"
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.89,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/discovery.log",
+      "log_sha256": "7e47023a83e9141311060776debb8c52cb4fa63d330590ebd7ed49ab98ba2d58"
+    },
+    {
+      "name": "search-preparation",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 13.74,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/search-preparation.log",
+      "log_sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "name": "launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.35,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/launch.log",
+      "log_sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "name": "publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 282.18,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/publication.log",
+      "log_sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    {
+      "name": "publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.75,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/publication-disclosures.log",
+      "log_sha256": "d791dc895fc47b1cd3edd93dd3d0388f37fc8bad61498e16930f7e3803a335a0"
+    },
+    {
+      "name": "shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.65,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/niyamgiri-editorial-2026-11-02/samanta/implementation/shortlist.log",
+      "log_sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  ]
+}

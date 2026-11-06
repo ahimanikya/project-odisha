@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 939. completed: 161, excluded: 488, queued: 290.
+Route inventory: 1008. completed: 179, excluded: 551, queued: 278.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -119,16 +119,16 @@ Route inventory: 939. completed: 161, excluded: 488, queued: 290.
 | POD-EDIT-103 | [Subarnapur · languages and population](https://projectodisha.org/languages/districts/subarnapur/) | excluded | classification_pending |
 | POD-EDIT-104 | [Balangir · languages and population](https://projectodisha.org/languages/districts/balangir/) | excluded | classification_pending |
 | POD-EDIT-105 | [Nuapada · languages and population](https://projectodisha.org/languages/districts/nuapada/) | excluded | classification_pending |
-| POD-EDIT-106 | [Kalahandi · languages and population](https://projectodisha.org/languages/districts/kalahandi/) | queued | classification_pending |
-| POD-EDIT-107 | [Rayagada · languages and population](https://projectodisha.org/languages/districts/rayagada/) | queued | classification_pending |
-| POD-EDIT-108 | [Nabarangapur · languages and population](https://projectodisha.org/languages/districts/nabarangapur/) | queued | classification_pending |
-| POD-EDIT-109 | [Koraput · languages and population](https://projectodisha.org/languages/districts/koraput/) | queued | classification_pending |
-| POD-EDIT-110 | [Malkangiri · languages and population](https://projectodisha.org/languages/districts/malkangiri/) | queued | classification_pending |
-| POD-EDIT-111 | [The everyday Odisha table](https://projectodisha.org/food/everyday/) | queued | classification_pending |
-| POD-EDIT-112 | [Ou khatta](https://projectodisha.org/food/ou-khatta/) | queued | classification_pending |
-| POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | queued | classification_pending |
-| POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | queued | classification_pending |
-| POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | queued | classification_pending |
+| POD-EDIT-106 | [Kalahandi · languages and population](https://projectodisha.org/languages/districts/kalahandi/) | excluded | classification_pending |
+| POD-EDIT-107 | [Rayagada · languages and population](https://projectodisha.org/languages/districts/rayagada/) | excluded | classification_pending |
+| POD-EDIT-108 | [Nabarangapur · languages and population](https://projectodisha.org/languages/districts/nabarangapur/) | excluded | classification_pending |
+| POD-EDIT-109 | [Koraput · languages and population](https://projectodisha.org/languages/districts/koraput/) | excluded | classification_pending |
+| POD-EDIT-110 | [Malkangiri · languages and population](https://projectodisha.org/languages/districts/malkangiri/) | excluded | classification_pending |
+| POD-EDIT-111 | [The everyday Odisha table](https://projectodisha.org/food/everyday/) | excluded | classification_pending |
+| POD-EDIT-112 | [Ou khatta](https://projectodisha.org/food/ou-khatta/) | completed | substantive_editorial_revision |
+| POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | completed | Publish a substantive source-supported Badi chura revision at /food/badi-chura/: exact reviewed lead, five paragraphs, two headings and two numbered notes with Founder byline. Explain dried badi, frying/dry-roasting, coarse preparation and one named meal account without universal origin, storage, health or tested-recipe claims. Preserve photo licence/credit, food:badi-chura Save ID, two source IDs and four reading links. Replace old same-route collection/KB summaries, maintain aggregate source budgets198/168 and short portable titles. Require exact KB/site/portable parity, full/coast/publication gates, responsive browser/download review, independent integrated/exact-head review, requiredCI success, reviewed merge and approved successful deployment, actual live checks and separate reviewed receipt before completion. |
+| POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | completed | Publish the reviewed substantive Tala pitha preparation contrast at /food/tala-pitha/: exact two attributed paragraphs, lead, By Ahimanikya Satapathy and two native numbered notes. Preserve separate baked/fried sequences, unspecified Delite maturity/temperature scale, no tested recipe or statewide/season/storage/health claims. Replace old same-route summaries;112 words per new source across article surfaces;114 across all reviewed surfaces, including two additional compact-title words from everyday website and portable references, short source titles, no additional Panda/Gapu derivation. Preserve photo licence/credit without attributing it to either recipe, food:tala-pitha SaveID, three reading links, unrelated Talagaja and source records. Require exact KB/site/portable parity, complete gates, responsive browser/download and separate integrated/exact-head review, CI success, reviewed merge, successful authorized deployment, actual live verification and separately reviewed receipt before any completion credit. |
+| POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | excluded | classification_pending |
 | POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | queued | classification_pending |
 | POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | queued | classification_pending |
 | POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | queued | classification_pending |
@@ -269,7 +269,7 @@ Route inventory: 939. completed: 161, excluded: 488, queued: 290.
 | POD-EDIT-253 | [From RRL to IMMT: Odisha’s mineral-research story — Research notes](https://projectodisha.org/reading-room/economy/minerals-research-immt/) | queued | classification_pending |
 | POD-EDIT-254 | [Mining receipts: five years of growth, with volatility visible — Research notes](https://projectodisha.org/reading-room/economy/mining-receipts/) | queued | classification_pending |
 | POD-EDIT-255 | [Odisha mining: minerals, industry and people — Research notes](https://projectodisha.org/reading-room/economy/mining/) | queued | classification_pending |
-| POD-EDIT-256 | [Niyamgiri: mining decisions, community rights and a sacred landscape — Research notes](https://projectodisha.org/reading-room/economy/niyamgiri-rights-and-mining/) | queued | classification_pending |
+| POD-EDIT-256 | [Niyamgiri: the landscape behind the decision](https://projectodisha.org/reading-room/economy/niyamgiri-rights-and-mining/) | completed | substantive_existing_article |
 | POD-EDIT-257 | [Puri: a pre-booked outdoor heritage-walk service — Research notes](https://projectodisha.org/reading-room/economy/puri-heritage-walk-service/) | queued | classification_pending |
 | POD-EDIT-258 | [Odisha’s rice economy: from paddy to value — Research notes](https://projectodisha.org/reading-room/economy/rice-economy/) | queued | classification_pending |
 | POD-EDIT-259 | [Rourkela: ore, steel and the evidence for work — Research notes](https://projectodisha.org/reading-room/economy/rourkela-steel-chain/) | queued | classification_pending |
@@ -398,7 +398,7 @@ Route inventory: 939. completed: 161, excluded: 488, queued: 290.
 | POD-EDIT-382 | [Puri Har Ghar Tiranga sand sculpture, 2025 — Research notes](https://projectodisha.org/reading-room/works/puri-tiranga-sand-2025/) | queued | classification_pending |
 | POD-EDIT-383 | [Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies — Research notes](https://projectodisha.org/reading-room/works/spent-cathodes-review/) | queued | classification_pending |
 | POD-EDIT-384 | [Kendara and the travelling song](https://projectodisha.org/stories/kendara/) | queued | classification_pending |
-| POD-EDIT-385 | [Ghumura: the drum carried into the dance](https://projectodisha.org/stories/ghumura/) | queued | classification_pending |
+| POD-EDIT-385 | [Ghumura: the drum carried into the dance](https://projectodisha.org/stories/ghumura/) | completed | Substantive evidence-backed Ghumura revision, shared reading treatment, complete portable narrative and reviewed publication receipt |
 | POD-EDIT-386 | [Mahuri: breath within the ensemble](https://projectodisha.org/stories/mahuri/) | queued | classification_pending |
 | POD-EDIT-387 | [Ranapa: rhythm above the ground](https://projectodisha.org/stories/ranapa/) | queued | classification_pending |
 | POD-EDIT-388 | [Chaiti Ghoda: a horse carried by song](https://projectodisha.org/stories/chaiti-ghoda/) | queued | classification_pending |
@@ -960,6 +960,75 @@ Route inventory: 939. completed: 161, excluded: 488, queued: 290.
 | POD-EDIT-DHAGA-242-20261101 | [ନିତି ମଳୁକୁ ଚାହାନ୍ତି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-242.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-243-20261101 | [ଝିଅ ମଲେ ଜୋଇଁ କାହାର ଗୋତ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-243.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-244-20261101 | [ଘୁ ଘୁ ଦେଖିଛି ଫାନ୍ଦ ଦେଖି ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-244.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-245-20261101 | [ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-245.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-246-20261102 | [ପରଧନେ ଲହର ଫହର; ଛଡାଇ ନେଲେ ଲାଜେ ମର](https://projectodisha.org/dhaga/sayings/pod-dhaga-246.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-247-20261102 | [ଦଦରା ଡ଼ଙ୍ଗା, ମଝି ନଈରେ ଦେଲୁ ଦଗା](https://projectodisha.org/dhaga/sayings/pod-dhaga-247.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-248-20261102 | [ଷାଠିଏ କାହାଣ ତଣ୍ଡକୁ ଅଛି, ହରି ଭଗତିକି କଡ଼ାଏ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-248.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-249-20261102 | [ମୁଁ ଖାଇ ନାହିଁ, ପାଟି ଖାଇଚି ନିୟାମ କରିବା ଆସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-249.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-250-20261103 | [ଲଙ୍କା— ଗଡୁଁ ଯେତେକ ଜାତ, ସମସ୍ତେ ଅସୁରଙ୍କ ସୁତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-250.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-251-20261103 | [ଶତିକଈ ପୁରସ୍ତମ ଗଲା, ତୁଣ୍ଡ଼ କଥା କହି କହି ମଲା](https://projectodisha.org/dhaga/sayings/pod-dhaga-251.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-252-20261104 | [ଫୁଲର ଭାର ନ ସହନ୍ତି ରାଣୀ](https://projectodisha.org/dhaga/sayings/pod-dhaga-252.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-253-20261104 | [କୁକୁର୍କେ ଲାର୍ଡ କଲେ ମୁହେଁ ଚାଟ୍ସି](https://projectodisha.org/dhaga/sayings/pod-dhaga-253.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-254-20261104 | [ଡାହାଣୀ ହୋଇ ଲାଗିବା; ଗୁଣିଆ ହେଇ ଝାଡିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-254.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-255-20261104 | [ଯେସା ବୀଜ ତେସା ଅଙ୍କୁର](https://projectodisha.org/dhaga/sayings/pod-dhaga-255.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-256-20261104 | [କଟା ଘାରେ ବେଶର ଛାପ୍ୱା](https://projectodisha.org/dhaga/sayings/pod-dhaga-256.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-257-20261104 | [ରସ ଗଳିତଂ ଥପଂ ଥପଂ](https://projectodisha.org/dhaga/sayings/pod-dhaga-257.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-258-20261104 | [ବାପ ଦେହେରି, ପୁଅ ପୁଜାରି, ଗଣ୍ଡି ମଣ୍ଡ ସବୁ ତୁମ୍ଭରି](https://projectodisha.org/dhaga/sayings/pod-dhaga-258.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-259-20261104 | [ପଥ ପଚାରି ବାପଘର ଯିବୁ ଆଉ ଅଯୋଧ୍ୟାକୁ ମନ ନ କରିବୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-259.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-260-20261104 | [ଝିଅ ହୋଇ ଯେବେ ଚୂଲିମୁଣ୍ଡକୁ ଯୋଗ୍ୟ ନ ହେଲା, ତା ଜନମଟା ବୃଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-260.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-261-20261104 | [ଋଣ ଶେଷ, ରୋଗ ଶେଷ, ୟାଙ୍କର କେଭେ ନ ରଖିବ ଲେଶ](https://projectodisha.org/dhaga/sayings/pod-dhaga-261.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-262-20261104 | [ଦଳାଇ ଆସିଲେ ମୁଳରୁ ଗାଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-262.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-263-20261104 | [ପଳେଇ ପଶିଲି ମାଉସୀ ଘରେ ମାଉସୀ ମାଇଲା ଦିପହରେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-263.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-264-20261104 | [ଚିତ୍ତ ଯେବେ ଦୃଢ଼, ତେବେ ଦାରୀ ସାହିରେ ଘର](https://projectodisha.org/dhaga/sayings/pod-dhaga-264.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-265-20261104 | [ନିତି ମାଗନ୍ତାକୁ ଦିଅନ୍ତା ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-265.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-266-20261104 | [କାହାର କି ଚିନ୍ତା, ବାଇଣ୍ଟି ପୋଇଲିର ଘଇତା ଚିନ୍ତା](https://projectodisha.org/dhaga/sayings/pod-dhaga-266.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-267-20261104 | [ଦୁନିଆ ଦୋରଙ୍ଗ](https://projectodisha.org/dhaga/sayings/pod-dhaga-267.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-268-20261104 | [ଜର ଅଇଲା ଧାନକୁଟା ବେଳକୁ ଜର ଛାଡ଼ିଲା ଭାତ ଫୁଟା ବେଳକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-268.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-269-20261104 | [ଆଶା ଲୁବଧରେ ପୂରିଲା କାଳ, ଷଣ୍ଢ ପଛେଧାଇଁ ମଲା ଶିଆଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-269.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-270-20261104 | [ମୁ ଖାଉଥାଏଁ ମୋହୋର ଭାତ; ତୋହୋର କିଆଁ ଗାଲରେ ହାତ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-270.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-271-20261104 | [ଯାହାଁ ଯାହାଁ ବୁଢ଼ା, ତାହଁ ତାହାଁ ବେକୁବ୍](https://projectodisha.org/dhaga/sayings/pod-dhaga-271.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-272-20261104 | [ମୂହଁଟି ସୁନ୍ଦର ଦେହଟି ଭେଲା](https://projectodisha.org/dhaga/sayings/pod-dhaga-272.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-273-20261104 | [ମହତଲୋକର ମହତ କଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-273.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-274-20261104 | [କଳି ନ ଥିଲେ ଦି ମାଇପ କର ଭାତ ନ ସରିଲେ ଦୋଘରା କର](https://projectodisha.org/dhaga/sayings/pod-dhaga-274.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-275-20261104 | [ଆଖି କଜଳ ସୁହାଯାଏ ଟିରିକି କଜଳ ସୁହା ନ ଯାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-275.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-276-20261104 | [ନାମ ବଡ଼ା ଦର୍ଶନ ଥୋଡ଼ା](https://projectodisha.org/dhaga/sayings/pod-dhaga-276.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-277-20261104 | [ମୁଣ୍ଡ ନାହିଁ, ତାର ମୁଣ୍ଡ ବଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-277.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-278-20261104 | [ଯାହାକୁ ଯେ ? ବିରିକି ଚାଉଳ ତିନ୍ତେଇ ଦେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-278.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-279-20261104 | [ଘରନିଆଁ ବୋଲି ଅଣ୍ଟିରେ ପୂରାଇବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-279.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-280-20261104 | [ଶାହି ଶାହି ହୋଇ ବୁଲଇ ଗୋରସ, ମଦ ବିକାଯାଏ ବସି](https://projectodisha.org/dhaga/sayings/pod-dhaga-280.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-281-20261104 | [ବୋହି ଗଲା ପାଣି ଯାଉ ତେଣିକି, ବନ୍ଧେଇଲା ପାଣି ରହୁ ଅଟକି](https://projectodisha.org/dhaga/sayings/pod-dhaga-281.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-282-20261104 | [ଛୋଟ ମୁହଁରେ ବଡ଼ କଥା, ଶୁଣିଲା ଲୋକର ମନ ବ୍ୟଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-282.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-283-20261104 | [ମଉନମୁହୀଁର ଅପାର ଗୁଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-283.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-284-20261104 | [ଧର୍ମ ଡଙ୍ଗା ସୁଖରେ ଯାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-284.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-285-20261104 | [ଆଗେରେ କାଳିଆ ! ନାହିଁ କରୁଥିଲୁ ସିଘାଂଣି ନାକକୁ ଦେଖି, ଏବେରେ କାଳିଆ ! ଝୁରି ମରୁଅଛୁ ଥନ ଯଉବନ ଦେଖି](https://projectodisha.org/dhaga/sayings/pod-dhaga-285.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-286-20261104 | [ମନର ଗୁଣେ ଫଳ ଫଳେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-286.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-287-20261104 | [କହୁଛି ମତେ ରଗାନା, ମୋ ସାଙ୍ଗରେ ତୁ ଲାଗନା](https://projectodisha.org/dhaga/sayings/pod-dhaga-287.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-288-20261104 | [ପୀଢ଼ା ଫାଟେ ନାହି ଲେଉଟେ ତେବେ ସେ ବ୍ରାହ୍ମଣ ଠାଆରୁ ଉଠ](https://projectodisha.org/dhaga/sayings/pod-dhaga-288.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-289-20261104 | [ଜାଣିଥିଲିକି? କିଏ ସୂନା କିଏ ପିତଳ ବୋଲି ନିକିତି ପକେଇ ତୁଳି ଥିଲିକି?](https://projectodisha.org/dhaga/sayings/pod-dhaga-289.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-290-20261104 | [ନିୟାମୀ ନାନୀ,ଦିହିରେ ମାରୁଛି ଗୋବର ପାଣି](https://projectodisha.org/dhaga/sayings/pod-dhaga-290.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-291-20261104 | [ଭୁଆ ଆପଣା ଛୁଆକୁ ଖାଇବା (ନ୍ୟାୟ)](https://projectodisha.org/dhaga/sayings/pod-dhaga-291.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-292-20261104 | [ଭଇଁରା ଗାଁରେ ପୁରାଣ ସଭା ଶୁଣିଲା ଲୋକେ ହୋଇବେ କାବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-292.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-293-20261104 | [ଏଇ ପେଟ ! ଏଇ ପେଟ ଲାଗି ବଙ୍ଗଳା ବାଟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-293.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-294-20261104 | [ହିନ୍ଦୁ ନ ଖାଆନ୍ତି ପିଆଜ, ପଠାଣ ନ ଖାଆନ୍ତି ବିଆଜ](https://projectodisha.org/dhaga/sayings/pod-dhaga-294.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-295-20261104 | [ପୋଡ଼ି ଯାଉ ଏ ଯୁଗର ରୀତି, ଅଜା ଥାଉଁ ଥାଉଁ ମରଇ ନାତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-295.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-296-20261104 | [ବଡ଼ ଘର ଦେଖି ବନ୍ଧୁ କଲି ଝିଅକୁ ନେଇ ଯମକୁ ଦେଲି](https://projectodisha.org/dhaga/sayings/pod-dhaga-296.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-297-20261104 | [ତୁଚ୍ଛାକୁ ତୁଚ୍ଛା, ତୁଚ୍ଛା କାଞ୍ଜି ପାଣି ମନମୁରୁଛା](https://projectodisha.org/dhaga/sayings/pod-dhaga-297.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-298-20261104 | [ଲାଗ୍ ଖାଉଁ, ଲଗେଇ ନାଇ ହଉଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-298.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-299-20261104 | [କାହାଗେ କହିବି ଶୁଣିବ କେ? ସାଆନ୍ତ ଅବୁଝା ମାରିବ ଯେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-299.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-832 | [Odia Bibhaba and the Work of Keeping Literature Available](https://projectodisha.org/stories/odia-literature-preservation/) | completed | One sourced Odia literature preservation article: Odia Bibhaba/Srujanika, Recite World, Odia Wikisource and Odia Virtual Academy. Preserve all prior articles, cinema, Dhaga299 assets and historical research cursors. |
+| POD-EDIT-DONGRIA-INDEX | [Dongria Kondh: life in Niyamgiri](https://projectodisha.org/stories/dongariya/) | excluded | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-DONGARIYA-LIFE | [Dongariya life in Niyamgiri](https://projectodisha.org/stories/dongariya/dongariya-life/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-KAPADAGANDA | [Kapadaganda — the embroidered cloth of Niyamgiri](https://projectodisha.org/stories/dongariya/kapadaganda/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-ORNAMENTS-IN-USE | [Dongariya ornaments in use](https://projectodisha.org/stories/dongariya/ornaments-in-use/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-NIYAMGIRI | [Niyamgiri: cultivation and village decisions](https://projectodisha.org/stories/dongariya/niyamgiri/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-SEED-KEEPING | [Keeping seeds in circulation in Niyamgiri](https://projectodisha.org/stories/dongariya/seed-keeping/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-FOREST-FOODS | [Forest foods and home gardens in Rayagada](https://projectodisha.org/stories/dongariya/forest-foods/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-HARVEST-TO-MARKET | [From Niyamgiri harvests to market](https://projectodisha.org/stories/dongariya/harvest-to-market/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-HOMES-AND-REPAIR | [Homes and the work of repair in Niyamgiri](https://projectodisha.org/stories/dongariya/homes-and-repair/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-LEARNING-AND-BELONGING | [Learning and belonging in Niyamgiri](https://projectodisha.org/stories/dongariya/learning-and-belonging/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-KUVI-AND-JATAPU-SCRIPT | [Kuvi and the Jatapu script](https://projectodisha.org/stories/dongariya/kuvi-and-jatapu-script/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-SONGS-AND-SINGERS | [Songs and singers in Dongariya life](https://projectodisha.org/stories/dongariya/songs-and-singers/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
+| POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA | [Kotpad and Kapadaganda through their makers](https://projectodisha.org/stories/dongariya/kotpad-and-kapadaganda/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
 | POD-EDIT-BIBHUTI-PATTANAIK-20261102 | [Bibhuti Pattanaik: Books Within Reach](https://projectodisha.org/people/bibhuti-pattanaik/) | queued | Supplementary cinema writer profile outside the50-reading book sequence; local candidate only. |
 | POD-EDIT-SOLILA-PARIDA-20261103 | [Solila Parida: Carrying a Story Across Oceans](https://projectodisha.org/people/solila-parida/) | queued | Supplementary producer profile linked from literature and screen; outside50-reading book. Local candidate only. |
 | POD-EDIT-JATINDRA-NAYAK-20261103 | [Jatindra K. Nayak: Carrying the Voice Across](https://projectodisha.org/people/jatindra-k-nayak/) | queued | Supplementary translator companion linked fromBasanta; outside50-reading book. Localcandidate only. |

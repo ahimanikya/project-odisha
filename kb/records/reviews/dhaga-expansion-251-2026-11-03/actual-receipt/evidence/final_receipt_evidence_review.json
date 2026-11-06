@@ -1,0 +1,70 @@
+{
+  "decision": "PASS",
+  "status": "PASS_ACTUAL_POST_SYNC_EVIDENCE",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_head": "768c2c07ae3693aef928c61ca223318fd919cc84",
+  "deployed_merge": "a587e5263ce12f1e8de217361ec0929675b910f2",
+  "deployment_id": 41520298227,
+  "checked_at": "2026-11-02T22:35:26.087515+00:00",
+  "local_sync_sha256": "a08b0e4fcf05ade4877212dfcd1c29c2797191fc93095791a9279f626e53927e",
+  "live_review_sha256": "f843fa92fa778443c61cba44c1b17b98fdbbabed9c3ab19cc69f74d505dd8257",
+  "bindings": {
+    "drishti/live-evidence-review.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/drishti/live-evidence-review.json",
+      "sha256": "f843fa92fa778443c61cba44c1b17b98fdbbabed9c3ab19cc69f74d505dd8257"
+    },
+    "drishti/post-sync-checks.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/drishti/post-sync-checks.json",
+      "sha256": "37b019d89a9d44e9e22c95168c495c8222a74d227f4220529fac6a4ccc0916a5"
+    },
+    "live-preparation/local-reader-sync-result.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/live-preparation/local-reader-sync-result.json",
+      "sha256": "a08b0e4fcf05ade4877212dfcd1c29c2797191fc93095791a9279f626e53927e"
+    },
+    "live-preparation/local-tests.log": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/live-preparation/local-tests.log",
+      "sha256": "065fba9fc4fc278fe5cf3d12841955865c670d676e4453a0cac8793663a5a499"
+    },
+    "live-preparation/sync-authorization.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/live-preparation/sync-authorization.json",
+      "sha256": "9b3f446f803ae95a65452d68fe5414ddd9821481223559133b7f792f834c4851"
+    },
+    "live-preparation/sync-candidate-plan.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/live-preparation/sync-candidate-plan.json",
+      "sha256": "b074e4c23ac5c174cc467953792f680cb04fff5e6ec7ddd544e6861f44d8d92d"
+    },
+    "live-preparation/local-baseline.json": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/live-preparation/local-baseline.json",
+      "sha256": "daf002a76b20034dbafa6ee36dc1b953c85a780509a1f1b6e503029f7fdcd3b3"
+    },
+    "live-preparation/sync-local.py": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/live-preparation/sync-local.py",
+      "sha256": "dd71632722e83efb3f7b250be23461e3516b490a95993be015da1bd7551bb693"
+    }
+  },
+  "checks": {
+    "decision": "PASS",
+    "products_source_and_destination_exact": 768,
+    "product_sizes_exact": true,
+    "protected_extras_exact": 517,
+    "copied_set_equals_baseline_delta": 262,
+    "overwritten_original_backups_exact": 256,
+    "actual_test_count": 19,
+    "test_exit": 0,
+    "authorization_gate_hashes_exact": true,
+    "local_receipt_exact_result_copy": true,
+    "pdf_sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf"
+  },
+  "findings": [
+    "Actual authorized guarded sync PASS:262 copied,768 products verified,517 extras preserved;19 actual tests passed in2.521s.",
+    "Independently rehashed all768 source and local product files, destination byte sizes and517 extras after tests; PDF exact. Copy set exactly equals frozen baseline delta. All256 overwritten original files have exact baseline backups;6 new products account for remaining copies.",
+    "Authorization binds exact live evidence and separate review; all six gate files unchanged. Actual local delivery JSON is byte-identical to sync result. No failed sync or drift reported.",
+    "Frozen live review retained unchanged, including21 reader and29 companion known hash-pair qualifications, transport retries, actual16PNG review and browser limitations."
+  ],
+  "limits": [
+    "Reviewer did not execute sync, tests or new network requests; independently inspected saved actual tests and rehashed source/local/backups.",
+    "Local tests may rebuild HTML; actual post-test bytes verified, not described as no rebuild.",
+    "This post-sync evidence PASS supports receipt assembly only; canonical receipt exact-head review,required checks,merge and remote verification remain separate release conditions.",
+    "No human review or programme credit; no canonical/Git writes by reviewer."
+  ]
+}

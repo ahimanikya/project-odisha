@@ -1,0 +1,68 @@
+{
+  "status": "PASS_QUALIFIED_ACTUAL_LIVE_REVIEW",
+  "decision": "PASS",
+  "reviewer": "Drishti, separate AI review",
+  "reviewed_head": "4077f421b6de3aa582cf4681247edb46206ab1cc",
+  "deployed_merge": "fc8fb477212f19d0503d4687988b1e68887f9c8b",
+  "merge": "fc8fb477212f19d0503d4687988b1e68887f9c8b",
+  "deployment_id": 41316006459,
+  "deployment": 41316006459,
+  "bindings": {
+    "deployment-status.json": "15b4f25868709bb03cc2d9187706f1bc63819077fe9b677a76e2b444304a26d8",
+    "exact-head-review.json": "77a62462ab68375082d5e2aaede52513a53f07f642279366dde12a4376d5a7d9",
+    "integration-preparation/anvesha/live-summary.json": "e3c5db331f2bd4b1790d53b3f732b552c55080ff59e7b3a09d22c55e2a767b9b",
+    "integration-preparation/anvesha/live-verification.json": "6f059e53a26cc647dd2c783abcea7fe56635b64b822aa2be7c8e7568a60d4dde",
+    "integration-preparation/anvesha/supplemental-live-verification.json": "f06d51c7d4f4a1a4677e0f0479c67862acd23597bbafbdf7e9884242b4db43b0",
+    "integration-preparation/anvesha/companion-main-verification.json": "6569ab7f131b7660d504aba16ab7215b29f5516da9a70551430ecb7e7ce4a9bf",
+    "integration-preparation/anvesha/known-image-pairs.json": "7925f5f6e5854c4297c147b9c43aa9a696617f85dd7c6beca4b4a6dcae422214",
+    "integration-preparation/anvesha/known-responsive-pairs.json": "71e09f0f9ce6127700e00b3508e3431db23f17340005b17a4bd176e478eb3c40",
+    "site/live-browser/live-browser.json": "484e538a00eb1122386afbcef28c855489e86ee2e26752b9505b8d227891e7ad",
+    "site/live-browser/browser-review.json": "ae1b5c1980e72da8dab3721602e1cd83b5a22b34c0e5f243ef33ca0b65859b97",
+    "site/live-browser/source-browser-review.json": "45f69405934421fdfbfb1c16a8cbcfc2b263f7aac30fc83058eea26f3f43c74d"
+  },
+  "checks": {
+    "actual_http_200": 499,
+    "raw_byte_exact": 478,
+    "html_exact": 248,
+    "previously_reviewed_exact_both_hash_pairs": 21,
+    "new_unreviewed_variances": 0,
+    "new245_art_byte_exact": true,
+    "current_local_publication_hashes_independently_rechecked": 499,
+    "companion_main_exact_after_known_filename_mapping": 3,
+    "responsive_exact_prior_pairs": 29,
+    "nonempty_catalog_exact": true,
+    "actual_live_index_pdf_link_and_fresh_pdf_hash": "c459423800d55973aa05fa7efd59179005f36a8831996dc3c91ac2ef90dcc5c4",
+    "pdf_pages_from_frozen_production": 156,
+    "sitemap_search_hold_and_four_internal404": "PASS",
+    "actual_live_screenshots_individually_viewed": 8,
+    "browser_subreports_and_screenshot_hashes_rechecked": true
+  },
+  "actual_screenshots_viewed": {
+    "390-245-art.png": "637753ae0470b3a480ba89010c210108f2cffa6217b306129f5b968d2eb3b1e8",
+    "390-245-actual-sources.png": "86e7bed0271dd2042372a1d354893c827762827118641f4d2d9dbab5c4844bf8",
+    "1440-245-art.png": "f4c8cf3ab655eff9c9899e364819903d29ae96d0c9b455b8690437ef77e96af3",
+    "1440-245-opening.png": "00ecc022bbc2d950a5dd3230ab64dfd5e5ff236dfa38ffebdc7702072af77bdd",
+    "390-245-opening.png": "f30346f1ba88a231870bb47d06e5632ca7a90da45aa34c4b170854906bbdb29f",
+    "1440-245-actual-sources.png": "1f444ac7d3e041a299b24227d829fd3e0b7f41ad47a70a6715475e87e6073ff3",
+    "1440-009-context.png": "1b84cf03984247d5df2bfa4f3832da6baddba002f4c54a6b57602d47447d5e50",
+    "390-009-context.png": "43e1e77eaf6f3557416dd38afc1a00bfb95751e110d87b7f94a80164ed72ad25"
+  },
+  "visual_findings": [
+    "Actual1440 and390 live opening/art/source screenshots readable; approved upright chair geometry and hand contact retained at reduced width. No observed clipping or horizontal overflow.",
+    "009 related-image and lexical-only notes visible. Separate corrupt quotation is explicitly not repaired or represented as full saying attestation.",
+    "245 source130525 and attribution/rights/uncertainty are visible. SearchEnter, previous/next, native menus, Sources Enter open-close and Browse return supported by actual live Chrome reports."
+  ],
+  "qualifications": [
+    "All21 reader image byte differences remain raw mismatches; each exact local/live SHA pair matches the prior reviewed allowlist. No blanket image exception or new visual waiver.",
+    "Three companion whole HTML documents are not byte-exact; only main content after established filename mapping is exact.29 responsive pairs both hashes match prior records.",
+    "No per-source citation return anchor exists. Only native Sources controls and Browse return tested.",
+    "Minor245 source-context boundary spacing retained from approved production; nonblocking and not silently edited.",
+    "No HTTP transport failures or retries in this frozen run; none suppressed."
+  ],
+  "limits": [
+    "Separate AI review of actual evidence and saved live screenshots; not human review, assistive technology, physical-phone or cross-browser testing.",
+    "Reviewer made no additional network requests and did not rerun browser; actual capture run performed by collaborator.",
+    "This review does not execute or independently authorize local sync and does not claim receipt merge or finite scope release.",
+    "Prior full production/source review reused; no repeated wholePDF inspection."
+  ]
+}

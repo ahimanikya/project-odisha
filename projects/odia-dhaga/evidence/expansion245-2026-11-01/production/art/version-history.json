@@ -1,0 +1,28 @@
+{
+  "mode": "built-in image_gen",
+  "versions": [
+    {
+      "asset": "245-chair-repair-v1.png",
+      "status": "REJECTED",
+      "review": "../drishti/art-review-v1.json",
+      "issue": "Ambiguous chair and misaligned tool"
+    },
+    {
+      "asset": "245-chair-repair-v2.png",
+      "status": "REJECTED",
+      "review": "../drishti/art-review-v2.json",
+      "issue": "Disconnected wood and unclear tool contact"
+    },
+    {
+      "asset": "245-chair-repair-v3.png",
+      "sha256": "295173ec626addc3ef3faa0350df046544577fc4bd3af5097104f26af079f704",
+      "status": "SEPARATE_PIXEL_REVIEW_PASS",
+      "prompt": "prompt-v3.txt",
+      "change": "Fresh upright chair composition with hand inspection; screwdriver rests unused. Same imagined ongoing repair, no prose change.",
+      "review": "../drishti/art-review-v3.json"
+    }
+  ],
+  "alt": "One adult steadies an upright wooden chair while another kneels and checks a front leg joint by hand.",
+  "caption": "An imagined second attempt at a loose chair joint.",
+  "limits": "Original illustration, not documentary or historical evidence."
+}

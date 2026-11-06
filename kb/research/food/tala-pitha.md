@@ -1,27 +1,21 @@
 ---
 type: "Food"
 title: "Tala pitha"
-description: "Tala pitha — attributed evidence, connections and open questions."
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-01T18:07:08.675156+00:00"}
-sources: [{"id": "food-tala-manaswini2018", "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା", "resource": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"}]
-aliases: ["Tala pitha", "Tala poda pitha"]
 human_review_claimed: false
-verification_scope: "Source-attributed research; no tested recipe, local review or publication approval claimed."
 ---
 
 # Tala pitha
 
-The Gapu Photography account credits Manaswini Sahoo / Soul Of Odisha with a tala poda pitha made from ripe palm fruit and places it in a monsoon setting. [Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା](https://www.gapuphotography.com/2018/06/Tala-Pitha.html). This is one credited example within the broader tala-pitha name; it does not establish that every version uses the same cooking method.
+The proposed article is held separately for review. Preserve its paragraph boundaries and native source notes when installing.
 
-Ripe fruit pulp and palm-seed foods require separate records. The user identified tala khaja as seed produce; its exact seed stage and equivalence to other local names remain open in the collection.
+## Method references
 
-## Next evidence
+- [Delite2015](https://odishafooddelite.wordpress.com/2015/09/28/talapalm-poda-pitha-%E0%AC%A4%E0%AC%BE%E0%AC%B3-%E0%AC%AA%E0%AD%8B%E0%AC%A1%E0%AC%BE-%E0%AC%AA%E0%AC%BF%E0%AC%A0%E0%AC%BE/) — food-tala-delite2015
+- [Oriyarasoi2016](https://www.oriyarasoi.com/2016/09/talaa-pitha-ice-apple-sugar-palm.html) — food-tala-oriyarasoi2016
 
-Obtain directly documented recipes, grain/fibre ingredients, local names and season windows. Embedded video was not inspected.
+## Unresolved name
 
-[Everyday food culture](everyday-food-culture.md) connects this entry to ingredients, meal relationships and makers.
+The founder’s Tala khaja identification remains unresolved. Do not merge its record with this one.
 
-## Ripe-fruit and rice-flour evidence
-
-[Panda and colleagues, printed p.67](https://reference-global.com/download/article/10.2478/arls-2021-0031.pdf) document ripe palm-fruit material mixed with rice flour for pitha in their 2015–2018 study. This extends the ingredient evidence but supplies no measured recipe. [Talagaja](talagaja.md) is the separate germinated-seed food in that account; the user’s tala khaja name remains unresolved.
+[Everyday food culture](everyday-food-culture.md)

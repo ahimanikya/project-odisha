@@ -1,0 +1,163 @@
+{
+  "status": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI evidence and saved-pixel review, not human review",
+  "reviewed_head": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "deployed_merge": "b695f6ca3093320a2fbb141f65e3df21789a81fc",
+  "deployment_id": 41482664751,
+  "evidence_bindings": {
+    "deployment-status.json": "7eac6e10cab835905eac3373e0c8ff0fff77361937deac5a3c1812253d07723d",
+    "exact-head-review.json": "3572cdb964703cf36ee988533b506e9f391174257a70ae1eec18a03ffa99a508",
+    "live-preparation/live-execution-summary.json": "37d0c7c3eff4bafebf18358ed158219d9891afe2923188050b65cd47cd84913e",
+    "live-preparation/live-verification.json": "2f148da11a5a6777097ab693aa5ad6c2302da127d5947dafe8f1d0d384ac00ad",
+    "live-preparation/supplemental-live-verification.json": "590085de75504ff41d1ae5bd87493ed479607d9593bcb7adb2f2c3348ea69530",
+    "live-preparation/companion-main-verification.json": "a97fbb46978c9d11d7e56c7a0e34154035d3c0087aeb47c4737c95ef88c5bd39",
+    "live-preparation/plan.json": "f6d4fe1bda20697c38580847145c3c9d01502fce305246b242c59c0243cf7657",
+    "live-preparation/candidate-plan.json": "c46609088d9ea348fae2ed97c4a6f576d843c6dff0e55cbefb019b39d5a64ab1",
+    "live-preparation/known-image-pairs.json": "7925f5f6e5854c4297c147b9c43aa9a696617f85dd7c6beca4b4a6dcae422214",
+    "live-preparation/known-responsive-pairs.json": "71e09f0f9ce6127700e00b3508e3431db23f17340005b17a4bd176e478eb3c40",
+    "live-browser/live-browser-report.json": "873063fb4389698c147755c4c91f248cbc4cf10224ecd3d1470f8cce37eee8ac",
+    "live-browser/browser-review.json": "af7474631afa3afe97572ce2e4907ea8adbc16ee818ae48c0d7a85df5d222dc4",
+    "live-browser/mobile-note.json": "d328c086c707871239badb8f3f3c69ff78332514d4b73908a5e93b922841b39c",
+    "live-browser/candidate-binding.json": "4e42491fe8403b56c2b13ebada4799bfe3fa6bbd3089838003a1155f601bb6ff",
+    "live-preparation/actual-deployment-binding.json": "e09ee53a5556e6766c3fddc1d474e14cc8cbf01f12e12cd0b71fda38aa7672ac",
+    "live-preparation/live-verification-before-network-access.json": "05ebedeb62911f77cfacdd3e9bda0055141a98d4f19908e71b38e80a7416f264",
+    "live-preparation/initial-network-failure.json": "bb7de9f7b6bcd818cbd3b905c0ef504710efba5f208fc69ca7a8fa59da0f3acb",
+    "live-preparation/first-escalated-live-verification.json": "7ab6b2248550a9af2ea6809ea7cec798574a717db32384831ac9047e40c1ddd4",
+    "live-preparation/first-escalated-live-companion-run.log": "5a7384f47cbd6eed1153e8f5f1b9912be11bb06f5a041e20f565da20effebf07",
+    "live-preparation/reader-transport-retries.json": "a577b75cc310c7949be87c0c1c651d2ee133e9432e4ffd37f375b438c49b9104",
+    "live-preparation/live-companion-retry.log": "823aa5202ee765c9bb5a14c1823391bca235187ceb3ba83fd2e4390b29531628"
+  },
+  "actual_checks": {
+    "deployment": "Completed/success exact approved merge/run read from saved API evidence; no repoll by reviewer.",
+    "plan_binding": "Only expected_merge/expected_deployment_id and candidate-plan.plan_sha256 changed; frozen reader/PDF/companion fields preserved.",
+    "reader": {
+      "HTTP200": 507,
+      "HTML_byte_exact": 252,
+      "raw_byte_exact": 486,
+      "known_both_side_hash_pairs": 21,
+      "new_art_byte_exact": 4,
+      "new_exception_count": 0
+    },
+    "retry_reconciliation": "All ten failed first-escalated rows replaced only by their matching successful retry rows;497 other rows identical. Initial all507 DNS failure and first escalated9reset/1HTTP503 errors retained. Companion first reset log retained before bounded successful rerun.",
+    "companions": "Three main-content comparisons pass under exact29 known filename/hash pairs; nonempty catalog exact. Raw whole HTML is not exact.",
+    "PDF": "Actual downloaded89,619,161-byte PDF hash equals frozen b86a2216…e69d4; actual live index href pins27e55bf7 ancestor.159-page identity inherited from exact frozen PDF hash and prior production review.",
+    "supplemental": "Actual sitemap/search holds246–249 and four internal404 probes pass.",
+    "browser": "Saved actual Chrome1440x900/390x900 evidence records249count,search248Enter,new-entry image decode/nooverflow,nativeSources open-close,Browse/previous-next and Explore navigation. Reviewer inspected report/evidence hashes; did not operate this browser run."
+  },
+  "actual_pixels_viewed": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-246-art.png",
+      "sha256": "17719fccc8ba518da6b1daa98594758a4f2a542c94f2880452819bc9c3013eac"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-246-opening.png",
+      "sha256": "05e216ea73350f3444a106b5a3c53e2304e70786e884715eddc858bacab45a8c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-246-sources.png",
+      "sha256": "ff47eeac0fdfe73876754c87413e53830615878e2696e3991adcce0da7cb3603"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-247-art.png",
+      "sha256": "f55c01d2ea95a7500094735ec353d9e02a62144987de84aa68e272ad0f2c3793"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-247-opening.png",
+      "sha256": "c0db615c11bb51f79c5bcc60e8282dfc68e02ec2c2b6d7e668d4d8ffdde2afbb"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-247-sources.png",
+      "sha256": "79f98e37524991ae7ee79b2896800f4a387938808b2e2317397e91126821f329"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-248-art.png",
+      "sha256": "9639a7063deb161686038ed00566f5e2e0ff65ab87adae3804c4ba9d85db10d2"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-248-opening.png",
+      "sha256": "5e9f83e0237db9279954ddff0d7c3b1f572a5d615dfb50a78f7295b7888fb5c3"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-248-sources.png",
+      "sha256": "dd0ddb4386eb149821da5009beab7fdaa931f8e79cebd136f20dbff321c2d9d3"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-249-art.png",
+      "sha256": "fd2d8836158f1133756f017c66ca0972e3065dc72a6cee7e5f0d6da46389b698"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-249-opening.png",
+      "sha256": "bdeef5969d80bbcac3e66672fd44bb068351fc746cf065f5d8a1482e4d33d5e5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/1440-249-sources.png",
+      "sha256": "f52680b84a5191a097c4fe7cadc532eaae1b7a2eb086fe2690c9579226623283"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-246-art.png",
+      "sha256": "ccc072fc1a62f35ee8e4b72204ecf52cd6eb6ac89ac1804b739a827903265dab"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-246-opening.png",
+      "sha256": "f937a764bb2c3df1809731127d5cbfd2c23492fe71b635889fac3c70b495a02e"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-246-sources.png",
+      "sha256": "a4de69e226e15588da5a1593e775cf8790d16c3a0beaa61e60a5fc1924e3461c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-247-art.png",
+      "sha256": "e4735f92018ceba00e6a961ff10c1f8d68ed363fbd1f95c356df42ba466b430e"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-247-opening.png",
+      "sha256": "d5912075193bc4ada2955c9c7a1da6203894c21d2a33e49ede3431d8fcb8f9b6"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-247-sources.png",
+      "sha256": "cfdbe9792dbf428193856e03dc45735811b5532755f6061f2c3d7650b9a8de38"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-248-art.png",
+      "sha256": "f1e1fe751d9e41df6f20ef92952acf67249e1f466355302f0190fe2e5f238cf5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-248-opening.png",
+      "sha256": "52aa5d8057653b1a13976a95b74fcede857fd3ff0b9519bd5c6a7c79fa4287a9"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-248-sources.png",
+      "sha256": "c3f96e0c370acc0dc54d07f1b129cf2010efe3da1b3dbe81a6274bd00143cb9c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-249-art.png",
+      "sha256": "45c177b26c8940318612dd4d2b181faef97c71f5c1b153f3ed0a4ae9aa7f4df5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-249-opening.png",
+      "sha256": "924db6c7b04ea91161badd5b3f8e3bdf67e099aaabe72fa31201cc50e1a179de"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-249-sources.png",
+      "sha256": "ef8fc9da3af6cd603323bf911a722494ea8ab7fbdcdefa0ed07a70a8aca14015"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-browser/390-248-full-lexical-note.png",
+      "sha256": "da40ad559a6b26dfc6ab4d193100819d4fb18b146a4cb05d12e1c041714bb8ce"
+    }
+  ],
+  "visual_findings": [
+    "All25 actual live PNGs individually opened via image viewer, including opening/art/source views for246–249 at both widths and full248mobile lexical note.",
+    "No clipping, overlapping text, broken-image display or unreadable new illustration observed. Phone wrapping and focus outlines visible;249 correctly ends at Last without Next.",
+    "248context identifies lexical source as context-only, not a second full-saying witness. Full mobile note explicitly says same dictionary lineage/not independent corroboration.",
+    "Source attribution, narrative credit, uncertainty and imagined-scene captions visible.246camera,247corrected projector,248symbolic coins/lamp and249monochrome biscuit scene remain coherent at mobile size."
+  ],
+  "limits": [
+    "Only inspected saved actual evidence; no new network requests, browser run, build, canonical edits or local sync performed by reviewer.",
+    "486/507 raw exact plus21 specific both-side pairs is qualified evidence, not all507 byte-exact. Raw mismatches retained and hashed; no blanket image waiver.",
+    "Three companion mains qualified by known filename mapping; raw whole-page HTML not claimed exact.",
+    "Headless Chrome viewport simulation is not a physical-phone, assistive-technology, cross-engine or human Odia proofreading review. No per-source footnote-return anchors exist; native Sources/Browse behavior is the tested contract.",
+    "Local sync and receipt remain separate authorized actions; this review does not claim either completed."
+  ]
+}

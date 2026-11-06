@@ -1,0 +1,116 @@
+{
+  "decision": "PASS",
+  "status": "PASS_SEPARATE_RESEARCH_REVIEW",
+  "reviewer": "Drishti — separate AI review, not human review",
+  "input_head": "811fd70951c007466bbfb52a6e7dc3006545d7b8",
+  "bindings": {
+    "HANDOFF.json": "dc76a2bfecb584a76aa9c9d91674a0d2d267f866d0f22609c43a0ed0612fa2f9",
+    "anvesha/candidates.json": "eba891f67260a51f187cef72a894ff62b421bfd4a330f0256810da42e0cd20e6",
+    "anvesha/report.json": "c4933433aa09653240abd7d667e09595b23380b048c79e4ff37b54e23560f475",
+    "anvesha/originals.json": "0303e4d1b80ef8dfbea2b31a8e14d1606b80f51cc565fce790bf94cb5cbd8677",
+    "anvesha/lexical.json": "b3022ca8225d8da6157253bbdd7d0cf9e1d6eb8f06cadaa477f696d8fdb8031d",
+    "anvesha/sources.json": "1a861caafc03ce53ffa7fa2c5af7a96029be829f625da721c5d609106c38aca3",
+    "anvesha/dispositions.json": "7a3941ada43ce54f8e53c82366087ab4a3f62e40bce1994fb305a017dd5b1804",
+    "anvesha/source-coverage.json": "12c225fa12ad3edceb71f8d076e1643c4258470bb8b0c34e4d459ab8abd627bb",
+    "samanta/report.json": "b5473393031e1a214ccdde44561c20abf5a2f9d8b265ca0e04b588e69db50628",
+    "samanta/baseline.json": "a37517fbf13446f8a01d64e8fbf3f35a8fe79930d7313042c143dea5e8b68a5b",
+    "drishti/check.py": "650ab8e1e076476f0a7cd7468dc5d608edd72fb8dcdd7d2f7454fb143b2886d7",
+    "drishti/check-results.json": "ba1141cac45e4b19f4b2562cb4da420a666d5d800ff5403af3d2f04d6c09e042"
+  },
+  "actual_full_sources_read": [
+    5471,
+    10952,
+    11931,
+    23619,
+    32311,
+    38092,
+    66003,
+    84466,
+    94316,
+    103826
+  ],
+  "lexical_sources_read": [
+    32195,
+    75311
+  ],
+  "findings": [
+    {
+      "candidate": "anvesha-b21-01",
+      "decision": "PASS",
+      "reason": "Exact seed/sprout analogy; matching type and result explicitly applied to work by editors. Hindi adaptation label belongs to headword, not a proven saying origin. No inherited human worth, caste or family trait claim."
+    },
+    {
+      "candidate": "anvesha-b21-02",
+      "decision": "PASS",
+      "reason": "Exact regional expression and smearing gloss retained. Added taunt reading explicitly editorial; Odia mustard-paste sense supports translation while contradictory English rye is disclosed. Lexical220334 must be visible note-only context, never a whole-saying witness."
+    },
+    {
+      "candidate": "anvesha-b21-03",
+      "decision": "PASS_AS_DESCRIPTIVE_RHYTHMIC_FORMULA",
+      "reason": "Source explicitly labels the quote Dhaga and explains drops of juice. Existing collection includes rhythmic sayings and idiomatic expressions, so a clearly labelled descriptive sound formula is eligible for preparation without inventing a moral, popularity, fruit, occasion or performance tradition.94315 remains snippet-only possible alias and no extra count."
+    }
+  ],
+  "semantic_review": {
+    "actual_full_existing_objects_read": [
+      "021",
+      "049",
+      "069",
+      "093",
+      "169",
+      "227"
+    ],
+    "local252_254": "Previously separately reviewed complete objects, retained as comparison baseline; not new accepted entries here.",
+    "distinctions": [
+      "021 scratch creates a wound;02 adds something to an already-cut wound. Shared aggravation theme, different action and stage.",
+      "049 seed-to-fruit exaggeration and169 impossible part/whole size differ from01 type/result correspondence.",
+      "069 fixed longing and227 inadequate dew quantity differ from03 descriptive dripping sound.",
+      "5471 market/bride/brinjal is093 family: zero increment, unresolved ending retained, no automatic variant patch."
+    ],
+    "limits": "Bounded semantic comparison does not prove universal uniqueness."
+  },
+  "deferrals": "Six source-specific lexical, referent or agency gaps retained; no guessed repairs, invented use or blanket rejection of sensitive historical language.",
+  "budget_review": {
+    "independent_conservative_totals": [
+      158,
+      155,
+      144
+    ],
+    "method": "All seven narrative fields plus exact saying counted; original imagined examples and stock rights/origin metadata excluded. Same entire155-word ceiling conservatively covers lexical source contribution; no extra hidden commentary.",
+    "verdict": "PASS"
+  },
+  "checks": {
+    "decision": "PASS",
+    "api_capture_pairs": 12,
+    "exact_witnesses": 3,
+    "source_budget_ceilings": [
+      158,
+      155,
+      144
+    ],
+    "canonical_baseline_files": 1428,
+    "local254_stage_files": 1457,
+    "entries_compared": 254,
+    "limitations": "Exact normalization complements, does not replace, separate semantic reading."
+  },
+  "accounting": {
+    "positions": 10,
+    "proposals": 3,
+    "related093_zero_increment": 1,
+    "deferrals": 6,
+    "used_sources": 4,
+    "accepted_increment": 0
+  },
+  "correction_history": "Copied38092 adjective locator in02/03 and dispositions corrected to actual source sections, with original artifacts retained. No prose or quotation change. Preliminary reviewer findings preserved.",
+  "future_preparation_requirements": [
+    "Only four used sources;220334 visible lexical-only note in actual HTML/PDF.",
+    "Convert rights objects to exact text+URL strings with original rightsinfo retained if existing book renderer requires it; test renderer contract rather than repeat E254 preparation gap.",
+    "No automatic093 patch or94315 extra count."
+  ],
+  "recommendation": "Three proposals may proceed to separately authorized preparation; retain genre labels, six deferrals and093 related witness zero count.",
+  "limits": [
+    "Digital dictionary lineage only; no printed collation or independent field attestation.",
+    "No retrieval, canonical/Git writes, art/build or publication review performed.",
+    "No human Odia proofreading or acceptance/programme credit claimed."
+  ],
+  "scope_released": true
+}

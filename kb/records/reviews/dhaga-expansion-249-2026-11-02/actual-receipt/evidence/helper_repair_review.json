@@ -1,0 +1,112 @@
+{
+  "decision": "PASS",
+  "status": "PASS_BOUNDED_OFFLINE_GUARD_REPAIR_REVIEW",
+  "reviewer": "Drishti separate AI review",
+  "reviewed_candidate": "e80a9803ef05becd46fb4793915fe2b12a3581d6",
+  "expected_merge": "b695f6ca3093320a2fbb141f65e3df21789a81fc",
+  "dispatched_run": 41482664751,
+  "bindings": {
+    "deployment_guard.py": "4aafbcc6dd873329755eaf06e35c619212dca54ac456069bd4892042503d9936",
+    "deployment_guard-before-merge-instructions.py": "3175f630b0af750d6a5badce1c3d2a1aa29f532cd0a244d4cbb79054822a296e",
+    "merge-deployment-execution-instructions.json": "98b5d317d55c3693cf58b2e38c66954e9458eb29bd47eae0f9748c32054c2527",
+    "plan.json": "7ad25d6bdd038505285eba5b72ce25ba56482fb85f49736c392b6dcd3c9158a1",
+    "candidate-plan.json": "ab6f2b8b2dc619229d0f6d59dba9f322b263b0da225f5ef90af8befeda6ae8c4",
+    "sync-candidate-plan.json": "533e77605e8d61407b2ab063a69cfab853fbeafd04a4c677146679d8f1206cb4",
+    "local-baseline.json": "0a08da9ec13d42e1cf4672038b55555e23d896e5e4cc4923c5316bf82d5f3751",
+    "final-freeze-report.json": "e0f33f9bac1b2979bb42e2b95a187bdfe98cca7d4dfc1cde2e1d600b93dc0505"
+  },
+  "findings": [
+    "Only code delta replaces a valid Python tuple-key lookup with the intended scalar final_review_sha256 key. Original failed closed with KeyError after pending-field checks; it was not a syntax error.",
+    "Preserved original exactly matches historical final-freeze-report guard hash. Earlier pending-field refusal tests did not exercise the defective lookup; positive-path evidence is now present.",
+    "Actual final manifest and separate PASS review hashes remain pinned; expected candidate and immutable159-page PDF unchanged. Known21/29 pair files retain original hashes.",
+    "Instruction sequence requires actual completed/success status for exact approved merge/run, then only expected_merge/expected_deployment_id plan fields and candidate-plan.plan_sha256 change. Frozen product/PDF/companion hashes must remain unchanged; do not regenerate from a receipt branch.",
+    "Guard executes before HTTP imports/requests in all three verifier entrypoints. Sync remains separately gated by actual live/browser/review evidence and explicit coordinator authorization."
+  ],
+  "independent_tests": [
+    {
+      "name": "complete synthetic fixture",
+      "exit": 0,
+      "expected": "pass",
+      "last_error": null
+    },
+    {
+      "name": "no authorization",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError: Coordinator authorization required"
+    },
+    {
+      "name": "pending binding",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError: Final reviewed candidate fields pending"
+    },
+    {
+      "name": "wrong actual merge",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError: Actual approved deployment binding required"
+    },
+    {
+      "name": "wrong actual run",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError: Actual approved deployment binding required"
+    },
+    {
+      "name": "deployment in progress",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "deployment failure",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "review hash mismatch",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "manifest hash mismatch",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "candidate mismatch",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "PDF mismatch",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "empty companion catalog",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "AssertionError"
+    },
+    {
+      "name": "preserved original reaches tuple-key defect",
+      "exit": 1,
+      "expected": "refusal",
+      "last_error": "KeyError: ('final_review_sha256', 'expected_merge', 'expected_deployment_id')"
+    }
+  ],
+  "preservation": "All five preserved plan/freeze hashes independently matched; no helper, plan, canonical or Git writes by reviewer. Temporary synthetic fixtures removed.",
+  "limitations": [
+    "Synthetic offline fixture success is not deployment success, live verification, browser review or permission to sync.",
+    "No network requests, live commands, production re-review or reader copy performed.",
+    "Ordinary python3 is required: assertion guards must not be disabled using -O or PYTHONOPTIMIZE.",
+    "This review covers the one-line repair and frozen execution instructions, not a new end-to-end review of all helper code."
+  ]
+}

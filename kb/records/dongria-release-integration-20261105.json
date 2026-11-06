@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-05",
+  "status": "published_verified",
+  "authorization": "User requested go after explicit remaining scope: integrate 12 articles, resolve checks, review preview and publish. This bounded series release follows that batch instruction.",
+  "base": "34f3fb2d8448632746571d836a74309df00f2d54",
+  "coordinator": "Disha (current root AI assistant)",
+  "unrelated_claim_preserved": "POD-EDIT-112 /food/ou-khatta/; no edits to its files or team operations",
+  "reservations": {
+    "Samanta": [
+      "projects/site/src/content/dongariya/",
+      "projects/site/src/pages/stories/dongariya/",
+      "projects/site/src/data/dongariya.json",
+      "projects/site/public/assets/dongariya/"
+    ],
+    "Anvesha": "read-only source and scope review",
+    "Drishti": "read-only integrated release review",
+    "Disha": [
+      "discovery/edition/route registration",
+      "bounded KB records",
+      "tests, Git and publication"
+    ]
+  },
+  "human_review_claimed": false,
+  "work_id": "POD-WORK-2026110501",
+  "decision_id": "POD-DEC-2026110501",
+  "source_review": {
+    "reviewer": "Anvesha, separate AI subagent",
+    "result": "No new blocking factual or rights contradiction established; targeted review, not fresh verification of every note.",
+    "resolved": "Distinct new Niyamgiri title and link to existing legal overview; old route untouched.",
+    "retrieval_limit": "Fourteen prior URL failures returned sample responses, not fourteen newly verified documents; UNESCO PDF URL returned HTML."
+  },
+  "implementation": {
+    "agent": "Samanta, separate AI subagent",
+    "reservation": "released",
+    "image_width": "85% of text column",
+    "assets": "480/800/1200px WebP; originals preserved in research checkout",
+    "notes": 95
+  },
+  "quality_review": {
+    "reviewer": "Drishti, separate AI subagent",
+    "result": "Static checks passed all12: exact95notes, uniqueIDs, no brokenfragments, canonicals and sourceheadings correct.",
+    "finding": "Visible resized credit missing on7photo/poster images",
+    "resolution": "Added Resized; composition unchanged. on all7credits.",
+    "final": "Drishti follow-up: visible credit correction verified, count adjustments add12+index without weakening checks, screenshots and all12browser results reviewed; no remaining blocking finding in reviewed scope. Separate AI review, not human/specialist approval."
+  },
+  "browser": {
+    "engine": "Chrome",
+    "mobile_width": 390,
+    "all12": "Loaded heroes,85% contentwidth,nooverflow,95notes,validcitationfragments",
+    "desktop_width": 1212,
+    "visual_samples": [
+      "series index",
+      "Kapadaganda"
+    ],
+    "other_engines": "not tested"
+  },
+  "modern_web_guidance": {
+    "guide": "responsive-design",
+    "applied": "Aspect ratio reserves media space; font-relative bounded clamp sizing."
+  },
+  "publication": "records/dongria-publication-20261105.json",
+  "tests": {
+    "existing_full_suite": {
+      "pass": 697,
+      "fail": 0
+    },
+    "new_series_checks": {
+      "pass": 3,
+      "fail": 0
+    },
+    "coastal_suite": {
+      "pass": 552,
+      "fail": 0
+    },
+    "kb_and_registers": "PASS",
+    "image_credit_rebuild": "Final coast output contains all resized credits; earlier stale-output failure resolved.",
+    "test_adjustments": "Full and coastal discovery expectations include 12 articles plus series index."
+  },
+  "reservations_released": true
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INSTALLATION_READINESS_AFTER_GUARD_REPAIR",
+  "decision": "PASS",
+  "reviewer": "Drishti, separate AI review",
+  "input_head": "cceb1b4526ebe14d5dc88a1c506565e658c78378",
+  "branch": "codex/dhaga-251-expansion-20261103",
+  "bindings": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/integration-handoff.json": "c83f210ba4e5137e7569a5ed865513b9b41b7f0c48dd5f17a514e2f994dfb5d7",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/records/odia-dhaga-expansion-251-2026-11-03.json": "12a9f469dea6682c660bebabd3044cec3ba39f6cec95332c95e8b3b9bb142f8c",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/production/installation-manifest.json": "4bdb9e3b8b053d4db70c0918df221ac90773d8edc53fe8ac57c13f954d00abeb",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/drishti/production-review.json": "6b5f8e9bfaf5cf2e0469213e5b9d8b5111912f4b1b1abc05127c3234e3faa33a",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/integration/installation-report.json": "51cdb3876daf0a303a706dcfeea0d02696700900c2df9bdd8e873e82f0387465",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/integration/install-reviewed.py": "5b920d20c090cdfe27f24a74d9b8befb6eb716891cd22d2c2bb55df0ed631b1a",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/integration/check-installed.py": "569216fc622351a7263069898737e8f00a7d495c55160ec06ec4fc2a8c9e9d7a",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/integration/optimized-guard-repair.json": "8e6150577a5e8f286159287743a39144512c1dca5af4c191339cf2ec29e7bc80",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/drishti/installation-guard-checks.json": "fe3a948a5f151914cc0d0850d68750d6dc8e81a3767539d51131c8e6ecf20fbe",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-251-2026-11-03/drishti/installation-guard-incident.json": "894e769b24b7b1112ab73802bc89e63fd87465e76367bb82de46afdd2860aaca",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/final-delivery.json": "794f77f261a6eab00562875a05ced68bf3aeec4b1cb10cef16916a3f4dd3c8c3"
+  },
+  "actual_checks": {
+    "installed_files_sha256_exact": 1428,
+    "stage_files_sha256_exact": 1428,
+    "changed_files_size_and_hash_exact": 284,
+    "untouched_baseline_files_exact": 1144,
+    "post_install_test_logs_bound": "19 book plus3 layout PASS; inspected actual logs, not rerun by reviewer in this phase",
+    "independent_isolated_refusal_cases": 6,
+    "finite_claim_hash_exact": true,
+    "prior249_release_saved_evidence": "E249 final-delivery actual receipt666 merge cceb1b45 release; no new network verification",
+    "pdf": {
+      "pages": 160,
+      "bytes": 90424061,
+      "sha256": "a7c4ce8e60b1c9e89f556742891ef559088474d487bc0825692ca50af1a735cf"
+    }
+  },
+  "guard_review": "Corrected helpers now explicitly reject optimized Python before imports/path reads and reject absent authorization via RuntimeError. Remaining assertions operate only in ordinary mode. Installer binds exact branch/base/finite claim/manifest/production PASS; verifies1406 baseline and1428 stage files before copy; validates relative destination containment and sizes; copies only284 listed files and verifies complete output. Checker runs tests only in lean temporary mutable code/data with immutable asset/PDF links and rehashes afterward.",
+  "incident": "During reviewer optimized refusal probe the original assert-based -O guard was stripped, so installer recopied284 already-installed exact products. This was actual unintended execution, not a successful refusal. No byte differences: all1428 installed/stage hashes independently rechecked immediately and again after repair. Original helpers/reports and reviewer incident retained. Repaired refusals tested only on isolated copies lacking repository/handoff; no installation rerun for repair.",
+  "ownership": "Current finite251 claim remains active through separately reviewed publication/live/receipt; public delivered249, accepted increment0, programme credit0/programme134. Prior249 scope released.",
+  "readiness": "Exact installed PDF/products ready for coordinator immutable-PDF commit and separately assigned site integration.",
+  "limits": [
+    "No new production/source/art review or builds; frozen production review reused.",
+    "No website/live publication or completion approval; later candidate/gates/browser/live/receipt remain required.",
+    "No human/physical-print review claimed.",
+    "Historical installation report helper hash intentionally binds original actually executed helper; repaired current helper hashes separately bound, not retroactively substituted."
+  ]
+}

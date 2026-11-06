@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-11-04T05:21:52.412878+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "command": "python3 tools/research/validate.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"checked_at\": \"2026-11-04T10:51:51+05:30\",\n  \"result\": \"PASS\",\n  \"concepts\": 1505,\n  \"local_link_checks\": 5789,\n  \"growth_arithmetic_checks\": 38,\n  \"preserved_evidence_records\": 71,\n  \"errors\": [],\n  \"scope\": \"Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_visitor_index.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"checked_at\": \"2026-11-04T10:51:51+05:30\",\n  \"result\": \"PASS\",\n  \"counts\": {\n    \"areas\": 5,\n    \"foods\": 22,\n    \"heritage\": 10,\n    \"facilities\": 14\n  },\n  \"relationship_checks\": 32,\n  \"errors\": [],\n  \"scope\": \"Local references, provenance linkage and seed evidence-state controls; not source accuracy or current operation.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_maritime.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"checked_at\": \"2026-11-04T05:21:51+00:00\",\n  \"result\": \"PASS\",\n  \"graph_nodes\": 106,\n  \"qualified_relationships\": 39,\n  \"numeric_observations\": 21,\n  \"arithmetic_checks\": 7,\n  \"local_queries_checked\": [\n    \"China\",\n    \"Paradip\",\n    \"archaeological_finding\"\n  ],\n  \"errors\": [],\n  \"scope\": \"Internal references, explicit evidence classes, metric/graph equality and arithmetic; no certification of historical claims.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_growth_journeys.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"checked_at\": \"2026-11-04T10:51:51+05:30\",\n  \"result\": \"PASS\",\n  \"observations\": 29,\n  \"derived_calculations\": 4,\n  \"timeline_events\": 15,\n  \"errors\": [],\n  \"scope\": \"Sources, units, period comparability, arithmetic and evidence-state safeguards; no independent verification of reported outcomes.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_statistics.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"observations\": 1713,\n  \"topics\": 48,\n  \"districts\": 30,\n  \"calculations\": 136,\n  \"readiness\": {\n    \"source_checked_editorial_review_pending\": 1216,\n    \"needs_source_table_review\": 397,\n    \"hold_conflict\": 100\n  },\n  \"errors\": [],\n  \"scope\": \"Structure, references and arithmetic; not independent source verification or human editorial review.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_homestays.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"homestay_observations\": 33,\n  \"unknown_outcome_metrics\": 9,\n  \"arithmetic_checks\": 2,\n  \"errors\": [],\n  \"scope\": \"Stage and qualifier fields, register references, conflict holds and policy arithmetic; not legal certification, source authentication or proof of demand.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_classification.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"subject_families\": 9,\n  \"classified_concepts\": 639,\n  \"atlas_topics\": 48,\n  \"atlas_observations\": 1713,\n  \"explained_relationships\": 613,\n  \"errors\": [],\n  \"scope\": \"Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_collections.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"collections_and_profiles\": 5,\n  \"progress_cards\": 6,\n  \"errors\": [],\n  \"scope\": \"Collection links, observation references, stage compatibility, public-card data agreement and one settlement reconciliation; not independent source verification or publication approval.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_prd.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"prd_version\": \"0.3.0\",\n  \"preserved_versions\": 4,\n  \"requirements\": 45,\n  \"phase_counts\": {\n    \"launch\": 32,\n    \"later\": 9,\n    \"deferred\": 4\n  },\n  \"errors\": [],\n  \"scope\": \"Requirement IDs, phase/basis/ADR references, version pointers and snapshot checksums; not feature acceptance, formal approval or factual certification.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_creations.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"people\": 71,\n  \"works\": 60,\n  \"garment_forms\": 13,\n  \"market_observation_refs\": 5,\n  \"errors\": [],\n  \"scope\": \"Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_sports.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"athletes\": 8,\n  \"sports\": 4,\n  \"observations\": 14,\n  \"errors\": [],\n  \"scope\": \"Identity, event scope, attribution and historical/current separation; not factual certification.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_research_map.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"records\": 1821,\n  \"tasks\": 71,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_osha_culture.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"profiles\": 53,\n  \"catalogue_records\": 32,\n  \"digital_texts\": 7,\n  \"web_text_witnesses\": 1,\n  \"comparison_dimensions\": 7,\n  \"narrative_checkpoints\": 15,\n  \"errors\": [],\n  \"scope\": \"Identity, provenance, prose/data consistency and unverified-field boundaries; not independent cultural review.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 tools/research/validate_seasonal_food.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"errors\": [],\n  \"selected_observances\": 53,\n  \"provisional_associations\": 0,\n  \"scope\": \"Reference and evidence-boundary consistency only.\"\n}\n",
+      "stderr": ""
+    }
+  ]
+}

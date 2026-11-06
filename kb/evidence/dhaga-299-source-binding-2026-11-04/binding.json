@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "status": "PRE_RELEASE_SOURCE_BINDING; actual release identity pending",
+  "source_baseline_commit": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "binding_commit": null,
+  "binding_commit_note": "This portable evidence is intended to be committed before the release tag. The containing commit will be bound by the later delivery descriptor; no self-referential commit or future hash is fabricated. Source baseline denotes reviewed production inputs, not the later binding commit.",
+  "pdf": {
+    "pages": 193,
+    "bytes": 109520119,
+    "sha256": "cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a",
+    "delivery": "Versioned release asset pending actual upload/verification; mutable hosting, integrity checks detect observed drift"
+  },
+  "provenance": "Existing exact reviewed production; no regeneration/research/art changes. PDF is external binary, omitted from this compact evidence package.",
+  "release": {
+    "repository": "ahimanikya/project-odisha",
+    "tag": null,
+    "tag_contract": "dhaga-299-<full40 binding commit>; lightweight tag directly references that commit",
+    "asset_name": "odia-dhaga-299-cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a.pdf",
+    "release_id": null,
+    "asset_id": null,
+    "browser_download_url": null,
+    "release_immutable": false,
+    "limitation": "Mutable hosting: pinned identity and digest checks detect observed drift but cannot prevent mutation/deletion or guarantee availability."
+  },
+  "evidence": [
+    {
+      "path": "production-report.json",
+      "bytes": 25181,
+      "sha256": "5bfd1ed4024a504691b6068d63928a93fafcff57e0e4151bf02656ef261e1ba6",
+      "historical_source_path": "production/samanta.json"
+    },
+    {
+      "path": "installation-manifest.json",
+      "bytes": 808911,
+      "sha256": "c7825646df5bfc0ed1cfb4081ebdd17c170047a99d431e69caa419b4f987f055",
+      "historical_source_path": "production/installation-manifest.json"
+    },
+    {
+      "path": "production-review.json",
+      "bytes": 10968,
+      "sha256": "899b43d9680cd664a37c73e803b89af38abb654126e1d95f6f6a04d0cd4f9eb9",
+      "historical_source_path": "drishti/production-review.json"
+    },
+    {
+      "path": "fallback-review.json",
+      "bytes": 6989,
+      "sha256": "cceea665613060a30316ebce4456d31707494972bf43c44fe59d4edb46b50bf8",
+      "historical_source_path": "integration-preparation/drishti/fallback-review.json"
+    },
+    {
+      "path": "release-procedure.json",
+      "bytes": 8246,
+      "sha256": "8f046580a224ebc4875d6699683819fe96310f13a6d8a96b731913a42f75263b",
+      "historical_source_path": "integration-preparation/anvesha/release-procedure.json"
+    },
+    {
+      "path": "source-parity.json",
+      "bytes": 22722,
+      "sha256": "7a81b9341c478c64f207614a9a1bbcf2bf60b35b5c0e6062a7834b0e29e9d1e8",
+      "historical_source_path": "anvesha/source-parity.json"
+    },
+    {
+      "path": "package-parity-addendum.json",
+      "bytes": 11195,
+      "sha256": "30d8fc04fcd8315997c60d2e020065deee2902bde115e65ed3bb94c437b07a41",
+      "historical_source_path": "anvesha/package-parity-addendum.json"
+    },
+    {
+      "path": "source-union.json",
+      "bytes": 41504,
+      "sha256": "462b32185196d37a135a639174e659c9fb6655619601a87870fdf081fef09fd2",
+      "historical_source_path": "anvesha/source-union.json"
+    }
+  ],
+  "preservation": {
+    "original_pending": 75,
+    "1926_next_inventory": 103,
+    "1926_full_transcription": 31,
+    "1893_full_transcription": 2,
+    "1893_drafts": 83,
+    "programme_completed": 134
+  },
+  "source_scope": {
+    "reviewed_new_entries": 45,
+    "reviewed_new_used_sources": 46,
+    "existing_local_stage_entries": 254,
+    "proposed_total": 299,
+    "public_baseline": 251,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "limits": [
+      "Only reviewed proposals imported; deferrals excluded.",
+      "Context-only220334 and related-wording zero-count boundaries preserved by embedded parity records.",
+      "Historical absolute paths inside copied reports identify original observations; portable evidence paths in this index resolve locally. External source captures/art/PDF are not duplicated here."
+    ]
+  },
+  "gates_pending": [
+    "Separate portable source-binding review",
+    "Actual containing commit and remote tag identity",
+    "Authorized asset creation/upload",
+    "Anonymous exact-byte download and metadata recheck",
+    "Site CI/deployment/live review/receipt"
+  ],
+  "tests": {
+    "all_evidence_lossless_copy_hashes_exact": true,
+    "integration_handoff_three_primary_hashes_exact": true,
+    "copied_json_all_parse": true
+  },
+  "historical_integration_handoff": {
+    "sha256": "46226f12c7b8886b48beed2287f556365d3605cfce262366ad1d08e802848f65",
+    "observation_status": "canonical_installation"
+  }
+}

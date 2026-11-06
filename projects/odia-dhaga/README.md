@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **244 explained sayings and idioms, each illustrated, and 138 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **249 explained sayings and idioms, each illustrated, and 146 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -178,3 +178,27 @@ Five reviewed dictionary-based readings and original monochrome illustrations ex
 ## 1 November 2026 · 244-reading local edition
 
 Seventeen reviewed dictionary-based readings and original monochrome illustrations extend the227-reading edition. The source169883 is lexical context for228 and a primary witness for241. The research-only073 parallel adds no entry or variant. All earlier reading text and artwork remain intact. Historical transcription cursors and75 unresolved original-list positions are unchanged. Binary PDF streams remove redundant ASCII85 encoding without changing image quality, typography or page geometry; final paired-output verification is recorded separately.
+
+## 1 November 2026 · 245-reading local edition
+
+One reviewed effort-and-gem saying and original illustration extend the244-reading edition. A hunger/bowl related-image parallel is attached to009 without replacing its medicine-frustration narrative;74876 is lexical context only. Historical cursors and75 unresolved positions remain unchanged. Binary PDF streams and existing typography are retained.
+
+
+### 2 November 2026 staged 249-reading edition
+
+Four reviewed sayings and their original illustrations extend the245-reading edition to249 readings. Earlier entry prose and artwork remain unchanged. The taṇḍa source for248 is lexical context only, not another witness to the saying. Historical source cursors and75 unresolved concordance positions remain unchanged.
+
+
+### 3 November 2026 staged251-reading edition
+
+Two reviewed sayings and their original illustrations extend the249-reading edition to251 readings. Earlier entry prose and artwork remain unchanged. Sources212713 and227729 provide lexical context only, not additional saying attestations. Critical counterreadings are editorial; historical source cursors and75 pending positions remain unchanged.
+
+
+### 3 November 2026 staged254-reading edition
+
+Three reviewed sayings and original illustrations extend the251-reading edition to254 readings. Earlier entry prose and artwork remain unchanged. Interpretations and imagined examples remain editorial, not established traditional morals or historical incidents. Historical source cursors and75 pending positions remain unchanged.
+
+
+### 3 November 2026 staged299-reading edition
+
+Forty-five reviewed readings and approved original illustrations extend the254-reading edition to299 readings. Earlier prose/art and historical source cursors/pending75 positions remain unchanged. Critical readings and imagined examples are editorial, not established traditional morals.

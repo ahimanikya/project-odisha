@@ -9,7 +9,7 @@ test('pending research is readable through an explicit public selection with sou
  for(const e of manifest.entries){
   assert.match(e.path,/^(culture|statistics|economy|food|people|works|collections|history|handlooms|trade|places|journeys|cities|stories|visitor-index)\//);
   assert.ok(!e.path.includes('..'));assert.ok(existsSync('../../kb/research/'+e.path));
-  const html=read(e.route);assert.ok(hub.includes(`href="${e.route}"`));assert.match(html,/Dated evidence and open questions/);assert.match(html,/Specialist review remains open/);assert.match(html,/noindex/);
+  const html=read(e.route);assert.ok(hub.includes(`href="${e.route}"`));if(e.slug==='economy/niyamgiri-rights-and-mining'){assert.match(html,/class="article-reading niyamgiri-story"/);assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/noindex/);continue;}assert.match(html,/Dated evidence and open questions/);assert.match(html,/Specialist review remains open/);assert.match(html,/noindex/);
   assert.ok(!/(?:href|src)="(?:\.\.\/|[^"/]*\.md(?:#|"))/.test(html),e.path);
   assert.ok(!/<script[^>]+src="https?:/.test(html),e.path);
   if(e.sources.length)assert.match(html,/Sources to follow/);
@@ -31,6 +31,7 @@ test('reading-room search exposes accessible controls and safe result sharing wi
 test('long research notes expose section links to actual rendered headings and sources',()=>{
  let longNotes=0;
  for(const e of manifest.entries){
+  if(e.slug==='economy/niyamgiri-rights-and-mining'){const html=read(e.route);assert.match(html,/In this article/);for(const id of ['section-1','section-2','section-3','section-4','niyamgiri-further-reading','story-sources']){assert.ok(html.includes(`href="#${id}"`));assert.equal(html.split(`id="${id}"`).length-1,1);}continue;}
   const html=read(e.route), body=html.match(/<div class="research-body"[^>]*>([\s\S]*?)<\/div>/)?.[1]||'';
   const headings=[...body.matchAll(/<h2 id="([^"]+)"[^>]*>/g)].map(m=>m[1]);
   const menu=html.match(/<details class="research-contents"[^>]*>([\s\S]*?)<\/details>/)?.[1];

@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-02T00:02:50.365109+00:00",
+  "status": "PASS",
+  "results": [
+    {
+      "script": "tools/check_bundle.py",
+      "args": [],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1867,\n  \"local_links\": 8052,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "tools/catalog.py",
+      "args": [
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "Whole-project catalogue current: 1867 concepts\n",
+      "stderr": ""
+    },
+    {
+      "script": "tools/editorial/build_workbench.py",
+      "args": [
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 579}, \"mode\": \"check\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "tools/check_team_assignments.py",
+      "args": [],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "tools/check_autonomous_program.py",
+      "args": [],
+      "exit_code": 0,
+      "output": "PASS: autonomous program count and linked delivery records\n",
+      "stderr": ""
+    },
+    {
+      "script": "tools/editorial/article_rollout.py",
+      "args": [
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"completed\": 161, \"excluded\": 491, \"in_progress\": 1, \"queued\": 284}, \"errors\": []}\n",
+      "stderr": ""
+    }
+  ]
+}

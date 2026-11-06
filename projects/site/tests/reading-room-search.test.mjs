@@ -40,3 +40,5 @@ test('shared reading results use current rendered controls and exclude unrelated
  const f=fixture(url.search);assert.equal(f.group.value,'Trade');assert.equal(f.input.value,'Ports & trade');
  assert.equal(pageShareURL(location,{collection:'invalid'},{collections:['Trade']}),'https://projectodisha.org/reading-room/');
 });
+
+test('Niyamgiri article presentation opts in only its existing research identity',async()=>{const {entries,articleForEntry}=await import('../src/lib/reading-room.mjs');const chosen=entries.filter(e=>articleForEntry(e));assert.equal(chosen.length,1);assert.equal(chosen[0].slug,'economy/niyamgiri-rights-and-mining');assert.equal(entries.filter(e=>!articleForEntry(e)).length,168);});

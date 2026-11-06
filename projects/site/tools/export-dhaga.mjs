@@ -5,7 +5,17 @@ import {resolve,basename} from 'node:path';
 import {createHash} from 'node:crypto';
 import sharp from 'sharp';
 const site=fileURLToPath(new URL('../',import.meta.url)),book=resolve(site,'../odia-dhaga');
-export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/9f341ddf7f23d1cf90880b78220ade967877d061/projects/odia-dhaga/odia-dhaga-book.pdf';
+const deliveryPath=resolve(book,'pdf-delivery.json');
+export async function validatePdfDelivery(){
+ const d=JSON.parse(await readFile(deliveryPath,'utf8'));
+ const packing=JSON.parse(await readFile(resolve(book,'packing-report.json'),'utf8')).pdf;
+ const name=`odia-dhaga-299-${d.sha256}.pdf`,tag=`dhaga-299-${d.target_commit}`;
+ if(d.schema!=='project-odisha-pdf-release-v1'||d.repository!=='ahimanikya/project-odisha'||d.release_immutable!==false||!d.mutability_limit||!Number.isSafeInteger(d.release_id)||d.release_id<1||!Number.isSafeInteger(d.asset_id)||d.asset_id<1||!(/^[a-f0-9]{40}$/).test(d.target_commit)||!(/^[a-f0-9]{64}$/).test(d.sha256)||d.entries!==299||d.pages!==193||d.tag!==tag||d.asset_name!==name||d.browser_download_url!==`https://github.com/${d.repository}/releases/download/${tag}/${name}`)throw Error('Invalid or pending Dhaga release descriptor');
+ if(['pages','bytes','sha256'].some(k=>d[k]!==packing[k]))throw Error('Dhaga release descriptor does not match packing metadata');
+ const bytes=await readFile(resolve(book,'odia-dhaga-book.pdf'));
+ if(bytes.length!==d.bytes||createHash('sha256').update(bytes).digest('hex')!==d.sha256)throw Error('Dhaga local PDF differs from verified release descriptor');
+ return {delivery:d,pdf:packing,pdfURL:d.browser_download_url};
+}
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function publicSourceCredit(source){
  const url=new URL(source.url),revision=url.searchParams.get('oldid');
@@ -20,7 +30,9 @@ export function publicSourceCredit(source){
  return title+(source.citation?'<p>'+esc(source.citation)+'</p>':'')+'<p>'+esc(source.rights)+'</p>';
 }
 export async function exportDhaga(destination){
+ const {delivery,pdf,pdfURL}=await validatePdfDelivery();
  const data=JSON.parse(await readFile(resolve(book,'collection.json'),'utf8')),out=resolve(destination,'dhaga');
+ if(data.entries.length!==delivery.entries)throw Error('Dhaga entry count differs from PDF delivery');
  const chromePath=resolve(destination,'internal/dhaga-chrome/index.html');
  const chrome=await readFile(chromePath,'utf8');
  const header=chrome.match(/(<div data-dhaga-header[^>]*>[\s\S]*?)<div data-dhaga-footer/)?.[1];
@@ -30,9 +42,6 @@ export async function exportDhaga(destination){
 
  await rm(out,{recursive:true,force:true});await mkdir(resolve(out,'sayings'),{recursive:true});await mkdir(resolve(out,'assets'),{recursive:true});
  await writeFile(resolve(out,'assets/site-chrome.css'),(chrome.match(/<style[^>]*>[\s\S]*?<\/style>/g)||[]).map(s=>s.replace(/^<style[^>]*>|<\/style>$/g,'')).join('\n'));
- const pdfBytes=await readFile(resolve(book,'odia-dhaga-book.pdf'));
- const pdf=JSON.parse(await readFile(resolve(book,'packing-report.json'),'utf8')).pdf;
- if(!pdf||!Number.isInteger(pdf.pages)||pdf.pages<1||pdf.bytes!==pdfBytes.length||pdf.sha256!==createHash('sha256').update(pdfBytes).digest('hex'))throw Error('Dhaga PDF metadata does not match the finished book');
  const pdfLabel=`Download PDF book (${pdf.pages} pages, ~${Math.round(pdf.bytes/1024/1024)} MB)`;
  const coverSrc=data.cover?.src;
  if(!coverSrc)throw Error('Dhaga cover metadata is required');
@@ -91,9 +100,9 @@ export async function exportDhaga(destination){
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- //244 readings retain all prior227 derivatives and new640px/q60 art.
- //Measured27.82MB; 28MB accommodates complete prose without degrading existing images.
- if(bytes>28_000_000)throw Error('Dhaga web export exceeds28MB budget: '+bytes);
+ //299 readings retain prior web derivatives and new640px/q60 art; measure before any budget change.
+ //Measured37.524MB full /37.512MB coast export; bounded38MB preserves prior assets and new640px/q60 art.
+ if(bytes>38_000_000)throw Error('Dhaga web export exceeds38MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};
  await mkdir(resolve(site,'.astro'),{recursive:true});await writeFile(resolve(site,'.astro/dhaga-export.json'),JSON.stringify(report,null,2)+'\n');return report;
 }

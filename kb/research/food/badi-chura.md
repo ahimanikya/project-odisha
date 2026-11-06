@@ -12,12 +12,10 @@ verification_scope: "Source-attributed research; no tested recipe, local review 
 
 # Badi chura
 
-A small accompaniment carries two processes: making and drying badi, then turning it into chura. Sasmita’s version fries or dry-roasts black-gram dumplings and coarsely crushes them with onion, garlic, chilli and mustard oil. [Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling](https://www.firsttimercook.com/badi-chura/).
-
-Pritisha Das also includes it with pakhala in her credited meal account. [The soul food of Odisha](https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha). These are named accounts, not a compulsory Odia menu.
+Read the attributed article and its source notes in the [food collection](collection.json). The two source records remain linked in the frontmatter.
 
 ## Next evidence
 
-District versions, makers, seasonal drying calendars and dated prices remain to be collected.
+Named makers, district variations and drying practices remain open research questions. No origin or universal preparation is established.
 
-[Everyday food culture](everyday-food-culture.md) connects this entry to ingredients, meal relationships and makers.
+[Everyday food culture](everyday-food-culture.md) preserves the wider reading path.

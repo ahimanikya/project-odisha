@@ -1,0 +1,68 @@
+---
+type: "Editorial draft"
+title: "Songs and singers in Dongariya life"
+status: "draft for editorial review; not published"
+human_review_claimed: false
+---
+
+# Songs and singers in Dongariya life
+
+By Ahimanikya Satapathy
+
+Older women held important oral knowledge in Priyadarshini Mishra’s fieldwork account, published in *Lokaratna* in 2018. She described Dongariya singers mentoring younger people, and singers and ritual specialists helping her document and interpret songs and stories.[^1]
+
+## Learning songs and their occasions
+
+Mishra named Sinde Wadaka of Kurli, teacher Laxman Hikaka and Siba Kadrka of Mundabali among those who helped her preliminary research. She also recorded a return visit during 5–14 December 2018. Her discussion distinguished entertainment songs, songs associated with birth, marriage and death, and ritual songs.[^1]
+
+A song’s occasion matters: who sings, whom they address and what brings people together.
+
+## An album and its credits
+
+A different setting appears in Debabrata Mohanty’s October 2010 report on the album *Niyamgiri ti Rani*. He credited Manmath Mishra with its music, Gopal Melaka with its lyrics, and Jitu Jakasika, Ramesh Kulesika, Gopal Melaka, Stephen and Biraji with singing. The report also identified Vedanta Alumina’s involvement in the launch.[^2]
+
+The launch reports label the album’s language as Kui, an identification not checked here against the recordings or with speakers. Participation in the album does not establish the singers’ political views or a community position.
+
+A separate launch report in *The New Indian Express* attributed the album’s combination of modern instruments with *Nishan* and *Mohuri* to composer Manmath Mishra, who said the arrangement sought popular appeal.[^3] These are his reported instrument names, not an identification made by listening to the album.
+
+## Dambu Praska and remembered voices
+
+A Living Farms account published by GRAIN in July 2009 identifies Dambu Praska as a Dongaria Kondh bard. It describes him accompanying a story of Niyam Raja on an instrument made from a gourd, and links footage under the title *The Lament of Niyam Raja*. In the account, the song connects the mountain’s gifts with fear for its future. The account dates from July 2009; the performance is undated.[^4]
+
+In a statement published by *Round Table India* in August 2018, students identifying themselves as from Niyamgiri said Video Republic’s videos helped them know and remember the late Dambu Praska. For these students, recordings offered a connection with an elder.[^5]
+
+## From recording to film
+
+CircaFilms’ own Vimeo description identifies Dambu Praska as the singer behind its stop-motion film *The Song of Niyamagiri*, and credits Surya Shankar Dash with the original recording. Artwork is credited to thebathroompainter, title design to Montry Manuel, and writing, editing and direction to Nirvikalpa.[^6]
+
+A separate Culture Unplugged entry for *The Lament of Niyamraja* credits Dash as director and producer of a 13-minute film. It lists 2007 under “Focus Years,” which does not establish an exact performance date.[^7] The credits distinguish singer, recorder and filmmakers, but do not establish whether both films use the same recorded take.
+
+In a compilation posted on 31 October 2020, Kriti Film Club records recommending Dash’s film on 15 June that year and recalls its own first screening in September 2009.[^8] This dates the club’s screening, not the performance or the film’s premiere. A YouTube link in the compilation shows another route by which the film circulated.
+
+## Listening with context
+
+Mishra’s mentors and the students remembering Dambu Praska show two ways songs pass between generations: learning from singers and encountering their recorded work. Composer, singer, recorder and filmmaker each contribute differently. Keeping their credits—and the song’s language and occasion—clear helps an audience understand what it is hearing.
+
+## Footnotes and sources
+
+[^1]: Priyadarshini Mishra, [Voices from the Mountain—Oral Tradition among the Dongaria Kondh of Rayagada, Odisha](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_11_2.pdf), *Lokaratna* XI(2), 2018, printed pp. 44–54; field visits and contributors pp. 45–46, song categories pp. 47 and 50. The article combines field observations with secondary descriptions; only the specified fieldwork material is used here. Names follow the printed account.
+
+[^2]: Debabrata Mohanty, [Dongria Kondhs release music album](https://indianexpress.com/article/news-archive/web/dongria-kondhs-release-music-album/), *The Indian Express*, 21 October 2010. Launch report, not a review of the recordings. Its “first-ever” claim is not adopted; its Kui language label has not been checked against the audio or with speakers. No lyrics or recordings are reproduced.
+
+[^3]: [A music album in Kui language](https://www.newindianexpress.com/amp/story/states/odisha/2010/Oct/20/a-music-album-in-kui-language-196672.html), *The New Indian Express*, archive URL dated 20 October 2010; page displays an update of 16 May 2012. Composer’s reported explanation, not an independent inspection of the recording. Source spellings of instrument names retained; no lyrics reproduced.
+
+[^4]: Living Farms, [Endangered tribals up against the terror of Vedanta](https://grain.org/en/article/743-endangered-tribals-up-against-the-terror-of-vedanta), GRAIN, 26 July 2009, closing performance description and note 3. An advocacy account, used here for its attributed description of Dambu Praska. The linked footage was not reviewed; no lyrics are reproduced. The account does not establish a match with the CircaFilms soundtrack or an exact performance date or instrument name.
+
+[^5]: Students of Niyamgiri, [Pull down the page ‘I Am Niyamgiri’!](https://www.roundtableindia.co.in/pull-down-the-page-i-am-niyamgiri/), *Round Table India*, 23 August 2018; page also displays 20 March 2023. Signed statement, used only for its authors’ account of remembering Dambu Praska through Video Republic’s videos. Its wider allegations are not adopted, and the signatories’ views are not treated as those of every Dongria person.
+
+[^6]: CircaFilms, [The Song of Niyamagiri](https://vimeo.com/71560107), original uploader description and credits, inspected in Chrome on 4 November 2026. Explicitly credits Dambu Praska as singer and Surya Shankar Dash as recorder. The player displayed “Unable to play media”; audio, language and subtitles were not reviewed. This resolves the previously held performer lead; the earlier Films for Action listing is a related record of the same production.
+
+[^7]: Culture Unplugged, [The Lament of Niyamraja](https://www.cultureunplugged.com/play/57/The-Lament-of-Niyamraj), film catalogue and player metadata inspected in Chrome on 4 November 2026. Director and producer: Surya Shankar Dash; country: India; “Focus Years”: 2007; listing duration: 13 minutes, player duration: 13:07. Synopsis does not name the bard. No inference of exact recording date, identical soundtrack or media-reuse permission.
+
+[^8]: Kriti Team, [Kriti Film Club Lockdown Recommendations (1–30 June 2020)](https://krititeam.blogspot.com/2020/10/kriti-film-club-lockdown.html), posted 31 October 2020, Day 87 entry for 15 June. The organiser recalls its own first screening in September 2009; this is not a world-premiere or recording date. Linked YouTube video lKuL8oEl1DM could not be retrieved in this pass; no audio or translation reviewed.
+
+## Related reading
+
+[Learning and belonging](learning-and-belonging.md) · [Dongariya life in Niyamgiri](dongariya-life.md) · [Keeping seeds in circulation](seed-keeping.md)
+
+[Kuvi and the Jatapu script](kuvi-and-jatapu-script.md) follows the distinction between a language, a writing system and evidence of its use.

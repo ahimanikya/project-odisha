@@ -1,0 +1,9 @@
+{
+  "status": "GUARD_DEFECT_FOUND_PRODUCTS_EXACT",
+  "incident": "Reviewer attempted ordinary and optimized unauthorized-refusal checks. Ordinary installer refused. Optimized installer returned success because assert __debug__ and all other assertions were removed, copying already installed284 exact product files. Reviewer stopped before checker execution. This was unintended execution, not claimed as a successful refusal.",
+  "installed_checked": 1428,
+  "installed_mismatches": [],
+  "stage_mismatches": [],
+  "required_fix": "Explicit if not __debug__: raise RuntimeError before any work, in both helpers; preserve originals and retest.",
+  "no_product_byte_delta_observed": true
+}

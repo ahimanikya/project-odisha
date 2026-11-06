@@ -1,0 +1,50 @@
+{
+  "decision": "PASS",
+  "status": "PASS_EXACT_RESEARCH_ASSEMBLY",
+  "reviewer": "Drishti, separate AI review",
+  "input_head": "811fd70951c007466bbfb52a6e7dc3006545d7b8",
+  "bindings": {
+    "candidate-bundle.json": "b90dfe5b07cfa84619a1122cb9ecb4535e73864d1964446698b9a008dda91e49",
+    "anvesha/report.json": "55965ed84ce8fa37b73c1797522e225b8da1be67b4cce72d818d1dca54049df0",
+    "anvesha/candidates.json": "1ea7b35b0f5abe36e154709f118735fe77ca09dd159d6a3a37d4364fb78ce3c4",
+    "anvesha/dispositions.json": "c86fc640c335fc70651a86977dbf91890cf1fb67af7666dc63d41abbe2478e70",
+    "anvesha/source-coverage.json": "b4fd95f9a6e0d9cc6adab87e9459fb80d8d8102d47f8f30a0a0c2a974ff762e6",
+    "samanta/report.json": "c6b220c025e6fc5b462bb17a0f8bfe76b37e34956b8a00daed4be11759b766ca",
+    "root-input-verification.json": "ebec2c84d534617ce3365603a39c869921b559211e2a4c5d35177e58dcd2017e",
+    "drishti/integrated-review.json": "571fd46380962d7e5626b636466f59082cbfb2e15f3042318e97a461b77140c2"
+  },
+  "checks": {
+    "candidate_data_deep_equal": true,
+    "dispositions_deep_equal": true,
+    "coverage_deep_equal": true,
+    "all_bundle_bindings_exact": true,
+    "counts": {
+      "full_heads": 10,
+      "quotation_positions": 10,
+      "proposals": 3,
+      "deferred": 7,
+      "used_source_ids": 3,
+      "research_source_ids": 10
+    },
+    "preservation": {
+      "canonical": 1428,
+      "local254": 1457,
+      "ten_proposal_bindings_exact": true
+    },
+    "accepted_increment": 0
+  },
+  "findings": [
+    "All three complete objects and exact used-source registry preserved. Seven additional research sources are not silently imported.",
+    "Final01 correction is present, all10 disposition positions and next299/28827 pointer exact.",
+    "Historical pending status left unchanged; this separate report supplies bounded review verdict.",
+    "Thirteen B21–24 proposals plus reviewed local254 is a potential267 sequence, not an accepted or produced267 edition."
+  ],
+  "limits": [
+    "Digital dictionary lineage only; no independent printed facsimile, fieldwork, earliest-origin, popularity or modern regional practice verification.",
+    "264 comparison objects means reviewed local254 plus ten B21–23 proposals, not a produced264 edition. Including these three yields thirteen proposals toward potential267 only.",
+    "Exact normalized comparison supplements bounded semantic review; it cannot prove absence of every undiscovered variant.",
+    "Research-readiness PASS only: no acceptance increment, canonical/public changes, art/build, publication, programme credit or human approval."
+  ],
+  "scope_released": true,
+  "review_history": "Prior report and assembly binding retained in history-before-65905-review-wording-correction; only reviewer coverage wording corrected, bundle unchanged."
+}

@@ -1,0 +1,64 @@
+{
+  "decision": "PASS",
+  "status": "PASS_BOUNDED_OWNERSHIP_AND_HELPER_PREPARATION_REVIEW",
+  "input_head": "41895b387537e2445d91b6f1bdd7246b4893c48e",
+  "cinema_receipt_review_sha256": "df6e266aed9116986f00e1b0e67eab655ff6f8e7203e2aba757918f57d8bb5a5",
+  "cinema_scope_released": true,
+  "cinema_pr": 654,
+  "ci": {
+    "id": 41293400587,
+    "result": "SUCCESS",
+    "basis": "Coordinator saved reconciliation; no fresh API request in this review."
+  },
+  "bindings": {
+    "coordination-cinema653.json": "ebbcfc17bf7a91a919fe603dad96b76d5b8c26b7f7027f642593012a813f0294",
+    "production/installation-manifest.json": "6b6ca986f05024d44475458ee8a4ea75fdafac1919e8143bf2396c77a203dec8",
+    "drishti/production-review.json": "427fc12be2e68b7dbda08bae302babd757fc3ef4c755b8bce1e08bee3fbae62b",
+    "integration-preparation/report.json": "87104da65aad8a9c48c9df91e843fe3bfaf4287f7d0ed04125840192c1beb9d3",
+    "integration-preparation/guards.json": "004ca283234d6a8368feb51d7c893ebe932dc826fc79f36f814acb3063ece8b2",
+    "integration-preparation/install-reviewed.py": "596722ffc8bd186d7cfa85804bbd28a71238b9668b3272a36730dfa7e94cd624",
+    "integration-preparation/anvesha/preparation-report.json": "1e8a90b161b97b8ea63320cf40fc0a69bc1bbe0fe0fcc13c3ff62ac8e5464ec4",
+    "integration-preparation/anvesha/plan.json": "5e23e1d90dff3e60e7d6d508db270edf84bd64e6b2a1590262025438a3fa6e81"
+  },
+  "actual_checks": [
+    {
+      "command": "installer dry run",
+      "exit_code": 0,
+      "output": "PASS: exact277 reviewed products, all1367 baseline guards and1377 stage hashes/sizes. No writes."
+    },
+    {
+      "command": "prepare-candidate.py",
+      "exit_code": 1,
+      "expected_refusal": "AssertionError: Final reviewed candidate/PDF/manifest/count/review fields pending"
+    },
+    {
+      "command": "verify-live.py",
+      "exit_code": 1,
+      "expected_refusal": "AssertionError: Final reviewed candidate fields pending"
+    },
+    {
+      "command": "verify-supplemental-live.py",
+      "exit_code": 1,
+      "expected_refusal": "AssertionError: Final reviewed candidate fields pending"
+    },
+    {
+      "command": "verify-companion-main.py",
+      "exit_code": 1,
+      "expected_refusal": "AssertionError: Final reviewed candidate fields pending"
+    }
+  ],
+  "findings": [
+    "Actual committed cinema receipt-review explicitly releases scope. Earlier missing optional completion asset does not override this merged explicit evidence; prior deferral history remains in reconciliation.",
+    "Existing245 production review and installation manifest remain exact. Installer rechecks clean exact base, frozen review/evidence,1367 baseline hashes,1377 stage hashes/sizes,277 paths, prior hashes/new-path absence and no deletions before authorized copy. Actual independent dry run passed without writes.",
+    "Prepared live helpers refuse before network while final candidate/PDF/count/review bindings remain null; independently exercised all four entrypoints with authorization set and confirmed pending-field refusals.",
+    "Known reader exceptions require both exact local/live hashes; companion comparison distinguishes normalized main from raw whole HTML and requires29 pairs plus nonempty exact catalog.",
+    "Future candidate preparation requires exact-head PASS and immutable PDF URL/hash/pages; actual successful deployment ID/head must match saved API evidence before live checks. Final real bindings and reports still require later independent review."
+  ],
+  "release_eligibility": "Prior cinema scope is released and bounded245 integration preparation may proceed under coordinator authorization. This report does not create a canonical245 claim or authorize publication by itself.",
+  "limits": [
+    "Read-only source/ownership review and dry-run/refusal tests only; no canonical/Git/build/network/sync operations.",
+    "Prior production review reused without rereading PDF/art. No245 installation/live success inferred from prepared helpers.",
+    "Deployment guard verifies supplied API run/head rather than independently proving Git ancestry; coordinator must bind actual reviewed merge and remote parity at release."
+  ],
+  "blocking_findings": []
+}

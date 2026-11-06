@@ -1,0 +1,68 @@
+{
+  "decision": "PASS",
+  "status": "PASS_EXACT_LOCAL_CANDIDATE",
+  "reviewed_head": "65cea75cb3a7d49fe8c9680898e8e6f244a90a89",
+  "base": "b064ccbb83e7b225bd9ea2977209183271165dc6",
+  "manifest_sha256": "a815de632c6223ca102838e42a640286816cf1709723bca8cd87628791436e30",
+  "changed_files": 39,
+  "reviewer": "Drishti; separate AI review",
+  "checks": {
+    "all_committed_file_hashes_and_sizes_exact": true,
+    "actual_diff_paths_equal_manifest": true,
+    "all_ten_site_source_files_equal_tested_bindings": true,
+    "only_rollout_item_changed": "POD-EDIT-385",
+    "unchanged_rollout_siblings": 936,
+    "counts": {
+      "completed": 161,
+      "excluded": 491,
+      "in_progress": 1,
+      "queued": 284
+    },
+    "programme_credit": 0,
+    "programme_completed_unchanged": 134,
+    "original_three_KB_artifacts_archived_byte_exact": true,
+    "review_copies_byte_exact": true,
+    "independent_record_checks": [
+      "article_rollout --check PASS",
+      "check_autonomous_program PASS",
+      "check_team_assignments PASS",
+      "check_bundle PASS",
+      "git diff --check PASS"
+    ],
+    "book_and_other_article_source_paths_unchanged": true,
+    "search_eligible_count": 11
+  },
+  "evidence_bindings": {
+    "drishti/integrated-review.json": "0aecf6a8fca7f17a90126bfbadee713e0a6b1683f44e76289fcfb757cd1325fb",
+    "drishti/final-artifact-check.json": "5148d9d692dc23a4d0934bb4f772ce71db824bd7b98a94c3d8da8ffe91bdb841",
+    "samanta/implementation-report.json": "e8da5c9cd8c8fde8c54ae54e293cd84be0a9c876be9c6c24f0b356fdb7ef94b7",
+    "samanta/validation-site.json": "62707b3806bd2416c86a4a8214feac203b344267d9509bf4d4c39a953378eda2",
+    "samanta/browser/tested-product-binding.json": "5167c12d17ea6cf10e2748486e84e063db6a3727bb1371043ec92d6db2a6c571",
+    "samanta/implementation-baseline.json": "2a9fff2b610d38975d4ace542bf401f14747ce6565ef4bbd66ccd0c132caec6b",
+    "samanta/ci-record-fix.json": "eb2bd70272b1a18d697de6e3099f9165c8027c6f543970687a9f044ea761705e"
+  },
+  "findings": [],
+  "qualifications": [
+    "Reuses actual four screenshot/two download review and final fourteen-gate local validation; no new build or source research.",
+    "Actual browser tested uncommitted implementation over baseline; all ten committed site source hashes equal tested/final implementation bindings. Final full HTML exactly matches tested artifact; coast/publication body and notes match, not whole HTML bytes.",
+    "Initial historical output map report/baseline overwritten by helper shadow incident are not claimed restored. Exact historical KB files retained. Book preservation uses intact independently rehashed implementation-baseline.",
+    "Current ownership remains claimed through publication/live checks/receipt. POD-EDIT-385 remains in_progress; no completion or programme credit.",
+    "This PASS is local exact candidate review, not remote CI, deployed/live delivery, human, assistive technology or physical phone review.",
+    "Supersedes prior39bd exacthead verdict only for the documented three-file record/research delta; original review/manifest retained by coordinator. No browser/build repetition needed because all site/schema product inputs remain exact."
+  ],
+  "delta_review": {
+    "prior_reviewed_head": "39bd01fe403a9d9ff4635e7395fd1ba8db26679a",
+    "changed_paths": [
+      "kb/research/culture/ghumura.md",
+      "kb/research/search-index.json",
+      "kb/records/editorial-workbench.json"
+    ],
+    "markdown_transformation_exact": "Only allowed status draft, eight citation/five definition source-ID replacements, and absolute equivalent collection URL; prose unchanged.",
+    "search_index": "Only culture/ghumura object changed;1504siblings exact; exact generated reconstruction checked.",
+    "workbench": "Only search-index fingerprint changed.",
+    "site_and_schema_byte_parity": true,
+    "research_validator_logs_hash_verified": 14,
+    "failed_remote_run_preserved": "41365956945 failed stale research index/research validation; corrected locally, successor CI remains independently gated.",
+    "review_tool_limit": "A --help probe of reindex.py unexpectedly executed its deterministic generator; git status remained clean and all canonical hashes stayed exact. No changed canonical bytes resulted."
+  }
+}

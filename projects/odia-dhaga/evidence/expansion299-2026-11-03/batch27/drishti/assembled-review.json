@@ -1,0 +1,48 @@
+{
+  "decision": "PASS",
+  "status": "PASS_EXACT_RESEARCH_ASSEMBLY",
+  "reviewer": "Drishti separate AI review",
+  "input_head": "811fd70951c007466bbfb52a6e7dc3006545d7b8",
+  "bindings": {
+    "candidate-bundle.json": "8468280b3d0fe31bd102aaf2fb846419859bc9e074ed1a81d0fd0b97530df9e4",
+    "reviewed-handoff.json": "833e9cbddae10d55da9542af15152120e1c7bc2c2752c80856a82dfea03ad60f",
+    "anvesha/candidates.json": "c25c1cf206d7a118dc2ec58ccf4a9e8c5a40a4e9259493f276b4550f1b6b2b0d",
+    "anvesha/dispositions.json": "0f3ae462f8eb7bcafce67e8b05a3b686f9546d5f44b5e82a8360e385485c4a0b",
+    "anvesha/source-coverage.json": "b42d2551b0e072d1278fd141ac4844700b48bb30ec97cc8f2b6fd74371aa9693",
+    "drishti/integrated-review.json": "6c22559d03fedadd401eca17d8b2832df9c7fbd959a65b7c081c6163a0a22f12",
+    "anvesha/report.json": "a3deb590f0661288fc91a9ca69b24382345735dfbdc02043c2b56c431b13a0a8",
+    "samanta/report.json": "b37a0f389a5c631250339a4b73540d68e66ef78da5e814d46685dcde674c1ea8",
+    "root-input-verification.json": "9176ea80d038d60e9fecc6a4f69d40cec8c6106d0a488d49c8f3601a8751af1f",
+    "root-preservation.json": "7ee9cb8833451a50d0cceec80035123d588e36f02c0afcefbd33fbad8fc838e8"
+  },
+  "checks": {
+    "complete_candidate_data_deep_equal": true,
+    "all_dispositions_deep_equal": true,
+    "all_coverage_deep_equal": true,
+    "all_bound_files_exact": true,
+    "historical_handoff_exact": true,
+    "counts": {
+      "full_heads": 9,
+      "quotation_positions": 9,
+      "proposals": 3,
+      "deferred": 6,
+      "used_sources": 3,
+      "research_sources": 9,
+      "accepted_increment": 0
+    },
+    "accepted_increment": 0
+  },
+  "findings": [
+    "Three complete bilingual draft objects and only3used revision sources preserved exactly;6research-only sources not imported.",
+    "Ninepositions=3proposals6deferrals; regional-sense/criticalreading/short-expression and unresolved wording limits retained.",
+    "Next saved300offset340/page9993 and88260 mixed backlog preserved; prior058family exclusion does not become new count or automatic variant.",
+    "Existing preparation/proposal totals remain potential only, not produced274/accepted/public increments.",
+    "Historical pending bundle status unchanged; separate review supplies bounded assembly verdict."
+  ],
+  "limits": [
+    "No repeated retrieval/research/build/art or canonical changes",
+    "AI review, not human review or publication/acceptance approval",
+    "Future actual preparation/art/production/publication gates remain"
+  ],
+  "scope_released": true
+}

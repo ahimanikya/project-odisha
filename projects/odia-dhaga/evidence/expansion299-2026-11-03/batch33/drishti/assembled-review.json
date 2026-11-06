@@ -1,0 +1,45 @@
+{
+  "decision": "PASS",
+  "review_type": "Separate AI exact research assembly review",
+  "input_head": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "bundle_sha256": "15ea998d1ea232fc1c1435b6f4168bbdc23314c917d12682f45f26e84443b767",
+  "bindings": {
+    "anvesha/report.json": "c1fbb8407dfc73d58eb8d33da62b66cc75ae18d204b0b3d1ab86468f5231e8b3",
+    "anvesha/candidates.json": "f26a449f8257ee7ba9fb1bed6c78e800c7c531cca433b99986000b7612f36706",
+    "anvesha/dispositions.json": "747886e3824044e863bb721b103bd44413efedd5cf1b6b37acc652757a4520e0",
+    "anvesha/source-coverage.json": "18445bd80aa2d06bfe223d64704f1f75653a9e8ca2bfc0d6df1b6bff92d5a47e",
+    "anvesha/source-word-budgets.json": "0f8c9d70bad680ebf25bfe7691c00ec4f3baee80b358f712cb46f619edbc8dfc",
+    "samanta/report.json": "173e9ddd55f039105d3d26cc52b00caccb2316f4c8d1b3b0487ced91c889e869",
+    "drishti/integrated-review.json": "5c61e052adfa367fe283063f60807d85a86041bf26b7f70f2b466fa6925109eb",
+    "root-preservation.json": "bc1cb347f95406906b6a89430d341599f0ec72eaab43bc77b43679267c8d1e92",
+    "reviewed-handoff.json": "66df5475a2584e046807ff2bebdb42b90cee31c54cf888eab132447e56d557fc"
+  },
+  "integrated_review_sha256": "5c61e052adfa367fe283063f60807d85a86041bf26b7f70f2b466fa6925109eb",
+  "checks": [
+    "Full four bilingual objects and source registry exactly equal frozen candidate_data.",
+    "Dispositions, coverage and budget objects exactly equal frozen author inputs.",
+    "All nine bindings rehashed exact, including root preservation and historical handoff identical to integrated review input.",
+    "Used-source union exactly four revisions88035/210556/118136/171641; no deferred or thematic-only source imported.",
+    "Nine fresh positions comprise eight quotations plus one documented headword analogy; four proposals/four deferrals/one thematic zero, not exact151 variant.",
+    "Next saved400 offset420/page57670 and381/78844,388/92065,88260 backlogs preserved."
+  ],
+  "counts": {
+    "full_heads": 9,
+    "fresh_positions": 9,
+    "proposals": 4,
+    "deferred": 4,
+    "related_theme_zero_increment": 1,
+    "headword_analogy_positions": 1,
+    "quotation_positions": 8,
+    "research_sources": 9,
+    "used_sources": 4,
+    "accepted_increment": 0
+  },
+  "limits": [
+    "Historical bundle pending-review status is unchanged; separate review supplies verdict.",
+    "Research readiness only, not human review, acceptance, canonical release, programme credit or produced edition.",
+    "38 proposals beyond local254 imply potential292 only; no expanded edition produced.",
+    "All integrated source, genre, translation and preservation limits remain operative; no automatic151/241 patch."
+  ],
+  "scope_released": true
+}

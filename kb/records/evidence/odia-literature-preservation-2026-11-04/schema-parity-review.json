@@ -1,0 +1,25 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI review",
+  "scope": "Output-only schema and portable proposal parity, not implemented/rendered behavior",
+  "bindings": {
+    "article.md": "f0f19c2192f8742f16ddf3571053c7f68920f64e9811af5774402b187ce8e9ab",
+    "samanta/article-schema.json": "962c5e438bcc5d08796642f4f3ac83e668cb9394c8b244d18c70e672515c34f2",
+    "samanta/portable-proposal.json": "dda2ee5a875924e6a6725228cc4b14dcf38e77e97e5aece858968427cb71c4ac",
+    "samanta/source-mapping-checks.json": "964e8e06cd63f16060a1a85c9ba7515abf5e95bb1f936b0290d709a34d2e710d",
+    "drishti/odia-only-draft-review.json": "1c2ec2883e4c678cd9b9b25b9a53a8fe151093289d803784031d89fe6c3595c2"
+  },
+  "actual_checks": [
+    "Independently reconstructed whole Markdown from title/author/section headings/ordered segment text/emphasis/source IDs and ten full note segments; exact article equality ignoring terminal whitespace.",
+    "21 paragraphs,11 markers,10 complete notes,12 source links; note2 retains two occurrences; Barnabodha parenthesised URL intact.",
+    "Portable opening plus20 paragraphs equals all21 schema text paragraphs exactly once;12 short bibliography titles/URLs match full-note links; article return is explicit.",
+    "Four existing route source files independently rehashed to producer route bindings.",
+    "No new summary: metadata reuses exact title and leadParagraphIndex selects existing opening. Grouped citation IDs8/10 preserve both underlying URLs."
+  ],
+  "findings": [],
+  "limits": [
+    "No build/render/browser interaction checked. Native reference/return anchors, save/reload/download behavior, metadata acceptance and responsive layout remain implementation gates.",
+    "Portable format intentionally omits full footnotes and emphasis/reference markers; complete narrative and short links retained. Full note caveats remain website-schema content and must be accessible through article return.",
+    "Source facts not re-researched; previously reviewed exact prose and limits reused. No canonical changes."
+  ]
+}

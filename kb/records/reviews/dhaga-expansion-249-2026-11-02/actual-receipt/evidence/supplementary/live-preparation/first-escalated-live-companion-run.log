@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-preparation/verify-companion-main.py", line 24, in <module>
+    localh=h((P/x['local'].lstrip('/')).read_bytes());liveh=h(fetch(x['live']));assets.append({'local':x['local'],'live':x['live'],'local_sha256':localh,'live_sha256':liveh,'same_previously_reviewed_pair':localh==x['local_sha256'] and liveh==x['live_sha256']})
+  File "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-249-2026-11-02/live-preparation/verify-companion-main.py", line 11, in fetch
+    with urllib.request.urlopen(urllib.request.Request('https://projectodisha.org'+path,headers={'Cache-Control':'no-cache'}),timeout=45) as r:return r.read()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 472, in read
+    s = self._safe_read(self.length)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 613, in _safe_read
+    data = self.fp.read(amt)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1270, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1128, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer

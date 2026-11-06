@@ -1,0 +1,262 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-832",
+  "work_id": "POD-WORK-326",
+  "programme_id": "POD-A500-135",
+  "program_item": "POD-A500-135",
+  "authorization": "POD-DEC-225",
+  "verified_routes": [
+    "/stories/odia-literature-preservation/"
+  ],
+  "live": {
+    "checked_at": "2026-11-04T06:15:04.354964+00:00",
+    "checks": {
+      "paragraphs": 21,
+      "notes": 10,
+      "references": 11,
+      "source_urls": 12,
+      "full_catalog_exact": true,
+      "noindex_and_sitemap": true
+    }
+  },
+  "review": "records/odia-literature-preservation-delivery-review-2026-11-04.json",
+  "reviewed_head": "3acf25aea3eb1050ff56c464e08578d9a4936536",
+  "merge_commit": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+  "pull_request": 674,
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 41782698753,
+    "headSha": "9c6d94482a4e8088f3ded677768f03a09eb5ee1a",
+    "jobs": [
+      {
+        "completedAt": "2026-11-04T06:10:26Z",
+        "conclusion": "success",
+        "databaseId": 126417693911,
+        "name": "build",
+        "startedAt": "2026-11-04T06:00:33Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-04T06:00:36Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-04T06:00:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:01:38Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-11-04T06:00:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:01:43Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-11-04T06:01:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:01:43Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-11-04T06:01:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:01:57Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-11-04T06:01:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:01:57Z",
+            "conclusion": "success",
+            "name": "Verify release PDF delivery guards",
+            "number": 6,
+            "startedAt": "2026-11-04T06:01:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:02:00Z",
+            "conclusion": "success",
+            "name": "Hydrate exact reviewed Dhaga release PDF",
+            "number": 7,
+            "startedAt": "2026-11-04T06:01:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:02:58Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 8,
+            "startedAt": "2026-11-04T06:02:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:03:00Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist",
+            "number": 9,
+            "startedAt": "2026-11-04T06:02:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:03:25Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 10,
+            "startedAt": "2026-11-04T06:03:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:04:33Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 11,
+            "startedAt": "2026-11-04T06:03:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:04:34Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-coast",
+            "number": 12,
+            "startedAt": "2026-11-04T06:04:33Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:04:47Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 13,
+            "startedAt": "2026-11-04T06:04:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:06Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 14,
+            "startedAt": "2026-11-04T06:04:47Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:07Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-publish",
+            "number": 15,
+            "startedAt": "2026-11-04T06:10:06Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:23Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 16,
+            "startedAt": "2026-11-04T06:10:07Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:23Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 31,
+            "startedAt": "2026-11-04T06:10:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:24Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 32,
+            "startedAt": "2026-11-04T06:10:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:24Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 33,
+            "startedAt": "2026-11-04T06:10:24Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41782698753/job/126417693911"
+      },
+      {
+        "completedAt": "2026-11-04T06:10:50Z",
+        "conclusion": "success",
+        "databaseId": 126421087269,
+        "name": "deploy",
+        "startedAt": "2026-11-04T06:10:30Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-04T06:10:32Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-04T06:10:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:48Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-11-04T06:10:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-04T06:10:48Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-04T06:10:48Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41782698753/job/126421087269"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41782698753"
+  },
+  "live_checks": {
+    "paragraphs": 21,
+    "notes": 10,
+    "references": 11,
+    "source_urls": 12,
+    "full_catalog_exact": true,
+    "noindex_and_sitemap": true
+  },
+  "separate_live_review": "records/odia-literature-preservation-delivery-review-2026-11-04.json",
+  "programme_credit": 1,
+  "programme_completed": 135,
+  "verified_at": "2026-11-04T06:15:04.354964+00:00",
+  "scope_release": "Only after separately reviewed receipt merge, CI and remote verification.",
+  "limits": [
+    "Separate AI review, not human archival or community review.",
+    "Source access and rights limitations preserved; no audio/PDF interior or corpus-completeness claim.",
+    "Receipt integration retains finite ownership until receipt checks, merge and remote verification."
+  ],
+  "evidence_sha256": {
+    "manifest": "51c07c316ab3594b013d8c618c10ac39a24e4bfd8e1dcd0a27ddca9301e78eaa",
+    "exact_review": "b9dce6168a209d445da9dd7a813eda1b4c0bdf67c114e5aac90c77aafd34cfd4",
+    "ancestry": "4a897f01c90e9efccb3a1d8f67af44ed33de5221444e124c9defe0518323f275",
+    "ci": "681c9fd3f21f6ff31de8cb2e59f4f1a0e25c4af472c22da37eece963e28516d2",
+    "deployment": "45d78bcc9c56997362cdab6a19d0872e822a40796c9467c94c03d1cd16209e56",
+    "remote": "faa94c336d803349bad478c0d1fb443bdffd6236c04f74aa0e43271dfac45c97",
+    "http": "90f6f99070f23757c1a41d5b5ce52250307c792024006504a8131c260719973e",
+    "browser": "d82b7df1c7c8a6affcebe7169933281c590932889a9b45a06ad0f9f3253def36",
+    "live_review": "55bbc81d3f9bfc38e9672002e2ab3ae0c2d0b093399feec6d08ffded9c654112"
+  }
+}

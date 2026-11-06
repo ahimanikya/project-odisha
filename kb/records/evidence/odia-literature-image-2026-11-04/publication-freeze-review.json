@@ -1,0 +1,22 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti independent AI prepared-binding review",
+  "reviewed_head": "e4eb139cab0fe4660de84ce50031c992015dc40e",
+  "bindings": {
+    "prepared-e4eb139c/expected.json": "2ab3254e6db2bfb103630c7c9c8a92a873c484cf3567c82a6e827d3155c6f1c5",
+    "prepared-e4eb139c/prepare-report.json": "776c0b99d88f5bcf465e17f573d8da0a6a5c43379fe6f4fbd13268c37c5a7114",
+    "anvesha/verify-image-live.py": "4f3ec94b5bc70c244a16830d5c22b2d7214c585032359523723983e3d505fdd8",
+    "exact-head-review.json": "4fb35bb7122f964fdbbf739eaa4ed6f28c449af3af783cf0b3d2eb7e94503c90",
+    "candidate-manifest.json": "75e019a3f4a9ee92c00c2cf166e00eb8c14ad9426e178c3f78c1bcb75da53ffa"
+  },
+  "checks": [
+    "Actual expected hash matches prepare report; all bound manifest/review/schema/prior/parser hashes validated read-only.",
+    "Prepared story equals exact schema; actual finalpublish page hash and21/10/11/12,image alt/full visible caption and OG/Twitter inspection pass.",
+    "Same canonical JPEG312808bytes/e4f0dc is actual image and sharing asset; built bytes exact,one asset fetch suffices.",
+    "Merge/deployment fields explicitly null; no live readiness inferred from offline prepare."
+  ],
+  "limits": [
+    "No prepare rerun,network/browser/build or canonical change.",
+    "Actual successful CI,reviewed merge ancestry/deployment and explicit root authorization required before live;responsive currentSrc and rendered placement separate browser scope."
+  ]
+}

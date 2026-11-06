@@ -13,7 +13,7 @@ const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"'
 test('Prahlada Nataka publishes its canonical narrative and scoped source trail',()=>{
  assert.ok(html.includes(reviewed.title));
  const paragraphs=[...reviewed.html.matchAll(/<p>([\s\S]*?)<\/p>/g)];
- assert.equal(paragraphs.length,34);
+ assert.equal(paragraphs.length,30);
  assert.equal(story.canonical_kb_narrative,false);
  assert.equal(story.narrative_superseded_by,'culture/prahallad-nataka.md');
  for(const [,p] of paragraphs)assert.ok(plain(html).includes(plain(p)),plain(p));

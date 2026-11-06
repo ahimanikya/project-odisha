@@ -1,0 +1,79 @@
+{
+  "author": "Ahimanikya Satapathy",
+  "checked_on": "2026-11-05",
+  "route": "/food/badi-chura/",
+  "source_home": "food/collection.json#pages/badi-chura",
+  "sources": [
+    {
+      "id": "food-badi-sasmita2017",
+      "number": 1,
+      "title": "Badi Chura",
+      "url": "https://www.firsttimercook.com/badi-chura/",
+      "note_markdown": "Sasmita, [Badi Chura](https://www.firsttimercook.com/badi-chura/), First Timer Cook, 30 January 2017; updated 28 April 2021. Introduction and method.",
+      "note_segments": [
+        {
+          "text": "Sasmita, "
+        },
+        {
+          "text": "Badi Chura",
+          "href": "https://www.firsttimercook.com/badi-chura/"
+        },
+        {
+          "text": ", First Timer Cook, 30 January 2017; updated 28 April 2021. Introduction and method."
+        }
+      ]
+    },
+    {
+      "id": "food-soul-pritisha2024",
+      "number": 2,
+      "title": "The soul food of Odisha",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha",
+      "note_markdown": "Pritisha Das, [The soul food of Odisha](https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha), Odisha Tourism, 19 March 2024. Contributor account.",
+      "note_segments": [
+        {
+          "text": "Pritisha Das, "
+        },
+        {
+          "text": "The soul food of Odisha",
+          "href": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+        },
+        {
+          "text": ", Odisha Tourism, 19 March 2024. Contributor account."
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "opening",
+      "source_ids": []
+    },
+    {
+      "id": "preparation",
+      "source_ids": [
+        "food-badi-sasmita2017"
+      ]
+    },
+    {
+      "id": "reading-method",
+      "source_ids": []
+    },
+    {
+      "id": "meal",
+      "source_ids": [
+        "food-soul-pritisha2024"
+      ]
+    },
+    {
+      "id": "closing",
+      "source_ids": []
+    }
+  ],
+  "render_contract": {
+    "opening_heading": null,
+    "paragraph_ids": "Use exact paragraph.id for native refs; no duplicate opening-opening IDs.",
+    "note_order": "Render complete note_segments once; do not prepend duplicate title/link.",
+    "notes_expanded": true,
+    "reading_paths_expanded": true
+  }
+}

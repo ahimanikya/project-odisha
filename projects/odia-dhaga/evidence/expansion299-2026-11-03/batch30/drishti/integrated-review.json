@@ -1,0 +1,98 @@
+{
+  "decision": "PASS",
+  "status": "PASS_BOUNDED_RESEARCH_REVIEW",
+  "reviewer": "Drishti separate AI review, not human review",
+  "input_head": "811fd70951c007466bbfb52a6e7dc3006545d7b8",
+  "bindings": {
+    "HANDOFF.json": "8b192f3948887e7529d3b9fb15498db89e38d0b3f5801fbe896d0af50fd2b77f",
+    "anvesha/report.json": "d45a5de66d1ea3aeb1aaa1e774b028f49500404debff1c5dc681953643787805",
+    "anvesha/candidates.json": "9e6d6ec4c58ca5691f134013381cdcbcbe42287b9ca0c8179c3773986293bc11",
+    "anvesha/originals.json": "e89079b34b5d141d51c5da21f301eb88ada5a3556b1704e25f7815b77b02f457",
+    "anvesha/dispositions.json": "94a7e05765646eaf8d97861be2f48986c065bcdbbe2ffe9abddaf4d81ba79031",
+    "anvesha/source-coverage.json": "db333694169b578c575cebbd28e417440dc2025f5d35414a35e2ed8902084df1",
+    "anvesha/source-word-budgets.json": "c46e239db8fc63715545de157b4323c37948ddae4fe18bc92b0bd694343e096a",
+    "anvesha/source-registry.json": "8e90d5ce8c7027d1563ebc3d6aa5550a308fe1777180624dd00f5708b93040b9",
+    "anvesha/history-before-bilingual-precision/candidates.json": "3e9feb8e68707cfbf61803085dfc9ad60043ccb05444dba05cbb9eade9b07b6e",
+    "samanta/report.json": "0f8a8566b5c01dd7de697b8a982c9c8986a6d716a025005c4ea7efc150f64f2b",
+    "samanta/baseline.json": "2e7c40faf4e8d83b174f3856ebc6212d53719ca959571099b38289a3513de884",
+    "drishti/check.py": "485fd369f2ae780ccfd58027bdddfaca03d95458d800a93de1fe231863524cd4",
+    "drishti/check-results.json": "df24fb054e19bfd282020bfd9dd021116e38bf3d907cb04aac0168b323a1bc0e",
+    "drishti/preliminary-source-review.json": "0fadd8f1b0dd8db3bbc5425b3f09b364e2c5bc1b9756282adf54d1538d34913d",
+    "drishti/preliminary-dedup-correction.json": "69b84d121dc09e2cf495d75a3a68f3beae4c3ec3ef4e7c4e62d6ecb281d416c3",
+    "drishti/prose-progress.json": "dacbb8a4946aae5b5c00f668813151a334b48be510c6aae24a93ee1ec6f07b32"
+  },
+  "actual_checks": {
+    "decision": "PASS",
+    "api_capture_pairs": 9,
+    "exact_primary_quotes": 4,
+    "budgets": [
+      153,
+      151,
+      157,
+      167
+    ],
+    "canonical_hashes": 1428,
+    "local254_hashes": 1457,
+    "prior_proposal_objects": 24,
+    "comparison_objects": 278,
+    "accepted_increment": 0,
+    "limits": "278 objects means local254 plus24 proposals, not produced278. Exact matches supplement semantic review."
+  },
+  "additional_checks": [
+    "All nine full originals, four complete bilingual proposals and nine dispositions read; each disposition quote matched exact own capture.",
+    "Final technical report read and author bindings independently exact.",
+    "All58 E267 package files/manifest and44 current corrected M110 snapshot bindings independently exact.",
+    "Actual006/251/198/196/237/170/183/227 primary and explanation fields read; prior238/B23-03/B26-02 readings reused."
+  ],
+  "findings": [
+    {
+      "candidate": "01",
+      "finding": "Own-house fire at waistfold supports image; warning expressly editorial and no negation silently inserted. Family-secrets sense kept separate; no invented abuse incident. Distinct from196 speaking/silence dilemma and refuge yielding blow."
+    },
+    {
+      "candidate": "02",
+      "finding": "Milk travelling versus seated liquor sale retained; effort/attention application editorial, no source demand/cause, virtue, health or commerce history claim. Distinct from reputation or livelihood themes."
+    },
+    {
+      "candidate": "03",
+      "finding": "Gone versus retained water supports contrast; loss/remaining-resource reading editorial. Distinct from170 absent prerequisite,183 patient erosion,227 insufficient accumulation; no engineering instruction."
+    },
+    {
+      "candidate": "04",
+      "finding": "Low-status mouth/bigwords/hearerhurt exact; critical hierarchy challenge is editorial, not tolerant source moral. No caste/age/gender identity assigned. Distinct from251 journey/death gendered taunt and198 authority as scripture. Corrected Odia now clearly questions hierarchy."
+    }
+  ],
+  "correction_history": [
+    "Reviewer initial24182-versus251 thematic concern withdrawn after actual251 reread; preliminary record and correction preserved.",
+    "Requested04 Odia change from potentially inviting hierarchy to raising questions about it; actual old/new candidate diff is only04 meaning_odia, exact quotations unchanged. Final budget167 includes correction."
+  ],
+  "budgets": {
+    "totals": [
+      153,
+      151,
+      157,
+      167
+    ],
+    "method": "Independent seven whole narrative fields plus exact quotation including editorial analysis. Original bilingual examples do not repeat source quotation; excluded with stock credit/rights/origin metadata. Not total-entry word counts.",
+    "used_revision_ids": [
+      197543,
+      200669,
+      213617,
+      62544
+    ]
+  },
+  "coverage": "Nine inspected positions: eight fresh (four proposals/four deferrals) plus73715 related006 zero increment. Exact verbs differ; no automatic variant patch.73666 prior143 excluded before retrieval. Deferrals preserve9893 compound action context,82625 rhetorical use and separate Krishna Singh verse attribution,56062 opening/agency,33816 event/destination.78846 tentative family suspicion remains unconfirmed; next saved350 offset370/page78846 first, then378/page79956, not exhaustion.88260 backlog retained.",
+  "preservation": "1428 canonical,1457 local254,24 prior proposals,E26758 and current corrected M11044 bindings independently exact. M110 preparation separately complete; no canonical approval transferred.",
+  "future_integration": [
+    "Only four used sources;006-related and deferred research not automatically imported.",
+    "Rights require renderer-compatible text+URL plus original lossless rightsinfo.",
+    "No006/143/alias patch or accepted increment."
+  ],
+  "limits": [
+    "Digital dictionary lineage, no fresh retrieval, print collation, fieldwork or earliest origin/popularity proof.",
+    "278 comparison objects means local254+24 proposals, not produced278. Four new proposals imply potential282 only, no acceptance or produced edition.",
+    "Exact comparisons supplement bounded semantic review; not exhaustive unknown variants.",
+    "No canonical/Git/art/build/public/programme changes or human approval. Separate exact root assembly review still required."
+  ],
+  "scope_released_for_assembly": true
+}

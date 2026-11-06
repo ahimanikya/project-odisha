@@ -1,0 +1,50 @@
+{
+  "decision": "PASS",
+  "gates_bound": 13,
+  "browser_tested_products": 49,
+  "screenshots_bound": 22,
+  "edition_results": [
+    {
+      "target": "dist",
+      "bytes": 37523924,
+      "files": 607,
+      "html": 302,
+      "prior_assets_exact": 257,
+      "text_fields_exact": 1495
+    },
+    {
+      "target": "dist-coast",
+      "bytes": 37511542,
+      "files": 607,
+      "html": 302,
+      "prior_assets_exact": 257,
+      "text_fields_exact": 1495
+    },
+    {
+      "target": "dist-publish",
+      "bytes": 37510938,
+      "files": 607,
+      "html": 302,
+      "prior_assets_exact": 257,
+      "text_fields_exact": 1495
+    }
+  ],
+  "coast_publication_exact": 305,
+  "robots_only": 302,
+  "publication_bytes": 709772466,
+  "indexable_pages": 11,
+  "edition_append_fields": [
+    "coast.json:routes",
+    "coast.json:standalone_routes",
+    "search-candidate.json:pages"
+  ],
+  "book_files_exact": 1760,
+  "working_source_hashes": {
+    "tools/export-dhaga.mjs": "83348bf11f6292478433111b4951aa6992dc4e234f22ebeac59b3761708af7f7",
+    "tools/verify-dhaga-pdf.py": "f73b054e9529b2d0744c46e3b5f5cf5f5c972de9e297de7462ed5f01a3409ff6",
+    "tests/test_dhaga_pdf_delivery.py": "fd2e7dde9d9a9a010b97353467752e9d7b0079a0c75d498a0eac597ecf9b5adc",
+    "editions/coast.json": "bfdd71a9e8978a0490d961bb10b3550b09455f7125fd4d7fc13f316fe74e9e74",
+    "editions/search-candidate.json": "1d0a8fcf033e2474a2f58380be13a322fd5fd3e47662557b17384e0e9eb3fccc",
+    "tests/dhaga-export.test.mjs": "486d0e8edb4f526431319133667be27d31f01ec0c7ed509f0379f2f0a74e0c05"
+  }
+}

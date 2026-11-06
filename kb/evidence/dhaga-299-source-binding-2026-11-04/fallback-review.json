@@ -1,0 +1,63 @@
+{
+  "decision": "PASS",
+  "status": "CONCRETE_MUTABLE_HOST_FALLBACK_READY_FOR_COORDINATOR_AUTHORIZATION",
+  "reviewer": "Drishti, independent AI review; no human review claimed",
+  "input_head": "1237b7f6c7d7a09503906f0509467fb0237d4a39",
+  "bindings": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/implementation-direction.json": "5ba6b75c44e5b1297b9c6ede149112d3490d56b02834c6a7adf6c774c5bda048",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/anvesha/release-procedure.json": "8f046580a224ebc4875d6699683819fe96310f13a6d8a96b731913a42f75263b",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/samanta/implementation/report.json": "bc76dab53c02c6723493f7fab292d9fb853185045e7984ef553037663ccbf244",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/samanta/implementation/verify-pdf.py": "f73b054e9529b2d0744c46e3b5f5cf5f5c972de9e297de7462ed5f01a3409ff6",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/samanta/implementation/test-verify-pdf.py": "b2dafbc1eab2ea9bdfbc81da1dd7e7d2876d19f95c146ec9469dca1f922d1c44",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/samanta/implementation/review-fixes.diff": "9ba648a2e6eb52cb1968d0058d598c78c9b962795900597e1995529d08028ecd",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/samanta/implementation/pending-descriptor.json": "dc4c04da48b24a95493455dbce79cbeaeaa9728b8cc0ec7eb3a4a3a1901f5bd2",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/samanta/implementation/tests.log": "fe28fe8e83a3e97c1dd9ca047468e19cd97e711d1c84581e1b40b8a6750e8e48",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/drishti/fallback-review-initial.json": "901df6dc496cf5fc50d735a4d7ba727afac2391bb79c1ceecb554bfb866ff104",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/drishti/fallback-independent-tests.json": "f7ff732a4de5a09329304ba87de2968c1c5ee648d1f9cf2b7f1d048527aed03a",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-299-2026-11-03/integration-preparation/drishti/preparation-review.json": "c977be4562e5fe7e834313ae21e69fc68111faced4813c1750708625ac2f623f"
+  },
+  "resolved_findings": {
+    "F1": "Identity/integrity fields and release membership validated before and after download; counter/title telemetry changes allowed. Replaced full-object equality. Tests verify telemetry skew allowed and fullcommit drift refused.",
+    "F2": "curl -q first disables default configuration; explicit5redirect bound, HTTPS-only, connect10/total180/subprocess190seconds and maximum bytes. Command construction test passes.",
+    "F3": "Procedure and pending descriptor now require same lightweight full40commit tag/full64hash filename; real commit, tag, IDs and URL remain null."
+  },
+  "actual_tests": {
+    "independent_offline_tests": 12,
+    "result": "PASS",
+    "producer_report_bindings_rehashed": 6,
+    "scenarios": [
+      "positive hydration and existing exact reuse",
+      "wrong existing251 bytes preserved/refused",
+      "descriptor identity violations",
+      "remote replacement despite local file",
+      "corrupt transfer cleanup",
+      "symlink target/parent rejection",
+      "racing target no-clobber",
+      "commit drift during download",
+      "telemetry changes tolerated",
+      "curl configuration/redirect/timeouts",
+      "unauthorized and optimized runtime refusal"
+    ]
+  },
+  "assurance": "Exact observed-byte and release/tag/asset identity checking with no-clobber local hydration. These checks detect observed drift; they do not prevent privileged hosting mutation or guarantee availability. No immutable-host claim.",
+  "reviewed_boundaries": [
+    "Existing local PDF still checks remote release/asset/tag metadata and local exact bytes. It intentionally does not freshly redownload remote body; future live release verification must do so separately.",
+    "Fresh download checks digest/size/signature and rechecks metadata before atomic local link. Annotated tags deliberately refused, not silently dereferenced.",
+    "Expected descriptor and packing report are trusted reviewed inputs; helper does not authenticate review provenance itself. Root must bind exact known109520119byte/cb34aaab PDF and source review before use. Procedure retains extra evidence fields beyond helper minimum.",
+    "Use an owned private checkout; repeated symlink checks/no-clobber do not guarantee against hostile ancestor-directory races. HTTPS redirects are scheme/count bounded; no host allowlist implemented, and exact body digest plus no credentials protects artifact identity.",
+    "No-clobber/no-replacement release policy is an operational commitment, not host enforcement. New version/review is required for any altered bytes."
+  ],
+  "remaining_gates": [
+    "Fresh finite ownership and explicit execution authorization. This PASS itself performs or authorizes no upload/settings change.",
+    "Reviewed exact source-binding commit, actual unique draft/release/lightweight tag/asset IDs and full metadata; do not invent pending values.",
+    "Exact anonymous full download plus metadata recheck and retained failure evidence; commit actual descriptor only after that proof.",
+    "Canonical adapter integration must retain cumulative596/595nonPDF allowlist, deliberate oldPDF tracking removal and narrowignore, fresh-checkout hydration,13sitegates and separate actual browser/live review.",
+    "Verify mutable-host limitations in actual delivery records and user-facing claims; no immutable label or permanent-availability promise."
+  ],
+  "history": "Initial REVISE and producer pre-fix helper/tests/report/procedure retained; this report supersedes only those three concrete findings. Prior immutable-preferred preparation review remains historical, and this report explicitly evaluates the disabled-setting fallback.",
+  "limits": [
+    "All tests offline with synthetic fixture IDs/PDF, not actual network or upload validation.",
+    "No canonical/Git/public mutation, book rebuild, quality reduction or repeated PDF/art review."
+  ],
+  "scope_released": true
+}

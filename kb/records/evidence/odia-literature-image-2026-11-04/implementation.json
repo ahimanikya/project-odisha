@@ -1,0 +1,255 @@
+{
+  "canonical_book_files_preserved": 1761,
+  "status": "PASS",
+  "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+  "current_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+  "source_hashes": {
+    "src/pages/stories/odia-literature-preservation.astro": "d08d6aa987092fd7869016ffdbbe6e10d8564920c9f2cf231ee0621f152718eb",
+    "src/data/discovery.ts": "057641fa2390f5f404aa2fbd52f738be9b02330fc4c079ad78336c104946ea61",
+    "src/data/book-photos.ts": "88dbd9d36a376466f2dcbb2565762b0b2143dfd67fcb813460b46e4f3a37636f",
+    "editions/responsive-images.json": "3b724cf552deb541322000c212258cccf0b2d763f86626cafdd853516e25787e",
+    "tests/odia-literature-preservation.test.mjs": "430597f36cb022f5f1623a23c1e697342657ae23f3d273aab80565ef7f6e29a3"
+  },
+  "schema_sha256": "962c5e438bcc5d08796642f4f3ac83e668cb9394c8b244d18c70e672515c34f2",
+  "image_metadata_sha256": "e74d98abb455a985196079f0ec1d0fff9c4b3ee92842908b5c360bb8fe662861",
+  "jpeg": {
+    "sha256": "e4f0dc356340fea5c801be227a57f352896844ad4ff760ddda0ecaba5fb4ccac",
+    "bytes": 312808,
+    "width": 1536,
+    "height": 1024,
+    "quality": 90,
+    "crop": false
+  },
+  "prior_responsive_files_preserved": 256,
+  "new_responsive_variants": {
+    "public/images/responsive/54e6b212d0dff59d-480.webp": "54e6b212d0dff59d61aea59e982e2c6fa98181a705c89be963d71091f2cb7be1",
+    "public/images/responsive/77a9218b8fd75067-960.webp": "77a9218b8fd75067c49f633865ecd734bf53ab9dd23b10931fd50fe36a5d9064",
+    "public/images/responsive/5084ccde4da8ea5a-1440.webp": "5084ccde4da8ea5af14cc70df1c8ed42857b30f77d4cbcb2a250c1569711d652"
+  },
+  "generated_asset_policy": "Three ignored responsive WebPs are generated build products, not Git source blobs; JPEG+responsive config are canonical sources.",
+  "editions": [
+    {
+      "edition": "dist",
+      "article_sha256": "c08efc23034265da237420ddc94bd7f11839b9fcfd7951d2320efad42bc06775",
+      "catalog_count": 124,
+      "unchanged_other_catalog_objects": 123,
+      "paragraphs": 21,
+      "notes": 10,
+      "markers": 11,
+      "sources": 12,
+      "photo_only_payload_change": true
+    },
+    {
+      "edition": "dist-coast",
+      "article_sha256": "f7769c62831f0e859b315735d56799f048524d95bc069638434045915414b04d",
+      "catalog_count": 115,
+      "unchanged_other_catalog_objects": 114,
+      "paragraphs": 21,
+      "notes": 10,
+      "markers": 11,
+      "sources": 12,
+      "photo_only_payload_change": true
+    },
+    {
+      "edition": "dist-publish",
+      "article_sha256": "a29a5257323e232faf95a2356162792da804752ae320eaf37ab890e690da552f",
+      "catalog_count": 115,
+      "unchanged_other_catalog_objects": 114,
+      "paragraphs": 21,
+      "notes": 10,
+      "markers": 11,
+      "sources": 12,
+      "photo_only_payload_change": true
+    }
+  ],
+  "gates": {
+    "01-build": {
+      "name": "01-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 50.29,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/01-build.log",
+      "sha256": "61c9f9d275100feb84e4739cacb3b7b1d4241e11e70de6882a45c22703100b48"
+    },
+    "02-disclosures": {
+      "name": "02-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "seconds": 1.32,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/02-disclosures.log",
+      "sha256": "170c21a14a51dfb88313e67128709cfb5eaf8c0445bb05cb9c3a194c8ea44225"
+    },
+    "03-tests": {
+      "name": "03-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "seconds": 20.5,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/03-tests.log",
+      "sha256": "82d19778157c21f3d29961c9111a2d7010bbca9188b28e823f04c9ded0ca3696"
+    },
+    "04-coast-build": {
+      "name": "04-coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 83.1,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/04-coast-build.log",
+      "sha256": "a65faa511c7524f21f72c99cbc2effb3ec2c437045e6be82ddcc72c9e65e7100"
+    },
+    "05-coast-disclosures": {
+      "name": "05-coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 1.12,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/05-coast-disclosures.log",
+      "sha256": "ab6cb998282164ffa164be4b03052d165f80019e63365b37843cf43b43a71b2f"
+    },
+    "06-coast-tests": {
+      "name": "06-coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 6.36,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/06-coast-tests.log",
+      "sha256": "bc9a51c234fddfb6638b1c676398205347db947f2d0def14337847fbdf0e7e48"
+    },
+    "07-coast-acceptance": {
+      "name": "07-coast-acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 7.12,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/07-coast-acceptance.log",
+      "sha256": "b588aaffeaf40493fd2d41f7eeac0abb3f35377991704ed72260f33f053698ff"
+    },
+    "08-discovery": {
+      "name": "08-discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.47,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/08-discovery.log",
+      "sha256": "959a97ed2f32573f462618fc8673c66fca0c3b2556dd13ceb74844a1c3b19ea6"
+    },
+    "09-search-prepare": {
+      "name": "09-search-prepare",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 6.84,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/09-search-prepare.log",
+      "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    "10-launch": {
+      "name": "10-launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.44,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/10-launch.log",
+      "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    "11-publication": {
+      "name": "11-publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 303.74,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/11-publication.log",
+      "sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    "12-publication-disclosures": {
+      "name": "12-publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.52,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/12-publication-disclosures.log",
+      "sha256": "c100878950cc4ef3b0a940b6446a282e1794515c491d9ea42b2aad34d8a04557"
+    },
+    "13-shortlist": {
+      "name": "13-shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.57,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-image-2026-11-04/samanta/13-shortlist.log",
+      "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  },
+  "browser_files": {
+    "browser/run3/desktop-discovery.png": "28a3c9d2ff68d0934ad2fac4760e8e14ff2a42c51b9807f33830f2190e65fac4",
+    "browser/run3/desktop-sources.png": "d0375bfe970e4a1599ec4ab90dace2d3ebb8efba3e69538e0171e3ae83e5e6a9",
+    "browser/run3/phone-reading.txt": "1b7ab8d9f945ccacc7eaaa177cbff43ca4931679aca2fe36312847a6af9ff357",
+    "browser/run3/phone-opening.png": "d875194c20a85391763b3b6056c1f43d0a2fc4ea07e65721d396679450e6f841",
+    "browser/run3/phone-reading.html": "298be6d1ab9ff3b3f0154b8f471c8df5d522006b73e4e05f2ee380cf84b49f29",
+    "browser/run3/browser-review.json": "55285c8d1ba1f7169d36fa5d17587a26bff35ca603981a8a18efe3306c60a06f",
+    "browser/run3/phone-hero.png": "d875194c20a85391763b3b6056c1f43d0a2fc4ea07e65721d396679450e6f841",
+    "browser/run3/phone-sources.png": "1a13b835a37cea2a378daaafd7822c12dc1369266e4445c1a4045b777101a970",
+    "browser/run3/desktop-reading.txt": "1b7ab8d9f945ccacc7eaaa177cbff43ca4931679aca2fe36312847a6af9ff357",
+    "browser/run3/desktop-opening.png": "aa904c74c894418ba645d523e8b16132f040257467f453fc8194a333b2924bac",
+    "browser/run3/desktop-reading.html": "298be6d1ab9ff3b3f0154b8f471c8df5d522006b73e4e05f2ee380cf84b49f29",
+    "browser/run3/phone-discovery.png": "976e9a4e2485e28d78010127530d0688b3bf52a3de831c93b487300b53131b38",
+    "browser/run3/desktop-hero.png": "eb0decf229a9a284b11217b29a6d1350b0bccaeb112428471daf298a3f68ce46"
+  },
+  "browser_addendum_files": {
+    "browser/phone-final-credit-reading.html": "7c0424b10327d60c8dc900ec51de5c6d1a34d89c0a0b6b95cb0b922c00834f22",
+    "browser/product-binding.json": "a1f550c7f60d80422e5dbe6e520641584d747c63254acd8917b6b1cd96f7d169",
+    "browser/desktop-discovery-decoded.png": "61650a2b1da87d327b3c0896b10c22eb12df5b02b84316aa9282c092a9caaf60",
+    "browser/credit-download-addendum.json": "40be1bb6aa52d2c794fa82c1ac25fd4015022cfe11ddd96cd8b883b4563a8fc6",
+    "browser/desktop-discovery-card.png": "49ad68fb0bdfb63f29a2fd703be95650d3e488bae0d5a95549ec03089e5bfb32",
+    "browser/discovery-addendum.json": "ae9b3f4e58100692a93dff401b588a12f401386a6590f4bd891bb9d78d05f8d6",
+    "browser/desktop-final-credit-reading.html": "7c0424b10327d60c8dc900ec51de5c6d1a34d89c0a0b6b95cb0b922c00834f22"
+  },
+  "history": [
+    "Initial added test selected default text-only book; corrected to explicit illustrated mode with actual JPEG bytes, failed log retained.",
+    "Browser run1 and run2 completed desktop article and downloads before incorrect discovery anchor-with-image selector failed; run2 repeated because an output-only repair used wrong cwd. Corrected to actual article.note-card, run3 fully passes. Earlier helper and run evidence retained.",
+    "Root removed internal provenance from image metadata during build; actual public photo whitelist excludes it in all editions. No rendered article prose changed.",
+    "Initial coast acceptance failed solely because image license_url was empty; exact07-coast-acceptance-history log is retained. Root supplied https://projectodisha.org/about/editorial-process/ as credit/provenance-policy context, not an invented external or Creative Commons licence. Full and coast outputs were rebuilt; all13 finalgates pass, and targeted desktop/phone illustrated downloads verify finalcredit."
+  ],
+  "limits": [
+    "Local actual Chrome only; no assistive-technology/Firefox/WebKit testing.",
+    "No Git/publication/live claim. Root owns release and separate review."
+  ],
+  "history_evidence_sha256": "0d7897e3dc1ee58b1dea8664fc0d549dcc98aecd61aad6f09783e58904277539",
+  "initial_coast_failure_logs": {
+    "07-coast-acceptance-history-1793780451.log": "7415dc2546f2a0b119d7792b5724a8f479ec817f6cb4247883772a7e3c42826c"
+  }
+}

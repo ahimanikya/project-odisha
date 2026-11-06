@@ -1,0 +1,64 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-256",
+  "route": "/reading-room/economy/niyamgiri-rights-and-mining/",
+  "input_head": "ff88071b1e7e94c90c4f077c96f63e720d8229ca",
+  "authorization": "Standing Founder editorial and POD-DEC-225 publication authorization; Ghumura then Niyamgiri sequence",
+  "scope": "Exact separately reviewed draft on existing route with single-entry article opt-in; preserve168 siblings",
+  "roles": {
+    "Disha": "Canonical KB/shared records and Git/publication",
+    "Anvesha": "Output-only source parity and guarded live verification helper",
+    "Samanta": "Reserved site files below; implementation, meaningful tests and browser helper",
+    "Drishti": "Separate integrated, visual and exact-head review"
+  },
+  "site_files": [
+    "projects/site/src/pages/reading-room/[...slug].astro",
+    "projects/site/src/lib/reading-room.mjs",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests-coast/reading-room.test.mjs",
+    "projects/site/tests/reading-room-search.test.mjs",
+    "projects/site/tests/niyamgiri-editorial.test.mjs",
+    "projects/site/tests-coast/cuttack-literature.test.mjs"
+  ],
+  "reviewed_draft_sha256": "0e4c9028516cda59b3d9e759190c486c4b6206b5bbc8f4119539fb8e584a5137",
+  "draft_review_sha256": "a040b5ff49448867bbf421173f60e38b968632c91ae43a561f97c8ae57013f47",
+  "programme_credit": 0,
+  "preservation": "168 reading-room siblings, all unrelated portable payloads,245 Dhaga readings/art/156page PDF,75pending,historical cursors,all other articles/cinema and eleven search-eligible routes",
+  "acceptance": [
+    "Exact8 paragraphs once,4 notes,6 markers; source budgets197/192/124/90",
+    "Native keyboard notes/returns; shared reading style/byline/Save/download",
+    "Full/coast/publication gates and actual desktop/mobile/download verification",
+    "Separate integrated/exact-head review, passing CI, approved deployment, live checks and reviewed receipt"
+  ],
+  "scope_release": "Effective only after separately reviewed receipt merge, passing checks and remote hash verification; no second deployment.",
+  "scope_adjustment": "Measured portable reading count changes by one; narrow expected-count update preserves sibling assertions.",
+  "validation": {
+    "full_tests": 690,
+    "coast_tests": 544,
+    "focused_tests": 3,
+    "gates": 14,
+    "actual_chrome_viewports": [
+      1440,
+      390
+    ],
+    "native_note_return_round_trips": 12,
+    "save_reload": true,
+    "actual_html_downloads": 2,
+    "actual_text_downloads": 2,
+    "publication_bytes": 700221522,
+    "publication_files": 2628,
+    "indexable_routes": 11,
+    "report": "records/evidence/niyamgiri-editorial-2026-11-02/implementation-report.json",
+    "scope_note": "Broad suites before metadata-only correction; affected builds/focused/disclosure/acceptance rerun after, actual unchanged article parity verified."
+  },
+  "integrated_review": {
+    "path": "records/evidence/niyamgiri-editorial-2026-11-02/integrated-review.json",
+    "sha256": "4db92cdc33cf99a91d4ae582c8f3f63c932da09c6c7f5b13edb8709ff8877b78",
+    "kind": "separate_AI_review",
+    "result": "PASS"
+  },
+  "publication": "records/niyamgiri-editorial-publication-2026-11-02.json",
+  "live_review": "records/niyamgiri-editorial-delivery-review-2026-11-02.json"
+}

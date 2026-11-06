@@ -1,0 +1,35 @@
+{
+  "decision": "PASS",
+  "status": "PASS_EXACT_ASSEMBLY_PARITY",
+  "reviewer": "Drishti; separate AI review",
+  "input_head": "49f14468595f9bc6ffc464d964526ef2df9ea57f",
+  "bundle_sha256": "a503cbe632c92850f9a7bdf0ba54719bb4b0ca73b32d55531a836591526f6318",
+  "bindings": {
+    "candidate-bundle.json": "a503cbe632c92850f9a7bdf0ba54719bb4b0ca73b32d55531a836591526f6318",
+    "anvesha/candidates.json": "59df6ae9e8d33eaa9a1180f48a9b3095e9d7de1859d621c882d5595d1daa6143",
+    "anvesha/report.json": "c2ffc2302dc5d8887561cd68c14023a73d95a9f309f89a9df3b52c285f492d04",
+    "anvesha/dispositions.json": "bd89ad561c835c8938c9aa28bb1acfd189861423c5421a16de8fc046cf4964e5",
+    "anvesha/source-coverage.json": "d8966d3bc505a6d9ea355f58e59dbcb09642599a1d0f80f688132d1ef9dda99d",
+    "anvesha/originals.json": "b6d751f19711407757c590400cf0a6f20b20018238115020228116671d2a80f7",
+    "anvesha/lexical.json": "85cfa8a13b467b657e2f465941af97e028423df77c03343eb7b3de0868c10662",
+    "samanta/report.json": "6dc4e9e72834b381dbeeba53b813fd133be8f25a17715fc019c37523d091d8d0",
+    "samanta/validation.json": "6dc4e9e72834b381dbeeba53b813fd133be8f25a17715fc019c37523d091d8d0",
+    "samanta/canonical-baseline.json": "1e81de0718e4916ca9d826a229a48ab1843021dc177603eac68ea68dc73fda14",
+    "drishti/actual-checks.json": "4221a8133c16c407610ead8e8fb1d4050e716c96afe8ce5dd19e04ec4687f51e"
+  },
+  "integrated_review_sha256": "c81db99d1b370e4541d2f87c6955a641828854b199ee402803642c32c7d52597",
+  "checks": {
+    "four_entries_exact_author_objects": true,
+    "five_used_sources_exact_subset": true,
+    "six_research_only_sources_exact_complement": true,
+    "empty_parallel_proposals_exact": true,
+    "eight_dispositions_and_three_prior_screens_exact": true,
+    "coverage_and_next_pointers_exact": true,
+    "technical_report_bindings_verified": true,
+    "accepted_increment_zero": true
+  },
+  "limits": [
+    "Assembly preserves frozen author objects; this is not canonical acceptance.",
+    "Deferred32863 future028 parallel assessment and visible lexical216767 requirement are binding review conditions."
+  ]
+}

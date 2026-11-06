@@ -5,13 +5,22 @@ const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"'
 for(const slug of ['ghumura','mahuri','ranapa','chaiti-ghoda','danda-nata','prahlada-nataka','dhuduki','odissi-music'])test(`${slug} passage citations reach the matching numbered source note and retain its limits`,()=>{
  const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
  const html=readFileSync('dist-coast/stories/'+slug+'/index.html','utf8');
+ if(slug==='ghumura'){
+  story.blocks.forEach((block,i)=>block.paragraphs.forEach((text,j)=>{
+   assert.ok(html.includes(escape(text)));
+   for(const id of block.paragraph_source_ids[j]){assert.equal(html.split(`id="ref-story-section-${i+1}-${j}-${id}"`).length-1,1);assert.equal(html.split(`href="#ref-story-section-${i+1}-${j}-${id}"`).length-1,1);assert.equal(html.split(`id="note-${id}"`).length-1,1);}
+  }));
+  for(const source of story.sources)for(const segment of source.footnote_segments){assert.ok(html.includes(escape(segment.text)));if(segment.href)assert.ok(html.includes(escape(segment.href)));}
+  assert.match(html,/<section[^>]*id="story-sources"[^>]*class="article-footnotes"/);assert.ok(!html.includes('<details id="story-sources"'));
+  assert.match(html,/<meta[^>]*name="robots"[^>]*content="noindex, (?:no)?follow"/);return;
+ }
  if(slug==='prahlada-nataka'){
   const source=readFileSync('../../kb/research/culture/prahallad-nataka.md','utf8');
   const ids=[...source.matchAll(/^\[\^([^\]]+)\]:/gm)].map(m=>m[1].toLowerCase());
-  assert.equal(ids.length,9);
+  assert.equal(ids.length,7);
   for(const id of ids)assert.equal(html.split('id="user-content-fn-'+id+'"').length-1,1);
   const refs=[...html.matchAll(/<a\b[^>]*data-footnote-ref[^>]*>/g)];
-  assert.equal(refs.length,15);
+  assert.equal(refs.length,13);
   for(const [tag] of refs){
    const target=tag.match(/href="#([^"]+)"/)[1];const origin=tag.match(/\bid="([^"]+)"/)[1];
    assert.ok(html.includes('id="'+target+'"'));assert.ok(html.includes('href="#'+origin+'"'));

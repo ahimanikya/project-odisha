@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "input_head": "f99225b28444e3c17f7b94b556918d47d2c843eb",
+  "artifact_parity": [
+    {
+      "edition": "dist",
+      "article_sha256": "bb892c13f5c741af46a2de2b6cfd4539efec4a642bc424d90ca77ceb85c3c52a",
+      "catalog_count": 124,
+      "prior_objects_exact": 123,
+      "paragraphs_exact": 21,
+      "full_notes_exact": 10,
+      "markers": 12,
+      "portable_sha256": "95fb7f822b4efa4472cf8ea45d7e691288d180dbd99533bf28e545668c795132"
+    },
+    {
+      "edition": "dist-coast",
+      "article_sha256": "6878464bf3848849e89c4d0331c10ca9517a3965640a57b1d336c29ad6a14917",
+      "catalog_count": 115,
+      "prior_objects_exact": 114,
+      "paragraphs_exact": 21,
+      "full_notes_exact": 10,
+      "markers": 12,
+      "portable_sha256": "95fb7f822b4efa4472cf8ea45d7e691288d180dbd99533bf28e545668c795132"
+    },
+    {
+      "edition": "dist-publish",
+      "article_sha256": "d29b1774ec2cf36b43f4e36b81e4207890feef2f4b4514367f6a17635a8f7e11",
+      "catalog_count": 115,
+      "prior_objects_exact": 114,
+      "paragraphs_exact": 21,
+      "full_notes_exact": 10,
+      "markers": 12,
+      "portable_sha256": "95fb7f822b4efa4472cf8ea45d7e691288d180dbd99533bf28e545668c795132"
+    }
+  ],
+  "portable_all_editions_exact": true,
+  "gates": {
+    "02-disclosures": {
+      "name": "02-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "seconds": 2.03,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/02-disclosures.log",
+      "sha256": "170c21a14a51dfb88313e67128709cfb5eaf8c0445bb05cb9c3a194c8ea44225"
+    },
+    "03-tests": {
+      "name": "03-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "seconds": 18.99,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/03-tests.log",
+      "sha256": "ff1b22ae01065c7ad4fa683762502cd0906c069dd92b95120918c687d45e4908"
+    },
+    "04-coast-build": {
+      "name": "04-coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 67.57,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/04-coast-build.log",
+      "sha256": "55f69344e384d72b93230e6117c7751ced97a4050c6673deac5eae6801918493"
+    },
+    "05-coast-disclosures": {
+      "name": "05-coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 0.93,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/05-coast-disclosures.log",
+      "sha256": "ab6cb998282164ffa164be4b03052d165f80019e63365b37843cf43b43a71b2f"
+    },
+    "06-coast-tests": {
+      "name": "06-coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 13.12,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/06-coast-tests.log",
+      "sha256": "a87c3270763eb51c613bca711b6a53d7270fb623001bd62fe0246f293ac6df31"
+    },
+    "07-coast-acceptance": {
+      "name": "07-coast-acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 10.77,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/07-coast-acceptance.log",
+      "sha256": "b588aaffeaf40493fd2d41f7eeac0abb3f35377991704ed72260f33f053698ff"
+    },
+    "08-discovery": {
+      "name": "08-discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.06,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/08-discovery.log",
+      "sha256": "2544bffb0d51cc8c665d23b757510c4391dd343cd77f527cfac2aba7dd96cff6"
+    },
+    "09-search-prepare": {
+      "name": "09-search-prepare",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 8.46,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/09-search-prepare.log",
+      "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    "10-launch": {
+      "name": "10-launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.11,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/10-launch.log",
+      "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    "11-publication": {
+      "name": "11-publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 289.32,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/11-publication.log",
+      "sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    "12-publication-disclosures": {
+      "name": "12-publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.63,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/12-publication-disclosures.log",
+      "sha256": "c100878950cc4ef3b0a940b6446a282e1794515c491d9ea42b2aad34d8a04557"
+    },
+    "13-shortlist": {
+      "name": "13-shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.53,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-literature-preservation-2026-11-04/samanta/implementation/13-shortlist.log",
+      "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  },
+  "full_build": {
+    "exit_code": 0,
+    "log_sha256": "daea2e4a6b80949e42d9b3338a9d8159bb9a31d5e00b39a64a852479b5c2bcf4"
+  },
+  "browser_binding_sha256": "208f86b4ba3b2a785a641f60f24c95572e8e3c6ae66b110c813e122ebc51e1b7",
+  "limits": [
+    "Local generated products only; publication/remote verification remains root scope.",
+    "Actual headless Chrome, not assistive technology or Firefox/WebKit."
+  ],
+  "history": [
+    "Initial focused test did not recognize empty data attributes; corrected parser only.",
+    "Initial browser innerText included superscript markers; corrected exact clone/remove-sup extraction.",
+    "Full-suite route count fixed base147 to148 after measured new route."
+  ]
+}
