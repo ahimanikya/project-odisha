@@ -117,6 +117,6 @@ Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Niyamgiri and village decisions](/stories/dongariya/niyamgiri/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Niyamgiri and village decisions](/stories/dongria/niyamgiri/)
 
-[Kotpad and Kapadaganda through their makers](/stories/dongariya/kotpad-and-kapadaganda/) compares weaving, dyeing and embroidery across distinct regional traditions.
+[Kotpad and Kapadaganda through their makers](/stories/dongria/kotpad-and-kapadaganda/) compares weaving, dyeing and embroidery across distinct regional traditions.

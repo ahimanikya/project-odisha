@@ -89,4 +89,4 @@ Sabar’s pupils explained lessons to classmates; Phulamani made resources for c
 
 ## Related reading
 
-[Dongariya life](dongariya-life.md) · [Learning and belonging](learning-and-belonging.md) · [Songs and singers](songs-and-singers.md) · [Kapadaganda colours and motifs](kapadaganda.md)
+[Dongria life](dongariya-life.md) · [Learning and belonging](learning-and-belonging.md) · [Songs and singers](songs-and-singers.md) · [Kapadaganda colours and motifs](kapadaganda.md)

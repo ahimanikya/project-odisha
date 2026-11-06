@@ -64,4 +64,4 @@ Wadaka’s explanation of roots and the assemblies’ insistence on recording th
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Kapadaganda and its makers](kapadaganda.md) · [Forest foods and home gardens](forest-foods.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Kapadaganda and its makers](kapadaganda.md) · [Forest foods and home gardens](forest-foods.md)

@@ -62,4 +62,4 @@ Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Forest foods and home gardens](/stories/dongariya/forest-foods/) · [Niyamgiri and cultivation](/stories/dongariya/niyamgiri/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Forest foods and home gardens](/stories/dongria/forest-foods/) · [Niyamgiri and cultivation](/stories/dongria/niyamgiri/)

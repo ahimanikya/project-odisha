@@ -68,6 +68,6 @@ Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Learning Kapadaganda](/stories/dongariya/kapadaganda/) · [Niyamgiri and village decisions](/stories/dongariya/niyamgiri/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Learning Kapadaganda](/stories/dongria/kapadaganda/) · [Niyamgiri and village decisions](/stories/dongria/niyamgiri/)
 
-[Kuvi and the Jatapu script](/stories/dongariya/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.
+[Kuvi and the Jatapu script](/stories/dongria/kuvi-and-jatapu-script/) follows the distinction between a language, a writing system and evidence of its use.

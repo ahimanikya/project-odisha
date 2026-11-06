@@ -58,4 +58,4 @@ Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Keeping seeds in circulation](/stories/dongariya/seed-keeping/) · [Kapadaganda and its makers](/stories/dongariya/kapadaganda/) · [Forest foods and home gardens](/stories/dongariya/forest-foods/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Keeping seeds in circulation](/stories/dongria/seed-keeping/) · [Kapadaganda and its makers](/stories/dongria/kapadaganda/) · [Forest foods and home gardens](/stories/dongria/forest-foods/)

@@ -70,4 +70,4 @@ Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by
 
 [Niyamgiri rights and mining: the legal overview](/reading-room/economy/niyamgiri-rights-and-mining/)
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Kapadaganda and its makers](/stories/dongariya/kapadaganda/) · [Forest foods and home gardens](/stories/dongariya/forest-foods/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Kapadaganda and its makers](/stories/dongria/kapadaganda/) · [Forest foods and home gardens](/stories/dongria/forest-foods/)

@@ -1,8 +1,8 @@
 ---
-title: "Dongariya ornaments in use"
+title: "Dongria ornaments in use"
 ---
 
-# Dongariya ornaments in use
+# Dongria ornaments in use
 
 By Ahimanikya Satapathy
 
@@ -64,4 +64,4 @@ Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by
 
 ## Further reading
 
-[Kapadaganda and its makers](/stories/dongariya/kapadaganda/) · [Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [From harvests to market](/stories/dongariya/harvest-to-market/)
+[Kapadaganda and its makers](/stories/dongria/kapadaganda/) · [Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [From harvests to market](/stories/dongria/harvest-to-market/)

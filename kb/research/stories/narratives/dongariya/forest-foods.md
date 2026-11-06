@@ -56,4 +56,4 @@ What a household keeps for meals and what it sells lead to different decisions. 
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Niyamgiri and cultivation](niyamgiri.md) · [Kapadaganda and its makers](kapadaganda.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Niyamgiri and cultivation](niyamgiri.md) · [Kapadaganda and its makers](kapadaganda.md)

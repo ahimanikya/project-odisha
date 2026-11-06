@@ -60,4 +60,4 @@ Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Niyamgiri and cultivation](/stories/dongariya/niyamgiri/) · [Kapadaganda and its makers](/stories/dongariya/kapadaganda/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Niyamgiri and cultivation](/stories/dongria/niyamgiri/) · [Kapadaganda and its makers](/stories/dongria/kapadaganda/)

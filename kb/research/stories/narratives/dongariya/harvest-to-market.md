@@ -55,4 +55,4 @@ Markets also appear in the accounts of Kapadaganda makers, who describe buying c
 
 ## Related reading
 
-[Dongariya life in Niyamgiri](dongariya-life.md) · [Keeping seeds in circulation](seed-keeping.md) · [Kapadaganda and its makers](kapadaganda.md) · [Forest foods and home gardens](forest-foods.md)
+[Dongria life in Niyamgiri](dongariya-life.md) · [Keeping seeds in circulation](seed-keeping.md) · [Kapadaganda and its makers](kapadaganda.md) · [Forest foods and home gardens](forest-foods.md)

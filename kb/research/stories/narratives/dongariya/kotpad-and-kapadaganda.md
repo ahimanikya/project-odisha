@@ -39,7 +39,7 @@ Ram Hial learned weaving from his father; embroiderers describe learning from th
 
 [^1]: [Kapdaganda: No coarse cloth for Dongria designs](https://www.newindianexpress.com/states/odisha/2019/Jul/07/kapdaganda-no-coarse-cloth-for-dongria-designs-2000527.html), *The New Indian Express*, 7 July 2019. Dated reporting on Jhigidi and attempted substitute supply; not evidence of present capacity or a Kotpad connection. The interpretation of the women’s response is the author’s.
 
-[^2]: Kanak Rajadhyaksha, [Kapdagondas: Motifs and Technique](https://www.sahapedia.org/kapdagondas-motifs-and-technique), based on interviews with Dongariya women and development-agency employees, 8–14 November 2017. Used for purchased materials and embroidery practice. Its tentative historical dye account does not verify a shared recipe with Kotpad.
+[^2]: Kanak Rajadhyaksha, [Kapdagondas: Motifs and Technique](https://www.sahapedia.org/kapdagondas-motifs-and-technique), based on interviews with Dongria women and development-agency employees, 8–14 November 2017. Used for purchased materials and embroidery practice. Its tentative historical dye account does not verify a shared recipe with Kotpad.
 
 [^3]: NIFT, [Kapilo Mahanta](https://nift.ac.in/chhaap2026/KapiloMahanta.html), CHHAAP 2026 artisan profile, page last updated 16 September 2026. Institutional maker profile and general craft description, not observation of a particular textile batch. The page uses both bark and root descriptions; no precise recipe, species identification, health benefit or product certification is asserted here. Community names follow the source.
 

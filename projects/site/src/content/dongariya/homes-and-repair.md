@@ -72,6 +72,6 @@ Illustration: Project Odisha. Housing reference: Meenal Tatpati, Ashish Kothari 
 
 ## Further reading
 
-[Dongariya life in Niyamgiri](/stories/dongariya/dongariya-life/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Niyamgiri and its landscape](/stories/dongariya/niyamgiri/) · [Harvests and markets](/stories/dongariya/harvest-to-market/)
+[Dongria life in Niyamgiri](/stories/dongria/dongria-life/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Niyamgiri and its landscape](/stories/dongria/niyamgiri/) · [Harvests and markets](/stories/dongria/harvest-to-market/)
 
-[Kapadaganda](/stories/dongariya/kapadaganda/) explores the embroidered cloth and its attributed colour and motif meanings.
+[Kapadaganda](/stories/dongria/kapadaganda/) explores the embroidered cloth and its attributed colour and motif meanings.

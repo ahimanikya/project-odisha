@@ -92,4 +92,4 @@ Adapted illustration: Project Odisha, [CC BY-SA 4.0](https://creativecommons.org
 
 ## Further reading
 
-[Dongariya life](/stories/dongariya/dongariya-life/) · [Learning and belonging](/stories/dongariya/learning-and-belonging/) · [Songs and singers](/stories/dongariya/songs-and-singers/) · [Kapadaganda colours and motifs](/stories/dongariya/kapadaganda/)
+[Dongria life](/stories/dongria/dongria-life/) · [Learning and belonging](/stories/dongria/learning-and-belonging/) · [Songs and singers](/stories/dongria/songs-and-singers/) · [Kapadaganda colours and motifs](/stories/dongria/kapadaganda/)

@@ -1,11 +1,11 @@
 ---
 type: "Editorial draft"
-title: "Dongariya life in Niyamgiri"
+title: "Dongria life in Niyamgiri"
 status: "draft for editorial review; not published"
 human_review_claimed: false
 ---
 
-# Dongariya life in Niyamgiri
+# Dongria life in Niyamgiri
 
 By Ahimanikya Satapathy
 
@@ -15,7 +15,7 @@ That decision brings the landscape close to home. Land can provide food and inco
 
 ## Niyamgiri and its households
 
-The Niyamgiri landscape extends across Rayagada and Kalahandi. Dongariya, Dongria and Dongaria are spellings found in the accounts used here. The Odisha State Tribal Museum uses “Dongria Kandha” and locates settlements in the ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada.[^2][^4]
+The Niyamgiri landscape extends across Rayagada and Kalahandi. This series uses Dongria; some sources use the spellings Dongariya or Dongaria. The Odisha State Tribal Museum uses “Dongria Kandha” and locates settlements in the ranges across Bissamcuttack, Kalyansingpur and Muniguda blocks of Rayagada.[^2][^4]
 
 The museum describes horticulture and cultivation on hill slopes, and lists Dongria Kandha among Particularly Vulnerable Tribal Groups, commonly abbreviated as PVTGs. That administrative category helps identify the scope of government records; it cannot describe a household’s ambitions or everyday life on its own.[^2]
 
@@ -63,7 +63,7 @@ The account of [homes and repair](homes-and-repair.md) follows what such totals 
 
 Cloth and adornment: [Kapadaganda](kapadaganda.md) · [Ornaments in use](ornaments-in-use.md)
 
-Land and food: [Niyamgiri and village decisions](niyamgiri.md) · [Seed keeping](seed-keeping.md) · [Forest foods and home gardens in Rayagada](forest-foods.md), a regional companion whose evidence is not exclusively Dongariya · [Harvests and markets](harvest-to-market.md)
+Land and food: [Niyamgiri and village decisions](niyamgiri.md) · [Seed keeping](seed-keeping.md) · [Forest foods and home gardens in Rayagada](forest-foods.md), a regional companion whose evidence is not exclusively Dongria · [Harvests and markets](harvest-to-market.md)
 
 Home and learning: [Homes and repair](homes-and-repair.md) · [Learning and belonging](learning-and-belonging.md) · [Songs and singers](songs-and-singers.md)
 
