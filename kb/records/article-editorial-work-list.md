@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1008. completed: 179, excluded: 551, queued: 278.
+Route inventory: 1008. completed: 182, excluded: 551, queued: 275.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1029,6 +1029,6 @@ Route inventory: 1008. completed: 179, excluded: 551, queued: 278.
 | POD-EDIT-DONGRIA-KUVI-AND-JATAPU-SCRIPT | [Kuvi and the Jatapu script](https://projectodisha.org/stories/dongariya/kuvi-and-jatapu-script/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
 | POD-EDIT-DONGRIA-SONGS-AND-SINGERS | [Songs and singers in Dongariya life](https://projectodisha.org/stories/dongariya/songs-and-singers/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
 | POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA | [Kotpad and Kapadaganda through their makers](https://projectodisha.org/stories/dongariya/kotpad-and-kapadaganda/) | completed | Explicitly authorized twelve-article Dongria publication batch; previously drafted and audited. |
-| POD-EDIT-BIBHUTI-PATTANAIK-20261102 | [Bibhuti Pattanaik: Books Within Reach](https://projectodisha.org/people/bibhuti-pattanaik/) | queued | Supplementary cinema writer profile outside the50-reading book sequence; local candidate only. |
-| POD-EDIT-SOLILA-PARIDA-20261103 | [Solila Parida: Carrying a Story Across Oceans](https://projectodisha.org/people/solila-parida/) | queued | Supplementary producer profile linked from literature and screen; outside50-reading book. Local candidate only. |
-| POD-EDIT-JATINDRA-NAYAK-20261103 | [Jatindra K. Nayak: Carrying the Voice Across](https://projectodisha.org/people/jatindra-k-nayak/) | queued | Supplementary translator companion linked fromBasanta; outside50-reading book. Localcandidate only. |
+| POD-EDIT-BIBHUTI-PATTANAIK-20261102 | [Bibhuti Pattanaik: Books Within Reach](https://projectodisha.org/people/bibhuti-pattanaik/) | completed | Supplementary cinema writer profile outside the50-reading book sequence; local candidate only. |
+| POD-EDIT-SOLILA-PARIDA-20261103 | [Solila Parida: Carrying a Story Across Oceans](https://projectodisha.org/people/solila-parida/) | completed | Supplementary producer profile linked from literature and screen; outside50-reading book. Local candidate only. |
+| POD-EDIT-JATINDRA-NAYAK-20261103 | [Jatindra K. Nayak: Carrying the Voice Across](https://projectodisha.org/people/jatindra-k-nayak/) | completed | Supplementary translator companion linked fromBasanta; outside50-reading book. Localcandidate only. |

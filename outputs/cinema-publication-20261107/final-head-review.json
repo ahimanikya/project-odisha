@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "review_applies_to_head": "d551f52ef5d19299a815aeae278179763306e7ea",
+  "comparison_base": "11c0766a53c6e5db03b9de904e8e155fb6040095",
+  "prior_review": "outputs/cinema-publication-20261107/integrated-review.json",
+  "prior_review_sha256": "bcb97b05eca855d4c03480d2db3be87301f24d23f372891ddbbce988e7e31b29",
+  "checks": {
+    "changed_paths": 89,
+    "cinema_public_source_code_data_asset_changes": [],
+    "all_prior_review_input_hashes_match": true,
+    "all_53_current_article_source_hashes_match": true,
+    "all_60_placement_original_and_derivative_paths_unchanged_in_commit_delta": true,
+    "non_dongria_delta": [
+      "kb/records/editorial-workbench.json",
+      "outputs/cinema-publication-20261107/integrated-review.json",
+      "outputs/cinema-publication-20261107/local-validation.json"
+    ],
+    "workbench_diff": "One stored fingerprint changed for kb/research/voices/collection.json; no public content change.",
+    "workbench_fingerprint_matches_current": true
+  },
+  "required_corrections": [],
+  "conclusion": "Prior integrated cinema review applies unchanged to this exact head. No cinema regression found in the merge delta.",
+  "limits": [
+    "Read-only targeted comparison; no new broad retest or PDF/browser inspection.",
+    "Dongria content itself not re-reviewed; upstream integration treated as separate work.",
+    "Hosted validation42298074310 remains pending at assignment; this addendum does not claim hosted CI or deployment success."
+  ]
+}

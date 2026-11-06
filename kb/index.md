@@ -29,7 +29,9 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
-Current cinema follow-up: [Cinema and the makers around it](records/cinema-shared-culture-2026-11-06.json). One original invitation connects screenings, writers and weavers with agreed payment and audience discovery. Article and264/270-page book proofs reviewed;523notes and all images preserved. Local revision, not published.
+Current cinema publication: [7 November verified release](records/cinema-publication-2026-11-07.json). The reviewed 50-reading collection, three companion profiles, refreshed photographs and connected literary updates are live. Current 264-page digital, 270-page print and 6-page introduction PDFs match their reviewed hashes. Existing research and print/accessibility limits remain open. No programme increment.
+
+Earlier cinema follow-up (recorded before this release): [Cinema and the makers around it](records/cinema-shared-culture-2026-11-06.json). One original invitation connects screenings, writers and weavers with agreed payment and audience discovery. Article and264/270-page book proofs reviewed;523notes and all images preserved. Local revision, not published.
 
 Earlier cinema follow-up: [Dhwani: participation in the film encounter](records/cinema-dhwani-2026-11-06.json). Original organiser records support a concise example of disabled participants, a subtitle requirement and a conditional performer prize share in the Futures reading. Actual payments and access outcomes remain unverified. Current local proofs: 264 digital / 270 print pages, 523 notes; images and maps preserved. Separate source and scoped layout review passed. No publication.
 
