@@ -1,0 +1,43 @@
+---
+import MagazineCover from './MagazineCover.astro';
+import MagazineContents from './MagazineContents.astro';
+import ArticleByline from './ArticleByline.astro';
+import ArticleFootnote from './ArticleFootnote.astro';
+import ArticleReadingPath from './ArticleReadingPath.astro';
+const {entry,photo,links,editorial}=Astro.props;
+const passages=entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:p.id,source_ids:p.source_ids}))).filter(p=>p.source_ids.length);
+---
+<div class="utk-magazine utk-magazine--food patrapoda-editorial">
+ <MagazineCover title={entry.title} odia={entry.odia} eyebrow={'A taste of Odisha · '+entry.area} deck={[]} photo={{...photo,fit:'contain'}} saveId={entry.save_id} startHref={'#'+entry.sections[0].id} startLabel="Meet the dish" footline="A taste to remember. A question to take with you."><Fragment slot="byline"><ArticleByline author={editorial.author}/></Fragment></MagazineCover>
+ <MagazineContents links={[...entry.sections.filter(s=>s.title).map(s=>({href:'#'+s.id,label:s.title})),{href:'#food-further-reading',label:'Further reading'},{href:'#story-sources',label:'Footnotes & Sources'}]}/>
+ <article class="mag-content">
+  <div class="patrapoda-chapters">{entry.sections.map((section,index)=><section id={section.id} class="patrapoda-section">{section.title&&<h2>{section.title}</h2>}{section.paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={p.source_ids} sources={editorial.sources} passage={p.id}/></p>)}</section>)}</div>
+  <slot/>
+  <ArticleReadingPath id="food-further-reading" class="patrapoda-further-reading" heading="Further reading" links={links.map(link=>({...link,description:link.reason}))}/>
+  <section id="story-sources" class="article-footnotes" aria-labelledby="footnote-title"><h2 id="footnote-title">Footnotes &amp; Sources</h2><ol>{editorial.sources.map((source,index)=><li id={'note-'+source.id} tabindex="-1">{source.note_segments.map(segment=>segment.href?<a href={segment.href}>{segment.text}</a>:segment.text)} <span class="footnote-returns">{passages.filter(p=>p.source_ids.includes(source.id)).map((p,i)=><a href={`#ref-${p.id}-${source.id}`} data-footnote-backref aria-label={`Return to passage ${i+1} for footnote ${index+1}`}>↩{i>0?i+1:''}</a>)}</span></li>)}</ol><div id="food-image-credits"><h3>Photograph and reuse</h3><p><a href={photo.source}>Photograph</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p></div></section>
+  <p class="patrapoda-update"><a href="/contribute/?page=%2Ffood%2Fpatrapoda%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </article>
+</div>
+<script>
+import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
+document.querySelectorAll('.patrapoda-editorial sup, .patrapoda-editorial .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.patrapoda-chapters,:global(.patrapoda-further-reading),.patrapoda-update{max-width:740px;margin-inline:auto}
+.patrapoda-section{margin:56px 0;scroll-margin-top:28px}
+.patrapoda-section h2{font-size:clamp(28px,3vw,38px);line-height:1.3;margin:0 0 24px}
+.patrapoda-section p:not(.eyebrow){font-size:18px;line-height:1.85;margin:0 0 1.25em}
+.patrapoda-further-reading p{font-size:15px;line-height:1.7;color:var(--muted)}
+.patrapoda-update{font-size:15px;line-height:1.8;margin-block:40px}
+.patrapoda-editorial :global(.article-footnotes){max-width:740px;margin:64px auto 48px;border-top:1px solid var(--line);padding-top:28px;font-size:16px;line-height:1.8}
+.patrapoda-editorial :global(.article-footnotes p){margin:0 0 1.25em}
+.patrapoda-editorial :global(.article-footnotes h2){font-size:30px;margin:0 0 24px}
+.patrapoda-editorial :global(.article-footnotes h3){font-size:22px;margin:24px 0 16px}
+.patrapoda-editorial :global(.article-footnotes li){margin-bottom:24px;scroll-margin-top:24px;overflow-wrap:anywhere}
+.patrapoda-editorial :global(.article-footnotes li:target){outline:2px solid var(--line);outline-offset:6px}
+.patrapoda-editorial :global(sup){font-size:.7em;line-height:0;margin-left:.15em}
+.patrapoda-editorial :global(a[data-footnote-ref]){font-weight:600;text-decoration:none;padding:.2em .15em}
+.patrapoda-editorial :global(a[data-footnote-backref]){display:inline-block;padding:.2rem .3rem}
+.patrapoda-editorial :global(a:focus-visible){outline:2px solid var(--earth);outline-offset:3px}
+@media(max-width:700px){.patrapoda-section{margin-block:40px}.patrapoda-section p:not(.eyebrow){font-size:17px;line-height:1.8}}
+</style>

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fe9c17b6776eadb580dbc1db8dc692b3f0f3e0a4003eae696732fbd7db07cb60`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a3af8d91ce3b3edcdca53145fd8d27e52cbcbea01f2dcb544913ceb76ff6371f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -363,6 +363,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-329 · Tala pitha: attributed baked and fried preparations | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt ownership until actual reviewed receipt merge and remote verification; no duplicate substantive credit. | — |
 | POD-WORK-330 · Baigana poda: two attributed roasting preparations | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat substantive credit. | — |
 | POD-WORK-331 · Tomato poda: an attributed preparation sequence | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
+| POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | in_progress | reviewed | Ahimanikya Satapathy | Implement reviewed draft, verify and publish; retain claim through receipt integration. | — |
 
 ## Pending human review and decisions
 
@@ -1342,7 +1343,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026110502 | 2026-11-04T23:46:12.639579+00:00 | Published the twelve Dongria articles and series index; live article text and images match reviewed package. Existing Niyamgiri overview preserved. User-authorized topic complete; zero autonomous programme credit. | — |
 | POD-EVT-2026110503 | 2026-11-05T01:58:16.397115+00:00 | Substantive Ou khatta revision published and separately live-verified at2026-11-04T22:11:36.477Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
 | POD-EVT-2026110504 | 2026-11-05T08:56:21.834345+00:00 | Installed separately reviewed Badi chura draft/schema and pending acceptance. Programme remains136 completed;113 finite release continues through reviewed publication and receipt. Prior112 receipt682 verified merged and released; historicalrecord preserved. | — |
 | POD-EVT-2026110505 | 2026-11-05T17:12:56.138742+00:00 | Substantive Badi chura revision published and separately live-verified at2026-11-05T16:10:46.992Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
@@ -1352,6 +1352,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110702 | 2026-11-07T14:35:55.450021+00:00 | 116 actual published e14 and separately live verified; original697/recovery699 distinct. One conditional completion; finite receipt integration retained. | — |
 | POD-EVT-2026110703 | 2026-11-07T17:57:48.357930+00:00 | Founder requested direct implementation/publication of reviewed117; source/schema reviews complete. Preserve139 completed and zero new credit. | — |
 | POD-EVT-2026110801 | 2026-11-07T22:06:23.166661+00:00 | 117 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
+| POD-EVT-2026110802 | 2026-11-07T22:58:06.136787+00:00 | Reviewed useful draft installed; preserve existing research and begin implementation through publication. | — |
 
 ## Deferred extensions
 
