@@ -29,6 +29,14 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Current cinema publication: [Bapa article and book release](records/cinema-bapa-publication-2026-11-07.json). Founder authorized the two reviewed additions and matching book downloads. Focused fact-check and primary-post recheck passed; television and recognition remain attributed recollections, payment unverified. Release preparation in progress.
+
+Current cinema article follow-up: [Bapa across the page, television and cinema](records/cinema-bapa-integration-2026-11-07.json). Added Das’s attributed collection/television recollection and source-writer recognition to his profile, with a short television connection in Pratikshya. Payment remains unverified. Both articles and affected web/book pages passed review;271-page digital and276-page print local proofs retain538notes. Published editions unchanged.
+
+Supporting cinema research: [Writers, adaptation credits and payment evidence](records/cinema-writer-rights-2026-11-07.json). Gourahari Das’s own public posts identify the English collection containing Bapa, an earlier television adaptation and original-story recognition. Actual adaptation fees remain unverified in the examined cases; credit, permission and payment are recorded separately. Research-only follow-up to the published 52-reading website and 49-chapter book.
+
+Earlier cinema follow-up: [Bapa and Pratikshya source research and reader brief](records/cinema-bapa-reader-review-2026-11-07.json). Located a specific English “Father” contents/page lead; its identity as Bapa remains unverified. A short reader invitation is ready for the52-reading series/49-chapter book. Published editions unchanged; original text and actual reader responses remain outstanding.
+
 Current cinema sequence review: [Main page, reading guide and book audit](records/cinema-sequence-audit-2026-11-07.json). Confirmed 50 core readings in seven parts and five online companion profiles. Proposed two short book readings and three integrated portraits, plus source-story and navigation clarifications. Recommendations only; current book remains 50 readings.
 
 Current cinema research: [Three focused gaps](records/cinema-research-gaps-2026-11-07.json). Added a reviewed practical writer-support passage locally; original adaptation texts/payments, the school-film identity and delivered production support remain unresolved. Original monograph preview and school newsletter captured. New265-page digital/270-page print proofs checked; published downloads unchanged. No programme credit.

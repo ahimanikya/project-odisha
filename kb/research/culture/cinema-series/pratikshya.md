@@ -4,9 +4,9 @@ title: "ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security"
 description: "A family drama connects Gourahari Das’s fiction, Anupam Patnaik’s filmmaking and a young actor’s first leading role."
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-11-05"
+research_date: "2026-11-07"
 human_review_claimed: false
-sources: [{"id": "pratikshya-1", "resource": "https://www.youtube.com/watch?v=E_p4kHzZBTM"}, {"id": "pratikshya-2", "resource": "https://filmbazaarindia.com/media/2563/viewingroom2020.pdf"}, {"id": "pratikshya-3", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "pratikshya-4", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48"}, {"id": "pratikshya-ensemble", "resource": "https://www.youtube.com/watch?v=E_p4kHzZBTM"}, {"id": "pratikshya-crew", "resource": "https://www.mycitylinks.in/pratikshya-a-tale-of-dreams-desperation-and-aspirations/"}, {"id": "pratikshya-title-choice", "resource": "https://www.dailypioneer.com/uploads/2022/epaper/december/bhubaneswar-english-edition-2022-12-14.pdf#page=2"}]
+sources: [{"id": "pratikshya-1", "resource": "https://www.youtube.com/watch?v=E_p4kHzZBTM"}, {"id": "pratikshya-2", "resource": "https://filmbazaarindia.com/media/2563/viewingroom2020.pdf"}, {"id": "pratikshya-3", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "pratikshya-4", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48"}, {"id": "pratikshya-ensemble", "resource": "https://www.youtube.com/watch?v=E_p4kHzZBTM"}, {"id": "pratikshya-crew", "resource": "https://www.mycitylinks.in/pratikshya-a-tale-of-dreams-desperation-and-aspirations/"}, {"id": "pratikshya-title-choice", "resource": "https://www.dailypioneer.com/uploads/2022/epaper/december/bhubaneswar-english-edition-2022-12-14.pdf#page=2"}, {"id": "gour-bapa-account", "resource": "https://www.facebook.com/groups/1008186199594431/posts/1563651764047869/"}]
 series_intro: "A family drama connects Gourahari Das’s fiction, Anupam Patnaik’s filmmaking and a young actor’s first leading role."
 hero_image: "../../media/cinema-series/photographs-2026-11-05/pratikshya-pratikshya-still-b-20261105.jpg"
 ---
@@ -24,6 +24,8 @@ The Film Bazaar viewing-room synopsis locates the story in a middle-class Bhuban
 The official IFFI account identifies a short story by **Gourahari Das** as the film’s inspiration. [Anupam Patnaik](../../people/anupam-patnaik.md) directed it; **Dipanwit Dashmohapatra**, playing Sanjay, described this as his first lead role.[^iffi]
 
 Asked about adapting Gourahari Das’s *Bapa*, Patnaik said he had connected with the story when he read it. He chose *Pratikshya* because waiting extended beyond the father relationship: waiting for a job, marriage and a settled life.[^title-choice]
+
+In his account of *Bapa*, Das recalls an earlier television film of the story, made by Nirmal Rout of Bhadrak and shown on Doordarshan.[^gour-bapa-account]
 
 Patnaik’s [profile](../../people/anupam-patnaik.md) follows the work that led to the film. The [Gourahari Das profile](../../people/gourahari-das.md) opens a path to the writer’s fiction beyond this adaptation.
 
@@ -52,6 +54,8 @@ You can also select the [Pratikshya trailer in our viewing room](https://project
 The household’s search for stability lingers beyond its synopsis. The [economics chapter](cinema-economics.md) turns to a different uncertainty: how the people making such a film can sustain their own work.
 
 ## Footnotes & Sources
+
+[^gour-bapa-account]: Gourahari Das, [public account of Bapa](https://www.facebook.com/groups/1008186199594431/posts/1563651764047869/), 5 December 2022.
 
 [^title-choice]: Ashok Palit, [interview with Anupam Patnaik, The Pioneer, 14 December 2022](https://www.dailypioneer.com/uploads/2022/epaper/december/bhubaneswar-english-edition-2022-12-14.pdf#page=2), p. 2.
 

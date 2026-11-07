@@ -1,0 +1,294 @@
+{
+  "status": "first_candidates_built_tail_review_pending",
+  "editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-07-bapa.pdf",
+      "pdf_sha256": "7c16a948511d83f4d29dff4a886c21b32e5fd8eb8004528a9cb36aa1e796b3c3",
+      "pages": 271,
+      "notes": 538,
+      "book_readings": 49,
+      "online_readings": 52,
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-07-bapa/digital/pages",
+      "chapter_page_references_stable": true,
+      "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+      "receipt": "tmp/pdfs/2026-11-07-bapa/digital/book-build-2026-11-07-bapa.json",
+      "receipt_sha256": "3465c8eb94ca9fe9e4497b0cc5ef993dd86d130e51bc62752ecef53a6e2be4c8",
+      "image_count": 62,
+      "images_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf_unchanged": true,
+      "changed_source_bindings": [
+        "gourahari-das",
+        "pratikshya"
+      ],
+      "page_map_changes": {
+        "ch-pratikshya": [
+          161,
+          162
+        ],
+        "ch-anupam-patnaik": [
+          164,
+          165
+        ],
+        "ch-daman": [
+          167,
+          168
+        ],
+        "book-profile-vishal-mourya": [
+          168,
+          169
+        ],
+        "book-profile-debi-prasad-lenka": [
+          169,
+          170
+        ],
+        "book-profile-deependra-samal": [
+          170,
+          171
+        ],
+        "part-6": [
+          176,
+          177
+        ],
+        "ch-odia-television": [
+          176,
+          177
+        ],
+        "ch-odia-ott": [
+          182,
+          183
+        ],
+        "part-7": [
+          187,
+          188
+        ],
+        "ch-commercial-successes": [
+          187,
+          188
+        ],
+        "section-commercial-comparisons": [
+          188,
+          189
+        ],
+        "ch-cinema-economics": [
+          193,
+          194
+        ],
+        "ch-cinema-futures": [
+          197,
+          198
+        ],
+        "overview-companion": [
+          206,
+          207
+        ],
+        "section-production-support": [
+          208,
+          209
+        ],
+        "section-recognition": [
+          218,
+          219
+        ],
+        "reference-guide": [
+          232,
+          233
+        ],
+        "sources": [
+          240,
+          241
+        ],
+        "credits": [
+          269,
+          270
+        ]
+      },
+      "manually_inspected": [
+        160,
+        161,
+        163,
+        264
+      ],
+      "visual_finding": "Legible body/notes; sparseGourahariending161 raised to coordinator."
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-07-bapa.pdf",
+      "pdf_sha256": "19a5a117e55700d668c286ca777da79a0abd3f491eec793ddc1c74a6ebce733f",
+      "pages": 276,
+      "notes": 538,
+      "book_readings": 49,
+      "online_readings": 52,
+      "all_pages_rendered": true,
+      "render_dir": "tmp/pdfs/2026-11-07-bapa/print/pages",
+      "chapter_page_references_stable": true,
+      "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+      "receipt": "tmp/pdfs/2026-11-07-bapa/print/book-build-2026-11-07-bapa.json",
+      "receipt_sha256": "a7c4c529bd3502e2d33fbb18cf912877174cefdc6074f0839a4dba5964a8cc0f",
+      "image_count": 62,
+      "images_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf_unchanged": true,
+      "changed_source_bindings": [
+        "gourahari-das",
+        "pratikshya"
+      ],
+      "page_map_changes": {
+        "ch-pratikshya": [
+          161,
+          162
+        ],
+        "ch-anupam-patnaik": [
+          164,
+          165
+        ],
+        "ch-daman": [
+          167,
+          168
+        ],
+        "book-profile-vishal-mourya": [
+          168,
+          169
+        ],
+        "book-profile-debi-prasad-lenka": [
+          169,
+          170
+        ],
+        "book-profile-deependra-samal": [
+          170,
+          171
+        ],
+        "part-6": [
+          176,
+          177
+        ],
+        "ch-odia-television": [
+          176,
+          177
+        ],
+        "ch-odia-ott": [
+          182,
+          183
+        ],
+        "part-7": [
+          187,
+          188
+        ],
+        "ch-commercial-successes": [
+          187,
+          188
+        ],
+        "section-commercial-comparisons": [
+          188,
+          189
+        ],
+        "ch-cinema-economics": [
+          193,
+          194
+        ],
+        "ch-cinema-futures": [
+          197,
+          198
+        ],
+        "overview-companion": [
+          206,
+          207
+        ],
+        "section-production-support": [
+          208,
+          209
+        ],
+        "section-recognition": [
+          218,
+          219
+        ],
+        "reference-guide": [
+          232,
+          233
+        ],
+        "sources": [
+          240,
+          241
+        ],
+        "printed-sources": [
+          269,
+          270
+        ],
+        "credits": [
+          274,
+          275
+        ]
+      },
+      "manually_inspected": [
+        160,
+        161,
+        163,
+        263,
+        264
+      ],
+      "visual_finding": "Legible body/notes; sparseGourahariending161 raised to coordinator."
+    }
+  },
+  "commands": [
+    {
+      "command": "node --test projects/site/tests/cinema*.test.mjs",
+      "cwd": "repository",
+      "exit_code": 1,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/cinema-tests.log"
+    },
+    {
+      "command": "node --test tests/cinema*.test.mjs",
+      "cwd": "projects/site",
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/cinema-tests-retry.log"
+    },
+    {
+      "command": "npm run build",
+      "cwd": "projects/site",
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/site-build.log"
+    },
+    {
+      "command": "node tools/check-public-disclosures.mjs dist",
+      "cwd": "projects/site",
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/disclosure.log"
+    },
+    {
+      "command": "python3 output/pdf/build_book.py --date 2026-11-07 --revision bapa --artifact-marker-evidence outputs/cinema-bapa-integration-20261107/logs/pdf-marker.json",
+      "cwd": "repository",
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/digital-build.log"
+    },
+    {
+      "command": "python3 output/pdf/build_book.py --date 2026-11-07 --revision bapa --artifact-marker-evidence outputs/cinema-bapa-integration-20261107/logs/pdf-marker.json --edition print --layout-only",
+      "cwd": "repository",
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/print-layout.log"
+    },
+    {
+      "command": "python3 output/pdf/build_book.py --date 2026-11-07 --revision bapa --artifact-marker-evidence outputs/cinema-bapa-integration-20261107/logs/pdf-marker.json --edition print --page-map tmp/pdfs/2026-11-07-bapa/print/page-map.json",
+      "cwd": "repository",
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-integration-20261107/logs/print-build.log"
+    }
+  ],
+  "test_retry_reason": "Initial invocation from repository root failed cwd-relative fixtures; rerun from projects/site passed51/51.",
+  "marker": {
+    "path": "outputs/cinema-bapa-integration-20261107/logs/pdf-marker.json",
+    "executed_once": true,
+    "exit_code": 0,
+    "actual_tool_chunk": "68fe65"
+  },
+  "site_source_bindings": {
+    "verified": 52,
+    "all_match": true
+  },
+  "canonical_manifest_issue": "Two stale hashes reported to coordinator for reconciliation; worker did not change shared bindings.",
+  "images_comparison_excludes": [
+    "embedded_file revision path",
+    "credit_number"
+  ],
+  "published_pdfs_unchanged": true,
+  "scope_released": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": "POD-CINEMA-BAPA-PUBLICATION-20261107",
+  "date": "2026-11-07",
+  "status": "verified_preparing_publication",
+  "authorization": "Founder: Publish these updates to the website and update the book downloads too. Asked whether fact-checking is needed.",
+  "source_handoff": "records/cinema-bapa-integration-2026-11-07.json",
+  "scope": "Two reviewed article updates and matching digital/print book downloads; focused claim verification and actual live verification.",
+  "article_sequence": [
+    "POD-EDIT-804",
+    "POD-EDIT-810"
+  ],
+  "active_article": null,
+  "scope_released": false,
+  "publication_performed": false,
+  "programme_credit": 0,
+  "reserved_scopes": {
+    "Disha": [
+      "Git and release publication",
+      "kb/records/cinema-bapa-publication-2026-11-07.json",
+      "kb/records/article-editorial-rollout.json",
+      "kb/team/operations.json",
+      "kb/index.md",
+      "kb/history/LEDGER.md",
+      "kb/history/ledger.jsonl",
+      "kb/research/search-index.json",
+      "outputs/cinema-bapa-publication-20261107/publication receipts and staging manifest"
+    ],
+    "Anvesha": [
+      "outputs/cinema-bapa-publication-20261107/fact-check.json"
+    ],
+    "Samanta": [
+      "projects/site/src/data/cinema.json (review_books, archived_review_books and review_book_manifest only)",
+      "outputs/cinema-bapa-publication-20261107/book-release-manifest.json",
+      "outputs/cinema-bapa-publication-20261107/implementation.json",
+      "outputs/cinema-bapa-publication-20261107/logs/",
+      "Local build only: preserve stale projects/odia-dhaga/odia-dhaga-book.pdf in outputs/cinema-bapa-publication-20261107/local-build-backup/ and hydrate exact current main descriptor using existing verifier; no descriptor/source/PDF git changes"
+    ],
+    "Drishti": [
+      "outputs/cinema-bapa-publication-20261107/review.json"
+    ]
+  },
+  "boundaries": [
+    "No new fees/royalties claims; payment unresolved.",
+    "No unrelated PDF accessibility experiments or images in release.",
+    "Preserve historical PDFs and prior edition links.",
+    "Root alone publishes after factual/editorial and technical checks."
+  ],
+  "branch": "codex/cinema-bapa-release-20261107",
+  "fact_check": {
+    "path": "outputs/cinema-bapa-publication-20261107/fact-check.json",
+    "sha256": "73a35f960ee87416a8945526e97c22bbf60abdda71624ef9cb9df93a9f5e04e7",
+    "status": "PASS"
+  },
+  "primary_source_recheck": "outputs/cinema-bapa-publication-20261107/source-recheck.json",
+  "release_manifest": "outputs/cinema-bapa-publication-20261107/book-release-manifest.json",
+  "integration": {
+    "current_main": "32a4c1b0",
+    "merge": "1ab54453",
+    "resolution": "Preserved remote operations and applied Cinema programme row only; generated search index reconciled."
+  }
+}
