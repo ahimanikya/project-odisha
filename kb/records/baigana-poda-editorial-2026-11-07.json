@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-116",
   "work_id": "POD-WORK-330",
   "programme_id": "POD-A500-139",
@@ -9,7 +9,7 @@
   "started_at": "2026-11-07T02:41:45.912944+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Publish the exact reviewed Baigana poda preparation comparison at /food/baigana-poda/: three paragraphs (two attributed accounts plus independent combined-photo caveat), exact lead, By Ahimanikya Satapathy and two native numbered notes. Preserve Pragyan roasted-garlic additions and Away maternal flame versus own explicitly not-smoky broiler distinction; no new Sasmita body, tested recipe, statewide/origin/health/storage claim. Replace all248 old same-route charged occurrences, apply reviewed compact106 source/object replacements, protect parent54 and exact original parent four-source list/global Sasmita source object. Actual all-surface budgets149Pragyan/168Away/171Sasmita conditional on exact replacements, two notes once and three short portable citations, no legacy inspection append. Preserve photo/CCBYSA4/credit/combineddish caveat, food:baigana-poda SaveID and three links. Require actual KB/site/export parity, real validators/build/gates, desktop/mobile keyboard/browser/download review, separate integrated/exact-headPASS, CI, reviewed merge/deployment/live and separately reviewed receipt before one substantive completion credit.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "draft_report_sha256": "8e5d3e1d41c9e1562fce914c39a4c46a870f89d0aec1efda8730d35733f7ad0e",
@@ -26,9 +26,22 @@
     "Exacttwo native notes/three short routeportablecitations; no duplicate inspection/title strings",
     "GlobalSasmita source object and original parentfour-source list unchanged"
   ],
-  "publication": null,
-  "live_verification": null,
-  "receipt": null,
+  "publication": {
+    "head": "e14b2111ce30e8ec62e1ba7fd58b70ab62287457",
+    "databaseId": 42380455274,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42380455274",
+    "conclusion": "success",
+    "workflow": "publish-site.yml"
+  },
+  "live_verification": {
+    "checked_at": "2026-11-07T14:28:52.320Z",
+    "status": "PASS",
+    "producer_sha256": "7f8b270bedb98f6b5a381d702c6c195d798dfd60e4a02fd26d994cf2feb95702",
+    "separate_review_sha256": "7c6ab4c8e19e210795445a2c67a8dbad149b027e14c3ed4b79c72c613eb77f63",
+    "evidence_manifest": "records/evidence/baigana-poda-editorial-2026-11-07/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "6e846355b9c9dbe022e0025d90c86f2dea21964b1d492d2ed932f7c63cdf07c8"
+  },
+  "receipt": "records/baigana-poda-editorial-publication-2026-11-07.json",
   "evidence": "records/evidence/baigana-poda-editorial-2026-11-07/integration-proposal/source-manifest.json",
   "scopes": {
     "Disha": "Only canonical/shared/Git/release writer",
@@ -49,5 +62,38 @@
     "source_manifest": "kb/records/evidence/baigana-poda-editorial-2026-11-07/local-implementation/source-manifest.json",
     "source_manifest_sha256": "9e93a754ec5ac09b5566d331b1975bf6082127e5fccebe4230132ee0bdf9b0dc",
     "qualification": "Actual local implementation only; publication/live/receipt remain pending. Screenshot format qualifications and failure history retained in portable evidence."
-  }
+  },
+  "verified_at": "2026-11-07T14:28:52.320Z",
+  "completed_at": "2026-11-07T14:28:52.320Z",
+  "receipt_prepared_at": "2026-11-07T14:35:55.450021+00:00",
+  "review": "records/baigana-poda-delivery-review-2026-11-07.json",
+  "article_change": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/697",
+    "reviewed_head": "46c90c676885bed2098ae3a810d2be59f8cb0e64",
+    "merge_commit": "ec57b52728f78f57f863134abcab771085ce6b16",
+    "required_ci": 42334489758,
+    "conclusion": "success"
+  },
+  "workflow_recovery": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/699",
+    "reviewed_head": "b13ac599fbfd4210d7dce4ed9b4f7c9ac1ce7d34",
+    "merge_commit": "93d5155681e5fd044a9c97c64ff79968ba8779df",
+    "required_ci": 42380114622,
+    "conclusion": "success",
+    "qualification": "Four-path guard/diagnostic improvement merged after successful e14 publication; not deployed in that run, no proven causal fix."
+  },
+  "failed_publications": [
+    {
+      "run_id": 42335828199,
+      "head": "ec57b52728f78f57f863134abcab771085ce6b16",
+      "build": "success",
+      "deployment": "timeout_cancelled"
+    },
+    {
+      "run_id": 42337582317,
+      "head": "ec57b52728f78f57f863134abcab771085ce6b16",
+      "build": "success",
+      "deployment": "timeout_cancelled_blank_status"
+    }
+  ]
 }

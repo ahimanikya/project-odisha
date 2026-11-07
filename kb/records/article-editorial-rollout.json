@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-07T02:41:45.912944+00:00",
+  "updated_at": "2026-11-07T14:35:55.450021+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3002,14 +3002,29 @@
       "id": "POD-EDIT-116",
       "route": "/food/baigana-poda/",
       "title": "Baigana poda",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Substantive attributed preparation comparison; existing authored dish article, not utility classification.",
       "source_template": "/food/tala-pitha/",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "image_review_note": "Existing combined eggplant/tomato Commons photograph retained with attribution and caveat; no source-recipe image reuse.",
+        "delivery_receipt": "records/baigana-poda-editorial-publication-2026-11-07.json",
+        "separate_review": "records/baigana-poda-delivery-review-2026-11-07.json"
+      },
       "evidence": [
-        "records/baigana-poda-editorial-2026-11-07.json"
+        "records/baigana-poda-editorial-2026-11-07.json",
+        "records/baigana-poda-editorial-publication-2026-11-07.json",
+        "records/baigana-poda-delivery-review-2026-11-07.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "completed_at": "2026-11-07T14:28:52.320Z",
+      "publication_receipt": "records/baigana-poda-editorial-publication-2026-11-07.json"
     },
     {
       "id": "POD-EDIT-117",
