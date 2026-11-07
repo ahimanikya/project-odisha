@@ -1,0 +1,33 @@
+{
+  "status": "prepared_waiting_for_final_research_and_marker",
+  "baseline": "outputs/cinema-language-publication-20261108/implementation/baseline.json",
+  "baseline_sha256": "c81d3b78bca3b9eddf6c7da168277a9906c46a4bf552b4707159d20a8c37f7cf",
+  "readings": 52,
+  "book_chapters": 49,
+  "commands": {
+    "coordinator_source_sync": "node tools/cinema-literature-care-sync.mjs --slug cinema-futures --apply",
+    "site_tests": "node --test tests/cinema*.test.mjs",
+    "site_build": "npm run build",
+    "site_disclosure": "node tools/check-public-disclosures.mjs dist",
+    "site_cwd": "projects/site",
+    "digital": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-08 --revision language-memory --artifact-marker-evidence <root-supplied-marker-receipt>",
+    "print_layout": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-08 --revision language-memory --artifact-marker-evidence <root-supplied-marker-receipt> --edition print --layout-only",
+    "print_final": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-08 --revision language-memory --artifact-marker-evidence <root-supplied-marker-receipt> --edition print --page-map tmp/pdfs/2026-11-08-language-memory/print/page-map.json",
+    "book_cwd": "repository"
+  },
+  "dependencies": {
+    "reportlab": true,
+    "pypdf": true,
+    "pypdfium2": true,
+    "PIL": true,
+    "uharfbuzz": false
+  },
+  "font_paths_present": true,
+  "marker": "Root will execute exactly once for2outputs immediately before first authoring; worker must not repeat. None run in preparation.",
+  "release_plan": "Reuse reviewed Bapa manifest structure after final PDFs pass; preserve existing current and archive links until new assets are verified. Root owns release upload/Git. No release tag assumed yet.",
+  "validation": "Compare final49chapter source bindings, integrated profile bindings,62 image records, cover hashes, stable final print map, actual note/page counts; render allpages and manually inspect changed body/notes/adjacentpages. Preserve originalPDFs and tagged-reader trial bytes.",
+  "public_edits": false,
+  "pdfs_generated": false,
+  "scope_released": false,
+  "dependencies_note": "uharfbuzz is not installed as a top-level import; existing unchanged ReportLab build pipeline previously succeeded in this bundled environment. No installation or builder change made."
+}

@@ -1,0 +1,80 @@
+{
+  "status": "PASS_BOUNDED_RECEPTION_SOURCE_REVIEW",
+  "scope_released": false,
+  "publication_gate": "Pending final integrated candidate and artifact review; this receipt does not certify film viewing or completed wider research.",
+  "actual_scope": [
+    "Full UK Film Review Nani Ma article web text",
+    "Full Senses of Cinema IDFFB2023 report web text",
+    "Original Orissa POST PDF page6 rendered and entire relevant column visually read; extraction used for reading assistance"
+  ],
+  "sources": [
+    {
+      "url": "https://odishapostepaper.com/uploads/epaper/2023-04/6437086d4d2cb.pdf",
+      "local_pdf": "outputs/cinema-language-publication-20261108/review/orissa-post-20230413.pdf",
+      "sha256": "a153da675f0a402c0e0bd6e9d7ac76d93695b5ca7fec650003b9f8e381a64f50",
+      "visual": "outputs/cinema-language-publication-20261108/review/orissa-post-20230413-page6.png",
+      "visual_sha256": "5e4aea49ca2d0c47a4efeee33478e4d9dc50fc75b2086d90d9e99770d611bd5d",
+      "identity": "Dhanada K Mishra, The Volunteer Archivist, Orissa POST, 13 April 2023, PDF/printed page6, Focus: Civil Society",
+      "assessment": "Qualified opinion column, not simply adverse criticism. Mishra welcomes the digitisation account but finds the interview-led focus leaves Srujanika science-education activity underrepresented. He discloses personal benefit and involvement with that wider work. Treat praise and criticism as his perspective, not an objective verdict. The column’s unrelated political arguments are outside the proposed addition.",
+      "access": "Web extraction rejected file size; direct download succeeded, followed by original-page visual inspection."
+    },
+    {
+      "url": "https://www.ukfilmreview.co.uk/reviews/nani-ma",
+      "identity": "Swati Verma, 17 April 2023",
+      "locator": "Article paragraphs lines65–77, especially closing assessment",
+      "assessment": "Appreciates the personal cultural subject and suggests trimming duration for effectiveness. Do not selectively preserve praise while suppressing this qualification internally. Rating is critic opinion, not an objective quality measure; no rating needed in public prose. No age, first-film, audience effect or broad cultural-history claim adopted."
+    },
+    {
+      "url": "https://www.sensesofcinema.com/2024/festival-reports/4th-indian-documentary-film-festival-bhubaneshwar-idffb-2023-continues-to-attract-film-lovers-in-a-quaint-indian-city/",
+      "identity": "Sneha Krishnan, January2024, issue108, with input from Subrat Beura",
+      "locator": "Header lines375–385; Experimental films exploring themes of memory and reminiscence lines433–438",
+      "assessment": "Independent publication provides festival context for The Volunteer Archivists at IDFFB2023. The report acknowledges input from festival coordinator Beura; it is not wholly detached from organisers. Its praise for Srujanika is evaluative. Does not establish film-specific audience totals, popularity, awards or measurable impact."
+    }
+  ],
+  "editorial_recommendation": "Keep public narrative work-led and factual. These sources do not require adding scores or praise/criticism to the compact passage, but the research record should retain both qualified reception and contributor relationships. No identified factual correction to the previously reviewed two-film and collaboration description. Direct film and final-credit review remains a separate evidence task.",
+  "required_corrections_to_current_article": [],
+  "limits": [
+    "No film playback in this reviewer task.",
+    "No independent verification of every historical, political or demographic assertion in these critical articles.",
+    "No whole newspaper inspection claimed; only PDF6 relevant column visually read.",
+    "No public changes, shared-register writes, git actions or publication."
+  ],
+  "candidate_gate": {
+    "status": "PASS",
+    "input_hashes": {
+      "kb/research/culture/cinema-series/cinema-futures.md": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd",
+      "outputs/cinema-language-publication-20261108/root/tva-2023.srt": "c2acc78ae829176b08fb8b79fe733d157351e4194009303b853b1b0ba4577a71",
+      "outputs/cinema-language-publication-20261108/root/frames/frame-170.png": "d4fd1ee5237b37c1f274da5270aca773ab1def38c36845a9ad4cebd6806314bb"
+    },
+    "actual_checks": [
+      "Read final paragraph and compact film note",
+      "Read SRT cues30–39, including Padmaja identification and proofreading/editing/compilation at02:41.911–02:48.501",
+      "Viewed saved frame170; no identity inferred from face alone"
+    ],
+    "decision": "Added20-word sentence supported by released-version subtitle account; patient page-work clause is editorial reflection. Note distinguishes2023release link from original2022film. No other role/full-film-viewing inference.",
+    "artifact_review": "Pending rebuilt PDFs and website."
+  },
+  "final_credit_review": {
+    "actual_inspected_frames": [
+      "root/frames/frame-1102.png",
+      "root/frames/frame-1108.png",
+      "research/frame-2135.png",
+      "research/frame-2410.png"
+    ],
+    "input_hashes": {
+      "outputs/cinema-language-publication-20261108/root/frames/frame-1102.png": "52497c6b32d4a2bca0765de9b7c6e2c9a4e10fda81f474b1c54c02073ee0753f",
+      "outputs/cinema-language-publication-20261108/root/frames/frame-1108.png": "dd2fd19298f8f4dc8f49879366c51227c023a9b2bbc6cc8a82901a213aa508b8",
+      "outputs/cinema-language-publication-20261108/research/frame-2135.png": "d89143f2aabd28814488afe6fa38db42346b9c254a2d829b9c5cb3bca3d78515",
+      "outputs/cinema-language-publication-20261108/research/frame-2410.png": "d8239ba21c8b20dc7b0031914e0dfa0662d9a161fe5c865e6224d75e2c3ace01",
+      "outputs/cinema-language-publication-20261108/root/tva-inspection.json": "bb1f90fe9a11d4b67c470365c485c11efa0afacd42ef128444ec6c4bc922b207",
+      "outputs/cinema-language-publication-20261108/research/research.json": "74020383880075a2dc8ed77c21dbff711070551efc48f7ccd9c9e3bbed0f15ab"
+    },
+    "findings": [
+      "TVA1102 names Subhashish for screenwriting/editing/music/cinematography;1108 direction/production.",
+      "Nani Ma2135 names Subhashish for screenplay/cinematography/music/editing/direction/production.",
+      "Mage Porob2410 names Prateek under Additional Camera & Sound and Other Advisors; distinct from Subhashish camera/sound/stills/foley/sound-design line.",
+      "Remosam final-credit and Ramaleelas writing gaps remain excluded from current public text."
+    ],
+    "limits": "Four individual saved frames, not continuous viewing or audio audition; source relationship and timestamps retained from provenance packets."
+  }
+}

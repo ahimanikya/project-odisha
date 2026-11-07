@@ -1,6 +1,6 @@
 {
   "id": "POD-DONGRIA-MAP-PHOTO-20261108",
-  "status": "pdf_published_website_metadata_pending",
+  "status": "published_verified",
   "authorization": "User requested higher-resolution ornament photograph and a better map visualizer for the book. User approved moving the existing high-resolution wedding-group photograph to the ornaments opener and removing its earlier duplicate: ok. go.",
   "scope": "Public book map page and ornament photograph; no new narrative research.",
   "map": {
@@ -40,7 +40,7 @@
     "hairpin_reference_credit_preserved": true
   },
   "programme_credit": 0,
-  "publication": false,
+  "publication": true,
   "artifact": {
     "pages": 84,
     "bytes": 17685341,
@@ -72,5 +72,28 @@
     "exact_reviewed_pdf": true
   },
   "previous_pdf_sha256": "5d2987c8fd1582d4de009fdedee8e119d066c8c3702a82fcf48f8ea3734d758e",
-  "publication_scope": "PDF replacement is live and verified; publication boolean tracks completion of the website metadata release."
+  "publication_scope": "Public PDF replacement and matching website download metadata both live and verified.",
+  "verified_at": "2026-11-07T22:37:16.159078+00:00",
+  "reviewed_head": "b03cdb35bba1335b630c600a7cd438775c20fd00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/706",
+  "merge_commit": "dea85e2d1f0d265262b4b89dc374942f8b4e5839",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42418850425",
+  "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42420178475",
+  "deployment_result": "success",
+  "site_live_verification": [
+    {
+      "route": "/stories/dongria/",
+      "http_status": 200,
+      "pages": 84,
+      "display_size": "17.7 MB",
+      "download_link_correct": true
+    },
+    {
+      "route": "/stories/dongria/book/",
+      "http_status": 200,
+      "pages": 84,
+      "display_size": "17.7 MB",
+      "download_link_correct": true
+    }
+  ]
 }

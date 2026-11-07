@@ -1,0 +1,158 @@
+{
+  "id": "POD-CINEMA-WATERFALL-SCHOOL-20261108-ROOT",
+  "date": "2026-11-08",
+  "input_head": "ad1dbf97683c2d3a2ec5c0922241f6cbee66b37d",
+  "question": "Find a named completed school screening of Lipika Singh Darai’s The Waterfall.",
+  "status": "new_named_school_report_found_identity_inferred_not_explicitly_paired",
+  "sources": [
+    {
+      "id": "abhyasa-ikffi-2017",
+      "url": "https://abhyasaschool.org/first-international-kids-films-festival-on-india-ikffi-in-abhyasa.html",
+      "title": "First International Kids Films Festival On India [IKFFI] In ABHYASA",
+      "source_type": "School-authored retrospective report, retrieved as indexed original-domain text",
+      "inspection": "Full indexed article text read via web search. Live original domain did not resolve in browser/curl and returned403 to web open; no original page pixels or archived copy retrieved.",
+      "finding": "Abhyasa reports a festival on14–19November2017. It lists The Waterfall among senior titles and Lipika Singh Darai among Indian directors, in separate lists. It describes post-film discussions led by teachers or senior students and a written review project.",
+      "limitations": [
+        "No explicit title/director pair, screening date within festival, or version/language for this film.",
+        "Festival grades4–12 are not film-specific attendance.",
+        "Descriptions of enjoyment or success are school testimony, not measured learning.",
+        "No film fee/licence/payment evidence."
+      ]
+    },
+    {
+      "id": "abhyasa-current-archive",
+      "url": "https://www.abhyasaschool.com/archives.html",
+      "inspection": "Live indexed original page opened; School Updates2018&2017 links the same festival title. Linked.php report returns404.",
+      "supports": "Continuity of the school report title in its current archive; not independent corroboration or recovered content."
+    },
+    {
+      "id": "abhyasa-location",
+      "url": "https://www.abhyasaschool.com/index.php",
+      "inspection": "Official school homepage opened, About Us and contact",
+      "supports": "Toopran, Telangana location."
+    },
+    {
+      "id": "darai-films",
+      "url": "https://www.lipikasinghdarai.com/films",
+      "inspection": "Original page opened; filmography and The Waterfall section",
+      "supports": "2017title; Darai writer/director/editor; made for School Cinema/LXL; English and Hindi versions, Khandadhar/Sundergarh location.",
+      "limits": "Film identity record does not itself prove the school screening."
+    },
+    {
+      "id": "ikffi-2017-context",
+      "url": "https://www.newindianexpress.com/bengaluru/2017/Nov/07/online-kids-film-fest-aims-to-democratise-watching-movies-1694942.html",
+      "inspection": "Search-retrieved article text read",
+      "supports": "Contemporaneous14–19November2017festival context; planned school-based events.",
+      "limits": "Not a retrospective Abhyasa record and does not identify Waterfall."
+    }
+  ],
+  "claim_matrix": [
+    {
+      "claim": "Abhyasa reported a completed festival and screening of a title The Waterfall in November2017",
+      "status": "supported_by_school_indexed_account"
+    },
+    {
+      "claim": "The Abhyasa title was Darai’s film",
+      "status": "strong_contextual_inference_not_explicit_pair",
+      "reason": "Title and director co-occur in school report, consistent with maker’s2017School Cinema title. Not a complete programme with paired entries."
+    },
+    {
+      "claim": "Loyola screened Darai’s film on19July2024",
+      "status": "still_unresolved_title_only",
+      "prior_evidence": "outputs/cinema-research-gaps-20261107/support-outcomes.json"
+    },
+    {
+      "claim": "Children had measured learning gains or film earned school revenue",
+      "status": "not_established"
+    }
+  ],
+  "access_log": [
+    {
+      "route": "Live original.org report",
+      "result": "Web403; browser/curl DNS failure."
+    },
+    {
+      "route": "Current official.com archive link",
+      "result": "Archive accessible; report.php and.html HTTP404. Retained error bodies clearly labelled; not source captures."
+    },
+    {
+      "route": "Public archive exact.org/.com URLs",
+      "result": "CDX returnedempty arrays for these exact queries; does not establish no archive exists."
+    },
+    {
+      "route": "Public archive wildcard domain query",
+      "result": "Returned unrelated homepage snapshots; unusable for target article."
+    }
+  ],
+  "false_matches_excluded": [
+    "An indexed2012academic report explicitly credits a different The Waterfall to Parvez Imam; excluded.",
+    "General international festivals/college screenings do not answer the school question.",
+    "Syllabuses and announced reach do not prove completed screenings."
+  ],
+  "research_decision": "Keep Abhyasa as a substantially stronger documented-school lead with a visible identity inference. Do not label the original exact film/programme check fully resolved. No public article/book edit in this research-only turn.",
+  "proposed_home_if_adopted": "cinema-economics, adjacent to existing school-audience passage; short example rather than new article.",
+  "next_evidence": "A recovered original programme or school/provider record pairing The Waterfall with Lipika Singh Darai, or identifiable frame/film-specific teaching material from the named event. No contact performed.",
+  "checks": {
+    "published_files_changed": false,
+    "books_rebuilt": false,
+    "outreach": false,
+    "purchase": false,
+    "general_query_loop_stopped": true
+  },
+  "capture_files": [
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-com-exact-wayback-index.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-com-html-headers.txt",
+      "bytes": 232,
+      "sha256": "a8be780534bb21a559466ecfc9348b26ea0b5ddb5fe2882caa57757b8bd62685",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-com-report.html",
+      "bytes": 236,
+      "sha256": "9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-com-report.txt",
+      "bytes": 72,
+      "sha256": "6407f61acf5eb7d97c59eb505a2ab35607d87ada7cdca0632c5e42d6583c3298",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-com-wayback-index.json",
+      "bytes": 759,
+      "sha256": "aef060608f8b033f5001e3387d56a68325a273b8d9c1d5db91913e217bdda41c",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-headers.txt",
+      "bytes": 232,
+      "sha256": "a477d82d8a65a2fcf6a32c071a2fca7c4c643f204757920de7dbef76cce27f97",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-org-headers.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-report.html",
+      "bytes": 236,
+      "sha256": "9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e",
+      "classification": "access_response_not_verified_school_report"
+    },
+    {
+      "path": "outputs/cinema-waterfall-school-20261108/sources/abhyasa-wayback-index.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "classification": "access_response_not_verified_school_report"
+    }
+  ]
+}

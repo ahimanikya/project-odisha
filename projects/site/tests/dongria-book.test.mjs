@@ -22,11 +22,14 @@ test('book sequence connects the full opening, twelve readings and closing essay
  const first=read('dist'+route(articles[0])+'index.html');assert.ok(first.includes('/stories/dongria/book/#author-note'));
  for(const a of articles)assert.ok(read('dist'+route(a)+'index.html').includes('href="/stories/dongria/book/"'));
 });
-test('public book media use only approved plates and two contextual supplementary photographs',()=>{
- assert.deepEqual(reading.additional_photographs.map(x=>x.id),['commons-2','commons-4']);
+test('public book media use only approved plates and one contextual supplementary photograph and relocated wedding portrait',()=>{
+ assert.deepEqual(reading.additional_photographs.map(x=>x.id),['commons-4']);
  for(const p of reading.additional_photographs){assert.ok(page.includes(p.source_url));for(const v of p.variants)assert.ok(existsSync('public'+v.src));}
  for(const a of articles){assert.ok(a.image.startsWith('/assets/dongria-book/'));assert.ok(page.includes(a.title));assert.ok(a.book_credit);}
- assert.ok(reading.additional_photographs[0].caption.includes('preparing for a wedding'));
+ const ornament=articles.find(a=>a.slug==='ornaments-in-use');assert.ok(ornament.caption.includes('preparing for a wedding'));assert.ok(ornament.creator==='Shubhamkindia');
+ assert.ok(!read('dist/stories/dongria/dongria-life/index.html').includes('20261107-commons-2'));
+ assert.ok(read('dist/stories/dongria/ornaments-in-use/index.html').includes('File:Dangaria_accessory_detail_01.jpg'));
+ assert.ok(page.includes('Natural Earth'));assert.ok(page.includes('odisha-outline-title'));
  assert.ok(page.includes('Amitt M Patell'));
  assert.ok(page.includes('Author portrait: supplied by Ahimanikya Satapathy.'));
  assert.doesNotMatch(page,/pari-|mongabay-|sahapedia-technique-|school-phulaki|AI-generated|AI-assisted/);

@@ -1,0 +1,26 @@
+---
+import outline from '../data/dongria-odisha-outline.json';
+const {map}=Astro.props;
+const geometry=outline.features[0].geometry;
+const polygons=geometry.type==='MultiPolygon'?geometry.coordinates:[geometry.coordinates];
+const points=polygons.flat(2);
+const west=Math.min(...points.map(p=>p[0])),east=Math.max(...points.map(p=>p[0]));
+const south=Math.min(...points.map(p=>p[1])),north=Math.max(...points.map(p=>p[1]));
+const cosine=Math.cos((south+north)/2*Math.PI/180);
+const scale=Math.min(300/((east-west)*cosine),250/(north-south));
+const xy=(lon,lat)=>[20+(lon-west)*cosine*scale,15+(north-lat)*scale];
+const paths=polygons.map(p=>p.map(r=>r.map(([lon,lat],i)=>`${i?'L':'M'}${xy(lon,lat).map(n=>n.toFixed(2)).join(' ')}`).join(' ')+'Z').join(' '));
+const [fx,fy]=xy(83,19.85),[ex,ey]=xy(83.8,19);
+const locate=(place)=>[20+(place.longitude-83)/.8*300,40+(19.85-place.latitude)/.85*250];
+const hills=locate(map.places.find(p=>p.kind==='regional label'));
+const town=locate(map.places.find(p=>p.kind==='town'));
+---
+<figure class="dongria-locator">
+<div class="locator-panels">
+<div><h3>Within Odisha</h3><svg viewBox="0 0 340 280" role="img" aria-labelledby="odisha-outline-title odisha-outline-description"><title id="odisha-outline-title">Odisha with the Niyamgiri regional view marked</title><desc id="odisha-outline-description">The southwest focus rectangle indicates the regional view beside or below this inset. It does not mark the boundary of the hills.</desc>{paths.map(d=><path d={d} class="state-outline"/>)}<rect x={fx} y={fy} width={ex-fx} height={ey-fy} class="focus-area"/></svg><p class="locator-key">The outlined area locates the regional view.</p></div>
+<div><h3>Locating Niyamgiri</h3><svg viewBox="0 0 340 340" role="img" aria-labelledby="locator-title locator-description"><title id="locator-title">Niyamgiri north of Rayagada town</title><desc id="locator-description">A schematic regional locator. Kalahandi district is labelled northwest of Niyamgiri; Rayagada district is labelled southeast. Niyamgiri is approximate; no district or hill boundaries, villages or travel routes are shown.</desc><text x="12" y="38">Kalahandi<tspan x="12" dy="23">district</tspan></text><text x="212" y="192">Rayagada<tspan x="212" dy="23">district</tspan></text><text x={hills[0]} y={hills[1]} text-anchor="middle" class="region">Niyamgiri hills</text><text x={hills[0]} y={hills[1]+25} text-anchor="middle" class="detail">approximate position</text><circle cx={town[0]} cy={town[1]} r="4"/><text x={town[0]+12} y={town[1]+5}>Rayagada<tspan x={town[0]+12} dy="23">town</tspan></text><path d="M35 226V184m-8 10 8-10 8 10" class="north-arrow"/><text x="29" y="172">N</text></svg></div>
+</div><figcaption>{map.display_caption}</figcaption>
+</figure>
+<style>
+.dongria-locator{margin:2rem 0}.locator-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;align-items:start}.locator-panels h3{font-size:1.2rem;margin:0 0 1rem}.locator-panels svg{display:block;width:100%;height:auto;max-width:340px;margin:1rem auto;color:var(--sea)}.locator-panels svg text{fill:currentColor;font:20px system-ui,sans-serif}.locator-panels svg .region{fill:var(--earth);font-size:25px}.locator-panels svg .detail{font-size:19px}.state-outline{fill:var(--paper);stroke:var(--sea);stroke-width:1;fill-rule:evenodd}.focus-area{fill:none;stroke:var(--earth);stroke-width:2}.north-arrow{fill:none;stroke:currentColor;stroke-width:2}.locator-key,.dongria-locator figcaption{font-size:.95rem;line-height:1.6}.locator-key{margin:0}.dongria-locator figcaption{margin-top:1.5rem}@media(max-width:640px){.locator-panels{grid-template-columns:1fr;gap:2rem}}
+</style>

@@ -29,7 +29,13 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
-Current cinema publication: [Bapa article and book release](records/cinema-bapa-publication-2026-11-07.json). Published and live verified: Gourahari Das, Pratikshya, and 271/276-page book downloads. Focused fact-check passed; television and recognition remain attributed accounts, payment unverified. Scope released.
+Current cinema publication: [Language, memory and matching book editions](records/cinema-language-documentaries-publication-2026-11-08.json). Published and live verified: the Futures documentary passage and271-page digital/278-page print downloads. Research and separate review complete within the recorded scope; two exact film-credit gaps remain excluded.52online readings/49book chapters; scope released.
+
+Earlier cinema addition: [Language, memory and documentary filmmaking](records/cinema-language-documentaries-2026-11-08.json). Subhashish Panigrahi’s Nani Ma and The Volunteer Archivists connect oral memory and Odia print preservation with cinema. Prateek Pattanaik’s Prahallada Nataka collaboration retains distinct field and support roles. Added to the Futures draft with compact notes; published downloads remain unchanged.
+
+Current cinema research: [The Waterfall school-screening lead](records/cinema-waterfall-school-2026-11-08.json). A new Abhyasa school report strengthens the evidence; exact title/director pairing remains inferred. Separate review complete, public articles and books unchanged.
+
+Previous cinema publication: [Bapa article and book release](records/cinema-bapa-publication-2026-11-07.json). Published and live verified: Gourahari Das, Pratikshya, and 271/276-page book downloads. Focused fact-check passed; television and recognition remain attributed accounts, payment unverified. Scope released.
 
 Current cinema article follow-up: [Bapa across the page, television and cinema](records/cinema-bapa-integration-2026-11-07.json). Added Das’s attributed collection/television recollection and source-writer recognition to his profile, with a short television connection in Pratikshya. Payment remains unverified. Both articles and affected web/book pages passed review;271-page digital and276-page print local proofs retain538notes. Published editions unchanged.
 

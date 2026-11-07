@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-08",
+  "status": "bounded_complementary_research_complete",
+  "scope_released": true,
+  "decision": "No additional named completed school screening securely tied to Darai was established in this complementary pass. Root owns the new Abhyasa original report; this packet does not prejudge that independent route.",
+  "reuse": [
+    "kb/records/cinema-waterfall-school-2026-11-08.json",
+    "outputs/cinema-research-gaps-20261107/support-outcomes.json",
+    "kb/research/culture/cinema-series/school-audiences-2026-11-05.json"
+  ],
+  "reuse_query": "python3 tools/research/query_research.py Waterfall returned dated-inventory warning with no matched narrative. Prior support-outcomes supplied exact known boundaries.",
+  "routes": [
+    {
+      "route": 1,
+      "type": "School report with director explicitly named",
+      "queries": [
+        "\"school\" \"Waterfall\" \"Lipika\" -site:abhyasaschool.org -site:facebook.com -site:instagram.com",
+        "\"The Waterfall\" \"screened\" \"school\" -site:abhyasaschool.org -site:scribd.com -Lipika"
+      ],
+      "outcome": "No new named school/director pairing. Retained maker page and planned distribution reports resurfaced; these were not reclassified as completed screenings. An annual report search result credits a different Waterfall to Parvez Imam and was rejected."
+    },
+    {
+      "route": 2,
+      "type": "School festival programme identity",
+      "queries": [
+        "\"IKFF\" \"The Waterfall\" school screening -site:abhyasaschool.org",
+        "\"Waterfall\" \"IKFF\" -site:abhyasaschool.org",
+        "\"The Waterfall\" \"film festival\" \"school\" -site:abhyasaschool.org -site:lipikasinghdarai.com -site:scribd.com -site:facebook.com -site:instagram.com -site:asianage.com -site:ftiipeople.com"
+      ],
+      "outcome": "Known Loyola July2024 p86 surfaced unchanged, without director/producer identity. General festival screenings and unrelated films excluded. No Abhyasa page opened or queried directly."
+    },
+    {
+      "route": 3,
+      "type": "Provider-owned screening/identity material",
+      "queries": [
+        "\"Waterfall\" \"School Cinema\" \"students watched\"",
+        "\"Waterfall\" site:lxl.in school"
+      ],
+      "outcome": "Provider identity corroboration found, but no named completed school screening in the inspected provider material."
+    }
+  ],
+  "actually_opened_sources": [
+    {
+      "url": "https://schoolcinema.lxl.in/films",
+      "access": "Direct web text,128lines; find Waterfall.",
+      "locator": "Awards headings and image labels,lines19–41",
+      "finding": "The path is an awards page containing Waterfall image labels. It is not a screening log and names no school for this film.",
+      "limits": "No image viewing or event outcome inferred."
+    },
+    {
+      "url": "https://www.linkedin.com/posts/schoolcinema_schoolcinema-findingnabi-idsffk-activity-7367076220749914112-9jAF",
+      "access": "Direct publicly readable web text; no login or browser use.",
+      "locator": "School Cinema (LXL Ideas) post,lines22–26, particularly24",
+      "finding": "Provider explicitly identifies Lipika Singh Darai as director of its film Waterfall. The event discussed is a Finding Nabi festival premiere and team reunion, not a Waterfall school screening.",
+      "date_limit": "Page shows relative1y Edited; no exact posting date adopted.",
+      "limits": "Provider identity statement corroborates known film affiliation but cannot connect an uncredited school title by itself."
+    }
+  ],
+  "retained_title_only_source": {
+    "url": "https://icse.loyolaschooltrivandrum.com/Files/ENews/2024JUL-LENSJULY2024.pdf",
+    "locator": "printed/PDF86",
+    "current_access": "Fresh search-index excerpt only; prior original page visual review retained in support-outcomes. No duplicate PDF retrieval.",
+    "finding": "Completed19July2024 title-level screening remains established; director/LXL identity remains unconfirmed."
+  },
+  "not_adopted_sources": [
+    {
+      "url": "https://vimeo.com/239246207",
+      "reason": "Indexed crew-upload description credits Darai/LXL, but no named school. No playback or original credits viewed."
+    },
+    {
+      "url": "https://nwfilmforum.org/films/tasveer-south-asian-film-festival-2018-family-friendly-short-films/",
+      "reason": "Indexed festival programme identifies Darai, but it is not a named-school completed-screening report."
+    },
+    {
+      "url": "https://www.filmsocietybhubaneswar.com/iffb2018",
+      "reason": "Indexed festival source, outside school-specific question; not opened."
+    }
+  ],
+  "public_recommendation": "No additional prose from this packet. If root verifies Abhyasa, attribute the event to the school report and keep the film identification, completed screening, intended audience and claimed learning effects separate. No attendance or pedagogic outcome can be derived from the provider post.",
+  "source_budget": {
+    "new_public_words": 0,
+    "quotes": 0,
+    "summaries": "Concise paraphrases; each source below200 words."
+  },
+  "limits": [
+    "Three complementary source routes, not exhaustive school archive review.",
+    "No screenshot, film viewing, participant interview, private student data, outreach or purchase.",
+    "No source or public-file changes; only this reserved report written.",
+    "No new named-school/director match does not mean screenings did not occur."
+  ]
+}
