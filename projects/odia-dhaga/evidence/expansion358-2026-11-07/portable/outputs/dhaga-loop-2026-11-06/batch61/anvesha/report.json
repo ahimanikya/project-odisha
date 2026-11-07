@@ -1,0 +1,117 @@
+{
+  "status": "FROZEN_AUTHOR_RESEARCH_PENDING_INDEPENDENT_REVIEW",
+  "input_head": "ac2c3bc255966aae26e351b1fb552658fbe4eed0",
+  "head_at_freeze": "ac2c3bc255966aae26e351b1fb552658fbe4eed0",
+  "counts": {
+    "newly_retrieved_heads": 3,
+    "investigated_dhaga_positions": 3,
+    "fresh_positions": 3,
+    "proposals": 2,
+    "fresh_deferrals": 1,
+    "used_sources": 2,
+    "research_sources": 3,
+    "separate_malika_positions": 1,
+    "prefetch_prior_family_exclusions": 2,
+    "accepted_increment": 0
+  },
+  "used_source_ids": [
+    "dhaga-wiktionary-151003",
+    "dhaga-wiktionary-214141"
+  ],
+  "source_word_budgets": [
+    {
+      "candidate_key": "anvesha-b61-01",
+      "source_id": "dhaga-wiktionary-151003",
+      "narrative_field_words": {
+        "title": 5,
+        "literal_meaning": 13,
+        "explanation": 54,
+        "meaning_odia": 41,
+        "english_summary": 9,
+        "odia_summary": 10,
+        "cultural_context": 23
+      },
+      "exact_saying_words": 9,
+      "borrowed_example_words": 0,
+      "total_charged_words": 164,
+      "limit": 200,
+      "method": "Seven complete narrative fields plus exact saying once; original labelled example adds no borrowed quotation. Repeated witness/metadata not double-counted."
+    },
+    {
+      "candidate_key": "anvesha-b61-02",
+      "source_id": "dhaga-wiktionary-214141",
+      "narrative_field_words": {
+        "title": 4,
+        "literal_meaning": 9,
+        "explanation": 49,
+        "meaning_odia": 38,
+        "english_summary": 9,
+        "odia_summary": 10,
+        "cultural_context": 19
+      },
+      "exact_saying_words": 7,
+      "borrowed_example_words": 0,
+      "total_charged_words": 145,
+      "limit": 200,
+      "method": "Seven complete narrative fields plus exact saying once; original labelled example adds no borrowed quotation. Repeated witness/metadata not double-counted."
+    }
+  ],
+  "next_source_pass": {
+    "query_offset": 700,
+    "next_result_offset": 735,
+    "pageid": 78739,
+    "title": "ଭୁଜା",
+    "status": "SAVED_UNPROCESSED_SAYING_LEAD",
+    "instruction": "Continue saved700; no750 query before remaining saved700 assessed. Earlier708genre43741 uninspected,719snippet-only36945 and73084650 targeted prior-family explanation lead retained."
+  },
+  "screening": {
+    "own": "Complete before fetch;59017JSON/79941phrasefiles; no sizecutoff",
+    "independent": "Complete before fetch",
+    "eligibility_sha256": "7ba15bb13169137c019b1b81ac1dad50a409ff82888d9e70b9700ec287cb84ff",
+    "time": "2026-11-06T17:47:39.710647+00:00"
+  },
+  "tests": [
+    "Own59017JSON/79941phrase screen without file-size exclusions,50 retained parse qualifications; all hits inspected as discovery/priorfamily/fixture copies.",
+    "Independent completed eligibility before same three-head API capture.",
+    "Three exact API/TXT pairs,three exact immediate Dhaga labels,one separate Malika passage.",
+    "Two bilingual proposals,one precise deferral,164/145 conservative words.",
+    "Exact52 priorproposal objects and canonical/localbook baselines; clean inputhead preserved."
+  ],
+  "limits": [
+    "Single digital dictionary lineage; no independent print collation or human specialist review.",
+    "No nutritional/developmental rule or fixed relationship/ritual inferred.",
+    "Earlier708/719 and prior-family730 lead remain pending; next735 is sequential cursor, not proof every earlier head exhausted.",
+    "Public299/local301/52proposals preserved; no acceptance,canonical/Git/art/build/public/credit changes.",
+    "B55B54 prior-context correction carried forward; fixture copies not independent witnesses."
+  ],
+  "bindings": {
+    "10131.txt": "87882f73968e1aa5182fe38a6e2a730402880309ca95ef43810e2e710aee787f",
+    "110630.txt": "9f29f3cb5b78d02df407de15b51fddc3e58fcd5780bdcc72cf9d332a209652a3",
+    "37990.txt": "164f10600d432a7d3f6f35a52f5fe8eb4c53883128baf4ca0f8e15e4679b4e6d",
+    "book-baseline.json": "e46d412e71bb007c172c3736b31bdcf3fc67de3cbdb96131a64115ba0d037e9b",
+    "candidates.json": "64bc9c39d3ed20609b357a96cdb45c6d0b6fa9db472172162b98d61560d7355d",
+    "checks.json": "f506fcb904f88656b96ce0329ee3e38da2b873fdd8784e101decc79954840ea1",
+    "dispositions.json": "37c19b49bd8c9b297687bcc3fd24bf418ad3494f807ac9b784b40f61d73c997d",
+    "draft.py": "0c4a71304bba812ff77ca1504620f9b3edc6abd55c17a3fa816a6768006e1419",
+    "finalize.py": "da7e1b4fd44f82d844a63b48faa6fd83b9dd7c85f03fcd4d7e788513d72fb42e",
+    "genre-assessment.json": "85dfce2640b66adff715eff148bdd1aa86c4b5276d4a2e3718809fe448f2d247",
+    "governance-bindings.json": "6b053af40fce5a2ac9284a039f52c5e12de9179cfb1832ad2d160eb19e0e118a",
+    "originals.json": "2f736e682a6e7486414fc46d467459d102b2368127408e7b5d59ff64987e6378",
+    "prior-page-screen.json": "2cb42cda26212240e7d328ef58ccd4568f6f9ca8502828980e1bbb31a4cc6de2",
+    "prior-phrase-screen.json": "a6c7542910ceae68b8ca91886f6604f32384f80e1ed1ce5106bd0f1db2fb1636",
+    "prior-proposals-baseline.json": "b5e6c7821bdcd05ee622534507bdb466480af5d18dc0b705fe2797af9c98dbfd",
+    "request-url.txt": "ceacc08c6a858a36dad6889de63eb2c1205b5f7fe97933bfdc47785877b36eee",
+    "research-map-query.json": "198a6dfd858962a4a4e4c188b1e2727b02dbfefe4440ac2bcd7186daf73d588d",
+    "retrieval-history.json": "daacf298d13b273f200c2eedef9c7cac86ad6b75234d891c6deaf73470ceb338",
+    "screen.py": "2e176a072aa68cead74fd3f7056f10fec910461b38f4a385082d29613b3ea3f4",
+    "selection.json": "347511dcaea6650517a7b41512305ea0aed0df5df1b33d6dffa635931fd8f306",
+    "semantic-comparisons.json": "10119a9aa4998d016d95ff46d9e346c79bb77905fefff348c20a80a562d58848",
+    "source-coverage.json": "e786e3b89639600c16df930356e0a5cf0a0cf638d4ab033d4b7b7606050cae65",
+    "source-registry.json": "005513996532c4811eac655cc4d159927c045545d5be322f88c15efd91b1de78",
+    "source-word-budgets.json": "433ccacda13aa9440ebba016bdbf9edcdf8bf29281cc1c6d24beb5ece8b2fd97"
+  },
+  "independent_eligibility": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-06/batch61/samanta/eligibility.json",
+    "sha256": "7ba15bb13169137c019b1b81ac1dad50a409ff82888d9e70b9700ec287cb84ff"
+  }
+}

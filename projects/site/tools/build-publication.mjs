@@ -6,6 +6,12 @@ import {eligiblePNG,optimizePublicationPNGs} from './optimize-publication-png.mj
 import {fileURLToPath} from 'node:url';
 import {publicationPlan,publicationPage,publicationCrawlerFiles} from '../src/lib/search-publication.mjs';
 export const eligiblePublicationOptimization=path=>eligiblePNG(path)||deliveryJPEGs.includes(path);
+export function projectedNonOptimizableBytes(sizes,replacements){
+ let total=0;
+ for(const [path,size] of sizes)if(!replacements.has(path)&&!eligiblePublicationOptimization(path))total+=size;
+ for(const size of replacements.values())total+=size;
+ return total;
+}
 export async function buildPublication(site){
  const read=async path=>JSON.parse(await readFile(new URL(path,site),'utf8'));
  const scope=await read('editions/coast.json'),selection=await read('editions/search-candidate.json'),policy=await read('editions/search-publication.json'),records=await read('../../kb/registers/records.json');
@@ -27,19 +33,29 @@ export async function buildPublication(site){
  }
  if((await lstat(input)).isSymbolicLink())throw Error('Publication input must not be a symlink');
  await walk(input);
- const nonOptimizableBytes=(await Promise.all(files.filter(path=>!eligiblePublicationOptimization(path)).map(async path=>(await lstat(new URL(path,input))).size))).reduce((sum,size)=>sum+size,0);
- // Reject impossible oversized inputs before copying (also protects sparse-file fixtures).
- if(nonOptimizableBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${nonOptimizableBytes} non-optimizable bytes`);
  const paths=scope.routes.map(route=>route==='/'?'index.html':route.slice(1)+(route.endsWith('/')?'index.html':''));
  if(JSON.stringify(files.filter(f=>f.endsWith('.html')&&!(scope.downloads||[]).includes('/'+f)).sort())!==JSON.stringify([...paths].sort()))throw Error('Unexpected HTML outside the public edition');
+ const sizes=new Map(await Promise.all(files.map(async path=>[path,(await lstat(new URL(path,input))).size])));
+ const routePaths=new Set(paths);
+ // Only validated route HTML is replaceable. Refuse huge inputs before reading or copying.
+ const floor=[...sizes].filter(([path])=>!routePaths.has(path)&&!eligiblePublicationOptimization(path)).reduce((sum,[,size])=>sum+size,0);
+ if(floor>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${floor} fixed non-optimizable bytes`);
+ for(const path of paths)if(sizes.get(path)>=1_000_000_000)throw Error(`Publication HTML exceeds the 1 GB budget: ${path}`);
  const inlinePages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
  const {pages,assets:journeyAssets}=shareJourneyData(inlinePages);
+ const controls=publicationCrawlerFiles(plan);
+ const replacements=new Map(pages.map(page=>[page.path,Buffer.byteLength(page.html)]));
+ for(const [path,body] of journeyAssets)replacements.set(path,Buffer.byteLength(body));
+ replacements.set('robots.txt',Buffer.byteLength(controls.robots));
+ replacements.set('sitemap.xml',controls.sitemap?Buffer.byteLength(controls.sitemap):0);
+ replacements.set(verificationName,verification.length);
+ const projectedBytes=projectedNonOptimizableBytes(sizes,replacements);
+ if(projectedBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${projectedBytes} projected non-optimizable bytes`);
  try{if((await lstat(output)).isSymbolicLink())throw Error('Publication output must not be a symlink');}catch(e){if(e.code!=='ENOENT')throw e;}
  await rm(output,{recursive:true,force:true});await cp(input,output,{recursive:true});
  for(const page of pages)await writeFile(new URL(page.path,output),page.html);
  await mkdir(new URL('assets/',output),{recursive:true});
  for(const [path,body] of journeyAssets)await writeFile(new URL(path,output),body);
- const controls=publicationCrawlerFiles(plan);
  await writeFile(new URL('robots.txt',output),controls.robots);
  await rm(new URL('sitemap.xml',output),{force:true});
  if(controls.sitemap)await writeFile(new URL('sitemap.xml',output),controls.sitemap);

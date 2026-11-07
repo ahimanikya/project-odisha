@@ -1,0 +1,63 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti — separate independent AI assembly review",
+  "input_head": "177cf4ca65e9ca2216996a745687b3c702b81cbd",
+  "bundle_sha256": "b6201c2a7be8a95f6d15a53916335b2fb47bedffc8374609413e29fe0ded3762",
+  "bindings": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-05/batch53/candidate-bundle.json": "b6201c2a7be8a95f6d15a53916335b2fb47bedffc8374609413e29fe0ded3762",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-05/batch53/drishti/integrated-review.json": "7d5435577e5473014506576d60a1454b4f5a7dbcd028305053b39699ad74ddcd",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-05/batch53/HANDOFF.json": "5f4308d034fcb6e58f28e36f3e74a2244de2433a5b16cf7dfb75dfea34a4ffd2"
+  },
+  "checks": {
+    "all_bundle_bindings_rehashed": 41,
+    "four_embedded_documents_exact": {
+      "candidate_data": "candidates.json",
+      "dispositions": "dispositions.json",
+      "coverage": "source-coverage.json",
+      "source_word_budgets": "source-word-budgets.json"
+    },
+    "complete_two_source_objects_including_rights_exact": true,
+    "counts_exact": {
+      "newly_retrieved_heads": 5,
+      "investigated_saying_units": 6,
+      "fresh_positions": 6,
+      "proposals": 2,
+      "fresh_deferrals": 4,
+      "screened_prior_result_positions": 5,
+      "unprocessed_result_leads": 1,
+      "used_sources": 2,
+      "research_sources": 5,
+      "accepted_increment": 0,
+      "segmentation": "78603two separatelylabelledDhaga;67607childsong andothernamedliteraryexamples notincluded."
+    },
+    "budgets": [
+      176,
+      178
+    ],
+    "next_research": {
+      "query_offset": 650,
+      "next_result_offset": 675,
+      "pageid": 66117,
+      "title": "ବରଖାସ୍",
+      "instruction": "Continue saved650 at675/66117 afterpriorcheck; earlier670/66118 is relatedunprocessedlead, notprior-certified/exhausted. Assessonefullhead wheneligible, notbothaliases;finish650beforeNEW700."
+    }
+  },
+  "findings": [
+    "Five full heads yield six labelled Dhaga positions: two proposals and four deferrals.78603 has two positions;67607 child-amusement song and named literary examples are separate and not additional sayings.",
+    "Sequential675/66117 remains next; earlier670/66118 explicitly unprocessed, familiarity not prior-identity proof.",
+    "Coarse exact wording/provisional translation and non-genetic father-son reading preserved in both languages.",
+    "Frozen pending-review statements remain historical; this separate report supplies actual assembly verdict."
+  ],
+  "handoff_archive_plan": {
+    "status": "PLANNED_ROOT_ACTION_NOT_CERTIFIED_COMPLETE",
+    "current_handoff_sha256": "5f4308d034fcb6e58f28e36f3e74a2244de2433a5b16cf7dfb75dfea34a4ffd2",
+    "requirement": "Before lifecycle mutation root must archive exact current HANDOFF bytes to reviewed-handoff.json and verify hash. Historical HANDOFF bindings then resolve to that archive, without changing frozen bundle/author files."
+  },
+  "limits": [
+    "No repeated retrieval, corpus research, art/build or canonical/Git changes.",
+    "Public299/local301 preserved;38 prior plus2 current =40 reviewed proposals beyond301, no341 edition or accepted/public increment.",
+    "Source uncertainty, structured-rights mapping, preservation qualifications and independent AI-only limits from integrated review retained.",
+    "112 finite receipt claim and unrelated680 separate; no programme credit."
+  ],
+  "scope_released": "Separate local B53 research and assembly review complete; root archive/delivery/lifecycle actions remain."
+}
