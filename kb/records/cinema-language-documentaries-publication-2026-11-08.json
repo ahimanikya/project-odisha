@@ -1,7 +1,7 @@
 {
   "id": "POD-CINEMA-LANGUAGE-DOCUMENTARIES-PUBLICATION-20261108",
   "date": "2026-11-08",
-  "status": "reviewed_ready_for_publication",
+  "status": "published_verified",
   "authorization": {
     "user_request": "Publish this update to the website and update the book downloads too. after the research we just started in another chat",
     "scope": "Publish the language-documentary addition and matching digital/print book downloads after the related deep research is completed and its relevant findings reconciled.",
@@ -11,10 +11,10 @@
   "source_handoff": "records/cinema-language-documentaries-2026-11-08.json",
   "candidate_source": "kb/research/culture/cinema-series/cinema-futures.md",
   "candidate_source_sha256": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd",
-  "active_article": "POD-EDIT-812",
-  "scope_released": false,
-  "publication_performed": false,
-  "book_downloads_changed": false,
+  "active_article": null,
+  "scope_released": true,
+  "publication_performed": true,
+  "book_downloads_changed": true,
   "programme_credit": 0,
   "dependency": {
     "kind": "related_chat_research",
@@ -106,12 +106,12 @@
     "Verify live article and both download hashes; record actual delivery receipt."
   ],
   "boundary": "Research, bounded article integration, both books and publication authorized. Root alone releases. No new standalone biographies or documentary chapter without sufficient evidence; keep residual uncertainties explicit in KB. Preserve unrelated edits and other workers.",
-  "next_action": "Finish direct inspection and credit checks, integrate evidence, build/review website and books, publish and verify actual delivery.",
+  "next_action": "Reader feedback; reopen excluded final-credit questions only with a new inspectable release/source. No automatic research loop or further publication pending in this bounded scope.",
   "last_check": {
     "date": "2026-11-08",
-    "outcome": "research_reconciled_content_review_passed_books_building",
+    "outcome": "article_and_both_downloads_live_verified",
     "publication_condition_met": true,
-    "site_and_downloads_changed": false
+    "site_and_downloads_changed": true
   },
   "content_review": "outputs/cinema-language-publication-20261108/review/research-review.json",
   "book_manifest": "outputs/cinema-language-publication-20261108/book-release-manifest.json",
@@ -124,5 +124,40 @@
     "scope": "Odia title, new passage, numbering and text margins visually inspected; no clipping observed."
   },
   "final_review": "outputs/cinema-language-publication-20261108/review/final-review.json",
-  "final_review_sha256": "b98feb6541f29a96af06fe592edc32937d20a16a91b2cf9fc4bd9ef64d623e2c"
+  "final_review_sha256": "b98feb6541f29a96af06fe592edc32937d20a16a91b2cf9fc4bd9ef64d623e2c",
+  "release": {
+    "pr": 708,
+    "pr_url": "https://github.com/ahimanikya/project-odisha/pull/708",
+    "reviewed_head": "8b5bd4304daf584ae7e85892a3c3fd7c7b21aa40",
+    "merge_commit": "4363d2c5e3001364d84ae3faab213bb7074e0776",
+    "validation_run": 42422170484,
+    "validation_result": "success",
+    "deployment_run": 42423135690,
+    "deployment_result": "success",
+    "release_tag": "odia-cinema-book-2026-11-08-language-memory",
+    "release_url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-11-08-language-memory",
+    "downloads_verification": "outputs/cinema-language-publication-20261108/release/public-download-verification.json",
+    "live_verification": "outputs/cinema-language-publication-20261108/release/live-verification.json",
+    "verified_at_utc": "2026-11-07T23:11:24.934830+00:00"
+  },
+  "additional_credit_check": {
+    "record": "outputs/cinema-language-publication-20261108/research/remosam-final-credit-followup.json",
+    "result": "Exact final credits remain unavailable; clips and B-roll are not the final film. No public claim added."
+  },
+  "remaining_gaps": [
+    "Remosam exact final credit wording",
+    "Ramaleelas primary writing credit",
+    "Broader writer-payment and school-film identity questions remain in their earlier separate handoffs."
+  ],
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/708",
+  "deployment": {
+    "conclusion": "success",
+    "run_id": 42423135690,
+    "head_sha": "4363d2c5e3001364d84ae3faab213bb7074e0776",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42423135690"
+  },
+  "verified_routes": [
+    "/cinema/cinema-futures/",
+    "/cinema/book/"
+  ]
 }
