@@ -49,7 +49,8 @@ test('source consolidation does not run on non-Dongria articles',async()=>{
  const {default:plugin}=await import('../tools/nimuhi-footnote-heading.mjs');
  for(const pathname of ['/src/content/cinema/example.md','/src/content/culture/essential-odia-dhaga.md']){
   const p=plugin({fileURL:new URL('file://'+pathname)});
-  let changed=false;p?.after?.({children:[]},{replaceNode(){changed=true;}});
+  const root={children:[{tagName:'h2',properties:{id:'footnotes-and-sources'},children:[]},{tagName:'p',children:[{type:'text',value:'Credit'}]},{tagName:'section',children:[{tagName:'h2',properties:{id:'footnote-label'}},{tagName:'ol',children:[]}]}]};
+  let changed=false;p?.after?.(root,{replaceNode(){changed=true;}});
   assert.equal(changed,false);
  }
 });
