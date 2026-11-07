@@ -1415,3 +1415,28 @@ Founder requested publication of both reviewed articles and matching book downlo
 ### 2026-11-08 · Bapa television history and book editions published
 
 Two attributed additions and both current books published; live text, links and downloaded bytes verified. Payment remains unresolved. [Receipt](../records/cinema-bapa-publication-2026-11-07.json).
+
+
+### 8 November 2026 · The Waterfall school-screening evidence
+
+Located Abhyasa’s indexed original-school festival account, a stronger named-school lead than the previous title-only record. Explicit pairing of the film with Darai remains unresolved; festival activities do not establish film-specific outcomes. Separate review passed. Saved the evidence and access limitations; public articles, books and other work remain unchanged. [Handoff](../records/cinema-waterfall-school-2026-11-08.json).
+
+
+### 8 November 2026 · Language and memory through documentary
+
+Verified the named-pair intake against filmmaker and project sources. Added Subhashish Panigrahi’s Nani Ma and The Volunteer Archivists to the Futures chapter, with a clearly attributed account of camera and production support for Prateek Pattanaik’s2018Prahallada Nataka documentation.188new narrative words and two compact notes; existing prose/image preserved. Separate review,51cinema tests, build and disclosure checks passed. Broader film evidence saved in the KB; no film playback or audience outcome claimed. Local draft only; no publication, PDF replacement or programme credit. [Record](../records/cinema-language-documentaries-2026-11-08.json).
+
+
+### 8 November 2026 · Documentary release authorized after related research
+
+Founder requested website publication and matching book downloads after the deep research begun in the other chat. The inspected chat is idle and its latest completed turn only acknowledges the research request; the named-pair intake is not a completed dossier. Recorded conditional release authorization and concrete release steps. No publication, PDF replacement, cross-chat message, automation or programme credit. [Record](../records/cinema-language-documentaries-publication-2026-11-08.json).
+
+
+### 8 November 2026 · Related documentary research progress checked
+
+The related chat produced a substantive dossier with production records, independent reception and a provisional documentary-and-memory feature recommendation. Its explicit research_complete=false and four pending tasks retain film viewing, final-credit verification and placement review. Updated the conditional publication handoff with exact dossier hash and remaining tasks; existing website, article candidate and book downloads unchanged. [Record](../records/cinema-language-documentaries-publication-2026-11-08.json).
+
+
+### 8 November 2026 · Documentary evidence reconciled for publication
+
+Completed bounded direct-frame, subtitle and credit checks with separate reception/content review. Added Padmaja Sahoo’s documented archival labour; kept two unresolved final-credit questions out of public claims. No full-film viewing claimed. Website and matching digital/print editions proceed under the Founder’s explicit instruction. [Record](../records/cinema-language-documentaries-publication-2026-11-08.json).
