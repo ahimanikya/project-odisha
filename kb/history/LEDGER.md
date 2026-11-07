@@ -1410,3 +1410,8 @@ Integrated Gourahari Das’s attributed public recollections and story-writer re
 ### 7 November 2026 · Bapa publication authorized and fact-checked
 
 Founder requested publication of both reviewed articles and matching book downloads. Original public posts reread and a separate source-to-claim check passed for attributed wording. Current proofs remain271/276pages with538notes; recognition is not treated as payment evidence. Release preparation begun; actual publication will have its own receipt. [Record](../records/cinema-bapa-publication-2026-11-07.json).
+
+
+### 2026-11-08 · Bapa television history and book editions published
+
+Two attributed additions and both current books published; live text, links and downloaded bytes verified. Payment remains unresolved. [Receipt](../records/cinema-bapa-publication-2026-11-07.json).

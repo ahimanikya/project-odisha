@@ -1,5 +1,5 @@
 {
-  "status": "metadata_prepared_and_locally_verified",
+  "status": "metadata_and_merged_publication_preparation_verified",
   "before_sha256": "483c3e904a072f91bda1a6cc684ec335a68c661fc7a490c27100a1fedee4442b",
   "after_sha256": "37a486cce59a060f6c8d79dd81f5a5f12f4183d73c44660fe054b660c99ab455",
   "changed_fields": [
@@ -371,5 +371,197 @@
     "release_asset_local_hashes_verified": true,
     "built_book_page_current_and_archived_links_verified": true
   },
-  "initial_command_error": "First test invocation used an incorrect relative log directory; shell exited1 before executing tests. Corrected output path and reran23tests successfully."
+  "initial_command_error": "First test invocation used an incorrect relative log directory; shell exited1 before executing tests. Corrected output path and reran23tests successfully.",
+  "merged_validation": {
+    "status": "PASS",
+    "initial_head": "1ab544532d81795b14db7b0d41efbbf4786cd80d",
+    "current_head": "aabf00c312ddc2d9fb0f23ed35a9ad40d5eae49b",
+    "dependency_equivalence": {
+      "eb853eb12dac035cbb427038bac7b897858f83b0": "Only publication handoff and review evidence changed.",
+      "aabf00c312ddc2d9fb0f23ed35a9ad40d5eae49b": "Only generated editorial-workbench search-index fingerprint changed; coordinator validated separately. No publication build inputs changed."
+    },
+    "site_build": {
+      "exit_code": 0,
+      "log": "outputs/cinema-bapa-publication-20261107/logs/merged-site-build.log"
+    },
+    "checks": [
+      {
+        "name": "merged-site-disclosure",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 1.53,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/merged-site-disclosure.log"
+      },
+      {
+        "name": "full-site-tests",
+        "command": [
+          "npm",
+          "test"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 21.33,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/full-site-tests.log"
+      },
+      {
+        "name": "coast-build",
+        "command": [
+          "npm",
+          "run",
+          "build:coast"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 70.54,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/coast-build.log"
+      },
+      {
+        "name": "coast-disclosure",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-coast"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 3.66,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/coast-disclosure.log"
+      },
+      {
+        "name": "coast-tests",
+        "command": [
+          "npm",
+          "run",
+          "test:coast"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 10.23,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/coast-tests.log"
+      },
+      {
+        "name": "publication-build",
+        "command": [
+          "npm",
+          "run",
+          "build:publication"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 301.77,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/publication-build.log"
+      },
+      {
+        "name": "publication-disclosure",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-publish"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 1.0,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/publication-disclosure.log"
+      },
+      {
+        "name": "pages-payload",
+        "command": [
+          "python3",
+          "../../tools/check_pages_payload.py",
+          "dist-publish"
+        ],
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "seconds": 0.14,
+        "log": "outputs/cinema-bapa-publication-20261107/logs/pages-payload.log"
+      }
+    ],
+    "counts": {
+      "site_tests": 722,
+      "site_failures": 0,
+      "coast_tests": 566,
+      "coast_failures": 0,
+      "dhaga_delivery_guard_tests": 13,
+      "payload_guard_tests": 14
+    },
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 736937605,
+      "regular_files": 2879,
+      "directories": 717,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 86564,
+      "largest_files": [
+        {
+          "path": "characters/films/nilu-hold-this-end/first-cut-v1/hold-this-end-first-cut-v1.mp4",
+          "bytes": 11509012
+        },
+        {
+          "path": "characters/films/nilu-hold-this-end/revised-cut-v2/hold-this-end-revised-cut-v2.mp4",
+          "bytes": 11426010
+        },
+        {
+          "path": "characters/films/malati-stay-a-moment/first-cut-v1/sit-a-little-longer-first-cut-v1.mp4",
+          "bytes": 10111493
+        },
+        {
+          "path": "characters/films/dinu-wait-a-moment/first-cut-v1/wait-a-moment-first-cut-v1.mp4",
+          "bytes": 10070589
+        },
+        {
+          "path": "characters/films/chiku-round-the-stone/film-v3/around-the-stone-edition-v3.mp4",
+          "bytes": 9672636
+        },
+        {
+          "path": "characters/films/malati-stay-a-moment/revised-cut-v2/sit-a-little-longer-revised-cut-v2.mp4",
+          "bytes": 9591027
+        },
+        {
+          "path": "characters/films/chiku-round-the-stone/revised-cut-v2/around-the-stone-revised-cut-v2.mp4",
+          "bytes": 8601273
+        },
+        {
+          "path": "characters/films/chiku-round-the-stone/first-cut-v1/around-the-stone-first-cut-v1.mp4",
+          "bytes": 7527110
+        },
+        {
+          "path": "characters/films/boita-small-bundle/animatic/small-bundle-bilingual-sound-study-v1.mp4",
+          "bytes": 7491125
+        },
+        {
+          "path": "characters/films/benu-my-story-first/first-cut-v1/my-story-first-cut-v1.mp4",
+          "bytes": 7219277
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "dhaga_hydration": {
+      "backup": {
+        "old_sha256": "cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a",
+        "backup": "outputs/cinema-bapa-publication-20261107/local-build-backup/odia-dhaga-cb34aaab4a137a68d962e3d5a382490025144a3e66a7186d9123ad00d220c93a.pdf",
+        "bytes": 109520119
+      },
+      "final_sha256": "cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b",
+      "final_bytes": 110419594,
+      "verification": {
+        "status": "PASS_HYDRATED_EXACT",
+        "sha256": "cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b",
+        "mutable_release": true
+      },
+      "initial_attempt": "Restricted DNS failed exit6; approved network retry succeeded through unchanged repository verifier.",
+      "descriptor_and_packing_unchanged": true
+    },
+    "bapa_and_intro_asset_bytes_preserved": true,
+    "no_metadata_or_source_changes_in_validation": true,
+    "no_pdf_rebuild": true,
+    "publication_by_worker": false
+  }
 }

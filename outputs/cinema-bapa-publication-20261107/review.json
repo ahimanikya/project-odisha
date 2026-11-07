@@ -1,6 +1,6 @@
 {
-  "status": "CONTENT_METADATA_AND_COMMITTED_SCOPE_PASS_CHECKS_PENDING",
-  "scope_released": false,
+  "status": "PASS_PUBLISHED_VERIFIED",
+  "scope_released": true,
   "prior_review": {
     "path": "outputs/cinema-bapa-integration-20261107/review.json",
     "sha256": "61818ba2f5f726e117a2f783e8b53d5c586328b34ed17f076b1f1d02119b7767"
@@ -10,10 +10,7 @@
     "Both PDF bytes independently match reviewed final hashes.",
     "New factual claims remain author-attributed; no Father translation identity, fees, royalty receipts or broadcast count inferred."
   ],
-  "pending": [
-    "Completed merged validation",
-    "Remote asset verification and any final head delta"
-  ],
+  "pending": [],
   "publication_performed_by_reviewer": false,
   "metadata_gate": {
     "status": "PASS",
@@ -44,7 +41,18 @@
     "outputs/cinema-bapa-publication-20261107/fact-check.json": "73a35f960ee87416a8945526e97c22bbf60abdda71624ef9cb9df93a9f5e04e7",
     "outputs/cinema-bapa-publication-20261107/source-recheck.json": "aa362e44f02c559a510d7b673ef4a4544f1e102adf3418f7de598a3794722600",
     "outputs/cinema-bapa-publication-20261107/book-release-manifest.json": "606cf88ab9e74ac019eefbedc2c02265403e56a5b8c788f1867607d47a52e2c3",
-    "projects/site/src/data/cinema.json": "37a486cce59a060f6c8d79dd81f5a5f12f4183d73c44660fe054b660c99ab455"
+    "projects/site/src/data/cinema.json": "37a486cce59a060f6c8d79dd81f5a5f12f4183d73c44660fe054b660c99ab455",
+    "outputs/cinema-bapa-publication-20261107/implementation.json": "412768f03f48cb6002587ff708da1ed5ff29fac28a8eab4e603a1c700138fb13",
+    "outputs/cinema-bapa-publication-20261107/logs/merged-check-status.json": "30a66633dc62a877edb38ef88f64d666bd95e7987e7c3b095a74b2d0d1f1f7bf",
+    "outputs/cinema-bapa-publication-20261107/deployment.json": "f85c7d08495c3a23127b8b293492ed26b057d5c1b0314fd05e10f83b09dc6001",
+    "outputs/cinema-bapa-publication-20261107/merged-pr.json": "3f92e331375ae6ad6e73c5e7b9de550187e586c39cf9775c478a59cae3bc4003",
+    "outputs/cinema-bapa-publication-20261107/hosted-result.json": "23445cbc4db14cfd1ae563da9a96cfd37d2c0f273ed1deff3200d530506923ff",
+    "outputs/cinema-bapa-publication-20261107/live-verification.json": "4c3c5a79c0fbc67fa5780094f30c6df80072ca77132f23a1e6aa08e56f7704b1",
+    "outputs/cinema-bapa-publication-20261107/remote-assets.json": "b177783d00c3cbd7320054d1500f1dddcc02e1372208d7b0854fe3e731b460ea",
+    "outputs/cinema-bapa-publication-20261107/record-delivery.py": "99895f81b64f8a359a0aa11196bbfb0d574937adcbb0868fec203af964f49a71",
+    "kb/team/operations.json": "d1702113a753853d18c97c81bac63dcbebde1707383c6d29b8326fa8a465aad2",
+    "kb/records/article-editorial-rollout.json": "2f3ebd2d3d7fc73e6840de7934b68107d5ed6a93face13e806d267e1c4cf3048",
+    "kb/records/cinema-bapa-publication-2026-11-07.json": "fd44bd84893269f3c82bb37eea6728e95c52c6208087a3f63671deac8bc86b0a"
   },
   "candidate_scope": {
     "status": "PASS",
@@ -115,5 +123,95 @@
       "/parallel_programmes/6/note"
     ],
     "assessment": "Only cinema parallel-programme row changes; all other ownership and coordination fields preserved. Both article blobs and bounded builder change match reviewed bytes."
-  }
+  },
+  "historical_final_head_review": {
+    "head": "aabf00c312ddc2d9fb0f23ed35a9ad40d5eae49b",
+    "comparison_base": "1ab544532d81795b14db7b0d41efbbf4786cd80d",
+    "status": "PASS",
+    "changed_files": [
+      "kb/records/cinema-bapa-publication-2026-11-07.json",
+      "kb/records/editorial-workbench.json",
+      "outputs/cinema-bapa-publication-20261107/review.json"
+    ],
+    "site_inputs_unchanged": true,
+    "workbench_delta": "Only search-index input fingerprint changed; no workbench selections or content altered.",
+    "source_claim_limits": "Author testimony remains attributed, not independent production/broadcast/event confirmation; payment and Father translation identity unresolved.",
+    "local_asset_hashes_match": true,
+    "local_test_evidence": {
+      "full_site": {
+        "passed": 722,
+        "failed": 0
+      },
+      "coast": {
+        "passed": 566,
+        "failed": 0
+      },
+      "provenance": "Read actual logs and merged-check-status; did not rerun suites."
+    },
+    "publication_payload": "Still pending; current log does not show completion.",
+    "hosted_and_live": "Pending, not certified by this receipt."
+  },
+  "local_publication_gate": {
+    "status": "PASS",
+    "implementation_sha256": "412768f03f48cb6002587ff708da1ed5ff29fac28a8eab4e603a1c700138fb13",
+    "merged_status_sha256": "30a66633dc62a877edb38ef88f64d666bd95e7987e7c3b095a74b2d0d1f1f7bf",
+    "publication_log_sha256": "3de10756a68c6a8b69ab4c0c0794f60ea743ef51c03f3b2d4606d090bdb3e601",
+    "disclosure_log_sha256": "2205783993901c98414601224e44f0d878a09607a46d53a3b103b972b6977195",
+    "payload_log_sha256": "a4b8ed5e1bb0a1dd3df8a538fa6fe9cbea5818a2acf3dee5a6031e2ba2c8e411",
+    "counts": {
+      "site_tests": 722,
+      "site_failures": 0,
+      "coast_tests": 566,
+      "coast_failures": 0,
+      "dhaga_delivery_guard_tests": 13,
+      "payload_guard_tests": 14
+    },
+    "payload": {
+      "bytes": 736937605,
+      "files": 2879
+    },
+    "review_method": "Read completed status and actual logs; no redundant rerun.",
+    "scope": "Local release readiness only"
+  },
+  "required_corrections": [],
+  "historical_prepublication_final_head_review": {
+    "head": "aabf00c312ddc2d9fb0f23ed35a9ad40d5eae49b",
+    "comparison_base": "1ab544532d81795b14db7b0d41efbbf4786cd80d",
+    "status": "PASS",
+    "changed_files": [
+      "kb/records/cinema-bapa-publication-2026-11-07.json",
+      "kb/records/editorial-workbench.json",
+      "outputs/cinema-bapa-publication-20261107/review.json"
+    ],
+    "site_inputs_unchanged": true,
+    "workbench_delta": "Only search-index input fingerprint changed; no workbench selections or content altered.",
+    "source_claim_limits": "Author testimony remains attributed, not independent production/broadcast/event confirmation; payment and Father translation identity unresolved.",
+    "local_asset_hashes_match": true,
+    "local_test_evidence": {
+      "full_site": {
+        "passed": 722,
+        "failed": 0
+      },
+      "coast": {
+        "passed": 566,
+        "failed": 0
+      },
+      "provenance": "Read actual logs and merged-check-status; did not rerun suites."
+    },
+    "publication_payload": "PASS: publication build and disclosure exit0; payload736937605 bytes/2879files, within exclusive1GB bound.",
+    "hosted_and_live": "Pending hostedrun42399699580 and anonymous/live verification; no deployment completion claimed."
+  },
+  "final_delivery_review": {
+    "status": "PASS",
+    "merge": "09f33db1d60b7815e743796a4367935a8d8c0ad5",
+    "hosted_run": 42399699580,
+    "deployment_run": 42401229542,
+    "live_verified_at": "2026-11-07T18:59:59.085190+00:00",
+    "live_scope": "Coordinator anonymous HTTP checks of3 changed routes, expected claims/footnotes and exact book URLs; prior same-release anonymous3asset byte verification reused. No independent browser operation.",
+    "ownership_check": "Only current Cinema parallel_programmes row differs from HEAD; historical snapshots and other owners match exactly. Only rollout804/810 changed.",
+    "correction_history": "Detected recursive update had overwritten historical Cinema snapshot; coordinator restored it and restricted helper to active list. Independently confirmed restoration.",
+    "claims": "Attributed author testimony and payment nondisclosure retained; no independent event/TV archive, Father translation or fee claim.",
+    "required_corrections": []
+  },
+  "human_review_claimed": false
 }

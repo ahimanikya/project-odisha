@@ -1,0 +1,97 @@
+[
+  {
+    "name": "merged-site-disclosure",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 1.53,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/merged-site-disclosure.log"
+  },
+  {
+    "name": "full-site-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 21.33,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/full-site-tests.log"
+  },
+  {
+    "name": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 70.54,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/coast-build.log"
+  },
+  {
+    "name": "coast-disclosure",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 3.66,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/coast-disclosure.log"
+  },
+  {
+    "name": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 10.23,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/coast-tests.log"
+  },
+  {
+    "name": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 301.77,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/publication-build.log"
+  },
+  {
+    "name": "publication-disclosure",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 1.0,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/publication-disclosure.log"
+  },
+  {
+    "name": "pages-payload",
+    "command": [
+      "python3",
+      "../../tools/check_pages_payload.py",
+      "dist-publish"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "seconds": 0.14,
+    "log": "outputs/cinema-bapa-publication-20261107/logs/pages-payload.log"
+  }
+]
