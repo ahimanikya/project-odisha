@@ -1,31 +1,61 @@
 {
   "id": "POD-DONGRIA-SERIES-AUDIT-20261107",
   "date": "2026-11-07",
-  "status": "audit_and_fixes_in_progress",
+  "status": "published_verified",
   "authorization": "User requested review of whole series story flow,preview images and navigation on mobile and desktop,and fixes for pending issues.",
   "scope": "Fourteen online pages,existing reading sequence and book sections;no PDF rebuild.",
   "findings": [
     {
       "id": "book-flow",
-      "issue": "Repeated opening/closing previews within the book break forward flow; introductory/endmatter sections need clearer continuation links."
+      "issue": "Repeated opening/closing previews within the book break forward flow; introductory/endmatter sections need clearer continuation links.",
+      "status": "resolved"
     },
     {
       "id": "kuvi-companion-link",
-      "issue": "Kuvi introduction mentions companion article without an explicit link."
+      "issue": "Kuvi introduction mentions companion article without an explicit link.",
+      "status": "resolved"
     },
     {
       "id": "mobile-map",
-      "issue": "Locator labels shrink too small at narrow viewport widths despite no page overflow."
+      "issue": "Locator labels shrink too small at narrow viewport widths despite no page overflow.",
+      "status": "resolved"
     },
     {
       "id": "preview-identity",
-      "issue": "Market and public-dance preview photos need a short contextual note to avoid implied identity with named people in the descriptions."
+      "issue": "Market and public-dance preview photos need a short contextual note to avoid implied identity with named people in the descriptions.",
+      "status": "resolved"
     },
     {
       "id": "duplicate-sources",
-      "issue": "Rendered chapters contain separate authored image-credit and generated note headings both called Footnotes and Sources; consolidate into one visible source section while keeping note IDs/backlinks."
+      "issue": "Rendered chapters contain separate authored image-credit and generated note headings both called Footnotes and Sources; consolidate into one visible source section while keeping note IDs/backlinks.",
+      "status": "resolved"
     }
   ],
   "programme_credit": 0,
-  "publication": false
+  "publication": true,
+  "verified_at": "2026-11-07T17:58:28.492692+00:00",
+  "reviewed_head": "a7fa16a5e8751476e6d45c338cbad5ad6da081d9",
+  "merge_commit": "32a4c1b089c824ffd26915969ea4f5f1834869d2",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/701",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42396497996",
+  "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42397705123",
+  "deployment_result": "success",
+  "verification": {
+    "responsive_cases": 56,
+    "viewport_widths": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "journeys": 4,
+    "journey_steps_each": 18,
+    "tests": 20,
+    "live_pages": 14,
+    "source_notes_preserved": 95,
+    "index_previews": 14,
+    "book_chapter_previews": 12,
+    "independent_review": "Drishti passed exact reviewed head; Anvesha reviewed narrative flow.",
+    "limitations": "Chrome emulated viewport and touch checks; no physical-device, screen-reader or new community validation. PDFs unchanged."
+  }
 }
