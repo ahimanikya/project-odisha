@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1081. completed: 184, excluded: 624, queued: 273.
+Route inventory: 1081. completed: 184, excluded: 624, in_progress: 1, queued: 272.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -131,7 +131,7 @@ Route inventory: 1081. completed: 184, excluded: 624, queued: 273.
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | excluded | classification_pending |
 | POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | completed | Substantive attributed preparation comparison; existing authored dish article, not utility classification. |
 | POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | completed | article |
-| POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | queued | classification_pending |
+| POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | in_progress | article |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | queued | classification_pending |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | queued | classification_pending |
 | POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | queued | classification_pending |

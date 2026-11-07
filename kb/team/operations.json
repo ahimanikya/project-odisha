@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/tomato-poda-editorial-2026-11-07.json",
+  "handoff_home": "records/patrapoda-editorial-2026-11-08.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-118",
+    "route": "/food/patrapoda/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/patrapoda-editorial-2026-11-08.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-117",
-    "handoff": "records/tomato-poda-editorial-2026-11-07.json"
+    "status": "implementation",
+    "article_id": "POD-EDIT-118",
+    "handoff": "records/patrapoda-editorial-2026-11-08.json"
   },
   "parallel_programmes": [
     {
@@ -111,7 +117,7 @@
       "scope_released": true
     }
   ],
-  "coordination_note": "116 receipt700 complete and released.117 implementation active through receipt; programme139 completed,140 in progress. B67 disjoint output-only research;358 public Dhagas and threeB65 proposals preserved. Other-owner Dongria records preserved.",
+  "coordination_note": "118 active through actual publication/live/receipt. Programme140 completed;141 in progress. B73 output-only complete/released;358public and7local proposals preserved.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
@@ -193,6 +199,20 @@
         "handoff": "records/baigana-poda-editorial-2026-11-07.json"
       },
       "delivery_sha256": "767f01f15a2307eb91fd0dec5af9c043a5fe76e39d15934a20b6525e6d67680e",
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-117",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 707,
+      "receipt_merge": "ae5d3730caf5f2c580a1c99be24f4855172ab077",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-117",
+        "handoff": "records/tomato-poda-editorial-2026-11-07.json"
+      },
       "credit_added_here": 0
     }
   ],
