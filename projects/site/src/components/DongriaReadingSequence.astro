@@ -3,12 +3,12 @@ import ArticleReadingPath from './ArticleReadingPath.astro';
 import articles from '../data/dongariya.json';
 import reading from '../data/dongria-book-reading.json';
 import guide from '../data/dongria-reading-guide.json';
-interface Props { headingLevel?: 2 | 3; showShortcuts?: boolean }
-const {headingLevel=2,showShortcuts=true}=Astro.props;
+interface Props { headingLevel?: 2 | 3; showShortcuts?: boolean; showBookends?: boolean }
+const {headingLevel=2,showShortcuts=true,showBookends=true}=Astro.props;
 const route=a=>`/stories/dongria/${a.routeSlug||a.slug}/`;
 ---
 {showShortcuts&&<nav class="part-shortcuts" aria-label="Parts of the Dongria collection"><ol>{guide.parts.map(part=><li><a href={'#'+part.id}>{part.title}</a></li>)}</ol></nav>}
-<ArticleReadingPath uniformImages containImages headingLevel={headingLevel} heading="Before the chapters" links={[{href:'/stories/dongria/book/#author-note',title:guide.opening.title,description:guide.opening.summary,image:reading.author_story_photo.variants.at(-1)!.src}]}/>
-{guide.parts.map(part=><section id={part.id}><ArticleReadingPath uniformImages containImages headingLevel={headingLevel} heading={part.title} intro={part.intro} links={part.chapters.map(chapter=>{const a=articles.find(a=>a.slug===chapter.slug)!;return {href:route(a),title:`${String(articles.indexOf(a)+1).padStart(2,'0')}. ${a.title}`,description:chapter.summary,image:a.image,imageNote:a.kind==='interpretive illustration'?'Interpretive illustration':a.kind==='film poster'?'Film poster':undefined};})}/></section>)}
-<ArticleReadingPath uniformImages containImages headingLevel={headingLevel} heading="After the chapters" links={[{href:'/stories/dongria/book/#looking-again',title:guide.closing.title,description:guide.closing.summary,image:reading.cover.at(-1)!.src}]}/>
+{showBookends&&<ArticleReadingPath uniformImages containImages headingLevel={headingLevel} heading="Before the chapters" links={[{href:'/stories/dongria/book/#author-note',title:guide.opening.title,description:guide.opening.summary,image:reading.author_story_photo.variants.at(-1)!.src}]}/>}
+{guide.parts.map(part=><section id={part.id}><ArticleReadingPath uniformImages containImages headingLevel={headingLevel} heading={part.title} intro={part.intro} links={part.chapters.map(chapter=>{const a=articles.find(a=>a.slug===chapter.slug)!;return {href:route(a),title:`${String(articles.indexOf(a)+1).padStart(2,'0')}. ${a.title}`,description:chapter.summary,image:a.image,imageNote:guide.preview_notes[a.slug] || (a.kind==='interpretive illustration'?'Interpretive illustration':a.kind==='film poster'?'Film poster':undefined)};})}/></section>)}
+{showBookends&&<ArticleReadingPath uniformImages containImages headingLevel={headingLevel} heading="After the chapters" links={[{href:'/stories/dongria/book/#looking-again',title:guide.closing.title,description:guide.closing.summary,image:reading.cover.at(-1)!.src}]}/>}
 <style>.part-shortcuts ol{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;list-style:none;padding:0;margin-block:1.5rem}.part-shortcuts li{margin:0;padding:0}.part-shortcuts a{display:inline-block;min-height:44px;padding-block:.5rem;font-size:.95rem}section[id]{scroll-margin-top:2rem}</style>
