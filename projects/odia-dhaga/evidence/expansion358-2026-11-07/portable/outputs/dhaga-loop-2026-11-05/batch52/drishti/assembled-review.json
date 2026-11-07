@@ -1,0 +1,65 @@
+{
+  "decision": "PASS",
+  "reviewer": "Drishti — separate independent AI assembly review",
+  "input_head": "177cf4ca65e9ca2216996a745687b3c702b81cbd",
+  "bundle_sha256": "661cd01acf81f0fc1ae0d1eb2fca7fd1a55375ca7c5dd886e79e5618a2b950c8",
+  "bindings": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-05/batch52/candidate-bundle.json": "661cd01acf81f0fc1ae0d1eb2fca7fd1a55375ca7c5dd886e79e5618a2b950c8",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-05/batch52/drishti/integrated-review.json": "28e518d80369a2c03872c2872193c3f1f8ee62ee4cf4b541deef88b102c8b2b1",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-loop-2026-11-05/batch52/HANDOFF.json": "e1b86b180c4ae14a42ccb7a2bbd0f25133dd5828fced48ca1d3ac4787c3013c4"
+  },
+  "checks": {
+    "all_bundle_bindings_rehashed": 48,
+    "four_embedded_documents_exact": {
+      "candidate_data": "candidates.json",
+      "dispositions": "dispositions.json",
+      "coverage": "source-coverage.json",
+      "source_word_budgets": "source-word-budgets.json"
+    },
+    "three_complete_source_objects_including_rights_exact": true,
+    "counts_exact": {
+      "newly_retrieved_heads": 7,
+      "investigated_saying_units": 11,
+      "fresh_positions": 9,
+      "proposals": 3,
+      "fresh_deferrals": 6,
+      "related_prior_family_zero": 2,
+      "screened_other_result_positions": 7,
+      "used_sources": 3,
+      "research_sources": 7,
+      "accepted_increment": 0,
+      "segmentation": "78437 one parenthetical illustration withone finalDhaga label, analytically separated into two units;100806four distinctlabelledquotations."
+    },
+    "budgets": [
+      170,
+      173,
+      176
+    ],
+    "next_research": {
+      "query_offset": 650,
+      "next_result_offset": 664,
+      "pageid": 78603,
+      "title": "ଭୁଆସୁଣୀ",
+      "instruction": "Continue saved650 actual664 after priorfamily screen, beforeNEW700.54611longerrolelist remains targetedpriorcontextlead, notexhausted."
+    }
+  },
+  "findings": [
+    "Seven retrieved heads yield eleven analytical units: three proposals, six fresh deferrals and two related-prior-family units at zero increment.",
+    "78437 shared final Dhaga label and editorial two-unit segmentation explicit;100806 four separately labelled quotations retained.",
+    "100806 vessel relation was found after retrieval and remains unresolved;028 relation flagged before retrieval; no automatic variant patch.",
+    "54611 longer prior-context role-list remains targeted lead, not fully assessed/exhausted.",
+    "Frozen historical pending statements are not new pending source defects; this separate report supplies actual assembly verdict."
+  ],
+  "handoff_archive_plan": {
+    "status": "PLANNED_ROOT_ACTION_NOT_CERTIFIED_COMPLETE",
+    "current_handoff_sha256": "e1b86b180c4ae14a42ccb7a2bbd0f25133dd5828fced48ca1d3ac4787c3013c4",
+    "requirement": "Before lifecycle mutation root must copy current exact HANDOFF bytes to reviewed-handoff.json and verify SHA. Historical bundle/review HANDOFF bindings then resolve to that archive; frozen bundle and author objects remain unchanged."
+  },
+  "limits": [
+    "No repeated source research, retrieval, corpus scan, art/build or canonical/Git changes.",
+    "Public299/local301 remain unchanged;35 prior plus3 current =38 reviewed proposals beyond301, no339 edition or accepted/public increment.",
+    "Preservation, source uncertainty, structured-rights mapping and AI-only review limits from integrated review retained.",
+    "112 finite receipt claim separate; no programme credit."
+  ],
+  "scope_released": "Separate local B52 research and assembly review complete; root archive/delivery/lifecycle actions remain."
+}

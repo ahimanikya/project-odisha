@@ -9,8 +9,8 @@ const deliveryPath=resolve(book,'pdf-delivery.json');
 export async function validatePdfDelivery(){
  const d=JSON.parse(await readFile(deliveryPath,'utf8'));
  const packing=JSON.parse(await readFile(resolve(book,'packing-report.json'),'utf8')).pdf;
- const name=`odia-dhaga-299-${d.sha256}.pdf`,tag=`dhaga-299-${d.target_commit}`;
- if(d.schema!=='project-odisha-pdf-release-v1'||d.repository!=='ahimanikya/project-odisha'||d.release_immutable!==false||!d.mutability_limit||!Number.isSafeInteger(d.release_id)||d.release_id<1||!Number.isSafeInteger(d.asset_id)||d.asset_id<1||!(/^[a-f0-9]{40}$/).test(d.target_commit)||!(/^[a-f0-9]{64}$/).test(d.sha256)||d.entries!==299||d.pages!==193||d.tag!==tag||d.asset_name!==name||d.browser_download_url!==`https://github.com/${d.repository}/releases/download/${tag}/${name}`)throw Error('Invalid or pending Dhaga release descriptor');
+ const name=`odia-dhaga-358-${d.sha256}.pdf`,tag=`dhaga-358-${d.target_commit}`;
+ if(d.schema!=='project-odisha-pdf-release-v1'||d.repository!=='ahimanikya/project-odisha'||d.release_immutable!==false||!d.mutability_limit||!Number.isSafeInteger(d.release_id)||d.release_id<1||!Number.isSafeInteger(d.asset_id)||d.asset_id<1||!(/^[a-f0-9]{40}$/).test(d.target_commit)||!(/^[a-f0-9]{64}$/).test(d.sha256)||d.entries!==358||d.pages!==226||d.tag!==tag||d.asset_name!==name||d.browser_download_url!==`https://github.com/${d.repository}/releases/download/${tag}/${name}`)throw Error('Invalid or pending Dhaga release descriptor');
  if(['pages','bytes','sha256'].some(k=>d[k]!==packing[k]))throw Error('Dhaga release descriptor does not match packing metadata');
  const bytes=await readFile(resolve(book,'odia-dhaga-book.pdf'));
  if(bytes.length!==d.bytes||createHash('sha256').update(bytes).digest('hex')!==d.sha256)throw Error('Dhaga local PDF differs from verified release descriptor');
@@ -28,6 +28,11 @@ export function publicSourceCredit(source){
  if(source.id.includes('scert'))return title+'<p>SCERT Odisha, 2024, p.139. Three brief quotations retain separate source rights; this source is not openly licensed. Dhaga pages identify each quotation and its locator.</p>';
  if(source.id.includes('1893'))return title+'<p>'+esc(source.citation||'Gobinda Rath, publisher; Victoria Press, Cuttack, 1893.')+'</p><p>Historical witness, not a certified first origin. Transcription and reuse remain qualified; individual Dhaga give the passage locators.</p>';
  return title+(source.citation?'<p>'+esc(source.citation)+'</p>':'')+'<p>'+esc(source.rights)+'</p>';
+}
+export function graphicPath(entry){
+ if(entry.graphic==null)return null;
+ if(typeof entry.graphic!=='object'||!/^assets\/[a-zA-Z0-9_-]+\.(png|webp|svg)$/.test(entry.graphic.src))throw Error('Unsafe Dhaga art path');
+ return entry.graphic.src;
 }
 export async function exportDhaga(destination){
  const {delivery,pdf,pdfURL}=await validatePdfDelivery();
@@ -47,7 +52,7 @@ export async function exportDhaga(destination){
  if(!coverSrc)throw Error('Dhaga cover metadata is required');
  const assets=new Map(),dimensions=new Map();
  for(const e of [...data.entries,{graphic:{src:coverSrc}}]){
-  if(!/^assets\/[a-zA-Z0-9_-]+\.(png|webp|svg)$/.test(e.graphic.src))throw Error('Unsafe Dhaga art path');
+  if(graphicPath(e)===null)continue;
   const src=resolve(book,e.graphic.src),name=basename(e.graphic.src).replace(/\.[^.]+$/,'.webp');
   // New densely hatched illustrations use compact web copies; print originals stay intact.
   const compact=/^POD-DHAGA-17[4-9]$/.test(e.id||'');
@@ -60,11 +65,11 @@ export async function exportDhaga(destination){
   html=html.replace(/<meta name="robots"[^>]*>/g,'');
   html=html.replace(/<meta (?:name|property)="(?:description|og:[^"]+|twitter:[^"]+|referrer)"[^>]*>/g,'');
   const title=html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||'Odia Dhaga';
-  const description='Read illustrated Odia Dhaga with English and Odia meanings, usage, source witnesses and rights, and download the complete book.';
+  const description='Read Odia Dhaga with English and Odia meanings, usage, source witnesses and rights, and download the complete book.';
   const social='<meta name="description" content="'+description+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+description+'"><meta property="og:url" content="https://projectodisha.org'+route+'"><meta property="og:image" content="https://projectodisha.org/dhaga/assets/'+basename(assets.get(coverSrc))+'"><meta property="og:image:alt" content="'+esc(data.cover.alt)+'"><meta property="og:image:width" content="'+dimensions.get(assets.get(coverSrc)).width+'"><meta property="og:image:height" content="'+dimensions.get(assets.get(coverSrc)).height+'"><meta name="twitter:card" content="summary_large_image"><meta name="referrer" content="strict-origin-when-cross-origin">';
   const meta=social+'<meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://projectodisha.org'+route+'">'+fonts.map(f=>'<link rel="preload" href="/dhaga/assets/'+f+'" as="font" type="font/woff2" crossorigin>').join('');
   if(!html.includes('<head>'))html=html.replace('<html lang="en">','<html lang="en"><head>').replace('<body>','</head><body>');
-  html=html.replace(/<main(?: id="sources" tabindex="-1")?>/,'<main id="main" tabindex="-1">').replace('href="#sources"','href="#main"');
+  html=html.replace(/<main\b([^>]*)>/,(_,attrs)=>'<main'+attrs.replace(/\s(?:id|tabindex)="[^"]*"/g,'')+' id="main" tabindex="-1">').replace('href="#sources"','href="#main"');
   if(!html.includes('href="#main"'))html=html.replace(/<body>/,'<body><a class="skip" href="#main">Skip to main content</a>');
   html=html.replace(/(?:\.\.\/)?index\.html/g,'/dhaga/').replace(/(?:\.\.\/)?reader\.html/g,'/dhaga/reader.html');
   html=html.replace(/(?:sayings\/)?POD-DHAGA-(\d+)\.html/g,(_,n)=>'/dhaga/sayings/pod-dhaga-'+n+'.html');
@@ -78,8 +83,9 @@ export async function exportDhaga(destination){
   html=html.replace(/<img ([^>]*?)src="((?:\.\.\/)?assets\/[^"]+)"([^>]*)>/g,(match,before,path,after)=>{const info=dimensions.get(path.replace(/^\.\.\//,''));return info?'<img '+before.replace(/\s*(?:width|height)="[^"]*"/g,'')+'src="'+path+'" width="'+info.width+'" height="'+info.height+'"'+after.replace(/\s*(?:width|height)="[^"]*"/g,'')+'>':match;});
   html=html.replace('Read locally, share carefully.','Read and share with care.');
   if(route==='/dhaga/'){
-   if(!html.includes('<img class="book-cover"'))throw Error('Dhaga collection cover anchor missing');
-   html=html.replace('<img class="book-cover"','<p><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a></p><p><a href="/stories/essential-odia-dhaga/">Essential Odia Dhaga: 25 Sayings to Carry With You →</a></p><img class="book-cover"');
+   const readingLinksMarker='<!-- dhaga-reading-links -->';
+   if(html.split(readingLinksMarker).length!==2)throw Error('Dhaga reading-links slot missing or duplicated');
+   html=html.replace(readingLinksMarker,'<nav class="web-reading-links" aria-label="More about Odia Dhaga"><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a><a href="/stories/essential-odia-dhaga/">Essential Odia Dhaga: 25 Sayings to Carry With You →</a></nav>');
   }
   const links='<nav aria-label="Project Odisha and book sources"><a href="/explore/">Explore Project Odisha</a> · <a href="/dhaga/sources.html">Sources &amp; rights</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
   html=html.replace(/<footer>/,'<footer>'+links);
@@ -100,7 +106,7 @@ export async function exportDhaga(destination){
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- //299 readings retain prior web derivatives and new640px/q60 art; measure before any budget change.
+ //358 readings retain prior web derivatives and new640px/q60 art; measure before any budget change.
  //Measured37.524MB full /37.512MB coast export; bounded38MB preserves prior assets and new640px/q60 art.
  if(bytes>38_000_000)throw Error('Dhaga web export exceeds38MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};

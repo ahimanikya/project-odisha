@@ -5,8 +5,8 @@ P=Path(__file__).resolve().parent
 spec=importlib.util.spec_from_file_location('guard',P.parent/'tools/verify-dhaga-pdf.py');g=importlib.util.module_from_spec(spec);spec.loader.exec_module(g)
 class Tests(unittest.TestCase):
  def setUp(self):
-  self.t=tempfile.TemporaryDirectory();self.root=Path(self.t.name).resolve();self.body=b'%PDF-SYNTHETIC-OFFLINE-FIXTURE';sha=hashlib.sha256(self.body).hexdigest();commit='a'*40;tag='dhaga-299-'+commit;name='odia-dhaga-299-'+sha+'.pdf';url=f'https://github.com/ahimanikya/project-odisha/releases/download/{tag}/{name}'
-  self.d={'schema':'project-odisha-pdf-release-v1','repository':'ahimanikya/project-odisha','release_immutable':False,'mutability_limit':'Release assets and tags can change; every retrieval must verify identity and bytes.','release_id':123,'asset_id':456,'target_commit':commit,'sha256':sha,'tag':tag,'asset_name':name,'browser_download_url':url,'bytes':len(self.body),'pages':193,'entries':299}
+  self.t=tempfile.TemporaryDirectory();self.root=Path(self.t.name).resolve();self.body=b'%PDF-SYNTHETIC-OFFLINE-FIXTURE';sha=hashlib.sha256(self.body).hexdigest();commit='a'*40;tag='dhaga-358-'+commit;name='odia-dhaga-358-'+sha+'.pdf';url=f'https://github.com/ahimanikya/project-odisha/releases/download/{tag}/{name}'
+  self.d={'schema':'project-odisha-pdf-release-v1','repository':'ahimanikya/project-odisha','release_immutable':False,'mutability_limit':'Release assets and tags can change; every retrieval must verify identity and bytes.','release_id':123,'asset_id':456,'target_commit':commit,'sha256':sha,'tag':tag,'asset_name':name,'browser_download_url':url,'bytes':len(self.body),'pages':226,'entries':358}
   self.pack={'pdf':{k:self.d[k] for k in ['pages','bytes','sha256']}}
   self.asset={'id':456,'name':name,'state':'uploaded','size':len(self.body),'digest':'sha256:'+sha,'browser_download_url':url}
   self.release={'id':123,'tag_name':tag,'target_commitish':commit,'draft':False,'prerelease':False,'immutable':False,'assets':[self.asset]};self.calls=[]
@@ -22,6 +22,10 @@ class Tests(unittest.TestCase):
   t=self.root/'book.pdf';t.write_bytes(b'OLD251')
   with self.assertRaises(ValueError):g.hydrate(self.d,self.pack,t,self.fetch)
   self.assertEqual(t.read_bytes(),b'OLD251')
+ def test_old_edition_refused_before_fetch(self):
+  d=copy.deepcopy(self.d);d.update(entries=299,pages=193)
+  with self.assertRaises(ValueError):g.hydrate(d,self.pack,self.root/'old.pdf',self.fetch)
+  self.assertEqual(self.calls,[])
  def test_identity_refusals(self):
   for key,value in [('release_id',None),('asset_id',0),('tag','latest'),('target_commit','main'),('asset_name','old.pdf'),('sha256','bad'),('bytes',1),('release_immutable',True),('browser_download_url','https://evil.invalid/a')]:
    with self.subTest(key=key):
