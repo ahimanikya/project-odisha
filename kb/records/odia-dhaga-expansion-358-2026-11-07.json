@@ -1,5 +1,5 @@
 {
-  "status": "integration_in_progress",
+  "status": "published_and_live_verified_receipt_integration",
   "owner": "Disha",
   "scope": "Single358-reading book/reader release with readability improvements,301 preserved illustrations and57 graphic:null additions.",
   "authorization": "Founder: “Publish all pending Dhagas and any other articles”. Readability request: “This page needs to be organized; we need to improve readability there.”",
@@ -7,7 +7,7 @@
   "scope_released": false,
   "input_head": "f3e743a89ab0e39daffc07fad2f2bf25e81726c6",
   "started_at": "2026-11-07T00:37:15.314272+00:00",
-  "public_delivered_entries": 299,
+  "public_delivered_entries": 358,
   "local_base_entries": 301,
   "proposed_entries": 358,
   "pending_reviewed_additions": 57,
@@ -25,9 +25,59 @@
     "Samanta": "Only explicit isolated implementation or root-reserved installation scope",
     "Drishti": "Separate review; no self-approval"
   },
-  "publication": null,
-  "live_verification": null,
-  "receipt": null,
+  "publication": {
+    "pr": 695,
+    "reviewed_head": "541c5043107301bbb100d90de668d1eb1346d97e",
+    "merge": "2007b056db4b705b8687bb56be50b7655409e0ce",
+    "required_ci_run": 42323342779,
+    "deployment_run": 42326784126,
+    "deployment_conclusion": "success",
+    "failed_prior_run": 42324487221,
+    "recovery_history": "Original buildPASS/deploy10minute sync timeout; same-artifact failed-job retry cancelled immediately; one fresh-artifact recovery succeeded at the same reviewed merge."
+  },
+  "live_verification": {
+    "checked_at": "2026-11-07T02:13:21.165Z",
+    "status": "separate_AI_review_PASS",
+    "producer_sha256": "f05119ac21b6b83937e481563f61db7e2568db7387cffd3255d02fe884efe182",
+    "review_sha256": "7b9fa0f97cbdf02e8d8e149e8438a1dd61866fb4808ba841c3fa2f621988108d",
+    "verified_routes": [
+      "/dhaga/",
+      "/dhaga/sayings/pod-dhaga-357.html",
+      "/dhaga/sayings/pod-dhaga-358.html",
+      "/dhaga/sources.html"
+    ],
+    "checks": {
+      "images": true,
+      "html": true,
+      "browser": true
+    },
+    "limits": [
+      "No fresh110MBPDF download; current metadata does not prevent mutable-host changes or independently rehash remote bytes",
+      "Four HTML routes requested, not358 individual requests; index supplies358identity coverage",
+      "No JavaScript-disabled runtime repetition; staticfullcontent preservation established in priorreview",
+      "No build/research/canonical/Git mutations; no receipt completion or programme credit claimed",
+      "StandalonePDFasset source33338cee intentionally differs from deployedwebsite2007b056; asset existed before website recovery"
+    ],
+    "pdf_verification": {
+      "release_id": 437217372,
+      "asset_id": 719110935,
+      "bytes": 110419594,
+      "pages": 226,
+      "entries": 358,
+      "sha256": "cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b",
+      "fresh_full_download": false,
+      "current_metadata_matches_prior_verified_bytes": true,
+      "mutable_release_limitation": "Matching metadata detects observed drift; it does not prevent host mutation or independently rehash remote PDF bytes."
+    }
+  },
+  "receipt": {
+    "status": "pending_reviewed_receipt_merge",
+    "evidence_manifest": {
+      "path": "records/evidence/dhaga-expansion-358-2026-11-07/live-verification/source-manifest.json",
+      "sha256": "87b400cc574d04da12ab12ecc6344b245a4c23ec5671a5abb29f4f17132e1da4"
+    },
+    "programme_credit": 0
+  },
   "acceptance": [
     "Exact301 base objects/art preserved and57reviewed objects mapped302–358 with lossless source/rights/label handling.",
     "Corrected57 access fields only; validate actual358/258 source schema; preserve B55 prior-context correction and all deferred backlogs.",
@@ -43,7 +93,7 @@
     "Programme count, register objects, all non-target rollout rows and116 queued status unchanged",
     "Historical708/719/730 and all other research backlogs preserved"
   ],
-  "next": "Freeze actual candidate commit; obtain exact-head review and requiredCI, then reviewed merge/deployment, actual live verification and separately reviewed receipt. Public delivered count remains299 until actual delivery evidence; finite358 scope remains active.",
+  "next": "Separately review and merge the evidence-only receipt after required checks; verify actual remote hashes before releasing the finite358 claim. No new website deployment required for receipt-only metadata.",
   "root_implementation_decision": {
     "decision": "Preserve301 existing illustrations;57new readings may retain graphic:null under the existing selective-graphics scope. This is root implementation direction, not a new explicit Founder text-only instruction.",
     "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/pending-publication-2026-11-07/production-scope-supplement.json",
@@ -76,7 +126,7 @@
     "pdf_pages": 226,
     "pdf_bytes": 110419594,
     "pdf_sha256": "cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b",
-    "status": "local_integrated_review_PASS_pending_exact_head_and_publication"
+    "status": "published_and_live_verified_receipt_integration"
   },
   "book_asset": {
     "release_id": 437217372,
@@ -84,5 +134,6 @@
     "receipt": "records/evidence/dhaga-expansion-358-2026-11-07/asset-release.json",
     "status": "published_anonymous_bytes_verified",
     "url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-358-33338cee3f63492b11b7f3762f6cc6437b99c076/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf"
-  }
+  },
+  "verified_at": "2026-11-07T02:13:21.165Z"
 }
