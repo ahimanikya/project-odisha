@@ -10,7 +10,7 @@ By Ahimanikya Satapathy
 
 *Two women talking beside a market stall - an interpretive illustration. The figures and conversation are imagined; no speech or script is transcribed.*
 
-A lesson becomes useful when a learner can make sense of it. In the companion article, Jayanti Sabar’s pupils helped classmates by explaining lessons in Kuvi.[^1]
+A lesson becomes useful when a learner can make sense of it. In [Learning and belonging](/stories/dongria/learning-and-belonging/), Jayanti Sabar’s pupils helped classmates by explaining lessons in Kuvi.[^1]
 
 Three distinct resources matter here: the *Kuwi Primer*, written with Odia-based letters; the *Jatapu (Kuvi) Primer*, which uses Telugu-based writing; and a separate Jatapu script devised by Prasanna Sree. Her alphabet is not the one used in the Jatapu primer.[^3][^5][^6]
 

@@ -15,7 +15,7 @@ const route=a=>`/stories/dongria/${a.routeSlug||a.slug}/`;
 const summaries=Object.fromEntries(guide.parts.flatMap(p=>p.chapters.map(c=>[c.slug,c.summary])));
 const part=guide.parts.find(p=>p.chapters.some(c=>c.slug===article.slug));
 const previousLink=previous?{href:route(previous),title:previous.title}:{href:'/stories/dongria/book/#author-note',title:guide.opening.title};
-const nextLink=next?{href:route(next),title:next.title,image:next.image,description:summaries[next.slug],imageNote:next.kind==='interpretive illustration'?'Interpretive illustration':next.kind==='film poster'?'Film poster':undefined}:{href:'/stories/dongria/book/#looking-again',title:guide.closing.title,image:reading.cover.at(-1).src,description:guide.closing.summary};
+const nextLink=next?{href:route(next),title:next.title,image:next.image,description:summaries[next.slug],imageNote:guide.preview_notes[next.slug] || (next.kind==='interpretive illustration'?'Interpretive illustration':next.kind==='film poster'?'Film poster':undefined)}:{href:'/stories/dongria/book/#looking-again',title:guide.closing.title,image:reading.cover.at(-1).src,description:guide.closing.summary};
 ---
 <Shell title={article.title} description={`Explore ${article.title.toLowerCase()}, with attributed accounts, photographs and source notes.`} active="explore" related={false} shareImage={{src:article.image,alt:article.alt,width:article.dimensions[0],height:article.dimensions[1]}}>
 <article class="dongariya-article">
