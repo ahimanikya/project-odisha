@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-07T14:35:55.450021+00:00",
+  "updated_at": "2026-11-07T17:57:48.357930+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3030,11 +3030,21 @@
       "id": "POD-EDIT-117",
       "route": "/food/tomato-poda/",
       "title": "Tomato poda · bilati baigana poda",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
+      "status": "in_progress",
+      "scope": "article",
+      "source_template": "projects/site/src/components/TomatoPodaArticle.astro",
+      "checks": {
+        "classification": true,
+        "source_draft_review": true,
+        "sources": true,
+        "layout": true,
+        "responsive": true,
+        "downloads": true,
+        "independent_ai_review": true
+      },
+      "evidence": [
+        "records/tomato-poda-editorial-2026-11-07.json"
+      ],
       "blocker": null
     },
     {
@@ -13436,32 +13446,46 @@
         "records/cinema-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-publication-2026-11-07.json",
+      "publication_receipt": "records/cinema-bapa-publication-2026-11-07.json",
       "revision_status": "published_verified",
       "prior_publication_receipts": [
         "records/cinema-lives-and-future-publication-2026-10-26.json",
         "records/cinema-publication-2026-10-30.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-publication-2026-11-07.json"
       ],
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
       "next_action": "Reader feedback and distinct source-supported follow-up remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "publication_authorization": "Founder explicitly requested publication of these updates and book downloads on 7 November 2026.",
       "local_revision_followup": {
-        "record": "records/cinema-gourahari-bapa-connection-2026-11-05.json",
-        "date": "2026-11-05",
-        "status": "reviewed_local_revision",
+        "record": "records/cinema-bapa-integration-2026-11-07.json",
+        "date": "2026-11-07",
+        "status": "published_verified",
         "source": "kb/research/people/gourahari-das.md",
-        "source_sha256": "9e869393af6625674a89c5e30f1b17cff0a8475608020bcc4b420d05561f6977",
-        "implementation": "outputs/gourahari-bapa-connection-20261105/implementation.json",
-        "published": false
+        "source_sha256": "0589f48411709ac517d208b57e0fa3c23803ed08ce3021b271388b0ed9bc39d3",
+        "implementation": "outputs/cinema-bapa-integration-20261107/implementation.json",
+        "review": "outputs/cinema-bapa-integration-20261107/review.json",
+        "published": true,
+        "publication_receipt": "records/cinema-bapa-publication-2026-11-07.json"
       },
       "latest_verified_publication": {
-        "receipt": "records/cinema-publication-2026-11-07.json",
-        "date": "2026-11-07",
-        "source_sha256": "9e869393af6625674a89c5e30f1b17cff0a8475608020bcc4b420d05561f6977"
-      }
+        "receipt": "records/cinema-bapa-publication-2026-11-07.json",
+        "date": "2026-11-08",
+        "source_sha256": "0589f48411709ac517d208b57e0fa3c23803ed08ce3021b271388b0ed9bc39d3"
+      },
+      "prior_local_revision_followups": [
+        {
+          "record": "records/cinema-gourahari-bapa-connection-2026-11-05.json",
+          "date": "2026-11-05",
+          "status": "reviewed_local_revision",
+          "source": "kb/research/people/gourahari-das.md",
+          "source_sha256": "9e869393af6625674a89c5e30f1b17cff0a8475608020bcc4b420d05561f6977",
+          "implementation": "outputs/gourahari-bapa-connection-20261105/implementation.json",
+          "published": false
+        }
+      ]
     },
     {
       "id": "POD-EDIT-805",
@@ -13712,32 +13736,46 @@
         "records/cinema-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-publication-2026-11-07.json",
+      "publication_receipt": "records/cinema-bapa-publication-2026-11-07.json",
       "prior_publication_receipts": [
         "records/cinema-human-connections-publication-2026-10-26.json",
         "records/cinema-publication-2026-10-30.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-publication-2026-11-07.json"
       ],
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
       "next_action": "Reader feedback and distinct source-supported follow-up remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "publication_authorization": "Founder explicitly requested publication of these updates and book downloads on 7 November 2026.",
       "local_revision_followup": {
-        "record": "records/cinema-pratikshya-title-choice-2026-11-05.json",
-        "date": "2026-11-05",
-        "status": "reviewed_local_revision",
+        "record": "records/cinema-bapa-integration-2026-11-07.json",
+        "date": "2026-11-07",
+        "status": "published_verified",
         "source": "kb/research/culture/cinema-series/pratikshya.md",
-        "source_sha256": "a84a6654d5ee9d55dc950451b4be572f1a2bff7daf9249e08b7847bb9d355980",
-        "implementation": "outputs/pratikshya-title-choice-20261105/implementation.json",
-        "published": false
+        "source_sha256": "65468485b7e08b8fec8aef264425e3f0c5914a83a65acc9bc1032da18fe7abb7",
+        "implementation": "outputs/cinema-bapa-integration-20261107/implementation.json",
+        "review": "outputs/cinema-bapa-integration-20261107/review.json",
+        "published": true,
+        "publication_receipt": "records/cinema-bapa-publication-2026-11-07.json"
       },
       "revision_status": "published_verified",
       "latest_verified_publication": {
-        "receipt": "records/cinema-publication-2026-11-07.json",
-        "date": "2026-11-07",
-        "source_sha256": "ecf2628161c8c62f13dec03cd193048adf85daf2d8409b97011205b9a18685fc"
-      }
+        "receipt": "records/cinema-bapa-publication-2026-11-07.json",
+        "date": "2026-11-08",
+        "source_sha256": "65468485b7e08b8fec8aef264425e3f0c5914a83a65acc9bc1032da18fe7abb7"
+      },
+      "prior_local_revision_followups": [
+        {
+          "record": "records/cinema-pratikshya-title-choice-2026-11-05.json",
+          "date": "2026-11-05",
+          "status": "reviewed_local_revision",
+          "source": "kb/research/culture/cinema-series/pratikshya.md",
+          "source_sha256": "a84a6654d5ee9d55dc950451b4be572f1a2bff7daf9249e08b7847bb9d355980",
+          "implementation": "outputs/pratikshya-title-choice-20261105/implementation.json",
+          "published": false
+        }
+      ]
     },
     {
       "id": "POD-EDIT-811",

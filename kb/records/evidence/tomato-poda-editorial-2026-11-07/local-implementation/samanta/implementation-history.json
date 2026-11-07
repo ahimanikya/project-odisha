@@ -1,0 +1,31 @@
+{
+  "metadata_failure": {
+    "gate": "07-coast-acceptance",
+    "symptom": "len(None) for intentional empty meta description",
+    "preserved_logs": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance-history-1794074869.log",
+        "bytes": 499,
+        "sha256": "d5fc18fdacf777ce26b56321145da1ff10338189d05893a3b3e4c483ef2ce734"
+      }
+    ],
+    "resolution": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/metadata-resolution.json",
+      "bytes": 825,
+      "sha256": "d128bb311cf4e3b9ef8548e5f4f7bb1ddcb1002cff5c3adf0580520993944080"
+    },
+    "change": "Exact root-approved source-neutral description in coastal metadata and Tomato-only full route; no validator weakening, lead/deck/portable summary remain empty."
+  },
+  "rebuild": "Full/coast outputs and allrequired gates rerun after metadata resolution. Earlier gate logs preserved and resolved by SHA.",
+  "browser_history": {
+    "actual_runs": 1,
+    "product_failures": 0,
+    "report_wording_correction": "Inherited deployed-merge boilerplate corrected to local-only. Original browser report retained. No browser rerun or altered interaction result.",
+    "original": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/browser-review-before-local-wording.json",
+      "bytes": 4174,
+      "sha256": "d63df6574a17efe1fb2f7fb4267e8442f4ae0ff1c297667498c882bb20530884"
+    }
+  },
+  "server_start": "Initial unprivileged local4177 server denied EPERM; authorized local server succeeded. Browser used4178 frozen coast to avoid active publication build. No content/network fallback."
+}

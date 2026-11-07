@@ -1,0 +1,99 @@
+{
+  "id": "POD-CINEMA-WRITER-RIGHTS-20261107-ODIA-CASES",
+  "date": "2026-11-07",
+  "status": "bounded_research_complete",
+  "scope_released": true,
+  "question": "Named source-story authors: attributable adaptation permission, fee, contract, credit conditions or royalty evidence.",
+  "verdict": "No new first-person source-author fee or contract evidence verified in these three routes. Retain the existing distinction between documented credits and unknown compensation. No public addition recommended.",
+  "reused": [
+    "outputs/cinema-expansion-20261031/adaptation-evidence.json",
+    "outputs/cinema-portraits-and-evidence-20261101/research.json",
+    "kb/records/cinema-writer-rights-2026-11-07.json",
+    "kb/research/culture/cinema-series/literature-and-screen.md"
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "focus": "Bibhuti Patnaik / Badhu Nirupama rights",
+      "queries": [
+        "\"Bibhuti Patnaik\" \"film\" \"rights\"",
+        "\"Bibhuti Pattanaik\" \"Nirupama\" \"permission\"",
+        "\"ବିଭୂତି\" \"ଚଳଚ୍ଚିତ୍ର\" \"ପାରିଶ୍ରମିକ\""
+      ],
+      "result": "No qualifying adaptation terms located. An indexed Scroll essay concerns publishing rights; its named-writer account is explicitly hearsay, not film compensation.",
+      "source_url": "https://amp.scroll.in/article/1022501/scroll_in",
+      "access": "Search-result text inspected; direct open returned cache miss.",
+      "adoption": "Excluded: publishing rights are not adaptation rights."
+    },
+    {
+      "id": 2,
+      "focus": "Pratibha Ray adaptation permission through participant interviews",
+      "queries": [
+        "Pratibha Ray Moksha film permission director story rights interview",
+        "\"Yajnaseni\" \"permission\" Pratibha film"
+      ],
+      "sources": [
+        {
+          "url": "https://www.theantonymmag.com/in-conversation-with-pratibha-ray-owshnik-ghosh/",
+          "date": "2023-07-12",
+          "byline": "Owshnik Ghosh",
+          "access": "Direct text read, interview lines22–76.",
+          "finding": "Author discusses writing and translation, but no film permission, fee, contract or royalty terms in the inspected interview."
+        },
+        {
+          "url": "https://www.governancenow.com/views/interview/in-conversation-writer-pratibha-ray",
+          "date": "2015-11-18",
+          "access": "Search result only.",
+          "finding": "Aparichita adaptation mentioned in introductory biography; no adaptation terms in inspected result."
+        }
+      ],
+      "result": "No new qualifying terms. Previously retained Yajnaseni announcement not re-presented as a new discovery."
+    },
+    {
+      "id": 3,
+      "focus": "Older adaptations and producer-family archive: Malajanha / Kaa",
+      "queries": [
+        "\"Malajanha\" \"permission\"",
+        "\"Nitai Palit\" \"Upendra\" rights",
+        "\"Kanhu Charan\" \"Kaa\" permission payment"
+      ],
+      "source_url": "https://gourparbati.com/movie_kaa.php",
+      "access": "Direct full-page text read, lines0–123.",
+      "findings": [
+        {
+          "locator": "lines26–32",
+          "support": "Archive separately credits Kanhu Charan Mohanty for story and Sarada Naik for screenplay/dialogue.",
+          "boundary": "Credits do not establish negotiated credit conditions or compensation."
+        },
+        {
+          "locator": "line118",
+          "support": "Family archive says Gopinath Mohanty agreed to a proposed film of Amrutara Santana; it describes the project as unrealized.",
+          "boundary": "Retrospective family narration, not the author speaking, a dated agreement or an inspected contract. No fee, licence scope or payment evidence. Do not infer a completed adaptation."
+        }
+      ],
+      "result": "A narrowly attributable consent lead, below the requested first-person/contract standard. No new Malajanha payment source located."
+    }
+  ],
+  "important_exclusions": [
+    "Basanta/NBT recollection concerns permission for book publication and book royalties, not the Amada Bata film fee.",
+    "Anupam Kher token concerns Hindi remake rights, not payment to Gourahari Das for the source story.",
+    "Palit 2025 Matira Manisha / Abbas / Rs25,000 account remains an uncorroborated secondary lead from earlier research; no fresh verification claimed.",
+    "Producer-family retrospective praise and financial success are not evidence of what the novelist received."
+  ],
+  "coordinator_lead_not_independently_inspected": {
+    "url": "https://www.facebook.com/groups/1008186199594431/?multi_permalinks=1563651764047869&hoisted_section_header_type=recently_seen",
+    "description": "Root reports Gourahari Das public-group post dated5December2022 names an earlier BAPA television adaptation by Nirmal Rout. Root owns capture, audience/access assessment and verification. No fee terms reported; no browser use or duplicate television search performed by this researcher."
+  },
+  "source_budgets": {
+    "new_public_words_proposed": 0,
+    "direct_quotes_saved": 0,
+    "method": "Short paraphrases only; no new use of already-budgeted family-archive prose proposed."
+  },
+  "next_evidence_needed": "A dated author/producer account explicitly identifying the adaptation and terms, or an authorized agreement/payment record. The family archive consent lead cannot substitute for such evidence.",
+  "limits": [
+    "Three bounded routes are not an exhaustive search of Odia archives or private agreements.",
+    "Failure to locate terms does not establish nonpayment, unfairness or absence of public information elsewhere.",
+    "Search results are labelled separately from direct reads.",
+    "No public content, shared records, media, Git state or publication changed; no outreach."
+  ]
+}

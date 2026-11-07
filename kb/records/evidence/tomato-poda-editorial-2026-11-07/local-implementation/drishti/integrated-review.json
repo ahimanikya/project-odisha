@@ -1,0 +1,509 @@
+{
+  "decision": "PASS",
+  "scope": "Actual local integrated117 implementation; ready for root release preparation and exact committed-head review, not public completion",
+  "input_head": "32a4c1b089c824ffd26915969ea4f5f1834869d2",
+  "reviewed_at": "2026-11-07T18:14:20.582084+00:00",
+  "checks": {
+    "unique_hash_bindings": 117,
+    "site_files": 13,
+    "final_gates": 13,
+    "full_tests": 722,
+    "coast_tests": 571,
+    "body_words": 29,
+    "aggregate_source_words": 199,
+    "actual_screenshots_individually_viewed": 6,
+    "actual_UI_downloads_verified": 4,
+    "coast_publication_non_target_pairs_exact": 114,
+    "full_non_target_pairs_exact": 113,
+    "full_exception": "Only inherited food:pakhala href differs from coast baseline; all other fields exact."
+  },
+  "bindings": [
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/anvesha/report.json",
+      "sha256": "a6cb8bf383a3bb828c7ba36a1701406cd4ed8eb228bef578da2818e5ad3e69df"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/drishti/schema-review.json",
+      "sha256": "972e8f3abf8e1d3ed03366801d6957b1eb166140a25446a8a609f7a2dd9e2cb5"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/drishti/source-compact-draft-review.json",
+      "sha256": "6e5b7a81e268d2c45f6a4995ba522ddbdc54c55b5d13716cde16de228496ea6b"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/drishti/code-source-preliminary.json",
+      "sha256": "51d464b6f8a9ffd20a2b77d09582ed3838f00ee84686f079118d7f1dcb50d0ca"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/drishti/download-checks.json",
+      "sha256": "8a3f1e90b99a7f77a3f04676ea5c78ac505e0c00521a3ca596fe2c8b698c0601"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/drishti/installed-review.json",
+      "sha256": "2175db132a5db91610010d2137a52349fcb20926e6e16bdabc3771d9a6dc97aa"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/metadata-resolution.json",
+      "sha256": "d128bb311cf4e3b9ef8548e5f4f7bb1ddcb1002cff5c3adf0580520993944080"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/01-build-history-1794074721.log",
+      "sha256": "9f64b323cd4f6507c1f81c3d23870aaf5925267e485e5a19e467bc4c30ac1e80"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/01-build.log",
+      "sha256": "e89df5242f3d1f686d6e70db1bca9c34673f8a5bf469b1211023871c4564b128"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/02-disclosures-history-1794074773.log",
+      "sha256": "099a4cf97c9acc3c9a6c016f9fe7ebb56b56b1f4f7e09bf0c72158a30b1ea20c"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/02-disclosures.log",
+      "sha256": "099a4cf97c9acc3c9a6c016f9fe7ebb56b56b1f4f7e09bf0c72158a30b1ea20c"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/03-tests-history-1794074774.log",
+      "sha256": "ec0e07ea9d2163051f0c8be2829c96bab47db5c7e02bf31e621b66cb1355976b"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/03-tests.log",
+      "sha256": "993e258458464bde4767b0b302d0da901ca0a156c218c4c6509c30e51d3b8d0f"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/04-coast-build-history-1794074797.log",
+      "sha256": "ffbba13f042f20be5f1ed72985987b6aa1238ee295f8e7e1624ada8c2849ae4f"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/04-coast-build.log",
+      "sha256": "5b42e3dc14bd578ca5d30a26b0b93d646e4e36c75ed3c86037b3582cf4dab12d"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/05-coast-disclosures-history-1794074861.log",
+      "sha256": "fa95dee6620a29d2ec13f601709be7b91f39aef807c6971de853f0ab08b50d13"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/05-coast-disclosures.log",
+      "sha256": "fa95dee6620a29d2ec13f601709be7b91f39aef807c6971de853f0ab08b50d13"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/06-coast-tests-history-1794074863.log",
+      "sha256": "76e1b3c90136718e89690b5d8119ae4fda3aaf14124f465e3d1f12987a1d9fee"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/06-coast-tests.log",
+      "sha256": "25bb60d00b41484e011b7298ed0584d3682bc990aa274dc1b797bcfb9602efff"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance-history-1794074869.log",
+      "sha256": "d5fc18fdacf777ce26b56321145da1ff10338189d05893a3b3e4c483ef2ce734"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance.log",
+      "sha256": "0f5b3cd806add85cd86b88ce62bbd2561c91307b72ebfa2ce6f7f785276cb078"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/08-discovery.log",
+      "sha256": "d6e7d5196cc318ff72f45a3a5e1981c27ffd4dc3ba4f5b88b0dd25b8f8df5d19"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/09-search-prepare.log",
+      "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/10-launch.log",
+      "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/11-publication.log",
+      "sha256": "eb74cf1502152ed2b9348f17ef71e423c77c10533b199891840fd90c4c23560e"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/12-publication-disclosures.log",
+      "sha256": "fe856b5c57a87a28302ff0aa6c39132008e5efb7518d0d707d0bc1362217a8e2"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/13-shortlist.log",
+      "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/accessibility-guidance.txt",
+      "sha256": "0664f575db86ef1b06a083a188c02f450280299e0eebae5aeefe631f6846e782"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/artifact-manifest.json",
+      "sha256": "e2185d2ba4058f4200a40ea1161782fb6eaa6ec0ab87dc512c45385d042139a6"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/src/data/journey-catalog.ts",
+      "sha256": "b78ed3ced1000790e4d4b742b4db4919e6acd5324cefcc7f30bf479efc654b7c"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/src/lib/tour-book.mjs",
+      "sha256": "bebc2a948c8edf963e3ff7f6449d92c84b901a97293c5c615ff22c4f99ca90d0"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/src/pages/food/[slug].astro",
+      "sha256": "972251fbc386ff60bd1def5e011e95718ed573b01214862ee7c53ab192475d1a"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/bose-editorial.test.mjs",
+      "sha256": "5b25d40ff047fb6ee4e81338b3a9199f3339a648f161bc6491034d73a5b3d856"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/chandipur-meal-editorial.test.mjs",
+      "sha256": "4a168cdd4bbff3213bf4511732670e5a14140d9eadff42507606549fb523d281"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/chhena-poda-editorial.test.mjs",
+      "sha256": "0051e4c6052b920d9da74b6a9f7b95980fe92b73547475958f41e477d090276a"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/enduri-editorial.test.mjs",
+      "sha256": "bb48a15507ab46f0c73cf5c54d77dd1bb01e0c03e9f84d5441bd896c80fc5b52"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/fire-food.test.mjs",
+      "sha256": "0c5651b818f8ce484cd89ccf00107b1da874350fbc8078f5ea346a23c413dd30"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/mudhi-mansa-editorial.test.mjs",
+      "sha256": "bdab2e8953df0f74ca11e4e028b6ea65d88f7a3537830e5a50cc9918d38f57ca"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/poda-editorial.test.mjs",
+      "sha256": "f22ba7d8d4c7741003544cd984b50e4a0a343417dd850fd14a8f8b5a0d81cb95"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/before/tests-coast/rasagola-editorial.test.mjs",
+      "sha256": "cdf9855d3305e1513cf47d331a8f317e3159debb90986e2f347217d213f459d0"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/browser-review-before-local-wording.json",
+      "sha256": "d63df6574a17efe1fb2f7fb4267e8442f4ae0ff1c297667498c882bb20530884"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/browser-review.json",
+      "sha256": "9f4aef70bfaaabe38112bde0277fdeaa7ba7633bd7927920b8294f25a21a80ab"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-full-body.png",
+      "sha256": "6eee31050c451f8eeb1cea05d00e9a82f167d92284092a8a4d88dbb1dcf99a96"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-opening.png",
+      "sha256": "06e7c9ccc78b482f9a473b132360d63e4fa2f2c0c9c1118f3c237fdcb150d054"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-parent.json",
+      "sha256": "deda6accbefe462c5bbd48f450bf8e1cdba690d28964ab80c2ceffec001e432e"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-reading.html",
+      "sha256": "fc3023bbe6d4f26b36cf3fee341ef32753794ee385d54ed76717ef2aedd63dc9"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-reading.txt",
+      "sha256": "ae2b45254200f4b7940f48f2eb73196e3c3efe9b46d789206bc53c0c246de9a2"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-sources.png",
+      "sha256": "7e339fe833dfb9d19704de44b9fa0fde1a527a70837ae951c95e03865849d4cc"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/fire-cooking-response.html",
+      "sha256": "e879de90457191ad0f503c123b91285e0523e004142271d874221e5e13982457"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/http-results.json",
+      "sha256": "7be1485314583fc04a2ff590908dfe1cc943701d227b06ef19cb21299bf38df9"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-full-body.png",
+      "sha256": "a861043a77ad903df230dfb08b380855bd3a9b5c7b2e67169e3dcafedff2ad17"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-opening.png",
+      "sha256": "e6e0102743b70e7d944a6651b7a75372b1646cb9cf933be5b334ab677ea1e6ad"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-parent.json",
+      "sha256": "deda6accbefe462c5bbd48f450bf8e1cdba690d28964ab80c2ceffec001e432e"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-reading.html",
+      "sha256": "fc3023bbe6d4f26b36cf3fee341ef32753794ee385d54ed76717ef2aedd63dc9"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-reading.txt",
+      "sha256": "ae2b45254200f4b7940f48f2eb73196e3c3efe9b46d789206bc53c0c246de9a2"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-sources.png",
+      "sha256": "f28082fee13626f52153718e73ed140f0e725d73d29f5d96219a4877c22b7dfb"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/tomato-poda-response.html",
+      "sha256": "b7ba72908018e62602bccebc0d027069e5316b55e5dae6480a1659e76f9a6de2"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/capture-baseline.mjs",
+      "sha256": "e3d49cd71cd96bd0475149a565bf47943d89992150ce5a509a98779d3eaa1130"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/check-downloads.py",
+      "sha256": "870f6766679893cf6be8014396c00937687fa52d12a945af75ba8e9a6bdc773a"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/check-installed.py",
+      "sha256": "ed2d3e651639ca4633a722b9542a7a1943e9dd9aa3b738222094f0cab8a796df"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/check-parity.mjs",
+      "sha256": "0f13e775f9e3d1241757ed437ed10daf03fd4d15b13041cf220e31efc50d4426"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/check-products.py",
+      "sha256": "32853b3f00712b58e4e6970df80338e9496804c17bdbe3966cd83b117bd3bc5b"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/download-validation.json",
+      "sha256": "debda243159064c056675c8f198221c365e62c62b1c3a791e3ef4087540e14eb"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/fixed-input-baseline/catalog.json",
+      "sha256": "5f8bf5ba1364794b7029ee7b4a320074bad79ddece12dd1391c40598879f0d18"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/fixed-input-baseline/parent.json",
+      "sha256": "1362facc24f82a49bab3e67e0d5a78f4c2d563408583a94f5053ca850402ee16"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/fixed-input-baseline/portable-pairs.json",
+      "sha256": "c35cab9dc813b6cee8efd6453aec09ec76457b6f98058255de02c0474e5d80bb"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/fixed-input-baseline/report.json",
+      "sha256": "bd0673e1767b4ffae380aea9f554bbeaad055200bbc71edf3a21bce40aa52565"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/freeze.py",
+      "sha256": "3ea16d2986071d70ceec0e7435968855f748e1d13b790c3fb6da187237f4f8d8"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/full-edition-parity-qualification.json",
+      "sha256": "c511a1561bbe2c8e20dc233bcb0805abda048c2d93594f260a3c4ecd6791460d"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/gate-history-resolved.json",
+      "sha256": "3ee7443319984a8bbdb3ec325cc78a96fec79b675220ab2d749a0120daa5fce5"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/gate-progress.json",
+      "sha256": "a3bdba9d2a7b3043b69520bd9463f0bbe90745cd4f22688f7407064e2b0f422d"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/guidance.json",
+      "sha256": "493a4b2fc29b61c0650160ded50a7f037dfa5067ec970b1922934deff82bc2fd"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/implementation-history.json",
+      "sha256": "3cdad274542ae2e940925863b5fe92d464e9099df17665389cd44bfff9ad5dde"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/installed-input-parity.json",
+      "sha256": "aa2bdf64c780a5df8664780b40ef1931cdec608cd36777b370b98a329be28098"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/portable-sibling-parity.json",
+      "sha256": "f54f015109fb631afea15b0af68bf2388654114cac16f40b643e76c186b2939b"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/product-manifest.json",
+      "sha256": "20f2e72d3d31df0b9b9ed9d01f459cb9f32bd74ad9d82e65241665439ff5945a"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/publication-parity.json",
+      "sha256": "1b9c05107383e32c93928815036eed0435d8fefbf3b93e64133d09e900f48013"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/report.json",
+      "sha256": "ebcc5743aad2a046a1f6d776c88f02e18d785b803cf02ec66685d0c3ea43c11b"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/route-before-metadata-resolution.astro",
+      "sha256": "51d86203667f0e85285bde3e69ab01dd999aa09edcc1414bd1bb84f68a8a802f"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/run-gates.py",
+      "sha256": "670275f558beb8fa2ee78486be3980eade6e690ae35b593ba19a9c579c95b91e"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/source-manifest.json",
+      "sha256": "9d6c7de012c7a6dbcebc11cf9a3257a1e4b936b0eaca0639b361dc840022a491"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/verify-local.cjs",
+      "sha256": "ceec09975b8a127e75d9f0599eb308f61de1114a0043f7c965b43f5790c977c3"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/visual-review.json",
+      "sha256": "d4670a3a89afb48ce56e04a377e58b55754de9246738677d98b775e7a7b9bf0d"
+    },
+    {
+      "path": "outputs/tomato-poda-editorial-2026-11-07/samanta/report.json",
+      "sha256": "3c135ad30c96e437b4e7a4cb7fd59c4fee78e9a2c5c3fa2f7baa72b52af684c5"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/coastal-page-descriptions.json",
+      "sha256": "1f15ae743a4af27964d7c8ffa9631315cf0d0ccb63b1333bdb5ee33210a7d3d8"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/food/collection.json",
+      "sha256": "42026873c5867c8fb89147320ca1e95834a2958ed61ea5264d17c1abfc7a8fe4"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/food/tomato-poda-editorial.json",
+      "sha256": "14be34537caa0efb6ae16612089f41f6c4829ea2d0cc1bc4836335e529b77cad"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/food/tomato-poda.md",
+      "sha256": "55421d1668681846820f837d59e3804b8cf50b766ccf90ece71b2e04af32da9e"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/references/data/poda-traditions.json",
+      "sha256": "b399ac7c6005d3894ae3e031e0203b5cc355c8144ccaee34ae183dc51442acf9"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/references/data/source-catalog.json",
+      "sha256": "3a3b8999df0a44deb2d9d29a895f1ce54f7fe007c725775ea876c87d647b0d57"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/sources/food-tomato-oriyarasoi2015.md",
+      "sha256": "9ad3b940aef4abf5a71f794e17de2e0bff4e428354191e7d16f30935da1dfea9"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/pdf-delivery.json",
+      "sha256": "58e27a3c52e8140c43869b3ac90e06f8e1a318121b52cf4bcb8c1c3e00a09859"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-coast/food/fire-cooking/index.html",
+      "sha256": "e879de90457191ad0f503c123b91285e0523e004142271d874221e5e13982457"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-coast/food/tomato-poda/index.html",
+      "sha256": "b7ba72908018e62602bccebc0d027069e5316b55e5dae6480a1659e76f9a6de2"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-coast/images/food/tomato-poda-meal-alternate.webp",
+      "sha256": "422908847ed921f7a6d96ad3e2e992af602d534c6fed6dbcc4ff8fc75af242f1"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-coast/index.html",
+      "sha256": "f34f381a581359fd7f3fc6451f4cbfaf747f75549f1f88e83570e56d89d8d689"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/food/fire-cooking/index.html",
+      "sha256": "974a7d37f016da99cf76bc49457fc35f8574c74afe523afa687ffc140c4b47a7"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/food/tomato-poda/index.html",
+      "sha256": "e4d5b3596c12b3c913f4afd00c797e2242c2c9d27118d34f4071b1a1f7235e5d"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/images/food/tomato-poda-meal-alternate.webp",
+      "sha256": "422908847ed921f7a6d96ad3e2e992af602d534c6fed6dbcc4ff8fc75af242f1"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/index.html",
+      "sha256": "bc2bc211726ce24805ac45acd8987b3c9db595ad7b344871c7a576188a6b0ab7"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist/food/fire-cooking/index.html",
+      "sha256": "d2fd8a7ee58c6f5d118c582e18d0481911de05c80f6f3b97af1c13b3059cda86"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist/food/tomato-poda/index.html",
+      "sha256": "33d4e0f299f565c77f184ae6e722ed39b089a64f195d0599e625b33bfd467096"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist/images/food/tomato-poda-meal-alternate.webp",
+      "sha256": "422908847ed921f7a6d96ad3e2e992af602d534c6fed6dbcc4ff8fc75af242f1"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist/index.html",
+      "sha256": "b4ecb7cf791022eaa59725c983309a120831b1da8c536e6126346ec58ad4e965"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/components/TomatoPodaArticle.astro",
+      "sha256": "7eca101d8d820624fe24bfd7497afc7564629fd2a74c8f032b8b16c6f7f4e7c6"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/data/journey-catalog.ts",
+      "sha256": "b0d7370f702bc3536d3ee25b9da074c4344dfca30ceeece53b528679895c7422"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/lib/tour-book.mjs",
+      "sha256": "603c2d3e0cd56fe369fed13669dc6f929f112d142e4fef0eed0e41c6bd9391a5"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/pages/food/[slug].astro",
+      "sha256": "2765bd77fb5cfe9d36150a884598e45c74e09058cb733d75b189647337f0fddc"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/bose-editorial.test.mjs",
+      "sha256": "4d686b0374bcd4e00e5296d82e32eb01b61d45cf092eadffbed8380d5167699a"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/chandipur-meal-editorial.test.mjs",
+      "sha256": "17d78ac0aeb7577485eedd827bc58d56ebe5c38f9239960af5df52f0e6eb23fc"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+      "sha256": "1d40b07020b612e4d0bb2f17c351488f259b25ab2a59fc3c9f0b38ce6fcf2ce8"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/enduri-editorial.test.mjs",
+      "sha256": "c7bccebf19ef49c80c2afbeef80e31b86411a23c7f6b460193da69b6ee07d892"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/fire-food.test.mjs",
+      "sha256": "ffb52fee8683bad8bd2134b746cb16951a1c2e1fb1961f673b7343cdc2f370e7"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/mudhi-mansa-editorial.test.mjs",
+      "sha256": "6bf87e8ccfb1aa907744fb4e5f15310800f049171c7fcf65fc65b2f9bdd9bda3"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/poda-editorial.test.mjs",
+      "sha256": "b80edc88854c207264f6c66a7ea9b138930f1decee9c614ac99844a15d62c4c4"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/rasagola-editorial.test.mjs",
+      "sha256": "e70c9eac6273d0abccbc36bf070e26d06a2783ac594a80a1a5c0d80392fa97cb"
+    },
+    {
+      "path": "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/tomato-poda-editorial.test.mjs",
+      "sha256": "769a8bf960b7874afa16de41c31002df9a909e24b284b346027d4ad9f9610f16"
+    }
+  ],
+  "findings": [
+    "Installed compact records and approved schema remain exact. Original bibliography, attribution, reliability, photo/CC BY-SA4, SaveID and three related links preserved.",
+    "Single29-word paragraph and one full native note match all three actual editions. Empty lead/deck/section heading/portable summary are retained. Exact source ledger199 includes repeated web/portable body and title, native note, short citation, retained records and protected parent38/reliability22.",
+    "Source-neutral95-character metadata describes components only. Actual initial empty-description audit failure retained; both full and coast metadata now satisfy existing acceptance without weakening validators or adding recipe claims.",
+    "Reviewed all thirteen site changes: target-only component/route/catalog opt-in, two narrow exporter guard extensions, meaningful source/photo/native-note/portable tests; seven generic controls retarget untouched patrapoda with assertions intact.",
+    "Individually viewed six actual1440/390 screenshots: complete paragraph, note, source/photo credits and links readable without clipping; documented tomato bowl remains visible. Browser evidence records native keyboard return, Save/reload and no overflow at both actual widths.",
+    "Independently checked four saved UI downloads: exact paragraph once, one short citation, original embedded photo hash, no empty heading/stray colon, truthful local return URLs. Complete parent objects equal original baseline at both viewports.",
+    "All thirteen final gates PASS and logs rehashed, including722 full and571 coast tests. All114 coast/publication sibling catalog+portable pairs exact. Full edition113 exact; remaining Pakhala differs only by existing edition href and is explicitly qualified, not a false114 equality claim.",
+    "Browser report inherited deployed-SUCCESS wording corrected with old bytes preserved. Local evidence does not establish deployment or live state.",
+    "Raw article Markdown archival correction retains exact text/hash in JSON; no source prose mutation. Pending WORK331/A500140/EDIT117 and programme139/zero new credit remain the release boundary."
+  ],
+  "limits": [
+    "Independent AI review, not human editorial, fieldwork, recipe testing or legal certification.",
+    "Browser evidence is local Chrome1440/390; no assistive-technology or Firefox/WebKit claim.",
+    "No build/browser/research rerun or canonical mutation by reviewer; actual producer runs and independently rehashed saved evidence reviewed.",
+    "Exact-head, CI, deployment, live verification and receipt remain future root-controlled steps; concurrent Dongria work not certified here.",
+    "199-word project aggregate allocation is conditional on these exact compact and rendered strings; only one word remains, and future additions require recounting."
+  ],
+  "scope_status": "COMPLETE_RELEASED"
+}
