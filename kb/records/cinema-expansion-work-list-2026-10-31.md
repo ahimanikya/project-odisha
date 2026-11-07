@@ -155,3 +155,6 @@ Follow-up, 2 November: [Bhukha original sources](cinema-bhukha-original-sources-
 ## Reviewed photograph installation · 5 November 2026
 
 [Installation and review](cinema-picture-installation-2026-11-05.json):14 distinct source photographs placed in13 articles, preserving prose. Both new local editions reviewed (260digital/266print pages); published book links remain unchanged. The approved installation is complete. Next: review these proofs and undertake a separate publication cycle when requested. Gopal stays with the better-sourced existing portrait; exhausted source gaps remain parked.
+
+
+Current research: [Three focused gaps, 7 November](cinema-research-gaps-2026-11-07.json). Original adaptation-text/payment and delivered-support evidence remain unresolved; a practical writer-support passage is reviewed locally. Original school newsletter gives a title-level screening lead only. New proofs:265digital/270print pages. Specific original documents are needed before reopening exhausted routes. No publication.

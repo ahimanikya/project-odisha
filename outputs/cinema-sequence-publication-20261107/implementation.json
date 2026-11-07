@@ -1,0 +1,120 @@
+{
+  "status": "implementation_complete_awaiting_coordinator_final_build_review",
+  "before_hashes": {
+    "kb/research/culture/cinema-series/manifest.json": "67d59588c9398a4f5bfe5fc6031afbbe89c6c895e6468dfe30b0126fb464483b",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "90a614e31fccb8a483e67ad655b704315b05eb2358bbf4a271041af4ccfd41d9",
+    "projects/site/src/data/cinema.json": "e074a03c401c2b693f5b476bdea2c17616ff930ff818ad086d8c3c0856ef7c81",
+    "projects/site/src/data/cinema-companions.json": "3d41ba4f44128b4de3bcef7f5fdef830d12f24763212e5f6cff72acbbc026739",
+    "projects/site/src/pages/cinema/index.astro": "5469383bb2cfc485a5c83ec4e0ea708dcc9a4ff9143f4cd7188344e716825c58",
+    "projects/site/src/components/CinemaReading.astro": "bb0ae7fbc8ebeeb21005edb8a0b98db7739a3296cf54dddedce443eb545171af",
+    "projects/site/src/lib/cinema-article.mjs": "81ba844668df25c972215e47eaee1d96c863e8913ff23846862d56232ce0417a",
+    "output/pdf/build_book.py": "97cf832f9e0210c9f9b02bbfabf6d63664ece87aca60b92f29a3f056a51a6044"
+  },
+  "build_performed": false,
+  "after_hashes": {
+    "kb/research/culture/cinema-series/manifest.json": "79996e076f552abfa4acb811d4f2e3e5a7fd985c4d0c90c5c4ed3f956885ef7b",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "1d333ac69e8487e69e10f88c158508258f39109aa61cf06a44f7a6dd79cd6b72",
+    "projects/site/src/data/cinema.json": "eb1a633f156de6aa5bdf8a2055f3bd976b7f48ba736fa03db8d3a0401e8ced07",
+    "projects/site/src/data/cinema-companions.json": "e08c2c0e3eeaafa5d24810446f6f84929806b29d67328c8873021fc8ff9852fa",
+    "projects/site/src/pages/cinema/index.astro": "d380eca852becd81066f162a781537f532309ec1bc2b2be01c2588142963d840",
+    "projects/site/src/components/CinemaReading.astro": "d430b6bd74657db56f1acb4d79af104d813140992fa9a44dc314b56d77eab7c6",
+    "projects/site/src/lib/cinema-article.mjs": "e29926426fc633e3d57cf97ca1237afcf4a5dbde13605e0f679c5373388c6945",
+    "output/pdf/build_book.py": "bbaabfcbe4eed0efb4ca05a1cbe6e5b574024cf5e03b8ba34e5215101fc6c038",
+    "projects/site/src/pages/people/bibhuti-pattanaik.astro": "ebe1c1cfd3c1337f7749cebb4c217961f1c1fda18ebc725cf46ecc1d05ef8182",
+    "projects/site/src/pages/people/solila-parida.astro": "127de253fb63fcde8528c78db032700cfc2d2bfd5bd2253c2d47ad0789afc897",
+    "kb/research/culture/cinema-series/image-layout-2026-10-30.json": "1a411c4ea7193126c43a80e165fb8193945c0ec865c329e9a7bd4e00054f7cf0",
+    "projects/site/tests/cinema-release.test.mjs": "939d3c64fb238d2488afe5b4f623659546e9a2a990fad95281388fef10f99645",
+    "projects/site/tests/cinema-companions.test.mjs": "fb1902603e3c7029c136b1787f0e3c25508f3e82a9d571ba57614f34c108bfbd",
+    "projects/site/tests/cinema-discovery.test.mjs": "0f6832fafd9feaa55fd98557ad02398284da98844f991f509669fab18c63e299",
+    "projects/site/tests/cinema-ux.test.mjs": "ac210469a4be221702b2a3b9b884f6a10b3c044e0d4bd09e0a4440a33c4fd88f",
+    "projects/site/tests-coast/cinema-reading-ux.test.mjs": "99d3809fc232a6672a60a0bdf2d15b61dc34076b239721d3a06dab11f672cd93"
+  },
+  "counts": {
+    "online_readings": 52,
+    "book_readings": 49,
+    "embedded_portraits": 6
+  },
+  "changes": [
+    "Promoted Bibhuti after Kanhu and Solila after Nandita in the 52-reading website, retaining their existing routes and metadata.",
+    "Explicit 49-reading book order integrates three DAMaN profiles without removing their online pages.",
+    "Four source-hash-bound book-only prose patches and six credited portraits retain canonical online prose unchanged.",
+    "Fakir, Pratibha and Nayak remain supplementary hub links; central-route and full-sequence onward links are labelled without duplicate same-target actions.",
+    "All part-intro representations now say Gourahari Das’s Bapa inspired Pratikshya.",
+    "Book guide sources for excluded standalone profiles map explicitly to existing DAMaN notes; profile links and guide page numbers resolve to named in-chapter profile anchors.",
+    "Imported heading, optional profile bookmark, portrait and caption are kept together; no image reduction."
+  ],
+  "editorial_packet": {
+    "path": "outputs/cinema-sequence-publication-20261107/editorial-content.json",
+    "sha256": "261299f1ef6cf804f7f5e276bb853ba190353df2a8ab7abbd4fd5fb786812cc9",
+    "exception": "Omitted the proposed Nayak editorial-process sentence at coordinator direction."
+  },
+  "checks": [
+    {
+      "command": "node --test tests/cinema*.test.mjs",
+      "result": "51 passed; 0 failed",
+      "tool_chunk": "1a1af1"
+    },
+    {
+      "command": "node --test tests/cinema-discovery.test.mjs tests/cinema-companions.test.mjs",
+      "result": "12 passed; 0 failed after final Bapa wording",
+      "tool_chunk": "47fd8c"
+    },
+    {
+      "command": "compile(build_book.py source, filename, exec)",
+      "result": "Passed after imported-portrait grouping"
+    }
+  ],
+  "resolved_failures": [
+    "Initial guide references targeted notes in removed standalone book chapters; explicit existing DAMaN source mapping now preserves each reference.",
+    "Strict image-layout coverage initially lacked two promoted rows; added only Bibhuti and Solila natural 100% frames.",
+    "Line-art test expected removed inline navigation marker; maintained the art boundary with a dedicated comment.",
+    "First rendered candidate stranded Nayak/Deependra headings; fixed imported heading/portrait grouping, final render verification pending coordinator."
+  ],
+  "modern_web_guidance": {
+    "search": "label navigation landmarks",
+    "retrieved": "accessibility,html",
+    "applied_quote": "Provide distinguishable accessible names for navigation regions",
+    "application": "Native anchors and distinct accessible navigation labels; removed duplicate same-target inline navigation, with no new client-side state."
+  },
+  "build_ownership": "Root executes full site and PDF builds and final validation; worker does not claim those outcomes.",
+  "pdf_marker": "Coordinator already executed outputs/cinema-sequence-publication-20261107/pdf-operation-marker.json once; worker did not repeat.",
+  "preservation": {
+    "article_source_edits_by_worker": false,
+    "existing_portrait_asset_edits": false,
+    "published_download_metadata_edits_by_worker": false,
+    "preexisting_accessibility_trial_untouched": true
+  },
+  "book_guide_ref_map": {
+    "vishal-mourya#award": {
+      "slug": "daman",
+      "source_note_id": "award"
+    },
+    "deependra-samal#certificate": {
+      "slug": "daman",
+      "source_note_id": "producer-credit"
+    },
+    "deependra-samal#making": {
+      "slug": "daman",
+      "source_note_id": "making"
+    }
+  },
+  "scope_released": true,
+  "final_heading_fix": {
+    "reason": "Print p19 stranded the consecutive H2 above the Pratibha H3/portrait on p20.",
+    "change": "BOOKIMAGE now collects all immediately consecutive H2/H3 headings, preserving the existing optional profile anchor within the same group.",
+    "before_sha256": "cde5aa24ba071a4ae1761072fed62bd0dc6700aab7a04b068706b073f38c7940",
+    "after_sha256": "bbaabfcbe4eed0efb4ca05a1cbe6e5b574024cf5e03b8ba34e5215101fc6c038",
+    "validation": "Python compile passed; no worker build. Root owns final renders.",
+    "fonts_images_prose_unchanged": true
+  },
+  "coast_navigation_test": {
+    "file": "projects/site/tests-coast/cinema-reading-ux.test.mjs",
+    "sha256": "99d3809fc232a6672a60a0bdf2d15b61dc34076b239721d3a06dab11f672cd93",
+    "result": "5 passed, 0 failed",
+    "command": "node --test tests-coast/cinema-reading-ux.test.mjs",
+    "tool_chunk": "a4779c",
+    "changes": "Assert no redundant in-body next navigation; distinct central destination has its named navigation; shared central/full destination is labelled once. Retain all previous/next boundaries, source-note, image-note ordering, language, hub and published-download checks.",
+    "equivalent_assumption_search": "rg across projects/site/tests and tests-coast found only this stale positive inline-navigation expectation. Existing cinema-ux tests correctly assert its absence.",
+    "runtime_or_source_changes": false
+  }
+}

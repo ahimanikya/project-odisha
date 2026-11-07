@@ -1,0 +1,22 @@
+from pathlib import Path
+import json,hashlib,re,datetime
+P=Path(__file__).resolve().parent;ROOT=P.parents[3];A=P.parent/'anvesha'
+def rd(p):return json.loads(p.read_text())
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def req(x,m):
+ if not x:raise RuntimeError(m)
+def save(n,x):(P/n).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+ar=rd(A/'report.json');req(sha(A/'report.json')=='e5b2502747dafdd77520d0963aee59d94fae7c7ac73a02478cc24ba4a40e04c9','author freeze')
+for n,h in ar['bindings'].items():req(sha(A/n)==h,n)
+cs=rd(A/'candidates.json');bud=rd(A/'source-word-budgets.json');ds=rd(A/'dispositions.json');tot=[]
+for e,b in zip(cs['entries'],bud):
+ counts={k:len(e[k].split()) for k in b['narrative_field_words']};req(counts==b['narrative_field_words'],'field count');req(len(e['odia'].split())==b['exact_saying_words'],'quote count');n=sum(counts.values())+len(e['odia'].split())+b['borrowed_example_words'];req(n==b['total_charged_words']<=200,'budget');tot.append(n)
+labels=[]
+for d in ds:
+ raw=(A/(str(d['pageid'])+'.txt')).read_text();req(d['wording'] in raw,'quote');s=raw.split(d['wording'],1)[1];label=re.match(r'[\s—–-]*(ଢ଼ଗ|ଢଗ)',s).group(1);req(label==d['source_label'],'label');labels.append({'pageid':d['pageid'],'label':label,'wording_exact':True})
+req(len(ds)==5 and sum(x['fresh_position_count'] for x in ds)==5,'positions');req(sum(x['disposition']=='proposal_pending_review_not_accepted' for x in ds)==2,'proposals')
+search=rd(ROOT/'outputs/dhaga-loop-2026-11-05/batch57/anvesha/search-offset700.json')['query']['search'];req(search[45]['pageid']==42961 and ar['next_source_pass']['next_result_offset']==745,'cursor')
+req(rd(P/'preservation.json')['status']=='PASS_EXACT','preservation')
+checks={'status':'PASS','author_bindings':len(ar['bindings']),'author_report_sha256':sha(A/'report.json'),'candidate_sha256':sha(A/'candidates.json'),'all_position_wordings_labels':labels,'independent_budgets':tot,'counts':ar['counts'],'next_source_pass':ar['next_source_pass'],'candidate_check':rd(P/'candidate-check.json'),'source_pairs':5,'preservation':{k:v['checked'] for k,v in rd(P/'preservation.json')['groups'].items()},'semantic':'Both complete bilingualdrafts/allfivefullheads andthreeprecisedeferrals read. Fruitabsence/moneyabsence questions do notestablishbargain/flirtation; laterwifecomparison criticallyquestioned, noactualmarriagehistory orincapacity. Separate song/literaryillustrations notDhagaauthors.'};save('final-checks.json',checks)
+files=[p for p in P.iterdir() if p.is_file() and p.name!='report.json']+[A/'report.json']+[A/n for n in ar['bindings']]+[P.parent/'HANDOFF.json',ROOT/'outputs/dhaga-loop-2026-11-06/batch61/reconciliation.json']
+r={'status':'PASS_INDEPENDENT_RESEARCH_AUDIT_PENDING_SEPARATE_REVIEW','input_head':rd(P/'baseline.json')['input_head'],'checks':checks,'prefetch':rd(P/'eligibility.json'),'comparison':'355 comparison objects =301local+54prior proposals, not a produced355edition.','preservation':'1761canonical/1790local301/10352currenttrackednonbook/9057prior bindings exactvsB61. Authorized114/115 earliertransition carriedwithoutnewdrift.','history':['B55 lateB54 flood priorB03capturedcontext correction retained; no frozen history rewritten.','66100/B38prosperity,77999/canonical089 deprivation,45859/exactB15glyphdeferral and73596/B03priorcontext excluded BEFOREfetch;96289snippetparallel notindependentfullheadidentity.','Initial authorDNSfailure followed by same authorizedAPI request successful; no repeatedquery or auditor retrieval.','B61historicalHANDOFF archive and114/115actualrelease records qualify stalecanonicalownership.'],'bindings':{str(p.relative_to(ROOT)):sha(p) for p in files},'limits':['No network/sourcefetch/query/canonical/Git/art/build/browser/public/acceptance/credit.','50JSON parse failures retained;79999fulltext files read withoutsizecutoff. Fixturecopies included but notnewwitnesses. Exactnegative matching is not exhaustive semantic novelty proof.','Single dictionary lineage; no printcollation or human specialist approval.','708genreuninspected/719snippetonly/730targetedpriorfamily and all inheritedbacklogs preserved; no750query.','Rightsinfoobject exact; future import must rendertext+URL losslessly while retaining originalrightsinfo. No deferredsourceimport/automaticvariantpatch.','SeparateDrishti review/rootassembly required.'],'scope_released':True};save('report.json',r);print(sha(P/'report.json'));print(checks['author_bindings'],tot)

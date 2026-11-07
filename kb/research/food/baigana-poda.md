@@ -1,20 +1,15 @@
 ---
 type: "Food"
 title: "Baigana poda"
-description: "Baigana poda — sourced research and editorial scope."
+sources: [{"id": "food-baigana-pragyan2008", "title": "Pragyan2008", "resource": "https://sorisha.blogspot.com/2008/10/some-odiya-roasted-dishes-brinjal-and.html"}, {"id": "food-baigana-away2020", "title": "Away2020", "resource": "https://www.awayinthekitchen.com/post/baingan-chokha-baigana-poda-smoky-mashed-eggplant"}, {"id": "food-baigana-sasmita2020", "title": "Sasmita2020", "resource": "https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/"}]
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-01T10:15:52.301620-07:00"}
-sources: [{"id": "food-baigana-sasmita2020", "title": "Baigana Poda — Mashed Roasted Eggplant in Odia Style", "resource": "https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/"}]
 human_review_claimed: false
-subjects: ["food", "everyday"]
 ---
 
 # Baigana poda
 
-Sasmita roasts eggplant over a gas flame, then peels and mashes it with mustard oil and aromatics. [Baigana Poda — Mashed Roasted Eggplant in Odia Style](https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/), Recipe card.
-
-Contributor recipe; pakhala accompaniment.
-
-**To establish:** Specific locality and household variations remain unverified.
+[Pragyan2008](https://sorisha.blogspot.com/2008/10/some-odiya-roasted-dishes-brinjal-and.html) — food-baigana-pragyan2008
+[Away2020](https://www.awayinthekitchen.com/post/baingan-chokha-baigana-poda-smoky-mashed-eggplant) — food-baigana-away2020
+[Sasmita2020](https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/) — food-baigana-sasmita2020
 
 [Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.

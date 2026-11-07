@@ -22,12 +22,12 @@ def validate_descriptor(d, packing):
     commit=d.get('target_commit','');digest=d.get('sha256','')
     need(re.fullmatch('[a-f0-9]{40}',commit) is not None,'Full commit required')
     need(re.fullmatch('[a-f0-9]{64}',digest) is not None,'SHA256 required')
-    need(d.get('tag') == 'dhaga-299-'+commit, 'Tag must bind full commit')
-    name='odia-dhaga-299-'+digest+'.pdf'
+    need(d.get('tag') == 'dhaga-358-'+commit, 'Tag must bind full commit')
+    name='odia-dhaga-358-'+digest+'.pdf'
     need(d.get('asset_name') == name, 'Content-addressed filename required')
     url=f'https://github.com/{d["repository"]}/releases/download/{d["tag"]}/{name}'
     need(d.get('browser_download_url') == url,'Exact versioned browser URL required')
-    need(type(d.get('bytes')) is int and d['bytes']>0 and d.get('pages')==193 and d.get('entries')==299,'Invalid edition metadata')
+    need(type(d.get('bytes')) is int and d['bytes']>0 and d.get('pages')==226 and d.get('entries')==358,'Invalid edition metadata')
     need({k:d[k] for k in ['bytes','pages','sha256']} == packing['pdf'],'Packing mismatch')
     return url
 

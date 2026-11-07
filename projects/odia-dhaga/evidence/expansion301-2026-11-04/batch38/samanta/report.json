@@ -1,0 +1,281 @@
+{
+  "status": "PASS_FINAL_TECHNICAL_SEMANTIC_AUDIT_PENDING_SEPARATE_REVIEW",
+  "input_head": "d00262118e5adae759e039606fa63b7df4b3b0db",
+  "checked_head": "da32e72b89a5d3d840f2cc949d3b65accae48eb7",
+  "author_report_sha256": "077923354ab82651392cfd51e18e310b7705a15fa0f027ae7c860071e2dbcae1",
+  "bindings": {
+    "selection.json": "f4c86fcabcf029cc0b644c6852a6547c94ac15dceed87fd1cbc831d83ef26620",
+    "prior-page-screen.json": "6404f0d90287d077e3855b03b12a56ea1903ef7e9fa1eab5956e46d42a908252",
+    "canonical-title-screen.json": "793f91bb3e584680d597fa1527290879b5954088647c8075bfe7f2f8e0b5839e",
+    "reuse-query.json": "198a6dfd858962a4a4e4c188b1e2727b02dbfefe4440ac2bcd7186daf73d588d",
+    "originals.json": "97f9cf39c6d6bda69d93d7de6a7a344467ab65d256a054697151b5c4b927ef49",
+    "retrieval-history.json": "786b8016a5ce016ed0267d244abec29ee568d2b03bf55d93cb83ae5634dfc546",
+    "capture-validation.json": "b3ea1b13fe9ca6eb59772e5e2e6b853b9067d78428c7e0bfad6f3441f6ae4740",
+    "candidates.json": "44b3c5b76b88c166dc2d72ff4bd39216f5ed1c3b822d62636344fec25548438b",
+    "source-registry.json": "94147143d7ad30407aeb1fadbc2d02e1f9545986e1dde954529b5b95a33f775a",
+    "source-word-budgets.json": "642a018e6a96ba4d70b200db86d620d9c9a917b68ffa64925d9f107a6f6be48f",
+    "dispositions.json": "8961181f13b2991addad433ad8d21d313fce44df52ae65feb6f1b0ef5c504248",
+    "source-coverage.json": "574f0a3be977f2dce7c80efc4012bb8c04362524f383f35d4f41f94844c36d75",
+    "48012.txt": "e1ba5b1ac984384264d4427ba311f0d779d2d923897c1e9d2e25016103e47bda",
+    "48628.txt": "77b00f8eb92d91c43c14851dc0a6a258957efbdaaf7f31cc49bdc7b5ea19deb7",
+    "56637.txt": "a9c711e71f83cef336c3a5b9ca73e7df2351bccc4a7952c5b1ff675e9a7b8f7c",
+    "66101.txt": "d85caf128b1c0d3789a855c87f8b2c4864a3be86a33ae7c315f463c6de0167b7",
+    "79980.txt": "34da640cb3423b2a705d84b5396a38374bde17d1c8fa2ff5a42f7951a0511f31",
+    "95327.txt": "281c654ad4ca196a1278aa94ddca690decf78029322518fcd6b02445520d0737"
+  },
+  "counts": {
+    "newly_retrieved_heads_and_positions": 6,
+    "fresh_families": 5,
+    "proposals": 1,
+    "fresh_deferrals": 4,
+    "prior_deferred_exact_wording_alias": 1,
+    "prior_magha_positions_screened_without_refetch": 4,
+    "prior30026_family_screened_without_refetch": 1,
+    "accepted_increment": 0,
+    "research_sources": 6,
+    "used_sources": 1
+  },
+  "capture_schema_checks": {
+    "status": "PASS_CAPTURE_SCHEMA_QUOTE_CHECK",
+    "input_head": "d00262118e5adae759e039606fa63b7df4b3b0db",
+    "capture_pairs": 6,
+    "rightsinfo_exact": true,
+    "source_ids_are_revision_ids_not_pageids": true,
+    "candidate_checks": [
+      {
+        "candidate": "anvesha-b38-01",
+        "full_required_schema": "PASS",
+        "exact_source_quote": "PASS",
+        "normalized_primary_variant_witness_matches_against299": []
+      }
+    ],
+    "used_sources": [
+      "dhaga-wiktionary-86936"
+    ],
+    "sources_not_used": 5,
+    "comparison_objects": 299,
+    "bindings": {
+      "candidates.json": "44b3c5b76b88c166dc2d72ff4bd39216f5ed1c3b822d62636344fec25548438b",
+      "source-registry.json": "94147143d7ad30407aeb1fadbc2d02e1f9545986e1dde954529b5b95a33f775a",
+      "originals.json": "97f9cf39c6d6bda69d93d7de6a7a344467ab65d256a054697151b5c4b927ef49",
+      "selection.json": "f4c86fcabcf029cc0b644c6852a6547c94ac15dceed87fd1cbc831d83ef26620"
+    },
+    "limits": [
+      "Exact normalized negative is not by itself semantic proof; separate actual full nearest-family reading recorded in semantic-comparisons.json.",
+      "No newsource retrieval,canonical changes,acceptance or bookbuild."
+    ]
+  },
+  "comparison_scope": {
+    "published_entries": 299,
+    "priorB37unaccepted_proposal": 1,
+    "total_comparison_objects": 300,
+    "qualification": "Comparison corpus only; publicedition remains299, no acceptance or produced300."
+  },
+  "prior_processing": {
+    "identity_json_files": 32090,
+    "phrase_files": 38033,
+    "no_size_exclusions": true,
+    "identity_parse_errors": 46,
+    "parse_error_limits": "45unrelated dependencyJSONC/testfixtures plusoneemptyhistoricalquery, allpaths retained; noidentifiedsourcecapture parsefailure.",
+    "phrase_read_errors": 0,
+    "initial_identity_miss": "Differenttitle79978 versus79980; fullquotation scan caught exactpriorB29deferral aftercurrentretrieval. Authorcorrection/history required andbound, not erased.",
+    "six_source_identity_hits": "Other six sourceidentity matches in priorbundles are discovery/remaining-source pointers, not fullprocessed captures; Magha URL/revision sourcepass correctlyidentified."
+  },
+  "semantic_comparisons": {
+    "candidate_key": "anvesha-b38-01",
+    "decision": "DISTINCT_BOUNDED_HEADWORD_IDIOM_PROPOSAL",
+    "source_read": {
+      "path": "outputs/dhaga-loop-2026-11-04/batch38/anvesha/48012.txt",
+      "sha256": "e1ba5b1ac984384264d4427ba311f0d779d2d923897c1e9d2e25016103e47bda",
+      "definition": "Source explicitly defines unseen wire-puller/controller of visible actors; wholeheadword labelledDhaga.",
+      "genre": "Headword idiom, not separately quoted verse. GobardhanDas not established biography/author/origin; listedBengali/Hindi equivalents do not establish transmission."
+    },
+    "compared_actual_full_objects": [
+      {
+        "id": "POD-DHAGA-026",
+        "sha256_of_sorted_object": "15a17b173bc117ca3bf739459765e44dfd2de1c8154358869f857d057c89bd25",
+        "title": "Making oneself welcome on every side",
+        "wording": "ଏ ଘର ମାଉସୀ ସେ ଘର ପିଉସୀ",
+        "difference": "Two-household manipulative familiarity/carrying talk, not an unseen director controlling visible actors."
+      },
+      {
+        "id": "POD-DHAGA-028",
+        "sha256_of_sorted_object": "6b2756b0a6d3555e06d433d148fca68fb8c783a92517b37ce8aeed4673bc0bd4",
+        "title": "A quarrel staged for others",
+        "wording": "ଅଙ୍ଗୁଳି ସନ୍ଧିରେ ମଳି\nଭିତରେ ଭିତରେ ସଲା ସୁତୁରାଲୋ\nଉପରେ ଉପରେ କଳି ।",
+        "difference": "Mutual private agreement with a public staged quarrel; distinct from concealed individual directing others."
+      },
+      {
+        "id": "POD-DHAGA-179",
+        "sha256_of_sorted_object": "eee513f7247639e4773c26e489b1c3cb67f47cd763e8065491a05582b3a437b9",
+        "title": "The tether and the horse",
+        "wording": "ଖୁଣ୍ଟ ଗୁଣେ ଘୋଡା କୁଦେ",
+        "difference": "Weak supervision through horse/stake image, not covert controlling agency."
+      },
+      {
+        "id": "POD-DHAGA-254",
+        "sha256_of_sorted_object": "b5912aa32e9fbd7d229a9126ae5bf5bb79d80bf70810bec4a8d964f9f7d3fe78",
+        "title": "Creating trouble, claiming the cure",
+        "wording": "ଡାହାଣୀ ହୋଇ ଲାଗିବା; ଗୁଣିଆ ହେଇ ଝାଡିବା",
+        "difference": "One person creates affliction then claims cure through two roles, not source-defined hidden director."
+      },
+      {
+        "id": "POD-DHAGA-283",
+        "sha256_of_sorted_object": "0cb8ff13594d587a1b7f1c48b2d4a7b9072a2310710219e5a9a33a13f564763e",
+        "title": "So many fine qualities",
+        "wording": "ମଉନମୁହୀଁର ଅପାର ଗୁଣ",
+        "difference": "Ironic praise of outwardly quiet yet scheming person; no explicit control of others, and different image/wording."
+      }
+    ],
+    "b37_proposal": {
+      "sha256": "8e5b39f7860f0270b4f42fd28443d8bb4cda94253e9e568bdce7c8501ce89d94",
+      "actual_read": "Female extensive landowner askingforfood; possessions/immediate meal contrast, no hiddencontroller relation."
+    },
+    "editorial_limits": "Literal and sourcegloss separated from original presentday decision-making application; imaginedletter scene explicitly notproof ofsecretplot. No documentedtheatrepractitioner or conspiracy inferred.",
+    "deferrals_read": [
+      {
+        "pageid": 48628,
+        "revision": 87558,
+        "position": "48628 domestic verb sense3 spoiled; quotation before sense4",
+        "wording": "ପାଣି ନାଶଯାଏ ଫାଟେ. ଗୀତ ନାଶେ ଯାଏ ବାଟେ, ସ୍ତ୍ରୀର ନାଣ ଯାଏ ଯାତର ପରବେ, କଥା ନାଶ ଯାଏ ହାଟେ",
+        "source_label": "ଢଗ",
+        "disposition": "deferred",
+        "candidate_key": null,
+        "reason": "Exact ନାଣ and linking of song/road, woman/festival, speech/market clauses unresolved. Do not silently repair spelling or endorse a restriction on women.",
+        "next_evidence": "Printed collation and complete contextual gloss of all four coordinated clauses."
+      },
+      {
+        "pageid": 56637,
+        "revision": 95730,
+        "position": "56637 domestic noun Arjuna after separate Sanskrit senses; sole quotation",
+        "wording": "ସେହି ଗାଣ୍ଡୀବ ସେହି ପାଥ, ସେହି ଗାଣ୍ଡୀବ ଏବେ ମାଥ",
+        "source_label": "ଢ଼ଗ",
+        "disposition": "deferred",
+        "candidate_key": null,
+        "reason": "Arjuna headword sense is supplied, but final ମାଥ and repeated bow wording are not explained. No remembered epic episode inserted as source meaning.",
+        "next_evidence": "Resolve exact final term and full allusion from print or an explanatory witness."
+      },
+      {
+        "pageid": 66101,
+        "revision": 197702,
+        "position": "66101 foreign noun sense4 prosperity, paired wording before sense5",
+        "wording": "ନିୟତିରେ ବରକତି; ନିୟତରେ ବରକତ",
+        "source_label": "ଢଗ",
+        "disposition": "deferred",
+        "candidate_key": null,
+        "reason": "Prosperity is defined, but ନିୟତି/ନିୟତ distinction leaves agency and sense uncertain; no guaranteed success, destiny or diligence moral invented.",
+        "next_evidence": "Resolve the first term in both paired forms and their relationship; same-source forms count one unresolved family."
+      },
+      {
+        "pageid": 79980,
+        "revision": 119542,
+        "position": "79980 domestic noun sense1 maternal uncle; bracketed example",
+        "wording": "ବାର ବରଷ ମଉଳା ପୋଷେ, ଖୁଡ଼ୁତା ଦେଖିଲେ କୋଡ଼ରେ ବସେ",
+        "source_label": "ଢଗ",
+        "disposition": "deferred",
+        "candidate_key": null,
+        "reason": "Maternal uncle and twelve-year nurturing are explicit; exact ଖୁଡ଼ୁତା relationship and omitted lap-sitting subject require explanation. No ingratitude or kinship-group trait asserted.",
+        "next_evidence": "Exact kinship gloss plus contextual agency; possible79979 alias remains snippet-level, not independently retrieved."
+      },
+      {
+        "pageid": 95327,
+        "revision": 135327,
+        "position": "95327 adjective awake all night; sole parenthesized quotation",
+        "wording": "ବାପ ପୁଅ ଦିହେଁ ରାତି ଅନିଦ୍ରା, ମୁଗୁରା ଗାଣ୍ଡି ମେଲା",
+        "source_label": "ଢ଼ଗ",
+        "disposition": "deferred",
+        "candidate_key": null,
+        "reason": "Father and son staying awake is explicit; second-clause object/condition and causal relation need lexical support. Do not invent a failed fishing episode or illness.",
+        "next_evidence": "Resolve ମୁଗୁରା and exact open-bottom clause, then contextual application; no routine repeat of current capture."
+      }
+    ],
+    "exclusions": {
+      "84127": "Actually read canonicalMagha sourcepass revision214373 and full003/081/082: numbered1and3accepted,2related003,4deferredtaboo; nofreshretrieval/count.",
+      "30026": "Compared savedsearchsnippet with fullB31/58473 revision97588: tongue-soreat-ululation versusfood/mother image same unresolvedfamily; currentheadnotfullyretrieved, no exactsourceidentity/equivalence certification."
+    },
+    "next_cursor_checked": "474/page52418 caste-directedsnippet compared actualB25/20505 source, retainpriorfamilyresolution lead;47579979 snippet alias current79980 unresolved, no extra count.",
+    "late_prior_family_correction": {
+      "current_pageid": 79980,
+      "prior_pageid": 79978,
+      "prior_revision": 196102,
+      "prior_capture": "outputs/dhaga-loop-2026-11-03/batch29/anvesha/79978.txt",
+      "finding": "Exact full quotation and same headwordmeaning, priorunresolveddeferral. Newly retrievedhead is not a freshfamily; no automaticresolution/acceptance/sourceimport.",
+      "method": "Identity-only screen did not connectdifferenttitle; separate fullquotation-fragment scan across38033 JSON/TXT/MD files foundactualpriorcapture. Both actualcaptures and B29disposition read.",
+      "count_effect": "Six newlyretrievedpositions, fivefreshfamilies (oneproposal/fourfreshdeferrals) plusoneprior-deferralaliaszero.",
+      "next_alias": "475/79979 remains sameknownB29/B38family pending targetedlexicalresolution, not thirdnewfamily."
+    }
+  },
+  "budget": {
+    "field_words": {
+      "title": 5,
+      "literal_meaning": 7,
+      "explanation": 50,
+      "meaning_odia": 34,
+      "english_summary": 11,
+      "odia_summary": 10,
+      "cultural_context": 41
+    },
+    "exact_quote_words": 4,
+    "total": 162,
+    "limit": 200,
+    "original_example_excluded": true
+  },
+  "used_source_union": [
+    "dhaga-wiktionary-86936"
+  ],
+  "source_roles": "WholeheadwordexplicitlylabelledDhaga and explicitfigurativegloss; dictionarylineage notindependentcorroboration. SourceIDsrevisionnotpageIDs; rightsinfoCCBYSA4exact; futurepackaging mustretainoriginalrightsinfo plusrenderer-compatible string.",
+  "coverage_next": {
+    "query_offset": 450,
+    "next_result_offset": 474,
+    "pageid": 52418,
+    "title": "ପଖା ଖସେଇବା",
+    "instruction": "First compare saved B25page20505 caste-directed quote; likely prior family, not automatic fresh source. Then47579979 snippet alias of current79980; continue saved450 before500."
+  },
+  "backlogs": [
+    "381/78844 targeted resolution",
+    "388/92065 targeted resolution",
+    "88260 mixed previously processed/unresolved",
+    "91291 senses2/3 prior unresolved",
+    "B14capture68830 reuse pointer for B33deferred32193",
+    "30026 same B31deferred58473 family; no routine refetch"
+  ],
+  "preservation": {
+    "status": "PASS_WITH_AUTHORIZED_111_RECORD_DELTA",
+    "input_head": "d00262118e5adae759e039606fa63b7df4b3b0db",
+    "checked_head": "da32e72b89a5d3d840f2cc949d3b65accae48eb7",
+    "book_files_exact": 1761,
+    "prior_bindings_exact": 96,
+    "shared_baseline": 3962,
+    "shared_exact": 3960,
+    "shared_authorized_changes": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md"
+    ],
+    "entire_git_delta": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/everyday-food-utility-review-2026-11-04.json"
+    ],
+    "111_manifest_sha256": "25342d8196d707f4569142a89dc2c7182d2f227b860e15dbcaca3c341848c2d7",
+    "new_record_qualified": "Third delta path is new111utilityrecord, not originally insharedbaseline; all3exactmanifesthashes/sizes verified.",
+    "baseline_sha256": "c7d020e99eaac66e1143640e792a0507bf02c7da8b91bfb09d0eaae09df1d615"
+  },
+  "evidence": {
+    "baseline.json": "c7d020e99eaac66e1143640e792a0507bf02c7da8b91bfb09d0eaae09df1d615",
+    "prior-screen.json": "5fe7d9349028ade15e4cbabdbac4cf5907353076e49af7b71d17ad1f1140f613",
+    "prior-phrase-screen.json": "94a2027329afdaf39a9245b215a2a2deef7f526824fc3e9ab86c419e6c23f550",
+    "draft-validation.json": "5969a50a337f6f772bfe3f76657b65c185f0822b437a85a5b43374551b459cd0",
+    "semantic-comparisons.json": "139d4d8d2021b7fcd81d80be4cb78a18c027106f9f2b4199086c87acf124cf54",
+    "preservation-check.json": "cf2fd2e0579b73520a87a3ef6ef6ffbc15b31b7f499b7fab17db0e1429e5dce8",
+    "reuse-query.json": "198a6dfd858962a4a4e4c188b1e2727b02dbfefe4440ac2bcd7186daf73d588d"
+  },
+  "limits": [
+    "No source retrieval, canonical/Git/art/build/publication edits or programmecredit.",
+    "Exactnormalizednegative alone isnotsemanticproof; actualfullclosest026/028/179/254/283 objects andB37candidate read andbounded differences documented.",
+    "Prior30026 remains snippet-family comparison againstfullB31source, notfullcurrenthead identitycertification.",
+    "66101pairedforms counted onequote/family; no inventedresolution; fivependingpositions includeoneprioralias.",
+    "Root111records-only delta accounted explicitly; public/book/narratives remainunchanged.",
+    "SeparateDrishti actualfinalreview required."
+  ],
+  "scope": "samanta/ only; released after frozenreport notification"
+}

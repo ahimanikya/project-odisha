@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "reviewer": "Drishti",
+  "scope": "Independent read-only editorial, source-preservation and final artifact review; only this receipt writable.",
+  "target_counts": {
+    "online_readings": 52,
+    "book_readings": 49
+  },
+  "preparation": {
+    "actual_reads": [
+      "Current handoff and repository instructions",
+      "Current DAMaN, Vishal Mourya, Debi Prasad Lenka and Deependra Samal narrative bodies",
+      "Book builder order, source maps, note numbering, link resolution and receipt code",
+      "Current cinema release sequence/image/source tests"
+    ],
+    "historical_input_hashes": {
+      "output/pdf/build_book.py": "97cf832f9e0210c9f9b02bbfabf6d63664ece87aca60b92f29a3f056a51a6044",
+      "projects/site/src/data/cinema.json": "e074a03c401c2b693f5b476bdea2c17616ff930ff818ad086d8c3c0856ef7c81",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "90a614e31fccb8a483e67ad655b704315b05eb2358bbf4a271041af4ccfd41d9",
+      "projects/site/tests/cinema-release.test.mjs": "4cea08079ec9452a25a99f51525a8279dcf7827dfd999bafd24eb1bb5ecf8c40"
+    },
+    "candidate_checks_required": [
+      "52 online entries and every prior online route retained; 49 unique book chapters in intended seven-part order.",
+      "Bibhuti after Kanhu; Solila after Nandita; Part 5 Bapa distinction explicit and Pratikshya/Anupam/DAMaN flow retained.",
+      "All three DAMaN maker portraits retained within its chapter with original source identities, natural framing and individual compact credit notes. Preserve existing Babushaan image too.",
+      "Source bindings for integrated excerpts must include excluded profile sources, not only 49 chapter roots. Book adaptations must be explicit and hash-bound.",
+      "Merge imported footnotes before numbering with collision-safe IDs; no dangling reference, duplicate note identity or wrong return target.",
+      "Excluded-profile links must resolve to in-chapter anchors or actual retained online profiles, never missing chapter anchors or generic hub fallback.",
+      "People index, discovery callouts, bridges, primary route, printed chapter/page references and directory must use actual book inclusion/map.",
+      "Count tests must distinguish online52 from book49 rather than weaken to nonzero checks. Preserve current online profile route and image guards.",
+      "Compare unaffected narrative, image originals/display geometry/captions, source mappings and previous published downloads against baseline; document every intended change.",
+      "Inspect actual affected body/portrait/notes/contents/adjacent pages in both final editions; no all-page manual review implied."
+    ],
+    "findings_classification": "Anticipated implementation pitfalls, not final defects. Candidate not yet reviewed."
+  },
+  "final_verdict": "PASS for scoped editorial integration, source binding, portrait preservation, internal PDF navigation and selected visual layout. Release/publication execution and final website test completion remain coordinator responsibilities.",
+  "publication_claim": false,
+  "source_static_gate": {
+    "status": "PASS",
+    "online_unique_readings": 52,
+    "book_unique_readings": 49,
+    "integrated_profiles": [
+      "vishal-mourya",
+      "debi-prasad-lenka",
+      "deependra-samal"
+    ],
+    "checks": [
+      "All 52 canonical article hashes independently match site entries.",
+      "All four book override source hashes match canonical entries.",
+      "All six integrated portrait bytes match declared SHA256; all four source_profile hashes match actual files.",
+      "Read every override paragraph, source note and seven book part intros; no unsupported payment or observed-performance claim introduced.",
+      "Part 5 correctly identifies Bapa via director interview and no longer implies The Culprit is Pratikshya source.",
+      "Imported footnotes merged before numbering and duplicate note IDs rejected.",
+      "Relative and public-route links to excluded makers resolve to explicit book-profile anchors, with matching BOOKPROFILE rendering branch.",
+      "Online navigation retains all three individual maker pages; promoted Bibhuti/Solila remain distinct routes."
+    ],
+    "blocking_findings": [],
+    "pending": [
+      "Actual PDF destination integrity and guide_refs after build repair.",
+      "Actual image/paragraph/footnote flow, especially new Literature portraits and three DAMaN portraits.",
+      "Final rendered website navigation, counts, profile routes and download metadata.",
+      "Final preservation comparison and final artifact hashes."
+    ],
+    "input_hashes": {
+      "output/pdf/build_book.py": "a860e6ae0d7c77cd51731772c10713703f2b4c0ab8843c0ea1a34665f6c01160",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "c993618200509df98639146986e8a44274cb0201f1c3030a313b9911fec9e880",
+      "projects/site/src/data/cinema.json": "54a6ce7859bca9621776f592b25ee948cece57b6a8a8a9509efdc49b344183d5",
+      "projects/site/src/components/CinemaReading.astro": "d430b6bd74657db56f1acb4d79af104d813140992fa9a44dc314b56d77eab7c6",
+      "projects/site/src/lib/cinema-article.mjs": "e29926426fc633e3d57cf97ca1237afcf4a5dbde13605e0f679c5373388c6945"
+    },
+    "limits": "Read-only source/code review while builds are in progress; no rendered or final publication verdict."
+  },
+  "first_digital_visual_review": {
+    "pdf_sha256": "1a61b301d26df86248fd50e3cdafeb085234f09cf5c41028948ce77db789a48b",
+    "pages": 270,
+    "notes": 535,
+    "image_placements": 62,
+    "actual_contact_sheets_viewed": [
+      1,
+      2,
+      3,
+      11,
+      14,
+      15,
+      20,
+      22,
+      23
+    ],
+    "actual_full_pages_viewed": [
+      25,
+      26,
+      37,
+      168,
+      169,
+      240,
+      241,
+      242,
+      265
+    ],
+    "required_corrections": [
+      {
+        "issue": "Integrated portrait heading stranded on previous page",
+        "pages": [
+          25,
+          26,
+          169,
+          170
+        ],
+        "detail": "Nayak heading alone at end25, portrait/caption/paragraph26. Deependra heading end169, portrait/caption/paragraph170. Keep heading with portrait/caption. No prose reordering defect: initial contact-sheet shorthand was corrected after full-page inspection."
+      }
+    ],
+    "observations": [
+      "Digital174 has a sparse trailer/bridge/art tail; assess after primary grouping correction.",
+      "New portraits appear natural and credits are compact numbered notes. No image clipping or caption overlap seen in inspected pages.",
+      "Contents shows49 chapters; Part5 identifies Bapa explicitly.",
+      "Endnotes retain source and image credits; the three DAMaN image notes are individually present."
+    ],
+    "structural_check": "1662 internal annotations inspected programmatically; no unresolved string destinations. PDF uses resolved destination arrays, so final array/page-target validation remains required.",
+    "limits": "Contact sheets provide layout overview only; full-size readability checked only on listed pages. First-pass PDF will be superseded by heading correction."
+  },
+  "heading_caption_recheck": {
+    "pdf_sha256": "07f8a15afb9ab73f8bf83c90e6eab4b9576418997d2248ce9cdaa2985842e9f2",
+    "actual_full_pages_viewed": [
+      16,
+      19,
+      25,
+      26,
+      169,
+      170,
+      174
+    ],
+    "resolved": [
+      "Nayak heading now attached to portrait/caption on26.",
+      "Deependra heading now attached to portrait/caption on170.",
+      "Fakir/Pratibha captions have subject/context only; credit references retained."
+    ],
+    "required_remaining": [
+      "Replace stale DAMaN closing bridge on174 that promises next maker career, while next chapter is now television. Suggested existing Deependra bridge: The work continues on other screens, through programmes that ask viewers to return."
+    ],
+    "spacing_observation": "174 remains a spacious trailer/bridge/art tail. Not by itself a factual or legibility blocker; no source/art reduction requested."
+  },
+  "print_visual_review_before_parent_heading_fix": {
+    "pdf_sha256": "d709c5f8b58a2cd2837f1c7f510d850573218e83c2d615f90cf9e020cc98bb8c",
+    "actual_contact_sheets_viewed": [
+      2,
+      3,
+      11,
+      14,
+      15,
+      20,
+      21,
+      23
+    ],
+    "actual_full_pages_viewed": [
+      19,
+      26,
+      169,
+      173,
+      240
+    ],
+    "required_correction": "Print19 strands parent H2 The connection continues before child H3/portrait on20. Extend portrait grouping to consecutive preceding headings.",
+    "other_findings": "Nayak and Deependra groups corrected, final television bridge correct, numbered source/image credits compact. Spacious DAMaN closing173 is coherent watch/bridge/art group; not a blocker. No clipping observed in reviewed pages."
+  },
+  "final_digital_pending_print": {
+    "sha256": "7b7824cb3252a8cc9c38952a684a6f50ed61d8f46311844a81db3dd8c8268671",
+    "pages": 270,
+    "actual_bridge_page_viewed": 174,
+    "preservation": "All57 prior image originals/display geometry preserved;62 unique placements; cover hash unchanged against writer-support.",
+    "internal_annotations_checked": 1662,
+    "invalid_page_destinations": 0
+  },
+  "required_corrections": [],
+  "input_hashes": {
+    "output/pdf/build_book.py": "bbaabfcbe4eed0efb4ca05a1cbe6e5b574024cf5e03b8ba34e5215101fc6c038",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "45217623912de7b32edef78e7d3d07ac632346e55719e93165ee73a1ae620b9b",
+    "projects/site/src/data/cinema.json": "8733e14e84ef6b589c4be835b8d9318912b15d7dcf67dab3f05cef01306d85fa",
+    "outputs/cinema-sequence-publication-20261107/implementation.json": "0c1c7a13e0c51715445a0439021062cd34b6b36a8f1360c5445883d3ed286fd5"
+  },
+  "final_artifacts": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-07-sequence.pdf",
+      "sha256": "4cc437b60e06bf3707e73c88c354e41313491f634d8bd9fdbc7fa6d248aa4320",
+      "receipt": "tmp/pdfs/2026-11-07-sequence/digital/book-build-2026-11-07-sequence.json",
+      "receipt_sha256": "28948a2e013daedeccef834a2d6e512d7f5914b3af6310c4be4d3ae507f3daa1",
+      "pages": 270,
+      "notes": 535,
+      "book_chapters": 49,
+      "images": 62,
+      "stable_page_map": true
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-07-sequence.pdf",
+      "sha256": "18323645e1eaa30bfe3e44f056b676578109d58482d82ac9bb3dfc1e9e63587f",
+      "receipt": "tmp/pdfs/2026-11-07-sequence/print/book-build-2026-11-07-sequence.json",
+      "receipt_sha256": "0dfc443e707281c35d35f8bd8d4b30024c1281326915b2eed9e624738be082ca",
+      "pages": 276,
+      "notes": 535,
+      "book_chapters": 49,
+      "images": 62,
+      "stable_page_map": true
+    }
+  },
+  "final_checks": {
+    "composition": "52 online readings and49 book chapters; exactly three maker profiles integrated into DAMaN, while all retained online. Two new standalone readings in agreed positions.",
+    "source_gate": "Previously recorded source/static review remains applicable; all52 canonical source hashes, six integrated image hashes and four profile hash bindings independently verified.",
+    "portrait_preservation": "All57 previous original-image hashes and six display geometry fields unchanged in each edition compared with writer-support.62 unique current image hashes: five additions, three existing maker portraits relocated. Existing DAMaN hero and Babushaan supporting photograph retained.",
+    "covers": "Both cover hashes unchanged versus writer-support.",
+    "pdf_navigation": {
+      "digital_internal_annotation_destinations": 1662,
+      "print_internal_annotation_destinations": 1182,
+      "invalid_destinations": 0,
+      "method": "Every internal destination array checked against actual PDF page indirect references; no unresolved string destinations."
+    },
+    "resolved_findings": [
+      "Nayak and Deependra headings grouped with their portraits/captions.",
+      "Consecutive H2/H3 for Pratibha grouped on final print20; no orphan on19.",
+      "DAMaN closing bridge now points toward programmes/other screens, matching next television chapter.",
+      "New Fakir/Pratibha captions contain subject/context; creator, source and licence retained in numbered notes."
+    ],
+    "layout": "No clipping or caption overlap in inspected scope. Final print19 is deliberately short because the full portrait group begins20; digital174/print174 retain spacious watch/bridge/art endings. These are visible spacing limitations, not unresolved orphan headings. Final blank print275 is parity before back cover276.",
+    "count_statement": "Current proofs270digital/276print,535notes. Pagination differs from earlier passes; final printed references use final stable map."
+  },
+  "final_visual_scope": {
+    "method": "Selected full-page inspection plus contact-sheet layout review; historical inspections above retained and supplemented after each bounded correction. No whole-book full-size manual claim.",
+    "final_digital_full_pages": [
+      16,
+      19
+    ],
+    "digital_bridge_after_correction_full_page": 174,
+    "final_print_full_pages": [
+      19,
+      20,
+      21
+    ],
+    "final_print_contact_sheets": [
+      3,
+      11,
+      15,
+      23
+    ],
+    "earlier_scope_reused": "Detailed earlier full-page and contact-sheet scopes retained in first_digital_visual_review, heading_caption_recheck and print_visual_review_before_parent_heading_fix. Final correction only grouped consecutive headings; final metadata/navigation checks rerun on exact bytes.",
+    "website": "Source/navigation code reviewed; root owns actual browser checks. No independent browser screenshot inspection claimed in this receipt."
+  }
+}

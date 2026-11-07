@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/tala-pitha-editorial-2026-11-06.json",
+  "handoff_home": "records/baigana-poda-editorial-2026-11-07.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-116",
+    "route": "/food/baigana-poda/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/baigana-poda-editorial-2026-11-07.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-114",
-    "handoff": "records/tala-pitha-editorial-2026-11-06.json"
+    "status": "in_progress",
+    "article_id": "POD-EDIT-116",
+    "handoff": "records/baigana-poda-editorial-2026-11-07.json"
   },
   "parallel_programmes": [
     {
@@ -73,9 +79,9 @@
     {
       "name": "Odia Dhaga and Dhamali corpus",
       "automation_id": "odia-dhaga-and-dhamali-research",
-      "handoff": "records/odia-dhaga-team-2026-10-23.json",
-      "last_completed_handoff": "records/odia-dhaga-expansion-219-2026-10-31.json",
-      "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
+      "handoff": "records/odia-dhaga-expansion-358-2026-11-07.json",
+      "last_completed_handoff": "records/odia-dhaga-expansion-358-2026-11-07.json",
+      "queue_note": "358readings/301illustrations/57text-only additions published/live verified; receipt696merged and remoteverified. Finite release complete. Preserve B64prefetch cursor750 and all historical deferred leads; no repeat acceptance or credit."
     },
     {
       "name": "Dhaga historical pages 10–12 research",
@@ -103,15 +109,15 @@
     },
     {
       "name": "Cinema research and story expansion",
-      "handoff": "records/cinema-publication-2026-11-07.json",
+      "handoff": "records/cinema-sequence-publication-2026-11-07.json",
       "status": "published_verified",
-      "scope": "One active article. Evidence-led optional addition; do not infer Odia language, contract terms, actual reach, learning outcomes or profitability. Preserve all existing imagery and other readings.",
-      "note": "PR 689 published and independently reviewed; 61 live routes match the released content. 262 image files match byte for byte; three content-addressed responsive variants have reviewed encoder differences. Current 264/270-page books and 6-page introduction match anonymous download hashes. No programme increment.",
+      "scope": "Implement reviewed book and website composition as one publication batch, with book-only adaptations; retain all online profiles.",
+      "note": "Reviewed receipt694 merged at f3e743a89ab0e39daffc07fad2f2bf25e81726c6 after required check42316217972SUCCESS; explicit release condition met. Original fields retained in completed_scope_reconciliations.",
       "active_article": null,
       "scope_released": true
     }
   ],
-  "coordination_note": "113 focused substantive revision active under Disha sole shared writer;112 receipt682 completed/released. Public299/local301 and50 Dhaga proposals preserved.",
+  "coordination_note": "Dhaga358receipt696completed/released without newcredit.116 substantive article implementation is the sole finite article claim; Disha sole shared writer. Programme138completed;139inprogress,credit0.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
@@ -128,5 +134,66 @@
     "receipt_merge": "30570364f3bdbef73e98f34d3e43882a5a3b6e22",
     "delivery_sha256": "464088e4b40dde212e57cc850712d602c56df07980dd181d04f52031c9c98862",
     "credit_added_here": 0
-  }
+  },
+  "completed_scope_reconciliations": [
+    {
+      "scope": "POD-EDIT-114",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 686,
+      "receipt_merge": "e0b220221892b3dbf9b9a00c8bafef8a5b4f791d",
+      "delivery_sha256": "fe393724a28cf8652111bf851e2b85ca705a0e3bfb34bf66cfecf5e859843e9a",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-114",
+        "handoff": "records/tala-pitha-editorial-2026-11-06.json"
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "Cinema research and story expansion",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 694,
+      "receipt_merge": "f3e743a89ab0e39daffc07fad2f2bf25e81726c6",
+      "required_check_run": 42316217972,
+      "required_check_result": "SUCCESS",
+      "condition": "Release this publication scope when the receipt commit merges after required checks. Publication and live verification are already complete; no further website deployment is required for this evidence-only receipt.",
+      "coordinator_reconciliation_sha256": "8168703f4834b89894b0bef0f56f81ea1ab6bdfb77d9ef90450ad1846fb101b4",
+      "credit_added_here": 0,
+      "original_parallel_programme": {
+        "name": "Cinema research and story expansion",
+        "handoff": "records/cinema-sequence-publication-2026-11-07.json",
+        "status": "published_verified_receipt_integration",
+        "scope": "Implement reviewed book and website composition as one publication batch, with book-only adaptations; retain all online profiles.",
+        "note": "PR 693 merged and deployment 42314570245 succeeded;58 live routes and exact PDF bytes verified. Evidence-only receipt remains to merge; scope releases on its reviewed merge.",
+        "active_article": null,
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "Dhaga358",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 696,
+      "receipt_merge": "4dcca208832866ec4a39782833b307c7bb9c1a42",
+      "delivery_sha256": "dfff24030dee0cb49daa2ad08956facca921a7f429a5bcd422251bc075f2384e",
+      "original_current_task": {
+        "kind": "dhaga_release",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "handoff": "records/odia-dhaga-expansion-358-2026-11-07.json",
+        "scope": "One358-reading release,301 existing illustrations and57 intentionally unillustrated additions; readability integration; zero programme credit."
+      },
+      "credit_added_here": 0
+    }
+  ],
+  "dhaga358_receipt_pointer_history": [
+    {
+      "name": "Odia Dhaga and Dhamali corpus",
+      "automation_id": "odia-dhaga-and-dhamali-research",
+      "handoff": "records/odia-dhaga-team-2026-10-23.json",
+      "last_completed_handoff": "records/odia-dhaga-expansion-219-2026-10-31.json",
+      "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
+    }
+  ]
 }

@@ -93,12 +93,36 @@ section_keys=[item['id'] for item in section_guide]
 if len(section_keys)!=len(set(section_keys)):raise ValueError('Duplicate discovery section IDs')
 section_matches={ident:0 for ident in section_keys}
 page_map=json.loads(Path(args.page_map).read_text()) if args.page_map else {}
-plan={'parts':manifest['parts'],'image_note':'Illustrations and credited documentary photographs accompany the readings.','preface':manifest.get('reading_intro','Read these chapters as connected journeys through language, performance and filmmaking.')}
+plan={'parts':narrative.get('book_parts',manifest['parts']),'image_note':'Illustrations and credited documentary photographs accompany the readings.','preface':manifest.get('reading_intro','Read these chapters as connected journeys through language, performance and filmmaking.')}
 order=[slug for part in plan['parts'] for slug in part['chapters']]
-assert len(order)==len(entries)==len(set(order))
+if len(order)!=len(set(order)) or set(order)-set(entries):raise ValueError('Invalid book chapter order')
+if narrative.get('book_order',order)!=order:raise ValueError('Book order and parts differ')
+integrated_profiles=narrative.get('book_integrated_profiles',{})
+if set(entries)-set(order)!=set(integrated_profiles):raise ValueError('Every excluded online profile needs a book integration')
+if any(target not in order for target in integrated_profiles.values()):raise ValueError('Unknown integrated-profile chapter')
 partmap={s:(i+1,p['title']) for i,p in enumerate(plan['parts']) for s in p['chapters']};selected_bridge_ids=list(dict.fromkeys(['odia-cinema']+[part['chapters'][-1] for part in plan['parts'][:-1]]));bridges={slug:narrative.get('bridges',{})[slug] for slug in selected_bridge_ids if slug in narrative.get('bridges',{})}
 pathmap={str((R/a['source']).resolve()):a['slug'] for a in entries.values()};routemap={a['route']:a['slug'] for a in entries.values()};notes={};numbers={};counts={};pages={};images=[];image_credit_notes=[];chapters=[];refseq={};reading={}
-def chapter_source(slug):return (R/entries[slug]['source']).read_text()
+book_override_records=[]
+def chapter_source(slug):
+ raw=(R/entries[slug]['source']).read_text();override=narrative.get('book_overrides',{}).get(slug)
+ if not override:return raw
+ if hashlib.sha256(raw.encode()).hexdigest()!=override['source_sha256']:raise ValueError('Stale book adaptation: '+slug)
+ result=raw
+ for patch in override['patches']:
+  anchor=patch['anchor'];text=patch['markdown'];op=patch['operation']
+  if result.count(anchor)!=1:raise ValueError('Book patch anchor must be unique: '+patch['id'])
+  replacement={'insert_before':text+'\n\n'+anchor,'insert_after':anchor+'\n\n'+text,'replace':text}.get(op)
+  if replacement is None:raise ValueError('Unknown book patch operation')
+  result=result.replace(anchor,replacement,1)
+ existing=set(re.findall(r'^\[\^([^]]+)\]:',raw,re.M))
+ for note in override.get('notes',[]):
+  match=re.fullmatch(r'\[\^([^]]+)\]: (.+)',note)
+  if not match or match[1] in existing:raise ValueError('Duplicate or invalid imported book note')
+  existing.add(match[1]);result+='\n'+note+'\n'
+ return result
+for slug in narrative.get('book_overrides',{}):
+ adapted=chapter_source(slug)
+ book_override_records.append({'slug':slug,'source_sha256':narrative['book_overrides'][slug]['source_sha256'],'adapted_source_sha256':hashlib.sha256(adapted.encode()).hexdigest(),'patch_ids':[p['id'] for p in narrative['book_overrides'][slug]['patches']]})
 for slug in order:
  s=chapter_source(slug);notes[slug]=dict(re.findall(r'^\[\^([^]]+)\]:\s*(.*)$',s,re.M));first=list(dict.fromkeys(re.findall(r'\[\^([^]]+)\](?!:)',s)))
  notes[slug]={k:notes[slug][k] for k in first+list(notes[slug]) if k in notes[slug]}
@@ -122,10 +146,10 @@ def inline(text,slug=None,refs=True,print_address=True):
   elif not re.match(r'https?://|mailto:',url):
    p=(R/entries[slug]['source']).parent/url.split('#')[0] if slug else R/url
    dest=pathmap.get(str(p.resolve()))
-   target='#ch-'+dest if dest else 'https://projectodisha.org/stories/prahlada-nataka/' if p.name=='prahallad-nataka.md' else 'https://projectodisha.org/cinema/'
+   target=('#book-profile-'+dest if dest in integrated_profiles else '#ch-'+dest) if dest else 'https://projectodisha.org/stories/prahlada-nataka/' if p.name=='prahallad-nataka.md' else 'https://projectodisha.org/cinema/'
   
   for route,chapter in routemap.items():
-   if target.split('#')[0] in [route,'https://projectodisha.org'+route]:target='#ch-'+chapter;break
+   if target.split('#')[0] in [route,'https://projectodisha.org'+route]:target='#book-profile-'+chapter if chapter in integrated_profiles else '#ch-'+chapter;break
   suffix=''
   if PRINT and target=='#overview-companion':suffix=f' (p. {page_map.get("overview-companion","000")})'
   if PRINT and target.startswith('#ch-'):
@@ -208,8 +232,9 @@ def displayed_image_credit(full_credit,description,hero=False):
    if at>=0 and full_credit[:at]==description:return full_credit[at:].strip()
  return full_credit
 
-def figure(path,caption,slug,hero=False):
- layout=image_frames.get((slug,str(Path(path).relative_to(R))),{})
+def figure(path,caption,slug,hero=False,layout_slug=None):
+ layout_owner=layout_slug or slug
+ layout=image_frames.get((layout_owner,str(Path(path).relative_to(R))),{})
  full_caption=caption+(' '+layout['credit_note'] if layout.get('credit_note') else '')
  documentary=not hero or entries[slug].get('hero',{}).get('kind') in {'documentary','supplied-portrait'}
  credit_number=None
@@ -227,7 +252,7 @@ def figure(path,caption,slug,hero=False):
   notes[slug][credit_key]=displayed_credit
   image_credit_notes.append({'number':credit_number,'note_key':credit_key,'slug':slug,'full_credit':full_caption,'displayed_credit':displayed_credit,'description':caption,'source':str(Path(path).relative_to(R))})
  p=Path(path);original=PILImage.open(p);oriented=ImageOps.exif_transpose(original);w,h=oriented.size
- layout,fw,fh=frame_geometry(p,slug,w,h);cfg=layout.get('book',{});cover=cfg.get('fit')=='cover'
+ layout,fw,fh=frame_geometry(p,layout_owner,w,h);cfg=layout.get('book',{});cover=cfg.get('fit')=='cover'
  zoom=cfg.get('zoom',1)
  draw_w=max(fw,fh*w/h)*zoom if cover else fw;draw_h=draw_w*h/w;scale=draw_w/w
  embedded=p if PRINT else delivery.get(str(p.relative_to(R)),p)
@@ -280,6 +305,7 @@ class Book(BaseDocTemplate):
   while pdfmetrics.stringWidth(title,'Book',8)>WIDTH and len(title)>8:title=title[:-2].rstrip()+'…'
   return title
  def afterFlowable(self,f):
+  if hasattr(f,'profilekey'):self.chapter_pages[f.profilekey]=self.page
   if hasattr(f,'runningtitle'):self.current=f.runningtitle
   if hasattr(f,'partkey'):
    self.canv.bookmarkPage(f.partkey);self.notify('TOCEntry',(0,f.parttitle,self.page,f.partkey));self.chapter_pages[f.partkey]=self.page
@@ -476,6 +502,22 @@ def render_body(body,slug,companion=False):
  lines=body.splitlines();i=0;paragraphs=0;watch_start=None;aside_start=None;body_start=len(story)
  while i<len(lines):
   line=lines[i].strip();i+=1
+  if line.startswith('BOOKPROFILE:'):
+   profile=line.split(':',1)[1]
+   if integrated_profiles.get(profile)!=slug:raise ValueError('Unexpected integrated profile anchor')
+   anchor_flow=Paragraph('<a name="book-profile-'+profile+'"/>&#160;',styles['small']);anchor_flow.profilekey='book-profile-'+profile;story.append(anchor_flow);continue
+  if line.startswith('BOOKIMAGE:'):
+   ident=line.split(':',1)[1];item=narrative['book_images'][ident];imagepath=R/item['source']
+   if item['chapter']!=slug or hashlib.sha256(imagepath.read_bytes()).hexdigest()!=item['sha256']:raise ValueError('Stale integrated photograph: '+ident)
+   if item.get('source_profile') and hashlib.sha256((R/item['source_profile']).read_bytes()).hexdigest()!=item['source_profile_sha256']:raise ValueError('Stale integrated profile: '+ident)
+   block=figure(imagepath,item['caption']+' Photo: '+item['credit'],slug,layout_slug=item.get('layout_slug'))
+   # Imported portraits belong with their heading and optional named profile anchor.
+   # Flatten the figure group so ReportLab can measure the whole opening together.
+   opening=[]
+   if story and hasattr(story[-1],'profilekey'):opening.insert(0,story.pop())
+   while story and isinstance(story[-1],Paragraph) and story[-1].style.name in ['h2','h3']:opening.insert(0,story.pop())
+   if not opening or not isinstance(opening[0],Paragraph) or opening[0].style.name not in ['h2','h3']:raise ValueError('Integrated photograph must follow its heading: '+ident)
+   story.append(KeepTogether(opening+block._content));continue
   if line.startswith('CINEMALINEART:'):
    ident=line.split(':',1)[1]
    if not PRINT and any(item['id']==ident and item.get('new_book_page') for item in narrative.get('line_art',[])):story.append(PageBreak())
@@ -674,7 +716,7 @@ for index,slug in enumerate(order,1):
      story[-count:]=[KeepTogether(candidate)];break
  for vignette in book_tail_vignettes:
   if vignette['slug']==slug:story.append(TailVignette(vignette))
- chapters.append({'slug':slug,'source':a['source'],'source_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'book_body_sha256':hashlib.sha256(body.encode()).hexdigest(),'adaptation':'shortened opening; remaining survey in companion appendix' if slug=='odia-cinema' and narrative.get('overview') else 'canonical narrative with separately recorded reading aids','paragraphs':paragraphs,'notes':len(notes[slug])})
+ chapters.append({'slug':slug,'source':a['source'],'source_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'book_body_sha256':hashlib.sha256(body.encode()).hexdigest(),'adaptation':'source-bound book-only integration' if slug in narrative.get('book_overrides',{}) else 'shortened opening; remaining survey in companion appendix' if slug=='odia-cinema' and narrative.get('overview') else 'canonical narrative with separately recorded reading aids','paragraphs':paragraphs,'notes':len(notes[slug])})
 if narrative.get('overview',{}).get('companion_markdown'):
  story.append(PageBreak());h=para('Companion survey: the wider screen','chapter');h.bookkey='overview-companion';h.booktitle='Companion survey: the wider screen';story.append(h)
  story.append(para(f'The detailed survey continues here. Its numbered sources belong to Chapter {order.index("odia-cinema")+1}.','small'))
@@ -683,6 +725,7 @@ def guide_refs(item):
  assert item['slug'] in entries, 'Unknown guide reading'
  refs=item.get('source_refs',[{'slug':item['slug'],'source_note_id':item.get('source_note_id')}])
  assert isinstance(refs,list) and refs, 'Guide entry needs source references'
+ refs=[narrative.get('book_guide_ref_map',{}).get(ref['slug']+'#'+ref['source_note_id'],ref) for ref in refs]
  seen=set()
  for ref in refs:
   pair=(ref['slug'],ref['source_note_id'])
@@ -696,9 +739,9 @@ def guide_entry(item,heading):
  for ref in guide_refs(item):
   owner,key=ref['slug'],ref['source_note_id']
   references.append(f'<link href="#note-{owner}-{key}" color="{LINK_COLOR}">Ch. {order.index(owner)+1}, note {numbers[owner][key]}</link>')
- destination=item['slug']
- heading_link=f'<link href="#ch-{destination}" color="{LINK_COLOR}">'+inline(heading,destination)+'</link>'
- page_link=(f' <link href="#ch-{destination}" color="{LINK_COLOR}">Reading p. {page_map.get("ch-"+destination,"000")}</link>.' if PRINT else '')
+ destination=item['slug'];chapter=integrated_profiles.get(destination,destination);anchor='book-profile-'+destination if destination in integrated_profiles else 'ch-'+destination
+ heading_link=f'<link href="#{anchor}" color="{LINK_COLOR}">'+inline(heading,destination)+'</link>'
+ page_link=(f' <link href="#{anchor}" color="{LINK_COLOR}">Reading p. {page_map.get(anchor,page_map.get("ch-"+chapter,"000"))}</link>.' if PRINT else '')
  flows=[Paragraph(heading_link,styles['h3']),Paragraph(inline(item['text'],destination)+' '+ '; '.join(references)+'.'+page_link,styles['body'])]
  height=sum(f.wrap(WIDTH,559)[1]+f.getSpaceBefore()+f.getSpaceAfter() for f in flows)
  if height<=100:story.append(KeepTogether(flows))
@@ -809,5 +852,5 @@ for offset in range(0,len(thumbs),12):
   x=12+(k%4)*234;y=12+(k//4)*370;sheet.paste(im,(x,y));draw.text((x,y+329),f'Page {offset+k+1}',fill='black')
  sheet.save(TMP/f'contact-{offset//12+1:02}.jpg',quality=90)
 for chapter in chapters:chapter['notes']=len(notes[chapter['slug']])
-record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'print_directory_mode':'body-and-image-credit-links' if PRINT else 'not-applicable','print_directory_policy':'Bibliographic notes retain full clickable URLs without duplicate S-address entries; body/viewing links and image source/licence links retain printed addresses.','date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'tail_vignette_placements':tail_vignette_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'book_section_omissions':book_section_omissions,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'primary_path':{'destination':'primary-reading-path','title':primary_path['title'],'slugs':primary_path['chapters'],'measured_height_pt':primary_path_height,'page':doc.chapter_pages.get('primary-reading-path')} if primary_path else None,'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
+record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'print_directory_mode':'body-and-image-credit-links' if PRINT else 'not-applicable','print_directory_policy':'Bibliographic notes retain full clickable URLs without duplicate S-address entries; body/viewing links and image source/licence links retain printed addresses.','date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'online_readings':len(entries),'book_readings':len(order),'book_override_records':book_override_records,'integrated_profile_sources':{slug:{'source':entries[slug]['source'],'sha256':entries[slug]['source_sha256'],'book_chapter':target} for slug,target in integrated_profiles.items()},'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'tail_vignette_placements':tail_vignette_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'book_section_omissions':book_section_omissions,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'primary_path':{'destination':'primary-reading-path','title':primary_path['title'],'slugs':primary_path['chapters'],'measured_height_pt':primary_path_height,'page':doc.chapter_pages.get('primary-reading-path')} if primary_path else None,'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
 (TMP/('book-build-'+EDITION_KEY+'.json')).write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:record[k] for k in ['pages','notes','citation_pairs','chapter_pages']},indent=2))

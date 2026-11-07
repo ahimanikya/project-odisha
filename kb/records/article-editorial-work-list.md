@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1022. completed: 182, excluded: 565, queued: 275.
+Route inventory: 1081. completed: 182, excluded: 624, in_progress: 1, queued: 274.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -129,7 +129,7 @@ Route inventory: 1022. completed: 182, excluded: 565, queued: 275.
 | POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | completed | Publish a substantive source-supported Badi chura revision at /food/badi-chura/: exact reviewed lead, five paragraphs, two headings and two numbered notes with Founder byline. Explain dried badi, frying/dry-roasting, coarse preparation and one named meal account without universal origin, storage, health or tested-recipe claims. Preserve photo licence/credit, food:badi-chura Save ID, two source IDs and four reading links. Replace old same-route collection/KB summaries, maintain aggregate source budgets198/168 and short portable titles. Require exact KB/site/portable parity, full/coast/publication gates, responsive browser/download review, independent integrated/exact-head review, requiredCI success, reviewed merge and approved successful deployment, actual live checks and separate reviewed receipt before completion. |
 | POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | completed | Publish the reviewed substantive Tala pitha preparation contrast at /food/tala-pitha/: exact two attributed paragraphs, lead, By Ahimanikya Satapathy and two native numbered notes. Preserve separate baked/fried sequences, unspecified Delite maturity/temperature scale, no tested recipe or statewide/season/storage/health claims. Replace old same-route summaries;112 words per new source across article surfaces;114 across all reviewed surfaces, including two additional compact-title words from everyday website and portable references, short source titles, no additional Panda/Gapu derivation. Preserve photo licence/credit without attributing it to either recipe, food:tala-pitha SaveID, three reading links, unrelated Talagaja and source records. Require exact KB/site/portable parity, complete gates, responsive browser/download and separate integrated/exact-head review, CI success, reviewed merge, successful authorized deployment, actual live verification and separately reviewed receipt before any completion credit. |
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | excluded | classification_pending |
-| POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | queued | classification_pending |
+| POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | in_progress | Substantive attributed preparation comparison; existing authored dish article, not utility classification. |
 | POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | queued | classification_pending |
 | POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | queued | classification_pending |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | queued | classification_pending |
@@ -1046,3 +1046,62 @@ Route inventory: 1022. completed: 182, excluded: 565, queued: 275.
 | POD-EDIT-DONGRIA-SONGS-AND-SINGERS-ROUTE-20261107 | [Songs and singers in Dongria life](https://projectodisha.org/stories/dongria/songs-and-singers/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
 | POD-EDIT-DONGRIA-KOTPAD-AND-KAPADAGANDA-ROUTE-20261107 | [Kotpad and Kapadaganda through their makers](https://projectodisha.org/stories/dongria/kotpad-and-kapadaganda/) | excluded | Canonical URL and spelling migration of an already reviewed Dongria page; no additional article completion credit. |
 | POD-EDIT-DONGRIA-BOOK-20261107 | [Dongria Kondh: Life in Niyamgiri — the book](https://projectodisha.org/stories/dongria/book/) | excluded | Online companion and reading sequence for the existing published book. |
+| POD-EDIT-DHAGA-300-20261107 | [ଷାଠିଏ ବାଟି ନାହାକିଆଣୀ ପରର ବାଡ଼ି ପନ୍ଦାଡ଼ରେ ମାଗି ଖାଉଛି](https://projectodisha.org/dhaga/sayings/pod-dhaga-300.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-301-20261107 | [ନାଟର ଗୁରୁ ଗୋବର୍ଦ୍ଧନ ଦାସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-301.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-302-20261107 | [ବୁଢ଼ା ଚୋରକୁ ଚୋରି ଶିଖଉଛି !](https://projectodisha.org/dhaga/sayings/pod-dhaga-302.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-303-20261107 | [ଯାହା ଘରେ ରହେ ଯୁବା ଝିଅ, ବିନା ନିଆଁରେ ପୋଡ଼େ ତା ଦିହ](https://projectodisha.org/dhaga/sayings/pod-dhaga-303.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-304-20261107 | [ଦେଖାଦେଖି ଚାଷ, ଲଗାଲଗି ବାସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-304.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-305-20261107 | [ନୂଆ ନୂଆ ଦିନା କେତେ, ନୂଆ ଦେଖି ପୁରୁଣା ପାସୋରି ଦେଲୁ, ପଛ କରି ଦେଲୁ ମତେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-305.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-306-20261107 | [ଭଗାରି ନ ଥିଲେ ଯାତ୍ରାକାଳି ଭଗାରି ବାହାରିନ୍ତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-306.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-307-20261107 | [ସୁନାମୁଦିଆ ହାତରେ ଚାପୁଡ଼ା ଖାଇଲେ ଗଙ୍ଗାସ୍ନାନ ଫଳ ମିଳେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-307.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-308-20261107 | [ଦାଈକୁ ପେଟ ଛପାଇବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-308.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-309-20261107 | [କେତେବେଳେ ଜୋଡ଼ା ମାଇପରେ ଘର କେତେବେଳେ ଚୂଲୀ ଫୁଙ୍କି ଫୁଙ୍କି ମର](https://projectodisha.org/dhaga/sayings/pod-dhaga-309.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-310-20261107 | [ଗୁଳ୍ଜି ସୁଆଁ ପାଚିଲା, ଖାଡ଼ିଆ ବୁଡ଼ା ନାଚଲା](https://projectodisha.org/dhaga/sayings/pod-dhaga-310.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-311-20261107 | [ଧନ୍ୟ ସେ ପ୍ରଜାପତି, ବରକୁ କନ୍ୟା ଘଟାଘଟି](https://projectodisha.org/dhaga/sayings/pod-dhaga-311.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-312-20261107 | [ହାଡ଼ ଗଜଗଜ ବେତକୋଳି, ତା ଖାଇଲେ କି ପେଟ ପୁରି](https://projectodisha.org/dhaga/sayings/pod-dhaga-312.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-313-20261107 | [ତୁ ମୋତେ ବୋଲୁଛୁ ଶରୁଆ ସଜ, ପରବାସ କରି ନ ଯା](https://projectodisha.org/dhaga/sayings/pod-dhaga-313.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-314-20261107 | [ଏ କଥାଟା ସତ, ହେଲେ ପାଉ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-314.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-315-20261107 | [ପାଖରେ ଶୁଏ, କାନରେ କହେ, ତା କଥା କି ଅନାସ୍ଥା ହୁଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-315.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-316-20261107 | [ଭାକୁଡ଼ମାଛ ଥାଇ ବୋଇଲା ମୁଁ ମାଛଙ୍କ ମଧ୍ୟରେ ରଜା ମୋ ମୁଣ୍ଡକୁ ସୋରୁଆ କଲେ ଦେଖିବୁ କେଡ଼େ ମଜା](https://projectodisha.org/dhaga/sayings/pod-dhaga-316.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-317-20261107 | [ଗାଁଆଁବାଲା ପଣସ ଖାଇଲେ, ଭଣ୍ଡାରୀ ମୁଣ୍ଡରେ ଅଠା ବୋଳିଲେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-317.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-318-20261107 | [ଯେ ଲାଗିଯାଏ, ସେ ମାଗିଖାଏ ନାହିଁ, ଯେ ମାଗିଖାଏ ସେ ଲାଗିଖାଏ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-318.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-319-20261107 | [ବାଳ ଛାଡ଼ି ଦିଅ ଅଣ୍ଟାରେ ପଡ଼ୁ ଲକ୍ଷେ ଚମ୍ପା ଫୁଲ ଝଡ଼ୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-319.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-320-20261107 | [ଟିକିଏ ନିଖିଏ ବଥାକୁ ଏତେ ବଡ଼ କରିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-320.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-321-20261107 | [ତୁ ତ ନୋହୁ, ତୁ କାହିଁ ପାଇଁ ଦିହକୁ ନଉ](https://projectodisha.org/dhaga/sayings/pod-dhaga-321.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-322-20261107 | [ଆଜି ମଙ୍ଗନ କାଲି ବାହା, କିସ କରୁଅଛି କନିଆର ମାଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-322.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-323-20261107 | [ଶିଖାଇଦେଲା ବୁଦ୍ଧି, ମାଗି— ଆଣିଲା ତିଅଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-323.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-324-20261107 | [ଗାଆଁ ମୁଣ୍ଡେ କଲି ଘର, ଧାଇଁ ପଡ଼ହୋ ମାଇ ପଡ଼ିଶା ମୋ ଘରେ ପଶିଛି ଚୋର](https://projectodisha.org/dhaga/sayings/pod-dhaga-324.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-325-20261107 | [ହରି ନାମକୁ ବାନ୍ଧିଥିବୁ ଭେଳା](https://projectodisha.org/dhaga/sayings/pod-dhaga-325.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-326-20261107 | [ଚୋରି କରିବ, ମହତ ଲୋକର ହାବୁଡ଼େ ପଡ଼ିବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-326.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-327-20261107 | [ଶୋଇଲା ଶେଯରୁ ଉଠେଇ ନେଲା ପକେଇ ମନ୍ତର ଧୁଳି](https://projectodisha.org/dhaga/sayings/pod-dhaga-327.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-328-20261107 | [ଅପୂର୍ବ କାନ୍ତି, ତତେ ଦେଖି କରି ମାଡ଼ୁଛି ବାନ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-328.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-329-20261107 | [ଭାତ ଥିଲେ ଭାତୁଆ ଅପୂର୍ବ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-329.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-330-20261107 | [ତୁମ୍ଭେ ତ ଭିତରକୁ ଗଲ ଆମ୍ଭଙ୍କୁ ଦୁଆର ଜଗାଇଲ](https://projectodisha.org/dhaga/sayings/pod-dhaga-330.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-331-20261107 | [ତାକୁ ଭାତ ମକମକଉଛି, ନାଁ ବୟସ ମକମକଉଛି?](https://projectodisha.org/dhaga/sayings/pod-dhaga-331.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-332-20261107 | [ଶିଳ ଶିଳପୁଆ ଗଗନେ ଉଡୁଛନ୍ତି' ଶିମିଳି ତୁଳା କହୁଛି ମୋତେ ରଖ୍](https://projectodisha.org/dhaga/sayings/pod-dhaga-332.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-333-20261107 | [ଫଗୁଣ, ଶୀତ କରେ ଦୁଗ୍ଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-333.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-334-20261107 | [ଘରେ ଗୋଡ଼ ନ ଦେଉଣୁ ମୁଣ୍ଡରେ ଚାଳ ବାଜିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-334.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-335-20261107 | [ପର ଲୁଗା ପିନ୍ଧି ଯାତକୁ ଯାଏ ଲୋକ ପଚାଲିଲେ ମୁଣ୍ଡ ଟୁଙ୍ଗାରୁ ଥାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-335.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-336-20261107 | [ବୁଡ଼ ପାରିଲା କଥା ମୁଣ୍ଡ ଶୁଖେଇଲା ବେଳକୁ ନ ଥାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-336.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-337-20261107 | [ପେଟ କାଟ ମୁଣ୍ଡ କାଟ ଏକା କଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-337.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-338-20261107 | [ଶହେ ଭାକା, ଏକଲେଖା](https://projectodisha.org/dhaga/sayings/pod-dhaga-338.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-339-20261107 | [ଆସିଛୁ ଏକା, ଯିବୁ ଏକା, ସାଙ୍ଗରେ ନ ଯିବେ ପିଲା ପିଚିକା](https://projectodisha.org/dhaga/sayings/pod-dhaga-339.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-340-20261107 | [ଯାହା ବାପ ଚଢ଼େ ଘୋଡ଼ା, ତା ପୁଅ ଚଢ଼େ ଥୋଡ଼ା](https://projectodisha.org/dhaga/sayings/pod-dhaga-340.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-341-20261107 | [ସେ ହଗ ନାହିଁ କି ବାଟ ଛାଡୁ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-341.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-342-20261107 | [ପାଗ ବାନ୍ଧୁ ବାନ୍ଧୁ କଚିରି ବରଖାସ୍ତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-342.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-343-20261107 | [ଘରବୁଡ଼ି ପାଣି ଆଣ୍ଠୁଏ ହେଲାଣି, କଣା ବୋଲେ ମେଘ ଦୁଲୁକୁଛି](https://projectodisha.org/dhaga/sayings/pod-dhaga-343.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-344-20261107 | [ତୁମ୍ଭେ ଯହିଁ ପାଇଁ ଘଷରପଶର ଆମେ ସେ କଥାଟି ଜାଣୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-344.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-345-20261107 | [ବାଘନବା ବାଧେ ନାହିଁ; ଘୋଷରାଟା ବାଧେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-345.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-346-20261107 | [ପାଠ ଡାକୁଛି, ଜଣେ ଉଡ଼େଇବ, ଜଣେ ରଖୁଛି](https://projectodisha.org/dhaga/sayings/pod-dhaga-346.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-347-20261107 | [ଲାଗି ରହି ଥାଉ ଯାଆସ ଆସ, ନ ଥାଉ ମୁଠିଏ ଭାତରେ ଆଶ](https://projectodisha.org/dhaga/sayings/pod-dhaga-347.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-348-20261107 | [ଛଡ଼ାକାନ ମନ୍ତ୍ର ଭେଦ](https://projectodisha.org/dhaga/sayings/pod-dhaga-348.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-349-20261107 | [କାଳୀମାୟୀ, ଚୂନ ବୋଳିଲେ କି ଗୋରୀ ହୋଇ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-349.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-350-20261107 | [ଥାଇକରି ଯେ ଖାଇମନ କରେ ତା ମୁହଁଟା ପୋଡ଼ୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-350.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-351-20261107 | [ଆସିବୁ ଯିବୁରେ କଳାମାଣିକ! ତୋହରି ପାଇଁ କି ନିତି ଗଞ୍ଜଣା, ପିଠିରେ ତିନ୍ତୁଳି ଛାଟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-351.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-352-20261107 | [ତିନି ଅଲଗା ଫତେଖାଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-352.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-353-20261107 | [ରୁଖାଶୁଖା) (୧) ଖାଏ ଯେ, ରୁଖାଶୁଖା (୩) ହୁଏ ସେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-353.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-354-20261107 | [ଯେତେ କାଳ ଥିଲା ଘଡ଼ିରେ ଘିଅ ସୁନ୍ଦର ଦିଶୁଥିଲା ସଜନୀ ଦିହ](https://projectodisha.org/dhaga/sayings/pod-dhaga-354.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-355-20261107 | [ବାର ଯାଇ ତେର ପଶିଲା ଦିହରେ ଶକତି ପଶିଲା](https://projectodisha.org/dhaga/sayings/pod-dhaga-355.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-356-20261107 | [ଆମ୍ୱ ଗଛରେ ଆମ୍ୱ ନାହିଁ ଫୋପାଡ଼ କାହିଁକି ମାରୁ? ମୋ ଅଣ୍ଟାରେ ତ ପଇସା ନାହିଁ ଆଖି କାହିଁ ପାଇଁ ଠାରୁ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-356.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-357-20261107 | [ଆଳୁ ପତର, କି ସାରୁ ପତର, ସେ କି ହୋଇବ ପାନ? ପଛରେ ଯାହାକୁ ଭାରିଯା କରିବ, ସେ କି ଜାଣିବ ମନ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-357.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-358-20261107 | [ମନରେ ଅଛି କକରଣ,ମିଛେ ବୋଲେ ବନ୍ଧୁ ବସ ବସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-358.html) | excluded | standalone_dhaga_collection |

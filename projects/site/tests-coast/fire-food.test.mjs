@@ -15,7 +15,7 @@ test('fire stories carry truthful photo context, licensed assets and source link
   assert.equal(createHash('sha256').update(readFileSync('dist-coast'+photo.src)).digest('hex'),photo.sha256);
   for(const id of new Set(entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))assert.ok(html.includes(foods.sources[id].url));
  }
- assert.match(read('/food/baigana-poda/'),/combined eggplant-and-tomato/);
+ assert.ok(read('/food/baigana-poda/').includes('The photograph shows combined eggplant and tomato, baigana-bilati poda. It is not a photograph of either recipe described here.'));
  assert.match(read('/food/tomato-poda/'),/does not establish a historical connection with Mexico/);
  assert.match(read('/food/patrapoda/'),/Mushroom and prawn preparations.*not pictured/);
  assert.match(read('/food/patrapoda/'),/Leaf wrapping does not by itself mean charring/);
@@ -26,7 +26,7 @@ test('fire and table starter preserves sources, personal notes and real photos i
  const plan={version:1,title:starter.title,startDate:'',items:starter.items.map(id=>({id,day:1,notes:'Ask what is inside the parcel.'}))};
  const book=buildTourBook(plan,catalog);
  for(const id of ['reading:food/fire-cooking',...slugs.map(s=>'food:'+s)]){
-  assert.ok(starter.items.includes(id));const item=catalog.find(i=>i.id===id);assert.ok(item);assert.ok(item.photo);assert.ok(item.sources.length);assert.ok(item.practical.length>=3);
+  assert.ok(starter.items.includes(id));const item=catalog.find(i=>i.id===id);assert.ok(item);assert.ok(item.photo);assert.ok(item.sources.length);id==='food:baigana-poda'?(assert.equal(item.practical.length,1),assert.equal(item.practical[0].heading,''),assert.equal(item.practical[0].paragraphs.length,3)):assert.ok(item.practical.length>=3);
   assert.ok(book.includes(item.title));for(const source of item.sources)assert.ok(book.includes(source.url.replaceAll('&','&amp;')));
  }
  assert.ok(starter.items.includes('food:pakhala'));assert.ok(starter.items.includes('food:badi-chura'));

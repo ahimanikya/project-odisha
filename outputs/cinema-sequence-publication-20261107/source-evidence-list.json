@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-07",
+  "scope": "Read-only minimal source-evidence staging recommendation for SWA/SRAI68-word paragraph, not whole release manifest.",
+  "minimum_claim_and_review_receipts": [
+    {
+      "path": "outputs/cinema-research-gaps-20261107/coordinator-research.json",
+      "exists": true,
+      "bytes": 4720,
+      "sha256": "fc327ba686ea47cb1730e8516dc36b9e1d85f1bb963b72c17ad36ddd0e478df4"
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/review.json",
+      "exists": true,
+      "bytes": 5706,
+      "sha256": "f61cabf82185a94d5985cb56bdcd67d97064a8ab2a49150092275a0aaf013457"
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/implementation.json",
+      "exists": true,
+      "bytes": 14131,
+      "sha256": "83f12baf63645497d5fa970d58eb37e0d2518c9d13a267c53299b035677f4947"
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/final-review.json",
+      "exists": true,
+      "bytes": 4706,
+      "sha256": "a71a8ee500374b86e59804ca266c95a0d37dcc470b6fb6f45d38225e8f68406a"
+    }
+  ],
+  "related_metadata_and_concise_dossiers": [
+    {
+      "path": "kb/records/cinema-research-gaps-2026-11-07.json",
+      "exists": true,
+      "bytes": 17086,
+      "sha256": "02dd52a74847e4afb6658037e4e15a612752b07bf96c69efacf87b7078f6b027"
+    },
+    {
+      "path": "kb/research/culture/cinema-series/research-gaps-2026-11-07.json",
+      "exists": true,
+      "bytes": 25280,
+      "sha256": "ae291b4434922af76b39a02984d1c2d43dce3a1f00ae4d04486c9c1c938546c1"
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/literary-sources.json",
+      "exists": true,
+      "bytes": 7113,
+      "sha256": "458cafd73f3806d5a04671b01f459003fd510c2ee9fbf2fed213387d02884b54"
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/support-outcomes.json",
+      "exists": true,
+      "bytes": 8378,
+      "sha256": "35b359cd07f290f93b673a0f90a95f8c7272cf4070ed373c9becd01850018ffb"
+    },
+    {
+      "path": "kb/research/methods/research-map.md",
+      "exists": true,
+      "bytes": 212986,
+      "sha256": "e35bcc3a269ab6f26062a931c9e268c3aabeb1b7f08e7170e86e3203866a67b1"
+    },
+    {
+      "path": "kb/records/cinema-expansion-work-list-2026-10-31.json",
+      "exists": true,
+      "bytes": 84853,
+      "sha256": "1475e544d03ed622a0dd971b47e6934dd68fc2c38cce77f298874e19bb57188a"
+    },
+    {
+      "path": "kb/records/cinema-expansion-work-list-2026-10-31.md",
+      "exists": true,
+      "bytes": 24479,
+      "sha256": "d57c1e2a5bc4ab540047356d758a11bbaa014edcdc4f43d3200f2acae078cf88"
+    }
+  ],
+  "public_content_already_in_sequence_payload": [
+    "kb/research/culture/cinema-series/literature-and-screen.md",
+    "projects/site/src/data/cinema.json",
+    "kb/research/culture/cinema-series/manifest.json"
+  ],
+  "optional_not_required_for_claim": [
+    "outputs/cinema-literature-care-20261030/fragments/literature-and-screen.html",
+    "outputs/cinema-literature-care-20261030/fragments/literature-and-screen-check.json"
+  ],
+  "exclude": [
+    "outputs/cinema-accessibility-20261107/ and its experiment code changes",
+    "outputs/cinema-research-gaps-20261107/sources/ original monograph previews",
+    "outputs/cinema-research-gaps-20261107/support-sources/ newsletterPDF/text/screenshots",
+    "outputs/cinema-research-gaps-20261107/builds/ intermediatePDFs/screenshots",
+    "Earlier/archive outputPDFs unrelated to chosen final release"
+  ],
+  "evidence_boundary": "The four minimum receipts contain the exact public paragraph, sourceURLs, actual direct-versus-indexed access status, implementation diff and independent review. Supporting monograph/school media do not substantiate the SWA/SRAI paragraph and need not be staged. Concise literary/support JSON dossiers are needed to preserve the related map/work-list findings; their raw capture paths may remain local historical inspection pointers, not promised public downloads.",
+  "claim_checks": {
+    "exact_paragraph_still_present": true,
+    "two_notes_present": true,
+    "current_source_sha256": "23e035fd956715196195b17df6036859b2b792a8f479172f5a1b8fd55415057a",
+    "implementation_after_sha256": "23e035fd956715196195b17df6036859b2b792a8f479172f5a1b8fd55415057a",
+    "necessary_qualifiers": [
+      "SWA service is for members",
+      "SRAI eligibility requires qualifying story/screenplay/dialogue credits and linked conditions",
+      "Membership does not mean immediate royalty payments"
+    ],
+    "unresolved_claim_blockers": []
+  },
+  "limits": [
+    "No fresh source fetch; relied on coordinator and independent review access records. SWAFAQ/homepage evidence was indexed official text with direct JavaScript shells; SRAI terms directly read.",
+    "No historical Odia-author fee, actual association payout, universal eligibility or guaranteed legal outcome asserted.",
+    "Handoff/map statements that publication was not performed describe the earlier local review. Coordinator should append current release outcome, not rewrite historical review as live evidence.",
+    "Source/manifest/book bindings may change during ongoing sequence implementation; these hashes are an audit snapshot, not the final release binding."
+  ],
+  "scope_released": true
+}

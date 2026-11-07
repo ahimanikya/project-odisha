@@ -29,6 +29,10 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Current cinema sequence review: [Main page, reading guide and book audit](records/cinema-sequence-audit-2026-11-07.json). Confirmed 50 core readings in seven parts and five online companion profiles. Proposed two short book readings and three integrated portraits, plus source-story and navigation clarifications. Recommendations only; current book remains 50 readings.
+
+Current cinema research: [Three focused gaps](records/cinema-research-gaps-2026-11-07.json). Added a reviewed practical writer-support passage locally; original adaptation texts/payments, the school-film identity and delivered production support remain unresolved. Original monograph preview and school newsletter captured. New265-page digital/270-page print proofs checked; published downloads unchanged. No programme credit.
+
 Current cinema publication: [7 November verified release](records/cinema-publication-2026-11-07.json). The reviewed 50-reading collection, three companion profiles, refreshed photographs and connected literary updates are live. Current 264-page digital, 270-page print and 6-page introduction PDFs match their reviewed hashes. Existing research and print/accessibility limits remain open. No programme increment.
 
 Earlier cinema follow-up (recorded before this release): [Cinema and the makers around it](records/cinema-shared-culture-2026-11-06.json). One original invitation connects screenings, writers and weavers with agreed payment and audience discovery. Article and264/270-page book proofs reviewed;523notes and all images preserved. Local revision, not published.
@@ -360,3 +364,5 @@ The [image expansion and width review](records/cinema-real-images-expansion-2026
 The [Joseph/Josef case](records/cinema-josef-literary-journey-2026-11-05.json) adds a compact family, translation and filmmaking example to [The page behind the screen](research/culture/cinema-series/literature-and-screen.md). Official NFDC catalogues confirm the Hindi film and source author; the publisher identifies the Odia collection, and Ashok Mahapatra recalls translation and outreach with Ishan. Original story pages and translator identity remain unresolved. Both local editions rebuilt and separately reviewed; prior prose, image widths and published links preserved.
 
 - [Sisir Mishra portrait framing](records/cinema-sisir-crop-2026-11-05.json): tighter square display crop makes his smile and expression clearer in Learning Cinema Together and both local books, retaining85% width, original photograph and numbered credit. Other images and all article prose unchanged.
+
+- [Cinema sequence publication](records/cinema-sequence-publication-2026-11-07.json) — 49 book chapters, 52 online readings; published and live verified.

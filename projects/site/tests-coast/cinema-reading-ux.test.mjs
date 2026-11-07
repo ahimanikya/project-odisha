@@ -3,24 +3,24 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {cinema,cinemaNarrative,cinemaArticle,markReviewedOdia} from '../src/lib/cinema-article.mjs';
 const read=route=>readFileSync(new URL('../'+(process.env.CINEMA_UX_DIST||'dist-coast')+route+'index.html',import.meta.url),'utf8');
-test('every narrative offers its next reading before sources without losing bottom navigation',()=>{
+test('every narrative distinguishes central and full-sequence onward routes without duplicate inline navigation',()=>{
  for(const [index,entry] of cinema.articles.entries()){
   const {article}=cinemaArticle(entry),html=read(entry.route);
   const next=cinema.articles[index+1];
-  const onward=article.html.indexOf('class="cinema-narrative-continue"');
-  assert.ok(onward>=0,entry.slug);
-  assert.ok(onward<article.html.indexOf('<section data-footnotes'),entry.slug);
-  if(article.html.includes('class="cinema-image-notes"'))assert.ok(onward<article.html.indexOf('class="cinema-image-notes"'),entry.slug);
+  const boundary=article.html.indexOf('<!--cinema-onward-boundary-->');
+  assert.ok(boundary>=0,entry.slug);
+  assert.ok(boundary<article.html.indexOf('<section data-footnotes'),entry.slug);
+  if(article.html.includes('class="cinema-image-notes"'))assert.ok(boundary<article.html.indexOf('class="cinema-image-notes"'),entry.slug);
+  for(const rendered of [article.html,html])assert.ok(!rendered.includes('class="cinema-narrative-continue"'),entry.slug+' no redundant inline next link');
   const central=cinemaNarrative.reading_paths.find(path=>path.primary===true).chapters;
   const routeIndex=central.indexOf(entry.slug);
   const expected=routeIndex<0?(next?.route||'/cinema/'):(cinema.articles.find(a=>a.slug===central[routeIndex+1])?.route||'/cinema/reading-guide/#central-reading-route');
-  for(const rendered of [article.html,html]){
-   const nav=rendered.match(/<nav class="cinema-narrative-continue"[^>]*>[\s\S]*?<\/nav>/)?.[0];
-   assert.ok(nav?.includes('href="'+expected+'"'),entry.slug+' intended onward route');
-   assert.ok(nav.includes('aria-label="'+(routeIndex>=0?'Central reading route':'Full collection reading sequence')+'"'),entry.slug+' onward accessible name');
-  }
+  const alternate=html.match(/<nav[^>]*aria-label="Central reading route"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+  if(routeIndex>=0&&expected!==next?.route)assert.ok(alternate?.includes('href="'+expected+'"'),entry.slug+' distinct central-route destination');
+  else assert.ok(!alternate,entry.slug+' no duplicate central-route navigation');
   const sequence=html.match(/<nav class="cinema-sequence"[^>]*>[\s\S]*?<\/nav>/)?.[0];
   assert.ok(sequence?.includes('aria-label="Full collection reading sequence"'),entry.slug);
+  if(routeIndex>=0&&expected===next?.route)assert.ok(sequence.includes('and central route'),entry.slug+' shared destination labelled once');
   for(const [direction,target]of [['prev',cinema.articles[index-1]],['next',next]]){
    if(target)assert.ok(sequence.includes('href="'+target.route+'" rel="'+direction+'"'),entry.slug+' full collection '+direction);
    else assert.ok(!sequence.includes('rel="'+direction+'"'),entry.slug+' boundary');
