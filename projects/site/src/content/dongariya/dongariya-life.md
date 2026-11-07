@@ -20,10 +20,6 @@ The Niyamgiri landscape extends across Rayagada and Kalahandi. This series uses 
 
 The museum describes horticulture and cultivation on hill slopes, and lists Dongria Kandha among Particularly Vulnerable Tribal Groups, commonly abbreviated as PVTGs. That administrative category helps identify the scope of government records; it cannot describe a household’s ambitions or everyday life on its own.[^2]
 
-<img src="/assets/dongria-book/20261107-commons-2-1200w.webp" srcset="/assets/dongria-book/20261107-commons-2-480w.webp 480w, /assets/dongria-book/20261107-commons-2-800w.webp 800w, /assets/dongria-book/20261107-commons-2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Children posed together in decorated white wraps, preparing for a wedding." width="1200" height="800" loading="lazy" decoding="async">
-
-*A requested group portrait of children preparing for a wedding, according to the photographer.*
-
 ## Food, income and who decides
 
 Singari’s account puts the effects of a crop choice within the household. In the same 2022 reporting, Palari of Kadraguma wanted greater emphasis on millets and connected crop choices with women having more authority over land.[^4]
@@ -51,8 +47,6 @@ A January 2026 parliamentary reply describes PM JANMAN support covering housing,
 The account of [homes and repair](/stories/dongria/homes-and-repair/) follows what such totals leave open: whether a house shelters its residents and whether they can maintain it. Singari and Palari’s accounts ask a related question of the fields—what reaches the household, and who has a say? The next account follows land from household cultivation to the village assemblies that spoke about its future.
 
 ## Footnotes and sources
-
-Additional photograph: Shubhamkindia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); [source](https://commons.wikimedia.org/wiki/File:Childhood_group_photo.jpg). Resized; composition unchanged.
 
 Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Niyamagiri_hill_02.jpg). Colour and tone adjusted for print; composition unchanged.
 

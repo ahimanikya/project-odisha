@@ -6,9 +6,9 @@ title: "Dongria ornaments in use"
 
 By Ahimanikya Satapathy
 
-<img src="/assets/dongria-book/20261107-ornaments-in-use-856w.webp" srcset="/assets/dongria-book/20261107-ornaments-in-use-480w.webp 480w, /assets/dongria-book/20261107-ornaments-in-use-800w.webp 800w, /assets/dongria-book/20261107-ornaments-in-use-856w.webp 856w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Detail of hair and ear ornaments, photographed in 2018 and catalogued as “Dangaria accessory detail 01”" width="856" height="642" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:856/642;margin-inline:auto;">
+<img src="/assets/dongria-book/20261107-commons-2-1200w.webp" srcset="/assets/dongria-book/20261107-commons-2-480w.webp 480w, /assets/dongria-book/20261107-commons-2-800w.webp 800w, /assets/dongria-book/20261107-commons-2-1200w.webp 1200w" sizes="(max-width: 768px) calc(100vw - 2.8rem), 724px" alt="Children posed together in decorated white wraps, preparing for a wedding." width="1200" height="800" fetchpriority="high" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1200/800;margin-inline:auto;">
 
-*Detail of hair and ear ornaments, photographed in 2018 and catalogued as “Dangaria accessory detail 01”.*
+*A requested group portrait of children preparing for a wedding, according to the photographer.*
 
 As women stitched Kapadaganda, a hair ornament served as a cutting tool. Kanak Rajadhyaksha’s account, based on November 2017 interviews, describes them using a blade-shaped *katri* to cut thread into manageable lengths and trim loose ends.[^1]
 
@@ -54,7 +54,7 @@ The relationships between wearers and neighbouring craftspeople continue in the 
 
 Hairpin drawing: interpretive adaptation by Project Odisha from a [photograph by Pillai Sree Vidya](https://commons.wikimedia.org/wiki/File:Dangaria_accessory_detail_01.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); adaptation under the same licence. Drawings simplify details.
 
-Image: Pillai Sree Vidya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dangaria_accessory_detail_01.jpg). Colour and tone adjusted for print; composition unchanged.
+Image: Shubhamkindia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); [source](https://commons.wikimedia.org/wiki/File:Childhood_group_photo.jpg). Resized; composition unchanged.
 
 [^1]: Kanak Rajadhyaksha, [Kapdagondas: Motifs and Technique](https://www.sahapedia.org/kapdagondas-motifs-and-technique), Sahapedia, materials and “Process” sections. Interviews conducted 8–14 November 2017. The term katri and its described use are retained without equating it with other published hairpin names.
 
