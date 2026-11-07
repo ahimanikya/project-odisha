@@ -116,6 +116,10 @@ jobs:
           node tools/check-public-disclosures.mjs dist-publish
           python3 tools/audit-search-shortlist.py
         working-directory: projects/site
+      - name: Validate Pages payload acceptance
+        run: |
+          python3 tools/tests/test_check_pages_payload.py
+          python3 tools/check_pages_payload.py projects/site/dist-publish
       - name: Save coastal files for review
         uses: actions/upload-artifact@v7
         with:
