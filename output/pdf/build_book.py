@@ -686,9 +686,9 @@ for index,slug in enumerate(order,1):
     if all(isinstance(f,Paragraph) for f in candidate) and height<=480:
      story[j:]=[KeepTogether(candidate)]
     break
- # For these three short endings, prefer a coherent section over a detached tail.
+ # For selected short endings, prefer a coherent section over a detached tail.
  # Include an existing closing bridge, but never bind images or more than 300pt.
- if slug in TAIL_SPACING_CHAPTERS:
+ if slug in TAIL_SPACING_CHAPTERS or slug=='gourahari-das':
   if isinstance(story[-1],KeepTogether) and all(isinstance(f,Paragraph) for f in flatten_flows([story[-1]])):
    story.extend(flatten_flows([story.pop()]))
   end=len(story);start=end

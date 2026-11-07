@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "input_hashes": {
+    "outputs/cinema-bapa-reader-review-20261107/reader-review-brief.md": "14a531ba9b6b8d02fea8758333e9b9c339a6eac11a7c62cd07f5166ea2abd2bf",
+    "outputs/cinema-bapa-reader-review-20261107/implementation.json": "efc1dc1176bdb8bf94695e1d55577322d61964a2ab713b3ab79b715426a6bfac",
+    "projects/site/src/data/cinema.json": "8733e14e84ef6b589c4be835b8d9318912b15d7dcf67dab3f05cef01306d85fa",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "45217623912de7b32edef78e7d3d07ac632346e55719e93165ee73a1ae620b9b",
+    "outputs/cinema-bapa-reader-review-20261107/research.json": "1427973076cbc3b64b49b05f0b561303a5d12d2220820d9ced3acb0feed435fd",
+    "outputs/cinema-bapa-reader-review-20261107/root-research.json": "d624838bd6e1decc86054019c1c1989a4aa7d5d4b1997199b8f7b426c4943188",
+    "outputs/cinema-bapa-reader-review-20261107/case-study.md": "3b520a4e42eda1ca1f02b5eec5e583773baf4b4db75cf98ecebf7eedf70cddd3",
+    "outputs/cinema-bapa-reader-review-20261107/baseline.json": "deefc7a469794a6c027f9293e0c23e4821a9ccb1499a450bf8619c00cce151fb",
+    "outputs/cinema-bapa-reader-review-20261107/sources/nad978.webp": "34656690922e22ef409ad6856aae74366617f01a7f18ee5362dab7c1f297b33e"
+  },
+  "brief_review": {
+    "status": "PASS",
+    "actual_scope": "Read all423words of brief and complete implementation receipt; independently counted52online articles and49book-order entries; checked all8 linked built route files exist. Published270/276page edition matches previously reviewed final artifacts.",
+    "findings": [
+      "Short optional route follows personal question, literary bridge, one writer/film pair, then livelihoods or audience participation.",
+      "Six open questions invite disagreement, correction and attention to fairness, without demanding full reading or imposing a deadline.",
+      "First-person author voice is consistent with established introductory purpose; no invented reader feedback or firsthand film/story claim.",
+      "Bapa is treated as the documented source connection; readers without original-story or film experience are explicitly invited to judge page clarity rather than adaptation fidelity."
+    ],
+    "required_corrections": [],
+    "limits": "No new live network check or reader study. This is editorial review, not evidence of a human reader response."
+  },
+  "research_pending": [],
+  "publication_performed": false,
+  "research_and_case_study_review": {
+    "status": "PASS",
+    "actual_scope": [
+      "Read complete research.json, root-research.json, case-study.md, brief and implementation receipt.",
+      "Independently opened PIB1878242, confirming23November2022 source-author and family/bereavement account.",
+      "Independently opened original OdishaBytes6October2022 interview, confirming17drafts/3years recollection and Roshan Bisoi scripting credit; did not reinterpret3years as scripting alone.",
+      "Retailer direct open returned cache miss; one focused indexed search independently exposed Father24, next story36, translator notes198 and ISBN9788129116994. This remains indexed retailer text, not printed contents or story inspection.",
+      "Actually viewed retained nad978.webp: collection title and Gourahari Das name visible; no original story mapping or translator visible.",
+      "Reused prior Pioneer source-title review rather than repeating inaccessible PDF retrieval."
+    ],
+    "findings": [
+      "Case study explicitly labels Father as an unconfirmed translation lead and states story pages unread.",
+      "No title equivalence inferred from literal translation or similar plot; no translator inferred from another story in collection.",
+      "Creative title choice, screenplay work and family circumstances are kept distinct.",
+      "Comparison questions are prospective, not claims of performed comparative reading or film viewing.",
+      "Conflicting reported commercial statements are left unresolved internally; no commercial result, source-author fee or completed remake asserted.",
+      "No-result and inaccessible-source records do not claim that a text or holding does not exist."
+    ],
+    "required_corrections": [],
+    "remaining_external_dependencies": [
+      "Inspect actual volume imprint, acknowledgements/original-title mapping and translator note198; retailer pagination remains provisional.",
+      "Obtain and read complete Father candidate24–35, then establish Bapa identity through explicit credit or original Odia text/attributable author or translator evidence.",
+      "Read original Bapa and view relevant complete film sequences before making source-to-screen comparisons.",
+      "Actual author payment or net commercial outcome requires independent evidence; neither established here."
+    ],
+    "source_urls": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242",
+      "https://odishabytes.com/odia-producer-cum-director-anupam-patnaiks-movie-pratikshya-to-hit-theatres-this-december/amp/",
+      "https://www.exoticindiaart.com/book/details/little-monk-and-other-stories-nad978/"
+    ],
+    "limits": "No story pages, original imprint, translator notes or film scenes inspected. No fresh confirmation of library stock/access or commercial outcomes. No outreach, purchase, publication or human-reader response claimed."
+  },
+  "preservation": {
+    "method": "SHA256 of every current file against protected_hashes in baseline.json",
+    "protected_files": 132,
+    "unchanged": 132,
+    "mismatches": []
+  },
+  "final_verdict": "PASS for qualified research brief and reader invitation; original-story/translation identity remains an explicit external dependency, not completed adaptation comparison.",
+  "final_question_addendum": {
+    "status": "PASS",
+    "previous_case_study_sha256": "1c6378ed038ec0bd19c9d395bfac495509b0d080eff9c12c0444f43a67160ae9",
+    "current_case_study_sha256": "3b520a4e42eda1ca1f02b5eec5e583773baf4b4db75cf98ecebf7eedf70cddd3",
+    "exact_reverse_delta_verified": true,
+    "actual_review": "Read added Questions for Gourahari Das paragraph. It requests collection/issue/edition, asks whether Father is Bapa and who translated it, and requests a published reading link or copy/publication details. It does not presume identity, access, a response or contact already made.",
+    "contact_made": false,
+    "other_artifacts_rechecked": "All recorded input hashes except the intentionally changed case-study match current files.",
+    "scope_released": true
+  }
+}

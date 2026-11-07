@@ -1,0 +1,114 @@
+{
+  "id": "POD-CINEMA-BAPA-INTEGRATION-20261107",
+  "date": "2026-11-07",
+  "status": "reviewed_local_revision",
+  "authorization": "Founder: add findings including earlier TV adaptation to Gourahari Das and Pratikshya articles; keep payment question open until evidence.",
+  "active_article": null,
+  "sequence": [
+    "POD-EDIT-804",
+    "POD-EDIT-810"
+  ],
+  "scope_released": true,
+  "publication_performed": false,
+  "programme_credit": 0,
+  "reuse_before_research": [
+    "records/cinema-writer-rights-2026-11-07.json",
+    "research/culture/cinema-series/writer-rights-2026-11-07.json"
+  ],
+  "reserved_scopes": {
+    "Disha": [
+      "kb/records/cinema-bapa-integration-2026-11-07.json",
+      "kb/research/culture/cinema-series/bapa-integration-2026-11-07.json",
+      "kb/index.md",
+      "kb/team/operations.json",
+      "kb/history/LEDGER.md",
+      "kb/history/ledger.jsonl",
+      "kb/research/methods/research-map.md",
+      "kb/research/search-index.json",
+      "kb/records/article-editorial-rollout.json",
+      "outputs/cinema-bapa-integration-20261107/baseline.json",
+      "outputs/cinema-bapa-integration-20261107/validation.json",
+      "outputs/cinema-bapa-integration-20261107/browser-review.json",
+      "projects/site/src/data/cinema.json",
+      "kb/research/culture/cinema-series/manifest.json"
+    ],
+    "Anvesha": [
+      "outputs/cinema-bapa-integration-20261107/evidence-assessment.json"
+    ],
+    "Samanta": [
+      "kb/research/people/gourahari-das.md",
+      "kb/research/culture/cinema-series/pratikshya.md",
+      "outputs/cinema-bapa-integration-20261107/implementation.json",
+      "outputs/cinema-bapa-integration-20261107/builds.json",
+      "outputs/cinema-bapa-integration-20261107/logs/",
+      "output/pdf/odia-cinema-a-living-screen-2026-11-07-bapa.pdf",
+      "output/pdf/odia-cinema-a-living-screen-print-2026-11-07-bapa.pdf",
+      "tmp/pdfs/2026-11-07-bapa/",
+      "output/pdf/build_book.py"
+    ],
+    "Drishti": [
+      "outputs/cinema-bapa-integration-20261107/review.json"
+    ]
+  },
+  "boundaries": [
+    "Sequential article revisions; no separate concurrent article claims.",
+    "No new source-story plot or translation identity; no independent television schedule claim.",
+    "No payment inference, attacks, broadcast repeat count or inconsistent jubilee ordinal.",
+    "Preserve images, other articles, published artifacts and unrelated PDF-accessibility experiments.",
+    "Prepare local review; no outreach, purchase or publication in this task.",
+    "Minimal Gourahari-only closing paragraph grouping in the existing PDF builder; source prose, type styles and image sizes unchanged."
+  ],
+  "stages": [
+    {
+      "article": "POD-EDIT-804",
+      "status": "reviewed_local_revision",
+      "reviewer": "Drishti",
+      "source_sha256": "0589f48411709ac517d208b57e0fa3c23803ed08ce3021b271388b0ed9bc39d3",
+      "artifact_review": "PASS"
+    },
+    {
+      "article": "POD-EDIT-810",
+      "status": "reviewed_local_revision",
+      "reviewer": "Drishti",
+      "source_sha256": "65468485b7e08b8fec8aef264425e3f0c5914a83a65acc9bc1032da18fe7abb7",
+      "artifact_review": "PASS"
+    }
+  ],
+  "manifest_bindings": [
+    {
+      "slug": "gourahari-das",
+      "before": "9e869393af6625674a89c5e30f1b17cff0a8475608020bcc4b420d05561f6977",
+      "after": "0589f48411709ac517d208b57e0fa3c23803ed08ce3021b271388b0ed9bc39d3"
+    },
+    {
+      "slug": "pratikshya",
+      "before": "ecf2628161c8c62f13dec03cd193048adf85daf2d8409b97011205b9a18685fc",
+      "after": "65468485b7e08b8fec8aef264425e3f0c5914a83a65acc9bc1032da18fe7abb7"
+    }
+  ],
+  "layout_followup": "Reviewer identified a sparse closing leaf after additions. Use existing bounded closing-flow grouping for Gourahari only; preserve prose, type and images.",
+  "review": {
+    "path": "outputs/cinema-bapa-integration-20261107/review.json",
+    "sha256": "61818ba2f5f726e117a2f783e8b53d5c586328b34ed17f076b1f1d02119b7767",
+    "status": "PASS"
+  },
+  "validation": {
+    "path": "outputs/cinema-bapa-integration-20261107/validation.json",
+    "sha256": "a4edb9568f34be268257723a9965b4a15c9d15ba0f2948112af9afdeb9a08439"
+  },
+  "pdf_proofs": {
+    "digital": {
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-11-07-bapa.pdf",
+      "sha256": "a04954e8d58f4af6afb46c5918dae818e7e593cff28aacb8af2a8499627183bc",
+      "pages": 271,
+      "notes": 538
+    },
+    "print": {
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-11-07-bapa.pdf",
+      "sha256": "45fc73a5785dbb582dfb562e9d4f1109341df96088be5e376c9c8d9d55cee633",
+      "pages": 276,
+      "notes": 538
+    }
+  },
+  "next_action": "Local revisions ready for reader review and a separate publication action. Original Odia Bapa publication, translated-title identity, broadcast logs and payment terms remain unresolved."
+}
