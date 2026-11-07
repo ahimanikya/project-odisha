@@ -1440,3 +1440,8 @@ The related chat produced a substantive dossier with production records, indepen
 ### 8 November 2026 · Documentary evidence reconciled for publication
 
 Completed bounded direct-frame, subtitle and credit checks with separate reception/content review. Added Padmaja Sahoo’s documented archival labour; kept two unresolved final-credit questions out of public claims. No full-film viewing claimed. Website and matching digital/print editions proceed under the Founder’s explicit instruction. [Record](../records/cinema-language-documentaries-publication-2026-11-08.json).
+
+
+### 8 November 2026 · Documentary chapter and both book editions published
+
+PR708 merged after exact-head validation. Deployment42423135690succeeded; the live Futures passage, source/Nataka links and both book links were checked. Publicly downloaded271-page digital and278-page print files match reviewed hashes.52online readings,49book chapters,540notes; older downloads and images preserved. Remaining exact credits stay open and excluded. No programme credit. [Receipt](../records/cinema-language-documentaries-publication-2026-11-08.json).

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "status": "bounded_followup_complete_no_released_cut_located",
+  "scope_released": true,
+  "question": "Can public released-file end credits verify Prateek’s exact Remosam role using remote AVFoundation extraction?",
+  "attempts": [
+    {
+      "source": "https://theofdn.org/film/remosam/",
+      "inspection": "Fresh direct page read. Find this film section links IMDb only. Treatment is the previously blocked PDF. No public full-film file/player/archive link exposed in fetched page.",
+      "locators": "lines97–121",
+      "limit": "Page metadata is not final credits."
+    },
+    {
+      "source": "https://psubhashish.com/work",
+      "inspection": "Fresh direct maker work page read. Remosam entry links project site only, unlike adjacent Nani Ma and Mage Porob entries with watch links.",
+      "locators": "lines81–89",
+      "limit": "No inference that film is unavailable everywhere."
+    },
+    {
+      "source": "https://archive.org/advancedsearch.php?q=title%3Aremosam&output=json&rows=20&fl%5B%5D=identifier%2Ctitle%2Ccreator",
+      "inspection": "Public exact-title catalogue query returned two items: remosam-clip-pusarke-01 and b-remosam-bonda-ghati-1. Both explicitly labelled clip/B-roll; neither full released cut.",
+      "capture": "remosam-archive-search.json",
+      "limit": "Exact-title search only; no claim exhaustive archive absence. No guessed file endpoints or full-film inference from clips."
+    }
+  ],
+  "result": "No suitable released-film URL located; AV extraction was not attempted against a guessed URL. Existing indexed treatment credit and maker-uploaded video-recordist evidence retain their distinct statuses. Exact final credit remains unresolved and should stay excluded from public assertions.",
+  "publication_effect": "No blocker for existing concise Futures passage, which does not assert the held Remosam role.",
+  "older_reviewed_research_changed": false,
+  "new_audio_or_video_viewing": false
+}
