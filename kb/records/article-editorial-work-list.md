@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1081. completed: 182, excluded: 624, in_progress: 1, queued: 274.
+Route inventory: 1081. completed: 183, excluded: 624, queued: 274.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -129,7 +129,7 @@ Route inventory: 1081. completed: 182, excluded: 624, in_progress: 1, queued: 27
 | POD-EDIT-113 | [Badi chura](https://projectodisha.org/food/badi-chura/) | completed | Publish a substantive source-supported Badi chura revision at /food/badi-chura/: exact reviewed lead, five paragraphs, two headings and two numbered notes with Founder byline. Explain dried badi, frying/dry-roasting, coarse preparation and one named meal account without universal origin, storage, health or tested-recipe claims. Preserve photo licence/credit, food:badi-chura Save ID, two source IDs and four reading links. Replace old same-route collection/KB summaries, maintain aggregate source budgets198/168 and short portable titles. Require exact KB/site/portable parity, full/coast/publication gates, responsive browser/download review, independent integrated/exact-head review, requiredCI success, reviewed merge and approved successful deployment, actual live checks and separate reviewed receipt before completion. |
 | POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | completed | Publish the reviewed substantive Tala pitha preparation contrast at /food/tala-pitha/: exact two attributed paragraphs, lead, By Ahimanikya Satapathy and two native numbered notes. Preserve separate baked/fried sequences, unspecified Delite maturity/temperature scale, no tested recipe or statewide/season/storage/health claims. Replace old same-route summaries;112 words per new source across article surfaces;114 across all reviewed surfaces, including two additional compact-title words from everyday website and portable references, short source titles, no additional Panda/Gapu derivation. Preserve photo licence/credit without attributing it to either recipe, food:tala-pitha SaveID, three reading links, unrelated Talagaja and source records. Require exact KB/site/portable parity, complete gates, responsive browser/download and separate integrated/exact-head review, CI success, reviewed merge, successful authorized deployment, actual live verification and separately reviewed receipt before any completion credit. |
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | excluded | classification_pending |
-| POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | in_progress | Substantive attributed preparation comparison; existing authored dish article, not utility classification. |
+| POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | completed | Substantive attributed preparation comparison; existing authored dish article, not utility classification. |
 | POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | queued | classification_pending |
 | POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | queued | classification_pending |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | queued | classification_pending |
