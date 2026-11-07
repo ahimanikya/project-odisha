@@ -365,4 +365,4 @@ The [Joseph/Josef case](records/cinema-josef-literary-journey-2026-11-05.json) a
 
 - [Sisir Mishra portrait framing](records/cinema-sisir-crop-2026-11-05.json): tighter square display crop makes his smile and expression clearer in Learning Cinema Together and both local books, retaining85% width, original photograph and numbered credit. Other images and all article prose unchanged.
 
-- [Cinema sequence publication](records/cinema-sequence-publication-2026-11-07.json) — 49 book chapters, 52 online readings; reviewed publication batch.
+- [Cinema sequence publication](records/cinema-sequence-publication-2026-11-07.json) — 49 book chapters, 52 online readings; published and live verified.
