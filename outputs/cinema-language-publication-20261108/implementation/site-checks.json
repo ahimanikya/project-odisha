@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "node",
+      "--test",
+      "tests/cinema-release.test.mjs"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "log": "release-tests.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "log": "site-build.log"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "cwd": "projects/site",
+    "exit_code": 0,
+    "log": "disclosure.log"
+  }
+]

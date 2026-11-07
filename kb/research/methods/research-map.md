@@ -1468,3 +1468,18 @@ Reuse the [dossier](../culture/cinema-series/writer-rights-2026-11-07.json) and 
 ### 7 November 2026 · Bapa article integration
 
 Reuse [writer-rights evidence](../culture/cinema-series/writer-rights-2026-11-07.json) and [integration record](../culture/cinema-series/bapa-integration-2026-11-07.json) before reopening Bapa research. Two own public accounts support attributed collection, earlier television adaptation and source-writer recognition passages in Gourahari Das and Pratikshya. Original Odia publication, translated-title identity, broadcast logs and actual compensation remain separate unresolved questions. No fresh web searches in this integration.
+
+
+### The Waterfall: named school report · 8 November 2026
+
+Reuse the [dossier](../culture/cinema-series/waterfall-school-2026-11-08.json) and [handoff](../../records/cinema-waterfall-school-2026-11-08.json). New Abhyasa original-domain indexed text reports a14–19November2017festival, The Waterfall among senior titles and Lipika Singh Darai in a separate director list. The school describes discussions and review projects across its festival. Current official archive retains the event title but its target is unavailable; no original page pixels or archival body recovered. Film identity is a strong contextual inference, not explicit programme pairing; no film-specific attendance, language version, learning gain or payment established. Loyola remains title-only. Maker/provider corroborate film identity separately. Separate research/synthesis/source review complete; no public revisions, book rebuild, outreach or programme credit. Reopen only with paired school/provider programme or identifiable event material; avoid repeating generic queries. Bapa and delivered-support gaps remain unchanged.
+
+
+### Language and cultural documentary work · 8 November 2026
+
+Reuse the [dossier](../culture/cinema-series/language-documentaries-2026-11-08.json) and [handoff](../../records/cinema-language-documentaries-2026-11-08.json). Today’s named-pair intake confirmed Prateek Pattanaik and Subhashish Panigrahi; the intake is not a researched biography. Direct maker/project pages verify Nani Ma (Musamoni’s songs and stories, Balasore), The Volunteer Archivists (English-language film about Srujanika’s Odia-publication work), Mage Porob (Ho festival, Mayurbhanj) and Gyani Maiya (Nepal/Kusunda, not Odia). Prateek’s account distinguishes his2018field team with Debendra Pattanayak and Arjun Samantaray from Subhashish’s camera loan and production guidance. A released trailer does not establish completion of planned subtitled episodes. Maker and O Foundation sources are related, not independent corroboration. No playback, audience effect or preservation-outcome claim. Two film examples and the collaboration enter the Futures draft; wider works remain in the KB. Existing portraits, sequence and published PDF downloads unchanged. Reuse before further biographies or watch-list additions.
+
+
+### Documentary evidence completion · 8 November 2026
+
+[Bounded film/reception research](../culture/cinema-series/language-documentaries-completion-2026-11-08.json) records actual frame/subtitle inspection and exact credits, preserves unresolved Remosam/Ramaleelas final-credit wording, and supports the Futures passage. Do not repeat these searches without a new source or reader question.
