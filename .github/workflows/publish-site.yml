@@ -51,6 +51,11 @@ jobs:
       - run: npm run test:coast
       - run: npm run build:publication
       - run: node tools/check-public-disclosures.mjs dist-publish
+      - name: Check Pages payload before upload
+        working-directory: .
+        run: |
+          python3 tools/tests/test_check_pages_payload.py
+          python3 tools/check_pages_payload.py projects/site/dist-publish
       - uses: actions/upload-pages-artifact@v5
         with:
           path: projects/site/dist-publish
@@ -68,3 +73,31 @@ jobs:
       - name: Publish approved website
         id: deployment
         uses: actions/deploy-pages@v5
+      - name: Record Pages status after deployment failure
+        if: failure() && steps.deployment.outcome == 'failure'
+        timeout-minutes: 1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PYTHON'
+          import json, os, subprocess
+          endpoint = f"repos/{os.environ['GITHUB_REPOSITORY']}/pages/deployments/{os.environ['GITHUB_SHA']}"
+          result = {"deployment_sha": os.environ["GITHUB_SHA"], "run_id": os.environ["GITHUB_RUN_ID"]}
+          try:
+              response = subprocess.run(["gh", "api", "--include", endpoint], capture_output=True, text=True, timeout=20)
+              headers, _, body = response.stdout.replace("\r\n", "\n").partition("\n\n")
+              result["api_exit_code"] = response.returncode
+              result["http_status_line"] = next((line for line in headers.splitlines() if line.startswith("HTTP/")), None)
+              result["request_id"] = next((line.split(":", 1)[1].strip() for line in headers.splitlines() if line.lower().startswith("x-github-request-id:")), None)
+              try:
+                  payload = json.loads(body)
+                  status = payload.get("status") if isinstance(payload, dict) else None
+                  result["pages_status"] = status[:200] if isinstance(status, str) else None
+              except ValueError:
+                  result["pages_status"] = None
+                  result["response_json_valid"] = False
+          except subprocess.TimeoutExpired:
+              result["diagnostic_timeout_seconds"] = 20
+          # Only allowlisted fields: never print token, OIDC, full headers, body or stderr.
+          print(json.dumps(result, ensure_ascii=True, indent=2))
+          PYTHON

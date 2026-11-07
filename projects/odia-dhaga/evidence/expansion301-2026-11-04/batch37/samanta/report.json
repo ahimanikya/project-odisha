@@ -1,0 +1,155 @@
+{
+  "status": "PASS_FINAL_TECHNICAL_SEMANTIC_AUDIT_PENDING_SEPARATE_REVIEW",
+  "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+  "bindings": {
+    "report.json": "bf4155bdfbe6514c48640f22d149081bd07e0fe8929fec2ce379a172f278d882",
+    "candidates.json": "8e5b39f7860f0270b4f42fd28443d8bb4cda94253e9e568bdce7c8501ce89d94",
+    "source-registry.json": "a15db19400cf6eff65b4d867b2cb8151fb248e8924876c2c8d239ed59861f46b",
+    "dispositions.json": "c0ae84a13e64b97674d60fddcdb8637da39d13034938587097afd0a50834ceb1",
+    "source-word-budgets.json": "5cbe1a7d5b73ea6fdd614ffd68d8212dca617882daa47f2c20be4030f5ff57cf",
+    "source-coverage.json": "6ac3618d3e5dec72e17b0902d7dc8156c6e51082dd0c4cc2e5cad94bbab03496",
+    "capture-validation.json": "c2b2e359ca46f3ab0c218d89bdd0689d5bf0f088948355ebf0400e3266f58abd",
+    "selection.json": "d3d2ce6f11e5b884d7b995f8e5a6317c7eea5a80c1b5a8a769f5dee38a9e794e",
+    "prior-page-screen.json": "b0c6b68758969a7017550104e4f3e953cb67c0a78d3abec5da88a12fb935dbd3",
+    "originals.json": "0ce194c7bb6990957c96006655227b38b75560a97c6e8d87f0f0269dbdf5fe5d",
+    "retrieval-history.json": "36d6bd3895ca296e4eb257b50d8dca1f1465fb067d2e5e4dadc88c99193dd8dc",
+    "related-154-commentary.json": "17d3bca829e3b0b84589602dc65644a601401fcae45069ee3b46614fe80dd46b",
+    "prior-48707-family-followup.json": "239b619400b0eac505663af5cad3ca57e7848ec5116c7e73f7ad4d0052042075"
+  },
+  "checks": {
+    "status": "PASS_TECHNICAL_CHECK_PENDING_FINAL_AUTHOR_BINDING",
+    "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+    "capture_pairs": 9,
+    "rightsinfo_exact": true,
+    "source_ids_are_revision_ids_not_pageids": true,
+    "candidate_checks": [
+      {
+        "candidate": "anvesha-b37-02",
+        "full_required_schema": "PASS",
+        "exact_source_quote": "PASS",
+        "normalized_primary_variant_witness_matches_against299": []
+      }
+    ],
+    "used_sources": [
+      "dhaga-wiktionary-148954"
+    ],
+    "sources_not_used": 8,
+    "comparison_objects": 299,
+    "bindings": {
+      "candidates.json": "8e5b39f7860f0270b4f42fd28443d8bb4cda94253e9e568bdce7c8501ce89d94",
+      "source-registry.json": "a15db19400cf6eff65b4d867b2cb8151fb248e8924876c2c8d239ed59861f46b",
+      "originals.json": "0ce194c7bb6990957c96006655227b38b75560a97c6e8d87f0f0269dbdf5fe5d",
+      "selection.json": "d3d2ce6f11e5b884d7b995f8e5a6317c7eea5a80c1b5a8a769f5dee38a9e794e"
+    },
+    "limits": [
+      "Exact normalized negative is not by itself semantic proof; separate actual full nearest-family reading recorded in semantic-comparisons.json.",
+      "No newsource retrieval,canonical changes,acceptance or bookbuild."
+    ]
+  },
+  "counts": {
+    "newly_retrieved_heads_and_quote_positions": 9,
+    "proposal_positions": 1,
+    "proposal_is_prior_unresolved_family_followup": true,
+    "existing154_related_wording_zero": 1,
+    "deferred_positions": 7,
+    "prior53299_screened_without_refetch": 1,
+    "research_sources": 9,
+    "used_sources": 1,
+    "accepted_increment": 0
+  },
+  "prior_processing": {
+    "json_files_read": 31755,
+    "no_file_size_or_history_payload_exclusion": true,
+    "parse_failures": 46,
+    "parse_failure_qualification": "45 unrelated dependency JSONC/testfixtures and one empty historical research-map query; no identified source capture failed parsing.",
+    "page_title_url_screen_limit": "Negative source identity screen does not establish new family; actual quotation-fragment reading caught priorB24family after first comparison, history retained."
+  },
+  "semantic_comparisons": [
+    {
+      "source_pageid": 13459,
+      "comparison": "POD-DHAGA-154",
+      "decision": "RELATED_WORDING_SAME_FAMILY_ZERO_INCREMENT",
+      "evidence": "Both feature frog speaking to female frog about world changing moment by moment. Exact wording differs: କିହେ/ବେଙ୍ଗୁଲୀ/ଦୁନିଆ କ୍ଷଣକ୍ଷଣକେ versus କହେ/ବେଙ୍ଗୁଲିଲୋ/ପୃଥ୍ଵୀ ଘଡ଼ିକେ. No automatic source import or canonical patch.",
+      "compared_entry_sha256": "45f0500bc9c808db1666d01839c3d5ca5c97ca3049f0693eaf3fc64006b39ac7"
+    },
+    {
+      "source_pageid": 108629,
+      "comparison": [
+        "POD-DHAGA-190",
+        "POD-DHAGA-202",
+        "POD-DHAGA-246",
+        "POD-DHAGA-276"
+      ],
+      "decision": "DISTINCT_FROM_ACCEPTED299_BUT_PRIOR_DEFERRED_FAMILY_FOLLOWUP",
+      "evidence": "Source juxtaposes a female owner of much land with asking food at others’ rear spaces.190 is miserly son/grand household;202 dire poverty versus hot meals;246 show on borrowedwealth and loss;276 large name/small practical capability. Shared status/means contrast does not establish same saying. Asking motive and cause unspecified; no precise acreage conversion, greed/fraud diagnosis or group judgment.",
+      "prior_research_family": {
+        "batch": 24,
+        "pageid": 48707,
+        "revision": 208262,
+        "exact_quote": "ଷାଠିଏ ବାଟିର ନାଦାକିଆଣୀ ମୁଁ ପର ପନ୍ଦାଡ଼ରେ ପଡ଼ିଛି",
+        "old_disposition": "deferred; exactନାଦାକିଆଣୀ differs headword; unit/address unresolved",
+        "relation": "Same sixty-bati landowner/othersveranda image; firstperson lying differs asking/eating. Not exactequivalence. New clearer witness may support proposedreading, notautomaticresolution/repair/import ofoldquote.",
+        "found_after": "Page/title/URL processing screen; actual quotation-fragment and fullB24source reading detected semanticfamily.",
+        "old_dispositions_sha256": "c86fc640c335fc70651a86977dbf91890cf1fb67af7666dc63d41abbe2478e70"
+      },
+      "final_actual_draft_review": "PASS: complete bilingual b37-02 read; exact quotation and source limits preserved; no inferred motive, land conversion or automatic old witness repair."
+    }
+  ],
+  "all_nine_disposition_wordings_exact_in_full_originals": true,
+  "source_budget": {
+    "charged_narrative_words": 155,
+    "primary_quote_words": 8,
+    "conservative_total": 163,
+    "limit": 200,
+    "independently_recomputed": true
+  },
+  "coverage_next": {
+    "query_offset": 450,
+    "next_result_offset": 466,
+    "pageid": 84127,
+    "title": "ମାଘ",
+    "instruction": "First prior-processing screen all positions in full head; saved snippet indicates several quotations. Process remaining saved450 before500; offsets are this saved response, not permanent ranking."
+  },
+  "backlogs": [
+    "381/78844 targeted resolution",
+    "388/92065 targeted resolution",
+    "88260 mixed previously processed/unresolved",
+    "91291 sense2 and3 prior unresolved",
+    "B14capture68830 reuse pointer for B33deferred32193; not newly resolved"
+  ],
+  "preservation": {
+    "status": "PASS",
+    "input_head": "3d6d9802345e2af1d136c1fc8d48b8b87e20e1bc",
+    "checks": {
+      "canonical_book_files": 1761,
+      "shared_article_cinema_record_files": 3936,
+      "prior_coverage_bindings": 65
+    },
+    "canonical_entry_count": 299,
+    "baseline_sha256": "b180d16ba9dc4d87eae3c586bf0cbc5880c2a086e61751db549a3aeb322ca140",
+    "clean_tracked_tree": true,
+    "limits": "Transient book __pycache__ excluded;1761 book products include current pdf-delivery descriptor and exact local PDF. No file-size exclusions."
+  },
+  "evidence": {
+    "baseline.json": "b180d16ba9dc4d87eae3c586bf0cbc5880c2a086e61751db549a3aeb322ca140",
+    "prior-screen.json": "25344b62b7d50fb0caf17495cb6593a3950e64c04850d893eed5fa929651f064",
+    "prior-quotation-fragment-hits.json": "4f2ca5362caf267f739aabf43b9ecef288f716eceffe7be8d85771603eb91528",
+    "original-reading.json": "40076f50815fd86f16684d1d7c9da85f5c2510caf222361db6dcd7e79ebad7be",
+    "semantic-comparisons.json": "d5e3ce8e61d7d5ba8bcb076b92e52c82e9d2d7661872d2d1b4041497c3dfe917",
+    "draft-validation.json": "fc8db5a33bacd8f273cb2bc469ec61924087bfcb920a1522f2c33e6ca8535155",
+    "preservation-check.json": "edeaeb0beb93dc4925fbc3cc4aad789dd5ad28089a1a3c2a8b8e6b036cb2c35f",
+    "reuse-query.json": "198a6dfd858962a4a4e4c188b1e2727b02dbfefe4440ac2bcd7186daf73d588d"
+  },
+  "future_integration_limits": [
+    "Only proposed primary148954 is used; source registry nine is research inventory, not integration list.",
+    "Rights object requires lossless renderer-compatible rights string plus original rightsinfo if later packaging.",
+    "No automatic154 orB24patch; preserve prior source letters and unresolved interpretation."
+  ],
+  "limits": [
+    "No external source retrieval,art,build,canonical/Git/publication changes or programme credit.",
+    "Same dictionary lineage is not independent corroboration; no earliest-origin/popularity/human proofreading claim.",
+    "Published collection remains299; one proposal is not acceptance or produced300.",
+    "Separate reviewer must assess actual final bindings."
+  ],
+  "write_scope": "Final audit frozen; output-only scope released after notification."
+}

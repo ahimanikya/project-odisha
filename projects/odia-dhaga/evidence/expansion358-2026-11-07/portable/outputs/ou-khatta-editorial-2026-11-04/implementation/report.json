@@ -1,0 +1,486 @@
+{
+  "status": "PASS_LOCAL_IMPLEMENTATION_PENDING_SEPARATE_FINAL_REVIEW",
+  "input_head": "006fe88973d14a890b989eb6238d8547a5e6ad0a",
+  "branch": "codex/ou-khatta-editorial-20261104",
+  "route": "/food/ou-khatta/",
+  "changed_site_files": [
+    "projects/site/src/components/OuKhattaArticle.astro",
+    "projects/site/src/pages/food/[slug].astro",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/src/lib/tour-book.mjs",
+    "projects/site/tests-coast/ou-khatta-editorial.test.mjs",
+    "projects/site/tests-coast/everyday-food.test.mjs",
+    "projects/site/tests-coast/bose-editorial.test.mjs",
+    "projects/site/tests-coast/enduri-editorial.test.mjs",
+    "projects/site/tests-coast/rasagola-editorial.test.mjs",
+    "projects/site/tests-coast/chandipur-meal-editorial.test.mjs",
+    "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs",
+    "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+    "projects/site/tests-coast/poda-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Single existing route opts into exact six-paragraph authored article; reviewed lead/title/byline/three source notes preserved.",
+    "Three native numbered references and exact returns use paragraph IDs and author-first note_segments. Sources and reading paths expanded.",
+    "Existing photo/rights/SaveID/related destinations/WhereToEat slot/contribution retained.",
+    "Portable item has six exact paragraph arrays and short3sources. Ou-only empty-heading guards suppress HTMLh4/TXTcolon with124 same-input prior sibling renderer outputs byte-exact.",
+    "Seven negative controls retarget only to actual generic Badi; two everyday expectations aligned only for Ou."
+  ],
+  "checks": {
+    "full_tests": 697,
+    "coast_tests": 552,
+    "gates": {
+      "01-build": {
+        "name": "01-build",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "seconds": 51.71,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/01-build.log",
+        "sha256": "683bc7019b6bcdf25d934465c83e2f4eda1cefc02e91a8f23c9321ce21895e25"
+      },
+      "02-disclosures": {
+        "name": "02-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist"
+        ],
+        "exit_code": 0,
+        "seconds": 1.38,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/02-disclosures.log",
+        "sha256": "170c21a14a51dfb88313e67128709cfb5eaf8c0445bb05cb9c3a194c8ea44225"
+      },
+      "03-tests": {
+        "name": "03-tests",
+        "command": [
+          "npm",
+          "test"
+        ],
+        "exit_code": 0,
+        "seconds": 17.68,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/03-tests.log",
+        "sha256": "793cc7db8b98922c33842441e2efbf23e3b5f5e72f8c806d32e2dc6103bee73b"
+      },
+      "04-coast-build": {
+        "name": "04-coast-build",
+        "command": [
+          "npm",
+          "run",
+          "build:coast"
+        ],
+        "exit_code": 0,
+        "seconds": 68.8,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/04-coast-build.log",
+        "sha256": "3575576714af0c2f5da3cac8944c8d751a218be499f0f1ccc1a213c90f0cf81c"
+      },
+      "05-coast-disclosures": {
+        "name": "05-coast-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-coast"
+        ],
+        "exit_code": 0,
+        "seconds": 1.06,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/05-coast-disclosures.log",
+        "sha256": "ab6cb998282164ffa164be4b03052d165f80019e63365b37843cf43b43a71b2f"
+      },
+      "06-coast-tests": {
+        "name": "06-coast-tests",
+        "command": [
+          "npm",
+          "run",
+          "test:coast"
+        ],
+        "exit_code": 0,
+        "seconds": 6.39,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/06-coast-tests.log",
+        "sha256": "dc836ad4deb2ea3e88abcd7a4e46feb07d1d052631714c895b09ef8811b0fb34"
+      },
+      "07-coast-acceptance": {
+        "name": "07-coast-acceptance",
+        "command": [
+          "python3",
+          "tools/audit-coast.py"
+        ],
+        "exit_code": 0,
+        "seconds": 7.39,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/07-coast-acceptance.log",
+        "sha256": "b588aaffeaf40493fd2d41f7eeac0abb3f35377991704ed72260f33f053698ff"
+      },
+      "08-discovery": {
+        "name": "08-discovery",
+        "command": [
+          "python3",
+          "tools/audit-discovery.py"
+        ],
+        "exit_code": 0,
+        "seconds": 2.27,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/08-discovery.log",
+        "sha256": "959a97ed2f32573f462618fc8673c66fca0c3b2556dd13ceb74844a1c3b19ea6"
+      },
+      "09-search-prepare": {
+        "name": "09-search-prepare",
+        "command": [
+          "node",
+          "tools/prepare-search-review.mjs"
+        ],
+        "exit_code": 0,
+        "seconds": 8.93,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/09-search-prepare.log",
+        "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+      },
+      "10-launch": {
+        "name": "10-launch",
+        "command": [
+          "python3",
+          "tools/audit-launch-readiness.py"
+        ],
+        "exit_code": 0,
+        "seconds": 2.58,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/10-launch.log",
+        "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+      },
+      "11-publication": {
+        "name": "11-publication",
+        "command": [
+          "npm",
+          "run",
+          "build:publication"
+        ],
+        "exit_code": 0,
+        "seconds": 277.56,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/11-publication.log",
+        "sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+      },
+      "12-publication-disclosures": {
+        "name": "12-publication-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-publish"
+        ],
+        "exit_code": 0,
+        "seconds": 0.63,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/12-publication-disclosures.log",
+        "sha256": "c100878950cc4ef3b0a940b6446a282e1794515c491d9ea42b2aad34d8a04557"
+      },
+      "13-shortlist": {
+        "name": "13-shortlist",
+        "command": [
+          "python3",
+          "tools/audit-search-shortlist.py"
+        ],
+        "exit_code": 0,
+        "seconds": 2.6,
+        "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/ou-khatta-editorial-2026-11-04/implementation/13-shortlist.log",
+        "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+      }
+    },
+    "schema_input": "exact reviewed collection entry/editorial bytes; all food siblings/outermetadata preserved",
+    "full_coast_publication": {
+      "status": "PASS",
+      "products": [
+        {
+          "edition": "dist",
+          "article_sha256": "0d864fc071cda1c86a44938d802552f6230160477a65446795ebd7af77b23884",
+          "article_bytes": 942248,
+          "six_paragraphs_once": true,
+          "three_markers_and_exact_notes": true,
+          "catalog_items": 124,
+          "unchanged_sibling_objects": 122,
+          "qualified_aggregate_order_delta": [
+            {
+              "id": "reading:food/everyday",
+              "only_difference": "Source order follows revised Ou paragraph sequence; exact source objects/set and all other fields preserved.",
+              "before": [
+                {
+                  "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+                },
+                {
+                  "title": "The Month of Kartik in my Mother’s Kitchen",
+                  "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+                },
+                {
+                  "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+                },
+                {
+                  "title": "Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling",
+                  "url": "https://www.firsttimercook.com/badi-chura/"
+                },
+                {
+                  "title": "The soul food of Odisha",
+                  "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+                },
+                {
+                  "title": "Tala Poda Pitha — photograph by Sangram Keshari Senapati",
+                  "url": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg"
+                },
+                {
+                  "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା",
+                  "url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"
+                }
+              ],
+              "after": [
+                {
+                  "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+                },
+                {
+                  "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+                },
+                {
+                  "title": "The Month of Kartik in my Mother’s Kitchen",
+                  "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+                },
+                {
+                  "title": "Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling",
+                  "url": "https://www.firsttimercook.com/badi-chura/"
+                },
+                {
+                  "title": "The soul food of Odisha",
+                  "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+                },
+                {
+                  "title": "Tala Poda Pitha — photograph by Sangram Keshari Senapati",
+                  "url": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg"
+                },
+                {
+                  "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା",
+                  "url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"
+                }
+              ]
+            }
+          ],
+          "item_sha256": "77642fd10cd24fbe1fdfc0c0aa8717d40a3b6f3166318ece0e35fbc40176c45f"
+        },
+        {
+          "edition": "dist-coast",
+          "article_sha256": "f7c12d019267dd8694900902ead9f87c5bddce0ad7f6d089dd56227fc432a638",
+          "article_bytes": 935685,
+          "six_paragraphs_once": true,
+          "three_markers_and_exact_notes": true,
+          "catalog_items": 115,
+          "unchanged_sibling_objects": 113,
+          "qualified_aggregate_order_delta": [
+            {
+              "id": "reading:food/everyday",
+              "only_difference": "Source order follows revised Ou paragraph sequence; exact source objects/set and all other fields preserved.",
+              "before": [
+                {
+                  "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+                },
+                {
+                  "title": "The Month of Kartik in my Mother’s Kitchen",
+                  "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+                },
+                {
+                  "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+                },
+                {
+                  "title": "Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling",
+                  "url": "https://www.firsttimercook.com/badi-chura/"
+                },
+                {
+                  "title": "The soul food of Odisha",
+                  "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+                },
+                {
+                  "title": "Tala Poda Pitha — photograph by Sangram Keshari Senapati",
+                  "url": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg"
+                },
+                {
+                  "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା",
+                  "url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"
+                }
+              ],
+              "after": [
+                {
+                  "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+                },
+                {
+                  "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+                },
+                {
+                  "title": "The Month of Kartik in my Mother’s Kitchen",
+                  "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+                },
+                {
+                  "title": "Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling",
+                  "url": "https://www.firsttimercook.com/badi-chura/"
+                },
+                {
+                  "title": "The soul food of Odisha",
+                  "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+                },
+                {
+                  "title": "Tala Poda Pitha — photograph by Sangram Keshari Senapati",
+                  "url": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg"
+                },
+                {
+                  "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା",
+                  "url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"
+                }
+              ]
+            }
+          ],
+          "item_sha256": "77642fd10cd24fbe1fdfc0c0aa8717d40a3b6f3166318ece0e35fbc40176c45f"
+        },
+        {
+          "edition": "dist-publish",
+          "article_sha256": "69736cbccda79c77e4d91b899c68325e3e868f1c4f31609e9eabadd832b6def0",
+          "article_bytes": 22691,
+          "six_paragraphs_once": true,
+          "three_markers_and_exact_notes": true,
+          "catalog_items": 115,
+          "unchanged_sibling_objects": 113,
+          "qualified_aggregate_order_delta": [
+            {
+              "id": "reading:food/everyday",
+              "only_difference": "Source order follows revised Ou paragraph sequence; exact source objects/set and all other fields preserved.",
+              "before": [
+                {
+                  "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+                },
+                {
+                  "title": "The Month of Kartik in my Mother’s Kitchen",
+                  "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+                },
+                {
+                  "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+                },
+                {
+                  "title": "Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling",
+                  "url": "https://www.firsttimercook.com/badi-chura/"
+                },
+                {
+                  "title": "The soul food of Odisha",
+                  "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+                },
+                {
+                  "title": "Tala Poda Pitha — photograph by Sangram Keshari Senapati",
+                  "url": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg"
+                },
+                {
+                  "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା",
+                  "url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"
+                }
+              ],
+              "after": [
+                {
+                  "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+                },
+                {
+                  "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+                  "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+                },
+                {
+                  "title": "The Month of Kartik in my Mother’s Kitchen",
+                  "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+                },
+                {
+                  "title": "Badi Chura | Coarse Mixture of Sun-dried Lentil (Black Gram) Dumpling",
+                  "url": "https://www.firsttimercook.com/badi-chura/"
+                },
+                {
+                  "title": "The soul food of Odisha",
+                  "url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha"
+                },
+                {
+                  "title": "Tala Poda Pitha — photograph by Sangram Keshari Senapati",
+                  "url": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg"
+                },
+                {
+                  "title": "Sugar Palm Rice Cake - ତାଳ ପୋଡ଼ପିଠା",
+                  "url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html"
+                }
+              ]
+            }
+          ],
+          "item_sha256": "77642fd10cd24fbe1fdfc0c0aa8717d40a3b6f3166318ece0e35fbc40176c45f"
+        }
+      ],
+      "limits": "HTML bytes may differ between editions; exact narrative/notes and portable item compared, no claim of identical whole-page wrappers."
+    },
+    "preservation": {
+      "status": "PASS",
+      "counts": {
+        "canonical_book_files": 1761,
+        "local301_files": 1790,
+        "protected_site_source_files": 348
+      },
+      "public299_local301_distinct": true,
+      "B39_to41_proposal_files_exact": true,
+      "B42_candidate_sha256": "aeb653da4e4570877f5f4994689e0f6596effc5db34af003941fc611cfd7d7d6"
+    },
+    "portable_sibling_outputs": {
+      "status": "PASS",
+      "sibling_items": 124,
+      "HTML_and_TXT_byte_identical": true,
+      "limits": "Same fixed date/plan/catalog inputs; new Ou payload checked separately."
+    },
+    "actual_browser": "run3 four1440/390PNGs;3native keyboard returns each,Save/reload,photo decoded,currentSrc/size,overflow,HTML/TXTdownloads. Final targeted4downloads bind exact final full article responses and embedded originalphoto."
+  },
+  "bindings": {
+    "aggregate-order-qualification.json": "01ac3284110d1d77d28da8bfd7701c40a704b42fcad735ef8afc2e3a6fa33d63",
+    "input-parity.json": "a123eeaa3b38d3edabda16753db08dd420da7544cb35416e05b7eb93814efe1e",
+    "source-manifest.json": "02c57a5a7d0aa3c1794a2e01896915f1d71fc35371dd23212ba07ccf15a56267",
+    "baseline.json": "91fdf47c4de5b7235d0e573efd99d06ac77d03ae3266792bf71edb8fd93e3a02",
+    "publication-parity.json": "d42e9c156a65e0b5622fa0abba6197122624d65b398e508273842c229e6c98f7",
+    "book-preservation.json": "d8738fa715c16b47f9e7eacbaadf3affefecda2e2efb39023c192d7b351cb80f",
+    "portable-sibling-check.json": "a45022a850a5c6a09e894df7208525c5234b2324e3dc4843fd69e553ef380da4",
+    "portable-sibling-initial-failure.json": "5ce3882c1909b7ffb25437f721ca69feb17a3c9184436fb9616dedf20f95f1bf",
+    "generic-control-check.json": "35813ef46f764d9c597999676d140331bb9da9579df0bd9db87e54cbdab80dd3",
+    "gate-progress.json": "b1f7ee01623a6f6f0360ce18be28de69c7ef4b12eea465bc0f2ca623eee21695",
+    "implementation-history.json": "2ffd85286fdcec40cd3da0b4b5e86b849784f6ff8cf6bc6df4035761e423a229",
+    "applied-scope-patch.diff": "9970cba8bee72328f222a4825d2881dd2a13d8030dea0163e8af5c97d1ac8d53",
+    "final-rebuild-basis.json": "31c04af02b7be9b7283cd306af5c17dfede032800c42d9144a93c87deb214370",
+    "focused-tests.log": "3397f09e6b6e4003b71567f7ea99938acce1326c2b8302063bd60b14a46fce35",
+    "focused-input-test.log": "a468c1560a5c96bd40616f2cd818df5a52e273d3e46693bd0287dd38bfc60f7d",
+    "browser/run3/browser-review.json": "4c47eb1a8eff4d9ccd6506d18bffb3be9e2eb9700841a79ecd1da4460c962042",
+    "browser/final-downloads/report.json": "92ffb26eb1532991efde9f1314e0500c086c34ab286ee80bf2b9ad1def3a3e22",
+    "accessibility-guidance.txt": "0664f575db86ef1b06a083a188c02f450280299e0eebae5aeefe631f6846e782",
+    "../root-installation.json": "662fb472baf59c2d1f2ffedff5c42e170c141b4c32940420baaf91244e4c1b5c",
+    "browser/run3/desktop-sources.png": "5b8e28a295e35e54f9e250bde0b258917f85652f19c89265127401f0a8e4ec1b",
+    "browser/run3/phone-reading.txt": "3f15a21718ceb9dc9e60871c2615d66645f690327d5f5a2c48a0ba20d2fb0991",
+    "browser/run3/phone-opening.png": "f43483c142514b36b087f9d706fb6c89a7d9bd550f46d908e996f8d38a5fe849",
+    "browser/run3/phone-reading.html": "b0cf801230800789ccf2a19fc5413a1dfc09c6cf384e63259d7524882dd5f4f7",
+    "browser/run3/phone-sources.png": "5994aaa83f40d6d9dcaeed9b00dfd7a8d20e4d2dd648eff76dafcf6a52183a9e",
+    "browser/run3/desktop-reading.txt": "3f15a21718ceb9dc9e60871c2615d66645f690327d5f5a2c48a0ba20d2fb0991",
+    "browser/run3/desktop-opening.png": "6ba7d280c971645ec53b14f0fbf4f8044a8d241d0586d275e0493d2aadee158d",
+    "browser/run3/desktop-reading.html": "b0cf801230800789ccf2a19fc5413a1dfc09c6cf384e63259d7524882dd5f4f7",
+    "browser/final-downloads/desktop.html": "529bfd76b696e6b9b3d1fbde569be2d04c608a98b0ead9a1371f0bc94babcf40",
+    "browser/final-downloads/phone.html": "529bfd76b696e6b9b3d1fbde569be2d04c608a98b0ead9a1371f0bc94babcf40",
+    "browser/final-downloads/desktop-article.html": "0d864fc071cda1c86a44938d802552f6230160477a65446795ebd7af77b23884",
+    "browser/final-downloads/desktop.txt": "389b4c1b9407ffe363120606d8b7fb748f013bc798300b0d6b2469ae5547c0bf",
+    "browser/final-downloads/phone-article.html": "0d864fc071cda1c86a44938d802552f6230160477a65446795ebd7af77b23884",
+    "browser/final-downloads/phone.txt": "389b4c1b9407ffe363120606d8b7fb748f013bc798300b0d6b2469ae5547c0bf"
+  },
+  "review_status": "Producer completion only; Drishti independently viewed run3 and final review pending frozenreport.",
+  "limits": [
+    "No Git/PR/publication/live checks by this worker. Root owns shared KB and records; their authorized deltas are separate.",
+    "Actual headless GoogleChrome1440/390, no screenreader/Firefox/WebKit or fieldCoreWebVitals claim.",
+    "Run3 screenshots precede download-only renderer correction; article component/content/photo remained unchanged. Final targeted response/download evidence binds final build; no false retrospective wholeHTMLhash claim.",
+    "Local download return URLs correctly use localhost; productionorigin must be checked after deployment.",
+    "Inherited catalogue download access/editorial-preview boilerplate not broadened in this scoped article task.",
+    "Public299 and local301 remain separate preserved books; no book build, art or new source research."
+  ],
+  "guidance": {
+    "id": "accessibility",
+    "quote": "Don't attach keyboard handlers to native interactive elements",
+    "application": "Native hrefs with visible focus and programmatically focusable note targets; no custom keyboard handler added. Empty opening headings suppressed only on the authorized article."
+  }
+}

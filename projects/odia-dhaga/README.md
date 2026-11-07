@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **249 explained sayings and idioms, each illustrated, and 146 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **358 explained sayings and idioms, 301 accompanying illustrations, and 258 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -79,7 +79,7 @@ The canonical data is `collection.json`; regenerate `index.html` after edits. Re
 
 ## Coverage checkpoint
 
-[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. 198 explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection reached terminal PDF19, an uncaptioned rider/horse illustration. The targeted cursor is null because the scan ended; the full-transcription cursor remains PDF2. The1926 volume has canonical frontmatter inventory for PDF1–12; the next canonical inventory page is PDF13. A broader local pass throughPDF60 remains separate research evidence until integrated. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. At the historical 198-entry checkpoint, explained entries were counted separately from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection reached terminal PDF19, an uncaptioned rider/horse illustration. The targeted cursor is null because the scan ended; the full-transcription cursor remains PDF2. The1926 volume has canonical frontmatter inventory for PDF1–12; the next canonical inventory page is PDF13. A broader local pass throughPDF60 remains separate research evidence until integrated. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
 
 Drafts, exact source hashes, separate AI reviews and mechanical checks are linked in the coverage ledger. Multiple sayings can share one printed line, so their anchors preserve both line number and position within that line. Research drafts are kept outside `collection.json` and the reader browser until wording and interpretation are sufficiently supported.
 
@@ -202,3 +202,13 @@ Three reviewed sayings and original illustrations extend the251-reading edition 
 ### 3 November 2026 staged299-reading edition
 
 Forty-five reviewed readings and approved original illustrations extend the254-reading edition to299 readings. Earlier prose/art and historical source cursors/pending75 positions remain unchanged. Critical readings and imagined examples are editorial, not established traditional morals.
+
+
+### 4 November 2026 staged301-reading edition
+
+Two reviewed readings and approved original illustrations extend the299-reading edition to301 readings. Earlier prose/art and historical cursors/pending75 remain unchanged. Critical readings and imagined examples are editorial, not established traditional morals.
+
+
+## 2026-11-07 expanded candidate
+
+The reviewed text package adds 57 readings to the preserved 301-entry book. The generated candidate contains 358 readings, 301 illustrations and 258 source records across 226 PDF pages. The 57 new readings have no new illustration; optional scene briefs are retained as proposals. Existing source qualifications, provisional readings and research backlogs remain in force. This local candidate awaits separate production review and public release; these counts do not claim publication or human proofreading.

@@ -2,27 +2,36 @@
 import Shell from '../../../layouts/Shell.astro';
 import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
 import articles from '../../../data/dongariya.json';
+import guide from '../../../data/dongria-reading-guide.json';
+import reading from '../../../data/dongria-book-reading.json';
 const modules = import.meta.glob('../../../content/dongariya/*.md', {eager:true});
 export function getStaticPaths() { return articles.map(article=>({params:{slug:article.routeSlug || article.slug},props:{article}})); }
 const {article}=Astro.props;
 const entry=modules[`../../../content/dongariya/${article.slug}.md`];
 const {Content}=entry;
 const index=articles.findIndex(a=>a.slug===article.slug);
-const next=articles[(index+1)%articles.length];
+const next=articles[index+1],previous=articles[index-1];
+const route=a=>`/stories/dongria/${a.routeSlug||a.slug}/`;
+const summaries=Object.fromEntries(guide.parts.flatMap(p=>p.chapters.map(c=>[c.slug,c.summary])));
+const part=guide.parts.find(p=>p.chapters.some(c=>c.slug===article.slug));
+const previousLink=previous?{href:route(previous),title:previous.title}:{href:'/stories/dongria/book/#author-note',title:guide.opening.title};
+const nextLink=next?{href:route(next),title:next.title,image:next.image,description:summaries[next.slug],imageNote:guide.preview_notes[next.slug] || (next.kind==='interpretive illustration'?'Interpretive illustration':next.kind==='film poster'?'Film poster':undefined)}:{href:'/stories/dongria/book/#looking-again',title:guide.closing.title,image:reading.cover.at(-1).src,description:guide.closing.summary};
 ---
 <Shell title={article.title} description={`Explore ${article.title.toLowerCase()}, with attributed accounts, photographs and source notes.`} active="explore" related={false} shareImage={{src:article.image,alt:article.alt,width:article.dimensions[0],height:article.dimensions[1]}}>
 <article class="dongariya-article">
-<nav aria-label="Series"><a href="/stories/dongria/">Dongria Kondh · The Niyamgiri series</a><a href="/stories/dongria/book/">The book</a><span>{index+1} / {articles.length}</span></nav>
+<nav class="series-nav" aria-label="Series"><a href="/stories/dongria/">All stories</a><a href="/stories/dongria/book/">The book</a><span>Chapter {String(index+1).padStart(2,'0')} of {articles.length} · {part?.title}</span></nav>
 {index===0&&<p><a href="/stories/dongria/book/#author-note">Before this chapter: A shawl, and the questions it opened →</a></p>}
 <div class="article-content"><Content/></div>
 
-<ArticleReadingPath heading="Continue reading" links={index===articles.length-1?[{href:'/stories/dongria/book/#looking-again',title:'Looking again: the closing essay'}]:[{href:`/stories/dongria/${next.routeSlug || next.slug}/`,title:next.title,image:next.image}]} containImages/>
+<nav class="dongria-sequence" aria-label="Chapter reading sequence"><a href={previousLink.href} rel="prev"><span>Previous</span>← {previousLink.title}</a><a href={nextLink.href} rel="next"><span>Next</span>{nextLink.title} →</a></nav>
+<ArticleReadingPath heading="Continue reading" links={[nextLink]} uniformImages containImages/>
+<nav class="series-nav" aria-label="Collection links"><a href="/stories/dongria/">All stories</a><a href="/stories/dongria/book/">The book and download</a></nav>
 <section class="suggest-update"><h2>Suggest an update</h2><p><a href={`/contribute/?page=${encodeURIComponent(`/stories/dongria/${article.routeSlug || article.slug}/`)}`}>Share a correction or source for this article</a>.</p><p>GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
 </article>
 </Shell>
 <style>
 .dongariya-article{max-width:48rem;margin:3rem auto 5rem;padding:0 1.4rem;font-size:1.1rem;line-height:1.85;overflow-wrap:anywhere}
-.dongariya-article nav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;margin:2rem 0;font-size:.95rem}
+.dongariya-article .series-nav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;margin:2rem 0;font-size:.95rem}
 .dongariya-article :global(h1){font-size:clamp(2rem,1.3rem + 3vw,3.6rem);line-height:1.15;margin:2rem 0;text-wrap:balance}
 .dongariya-article :global(h2){font-size:1.6rem;line-height:1.3;margin:2.5rem 0 1rem}
 .dongariya-article :global(p){margin:0 0 1.25rem}
@@ -36,4 +45,5 @@ const next=articles[(index+1)%articles.length];
 .dongariya-article :global([id]){scroll-margin-top:2rem}
 .suggest-update{border-top:1px solid #d5c9b7;margin-top:2rem;padding-top:1rem;font-size:.95rem}
 .dongariya-article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal;margin:1.5rem 0;font-size:1.6rem}
+.dongria-sequence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.dongria-sequence a{min-width:0;font-size:1rem;line-height:1.6;overflow-wrap:break-word}.dongria-sequence a[rel="prev"]{grid-column:1;grid-row:1;text-align:left}.dongria-sequence a[rel="next"]{grid-column:2;grid-row:1;text-align:right}.dongria-sequence a>span:first-child{display:block;font-size:.8rem;color:var(--muted)}.dongria-sequence a:focus-visible,.series-nav a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
 </style>

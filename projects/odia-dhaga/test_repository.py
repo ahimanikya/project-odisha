@@ -159,10 +159,12 @@ class LibraryFileTests(unittest.TestCase):
         from html import escape
         data=load_library();out=(ROOT/'index.html').read_text();design=json.loads((ROOT/'research-design.json').read_text())
         self.assertEqual(set(design['id_to_shelf']),{e['id'] for e in data['entries']})
+        self.assertEqual(out.count('<h3 lang="or">'),len(data['entries']))
+        self.assertEqual(out.count('<h2 tabindex="-1">'),len(design['shelves']))
         for e in data['entries']:
             self.assertIn('id="'+e['id']+'"',out)
             for key in ['odia']:
-                if e.get(key):self.assertIn('<h2 lang="or">'+escape(e[key],quote=True).replace('\n','<br>')+'</h2>',out)
+                if e.get(key):self.assertIn('<h3 lang="or">'+escape(e[key],quote=True).replace('\n','<br>')+'</h3>',out)
             self.assertIn('sayings/'+e['id']+'.html',out)
         for brief in data['entries']:
             self.assertIn(escape(brief['odia_summary'],quote=True),out)

@@ -1,7 +1,7 @@
 {
   "id": "POD-DONGRIA-ONLINE-BOOK-20261107",
   "date": "2026-11-07",
-  "status": "preparing_revision",
+  "status": "published_verified",
   "authorization": "User requested same content online as the book, with narrative and a preview image following Odia Cinema.",
   "basis": "Published86-page illustrated reading edition; excludes unresolved supplemental imagery in private104-page draft.",
   "scope": "Book companion page with actual cover preview, author note, preface, locator, closing,16-term glossary, credits and links to12chapters; align chapter images to book and add its two supplementary photographs.",
@@ -9,7 +9,7 @@
   "pdf_modified": false,
   "canonical_route": "/stories/dongria/book/",
   "programme_credit": 0,
-  "publication": false,
+  "publication": true,
   "reservations": {
     "Disha": "KB,route registers,integration and publication",
     "Anvesha": "Read-only content/image parity audit",
@@ -32,5 +32,430 @@
     "editing": "Resize/encode for web only; full composition retained.",
     "licence": "No public reuse licence asserted.",
     "pdf_change": false
-  }
+  },
+  "verified_at": "2026-11-06T23:36:08.934507+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/692",
+  "reviewed_head": "cf65b1c8be019f6853ee99ac0033d0659030d9ca",
+  "merge_commit": "eae68f5ddaf4e34d07b04556e86ed94f739671aa",
+  "deployment": {
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42311166477",
+    "conclusion": "success"
+  },
+  "validation": "https://github.com/ahimanikya/project-odisha/actions/runs/42309407307",
+  "review": {
+    "reviewer": "Drishti",
+    "result": "pass",
+    "scope": "Exact-head source and desktop/mobile review; book parity,photo provenance,95note definitions and16glossary definitions verified."
+  },
+  "checks": {
+    "targeted_and_link_tests": 16,
+    "responsive_checks": 42,
+    "live_pages": 14,
+    "live_assets": 50,
+    "live_personal_photo": true,
+    "live_glossary_terms": 16,
+    "pdf_unchanged": true
+  },
+  "live_verification": [
+    {
+      "route": "/stories/dongria/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "02ea7221992119031a61a84110ae3df2a147613cc45def2e8c6c07e8658fa10f",
+      "download_link_present": true
+    },
+    {
+      "route": "/stories/dongria/book/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "efc916f7b6e8a0325d6c433e25968b81111fa9ba2048a2f0e1df2838988a3d86",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/dongria-life/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "dd5c54225b360aabd79825b0fb9e5903b4663880c116b3c296ea900dcd454452",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/niyamgiri/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "c80e4b589f0d4b8b3aa6c9863602f19c2fa2711116be4d6465c4d57fe1701e94",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/homes-and-repair/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "0f2b4b8a8e826b873d7826c546aff61f34d72f94887bebe6397757e945cd2d05",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/seed-keeping/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "b73ea43052cd4bc0fc24781abacab63193107dca942b1285ca841cf830e724b9",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/forest-foods/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "72fe817a784078ed993844f253352af8fc148eabb88db7dc26d1c18a8ce74a4c",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/harvest-to-market/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "fd8f6622edca55a7d008384762b341ff01c91dc1a4c846f07ddfae57b363544b",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/kapadaganda/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "3facbd4a4c48a3e93770b9fe80e29291ccc62f93df6faccfa84b4cbb0165aff9",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/ornaments-in-use/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "38a04c3936c140cf3b44dc2ddec08021a1257e28f4376129503c5a9890c1967a",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/kotpad-and-kapadaganda/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "d374247a49564c477a8479dc68b76c73ba00103033959750e1e9b7bc545673fb",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/learning-and-belonging/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "bbd5e7dd10e8c6d710ea45c8913d9a4663c8a053632402de2a678642fd9ecae6",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/kuvi-and-jatapu-script/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "5302dd5658c8f8f42bc687fbf6b8ebff94a81ff3ecdf6d03155478769714fde3",
+      "download_link_present": null
+    },
+    {
+      "route": "/stories/dongria/songs-and-singers/",
+      "status": 200,
+      "article_text_matches": true,
+      "live_text_sha256": "8f3d375de7e12efb3c5652669f3d00ec851e993a96b1a62e587631cf386ca3e2",
+      "download_link_present": null
+    }
+  ],
+  "live_asset_verification": [
+    {
+      "route": "/assets/dongria-book/20261107-commons-2-1200w.webp",
+      "status": 200,
+      "sha256": "69db2991dd8cd4ac1828f0b05ef18aa7b1118f5294b5b4c5da36bbd919d883b9",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-commons-2-480w.webp",
+      "status": 200,
+      "sha256": "080a818b5eed17e0def9888aad8df053221399d5812974474598f708d3e8ddb2",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-commons-2-800w.webp",
+      "status": 200,
+      "sha256": "d64f7a780836a26a9d74b96cb926c634d45004725a06a3e797d932ef9e60bd06",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-commons-4-1200w.webp",
+      "status": 200,
+      "sha256": "3d59773202bbb005bf8dbfc13297c5ecacb2317b77908e4c55a6bad6b8a1e146",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-commons-4-480w.webp",
+      "status": 200,
+      "sha256": "0a1e5622f4ec24796469a225a6be261186b8425ad56075d6debefdff72a73d17",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-commons-4-800w.webp",
+      "status": 200,
+      "sha256": "81e5233854d9198ba75e5ce2185c119060162773a01a04c1f64986c4522c33ad",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-dongariya-life-1200w.webp",
+      "status": 200,
+      "sha256": "47ec333ab057b951a27dc2bd10a4347f66803ed1abe357f0ade73a1b956fb1e6",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-dongariya-life-480w.webp",
+      "status": 200,
+      "sha256": "9115a9c6e5344bf8c47893c45a66a57e4e16ec89997f7c1b576698f5d9030413",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-dongariya-life-800w.webp",
+      "status": 200,
+      "sha256": "f79adc7d7fd9d3a2f5a40a329a05ce39551f03cf573682ed8818dcefe9f375c5",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-forest-foods-480w.webp",
+      "status": 200,
+      "sha256": "3c8ee41a9fbf4daefbcb46fc517f4c1e05409fbdd06e31a437bc4da866c265c1",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-forest-foods-800w.webp",
+      "status": 200,
+      "sha256": "28c4b6e93e1d2f4675f41a610782385b51c5c6dfe65ffee3dc857a8baa514188",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-forest-foods-992w.webp",
+      "status": 200,
+      "sha256": "890d1780fa64d2330395ef39d647fa9b2d644d397827e2bc6b4d0742067fef53",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-harvest-to-market-1200w.webp",
+      "status": 200,
+      "sha256": "244502f3bea2f1873f46daa99f8b14796c24eaf0697ce6ba0520457b85f5fa78",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-harvest-to-market-480w.webp",
+      "status": 200,
+      "sha256": "41c456f0ea0166e35c4fe3312db495fc49351b3e6f434dc77b866bb74aed1379",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-harvest-to-market-800w.webp",
+      "status": 200,
+      "sha256": "90e481a2625cb281281418bbb6ebc7e8a26487c2429f3988ab86d329a30f86cf",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-homes-and-repair-480w.webp",
+      "status": 200,
+      "sha256": "33a452a3b4108bf863c66b3b12e7608a124b057772c0e711124898d05eb62311",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-homes-and-repair-800w.webp",
+      "status": 200,
+      "sha256": "e09785d7b76e85db1e00c4a8c3302e65a1cdea9aeb121cfd202d0cb2127a0b34",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-homes-and-repair-992w.webp",
+      "status": 200,
+      "sha256": "10c9b7008386f8e48fdc11eff22fe11cf944ae0e52dab86f57090561a70308ac",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kapadaganda-480w.webp",
+      "status": 200,
+      "sha256": "abb40417b329d526bb24a568073651f456a721e08ec68841d9ccb2aa12fa0776",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kapadaganda-800w.webp",
+      "status": 200,
+      "sha256": "36f41010d8eb66647ab72935055c536629b0f4281d47102da51f682b7f5f34ef",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kapadaganda-992w.webp",
+      "status": 200,
+      "sha256": "0761903b53c1722a987698a6c7f7da4e05cf08cbc943b3b725ef05bd554684d5",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kotpad-and-kapadaganda-1200w.webp",
+      "status": 200,
+      "sha256": "606f18abe7ecdd594f62ac1354a00d8222a1f419a7472134c955f75d67225b1b",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kotpad-and-kapadaganda-480w.webp",
+      "status": 200,
+      "sha256": "8c4df22a8f940003fbfd9a127cd137a94748c0694166277720f00ffee5da5e07",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kotpad-and-kapadaganda-800w.webp",
+      "status": 200,
+      "sha256": "456758e5cabe9288512937d77a7f945670a0c72070ce2ae191678859b21f2543",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kuvi-and-jatapu-script-480w.webp",
+      "status": 200,
+      "sha256": "b75e0e8bcbcf0dda00a6e3e870b38e7465e849591d5a70ec988c006eed7f4016",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kuvi-and-jatapu-script-800w.webp",
+      "status": 200,
+      "sha256": "6353e6cb457ab8d00e77a4875d02679d8c5eca610d3fcb5598c20763bfc0bb37",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-kuvi-and-jatapu-script-992w.webp",
+      "status": 200,
+      "sha256": "478f585dbe501d079ab7c1779cc1f2d42f721b2f6d6c0afbe029efca617745fd",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-learning-and-belonging-480w.webp",
+      "status": 200,
+      "sha256": "753ca3436f9005e5c868b00a0f1ec52fcb6cdcbf999025750bfbf38f8c707457",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-learning-and-belonging-800w.webp",
+      "status": 200,
+      "sha256": "71d4fce1f15bfd6d2824fe592468473ee1b2b8698e208b13c6d77e0f45dacd79",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-learning-and-belonging-992w.webp",
+      "status": 200,
+      "sha256": "00e41e9e4b7d1296c57d026828f2b1f52803eacdd4c780fd1b5af028955fe87a",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-niyamgiri-1200w.webp",
+      "status": 200,
+      "sha256": "3d78bf7b2f4e34fe01fa8a4fd4e3de344a107092a19670e900dfd8a97d150fa8",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-niyamgiri-480w.webp",
+      "status": 200,
+      "sha256": "4783b59d7a5ac66a4f325ef32386803f44147fd8b2eb2a52fcb87059ef568039",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-niyamgiri-800w.webp",
+      "status": 200,
+      "sha256": "a65b374979366f3b68ae52d377eaeddead8c03851f9b8d096c66f0505b6508ad",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-ornaments-in-use-480w.webp",
+      "status": 200,
+      "sha256": "14cea8c3f7539cc8a2278c4019c1865c3d3c2a9538583f28b465cb74f754b69c",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-ornaments-in-use-800w.webp",
+      "status": 200,
+      "sha256": "be16488eb5178bff9eb6846b894eb19cf3326ce6ce617da5444fdc68bda1a84a",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-ornaments-in-use-856w.webp",
+      "status": 200,
+      "sha256": "da3bf690e10f8bf513278f750f88a1da9f8240dd2847510322b5cac5e7de7e7f",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-seed-keeping-480w.webp",
+      "status": 200,
+      "sha256": "9ac93d8b5a23b0947b60f617a9c477db9640cfe456a1853e917746ec4a1ad19b",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-seed-keeping-800w.webp",
+      "status": 200,
+      "sha256": "d5a7aff4e85b3255a0252fe50ee0545a01e5eef8c6201291629db978ce434ad5",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-seed-keeping-992w.webp",
+      "status": 200,
+      "sha256": "70ef3eccd1fb56e5949def0653b286655d42251cce5c0bea7a56d50a4d8dcfe6",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-songs-and-singers-1200w.webp",
+      "status": 200,
+      "sha256": "34bf49d287487317b643639531b142baee489bd76992a2da9002e606552c1640",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-songs-and-singers-480w.webp",
+      "status": 200,
+      "sha256": "6b4c8cf972b60e4f8a2bb311c1a2843ef539be446aa169d8f771076f0f0e5cf9",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/20261107-songs-and-singers-800w.webp",
+      "status": 200,
+      "sha256": "5153c675261878bff556ac715b601ce685de4dd57370a78be6779b0cc493dadb",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/author-600w.webp",
+      "status": 200,
+      "sha256": "674c39fb0b9c52740358bf1ed11a0f8530d62e760935b72f3f39a51863a24df8",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/author-shawl-420w.webp",
+      "status": 200,
+      "sha256": "8aa2905b7f660eb93a973ddfd0c19142d026b1a20c8f0a8a67bbcd8a5cc43798",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/author-shawl-840w.webp",
+      "status": 200,
+      "sha256": "e2d4ba8c10073204213ded2841022a7df5341b88924fe5390a069281e584fe2c",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/cloth-band.png",
+      "status": 200,
+      "sha256": "6fd503ce4bd64a58de3ea794960a1e3e6b2bbb59698f710d014d27a0dc225e2b",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/cover-480w.webp",
+      "status": 200,
+      "sha256": "e74cecc5ea67853d7ebbfc696d06c1bbbf06c0fe417dbeea1747a7b8be9e6585",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/cover-800w.webp",
+      "status": 200,
+      "sha256": "a5553bfc13f69dab29df54ac4fd5e9456327fc84339b9ae8462441f94f347d92",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/cover-960w.webp",
+      "status": 200,
+      "sha256": "2514d809c84b0cf27c44d24409e86d7c28ec03abf3df5f6142c7019b5f84ef8b",
+      "matches_reviewed_asset": true
+    },
+    {
+      "route": "/assets/dongria-book/hairpins.png",
+      "status": 200,
+      "sha256": "2b9db4dde741a8d54482fa6b5ff9cb8b0f20d2b8485d9a27ce581c7a6c984ae0",
+      "matches_reviewed_asset": true
+    }
+  ]
 }
