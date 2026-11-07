@@ -1,6 +1,6 @@
 {
   "id": "POD-DONGRIA-ONLINE-VISUALS-20261108",
-  "status": "built_pending_visual_review",
+  "status": "reviewed_pending_publication",
   "authorization": "User requested the online version updated with the same new map and ornament photograph as the revised book.",
   "scope": "Online book locator, ornaments hero and reading previews, removal of earlier duplicate wedding photograph, captions and source credits.",
   "reference_pdf_sha256": "7fa28c70aa8fc80b6e61aa714a3a02b0b2dfb2eb503b6882142a574bf528ae54",
@@ -24,6 +24,14 @@
   "publication": false,
   "checks": {
     "site_build": "pass",
-    "scoped_tests": 14
+    "scoped_tests": 20,
+    "responsive_cases": 56,
+    "footnote_roundtrips": 48,
+    "reading_journeys": 4,
+    "waypoints_per_journey": 18,
+    "unchanged_source_notes": 95,
+    "disclosure_violations": 0,
+    "independent_review": "Drishti: pass, including KB provenance restoration",
+    "evidence": "output/dongria-online-visuals-20261108/technical-results.json"
   }
 }
