@@ -1,0 +1,254 @@
+[
+  {
+    "name": "01-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "seconds": 56.11,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/01-build-history-1794074721.log",
+    "sha256": "9f64b323cd4f6507c1f81c3d23870aaf5925267e485e5a19e467bc4c30ac1e80",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/01-build.log"
+  },
+  {
+    "name": "02-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "seconds": 1.42,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/02-disclosures.log",
+    "sha256": "099a4cf97c9acc3c9a6c016f9fe7ebb56b56b1f4f7e09bf0c72158a30b1ea20c",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/02-disclosures.log"
+  },
+  {
+    "name": "03-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "seconds": 18.07,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/03-tests-history-1794074774.log",
+    "sha256": "ec0e07ea9d2163051f0c8be2829c96bab47db5c7e02bf31e621b66cb1355976b",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/03-tests.log"
+  },
+  {
+    "name": "04-coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "seconds": 70.43,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/04-coast-build-history-1794074797.log",
+    "sha256": "ffbba13f042f20be5f1ed72985987b6aa1238ee295f8e7e1624ada8c2849ae4f",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/04-coast-build.log"
+  },
+  {
+    "name": "05-coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "seconds": 1.31,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/05-coast-disclosures-history-1794074861.log",
+    "sha256": "fa95dee6620a29d2ec13f601709be7b91f39aef807c6971de853f0ab08b50d13",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/05-coast-disclosures.log"
+  },
+  {
+    "name": "06-coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "seconds": 8.2,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/06-coast-tests-history-1794074863.log",
+    "sha256": "76e1b3c90136718e89690b5d8119ae4fda3aaf14124f465e3d1f12987a1d9fee",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/06-coast-tests.log"
+  },
+  {
+    "name": "07-coast-acceptance",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 1,
+    "seconds": 6.03,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance-history-1794074869.log",
+    "sha256": "d5fc18fdacf777ce26b56321145da1ff10338189d05893a3b3e4c483ef2ce734",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance.log"
+  },
+  {
+    "name": "01-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "seconds": 52.1,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/01-build.log",
+    "sha256": "e89df5242f3d1f686d6e70db1bca9c34673f8a5bf469b1211023871c4564b128",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/01-build.log"
+  },
+  {
+    "name": "02-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "seconds": 1.65,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/02-disclosures.log",
+    "sha256": "099a4cf97c9acc3c9a6c016f9fe7ebb56b56b1f4f7e09bf0c72158a30b1ea20c",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/02-disclosures.log"
+  },
+  {
+    "name": "03-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "seconds": 22.8,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/03-tests.log",
+    "sha256": "993e258458464bde4767b0b302d0da901ca0a156c218c4c6509c30e51d3b8d0f",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/03-tests.log"
+  },
+  {
+    "name": "04-coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "seconds": 64.09,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/04-coast-build.log",
+    "sha256": "5b42e3dc14bd578ca5d30a26b0b93d646e4e36c75ed3c86037b3582cf4dab12d",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/04-coast-build.log"
+  },
+  {
+    "name": "05-coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "seconds": 1.29,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/05-coast-disclosures-history-1794074861.log",
+    "sha256": "fa95dee6620a29d2ec13f601709be7b91f39aef807c6971de853f0ab08b50d13",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/05-coast-disclosures.log"
+  },
+  {
+    "name": "06-coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "seconds": 6.78,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/06-coast-tests.log",
+    "sha256": "25bb60d00b41484e011b7298ed0584d3682bc990aa274dc1b797bcfb9602efff",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/06-coast-tests.log"
+  },
+  {
+    "name": "07-coast-acceptance",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "seconds": 9.34,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance.log",
+    "sha256": "0f5b3cd806add85cd86b88ce62bbd2561c91307b72ebfa2ce6f7f785276cb078",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/07-coast-acceptance.log"
+  },
+  {
+    "name": "08-discovery",
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.05,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/08-discovery.log",
+    "sha256": "d6e7d5196cc318ff72f45a3a5e1981c27ffd4dc3ba4f5b88b0dd25b8f8df5d19",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/08-discovery.log"
+  },
+  {
+    "name": "09-search-prepare",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "seconds": 7.65,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/09-search-prepare.log",
+    "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/09-search-prepare.log"
+  },
+  {
+    "name": "10-launch",
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.2,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/10-launch.log",
+    "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/10-launch.log"
+  },
+  {
+    "name": "11-publication",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "seconds": 277.72,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/11-publication.log",
+    "sha256": "eb74cf1502152ed2b9348f17ef71e423c77c10533b199891840fd90c4c23560e",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/11-publication.log"
+  },
+  {
+    "name": "12-publication-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "seconds": 0.59,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/12-publication-disclosures.log",
+    "sha256": "fe856b5c57a87a28302ff0aa6c39132008e5efb7518d0d707d0bc1362217a8e2",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/12-publication-disclosures.log"
+  },
+  {
+    "name": "13-shortlist",
+    "command": [
+      "python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.52,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/13-shortlist.log",
+    "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed",
+    "original_log_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/13-shortlist.log"
+  }
+]

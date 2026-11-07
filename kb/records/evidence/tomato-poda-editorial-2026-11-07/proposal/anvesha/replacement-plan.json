@@ -1,0 +1,75 @@
+{
+  "canonical_application": false,
+  "required_replacements": [
+    {
+      "destination": "kb/research/sources/food-tomato-oriyarasoi2015.md",
+      "proposal": "proposed/source.md",
+      "scope": "Replace explanatory duplication; exact title/URL/author/publisher/date and original generated metadata retained, original fullbytes archived."
+    },
+    {
+      "destination": "kb/research/references/data/source-catalog.json",
+      "object": "food-tomato-oriyarasoi2015",
+      "proposal": "proposed/catalog-object.json",
+      "only_changed_fields": [
+        "locator",
+        "capture_note"
+      ]
+    },
+    {
+      "destination": "kb/research/references/data/poda-traditions.json",
+      "object": "food/tomato-poda",
+      "proposal": "proposed/structured-object.json",
+      "only_changed_fields": [
+        "account",
+        "evidence_scope",
+        "geography",
+        "open_question"
+      ]
+    },
+    {
+      "destination": "kb/research/food/tomato-poda.md",
+      "proposal": "proposed/tomato-poda.md",
+      "scope": "Replace old account; retain exact classification relationship sentence."
+    },
+    {
+      "destination": "kb/research/food/collection.json",
+      "object": "pages[slug=tomato-poda]",
+      "proposal": "proposed/article.json",
+      "scope": "Title+29-word attributed passage+byline+native note; remove old lead/8paragraphs/4sectionheadings rather thanappend; no invented newlead. Schema proposal later."
+    }
+  ],
+  "must_preserve": {
+    "global_source": {
+      "title": "Roasted Tomato Salsa (aka Bilati Baigana poda from Odisha)",
+      "url": "https://www.oriyarasoi.com/2015/11/roasted-tomato-salsa-aka-bilati-baigana.html",
+      "inspection": "Reused the named account in the research KB, checked 1 October 2026. A documented preparation, not a statewide survey or a reviewed kitchen."
+    },
+    "save_id": "food:tomato-poda",
+    "hero": "tomato-poda",
+    "related": [
+      {
+        "title": "Odisha cooks with fire",
+        "href": "/food/fire-cooking/"
+      },
+      {
+        "title": "Pakhala and the Bhubaneswar table",
+        "href": "/food/bhubaneswar/#pakhala"
+      },
+      {
+        "title": "Badi chura: a little crunch",
+        "href": "/food/badi-chura/"
+      }
+    ],
+    "parent_source_ids": [
+      "food-baigana-sasmita2020",
+      "food-tomato-oriyarasoi2015",
+      "food-patrapoda-lopa2024",
+      "chef"
+    ],
+    "reliability_record": "unchanged",
+    "all_siblings": "unchanged",
+    "original_bytes": "original-bytes.json; archive as JSON to avoid broken relative Markdown links"
+  },
+  "portable_contract": "Same title/body once; short Oriyarasoi2015 citation instead of full website note/globaltitle/inspection. No additional sourced summary or question.",
+  "extra_surfaces": "Any new coastal/card description or duplicate lead must use source-neutral editorial navigation or be explicitly charged;199 is not blanketroom for extra strings."
+}
