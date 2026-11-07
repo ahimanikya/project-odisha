@@ -1,0 +1,88 @@
+{
+  "author": "Ahimanikya Satapathy",
+  "checked_on": "2026-11-06",
+  "route": "/food/baigana-poda/",
+  "source_home": "food/collection.json#pages/baigana-poda",
+  "sources": [
+    {
+      "id": "food-baigana-pragyan2008",
+      "number": 1,
+      "title": "Some Odiya Roasted Dishes",
+      "url": "https://sorisha.blogspot.com/2008/10/some-odiya-roasted-dishes-brinjal-and.html",
+      "note_markdown": "Pragyan, “[Some Odiya Roasted Dishes](https://sorisha.blogspot.com/2008/10/some-odiya-roasted-dishes-brinjal-and.html),” Sorisha, 12 October 2008.",
+      "note_segments": [
+        {
+          "text": "Pragyan, “"
+        },
+        {
+          "text": "Some Odiya Roasted Dishes",
+          "href": "https://sorisha.blogspot.com/2008/10/some-odiya-roasted-dishes-brinjal-and.html"
+        },
+        {
+          "text": ",” Sorisha, 12 October 2008."
+        }
+      ]
+    },
+    {
+      "id": "food-baigana-away2020",
+      "number": 2,
+      "title": "Baingan Chokha | Baigana Poda",
+      "url": "https://www.awayinthekitchen.com/post/baingan-chokha-baigana-poda-smoky-mashed-eggplant",
+      "note_markdown": "Away in the Kitchen, “[Baingan Chokha | Baigana Poda](https://www.awayinthekitchen.com/post/baingan-chokha-baigana-poda-smoky-mashed-eggplant),” 26 August 2020; updated 25 January 2021.",
+      "note_segments": [
+        {
+          "text": "Away in the Kitchen, “"
+        },
+        {
+          "text": "Baingan Chokha | Baigana Poda",
+          "href": "https://www.awayinthekitchen.com/post/baingan-chokha-baigana-poda-smoky-mashed-eggplant"
+        },
+        {
+          "text": ",” 26 August 2020; updated 25 January 2021."
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "roasted-garlic",
+      "source_ids": [
+        "food-baigana-pragyan2008"
+      ]
+    },
+    {
+      "id": "broiler-adaptation",
+      "source_ids": [
+        "food-baigana-away2020"
+      ]
+    },
+    {
+      "id": "photograph",
+      "source_ids": []
+    }
+  ],
+  "portable_sources": [
+    {
+      "title": "Pragyan2008",
+      "url": "https://sorisha.blogspot.com/2008/10/some-odiya-roasted-dishes-brinjal-and.html"
+    },
+    {
+      "title": "Away2020",
+      "url": "https://www.awayinthekitchen.com/post/baingan-chokha-baigana-poda-smoky-mashed-eggplant"
+    },
+    {
+      "title": "Sasmita2020",
+      "url": "https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/"
+    }
+  ],
+  "render_contract": {
+    "opening_heading": null,
+    "notes_expanded": true,
+    "reading_paths_expanded": true,
+    "note_order": "Render each exact note_segments text once; no duplicated note title.",
+    "native_anchors": "Two uniquely identified native references and returns; independent photo paragraph has no source-note marker.",
+    "byline": "By Ahimanikya Satapathy",
+    "portable": "Exact three paragraphs and exact three short citations; explicit route override, no appended legacy inspection/full notes.",
+    "parent": "Preserve original reading:food/fire-cooking source list exactly as parent-source-preservation.json; automatic child source union would change it."
+  }
+}
