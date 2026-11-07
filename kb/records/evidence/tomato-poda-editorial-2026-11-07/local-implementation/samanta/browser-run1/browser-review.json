@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "authorization": {
+    "scope": "Authorized root117 local implementation checks"
+  },
+  "http": [
+    {
+      "url": "http://127.0.0.1:4178/food/tomato-poda/",
+      "status": 200,
+      "headers": {
+        "server": "SimpleHTTP/0.6 Python/3.9.6",
+        "date": "Sat, 07 Nov 2026 18:08:31 GMT",
+        "content-type": "text/html",
+        "content-length": "933482",
+        "last-modified": "Sat, 07 Nov 2026 18:07:01 GMT"
+      },
+      "sha256": "b7ba72908018e62602bccebc0d027069e5316b55e5dae6480a1659e76f9a6de2",
+      "bytes": 933482,
+      "local_sha256": "b7ba72908018e62602bccebc0d027069e5316b55e5dae6480a1659e76f9a6de2",
+      "exact_local": true
+    },
+    {
+      "url": "http://127.0.0.1:4178/food/fire-cooking/",
+      "status": 200,
+      "headers": {
+        "server": "SimpleHTTP/0.6 Python/3.9.6",
+        "date": "Sat, 07 Nov 2026 18:08:31 GMT",
+        "content-type": "text/html",
+        "content-length": "940919",
+        "last-modified": "Sat, 07 Nov 2026 18:07:01 GMT"
+      },
+      "sha256": "e879de90457191ad0f503c123b91285e0523e004142271d874221e5e13982457",
+      "bytes": 940919,
+      "local_sha256": "e879de90457191ad0f503c123b91285e0523e004142271d874221e5e13982457",
+      "exact_local": true
+    }
+  ],
+  "checked_at": "2026-11-07T18:08:38.280Z",
+  "tested_head": "32a4c1b089c824ffd26915969ea4f5f1834869d2",
+  "working_tree_basis": "Actual local checkout head plus authorized uncommitted117 source/KB changes. Browser exercised frozen dist-coast only; no deployed merge, public verification, or publication claimed.",
+  "article_source_sha256": "14be34537caa0efb6ae16612089f41f6c4829ea2d0cc1bc4836335e529b77cad",
+  "base": "http://127.0.0.1:4178",
+  "browser": "Actual headless Google Chrome",
+  "results": [
+    {
+      "actualTextDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-reading.txt",
+      "oneParagraphOnce": true,
+      "oneShortSource": true,
+      "name": "desktop",
+      "imageState": {
+        "src": "/images/food/tomato-poda-meal-alternate.webp",
+        "currentSrc": "http://127.0.0.1:4178/images/responsive/6d05435228bc475d-960.webp",
+        "naturalWidth": 720,
+        "naturalHeight": 478,
+        "alt": "An overhead pakhala meal with the whole red bilati poda bowl visible at the left."
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "keyboardNoteReturns": 1,
+      "saveReload": true,
+      "actualOfflineDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/desktop-reading.html",
+      "allParagraphsAndShortSources": true
+    },
+    {
+      "actualTextDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-reading.txt",
+      "oneParagraphOnce": true,
+      "oneShortSource": true,
+      "name": "phone",
+      "imageState": {
+        "src": "/images/food/tomato-poda-meal-alternate.webp",
+        "currentSrc": "http://127.0.0.1:4178/images/responsive/22f0d33977061cc4-480.webp",
+        "naturalWidth": 358,
+        "naturalHeight": 238,
+        "alt": "An overhead pakhala meal with the whole red bilati poda bowl visible at the left."
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "keyboardNoteReturns": 1,
+      "saveReload": true,
+      "actualOfflineDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/browser-run1/phone-reading.html",
+      "allParagraphsAndShortSources": true
+    }
+  ],
+  "limits": [
+    "Local verification only; portable return URLs correctly use local origin. Not assistive-technology testing or Firefox/WebKit."
+  ]
+}

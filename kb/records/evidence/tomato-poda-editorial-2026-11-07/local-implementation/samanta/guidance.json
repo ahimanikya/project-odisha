@@ -1,0 +1,26 @@
+{
+  "status": "APPLIED",
+  "checked_at": "2026-11-07T18:03:18.604636+00:00",
+  "guide": "accessibility",
+  "skill": "/Users/ahimanikya/.codex/skills/modern-web-guidance/SKILL.md",
+  "actual_commands": [
+    "npx -y modern-web-guidance@latest search \"accessible anchor navigation\" --skill-version 2026_10_16-6654652b",
+    "npx -y modern-web-guidance@latest retrieve accessibility"
+  ],
+  "guide_sha256": "0664f575db86ef1b06a083a188c02f450280299e0eebae5aeefe631f6846e782",
+  "rules_applied": [
+    "Prefer HTML elements and attributes to ARIA",
+    "Use :focus-visible when styling focus indicators",
+    "Do not attach keyboard handlers to native interactive elements"
+  ],
+  "implementation": "Native note/reference/return anchors, expanded reading/source sections, retained focus-visible outline, no fabricated section heading. Existing tested source-link binding reused.",
+  "negative_control": {
+    "id": "food:patrapoda",
+    "author_absent": true,
+    "all_practical_paragraph_arrays_absent": true
+  },
+  "limits": [
+    "Guidance version warning retained conceptually: repository skill version older than search tool available version; no skill mutation.",
+    "No assistive-technology certification inferred."
+  ]
+}
