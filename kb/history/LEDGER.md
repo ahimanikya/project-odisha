@@ -1385,3 +1385,8 @@ Confirmed 50 core readings in seven parts, five connected companion profiles and
 ### 7 November 2026 · Cinema sequence publication preparation
 
 Reviewed the 49-chapter book and 52-reading online sequence. Bibhuti Pattanaik and Solila Parida join the main sequence; DAMaN’s three filmmaker profiles are integrated in print and remain online. The 270/276-page proofs preserve prior photographs and 535 numbered notes. Publication authorized; actual delivery follows. [Record](../records/cinema-sequence-publication-2026-11-07.json).
+
+
+### 7 November 2026 · Cinema sequence and books published
+
+Published PR 693 after hosted validation. Deployment 42314570245 succeeded; all 58 target routes match the reviewed text and links. The 52-reading online series and 49-chapter book are connected, with 270-page digital and 276-page print downloads verified byte for byte. Earlier editions remain available. [Receipt](../records/cinema-sequence-publication-2026-11-07.json).

@@ -1,11 +1,11 @@
 {
   "id": "POD-CINEMA-SEQUENCE-PUBLICATION-20261107",
   "date": "2026-11-07",
-  "status": "reviewed_pending_publication",
+  "status": "published_verified_receipt_integration",
   "authorization": "Founder: push to website, following the explicit list of sequence, companion, DAMaN, navigation and writer-support refinements.",
   "active_article": null,
   "scope": "Implement reviewed book and website composition as one publication batch, with book-only adaptations; retain all online profiles.",
-  "publication_performed": false,
+  "publication_performed": true,
   "programme_credit": 0,
   "counts_target": {
     "online_readings": 52,
@@ -69,5 +69,19 @@
     "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-11-07-sequence",
     "status": "uploaded_anonymous_hash_verified",
     "receipt": "outputs/cinema-sequence-publication-20261107/remote-assets.json"
-  }
+  },
+  "publication": {
+    "pr": "https://github.com/ahimanikya/project-odisha/pull/693",
+    "reviewed_head": "5055265c7938bd244c6ae52a17f4856b95ce0dca",
+    "merge": "6bc6eeb32d06b397fec276113bb3ce0afff97081",
+    "required_check_run": 42313211892,
+    "required_check_result": "success",
+    "deployment_run": 42314570245,
+    "deployment_result": "success",
+    "live_routes_verified": 58,
+    "live_receipt": "outputs/cinema-sequence-publication-20261107/live-verification.json",
+    "asset_receipt": "outputs/cinema-sequence-publication-20261107/remote-assets.json",
+    "browser": "Published book landing page shows 52 online readings, 49 book readings, 270/276-page downloads dated 7 November 2026."
+  },
+  "scope_release_condition": "Release this publication scope when the receipt commit merges after required checks. Publication and live verification are already complete; no further website deployment is required for this evidence-only receipt."
 }
