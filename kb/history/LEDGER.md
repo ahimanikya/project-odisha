@@ -1390,3 +1390,23 @@ Reviewed the 49-chapter book and 52-reading online sequence. Bibhuti Pattanaik a
 ### 7 November 2026 · Cinema sequence and books published
 
 Published PR 693 after hosted validation. Deployment 42314570245 succeeded; all 58 target routes match the reviewed text and links. The 52-reading online series and 49-chapter book are connected, with 270-page digital and 276-page print downloads verified byte for byte. Earlier editions remain available. [Receipt](../records/cinema-sequence-publication-2026-11-07.json).
+
+
+### 7 November 2026 · Bapa source lead and reader invitation
+
+Located a specific indexed “Father” contents/page lead in The Little Monk and Other Stories; translation identity and original Bapa text remain unresolved. Prepared a concise case-study research brief and a reader invitation for the52-reading website/49-chapter book. Published articles and books unchanged; no outreach, purchases or programme credit. [Handoff](../records/cinema-bapa-reader-review-2026-11-07.json).
+
+
+### 7 November 2026 · Writers, credit and adaptation payments
+
+Read two relevant Gourahari Das public posts in Chrome: Bapa’s English collection and earlier television adaptation, plus author-reported OFDC recognition that separates story and screenplay roles. Three independent source routes did not verify source-author payment terms. A concise research brief and framework distinguish credit, permission, fees and royalties; separate review passed. Public articles/books unchanged, no outreach or programme credit. [Research record](../records/cinema-writer-rights-2026-11-07.json).
+
+
+### 7 November 2026 · Bapa across page, television and cinema
+
+Integrated Gourahari Das’s attributed public recollections and story-writer recognition into his profile, and a brief earlier-television connection into Pratikshya. Payment terms remain open. Separate content and affected-artifact review passed;51focused tests and site/disclosure checks pass. Local271/276-page proofs contain538notes;62image placements, covers and earlier published PDFs preserved. One book ending grouped without changing type or prose. No publication, outreach or programme credit. [Record](../records/cinema-bapa-integration-2026-11-07.json).
+
+
+### 7 November 2026 · Bapa publication authorized and fact-checked
+
+Founder requested publication of both reviewed articles and matching book downloads. Original public posts reread and a separate source-to-claim check passed for attributed wording. Current proofs remain271/276pages with538notes; recognition is not treated as payment evidence. Release preparation begun; actual publication will have its own receipt. [Record](../records/cinema-bapa-publication-2026-11-07.json).

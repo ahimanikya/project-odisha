@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-07",
+  "scope": "Bounded original-source discovery for Bapa, no public edits",
+  "reuse": [
+    "kb/records/cinema-bapa-reader-review-2026-11-07.json",
+    "kb/research/people/gourahari-das.md",
+    "outputs/cinema-research-gaps-20261107/literary-sources.json",
+    "outputs/pratikshya-title-choice-20261105/research.json"
+  ],
+  "routes": [
+    {
+      "route": "Odia story publication/periodical discovery",
+      "queries": [
+        "\"ଗୌରହରି ଦାସ\" \"ବାପା\" \"କଥା\" ଗଳ୍ପ",
+        "site:sambad.in \"ଗୌରହରି\" \"ବାପା\" \"ଗଳ୍ପଟି\"",
+        "\"Gourahari Das\" \"Bapa\" magazine published",
+        "\"Gourahari\" \"Bapa\" \"published in\" -site:bookswagon.ae -site:wikipedia.org"
+      ],
+      "finding": "Other named stories/columns and familiar film reports surfaced, no identifiable original Bapa issue/text. Did not substitute The Culprit, The Return of the Daughter or another father-related story."
+    },
+    {
+      "route": "Identified English translation collection and public sample",
+      "queries": [
+        "\"Gourahari Das\" \"Father\" story translation",
+        "\"The Little Monk and Other Stories\" \"contents\"",
+        "\"The Little Monk\" \"Gourahari\" \"Father\" contents translation",
+        "\"9788129116994\" preview Father",
+        "\"The Little Monk and Other Stories\" \"translated\" Saroj Gopa",
+        "\"Gourahari\" \"Father\" \"Bapa\" translation"
+      ],
+      "sources": [
+        {
+          "url": "https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/",
+          "access": "Retained author-listed collection; fresh web open inaccessible. Prior official-author bibliography establishes relevant collection route, not storyidentity."
+        },
+        {
+          "url": "https://www.exoticindiaart.com/book/details/little-monk-and-other-stories-nad978/",
+          "access": "Webopen cachemiss; indexed original retailer text exposes metadata and contents. Ordinary publicHTTP HTML retrieved; original-image links inspected and sole cover downloaded/viewed. Subsequent simpleHTMLtext extraction did not recover contents, so retain indexed-text boundary.",
+          "metadata": "Retailer labels English, Rupa,2011,ISBN9788129116994,210pages; not originalimprint inspection.",
+          "specific_locator": "Retailer contents: Father begins24; followingstory begins36; Note on translators198. These are candidate original pages, not readpages.",
+          "cover": "sources/nad978.webp",
+          "cover_scope": "Visually read title and Gourahari Das name; no translator or originalstorytitle visible. Existing watermark preserved."
+        }
+      ],
+      "finding": "Concrete translated-story candidate Father and page locator obtained. No explicit Bapa/Father identity or translator of Father established. Readerreview plot similarity rejected as proof."
+    },
+    {
+      "route": "Newly surfaced institutional holding for identified translation collection",
+      "url": "https://eastcoastrail.indianrailways.gov.in/uploads/files/1535539716217-TOTAL%20BOOKS%20OF%20CENTRAL%20LIBRARY.pdf",
+      "access": "Official search-index text names The Little Monk and Other Stories/Rupa/GouarahariDas/ISBN9788129116994/Rack22E; directwebopen404.",
+      "alternate_indexed_url": "https://eastcoastrail.indianrailways.gov.in/ticker/17156881398812024%20%20newbooks_merged.pdf",
+      "limit": "Alternate appeared insearchonly, not inspected; no actualcurrentholding, publicborrowingaccess or printedpage confirmed. No furtherretrieval loop."
+    }
+  ],
+  "strongest_next_original_lead": {
+    "work": "The Little Monk and Other Stories",
+    "isbn": "9788129116994",
+    "pages_to_inspect": "Father24–35, translatornote198 and acknowledgements/original-title mapping; originalimprint",
+    "purpose": "First establish translation identity and translator, then read actualstory. An identical literal title or similar synopsis is insufficient to establish it as Bapa.",
+    "status": "Specific new lead, not verified source-story text."
+  },
+  "close_comparison_possible": false,
+  "recommendation": "Retain currentpublicprose. Record the precise Englishcollection/pages as nextoriginal-copy target. No newarticleaddition supported in thiscycle.",
+  "budgets": {
+    "direct_quote_words_retained": 12,
+    "new_public_words": 0,
+    "retailer_derived_summary_words": "Under200; descriptive blurb and readerreview plot not adopted."
+  },
+  "limitations": [
+    "No original Bapa, Father pages or translatornote read.",
+    "No edition-to-film relationship established; collection2011 label remains retailer metadata.",
+    "No purchases,contact,login,paymentsorfilmviewing.",
+    "Originalimageonlycover; no inventedinsidepages.",
+    "Thirdrouteholding remains indexedonly withdirect404."
+  ],
+  "scope_released": true
+}

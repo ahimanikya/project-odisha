@@ -1,0 +1,49 @@
+{
+  "status": "INITIAL_GATE_PASS_FINAL_CANDIDATE_PENDING",
+  "scope_released": false,
+  "prior_review": {
+    "path": "outputs/cinema-bapa-integration-20261107/review.json",
+    "sha256": "61818ba2f5f726e117a2f783e8b53d5c586328b34ed17f076b1f1d02119b7767"
+  },
+  "checks": [
+    "Both article source hashes and builder hash independently match prior final review.",
+    "Both PDF bytes independently match reviewed final hashes.",
+    "New factual claims remain author-attributed; no Father translation identity, fees, royalty receipts or broadcast count inferred."
+  ],
+  "pending": [
+    "Final staged candidate/head scope",
+    "Completed local build/publication validation and remote asset verification"
+  ],
+  "publication_performed_by_reviewer": false,
+  "metadata_gate": {
+    "status": "PASS",
+    "assets_checked": [
+      {
+        "edition": "digital",
+        "sha256": "a04954e8d58f4af6afb46c5918dae818e7e593cff28aacb8af2a8499627183bc",
+        "bytes": 38845140
+      },
+      {
+        "edition": "print",
+        "sha256": "45fc73a5785dbb582dfb562e9d4f1109341df96088be5e376c9c8d9d55cee633",
+        "bytes": 51414320
+      },
+      {
+        "edition": "standalone-introduction",
+        "sha256": "8c5db39b9ee5fc262409c8636ca5abdb624774347c67e728a4fedc199934a933",
+        "bytes": 992878
+      }
+    ],
+    "canonical_sources_checked": 49,
+    "previous_books_archived_exactly": true,
+    "standalone_intro_unchanged": true,
+    "fact_check": "PASS as explicitly attributed testimony; not original-text/TV-programme/contract verification.",
+    "coordinator_source_recheck": "Reviewed root original-post reread record; not independently operated Facebook."
+  },
+  "input_hashes": {
+    "outputs/cinema-bapa-publication-20261107/fact-check.json": "73a35f960ee87416a8945526e97c22bbf60abdda71624ef9cb9df93a9f5e04e7",
+    "outputs/cinema-bapa-publication-20261107/source-recheck.json": "aa362e44f02c559a510d7b673ef4a4544f1e102adf3418f7de598a3794722600",
+    "outputs/cinema-bapa-publication-20261107/book-release-manifest.json": "606cf88ab9e74ac019eefbedc2c02265403e56a5b8c788f1867607d47a52e2c3",
+    "projects/site/src/data/cinema.json": "37a486cce59a060f6c8d79dd81f5a5f12f4183d73c44660fe054b660c99ab455"
+  }
+}
