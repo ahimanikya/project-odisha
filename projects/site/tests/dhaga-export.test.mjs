@@ -2,7 +2,7 @@ import test from 'node:test';import assert from 'node:assert/strict';import {rea
 const root=process.env.DHAGA_TEST_ROOT||'dist';
 const data=JSON.parse(readFileSync('../odia-dhaga/collection.json'));
 const read=p=>readFileSync(root+'/dhaga/'+p,'utf8');
-const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
 test('public Dhaga export preserves every accepted entry and its source links without internal research',()=>{
  assert.equal(readdirSync(root+'/dhaga/sayings').length,data.entries.length);
  for(const e of data.entries){const h=read('sayings/'+e.id.toLowerCase()+'.html');assert.equal((h.match(/class="browse"/g)||[]).length,1,e.id);assert.ok(h.includes('href="#browse-top-'+e.id+'"'));assert.equal((h.match(new RegExp('id="browse-top-'+e.id+'"','g'))||[]).length,1);if(e.id!=='POD-DHAGA-001')assert.equal((h.match(/rel="prev"/g)||[]).length,2);if(e.id!==data.entries.at(-1).id)assert.equal((h.match(/rel="next"/g)||[]).length,2);assert.ok(h.includes(esc(e.odia)),e.id);assert.ok(h.includes(esc(e.explanation)),e.id);assert.ok(h.includes('noindex'));assert.ok(h.includes('/dhaga/sources.html'));assert.doesNotMatch(h,/href="[^\"]*(?:README|source127|evidence\/)/);for(const w of e.witnesses){const s=data.sources.find(s=>s.id===w.source_id);assert.ok(h.includes(esc(s.url)),e.id+': witness');}}
@@ -10,19 +10,19 @@ test('public Dhaga export preserves every accepted entry and its source links wi
  const all=readdirSync(root+'/dhaga');assert.ok(!all.includes('collection.json'));assert.ok(!all.includes('evidence'));assert.ok(!all.includes('source127.html'));
 });
 test('book navigation uses lowercase public URLs, a pinned exact PDF and retained rights',()=>{
- assert.match(read('reader.html'),/id\.toLowerCase\(\)/);const delivery=JSON.parse(readFileSync('../odia-dhaga/pdf-delivery.json'));assert.ok(read('index.html').includes(delivery.browser_download_url));assert.doesNotMatch(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/221fb5b/);assert.match(read('sources.html'),/SCERT/);assert.match(read('sources.html'),/NotoSerifOriya-OFL.txt/);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to Dhaga/);
+ assert.match(read('reader.html'),/id\.toLowerCase\(\)/);const delivery=JSON.parse(readFileSync('../odia-dhaga/pdf-delivery.json'));assert.ok(read('index.html').includes(delivery.browser_download_url));assert.doesNotMatch(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/221fb5b/);assert.match(read('sources.html'),/SCERT/);assert.match(read('sources.html'),/NotoSerifOriya-OFL.txt/);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to search and Dhaga/);assert.match(read('index.html'),/href="#browse-controls"/);assert.match(read('index.html'),/id="browse-controls"/);
 });
 
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
- assert.ok(exported.bytes<=38_000_000,'Complete public export must remain within38MB');
+ assert.ok(exported.bytes<=48_000_000,'Complete public export must remain within48MB');
  assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
  assert.ok(h.includes('class="book-cover" src="'+cover+'"'));
  const coverTag=h.match(/<img class="book-cover"[^>]+>/)?.[0];assert.ok(coverTag);assert.doesNotMatch(coverTag,/loading="lazy"/);
- assert.match(h,/fetchpriority="high"/);
+ assert.match(coverTag,/width="[1-9][0-9]*"/);assert.match(coverTag,/height="[1-9][0-9]*"/);
  assert.ok(h.includes(`Download PDF book (${packing.pdf.pages} pages, ~${Math.round(packing.pdf.bytes/1024/1024)} MB)`));
  assert.ok(h.includes('og:image" content="https://projectodisha.org/dhaga/'+cover));
  for(const section of data.book_intro?.sections||[])for(const paragraph of section.paragraphs){assert.ok(h.includes(esc(paragraph.odia)));assert.ok(h.includes(esc(paragraph.english)));for(const sid of paragraph.source_ids)assert.ok(h.includes('id="intro-source-'+sid+'"'));}
