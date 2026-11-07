@@ -1,0 +1,990 @@
+{
+  "success": {
+    "conclusion": "success",
+    "createdAt": "2026-11-07T21:49:39Z",
+    "databaseId": 42417691903,
+    "headSha": "8fc54812c297fc68f25baed78f23faea35ffb683",
+    "jobs": [
+      {
+        "completedAt": "2026-11-07T21:59:23Z",
+        "conclusion": "success",
+        "databaseId": 128539233060,
+        "name": "build",
+        "startedAt": "2026-11-07T21:49:42Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-07T21:49:44Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-07T21:49:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:50:48Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-11-07T21:49:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:50:50Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-11-07T21:50:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:50:50Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-11-07T21:50:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:51:02Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-11-07T21:50:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:51:03Z",
+            "conclusion": "success",
+            "name": "Verify release PDF delivery guards",
+            "number": 6,
+            "startedAt": "2026-11-07T21:51:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:51:05Z",
+            "conclusion": "success",
+            "name": "Hydrate exact reviewed Dhaga release PDF",
+            "number": 7,
+            "startedAt": "2026-11-07T21:51:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:52:03Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 8,
+            "startedAt": "2026-11-07T21:51:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:52:05Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist",
+            "number": 9,
+            "startedAt": "2026-11-07T21:52:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:52:31Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 10,
+            "startedAt": "2026-11-07T21:52:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:53:41Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 11,
+            "startedAt": "2026-11-07T21:52:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:53:43Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-coast",
+            "number": 12,
+            "startedAt": "2026-11-07T21:53:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:53:55Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 13,
+            "startedAt": "2026-11-07T21:53:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:04Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 14,
+            "startedAt": "2026-11-07T21:53:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:05Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-publish",
+            "number": 15,
+            "startedAt": "2026-11-07T21:59:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:05Z",
+            "conclusion": "success",
+            "name": "Check Pages payload before upload",
+            "number": 16,
+            "startedAt": "2026-11-07T21:59:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:21Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 17,
+            "startedAt": "2026-11-07T21:59:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 33,
+            "startedAt": "2026-11-07T21:59:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 34,
+            "startedAt": "2026-11-07T21:59:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:21Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 35,
+            "startedAt": "2026-11-07T21:59:21Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42417691903/job/128539233060"
+      },
+      {
+        "completedAt": "2026-11-07T21:59:56Z",
+        "conclusion": "success",
+        "databaseId": 128541478704,
+        "name": "deploy",
+        "startedAt": "2026-11-07T21:59:26Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-07T21:59:28Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-07T21:59:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:54Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-11-07T21:59:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:54Z",
+            "conclusion": "skipped",
+            "name": "Record Pages status after deployment failure",
+            "number": 3,
+            "startedAt": "2026-11-07T21:59:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T21:59:54Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 4,
+            "startedAt": "2026-11-07T21:59:54Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42417691903/job/128541478704"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-11-07T21:59:56Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42417691903"
+  },
+  "failed_attempt1": {
+    "conclusion": "failure",
+    "createdAt": "2026-11-07T18:52:18Z",
+    "databaseId": 42403419493,
+    "headSha": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "jobs": [
+      {
+        "completedAt": "2026-11-07T19:09:24Z",
+        "conclusion": "success",
+        "databaseId": 128497553448,
+        "name": "build",
+        "startedAt": "2026-11-07T18:59:11Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-07T18:59:13Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-07T18:59:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:23Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-11-07T18:59:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:25Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-11-07T19:00:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:25Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-11-07T19:00:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:38Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-11-07T19:00:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:39Z",
+            "conclusion": "success",
+            "name": "Verify release PDF delivery guards",
+            "number": 6,
+            "startedAt": "2026-11-07T19:00:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:41Z",
+            "conclusion": "success",
+            "name": "Hydrate exact reviewed Dhaga release PDF",
+            "number": 7,
+            "startedAt": "2026-11-07T19:00:39Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:01:45Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 8,
+            "startedAt": "2026-11-07T19:00:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:01:46Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist",
+            "number": 9,
+            "startedAt": "2026-11-07T19:01:45Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:02:17Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 10,
+            "startedAt": "2026-11-07T19:01:46Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:03:35Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 11,
+            "startedAt": "2026-11-07T19:02:17Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:03:36Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-coast",
+            "number": 12,
+            "startedAt": "2026-11-07T19:03:35Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:03:49Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 13,
+            "startedAt": "2026-11-07T19:03:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:04Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 14,
+            "startedAt": "2026-11-07T19:03:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:05Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-publish",
+            "number": 15,
+            "startedAt": "2026-11-07T19:09:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:05Z",
+            "conclusion": "success",
+            "name": "Check Pages payload before upload",
+            "number": 16,
+            "startedAt": "2026-11-07T19:09:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 17,
+            "startedAt": "2026-11-07T19:09:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 33,
+            "startedAt": "2026-11-07T19:09:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 34,
+            "startedAt": "2026-11-07T19:09:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 35,
+            "startedAt": "2026-11-07T19:09:21Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42403419493/job/128497553448"
+      },
+      {
+        "completedAt": "2026-11-07T19:19:46Z",
+        "conclusion": "failure",
+        "databaseId": 128500138224,
+        "name": "deploy",
+        "startedAt": "2026-11-07T19:09:27Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-07T19:09:28Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-07T19:09:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:19:44Z",
+            "conclusion": "failure",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-11-07T19:09:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:19:44Z",
+            "conclusion": "success",
+            "name": "Record Pages status after deployment failure",
+            "number": 3,
+            "startedAt": "2026-11-07T19:19:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:19:44Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 4,
+            "startedAt": "2026-11-07T19:19:44Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42403419493/job/128500138224"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-11-07T19:19:47Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42403419493"
+  },
+  "failed_attempt2": {
+    "attempt": 2,
+    "conclusion": "failure",
+    "databaseId": 42403419493,
+    "headSha": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "jobs": [
+      {
+        "completedAt": "2026-11-07T19:36:42Z",
+        "conclusion": "failure",
+        "databaseId": 128504364722,
+        "name": "deploy",
+        "startedAt": "2026-11-07T19:26:29Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-07T19:26:31Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-07T19:26:29Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:36:40Z",
+            "conclusion": "failure",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-11-07T19:26:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:36:40Z",
+            "conclusion": "success",
+            "name": "Record Pages status after deployment failure",
+            "number": 3,
+            "startedAt": "2026-11-07T19:36:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:36:40Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 4,
+            "startedAt": "2026-11-07T19:36:40Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42403419493/job/128504364722"
+      },
+      {
+        "completedAt": "2026-11-07T19:09:24Z",
+        "conclusion": "success",
+        "databaseId": 128504366102,
+        "name": "build",
+        "startedAt": "2026-11-07T18:59:11Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-07T18:59:13Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-07T18:59:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:23Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-11-07T18:59:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:25Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-11-07T19:00:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:25Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-11-07T19:00:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:38Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-11-07T19:00:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:39Z",
+            "conclusion": "success",
+            "name": "Verify release PDF delivery guards",
+            "number": 6,
+            "startedAt": "2026-11-07T19:00:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:00:41Z",
+            "conclusion": "success",
+            "name": "Hydrate exact reviewed Dhaga release PDF",
+            "number": 7,
+            "startedAt": "2026-11-07T19:00:39Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:01:45Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 8,
+            "startedAt": "2026-11-07T19:00:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:01:46Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist",
+            "number": 9,
+            "startedAt": "2026-11-07T19:01:45Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:02:17Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 10,
+            "startedAt": "2026-11-07T19:01:46Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:03:35Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 11,
+            "startedAt": "2026-11-07T19:02:17Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:03:36Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-coast",
+            "number": 12,
+            "startedAt": "2026-11-07T19:03:35Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:03:49Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 13,
+            "startedAt": "2026-11-07T19:03:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:04Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 14,
+            "startedAt": "2026-11-07T19:03:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:05Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-publish",
+            "number": 15,
+            "startedAt": "2026-11-07T19:09:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:05Z",
+            "conclusion": "success",
+            "name": "Check Pages payload before upload",
+            "number": 16,
+            "startedAt": "2026-11-07T19:09:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 17,
+            "startedAt": "2026-11-07T19:09:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 33,
+            "startedAt": "2026-11-07T19:09:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 34,
+            "startedAt": "2026-11-07T19:09:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-07T19:09:21Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 35,
+            "startedAt": "2026-11-07T19:09:21Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42403419493/job/128504366102"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42403419493"
+  },
+  "archive_audit": {
+    "status": "PASS_ARCHIVE_VALID_NO_PAYLOAD_DEFECT_IDENTIFIED",
+    "checked_at": "2026-11-07T21:48:13.049976+00:00",
+    "scope_released": true,
+    "artifact_id": 13587051272,
+    "publication_run": 42403419493,
+    "reviewed_merge": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "archive_reference": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/artifact13587051272.zip",
+      "bytes": 682465165,
+      "sha256": "ca35db1ea7402d169c9dfbec96474fa2aba3e1f04ba4b348fbc52de92dbd6592",
+      "git_payload": false
+    },
+    "actual_checks": {
+      "api_digest_exact": true,
+      "entire_zip_member_crc": true,
+      "zip_layout": "Singleartifact.tar member",
+      "tar_header_parsing_and_all_contents_read": true,
+      "regular_files": 2880,
+      "regular_file_bytes": 737596998,
+      "tar_container_bytes": 740177920,
+      "directories_including_root": 718,
+      "unsafe_paths_duplicates_links_special_files": 0,
+      "exact_upload_listing_and_ci_preflight": true,
+      "nonempty_root_index": true,
+      "all_file_content_hashes_manifest": true,
+      "reviewed117_in_archive": {
+        "exact_reviewed_paragraph_once": true,
+        "one_native_ref": true,
+        "one_native_return": true,
+        "new_byline": true,
+        "new_neutral_metadata": true,
+        "old_lead_absent": true,
+        "exact_source_note_once": true
+      }
+    },
+    "action_contract": {
+      "actual_upload_commit": "fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "actual_deploy_commit": "368f82528645a54fb793d4d04e342629a3f51346",
+      "assessment": "Observed singleartifact.tar RESTZIP transport matches executableupload action, which creates artifact.tar and passes it to upload-artifact. README gzip wording is not evidence that this standard RESTZIP is defective. TAR belowconservative1GB with no links. Deploy selectsnamedartifact and creates Pages deployment usingartifactID/buildversion/OIDC; its timeout is capped600000ms and timeout explicitlycancels."
+    },
+    "minimal_fix_assessment": "No content/archive/workflow contract repair is justified by this audit. A validated artifact exists and includes117; failure occurred afteracceptance during hostedfilesync. Root should use this exact artifact/run/request evidence for a bounded hosting-recovery decision or GitHub support. Do not weaken payloadguards, resize/remove content, or merelyincrease timeout. The audit alone cannot guarantee that any retry orfreshidentity will succeed.",
+    "comparison": "Prior successfulartifact was864compressedbytes larger with1fewerfile; actual currentarchive+1 is TomatoPodaArticle script, otherassetnamechanges recordedinprior comparison. No anomalouspayloadgrowth.",
+    "limits": [
+      "No deployment/settings/build/Git/canonical mutations.",
+      "No claim of internal GitHub rootcause or completed publication.",
+      "No second successful682MBarchive download; comparison uses its actualuploadlog/preflight/metadata.",
+      "SavedZIP remains localreference only, not canonicalevidencepayload.",
+      "Publicoldtarget conclusion references earlierboundedHTTPdiagnostic, not newliveverification."
+    ],
+    "bindings": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-audit.json",
+        "bytes": 4432,
+        "sha256": "e2f4510f195dee52f580685025c7b5a1b8e9d14152a6d7f509ab397628374299"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-file-manifest.json",
+        "bytes": 713480,
+        "sha256": "b988bfa9ced836c739150d45224cd5c8898838160588538ea7df21f26e35a337"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-food--fire-cooking--index.html",
+        "bytes": 27711,
+        "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-food--tomato-poda--index.html",
+        "bytes": 20261,
+        "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-index.html",
+        "bytes": 87653,
+        "sha256": "bbc5c28988a5e570f47e259340708b90292ed0f2bf3367c388e68a13095e324d"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archived-article-checks.json",
+        "bytes": 538,
+        "sha256": "b0802bf673ceaea13b06ad81923b54cd9967dfc8c1a060fc88a6225ed1940330"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/audit-archive.py",
+        "bytes": 3948,
+        "sha256": "c1a4e63508cd3f65b8103512abfb75e3035a495745c990004a0eebda0944890b"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/deploy-api-client.js",
+        "bytes": 5597,
+        "sha256": "3696f6887732928e80b81c93a95e917cf3af3c7a1d17bc7a0ad7bd133a955c10"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/deploy-deployment.js",
+        "bytes": 9777,
+        "sha256": "60a215dcb2fb9827f9f22e09a5fbe3ac521a77f9b0f04d9489b2b32a1db3bbd5"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/download-evidence.json",
+        "bytes": 385,
+        "sha256": "329e6284e8b59a6a67cbeb40a712ccd9cfec89e42ace6b529694af2248638660"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/download.py",
+        "bytes": 1037,
+        "sha256": "9d4a233c162224c7fdd1f4e45307b3509a2016e93441e394ff0b8d2e2d91f1c3"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/official-sources.json",
+        "bytes": 1689,
+        "sha256": "5e77f5669bcca4a861f8b2ecc8f20d19033eda857831d830b230718eb7740279"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/progress.json",
+        "bytes": 450,
+        "sha256": "4243eafe0e930c735f2d371c4f667cd1d6da6aab0f442aa1840a09b0f0568ff5"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/upload-README.md",
+        "bytes": 4550,
+        "sha256": "866ca49996b0debddcdff491a57c30ef625783089ef609e49b227ffa474c8f11"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/upload-action.yml",
+        "bytes": 2895,
+        "sha256": "f84e759011e0c497e696f5bce4ebb5fbe9bbdc5aea309b73795283fa139c1558"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/samanta/report.json",
+        "bytes": 7689,
+        "sha256": "674bcdb6f4eca4e5dc41904dca0ef23b51dbbcd073a78235a7220f08ac56b72c"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/samanta/comparison.json",
+        "bytes": 6844,
+        "sha256": "2ca31dfa9fc075232da74b450ed8ba8d53e7403d7850c71845fa510c5a50d501"
+      }
+    ]
+  },
+  "recovery_review": {
+    "decision": "PASS_BOUNDED_FRESH_MAIN_PUBLICATION_RECOVERY_RECOMMENDATION",
+    "reviewed_at": "2026-11-07T21:49:15.278742+00:00",
+    "candidate": "8fc54812c297fc68f25baed78f23faea35ffb683",
+    "failed_identity": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "findings": [
+      "Actual frozen archive audit and all17 bound evidence files verified. Audit code streams every TAR member, checks safe normalized names/types/sizes, reads ZIP member to EOF for CRC, compares upload listing and preflight; all2880 file manifest rows sum737596998 bytes. No payload defect identified.",
+      "Producer downloaded ZIP digest equals published API digest; no reviewer second682MB download or full CRC rerun. This is independent audit-code/report/binding review with independently recomputed manifest totals, not a claim reviewer re-executed archive audit.",
+      "Archived117 body/note/metadata are present. The previous old live response is not missing content in the uploaded artifact.",
+      "Independent Git parity already confirms legitimate currentmain descends reviewed117 and changes only receipt metadata/output evidence, with site/workflow/source inputs unchanged.",
+      "Different currentmain build identity is a targeted recovery hypothesis supported by action/API identity behavior and prior116 precedent. Neither backend root cause nor guaranteed success is established."
+    ],
+    "recommendation": {
+      "action": "Root may make one controlled normal approved publish-site dispatch from exact legitimate currentmain8fc54812, creating a new build-version/artifact through unchanged normal gates.",
+      "immediate_guard": "Root must refresh current main, ownership and absence of active publication before dispatch. If main changed, reassess the delta before using a different SHA.",
+      "excluded": "No empty commit, settings changes, timeout increase, payload weakening or content changes. No further retry of old failed f806 identity.",
+      "failure_stop": "If this distinct-identity controlled attempt also fails, retain exact returned IDs/logs and stop automatic retries for provider-state investigation.",
+      "completion": "Actual deployment success then independent live117 verification required; programme credit remains unchanged."
+    },
+    "limits": [
+      "No execution, build, browser, deployment or canonical mutation by reviewer.",
+      "No publication/live PASS; this decision covers only the supported bounded recovery action.",
+      "Full archive checks are producer-executed and independently reviewed as stated; GitHub internal synchronization is not reproduced."
+    ],
+    "bindings": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-audit.json",
+        "bytes": 4432,
+        "sha256": "e2f4510f195dee52f580685025c7b5a1b8e9d14152a6d7f509ab397628374299"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-file-manifest.json",
+        "bytes": 713480,
+        "sha256": "b988bfa9ced836c739150d45224cd5c8898838160588538ea7df21f26e35a337"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-food--fire-cooking--index.html",
+        "bytes": 27711,
+        "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-food--tomato-poda--index.html",
+        "bytes": 20261,
+        "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-index.html",
+        "bytes": 87653,
+        "sha256": "bbc5c28988a5e570f47e259340708b90292ed0f2bf3367c388e68a13095e324d"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archived-article-checks.json",
+        "bytes": 538,
+        "sha256": "b0802bf673ceaea13b06ad81923b54cd9967dfc8c1a060fc88a6225ed1940330"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/audit-archive.py",
+        "bytes": 3948,
+        "sha256": "c1a4e63508cd3f65b8103512abfb75e3035a495745c990004a0eebda0944890b"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/deploy-api-client.js",
+        "bytes": 5597,
+        "sha256": "3696f6887732928e80b81c93a95e917cf3af3c7a1d17bc7a0ad7bd133a955c10"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/deploy-deployment.js",
+        "bytes": 9777,
+        "sha256": "60a215dcb2fb9827f9f22e09a5fbe3ac521a77f9b0f04d9489b2b32a1db3bbd5"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/download-evidence.json",
+        "bytes": 385,
+        "sha256": "329e6284e8b59a6a67cbeb40a712ccd9cfec89e42ace6b529694af2248638660"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/download.py",
+        "bytes": 1037,
+        "sha256": "9d4a233c162224c7fdd1f4e45307b3509a2016e93441e394ff0b8d2e2d91f1c3"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/official-sources.json",
+        "bytes": 1689,
+        "sha256": "5e77f5669bcca4a861f8b2ecc8f20d19033eda857831d830b230718eb7740279"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/progress.json",
+        "bytes": 450,
+        "sha256": "4243eafe0e930c735f2d371c4f667cd1d6da6aab0f442aa1840a09b0f0568ff5"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/upload-README.md",
+        "bytes": 4550,
+        "sha256": "866ca49996b0debddcdff491a57c30ef625783089ef609e49b227ffa474c8f11"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/upload-action.yml",
+        "bytes": 2895,
+        "sha256": "f84e759011e0c497e696f5bce4ebb5fbe9bbdc5aea309b73795283fa139c1558"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/samanta/report.json",
+        "bytes": 7689,
+        "sha256": "674bcdb6f4eca4e5dc41904dca0ef23b51dbbcd073a78235a7220f08ac56b72c"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/samanta/comparison.json",
+        "bytes": 6844,
+        "sha256": "2ca31dfa9fc075232da74b450ed8ba8d53e7403d7850c71845fa510c5a50d501"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/report.json",
+        "sha256": "41662cb336f1b7d5774ff8c57b150101037b08c27137eadcf4293d410cfa8de0",
+        "bytes": 8254
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/main-parity.json",
+        "sha256": "aa66fa9ac9f88689ed6abb005841b3922200982a8611774a40f1a8fd7b5e6189",
+        "bytes": 2130
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/drishti/targeted-recovery-recommendation.json",
+        "sha256": "01a7c8316b4afa116ad95adbde5427ee68135190dc1d8796050b3a5ab757056d",
+        "bytes": 7606
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/drishti/current-main-parity-addendum.json",
+        "sha256": "64816a1867e086c3887327dba074988dfdab747d51468dbf61c9e22289a5e749",
+        "bytes": 3293
+      }
+    ],
+    "scope_released": true
+  },
+  "main_parity": {
+    "checked_at": "2026-11-07T21:46:33.126209+00:00",
+    "reviewed_article_merge": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "fresh_main": "8fc54812c297fc68f25baed78f23faea35ffb683",
+    "ancestor": true,
+    "website_workflow_payload_tools_identical": true,
+    "protected_paths": [
+      "projects",
+      ".github/workflows",
+      "tools/check_pages_payload.py",
+      "tools/tests/test_check_pages_payload.py"
+    ],
+    "changed_paths": [
+      "kb/history/LEDGER.md",
+      "kb/history/ledger.jsonl",
+      "kb/index.md",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/cinema-bapa-publication-2026-11-07.json",
+      "kb/team/operations.json",
+      "outputs/cinema-bapa-publication-20261107/deployment-started.json",
+      "outputs/cinema-bapa-publication-20261107/deployment.json",
+      "outputs/cinema-bapa-publication-20261107/hosted-result.json",
+      "outputs/cinema-bapa-publication-20261107/implementation.json",
+      "outputs/cinema-bapa-publication-20261107/live-attempts.json",
+      "outputs/cinema-bapa-publication-20261107/live-verification.json",
+      "outputs/cinema-bapa-publication-20261107/local-log-index.json",
+      "outputs/cinema-bapa-publication-20261107/logs/dhaga-backup.json",
+      "outputs/cinema-bapa-publication-20261107/logs/merged-check-status.json",
+      "outputs/cinema-bapa-publication-20261107/merged-pr.json",
+      "outputs/cinema-bapa-publication-20261107/receipt-staging-paths.json",
+      "outputs/cinema-bapa-publication-20261107/record-delivery.py",
+      "outputs/cinema-bapa-publication-20261107/release-published.json",
+      "outputs/cinema-bapa-publication-20261107/remote-assets.json",
+      "outputs/cinema-bapa-publication-20261107/review.json",
+      "outputs/cinema-bapa-publication-20261107/verify-live.py"
+    ],
+    "local_head": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+    "local_clean": true,
+    "purpose": "Legitimate receipt705 supplies a new build-version identity, not an empty commit. Fresh publication is a targeted recovery hypothesis, not proven backend fix.",
+    "reviewed_candidate": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+    "main_receipt_pr": 705,
+    "main_receipt_ci": 42404392913
+  }
+}
