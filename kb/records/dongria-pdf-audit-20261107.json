@@ -1,10 +1,10 @@
 {
   "id": "POD-DONGRIA-PDF-AUDIT-20261107",
-  "status": "pdf_published_website_metadata_pending",
+  "status": "published_verified",
   "authorization": "User requested book PDF updated with the online audit fixes and a fresh review of story flow, images and page layout. Existing website publication authorization continues.",
   "scope": "Public illustrated reading PDF and matching download metadata; preserve separate private coffee-table draft.",
   "programme_credit": 0,
-  "publication": false,
+  "publication": true,
   "previous_pdf_sha256": "0091c4c0df854c22480906cf56cd7530811a8cae78ba7bae57e9abec074cbe88",
   "review": {
     "narrative_parity": "Anvesha compared all twelve current website narratives against book manuscript. No missing substantive research passages.",
@@ -51,5 +51,26 @@
     "source_urls": 93,
     "local_site_build": "pass",
     "dongria_tests": 12
-  }
+  },
+  "verified_at": "2026-11-07T18:39:16.570539+00:00",
+  "reviewed_head": "c902c1f28deb5f7c13646dd2b1ad7ef68b795a3a",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/703",
+  "merge_commit": "336feefe62e0b536801e61f3623985e5ac69aaf8",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42399967510",
+  "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42401062352",
+  "deployment_result": "success",
+  "site_live_verification": [
+    {
+      "route": "/stories/dongria/",
+      "status": 200,
+      "pages": 84,
+      "download_link_correct": true
+    },
+    {
+      "route": "/stories/dongria/book/",
+      "status": 200,
+      "pages": 84,
+      "download_link_correct": true
+    }
+  ]
 }
