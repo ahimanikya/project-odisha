@@ -1,5 +1,5 @@
 {
-  "status": "INITIAL_GATE_PASS_FINAL_CANDIDATE_PENDING",
+  "status": "CONTENT_METADATA_AND_COMMITTED_SCOPE_PASS_CHECKS_PENDING",
   "scope_released": false,
   "prior_review": {
     "path": "outputs/cinema-bapa-integration-20261107/review.json",
@@ -11,8 +11,8 @@
     "New factual claims remain author-attributed; no Father translation identity, fees, royalty receipts or broadcast count inferred."
   ],
   "pending": [
-    "Final staged candidate/head scope",
-    "Completed local build/publication validation and remote asset verification"
+    "Completed merged validation",
+    "Remote asset verification and any final head delta"
   ],
   "publication_performed_by_reviewer": false,
   "metadata_gate": {
@@ -45,5 +45,75 @@
     "outputs/cinema-bapa-publication-20261107/source-recheck.json": "aa362e44f02c559a510d7b673ef4a4544f1e102adf3418f7de598a3794722600",
     "outputs/cinema-bapa-publication-20261107/book-release-manifest.json": "606cf88ab9e74ac019eefbedc2c02265403e56a5b8c788f1867607d47a52e2c3",
     "projects/site/src/data/cinema.json": "37a486cce59a060f6c8d79dd81f5a5f12f4183d73c44660fe054b660c99ab455"
+  },
+  "candidate_scope": {
+    "status": "PASS",
+    "head": "1ab544532d81795b14db7b0d41efbbf4786cd80d",
+    "base": "32a4c1b089c824ffd26915969ea4f5f1834869d2",
+    "changed_file_count": 52,
+    "changed_paths": [
+      "kb/history/LEDGER.md",
+      "kb/history/ledger.jsonl",
+      "kb/index.md",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/cinema-bapa-integration-2026-11-07.json",
+      "kb/records/cinema-bapa-publication-2026-11-07.json",
+      "kb/records/cinema-bapa-reader-review-2026-11-07.json",
+      "kb/records/cinema-writer-rights-2026-11-07.json",
+      "kb/research/culture/cinema-series/bapa-integration-2026-11-07.json",
+      "kb/research/culture/cinema-series/bapa-reader-review-2026-11-07.json",
+      "kb/research/culture/cinema-series/manifest.json",
+      "kb/research/culture/cinema-series/pratikshya.md",
+      "kb/research/culture/cinema-series/writer-rights-2026-11-07.json",
+      "kb/research/methods/research-map.md",
+      "kb/research/people/gourahari-das.md",
+      "kb/research/search-index.json",
+      "kb/team/operations.json",
+      "output/pdf/build_book.py",
+      "outputs/cinema-bapa-integration-20261107/baseline.json",
+      "outputs/cinema-bapa-integration-20261107/before-gourahari-das.md",
+      "outputs/cinema-bapa-integration-20261107/before-pratikshya.md",
+      "outputs/cinema-bapa-integration-20261107/browser-review.json",
+      "outputs/cinema-bapa-integration-20261107/builds.json",
+      "outputs/cinema-bapa-integration-20261107/evidence-assessment.json",
+      "outputs/cinema-bapa-integration-20261107/implementation.json",
+      "outputs/cinema-bapa-integration-20261107/logs/first-pass-builds.json",
+      "outputs/cinema-bapa-integration-20261107/logs/pdf-marker.json",
+      "outputs/cinema-bapa-integration-20261107/review.json",
+      "outputs/cinema-bapa-integration-20261107/validation.json",
+      "outputs/cinema-bapa-publication-20261107/book-release-manifest.json",
+      "outputs/cinema-bapa-publication-20261107/fact-check.json",
+      "outputs/cinema-bapa-publication-20261107/implementation.json",
+      "outputs/cinema-bapa-publication-20261107/review.json",
+      "outputs/cinema-bapa-publication-20261107/source-recheck.json",
+      "outputs/cinema-bapa-reader-review-20261107/baseline.json",
+      "outputs/cinema-bapa-reader-review-20261107/case-study.md",
+      "outputs/cinema-bapa-reader-review-20261107/implementation.json",
+      "outputs/cinema-bapa-reader-review-20261107/reader-review-brief.md",
+      "outputs/cinema-bapa-reader-review-20261107/research.json",
+      "outputs/cinema-bapa-reader-review-20261107/review.json",
+      "outputs/cinema-bapa-reader-review-20261107/root-research.json",
+      "outputs/cinema-bapa-reader-review-20261107/sources/contents-access.json",
+      "outputs/cinema-bapa-reader-review-20261107/sources/monk-preview-links.json",
+      "outputs/cinema-bapa-reader-review-20261107/validation.json",
+      "outputs/cinema-writer-rights-20261107/baseline.json",
+      "outputs/cinema-writer-rights-20261107/facebook-research.json",
+      "outputs/cinema-writer-rights-20261107/findings.md",
+      "outputs/cinema-writer-rights-20261107/framework.json",
+      "outputs/cinema-writer-rights-20261107/odia-cases.json",
+      "outputs/cinema-writer-rights-20261107/review.json",
+      "outputs/cinema-writer-rights-20261107/validation.json",
+      "projects/site/src/data/cinema.json"
+    ],
+    "accessibility_experiments_excluded": true,
+    "pdf_binaries_excluded": true,
+    "operations_changed_fields": [
+      "/parallel_programmes/6/handoff",
+      "/parallel_programmes/6/scope",
+      "/parallel_programmes/6/status",
+      "/parallel_programmes/6/scope_released",
+      "/parallel_programmes/6/note"
+    ],
+    "assessment": "Only cinema parallel-programme row changes; all other ownership and coordination fields preserved. Both article blobs and bounded builder change match reviewed bytes."
   }
 }

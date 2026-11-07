@@ -32,7 +32,8 @@
       "projects/site/src/data/cinema.json (review_books, archived_review_books and review_book_manifest only)",
       "outputs/cinema-bapa-publication-20261107/book-release-manifest.json",
       "outputs/cinema-bapa-publication-20261107/implementation.json",
-      "outputs/cinema-bapa-publication-20261107/logs/"
+      "outputs/cinema-bapa-publication-20261107/logs/",
+      "Local build only: preserve stale projects/odia-dhaga/odia-dhaga-book.pdf in outputs/cinema-bapa-publication-20261107/local-build-backup/ and hydrate exact current main descriptor using existing verifier; no descriptor/source/PDF git changes"
     ],
     "Drishti": [
       "outputs/cinema-bapa-publication-20261107/review.json"
@@ -51,5 +52,10 @@
     "status": "PASS"
   },
   "primary_source_recheck": "outputs/cinema-bapa-publication-20261107/source-recheck.json",
-  "release_manifest": "outputs/cinema-bapa-publication-20261107/book-release-manifest.json"
+  "release_manifest": "outputs/cinema-bapa-publication-20261107/book-release-manifest.json",
+  "integration": {
+    "current_main": "32a4c1b0",
+    "merge": "1ab54453",
+    "resolution": "Preserved remote operations and applied Cinema programme row only; generated search index reconciled."
+  }
 }
