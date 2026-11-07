@@ -1,0 +1,625 @@
+{
+  "report.json": {
+    "status": "PASS_ACTUAL_LIVE_VERIFICATION",
+    "checked_at": "2026-11-07T22:01:16.516Z",
+    "scope_released": true,
+    "reviewed_candidate": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+    "local_input_head": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+    "deployed_head": "8fc54812c297fc68f25baed78f23faea35ffb683",
+    "original_article_merge": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "publication_carrier_pr": 705,
+    "successful_run": 42417691903,
+    "checks": [
+      "Actual public HTTP200 article and parent; exact audited CI archive bytes",
+      "Actual Google Chrome 1440x900 and390x844, measured widths and no horizontal overflow",
+      "Exact29word paragraph, title/byline, source-neutral metadata and one native note",
+      "Keyboard note/return, Save and reload, photo loaded with CC attribution, three reading links",
+      "Parent catalogue exact original four-source object and guarded global source input",
+      "Four actual UI downloads: exact paragraph once, short source, public return, no empty heading/colon, embedded image exact hash and credits",
+      "Six saved PNGs inspected; readable desktop/phone body and expanded sources"
+    ],
+    "source_budget": {
+      "inherited_reviewed_aggregate": 199,
+      "cap": 200,
+      "new_prose_added": false
+    },
+    "history": "Prior failed publication and complete archive audit retained. Successful carrier does not establish a backend cause or causal fix. No prior failure files overwritten. No new build, research, deployment, Git or canonical write in this scope.",
+    "bindings": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/source-manifest.json",
+        "sha256": "cf08990c5482c8b2008cf18918439b917d94c67352ba1eaa0583332163b2d1dc",
+        "bytes": 3006
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/artifact-manifest.json",
+        "sha256": "6f9085f894b924496184201962d980681d9ce04571cd0db97901d6df58dc4b50",
+        "bytes": 7027
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/browser-review.json",
+        "sha256": "ad276e269bfe5e0989e6f936dd8a1d48eda19575a6f83681d3dffe1763e37787",
+        "bytes": 6414
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/download-validation.json",
+        "sha256": "80d926a2d38ffbfbaaa619bdb464e48037acc619f3b7bc64251a2acaa825cbd3",
+        "bytes": 2213
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/response-parity.json",
+        "sha256": "83d7ae2b18db3e5b6a7c7904d28c121e741ae9f426231a92b9fc1f668956e700",
+        "bytes": 2091
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/visual-review.json",
+        "sha256": "b1e586fec54fe3a1332e7d722857ebe118b1b562c02b024d40a29f91c763a92e",
+        "bytes": 2863
+      }
+    ],
+    "limits": [
+      "Point-in-time actual Chrome verification, not assistive-technology or Firefox/WebKit testing.",
+      "Local-preview shell mismatch qualified; no claim of live responsive960 byte equality.",
+      "Global source preservation is checked against guarded inputs and parent exposed object, not an unexposed public registry.",
+      "No human review, canonical receipt, programme credit or completion mutation by this worker."
+    ]
+  },
+  "browser-review.json": {
+    "status": "PASS",
+    "authorization": {
+      "status": "SUCCESS",
+      "live_go": true,
+      "reviewed_candidate": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+      "merge_commit": "8fc54812c297fc68f25baed78f23faea35ffb683",
+      "deployed_head": "8fc54812c297fc68f25baed78f23faea35ffb683",
+      "original_article_merge": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+      "publication_carrier_pr": 705,
+      "run_id": 42417691903,
+      "publication_evidence": {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/publication-success-42417691903.json",
+        "sha256": "f6e650c64e9facbbe13f6bba23114d735482bb744de7a348950837385e4f597b"
+      },
+      "qualification": "Legitimate receipt705 carrier preserves exact reviewed117 from PR704; no backend rootcause claim."
+    },
+    "http": [
+      {
+        "url": "https://projectodisha.org/food/tomato-poda/",
+        "status": 200,
+        "headers": {
+          "connection": "keep-alive",
+          "content-length": "6314",
+          "server": "GitHub.com",
+          "content-type": "text/html; charset=utf-8",
+          "last-modified": "Sat, 07 Nov 2026 21:59:44 GMT",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6aef9f50-4f25\"",
+          "expires": "Sat, 07 Nov 2026 22:11:07 GMT",
+          "cache-control": "max-age=600",
+          "content-encoding": "gzip",
+          "x-proxy-cache": "MISS",
+          "x-github-request-id": "EF50:9F78:1E7B5C:215758:6AEF9FA2",
+          "x-github-edge-region": "centralindia",
+          "accept-ranges": "bytes",
+          "age": "0",
+          "date": "Sat, 07 Nov 2026 22:01:07 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-maa10250-MAA",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1794088867.457170,VS0,VE235",
+          "vary": "Accept-Encoding",
+          "x-fastly-request-id": "2f8aebc2fca4cf6df23af8e49595adcd4a846441"
+        },
+        "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b",
+        "bytes": 20261,
+        "local_sha256": "e4d5b3596c12b3c913f4afd00c797e2242c2c9d27118d34f4071b1a1f7235e5d",
+        "exact_local": false
+      },
+      {
+        "url": "https://projectodisha.org/food/fire-cooking/",
+        "status": 200,
+        "headers": {
+          "connection": "keep-alive",
+          "content-length": "7685",
+          "server": "GitHub.com",
+          "content-type": "text/html; charset=utf-8",
+          "last-modified": "Sat, 07 Nov 2026 21:59:42 GMT",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6aef9f4e-6c3f\"",
+          "expires": "Sat, 07 Nov 2026 22:11:07 GMT",
+          "cache-control": "max-age=600",
+          "content-encoding": "gzip",
+          "x-proxy-cache": "MISS",
+          "x-github-request-id": "F366:0A7E:1A5DD:1E407:6AEF9FA3",
+          "x-github-edge-region": "centralindia",
+          "accept-ranges": "bytes",
+          "age": "0",
+          "date": "Sat, 07 Nov 2026 22:01:07 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-maa10250-MAA",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1794088868.711525,VS0,VE225",
+          "vary": "Accept-Encoding",
+          "x-fastly-request-id": "c3d63160c0520568a6faa6410424373c62c615f7"
+        },
+        "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9",
+        "bytes": 27711,
+        "local_sha256": "974a7d37f016da99cf76bc49457fc35f8574c74afe523afa687ffc140c4b47a7",
+        "exact_local": false
+      }
+    ],
+    "checked_at": "2026-11-07T22:01:16.516Z",
+    "tested_head": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+    "working_tree_basis": "Actual public responses and browser actions bind the root SUCCESS run and deployed head. Checkout head identifies local input guards only; byte-equality or shell differences are recorded separately.",
+    "article_source_sha256": "14be34537caa0efb6ae16612089f41f6c4829ea2d0cc1bc4836335e529b77cad",
+    "base": "https://projectodisha.org",
+    "browser": "Actual headless Google Chrome",
+    "results": [
+      {
+        "actualTextDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-reading.txt",
+        "oneParagraphOnce": true,
+        "oneShortSource": true,
+        "name": "desktop",
+        "imageState": {
+          "src": "/images/food/tomato-poda-meal-alternate.webp",
+          "currentSrc": "https://projectodisha.org/images/responsive/028e9f7c8ffbf366-960.webp",
+          "naturalWidth": 720,
+          "naturalHeight": 478,
+          "alt": "An overhead pakhala meal with the whole red bilati poda bowl visible at the left."
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "metrics": {
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "keyboardNoteReturns": 1,
+        "saveReload": true,
+        "actualOfflineDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-reading.html",
+        "allParagraphsAndShortSources": true
+      },
+      {
+        "actualTextDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-reading.txt",
+        "oneParagraphOnce": true,
+        "oneShortSource": true,
+        "name": "phone",
+        "imageState": {
+          "src": "/images/food/tomato-poda-meal-alternate.webp",
+          "currentSrc": "https://projectodisha.org/images/responsive/22f0d33977061cc4-480.webp",
+          "naturalWidth": 358,
+          "naturalHeight": 238,
+          "alt": "An overhead pakhala meal with the whole red bilati poda bowl visible at the left."
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "metrics": {
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "keyboardNoteReturns": 1,
+        "saveReload": true,
+        "actualOfflineDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-reading.html",
+        "allParagraphsAndShortSources": true
+      }
+    ],
+    "limits": [
+      "Actual live verification at the recorded time only; not assistive-technology testing or Firefox/WebKit."
+    ]
+  },
+  "download-validation.json": {
+    "status": "PASS",
+    "actual_browser_downloads": [
+      {
+        "size": "desktop",
+        "html": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-reading.html",
+          "sha256": "fdd278f5ead49e16aa6c843f37b8a8752f0df4c79ce418749382d2095d544934",
+          "bytes": 515357
+        },
+        "txt": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-reading.txt",
+          "sha256": "a721cbc1c403c994f747359d3a409a6ecc6a0194a5ff5042733522007b60be37",
+          "bytes": 1268
+        },
+        "one_paragraph_exact_once": true,
+        "one_short_source": true,
+        "empty_heading_and_colon_absent": true,
+        "image_credits_exact": true,
+        "embedded_image_hashes": [
+          "422908847ed921f7a6d96ad3e2e992af602d534c6fed6dbcc4ff8fc75af242f1"
+        ]
+      },
+      {
+        "size": "phone",
+        "html": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-reading.html",
+          "sha256": "fdd278f5ead49e16aa6c843f37b8a8752f0df4c79ce418749382d2095d544934",
+          "bytes": 515357
+        },
+        "txt": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-reading.txt",
+          "sha256": "a721cbc1c403c994f747359d3a409a6ecc6a0194a5ff5042733522007b60be37",
+          "bytes": 1268
+        },
+        "one_paragraph_exact_once": true,
+        "one_short_source": true,
+        "empty_heading_and_colon_absent": true,
+        "image_credits_exact": true,
+        "embedded_image_hashes": [
+          "422908847ed921f7a6d96ad3e2e992af602d534c6fed6dbcc4ff8fc75af242f1"
+        ]
+      }
+    ],
+    "limits": [
+      "Actual public return URL verified in live UI-triggered downloads",
+      "Embedded rendition bytes recorded; original photo identity separately verified against publication asset"
+    ]
+  },
+  "response-parity.json": {
+    "status": "PASS",
+    "comparisons": [
+      {
+        "route": "/food/tomato-poda/",
+        "public": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/tomato-poda-response.html",
+          "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b",
+          "bytes": 20261
+        },
+        "actual_ci_archive_member": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-food--tomato-poda--index.html",
+          "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b",
+          "bytes": 20261
+        },
+        "exact_bytes": true
+      },
+      {
+        "route": "/food/fire-cooking/",
+        "public": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/fire-cooking-response.html",
+          "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9",
+          "bytes": 27711
+        },
+        "actual_ci_archive_member": {
+          "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/archive-food--fire-cooking--index.html",
+          "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9",
+          "bytes": 27711
+        },
+        "exact_bytes": true
+      }
+    ],
+    "local_preview_equality": false,
+    "qualification": "Live article differs from the older local preview in the selected 960px responsive image filename and analytics/cookie-choice shell. Actual public article and parent each match the corresponding fully audited CI archive member byte-for-byte. No claim that the live responsive960 image bytes equal the older local rendition. Exact article prose, metadata, source note and parent catalogue were separately checked by the live harness."
+  },
+  "visual-review.json": {
+    "status": "PASS",
+    "review_type": "Producer actual saved-image inspection, not independent or human review",
+    "screenshots": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-full-body.png",
+        "sha256": "2e0ffdab016bbd18362bb8addb1a565d5db9bc6af1c5b6d42bea92fa76694bf1",
+        "bytes": 948220,
+        "width": 1440,
+        "height": 2690,
+        "actual_pixel_review": "PASS readable content/photo/source/links; no visible clipping"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-opening.png",
+        "sha256": "b4dcd762db0961e2d5b2a0a10054d40fd34f0ae81426330069178cbf0a18cfdc",
+        "bytes": 780051,
+        "width": 1440,
+        "height": 900,
+        "actual_pixel_review": "PASS readable content/photo/source/links; no visible clipping"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-sources.png",
+        "sha256": "7e339fe833dfb9d19704de44b9fa0fde1a527a70837ae951c95e03865849d4cc",
+        "bytes": 72342,
+        "width": 1440,
+        "height": 900,
+        "actual_pixel_review": "PASS readable content/photo/source/links; no visible clipping"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-full-body.png",
+        "sha256": "b32548ae0b74123a3591c9f639286ff6079b9035ae89bff58f7d61da3db50bfb",
+        "bytes": 385272,
+        "width": 390,
+        "height": 3126,
+        "actual_pixel_review": "PASS readable content/photo/source/links; no visible clipping"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-opening.png",
+        "sha256": "aa97532e7cc1678f89ba46db9c144e134ec7c70daee1db1cd44a6dc8419478d8",
+        "bytes": 226905,
+        "width": 390,
+        "height": 844,
+        "actual_pixel_review": "PASS readable content/photo/source/links; no visible clipping"
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-sources.png",
+        "sha256": "f28082fee13626f52153718e73ed140f0e725d73d29f5d96219a4877c22b7dfb",
+        "bytes": 59911,
+        "width": 390,
+        "height": 844,
+        "actual_pixel_review": "PASS readable content/photo/source/links; no visible clipping"
+      }
+    ]
+  },
+  "http-results.json": [
+    {
+      "url": "https://projectodisha.org/food/tomato-poda/",
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "6314",
+        "server": "GitHub.com",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Sat, 07 Nov 2026 21:59:44 GMT",
+        "access-control-allow-origin": "*",
+        "etag": "W/\"6aef9f50-4f25\"",
+        "expires": "Sat, 07 Nov 2026 22:11:07 GMT",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "x-proxy-cache": "MISS",
+        "x-github-request-id": "EF50:9F78:1E7B5C:215758:6AEF9FA2",
+        "x-github-edge-region": "centralindia",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Sat, 07 Nov 2026 22:01:07 GMT",
+        "via": "1.1 varnish",
+        "x-served-by": "cache-maa10250-MAA",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1794088867.457170,VS0,VE235",
+        "vary": "Accept-Encoding",
+        "x-fastly-request-id": "2f8aebc2fca4cf6df23af8e49595adcd4a846441"
+      },
+      "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b",
+      "bytes": 20261,
+      "local_sha256": "e4d5b3596c12b3c913f4afd00c797e2242c2c9d27118d34f4071b1a1f7235e5d",
+      "exact_local": false
+    },
+    {
+      "url": "https://projectodisha.org/food/fire-cooking/",
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "7685",
+        "server": "GitHub.com",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Sat, 07 Nov 2026 21:59:42 GMT",
+        "access-control-allow-origin": "*",
+        "etag": "W/\"6aef9f4e-6c3f\"",
+        "expires": "Sat, 07 Nov 2026 22:11:07 GMT",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "x-proxy-cache": "MISS",
+        "x-github-request-id": "F366:0A7E:1A5DD:1E407:6AEF9FA3",
+        "x-github-edge-region": "centralindia",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Sat, 07 Nov 2026 22:01:07 GMT",
+        "via": "1.1 varnish",
+        "x-served-by": "cache-maa10250-MAA",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1794088868.711525,VS0,VE225",
+        "vary": "Accept-Encoding",
+        "x-fastly-request-id": "c3d63160c0520568a6faa6410424373c62c615f7"
+      },
+      "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9",
+      "bytes": 27711,
+      "local_sha256": "974a7d37f016da99cf76bc49457fc35f8574c74afe523afa687ffc140c4b47a7",
+      "exact_local": false
+    }
+  ],
+  "separate_review": {
+    "decision": "PASS_ACTUAL_LIVE_REVIEW",
+    "reviewer": "Drishti, independent AI review of saved actual evidence",
+    "producer_report_sha256": "a89338d936df3891bb6741bde3d2df0385e02386fbc9e96a6d13aac9ea2310e9",
+    "checked_at": "2026-11-07T22:01:16.516Z",
+    "deployed_head": "8fc54812c297fc68f25baed78f23faea35ffb683",
+    "reviewed_candidate": "8f2b18ed2bf3b08cb48dfe4e25cfb39d0ded3479",
+    "original_article_merge": "f806e235bf6943fd04dbabafba86a59e85b7c7e1",
+    "publication_run": 42417691903,
+    "acceptance_checks": {
+      "authorship": true,
+      "language": true,
+      "formatting": true,
+      "footnotes": true,
+      "images": true,
+      "kb_alignment": true,
+      "responsive": true
+    },
+    "findings": [
+      "All six actual desktop/phone screenshots individually viewed: title/byline,29word attributed method paragraph, native source note, photo/caption/credit and reading links readable without clipping.",
+      "Public article and parent responses independently compared byte-for-byte with audited CI archive members. This verifies deployed content rather than equating the older local preview shell.",
+      "All four actual UI download files independently inspected: exact paragraph once, short citation/public return, no empty heading, original embedded photo SHA exact.",
+      "Producer actual Chrome1440x900/390x844 measurements and native note-return/save-reload/image-loading interactions verified from frozen evidence; no fresh suite executed.",
+      "Parent original four-source object and global source input preservation supported by guarded producer evidence; inherited199 aggregate unchanged, no added source prose.",
+      "Publication8fc carrier705 is distinct from article mergef806 and reviewedcandidate8f2. Earlier failed attempts retained; success does not establish backend cause or causal fix."
+    ],
+    "limits": [
+      "Point-in-time saved Chrome evidence; no independent browser rerun, assistive technology, Firefox or WebKit claim.",
+      "Live960 responsive filename and analytics/cookie shell differ from older local preview. No live960 derivative byte-equality claim; embedded original download photo identity verified.",
+      "No source-research repeat, canonical receipt mutation, programme credit or human proofreading claim.",
+      "Live acceptance is not materialized receipt or completed programme registration approval."
+    ],
+    "bindings": [
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/source-manifest.json",
+        "sha256": "cf08990c5482c8b2008cf18918439b917d94c67352ba1eaa0583332163b2d1dc",
+        "bytes": 3006
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/artifact-manifest.json",
+        "sha256": "6f9085f894b924496184201962d980681d9ce04571cd0db97901d6df58dc4b50",
+        "bytes": 7027
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/browser-review.json",
+        "sha256": "ad276e269bfe5e0989e6f936dd8a1d48eda19575a6f83681d3dffe1763e37787",
+        "bytes": 6414
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/download-validation.json",
+        "sha256": "80d926a2d38ffbfbaaa619bdb464e48037acc619f3b7bc64251a2acaa825cbd3",
+        "bytes": 2213
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/response-parity.json",
+        "sha256": "83d7ae2b18db3e5b6a7c7904d28c121e741ae9f426231a92b9fc1f668956e700",
+        "bytes": 2091
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/visual-review.json",
+        "sha256": "b1e586fec54fe3a1332e7d722857ebe118b1b562c02b024d40a29f91c763a92e",
+        "bytes": 2863
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/root-authorization-42417691903.json",
+        "sha256": "9dcf8bb29e1189cd71c68f4595601a4b4d8b52142a1c1b1370d40d4440491697",
+        "bytes": 793
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/publication-success-42417691903.json",
+        "sha256": "f6e650c64e9facbbe13f6bba23114d735482bb744de7a348950837385e4f597b",
+        "bytes": 4819
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/verify-live.cjs",
+        "sha256": "c88c3fc786aaa8d0afa00a28ab1c22200bf9d582b9941367bc01d2cff27deb49",
+        "bytes": 9140
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/live-guards.cjs",
+        "sha256": "29030b4f80c08b6081a3aca9683749f7d1bba3b9de3c50e0d02b5f3d1b63fafc",
+        "bytes": 2581
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/expected-inputs.json",
+        "sha256": "85ec241ff2db4a6b5f23a3ddb57b644a6f97ded8df2f9713baef5b90c97e61eb",
+        "bytes": 7890
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/expected-parent.json",
+        "sha256": "1362facc24f82a49bab3e67e0d5a78f4c2d563408583a94f5053ca850402ee16",
+        "bytes": 2308
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/samanta/report.json",
+        "sha256": "ebcc5743aad2a046a1f6d776c88f02e18d785b803cf02ec66685d0c3ea43c11b",
+        "bytes": 7836
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/implementation/drishti/integrated-review.json",
+        "sha256": "c1ed15b10886016ed873c3abbf5e227137fc4c57dc12f40396fda56f8c8e488a",
+        "bytes": 28034
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/samanta/report.json",
+        "sha256": "674bcdb6f4eca4e5dc41904dca0ef23b51dbbcd073a78235a7220f08ac56b72c",
+        "bytes": 7689
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/recovery/deeper/samanta/report.json",
+        "sha256": "41662cb336f1b7d5774ff8c57b150101037b08c27137eadcf4293d410cfa8de0",
+        "bytes": 8254
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/check-downloads.py",
+        "sha256": "17be74790442ec1c7b7d200739b2f30ca7bd8cca2b0e461f46ad872ea5c5aef7",
+        "bytes": 2611
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-full-body.png",
+        "sha256": "2e0ffdab016bbd18362bb8addb1a565d5db9bc6af1c5b6d42bea92fa76694bf1",
+        "bytes": 948220
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-opening.png",
+        "sha256": "b4dcd762db0961e2d5b2a0a10054d40fd34f0ae81426330069178cbf0a18cfdc",
+        "bytes": 780051
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-parent.json",
+        "sha256": "deda6accbefe462c5bbd48f450bf8e1cdba690d28964ab80c2ceffec001e432e",
+        "bytes": 2307
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-reading.html",
+        "sha256": "fdd278f5ead49e16aa6c843f37b8a8752f0df4c79ce418749382d2095d544934",
+        "bytes": 515357
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-reading.txt",
+        "sha256": "a721cbc1c403c994f747359d3a409a6ecc6a0194a5ff5042733522007b60be37",
+        "bytes": 1268
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/desktop-sources.png",
+        "sha256": "7e339fe833dfb9d19704de44b9fa0fde1a527a70837ae951c95e03865849d4cc",
+        "bytes": 72342
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/fire-cooking-response.html",
+        "sha256": "f7282c9b3cdadc6423313f97a0d1f5ed9fb623e7b9eb60bddcc109440c90afa9",
+        "bytes": 27711
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/http-results.json",
+        "sha256": "55b88848148568235570d55f16a78b99acd0bc0efb24ea62e11efd3719b787e3",
+        "bytes": 2489
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/local-public-shell.diff",
+        "sha256": "1bd78ccef5c24e9113e3413ab669a8e6234787d6ad7f8e6605efa3c1b6869bf3",
+        "bytes": 1992
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-full-body.png",
+        "sha256": "b32548ae0b74123a3591c9f639286ff6079b9035ae89bff58f7d61da3db50bfb",
+        "bytes": 385272
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-opening.png",
+        "sha256": "aa97532e7cc1678f89ba46db9c144e134ec7c70daee1db1cd44a6dc8419478d8",
+        "bytes": 226905
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-parent.json",
+        "sha256": "deda6accbefe462c5bbd48f450bf8e1cdba690d28964ab80c2ceffec001e432e",
+        "bytes": 2307
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-reading.html",
+        "sha256": "fdd278f5ead49e16aa6c843f37b8a8752f0df4c79ce418749382d2095d544934",
+        "bytes": 515357
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-reading.txt",
+        "sha256": "a721cbc1c403c994f747359d3a409a6ecc6a0194a5ff5042733522007b60be37",
+        "bytes": 1268
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/phone-sources.png",
+        "sha256": "f28082fee13626f52153718e73ed140f0e725d73d29f5d96219a4877c22b7dfb",
+        "bytes": 59911
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/tomato-poda-response.html",
+        "sha256": "a3afa3b63a55cdd1cb03481d93e37da45566659e587ccaa0efae412360be661b",
+        "bytes": 20261
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/tomato-poda-editorial-2026-11-07/live-verification/samanta/run-42417691903/report.json",
+        "sha256": "a89338d936df3891bb6741bde3d2df0385e02386fbc9e96a6d13aac9ea2310e9",
+        "bytes": 3889
+      }
+    ],
+    "scope_released": true
+  }
+}

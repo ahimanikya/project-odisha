@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1081. completed: 183, excluded: 624, in_progress: 1, queued: 273.
+Route inventory: 1081. completed: 184, excluded: 624, queued: 273.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -130,7 +130,7 @@ Route inventory: 1081. completed: 183, excluded: 624, in_progress: 1, queued: 27
 | POD-EDIT-114 | [Tala pitha](https://projectodisha.org/food/tala-pitha/) | completed | Publish the reviewed substantive Tala pitha preparation contrast at /food/tala-pitha/: exact two attributed paragraphs, lead, By Ahimanikya Satapathy and two native numbered notes. Preserve separate baked/fried sequences, unspecified Delite maturity/temperature scale, no tested recipe or statewide/season/storage/health claims. Replace old same-route summaries;112 words per new source across article surfaces;114 across all reviewed surfaces, including two additional compact-title words from everyday website and portable references, short source titles, no additional Panda/Gapu derivation. Preserve photo licence/credit without attributing it to either recipe, food:tala-pitha SaveID, three reading links, unrelated Talagaja and source records. Require exact KB/site/portable parity, complete gates, responsive browser/download and separate integrated/exact-head review, CI success, reviewed merge, successful authorized deployment, actual live verification and separately reviewed receipt before any completion credit. |
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | excluded | classification_pending |
 | POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | completed | Substantive attributed preparation comparison; existing authored dish article, not utility classification. |
-| POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | in_progress | article |
+| POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | completed | article |
 | POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | queued | classification_pending |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | queued | classification_pending |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | queued | classification_pending |
