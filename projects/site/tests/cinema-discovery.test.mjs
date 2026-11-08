@@ -84,10 +84,18 @@ test('retired people routes retain exact team anchors and a visible no-script li
   assert.equal(destination,team.route+'#'+entry.slug);
   assert.ok(html.includes(`id="${entry.slug}"`));
   const wrapper=fs.readFileSync(path.join(site,'src/pages',entry.route,'index.astro').replace('/index.astro','.astro'),'utf8');
-  assert.ok(wrapper.includes(`content="0;url=${destination}"`));
+  assert.ok(wrapper.includes(`redirectTo="${destination}"`));
+  assert.ok(wrapper.includes('canonicalPath="/cinema/daman-team/"'));
   assert.ok(wrapper.includes(`href="${destination}"`));
-  assert.ok(wrapper.includes('name="robots" content="noindex, follow"'));
-  assert.ok(wrapper.includes('<main><h1>'));
+  const shell=fs.readFileSync(path.join(site,'src/layouts/Shell.astro'),'utf8');
+  assert.ok(wrapper.includes('<Shell '));
+  assert.ok(shell.includes('name="robots" content="noindex, nofollow"'));
+  assert.ok(shell.includes('design-system/styles/utkal.css'));
+  assert.equal((shell.match(/<main\b/g)||[]).length,1);
+  assert.equal((wrapper.match(/<h1>/g)||[]).length,1);
+  assert.ok(shell.includes('http-equiv="refresh"'));
+  assert.ok(shell.includes('new URL(canonicalPath??pagePath,Astro.site)'));
+  assert.ok(!wrapper.includes('<main'));
   assert.ok(!wrapper.includes('<script'));
  }
 });

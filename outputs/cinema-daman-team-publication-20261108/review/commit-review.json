@@ -1,0 +1,30 @@
+{
+  "status": "PASS_COMMIT_SCOPE_PENDING_FINAL_BUILDS",
+  "scope_released": false,
+  "head": "1f1054bf58d956b7461b06579d6387a2903f9d7a",
+  "comparison_base": "b690119fccfab5dd481c9d52e350f7344f88f6e1",
+  "changed_files": 74,
+  "checks": {
+    "other_parallel_programme_rows_preserved": true,
+    "all_prior_jsonl_lines_preserved": true,
+    "no_pdf_binary_committed": true,
+    "no_tagged_reader_experiments_committed": true,
+    "release_assets_hashes_and_bytes_match": true
+  },
+  "reviewed_scope": "Public source changes consolidate three profiles with retained book-source records, old-route fallback and guide mapping;49book/50online separation matches prior visual review. Lavanya/support dossiers are evidence-only. Release metadata preserves prior film-credits editions and standalone introduction. No new film-author claim.",
+  "input_hashes": {
+    "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json": "e4182467f862769fd3d40934d5d15516ff81f5db0d9fafa4fb077b60f2187401",
+    "outputs/cinema-daman-team-lavanya-20261108/final-review.json": "43b940763b38170f48a93c7aa13f2be660b526de89bc01e610978919e4ef16e1"
+  },
+  "pending": "Resolve history loss, then bind final exact head and completed build/disclosure checks. Hosted/live publication remains later gate.",
+  "historical_findings": [
+    {
+      "file": "kb/history/LEDGER.md",
+      "finding": "Diff removes remote Dongria language research integration and Dongria language chapter and public book published sections, including PR722/deployment42468942531.",
+      "correction": "Restore both remote sections verbatim; append Cinema entries without replacing unrelated history."
+    }
+  ],
+  "required_corrections": [],
+  "resolved_head": "6614b0df469615630e117dd9314eebe5cb426d95",
+  "resolution": "Both remote Dongria Markdown sections restored verbatim. No missing remote headings in ledger/index/research-map. Search index retains all remote IDs, only methods/research-map entry changes. Prior findings retained as history."
+}
