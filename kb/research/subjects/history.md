@@ -80,3 +80,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Mining-place history · 3 October 2026
 
 [Talcher’s historical chronology](../economy/talcher-coal-history.md) distinguishes town, coalfield, lease and production dates. The existing Rourkela record now separates furnace firing, dedication and capacity-phase completion. Historical boundaries and unresolved social-history gaps remain explicit.
+
+## History and heritage reading series
+
+[Open the history reading collection](https://projectodisha.org/history/) and [Reading Kalinga Beyond Odisha’s Borders](https://projectodisha.org/stories/reading-kalinga-beyond-odisha/) connect the documented work of contemporary researchers with earlier inscription scholarship. Publication status is recorded in the article handoff.

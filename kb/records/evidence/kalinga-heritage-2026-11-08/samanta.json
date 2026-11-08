@@ -1,0 +1,64 @@
+{
+  "role": "Samanta",
+  "status": "implementation_complete_scopes_released",
+  "input_head": "204d520770839aa85a30d775ac3c889ed930d348",
+  "worktree": "/private/tmp/odisha-kalinga-publish",
+  "at": "2026-11-08T02:35:14.267867+00:00",
+  "changed_files": [
+    "projects/site/src/pages/stories/reading-kalinga-beyond-odisha.astro",
+    "kb/research/stories/reading-kalinga-beyond-odisha.json",
+    "projects/site/src/pages/history/index.astro",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/editions/coast.json",
+    "projects/site/tests-coast/kalinga-heritage.test.mjs"
+  ],
+  "sha256": {
+    "projects/site/src/pages/stories/reading-kalinga-beyond-odisha.astro": "850038e3d828acbdea8fc46936af739c8ce16cc39d1df169a4462752f5afde88",
+    "kb/research/stories/reading-kalinga-beyond-odisha.json": "8224cd7baa8bedb0b0d48fd29471c5d1a6988d1533cce68c1f49fb7c1cb470f1",
+    "projects/site/src/pages/history/index.astro": "f789f02b8069708a0fc99127e471264dd82293cc0f0aa84c460cf678637dbcbd",
+    "projects/site/src/data/discovery.ts": "1209f34f7d414b2037fd67bcf9b47efa5b2e0749346f3ba93482271b8dc42026",
+    "projects/site/src/data/journey-catalog.ts": "e189ae276acfe5b600993006988c4f0704e7225e20c0de8bcb3e27d0024b5f3f",
+    "projects/site/editions/coast.json": "566c564bde0f6e49985a70b6e850dea653f884df0ffef39969b81466249e3e46",
+    "projects/site/tests-coast/kalinga-heritage.test.mjs": "96cf66ccf318c6f687b695f1497392c724668f0161eb46a64c6e61b54e154567"
+  },
+  "tests": {
+    "astro_render": "PASS,591 pages; initial whole build failed only at absent reviewed Dhaga PDF; root subsequently hydrated",
+    "coastal_build": "PASS,1070pages,2879files; log /private/tmp/kalinga-coast-build.log",
+    "focused_rendered": "PASS,3of3 against dist-coast",
+    "public_disclosure_gate": "PASS,1199pages,zero violations",
+    "browser_review": "Independent Drishti assigned; no browserQA claimed by producer"
+  },
+  "source_budget_paragraphs_and_notes": {
+    "nayak-dharmapuri2024": 115,
+    "nayak-rajaguru1961": 154,
+    "nayak-intach2025": 82,
+    "nayak-launch2025": 44,
+    "nayak-asi-epigraphy": 61,
+    "nayak-asi-estampages": 76,
+    "nayak-chitreswari2024": 91
+  },
+  "source_budget_note": "Single canonical narrative JSON; metadata/reading bookmark source-neutral, bookmark links back rather than repeating sourced paragraphs. Brief catalog bibliography additional; remains below200/source. No third-party verbatim passage quoted.",
+  "implementation": [
+    "Text-first article uses existing Shell, byline, footnotes, reading paths and CSS",
+    "Early provisional identity caveat retained before entry details",
+    "History hub links new feature and four existing readings",
+    "Public discovery and edition admission; SaveJourney exports reading bookmark",
+    "No image rights invented; existing branded sharing fallback identifies itself as imagined illustration"
+  ],
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "status": "npx search rejected by automatic approval review",
+    "reason": "Unverified network package execution with elevated permissions",
+    "alternative": "Existing components and official read-only MDN article semantics; native article+h1; no new platform feature or dependency introduced",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article"
+  },
+  "runtime": "Existing Node25.8.1; default Node10 incompatible; existing node_modules symlink, no install",
+  "preview": "http://127.0.0.1:8831/stories/reading-kalinga-beyond-odisha/",
+  "remaining": [
+    "Independent browser/head review",
+    "Full CI and publication workflow owned by Disha"
+  ],
+  "git_mutations": false,
+  "publication": false
+}
