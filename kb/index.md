@@ -384,4 +384,4 @@ The [Joseph/Josef case](records/cinema-josef-literary-journey-2026-11-05.json) a
 
 - [Cinema sequence publication](records/cinema-sequence-publication-2026-11-07.json) — 49 book chapters, 52 online readings; published and live verified.
 
-- [Sambalpuri Bandha editorial delivery](records/sambalpuri-bandha-editorial-2026-11-08.json) — active implementation; publication and receipt pending.
+- [Sambalpuri Bandha editorial delivery](records/sambalpuri-bandha-editorial-2026-11-08.json) — [published and live verified](records/sambalpuri-bandha-editorial-publication-2026-11-08.json); separately reviewed receipt integration pending.

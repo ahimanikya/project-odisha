@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `54a5852c7d994fc1e0b77d2edaaf21d076088993257c41f2e1be3c8f5444ce76`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `091df0f15fdc1c7542a03e9e864016119f98a6358e3650569ba6b5fff33db52e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -366,7 +366,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-333 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-334 · Pattachitra: prepared cloth, painted borders and narrative practice | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; then release finite article scopes. | — |
-| POD-WORK-335 · Sambalpuri Bandha: colour before cloth | in_progress | reviewed | Ahimanikya Satapathy | Install exact reviewed guarded package, test, separately review and publish through receipt integration. | — |
+| POD-WORK-335 · Sambalpuri Bandha: colour before cloth | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 
 ## Pending human review and decisions
 
@@ -1350,7 +1350,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026110701 | 2026-11-07T02:41:45.912944+00:00 | Proposed finite116substantive preparation comparison implementation after Dhaga358receipt696release;139inprogress and138completed unchanged. No delivery/credit asserted. | — |
 | POD-EVT-2026110702 | 2026-11-07T14:35:55.450021+00:00 | 116 actual published e14 and separately live verified; original697/recovery699 distinct. One conditional completion; finite receipt integration retained. | — |
 | POD-EVT-2026110703 | 2026-11-07T17:57:48.357930+00:00 | Founder requested direct implementation/publication of reviewed117; source/schema reviews complete. Preserve139 completed and zero new credit. | — |
 | POD-EVT-2026110801 | 2026-11-07T22:06:23.166661+00:00 | 117 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
@@ -1360,6 +1359,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261023013 | 2026-11-08T14:37:29.667203+00:00 | Reviewed Pattachitra source/draft and corrected guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
 | POD-EVT-20261023014 | 2026-11-08T15:34:57.022799+00:00 | Pattachitra actual approved publication and separate live review passed; one substantive completion, receipt integration pending. Dhaga public collection unchanged. | — |
 | POD-EVT-20261023015 | 2026-11-08T17:32:26.877590+00:00 | Reviewed Bandha source/draft and guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
+| POD-EVT-20261023016 | 2026-11-08T19:27:45.483284+00:00 | Bandha actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 
 ## Deferred extensions
 
