@@ -1,0 +1,65 @@
+{
+  "id": "POD-CINEMA-END-CREDITS-RESEARCH-20261108",
+  "date": "2026-11-08",
+  "status": "primary_role_evidence_verified_full_feature_end_cards_uninspected",
+  "question": "Find online end credits of Remosam and Ramaleelas of Odisha and verify Prateek Pattanaik’s role.",
+  "reuse_before_research": [
+    "kb/research/culture/cinema-series/language-documentaries-completion-2026-11-08.json",
+    "outputs/cinema-language-publication-20261108/research/remosam-final-credit-followup.json"
+  ],
+  "findings": [
+    {
+      "film": "Remosam",
+      "person": "Prateek Pattanaik",
+      "role": "Co-cinematographer",
+      "status": "verified_in_original_producer_treatment",
+      "source_url": "https://theofdn.org/assets/docs/remosam-film-treatment-2021.pdf",
+      "source_date": "2021-02-12",
+      "locator": "Page3 credit block",
+      "exact_credit": "Co-Cinematographer: Prateek Pattanaik",
+      "safe_wording": "O Foundation’s 2021 treatment credits Prateek Pattanaik as co-cinematographer of Remosam.",
+      "scope_limit": "Actual original PDF inspected; no released-film end-credit card located."
+    },
+    {
+      "film": "Ramaleelas of Odisha",
+      "person": "Prateek Pattanaik",
+      "shared_with": "Puloma Pal",
+      "role": "Additional script, research and subtitles",
+      "status": "verified_in_released_trailer_closing_cards",
+      "source_url": "https://www.youtube.com/watch?v=UzJM7H2Webw&t=160s",
+      "locator": "Long trailer2:40, total2:43",
+      "exact_credit": "Additional script, research and subtitles: Puloma Pal & Prateek Pattanaik",
+      "corroborating_same_production_source": {
+        "url": "https://www.youtube.com/watch?v=XYC-JWZDfRE&t=95s",
+        "uploader": "Indira Gandhi National Centre for the Arts",
+        "locator": "Official trailer1:35, total1:36",
+        "exact_credit": "Additional script research and subtitles: Puloma Pal & Prateek Pattanaik"
+      },
+      "safe_wording": "The trailer credits Puloma Pal and Prateek Pattanaik for additional script, research and subtitles.",
+      "scope_limit": "Precise primary trailer credit replaces reliance on generic IMDb writer category. Full feature closing credits not inspected; Shankhajeet De separately credited for direction, script and narration in long trailer."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "outputs/cinema-end-credits-20261108/remosam/research.json",
+      "sha256": "9653f11c61cd79199b443ad094edb3331dc188fee887fa6e88d5359cd226143d"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/research.json",
+      "sha256": "7071fd443dd2e27790c709e4115cd63408d8308c66f28fbcec97d2df6421c9a5"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas-media/trailer-inspection.json",
+      "sha256": "312433796cb75c1a880fad232f5ed79c3af10ad59db07e3ebae7937d3dabd006"
+    }
+  ],
+  "review": "outputs/cinema-end-credits-20261108/review.json",
+  "actual_inspection": "Original producer treatment pages1–3; selected closing frames in two public trailers; public catalogue, poster, organiser and producer-site source records. No continuous full-film viewing.",
+  "remaining_gap": "Full feature end-credit cards for both films are still uninspected. Role descriptions above are now supported at the explicitly stated producer-document/trailer level.",
+  "stopping_rule": "Bounded user-requested search complete with stronger primary evidence. Reopen full-feature final-card question on a new identifiable released copy or official credit sheet; do not repeat exhausted generic searches.",
+  "public_articles_changed": false,
+  "books_changed": false,
+  "outreach": false,
+  "publication_performed": false,
+  "programme_credit": 0
+}

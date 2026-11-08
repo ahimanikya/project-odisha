@@ -54,18 +54,14 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": {
-    "id": "POD-EDIT-KALINGA-20261108",
-    "route": "/stories/reading-kalinga-beyond-odisha/",
-    "owner": "Disha",
-    "phase": "receipt_integrated"
-  },
+  "current_article": null,
   "project_identity": "reference/project-identity.md",
   "current_task": {
     "kind": "article_receipt",
     "owner": "Disha",
     "status": "receipt_integration",
-    "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
+    "article_id": "POD-EDIT-120",
+    "handoff": "records/pipili-editorial-2026-11-08.json"
   },
   "parallel_programmes": [
     {
@@ -107,12 +103,12 @@
     },
     {
       "name": "Cinema research and story expansion",
-      "handoff": "records/cinema-language-documentaries-publication-2026-11-08.json",
-      "status": "published_verified",
-      "scope": "Publish documentary addition and matching books after related deep research",
-      "note": "PR708 merged; deployment42423135690success. Futures and both271/278-page book downloads live verified. Bounded research complete with excluded final-credit gaps; other work preserved.",
-      "active_article": null,
-      "scope_released": true,
+      "handoff": "records/cinema-film-credits-publication-2026-11-08.json",
+      "status": "implementation",
+      "scope": "Verified film credits, matching article and both book downloads",
+      "note": "Founder authorized publication. One Futures article; separate research, implementation and quality roles. Preserve all other owner scopes.",
+      "active_article": "POD-EDIT-812",
+      "scope_released": false,
       "last_publication_handoff": "records/cinema-language-documentaries-publication-2026-11-08.json"
     }
   ],
@@ -226,6 +222,22 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-118",
         "handoff": "records/patrapoda-editorial-2026-11-08.json"
+      }
+    },
+    {
+      "scope": "POD-EDIT-KALINGA-20261108",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 716,
+      "receipt_merge": "98c71cf6f72b3a82623816f505bc9198b2dfb22a",
+      "required_check_run": 42443276302,
+      "required_check_result": "SUCCESS",
+      "remote_files_verified": 10,
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
       }
     }
   ],

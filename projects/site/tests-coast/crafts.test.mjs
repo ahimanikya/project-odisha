@@ -20,7 +20,7 @@ test('craft stories publish sourced process, licensed real photos and accurate m
   }
   for(const id of new Set(entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))assert.ok(html.includes(data.sources[id].url));
  }
- assert.match(read('/crafts/pipili-applique/'),/not a promise that every stitch is hand-sewn/);
+ assert.match(read('/crafts/pipili-applique/'),/not a description of every Pipili workshop/);
  assert.match(read('/crafts/pattachitra/'),/not a specification for every piece sold today/);
  assert.match(read('/crafts/pattachitra/'),/precise medium of the piece are not established/);
 });
@@ -34,7 +34,7 @@ test('craft starter leaves an existing journey untouched and carries source and 
   const item=journey.catalog.find(i=>i.id===id);assert.ok(item);assert.ok(item.photo);assert.ok(item.practical.length>=3);assert.ok(item.sources.length);
   assert.ok(book.includes(item.title));for(const s of item.sources)assert.ok(book.includes(s.url.replaceAll('&','&amp;')));
  }
- assert.match(book,/Keep|maker/);assert.ok(book.includes('Ask permission to record the maker’s story.'));assert.match(book,/machine stitching/);
+ assert.match(book,/Keep|maker/);assert.ok(book.includes('Ask permission to record the maker’s story.'));assert.match(book,/machine-stitched/);
  for(const id of ['place:raghurajpur','experience:cuttack-filigree'])assert.ok(plan.items.some(i=>i.id===id));
 });
 test('craft discovery connects existing guides and preserves excluded publication scope',()=>{

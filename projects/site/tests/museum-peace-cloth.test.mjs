@@ -28,7 +28,7 @@ test('three visitor stories preserve their identities and source context in port
  assert.ok(dhauli.sources.every(s=>!s.url.includes('/content/tourism/')));
  assert.ok(dhauli.sources.every(s=>Object.keys(s).sort().join(',')==='title,url'));
  assert.ok(dhauli.summary.includes('what that promise can prove'));
- assert.ok(book.includes('not a promise that every stitch is hand-sewn'));
+ assert.ok(book.includes('not a description of every Pipili workshop'));
  for(const r of ['/destinations/bhubaneswar/','/things-to-do/'])assert.ok(read(r).includes('href="'+route+'"'));
  assert.ok(read('/crafts/pipili-applique/').includes('href="'+route+'"'));
  assert.ok(read('/visit/places/dhauli/').includes('Major Rock Edict XIII'));

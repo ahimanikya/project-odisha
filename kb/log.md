@@ -755,3 +755,7 @@ Founder requested photographs for five blank cards on /food/. Four credited Comm
 ## Poda pitha photograph restored · 21 October 2026
 
 Founder prefers the earlier documentary photo. Restore the cut-slice photograph by Udipta876 (CC BY-SA4.0) across the food article, related views and saved journey book; restore its matching opening sentence. Retain both photographs and their provenance. [Correction record](records/poda-pitha-photo-restore-2026-10-21.json). No substantive programme credit or article-rollout completion.
+
+## 2026-11-08
+
+Updated the Kalinga history feature with the verified book imprint, two selected sample entries and the earlier inscription edition. Local accounts remain attributed; the modern slab match remains unresolved. Research tracker and source catalogue accompany the article. See [scoped publication record](records/kalinga-book-update-2026-11-08.json) for review and release status.

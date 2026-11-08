@@ -1,0 +1,133 @@
+{
+  "status": "PASS_OUTPUT_ONLY_IMPLEMENTATION_PROPOSAL",
+  "reviewer": "drishti; separate AI review",
+  "reviewed_at": "2026-11-08T02:58:34.972526+00:00",
+  "input_head": "dea209cab15a6b9003d080457b6b9318313dfd82",
+  "producer_sha256": "1f2a982ae78725a4d66ffe32d386953bafcaca8d75fb1018e70a4b571e4a0fdf",
+  "checks": {
+    "all_bound_hashes_exact": true,
+    "eight_current_before_and_proposed_after_guards_exact": true,
+    "reviewed_article_fields_exact": true,
+    "five_paragraphs_portable_exact": true,
+    "three_native_notes_four_distinct_markers": true,
+    "two_note1_return_targets_distinct": true,
+    "original_KB_prefix_exact": true,
+    "global_sources_assets_parent_and_siblings_exact": true,
+    "save_id_and_eight_related_links_exact": true,
+    "source_allocation": {
+      "reviewed_new_delivery": 171,
+      "expected_generated_KB_duplicate": 17,
+      "expected_total": 188,
+      "ceiling": 200
+    }
+  },
+  "findings": [
+    "Proposed editorial JSON preserves all fields of the independently reviewed author article and only adds implementation metadata. No new process, ceremony or named-maker claim.",
+    "Native article preserves both photo captions and provides creator/source/licence/alteration information in three notes. Repeated source note1 has separate cutting/forming reference IDs and distinct return links.",
+    "Catalogue additionalPhotos is populated only for Pipili; primary photo and original credit objects remain intact. Optional image enumeration retains existing local-path, count, byte and cancellation guards. Renderer adds second image through the existing credit map; sibling entries without additionalPhotos take the original single-photo path.",
+    "Pipili-only empty-heading/colon handling and paragraph-array rendering preserve full portable prose. Source-neutral metadata is a separate single-route root proposal.",
+    "Full copyrighted source capture remains local-only; application instructions exclude it from canonical evidence."
+  ],
+  "implementation_conditions": [
+    "Recheck before hashes at application and preserve other-owner drift; no automatic application authorized by this review.",
+    "Run actual Astro/site gates and fixed-input sibling HTML/TXT/catalogue parity. Static source inspection does not establish compiled or rendered parity.",
+    "Verify both photo loads/credits, four native note markers and all return targets, Save/reload, eight onward links and actual HTML/TXT downloads at desktop/mobile widths.",
+    "Reconcile actual rendered source-derived copies and generated index.188 is the expected total, not an unconditional final-output allowance; any further derived metadata or source text must be counted within200."
+  ],
+  "limits": [
+    "No canonical edits, builds, browser rerun or publication performed.",
+    "Two MJS syntax checks are producer evidence; reviewer independently checked exact diffs, payload guards, data parity and allocation arithmetic.",
+    "No claim of implementation success, human editorial review, completion credit or publication approval."
+  ],
+  "bindings": [
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/anvesha/article.json",
+      "sha256": "d4ff215bc5ccf7c15e5741683076b366eede1e07b7ddacf4b9da94d4c5898b38"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/anvesha/budget-ledger.json",
+      "sha256": "62e92cfbe0ca4eedf0f33301f3008db8c01610aba8476a58e40768093a2950d6"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/anvesha/report.json",
+      "sha256": "7d1ff40e52fd5c24fc42dbf27e72cf1513cb2d32a96c54564e785de02791927e"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/drishti/draft-review.json",
+      "sha256": "4fa22d7e70a96dec0cd573b27588e4e4f916720dc0f12ee0be62f52c23a31072"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/apply-and-test.json",
+      "sha256": "a3f69c19f0e3391ee7aa3a049dbcdcd9a9d615e57d34cb77dbecb47e82e0cae7"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/check-proposal.py",
+      "sha256": "8b3cbda02b9ce71f3b1b6581a5ce9a1d66cc7ac5287aa3f1fb4184dc11675fcc"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/checks.json",
+      "sha256": "1ab8eeb39a6f8dcb51ebee8ee34918ab8c92081254c7b1a4c8242b92e633b838"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/guidance.txt",
+      "sha256": "84a697eb7a84b8436d299adfd5120a6fe482e3c5ed0f727e198949805efd043c"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/installation-manifest.json",
+      "sha256": "54cbf989fa0c56e345545f5f3023ecd6ae78411f0926cc3338b4cde81993063c"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/manifest.json",
+      "sha256": "e10f8abc7636df29b273ddfae5b12859df2045d93eb7e464099d063b68016190"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/metadata-proposal.json",
+      "sha256": "0df3c8c2c23f4b5b568234e3763af33c6441b007abdc8e984a30c9a9cac8b2da"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/prepare.py",
+      "sha256": "5f28b02a7f05b6cd8797b6c7c3a605f9154ab7f81d8ac85d5b1a0575fc78a3eb"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed.patch",
+      "sha256": "c48669830378bd1530a5298989ff2f2e327c2bbdc285e4fee4d7f0f1982bb69d"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/kb/research/culture/craft-stories.json",
+      "sha256": "0189156f25f78569bd4a140587237d58eaea7a8cd42766c621df676827700a68"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/kb/research/culture/pipili-applique.md",
+      "sha256": "709873530a07303ae41ad2634fd7116ec0e8f7c97b669c17e9df7630298e14b4"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/kb/research/culture/pipili-editorial.json",
+      "sha256": "50835cab0bc092a552971f2ef075b16b17753bbf824b43dce3bd2c2a7382e6f4"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/projects/site/src/components/PipiliArticle.astro",
+      "sha256": "f72b30b0b5d1ecefa32161ae1d661261d05043bb68557d88f3894eccefa7f7ea"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/projects/site/src/data/journey-catalog.ts",
+      "sha256": "64c25372fcb73e83218da0e4c76083b39c94c4519c3089a29ee0a22813b9431a"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/projects/site/src/lib/book-images.mjs",
+      "sha256": "8227a6183dc01df834f5213ba7dc5a520a03a3e64a9e322cd3c9b7130754e706"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/projects/site/src/lib/tour-book.mjs",
+      "sha256": "1404f806da5b54ffbf90c192ce373a8c66c2de8759e63a9d4e5759ba977b1e56"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/proposed/projects/site/src/pages/crafts/[slug].astro",
+      "sha256": "b8e77945c630b2097c9aeb9fb5835ea847731ba16ea9d21bab085058908e8e14"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/samanta/report.json",
+      "sha256": "1f2a982ae78725a4d66ffe32d386953bafcaca8d75fb1018e70a4b571e4a0fdf"
+    }
+  ],
+  "scope_released": true
+}

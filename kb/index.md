@@ -2,6 +2,8 @@
 okf_version: "0.2"
 ---
 
+- Cinema film-credit publication: [active release](records/cinema-film-credits-publication-2026-11-08.json) — precise Remosam and Ramaleelas roles; matching article and both book editions in review.
+
 # Project Odisha · project knowledge bundle
 
 **Discover Odisha. Imagine the possibilities.** Project Odisha (POD) is an instance of Odisha Blueprint. Existing record IDs now use POD; old UTP IDs resolve through the [identifier map](reference/project-id-aliases.json). This KB holds its actual project information and the knowledge behind its work.
@@ -28,6 +30,8 @@ This directory contains the organizational and working model, roles, work record
 - [Current article editorial standard](reference/article-editorial-standard.md) and [sequential work list](records/article-editorial-work-list.md).
 
 ## Current delivery and open work
+
+Current cinema credit research: [Prateek’s two film roles](records/cinema-end-credits-2026-11-08.json). Original producer treatment verifies Remosam co-cinematography; two trailer closing cards verify additional script, research and subtitles for Ramaleelas of Odisha, shared with Puloma Pal. Separate review complete. Full-feature end cards remain uninspected; published articles and both book downloads unchanged.
 
 Current cinema publication: [Language, memory and matching book editions](records/cinema-language-documentaries-publication-2026-11-08.json). Published and live verified: the Futures documentary passage and271-page digital/278-page print downloads. Research and separate review complete within the recorded scope; two exact film-credit gaps remain excluded.52online readings/49book chapters; scope released.
 

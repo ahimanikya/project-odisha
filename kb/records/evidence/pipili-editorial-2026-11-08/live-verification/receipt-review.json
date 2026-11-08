@@ -1,0 +1,176 @@
+{
+  "status": "PASS_MATERIALIZED_RECEIPT_FIXTURE_REVIEW",
+  "input_head": "01422f6d54c5333a08f0de8339d21bc1282539fb",
+  "reviewed_at": "2026-11-08T06:26:24.022503+00:00",
+  "reviewer": "Drishti; separate AI review",
+  "application_authority": "Exact corrected13file fixture-manifest; original materializer output is historical and is not the application source.",
+  "checks": {
+    "fixture_payload_hashes_exact": 13,
+    "actual_root_fixture_commands_pass": 11,
+    "portable_UTF8_roundtrips_exact": 14,
+    "sibling_counts_exact": {
+      "POD-EDIT-120": 1082,
+      "POD-A500-142": 141
+    },
+    "register_changes": {
+      "projects": {
+        "changed": [],
+        "added": []
+      },
+      "work": {
+        "changed": [
+          "POD-WORK-333"
+        ],
+        "added": []
+      },
+      "decisions": {
+        "changed": [],
+        "added": []
+      },
+      "requirements": {
+        "changed": [],
+        "added": []
+      },
+      "reviews": {
+        "changed": [],
+        "added": [
+          "POD-REV-301"
+        ]
+      },
+      "releases": {
+        "changed": [],
+        "added": [
+          "POD-REL-171"
+        ]
+      },
+      "sources": {
+        "changed": [],
+        "added": []
+      },
+      "relationships": {
+        "changed": [],
+        "added": []
+      }
+    },
+    "activity_append_only_event": "POD-EVT-425",
+    "programme_transition": [
+      141,
+      142
+    ],
+    "source_budget": 188,
+    "other_owner_operations_exact": true,
+    "pending_receipt_claim_retained": true,
+    "publication_identity": "PR720 merge01422 is same published carrier42452985995",
+    "live_checked_at": "2026-11-08T06:13:23.518Z"
+  },
+  "findings": [
+    "Single existingWORK333/A500142/EDIT120 completion; no duplicate work registration or unrelated programme/rollout changes.",
+    "Corrected verified_routes binds actual article and parent. Original missing-field failure retained.",
+    "Reviewer caught contradictory distinct-carrier wording; root corrected samePR720 carrier statement in exact fixture before this PASS. Original materializer outputs remain history, not application authority.",
+    "Fourteen portable source texts round-trip exactly to original bytes; image/large archive references retained, no large ZIP or full copyrighted research capture payload.",
+    "Current B80 eight-pending qualification is explicit alongside historical seven-entry implementation limit; no Dhaga acceptance or credit."
+  ],
+  "bindings": [
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/article-editorial-rollout.json",
+      "sha256": "be18fa118f2d125b7b653fa410750b26419be6a94c57a7e0ced36cf08a74db8e",
+      "target": "kb/records/article-editorial-rollout.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/article-editorial-work-list.md",
+      "sha256": "9fc5027f1249871beb4749ab899b47e76294c2ff4b7e9697d5502d1273fed0bf",
+      "target": "kb/records/article-editorial-work-list.md"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/autonomous-500-program.json",
+      "sha256": "ac0b7428cb84b02ee1d1e185e4befd7f27ac5312d01ef39d781c693e57501b4f",
+      "target": "kb/records/autonomous-500-program.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/evidence/pipili-editorial-2026-11-08/live-verification/live-reports.json",
+      "sha256": "42275cd9f8a87c7d12edf03edd33d1c53612f515c9d2cb855418de561ca31321",
+      "target": "kb/records/evidence/pipili-editorial-2026-11-08/live-verification/live-reports.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/evidence/pipili-editorial-2026-11-08/live-verification/release-history.json",
+      "sha256": "952739a0b78f3b5d10ac4452066951566cc4fcfa0c60340c939ad119b3f7d6ee",
+      "target": "kb/records/evidence/pipili-editorial-2026-11-08/live-verification/release-history.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/evidence/pipili-editorial-2026-11-08/live-verification/source-manifest.json",
+      "sha256": "fa320d405b3fe02f99cd8d41abe6cd0daca0385822d5be204e63b23112874a05",
+      "target": "kb/records/evidence/pipili-editorial-2026-11-08/live-verification/source-manifest.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/pipili-delivery-review-2026-11-08.json",
+      "sha256": "16a67b63b915e027ffb4910efcd052aa3c4d84b29c42d49c8e8ff20e0c83a504",
+      "target": "kb/records/pipili-delivery-review-2026-11-08.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/pipili-editorial-2026-11-08.json",
+      "sha256": "fc5cfb6969109da1bea78bbd72d172ba6d4e570392d1f016f2e1d9a9b3cf87fe",
+      "target": "kb/records/pipili-editorial-2026-11-08.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/records/pipili-editorial-publication-2026-11-08.json",
+      "sha256": "2c573f25d3488d9f4f42c3e30df7685e8d3c3a1ed976de6b5ce927b129dcdd92",
+      "target": "kb/records/pipili-editorial-publication-2026-11-08.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/registers/DASHBOARD.md",
+      "sha256": "5d24dbbd91bc880266b0ebb8fa7d2d87b4c82802b4a5f6b78093e4cc8924ecdb",
+      "target": "kb/registers/DASHBOARD.md"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/registers/activity.jsonl",
+      "sha256": "41f889898c7a6fc72de877976bef35599c71de06078f141814900c13b18aaa1d",
+      "target": "kb/registers/activity.jsonl"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/registers/records.json",
+      "sha256": "e1fbaac3a10f456436ada26435c164585e0155a5414f839d55641578fcd3c184",
+      "target": "kb/registers/records.json"
+    },
+    {
+      "path": "/private/tmp/pipili-receipt-validation-20261108/kb/team/operations.json",
+      "sha256": "f10775a65c1de4098703892d3dd4af6cdf830d74657b32cf3b4f6ad6cc743708",
+      "target": "kb/team/operations.json"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/receipt-preparation/fixture-manifest.json",
+      "sha256": "81a930d02f90c26572d5dbed3613b75a21c060ef532983b55840ddecc507fade"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/receipt-preparation/fixture-validation-corrected.json",
+      "sha256": "716b2499d654d02032ea5c8e941ac29594c0a356e12de4a52f32d369597e737b"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/receipt-preparation/fixture-validation.json",
+      "sha256": "1ecb4b94f3794e756890e558a2ac69a5db8516adb11ee60e0e91c601b178fe83"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/live/drishti/live-review.json",
+      "sha256": "1abf5531fd13d68369eb336f58fc75fb50b3f46e0f3f1a7781bf978483ef29d8"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/release/github/merge.json",
+      "sha256": "c967640d85bbf54c3e0e105949f183f32bd4fd19224c86d68c2131849019c311"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/release/github/required-ci.json",
+      "sha256": "b414efa27271c91c63dc822d38eb436fafff368ec71a2a31d469fc0435e0581e"
+    },
+    {
+      "path": "outputs/pipili-editorial-2026-11-08/release/github/publication.json",
+      "sha256": "707dbf3fdd34abb9dcda72147c2b3156e8d992cec14f9188385e68b4c078cc2f"
+    }
+  ],
+  "limits": [
+    "Fixture and proposed receipt reviewed, not installed canonical state or future receipt merge/remote verification.",
+    "One completion credit is conditional on applying this reviewed receipt exactly; receipt integration remains active until reviewed merge and verification.",
+    "Actual11command fixture evidence reviewed rather than rerunning generators; no builds/live/browser/research repeated.",
+    "Seven live acceptance checks rely on bound actual separate live review; AI-only and source/rights/archive limitations retained.",
+    "No canonical or Git mutation performed."
+  ],
+  "scope_released": true
+}
