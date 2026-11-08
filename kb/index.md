@@ -29,7 +29,7 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
-[Hosting capacity](records/hosting-capacity-20261108.json): existing GitHub delivery selected for14 unchanged character videos. Source review and browser trial pass; final publication checks pending. All direct book PDFs remain on the website. Download-verification receipt PR731 is merged.
+[Hosting capacity](records/hosting-capacity-20261108.json): published and verified using existing GitHub. Fourteen unchanged videos now use release delivery, removing108.6MB from the website payload. The deployed site is870.3MB with129.7MB free. All11current PDFs retain direct website downloads and exact bytes;39video pages and40poster/caption files pass live checks. Download-verification receipt PR731 is merged.
 
 Book-download reliability: [Cinema delivery and website audit](records/book-downloads-20261108.json). Published and live verified: current Cinema screen, print and introduction PDFs open directly from the website with exact reviewed bytes and partial-download support.34book/source-PDF links responded successfully; Dhaga and six character PDFs also passed partial-download checks.
 

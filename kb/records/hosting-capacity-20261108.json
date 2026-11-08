@@ -1,6 +1,6 @@
 {
   "id": "POD-HOSTING-CAPACITY-20261108",
-  "status": "implemented_validation_in_progress",
+  "status": "published_verified",
   "authorization": "Founder requested sorting out website hosting space and merging final download verification record.",
   "scope": "Increase website capacity while preserving all current direct PDF URLs, exact PDF bytes, all content, image quality and working media. No paid services or account changes without separate approval.",
   "programme_credit": 0,
@@ -73,7 +73,7 @@
     "limit_bytes": 1000000000,
     "current_pdf_paths_preserved": 11
   },
-  "next_action": "Complete full/coast/publication validation, independent final-artifact review and anonymous release-file verification before publishing.",
+  "next_action": "Merge this final hosting verification receipt after required checks; no further website deployment is needed for receipt-only records.",
   "research": {
     "videos_bytes": 108625580,
     "video_files": 14,
@@ -112,9 +112,99 @@
     "exact_206_ranges": 42
   },
   "validation": {
-    "source_review": "pass",
+    "head": "3d71ebc8e1f752170dac96ec2b964e838157a35d",
     "full_tests": 744,
-    "full_disclosures": "pass",
-    "coast_and_publication": "in_progress"
-  }
+    "coast_tests": 587,
+    "page_acceptance": 4284,
+    "final_video_tests": 3,
+    "final_book_image_tests": 9,
+    "public_disclosure_violations": 0,
+    "publication_pages_checked": 1201,
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 869644003,
+      "regular_files": 2869,
+      "directories": 719,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 86579,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+          "bytes": 110419594
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-08-school-audience.pdf",
+          "bytes": 51785133
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-08-school-audience.pdf",
+          "bytes": 38852518
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "assets/bhubaneswar-week/conversations.jpg",
+          "bytes": 4296333
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+          "bytes": 3891461
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "browser_final_player": {
+      "asset": "hold-this-end-first-cut-v1.mp4",
+      "duration": 54,
+      "readyState": 4,
+      "playing": true,
+      "time_progressed_to": 16.415525,
+      "native_seek_seconds": 45.51128,
+      "seek_ready_state": 4,
+      "paused_after_check": true
+    }
+  },
+  "reviewed_head": "3d71ebc8e1f752170dac96ec2b964e838157a35d",
+  "source_pr": 733,
+  "source_merge_commit": "9d2cbf3260fa3301b4d1dc64b0008d057f19c215",
+  "ci_run": 42508884668,
+  "ci_status": "success",
+  "deployment_run": 42510035032,
+  "deployment_status": "success",
+  "final_source_review": "records/evidence/hosting-capacity-20261108/final-review.json",
+  "pdf_embedded_link_audit": {
+    "pdfs": 13,
+    "uri_links": 1991,
+    "stale_video_links": 0,
+    "evidence": "records/evidence/hosting-capacity-20261108/pdf-link-audit.json"
+  },
+  "scope_released": true,
+  "hosted_payload_bytes": 870307518,
+  "hosted_files": 2869,
+  "hosted_headroom_bytes": 129692482,
+  "video_delivery_bytes_removed": 108625580,
+  "live_verification": "records/evidence/hosting-capacity-20261108/live-hosting-verification.json",
+  "live_browser": "records/evidence/hosting-capacity-20261108/live-browser.json",
+  "receipt_review": "records/evidence/hosting-capacity-20261108/receipt-review.json"
 }

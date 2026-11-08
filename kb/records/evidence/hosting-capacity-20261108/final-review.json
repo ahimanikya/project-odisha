@@ -1,0 +1,99 @@
+{
+  "status": "integrated_candidate_pass_pending_hosted_CI_and_live_pages",
+  "scope": "14 exact MP4 deliveries to versioned GitHub release;11 current PDFs remain local; no image changes.",
+  "findings": [],
+  "required_final_checks": [
+    "Exact14 asset hashes/bytes against source and versioned release manifest; no inferred immutable-release claim",
+    "All39HTML/99reference replacements limited to expected video URLs, including embedded JSON",
+    "Cross-origin playback and seeking with actual player/caption attributes; preserve local VTT/posters/credits",
+    "No stale local MP4 href/src/JSON paths in generated output,14 removed from retention",
+    "All11 PDF hashes/URLs and image sources unchanged",
+    "Final artifact below1GB and normal no-symlink/hardlink checks",
+    "Preserve concurrent Cinema main300ce016 changes"
+  ],
+  "limits": [
+    "No heavyweight build or source mutation performed.",
+    "Chrome trial evidence currently coordinator reported; full integrated review pending."
+  ],
+  "source_review": {
+    "original14GitHEAD_bytes_and_hashes_match": true,
+    "39HTML_only_expected99_attribute_substitutions": true,
+    "coast_only14_matching_downloads_removed": true,
+    "no_PDF_image_or_Cinema_content_changes": true,
+    "issues": [],
+    "test_assessment": "Meaningful original-content hash restoration and stage poster/caption/local-video guards. Final artifact whole-output reference scan still required."
+  },
+  "final_artifact": {
+    "files_scanned_for_local_video_paths": 2869,
+    "stale_paths": [],
+    "local_MP4_count": 0,
+    "pdf_checks": [
+      {
+        "file": "/archive/odia-cinema-a-living-screen-2026-11-08-school-audience.pdf",
+        "pass": true
+      },
+      {
+        "file": "/archive/odia-cinema-a-living-screen-print-2026-11-08-school-audience.pdf",
+        "pass": true
+      },
+      {
+        "file": "/archive/the-question-that-brought-me-here-2026-11-06.pdf",
+        "pass": true
+      },
+      {
+        "file": "/archive/dongria-kondh-public-reading.pdf",
+        "pass": true
+      },
+      {
+        "file": "/archive/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/gudul-gudli-three-stories-v1.pdf",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/three-character-worlds-overview-v1.pdf",
+        "pass": true
+      }
+    ],
+    "poster_and_caption_targets": {
+      "checked": 214,
+      "missing": []
+    },
+    "payload": {
+      "bytes": 869644003,
+      "files": 2869,
+      "symlinks": 0,
+      "hardlinks": 0
+    }
+  },
+  "reviewed_commit": "3d71ebc8e1f752170dac96ec2b964e838157a35d",
+  "source_followup": "Coast wrapper sets VIDEO_DELIVERY_STAGE=dist-coast before importing shared tests; no weakened assertions. Receipt merge changes no delivery behavior; current school-audience Cinema PDFs independently hash-checked.",
+  "release_HTTP_evidence": {
+    "completed": 14,
+    "full_body_hash_matches": 14,
+    "matching_first_middle_tail_ranges": 42,
+    "evidence": "kb/records/evidence/hosting-capacity-20261108/media-http-verification.json"
+  },
+  "pending": [
+    "Hosted validation42508884668 success before merge",
+    "Post-deployment actual page playback and caption checks"
+  ]
+}
