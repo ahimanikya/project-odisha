@@ -1,0 +1,52 @@
+{
+  "id": "POD-BOOK-DOWNLOADS-20261108",
+  "status": "local_validation",
+  "authorization": "Founder requested same direct-download fix for Odia Cinema and audit of other website book downloads.",
+  "scope": "Deliver exact current reviewed Cinema digital/print/introduction PDFs directly; audit remaining public book downloads and correct verified delivery defects. Preserve edition identity and manuscript bytes.",
+  "programme_credit": 0,
+  "publication": false,
+  "dependency": "Testing in isolated download branch merged with pending PR724; publish only after PR724 merges. Do not change its separate working copy.",
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
+      "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-08-daman-team.pdf",
+      "projects/site/public/archive/the-question-that-brought-me-here-2026-11-06.pdf",
+      "projects/site/tests/book-downloads.test.mjs",
+      "projects/site/src/data/cinema.json",
+      "projects/site/editions/coast.json",
+      "projects/site/tests/cinema-release.test.mjs"
+    ],
+    "Disha": [
+      "kb/records/book-downloads-20261108.json",
+      "kb/records/evidence/book-downloads-20261108/",
+      "kb/index.md",
+      "kb/history/LEDGER.md",
+      "kb/catalog.json",
+      "kb/records/editorial-workbench.json"
+    ],
+    "Drishti": [
+      "output/book-downloads-20261108/review.json"
+    ]
+  },
+  "capacity_plan": "Prioritize current books. Older Cinema editions total802.7MB and remain separately identified release archives; current3 PDFs add91.3MB.",
+  "next_action": "Copy and hash-check three new edition files, finish other-book HTTP audit, integrate after current Cinema publication.",
+  "audit": {
+    "evidence": "kb/records/evidence/book-downloads-20261108",
+    "checked_urls": 34,
+    "http_result": "All anonymous HEAD requests succeeded; exact current PDFs will also receive full-body hash and browser checks.",
+    "remaining_downloads": "Other books available; retain existing hosting. All old Cinema editions remain explicitly archived release downloads.",
+    "limits": "HEAD availability is not full-body integrity verification. External citations and development ZIPs are not book-download targets.",
+    "partial_downloads": "Dhaga and six character PDFs: HTTP206, exact16-byte prefix, PDF signature and matching advertised size. No full-body hash or render claim."
+  },
+  "source_of_download_descriptors": "projects/site/src/data/cinema.json; existing prepare-cinema preserves these publication descriptors. KB article manifest has no competing download metadata.",
+  "validation": {
+    "full_build": "PASS",
+    "full_tests": 732,
+    "canonical_checks": "PASS; registers, catalog, portable KB, autonomous programme and team consistency",
+    "preparation_review": "Separate Drishti review passed exact3PDF identities and audit boundaries; final publication review pending",
+    "coast_build": "PASS",
+    "coast_tests": 581,
+    "coast_pdf_integrity_tests": 3,
+    "publication_attempt_1": "Local ENOSPC copying generated artifact; retry under same source, no weakened checks"
+  }
+}

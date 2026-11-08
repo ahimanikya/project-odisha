@@ -1484,3 +1484,7 @@ PR723 and deployment42489389888 serve the unchanged reviewed book directly from 
 ### 8 November 2026 · DAMaN team consolidation prepared for publication
 
 The Founder authorized publishing the reviewed combined team profile and both matching book downloads. Three old profile routes retain named person destinations; all three portraits and the 49-chapter book remain. Lavanya Preeti’s original story credit and source title remain unresolved. Publication checks and exact asset delivery are in progress. [Release handoff](../records/cinema-daman-team-publication-2026-11-08.json).
+
+### 8 November 2026 · Cinema direct-download preparation and book audit
+
+Prepared exact reviewed DAMaN-team digital, print and introduction PDFs for same-origin website delivery, retaining release backups and distinct historical editions.34book/source-PDF URLs respond anonymously; Dhaga and six character PDFs also return valid partial PDF content and expected lengths. Full website build and732tests pass; publication verification remains pending. [Handoff](../records/book-downloads-20261108.json).
