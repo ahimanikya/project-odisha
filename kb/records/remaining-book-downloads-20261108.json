@@ -1,6 +1,6 @@
 {
   "id": "POD-REMAINING-BOOK-DOWNLOADS-20261108",
-  "status": "validating",
+  "status": "published_verified",
   "authorization": "Founder requested Dhaga and character books download directly from the website, continuing approved website download fixes.",
   "scope": "Exact current Dhaga and six character PDFs; preserve manuscript bytes, source manifests, historical release backups and all image URLs.",
   "programme_credit": 0,
@@ -90,12 +90,12 @@
       "destination": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/three-character-worlds-overview-v1.pdf"
     }
   ],
-  "next_action": "Final builds, independent review and hosted validation; merge/publish only after passing capacity and integrity checks.",
+  "next_action": "Complete; maintain direct download paths and exact edition identities for future updates.",
   "guidance": "Searched compress images losslessly; catalog returned resource priority and alternative image-format guidance, not the existing exact-pixel PNG recompression task. No browser API changes planned.",
   "implementation": "Dhaga exact hydrated bytes staged to archive; six hash-verified character PDFs restored,13 PDF links across5pages made same-origin; ZIP/DOCX and historical release metadata preserved.",
   "validation": {
     "full_build": "PASS",
-    "full_tests": 739,
+    "full_tests": 741,
     "coast_build": "PASS",
     "coast_tests": 584,
     "exact_pdf_tests_full": 7,
@@ -103,14 +103,39 @@
     "page_acceptance_checks": "4284/4284",
     "dhaga_hydration_guard_tests": 13,
     "canonical_checks": "PASS",
-    "publication_capacity": "pending",
+    "publication_capacity": "PASS",
     "independent_implementation_review": "PASS: separate Drishti agent,14 exact hashes across full/coast; final publication/image review pending",
     "discovery_launch_search": "PASS",
-    "local_browser": "Actual Dhaga download button opened Chrome native PDF viewer; cover and1/226pages visually verified. Initial UI call timed out; subsequent tab state/screenshot confirmed success."
+    "local_browser": "Actual Dhaga download button opened Chrome native PDF viewer; cover and1/226pages visually verified. Initial UI call timed out; subsequent tab state/screenshot confirmed success.",
+    "final_stage_delivery_tests": 9,
+    "publication_bytes": 977896612,
+    "publication_files": 2883,
+    "headroom_bytes": 22103388,
+    "independent_final_review": "PASS at57041a9f:7PDF exact hashes,8PNG exact pixels/ancillary chunks,6300image references resolve",
+    "local_character_browser": "Nilu-Chaiti adventure download opened native Chrome viewer, cover and1/12pages visually verified",
+    "hosted": {
+      "run": 42502224565,
+      "head": "57041a9f4f7868189e0c175722ff118f4b54c67d",
+      "conclusion": "success",
+      "full_tests": 741,
+      "coast_tests": 584,
+      "page_checks": 4284,
+      "payload_bytes": 978560127,
+      "files": 2883
+    },
+    "live": "PASS:7anonymous full downloads exact hashes/bytes,200application/pdf,no redirects,exact206byte ranges; all7download links found across6pages",
+    "live_images": "PASS:8canonical files exact deployed bytes;11updated pages reference retained images",
+    "live_browser": "Live Dhaga download button opened Chrome native viewer with rendered cover and1/226pages."
   },
   "capacity_trial": {
     "png_saved_bytes": 5941514,
     "insufficient_by_bytes": 2696024,
     "next": "Assess byte-identical image deduplication with rewritten current page references; preserve all original source images and PDFs."
-  }
+  },
+  "pull_request": 729,
+  "reviewed_head": "57041a9f4f7868189e0c175722ff118f4b54c67d",
+  "validation_run": 42502224565,
+  "merge_commit": "554deb1ccfe86213877ff8e7cd01799d5ea53639",
+  "deployment_run": 42503735494,
+  "scope_released": true
 }

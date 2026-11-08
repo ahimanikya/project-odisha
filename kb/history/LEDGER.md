@@ -1515,3 +1515,8 @@ Original IKFF India 2017 trailer attribution and festival dates independently ve
 ### 8 November 2026 · Dhaga and character direct-download preparation
 
 The Founder requested same-origin delivery for Dhaga and the character books. Six original character PDFs were retrieved with exact manifest hashes; the verified Dhaga PDF is staged during builds without committing the oversized file. Historical release backups remain. Capacity and independent delivery verification are pending; zero programme credit. [Handoff](../records/remaining-book-downloads-20261108.json).
+
+
+### 8 November 2026 · Dhaga and character downloads published and verified
+
+PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. Deployment42503735494 succeeded. Seven live PDFs match all original hashes and sizes, return application/pdf without redirects and support exact206byte ranges. Eight canonical images and11updated pages pass live checks; original source images remain unchanged. Chrome opened the live226-page Dhaga PDF. Hosted payload978560127bytes passes1GB. [Receipt](../records/remaining-book-downloads-20261108.json).
