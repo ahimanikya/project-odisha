@@ -1,0 +1,43 @@
+{
+  "status": "PASS_DELIVERY_RECEIPT",
+  "scope_released": true,
+  "review_base_head": "fbec5eae5a26823d11d2653738aee52b24f74f42",
+  "publication": {
+    "pr": 724,
+    "reviewed_head": "f25aebdaa8b3b3ddd2043e076e0f438ea3a99bf1",
+    "merge": "f2cce35d3e97aeba3e4f2f764e79f1b3775d3c3b",
+    "ci": 42495077513,
+    "deployment": 42496450895,
+    "ci_and_deployment_conclusions": "success"
+  },
+  "input_hashes": {
+    "outputs/cinema-daman-team-publication-20261108/release/finalize-receipt.py": "3ace6a44548c8d804e1515ed8bf7cfc677a5092bf00c997d70ded93fa43d2333",
+    "outputs/cinema-daman-team-publication-20261108/release/required-validation-integrated.json": "64fbaf22084e8ad52824073bb438db5f6e9da9326a2526a4036a71bd14775790",
+    "outputs/cinema-daman-team-publication-20261108/release/merged-pr.json": "24146ea5d8b346539fa33bf029ea7a6dbbe1594b370358b12eac88b1d7dd3726",
+    "outputs/cinema-daman-team-publication-20261108/release/deployment-final.json": "5d9e1c33eff4f9354c61a7f1a1dbec948a1f655c245b3f416063932fec72bfc9",
+    "outputs/cinema-daman-team-publication-20261108/release/live-verification.json": "193b97d6eabb7124cbb5f56ee229767da7bfd04564345a15ac57dd166063d2e2",
+    "outputs/cinema-daman-team-publication-20261108/release/public-download-verification.json": "eb67844a7c7f219a091f6ad86bd9f9487eaa5468a15517adc0b8c99feaea92a9",
+    "outputs/cinema-daman-team-publication-20261108/release/browser-verification.json": "5d653918f563500f7742a35f5c7a1aff1c5908035b5b67c1bc431379908ca867",
+    "outputs/cinema-daman-team-publication-20261108/release/live-team.png": "44a313219c0db39f18b3791c3451f3291c0ab308ad5ad41c40115ed3fa0fa74e",
+    "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json": "e4182467f862769fd3d40934d5d15516ff81f5db0d9fafa4fb077b60f2187401",
+    "kb/records/cinema-daman-team-publication-2026-11-08.json": "18c7734f92e3cb13a9e8ed7415f37c2f489972802990bdfe2caca0d769848c83"
+  },
+  "checks": [
+    "Actual saved CI head equals reviewed PR head; merged PR and successful deployment share exact merge head.",
+    "Nine saved live HTTP route results are200; alias destinations and book URLs verified by coordinator. Saved anonymous downloads match exact manifest URLs, bytes and SHA256 for both272/278-page PDFs.",
+    "Strengthened finalizer guards inspected; it requires matching PR/CI/deployment, exact expected route set and successful checks, exact two manifest assets and unique own record targets before writes.",
+    "Only eight KB delivery files changed; two unrelated tagged-reader experimental modifications excluded from this review and publication receipt scope.",
+    "Operations fields outside parallel_programmes byte-equivalent as parsed JSON toHEAD; all other programme rows retained. Current task and121ownership unchanged.",
+    "Rollout only DAMaN completion and three named cinema redirect transitions changed; foreign items unchanged.",
+    "Both ledgers and research map are append-only againstHEAD. Index replacement confined to cinema publication block; incoming Dongria direct-download paragraph retained.",
+    "Lavanya article bytes unchanged from reviewed655d6d40; unresolved source status preserved.",
+    "Own handoff uses actual pull_request/deployment/verified_routes fields and keeps scope_released false pending receipt merge. Historical validation/integration failures explicitly archived; no foreign completion or human approval invented."
+  ],
+  "visual_scope": "Independently viewed saved live-team.png: desktop article heading/byline/intro and upper part of hero are legible without visible clipping. This does not cover full page/mobile or independently repeat browser redirect interaction.",
+  "evidence_limits": [
+    "Live HTTP/download/browser execution is coordinator evidence reconciled here, not a fresh independent network fetch.",
+    "No new PDF rendering or content research; prior exact-byte independent PDF review reused.",
+    "Own evidence-only receipt still requires integration; this review releases reviewer scope, not another owner or coordinator reservation."
+  ],
+  "required_corrections": []
+}

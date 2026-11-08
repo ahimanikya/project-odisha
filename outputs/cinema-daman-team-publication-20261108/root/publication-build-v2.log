@@ -1,0 +1,22 @@
+npm WARN logfile could not be created: Error: EPERM: operation not permitted, open '/Users/ahimanikya/.npm/_logs/2026-11-08T14_49_27_669Z-debug-0.log'
+
+> project-odisha-site@0.1.0 build:publication
+> node tools/build-publication.mjs
+
+node:internal/fs/promises:1345
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOSPC: no space left on device, open '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/images/poetry-jhula/additional/A01-khadi-odisha-weave.png'
+    at async open (node:internal/fs/promises:1345:25)
+    at async writeFile (node:internal/fs/promises:1972:14)
+    at async optimizePublicationPNGs (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/tools/optimize-publication-png.mjs:45:297)
+    at async buildPublication (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/tools/build-publication.mjs:64:21)
+    at async file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/tools/build-publication.mjs:78:13 {
+  errno: -28,
+  code: 'ENOSPC',
+  syscall: 'open',
+  path: '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/images/poetry-jhula/additional/A01-khadi-odisha-weave.png'
+}
+
+Node.js v24.22.1

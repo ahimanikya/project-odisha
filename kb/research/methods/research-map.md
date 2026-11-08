@@ -1508,3 +1508,7 @@ The [targeted Lavanya film-credit search](../culture/cinema-series/lavanya-film-
 ### Dongria language names and documentation · 8 November 2026
 
 Reuse the [source dossier](../references/data/dongria-language-20261108.json) and [delivery record](../../records/dongria-language-20261108.json). Hardenberg’s original preview supports the attributed Kuang Kata name and named language teachers; his transcription is explicitly nonlinguistic. Glottolog is reused evidence. The Andhra Pradesh dictionary remains region-specific; OpenSpeaks offers a regional documentation example, not a verified Dongria Kuvi archive. Unverified song metadata and script adoption stay outside public claims.
+
+### DAMaN team publication · 8 November 2026
+
+The [publication receipt](../../records/cinema-daman-team-publication-2026-11-08.json) records the live combined team reading, three person-anchor redirects and matching 272/278-page downloads. The 50-reading website and49-chapter book retain all three portraits and original profile sources. Lavanya’s original story credit remains unresolved; no new source attribution was introduced.
