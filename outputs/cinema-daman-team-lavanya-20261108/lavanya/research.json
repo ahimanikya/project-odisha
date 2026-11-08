@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "scope": "Targeted online opening/end-credit media search for Lavanya Preeti, reopened by explicit user request",
+  "status": "bounded_media_search_complete_no_credit_frames_found",
+  "scope_released": true,
+  "reuse": [
+    "kb/records/cinema-daman-team-lavanya-2026-11-08.json",
+    "outputs/cinema-lavanya-literary-20261108/film-sources/research.json",
+    "outputs/cinema-lavanya-literary-20261108/film-sources/writing-account/research.json"
+  ],
+  "local_reuse_query": "python3 tools/research/query_research.py Lavanya Preeti returned dated-inventory notice without matches. Existing dossiers directly read.",
+  "routes": [
+    {
+      "route": "Public title-specific release discovery",
+      "queries": [
+        "\"Lavanya Preeti\" full movie video",
+        "\"Labanya Preeti\" watch film",
+        "\"ଲାବଣ୍ୟ ପ୍ରୀତି\" film video"
+      ],
+      "result": "Search returned catalogue/secondary film entries, not an accessible film or title-specific trailer. Plex discovery result carried an incongruous Gopal/school synopsis; not adopted as film evidence.",
+      "urls": [
+        "https://watch.plex.tv/pl/movie/lavanya-preeti",
+        "https://odiamoviedb.blogspot.com/2020/10/lavanya-preeti.html"
+      ],
+      "limit": "Search results only; no original credit pixels."
+    },
+    {
+      "route": "Actual YouTube public UI and original producer-channel internal search",
+      "method": "Separate Chrome tab, rendered DOM inspected after navigation and searches; no video playback.",
+      "queries": [
+        "Labanya Preeti full movie",
+        "\"Lavanya Preeti\"",
+        "CFSI channel internal search: Preeti",
+        "CFSI channel internal search: Bir"
+      ],
+      "urls": [
+        "https://www.youtube.com/results?search_query=Labanya+Preeti+full+movie",
+        "https://www.youtube.com/channel/UC_PQmzjvbOTz8l1QT9ME8Yg",
+        "https://www.youtube.com/@ChildrensFilmSocietyIndia/search?query=Preeti",
+        "https://www.youtube.com/@ChildrensFilmSocietyIndia/search?query=Bir"
+      ],
+      "result": "General search returned unrelated Kannada films or Telugu news. Channel identified itself as Children’s Film Society, India, with 260 videos. Preeti search returned three unrelated items (NCFF/Sania Mirza, Kabhi Pass Kabhi Fail, NCFF JIA News); Bir search returned Water So Precious and It Happens Only in My School. No Lavanya media returned in these bounded searches.",
+      "new_vs_reuse": "Earlier web fetch exposed only YouTube footer. This cycle reached actual channel UI and internal search results.",
+      "limit": "Not exhaustive inspection of all 260 uploads; search non-match does not prove no release exists."
+    },
+    {
+      "route": "Alternative media hosts and distribution listings",
+      "queries": [
+        "\"Lavanya Preeti\" site:dailymotion.com OR site:vimeo.com OR site:archive.org",
+        "\"Labanya Preeti\" site:nfdcindia.com OR site:cinemasofindia.com OR site:wavespb.com"
+      ],
+      "result": "No matching playable source recovered; Dailymotion result was unrelated Back Pocket cast-name overlap. Direct Plex detail fetch returned429.",
+      "url": "https://watch.plex.tv/movie/lavanya-preeti",
+      "limit": "No assertion that film is unavailable everywhere."
+    }
+  ],
+  "actual_media_inspection": {
+    "film_frames": 0,
+    "opening_cards": 0,
+    "end_cards": 0,
+    "audio_audition": false,
+    "no_new_credit_transcription": true
+  },
+  "claims": {
+    "story_author": "Unresolved at original film-credit level. Prior secondary Nilamani Sahu attribution remains a lead.",
+    "screenplay": "Prior original National Film Award catalogue support for Bir retained, not newly verified from film frames.",
+    "dialogue": "No new original credit verified.",
+    "published_source_title": "Unresolved; a writer credit alone would not establish an edition or story title."
+  },
+  "recommendation": "No public claim change. A publicly released producer copy or authenticated opening/end-credit extract is the next concrete dependency; do not keep repeating title queries or infer role from database writer fields.",
+  "source_budget": "No new public prose or quotations proposed.",
+  "public_changes": false,
+  "outreach": false,
+  "purchase": false
+}

@@ -1,0 +1,94 @@
+{
+  "status": "metadata_ready_for_root_release",
+  "scope_released": true,
+  "release_tag": "odia-cinema-book-2026-11-08-daman-team",
+  "changed_files": [
+    "projects/site/src/data/cinema.json",
+    "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json"
+  ],
+  "cinema_json_before_sha256": "d5e86e4d1faf059f9e70bb9d0e1fc19d646f771c8600c9fdffc482bbb803fbd3",
+  "cinema_json_after_sha256": "654cdfcab7403caca63f08caef6c945c8794a375004fed6889a58a261a1456ca",
+  "manifest_sha256": "e4182467f862769fd3d40934d5d15516ff81f5db0d9fafa4fb077b60f2187401",
+  "changed_keys": [
+    "review_books",
+    "archived_review_books",
+    "review_book_manifest"
+  ],
+  "previous_review_books": [
+    {
+      "edition": "digital",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-film-credits/odia-cinema-a-living-screen-2026-11-08-film-credits.pdf",
+      "bytes": 38850788,
+      "sha256": "f1e3c62b34eb2cb0c03b72dc48a9c8d0578b4eb1914bf5dd8793be338e044a08",
+      "pages": 272,
+      "status": "reviewed_release_asset",
+      "edition_date": "2026-11-08",
+      "readings": 49,
+      "description": "A linked edition for reading on screen."
+    },
+    {
+      "edition": "print",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-film-credits/odia-cinema-a-living-screen-print-2026-11-08-film-credits.pdf",
+      "bytes": 51419377,
+      "sha256": "039dcc61bfadd2807c381921de32682edf657fbca55f8e856c37df85eee7f769",
+      "pages": 278,
+      "status": "reviewed_release_asset",
+      "edition_date": "2026-11-08",
+      "readings": 49,
+      "description": "Mirrored margins, selected printed links and credited images."
+    }
+  ],
+  "previous_archives_preserved": true,
+  "all_other_data_keys_preserved": true,
+  "intro_preserved": true,
+  "counts": {
+    "online": 50,
+    "book": 49,
+    "notes": 542,
+    "images": 62,
+    "digital_pages": 272,
+    "print_pages": 278,
+    "archived_entries": 20
+  },
+  "verified_pdf_assets": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
+      "filename": "odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
+      "pages": 272,
+      "bytes": 38850788,
+      "sha256": "750a3202714846dae6340aeda8c0e82cbb0719e8b0fa40600a3183cfe7b6efc8",
+      "planned_release_url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-daman-team/odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
+      "review_receipt": "tmp/pdfs/2026-11-08-daman-team/digital/book-build-2026-11-08-daman-team.json",
+      "review_receipt_sha256": "63b81d10c3e999f18a0591646c2fc34566c2031d89d70ccf815a5786f0ad8aee"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-11-08-daman-team.pdf",
+      "filename": "odia-cinema-a-living-screen-print-2026-11-08-daman-team.pdf",
+      "pages": 278,
+      "bytes": 51419386,
+      "sha256": "4f6e677ec6c9604ba69c5bac36b99551b5f948e47f3c7c692c29f64d2e9130c4",
+      "planned_release_url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-daman-team/odia-cinema-a-living-screen-print-2026-11-08-daman-team.pdf",
+      "review_receipt": "tmp/pdfs/2026-11-08-daman-team/print/book-build-2026-11-08-daman-team.json",
+      "review_receipt_sha256": "efa4869fca6b18ede2032acd2f33296e53b6c4a3a7a1aa39667cecfed02b8f18"
+    }
+  ],
+  "source_bindings": {
+    "all49_canonical_sources_match": true,
+    "all3_integrated_profile_sources_match": true
+  },
+  "pdfs_modified": false,
+  "publication_performed": false,
+  "build_performed": false,
+  "checks": [
+    {
+      "command": "node --test tests/cinema-release.test.mjs",
+      "cwd": "projects/site",
+      "exit_code": 0,
+      "log": "outputs/cinema-daman-team-publication-20261108/implementation/release-tests.log",
+      "log_sha256": "cb0f9b0fee2ac94ed5924f4555a09b76fa63486c5fd0e677ff0784a4fa768ea6"
+    }
+  ],
+  "root_handoff": "Upload the two exact reviewed PDF assets under the prepared immutable release tag, retain existing standalone intro release, then run publication builds/deployment. No PDF reauthoring required."
+}

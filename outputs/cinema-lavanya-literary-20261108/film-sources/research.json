@@ -1,0 +1,64 @@
+{
+  "status": "bounded_research_complete_original_producer_page_recovered_source_story_unresolved",
+  "date": "2026-11-08",
+  "scope_released": true,
+  "reuse": [
+    "kb/records/cinema-lavanya-source-2026-11-05.json",
+    "outputs/cinema-research-gaps-20261107/literary-sources.json",
+    "outputs/cinema-lavanya-source-20261105/research.json"
+  ],
+  "new_original_source": {
+    "original_url": "https://www.cfsindia.org/labanya-preeti-loving-hearts/",
+    "archive_url": "https://web.archive.org/web/20230320200845/https://www.cfsindia.org/labanya-preeti-loving-hearts/",
+    "discovery": "Public Wayback availability API for retained original CFSI title page returned this exact snapshot; ordinary curl retrieved original archivedHTML.",
+    "snapshot_date": "2023-03-20",
+    "file": "cfsi-archived.html",
+    "bytes": 30067,
+    "sha256": "37b209df3b2bb77d01665a28620dec51397bdf6746e972fdf21a8b44d7d5dc60",
+    "actual_inspection": "Parsed visible article text and actual anchor URLs, not rendered browser pixels. Entire film entry, synopsis, director biography and trailer-link target inspected.",
+    "locators": "Title Labanya Preeti (Loving Hearts); Director; Oriya/1993/Colour/90mins; Synopsis; Director’s Biography; Watch Trailer anchor HTMLline203.",
+    "supported": "CFSI identifies Bir as director and describes a traditional Kedar/Gauri narrative in a film-within-film structure.",
+    "not_supported": "No separate story-writer field, original story title or NilamaniSahu attribution appears in this entry. Omission is not disproof.",
+    "media_route": "Watch Trailer points only to https://www.youtube.com/channel/UC_PQmzjvbOTz8l1QT9ME8Yg, not a title-specific film/trailer file."
+  },
+  "bounded_routes": [
+    {
+      "route": "Current official producer catalogue access and original-page archive",
+      "result": "NFDC home fetch timed out; CFSI current home unavailable. Known2024catalogue search resurfaced, not redownloaded/reclaimed as new. Exact archived producer page recovered as above.",
+      "note": "Initial malformed site.nfdcindia.com query returned unrelated results; no evidence adopted."
+    },
+    {
+      "route": "Original filmmaker/festival source lead",
+      "queries": [
+        "\"A K Bir\" \"Lavanya\" interview story",
+        "\"Bir\" \"Lavanya\" \"Sahu\" interview",
+        "site:berlinale.de \"Lavanya\"",
+        "site:timesofindia.indiatimes.com \"Meenakshi Sinha\" \"Bir\" \"2011\""
+      ],
+      "result": "No new source-story testimony recovered. MIFF Bir biography and a secondary interview mirror surfaced without precise source attribution; not adopted. No repeated NFA or AHXV player access."
+    },
+    {
+      "route": "Producer-linked official video channel",
+      "url": "https://www.youtube.com/channel/UC_PQmzjvbOTz8l1QT9ME8Yg",
+      "queries": [
+        "site:youtube.com \"Labanya Preeti\" CFSI",
+        "site:youtube.com \"Lavanya Preeti\" trailer"
+      ],
+      "result": "Web channel fetch exposes only generic YouTube footer; focused index queries returned no title-specific release. No film frames or credits inspected.",
+      "limit": "Not an exhaustive channel inventory or browser playback check."
+    }
+  ],
+  "claim_status": {
+    "film_identity": "Original producer-page support recovered.",
+    "director": "A K Bir, producer catalogue.",
+    "literary_author": "Still unresolved; Nilamani Sahu remains secondary lead.",
+    "original_story_title_edition": "Still unresolved.",
+    "kedar_gouri": "Embedded traditional tale; does not establish sole literary source or RadhanathRay poem adaptation.",
+    "viewing": "No new film/trailer viewing or audio audition."
+  },
+  "recommendation": "Retain existing public narrative. Newly recovered original producer page strengthens catalogue provenance but does not justify adding a literary author or source title. Root’s separate literary archive and Samanta’s bibliography routes may supply the missing link.",
+  "word_budget": "No new public allocation proposed; source summary under100words. Archive/CFSI page treated as one source, not independent corroboration of its own later catalogue.",
+  "public_changes": false,
+  "outreach": false,
+  "purchase": false
+}

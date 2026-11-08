@@ -114,8 +114,8 @@ test('public cinema readings do not expose internal KB file links',()=>{
 
 
 test('new stories grouping connects both films with their makers exactly once',()=>{
- const part=cinema.parts.find(p=>p.id==='new-search-for-stories');assert.ok(part);assert.ok(part.intro);assert.deepEqual(part.chapters,['gourahari-das','pratikshya','anupam-patnaik','daman','vishal-mourya','debi-prasad-lenka','deependra-samal']);
- for(const slug of ['gourahari-das','pratikshya','anupam-patnaik','daman','vishal-mourya','debi-prasad-lenka','deependra-samal']){
+ const part=cinema.parts.find(p=>p.id==='new-search-for-stories');assert.ok(part);assert.ok(part.intro);assert.deepEqual(part.chapters,['gourahari-das','pratikshya','anupam-patnaik','daman','daman-team']);
+ for(const slug of ['gourahari-das','pratikshya','anupam-patnaik','daman','daman-team']){
   assert.equal(part.chapters.filter(s=>s===slug).length,1,slug+' in new stories group');
   assert.equal(cinema.parts.flatMap(p=>p.chapters).filter(s=>s===slug).length,1,slug+' not duplicated between groups');
   assert.ok(cinema.articles.some(a=>a.slug===slug));
@@ -147,11 +147,14 @@ test('reading order is coherent across parts, callbacks preserve citations, imag
  }
  for(const item of [...cinemaNarrative.people_guide,...cinemaNarrative.timeline]){
   const label=item.label||item.text;
-  assert.ok(cinema.articles.some(a=>a.slug===item.slug),label+' reading destination');
+  const destination=cinemaNarrative.online_profile_routes?.[item.slug]||cinema.articles.find(a=>a.slug===item.slug)?.route;
+  assert.ok(destination,label+' reading destination');
+  if(cinemaNarrative.online_profile_routes?.[item.slug])assert.ok(cinemaArticle(cinema.articles.find(a=>a.route===destination.split('#')[0])).fullHTML.includes(`id="${destination.split('#')[1]}"`),label+' person anchor');
   const refs=item.source_refs??[{slug:item.slug,source_note_id:item.source_note_id}];
   assert.ok(Array.isArray(refs)&&refs.length>0,label+' has source references');
   const seen=new Set();
-  for(const ref of refs){
+  for(const original of refs){
+   const ref=cinemaNarrative.online_guide_source_aliases?.[original.slug+'#'+original.source_note_id]||original;
    assert.ok(typeof ref.slug==='string'&&ref.slug.length>0&&typeof ref.source_note_id==='string'&&ref.source_note_id.length>0,label+' nonempty source binding');
    const binding=JSON.stringify([ref.slug,ref.source_note_id]);
    assert.ok(!seen.has(binding),label+' duplicate source binding');seen.add(binding);

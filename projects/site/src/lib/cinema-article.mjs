@@ -7,6 +7,8 @@ if(!root)throw Error('Cinema sources require the repository or site build workin
 export const cinema=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema.json'),'utf8'));
 export const cinemaCompanions=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema-companions.json'),'utf8')).articles;
 export const cinemaNarrative=JSON.parse(fs.readFileSync(path.join(root,'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'),'utf8'));
+export const cinemaProfileRoutes=cinemaNarrative.online_profile_routes||{};
+export function cinemaReadingRoute(slug){return cinemaProfileRoutes[slug]||cinema.articles.find(a=>a.slug===slug)?.route;}
 export function cinemaRouteEntries(entries=cinema.articles){return entries.filter(entry=>entry.route===`/cinema/${entry.slug}/`);}
 const navigationLabels={'the-question-that-brought-me-here':'Why this book','odia-cinema':'Odia cinema','literature-and-screen':'Literature and cinema','air-cuttack':'AIR Cuttack','odia-television':'Odia television','odia-ott':'Odia OTT','commercial-successes':'Commercial successes','cinema-economics':'Cinema economics','cinema-futures':'The road ahead'};
 export function cinemaNavigationLabel(entry){return navigationLabels[entry.slug]||entry.title.split(':')[0].trim();}
@@ -178,7 +180,7 @@ export function cinemaArticle(entry){
   source=source.replace(target,`CINEMACALLOUTSTART${c.id}\n\n${c.text}\n\nCINEMACALLOUTEND${c.id}\n\n${target}`);
  }
  for(const [,url]of source.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)){const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(entry.source),url));const image=entry.images.find(i=>i.source===resolved);if(!image)throw Error('Unmapped cinema image '+url);images[url]=image.file;imageDimensions[image.file]={width:image.width,height:image.height};}
- for(const [,url]of source.matchAll(/(?<!!)\[[^\]]*\]\(([^)]+)\)/g)){if(/^(?:[a-z]+:|#|\/)/i.test(url))continue;const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(entry.source),url));const target=cinema.articles.find(a=>a.source===resolved);if(target)links[url]=target.route;else if(knownRoutes[resolved])links[url]=knownRoutes[resolved];}
+ for(const [,url]of source.matchAll(/(?<!!)\[[^\]]*\]\(([^)]+)\)/g)){if(/^(?:[a-z]+:|#|\/)/i.test(url))continue;const [relative,fragment]=url.split('#');const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(entry.source),relative));const target=cinema.articles.find(a=>a.source===resolved);const profile=(cinema.book_source_profiles||[]).find(a=>a.source===resolved);if(target)links[url]=target.route+(fragment?'#'+fragment:'');else if(profile)links[url]=cinemaReadingRoute(profile.slug);else if(knownRoutes[resolved])links[url]=knownRoutes[resolved]+(fragment?'#'+fragment:'');}
  const normalized=/^## Footnotes & Sources\s*$/m.test(source)?source:source.replace(/^(\[\^[^\]]+\]:)/m,'## Footnotes & Sources\n\n$1');
  const article=renderReviewedCultureArticle(normalized,{sourcePath:entry.source,route:entry.route,images,imageDimensions,links});
  if(entry.slug==='commercial-successes'){

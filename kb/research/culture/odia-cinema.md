@@ -218,7 +218,7 @@ Award years identify the films considered by that edition and can differ from th
 | [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) | Best Children’s Film[^children-lavanya-nfa] | 1993 · 41st awards | [A. K. Bir](../people/ak-bir.md) |
 | [ଆଦିମ ବିଚାର (Aadim Vichar)](cinema-series/aadim-vichar.md) | Best Odiya Film[^aadim] | 2014 · 62nd awards | [Sabyasachi Mohapatra](../people/sabyasachi-mohapatra.md) |
 | [ପ୍ରତୀକ୍ଷା (Pratikshya)](cinema-series/pratikshya.md) | Best Odia Film[^pratikshya] | 2021 · 69th awards; announced 2023 | [Anupam Patnaik](../people/anupam-patnaik.md) |
-| [ଦମନ (DAMaN)](cinema-series/daman.md) | Best Odia Film[^daman] | 2022 · 70th awards; announced 2024 | [Vishal Mourya](../people/vishal-mourya.md) and [Debi Prasad Lenka](../people/debi-prasad-lenka.md) |
+| [ଦମନ (DAMaN)](cinema-series/daman.md) | Best Odia Film[^daman] | 2022 · 70th awards; announced 2024 | [Vishal Mourya](cinema-series/daman-team.md#vishal-mourya) and [Debi Prasad Lenka](cinema-series/daman-team.md#debi-prasad-lenka) |
 | [ପୁଷ୍କରା (Pushkara)](/cinema/literature-and-screen/#the-connection-continues) | Best Odia Film[^pushkara-national] | 2023 · 71st awards; announced 2025 | Subhransu Das; producer Tarang Cine Productions |
 | ଲହରୀ (Lahari) | Best Odia Film[^lahari] | 2024 · 72nd awards; announced 2026 | Amartya Bhattacharyya; producer Jhilik Motion Pictures |
 

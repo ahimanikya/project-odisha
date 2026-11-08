@@ -55,17 +55,17 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-KALINGA-20261108",
-    "route": "/stories/reading-kalinga-beyond-odisha/",
+    "id": "POD-EDIT-DAMAN-TEAM-20261108",
+    "route": "/cinema/daman-team/",
     "owner": "Disha",
-    "phase": "receipt_integrated"
+    "phase": "preparing_publication"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_publication",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
+    "status": "preparing_publication",
+    "handoff": "records/cinema-daman-team-publication-2026-11-08.json"
   },
   "parallel_programmes": [
     {
@@ -107,12 +107,12 @@
     },
     {
       "name": "Cinema research and story expansion",
-      "handoff": "records/cinema-film-credits-publication-2026-11-08.json",
-      "status": "published_verified",
-      "scope": "Verified film credits, matching article and both book downloads",
-      "note": "PR717 published; deployment42449827343 succeeded. Live precise credits/footnotes and272-page digital/278-page print downloads verified. All prior editions/images preserved; scope released.",
-      "active_article": null,
-      "scope_released": true,
+      "handoff": "records/cinema-daman-team-publication-2026-11-08.json",
+      "status": "preparing_publication",
+      "scope": "Publish reviewed DAMaN team consolidation and both matching book downloads.",
+      "note": "Explicit Founder publication instruction; Lavanya source credit remains open.",
+      "active_article": "daman-team",
+      "scope_released": false,
       "last_publication_handoff": "records/cinema-film-credits-publication-2026-11-08.json"
     }
   ],
@@ -236,6 +236,24 @@
       "handoff": "records/odia-dhaga-team-2026-10-23.json",
       "last_completed_handoff": "records/odia-dhaga-expansion-219-2026-10-31.json",
       "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
+    }
+  ],
+  "prior_coordinator_claims": [
+    {
+      "preserved_on": "2026-11-08",
+      "original_current_article": {
+        "id": "POD-EDIT-KALINGA-20261108",
+        "route": "/stories/reading-kalinga-beyond-odisha/",
+        "owner": "Disha",
+        "phase": "receipt_integrated"
+      },
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
+      },
+      "reason": "Preserve prior receipt-integrated pointer verbatim while the sole in-progress editorial item is the new DAMaN local candidate. This does not assert any new Kalinga receipt verification or alter its handoff."
     }
   ]
 }

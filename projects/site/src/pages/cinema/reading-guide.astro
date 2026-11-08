@@ -1,16 +1,17 @@
 ---
 import Shell from '../../layouts/Shell.astro';
 import CinemaDiscovery from '../../components/CinemaDiscovery.astro';
-import {cinema,cinemaNarrative,cinemaLabelHtml,cinemaArticle} from '../../lib/cinema-article.mjs';
+import {cinema,cinemaNarrative,cinemaLabelHtml,cinemaArticle,cinemaReadingRoute} from '../../lib/cinema-article.mjs';
 import '../../styles/article-reading.css';
-const route=slug=>cinema.articles.find(a=>a.slug===slug).route;
+const route=cinemaReadingRoute;
 const rendered=new Map();
 const sourceRefs=item=>{
- if(!cinema.articles.some(a=>a.slug===item.slug))throw Error('Unknown guide reading');
+ if(!route(item.slug))throw Error('Unknown guide reading');
  const refs=item.source_refs??[{slug:item.slug,source_note_id:item.source_note_id}];
  if(!Array.isArray(refs)||!refs.length)throw Error('Guide entry needs source references');
  const seen=new Set();
- return refs.map(ref=>{
+ return refs.map(original=>{
+  const ref=cinemaNarrative.online_guide_source_aliases?.[original.slug+'#'+original.source_note_id]||original;
   const entry=cinema.articles.find(a=>a.slug===ref.slug);
   const key=ref.slug+'#'+ref.source_note_id;
   if(!entry||seen.has(key))throw Error('Unknown or duplicate guide source reference: '+key);

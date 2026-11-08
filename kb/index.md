@@ -2,8 +2,6 @@
 okf_version: "0.2"
 ---
 
-- Cinema film-credit publication: [publication receipt](records/cinema-film-credits-publication-2026-11-08.json) — precise Remosam and Ramaleelas roles, live article and both matching book downloads verified.
-
 # Project Odisha · project knowledge bundle
 
 **Discover Odisha. Imagine the possibilities.** Project Odisha (POD) is an instance of Odisha Blueprint. Existing record IDs now use POD; old UTP IDs resolve through the [identifier map](reference/project-id-aliases.json). This KB holds its actual project information and the knowledge behind its work.
@@ -31,27 +29,18 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
-Current cinema credit research: [Prateek’s two film roles](records/cinema-end-credits-2026-11-08.json). Original producer treatment verifies Remosam co-cinematography; two trailer closing cards verify additional script, research and subtitles for Ramaleelas of Odisha, shared with Puloma Pal. Separate review complete. Full-feature end cards remain uninspected; published articles and both book downloads unchanged.
+Current cinema publication: [Verified film credits and matching editions](records/cinema-film-credits-publication-2026-11-08.json). The website and both book downloads are live and verified: 52 online readings, 49 book chapters, 272 digital pages and 278 print pages. Prateek Pattanaik’s Remosam role is tied to the producer’s treatment; the Ramaleelas roles retain Puloma Pal’s shared credit and the trailer-card source. Bapa’s earlier television adaptation and Das’s source-writer recognition remain attributed accounts. Full-feature end cards and actual adaptation payments are not claimed.
 
-Current cinema publication: [Language, memory and matching book editions](records/cinema-language-documentaries-publication-2026-11-08.json). Published and live verified: the Futures documentary passage and271-page digital/278-page print downloads. Research and separate review complete within the recorded scope; two exact film-credit gaps remain excluded.52online readings/49book chapters; scope released.
+Current cinema local candidate: [The people behind DAMaN](research/culture/cinema-series/daman-team.md) consolidates the three online profiles into one reading with individual headings and old-route continuity. The [reviewed handoff](records/cinema-daman-team-lavanya-2026-11-08.json) records 50 local online readings and the unchanged 49-chapter book, with matching 272/278-page local proofs. Three portraits and original research profiles are retained. This candidate is not yet published.
 
-Earlier cinema addition: [Language, memory and documentary filmmaking](records/cinema-language-documentaries-2026-11-08.json). Subhashish Panigrahi’s Nani Ma and The Volunteer Archivists connect oral memory and Odia print preservation with cinema. Prateek Pattanaik’s Prahallada Nataka collaboration retains distinct field and support roles. Added to the Futures draft with compact notes; published downloads remain unchanged.
+Current cinema research: [Lavanya Preeti’s literary-source follow-up](research/culture/cinema-series/lavanya-literary-2026-11-08.json). The archived original CFSI entry and a 337-page 2004 literary tribute volume have been recovered. Selected complete sections (PDF 1–49) do not yet establish a source-story title; the remaining volume is unread. Bir’s script credit, the embedded Kedar–Gouri tale and the secondary Nilamani Sahu attribution remain separate. Public articles and books are unchanged. The [remaining research queue](research/culture/cinema-series/support-delivery-2026-11-08.json) still covers Bapa’s original text/translation identity, actual source-writer fees or terms, Lavanya’s precise source, The Waterfall’s school/film identity match and delivered production support. The Founder is following up with Gourahari Das about Bapa. The [targeted original-credit search](research/culture/cinema-series/lavanya-film-credits-2026-11-08.json) found no inspectable opening or end cards; zero film-credit frames were viewed. An authenticated credit extract or producer-released film remains the next dependency.
 
-Current cinema research: [The Waterfall school-screening lead](records/cinema-waterfall-school-2026-11-08.json). A new Abhyasa school report strengthens the evidence; exact title/director pairing remains inferred. Separate review complete, public articles and books unchanged.
+Earlier cinema evidence and delivery records (their local-only statements, counts and next actions describe that earlier stage; the current edition is identified above):
 
-Previous cinema publication: [Bapa article and book release](records/cinema-bapa-publication-2026-11-07.json). Published and live verified: Gourahari Das, Pratikshya, and 271/276-page book downloads. Focused fact-check passed; television and recognition remain attributed accounts, payment unverified. Scope released.
-
-Current cinema article follow-up: [Bapa across the page, television and cinema](records/cinema-bapa-integration-2026-11-07.json). Added Das’s attributed collection/television recollection and source-writer recognition to his profile, with a short television connection in Pratikshya. Payment remains unverified. Both articles and affected web/book pages passed review;271-page digital and276-page print local proofs retain538notes. Published editions unchanged.
-
-Supporting cinema research: [Writers, adaptation credits and payment evidence](records/cinema-writer-rights-2026-11-07.json). Gourahari Das’s own public posts identify the English collection containing Bapa, an earlier television adaptation and original-story recognition. Actual adaptation fees remain unverified in the examined cases; credit, permission and payment are recorded separately. Research-only follow-up to the published 52-reading website and 49-chapter book.
-
-Earlier cinema follow-up: [Bapa and Pratikshya source research and reader brief](records/cinema-bapa-reader-review-2026-11-07.json). Located a specific English “Father” contents/page lead; its identity as Bapa remains unverified. A short reader invitation is ready for the52-reading series/49-chapter book. Published editions unchanged; original text and actual reader responses remain outstanding.
-
-Current cinema sequence review: [Main page, reading guide and book audit](records/cinema-sequence-audit-2026-11-07.json). Confirmed 50 core readings in seven parts and five online companion profiles. Proposed two short book readings and three integrated portraits, plus source-story and navigation clarifications. Recommendations only; current book remains 50 readings.
-
-Current cinema research: [Three focused gaps](records/cinema-research-gaps-2026-11-07.json). Added a reviewed practical writer-support passage locally; original adaptation texts/payments, the school-film identity and delivered production support remain unresolved. Original monograph preview and school newsletter captured. New265-page digital/270-page print proofs checked; published downloads unchanged. No programme credit.
-
-Current cinema publication: [7 November verified release](records/cinema-publication-2026-11-07.json). The reviewed 50-reading collection, three companion profiles, refreshed photographs and connected literary updates are live. Current 264-page digital, 270-page print and 6-page introduction PDFs match their reviewed hashes. Existing research and print/accessibility limits remain open. No programme increment.
+- [Exact film-credit research](records/cinema-end-credits-2026-11-08.json) and [earlier language/documentary publication](records/cinema-language-documentaries-publication-2026-11-08.json).
+- [Language and memory research](records/cinema-language-documentaries-2026-11-08.json), [Waterfall school lead](records/cinema-waterfall-school-2026-11-08.json), and [Bapa publication](records/cinema-bapa-publication-2026-11-07.json).
+- [Bapa integration](records/cinema-bapa-integration-2026-11-07.json), [writer-credit/payment research](records/cinema-writer-rights-2026-11-07.json), and [original-text/reader brief](records/cinema-bapa-reader-review-2026-11-07.json).
+- [Earlier sequence review](records/cinema-sequence-audit-2026-11-07.json), [three focused research gaps](records/cinema-research-gaps-2026-11-07.json), and [earlier 7 November release](records/cinema-publication-2026-11-07.json).
 
 Earlier cinema follow-up (recorded before this release): [Cinema and the makers around it](records/cinema-shared-culture-2026-11-06.json). One original invitation connects screenings, writers and weavers with agreed payment and audience discovery. Article and264/270-page book proofs reviewed;523notes and all images preserved. Local revision, not published.
 

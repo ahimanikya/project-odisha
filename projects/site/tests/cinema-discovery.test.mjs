@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -44,13 +45,23 @@ test('curated viewing room retains selected entries and distinguishes new traile
 
 
 test('website and book use explicit distinct sequences with source-bound integrations',()=>{
- assert.equal(cinema.articles.length,52);
+ assert.equal(cinema.articles.length,50);
  assert.equal(cinemaNarrative.book_order.length,49);
  assert.deepEqual(cinemaNarrative.book_parts.flatMap(part=>part.chapters),cinemaNarrative.book_order);
  assert.equal(new Set(cinemaNarrative.book_order).size,49);
  const excluded=cinema.articles.filter(entry=>!cinemaNarrative.book_order.includes(entry.slug)).map(entry=>entry.slug);
- assert.deepEqual(excluded,['vishal-mourya','debi-prasad-lenka','deependra-samal']);
- for(const slug of excluded){assert.equal(cinemaNarrative.book_integrated_profiles[slug],'daman');assert.equal(cinemaNarrative.book_images[slug].chapter,'daman');}
+ assert.deepEqual(excluded,['daman-team']);
+ assert.deepEqual(cinemaNarrative.book_online_integrations,{'daman-team':'daman'});
+ const retained=cinema.book_source_profiles;
+ assert.deepEqual(retained.map(a=>a.slug),['vishal-mourya','debi-prasad-lenka','deependra-samal']);
+ for(const entry of retained){
+  assert.ok(!cinema.articles.some(a=>a.slug===entry.slug));
+  assert.ok(!cinema.parts.some(p=>p.chapters.includes(entry.slug)));
+  assert.equal(entry.source_sha256,crypto.createHash('sha256').update(fs.readFileSync(path.resolve(site,'../..',entry.source))).digest('hex'));
+  assert.equal(entry.images[0].source,cinemaNarrative.book_images[entry.slug].source);
+  assert.ok(cinema.articles.find(a=>a.slug==='daman-team').images.some(image=>image.original_sha256===entry.images[0].original_sha256));
+ }
+ for(const slug of cinema.book_source_profiles.map(a=>a.slug)){assert.equal(cinemaNarrative.book_integrated_profiles[slug],'daman');assert.equal(cinemaNarrative.book_images[slug].chapter,'daman');}
  for(const [slug,override] of Object.entries(cinemaNarrative.book_overrides)){
   const entry=cinema.articles.find(item=>item.slug===slug);
   assert.equal(override.source_sha256,entry.source_sha256);
@@ -62,4 +73,21 @@ test('website and book use explicit distinct sequences with source-bound integra
  }
  assert.equal(cinemaNarrative.writers_beyond_series.length,3);
  assert.ok(!JSON.stringify(cinema.parts).includes('“The Culprit,” a constable listens'));
+});
+
+
+test('retired people routes retain exact team anchors and a visible no-script link',()=>{
+ const team=cinema.articles.find(a=>a.slug==='daman-team');
+ const html=cinemaArticle(team).fullHTML;
+ for(const entry of cinema.book_source_profiles){
+  const destination=cinemaNarrative.online_profile_routes[entry.slug];
+  assert.equal(destination,team.route+'#'+entry.slug);
+  assert.ok(html.includes(`id="${entry.slug}"`));
+  const wrapper=fs.readFileSync(path.join(site,'src/pages',entry.route,'index.astro').replace('/index.astro','.astro'),'utf8');
+  assert.ok(wrapper.includes(`content="0;url=${destination}"`));
+  assert.ok(wrapper.includes(`href="${destination}"`));
+  assert.ok(wrapper.includes('name="robots" content="noindex, follow"'));
+  assert.ok(wrapper.includes('<main><h1>'));
+  assert.ok(!wrapper.includes('<script'));
+ }
 });
