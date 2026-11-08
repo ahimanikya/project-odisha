@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1084. completed: 188, excluded: 626, in_progress: 1, queued: 269.
+Route inventory: 1084. completed: 189, excluded: 626, queued: 269.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -814,7 +814,7 @@ Route inventory: 1084. completed: 188, excluded: 626, in_progress: 1, queued: 26
 | POD-EDIT-798 | [ଦମନ (DAMaN): the road from Malkangiri to national recognition](https://projectodisha.org/cinema/daman/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-799 | [Odia television and the stories that came home](https://projectodisha.org/cinema/odia-television/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-800 | [The Odia OTT journey and the search for an audience](https://projectodisha.org/cinema/odia-ott/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
-| POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | in_progress | Reviewed cinema reading or companion published; current live delivery verified. |
+| POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | completed | Reviewed cinema reading or companion published; current live delivery verified. |
 | POD-EDIT-802 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | completed | new_researched_article |
 | POD-EDIT-803 | [Buddhist Udayagiri in Jajpur: monasteries and daily life](https://projectodisha.org/stories/udayagiri-buddhist/) | completed | new_researched_article |
 | POD-EDIT-813 | [Lalitgiri: relics, monasteries and a long Buddhist history](https://projectodisha.org/stories/lalitgiri/) | completed | new_researched_article |
