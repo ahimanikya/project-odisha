@@ -1,16 +1,16 @@
 {
   "id": "POD-CINEMA-FILM-CREDITS-PUBLICATION-20261108",
   "date": "2026-11-08",
-  "status": "reviewed_candidates_ready_for_release",
+  "status": "published_verified",
   "authorization": {
     "user_request": "Good, let's add these verified credits to the relevant articles and publish the website update and both book downloads.",
     "renewed_confirmation_required": false
   },
   "source_handoff": "records/cinema-end-credits-2026-11-08.json",
-  "active_article": "POD-EDIT-812",
+  "active_article": null,
   "source": "kb/research/culture/cinema-series/cinema-futures.md",
-  "scope_released": false,
-  "publication_performed": false,
+  "scope_released": true,
+  "publication_performed": true,
   "programme_credit": 0,
   "reserved_scopes": {
     "Disha": [
@@ -43,7 +43,7 @@
     "Full feature end credits remain uninspected; no broad screenwriting or payment claims.",
     "Preserve prior editions, all images, standalone intro PDF and unrelated tagged-reader experiments."
   ],
-  "next_action": "Independent prose review; rebuild and review both editions, publish and verify live article and download hashes.",
+  "next_action": "Bounded release complete. Retain full-feature end-card inspection as an evidence limitation; no further change required for the qualified published roles.",
   "candidate_source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
   "content_review": "outputs/cinema-credits-publication-20261108/review/content-review.json",
   "release_tag": "odia-cinema-book-2026-11-08-film-credits",
@@ -51,5 +51,31 @@
   "implementation": "outputs/cinema-credits-publication-20261108/implementation/implementation.json",
   "final_review": "outputs/cinema-credits-publication-20261108/review/final-review.json",
   "final_review_sha256": "f52a59dcc1ae1da4441b6bc32d90f362ef920e14ff69a6397a9608425edf424b",
-  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/717"
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/717",
+  "book_downloads_changed": true,
+  "release": {
+    "pr": 717,
+    "pr_url": "https://github.com/ahimanikya/project-odisha/pull/717",
+    "reviewed_head": "dbfdd7cd1aae707b856969260e6561dde6409ce5",
+    "merge_commit": "f0ff041f9bb3761db111a0b792351f2a117cbeae",
+    "validation_run": 42448725614,
+    "validation_result": "success",
+    "deployment_run": 42449827343,
+    "deployment_result": "success",
+    "release_tag": "odia-cinema-book-2026-11-08-film-credits",
+    "release_url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-11-08-film-credits",
+    "downloads_verification": "outputs/cinema-credits-publication-20261108/release/public-download-verification.json",
+    "live_verification": "outputs/cinema-credits-publication-20261108/release/live-verification.json",
+    "verified_at_utc": "2026-11-08T05:26:41.192460+00:00"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "run_id": 42449827343,
+    "head_sha": "f0ff041f9bb3761db111a0b792351f2a117cbeae",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42449827343"
+  },
+  "verified_routes": [
+    "/cinema/cinema-futures/",
+    "/cinema/book/"
+  ]
 }

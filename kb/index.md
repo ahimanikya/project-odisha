@@ -2,7 +2,7 @@
 okf_version: "0.2"
 ---
 
-- Cinema film-credit publication: [active release](records/cinema-film-credits-publication-2026-11-08.json) — precise Remosam and Ramaleelas roles; matching article and both book editions in review.
+- Cinema film-credit publication: [publication receipt](records/cinema-film-credits-publication-2026-11-08.json) — precise Remosam and Ramaleelas roles, live article and both matching book downloads verified.
 
 # Project Odisha · project knowledge bundle
 

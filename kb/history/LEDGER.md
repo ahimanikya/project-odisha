@@ -1454,3 +1454,7 @@ Remosam’s current producer-linked treatment, internally dated12February2021, e
 ### 8 November 2026 · Verified film credits prepared for publication
 
 Added precise Remosam and Ramaleelas roles to the existing collaboration passage, retaining Puloma Pal’s shared credit and two compact notes. Independent content review passed; matching books are being checked under the Founder’s publication instruction. [Release handoff](../records/cinema-film-credits-publication-2026-11-08.json).
+
+### 8 November 2026 · Verified documentary credits published
+
+PR717 and deployment42449827343 succeeded. Live article credits/notes and both downloaded books match the reviewed edition:272digital pages,278print pages,49chapters and542notes. Original images and earlier downloads remain unchanged. [Receipt](../records/cinema-film-credits-publication-2026-11-08.json).
