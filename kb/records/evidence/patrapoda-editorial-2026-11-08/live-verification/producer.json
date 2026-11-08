@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "checked_at": "2026-11-07T23:57:05.918Z",
+  "input_head": "384bc9835d334273e115aaf51bf58ce5d05b86fd",
+  "reviewed_candidate": "e1992f566cb0854519c02e227e45814f82504029",
+  "deployed_head": "384bc9835d334273e115aaf51bf58ce5d05b86fd",
+  "publication_run": 42426529073,
+  "url": "https://projectodisha.org/food/patrapoda/",
+  "checks": [
+    "Actual HTTP200 article and parent",
+    "Actual Chrome measured1440x900 and390x844; no overflow",
+    "Exact three reviewed paragraphs, byline, metadata; two native notes and keyboard returns at each size",
+    "Save and reload; exact protected parent four-source object",
+    "Three related links and journey link",
+    "Four actual UI-triggered HTML/TXT downloads; exact paragraphs, short sources, public return URLs, no empty heading/colon",
+    "Embedded downloaded photograph SHA exact; source/CC BY-SA4.0/creator and route-only caption preserved",
+    "Producer viewed both full-body screenshots"
+  ],
+  "bindings": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/release/samanta/artifact-manifest.json",
+      "bytes": 6878,
+      "sha256": "fe38c412a138a3c6d88f55ab60bd1557482420f27b54066de82c2e8af90f6d7f"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/release/samanta/live-run1/browser-review.json",
+      "bytes": 6135,
+      "sha256": "5741a4340484f63e4b7379442674efa1eaff2bddadd24784f6009bb10e28760a"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/release/samanta/content-download-checks.json",
+      "bytes": 3095,
+      "sha256": "a5200e75bf5f956023e4d54f2c7b28f28d8cbfeef95d34e5cea7437049934442"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/release/publication.json",
+      "bytes": 4819,
+      "sha256": "364f757b8b584dad0df2ab1997bd4706254e23d44ccc97c2490f83a9f36cde95"
+    }
+  ],
+  "limits": [
+    "Point-in-time actual headless Chrome only; no assistive-technology or other-browser coverage.",
+    "Historical local artifacts unchanged. Public whole-page bytes differ from historical local dist-coast; exact route content and protected parent checked, not whole global catalogue equality.",
+    "Responsive display variants were visibly decoded; exact base photograph bytes verified through the actual HTML downloads, not a claim of responsive variant byte identity.",
+    "No build, source research, canonical edits, Git mutations or publication performed by this scope.",
+    "Producer technical verification is not human editorial review; separate review remains required."
+  ]
+}

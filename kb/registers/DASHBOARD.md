@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a3af8d91ce3b3edcdca53145fd8d27e52cbcbea01f2dcb544913ceb76ff6371f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0b81caf4c130341f4a3fcea0de5fcf8ae8c88891debb86708562b3c9fc3db4d3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -363,7 +363,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-329 · Tala pitha: attributed baked and fried preparations | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt ownership until actual reviewed receipt merge and remote verification; no duplicate substantive credit. | — |
 | POD-WORK-330 · Baigana poda: two attributed roasting preparations | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat substantive credit. | — |
 | POD-WORK-331 · Tomato poda: an attributed preparation sequence | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
-| POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | in_progress | reviewed | Ahimanikya Satapathy | Implement reviewed draft, verify and publish; retain claim through receipt integration. | — |
+| POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 
 ## Pending human review and decisions
 
@@ -1055,6 +1055,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026110601 | pass_with_limitations | True | Separate AI review, not human culinary validation.; No completion credit before actual reviewed receipt.; Article112/112 and all-reviewed114/114 require exact conditional replacements and short titles.; No source-image reuse or assumption of open recipe licences.; Article112/112; all reviewed surfaces114/114, including everyday compact titles. No new Panda/Gapu derivation.; Actual receipt integration and remote verification remain separate gates. |
 | POD-REV-2026110701 | pass_with_limitations | True | SeparateAIreview not culinary testing or legal rights certification; One eventual substantive credit only after actual receipt; none now; Original recipes remain copyrighted; existing project photograph has separateCCBYSA4 licence; No new source discovery/prose/art; unrelated research and Dhaga358 preserved; Saved-evidence AI review; no repeated browser/build/network/source research and no human or assistive-technology review.; Chrome1440/390 only; no Firefox/WebKit assurance. Responsive selected images decoded and visually inspected; no claim that generated derivative bytes equal older local filenames.; Whole article equals audited116 artifact; parent/local shell analytics and responsive filename differences remain explicitly qualified. This does not certify parallel Dongria work or unrelated site routes.; Reuses prior reviewed source allocations149/168/171 and protected parent/compact-record conditions; no new source allowance or publication credit is inferred.; This PASS supports preparing the actual receipt. Programme remains138/credit0 pending separately reviewed root receipt integration; no receipt merge/completion claim.; Receipt integration/remote verification pending; one article credit only, no Dongria/recovery credit. |
 | POD-REV-2026110801 | pass_with_limitations | True | Concise attributed preparation note, not tested comprehensive recipe; Separate AI review; no human review invented; Preserve other-owner Dongria work and serialize publication; Dhaga358 and threeB65 proposals preserved; no Dhaga programme credit; Point-in-time saved Chrome evidence; no independent browser rerun, assistive technology, Firefox or WebKit claim.; Live960 responsive filename and analytics/cookie shell differ from older local preview. No live960 derivative byte-equality claim; embedded original download photo identity verified.; No source-research repeat, canonical receipt mutation, programme credit or human proofreading claim.; Live acceptance is not materialized receipt or completed programme registration approval.; Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata. |
+| POD-REV-2026110802 | pass_with_limitations | True | Two attributed preparations, not origin chronology or statewide/medical claims.; Separate AI review, no human review invented.; No full copyrighted source capture published.; 358publicDhaga/7localproposals;zeroDhaga credit.; AI-only review, not human editorial review or independent assistive-technology testing.; Point-in-time saved Chrome evidence; no Firefox/WebKit or new live-browser run.; Public whole-page HTML differs from historical local dist-coast due to publication shell, journey optimization, responsive assets and other-owner additions; no whole old catalogue equality claim.; Responsive images visibly decoded; exact base photograph proven through HTML download bytes, not responsive variant byte identity.; Live PASS does not approve an unwritten materialized receipt, grant completion credit or release finite receipt ownership. Separate actual receipt and committed-head review remain required.; No canonical/Git changes, builds or source retrieval performed.; Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata. |
 
 ## Publication and application history
 
@@ -1306,6 +1307,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026110601 · Tala pitha: attributed baked and fried preparations | published | https://projectodisha.org/food/tala-pitha/ | POD-DEC-225 |
 | POD-REL-2026110701 · Baigana poda: two attributed roasting preparations | published | https://projectodisha.org/food/baigana-poda/ | POD-DEC-225 |
 | POD-REL-2026110801 · Tomato poda: an attributed preparation sequence | published | https://projectodisha.org/food/tomato-poda/ | POD-DEC-225 |
+| POD-REL-2026110802 · Patrapoda: leaf parcels and distinct cooking methods | published | https://projectodisha.org/food/patrapoda/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1343,7 +1345,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026110503 | 2026-11-05T01:58:16.397115+00:00 | Substantive Ou khatta revision published and separately live-verified at2026-11-04T22:11:36.477Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
 | POD-EVT-2026110504 | 2026-11-05T08:56:21.834345+00:00 | Installed separately reviewed Badi chura draft/schema and pending acceptance. Programme remains136 completed;113 finite release continues through reviewed publication and receipt. Prior112 receipt682 verified merged and released; historicalrecord preserved. | — |
 | POD-EVT-2026110505 | 2026-11-05T17:12:56.138742+00:00 | Substantive Badi chura revision published and separately live-verified at2026-11-05T16:10:46.992Z; receipt materialized now for one programme completion, finite receipt integration retained. | — |
 | POD-EVT-2026110601 | 2026-11-06T08:30:15.755575+00:00 | Installed separately reviewed Tala pitha draft/schema and pending acceptance. Programme remains137 completed, credit0; finite114 release continues through publication and receipt. Prior113 receipt684 verified merged and released. | — |
@@ -1353,6 +1354,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026110703 | 2026-11-07T17:57:48.357930+00:00 | Founder requested direct implementation/publication of reviewed117; source/schema reviews complete. Preserve139 completed and zero new credit. | — |
 | POD-EVT-2026110801 | 2026-11-07T22:06:23.166661+00:00 | 117 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
 | POD-EVT-2026110802 | 2026-11-07T22:58:06.136787+00:00 | Reviewed useful draft installed; preserve existing research and begin implementation through publication. | — |
+| POD-EVT-2026110803 | 2026-11-08T00:03:07.510168+00:00 | 118 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
 
 ## Deferred extensions
 
