@@ -1,0 +1,48 @@
+{
+  "status": "PASS_STAGED_MERGE_PRESERVATION",
+  "scope_released": true,
+  "ours": "655d6d4045cd384bb63b7d624e2bd4cf9fdcef0f",
+  "incoming": "8bf7b7188091c14d3cabb4f4779d717583ce52c3",
+  "merge_base": "b690119fccfab5dd481c9d52e350f7344f88f6e1",
+  "snapshot": "Staged index reviewed before merge commit; later foreign delivery receipts require separate reconciliation.",
+  "checks": {
+    "incoming_exclusive_files_different_from_incoming": [],
+    "ours_exclusive_files_different_from_ours": [
+      "kb/records/cinema-daman-team-publication-2026-11-08.json"
+    ],
+    "shared_files": [
+      "kb/history/LEDGER.md",
+      "kb/index.md",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/editorial-workbench.json",
+      "kb/research/search-index.json",
+      "kb/team/operations.json"
+    ],
+    "all_ledger_sections_from_both_parents_preserved_verbatim": true,
+    "all_search_ids_from_both_parents_preserved": true,
+    "search_delta_from_incoming": "Only methods/research-map entry differs, as expected for cinema research integration.",
+    "other_parallel_programmes_preserved_from_incoming": true,
+    "current_article_and_task_equal_incoming": true,
+    "rollout": "All incoming items preserved except three original cinema-profile rows gain reviewed-local redirect transitions; DAMaN new item remains blocked and unpublished; incoming121 ownership retained.",
+    "cinema_source_code_and_release_metadata_unchanged_from_reviewed_ours": true,
+    "all_three_local_pdf_hashes_recomputed_match_release_manifest": true,
+    "tagged_reader_uncommitted_experiments_not_in_index": true
+  },
+  "record_interpretation": "Cinema handoff changes only waiting-slot status/active_article null, published-book-assets flag and pending integration evidence. It explicitly leaves website publication false. No claim of incoming deployment completion or owner release.",
+  "required_corrections": [],
+  "limits": [
+    "No fresh full site/PDF build or browser review performed.",
+    "655d6d40 hosted CI success and published-download success supplied by coordinator; this review checks staged integration and asset bytes, not a new live fetch.",
+    "Merged-head hosted validation and actual cinema deployment/live verification remain later publication gates."
+  ],
+  "staged_shared_blob_hashes": {
+    "kb/history/LEDGER.md": "a33e13a7f581e77db647b441065257e89eafa821640f3301e5e4dba0d2dba6f8",
+    "kb/index.md": "8fb821fef358e177e9b41bd378fb0f63e5920c3d34fe5bbc002531e4330d9042",
+    "kb/records/article-editorial-rollout.json": "592ebf6c1f79aee8f5f9fddcbe6872c4a639bcc9667a0c857bfc4d71370d882c",
+    "kb/records/article-editorial-work-list.md": "4783194a1907f198fdb0309d490532407961fe6c96ae1263a5820777d467b489",
+    "kb/records/editorial-workbench.json": "f9f6c361414bbc0cbf9d1b07db755960ffcef22e03802b204b852564da57c4d7",
+    "kb/research/search-index.json": "7d57edd9fec2b7530d2a0c20b19fe8b77deba2ae249cf11a8d2935cf523c55e3",
+    "kb/team/operations.json": "e49e24c7d27b112d6f1d4a850d6928e42c84b49c5f78c6a5f980735a6d85db24"
+  }
+}

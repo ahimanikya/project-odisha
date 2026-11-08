@@ -1,7 +1,7 @@
 ---
-import CinemaReading from '../../components/CinemaReading.astro';
-import {cinema} from '../../lib/cinema-article.mjs';
-const entry=cinema.articles.find(article=>article.route==='/people/debi-prasad-lenka/');
-if(!entry)throw new Error('Missing reviewed Debi Prasad Lenka entry');
+import Shell from '../../layouts/Shell.astro';
+import '../../styles/article-reading.css';
 ---
-<CinemaReading entry={entry}/>
+<Shell title="Debi Prasad Lenka · The people behind DAMaN" description="Read about Debi Prasad Lenka in the shared story of DAMaN’s filmmakers." active="explore" related={false} canonicalPath="/cinema/daman-team/" redirectTo="/cinema/daman-team/#debi-prasad-lenka">
+ <article class="article-reading"><h1>Debi Prasad Lenka</h1><p><a href="/cinema/daman-team/#debi-prasad-lenka">Read about Debi Prasad Lenka in The people behind DAMaN</a>.</p></article>
+</Shell>

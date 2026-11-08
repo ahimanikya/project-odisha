@@ -1,7 +1,7 @@
 ---
-import CinemaReading from '../../components/CinemaReading.astro';
-import {cinema} from '../../lib/cinema-article.mjs';
-const entry=cinema.articles.find(article=>article.route==='/people/vishal-mourya/');
-if(!entry)throw new Error('Missing reviewed Vishal Mourya entry');
+import Shell from '../../layouts/Shell.astro';
+import '../../styles/article-reading.css';
 ---
-<CinemaReading entry={entry}/>
+<Shell title="Vishal Mourya · The people behind DAMaN" description="Read about Vishal Mourya in the shared story of DAMaN’s filmmakers." active="explore" related={false} canonicalPath="/cinema/daman-team/" redirectTo="/cinema/daman-team/#vishal-mourya">
+ <article class="article-reading"><h1>Vishal Mourya</h1><p><a href="/cinema/daman-team/#vishal-mourya">Read about Vishal Mourya in The people behind DAMaN</a>.</p></article>
+</Shell>

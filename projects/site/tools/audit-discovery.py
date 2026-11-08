@@ -2,6 +2,7 @@
 
 This does not enable indexing, submit to a search engine, or approve any route.
 """
+from cinema_redirects import expected_canonical, REDIRECTS
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
@@ -10,9 +11,9 @@ import argparse, json, xml.etree.ElementTree as ET
 SITE=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,default=SITE/'.astro/discovery-review');args=p.parse_args();args.output.mkdir(parents=True,exist_ok=True)
 class Page(HTMLParser):
- def __init__(self):super().__init__();self.meta={};self.title='';self.in_head=False;self.in_title=False;self.canonical=[];self.images=[]
+ def __init__(self):super().__init__();self.meta={};self.title='';self.in_head=False;self.in_title=False;self.canonical=[];self.images=[];self.nodes=[]
  def handle_starttag(self,t,a):
-  a=dict(a)
+  a=dict(a);self.nodes.append((t,a))
   if t=='head':self.in_head=True
   if t=='title':self.in_title=self.in_head
   if t=='meta':self.meta[a.get('name',a.get('property'))]=a.get('content','')
@@ -27,7 +28,9 @@ scope=json.loads((SITE/'editions/coast.json').read_text());rows=[]
 standalone=set(scope.get('standalone_routes',[]))
 for route in scope['routes']:
  doc=Page();doc.feed((SITE/'dist-coast'/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'))).read_text());m=doc.meta;share=urlsplit(m.get('og:image',''));errors=[]
- if doc.canonical!=['https://projectodisha.org'+route]:errors.append('canonical')
+ expected,redirect_errors=expected_canonical(route,doc.nodes);errors.extend(redirect_errors)
+ if doc.canonical!=[expected]:errors.append('canonical')
+ if route in REDIRECTS and m.get('og:url')!=expected:errors.append('social_url')
  if not (1 if route in standalone else 50)<=len(m.get('description',''))<=250:errors.append('description')
  if m.get('og:description')!=m.get('description'):errors.append('social_description')
  if not doc.title or m.get('og:title') not in [doc.title,doc.title.split(' | ')[0]]:errors.append('title')

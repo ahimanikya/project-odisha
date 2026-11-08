@@ -14202,6 +14202,12 @@
         "receipt": "records/cinema-publication-2026-11-07.json",
         "date": "2026-11-07",
         "source_sha256": "01b3082ed082315b7ec1ce9037ccf17dfb75310710f54c456e6adec8a7e0144a"
+      },
+      "pending_transition": {
+        "kind": "consolidated_profile_redirect",
+        "target": "/cinema/daman-team/#deependra-samal",
+        "status": "reviewed_local",
+        "record": "records/cinema-daman-team-lavanya-2026-11-08.json"
       }
     },
     {
@@ -14243,6 +14249,12 @@
         "receipt": "records/cinema-publication-2026-11-07.json",
         "date": "2026-11-07",
         "source_sha256": "134a27f07a51d3a9fda1577cb65056fa6516c5ad0eabd7fc1ec85f01dff92656"
+      },
+      "pending_transition": {
+        "kind": "consolidated_profile_redirect",
+        "target": "/cinema/daman-team/#vishal-mourya",
+        "status": "reviewed_local",
+        "record": "records/cinema-daman-team-lavanya-2026-11-08.json"
       }
     },
     {
@@ -14284,6 +14296,12 @@
         "receipt": "records/cinema-publication-2026-11-07.json",
         "date": "2026-11-07",
         "source_sha256": "289357218acbdfd4bdfc8d56aa795aa3fa43922217c9e92be2c073949e1b2e49"
+      },
+      "pending_transition": {
+        "kind": "consolidated_profile_redirect",
+        "target": "/cinema/daman-team/#debi-prasad-lenka",
+        "status": "reviewed_local",
+        "record": "records/cinema-daman-team-lavanya-2026-11-08.json"
       }
     },
     {
@@ -19457,6 +19475,32 @@
       ],
       "blocker": null,
       "exclusion_reason": "Reading navigation for existing articles and the Kalinga feature, not a second substantive article."
+    },
+    {
+      "id": "POD-EDIT-DAMAN-TEAM-20261108",
+      "route": "/cinema/daman-team/",
+      "title": "The people behind DAMaN",
+      "status": "blocked",
+      "scope": "Consolidate three filmmaker profiles into one online reading; preserve originals, individual anchors and existing book integration.",
+      "source_template": "projects/site/src/pages/cinema/[slug].astro",
+      "source": "kb/research/culture/cinema-series/daman-team.md",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/cinema-daman-team-lavanya-2026-11-08.json"
+      ],
+      "publication": false,
+      "editorial_stage": "reviewed_waiting_for_publication_slot",
+      "human_review_claimed": false,
+      "next_action": "Publish reviewed team page after active Pattachitra121 release; book assets already published. No new research or editorial work.",
+      "blocker": "POD-EDIT-121 owns the current publication slot; its deployment and receipt are in progress. Preserve its work, then publish the already-reviewed DAMaN candidate."
     }
   ]
 }

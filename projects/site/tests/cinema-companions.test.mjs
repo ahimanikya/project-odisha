@@ -7,7 +7,7 @@ import {cinema,cinemaCompanions,cinemaArticle,cinemaOnward,markReviewedOdia,cine
 const root=path.resolve(process.cwd(),'../..');
 const entry=cinema.articles.find(a=>a.slug==='bibhuti-pattanaik');
 test('Bibhuti joins the main website and book after Kanhu while retaining the Maya connection',()=>{
- assert.ok(entry);assert.equal(cinema.articles.length,52);
+ assert.ok(entry);assert.equal(cinema.articles.length,50);
  assert.equal(cinema.articles[cinema.articles.indexOf(entry)-1].slug,'kanhu-charan-mohanty');
  assert.deepEqual(entry.related_from,['maya-miriga']);
  const parts=JSON.parse(fs.readFileSync(path.join(root,'kb/research/culture/cinema-series/manifest.json'))).parts;
@@ -41,7 +41,7 @@ test('Bibhuti image has a unique original and intact responsive source bindings'
 const solila=cinema.articles.find(a=>a.slug==='solila-parida');
 test('Solila joins the main website and book after Nandita while retaining the literature connection',()=>{
  assert.ok(solila);assert.equal(solila.companion,false);
- assert.equal(cinema.articles.length,52);
+ assert.equal(cinema.articles.length,50);
  assert.equal(cinema.articles[cinema.articles.indexOf(solila)-1].slug,'nandita-das');
  const parts=JSON.parse(fs.readFileSync(path.join(root,'kb/research/culture/cinema-series/manifest.json'))).parts;
  assert.ok(parts.flatMap(p=>p.chapters).includes(solila.slug));assert.ok(cinemaNarrative.book_order.includes(solila.slug));
@@ -82,7 +82,7 @@ test('Solila canonical source and native-size responsive portrait remain hash-bo
 
 const nayak=cinemaCompanions.find(a=>a.slug==='jatindra-k-nayak');
 test('Nayak joins Basanta as a translator companion without changing the book sequence',()=>{
- assert.ok(nayak);assert.equal(cinema.articles.length,52);
+ assert.ok(nayak);assert.equal(cinema.articles.length,50);
  assert.ok(!cinema.articles.some(a=>a.slug===nayak.slug));
  const parts=JSON.parse(fs.readFileSync(path.join(root,'kb/research/culture/cinema-series/manifest.json'))).parts;
  assert.ok(!parts.flatMap(p=>p.chapters).includes(nayak.slug));
