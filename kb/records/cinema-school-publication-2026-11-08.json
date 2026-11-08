@@ -1,11 +1,11 @@
 {
   "id": "POD-CINEMA-SCHOOL-PUBLICATION-20261108",
   "date": "2026-11-08",
-  "status": "reviewed_awaiting_publication",
+  "status": "published_verified",
   "authorization": "Good, let’s add this to Cinema Economics and publish the website update and both book downloads.",
-  "active_article": "/cinema/cinema-economics/",
-  "scope_released": false,
-  "publication_performed": false,
+  "active_article": null,
+  "scope_released": true,
+  "publication_performed": true,
   "programme_credit": 0,
   "source_handoff": "records/cinema-school-programme-followup-2026-11-08.json",
   "release_tag": "odia-cinema-book-2026-11-08-school-audience",
@@ -48,5 +48,33 @@
   "implementation": "outputs/cinema-school-publication-20261108/implementation/implementation.json",
   "final_review": "outputs/cinema-school-publication-20261108/review/final-review.json",
   "final_review_sha256": "0c30c377ffb191e41a8091a7153d8c4524da5016ce4f81512b87dfa44641b93d",
-  "next_action": "Publish reviewed source and both matching PDFs after clean hosted validation, then verify live article and download hashes."
+  "next_action": "Evidence-only delivery receipt is ready for integration. No further website deployment required. Lavanya story credit and film-specific school payments/outcomes remain unconfirmed.",
+  "book_assets_published": true,
+  "release": {
+    "pr": 730,
+    "pr_url": "https://github.com/ahimanikya/project-odisha/pull/730",
+    "reviewed_head": "7a19b3c28485fd17210f4245a81623b39cab14b8",
+    "merge_commit": "300ce01655bf4c4f4476244c9c8a0ed3d136569e",
+    "validation_run": 42506460627,
+    "validation_result": "success",
+    "deployment_run": 42507566692,
+    "deployment_result": "success",
+    "release_tag": "odia-cinema-book-2026-11-08-school-audience",
+    "live_verification": "outputs/cinema-school-publication-20261108/root/live-verification.json",
+    "verified_at_utc": "2026-11-08T18:14:53.425912+00:00"
+  },
+  "verified_routes": [
+    "/cinema/cinema-economics/",
+    "/cinema/book/"
+  ],
+  "live_verification": "outputs/cinema-school-publication-20261108/root/live-verification.json",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "300ce01655bf4c4f4476244c9c8a0ed3d136569e",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42507566692"
+  },
+  "delivery_review": "outputs/cinema-school-publication-20261108/review/delivery-review.json",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/730",
+  "delivery_review_sha256": "6cfe54f6089ef75293ccbc14670867176604ce4cce8d34dca1c26c1e1d7551a0"
 }

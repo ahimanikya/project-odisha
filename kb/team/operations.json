@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/sambalpuri-bandha-editorial-2026-11-08.json",
+  "handoff_home": "records/pattachitra-editorial-2026-11-08.json",
   "roles": [
     {
       "name": "Disha",
@@ -109,12 +109,12 @@
     {
       "name": "Cinema research and story expansion",
       "handoff": "records/cinema-school-publication-2026-11-08.json",
-      "status": "reviewed_awaiting_publication",
+      "status": "published_verified",
       "scope": "One reviewed school-screening example and both book editions",
-      "note": "Explicit Founder publication request; preserve separate Pattachitra receipt task. Prior DAMaN receipt PR728 observed merged; its failed validation is retained, not described as success.",
-      "active_article": "/cinema/cinema-economics/",
-      "scope_released": false,
-      "last_publication_handoff": "records/cinema-daman-team-publication-2026-11-08.json"
+      "note": "Article,book landing and both same-origin PDFs published and byte-verified; preserve separate Pattachitra receipt integration.",
+      "active_article": null,
+      "scope_released": true,
+      "last_publication_handoff": "records/cinema-school-publication-2026-11-08.json"
     }
   ],
   "coordination_note": "118 active through actual publication/live/receipt. Programme140 completed;141 in progress. B73 output-only complete/released;358public and7local proposals preserved.",
@@ -270,24 +270,6 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-120",
         "handoff": "records/pipili-editorial-2026-11-08.json"
-      }
-    },
-    {
-      "scope": "POD-EDIT-121",
-      "resolution": "COMPLETE_RELEASED",
-      "receipt_pr": 727,
-      "receipt_merge": "5eb65b849c95734dfe5c70c41230cc5150e9528b",
-      "required_check_run": 42499103701,
-      "required_check_result": "SUCCESS before merge",
-      "credit_added_here": 0,
-      "original_current_task": {
-        "kind": "article_receipt",
-        "owner": "Disha",
-        "status": "receipt_integration",
-        "article_id": "POD-EDIT-121",
-        "handoff": "records/pattachitra-editorial-2026-11-08.json",
-        "scope_released": false,
-        "note": "Published article completed; Disha retains finite receipt integration via current_task and article record until actual reviewed receipt merge."
       }
     }
   ],
