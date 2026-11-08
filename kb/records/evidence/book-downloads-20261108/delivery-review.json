@@ -1,5 +1,5 @@
 {
-  "status": "delivery_scope_pass_upstream_release_gate_pending",
+  "status": "delivery_scope_pass_merged_publication_checks_pending",
   "scope": "Independent review of three prepared Cinema PDFs, exact-identity tests and other-book audit; no manuscript or edition substitution authorised.",
   "pdf_checks": [
     {
@@ -35,11 +35,11 @@
     "strategy": "Keep older 802.7MB release editions external; add current three only. Final optimized payload acceptance still required."
   },
   "pending": [
-    "Upstream PR724 audit-coast redirect blocker must be resolved and integrated before release; outside this download-delivery delta",
+    "Combined-head hosted CI and publication sequencing",
     "Live post-deployment GET/hash verification"
   ],
   "limitations": [
-    "This pass approves download source and generated delivery artifact, not publication while upstream release gate is unresolved.",
+    "Prior exact-PDF delivery pass applies unchanged; final integrated audit execution remains a release gate.",
     "No fresh whole-book editorial audit or full-body integrity claim for the34 other-book HEAD audit targets."
   ],
   "integration_checks": {
@@ -51,7 +51,7 @@
     "public_dist_dist_coast_three_pdf_hashes_and_bytes_independently_checked": true,
     "six_full_coast_generated_links_checked": true
   },
-  "reviewed_commit": "acab867ff95a2edd2f1c5428d1308e7133417cd5",
+  "reviewed_commit": "3cd89dd55c112019fa33e0e35ed8bce392145155",
   "final_publication_artifact": {
     "all_three_hashes_bytes_independently_verified": true,
     "all_three_generated_download_links_verified": true,
@@ -59,5 +59,25 @@
     "regular_files": 2886,
     "symlinks": 0,
     "within_exclusive_1GB_limit": true
+  },
+  "delta_review": {
+    "from": "acab867ff95a2edd2f1c5428d1308e7133417cd5",
+    "no_public_files_or_PDF_changes": true,
+    "configured_aliases_only": 3,
+    "ordinary_routes_keep_self_canonical": true,
+    "exact_refresh_target_and_fragment_required": true,
+    "duplicate_delayed_encoded_external_query_credentials_rejected": true,
+    "noindex_and_fallback_required": true,
+    "five_redirect_tests_independently_passed": true,
+    "source_review_result": "pass"
+  },
+  "reconciliation": {
+    "from": "8fe129745959d82674683c1463a75070a9a08dfe",
+    "cinema_download_descriptors_retention_and_exact_PDFs_unchanged": true,
+    "book_index_pointer_preserved": true,
+    "download_and_Pattachitra_ledger_history_preserved": true,
+    "identical_Dongria_receipt_present_once": true,
+    "DAMaN_publication_waits_for_POD_EDIT_121": true,
+    "Pattachitra_fact_review_not_in_scope": true
   }
 }

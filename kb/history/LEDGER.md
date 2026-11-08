@@ -1493,3 +1493,7 @@ Prepared exact reviewed DAMaN-team digital, print and introduction PDFs for same
 ## 8 November 2026 · Pattachitra implementation
 
 Registered POD-WORK-334 / POD-A500-143 / POD-EDIT-121 for the separately reviewed preparation and narrative-practice account. Preserved the completed Dongria direct-download receipt unchanged, installed the guarded Pattachitra package, and retained both photographs, reading paths and historical source records. Runtime testing required a route-specific neutral discovery description and two updated prose expectations. Publication and completion credit remain pending separate final review and actual delivery.
+
+### 8 November 2026 · Cinema direct downloads published and verified
+
+PR726 merged at fbec5eae after validated3cd89dd5; deployment42496570360 succeeded after the preceding Cinema release. Anonymous full downloads of the272-page screen edition,278-page print edition and6-page introduction match all reviewed hashes and sizes, return application/pdf without redirects, and support exact HTTP206 byte ranges. Both series-to-book and all three PDF links verified; Chrome opened the live digital PDF. Other audited book links remain available. [Receipt](../records/book-downloads-20261108.json).
