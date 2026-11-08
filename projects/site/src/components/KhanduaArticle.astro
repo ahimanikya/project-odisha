@@ -1,0 +1,29 @@
+---
+import MagazineCover from './MagazineCover.astro';
+import ArticleByline from './ArticleByline.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+const {entry,assets,editorial,links}=Astro.props;
+const paragraphs=entry.sections.flatMap(s=>s.paragraphs);
+---
+<div class="utk-magazine utk-magazine--culture khandua-editorial">
+ <MagazineCover title={entry.title} odia={entry.odia} eyebrow={'Woven in Odisha · '+entry.area} deck={[]} photo={assets[entry.hero]} saveId={entry.save_id} startHref="#reading" startLabel="Read the account" footline="Look closely. Learn a name. Carry a story."><Fragment slot="byline"><ArticleByline author={editorial.author}/></Fragment></MagazineCover>
+ <article class="mag-content">
+  <div class="khandua-chapters">{entry.sections.map(section=><section id={section.id} class="khandua-section">{section.title&&<h2>{section.title}</h2>}{section.photo&&<figure class="chapter-photo"><ResponsiveImage src={assets[section.photo].src} alt={assets[section.photo].alt} width={assets[section.photo].width} height={assets[section.photo].height} loading="lazy"/><figcaption>{assets[section.photo].caption}</figcaption></figure>}{section.paragraphs.map(p=><p id={'paragraph-'+p.id} data-source-ids={p.source_ids.join(' ')}>{p.text}{p.note_ids.map(id=><sup><a id={`ref-${p.id}-${id}`} href={`#note-${id}`} data-footnote-ref aria-label={`Footnote ${id}`}>{id}</a></sup>)}</p>)}</section>)}</div>
+  <nav class="khandua-onward" aria-label="Continue the textile story"><a href="/textiles/">Woven in Odisha →</a>{links.map(link=><a href={link.href}>{link.title} →</a>)}<a href="/journey/">Open my journey →</a></nav>
+  <section id="story-sources" class="article-footnotes" aria-labelledby="footnote-title"><h2 id="footnote-title">Footnotes &amp; Sources</h2><ol>{editorial.notes.map(note=><li id={`note-${note.id}`} tabindex="-1"><a href={note.url}>{note.text}</a>{note.license_url&&<> <a href={note.license_url}>Licence</a></>} <span>{paragraphs.filter(p=>p.note_ids.includes(note.id)).map((p,i)=><a href={`#ref-${p.id}-${note.id}`} data-footnote-backref aria-label={`Return to passage ${i+1} for footnote ${note.id}`}>↩{i>0?i+1:''}</a>)}</span></li>)}</ol></section>
+<section class="article-footnotes" aria-labelledby="photo-title"><h2 id="photo-title">Photographs</h2>{[entry.hero,...entry.sections.filter(s=>s.photo).map(s=>s.photo)].map(id=><p><a href={assets[id].source}>{assets[id].caption}</a> · {assets[id].creator} · <a href={assets[id].license_url}>{assets[id].license}</a>. {assets[id].changes}</p>)}</section>
+ </article>
+</div>
+<script>
+import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
+document.querySelectorAll('.khandua-editorial sup, .khandua-editorial .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.khandua-chapters,.khandua-onward,.article-footnotes{max-width:740px;margin-inline:auto}
+.khandua-section{margin:48px 0;scroll-margin-top:28px}.khandua-section p{font-size:18px;line-height:1.85;margin:0 0 1.25em}
+.chapter-photo{max-width:480px;margin:0 0 2rem}.chapter-photo :global(img){width:100%;height:auto;object-fit:contain}.chapter-photo figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}
+.khandua-onward{display:flex;flex-wrap:wrap;gap:1rem 2rem;padding-block:2rem;border-top:1px solid var(--line)}.khandua-onward a{min-height:44px;display:inline-flex;align-items:center}
+.article-footnotes{margin-block:48px;border-top:1px solid var(--line);padding-top:28px;font-size:16px;line-height:1.8}.article-footnotes li{margin-bottom:24px;scroll-margin-top:24px;overflow-wrap:anywhere}.article-footnotes li:target{outline:2px solid var(--line);outline-offset:6px}
+sup{font-size:.7em;line-height:0;margin-left:.15em}a[data-footnote-ref]{padding:.2em .15em}a[data-footnote-backref]{display:inline-block;padding:.2rem .3rem}a:focus-visible{outline:2px solid var(--earth);outline-offset:3px}
+@media(max-width:700px){.khandua-section p{font-size:17px;line-height:1.8}}
+</style>
