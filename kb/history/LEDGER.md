@@ -1497,3 +1497,8 @@ Registered POD-WORK-334 / POD-A500-143 / POD-EDIT-121 for the separately reviewe
 ### 8 November 2026 · DAMaN team and matching books published
 
 PR724 and deployment42496450895 succeeded. The combined team page, three named redirects and both downloaded PDFs match the reviewed edition:50online readings,49chapters,272digital pages and278print pages. Lavanya’s original story credit remains open. [Receipt](../records/cinema-daman-team-publication-2026-11-08.json).
+
+
+### 8 November 2026 · Lavanya Preeti copy location investigated
+
+Verified Kala Academy Goa’s original DVD/CD accession entry CD185 as a concrete route toward the film’s credits. Current copy availability and the literary source remain unconfirmed. Provider access and historical distribution-list findings were recorded without inferring an author from generic writer metadata. No film-credit frames, outreach, public article change or book rebuild. [Research record](../records/cinema-lavanya-credit-followup-2026-11-08.json).

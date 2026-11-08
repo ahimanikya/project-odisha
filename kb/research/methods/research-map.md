@@ -1512,3 +1512,8 @@ Reuse the [source dossier](../references/data/dongria-language-20261108.json) an
 ### DAMaN team publication · 8 November 2026
 
 The [publication receipt](../../records/cinema-daman-team-publication-2026-11-08.json) records the live combined team reading, three person-anchor redirects and matching 272/278-page downloads. The 50-reading website and49-chapter book retain all three portraits and original profile sources. Lavanya’s original story credit remains unresolved; no new source attribution was introduced.
+
+
+### 8 November 2026 · Lavanya Preeti: an institutional copy lead
+
+Reused the unresolved source-author and original-credit research. New original evidence: Kala Academy Goa’s Manual6 lists the film as CD185 in its DVD/CD accession register (PDF544 for the heading; PDF573 for the entry), with CFSI in the publisher field. Both pages were visually inspected. Current disc condition and access remain unverified. WAVES required login; Cinemas of India was unreachable; the retained producer page supplied no embedded title-specific film. A mirrored historical DVD list is a secondary version lead only. No opening or end-credit frames recovered, no author/source-title attribution changed, no outreach or public edit. [Research handoff](../../records/cinema-lavanya-credit-followup-2026-11-08.json).

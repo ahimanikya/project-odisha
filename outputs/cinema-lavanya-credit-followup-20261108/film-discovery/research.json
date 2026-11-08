@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-08",
+  "status": "bounded_provider_routes_complete_credit_unresolved",
+  "scope_released": true,
+  "reuse": [
+    "kb/records/cinema-lavanya-credit-followup-2026-11-08.json",
+    "kb/research/culture/cinema-series/lavanya-literary-2026-11-08.json",
+    "outputs/cinema-daman-team-lavanya-20261108/lavanya/research.json",
+    "outputs/cinema-lavanya-literary-20261108/film-sources/cfsi-archived.html"
+  ],
+  "routes": [
+    {
+      "route": "Prasar Bharati WAVES actual public UI",
+      "url": "https://www.wavespb.com",
+      "actions": [
+        "Web fetch returned403.",
+        "Separate Chrome tab opened actual language-selection interface at /language.",
+        "Selected English and proceeded; next rendered interface required mobile number/OTP or email login.",
+        "Stopped; no contact details submitted, no account or OTP requested."
+      ],
+      "result": "Catalogue and title search inaccessible in this public session.",
+      "limit": "No claim about whether WAVES has this film."
+    },
+    {
+      "route": "Original distributor/platform access",
+      "urls": [
+        "https://www.cinemasofindia.com",
+        "https://www.nfdcindia.com"
+      ],
+      "actions": [
+        "Cinemas of India web fetch inaccessible; actual Chrome navigation failed net::ERR_ADDRESS_UNREACHABLE.",
+        "NFDC home web fetch timed out."
+      ],
+      "result": "No inspectable title page or media link recovered.",
+      "limit": "No repeated URL variants, guessed media endpoints or login attempts."
+    },
+    {
+      "route": "Archived CFSI original title-page media audit",
+      "original_url": "https://www.cfsindia.org/labanya-preeti-loving-hearts/",
+      "archive_url": "https://web.archive.org/web/20230320200845/https://www.cfsindia.org/labanya-preeti-loving-hearts/",
+      "local_capture": "outputs/cinema-lavanya-literary-20261108/film-sources/cfsi-archived.html",
+      "actions": [
+        "Parsed retained actual HTML tags for iframe/video/source and media anchors.",
+        "No embedded iframe/video/source element found; three YouTube anchors all target the same generic producer channel.",
+        "Attempted Wayback CDX listing of distinct successful snapshots for the exact retained title-page path; tool reported inaccessible."
+      ],
+      "cdx_url": "https://web.archive.org/cdx/search/cdx?url=cfsindia.org%2Flabanya-preeti-loving-hearts%2F&output=json&filter=statuscode%3A200&collapse=digest",
+      "result": "No title-specific media embedded in the captured producer page; alternate historical snapshots not retrieved.",
+      "limit": "The retained snapshot was previously read; only the explicit embedded-media audit and bounded snapshot-discovery attempt are new. Generic producer YouTube searches not repeated."
+    }
+  ],
+  "query_log": {
+    "new_search_engine_title_queries": [],
+    "reason": "Prior generic title, YouTube Preeti/Bir, Vimeo/Dailymotion and exact site-title searches were exhausted; this pass used provider access and retained original-page structure."
+  },
+  "credit_evidence": {
+    "actual_opening_frames": 0,
+    "actual_end_frames": 0,
+    "audio_audition": false,
+    "story_credit": "Unresolved at original film-credit level.",
+    "screenplay": "Prior original41stNFA catalogue support for Bir retained; not newly read as film card.",
+    "published_story_title": "Unresolved. A generic writer listing cannot establish title or edition."
+  },
+  "recommendation": "Retain public prose. Reopen only for a publicly inspectable producer release or authenticated credit extract, or an explicit maker/source-author statement naming the text. Provider login/access failures do not justify an absence claim.",
+  "source_budget": "No new public wording, quotation or factual credit proposed.",
+  "public_changes": false,
+  "outreach": false
+}
