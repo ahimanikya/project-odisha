@@ -1,0 +1,31 @@
+npm WARN logfile could not be created: Error: EPERM: operation not permitted, open '/Users/ahimanikya/.npm/_logs/2026-11-08T14_41_38_244Z-debug-0.log'
+
+> project-odisha-site@0.1.0 build:coast
+> node tools/build-coast.mjs
+
+npm WARN logfile could not be created: Error: EPERM: operation not permitted, open '/Users/ahimanikya/.npm/_logs/2026-11-08T14_41_38_411Z-debug-0.log'
+
+> project-odisha-site@0.1.0 build
+> node tools/build-local-verification.mjs && node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro build && node tools/export-dhaga.mjs
+
+Generated Utkal 0.1.0-rc.5 tokens.
+Prepared Utkal Design System 0.1.0-rc.5 and font licences.
+Prepared 5 explicitly selected research notes; no automatic full-KB export.
+Prepared 166 credited art photographs and visible source notes; source originals unchanged.
+Prepared responsive variants for 89 existing images.
+20:12:11 [types] Generated 55ms
+20:12:11 [build] output: "static"
+20:12:11 [build] mode: "static"
+20:12:11 [build] directory: /Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/.coast-staging/
+20:12:11 [build] Collecting build info...
+20:12:11 [build] ✓ Completed in 112ms.
+20:12:11 [build] Building static entrypoints...
+20:12:13 [vite] ✓ built in 2.12s
+20:12:24 [ERROR] [vite] ✗ Build failed in 11.00s
+ENOSPC: no space left on device, copyfile '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/public/assets/sahi-jatra/performer.jpg' -> '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/.coast-staging/assets/sahi-jatra/performer.jpg'
+  Stack trace:
+    at Object.copyFileSync (node:fs:3210:11)
+    at copyDir (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/node_modules/vite/dist/node/chunks/node.js:2407:43)
+    at prepareOutDir (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/node_modules/vite/dist/node/chunks/node.js:34014:4)
+    at PluginContextImpl.handler (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/node_modules/vite/dist/node/chunks/node.js:34704:13)
+    at plugin.<computed> (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/node_modules/rolldown/dist/shared/bindingify-input-options-XrReX_BJ.mjs:2130:18)

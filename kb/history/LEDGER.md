@@ -1493,3 +1493,7 @@ Prepared exact reviewed DAMaN-team digital, print and introduction PDFs for same
 ## 8 November 2026 · Pattachitra implementation
 
 Registered POD-WORK-334 / POD-A500-143 / POD-EDIT-121 for the separately reviewed preparation and narrative-practice account. Preserved the completed Dongria direct-download receipt unchanged, installed the guarded Pattachitra package, and retained both photographs, reading paths and historical source records. Runtime testing required a route-specific neutral discovery description and two updated prose expectations. Publication and completion credit remain pending separate final review and actual delivery.
+
+### 8 November 2026 · DAMaN team and matching books published
+
+PR724 and deployment42496450895 succeeded. The combined team page, three named redirects and both downloaded PDFs match the reviewed edition:50online readings,49chapters,272digital pages and278print pages. Lavanya’s original story credit remains open. [Receipt](../records/cinema-daman-team-publication-2026-11-08.json).

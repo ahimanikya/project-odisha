@@ -1,0 +1,57 @@
+[
+  {
+    "step": "site-build-v2",
+    "exit_code": 0,
+    "seconds": 83.3,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/site-build-v2.log"
+  },
+  {
+    "step": "site-tests-v2",
+    "exit_code": 0,
+    "seconds": 24.1,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/site-tests-v2.log"
+  },
+  {
+    "step": "disclosure-main",
+    "exit_code": 0,
+    "seconds": 1.4,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/disclosure-main.log"
+  },
+  {
+    "step": "coast-build-v2",
+    "exit_code": 1,
+    "seconds": 46.5,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/coast-build-v2.log"
+  },
+  {
+    "step": "coast-build-v3",
+    "exit_code": 0,
+    "seconds": 73.8,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/coast-build-v3.log"
+  },
+  {
+    "step": "coast-tests",
+    "exit_code": 0,
+    "seconds": 8.2,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/coast-tests.log"
+  },
+  {
+    "step": "disclosure-coast",
+    "exit_code": 0,
+    "seconds": 1.0,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/disclosure-coast.log"
+  },
+  {
+    "step": "publication-build",
+    "exit_code": 1,
+    "seconds": 12.8,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/publication-build.log"
+  },
+  {
+    "step": "publication-build-v2",
+    "exit_code": 1,
+    "log": "outputs/cinema-daman-team-publication-20261108/root/publication-build-v2.log",
+    "failure": "ENOSPC during PNG optimization; recorder also encountered ENOSPC, this entry reconstructed from retained failure log.",
+    "resolution": "Do not repeat local build; use required clean hosted validation and deployment. Removed only incomplete generated dist-publish."
+  }
+]
