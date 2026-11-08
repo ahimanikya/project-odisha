@@ -19379,6 +19379,35 @@
       ],
       "blocker": null,
       "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-KALINGA-20261108",
+      "route": "/stories/reading-kalinga-beyond-odisha/",
+      "title": "Reading Kalinga Beyond Odisha’s Borders",
+      "status": "in_progress",
+      "scope": "history_heritage_feature",
+      "source_template": "projects/site/src/pages/stories/reading-kalinga-beyond-odisha.astro",
+      "checks": {},
+      "evidence": [
+        "records/kalinga-heritage-publication-2026-11-08.json"
+      ],
+      "blocker": null
+    },
+    {
+      "id": "POD-EDIT-HISTORY-HUB-20261108",
+      "route": "/history/",
+      "title": "History and heritage",
+      "status": "excluded",
+      "scope": "collection_navigation",
+      "source_template": "projects/site/src/pages/history/index.astro",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/kalinga-heritage-publication-2026-11-08.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Reading navigation for existing articles and the Kalinga feature, not a second substantive article."
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "status": "candidate_review",
+  "article_id": "POD-EDIT-KALINGA-20261108",
+  "route": "/stories/reading-kalinga-beyond-odisha/",
+  "owner": "Disha",
+  "input_head": "204d520770839aa85a30d775ac3c889ed930d348",
+  "authorization": "Direct Founder request: review, fix validation issues and add to website history and heritage series.",
+  "scope_released": false,
+  "programme_credit": 0,
+  "scopes": {
+    "Disha": [
+      "kb/records/*kalinga*",
+      "kb/team/operations.json",
+      "kb/records/article-editorial-rollout.json",
+      "kb/research/subjects/history.md",
+      "shared generated views",
+      "Git and publication"
+    ],
+    "Anvesha": "Read-only source review returned; object-match wording to clarify",
+    "Samanta": [
+      "projects/site/src/pages/stories/reading-kalinga-beyond-odisha.astro",
+      "kb/research/stories/reading-kalinga-beyond-odisha.json",
+      "projects/site/src/data/discovery.ts",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/editions/coast.json",
+      "projects/site/tests-coast/kalinga-heritage.test.mjs",
+      "projects/site/src/pages/history/index.astro"
+    ],
+    "Drishti": "Separate integrated review pending",
+    "Samanta_status": "implementation_complete_scopes_released"
+  },
+  "source_workspace": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth",
+  "limits": [
+    "No full-book review or verified modern object identification",
+    "No interview, completed conservation outcome or human review asserted"
+  ],
+  "next_action": "Implement one sourced feature and history reading link; separate review, requiredCI, merge, deploy and verify.",
+  "history_collection": {
+    "route": "/history/",
+    "basis": "New public reading entrance to existing history articles and requested feature; heritage-walks is a visitor directory."
+  },
+  "research_review": {
+    "reviewer": "Anvesha, separate task-scoped agent",
+    "status": "PASS_WITH_CORRECTION_APPLIED",
+    "correction": "Move provisional object identification into opening Rajaguru passage; closely matching entry, modern photograph/location comparison outstanding.",
+    "human_review": false,
+    "source_scope": "Saved original Rajaguru title/p261 and INTACHp82 images plus reopened original reports and ASI pages."
+  },
+  "validation": {
+    "canonical_core": "PASS:1505concepts,5998links,38arithmeticchecks,71preservedrecords",
+    "canonical_classification": "PASS",
+    "canonical_research_map": "PASS:1822records,71tasks",
+    "team_assignments": "PASS",
+    "autonomous_program": "PASS; no credit increment",
+    "bundle": "PASS after regenerating route inventory",
+    "source_index": "PASS:1702concepts; earlier20s timeouts did not complete slow reads",
+    "source_full": {
+      "validate.py": {
+        "exit_code": 0,
+        "seconds": 4.43,
+        "stdout": "{\n  \"checked_at\": \"2026-11-08T08:01:45+05:30\",\n  \"result\": \"PASS\",\n  \"concepts\": 1702,\n  \"local_link_checks\": 6299,\n  \"growth_arithmetic_checks\": 38,\n  \"preserved_evidence_records\": 71,\n  \"errors\": [],\n  \"scope\": \"Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification.\"\n}\n",
+        "stderr": ""
+      },
+      "validate_classification.py": {
+        "exit_code": 0,
+        "seconds": 0.45,
+        "stdout": "{\n  \"result\": \"PASS\",\n  \"subject_families\": 9,\n  \"classified_concepts\": 738,\n  \"atlas_topics\": 51,\n  \"atlas_observations\": 1977,\n  \"explained_relationships\": 743,\n  \"errors\": [],\n  \"scope\": \"Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval.\"\n}\n",
+        "stderr": ""
+      },
+      "validate_research_map.py": {
+        "exit_code": 0,
+        "seconds": 0.1,
+        "stdout": "{\n  \"result\": \"PASS\",\n  \"records\": 1864,\n  \"tasks\": 78,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n",
+        "stderr": ""
+      }
+    },
+    "source_index_resolution": "Completed full scan; short timeouts were insufficient. No validator checks weakened or skipped."
+  },
+  "implementation_report": "records/evidence/kalinga-heritage-2026-11-08/samanta.json"
+}
