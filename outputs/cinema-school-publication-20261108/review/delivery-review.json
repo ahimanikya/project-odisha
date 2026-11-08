@@ -1,0 +1,55 @@
+{
+  "status": "PASS_DELIVERY",
+  "scope_released": true,
+  "required_corrections": [],
+  "input_hashes": {
+    "outputs/cinema-school-publication-20261108/root/release-assets.json": "a1afb25656e77b36ca82f52c0698903f59c2bbd34c3518b9e2e3b715400dc3de",
+    "outputs/cinema-school-publication-20261108/book-release-manifest.json": "b780cb00502a27e86ded008fc29add731372325aadb1cfd83e8395e74606e68e",
+    "projects/site/src/data/cinema.json": "05ec0ea1967ad2a89becaf18813e02fa2289ac80f1393862683c264fb512b397",
+    "outputs/cinema-school-publication-20261108/review/final-review.json": "0c30c377ffb191e41a8091a7153d8c4524da5016ce4f81512b87dfa44641b93d",
+    "outputs/cinema-school-publication-20261108/review/book-landing-review.json": "82ea7d385856b8cc1ac24bd6a29dc120ded18398d54909ecc5f9c8f7c4afb999",
+    "outputs/cinema-school-publication-20261108/root/deployment.json": "bc5c3da88679f5e20f6e014fdbcf04f1a8997cb6a2dc1c036770956d7f029a26",
+    "outputs/cinema-school-publication-20261108/root/live-verification.json": "0f5c1d2f675d4d5c4ee87467dd3d838558259550df7fde830c9cd0fffad6fc0f",
+    "outputs/cinema-school-publication-20261108/root/verify-live.py": "1515d04c94888e082d75b30bb9f0d6f94ff22cd91c20a9b976334078a198785f",
+    "outputs/cinema-school-publication-20261108/root/hosted-validation.log": "a58d9a7e2988a084ee26ffa7ec540871318183d825be3d586d7df2f166b82557"
+  },
+  "checks": [
+    "Published GitHub release API record is non-draft and binds both exact reviewed PDF digests, byte counts and URLs. This is API metadata verification, not fresh anonymous download verification.",
+    "Current same-origin descriptors bind the same reviewed PDFs and GitHub backup URLs. All previous archived descriptors from the reviewed-head parent remain; both prior DAMaN descriptors match manifest expected archives.",
+    "Earlier artifact and landing reviews left unchanged."
+  ],
+  "expected_delivery": {
+    "pr": 730,
+    "reviewed_head": "7a19b3c28485fd17210f4245a81623b39cab14b8",
+    "merge_commit": "300ce01655bf4c4f4476244c9c8a0ed3d136569e",
+    "validation_run": 42506460627,
+    "deployment_run": 42507566692
+  },
+  "website_delivery_verified": true,
+  "historical_pending_gates": [
+    "Actual successful deployment evidence for exact merge commit.",
+    "Root live verification including current article, book links and downloaded PDF hashes."
+  ],
+  "downloaded_file_checks": [
+    {
+      "path": "outputs/cinema-school-publication-20261108/root/live-odia-cinema-a-living-screen-2026-11-08-school-audience.pdf",
+      "sha256": "f50741862ebf2d250188be335a41e7816429ccd17531b2cb3bf952bccb25a80d",
+      "bytes": 38852518
+    },
+    {
+      "path": "outputs/cinema-school-publication-20261108/root/live-odia-cinema-a-living-screen-print-2026-11-08-school-audience.pdf",
+      "sha256": "79aa3dbaa2c2c04ae116d225e0d00af257b4392506bb860f0ee300488743e391",
+      "bytes": 51785133
+    }
+  ],
+  "final_checks": [
+    "Saved deployment evidence records completed success for exact merged head300ce01655bf4c4f4476244c9c8a0ed3d136569e and run42507566692.",
+    "Independently recomputed SHA256 and bytes of both downloaded public PDFs; exact reviewed manifest values match.",
+    "Read live verifier: both routes require HTTP200; Economics requires new sentences and exact two source URLs; book requires corrected DAMaN sentence and both new same-origin download links. Saved execution reports PASS.",
+    "Earlier artifact and landing review bytes remain unchanged."
+  ],
+  "limits": [
+    "Route HTTP/content and browser observations are coordinator evidence, not a fresh reviewer browser session. Reviewer independently inspected verifier/receipts and hashed downloaded files.",
+    "No claim of a new whole-book visual audit or changes to foreign ownership records in this bounded delivery review."
+  ]
+}
