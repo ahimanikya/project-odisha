@@ -1510,3 +1510,7 @@ The Founder requested same-origin delivery for Dhaga and the character books. Si
 ### 8 November 2026 · Dhaga and character downloads published and verified
 
 PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. Deployment42503735494 succeeded. Seven live PDFs match all original hashes and sizes, return application/pdf without redirects and support exact206byte ranges. Eight canonical images and11updated pages pass live checks; original source images remain unchanged. Chrome opened the live226-page Dhaga PDF. Hosted payload978560127bytes passes1GB. [Receipt](../records/remaining-book-downloads-20261108.json).
+
+## 2026-11-08 — Bandha implementation registered
+
+WORK335/A500144/EDIT123 is in progress under POD-DEC-225. The separately reviewed package is installed after the book-download owner explicitly released its scope; its exact receipt is preserved. EDIT122 is collection/navigation, with no credit. Programme completion remains143 pending actual publication and receipt.

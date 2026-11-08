@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/pattachitra-editorial-2026-11-08.json",
+  "handoff_home": "records/sambalpuri-bandha-editorial-2026-11-08.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,16 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-123",
+    "route": "/textiles/sambalpuri-bandha/",
+    "owner": "Disha",
+    "phase": "implementation"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_implementation",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-121",
-    "handoff": "records/pattachitra-editorial-2026-11-08.json",
-    "scope_released": false,
-    "note": "Published article completed; Disha retains finite receipt integration via current_task and article record until actual reviewed receipt merge."
+    "status": "implementation",
+    "article_id": "POD-EDIT-123",
+    "handoff": "records/sambalpuri-bandha-editorial-2026-11-08.json"
   },
   "parallel_programmes": [
     {
@@ -267,6 +270,24 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-120",
         "handoff": "records/pipili-editorial-2026-11-08.json"
+      }
+    },
+    {
+      "scope": "POD-EDIT-121",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 727,
+      "receipt_merge": "5eb65b849c95734dfe5c70c41230cc5150e9528b",
+      "required_check_run": 42499103701,
+      "required_check_result": "SUCCESS before merge",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-121",
+        "handoff": "records/pattachitra-editorial-2026-11-08.json",
+        "scope_released": false,
+        "note": "Published article completed; Disha retains finite receipt integration via current_task and article record until actual reviewed receipt merge."
       }
     }
   ],

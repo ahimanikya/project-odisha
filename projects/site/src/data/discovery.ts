@@ -1,3 +1,4 @@
+import bandhaEditorial from '../../../../kb/research/culture/sambalpuri-bandha-editorial.json';
 import pattachitraEditorial from '../../../../kb/research/culture/pattachitra-editorial.json';
 import kalingaReading from '../../../../kb/research/stories/reading-kalinga-beyond-odisha.json';
 import dongariya from './dongariya.json';
@@ -69,7 +70,7 @@ const collectionEntries=[
  {label:'Three tastes to remember',category:'Food',dek:'Dalma, Dahibara Aloodum and Machha Besara: three illustrated stories to save together and carry in a tour book.',href:'/food/three-tastes/',image:foods.assets['dalma-alternate'],regions:['Bhubaneswar','Cuttack','Konark & Puri']},
  {label:'Global Connections',category:'Living culture',dek:'Odisha and the world: documented city links, lessons from across India, and possibilities we can build together.',href:'/global-connections/',image:regions.assets.mukteswar,regions:['Bhubaneswar','Across Odisha']},
  {label:textiles.collection.title,category:'Living culture',dek:textiles.collection.lead,href:'/textiles/',image:textiles.assets[textiles.collection.hero],regions:['Across Odisha']},
- ...textiles.pages.map(p=>({label:p.title,category:'Living culture',dek:p.lead,href:p.href,image:textiles.assets[p.hero],regions:p.regions})),
+ ...textiles.pages.map(p=>({label:p.title,category:'Living culture',dek:p.slug==='sambalpuri-bandha'?bandhaEditorial.metadata_description:p.lead,href:p.href,image:textiles.assets[p.hero],regions:p.regions})),
  {label:crafts.collection.title,category:'Living culture',dek:crafts.collection.lead,href:'/crafts/',image:crafts.assets[crafts.collection.hero],regions:['Puri','Cuttack']},
  ...crafts.pages.map(p=>({label:p.title,category:'Living culture',dek:p.slug==='pattachitra'?pattachitraEditorial.metadata_description:p.lead,href:'/crafts/'+p.slug+'/',image:crafts.assets[p.hero],regions:p.regions})),
  {label:fire.title,category:"Food",dek:fire.lead,href:"/food/fire-cooking/",image:foods.assets[fire.hero],regions:["Across Odisha"]},

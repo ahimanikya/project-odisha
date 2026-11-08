@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-08T15:34:57.022799+00:00",
+  "updated_at": "2026-11-08T17:32:26.877590+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3166,23 +3166,29 @@
       "id": "POD-EDIT-122",
       "route": "/textiles/",
       "title": "Woven in Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "collection_navigation",
       "source_template": "projects/site/src/pages/textiles/index.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/sambalpuri-bandha-editorial-2026-11-08.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Actual textile index is collection/navigation with pooled sources and linked stories, not an independently authored article. No programme credit."
     },
     {
       "id": "POD-EDIT-123",
       "route": "/textiles/sambalpuri-bandha/",
       "title": "Sambalpuri Bandha · before the cloth",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "substantive_textile_account",
+      "source_template": "projects/site/src/pages/textiles/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/sambalpuri-bandha-editorial-2026-11-08.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-08T17:32:26.877590+00:00"
     },
     {
       "id": "POD-EDIT-124",
