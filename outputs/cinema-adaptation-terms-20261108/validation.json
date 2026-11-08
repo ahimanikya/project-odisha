@@ -1,0 +1,62 @@
+{
+  "completed_on": "2026-11-09",
+  "status": "PASS_RESEARCH_ONLY",
+  "checks": [
+    {
+      "command": "python3 tools/check_bundle.py",
+      "chunk_id": "b4050c",
+      "wall_time_seconds": 0.685707458,
+      "exit_code": 0,
+      "original_token_count": 69,
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1891,\n  \"local_links\": 8529,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n"
+    },
+    {
+      "command": "python3 tools/research/validate_research_map.py",
+      "chunk_id": "0f5ba7",
+      "wall_time_seconds": 0.0000105,
+      "exit_code": 0,
+      "original_token_count": 56,
+      "output": "{\n  \"result\": \"PASS\",\n  \"records\": 1822,\n  \"tasks\": 71,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n"
+    },
+    {
+      "command": "python3 tools/registers.py --check",
+      "chunk_id": "24c663",
+      "wall_time_seconds": 0.401318792,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "POD: valid; 1236 records, 717 events; dashboard current\n"
+    },
+    {
+      "command": "python3 tools/check_team_assignments.py",
+      "chunk_id": "4079be",
+      "wall_time_seconds": 0.000017375,
+      "exit_code": 0,
+      "original_token_count": 34,
+      "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n"
+    },
+    {
+      "command": "python3 tools/check_autonomous_program.py",
+      "chunk_id": "33f67b",
+      "wall_time_seconds": 0.063547417,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "PASS: autonomous program count and linked delivery records\n"
+    }
+  ],
+  "protected_source_check": {
+    "paths": 134,
+    "unchanged": 134,
+    "changes": []
+  },
+  "independent_review": "outputs/cinema-adaptation-terms-20261108/review.json",
+  "review_sha256": "8170d46c5a98d664e4431264c14a782852db043f816bd4284a0ee780e30822c2",
+  "public_build": {
+    "performed": false,
+    "reason": "Research-only source access and bounded reading; no public article, image, template, book input or download changed."
+  },
+  "publication_performed": false,
+  "programme_credit": 0,
+  "limitations": [
+    "These checks validate record consistency and unchanged source files; they do not verify the unresolved adaptation payment."
+  ]
+}

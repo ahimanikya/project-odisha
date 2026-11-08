@@ -1515,3 +1515,8 @@ Original IKFF India 2017 trailer attribution and festival dates independently ve
 ### 8 November 2026 · Dhaga and character direct-download preparation
 
 The Founder requested same-origin delivery for Dhaga and the character books. Six original character PDFs were retrieved with exact manifest hashes; the verified Dhaga PDF is staged during builds without committing the oversized file. Historical release backups remain. Capacity and independent delivery verification are pending; zero programme credit. [Handoff](../records/remaining-book-downloads-20261108.json).
+
+
+### 9 November 2026 · Original sources for the writer-payment enquiry
+
+Recovered and identified the Sahitya Akademi monograph, Kalindi Charan Panigrahi’s autobiography and a collected-writings volume. Bounded page inspection and separate review establish source access, not the reported Matira Manisha adaptation payment. The financial question remains open; no public article or book changes were warranted. Next work can read the author’s own account of writing and livelihood. Kala Academy’s reply and the Founder’s Bapa follow-up remain external dependencies. [Research record](../records/cinema-adaptation-terms-2026-11-08.json).
