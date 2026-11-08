@@ -1,0 +1,28 @@
+npm WARN logfile could not be created: Error: EPERM: operation not permitted, open '/Users/ahimanikya/.npm/_logs/2026-11-08T14_45_19_973Z-debug-0.log'
+
+> project-odisha-site@0.1.0 build:publication
+> node tools/build-publication.mjs
+
+node:internal/fs/promises:1327
+  return await PromisePrototypeThen(
+         ^
+
+Error: ENOSPC: no space left on device, copyfile '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-coast/characters/films/nilu-hold-this-end/first-cut-v1/pencil-storyboard-v4.png' -> '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/characters/films/nilu-hold-this-end/first-cut-v1/pencil-storyboard-v4.png'
+    at async copyFile (node:internal/fs/promises:1327:10)
+    at async _copyFile (node:internal/fs/cp/cp:261:3)
+    at async copyDir (node:internal/fs/cp/cp:336:19)
+    at async mkDirAndCopy (node:internal/fs/cp/cp:322:3)
+    at async copyDir (node:internal/fs/cp/cp:336:19)
+    at async mkDirAndCopy (node:internal/fs/cp/cp:322:3)
+    at async copyDir (node:internal/fs/cp/cp:336:19)
+    at async mkDirAndCopy (node:internal/fs/cp/cp:322:3)
+    at async copyDir (node:internal/fs/cp/cp:336:19)
+    at async mkDirAndCopy (node:internal/fs/cp/cp:322:3) {
+  errno: -28,
+  code: 'ENOSPC',
+  syscall: 'copyfile',
+  path: '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-coast/characters/films/nilu-hold-this-end/first-cut-v1/pencil-storyboard-v4.png',
+  dest: '/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/projects/site/dist-publish/characters/films/nilu-hold-this-end/first-cut-v1/pencil-storyboard-v4.png'
+}
+
+Node.js v24.22.1

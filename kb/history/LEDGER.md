@@ -1497,3 +1497,6 @@ Registered POD-WORK-334 / POD-A500-143 / POD-EDIT-121 for the separately reviewe
 ### 8 November 2026 · Cinema direct downloads published and verified
 
 PR726 merged at fbec5eae after validated3cd89dd5; deployment42496570360 succeeded after the preceding Cinema release. Anonymous full downloads of the272-page screen edition,278-page print edition and6-page introduction match all reviewed hashes and sizes, return application/pdf without redirects, and support exact HTTP206 byte ranges. Both series-to-book and all three PDF links verified; Chrome opened the live digital PDF. Other audited book links remain available. [Receipt](../records/book-downloads-20261108.json).
+### 8 November 2026 · DAMaN team and matching books published
+
+PR724 and deployment42496450895 succeeded. The combined team page, three named redirects and both downloaded PDFs match the reviewed edition:50online readings,49chapters,272digital pages and278print pages. Lavanya’s original story credit remains open. [Receipt](../records/cinema-daman-team-publication-2026-11-08.json).
