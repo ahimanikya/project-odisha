@@ -1,0 +1,36 @@
+{
+  "status": "source_pass_pending_artifact_and_live_media",
+  "scope": "14 exact MP4 deliveries to versioned GitHub release;11 current PDFs remain local; no image changes.",
+  "findings": [
+    {
+      "severity": "minor-record",
+      "issue": "Projected size uses different baseline",
+      "current_baseline": 978560127,
+      "video_bytes": 108625580,
+      "arithmetic_projection": 869934547,
+      "record_projection": 869271032,
+      "recommendation": "Recompute final payload and update capacity record."
+    }
+  ],
+  "required_final_checks": [
+    "Exact14 asset hashes/bytes against source and versioned release manifest; no inferred immutable-release claim",
+    "All39HTML/99reference replacements limited to expected video URLs, including embedded JSON",
+    "Cross-origin playback and seeking with actual player/caption attributes; preserve local VTT/posters/credits",
+    "No stale local MP4 href/src/JSON paths in generated output,14 removed from retention",
+    "All11 PDF hashes/URLs and image sources unchanged",
+    "Final artifact below1GB and normal no-symlink/hardlink checks",
+    "Preserve concurrent Cinema main300ce016 changes"
+  ],
+  "limits": [
+    "No heavyweight build or source mutation performed.",
+    "Chrome trial evidence currently coordinator reported; full integrated review pending."
+  ],
+  "source_review": {
+    "original14GitHEAD_bytes_and_hashes_match": true,
+    "39HTML_only_expected99_attribute_substitutions": true,
+    "coast_only14_matching_downloads_removed": true,
+    "no_PDF_image_or_Cinema_content_changes": true,
+    "issues": [],
+    "test_assessment": "Meaningful original-content hash restoration and stage poster/caption/local-video guards. Final artifact whole-output reference scan still required."
+  }
+}

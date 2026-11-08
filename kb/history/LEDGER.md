@@ -1520,3 +1520,8 @@ The Founder requested same-origin delivery for Dhaga and the character books. Si
 ### 8 November 2026 · Dhaga and character downloads published and verified
 
 PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. Deployment42503735494 succeeded. Seven live PDFs match all original hashes and sizes, return application/pdf without redirects and support exact206byte ranges. Eight canonical images and11updated pages pass live checks; original source images remain unchanged. Chrome opened the live226-page Dhaga PDF. Hosted payload978560127bytes passes1GB. [Receipt](../records/remaining-book-downloads-20261108.json).
+
+
+### 8 November 2026 · Download receipt merged; hosting capacity preparation
+
+Final download-verification receipt PR731 merged at b94cfe53 after required validation42507138549 passed. The Founder selected existing GitHub storage. Fourteen exact original character MP4s are uploaded to a versioned release;99 delivery links across39pages are prepared, with posters, captions, PDFs and original files preserved. Chrome trial playback, seeking and an English caption cue pass; independent source review passes. Full artifact and network verification remain pending; website delivery is not yet changed by this capacity update. [Handoff](../records/hosting-capacity-20261108.json).
