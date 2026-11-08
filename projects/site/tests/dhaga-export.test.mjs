@@ -154,3 +154,27 @@ test('299 lexical context and related variant retain exact source roles',()=>{
  const e=data.entries.find(e=>e.id==='POD-DHAGA-256'),w=e.witnesses.find(w=>w.source_id==='dhaga-wiktionary-220334');assert.ok(w&&!Object.hasOwn(w,'wording'));const h=read('sayings/pod-dhaga-256.html');assert.ok(h.includes(esc(w.note)));assert.ok(h.includes(esc(w.locator)));
  const v=data.entries.find(e=>e.id==='POD-DHAGA-260').variants[0];assert.ok(v.odia);assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.odia)));assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.note)));
 });
+
+test('library cards use optimized shared artwork, full bilingual text and native reading links',()=>{
+ const h=read('index.html');
+ const cards=[...h.matchAll(/<article class="index-row" id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)];
+ assert.equal(cards.length,data.entries.length);
+ for(const [_,id,card] of cards){
+  const e=data.entries.find(e=>e.id===id);assert.ok(e);
+  for(const key of ['odia_summary','english_summary'])assert.ok(card.includes(esc(e[key])),id+': '+key);
+  assert.ok(card.includes(esc(e.odia).replaceAll('\n','<br>')),id+': full original');
+  assert.ok(card.includes('/dhaga/sayings/'+id.toLowerCase()+'.html'));
+  const images=[...card.matchAll(/<img [^>]*src="([^"]+)"[^>]*>/g)];
+  assert.equal(images.length,e.graphic?1:0,id+': optional art');
+  if(e.graphic){const expected=e.graphic.src.replace(/\.[^.]+$/,'.webp');assert.equal(images[0][1],expected);assert.match(images[0][0],/loading="lazy"/);assert.ok(readFileSync(root+'/dhaga/'+expected).length>0);}
+ }
+ assert.doesNotMatch(h,/src="assets\/cards\/|src="assets\/[^\"]+\.png"/);
+});
+
+test('card packaging refuses missing, duplicated or heavy original references before export',async()=>{
+ const {validateCardImages}=await import('../tools/export-dhaga.mjs');
+ const entries=[{id:'POD-DHAGA-001',graphic:{src:'assets/one.png'}},{id:'POD-DHAGA-302',graphic:null}];
+ const good='<img class="card-art" src="assets/cards/pod-dhaga-001.webp" loading="lazy">';
+ assert.deepEqual(validateCardImages(entries,good),['assets/cards/pod-dhaga-001.webp']);
+ for(const bad of ['',good+good,good.replace('assets/cards/pod-dhaga-001.webp','assets/one.png'),good+'<img class="card-art" src="assets/cards/pod-dhaga-302.webp">'])assert.throws(()=>validateCardImages(entries,bad),/optimized thumbnail/);
+});
