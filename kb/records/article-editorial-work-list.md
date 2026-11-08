@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1084. completed: 187, excluded: 626, in_progress: 1, queued: 270.
+Route inventory: 1084. blocked: 1, completed: 187, excluded: 626, in_progress: 1, queued: 269.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -134,7 +134,7 @@ Route inventory: 1084. completed: 187, excluded: 626, in_progress: 1, queued: 27
 | POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | completed | article |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | excluded | collection_navigation |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | completed | substantive_craft_account |
-| POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | queued | classification_pending |
+| POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | in_progress | substantive_craft_account |
 | POD-EDIT-122 | [Woven in Odisha](https://projectodisha.org/textiles/) | queued | classification_pending |
 | POD-EDIT-123 | [Sambalpuri Bandha · before the cloth](https://projectodisha.org/textiles/sambalpuri-bandha/) | queued | classification_pending |
 | POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | queued | classification_pending |
@@ -1107,4 +1107,4 @@ Route inventory: 1084. completed: 187, excluded: 626, in_progress: 1, queued: 27
 | POD-EDIT-DHAGA-358-20261107 | [ମନରେ ଅଛି କକରଣ,ମିଛେ ବୋଲେ ବନ୍ଧୁ ବସ ବସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-358.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-KALINGA-20261108 | [Reading Kalinga Beyond Odisha’s Borders](https://projectodisha.org/stories/reading-kalinga-beyond-odisha/) | completed | history_heritage_feature |
 | POD-EDIT-HISTORY-HUB-20261108 | [History and heritage](https://projectodisha.org/history/) | excluded | collection_navigation |
-| POD-EDIT-DAMAN-TEAM-20261108 | [The people behind DAMaN](https://projectodisha.org/cinema/daman-team/) | in_progress | Consolidate three filmmaker profiles into one online reading; preserve originals, individual anchors and existing book integration. |
+| POD-EDIT-DAMAN-TEAM-20261108 | [The people behind DAMaN](https://projectodisha.org/cinema/daman-team/) | blocked | Consolidate three filmmaker profiles into one online reading; preserve originals, individual anchors and existing book integration. |

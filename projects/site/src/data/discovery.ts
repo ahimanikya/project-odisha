@@ -1,3 +1,4 @@
+import pattachitraEditorial from '../../../../kb/research/culture/pattachitra-editorial.json';
 import kalingaReading from '../../../../kb/research/stories/reading-kalinga-beyond-odisha.json';
 import dongariya from './dongariya.json';
 import literaturePreservationImage from '../../../../kb/research/stories/odia-literature-preservation-image.json';
@@ -70,7 +71,7 @@ const collectionEntries=[
  {label:textiles.collection.title,category:'Living culture',dek:textiles.collection.lead,href:'/textiles/',image:textiles.assets[textiles.collection.hero],regions:['Across Odisha']},
  ...textiles.pages.map(p=>({label:p.title,category:'Living culture',dek:p.lead,href:p.href,image:textiles.assets[p.hero],regions:p.regions})),
  {label:crafts.collection.title,category:'Living culture',dek:crafts.collection.lead,href:'/crafts/',image:crafts.assets[crafts.collection.hero],regions:['Puri','Cuttack']},
- ...crafts.pages.map(p=>({label:p.title,category:'Living culture',dek:p.lead,href:'/crafts/'+p.slug+'/',image:crafts.assets[p.hero],regions:p.regions})),
+ ...crafts.pages.map(p=>({label:p.title,category:'Living culture',dek:p.slug==='pattachitra'?pattachitraEditorial.metadata_description:p.lead,href:'/crafts/'+p.slug+'/',image:crafts.assets[p.hero],regions:p.regions})),
  {label:fire.title,category:"Food",dek:fire.lead,href:"/food/fire-cooking/",image:foods.assets[fire.hero],regions:["Across Odisha"]},
  {label:everyday.title,category:"Food",dek:everyday.lead,href:"/food/everyday/",image:foods.assets[everyday.hero],regions:["Across Odisha"]},
  {label:'Languages by district',category:'Languages',dek:'Start with a place: compare Census 2011 mother tongues across all 30 districts and follow the stories behind the numbers.',href:'/languages/districts/',regions:['Across Odisha']},
