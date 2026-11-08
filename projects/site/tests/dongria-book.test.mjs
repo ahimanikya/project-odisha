@@ -1,3 +1,4 @@
+import {createHash} from 'node:crypto';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -33,4 +34,13 @@ test('public book media use only approved plates and one contextual supplementar
  assert.ok(page.includes('Amitt M Patell'));
  assert.ok(page.includes('Author portrait: supplied by Ahimanikya Satapathy.'));
  assert.doesNotMatch(page,/pari-|mongabay-|sahapedia-technique-|school-phulaki|AI-generated|AI-assisted/);
+});
+
+
+test('Dongria PDF is an exact same-origin document linked from both book entrances',()=>{
+ assert.equal(book.file,'/archive/dongria-kondh-public-reading.pdf');
+ const scope=JSON.parse(read('editions/coast.json'));assert.ok(scope.documents.includes(book.file));
+ for(const root of ['public','dist']){const bytes=readFileSync(root+book.file);assert.equal(bytes.length,book.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),book.sha256);}
+ for(const route of ['dist/stories/dongria/index.html','dist/stories/dongria/book/index.html'])assert.ok(read(route).includes(`href="${book.file}"`));
+ assert.ok(page.includes('A shawl bought at a dinner party with friends'));assert.ok(!page.includes('supper club'));
 });

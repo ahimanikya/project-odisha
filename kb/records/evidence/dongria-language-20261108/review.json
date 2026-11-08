@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "scope": "Bounded independent review of four new language-source notes and two new narrative sections; no new fieldwork or audio validation.",
+  "reviewed_source_sha256": "aa56fc90795b15988e812dc9e13ef1bcd7821a7e72eaa4731931ebc50c6dad9b",
+  "evidence": [
+    "workspace output/dongria-language-20261108/anvesha-research.json",
+    "local Hardenberg publisher preview PDF pp. 9, 10, 25, 29, independently extracted and read"
+  ],
+  "findings": [],
+  "checks": {
+    "Kuang_Kata_attributed_to_Hardenberg": true,
+    "both_teachers_names_and_roles_supported": true,
+    "nonlinguist_transcription_limit_retained": true,
+    "existing_Kui_Kuvi_distinction_not_overridden": true,
+    "Glottolog_catalogue_not_claimed_new_discovery": true,
+    "AP_dictionary_scope_and_publisher_claims_distinguished": true,
+    "no_Dongria_OpenSpeaks_archive_or_partnership_claim": true,
+    "future_speaker_collection_is_proposal_not_completed_work": true,
+    "notes_13_to_16_present_in_web_and_KB": true,
+    "notes_13_to_16_definitions_exact_web_KB": true
+  },
+  "limitations": [
+    "Review scoped to new source additions, revised PDF chapter/source pages/contents, and both new web sections at 320/1280; not a new whole-series fact audit.",
+    "Dictionary entries and audio were not independently tested; prose correctly avoids claiming validation.",
+    "Review is AI-assisted, not community or linguistic-specialist endorsement."
+  ],
+  "correction_to_initial_review": "Initial presence check matched note references, not definitions, and was insufficient. Root identified missing KB definitions; final review now explicitly matches anchored definitions 13\u201316, present and byte-identical in web and KB.",
+  "pdf": {
+    "sha256": "b03a61635aaddfe48b5320a9c3defc26fe00a707d7e8765045b71c1321d3fb00",
+    "pages": 84,
+    "visual_pages_inspected": [
+      3,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      80
+    ],
+    "internal_link_destinations_checked": 194,
+    "invalid_destinations": [],
+    "result": "pass"
+  },
+  "source_images_visually_inspected": [
+    "hardenberg-29.png",
+    "preface-09.png",
+    "preface-10.png",
+    "spelling-25.png"
+  ],
+  "reviewed_commit": "ac29d1f21f5fb19f8f6876e6a1b08130d95b9e25",
+  "web": {
+    "visual_captures_inspected": 4,
+    "widths": [
+      320,
+      1280
+    ],
+    "sections": [
+      "A name heard in Niyamgiri",
+      "Words across regions, voices in an archive"
+    ],
+    "result": "pass",
+    "note_click_back_evidence": "workspace output/dongria-language-20261108/web/browser.json",
+    "final_commit_delta": "Evidence snapshot renamed from .md to .snapshot.txt only; no prose or PDF change."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "checked_on": "2026-11-08",
+  "scope": "Primary-source desk research; no outreach, app installation, audio listening, language identification by ear, or shared-content edits.",
+  "reuse": [
+    "projects/site/src/content/dongariya/kuvi-and-jatapu-script.md",
+    "kb/research/voices/collection.json:kuvi-ciil",
+    "kb/research/methods/research-map.md",
+    "query_research.py Kuvi returned voice:languages/kuvi",
+    "kb/research/references/data/dongariya-kuvi-release-followup-20261105.json",
+    "kb/research/references/data/dongariya-frobenius-audio-archive-20261105.json"
+  ],
+  "findings": [
+    {
+      "id": "hardenberg-kuang-kata",
+      "source_url": "https://api.pageplace.de/preview/DT0400.9783110532883_A33274438/preview-9783110532883_A33274438.pdf",
+      "citation": "Roland Hardenberg, Children of the Earth Goddess: Society, Marriage, and Sacrifice in the Highlands of Odisha (De Gruyter, 2018), section1.1, printedp3/PDFpage29.",
+      "locator": "PDF zero-based28; extractedlines536–563. Copyright page PDF4 verifies2018.",
+      "claim_ready": "Roland Hardenberg records Kuang Kata as a name Dongria people use for their language.",
+      "context": "An ethnographer’s attributed observation, useful beside catalogue classifications.",
+      "limits": [
+        "Do not imply every contemporary speaker uses this name.",
+        "Footnote4 on the same page questions treating Kui and Kuwi as separate languages; author explicitly says he is not a linguist. Do not use that opinion to erase the existing CIIL distinction.",
+        "No wordlist, translation, dialect boundaries or numerical mutual-intelligibility estimate derived."
+      ]
+    },
+    {
+      "id": "glottolog-dongria",
+      "source_url": "https://glottolog.org/resource/languoid/id/dong1300",
+      "additional_url": "https://glottolog.org/resource/languoid/id/kuvi1243",
+      "citation": "Glottolog5.3 DongriaKuvi and Kuvi entries, inspected8November2026.",
+      "locator": "Dongria page heading Dialect:DongriaKuvi; glottocode dong1300. Kuvi page heading SpokenL1Language:Kuvi, ISO639-3kxv.",
+      "claim_ready": "Glottolog5.3 lists a dialect entry named Dongria Kuvi, identified by dong1300; its Kuvi language entry is kuvi1243, with ISO code kxv.",
+      "limits": [
+        "Catalogue labels do not establish the language of an individual recording or speaker.",
+        "Do not assign Dongria Kuvi a separate ISO language code.",
+        "JSON endpoint inaccessible; classificationtree not used to add further subgrouping.",
+        "Avoid generic endangered assertion: Kuvi page has not-endangered AES heading and separate at-risk source comment; these should not be flattened into a local assessment."
+      ]
+    },
+    {
+      "id": "ap-kuvi-dictionary",
+      "source_url": "https://play.google.com/store/apps/details?hl=en_US&id=org.rvm.kuv.mle.dict",
+      "citation": "Kuvi Dictionary, developer listing Dictionary App Man; developerdetails KalaamMediaLtd; updated20April2026.",
+      "locator": "About this app; indexed languages tagline; Updated on.",
+      "claim_ready": "The Kuvi Dictionary Android listing describes an Andhra Pradesh variety of Kuvi and indexes in Telugu, English and Hindi. Its maintainers present it as a revisable community draft arising from an Education Department multilingual-education effort involving ITDAs.",
+      "limits": [
+        "The collaboration and community approval are developer claims, not an independently inspected approval record.",
+        "Not a Dongria-specific Niyamgiri dictionary; do not transfer entries to local speech without comparison.",
+        "App not installed; entries, pronunciation audio, entrycount, writing-system details and contributor credits inside app unverified.",
+        "No connection to O Foundation established.",
+        "No government classroom deployment or learning outcome established.",
+        "Free access does not establish an open licence for reproducing dictionary text/audio/screenshots."
+      ]
+    },
+    {
+      "id": "openspeaks-network",
+      "source_url": "https://theofdn.org/openspeaks/",
+      "additional_urls": [
+        "https://meta.wikimedia.org/wiki/OpenSpeaks/Archives",
+        "https://meta.wikimedia.org/wiki/OpenSpeaks/Archives/July_2025_%E2%80%93_June_2026",
+        "https://meta.wikimedia.org/wiki/OpenSpeaks/Archives/July_2026_%E2%80%93_June_2027",
+        "https://commons.wikimedia.org/wiki/Category:OpenSpeaks_Archives"
+      ],
+      "locator": "Official page OpenSpeaksArchives table, tools and framework; Meta phase1 Languagesandpeople and OpinoGomango testimony.",
+      "claim_ready": "O Foundation’s OpenSpeaks connects community language documenters with recording, archiving and subtitling resources. Its published regional work names Opino Gomango with Sora, Juray, Juang and Gorum documentation.",
+      "use": "A regional example and resource lead, not evidence of an existing DongriaKuvi archive.",
+      "limits": [
+        "Checked organizationpage, archiveoverview, phase1/phase2 pages and Commonscategory; no verified DongriaKuvi recordingcollection located. This is bounded search, not proof none exists.",
+        "Odia voice corpus is Odia, not Kuvi.",
+        "Do not equate Sora/Juray/Juang/Gorum with Kuvi because the network works in Odisha.",
+        "Do not treat planned language documentation as completed work.",
+        "No partnership, endorsement, reviewer availability or outreach inferred."
+      ]
+    },
+    {
+      "id": "openspeaks-tools",
+      "source_url": "https://theofdn.org/openspeaks/",
+      "additional_url": "https://theofdn.org/openspeaks/multimedia-toolkit/",
+      "locator": "OpenSpeaksTools and Frameworkandresearch sections; toolkit metadata/transcription sections.",
+      "claim_ready": "OpenSpeaks publishes tools for subtitles, recording metadata and consent documentation, together with a framework for describing and citing oral knowledge.",
+      "limits": [
+        "Tools not tested here. Tool availability is not evidence of a Kuvi-specific speech model, automatic reliable translation or speaker validation.",
+        "Keep practical tool detail in resource box or KB unless needed by chapter narrative."
+      ]
+    },
+    {
+      "id": "dongria-song-lead-not-validated",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Niyamgiri_Dongria_Song_(Kui_Language)_ma_kui_nana.webm",
+      "original_url": "https://www.youtube.com/watch?v=Go8hE1yHGcQ",
+      "creator_as_catalogued": "Amitabh Patra",
+      "date_as_catalogued": "1March2016",
+      "duration": "5min27s",
+      "license_as_catalogued": "CC BY3.0; Commons external-license review pending",
+      "claim_ready": "A Commons catalogue entry attributes a Niyamgiri Dongria song video to Amitabh Patra and retains Kui in the source title.",
+      "status": "Lead only; not recommended as newly verified DongriaKuvi listening sample.",
+      "limits": [
+        "OriginalYouTube page fetchfailed.",
+        "No audio listened to or languageverified; no singers identified.",
+        "Do not relabel recording Kuvi or connect it to OpenSpeaks.",
+        "Source title’s community label does not prove linguistic classification.",
+        "Do not claim licence independently cleared; not downloaded or embedded."
+      ]
+    },
+    {
+      "id": "false-film-association",
+      "source_url": "https://theofdn.org/film/bringing-down-a-mountain/",
+      "claim_ready": "No chapter addition recommended.",
+      "limits": [
+        "The2023film is described by its producer as docu-fiction about digital access, caste and financial inclusion; Rayagada filming does not establish DongriaKuvi documentation.",
+        "Do not infer language/community from mountain in title or district alone."
+      ]
+    }
+  ],
+  "integration_recommendation": {
+    "priority1": "After Kuvi/ Kui distinction, add attributed Kuang Kata name and Glottolog DongriaKuvi catalogue entry; distinguish community naming from classification.",
+    "priority2": "After primers, introduce AndhraPradesh dictionary as another resource with explicit geographic scope and draftstatus.",
+    "priority3": "Short regionaldocumentation paragraph/resourcebox naming OpenSpeaks and Opino; state no DongriaKuvi collectionverified here if reader could infer it.",
+    "recordings": "Keep established Dambu credited records in songs chapter; this pass establishes no new independently verified DongriaKuvi audio sample.",
+    "preserve": [
+      "Existing Kui/Kuvi distinction",
+      "Odia-based Kuwi primer versus Telugu-based Jatapu(Kuvi)primer versus PrasannaSree devisedscript",
+      "Regional Phulamani account not labelled Dongria",
+      "No claim of universal script adoption or ancestral Jatapu alphabet"
+    ]
+  },
+  "correction": "Glottolog dong1300 is reused evidence already captured 5 November, not newly discovered on 8 November.",
+  "primary_visual_verification": {
+    "source": "Hardenberg2018 publisher preview",
+    "sha256": "78c28c034aa7d8f3932ff0881cdb82e7d5135bbda6a237163a5210519e34b4f1",
+    "pages": [
+      {
+        "pdf": 9,
+        "printed": "IX",
+        "finding": "Names Brundabati Kondapani and Sandyarani Kadraka; local development workers."
+      },
+      {
+        "pdf": 10,
+        "printed": "X",
+        "finding": "Continuation credits them with teaching the Dongria language."
+      },
+      {
+        "pdf": 25,
+        "printed": "XXV",
+        "finding": "Author states nonlinguist transcription; words rendered as German speaker heard/recorded them."
+      },
+      {
+        "pdf": 29,
+        "printed": "3",
+        "finding": "Kuang Kata; linguistic classification opinion explicitly nonlinguist. Only attributed name adopted."
+      }
+    ],
+    "inspected_by": "Disha; separate AI review pending",
+    "access": "Downloaded original publisher preview; four pages rendered and visually inspected. Full book not read."
+  },
+  "publication_decision": {
+    "adopted": "Attributed language name and teachers, catalogue dialect entry, scoped AP dictionary, regional OpenSpeaks example. Four new notes; proposed speaker-directed recording collection clearly hypothetical.",
+    "excluded": [
+      "Unverified song audio/language/licence",
+      "Any claim of existing OpenSpeaks Dongria collection",
+      "Any new claim of Jatapu adoption",
+      "Hardenberg classification opinion as established linguistic fact"
+    ],
+    "human_or_speaker_review": false
+  }
+}

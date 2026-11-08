@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-08T14:15:24.879697+00:00",
+  "updated_at": "2026-11-08T06:23:39.103973+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3092,23 +3092,46 @@
       "id": "POD-EDIT-119",
       "route": "/crafts/",
       "title": "Made by hand in Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "collection_navigation",
       "source_template": "projects/site/src/pages/crafts/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/crafts-utility-review-2026-11-08.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected authored collection/navigation with three destinationcards,makerquestions,onward links and sharedcredits; no sustained standalone craft account. Preserve all public material and childstories; no credit."
     },
     {
       "id": "POD-EDIT-120",
       "route": "/crafts/pipili-applique/",
       "title": "Pipili appliqué",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "substantive_craft_account",
+      "source_template": "projects/site/src/pages/crafts/[slug].astro",
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/pipili-editorial-publication-2026-11-08.json",
+        "separate_review": "records/pipili-delivery-review-2026-11-08.json"
+      },
+      "evidence": [
+        "records/pipili-editorial-2026-11-08.json",
+        "records/pipili-editorial-publication-2026-11-08.json",
+        "records/pipili-delivery-review-2026-11-08.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-08T05:11:49.891969+00:00",
+      "completed_at": "2026-11-08T06:13:23.518Z",
+      "publication_receipt": "records/pipili-editorial-publication-2026-11-08.json"
     },
     {
       "id": "POD-EDIT-121",
@@ -13950,16 +13973,15 @@
         "records/cinema-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-film-credits-publication-2026-11-08.json",
-      "revision_status": "published_verified",
+      "publication_receipt": "records/cinema-language-documentaries-publication-2026-11-08.json",
+      "revision_status": "reviewed_content_building_books",
       "latest_local_revision": "records/cinema-film-credits-publication-2026-11-08.json",
       "source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
       "prior_publication_receipts": [
         "records/cinema-lives-and-future-publication-2026-10-26.json",
         "records/cinema-publication-2026-10-30.json",
         "records/cinema-publication-2026-10-31.json",
-        "records/cinema-publication-2026-11-07.json",
-        "records/cinema-language-documentaries-publication-2026-11-08.json"
+        "records/cinema-publication-2026-11-07.json"
       ],
       "publication": true,
       "editorial_stage": "published_verified",
@@ -13969,11 +13991,11 @@
       "local_revision_followup": {
         "record": "records/cinema-film-credits-publication-2026-11-08.json",
         "date": "2026-11-08",
-        "status": "published_verified",
+        "status": "reviewed_content_building_books",
         "source": "kb/research/culture/cinema-series/cinema-futures.md",
         "source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
-        "review": "outputs/cinema-credits-publication-20261108/review/final-review.json",
-        "published": true
+        "review": "outputs/cinema-credits-publication-20261108/review/content-review.json",
+        "published": false
       },
       "local_revision_history": [
         {
@@ -14015,9 +14037,9 @@
         }
       ],
       "latest_verified_publication": {
-        "receipt": "records/cinema-film-credits-publication-2026-11-08.json",
+        "receipt": "records/cinema-language-documentaries-publication-2026-11-08.json",
         "date": "2026-11-08",
-        "source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c"
+        "source_sha256": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd"
       }
     },
     {

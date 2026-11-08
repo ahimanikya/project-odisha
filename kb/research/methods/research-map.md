@@ -1503,3 +1503,8 @@ Reuse the [research synthesis](../culture/cinema-series/lavanya-literary-2026-11
 The [combined DAMaN team reading](../culture/cinema-series/daman-team.md) reuses the three established filmmaker profiles and their photographs; original profile sources remain available for the49-chapter book. The [reviewed local handoff](../../records/cinema-daman-team-lavanya-2026-11-08.json) records50online readings, old-route continuity and independent site/book checks. This is a local candidate, not another publication.
 
 The [targeted Lavanya film-credit search](../culture/cinema-series/lavanya-film-credits-2026-11-08.json) extends the literary-source dossier with actual CFSI channel/search access. No original film credits were obtained or viewed. Nilamani Sahu remains a secondary lead, and the published source title remains unresolved. Do not repeat the recorded title/platform searches without a new media lead. Seek an authenticated credit extract; even a story-writer credit alone would not establish a published story title or edition.
+
+
+### Dongria language names and documentation · 8 November 2026
+
+Reuse the [source dossier](../references/data/dongria-language-20261108.json) and [delivery record](../../records/dongria-language-20261108.json). Hardenberg’s original preview supports the attributed Kuang Kata name and named language teachers; his transcription is explicitly nonlinguistic. Glottolog is reused evidence. The Andhra Pradesh dictionary remains region-specific; OpenSpeaks offers a regional documentation example, not a verified Dongria Kuvi archive. Unverified song metadata and script adoption stay outside public claims.

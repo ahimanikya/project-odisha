@@ -1,0 +1,103 @@
+{
+  "id": "POD-DONGRIA-LANGUAGE-20261108",
+  "status": "published_verified",
+  "authorization": "User requested research of language leads, KB update, and verified additions to book and online series. Existing publication authorization applies.",
+  "scope": "Kuvi and the Jatapu script only; preserve other articles and private book editions.",
+  "reserved_files": {
+    "Disha": [
+      "kb/research/stories/narratives/dongariya/kuvi-and-jatapu-script.md",
+      "projects/site/src/content/dongariya/kuvi-and-jatapu-script.md",
+      "kb/research/references/data/dongria-language-20261108.json",
+      "kb/records/dongria-language-20261108.json"
+    ],
+    "Anvesha": [
+      "output/dongria-language-20261108/anvesha-research.json"
+    ],
+    "Samanta": [
+      "workspace output/dongria-book-design/manuscript/kuvi-and-jatapu-script.md",
+      "workspace output/dongria-book-design/manuscript/compact-notes-changes.json",
+      "workspace output/dongria-public-reading/",
+      "projects/site/src/data/dongariya-book.json",
+      "projects/site/src/data/dongria-book-reading.json",
+      "projects/site/tests/dongria-series.test.mjs",
+      "projects/site/tests/dongria-reading-guide.test.mjs"
+    ],
+    "Drishti": [
+      "output/dongria-language-20261108/review.json"
+    ]
+  },
+  "reuse": [
+    "dongariya-kuvi-release-followup-20261105.json",
+    "dongariya-frobenius-audio-archive-20261105.json"
+  ],
+  "newness_correction": "Glottolog dong1300 was already captured on 5 November, not a newly discovered source.",
+  "programme_credit": 0,
+  "human_review_claimed": false,
+  "publication": true,
+  "findings": [
+    "Kuang Kata attributed to Hardenberg, with Brundabati Kondapani and Sandyarani Kadraka credited as language teachers.",
+    "Glottolog dialect entry reused, not new discovery.",
+    "Andhra Pradesh Kuvi Dictionary kept region-specific and publisher-attributed.",
+    "OpenSpeaks community documentation example; no Dongria archive or partnership claimed."
+  ],
+  "pdf": {
+    "pages": 84,
+    "notes": 99,
+    "sha256": "b03a61635aaddfe48b5320a9c3defc26fe00a707d7e8765045b71c1321d3fb00",
+    "bytes": 17689084,
+    "changed_chapter_pages": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "notes_page": 80,
+    "private_editions_unchanged": true
+  },
+  "root_visual_review": "Pages60,64,65,80 read at full render; readable, no clipping. Separate review pending.",
+  "review": "Separate source, PDF and mobile/desktop review passed.",
+  "technical": {
+    "site_build": "pass",
+    "focused_tests": 14,
+    "pdf_check": "pass",
+    "notes": 99,
+    "valid_internal_links": 194,
+    "research_map": "pass",
+    "program_and_team_record_consistency": "pass",
+    "web": {
+      "widths": [
+        320,
+        1280
+      ],
+      "overflow": false,
+      "new_note_roundtrips": 10
+    },
+    "all_site_tests": 727
+  },
+  "evidence_directory": "kb/records/evidence/dongria-language-20261108",
+  "reviewed_head": "ac29d1f21f5fb19f8f6876e6a1b08130d95b9e25",
+  "pull_request": 722,
+  "merge_commit": "f2e86e49e69a2fe49b9535222e7244a8be522e46",
+  "validation_run": 42467538592,
+  "deployment_run": 42468942531,
+  "deployment_result": "success",
+  "verified_at": "2026-11-08T10:06:26.017560+00:00",
+  "validated_head": "cd1a9db420d981bb3b03af4643f7e7c64c927f85",
+  "review_head_difference": "Final head adds only review evidence and generated research/workbench index refresh; reviewed prose and PDF unchanged.",
+  "pdf_live": {
+    "url": "https://github.com/ahimanikya/project-odisha/releases/download/dongria-reading-20261107/dongria-kondh-public-reading.pdf",
+    "release_digest_matches": true,
+    "release_service_download_sha256": "b03a61635aaddfe48b5320a9c3defc26fe00a707d7e8765045b71c1321d3fb00",
+    "anonymous_http_checks": "Repeated HTTP504 from this environment, including final check after successful site deployment. Authenticated release-service download and GitHub asset digest match reviewed bytes. Local PDF supplied as fallback; anonymous download availability not verified."
+  },
+  "website_live": "HTTP200 and browser verify new sections and teachers; book hub retains download link.",
+  "remaining_questions": [
+    "Speaker validation of regional dictionary entries",
+    "Verified Dongria recording language, identity and permissions",
+    "Evidence of devised Jatapu script adoption"
+  ],
+  "file_reservations_released": true
+}

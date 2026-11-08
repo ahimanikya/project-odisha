@@ -29,6 +29,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Dongria language update: [Names, teachers and documentation resources](records/dongria-language-20261108.json). Original-source verification supports attributed Kuang Kata and named language teachers, a regional dictionary and an OpenSpeaks example. Published language chapter and matching84-page public reading PDF verified;99compact notes. No new verified Dongria audio collection claimed.
+
 Current cinema publication: [Verified film credits and matching editions](records/cinema-film-credits-publication-2026-11-08.json). The website and both book downloads are live and verified: 52 online readings, 49 book chapters, 272 digital pages and 278 print pages. Prateek Pattanaik’s Remosam role is tied to the producer’s treatment; the Ramaleelas roles retain Puloma Pal’s shared credit and the trailer-card source. Bapa’s earlier television adaptation and Das’s source-writer recognition remain attributed accounts. Full-feature end cards and actual adaptation payments are not claimed.
 
 Current cinema local candidate: [The people behind DAMaN](research/culture/cinema-series/daman-team.md) consolidates the three online profiles into one reading with individual headings and old-route continuity. The [reviewed handoff](records/cinema-daman-team-lavanya-2026-11-08.json) records 50 local online readings and the unchanged 49-chapter book, with matching 272/278-page local proofs. Three portraits and original research profiles are retained. This candidate is not yet published.
