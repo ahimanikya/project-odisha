@@ -19,7 +19,7 @@ test('textile stories retain identified media, licences and claim sources',()=>{
   }
   for(const s of p.sections)for(const q of s.paragraphs){assert.ok(q.kind==='editorial_invitation'||q.source_ids.length>0);for(const id of q.source_ids)assert.ok(html.includes(escape(data.sources[id].url)));}
  }
- assert.match(read('/textiles/khandua/'),/not transcribed or translated/);
+ assert.match(read('/textiles/khandua/'),/The passage has not been transcribed here/);
  assert.match(read('/knowledge/kotpad/'),/not a workshop photograph/);
  assert.match(read('/knowledge/kotpad/'),/licence does not extend to the film/);
  assert.match(read('/textiles/sambalpuri-bandha/'),/synthetic dyes/);
