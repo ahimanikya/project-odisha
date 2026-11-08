@@ -1,11 +1,11 @@
 {
   "id": "POD-BOOK-DOWNLOADS-20261108",
-  "status": "reviewed_waiting_dependency",
+  "status": "published_verified",
   "authorization": "Founder requested same direct-download fix for Odia Cinema and audit of other website book downloads.",
   "scope": "Deliver exact current reviewed Cinema digital/print/introduction PDFs directly; audit remaining public book downloads and correct verified delivery defects. Preserve edition identity and manuscript bytes.",
   "programme_credit": 0,
-  "publication": false,
-  "dependency": "Testing in isolated download branch merged with pending PR724; publish only after PR724 merges. Do not change its separate working copy.",
+  "publication": true,
+  "dependency": "Resolved: PR724 and its deployment42496450895 completed; this approved release deployed afterwards at fbec5eae.",
   "reserved_files": {
     "Samanta": [
       "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
@@ -29,7 +29,7 @@
     ]
   },
   "capacity_plan": "Prioritize current books. Older Cinema editions total802.7MB and remain separately identified release archives; current3 PDFs add91.3MB.",
-  "next_action": "Integrate upstream PR724 redirect-audit correction; wait for required hosted checks and PR724 merge, then publish726 and verify anonymous full downloads/ranges and browser opening.",
+  "next_action": "Complete. Maintain exact edition identity on future book updates.",
   "audit": {
     "evidence": "kb/records/evidence/book-downloads-20261108",
     "checked_urls": 34,
@@ -54,8 +54,46 @@
     "publication_files": 2886,
     "disclosure_gate": "PASS full and publication",
     "separate_delivery_review": "PASS at acab867f; no delivery-scope blocker",
-    "local_browser": "Actual primary digital link opened native Chrome PDF viewer; cover and1/272pages visibly verified. Initial UI tool timed out, subsequent screenshot confirmed successful navigation."
+    "local_browser": "Actual primary digital link opened native Chrome PDF viewer; cover and1/272pages visibly verified. Initial UI tool timed out, subsequent screenshot confirmed successful navigation.",
+    "hosted_combined_head": "SUCCESS:42495240810 at3cd89dd5",
+    "redirect_and_discovery": "PASS:4284/4284 page checks, discovery, launch and search shortlist checks.",
+    "hosted_final": {
+      "run": 42495240810,
+      "head": "3cd89dd55c112019fa33e0e35ed8bce392145155",
+      "conclusion": "success",
+      "full_tests": 735,
+      "coast_tests": 584,
+      "page_acceptance_checks": 4284,
+      "payload_bytes": 844049950,
+      "regular_files": 2887
+    }
   },
   "pull_request": 726,
-  "reviewed_head": "acab867ff95a2edd2f1c5428d1308e7133417cd5"
+  "reviewed_head": "3cd89dd55c112019fa33e0e35ed8bce392145155",
+  "merge_commit": "fbec5eae5a26823d11d2653738aee52b24f74f42",
+  "validation_run": 42495240810,
+  "deployment_run": 42496570360,
+  "verified_at": "2026-11-08T16:15:09.030756+00:00",
+  "deployment_result": "success",
+  "file_reservations_released": true,
+  "live_verification": {
+    "full_downloads": 3,
+    "all_exact_reviewed_hashes_and_sizes": true,
+    "anonymous_http": 200,
+    "redirects": 0,
+    "mime": "application/pdf",
+    "range_status": 206,
+    "range_bytes_match_full": true,
+    "series_to_book_entry": true,
+    "book_page_all_three_direct_links": true,
+    "browser": "Production primary digital link opened Chrome native PDF viewer; cover and1/272pages visible.",
+    "evidence": "kb/records/evidence/book-downloads-20261108/live.json"
+  },
+  "maintenance": "For a new edition, update the checked-in PDF, descriptor hash/bytes/pages, release_file backup, Coast document declaration and integrity assertions together. Preserve distinct older editions and the publication size limit.",
+  "live_review": {
+    "result": "PASS",
+    "reviewer": "Drishti, separate agent",
+    "evidence": "kb/records/evidence/book-downloads-20261108/live-review.json",
+    "scope": "Independent anonymous headers for all3 public PDFs and review of exact full-body/range evidence; no human review claim."
+  }
 }

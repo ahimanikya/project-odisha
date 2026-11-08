@@ -1494,6 +1494,9 @@ Prepared exact reviewed DAMaN-team digital, print and introduction PDFs for same
 
 Registered POD-WORK-334 / POD-A500-143 / POD-EDIT-121 for the separately reviewed preparation and narrative-practice account. Preserved the completed Dongria direct-download receipt unchanged, installed the guarded Pattachitra package, and retained both photographs, reading paths and historical source records. Runtime testing required a route-specific neutral discovery description and two updated prose expectations. Publication and completion credit remain pending separate final review and actual delivery.
 
+### 8 November 2026 · Cinema direct downloads published and verified
+
+PR726 merged at fbec5eae after validated3cd89dd5; deployment42496570360 succeeded after the preceding Cinema release. Anonymous full downloads of the272-page screen edition,278-page print edition and6-page introduction match all reviewed hashes and sizes, return application/pdf without redirects, and support exact HTTP206 byte ranges. Both series-to-book and all three PDF links verified; Chrome opened the live digital PDF. Other audited book links remain available. [Receipt](../records/book-downloads-20261108.json).
 ### 8 November 2026 · DAMaN team and matching books published
 
 PR724 and deployment42496450895 succeeded. The combined team page, three named redirects and both downloaded PDFs match the reviewed edition:50online readings,49chapters,272digital pages and278print pages. Lavanya’s original story credit remains open. [Receipt](../records/cinema-daman-team-publication-2026-11-08.json).
@@ -1507,3 +1510,8 @@ Verified Kala Academy Goa’s original DVD/CD accession entry CD185 as a concret
 ### 8 November 2026 · The Waterfall and a named school audience
 
 Original IKFF India 2017 trailer attribution and festival dates independently verified, providing the missing programme connection to Abhyasa’s school-reported screening. The original school body remains available only as indexed text; the two statements are kept separately attributed. Loyola’s adjacent newsletter photographs do not identify its film. Research and a compact Cinema Economics candidate reviewed; public articles, images and both books are unchanged. The previously authorized Kala Academy CD185 enquiry has been sent and its reply is pending. [Research record](../records/cinema-school-programme-followup-2026-11-08.json).
+
+
+### 8 November 2026 · Dhaga and character direct-download preparation
+
+The Founder requested same-origin delivery for Dhaga and the character books. Six original character PDFs were retrieved with exact manifest hashes; the verified Dhaga PDF is staged during builds without committing the oversized file. Historical release backups remain. Capacity and independent delivery verification are pending; zero programme credit. [Handoff](../records/remaining-book-downloads-20261108.json).
