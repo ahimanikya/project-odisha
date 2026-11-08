@@ -1,0 +1,308 @@
+{
+  "status": "published_delivery_review_pass",
+  "findings": [],
+  "guard_requirements": [
+    "Preserve original Dhaga release descriptor identity and packing checks; both hosted workflows already hydrate before building. Generate110.4MB archive asset at build time, do not commit it as a Git blob.",
+    "Declare Dhaga /archive PDF in coast documents; character PDF paths belong in downloads, whose regex admits /characters PDFs.",
+    "Verify generated character hrefs and retain all six exact originals; historical release mappings remain provenance, not authoritative rewrites of current delivery.",
+    "Widen only explicit PNG directory scope and preserve APNG/header-change skips, non-enlargement, decoded RGBA identity and original non-IDAT chunk bytes.",
+    "Current inflated-scanline invariant checks the recompressed Sharp candidate, not original pre-Sharp scanlines; reports should not overclaim that.",
+    "Full final publication payload must be below exclusive1000000000-byte cap; estimate needs at least8637539bytes saved at stated baseline, then remeasure final tree.",
+    "Repeat exact hashes across generated stages and live GET/Range206 checks; artifact includes no symlinks."
+  ],
+  "observations": {
+    "ci_node_version": 24,
+    "ci_hydrates_Dhaga": true,
+    "existing_finalizer_distinguishes_documents_and_downloads": true,
+    "no_heavy_build_run_by_reviewer": true
+  },
+  "pending": [],
+  "implemented_review": {
+    "Dhaga_all_prior_descriptor_and_digest_guards_retained": true,
+    "only_validated_buffer_written_to_generated_archive": true,
+    "original_descriptor_hydrator_character_manifest_unchanged": true,
+    "character_HTML_only_exact_13_PDF_URL_replacements": true,
+    "ZIP_DOCX_and_other_content_unchanged": true,
+    "correct_coast_retention_memberships": true,
+    "seven_PDF_hashes_independently_checked_in_dist_and_dist_coast": true,
+    "test_changes_preserve_identity_and_rights_guards": true
+  },
+  "capacity_plan_supersedes_png_trial": "No optimizer changes; exact duplicate image references consolidated. Source originals retained, obsolete duplicate public URLs intentionally no longer emitted.",
+  "dedup_review": {
+    "mappings": [
+      {
+        "page": "/characters/films/malati-stay-a-moment/first-cut-v1.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/malati-stay-a-moment/revised-cut-v2.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/nilu-hold-this-end/first-cut-v1.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/nilu-hold-this-end/revised-cut-v2.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/chiku-round-the-stone/revised-cut-v2.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/chiku-round-the-stone/film-v3.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/saanta-wrong-ending/first-cut-v1.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/dinu-wait-a-moment/first-cut-v1.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/benu-my-story-first/first-cut-v1.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/koeli-little-sound/first-cut-v1.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      },
+      {
+        "page": "/characters/films/boita-small-bundle/index.html",
+        "same_bytes": true,
+        "hash_match": true,
+        "only_mapped_replacement": true
+      }
+    ],
+    "image_groups": 8,
+    "alias_paths_removed": 11,
+    "tests_reviewed": "source exact byte/hash tests, stage aliases-absent/canonicals-present and all HTML character-image link checks",
+    "findings": []
+  },
+  "reviewed_commit": "57041a9f4f7868189e0c175722ff118f4b54c67d",
+  "final_artifact": {
+    "pdfs": [
+      {
+        "file": "/characters/downloads/gudul-gudli-three-stories-v1.pdf",
+        "bytes": 24088311,
+        "hash": "563ad8643cc00da16e49ba7c87a6265b0bf96da2f6beec93447a638c99135a66",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+        "bytes": 5506729,
+        "hash": "e169b65f7c13e8d0f6c46adf5d9774757ccbde3cf3c2712b2b98ec9601527d00",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+        "bytes": 5176380,
+        "hash": "bc59951b796f267b1741b8457c6299b39a1e86e15aea614912f19a9997e8a820",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+        "bytes": 3891461,
+        "hash": "86b6098b86ab603a8e6da2a25e6a539a717cf51a430ec2a28780ecee86a2e98d",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+        "bytes": 13322690,
+        "hash": "c0c01abd3d59215885d6433273b338814ccc46c6a8fe69ae3772cdcc9cc92bab",
+        "pass": true
+      },
+      {
+        "file": "/characters/downloads/three-character-worlds-overview-v1.pdf",
+        "bytes": 2182423,
+        "hash": "dea0a69598489937652bea939164db9e58f44bc0da8b9b735e5782a50ce29aa6",
+        "pass": true
+      },
+      {
+        "file": "/archive/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+        "bytes": 110419594,
+        "hash": "cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b",
+        "pass": true
+      }
+    ],
+    "images": [
+      {
+        "path": "/characters/boita-sadhaba/assets/cast-natural-v2.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/benu-my-story-first/pencil-storyboard-v1.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/chiku-round-the-stone/first-cut-v1/colour-storyboard-v1.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/dinu-wait-a-moment/pencil-storyboard-v1.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/koeli-little-sound/colour-storyboard-v2.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/malati-stay-a-moment/pencil-storyboard-v3.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/nilu-hold-this-end/pencil-storyboard-v4.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      },
+      {
+        "path": "/characters/films/saanta-wrong-ending/colour-storyboard-v1.png",
+        "same_size": true,
+        "same_rgba": true,
+        "same_non_IDAT_chunks": true
+      }
+    ],
+    "references": [
+      {
+        "page": "/characters/films/malati-stay-a-moment/first-cut-v1.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/malati-stay-a-moment/revised-cut-v2.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/nilu-hold-this-end/first-cut-v1.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/nilu-hold-this-end/revised-cut-v2.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/chiku-round-the-stone/revised-cut-v2.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/chiku-round-the-stone/film-v3.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/saanta-wrong-ending/first-cut-v1.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/dinu-wait-a-moment/first-cut-v1.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/benu-my-story-first/first-cut-v1.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/koeli-little-sound/first-cut-v1.html",
+        "canonical_references": 2,
+        "expected": 2,
+        "alias_absent": true,
+        "alias_file_absent": true
+      },
+      {
+        "page": "/characters/films/boita-small-bundle/index.html",
+        "canonical_references": 1,
+        "expected": 1,
+        "alias_absent": true,
+        "alias_file_absent": true
+      }
+    ],
+    "payload": {
+      "bytes": 977896612,
+      "files": 2883,
+      "symlinks": 0,
+      "hardlinks": 0
+    },
+    "all_HTML_image_reference_scan": {
+      "checked": 6300,
+      "missing": []
+    }
+  },
+  "live_review": {
+    "evidence": [
+      "kb/records/evidence/remaining-book-downloads-20261108/live.json",
+      "kb/records/evidence/remaining-book-downloads-20261108/live-images.json"
+    ],
+    "seven_live_hashes_match_independently_reviewed_originals": true,
+    "eight_live_image_hashes_match_local_publication": true,
+    "landing_pages": 6,
+    "updated_image_pages": 11,
+    "no_stale_aliases_reported": true,
+    "http_range_and_no_redirect_checks": "pass",
+    "deployment_run_reported": 42503735494,
+    "merge_reported": "554deb1c",
+    "validation_run_reported": 42502224565,
+    "findings": [],
+    "limit": "Reviewed saved live evidence against independently checked artifact; no repeat large network downloads or independent Chrome session in this final pass."
+  }
+}
