@@ -1,5 +1,5 @@
 {
-  "status": "source_and_pdf_review_pass_pending_web",
+  "status": "pass",
   "scope": "Bounded independent review of four new language-source notes and two new narrative sections; no new fieldwork or audio validation.",
   "reviewed_source_sha256": "aa56fc90795b15988e812dc9e13ef1bcd7821a7e72eaa4731931ebc50c6dad9b",
   "evidence": [
@@ -20,7 +20,7 @@
     "notes_13_to_16_definitions_exact_web_KB": true
   },
   "limitations": [
-    "Responsive web review pending; PDF review bounded to revised chapter, transition, source page and contents.",
+    "Review scoped to new source additions, revised PDF chapter/source pages/contents, and both new web sections at 320/1280; not a new whole-series fact audit.",
     "Dictionary entries and audio were not independently tested; prose correctly avoids claiming validation.",
     "Review is AI-assisted, not community or linguistic-specialist endorsement."
   ],
@@ -49,5 +49,20 @@
     "preface-09.png",
     "preface-10.png",
     "spelling-25.png"
-  ]
+  ],
+  "reviewed_commit": "ac29d1f21f5fb19f8f6876e6a1b08130d95b9e25",
+  "web": {
+    "visual_captures_inspected": 4,
+    "widths": [
+      320,
+      1280
+    ],
+    "sections": [
+      "A name heard in Niyamgiri",
+      "Words across regions, voices in an archive"
+    ],
+    "result": "pass",
+    "note_click_back_evidence": "workspace output/dongria-language-20261108/web/browser.json",
+    "final_commit_delta": "Evidence snapshot renamed from .md to .snapshot.txt only; no prose or PDF change."
+  }
 }
