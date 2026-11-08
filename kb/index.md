@@ -29,6 +29,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Current cinema credit research: [Prateek’s two film roles](records/cinema-end-credits-2026-11-08.json). Original producer treatment verifies Remosam co-cinematography; two trailer closing cards verify additional script, research and subtitles for Ramaleelas of Odisha, shared with Puloma Pal. Separate review complete. Full-feature end cards remain uninspected; published articles and both book downloads unchanged.
+
 Current cinema publication: [Language, memory and matching book editions](records/cinema-language-documentaries-publication-2026-11-08.json). Published and live verified: the Futures documentary passage and271-page digital/278-page print downloads. Research and separate review complete within the recorded scope; two exact film-credit gaps remain excluded.52online readings/49book chapters; scope released.
 
 Earlier cinema addition: [Language, memory and documentary filmmaking](records/cinema-language-documentaries-2026-11-08.json). Subhashish Panigrahi’s Nani Ma and The Volunteer Archivists connect oral memory and Odia print preservation with cinema. Prateek Pattanaik’s Prahallada Nataka collaboration retains distinct field and support roles. Added to the Futures draft with compact notes; published downloads remain unchanged.
