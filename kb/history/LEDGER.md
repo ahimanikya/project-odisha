@@ -1524,3 +1524,8 @@ PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. 
 ## 2026-11-08 — Bandha implementation registered
 
 WORK335/A500144/EDIT123 is in progress under POD-DEC-225. The separately reviewed package is installed after the book-download owner explicitly released its scope; its exact receipt is preserved. EDIT122 is collection/navigation, with no credit. Programme completion remains143 pending actual publication and receipt.
+
+
+### 8 November 2026 · Download receipt merged; hosting capacity preparation
+
+Final download-verification receipt PR731 merged at b94cfe53 after required validation42507138549 passed. The Founder selected existing GitHub storage. Fourteen exact original character MP4s are uploaded to a versioned release;99 delivery links across39pages are prepared, with posters, captions, PDFs and original files preserved. Chrome trial playback, seeking and an English caption cue pass; independent source review passes. Full artifact and network verification remain pending; website delivery is not yet changed by this capacity update. [Handoff](../records/hosting-capacity-20261108.json).
