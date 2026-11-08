@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-08",
+  "scope": "Public film/credit discovery for Ramaleelas of Odisha, with direct media inspection delegated separately.",
+  "sources": [
+    {
+      "url": "https://miff.in/hi/film-program/ramaleelas-of-odisha",
+      "capture": "miff.html",
+      "finding": "Official film listing accessible directly; director/crew fields empty in received HTML. Production year2025 and synopsis present; official poster linked."
+    },
+    {
+      "url": "https://miff.in/storage/documents/2026/films/doc_6a2d26d26d30a.jpg",
+      "capture": "miff-poster.jpg",
+      "inspection": "Root visually read title and Directed, scripted & narrated by Shankhajeet De. Bottom credit text too small for confident Prateek-role verification; not transcribed."
+    },
+    {
+      "url": "https://fillum.in/user/3533",
+      "capture": "fillum.html",
+      "finding": "Twilight Film Club organiser listing identifies14February2026screening and links https://www.youtube.com/embed/UzJM7H2Webw for this film."
+    },
+    {
+      "url": "https://fillum.in/film/2749",
+      "capture": "fillum-film.html",
+      "finding": "Film page explicitly labels organiser-linked video Play Trailer; not a full screening file."
+    },
+    {
+      "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=UzJM7H2Webw&format=json",
+      "capture": "trailer-oembed.json",
+      "finding": "Public metadata confirms Long Trailer title and ShankhaTalks channel. Sent to Samanta for actual visual credit inspection."
+    },
+    {
+      "url": "https://ignca.gov.in/?s=Ramaleela",
+      "capture": "ignca-search.html",
+      "finding": "Producer-site public search returned a different interpretation-centre page, not this film. This is a bounded search result, not evidence no film exists."
+    },
+    {
+      "url": "https://caleidoscope.in/art-culture/ramaleelas-of-odisha-at-ignca",
+      "capture": "caleidoscope.html",
+      "finding": "Screening report carries a1200px IGNCAevent poster."
+    },
+    {
+      "url": "https://caleidoscope.in/wp-content/uploads/2026/02/Ramaleelas-of-Odisha-at-IGNCA-01.jpg",
+      "capture": "ignca-event-poster.jpg",
+      "inspection": "Root visually read IGNCAidentity,14February2026event, Directed/scripted/narrated byShankhajeetDe. NoPrateekcredit on this eventposter."
+    }
+  ],
+  "search_routes": [
+    "Exact title andPrateek credit searches",
+    "Video-host/director/producer discovery",
+    "IGNCA original site search",
+    "MIFF original listing andposter",
+    "Organiser screeningpage andlinked longertrailer",
+    "Screening announcement full-resolutionposter"
+  ],
+  "full_feature_found": false,
+  "negative_search_limit": "No full feature located in inspected results; do not infer no online copy exists.",
+  "media_receipt": "outputs/cinema-end-credits-20261108/ramaleelas-media/trailer-inspection.json",
+  "outreach": false,
+  "public_changes": false,
+  "captures": [
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/caleidoscope.html",
+      "sha256": "e623bfed59cb6d6bbdeb6aa658a665790ade25e5c3c9c2106f8e45421455e490"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/fillum-film.html",
+      "sha256": "9088d29478bd949078faf57d38885a8957c4b505d6e076d63c3a852f0c75fc15"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/fillum-poster.jpg",
+      "sha256": "66a0aa0240268b711ca9e386ca6852dc31b39c008eb87a7d5051d2f787a7cd2c"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/fillum.html",
+      "sha256": "185f8601fbdbdd8175b139b0cf79fa526df98f1408b99e7144797af6b0099f6e"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/ignca-event-poster.jpg",
+      "sha256": "fad864a0263dad86e201b6ea00b2bbf8795b74c58a8e1e6323414483a819d52d"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/ignca-search.html",
+      "sha256": "7b74ce950d13092ffeb3ee6569bb47e5f46f154dcf73b87f59bb7fdfc96ba3fc"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/miff-poster.jpg",
+      "sha256": "ba6ad3b57cf3521b528502aefb8a0241a112ce41dfb627f9c30db39c1e30117e"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/miff.html",
+      "sha256": "fc5eeec326d244f9c8969c0a6918e60c8b67fd111d768e8fef1ad068f765fccb"
+    },
+    {
+      "path": "outputs/cinema-end-credits-20261108/ramaleelas/trailer-oembed.json",
+      "sha256": "5965dda64f89c04e252630ff74b666c52236de78552e8532a33526f6a510a6fd"
+    }
+  ]
+}

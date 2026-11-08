@@ -1483,3 +1483,8 @@ Reuse the [dossier](../culture/cinema-series/language-documentaries-2026-11-08.j
 ### Documentary evidence completion · 8 November 2026
 
 [Bounded film/reception research](../culture/cinema-series/language-documentaries-completion-2026-11-08.json) records actual frame/subtitle inspection and exact credits, preserves unresolved Remosam/Ramaleelas final-credit wording, and supports the Futures passage. Do not repeat these searches without a new source or reader question.
+
+
+### Exact documentary roles · 8 November 2026
+
+Reuse the [credit follow-up](../culture/cinema-series/end-credits-2026-11-08.json) and [reviewed handoff](../../records/cinema-end-credits-2026-11-08.json). Newly accessible original O Foundation treatment dated12February2021 credits Prateek Pattanaik as Remosam co-cinematographer on page3. IGNCA’s official trailer at1:35 and organiser-linked long trailer at2:40 credit Puloma Pal and Prateek for additional script/research and subtitles; preserve the exact punctuation difference and Shankhajeet De’s separate direction/script/narration credit. These are verified producer-document and trailer credits, not full-feature end-card inspection. No public edits, book rebuild, outreach or publication. Reopen only on an identifiable full cut or new official credit sheet.

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "status": "bounded_research_complete_original_producer_credit_verified_final_card_unresolved",
+  "scope_released": true,
+  "new_primary_evidence": {
+    "url": "https://theofdn.org/assets/docs/remosam-film-treatment-2021.pdf",
+    "discovered_via": "Current producer film page Treatment link; replaces previously attempted wp-content address.",
+    "title": "Remosam — O Foundation treatment",
+    "date_on_page": "2021-02-12",
+    "pages": 3,
+    "inspection": "All3 pages individually rendered with native PDFKit and visually read.",
+    "exact_credit": "Co-Cinematographer: Prateek Pattanaik",
+    "locator": "PDF page3, credit block below Translation & interviews: Gobardhan Panda",
+    "other_credits": "Subhashish Panigrahi producer/director/cinematographer/editor on page2; Gobardhan Panda translation/interviews on page3.",
+    "claim_strength": "Direct original producer document, stronger than indexed snippet. It is a treatment dated2021, not a released-film end-credit card.",
+    "file": "treatment.pdf",
+    "sha256": "1b87a075bf86ef88d3aa07ab090002cfd8b3946132f1c7f599ec1cbd849a6187",
+    "bytes": 67150
+  },
+  "new_routes": [
+    {
+      "route": "Producer current-linked original treatment",
+      "result": "Success, original credit inspected; document contains no released-film media URL."
+    },
+    {
+      "route": "Producer linked public source repository",
+      "url": "https://github.com/ofdn/theofdn.org",
+      "inspection": "Public Git tree and exact Remosam markdown blob read via GitHubAPI; saved producer-remosam.md. Film links list IMDb only; treatment and poster assets present, no film/video embed.",
+      "source_blob": "https://api.github.com/repos/ofdn/theofdn.org/git/blobs/b80b143d89f37cecff5489c9cab39b23c093282e",
+      "limit": "Current source only, not exhaustive historical-repository search."
+    },
+    {
+      "route": "Producer video channel and focused video-host discovery",
+      "url": "https://www.youtube.com/channel/UCk4NuEPO6JbTm_8Ybod2eOQ/search?query=Remosam",
+      "inspection": "Public HTML retrieved; initial data contains search label but no video results. Web exact-title Vimeo/YouTube searches returned maker work page without a Remosam watch link, not a full cut.",
+      "limit": "Server response without results is not proof channel has no film; no signed-in/browser video search or hidden player endpoints used."
+    }
+  ],
+  "existing_reuse": "Prior exact Archive title search found only a Pusarke clip and Bonda-ghati B-roll, not a released cut; not repeated. Prior maker-uploaded Commons record independently supports video recording for film footage but is not final credits.",
+  "answer": "Prateek’s co-cinematographer credit is now verified in an actually inspected original producer treatment. Final onscreen credit remains unverified because no accessible released-film file was found through these routes.",
+  "safe_attributed_wording": "O Foundation’s 2021 treatment credits Prateek Pattanaik as co-cinematographer of Remosam.",
+  "public_word_budget_recommendation": 35,
+  "new_film_viewing": false,
+  "article_or_shared_records_changed": false,
+  "limits": [
+    "No full-film or final-credit viewing claim.",
+    "No broad film role inferred from clip, treatment or absence on current webpage.",
+    "No public asset rehosting, outreach or publication."
+  ]
+}
