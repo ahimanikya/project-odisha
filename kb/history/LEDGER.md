@@ -1466,3 +1466,17 @@ Followed the next research gap through the previously inaccessible Aaina report,
 ### 8 November 2026 · Lavanya Preeti’s literary source investigated
 
 Recovered the archived original CFSI title entry and a full 337-page 2004 literary tribute volume edited by Bauribandhu Kar. The team inspected front matter and five complete sections through PDF 49; the rest remains unread. Neither these selected sections nor the producer entry establishes an exact source-story title. Kept Bir’s credited script, Kedar–Gouri framing and the secondary Nilamani Sahu lead distinct. NBT’s 2014 selected-stories release offers a precise, still unread contents/introduction lead. Separate review passed; original evidence, limits and next-source requirements saved. Public articles and both books unchanged. No outreach, publication or programme credit. [Research record](../records/cinema-lavanya-literary-2026-11-08.json).
+
+
+### 8 November 2026 · Dongria language research integration
+
+Verified Hardenberg’s attributed Kuang Kata name and named teachers against original preview pages. Added scoped dictionary and OpenSpeaks examples to the language chapter, preserving language/script distinctions. Four source notes; public PDF rebuild and separate review in progress. [Record](../records/dongria-language-20261108.json).
+
+
+### 8 November 2026 · Dongria language chapter and public book published
+
+PR722 merged after validated head cd1a9db4; deployment42468942531 succeeded on retry after an unrelated GitHub download timeout. Live language page and book link checked; uploaded84-page PDF matches reviewed hash b03a6163… and retains99compact notes. New passages centre named language teachers and preserve regional/resource limits. Private editions unchanged. [Receipt](../records/dongria-language-20261108.json).
+
+### 8 November 2026 · DAMaN team consolidation prepared for publication
+
+The Founder authorized publishing the reviewed combined team profile and both matching book downloads. Three old profile routes retain named person destinations; all three portraits and the 49-chapter book remain. Lavanya Preeti’s original story credit and source title remain unresolved. Publication checks and exact asset delivery are in progress. [Release handoff](../records/cinema-daman-team-publication-2026-11-08.json).
