@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-07T22:06:23.166661+00:00",
+  "updated_at": "2026-11-08T03:30:28.302731+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3063,12 +3063,30 @@
       "id": "POD-EDIT-118",
       "route": "/food/patrapoda/",
       "title": "Patrapoda",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "article",
+      "source_template": "projects/site/src/components/PatrapodaArticle.astro",
+      "checks": {
+        "classification": true,
+        "source_draft_review": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/patrapoda-editorial-publication-2026-11-08.json",
+        "separate_review": "records/patrapoda-delivery-review-2026-11-08.json"
+      },
+      "evidence": [
+        "records/patrapoda-editorial-2026-11-08.json",
+        "records/patrapoda-editorial-publication-2026-11-08.json",
+        "records/patrapoda-delivery-review-2026-11-08.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-07T23:57:05.918Z",
+      "publication_receipt": "records/patrapoda-editorial-publication-2026-11-08.json"
     },
     {
       "id": "POD-EDIT-119",
@@ -13932,14 +13950,15 @@
         "records/cinema-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-publication-2026-11-07.json",
+      "publication_receipt": "records/cinema-language-documentaries-publication-2026-11-08.json",
       "revision_status": "published_verified",
-      "latest_local_revision": "records/cinema-futures-open-recommendations-2026-10-30.json",
-      "source_sha256": "ad4245f846c1b3c21770ea05e77e23493fe0fc6d6d4edd61019f67ee790da5c0",
+      "latest_local_revision": "records/cinema-language-documentaries-publication-2026-11-08.json",
+      "source_sha256": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd",
       "prior_publication_receipts": [
         "records/cinema-lives-and-future-publication-2026-10-26.json",
         "records/cinema-publication-2026-10-30.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-publication-2026-11-07.json"
       ],
       "publication": true,
       "editorial_stage": "published_verified",
@@ -13947,13 +13966,14 @@
       "next_action": "Reader feedback and distinct source-supported follow-up remain welcome.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "local_revision_followup": {
-        "record": "records/cinema-byoff-community-2026-11-05.json",
-        "date": "2026-11-05",
-        "status": "reviewed_local_revision",
+        "record": "records/cinema-language-documentaries-publication-2026-11-08.json",
+        "date": "2026-11-08",
+        "status": "published_verified",
         "source": "kb/research/culture/cinema-series/cinema-futures.md",
-        "source_sha256": "b80e9ac6f508dd66687bc74e002b9622647bf2287d4d07e91ebfc3cccdecb39a",
-        "implementation": "outputs/cinema-byoff-community-20261105/implementation.json",
-        "published": false
+        "source_sha256": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd",
+        "implementation": "outputs/cinema-language-documentaries-20261108/implementation.json",
+        "review": "outputs/cinema-language-publication-20261108/review/research-review.json",
+        "published": true
       },
       "local_revision_history": [
         {
@@ -13973,12 +13993,21 @@
           "source": "kb/research/culture/cinema-series/cinema-futures.md",
           "source_sha256": "3b7ef0988ef0ebd46f43a2b1f5dc2e9ae0d82588db186aca604a721754da35fa",
           "date": "2026-11-04"
+        },
+        {
+          "record": "records/cinema-byoff-community-2026-11-05.json",
+          "date": "2026-11-05",
+          "status": "reviewed_local_revision",
+          "source": "kb/research/culture/cinema-series/cinema-futures.md",
+          "source_sha256": "b80e9ac6f508dd66687bc74e002b9622647bf2287d4d07e91ebfc3cccdecb39a",
+          "implementation": "outputs/cinema-byoff-community-20261105/implementation.json",
+          "published": false
         }
       ],
       "latest_verified_publication": {
-        "receipt": "records/cinema-publication-2026-11-07.json",
-        "date": "2026-11-07",
-        "source_sha256": "f95b2870ce6490df271f55fd22d69a0ba2e0eff9b14cbbf5444e80bc9d6ceb4a"
+        "receipt": "records/cinema-language-documentaries-publication-2026-11-08.json",
+        "date": "2026-11-08",
+        "source_sha256": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd"
       }
     },
     {
@@ -19350,6 +19379,49 @@
       ],
       "blocker": null,
       "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-KALINGA-20261108",
+      "route": "/stories/reading-kalinga-beyond-odisha/",
+      "title": "Reading Kalinga Beyond Odisha’s Borders",
+      "status": "completed",
+      "scope": "history_heritage_feature",
+      "source_template": "projects/site/src/pages/stories/reading-kalinga-beyond-odisha.astro",
+      "checks": {
+        "classification": true,
+        "source_draft_review": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/kalinga-heritage-publication-2026-11-08.json",
+        "separate_review": "records/evidence/kalinga-heritage-2026-11-08/drishti.json"
+      },
+      "evidence": [
+        "records/kalinga-heritage-publication-2026-11-08.json"
+      ],
+      "blocker": null,
+      "completed_at": "2026-11-08T03:30:28.302731+00:00",
+      "publication_receipt": "records/kalinga-heritage-publication-2026-11-08.json"
+    },
+    {
+      "id": "POD-EDIT-HISTORY-HUB-20261108",
+      "route": "/history/",
+      "title": "History and heritage",
+      "status": "excluded",
+      "scope": "collection_navigation",
+      "source_template": "projects/site/src/pages/history/index.astro",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/kalinga-heritage-publication-2026-11-08.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Reading navigation for existing articles and the Kalinga feature, not a second substantive article."
     }
   ]
 }

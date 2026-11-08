@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "authorization": {
+    "status": "LOCAL_CHECKS_AUTHORIZED",
+    "local_go": true,
+    "reviewed_candidate": "ae5d3730caf5f2c580a1c99be24f4855172ab077",
+    "base": "http://127.0.0.1:8789",
+    "authority": "Root IMPLEMENT GO118 explicitly authorized1440/390 actual local browser/download verification; this checkout has installed uncommitted reviewed changes, not a deployed head."
+  },
+  "http": [
+    {
+      "url": "http://127.0.0.1:8789/food/patrapoda/",
+      "status": 200,
+      "headers": {
+        "server": "SimpleHTTP/0.6 Python/3.14.6",
+        "date": "Sat, 07 Nov 2026 23:03:41 GMT",
+        "content-type": "text/html",
+        "content-length": "935064",
+        "last-modified": "Sat, 07 Nov 2026 23:01:16 GMT"
+      },
+      "sha256": "aac836bfc955fae1f80f2869af042a7d964199ed39a81da74085b9dc804fae02",
+      "bytes": 935064,
+      "local_sha256": "aac836bfc955fae1f80f2869af042a7d964199ed39a81da74085b9dc804fae02",
+      "exact_local": true
+    },
+    {
+      "url": "http://127.0.0.1:8789/food/fire-cooking/",
+      "status": 200,
+      "headers": {
+        "server": "SimpleHTTP/0.6 Python/3.14.6",
+        "date": "Sat, 07 Nov 2026 23:03:41 GMT",
+        "content-type": "text/html",
+        "content-length": "940432",
+        "last-modified": "Sat, 07 Nov 2026 23:01:16 GMT"
+      },
+      "sha256": "7a57223cdf5d4dc0a7324be2bedc6a841df091f3588c44f2b11794a7eb89d932",
+      "bytes": 940432,
+      "local_sha256": "7a57223cdf5d4dc0a7324be2bedc6a841df091f3588c44f2b11794a7eb89d932",
+      "exact_local": true
+    }
+  ],
+  "checked_at": "2026-11-07T23:03:46.935Z",
+  "tested_head": "ae5d3730caf5f2c580a1c99be24f4855172ab077",
+  "working_tree_basis": "Local built preview only; no deployed/public completion claim.",
+  "article_source_sha256": "c6f67b866e1c7844f87b5e33fdb6361383b76ea1f42329947f6617c104dcc511",
+  "base": "http://127.0.0.1:8789",
+  "browser": "Actual headless Google Chrome",
+  "results": [
+    {
+      "actualTextDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/browser-run1/desktop-reading.txt",
+      "allParagraphsOnce": true,
+      "approvedPortableSources": true,
+      "name": "desktop",
+      "imageState": {
+        "src": "/images/food/fish-patrapoda.webp",
+        "currentSrc": "http://127.0.0.1:8789/images/responsive/44306ca4536becb8-960.webp",
+        "naturalWidth": 720,
+        "naturalHeight": 540,
+        "alt": "Fish steaks in an opened, charred leaf parcel with a yellow spice coating."
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "keyboardNoteReturns": 2,
+      "saveReload": true,
+      "actualOfflineDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/browser-run1/desktop-reading.html",
+      "allParagraphsAndShortSources": true
+    },
+    {
+      "actualTextDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/browser-run1/phone-reading.txt",
+      "allParagraphsOnce": true,
+      "approvedPortableSources": true,
+      "name": "phone",
+      "imageState": {
+        "src": "/images/food/fish-patrapoda.webp",
+        "currentSrc": "http://127.0.0.1:8789/images/responsive/21e58915cfb3c4ed-480.webp",
+        "naturalWidth": 358,
+        "naturalHeight": 269,
+        "alt": "Fish steaks in an opened, charred leaf parcel with a yellow spice coating."
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "keyboardNoteReturns": 2,
+      "saveReload": true,
+      "actualOfflineDownload": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/browser-run1/phone-reading.html",
+      "allParagraphsAndShortSources": true
+    }
+  ],
+  "mode": "local",
+  "limits": [
+    "Point-in-time Chrome check only; not assistive-technology or Firefox/WebKit testing.",
+    "Only live mode binds public deployment; local mode is not publication verification."
+  ]
+}

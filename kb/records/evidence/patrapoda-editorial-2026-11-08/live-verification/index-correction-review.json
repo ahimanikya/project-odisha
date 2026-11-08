@@ -1,0 +1,48 @@
+{
+  "decision": "PASS_EXACT_HEAD_INDEX_CORRECTION",
+  "reviewer": "Drishti, AI reviewer",
+  "reviewed_head": "e1b2ea4cc5efaab8dcfa4aa8d2febfc6869a9dc5",
+  "parent": "053b991e7d00f878b4bb0d99a09b29004684267b",
+  "checks": {
+    "clean_tree": true,
+    "changed_files": 2,
+    "concepts": 1505,
+    "unchanged_concepts": 1504,
+    "changed_concept": "food/machha-patrapoda",
+    "only_index_field_changed": "body",
+    "exact_appended_visible_words": 6,
+    "tested_site_files_unchanged": 13,
+    "record_only_changes": [
+      "source_budgets NDTV189→195",
+      "generated_index_correction addendum"
+    ]
+  },
+  "new_delivery_source_totals": {
+    "food-patrapoda-lopa2024": 139,
+    "food-patrapoda-senapati-ndtv": 195
+  },
+  "accounting": "Previous189 ledger includes the six-word KB annotation once but no search-index duplicate. Conservative additional charge is six words:189+6=195≤200. Lopa139 unchanged. Original189 reviewed evidence is preserved historically.",
+  "findings": [
+    "Exact indexed suffix matches the already reviewed linked annotation. All1504 other complete indexed objects, target metadata and ordering unchanged.",
+    "Only generated index and honest canonical budget addendum changed; article/site implementation and all other files remain exact to prior merged head.",
+    "First read-only check encountered the concurrent root commit before completing; rerun explicitly compares HEAD^→e1b2ea4c. No failed source assertion concealed."
+  ],
+  "limits": [
+    "No rebuild/browser/research or canonical/Git mutation.",
+    "This validates exact correction; original CI failure remains history and rerun CI success is not claimed."
+  ],
+  "bindings": [
+    {
+      "path": "kb/research/search-index.json",
+      "sha256": "dacc2ad279ef78766d27760c3a784491fffe5f400d46cc1496fc368ddac8e4da"
+    },
+    {
+      "path": "kb/records/patrapoda-editorial-2026-11-08.json",
+      "sha256": "70d7ee1ac57378ed7ddee97220a602db0d074ac461a866f70e35224b866d2be8"
+    },
+    {
+      "path": "outputs/patrapoda-editorial-2026-11-08/anvesha/aggregate-proposal.json",
+      "sha256": "4f45d5334bcbdb695a3b140f0b19d874a76afb6bbbc07e2d26c359df215250a4"
+    }
+  ]
+}

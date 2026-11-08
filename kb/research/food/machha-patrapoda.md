@@ -18,3 +18,5 @@ Contributor home version; not evidence of a unique Odisha invention.
 **To establish:** Fish species, leaf choice and local versions need finer attribution.
 
 [Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.
+
+[Senapati’s fish parcels cook on coal.](https://food.ndtv.com/recipe-machcha-patropoda-fish-wrapped-in-banana-leaf-559473)

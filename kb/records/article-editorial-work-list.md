@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1081. completed: 184, excluded: 624, queued: 273.
+Route inventory: 1083. completed: 186, excluded: 625, queued: 272.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -131,7 +131,7 @@ Route inventory: 1081. completed: 184, excluded: 624, queued: 273.
 | POD-EDIT-115 | [Odisha cooks with fire](https://projectodisha.org/food/fire-cooking/) | excluded | classification_pending |
 | POD-EDIT-116 | [Baigana poda](https://projectodisha.org/food/baigana-poda/) | completed | Substantive attributed preparation comparison; existing authored dish article, not utility classification. |
 | POD-EDIT-117 | [Tomato poda · bilati baigana poda](https://projectodisha.org/food/tomato-poda/) | completed | article |
-| POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | queued | classification_pending |
+| POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | completed | article |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | queued | classification_pending |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | queued | classification_pending |
 | POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | queued | classification_pending |
@@ -1105,3 +1105,5 @@ Route inventory: 1081. completed: 184, excluded: 624, queued: 273.
 | POD-EDIT-DHAGA-356-20261107 | [ଆମ୍ୱ ଗଛରେ ଆମ୍ୱ ନାହିଁ ଫୋପାଡ଼ କାହିଁକି ମାରୁ? ମୋ ଅଣ୍ଟାରେ ତ ପଇସା ନାହିଁ ଆଖି କାହିଁ ପାଇଁ ଠାରୁ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-356.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-357-20261107 | [ଆଳୁ ପତର, କି ସାରୁ ପତର, ସେ କି ହୋଇବ ପାନ? ପଛରେ ଯାହାକୁ ଭାରିଯା କରିବ, ସେ କି ଜାଣିବ ମନ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-357.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-358-20261107 | [ମନରେ ଅଛି କକରଣ,ମିଛେ ବୋଲେ ବନ୍ଧୁ ବସ ବସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-358.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-KALINGA-20261108 | [Reading Kalinga Beyond Odisha’s Borders](https://projectodisha.org/stories/reading-kalinga-beyond-odisha/) | completed | history_heritage_feature |
+| POD-EDIT-HISTORY-HUB-20261108 | [History and heritage](https://projectodisha.org/history/) | excluded | collection_navigation |

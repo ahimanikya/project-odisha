@@ -1,0 +1,106 @@
+{
+  "reviewer": "Drishti independent quality review",
+  "status": "PASS",
+  "reviewed_at": "2026-11-08T02:36:41.565834+00:00",
+  "base_head": "7b85f00c6038985c1385c68521966a63cd9ec32d",
+  "blocking_findings": [],
+  "file_sha256": {
+    "kb/research/stories/reading-kalinga-beyond-odisha.json": "8224cd7baa8bedb0b0d48fd29471c5d1a6988d1533cce68c1f49fb7c1cb470f1",
+    "projects/site/src/pages/stories/reading-kalinga-beyond-odisha.astro": "850038e3d828acbdea8fc46936af739c8ce16cc39d1df169a4462752f5afde88",
+    "projects/site/src/pages/history/index.astro": "f789f02b8069708a0fc99127e471264dd82293cc0f0aa84c460cf678637dbcbd",
+    "projects/site/src/data/discovery.ts": "1209f34f7d414b2037fd67bcf9b47efa5b2e0749346f3ba93482271b8dc42026",
+    "projects/site/src/data/journey-catalog.ts": "e189ae276acfe5b600993006988c4f0704e7225e20c0de8bcb3e27d0024b5f3f",
+    "projects/site/editions/coast.json": "566c564bde0f6e49985a70b6e850dea653f884df0ffef39969b81466249e3e46",
+    "projects/site/tests-coast/kalinga-heritage.test.mjs": "96cf66ccf318c6f687b695f1497392c724668f0161eb46a64c6e61b54e154567"
+  },
+  "checks": [
+    "Read narrative, source notes, editorial standard and handoff; provisional Rajaguru entry versus modern stone identity explicitly preserved.",
+    "Attributed temple/date/Chitreswari interpretations; full survey and local collaborator credits; documentation not called completed conservation.",
+    "All 28 article IDs unique; all 27 fragment links resolve; seven mapped sources with per-passage return links.",
+    "Source narrative plus footnote budgets independently counted: OrissaPOST115, Rajaguru154, INTACH82, launch44, ASIepigraphy61, ASIestampages76, Chitreswari91 words; compact catalogue duplicates retain under200 according to coordinator check.",
+    "Chrome local coastal preview inspected at desktop1212px and mobile390x844; article heading, prose, visible footnotes and history collection legible without observed clipping.",
+    "Clicked first source footnote and return link: URL and focus moved to source note and originating citation.",
+    "Clicked article history backlink; collection presents five connected readings, new article first; further/continue reading visible.",
+    "No routine AIprocesslabels in new pages; one shared editorial-process footer link perpage.",
+    "Reviewed three focused tests including saved-reading HTML/text exports; Samanta reports3/3PASS, coastalbuildPASS and disclosuregate1199pages0violations. Save export contains title and articleURL rather than duplicated sourced narrative."
+  ],
+  "limits": [
+    "No publication or live-site revision claim; exact committed-head check and CI/deploy receipts remain coordinator responsibility.",
+    "No full book review, physical-stone identity confirmation, interview, conservation verification or human editorial approval claimed.",
+    "Source retrieval validation delegated to Anvesha evidence review; this independent review checked prose attribution and mappings.",
+    "Browser save toggle not exercised; saved-reading export covered by focused tests and implementation review.",
+    "No new image rights obtained; text-first presentation uses established reading style."
+  ],
+  "exact_head_review": {
+    "head": "09c25d8e017d7f8af740681e91af18432f87cdd1",
+    "status": "PASS",
+    "checked_at": "2026-11-08T02:59:02.091999+00:00",
+    "scope": "All twelve reviewed implementation and registration files SHA256-identical in worktree and committed HEAD; worktree clean.",
+    "limits": "Full coastal rerun/publication build and required CI pending; no live-publication claim. Prior source and browser limits unchanged."
+  },
+  "ci_registration_delta_review": {
+    "status": "PASS",
+    "checked_at": "2026-11-08T02:47:37.817939+00:00",
+    "checks": [
+      "CI log actual1084 versus expected1082 explained by precisely two new page routes; expected static count148→150 preserves strict equality and all link/fragment loops.",
+      "Internal path guard still rejects kb/, registers/, research/ and every history/ file except exact history/index.html; no prefix or wildcard exemption.",
+      "Search candidate adds exactly two hold decisions for new public routes; existing approvals/decisions unchanged, separate search-launch policy preserved."
+    ],
+    "file_sha256": {
+      "projects/site/tests/build.test.mjs": "2c267137cbdb61e0e9b305b67d8df8cc2ba2d295a05368aad2a8d102f8acdb40",
+      "projects/site/editions/search-candidate.json": "fe207389df9f4ca8cf31ae743f2c7f2c5af6eac6e6b8255659005cbc27b6dc98"
+    },
+    "limits": "Full regression tests in progress; exact new committed-head check pending."
+  },
+  "coastal_registration_delta_review": {
+    "status": "PASS",
+    "checked_at": "2026-11-08T02:58:05.494511+00:00",
+    "checks": [
+      "Reading count58→59 accounts for precisely one saved article bookmark.",
+      "Explore counts169→171 account for article and history hub; displayed All count and rendered card count both updated, strict equality preserved.",
+      "Found generic practical.length>=2 conflict with deliberately single-section bookmark; corrected to exact Kalinga ID with deep equality of Continue online payload. Every other Reading retains >=2 guard and all retain nonempty sources.",
+      "No narrative, route policy, privacy guards or source mappings changed."
+    ],
+    "file_sha256": {
+      "projects/site/tests-coast/cuttack-literature.test.mjs": "f9cf9f49931821b861ae7d97308c08e7cf6fb46f38f3db59dba4affd5e0c66c0",
+      "projects/site/tests-coast/discovery-flow.test.mjs": "bdc4e6946f2474260e9b091c1df855bd7bbaeab0db6c33fb2a72fcd88d9b9bec",
+      "projects/site/tests-coast/edition.test.mjs": "f64bbaa8cc6eb78a8319ab68b8f21c043150f45d08ce42aa7880cfd1504ce3eb"
+    },
+    "limits": "Full coastal/publication tests in progress; new exact-head confirmation pending."
+  },
+  "independent_live_review": {
+    "status": "PASS",
+    "checked_at": "2026-11-08T03:33:21.028923+00:00",
+    "reviewer": "Drishti independent agent",
+    "deployment": {
+      "run": 42441904727,
+      "attempt": 2,
+      "head": "c4d6736aca20d36f54270afb7a677f09fd963880",
+      "conclusion": "success",
+      "verification": "Independent gh run view API read returned completed/success at stated exact head."
+    },
+    "checks": [
+      "Chrome live article opens with reviewed prose, byline, provisional identity caveat and seven visible notes.",
+      "Live desktop1212px and mobile390x844 screenshots readable; no observed clipping.",
+      "Clicked Rajaguru footnote2 and return: matching URL fragments and focus confirmed.",
+      "Clicked article→history; live mobile collection has five connected readings including new article.",
+      "Clicked history→Explore; both history collection and new article present as linked headings.",
+      "Restored temporary viewport override.",
+      "Git diff of canonical narrative/article template/history template reviewed09c25d8e to deploymentc4d6736a is empty.",
+      "Actual receipt distinguishes reviewed head, PR714 merge, later deployment carrier, CI completion, failed attempt/retry and pending receipt integration; programme_credit0 and scope_releasedfalse are truthful."
+    ],
+    "limits": [
+      "No source revisit, full-book or physical-stone verification.",
+      "Save toggle not exercised; export covered by reviewed tests.",
+      "Receipt remote integration remains pending; evidence carrier is distinct from article merge.",
+      "Live page content matching plus successful exact deployment used as revision basis; live HTML does not independently expose a commit marker."
+    ]
+  },
+  "actual_receipt_review": {
+    "status": "PASS",
+    "path": "kb/records/kalinga-heritage-publication-2026-11-08.json",
+    "checked_at": "2026-11-08T03:33:21.028923+00:00",
+    "scope": "Reviewed materialized receipt and saved merge/live/required-CI evidence; independent deployment API and live browser checks agree.",
+    "remote_integration": "pending"
+  }
+}

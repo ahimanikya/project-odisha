@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/tomato-poda-editorial-2026-11-07.json",
+  "handoff_home": "records/kalinga-heritage-publication-2026-11-08.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,18 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-KALINGA-20261108",
+    "route": "/stories/reading-kalinga-beyond-odisha/",
+    "owner": "Disha",
+    "phase": "receipt_integrated"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
     "kind": "article_receipt",
     "owner": "Disha",
     "status": "receipt_integration",
-    "article_id": "POD-EDIT-117",
-    "handoff": "records/tomato-poda-editorial-2026-11-07.json"
+    "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
   },
   "parallel_programmes": [
     {
@@ -103,15 +107,16 @@
     },
     {
       "name": "Cinema research and story expansion",
-      "handoff": "records/cinema-bapa-publication-2026-11-07.json",
+      "handoff": "records/cinema-language-documentaries-publication-2026-11-08.json",
       "status": "published_verified",
-      "scope": "Sequential integration of Bapa author testimony in writer and film articles",
-      "note": "Two reviewed Bapa additions and 271/276-page book downloads published and live verified; payment remains unresolved. Scope released; other ownership preserved.",
+      "scope": "Publish documentary addition and matching books after related deep research",
+      "note": "PR708 merged; deployment42423135690success. Futures and both271/278-page book downloads live verified. Bounded research complete with excluded final-credit gaps; other work preserved.",
       "active_article": null,
-      "scope_released": true
+      "scope_released": true,
+      "last_publication_handoff": "records/cinema-language-documentaries-publication-2026-11-08.json"
     }
   ],
-  "coordination_note": "116 receipt700 complete and released.117 implementation active through receipt; programme139 completed,140 in progress. B67 disjoint output-only research;358 public Dhagas and threeB65 proposals preserved. Other-owner Dongria records preserved.",
+  "coordination_note": "118 active through actual publication/live/receipt. Programme140 completed;141 in progress. B73 output-only complete/released;358public and7local proposals preserved.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
   "previous_task": {
@@ -194,6 +199,34 @@
       },
       "delivery_sha256": "767f01f15a2307eb91fd0dec5af9c043a5fe76e39d15934a20b6525e6d67680e",
       "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-117",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 707,
+      "receipt_merge": "ae5d3730caf5f2c580a1c99be24f4855172ab077",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-117",
+        "handoff": "records/tomato-poda-editorial-2026-11-07.json"
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-118",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 712,
+      "receipt_merge": "204d520770839aa85a30d775ac3c889ed930d348",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-118",
+        "handoff": "records/patrapoda-editorial-2026-11-08.json"
+      }
     }
   ],
   "dhaga358_receipt_pointer_history": [

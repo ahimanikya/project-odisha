@@ -56,8 +56,8 @@ test('Enduri portable reading keeps each paragraph, concise sources and original
  for(const key of ['creator','license_url'])assert.ok(book.includes(escapeHTML(photo[key])));
 });
 test('Enduri opt-in leaves another food article and its portable authorship unchanged',()=>{
- const other=page('/food/patrapoda/');assert.doesNotMatch(other,/Prepared with AI assistance/);assert.doesNotMatch(other,/class="article-byline"|id="story-sources"|<[^>]+class="[^"]*\benduri-editorial\b[^"]*"/);
- const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog,item=catalog.find(i=>i.id==='food:patrapoda');assert.ok(item);assert.equal(item.author,undefined);assert.ok(item.practical.every(p=>!p.paragraphs));
+ const other=page('/food/machha-besara/');assert.doesNotMatch(other,/Prepared with AI assistance/);assert.doesNotMatch(other,/class="article-byline"|id="story-sources"|<[^>]+class="[^"]*\benduri-editorial\b[^"]*"/);
+ const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog,item=catalog.find(i=>i.id==='food:konark-machha-besara');assert.ok(item);assert.equal(item.author,undefined);assert.ok(item.practical.every(p=>!p.paragraphs));
 });
 
 test('Enduri preserves the dining integration without inventing available venues',()=>{
