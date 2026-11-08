@@ -80,7 +80,8 @@
     "kb/research/references/data/source-catalog.json",
     "kb/research/stories/reading-kalinga-beyond-odisha.json",
     "kb/research/stories/reading-kalinga-beyond-odisha.md",
-    "projects/site/tests-coast/kalinga-heritage.test.mjs"
+    "projects/site/tests-coast/kalinga-heritage.test.mjs",
+    "kb/records/editorial-workbench.json"
   ],
   "quality_review": {
     "status": "PASS",
@@ -109,5 +110,11 @@
       "Imprint independently visually checked by Anvesha; selectedentry claims compared to root saved reading notes, not independently reread by Drishti.",
       "Exact committed-head review, required CI and live publication verification pending."
     ]
+  },
+  "ci_repair": {
+    "failed_run": 42450519263,
+    "reason": "Generated editorial-workbench index stale after three new source records.",
+    "repair": "Regenerated index, preserving frozen500selection; sixPython and threeNode tests PASS.",
+    "article_changed": false
   }
 }
