@@ -1,0 +1,43 @@
+{
+  "status": "CONTENT_PASS_PRINT_REFLOW_FINDING",
+  "scope_released": false,
+  "source_sha256": "e21301631cd784f76d17caca6a52759a7dbab312f87b6481c6b97e85fa5b3aaa",
+  "visual_scope": {
+    "digital": [
+      195,
+      196,
+      197,
+      198,
+      269,
+      270
+    ],
+    "print": [
+      195,
+      196,
+      197,
+      198,
+      270,
+      271
+    ],
+    "comparison": "Prior DAMaN print198 also viewed."
+  },
+  "findings": [
+    {
+      "page": "print198",
+      "severity": "layout correction recommended",
+      "detail": "New leaf contains only two continuation lines of the final paragraph and existing boat vignette/caption. Prior print198 began Futures; this is new sparse-tail reflow. Keep the full closing paragraph with the art using the established bounded mechanism, without reducing type or image size, and reassess. Root notified; no edits by reviewer."
+    }
+  ],
+  "passed": [
+    "Exact source diff adds only two attributed sentences and one compact source note. No outcome, attendance, version or payment inference.",
+    "Affected body paragraph and notes readable without clipping; note6 matches the reviewed school/festival sources.",
+    "Both49 current source hashes independently match canonical files; only Economics book body changed.",
+    "Digital maps identical. Print Futures and subsequent listed sections move+1; stable total278 does not mean map unchanged.",
+    "Covers unchanged; initial image differences are credit numbering/edition paths, pending final detailed receipt binding."
+  ],
+  "initial_pdf_hashes": {
+    "digital": "f50741862ebf2d250188be335a41e7816429ccd17531b2cb3bf952bccb25a80d",
+    "print": "49bfffc2c5de1d40f274f4455a377c89f4716952798d9276462642bc42fe8f1f"
+  },
+  "limits": "Not final artifact acceptance, whole-book visual audit or publication approval. Await root layout decision and any rebuilt artifacts."
+}

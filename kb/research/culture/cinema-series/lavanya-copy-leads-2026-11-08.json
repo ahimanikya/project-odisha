@@ -1,0 +1,140 @@
+{
+  "id": "POD-CINEMA-LAVANYA-COPY-LEADS-20261108",
+  "date": "2026-11-08",
+  "status": "research_only_copy_lead_verified_story_credit_unresolved",
+  "input_packets": [
+    {
+      "path": "outputs/cinema-lavanya-credit-followup-20261108/root/research.json",
+      "sha256": "d72935ec922bb8f3d12b4b1c99f03643295f177baa4065e417d2b5bfae9eff73"
+    },
+    {
+      "path": "outputs/cinema-lavanya-credit-followup-20261108/film-discovery/research.json",
+      "sha256": "b842b9a27252781e8845c617c4baf2a9b516c12aa8542efbe129473b18ec3a7d"
+    },
+    {
+      "path": "outputs/cinema-lavanya-credit-followup-20261108/film-discovery/dvd-source.json",
+      "sha256": "a69a990f7459eba4293bd830896b0f04a433da3b783acb0dd52df3579956f020"
+    },
+    {
+      "path": "kb/research/culture/cinema-series/lavanya-film-credits-2026-11-08.json",
+      "sha256": "eda10624a4083eb881c64cb3fce2b1c30e73ae1413c49cd045dbd2e45a8ae10b"
+    }
+  ],
+  "question": "Which original copy or maker record could establish Lavanya Preeti’s story credit and published source?",
+  "new_sources": [
+    {
+      "id": "lavanya-kala-academy-holding",
+      "type": "Original institutional DVD/CD accession register",
+      "institution": "Kala Academy Goa",
+      "url": "https://kalaacademygoa.co.in/wp-content/uploads/2025/07/Manual-6-A-statement-of-the-categories-of-documents-that-are-held-by-it-for-under-its-control-2.pdf",
+      "file": "outputs/cinema-lavanya-credit-followup-20261108/root/kala-academy-holdings.pdf",
+      "sha256": "6862bbe954a6af10f06dcfa9b4e1f713ca94c68b4911fd38fbdbd02ebabb1740",
+      "total_pdf_pages": 862,
+      "inspection": "Coordinator visually inspected PDF pages 544 and 573. This dossier reuses that inspection; it does not claim a whole-volume reading.",
+      "locators": {
+        "header": "PDF page 544, Accession_Register DVD,CDS",
+        "entry": "PDF page 573, accession CD185"
+      },
+      "record": {
+        "accession": "CD185",
+        "title": "Lavanya Preeti",
+        "author1": "Childrens Film Society India",
+        "publisher": "Childrens Film Society India",
+        "place": "Mumbai",
+        "year_raw": "0"
+      },
+      "supports": "The institution’s published register lists the title among its DVD/CD accessions.",
+      "limits": [
+        "Year 0 is unspecified, not the release year.",
+        "Author1 names CFSI in a library field, not an individual storywriter.",
+        "Current stock, copy condition, playability, consultation or borrowing availability and original credit content are unverified.",
+        "The URL has a July 2025 upload directory; acquisition date and current inventory status are not established."
+      ],
+      "library_context_url": "https://kalaacademygoa.co.in/library/"
+    },
+    {
+      "id": "lavanya-mirrored-dvd-list",
+      "type": "Secondary mirror of an undated distribution document",
+      "url": "https://www.scribd.com/document/1001177275/DVD-Purchase-Procedure",
+      "inspection": "Researcher read publicly extracted document text, not original PDF pixels or an authenticated CFSI-hosted copy.",
+      "locator": "Document page 5, entry 117; extracted lines 342–344",
+      "record": {
+        "title": "Lavanya Preeti (Loving Hearts)",
+        "duration_minutes": 81,
+        "year": 1993,
+        "listed_languages": "Oriya E.S.T / Oriya / Hindi"
+      },
+      "limits": "No story or writer credit, current stock or playback verified. The 81-minute mirror entry must not replace the producer catalogue’s 90-minute entry without version evidence."
+    }
+  ],
+  "new_access_checks": [
+    {
+      "route": "WAVES public interface",
+      "url": "https://www.wavespb.com",
+      "result": "Language selection opened; catalogue access then required login. No account details or OTP submitted. Whether this platform holds the film remains unknown."
+    },
+    {
+      "route": "NFDC and Cinemas of India",
+      "urls": [
+        "https://www.nfdcindia.com",
+        "https://www.cinemasofindia.com"
+      ],
+      "result": "Timeout or unreachable site; no inspectable title-specific release or media recovered."
+    },
+    {
+      "route": "Retained original CFSI title-page HTML",
+      "url": "https://www.cfsindia.org/labanya-preeti-loving-hearts/",
+      "archive_url": "https://web.archive.org/web/20230320200845/https://www.cfsindia.org/labanya-preeti-loving-hearts/",
+      "capture": "outputs/cinema-lavanya-literary-20261108/film-sources/cfsi-archived.html",
+      "result": "No embedded title-specific video. Buy DVD opens an enquiry modal, not a catalogue PDF; no enquiry sent.",
+      "locators": "Buy DVD line 202; enquiry modal lines 418–427; footer PDF link line 343.",
+      "observed_footer_url": "https://www.cfsindia.org/wp-content/uploads/2020/10/User-Charges.pdf",
+      "limit": "This is an observed User-Charges link, not a recovered original DVD list. Direct file and archive checks were inaccessible."
+    }
+  ],
+  "prior_evidence_retained": {
+    "bir_script": "Original 41st National Film Awards catalogue supports A.K. Bir’s script credit. This is distinct from an underlying-story attribution and has not been newly verified from film cards.",
+    "nilamani_sahu": "Secondary attribution remains a lead, not a verified original film story credit.",
+    "published_story_title_and_edition": "Unresolved. A verified writer name alone would not identify a published story or collection.",
+    "kedar_gouri": "Existing producer/NFA framing evidence does not establish adaptation of Radhanath Ray’s poem.",
+    "bounded_literary_readings": "Prior interview and essay readings retain their own locators and limits. No whole-book absence claim is made."
+  },
+  "film_evidence": {
+    "opening_frames_inspected": 0,
+    "end_frames_inspected": 0,
+    "audio_audition": false,
+    "full_film_viewing": false
+  },
+  "next_sources_ranked": [
+    {
+      "priority": 1,
+      "target": "Kala Academy Goa Library accession CD185",
+      "next_action": "If the Founder separately authorizes outreach, seek consultation or authenticated photographs of the title and complete story, screenplay and dialogue cards, including adjacent cards and exact timecodes.",
+      "why": "The strongest new original institutional holding record.",
+      "dependency": "Availability and condition remain unknown. No contact has occurred."
+    },
+    {
+      "priority": 2,
+      "target": "Authenticated CFSI/NFDC distribution document or disc matching mirrored entry 117",
+      "next_action": "Recover the original document from a newly established location, or inspect a lawful copy’s label/version metadata and then its credit cards.",
+      "why": "The 81-minute entry and listed language variants could identify a specific distribution version.",
+      "dependency": "Do not repeat the inaccessible User-Charges URL or generic title searches without a new location. A disc list cannot establish story credit."
+    },
+    {
+      "priority": 3,
+      "target": "Original literary title or edition explicitly linked by recovered film credits or a maker/source-author statement",
+      "next_action": "Follow the exact writer/story wording to the named collection’s title, contents and story pages, preserving edition and translation distinctions.",
+      "why": "Connects an original film credit to a published source without inferring from a generic writer field or synopsis.",
+      "dependency": "Requires an exact credit/title or new explicit maker reference; do not repeat the exhausted Archana Nayak preview or broad film-title queries."
+    }
+  ],
+  "editorial_decision": {
+    "public_revision": null,
+    "reason": "The evidence improves the route to a possible copy, not the literary attribution. Retain current public wording and keep the original story credit open.",
+    "new_public_derived_words": 0
+  },
+  "outreach": false,
+  "purchase": false,
+  "publication_performed": false,
+  "scope_released": true
+}
