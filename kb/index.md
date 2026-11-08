@@ -2,6 +2,8 @@
 okf_version: "0.2"
 ---
 
+- Cinema film-credit publication: [active release](records/cinema-film-credits-publication-2026-11-08.json) — precise Remosam and Ramaleelas roles; matching article and both book editions in review.
+
 # Project Odisha · project knowledge bundle
 
 **Discover Odisha. Imagine the possibilities.** Project Odisha (POD) is an instance of Odisha Blueprint. Existing record IDs now use POD; old UTP IDs resolve through the [identifier map](reference/project-id-aliases.json). This KB holds its actual project information and the knowledge behind its work.

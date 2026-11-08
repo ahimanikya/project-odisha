@@ -1450,3 +1450,7 @@ PR708 merged after exact-head validation. Deployment42423135690succeeded; the li
 ### 8 November 2026 · Prateek’s film credits checked against original sources
 
 Remosam’s current producer-linked treatment, internally dated12February2021, explicitly credits Prateek Pattanaik as co-cinematographer on page3. Actual closing cards in the official IGNCA trailer and an organiser-linked longer Ramaleelas of Odisha trailer name Puloma Pal and Prateek for additional script/research and subtitles. Separate visual review passed. Full-feature end cards remain uninspected; published articles and both book downloads unchanged. No outreach or programme credit. [Research handoff](../records/cinema-end-credits-2026-11-08.json).
+
+### 8 November 2026 · Verified film credits prepared for publication
+
+Added precise Remosam and Ramaleelas roles to the existing collaboration passage, retaining Puloma Pal’s shared credit and two compact notes. Independent content review passed; matching books are being checked under the Founder’s publication instruction. [Release handoff](../records/cinema-film-credits-publication-2026-11-08.json).
