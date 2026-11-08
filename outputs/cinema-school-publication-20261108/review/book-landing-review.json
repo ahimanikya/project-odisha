@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "required_corrections": [],
+  "input_hashes": {
+    "projects/site/src/pages/cinema/book.astro": "34db870294a01124f1d6458ed133fb06e5a3da523bca73d831b756cb78e905bd",
+    "outputs/cinema-school-publication-20261108/implementation/book-landing-copy.json": "4f245b5e7261a3e9f2293e089dc48d759b5a7e5247d1bffd5468a347603fb245",
+    "projects/site/src/data/cinema.json": "05ec0ea1967ad2a89becaf18813e02fa2289ac80f1393862683c264fb512b397",
+    "kb/research/culture/cinema-series/daman-team.md": "e31d6e2dd5ebe38b04f1be0c32b7d2b54e9201cc773875fa4f8edb4cfea22cfc",
+    "projects/site/src/pages/people/vishal-mourya.astro": "7c43e2753cee1d0fecd74e0e8da55b36dbcc86e067851b3f08db717f20487223",
+    "projects/site/src/pages/people/debi-prasad-lenka.astro": "ddb12227f44a0174dcfcd0f84acc33aa1d4aad1b2590cdbe1f20c9a4cd19d3d9",
+    "projects/site/src/pages/people/deependra-samal.astro": "eccfbe306beb8e63044e2a516360635f48f9beac2939bd82d4f7022ddf3db075"
+  },
+  "actual_checks": [
+    "Independently verified exact single sentence replacement and reverse SHA restoration to original book.astro bytes.",
+    "Current online collection contains the consolidated DAMaN team reading; all three former person routes redirect to their exact corresponding team anchors.",
+    "New sentence accurately distinguishes the integrated book profiles from their consolidated online presentation. No new biographical or source claim."
+  ],
+  "new_sentence": "Their profiles appear together in the online DAMaN team reading.",
+  "limits": [
+    "Copy-only static review; no fresh browser rendering or full build performed. Prior PDF/content review remains separate; hosted and live publication gates are not waived."
+  ],
+  "prior_final_review_sha256": "0c30c377ffb191e41a8091a7153d8c4524da5016ce4f81512b87dfa44641b93d",
+  "prior_final_review_unchanged": true
+}

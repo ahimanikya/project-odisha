@@ -1,0 +1,28 @@
+{
+  "coast_tests": {
+    "status": "pass",
+    "tests": 584,
+    "log": "outputs/cinema-school-publication-20261108/root/coast-tests.log"
+  },
+  "source_tests": {
+    "status": "pass",
+    "tests": 30,
+    "passed": 27,
+    "explicit_stage_skips": 3
+  },
+  "full_site_local_attempt": {
+    "status": "invalid_build_precondition",
+    "tests": 741,
+    "failed": 26,
+    "reason": "dist is the preserved dist-coast symlink; full-only routes/assets unavailable. Hosted CI must perform fresh full build and full suite before merge.",
+    "log": "outputs/cinema-school-publication-20261108/root/site-tests.log"
+  },
+  "browser_review": {
+    "route": "http://127.0.0.1:62137/cinema/cinema-economics/",
+    "new_passage_visible": true,
+    "compact_note_number": 6,
+    "two_source_links_present": true,
+    "unchanged_photograph": true
+  },
+  "publication_performed": false
+}

@@ -39,6 +39,8 @@ A different route into organising appears in **Abhishek Parija’s** account of 
 
 *The Waterfall* was made by [Lipika Singh Darai](../../people/lipika-singh-darai.md) for LXL Ideas’ School Cinema. Shot around Khandadhar and the nearby forests of Sundergarh, it has English and Hindi versions.[^school-film]
 
+Abhyasa’s account of its November 2017 school festival lists *The Waterfall* among the films shown. The festival’s own trailer identifies Lipika Singh Darai as the director.[^school-abhyasa]
+
 In a 2017 account, producer Syed Sultan Ahmed described choosing themes and selecting stories offered by independent filmmakers and scriptwriters. School Cinema describes screenings followed by discussion and workbook or digital activities, delivered by teachers with LXL training and support.[^school-cinema-model] For an Odia counterpart, makers and education partners could agree on a story, its language, payment and screening terms before production begins.
 
 Das’s journeys, Parija’s organising and the school programme bring me back to the question raised in my conversation with the *DAMaN* team: how does a good film reach people? Here are three specific routes. Transport, a venue, permission and working equipment still need to be arranged; so does the time of the people putting on the show. A public information programme, a film society, a school programme and a commercial theatre must each find a way to meet those costs.
@@ -60,6 +62,7 @@ The [final reading](cinema-futures.md) begins from these unfinished questions: w
 ## Footnotes & Sources
 
 [^school-film]: Lipika Singh Darai, [*The Waterfall*, official filmography](https://www.lipikasinghdarai.com/films).
+[^school-abhyasa]: Abhyasa, [school festival report](https://abhyasaschool.org/first-international-kids-films-festival-on-india-ikffi-in-abhyasa.html), 14–19 November 2017; SCIFF, [*The Waterfall | IKFF India 2017*](https://www.youtube.com/watch?v=nplYz453zk4), 29 December 2017.
 [^school-cinema-model]: Akhila Damodaran, [“City’s movie lessons win national honour,” The New Indian Express, 4 May 2017](https://www.newindianexpress.com/bengaluru/2017/May/03/citys-movie-lessons-win-national-honour-1600687.html); School Cinema, [programme description](https://schoolcinema.lxl.in/about-us).
 
 [^eco-maya-finance]: The New Indian Express, “Maya Miriga is Nirad’s gift to Odia cinema,” 22 September 2024. Sabita Mohanty’s Rs 4 lakh loan recollection; total budget unspecified. [Read source](https://www.newindianexpress.com/states/odisha/2024/Sep/22/maya-miriga-is-nirads-gift-to-odia-cinema).

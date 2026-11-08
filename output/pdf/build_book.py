@@ -704,7 +704,7 @@ for index,slug in enumerate(order,1):
     break
  # For selected short endings, prefer a coherent section over a detached tail.
  # Include an existing closing bridge, but never bind images or more than 300pt.
- if slug in TAIL_SPACING_CHAPTERS or slug=='gourahari-das':
+ if slug in TAIL_SPACING_CHAPTERS or slug=='gourahari-das' or (PRINT and slug=='cinema-economics'):
   if isinstance(story[-1],KeepTogether) and all(isinstance(f,Paragraph) for f in flatten_flows([story[-1]])):
    story.extend(flatten_flows([story.pop()]))
   end=len(story);start=end

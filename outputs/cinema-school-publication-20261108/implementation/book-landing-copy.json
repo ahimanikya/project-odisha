@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "scope_released": true,
+  "file": "projects/site/src/pages/cinema/book.astro",
+  "before_sha256": "c2068629092de8a20354d2b2828df55cd4f15a2cc733690ed018e76fc3b80755",
+  "after_sha256": "34db870294a01124f1d6458ed133fb06e5a3da523bca73d831b756cb78e905bd",
+  "old_sentence": "Their individual pages remain in the online collection.",
+  "new_sentence": "Their profiles appear together in the online DAMaN team reading.",
+  "exact_reverse_preservation": true,
+  "diff": "--- projects/site/src/pages/cinema/book.astro before\n+++ projects/site/src/pages/cinema/book.astro after\n@@ -20,7 +20,7 @@\n  <article class=\"article-reading cinema-book\"><p><a href=\"/cinema/\">← The cinema readings</a></p><h1>Odia Cinema:<br/>A Living Screen</h1><p>Stories, People and the Places Between</p><ArticleByline author=\"Ahimanikya Satapathy\"/>\n \n   <p>The collection opens with <a href=\"/cinema/the-question-that-brought-me-here/\">The Question That Brought Me Here</a>, the author’s personal introduction. The online collection brings {cinema.articles.length} readings into {cinema.parts.length} parts, with connecting threads, a people guide, dated turning points and linked image credits.</p>\n-  <p>In the book, DAMaN’s three filmmaker profiles are woven into its chapter. Their individual pages remain in the online collection.</p>\n+  <p>In the book, DAMaN’s three filmmaker profiles are woven into its chapter. Their profiles appear together in the online DAMaN team reading.</p>\n   <p><a href={cinema.standalone_intro.file}>The Question That Brought Me Here — standalone PDF</a>. {cinema.standalone_intro.pages} pages, {mb(cinema.standalone_intro.bytes)}.</p>\n   <h2>{candidate?'Review PDF edition':'Available PDF edition'} · {editionDate}</h2>\n   <p>These downloads contain {current.readings} readings in the {candidate?'review':'published'} edition dated {editionDate}, with linked sources and image credits. {candidate?'This edition is available here for review; earlier published downloads remain below.':'The online readings may include later revisions.'}</p>\n",
+  "validation": "Exactly one plain-text sentence replaced; reverse replacement restores original bytes. No markup, styles, links or PDF changes.",
+  "build_performed": false
+}

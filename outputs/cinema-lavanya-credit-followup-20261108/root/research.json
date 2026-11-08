@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-08",
+  "status": "original_institutional_holding_verified_credit_unresolved",
+  "scope_released": true,
+  "source": {
+    "title": "Kala Academy Goa, Manual6: categories of documents held; Accession_Register DVD,CDS",
+    "url": "https://kalaacademygoa.co.in/wp-content/uploads/2025/07/Manual-6-A-statement-of-the-categories-of-documents-that-are-held-by-it-for-under-its-control-2.pdf",
+    "file": "outputs/cinema-lavanya-credit-followup-20261108/root/kala-academy-holdings.pdf",
+    "sha256": "6862bbe954a6af10f06dcfa9b4e1f713ca94c68b4911fd38fbdbd02ebabb1740",
+    "pdf_pages": 862,
+    "entry_pdf_page": 573,
+    "table_header_pdf_page": 544,
+    "capture_date": "2026-11-08",
+    "date_limit": "URL upload directory says2025/07; no date of acquisition, current stock check or copy condition established."
+  },
+  "visual_inspection": {
+    "method": "Rendered complete original PDF pages544 and573 with pdftoppm and visually inspected both images. pypdf extraction located the register heading; the web screenshot service failed first.",
+    "images": [
+      "outputs/cinema-lavanya-credit-followup-20261108/root/kala-page-544.png",
+      "outputs/cinema-lavanya-credit-followup-20261108/root/kala-page-573.png"
+    ],
+    "film_frames": 0
+  },
+  "entry": {
+    "Acc No": "CD185",
+    "Author1": "Childrens Film Society India",
+    "Title": "Lavanya Preeti",
+    "Year": "0",
+    "Place": "Mumbai",
+    "Publisher": "Childrens Film Society India"
+  },
+  "findings": [
+    {
+      "claim": "The official institution document lists LavanyaPreeti as CD185 in its DVD/CD accession register.",
+      "status": "Verified institutional-record claim.",
+      "limit": "Not evidence the disc currently exists, plays fully, has original credits, is available online or can be borrowed; Author1 is a library field namingCFSI, not the individual storywriter. Year0 is an unspecified catalogue value, not the release year."
+    },
+    {
+      "claim": "The official library page says researchers,students,staff,musicians andart lovers fromIndiaandabroad use thecollection.",
+      "url": "https://kalaacademygoa.co.in/library/",
+      "status": "Original publicinstitutionstatement.",
+      "limit": "No entitlement to copy,loan orremotecreditextract inferred."
+    }
+  ],
+  "search_routes": [
+    {
+      "route": "Internationalfestival/catalogue discovery",
+      "queries": [
+        "LavanyaPreeti story Nilamani",
+        "LovingHearts Bir filmfestival",
+        "LavanyaPreeti Sweden BUFF1997",
+        "LavanyaPreeti site:svenskfilmdatabas.se",
+        "LavanyaPreeti site:bfi.org.uk ORsite:osaka-eigasai.com ORsite:filmfestival.gr"
+      ],
+      "result": "No new inspectable originalstorycredit; secondarySwedenreleaselead not verified. Nonmatching results not retained as evidence."
+    },
+    {
+      "route": "Character-name/literary-source query",
+      "queries": [
+        "ନୀଳମଣି ବିଦ୍ୟୁଲତା",
+        "Nilamani Sahu Gopal",
+        "ଲାବଣ୍ୟପ୍ରୀତି ଗଳ୍ପ"
+      ],
+      "result": "No source-story title ororiginalcredit recovered. No inference from synopsis similarity."
+    },
+    {
+      "route": "Disc/catalogue discovery",
+      "queries": [
+        "LavanyaPreeti DVD library",
+        "LavanyaPreeti DVD"
+      ],
+      "result": "Original KalaAcademy accession register recovered; mirroredCFSI DVDprocedure onScribd entry117 remains lead awaiting originaldocument retrieval. No film playback."
+    }
+  ],
+  "claim_decisions": {
+    "screenplay": "Reuse original41stNFA Bir scriptcredit, not sameas originalstorycredit.",
+    "story_author": "NilamaniSahu remains an unverified secondary attribution atfilmcredit level.",
+    "source_story_title_edition": "Unresolved.",
+    "embedded_kedar_gouri": "Priorproducer/NFA support for traditionalframing retained; not proof ofRadhanathRay poem adaptation."
+  },
+  "next_action": {
+    "best_concrete_copy_lead": "Kala Academy Goa Library accession CD185. If the Founder chooses outreach, ask for consultation or authenticated photographs of the opening and closing story-credit cards. No message has been sent.",
+    "needed_from_copy": [
+      "titlecard identifyingfilm andlanguage/version",
+      "complete story/screenplay/dialoguecards including immediatelyadjacentcards",
+      "correspondingtimecodes andunmodifiedscreenshots",
+      "sourceedition evidence ifcardnames onlywriter, notstorytitle"
+    ]
+  },
+  "public_changes": false,
+  "outreach": false,
+  "purchase": false,
+  "new_public_derived_words": 0,
+  "search_route_note": "Search queries above are shorthand descriptions, not byte-exact query transcripts; tool history contains exact submitted queries. No match is not proof of absence."
+}

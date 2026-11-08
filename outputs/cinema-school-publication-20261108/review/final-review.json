@@ -1,0 +1,86 @@
+{
+  "status": "PASS_CONTENT_AND_FINAL_ARTIFACTS",
+  "scope_released": true,
+  "required_corrections": [],
+  "input_hashes": {
+    "outputs/cinema-school-publication-20261108/source-review.json": "fba1b4a1c7b557df73a426a61585ce19bc726330813cb8d0a157bb7987b27d43",
+    "outputs/cinema-school-publication-20261108/implementation/implementation.json": "56ec8768f23fbd2dc542e8d1862e14fe94e2caa2769e1cb0e809f17a9016bfa5",
+    "outputs/cinema-school-publication-20261108/book-release-manifest.json": "b780cb00502a27e86ded008fc29add731372325aadb1cfd83e8395e74606e68e",
+    "kb/research/culture/cinema-series/cinema-economics.md": "e21301631cd784f76d17caca6a52759a7dbab312f87b6481c6b97e85fa5b3aaa",
+    "projects/site/src/data/cinema.json": "05ec0ea1967ad2a89becaf18813e02fa2289ac80f1393862683c264fb512b397",
+    "output/pdf/build_book.py": "24b04910fc4abff3fd6ff9a38bdf88be702f7abb3b262d10fcac5d52c8a0caf4",
+    "projects/site/editions/coast.json": "67af49e8393b36e080542dc2c6ec9c854c1e37ec7ff93efd33e0cdf9e718ecf8",
+    "projects/site/tests/book-downloads.test.mjs": "98f9113bbd0b80221b5bd91a9dc96726b1d4611df67169fd734e086aa5d45de6",
+    "tmp/pdfs/2026-11-08-school-audience/digital/book-build-2026-11-08-school-audience.json": "2183940ff314c6375e03428775c77cb7bcaeaa55e5fc6e97a8182f14e7cf3e9f",
+    "tmp/pdfs/2026-11-08-school-audience/print/book-build-2026-11-08-school-audience.json": "066ccef6e989b5ba5526a115748b747c6561c56d02aae14590e8bd70c62130cd",
+    "outputs/cinema-school-publication-20261108/implementation/digital-book-build.json": "2183940ff314c6375e03428775c77cb7bcaeaa55e5fc6e97a8182f14e7cf3e9f",
+    "outputs/cinema-school-publication-20261108/implementation/print-book-build.json": "066ccef6e989b5ba5526a115748b747c6561c56d02aae14590e8bd70c62130cd"
+  },
+  "pdfs": {
+    "digital": {
+      "sha256": "f50741862ebf2d250188be335a41e7816429ccd17531b2cb3bf952bccb25a80d",
+      "pages": 272
+    },
+    "print": {
+      "sha256": "79aa3dbaa2c2c04ae116d225e0d00af257b4392506bb860f0ee300488743e391",
+      "pages": 278
+    }
+  },
+  "counts": {
+    "online_readings": 50,
+    "book_chapters": 49,
+    "notes": 543,
+    "image_placements": 62
+  },
+  "actual_visual_scope": {
+    "digital": [
+      195,
+      196,
+      197,
+      198,
+      269,
+      270
+    ],
+    "final_print": [
+      196,
+      197,
+      198,
+      199,
+      235,
+      270
+    ],
+    "first_pass_print": [
+      195,
+      196,
+      197,
+      198,
+      270,
+      271
+    ],
+    "comparison": "Prior DAMaN print198 viewed to identify new sparse-tail leaf."
+  },
+  "resolution": "The first-pass print198 contained two continuation lines and boat art. Final print198 retains the complete final heading and both paragraphs with the unchanged art. Print197 ends at a coherent section boundary; Futures199 and guide235 are legible. No clipping, stranded caption or orphan note found in inspected pages. Initial finding retained in initial-review.json.",
+  "source_review": "Exact canonical diff adds only the two separately attributed school/festival sentences and compact note. Prior independently inspected original festival description/card establishes the programme identity bridge; school event remains attributed to indexed school report. No outcomes, attendance, version or payment claim.",
+  "independent_preservation_checks": [
+    "Recomputed both final PDF hashes and all49 canonical source bindings per edition. Only Economics book body differs from prior DAMaN edition; all48 other chapter bodies unchanged.",
+    "All62 image records agree with prior edition after excluding embedded file paths and incremented credit numbers. Integrated profile source records and cover hashes unchanged.",
+    "Digital chapter/page maps unchanged. Print Futures and following sections/endmatter shift+1; both reference maps stable. Total page counts unchanged is not claimed as unchanged pagination.",
+    "Builder diff is one condition enabling existing bounded<=300pt closing-paragraph grouping for print Economics only; no font/style/image changes. Digital bytes unchanged by reflow.",
+    "Updated manifest, actual same-origin archive copies and data bind final79aa3d print/51785133bytes and unchanged digital. Coast list replaces only previous current two PDF entries; archive metadata retains previous GitHub links and standalone introduction."
+  ],
+  "validation_limits": [
+    "This is scoped artifact/content acceptance, not publication completion or whole-book manual review.",
+    "Coordinator reports initial coast584 tests pass. Final metadata rebuild is pending. Full-site local test attempt pointed to coast-only dist and failed26 missing full routes; it is not counted as a passing full-site suite.",
+    "Required clean hosted full-site/publication checks and actual live/download verification remain publication gates.",
+    "No new browser interaction or website screenshot inspection in this artifact review; root owns site QA."
+  ],
+  "publication_performed": false,
+  "manifest_metadata_refresh": {
+    "status": "PASS",
+    "changes": "Reviewed-candidate status and independent-review path added; durable build-receipt paths replace temporary paths. Both receipt copies are byte-identical to the reviewed originals; PDF hashes and release asset values unchanged.",
+    "byte_identical_receipts": [
+      "outputs/cinema-school-publication-20261108/implementation/digital-book-build.json",
+      "outputs/cinema-school-publication-20261108/implementation/print-book-build.json"
+    ]
+  }
+}
