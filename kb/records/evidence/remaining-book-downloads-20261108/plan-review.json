@@ -1,0 +1,24 @@
+{
+  "status": "plan_review_complete_final_integration_pending",
+  "findings": [],
+  "guard_requirements": [
+    "Preserve original Dhaga release descriptor identity and packing checks; both hosted workflows already hydrate before building. Generate110.4MB archive asset at build time, do not commit it as a Git blob.",
+    "Declare Dhaga /archive PDF in coast documents; character PDF paths belong in downloads, whose regex admits /characters PDFs.",
+    "Verify generated character hrefs and retain all six exact originals; historical release mappings remain provenance, not authoritative rewrites of current delivery.",
+    "Widen only explicit PNG directory scope and preserve APNG/header-change skips, non-enlargement, decoded RGBA identity and original non-IDAT chunk bytes.",
+    "Current inflated-scanline invariant checks the recompressed Sharp candidate, not original pre-Sharp scanlines; reports should not overclaim that.",
+    "Full final publication payload must be below exclusive1000000000-byte cap; estimate needs at least8637539bytes saved at stated baseline, then remeasure final tree.",
+    "Repeat exact hashes across generated stages and live GET/Range206 checks; artifact includes no symlinks."
+  ],
+  "observations": {
+    "ci_node_version": 24,
+    "ci_hydrates_Dhaga": true,
+    "existing_finalizer_distinguishes_documents_and_downloads": true,
+    "no_heavy_build_run_by_reviewer": true
+  },
+  "pending": [
+    "Measured scope savings and exact image invariants",
+    "Final integrated source/tests and candidate head",
+    "Final payload/route and live delivery verification"
+  ]
+}

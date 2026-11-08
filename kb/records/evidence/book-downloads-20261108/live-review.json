@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "deployment_run": 42496570360,
+  "deployed_head_reported": "fbec5eae",
+  "evidence_review": {
+    "file": "kb/records/evidence/book-downloads-20261108/live.json",
+    "all_three_complete_GET_hashes_and_lengths_match_reviewed_PDFs": true,
+    "all_three_range_checks_match_full_body": true,
+    "book_links_and_series_entry_recorded_pass": true
+  },
+  "independent_availability": [
+    {
+      "url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
+      "method": "anonymous curl HEAD without redirect following",
+      "status": 200,
+      "content_type": "application/pdf",
+      "content_length": 38850788,
+      "accept_ranges": "bytes"
+    },
+    {
+      "url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-print-2026-11-08-daman-team.pdf",
+      "method": "anonymous curl HEAD without redirect following",
+      "status": 200,
+      "content_type": "application/pdf",
+      "content_length": 51419386,
+      "accept_ranges": "bytes"
+    },
+    {
+      "url": "https://projectodisha.org/archive/the-question-that-brought-me-here-2026-11-06.pdf",
+      "method": "anonymous curl HEAD without redirect following",
+      "status": 200,
+      "content_type": "application/pdf",
+      "content_length": 992878,
+      "accept_ranges": "bytes"
+    }
+  ],
+  "limitations": [
+    "Independent checks were headers only; full-body and range validation reviewed from coordinator evidence, not repeated.",
+    "Initial restricted Python request failed DNS; direct curl checks subsequently succeeded.",
+    "No new editorial or physical print review."
+  ],
+  "findings": []
+}
