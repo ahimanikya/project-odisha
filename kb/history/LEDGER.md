@@ -1454,3 +1454,8 @@ Remosam’s current producer-linked treatment, internally dated12February2021, e
 ### 8 November 2026 · Verified film credits prepared for publication
 
 Added precise Remosam and Ramaleelas roles to the existing collaboration passage, retaining Puloma Pal’s shared credit and two compact notes. Independent content review passed; matching books are being checked under the Founder’s publication instruction. [Release handoff](../records/cinema-film-credits-publication-2026-11-08.json).
+
+
+### 8 November 2026 · Dongria language research integration
+
+Verified Hardenberg’s attributed Kuang Kata name and named teachers against original preview pages. Added scoped dictionary and OpenSpeaks examples to the language chapter, preserving language/script distinctions. Four source notes; public PDF rebuild and separate review in progress. [Record](../records/dongria-language-20261108.json).

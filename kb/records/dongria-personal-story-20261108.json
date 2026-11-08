@@ -1,6 +1,6 @@
 {
   "id": "POD-DONGRIA-PERSONAL-STORY-20261108",
-  "status": "built_pending_review",
+  "status": "published_verified",
   "authorization": "User requested website and book use dinner party with friends instead of naming venue.",
   "scope": "Personal author note and opening preview; current public PDF and website.",
   "reserved_files": {
@@ -16,7 +16,7 @@
     ]
   },
   "programme_credit": 0,
-  "publication": false,
+  "publication": true,
   "pdf": {
     "sha256": "39c06649c29c83c6b7adc0b21ed4575a895960cbe8e2b441d6b91af809765a71",
     "bytes": 17685328,
@@ -29,5 +29,71 @@
     "technical_checks": "pass",
     "root_page_visual_check": "pass"
   },
-  "historical_evidence": "Original dated source captures and prior release receipts preserved."
+  "historical_evidence": "Original dated source captures and prior release receipts preserved.",
+  "reviewed_head": "2e3efa1bc8278a99aa5425a5f2b2baa8cdc45eda",
+  "review": "Drishti separate PDF/page-stream, wording and desktop/mobile review: pass",
+  "technical": {
+    "status": "pass",
+    "build": "npm run build including Dhaga export passed",
+    "tests": 7,
+    "tests_passed": 7,
+    "browser": [
+      {
+        "route": "/stories/dongria/",
+        "width": 320,
+        "copy": true,
+        "overflow": false
+      },
+      {
+        "route": "/stories/dongria/book/",
+        "width": 320,
+        "copy": true,
+        "overflow": false
+      },
+      {
+        "route": "/stories/dongria/",
+        "width": 1280,
+        "copy": true,
+        "overflow": false
+      },
+      {
+        "route": "/stories/dongria/book/",
+        "width": 1280,
+        "copy": true,
+        "overflow": false
+      }
+    ],
+    "visual_review": "All four author-note and opening-preview screenshots inspected; readable and unclipped.",
+    "source_scope": "Exactly two authorized wording replacements plus source PDF hash requested by root; no other prose changes.",
+    "source_pdf_sha256": "39c06649c29c83c6b7adc0b21ed4575a895960cbe8e2b441d6b91af809765a71",
+    "candidate_head": "2e3efa1bc8278a99aa5425a5f2b2baa8cdc45eda"
+  },
+  "pdf_live": {
+    "url": "https://github.com/ahimanikya/project-odisha/releases/download/dongria-reading-20261107/dongria-kondh-public-reading.pdf",
+    "bytes": 17685328,
+    "sha256": "39c06649c29c83c6b7adc0b21ed4575a895960cbe8e2b441d6b91af809765a71",
+    "matches_reviewed": true
+  },
+  "website_live": [
+    {
+      "route": "/stories/dongria/",
+      "status": 200,
+      "new_wording": true,
+      "old_venue_absent": true,
+      "book_link_preserved": true
+    },
+    {
+      "route": "/stories/dongria/book/",
+      "status": 200,
+      "new_wording": true,
+      "old_venue_absent": true,
+      "book_link_preserved": true
+    }
+  ],
+  "pull_request": 718,
+  "merge_commit": "1c808de7cf9ae9c77fda6e96ee9f5b1cfde67f3d",
+  "validation_run": 42449869245,
+  "deployment_run": 42450949576,
+  "deployment_result": "success",
+  "verified_at": "2026-11-08T05:42:47.717409+00:00"
 }

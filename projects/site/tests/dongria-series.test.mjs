@@ -4,7 +4,7 @@ import {readFileSync,existsSync} from 'node:fs';
 const articles=JSON.parse(readFileSync('src/data/dongariya.json','utf8'));
 const read=path=>readFileSync(path,'utf8');
 const scope=JSON.parse(read('editions/coast.json'));
-const notes={ 'dongariya-life':6,kapadaganda:21,'ornaments-in-use':5,niyamgiri:9,'seed-keeping':5,'forest-foods':5,'harvest-to-market':6,'homes-and-repair':7,'learning-and-belonging':7,'kuvi-and-jatapu-script':12,'songs-and-singers':8,'kotpad-and-kapadaganda':4 };
+const notes={ 'dongariya-life':6,kapadaganda:21,'ornaments-in-use':5,niyamgiri:9,'seed-keeping':5,'forest-foods':5,'harvest-to-market':6,'homes-and-repair':7,'learning-and-belonging':7,'kuvi-and-jatapu-script':16,'songs-and-singers':8,'kotpad-and-kapadaganda':4 };
 test('Dongria series exposes twelve sourced articles and connected index in the active edition',()=>{
  assert.equal(articles.length,12);
  const index=read('dist/stories/dongria/index.html');

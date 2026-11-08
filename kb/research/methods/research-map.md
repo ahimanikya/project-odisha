@@ -1488,3 +1488,8 @@ Reuse the [dossier](../culture/cinema-series/language-documentaries-2026-11-08.j
 ### Exact documentary roles · 8 November 2026
 
 Reuse the [credit follow-up](../culture/cinema-series/end-credits-2026-11-08.json) and [reviewed handoff](../../records/cinema-end-credits-2026-11-08.json). Newly accessible original O Foundation treatment dated12February2021 credits Prateek Pattanaik as Remosam co-cinematographer on page3. IGNCA’s official trailer at1:35 and organiser-linked long trailer at2:40 credit Puloma Pal and Prateek for additional script/research and subtitles; preserve the exact punctuation difference and Shankhajeet De’s separate direction/script/narration credit. These are verified producer-document and trailer credits, not full-feature end-card inspection. No public edits, book rebuild, outreach or publication. Reopen only on an identifiable full cut or new official credit sheet.
+
+
+### Dongria language names and documentation · 8 November 2026
+
+Reuse the [source dossier](../references/data/dongria-language-20261108.json) and [delivery record](../../records/dongria-language-20261108.json). Hardenberg’s original preview supports the attributed Kuang Kata name and named language teachers; his transcription is explicitly nonlinguistic. Glottolog is reused evidence. The Andhra Pradesh dictionary remains region-specific; OpenSpeaks offers a regional documentation example, not a verified Dongria Kuvi archive. Unverified song metadata and script adoption stay outside public claims.
