@@ -53,3 +53,7 @@ Odisha Tourism lists 06:00–18:00, free entry and parking. These are general de
 [Related article draft](../stories/narratives/raghurajpur-painting-and-performance.md) develops this entity through inspected process or institutional history. [Claim and media record](../stories/narratives/tourism-reading-followup-evidence.json) separates documentary evidence, original narration and practical questions still to verify.
 
 [Palm-leaf engraving](palm-leaf-engraving.md) — Relates a documented craft practice to its village context without promising a workshop visit.
+
+## Article reading · 8 November 2026
+
+The revised craft reading separates making a picture, learning through practice and questions to ask about an individual work. Existing visitor information and evidence limits above remain unchanged.

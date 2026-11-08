@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1083. completed: 187, excluded: 626, queued: 270.
+Route inventory: 1083. completed: 187, excluded: 626, in_progress: 1, queued: 269.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -134,7 +134,7 @@ Route inventory: 1083. completed: 187, excluded: 626, queued: 270.
 | POD-EDIT-118 | [Patrapoda](https://projectodisha.org/food/patrapoda/) | completed | article |
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | excluded | collection_navigation |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | completed | substantive_craft_account |
-| POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | queued | classification_pending |
+| POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | in_progress | substantive_craft_account |
 | POD-EDIT-122 | [Woven in Odisha](https://projectodisha.org/textiles/) | queued | classification_pending |
 | POD-EDIT-123 | [Sambalpuri Bandha · before the cloth](https://projectodisha.org/textiles/sambalpuri-bandha/) | queued | classification_pending |
 | POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | queued | classification_pending |

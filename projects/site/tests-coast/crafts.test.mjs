@@ -21,8 +21,8 @@ test('craft stories publish sourced process, licensed real photos and accurate m
   for(const id of new Set(entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))assert.ok(html.includes(data.sources[id].url));
  }
  assert.match(read('/crafts/pipili-applique/'),/not a description of every Pipili workshop/);
- assert.match(read('/crafts/pattachitra/'),/not a specification for every piece sold today/);
- assert.match(read('/crafts/pattachitra/'),/precise medium of the piece are not established/);
+ assert.match(read('/crafts/pattachitra/'),/this account does not establish the materials of every work today/);
+ assert.match(read('/crafts/pattachitra/'),/they do not identify every figure, the materials used, or the unnamed makers/);
 });
 test('craft starter leaves an existing journey untouched and carries source and maker notes offline',()=>{
  const old=emptyLibrary();old.trips[0].plan=addItem(old.trips[0].plan,'place:chilika');old.trips[0].plan.items[0].notes='Keep my lake day';
