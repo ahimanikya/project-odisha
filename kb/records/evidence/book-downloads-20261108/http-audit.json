@@ -1,0 +1,729 @@
+{
+  "checked_utc": "2026-11-08T14:43:54.562623+00:00",
+  "method": "Anonymous curl HEAD with redirects; five concurrent requests,35sec limit; no bodies downloaded. Headers do not establish content SHA256.",
+  "results": [
+    {
+      "url": "https://projectodisha.org/archive/dongria-kondh-public-reading.pdf",
+      "category": "book_or_reader",
+      "role": "current_dongria",
+      "expected_bytes": 17689084,
+      "http_chain": [
+        "200"
+      ],
+      "headers": {
+        "content-type": "application/pdf",
+        "last-modified": "Sun, 08 Nov 2026 14:33:04 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "17689084"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|0|1.893034|application/pdf",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://projectodisha.org/archive/kathalahari-sixth-edition-1927.pdf",
+      "category": "local_historical_source_scan_not_first_party_book",
+      "role": null,
+      "expected_bytes": 2728985,
+      "http_chain": [
+        "200"
+      ],
+      "headers": {
+        "content-type": "application/pdf",
+        "last-modified": "Sun, 08 Nov 2026 14:33:05 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "2728985"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|0|0.516448|application/pdf",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://projectodisha.org/archive/sashi-sena-prachi-samiti.pdf",
+      "category": "local_historical_source_scan_not_first_party_book",
+      "role": null,
+      "expected_bytes": 3391285,
+      "http_chain": [
+        "200"
+      ],
+      "headers": {
+        "content-type": "application/pdf",
+        "last-modified": "Sun, 08 Nov 2026 14:33:05 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "3391285"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|0|0.537529|application/pdf",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://projectodisha.org/downloads/heritage-walks/odisha-heritage-walks.zip",
+      "category": "walk_resource_bundle_not_book",
+      "role": null,
+      "expected_bytes": 35599,
+      "http_chain": [
+        "200"
+      ],
+      "headers": {
+        "content-type": "application/x-zip-compressed",
+        "last-modified": "Sun, 08 Nov 2026 14:33:05 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "35599"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|0|0.526209|application/x-zip-compressed",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/gudul-gudli-three-stories-v1.pdf",
+      "category": "character_story_pdf",
+      "role": "character_book_or_development_archive",
+      "expected_bytes": 24088311,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 24 Oct 2026 01:22:04 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=gudul-gudli-three-stories-v1.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "24088311"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.856806|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/nilu-chaiti-adventure-book-v2.pdf",
+      "category": "character_story_pdf",
+      "role": "character_book_or_development_archive",
+      "expected_bytes": 5506729,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 24 Oct 2026 01:22:01 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=nilu-chaiti-adventure-book-v2.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "5506729"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.808233|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/nilu-chaiti-merchandise-proof-v1.pdf",
+      "category": "character_story_pdf",
+      "role": "character_book_or_development_archive",
+      "expected_bytes": 5176380,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 24 Oct 2026 01:22:00 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=nilu-chaiti-merchandise-proof-v1.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "5176380"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.791165|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+      "category": "character_story_pdf",
+      "role": "character_book_or_development_archive",
+      "expected_bytes": 3891461,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 24 Oct 2026 01:22:00 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=nilu-chaiti-room-for-one-more-proof-v1.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "3891461"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.719395|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/nilu-chaiti-three-little-stories-v1.pdf",
+      "category": "character_story_pdf",
+      "role": "character_book_or_development_archive",
+      "expected_bytes": 13322690,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 24 Oct 2026 01:22:01 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=nilu-chaiti-three-little-stories-v1.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "13322690"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.752555|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/characters-archive-2026-10-24/three-character-worlds-overview-v1.pdf",
+      "category": "character_story_pdf",
+      "role": "character_book_or_development_archive",
+      "expected_bytes": 2182423,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 24 Oct 2026 01:22:02 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=three-character-worlds-overview-v1.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "2182423"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.700455|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-358-33338cee3f63492b11b7f3762f6cc6437b99c076/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+      "category": "book_or_reader",
+      "role": "current_dhaga",
+      "expected_bytes": 110419594,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 07 Nov 2026 00:45:10 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "110419594"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|7.108430|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen-print.pdf",
+      "category": "book_or_reader",
+      "role": "archived_20261026",
+      "expected_bytes": 82106814,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Mon, 26 Oct 2026 05:29:18 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "82106814"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.811969|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen.pdf",
+      "category": "book_or_reader",
+      "role": "archived_20261026",
+      "expected_bytes": 5078235,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Mon, 26 Oct 2026 05:29:13 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "5078235"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.903065|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 12927649,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Wed, 28 Oct 2026 01:46:22 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-10-27.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "12927649"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.893791|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 132370249,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Wed, 28 Oct 2026 01:46:30 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-10-27.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "132370249"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.736787|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-30/odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 17085322,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 30 Oct 2026 05:17:38 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "17085322"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.907213|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-30/odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 39974692,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 30 Oct 2026 05:17:40 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "39974692"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.852059|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-31/odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 23138230,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 31 Oct 2026 14:42:47 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-10-31-aligned.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "23138230"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.768288|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-31/odia-cinema-a-living-screen-print-2026-10-31-aligned.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 49031052,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 31 Oct 2026 14:43:04 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-10-31-aligned.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "49031052"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|7.297910|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01-portraits/odia-cinema-a-living-screen-2026-11-01-editorial-portraits.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 29981249,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sun, 01 Nov 2026 08:50:29 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-01-editorial-portraits.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "29981249"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.765761|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01-portraits/odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 55059730,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sun, 01 Nov 2026 08:50:44 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-01-editorial-portraits.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "55059730"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.768718|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01/odia-cinema-a-living-screen-2026-11-01-milestones.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 31754480,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sun, 01 Nov 2026 02:28:06 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-01-milestones.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "31754480"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.780010|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-01/odia-cinema-a-living-screen-print-2026-11-01-milestones.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 57669360,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sun, 01 Nov 2026 02:28:08 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-01-milestones.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "57669360"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.848625|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-06-shared-culture/odia-cinema-a-living-screen-2026-11-06-shared-culture.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 34117531,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 06 Nov 2026 21:25:59 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-06-shared-culture.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "34117531"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.799387|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-06-shared-culture/odia-cinema-a-living-screen-print-2026-11-06-shared-culture.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 48449288,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 06 Nov 2026 21:26:01 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-06-shared-culture.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "48449288"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.778169|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-06-shared-culture/the-question-that-brought-me-here-ahimanikya-satapathy.pdf",
+      "category": "book_or_reader",
+      "role": "standalone_intro",
+      "expected_bytes": 992878,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 06 Nov 2026 21:25:54 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=the-question-that-brought-me-here-ahimanikya-satapathy.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "992878"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.690906|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-07-bapa/odia-cinema-a-living-screen-2026-11-07-bapa.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 38845140,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 07 Nov 2026 18:01:14 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-07-bapa.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "38845140"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.879857|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-07-bapa/odia-cinema-a-living-screen-print-2026-11-07-bapa.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 51414320,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 07 Nov 2026 18:01:17 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-07-bapa.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "51414320"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.811279|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-07-sequence/odia-cinema-a-living-screen-2026-11-07-sequence.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 38841826,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 06 Nov 2026 23:31:37 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-07-sequence.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "38841826"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.759741|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-07-sequence/odia-cinema-a-living-screen-print-2026-11-07-sequence.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 51753105,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Fri, 06 Nov 2026 23:31:38 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-07-sequence.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "51753105"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.832515|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-film-credits/odia-cinema-a-living-screen-2026-11-08-film-credits.pdf",
+      "category": "book_or_reader",
+      "role": "review_books",
+      "expected_bytes": 38850788,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sun, 08 Nov 2026 04:54:13 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-08-film-credits.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "38850788"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.729821|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-film-credits/odia-cinema-a-living-screen-print-2026-11-08-film-credits.pdf",
+      "category": "book_or_reader",
+      "role": "review_books",
+      "expected_bytes": 51419377,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sun, 08 Nov 2026 04:54:15 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-08-film-credits.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "51419377"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.666573|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-language-memory/odia-cinema-a-living-screen-2026-11-08-language-memory.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 38848455,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 07 Nov 2026 22:47:09 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-2026-11-08-language-memory.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "38848455"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|6.675511|application/octet-stream",
+      "full_body_hash_checked": false
+    },
+    {
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-11-08-language-memory/odia-cinema-a-living-screen-print-2026-11-08-language-memory.pdf",
+      "category": "book_or_reader",
+      "role": "archived_review_books",
+      "expected_bytes": 51418120,
+      "http_chain": [
+        "302",
+        "200"
+      ],
+      "headers": {
+        "last-modified": "Sat, 07 Nov 2026 22:47:10 GMT",
+        "accept-ranges": "bytes",
+        "content-disposition": "attachment; filename=odia-cinema-a-living-screen-print-2026-11-08-language-memory.pdf",
+        "content-type": "application/octet-stream",
+        "content-length": "51418120"
+      },
+      "curl_exit": 0,
+      "error": null,
+      "result": "200|1|7.172835|application/octet-stream",
+      "full_body_hash_checked": false
+    }
+  ],
+  "dhaga_local_delivery": {
+    "in_dist_publish": false,
+    "hydrated_source": "projects/odia-dhaga/odia-dhaga-book.pdf",
+    "explanation": "export-dhaga.mjs validatePdfDelivery verifies hydrated bytes/hash then returns external browser_download_url; export adapter does not copy PDF to dist-publish."
+  },
+  "summary": {
+    "checked_count": 34,
+    "http_200_count": 34,
+    "failures": [],
+    "length_mismatches": [],
+    "character_pdf_total_bytes": 54167994,
+    "limits": [
+      "HEAD responses establish availability and advertised byte length only, not body validity or SHA256.",
+      "The 33 character development ZIPs were inventoried separately but not HTTP-tested in this bounded audit.",
+      "GitHub asset responses use application/octet-stream plus attachment filenames; same-origin PDFs use application/pdf."
+    ]
+  }
+}

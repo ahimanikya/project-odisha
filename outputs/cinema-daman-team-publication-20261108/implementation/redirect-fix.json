@@ -1,0 +1,64 @@
+{
+  "status": "ready_for_root_rebuild",
+  "changes": {
+    "projects/site/src/layouts/Shell.astro": {
+      "before_sha256": "92e5506af4372276c9c0fc2e7867522284bd78326e7d10b111502d8e527a1e93",
+      "after_sha256": "64bb304dc840a1f10d75faa4303396854001373bbba384309450c0da18ea6919",
+      "diff": "--- projects/site/src/layouts/Shell.astro\n+++ projects/site/src/layouts/Shell.astro\n@@ -22,10 +22,12 @@\n import designSystem from '../../../design-system/package.json';\n const planningReturn=Astro.url.pathname.startsWith('/visit/stays/')?['/stay-areas/','Compare other stay areas']:Astro.url.pathname.startsWith('/visit/experiences/')?['/things-to-do/','Explore more things to do']:Astro.url.pathname.startsWith('/food/')&&Astro.url.pathname!=='/food/'?['/food/','Explore food & flavours']:Astro.url.pathname.startsWith('/destinations/')&&Astro.url.pathname!=='/destinations/'?['/destinations/','Browse destination guides']:null;\n \n-const {title='Discover Odisha. Imagine the possibilities.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true,shareImage}=Astro.props;\n+const {title='Discover Odisha. Imagine the possibilities.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true,shareImage,canonicalPath,redirectTo}=Astro.props;\n const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;\n const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;\n-const canonical=new URL(pagePath,Astro.site).href;\n+if(canonicalPath!==undefined&&(!canonicalPath.startsWith('/')||canonicalPath.startsWith('//')))throw new Error('Canonical override must be a local path');\n+if(redirectTo!==undefined&&(!redirectTo.startsWith('/')||redirectTo.startsWith('//')))throw new Error('Redirect must be a local path');\n+const canonical=new URL(canonicalPath??pagePath,Astro.site).href;\n const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Project Odisha')?title:title+' · Project Odisha');\n const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);\n const sharePhoto=sharingImage(shareImage ?? (pagePath==='/' ? homeSharingImage : discoveryEntry?.image));\n@@ -36,7 +38,7 @@\n <meta name=\"robots\" content=\"noindex, nofollow\"/><meta name=\"description\" content={pageDescription}/>\n <meta name=\"utkal-design-system\" content={designSystem.version}/>\n <meta name=\"theme-color\" content=\"#91462F\"/><title>{pageTitle}</title>\n-<link rel=\"canonical\" href={canonical}/><meta name=\"referrer\" content=\"no-referrer\"/><meta name=\"color-scheme\" content=\"light\"/>\n+<link rel=\"canonical\" href={canonical}/>{redirectTo&&<meta http-equiv=\"refresh\" content={`0;url=${redirectTo}`}/>}<meta name=\"referrer\" content=\"no-referrer\"/><meta name=\"color-scheme\" content=\"light\"/>\n <meta property=\"og:type\" content=\"website\"/><meta property=\"og:site_name\" content=\"Project Odisha\"/><meta property=\"og:title\" content={pageTitle}/><meta property=\"og:description\" content={pageDescription}/><meta property=\"og:url\" content={canonical}/><meta property=\"og:locale\" content=\"en_IN\"/>\n <meta property=\"og:image\" content={socialImage}/><meta property=\"og:image:alt\" content={sharePhoto.alt}/><meta property=\"og:image:width\" content={sharePhoto.width}/><meta property=\"og:image:height\" content={sharePhoto.height}/>\n <meta name=\"twitter:card\" content=\"summary_large_image\"/><meta name=\"twitter:title\" content={pageTitle}/><meta name=\"twitter:description\" content={pageDescription}/><meta name=\"twitter:image\" content={socialImage}/><meta name=\"twitter:image:alt\" content={sharePhoto.alt}/>\n"
+    },
+    "projects/site/src/pages/people/vishal-mourya.astro": {
+      "before_sha256": "76cae699a42a7e1239d6f41d2dece6a5601ca5be08465e04ef6b70bf1f4a4206",
+      "after_sha256": "7c43e2753cee1d0fecd74e0e8da55b36dbcc86e067851b3f08db717f20487223",
+      "diff": "--- projects/site/src/pages/people/vishal-mourya.astro\n+++ projects/site/src/pages/people/vishal-mourya.astro\n@@ -1,12 +1,7 @@\n-<!doctype html>\n-<html lang=\"en\">\n- <head>\n-  <meta charset=\"utf-8\" />\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n-  <title>Vishal Mourya · The people behind DAMaN</title>\n-  <meta name=\"robots\" content=\"noindex, follow\" />\n-  <link rel=\"canonical\" href=\"https://projectodisha.org/cinema/daman-team/\" />\n-  <meta http-equiv=\"refresh\" content=\"0;url=/cinema/daman-team/#vishal-mourya\" />\n- </head>\n- <body><main><h1>Vishal Mourya</h1><p><a href=\"/cinema/daman-team/#vishal-mourya\">Read about Vishal Mourya in The people behind DAMaN</a>.</p></main></body>\n-</html>\n+---\n+import Shell from '../../layouts/Shell.astro';\n+import '../../styles/article-reading.css';\n+---\n+<Shell title=\"Vishal Mourya · The people behind DAMaN\" description=\"Read about Vishal Mourya in the shared story of DAMaN’s filmmakers.\" active=\"explore\" related={false} canonicalPath=\"/cinema/daman-team/\" redirectTo=\"/cinema/daman-team/#vishal-mourya\">\n+ <article class=\"article-reading\"><h1>Vishal Mourya</h1><p><a href=\"/cinema/daman-team/#vishal-mourya\">Read about Vishal Mourya in The people behind DAMaN</a>.</p></article>\n+</Shell>\n"
+    },
+    "projects/site/src/pages/people/debi-prasad-lenka.astro": {
+      "before_sha256": "42db7e2cebcd62be9113d6b55bd9415c39f79f8007a9009b2be40cca7f811d40",
+      "after_sha256": "ddb12227f44a0174dcfcd0f84acc33aa1d4aad1b2590cdbe1f20c9a4cd19d3d9",
+      "diff": "--- projects/site/src/pages/people/debi-prasad-lenka.astro\n+++ projects/site/src/pages/people/debi-prasad-lenka.astro\n@@ -1,12 +1,7 @@\n-<!doctype html>\n-<html lang=\"en\">\n- <head>\n-  <meta charset=\"utf-8\" />\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n-  <title>Debi Prasad Lenka · The people behind DAMaN</title>\n-  <meta name=\"robots\" content=\"noindex, follow\" />\n-  <link rel=\"canonical\" href=\"https://projectodisha.org/cinema/daman-team/\" />\n-  <meta http-equiv=\"refresh\" content=\"0;url=/cinema/daman-team/#debi-prasad-lenka\" />\n- </head>\n- <body><main><h1>Debi Prasad Lenka</h1><p><a href=\"/cinema/daman-team/#debi-prasad-lenka\">Read about Debi Prasad Lenka in The people behind DAMaN</a>.</p></main></body>\n-</html>\n+---\n+import Shell from '../../layouts/Shell.astro';\n+import '../../styles/article-reading.css';\n+---\n+<Shell title=\"Debi Prasad Lenka · The people behind DAMaN\" description=\"Read about Debi Prasad Lenka in the shared story of DAMaN’s filmmakers.\" active=\"explore\" related={false} canonicalPath=\"/cinema/daman-team/\" redirectTo=\"/cinema/daman-team/#debi-prasad-lenka\">\n+ <article class=\"article-reading\"><h1>Debi Prasad Lenka</h1><p><a href=\"/cinema/daman-team/#debi-prasad-lenka\">Read about Debi Prasad Lenka in The people behind DAMaN</a>.</p></article>\n+</Shell>\n"
+    },
+    "projects/site/src/pages/people/deependra-samal.astro": {
+      "before_sha256": "fd342fb0bb0ae51a852a3c20853e85728dcbbb23285de10bef62228649d38026",
+      "after_sha256": "eccfbe306beb8e63044e2a516360635f48f9beac2939bd82d4f7022ddf3db075",
+      "diff": "--- projects/site/src/pages/people/deependra-samal.astro\n+++ projects/site/src/pages/people/deependra-samal.astro\n@@ -1,12 +1,7 @@\n-<!doctype html>\n-<html lang=\"en\">\n- <head>\n-  <meta charset=\"utf-8\" />\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n-  <title>Deependra Samal · The people behind DAMaN</title>\n-  <meta name=\"robots\" content=\"noindex, follow\" />\n-  <link rel=\"canonical\" href=\"https://projectodisha.org/cinema/daman-team/\" />\n-  <meta http-equiv=\"refresh\" content=\"0;url=/cinema/daman-team/#deependra-samal\" />\n- </head>\n- <body><main><h1>Deependra Samal</h1><p><a href=\"/cinema/daman-team/#deependra-samal\">Read about Deependra Samal in The people behind DAMaN</a>.</p></main></body>\n-</html>\n+---\n+import Shell from '../../layouts/Shell.astro';\n+import '../../styles/article-reading.css';\n+---\n+<Shell title=\"Deependra Samal · The people behind DAMaN\" description=\"Read about Deependra Samal in the shared story of DAMaN’s filmmakers.\" active=\"explore\" related={false} canonicalPath=\"/cinema/daman-team/\" redirectTo=\"/cinema/daman-team/#deependra-samal\">\n+ <article class=\"article-reading\"><h1>Deependra Samal</h1><p><a href=\"/cinema/daman-team/#deependra-samal\">Read about Deependra Samal in The people behind DAMaN</a>.</p></article>\n+</Shell>\n"
+    },
+    "projects/site/tests/cinema-discovery.test.mjs": {
+      "before_sha256": "abb27fb548c55aad40de511b2705a2a80e453871698c4b75398bdb24765ce2f3",
+      "after_sha256": "92eee82e6c6ba8bc59a6ba3e6c1e744b6b2e228c4b6edbd128ea54095bf9e17d",
+      "diff": "--- projects/site/tests/cinema-discovery.test.mjs\n+++ projects/site/tests/cinema-discovery.test.mjs\n@@ -84,10 +84,18 @@\n   assert.equal(destination,team.route+'#'+entry.slug);\n   assert.ok(html.includes(`id=\"${entry.slug}\"`));\n   const wrapper=fs.readFileSync(path.join(site,'src/pages',entry.route,'index.astro').replace('/index.astro','.astro'),'utf8');\n-  assert.ok(wrapper.includes(`content=\"0;url=${destination}\"`));\n+  assert.ok(wrapper.includes(`redirectTo=\"${destination}\"`));\n+  assert.ok(wrapper.includes('canonicalPath=\"/cinema/daman-team/\"'));\n   assert.ok(wrapper.includes(`href=\"${destination}\"`));\n-  assert.ok(wrapper.includes('name=\"robots\" content=\"noindex, follow\"'));\n-  assert.ok(wrapper.includes('<main><h1>'));\n+  const shell=fs.readFileSync(path.join(site,'src/layouts/Shell.astro'),'utf8');\n+  assert.ok(wrapper.includes('<Shell '));\n+  assert.ok(shell.includes('name=\"robots\" content=\"noindex, nofollow\"'));\n+  assert.ok(shell.includes('design-system/styles/utkal.css'));\n+  assert.equal((shell.match(/<main\\b/g)||[]).length,1);\n+  assert.equal((wrapper.match(/<h1>/g)||[]).length,1);\n+  assert.ok(shell.includes('http-equiv=\"refresh\"'));\n+  assert.ok(shell.includes('new URL(canonicalPath??pagePath,Astro.site)'));\n+  assert.ok(!wrapper.includes('<main'));\n   assert.ok(!wrapper.includes('<script'));\n  }\n });\n"
+    }
+  },
+  "guidance": {
+    "search": "accessible redirect links",
+    "search_chunk": "6bec32",
+    "guides_reused": "accessibility,html retrieved57e248 and read before original implementation; relevant rules rechecked for shared Shell",
+    "rules": [
+      "Use one `<main>` landmark per page",
+      "DO use semantic landmarks (`<header>`, `<nav>`, `<main>`, `<aside>`, `<footer>`) to create regional navigation for assistive technologies."
+    ]
+  },
+  "publication_policy_inspection": {
+    "finalize-edition.py": "Copies/prunes files and links; no canonical rewriting found.",
+    "search-publication.mjs": "publicationPage delegates candidateRobots only; does not rewrite canonical.",
+    "search-launch.mjs": "One preview noindex tag required; non-indexable routes become noindex,follow in limited publication, as normal existing policy. Both old aliases and team remain hold, not indexable.",
+    "audit-coast.py": "Generic audit expects self canonical; if run on these three aliases it will report target-canonical mismatch. No audit change made; requires explicit redirect-aware exception if coordinator includes these routes in that audit.",
+    "audit-search-shortlist.py": "Indexable shortlist only; aliases remain held."
+  },
+  "pdfs_unchanged": true,
+  "source_and_anchors_unchanged": true,
+  "scope_released": true,
+  "checks": [
+    {
+      "command": "node --test projects/site/tests/cinema-discovery.test.mjs",
+      "exit_code": 0,
+      "pass": 5,
+      "fail": 0,
+      "chunk": "2dbc7d"
+    },
+    {
+      "check": "Standalone Astro compiler import",
+      "exit_code": 1,
+      "reason": "@astrojs/compiler is not directly resolvable from site; no packages installed. Full root build remains actual compilation validation."
+    }
+  ],
+  "rendered_validation": "Pending root full/coast rebuild; no claim from stale dist."
+}

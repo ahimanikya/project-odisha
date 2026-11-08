@@ -1,0 +1,128 @@
+{
+  "status": "read_only_plan_complete",
+  "scope_released": true,
+  "public_changes": false,
+  "counts": {
+    "current_online": 52,
+    "proposed_online": 50,
+    "book_chapters_preserved": 49
+  },
+  "baseline_hashes": {
+    "projects/site/src/data/cinema.json": "50b82ef5f2afbca4981ee86fc42c80aa21baf46efcd0a206f98d81a50a5a17cc",
+    "kb/research/culture/cinema-series/manifest.json": "5fa76598b70fdcb16a24eb7cd490f8af267f3700d76fdcaa85994744f74f60bb",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "45217623912de7b32edef78e7d3d07ac632346e55719e93165ee73a1ae620b9b",
+    "output/pdf/build_book.py": "1a535ba64b1e3d683d0c075e002f147bc154f877279daa530470d00828fab9fc",
+    "projects/site/src/lib/cinema-article.mjs": "e29926426fc633e3d57cf97ca1237afcf4a5dbde13605e0f679c5373388c6945",
+    "projects/site/src/pages/cinema/reading-guide.astro": "6d332798f23e8b36071279db52338ebef09abffcdb9f4a2985ee200fd10869bb",
+    "projects/site/astro.config.mjs": "3e564ae759e118d6d5608fd3efbef5c8e08c04712a7e91689e3d727f606f4104"
+  },
+  "recommended_sequence": [
+    "Root creates sourced cinema-series/daman-team.md with stable headings Vishal Mourya, Debi Prasad Lenka, Deependra Samal.",
+    "Move three full metadata records into book_source_profiles (not articles); replace their three slots with daman-team immediately after daman in manifest/site parts and articles. Retain original MD/media/layout.",
+    "Resolve online guide person destinations to team anchors and source references to actual numbered team notes; retain existing book guide source aliases and book-profile anchors.",
+    "Add team route and replace old people wrappers with accessible static redirect pages retaining visible links to exact person anchors.",
+    "Decouple book source lookup from online chapter enumeration before removing profile entries. Validate book order remains49; no new team chapter.",
+    "Validate site and book source/link equivalence before any separately authorized builds."
+  ],
+  "critical_dependencies": [
+    {
+      "file": "output/pdf/build_book.py",
+      "lines": [
+        70,
+        100,
+        101,
+        149,
+        152,
+        507,
+        512,
+        742,
+        855
+      ],
+      "finding": "Online entries currently double as book integrated-profile source registry. Removing profiles fails excluded-entry validation and final source receipts.",
+      "change": "Keep online_entries distinct; use source_entries combining articles and book_source_profiles for profile sources and aliases. Validate excluded online daman-team maps to daman separately from retained three book_integrated_profiles. Preserve all existing BOOKPROFILE/BOOKIMAGE targets, source hashes and notes."
+    },
+    {
+      "file": "projects/site/src/pages/cinema/reading-guide.astro",
+      "lines": [
+        9,
+        10,
+        24,
+        27,
+        44
+      ],
+      "finding": "Guide validates each old slug against cinema.articles and resolves note IDs from old source.",
+      "change": "Explicit online guide mapping to team person anchors and real new note IDs; do not remove guide people or silently map their evidence to unrelated note."
+    },
+    {
+      "file": "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "lines": [
+        1323,
+        1375,
+        1421,
+        1460,
+        1495
+      ],
+      "finding": "49 book_order; three integrated people; DAMaN exact body replacement anchor; book_images and guide aliases depend on original profile identities.",
+      "change": "Preserve book prose/order/images and imported source hashes. If root edits DAMaN links, rebind exact override anchor/hash while preserving substituted book prose."
+    }
+  ],
+  "implementation_scopes": {
+    "content_root_owned": [
+      "kb/research/culture/cinema-series/daman-team.md",
+      "kb/research/culture/cinema-series/daman.md (only reviewed navigation links if selected)",
+      "kb/reference/public-website-routes.json"
+    ],
+    "data_and_mapping": [
+      "kb/research/culture/cinema-series/manifest.json",
+      "projects/site/src/data/cinema.json",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json"
+    ],
+    "runtime": [
+      "projects/site/src/pages/cinema/daman-team.astro",
+      "projects/site/src/pages/people/vishal-mourya.astro",
+      "projects/site/src/pages/people/debi-prasad-lenka.astro",
+      "projects/site/src/pages/people/deependra-samal.astro",
+      "projects/site/src/pages/cinema/reading-guide.astro",
+      "projects/site/src/lib/cinema-article.mjs",
+      "output/pdf/build_book.py"
+    ],
+    "tests": [
+      "projects/site/tests/cinema-discovery.test.mjs",
+      "projects/site/tests/cinema-release.test.mjs",
+      "projects/site/tests/cinema-ux.test.mjs",
+      "projects/site/tests/build.test.mjs (route-count expectation only if applicable)",
+      "projects/site/tests-coast/cinema-reading-ux.test.mjs (continuity assertions if needed)"
+    ]
+  },
+  "redirect_strategy": {
+    "observed": "Static Astro output; no existing Astro.redirect/meta-refresh/config redirects found in inspected src and astro.config.mjs. Do not assume server301 support.",
+    "recommended": "Retain old wrapper paths as minimal canonical/noindex redirect HTML with visible Continue link; exact destinations /cinema/daman-team/#vishal-mourya, #debi-prasad-lenka, #deependra-samal. Validate deployed hosting behavior separately; a generated static redirect is not proof of HTTP301.",
+    "route_count": "Old paths remain and one new route is added; website reading count decreases by2 but physical route count increases by1.",
+    "search": "New route retains existing hold/noindex cinema policy; old redirect routes are not indexed content. Keep coast old routes and all portrait download allowances."
+  },
+  "hero_strategy": {
+    "preferred": "Existing three identified portraits can be presented as separate credited figures at their named sections; no synthetic group image or unverified shared scene.",
+    "minimal_hero": "Use an existing single portrait with name-specific caption and alt; explicitly not a team photograph. Reusing that same portrait as body figure duplicates credit/image, so select hero placement deliberately.",
+    "balanced_group_option": "A three-image presentation would need explicit component/layout scope and guidance; do not flatten portraits into a supposedly original group photograph. No unique authentic team original established by this audit.",
+    "preserve": "Vishal430px, Debi564px, Deependra695px originals and derivatives; award broadcast logos, source credit, current85/100% rules. Existing book portrait geometry unchanged."
+  },
+  "navigation": "Hub derives count and cards from articles/parts, so no hub redesign needed. Previous/Next must resolve DAMaN → team → television. Original profile source links need alias resolution to team person anchors, including guide source-note targets. Retain three supplementary writer/translator links.",
+  "commands_after_scope": [
+    "node tools/cinema-literature-care-sync.mjs --slug daman-team --apply",
+    "cd projects/site && node --test tests/cinema*.test.mjs",
+    "cd projects/site && npm run build",
+    "cd projects/site && node tools/check-public-disclosures.mjs dist",
+    "cd projects/site && npm run build:coast && npm run test:coast"
+  ],
+  "avoid": [
+    "Do not run projects/site/tools/prepare-cinema.mjs: it rebuilds data from stale preview reports and replaces book metadata.",
+    "Do not alter tagged-reader experiments, historical PDFs or published download metadata.",
+    "No PDF rebuild in current plan scope. Later book checks must preserve49 chapters, three integrated source hashes, all62 image placements/credits and original book anchors."
+  ],
+  "modern_guidance": "Skill read during planning; no HTML/CSS implemented. Execute relevant search/retrieve before redirect or layout implementation; cite actual retrieved rule then.",
+  "tests_run": false,
+  "limits": "This is source-level planning, not rendered redirect/browser validation; hero originals were inventoried from metadata, not freshly identity-reviewed."
+}

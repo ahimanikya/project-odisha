@@ -67,7 +67,7 @@ styles['bridge'].fontName='BookItalic';styles['bridge'].textColor=accent;styles[
 styles['note'].spaceAfter=3.5
 styles['source-heading']=ParagraphStyle('source-heading',parent=styles['h2'],fontSize=11.5,leading=15,spaceBefore=10,spaceAfter=4,keepWithNext=True)
 styles['source-address']=ParagraphStyle('source-address',parent=styles['small'],spaceAfter=0)
-manifest=json.loads((R/'projects/site/src/data/cinema.json').read_text());entries={a['slug']:a for a in manifest['articles']}
+manifest=json.loads((R/'projects/site/src/data/cinema.json').read_text());online_entries={a['slug']:a for a in manifest['articles']}
 additions={}
 narrative_path=R/'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'
 narrative=json.loads(narrative_path.read_text()) if narrative_path.exists() else {}
@@ -88,6 +88,10 @@ if args.artifact_marker_evidence:
  marker_path=Path(args.artifact_marker_evidence).resolve()
  artifact_marker={'status':'operator_supplied_evidence','path':str(marker_path),'sha256':hashlib.sha256(marker_path.read_bytes()).hexdigest(),'scope':'Receipt supplied by build operator; execution is not independently verified by this builder.'}
 
+online_integrations=narrative.get('book_online_integrations',{})
+retained_profiles={a['slug']:a for a in manifest.get('book_source_profiles',[])}
+if set(retained_profiles)&set(online_entries):raise ValueError('Book source profiles must not duplicate online readings')
+entries={slug:a for slug,a in online_entries.items() if slug not in online_integrations}|retained_profiles
 section_guide=narrative.get('section_guide',[])
 section_keys=[item['id'] for item in section_guide]
 if len(section_keys)!=len(set(section_keys)):raise ValueError('Duplicate discovery section IDs')
@@ -99,9 +103,20 @@ if len(order)!=len(set(order)) or set(order)-set(entries):raise ValueError('Inva
 if narrative.get('book_order',order)!=order:raise ValueError('Book order and parts differ')
 integrated_profiles=narrative.get('book_integrated_profiles',{})
 if set(entries)-set(order)!=set(integrated_profiles):raise ValueError('Every excluded online profile needs a book integration')
+if set(online_integrations)!=set(online_entries)-set(order):raise ValueError('Every online-only reading needs a book destination')
+if any(target not in order for target in online_integrations.values()):raise ValueError('Unknown online-only book destination')
 if any(target not in order for target in integrated_profiles.values()):raise ValueError('Unknown integrated-profile chapter')
 partmap={s:(i+1,p['title']) for i,p in enumerate(plan['parts']) for s in p['chapters']};selected_bridge_ids=list(dict.fromkeys(['odia-cinema']+[part['chapters'][-1] for part in plan['parts'][:-1]]));bridges={slug:narrative.get('bridges',{})[slug] for slug in selected_bridge_ids if slug in narrative.get('bridges',{})}
 pathmap={str((R/a['source']).resolve()):a['slug'] for a in entries.values()};routemap={a['route']:a['slug'] for a in entries.values()};notes={};numbers={};counts={};pages={};images=[];image_credit_notes=[];chapters=[];refseq={};reading={}
+for slug,target in online_integrations.items():
+ pathmap[str((R/online_entries[slug]['source']).resolve())]=slug
+ routemap[online_entries[slug]['route']]=slug
+def book_destination(slug,fragment=''):
+ if slug in integrated_profiles:return '#book-profile-'+slug
+ if slug in online_integrations:
+  if fragment in integrated_profiles and integrated_profiles[fragment]==online_integrations[slug]:return '#book-profile-'+fragment
+  return '#ch-'+online_integrations[slug]
+ return '#ch-'+slug
 book_override_records=[]
 def chapter_source(slug):
  raw=(R/entries[slug]['source']).read_text();override=narrative.get('book_overrides',{}).get(slug)
@@ -146,10 +161,10 @@ def inline(text,slug=None,refs=True,print_address=True):
   elif not re.match(r'https?://|mailto:',url):
    p=(R/entries[slug]['source']).parent/url.split('#')[0] if slug else R/url
    dest=pathmap.get(str(p.resolve()))
-   target=('#book-profile-'+dest if dest in integrated_profiles else '#ch-'+dest) if dest else 'https://projectodisha.org/stories/prahlada-nataka/' if p.name=='prahallad-nataka.md' else 'https://projectodisha.org/cinema/'
+   target=book_destination(dest,url.partition('#')[2]) if dest else 'https://projectodisha.org/stories/prahlada-nataka/' if p.name=='prahallad-nataka.md' else 'https://projectodisha.org/cinema/'
   
   for route,chapter in routemap.items():
-   if target.split('#')[0] in [route,'https://projectodisha.org'+route]:target='#book-profile-'+chapter if chapter in integrated_profiles else '#ch-'+chapter;break
+   if target.split('#')[0] in [route,'https://projectodisha.org'+route]:target=book_destination(chapter,target.partition('#')[2]);break
   suffix=''
   if PRINT and target=='#overview-companion':suffix=f' (p. {page_map.get("overview-companion","000")})'
   if PRINT and target.startswith('#ch-'):
@@ -194,8 +209,9 @@ def para(t,style='body',slug=None,refs=True):
  return Paragraph(inline(t,slug,refs),styles[style])
 image_layout_path=R/'kb/research/culture/cinema-series/image-layout-2026-10-30.json'
 image_layout=json.loads(image_layout_path.read_text())
-image_frames={(item['slug'],item['source']):item for item in image_layout['frames']}
-if len(image_frames)!=len(image_layout['frames']):raise ValueError('Duplicate image layout placement')
+book_frames=[item for item in image_layout['frames'] if item['slug'] not in online_integrations]+image_layout.get('book_source_frames',[])
+image_frames={(item['slug'],item['source']):item for item in book_frames}
+if len(image_frames)!=len(book_frames):raise ValueError('Duplicate image layout placement')
 expected_image_frames={(slug,im['source']) for slug,entry in entries.items() for im in entry.get('images',[])}
 if set(image_frames)!=expected_image_frames:raise ValueError('Image layout must match all current source placements')
 class FramedImage(Flowable):
@@ -852,5 +868,5 @@ for offset in range(0,len(thumbs),12):
   x=12+(k%4)*234;y=12+(k//4)*370;sheet.paste(im,(x,y));draw.text((x,y+329),f'Page {offset+k+1}',fill='black')
  sheet.save(TMP/f'contact-{offset//12+1:02}.jpg',quality=90)
 for chapter in chapters:chapter['notes']=len(notes[chapter['slug']])
-record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'print_directory_mode':'body-and-image-credit-links' if PRINT else 'not-applicable','print_directory_policy':'Bibliographic notes retain full clickable URLs without duplicate S-address entries; body/viewing links and image source/licence links retain printed addresses.','date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'online_readings':len(entries),'book_readings':len(order),'book_override_records':book_override_records,'integrated_profile_sources':{slug:{'source':entries[slug]['source'],'sha256':entries[slug]['source_sha256'],'book_chapter':target} for slug,target in integrated_profiles.items()},'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'tail_vignette_placements':tail_vignette_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'book_section_omissions':book_section_omissions,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'primary_path':{'destination':'primary-reading-path','title':primary_path['title'],'slugs':primary_path['chapters'],'measured_height_pt':primary_path_height,'page':doc.chapter_pages.get('primary-reading-path')} if primary_path else None,'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
+record={'edition':args.edition,'mirrored_margins':PRINT,'inner_margin_pt':54 if PRINT else 42,'outer_margin_pt':42,'source_directory_entries':len(url_directory),'print_directory_mode':'body-and-image-credit-links' if PRINT else 'not-applicable','print_directory_policy':'Bibliographic notes retain full clickable URLs without duplicate S-address entries; body/viewing links and image source/licence links retain printed addresses.','date':args.date,'revision':args.revision,'edition_key':EDITION_KEY,'status':'built_pending_visual_review','pdf':str(OUT.relative_to(R)),'pdf_sha256':hashlib.sha256(OUT.read_bytes()).hexdigest(),'pages':len(reader.pages),'online_readings':len(online_entries),'book_readings':len(order),'book_override_records':book_override_records,'integrated_profile_sources':{slug:{'source':entries[slug]['source'],'sha256':entries[slug]['source_sha256'],'book_chapter':target} for slug,target in integrated_profiles.items()},'chapters':chapters,'chapter_pages':doc.chapter_pages,'section_guide_matches':section_matches,'image_placements':images,'line_art_placements':line_art_placements,'tail_vignette_placements':tail_vignette_placements,'image_credit_notes':image_credit_notes,'notes':sum(len(x) for x in notes.values()),'citation_pairs':sum(sum(x.values()) for x in refseq.values()),'fonts':['Source Serif 4','Noto Serif Oriya'],'shaping':'HarfBuzz via ReportLab shaping=True, embedded static Odia font','all_pages_rendered':True,'render_dir':str(render.relative_to(R)),'contact_sheets':[str(p.relative_to(R)) for p in sorted(TMP.glob('contact-*.jpg'))],'cover_pdf':str(covers.relative_to(R)) if covers.exists() else None,'cover_sha256':hashlib.sha256(covers.read_bytes()).hexdigest() if covers.exists() else None,'cover_art_effective_dpi':170.67,'cover_text':'vector','print_embedding':'Original images retained; configured display crop clipped in PDF only. Images above300ppi downsampled for their drawn size to JPEG94; no source upscaling or replacement.','print_press_ready':False,'canonical_sources_unchanged_by_book_builder':True,'source_binding_scope':'Hashes bind to the final revised canonical sources read during this build, not the pre-revision edition.','book_adaptation':True,'narrative_plan_sha256':hashlib.sha256(narrative_path.read_bytes()).hexdigest() if narrative else None,'suppressed_repeated_viewing_notices':suppressed_viewing,'book_section_omissions':book_section_omissions,'printed_page_map_used':page_map,'chapter_page_references_stable':not PRINT or page_map==doc.chapter_pages,'adaptation_section_map':narrative.get('overview',{}).get('section_map',{}),'rendered_bridge_ids':list(bridges),'unused_bridge_options':[slug for slug in narrative.get('bridges',{}) if slug not in bridges],'reading_aids':{'primary_path':{'destination':'primary-reading-path','title':primary_path['title'],'slugs':primary_path['chapters'],'measured_height_pt':primary_path_height,'page':doc.chapter_pages.get('primary-reading-path')} if primary_path else None,'callouts':len(narrative.get('callouts',[])),'bridges':len(bridges),'people':len(narrative.get('people_guide',[])),'milestones':len(narrative.get('timeline',[]))},'artifact_marker':artifact_marker,'browser_used':False,'image_layout_configuration':str(image_layout_path.relative_to(R)),'image_layout_sha256':hashlib.sha256(image_layout_path.read_bytes()).hexdigest()}
 (TMP/('book-build-'+EDITION_KEY+'.json')).write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:record[k] for k in ['pages','notes','citation_pairs','chapter_pages']},indent=2))

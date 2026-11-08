@@ -1,0 +1,120 @@
+{
+  "status": "bounded_bibliographic_audit_complete",
+  "scope_released": true,
+  "question": "What original reference identifies the written source behind Lavanya Preeti?",
+  "verdict": "No exact source-story title, original collection or new maker/writer testimony established. A newly located original publisher newsletter identifies a distinct selected-stories edition and editor, but does not connect it to the film. No public revision recommended from this packet alone.",
+  "inputs": [
+    {
+      "path": "kb/records/cinema-lavanya-source-2026-11-05.json",
+      "sha256": "3475890a2e994ec026389fa3913029d97007e887db65bebfc82c232a675fd865"
+    },
+    {
+      "path": "outputs/cinema-research-gaps-20261107/literary-sources.json",
+      "sha256": "458cafd73f3806d5a04671b01f459003fd510c2ee9fbf2fed213387d02884b54"
+    },
+    {
+      "path": "outputs/cinema-bir-childhood-20261105/coordinator-research.json",
+      "sha256": "a6bebe49cc4df393edf98208a781c76d00765d80821c5d2d00607a1353754648"
+    },
+    {
+      "path": "outputs/cinema-lavanya-source-20261105/research.json",
+      "sha256": "eef8d57035ecacd81b3fdcbd9b3de3669120fda3815974d402f7823624cf8108"
+    }
+  ],
+  "claim_derivation": [
+    {
+      "url": "https://odisha.live/2023/06/06/the-role-of-our-literature-in-odia-films-odia-news-odisha-news/",
+      "author": "Sambit Mishra",
+      "date": "2023-06-06",
+      "access": "Fresh direct web text read, relevant paragraph118 and adjoining117–126; heading/byline102–107.",
+      "finding": "Essay attributes Adi Mimansa and Lavanya Preeti story material to Mahapatra Nilamani Sahu. No named story, collection, edition, footnote, film credit image or supporting link in this claim.",
+      "derivation_status": "Underlying authority untraced; do not treat narrative assertion as original testimony."
+    },
+    {
+      "url": "https://indiancine.ma/AHXV/info",
+      "access": "Fresh direct8-line metadata record",
+      "locator": "line4 Writer field",
+      "exact_field": "Apurba Kishore Bir, Mahadatra Nilmani Saho",
+      "finding": "Unlinked writer metadata; original misspelling preserved here. It does not distinguish story, screenplay or dialogue, or reveal an edition/title.",
+      "derivation_status": "No source provenance supplied. Do not assume independent corroboration of the essay or silently normalize a precise credit role."
+    }
+  ],
+  "source_ladder": [
+    {
+      "level": "Original film/producer credit",
+      "status": "Anvesha assigned this cycle; not duplicated. Prior original41stNFA entry establishes Bir script and legendary Kedar–Gouri/jatra framing, not a named literary source."
+    },
+    {
+      "level": "Original maker/writer explanation",
+      "status": "Focused English/Odia interview queries did not yield a new source-title account. CRAFT2015 interview resurfaced, already retained; no new evidence claimed from repeated discovery."
+    },
+    {
+      "level": "Publisher/editor bibliography",
+      "status": "New NBT original release account identifies selected collection/editor, but contents and introduction remain unread."
+    },
+    {
+      "level": "Literary monograph",
+      "status": "Archana Nayak98-page Sahitya Akademi study ISBN9789391494773:12preview images already inspected in prior pass; no retry. pp41onward/89/96 remain precise inaccessible dependencies."
+    },
+    {
+      "level": "Secondary essay/film metadata",
+      "status": "Both contain author-name leads; source-story title and chain to originals unresolved."
+    }
+  ],
+  "new_publisher_reference": {
+    "url": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-december-22-20145-11-13-pmnewsletter-dec-2014.pdf",
+    "title": "NBT Newsletter, December2014, Vol32No12",
+    "locator": "PDF/printedp3, Book Release Function at Cuttack, textlines172–195",
+    "access": "OriginalpublisherPDF web-extracted text read; screenshot request did not yield a displayed image in this worker call, so no fresh visual-page claim.",
+    "book_title_as_printed_in_extracted_text": "Mahapatra Nilamani Sahoonka Shrestha Galpa",
+    "editor": "Prof. Dasharathi Das",
+    "reported_event": "Released at Satabdi Bhavan,Cuttack,16November2014, by NBT in collaboration with Utkal Sahitya Samaj.",
+    "limits": [
+      "Publication event is not original story publication date.",
+      "No Lavanya Preeti reference, source-story title, contents or ISBN in the inspected paragraph.",
+      "No claim this2014selection was used for a1993film.",
+      "Potential editorial-introduction/contents lead only."
+    ],
+    "followup_catalogue": {
+      "url": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-march-3-202512-20-00-pmodia-catalouge-2025.pdf",
+      "result": "Searchindex names collection; directopen returns NBT homepage HTML, not originalPDF. No cataloguepage orISBN adopted."
+    }
+  },
+  "other_reference_limits": [
+    {
+      "url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "result": "Indexed officialbiographical list gives multiplecollections; directopen timedout. No film linkage obtained, no arbitrarycollection chosen."
+    },
+    {
+      "url": "https://iucat.iu.edu/iupuc/21840388",
+      "result": "Index identifies2023Hindi selectedstories, GuruprasadMohapatra editor/SujataShiven translator,ISBN9789355484437; record notopened/contentsunread; not adopted as sourceedition."
+    }
+  ],
+  "bounded_searches": [
+    "Nilamani Sahu interview stories film Bir",
+    "A K Bir interview story Sahu",
+    "A.K. Bir interview Lavanya story",
+    "Nilamani Loving Hearts story",
+    "ନୀଳମଣି ସାହୁ ସାକ୍ଷାତକାର ଚଳଚ୍ଚିତ୍ର",
+    "site:nbtindia.gov.in Nilamani Galpa"
+  ],
+  "reuse_correction": "The maker-interview query resurfaced the already-read CRAFT interview; it is not a new successful source and was not repeated further. No generic film-title grid, originalfilm/player retry or Archana preview retry.",
+  "precise_next_source": {
+    "preferred_if_accessible": "NBT Mahapatra Nilamani Sahoonka Shrestha Galpa, editor Dasharathi Das: inspect actual contents and editorial introduction for any film/title linkage before choosing a story.",
+    "priority_limit": "Conditional bibliographic object, not evidence that the source story is included; producer/filmcredit inquiry remains the stronger immediate route.",
+    "existing_alternative": "Archana Nayak monograph pp41onward/selectedexcerpts89/workslist96 only if genuinely new access appears."
+  },
+  "editorial_assessment": {
+    "safe_now": "Current catalogue-grounded Bir script credit and Kedar–Gouri/jatra description can remain. A verified film Writer credit, if Anvesha obtains one, may justify precise role attribution in existing Lavanya chapter.",
+    "not_safe": "A writer credit alone cannot establish that a named published story or collection was adapted. Do not call the underlying story Kedar–Gouri or a Radhanath Ray poem without explicit evidence.",
+    "public_addition": null,
+    "new_public_words": 0
+  },
+  "preservation": {
+    "public_files_edited": false,
+    "builds": false,
+    "shared_records_edited": false,
+    "git_mutations": false,
+    "contact_or_purchase": false
+  }
+}

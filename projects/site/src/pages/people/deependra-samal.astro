@@ -1,7 +1,7 @@
 ---
-import CinemaReading from '../../components/CinemaReading.astro';
-import {cinema} from '../../lib/cinema-article.mjs';
-const entry=cinema.articles.find(article=>article.route==='/people/deependra-samal/');
-if(!entry)throw new Error('Missing reviewed Deependra Samal entry');
+import Shell from '../../layouts/Shell.astro';
+import '../../styles/article-reading.css';
 ---
-<CinemaReading entry={entry}/>
+<Shell title="Deependra Samal · The people behind DAMaN" description="Read about Deependra Samal in the shared story of DAMaN’s filmmakers." active="explore" related={false} canonicalPath="/cinema/daman-team/" redirectTo="/cinema/daman-team/#deependra-samal">
+ <article class="article-reading"><h1>Deependra Samal</h1><p><a href="/cinema/daman-team/#deependra-samal">Read about Deependra Samal in The people behind DAMaN</a>.</p></article>
+</Shell>

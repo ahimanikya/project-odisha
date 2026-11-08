@@ -26,10 +26,10 @@ test('children sections and Watch links promoted exactly once',()=>{for(const [s
 test('books staged byte-exact and no source-sized hero PNGs deployed',()=>{for(const book of cinema.books){assert.equal(hash(fs.readFileSync(path.join(site,'public',book.file))),book.sha256);const delivery=JSON.parse(fs.readFileSync(path.join(root,'kb/records/cinema-book-disclosure-fix-2026-10-26.json'),'utf8'));const reviewed=Object.values(delivery.outputs).find(output=>path.basename(output.path)===path.basename(book.file));assert.ok(reviewed);assert.equal(book.sha256,reviewed.sha256);}const deployed=fs.readdirSync(path.join(site,'public/assets/cinema'));const drawings=[...cinemaNarrative.line_art.map(item=>path.basename(item.public_image)),...cinemaNarrative.book_tail_vignettes.map(item=>path.basename(item.image))];assert.deepEqual(deployed.filter(f=>f.endsWith('.png')).sort(),drawings.sort());});
 test('player logic source-identical, scoped styling, explicit frame policy',()=>{for(const name of ['app.js','core.js','catalogue.js'])assert.equal(fs.readFileSync(path.join(site,'public/assets/cinema/player',name),'utf8'),fs.readFileSync(path.join(root,'outputs/odia-movie-player',name),'utf8'));const app=fs.readFileSync(path.join(site,'public/assets/cinema/player/app.js'),'utf8');assert.ok(app.includes("frame.referrerPolicy='strict-origin-when-cross-origin'"));assert.ok(!app.includes('innerHTML'));const css=fs.readFileSync(path.join(site,'public/assets/cinema/player/player.css'),'utf8');assert.ok(css.includes('.cinema-player'));const page=fs.readFileSync(path.join(site,'src/pages/cinema/watch.astro'),'utf8');assert.ok(!page.includes('<iframe'));assert.equal((page.match(/is:inline defer/g)||[]).length,3);});
 
-test('cinema delivery preserves responsive JPEGs and release PDF URLs',()=>{
+test('cinema delivery preserves responsive JPEGs, direct current PDFs and release archives',()=>{
  for(const entry of cinema.articles)for(const image of entry.images){const html=picture(image,'Image',image.role==='title');assert.ok(!html.includes('.webp'));for(const d of image.derivatives.filter(d=>d.format==='jpeg'))assert.ok(html.includes(`${d.file} ${d.width}w`));assert.ok(html.includes('sizes="'));assert.ok(html.includes(`width="${image.width}" height="${image.height}"`));assert.ok(html.includes(image.role==='title'?'fetchpriority="high"':'loading="lazy"'));}
  const book=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');for(const name of ['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'])assert.ok(book.includes('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/'+name));
- const coast=JSON.parse(fs.readFileSync(path.join(site,'editions/coast.json'),'utf8'));for(const book of cinema.review_books||[]){assert.ok(/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\/[A-Za-z0-9._-]+\/[^/]+\.pdf$/.test(book.file));assert.ok(!coast.documents.includes('/archive/'+path.basename(book.file)));}
+ const coast=JSON.parse(fs.readFileSync(path.join(site,'editions/coast.json'),'utf8'));for(const book of cinema.review_books||[]){assert.match(book.file,/^\/archive\/[a-z0-9-]+\.pdf$/);assert.ok(coast.documents.includes(book.file));assert.match(book.release_file,/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\/[A-Za-z0-9._-]+\/[^/]+\.pdf$/);}
 });
 
 test('further reading preserves all source links and enriches destination articles',()=>{
@@ -114,8 +114,8 @@ test('public cinema readings do not expose internal KB file links',()=>{
 
 
 test('new stories grouping connects both films with their makers exactly once',()=>{
- const part=cinema.parts.find(p=>p.id==='new-search-for-stories');assert.ok(part);assert.ok(part.intro);assert.deepEqual(part.chapters,['gourahari-das','pratikshya','anupam-patnaik','daman','vishal-mourya','debi-prasad-lenka','deependra-samal']);
- for(const slug of ['gourahari-das','pratikshya','anupam-patnaik','daman','vishal-mourya','debi-prasad-lenka','deependra-samal']){
+ const part=cinema.parts.find(p=>p.id==='new-search-for-stories');assert.ok(part);assert.ok(part.intro);assert.deepEqual(part.chapters,['gourahari-das','pratikshya','anupam-patnaik','daman','daman-team']);
+ for(const slug of ['gourahari-das','pratikshya','anupam-patnaik','daman','daman-team']){
   assert.equal(part.chapters.filter(s=>s===slug).length,1,slug+' in new stories group');
   assert.equal(cinema.parts.flatMap(p=>p.chapters).filter(s=>s===slug).length,1,slug+' not duplicated between groups');
   assert.ok(cinema.articles.some(a=>a.slug===slug));
@@ -147,11 +147,14 @@ test('reading order is coherent across parts, callbacks preserve citations, imag
  }
  for(const item of [...cinemaNarrative.people_guide,...cinemaNarrative.timeline]){
   const label=item.label||item.text;
-  assert.ok(cinema.articles.some(a=>a.slug===item.slug),label+' reading destination');
+  const destination=cinemaNarrative.online_profile_routes?.[item.slug]||cinema.articles.find(a=>a.slug===item.slug)?.route;
+  assert.ok(destination,label+' reading destination');
+  if(cinemaNarrative.online_profile_routes?.[item.slug])assert.ok(cinemaArticle(cinema.articles.find(a=>a.route===destination.split('#')[0])).fullHTML.includes(`id="${destination.split('#')[1]}"`),label+' person anchor');
   const refs=item.source_refs??[{slug:item.slug,source_note_id:item.source_note_id}];
   assert.ok(Array.isArray(refs)&&refs.length>0,label+' has source references');
   const seen=new Set();
-  for(const ref of refs){
+  for(const original of refs){
+   const ref=cinemaNarrative.online_guide_source_aliases?.[original.slug+'#'+original.source_note_id]||original;
    assert.ok(typeof ref.slug==='string'&&ref.slug.length>0&&typeof ref.source_note_id==='string'&&ref.source_note_id.length>0,label+' nonempty source binding');
    const binding=JSON.stringify([ref.slug,ref.source_note_id]);
    assert.ok(!seen.has(binding),label+' duplicate source binding');seen.add(binding);
@@ -181,10 +184,11 @@ test('current review books match the reviewed release manifest and retain all ea
  assert.equal(manifest.edition_date,date);assert.equal(manifest.readings,cinema.review_books[0].readings);
  assert.equal(cinema.review_books.length,2);const releaseBases=new Set();
  for(const b of cinema.review_books){
-  assert.equal(b.edition_date,date);assert.equal(b.readings,manifest.readings);assert.equal(b.status,'reviewed_release_asset');
+  assert.equal(b.edition_date,date);assert.equal(b.readings,manifest.readings);assert.equal(b.status,'reviewed_same_origin_asset');
   const reviewed=manifest.assets.find(a=>a.edition===b.edition);assert.ok(reviewed,b.edition);
   for(const key of ['sha256','bytes','pages'])assert.equal(b[key],reviewed[key],b.edition+' '+key);
-  const url=new URL(b.file);assert.equal(url.origin,'https://github.com');assert.equal(url.search,'');assert.equal(url.hash,'');
+  assert.equal(b.file,'/archive/'+reviewed.filename);assert.equal(b.release_file,reviewed.planned_release_url);
+  const url=new URL(b.release_file);assert.equal(url.origin,'https://github.com');assert.equal(url.search,'');assert.equal(url.hash,'');
   assert.match(url.pathname,/^\/ahimanikya\/project-odisha\/releases\/download\/[A-Za-z0-9._-]+\/[^/]+\.pdf$/);
   assert.equal(path.posix.basename(url.pathname),reviewed.filename);releaseBases.add(path.posix.dirname(url.pathname));
  }
@@ -264,9 +268,11 @@ test('standalone introduction is a separate verified download, outside the two b
  const asset=manifest.assets.find(a=>a.edition==='standalone-introduction');assert.ok(asset);
  const intro=cinema.standalone_intro;assert.ok(intro);assert.equal(cinema.review_books.length,2);
  for(const key of ['pages','bytes','sha256'])assert.equal(intro[key],asset[key]);
- assert.equal(intro.file,asset.planned_release_url);
- assert.equal(path.posix.basename(new URL(intro.file).pathname),asset.filename);
- assert.equal(new URL(intro.file).origin,'https://github.com');
+ assert.equal(intro.file,'/archive/the-question-that-brought-me-here-2026-11-06.pdf');
+ assert.equal(intro.status,'reviewed_same_origin_asset');
+ assert.equal(intro.release_file,asset.planned_release_url);
+ assert.equal(path.posix.basename(new URL(intro.release_file).pathname),asset.filename);
+ assert.equal(new URL(intro.release_file).origin,'https://github.com');
  assert.ok(!cinema.review_books.some(b=>b.file===intro.file));
  assert.match(intro.sha256,/^[a-f0-9]{64}$/);assert.ok(Number.isInteger(intro.bytes)&&intro.bytes>0);assert.equal(intro.pages,6);
  const localPath=path.join(root,asset.path);

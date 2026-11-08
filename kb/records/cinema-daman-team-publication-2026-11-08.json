@@ -1,0 +1,70 @@
+{
+  "id": "POD-CINEMA-DAMAN-TEAM-PUBLICATION-20261108",
+  "date": "2026-11-08",
+  "status": "reviewed_waiting_for_publication_slot",
+  "authorization": {
+    "user_request": "Good, let\u2019s publish the consolidated DAMaN team page and update both book downloads. Keep Lavanya Preeti\u2019s story credit open until we have evidence.",
+    "renewed_confirmation_required": false
+  },
+  "source_handoff": "records/cinema-daman-team-lavanya-2026-11-08.json",
+  "active_article": null,
+  "scope_released": false,
+  "publication_performed": false,
+  "programme_credit": 0,
+  "release_tag": "odia-cinema-book-2026-11-08-daman-team",
+  "reserved_scopes": {
+    "Disha": [
+      "Shared records,git,release/deployment and live verification",
+      "kb/research/culture/cinema-series/manifest.json",
+      "outputs/cinema-daman-team-publication-20261108/root/",
+      "outputs/cinema-daman-team-publication-20261108/release/"
+    ],
+    "Samanta": [
+      "projects/site/src/data/cinema.json (book release binding only)",
+      "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json",
+      "outputs/cinema-daman-team-publication-20261108/implementation/",
+      "projects/site/src/pages/people/vishal-mourya.astro",
+      "projects/site/src/pages/people/debi-prasad-lenka.astro",
+      "projects/site/src/pages/people/deependra-samal.astro",
+      "projects/site/tests/cinema-discovery.test.mjs (adjust accurate contract if needed)",
+      "projects/site/src/layouts/Shell.astro (optional canonicalPath/redirectTo defaults only)",
+      "projects/site/tools/audit-coast.py (validate three consolidated profile redirects without weakening ordinary-page checks)",
+      "outputs/cinema-daman-team-publication-20261108/implementation/redirect-audit-fix.json",
+      "projects/site/tools/audit-discovery.py",
+      "projects/site/tools/cinema_redirects.py",
+      "projects/site/tools/tests/test_cinema_redirects.py"
+    ],
+    "Anvesha": [
+      "outputs/cinema-daman-team-publication-20261108/research/"
+    ],
+    "Drishti": [
+      "outputs/cinema-daman-team-publication-20261108/review/"
+    ]
+  },
+  "boundaries": [
+    "Publish existing reviewed consolidated DAMaN team article,old-route continuity,and matching49chapter book proofs.",
+    "Lavanya original film story credit remains unresolved; no public assertion or new research.",
+    "Preserve unrelated tagged-reader experiments, prior editions and existing intro download."
+  ],
+  "book_manifest": "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json",
+  "source_review": "outputs/cinema-daman-team-publication-20261108/research/source-guard.json",
+  "implementation": "outputs/cinema-daman-team-publication-20261108/implementation/implementation.json",
+  "validation_progress": {
+    "reviewed_head": "08c8625830e0c144614baa0c79d6d5077377790f",
+    "main_tests": 729,
+    "coast_tests": 581,
+    "hosted_run": 42491684868,
+    "hosted_result": "failure",
+    "blocking_check": "Three valid consolidated aliases conflict with self-canonical assumptions in metadata audits; bounded exact-target validator under independent review.",
+    "local_publication_build": "ENOSPC during copying/PNG optimization; failed outputs removed and failure logs preserved. No more local final-build retries.",
+    "record": "outputs/cinema-daman-team-publication-20261108/root/validation.json"
+  },
+  "book_assets_published": true,
+  "pending_integration": {
+    "incoming_head": "8bf7b7188091c14d3cabb4f4779d717583ce52c3",
+    "required_ci_passed_head": "655d6d4045cd384bb63b7d624e2bd4cf9fdcef0f",
+    "required_ci_run": 42492865030,
+    "active_owner": "POD-EDIT-121",
+    "note": "Preserve incoming active ownership and all foreign changes. No website deployment or other worker release claimed."
+  }
+}

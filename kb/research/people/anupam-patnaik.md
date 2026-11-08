@@ -47,7 +47,7 @@ Seventeen drafts are easy to compress into a sentence. Patnaik’s recollection 
 
 - [Pratikshya: a family waiting for security](../culture/cinema-series/pratikshya.md)
 - [DAMaN: the road from Malkangiri to national recognition](../culture/cinema-series/daman.md)
-- [Deependra Samal: making room for a different film](deependra-samal.md)
+- [The people behind DAMaN](../culture/cinema-series/daman-team.md)
 - [Odia Cinema’s Commercial Successes](../culture/cinema-series/commercial-successes.md)
 - [Beyond One Successful Film: Building Odia Cinema Together](../culture/cinema-series/cinema-futures.md)
 

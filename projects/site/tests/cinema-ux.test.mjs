@@ -95,8 +95,7 @@ test('migrated portrait cards use the selected documentary hero rather than reti
   'kanhu-charan-mohanty':'/assets/cinema/kanhu-charan-mohanty-portrait-1080w.jpg',
   'gopal-chhotray':'/assets/cinema/gopal-chhotray-portrait-200w.jpg',
   'manmohan-mahapatra':'/assets/cinema/manmohan-mahapatra-manmohan-indianexpress-20261105-1200w.jpg',
-  'debi-prasad-lenka':'/assets/cinema/debi-prasad-lenka-award-564w.jpg',
-  'deependra-samal':'/assets/cinema/deependra-samal-award-695w.jpg',
+  'daman-team':'/assets/cinema/deependra-samal-award-695w.jpg',
  };
  for(const [slug,file] of Object.entries(chosen)){
   const entry=cinema.articles.find(a=>a.slug===slug);
