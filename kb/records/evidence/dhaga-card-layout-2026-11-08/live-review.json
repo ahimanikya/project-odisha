@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "scope": "Separate actual live card-publication review; receipt integration remains separate",
+  "reviewer": "drishti; AI review, not human editorial certification",
+  "deployed_head": "dea209cab15a6b9003d080457b6b9318313dfd82",
+  "publication_run": 42439777361,
+  "producer_checked_at": "2026-11-08T03:05:17.298Z",
+  "reviewed_at": "2026-11-08T03:07:39.128510+00:00",
+  "producer_sha256": "34a4aa77b0919c05347f9a9a682b26967c9efec8093544906a98f59b0dccb212",
+  "checks": {
+    "responsive": true,
+    "formatting": true,
+    "full_originals_and_both_summaries": true,
+    "source_preservation": true,
+    "images": true,
+    "search_theme_clear_empty": true,
+    "keyboard_chapter_direct_hash_back": true,
+    "no_javascript_full_access": true,
+    "PDF_descriptor_and_link": true
+  },
+  "independent_checks": [
+    "Rehashed all37 artifact bindings and producer direct bindings, plus actual682242754byte ZIP; its digest matches the successful publication artifact metadata.",
+    "Independently parsed saved public index using standard-library HTMLParser. All358 exact original texts and both summaries match canonical entries. Only BR maps to newline; no wording/spacing normalization.301image-bearing and57text-only identities match entries.",
+    "All301 reported live image hashes/lengths match the actual published archive manifest; seven saved public HTML sample results match archive hashes. Source verifier inspected and requires HTTP200 plus exact hashes, without accepting local mismatch as a pass.",
+    "Viewed actual1440cards,768cards,390cards and320text-only screenshots. Full text is readable; artwork contained; tablet gap and bottom-link alignment clear; target358 has no empty image frame.",
+    "Reviewed actual four-width interaction results and guarded browser scripts:3/2/1/1columns, no overflow, search/theme/reset/empty results, native keyboard/chapter/direct fragment and Back reveal/focus, noJS358.",
+    "PDF descriptor hash independently matches unchanged canonical descriptor. Producer verified actual public download link; PDF not re-downloaded."
+  ],
+  "history": [
+    "Initial textContent comparison lost source newlines represented by BR; original failure retained, corrected separate verifier reconstructs only those newlines.",
+    "23 live image hashes differ from local optimized outputs; actual successful artifact is strict byte authority. Platform or encoder cause remains unproven.",
+    "Original failed checks and rejected combined edit/run retained. Stronger archive-backed verification follows explicit root authorization.",
+    "Reviewer optional BeautifulSoup import was unavailable before any checks ran; standard-library parser then completed independent content verification."
+  ],
+  "limits": [
+    "Saved-evidence independent review; reviewer did not repeat live browser or network retrieval.",
+    "Actual Chrome coverage only. Four representative screenshots inspected directly; all12 screenshot hashes verified.",
+    "Seven HTML products sampled against archive, not an all-site HTML parity claim. All358card original/summary fields and all301live image digests checked.",
+    "Adjacent next-chapter lazy image is blank in320text-only screenshot; target text-only card is correct and all301asset HTTP/digest checks passed.",
+    "Existing110419594byte226pagePDF not downloaded again; descriptor/link verification only.",
+    "ZIP remains local-only reference and must not be embedded in Git/portable receipt. No source credit, new sayings or human review implied."
+  ],
+  "bindings": [
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/actual-published-index.html",
+      "sha256": "2e23aa83aff3dd4ca618591843ae41f464c85bf2781514b29647fa2fa7e275ed"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/archive-audit.log",
+      "sha256": "0dfb20b54ccb0c8522e52c82a406bb81ac9dcca65327cb3562f59ca38bcf19ba"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/archive-dhaga-manifest.json",
+      "sha256": "9b55cb2df7e2a849cd7cbdda4b6aee46b12ca7629cab1703ccd8ebc0cfb2c554"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/archive-live-results.json",
+      "sha256": "a1e7c48e7e1468a748305f26a0a862be2d5feddb56e06cc9216278679ec0e6a1"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/archive-live.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/audit-archive.py",
+      "sha256": "44e71f4ba923ff9698c284b29305b31bd6e332b18ca3f5c9c4db14af798ac884"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/browser-results.json",
+      "sha256": "238f03f5b37bb776c9b0b4ef5ef90fb31b00c939dc00e8fa2820e77730146cb6"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/browser.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/check-browser.cjs",
+      "sha256": "a6e67fcf8129f4cb20c7cb1bd85eb63c1b7859cbf818c4307bc1d092621b4887"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/check-content.cjs",
+      "sha256": "ecfcbf88b517c1731362ccb682af359582e478ad0cf0b03fcd4644ccb24bc383"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/check-extra.cjs",
+      "sha256": "c038c3a8abd6f4c274068aa8030b76dc44f4b798ffe652afbf9ffc3781bcc2ce"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/content-failure.json",
+      "sha256": "035548b33b6d2ac785d18351d836952831ef12ada0df2d6cf974d8c0cf635c35"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/content.log",
+      "sha256": "f3dd122dd1991712b4dd3bc8df30c1cebc11253c9637e73691b69eede2f35727"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/extra.log",
+      "sha256": "ce6eb4c50dcebc0ede362e5cc2aa39afb51089abd8d3d0365ae29eb3a4d81a5b"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/initial-failure-history.json",
+      "sha256": "b4be3f4bdf609104c7b386f5b1ca420ca07504827cec4a196bb3879bb9ca5574"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-index.html",
+      "sha256": "2e23aa83aff3dd4ca618591843ae41f464c85bf2781514b29647fa2fa7e275ed"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-reader.html",
+      "sha256": "e50af7c572b52d3c086076139d6f16ca7114e7c39a69e20db9c008edd7b7e3f8"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-sayings-pod-dhaga-001.html",
+      "sha256": "895dae5338d72517e439ea77df03b2f1223666f0978d1063a5063087c064d841"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-sayings-pod-dhaga-301.html",
+      "sha256": "d1fed50a428dc75b15e8403a1e97b11ea1588d2387dbdabd44d4e0869f81d9cf"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-sayings-pod-dhaga-302.html",
+      "sha256": "385147ae94181f1ede255c25776cf95ee0487fd1789ec36df159d35a38f66729"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-sayings-pod-dhaga-358.html",
+      "sha256": "8c3de66698f00ab9dbf8c3fa864b40d9d135a6b0e3ab4c507af7eccb7dd54fd3"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/live-sources.html",
+      "sha256": "4e2648031adec4080b28e148b9bb47a501fb88c54b8095fe42f98dffb818defc"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/manifest.json",
+      "sha256": "8f62c10c47c05c293aef8a62b17546425722b2fcd3875d483d9570eeb9a509ff"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/prepared-plan.json",
+      "sha256": "7d90eb676aecea13007beeaba440db0cd12e7c2fd8cfc30976ec837143b362eb"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-1440-cards.png",
+      "sha256": "4dd143092a4c7f908ffb81622ed21a65f599c5ab98d0ce89c9004f4afec543f3"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-1440-opening.png",
+      "sha256": "86431ba6385fabb6425c8045993b1ff6c6ce3a1f150e2823cf81ce3ea49c095c"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-1440-text-only.png",
+      "sha256": "14fee3d35ad4dba08317c2497bd54a3ac3d72620ea7ba942fec7022ff0a7c262"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-320-cards.png",
+      "sha256": "73bd0f27d45fd4a805d4308623c3ca4e53cbf6d9904e3179e89d62a676581d54"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-320-opening.png",
+      "sha256": "ddd2c9131bc35c3b3929f83c0525da8b1b3cdce402566dce84004e67c3763fe2"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-320-text-only.png",
+      "sha256": "0f7325a79eed64f5ba78939e0ece1aa53812f9659c75dbe90e74e66de0864eda"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-390-cards.png",
+      "sha256": "504f4e52406fa95e7da944fe7210f85d10bb0f3d4f25f1eb3aa8bfc3c9b9c142"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-390-opening.png",
+      "sha256": "6e3bc609a1ae417b21413f88bbffc3e33d4561fc604f93d40e3ecce3358d1555"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-390-text-only.png",
+      "sha256": "a97bc54c240a13cb5e9d1edd07a40dd57b6beeee21ec78c7166245c1e97f3d66"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-768-cards.png",
+      "sha256": "5e5e6cb026dc21e32e9abf1ab2f74f8ee02afad5626186a5a9f8d88d48b2c964"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-768-opening.png",
+      "sha256": "655bbe1f11443df5139fb1beb5bf2f18969983059f2de079c4fa5ffb4742531c"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/preview-768-text-only.png",
+      "sha256": "bb1eb803e422f515982c64f86ff52a970df5b6c825d67d7deb074741af2f0945"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/publication-artifacts.json",
+      "sha256": "0a393ac4284586776f865f4e5a0fd676fb65d7d2685abb8b753977c3e7230e75"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/report.json",
+      "sha256": "34a4aa77b0919c05347f9a9a682b26967c9efec8093544906a98f59b0dccb212"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/verify-archive-live.cjs",
+      "sha256": "63d0087f309f46367d7da65dd73a038be0e50f05a2ca1edbdc584bb6ba2bb7c1"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/publication.json",
+      "sha256": "2af4cc02ac3c5c7b08505a8a77ef73debc7b6f71834a6d03a76a1b5ac5d103c7"
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/samanta/report.json",
+      "sha256": "192e4a4e7a1d12ee3e7cbf230b6cff513c8df15e3cb49262710ab2de88e9c842"
+    }
+  ],
+  "scope_released": true
+}

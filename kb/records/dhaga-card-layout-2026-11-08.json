@@ -1,5 +1,5 @@
 {
-  "status": "implementation_and_review",
+  "status": "published_live_verified_receipt_integration",
   "owner": "Disha",
   "authorization": "Founder: The card layout looks good. Please publish it on /dhaga/ while keeping the next article and Dhaga research moving. Can we manage the gap when we have two columns?",
   "scope": "Responsive card library and aligned two-column rows; existing optimized reading illustrations reused in public export.",
@@ -20,10 +20,42 @@
   },
   "output_handoff": "outputs/dhaga-card-publication-2026-11-08/HANDOFF.json",
   "publication": {
-    "status": "pending_required_checks_merge_deployment_live_verification"
+    "conclusion": "success",
+    "createdAt": "2026-11-08T02:44:09Z",
+    "databaseId": 42439777361,
+    "headSha": "dea209cab15a6b9003d080457b6b9318313dfd82",
+    "status": "completed",
+    "updatedAt": "2026-11-08T02:58:09Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42439777361"
   },
   "limits": [
-    "Local preview approval does not certify production; actual publication and live checks remain required.",
-    "No substantive programme credit for layout work."
-  ]
+    "Separate AI review, not human editorial review.",
+    "23 local image hashes differ from deployed artifact; all live image hashes equal that artifact. Cause of local differences unproven.",
+    "Existing PDF unchanged; descriptor and live link verified, no fresh110MBdownload.",
+    "No new readings, new illustration production or substantive programme credit."
+  ],
+  "release_pr": 713,
+  "reviewed_head": "89001b120d5200d0e4085e5bc6bc50d7191d6832",
+  "merge": "dea209cab15a6b9003d080457b6b9318313dfd82",
+  "required_ci": 42438871668,
+  "evidence": "records/evidence/dhaga-card-layout-2026-11-08/",
+  "live_verification": {
+    "status": "PASS_separate_AI_review",
+    "checked_at": "2026-11-08T03:05:17.298Z",
+    "review_sha256": "ec657c07b8a52a0aed4ba8fd012f6778b8c1ca771127249ae1dd0a5c6a696cb3",
+    "report_sha256": "34a4aa77b0919c05347f9a9a682b26967c9efec8093544906a98f59b0dccb212",
+    "widths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "all_358_texts_exact": true,
+    "all_301_images_match_deployed_archive": true,
+    "tablet_gap_px": 16
+  },
+  "receipt": {
+    "status": "pending_required_checks_reviewed_merge",
+    "release_condition": "Release finite card scope after separately reviewed evidence receipt merges with passing required CI and actual remote artifact verification. No second website deployment for metadata."
+  }
 }
