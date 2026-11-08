@@ -1,0 +1,125 @@
+{
+  "status": "PASS_LOCAL_PUBLICATION_CANDIDATE",
+  "scope_released": true,
+  "required_corrections": [],
+  "input_hashes": {
+    "outputs/cinema-credits-publication-20261108/implementation/implementation.json": "925b8a8e62bcc3b79a01e2e03501bb9516f868598edea1689b8095d6a3bdaf88",
+    "outputs/cinema-credits-publication-20261108/implementation/preservation.json": "1639ecf419669d0657333a4f520e89c90a7def6c2b5f61ab4a681256c9e62c42",
+    "outputs/cinema-credits-publication-20261108/book-release-manifest.json": "1a45b4794af412df181d224ae2cfefd6234fd992eb4ca5ceea676fb10bf1e765",
+    "outputs/cinema-credits-publication-20261108/research.json": "6f2ab1fc98159f4d06669e08fcae3ad7e32b93b35bd86f474d6092eb92c53830",
+    "outputs/cinema-credits-publication-20261108/review/content-review.json": "5f4ca5a4870d94805beb0bf63d2137a84d0c58425db046b7b734b7ad69f5326d",
+    "outputs/cinema-credits-publication-20261108/review/artifact-checks.json": "170b46a14dfbf2cb96f6e833d21afa16970522374c1af386238df98b7f13ddf6",
+    "kb/research/culture/cinema-series/cinema-futures.md": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-08-film-credits.pdf": "f1e3c62b34eb2cb0c03b72dc48a9c8d0578b4eb1914bf5dd8793be338e044a08",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-08-film-credits.pdf": "039dcc61bfadd2807c381921de32682edf657fbca55f8e856c37df85eee7f769",
+    "output/pdf/the-question-that-brought-me-here-ahimanikya-satapathy.pdf": "8c5db39b9ee5fc262409c8636ca5abdb624774347c67e728a4fedc199934a933",
+    "tmp/pdfs/2026-11-08-film-credits/digital/book-build-2026-11-08-film-credits.json": "648cd186b6af468015d5ad6232f72fcf17b63d77d1eaca3c4f925c0aba9bf10f",
+    "outputs/cinema-credits-publication-20261108/release/digital-book-build.json": "648cd186b6af468015d5ad6232f72fcf17b63d77d1eaca3c4f925c0aba9bf10f",
+    "tmp/pdfs/2026-11-08-film-credits/print/book-build-2026-11-08-film-credits.json": "3d9f98b839008d41ee6cb18f396bb7f5af134c674e303a56bf34ee0627f03afe",
+    "outputs/cinema-credits-publication-20261108/release/print-book-build.json": "3d9f98b839008d41ee6cb18f396bb7f5af134c674e303a56bf34ee0627f03afe"
+  },
+  "content_review": "Exact source addition and compact notes pass. Remosam attribution is explicitly to the 2021 producer treatment; Ramaleelas attribution is explicitly to its released trailer, sharing the precise additional script, research and subtitles credit with Puloma Pal. No full-feature-credit, sole-writer, payment or viewing inference. Previous prose and notes reverse-preserved.",
+  "independent_artifact_checks": {
+    "digital": {
+      "receipt_sha256": "648cd186b6af468015d5ad6232f72fcf17b63d77d1eaca3c4f925c0aba9bf10f",
+      "pdf_sha256": "f1e3c62b34eb2cb0c03b72dc48a9c8d0578b4eb1914bf5dd8793be338e044a08",
+      "hash_matches": true,
+      "pages": 272,
+      "notes": 542,
+      "49_source_bindings_current": true,
+      "changed_sources": [
+        "cinema-futures"
+      ],
+      "62_images_preserved": true,
+      "cover_preserved": true,
+      "integrated_profiles_preserved": true,
+      "stable_page_references": true,
+      "map_changes": {
+        "overview-companion": [
+          207,
+          208
+        ],
+        "section-production-support": [
+          209,
+          210
+        ],
+        "section-recognition": [
+          219,
+          220
+        ],
+        "reference-guide": [
+          233,
+          234
+        ],
+        "sources": [
+          241,
+          242
+        ],
+        "credits": [
+          270,
+          271
+        ]
+      },
+      "new_note_urls_present": true
+    },
+    "print": {
+      "receipt_sha256": "3d9f98b839008d41ee6cb18f396bb7f5af134c674e303a56bf34ee0627f03afe",
+      "pdf_sha256": "039dcc61bfadd2807c381921de32682edf657fbca55f8e856c37df85eee7f769",
+      "hash_matches": true,
+      "pages": 278,
+      "notes": 542,
+      "49_source_bindings_current": true,
+      "changed_sources": [
+        "cinema-futures"
+      ],
+      "62_images_preserved": true,
+      "cover_preserved": true,
+      "integrated_profiles_preserved": true,
+      "stable_page_references": true,
+      "map_changes": {}
+    },
+    "release_manifest_assets_match": true
+  },
+  "actual_visual_scope": {
+    "digital_pages": [
+      200,
+      201,
+      202,
+      207,
+      270,
+      271
+    ],
+    "print_pages": [
+      201,
+      202,
+      270,
+      271
+    ],
+    "render_pattern": "tmp/pdfs/2026-11-08-film-credits/{edition}/pages/page-NNN.png",
+    "findings": "All inspected pages readable without clipping or overlap. Print credit paragraph continues normally from 201 to 202 with shared role and note retained. Both note pages 270 are compact and readable. Digital 207 contains a spacious but coherent closing group with complete closing paragraphs and existing drawing; digital 271 edition note and print 271 selected links are clean."
+  },
+  "independent_browser_review": {
+    "url": "http://127.0.0.1:62138/cinema/cinema-futures/#the-voices-already-around-us",
+    "surface": "Chrome desktop",
+    "checks": [
+      "Actual new section and paragraph viewed in viewport screenshot; readable without clipping.",
+      "Source note 7 to user-content-fn-remosam-credit and Return to citation 7 to user-content-fnref-remosam-credit verified.",
+      "Source note 8 to user-content-fn-ramaleelas-credit and Return to citation 8 to user-content-fnref-ramaleelas-credit verified.",
+      "Actual compact note screenshot viewed."
+    ],
+    "screenshot_evidence": "Screenshots displayed directly in tool results; no exported screenshot file claimed.",
+    "mobile_review": false
+  },
+  "automated_checks_reviewed": {
+    "worker_receipt": "51 cinema tests, 23 post-metadata release tests, site builds and disclosures passed; reviewer did not rerun unchanged checks.",
+    "coordinator_report": "Root separately reports 724 full-site tests and bundle/team/rollout/workbench checks PASS."
+  },
+  "preservation_limits": "Independent artifact checks cover all 49 source bindings, 62 image records excluding edition paths/credit numbering, covers and integrated profiles. Worker protected-path audit also records two unrelated upstream Markdown changes; these are not attributed to this article implementation. Digital appendix starts shift +1 as recorded; print map unchanged. Previous release URLs retained and standalone introduction unchanged.",
+  "release_gate": "Local article and book candidate ready for coordinator publication. Manifest planned URLs and asset bytes checked; no current upload, deployment or live-verification claim.",
+  "limits": [
+    "Scoped manual PDF review only, not all pages.",
+    "No continuous film viewing or audio audition.",
+    "No external film playback during browser check.",
+    "No human approval or PDF accessibility certification claim."
+  ]
+}
