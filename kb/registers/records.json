@@ -9687,19 +9687,22 @@
       "id": "POD-WORK-333",
       "title": "Pipili appliqué: from repeated cloth pieces to a formed lampshade",
       "category": "website_and_knowledge",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Implement reviewed draft and patch, validate actual outputs and publish with receipt.",
+      "next_action": "Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit.",
       "blockers": [],
       "refs": [
         "POD-DEC-225"
       ],
       "evidence": [
-        "records/pipili-editorial-2026-11-08.json"
-      ]
+        "records/pipili-editorial-2026-11-08.json",
+        "records/pipili-editorial-publication-2026-11-08.json",
+        "records/pipili-delivery-review-2026-11-08.json"
+      ],
+      "completed_at": "2026-11-08T06:13:23.518Z"
     }
   ],
   "decisions": [
@@ -23576,6 +23579,36 @@
         "No canonical/Git changes, builds or source retrieval performed.",
         "Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata."
       ]
+    },
+    {
+      "id": "POD-REV-301",
+      "title": "Pipili appliqué separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "reviewed_head": "fec03e2da34ef123cf34413c932ad438f510ac41",
+      "refs": [
+        "POD-WORK-333"
+      ],
+      "evidence": [
+        "records/pipili-delivery-review-2026-11-08.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human review.",
+        "No origin or ceremony inference from inaccessible tourism source.",
+        "358 public Dhaga and seven local proposals unchanged.",
+        "Actual saved live Chrome evidence plus separate AI pixel/content review; no human proofreading claim and no duplicate live browser run.",
+        "ZIP digest independently verified; targeted regular-member comparison is not whole-site archive safety certification. Large ZIP remains local only.",
+        "No claim that all old catalogue or unrelated pages equal current site; only scoped parent/source/article/photo checks.",
+        "Original network-restricted status lookup failure and authorized retry retained; no live failure rewritten.",
+        "Source188 allocation and prior source limits inherited; no new research or source-derived prose.",
+        "Live PASS does not materialize or approve an unreviewed receipt, receipt merge, or programme credit.",
+        "No canonical/Git/build/deployment mutations performed.",
+        "Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata."
+      ]
     }
   ],
   "releases": [
@@ -27607,6 +27640,21 @@
       ],
       "evidence": [
         "records/patrapoda-editorial-publication-2026-11-08.json"
+      ]
+    },
+    {
+      "id": "POD-REL-171",
+      "title": "Pipili appliqué: from repeated cloth pieces to a formed lampshade",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/crafts/pipili-applique/",
+      "refs": [
+        "POD-WORK-333",
+        "POD-REV-301",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/pipili-editorial-publication-2026-11-08.json"
       ]
     }
   ],
