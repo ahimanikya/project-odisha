@@ -49,3 +49,7 @@ The same page's bank and hotel guidance names Bhubaneswar; those amenities must 
 [Craft collection data](craft-stories.json) connects a sourced introduction, inspected documentary photographs, maker questions and a saved craft journey. Existing visit guides remain the home for practical arrangements. Local terminology, maker identification and workshop availability remain open; candidate preparation does not claim publication approval.
 
 [Related article draft](../stories/narratives/pipili-cloth-and-ceremony.md) develops the existing process and ceremonial evidence into reader narration.
+
+## Documented lampshade process
+
+The documented lampshade uses repeated cloth pieces, machine stitching and supporting rings. [Process account](https://www.dsource.in/resource/traditional-pipli-applique-work-pipli-orissa/making-process).

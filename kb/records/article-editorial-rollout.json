@@ -3092,23 +3092,33 @@
       "id": "POD-EDIT-119",
       "route": "/crafts/",
       "title": "Made by hand in Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "collection_navigation",
       "source_template": "projects/site/src/pages/crafts/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/crafts-utility-review-2026-11-08.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected authored collection/navigation with three destinationcards,makerquestions,onward links and sharedcredits; no sustained standalone craft account. Preserve all public material and childstories; no credit."
     },
     {
       "id": "POD-EDIT-120",
       "route": "/crafts/pipili-applique/",
       "title": "Pipili appliqué",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "scope": "substantive_craft_account",
+      "source_template": "projects/site/src/pages/crafts/[slug].astro",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/pipili-editorial-2026-11-08.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-08T05:11:49.891969+00:00"
     },
     {
       "id": "POD-EDIT-121",
