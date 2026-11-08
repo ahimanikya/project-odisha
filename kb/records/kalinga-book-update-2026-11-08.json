@@ -1,0 +1,120 @@
+{
+  "id": "POD-KALINGA-BOOK-20261108",
+  "status": "reviewed_candidate",
+  "authorization": "Founder explicitly requested updated book details, selected entries, qualified inscription comparison and website publication.",
+  "base": "f0ff041f",
+  "scope": [
+    "kb/research/stories/reading-kalinga-beyond-odisha.json",
+    "kb/research/stories/reading-kalinga-beyond-odisha.md"
+  ],
+  "roles": {
+    "Disha": "coordinator, integration and publication",
+    "Anvesha": "read-only evidence review",
+    "Samanta": "article JSON/Markdown only; no Git or shared records",
+    "Drishti": "separate read-only quality review"
+  },
+  "other_scopes": "Preserve cinema and Dongria workers; no shared operations overwrite. Prior Kalinga receipt716 merged; this is same-article follow-up.",
+  "scope_released": false,
+  "updated_at": "2026-11-08T05:14:29.112570+00:00",
+  "evidence_review": {
+    "result": "PASS",
+    "reviewer": "Anvesha",
+    "scope": "Independently verified sample imprint and team page; selected entries checked against saved direct-reading notes; photograph and SII page visually compared.",
+    "limits": [
+      "Selected pages only, not whole-book review",
+      "Modern slab identity remains unverified",
+      "AR366/1905 unexamined",
+      "No photograph reuse"
+    ]
+  },
+  "local_checks": [
+    "research reindex",
+    "research validate: PASS6000links38arithmetic71preserved",
+    "classification: PASS639classified1713observations",
+    "catalog",
+    "bundle: PASS1890concepts8483links",
+    "team assignments: PASS",
+    "autonomous program: PASS"
+  ],
+  "implementation_review": {
+    "files": [
+      "kb/research/stories/reading-kalinga-beyond-odisha.json",
+      "kb/research/stories/reading-kalinga-beyond-odisha.md",
+      "projects/site/tests-coast/kalinga-heritage.test.mjs"
+    ],
+    "source_word_counts": {
+      "nayak-dharmapuri2024": 115,
+      "nayak-rajaguru1961": 189,
+      "nayak-intach2025": 82,
+      "nayak-launch2025": 44,
+      "nayak-asi-epigraphy": 61,
+      "nayak-asi-estampages": 76,
+      "nayak-chitreswari2024": 91,
+      "nayak-book-preview": 144,
+      "nayak-sii1948": 119,
+      "nayak-report2024-print": 67
+    },
+    "same_lineage_orissapost_total": 182,
+    "source_budget_method": "Conservative title+note+whole co-cited paragraph text; Markdown internal mirror not public duplicate.",
+    "tests": {
+      "full_build": "PASS",
+      "article": "3/3PASS",
+      "disclosures": "1212pages,0violations",
+      "full_draft": "PASS724/724,0skip"
+    },
+    "preview": "http://127.0.0.1:8832/stories/reading-kalinga-beyond-odisha/",
+    "limitations": [
+      "Selected book pages only; PidiMandasa partial entry; referenced external works not newly inspected.",
+      "SII Telugu not independently deciphered; AR366/1905 uninspected.",
+      "Modern object match unconfirmed; no photo reuse."
+    ],
+    "source_writes_released": true,
+    "committed": false
+  },
+  "changed_files": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/kalinga-book-update-2026-11-08.json",
+    "kb/research/people/deepak-kumar-nayak.md",
+    "kb/research/references/data/deepak-nayak-work-tracker.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/stories/reading-kalinga-beyond-odisha.json",
+    "kb/research/stories/reading-kalinga-beyond-odisha.md",
+    "projects/site/tests-coast/kalinga-heritage.test.mjs",
+    "kb/records/editorial-workbench.json"
+  ],
+  "quality_review": {
+    "status": "PASS",
+    "reviewer": "Drishti independent agent",
+    "checked_at": "2026-11-08T05:21:27.407092+00:00",
+    "files": {
+      "kb/research/stories/reading-kalinga-beyond-odisha.json": "7b3d1b962a403eb8e073f5bce7748bd2b234e31a630192caa6919124455f5eaf",
+      "kb/research/stories/reading-kalinga-beyond-odisha.md": "dc3e8aec9b9cfa80fde65673617ec60d346b12c50452592566a4c897814cdca1",
+      "projects/site/tests-coast/kalinga-heritage.test.mjs": "3e7077c74d054062fd7695ac395d86396b2375e95f969b258e3c68cf19383a0d"
+    },
+    "checks": [
+      "Read AGENTS, editorialstandard, handoff and dated source research records.",
+      "JSON narrative matches every Markdown paragraph including emphasis and source refs.",
+      "Book notes identify firstedition/date/imprint/ISBN and precise selected sample pages; fullbook and external-reference review not claimed.",
+      "PidiMandasa date/tradition remain possible; Ronanki buried-slab account explicitly attributed to author conversations, no confirmed permanentloss.",
+      "SII1948 Saka1071 and Rajaguru1891 correction1072 both retained; donation distinct from templeconstruction and physical-object identity unconfirmed.",
+      "New comparison paragraph treats oblique photo as insufficient for line-by-line matching; no new photograph reuse.",
+      "Conservative sourcegroup counts after trims: Rajaguru189, book144, SII119, OrissaPOST web+print182; remaining sources below100.",
+      "Chrome desktop1212px/mobile390x844 review: new selected-entry passage and book footnote readable, no observed clipping; viewport reset.",
+      "Clicked new book footnote8 and second return; URL fragments and focus correctly target note and Ronanki citation.",
+      "Rendered article unique38IDs and40fragmenttargets resolve; all10 source notes visible, shared editorial-process link and reading paths preserved.",
+      "Focused regression URL assertion checks the correctly HTML-escaped ampersands; source URL presence check remains enforced."
+    ],
+    "limits": [
+      "Fullbook, underlying Telugu transcription, external cited works, AR366/1905 and modern-object match unverified.",
+      "Imprint independently visually checked by Anvesha; selectedentry claims compared to root saved reading notes, not independently reread by Drishti.",
+      "Exact committed-head review, required CI and live publication verification pending."
+    ]
+  },
+  "ci_repair": {
+    "failed_run": 42450519263,
+    "reason": "Generated editorial-workbench index stale after three new source records.",
+    "repair": "Regenerated index, preserving frozen500selection; sixPython and threeNode tests PASS.",
+    "article_changed": false
+  }
+}

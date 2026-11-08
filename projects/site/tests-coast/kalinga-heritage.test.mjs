@@ -18,7 +18,7 @@ test('history article renders its bounded identity claim and source navigation',
   assert.equal(html.split(`id="ref-${p.id}-${id}"`).length-1,1);
   assert.equal(html.split(`href="#ref-${p.id}-${id}"`).length-1,1);
  }
- for(const s of story.sources){assert.equal(html.split(`id="note-${s.id}"`).length-1,1);assert.ok(html.includes(s.url));}
+ for(const s of story.sources){assert.equal(html.split(`id="note-${s.id}"`).length-1,1);assert.ok(html.includes(s.url.replaceAll('&','&amp;')));}
  assert.match(html,/Footnotes &amp; Sources/);
  assert.match(html,/Further reading/);assert.match(html,/Continue reading/);
  assert.match(html,/GitHub submissions are public/);
