@@ -1,0 +1,39 @@
+{
+  "status": "PASS_DELIVERY_RECEIPTS",
+  "scope_released": true,
+  "required_corrections": [],
+  "input_hashes": {
+    "outputs/cinema-credits-publication-20261108/release/merged-pr.json": "de55df5ee73a5caccc2b1b08ea028c0a2a0d9ced5a0efa919d9b5b3f6cf99666",
+    "outputs/cinema-credits-publication-20261108/release/validation-final.json": "4bfcfbc0dae855fb993ff471fe413e1dde55ff76714d4dc3b620de3daceffce4",
+    "outputs/cinema-credits-publication-20261108/release/deployment-final.json": "4f8545652c3f8a613aa14765db879e676512b0cd3fcce6356aabc4be5264f9d8",
+    "outputs/cinema-credits-publication-20261108/release/live-verification.json": "fbaf9b34fef1778271ae0d0c52175acf5a2e21ec33048a99243db7991c8892a5",
+    "outputs/cinema-credits-publication-20261108/release/public-download-verification.json": "0ea1c844b6d9cb1e7bfc61d1fa847d14d283ae7bfd65cc2cae4d00acd8e40878",
+    "outputs/cinema-credits-publication-20261108/release/record-delivery.py": "05e08b94ea760680429a5e09cab1180c0d0dfc684316c1c2a4afcccd4a5363ba",
+    "kb/records/cinema-film-credits-publication-2026-11-08.json": "173533f407aada73f84cca6c771c9f9d7cabcd6149f42878424eb01f3f4090d4",
+    "kb/research/culture/cinema-series/cinema-futures.md": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
+    "kb/team/operations.json": "1aefbd4e95f1fc3f125546fb533cb6d4bdd442ec3e9d896b499c93f4b2a0f252",
+    "kb/records/article-editorial-rollout.json": "9e135ddc1ba242954302b4ecb69b7f935c583fc3c78b370a4777f4026108c674"
+  },
+  "verified": {
+    "pr": 717,
+    "reviewed_head": "dbfdd7cd1aae707b856969260e6561dde6409ce5",
+    "merge_commit": "f0ff041f9bb3761db111a0b792351f2a117cbeae",
+    "ci": 42448725614,
+    "deployment": 42449827343,
+    "live_checks": 13,
+    "live_checked_at_utc": "2026-11-08T05:26:41.192460+00:00",
+    "exact_download_assets": 2,
+    "other_operations_fields_and_owners_preserved": true,
+    "other_rollout_items_and_metadata_preserved": true,
+    "prior_publication_receipt_retained": true,
+    "history_append_only": true,
+    "source_matches_reviewed_candidate": true,
+    "canonical_deployment_and_verified_routes_present": true
+  },
+  "evidence_scope": "Independent read-only reconciliation of actual saved GitHub CI/merge/deployment, public HTTP/download evidence and shared-record diff against HEAD. No fresh browser or HTTP retrieval by reviewer in this receipt pass. Prior independent local source/PDF/Chrome review remains separate.",
+  "limits": [
+    "No human approval claim.",
+    "Two unrelated tools/cinema-book tagged-reading experimental files remain modified in working tree and must remain excluded from receipt-only commit.",
+    "No public content or book changes made by reviewer."
+  ]
+}

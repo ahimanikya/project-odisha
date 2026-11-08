@@ -1,0 +1,38 @@
+{
+  "status": "PASS_LOCAL_BROWSER_REVIEW",
+  "reviewer": "Disha",
+  "desktop_viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "actual_visual_scope": [
+    "Article heading, hero and caption at desktop and mobile",
+    "Vishal Mourya portrait at own heading, desktop",
+    "Debi Prasad Lenka portrait, caption and prose at own heading, desktop"
+  ],
+  "findings": [
+    "Main article has three documentary photographs; each inspected in browser with original source aspect retained.",
+    "Mobile document width390equalsviewport390; no horizontal overflow.",
+    "Landscape images span text width; portrait uses85percent; numeric citation markers and caption alignment retained.",
+    "Below-fold image deferred loading was observed before navigation, then Debi image loaded correctly when its section was visited."
+  ],
+  "redirects_verified_in_browser": {
+    "vishal-mourya": "/cinema/daman-team/#vishal-mourya",
+    "debi-prasad-lenka": "/cinema/daman-team/#debi-prasad-lenka",
+    "deependra-samal": "/cinema/daman-team/#deependra-samal"
+  },
+  "redirect_type": "Static meta refresh with visible fallback, not HTTP301",
+  "viewport_override_reset": true,
+  "screenshots": {
+    "outputs/cinema-daman-team-lavanya-20261108/team-mobile.png": "21d93b3b164636d0972a8c1406c80b67381b681e108ab2d25e300edb59d4dedb",
+    "outputs/cinema-daman-team-lavanya-20261108/team-desktop.png": "44a313219c0db39f18b3791c3451f3291c0ab308ad5ad41c40115ed3fa0fa74e"
+  },
+  "limitations": [
+    "Representative views only; not a complete keyboard or screen-reader audit.",
+    "Local website; no deployment or public verification performed."
+  ]
+}

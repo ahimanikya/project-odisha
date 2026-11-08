@@ -25,9 +25,9 @@ The award followed a story rooted in the difficult business of getting care to p
 
 ## The people who brought it together
 
-Producer [Deependra Samal](../../people/deependra-samal.md), co-director [Vishal Mourya](../../people/vishal-mourya.md) and co-director and editor [Debi Prasad Lenka](../../people/debi-prasad-lenka.md) brought different responsibilities to the film.[^producer-credit][^catalogue]
+Producer [Deependra Samal](daman-team.md#deependra-samal), co-director [Vishal Mourya](daman-team.md#vishal-mourya) and co-director and editor [Debi Prasad Lenka](daman-team.md#debi-prasad-lenka) brought different responsibilities to the film.[^producer-credit][^catalogue]
 
-Their profiles follow the backing, writing and editing of the film. Its story also involves local performers, technicians and the healthcare workers who inspired it.
+Their shared story follows the backing, writing and editing of the film. Its story also involves local performers, technicians and the healthcare workers who inspired it.
 
 ## A doctor who has to decide whether to stay
 
@@ -103,9 +103,7 @@ Listings checked on 26 October 2026.
 
 ### Meet the filmmakers
 
-- [Deependra Samal: making room for a different film](../../people/deependra-samal.md)
-- [Vishal Mourya: finding a filmmaking language together](../../people/vishal-mourya.md)
-- [Debi Prasad Lenka: shaping the story, from script to edit](../../people/debi-prasad-lenka.md)
+- [The people behind DAMaN](daman-team.md)
 
 ### Continue through Odia cinema
 
