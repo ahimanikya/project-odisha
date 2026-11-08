@@ -31,6 +31,8 @@ This directory contains the organizational and working model, roles, work record
 
 Book-download reliability: [Cinema delivery and website audit](records/book-downloads-20261108.json). Published and live verified: current Cinema screen, print and introduction PDFs open directly from the website with exact reviewed bytes and partial-download support.34book/source-PDF links responded successfully; Dhaga and six character PDFs also passed partial-download checks.
 
+[Dhaga and character direct downloads](records/remaining-book-downloads-20261108.json): exact seven PDFs prepared; capacity and publication verification in progress.
+
 Dongria book download: [Direct website delivery](records/dongria-download-20261108.json). The existing book buttons now use the site-hosted PDF; anonymous full download and byte-range access verified, with exact reviewed bytes preserved.
 
 Dongria language update: [Names, teachers and documentation resources](records/dongria-language-20261108.json). Original-source verification supports attributed Kuang Kata and named language teachers, a regional dictionary and an OpenSpeaks example. Published language chapter and matching84-page public reading PDF verified;99compact notes. No new verified Dongria audio collection claimed.

@@ -1500,3 +1500,8 @@ PR726 merged at fbec5eae after validated3cd89dd5; deployment42496570360 succeede
 ### 8 November 2026 · DAMaN team and matching books published
 
 PR724 and deployment42496450895 succeeded. The combined team page, three named redirects and both downloaded PDFs match the reviewed edition:50online readings,49chapters,272digital pages and278print pages. Lavanya’s original story credit remains open. [Receipt](../records/cinema-daman-team-publication-2026-11-08.json).
+
+
+### 8 November 2026 · Dhaga and character direct-download preparation
+
+The Founder requested same-origin delivery for Dhaga and the character books. Six original character PDFs were retrieved with exact manifest hashes; the verified Dhaga PDF is staged during builds without committing the oversized file. Historical release backups remain. Capacity and independent delivery verification are pending; zero programme credit. [Handoff](../records/remaining-book-downloads-20261108.json).

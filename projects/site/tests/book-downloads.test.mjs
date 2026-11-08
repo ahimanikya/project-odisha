@@ -38,3 +38,45 @@ test(`built Cinema downloads remain exact and linked (${stage})`,{skip:stage==='
   assert.ok(html.includes(`href="${book.file}"`),`${book.edition}: same-origin book link`);
  }
 });
+
+const characterManifest=json('../characters/release-assets.json');
+const characterPDFs=characterManifest.assets.filter(a=>a.source.endsWith('.pdf'));
+const characterPages=['gudul-gudli.html','nilu-chaiti.html','index.html','design-path.html','complete-report.html'];
+const characterURL=a=>'/'+a.source.replace(/^public\//,'');
+test('six character PDFs retain release identity and direct links; other archives remain remote',()=>{
+ assert.equal(characterPDFs.length,6);
+ const scope=json('editions/coast.json');
+ const pages=characterPages.map(p=>readFileSync('public/characters/'+p,'utf8'));
+ let references=0;
+ for(const a of characterPDFs){
+  const file=characterURL(a);verify('public',{...a,file});
+  assert.ok(scope.downloads.includes(file),file+' retention');
+  const count=pages.reduce((n,h)=>n+h.split(`href="${file}"`).length-1,0);
+  assert.ok(count>0,file+' direct reference');references+=count;
+  for(const h of pages)assert.ok(!h.includes(a.destination),file+' no release-only PDF link');
+ }
+ assert.equal(references,13);
+ for(const a of characterManifest.assets.filter(a=>!a.source.endsWith('.pdf'))){
+  const local=characterURL(a);
+  for(const h of pages)assert.ok(!h.includes(`href="${local}"`),local+' remains release-hosted');
+ }
+});
+test(`character PDFs are retained byte-exact with direct built links (${stage})`,{skip:stage==='source'},()=>{
+ const html=characterPages.map(p=>readFileSync(stage+'/characters/'+p,'utf8')).join('\n');
+ for(const a of characterPDFs){const file=characterURL(a);verify(stage,{...a,file});assert.ok(html.includes(`href="${file}"`));assert.ok(!html.includes(a.destination));}
+});
+test('Dhaga adapter preserves the pinned descriptor and validates bytes before direct delivery',async()=>{
+ const d=json('../odia-dhaga/pdf-delivery.json');
+ const {validatePdfDelivery}=await import('../tools/export-dhaga.mjs');
+ const result=await validatePdfDelivery();assert.deepEqual(result.delivery,d);
+ assert.equal(result.pdfURL,'/archive/'+d.asset_name);
+ assert.equal(result.pdfBytes.length,d.bytes);
+ assert.equal(createHash('sha256').update(result.pdfBytes).digest('hex'),d.sha256);
+ assert.ok(json('editions/coast.json').documents.includes(result.pdfURL));
+ assert.match(d.browser_download_url,/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\//);
+});
+test(`Dhaga staged PDF is exact and linked directly (${stage})`,{skip:stage==='source'},()=>{
+ const d=json('../odia-dhaga/pdf-delivery.json'),file='/archive/'+d.asset_name;
+ verify(stage,{...d,file});
+ assert.ok(readFileSync(stage+'/dhaga/index.html','utf8').includes(`href="${file}"`));
+});
