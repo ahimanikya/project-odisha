@@ -1,0 +1,59 @@
+{
+  "status": "complete_ready_for_hosted_checks",
+  "changes": {
+    "projects/site/tools/audit-coast.py": {
+      "before_sha256": "8b7a1f7a711f3e881e8ffab85fd11fd47114c1a4fcc76693ddab82a5c70bb117",
+      "after_sha256": "39aa0cd75e2dba366b9eab2b47c0ceca2ed3965d06b5785e6faf173c66bdec64",
+      "diff": "--- projects/site/tools/audit-coast.py\n+++ projects/site/tools/audit-coast.py\n@@ -1,4 +1,5 @@\n \"\"\"Read-only route acceptance checks for the current coastal candidate.\"\"\"\n+from cinema_redirects import expected_canonical\n from pathlib import Path\n from html.parser import HTMLParser\n from urllib.parse import urlsplit, urljoin, unquote\n@@ -31,7 +32,7 @@\n checks=[]\n def add(route,kind,errors,details):checks.append(dict(route=route,check=kind,status='pass' if not errors else 'fail',errors=errors,details=details))\n for route,page in pages.items():\n- errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected='https://projectodisha.org'+route\n+ errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected,redirect_errors=expected_canonical(route,page.nodes);errors.extend(redirect_errors)\n  if canonical!=[expected]:errors.append('Canonical mismatch '+str(canonical))\n  if not (1 if route in standalone else 50)<=len(page.meta('description'))<=250:errors.append('Description missing or poorly bounded')\n  if len(page.document_titles)!=1 or not page.meta('og:title'):errors.append('Page/social title missing')\n"
+    },
+    "projects/site/tools/audit-discovery.py": {
+      "before_sha256": "1a4f23662361c7d575d0ecdd960b386c7805bc0df1cebbda287323693225222c",
+      "after_sha256": "1ba2645de6277b03002d56a2a72f1dbddbec5edf401b1a395a742a281ed6982c",
+      "diff": "--- projects/site/tools/audit-discovery.py\n+++ projects/site/tools/audit-discovery.py\n@@ -2,6 +2,7 @@\n \n This does not enable indexing, submit to a search engine, or approve any route.\n \"\"\"\n+from cinema_redirects import expected_canonical, REDIRECTS\n from pathlib import Path\n from html.parser import HTMLParser\n from urllib.parse import urlsplit, unquote\n@@ -10,9 +11,9 @@\n SITE=Path(__file__).resolve().parents[1]\n p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,default=SITE/'.astro/discovery-review');args=p.parse_args();args.output.mkdir(parents=True,exist_ok=True)\n class Page(HTMLParser):\n- def __init__(self):super().__init__();self.meta={};self.title='';self.in_head=False;self.in_title=False;self.canonical=[];self.images=[]\n+ def __init__(self):super().__init__();self.meta={};self.title='';self.in_head=False;self.in_title=False;self.canonical=[];self.images=[];self.nodes=[]\n  def handle_starttag(self,t,a):\n-  a=dict(a)\n+  a=dict(a);self.nodes.append((t,a))\n   if t=='head':self.in_head=True\n   if t=='title':self.in_title=self.in_head\n   if t=='meta':self.meta[a.get('name',a.get('property'))]=a.get('content','')\n@@ -27,7 +28,9 @@\n standalone=set(scope.get('standalone_routes',[]))\n for route in scope['routes']:\n  doc=Page();doc.feed((SITE/'dist-coast'/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'))).read_text());m=doc.meta;share=urlsplit(m.get('og:image',''));errors=[]\n- if doc.canonical!=['https://projectodisha.org'+route]:errors.append('canonical')\n+ expected,redirect_errors=expected_canonical(route,doc.nodes);errors.extend(redirect_errors)\n+ if doc.canonical!=[expected]:errors.append('canonical')\n+ if route in REDIRECTS and m.get('og:url')!=expected:errors.append('social_url')\n  if not (1 if route in standalone else 50)<=len(m.get('description',''))<=250:errors.append('description')\n  if m.get('og:description')!=m.get('description'):errors.append('social_description')\n  if not doc.title or m.get('og:title') not in [doc.title,doc.title.split(' | ')[0]]:errors.append('title')\n"
+    }
+  },
+  "scope_released": true,
+  "publication_performed": false,
+  "public_html_or_pdf_changed": false,
+  "files": {
+    "projects/site/tools/audit-coast.py": "39aa0cd75e2dba366b9eab2b47c0ceca2ed3965d06b5785e6faf173c66bdec64",
+    "projects/site/tools/audit-discovery.py": "1ba2645de6277b03002d56a2a72f1dbddbec5edf401b1a395a742a281ed6982c",
+    "projects/site/tools/cinema_redirects.py": "a2d2cc6a35e5fd8019f0543fd7ad20db53a9ad2e1cf8aa405dc941d129d29df5",
+    "projects/site/tools/tests/test_cinema_redirects.py": "c90495e1c6e37a0e7bd81b6e7d0927370e2fe55687ed0cc7793c34d8f9255053"
+  },
+  "checks": [
+    {
+      "command": "python3 projects/site/tools/tests/test_cinema_redirects.py",
+      "exit_code": 0,
+      "tests": 5,
+      "chunk": "7400f5"
+    },
+    {
+      "command": "python3 tools/audit-coast.py --output ../../outputs/cinema-daman-team-publication-20261108/implementation/coast-audit-fixed.json",
+      "cwd": "projects/site",
+      "exit_code": 0,
+      "passed": 4284,
+      "total": 4284
+    },
+    {
+      "command": "python3 projects/site/tools/audit-discovery.py --output outputs/cinema-daman-team-publication-20261108/implementation/discovery-fixed",
+      "exit_code": 0
+    },
+    {
+      "check": "Existing candidateRobots/validateSearchSelection/searchSitemap functions on all1071 current coast routes in memory",
+      "exit_code": 0,
+      "routes": 1071,
+      "indexable": 11,
+      "receipt": "outputs/cinema-daman-team-publication-20261108/implementation/search-policy-check.json"
+    }
+  ],
+  "scope_of_exception": "Only three fixed /people/{vishal-mourya,debi-prasad-lenka,deependra-samal}/ routes; approved team canonical and OG required, exact immediate normalized same-origin target/fragment, one preview noindex,nofollow tag and native unhidden fallback. Ordinary canonical rules remain unchanged.",
+  "fragment_verification": "Actual audit-coast local_links_and_assets resolves required fallback URL against generated pages and checks exact fragment IDs. All3 alias fragment checks pass against current teamHTML.",
+  "next_workflow_gates": {
+    "prepare-search-review.mjs": "Copy avoided to conserve disk; identical per-page existing policy transform tested in memory for1071routes, canonical unchanged and3aliases held.",
+    "audit-launch-readiness.py": "Checks transformed robots/sitemap and tokens; no canonical self-URL rule. No fresh search-review directory created, so actual generated-output invocation deferred to hosted workflow.",
+    "audit-search-shortlist.py": "Operates11 proposed indexable routes only; aliases are hold. No new local publication build or generated shortlist audit claimed."
+  },
+  "baseline_failure": "Unmodified audit-discovery reproduced exactly3canonical failures before patch (exit1); current audit passes.",
+  "guidance": "Python validation only; no HTML/CSS/client-side implementation, so no new Modern Web Guidance guide applied."
+}

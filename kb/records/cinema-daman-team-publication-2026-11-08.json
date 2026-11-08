@@ -3,7 +3,7 @@
   "date": "2026-11-08",
   "status": "preparing_reviewed_release",
   "authorization": {
-    "user_request": "Good, let’s publish the consolidated DAMaN team page and update both book downloads. Keep Lavanya Preeti’s story credit open until we have evidence.",
+    "user_request": "Good, let\u2019s publish the consolidated DAMaN team page and update both book downloads. Keep Lavanya Preeti\u2019s story credit open until we have evidence.",
     "renewed_confirmation_required": false
   },
   "source_handoff": "records/cinema-daman-team-lavanya-2026-11-08.json",
@@ -27,7 +27,12 @@
       "projects/site/src/pages/people/debi-prasad-lenka.astro",
       "projects/site/src/pages/people/deependra-samal.astro",
       "projects/site/tests/cinema-discovery.test.mjs (adjust accurate contract if needed)",
-      "projects/site/src/layouts/Shell.astro (optional canonicalPath/redirectTo defaults only)"
+      "projects/site/src/layouts/Shell.astro (optional canonicalPath/redirectTo defaults only)",
+      "projects/site/tools/audit-coast.py (validate three consolidated profile redirects without weakening ordinary-page checks)",
+      "outputs/cinema-daman-team-publication-20261108/implementation/redirect-audit-fix.json",
+      "projects/site/tools/audit-discovery.py",
+      "projects/site/tools/cinema_redirects.py",
+      "projects/site/tools/tests/test_cinema_redirects.py"
     ],
     "Anvesha": [
       "outputs/cinema-daman-team-publication-20261108/research/"
@@ -43,5 +48,15 @@
   ],
   "book_manifest": "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json",
   "source_review": "outputs/cinema-daman-team-publication-20261108/research/source-guard.json",
-  "implementation": "outputs/cinema-daman-team-publication-20261108/implementation/implementation.json"
+  "implementation": "outputs/cinema-daman-team-publication-20261108/implementation/implementation.json",
+  "validation_progress": {
+    "reviewed_head": "08c8625830e0c144614baa0c79d6d5077377790f",
+    "main_tests": 729,
+    "coast_tests": 581,
+    "hosted_run": 42491684868,
+    "hosted_result": "failure",
+    "blocking_check": "Three valid consolidated aliases conflict with self-canonical assumptions in metadata audits; bounded exact-target validator under independent review.",
+    "local_publication_build": "ENOSPC during copying/PNG optimization; failed outputs removed and failure logs preserved. No more local final-build retries.",
+    "record": "outputs/cinema-daman-team-publication-20261108/root/validation.json"
+  }
 }

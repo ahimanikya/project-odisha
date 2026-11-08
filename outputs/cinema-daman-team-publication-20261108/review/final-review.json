@@ -1,0 +1,43 @@
+{
+  "status": "PASS_CONTENT_AND_COMMIT_SCOPE_PENDING_PUBLICATION_GATES",
+  "scope_released": true,
+  "reviewed_head": "08c8625830e0c144614baa0c79d6d5077377790f",
+  "required_corrections": [],
+  "input_hashes": {
+    "outputs/cinema-daman-team-publication-20261108/book-release-manifest.json": "e4182467f862769fd3d40934d5d15516ff81f5db0d9fafa4fb077b60f2187401",
+    "outputs/cinema-daman-team-publication-20261108/review/commit-review.json": "130679721204edba7c947bee953bf9ae16b50e53b18f1c3f64669595ea7c7621",
+    "outputs/cinema-daman-team-publication-20261108/review/redirect-fix-review.json": "7f5c8f9f27932d735c86b10271b89e140987ffe6d49ac03fc7bcced62ea90b3d",
+    "outputs/cinema-daman-team-publication-20261108/release/draft-assets-check.json": "db732affc8c143160fc66e97fc221f01bfaabbbac329698727a387c948c380ff",
+    "outputs/cinema-daman-team-publication-20261108/research/source-guard.json": "35957fb2e2917c340efda832302bfad73d653ad3e9540ab733e8791d17f41cc3",
+    "outputs/cinema-daman-team-publication-20261108/root/validation.json": "8a295faebaac789d2446882ca24b260c8d06e13ec313fe3039d10ec8b543c491",
+    "outputs/cinema-daman-team-lavanya-20261108/final-review.json": "43b940763b38170f48a93c7aa13f2be660b526de89bc01e610978919e4ef16e1",
+    "kb/records/editorial-workbench.json": "71399d7114566f759830b7e4baa691f72037b855e402c24ebd074ee778bc5483"
+  },
+  "checks": {
+    "final_head_delta": "Compared ba6f91f5 to 08c86258: only two generated editorial-workbench input fingerprints changed; recomputed search-index/coast hashes match. No cinema source, code, asset or PDF change.",
+    "source_scope": "Reuses independent integrated article/source review and source guard. Three online profiles consolidate into one team reading; all three book portraits/prose retained. No new Lavanya literary-source attribution or payment inference.",
+    "counts": "50 online readings; 49 book readings; digital 272 pages, print 278 pages, 542 notes.",
+    "assets": "Independently recomputed all three local asset hashes/byte counts against release manifest; all match. Draft GitHub API digest receipt matches both new PDFs. Previous film-credits editions and standalone introduction URL retained.",
+    "history": "Earlier lost Dongria manual ledger sections restored verbatim at 6614b0df; prior commit review preserves finding/resolution and other-owner checks.",
+    "redirects": "Narrow Shell opt-in fix and three exact person-anchor redirects reviewed; unchanged defaults for other pages. Main 729 tests and coast 581 tests pass in actual saved logs.",
+    "builds": "Saved validation records successful main build, coast v3 build and both disclosure checks. Earlier coast failures and publication-copy ENOSPC are retained, not counted as passes."
+  },
+  "visual_scope": "Reuses previously inspected six PDF renders: three integrated profile pages (169–171) in each edition. Exact PDFs unchanged; no new render or browser inspection in this release review.",
+  "limitations": [
+    "Current publication-copy retry outcome pending; previous attempt failed ENOSPC.",
+    "Fresh hosted CI on final head pending; earlier stale generated fingerprint failure is superseded by correction, not retrospectively labelled passing.",
+    "Draft API digest verification is not anonymous published-download verification.",
+    "Merge, deployment and live routes/assets remain subsequent coordinator gates; no publication-complete or human-approval claim."
+  ],
+  "pending": [
+    "Local publication retry still processing; no successful payload claim in this review",
+    "Fresh hosted validation",
+    "Published anonymous asset verification and post-deployment live checks"
+  ],
+  "release_decision": "PASS for reviewed source/code/release candidate at exact head; publication remains conditional on required successful hosted CI. Deployment completion must be evidenced separately by exact-head deployment success, anonymous asset verification and live route checks.",
+  "hosted_validation_pending": {
+    "run_id": 42491684868,
+    "head": "08c8625830e0c144614baa0c79d6d5077377790f",
+    "source": "coordinator progress report; not independently claimed complete"
+  }
+}
