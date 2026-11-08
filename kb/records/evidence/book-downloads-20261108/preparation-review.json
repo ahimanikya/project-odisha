@@ -1,0 +1,46 @@
+{
+  "status": "preparation_pass_pending_pr724_integration",
+  "scope": "Independent review of three prepared Cinema PDFs, exact-identity tests and other-book audit; no manuscript or edition substitution authorised.",
+  "pdf_checks": [
+    {
+      "edition": "digital",
+      "pages": 272,
+      "bytes": 38850788,
+      "sha256": "750a3202714846dae6340aeda8c0e82cbb0719e8b0fa40600a3183cfe7b6efc8"
+    },
+    {
+      "edition": "print",
+      "pages": 278,
+      "bytes": 51419386,
+      "sha256": "4f6e677ec6c9604ba69c5bac36b99551b5f948e47f3c7c692c29f64d2e9130c4"
+    },
+    {
+      "edition": "introduction",
+      "pages": 6,
+      "bytes": 992878,
+      "sha256": "8c5db39b9ee5fc262409c8636ca5abdb624774347c67e728a4fedc199934a933"
+    }
+  ],
+  "checks": [
+    "Independently hashed and counted pages in all three prepared PDFs; exact expected identities match tests",
+    "Digital and print extraction includes DAMaN team chapter and Deependra Samal passage",
+    "Tests enforce exact file/bytes/pages/hash, coast retention and generated HTML link at requested build stage",
+    "Audit distinguishes current books, archived Cinema editions, historical scans and development bundles",
+    "HTTP audit clearly limits 34 successful HEAD requests to availability/advertised length, not full-body integrity",
+    "Historical unversioned Cinema files explicitly identified as older bytes, not substitutes"
+  ],
+  "findings": [],
+  "capacity": {
+    "new_three_pdf_bytes": 91263052,
+    "strategy": "Keep older 802.7MB release editions external; add current three only. Final optimized payload acceptance still required."
+  },
+  "pending": [
+    "Merge PR724 and verify cinema metadata still identifies exact DAMaN editions",
+    "Verify archive descriptors unchanged after merge",
+    "Run source/full/coast/publication tests after mapping",
+    "Check final payload and actual browser download response; no live success inferred"
+  ],
+  "limitations": [
+    "Prepared assets reviewed for edition identity and delivery, not a fresh whole-book editorial audit."
+  ]
+}

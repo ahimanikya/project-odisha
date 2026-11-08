@@ -1477,14 +1477,17 @@ Verified Hardenberg’s attributed Kuang Kata name and named teachers against or
 
 PR722 merged after validated head cd1a9db4; deployment42468942531 succeeded on retry after an unrelated GitHub download timeout. Live language page and book link checked; uploaded84-page PDF matches reviewed hash b03a6163… and retains99compact notes. New passages centre named language teachers and preserve regional/resource limits. Private editions unchanged. [Receipt](../records/dongria-language-20261108.json).
 
-### 8 November 2026 · DAMaN team consolidation prepared for publication
-
-The Founder authorized publishing the reviewed combined team profile and both matching book downloads. Three old profile routes retain named person destinations; all three portraits and the 49-chapter book remain. Lavanya Preeti’s original story credit and source title remain unresolved. Publication checks and exact asset delivery are in progress. [Release handoff](../records/cinema-daman-team-publication-2026-11-08.json).
-
 
 ### 8 November 2026 · Reliable Dongria book delivery
 
 PR723 and deployment42489389888 serve the unchanged reviewed book directly from the website archive. Both entrances verified; anonymous HTTP200 complete download matches exact17,689,084bytes and reviewed hash, HTTP206range supported. Existing release retained as backup. One remaining dinner-party preview sentence aligned with earlier user direction. No book content or layout rebuild. [Receipt](../records/dongria-download-20261108.json).
+### 8 November 2026 · DAMaN team consolidation prepared for publication
+
+The Founder authorized publishing the reviewed combined team profile and both matching book downloads. Three old profile routes retain named person destinations; all three portraits and the 49-chapter book remain. Lavanya Preeti’s original story credit and source title remain unresolved. Publication checks and exact asset delivery are in progress. [Release handoff](../records/cinema-daman-team-publication-2026-11-08.json).
+
+### 8 November 2026 · Cinema direct-download preparation and book audit
+
+Prepared exact reviewed DAMaN-team digital, print and introduction PDFs for same-origin website delivery, retaining release backups and distinct historical editions.34book/source-PDF URLs respond anonymously; Dhaga and six character PDFs also return valid partial PDF content and expected lengths. Full website build and732tests pass; publication verification remains pending. [Handoff](../records/book-downloads-20261108.json).
 
 
 ## 8 November 2026 · Pattachitra implementation
