@@ -29,7 +29,7 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
-Book-download reliability: [Cinema delivery and website audit](records/book-downloads-20261108.json). Three current Cinema PDFs prepared for direct website delivery;34book/source-PDF links responded successfully. Other current books passed partial-download checks. Publication pending.
+Book-download reliability: [Cinema delivery and website audit](records/book-downloads-20261108.json). Three current Cinema PDFs pass exact-file and browser checks for direct website delivery;34book/source-PDF links responded successfully. Other current books passed partial-download checks. Publication awaits the concurrent Cinema release.
 
 Dongria book download: [Direct website delivery](records/dongria-download-20261108.json). The existing book buttons now use the site-hosted PDF; anonymous full download and byte-range access verified, with exact reviewed bytes preserved.
 
