@@ -60,5 +60,53 @@
     "Full CI and publication workflow owned by Disha"
   ],
   "git_mutations": false,
-  "publication": false
+  "publication": false,
+  "ci714_followup": {
+    "changed_files": [
+      "projects/site/tests/build.test.mjs",
+      "projects/site/editions/search-candidate.json"
+    ],
+    "changes": [
+      "Expected full draft page count increased by two (base148 to150), total1084.",
+      "Internal export guard permits exactly history/index.html, retaining exclusions for every other history file and kb/registers/research.",
+      "Both new public routes receive explicit hold decisions; existing eleven proposed search routes unchanged."
+    ],
+    "validation": {
+      "full_draft_build": "PASS; npm run build, proper Node25 runtime",
+      "full_draft_tests": "PASS:722, fail0, skipped0",
+      "diff_check": "PASS"
+    },
+    "logs": [
+      "/private/tmp/kalinga-full-draft-build.log",
+      "/private/tmp/kalinga-full-draft-tests.log"
+    ],
+    "committed": false
+  },
+  "ci2_followup": {
+    "files": [
+      "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs"
+    ],
+    "counts": {
+      "Reading": 59,
+      "Explore": 171
+    },
+    "bookmark_exception": "Exact Kalinga ID requires exact single Continue online object; all other Reading entries still require at least two practical items.",
+    "fresh_coast_build": "PASS:1070 pages,2879 files,1294192659 bytes",
+    "full_coast_tests": "PASS579/579,0skip; first sandbox run fixture Vite cache EPERM, successful rerun with cache access",
+    "publication_build": "PASS; limited mode,11 indexable pages",
+    "log_prefix": "/private/tmp/kalinga-ci2-",
+    "publication_disclosures": "PASS1200 pages,0 violations",
+    "payload_validator_tests": "PASS14/14",
+    "publication_payload": {
+      "status": "PASS",
+      "bytes": 736856074,
+      "files": 2882,
+      "symlinks": 0,
+      "hardlinks": 0,
+      "special_files": 0
+    },
+    "publication_claim": "Local candidate only; not deployment."
+  }
 }
