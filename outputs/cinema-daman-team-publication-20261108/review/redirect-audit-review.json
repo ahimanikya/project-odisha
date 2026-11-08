@@ -1,0 +1,30 @@
+{
+  "status": "PASS_NARROW_AUDIT_FIX",
+  "scope_released": true,
+  "required_code_corrections": [],
+  "reviewed_files_sha256": {
+    "projects/site/tools/audit-coast.py": "39aa0cd75e2dba366b9eab2b47c0ceca2ed3965d06b5785e6faf173c66bdec64",
+    "projects/site/tools/audit-discovery.py": "1ba2645de6277b03002d56a2a72f1dbddbec5edf401b1a395a742a281ed6982c",
+    "projects/site/tools/cinema_redirects.py": "a2d2cc6a35e5fd8019f0543fd7ad20db53a9ad2e1cf8aa405dc941d129d29df5",
+    "projects/site/tools/tests/test_cinema_redirects.py": "c90495e1c6e37a0e7bd81b6e7d0927370e2fe55687ed0cc7793c34d8f9255053"
+  },
+  "independent_checks": [
+    "Read both complete audit call-site diffs and shared validator/test source.",
+    "Ran all five unittest regression cases successfully.",
+    "Parsed current dist-coast HTML independently for all three aliases; exact team canonical and OG, expected refresh, relative native fallback and existing team person IDs pass."
+  ],
+  "boundaries": [
+    "Only the three explicit old profile routes receive team canonical expectation; ordinary routes retain self-canonical and original checks.",
+    "Global preview noindex validation remains; aliases additionally require exact noindex,nofollow.",
+    "Exact target strings reject wrong person, external/encoded/traversal/query URLs; missing/duplicate/delayed refresh and absent or explicitly hidden fallback fail.",
+    "Existing audit-coast checks resolve actual relative fallback fragment IDs. No general redirect exception introduced."
+  ],
+  "worker_evidence": "Saved coast audit4284/4284 and discovery audit pass; no-copy in-memory search policy test is not claimed as full generated publication build.",
+  "receipt_note": "Intermediate diff/hash mismatch corrected in final worker receipt; final file hashes agree. No code change required.",
+  "publication_gates": [
+    "New exact committed head and required hosted CI remain pending.",
+    "No publication/deployment/live or anonymous-download success claimed."
+  ],
+  "visual_scope": "No new browser or PDF rendering; source and PDF unchanged by this audit-only fix.",
+  "worker_receipt_sha256": "c6318a5ceac1b72b22e36fe1d1fb97ab3802b61b6189c3f09db4df3920f038be"
+}

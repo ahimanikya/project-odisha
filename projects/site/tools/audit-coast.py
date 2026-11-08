@@ -1,4 +1,5 @@
 """Read-only route acceptance checks for the current coastal candidate."""
+from cinema_redirects import expected_canonical
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, urljoin, unquote
@@ -31,7 +32,7 @@ standalone=set(config.get('standalone_routes',[]))
 checks=[]
 def add(route,kind,errors,details):checks.append(dict(route=route,check=kind,status='pass' if not errors else 'fail',errors=errors,details=details))
 for route,page in pages.items():
- errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected='https://projectodisha.org'+route
+ errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected,redirect_errors=expected_canonical(route,page.nodes);errors.extend(redirect_errors)
  if canonical!=[expected]:errors.append('Canonical mismatch '+str(canonical))
  if not (1 if route in standalone else 50)<=len(page.meta('description'))<=250:errors.append('Description missing or poorly bounded')
  if len(page.document_titles)!=1 or not page.meta('og:title'):errors.append('Page/social title missing')
