@@ -1,13 +1,13 @@
 {
   "id": "POD-CINEMA-DAMAN-TEAM-PUBLICATION-20261108",
   "date": "2026-11-08",
-  "status": "preparing_reviewed_release",
+  "status": "reviewed_waiting_for_publication_slot",
   "authorization": {
     "user_request": "Good, let\u2019s publish the consolidated DAMaN team page and update both book downloads. Keep Lavanya Preeti\u2019s story credit open until we have evidence.",
     "renewed_confirmation_required": false
   },
   "source_handoff": "records/cinema-daman-team-lavanya-2026-11-08.json",
-  "active_article": "daman-team",
+  "active_article": null,
   "scope_released": false,
   "publication_performed": false,
   "programme_credit": 0,
@@ -58,5 +58,13 @@
     "blocking_check": "Three valid consolidated aliases conflict with self-canonical assumptions in metadata audits; bounded exact-target validator under independent review.",
     "local_publication_build": "ENOSPC during copying/PNG optimization; failed outputs removed and failure logs preserved. No more local final-build retries.",
     "record": "outputs/cinema-daman-team-publication-20261108/root/validation.json"
+  },
+  "book_assets_published": true,
+  "pending_integration": {
+    "incoming_head": "8bf7b7188091c14d3cabb4f4779d717583ce52c3",
+    "required_ci_passed_head": "655d6d4045cd384bb63b7d624e2bd4cf9fdcef0f",
+    "required_ci_run": 42492865030,
+    "active_owner": "POD-EDIT-121",
+    "note": "Preserve incoming active ownership and all foreign changes. No website deployment or other worker release claimed."
   }
 }

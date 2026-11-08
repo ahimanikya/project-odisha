@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/kalinga-heritage-publication-2026-11-08.json",
+  "handoff_home": "records/pattachitra-editorial-2026-11-08.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,17 +55,19 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-DAMAN-TEAM-20261108",
-    "route": "/cinema/daman-team/",
+    "id": "POD-EDIT-121",
+    "route": "/crafts/pattachitra/",
     "owner": "Disha",
-    "phase": "preparing_publication"
+    "phase": "implementation",
+    "handoff": "records/pattachitra-editorial-2026-11-08.json"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_publication",
+    "kind": "article_implementation",
     "owner": "Disha",
-    "status": "preparing_publication",
-    "handoff": "records/cinema-daman-team-publication-2026-11-08.json"
+    "status": "implementation",
+    "article_id": "POD-EDIT-121",
+    "handoff": "records/pattachitra-editorial-2026-11-08.json"
   },
   "parallel_programmes": [
     {
@@ -108,10 +110,10 @@
     {
       "name": "Cinema research and story expansion",
       "handoff": "records/cinema-daman-team-publication-2026-11-08.json",
-      "status": "preparing_publication",
+      "status": "reviewed_waiting_for_publication_slot",
       "scope": "Publish reviewed DAMaN team consolidation and both matching book downloads.",
-      "note": "Explicit Founder publication instruction; Lavanya source credit remains open.",
-      "active_article": "daman-team",
+      "note": "DAMaN candidate655d6d40 passed required CI; PDFs published and independently downloaded. Preserve active Pattachitra121 ownership until actual completion; website merge/deployment still pending.",
+      "active_article": null,
       "scope_released": false,
       "last_publication_handoff": "records/cinema-film-credits-publication-2026-11-08.json"
     }
@@ -252,6 +254,24 @@
       "handoff": "records/odia-dhaga-team-2026-10-23.json",
       "last_completed_handoff": "records/odia-dhaga-expansion-219-2026-10-31.json",
       "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
+    }
+  ],
+  "receipt_reconciliations": [
+    {
+      "scope": "POD-EDIT-120",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 721,
+      "receipt_merge": "8528af227a293262f61417b435cccfd583903cd2",
+      "required_check_run": 42454836251,
+      "required_check_result": "SUCCESS",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-120",
+        "handoff": "records/pipili-editorial-2026-11-08.json"
+      }
     }
   ],
   "prior_coordinator_claims": [
