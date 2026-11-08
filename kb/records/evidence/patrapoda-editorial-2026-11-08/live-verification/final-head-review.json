@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "decision": "PASS_EXACT_HEAD_CHECKSUM_CORRECTION",
+  "input_head": "e1992f566cb0854519c02e227e45814f82504029",
+  "reviewed_head": "e1992f566cb0854519c02e227e45814f82504029",
+  "parent": "e1b2ea4cc5efaab8dcfa4aa8d2febfc6869a9dc5",
+  "reviewer": "Drishti, AI reviewer",
+  "checks": {
+    "clean_tree": true,
+    "changed_files": 1,
+    "only_semantic_delta": "inputs[kb/research/search-index.json]",
+    "new_checksum": "dacc2ad279ef78766d27760c3a784491fffe5f400d46cc1496fc368ddac8e4da",
+    "checksum_matches_actual_committed_index": true,
+    "all_other_workbench_fields_exact": true,
+    "reviewed_site_files_exact": 13,
+    "independent_actual_workbench_check": "PASS,500records,229flags,13mapped_pages,583newer_outside_selection"
+  },
+  "findings": [
+    "Only the generated workbench input checksum changes. Prior exact merged-head and index correction findings remain valid; article/site/proposal/publication evidence bytes unchanged.",
+    "NDTV195 and Lopa139 remain unchanged; programme140 and118 in_progress/zero credit inherited unchanged."
+  ],
+  "history": [
+    "CI42424660945 stale index failure and CI42425067139 stale workbench checksum failure remain historical; no rerun CI success claimed."
+  ],
+  "limits": [
+    "No full build/browser/source research or canonical/Git mutation.",
+    "Root-reported6Python/3JS/catalog/rollout checks not independently rerun; independent actual workbench --check executed and passed.",
+    "Future CI/publication/live/receipt verification remains separate."
+  ],
+  "bindings": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/drishti/exact-head-review.json",
+      "sha256": "6537335d0b407aeb2c9b5a9bf6337405278a9300b44266fa81b7c0643960b4f2"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/drishti/index-correction-review.json",
+      "sha256": "e0c469d6d51fcc85bbe230d2af1cfed6f886877db4aed27eb4539bb7c8db35bd"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/drishti/integrated-review.json",
+      "sha256": "9e5e3fb12c33e18a5dece18002084812cf5db844518fc513816f96372a63b911"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/records/editorial-workbench.json",
+      "sha256": "edac3be11b8c266adad9548fa06b214989a896b2e3f1c9d93cc603644ce54a0b"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/search-index.json",
+      "sha256": "dacc2ad279ef78766d27760c3a784491fffe5f400d46cc1496fc368ddac8e4da"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/records/patrapoda-editorial-2026-11-08.json",
+      "sha256": "70d7ee1ac57378ed7ddee97220a602db0d074ac461a866f70e35224b866d2be8"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/components/PatrapodaArticle.astro",
+      "bytes": 4591,
+      "sha256": "0fbccdeeaffe4546eec6f22be53c926e7afd2cb56dc73d7b982ac9e208e2ebc7"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/pages/food/[slug].astro",
+      "bytes": 6558,
+      "sha256": "a3a10cb0c8a2a454a71e3ff24cc2accaca86773e7bcff9d288a73e9bb7df0c2f"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/data/journey-catalog.ts",
+      "bytes": 40409,
+      "sha256": "b1b98e1ffa7df182a7ba2095a6ea71d0a7a33e7f46a9234a2451a81e6e3104c6"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/lib/tour-book.mjs",
+      "bytes": 14760,
+      "sha256": "c89fabdb3f1e12fb3fac344a75bc49c592b4a673c54c6e60392f2e0b3bcc8569"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/patrapoda-editorial.test.mjs",
+      "bytes": 5772,
+      "sha256": "2024385fbe5c750880817f5b1abf6cdb682f41dc8cdf744d4f532d6541123089"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/fire-food.test.mjs",
+      "bytes": 4452,
+      "sha256": "f75e74da23ce0d09a868f402b240ef7c3fefbd5bb6e9c2856b98f02db90c8160"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/bose-editorial.test.mjs",
+      "bytes": 8218,
+      "sha256": "576dc775a866a1a1250ab0d216e3328ae798250f22e1a26a4d4d0a4d82cef544"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+      "bytes": 8873,
+      "sha256": "57a09302c19d877be616b5bd3a9d0b474862a9bf0e22cad56791a6d4ccc5d034"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/chandipur-meal-editorial.test.mjs",
+      "bytes": 8997,
+      "sha256": "59018699da935665864d48d4092d8f8897f5a1827743325675ba493623253390"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/enduri-editorial.test.mjs",
+      "bytes": 8157,
+      "sha256": "67c45260dc4f0e660ef78a227a4542ed2bd1b9a86033c75d68e726b6f9e95c50"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/mudhi-mansa-editorial.test.mjs",
+      "bytes": 8712,
+      "sha256": "a24efd15d69649182407725bca00c1345400770c410cb1844b61a5d5e1faef4a"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/poda-editorial.test.mjs",
+      "bytes": 8164,
+      "sha256": "543b4942d0ee70c728d8878a00dbcfc8aae4f4ca68ebfb15a00016c68f323f48"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/rasagola-editorial.test.mjs",
+      "bytes": 8238,
+      "sha256": "96d5675831923d3e398cd619b0913897c41a47cf39737fc60f9aa5baea56c8db"
+    }
+  ],
+  "scope_released": true
+}

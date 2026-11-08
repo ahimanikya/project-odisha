@@ -34,10 +34,18 @@ export function graphicPath(entry){
  if(typeof entry.graphic!=='object'||!/^assets\/[a-zA-Z0-9_-]+\.(png|webp|svg)$/.test(entry.graphic.src))throw Error('Unsafe Dhaga art path');
  return entry.graphic.src;
 }
+export function validateCardImages(entries,indexHTML){
+ const paths=[...indexHTML.matchAll(/<img class="card-art" src="([^"]+)"/g)].map(m=>m[1]);
+ const expected=entries.filter(e=>graphicPath(e)!==null).map(e=>'assets/cards/'+e.id.toLowerCase()+'.webp');
+ if(paths.length!==expected.length||new Set(paths).size!==paths.length||expected.some(p=>!paths.includes(p)))throw Error('Dhaga cards require one optimized thumbnail per illustrated reading; no original-image fallback');
+ return expected;
+}
 export async function exportDhaga(destination){
  const {delivery,pdf,pdfURL}=await validatePdfDelivery();
  const data=JSON.parse(await readFile(resolve(book,'collection.json'),'utf8')),out=resolve(destination,'dhaga');
  if(data.entries.length!==delivery.entries)throw Error('Dhaga entry count differs from PDF delivery');
+ const indexHTML=await readFile(resolve(book,'index.html'),'utf8');
+ validateCardImages(data.entries,indexHTML);
  const chromePath=resolve(destination,'internal/dhaga-chrome/index.html');
  const chrome=await readFile(chromePath,'utf8');
  const header=chrome.match(/(<div data-dhaga-header[^>]*>[\s\S]*?)<div data-dhaga-footer/)?.[1];
@@ -58,6 +66,8 @@ export async function exportDhaga(destination){
   const compact=/^POD-DHAGA-17[4-9]$/.test(e.id||'');
   if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:compact?320:640,withoutEnlargement:true}).webp({quality:compact?40:60,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
  }
+ // Cards share the exact optimized reading derivatives, avoiding duplicate image payloads.
+ for(const e of data.entries)if(graphicPath(e)!==null)assets.set('assets/cards/'+e.id.toLowerCase()+'.webp',assets.get(e.graphic.src));
  const fonts=['NotoSerifOriya-Variable.woff2','SourceSerif4-Variable.woff2'];
  const licences=['NotoSerifOriya-OFL.txt','SourceSerif4-OFL.txt'];
  for(const name of [...fonts,...licences])await copyFile(resolve(book,'assets',name),resolve(out,'assets',name));

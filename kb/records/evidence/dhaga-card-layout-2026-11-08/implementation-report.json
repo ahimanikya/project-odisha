@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "checked_at": "2026-11-08T02:33:33.721536+00:00",
+  "input_head": "25c5158b5e50c8fe6b90bd02e7acbe320dfcdc11",
+  "current_root_committed_head": "89001b120d5200d0e4085e5bc6bc50d7191d6832",
+  "scope": "Dhaga card row alignment and real site optimized-image integration; no book/PDF/art/content edits, Git writes or publication by producer.",
+  "changed_files": [
+    "projects/odia-dhaga/build.py",
+    "projects/odia-dhaga/index.html",
+    "projects/site/tools/export-dhaga.mjs",
+    "projects/site/tests/dhaga-export.test.mjs"
+  ],
+  "implementation": [
+    "Ordinary grid stretch, flex-column cards with flexible summary area and bottom-aligned native reading links; tablet16px gutter; no dense flow, clamps or truncation.",
+    "301 card images reuse existing optimized reading WebPs. Exact expected image-set validator refuses missing, duplicate, unexpected or original-heavy fallback paths before export replacement. No additional production thumbnail payload or quality reduction."
+  ],
+  "checks": {
+    "full_site_build": "PASS",
+    "full_tests": 724,
+    "coast_build": "PASS",
+    "coast_tests": 576,
+    "existing_book_preservation_tests": 3,
+    "publication_build": "PASS",
+    "disclosures_full_coast_publication": "PASS",
+    "pages_payload_guard": "PASS",
+    "browser_widths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "columns": [
+      3,
+      2,
+      1,
+      1
+    ],
+    "HTTP_image_digest_checks": 301,
+    "search_theme_clear_empty_native_keyboard_hash_back": "PASS",
+    "no_javascript_all_358_native_links": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "measurements": {
+    "full_dhaga_export_bytes": 47728087,
+    "coast_dhaga_export_bytes": 47713286,
+    "unchanged_export_budget": 48000000,
+    "illustrated": 301,
+    "text_only": 57,
+    "total_readings": 358
+  },
+  "preservation": {
+    "projects/odia-dhaga/": {
+      "checked": 3149,
+      "changed": [
+        "projects/odia-dhaga/build.py",
+        "projects/odia-dhaga/index.html"
+      ]
+    },
+    "projects/site/dist/dhaga/": {
+      "checked": 668,
+      "changed": [
+        "projects/site/dist/dhaga/index.html"
+      ]
+    },
+    "projects/site/dist-coast/dhaga/": {
+      "checked": 668,
+      "changed": [
+        "projects/site/dist-coast/dhaga/index.html"
+      ]
+    }
+  },
+  "history": [
+    "Initial full build invoked at wrong working directory failed before product mutation; preserved build-wrong-cwd.log. Corrected site command passed.",
+    "Root committed source while publication build was running; no source differences introduced by that commit."
+  ],
+  "modern_web_guidance": [
+    "css-layout: ordinary grid preserves DOM order; flex growth aligns links without masonry or dense reordering.",
+    "card: semantic article roots and native reading links preserve text selection and keyboard behavior."
+  ],
+  "limits": [
+    "Actual local Chrome with shared production site shell, not live deployed verification.",
+    "No claim of human editorial review or publication.",
+    "Only index products differ within both Dhaga exports; existing reading pages, artwork, source pages and PDF descriptor remain exact."
+  ],
+  "bindings": [
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/samanta/source-manifest.json",
+      "sha256": "7f7a456e02a5a8a955c947990c5d47001b3f2e4c394d0afdddb1ff68dd2c38a1",
+      "bytes": 918
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/samanta/artifact-manifest.json",
+      "sha256": "90c1ab7a09414562d5f24893d1ac2bc3af4ca03d2cc39e551dbb3cee47f2a8d2",
+      "bytes": 6608
+    }
+  ]
+}

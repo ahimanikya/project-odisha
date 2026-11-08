@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "gates": [
+    {
+      "name": "01-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 42.37,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/01-build.log",
+      "sha256": "9c67ec04acbeef4dad0db43128a20de04526768117573e1845fb6c179d795865"
+    },
+    {
+      "name": "02-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist"
+      ],
+      "exit_code": 0,
+      "seconds": 1.34,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/02-disclosures.log",
+      "sha256": "099a4cf97c9acc3c9a6c016f9fe7ebb56b56b1f4f7e09bf0c72158a30b1ea20c"
+    },
+    {
+      "name": "03-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "seconds": 14.48,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/03-tests.log",
+      "sha256": "eb4a64656cbcd3d80c168602df927b6b444b8a9040a454523268eabc153c9530"
+    },
+    {
+      "name": "04-coast-build",
+      "command": [
+        "npm",
+        "run",
+        "build:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 55.64,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/04-coast-build.log",
+      "sha256": "5d9242ec7c8fd35af8d09b9d120957a7b8647ab0a6032be73fe4fa3225607a2f"
+    },
+    {
+      "name": "05-coast-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-coast"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/05-coast-disclosures.log",
+      "sha256": "fa95dee6620a29d2ec13f601709be7b91f39aef807c6971de853f0ab08b50d13"
+    },
+    {
+      "name": "06-coast-tests",
+      "command": [
+        "npm",
+        "run",
+        "test:coast"
+      ],
+      "exit_code": 0,
+      "seconds": 5.7,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/06-coast-tests.log",
+      "sha256": "42b30da044c8ec4e342e05cbed72dbd4b0657abd6ebfa75f610416ab715546fa"
+    },
+    {
+      "name": "07-coast-acceptance",
+      "command": [
+        "python3",
+        "tools/audit-coast.py"
+      ],
+      "exit_code": 0,
+      "seconds": 8.6,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/07-coast-acceptance.log",
+      "sha256": "0f5b3cd806add85cd86b88ce62bbd2561c91307b72ebfa2ce6f7f785276cb078"
+    },
+    {
+      "name": "08-discovery",
+      "command": [
+        "python3",
+        "tools/audit-discovery.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.58,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/08-discovery.log",
+      "sha256": "d6e7d5196cc318ff72f45a3a5e1981c27ffd4dc3ba4f5b88b0dd25b8f8df5d19"
+    },
+    {
+      "name": "09-search-prepare",
+      "command": [
+        "node",
+        "tools/prepare-search-review.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 5.56,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/09-search-prepare.log",
+      "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "name": "10-launch",
+      "command": [
+        "python3",
+        "tools/audit-launch-readiness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.9,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/10-launch.log",
+      "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "name": "11-publication",
+      "command": [
+        "npm",
+        "run",
+        "build:publication"
+      ],
+      "exit_code": 0,
+      "seconds": 248.27,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/11-publication.log",
+      "sha256": "d12d0c549442a99aef265f1d945df995b7908741ec45f161fd9af7129215982b"
+    },
+    {
+      "name": "12-publication-disclosures",
+      "command": [
+        "node",
+        "tools/check-public-disclosures.mjs",
+        "dist-publish"
+      ],
+      "exit_code": 0,
+      "seconds": 0.66,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/12-publication-disclosures.log",
+      "sha256": "fe856b5c57a87a28302ff0aa6c39132008e5efb7518d0d707d0bc1362217a8e2"
+    },
+    {
+      "name": "13-shortlist",
+      "command": [
+        "python3",
+        "tools/audit-search-shortlist.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.97,
+      "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/13-shortlist.log",
+      "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    }
+  ],
+  "full_tests": 722,
+  "coast_tests": 576,
+  "historical_logs": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/01-build-history-1794092680.log",
+      "bytes": 50305,
+      "sha256": "367e330606a2d9a8dd908f28628c83f2e86bb243ee8df559b474533cfa425412"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/02-disclosures-history-1794092722.log",
+      "bytes": 206,
+      "sha256": "099a4cf97c9acc3c9a6c016f9fe7ebb56b56b1f4f7e09bf0c72158a30b1ea20c"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/04-coast-build-history-1794092724.log",
+      "bytes": 50584,
+      "sha256": "27615bbd182a39b7d9298b966d29a887884808b96d88429dde489861ca1c167e"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/05-coast-disclosures-history-1794092779.log",
+      "bytes": 212,
+      "sha256": "fa95dee6620a29d2ec13f601709be7b91f39aef807c6971de853f0ab08b50d13"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/06-coast-tests-history-1794092561.log",
+      "bytes": 63503,
+      "sha256": "95905e24b740fa857928ab4f75f7fdcb030eec70735d58c5058961f74db481c5"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/06-coast-tests-history-1794092780.log",
+      "bytes": 59346,
+      "sha256": "0875ae43d9166a4ee1ecb542eb2779fa8f831dd08a18d773617a2357dcf24975"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/07-coast-acceptance-history-1794092786.log",
+      "bytes": 42,
+      "sha256": "0f5b3cd806add85cd86b88ce62bbd2561c91307b72ebfa2ce6f7f785276cb078"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/patrapoda-editorial-2026-11-08/implementation/samanta/08-discovery-history-1794092794.log",
+      "bytes": 43987,
+      "sha256": "7b31d5508617f188135f59dff3f033325d408e64031372185f4f02cc12b86e93"
+    }
+  ],
+  "history": "Initialcoast3 failures were old globalcaption assertion, parentfallthrough practicalcount and portable ID projection test expectations. Narrow tests corrected, no product weakening. Initial discovery failed duplicate neutraldescription; root changed only118 metadata, route mirrored, affected full/coast/discovery outputs rebuilt. Prior logs retained."
+}

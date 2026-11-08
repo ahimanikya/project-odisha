@@ -1,0 +1,19 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import kalinga from '../../../../../kb/research/stories/reading-kalinga-beyond-odisha.json';
+const links=[
+ {title:kalinga.title,href:kalinga.route,description:kalinga.description},
+ {title:'Ratnagiri: a place built for learning',href:'/stories/ratnagiri/',description:'Read the Ratnagiri account and its source notes.'},
+ {title:'Lalitgiri: relics, monasteries and a long Buddhist history',href:'/stories/lalitgiri/',description:'Continue with the Lalitgiri reading.'},
+ {title:'Buddhist Udayagiri in Jajpur: monasteries and daily life',href:'/stories/udayagiri-buddhist/',description:'Read the connected Udayagiri account.'},
+ {title:'Boita: trade, craft and the crossing of a sea',href:'/stories/maritime-memory/',description:'Explore the maritime reading and its evidence.'}
+];
+---
+<Shell title="History and heritage" description="Read connected accounts of places, records and the people who study them." active="explore" wide related={false}>
+<div class="article-reading">
+ <header><p><a href="/explore/">← Explore Project Odisha</a></p><h1>History and heritage</h1><p>Read connected accounts of places, records and the people who study them. Follow each article’s sources and continue through the collection at your own pace.</p></header>
+ <ArticleReadingPath id="history-readings" heading="In this series" links={links}/>
+</div>
+</Shell>

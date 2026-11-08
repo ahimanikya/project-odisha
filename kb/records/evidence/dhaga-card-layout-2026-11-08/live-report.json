@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "scope_released": true,
+  "deployed_head": "dea209cab15a6b9003d080457b6b9318313dfd82",
+  "publication_run": 42439777361,
+  "checked_at": "2026-11-08T03:05:17.298Z",
+  "input_head": "dea209cab15a6b9003d080457b6b9318313dfd82",
+  "checks": {
+    "actual_viewport_widths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "columns": [
+      3,
+      2,
+      1,
+      1
+    ],
+    "all_358_exact_original_and_both_summaries": true,
+    "illustrated_cards": 301,
+    "text_only_cards": 57,
+    "all_301_HTTP200_and_published_artifact_digest_equal": true,
+    "seven_reading_index_source_HTTP_products_archive_exact": true,
+    "search_theme_clear_empty_native_keyboard_chapter_direct_hash_back": true,
+    "noJS_all358_and_native_links": true,
+    "all_visible_first_chapter_images_decoded_before_capture": true,
+    "PDF_descriptor_and_live_download_link_exact": true
+  },
+  "visual_inspection": [
+    "Actual1440three-column,768two-column and390one-column first-chapter screenshots individually viewed: readable full originals/summaries,containedart,alignedbottomlinks,tablet16pxgap.",
+    "Actual320text-only358 screenshot viewed: no fakeart/emptyframe on target card, readable full text and native reading link. Next chapter lazy image may still be loading in background of text-only screenshot; all301actualHTTP hashes independently verified."
+  ],
+  "byte_authority": {
+    "artifact_id": 13601377896,
+    "archive_sha256": "a89d78ba638dae6cf1b18a97f01e5c0e15017ab7138cbef6247b4721ab97e329",
+    "archive_bytes": 682242754,
+    "dhaga_regular_files": 668,
+    "local_image_digest_differences": [
+      "dhaga/assets/dhaga-180-line-art-v1.webp",
+      "dhaga/assets/dhaga-198-line-art-v1.webp",
+      "dhaga/assets/dhaga-187-line-art-v1.webp",
+      "dhaga/assets/dhaga-186-line-art-v1.webp",
+      "dhaga/assets/dhaga-008-unified-line-v1.webp",
+      "dhaga/assets/dhaga-192-line-art-v1.webp",
+      "dhaga/assets/dhaga-183-line-art-v1.webp",
+      "dhaga/assets/dhaga-197-line-art-v1.webp",
+      "dhaga/assets/dhaga-293-v1.webp",
+      "dhaga/assets/dhaga-182-line-art-v1.webp",
+      "dhaga/assets/dhaga-190-line-art-v1.webp",
+      "dhaga/assets/dhaga-191-line-art-v1.webp",
+      "dhaga/assets/dhaga-194-line-art-v2.webp",
+      "dhaga/assets/dhaga-196-line-art-v1.webp",
+      "dhaga/assets/dhaga-185-line-art-v1.webp",
+      "dhaga/assets/dhaga-195-line-art-v1.webp",
+      "dhaga/assets/dhaga-181-line-art-v1.webp",
+      "dhaga/assets/dhaga-189-line-art-v1.webp",
+      "dhaga/assets/dhaga-299-v1.webp",
+      "dhaga/assets/dhaga-073-unified-line-v1.webp",
+      "dhaga/assets/dhaga-188-line-art-v1.webp",
+      "dhaga/assets/dhaga-193-line-art-v2.webp",
+      "dhaga/assets/dhaga-184-line-art-v1.webp"
+    ],
+    "qualification": "Live assets exactly match actual successful GitHub publication artifact. Different local image bytes remain reported; platform/encoder cause is not established."
+  },
+  "history": [
+    "Initial raw textContent/source equality failed028 because reviewed BR elements represent original newline characters. Separate verifier reconstructs BR to newline then requires exact field equality; no general whitespace normalization.",
+    "Initial strict live/local image digest comparison failed. Original scripts/logs unchanged; root authorized strict successful artifact as deployed-byte authority.",
+    "Automatic approval review rejected a proposed combined edit/run that would replace failing assertions. It did not execute. Separate stronger artifact-backed verifier completed under explicit root authorization."
+  ],
+  "limits": [
+    "Actual Chrome only; no human editorial review or new publication by producer.",
+    "Existing110419594byte226pagePDF was not downloaded again; exact unchanged descriptor and actual live link checked.",
+    "Seven public HTML products are byte-sampled against deployment archive; all358card original/summary fields and301image bytes independently checked.",
+    "ZIP remains local-only; do not embed archive in canonical receipt/Git."
+  ],
+  "bindings": [
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/manifest.json",
+      "sha256": "8f62c10c47c05c293aef8a62b17546425722b2fcd3875d483d9570eeb9a509ff",
+      "bytes": 8181
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/archive-live-results.json",
+      "sha256": "a1e7c48e7e1468a748305f26a0a862be2d5feddb56e06cc9216278679ec0e6a1",
+      "bytes": 104779
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/live/samanta/browser-results.json",
+      "sha256": "238f03f5b37bb776c9b0b4ef5ef90fb31b00c939dc00e8fa2820e77730146cb6",
+      "bytes": 2156
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/publication.json",
+      "sha256": "2af4cc02ac3c5c7b08505a8a77ef73debc7b6f71834a6d03a76a1b5ac5d103c7",
+      "bytes": 272
+    },
+    {
+      "path": "outputs/dhaga-card-publication-2026-11-08/samanta/report.json",
+      "sha256": "192e4a4e7a1d12ee3e7cbf230b6cff513c8df15e3cb49262710ab2de88e9c842",
+      "bytes": 3626
+    }
+  ]
+}

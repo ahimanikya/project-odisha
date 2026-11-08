@@ -26,8 +26,12 @@ test('reading starter and every literary idea retain reading prompts and source 
  for(const section of gangadhar.sections)for(const paragraph of section.paragraphs)assert.ok(book.includes(`<p>${escapeHTML(paragraph.text)}</p>`),section.id);
  assert.ok(book.includes('Keep the translation in view'));assert.ok(book.includes('Harekrishna Meher'));assert.ok(book.includes('Madhusudan Pati'));
  assert.ok(book.includes('Compare my canto and edition.'));assert.ok(book.includes('Gangadhar Meher'));assert.ok(book.includes('sahitya-akademi.gov.in'));
- const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,58);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
- for(const idea of reading){assert.ok(idea.practical.length>=2,idea.id);assert.ok(idea.sources.length);}
+ const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,59);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
+ for(const idea of reading){
+  if(idea.id==='reading:stories/reading-kalinga-beyond-odisha')assert.deepEqual(idea.practical,[{heading:'Continue online',text:'Open the article for its full narrative and source notes.'}]);
+  else assert.ok(idea.practical.length>=2,idea.id);
+  assert.ok(idea.sources.length);
+ }
 });
 test('language hub preserves diversity without linking to unreleased profiles',()=>{
  const hub=read('/languages/');for(const name of ['Santali','Kui','Kuvi','Saora','Ho','Juang','Koya','Sambalpuri','Kosali','Desia'])assert.ok(hub.includes(name),name);

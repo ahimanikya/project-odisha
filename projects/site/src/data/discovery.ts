@@ -1,3 +1,4 @@
+import kalingaReading from '../../../../kb/research/stories/reading-kalinga-beyond-odisha.json';
 import dongariya from './dongariya.json';
 import literaturePreservationImage from '../../../../kb/research/stories/odia-literature-preservation-image.json';
 import literaturePreservation from '../../../../kb/research/stories/odia-literature-preservation.json';
@@ -24,6 +25,8 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ {label:"History and heritage",category:"Living culture",dek:"Read connected accounts of places, records and the people who study them.",href:"/history/",regions:["Across Odisha"],aliases:["history","heritage","archaeology","inscriptions"]},
+ {label:kalingaReading.title,category:"Living culture",dek:kalingaReading.description,href:kalingaReading.route,regions:["North Andhra","Odisha"],aliases:["Kalinga","Deepak Kumar Nayak","heritage research","inscriptions"]},
  {label:'Dongria Kondh: life in Niyamgiri',category:'Living culture',dek:'Twelve connected articles on cloth, language, cultivation and learning.',href:'/stories/dongria/',regions:['Rayagada','Niyamgiri']},
  ...dongariya.map(a=>({label:a.title,category:'Living culture',dek:'From the Dongria Kondh series, with attributed accounts and source notes.',href:`/stories/dongria/${a.routeSlug || a.slug}/`,regions:['Rayagada','Niyamgiri']})),
  {label:literaturePreservation.title,category:"Literature",dek:literaturePreservation.description,href:literaturePreservation.route,image:literaturePreservationImage,regions:["Across Odisha"],aliases:[]},

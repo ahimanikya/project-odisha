@@ -9,7 +9,7 @@ const catalog=JSON.parse(read('/').match(/id="journey-data"[^>]*>([\s\S]*?)<\/sc
 const slugs=['baigana-poda','tomato-poda','patrapoda'];
 test('fire stories carry truthful photo context, licensed assets and source links',()=>{
  for(const slug of slugs){
-  const entry=foods.pages.find(p=>p.slug===slug),photo=foods.assets[entry.hero],html=read('/food/'+slug+'/');
+  const entry=foods.pages.find(p=>p.slug===slug),photo=slug==='patrapoda'?{...foods.assets[entry.hero],caption:JSON.parse(readFileSync('../../kb/research/food/patrapoda-editorial.json')).photo_caption}:foods.assets[entry.hero],html=read('/food/'+slug+'/');
   for(const route of ['/food/fire-cooking/','/explore/'])assert.ok(read(route).includes('href="/food/'+slug+'/"'));
   for(const text of [photo.alt,photo.caption,photo.creator,photo.license_url,'noindex, nofollow'])assert.ok(html.includes(text),slug+': '+text);
   assert.equal(createHash('sha256').update(readFileSync('dist-coast'+photo.src)).digest('hex'),photo.sha256);
@@ -18,15 +18,15 @@ test('fire stories carry truthful photo context, licensed assets and source link
  assert.ok(read('/food/baigana-poda/').includes('The photograph shows combined eggplant and tomato, baigana-bilati poda. It is not a photograph of either recipe described here.'));
  assert.match(read('/food/tomato-poda/'),/The author uses knife and spoon rather than hand-mashing/);
  assert.match(read('/food/patrapoda/'),/Mushroom and prawn preparations.*not pictured/);
- assert.match(read('/food/patrapoda/'),/Leaf wrapping does not by itself mean charring/);
- assert.match(read('/food/patrapoda/'),/historical account, not evidence of a dish available to book today/);
+ assert.match(read('/food/patrapoda/'),/The bhapa method instead puts seasoned ingredients in a closed box for steaming/);
+ assert.match(read('/food/patrapoda/'),/it does not establish either recipe/);
 });
 test('fire and table starter preserves sources, personal notes and real photos in portable books',()=>{
  const starter=JSON.parse(readFileSync('../../kb/research/journey-starters.json')).starters.find(s=>s.id==='fire-and-table');
  const plan={version:1,title:starter.title,startDate:'',items:starter.items.map(id=>({id,day:1,notes:'Ask what is inside the parcel.'}))};
  const book=buildTourBook(plan,catalog);
  for(const id of ['reading:food/fire-cooking',...slugs.map(s=>'food:'+s)]){
-  assert.ok(starter.items.includes(id));const item=catalog.find(i=>i.id===id);assert.ok(item);assert.ok(item.photo);assert.ok(item.sources.length);id==='food:baigana-poda'?(assert.equal(item.practical.length,1),assert.equal(item.practical[0].heading,''),assert.equal(item.practical[0].paragraphs.length,3)):id==='food:tomato-poda'?(assert.equal(item.practical.length,1),assert.equal(item.practical[0].heading,''),assert.equal(item.practical[0].paragraphs.length,1)):assert.ok(item.practical.length>=3);
+  assert.ok(starter.items.includes(id));const item=catalog.find(i=>i.id===id);assert.ok(item);assert.ok(item.photo);assert.ok(item.sources.length);id==='food:baigana-poda'?(assert.equal(item.practical.length,1),assert.equal(item.practical[0].heading,''),assert.equal(item.practical[0].paragraphs.length,3)):id==='food:tomato-poda'?(assert.equal(item.practical.length,1),assert.equal(item.practical[0].heading,''),assert.equal(item.practical[0].paragraphs.length,1)):id==='food:patrapoda'?(assert.equal(item.practical.length,1),assert.equal(item.practical[0].heading,''),assert.equal(item.practical[0].paragraphs.length,3)):assert.ok(item.practical.length>=3);
   assert.ok(book.includes(item.title));for(const source of item.sources)assert.ok(book.includes(source.url.replaceAll('&','&amp;')));
  }
  assert.ok(starter.items.includes('food:pakhala'));assert.ok(starter.items.includes('food:badi-chura'));
