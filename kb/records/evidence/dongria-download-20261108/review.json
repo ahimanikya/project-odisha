@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "scope": "Same-origin public PDF download, edition retention and already-authorised dinner-party copy correction.",
+  "findings": [],
+  "pdf": {
+    "sha256": "b03a61635aaddfe48b5320a9c3defc26fe00a707d7e8765045b71c1321d3fb00",
+    "bytes": 17689084,
+    "independently_hashed_public_archive": true,
+    "content_unchanged": true
+  },
+  "source_checks": [
+    "Descriptor points to /archive/dongria-kondh-public-reading.pdf",
+    "coast documents retains exact route",
+    "Tests assert exact public/dist bytes/hash and both entrance links",
+    "Generated workbench delta only coast fingerprint",
+    "Book header uses authorised dinner party wording"
+  ],
+  "pending": [],
+  "limitations": [
+    "No live deployment claim; this approval covers the reviewed candidate and generated artifact."
+  ],
+  "reviewed_commit": "96ec01f8dac4a9e5f8c27ffbe9672828744556d4",
+  "generated_artifacts": {
+    "independently_verified": [
+      "public",
+      "dist",
+      "dist-coast",
+      "dist-publish"
+    ],
+    "all_exact_pdf_hash_and_bytes": true,
+    "all_six_generated_entrance_links_same_origin": true
+  },
+  "implementation_evidence": "workspace output/dongria-download-20261108/implementation-results.json",
+  "final_build_report": "All three builds and optimization complete; 15 tests pass; 1200-page disclosure scan clean.",
+  "final_payload_bytes": 754556363
+}

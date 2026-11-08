@@ -31,6 +31,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Dongria book download: [Direct website delivery](records/dongria-download-20261108.json). The existing book buttons now use the site-hosted PDF; anonymous full download and byte-range access verified, with exact reviewed bytes preserved.
+
 Dongria language update: [Names, teachers and documentation resources](records/dongria-language-20261108.json). Original-source verification supports attributed Kuang Kata and named language teachers, a regional dictionary and an OpenSpeaks example. Published language chapter and matching84-page public reading PDF verified;99compact notes. No new verified Dongria audio collection claimed.
 
 Current cinema credit research: [Prateek’s two film roles](records/cinema-end-credits-2026-11-08.json). Original producer treatment verifies Remosam co-cinematography; two trailer closing cards verify additional script, research and subtitles for Ramaleelas of Odisha, shared with Puloma Pal. Separate review complete. Full-feature end cards remain uninspected; published articles and both book downloads unchanged.
