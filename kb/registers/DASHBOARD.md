@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0b81caf4c130341f4a3fcea0de5fcf8ae8c88891debb86708562b3c9fc3db4d3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3a473189318ae2ec04ce5c71d156da76b15d7148f2d43dcbc32e5fe7da123921`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -364,6 +364,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-330 · Baigana poda: two attributed roasting preparations | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat substantive credit. | — |
 | POD-WORK-331 · Tomato poda: an attributed preparation sequence | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
+| POD-WORK-333 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | in_progress | reviewed | Ahimanikya Satapathy | Implement reviewed draft and patch, validate actual outputs and publish with receipt. | — |
 
 ## Pending human review and decisions
 
