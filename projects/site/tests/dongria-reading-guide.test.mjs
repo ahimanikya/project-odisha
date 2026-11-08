@@ -42,7 +42,7 @@ test('all twelve source sections contain image credits and intact numbered note 
   for(const id of ids)assert.ok(html.includes(`href="#${id}"`));
   assert.ok(section.includes('data-footnote-backref'));
  }
- assert.equal(notes,95);
+ assert.equal(notes,99);
 });
 
 test('source consolidation does not run on non-Dongria articles',async()=>{
