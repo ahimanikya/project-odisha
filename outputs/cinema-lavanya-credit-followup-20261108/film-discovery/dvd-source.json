@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-08",
+  "scope_released": true,
+  "status": "mirrored_distribution_entry_confirmed_original_pdf_unrecovered",
+  "original_page_check": {
+    "file": "outputs/cinema-lavanya-literary-20261108/film-sources/cfsi-archived.html",
+    "inspection": "Parsed actual retained original HTML anchors, then inspected Buy DVD markup.",
+    "locators": {
+      "buy_button": "line202: href #!, data-target #BuyDVD",
+      "modal": "lines418–427: Buy DVD heading and email-enquiry instruction",
+      "footer_pdf": "line343"
+    },
+    "result": "No DVD catalogue/order-procedure PDF href. Buy DVD opens an enquiry modal; no request was sent.",
+    "observed_pdf_url": "https://www.cfsindia.org/wp-content/uploads/2020/10/User-Charges.pdf"
+  },
+  "mirror": {
+    "url": "https://www.scribd.com/document/1001177275/DVD-Purchase-Procedure",
+    "actual_inspection": "Public web-extracted document text, not original PDF pixels or authenticated original-host copy.",
+    "uploader": "DRVIVEK",
+    "locator": "Document page5, entry117; web extraction lines342–344",
+    "entry": {
+      "title": "Lavanya Preeti (Loving Hearts)",
+      "duration_minutes": 81,
+      "year": 1993,
+      "listed_languages": "Oriya E.S.T / Oriya / Hindi"
+    },
+    "limit": "Undated mirrored distribution list. No writer or story credit; no evidence of current stock, playback or original-film runtime. Do not replace producer catalogue90min with81min without version evidence."
+  },
+  "access_attempts": [
+    {
+      "url": "https://www.cfsindia.org/wp-content/uploads/2020/10/User-Charges.pdf",
+      "result": "Web tool inaccessible."
+    },
+    {
+      "query": "site:cfsindia.org \"Procedure\" \"DVD\" pdf",
+      "result": "No search results."
+    },
+    {
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.cfsindia.org%2Fwp-content%2Fuploads%2F2020%2F10%2FUser-Charges.pdf",
+      "result": "Web tool inaccessible; no snapshot identified."
+    }
+  ],
+  "recommendation": "Retain as precise historical distribution-copy lead only. Original procedure PDF and film credit frames remain unavailable in this bounded pass. No public source-credit change.",
+  "film_frames_inspected": 0,
+  "purchase_or_contact": false,
+  "public_edits": false,
+  "source_budget": "No public prose proposed; no long quotations, account details or addresses retained."
+}

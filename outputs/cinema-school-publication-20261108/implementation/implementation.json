@@ -1,0 +1,183 @@
+{
+  "status": "complete_ready_for_independent_review",
+  "scope_released": true,
+  "marker": {
+    "path": "outputs/cinema-school-publication-20261108/implementation/artifact-marker.json",
+    "sha256": "09498f741eda4330fbd84ea6dba4a38d8cff44768f665976312cfd9b9060fb98",
+    "successful_calls": 1
+  },
+  "commands": [
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition digital --date 2026-11-08 --revision school-audience --artifact-marker-evidence outputs/cinema-school-publication-20261108/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-school-publication-20261108/implementation/digital-build.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition print --date 2026-11-08 --revision school-audience --layout-only --artifact-marker-evidence outputs/cinema-school-publication-20261108/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-school-publication-20261108/implementation/print-layout.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition print --date 2026-11-08 --revision school-audience --page-map tmp/pdfs/2026-11-08-school-audience/print/page-map.json --artifact-marker-evidence outputs/cinema-school-publication-20261108/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-school-publication-20261108/implementation/print-build.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition print --layout-only --date 2026-11-08 --revision school-audience --artifact-marker-evidence outputs/cinema-school-publication-20261108/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-school-publication-20261108/implementation/print-reflow-layout.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition print --page-map tmp/pdfs/2026-11-08-school-audience/print/page-map.json --date 2026-11-08 --revision school-audience --artifact-marker-evidence outputs/cinema-school-publication-20261108/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-school-publication-20261108/implementation/print-reflow-build.log"
+    }
+  ],
+  "baseline": {
+    "path": "outputs/cinema-school-publication-20261108/implementation/baseline.json",
+    "paths": 125,
+    "changes": {
+      "output/pdf/build_book.py": {
+        "before": "725f4a9869241b0d45cfd791d83cc1af939d347c1e29525229524ab89f40948d",
+        "after": "24b04910fc4abff3fd6ff9a38bdf88be702f7abb3b262d10fcac5d52c8a0caf4"
+      },
+      "projects/site/src/data/cinema.json": {
+        "before": "1dc801d647b5cbefb8f740eade7e8bd46eeb3b9ac545ba7d4bec99864f64a0f1",
+        "after": "23e1c428bdf8d662b9ce139194e267062c5c8c65939603f3325a759983e37229"
+      }
+    },
+    "changes_owned_by_coordinator": [
+      "projects/site/src/data/cinema.json"
+    ],
+    "unchanged_paths": 123,
+    "note": "Baseline after root source edit; later changes are root cinema.json metadata and authorized one-line print-only builder fix. All other protected bytes unchanged."
+  },
+  "editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-08-school-audience.pdf",
+      "sha256": "f50741862ebf2d250188be335a41e7816429ccd17531b2cb3bf952bccb25a80d",
+      "size_bytes": 38852518,
+      "receipt": "tmp/pdfs/2026-11-08-school-audience/digital/book-build-2026-11-08-school-audience.json",
+      "receipt_sha256": "2183940ff314c6375e03428775c77cb7bcaeaa55e5fc6e97a8182f14e7cf3e9f",
+      "pages": 272,
+      "notes": 543,
+      "book_readings": 49,
+      "online_readings": 50,
+      "render_dir": "tmp/pdfs/2026-11-08-school-audience/digital/pages",
+      "all_pages_rendered": true,
+      "rendered_page_count": 272,
+      "abhyasa_passage_and_note_pages": [
+        196,
+        269
+      ],
+      "chapter_page_references_stable": true,
+      "page_map_changes": {},
+      "chapter_order_preserved": true,
+      "source_binding_changes": [
+        "cinema-economics"
+      ],
+      "all49_current_source_hashes_match": true,
+      "image_count": 62,
+      "image_bytes_geometry_captions_credits_preserved_except_number_revision_path": true,
+      "integrated_profile_sources_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf_unchanged": true,
+      "prior_pdf_sha256": "750a3202714846dae6340aeda8c0e82cbb0719e8b0fa40600a3183cfe7b6efc8"
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-08-school-audience.pdf",
+      "sha256": "79aa3dbaa2c2c04ae116d225e0d00af257b4392506bb860f0ee300488743e391",
+      "size_bytes": 51785133,
+      "receipt": "tmp/pdfs/2026-11-08-school-audience/print/book-build-2026-11-08-school-audience.json",
+      "receipt_sha256": "066ccef6e989b5ba5526a115748b747c6561c56d02aae14590e8bd70c62130cd",
+      "pages": 278,
+      "notes": 543,
+      "book_readings": 49,
+      "online_readings": 50,
+      "render_dir": "tmp/pdfs/2026-11-08-school-audience/print/pages",
+      "all_pages_rendered": true,
+      "rendered_page_count": 278,
+      "abhyasa_passage_and_note_pages": [
+        196,
+        270
+      ],
+      "chapter_page_references_stable": true,
+      "page_map_changes": {
+        "ch-cinema-futures": {
+          "before": 198,
+          "after": 199
+        },
+        "overview-companion": {
+          "before": 208,
+          "after": 209
+        },
+        "section-production-support": {
+          "before": 210,
+          "after": 211
+        },
+        "section-recognition": {
+          "before": 220,
+          "after": 221
+        },
+        "reference-guide": {
+          "before": 234,
+          "after": 235
+        },
+        "sources": {
+          "before": 242,
+          "after": 243
+        },
+        "printed-sources": {
+          "before": 271,
+          "after": 272
+        },
+        "credits": {
+          "before": 276,
+          "after": 277
+        }
+      },
+      "chapter_order_preserved": true,
+      "source_binding_changes": [
+        "cinema-economics"
+      ],
+      "all49_current_source_hashes_match": true,
+      "image_count": 62,
+      "image_bytes_geometry_captions_credits_preserved_except_number_revision_path": true,
+      "integrated_profile_sources_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf_unchanged": true,
+      "prior_pdf_sha256": "4f6e677ec6c9604ba69c5bac36b99551b5f948e47f3c7c692c29f64d2e9130c4"
+    }
+  },
+  "manual_visual_review": {
+    "digital": [
+      196,
+      269
+    ],
+    "print": [
+      196,
+      197,
+      198,
+      270
+    ],
+    "result": "Initial body/note inspected; final reflow pages197–198 manually inspected, coherent complete closing section and vignette. All pages rendered, not all manually reviewed."
+  },
+  "limits": [
+    "Only new book artifacts/receipts and the explicitly authorized print-only builder condition were written by worker; no source, image, layout or download metadata edits.",
+    "Coordinator owns release metadata and site checks.",
+    "No claim of full manual page review or PDF/UA certification."
+  ],
+  "reflow": {
+    "reason": "Independent review found initial print p198 carried only two ending lines plus vignette.",
+    "initial_receipt": "outputs/cinema-school-publication-20261108/implementation/implementation-first-pass.json",
+    "builder_before": "outputs/cinema-school-publication-20261108/implementation/builder-before-reflow.py",
+    "builder_before_sha256": "725f4a9869241b0d45cfd791d83cc1af939d347c1e29525229524ab89f40948d",
+    "builder_after_sha256": "24b04910fc4abff3fd6ff9a38bdf88be702f7abb3b262d10fcac5d52c8a0caf4",
+    "diff": "outputs/cinema-school-publication-20261108/implementation/builder-reflow.diff",
+    "scope": "One condition adds PRINT and cinema-economics to existing <=300pt closing paragraph grouping. No spacing/font/image changes. Vignette outside group.",
+    "outcome": "Print p198 now contains complete concluding H2, both complete paragraphs and vignette; p197 ends cleanly after preceding section.",
+    "syntax_check": "ast.parse passed",
+    "digital_bytes_unchanged": true,
+    "marker_reused_not_repeated": true
+  }
+}

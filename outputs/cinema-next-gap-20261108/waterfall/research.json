@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "status": "new_original_festival_identity_bridge_found",
+  "scope_released": true,
+  "reuse": [
+    "kb/research/culture/cinema-series/support-delivery-2026-11-08.json",
+    "kb/research/culture/cinema-series/waterfall-school-2026-11-08.json",
+    "outputs/cinema-waterfall-school-20261108/screening-research.json",
+    "outputs/cinema-school-audiences-20261105/research.json"
+  ],
+  "reuse_query": "query_research.py Waterfall school returned only dated-inventory notice; exact dossiers inspected.",
+  "discovery_route": {
+    "query_log": [
+      "\"IKFF\" \"2017\" \"catalogue\" LXL",
+      "\"International Kids Film Festival\" \"2017\" \"Waterfall\" programme",
+      "\"IKFF\" \"2017\" \"LXL\" films list pdf"
+    ],
+    "fresh_lead": "Rotary India Literacy Mission November2018 newsletter, indexed p9 links IKFF2017 Film Trailers.",
+    "newsletter_url": "https://ilmteach.org/documents/publications/2021-06-24-15-37-39-Nov%202018.pdf",
+    "newsletter_access": "Search-index excerpt only; direct web PDF cache miss. No original PDF pixels claimed.",
+    "short_link": "https://bit.ly/2LfJHKW",
+    "resolution": "Public curl HEAD redirect301 to exact YouTube playlist; initial restricted-network DNS failed, authorized network read succeeded.",
+    "playlist": "https://www.youtube.com/playlist?list=PLREzWdXBkjSAXh01MbKHmPrD4zIDTaDCs"
+  },
+  "primary_source": {
+    "url": "https://www.youtube.com/watch?v=nplYz453zk4",
+    "title": "The Waterfall | IKFF India 2017",
+    "channel": "SCIFF - School Cinema International Film Festival",
+    "channel_url": "https://www.youtube.com/@sciff.official",
+    "displayed_upload_date": "2017-12-29",
+    "playlist_title": "Film Trailers | IKFF India 2017",
+    "actual_inspection": "Original playlist and watch-page rendered UI/DOM read in separate Chrome tab. Playlist lists Waterfall first among17videos. Description explicitly names director. Selected final trailer frame inspected around1:12, after navigation t=70s.",
+    "exact_short_extract": "Directed by Lipika Singh Darai",
+    "visible_final_card": "International Kids Film Festival India;14 to19November2017; register at ikffi.lxl.in.",
+    "runtime_scope": "UI displayed1:22 total; playlist rounded1:23. Trailer, not full film.",
+    "capture_scope": "Screenshot displayed and visually inspected in CUA tool output; no local screenshot file saved by this agent. Description independently read in rendered DOM.",
+    "playback_limit": "Only sampled visual inspection; no continuous whole-trailer viewing or audio comprehension claimed. An End-key attempt advanced playlist to unrelated Luxna; excluded, then exact Waterfall standalone URL reopened and paused."
+  },
+  "claim_matrix": [
+    {
+      "claim": "The Waterfall in IKFF India2017 was directed by Lipika Singh Darai.",
+      "support": "Original festival upload title and explicit description.",
+      "strength": "Direct provider programme attribution."
+    },
+    {
+      "claim": "This trailer promotes14–19November2017 festival.",
+      "support": "Actual visible final card around1:12.",
+      "strength": "Original programme visual."
+    },
+    {
+      "claim": "Abhyasa reported screening The Waterfall in its14–19November2017 IKFF event.",
+      "support": "Prior school-authored indexed report retained by coordinator. New original programme gives the previously missing title/director pairing for the same festival edition.",
+      "strength": "Cross-source identification, not a school-authored director credit.",
+      "limit": "Do not claim a specific day, language version, film-specific attendance, educational effect or fee."
+    }
+  ],
+  "recommendation": {
+    "action": "Independent reviewer should verify the original festival description/card, then assess modest school-example wording with the retained Abhyasa report.",
+    "possible_wording": "Abhyasa’s account of its November2017 school festival lists The Waterfall among the films shown. The festival’s own2017 trailer identifies Lipika Singh Darai as its director.",
+    "limits": "Attribute completed event to school report, whose original live body remains unavailable. Programme identity alone does not supply classroom outcomes."
+  },
+  "additional_precise_lead_not_opened": {
+    "url": "https://www.youtube.com/watch?v=mQYU0i9ADqY",
+    "observed_title": "The Waterfall | School Cinema | Class10",
+    "context": "Related original School Cinema channel video observed in rendered watch-page recommendations; no metadata/frames independently inspected."
+  },
+  "source_budget": {
+    "new_public_proposal_words_approximately": 33,
+    "verbatim_words": 6,
+    "max_derived_per_source": 200,
+    "note": "Same provider title/description/video is one source; no award/synopsis expansion proposed."
+  },
+  "public_edits": false,
+  "contact_or_purchase": false
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "status": "PASS_SOURCE_GUARD",
+  "scope_released": true,
+  "source": "kb/research/culture/cinema-series/cinema-economics.md",
+  "source_sha256": "e21301631cd784f76d17caca6a52759a7dbab312f87b6481c6b97e85fa5b3aaa",
+  "actual_new_paragraph": "Abhyasa’s account of its November 2017 school festival lists *The Waterfall* among the films shown. The festival’s own trailer identifies Lipika Singh Darai as the director.[^school-abhyasa]",
+  "actual_note": "[^school-abhyasa]: Abhyasa, [school festival report](https://abhyasaschool.org/first-international-kids-films-festival-on-india-ikffi-in-abhyasa.html), 14–19 November 2017; SCIFF, [*The Waterfall | IKFF India 2017*](https://www.youtube.com/watch?v=nplYz453zk4), 29 December 2017.",
+  "review_reused": "outputs/cinema-next-gap-20261108/review.json",
+  "review_sha256": "9b6da013db2414546a06ff8a447f48b7b7562f6a97379bc18da25e507b2685bd",
+  "claim_checks": [
+    {
+      "claim": "School festival report lists film among those shown.",
+      "result": "Pass: explicitly attributed to Abhyasa; retained indexed original report, not independently witnessed screening."
+    },
+    {
+      "claim": "Festival trailer identifies director.",
+      "result": "Pass: researcher and separate reviewer actually read original rendered description naming Darai. No full-film viewing inferred."
+    },
+    {
+      "claim": "Dates",
+      "result": "Pass: November2017 event distinct from29December2017 upload; note preserves both dates."
+    }
+  ],
+  "source_urls": [
+    "https://abhyasaschool.org/first-international-kids-films-festival-on-india-ikffi-in-abhyasa.html",
+    "https://www.youtube.com/watch?v=nplYz453zk4"
+  ],
+  "url_limits": "Exact previously inspected canonical source URLs preserved. Abhyasa live body remains inaccessible; retained indexed body supports attributed statement. Video is an accessible original trailer; fresh network verification not repeated in this guard.",
+  "budget": {
+    "method": "Scoped Markdown search of KB research for both exact source identifiers; only Cinema Economics matches. Conservative full new paragraph plus complete note counted against either source.",
+    "whole_paragraph_and_note_whitespace_words": 44,
+    "ceiling_each": 200,
+    "new_direct_quotes": 0,
+    "book_reuse": "Same article mirrored into books; no additional distinct derived narrative proposed."
+  },
+  "exclusions_preserved": [
+    "No film-specific attendance or measurable learning",
+    "No school language-version claim",
+    "No fee, contract, payment or profitability claim",
+    "No claim original school source itself paired director and title",
+    "No Class10 teaching-material claim"
+  ],
+  "required_corrections": [],
+  "limits": [
+    "Source-only guard; no new external research.",
+    "No final PDF hash, layout, website deployment or live-link check performed here.",
+    "No public/shared source files changed."
+  ]
+}
