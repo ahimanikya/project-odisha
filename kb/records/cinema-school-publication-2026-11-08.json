@@ -1,0 +1,51 @@
+{
+  "id": "POD-CINEMA-SCHOOL-PUBLICATION-20261108",
+  "date": "2026-11-08",
+  "status": "reviewed_awaiting_publication",
+  "authorization": "Good, let’s add this to Cinema Economics and publish the website update and both book downloads.",
+  "active_article": "/cinema/cinema-economics/",
+  "scope_released": false,
+  "publication_performed": false,
+  "programme_credit": 0,
+  "source_handoff": "records/cinema-school-programme-followup-2026-11-08.json",
+  "release_tag": "odia-cinema-book-2026-11-08-school-audience",
+  "reserved_scopes": {
+    "Disha": [
+      "Canonical article integration",
+      "Shared records, Git, deployment and live verification",
+      "projects/site/src/data/cinema.json release binding",
+      "kb/research/culture/cinema-series/manifest.json release binding",
+      "projects/site/public/archive/ new book artifacts",
+      "outputs/cinema-school-publication-20261108/root/",
+      "projects/site/editions/coast.json current PDF document entries only",
+      "projects/site/tests/book-downloads.test.mjs reviewed current PDF pins only"
+    ],
+    "Anvesha": [
+      "outputs/cinema-school-publication-20261108/source-review.json"
+    ],
+    "Samanta": [
+      "output/pdf/odia-cinema-a-living-screen-2026-11-08-school-audience.pdf",
+      "output/pdf/odia-cinema-a-living-screen-print-2026-11-08-school-audience.pdf",
+      "tmp/pdfs/2026-11-08-school-audience/",
+      "outputs/cinema-school-publication-20261108/implementation/",
+      "output/pdf/build_book.py: bounded print-only Cinema Economics closing paragraph grouping"
+    ],
+    "Drishti": [
+      "outputs/cinema-school-publication-20261108/review/"
+    ]
+  },
+  "boundaries": [
+    "One short school-reported screening example and compact two-source note. No payment/outcome claim.",
+    "Preserve all other chapters, images, sequence, covers, old editions and standalone introduction.",
+    "Preserve Pattachitra receipt integration and unrelated tagged-reader experiments.",
+    "Existing website/GitHub delivery, no change of host or audience."
+  ],
+  "delivery_strategy": "Replace the current two same-origin PDF entries with the new reviewed editions. Preserve old originals in the repository and earlier release files; archived-edition links use their verified GitHub copies. Avoid duplicating both 90MB pairs inside the capped publication payload.",
+  "layout_followup": "Independent review found two orphaned continuation lines on print p198. Keep the final Economics thought whole using a bounded print-only grouping; no typography, image or content changes.",
+  "book_manifest": "outputs/cinema-school-publication-20261108/book-release-manifest.json",
+  "source_review": "outputs/cinema-school-publication-20261108/source-review.json",
+  "implementation": "outputs/cinema-school-publication-20261108/implementation/implementation.json",
+  "final_review": "outputs/cinema-school-publication-20261108/review/final-review.json",
+  "final_review_sha256": "0c30c377ffb191e41a8091a7153d8c4524da5016ce4f81512b87dfa44641b93d",
+  "next_action": "Publish reviewed source and both matching PDFs after clean hosted validation, then verify live article and download hashes."
+}
