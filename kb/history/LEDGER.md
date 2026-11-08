@@ -1459,3 +1459,8 @@ Added precise Remosam and Ramaleelas roles to the existing collaboration passage
 ### 8 November 2026 · Dongria language research integration
 
 Verified Hardenberg’s attributed Kuang Kata name and named teachers against original preview pages. Added scoped dictionary and OpenSpeaks examples to the language chapter, preserving language/script distinctions. Four source notes; public PDF rebuild and separate review in progress. [Record](../records/dongria-language-20261108.json).
+
+
+### 8 November 2026 · Dongria language chapter and public book published
+
+PR722 merged after validated head cd1a9db4; deployment42468942531 succeeded on retry after an unrelated GitHub download timeout. Live language page and book link checked; uploaded84-page PDF matches reviewed hash b03a6163… and retains99compact notes. New passages centre named language teachers and preserve regional/resource limits. Private editions unchanged. [Receipt](../records/dongria-language-20261108.json).
