@@ -1,0 +1,120 @@
+{
+  "id": "POD-HOSTING-CAPACITY-20261108",
+  "status": "implemented_validation_in_progress",
+  "authorization": "Founder requested sorting out website hosting space and merging final download verification record.",
+  "scope": "Increase website capacity while preserving all current direct PDF URLs, exact PDF bytes, all content, image quality and working media. No paid services or account changes without separate approval.",
+  "programme_credit": 0,
+  "receipt_pr": 731,
+  "input_head": "fcf3bf2b",
+  "reserved_files": {
+    "Disha": [
+      "kb/records/hosting-capacity-20261108.json",
+      "kb/records/evidence/hosting-capacity-20261108/",
+      "kb/index.md",
+      "kb/history/LEDGER.md",
+      "kb/catalog.json",
+      "kb/records/editorial-workbench.json"
+    ],
+    "Samanta": [
+      "projects/site/public/characters/abolakara.html",
+      "projects/site/public/characters/batare-katha.html",
+      "projects/site/public/characters/boita-sadhaba.html",
+      "projects/site/public/characters/chhota-karigara.html",
+      "projects/site/public/characters/complete-report.html",
+      "projects/site/public/characters/design-path.html",
+      "projects/site/public/characters/films/benu-my-story-first/first-cut-v1.html",
+      "projects/site/public/characters/films/benu-my-story-first/index.html",
+      "projects/site/public/characters/films/boita-small-bundle/index.html",
+      "projects/site/public/characters/films/chiku-round-the-stone/film-v3.html",
+      "projects/site/public/characters/films/chiku-round-the-stone/first-cut-v1.html",
+      "projects/site/public/characters/films/chiku-round-the-stone/revised-cut-v2.html",
+      "projects/site/public/characters/films/dinu-wait-a-moment/first-cut-v1.html",
+      "projects/site/public/characters/films/dinu-wait-a-moment/index.html",
+      "projects/site/public/characters/films/koeli-little-sound/first-cut-v1.html",
+      "projects/site/public/characters/films/koeli-little-sound/index.html",
+      "projects/site/public/characters/films/koeli-little-sound/motion-v1.html",
+      "projects/site/public/characters/films/malati-stay-a-moment/first-cut-v1.html",
+      "projects/site/public/characters/films/malati-stay-a-moment/index.html",
+      "projects/site/public/characters/films/malati-stay-a-moment/revised-cut-v2.html",
+      "projects/site/public/characters/films/nilu-hold-this-end/first-cut-v1.html",
+      "projects/site/public/characters/films/nilu-hold-this-end/index.html",
+      "projects/site/public/characters/films/nilu-hold-this-end/motion-v1.html",
+      "projects/site/public/characters/films/nilu-hold-this-end/revised-cut-v2.html",
+      "projects/site/public/characters/films/saanta-wrong-ending/first-cut-v1.html",
+      "projects/site/public/characters/films/saanta-wrong-ending/index.html",
+      "projects/site/public/characters/index.html",
+      "projects/site/public/characters/koeli.html",
+      "projects/site/public/characters/koraput.html",
+      "projects/site/public/characters/nilu-chaiti.html",
+      "projects/site/public/characters/regional-dress.html",
+      "projects/site/public/characters/scripts/benu-my-story-first.html",
+      "projects/site/public/characters/scripts/chiku-round-the-stone.html",
+      "projects/site/public/characters/scripts/dinu-wait-a-moment.html",
+      "projects/site/public/characters/scripts/koeli-little-sound.html",
+      "projects/site/public/characters/scripts/malati-stay-a-moment.html",
+      "projects/site/public/characters/scripts/nilu-hold-this-end.html",
+      "projects/site/public/characters/scripts/saanta-wrong-ending.html",
+      "projects/site/public/characters/story-lab.html",
+      "projects/characters/video-delivery.json",
+      "projects/site/editions/coast.json",
+      "projects/site/tests/video-delivery.test.mjs",
+      "output/hosting-capacity-20261108/",
+      "projects/site/tests-coast/video-delivery.test.mjs"
+    ],
+    "Anvesha": [
+      "output/hosting-capacity-20261108/"
+    ],
+    "Drishti": [
+      "output/hosting-capacity-review-20261108.json"
+    ]
+  },
+  "baseline": {
+    "hosted_bytes": 978560127,
+    "limit_bytes": 1000000000,
+    "current_pdf_paths_preserved": 11
+  },
+  "next_action": "Complete full/coast/publication validation, independent final-artifact review and anonymous release-file verification before publishing.",
+  "research": {
+    "videos_bytes": 108625580,
+    "video_files": 14,
+    "projected_after_video_offload_bytes": 869934547,
+    "existing_release_video_assets": 0,
+    "webp_sample": {
+      "files": 20,
+      "saved_bytes": 17735256,
+      "rgba_exact": true,
+      "png_provenance_chunks_not_transferable": true
+    },
+    "remaining_duplicate_savings_under_bytes": 2000000
+  },
+  "decision": "Founder: Use existing GitHub for now. Preserve PDFs on website, move unchanged video delivery to versioned GitHub release after verification.",
+  "trial": {
+    "browser": "Chrome",
+    "video": "koeli-listening-motion-v1.mp4",
+    "playback": "readyState 4, duration 8, currentTime advancing",
+    "seek": "UI seek to 3 seconds passed",
+    "captions": "Both tracks loaded; English and Odia cues visibly rendered after native seek.",
+    "website_changes": false
+  },
+  "receipt_merge": {
+    "pr": 731,
+    "merge_commit": "b94cfe537eccb42a3dabdffbbac2b0e88f4b8404",
+    "merged_at": "2026-11-08T18:09:02Z",
+    "validation_run": 42507138549,
+    "validation": "success"
+  },
+  "source_review": "records/evidence/hosting-capacity-20261108/source-review.json",
+  "media_verification": {
+    "evidence": "records/evidence/hosting-capacity-20261108/media-http-verification.json",
+    "assets": 14,
+    "bytes": 108625580,
+    "all_sha256_match": true,
+    "exact_206_ranges": 42
+  },
+  "validation": {
+    "source_review": "pass",
+    "full_tests": 744,
+    "full_disclosures": "pass",
+    "coast_and_publication": "in_progress"
+  }
+}
