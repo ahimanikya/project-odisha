@@ -9666,19 +9666,22 @@
       "id": "POD-WORK-332",
       "title": "Patrapoda: leaf parcels and distinct cooking methods",
       "category": "website_and_knowledge",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Implement reviewed draft, verify and publish; retain claim through receipt integration.",
+      "next_action": "Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit.",
       "blockers": [],
       "refs": [
         "POD-DEC-225"
       ],
       "evidence": [
-        "records/patrapoda-editorial-2026-11-08.json"
-      ]
+        "records/patrapoda-editorial-2026-11-08.json",
+        "records/patrapoda-editorial-publication-2026-11-08.json",
+        "records/patrapoda-delivery-review-2026-11-08.json"
+      ],
+      "completed_at": "2026-11-07T23:57:05.918Z"
     }
   ],
   "decisions": [
@@ -23525,6 +23528,36 @@
         "Live acceptance is not materialized receipt or completed programme registration approval.",
         "Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata."
       ]
+    },
+    {
+      "id": "POD-REV-2026110802",
+      "title": "Patrapoda separate source, implementation and live review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "reviewed_head": "e1992f566cb0854519c02e227e45814f82504029",
+      "refs": [
+        "POD-WORK-332"
+      ],
+      "evidence": [
+        "records/patrapoda-delivery-review-2026-11-08.json"
+      ],
+      "limitations": [
+        "Two attributed preparations, not origin chronology or statewide/medical claims.",
+        "Separate AI review, no human review invented.",
+        "No full copyrighted source capture published.",
+        "358publicDhaga/7localproposals;zeroDhaga credit.",
+        "AI-only review, not human editorial review or independent assistive-technology testing.",
+        "Point-in-time saved Chrome evidence; no Firefox/WebKit or new live-browser run.",
+        "Public whole-page HTML differs from historical local dist-coast due to publication shell, journey optimization, responsive assets and other-owner additions; no whole old catalogue equality claim.",
+        "Responsive images visibly decoded; exact base photograph proven through HTML download bytes, not responsive variant byte identity.",
+        "Live PASS does not approve an unwritten materialized receipt, grant completion credit or release finite receipt ownership. Separate actual receipt and committed-head review remain required.",
+        "No canonical/Git changes, builds or source retrieval performed.",
+        "Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata."
+      ]
     }
   ],
   "releases": [
@@ -27541,6 +27574,21 @@
       ],
       "evidence": [
         "records/tomato-poda-editorial-publication-2026-11-07.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026110802",
+      "title": "Patrapoda: leaf parcels and distinct cooking methods",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/patrapoda/",
+      "refs": [
+        "POD-WORK-332",
+        "POD-REV-2026110802",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/patrapoda-editorial-publication-2026-11-08.json"
       ]
     }
   ],
