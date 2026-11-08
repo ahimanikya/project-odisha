@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-08T17:41:53.482112+00:00",
+  "result": "PASS after narrow registration fix",
+  "checks": [
+    "registers",
+    "article_rollout",
+    "research reindex",
+    "editorial_workbench",
+    "catalogue",
+    "autonomous_program",
+    "team_assignments",
+    "research_map",
+    "bundle",
+    "diff whitespace"
+  ],
+  "historical_failures": [
+    {
+      "check": "registers",
+      "issue": "New activity refs initially included A500/EDIT identifiers outside register-ID namespace",
+      "remedy": "Only WORK335/DEC225 in refs; explicit article_id/programme_id fields retain cross-register references."
+    },
+    {
+      "check": "registers --check",
+      "issue": "Dashboard checksum stale after restoration of historical activity-line bytes",
+      "remedy": "Regenerated dashboard; registers --check and programme/team checks passed."
+    }
+  ],
+  "preservation": "Historical activity lines restored byte-for-byte; new event appended. No other record objects modified except registered article/programme/shared ownership and regenerated views.",
+  "programme_completed": 143,
+  "credit": 0
+}

@@ -1,0 +1,293 @@
+{
+  "status": "PASS",
+  "scope": "CANONICAL_INTEGRATED_BUILD_VERIFICATION",
+  "input_head": "ba9cb0987ffb6a04bacbac6e73dce2d371eeffbd",
+  "actual_head_at_freeze": "ba9cb0987ffb6a04bacbac6e73dce2d371eeffbd",
+  "checked_at": "2026-11-08T17:51:57.398223+00:00",
+  "tests": {
+    "full": 744,
+    "coast": 587,
+    "builds": [
+      "full",
+      "coast",
+      "publication"
+    ],
+    "three_stage_PDF_and_character_image_identity": "PASS",
+    "three_disclosures": "PASS",
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 977898860,
+      "regular_files": 2884,
+      "directories": 719,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 86579,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+          "bytes": 110419594
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-08-daman-team.pdf",
+          "bytes": 51419386
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-08-daman-team.pdf",
+          "bytes": 38850788
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "characters/films/nilu-hold-this-end/first-cut-v1/hold-this-end-first-cut-v1.mp4",
+          "bytes": 11509012
+        },
+        {
+          "path": "characters/films/nilu-hold-this-end/revised-cut-v2/hold-this-end-revised-cut-v2.mp4",
+          "bytes": 11426010
+        },
+        {
+          "path": "characters/films/malati-stay-a-moment/first-cut-v1/sit-a-little-longer-first-cut-v1.mp4",
+          "bytes": 10111493
+        },
+        {
+          "path": "characters/films/dinu-wait-a-moment/first-cut-v1/wait-a-moment-first-cut-v1.mp4",
+          "bytes": 10070589
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "new_delivery_source_words": 177,
+    "browser_reuse": "Actual prior1440/390 screenshots/interactions/fourdownloads reused only after exact article/catalogue/photo parity; external new book delivery changes remain separately tested."
+  },
+  "browser_original": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/integration-fixture/browser-run1/report.json",
+    "sha256": "2a7f71e11da61868fbde58cda6ab0ac184ab3a442559a67e74b158d269e76949",
+    "bytes": 1801
+  },
+  "parity": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/parity.json",
+    "sha256": "18396d9bfb158f7cbe35faabee2875b63584fc1b556da46180f4ec0f1088f211",
+    "bytes": 2371
+  },
+  "owner729_changes_preserved": true,
+  "exact12payloads": true,
+  "history": [
+    "First output-only parity script addressed installation manifest as targets instead of actual files; KeyError and original script retained. Corrected parser with identical exact-hash assertions passed; no product changes or build rerun."
+  ],
+  "limits": [
+    "No deployment/live verification or human review claim. Root owns canonical registration, Git, CI and publication.",
+    "Existing fixture browser1440/390 and four UI downloads reused after exact integrated article/catalogue/photo parity; no unnecessary duplicate browser run.",
+    "Source177 is current delivery; retained historical research is not claimed source-free. Generated pointer remains original navigation text.",
+    "Prior fixture843388683-byte payload is historical; current exact bytes above include owner729 direct PDFs and image deduplication."
+  ],
+  "manifest": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/manifest.json",
+    "sha256": "b8de00ba030a613e3627be2cadb28df7ce5af4847bf4cc6f618fdb1a2b63c4c3",
+    "bytes": 11853
+  },
+  "bindings": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/build-coast.log",
+      "sha256": "1e3efe81e433428f0e78a144130f4d2b6138ef033af50f65210fb8ccf0a232f1",
+      "bytes": 51299
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/build-full.log",
+      "sha256": "ac8e3b2d8893afb637fa9f9f53c9a5087859bf6f856251206ed0af68b278a490",
+      "bytes": 50974
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/build-publication.log",
+      "sha256": "cdff4f69fed10cf36f87f2b54ef8297199ec370fefa49d29358558ceac682ea5",
+      "bytes": 303
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/disclosure-coast.log",
+      "sha256": "018b8fa53d83c76950fc3d6a83d3d4e33f784ac535c6fb1fd9bb2170f7c50c30",
+      "bytes": 212
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/disclosure-full.log",
+      "sha256": "1e6c0e63ec2f66fde0bc05574b2ca66f9926bcc76bbcfac2cb30d06cf70b556e",
+      "bytes": 206
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/disclosure-publication.log",
+      "sha256": "32e3da59163dc564846abc741cee7eb6edc75e17581e35dacb64ecc00c11fbb2",
+      "bytes": 214
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/identities-coast.log",
+      "sha256": "c8037ed3c25da16a21b88c85b578a4a36d4054872b4abf0d392cc0c1336df477",
+      "bytes": 988
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/identities-full.log",
+      "sha256": "eb3ba18c58c7fb664873cc637ee9234b073fc9537d0fe8535bfb4944ac2bc8bc",
+      "bytes": 956
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/identities-publication.log",
+      "sha256": "dc433c99b0cd7951453cd89d2bee61d2e77e675d6d5e7948fe2b001dc3561fcc",
+      "bytes": 992
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/parity-check-corrected.log",
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+      "bytes": 5
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/parity-check.log",
+      "sha256": "0a78dbafbc1f960b7f8001cab1977f767643c827eb3fb0552d69105cd472b3b3",
+      "bytes": 356
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/payload-check.log",
+      "sha256": "d30404383b2e22a091ff10a6bca53f2f3d972d6ba3c20cd8f7582ca4d593b7a7",
+      "bytes": 1606
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/test-coast.log",
+      "sha256": "6c5db3fee176571daaa61782ee3cf1af7d890829f335c350f28d2e76e8989591",
+      "bytes": 60990
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/test-full.log",
+      "sha256": "66da2440510aab7b7f00a11ad0d7decae0ca0fe754d6af615f38840fafa97236",
+      "bytes": 67134
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/gates.json",
+      "sha256": "97eaf15d5533a6d97c8a759b79791b72f26341e8321da17267f3a07ac2a3bb35",
+      "bytes": 5241
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/parity.json",
+      "sha256": "18396d9bfb158f7cbe35faabee2875b63584fc1b556da46180f4ec0f1088f211",
+      "bytes": 2371
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/pipeline.py",
+      "sha256": "c12c1875933d5254a0364ad8f0c3c77f90d9e944863f7324789d8ec40950cab8",
+      "bytes": 2280
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/verify-parity.py",
+      "sha256": "07834a21112e9488755959f4588a9e21622741984b8486678f449a210f6a4572",
+      "bytes": 2537
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/canonical-integration/verify-parity-before-manifest-key-fix.py",
+      "sha256": "3b7e9db2f0698202c3d5415f7523b024b2b9633601b320882e84f1d8fe679a91",
+      "bytes": 2539
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/integration-fixture/report.json",
+      "sha256": "3f89ab86dc6a95303dc7ee54c5c0498c77daddc58fa3802d5c949ae3218b1e7f",
+      "bytes": 17830
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/integration-fixture/manifest.json",
+      "sha256": "da69b254b5851919797703abea01fd5671e50225d1f2b133ec6189d8f1d5a58b",
+      "bytes": 15208
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/integration-fixture/browser-run1/report.json",
+      "sha256": "2a7f71e11da61868fbde58cda6ab0ac184ab3a442559a67e74b158d269e76949",
+      "bytes": 1801
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/integration-fixture/final-checks.json",
+      "sha256": "e143b8540d7e72343e3587d88434434720d1cd102f9771618fe86acebf87da23",
+      "bytes": 2353
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/sambalpuri-bandha-editorial-2026-11-08/samanta/integration-fixture/sibling-parity.json",
+      "sha256": "563d7fbe7ec10604eaf53c48eeed0329223be65861911b188e90aca81341485a",
+      "bytes": 447
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/culture/textile-stories.json",
+      "sha256": "8a8dc13f298f2239903d3e028237edd17072051cb3bfb3c20acfa76a62940358",
+      "bytes": 35425
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/culture/sambalpuri-bandha-editorial.json",
+      "sha256": "d05a2749cdb4058f577297af93ccbada7ea521c20d2558b53e777562d195383d",
+      "bytes": 3044
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/handlooms/sambalpuri-bandha.md",
+      "sha256": "fd083ff0466743ddecfe432739b5b5ed5bafc340646935f6de34c26d5bce0987",
+      "bytes": 4891
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/coastal-page-descriptions.json",
+      "sha256": "68354b05f2d745e1aaf77b2a58c33555cdd530021e0dd100eb402248a390a335",
+      "bytes": 12681
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/components/BandhaArticle.astro",
+      "sha256": "f36446143b28b6f42c4c998a7b3d8fe23dfaa6c19a21699c1bd52fa74f3dc131",
+      "bytes": 4005
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/pages/textiles/[slug].astro",
+      "sha256": "5c2eb74770d908d9ee0db327dc389e670420bcad3f84e3849282bf848c8e0a72",
+      "bytes": 894
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/data/journey-catalog.ts",
+      "sha256": "910aee523507c410092383f1bf54966914a4221fbd6f7ace22d99fc7390fd390",
+      "bytes": 41901
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/data/discovery.ts",
+      "sha256": "bba272a21c7ad9187b45d42666fd2f08c4f2d9150114c35c2ba28bcd48158a63",
+      "bytes": 19418
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/src/lib/tour-book.mjs",
+      "sha256": "bffa2f4d1126adaddf19b866058a9af4427f1d35437786c59a44a8d37ba982bf",
+      "bytes": 15011
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests/bandha-portable.test.mjs",
+      "sha256": "a339896bfeea32ec0fec5b764a6a70a5ef04ce46ace792f2b295b2808fccc097",
+      "bytes": 3412
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/bandha-editorial.test.mjs",
+      "sha256": "c95e67ec95456de6da75701e009e66dfe0ad764e96e15190ec33eac03070e69a",
+      "bytes": 2737
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/tests-coast/textiles.test.mjs",
+      "sha256": "b830e55ba975fe5e0f6d842ce33d708094963bf8ecb3bfb2d1484d2edb1a1e0e",
+      "bytes": 4159
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/textiles/sambalpuri-bandha/index.html",
+      "sha256": "eef55fab53f4734f1e1291313ec79cc1575ead62c359c18a76e932ed21f186d1",
+      "bytes": 20896
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/textiles/index.html",
+      "sha256": "f3890103fa12adef430ea8e265e95730535d5ce3a8995ed8543d2f28d06cd1f2",
+      "bytes": 28697
+    }
+  ],
+  "scope_released": true
+}

@@ -1,7 +1,11 @@
 ---
+import BandhaArticle from '../../components/BandhaArticle.astro';
+import editorial from '../../../../../kb/research/culture/sambalpuri-bandha-editorial.json';
+import Shell from '../../layouts/Shell.astro';
+import {allowsPage} from '../../data/edition';
 import TextileStory from '../../components/TextileStory.astro';
 import data from '../../../../../kb/research/culture/textile-stories.json';
 export function getStaticPaths(){return data.pages.filter(p=>p.href.startsWith('/textiles/')).map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
 ---
-<TextileStory entry={entry}/>
+{entry.slug==='sambalpuri-bandha'?<Shell title={entry.title} description={editorial.metadata_description} active="explore" wide related={false}><BandhaArticle entry={entry} assets={data.assets} editorial={editorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>:<TextileStory entry={entry}/>}
