@@ -1,6 +1,6 @@
 {
   "id": "POD-DONGRIA-DOWNLOAD-20261108",
-  "status": "implementation",
+  "status": "published_verified",
   "authorization": "User asked to fix website book download reliability.",
   "scope": "Serve identical reviewed PDF through existing same-origin /archive document path; retain release backup. Correct already-authorized dinner-party wording in remaining book preview sentence.",
   "reserved_files": {
@@ -21,5 +21,28 @@
   "pdf_sha256": "b03a61635aaddfe48b5320a9c3defc26fe00a707d7e8765045b71c1321d3fb00",
   "bytes": 17689084,
   "programme_credit": 0,
-  "publication": false
+  "publication": true,
+  "reviewed_head": "96ec01f8dac4a9e5f8c27ffbe9672828744556d4",
+  "pull_request": 723,
+  "merge_commit": "b690119fccfab5dd481c9d52e350f7344f88f6e1",
+  "validation_run": 42488155826,
+  "deployment_run": 42489389888,
+  "deployment_result": "success",
+  "live_url": "https://projectodisha.org/archive/dongria-kondh-public-reading.pdf",
+  "verified_at": "2026-11-08T14:34:22.917142+00:00",
+  "verification": {
+    "anonymous_get": 200,
+    "redirects": false,
+    "content_type": "application/pdf",
+    "full_bytes_hash_match": true,
+    "partial_get": 206,
+    "both_entrances_verified": true,
+    "builds": "full/coastal/publication pass",
+    "focused_tests": 15,
+    "payload_bytes": 754556363,
+    "review": "Separate source/build review pass; live Chrome actual primary-link click opens native PDF viewer with cover and1/84pages."
+  },
+  "maintenance": "Future book updates must replace the checked-in archive PDF and descriptor hash/bytes together; integrity tests reject mismatches. Historical release asset retained as backup.",
+  "evidence": "kb/records/evidence/dongria-download-20261108",
+  "file_reservations_released": true
 }

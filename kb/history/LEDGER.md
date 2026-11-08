@@ -1464,3 +1464,13 @@ Verified Hardenberg’s attributed Kuang Kata name and named teachers against or
 ### 8 November 2026 · Dongria language chapter and public book published
 
 PR722 merged after validated head cd1a9db4; deployment42468942531 succeeded on retry after an unrelated GitHub download timeout. Live language page and book link checked; uploaded84-page PDF matches reviewed hash b03a6163… and retains99compact notes. New passages centre named language teachers and preserve regional/resource limits. Private editions unchanged. [Receipt](../records/dongria-language-20261108.json).
+
+
+### 8 November 2026 · Reliable Dongria book delivery
+
+PR723 and deployment42489389888 serve the unchanged reviewed book directly from the website archive. Both entrances verified; anonymous HTTP200 complete download matches exact17,689,084bytes and reviewed hash, HTTP206range supported. Existing release retained as backup. One remaining dinner-party preview sentence aligned with earlier user direction. No book content or layout rebuild. [Receipt](../records/dongria-download-20261108.json).
+
+
+## 8 November 2026 · Pattachitra implementation
+
+Registered POD-WORK-334 / POD-A500-143 / POD-EDIT-121 for the separately reviewed preparation and narrative-practice account. Preserved the completed Dongria direct-download receipt unchanged, installed the guarded Pattachitra package, and retained both photographs, reading paths and historical source records. Runtime testing required a route-specific neutral discovery description and two updated prose expectations. Publication and completion credit remain pending separate final review and actual delivery.
