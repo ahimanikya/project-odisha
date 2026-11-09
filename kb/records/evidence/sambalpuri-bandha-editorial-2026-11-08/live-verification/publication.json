@@ -1,0 +1,229 @@
+{
+  "conclusion": "success",
+  "createdAt": "2026-11-08T19:04:12Z",
+  "databaseId": 42513130709,
+  "event": "workflow_dispatch",
+  "headSha": "59e201228a0442e42020a27dd56d5d1cf2992522",
+  "jobs": [
+    {
+      "completedAt": "2026-11-08T19:18:37Z",
+      "conclusion": "success",
+      "databaseId": 128830304734,
+      "name": "build",
+      "startedAt": "2026-11-08T19:04:15Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-08T19:04:17Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-08T19:04:16Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:05:45Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v6",
+          "number": 2,
+          "startedAt": "2026-11-08T19:04:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:05:50Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@v7",
+          "number": 3,
+          "startedAt": "2026-11-08T19:05:45Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:05:51Z",
+          "conclusion": "success",
+          "name": "Run actions/configure-pages@v6",
+          "number": 4,
+          "startedAt": "2026-11-08T19:05:50Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:06:10Z",
+          "conclusion": "success",
+          "name": "Run npm ci",
+          "number": 5,
+          "startedAt": "2026-11-08T19:05:51Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:06:11Z",
+          "conclusion": "success",
+          "name": "Verify release PDF delivery guards",
+          "number": 6,
+          "startedAt": "2026-11-08T19:06:10Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:06:14Z",
+          "conclusion": "success",
+          "name": "Hydrate exact reviewed Dhaga release PDF",
+          "number": 7,
+          "startedAt": "2026-11-08T19:06:11Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:07:42Z",
+          "conclusion": "success",
+          "name": "Run npm run build",
+          "number": 8,
+          "startedAt": "2026-11-08T19:06:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:07:45Z",
+          "conclusion": "success",
+          "name": "Run node tools/check-public-disclosures.mjs dist",
+          "number": 9,
+          "startedAt": "2026-11-08T19:07:42Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:08:41Z",
+          "conclusion": "success",
+          "name": "Run npm test",
+          "number": 10,
+          "startedAt": "2026-11-08T19:07:45Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:10:27Z",
+          "conclusion": "success",
+          "name": "Run npm run build:coast",
+          "number": 11,
+          "startedAt": "2026-11-08T19:08:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:10:30Z",
+          "conclusion": "success",
+          "name": "Run node tools/check-public-disclosures.mjs dist-coast",
+          "number": 12,
+          "startedAt": "2026-11-08T19:10:27Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:10:53Z",
+          "conclusion": "success",
+          "name": "Run npm run test:coast",
+          "number": 13,
+          "startedAt": "2026-11-08T19:10:30Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:05Z",
+          "conclusion": "success",
+          "name": "Run npm run build:publication",
+          "number": 14,
+          "startedAt": "2026-11-08T19:10:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:06Z",
+          "conclusion": "success",
+          "name": "Run node tools/check-public-disclosures.mjs dist-publish",
+          "number": 15,
+          "startedAt": "2026-11-08T19:18:05Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:06Z",
+          "conclusion": "success",
+          "name": "Check Pages payload before upload",
+          "number": 16,
+          "startedAt": "2026-11-08T19:18:06Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:34Z",
+          "conclusion": "success",
+          "name": "Run actions/upload-pages-artifact@v5",
+          "number": 17,
+          "startedAt": "2026-11-08T19:18:06Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:34Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@v7",
+          "number": 33,
+          "startedAt": "2026-11-08T19:18:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:34Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v6",
+          "number": 34,
+          "startedAt": "2026-11-08T19:18:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:18:34Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 35,
+          "startedAt": "2026-11-08T19:18:34Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42513130709/job/128830304734"
+    },
+    {
+      "completedAt": "2026-11-08T19:19:08Z",
+      "conclusion": "success",
+      "databaseId": 128834084181,
+      "name": "deploy",
+      "startedAt": "2026-11-08T19:18:40Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-08T19:18:41Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-08T19:18:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:19:06Z",
+          "conclusion": "success",
+          "name": "Publish approved website",
+          "number": 2,
+          "startedAt": "2026-11-08T19:18:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:19:06Z",
+          "conclusion": "skipped",
+          "name": "Record Pages status after deployment failure",
+          "number": 3,
+          "startedAt": "2026-11-08T19:19:06Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-08T19:19:06Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 4,
+          "startedAt": "2026-11-08T19:19:06Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42513130709/job/128834084181"
+    }
+  ],
+  "status": "completed",
+  "updatedAt": "2026-11-08T19:19:08Z",
+  "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42513130709",
+  "workflowName": "Publish Project Odisha",
+  "completedAt": "2026-11-08T19:19:08Z",
+  "completedAt_evidence": "Maximum actual completedAt of publication workflow jobs"
+}

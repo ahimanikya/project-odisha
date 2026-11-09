@@ -1,0 +1,1302 @@
+{
+  "checked_utc": "2026-11-08T18:09:18.989924+00:00",
+  "manifest": "projects/characters/video-delivery.json",
+  "release_tag": "character-media-2026-11-08",
+  "api_status": {
+    "curl_exit": 0,
+    "error": null,
+    "status_chain": [
+      "HTTP/2 200 "
+    ],
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "accept-ranges": "bytes"
+    }
+  },
+  "results": [
+    {
+      "name": "around-the-stone-edition-v3.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/around-the-stone-edition-v3.mp4",
+      "expected_bytes": 9672636,
+      "expected_sha256": "cc2607cfe212ca65fde01e01cb7dece2facad1449fc93c8984032e2d844c5e99",
+      "api": {
+        "id": 724766026,
+        "size": 9672636,
+        "digest": "sha256:cc2607cfe212ca65fde01e01cb7dece2facad1449fc93c8984032e2d844c5e99",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "9672636"
+        }
+      },
+      "actual_bytes": 9672636,
+      "actual_sha256": "cc2607cfe212ca65fde01e01cb7dece2facad1449fc93c8984032e2d844c5e99",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/9672636",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/9672636",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 4836318-4836333/9672636",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 4836318,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 4836318-4836333/9672636",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 9672620-9672635/9672636",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 9672620,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 9672620-9672635/9672636",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "my-story-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/my-story-first-cut-v1.mp4",
+      "expected_bytes": 7219277,
+      "expected_sha256": "febf69104c26ce0a2f91eb9a290f199edc37453f87ab121e4dd62de190bc3aa7",
+      "api": {
+        "id": 724766033,
+        "size": 7219277,
+        "digest": "sha256:febf69104c26ce0a2f91eb9a290f199edc37453f87ab121e4dd62de190bc3aa7",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "7219277"
+        }
+      },
+      "actual_bytes": 7219277,
+      "actual_sha256": "febf69104c26ce0a2f91eb9a290f199edc37453f87ab121e4dd62de190bc3aa7",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/7219277",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/7219277",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 3609638-3609653/7219277",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 3609638,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 3609638-3609653/7219277",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 7219261-7219276/7219277",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 7219261,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 7219261-7219276/7219277",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "small-bundle-bilingual-sound-study-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/small-bundle-bilingual-sound-study-v1.mp4",
+      "expected_bytes": 7491125,
+      "expected_sha256": "52d5a2f9cbefe961a939b8842e722a382f576e939f3ff55c00cb63e2edc1ee2f",
+      "api": {
+        "id": 724766031,
+        "size": 7491125,
+        "digest": "sha256:52d5a2f9cbefe961a939b8842e722a382f576e939f3ff55c00cb63e2edc1ee2f",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "7491125"
+        }
+      },
+      "actual_bytes": 7491125,
+      "actual_sha256": "52d5a2f9cbefe961a939b8842e722a382f576e939f3ff55c00cb63e2edc1ee2f",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/7491125",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/7491125",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 3745562-3745577/7491125",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 3745562,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 3745562-3745577/7491125",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 7491109-7491124/7491125",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 7491109,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 7491109-7491124/7491125",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "around-the-stone-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/around-the-stone-first-cut-v1.mp4",
+      "expected_bytes": 7527110,
+      "expected_sha256": "478816a40b1a565cb74f1025f3069401ff498d4186aba06f05a99f72b9df9763",
+      "api": {
+        "id": 724766028,
+        "size": 7527110,
+        "digest": "sha256:478816a40b1a565cb74f1025f3069401ff498d4186aba06f05a99f72b9df9763",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "7527110"
+        }
+      },
+      "actual_bytes": 7527110,
+      "actual_sha256": "478816a40b1a565cb74f1025f3069401ff498d4186aba06f05a99f72b9df9763",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/7527110",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/7527110",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 3763555-3763570/7527110",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 3763555,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 3763555-3763570/7527110",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 7527094-7527109/7527110",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 7527094,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 7527094-7527109/7527110",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "wait-a-moment-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/wait-a-moment-first-cut-v1.mp4",
+      "expected_bytes": 10070589,
+      "expected_sha256": "5d210e41b120fb6f6ffe3662e1dc3093d334bbe9427a601080b941adba976f50",
+      "api": {
+        "id": 724766112,
+        "size": 10070589,
+        "digest": "sha256:5d210e41b120fb6f6ffe3662e1dc3093d334bbe9427a601080b941adba976f50",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "10070589"
+        }
+      },
+      "actual_bytes": 10070589,
+      "actual_sha256": "5d210e41b120fb6f6ffe3662e1dc3093d334bbe9427a601080b941adba976f50",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/10070589",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/10070589",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 5035294-5035309/10070589",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 5035294,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 5035294-5035309/10070589",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 10070573-10070588/10070589",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 10070573,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 10070573-10070588/10070589",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "around-the-stone-revised-cut-v2.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/around-the-stone-revised-cut-v2.mp4",
+      "expected_bytes": 8601273,
+      "expected_sha256": "e1b119e49592a44a060cf0545a257eba2b390558345a32652f1685affe246a44",
+      "api": {
+        "id": 724766029,
+        "size": 8601273,
+        "digest": "sha256:e1b119e49592a44a060cf0545a257eba2b390558345a32652f1685affe246a44",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "8601273"
+        }
+      },
+      "actual_bytes": 8601273,
+      "actual_sha256": "e1b119e49592a44a060cf0545a257eba2b390558345a32652f1685affe246a44",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/8601273",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/8601273",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 4300636-4300651/8601273",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 4300636,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 4300636-4300651/8601273",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 8601257-8601272/8601273",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 8601257,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 8601257-8601272/8601273",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "that-little-sound-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/that-little-sound-first-cut-v1.mp4",
+      "expected_bytes": 6046312,
+      "expected_sha256": "a1c5434789fac3a542061475907229c1bd62fbd98e9e550dcedac99c4a207fae",
+      "api": {
+        "id": 724766121,
+        "size": 6046312,
+        "digest": "sha256:a1c5434789fac3a542061475907229c1bd62fbd98e9e550dcedac99c4a207fae",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "6046312"
+        }
+      },
+      "actual_bytes": 6046312,
+      "actual_sha256": "a1c5434789fac3a542061475907229c1bd62fbd98e9e550dcedac99c4a207fae",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/6046312",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/6046312",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 3023156-3023171/6046312",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 3023156,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 3023156-3023171/6046312",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 6046296-6046311/6046312",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 6046296,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 6046296-6046311/6046312",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "koeli-listening-motion-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/koeli-listening-motion-v1.mp4",
+      "expected_bytes": 898284,
+      "expected_sha256": "ad4cf1caef37f96f6e6f07df5660f9720e87bcc862076dca0d789142f767cc8a",
+      "api": {
+        "id": 724745518,
+        "size": 898284,
+        "digest": "sha256:ad4cf1caef37f96f6e6f07df5660f9720e87bcc862076dca0d789142f767cc8a",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "898284"
+        }
+      },
+      "actual_bytes": 898284,
+      "actual_sha256": "ad4cf1caef37f96f6e6f07df5660f9720e87bcc862076dca0d789142f767cc8a",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/898284",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/898284",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 449142-449157/898284",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 449142,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 449142-449157/898284",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 898268-898283/898284",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 898268,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 898268-898283/898284",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "sit-a-little-longer-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/sit-a-little-longer-first-cut-v1.mp4",
+      "expected_bytes": 10111493,
+      "expected_sha256": "b649e32419b72577d918adff3b95c4a98ee2a1d21f4aba720ed451a3147b9f3a",
+      "api": {
+        "id": 724766128,
+        "size": 10111493,
+        "digest": "sha256:b649e32419b72577d918adff3b95c4a98ee2a1d21f4aba720ed451a3147b9f3a",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "10111493"
+        }
+      },
+      "actual_bytes": 10111493,
+      "actual_sha256": "b649e32419b72577d918adff3b95c4a98ee2a1d21f4aba720ed451a3147b9f3a",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/10111493",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/10111493",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 5055746-5055761/10111493",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 5055746,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 5055746-5055761/10111493",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 10111477-10111492/10111493",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 10111477,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 10111477-10111492/10111493",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "sit-a-little-longer-revised-cut-v2.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/sit-a-little-longer-revised-cut-v2.mp4",
+      "expected_bytes": 9591027,
+      "expected_sha256": "51fa9a68525a8d394b6fb422c39c9b6e47fc144c0001bb2e25795bc1981feaec",
+      "api": {
+        "id": 724766129,
+        "size": 9591027,
+        "digest": "sha256:51fa9a68525a8d394b6fb422c39c9b6e47fc144c0001bb2e25795bc1981feaec",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "9591027"
+        }
+      },
+      "actual_bytes": 9591027,
+      "actual_sha256": "51fa9a68525a8d394b6fb422c39c9b6e47fc144c0001bb2e25795bc1981feaec",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/9591027",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/9591027",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 4795513-4795528/9591027",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 4795513,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 4795513-4795528/9591027",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 9591011-9591026/9591027",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 9591011,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 9591011-9591026/9591027",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "hold-this-end-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/hold-this-end-first-cut-v1.mp4",
+      "expected_bytes": 11509012,
+      "expected_sha256": "ff54e375c2a2183009daa55ed55e1fcd4b0aa4e90c35ada98b23351153b6101c",
+      "api": {
+        "id": 724766133,
+        "size": 11509012,
+        "digest": "sha256:ff54e375c2a2183009daa55ed55e1fcd4b0aa4e90c35ada98b23351153b6101c",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "11509012"
+        }
+      },
+      "actual_bytes": 11509012,
+      "actual_sha256": "ff54e375c2a2183009daa55ed55e1fcd4b0aa4e90c35ada98b23351153b6101c",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/11509012",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/11509012",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 5754506-5754521/11509012",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 5754506,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 5754506-5754521/11509012",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 11508996-11509011/11509012",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 11508996,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 11508996-11509011/11509012",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "hold-this-end-motion-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/hold-this-end-motion-v1.mp4",
+      "expected_bytes": 1541600,
+      "expected_sha256": "985e103424fdb663fa4d4821e30d12e9073b70bcb53bb2f156f99b11d6b18715",
+      "api": {
+        "id": 724766179,
+        "size": 1541600,
+        "digest": "sha256:985e103424fdb663fa4d4821e30d12e9073b70bcb53bb2f156f99b11d6b18715",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "1541600"
+        }
+      },
+      "actual_bytes": 1541600,
+      "actual_sha256": "985e103424fdb663fa4d4821e30d12e9073b70bcb53bb2f156f99b11d6b18715",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/1541600",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/1541600",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 770800-770815/1541600",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 770800,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 770800-770815/1541600",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 1541584-1541599/1541600",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 1541584,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 1541584-1541599/1541600",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "hold-this-end-revised-cut-v2.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/hold-this-end-revised-cut-v2.mp4",
+      "expected_bytes": 11426010,
+      "expected_sha256": "b4c3355346f0683561a519ab7f6cfbb081510e28c87babb0a7d2ce0abb3ca028",
+      "api": {
+        "id": 724766188,
+        "size": 11426010,
+        "digest": "sha256:b4c3355346f0683561a519ab7f6cfbb081510e28c87babb0a7d2ce0abb3ca028",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "11426010"
+        }
+      },
+      "actual_bytes": 11426010,
+      "actual_sha256": "b4c3355346f0683561a519ab7f6cfbb081510e28c87babb0a7d2ce0abb3ca028",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/11426010",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/11426010",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 5713005-5713020/11426010",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 5713005,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 5713005-5713020/11426010",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 11425994-11426009/11426010",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 11425994,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 11425994-11426009/11426010",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "where-did-the-donkey-first-cut-v1.mp4",
+      "url": "https://github.com/ahimanikya/project-odisha/releases/download/character-media-2026-11-08/where-did-the-donkey-first-cut-v1.mp4",
+      "expected_bytes": 6919832,
+      "expected_sha256": "de03da69329dac0ab7f27ed997ad25f8e41e3000aeac3949fa9b0cee2b2f8607",
+      "api": {
+        "id": 724766246,
+        "size": 6919832,
+        "digest": "sha256:de03da69329dac0ab7f27ed997ad25f8e41e3000aeac3949fa9b0cee2b2f8607",
+        "matches": true
+      },
+      "full_get": {
+        "curl_exit": 0,
+        "error": null,
+        "status_chain": [
+          "HTTP/2 302 ",
+          "HTTP/2 200 "
+        ],
+        "headers": {
+          "accept-ranges": "bytes",
+          "content-type": "application/octet-stream",
+          "content-length": "6919832"
+        }
+      },
+      "actual_bytes": 6919832,
+      "actual_sha256": "de03da69329dac0ab7f27ed997ad25f8e41e3000aeac3949fa9b0cee2b2f8607",
+      "full_match": true,
+      "ranges": [
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 0-15/6919832",
+            "content-length": "16"
+          },
+          "position": "first",
+          "start": 0,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 0-15/6919832",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 3459916-3459931/6919832",
+            "content-length": "16"
+          },
+          "position": "middle",
+          "start": 3459916,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 3459916-3459931/6919832",
+          "passed": true
+        },
+        {
+          "curl_exit": 0,
+          "error": null,
+          "status_chain": [
+            "HTTP/2 302 ",
+            "HTTP/2 206 "
+          ],
+          "headers": {
+            "accept-ranges": "bytes",
+            "content-type": "application/octet-stream",
+            "content-range": "bytes 6919816-6919831/6919832",
+            "content-length": "16"
+          },
+          "position": "tail",
+          "start": 6919816,
+          "received_bytes": 16,
+          "matches_original_slice": true,
+          "expected_content_range": "bytes 6919816-6919831/6919832",
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "HTTP/body integrity and range verification only; no browser playback claim.",
+    "Release assets mutable: verification describes observed bytes on this date."
+  ],
+  "summary": {
+    "completed": 14,
+    "passed": 14,
+    "full_body_verified_bytes": 108625580
+  }
+}

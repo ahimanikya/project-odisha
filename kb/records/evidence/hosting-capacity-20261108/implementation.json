@@ -1,0 +1,24 @@
+{
+  "status": "source_verified_awaiting_build_and_remaining_asset_upload",
+  "changed_html_files": 39,
+  "changed_attributes": {
+    "source_src": 72,
+    "anchor_href": 27
+  },
+  "source_media_retained": 14,
+  "media_bytes": 108625580,
+  "coast_downloads_removed": 14,
+  "manifest": "projects/characters/video-delivery.json",
+  "tests": {
+    "command": "VIDEO_DELIVERY_STAGE=source node --test tests/video-delivery.test.mjs",
+    "passed": 2,
+    "built_stage_explicitly_skipped": 1
+  },
+  "preservation": "All39 HTML source bytes reconstruct exactly after reversing only99 URL substitutions; all14 original media hashes and bytes verified. PDFs unchanged.",
+  "guidance": {
+    "guide": "performance",
+    "source": "/tmp/hosting-performance-guidance.md",
+    "quote": "**DO use `preload=\"none\"` for non-critical videos**: Delay bandwidth consumption for below-the-fold or non-autoplaying videos.",
+    "application": "Retained every existing preload value, caption track, poster, native control and playsinline attribute; no extra media prefetch."
+  }
+}

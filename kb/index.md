@@ -29,9 +29,11 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+[Hosting capacity](records/hosting-capacity-20261108.json): published and verified using existing GitHub. Fourteen unchanged videos now use release delivery, removing108.6MB from the website payload. The deployed site is870.3MB with129.7MB free. All11current PDFs retain direct website downloads and exact bytes;39video pages and40poster/caption files pass live checks. Download-verification receipt PR731 is merged.
+
 Book-download reliability: [Cinema delivery and website audit](records/book-downloads-20261108.json). Published and live verified: current Cinema screen, print and introduction PDFs open directly from the website with exact reviewed bytes and partial-download support.34book/source-PDF links responded successfully; Dhaga and six character PDFs also passed partial-download checks.
 
-[Dhaga and character direct downloads](records/remaining-book-downloads-20261108.json): exact seven PDFs prepared; capacity and publication verification in progress.
+[Dhaga and character direct downloads](records/remaining-book-downloads-20261108.json): published and verified: Dhaga and all six character PDFs open directly, retain exact original contents and support partial downloads.
 
 Dongria book download: [Direct website delivery](records/dongria-download-20261108.json). The existing book buttons now use the site-hosted PDF; anonymous full download and byte-range access verified, with exact reviewed bytes preserved.
 
@@ -381,3 +383,5 @@ The [Joseph/Josef case](records/cinema-josef-literary-journey-2026-11-05.json) a
 - [Sisir Mishra portrait framing](records/cinema-sisir-crop-2026-11-05.json): tighter square display crop makes his smile and expression clearer in Learning Cinema Together and both local books, retaining85% width, original photograph and numbered credit. Other images and all article prose unchanged.
 
 - [Cinema sequence publication](records/cinema-sequence-publication-2026-11-07.json) — 49 book chapters, 52 online readings; published and live verified.
+
+- [Sambalpuri Bandha editorial delivery](records/sambalpuri-bandha-editorial-2026-11-08.json) — [published and live verified](records/sambalpuri-bandha-editorial-publication-2026-11-08.json); separately reviewed receipt integration pending.

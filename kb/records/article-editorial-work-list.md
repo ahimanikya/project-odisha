@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1084. completed: 189, excluded: 626, queued: 269.
+Route inventory: 1084. completed: 191, excluded: 627, queued: 266.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -135,9 +135,9 @@ Route inventory: 1084. completed: 189, excluded: 626, queued: 269.
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | excluded | collection_navigation |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | completed | substantive_craft_account |
 | POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | completed | substantive_craft_account |
-| POD-EDIT-122 | [Woven in Odisha](https://projectodisha.org/textiles/) | queued | classification_pending |
-| POD-EDIT-123 | [Sambalpuri Bandha · before the cloth](https://projectodisha.org/textiles/sambalpuri-bandha/) | queued | classification_pending |
-| POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | queued | classification_pending |
+| POD-EDIT-122 | [Woven in Odisha](https://projectodisha.org/textiles/) | excluded | collection_navigation |
+| POD-EDIT-123 | [Sambalpuri Bandha · before the cloth](https://projectodisha.org/textiles/sambalpuri-bandha/) | completed | substantive_textile_account |
+| POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | completed | substantive_textile_account |
 | POD-EDIT-125 | [Kotpad · a colour with roots](https://projectodisha.org/knowledge/kotpad/) | queued | classification_pending |
 | POD-EDIT-126 | [Tasar · the silk before the sari](https://projectodisha.org/textiles/tasar/) | queued | classification_pending |
 | POD-EDIT-127 | [Global Connections](https://projectodisha.org/global-connections/) | queued | classification_pending |

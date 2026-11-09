@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6d5c8246817f0c43c41453c5a56dec113de0d744da002fb0c857dc7e3dd1fc7a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5c857f76f92285b70b51bc49ba4343bab736787f6bcfe1bc61c148ad83fc4a43`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -366,6 +366,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-333 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-334 · Pattachitra: prepared cloth, painted borders and narrative practice | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; then release finite article scopes. | — |
+| POD-WORK-335 · Sambalpuri Bandha: colour before cloth | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-336 · Khandua editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 
 ## Pending human review and decisions
 
@@ -1349,16 +1351,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026110602 | 2026-11-06T12:48:18.741895+00:00 | Tala pitha published and separately live-verified at2026-11-06T12:33:23.766Z. Receipt prepared now for one conditional programme completion; finite receipt integration retained. | — |
-| POD-EVT-2026110701 | 2026-11-07T02:41:45.912944+00:00 | Proposed finite116substantive preparation comparison implementation after Dhaga358receipt696release;139inprogress and138completed unchanged. No delivery/credit asserted. | — |
-| POD-EVT-2026110702 | 2026-11-07T14:35:55.450021+00:00 | 116 actual published e14 and separately live verified; original697/recovery699 distinct. One conditional completion; finite receipt integration retained. | — |
-| POD-EVT-2026110703 | 2026-11-07T17:57:48.357930+00:00 | Founder requested direct implementation/publication of reviewed117; source/schema reviews complete. Preserve139 completed and zero new credit. | — |
 | POD-EVT-2026110801 | 2026-11-07T22:06:23.166661+00:00 | 117 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
 | POD-EVT-2026110802 | 2026-11-07T22:58:06.136787+00:00 | Reviewed useful draft installed; preserve existing research and begin implementation through publication. | — |
 | POD-EVT-2026110803 | 2026-11-08T00:03:07.510168+00:00 | 118 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
 | POD-EVT-425 | 2026-11-08T06:23:39.103973+00:00 | 120 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
 | POD-EVT-20261023013 | 2026-11-08T14:37:29.667203+00:00 | Reviewed Pattachitra source/draft and corrected guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
 | POD-EVT-20261023014 | 2026-11-08T15:34:57.022799+00:00 | Pattachitra actual approved publication and separate live review passed; one substantive completion, receipt integration pending. Dhaga public collection unchanged. | — |
+| POD-EVT-20261023015 | 2026-11-08T17:32:26.877590+00:00 | Reviewed Bandha source/draft and guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
+| POD-EVT-20261023016 | 2026-11-08T19:27:45.483284+00:00 | Bandha actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
+| POD-EVT-20261023017 | 2026-11-08T22:33:32.784150+00:00 | Reviewed Khandua implementation registered; completed144 unchanged pending actual publication and receipt. | — |
+| POD-EVT-20261023018 | 2026-11-09T01:02:27.680147+00:00 | Khandua actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 
 ## Deferred extensions
 

@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/pattachitra-editorial-2026-11-08.json",
+  "handoff_home": "records/khandua-editorial-2026-11-09.json",
   "roles": [
     {
       "name": "Disha",
@@ -60,10 +60,9 @@
     "kind": "article_receipt",
     "owner": "Disha",
     "status": "receipt_integration",
-    "article_id": "POD-EDIT-121",
-    "handoff": "records/pattachitra-editorial-2026-11-08.json",
-    "scope_released": false,
-    "note": "Published article completed; Disha retains finite receipt integration via current_task and article record until actual reviewed receipt merge."
+    "article_id": "POD-EDIT-124",
+    "handoff": "records/khandua-editorial-2026-11-09.json",
+    "scope_released": false
   },
   "parallel_programmes": [
     {
@@ -267,6 +266,24 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-120",
         "handoff": "records/pipili-editorial-2026-11-08.json"
+      }
+    },
+    {
+      "scope": "POD-EDIT-123",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 736,
+      "receipt_merge": "f390d22c69a319ced0ed99f0f8c468ae6f982a8e",
+      "required_check_run": 42515375128,
+      "required_check_result": "SUCCESS before merge",
+      "delivery_sha256": "feeeb06e671d19dc8cfcef0c32fd7343076beb7da6be7e482252248dd5b12d50",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-123",
+        "handoff": "records/sambalpuri-bandha-editorial-2026-11-08.json",
+        "scope_released": false
       }
     }
   ],

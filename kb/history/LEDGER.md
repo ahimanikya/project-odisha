@@ -1525,3 +1525,27 @@ Recovered and identified the Sahitya Akademi monograph, Kalindi Charan Panigrahi
 ### 9 November 2026 · Kalindi’s own account of writing and livelihood
 
 Read172consecutive scan pages from the autobiography’s later sections and distinguished memoir, reproduced letters, a1945critical appendix and publisher backmatter. His account supplies concrete novel-origin, editorial-payment and livelihood evidence. Independent selected-page review passed; no Matira Manisha film-rights payment established. Saved findings and scope limits; public articles, photographs and both downloads unchanged. No outreach, deployment or programme credit. [Research record](../records/cinema-kalindi-memoir-2026-11-09.json).
+
+
+### 8 November 2026 · Dhaga and character downloads published and verified
+
+PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. Deployment42503735494 succeeded. Seven live PDFs match all original hashes and sizes, return application/pdf without redirects and support exact206byte ranges. Eight canonical images and11updated pages pass live checks; original source images remain unchanged. Chrome opened the live226-page Dhaga PDF. Hosted payload978560127bytes passes1GB. [Receipt](../records/remaining-book-downloads-20261108.json).
+
+## 2026-11-08 — Bandha implementation registered
+
+WORK335/A500144/EDIT123 is in progress under POD-DEC-225. The separately reviewed package is installed after the book-download owner explicitly released its scope; its exact receipt is preserved. EDIT122 is collection/navigation, with no credit. Programme completion remains143 pending actual publication and receipt.
+
+
+### 8 November 2026 · Download receipt merged; hosting capacity preparation
+
+Final download-verification receipt PR731 merged at b94cfe53 after required validation42507138549 passed. The Founder selected existing GitHub storage. Fourteen exact original character MP4s are uploaded to a versioned release;99 delivery links across39pages are prepared, with posters, captions, PDFs and original files preserved. Chrome trial playback, seeking and an English caption cue pass; independent source review passes. Full artifact and network verification remain pending; website delivery is not yet changed by this capacity update. [Handoff](../records/hosting-capacity-20261108.json).
+
+
+### 9 November 2026 · Existing GitHub hosting capacity published and verified
+
+PR733 merged at9d2cbf32 after required validation42508884668 passed on reviewed head3d71ebc8. Deployment42510035032 succeeded:870307518bytes/2869files,129692482bytes headroom. Fourteen unchanged MP4s use exact verified GitHub release copies; original files, all PDFs and images remain preserved. Live13PDFs (11current books and2historical scans) match full bytes and hashes with direct200application/pdf and39exact206ranges. All39updated pages,26VTTs and14posters pass. Chrome live playback, seeking and English/Odia captions pass. Embedded1991links across13PDFs contain no old video addresses. Independent source/final-artifact review passed; zero programme credit. [Receipt](../records/hosting-capacity-20261108.json).
+
+
+### 8 November 2026 · Sambalpuri Bandha published and live verified
+
+PR732 merged59e20122 after required CI42511567194 succeeded on separately reviewed6950d5dc. Approved publication42513130709 succeeded. Actual1440/390 note navigation, Save/reload, both credited photographs, three links, parent sources and four UI downloads passed separate AI live review; the successful ZIP article, parent and photos match actual live responses. One existing WORK335/A500144/EDIT123 completion brings the programme to144. Receipt integration remains pending; no second deployment is required for these records. Dhaga remains358 public entries and11 unaccepted local proposals, with no credit. [Receipt](../records/sambalpuri-bandha-editorial-publication-2026-11-08.json).

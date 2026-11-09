@@ -19,7 +19,7 @@ test('textile stories retain identified media, licences and claim sources',()=>{
   }
   for(const s of p.sections)for(const q of s.paragraphs){assert.ok(q.kind==='editorial_invitation'||q.source_ids.length>0);for(const id of q.source_ids)assert.ok(html.includes(escape(data.sources[id].url)));}
  }
- assert.match(read('/textiles/khandua/'),/not transcribed or translated/);
+ assert.match(read('/textiles/khandua/'),/The passage has not been transcribed here/);
  assert.match(read('/knowledge/kotpad/'),/not a workshop photograph/);
  assert.match(read('/knowledge/kotpad/'),/licence does not extend to the film/);
  assert.match(read('/textiles/sambalpuri-bandha/'),/synthetic dyes/);
@@ -30,7 +30,7 @@ test('textile starter preserves existing plans and carries sources, care and med
  const next=createStarterTrip(old,'textile-review',starter,journey.catalog.map(i=>i.id));assert.deepEqual(old,before);assert.deepEqual(next.trips[0],before.trips[0]);
  const plan=next.trips[1].plan;assert.equal(plan.items.length,5);assert.ok(plan.items.every(i=>!i.day));plan.items[0].notes='Ask for care instructions and the weaver’s preferred credit.';
  const book=buildTourBook(plan,journey.catalog);
- for(const id of starter.items){const item=journey.catalog.find(i=>i.id===id);assert.ok(item.photo);assert.ok(item.practical.length>=3);assert.ok(item.sources.length);assert.ok(book.includes(escape(item.title)));for(const s of item.sources)assert.ok(book.includes(escape(s.url)));}
+ for(const id of starter.items){const item=journey.catalog.find(i=>i.id===id);assert.ok(item.photo);if(id==='reading:textiles/sambalpuri-bandha'){assert.equal(item.practical.length,2);assert.deepEqual(item.practical.flatMap(p=>p.paragraphs),data.pages.find(p=>p.slug==='sambalpuri-bandha').sections.flatMap(s=>s.paragraphs.map(p=>p.text)));}else assert.ok(item.practical.length>=3);assert.ok(item.sources.length);assert.ok(book.includes(escape(item.title)));for(const s of item.sources)assert.ok(book.includes(escape(s.url)));}
  assert.ok(book.includes('Ask for care instructions'));assert.ok(book.includes('release poster'));assert.ok(book.includes('washing or cleaning'));
 });
 test('Kotpad keeps one canonical story and discovery entry; deferred scope stays excluded',()=>{
