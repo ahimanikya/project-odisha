@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ff39baf4958d471eb0b35fbd1ecd2374f93c45ef8337b503e1d467154c7bb4b8`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `94bbe8f05b46102f86650787037388b5fb0cf251bb153d41797c4aa472c71b94`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -369,7 +369,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-335 · Sambalpuri Bandha: colour before cloth | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-336 · Khandua editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-337 · Kotpad editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
-| POD-WORK-338 · Tasar documented reeling process editorial revision | in_progress | draft | Ahimanikya Satapathy | Install separately reviewed guarded payload; complete actual runtime, publication and receipt gates. | — |
+| POD-WORK-338 · Tasar documented reeling process editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-339 · Global Connections documented exchange editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 
 ## Pending human review and decisions
 
@@ -1353,9 +1354,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-425 | 2026-11-08T06:23:39.103973+00:00 | 120 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
-| POD-EVT-20261023013 | 2026-11-08T14:37:29.667203+00:00 | Reviewed Pattachitra source/draft and corrected guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
-| POD-EVT-20261023014 | 2026-11-08T15:34:57.022799+00:00 | Pattachitra actual approved publication and separate live review passed; one substantive completion, receipt integration pending. Dhaga public collection unchanged. | — |
 | POD-EVT-20261023015 | 2026-11-08T17:32:26.877590+00:00 | Reviewed Bandha source/draft and guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
 | POD-EVT-20261023016 | 2026-11-08T19:27:45.483284+00:00 | Bandha actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261023017 | 2026-11-08T22:33:32.784150+00:00 | Reviewed Khandua implementation registered; completed144 unchanged pending actual publication and receipt. | — |
@@ -1363,6 +1361,9 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261023019 | 2026-11-09T03:13:07.050665+00:00 | Registered Kotpad reviewed implementation; Khandua actual delivery reconciled. Zero new credit. | — |
 | POD-EVT-20261023020 | 2026-11-09T05:34:17.367509+00:00 | Kotpad actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261109001 | 2026-11-09T15:46:11.827273+00:00 | Registered Tasar before guarded reviewed payload installation; historical Kotpad release reconciled. Actual runtime and release gates pending; zero new credit. | — |
+| POD-EVT-20261109002 | 2026-11-09T17:12:34.552377+00:00 | Tasar actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
+| POD-EVT-20261109003 | 2026-11-09T18:02:59.286222+00:00 | Registered Global Connections before exact reviewed payload installation; actual Tasar release reconciled. Runtime and publication gates pending; zero new credit. | — |
+| POD-EVT-20261109004 | 2026-11-09T19:14:38.559707+00:00 | Global Connections actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 
 ## Deferred extensions
 

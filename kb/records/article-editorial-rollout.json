@@ -3267,28 +3267,59 @@
       "id": "POD-EDIT-126",
       "route": "/textiles/tasar/",
       "title": "Tasar · the silk before the sari",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "substantive_textile_account",
       "source_template": "projects/site/src/components/TasarArticle.astro",
       "checks": {
-        "classification": true
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/tasar-editorial-publication-2026-11-09.json",
+        "separate_review": "records/tasar-delivery-review-2026-11-09.json"
       },
       "evidence": [
-        "records/tasar-editorial-2026-11-09.json"
+        "records/tasar-editorial-2026-11-09.json",
+        "records/tasar-editorial-publication-2026-11-09.json",
+        "records/tasar-delivery-review-2026-11-09.json"
       ],
       "blocker": null,
-      "started_at": "2026-11-09T15:37:17.568738+00:00"
+      "started_at": "2026-11-09T15:37:17.568738+00:00",
+      "completed_at": "2026-11-09T16:32:29.949Z",
+      "publication_receipt": "records/tasar-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-127",
       "route": "/global-connections/",
       "title": "Global Connections",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_documented_exchange_account",
       "source_template": "projects/site/src/pages/global-connections.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/global-connections-editorial-publication-2026-11-09.json",
+        "separate_review": "records/global-connections-delivery-review-2026-11-09.json"
+      },
+      "evidence": [
+        "records/global-connections-editorial-2026-11-09.json",
+        "records/global-connections-editorial-publication-2026-11-09.json",
+        "records/global-connections-delivery-review-2026-11-09.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-09T18:02:59.286222+00:00",
+      "completed_at": "2026-11-09T19:03:19.690Z",
+      "publication_receipt": "records/global-connections-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-128",
