@@ -1,4 +1,6 @@
 ---
+import TasarArticle from '../../components/TasarArticle.astro';
+import tasarEditorial from '../../../../../kb/research/culture/tasar-editorial.json';
 import KhanduaArticle from '../../components/KhanduaArticle.astro';
 import khanduaEditorial from '../../../../../kb/research/culture/khandua-editorial.json';
 import BandhaArticle from '../../components/BandhaArticle.astro';
@@ -10,4 +12,4 @@ import data from '../../../../../kb/research/culture/textile-stories.json';
 export function getStaticPaths(){return data.pages.filter(p=>p.href.startsWith('/textiles/')).map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
 ---
-{entry.slug==='khandua'?<Shell title={entry.title} description={khanduaEditorial.metadata_description} active="explore" wide related={false}><KhanduaArticle entry={entry} assets={data.assets} editorial={khanduaEditorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>:entry.slug==='sambalpuri-bandha'?<Shell title={entry.title} description={editorial.metadata_description} active="explore" wide related={false}><BandhaArticle entry={entry} assets={data.assets} editorial={editorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>:<TextileStory entry={entry}/>}
+{entry.slug==='tasar'?<Shell title={entry.title} description={tasarEditorial.metadata_description} active="explore" wide related={false}><TasarArticle entry={entry} assets={data.assets} editorial={tasarEditorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>:entry.slug==='khandua'?<Shell title={entry.title} description={khanduaEditorial.metadata_description} active="explore" wide related={false}><KhanduaArticle entry={entry} assets={data.assets} editorial={khanduaEditorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>:entry.slug==='sambalpuri-bandha'?<Shell title={entry.title} description={editorial.metadata_description} active="explore" wide related={false}><BandhaArticle entry={entry} assets={data.assets} editorial={editorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>:<TextileStory entry={entry}/>}

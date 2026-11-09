@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/kotpad-editorial-2026-11-09.json",
+  "handoff_home": "records/tasar-editorial-2026-11-09.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-126",
+    "route": "/textiles/tasar/",
+    "owner": "Disha",
+    "phase": "implementation"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_integration",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-125",
-    "handoff": "records/kotpad-editorial-2026-11-09.json",
+    "status": "implementation",
+    "article_id": "POD-EDIT-126",
+    "handoff": "records/tasar-editorial-2026-11-09.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -301,6 +306,22 @@
         "handoff": "records/khandua-editorial-2026-11-09.json",
         "scope_released": false
       }
+    },
+    {
+      "scope": "POD-EDIT-125",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 742,
+      "receipt_merge": "a1ef1623f4d85e12ec2b75cb43275acd43dcdb8d",
+      "delivery_sha256": "5ee6208d78de717a5db3e299cb8d4205c3f02db476cf31ecd39f9bb4953e0713",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-125",
+        "handoff": "records/kotpad-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "credit_added_here": 0
     }
   ],
   "prior_coordinator_claims": [
