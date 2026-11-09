@@ -198,5 +198,59 @@
     "index_modified_by_reviewer": false,
     "receipt_restage_required": "This appended receipt changes the working copy only; coordinator must restage this exact JSON if retaining final staging result.",
     "test_note": "Root reports full749/coast593 tests passing; not independently rerun in this source-scope audit."
+  },
+  "kotpad_merge_review": {
+    "status": "PASS",
+    "reviewed_cinema_HEAD": "79dc9290152538a8c57c812fb1cbfa1e18333eae",
+    "incoming_origin_main": "798de9882527ed03dd4aa3df8bb5972cc58596c9",
+    "incoming_changed_files": 25,
+    "exact_remote_files": 22,
+    "nonidentical_remote_files": [
+      "kb/records/editorial-workbench.json",
+      "kb/research/search-index.json",
+      "kb/team/operations.json"
+    ],
+    "exception_assessment": {
+      "kb/team/operations.json": "Only cinema parallel-programme differs from remote; foreign current_task and current_article match.",
+      "kb/records/editorial-workbench.json": "Only input hashes differ; all foreign records and other fields match remote.",
+      "kb/research/search-index.json": "Same1506 IDs; only methods/research-map entry differs, reflecting preserved cinema research additions."
+    },
+    "current_task_matches": true,
+    "current_article_matches": true,
+    "search_index_changed_ids": [
+      "methods/research-map"
+    ],
+    "workbench_changed_keys": [
+      "inputs"
+    ],
+    "article_pdf_preservation": [
+      {
+        "path": "kb/research/people/kalindi-charan-panigrahi.md",
+        "sha256": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      },
+      {
+        "path": "kb/research/culture/cinema-series/literature-and-screen.md",
+        "sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      },
+      {
+        "path": "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+        "sha256": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      },
+      {
+        "path": "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+        "sha256": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      }
+    ],
+    "unmerged_paths": [],
+    "unrelated_tools_staged": [],
+    "limits": "Merge index reviewed without modification. Root must restage this appended receipt; CI on the earlier cinema HEAD is not asserted to validate the new merge."
   }
 }

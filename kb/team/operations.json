@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/khandua-editorial-2026-11-09.json",
+  "handoff_home": "records/kotpad-editorial-2026-11-09.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-125",
+    "route": "/knowledge/kotpad/",
+    "owner": "Disha",
+    "phase": "implementation"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_implementation",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-124",
-    "handoff": "records/khandua-editorial-2026-11-09.json",
+    "status": "implementation",
+    "article_id": "POD-EDIT-125",
+    "handoff": "records/kotpad-editorial-2026-11-09.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -283,6 +288,22 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-123",
         "handoff": "records/sambalpuri-bandha-editorial-2026-11-08.json",
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "POD-EDIT-124",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 738,
+      "receipt_merge": "429dd3936a02aa7f6b8ba33c080d8cdf76ffc22f",
+      "delivery_sha256": "a2224af1b5742b00d1ec4856f2b26f924311b9cbd4f470efd94a77297540d48e",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-124",
+        "handoff": "records/khandua-editorial-2026-11-09.json",
         "scope_released": false
       }
     }
