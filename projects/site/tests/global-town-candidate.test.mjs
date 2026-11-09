@@ -25,7 +25,7 @@ test('proposed outputs preserve reciprocal benefit and unresolved operating need
 test('photo credit and source destinations remain attached to the public proposal',()=>{
  assert.ok(section.includes(photo.src));assert.ok(section.includes(photo.alt));assert.match(section,/loading="lazy"/);
  for(const value of [photo.creator,photo.license_url,photo.source,photo.changes])assert.ok(html.includes(value));
- const sources=html.match(/<details class="utk-disclosure sources"[\s\S]*?<\/details>/)?.[0];assert.ok(sources);
+ const sources=html.match(/<section id="story-sources"[\s\S]*?<\/section>/)?.[0];assert.ok(sources);
  for(const source of data.sources){assert.ok(section.includes(`href="#${source.id}"`));assert.ok(sources.includes(`id="${source.id}"`));assert.ok(sources.includes(source.resource));}
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
 });

@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1084. completed: 193, excluded: 627, queued: 264.
+Route inventory: 1084. completed: 193, excluded: 627, in_progress: 1, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ Route inventory: 1084. completed: 193, excluded: 627, queued: 264.
 | POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | completed | substantive_textile_account |
 | POD-EDIT-125 | [Kotpad · a colour with roots](https://projectodisha.org/knowledge/kotpad/) | completed | substantive_textile_account |
 | POD-EDIT-126 | [Tasar · the silk before the sari](https://projectodisha.org/textiles/tasar/) | completed | substantive_textile_account |
-| POD-EDIT-127 | [Global Connections](https://projectodisha.org/global-connections/) | queued | classification_pending |
+| POD-EDIT-127 | [Global Connections](https://projectodisha.org/global-connections/) | in_progress | substantive_documented_exchange_account |
 | POD-EDIT-128 | [Chilika, one shore at a time](https://projectodisha.org/journey-starters/chilika/) | queued | classification_pending |
 | POD-EDIT-129 | [Cuttack · Silver and Stories](https://projectodisha.org/journey-starters/cuttack/) | queued | classification_pending |
 | POD-EDIT-130 | [Balasore · Tides and Tales](https://projectodisha.org/journey-starters/balasore/) | queued | classification_pending |
