@@ -1,5 +1,5 @@
 {
-  "status": "candidate_checks_passed_publication_payload_running",
+  "status": "all_local_checks_passed",
   "full_build": "PASS:592pages",
   "site_tests": {
     "pass": 749,
@@ -22,6 +22,10 @@
     "dist-coast": {
       "pages": 1200,
       "violations": 0
+    },
+    "dist-publish": {
+      "pages": 1201,
+      "violations": 0
     }
   },
   "required_record_checks": [
@@ -34,5 +38,70 @@
   "source_review": "../source-review.json",
   "artifact_review": "../review/artifact-review.json",
   "browser_review": "browser-review.json",
-  "publication_payload": "running; do not merge or deploy before final result"
+  "publication_payload": {
+    "status": "PASS",
+    "regular_file_bytes": 868771082,
+    "regular_files": 2871,
+    "directories": 719,
+    "exclusive_byte_limit": 1000000000,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "special_files": 0,
+    "index_html_bytes": 86578,
+    "largest_files": [
+      {
+        "path": "archive/odia-dhaga-358-cb8c3a3c4da795b813d973fbda3e664938d663ab7c32e68209ea6c36a6545f4b.pdf",
+        "bytes": 110419594
+      },
+      {
+        "path": "archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+        "bytes": 51346148
+      },
+      {
+        "path": "archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+        "bytes": 38414010
+      },
+      {
+        "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+        "bytes": 24088311
+      },
+      {
+        "path": "archive/dongria-kondh-public-reading.pdf",
+        "bytes": 17689084
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+        "bytes": 13322690
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+        "bytes": 5506729
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+        "bytes": 5176380
+      },
+      {
+        "path": "assets/bhubaneswar-week/conversations.jpg",
+        "bytes": 4296333
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+        "bytes": 3891461
+      }
+    ],
+    "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+  },
+  "publication_downloads": {
+    "pass": 7,
+    "fail": 0
+  },
+  "hosted_followup": {
+    "initial_run": 42559249866,
+    "result": "failed_on_stale_generated_research_map_index",
+    "correction": "Regenerated search-index.json; exactly the methods/research-map entry changed. No article or PDF changes.",
+    "local_research_validation": "PASS",
+    "local_bundle_check": "PASS",
+    "next": "Await hosted validation on correction commit"
+  }
 }
