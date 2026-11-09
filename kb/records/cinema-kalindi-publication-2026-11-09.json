@@ -1,12 +1,12 @@
 {
   "id": "POD-CINEMA-KALINDI-PUBLICATION-20261109",
   "date": "2026-11-09",
-  "status": "reviewed_pending_publication",
+  "status": "published_verified",
   "authorization": "Good, let's add these findings to Kalindi’s profile and Literature and Screen, then publish the website update and both book downloads. Keep the film payment question open.",
-  "active_article": "/cinema/literature-and-screen/",
-  "scope_released": false,
+  "active_article": null,
+  "scope_released": true,
   "source_handoff": "records/cinema-kalindi-memoir-2026-11-09.json",
-  "publication_performed": false,
+  "publication_performed": true,
   "programme_credit": 0,
   "release_tag": "odia-cinema-book-2026-11-09-kalindi-memoir",
   "sequence": [
@@ -56,7 +56,7 @@
   "final_review": "outputs/cinema-kalindi-publication-20261109/review/artifact-review.json",
   "final_review_sha256": "ec523824216899bf56c0a0f3b6a67a1d21540dc3752874508cf1c847626ecbd8",
   "browser_review": "outputs/cinema-kalindi-publication-20261109/root/browser-review.json",
-  "next_action": "Complete publication payload checks, upload reviewed editions, merge approved website change and verify live pages and exact PDF bytes.",
+  "next_action": "Memoir additions and both downloads are live. Film payment remains unverified; Kala Academy reply and Bapa author follow-up remain external dependencies. No additional deployment is required for this receipt.",
   "concurrent_reconciliation": {
     "remote_head": "798de9882527ed03dd4aa3df8bb5972cc58596c9",
     "foreign_article": "POD-EDIT-125",
@@ -64,5 +64,35 @@
     "foreign_scope_preserved": true,
     "reviewed_articles_and_pdfs_unchanged": true,
     "resolution": "Merged concurrent Kotpad publication; regenerated only generated research index/workbench bindings."
+  },
+  "book_assets_published": true,
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/739",
+  "verified_routes": [
+    "/people/kalindi-charan-panigrahi/",
+    "/cinema/literature-and-screen/",
+    "/cinema/book/"
+  ],
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 42563725192,
+    "headSha": "eaf6029904fda43f3329d6589fe7b2c103c5acec",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42563725192"
+  },
+  "live_verification": "outputs/cinema-kalindi-publication-20261109/root/live-verification.json",
+  "delivery_review": "outputs/cinema-kalindi-publication-20261109/review/delivery-review.json",
+  "delivery_review_sha256": "a95657d2eb5dc1719a151105cf87a345afcc2b32341140e56c8dafc346b76961",
+  "release": {
+    "pr": 739,
+    "pr_url": "https://github.com/ahimanikya/project-odisha/pull/739",
+    "reviewed_head": "bb58bd5ad6727226e41ef9f5f6edf9d734d73065",
+    "merge_commit": "eaf6029904fda43f3329d6589fe7b2c103c5acec",
+    "validation_run": 42562278032,
+    "validation_result": "success",
+    "deployment_run": 42563725192,
+    "deployment_result": "success",
+    "release_tag": "odia-cinema-book-2026-11-09-kalindi-memoir",
+    "live_verification": "outputs/cinema-kalindi-publication-20261109/root/live-verification.json",
+    "verified_at_utc": "2026-11-09T05:10:43.742093+00:00"
   }
 }

@@ -1,0 +1,97 @@
+{
+  "status": "PASS_DELIVERY",
+  "scope_released": true,
+  "input_hashes": {
+    "outputs/cinema-kalindi-publication-20261109/root/deployment.json": "91117a978c772ee034f1431d5783bb66b1fcb98341478df41fe071323a2a5f3a",
+    "outputs/cinema-kalindi-publication-20261109/root/merged-pr.json": "677cd113f09dee225edcedca9ebf6df08c680341c44b91488939bcd046df5564",
+    "outputs/cinema-kalindi-publication-20261109/root/hosted-validation.json": "260e6c663db905061247ed0742bd44c97bf619d417f979ad896d15440290ca87",
+    "outputs/cinema-kalindi-publication-20261109/root/live-verification.json": "169aa7d1df3537dcee35d75ff85618e8615271197e234294742457dfb35da77c",
+    "outputs/cinema-kalindi-publication-20261109/root/verify-live.py": "d9f68e19cfb17c0a52275d0d1a25f4328a5cd03ce25b1e94d64157b6baa2db84",
+    "outputs/cinema-kalindi-publication-20261109/book-release-manifest.json": "4c9a8369d7cf9cbc02ad9419047524f32d7bf6ea2498570a3cf4c3cfdbad5894",
+    "outputs/cinema-kalindi-publication-20261109/review/artifact-review.json": "ec523824216899bf56c0a0f3b6a67a1d21540dc3752874508cf1c847626ecbd8",
+    "kb/research/people/kalindi-charan-panigrahi.md": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
+    "kb/research/culture/cinema-series/literature-and-screen.md": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+    "outputs/cinema-kalindi-publication-20261109/root/live-odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+    "outputs/cinema-kalindi-publication-20261109/implementation/digital-book-build.json": "a47feb03fef40b0b479ea4b673603b06132a2437a5329ace8bc9e488e4301fb5",
+    "outputs/cinema-kalindi-publication-20261109/root/live-odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+    "outputs/cinema-kalindi-publication-20261109/implementation/print-book-build.json": "456d7a9b95d14c07bf2ae2588e86564857aac5619d5a2fc05edc7ac53eb340ff"
+  },
+  "publication": {
+    "pull_request": {
+      "headRefOid": "bb58bd5ad6727226e41ef9f5f6edf9d734d73065",
+      "mergeCommit": {
+        "oid": "eaf6029904fda43f3329d6589fe7b2c103c5acec"
+      },
+      "number": 739,
+      "state": "MERGED",
+      "url": "https://github.com/ahimanikya/project-odisha/pull/739"
+    },
+    "hosted_validation": {
+      "conclusion": "success",
+      "databaseId": 42562278032,
+      "headSha": "bb58bd5ad6727226e41ef9f5f6edf9d734d73065",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42562278032"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "databaseId": 42563725192,
+      "headSha": "eaf6029904fda43f3329d6589fe7b2c103c5acec",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42563725192"
+    },
+    "live_checked_at_utc": "2026-11-09T05:10:43.742093+00:00"
+  },
+  "independent_checks": [
+    "Hosted validation head equals merged PR head; deployment head equals actual PR739 merge.",
+    "Independently recomputed downloaded PDF hashes and sizes against manifest, original reviewed PDFs and artifact-review.",
+    "Both current canonical article hashes still equal the scoped source/artifact review; all49 manifest source hashes match current sources.",
+    "Inspected actual verification script: three exact routes test memoir passage, preserved uncertainty, original source link and both current book URLs. Download checks include PDF content type, exact byte hash and 206 range response."
+  ],
+  "download_verification": [
+    {
+      "edition": "digital",
+      "downloaded_file": "outputs/cinema-kalindi-publication-20261109/root/live-odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "sha256": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+      "bytes": 38414010,
+      "matches_reviewed_pdf": true
+    },
+    {
+      "edition": "print",
+      "downloaded_file": "outputs/cinema-kalindi-publication-20261109/root/live-odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+      "sha256": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+      "bytes": 51346148,
+      "matches_reviewed_pdf": true
+    }
+  ],
+  "verified_routes": [
+    {
+      "url": "https://projectodisha.org/people/kalindi-charan-panigrahi/",
+      "status": 200,
+      "content_assertions": "PASS",
+      "sha256": "7fb47e504c3809db1f5c1cf3b2420e584c1c73802ee3053f9d94c09efdbdcf3a"
+    },
+    {
+      "url": "https://projectodisha.org/cinema/literature-and-screen/",
+      "status": 200,
+      "content_assertions": "PASS",
+      "sha256": "678e54896d3d5b55bd32771242c0dd1e50e634f5045ad1a679e61596ee097667"
+    },
+    {
+      "url": "https://projectodisha.org/cinema/book/",
+      "status": 200,
+      "content_assertions": "PASS",
+      "sha256": "1d28f5babf0b3ed93f3cca4b5082f13bb9f96cab0e95271bb4e38f028ab86dd4"
+    }
+  ],
+  "open_question": "Kalindi’s film-adaptation payment and rights terms remain unverified. The memoir remuneration example concerns periodical contributors; it establishes neither a film fee nor nonpayment.",
+  "manifest_interpretation": "Manifest reviewed_release_candidate status is historical artifact preparation metadata. Actual publication outcome is established separately by successful deployment and live-verification records.",
+  "required_corrections": [],
+  "limitations": [
+    "This is an independent audit of recorded CI/deployment/live HTTP evidence and locally retained downloaded bytes; no additional browser interaction or fresh HTTP request was performed by this reviewer.",
+    "Prior artifact-review retains the precise eighteen-page manual visual scope; no whole-book or accessibility certification is implied.",
+    "This review makes no human approval or independently confirmed historical film-payment claim."
+  ]
+}
