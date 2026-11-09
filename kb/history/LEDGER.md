@@ -1563,3 +1563,26 @@ Both Aaina annual-report originals were recovered through ordinary public downlo
 ### 9 November 2026 · Student filmmakers join Cinema Futures
 
 Two documented examples now connect children making films to the Kallola discussion. One compact note distinguishes the 2016 screening from the later annual-report mention. Both matching books are published and their live downloads match the independently reviewed files. The production-support question remains open; no recipient, payment or measured outcome is inferred. Chapter order, images, covers, prior editions and concurrent Tasar work are preserved. No new outreach or programme credit. [Publication receipt](../records/cinema-student-films-publication-2026-11-09.json).
+
+
+### 10 November 2026 · Nilamani Sahu’s story in dramatic form
+
+Read the complete printed dramatic item, pp.197–211 (PDF208–222), and verified its boundary. Original-story and dramatization credits remain distinct; the earlier planning page estimate is corrected. A compact Literature and Screen proposal passed independent source and editorial review, with no film-source, original-text comparison, performance or payment claim. Public articles, books, images and foreign scopes remain unchanged. No publication, outreach or programme credit. [Research handoff](../records/cinema-nilamani-adaptation-2026-11-10.json).
+
+
+### 10 November 2026 · Biyott Projna Tripathy: writing, music and film
+
+Read the public professional profile and selected posts in Chrome, then verified original Yogini teaser-description credits. CBFC Bideha writing/co-writing credits and an Indian Literature story listing were independently checked. A compact poetry/music-to-screen addition is recommended; a published-fiction adaptation, payment or commercial outcome is not inferred. Separate research and placement review passed. Original Bideha public-post permalink was subsequently confirmed without changing the finding. Public articles, books, photographs and other ownership remain unchanged; Nilamani proposal remains pending. No outreach, publication or programme credit. [Research handoff](../records/cinema-biyott-tripathy-2026-11-10.json).
+
+
+### 10 November 2026 · Yogini joins the literature-to-screen thread
+
+Added the verified collaborative Yogini credits to the existing song passage, with a Cinema Music link and one numeric source note. The website candidate builds and its changed passage, note return and Music destination were checked in Chrome. Existing photographs, other articles, sequence and current book-download metadata are preserved. Further profile research verifies Ladakh’s precise National Film Award category from original catalogue pages and records an attributed actor account of Biyott’s directing practice. The original literary text and Bideha’s published-source identity remain open. No publication, outreach or programme credit. [Handoff](../records/cinema-yogini-profile-2026-11-10.json).
+
+### 10 November 2026 · Biyott’s writing and filmmaking profile
+
+Created a dedicated online companion linking a published story, the precise documentary-award category, collaborative Yogini credits and an attributed actor’s recollection. Literature and Screen and Cinema Music link back to the profile. An identified OrissaPOST portrait is retained with compact numeric attribution and honest provenance. The supplied Bideha report is further viewing only: its Cannes headline and a garbled2006story lead do not establish an award or published literary source. Separate source and rendered review passed, including mobile width, photo-note return and both reciprocal routes. Main50readings, book sequence/downloads, foreign ownership and unrelated PDF-tool edits are preserved. No publication, outreach, human approval claim or programme credit. [Profile handoff](../records/cinema-biyott-profile-2026-11-10.json).
+
+### 10 November 2026 · Literature at the centre of Biyott’s outlook
+
+The Founder clarified the meaning of the supplied Odia release conversation and supplied its faulty automatic Devanagari transcript. Adopted only a conservative attributed paraphrase: literature offers stories for filmmakers. Replaced the profile’s generic introduction paragraph and added a brief corresponding invitation in Literature and Screen, each with a compact timestamped source note. No direct quotation, independent audio-verification claim, universal quality claim, identified source-story or Cannes award was inferred. Original literary publication questions remain open. Source and note checks pass; refreshed Chrome pages show the new passages, with both new citation/return pairs working. Photographs, Music text, book order and published downloads remain unchanged. No publication or outreach. [Handoff](../records/cinema-biyott-profile-2026-11-10.json).

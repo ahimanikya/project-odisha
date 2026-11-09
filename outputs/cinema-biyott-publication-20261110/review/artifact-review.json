@@ -1,0 +1,107 @@
+{
+  "status": "PASS_ARTIFACTS",
+  "scope_released": true,
+  "date": "2026-11-10",
+  "input_hashes": {
+    "outputs/cinema-biyott-publication-20261110/implementation/implementation.json": "b9fa56981b243b4906fa1e77551821bac6838377fba37eabb0dae2e3ab5d42a3",
+    "outputs/cinema-biyott-publication-20261110/book-release-manifest.json": "868b4e94a92453ad6452bf5ad230b9ab2afa4b94bf967de35cf10d49e93986a7",
+    "projects/site/src/data/cinema.json": "5dc87c0bdd2149b3606d573e55c97c2efc681f6df003436e73cc63653c55daad",
+    "tmp/pdfs/2026-11-10-biyott/digital/book-build-2026-11-10-biyott.json": "26a043705664e875e745e0092dcd54b25646f813715365f341d221604da32e2e",
+    "tmp/pdfs/2026-11-10-biyott/print/book-build-2026-11-10-biyott.json": "aae30c722961562b277bee31e55f96e72dd8e5288d7a3197bb86507923a3c9c9"
+  },
+  "independent_artifact_checks": {
+    "digital": {
+      "sha256": "c7035c076aac683273b05982dcd577acd737c06aa6c0e31d2d3a6371aa7c7411",
+      "bytes": 38417764,
+      "pages": 272,
+      "hash_and_size_match_manifest": true,
+      "all49_source_bindings_current": true,
+      "chapter_count": 49,
+      "order_preserved": true,
+      "map_preserved": true,
+      "cover_preserved": true,
+      "image_count": 62,
+      "profile_annotations": [
+        {
+          "page": 18,
+          "url": "https://projectodisha.org/people/biyott-projna-tripathy/"
+        },
+        {
+          "page": 21,
+          "url": "https://projectodisha.org/people/biyott-projna-tripathy/"
+        },
+        {
+          "page": 54,
+          "url": "https://projectodisha.org/people/biyott-projna-tripathy/"
+        }
+      ]
+    },
+    "print": {
+      "sha256": "580b228e3893efd4c3a0cdb521dee9b9189bf388b9b143e0267958d662f4691b",
+      "bytes": 51349422,
+      "pages": 278,
+      "hash_and_size_match_manifest": true,
+      "all49_source_bindings_current": true,
+      "chapter_count": 49,
+      "order_preserved": true,
+      "map_preserved": true,
+      "cover_preserved": true,
+      "image_count": 62,
+      "profile_annotations": [
+        {
+          "page": 19,
+          "url": "https://projectodisha.org/people/biyott-projna-tripathy/"
+        },
+        {
+          "page": 22,
+          "url": "https://projectodisha.org/people/biyott-projna-tripathy/"
+        },
+        {
+          "page": 55,
+          "url": "https://projectodisha.org/people/biyott-projna-tripathy/"
+        }
+      ]
+    }
+  },
+  "actual_full_page_visual_scope": {
+    "digital": [
+      1,
+      4,
+      18,
+      19,
+      21,
+      54,
+      243
+    ],
+    "print": [
+      1,
+      4,
+      19,
+      20,
+      22,
+      55,
+      244
+    ]
+  },
+  "actual_contact_sheet_scope": {
+    "digital": [
+      "contact-02.jpg",
+      "contact-05.jpg",
+      "contact-21.jpg"
+    ],
+    "print": [
+      "contact-02.jpg",
+      "contact-05.jpg",
+      "contact-21.jpg"
+    ]
+  },
+  "visual_verdict": "New passages and compact notes are readable, without clipping or stranded headings. Digital18 continues ordinarily on19. Print19 has substantial white space before the intact Pratibha heading/portrait group on20; accepted as existing grouped layout with unchanged maps, not a new blocking orphan or blank leaf.",
+  "content_verdict": "Precise Yogini credits and attributed general literature outlook remain intact. Actual film/source-story comparison and remuneration remain unestablished. Online Biyott companion stays external to49-chapter book; all three new PDF links point to its exact public route.",
+  "preservation_evidence": "Worker receipt verifies62 image bytes/geometry/captions,285 protected paths and previous PDFs unchanged. Independently recomputed final PDF bytes/hashes,49 source bindings, order, chapter maps and cover hashes. Portrait review reused from prior local website receipt; no Biyott portrait added to book.",
+  "required_corrections": [],
+  "limits": [
+    "Scoped full-page and contact inspection only, not every book page manually read.",
+    "Publication, hosted validation and live download verification remain subsequent gates; this PASS covers local artifacts.",
+    "General literature outlook remains a conservative paraphrase based on user clarification and rough transcript, not independently verified audio."
+  ]
+}
