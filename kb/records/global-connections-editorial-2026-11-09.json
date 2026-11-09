@@ -1,5 +1,5 @@
 {
-  "status": "canonical_implementation_active",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-127",
   "work_id": "POD-WORK-339",
   "programme_id": "POD-A500-148",
@@ -9,12 +9,12 @@
   "started_at": "2026-11-09T18:02:59.286222+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Explain the difference between a recorded city relationship, a dated attributed cultural event and a proposed collaboration. Preserve six city comparisons, thirteen existing sources and their dated limits, the unagreed town proposal, two credited photographs and existing links. Verify actual new-source aggregate107 without resetting legacy allowances; native article only, visible notes1–14 and keyboard returns, Further reading, responsive1440/390, full/coast/publication checks, separate integrated AI review, required CI before reviewed-head merge, approved deployment, actual live/archive parity and receipt before one substantive credit.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "source_budget": {
     "conditional_total": 107,
-    "actual_publication_audit": "Local publication output PASS107 (58canonical+49public); deployed archive audit pending",
+    "actual_publication_audit": "PASS107",
     "legacy_allowances": "preserved; no reset or new certification"
   },
   "source_mapping": "research/collections/global-connections-editorial.json",
@@ -58,5 +58,30 @@
     "final_source_sha256": "55cd0a7bbd530e8fc38172dca06d52e9b9b22762bc7798b36e07c344d76d3ba4",
     "publication_files": 2875,
     "publication_bytes": 868756116
-  }
+  },
+  "verified_at": "2026-11-09T19:03:19.690Z",
+  "prepared_at": "2026-11-09T19:14:38.559707+00:00",
+  "completed_at": "2026-11-09T19:03:19.690Z",
+  "publication": {
+    "head": "4ecdd9fea7fc6283f129a88b3c2937966ba84a33",
+    "databaseId": 42676593804,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42676593804",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live_verification": {
+    "checked_at": "2026-11-09T19:03:19.690Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/global-connections/"
+    ],
+    "images": true,
+    "producer_sha256": "cc88317e98586f90135a887529893181157f5164308591450aca0aa58bf9d416",
+    "separate_review_sha256": "a1b53c56516c2a58b2aa74d99c263c91ce268ec50e0fb92b559ff80bc0be0dce",
+    "evidence_manifest": "records/evidence/global-connections-editorial-2026-11-09/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "7e5056abcee9596486bd0f6772d87dd0b7b3b1885c1667d3cdfd87b5e98ed09a"
+  },
+  "receipt": "records/global-connections-editorial-publication-2026-11-09.json",
+  "review": "records/global-connections-delivery-review-2026-11-09.json"
 }
