@@ -96,12 +96,23 @@
     "pass": 7,
     "fail": 0
   },
-  "hosted_followup": {
-    "initial_run": 42559249866,
-    "result": "failed_on_stale_generated_research_map_index",
-    "correction": "Regenerated search-index.json; exactly the methods/research-map entry changed. No article or PDF changes.",
-    "local_research_validation": "PASS",
-    "local_bundle_check": "PASS",
-    "next": "Await hosted validation on correction commit"
-  }
+  "hosted_followups": [
+    {
+      "initial_run": 42559249866,
+      "result": "failed_on_stale_generated_research_map_index",
+      "correction": "Regenerated search-index.json; exactly the methods/research-map entry changed. No article or PDF changes.",
+      "local_research_validation": "PASS",
+      "local_bundle_check": "PASS",
+      "next": "Await hosted validation on correction commit"
+    },
+    {
+      "initial_run": 42559746256,
+      "result": "failed_on_stale_generated_editorial_workbench_input_hashes",
+      "correction": "Regenerated only search-index and coastal-scope input hashes; workbench records unchanged.",
+      "local_workbench_checks": "PASS: generator, Python and Node tests",
+      "local_remaining_checks": "PASS: PDF guards, catalogue, rollout, coastal/discovery audits, launch readiness and search shortlist.",
+      "local_dependency_note": "First launch/search audits ran before search-review preparation finished; final reruns after completion passed.",
+      "next": "Hosted review on corrected commit"
+    }
+  ]
 }
