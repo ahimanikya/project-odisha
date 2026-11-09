@@ -1549,3 +1549,7 @@ PR733 merged at9d2cbf32 after required validation42508884668 passed on reviewed 
 ### 8 November 2026 · Sambalpuri Bandha published and live verified
 
 PR732 merged59e20122 after required CI42511567194 succeeded on separately reviewed6950d5dc. Approved publication42513130709 succeeded. Actual1440/390 note navigation, Save/reload, both credited photographs, three links, parent sources and four UI downloads passed separate AI live review; the successful ZIP article, parent and photos match actual live responses. One existing WORK335/A500144/EDIT123 completion brings the programme to144. Receipt integration remains pending; no second deployment is required for these records. Dhaga remains358 public entries and11 unaccepted local proposals, with no credit. [Receipt](../records/sambalpuri-bandha-editorial-publication-2026-11-08.json).
+
+### 9 November 2026 · Kalindi’s memoir reaches the series and books
+
+The profile and Literature and Screen now include compact, source-reviewed accounts of writing, livelihood and periodical contributor payment. Film-adaptation payment remains unverified. Both matching books are published and their live downloads match the independently reviewed files. Chapter sequence, photographs, covers and earlier editions are preserved. No outreach or programme credit. [Publication receipt](../records/cinema-kalindi-publication-2026-11-09.json).
