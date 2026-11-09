@@ -1520,3 +1520,8 @@ The Founder requested same-origin delivery for Dhaga and the character books. Si
 ### 9 November 2026 · Original sources for the writer-payment enquiry
 
 Recovered and identified the Sahitya Akademi monograph, Kalindi Charan Panigrahi’s autobiography and a collected-writings volume. Bounded page inspection and separate review establish source access, not the reported Matira Manisha adaptation payment. The financial question remains open; no public article or book changes were warranted. Next work can read the author’s own account of writing and livelihood. Kala Academy’s reply and the Founder’s Bapa follow-up remain external dependencies. [Research record](../records/cinema-adaptation-terms-2026-11-08.json).
+
+
+### 9 November 2026 · Kalindi’s own account of writing and livelihood
+
+Read172consecutive scan pages from the autobiography’s later sections and distinguished memoir, reproduced letters, a1945critical appendix and publisher backmatter. His account supplies concrete novel-origin, editorial-payment and livelihood evidence. Independent selected-page review passed; no Matira Manisha film-rights payment established. Saved findings and scope limits; public articles, photographs and both downloads unchanged. No outreach, deployment or programme credit. [Research record](../records/cinema-kalindi-memoir-2026-11-09.json).
