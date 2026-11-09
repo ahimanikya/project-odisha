@@ -1,0 +1,60 @@
+{
+  "status": "PASS_PREPUBLICATION_SCOPE",
+  "reviewed_head": "a6af66d9dc4f65610f9e12542ba860e6f54aaa06",
+  "comparison_base": "0313260e8ebb9231f7c707ce7b7497a539650cc4",
+  "scope_released": true,
+  "source_hashes": {
+    "kb/research/people/biyott-projna-tripathy.md": "93286dae1a5e9fe8737d15d4779ffaeac3f9c51887920811e7ab171b1ccff0ec",
+    "kb/research/culture/cinema-series/literature-and-screen.md": "74804c56b0243d0959bf10f9e76f83ea54b27b06298ed383594231e3cb9a373b",
+    "kb/research/culture/cinema-series/cinema-music.md": "6f10ef0845c7cd6286af4f20ff38376ae82acb612640510556a2c31fc3907e9f"
+  },
+  "committed_pdf_checks": [
+    {
+      "path": "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-10-biyott.pdf",
+      "sha256": "c7035c076aac683273b05982dcd577acd737c06aa6c0e31d2d3a6371aa7c7411",
+      "matches_reviewed_manifest": true,
+      "bytes": 38417764
+    },
+    {
+      "path": "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-10-biyott.pdf",
+      "sha256": "580b228e3893efd4c3a0cdb521dee9b9189bf388b9b143e0267958d662f4691b",
+      "matches_reviewed_manifest": true,
+      "bytes": 51349422
+    }
+  ],
+  "changed_file_count": 90,
+  "findings": [
+    "Three article hashes remain the reviewed sources; committed public PDF copies match artifact-reviewed hashes.",
+    "Route wrapper uses existing CinemaReading component; breadcrumb set adds only companion; search policy explicitly holds the new route without changing existing decisions.",
+    "Coast documents replace two current PDFs and retain standalone introduction; previous version URLs retained in release manifest.",
+    "No PDF builder or tagged-reader experiment files occur in committed change list. Nilamani research/proposal files are evidence only, not an applied public insertion.",
+    "LEDGER diff appends new entries without deleting remote history."
+  ],
+  "required_corrections": [],
+  "pending_gates": [
+    "Required hosted CI for final corrected head",
+    "Actual deployment and live article/download verification after publication"
+  ],
+  "limitations": [
+    "Local760test pass reported by coordinator; hosted run still pending at review.",
+    "This is source/code/release scope review, not a claim that publication is complete."
+  ],
+  "historical_first_gate": {
+    "head": "10eff2d427170ef7a86b969b260b244b46e37361",
+    "status": "CHANGES_REQUIRED_RECORD_PRESERVATION",
+    "required_corrections": [
+      {
+        "path": "kb/team/operations.json",
+        "issue": "Historical Cinema row with cinema-daman-team-publication-2026-11-08 handoff is overwritten with current research status/note and released scope. This falsely rewrites prior receipt history.",
+        "correction": "Restore that historical row exactly from comparison base; retain changes only in current Cinema programme row."
+      }
+    ]
+  },
+  "correction_verified": "Only operations.json differs from prior reviewed head; entire cinema_scope_history equals comparison base. Current programme row and all reviewed source/code/asset bytes unchanged.",
+  "previous_pass_head": "194b5a37f7776c3e5c1dbf870774293e993612b2",
+  "generator_delta": {
+    "actual_change": "Only generated editorial-workbench coast.json input fingerprint changed from3d7a5d… to049839…; independently matches committed coast.json bytes. No counter change appears in this exact commit delta.",
+    "public_source_assets_unchanged": true
+  },
+  "coordinator_final_local_checks": "Coordinator reports760site/595coast, disclosures/audits and publication payload868844500bytes2878files pass; workbench6Python+3Node checks pass. Required fresh hosted result still pending."
+}

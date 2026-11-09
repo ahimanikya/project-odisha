@@ -1,0 +1,135 @@
+[
+  {
+    "name": "site-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/site-build.log"
+  },
+  {
+    "name": "site-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 1,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/site-tests.log"
+  },
+  {
+    "name": "site-tests-fixed",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/site-tests-fixed.log"
+  },
+  {
+    "name": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/coast-build.log"
+  },
+  {
+    "name": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/coast-tests.log"
+  },
+  {
+    "name": "disclosure-full",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/disclosure-full.log"
+  },
+  {
+    "name": "disclosure-coast",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/disclosure-coast.log"
+  },
+  {
+    "name": "audit-coast",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/audit-coast.log"
+  },
+  {
+    "name": "audit-discovery",
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/audit-discovery.log"
+  },
+  {
+    "name": "search-review",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/search-review.log"
+  },
+  {
+    "name": "audit-launch",
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/audit-launch.log"
+  },
+  {
+    "name": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/publication-build.log"
+  },
+  {
+    "name": "disclosure-publication",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/disclosure-publication.log"
+  },
+  {
+    "name": "audit-search",
+    "command": [
+      "python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/cinema-biyott-publication-20261110/root/audit-search.log"
+  }
+]
