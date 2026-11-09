@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-08T22:33:32.784150+00:00",
+  "updated_at": "2026-11-09T01:02:27.680147+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3209,15 +3209,30 @@
       "id": "POD-EDIT-124",
       "route": "/textiles/khandua/",
       "title": "Khandua · when a poem becomes cloth",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "substantive_textile_account",
       "source_template": "projects/site/src/pages/textiles/[slug].astro",
-      "checks": {},
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/khandua-editorial-publication-2026-11-09.json",
+        "separate_review": "records/khandua-delivery-review-2026-11-09.json"
+      },
       "evidence": [
-        "records/khandua-editorial-2026-11-09.json"
+        "records/khandua-editorial-2026-11-09.json",
+        "records/khandua-editorial-publication-2026-11-09.json",
+        "records/khandua-delivery-review-2026-11-09.json"
       ],
       "blocker": null,
-      "started_at": "2026-11-08T22:33:32.784150+00:00"
+      "started_at": "2026-11-08T22:33:32.784150+00:00",
+      "completed_at": "2026-11-09T00:32:12.199Z",
+      "publication_receipt": "records/khandua-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-125",
