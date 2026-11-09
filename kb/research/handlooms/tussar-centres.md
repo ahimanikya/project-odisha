@@ -48,3 +48,8 @@ Gopalpur district ambiguity resolved at cluster-list level. Next verify individu
 [^weaving-clusters]: [Important Handloom Clusters · Government of Odisha](https://handloom.odisha.gov.in/en/handloomtab/important-handloom-clusters)
 [^tasar-processing]: [Processing of Tasar Cocoons · Central Silk Board / CSTRI](https://silks.csb.gov.in/tirap/processing-of-tasar-cocoons/)
 [^tasar-museum]: [Tasar silk display at Odisha Crafts Museum · Kritzolina](https://commons.wikimedia.org/wiki/File:Silk_and_weaving_at_the_Odisha_Crafts_Museum_03.jpg)
+
+
+## Reading edition
+
+[Read the illustrated article](https://projectodisha.org/textiles/tasar/).
