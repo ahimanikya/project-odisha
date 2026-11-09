@@ -1,5 +1,5 @@
 {
-  "status": "implementation",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-125",
   "work_id": "POD-WORK-337",
   "programme_id": "POD-A500-146",
@@ -9,7 +9,7 @@
   "started_at": "2026-11-09T03:13:07.050665+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Publish the separately source-reviewed Kotpad making and design account with exact attribution, native numbered notes, short portable citation, byline and preserved poster credit/licence, Save ID, two external and four related links. Preserve historical KB, parent/global sources and siblings. Verify actual198 source-word allocation including one canonical bibliography and all rendered/generated copies; full/coastal/publication tests, actual1440/390 note returns, Save/reload, poster and four UI downloads; separate integrated review, passing required CI before exact-head merge, approved publication, actual live/archive verification and reviewed receipt. One substantive credit only after delivery.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "source_budgets": {
@@ -52,5 +52,31 @@
     ],
     "actual_UI_downloads": 4,
     "separate_final_review": "pending"
-  }
+  },
+  "verified_at": "2026-11-09T05:12:09.458Z",
+  "prepared_at": "2026-11-09T05:34:17.367509+00:00",
+  "completed_at": "2026-11-09T05:12:09.458Z",
+  "publication": {
+    "head": "eaf6029904fda43f3329d6589fe7b2c103c5acec",
+    "databaseId": 42563725192,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42563725192",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live_verification": {
+    "checked_at": "2026-11-09T05:12:09.458Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/knowledge/kotpad/",
+      "/textiles/"
+    ],
+    "images": true,
+    "producer_sha256": "9675a2b9fb1591f79d8e237a49ff0a14d0fabb18fdb06f258979c458c350294b",
+    "separate_review_sha256": "dfbdfd1819897281e1e9fc1f384f0d1ee9ef1223de0d4f9d4437f4ec3b45f6a4",
+    "evidence_manifest": "records/evidence/kotpad-editorial-2026-11-09/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "bb3a589280cedf89789208fa822973b726ea2bd7e5684fcf1f765ba6c047d71b"
+  },
+  "receipt": "records/kotpad-editorial-publication-2026-11-09.json",
+  "review": "records/kotpad-delivery-review-2026-11-09.json"
 }
