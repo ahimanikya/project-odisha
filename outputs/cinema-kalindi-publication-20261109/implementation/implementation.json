@@ -1,0 +1,143 @@
+{
+  "status": "complete_ready_for_independent_review",
+  "scope_released": true,
+  "marker": {
+    "path": "outputs/cinema-kalindi-publication-20261109/implementation/artifact-marker.json",
+    "sha256": "4fca5d2a7df1af142c903e6e3f5bcae3ae4c9fb66a6bf9fde1a4b50527b36b4c",
+    "successful_calls": 1
+  },
+  "commands": [
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-09 --revision kalindi-memoir --artifact-marker-evidence outputs/cinema-kalindi-publication-20261109/implementation/artifact-marker.json --edition digital",
+      "exit_code": 1,
+      "log": "outputs/cinema-kalindi-publication-20261109/implementation/digital-build.log",
+      "failure": "Stale literature-and-screen narrative source hash; root corrected scalar, existing patches unchanged."
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-09 --revision kalindi-memoir --artifact-marker-evidence outputs/cinema-kalindi-publication-20261109/implementation/artifact-marker.json --edition digital",
+      "exit_code": 0,
+      "log": "outputs/cinema-kalindi-publication-20261109/implementation/digital-retry.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-09 --revision kalindi-memoir --artifact-marker-evidence outputs/cinema-kalindi-publication-20261109/implementation/artifact-marker.json --edition print --layout-only",
+      "exit_code": 0,
+      "log": "outputs/cinema-kalindi-publication-20261109/implementation/print-layout.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --date 2026-11-09 --revision kalindi-memoir --artifact-marker-evidence outputs/cinema-kalindi-publication-20261109/implementation/artifact-marker.json --edition print --page-map tmp/pdfs/2026-11-09-kalindi-memoir/print/page-map.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-kalindi-publication-20261109/implementation/print-build.log"
+    }
+  ],
+  "editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "sha256": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+      "size_bytes": 38414010,
+      "receipt": "tmp/pdfs/2026-11-09-kalindi-memoir/digital/book-build-2026-11-09-kalindi-memoir.json",
+      "receipt_sha256": "a47feb03fef40b0b479ea4b673603b06132a2437a5329ace8bc9e488e4301fb5",
+      "pages": 272,
+      "notes": 545,
+      "book_readings": 49,
+      "online_readings": 50,
+      "render_dir": "tmp/pdfs/2026-11-09-kalindi-memoir/digital/pages",
+      "all_pages_rendered": true,
+      "render_count": 272,
+      "chapter_page_references_stable": true,
+      "page_map_changes": {},
+      "chapter_order_preserved": true,
+      "source_binding_changes": [
+        "literature-and-screen",
+        "kalindi-charan-panigrahi"
+      ],
+      "all49_current_source_hashes_match": true,
+      "image_count": 62,
+      "image_bytes_geometry_captions_credits_preserved_except_revision_path_and_note_number": true,
+      "embedded_image_bytes_match": true,
+      "source_image_bytes_match": true,
+      "integrated_profile_sources_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-08-school-audience.pdf",
+      "prior_pdf_unchanged": true,
+      "prior_pdf_sha256": "f50741862ebf2d250188be335a41e7816429ccd17531b2cb3bf952bccb25a80d",
+      "affected_body_pages": [
+        21,
+        30,
+        31
+      ],
+      "affected_note_pages": [
+        243,
+        244
+      ],
+      "contents_review": "No chapter or endmatter map changes; existing contents destinations remain current."
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+      "sha256": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+      "size_bytes": 51346148,
+      "receipt": "tmp/pdfs/2026-11-09-kalindi-memoir/print/book-build-2026-11-09-kalindi-memoir.json",
+      "receipt_sha256": "456d7a9b95d14c07bf2ae2588e86564857aac5619d5a2fc05edc7ac53eb340ff",
+      "pages": 278,
+      "notes": 545,
+      "book_readings": 49,
+      "online_readings": 50,
+      "render_dir": "tmp/pdfs/2026-11-09-kalindi-memoir/print/pages",
+      "all_pages_rendered": true,
+      "render_count": 278,
+      "chapter_page_references_stable": true,
+      "page_map_changes": {},
+      "chapter_order_preserved": true,
+      "source_binding_changes": [
+        "literature-and-screen",
+        "kalindi-charan-panigrahi"
+      ],
+      "all49_current_source_hashes_match": true,
+      "image_count": 62,
+      "image_bytes_geometry_captions_credits_preserved_except_revision_path_and_note_number": true,
+      "embedded_image_bytes_match": true,
+      "source_image_bytes_match": true,
+      "integrated_profile_sources_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-08-school-audience.pdf",
+      "prior_pdf_unchanged": true,
+      "prior_pdf_sha256": "79aa3dbaa2c2c04ae116d225e0d00af257b4392506bb860f0ee300488743e391",
+      "affected_body_pages": [
+        22,
+        31,
+        32
+      ],
+      "affected_note_pages": [
+        244,
+        245
+      ],
+      "contents_review": "No chapter or endmatter map changes; existing contents destinations remain current."
+    }
+  },
+  "baseline": {
+    "path": "outputs/cinema-kalindi-publication-20261109/implementation/baseline.json",
+    "count": 137,
+    "changed": {}
+  },
+  "manual_visual_review": {
+    "digital": [
+      21,
+      30,
+      31,
+      243,
+      244
+    ],
+    "print": [
+      22,
+      31,
+      32,
+      244,
+      245
+    ],
+    "result": "Changed body and notes readable; normal paragraph continuation in Kalindi, no isolated heading or clipped text observed. All pages rendered; only listed pages manually reviewed."
+  },
+  "limits": [
+    "Root owns source edits, binding correction, site validation and release metadata.",
+    "No builder/code/article/image changes performed by worker.",
+    "No claim of PDF/UA conformance or manual review of every page."
+  ]
+}

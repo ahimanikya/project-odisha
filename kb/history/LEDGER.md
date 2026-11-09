@@ -1517,6 +1517,16 @@ Original IKFF India 2017 trailer attribution and festival dates independently ve
 The Founder requested same-origin delivery for Dhaga and the character books. Six original character PDFs were retrieved with exact manifest hashes; the verified Dhaga PDF is staged during builds without committing the oversized file. Historical release backups remain. Capacity and independent delivery verification are pending; zero programme credit. [Handoff](../records/remaining-book-downloads-20261108.json).
 
 
+### 9 November 2026 · Original sources for the writer-payment enquiry
+
+Recovered and identified the Sahitya Akademi monograph, Kalindi Charan Panigrahi’s autobiography and a collected-writings volume. Bounded page inspection and separate review establish source access, not the reported Matira Manisha adaptation payment. The financial question remains open; no public article or book changes were warranted. Next work can read the author’s own account of writing and livelihood. Kala Academy’s reply and the Founder’s Bapa follow-up remain external dependencies. [Research record](../records/cinema-adaptation-terms-2026-11-08.json).
+
+
+### 9 November 2026 · Kalindi’s own account of writing and livelihood
+
+Read172consecutive scan pages from the autobiography’s later sections and distinguished memoir, reproduced letters, a1945critical appendix and publisher backmatter. His account supplies concrete novel-origin, editorial-payment and livelihood evidence. Independent selected-page review passed; no Matira Manisha film-rights payment established. Saved findings and scope limits; public articles, photographs and both downloads unchanged. No outreach, deployment or programme credit. [Research record](../records/cinema-kalindi-memoir-2026-11-09.json).
+
+
 ### 8 November 2026 · Dhaga and character downloads published and verified
 
 PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. Deployment42503735494 succeeded. Seven live PDFs match all original hashes and sizes, return application/pdf without redirects and support exact206byte ranges. Eight canonical images and11updated pages pass live checks; original source images remain unchanged. Chrome opened the live226-page Dhaga PDF. Hosted payload978560127bytes passes1GB. [Receipt](../records/remaining-book-downloads-20261108.json).

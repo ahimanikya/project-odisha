@@ -1,0 +1,37 @@
+{
+  "status": "PASS_LITERATURE_CONTENT",
+  "scope_released": true,
+  "source_sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+  "comparison_base": "a03feb02",
+  "input_hashes": {
+    "kb/research/culture/cinema-series/literature-and-screen.md": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+    "kb/research/people/kalindi-charan-panigrahi.md": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
+    "outputs/cinema-kalindi-publication-20261109/source-review.json": "b643832300bb6df43faccaef2a1d5b50251e66f31544df38a0b974e5a60ce4c1",
+    "outputs/cinema-kalindi-publication-20261109/review/profile-review.json": "4aac9a838675d090f8d765a5d208035909aed93fccf815fe27217254f0d3a931",
+    "outputs/cinema-kalindi-memoir-20261109/review.json": "a05245f0895c436605a5a88bf3ca85212853d4244d947fc073d4f2479e5d7aa3"
+  },
+  "checks": [
+    "Exact removal of the sole added paragraph and note restores all previous article body bytes; other existing uncertainty and support paragraphs intact.",
+    "Previously independently read original PDF308/printed300 supports the editorial payment proposal, acceptance and grateful contributor letters. Text maintains memoir attribution and periodical/film distinction.",
+    "Placement after stage-payment recollection and before unresolved film terms adds a distinct example without claiming a film fee, general tariff or personal receipt.",
+    "Compact note accurately identifies second edition2006 printed300 and original archive. Source metadata includes its URL."
+  ],
+  "memoir_budget": {
+    "method": "Conservative complete passage and note whitespace count; markdown link URLs excluded, source-derived title and editorial connectors included.",
+    "components": {
+      "profile_body": 74,
+      "profile_note": 21,
+      "literature_body": 42,
+      "literature_note": 13
+    },
+    "total": 150,
+    "cap": 200,
+    "direct_quote_words": 0,
+    "duplicate_book_render": "Same underlying passages; no additional paraphrase allowance created."
+  },
+  "required_corrections": [],
+  "limits": [
+    "Content gate only; final PDF/site layout, bindings and publication checks remain pending.",
+    "No public/shared/Git/build mutation by reviewer."
+  ]
+}

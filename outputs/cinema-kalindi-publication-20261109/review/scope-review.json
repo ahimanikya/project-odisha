@@ -1,0 +1,256 @@
+{
+  "status": "PASS_INTENDED_SCOPE_WITH_EXPLICIT_STAGING_EXCLUSIONS",
+  "scope_released": true,
+  "reference": {
+    "HEAD": "a03feb0279b77a5f6f3b8f2db7918d4ac39d6b9b",
+    "origin_main": "429dd3936a02aa7f6b8ba33c080d8cdf76ffc22f",
+    "index_paths_at_check": []
+  },
+  "committed_research_delta": {
+    "files": [
+      "kb/history/LEDGER.md",
+      "kb/history/ledger.jsonl",
+      "kb/index.md",
+      "kb/records/cinema-adaptation-terms-2026-11-08.json",
+      "kb/records/cinema-kalindi-memoir-2026-11-09.json",
+      "kb/research/culture/cinema-series/adaptation-terms-2026-11-08.json",
+      "kb/research/culture/cinema-series/kalindi-memoir-2026-11-09.json",
+      "kb/research/methods/research-map.md",
+      "outputs/cinema-adaptation-terms-20261108/baseline.json",
+      "outputs/cinema-adaptation-terms-20261108/editorial-assessment.json",
+      "outputs/cinema-adaptation-terms-20261108/primary-accounts.json",
+      "outputs/cinema-adaptation-terms-20261108/review.json",
+      "outputs/cinema-adaptation-terms-20261108/root-archive-acquisition.json",
+      "outputs/cinema-adaptation-terms-20261108/root-bibhaba-matches.json",
+      "outputs/cinema-adaptation-terms-20261108/root-reviewed-candidate.json",
+      "outputs/cinema-adaptation-terms-20261108/validation.json",
+      "outputs/cinema-kalindi-memoir-20261109/adaptation-reading.json",
+      "outputs/cinema-kalindi-memoir-20261109/author-writing.json",
+      "outputs/cinema-kalindi-memoir-20261109/baseline-check.json",
+      "outputs/cinema-kalindi-memoir-20261109/baseline.json",
+      "outputs/cinema-kalindi-memoir-20261109/review.json",
+      "outputs/cinema-kalindi-memoir-20261109/reviewed-candidate.json",
+      "outputs/cinema-kalindi-memoir-20261109/root-reading.json",
+      "outputs/cinema-kalindi-memoir-20261109/validation.json"
+    ],
+    "count": 24,
+    "binary_or_scan_files": [],
+    "assessment": "Compact research records and associated ledger/map/index additions only."
+  },
+  "tracked_pending": {
+    "intended": [
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "kb/research/culture/cinema-series/literature-and-screen.md",
+      "kb/research/culture/cinema-series/manifest.json",
+      "kb/research/people/kalindi-charan-panigrahi.md",
+      "kb/team/operations.json",
+      "outputs/cinema-literature-care-20261030/fragments/kalindi-charan-panigrahi-check.json",
+      "outputs/cinema-literature-care-20261030/fragments/kalindi-charan-panigrahi.html",
+      "outputs/cinema-literature-care-20261030/fragments/literature-and-screen-check.json",
+      "outputs/cinema-literature-care-20261030/fragments/literature-and-screen.html",
+      "projects/site/editions/coast.json",
+      "projects/site/src/data/cinema.json",
+      "projects/site/tests/book-downloads.test.mjs"
+    ],
+    "exclude_preserve_unstaged": [
+      "tools/cinema-book/build_tagged_reading.mjs",
+      "tools/cinema-book/test_tagged_reading.mjs"
+    ]
+  },
+  "source_diff": {
+    "canonical_articles_changed": [
+      {
+        "path": "kb/research/people/kalindi-charan-panigrahi.md",
+        "sha256": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
+        "matches_artifact_review": true
+      },
+      {
+        "path": "kb/research/culture/cinema-series/literature-and-screen.md",
+        "sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+        "matches_artifact_review": true
+      }
+    ],
+    "article_manifest_changes": [
+      {
+        "slug": "literature-and-screen",
+        "changed_keys": [
+          "research_date",
+          "source_sha256"
+        ]
+      },
+      {
+        "slug": "kalindi-charan-panigrahi",
+        "changed_keys": [
+          "research_date",
+          "source_sha256"
+        ]
+      }
+    ],
+    "assessment": "Only memoir passage/title/source-note integration in Kalindi and contributor-remuneration paragraph/note in Literature. Existing film-payment uncertainty retained; no retrospective Rs25000 claim adopted."
+  },
+  "shared_ownership": {
+    "current_task_unchanged": true,
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-124",
+      "handoff": "records/khandua-editorial-2026-11-09.json",
+      "scope_released": false
+    },
+    "changed_top_keys": [
+      "parallel_programmes"
+    ],
+    "assessment": "Only Cinema research and story expansion parallel-programme entry changes; Khandua current task remains intact."
+  },
+  "pdf_assets": [
+    {
+      "path": "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "bytes": 38414010,
+      "sha256": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+      "pages": 272,
+      "metadata_matches": true
+    },
+    {
+      "path": "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+      "bytes": 51346148,
+      "sha256": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+      "pages": 278,
+      "metadata_matches": true
+    }
+  ],
+  "prior_editions": [
+    {
+      "edition": "digital",
+      "retained_by_release_url_and_hash": true
+    },
+    {
+      "edition": "print",
+      "retained_by_release_url_and_hash": true
+    }
+  ],
+  "preservation": {
+    "article_order_equal": true,
+    "all_article_images_equal": true,
+    "standalone_intro_equal": true,
+    "book_override_change": "Literature source hash only; no book-only prose edits in narrative JSON."
+  },
+  "no_source_scan_adoption": {
+    "current_committed_delta": "No original PDF or rendered scan page added.",
+    "required_staging_rule": "Explicitly stage only the two new public/archive edition PDFs; do not stage outputs/cinema-adaptation-terms-20261108/root-memoir.pdf, root-collected-v2.pdf, root-pati.pdf, source-page renders or broad outputs/ directories.",
+    "candidate_receipts": "Compact publication record, source/implementation/review receipts and book-release manifest are appropriate; render mirrors, source captures and runtime logs unnecessary."
+  },
+  "limits": [
+    "Read-only local scope audit, not remote deployment or release verification.",
+    "Staging index was empty at inspection; root must recheck staged paths after applying explicit allowlist.",
+    "Untracked workspace includes unrelated accessibility record/tools and extensive historical outputs; those are not part of reviewed candidate.",
+    "Artifact-review receipt used for prior visual QA; this audit independently matched current source hashes and actual PDF bytes/pages, without claiming a new full visual review."
+  ],
+  "material_blockers": [],
+  "staging_followup": {
+    "status": "PASS",
+    "staged_path_count": 30,
+    "staged_paths": [
+      "kb/records/cinema-kalindi-publication-2026-11-09.json",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "kb/research/culture/cinema-series/literature-and-screen.md",
+      "kb/research/culture/cinema-series/manifest.json",
+      "kb/research/people/kalindi-charan-panigrahi.md",
+      "kb/team/operations.json",
+      "outputs/cinema-kalindi-publication-20261109/book-release-manifest.json",
+      "outputs/cinema-kalindi-publication-20261109/implementation/artifact-marker.json",
+      "outputs/cinema-kalindi-publication-20261109/implementation/baseline.json",
+      "outputs/cinema-kalindi-publication-20261109/implementation/digital-book-build.json",
+      "outputs/cinema-kalindi-publication-20261109/implementation/implementation.json",
+      "outputs/cinema-kalindi-publication-20261109/implementation/print-book-build.json",
+      "outputs/cinema-kalindi-publication-20261109/review/artifact-review.json",
+      "outputs/cinema-kalindi-publication-20261109/review/literature-review.json",
+      "outputs/cinema-kalindi-publication-20261109/review/profile-review.json",
+      "outputs/cinema-kalindi-publication-20261109/review/scope-review.json",
+      "outputs/cinema-kalindi-publication-20261109/root/baseline.json",
+      "outputs/cinema-kalindi-publication-20261109/root/browser-review.json",
+      "outputs/cinema-kalindi-publication-20261109/root/source-scope-check.json",
+      "outputs/cinema-kalindi-publication-20261109/root/verify-live.py",
+      "outputs/cinema-kalindi-publication-20261109/source-review.json",
+      "outputs/cinema-literature-care-20261030/fragments/kalindi-charan-panigrahi-check.json",
+      "outputs/cinema-literature-care-20261030/fragments/kalindi-charan-panigrahi.html",
+      "outputs/cinema-literature-care-20261030/fragments/literature-and-screen-check.json",
+      "outputs/cinema-literature-care-20261030/fragments/literature-and-screen.html",
+      "projects/site/editions/coast.json",
+      "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+      "projects/site/src/data/cinema.json",
+      "projects/site/tests/book-downloads.test.mjs"
+    ],
+    "unrelated_tagged_tools_excluded": true,
+    "staged_binary_files": [
+      "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf"
+    ],
+    "source_scans_excluded": true,
+    "foreign_current_task_unchanged": true,
+    "staged_operations_changes": [
+      "parallel_programmes"
+    ],
+    "previous_books_retained": true,
+    "deleted_paths": [],
+    "unrelated_untracked_not_adopted": "All30 staged paths explicitly enumerated; none are accessibility experiments, source scans, old render trees or unrelated narrative files.",
+    "index_modified_by_reviewer": false,
+    "receipt_restage_required": "This appended receipt changes the working copy only; coordinator must restage this exact JSON if retaining final staging result.",
+    "test_note": "Root reports full749/coast593 tests passing; not independently rerun in this source-scope audit."
+  },
+  "kotpad_merge_review": {
+    "status": "PASS",
+    "reviewed_cinema_HEAD": "79dc9290152538a8c57c812fb1cbfa1e18333eae",
+    "incoming_origin_main": "798de9882527ed03dd4aa3df8bb5972cc58596c9",
+    "incoming_changed_files": 25,
+    "exact_remote_files": 22,
+    "nonidentical_remote_files": [
+      "kb/records/editorial-workbench.json",
+      "kb/research/search-index.json",
+      "kb/team/operations.json"
+    ],
+    "exception_assessment": {
+      "kb/team/operations.json": "Only cinema parallel-programme differs from remote; foreign current_task and current_article match.",
+      "kb/records/editorial-workbench.json": "Only input hashes differ; all foreign records and other fields match remote.",
+      "kb/research/search-index.json": "Same1506 IDs; only methods/research-map entry differs, reflecting preserved cinema research additions."
+    },
+    "current_task_matches": true,
+    "current_article_matches": true,
+    "search_index_changed_ids": [
+      "methods/research-map"
+    ],
+    "workbench_changed_keys": [
+      "inputs"
+    ],
+    "article_pdf_preservation": [
+      {
+        "path": "kb/research/people/kalindi-charan-panigrahi.md",
+        "sha256": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      },
+      {
+        "path": "kb/research/culture/cinema-series/literature-and-screen.md",
+        "sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      },
+      {
+        "path": "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+        "sha256": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      },
+      {
+        "path": "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+        "sha256": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+        "unchanged_from_reviewed_HEAD": true,
+        "index_matches": true
+      }
+    ],
+    "unmerged_paths": [],
+    "unrelated_tools_staged": [],
+    "limits": "Merge index reviewed without modification. Root must restage this appended receipt; CI on the earlier cinema HEAD is not asserted to validate the new merge."
+  }
+}

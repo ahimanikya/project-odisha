@@ -1,0 +1,27 @@
+{
+  "status": "PASS_PROFILE_CONTENT",
+  "scope_released": true,
+  "source": "kb/research/people/kalindi-charan-panigrahi.md",
+  "source_sha256": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
+  "comparison_base": "a03feb02",
+  "input_hashes": {
+    "outputs/cinema-kalindi-publication-20261109/source-review.json": "b643832300bb6df43faccaef2a1d5b50251e66f31544df38a0b974e5a60ce4c1",
+    "outputs/cinema-kalindi-memoir-20261109/review.json": "a05245f0895c436605a5a88bf3ca85212853d4244d947fc073d4f2479e5d7aa3"
+  },
+  "checks": [
+    "Exact diff replaces the generic reading-options paragraph with sourced memoir detail, corrects the autobiography title against the original and adds one compact source note plus date/source metadata. Reverse replacement restores all remaining article body bytes.",
+    "Reused independent original-page review covers PDF284–285 novel invitation/completion, PDF372 mother/novel character, PDF345–346 livelihood and PDF375–376 radio/listener contact.",
+    "Autobiography qualifier establishes recollection; mother reference plainly concerns the novel before the separate film section. No film fee, rights assignment, exact employment date or actual film-viewing claim introduced.",
+    "Two concise paragraphs move from writing the novel to working livelihood, then literary recognition and subsequent stage/translation/film routes without obscuring contributor distinctions.",
+    "Correct2006 second-edition note supplies precise printed-page locators and archive provenance; original Odia title matches inspected title page."
+  ],
+  "word_counts": {
+    "new_memoir_body_whitespace_including_title": 74,
+    "new_note_whitespace_without_url": 21
+  },
+  "required_corrections": [],
+  "limits": [
+    "Profile source/content gate only; Literature addition and combined source budget require next sequential review.",
+    "No generated website/PDF or publication verification in this stage."
+  ]
+}
