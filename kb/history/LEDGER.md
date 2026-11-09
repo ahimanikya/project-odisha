@@ -1553,3 +1553,8 @@ PR732 merged59e20122 after required CI42511567194 succeeded on separately review
 ### 9 November 2026 · Kalindi’s memoir reaches the series and books
 
 The profile and Literature and Screen now include compact, source-reviewed accounts of writing, livelihood and periodical contributor payment. Film-adaptation payment remains unverified. Both matching books are published and their live downloads match the independently reviewed files. Chapter sequence, photographs, covers and earlier editions are preserved. No outreach or programme credit. [Publication receipt](../records/cinema-kalindi-publication-2026-11-09.json).
+
+
+### 9 November 2026 · Original film-support reports recovered
+
+Both Aaina annual-report originals were recovered through ordinary public download and all 56 pages visually inspected. They do not establish a named completed film receiving Dhwani/BPFTIO assistance. Four school/institution film credits provide a distinct children-as-makers lead; contemporaneous 2016 reporting dates one title earlier than the later annual-report mention. A concise attributed addition is proposed, with no film playback or outcome claim. Website, books, images and other worker scopes are preserved. No outreach, publication or programme credit. [Research handoff](../records/cinema-support-originals-2026-11-09.json).
