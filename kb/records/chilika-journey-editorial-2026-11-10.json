@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-128",
   "work_id": "POD-WORK-340",
   "programme_id": "POD-A500-149",
@@ -9,13 +9,14 @@
   "started_at": "2026-11-09T21:24:25.223530+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Publish a substantive native Chilika reading explaining the supported Patra hydrological context with original observation/planning questions. Preserve exact existing four chapters, four credited photographs, gateway distinctions, all journey Save IDs, source objects, links and complete existing downloads. Verify proposed new-source154 against actual canonical/native/metadata occurrences; retain historical Mangalajodi231 hold explicitly with no new derivation, reset or sibling compaction. Separate source/draft and integrated AI review, visible numbered notes/keyboard returns,1440/390 runtime, meaningful tests, exact-head required CI before merge, successful approved deployment, actual live/archive parity and separately reviewed receipt are required before a single substantive credit.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "source_budget": {
     "conditional_total": 154,
-    "actual_publication_audit": null,
-    "legacy_allowances": "Historical Mangalajodi231 lower bound retained unresolved; no new Mangalajodi/Kalijai/Satapada elaboration, reset or destructive compaction."
+    "actual_publication_audit": "PASS152",
+    "legacy_allowances": "Historical Mangalajodi231 lower bound retained unresolved; no new Mangalajodi/Kalijai/Satapada elaboration, reset or destructive compaction.",
+    "actual_total": 152
   },
   "author_proposal_sha256": "8925b7de1c7e682372fcee46685bc65247a26192794606e0d6dcef2a6aa4b2ac",
   "limits": [
@@ -36,5 +37,30 @@
     "receipt_pr": 748,
     "receipt_merge": "0313260e8ebb9231f7c707ce7b7497a539650cc4",
     "actual_delivery_sha256": "96ec6af2155245de610e4003664a3395fbb99e4177bf51baaab6b58d38890402"
-  }
+  },
+  "verified_at": "2026-11-09T23:15:53.398Z",
+  "prepared_at": "2026-11-09T23:24:17.308926+00:00",
+  "completed_at": "2026-11-09T23:15:53.398Z",
+  "publication": {
+    "head": "f4d7f9a8fa5694e4083a76f49877af7c3084d596",
+    "databaseId": 42715855017,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42715855017",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live_verification": {
+    "checked_at": "2026-11-09T23:15:53.398Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/journey-starters/chilika/"
+    ],
+    "images": true,
+    "producer_sha256": "d40057b119e5d6e9f210424fcfb6f7ff92a07e05aa4024247c774e02b763eb30",
+    "separate_review_sha256": "bdf23ba25bdd35bcb9d152ca6325e2edad13a30f98103d2b25cf71b2ea90d722",
+    "evidence_manifest": "records/evidence/chilika-journey-editorial-2026-11-10/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "7f1b47807160f728acab6f026c8564838e2d1fec3b0e611cb9777a3a41992902"
+  },
+  "receipt": "records/chilika-journey-editorial-publication-2026-11-10.json",
+  "review": "records/chilika-journey-delivery-review-2026-11-10.json"
 }
