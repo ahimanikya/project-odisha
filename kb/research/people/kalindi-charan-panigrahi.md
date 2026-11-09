@@ -4,9 +4,9 @@ title: "Kalindi Charan Panigrahi: A Writer Among People"
 description: "A literary circle, a varied writing life and the journeys of Matira Manisha through translation and cinema offer ways into Kalindi Charan Panigrahi’s work."
 author: "Ahimanikya Satapathy"
 status: "draft"
-research_date: "2026-11-05"
+research_date: "2026-11-09"
 human_review_claimed: false
-sources: [{"id": "penguin", "resource": "https://www.penguin.co.in/book/salt-of-the-earth/"}, {"id": "circle", "resource": "https://magazines.odisha.gov.in/orissareview/2013/aug-sept/engpdf/august-september_or.pdf"}, {"id": "works", "resource": "https://www.blackeaglebooks.org/product/matira-manisha/"}, {"id": "assamese", "resource": "https://sahitya-akademi.gov.in/publications/pdf/Assamese-catalogue.pdf"}, {"id": "film", "resource": "https://www.mrinalsen.org/matira_manisha.html"}, {"id": "fellow", "resource": "https://sahitya-akademi.gov.in/fellows/sahitya_akademi_fellowship.jsp"}, {"id": "monograph", "resource": "https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp"}, {"id": "penguin-translators", "resource": "https://cdn.penguin.co.in/wp-content/uploads/2022/03/Penguin-Press.pdf"}, {"id": "niyogi", "resource": "https://niyogibooksindia.com/books/born-of-the-soil/"}, {"id": "stage-route", "resource": "https://archive.org/details/dli.ministry.13663"}, {"id": "xth-muse", "resource": "https://indiancine.ma/documents/BEF"}]
+sources: [{"id": "penguin", "resource": "https://www.penguin.co.in/book/salt-of-the-earth/"}, {"id": "circle", "resource": "https://magazines.odisha.gov.in/orissareview/2013/aug-sept/engpdf/august-september_or.pdf"}, {"id": "works", "resource": "https://www.blackeaglebooks.org/product/matira-manisha/"}, {"id": "assamese", "resource": "https://sahitya-akademi.gov.in/publications/pdf/Assamese-catalogue.pdf"}, {"id": "film", "resource": "https://www.mrinalsen.org/matira_manisha.html"}, {"id": "fellow", "resource": "https://sahitya-akademi.gov.in/fellows/sahitya_akademi_fellowship.jsp"}, {"id": "monograph", "resource": "https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp"}, {"id": "penguin-translators", "resource": "https://cdn.penguin.co.in/wp-content/uploads/2022/03/Penguin-Press.pdf"}, {"id": "niyogi", "resource": "https://niyogibooksindia.com/books/born-of-the-soil/"}, {"id": "stage-route", "resource": "https://archive.org/details/dli.ministry.13663"}, {"id": "xth-muse", "resource": "https://indiancine.ma/documents/BEF"}, {"id": "kalindi-memoir", "resource": "https://drive.google.com/file/d/1Vzwx4D1ya-NcQjPaICgx99zCz1W04SEp/view"}]
 hero_image: "../media/cinema-series/photographs-2026-11-05/kalindi-charan-panigrahi-kalindi-amarujala-20261105.jpg"
 ---
 
@@ -28,9 +28,11 @@ Penguin describes the Sabuja movement through its Romanticism and inspiration fr
 
 ## More than one kind of book
 
-Alongside *Matira Manisha*, Panigrahi wrote the novels *Luhara Manisha*, *Ajira Manisha*, *Amarachita* and *Muktagadara Kshudha*. His work also includes the play *Padmini*, the essays *Sahitya Samachara* and *Sahityika*, biographies of Madhusudan Rao and Gauri Shankar, and the autobiography *Jaha Ange Nibhaichi*.[^works]
+Alongside *Matira Manisha*, Panigrahi wrote the novels *Luhara Manisha*, *Ajira Manisha*, *Amarachita* and *Muktagadara Kshudha*. His work also includes the play *Padmini*, the essays *Sahitya Samachara* and *Sahityika*, biographies of Madhusudan Rao and Gauri Shankar.[^works]
 
-These titles open different reading possibilities. Someone interested in the novelist can stay with fiction; another reader might turn to his account of his own life or his writing about other people. A screen adaptation can introduce a name, while the books allow that first interest to develop in several directions.
+In his autobiography *ଅଙ୍ଗେ ଯାହା ନିଭାଇଛି (Ange Jaha Nivaichhi)*, Kalindi recalls Balakrushna Kar inviting him to write a novel for Saraswat Press within two months. He wrote *Matira Manisha* in that period, drawing on village life. Elsewhere, he recognises his mother in its principal elderly woman.
+
+His writing life also included earning through textbooks, publicity and insurance work. Radio later offered something he valued as an author: contact with a wider range of listeners.[^kalindi-memoir]
 
 Panigrahi lived from 1901 to 1991. The Sahitya Akademi elected him a Fellow in 1971.[^fellow] The distinction belongs to the literary career as a whole, beyond the film through which some viewers may know him.
 
@@ -57,6 +59,8 @@ An Odia reader can look for Black Eagle Books’ 2022 edition of *Matira Manisha
 The brothers remain a place to begin. Land can pass from one generation to another; so can a story about what it means to share it. Through Odia, Assamese, English and cinema, different readers and viewers can enter that unsettled household.
 
 ## Footnotes & Sources
+
+[^kalindi-memoir]: Kalindi Charan Panigrahi, [*Ange Jaha Nivaichhi*](https://drive.google.com/file/d/1Vzwx4D1ya-NcQjPaICgx99zCz1W04SEp/view), second edition (Cuttack Students Store, 2006), pp. 276–277, 337–338, 364, 367–368; Odia Bibhaba/Srujanika scan.
 
 [^xth-muse]: Mrinal Sen, [“Xth Muse” interview](https://indiancine.ma/documents/BEF) (1967), reprinted in *Views on Cinema* (Ishan, 1977), p. 82.
 

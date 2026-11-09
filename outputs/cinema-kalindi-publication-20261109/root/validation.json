@@ -1,0 +1,38 @@
+{
+  "status": "candidate_checks_passed_publication_payload_running",
+  "full_build": "PASS:592pages",
+  "site_tests": {
+    "pass": 749,
+    "fail": 0
+  },
+  "coastal_build": "PASS",
+  "coastal_tests": {
+    "pass": 593,
+    "fail": 0
+  },
+  "coastal_downloads": {
+    "pass": 7,
+    "fail": 0
+  },
+  "disclosure_checks": {
+    "dist": {
+      "pages": 1213,
+      "violations": 0
+    },
+    "dist-coast": {
+      "pages": 1200,
+      "violations": 0
+    }
+  },
+  "required_record_checks": [
+    "check_bundle:PASS",
+    "validate_research_map:PASS",
+    "registers --check:PASS",
+    "check_team_assignments:PASS",
+    "check_autonomous_program:PASS"
+  ],
+  "source_review": "../source-review.json",
+  "artifact_review": "../review/artifact-review.json",
+  "browser_review": "browser-review.json",
+  "publication_payload": "running; do not merge or deploy before final result"
+}

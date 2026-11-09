@@ -1,0 +1,60 @@
+{
+  "id": "POD-CINEMA-KALINDI-PUBLICATION-20261109",
+  "date": "2026-11-09",
+  "status": "reviewed_pending_publication",
+  "authorization": "Good, let's add these findings to Kalindi’s profile and Literature and Screen, then publish the website update and both book downloads. Keep the film payment question open.",
+  "active_article": "/cinema/literature-and-screen/",
+  "scope_released": false,
+  "source_handoff": "records/cinema-kalindi-memoir-2026-11-09.json",
+  "publication_performed": false,
+  "programme_credit": 0,
+  "release_tag": "odia-cinema-book-2026-11-09-kalindi-memoir",
+  "sequence": [
+    "Kalindi profile: integrate and review",
+    "Literature and Screen: integrate and review",
+    "Build and inspect both books",
+    "Update website download bindings; validate, publish and verify live bytes"
+  ],
+  "reserved_scopes": {
+    "Disha": [
+      "Two canonical article sources, sequentially",
+      "Shared KB registers, release metadata, Git and deployment",
+      "projects/site/src/data/cinema.json",
+      "kb/research/culture/cinema-series/manifest.json",
+      "projects/site/editions/coast.json current cinema PDFs only",
+      "projects/site/tests/book-downloads.test.mjs current cinema pins only",
+      "projects/site/public/archive/ new cinema PDFs",
+      "outputs/cinema-kalindi-publication-20261109/root/",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json: literature source binding only"
+    ],
+    "Anvesha": [
+      "outputs/cinema-kalindi-publication-20261109/source-review.json"
+    ],
+    "Samanta": [
+      "output/pdf/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "output/pdf/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+      "tmp/pdfs/2026-11-09-kalindi-memoir/",
+      "outputs/cinema-kalindi-publication-20261109/implementation/"
+    ],
+    "Drishti": [
+      "outputs/cinema-kalindi-publication-20261109/review/"
+    ]
+  },
+  "boundaries": [
+    "Keep film compensation unverified; no amount introduced.",
+    "Preserve photographs, covers, chapter order, earlier PDFs, standalone introduction and unrelated tagged-reader experiments.",
+    "Preserve foreign Khandua receipt current_task; only cinema parallel scope changes.",
+    "Existing approved host and release workflow; no outreach."
+  ],
+  "remote_reconciled": "429dd3936a02aa7f6b8ba33c080d8cdf76ffc22f",
+  "profile_review": "outputs/cinema-kalindi-publication-20261109/review/profile-review.json",
+  "literature_review": "outputs/cinema-kalindi-publication-20261109/review/literature-review.json",
+  "combined_memoir_word_count": 150,
+  "book_manifest": "outputs/cinema-kalindi-publication-20261109/book-release-manifest.json",
+  "source_review": "outputs/cinema-kalindi-publication-20261109/source-review.json",
+  "implementation": "outputs/cinema-kalindi-publication-20261109/implementation/implementation.json",
+  "final_review": "outputs/cinema-kalindi-publication-20261109/review/artifact-review.json",
+  "final_review_sha256": "ec523824216899bf56c0a0f3b6a67a1d21540dc3752874508cf1c847626ecbd8",
+  "browser_review": "outputs/cinema-kalindi-publication-20261109/root/browser-review.json",
+  "next_action": "Complete publication payload checks, upload reviewed editions, merge approved website change and verify live pages and exact PDF bytes."
+}
