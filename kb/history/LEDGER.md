@@ -1558,3 +1558,8 @@ The profile and Literature and Screen now include compact, source-reviewed accou
 ### 9 November 2026 · Original film-support reports recovered
 
 Both Aaina annual-report originals were recovered through ordinary public download and all 56 pages visually inspected. They do not establish a named completed film receiving Dhwani/BPFTIO assistance. Four school/institution film credits provide a distinct children-as-makers lead; contemporaneous 2016 reporting dates one title earlier than the later annual-report mention. A concise attributed addition is proposed, with no film playback or outcome claim. Website, books, images and other worker scopes are preserved. No outreach, publication or programme credit. [Research handoff](../records/cinema-support-originals-2026-11-09.json).
+
+
+### 9 November 2026 · Student filmmakers join Cinema Futures
+
+Two documented examples now connect children making films to the Kallola discussion. One compact note distinguishes the 2016 screening from the later annual-report mention. Both matching books are published and their live downloads match the independently reviewed files. The production-support question remains open; no recipient, payment or measured outcome is inferred. Chapter order, images, covers, prior editions and concurrent Tasar work are preserved. No new outreach or programme credit. [Publication receipt](../records/cinema-student-films-publication-2026-11-09.json).

@@ -1,0 +1,86 @@
+{
+  "status": "PASS_DELIVERY",
+  "scope_released": true,
+  "input_hashes": {
+    "outputs/cinema-student-films-publication-20261109/root/hosted-validation.json": "93a6eb88213d0917186a63bc45e4f9a1be9b5847fcf7b85c74fa75ac95f30c03",
+    "outputs/cinema-student-films-publication-20261109/root/merged-pr.json": "d3c5bc1e05dd03822c37f4f4918574bab8045d3513defb0c46b63220f7ce9dcc",
+    "outputs/cinema-student-films-publication-20261109/root/deployment.json": "39d12d39fb8d0f72fbcf8753d20e15c191dcb77d3465055e0e9672bf97dcf99b",
+    "outputs/cinema-student-films-publication-20261109/root/release-verification.json": "b22f15fac25d4d6497dc3b24638cad9ec80c328d89328423a7b5b417be6af57b",
+    "outputs/cinema-student-films-publication-20261109/root/live-verification.json": "d3402b6d64b8a4cf85c3aae0a6b9ff975de5ffc6e3a177f9880c713fe8aa7657",
+    "outputs/cinema-student-films-publication-20261109/root/release-response.json": "40ac7cb7e19e900c35a3201eff5067bba8f20957aaa082b86cba02da6618e7c5",
+    "outputs/cinema-student-films-publication-20261109/root/local-validation.json": "1f1aeb35fbad25ca23a0492445b9df3e9155e289c2fb99edaf60b3fa0aeb2b59",
+    "outputs/cinema-student-films-publication-20261109/book-release-manifest.json": "e84df0f890a821b4ada9d8bf8f920e6cd924a08be08382e7779010cf1fcec9e8",
+    "outputs/cinema-student-films-publication-20261109/review/artifact-review.json": "c4176c84da5fb2e2e20459d627498e49f1fdf4007d23fc527cca11b26211e2aa",
+    "outputs/cinema-student-films-publication-20261109/review/article-review.json": "05ebda1fd91c54d52ddd67a726f537e06f6ac0ad20ad72a1740e0a14b2a97fcb",
+    "outputs/cinema-student-films-publication-20261109/review/website-render-review.json": "e20cf6eef9bb9ca060d1e1a398b8b72116c3f24d7960c561bd4acd8646496e80",
+    "kb/research/culture/cinema-series/cinema-futures.md": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-site-tests.log": "7fa635ce68204259c9c39218deb48f34d8bc765e2e2c5528b8a1dc1d012b766c",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-coast-tests.log": "ca6e39ffd5849d28f640b1aa88f7180deae704c75ec372d724e99768af8b9706",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-coast-audit.log": "35d688b5676794131078a1e1c92f73afbba63a8fa773184a9b4fe01b926f0b86",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-discovery-audit.log": "09c423d475e8963579b10e20800a8f5b289b44a3e177670e9f3699a360c2ba1c",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-launch-audit.log": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-search-audit.log": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-disclosures-full.log": "0f541b92971572eb343cbe4e9a0560edcdf6950385fdb7773864d5a42a910886",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-disclosures-coast.log": "31a83465af669dc51842cf58c3bb6d1cba1ee540966b4f66b8e90c9a32c7adeb",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-disclosures-publish.log": "dc8542d05637f839e1a562a8d852c921676f5e83dd3b3538dd30d16892d29e73",
+    "outputs/cinema-student-films-publication-20261109/root/integrated-publication-download-tests.log": "673c223b88ccf9be071d011f5d26be64538815670ba4435c591b626107149f3c"
+  },
+  "publication": {
+    "pr": 744,
+    "reviewed_head": "256297790d19189fe4a73576cb3bff46745d5b6a",
+    "merge_commit": "0016872cdd794904a907034e159e960f7e619fd1",
+    "hosted_validation_run": 42653399937,
+    "deployment_run": 42655982354,
+    "release_tag": "odia-cinema-book-2026-11-09-student-films",
+    "live_checked_at_utc": "2026-11-09T16:49:35.233368+00:00"
+  },
+  "checks": [
+    "Required hosted success is tied to exact PR head; successful deployment is tied to actual merge.",
+    "Public non-draft release API PDF digests and sizes match reviewed manifest and artifact report.",
+    "Coordinator actual live GET/range records for both editions match exact reviewed hashes/bytes; two expected routes report content/link checks PASS.",
+    "Current source hash equals independent article gate; previous artifact and generated HTML reviews remain separately preserved.",
+    "Local validation log hashes match retained summaries."
+  ],
+  "downloads": [
+    {
+      "edition": "digital",
+      "sha256": "bb421e0942e6f3b9822e1c211aefa9885121457a9df201169dff5f94fd3f15c1",
+      "bytes": 38415240,
+      "pages": 272,
+      "live_url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-2026-11-09-student-films.pdf",
+      "live_get_and_range_reported_pass": true,
+      "github_digest_matches": true
+    },
+    {
+      "edition": "print",
+      "sha256": "74a4b82419b82d9ab93b7d20ea7df9a3d9fef2030dcb6e05130730a285d797d2",
+      "bytes": 51347179,
+      "pages": 278,
+      "live_url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-print-2026-11-09-student-films.pdf",
+      "live_get_and_range_reported_pass": true,
+      "github_digest_matches": true
+    }
+  ],
+  "verified_routes": [
+    {
+      "url": "https://projectodisha.org/cinema/cinema-futures/",
+      "status": 200,
+      "assertions": "PASS",
+      "sha256": "c9ab575c1a6cbde50bf76ff7fe3e8b5865dbb869e85ebf31d7a2c37dd3fee9e1"
+    },
+    {
+      "url": "https://projectodisha.org/cinema/book/",
+      "status": 200,
+      "assertions": "PASS",
+      "sha256": "144603d20f837897caccc86ad1c3925eda8b3b3c48e621141ae45c752791617e"
+    }
+  ],
+  "historical_status_clarification": "local-validation.json publication_performed=false and hosted_check_pending describe its prepublication stage. Later exact-head hosted/deployment/live records establish delivered status; historical file is not rewritten. Manifest reviewed_release_candidate likewise retains preparation provenance.",
+  "open_question": "Named completed Dhwani/BPFTIO-supported production remains unestablished. Student-film screening/organizer mentions establish neither delivered production support nor payment or learning outcomes.",
+  "required_corrections": [],
+  "limits": [
+    "Evidence reconciliation only: no repeated network transfer or heavy PDF rehash in this delivery pass; exact artifact bytes were hashed in prior independent artifact review.",
+    "Live HTTP and browser observations belong to coordinator; reviewer did not perform new UI automation or claim independent live viewing.",
+    "No whole-book visual audit, human approval or accessibility certification implied."
+  ]
+}
