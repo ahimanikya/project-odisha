@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "knowledge_checks": "outputs/cinema-biyott-publication-20261110/root/knowledge-checks.json",
+  "site_checks": "outputs/cinema-biyott-publication-20261110/root/site-checks.json",
+  "site_tests": 760,
+  "coast_tests": 595,
+  "fixes": [
+    "Added explicit companion search decision after5source testsfailed;760subsequentlypassed.",
+    "Regenerated editorial-workbench Coast input fingerprint after hosted check reported a stale file; local Python 6 tests and Node 3 tests passed."
+  ],
+  "pages_payload": {
+    "result": "PASS",
+    "bytes": 868844500,
+    "files": 2878,
+    "guard_tests": 14
+  },
+  "disclosure_checks": "Full/coast/publication allPASS",
+  "book_downloads": "Final SHA/size guard remains pinned and passed in760tests",
+  "limits": "Local verification; hosted CI/deployment stillpending."
+}
