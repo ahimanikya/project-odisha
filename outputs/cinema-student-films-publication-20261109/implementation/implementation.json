@@ -1,0 +1,135 @@
+{
+  "status": "complete_ready_for_independent_review",
+  "scope_released": true,
+  "marker": {
+    "path": "outputs/cinema-student-films-publication-20261109/implementation/artifact-marker.json",
+    "sha256": "ff31a5c0b3646385f65c05760e32e1461444e5e06b179486717d253cdc71ae99",
+    "successful_calls": 1
+  },
+  "commands": [
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition digital --date 2026-11-09 --revision student-films --artifact-marker-evidence outputs/cinema-student-films-publication-20261109/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-student-films-publication-20261109/implementation/digital-final.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition print --layout-only --date 2026-11-09 --revision student-films --artifact-marker-evidence outputs/cinema-student-films-publication-20261109/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-student-films-publication-20261109/implementation/print-layout.log"
+    },
+    {
+      "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 output/pdf/build_book.py --edition print --page-map tmp/pdfs/2026-11-09-student-films/print/page-map.json --date 2026-11-09 --revision student-films --artifact-marker-evidence outputs/cinema-student-films-publication-20261109/implementation/artifact-marker.json",
+      "exit_code": 0,
+      "log": "outputs/cinema-student-films-publication-20261109/implementation/print-final.log"
+    }
+  ],
+  "superseded_first_pass": {
+    "receipt": "outputs/cinema-student-films-publication-20261109/implementation/digital-first-pass-superseded.json",
+    "reason": "Root corrected source frontmatter date and source metadata without body changes; digital rebuilt with same marker."
+  },
+  "editions": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-09-student-films.pdf",
+      "sha256": "bb421e0942e6f3b9822e1c211aefa9885121457a9df201169dff5f94fd3f15c1",
+      "size_bytes": 38415240,
+      "receipt": "tmp/pdfs/2026-11-09-student-films/digital/book-build-2026-11-09-student-films.json",
+      "receipt_sha256": "31ca591675498f6ef0ccdbdd020c7e7914382359c122c44bbf8d4d749da9dea4",
+      "pages": 272,
+      "notes": 546,
+      "book_readings": 49,
+      "online_readings": 50,
+      "render_dir": "tmp/pdfs/2026-11-09-student-films/digital/pages",
+      "render_count": 272,
+      "all_pages_rendered": true,
+      "chapter_page_references_stable": true,
+      "chapter_order_preserved": true,
+      "page_map_changes": {},
+      "source_binding_changes": [
+        "cinema-futures"
+      ],
+      "all49_current_source_hashes_match": true,
+      "image_count": 62,
+      "image_bytes_geometry_captions_credits_preserved_except_revision_path_and_note_number": true,
+      "source_and_embedded_image_bytes_match": true,
+      "integrated_profile_sources_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf": "output/pdf/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf",
+      "prior_pdf_sha256": "2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0",
+      "prior_pdf_unchanged": true,
+      "affected_body_pages": [
+        205,
+        206,
+        207
+      ],
+      "affected_note_pages": [
+        270
+      ]
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-09-student-films.pdf",
+      "sha256": "74a4b82419b82d9ab93b7d20ea7df9a3d9fef2030dcb6e05130730a285d797d2",
+      "size_bytes": 51347179,
+      "receipt": "tmp/pdfs/2026-11-09-student-films/print/book-build-2026-11-09-student-films.json",
+      "receipt_sha256": "2835e73a810a9442224105575ad6944a0e931e24fef36f2d761af276d0d25b75",
+      "pages": 278,
+      "notes": 546,
+      "book_readings": 49,
+      "online_readings": 50,
+      "render_dir": "tmp/pdfs/2026-11-09-student-films/print/pages",
+      "render_count": 278,
+      "all_pages_rendered": true,
+      "chapter_page_references_stable": true,
+      "chapter_order_preserved": true,
+      "page_map_changes": {},
+      "source_binding_changes": [
+        "cinema-futures"
+      ],
+      "all49_current_source_hashes_match": true,
+      "image_count": 62,
+      "image_bytes_geometry_captions_credits_preserved_except_revision_path_and_note_number": true,
+      "source_and_embedded_image_bytes_match": true,
+      "integrated_profile_sources_preserved": true,
+      "cover_preserved": true,
+      "prior_pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf",
+      "prior_pdf_sha256": "78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd",
+      "prior_pdf_unchanged": true,
+      "affected_body_pages": [
+        206,
+        207,
+        208
+      ],
+      "affected_note_pages": [
+        271
+      ]
+    }
+  },
+  "preservation": {
+    "protected_builder_tools_previous_pdfs": {
+      "count": 5,
+      "changed": {}
+    },
+    "final_build_inputs": {
+      "count": 112,
+      "changed": {}
+    }
+  },
+  "manual_visual_review": {
+    "digital": [
+      205,
+      206,
+      207,
+      270
+    ],
+    "print": [
+      206,
+      207,
+      208,
+      271
+    ],
+    "result": "New student-film paragraph, surrounding flow, chapter ending and numbered note legible with no observed clipping or orphaned heading. All pages rendered; only listed pages manually reviewed."
+  },
+  "limits": [
+    "No builder, public source, release metadata or tagged-reader edits performed by worker.",
+    "Root owns source and website/release binding changes."
+  ]
+}
