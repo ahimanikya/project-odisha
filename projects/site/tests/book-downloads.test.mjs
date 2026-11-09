@@ -9,8 +9,8 @@ const stage=process.env.BOOK_DOWNLOAD_STAGE||'dist';
 assert.ok(['source','dist','dist-coast','dist-publish'].includes(stage),'Unknown BOOK_DOWNLOAD_STAGE');
 const json=p=>JSON.parse(readFileSync(p,'utf8'));
 const expected=[
- {edition:'digital',file:'/archive/odia-cinema-a-living-screen-2026-11-09-kalindi-memoir.pdf',bytes:38414010,pages:272,sha256:'2ad9fba1a9e36e2b230cc25c9ad4d3a9676754a7e854dabe1c8c8c893b2c28c0'},
- {edition:'print',file:'/archive/odia-cinema-a-living-screen-print-2026-11-09-kalindi-memoir.pdf',bytes:51346148,pages:278,sha256:'78bcb49606ea4f2b13aebc39f58a69db4c3fa2828189683f6abea7806a8518fd'},
+ {edition:'digital',file:'/archive/odia-cinema-a-living-screen-2026-11-09-student-films.pdf',bytes:38415240,pages:272,sha256:'bb421e0942e6f3b9822e1c211aefa9885121457a9df201169dff5f94fd3f15c1'},
+ {edition:'print',file:'/archive/odia-cinema-a-living-screen-print-2026-11-09-student-films.pdf',bytes:51347179,pages:278,sha256:'74a4b82419b82d9ab93b7d20ea7df9a3d9fef2030dcb6e05130730a285d797d2'},
  {edition:'introduction',file:'/archive/the-question-that-brought-me-here-2026-11-06.pdf',bytes:992878,pages:6,sha256:'8c5db39b9ee5fc262409c8636ca5abdb624774347c67e728a4fedc199934a933'},
 ];
 function verify(root,book){
