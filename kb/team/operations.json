@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/tasar-editorial-2026-11-09.json",
+  "handoff_home": "records/chilika-journey-editorial-2026-11-10.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-128",
+    "route": "/journey-starters/chilika/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/chilika-journey-editorial-2026-11-10.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-127",
-    "handoff": "records/global-connections-editorial-2026-11-09.json",
+    "status": "in_progress",
+    "article_id": "POD-EDIT-128",
+    "handoff": "records/chilika-journey-editorial-2026-11-10.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -316,6 +322,23 @@
         "handoff": "records/kotpad-editorial-2026-11-09.json",
         "scope_released": false
       },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-127",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 748,
+      "receipt_merge": "0313260e8ebb9231f7c707ce7b7497a539650cc4",
+      "delivery_sha256": "96ec6af2155245de610e4003664a3395fbb99e4177bf51baaab6b58d38890402",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-127",
+        "handoff": "records/global-connections-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
       "credit_added_here": 0
     }
   ],

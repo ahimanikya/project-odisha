@@ -3325,12 +3325,17 @@
       "id": "POD-EDIT-128",
       "route": "/journey-starters/chilika/",
       "title": "Chilika, one shore at a time",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "substantive_native_ecological_reading",
       "source_template": "projects/site/src/pages/journey-starters/chilika.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/chilika-journey-editorial-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-09T21:24:25.223530+00:00"
     },
     {
       "id": "POD-EDIT-129",
