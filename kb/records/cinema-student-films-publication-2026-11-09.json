@@ -1,11 +1,11 @@
 {
   "id": "POD-CINEMA-STUDENT-FILMS-PUBLICATION-20261109",
   "date": "2026-11-09",
-  "status": "reviewed_artifacts_website_checks_pending",
+  "status": "published_verified",
   "authorization": "User requests student-film examples in Cinema Futures, website publication and both updated book downloads; keep production-support question open.",
-  "active_article": "cinema-futures",
-  "scope_released": false,
-  "publication_performed": false,
+  "active_article": null,
+  "scope_released": true,
+  "publication_performed": true,
   "programme_credit": 0,
   "source_handoff": "records/cinema-support-originals-2026-11-09.json",
   "release_tag": "odia-cinema-book-2026-11-09-student-films",
@@ -21,10 +21,54 @@
     "Preserve foreign programme ownership and integrate any concurrent publication before deploying",
     "No new outreach"
   ],
-  "next_action": "Preserve concurrent Tasar publication, complete website gates, upload exact books, publish and verify live files.",
+  "next_action": "Student-film examples and both matching downloads are live. Keep production-support delivery open until a named completed-film recipient is evidenced; await Kala Academy and Founder Bapa follow-ups. Receipt-only changes require no further deployment.",
   "article_sha256": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950",
   "source_review": "outputs/cinema-student-films-publication-20261109/source-review.json",
   "article_review": "outputs/cinema-student-films-publication-20261109/review/article-review.json",
   "artifact_review": "outputs/cinema-student-films-publication-20261109/review/artifact-review.json",
-  "book_manifest": "outputs/cinema-student-films-publication-20261109/book-release-manifest.json"
+  "book_manifest": "outputs/cinema-student-films-publication-20261109/book-release-manifest.json",
+  "book_assets_published": true,
+  "implementation": "outputs/cinema-student-films-publication-20261109/implementation/implementation.json",
+  "website_review": "outputs/cinema-student-films-publication-20261109/review/website-render-review.json",
+  "delivery_review": "outputs/cinema-student-films-publication-20261109/review/delivery-review.json",
+  "live_verification": "outputs/cinema-student-films-publication-20261109/root/live-verification.json",
+  "release": {
+    "pr": 744,
+    "pr_url": "https://github.com/ahimanikya/project-odisha/pull/744",
+    "reviewed_head": "256297790d19189fe4a73576cb3bff46745d5b6a",
+    "merge_commit": "0016872cdd794904a907034e159e960f7e619fd1",
+    "validation_run": 42653399937,
+    "validation_result": "success",
+    "deployment_run": 42655982354,
+    "deployment_result": "success",
+    "release_tag": "odia-cinema-book-2026-11-09-student-films",
+    "live_verification": "outputs/cinema-student-films-publication-20261109/root/live-verification.json"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 42655982354,
+    "headSha": "0016872cdd794904a907034e159e960f7e619fd1",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42655982354"
+  },
+  "verified_routes": [
+    "/cinema/cinema-futures/",
+    "/cinema/book/"
+  ],
+  "concurrent_reconciliation": {
+    "incorporated_remote_head": "c5ec56d1826edd58beed1d780a2854b4a6971808",
+    "foreign_article": "POD-EDIT-126",
+    "foreign_scope_preserved": true,
+    "reviewed_article_and_pdfs_unchanged": true
+  },
+  "production_support": {
+    "status": "open",
+    "named_completed_recipient_verified": false,
+    "reopen_only_on": "Identifiable named recipient/completed-film record; no inference from student works."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/744",
+  "delivery_review_sha256": "48f188f6ca4c75ba2522afd7746e64710fa8512892e4e866f78df09d8f50ff64",
+  "research_boundary_check": "outputs/cinema-student-films-publication-20261109/research-boundary-check.json",
+  "local_validation": "outputs/cinema-student-films-publication-20261109/root/local-validation.json",
+  "live_browser_review": "outputs/cinema-student-films-publication-20261109/root/live-browser-review.json"
 }
