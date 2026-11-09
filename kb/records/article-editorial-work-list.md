@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1085. completed: 194, excluded: 627, queued: 264.
+Route inventory: 1085. completed: 195, excluded: 627, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1108,4 +1108,4 @@ Route inventory: 1085. completed: 194, excluded: 627, queued: 264.
 | POD-EDIT-KALINGA-20261108 | [Reading Kalinga Beyond Odisha’s Borders](https://projectodisha.org/stories/reading-kalinga-beyond-odisha/) | completed | history_heritage_feature |
 | POD-EDIT-HISTORY-HUB-20261108 | [History and heritage](https://projectodisha.org/history/) | excluded | collection_navigation |
 | POD-EDIT-DAMAN-TEAM-20261108 | [The people behind DAMaN](https://projectodisha.org/cinema/daman-team/) | completed | Consolidate three filmmaker profiles into one online reading; preserve originals, individual anchors and existing book integration. |
-| POD-EDIT-BIYOTT-20261110 | [Biyott Projna Tripathy: Finding a Story’s Form](https://projectodisha.org/people/biyott-projna-tripathy/) | queued | Cinema companion profile: writing, documentary and collaborative filmmaking. |
+| POD-EDIT-BIYOTT-20261110 | [Biyott Projna Tripathy: Finding a Story’s Form](https://projectodisha.org/people/biyott-projna-tripathy/) | completed | Cinema companion profile: writing, documentary and collaborative filmmaking. |
