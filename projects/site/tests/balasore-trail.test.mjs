@@ -47,5 +47,18 @@ test('Balasore page and contributions preserve access uncertainty, literary prov
  assert.ok(readFileSync('dist/contribute/index.html','utf8').includes('value="/journey-starters/balasore/"'));
  assert.ok(localContributionPrompts.shore.questions.join(' ').includes('tide prediction'));
  assert.ok(localContributionPrompts.literary.evidence.includes('fictional setting'));
- assert.ok(page.includes('No tide timetable'));assert.match(page,/<summary[^>]*>Photographs &(?:amp;)? source notes<\/summary>/);
+ assert.ok(page.includes('No tide timetable'));assert.match(page,/<section\b[^>]*class="trail-credits"[^>]*aria-labelledby="trail-credits-title"/);assert.match(page,/<h2\b[^>]*id="trail-credits-title"[^>]*>Photographs &(?:amp;)? source notes<\/h2>/);assert.doesNotMatch(page,/<details\b[^>]*class="trail-credits"/);
+});
+
+test('Balasore native reading preserves exact paragraphs and accessible source boundary',()=>{
+ const editorial=JSON.parse(readFileSync('../../kb/research/destinations/balasore-journey-editorial.json','utf8'));
+ const visible=page.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+ for(const p of editorial.paragraphs)assert.ok(visible.includes(p.text));
+ assert.ok(visible.includes(editorial.byline));assert.ok(visible.includes(editorial.sources[0].note));
+ assert.match(page,/id="balasore-reading-ref-1"[^>]*href="#balasore-reading-note-1"/);
+ assert.match(page,/id="balasore-reading-note-1"[^>]*tabindex="-1"/);
+ assert.match(page,/href="#balasore-reading-ref-1"[^>]*data-footnote-backref[^>]*aria-label="Return to reference 1"/);
+ assert.ok(page.includes('href="#visitor-trail-title-northern-stories"'));
+ assert.ok(!JSON.stringify(data).includes(editorial.paragraphs[1].text));
+ const plan=create();for(const output of [buildTourBook(plan,data.catalog,{trails:data.trails}),buildTextItinerary(plan,data.catalog,{trails:data.trails})]){for(const p of editorial.paragraphs)assert.ok(!output.includes(p.text));for(const ch of trail.chapters)assert.ok(output.includes(ch.title));}
 });
