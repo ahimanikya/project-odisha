@@ -12,7 +12,7 @@ const opening=book.bookends.slice(0,2),closing=book.bookends.slice(2);
 ---
 <Shell title={`${book.title} — the book`} description="Read the nine chapters of Mirgan Households and Kotpad Textiles online, or download the complete first reading edition." active="explore" related={false} shareImage={{src:book.cover.src,alt:book.cover.alt,width:book.cover.width,height:book.cover.height}}>
 <article class="article-reading kotpad-reading">
-<p><a href="/stories/kotpad/">← All chapters</a></p>
+<p><a href="/books/">← All books</a> · <a href="/stories/kotpad/">All chapters</a></p>
 <header><p class="eyebrow">The book · First reading edition</p><h1>{book.title}</h1><p>{book.subtitle}</p><ArticleByline author={book.author}/></header>
 <div class="book-opening"><figure><ResponsiveImage src={book.cover.src} sizes="(max-width: 640px) 256px, 288px" alt={book.cover.alt} width={book.cover.width} height={book.cover.height} fetchpriority="high"/><figcaption>The cover of the first reading edition.</figcaption></figure><div>{book.synopsis.map(p=><p>{p}</p>)}<p><a href={book.download.file}>Download the complete reading edition · PDF</a></p><p class="download-detail">{book.download.pages} pages, including the front and back covers.</p><p><a href="#introduction">Begin with the introduction →</a></p></div></div>
 <nav id="contents" class="book-contents" aria-label="Book contents"><h2>Read the book online</h2><ol>{opening.map(s=><li><a href={`#${s.id}`}>{s.title}</a></li>)}<li><a href="#chapters">Nine connected chapters</a></li>{closing.map(s=><li><a href={`#${s.id}`}>{s.title}</a></li>)}<li><a href="#references">Footnotes &amp; Sources</a></li></ol></nav>

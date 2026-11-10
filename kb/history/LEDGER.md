@@ -1609,3 +1609,7 @@ Read the complete first-page journal preview and prepared a concise, separately 
 ### 10 November 2026 · Literary examples and both Cinema editions published
 
 Published the reviewed Nilamani Sahu printed-dramatization example in Literature and Screen and the opening-page Palmful observation in Biyott Projna Tripathy’s profile. Separate source, article, PDF and staged-release gates passed; current-main integration preserved other work. Both live PDFs match reviewed bytes: 273 digital pages and 278 print pages, 49 chapters and 550 notes. Numbered sources, existing imagery and prior editions remain intact. Original-story, first-publication, translation, film-credit, compensation and delivered-support questions retain their limits. No outreach or programme credit. [Publication and verification](../records/cinema-literary-publication-2026-11-10.json).
+
+### 10 November 2026 · Mirgan and Kotpad companion book published
+
+Published the reviewed Mirgan Households and Kotpad Textiles book as a separate companion to Dongaria: two book entrances, nine chapter pages, 36 references and a 58-page reading PDF with both covers. Separate source and quality reviews, site checks and the approved publication workflow passed. All eleven live routes and reciprocal companion links were verified; the live PDF matches the reviewed bytes. Desk-research limitations remain explicit; printer and ISBN remain deferred. No new research, fieldwork, outreach or autonomous programme credit. [Publication receipt](../records/mirgan-kotpad-publication-20261110.json).
