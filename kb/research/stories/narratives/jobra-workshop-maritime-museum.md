@@ -46,3 +46,8 @@ That answer is a good reason to visit Jobra. It brings a large history close eno
 Creative direction: Ahimanikya Satapathy. Research and original draft: current AI assistant. Source authors retain their credit. [Claim and media record](tourism-reading-followup-evidence.json) · [Entity record](../../places/odisha-state-maritime-museum.md).
 
 </details>
+
+
+## Further reading
+
+[Continue the online reading](https://projectodisha.org/visit/experiences/jobra-maritime-museum/).
