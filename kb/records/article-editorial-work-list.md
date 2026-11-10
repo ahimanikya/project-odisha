@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1085. completed: 198, excluded: 627, queued: 260.
+Route inventory: 1096. completed: 198, excluded: 627, queued: 271.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1109,3 +1109,14 @@ Route inventory: 1085. completed: 198, excluded: 627, queued: 260.
 | POD-EDIT-HISTORY-HUB-20261108 | [History and heritage](https://projectodisha.org/history/) | excluded | collection_navigation |
 | POD-EDIT-DAMAN-TEAM-20261108 | [The people behind DAMaN](https://projectodisha.org/cinema/daman-team/) | completed | Consolidate three filmmaker profiles into one online reading; preserve originals, individual anchors and existing book integration. |
 | POD-EDIT-BIYOTT-20261110 | [Biyott Projna Tripathy: Finding a Story’s Form](https://projectodisha.org/people/biyott-projna-tripathy/) | completed | Cinema companion profile: writing, documentary and collaborative filmmaking. |
+| POD-EDIT-KOTPAD-BOOK-1-20261110 | [Mirgan Households and Kotpad Textiles](https://projectodisha.org/stories/kotpad/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-2-20261110 | [Mirgan Households and Kotpad Textiles - the book](https://projectodisha.org/stories/kotpad/book/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-3-20261110 | [Mirgan households and the geography of Kotpad cloth](https://projectodisha.org/stories/kotpad/mirgan-households-and-geography/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-4-20261110 | [Historical traces in records and cloth](https://projectodisha.org/stories/kotpad/historical-traces/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-5-20261110 | [What a sari price reveals about Kotpad](https://projectodisha.org/stories/kotpad/what-a-sari-price-reveals/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-6-20261110 | [Making colour in Kotpad](https://projectodisha.org/stories/kotpad/making-colour/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-7-20261110 | [The people behind a finished textile](https://projectodisha.org/stories/kotpad/people-behind-a-textile/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-8-20261110 | [Where Kotpad cloth travels](https://projectodisha.org/stories/kotpad/where-cloth-travels/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-9-20261110 | [Water, roots, fuel and the working year](https://projectodisha.org/stories/kotpad/water-roots-fuel/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-10-20261110 | [What support programmes can show](https://projectodisha.org/stories/kotpad/support-programmes/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-11-20261110 | [Learning and the future of weaving](https://projectodisha.org/stories/kotpad/learning-and-the-future/) | queued | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
