@@ -9,8 +9,8 @@ const stage=process.env.BOOK_DOWNLOAD_STAGE||'dist';
 assert.ok(['source','dist','dist-coast','dist-publish'].includes(stage),'Unknown BOOK_DOWNLOAD_STAGE');
 const json=p=>JSON.parse(readFileSync(p,'utf8'));
 const expected=[
- {edition:'digital',file:'/archive/odia-cinema-a-living-screen-2026-11-10-bideha.pdf',bytes:38419335,pages:272,sha256:'4770487a0b57a359f6eaf22e9c816f09717d5fffb7b1b83fc006964a869b8c0a'},
- {edition:'print',file:'/archive/odia-cinema-a-living-screen-print-2026-11-10-bideha.pdf',bytes:51350591,pages:278,sha256:'aea1ceb86f02a5709ece434c9dc20e3e85457204e7de76f2c6c115b2c7e13be6'},
+ {edition:'digital',file:'/archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf',bytes:38421623,pages:273,sha256:'8e05b0781480916e39257b03502376d8c147cd8c958cec17b788ee14df80d4f7'},
+ {edition:'print',file:'/archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf',bytes:51351553,pages:278,sha256:'2fdf415abb2f779b0c47cdf915bf4a22fed340f79077e566afa3b0ed226f080d'},
  {edition:'introduction',file:'/archive/the-question-that-brought-me-here-2026-11-06.pdf',bytes:992878,pages:6,sha256:'8c5db39b9ee5fc262409c8636ca5abdb624774347c67e728a4fedc199934a933'},
 ];
 function verify(root,book){

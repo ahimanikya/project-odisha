@@ -1,0 +1,74 @@
+{
+  "head": "1a8127792e26779374023eeae9150d4b09b48c17",
+  "integrated_main": "9fbe902f4d56e2bcb201dcdad06fff7de3f97e0f",
+  "foreign_operations_preserved": true,
+  "checks": [
+    {
+      "command": [
+        "tools/research/reindex.py"
+      ],
+      "exit_code": 0,
+      "output": "Indexed 1506 concepts.\n"
+    },
+    {
+      "command": [
+        "tools/research/validate_research_map.py"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"records\": 1822,\n  \"tasks\": 71,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n"
+    },
+    {
+      "command": [
+        "tools/registers.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "POD: valid; 1244 records, 732 events; dashboard current\n"
+    },
+    {
+      "command": [
+        "tools/catalog.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "Whole-project catalogue current: 1894 concepts\n"
+    },
+    {
+      "command": [
+        "tools/check_team_assignments.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n"
+    },
+    {
+      "command": [
+        "tools/check_autonomous_program.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: autonomous program count and linked delivery records\n"
+    },
+    {
+      "command": [
+        "tools/editorial/article_rollout.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"completed\": 197, \"excluded\": 627, \"in_progress\": 1, \"queued\": 260}, \"errors\": []}\n"
+    },
+    {
+      "command": [
+        "tools/editorial/build_workbench.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 593}, \"mode\": \"build\"}\n"
+    },
+    {
+      "command": [
+        "tools/editorial/build_workbench.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 593}, \"mode\": \"check\"}\n"
+    }
+  ]
+}

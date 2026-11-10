@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "project": "POD",
+  "status": "active",
+  "authorization": "POD-DEC-2026101901",
+  "human_authority": "Ahimanikya Satapathy",
+  "coordinator": "Disha",
+  "shared_writer": "Disha",
+  "publisher": "Disha",
+  "maximum_active_articles": 1,
+  "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
+  "assignment_home": "team/assignments.json",
+  "handoff_home": "records/cuttack-journey-editorial-2026-11-10.json",
+  "roles": [
+    {
+      "name": "Disha",
+      "responsibility": "Select/resume the authorized article, coordinate assignments, integrate results, maintain shared records, run release gates and publish.",
+      "execution": "root coordinator",
+      "write_scope": "Assigned article integration, shared KB/registers, Git and release receipts within existing Founder authorization"
+    },
+    {
+      "name": "Anvesha",
+      "responsibility": "Research and knowledge: inspect existing evidence, verify claims and stable source mappings, identify limits.",
+      "execution": "separate subagent",
+      "write_scope": "Read-only by default; coordinator may assign explicit non-overlapping article evidence files"
+    },
+    {
+      "name": "Samanta",
+      "responsibility": "Design and engineering: implement article presentation, accessible reading and downloadable outputs, test changes.",
+      "execution": "separate subagent",
+      "write_scope": "Only files explicitly reserved by coordinator; no shared registers, Git mutations or publishing"
+    },
+    {
+      "name": "Drishti",
+      "responsibility": "Quality: separate review of integrated candidate, test evidence, sources, visual/readability checks and limitations.",
+      "execution": "separate subagent distinct from implementer",
+      "write_scope": "Read-only review; report findings to coordinator, no self-approval or publishing"
+    }
+  ],
+  "loop": [
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work.",
+    "Resume the existing active article or explicit handoff first. Keep one article in progress. An external worker retains its scope until observed completion or explicit handoff; age of a timestamp alone is not abandonment.",
+    "Coordinator reserves the article and file scopes. Spawn/reuse Anvesha and Samanta for independent subtasks of the same article; sequence dependent steps. Load their role and governance context. No separate article claims by workers. Save exact reserved file paths, runtime and handoff status in the handoff record before edits; release them explicitly on completion.",
+    "Workers return input head, actual changed files or findings, tests performed, evidence limits and next action. Coordinator integrates, resolves findings and records the resulting head.",
+    "Spawn/reuse Drishti to review the integrated head separately from authors/implementers. Resolve blocking findings and recheck affected work. A separate AI review is never recorded as a human or specialist review.",
+    "Coordinator checks required PR checks, exact reviewed head, current remote ownership and existing publication jobs; merge and publish only under existing Founder authorization. Save actual live checks and receipt before completing the article.",
+    "Retain the article claim through receipt integration. Release the claim and choose the next eligible article only after this. Zero substantive500 credit for setup, formatting, tests or process work.",
+    "On wake/restart reconcile handoff with actual Git, queue, PR and deployment state. Recreate missing subagents under this assignment; do not claim old runtime IDs are still active. If unavailable, record that limitation and do not label one-assistant role passes independent review.",
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work. Use canonical POD identifiers for existing and new records; resolve old UTP references through the exact identifier map. Preserve original evidence."
+  ],
+  "boundaries": [
+    "No human reports to AI; Founder remains sole human final authority.",
+    "No account, permission, credential, spending or commercial-project activation changes. Worker file scopes are operating instructions, not OS access controls.",
+    "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
+    "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
+  ],
+  "current_article": null,
+  "project_identity": "reference/project-identity.md",
+  "current_task": {
+    "kind": "article_receipt",
+    "owner": "Disha",
+    "status": "receipt_integration",
+    "article_id": "POD-EDIT-129",
+    "handoff": "records/cuttack-journey-editorial-2026-11-10.json",
+    "scope_released": false
+  },
+  "parallel_programmes": [
+    {
+      "name": "Community history and editorial rollout",
+      "automation_id": "utkal-next-500",
+      "queue_note": "Sunari published and receipt PR468 merged. No active claim. Reconcile coverage and editorial queue for next community research after alternate eligible Dhaga batch.",
+      "last_completed_handoff": "records/sunari-editorial-team-2026-10-23.json"
+    },
+    {
+      "name": "Odia Dhaga and Dhamali corpus",
+      "automation_id": "odia-dhaga-and-dhamali-research",
+      "handoff": "records/odia-dhaga-expansion-358-2026-11-07.json",
+      "last_completed_handoff": "records/odia-dhaga-expansion-358-2026-11-07.json",
+      "queue_note": "358readings/301illustrations/57text-only additions published/live verified; receipt696merged and remoteverified. Finite release complete. Preserve B64prefetch cursor750 and all historical deferred leads; no repeat acceptance or credit."
+    },
+    {
+      "name": "Dhaga historical pages 10–12 research",
+      "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
+      "status": "integration_review",
+      "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
+    },
+    {
+      "name": "Cinema human connections",
+      "handoff": "records/cinema-human-connections-2026-10-26.json",
+      "status": "published_verified",
+      "note": "PR579 and navigation correction581 published and verified. Cinema scope released; other worker ownership preserved."
+    },
+    {
+      "name": "Cinema lives and future",
+      "handoff": "records/cinema-lives-and-future-2026-10-26.json",
+      "status": "published_verified",
+      "note": "PR582 deployed and six live routes plus13imagefiles verified. Own scope released; other claims preserved."
+    },
+    {
+      "name": "Cinema commercial successes",
+      "handoff": "records/cinema-commercial-successes-publication-2026-10-26.json",
+      "status": "published_verified",
+      "note": "PR588 merged; deployment40352246855success; article,hub,economics andhero verifiedlive. Own scope released."
+    },
+    {
+      "name": "Cinema research and story expansion",
+      "handoff": "records/cinema-palmful-source-2026-11-10.json",
+      "status": "research_reviewed_partial_source_gap_open",
+      "scope": "Palmful of Stars original publication and translation credit",
+      "note": "Original Palmful opening read and concise proposal independently reviewed; original translation/source-publication fields remain open. Public articles and both books unchanged.",
+      "active_article": null,
+      "scope_released": true,
+      "last_publication_handoff": "records/cinema-bideha-publication-2026-11-10.json"
+    }
+  ],
+  "coordination_note": "118 active through actual publication/live/receipt. Programme140 completed;141 in progress. B73 output-only complete/released;358public and7local proposals preserved.",
+  "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
+  "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
+  "previous_task": {
+    "original_current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-113",
+      "handoff": "records/badi-chura-editorial-2026-11-05.json"
+    },
+    "resolution": "COMPLETE_RELEASED",
+    "article_id": "POD-EDIT-113",
+    "receipt_pr": 684,
+    "receipt_merge": "30570364f3bdbef73e98f34d3e43882a5a3b6e22",
+    "delivery_sha256": "464088e4b40dde212e57cc850712d602c56df07980dd181d04f52031c9c98862",
+    "credit_added_here": 0
+  },
+  "completed_scope_reconciliations": [
+    {
+      "scope": "POD-EDIT-114",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 686,
+      "receipt_merge": "e0b220221892b3dbf9b9a00c8bafef8a5b4f791d",
+      "delivery_sha256": "fe393724a28cf8652111bf851e2b85ca705a0e3bfb34bf66cfecf5e859843e9a",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-114",
+        "handoff": "records/tala-pitha-editorial-2026-11-06.json"
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "Cinema research and story expansion",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 694,
+      "receipt_merge": "f3e743a89ab0e39daffc07fad2f2bf25e81726c6",
+      "required_check_run": 42316217972,
+      "required_check_result": "SUCCESS",
+      "condition": "Release this publication scope when the receipt commit merges after required checks. Publication and live verification are already complete; no further website deployment is required for this evidence-only receipt.",
+      "coordinator_reconciliation_sha256": "8168703f4834b89894b0bef0f56f81ea1ab6bdfb77d9ef90450ad1846fb101b4",
+      "credit_added_here": 0,
+      "original_parallel_programme": {
+        "name": "Cinema research and story expansion",
+        "handoff": "records/cinema-sequence-publication-2026-11-07.json",
+        "status": "published_verified_receipt_integration",
+        "scope": "Implement reviewed book and website composition as one publication batch, with book-only adaptations; retain all online profiles.",
+        "note": "PR 693 merged and deployment 42314570245 succeeded;58 live routes and exact PDF bytes verified. Evidence-only receipt remains to merge; scope releases on its reviewed merge.",
+        "active_article": null,
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "Dhaga358",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 696,
+      "receipt_merge": "4dcca208832866ec4a39782833b307c7bb9c1a42",
+      "delivery_sha256": "dfff24030dee0cb49daa2ad08956facca921a7f429a5bcd422251bc075f2384e",
+      "original_current_task": {
+        "kind": "dhaga_release",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "handoff": "records/odia-dhaga-expansion-358-2026-11-07.json",
+        "scope": "One358-reading release,301 existing illustrations and57 intentionally unillustrated additions; readability integration; zero programme credit."
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-116",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 700,
+      "receipt_merge": "c78257f770604eaac55a8de32640eb70f3f9619c",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-116",
+        "handoff": "records/baigana-poda-editorial-2026-11-07.json"
+      },
+      "delivery_sha256": "767f01f15a2307eb91fd0dec5af9c043a5fe76e39d15934a20b6525e6d67680e",
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-117",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 707,
+      "receipt_merge": "ae5d3730caf5f2c580a1c99be24f4855172ab077",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-117",
+        "handoff": "records/tomato-poda-editorial-2026-11-07.json"
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-118",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 712,
+      "receipt_merge": "204d520770839aa85a30d775ac3c889ed930d348",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-118",
+        "handoff": "records/patrapoda-editorial-2026-11-08.json"
+      }
+    },
+    {
+      "scope": "POD-EDIT-KALINGA-20261108",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 716,
+      "receipt_merge": "98c71cf6f72b3a82623816f505bc9198b2dfb22a",
+      "required_check_run": 42443276302,
+      "required_check_result": "SUCCESS",
+      "remote_files_verified": 10,
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
+      }
+    }
+  ],
+  "dhaga358_receipt_pointer_history": [
+    {
+      "name": "Odia Dhaga and Dhamali corpus",
+      "automation_id": "odia-dhaga-and-dhamali-research",
+      "handoff": "records/odia-dhaga-team-2026-10-23.json",
+      "last_completed_handoff": "records/odia-dhaga-expansion-219-2026-10-31.json",
+      "queue_note": "219 readings/art and132-page book published/live verified; receipt release conditional on actual reviewed merge/checks/hash verification. No repeated batch12 work; preserve saved next-source positions and four deferrals."
+    }
+  ],
+  "receipt_reconciliations": [
+    {
+      "scope": "POD-EDIT-120",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 721,
+      "receipt_merge": "8528af227a293262f61417b435cccfd583903cd2",
+      "required_check_run": 42454836251,
+      "required_check_result": "SUCCESS",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-120",
+        "handoff": "records/pipili-editorial-2026-11-08.json"
+      }
+    },
+    {
+      "scope": "POD-EDIT-123",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 736,
+      "receipt_merge": "f390d22c69a319ced0ed99f0f8c468ae6f982a8e",
+      "required_check_run": 42515375128,
+      "required_check_result": "SUCCESS before merge",
+      "delivery_sha256": "feeeb06e671d19dc8cfcef0c32fd7343076beb7da6be7e482252248dd5b12d50",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-123",
+        "handoff": "records/sambalpuri-bandha-editorial-2026-11-08.json",
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "POD-EDIT-124",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 738,
+      "receipt_merge": "429dd3936a02aa7f6b8ba33c080d8cdf76ffc22f",
+      "delivery_sha256": "a2224af1b5742b00d1ec4856f2b26f924311b9cbd4f470efd94a77297540d48e",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-124",
+        "handoff": "records/khandua-editorial-2026-11-09.json",
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "POD-EDIT-125",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 742,
+      "receipt_merge": "a1ef1623f4d85e12ec2b75cb43275acd43dcdb8d",
+      "delivery_sha256": "5ee6208d78de717a5db3e299cb8d4205c3f02db476cf31ecd39f9bb4953e0713",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-125",
+        "handoff": "records/kotpad-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-127",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 748,
+      "receipt_merge": "0313260e8ebb9231f7c707ce7b7497a539650cc4",
+      "delivery_sha256": "96ec6af2155245de610e4003664a3395fbb99e4177bf51baaab6b58d38890402",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-127",
+        "handoff": "records/global-connections-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-128",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 752,
+      "receipt_merge": "d039a2373cc7a7ed6b8c12c81488a06c0c9f5279",
+      "delivery_sha256": "3aeceb3d9140d3da6f67dfd5321dbd1eb281f84aef8df30bed3c7ece94cc4c94",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-128",
+        "handoff": "records/chilika-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    }
+  ],
+  "prior_coordinator_claims": [
+    {
+      "preserved_on": "2026-11-08",
+      "original_current_article": {
+        "id": "POD-EDIT-KALINGA-20261108",
+        "route": "/stories/reading-kalinga-beyond-odisha/",
+        "owner": "Disha",
+        "phase": "receipt_integrated"
+      },
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "handoff": "records/kalinga-heritage-publication-2026-11-08.json"
+      },
+      "reason": "Preserve prior receipt-integrated pointer verbatim while the sole in-progress editorial item is the new DAMaN local candidate. This does not assert any new Kalinga receipt verification or alter its handoff."
+    },
+    {
+      "preserved_on": "2026-11-08",
+      "original_current_article": null,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-120",
+        "handoff": "records/pipili-editorial-2026-11-08.json"
+      },
+      "reason": "Preserve remote completed Pipili receipt pointer while DAMaN is the sole in-progress editorial article; no change to its publication handoff."
+    }
+  ],
+  "cinema_scope_history": [
+    {
+      "name": "Cinema research and story expansion",
+      "handoff": "records/cinema-daman-team-publication-2026-11-08.json",
+      "status": "published_verified_receipt_integration",
+      "scope": "Publish reviewed DAMaN team consolidation and both matching book downloads.",
+      "note": "DAMaN page and both books published and live-verified. Own evidence-only receipt remains to integrate; preserve the separate active owner and its receipt status.",
+      "active_article": null,
+      "scope_released": false,
+      "last_publication_handoff": "records/cinema-daman-team-publication-2026-11-08.json"
+    }
+  ]
+}
