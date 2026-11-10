@@ -2,9 +2,9 @@
   "id": "POD-CINEMA-VIEWING-REFRESH-20261110",
   "date": "2026-11-10",
   "authorization": "Founder: review the playlists and add suitable full movies to the viewing room, prioritising literary adaptations and culturally significant stories; keep selection curated.",
-  "status": "reviewed_pending_publication",
+  "status": "published_verified",
   "active_article": null,
-  "scope_released": false,
+  "scope_released": true,
   "programme_credit": 0,
   "scope": "Viewing-room catalogue maintenance only; no article prose, images or book changes.",
   "input_head": "30341d50",
@@ -158,7 +158,7 @@
       "reason": "93-minute upload; film database lists140minutes. Completeness unresolved, not selected as a fullfilm."
     }
   ],
-  "next_action": "Publish reviewed viewing-room additions; verify live and record delivery.",
+  "next_action": "Optional future curated research: establish completeness of Tapoi before adding it. No further publication or book change required for this viewing-room task.",
   "source_review": "outputs/cinema-viewing-refresh-20261110/anvesha/research.json",
   "source_notes": [
     {
@@ -213,7 +213,9 @@
     "dhauli_express": "YouTube iframe displayed: Playback on other websites has been disabled by the video owner. Source playback previously sampled to 0:44 and seek to 1:17:41.",
     "gapa_hele_bi_sata": "Embedded playback advanced from 0:00 to 3:47 without a seek during the sample. Stopped after check; iframe removed.",
     "limits": "Samples only; no complete-film viewing or frame-completeness certification.",
-    "rebuilt_ui": "Chrome: Dhauli shows only Watch this film on YouTube; no iframe or Load player. Tab from selected heading reaches source link. Gapa player option remains visible after reload. Featured cards show both films and correct reading links."
+    "rebuilt_ui": "Chrome: Dhauli shows only Watch this film on YouTube; no iframe or Load player. Tab from selected heading reaches source link. Gapa player option remains visible after reload. Featured cards show both films and correct reading links.",
+    "live_ui": "Chrome on public website:11 entries and both new featured cards visible. Dhauli displays direct YouTube link without Load player. Gapa embedded sample advanced0:00 to0:27; Stop removed iframe. Live page retained as deliverable.",
+    "accessibility_limit": "YouTube reports no captions available for Gapa Hele Bi Sata. No caption or complete accessibility claim."
   },
   "modern_web_guidance": {
     "guides": [
@@ -230,5 +232,17 @@
   },
   "implementation_receipt": "outputs/cinema-viewing-refresh-20261110/implementation/implementation.json",
   "integration_base": "cced80ebae92cd95dea37c2a2cb545389d9b24e4",
-  "independent_review": "outputs/cinema-viewing-refresh-20261110/review/final-review.json"
+  "independent_review": "outputs/cinema-viewing-refresh-20261110/review/final-review.json",
+  "publication": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/769",
+    "candidate_commit": "f4ae74065e985999a05151eea199105fc10acb49",
+    "merge_commit": "b75097fdb1e0fed7e627ccd2db9ee12ef08ca9e3",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42865181180",
+    "validation_result": "success",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42868348328",
+    "deployment_result": "success",
+    "live_url": "https://projectodisha.org/cinema/watch/",
+    "live_receipt": "outputs/cinema-viewing-refresh-20261110/root/live-verification.json"
+  },
+  "verification_limit": "Initial HTTP probe included catalogue.json, which the assembled public edition does not serve. Browser DOM identified catalogue.js,app.js,core.js as actual loaded files; all three returned200 and matched reviewed SHA256 hashes. No reader-facing missing asset was found."
 }
