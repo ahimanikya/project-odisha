@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1085. completed: 197, excluded: 627, in_progress: 1, queued: 260.
+Route inventory: 1085. completed: 198, excluded: 627, queued: 260.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -143,7 +143,7 @@ Route inventory: 1085. completed: 197, excluded: 627, in_progress: 1, queued: 26
 | POD-EDIT-127 | [Global Connections](https://projectodisha.org/global-connections/) | completed | substantive_documented_exchange_account |
 | POD-EDIT-128 | [Chilika, one shore at a time](https://projectodisha.org/journey-starters/chilika/) | completed | substantive_native_ecological_reading |
 | POD-EDIT-129 | [Cuttack · Silver and Stories](https://projectodisha.org/journey-starters/cuttack/) | completed | substantive_native_object_history_reading |
-| POD-EDIT-130 | [Balasore · Tides and Tales](https://projectodisha.org/journey-starters/balasore/) | in_progress | substantive_native_observation_reading |
+| POD-EDIT-130 | [Balasore · Tides and Tales](https://projectodisha.org/journey-starters/balasore/) | completed | substantive_native_observation_reading |
 | POD-EDIT-131 | [Mayurbhanj · Forest, Rhythm and a Meal](https://projectodisha.org/journey-starters/mayurbhanj/) | queued | classification_pending |
 | POD-EDIT-132 | [Jobra · before the voyage](https://projectodisha.org/visit/experiences/jobra-maritime-museum/) | queued | classification_pending |
 | POD-EDIT-133 | [Kala Bhoomi · look closely](https://projectodisha.org/visit/experiences/kala-bhoomi/) | queued | classification_pending |
