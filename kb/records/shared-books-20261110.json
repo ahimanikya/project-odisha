@@ -1,0 +1,32 @@
+{
+  "id": "POD-SHARED-BOOKS-20261110",
+  "status": "in-progress",
+  "authorization": "User: Create a shared books page on Project Odisha for Dongaria and Mirgan and Kotpad, keeping each book separate with its own reading and download links.",
+  "route": "/books/",
+  "scope": "Navigation collection of two already published companion books. Reuse existing cover assets and exact PDFs; no combined book, new research, ISBN or printer selection.",
+  "programme_credit": 0,
+  "foreign_scope": "Jobra editorial work remains owned by its existing chat; no edits to its work or operations claim.",
+  "assignments": {
+    "Disha": "Root: shared route/config/records, footer and book navigation integration; Git and publication.",
+    "Anvesha": "Separate agent: read-only source/asset/link inventory for both books.",
+    "Samanta": "Separate agent: new projects/site/src/pages/books.astro and projects/site/tests/books.test.mjs only.",
+    "Drishti": "Separate agent: read-only independent review after integration."
+  },
+  "publication": false,
+  "source_review": {
+    "reviewer": "Anvesha, separate task-scoped AI agent",
+    "result": "Verified titles, author, chapter/page counts, separate reading/PDF paths and existing cover assets against published descriptors; preserve Dongria cover credit Amitt M Patell, CC BY-SA 4.0; no new research."
+  },
+  "design_guidance": {
+    "guides": [
+      "card",
+      "css-layout"
+    ],
+    "intent": "Separate native links for independent reading/download actions; intrinsic uncropped cover proportions; source-order keyboard flow; no overflow clipping."
+  },
+  "review": {
+    "reviewer": "Drishti, separate task-scoped AI agent",
+    "source_and_integration": "PASS: distinct reading/PDF targets, media credits, route/search inventory, reciprocal navigation; both existing PDF hashes preserved.",
+    "rendered": "pending"
+  }
+}

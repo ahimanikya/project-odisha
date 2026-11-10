@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1096. completed: 210, excluded: 627, in_progress: 1, queued: 258.
+Route inventory: 1097. completed: 210, excluded: 628, in_progress: 1, queued: 258.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1120,3 +1120,4 @@ Route inventory: 1096. completed: 210, excluded: 627, in_progress: 1, queued: 25
 | POD-EDIT-KOTPAD-BOOK-9-20261110 | [Water, roots, fuel and the working year](https://projectodisha.org/stories/kotpad/water-roots-fuel/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
 | POD-EDIT-KOTPAD-BOOK-10-20261110 | [What support programmes can show](https://projectodisha.org/stories/kotpad/support-programmes/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
 | POD-EDIT-KOTPAD-BOOK-11-20261110 | [Learning and the future of weaving](https://projectodisha.org/stories/kotpad/learning-and-the-future/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-BOOKS-20261110 | [Books](https://projectodisha.org/books/) | excluded | Navigation collection linking two separately published companion books. No autonomous programme credit. |
