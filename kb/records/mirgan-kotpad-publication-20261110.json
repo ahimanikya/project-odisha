@@ -1,0 +1,52 @@
+{
+  "id": "POD-MIRGAN-KOTPAD-PUBLICATION-20261110",
+  "status": "reviewed-awaiting-release",
+  "authorization": "User: Publish as separate companion books. Prior instruction: publish online as with Dongaria; printer and ISBN deferred.",
+  "scope": "Separate Mirgan Households and Kotpad Textiles book, nine chapter pages, cover, downloadable reading PDF and companion links. Existing reviewed manuscript; no new research or autonomous programme credit.",
+  "author": "Ahimanikya Satapathy",
+  "input_head": "4efd61aceced99dee4a2df4011fec0034a7150df",
+  "route": "/stories/kotpad/book/",
+  "source_review": {
+    "reviewer": "Anvesha, separate task-scoped AI agent",
+    "result": "36 references consistent; no citation URL mismatches; all chapter body blocks preserved; source limitations retained; no independent re-verification claimed"
+  },
+  "implementation": "Samanta, separate task-scoped AI agent",
+  "review": {
+    "reviewer": "Drishti, separate task-scoped AI agent",
+    "result": "PASS: faithful nine chapters and six bookends, 36 references and citation backlinks; all PDF page labels and outline destinations unchanged; only physical page 3 edition note differs."
+  },
+  "coordinator": "Root assistant (Disha role)",
+  "foreign_scope": "Mayurbhanj editorial work active in separate chat; own isolated checkout; no takeover or changes to its operation records.",
+  "pdf": {
+    "file": "/archive/mirgan-kotpad-reading.pdf",
+    "pages": 58,
+    "bytes": 7410047,
+    "sha256": "10cc14f30f2657d3de00f4c5c16e2686037686f9299a797cf1bf0d078fa83c8c",
+    "difference_from_readthrough": "Only physical page 3 replaced with online edition note; artwork, narrative, 36 references and 57 other pages unchanged. Production provenance retained internally and public editorial-process linked.",
+    "printer": null,
+    "isbn": null
+  },
+  "provenance": {
+    "cover": "Original OpenAI ImageGen abstract illustrations, separately set typography; not documentary textile photographs.",
+    "manuscript_sha256": "04b16b1f4718af548facd05b1d4361134f07907439d1e39eb644b317170037cc"
+  },
+  "printer": null,
+  "isbn": null,
+  "programme_credit": 0,
+  "publication": false,
+  "validation": {
+    "full_site_tests": "766 passed",
+    "focused_book_tests": "5 passed",
+    "browser": "Desktop book and 320px book/chapter visually checked; no horizontal overflow or broken cover image",
+    "local_release_barrier": "Resolved; failed partial output removed and fresh package passed.",
+    "coastal_tests": "596 passed locally and in GitHub review",
+    "publication_payload": {
+      "bytes": 826838428,
+      "files": 2875,
+      "kotpad_pages": 11,
+      "result": "PASS"
+    },
+    "disclosure_gate": "PASS, no violations in coastal or publication output",
+    "ci": "PR761: initial missing portable route inventory corrected; landing-page metadata length correction follows otherwise passing coastal tests. Final clean run required before merge."
+  }
+}
