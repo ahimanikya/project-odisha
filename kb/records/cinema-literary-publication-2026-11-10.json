@@ -2,10 +2,10 @@
   "id": "POD-CINEMA-LITERARY-PUBLICATION-20261110",
   "date": "2026-11-10",
   "authorization": "Founder: add Nilamani Sahu example to Literature and Screen and Palmful observation to Biyott profile, then publish website and both books; keep unconfirmed details open.",
-  "status": "reviewed_merged_hosting_retry_needed",
+  "status": "published_verified",
   "active_article": null,
-  "scope_released": false,
-  "publication_performed": false,
+  "scope_released": true,
+  "publication_performed": true,
   "programme_credit": 0,
   "reuse_before_research": [
     "records/cinema-nilamani-adaptation-2026-11-10.json",
@@ -39,7 +39,7 @@
     "Leave original stories, first-publication, translator, payment and film-credit gaps open.",
     "Preserve images, earlier PDFs, tagged-reader experiments and foreign ownership."
   ],
-  "next_action": "Recover host deployment, then verify live article passages and both exact PDF downloads. Content and PDF review remain passed; do not claim website publication yet.",
+  "next_action": "Seek original texts and first-publication/translation evidence when available; preserve independent film-credit, payment and delivered-support gaps without inference.",
   "literature_review": "outputs/cinema-literary-publication-20261110/review/literature-review.json",
   "profile_review": "outputs/cinema-literary-publication-20261110/review/profile-review.json",
   "source_review": "outputs/cinema-literary-publication-20261110/anvesha/source-review.json",
@@ -82,9 +82,28 @@
     "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42788903004",
     "attempt_1": "Passed build; hosting timed out at syncing_files and cancelled deployment after600000ms.",
     "attempt_2": "Retried onlyfaileddeployjob againstsameartifact; host returned Deployment cancelled.",
-    "release_assets": "Both public GitHub release assets match reviewed SHA256 and bytecounts; website still oldedition.",
+    "release_assets": "At the time of the failed attempts, both release assets matched reviewed SHA256 and byte counts while the website still served the prior edition. The successful fresh run is recorded below.",
     "fresh_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42793546138",
-    "fresh_run_status": "dispatched_pending_exacthead_and_result"
+    "fresh_run_status": "completed_success_live_verified"
   },
-  "hosting_recovery_guidance": "outputs/cinema-literary-publication-20261110/implementation/hosting-recovery.json"
+  "hosting_recovery_guidance": "outputs/cinema-literary-publication-20261110/implementation/hosting-recovery.json",
+  "delivery_review": "outputs/cinema-literary-publication-20261110/review/delivery-review.json",
+  "delivery_review_result": "PASS_DELIVERY",
+  "live_verification": "outputs/cinema-literary-publication-20261110/root/live-verification.json",
+  "live_browser_review": "outputs/cinema-literary-publication-20261110/root/live-browser-review.json",
+  "release": {
+    "pr": "https://github.com/ahimanikya/project-odisha/pull/758",
+    "head_sha": "947f6c7b0027b2fe19b5b0e1444d10f086c9c630",
+    "merge_sha": "9d32c6351d82492fa1f0588adf8ef2890c5d98f9",
+    "merged_at": "2026-11-10T09:13:28Z",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42783818436",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42793546138",
+    "deployment_conclusion": "success",
+    "release_tag": "odia-cinema-book-2026-11-10-literary"
+  },
+  "published_routes": [
+    "/cinema/literature-and-screen/",
+    "/people/biyott-projna-tripathy/",
+    "/cinema/book/"
+  ]
 }

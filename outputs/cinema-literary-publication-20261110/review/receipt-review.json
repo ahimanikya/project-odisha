@@ -1,0 +1,43 @@
+{
+  "status": "PASS_STAGED_RECEIPT_SCOPE",
+  "checkpoint_head": "cfd99e978f61621ed2661de1f04bac74042cfa19",
+  "origin_main_at_review": "1629ea8d72c225b8ae45ca76ce566169fc51aa48",
+  "staged_diff_sha256": "ef2f531b1bd542bc7005bdc727ef1901fafa2c1bd989eaceae8a9fa45c8cd81e",
+  "staged_files": [
+    "kb/history/LEDGER.md",
+    "kb/index.md",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/cinema-literary-publication-2026-11-10.json",
+    "kb/records/cinema-nilamani-adaptation-2026-11-10.json",
+    "kb/records/cinema-palmful-source-2026-11-10.json",
+    "kb/team/operations.json",
+    "outputs/cinema-literary-publication-20261110/book-release-manifest.json",
+    "outputs/cinema-literary-publication-20261110/review/delivery-review.json",
+    "outputs/cinema-literary-publication-20261110/root/deployment-run.json",
+    "outputs/cinema-literary-publication-20261110/root/finalize-receipt.py",
+    "outputs/cinema-literary-publication-20261110/root/live-book.png",
+    "outputs/cinema-literary-publication-20261110/root/live-browser-review.json",
+    "outputs/cinema-literary-publication-20261110/root/live-literature.png",
+    "outputs/cinema-literary-publication-20261110/root/live-profile.png",
+    "outputs/cinema-literary-publication-20261110/root/live-verification.json"
+  ],
+  "checks": [
+    "Exactly16 staged receipt/evidence files; no source/site/PDF/tool mutation.",
+    "Operations identical to checkpoint outside the single Cinema programme row; own scope released.",
+    "Rollout only two latest_revision_receipt pointers; no completion-count or programme credit added.",
+    "Two prior research handoffs retain all historical fields and append subsequent-publication pointers.",
+    "Manifest changes only publication status, performed flag and receipt pointer; asset hashes unchanged.",
+    "Fresh successful deployment and verified live data agree with independent delivery review; failed attempts preserved in checkpoint history.",
+    "Index distinguishes published bounded observations from still-open research questions."
+  ],
+  "delivery_review_sha256": "66e6f96e07b5455a0dc795c738f54f1acd692c34f47293450e01248fae63297c",
+  "required_corrections": [],
+  "pending_integration": "Origin/main advanced with Balasore completion receipts after this branch point. Reconcile latest main before receipt merge, preserving its released current_article/current_task, publication/delivery evidence, rollout/programme/register updates. The observed two-dot differences are branch lag, not staged deletions.",
+  "limits": [
+    "This gate covers staged receipt delta, not a claim that current branch already contains latest main.",
+    "No new builds, network verification or visual rendering; successful delivery gate reused."
+  ],
+  "scope_released": true,
+  "previous_staged_diff_sha256": "961e34ee82a897cb7dadbe0294527a7ba3269a7cf6041e5a5a9287908336f251",
+  "clarification_review": "Compared prior reviewed handoff blob62c018ef with staged handoff: exactly one historical release_assets sentence clarified; no other handoff change. Same16 staged paths; prior scope verdict and pending main reconciliation retained."
+}
