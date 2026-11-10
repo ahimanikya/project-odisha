@@ -1,0 +1,39 @@
+{
+  "status": "PASS_LOCAL_ARTICLES",
+  "scope_released": false,
+  "pending": "Final PDF artifact review and publication verification remain separate.",
+  "input_hashes": {
+    "kb/research/people/biyott-projna-tripathy.md": "2f8d202b938dbc0f6b99d61f0dac87a05b2ceb0ba7d2b049a9150ae4581b0f47",
+    "kb/research/culture/cinema-series/literature-and-screen.md": "8e2f3a2cc8bf98e5402b1281b4c1c1ec1b98f16a13fdc75060792704c832a653",
+    "projects/site/dist/people/biyott-projna-tripathy/index.html": "eeecc905766e513edc80793de4b5bab3f36e76a75646f535a49b6d7ee83b23fc",
+    "projects/site/dist/cinema/literature-and-screen/index.html": "fdc2f973bf796e4eb94b70a1e8eed5892d8d8a6d2e0e3e939333d829e10c9b9e",
+    "outputs/cinema-bideha-publication-20261110/implementation/literature-implementation.json": "cbdc8a4e1017f00e756c807042b7a57f559751d62607a51666772408321bb873",
+    "outputs/cinema-bideha-publication-20261110/review/profile-desktop.jpg": "6dcb6a0ceb97b3357577b3c554fe090e785df3269012ff2bc8861d8d8efea5a7",
+    "outputs/cinema-bideha-publication-20261110/review/profile-mobile.jpg": "90ca5de01bda19f2709bc5def1ebd6f52726c27ccffa78f282a6b683761bb060",
+    "outputs/cinema-bideha-publication-20261110/review/literature-desktop.jpg": "95216087c77d36ce434e99f6437524c5095d2d872b63e7a3366c8ab94cb607ee",
+    "outputs/cinema-bideha-publication-20261110/review/literature-mobile.jpg": "e935b52bbd0d6f8cb5762a43ed3dad507867996044b31caba98fd31ae8f6397a"
+  },
+  "source_review": [
+    "Read exact Literature diff; 41-word addition preserves invitation and payment-uncertainty section.",
+    "Author source identification and recalled composition year distinguished from government catalogue first-edition metadata.",
+    "Both articles together add90 body words plus compact source notes; no quotation or new original-text claim."
+  ],
+  "actual_browser_checks": {
+    "browser": "Dedicated Chrome tab1950993988; local HTTP preview, not live publication",
+    "desktop": "1212px default; profile writer section and Literature new paragraph visually inspected; four saved screenshots reflect actual views.",
+    "mobile": "390x844; both paragraphs readable, documentWidth390; no horizontal overflow.",
+    "portrait": "Full existing portrait visually inspected on mobile with caption and numeric source10; resolution remains soft but unchanged.",
+    "citation_roundtrips": [
+      "Profile source5 to #user-content-fn-bideha-story then return #user-content-fnref-bideha-story",
+      "Profile photo source10 and return",
+      "Literature source29 to #user-content-fn-bideha-story then return #user-content-fnref-bideha-story"
+    ],
+    "viewport_restored": true
+  },
+  "required_corrections": [],
+  "limits": [
+    "Only two changed routes inspected, not whole series.",
+    "No new original story or film reading; first-periodical publication/story pages/payment remain unknown.",
+    "Book descriptors pending new book builds were intentionally outside this local article check."
+  ]
+}
