@@ -1,6 +1,6 @@
 {
   "id": "POD-MIRGAN-KOTPAD-PUBLICATION-20261110",
-  "status": "reviewed-awaiting-release",
+  "status": "published-and-verified",
   "authorization": "User: Publish as separate companion books. Prior instruction: publish online as with Dongaria; printer and ISBN deferred.",
   "scope": "Separate Mirgan Households and Kotpad Textiles book, nine chapter pages, cover, downloadable reading PDF and companion links. Existing reviewed manuscript; no new research or autonomous programme credit.",
   "author": "Ahimanikya Satapathy",
@@ -33,9 +33,9 @@
   "printer": null,
   "isbn": null,
   "programme_credit": 0,
-  "publication": false,
+  "publication": true,
   "validation": {
-    "full_site_tests": "766 passed",
+    "full_site_tests": "767 passed in final clean GitHub review",
     "focused_book_tests": "5 passed",
     "browser": "Desktop book and 320px book/chapter visually checked; no horizontal overflow or broken cover image",
     "local_release_barrier": "Resolved; failed partial output removed and fresh package passed.",
@@ -47,6 +47,102 @@
       "result": "PASS"
     },
     "disclosure_gate": "PASS, no violations in coastal or publication output",
-    "ci": "PR761: initial missing portable route inventory corrected; landing-page metadata length correction follows otherwise passing coastal tests. Final clean run required before merge."
+    "ci": "PASS: https://github.com/ahimanikya/project-odisha/actions/runs/42847083190",
+    "page_acceptance": "4332/4332 passed",
+    "discovery_and_launch": "Passed; indexing scope unchanged"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/761",
+  "merge_commit": "64c25cd41e84f42dd815d6a1f292b4aa316467b5",
+  "verified_routes": [
+    "/stories/kotpad/",
+    "/stories/kotpad/book/",
+    "/stories/kotpad/mirgan-households-and-geography/",
+    "/stories/kotpad/historical-traces/",
+    "/stories/kotpad/what-a-sari-price-reveals/",
+    "/stories/kotpad/making-colour/",
+    "/stories/kotpad/people-behind-a-textile/",
+    "/stories/kotpad/where-cloth-travels/",
+    "/stories/kotpad/water-roots-fuel/",
+    "/stories/kotpad/support-programmes/",
+    "/stories/kotpad/learning-and-the-future/"
+  ],
+  "deployment": {
+    "run_id": 42850173499,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42850173499",
+    "conclusion": "success"
+  },
+  "live_verification": {
+    "result": "PASS",
+    "pages": 11,
+    "pdf": {
+      "route": "/archive/mirgan-kotpad-reading.pdf",
+      "status": 200,
+      "bytes": 7410047,
+      "sha256": "10cc14f30f2657d3de00f4c5c16e2686037686f9299a797cf1bf0d078fa83c8c"
+    },
+    "responses": [
+      {
+        "route": "/stories/kotpad/",
+        "status": 200,
+        "bytes": 19901
+      },
+      {
+        "route": "/stories/kotpad/book/",
+        "status": 200,
+        "bytes": 51550
+      },
+      {
+        "route": "/stories/kotpad/mirgan-households-and-geography/",
+        "status": 200,
+        "bytes": 28039
+      },
+      {
+        "route": "/stories/kotpad/historical-traces/",
+        "status": 200,
+        "bytes": 28648
+      },
+      {
+        "route": "/stories/kotpad/what-a-sari-price-reveals/",
+        "status": 200,
+        "bytes": 25614
+      },
+      {
+        "route": "/stories/kotpad/making-colour/",
+        "status": 200,
+        "bytes": 27617
+      },
+      {
+        "route": "/stories/kotpad/people-behind-a-textile/",
+        "status": 200,
+        "bytes": 28114
+      },
+      {
+        "route": "/stories/kotpad/where-cloth-travels/",
+        "status": 200,
+        "bytes": 26476
+      },
+      {
+        "route": "/stories/kotpad/water-roots-fuel/",
+        "status": 200,
+        "bytes": 29059
+      },
+      {
+        "route": "/stories/kotpad/support-programmes/",
+        "status": 200,
+        "bytes": 27561
+      },
+      {
+        "route": "/stories/kotpad/learning-and-the-future/",
+        "status": 200,
+        "bytes": 26979
+      },
+      {
+        "route": "/archive/mirgan-kotpad-reading.pdf",
+        "status": 200,
+        "bytes": 7410047,
+        "sha256": "10cc14f30f2657d3de00f4c5c16e2686037686f9299a797cf1bf0d078fa83c8c"
+      }
+    ],
+    "reciprocal_companion_link": true
   }
 }
