@@ -1,0 +1,51 @@
+{
+  "status": "PASS_INTEGRATED_HEAD",
+  "reviewed_head": "947f6c7b0027b2fe19b5b0e1444d10f086c9c630",
+  "previous_reviewed_candidate": "21201ff772d11d2052d9cd0003684f00e107bead",
+  "incoming_main": "9fbe902f4d56e2bcb201dcdad06fff7de3f97e0f",
+  "origin_main_at_review": "9fbe902f4d56e2bcb201dcdad06fff7de3f97e0f",
+  "checks": {
+    "incoming_files_exact_except_combined_operations": [
+      "kb/catalog.json",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/autonomous-500-program.json",
+      "kb/records/balasore-journey-editorial-2026-11-10.json",
+      "kb/registers/DASHBOARD.md",
+      "kb/registers/activity.jsonl",
+      "kb/registers/records.json",
+      "kb/research/destinations/balasore-journey-editorial.json",
+      "kb/research/destinations/balasore-native-reading.md",
+      "projects/site/src/pages/journey-starters/balasore.astro",
+      "projects/site/tests/balasore-trail.test.mjs"
+    ],
+    "operations_only_changed_row": "Cinema research and story expansion",
+    "all_other_operations_fields_and_rows_identical_to_incoming": true,
+    "candidate_articles_pdfs_metadata_derived_fragments_unchanged": true,
+    "integration_delta_only_incoming_13_files_two_workbench_hashes_and_check_receipt": true,
+    "workbench_changed_inputs": [
+      "kb/research/search-index.json",
+      "projects/site/editions/coast.json"
+    ],
+    "all_seven_workbench_input_hashes_recomputed_match": true,
+    "remaining_workbench_content_unchanged": true,
+    "unrelated_tagged_reader_experiments_excluded_from_committed_delta": true
+  },
+  "input_hashes": {
+    "outputs/cinema-literary-publication-20261110/root/integration-checks.json": "032bb143786e31e6c136d1db7eb02b72ccdbde2d4e926af079a23438acd76f31",
+    "outputs/cinema-literary-publication-20261110/review/release-review.json": "444a50ee7f4622613862807a69cc1c9253399a671ff6dfc9613b81091de6d2e7",
+    "outputs/cinema-literary-publication-20261110/review/artifact-review.json": "a34d171cb1563bf8a171c2cb464f6050ae260c22fe6a17413daee4d60b8ea9dc",
+    "outputs/cinema-literary-publication-20261110/book-release-manifest.json": "3b5d2db2b70ffe7855b137e7d8a4f5a9a62aee63522ea718f10729e457dc813d"
+  },
+  "coordinator_validation": "Nine recorded integration commands passed. The receipt records its actual pre-regeneration merge head 1a812779; it is not represented as a run on the later evidence commit.",
+  "required_corrections": [],
+  "pending_gates": [
+    "Required hosted CI for integrated candidate",
+    "Merge/deployment success and exact live page/download verification before claiming publication complete"
+  ],
+  "limits": [
+    "Read-only committed-tree and generated-input verification; prior unchanged source/PDF visual reviews reused.",
+    "No new complete build, PDF rendering, browser review, or human approval claimed."
+  ],
+  "scope_released": true
+}
