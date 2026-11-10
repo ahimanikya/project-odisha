@@ -1,0 +1,86 @@
+---
+import Shell from '../layouts/Shell.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
+import dongria from '../data/dongariya-book.json';
+import dongriaReading from '../data/dongria-book-reading.json';
+import dongriaChapters from '../data/dongariya.json';
+import kotpad from '../data/mirgan-kotpad-book.json';
+const dongriaCover = dongriaReading.cover.at(-1)!;
+const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
+---
+<Shell title="Books" description="Read Dongria Kondh: Life in Niyamgiri and Mirgan Households and Kotpad Textiles, two companion books with separate online readings and PDF downloads." active="explore" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
+<div class="books-page">
+  <header class="books-intro">
+    <p class="eyebrow">Project Odisha · The reading collection</p>
+    <h1>Books</h1>
+    <p>Two companion books about people, knowledge and working lives in Odisha. Each has its own chapters, source notes and complete reading edition.</p>
+    <p>Read online at your own pace, or download a book to keep reading offline.</p>
+  </header>
+  <div class="book-grid">
+    <article class="book-card" data-book="dongria" aria-labelledby="dongria-title">
+      <img src={dongriaCover.src} srcset={dongriaReading.cover.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 400px) 70vw, 256px" width={dongriaCover.width} height={dongriaCover.height} alt={dongriaReading.cover_alt} fetchpriority="high" decoding="async"/>
+      <header>
+        <p class="eyebrow">{dongria.edition}</p>
+        <h2 id="dongria-title"><a href="/stories/dongria/book/">{dongria.title}</a></h2>
+        <p class="book-author">By Ahimanikya Satapathy</p>
+      </header>
+      <div class="book-description">
+        <p>Beginning with a shawl, this book follows the people, food, cloth, learning and songs of Niyamgiri. Its connected chapters bring together named accounts and sources for further reading.</p>
+        <p class="book-details">{dongriaChapters.length} chapters · {dongria.pages} pages · PDF {fileSize(dongria.bytes)}</p>
+        <p class="cover-credit">Cover photograph: {dongriaReading.cover_credit.creator}. <a href={dongriaReading.cover_credit.source_url}>Source</a> · <a href={dongriaReading.cover_credit.licence_url}>{dongriaReading.cover_credit.licence}</a>. The preview reproduces the published cover.</p>
+      </div>
+      <footer class="book-actions">
+        <a href="/stories/dongria/book/" aria-label={`Read online: ${dongria.title}`}>Read online →</a>
+        <a href={dongria.file} aria-label={`Download PDF: ${dongria.title}`}>Download PDF ↓</a>
+      </footer>
+    </article>
+    <article class="book-card" data-book="kotpad" aria-labelledby="kotpad-title">
+      <ResponsiveImage src={kotpad.cover.src} sizes="(max-width: 400px) 70vw, 205px" width={kotpad.cover.width} height={kotpad.cover.height} alt={kotpad.cover.alt} loading="lazy"/>
+      <header>
+        <p class="eyebrow">{kotpad.edition}</p>
+        <h2 id="kotpad-title"><a href="/stories/kotpad/book/">{kotpad.title}</a></h2>
+        <p class="book-author">By {kotpad.author}</p>
+      </header>
+      <div class="book-description">
+        <p>Follow the work behind Kotpad cloth, from making colour and sharing earnings to learning and the working year. This first edition draws on published sources and named testimony.</p>
+        <p class="book-details">{kotpad.chapters.length} chapters · {kotpad.download.pages} pages · PDF {fileSize(kotpad.download.bytes)}</p>
+        <p class="cover-credit">The illustrated cover of the first reading edition.</p>
+      </div>
+      <footer class="book-actions">
+        <a href="/stories/kotpad/book/" aria-label={`Read online: ${kotpad.title}`}>Read online →</a>
+        <a href={kotpad.download.file} aria-label={`Download PDF: ${kotpad.title}`}>Download PDF ↓</a>
+      </footer>
+    </article>
+  </div>
+  <section class="books-next" aria-labelledby="books-next-title">
+    <h2 id="books-next-title">Continue exploring</h2>
+    <p><a href="/explore/">Browse Project Odisha’s articles →</a></p>
+    <p><a href="/contribute/?page=%2Fbooks%2F">Suggest an update to this collection</a>. GitHub submissions are public. Please omit private contact details and consent documents.</p>
+  </section>
+</div>
+</Shell>
+<style>
+  .books-page{inline-size:min(70rem,calc(100% - 2.4rem));margin:3rem auto 5rem}
+  .books-intro{max-inline-size:44rem;margin-block-end:2.8rem}
+  .books-intro h1{font-size:clamp(2.8rem,6vw,4.5rem);margin-block:.6rem 1.4rem}
+  .books-intro>p:not(.eyebrow){font-size:1.12rem;line-height:1.8;margin-block:.75rem}
+  .book-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,24rem),1fr));gap:2rem}
+  .book-card{display:grid;grid-template-rows:auto auto 1fr auto;gap:1.5rem;min-inline-size:0;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);background:var(--paper);align-content:start}
+  .book-card > :global(img){display:block;inline-size:auto;block-size:20rem;max-inline-size:100%;object-fit:contain;justify-self:start}
+  .book-card h2{font-size:clamp(1.9rem,3vw,2.5rem);line-height:1.16;margin-block:.65rem 1rem;overflow-wrap:break-word}
+  .book-card h2 a{text-decoration:none}
+  .book-card h2 a:hover{text-decoration:underline}
+  .book-author{color:var(--muted);font-size:1rem}
+  .book-description{font-size:1.05rem;line-height:1.8;min-inline-size:0}
+  .book-description p+p{margin-block-start:1rem}
+  .book-details{font-size:.95rem}
+  .cover-credit{font-size:.85rem;line-height:1.65;color:var(--muted)}
+  .book-actions{display:flex;flex-wrap:wrap;flex-wrap:balance;gap:.75rem 1.25rem;padding-block-start:1.25rem;border-block-start:1px solid var(--line);align-items:safe center}
+  .book-actions a{display:inline-block;padding-block:.4rem;font-weight:600;font-size:1rem}
+  .books-page a{overflow-wrap:anywhere;text-underline-offset:.2em}
+  .books-page a:focus-visible{outline:3px solid var(--sea);outline-offset:4px}
+  .books-next{max-inline-size:44rem;margin-block-start:3rem;font-size:1rem;line-height:1.8}
+  .books-next h2{font-size:1.8rem;margin-block-end:1rem}
+  .books-next p+p{margin-block-start:1rem}
+  @media(max-width:400px){.books-page{margin-block-start:2rem}.book-card > :global(img){block-size:auto;max-block-size:20rem;max-inline-size:100%}}
+</style>

@@ -16,6 +16,7 @@ const {pathname=Astro.url.pathname,planningReturn=null}=Astro.props;
     </nav>
     <nav class="footer-links" aria-label="Explore and contribute">
       <h2 class="eyebrow">Take part</h2>
+      {allowsPage('/books/')&&<a href="/books/">Books</a>}
       {allowsPage('/characters/')&&<a href="/characters/">Character worlds</a>}
       <a href="/contribute/">Contribute</a>
       <a href={"/contribute/?page="+encodeURIComponent(pathname)}>Suggest a correction</a>
