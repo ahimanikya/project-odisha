@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bd39c701452a7560b87583b3a6bc27ac489c0ccaaaf3e6c1411468ed221a70bc`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e3bdc9e35c62e350f9999b0534dd6983d786e6dafd8dfb9d1623cffae953da77`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -373,6 +373,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-339 · Global Connections documented exchange editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-340 · Chilika journey native ecological reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-341 · Cuttack journey native object-history reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-342 · Balasore journey native observation and evidence reading | in_progress | draft | Ahimanikya Satapathy | Integrate separately reviewed native proposal; verify actual source-copy contract and preservation before publication gates. | — |
 
 ## Pending human review and decisions
 
@@ -1356,7 +1357,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261023019 | 2026-11-09T03:13:07.050665+00:00 | Registered Kotpad reviewed implementation; Khandua actual delivery reconciled. Zero new credit. | — |
 | POD-EVT-20261023020 | 2026-11-09T05:34:17.367509+00:00 | Kotpad actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261109001 | 2026-11-09T15:46:11.827273+00:00 | Registered Tasar before guarded reviewed payload installation; historical Kotpad release reconciled. Actual runtime and release gates pending; zero new credit. | — |
 | POD-EVT-20261109002 | 2026-11-09T17:12:34.552377+00:00 | Tasar actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
@@ -1366,6 +1366,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261110002 | 2026-11-09T23:24:17.308926+00:00 | Chilika journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110003 | 2026-11-10T01:36:02.820181+00:00 | Register pending Cuttack native object-history exposition with explicit acceptance and zero credit; preserve actual Chilika release and all other ownership. | — |
 | POD-EVT-20261110004 | 2026-11-10T05:28:23.401673+00:00 | Cuttack journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
+| POD-EVT-20261110005 | 2026-11-10T06:54:11.362241+00:00 | Register pending Balasore native observation and evidence exposition with explicit acceptance and zero credit; preserve actual Cuttack release and all other ownership. | — |
 
 ## Deferred extensions
 

@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/cuttack-journey-editorial-2026-11-10.json",
+  "handoff_home": "records/balasore-journey-editorial-2026-11-10.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-130",
+    "route": "/journey-starters/balasore/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/balasore-journey-editorial-2026-11-10.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-129",
-    "handoff": "records/cuttack-journey-editorial-2026-11-10.json",
+    "status": "in_progress",
+    "article_id": "POD-EDIT-130",
+    "handoff": "records/balasore-journey-editorial-2026-11-10.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -347,6 +353,23 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-128",
         "handoff": "records/chilika-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-129",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 754,
+      "receipt_merge": "ee546e04394c8440d5e35c9a6aabf58cf89f43b6",
+      "delivery_sha256": "d3a32c1116e6a683d908af98605ffbf4d9a9853b63a7e5a55aaae580a9a21093",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-129",
+        "handoff": "records/cuttack-journey-editorial-2026-11-10.json",
         "scope_released": false
       },
       "original_current_article": null,
