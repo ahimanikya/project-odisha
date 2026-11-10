@@ -1,0 +1,28 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import ArticleByline from '../../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
+import KotpadText from '../../../components/KotpadText.astro';
+import KotpadNotes from '../../../components/KotpadNotes.astro';
+import book from '../../../data/mirgan-kotpad-book.json';
+import '../../../styles/article-reading.css';
+import '../../../styles/kotpad-reading.css';
+export function getStaticPaths(){return book.chapters.map(chapter=>({params:{slug:chapter.slug},props:{chapter}}));}
+const {chapter}=Astro.props;
+const route=(c:{slug:string})=>`/stories/kotpad/${c.slug}/`;
+const previous=book.chapters[chapter.number-2],next=book.chapters[chapter.number];
+const previousLink=previous?{href:route(previous),title:previous.title}:{href:'/stories/kotpad/book/#introduction',title:'Introduction'};
+const nextLink=next?{href:route(next),title:next.title}:{href:'/stories/kotpad/book/#conclusion',title:'Conclusion'};
+---
+<Shell title={chapter.title} description={`${chapter.title}, from Mirgan Households and Kotpad Textiles by Ahimanikya Satapathy.`} active="explore" related={false} shareImage={{src:book.cover.src,alt:book.cover.alt,width:book.cover.width,height:book.cover.height}}>
+<article class="article-reading kotpad-reading">
+<nav class="series-nav" aria-label="Book navigation"><a href="/stories/kotpad/">All chapters</a><a href="/stories/kotpad/book/">The book and download</a></nav>
+<header><p class="eyebrow">{chapter.part.replace('PART ','Part ').toLowerCase().replace(/^./,(s:string)=>s.toUpperCase())} · Chapter {chapter.number} of 9</p><h1>{chapter.title}</h1><ArticleByline author={book.author}/></header>
+<KotpadText blocks={chapter.blocks}/>
+<KotpadNotes sources={chapter.sources}/>
+<nav class="chapter-sequence" aria-label="Chapter sequence"><a href={previousLink.href} rel="prev"><span>Previous</span>← {previousLink.title}</a><a href={nextLink.href} rel="next"><span>Next</span>{nextLink.title} →</a></nav>
+<ArticleReadingPath heading="Continue reading" links={[nextLink,{href:'/stories/kotpad/book/',title:'The complete book and PDF'}]}/>
+<ArticleReadingPath heading="Further reading" links={[{href:'/stories/dongria/book/',title:'Dongria Kondh: Life in Niyamgiri',description:'A separate companion book about people, food, cloth, learning and songs in Niyamgiri.'}]}/>
+<section class="suggest-update"><h2>Suggest an update</h2><p><a href={`/contribute/?page=${encodeURIComponent(route(chapter))}`}>Share a correction or source for this chapter</a>.</p><p>GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
+</article>
+</Shell>

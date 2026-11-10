@@ -1,0 +1,6 @@
+---
+interface Props {blocks:{kind:string;html:string;text:string}[]; headingLevel?:2|3}
+const {blocks,headingLevel=2}=Astro.props;
+const Heading=headingLevel===3?'h3':'h2';
+---
+{blocks.map(block=>block.kind==='heading'?<Heading set:html={block.html}/>:<p set:html={block.html}/>)}

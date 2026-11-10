@@ -1,0 +1,19 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
+import ArticleByline from '../../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
+import KotpadContents from '../../../components/KotpadContents.astro';
+import book from '../../../data/mirgan-kotpad-book.json';
+import '../../../styles/article-reading.css';
+import '../../../styles/kotpad-reading.css';
+---
+<Shell title={book.title} description="Read nine chapters on Mirgan households, Kotpad textiles, colour, work and livelihoods in Odisha, with sources and a complete book download." active="explore" related={false} shareImage={{src:book.cover.src,alt:book.cover.alt,width:book.cover.width,height:book.cover.height}}>
+<article class="article-reading kotpad-reading">
+<header><p class="eyebrow">Nine connected chapters</p><h1>{book.title}</h1><p>{book.subtitle}</p><ArticleByline author={book.author}/></header>
+<div class="book-opening"><figure><ResponsiveImage src={book.cover.src} sizes="(max-width: 640px) 256px, 288px" alt={book.cover.alt} width={book.cover.width} height={book.cover.height} fetchpriority="high"/><figcaption>The first reading edition.</figcaption></figure><div>{book.synopsis.map(p=><p>{p}</p>)}<p><a href="/stories/kotpad/book/">Read the book online →</a></p><p><a href={book.download.file}>Download the complete book · PDF · {book.download.pages} pages</a></p></div></div>
+<section id="chapters"><h2>Read the chapters</h2><KotpadContents/></section>
+<ArticleReadingPath heading="Continue your reading path" links={[{href:'/stories/kotpad/book/#introduction',title:'Begin with the introduction'},{href:'/stories/kotpad/book/#source-notes',title:'Source notes and references'}]}/>
+<ArticleReadingPath heading="Further reading" links={[{href:'/stories/dongria/book/',title:'Dongria Kondh: Life in Niyamgiri',description:'A separate companion book about the people, food, cloth, learning and songs of Niyamgiri.'}]}/>
+<section class="suggest-update"><h2>Suggest an update</h2><p><a href="/contribute/?page=%2Fstories%2Fkotpad%2F">Share a correction or source for this collection</a>.</p><p>GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
+</article></Shell>
