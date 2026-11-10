@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-132",
   "work_id": "POD-WORK-344",
   "programme_id": "POD-A500-153",
@@ -9,14 +9,15 @@
   "started_at": "2026-11-10T15:27:04.887732+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Publish the separately reviewed substantive native supplement and evidence contribution for this article. Preserve all six existing sections, three credited photographs, preparation, existing Save identity, related links and complete companion formats. Verify the conditional196-word new-source ceiling against actual canonical and native output, including identifiers, metadata and notes; no extra source-derived copies in registration or receipt evidence. Retain the historical source-use hold:56 tracked locations,137 selected words and274 minimum canonical/native copies; no new legacy derivation, allowance reset or destructive compaction. Require separate source/proposal/integrated review, accessible visible numeric notes,1440/390 runtime and preservation checks, actual CI-before-merge, publication/live/archive verification and separately reviewed receipt before one substantive credit. No current operating-service, staffing, access, fee or route confirmation.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "source_budget": {
     "conditional_total": 196,
     "proposed_actual_total": 196,
-    "actual_publication_audit": null,
-    "legacy_allowances": "56 current identity locations retained;137 selected canonical words and274 minimum canonical/native. No new legacy derivation, reset or destructive compaction. Not a certified whole historical-source allowance."
+    "actual_publication_audit": "PASS196",
+    "legacy_allowances": "56 current identity locations retained;137 selected canonical words and274 minimum canonical/native. No new legacy derivation, reset or destructive compaction. Not a certified whole historical-source allowance.",
+    "actual_total": 196
   },
   "author_proposal": {
     "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/jobra-maritime-editorial-2026-11-10/anvesha/author-v2/report.json",
@@ -57,5 +58,30 @@
     "publication_words": 87,
     "separate_browser_review_sha256": "fa660981ef224ebb6ef5e4e718c07949b0e315d90301aa1ba9b70bc9c6e97447",
     "static_correction_review_sha256": "3d187fb6f5dc580042fbd5c514f6b4c57cc907c90605271d6e130b89fd8b287d"
-  }
+  },
+  "verified_at": "2026-11-10T17:09:30.555Z",
+  "prepared_at": "2026-11-10T17:18:05.917279+00:00",
+  "completed_at": "2026-11-10T17:09:30.555Z",
+  "publication": {
+    "head": "30341d50410205940b7c9c79e0cf739c666994f7",
+    "databaseId": 42856261821,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42856261821",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live_verification": {
+    "checked_at": "2026-11-10T17:09:30.555Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/visit/experiences/jobra-maritime-museum/"
+    ],
+    "images": true,
+    "producer_sha256": "e0055b186a9455b087fa3af1d938cfb51168e36de997f5eaa07ba266623581c2",
+    "separate_review_sha256": "c9f60a51a1a19bd2cca8d4e96306696a32efb9d559d20c73687c1be33aa3cf3d",
+    "evidence_manifest": "records/evidence/jobra-maritime-editorial-2026-11-10/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "53af4b3bb7bfd644a1a997ec7c1824edc7444ddcb1be0458c875bc8e4ab33666"
+  },
+  "receipt": "records/jobra-maritime-editorial-publication-2026-11-10.json",
+  "review": "records/jobra-maritime-delivery-review-2026-11-10.json"
 }
