@@ -1,33 +1,20 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync,existsSync} from 'node:fs';
-test('Jhula ships eighteen sets plus two Pattachitra options and all original bag image resources with inline ratings and comments',()=>{
+import {readFileSync} from 'node:fs';
+const destination='https://store.projectodisha.org/kabi-jhula-story/';
+test('retired Jhula bookmark leads to the Store story without exposing the former survey',()=>{
  const html=readFileSync('dist-coast/odia-poetry-jhula/index.html','utf8');
- assert.equal([...html.matchAll(/id="design-\d{2}"/g)].length,20);
- const images=[...html.matchAll(/<image\b[^>]*href="([^"]+)"/g)].map(m=>m[1]);
- assert.equal(images.length,30);
- for(const path of images)assert.ok(existsSync('dist-coast'+path),path);
- for(const name of ['ivory-flap-pattachitra.png','poets-classic-pattachitra.png']){assert.ok(html.includes(name));assert.ok(existsSync('dist-coast/images/poetry-jhula/additional/'+name));}
- assert.match(html,/id="jhula-feedback"/);
- assert.match(html,/data-storage="firebase"/);
- assert.equal([...html.matchAll(/name="rating-\d{2}"/g)].length,100);
- assert.equal([...html.matchAll(/name="comment-\d{2}"/g)].length,20);
- assert.equal([...html.matchAll(/name="favourite"/g)].length,20);
- assert.match(html,/name="comment" maxlength="1000"/);
- assert.doesNotMatch(html,/class="vote-button" href=/);
- assert.match(html,/90 cm along the exposed strap/);
- assert.doesNotMatch(html,/>[^<]*(?:\bKabira\b|Kabi’s Kit)[^<]*</);
- assert.match(html,/noindex/);
- assert.match(html,/<input name="name"[^>]*required/);
- assert.match(html,/<input type="email" name="email"/);
- assert.match(html,/<input type="tel" name="phone"/);
- assert.match(html,/men-styling-v2.png/);
- assert.match(html,/ବିଶ୍ୱ ଦେଖ ମଧୁମୟରେ ଜୀବନ/);
- assert.match(html,/or.wikisource.org/);
- assert.match(html,/choices save automatically/);
- assert.match(html,/either your email or your phone/);
- assert.match(html,/Send my comments/);
- assert.doesNotMatch(html,/AI-created|AI-generated|AI styling|How your feedback is saved|Ready\. Rate|NOW, A LITTLE SPACE/);
- assert.doesNotMatch(html,/View the original Jhula|The originals|aquera-1216/);
- assert.equal([...html.matchAll(/See the bag on its own/g)].length,18);
+ assert.match(html,/<html[^>]*lang="en"/);
+ assert.match(html,/<meta[^>]*name="robots"[^>]*content="noindex,?\s?nofollow"/);
+ assert.ok(html.includes('content="0;url='+destination+'"'));
+ assert.ok(html.includes('href="'+destination+'"'));
+ assert.match(html,/<main[\s>]/);
+ assert.match(html,/Read the Kabi Jhula story at Odisha Store/);
+ assert.deepEqual([...html.matchAll(/<script\b([^>]*)>/g)].map(match=>match[1].includes('type="application/json"')),[true]);
+ assert.doesNotMatch(html,/<form|jhula-feedback|data-storage="firebase"|id="design-\d{2}"/);
+});
+test('main-site discovery and navigation no longer offer the retired Jhula survey',()=>{
+ const home=readFileSync('dist-coast/index.html','utf8');
+ const explore=readFileSync('dist-coast/explore/index.html','utf8');
+ for(const html of [home,explore])assert.doesNotMatch(html,/href="\/odia-poetry-jhula\/"/);
 });
