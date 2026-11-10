@@ -1,0 +1,36 @@
+{
+  "status": "PASS_SOURCE_AND_INITIAL_STATIC_REVIEW",
+  "final_artifact_review_pending": true,
+  "independent_sources_read": [
+    {
+      "url": "https://bhubaneswarfilmfestival.com/bhubaneswar-film-festival-2024/",
+      "locator": "Dhauli Express programme entry lines86–90",
+      "finding": "2007,150-minute programme duration,director and synopsis support selection; uploader duration155:22 separately recorded."
+    },
+    {
+      "url": "https://www.newindianexpress.com/states/odisha/2009/Feb/09/pratihari-bags-jayadev-award-24393.html",
+      "locator": "lines55–60",
+      "finding": "Best feature2007/Mohan Sundar Dev Goswami award; not a National Film Award."
+    },
+    {
+      "url": "https://cinemaazi.com/people/pandit-hariprasad-chaurasia-1",
+      "locator": "line150",
+      "finding": "Gapa Helebi Sata1976 and Bhuban-Hari partnership supported."
+    }
+  ],
+  "checks": {
+    "existing_nine_entries_deep_equal": true,
+    "total_entries": 11,
+    "unique_film_ids": 11,
+    "unique_watch_urls": 11,
+    "output_and_site_catalogue_json_byte_equal": true
+  },
+  "findings": [],
+  "limits": [
+    "Sampled playback/director-card reading remains root/Anvesha evidence; reviewer has not watched films or tested embeds.",
+    "Official-upload is channel provenance, not independently established licence ownership or public-domain status.",
+    "Tapoi held because material runtime discrepancy remains unresolved.",
+    "No literary-source claim adopted for either addition."
+  ],
+  "scope_released": false
+}

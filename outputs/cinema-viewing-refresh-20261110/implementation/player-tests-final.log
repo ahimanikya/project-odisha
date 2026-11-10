@@ -1,0 +1,39 @@
+✔ catalogue identities, dates, language, URL and evidence constraints (0.812417ms)
+✔ classification filters, unknowns and grouping entries by work (0.110083ms)
+✔ provider host allowlist and embed boundary reject hostile or mixed entries (0.320959ms)
+✔ DOM contract: no initial iframe; explicit player, stop, selection replacement and focus (2.194833ms)
+✔ DOM contract: local files never embed and retain external fallback (0.835292ms)
+✔ DOM contract: deep links, empty/reset, hash selection and invalid hash stop (0.737084ms)
+✖ static safety and portable companions (0.983667ms)
+✔ DOM provider cards use no thumbnail or iframe and preserve payment caveat (0.80575ms)
+✔ provider switch clears a playing upload and removed entries are absent (0.949125ms)
+✔ curated full-film and trailer routes have evidence and compact catalogue rows (0.801666ms)
+✔ local and public reading links resolve their own contexts (1.279708ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 10
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 49.003333
+
+✖ failing tests:
+
+test at outputs/odia-movie-player/test.cjs:16:1
+✖ static safety and portable companions (0.983667ms)
+  AssertionError [ERR_ASSERTION]: ../../output/pdf/odia-cinema-a-living-screen.pdf
+      at TestContext.<anonymous> (/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/odia-movie-player/test.cjs:16:794)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
