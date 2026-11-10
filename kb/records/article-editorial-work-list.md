@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1085. completed: 199, excluded: 627, queued: 259.
+Route inventory: 1085. completed: 199, excluded: 627, in_progress: 1, queued: 258.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -145,7 +145,7 @@ Route inventory: 1085. completed: 199, excluded: 627, queued: 259.
 | POD-EDIT-129 | [Cuttack · Silver and Stories](https://projectodisha.org/journey-starters/cuttack/) | completed | substantive_native_object_history_reading |
 | POD-EDIT-130 | [Balasore · Tides and Tales](https://projectodisha.org/journey-starters/balasore/) | completed | substantive_native_observation_reading |
 | POD-EDIT-131 | [Mayurbhanj · Forest, Rhythm and a Meal](https://projectodisha.org/journey-starters/mayurbhanj/) | completed | substantive_native_observation_reading |
-| POD-EDIT-132 | [Jobra · before the voyage](https://projectodisha.org/visit/experiences/jobra-maritime-museum/) | queued | classification_pending |
+| POD-EDIT-132 | [Jobra · before the voyage](https://projectodisha.org/visit/experiences/jobra-maritime-museum/) | in_progress | substantive_native_evidence_reading |
 | POD-EDIT-133 | [Kala Bhoomi · look closely](https://projectodisha.org/visit/experiences/kala-bhoomi/) | queued | classification_pending |
 | POD-EDIT-134 | [Bhubaneswar · Objects and Ideas](https://projectodisha.org/journey-starters/bhubaneswar-objects-ideas/) | queued | classification_pending |
 | POD-EDIT-135 | [Cuttack · River and Silver](https://projectodisha.org/journey-starters/cuttack-river-silver/) | queued | classification_pending |

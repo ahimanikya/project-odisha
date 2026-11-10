@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/mayurbhanj-journey-editorial-2026-11-10.json",
+  "handoff_home": "records/jobra-maritime-editorial-2026-11-10.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-132",
+    "route": "/visit/experiences/jobra-maritime-museum/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/jobra-maritime-editorial-2026-11-10.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-131",
-    "handoff": "records/mayurbhanj-journey-editorial-2026-11-10.json",
+    "status": "in_progress",
+    "article_id": "POD-EDIT-132",
+    "handoff": "records/jobra-maritime-editorial-2026-11-10.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -382,6 +388,24 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-130",
         "handoff": "records/balasore-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-131",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 764,
+      "receipt_merge": "1aca911b33bd02f635f81e9e853543ac1a4f0368",
+      "delivery_sha256": "27c5d541863aa7e238ba897d53aa9ad00686ecb81924645f587affea0a793a14",
+      "remote_verification_sha256": "b0712e6714234c705ee6de079cc4d5de9018549520a7bbdceacc3e72f9b7a2f5",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-131",
+        "handoff": "records/mayurbhanj-journey-editorial-2026-11-10.json",
         "scope_released": false
       },
       "original_current_article": null,
