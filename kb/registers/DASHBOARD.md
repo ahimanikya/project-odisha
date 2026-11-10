@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `094425eab25a6e5360ddb1a5523fe64bd5312063acf4891ddab12da1822c76a8`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a3317956e23f29f6bca2344c6f79668125a04b37e257746c30b8b96ec673c560`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1359,7 +1359,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261109004 | 2026-11-09T19:14:38.559707+00:00 | Global Connections actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110001 | 2026-11-09T21:24:25.223530+00:00 | Register pending Chilika native exposition with explicit acceptance and zero credit; preserve Global release and all other ownership. | — |
 | POD-EVT-20261110002 | 2026-11-09T23:24:17.308926+00:00 | Chilika journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110003 | 2026-11-10T01:36:02.820181+00:00 | Register pending Cuttack native object-history exposition with explicit acceptance and zero credit; preserve actual Chilika release and all other ownership. | — |
@@ -1369,6 +1368,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261110007 | 2026-11-10T10:16:54.891415+00:00 | Register pending Mayurbhanj native attention and learning exposition with explicit acceptance and zero credit; preserve actual Balasore release and all other ownership. | — |
 | POD-EVT-20261110008 | 2026-11-10T13:57:41.605087+00:00 | Mayurbhanj journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110009 | 2026-11-10T15:27:04.887732+00:00 | Register pending Jobra native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
+| POD-EVT-20261110010 | 2026-11-10T17:26:13.953376+00:00 | Reviewed two culturally significant full-film routes; preserved existing selection and held Tapoi completeness gap. Website publication pending; zero programme credit. | — |
 
 ## Deferred extensions
 
