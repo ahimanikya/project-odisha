@@ -1,0 +1,1 @@
+Record the successful viewing-room publication from PR769 and deployment42868348328. The three served player assets match the reviewed versions; Chrome verified both new cards, Dhauli’s direct YouTube fallback, and Gapa playback advancing to27seconds. Release only the cinema utility scope and preserve all other ownership. No public-site code, article, image or book changes.
