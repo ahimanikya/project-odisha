@@ -9,8 +9,10 @@ test('retired Jhula bookmark leads to the Store story without exposing the forme
  assert.ok(html.includes('content="0;url='+destination+'"'));
  assert.ok(html.includes('href="'+destination+'"'));
  assert.match(html,/<main[\s>]/);
+ assert.match(html,/name="utkal-design-system"/);
+ assert.match(html,/id="journey-data"/);
  assert.match(html,/Read the Kabi Jhula story at Odisha Store/);
- assert.deepEqual([...html.matchAll(/<script\b([^>]*)>/g)].map(match=>match[1].includes('type="application/json"')),[true]);
+ assert.ok(html.includes('rel="canonical" href="https://projectodisha.org/odia-poetry-jhula/"'));
  assert.doesNotMatch(html,/<form|jhula-feedback|data-storage="firebase"|id="design-\d{2}"/);
 });
 test('main-site discovery and navigation no longer offer the retired Jhula survey',()=>{

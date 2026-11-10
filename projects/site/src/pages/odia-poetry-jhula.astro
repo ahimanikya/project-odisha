@@ -1,28 +1,10 @@
 ---
-import '../../../design-system/styles/utkal.css';
-import '../styles/global.css';
-import '../styles/design-system.css';
-import designSystem from '../../../design-system/package.json';
-import {publicJourney} from '../data/public-journey';
-const safeJSON=JSON.stringify(publicJourney).replaceAll('<','\\u003c');
+import Shell from '../layouts/Shell.astro';
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="utkal-design-system" content={designSystem.version} />
-    <meta http-equiv="refresh" content="0;url=https://store.projectodisha.org/kabi-jhula-story/" />
-    <link rel="canonical" href="https://store.projectodisha.org/kabi-jhula-story/" />
-    <title>Kabi Jhula has moved · Odisha Store</title>
-  </head>
-  <body class="utk">
-    <main class="wrap">
-      <h1>Kabi Jhula has moved to Odisha Store</h1>
-      <p>The story and collection now live together in Odisha Store.</p>
-      <p><a href="https://store.projectodisha.org/kabi-jhula-story/">Read the Kabi Jhula story at Odisha Store →</a></p>
-    </main>
-    <script is:inline type="application/json" id="journey-data" set:html={safeJSON} />
-  </body>
-</html>
+<Shell title="Kabi Jhula has moved" description="The Kabi Jhula story and collection now live together in Odisha Store." redirectTo="https://store.projectodisha.org/kabi-jhula-story/" related={false}>
+  <section class="wrap">
+    <h1>Kabi Jhula has moved to Odisha Store</h1>
+    <p>The story and collection now live together in Odisha Store.</p>
+    <p><a href="https://store.projectodisha.org/kabi-jhula-story/">Read the Kabi Jhula story at Odisha Store →</a></p>
+  </section>
+</Shell>
