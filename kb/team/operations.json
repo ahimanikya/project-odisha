@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/chilika-journey-editorial-2026-11-10.json",
+  "handoff_home": "records/cuttack-journey-editorial-2026-11-10.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-129",
+    "route": "/journey-starters/cuttack/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/cuttack-journey-editorial-2026-11-10.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-128",
-    "handoff": "records/chilika-journey-editorial-2026-11-10.json",
+    "status": "in_progress",
+    "article_id": "POD-EDIT-129",
+    "handoff": "records/cuttack-journey-editorial-2026-11-10.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -330,6 +336,23 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-127",
         "handoff": "records/global-connections-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-128",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 752,
+      "receipt_merge": "d039a2373cc7a7ed6b8c12c81488a06c0c9f5279",
+      "delivery_sha256": "3aeceb3d9140d3da6f67dfd5321dbd1eb281f84aef8df30bed3c7ece94cc4c94",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-128",
+        "handoff": "records/chilika-journey-editorial-2026-11-10.json",
         "scope_released": false
       },
       "original_current_article": null,
