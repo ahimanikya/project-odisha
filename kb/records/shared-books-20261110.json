@@ -1,6 +1,6 @@
 {
   "id": "POD-SHARED-BOOKS-20261110",
-  "status": "in-progress",
+  "status": "reviewed-awaiting-release",
   "authorization": "User: Create a shared books page on Project Odisha for Dongaria and Mirgan and Kotpad, keeping each book separate with its own reading and download links.",
   "route": "/books/",
   "scope": "Navigation collection of two already published companion books. Reuse existing cover assets and exact PDFs; no combined book, new research, ISBN or printer selection.",
@@ -27,6 +27,11 @@
   "review": {
     "reviewer": "Drishti, separate task-scoped AI agent",
     "source_and_integration": "PASS: distinct reading/PDF targets, media credits, route/search inventory, reciprocal navigation; both existing PDF hashes preserved.",
-    "rendered": "pending"
+    "rendered": "PASS: three focused tests, metadata, unique IDs, all local links/fragments and PDF bytes; no blocker."
+  },
+  "validation": {
+    "full_site_tests": "770 passed",
+    "browser": "Desktop and 320px visual checks passed; no broken images or horizontal overflow. Tab from Dongria reading link focuses its separate PDF link.",
+    "release_gates": "Coastal/audit and clean GitHub checks required before merge."
   }
 }
