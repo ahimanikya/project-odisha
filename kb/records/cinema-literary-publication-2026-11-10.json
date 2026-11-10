@@ -2,7 +2,7 @@
   "id": "POD-CINEMA-LITERARY-PUBLICATION-20261110",
   "date": "2026-11-10",
   "authorization": "Founder: add Nilamani Sahu example to Literature and Screen and Palmful observation to Biyott profile, then publish website and both books; keep unconfirmed details open.",
-  "status": "reviewed_ready_for_publication",
+  "status": "reviewed_merged_hosting_retry_needed",
   "active_article": null,
   "scope_released": false,
   "publication_performed": false,
@@ -39,7 +39,7 @@
     "Leave original stories, first-publication, translator, payment and film-credit gaps open.",
     "Preserve images, earlier PDFs, tagged-reader experiments and foreign ownership."
   ],
-  "next_action": "Complete final website preview and publication checks, then publish the independently reviewed articles and both book downloads; verify live bytes.",
+  "next_action": "Recover host deployment, then verify live article passages and both exact PDF downloads. Content and PDF review remain passed; do not claim website publication yet.",
   "literature_review": "outputs/cinema-literary-publication-20261110/review/literature-review.json",
   "profile_review": "outputs/cinema-literary-publication-20261110/review/profile-review.json",
   "source_review": "outputs/cinema-literary-publication-20261110/anvesha/source-review.json",
@@ -69,5 +69,22 @@
   "artifact_review_result": "PASS",
   "local_checks": "outputs/cinema-literary-publication-20261110/root/checks.json",
   "local_preview": "outputs/cinema-literary-publication-20261110/root/local-preview.json",
-  "payload": "outputs/cinema-literary-publication-20261110/root/payload.json"
+  "payload": "outputs/cinema-literary-publication-20261110/root/payload.json",
+  "book_assets_published": true,
+  "release_review": "outputs/cinema-literary-publication-20261110/review/release-review.json",
+  "integration_review": "outputs/cinema-literary-publication-20261110/review/integration-review.json",
+  "publication_attempt": {
+    "pr": "https://github.com/ahimanikya/project-odisha/pull/758",
+    "head_sha": "947f6c7b0027b2fe19b5b0e1444d10f086c9c630",
+    "merge_sha": "9d32c6351d82492fa1f0588adf8ef2890c5d98f9",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42783818436",
+    "validation_conclusion": "success",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42788903004",
+    "attempt_1": "Passed build; hosting timed out at syncing_files and cancelled deployment after600000ms.",
+    "attempt_2": "Retried onlyfaileddeployjob againstsameartifact; host returned Deployment cancelled.",
+    "release_assets": "Both public GitHub release assets match reviewed SHA256 and bytecounts; website still oldedition.",
+    "fresh_run": "https://github.com/ahimanikya/project-odisha/actions/runs/42793546138",
+    "fresh_run_status": "dispatched_pending_exacthead_and_result"
+  },
+  "hosting_recovery_guidance": "outputs/cinema-literary-publication-20261110/implementation/hosting-recovery.json"
 }
