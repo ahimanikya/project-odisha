@@ -1,6 +1,8 @@
 ---
 import Shell from '../../layouts/Shell.astro';
 import VisitorTrail from '../../components/VisitorTrail.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import editorial from '../../../../../kb/research/destinations/cuttack-journey-editorial.json';
 import trail from '../../../../../kb/research/destinations/cuttack-trail.json';
 import selection from '../../../../../kb/research/journey-starters.json';
 import {allowsStarter} from '../../data/edition';
@@ -9,11 +11,28 @@ const choices=selection.starters.filter(s=>trail.starter_ids.includes(s.id)&&all
 const photos=[...new Map(trail.chapters.map(c=>{const p=bookPhotos[c.photo];return [p.src,p];})).values()];
 ---
 <Shell title="Cuttack · Silver and Stories" description={trail.intro} active="journey" wide>
-<div class="wrap">
+<div class="wrap cuttack-journey">
 <nav class="trail-breadcrumb" aria-label="Journey trail"><a href="/journey-starters/">Journey starters</a><span aria-hidden="true"> / </span><a href="/destinations/cuttack/">Cuttack guide</a></nav>
 <noscript><p class="notice">Enable JavaScript to save a journey. All stories and guide links can be read without it.</p></noscript>
-<VisitorTrail trail={trail} choices={choices} headingLevel="h1"/>
-<details class="trail-credits"><summary>Photographs & source notes</summary><p>Context reviewed {trail.reviewed_on}. {trail.review_scope}</p><ul>{trail.sources.map(s=><li><a href={s.url}>{s.title}</a>. {s.note}</li>)}</ul><ul>{photos.map(p=><li><a href={p.source}>{p.caption||p.alt}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</li>)}</ul></details>
+<article class="cuttack-exposition" aria-labelledby="cuttack-reading-title">
+<h1 id="cuttack-reading-title">{editorial.title}</h1>
+<ArticleByline author={editorial.byline.replace(/^By /,'')}/>
+<p class="reading-scope">{editorial.scope_notice}</p>
+{editorial.paragraphs.map(p=><p id={'exposition-'+p.id}>{p.text}{(p.source_ids?.length||0)>0&&<sup><a id="cuttack-reading-ref-1" href="#cuttack-reading-note-1" data-footnote-ref aria-label="Source 1">[1]</a></sup>}</p>)}
+<section id="cuttack-reading-sources" class="reading-sources" aria-labelledby="cuttack-sources-title"><h2 id="cuttack-sources-title">Footnotes &amp; Sources</h2><ol><li id="cuttack-reading-note-1" tabindex="-1"><a href={editorial.sources[0].url}>{editorial.sources[0].citation}</a> <a href="#cuttack-reading-ref-1" data-footnote-backref aria-label="Return to reference 1">↩</a></li></ol></section>
+<section aria-labelledby="cuttack-further-title"><h2 id="cuttack-further-title">Further reading</h2><ul><li><a href="/destinations/cuttack/">Cuttack guide →</a></li><li><a href="#visitor-trail-title-cuttack-silver-stories">Continue to the journey chapters →</a></li></ul><p><a href="/contribute/?page=%2Fjourney-starters%2Fcuttack%2F">Suggest an update →</a></p><p class="reading-privacy">Submissions through GitHub Issues are public. Share public sources; leave out private contact details.</p></section>
+</article>
+<VisitorTrail trail={trail} choices={choices} headingLevel="h2"/>
+<section class="trail-credits" aria-labelledby="trail-credits-title"><h2 id="trail-credits-title">Photographs &amp; source notes</h2><p>Context reviewed {trail.reviewed_on}. {trail.review_scope}</p><ul>{trail.sources.map(s=><li><a href={s.url}>{s.title}</a>. {s.note}</li>)}</ul><ul>{photos.map(p=><li><a href={p.source}>{p.caption||p.alt}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</li>)}</ul></section>
 </div>
 </Shell>
 <style>.trail-breadcrumb{padding-top:28px;font-size:15px}.trail-breadcrumb a{display:inline-block;padding:10px 0}.trail-credits{margin:32px 0 60px;font-size:14px;max-width:85ch;overflow-wrap:anywhere}.trail-credits summary{padding:14px 0;cursor:pointer}.trail-credits li{margin:14px 0}</style>
+
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.cuttack-exposition').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.cuttack-exposition{max-width:740px;margin:40px auto 64px}.cuttack-exposition h1{font-size:clamp(36px,5vw,64px);line-height:1.14;overflow-wrap:break-word}.cuttack-exposition>p{font-size:1.1rem;line-height:1.85;margin-block:1.25em}.cuttack-exposition .reading-scope{font-size:.95rem;color:var(--muted);border-left:2px solid var(--earth);padding-left:18px}.cuttack-exposition h2{font-size:clamp(27px,3vw,38px);margin:1.5em 0 .65em}.reading-sources{border-top:1px solid var(--line);padding-top:12px;margin-top:36px;overflow-wrap:anywhere}.reading-sources li{line-height:1.8;scroll-margin-top:28px}.cuttack-exposition sup{font-size:.7em;line-height:0;margin-left:.15em}.cuttack-exposition [data-footnote-ref]{padding:.2em .15em}.cuttack-exposition [data-footnote-backref]{display:inline-block;padding:.2rem .3rem}.cuttack-exposition a:focus-visible{outline:2px solid var(--earth);outline-offset:3px}.cuttack-exposition .reading-privacy{font-size:.85rem;line-height:1.7}
+.cuttack-journey :global(img[src="/images/regions/cuttack-filigree.webp"]){display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+</style>
