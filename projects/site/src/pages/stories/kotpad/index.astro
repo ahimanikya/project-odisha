@@ -8,7 +8,7 @@ import book from '../../../data/mirgan-kotpad-book.json';
 import '../../../styles/article-reading.css';
 import '../../../styles/kotpad-reading.css';
 ---
-<Shell title={book.title} description={book.subtitle} active="explore" related={false} shareImage={{src:book.cover.src,alt:book.cover.alt,width:book.cover.width,height:book.cover.height}}>
+<Shell title={book.title} description="Read nine chapters on Mirgan households, Kotpad textiles, colour, work and livelihoods in Odisha, with sources and a complete book download." active="explore" related={false} shareImage={{src:book.cover.src,alt:book.cover.alt,width:book.cover.width,height:book.cover.height}}>
 <article class="article-reading kotpad-reading">
 <header><p class="eyebrow">Nine connected chapters</p><h1>{book.title}</h1><p>{book.subtitle}</p><ArticleByline author={book.author}/></header>
 <div class="book-opening"><figure><ResponsiveImage src={book.cover.src} sizes="(max-width: 640px) 256px, 288px" alt={book.cover.alt} width={book.cover.width} height={book.cover.height} fetchpriority="high"/><figcaption>The first reading edition.</figcaption></figure><div>{book.synopsis.map(p=><p>{p}</p>)}<p><a href="/stories/kotpad/book/">Read the book online →</a></p><p><a href={book.download.file}>Download the complete book · PDF · {book.download.pages} pages</a></p></div></div>
