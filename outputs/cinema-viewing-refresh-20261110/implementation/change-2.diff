@@ -1,0 +1,17 @@
+--- projects/site/tests/cinema-discovery.test.mjs (before)
++++ projects/site/tests/cinema-discovery.test.mjs
+@@ -30,9 +30,13 @@
+ 
+ test('curated viewing room retains selected entries and distinguishes new trailers',()=>{
+  const data=read('public/assets/cinema/player/catalogue.json');
+- const expected=['daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel','bara-badhu-trailer','maliput-melodies-trailer'];
++ const expected=['daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel','bara-badhu-trailer','maliput-melodies-trailer','dhauli-express','gapa-hele-bi-sata-tvnxt'];
+  assert.deepEqual(data.entries.map(x=>x.id).sort(),expected.sort());
+  assert.equal(new Set(data.entries.map(x=>x.watchURL)).size,data.entries.length);
++ for(const [id,year,reading] of [['dhauli-express',2007,'odia-cinema'],['gapa-hele-bi-sata-tvnxt',1976,'cinema-music']]){
++  const entry=data.entries.find(x=>x.id===id);assert.equal(entry.type,'full-film');assert.equal(entry.year,year);assert.equal(entry.checkedOn,'2026-11-10');assert.equal(entry.publicDomainVerified,false);
++  const choice=data.curation.featured.find(x=>x.id===id);assert.ok(choice,id);assert.equal(choice.reading,`../odia-cinema-series/${reading}.html`);
++ }
+  for(const id of ['bara-badhu-trailer','maliput-melodies-trailer']){
+   const entry=data.entries.find(x=>x.id===id);
+   assert.equal(entry.type,'trailer');assert.equal(entry.publicDomainVerified,false);
