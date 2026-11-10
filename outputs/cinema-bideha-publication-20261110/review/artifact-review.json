@@ -1,0 +1,69 @@
+{
+  "status": "PASS_ARTIFACTS",
+  "scope_released": true,
+  "input_hashes": {
+    "outputs/cinema-bideha-publication-20261110/book-release-manifest.json": "7cb4b8dc2e9d8af80c94ff21b4d6a5a3f32905e0fd7468536c0cce4a148f36e6",
+    "tmp/pdfs/2026-11-10-bideha/digital/book-build-2026-11-10-bideha.json": "d0041a14fc30320d6e6b23655fbb60b4307deb7b7f8a44724404e4a22d0d60dc",
+    "output/pdf/odia-cinema-a-living-screen-2026-11-10-bideha.pdf": "4770487a0b57a359f6eaf22e9c816f09717d5fffb7b1b83fc006964a869b8c0a",
+    "tmp/pdfs/2026-11-10-bideha/print/book-build-2026-11-10-bideha.json": "6ccfbfb19b5e2e0c30491ca57b883f5bbda60e21a7c8e1be9927f9eeac9fdb93",
+    "output/pdf/odia-cinema-a-living-screen-print-2026-11-10-bideha.pdf": "aea1ceb86f02a5709ece434c9dc20e3e85457204e7de76f2c6c115b2c7e13be6",
+    "outputs/cinema-bideha-publication-20261110/implementation/builds.json": "122aa6aa8f2b916f5dd623c6a59c240ee276161a3b0260a04b9d143c9ca4c1fd"
+  },
+  "independent_automated_checks": {
+    "digital": {
+      "pages": 272,
+      "notes": 549,
+      "book_readings": 49,
+      "online_readings": 50,
+      "all49_source_hashes_verified": true,
+      "chapter_order_and_maps_equal_previous": true,
+      "only_changed_chapter": "literature-and-screen",
+      "all62_image_source_bytes_and_metadata_preserved_excluding_revision_paths_and_note_numbers": true,
+      "cover_equal_previous": true,
+      "manifest_pdf_hash_size_and_receipt_match": true
+    },
+    "print": {
+      "pages": 278,
+      "notes": 549,
+      "book_readings": 49,
+      "online_readings": 50,
+      "all49_source_hashes_verified": true,
+      "chapter_order_and_maps_equal_previous": true,
+      "only_changed_chapter": "literature-and-screen",
+      "all62_image_source_bytes_and_metadata_preserved_excluding_revision_paths_and_note_numbers": true,
+      "cover_equal_previous": true,
+      "manifest_pdf_hash_size_and_receipt_match": true
+    }
+  },
+  "actual_full_page_visual_scope": {
+    "digital": [
+      1,
+      4,
+      21,
+      22,
+      243,
+      244
+    ],
+    "print": [
+      1,
+      4,
+      22,
+      23,
+      244,
+      245
+    ]
+  },
+  "visual_findings": [
+    "New attributed paragraph intact and legible in both editions; compact note31 accurately lists interview and catalogue page11 entry262.",
+    "Payment-uncertainty prose retained; print22–23 has ordinary paragraph continuation, no isolated heading or clipped line.",
+    "Sampled covers/contents and adjacent source-note sections clean; page maps unchanged."
+  ],
+  "website_review": "outputs/cinema-bideha-publication-20261110/review/local-article-review.json",
+  "required_corrections": [],
+  "limits": [
+    "Scoped visual review only, not all272/278pages manually read.",
+    "Worker records all310protected paths preserved and successful final builds; this report separately identifies independently recomputed checks.",
+    "Public deployment/download verification remains coordinator task; no publication claimed.",
+    "Original story pages, first periodical publication and payment remain unestablished."
+  ]
+}

@@ -8,7 +8,7 @@ research_date: "2026-11-10"
 human_review_claimed: false
 hero_image: "../media/cinema-series/biyott-projna-tripathy/portrait.jpg"
 series_intro: "Writing, directing and the shared work that brings a film to its audience."
-sources: [{"id": "biyot-bideha-actor-account", "resource": "https://www.mycitylinks.in/from-odisha-to-the-world-bideha-redefines-love"}, {"id": "biyot-klf2018", "resource": "https://www.kalingalankafoundation.org/docs/KLF-HandBook-2018.pdf"}, {"id": "biyot-palmful-jstor", "resource": "https://www.jstor.org/stable/i40188158"}, {"id": "biyot-nfa51", "resource": "https://nfaindia.org/images/pdf/51st%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "yogini-maker-teaser", "resource": "https://www.youtube.com/watch?v=yxEm1qKZhnM"}, {"id": "biyot-cbfc-bideha", "resource": "https://cbfcindia.gov.in/cbfcAdmin/search-result.php?recid=Q0EwNDA2MTEyMDI1MDAwMTA%3D"}, {"id": "biyott-own-bideha-permalink", "resource": "https://www.facebook.com/biyot.tripathy/posts/pfbid0HFb14AYNbFsQuWKiEAKazW1XauGsMyQ8rr1DjHDQrt59FJdRtkCahGr8VHxDhisWl"}, {"id": "biyott-supplied-bideha-release", "resource": "https://www.youtube.com/watch?v=lDgFAgR8M5A"}]
+sources: [{"id": "biyot-bideha-actor-account", "resource": "https://www.mycitylinks.in/from-odisha-to-the-world-bideha-redefines-love"}, {"id": "biyot-klf2018", "resource": "https://www.kalingalankafoundation.org/docs/KLF-HandBook-2018.pdf"}, {"id": "biyot-palmful-jstor", "resource": "https://www.jstor.org/stable/i40188158"}, {"id": "biyot-nfa51", "resource": "https://nfaindia.org/images/pdf/51st%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "yogini-maker-teaser", "resource": "https://www.youtube.com/watch?v=yxEm1qKZhnM"}, {"id": "biyot-cbfc-bideha", "resource": "https://cbfcindia.gov.in/cbfcAdmin/search-result.php?recid=Q0EwNDA2MTEyMDI1MDAwMTA%3D"}, {"id": "biyott-own-bideha-permalink", "resource": "https://www.facebook.com/biyot.tripathy/posts/pfbid0HFb14AYNbFsQuWKiEAKazW1XauGsMyQ8rr1DjHDQrt59FJdRtkCahGr8VHxDhisWl"}, {"id": "biyott-supplied-bideha-release", "resource": "https://www.youtube.com/watch?v=lDgFAgR8M5A"}, {"id": "biyott-sambad-literature-cinema-20260119", "resource": "https://sambad.in/special/the-pairing-of-literature-and-cinema-11010926"}, {"id": "odisha-rrrlf-selected-2010-11-kadapana", "resource": "https://culture.odisha.gov.in/sites/default/files/2022-06/List%20of%20Selected%20Books%20Under%20Raja%20Rammohan%20Ray%20Library%20Foundation%20%28RRRLF%29%20Scheme%20for%20the%20Year%202010-11.pdf"}]
 ---
 
 # Biyott Projna Tripathy: Finding a Story’s Form
@@ -24,6 +24,8 @@ Speaking about *Bideha*, Tripathy emphasises the close relationship between lite
 Tripathy writes poems, stories and columns in Odia. A 2018 institutional biography also records her work teaching film and media.[^writing] These activities place writing beside conversations about how moving images are made.
 
 Her “Palmful of Stars” appeared in *Indian Literature* in its January–February 2015 issue.[^palmful] The story offers a particular title to seek out, beyond the broad description of a filmmaker who also writes. Reading her fiction is one way to approach that part of her practice on its own terms, before asking how a story might change on screen.
+
+Tripathy identifies her own story “ବିଦେହ (Bideha)” as the source of the film. She recalls writing it in 2005 or 2006 and says it appears in her collection *କଡ଼ାପାନ ଓ କ୍ଲିଓପାଟ୍ରା (Kadapana o Cleopatra)*. An Odisha government catalogue lists the collection’s first edition, published by Pakshighara Prakashanee in 2010.[^bideha-story]
 
 ## Documentary work
 
@@ -46,6 +48,8 @@ Tripathy has also spoken directly to potential viewers. In a public appeal for *
 The invitation leaves a place for us in this story. We can seek out a writer’s work, notice the collaborators in a film’s credits and tell someone what held our attention. A film’s meeting with an audience begins with people choosing to make time for it.
 
 ## Footnotes & Sources
+
+[^bideha-story]: Surya Kanta Jena, [“ସାହିତ୍ୟ ଓ ସିନେମାର ଯୁଗଳବନ୍ଦୀ”](https://sambad.in/special/the-pairing-of-literature-and-cinema-11010926), *Sambad*, 19 January 2026, interview; Odisha Culture Department, [selected books, 2010–11](https://culture.odisha.gov.in/sites/default/files/2022-06/List%20of%20Selected%20Books%20Under%20Raja%20Rammohan%20Ray%20Library%20Foundation%20%28RRRLF%29%20Scheme%20for%20the%20Year%202010-11.pdf#page=11), p. 11, entry 262.
 
 [^literature-outlook]: Mobile News24x7, [conversation about *Bideha*](https://www.youtube.com/watch?v=lDgFAgR8M5A&t=81s), 15 May 2026, 1:21–1:48.
 
