@@ -3383,12 +3383,17 @@
       "id": "POD-EDIT-130",
       "route": "/journey-starters/balasore/",
       "title": "Balasore · Tides and Tales",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "substantive_native_observation_reading",
       "source_template": "projects/site/src/pages/journey-starters/balasore.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/balasore-journey-editorial-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-10T06:54:11.362241+00:00"
     },
     {
       "id": "POD-EDIT-131",
