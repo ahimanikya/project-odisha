@@ -1595,3 +1595,8 @@ Published the dedicated Biyott Projna Tripathy profile and the approved Literatu
 ### 10 November 2026 · Bideha: a named story and a documented collection
 
 Identified the literary source through Biyott Projna Tripathy's directly inspected Sambad interview of 19 January 2026: her same-named story, recalled as written in 2005 or 2006, is also in Kadapana o Cleopatra. Original government catalogue page 11, entry 262 independently records the collection's first edition: Pakshighara Prakashanee, 2010, 128 pages. Separate evidence review passed. The story pages and any earlier magazine appearance remain unlocated; writing date is not publication date. An indexed railway-library holding is a lead only. Public articles, books, images, sequence and unrelated PDF-tool edits are preserved. No outreach, publication or programme credit. [Research handoff](../records/cinema-bideha-source-2026-11-10.json).
+
+
+### 10 November 2026 · Bideha’s literary source published
+
+Published the concise source-story connection in Biyott Projna Tripathy’s profile and Literature and Screen after separate source, desktop/mobile, PDF and exact-release reviews. The author’s recalled 2005 or 2006 writing date remains distinct from the collection’s catalogued 2010 first edition. Both live PDFs match their reviewed bytes: 272 digital pages and 278 print pages, each with 549 notes. Chapter order, images, earlier editions and foreign programme ownership are preserved. Original story pages, first-publication details and payment arrangements remain open. No outreach or programme credit. [Publication receipt](../records/cinema-bideha-publication-2026-11-10.json).
