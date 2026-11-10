@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-129",
   "work_id": "POD-WORK-341",
   "programme_id": "POD-A500-150",
@@ -9,14 +9,15 @@
   "started_at": "2026-11-10T01:36:02.820181+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Publish a substantive native Cuttack object-history reading using the attributed Fitzwilliam1952 gold filigree brooch to distinguish material, function and unknown maker. Do not identify or assay the existing journey photograph from that record. Preserve all four credited photographs, full trail chapters/prompts, existing SaveID, six saved ideas, links, source objects and complete companions. Verify proposed144 actual source budget against conditional146 ceiling across canonical/native/metadata copies, with no new legacy-source use, reset or sibling compaction;71existing source-use locations remain preserved. Separate draft and integrated AI review, visible numbered notes/keyboard returns,1440/390 runtime, meaningful tests, exact-head required CI before merge, actual publication/live/archive and separately reviewed receipt are required before one substantive credit.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "source_budget": {
     "conditional_total": 146,
     "proposed_actual_total": 144,
-    "actual_publication_audit": null,
-    "legacy_allowances": "71existing legacy-source use locations remain unchanged; no new legacy derivation, allowance reset or destructive compaction."
+    "actual_publication_audit": "PASS144",
+    "legacy_allowances": "71existing legacy-source use locations remain unchanged; no new legacy derivation, allowance reset or destructive compaction.",
+    "actual_total": 144
   },
   "author_proposal_sha256": "d9d5c69b5749cef24a06657dc9bcf38d73830e733934919b1ccfdc5c2cb840c3",
   "limits": [
@@ -51,5 +52,30 @@
     "ui_downloads": 8,
     "legacy_terms_unchanged": 21,
     "limits": "Local candidate evidence only. Original stale collapsed-credit test failure retained; exact separately reviewed amendment installed. Final integrated review, CI, deployment, actual live/archive and receipt remain pending."
-  }
+  },
+  "verified_at": "2026-11-10T04:58:46.857Z",
+  "prepared_at": "2026-11-10T05:28:23.401673+00:00",
+  "completed_at": "2026-11-10T04:58:46.857Z",
+  "publication": {
+    "head": "c3566c03f287b7a506b40deae6f44efe005d281f",
+    "databaseId": 42756479606,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42756479606",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live_verification": {
+    "checked_at": "2026-11-10T04:58:46.857Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/journey-starters/cuttack/"
+    ],
+    "images": true,
+    "producer_sha256": "c18d03206d3d1c019a30abe099a010b19c88ef1e370336fc2cc1c80dffc62e7c",
+    "separate_review_sha256": "6f9dc2bedc62ab2476b838f4e0712289f69b805f48490e46775e7bcbc79ddd47",
+    "evidence_manifest": "records/evidence/cuttack-journey-editorial-2026-11-10/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "f1c4bf3ba4216b2b1581391bee1144ffadec23371597f2902916ae8fad6fd526"
+  },
+  "receipt": "records/cuttack-journey-editorial-publication-2026-11-10.json",
+  "review": "records/cuttack-journey-delivery-review-2026-11-10.json"
 }
