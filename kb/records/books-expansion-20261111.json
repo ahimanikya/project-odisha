@@ -1,0 +1,32 @@
+{
+  "id": "POD-BOOKS-EXPANSION-20261111",
+  "status": "reviewed-awaiting-release",
+  "authorization": "Founder: Add Books to the main navigation; also add Odia Cinema and Dhaga books.",
+  "scope": "Expand the existing Books collection to four separate editions with existing reading and download links; preserve PDFs and media credits.",
+  "route": "/books/",
+  "assignments": {
+    "Disha": "Root coordinates records and release",
+    "Anvesha": "books_sources: read-only descriptor and credit verification",
+    "Samanta": "books_implementation: website and tests",
+    "Drishti": "Separate review after implementation"
+  },
+  "programme_credit": 0,
+  "foreign_scope": "Preserve Jobra and other active work; no operations ownership changes.",
+  "publication": false,
+  "source_review": {
+    "reviewer": "Anvesha, separate books_sources agent",
+    "status": "PASS",
+    "cinema": "Use review_books current 10 November literary edition; /cinema/ reader and archive digital PDF, 273 pages.",
+    "dhaga": "358 sayings; /dhaga/ reader and existing direct PDF; preserve Project Odisha illustration credit and CC BY-SA 4.0 scoped to artwork."
+  },
+  "review": {
+    "reviewer": "Drishti, separate books_review agent",
+    "result": "PASS: four book links, metadata, cover dimensions and credits, exact PDF hashes, desktop/mobile five-link navigation and Books current state, reciprocal navigation.",
+    "browser": "Root verified desktop four-cover layout and 320px open native mobile menu; no overflow or broken images."
+  },
+  "validation": {
+    "build": "PASS",
+    "focused_tests": "44 passed",
+    "release_gates": "Full/coastal tests and required hosted review pending before publication."
+  }
+}

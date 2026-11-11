@@ -1613,3 +1613,7 @@ Published the reviewed Nilamani Sahu printed-dramatization example in Literature
 ### 10 November 2026 · Mirgan and Kotpad companion book published
 
 Published the reviewed Mirgan Households and Kotpad Textiles book as a separate companion to Dongaria: two book entrances, nine chapter pages, 36 references and a 58-page reading PDF with both covers. Separate source and quality reviews, site checks and the approved publication workflow passed. All eleven live routes and reciprocal companion links were verified; the live PDF matches the reviewed bytes. Desk-research limitations remain explicit; printer and ISBN remain deferred. No new research, fieldwork, outreach or autonomous programme credit. [Publication receipt](../records/mirgan-kotpad-publication-20261110.json).
+
+### 11 November 2026 · Books navigation and four separate editions
+
+Added Books to desktop and mobile main navigation and expanded the existing collection with the published Odia Cinema and Odia Dhaga editions. Existing online readers, exact PDF downloads and cover credits are preserved. Separate source and rendered-output review passed; root desktop/mobile checks passed. Required release checks and live publication remain pending. No programme credit or changes to foreign work. [Handoff](../records/books-expansion-20261111.json).
