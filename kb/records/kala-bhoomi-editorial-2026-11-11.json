@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified_receipt_integration",
   "article_id": "POD-EDIT-133",
   "work_id": "POD-WORK-345",
   "programme_id": "POD-A500-154",
@@ -9,15 +9,16 @@
   "started_at": "2026-11-11T11:17:44.468501+00:00",
   "authorization": "POD-DEC-225",
   "acceptance": "Publish the separately reviewed substantive native supplement and evidence contribution for this article. Preserve all six existing sections, two credited photographs, preparation, existing Save identity, related links and complete companion formats. Verify the conditional139-word new-source ceiling against actual canonical and native output, including identifiers, metadata and notes; no extra source-derived copies in registration or receipt evidence. Retain the historical source-use hold:55 tracked identity locations; identity locations are not a certified source-word allowance; no new legacy derivation, allowance reset or destructive compaction. Require separate source/proposal/integrated review, accessible visible numeric notes,1440/390 runtime and preservation checks, actual CI-before-merge, publication/live/archive verification and separately reviewed receipt before one substantive credit. No current operating-service, staffing, access, fee or route confirmation.",
-  "programme_credit": 0,
+  "programme_credit": 1,
   "canonical_release_active": true,
   "scope_released": false,
   "source_budget": {
     "conditional_total": 139,
     "proposed_actual_total": 139,
-    "actual_publication_audit": null,
+    "actual_publication_audit": "PASS139",
     "legacy_allowances": "55 tracked identity locations retained, not a certified source-word allowance. No new legacy derivation, reset or destructive compaction. Not a certified whole historical-source allowance.",
-    "actual_local_staged_total": 139
+    "actual_local_staged_total": 139,
+    "actual_total": 139
   },
   "author_proposal": {
     "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/kala-bhoomi-editorial-2026-11-11/anvesha/report.json",
@@ -78,5 +79,30 @@
     },
     "separate_browser_review_sha256": "958db82cb1b428b18b5ba2c0b3c10794fbc767cc01e7712f7afe2859e73ab6fa",
     "test_correction_review_sha256": "b24dfb75387e821a8f212078d20827e4186922cf76310b432dc1d618d14afec3"
-  }
+  },
+  "verified_at": "2026-11-11T12:42:15.995Z",
+  "prepared_at": "2026-11-11T12:51:44.206237+00:00",
+  "completed_at": "2026-11-11T12:42:15.995Z",
+  "publication": {
+    "head": "bf7a0383959a48c4236655398d26327684403187",
+    "databaseId": 43019069981,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/43019069981",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live_verification": {
+    "checked_at": "2026-11-11T12:42:15.995Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/visit/experiences/kala-bhoomi/"
+    ],
+    "images": true,
+    "producer_sha256": "1f3850cf0139f50d7f416bfa926f8d325490a1fce0e1b8b208dcd23820c477d4",
+    "separate_review_sha256": "c9e770916d06cb1ba9c6f079fa28cf55c9368f35c7de6188766973d62b86cdc5",
+    "evidence_manifest": "records/evidence/kala-bhoomi-editorial-2026-11-11/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "8d2173762163da5816d4d15b09202eb5ec3cff74524e68afcd296363d4d63297"
+  },
+  "receipt": "records/kala-bhoomi-editorial-publication-2026-11-11.json",
+  "review": "records/kala-bhoomi-delivery-review-2026-11-11.json"
 }
