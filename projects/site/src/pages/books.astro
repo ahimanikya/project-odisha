@@ -5,15 +5,23 @@ import dongria from '../data/dongariya-book.json';
 import dongriaReading from '../data/dongria-book-reading.json';
 import dongriaChapters from '../data/dongariya.json';
 import kotpad from '../data/mirgan-kotpad-book.json';
+import cinema from '../data/cinema.json';
+import dhaga from '../../../odia-dhaga/collection.json';
+import dhagaDownload from '../../../odia-dhaga/pdf-delivery.json';
+const cinemaDownload = cinema.review_books.find(book => book.edition === 'digital')!;
+const cinemaTitle = 'Odia Cinema: A Living Screen';
+const dhagaTitle = `${dhaga.cover.title_english} — ${dhaga.cover.title_odia}`;
+const dhagaCover = '/dhaga/' + dhaga.cover.src.replace(/\.png$/, '.webp');
+const dhagaFile = '/archive/' + dhagaDownload.asset_name;
 const dongriaCover = dongriaReading.cover.at(-1)!;
 const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
 ---
-<Shell title="Books" description="Read Dongria Kondh: Life in Niyamgiri and Mirgan Households and Kotpad Textiles, two companion books with separate online readings and PDF downloads." active="explore" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
+<Shell title="Books" description="Explore four books about Odisha: Dongria Kondh, Mirgan and Kotpad, Odia Cinema and Odia Dhaga. Read each online or download its own PDF." active="books" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
 <div class="books-page">
   <header class="books-intro">
     <p class="eyebrow">Project Odisha · The reading collection</p>
     <h1>Books</h1>
-    <p>Two companion books about people, knowledge and working lives in Odisha. Each has its own chapters, source notes and complete reading edition.</p>
+    <p>Four books about people, cloth, cinema and the words we carry in Odisha. Each has its own reading path, sources and downloadable edition.</p>
     <p>Read online at your own pace, or download a book to keep reading offline.</p>
   </header>
   <div class="book-grid">
@@ -49,6 +57,41 @@ const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
       <footer class="book-actions">
         <a href="/stories/kotpad/book/" aria-label={`Read online: ${kotpad.title}`}>Read online →</a>
         <a href={kotpad.download.file} aria-label={`Download PDF: ${kotpad.title}`}>Download PDF ↓</a>
+      </footer>
+    </article>
+    <article class="book-card" data-book="cinema" aria-labelledby="cinema-title">
+      <img src="/assets/cinema/a-living-screen-cover-20261027.jpg" width="800" height="1199" alt="Odia Cinema: A Living Screen, with a symbolic household scene on the front cover" loading="lazy" decoding="async"/>
+      <header>
+        <p class="eyebrow">Digital reading edition</p>
+        <h2 id="cinema-title"><a href="/cinema/">{cinemaTitle}</a></h2>
+        <p class="book-author">By Ahimanikya Satapathy</p>
+      </header>
+      <div class="book-description">
+        <p>A connected journey through Odia cinema, literature, songs, radio and television. The readings follow storytellers, audiences and the work that helps creative lives continue.</p>
+        <p class="book-details">{cinemaDownload.readings} book chapters · {cinemaDownload.pages} pages · PDF {fileSize(cinemaDownload.bytes)}</p>
+        <p class="cover-credit">The illustrated cover of Odia Cinema: A Living Screen.</p>
+        <p><a href="/cinema/book/">Book editions and printing notes →</a></p>
+      </div>
+      <footer class="book-actions">
+        <a href="/cinema/" aria-label={`Read online: ${cinemaTitle}`}>Read online →</a>
+        <a href={cinemaDownload.file} aria-label={`Download PDF: ${cinemaTitle}`}>Download PDF ↓</a>
+      </footer>
+    </article>
+    <article class="book-card" data-book="dhaga" aria-labelledby="dhaga-title">
+      <img src={dhagaCover} width="640" height={Math.round(dhaga.cover.height * 640 / dhaga.cover.width)} alt={dhaga.cover.alt} loading="lazy" decoding="async"/>
+      <header>
+        <p class="eyebrow">Odia Dhaga · Illustrated collection</p>
+        <h2 id="dhaga-title"><a href="/dhaga/">{dhaga.cover.title_english} — <span lang="or">{dhaga.cover.title_odia}</span></a></h2>
+        <p class="book-author">By {dhaga.cover.byline}</p>
+      </header>
+      <div class="book-description">
+        <p>Odia sayings carry images, humour and ways of judging everyday life. Explore {dhagaDownload.entries} sayings with Odia and English meanings, usage, illustrations and linked source witnesses.</p>
+        <p class="book-details">{dhagaDownload.entries} sayings · {dhagaDownload.pages} pages · PDF {fileSize(dhagaDownload.bytes)}</p>
+        <p class="cover-credit">Cover illustration: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. <a href="/dhaga/sources.html">Source notes and rights</a>.</p>
+      </div>
+      <footer class="book-actions">
+        <a href="/dhaga/" aria-label={`Read online: ${dhagaTitle}`}>Read online →</a>
+        <a href={dhagaFile} aria-label={`Download PDF: ${dhagaTitle}`}>Download PDF ↓</a>
       </footer>
     </article>
   </div>

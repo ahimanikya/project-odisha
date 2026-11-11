@@ -17,7 +17,7 @@ const description=book=>book.description||(book.edition==='digital'?'Linked cont
 const archives=[...new Set(cinema.archived_review_books.map(book=>book.edition_date))].sort().reverse().map(date=>({date,books:cinema.archived_review_books.filter(book=>book.edition_date===date)}));
 ---
 <Shell title="Odia Cinema: A Living Screen — the book" description="Download the connected digital and printable book about Odia cinema, literature, radio, television and the people making stories." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
- <article class="article-reading cinema-book"><p><a href="/cinema/">← The cinema readings</a></p><h1>Odia Cinema:<br/>A Living Screen</h1><p>Stories, People and the Places Between</p><ArticleByline author="Ahimanikya Satapathy"/>
+ <article class="article-reading cinema-book"><p><a href="/books/">← All books</a> · <a href="/cinema/">The cinema readings</a></p><h1>Odia Cinema:<br/>A Living Screen</h1><p>Stories, People and the Places Between</p><ArticleByline author="Ahimanikya Satapathy"/>
 
   <p>The collection opens with <a href="/cinema/the-question-that-brought-me-here/">The Question That Brought Me Here</a>, the author’s personal introduction. The online collection brings {cinema.articles.length} readings into {cinema.parts.length} parts, with connecting threads, a people guide, dated turning points and linked image credits.</p>
   <p>In the book, DAMaN’s three filmmaker profiles are woven into its chapter. Their profiles appear together in the online DAMaN team reading.</p>
