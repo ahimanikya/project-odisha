@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ebfbe974002445680c9c07e01641f2ded2802ebe8a32b3e356913bd1594aab6b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6ca12fcc964a0b1440313c22b19d33f6201edbeba82306c9e1eab4badcc41598`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -376,7 +376,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-342 · Balasore journey native observation and evidence reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-343 · Mayurbhanj journey native attention and learning reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-344 · Jobra native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
-| POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | in_progress | draft | Ahimanikya Satapathy | Integrate separately reviewed native proposal and preserve existing complete reading before actual publication gates. | — |
+| POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 
 ## Pending human review and decisions
 
@@ -1360,7 +1360,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261110004 | 2026-11-10T05:28:23.401673+00:00 | Cuttack journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110005 | 2026-11-10T06:54:11.362241+00:00 | Register pending Balasore native observation and evidence exposition with explicit acceptance and zero credit; preserve actual Cuttack release and all other ownership. | — |
 | POD-EVT-20261110006 | 2026-11-10T09:28:44.845055+00:00 | Balasore journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110007 | 2026-11-10T10:16:54.891415+00:00 | Register pending Mayurbhanj native attention and learning exposition with explicit acceptance and zero credit; preserve actual Balasore release and all other ownership. | — |
@@ -1370,6 +1369,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261110011 | 2026-11-10T18:04:31.034786+00:00 | Dhauli Express and Gapa Hele Bi Sata added to the public viewing room; exact live assets and playback/fallback verified. Existing nine entries preserved; scope released; zero programme credit. | — |
 | POD-EVT-20261110012 | 2026-11-10T17:18:05.917279+00:00 | Jobra maritime actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261111001 | 2026-11-11T11:17:44.468501+00:00 | Register pending Kala Bhoomi native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
+| POD-EVT-20261111002 | 2026-11-11T12:51:44.206237+00:00 | Kala Bhoomi actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 
 ## Deferred extensions
 
