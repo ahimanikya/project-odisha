@@ -100,7 +100,7 @@ export async function exportDhaga(destination){
    if(html.split(readingLinksMarker).length!==2)throw Error('Dhaga reading-links slot missing or duplicated');
    html=html.replace(readingLinksMarker,'<nav class="web-reading-links" aria-label="More about Odia Dhaga"><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a><a href="/stories/essential-odia-dhaga/">Essential Odia Dhaga: 25 Sayings to Carry With You →</a></nav>');
   }
-  const links='<nav aria-label="Project Odisha and book sources"><a href="/explore/">Explore Project Odisha</a> · <a href="/dhaga/sources.html">Sources &amp; rights</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
+  const links='<nav aria-label="Project Odisha and book sources"><a href="/books/">All books</a> · <a href="/explore/">Explore Project Odisha</a> · <a href="/dhaga/sources.html">Sources &amp; rights</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
   html=html.replace(/<footer>/,'<footer>'+links);
   if(!html.includes('<footer>'))html=html.replace('</body>','<footer>'+links+'</footer></body>');
   html=html.replace(/ ·\s* ·/g,' ·').replace(/ ·\s*<\/nav>/g,'</nav>');
