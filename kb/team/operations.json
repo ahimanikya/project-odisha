@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/jobra-maritime-editorial-2026-11-10.json",
+  "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,14 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-133",
+    "route": "/visit/experiences/kala-bhoomi/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/kala-bhoomi-editorial-2026-11-11.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "article_receipt",
+    "kind": "article_editorial",
     "owner": "Disha",
-    "status": "receipt_integration",
-    "article_id": "POD-EDIT-132",
-    "handoff": "records/jobra-maritime-editorial-2026-11-10.json",
+    "status": "in_progress",
+    "article_id": "POD-EDIT-133",
+    "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
     "scope_released": false
   },
   "parallel_programmes": [
@@ -400,6 +406,24 @@
         "status": "receipt_integration",
         "article_id": "POD-EDIT-131",
         "handoff": "records/mayurbhanj-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-132",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 768,
+      "receipt_merge": "0767405bb4b982b28af5eb76f57d2f967f2e55f5",
+      "delivery_sha256": "0dfccdd45fbaf968d084510e73475f67546415a0da8fd634029080fc627da12a",
+      "remote_verification_sha256": "51024c745a312318b10d2ab35bd9aec843362d744812b793f2dcc51f3ac4cc41",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-132",
+        "handoff": "records/jobra-maritime-editorial-2026-11-10.json",
         "scope_released": false
       },
       "original_current_article": null,
