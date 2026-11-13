@@ -1,0 +1,115 @@
+{
+  "id": "POD-CINEMA-VIEWING-MALAJANHA-DRISHTI-20261113",
+  "date": "2026-11-13",
+  "reviewer": "Drishti, separate AI quality agent",
+  "human_review_claimed": false,
+  "scope": "Independent source, catalogue and code review of one Malajanha viewing entry and a separate Matira Manisha narrated-literature link.",
+  "source_review": {
+    "basis": "Existing original-film credit inspection records, original-novel edition evidence, current research metadata and coordinator's bounded YouTube observations; no new whole-film viewing by reviewer.",
+    "malajanha": {
+      "id": "malajanha",
+      "filmID": "malajanha-1965",
+      "videoID": "kXC2XBCgcfc",
+      "year": 1965,
+      "director": "Nitai Palit",
+      "novel_author": "Upendra Kishore Das",
+      "music": "Akshaya Mohanty",
+      "access": "youtube-upload",
+      "publicDomainVerified": false
+    },
+    "matira_manisha": {
+      "id": "matira-manisha-reading",
+      "videoID": "03DG67syqew",
+      "type": "literature-reading",
+      "separate_from_film_catalogue": true,
+      "complete_reading_claimed": false
+    },
+    "limits": [
+      "Original-credit research inspected selected cards; no whole-film or restored/uncut-print certification.",
+      "1977 is the inspected novel edition, not established first-publication date.",
+      "No Oscar claim or inference of official uploader/public-domain status added.",
+      "Narrator's description supports a literary listening link; neither full listening nor literary rights confirmation is claimed."
+    ]
+  },
+  "code_review": [
+    "Exact YouTube watch IDs required before embedding; only explicit official-upload or neutral youtube-upload access values accepted.",
+    "Embeds remain user-triggered, privacy-enhanced, without autoplay; file:// preserves source-link fallback.",
+    "Novel narration uses external navigation, not iframe/player selection or film filters/counts.",
+    "All 11 existing catalogue entries preserved without edits; new Malajanha entry unique by ID, filmID and watchURL.",
+    "Descriptive link text, native anchors and textContent rendering avoid injected HTML; Odia companion title uses lang=or.",
+    "Local/public reading links map to their own contexts; no duplicate movie entry created for the narration."
+  ],
+  "validation": {
+    "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test outputs/odia-movie-player/test.cjs projects/site/tests/cinema-discovery.test.mjs",
+    "tests": 19,
+    "passed": 19,
+    "failed": 0,
+    "earlier_attempt": "System /usr/local/bin/node lacks --test; rerun with bundled modern Node succeeded.",
+    "catalogue_entries": 12,
+    "distinct_titles": 12,
+    "featured": 5,
+    "literary_companions": 1,
+    "asset_mirrors": [
+      "core.js",
+      "app.js",
+      "catalogue.js",
+      "catalogue.json"
+    ],
+    "mirrors_byte_identical": true,
+    "site_fragment_matches_local_main": true,
+    "protected_files_unchanged": true,
+    "built_preview_assets_identical": true,
+    "final_metadata_retest": "All 19 tests rerun after coordinator updated embedded-playback summary; passed."
+  },
+  "findings": [],
+  "limits": [
+    "Browser layout and actual YouTube embedding are coordinator-owned checks; this review does not independently claim them.",
+    "No article/book revisions, deployment or human approval performed by this reviewer."
+  ],
+  "status": "PASS",
+  "next_action": "Coordinator may save the local delivery record. No publication or book rebuild performed.",
+  "scope_released": true,
+  "coordinator_browser_evidence": {
+    "record": "kb/records/cinema-viewing-malajanha-2026-11-13.json",
+    "observations": "Coordinator reports explicit player load, film certificate visible, playback from 0:00 to 0:15, and Stop removing iframe. Matira Manisha shown as separate Novel narration with exact external URL.",
+    "reviewer_independent_browser_inspection": false,
+    "final_record": "outputs/cinema-viewing-malajanha-20261113/root/verification.json",
+    "final_record_sha256": "1104085e586844dc70b7e655bcc7e1053c8ae2469d95b5548a065cbe7addab49",
+    "final_layout": "Coordinator reports clean companion layout, exact supplied URL, 3:25:11 duration, clear Novel narration label and existing reading link."
+  },
+  "reviewed_sha256": {
+    "projects/site/tests/cinema-discovery.test.mjs": "ba62ab1a4dac45a6108474c6fb055cc7b02f20fdd4fee0dea18699d4daf6e978",
+    "projects/site/public/assets/cinema/player/core.js": "48e929e5832008518eaa541fe33f494635a9e44bc193602000ecad715e9a227a",
+    "projects/site/public/assets/cinema/player/catalogue.json": "95250a6c5825441e632747ce20263f416c1d73adf97e711d1cb347b0c54601d9",
+    "projects/site/public/assets/cinema/player/catalogue.js": "9e22a6379f21367c370fb20b5b0733c91e768d510a1e37291f2017075deef668",
+    "projects/site/public/assets/cinema/player/app.js": "f2ebb1134e25d4e3acf089ea0184567c6828fcd58e7cfec1576fa1ee8d20d4db",
+    "projects/site/src/data/cinema-player.html": "c12b088e7da534f55e6dbe7aba6faf572ddcd8d43fbd5c098841ab195dc2abd5",
+    "projects/site/src/pages/cinema/watch.astro": "7571591561cbf6ea61fcacea5678d3015ebd22c75116b0ed78d44ee7036ceee8",
+    "outputs/odia-movie-player/test.cjs": "8f66e86e4661979d44c2804c389457fc8a788d80d65aff5ad567713217099711",
+    "outputs/odia-movie-player/index.html": "1a7dba5b3dc519ac0be7f6b00c4227e3c5d52928ae3cada0ef06f6f8e2e8fb5f",
+    "outputs/odia-movie-player/core.js": "48e929e5832008518eaa541fe33f494635a9e44bc193602000ecad715e9a227a",
+    "outputs/odia-movie-player/sync-catalogue.py": "cf99a5cfe851b9e529bc6c3796b53903271c974a84af5c63c332ffa513aaaae7",
+    "outputs/odia-movie-player/catalogue.json": "95250a6c5825441e632747ce20263f416c1d73adf97e711d1cb347b0c54601d9",
+    "outputs/odia-movie-player/catalogue.js": "9e22a6379f21367c370fb20b5b0733c91e768d510a1e37291f2017075deef668",
+    "outputs/odia-movie-player/app.js": "f2ebb1134e25d4e3acf089ea0184567c6828fcd58e7cfec1576fa1ee8d20d4db"
+  },
+  "post_implementation_changes": {
+    "files": [
+      "projects/site/public/assets/cinema/player/catalogue.json",
+      "projects/site/public/assets/cinema/player/catalogue.js",
+      "outputs/odia-movie-player/catalogue.json",
+      "outputs/odia-movie-player/catalogue.js"
+    ],
+    "reason": "Coordinator added bounded successful embed observation and regenerated catalogue mirrors; no code change."
+  },
+  "evidence_sha256": {
+    "outputs/cinema-viewing-malajanha-20261113/research/metadata.json": "e35d35ee0a23b33686dc9069a9e26ab30ef9767e7a75bd1a49edb3e975cd88f7",
+    "kb/records/cinema-viewing-malajanha-2026-11-13.json": "9727493dfdb2777b0c333949a292426b7685d2d3103f2aa1ef9ec3d2a63c5853"
+  },
+  "protected_sha256": {
+    "kb/research/culture/cinema-series/maya-miriga.md": "b029068c834e41bd88cb47b4b5092fb21df10f933dba60ab5a9f61229e8610e6",
+    "tools/cinema-book/build_tagged_reading.mjs": "cbb0b43a1d0283555d2d0b05a1b3535c1ed5c078aff29833d5faccbc091b5bcf",
+    "tools/cinema-book/test_tagged_reading.mjs": "2702acaf66c351a4a350e264209ef4de15fcebd8ba1e46a19a6d6767fa70d8c3",
+    "projects/site/src/data/cinema.json": "b4a8bbbbcc77cb726c4504c3bf7700e76441b096f303d9fa1118d241c9b97c60"
+  }
+}

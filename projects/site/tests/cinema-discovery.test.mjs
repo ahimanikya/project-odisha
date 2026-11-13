@@ -30,7 +30,7 @@ test('supplementary writers have existing pages without duplicating chapter orde
 
 test('curated viewing room retains selected entries and distinguishes new trailers',()=>{
  const data=read('public/assets/cinema/player/catalogue.json');
- const expected=['daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel','bara-badhu-trailer','maliput-melodies-trailer','dhauli-express','gapa-hele-bi-sata-tvnxt'];
+ const expected=['daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel','bara-badhu-trailer','maliput-melodies-trailer','dhauli-express','gapa-hele-bi-sata-tvnxt','malajanha','aparichita'];
  assert.deepEqual(data.entries.map(x=>x.id).sort(),expected.sort());
  assert.equal(new Set(data.entries.map(x=>x.watchURL)).size,data.entries.length);
  for(const [id,year,reading] of [['dhauli-express',2007,'odia-cinema'],['gapa-hele-bi-sata-tvnxt',1976,'cinema-music']]){
@@ -45,6 +45,9 @@ test('curated viewing room retains selected entries and distinguishes new traile
  }
  for(const choice of [...data.curation.featured,...data.curation.explorations])assert.ok(data.entries.some(x=>x.id===choice.id),choice.id);
  assert.equal(data.entries.find(x=>x.id==='daman').checkedOn,'2026-10-26','earlier inspection date retained');
+ const malajanha=data.entries.find(x=>x.id==='malajanha');assert.equal(malajanha.access,'youtube-upload');assert.equal(malajanha.videoID,'kXC2XBCgcfc');assert.equal(malajanha.year,1965);assert.equal(malajanha.checkedOn,'2026-11-13');assert.equal(malajanha.publicDomainVerified,false);
+ const aparichita=data.entries.find(x=>x.id==='aparichita');assert.equal(aparichita.access,'youtube-upload');assert.equal(aparichita.videoID,'EJr2d8DAtwk');assert.equal(aparichita.year,1980);assert.equal(aparichita.sourceChannel,'Adyasha Das');assert.equal(aparichita.checkedOn,'2026-11-13');assert.equal(aparichita.publicDomainVerified,false);
+ assert.equal(data.literaryCompanions.length,1);const narration=data.literaryCompanions[0];assert.equal(narration.type,'literature-reading');assert.equal(narration.videoID,'03DG67syqew');assert.ok(!data.entries.some(x=>x.id===narration.id));assert.ok(!data.curation.featured.some(x=>x.id===narration.id));
 });
 
 
