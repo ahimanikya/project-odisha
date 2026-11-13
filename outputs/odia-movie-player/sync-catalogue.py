@@ -7,6 +7,8 @@ browser=read('kb/records/cinema-player-browser-evidence-2026-10-26.json')
 clips=read('kb/records/cinema-viewing-links-contemporary-2026-10-26.json')
 discovery=read('kb/records/cinema-discovery-refresh-2026-10-31.json')
 refresh=read('kb/records/cinema-viewing-refresh-2026-11-10.json')
+literary=read('kb/records/cinema-viewing-malajanha-2026-11-13.json')
+aparichita=read('kb/records/cinema-viewing-aparichita-2026-11-13.json')
 verified={e['videoID']:e for e in browser['entries']}
 entries=[]
 for item in cat['entries']:
@@ -68,6 +70,8 @@ if provider_path.exists():
     coverage+=providers.get('coverage',[])
 entries.extend(dict(e) for e in discovery['player_entries'])
 entries.extend(dict(e) for e in refresh['player_entries'])
+entries.extend(dict(e) for e in literary['player_entries'])
+entries.extend(dict(e) for e in aparichita['player_entries'])
 for e in entries:
     e.setdefault('access','official-upload')
     e.setdefault('filmID',e.get('filmId',e['id'].removesuffix('-trailer') if e['id']!='stree-kali-juga' else 'stree-1968'))
@@ -90,9 +94,13 @@ refresh_types={e['id']:e['type'] for e in refresh['player_entries']}
 for choice in refresh['curation']:
     section='featured' if refresh_types[choice['id']]=='full-film' else 'explorations'
     curation[section].append(dict(choice))
+curation['featured'].extend(dict(e) for e in literary['curation'])
+curation['featured'].extend(dict(e) for e in aparichita['curation'])
 public_ids={'daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel'}
 public_ids.update(e['id'] for e in discovery['player_entries'])
 public_ids.update(e['id'] for e in refresh['player_entries'])
+public_ids.update(e['id'] for e in literary['player_entries'])
+public_ids.update(e['id'] for e in aparichita['player_entries'])
 entries=[e for e in entries if e['id'] in public_ids]
 assert {e['id'] for e in entries}==public_ids
 assert len(entries)==len(public_ids), 'Duplicate selected catalogue ID'
@@ -108,7 +116,9 @@ coverage.extend(dict(e) for e in refresh.get('coverage',[]))
 for choice in curation['explorations']:
  choice.setdefault('reading','../odia-cinema-series/odia-cinema.html')
  choice.setdefault('readingLabel','Read the cinema overview')
-output={'checkedOn':'2026-10-26','updatedOn':max(discovery['date'],refresh['date']),'entries':entries,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
+companions=[dict(e) for e in literary.get('literary_companions',[])]
+assert not {e['id'] for e in companions}&public_ids, 'Literary companions must remain outside the film catalogue'
+output={'checkedOn':'2026-10-26','updatedOn':max(discovery['date'],refresh['date'],literary['date'],aparichita['date']),'entries':entries,'literaryCompanions':companions,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
 (root/'outputs/odia-movie-player/catalogue.js').write_text('window.ODIA_CATALOGUE='+json.dumps(output,ensure_ascii=False,indent=2)+';\n')
 (root/'outputs/odia-movie-player/catalogue.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(entries)} entries assembled')

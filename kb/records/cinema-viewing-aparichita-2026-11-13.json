@@ -1,0 +1,136 @@
+{
+  "id": "POD-CINEMA-VIEWING-APARICHITA-20261113",
+  "date": "2026-11-13",
+  "authorization": "Founder supplied Aparichita YouTube link while adding selected literary films to the viewing room.",
+  "status": "reviewed_local_preview_not_published",
+  "active_article": null,
+  "scope_released": true,
+  "programme_credit": 0,
+  "scope": "Add one literary-adaptation film to existing viewing-room preview; no article, book or publication changes.",
+  "previous_handoff": "records/cinema-viewing-malajanha-2026-11-13.json",
+  "reuse_before_research": [
+    "research/culture/cinema-series/sadhu-meher.md",
+    "research/culture/cinema-series/literature-and-screen.md"
+  ],
+  "reserved_scopes": {
+    "Disha": [
+      "kb/records/cinema-viewing-aparichita-2026-11-13.json",
+      "kb/team/operations.json (own viewing programme only)",
+      "kb/registers/activity.jsonl (append only)",
+      "kb/registers/DASHBOARD.md (generated)",
+      "outputs/cinema-viewing-aparichita-20261113/root/"
+    ],
+    "Anvesha": [
+      "outputs/cinema-viewing-aparichita-20261113/research/"
+    ],
+    "Samanta": [
+      "outputs/odia-movie-player/sync-catalogue.py",
+      "outputs/odia-movie-player/catalogue.json",
+      "outputs/odia-movie-player/catalogue.js",
+      "outputs/odia-movie-player/test.cjs",
+      "projects/site/public/assets/cinema/player/catalogue.json",
+      "projects/site/public/assets/cinema/player/catalogue.js",
+      "projects/site/tests/cinema-discovery.test.mjs",
+      "outputs/cinema-viewing-aparichita-20261113/implementation/"
+    ],
+    "Drishti": [
+      "outputs/cinema-viewing-aparichita-20261113/review/"
+    ]
+  },
+  "boundaries": [
+    "Preserve previous12catalogueentries and Matira Manisha narration.",
+    "No official-uploader, restoration-quality, award, rights or public-domain inference.",
+    "Opening/ending and playback samples do not certify an uncut print.",
+    "Preserve Jobra ownership and previous unpublished Maya/Palmful/book work."
+  ],
+  "player_entries": [
+    {
+      "id": "aparichita",
+      "filmID": "aparichita-1980",
+      "titleEnglish": "Aparichita",
+      "titleOdia": "ଅପରିଚିତା",
+      "language": "Odia",
+      "languageType": "original",
+      "year": 1980,
+      "type": "full-film",
+      "access": "youtube-upload",
+      "videoID": "EJr2d8DAtwk",
+      "watchURL": "https://www.youtube.com/watch?v=EJr2d8DAtwk",
+      "sourceChannel": "Adyasha Das",
+      "duration": "1:39:18",
+      "genres": [
+        "Literary adaptation",
+        "Drama"
+      ],
+      "evidenceURLs": [
+        "https://www.youtube.com/watch?v=EJr2d8DAtwk",
+        "https://www.youtube.com/@adyashadas299",
+        "https://indiancine.ma/UMV",
+        "https://pratibharay.com/novels/"
+      ],
+      "rightsStatus": "YouTube upload; copyright retained; no public-domain determination.",
+      "publicDomainVerified": false,
+      "checkedOn": "2026-11-13",
+      "verificationSummary": "Source playback, opening credits and ending sampled. Embedded playback tested in the viewing room.",
+      "description": "Sadhu Meher brings Pratibha Ray’s same-named novel to the screen—a literary connection to explore alongside our cinema readings.",
+      "verificationRecord": "kb/records/cinema-viewing-aparichita-2026-11-13.json",
+      "classificationNote": "1980 is the film year. The author’s bibliography gives 1979 for the novel."
+    }
+  ],
+  "curation": [
+    {
+      "id": "aparichita",
+      "reason": "Pratibha Ray’s novel becomes a film under Sadhu Meher’s direction, connecting a writer’s world with performance and song.",
+      "evidence": [
+        {
+          "label": "Author’s bibliography",
+          "url": "https://pratibharay.com/novels/"
+        },
+        {
+          "label": "Film catalogue",
+          "url": "https://indiancine.ma/UMV"
+        }
+      ],
+      "reading": "../odia-cinema-series/literature-and-screen.html",
+      "readingLabel": "Explore Literature and Screen"
+    }
+  ],
+  "browser_verification": {
+    "browser": "Chrome",
+    "checkedOn": "2026-11-13",
+    "upload_date": "2025-08-25",
+    "duration": "1:39:18",
+    "source_channel": "Adyasha Das",
+    "source_observations": [
+      "Title labels full film.",
+      "Original opening credit text visible at 0:03; playback advanced to 0:44.",
+      "Closing story scene at 1:38:25.",
+      "Odia closing title at 1:39:13."
+    ],
+    "description_claims": [
+      "Same-named Pratibha Ray novel; screenplay also credited to her.",
+      "Direction Sadhu Meher; music Mushir.",
+      "Digital restoration credited to Surya Deo; not independently established as restoration specification.",
+      "Release described as early1980s."
+    ],
+    "embedded_playback": "Local viewing-room player loaded on explicit click; playback reached 0:17 with original Odia opening text visible. Stop removed the iframe.",
+    "limits": "Samples only; no complete viewing or exact original-cut comparison. YouTube reports captions unavailable.",
+    "embedded_duration": "1:39:19 (source display 1:39:18; one-second player rounding difference)",
+    "preview": "http://127.0.0.1:62137/cinema/watch/#aparichita"
+  },
+  "publication": {
+    "status": "not_published",
+    "books": "unchanged"
+  },
+  "research_evidence": "outputs/cinema-viewing-aparichita-20261113/research/metadata.json",
+  "implementation_evidence": "outputs/cinema-viewing-aparichita-20261113/implementation/checks.json",
+  "independent_review": "outputs/cinema-viewing-aparichita-20261113/review/independent-review.json",
+  "verification": "outputs/cinema-viewing-aparichita-20261113/root/verification.json",
+  "counts": {
+    "catalogue_entries": 13,
+    "featured_films": 6,
+    "trailers": 4,
+    "literary_companions": 1
+  },
+  "next_action": "Ready for review and publication of the bounded viewing-room additions. Preserve the separate unpublished Maya revision and book accessibility experiments."
+}
