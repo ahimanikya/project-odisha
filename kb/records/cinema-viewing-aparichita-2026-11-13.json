@@ -2,7 +2,7 @@
   "id": "POD-CINEMA-VIEWING-APARICHITA-20261113",
   "date": "2026-11-13",
   "authorization": "Founder supplied Aparichita YouTube link while adding selected literary films to the viewing room.",
-  "status": "reviewed_local_preview_not_published",
+  "status": "published_verified",
   "active_article": null,
   "scope_released": true,
   "programme_credit": 0,
@@ -119,8 +119,19 @@
     "preview": "http://127.0.0.1:62137/cinema/watch/#aparichita"
   },
   "publication": {
-    "status": "not_published",
-    "books": "unchanged"
+    "status": "published_verified",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/774",
+    "candidate_commit": "94893b3365fd7175f12836c89bdd6f8baa734e8b",
+    "merge_commit": "16a1e7023e48e3a08b7faeb8144559aa6bb1bf73",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/43469625613",
+    "validation_result": "success",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/43472164625",
+    "deployment_result": "success",
+    "live_url": "https://projectodisha.org/cinema/watch/",
+    "live_receipt": "outputs/cinema-viewing-publication-20261113/root/live-verification.json",
+    "browser_receipt": "outputs/cinema-viewing-publication-20261113/root/browser-verification.json",
+    "books": "unchanged",
+    "verified_at": "2026-11-13T17:42:24.091779+00:00"
   },
   "research_evidence": "outputs/cinema-viewing-aparichita-20261113/research/metadata.json",
   "implementation_evidence": "outputs/cinema-viewing-aparichita-20261113/implementation/checks.json",
@@ -132,5 +143,6 @@
     "trailers": 4,
     "literary_companions": 1
   },
-  "next_action": "Ready for review and publication of the bounded viewing-room additions. Preserve the separate unpublished Maya revision and book accessibility experiments."
+  "next_action": "Published in the curated viewing room. Source availability and access may change.",
+  "local_review_status": "reviewed_local_preview_not_published"
 }

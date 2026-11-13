@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6ca12fcc964a0b1440313c22b19d33f6201edbeba82306c9e1eab4badcc41598`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8ae5924dbf6148e6094c6f3916e010dfb2b1c2e67cfdaf0cfa8db46bd9c2fdd8`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1360,9 +1360,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261110005 | 2026-11-10T06:54:11.362241+00:00 | Register pending Balasore native observation and evidence exposition with explicit acceptance and zero credit; preserve actual Cuttack release and all other ownership. | — |
-| POD-EVT-20261110006 | 2026-11-10T09:28:44.845055+00:00 | Balasore journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
-| POD-EVT-20261110007 | 2026-11-10T10:16:54.891415+00:00 | Register pending Mayurbhanj native attention and learning exposition with explicit acceptance and zero credit; preserve actual Balasore release and all other ownership. | — |
 | POD-EVT-20261110008 | 2026-11-10T13:57:41.605087+00:00 | Mayurbhanj journey actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261110009 | 2026-11-10T15:27:04.887732+00:00 | Register pending Jobra native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
 | POD-EVT-20261110010 | 2026-11-10T17:26:13.953376+00:00 | Reviewed two culturally significant full-film routes; preserved existing selection and held Tapoi completeness gap. Website publication pending; zero programme credit. | — |
@@ -1370,6 +1367,9 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261110012 | 2026-11-10T17:18:05.917279+00:00 | Jobra maritime actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261111001 | 2026-11-11T11:17:44.468501+00:00 | Register pending Kala Bhoomi native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
 | POD-EVT-20261111002 | 2026-11-11T12:51:44.206237+00:00 | Kala Bhoomi actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
+| POD-EVT-20261113001 | 2026-11-13T15:27:28.299505+00:00 | Malajanha added to the local viewing-room preview; Matira Manisha narration kept as a separate literary companion. Source beginning/end and embedded sample checked;19tests and independent review passed. Existing entries and foreign work preserved. No publication or book changes; zero programme credit. | — |
+| POD-EVT-20261113002 | 2026-11-13T16:15:17.790755+00:00 | Aparichita (1980) added to the local viewing room with its Pratibha Ray novel connection. Opening, ending and embedded playback sampled; 20 tests and independent review passed. Previous 12 entries and Matira Manisha narration preserved. No publication or book changes; zero programme credit. | — |
+| POD-EVT-20261113003 | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
 
 ## Deferred extensions
 
