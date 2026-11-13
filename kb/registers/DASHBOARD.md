@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f69fceed9e5b4654baab730a36988a45d60f35909cf1e53e04a5860dee3933cb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8ae5924dbf6148e6094c6f3916e010dfb2b1c2e67cfdaf0cfa8db46bd9c2fdd8`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1369,7 +1369,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261111002 | 2026-11-11T12:51:44.206237+00:00 | Kala Bhoomi actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261113001 | 2026-11-13T15:27:28.299505+00:00 | Malajanha added to the local viewing-room preview; Matira Manisha narration kept as a separate literary companion. Source beginning/end and embedded sample checked;19tests and independent review passed. Existing entries and foreign work preserved. No publication or book changes; zero programme credit. | — |
 | POD-EVT-20261113002 | 2026-11-13T16:15:17.790755+00:00 | Aparichita (1980) added to the local viewing room with its Pratibha Ray novel connection. Opening, ending and embedded playback sampled; 20 tests and independent review passed. Previous 12 entries and Matira Manisha narration preserved. No publication or book changes; zero programme credit. | — |
-| POD-EVT-20261113-VIEWING-PUBLISHED | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
+| POD-EVT-20261113003 | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
 
 ## Deferred extensions
 
