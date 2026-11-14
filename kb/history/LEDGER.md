@@ -1617,3 +1617,7 @@ Published the reviewed Mirgan Households and Kotpad Textiles book as a separate 
 ### 11 November 2026 · Books navigation and four separate editions
 
 Added Books to desktop and mobile main navigation and expanded the existing collection with the published Odia Cinema and Odia Dhaga editions. Existing online readers, exact PDF downloads and cover credits are preserved. Separate source and rendered-output review passed; root desktop/mobile checks passed. Required release checks and live publication remain pending. No programme credit or changes to foreign work. [Handoff](../records/books-expansion-20261111.json).
+
+### 15 November 2026 · Ekamra evening personal essay prepared
+
+Prepared the Founder-approved account of the 14 November temple tour and Odissi music session, with seven author-supplied photographs and reciprocal links to A Week in Bhubaneswar. Source and integrated-output reviews passed. Publication gates and live verification remain pending; no programme credit. [Review and provenance](../records/ekamra-personal-20261114.json).
