@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c134efd9edf3d6e0775b55c7082f0f0958973ea75dffdec214422ee0dca9476e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `40ab974fbc8735018adb8f69bb9c18ebc3f683357b6adb79afefa5f241cdf325`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1360,7 +1360,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261110009 | 2026-11-10T15:27:04.887732+00:00 | Register pending Jobra native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
 | POD-EVT-20261110010 | 2026-11-10T17:26:13.953376+00:00 | Reviewed two culturally significant full-film routes; preserved existing selection and held Tapoi completeness gap. Website publication pending; zero programme credit. | — |
 | POD-EVT-20261110011 | 2026-11-10T18:04:31.034786+00:00 | Dhauli Express and Gapa Hele Bi Sata added to the public viewing room; exact live assets and playback/fallback verified. Existing nine entries preserved; scope released; zero programme credit. | — |
 | POD-EVT-20261110012 | 2026-11-10T17:18:05.917279+00:00 | Jobra maritime actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
@@ -1370,6 +1369,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261113002 | 2026-11-13T16:15:17.790755+00:00 | Aparichita (1980) added to the local viewing room with its Pratibha Ray novel connection. Opening, ending and embedded playback sampled; 20 tests and independent review passed. Previous 12 entries and Matira Manisha narration preserved. No publication or book changes; zero programme credit. | — |
 | POD-EVT-20261113003 | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
 | POD-EVT-20261115001 | 2026-11-14T18:48:16.547102+00:00 | Prepared the Founder-approved 14 November Ekamra Walks personal essay with seven supplied photographs, Prateek’s temple tour and Omm Prakash and team’s teaching/performance. Separate source and generated-output reviews passed; publication gates pending. No invented musical details, video placeholders or programme credit. | — |
+| POD-EVT-20261115002 | 2026-11-14T20:02:08.455938+00:00 | Published the approved Ekamra evening personal essay after separate reviews, required CI and Pages deployment. Live text, seven exact photograph hashes, footnotes, discovery and reciprocal reading links verified. No videos supplied or added. Zero programme credit; foreign ownership preserved. | — |
 
 ## Deferred extensions
 

@@ -1621,3 +1621,7 @@ Added Books to desktop and mobile main navigation and expanded the existing coll
 ### 15 November 2026 · Ekamra evening personal essay prepared
 
 Prepared the Founder-approved account of the 14 November temple tour and Odissi music session, with seven author-supplied photographs and reciprocal links to A Week in Bhubaneswar. Source and integrated-output reviews passed. Publication gates and live verification remain pending; no programme credit. [Review and provenance](../records/ekamra-personal-20261114.json).
+
+### 15 November 2026 · Ekamra evening personal essay published
+
+Published the approved 14 November account of Prateek’s Parsurameswara Temple tour and the Odissi session with Omm Prakash and team. Separate source and integrated reviews, required CI and deployment passed. The live article, seven exact delivery photographs, footnotes and reciprocal links to A Week in Bhubaneswar were verified. Foreign work preserved; zero programme credit. [Publication receipt](../records/ekamra-personal-20261114.json).
