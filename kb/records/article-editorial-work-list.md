@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1098. completed: 213, excluded: 628, queued: 257.
+Route inventory: 1098. completed: 212, excluded: 628, in_progress: 1, queued: 257.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1121,4 +1121,4 @@ Route inventory: 1098. completed: 213, excluded: 628, queued: 257.
 | POD-EDIT-KOTPAD-BOOK-10-20261110 | [What support programmes can show](https://projectodisha.org/stories/kotpad/support-programmes/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
 | POD-EDIT-KOTPAD-BOOK-11-20261110 | [Learning and the future of weaving](https://projectodisha.org/stories/kotpad/learning-and-the-future/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
 | POD-EDIT-BOOKS-20261110 | [Books](https://projectodisha.org/books/) | excluded | Navigation collection linking two separately published companion books. No autonomous programme credit. |
-| POD-EDIT-EKAMRA-20261114 | [An Evening in Ekamra: Walking Through Stone, Listening to Song](https://projectodisha.org/stories/ekamra-evening/) | completed | Founder-approved personal essay with seven supplied photographs; first visit to Parsurameswara, Prateek’s tour and Odissi teaching/performance by Omm Prakash and team. No programme credit. |
+| POD-EDIT-EKAMRA-20261114 | [An Evening in Ekamra: Walking Through Stone, Listening to Song](https://projectodisha.org/stories/ekamra-evening/) | in_progress | Founder-approved personal essay with seven supplied photographs; first visit to Parsurameswara, Prateek’s tour and Odissi teaching/performance by Omm Prakash and team. No programme credit. |
