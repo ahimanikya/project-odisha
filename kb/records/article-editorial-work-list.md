@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1099. completed: 213, excluded: 628, in_progress: 1, queued: 257.
+Route inventory: 1100. completed: 214, excluded: 628, in_progress: 1, queued: 257.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1122,4 +1122,5 @@ Route inventory: 1099. completed: 213, excluded: 628, in_progress: 1, queued: 25
 | POD-EDIT-KOTPAD-BOOK-11-20261110 | [Learning and the future of weaving](https://projectodisha.org/stories/kotpad/learning-and-the-future/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
 | POD-EDIT-BOOKS-20261110 | [Books](https://projectodisha.org/books/) | excluded | Navigation collection linking two separately published companion books. No autonomous programme credit. |
 | POD-EDIT-EKAMRA-20261114 | [An Evening in Ekamra: Walking Through Stone, Listening to Song](https://projectodisha.org/stories/ekamra-evening/) | completed | Founder-approved personal essay with seven supplied photographs; first visit to Parsurameswara, Prateek’s tour and Odissi teaching/performance by Omm Prakash and team. No programme credit. |
-| POD-EDIT-BIBHABA-VISIT-20261115 | [A Morning with Odia Bibhaba](https://projectodisha.org/stories/odia-bibhaba-visit/) | in_progress | Personal post published and live verified; local receipt saved, remote evidence-only integration pending. No programme credit. |
+| POD-EDIT-BIBHABA-VISIT-20261115 | [A Morning with Odia Bibhaba](https://projectodisha.org/stories/odia-bibhaba-visit/) | completed | Personal visit post published and live verified; committed delivery receipt integrated. No programme credit. |
+| POD-EDIT-PRAHLAD-PERSONAL-20261116 | [Finally Watching Prahlad Natak](https://projectodisha.org/stories/watching-prahlad-natak/) | in_progress | Founder-requested first-person article with supplied photographs in Personal category. No programme credit. |
