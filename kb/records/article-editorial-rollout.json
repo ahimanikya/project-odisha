@@ -20052,13 +20052,22 @@
       "route": "/stories/odia-bibhaba-visit/",
       "title": "A Morning with Odia Bibhaba",
       "status": "in_progress",
-      "scope": "Personal visit post with two supplied event photographs and reciprocal link to existing preservation article. No programme credit.",
+      "scope": "Personal post published and live verified; local receipt saved, remote evidence-only integration pending. No programme credit.",
       "source_template": "projects/site/src/pages/stories/odia-bibhaba-visit.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/odia-bibhaba-visit-20261115.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/odia-bibhaba-visit-20261115.json"
     }
   ]
 }

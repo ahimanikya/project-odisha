@@ -1629,3 +1629,7 @@ Published the approved 14 November account of Prateek’s Parsurameswara Temple 
 ### 15 November 2026 · Odia Bibhaba personal visit post
 
 The Founder requested a personal post about attending the Odia Bibhaba relaunch, describing it as a good experience, linked to the existing preservation article. Preparing a short first-person account with two supplied photographs and handout-supported event details. No invented conversations or new historical claims; foreign work preserved. [Scoped handoff](../records/odia-bibhaba-visit-20261115.json).
+
+### 15 November 2026 · Odia Bibhaba personal post published
+
+Published A Morning with Odia Bibhaba with two supplied photographs and reciprocal reading links to the existing preservation article. Separate source and rendered review, fresh builds, required CI and deployment passed. Verified live article, discovery, both reading directions and exact photograph bytes. [Delivery receipt](../records/odia-bibhaba-visit-20261115.json) saved locally; remote evidence-only integration pending. Zero programme credit.

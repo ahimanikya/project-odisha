@@ -1,6 +1,6 @@
 {
   "id": "POD-BIBHABA-VISIT-20261115",
-  "status": "reviewed_pending_publication",
+  "status": "published_verified",
   "authorization": "Odia Bibhaba - we already have an article; let’s add a personal post and connect them together. I attended, and it was a good experience.",
   "route": "/stories/odia-bibhaba-visit/",
   "related_route": "/stories/odia-literature-preservation/",
@@ -40,14 +40,76 @@
         "Footnotes, return links and IDs valid",
         "Existing preservation narrative unchanged"
       ]
+    },
+    "exact_candidate": {
+      "reviewer": "Drishti, separate AI agent",
+      "commit": "0b117516ec1bc2e72dbfa8179312e17ccc284439",
+      "result": "PASS"
     }
   },
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/780",
   "validation": {
-    "coastal_build": "PASS",
-    "targeted_source_tests": "17 passed",
+    "fresh_full_build": "PASS;1100 HTML pages",
+    "full_site_tests": "771/771",
+    "full_coastal_tests": "597/597",
+    "coastal_audit": "4344/4344",
     "disclosures": "PASS",
-    "repository_checks": "PASS: catalog, registers, bundle, research, team, rollout, autonomous programme",
-    "coastal_test_correction": "Discovery expected count updated from172 to173 for new article; rerun pending"
-  }
+    "repository_checks": "PASS",
+    "launch_and_search_audits": "PASS",
+    "link_and_image_targets": "48/48"
+  },
+  "candidate_commit": "0b117516ec1bc2e72dbfa8179312e17ccc284439",
+  "merge_commit": "13d2abf6050402c6fc656d5d828a09bee0bfa250",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/43740030662",
+  "validation_result": "success",
+  "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/43741544360",
+  "resolved_check_findings": [
+    "Updated portable website route inventory",
+    "Regenerated editorial workbench hash after route addition",
+    "Updated two discovery test files for additional story",
+    "Updated full-build static-page count and verified tests against freshly rebuilt dist",
+    "Retried anonymous existing Dhaga release download after403; subsequent download passed"
+  ],
+  "live_verification": {
+    "verified_at": "2026-11-15T17:46:16.850732+00:00",
+    "url": "https://projectodisha.org/stories/odia-bibhaba-visit/",
+    "checks": {
+      "title": true,
+      "byline": true,
+      "visit_date": true,
+      "personal_to_article": true,
+      "article_to_personal": true,
+      "discoverable": true,
+      "source_notes": true
+    },
+    "photos": [
+      {
+        "name": "meeting-hall.jpg",
+        "bytes": 209762,
+        "sha256": "83bbcb3d610fb1606d6d1764bad7a7a74ae71239604462742237b0a78a51f8d5",
+        "matches_reviewed": true
+      },
+      {
+        "name": "website-launch.jpg",
+        "bytes": 230029,
+        "sha256": "fe09925eac7f013608899778ca146457f6758fe8bb305b1cda8b19c718050211",
+        "matches_reviewed": true
+      }
+    ],
+    "result": "PASS"
+  },
+  "live_url": "https://projectodisha.org/stories/odia-bibhaba-visit/",
+  "deployment_result": "success",
+  "receipt_integration": "Saved in current checkout; remote evidence-only integration pending",
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 43741544360,
+    "headSha": "13d2abf6050402c6fc656d5d828a09bee0bfa250",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/43741544360"
+  },
+  "verified_routes": [
+    "/stories/odia-bibhaba-visit/",
+    "/stories/odia-literature-preservation/",
+    "/explore/"
+  ]
 }
