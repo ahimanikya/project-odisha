@@ -1,6 +1,6 @@
 {
   "id": "POD-BIBHABA-VISIT-20261115",
-  "status": "in_preparation",
+  "status": "reviewed_pending_publication",
   "authorization": "Odia Bibhaba - we already have an article; let’s add a personal post and connect them together. I attended, and it was a good experience.",
   "route": "/stories/odia-bibhaba-visit/",
   "related_route": "/stories/odia-literature-preservation/",
@@ -29,6 +29,25 @@
       "reviewer": "Drishti, separate AI agent",
       "result": "PASS",
       "finding": "Attendance and good experience kept within user testimony; facts match supplied material; no invented conversations or commitments."
+    },
+    "integrated": {
+      "reviewer": "Drishti, separate AI agent",
+      "result": "PASS",
+      "checks": [
+        "Desktop and 390x844 mobile browser review",
+        "Both images loaded; width390 equals viewport390",
+        "Both directions of reading links clicked successfully",
+        "Footnotes, return links and IDs valid",
+        "Existing preservation narrative unchanged"
+      ]
     }
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/780",
+  "validation": {
+    "coastal_build": "PASS",
+    "targeted_source_tests": "17 passed",
+    "disclosures": "PASS",
+    "repository_checks": "PASS: catalog, registers, bundle, research, team, rollout, autonomous programme",
+    "coastal_test_correction": "Discovery expected count updated from172 to173 for new article; rerun pending"
   }
 }
