@@ -1625,3 +1625,7 @@ Prepared the Founder-approved account of the 14 November temple tour and Odissi 
 ### 15 November 2026 · Ekamra evening personal essay published
 
 Published the approved 14 November account of Prateek’s Parsurameswara Temple tour and the Odissi session with Omm Prakash and team. Separate source and integrated reviews, required CI and deployment passed. The live article, seven exact delivery photographs, footnotes and reciprocal links to A Week in Bhubaneswar were verified. Foreign work preserved; zero programme credit. [Publication receipt](../records/ekamra-personal-20261114.json).
+
+### 15 November 2026 · Odia Bibhaba personal visit post
+
+The Founder requested a personal post about attending the Odia Bibhaba relaunch, describing it as a good experience, linked to the existing preservation article. Preparing a short first-person account with two supplied photographs and handout-supported event details. No invented conversations or new historical claims; foreign work preserved. [Scoped handoff](../records/odia-bibhaba-visit-20261115.json).

@@ -1,0 +1,68 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import '../../styles/article-reading.css';
+import { compiledContent } from '../../../../../kb/research/stories/odia-bibhaba-visit.md';
+
+const title = 'A Morning with Odia Bibhaba';
+const description = 'A personal visit to Odia Bibhaba’s website relaunch at Lohia Academy, Bhubaneswar, and a connection to the work of keeping Odia literature available.';
+const dimensions = {
+  'meeting-hall.jpg': [1600, 900],
+  'website-launch.jpg': [1600, 900]
+};
+const shareImage = {src: '/assets/odia-bibhaba-visit/meeting-hall.jpg', width: 1600, height: 900, alt: 'A speaker and audience at the Odia Bibhaba website relaunch at Lohia Academy.'};
+let articleHtml = await compiledContent();
+if (typeof articleHtml !== 'string') throw new Error('Odia Bibhaba Markdown must compile to HTML text.');
+// Render this trusted, locally compiled manuscript with the existing responsive-image component.
+// Exact matching fails the build if an image or caption would otherwise be silently omitted.
+articleHtml = articleHtml.replace(/<h2\b[^>]*id="footnote-label"[^>]*>[\s\S]*?<\/h2>/, '<h2 id="footnote-label">Footnotes &amp; Sources</h2>')
+  .replace(/<section([^>]*data-footnotes[^>]*)>/, (_, attributes) => {
+    const styled = /class="[^"]*"/.test(attributes)
+      ? attributes.replace(/class="([^"]*)"/, 'class="$1 article-footnotes"')
+      : attributes + ' class="article-footnotes"';
+    return '<section' + styled + '>';
+  });
+const pattern = /<p><img\b[^>]*src="(https:\/\/projectodisha\.org\/assets\/odia-bibhaba-visit\/[^\"]+)"[^>]*><\/p>\s*<p><em>([\s\S]*?)<\/em><\/p>/g;
+const parts = [];
+let offset = 0;
+for (const match of articleHtml.matchAll(pattern)) {
+  const src = match[1].replace('https://projectodisha.org', '');
+  const filename = src.split('/').pop();
+  const size = dimensions[filename];
+  const alt = match[0].match(/alt="([^"]*)"/)?.[1];
+  if (!size || !alt) throw new Error('Unmapped Odia Bibhaba photograph: ' + src);
+  parts.push({html: articleHtml.slice(offset, match.index), photo: {src, alt, width: size[0], height: size[1], caption: match[2]}});
+  offset = match.index + match[0].length;
+}
+parts.push({html: articleHtml.slice(offset), photo: null});
+if (parts.filter(part => part.photo).length !== 2) throw new Error('Odia Bibhaba article must render both supplied photographs.');
+const readingLinks = [{href: '/stories/odia-literature-preservation/', title: 'Odia Bibhaba and the Work of Keeping Literature Available', description: 'The archive’s history and its place alongside other Odia reading and listening resources.', image: '/assets/odia-literature-preservation/reading-table-v1.jpg'}];
+---
+<Shell title={title} description={description} shareImage={shareImage} active="explore" wide related={false}>
+  <article class="article-reading odia-bibhaba-visit">
+    <header>
+      <p class="eyebrow">Personal essay · Bhubaneswar</p>
+      <h1>{title}</h1>
+      <ArticleByline author="Ahimanikya Satapathy" />
+      <p class="publication-date"><time datetime="2026-11-15">15 November 2026</time></p>
+    </header>
+    {parts.map(({html, photo}, index) => <>
+      <Fragment set:html={html} />
+      {photo && <figure class:list={{portrait: photo.height > photo.width}}>
+        <ResponsiveImage src={photo.src} alt={photo.alt} width={photo.width} height={photo.height}
+          sizes={photo.height > photo.width ? '(max-width: 480px) calc(100vw - 2.4rem), 420px' : '(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px'}
+          loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : undefined}/>
+        <figcaption><Fragment set:html={photo.caption}/></figcaption>
+      </figure>}
+    </>)}
+    <ArticleReadingPath heading="Continue reading" links={readingLinks} />
+    <p class="reader-update"><a href="/contribute/?page=%2Fstories%2Fodia-bibhaba-visit%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+.odia-bibhaba-visit .publication-date{margin:-1.2rem 0 2rem;color:var(--muted);font:normal .9rem/1.65 system-ui,sans-serif}
+.odia-bibhaba-visit figure.portrait{max-width:420px;margin:2.5rem auto 3rem}
+.odia-bibhaba-visit .reader-update{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--line);font-size:.95rem;line-height:1.75}
+</style>
