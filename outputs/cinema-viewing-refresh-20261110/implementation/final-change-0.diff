@@ -1,0 +1,53 @@
+--- outputs/odia-movie-player/sync-catalogue.py (before)
++++ outputs/odia-movie-player/sync-catalogue.py
+@@ -6,6 +6,7 @@
+ browser=read('kb/records/cinema-player-browser-evidence-2026-10-26.json')
+ clips=read('kb/records/cinema-viewing-links-contemporary-2026-10-26.json')
+ discovery=read('kb/records/cinema-discovery-refresh-2026-10-31.json')
++refresh=read('kb/records/cinema-viewing-refresh-2026-11-10.json')
+ verified={e['videoID']:e for e in browser['entries']}
+ entries=[]
+ for item in cat['entries']:
+@@ -66,6 +67,7 @@
+         entries.append(dict(id=e['id'],filmID=e['filmId'],titleEnglish=e['titleEn'],titleOdia=e.get('titleOr'),year=e.get('year'),genres=e.get('genres',[]),language=e['language'],languageType=e.get('languageVersion','unknown'),type=e['format'],access='provider-listing',watchURL=e['sourceUrl'],sourceChannel=e['provider'],evidenceURLs=e.get('evidenceURLs',[e['sourceUrl']]),rightsStatus='Provider listing; copyright retained; no public-domain determination',publicDomainVerified=False,checkedOn=e['checkedAt'],verificationSummary=e['sourceNotes'],classificationNote=e.get('yearEvidence','Year and genre follow the provider listing; independent release-date verification is not implied.'),displayTitleNote=e.get('titleOrStatus',''),accessNote='Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed.'))
+     coverage+=providers.get('coverage',[])
+ entries.extend(dict(e) for e in discovery['player_entries'])
++entries.extend(dict(e) for e in refresh['player_entries'])
+ for e in entries:
+     e.setdefault('access','official-upload')
+     e.setdefault('filmID',e.get('filmId',e['id'].removesuffix('-trailer') if e['id']!='stree-kali-juga' else 'stree-1968'))
+@@ -83,21 +85,30 @@
+   {'id':'ananta-trailer','reason':'Fakir Mohan Senapati’s Randi Pua Ananta reaches the screen in Sabyasachi Mohapatra’s adaptation.','evidence':[{'label':'Reporting on the adaptation','url':'https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses'}]}
+  ]
+ }
+-curation['explorations'].extend(discovery['curation'])
++curation['explorations'].extend(dict(e) for e in discovery['curation'])
++refresh_types={e['id']:e['type'] for e in refresh['player_entries']}
++for choice in refresh['curation']:
++    section='featured' if refresh_types[choice['id']]=='full-film' else 'explorations'
++    curation[section].append(dict(choice))
+ public_ids={'daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel'}
+ public_ids.update(e['id'] for e in discovery['player_entries'])
++public_ids.update(e['id'] for e in refresh['player_entries'])
+ entries=[e for e in entries if e['id'] in public_ids]
+ assert {e['id'] for e in entries}==public_ids
++assert len(entries)==len(public_ids), 'Duplicate selected catalogue ID'
++assert len({e['watchURL'] for e in entries})==len(entries), 'Duplicate selected viewing URL'
++assert all(e['id'] in public_ids for e in curation['featured']+curation['explorations'])
+ coverage=[
+  {'source':'Official film and trailer channels','url':'https://www.amaramuzik.in/amara_muzik_odia','status':'Selected source listings checked','note':'DAMaN and the selected official trailers support the article readings. Embedded playback remains untested.'},
+  {'source':'Gour–Parbati archive / GPG Productions','url':'https://www.gourparbati.com/movie_stree.php','status':'Archive-linked song clip','note':'Kali Juga is a song from the 1968 Stree, not a full-film upload.'},
+  {'source':'Prime Video','url':'https://www.primevideo.com/detail/Biswaprakash/0MJBHD5LPJL1VXW6T9MESR5IJM','status':'Conditional title listing','note':'Biswaprakash availability and payment terms depend on region and account.'},
+  {'source':'Airtel Xstream Play','url':'https://www.airtelxstream.in/movies/odia-a-movies','status':'Two children’s-animation listings selected','note':'Odia audio is listed. Return of Hanuman is a dubbed version; Prahalad’s original-language status remains unverified. Provider access conditions apply.'}
+ ]
++coverage.extend(dict(e) for e in refresh.get('coverage',[]))
+ for choice in curation['explorations']:
+- choice['reading']='../odia-cinema-series/odia-cinema.html'
+- choice['readingLabel']='Read the cinema overview'
+-output={'checkedOn':'2026-10-26','updatedOn':discovery['date'],'entries':entries,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
++ choice.setdefault('reading','../odia-cinema-series/odia-cinema.html')
++ choice.setdefault('readingLabel','Read the cinema overview')
++output={'checkedOn':'2026-10-26','updatedOn':max(discovery['date'],refresh['date']),'entries':entries,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
+ (root/'outputs/odia-movie-player/catalogue.js').write_text('window.ODIA_CATALOGUE='+json.dumps(output,ensure_ascii=False,indent=2)+';\n')
+ (root/'outputs/odia-movie-player/catalogue.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
+ print(f'{len(entries)} entries assembled')

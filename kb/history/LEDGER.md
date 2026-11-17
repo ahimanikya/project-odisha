@@ -1517,9 +1517,23 @@ Original IKFF India 2017 trailer attribution and festival dates independently ve
 The Founder requested same-origin delivery for Dhaga and the character books. Six original character PDFs were retrieved with exact manifest hashes; the verified Dhaga PDF is staged during builds without committing the oversized file. Historical release backups remain. Capacity and independent delivery verification are pending; zero programme credit. [Handoff](../records/remaining-book-downloads-20261108.json).
 
 
+### 9 November 2026 · Original sources for the writer-payment enquiry
+
+Recovered and identified the Sahitya Akademi monograph, Kalindi Charan Panigrahi’s autobiography and a collected-writings volume. Bounded page inspection and separate review establish source access, not the reported Matira Manisha adaptation payment. The financial question remains open; no public article or book changes were warranted. Next work can read the author’s own account of writing and livelihood. Kala Academy’s reply and the Founder’s Bapa follow-up remain external dependencies. [Research record](../records/cinema-adaptation-terms-2026-11-08.json).
+
+
+### 9 November 2026 · Kalindi’s own account of writing and livelihood
+
+Read172consecutive scan pages from the autobiography’s later sections and distinguished memoir, reproduced letters, a1945critical appendix and publisher backmatter. His account supplies concrete novel-origin, editorial-payment and livelihood evidence. Independent selected-page review passed; no Matira Manisha film-rights payment established. Saved findings and scope limits; public articles, photographs and both downloads unchanged. No outreach, deployment or programme credit. [Research record](../records/cinema-kalindi-memoir-2026-11-09.json).
+
+
 ### 8 November 2026 · Dhaga and character downloads published and verified
 
 PR729 merged at554deb1c after required validation42502224565 passed at57041a9f. Deployment42503735494 succeeded. Seven live PDFs match all original hashes and sizes, return application/pdf without redirects and support exact206byte ranges. Eight canonical images and11updated pages pass live checks; original source images remain unchanged. Chrome opened the live226-page Dhaga PDF. Hosted payload978560127bytes passes1GB. [Receipt](../records/remaining-book-downloads-20261108.json).
+
+## 2026-11-08 — Bandha implementation registered
+
+WORK335/A500144/EDIT123 is in progress under POD-DEC-225. The separately reviewed package is installed after the book-download owner explicitly released its scope; its exact receipt is preserved. EDIT122 is collection/navigation, with no credit. Programme completion remains143 pending actual publication and receipt.
 
 
 ### 8 November 2026 · Download receipt merged; hosting capacity preparation
@@ -1531,6 +1545,98 @@ Final download-verification receipt PR731 merged at b94cfe53 after required vali
 
 PR733 merged at9d2cbf32 after required validation42508884668 passed on reviewed head3d71ebc8. Deployment42510035032 succeeded:870307518bytes/2869files,129692482bytes headroom. Fourteen unchanged MP4s use exact verified GitHub release copies; original files, all PDFs and images remain preserved. Live13PDFs (11current books and2historical scans) match full bytes and hashes with direct200application/pdf and39exact206ranges. All39updated pages,26VTTs and14posters pass. Chrome live playback, seeking and English/Odia captions pass. Embedded1991links across13PDFs contain no old video addresses. Independent source/final-artifact review passed; zero programme credit. [Receipt](../records/hosting-capacity-20261108.json).
 
+
+### 8 November 2026 · Sambalpuri Bandha published and live verified
+
+PR732 merged59e20122 after required CI42511567194 succeeded on separately reviewed6950d5dc. Approved publication42513130709 succeeded. Actual1440/390 note navigation, Save/reload, both credited photographs, three links, parent sources and four UI downloads passed separate AI live review; the successful ZIP article, parent and photos match actual live responses. One existing WORK335/A500144/EDIT123 completion brings the programme to144. Receipt integration remains pending; no second deployment is required for these records. Dhaga remains358 public entries and11 unaccepted local proposals, with no credit. [Receipt](../records/sambalpuri-bandha-editorial-publication-2026-11-08.json).
+
+### 9 November 2026 · Kalindi’s memoir reaches the series and books
+
+The profile and Literature and Screen now include compact, source-reviewed accounts of writing, livelihood and periodical contributor payment. Film-adaptation payment remains unverified. Both matching books are published and their live downloads match the independently reviewed files. Chapter sequence, photographs, covers and earlier editions are preserved. No outreach or programme credit. [Publication receipt](../records/cinema-kalindi-publication-2026-11-09.json).
+
+
+### 9 November 2026 · Original film-support reports recovered
+
+Both Aaina annual-report originals were recovered through ordinary public download and all 56 pages visually inspected. They do not establish a named completed film receiving Dhwani/BPFTIO assistance. Four school/institution film credits provide a distinct children-as-makers lead; contemporaneous 2016 reporting dates one title earlier than the later annual-report mention. A concise attributed addition is proposed, with no film playback or outcome claim. Website, books, images and other worker scopes are preserved. No outreach, publication or programme credit. [Research handoff](../records/cinema-support-originals-2026-11-09.json).
+
+
+### 9 November 2026 · Student filmmakers join Cinema Futures
+
+Two documented examples now connect children making films to the Kallola discussion. One compact note distinguishes the 2016 screening from the later annual-report mention. Both matching books are published and their live downloads match the independently reviewed files. The production-support question remains open; no recipient, payment or measured outcome is inferred. Chapter order, images, covers, prior editions and concurrent Tasar work are preserved. No new outreach or programme credit. [Publication receipt](../records/cinema-student-films-publication-2026-11-09.json).
+
+
+### 10 November 2026 · Nilamani Sahu’s story in dramatic form
+
+Read the complete printed dramatic item, pp.197–211 (PDF208–222), and verified its boundary. Original-story and dramatization credits remain distinct; the earlier planning page estimate is corrected. A compact Literature and Screen proposal passed independent source and editorial review, with no film-source, original-text comparison, performance or payment claim. Public articles, books, images and foreign scopes remain unchanged. No publication, outreach or programme credit. [Research handoff](../records/cinema-nilamani-adaptation-2026-11-10.json).
+
+
+### 10 November 2026 · Biyott Projna Tripathy: writing, music and film
+
+Read the public professional profile and selected posts in Chrome, then verified original Yogini teaser-description credits. CBFC Bideha writing/co-writing credits and an Indian Literature story listing were independently checked. A compact poetry/music-to-screen addition is recommended; a published-fiction adaptation, payment or commercial outcome is not inferred. Separate research and placement review passed. Original Bideha public-post permalink was subsequently confirmed without changing the finding. Public articles, books, photographs and other ownership remain unchanged; Nilamani proposal remains pending. No outreach, publication or programme credit. [Research handoff](../records/cinema-biyott-tripathy-2026-11-10.json).
+
+
+### 10 November 2026 · Yogini joins the literature-to-screen thread
+
+Added the verified collaborative Yogini credits to the existing song passage, with a Cinema Music link and one numeric source note. The website candidate builds and its changed passage, note return and Music destination were checked in Chrome. Existing photographs, other articles, sequence and current book-download metadata are preserved. Further profile research verifies Ladakh’s precise National Film Award category from original catalogue pages and records an attributed actor account of Biyott’s directing practice. The original literary text and Bideha’s published-source identity remain open. No publication, outreach or programme credit. [Handoff](../records/cinema-yogini-profile-2026-11-10.json).
+
+### 10 November 2026 · Biyott’s writing and filmmaking profile
+
+Created a dedicated online companion linking a published story, the precise documentary-award category, collaborative Yogini credits and an attributed actor’s recollection. Literature and Screen and Cinema Music link back to the profile. An identified OrissaPOST portrait is retained with compact numeric attribution and honest provenance. The supplied Bideha report is further viewing only: its Cannes headline and a garbled2006story lead do not establish an award or published literary source. Separate source and rendered review passed, including mobile width, photo-note return and both reciprocal routes. Main50readings, book sequence/downloads, foreign ownership and unrelated PDF-tool edits are preserved. No publication, outreach, human approval claim or programme credit. [Profile handoff](../records/cinema-biyott-profile-2026-11-10.json).
+
+### 10 November 2026 · Literature at the centre of Biyott’s outlook
+
+The Founder clarified the meaning of the supplied Odia release conversation and supplied its faulty automatic Devanagari transcript. Adopted only a conservative attributed paraphrase: literature offers stories for filmmakers. Replaced the profile’s generic introduction paragraph and added a brief corresponding invitation in Literature and Screen, each with a compact timestamped source note. No direct quotation, independent audio-verification claim, universal quality claim, identified source-story or Cannes award was inferred. Original literary publication questions remain open. Source and note checks pass; refreshed Chrome pages show the new passages, with both new citation/return pairs working. Photographs, Music text, book order and published downloads remain unchanged. No publication or outreach. [Handoff](../records/cinema-biyott-profile-2026-11-10.json).
+
+### 10 November 2026 · Biyott’s profile and the connected books published
+
+Published the dedicated Biyott Projna Tripathy profile and the approved Literature and Screen and Cinema Music connections. Separate source, PDF and exact-release reviews passed. Both live book downloads match their reviewed hashes: 272 digital pages and 278 print pages, each with 548 notes. The 49-chapter book sequence, 50 main online readings, original photographs, earlier editions and foreign programme ownership are preserved. The original literary-source and payment questions remain open. No outreach or programme credit. [Publication receipt](../records/cinema-biyott-publication-2026-11-10.json).
+
+
+### 10 November 2026 · Bideha: a named story and a documented collection
+
+Identified the literary source through Biyott Projna Tripathy's directly inspected Sambad interview of 19 January 2026: her same-named story, recalled as written in 2005 or 2006, is also in Kadapana o Cleopatra. Original government catalogue page 11, entry 262 independently records the collection's first edition: Pakshighara Prakashanee, 2010, 128 pages. Separate evidence review passed. The story pages and any earlier magazine appearance remain unlocated; writing date is not publication date. An indexed railway-library holding is a lead only. Public articles, books, images, sequence and unrelated PDF-tool edits are preserved. No outreach, publication or programme credit. [Research handoff](../records/cinema-bideha-source-2026-11-10.json).
+
+
+### 10 November 2026 · Bideha’s literary source published
+
+Published the concise source-story connection in Biyott Projna Tripathy’s profile and Literature and Screen after separate source, desktop/mobile, PDF and exact-release reviews. The author’s recalled 2005 or 2006 writing date remains distinct from the collection’s catalogued 2010 first edition. Both live PDFs match their reviewed bytes: 272 digital pages and 278 print pages, each with 549 notes. Chapter order, images, earlier editions and foreign programme ownership are preserved. Original story pages, first-publication details and payment arrangements remain open. No outreach or programme credit. [Publication receipt](../records/cinema-bideha-publication-2026-11-10.json).
+
+
+### 10 November 2026 · Palmful of Stars: an original opening, with source questions retained
+
+Read the complete first-page journal preview and prepared a concise, separately reviewed observation about the fictional narrator’s college relationship and afternoon cinema visits. Pages120–124 remain unread. Recovered and read the full2018critical study behind the earlier Aanjula/self-translation lead; no original Odia publication reference was supplied, so those fields remain open. No autobiography or film-adaptation inference. Reconciled the pending list: Bideha source identity, Kalindi memoir, school-screening and student-film examples are already published; Nilamani’s reviewed dramatic example is ready but unapplied; original texts, film credits, actual payments and delivered support retain specific evidence dependencies. Public articles, images, books and foreign work remain unchanged; no outreach, publication or programme credit. [Research handoff](../records/cinema-palmful-source-2026-11-10.json).
+
+### 10 November 2026 · Literary examples and both Cinema editions published
+
+Published the reviewed Nilamani Sahu printed-dramatization example in Literature and Screen and the opening-page Palmful observation in Biyott Projna Tripathy’s profile. Separate source, article, PDF and staged-release gates passed; current-main integration preserved other work. Both live PDFs match reviewed bytes: 273 digital pages and 278 print pages, 49 chapters and 550 notes. Numbered sources, existing imagery and prior editions remain intact. Original-story, first-publication, translation, film-credit, compensation and delivered-support questions retain their limits. No outreach or programme credit. [Publication and verification](../records/cinema-literary-publication-2026-11-10.json).
+
+### 10 November 2026 · Mirgan and Kotpad companion book published
+
+Published the reviewed Mirgan Households and Kotpad Textiles book as a separate companion to Dongaria: two book entrances, nine chapter pages, 36 references and a 58-page reading PDF with both covers. Separate source and quality reviews, site checks and the approved publication workflow passed. All eleven live routes and reciprocal companion links were verified; the live PDF matches the reviewed bytes. Desk-research limitations remain explicit; printer and ISBN remain deferred. No new research, fieldwork, outreach or autonomous programme credit. [Publication receipt](../records/mirgan-kotpad-publication-20261110.json).
+
+### 11 November 2026 · Books navigation and four separate editions
+
+Added Books to desktop and mobile main navigation and expanded the existing collection with the published Odia Cinema and Odia Dhaga editions. Existing online readers, exact PDF downloads and cover credits are preserved. Separate source and rendered-output review passed; root desktop/mobile checks passed. Required release checks and live publication remain pending. No programme credit or changes to foreign work. [Handoff](../records/books-expansion-20261111.json).
+
+### 15 November 2026 · Ekamra evening personal essay prepared
+
+Prepared the Founder-approved account of the 14 November temple tour and Odissi music session, with seven author-supplied photographs and reciprocal links to A Week in Bhubaneswar. Source and integrated-output reviews passed. Publication gates and live verification remain pending; no programme credit. [Review and provenance](../records/ekamra-personal-20261114.json).
+
+### 15 November 2026 · Ekamra evening personal essay published
+
+Published the approved 14 November account of Prateek’s Parsurameswara Temple tour and the Odissi session with Omm Prakash and team. Separate source and integrated reviews, required CI and deployment passed. The live article, seven exact delivery photographs, footnotes and reciprocal links to A Week in Bhubaneswar were verified. Foreign work preserved; zero programme credit. [Publication receipt](../records/ekamra-personal-20261114.json).
+
+### 15 November 2026 · Odia Bibhaba personal visit post
+
+The Founder requested a personal post about attending the Odia Bibhaba relaunch, describing it as a good experience, linked to the existing preservation article. Preparing a short first-person account with two supplied photographs and handout-supported event details. No invented conversations or new historical claims; foreign work preserved. [Scoped handoff](../records/odia-bibhaba-visit-20261115.json).
+
+### 15 November 2026 · Odia Bibhaba personal post published
+
+Published A Morning with Odia Bibhaba with two supplied photographs and reciprocal reading links to the existing preservation article. Separate source and rendered review, fresh builds, required CI and deployment passed. Verified live article, discovery, both reading directions and exact photograph bytes. [Delivery receipt](../records/odia-bibhaba-visit-20261115.json) saved locally; remote evidence-only integration pending. Zero programme credit.
+
+### 16 November 2026 · A personal encounter with Prahlad Natak
+
+The Founder requested expansion and publication of his long-awaited Prahlad Natak experience in the Personal category. Preparing one first-person photo essay using his stated impressions, meeting with organiser and Odissi singer Soumya Biswajit, the gifted book and supplied photographs. No visit date, venue, dialogue or companion identities inferred. Existing Bibhaba delivery receipt carried forward; foreign task preserved. [Scoped handoff](../records/prahlad-personal-20261116.json).
 
 ### 16 November 2026 · Uploaded Dhaga sequence started
 

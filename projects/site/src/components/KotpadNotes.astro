@@ -1,0 +1,9 @@
+---
+interface Props {sources:{number:number;title:string;url:string;note:string;returns:string[]}[]}
+const {sources}=Astro.props;
+---
+<section id="story-sources" class="article-footnotes" aria-labelledby="footnote-title">
+<h2 id="footnote-title">Footnotes &amp; Sources</h2>
+<p>Reference numbers follow the book and remain the same across chapters.</p>
+<ol>{sources.map(s=><li id={`note-${s.number}`} value={s.number} tabindex="-1"><a href={s.url}>{s.title}</a> {s.note} <span class="footnote-returns">{s.returns.map((id,i)=><a href={`#${id}`} data-footnote-backref aria-label={`Return to passage ${i+1} for footnote ${s.number}`}>↩{i>0?i+1:''}</a>)}</span></li>)}</ol>
+</section>

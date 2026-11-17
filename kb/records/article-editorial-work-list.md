@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1084. completed: 189, excluded: 626, queued: 269.
+Route inventory: 1100. completed: 214, excluded: 628, in_progress: 1, queued: 257.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -135,18 +135,18 @@ Route inventory: 1084. completed: 189, excluded: 626, queued: 269.
 | POD-EDIT-119 | [Made by hand in Odisha](https://projectodisha.org/crafts/) | excluded | collection_navigation |
 | POD-EDIT-120 | [Pipili appliqué](https://projectodisha.org/crafts/pipili-applique/) | completed | substantive_craft_account |
 | POD-EDIT-121 | [Pattachitra · a story in the line](https://projectodisha.org/crafts/pattachitra/) | completed | substantive_craft_account |
-| POD-EDIT-122 | [Woven in Odisha](https://projectodisha.org/textiles/) | queued | classification_pending |
-| POD-EDIT-123 | [Sambalpuri Bandha · before the cloth](https://projectodisha.org/textiles/sambalpuri-bandha/) | queued | classification_pending |
-| POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | queued | classification_pending |
-| POD-EDIT-125 | [Kotpad · a colour with roots](https://projectodisha.org/knowledge/kotpad/) | queued | classification_pending |
-| POD-EDIT-126 | [Tasar · the silk before the sari](https://projectodisha.org/textiles/tasar/) | queued | classification_pending |
-| POD-EDIT-127 | [Global Connections](https://projectodisha.org/global-connections/) | queued | classification_pending |
-| POD-EDIT-128 | [Chilika, one shore at a time](https://projectodisha.org/journey-starters/chilika/) | queued | classification_pending |
-| POD-EDIT-129 | [Cuttack · Silver and Stories](https://projectodisha.org/journey-starters/cuttack/) | queued | classification_pending |
-| POD-EDIT-130 | [Balasore · Tides and Tales](https://projectodisha.org/journey-starters/balasore/) | queued | classification_pending |
-| POD-EDIT-131 | [Mayurbhanj · Forest, Rhythm and a Meal](https://projectodisha.org/journey-starters/mayurbhanj/) | queued | classification_pending |
-| POD-EDIT-132 | [Jobra · before the voyage](https://projectodisha.org/visit/experiences/jobra-maritime-museum/) | queued | classification_pending |
-| POD-EDIT-133 | [Kala Bhoomi · look closely](https://projectodisha.org/visit/experiences/kala-bhoomi/) | queued | classification_pending |
+| POD-EDIT-122 | [Woven in Odisha](https://projectodisha.org/textiles/) | excluded | collection_navigation |
+| POD-EDIT-123 | [Sambalpuri Bandha · before the cloth](https://projectodisha.org/textiles/sambalpuri-bandha/) | completed | substantive_textile_account |
+| POD-EDIT-124 | [Khandua · when a poem becomes cloth](https://projectodisha.org/textiles/khandua/) | completed | substantive_textile_account |
+| POD-EDIT-125 | [Kotpad · a colour with roots](https://projectodisha.org/knowledge/kotpad/) | completed | substantive_textile_account |
+| POD-EDIT-126 | [Tasar · the silk before the sari](https://projectodisha.org/textiles/tasar/) | completed | substantive_textile_account |
+| POD-EDIT-127 | [Global Connections](https://projectodisha.org/global-connections/) | completed | substantive_documented_exchange_account |
+| POD-EDIT-128 | [Chilika, one shore at a time](https://projectodisha.org/journey-starters/chilika/) | completed | substantive_native_ecological_reading |
+| POD-EDIT-129 | [Cuttack · Silver and Stories](https://projectodisha.org/journey-starters/cuttack/) | completed | substantive_native_object_history_reading |
+| POD-EDIT-130 | [Balasore · Tides and Tales](https://projectodisha.org/journey-starters/balasore/) | completed | substantive_native_observation_reading |
+| POD-EDIT-131 | [Mayurbhanj · Forest, Rhythm and a Meal](https://projectodisha.org/journey-starters/mayurbhanj/) | completed | substantive_native_observation_reading |
+| POD-EDIT-132 | [Jobra · before the voyage](https://projectodisha.org/visit/experiences/jobra-maritime-museum/) | completed | substantive_native_evidence_reading |
+| POD-EDIT-133 | [Kala Bhoomi · look closely](https://projectodisha.org/visit/experiences/kala-bhoomi/) | completed | substantive_native_evidence_reading |
 | POD-EDIT-134 | [Bhubaneswar · Objects and Ideas](https://projectodisha.org/journey-starters/bhubaneswar-objects-ideas/) | queued | classification_pending |
 | POD-EDIT-135 | [Cuttack · River and Silver](https://projectodisha.org/journey-starters/cuttack-river-silver/) | queued | classification_pending |
 | POD-EDIT-136 | [Puri · Craft Connections](https://projectodisha.org/journey-starters/puri-craft-connections/) | queued | classification_pending |
@@ -1108,3 +1108,19 @@ Route inventory: 1084. completed: 189, excluded: 626, queued: 269.
 | POD-EDIT-KALINGA-20261108 | [Reading Kalinga Beyond Odisha’s Borders](https://projectodisha.org/stories/reading-kalinga-beyond-odisha/) | completed | history_heritage_feature |
 | POD-EDIT-HISTORY-HUB-20261108 | [History and heritage](https://projectodisha.org/history/) | excluded | collection_navigation |
 | POD-EDIT-DAMAN-TEAM-20261108 | [The people behind DAMaN](https://projectodisha.org/cinema/daman-team/) | completed | Consolidate three filmmaker profiles into one online reading; preserve originals, individual anchors and existing book integration. |
+| POD-EDIT-BIYOTT-20261110 | [Biyott Projna Tripathy: Finding a Story’s Form](https://projectodisha.org/people/biyott-projna-tripathy/) | completed | Cinema companion profile: writing, documentary and collaborative filmmaking. |
+| POD-EDIT-KOTPAD-BOOK-1-20261110 | [Mirgan Households and Kotpad Textiles](https://projectodisha.org/stories/kotpad/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-2-20261110 | [Mirgan Households and Kotpad Textiles - the book](https://projectodisha.org/stories/kotpad/book/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-3-20261110 | [Mirgan households and the geography of Kotpad cloth](https://projectodisha.org/stories/kotpad/mirgan-households-and-geography/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-4-20261110 | [Historical traces in records and cloth](https://projectodisha.org/stories/kotpad/historical-traces/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-5-20261110 | [What a sari price reveals about Kotpad](https://projectodisha.org/stories/kotpad/what-a-sari-price-reveals/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-6-20261110 | [Making colour in Kotpad](https://projectodisha.org/stories/kotpad/making-colour/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-7-20261110 | [The people behind a finished textile](https://projectodisha.org/stories/kotpad/people-behind-a-textile/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-8-20261110 | [Where Kotpad cloth travels](https://projectodisha.org/stories/kotpad/where-cloth-travels/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-9-20261110 | [Water, roots, fuel and the working year](https://projectodisha.org/stories/kotpad/water-roots-fuel/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-10-20261110 | [What support programmes can show](https://projectodisha.org/stories/kotpad/support-programmes/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-KOTPAD-BOOK-11-20261110 | [Learning and the future of weaving](https://projectodisha.org/stories/kotpad/learning-and-the-future/) | completed | Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit. |
+| POD-EDIT-BOOKS-20261110 | [Books](https://projectodisha.org/books/) | excluded | Navigation collection linking two separately published companion books. No autonomous programme credit. |
+| POD-EDIT-EKAMRA-20261114 | [An Evening in Ekamra: Walking Through Stone, Listening to Song](https://projectodisha.org/stories/ekamra-evening/) | completed | Founder-approved personal essay with seven supplied photographs; first visit to Parsurameswara, Prateek’s tour and Odissi teaching/performance by Omm Prakash and team. No programme credit. |
+| POD-EDIT-BIBHABA-VISIT-20261115 | [A Morning with Odia Bibhaba](https://projectodisha.org/stories/odia-bibhaba-visit/) | completed | Personal visit post published and live verified; committed delivery receipt integrated. No programme credit. |
+| POD-EDIT-PRAHLAD-PERSONAL-20261116 | [Finally Watching Prahlad Natak](https://projectodisha.org/stories/watching-prahlad-natak/) | in_progress | Founder-requested first-person article with supplied photographs in Personal category. No programme credit. |

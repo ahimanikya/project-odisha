@@ -1,0 +1,45 @@
+{
+  "status": "implemented_ready_for_independent_review",
+  "date": "2026-11-13",
+  "canonical_record": "kb/records/cinema-viewing-aparichita-2026-11-13.json",
+  "changed_files": [
+    "projects/site/tests/cinema-discovery.test.mjs",
+    "projects/site/public/assets/cinema/player/catalogue.json",
+    "projects/site/public/assets/cinema/player/catalogue.js",
+    "outputs/odia-movie-player/test.cjs",
+    "outputs/odia-movie-player/sync-catalogue.py",
+    "outputs/odia-movie-player/catalogue.json",
+    "outputs/odia-movie-player/catalogue.js"
+  ],
+  "checks": {
+    "previous12entries_preserved": true,
+    "matira_narration_preserved": true,
+    "entries": 13,
+    "featured": 6,
+    "trailers": 4,
+    "literary_companions": 1,
+    "player_tests_passed": 15,
+    "site_discovery_tests_passed": 5,
+    "public_and_local_catalogues_identical": true,
+    "protected_source_UI_and_PDF_hashes_unchanged": true
+  },
+  "test_history": [
+    "Initial new date tests expectednull per firsthandoff while root concurrently verified1980 andupdatedcanonicalsource; onlydateassertions failed.",
+    "Rereadcanonicalrecord, changeddateassertion to1980 andall15+5tests passed."
+  ],
+  "guidance": "Data-only update reuses previously reviewed neutralYouTubeplayer; noHTML/CSS/clientsideJSlogicchanges.",
+  "limits": [
+    "No fullsitebuild or publication.",
+    "Browserplayback confirmation and resultingverificationSummary belong to root; regeneratecatalogueaftercanonicalupdate.",
+    "No restoration-quality, completecut, awardorofficialuploadinference."
+  ],
+  "hashes": {
+    "projects/site/tests/cinema-discovery.test.mjs": "267ff45f8b99393f8bfb5465d0f2ff66e057316ffbae02d8f9c1c0913352f6ad",
+    "projects/site/public/assets/cinema/player/catalogue.json": "2fb70c15d4db75c079b7ad5b55789acb06a4d966028055c11101fcb46cf39cbc",
+    "projects/site/public/assets/cinema/player/catalogue.js": "6746de115bba436c25877353094cfa850526371a46b1d091ad4a93db2a6c2500",
+    "outputs/odia-movie-player/test.cjs": "5590a7059accf7f49d130eceebe7b7c3538ce99590bde7e6bd83605470ee811c",
+    "outputs/odia-movie-player/sync-catalogue.py": "829544a31d1df8437e0f36f2d80597d91c8f1297d1684be1a8551d4fb79f249f",
+    "outputs/odia-movie-player/catalogue.json": "2fb70c15d4db75c079b7ad5b55789acb06a4d966028055c11101fcb46cf39cbc",
+    "outputs/odia-movie-player/catalogue.js": "6746de115bba436c25877353094cfa850526371a46b1d091ad4a93db2a6c2500"
+  }
+}

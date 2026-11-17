@@ -1,6 +1,9 @@
 ---
-import TextileStory from '../../components/TextileStory.astro';
+import Shell from '../../layouts/Shell.astro';
+import KotpadArticle from '../../components/KotpadArticle.astro';
+import {allowsPage} from '../../data/edition';
+import editorial from '../../../../../kb/research/culture/kotpad-editorial.json';
 import data from '../../../../../kb/research/culture/textile-stories.json';
 const entry=data.pages.find(p=>p.slug==='kotpad');
 ---
-<TextileStory entry={entry}/>
+<Shell title={entry.title} description={editorial.metadata_description} active="explore" wide related={false}><KotpadArticle entry={entry} assets={data.assets} editorial={editorial} links={entry.related.filter(link=>allowsPage(link.href))}/></Shell>

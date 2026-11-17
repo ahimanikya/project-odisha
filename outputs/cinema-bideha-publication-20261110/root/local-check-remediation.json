@@ -1,0 +1,20 @@
+{
+  "initial_full_suite": {
+    "tests": 760,
+    "pass": 759,
+    "fail": 1
+  },
+  "failure": "Previous book history descriptor used same-origin path while archived entries use preserved release URLs.",
+  "correction": "Normalized expected_previous_review_books to exact archived descriptors; retained prior same-origin descriptors separately. PDF and article bytes unchanged.",
+  "targeted_retry": {
+    "file": "root/cinema-release-fixed.log",
+    "tests": 23,
+    "pass": 23,
+    "fail": 0
+  },
+  "coastal_suite": {
+    "tests": 595,
+    "pass": 595,
+    "fail": 0
+  }
+}

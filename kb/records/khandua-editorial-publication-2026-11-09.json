@@ -1,0 +1,66 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-124",
+  "work_id": "POD-WORK-336",
+  "program_item": "POD-A500-145",
+  "authorization": "POD-DEC-225",
+  "reviewed_head": "72c11290cea9d908e601503bb37ef36ba85e5b52",
+  "merge_commit": "a8282900e8f8b8a7ea30c878f48bf38be30760e5",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/737",
+  "deployment": {
+    "head": "a8282900e8f8b8a7ea30c878f48bf38be30760e5",
+    "databaseId": 42536886597,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42536886597",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42535891443",
+    "success_before_merge": true
+  },
+  "verified_at": "2026-11-09T00:32:12.199Z",
+  "prepared_at": "2026-11-09T01:02:27.680147+00:00",
+  "live": {
+    "checked_at": "2026-11-09T00:32:12.199Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/textiles/khandua/",
+      "/textiles/"
+    ],
+    "images": true,
+    "producer_sha256": "ede23f8e4e7e645a1b5237306238c19784c1bd5d45ee0c9b5a18a370ea69d045",
+    "separate_review_sha256": "f2d6a25a6ac1397b20cba428a7cf253fdbe8c1b7114409997467682ac0d228e8",
+    "evidence_manifest": "records/evidence/khandua-editorial-2026-11-09/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "6b9afbd634b0e9da45ee0fc3c941a5e32565227377a5c786e81dd00430473509"
+  },
+  "verified_routes": [
+    "/textiles/khandua/",
+    "/textiles/"
+  ],
+  "review": "records/khandua-delivery-review-2026-11-09.json",
+  "programme_credit": 1,
+  "programme_completed": 145,
+  "source_budgets": {
+    "sahu2024": 197
+  },
+  "limits": [
+    "Separate AI review, not human certification.",
+    "197 source words for current delivery; historical source records retained.",
+    "Targeted article/parent/photo/archive review does not certify unrelated pages.",
+    "358 public Dhaga readings and eleven local proposals unchanged; no Dhaga credit.",
+    "Receipt merge/remote verification pending; receipt-only metadata needs no second site deployment.",
+    "One historical mutable lifecycle pointer is unavailable; explicit separate addendum binds current state without claiming historical hash equality. Integrated candidate blobs and all remaining historical bindings verified.",
+    "Actual authorized live Chrome checks; no human review. Root separately compares actual workflow ZIP. Raw HTTP and browser requests have individual timings; whole-page byte parity with local builds is not assumed.",
+    "AI review of actual saved live evidence, not human review or first-hand textile examination.",
+    "Browser interactions were performed by producer; reviewer inspected results, pixels and downloads without repeating network/browser run.",
+    "Three-target archive comparison is not whole-site content certification or whole-archive safety audit. Raw HTTP bytes, not DOM serialization, were compared.",
+    "Full ZIP, raw HTML/downloads and original copyrighted source captures remain local-only; no whole-page/local-build byte equality is claimed.",
+    "Live PASS does not itself materialize completion credit or release the finite receipt claim. Actual guarded receipt remains separately reviewable."
+  ],
+  "receipt_integration": {
+    "status": "pending_actual_receipt_merge",
+    "remote_verified": false
+  }
+}

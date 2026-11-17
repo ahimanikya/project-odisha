@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-08T15:34:57.022799+00:00",
+  "updated_at": "2026-11-16",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -3166,133 +3166,334 @@
       "id": "POD-EDIT-122",
       "route": "/textiles/",
       "title": "Woven in Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "collection_navigation",
       "source_template": "projects/site/src/pages/textiles/index.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/sambalpuri-bandha-editorial-2026-11-08.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Actual textile index is collection/navigation with pooled sources and linked stories, not an independently authored article. No programme credit."
     },
     {
       "id": "POD-EDIT-123",
       "route": "/textiles/sambalpuri-bandha/",
       "title": "Sambalpuri Bandha · before the cloth",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "substantive_textile_account",
+      "source_template": "projects/site/src/pages/textiles/[slug].astro",
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/sambalpuri-bandha-editorial-publication-2026-11-08.json",
+        "separate_review": "records/sambalpuri-bandha-delivery-review-2026-11-08.json"
+      },
+      "evidence": [
+        "records/sambalpuri-bandha-editorial-2026-11-08.json",
+        "records/sambalpuri-bandha-editorial-publication-2026-11-08.json",
+        "records/sambalpuri-bandha-delivery-review-2026-11-08.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-08T17:32:26.877590+00:00",
+      "completed_at": "2026-11-08T19:27:45.483284+00:00",
+      "publication_receipt": "records/sambalpuri-bandha-editorial-publication-2026-11-08.json"
     },
     {
       "id": "POD-EDIT-124",
       "route": "/textiles/khandua/",
       "title": "Khandua · when a poem becomes cloth",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "substantive_textile_account",
+      "source_template": "projects/site/src/pages/textiles/[slug].astro",
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/khandua-editorial-publication-2026-11-09.json",
+        "separate_review": "records/khandua-delivery-review-2026-11-09.json"
+      },
+      "evidence": [
+        "records/khandua-editorial-2026-11-09.json",
+        "records/khandua-editorial-publication-2026-11-09.json",
+        "records/khandua-delivery-review-2026-11-09.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-08T22:33:32.784150+00:00",
+      "completed_at": "2026-11-09T00:32:12.199Z",
+      "publication_receipt": "records/khandua-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-125",
       "route": "/knowledge/kotpad/",
       "title": "Kotpad · a colour with roots",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_textile_account",
       "source_template": "projects/site/src/pages/knowledge/kotpad.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/kotpad-editorial-publication-2026-11-09.json",
+        "separate_review": "records/kotpad-delivery-review-2026-11-09.json"
+      },
+      "evidence": [
+        "records/kotpad-editorial-2026-11-09.json",
+        "records/kotpad-editorial-publication-2026-11-09.json",
+        "records/kotpad-delivery-review-2026-11-09.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-09T03:13:07.050665+00:00",
+      "completed_at": "2026-11-09T05:12:09.458Z",
+      "publication_receipt": "records/kotpad-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-126",
       "route": "/textiles/tasar/",
       "title": "Tasar · the silk before the sari",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "substantive_textile_account",
+      "source_template": "projects/site/src/components/TasarArticle.astro",
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/tasar-editorial-publication-2026-11-09.json",
+        "separate_review": "records/tasar-delivery-review-2026-11-09.json"
+      },
+      "evidence": [
+        "records/tasar-editorial-2026-11-09.json",
+        "records/tasar-editorial-publication-2026-11-09.json",
+        "records/tasar-delivery-review-2026-11-09.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-09T15:37:17.568738+00:00",
+      "completed_at": "2026-11-09T16:32:29.949Z",
+      "publication_receipt": "records/tasar-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-127",
       "route": "/global-connections/",
       "title": "Global Connections",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_documented_exchange_account",
       "source_template": "projects/site/src/pages/global-connections.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/global-connections-editorial-publication-2026-11-09.json",
+        "separate_review": "records/global-connections-delivery-review-2026-11-09.json"
+      },
+      "evidence": [
+        "records/global-connections-editorial-2026-11-09.json",
+        "records/global-connections-editorial-publication-2026-11-09.json",
+        "records/global-connections-delivery-review-2026-11-09.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-09T18:02:59.286222+00:00",
+      "completed_at": "2026-11-09T19:03:19.690Z",
+      "publication_receipt": "records/global-connections-editorial-publication-2026-11-09.json"
     },
     {
       "id": "POD-EDIT-128",
       "route": "/journey-starters/chilika/",
       "title": "Chilika, one shore at a time",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_native_ecological_reading",
       "source_template": "projects/site/src/pages/journey-starters/chilika.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/chilika-journey-editorial-publication-2026-11-10.json",
+        "separate_review": "records/chilika-journey-delivery-review-2026-11-10.json"
+      },
+      "evidence": [
+        "records/chilika-journey-editorial-2026-11-10.json",
+        "records/chilika-journey-editorial-publication-2026-11-10.json",
+        "records/chilika-journey-delivery-review-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-09T21:24:25.223530+00:00",
+      "completed_at": "2026-11-09T23:15:53.398Z",
+      "publication_receipt": "records/chilika-journey-editorial-publication-2026-11-10.json"
     },
     {
       "id": "POD-EDIT-129",
       "route": "/journey-starters/cuttack/",
       "title": "Cuttack · Silver and Stories",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_native_object_history_reading",
       "source_template": "projects/site/src/pages/journey-starters/cuttack.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/cuttack-journey-editorial-publication-2026-11-10.json",
+        "separate_review": "records/cuttack-journey-delivery-review-2026-11-10.json"
+      },
+      "evidence": [
+        "records/cuttack-journey-editorial-2026-11-10.json",
+        "records/cuttack-journey-editorial-publication-2026-11-10.json",
+        "records/cuttack-journey-delivery-review-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-10T01:36:02.820181+00:00",
+      "completed_at": "2026-11-10T04:58:46.857Z",
+      "publication_receipt": "records/cuttack-journey-editorial-publication-2026-11-10.json"
     },
     {
       "id": "POD-EDIT-130",
       "route": "/journey-starters/balasore/",
       "title": "Balasore · Tides and Tales",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_native_observation_reading",
       "source_template": "projects/site/src/pages/journey-starters/balasore.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/balasore-journey-editorial-publication-2026-11-10.json",
+        "separate_review": "records/balasore-journey-delivery-review-2026-11-10.json"
+      },
+      "evidence": [
+        "records/balasore-journey-editorial-2026-11-10.json",
+        "records/balasore-journey-editorial-publication-2026-11-10.json",
+        "records/balasore-journey-delivery-review-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-10T06:54:11.362241+00:00",
+      "completed_at": "2026-11-10T08:33:44.324Z",
+      "publication_receipt": "records/balasore-journey-editorial-publication-2026-11-10.json"
     },
     {
       "id": "POD-EDIT-131",
       "route": "/journey-starters/mayurbhanj/",
       "title": "Mayurbhanj · Forest, Rhythm and a Meal",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_native_observation_reading",
       "source_template": "projects/site/src/pages/journey-starters/mayurbhanj.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/mayurbhanj-journey-editorial-publication-2026-11-10.json",
+        "separate_review": "records/mayurbhanj-journey-delivery-review-2026-11-10.json"
+      },
+      "evidence": [
+        "records/mayurbhanj-journey-editorial-2026-11-10.json",
+        "records/mayurbhanj-journey-editorial-publication-2026-11-10.json",
+        "records/mayurbhanj-journey-delivery-review-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-10T10:16:54.891415+00:00",
+      "completed_at": "2026-11-10T13:12:02.979Z",
+      "publication_receipt": "records/mayurbhanj-journey-editorial-publication-2026-11-10.json"
     },
     {
       "id": "POD-EDIT-132",
       "route": "/visit/experiences/jobra-maritime-museum/",
       "title": "Jobra · before the voyage",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_native_evidence_reading",
       "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/jobra-maritime-editorial-publication-2026-11-10.json",
+        "separate_review": "records/jobra-maritime-delivery-review-2026-11-10.json"
+      },
+      "evidence": [
+        "records/jobra-maritime-editorial-2026-11-10.json",
+        "records/jobra-maritime-editorial-publication-2026-11-10.json",
+        "records/jobra-maritime-delivery-review-2026-11-10.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-10T15:27:04.887732+00:00",
+      "completed_at": "2026-11-10T17:09:30.555Z",
+      "publication_receipt": "records/jobra-maritime-editorial-publication-2026-11-10.json"
     },
     {
       "id": "POD-EDIT-133",
       "route": "/visit/experiences/kala-bhoomi/",
       "title": "Kala Bhoomi · look closely",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "substantive_native_evidence_reading",
       "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "delivery_receipt": "records/kala-bhoomi-editorial-publication-2026-11-11.json",
+        "separate_review": "records/kala-bhoomi-delivery-review-2026-11-11.json"
+      },
+      "evidence": [
+        "records/kala-bhoomi-editorial-2026-11-11.json",
+        "records/kala-bhoomi-editorial-publication-2026-11-11.json",
+        "records/kala-bhoomi-delivery-review-2026-11-11.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-11-11T11:17:44.468501+00:00",
+      "completed_at": "2026-11-11T12:42:15.995Z",
+      "publication_receipt": "records/kala-bhoomi-editorial-publication-2026-11-11.json"
     },
     {
       "id": "POD-EDIT-134",
@@ -13871,17 +14072,18 @@
         "records/cinema-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-publication-2026-11-07.json",
+      "publication_receipt": "records/cinema-kalindi-publication-2026-11-09.json",
       "prior_publication_receipts": [
         "records/cinema-human-connections-publication-2026-10-26.json",
         "records/cinema-publication-2026-10-30.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-publication-2026-11-07.json"
       ],
       "publication": true,
       "editorial_stage": "published_verified",
       "human_review_claimed": false,
-      "next_action": "Reader feedback and distinct source-supported follow-up remain welcome.",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "next_action": "Film-adaptation payment remains unresolved; no payment amount is asserted.",
+      "publication_authorization": "Good, let's add these findings to Kalindi’s profile and Literature and Screen, then publish the website update and both book downloads. Keep the film payment question open.",
       "local_revision_history": [
         {
           "record": "records/cinema-literature-performance-2026-11-01.json",
@@ -13963,10 +14165,12 @@
       },
       "revision_status": "published_verified",
       "latest_verified_publication": {
-        "receipt": "records/cinema-publication-2026-11-07.json",
-        "date": "2026-11-07",
-        "source_sha256": "8941638ba4341245b611d06f0ab552311aefa6346d0b1ca671b099f0b5bb0cac"
-      }
+        "receipt": "records/cinema-kalindi-publication-2026-11-09.json",
+        "date": "2026-11-09",
+        "source_sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53"
+      },
+      "source_sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+      "latest_revision_receipt": "records/cinema-literary-publication-2026-11-10.json"
     },
     {
       "id": "POD-EDIT-812",
@@ -13992,15 +14196,16 @@
         "records/cinema-publication-2026-10-31.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-language-documentaries-publication-2026-11-08.json",
-      "revision_status": "reviewed_content_building_books",
-      "latest_local_revision": "records/cinema-film-credits-publication-2026-11-08.json",
-      "source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
+      "publication_receipt": "records/cinema-student-films-publication-2026-11-09.json",
+      "revision_status": "published_verified",
+      "latest_local_revision": "records/cinema-student-films-publication-2026-11-09.json",
+      "source_sha256": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950",
       "prior_publication_receipts": [
         "records/cinema-lives-and-future-publication-2026-10-26.json",
         "records/cinema-publication-2026-10-30.json",
         "records/cinema-publication-2026-10-31.json",
-        "records/cinema-publication-2026-11-07.json"
+        "records/cinema-publication-2026-11-07.json",
+        "records/cinema-language-documentaries-publication-2026-11-08.json"
       ],
       "publication": true,
       "editorial_stage": "published_verified",
@@ -14008,13 +14213,12 @@
       "next_action": "Reader feedback and distinct source-supported follow-up remain welcome.",
       "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
       "local_revision_followup": {
-        "record": "records/cinema-film-credits-publication-2026-11-08.json",
-        "date": "2026-11-08",
-        "status": "reviewed_content_building_books",
+        "record": "records/cinema-student-films-publication-2026-11-09.json",
+        "date": "2026-11-09",
+        "status": "published_verified",
         "source": "kb/research/culture/cinema-series/cinema-futures.md",
-        "source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
-        "review": "outputs/cinema-credits-publication-20261108/review/content-review.json",
-        "published": false
+        "source_sha256": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950",
+        "published": true
       },
       "local_revision_history": [
         {
@@ -14053,12 +14257,21 @@
           "implementation": "outputs/cinema-language-documentaries-20261108/implementation.json",
           "review": "outputs/cinema-language-publication-20261108/review/research-review.json",
           "published": true
+        },
+        {
+          "record": "records/cinema-film-credits-publication-2026-11-08.json",
+          "date": "2026-11-08",
+          "status": "reviewed_content_building_books",
+          "source": "kb/research/culture/cinema-series/cinema-futures.md",
+          "source_sha256": "9dce364c439f440ed856140e928f20f09024dfdc4caf6ade1240daa156a4868c",
+          "review": "outputs/cinema-credits-publication-20261108/review/content-review.json",
+          "published": false
         }
       ],
       "latest_verified_publication": {
-        "receipt": "records/cinema-language-documentaries-publication-2026-11-08.json",
-        "date": "2026-11-08",
-        "source_sha256": "d2099ed2a03fa125152daec13be12c88d80c5028a53a4a000382d3c39d2fe3bd"
+        "receipt": "records/cinema-student-films-publication-2026-11-09.json",
+        "date": "2026-11-09",
+        "source_sha256": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950"
       }
     },
     {
@@ -15090,14 +15303,15 @@
       "blocker": null,
       "human_review_claimed": false,
       "publication": true,
-      "source_sha256": "77bc4d1d5357fbc68b51047547117336c5664174a25441cfe4d0ddace83ff8f3",
+      "source_sha256": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852",
       "editorial_stage": "published_verified",
-      "next_action": "Reader feedback and distinct source-supported follow-up remain welcome.",
-      "publication_receipt": "records/cinema-publication-2026-11-07.json",
-      "publication_authorization": "Founder explicitly requested Publish on 31 October 2026.",
+      "next_action": "Film-adaptation payment remains unresolved; no payment amount is asserted.",
+      "publication_receipt": "records/cinema-kalindi-publication-2026-11-09.json",
+      "publication_authorization": "Good, let's add these findings to Kalindi’s profile and Literature and Screen, then publish the website update and both book downloads. Keep the film payment question open.",
       "prior_publication_receipts": [
         "records/cinema-publication-2026-10-30.json",
-        "records/cinema-publication-2026-10-31.json"
+        "records/cinema-publication-2026-10-31.json",
+        "records/cinema-publication-2026-11-07.json"
       ],
       "local_revision_followup_history": [
         {
@@ -15119,9 +15333,9 @@
       },
       "revision_status": "published_verified",
       "latest_verified_publication": {
-        "receipt": "records/cinema-publication-2026-11-07.json",
-        "date": "2026-11-07",
-        "source_sha256": "d1a32bc65bfb916b3f451455762fbb1ff4599c717c746a147bd402667c7515f8"
+        "receipt": "records/cinema-kalindi-publication-2026-11-09.json",
+        "date": "2026-11-09",
+        "source_sha256": "21866f338ccd5ea1035baa5b87fcbae90d3b33962533fcc19a79b5b597ae1852"
       }
     },
     {
@@ -19521,6 +19735,352 @@
       "next_action": "Retain original profile sources and Lavanya unresolved status; respond to reader feedback with verified evidence.",
       "publication_receipt": "records/cinema-daman-team-publication-2026-11-08.json",
       "publication_authorization": "Founder explicitly requested publication of the consolidated DAMaN team page and both book downloads."
+    },
+    {
+      "id": "POD-EDIT-BIYOTT-20261110",
+      "route": "/people/biyott-projna-tripathy/",
+      "title": "Biyott Projna Tripathy: Finding a Story’s Form",
+      "status": "completed",
+      "scope": "Cinema companion profile: writing, documentary and collaborative filmmaking.",
+      "source_template": "projects/site/src/pages/people/biyott-projna-tripathy.astro",
+      "source": "kb/research/people/biyott-projna-tripathy.md",
+      "checks": {
+        "classification": true,
+        "source_draft_review": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/cinema-biyott-profile-2026-11-10.json",
+        "records/cinema-biyott-publication-2026-11-10.json"
+      ],
+      "publication": true,
+      "editorial_stage": "published_verified",
+      "human_review_claimed": false,
+      "next_action": "Preserve verified public credits and respond to new original-source evidence.",
+      "separate_review": "outputs/cinema-biyott-publication-20261110/review/release-review.json",
+      "prior_full_review": "outputs/biyott-profile-20261110/review/final-review.json",
+      "publication_authorization": "Founder explicitly requested publication of profile, both linked articles and both book downloads.",
+      "publication_receipt": "records/cinema-biyott-publication-2026-11-10.json",
+      "completed_at": "2026-11-09T22:15:44.574226+00:00",
+      "latest_revision_receipt": "records/cinema-literary-publication-2026-11-10.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-1-20261110",
+      "route": "/stories/kotpad/",
+      "title": "Mirgan Households and Kotpad Textiles",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/index.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-2-20261110",
+      "route": "/stories/kotpad/book/",
+      "title": "Mirgan Households and Kotpad Textiles - the book",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/book.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-3-20261110",
+      "route": "/stories/kotpad/mirgan-households-and-geography/",
+      "title": "Mirgan households and the geography of Kotpad cloth",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-4-20261110",
+      "route": "/stories/kotpad/historical-traces/",
+      "title": "Historical traces in records and cloth",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-5-20261110",
+      "route": "/stories/kotpad/what-a-sari-price-reveals/",
+      "title": "What a sari price reveals about Kotpad",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-6-20261110",
+      "route": "/stories/kotpad/making-colour/",
+      "title": "Making colour in Kotpad",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-7-20261110",
+      "route": "/stories/kotpad/people-behind-a-textile/",
+      "title": "The people behind a finished textile",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-8-20261110",
+      "route": "/stories/kotpad/where-cloth-travels/",
+      "title": "Where Kotpad cloth travels",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-9-20261110",
+      "route": "/stories/kotpad/water-roots-fuel/",
+      "title": "Water, roots, fuel and the working year",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-10-20261110",
+      "route": "/stories/kotpad/support-programmes/",
+      "title": "What support programmes can show",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-KOTPAD-BOOK-11-20261110",
+      "route": "/stories/kotpad/learning-and-the-future/",
+      "title": "Learning and the future of weaving",
+      "status": "completed",
+      "scope": "Founder-authorized companion-book publication batch adapted from the reviewed manuscript; no new research or autonomous programme credit.",
+      "source_template": "projects/site/src/pages/stories/kotpad/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mirgan-kotpad-publication-20261110.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/mirgan-kotpad-publication-20261110.json"
+    },
+    {
+      "id": "POD-EDIT-BOOKS-20261110",
+      "route": "/books/",
+      "title": "Books",
+      "status": "excluded",
+      "scope": "Navigation collection linking two separately published companion books. No autonomous programme credit.",
+      "exclusion_reason": "Book catalogue/navigation page, not a factual article; individual books retain their own editorial records.",
+      "source_template": "projects/site/src/pages/books.astro",
+      "evidence": [
+        "records/shared-books-20261110.json"
+      ]
+    },
+    {
+      "id": "POD-EDIT-EKAMRA-20261114",
+      "route": "/stories/ekamra-evening/",
+      "title": "An Evening in Ekamra: Walking Through Stone, Listening to Song",
+      "status": "completed",
+      "scope": "Founder-approved personal essay with seven supplied photographs; first visit to Parsurameswara, Prateek’s tour and Odissi teaching/performance by Omm Prakash and team. No programme credit.",
+      "source_template": "projects/site/src/pages/stories/ekamra-evening.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true,
+        "formatting": true
+      },
+      "evidence": [
+        "records/ekamra-personal-20261114.json",
+        "records/ekamra-personal-revision-20261115.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/ekamra-personal-revision-20261115.json"
+    },
+    {
+      "id": "POD-EDIT-BIBHABA-VISIT-20261115",
+      "route": "/stories/odia-bibhaba-visit/",
+      "title": "A Morning with Odia Bibhaba",
+      "status": "completed",
+      "scope": "Personal visit post published and live verified; committed delivery receipt integrated. No programme credit.",
+      "source_template": "projects/site/src/pages/stories/odia-bibhaba-visit.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/odia-bibhaba-visit-20261115.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/odia-bibhaba-visit-20261115.json"
+    },
+    {
+      "id": "POD-EDIT-PRAHLAD-PERSONAL-20261116",
+      "route": "/stories/watching-prahlad-natak/",
+      "title": "Finally Watching Prahlad Natak",
+      "status": "in_progress",
+      "scope": "Founder-requested first-person article with supplied photographs in Personal category. No programme credit.",
+      "source_template": "projects/site/src/pages/stories/watching-prahlad-natak.astro",
+      "checks": {},
+      "evidence": [
+        "records/prahlad-personal-20261116.json"
+      ],
+      "blocker": null
     }
   ]
 }

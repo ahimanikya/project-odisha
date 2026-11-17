@@ -1,0 +1,56 @@
+{
+  "status": "PASS_LOCAL_CANDIDATE",
+  "input_hashes": {
+    "outputs/odia-movie-player/sync-catalogue.py": "8397319533ec58987c27c74fbfafd32857251da10f209162e376ba465f2de24e",
+    "outputs/odia-movie-player/test.cjs": "ca61bdd2bd7c1c8d56759a72eced7aad62658d2bcbb791a8d77fa9e0ffce4b18",
+    "projects/site/tests/cinema-discovery.test.mjs": "56cedeb37c572f7fdac5117e50fb3be71ce9fa10522c5d344e3c8c03c31ffb9e",
+    "outputs/odia-movie-player/catalogue.json": "3c83b8f6290580903eeeb95c1f9bd4fdc0e9f82d33cb252f61da23dba63521fd",
+    "outputs/odia-movie-player/catalogue.js": "a4d99a459c5dfcb20d23b644e61334e6c1da3a4fc1334b21002fc9e73c7c0671",
+    "projects/site/public/assets/cinema/player/catalogue.json": "3c83b8f6290580903eeeb95c1f9bd4fdc0e9f82d33cb252f61da23dba63521fd",
+    "projects/site/public/assets/cinema/player/catalogue.js": "a4d99a459c5dfcb20d23b644e61334e6c1da3a4fc1334b21002fc9e73c7c0671",
+    "outputs/odia-movie-player/core.js": "33da87ccb559970b02fc0131f531e42563c53d6039477f25da8580aad138c3a7",
+    "outputs/odia-movie-player/app.js": "80c821d94063316a799bfe420955898214d9a5880b2b4412e1429b23311593ef",
+    "outputs/odia-movie-player/index.html": "23544fae2e92c152b46df243225522cec3aaeac4ee1dde5cf610f09aea141bd9",
+    "projects/site/src/data/cinema-player.html": "f62b746aeb0c628ffb0f5c0d551e76f12251bb8d3c411638a233e715e0777c1a",
+    "projects/site/public/assets/cinema/player/core.js": "33da87ccb559970b02fc0131f531e42563c53d6039477f25da8580aad138c3a7",
+    "projects/site/public/assets/cinema/player/app.js": "80c821d94063316a799bfe420955898214d9a5880b2b4412e1429b23311593ef",
+    "projects/site/dist/assets/cinema/player/catalogue.json": "3c83b8f6290580903eeeb95c1f9bd4fdc0e9f82d33cb252f61da23dba63521fd",
+    "projects/site/dist/assets/cinema/player/catalogue.js": "a4d99a459c5dfcb20d23b644e61334e6c1da3a4fc1334b21002fc9e73c7c0671",
+    "projects/site/dist/assets/cinema/player/app.js": "80c821d94063316a799bfe420955898214d9a5880b2b4412e1429b23311593ef",
+    "projects/site/dist/assets/cinema/player/core.js": "33da87ccb559970b02fc0131f531e42563c53d6039477f25da8580aad138c3a7",
+    "outputs/cinema-viewing-refresh-20261110/implementation/implementation.json": "8d7350a31bd2cb0c3154344c2bb3ac43f5f00f2dc1f68fb00d9be7276dbec0a0",
+    "outputs/cinema-viewing-refresh-20261110/anvesha/research.json": "627fc5b16404327708fc6d81cfc1a1440c663dab4f62d62ad4e026bacb226f9c",
+    "kb/records/cinema-viewing-refresh-2026-11-10.json": "2735fff91484f0e65a41b590cdfa44c2dc914e4fd8e12e0ce16f87ec7ea80fd4",
+    "outputs/cinema-viewing-refresh-20261110/review/source-review.json": "e3183e2498a2b607ac591fd929b009828e561d006d3a31e279240a823ac9228d"
+  },
+  "selection": {
+    "total_entries": 11,
+    "added": [
+      "dhauli-express",
+      "gapa-hele-bi-sata-tvnxt"
+    ],
+    "existing_nine_entries_exactly_preserved": true,
+    "unique_films_and_urls": true,
+    "featured_full_film_routes": 4,
+    "trailer_explorations": 4,
+    "tapoi_held": true
+  },
+  "independent_checks": [
+    "Read final generator, app/core fallback and changed regression tests.",
+    "Recomputed every implementation after-hash and verified local/public/dist catalogue and app/core byte equality.",
+    "Independently ran all40 focused player/discovery/release tests:40passed,0failed.",
+    "Explicit embedAllowed=false prevents iframe construction, hides Load player, retains direct native YouTube link; test covers programmatic play and switching between blocked and ordinary entries.",
+    "Final built fallback uses “Use the YouTube link to watch.”",
+    "Existing provider security, no-autoplay iframe lifecycle, Stop, URL and fragment constraints retained."
+  ],
+  "source_conclusion": "Two culturally grounded selections without inferred literary adaptation. Festival2007/Dhauli synopsis and institutional1976/Bhuban–Hari statement independently read; State Film Award is not represented as National. Root/Anvesha watch-page samples and director-card observations are attributed evidence, not reviewer full-film viewing.",
+  "coordinator_checks": "Final full build/disclosure pass recorded by worker. Root reports Dhauli owner embed refusal and Gapa advancing0:00–3:47 without seek, followed by Stop removing iframe. Reviewer did not operate Chrome.",
+  "limits": [
+    "Uploader full-film classification and sampled playback do not certify uncut completeness or restoration.",
+    "Rights remain copyright-retained, not public domain; channel provenance is not an independent licence-chain audit.",
+    "Initial legacy default-node invocation rejected --test; successful independent40-test run used bundled current Node.",
+    "No article/book change or publication performed in this review; live delivery still belongs to coordinator."
+  ],
+  "required_corrections": [],
+  "scope_released": true
+}

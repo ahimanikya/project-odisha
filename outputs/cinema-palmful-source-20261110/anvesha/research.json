@@ -1,0 +1,48 @@
+{
+  "status": "original_access_unresolved",
+  "scope_released": true,
+  "reuse": "Prior Biyott dossier and2018selftranslation lead read; Aanjula is retained secondary evidence,not newly discovered or primary-verified.",
+  "routes": [
+    {
+      "route": "Original JSTOR journal issue and article",
+      "urls": [
+        "https://www.jstor.org/stable/i40188158",
+        "https://www.jstor.org/stable/44479270"
+      ],
+      "access": "Issue table of contents readable through webtool. Palmful of Stars appears at lines166–168 with article,Download andXML links. Article yields only an image marker,not readable story.",
+      "scope": "Issue listing only; zero original story pages inspected."
+    },
+    {
+      "route": "Explicit download/XML and issue front matter",
+      "urls": [
+        "https://www.jstor.org/stable/pdf/44479270.pdf",
+        "https://www.jstor.org/doi/xml/10.2307/44479270",
+        "https://www.jstor.org/stable/44479215"
+      ],
+      "access": "All three web accesses returned cachemiss. Ordinary PDF curl returned3038byteHTML,not PDF. No restriction bypass or further repeated retries.",
+      "capture": "outputs/cinema-palmful-source-20261110/anvesha/jstor-response",
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+    },
+    {
+      "route": "Publisher journal archive and focused official issue search",
+      "urls": [
+        "https://sahitya-akademi.gov.in/journals/indianliterature.jsp"
+      ],
+      "queries": [
+        "site:sahitya-akademi.gov.in Indian Literature2015January",
+        "site:sahitya-akademi.gov.in2852015journal"
+      ],
+      "access": "Journal page timed out. Searches returned newsletters/catalogues/event reports,not the requested original article. No original issue recovered."
+    }
+  ],
+  "established": "Retained bibliographic identification remains Palmful of Stars by Biyot Projna Tripathy,Indian Literature59(1),Jan–Feb2015,pp119–124. Fresh issue listing reconfirms title presence,not translator/Odia source.",
+  "unresolved": [
+    "Original printed translator credit.",
+    "Odia source title and edition independently established from primary publication.",
+    "Actual original English story text and page-by-page reading."
+  ],
+  "secondary_limit": "2018study identifies Aanjula and selftranslation; root independently examines its original and bibliography. This worker did not adopt its synopsis or duplicate its full-text retrieval.",
+  "recommendation": "Keep existing profile bibliographic mention. Do not add a primary-confirmed translation credit or close reading until original pages are inspectable. No film-adaptation inference.",
+  "public_changes": false,
+  "source_budget": "No original story quotations or paraphrases; journal metadata only. No long secondary excerpts stored."
+}

@@ -1,0 +1,103 @@
+{
+  "id": "POD-CINEMA-VIEWING-APARICHITA-DRISHTI-20261113",
+  "date": "2026-11-13",
+  "reviewer": "Drishti, separate AI quality agent",
+  "human_review_claimed": false,
+  "scope": "Bounded metadata, catalogue and data-pipeline review of one Aparichita viewing-room addition.",
+  "source_checks": [
+    {
+      "url": "https://indiancine.ma/UMV",
+      "method": "Independently opened with web tool in this review.",
+      "finding": "Catalogue explicitly identifies Aparichita (1980), directed by Sadhu Meher."
+    },
+    {
+      "url": "https://pratibharay.com/novels/",
+      "method": "Independently opened author's original bibliography with web tool in this review.",
+      "finding": "Aparichita is listed as a novel with 1979 and a film adaptation. Bibliographic year is not the film year."
+    },
+    {
+      "record": "outputs/cinema-viewing-aparichita-20261113/research/metadata.json",
+      "finding": "Compared researcher evidence, earlier Literature and Screen passage, exact supplied YouTube ID and coordinator source observations. No conflicting source identity found."
+    }
+  ],
+  "acceptance": {
+    "id": "aparichita",
+    "filmID": "aparichita-1980",
+    "videoID": "EJr2d8DAtwk",
+    "watchURL": "https://www.youtube.com/watch?v=EJr2d8DAtwk",
+    "year": 1980,
+    "novel_year": 1979,
+    "sourceChannel": "Adyasha Das",
+    "access": "youtube-upload",
+    "publicDomainVerified": false,
+    "novel_and_director_supported": true,
+    "prior_12_entries_unchanged": true,
+    "matira_manisha_narration_unchanged_and_separate": true,
+    "entries": 13,
+    "distinct_titles": 13,
+    "featured": 6,
+    "trailers": 4,
+    "literary_companions": 1,
+    "no_duplicate_id_filmID_or_watchURL": true,
+    "no_UI_logic_or_layout_changes": true,
+    "no_restoration_or_new_award_claim": true
+  },
+  "validation": {
+    "command": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test outputs/odia-movie-player/test.cjs projects/site/tests/cinema-discovery.test.mjs",
+    "passed": 20,
+    "failed": 0,
+    "player_tests": 15,
+    "site_tests": 5,
+    "protected_files_unchanged": true,
+    "local_public_dist_catalogues_identical": true,
+    "final_metadata_retest": "20 tests passed after final playback-summary and spacing correction sync."
+  },
+  "corrected_findings": [
+    {
+      "issue": "Missing space in classificationNote: gives1979.",
+      "resolution": "Coordinator corrected canonical source to gives 1979 before final catalogue sync."
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "Original film upload received bounded source/ending and playback checks by coordinator, not a complete viewing or comparison with an original cut.",
+    "Reviewer independently read metadata sources; coordinator owns direct YouTube and rendered UI observations.",
+    "No uploader-authorisation, public-domain, restoration specification, unverified screenplay/music/cast or new award inference.",
+    "No article, book, image or live publication changes performed by reviewer."
+  ],
+  "scope_released": true,
+  "status": "PASS",
+  "coordinator_browser_evidence": {
+    "record": "outputs/cinema-viewing-aparichita-20261113/root/browser-verification.json",
+    "result": "Explicit load/play advanced to 0:17 with opening Odia text visible; Stop removed iframe. Source duration 1:39:18 retained; embedded display 1:39:19 recorded separately.",
+    "independent_reviewer_playback": false
+  },
+  "next_action": "Coordinator may finalize local delivery records. No publication or book rebuild in this task.",
+  "reviewed_sha256": {
+    "projects/site/tests/cinema-discovery.test.mjs": "267ff45f8b99393f8bfb5465d0f2ff66e057316ffbae02d8f9c1c0913352f6ad",
+    "projects/site/public/assets/cinema/player/catalogue.json": "ad94cdfec4f2970e9bae26870c8c07ab5ac6045500e1a71e798b6a9ff654e5d5",
+    "projects/site/public/assets/cinema/player/catalogue.js": "85604a474cd39f3514eb517cf3dd0e3c6c940e6597020b59e2aaa63ce9488d44",
+    "outputs/odia-movie-player/test.cjs": "5590a7059accf7f49d130eceebe7b7c3538ce99590bde7e6bd83605470ee811c",
+    "outputs/odia-movie-player/sync-catalogue.py": "829544a31d1df8437e0f36f2d80597d91c8f1297d1684be1a8551d4fb79f249f",
+    "outputs/odia-movie-player/catalogue.json": "ad94cdfec4f2970e9bae26870c8c07ab5ac6045500e1a71e798b6a9ff654e5d5",
+    "outputs/odia-movie-player/catalogue.js": "85604a474cd39f3514eb517cf3dd0e3c6c940e6597020b59e2aaa63ce9488d44"
+  },
+  "protected_sha256": {
+    "kb/research/culture/cinema-series/maya-miriga.md": "b029068c834e41bd88cb47b4b5092fb21df10f933dba60ab5a9f61229e8610e6",
+    "tools/cinema-book/build_tagged_reading.mjs": "cbb0b43a1d0283555d2d0b05a1b3535c1ed5c078aff29833d5faccbc091b5bcf",
+    "tools/cinema-book/test_tagged_reading.mjs": "2702acaf66c351a4a350e264209ef4de15fcebd8ba1e46a19a6d6767fa70d8c3",
+    "projects/site/src/data/cinema.json": "b4a8bbbbcc77cb726c4504c3bf7700e76441b096f303d9fa1118d241c9b97c60",
+    "outputs/odia-movie-player/core.js": "48e929e5832008518eaa541fe33f494635a9e44bc193602000ecad715e9a227a",
+    "outputs/odia-movie-player/app.js": "f2ebb1134e25d4e3acf089ea0184567c6828fcd58e7cfec1576fa1ee8d20d4db",
+    "outputs/odia-movie-player/index.html": "1a7dba5b3dc519ac0be7f6b00c4227e3c5d52928ae3cada0ef06f6f8e2e8fb5f",
+    "projects/site/src/data/cinema-player.html": "c12b088e7da534f55e6dbe7aba6faf572ddcd8d43fbd5c098841ab195dc2abd5",
+    "projects/site/src/pages/cinema/watch.astro": "7571591561cbf6ea61fcacea5678d3015ebd22c75116b0ed78d44ee7036ceee8"
+  },
+  "evidence_sha256": {
+    "outputs/cinema-viewing-aparichita-20261113/research/metadata.json": "abceece701b6da5260efa269a9d7ef9960cf1671fc847d53ba0a3783d415cfc1",
+    "outputs/cinema-viewing-aparichita-20261113/root/browser-verification.json": "af71e1abd9cd1e5aa142831a8522f2c08d63e995ecdd90dcb08ec0f7841200d2",
+    "outputs/cinema-viewing-aparichita-20261113/root/verification.json": "c530e06a68db92dced55f41652792dcd4f80b7ae629fb513e802f7d3faafb4ef",
+    "kb/records/cinema-viewing-aparichita-2026-11-13.json": "6003b67fed27e2a82b9b0d0d768c8640114999c8f24f7e75b27cc75d572d8f18"
+  },
+  "post_implementation_change": "Coordinator updated bounded embed observation and corrected classificationNote spacing, then regenerated both catalogue formats; code and protected UI unchanged."
+}

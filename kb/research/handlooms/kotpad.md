@@ -121,3 +121,8 @@ The new weaver directory gives 2017 for Panika’s Padma Shri (PDF p.2, row7). T
 [^kotpad-film]: [Kotpad Weaving: The Story of a Race Against Time](https://psbt.org/films/kotpad-weaving-the-story-of-a-race-against-time/), PSBT producer catalogue. Metadata checked 10 October 2026; film itself and screening availability unreviewed.
 
 [^handloom-padma2018]: [Ministry of Home Affairs: Padma Awards 2018](https://knowindia.india.gov.in/assets/doc/PadmaAwards2018.pdf), 25 January 2018, PDF p.3, serial58; heading continues from p.2. Award announcement, not a ceremony-date record. Extracted text checked 10 October 2026; no new screenshot available.
+
+
+## Editorial edition
+
+[Read the edited account](https://projectodisha.org/knowledge/kotpad/).

@@ -67,3 +67,8 @@ The [undated official Odisha weaver directory](https://handlooms.nic.in/assets/i
 ## A Nuapatna creator, a specific work
 
 The same directory credits **Sarat Kumar Patra** with a natural-dyed silk saree featuring Alpana and wedding motifs (PDF p.17), reporting more than eight months to produce that example. This is an Odisha/Nuapatna creator connection; the source does not label that particular piece Khandua. It does not establish today’s lead time, price or earnings.
+
+
+## Article connection
+
+[Read the revised article](https://projectodisha.org/textiles/khandua/) and its numbered source note.

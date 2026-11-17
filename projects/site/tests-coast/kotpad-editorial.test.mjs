@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+const html=readFileSync('dist-coast/knowledge/kotpad/index.html','utf8');
+test('Kotpad native note has two distinct references and returns with preserved documentary links',()=>{for(const part of ['ref-kotpad-1-1','ref-kotpad-2-1','note-1','By Ahimanikya Satapathy','Mishra','The poster’s reuse licence does not extend to the film itself.','reading:knowledge/kotpad','https://psbt.org/films/kotpad-weaving-the-story-of-a-race-against-time/','https://creativecommons.org/licenses/by-sa/4.0/'])assert.ok(html.includes(part),part);assert.ok(!html.includes('shade.[1]'));assert.ok(!html.includes('<h2></h2>'));});

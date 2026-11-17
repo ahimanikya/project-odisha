@@ -1,0 +1,40 @@
+{
+  "status": "proposed_only_waiting_draft_review",
+  "route": "/people/biyott-projna-tripathy/",
+  "integration": "Supplementary cinema companion; keep existing 50 online readings and 49 book chapters unchanged.",
+  "requirements": [
+    {
+      "path": "projects/site/src/data/cinema-companions.json",
+      "change": "Append companion entry using Nayak schema: source/hash, route, title/description/intro, author/date, hero and image derivative provenance, onward and related_from literature-and-screen/cinema-music. Portrait is provisional until root supplies verified original."
+    },
+    {
+      "path": "projects/site/src/pages/people/biyott-projna-tripathy.astro",
+      "change": "Reuse Nayak thin CinemaReading wrapper, selecting this companion route. Requires separately reserved UI scope and modern-web guidance before writing."
+    },
+    {
+      "path": "projects/site/src/lib/page-context.mjs",
+      "change": "Add route to cinemaPeople so cinema context is retained; separate scope required."
+    },
+    {
+      "path": "kb/reference/public-website-routes.json and projects/site/editions/coast.json",
+      "change": "Root registers route and necessary portrait downloads; preserve existing aliases and release downloads."
+    },
+    {
+      "path": "kb/research/culture/cinema-series/literature-and-screen.md and cinema-music.md",
+      "change": "Await root clearance. Link existing Yogini filmmaker name in Literature; add compact contextual profile link in Music without duplicate credit paragraph."
+    }
+  ],
+  "commands_after_root_integration": [
+    "node tools/cinema-literature-care-sync.mjs --slug literature-and-screen --apply",
+    "node tools/cinema-literature-care-sync.mjs --slug cinema-music --apply",
+    "cd projects/site && node --test tests/cinema-companions.test.mjs tests/cinema-reading-semantics.test.mjs",
+    "cd projects/site && npm run build",
+    "cd projects/site && node tools/check-public-disclosures.mjs dist"
+  ],
+  "important_limits": [
+    "Selected-slug sync only resolves cinema.json articles; it does not create or sync a new companion. Root must bind companion source hash explicitly.",
+    "Do not add companion to core manifest articles or book_order. No book regeneration requested.",
+    "Need authentic portrait, its source/credit and derivatives before full rendered verification; no fabricated dimensions or licence.",
+    "Current released download metadata and unrelated tagged-reader tools must remain unchanged."
+  ]
+}

@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/pattachitra-editorial-2026-11-08.json",
+  "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,16 +54,21 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-PRAHLAD-PERSONAL-20261116",
+    "route": "/stories/watching-prahlad-natak/",
+    "owner": "Disha",
+    "phase": "preparation",
+    "handoff": "records/prahlad-personal-20261116.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
     "kind": "article_receipt",
     "owner": "Disha",
     "status": "receipt_integration",
-    "article_id": "POD-EDIT-121",
-    "handoff": "records/pattachitra-editorial-2026-11-08.json",
-    "scope_released": false,
-    "note": "Published article completed; Disha retains finite receipt integration via current_task and article record until actual reviewed receipt merge."
+    "article_id": "POD-EDIT-133",
+    "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+    "scope_released": false
   },
   "parallel_programmes": [
     {
@@ -80,7 +85,7 @@
       "queue_note": "358readings/301illustrations/57text-only additions published/live verified; receipt696merged and remoteverified. Finite release complete. Preserve B64prefetch cursor750 and all historical deferred leads; no repeat acceptance or credit."
     },
     {
-      "name": "Dhaga historical pages 10–12 research",
+      "name": "Dhaga historical pages 10\u201312 research",
       "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
       "status": "integration_review",
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
@@ -105,13 +110,22 @@
     },
     {
       "name": "Cinema research and story expansion",
-      "handoff": "records/cinema-school-publication-2026-11-08.json",
+      "handoff": "records/cinema-viewing-refresh-2026-11-10.json",
       "status": "published_verified",
-      "scope": "One reviewed school-screening example and both book editions",
-      "note": "Article,book landing and both same-origin PDFs published and byte-verified; preserve separate Pattachitra receipt integration.",
+      "scope": "Curated viewing-room refresh; no article prose or book changes.",
+      "note": "Two curated full-film routes published inPR769; deployment42868348328success. Exact live assets and Chrome playback/fallback verified. Scope released; zero programme credit.",
       "active_article": null,
       "scope_released": true,
-      "last_publication_handoff": "records/cinema-school-publication-2026-11-08.json"
+      "last_publication_handoff": "records/cinema-literary-publication-2026-11-10.json"
+    },
+    {
+      "name": "Cinema viewing-room additions",
+      "handoff": "records/cinema-viewing-publication-2026-11-13.json",
+      "status": "published_verified",
+      "scope_released": true,
+      "active_article": null,
+      "scope": "Published literary film additions and separate novel narration in the existing viewing room.",
+      "note": "Malajanha and Aparichita film routes and Matira Manisha narration published and live verified. Books and other ownership unchanged."
     }
   ],
   "coordination_note": "118 active through actual publication/live/receipt. Programme140 completed;141 in progress. B73 output-only complete/released;358public and7local proposals preserved.",
@@ -268,6 +282,161 @@
         "article_id": "POD-EDIT-120",
         "handoff": "records/pipili-editorial-2026-11-08.json"
       }
+    },
+    {
+      "scope": "POD-EDIT-123",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 736,
+      "receipt_merge": "f390d22c69a319ced0ed99f0f8c468ae6f982a8e",
+      "required_check_run": 42515375128,
+      "required_check_result": "SUCCESS before merge",
+      "delivery_sha256": "feeeb06e671d19dc8cfcef0c32fd7343076beb7da6be7e482252248dd5b12d50",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-123",
+        "handoff": "records/sambalpuri-bandha-editorial-2026-11-08.json",
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "POD-EDIT-124",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 738,
+      "receipt_merge": "429dd3936a02aa7f6b8ba33c080d8cdf76ffc22f",
+      "delivery_sha256": "a2224af1b5742b00d1ec4856f2b26f924311b9cbd4f470efd94a77297540d48e",
+      "credit_added_here": 0,
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-124",
+        "handoff": "records/khandua-editorial-2026-11-09.json",
+        "scope_released": false
+      }
+    },
+    {
+      "scope": "POD-EDIT-125",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 742,
+      "receipt_merge": "a1ef1623f4d85e12ec2b75cb43275acd43dcdb8d",
+      "delivery_sha256": "5ee6208d78de717a5db3e299cb8d4205c3f02db476cf31ecd39f9bb4953e0713",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-125",
+        "handoff": "records/kotpad-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-127",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 748,
+      "receipt_merge": "0313260e8ebb9231f7c707ce7b7497a539650cc4",
+      "delivery_sha256": "96ec6af2155245de610e4003664a3395fbb99e4177bf51baaab6b58d38890402",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-127",
+        "handoff": "records/global-connections-editorial-2026-11-09.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-128",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 752,
+      "receipt_merge": "d039a2373cc7a7ed6b8c12c81488a06c0c9f5279",
+      "delivery_sha256": "3aeceb3d9140d3da6f67dfd5321dbd1eb281f84aef8df30bed3c7ece94cc4c94",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-128",
+        "handoff": "records/chilika-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-129",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 754,
+      "receipt_merge": "ee546e04394c8440d5e35c9a6aabf58cf89f43b6",
+      "delivery_sha256": "d3a32c1116e6a683d908af98605ffbf4d9a9853b63a7e5a55aaae580a9a21093",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-129",
+        "handoff": "records/cuttack-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-130",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 759,
+      "receipt_merge": "1629ea8d72c225b8ae45ca76ce566169fc51aa48",
+      "delivery_sha256": "c5569e17a57debceeb80612f412a27349c9cc2689a2e1197abc905d0c11c21a5",
+      "remote_verification_sha256": "95b8dd3e5c4627a2417a51d3df307454eb75e6caab26fbc397e93588bf5ce95d",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-130",
+        "handoff": "records/balasore-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-131",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 764,
+      "receipt_merge": "1aca911b33bd02f635f81e9e853543ac1a4f0368",
+      "delivery_sha256": "27c5d541863aa7e238ba897d53aa9ad00686ecb81924645f587affea0a793a14",
+      "remote_verification_sha256": "b0712e6714234c705ee6de079cc4d5de9018549520a7bbdceacc3e72f9b7a2f5",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-131",
+        "handoff": "records/mayurbhanj-journey-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-132",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 768,
+      "receipt_merge": "0767405bb4b982b28af5eb76f57d2f967f2e55f5",
+      "delivery_sha256": "0dfccdd45fbaf968d084510e73475f67546415a0da8fd634029080fc627da12a",
+      "remote_verification_sha256": "51024c745a312318b10d2ab35bd9aec843362d744812b793f2dcc51f3ac4cc41",
+      "original_current_task": {
+        "kind": "article_receipt",
+        "owner": "Disha",
+        "status": "receipt_integration",
+        "article_id": "POD-EDIT-132",
+        "handoff": "records/jobra-maritime-editorial-2026-11-10.json",
+        "scope_released": false
+      },
+      "original_current_article": null,
+      "credit_added_here": 0
     }
   ],
   "prior_coordinator_claims": [
@@ -298,6 +467,18 @@
         "handoff": "records/pipili-editorial-2026-11-08.json"
       },
       "reason": "Preserve remote completed Pipili receipt pointer while DAMaN is the sole in-progress editorial article; no change to its publication handoff."
+    },
+    {
+      "preserved_on": "2026-11-16",
+      "original_current_article": {
+        "id": "POD-EDIT-BIBHABA-VISIT-20261115",
+        "route": "/stories/odia-bibhaba-visit/",
+        "owner": "Disha",
+        "phase": "published_verified_receipt_pending",
+        "handoff": "records/odia-bibhaba-visit-20261115.json",
+        "scope": "Personal post published and live verified with reciprocal links. Local receipt saved; remote evidence-only integration pending. Foreign current_task preserved."
+      },
+      "reason": "Prior personal post publication and live checks preserved from its committed receipt; receipt carried into this publication branch. New Founder-requested article reserved separately."
     }
   ],
   "cinema_scope_history": [

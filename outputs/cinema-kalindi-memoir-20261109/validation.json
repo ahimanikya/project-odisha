@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-09",
+  "status": "PASS",
+  "checks": [
+    {
+      "command": "python3 tools/check_bundle.py",
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1891,\n  \"local_links\": 8532,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n"
+    },
+    {
+      "command": "python3 tools/research/validate_research_map.py",
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"records\": 1822,\n  \"tasks\": 71,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n"
+    },
+    {
+      "command": "python3 tools/registers.py --check",
+      "exit_code": 0,
+      "output": "POD: valid; 1236 records, 717 events; dashboard current\n"
+    },
+    {
+      "command": "python3 tools/check_team_assignments.py",
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n"
+    },
+    {
+      "command": "python3 tools/check_autonomous_program.py",
+      "exit_code": 0,
+      "output": "PASS: autonomous program count and linked delivery records\n"
+    }
+  ],
+  "baseline": "outputs/cinema-kalindi-memoir-20261109/baseline-check.json",
+  "independent_review": "outputs/cinema-kalindi-memoir-20261109/review.json",
+  "public_rebuild_required": false,
+  "reason": "Research and evidence records only; all134 protected baseline paths unchanged.",
+  "publication_performed": false
+}

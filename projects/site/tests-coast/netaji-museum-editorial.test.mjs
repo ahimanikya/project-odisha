@@ -61,7 +61,7 @@ test('Netaji keeps further reading collapsed, update guidance visible and adjace
  assert.match(html,/data-save-journey="experience:cuttack-netaji"/);
  assert.match(html,/name="robots" content="noindex, nofollow"/);
  const other=page('/visit/experiences/jobra-maritime-museum/');
- assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);
+ assert.match(other,/class="article-byline"/);assert.match(other,/id="jobra-sources"/);assert.doesNotMatch(other,/id="story-sources"|class="kala-supplement"|id="kala-ref-1"/);
  assert.doesNotMatch(other,/Drafted with AI assistance/);
  for(const href of ['/visit/places/barabati/','/visit/experiences/cuttack-filigree/'])assert.match(page(href),/By Ahimanikya Satapathy/);
 });

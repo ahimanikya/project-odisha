@@ -1,0 +1,63 @@
+{
+  "status": "implemented_article_preview_verified",
+  "scope_released": true,
+  "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+  "before_sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+  "after_sha256": "92ce63574f57fd217e289aab64433516a185c5b779623fdcebeb916e4d8c1766",
+  "exact_diff": "outputs/cinema-yogini-profile-20261110/samanta/article.diff",
+  "before_copy": "outputs/cinema-yogini-profile-20261110/samanta/article-before.md",
+  "reverse_preservation": true,
+  "changes": [
+    "One generic sentence replaced by exact credited Yogini collaboration.",
+    "One compact numbered teaser note and matching sourceID added.",
+    "research_date2026-11-10.",
+    "Changed Akshaya transition to other exchanges between singers and lyricists, avoiding implied Yogini coverage."
+  ],
+  "word_counts": {
+    "removed_sentence": 22,
+    "new_sentence": 22
+  },
+  "title_limit": "Verified Roman title only; no unverified Odia transcription introduced.",
+  "checks": {
+    "existing_semantics_test": "exit0; see semantics-test.log",
+    "preview": "outputs/cinema-yogini-profile-20261110/samanta/article-preview.html",
+    "preview_sha256": "dd61a801569a3bd167c427ac7583866f3b175a0a844c87f4be7cc1b66cfe673a",
+    "figure_count": 1,
+    "unique_ids": 77,
+    "all_internal_note_targets_exist": true,
+    "numeric_note_markers": true,
+    "music_anchor_and_akshaya_links": true,
+    "article_production_label_check": "PASS"
+  },
+  "commands": [
+    "From repo root: existing cinemaArticle(entry) renderer, output fullHTML only into own article-preview.html.",
+    "From projects/site: bundled node --test tests/cinema-reading-semantics.test.mjs",
+    "Existing productionLabels function checked generated article fragment."
+  ],
+  "first_attempt_limit": "Initial test log redirection used an incorrect relative output path and failed before running; corrected path rerun passed.",
+  "not_performed": [
+    "Full site build, because shared generated outputs are outside this task scope.",
+    "Browser visual review; preview verified as generated HTML structure/content.",
+    "Book build, Nilamani insertion, publication, Git mutation, manifest/data binding edits."
+  ],
+  "evidence": "outputs/cinema-biyott-tripathy-20261110/root/chrome-professional-notes.json",
+  "root_pipeline": {
+    "minimal_steps": [
+      "Update target manifest source_sha256 and research_date; reconcile book_overrides.literature-and-screen.source_sha256 before any later book build.",
+      "From repo root: NODE tools/cinema-literature-care-sync.mjs --slug literature-and-screen --apply",
+      "Optional staging check from repo root: NODE projects/site/tools/prepare-cinema.mjs",
+      "From projects/site with bundled Node PATH: npm run build",
+      "From projects/site: NODE tools/check-public-disclosures.mjs dist"
+    ],
+    "why_no_legacy_preview_regeneration_needed": "prepare-cinema.mjs lines13\u201317 use already-current cinema.json entry after verifying derivative hashes, returning current entry merged with manifest. The outputs/odia-cinema-series report is required only for stale entries in fallback lines18\u201327. Selected-slug sync makes the reviewed entry current without regenerating images.",
+    "actual_rendering": "cinemaArticle reads canonical Markdown; Astro build creates dist/cinema/literature-and-screen/index.html. Own HTML fragment alone does not rebuild dist.",
+    "writes_owned_by_root": [
+      "manifest target entry",
+      "cinema.json target entry",
+      "outputs/cinema-literature-care-20261030/fragments/literature-and-screen.html and report",
+      "book narrative target override source binding if needed",
+      "site dist outputs"
+    ],
+    "warning": "Do not run prepare-cinema first against stale target hash, or it will demand the legacy preview report. Do not regenerate reviewed images for this prose change."
+  }
+}

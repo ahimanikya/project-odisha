@@ -1,0 +1,69 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-123",
+  "work_id": "POD-WORK-335",
+  "program_item": "POD-A500-144",
+  "authorization": "POD-DEC-225",
+  "reviewed_head": "6950d5dc019caf79a787819a0e2d6b79e6d00472",
+  "merge_commit": "59e201228a0442e42020a27dd56d5d1cf2992522",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/732",
+  "deployment": {
+    "head": "59e201228a0442e42020a27dd56d5d1cf2992522",
+    "databaseId": 42513130709,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42513130709",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42511567194",
+    "success_before_merge": true
+  },
+  "verified_at": "2026-11-08T19:21:44.043512+00:00",
+  "prepared_at": "2026-11-08T19:27:45.483284+00:00",
+  "live": {
+    "checked_at": "2026-11-08T19:21:44.043512+00:00",
+    "status": "PASS",
+    "verified_routes": [
+      "/textiles/sambalpuri-bandha/",
+      "/textiles/"
+    ],
+    "images": true,
+    "producer_sha256": "fd9e66ffef222ba830e5af2b1793aef727baac7903174a9c070f16badf75905e",
+    "separate_review_sha256": "d3072d3197d50a768e9658db4c4e2901b6bd9d494d8766022588e875fea16cbf",
+    "evidence_manifest": "records/evidence/sambalpuri-bandha-editorial-2026-11-08/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "f513160948ce41e9e4cd7a3dd2b6eae7e84b4f3b8560620517c774670d7b17bc"
+  },
+  "review": "records/sambalpuri-bandha-delivery-review-2026-11-08.json",
+  "programme_credit": 1,
+  "programme_completed": 144,
+  "source_budgets": {
+    "nid_dsource": 177
+  },
+  "limits": [
+    "Separate AI review, not human certification.",
+    "177 source words for current delivery; historical source records retained.",
+    "Targeted article/parent/photo/archive review does not certify unrelated pages.",
+    "358 public Dhaga readings and eleven local proposals unchanged; no Dhaga credit.",
+    "Receipt merge/remote verification pending; receipt-only metadata needs no second site deployment.",
+    "Actual headless Chrome at1440/390; no human review claim.",
+    "No local build, source content change or deployment dispatched.",
+    "Raw HTTP snapshots are not DOM serialization. No old wholecatalogue/shell byte equality claim.",
+    "Native source note stays out of portable fulltext; reviewed shortcitation and both exact photo bytes verified in four UI downloads.",
+    "Publication/archive acceptance and receipt completion require separate review/root integration.",
+    "Producer actual completion timestamp is separate from review time.",
+    "No whole-site or whole-archive safety certification; comparison covers four regular targets.",
+    "Raw public HTTP compared to actual successful artifact; no equality claimed to old local shell or DOM serialization.",
+    "Full archive and copyrighted originals remain local-only; no repeat browser/build/source fetch.",
+    "Live PASS does not itself approve materialized receipt, completion credit or receipt merge."
+  ],
+  "receipt_integration": {
+    "status": "pending_actual_receipt_merge",
+    "remote_verified": false
+  },
+  "verified_routes": [
+    "/textiles/sambalpuri-bandha/",
+    "/textiles/"
+  ]
+}

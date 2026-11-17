@@ -1,0 +1,92 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-128",
+  "work_id": "POD-WORK-340",
+  "program_item": "POD-A500-149",
+  "authorization": "POD-DEC-225",
+  "reviewed_head": "30c09e81ca0220ece6e76169b0d472e5a8037e9e",
+  "merge_commit": "f4d7f9a8fa5694e4083a76f49877af7c3084d596",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/750",
+  "deployment": {
+    "head": "f4d7f9a8fa5694e4083a76f49877af7c3084d596",
+    "databaseId": 42715855017,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42715855017",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42713408137",
+    "success_before_merge": true
+  },
+  "verified_at": "2026-11-09T23:15:53.398Z",
+  "prepared_at": "2026-11-09T23:24:17.308926+00:00",
+  "live": {
+    "checked_at": "2026-11-09T23:15:53.398Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/journey-starters/chilika/"
+    ],
+    "images": true,
+    "producer_sha256": "d40057b119e5d6e9f210424fcfb6f7ff92a07e05aa4024247c774e02b763eb30",
+    "separate_review_sha256": "bdf23ba25bdd35bcb9d152ca6325e2edad13a30f98103d2b25cf71b2ea90d722",
+    "evidence_manifest": "records/evidence/chilika-journey-editorial-2026-11-10/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "7f1b47807160f728acab6f026c8564838e2d1fec3b0e611cb9777a3a41992902"
+  },
+  "verified_routes": [
+    "/journey-starters/chilika/"
+  ],
+  "images": true,
+  "review": "records/chilika-journey-delivery-review-2026-11-10.json",
+  "programme_credit": 1,
+  "programme_completed": 149,
+  "source_budgets": {
+    "patra2024": 152
+  },
+  "limits": [
+    "Separate AI review, not human certification.",
+    "Actual reviewed Patra total at most154; historical231 hold remains explicit with no new legacy-source elaboration or reset. Existing journey downloads preserved; new exposition native-only.",
+    "Targeted native article/four-photo/archive review does not certify unrelated pages.",
+    "358 public Dhaga readings and eleven local proposals unchanged; no Dhaga credit.",
+    "Receipt merge/remote verification pending; receipt-only metadata needs no second site deployment.",
+    "AI automated Chrome checks; independent saved-pixel review required.",
+    "Four download formats per viewport for the island starter; three starters individually saved/reloaded, not merged into a circuit.",
+    "Separate successful archive parity and all-copy audit required. No legacy allowance reset or current service confirmation.",
+    "Independent AI saved-pixel/evidence review, not human review.",
+    "Full-body screenshots establish header and complete page; opening images are scrolled mid-article.",
+    "Four formats downloaded for island starter at each width; all three starters separately saved/reloaded, not combined into a circuit.",
+    "Exposition is expressly online-only; complete existing companions remain unchanged.",
+    "Historical Mangalajodi231 retained-use hold remains unresolved; no new use or allowance reset.",
+    "Original local selector/invalid-day fixture failures retained.",
+    "Owner751 merged before its later successful CI; separate exception is bound, not rewritten as CI-before-merge.",
+    "No duplicate live browser, source retrieval, deployment or archive download performed.",
+    "Actual publication artifact is byte authority; no equality to older local HTML shell asserted.",
+    "Concurrent owner751 merged before its CI completed; this historical exception is preserved, not represented as CI-before-merge. Our Chilika article and receipt each require actual successful CI before merge."
+  ],
+  "receipt_integration": {
+    "status": "pending_actual_receipt_merge",
+    "remote_verified": false
+  },
+  "owner751_exception": {
+    "owner_pr": 751,
+    "owner_merge": "2250eaa2c19881ee299334093036589df4f6be93",
+    "owner_ci": 42710684775,
+    "merged_at": "2026-11-09T22:18:29Z",
+    "ci_completed_at": "2026-11-09T22:34:52+00:00",
+    "ci_before_merge": false,
+    "final_ci": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/chilika-journey-editorial-2026-11-10/release/github/owner751-ci-final.json",
+      "sha256": "a181c7ccfeb7642b9719f249f20d8394389502218a091666a4c49f96e33c3399"
+    },
+    "separate_review": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/chilika-journey-editorial-2026-11-10/release/owner751-final-exception-review.json",
+      "sha256": "be32c471734797f7b92fa39450c48ae3f5ab66af7562d40383133df0550efd79"
+    },
+    "historical_pending_ci": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/chilika-journey-editorial-2026-11-10/release/github/owner751-ci.json",
+      "sha256": "3980a5c80736d1b76d59be5e264de4737191827086acfb9ac18ea275c957d5db"
+    },
+    "limitation": "Concurrent owner751 merged before its CI completed; this historical exception is preserved, not represented as CI-before-merge. Our Chilika article and receipt each require actual successful CI before merge."
+  }
+}

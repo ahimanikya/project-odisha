@@ -1,0 +1,58 @@
+{
+  "status": "completed_with_final_proposal",
+  "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+  "sha256": "b4afc61e93d469400477d5f9b020dbb0995bb73d8e13b814b4e63af4a0ac6f53",
+  "whole_article_read": true,
+  "recommendation": {
+    "primary_location": "Immediately after the Chhotray/Amada Bata paragraph at line62, before Maa credits at line64, within Writing between the stage, radio and cinema.",
+    "condition": "Use only if original evidence supplies a distinct concrete story-to-stage craft encounter or the writer’s own adaptation experience.",
+    "why": "Keeps the actual dramatic directions beside a writer’s adaptation choices, without presenting either as an observed film scene.",
+    "alternative": "If the evidence concerns narrative craft rather than a specific stage encounter, replace the generic adaptation paragraph at line34 with a compact attributed example instead of adding another overview paragraph. Decide only after evidence review.",
+    "no_forced_addition": true
+  },
+  "existing_examples": [
+    {
+      "lines": "26–34",
+      "purpose": "Oral performance and separate story/screenplay credits; generic adaptation theory already here."
+    },
+    {
+      "lines": "38–58",
+      "purpose": "Specific literary encounters: Fakir Mohan, Malajanha and Rebati; preserve scenes and personal questions."
+    },
+    {
+      "lines": "62–70",
+      "purpose": "Amada stage sound directions, Maa dialogue credits, Bijay learning screenwriting, Pranabandhu cross-language theatre and songs."
+    },
+    {
+      "line": 76,
+      "purpose": "Bhukha is already the play-to-film example; do not conflate a new stage anecdote with film adaptation."
+    },
+    {
+      "lines": "90–100",
+      "purpose": "Stage pay, periodical pay, unknown film terms, support organisations; no new financial inference without evidence."
+    }
+  ],
+  "candidate_prose": null,
+  "candidate_waits_for": null,
+  "later_commands": {
+    "sync": "NODE tools/cinema-literature-care-sync.mjs --slug literature-and-screen --apply",
+    "sync_warning": "Actual script is repository-root tools/, not projects/site/tools/. Even dry-run writes fragment/report files, so do not execute in read-only scope. Root must also bind manifest and book_overrides.literature-and-screen.source_sha256.",
+    "focused_tests_from_site": "NODE --test tests/cinema-*.test.mjs",
+    "site_build_from_site": "PATH=<bundled-node-directory>:$PATH npm run build",
+    "disclosure_from_site": "NODE tools/check-public-disclosures.mjs dist",
+    "book": "No chapter-only CLI exists in established output/pdf/build_book.py. If reserved later, use fresh dated digital + print layout/map-bound proof; marker exactly once before authoring. Do not extract prior released chapter as a current proof.",
+    "NODE": "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+  },
+  "protected_scripts": {
+    "tools/cinema-book/build_tagged_reading.mjs": "cbb0b43a1d0283555d2d0b05a1b3535c1ed5c078aff29833d5faccbc091b5bcf",
+    "tools/cinema-book/test_tagged_reading.mjs": "2702acaf66c351a4a350e264209ef4de15fcebd8ba1e46a19a6d6767fa70d8c3"
+  },
+  "preservation": {
+    "public_edits": false,
+    "builds": false,
+    "git_mutations": false,
+    "source_factual_analysis": false
+  },
+  "scope_status": "Released; proposal only, not implemented.",
+  "candidate_prose_file": "outputs/cinema-nilamani-adaptation-20261110/samanta/final-proposal.json"
+}

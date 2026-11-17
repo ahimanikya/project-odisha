@@ -1,0 +1,37 @@
+{
+  "status": "PASS_DELIVERY",
+  "scope_released": true,
+  "input_hashes": {
+    "outputs/cinema-bideha-publication-20261110/root/deployment.json": "8fe81f844776bf153e6d38eff073ac0c540a7b5d572e2cf1f8fef6f1baa06aea",
+    "outputs/cinema-bideha-publication-20261110/root/hosted-review.json": "b2e4b0b8d349edec9620ef0aef01d282a0dc5d7f1acf284df92905d3f95c8544",
+    "outputs/cinema-bideha-publication-20261110/root/merged-pr.json": "9efac3d2a77b2db37085d6e3b8507792f1b0d411e474ecd02efe0ec4f53b5da9",
+    "outputs/cinema-bideha-publication-20261110/root/live-verification.json": "3264c3f6e3aba491b74bab9d1f77c07080cfb5719175af5f48c623646fa880c5",
+    "outputs/cinema-bideha-publication-20261110/root/record-publication.py": "eadc5de5d73ef982df77e2ebe346fea488053fc5918dd31e1975a04b55d216df",
+    "outputs/cinema-bideha-publication-20261110/book-release-manifest.json": "618a34c27e32a6d7105a56460010e0e311dae00e1379bdac5b45a3694b05f574",
+    "kb/records/cinema-bideha-publication-2026-11-10.json": "63ebdbd8439f63d69349e87f1b20ea4f00e8d499e5e4e894d8ecccb786d422da"
+  },
+  "reviewed_head": "937ec0af3e30c322e8e0e835763b076272688246",
+  "merge_sha": "176e0a0858e2c790284a6cb0d28d3d495c80a6e2",
+  "hosted_validation": "https://github.com/ahimanikya/project-odisha/actions/runs/42773528589",
+  "deployment": "https://github.com/ahimanikya/project-odisha/actions/runs/42775587163",
+  "live_verified_at": "2026-11-10T07:43:48.661462+00:00",
+  "independent_checks": [
+    "Read successful actual hosted/deployment/merge receipts; exact reviewed and merged heads reconcile.",
+    "Rehashed all5saved live response files:3HTML and2PDF; exact bytes/hash/status match live receipt and reviewed manifest. No repeat download.",
+    "Inspected pending shared-record diff: only own Cinema programme row, two rollout latest-revision pointers, own receipt/source pointer, newest index narrative and ledger append. Historical and foreign operations fields equal HEAD.",
+    "Canonical two source files byte-identical to HEAD; no new public source/PDF change by receipt task.",
+    "Revised index selector targets explicit prior/current publication receipt; historical Cinema index block remains unchanged."
+  ],
+  "prior_reviews": [
+    "review/artifact-review.json",
+    "review/local-article-review.json",
+    "review/release-review.json",
+    "review/receipt-script-review.json"
+  ],
+  "required_corrections": [],
+  "limits": [
+    "Root reports actual live browser inspection; header-only live screenshot not used as proof of download-link visibility. Reviewer relied on exact live HTML/PDF captures plus prior independent local responsive review.",
+    "Unrelated dirty tagged-reader experiments/generated fragments excluded from receipt scope, not approved for commit.",
+    "Original story pages, first publication and payment remain unestablished; no human review or programme credit claimed."
+  ]
+}

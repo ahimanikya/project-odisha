@@ -44,5 +44,5 @@ test('Cuttack page has one heading and starter, resolved photos, reciprocal guid
  assert.ok(page.includes('href="/visit/stays/cuttack/"'));
  for(const kind of ['maker','access','food'])assert.ok(page.includes('local='+kind+'&amp;page=%2Fjourney-starters%2Fcuttack%2F'));
  assert.ok(readFileSync('dist/contribute/index.html','utf8').includes('value="/journey-starters/cuttack/"'));
- assert.ok(page.includes('No fixed transfer times'));assert.match(page,/<summary[^>]*>Photographs &(?:amp;)? source notes<\/summary>/);
+ assert.ok(page.includes('No fixed transfer times'));assert.match(page,/<section\b[^>]*class="trail-credits"[^>]*aria-labelledby="trail-credits-title"/);assert.match(page,/<h2\b[^>]*id="trail-credits-title"[^>]*>Photographs &(?:amp;)? source notes<\/h2>/);assert.doesNotMatch(page,/<details\b[^>]*class="trail-credits"/);
 });

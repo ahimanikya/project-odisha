@@ -1,0 +1,399 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-126",
+  "work_id": "POD-WORK-338",
+  "program_item": "POD-A500-147",
+  "authorization": "POD-DEC-225",
+  "reviewed_head": "ac3f2ca6bb376c462bdc727116d4c0660205d334",
+  "merge_commit": "c5ec56d1826edd58beed1d780a2854b4a6971808",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/743",
+  "deployment": {
+    "head": "c5ec56d1826edd58beed1d780a2854b4a6971808",
+    "databaseId": 42652159492,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42652159492",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42649242653",
+    "success_before_merge": true
+  },
+  "verified_at": "2026-11-09T16:32:29.949Z",
+  "prepared_at": "2026-11-09T17:12:34.552377+00:00",
+  "live": {
+    "checked_at": "2026-11-09T16:32:29.949Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/textiles/tasar/",
+      "/textiles/"
+    ],
+    "images": true,
+    "producer_sha256": "4b6896bf7ca364d05c567ae9969ba2bd6d2cc49fd10b9405e81c430c22dfd8ab",
+    "separate_review_sha256": "58e32d5766f424b52e95b6784707c1999c4e5c9b4b7d5aabd281df535d24af1b",
+    "evidence_manifest": "records/evidence/tasar-editorial-2026-11-09/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "1a6e7b744f10057bcc577493d4df273e015c08c6837cfcf13e8c709db755773c"
+  },
+  "verified_routes": [
+    "/textiles/tasar/",
+    "/textiles/"
+  ],
+  "images": true,
+  "review": "records/tasar-delivery-review-2026-11-09.json",
+  "programme_credit": 1,
+  "programme_completed": 147,
+  "source_budgets": {
+    "malali-study": 188
+  },
+  "limits": [
+    "Separate AI review, not human certification.",
+    "188 source words across four intended body copies, native note, canonical bibliography and four citation labels; historical source records retained.",
+    "Targeted article/parent/photo/archive review does not certify unrelated pages.",
+    "358 public Dhaga readings and eleven local proposals unchanged; no Dhaga credit.",
+    "Receipt merge/remote verification pending; receipt-only metadata needs no second site deployment.",
+    "Actual Chrome only; independent screenshot/live review still required.",
+    "Six screenshots/four downloads/five raw HTTP targets; artifact parity requires separate comparator.",
+    "No receipt, credit or human review claim.",
+    "AI review of saved actual Chrome1440/390 evidence, not human review or a new browser run.",
+    "Initial lazy-image capture limitation retained; correction verifies subsequent decoding/visibility without reconstructing earlier network timing.",
+    "Base photo bytes match archive/raw HTTP; responsive variant byte equality is not separately claimed.",
+    "Source-copy audit uses reviewed literal terms and current delivery surfaces; no legal clearance or allowance reset.",
+    "No review of Cinema744 or fresh-main0016872c, no receipt completion or credit operation. Fresh receipt-base preservation remains separate.",
+    "No repeat source research, build, deployment or full archive download performed by reviewer.",
+    "Owner745 merged before its required CI completed; subsequent actual CI success is separately bound, not premerge approval. Preserve Cinema owner records. Our future Tasar receipt still requires successful CI before merge."
+  ],
+  "receipt_integration": {
+    "status": "pending_actual_receipt_merge",
+    "remote_verified": false
+  },
+  "fresh_base_reconciliation": {
+    "base": "c6ef887dcf4a7ac7f153b8fdca6e4a9f200a4c8a",
+    "deployed": "c5ec56d1826edd58beed1d780a2854b4a6971808",
+    "prior744": {
+      "base": "0016872cdd794904a907034e159e960f7e619fd1",
+      "deployed": "c5ec56d1826edd58beed1d780a2854b4a6971808",
+      "owner_pr": 744,
+      "owner_ci": 42653399937,
+      "owner_paths": [
+        {
+          "path": "kb/history/LEDGER.md",
+          "sha256": "20ed9836e2c8126610a3eab4264f4f9cc208d9688ac754762bcb49baeb953789"
+        },
+        {
+          "path": "kb/index.md",
+          "sha256": "79227e59ee8a5d394f41378bca77299212186d58b430beb523f7c19c7d5b06c0"
+        },
+        {
+          "path": "kb/records/article-editorial-rollout.json",
+          "sha256": "d049c94b8b34beddf532f9192fefd3d6e97440bbdbc9b5169c3533a8f6a513dd"
+        },
+        {
+          "path": "kb/records/cinema-student-films-publication-2026-11-09.json",
+          "sha256": "6ba2befbd02519e22548c4f890f4e56d6e1bf662f1dff17d16f0abc5c011f59e"
+        },
+        {
+          "path": "kb/records/cinema-support-originals-2026-11-09.json",
+          "sha256": "1f9ec983a365cf49c3863cb757157966ff9e3526fc41607b726b9117766df8c3"
+        },
+        {
+          "path": "kb/records/editorial-workbench.json",
+          "sha256": "2b0d4e0b69ef03001b169e676720f492d4ef660990268faa499236aea8f037a6"
+        },
+        {
+          "path": "kb/research/culture/cinema-series/cinema-futures.md",
+          "sha256": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950"
+        },
+        {
+          "path": "kb/research/culture/cinema-series/manifest.json",
+          "sha256": "cb74e999373e83ba3216d2e043615c250dec97b9a58de441da1748af8f3fe953"
+        },
+        {
+          "path": "kb/research/culture/cinema-series/support-originals-2026-11-09.json",
+          "sha256": "10697291960391cae4670052ff9252ee17e5245794735fc2fe2f836311020d64"
+        },
+        {
+          "path": "kb/research/methods/research-map.md",
+          "sha256": "47ec1aa18ff7875198f6f8b1597b7f15244088e6882cfb0d49de3c92b68a7bde"
+        },
+        {
+          "path": "kb/research/search-index.json",
+          "sha256": "620ea33f80ca70eecfb4cf0a07cef3dac43d832dd4bd780b5235bb5e0d25a572"
+        },
+        {
+          "path": "kb/team/operations.json",
+          "sha256": "934fd5b90a9dc870aa64ad7d95f16b91e6d83dde03a840b8202e820b6315a401"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/book-release-manifest.json",
+          "sha256": "e84df0f890a821b4ada9d8bf8f920e6cd924a08be08382e7779010cf1fcec9e8"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/implementation/digital-book-build.json",
+          "sha256": "31ca591675498f6ef0ccdbdd020c7e7914382359c122c44bbf8d4d749da9dea4"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/implementation/implementation.json",
+          "sha256": "94047e56ed4aeb49c9a58d23298979b7e9e52ab74f8ce42af89389e90e094357"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/implementation/print-book-build.json",
+          "sha256": "2835e73a810a9442224105575ad6944a0e931e24fef36f2d761af276d0d25b75"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/review/article-review.json",
+          "sha256": "05ebda1fd91c54d52ddd67a726f537e06f6ac0ad20ad72a1740e0a14b2a97fcb"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/review/artifact-review.json",
+          "sha256": "c4176c84da5fb2e2e20459d627498e49f1fdf4007d23fc527cca11b26211e2aa"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/review/website-render-review.json",
+          "sha256": "e20cf6eef9bb9ca060d1e1a398b8b72116c3f24d7960c561bd4acd8646496e80"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/root/local-browser-check.json",
+          "sha256": "a016f45a07414b511d511d19d453dbaab2507bbcce10f902caabb22f516f4eaf"
+        },
+        {
+          "path": "outputs/cinema-student-films-publication-20261109/source-review.json",
+          "sha256": "93e428ac2eb800d0eb968cded00cea1f616e12e569c603a29ba067522595dd57"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/acquisition/acquisition.json",
+          "sha256": "2b7c45b0d90f4cfe2c751860abe40b6c0726a986902c6d39d8f595fb1b09905e"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/baseline.json",
+          "sha256": "948209228864d309101def6bf6cb3c0f0fb19d03e3cacf122b1bf1172bea6092"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/research/new-leads.json",
+          "sha256": "c57058eab1868b0b9faac656deddea04d783daabf2ce0c3ea41fb0d4b8c40802"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/research/research.json",
+          "sha256": "ad2d8fdd79a440470d211ed87c9bda2ea567a6288cc9ff92e3147c9c80199365"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/review/review.json",
+          "sha256": "1614cc136427bdfded1761ec4f93d5d698c10c6d56860c5a7dd7a801255c13ad"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/review/source-review.json",
+          "sha256": "c0ac9019c1a045240ac993c17ef387c4404dcf0fe554ad196a867bb827d41eea"
+        },
+        {
+          "path": "outputs/cinema-support-originals-20261109/validation.json",
+          "sha256": "225d72b9d15b798ab60e2bde439d97df75402a5ea5f6eaba5717641fccc5502c"
+        },
+        {
+          "path": "projects/site/editions/coast.json",
+          "sha256": "3d7a5db39fdbd5b546d3e7ed0ef3f785d0a5f4e233af44a67edf3a9ac450ad7f"
+        },
+        {
+          "path": "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-student-films.pdf",
+          "sha256": "bb421e0942e6f3b9822e1c211aefa9885121457a9df201169dff5f94fd3f15c1"
+        },
+        {
+          "path": "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-student-films.pdf",
+          "sha256": "74a4b82419b82d9ab93b7d20ea7df9a3d9fef2030dcb6e05130730a285d797d2"
+        },
+        {
+          "path": "projects/site/src/data/cinema.json",
+          "sha256": "df6b412aa657883077986469d69cb51e35f21d45cd04bf89903b8dd4096b4757"
+        },
+        {
+          "path": "projects/site/tests/book-downloads.test.mjs",
+          "sha256": "fe94e5ca266e6553805608380747f98467a281fa2600e4520fb29b143ecaa0dd"
+        }
+      ],
+      "limitation": "Cinema744 remains active; successful CI preceded merge. Only Tasar receipt rows and required generated metadata may change; no Cinema release claim."
+    },
+    "owner_pr": 745,
+    "owner_ci": 42659396511,
+    "owner_ci_completed_at": "2026-11-09T17:08:22+00:00",
+    "owner_merged_at": "2026-11-09T16:55:07Z",
+    "ci_before_merge": false,
+    "owner_paths": [
+      {
+        "path": "kb/history/LEDGER.md",
+        "sha256": "ac293b7905e87d691192c8219cd6fd42282ea7be900343aeb6a287f24227bc25"
+      },
+      {
+        "path": "kb/index.md",
+        "sha256": "e801cb6d7129fff5f1fdc3ede32d00df5be2f703139600031bec2f05661dd6c3"
+      },
+      {
+        "path": "kb/records/article-editorial-rollout.json",
+        "sha256": "74a39e54d30ec825d13c3795bc6937bc35fe2556f81d15bc7bd1131a036a2253"
+      },
+      {
+        "path": "kb/records/cinema-student-films-publication-2026-11-09.json",
+        "sha256": "0aa4a613ed002622534f11767561a0e23b91e2a8814cd6db5fda2de02e17c1df"
+      },
+      {
+        "path": "kb/records/cinema-support-originals-2026-11-09.json",
+        "sha256": "1f9ec983a365cf49c3863cb757157966ff9e3526fc41607b726b9117766df8c3"
+      },
+      {
+        "path": "kb/records/editorial-workbench.json",
+        "sha256": "2b0d4e0b69ef03001b169e676720f492d4ef660990268faa499236aea8f037a6"
+      },
+      {
+        "path": "kb/research/culture/cinema-series/cinema-futures.md",
+        "sha256": "778ddae010e2aae461ff023bdd7e2c9d2f3416de49807bb6c688ffed8780a950"
+      },
+      {
+        "path": "kb/research/culture/cinema-series/manifest.json",
+        "sha256": "cb74e999373e83ba3216d2e043615c250dec97b9a58de441da1748af8f3fe953"
+      },
+      {
+        "path": "kb/research/culture/cinema-series/support-originals-2026-11-09.json",
+        "sha256": "10697291960391cae4670052ff9252ee17e5245794735fc2fe2f836311020d64"
+      },
+      {
+        "path": "kb/research/methods/research-map.md",
+        "sha256": "47ec1aa18ff7875198f6f8b1597b7f15244088e6882cfb0d49de3c92b68a7bde"
+      },
+      {
+        "path": "kb/research/search-index.json",
+        "sha256": "620ea33f80ca70eecfb4cf0a07cef3dac43d832dd4bd780b5235bb5e0d25a572"
+      },
+      {
+        "path": "kb/team/operations.json",
+        "sha256": "0b7726392fee69aec66847dac7f60f0945670c5349f7311cc00eaae934847638"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/book-release-manifest.json",
+        "sha256": "e84df0f890a821b4ada9d8bf8f920e6cd924a08be08382e7779010cf1fcec9e8"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/implementation/digital-book-build.json",
+        "sha256": "31ca591675498f6ef0ccdbdd020c7e7914382359c122c44bbf8d4d749da9dea4"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/implementation/implementation.json",
+        "sha256": "94047e56ed4aeb49c9a58d23298979b7e9e52ab74f8ce42af89389e90e094357"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/implementation/print-book-build.json",
+        "sha256": "2835e73a810a9442224105575ad6944a0e931e24fef36f2d761af276d0d25b75"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/research-boundary-check.json",
+        "sha256": "81db4ca978b6a09bfb1e84987b170f5cb7bab31f8cc06aca5c2929f25daf5f4f"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/review/article-review.json",
+        "sha256": "05ebda1fd91c54d52ddd67a726f537e06f6ac0ad20ad72a1740e0a14b2a97fcb"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/review/artifact-review.json",
+        "sha256": "c4176c84da5fb2e2e20459d627498e49f1fdf4007d23fc527cca11b26211e2aa"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/review/delivery-review.json",
+        "sha256": "48f188f6ca4c75ba2522afd7746e64710fa8512892e4e866f78df09d8f50ff64"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/review/website-render-review.json",
+        "sha256": "e20cf6eef9bb9ca060d1e1a398b8b72116c3f24d7960c561bd4acd8646496e80"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/deployment.json",
+        "sha256": "39d12d39fb8d0f72fbcf8753d20e15c191dcb77d3465055e0e9672bf97dcf99b"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/hosted-validation.json",
+        "sha256": "93a6eb88213d0917186a63bc45e4f9a1be9b5847fcf7b85c74fa75ac95f30c03"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/live-browser-review.json",
+        "sha256": "92a0db3dbb845a4fbbb68f8cb9ec8fbdfe597a576862707399e4983b1fc50b15"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/live-verification.json",
+        "sha256": "d3402b6d64b8a4cf85c3aae0a6b9ff975de5ffc6e3a177f9880c713fe8aa7657"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/local-browser-check.json",
+        "sha256": "a016f45a07414b511d511d19d453dbaab2507bbcce10f902caabb22f516f4eaf"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/local-validation.json",
+        "sha256": "1f1aeb35fbad25ca23a0492445b9df3e9155e289c2fb99edaf60b3fa0aeb2b59"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/merged-pr.json",
+        "sha256": "d3c5bc1e05dd03822c37f4f4918574bab8045d3513defb0c46b63220f7ce9dcc"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/preservation-check.json",
+        "sha256": "0eb92ff6d5dfd8c36e8558129fa650792a2721fec8da38ad4dd41f9b703b1dd3"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/release-response.json",
+        "sha256": "40ac7cb7e19e900c35a3201eff5067bba8f20957aaa082b86cba02da6618e7c5"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/root/release-verification.json",
+        "sha256": "b22f15fac25d4d6497dc3b24638cad9ec80c328d89328423a7b5b417be6af57b"
+      },
+      {
+        "path": "outputs/cinema-student-films-publication-20261109/source-review.json",
+        "sha256": "93e428ac2eb800d0eb968cded00cea1f616e12e569c603a29ba067522595dd57"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/acquisition/acquisition.json",
+        "sha256": "2b7c45b0d90f4cfe2c751860abe40b6c0726a986902c6d39d8f595fb1b09905e"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/baseline.json",
+        "sha256": "948209228864d309101def6bf6cb3c0f0fb19d03e3cacf122b1bf1172bea6092"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/research/new-leads.json",
+        "sha256": "c57058eab1868b0b9faac656deddea04d783daabf2ce0c3ea41fb0d4b8c40802"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/research/research.json",
+        "sha256": "ad2d8fdd79a440470d211ed87c9bda2ea567a6288cc9ff92e3147c9c80199365"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/review/review.json",
+        "sha256": "1614cc136427bdfded1761ec4f93d5d698c10c6d56860c5a7dd7a801255c13ad"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/review/source-review.json",
+        "sha256": "c0ac9019c1a045240ac993c17ef387c4404dcf0fe554ad196a867bb827d41eea"
+      },
+      {
+        "path": "outputs/cinema-support-originals-20261109/validation.json",
+        "sha256": "225d72b9d15b798ab60e2bde439d97df75402a5ea5f6eaba5717641fccc5502c"
+      },
+      {
+        "path": "projects/site/editions/coast.json",
+        "sha256": "3d7a5db39fdbd5b546d3e7ed0ef3f785d0a5f4e233af44a67edf3a9ac450ad7f"
+      },
+      {
+        "path": "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-09-student-films.pdf",
+        "sha256": "bb421e0942e6f3b9822e1c211aefa9885121457a9df201169dff5f94fd3f15c1"
+      },
+      {
+        "path": "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-09-student-films.pdf",
+        "sha256": "74a4b82419b82d9ab93b7d20ea7df9a3d9fef2030dcb6e05130730a285d797d2"
+      },
+      {
+        "path": "projects/site/src/data/cinema.json",
+        "sha256": "df6b412aa657883077986469d69cb51e35f21d45cd04bf89903b8dd4096b4757"
+      },
+      {
+        "path": "projects/site/tests/book-downloads.test.mjs",
+        "sha256": "fe94e5ca266e6553805608380747f98467a281fa2600e4520fb29b143ecaa0dd"
+      }
+    ],
+    "limitation": "Owner745 merged before its required CI completed; subsequent actual CI success is separately bound, not premerge approval. Preserve Cinema owner records. Our future Tasar receipt still requires successful CI before merge."
+  }
+}

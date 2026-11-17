@@ -28,6 +28,8 @@ Kavisurya Baladeva Rath and Banamali Das also appear in Srjan’s account of the
 
 Kalicharan Pattnaik’s *ସିନେମା ସଙ୍ଗୀତ (Sinema Sangita)* (1941) brings another kind of page into this musical story. Its opening entry places Hindi and Odia song texts side by side, then aligns their syllables beneath shared musical notation.[^sinema-sangita]
 
+The [Biyott Projna Tripathy profile](/people/biyott-projna-tripathy/) follows another meeting of poetry, music and filmmaking in *Yogini*.
+
 ## The possibilities inside a voice
 
 [Pranab Patnaik](../../people/pranab-patnaik.md) described that shared work from a singer’s side. In a 2017 interview, he remembered successive composers finding different possibilities in his voice. His profile follows that learning through composers, languages and regular practice.[^pranab]

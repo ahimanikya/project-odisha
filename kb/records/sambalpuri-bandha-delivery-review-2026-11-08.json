@@ -1,0 +1,36 @@
+{
+  "status": "pass_with_limitations",
+  "program_item": "POD-A500-144",
+  "work_id": "POD-WORK-335",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "checked_at": "2026-11-08T19:21:44.043512+00:00",
+    "status": "PASS",
+    "verified_routes": [
+      "/textiles/sambalpuri-bandha/",
+      "/textiles/"
+    ],
+    "images": true,
+    "producer_sha256": "fd9e66ffef222ba830e5af2b1793aef727baac7903174a9c070f16badf75905e",
+    "separate_review_sha256": "d3072d3197d50a768e9658db4c4e2901b6bd9d494d8766022588e875fea16cbf",
+    "evidence_manifest": "records/evidence/sambalpuri-bandha-editorial-2026-11-08/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "f513160948ce41e9e4cd7a3dd2b6eae7e84b4f3b8560620517c774670d7b17bc"
+  },
+  "limitations": [
+    "Separate AI review, not human certification.",
+    "177 source words for current delivery; historical source records retained.",
+    "Targeted article/parent/photo/archive review does not certify unrelated pages.",
+    "358 public Dhaga readings and eleven local proposals unchanged; no Dhaga credit.",
+    "Receipt merge/remote verification pending; receipt-only metadata needs no second site deployment.",
+    "Actual headless Chrome at1440/390; no human review claim.",
+    "No local build, source content change or deployment dispatched.",
+    "Raw HTTP snapshots are not DOM serialization. No old wholecatalogue/shell byte equality claim.",
+    "Native source note stays out of portable fulltext; reviewed shortcitation and both exact photo bytes verified in four UI downloads.",
+    "Publication/archive acceptance and receipt completion require separate review/root integration.",
+    "Producer actual completion timestamp is separate from review time.",
+    "No whole-site or whole-archive safety certification; comparison covers four regular targets.",
+    "Raw public HTTP compared to actual successful artifact; no equality claimed to old local shell or DOM serialization.",
+    "Full archive and copyrighted originals remain local-only; no repeat browser/build/source fetch.",
+    "Live PASS does not itself approve materialized receipt, completion credit or receipt merge."
+  ]
+}

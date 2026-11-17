@@ -1,0 +1,46 @@
+{
+  "status": "PASS_DELIVERY",
+  "scope_released": true,
+  "reviewed_source_head": "a6af66d9dc4f65610f9e12542ba860e6f54aaa06",
+  "merge_head": "24ba9b35939c0ab4874c74ef8365d83f3e77cfa9",
+  "input_hashes": {
+    "outputs/cinema-biyott-publication-20261110/root/hosted-review.json": "9cc474afcf0b4662e3bda474ccd7410608230ce2acffbf853db8b4adf846ea99",
+    "outputs/cinema-biyott-publication-20261110/root/merged-pr.json": "60f9c96a99fcddd0cad38a218ef5de9573ea5d0f6613abf54758f3efce6f0642",
+    "outputs/cinema-biyott-publication-20261110/root/deployment.json": "f126f9abfeec2153dfe9aa28031a68f2d7c5f0d5d337756d201782e90f452da7",
+    "outputs/cinema-biyott-publication-20261110/root/live-verification.json": "839524a9073623754136eb277b6ab561757cdc0920910692e8524d10d53fc140",
+    "outputs/cinema-biyott-publication-20261110/root/live-browser-review.json": "48ef3f407da2ea0ed4495b8f160f93240e34ab980127f2c1c05f7a35b244ec5f",
+    "outputs/cinema-biyott-publication-20261110/root/live-book.png": "4cde91e1bd1dedfefe7afe587b2b77be52697e7633038ad95911f67cd53da71b",
+    "outputs/cinema-biyott-publication-20261110/root/live-profile.png": "e21c6a47b284a7f36dbe56eaf67191170b07039a65dc2b81bee417c1b93908cb",
+    "outputs/cinema-biyott-publication-20261110/book-release-manifest.json": "d7c1eb91719b27ad8f1afc3875cedd58db8c261cb0f43c6738495a08eb0225ca",
+    "kb/records/cinema-biyott-publication-2026-11-10.json": "047fd460a0ec1f5eddf570084c982a897e123e109bdf25dc538aedfbf0210fce"
+  },
+  "independent_checks": {
+    "hosted_success_exact_head": true,
+    "deployment_success_exact_merge": true,
+    "all_six_saved_http_responses_rehashed": {
+      "profile.html": true,
+      "literature.html": true,
+      "music.html": true,
+      "book.html": true,
+      "odia-cinema-a-living-screen-2026-11-10-biyott.pdf": true,
+      "odia-cinema-a-living-screen-print-2026-11-10-biyott.pdf": true
+    },
+    "both_pdf_hashes_and_bytes_match_manifest": true,
+    "foreign_operations_and_historical_scope_preserved": true
+  },
+  "actual_visual_scope": [
+    "live-book.png:10November2026 edition,50online/49book,272digital/278print labels clear",
+    "live-profile.png:title/byline/introduction and upper portrait visible; not whole article screenshot"
+  ],
+  "receipt_assessment": "Own publication handoff, rollout item and current Cinema programme correctly transition on actual deployment/live evidence. No false human approval or programme credit. Historical scope restored in earlier correction remains intact. Profile prior handoff gains subsequent-publication pointer; no prior review history erased.",
+  "mutations_assessment": "Observed pending delivery changes are receipt/index/ledger/manifest metadata. Two unrelated tagged-reader tool modifications remain outside release review and must remain excluded; no current article/site/PDF mutation appears in pending diff.",
+  "remaining_questions": [
+    "Bideha original published source and2006lead remain unconfirmed.",
+    "Palmful original text/translation details remain unread; writer remuneration and Cannes headline claim not established."
+  ],
+  "required_corrections": [],
+  "limits": [
+    "No new network download or browser operation: independently rehashed already downloaded live responses and inspected coordinator screenshots.",
+    "Nine-note/interaction checks rest on root browser receipt; full source/artifact review reused from prior exact-byte PASS."
+  ]
+}

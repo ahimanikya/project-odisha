@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "at": "2026-11-08T19:27:33.349305+00:00",
+  "input_head": "59e201228a0442e42020a27dd56d5d1cf2992522",
+  "script_sha256": "5348e6cc7941d3cc0df3f1fad053f0da5d26052a8d07b2a94e92a0bbdaf7ebaa",
+  "producer_sha256": "fd9e66ffef222ba830e5af2b1793aef727baac7903174a9c070f16badf75905e",
+  "review_sha256": "d3072d3197d50a768e9658db4c4e2901b6bd9d494d8766022588e875fea16cbf",
+  "negative_tests": [
+    {
+      "mode": [
+        "normal"
+      ],
+      "wrong_deployed_head_refused": true,
+      "exit_code": 1,
+      "fixture_unchanged": true
+    },
+    {
+      "mode": [
+        "-O"
+      ],
+      "wrong_deployed_head_refused": true,
+      "exit_code": 1,
+      "fixture_unchanged": true
+    }
+  ],
+  "positive_optimized": true,
+  "fixture_completed_items": 144,
+  "one_target_credit": true,
+  "actual_verified_at_preserved": true,
+  "canonical_untouched": true
+}

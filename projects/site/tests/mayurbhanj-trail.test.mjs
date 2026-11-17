@@ -47,5 +47,20 @@ test('Mayurbhanj page and contributions preserve current-access uncertainty, per
  assert.ok(readFileSync('dist/contribute/index.html','utf8').includes('value="/journey-starters/mayurbhanj/"'));
  assert.ok(localContributionPrompts.forest.questions.join(' ').includes('wildlife coordinates'));
  assert.ok(localContributionPrompts.performance.questions.join(' ').includes('agreed to public identification'));
- assert.ok(page.includes('reopening to be announced separately'));assert.ok(page.includes('not a daily show schedule'));assert.match(page,/<summary[^>]*>Photographs &(?:amp;)? source notes<\/summary>/);
+ assert.ok(page.includes('reopening to be announced separately'));assert.ok(page.includes('not a daily show schedule'));assert.match(page,/<section class="trail-credits"[^>]*aria-labelledby="trail-credits-title"/);assert.match(page,/<h2 id="trail-credits-title"[^>]*>Photographs &amp; source notes<\/h2>/);
+});
+
+test('Mayurbhanj native reading is supplemental and never replaces full saved chapters',()=>{
+ const ed=JSON.parse(readFileSync('../../kb/research/destinations/mayurbhanj-journey-editorial.json','utf8'));
+ const escaped=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+ assert.ok(page.indexOf('class="mayurbhanj-exposition"')>page.indexOf('data-journey-starter="mayurbhanj-forest-culture"'));
+ for(const p of ed.paragraphs)assert.ok(page.includes(escaped(p.text)));
+ assert.ok(page.includes(ed.byline));assert.ok(page.includes(escaped(ed.scope_note)));
+ assert.match(page,/id="mayurbhanj-reading-ref-1" href="#mayurbhanj-reading-note-1"/);
+ assert.match(page,/id="mayurbhanj-reading-note-1" tabindex="-1"/);
+ assert.match(page,/href="#mayurbhanj-reading-ref-1" data-footnote-backref/);
+ assert.ok(page.includes(escaped(ed.notes[0].text)));assert.ok(page.includes('Footnotes &amp; Sources'));assert.ok(page.includes('Further reading'));
+ const plan=create(),options={trails:data.trails,generatedAt:'2026-11-10'};
+ for(const output of [JSON.stringify(data),buildTourBook(plan,data.catalog,options),buildTextItinerary(plan,data.catalog,options)])for(const p of ed.paragraphs)assert.ok(!output.includes(p.text));
+ for(const ch of trail.chapters)assert.ok(buildTextItinerary(plan,data.catalog,options).includes(ch.text));
 });

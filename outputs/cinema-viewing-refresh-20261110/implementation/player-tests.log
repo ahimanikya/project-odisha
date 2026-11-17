@@ -1,0 +1,42 @@
+✔ catalogue identities, dates, language, URL and evidence constraints (1.847584ms)
+✔ classification filters, unknowns and grouping entries by work (0.182042ms)
+✔ provider host allowlist and embed boundary reject hostile or mixed entries (0.184958ms)
+✔ DOM contract: no initial iframe; explicit player, stop, selection replacement and focus (2.52775ms)
+✔ DOM contract: local files never embed and retain external fallback (0.760125ms)
+✔ DOM contract: deep links, empty/reset, hash selection and invalid hash stop (0.660875ms)
+✖ static safety and portable companions (3.75375ms)
+✔ DOM provider cards use no thumbnail or iframe and preserve payment caveat (0.979917ms)
+✔ provider switch clears a playing upload and removed entries are absent (0.633792ms)
+✔ curated full-film and trailer routes have evidence and compact catalogue rows (0.687417ms)
+✔ local and public reading links resolve their own contexts (1.426292ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 10
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 69.1535
+
+✖ failing tests:
+
+test at outputs/odia-movie-player/test.cjs:16:1
+✖ static safety and portable companions (3.75375ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(staged.includes('href="/cinema/"'))
+  
+      at TestContext.<anonymous> (/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030/outputs/odia-movie-player/test.cjs:16:690)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

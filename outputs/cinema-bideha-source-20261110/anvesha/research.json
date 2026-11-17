@@ -1,0 +1,101 @@
+{
+  "status": "bounded_research_complete",
+  "scope_released": true,
+  "question": "Identify the original Bideha story and publication without assuming another work is its source.",
+  "reuse": [
+    "kb/research/culture/cinema-series/biyott-tripathy-2026-11-10.json",
+    "kb/research/people/biyott-projna-tripathy.md",
+    "query_research.py Biyott Bideha: dated inventory warning,no additional mapped result"
+  ],
+  "findings": [
+    {
+      "kind": "Original institutional bibliography visually inspected",
+      "url": "https://culture.odisha.gov.in/sites/default/files/2022-06/List%20of%20Selected%20Books%20Under%20Raja%20Rammohan%20Ray%20Library%20Foundation%20%28RRRLF%29%20Scheme%20for%20the%20Year%202010-11.pdf",
+      "local_pdf": "outputs/cinema-bideha-source-20261110/anvesha/rrrlf.pdf",
+      "sha256": "90a8542ae4b2612863e2bfcbb0d79f954585bcac20a03601affe455a4c8f2d3d",
+      "pdf_pages": 138,
+      "inspected_pages": [
+        11
+      ],
+      "locator": "PDF11/printedPage11,serial262",
+      "image": "outputs/cinema-bideha-source-20261110/anvesha/rrrlf-page11.png",
+      "metadata": {
+        "title": "Kadapana o Cleopatra",
+        "author": "Biyot Projna Tripathy",
+        "publisher": "Pakshighara Prakashanee",
+        "edition": "1st",
+        "year": 2010,
+        "pages": 128,
+        "language": "Odia",
+        "binding": "PB"
+      },
+      "limits": "Government selection-list metadata, not original imprint,contents or story text.2010 is the listed collection edition year,not the story’s first magazine appearance."
+    },
+    {
+      "kind": "Author testimony,coordinator direct-read plus own search-index corroboration",
+      "url": "https://sambad.in/special/the-pairing-of-literature-and-cinema-11010926",
+      "coordinator_observation": "Root read full Chrome interview,19January2026,Surya Kanta Jena; source names same-title Bideha story,written2005or2006,and its inclusion in Kadapana o Cleopatra.",
+      "own_access": "Search indexed the precise same-title/collection answer. Did not independently operate Chrome or audition audio. Root holds original DOM capture.",
+      "safe_claim": "Tripathy says Bideha draws on her same-named story,also included in Kadapana o Cleopatra.",
+      "limits": "Writing2005or2006 is an expressly uncertain author recollection,not established publication date. Collection contents and original story remain unread."
+    },
+    {
+      "kind": "Indexed institutional holding only",
+      "url": "https://eastcoastrail.indianrailways.gov.in/ticker/17156881398812024%20%20newbooks_merged.pdf",
+      "record": "ecOr-06702,Kadapana O Cleopatra,Biyot Pronja Tripathy,Pakshighara Prakashanee,Rack36C",
+      "access": "Web open gives Something went wrong;ordinary download333byte HTML error retained as ecr-response. Indexed title/author/publisher are visible.",
+      "limits": "No actual original PDF page inspected; no current availability or lending entitlement claim. Older stocklist also indexed the same accession with different rack; not independent proof of current stock."
+    }
+  ],
+  "routes_attempted": [
+    {
+      "route": "English/Odia exact author and film/source searches",
+      "queries": [
+        "Biyot Bideha story2006",
+        "ବିୟତ ବିଦେହ",
+        "ବିୟତ୍ ପ୍ରଜ୍ଞା ତ୍ରିପାଠୀ ଗଳ୍ପ ବିଦେହ"
+      ],
+      "result": "Film credits surfaced but do not identify a publication. Later coordinator interview resolves attributed literary identity."
+    },
+    {
+      "route": "Author bibliographies/library-index and retailer discovery",
+      "queries": [
+        "Biyot site:worldcat.org",
+        "Biyot site:catalog.loc.gov",
+        "Biyot Pakshighar",
+        "Biyot Pragyan book"
+      ],
+      "result": "No relevant indexedWorldCat/LOC record recovered; many BiyotKeshTripathy namesakes excluded. Ritikart Brain Operation metadata is a separate storybook,not evidence for Bideha.",
+      "urls": [
+        "https://ritikart.com/collections/odia-story-books/products/brain-operation-by-biyot-pragyan-tripathy"
+      ],
+      "access": "Retailer indexed description says author Biyot Pragyan Tripathy,publisherPakshighar,Odialanguage;directopencachemiss. No contents adopted."
+    },
+    {
+      "route": "Exact collection/archive/periodical check",
+      "queries": [
+        "Kadapana Cleopatra",
+        "Kadapana site:archive.org",
+        "କଡ଼ାପାନ କ୍ଲିଓପାଟ୍ରା",
+        "କଡ଼ାପାନ କ୍ଲିଓପାଟ୍ରା"
+      ],
+      "result": "Government edition record and ECR holding located; no original collection scan or contents recovered. Saral Jatil2021 short-story index read/searched without a relevant Bideha match; no exhaustive periodical absence claim. Root identified Shalandi proid49 as Prasanna Kumar Hota’s Mo Panakhia, an unrelated betel-pan memoir; excluded, not a pending lead.",
+      "urls": [
+        "https://blog.saraljatil.com/p/collections.html",
+        "https://www.shalandi.in/sahitya/single_new_1.php?proid=49"
+      ]
+    }
+  ],
+  "recommendation": {
+    "supported": "An attributed sentence may identify Bideha as Tripathy’s same-named story in Kadapana o Cleopatra; independently verified selectionlist supplies2010collectionedition metadata if useful.",
+    "not_supported": [
+      "Original story close reading or comparison with film.",
+      "A precise2005/2006 publication date or first magazine appearance.",
+      "Any Palmful of Stars/Aanjula relationship.",
+      "Payment or permission terms."
+    ],
+    "next_gate": "Original collection contents/story pages or a specific magazine issue supplied or located later. No repeated genericsearch needed."
+  },
+  "source_budgets": "No long quotations saved. Government metadata paraphrase<60words; proposed interview use should share200wordpagebudget with coordinator’s other claims. This packet does not add public prose.",
+  "public_edits": false
+}

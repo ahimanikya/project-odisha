@@ -1,0 +1,192 @@
+[
+  {
+    "name": "bundle",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/check_bundle.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/bundle.log"
+  },
+  {
+    "name": "team",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/check_team_assignments.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/team.log"
+  },
+  {
+    "name": "program",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/check_autonomous_program.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/program.log"
+  },
+  {
+    "name": "site-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/site-build.log"
+  },
+  {
+    "name": "disclosure-full",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/disclosure-full.log"
+  },
+  {
+    "name": "site-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 1,
+    "log": "outputs/cinema-bideha-publication-20261110/root/site-tests.log"
+  },
+  {
+    "name": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/coast-build.log"
+  },
+  {
+    "name": "disclosure-coast",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/disclosure-coast.log"
+  },
+  {
+    "name": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/coast-tests.log"
+  },
+  {
+    "name": "audit-coast",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/audit-coast.log"
+  },
+  {
+    "name": "audit-discovery",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/audit-discovery.log"
+  },
+  {
+    "name": "search-review",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/search-review.log"
+  },
+  {
+    "name": "audit-launch",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/audit-launch.log"
+  },
+  {
+    "name": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/publication-build.log"
+  },
+  {
+    "name": "disclosure-publication",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/disclosure-publication.log"
+  },
+  {
+    "name": "audit-search",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/audit-search.log"
+  },
+  {
+    "name": "download-publication",
+    "command": [
+      "node",
+      "--test",
+      "tests/book-downloads.test.mjs"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/download-publication.log"
+  },
+  {
+    "name": "workbench",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/editorial/build_workbench.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/workbench.log"
+  },
+  {
+    "name": "workbench-check",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/editorial/build_workbench.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/workbench-check.log"
+  },
+  {
+    "name": "rollout",
+    "command": [
+      "/Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/editorial/article_rollout.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "outputs/cinema-bideha-publication-20261110/root/rollout.log"
+  }
+]

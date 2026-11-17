@@ -1,0 +1,5 @@
+---
+import book from '../data/mirgan-kotpad-book.json';
+const parts=[...new Set(book.chapters.map(c=>c.part))];
+---
+{parts.map(part=><section class="chapter-group"><h3>{part}</h3><ol start={book.chapters.find(c=>c.part===part)!.number}>{book.chapters.filter(c=>c.part===part).map(c=><li><a href={`/stories/kotpad/${c.slug}/`}>{c.title}</a></li>)}</ol></section>)}

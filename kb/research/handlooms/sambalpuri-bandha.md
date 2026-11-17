@@ -59,3 +59,7 @@ The [departmental GI list](https://handlooms.gov.in/assets/img/104GIregisteredHa
 ## Words woven into cloth
 
 The [official product directory](https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf) credits **Swarnalata Meher** with a silk-warp/cotton-weft Bapta saree and **Debaki Meher** with a cotton Dasa Phulia example using calligraphy and supplementary threads (PDF pp.10–11). These are named creations, providing a stronger starting point for a feature than anonymous textile pictures. The source reports approximately three months and two-and-a-half months respectively, for different described activities; neither figure is a standard production time. Photograph reuse and interviews remain unarranged.
+
+## Editorial pointer
+
+The proposed article and its review evidence are tracked in the editorial handoff.

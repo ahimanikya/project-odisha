@@ -1,0 +1,63 @@
+{
+  "scope": "Authentic professional portrait search and essential biography source check only; no public edits.",
+  "status": "completed",
+  "scope_released": true,
+  "recommended_candidate": {
+    "status": "identified historic fallback; not a high-resolution portrait",
+    "source_url": "https://nfaindia.org/images/pdf/51st%20National%20Film%20Award%20Catalogue.pdf",
+    "locator": "PDF109 / printed103",
+    "source_file": "outputs/cinema-yogini-profile-20261110/anvesha/nfa51.pdf",
+    "source_sha256": "e8e778b76196f066d268b92cbb3cd1e26fdf5e922a90afb3ca0fe088a8a0fc7b",
+    "extracted_original_page": "outputs/biyott-profile-20261110/anvesha/nfa-page103-original.jpg",
+    "page_sha256": "07220a2d8553706b95ae5385384fd8e6cf394f642080ce8e110c41c6c65b25d3",
+    "native_page_pixels": [
+      813,
+      850
+    ],
+    "approximate_portrait_pixels": [
+      227,
+      227
+    ],
+    "identity_evidence": "Portrait accompanies the explicitly named bilingual biography of Biyot Projna Tripathy. Original rendered page re-inspected visually in this task. Identity is grounded in the publication, not face recognition.",
+    "visual_description": "Frontal monochrome head-and-shoulders portrait, soft and visibly scanned; recognisable facial detail but unsuitable for a large full-width hero.",
+    "creator": "Photographer not credited on inspected page.",
+    "rights": "No affirmative image reuse licence established. Government catalogue publication does not establish public-domain status. Existing user editorial-use authorization is not copyright permission.",
+    "suggested_credit": "Portrait: 51st National Film Awards catalogue, p.103; photographer uncredited.",
+    "suggested_caption": "Biyott Projna Tripathy in the 51st National Film Awards catalogue.",
+    "suggested_alt": "Black-and-white portrait of Biyott Projna Tripathy.",
+    "use_limit": "Keep modest display width; retain an honest scan appearance. Do not synthesize missing detail or date the photographic exposure from the catalogue year."
+  },
+  "attempts": [
+    {
+      "url": "https://filmfreeway.com/BiyotProjnaTripathy",
+      "access": "Web text readable; named filmmaker profile. Ordinary public HTML download returned a Cloudflare challenge, retained as filmfreeway.html. No bypass attempted.",
+      "image_link": "https://d21y75miwcfqoq.cloudfront.net/8961387c",
+      "image_access": "Observed image link18 downloaded successfully, but file is a 1x1 PNG tracking image, not portrait. Rejected."
+    },
+    {
+      "url": "https://www.kalingalankafoundation.org/docs/KLF-HandBook-2018.pdf",
+      "access": "Prior direct web text identifies a named profile at PDF26 / printed24. Fresh ordinary public download failed HTTP525; no new image inspection or portrait claimed."
+    },
+    {
+      "url": "https://nfaindia.org/images/pdf/51st%20National%20Film%20Award%20Catalogue.pdf",
+      "access": "Reused previously downloaded original. Visually inspected PDF109 again, and extracted its complete embedded page image unchanged with pypdf. No separate high-resolution portrait image is embedded on that page."
+    }
+  ],
+  "essential_biography_check": {
+    "finding": "The original NFA biography explicitly identifies her as a qualified lawyer and documents early filmmaking before the contemporary features. This can anchor a concise career transition if useful, without adding current practice or employment claims. Existing reviewed documentary, journal and maker accounts already provide sufficient distinct material for the proposed focused profile.",
+    "safe_optional_sentence": "The National Film Awards catalogue introduced her as a qualified lawyer who had turned to filmmaking.",
+    "source_locator": "51st NFA catalogue printed103 / PDF109",
+    "limitations": [
+      "Do not convert the catalogue’s relative four-year statement into a precise career-start date.",
+      "Retain Biyot as source spelling and Biyott as chosen profile display; neither implies a second person.",
+      "Palmful of Stars journal metadata establishes a publication, not an inspected story or its adaptation.",
+      "No need additional award totals, private personal details, or current-role assertions."
+    ],
+    "source_budget": "Optional sentence is approximately20 source-derived words; combine with existing catalogue allocation, keeping aggregate at or below200."
+  },
+  "limits": [
+    "No browser UI used; root owns Chrome.",
+    "No new portrait installed, cropped, reconstructed or AI-generated. Extracted file is the original whole catalogue page for provenance.",
+    "No new biographical research beyond retained primary sources and the bounded portrait routes."
+  ]
+}

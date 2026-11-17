@@ -1,0 +1,22 @@
+{
+  "status": "PASS_PROFILE_SOURCE",
+  "scope_released": false,
+  "source_sha256": "999bea8def8fea563984224021e00ac4b554361031afbb7cd7045aa1ef9c7443",
+  "baseline_sha256": "2f8d202b938dbc0f6b99d61f0dac87a05b2ceb0ba7d2b049a9150ae4581b0f47",
+  "input_hashes": {
+    "outputs/cinema-literary-publication-20261110/implementation/profile-implementation.json": "f5dc635b754179e7d5f55b182f6d538a891249abe1443038897930533b9ba281",
+    "kb/research/people/biyott-projna-tripathy.md": "999bea8def8fea563984224021e00ac4b554361031afbb7cd7045aa1ef9c7443",
+    "outputs/cinema-palmful-source-20261110/review/review.json": "94b124241e6bb7fbe006ac8d4f4abe16e68f29da04f2c055104910dc487a1f4a"
+  },
+  "checks": [
+    "Read exact installed paragraph/note and diff; exact reversal of paragraph/note/new source entry returns baseline byte-for-byte.",
+    "31-word opening observation matches already independently viewed original page119. Fictional narrator/opening language preserves scope and avoids autobiography or adaptation inference.",
+    "Direct original JSTOR reference retained as numeric palmful note and distinguishes full bibliographic extent119–124 from actually read opening119.",
+    "Bideha paragraph, portrait and all other source text preserved; nine source notes retained."
+  ],
+  "required_corrections": [],
+  "limits": [
+    "No new original pages read;120–124,translator/Odia title/original publication remain open.",
+    "No whole-story,film or payment claim. Website/PDF artifact verification pending."
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "command": [
+      "tools/editorial/article_rollout.py"
+    ],
+    "exit_code": 0,
+    "result": "{\"result\": \"PASS\", \"counts\": {\"completed\": 197, \"excluded\": 627, \"queued\": 261}, \"errors\": []}"
+  },
+  {
+    "command": [
+      "tools/check_autonomous_program.py"
+    ],
+    "exit_code": 0,
+    "result": "PASS: autonomous program count and linked delivery records"
+  },
+  {
+    "command": [
+      "tools/check_team_assignments.py"
+    ],
+    "exit_code": 0,
+    "result": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}"
+  },
+  {
+    "command": [
+      "tools/check_bundle.py"
+    ],
+    "exit_code": 0,
+    "result": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1893,\n  \"local_links\": 8570,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}"
+  },
+  {
+    "command": [
+      "tools/registers.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "result": "POD: valid; 1243 records, 731 events; dashboard current"
+  },
+  {
+    "command": [
+      "tools/editorial/build_workbench.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "result": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 593}, \"mode\": \"check\"}"
+  }
+]

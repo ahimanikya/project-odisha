@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6d5c8246817f0c43c41453c5a56dec113de0d744da002fb0c857dc7e3dd1fc7a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4ea9e549875bf2e4d8195bc8ad120dca5600b0c8f37a156b5aad747da99a43a7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -366,6 +366,17 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-332 · Patrapoda: leaf parcels and distinct cooking methods | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-333 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | completed | reviewed | Ahimanikya Satapathy | Retain finite receipt integration until reviewed receipt merge and remote verification; no repeat credit. | — |
 | POD-WORK-334 · Pattachitra: prepared cloth, painted borders and narrative practice | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; then release finite article scopes. | — |
+| POD-WORK-335 · Sambalpuri Bandha: colour before cloth | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-336 · Khandua editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-337 · Kotpad editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-338 · Tasar documented reeling process editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-339 · Global Connections documented exchange editorial revision | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-340 · Chilika journey native ecological reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-341 · Cuttack journey native object-history reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-342 · Balasore journey native observation and evidence reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-343 · Mayurbhanj journey native attention and learning reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-344 · Jobra native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 
 ## Pending human review and decisions
 
@@ -1349,16 +1360,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026110602 | 2026-11-06T12:48:18.741895+00:00 | Tala pitha published and separately live-verified at2026-11-06T12:33:23.766Z. Receipt prepared now for one conditional programme completion; finite receipt integration retained. | — |
-| POD-EVT-2026110701 | 2026-11-07T02:41:45.912944+00:00 | Proposed finite116substantive preparation comparison implementation after Dhaga358receipt696release;139inprogress and138completed unchanged. No delivery/credit asserted. | — |
-| POD-EVT-2026110702 | 2026-11-07T14:35:55.450021+00:00 | 116 actual published e14 and separately live verified; original697/recovery699 distinct. One conditional completion; finite receipt integration retained. | — |
-| POD-EVT-2026110703 | 2026-11-07T17:57:48.357930+00:00 | Founder requested direct implementation/publication of reviewed117; source/schema reviews complete. Preserve139 completed and zero new credit. | — |
-| POD-EVT-2026110801 | 2026-11-07T22:06:23.166661+00:00 | 117 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
-| POD-EVT-2026110802 | 2026-11-07T22:58:06.136787+00:00 | Reviewed useful draft installed; preserve existing research and begin implementation through publication. | — |
-| POD-EVT-2026110803 | 2026-11-08T00:03:07.510168+00:00 | 118 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
-| POD-EVT-425 | 2026-11-08T06:23:39.103973+00:00 | 120 actual publication and separate live review bound; one conditional credit, finite receipt integration retained. | — |
-| POD-EVT-20261023013 | 2026-11-08T14:37:29.667203+00:00 | Reviewed Pattachitra source/draft and corrected guarded implementation registered; completion credit remains zero pending actual publication and receipt. | — |
-| POD-EVT-20261023014 | 2026-11-08T15:34:57.022799+00:00 | Pattachitra actual approved publication and separate live review passed; one substantive completion, receipt integration pending. Dhaga public collection unchanged. | — |
+| POD-EVT-20261110012 | 2026-11-10T17:18:05.917279+00:00 | Jobra maritime actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
+| POD-EVT-20261111001 | 2026-11-11T11:17:44.468501+00:00 | Register pending Kala Bhoomi native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
+| POD-EVT-20261111002 | 2026-11-11T12:51:44.206237+00:00 | Kala Bhoomi actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
+| POD-EVT-20261113001 | 2026-11-13T15:27:28.299505+00:00 | Malajanha added to the local viewing-room preview; Matira Manisha narration kept as a separate literary companion. Source beginning/end and embedded sample checked;19tests and independent review passed. Existing entries and foreign work preserved. No publication or book changes; zero programme credit. | — |
+| POD-EVT-20261113002 | 2026-11-13T16:15:17.790755+00:00 | Aparichita (1980) added to the local viewing room with its Pratibha Ray novel connection. Opening, ending and embedded playback sampled; 20 tests and independent review passed. Previous 12 entries and Matira Manisha narration preserved. No publication or book changes; zero programme credit. | — |
+| POD-EVT-20261113003 | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
+| POD-EVT-20261115001 | 2026-11-14T18:48:16.547102+00:00 | Prepared the Founder-approved 14 November Ekamra Walks personal essay with seven supplied photographs, Prateek’s temple tour and Omm Prakash and team’s teaching/performance. Separate source and generated-output reviews passed; publication gates pending. No invented musical details, video placeholders or programme credit. | — |
+| POD-EVT-20261115002 | 2026-11-14T20:02:08.455938+00:00 | Published the approved Ekamra evening personal essay after separate reviews, required CI and Pages deployment. Live text, seven exact photograph hashes, footnotes, discovery and reciprocal reading links verified. No videos supplied or added. Zero programme credit; foreign ownership preserved. | — |
+| POD-EVT-20261115003 | 2026-11-14T21:07:23.822120+00:00 | Founder authorized final typo check and publication of the approved shorter personal essay. Separate typo review found no required corrections. Preserve seven photographs and original source boundaries; release checks pending. No programme credit. | — |
+| POD-EVT-20261115004 | 2026-11-14T21:57:13.996993+00:00 | Published the author-approved shorter Ekamra personal essay after final typo review, separate exact-candidate review, required CI and Pages deployment. Revised live prose, seven unchanged photograph hashes, three footnotes, discovery and reading links verified. Zero programme credit; foreign ownership preserved. | — |
 
 ## Deferred extensions
 

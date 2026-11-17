@@ -26,7 +26,7 @@ const {title='Discover Odisha. Imagine the possibilities.', description='A growi
 const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
 const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
 if(canonicalPath!==undefined&&(!canonicalPath.startsWith('/')||canonicalPath.startsWith('//')))throw new Error('Canonical override must be a local path');
-if(redirectTo!==undefined&&(!redirectTo.startsWith('/')||redirectTo.startsWith('//')))throw new Error('Redirect must be a local path');
+if(redirectTo!==undefined&&redirectTo!=='https://store.projectodisha.org/kabi-jhula-story/'&&(!redirectTo.startsWith('/')||redirectTo.startsWith('//')))throw new Error('Redirect must be a local path or the approved Store story');
 const canonical=new URL(canonicalPath??pagePath,Astro.site).href;
 const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Project Odisha')?title:title+' · Project Odisha');
 const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);

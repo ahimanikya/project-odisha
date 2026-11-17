@@ -1,0 +1,93 @@
+{
+  "status": "PASS_DELIVERY",
+  "pull_request": 758,
+  "reviewed_head": "947f6c7b0027b2fe19b5b0e1444d10f086c9c630",
+  "merge_commit": "9d32c6351d82492fa1f0588adf8ef2890c5d98f9",
+  "hosted_validation_run": 42783818436,
+  "successful_deployment_run": 42793546138,
+  "verified_at": "2026-11-10T10:05:09.727622+00:00",
+  "independent_checks": [
+    "Rehashed all five saved live responses; exact recorded byte lengths and hashes match.",
+    "Both live PDFs match previously reviewed PDF hashes, manifest sizes and GitHub asset digests.",
+    "Hosted validation, PR head, merge and successful deployment heads agree.",
+    "Book HTML contains both current same-origin download links and 273/278 page labels.",
+    "profile.html: exact new text and source URL within matching note with backlink",
+    "literature.html: exact new text and source URL within matching note with backlink"
+  ],
+  "live_responses": {
+    "profile.html": {
+      "url": "https://projectodisha.org/people/biyott-projna-tripathy/",
+      "effective_url": "https://projectodisha.org/people/biyott-projna-tripathy/",
+      "http_status": 200,
+      "path": "/tmp/cinema-literary-live-20261110/profile.html",
+      "bytes": 31692,
+      "sha256": "824b384afe9d70d26b973f8935905232a87a2caf8d01e290e41b5cfc8da9013e"
+    },
+    "literature.html": {
+      "url": "https://projectodisha.org/cinema/literature-and-screen/",
+      "effective_url": "https://projectodisha.org/cinema/literature-and-screen/",
+      "http_status": 200,
+      "path": "/tmp/cinema-literary-live-20261110/literature.html",
+      "bytes": 65365,
+      "sha256": "1f88b3658978cb22874f7b31029e19720a788fc416bea9850230e97117c98bce"
+    },
+    "book.html": {
+      "url": "https://projectodisha.org/cinema/book/",
+      "effective_url": "https://projectodisha.org/cinema/book/",
+      "http_status": 200,
+      "path": "/tmp/cinema-literary-live-20261110/book.html",
+      "bytes": 32530,
+      "sha256": "ff3d1aeba042592b3bbecffb853b6e5e4935456bd9fa39aac6274fc5261abb58"
+    },
+    "odia-cinema-a-living-screen-2026-11-10-literary.pdf": {
+      "url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+      "effective_url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+      "http_status": 200,
+      "path": "/tmp/cinema-literary-live-20261110/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+      "bytes": 38421623,
+      "sha256": "8e05b0781480916e39257b03502376d8c147cd8c958cec17b788ee14df80d4f7"
+    },
+    "odia-cinema-a-living-screen-print-2026-11-10-literary.pdf": {
+      "url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+      "effective_url": "https://projectodisha.org/archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+      "http_status": 200,
+      "path": "/tmp/cinema-literary-live-20261110/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+      "bytes": 51351553,
+      "sha256": "2fdf415abb2f779b0c47cdf915bf4a22fed340f79077e566afa3b0ed226f080d"
+    }
+  },
+  "historical_failed_deployments": [
+    {
+      "file": "outputs/cinema-literary-publication-20261110/root/deployment-attempt-1.json",
+      "conclusion": "failure",
+      "run_id": 42788903004,
+      "sha256": "2c3558a58b4910685bb1eabaa24cb418bb331f1b7c2bb0aa9346ef9fd53a251e"
+    },
+    {
+      "file": "outputs/cinema-literary-publication-20261110/root/deployment-attempt-2.json",
+      "conclusion": "failure",
+      "run_id": 42788903004,
+      "sha256": "3d259c8b529411bd35acfecf93ed83a1718c30fe69549cbbd70f9a66aba7ef37"
+    }
+  ],
+  "recovery": "Original deployment run attempts failed; fresh run42793546138 succeeded for the same merge. No failed attempt is described as successful.",
+  "input_hashes": {
+    "outputs/cinema-literary-publication-20261110/root/validation-run.json": "e93036cef7b8f7756dd41b8de5c56aac368cc7e1663c78c207671c75a24d61a0",
+    "outputs/cinema-literary-publication-20261110/root/merged-pr.json": "3d2d2a55aa9ad1ec595e295105908b7d016c45435bbcec7828add961973370e1",
+    "outputs/cinema-literary-publication-20261110/root/deployment-run.json": "500be9484a34bd85d045548d0ea92df0ab61300426bf950f9db1f413d4656aa4",
+    "outputs/cinema-literary-publication-20261110/root/release-assets.json": "84cf59d21ec5f0c19bc7c16921f0eb8288bafb0e84bf9dcd7538e8d8220e859a",
+    "outputs/cinema-literary-publication-20261110/root/live-verification.json": "b8db8ad3efe5ce65c80e29d9c75260e999c809d1cf165a8076459e442fc46a04",
+    "outputs/cinema-literary-publication-20261110/root/live-browser-review.json": "57497f79db14482947bbb28091af70d0d62cab43d38c9d406a350a31a6cc92a8",
+    "outputs/cinema-literary-publication-20261110/book-release-manifest.json": "3b5d2db2b70ffe7855b137e7d8a4f5a9a62aee63522ea718f10729e457dc813d",
+    "outputs/cinema-literary-publication-20261110/review/artifact-review.json": "a34d171cb1563bf8a171c2cb464f6050ae260c22fe6a17413daee4d60b8ea9dc",
+    "outputs/cinema-literary-publication-20261110/review/integration-review.json": "7d74586e8329aa94ce6273de2e9738a4999a064b251e785dd7ab3a054a7f6a1c"
+  },
+  "browser_evidence": "Root Chrome receipt reports three desktop pages viewed. Reviewer inspected saved HTML and bytes, not the browser or screenshots in this delivery gate.",
+  "limits": [
+    "No new film/story/full-book viewing or human approval claimed. Prior scoped visual PDF review reused.",
+    "Palmful remains an observation from original opening page119 only; remaining original pages and publication/translation questions remain open. Nilamani is a printed dramatization, not evidence of observed performance, film adaptation or payment.",
+    "Shared completion records are to be finalized by the coordinator after this gate and are outside this delivery verdict."
+  ],
+  "required_corrections": [],
+  "scope_released": true
+}

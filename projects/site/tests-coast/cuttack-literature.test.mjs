@@ -29,7 +29,8 @@ test('reading starter and every literary idea retain reading prompts and source 
  const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,59);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
  for(const idea of reading){
   if(idea.id==='reading:stories/reading-kalinga-beyond-odisha')assert.deepEqual(idea.practical,[{heading:'Continue online',text:'Open the article for its full narrative and source notes.'}]);
-  else assert.ok(idea.practical.length>=2,idea.id);
+  else if(idea.id==='reading:knowledge/kotpad'){assert.equal(idea.practical.length,1);const ed=JSON.parse(readFileSync('../../kb/research/culture/kotpad-editorial.json'));assert.equal(ed.portable.paragraphs.length,2);assert.deepEqual(idea.practical.flatMap(p=>p.paragraphs),ed.portable.paragraphs);}
+  else if(idea.id==='reading:textiles/tasar'){const entry=JSON.parse(readFileSync('../../kb/research/culture/textile-stories.json')).pages.find(p=>p.slug==='tasar');assert.equal(idea.practical.length,1);assert.equal(idea.practical[0].text,undefined);assert.deepEqual(idea.practical.flatMap(p=>p.paragraphs),entry.sections.flatMap(s=>s.paragraphs.map(p=>p.text)));}else assert.ok(idea.practical.length>=2,idea.id);
   assert.ok(idea.sources.length);
  }
 });

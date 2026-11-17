@@ -1,0 +1,70 @@
+{
+  "status": "implemented_ready_for_independent_review",
+  "date": "2026-11-13",
+  "changed_files": [
+    "projects/site/tests/cinema-discovery.test.mjs",
+    "projects/site/public/assets/cinema/player/core.js",
+    "projects/site/public/assets/cinema/player/catalogue.json",
+    "projects/site/public/assets/cinema/player/catalogue.js",
+    "projects/site/public/assets/cinema/player/app.js",
+    "projects/site/src/data/cinema-player.html",
+    "projects/site/src/pages/cinema/watch.astro",
+    "outputs/odia-movie-player/test.cjs",
+    "outputs/odia-movie-player/index.html",
+    "outputs/odia-movie-player/core.js",
+    "outputs/odia-movie-player/sync-catalogue.py",
+    "outputs/odia-movie-player/catalogue.json",
+    "outputs/odia-movie-player/catalogue.js",
+    "outputs/odia-movie-player/app.js"
+  ],
+  "checks": {
+    "prior11entries_exactly_preserved": true,
+    "entries": 12,
+    "featured_films": 5,
+    "trailers": 4,
+    "literary_companions": 1,
+    "companion_not_counted_as_film": true,
+    "local_and_site_logic_and_data_identical": true,
+    "protected_hashes_unchanged": true,
+    "player_tests_passed": 14,
+    "site_discovery_tests": 5
+  },
+  "guidance": {
+    "retrieved": [
+      "html",
+      "accessibility"
+    ],
+    "file": "outputs/cinema-viewing-malajanha-20261113/implementation/web-guidance.txt",
+    "applied": [
+      "Use links for URL navigation; companion opens original YouTube reading, not filmplayer.",
+      "Sequential h2/h3 structure and native link, named external target.",
+      "Preserved click-to-load iframe, descriptive title,dimensions,stop and externalfallback."
+    ],
+    "limits": [
+      "Thirdparty Malajanha upload reports captions unavailable; no WCAGconformanceclaim.",
+      "No custom media downloads/transcripts.",
+      "No user-facing skill disclosure per desktopnontechnical instruction."
+    ]
+  },
+  "limits": [
+    "Root must browsercheckactualembeddedplayback and finalverificationSummary.",
+    "No fullsitebuild,book changes orpublication performed.",
+    "prepare-cinema-player.mjs rewrote unchanged derivedCSS fromsameoriginal; no stylesheetedit."
+  ],
+  "source_hashes": {
+    "projects/site/tests/cinema-discovery.test.mjs": "ba62ab1a4dac45a6108474c6fb055cc7b02f20fdd4fee0dea18699d4daf6e978",
+    "projects/site/public/assets/cinema/player/core.js": "48e929e5832008518eaa541fe33f494635a9e44bc193602000ecad715e9a227a",
+    "projects/site/public/assets/cinema/player/catalogue.json": "362e007ab3e304b685d23023da4b02e855ce0a3407031949e2b28dad6290fca2",
+    "projects/site/public/assets/cinema/player/catalogue.js": "bab372093fdeb09fc44bb4348929fbba5446a370f29ea25f1ac8dd5f7e729143",
+    "projects/site/public/assets/cinema/player/app.js": "f2ebb1134e25d4e3acf089ea0184567c6828fcd58e7cfec1576fa1ee8d20d4db",
+    "projects/site/src/data/cinema-player.html": "c12b088e7da534f55e6dbe7aba6faf572ddcd8d43fbd5c098841ab195dc2abd5",
+    "projects/site/src/pages/cinema/watch.astro": "7571591561cbf6ea61fcacea5678d3015ebd22c75116b0ed78d44ee7036ceee8",
+    "outputs/odia-movie-player/test.cjs": "8f66e86e4661979d44c2804c389457fc8a788d80d65aff5ad567713217099711",
+    "outputs/odia-movie-player/index.html": "1a7dba5b3dc519ac0be7f6b00c4227e3c5d52928ae3cada0ef06f6f8e2e8fb5f",
+    "outputs/odia-movie-player/core.js": "48e929e5832008518eaa541fe33f494635a9e44bc193602000ecad715e9a227a",
+    "outputs/odia-movie-player/sync-catalogue.py": "cf99a5cfe851b9e529bc6c3796b53903271c974a84af5c63c332ffa513aaaae7",
+    "outputs/odia-movie-player/catalogue.json": "362e007ab3e304b685d23023da4b02e855ce0a3407031949e2b28dad6290fca2",
+    "outputs/odia-movie-player/catalogue.js": "bab372093fdeb09fc44bb4348929fbba5446a370f29ea25f1ac8dd5f7e729143",
+    "outputs/odia-movie-player/app.js": "f2ebb1134e25d4e3acf089ea0184567c6828fcd58e7cfec1576fa1ee8d20d4db"
+  }
+}

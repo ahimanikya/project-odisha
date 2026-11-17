@@ -1,0 +1,37 @@
+{
+  "status": "PASS_GUARDED_SCRIPTS",
+  "scope_released": true,
+  "input_hashes": {
+    "outputs/cinema-bideha-publication-20261110/root/record-publication.py": "4aa2d0513403adb82892001d5a3ceece8ba74c98532b15fbf4596cc4c0247e3d",
+    "outputs/cinema-bideha-publication-20261110/root/verify-live.py": "44c6cba48d4f33d2af8edd58908876c304a96266df3a5d735eb62ffb43d7a1d5"
+  },
+  "required_corrections": [],
+  "positive_findings": [
+    "Receipt wording preserves attributed source and uncertain writing date, first-edition distinction and open payment questions.",
+    "Own Cinema parallel-programme row and two latest-revision rollout pointers are scoped; no recursive historical mutation.",
+    "Live downloads use full HTTPS responses and compare actual SHA256/bytes with reviewed manifest."
+  ],
+  "limits": [
+    "Scripts read, not executed. No hosted/deployment/live completion claim."
+  ],
+  "historical_initial_review": {
+    "status": "CORRECTIONS_REQUESTED_BEFORE_RECEIPT_EXECUTION",
+    "input_hashes": {
+      "outputs/cinema-bideha-publication-20261110/root/record-publication.py": "e4755ef6d9da4a7bd45d9266b974756c851c163d1eaabb58629f3d33bd7a5cc8",
+      "outputs/cinema-bideha-publication-20261110/root/verify-live.py": "9e1a73f3f862b990035e5d0c3e1a36fd868c44b422750cb2b56939f35c229950"
+    },
+    "required_corrections": [
+      "Pin reviewed head937ec0af3e30c322e8e0e835763b076272688246 and PR755 as well as relational CI/merge/deploy equality.",
+      "Before any writes require exact3route PASS checks with expected URLs/status200 and exact2edition manifest downloads with expected URLs/hash/bytes.",
+      "Preflight unique named Cinema programme row, unique replacement index block and intended rollout targets before first write; make ledger append idempotent or reject existing entry before writes.",
+      "Live checker should verify new citation target/backlink and original Sambad/catalogue source URLs on both changed pages, not only isolated paragraph terms."
+    ]
+  },
+  "final_review": [
+    "Read both complete final scripts; all prior requested corrections implemented.",
+    "Recorder pins exact PR755/reviewed head, completed successful CI/deployment and matching merge, exact3routes/2editions URLs/status/hash/bytes; unique owner/index/rollout guards before writes.",
+    "All proposed writes staged until preflight complete; concurrent-change guard and idempotent ledger retain foreign/history records.",
+    "Live checker validates unique new note/citation, actual backlink and both exact sourceURLs within new note on both articles.",
+    "No execution by reviewer. Worker reports10parser positive/negative tests, not independently rerun."
+  ]
+}

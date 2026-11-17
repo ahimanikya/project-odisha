@@ -49,3 +49,8 @@ The actual Battery Dance2024 programme was re-read for the Mayurbhanj regional a
 ## Individual performance guide · 20 October 2026
 
 The [six-section guide](../destinations/northern-details.json) now uses a first-person training memoir, named repertoire and an institutional teaching account. [Passage mapping and inspection limits](../destinations/chhau-editorial.json) distinguish retrospective testimony, programme billing and institutional self-description. SNA reproduces the UNESCO description and is not independent corroboration. The regional Natraj example and recognition narrative remain distinct. No performance viewing, interview, current event confirmation or human review is claimed.
+
+
+## Journey reading
+
+[Mayurbhanj journey reading](https://projectodisha.org/journey-starters/mayurbhanj/) provides an editorial companion to the saved journey.

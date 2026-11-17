@@ -1,0 +1,112 @@
+{
+  "status": "published_verified_receipt_integration",
+  "article_id": "POD-EDIT-131",
+  "work_id": "POD-WORK-343",
+  "program_item": "POD-A500-152",
+  "authorization": "POD-DEC-225",
+  "reviewed_head": "8487848a7d47d6c1b34c3e8a1f7cfd906b25ef21",
+  "merge_commit": "3b2a7eb6c62ab05895d235ca049aa9fa66886b90",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/762",
+  "deployment": {
+    "head": "3b2a7eb6c62ab05895d235ca049aa9fa66886b90",
+    "databaseId": 42812690942,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42812690942",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/42803586962",
+    "success_before_merge": true
+  },
+  "verified_at": "2026-11-10T13:12:02.979Z",
+  "prepared_at": "2026-11-10T13:57:41.605087+00:00",
+  "live": {
+    "checked_at": "2026-11-10T13:12:02.979Z",
+    "status": "PASS",
+    "verified_routes": [
+      "/journey-starters/mayurbhanj/"
+    ],
+    "images": true,
+    "producer_sha256": "b9ea6064d4298050bfbc364593ea591b0f3592faaf0e9da5864139fccc45eac6",
+    "separate_review_sha256": "856200c4d633be57512b81104c1e75bde42094283acaf21fda24169b4ffc8409",
+    "evidence_manifest": "records/evidence/mayurbhanj-journey-editorial-2026-11-10/live-verification/source-manifest.json",
+    "evidence_manifest_sha256": "b499a699d36e56d0c9a3f5d9b5c5c1320e4e0b4b2e03e9b1ce83fb236c4d51c9"
+  },
+  "verified_routes": [
+    "/journey-starters/mayurbhanj/"
+  ],
+  "images": true,
+  "review": "records/mayurbhanj-journey-delivery-review-2026-11-10.json",
+  "programme_credit": 1,
+  "programme_completed": 152,
+  "source_budgets": {
+    "sna-bhanj1991": 151
+  },
+  "limits": [
+    "Separate AI review, not human certification.",
+    "Actual reviewed SNA1991 total at most151; historical legacy-use hold remains explicit with no new legacy-source elaboration or reset. Existing journey downloads preserved; new exposition native-only.",
+    "Targeted native article/three-photo/archive review does not certify unrelated pages.",
+    "358 public Dhaga readings and eleven local proposals unchanged; no Dhaga credit.",
+    "Receipt merge/remote verification pending; receipt-only metadata needs no second site deployment.",
+    "Actual public browser checks and successful artifact audit; no deployment mutation or new source research.",
+    "Original saved CI/publication metadata lacked event and merge metadata lacked baseRefName; richer same-run captures preserve originals and satisfy unchanged guards. Initial builder refusal retained.",
+    "Legacy no-growth is not a new reuse allowance or rights clearance.",
+    "Native supplement is explicitly excluded from complete original journey companions.",
+    "Large ZIP and raw source-bearing HTML/downloads remain local evidence; do not copy them wholesale to canonical receipt.",
+    "Independent AI review of actual saved evidence; no human review claim and no repeated browser/network/build/archive scan.",
+    "Opening captures are scrolled to the supplemental section; full-body captures establish full page order.",
+    "JSON export stores selected IDs and storyTrail, not copied prose; HTML/TXT preserve full original chapters and preparation. Native exposition is online-only.",
+    "Decoded static JSON/JS literal and exact-term audit with metadata controls is not arbitrary computed-code decompilation or legal clearance. Seventeen retained-source terms show no growth; historical source totals are not reset or newly certified.",
+    "Initial missing merge baseRefName authorization refusal and richer same-event captures retained; earlier local test, port and packaging failures remain historical.",
+    "ZIP and original source captures remain local-only. Receipt completion, credit and future receipt CI/merge are outside this review.",
+    "Receipt base includes seven owner763 changes after the verified publication; all fourteen Mayurbhanj candidate files are unchanged. Owner CI passed before merge; no historical timing exception."
+  ],
+  "receipt_integration": {
+    "status": "pending_actual_receipt_merge",
+    "remote_verified": false
+  },
+  "fresh_base_reconciliation": {
+    "deployed_head": "3b2a7eb6c62ab05895d235ca049aa9fa66886b90",
+    "fresh_receipt_base": "bfd85d94643a90402c0aae9ac5f6a53b48b86e33",
+    "owner_pr": 763,
+    "owner_ci": 42821297785,
+    "ci_before_merge": true,
+    "owner_paths": [
+      {
+        "path": "projects/site/src/components/SiteFooter.astro",
+        "sha256": "64f557c331d250bc37c2423dddc30d6e6a2e2802a27f86d05b7f8a9937ba1b1e"
+      },
+      {
+        "path": "projects/site/src/data/discovery.ts",
+        "sha256": "290eb7e81ef047c3a2e98f10beb90f74879e821c14ffd6334ae1deee7ae6bf4d"
+      },
+      {
+        "path": "projects/site/src/layouts/Shell.astro",
+        "sha256": "5e48e1ac2ab7859c8a0e0cc7298c544c4b9f574f985abaad14b1dfd98383ad9d"
+      },
+      {
+        "path": "projects/site/src/pages/odia-poetry-jhula.astro",
+        "sha256": "1976f78d1e57b8177452d3d32795ee6717ba6f4021f8086924f3c9b0f8742642"
+      },
+      {
+        "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+        "sha256": "2411802a95ba188c1bb8ad9524616765e0a3a9c0c219cb2ba5f459997689e907"
+      },
+      {
+        "path": "projects/site/tests-coast/edition.test.mjs",
+        "sha256": "d3151335596daacf7935fda71b18fab4cfa7eabe6ca4a6a628d76319b7ff35a7"
+      },
+      {
+        "path": "projects/site/tests-coast/poetry-jhula.test.mjs",
+        "sha256": "4a77dbed5b1173f8854a95b96d0980798feb8b165f5207d0467d10a260bf9219"
+      }
+    ],
+    "separate_review": {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/mayurbhanj-journey-editorial-2026-11-10/receipt-preparation/drishti-tools-v3-review.json",
+      "sha256": "aa8f9dbbd838f93859e99e39667df830d337943d014f3b4b88bf1beab9502126"
+    },
+    "limitation": "Receipt base includes seven owner763 changes after the verified publication; all fourteen Mayurbhanj candidate files are unchanged. Owner CI passed before merge; no historical timing exception."
+  }
+}

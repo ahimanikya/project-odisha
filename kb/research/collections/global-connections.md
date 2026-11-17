@@ -96,3 +96,8 @@ Obtain BMC’s complete agreement register and dates; confirm Bloemfontein/Manga
 [^global-brisbane]: [International opportunities: Hyderabad](https://www.brisbane.qld.gov.au/business/business-support/international-opportunities). Hyderabad section: tripartite agreement with Brisbane and Ipswich on 5 October 2010. Two foreign municipalities in one agreement.
 [^global-bremen]: [Bremen and India: cooperation with Pune, 25 November 2021](https://www.senatspressestelle.bremen.de/pressemitteilungen/buergermeister-bovenschulte-bremen-und-indien-verbinden-gute-kooperationen-373292). Dated official statement on long-standing Pune cooperation. Mentions academic links and pandemic pause; not evidence of a current operating programme.
 [^global-sci]: [Sister Cities International: frequently asked questions](https://sistercities.org/faq/). Guidance on civic organisation and formal municipal relationships; membership directory is not a complete global census.
+
+
+## Further reading
+
+[Read the connected editorial discussion](https://projectodisha.org/global-connections/).

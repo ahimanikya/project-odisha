@@ -1,0 +1,68 @@
+{
+  "status": "PASS_PREPUBLICATION_SCOPE",
+  "reviewed_head": "937ec0af3e30c322e8e0e835763b076272688246",
+  "scope_released": true,
+  "changed_file_count": 34,
+  "changed_files": [
+    "kb/history/LEDGER.md",
+    "kb/index.md",
+    "kb/records/cinema-bideha-publication-2026-11-10.json",
+    "kb/records/cinema-bideha-source-2026-11-10.json",
+    "kb/records/editorial-workbench.json",
+    "kb/research/culture/cinema-series/bideha-source-2026-11-10.json",
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+    "kb/research/culture/cinema-series/literature-and-screen.md",
+    "kb/research/culture/cinema-series/manifest.json",
+    "kb/research/methods/research-map.md",
+    "kb/research/people/biyott-projna-tripathy.md",
+    "kb/research/search-index.json",
+    "kb/team/operations.json",
+    "outputs/cinema-bideha-publication-20261110/anvesha/source-review.json",
+    "outputs/cinema-bideha-publication-20261110/book-release-manifest.json",
+    "outputs/cinema-bideha-publication-20261110/implementation/artifact-marker.json",
+    "outputs/cinema-bideha-publication-20261110/implementation/builds.json",
+    "outputs/cinema-bideha-publication-20261110/implementation/digital-book-build.json",
+    "outputs/cinema-bideha-publication-20261110/implementation/literature-implementation.json",
+    "outputs/cinema-bideha-publication-20261110/implementation/print-book-build.json",
+    "outputs/cinema-bideha-publication-20261110/implementation/profile-implementation.json",
+    "outputs/cinema-bideha-publication-20261110/review/artifact-review.json",
+    "outputs/cinema-bideha-publication-20261110/review/local-article-review.json",
+    "outputs/cinema-bideha-publication-20261110/review/profile-review.json",
+    "outputs/cinema-bideha-source-20261110/anvesha/research.json",
+    "outputs/cinema-bideha-source-20261110/review/review.json",
+    "outputs/cinema-bideha-source-20261110/root/baseline.json",
+    "outputs/cinema-bideha-source-20261110/root/preservation-check.json",
+    "projects/site/editions/coast.json",
+    "projects/site/public/archive/odia-cinema-a-living-screen-2026-11-10-bideha.pdf",
+    "projects/site/public/archive/odia-cinema-a-living-screen-print-2026-11-10-bideha.pdf",
+    "projects/site/src/data/cinema-companions.json",
+    "projects/site/src/data/cinema.json",
+    "projects/site/tests/book-downloads.test.mjs"
+  ],
+  "input_hashes": {
+    "outputs/cinema-bideha-publication-20261110/book-release-manifest.json": "911e36a81cbeec5c4cf38345a6e4e835bbbc3766d4962313655fce0ad766e291",
+    "projects/site/src/data/cinema.json": "4b774388da90e9ee180c0c4661d6dbaaf63f45cdc00677d9d7934428b3d96e3b",
+    "projects/site/src/data/cinema-companions.json": "0d4c7f79ee660eaa05b141f0202a7068427e10b39c4cd0375755cbe525786c63",
+    "projects/site/editions/coast.json": "1ed606c75c34af71ce6d7034875016cff68ec35db61fdba4386457ed0f01de4d",
+    "projects/site/tests/book-downloads.test.mjs": "10fe667c8ba908fafa3c0068b1aef0f1566cee823e917881b9bde8ebbcd3df41",
+    "kb/research/people/biyott-projna-tripathy.md": "2f8d202b938dbc0f6b99d61f0dac87a05b2ceb0ba7d2b049a9150ae4581b0f47",
+    "kb/research/culture/cinema-series/literature-and-screen.md": "8e2f3a2cc8bf98e5402b1281b4c1c1ec1b98f16a13fdc75060792704c832a653"
+  },
+  "checks": [
+    "Read exact origin/main...HEAD diff for source metadata, current/archive descriptors, coast delivery list, test pins, book narrative binding and operations.",
+    "Public source/PDF bytes match prior independent artifact review; public archive copies recomputed exact.",
+    "Prior same-origin descriptors preserved verbatim in manifest; archived descriptors match site data; older archived history unchanged.",
+    "Operations differs only in own Cinema parallel-programme row; historical and foreign keys equal origin/main.",
+    "No builder or unrelated tagged-reader experimental code committed. Test change only updates expected PDF pins; assertions retained.",
+    "Generated workbench changes only two input fingerprints; chapter counts remain50online/49book."
+  ],
+  "prior_review": "outputs/cinema-bideha-publication-20261110/review/artifact-review.json",
+  "validation_limits": [
+    "Coordinator reports full-site build/disclosures and595coast checks pass; initial759/760 test run exposed prior-descriptor mismatch, fixed manifest followed by23/23 targeted release checks. These were not rerun by reviewer.",
+    "Final publication payload build, required hosted CI, merge/deployment and actual live route/download verification remain pending. This verdict does not claim publication."
+  ],
+  "required_corrections": [],
+  "remaining_content_limits": [
+    "Original story pages and first magazine publication unlocated; payment not established."
+  ]
+}
