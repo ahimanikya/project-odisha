@@ -185,3 +185,9 @@ test('unhosted document source is escaped and has no invented hyperlink',async()
  assert.match(rendered,/<cite>Uploaded &lt;work&gt;<\/cite>/);
  assert.match(rendered,/not publicly hosted/);assert.doesNotMatch(rendered,/href=/);
 });
+
+test('public witness notes retain inspection limits without internal reviewer attribution',()=>{
+ const h=read('sayings/pod-dhaga-001.html');
+ assert.match(h,/The scan was visually inspected\./);
+ assert.doesNotMatch(h,/Anvesha and Disha visually inspected/);
+});

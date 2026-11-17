@@ -390,7 +390,7 @@ def consolidate_entry_sources(page, entry, data):
     # Move passage-specific details into the single source area.
     page=re.sub(r'<details><summary>Witnesses, variants &amp; limits</summary>.*?</details>', '', page, count=1, flags=re.S)
     def public_note(text):
-        return esc(text.replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.').replace('AI visual reading','Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))
+        return esc(text.replace('Anvesha and Disha visually inspected the scan.', 'The scan was visually inspected.').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.').replace('AI visual reading','Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))
     for sid in dict.fromkeys(x['source_id'] for x in entry['witnesses']+entry.get('variants',[]) if x.get('source_id')):
         additions=[]
         for w in entry['witnesses']:
