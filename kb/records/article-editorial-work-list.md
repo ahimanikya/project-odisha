@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1100. completed: 214, excluded: 628, in_progress: 1, queued: 257.
+Route inventory: 1292. completed: 214, excluded: 820, in_progress: 1, queued: 257.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1124,3 +1124,195 @@ Route inventory: 1100. completed: 214, excluded: 628, in_progress: 1, queued: 25
 | POD-EDIT-EKAMRA-20261114 | [An Evening in Ekamra: Walking Through Stone, Listening to Song](https://projectodisha.org/stories/ekamra-evening/) | completed | Founder-approved personal essay with seven supplied photographs; first visit to Parsurameswara, Prateek’s tour and Odissi teaching/performance by Omm Prakash and team. No programme credit. |
 | POD-EDIT-BIBHABA-VISIT-20261115 | [A Morning with Odia Bibhaba](https://projectodisha.org/stories/odia-bibhaba-visit/) | completed | Personal visit post published and live verified; committed delivery receipt integrated. No programme credit. |
 | POD-EDIT-PRAHLAD-PERSONAL-20261116 | [Finally Watching Prahlad Natak](https://projectodisha.org/stories/watching-prahlad-natak/) | in_progress | Founder-requested first-person article with supplied photographs in Personal category. No programme credit. |
+| POD-EDIT-DHAGA-359-20261117 | [A fast after a feast](https://projectodisha.org/dhaga/sayings/pod-dhaga-359.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-360-20261117 | [A carefree song on the way home](https://projectodisha.org/dhaga/sayings/pod-dhaga-360.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-361-20261117 | [Like grandfather, like grandson](https://projectodisha.org/dhaga/sayings/pod-dhaga-361.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-362-20261117 | [Wedding plans with no money](https://projectodisha.org/dhaga/sayings/pod-dhaga-362.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-363-20261117 | [Care without spending](https://projectodisha.org/dhaga/sayings/pod-dhaga-363.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-364-20261117 | [When familiarity wears away respect](https://projectodisha.org/dhaga/sayings/pod-dhaga-364.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-365-20261117 | [A spouse’s teasing complaint](https://projectodisha.org/dhaga/sayings/pod-dhaga-365.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-366-20261117 | [Hardship tests conduct](https://projectodisha.org/dhaga/sayings/pod-dhaga-366.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-367-20261117 | [Enjoy what you have earned](https://projectodisha.org/dhaga/sayings/pod-dhaga-367.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-368-20261117 | [One earns, eighty eat](https://projectodisha.org/dhaga/sayings/pod-dhaga-368.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-369-20261117 | [Will bamboo ever smell of sandalwood?](https://projectodisha.org/dhaga/sayings/pod-dhaga-369.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-370-20261117 | [When the teeth are gone](https://projectodisha.org/dhaga/sayings/pod-dhaga-370.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-371-20261117 | [Affection that lasts only in your presence](https://projectodisha.org/dhaga/sayings/pod-dhaga-371.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-372-20261117 | [Praising one’s own cooking](https://projectodisha.org/dhaga/sayings/pod-dhaga-372.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-373-20261117 | [A tearful request for new bangles](https://projectodisha.org/dhaga/sayings/pod-dhaga-373.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-374-20261117 | [Trust answered with deception](https://projectodisha.org/dhaga/sayings/pod-dhaga-374.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-375-20261117 | [Water finds the low bank](https://projectodisha.org/dhaga/sayings/pod-dhaga-375.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-376-20261117 | [An elephant on credit](https://projectodisha.org/dhaga/sayings/pod-dhaga-376.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-377-20261117 | [Watering above, cutting the roots below](https://projectodisha.org/dhaga/sayings/pod-dhaga-377.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-378-20261117 | [Such a helpful friend](https://projectodisha.org/dhaga/sayings/pod-dhaga-378.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-379-20261117 | [All that fuss for this?](https://projectodisha.org/dhaga/sayings/pod-dhaga-379.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-380-20261117 | [Look for corroboration](https://projectodisha.org/dhaga/sayings/pod-dhaga-380.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-381-20261117 | [Two contrary claims from one mouth](https://projectodisha.org/dhaga/sayings/pod-dhaga-381.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-382-20261117 | [One person who outweighs many](https://projectodisha.org/dhaga/sayings/pod-dhaga-382.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-383-20261117 | [Trouble whichever way one turns](https://projectodisha.org/dhaga/sayings/pod-dhaga-383.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-384-20261117 | [Experience becomes knowledge](https://projectodisha.org/dhaga/sayings/pod-dhaga-384.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-385-20261117 | [A fitting place and welcome words](https://projectodisha.org/dhaga/sayings/pod-dhaga-385.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-386-20261117 | [Bold words, sudden retreat](https://projectodisha.org/dhaga/sayings/pod-dhaga-386.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-387-20261117 | [Finding faults in a cumin seed](https://projectodisha.org/dhaga/sayings/pod-dhaga-387.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-388-20261117 | [A covered face, a carrying voice](https://projectodisha.org/dhaga/sayings/pod-dhaga-388.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-389-20261117 | [What shapes the result](https://projectodisha.org/dhaga/sayings/pod-dhaga-389.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-390-20261117 | [Troublesome company joins forces](https://projectodisha.org/dhaga/sayings/pod-dhaga-390.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-391-20261117 | [Small thefts become a habit](https://projectodisha.org/dhaga/sayings/pod-dhaga-391.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-392-20261117 | [Either way, the count stays five](https://projectodisha.org/dhaga/sayings/pod-dhaga-392.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-393-20261117 | [Talk grows, thread wears thin](https://projectodisha.org/dhaga/sayings/pod-dhaga-393.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-394-20261117 | [Every fruit tastes astringent](https://projectodisha.org/dhaga/sayings/pod-dhaga-394.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-395-20261117 | [Who can rewrite fate?](https://projectodisha.org/dhaga/sayings/pod-dhaga-395.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-396-20261117 | [If you act, why fear?](https://projectodisha.org/dhaga/sayings/pod-dhaga-396.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-397-20261117 | [Have the backing before you begin](https://projectodisha.org/dhaga/sayings/pod-dhaga-397.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-398-20261117 | [A smooth talker can sell rotten shrimp](https://projectodisha.org/dhaga/sayings/pod-dhaga-398.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-399-20261117 | [Words can cook a lavish feast](https://projectodisha.org/dhaga/sayings/pod-dhaga-399.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-400-20261117 | [Alike in colour, different in voice](https://projectodisha.org/dhaga/sayings/pod-dhaga-400.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-401-20261117 | [A leaf and salt, but claims of three dishes](https://projectodisha.org/dhaga/sayings/pod-dhaga-401.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-402-20261117 | [The wood’s own brother helps cut it](https://projectodisha.org/dhaga/sayings/pod-dhaga-402.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-403-20261117 | [Ears without gold, gold without ears](https://projectodisha.org/dhaga/sayings/pod-dhaga-403.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-404-20261117 | [Making fuel cakes when the rains arrive](https://projectodisha.org/dhaga/sayings/pod-dhaga-404.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-405-20261117 | [Long in darkness, now two torches](https://projectodisha.org/dhaga/sayings/pod-dhaga-405.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-406-20261117 | [Familiarity understands the gesture](https://projectodisha.org/dhaga/sayings/pod-dhaga-406.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-407-20261117 | [An ascetic since yesterday, already with matted locks](https://projectodisha.org/dhaga/sayings/pod-dhaga-407.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-408-20261117 | [Yesterday’s situation is different today](https://projectodisha.org/dhaga/sayings/pod-dhaga-408.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-409-20261117 | [Sweets for some, harsh greens for others](https://projectodisha.org/dhaga/sayings/pod-dhaga-409.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-410-20261117 | [A measure of grain for one, straw for another](https://projectodisha.org/dhaga/sayings/pod-dhaga-410.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-411-20261117 | [Prosperity for some, ruin for others](https://projectodisha.org/dhaga/sayings/pod-dhaga-411.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-412-20261117 | [A few words that reach the heart](https://projectodisha.org/dhaga/sayings/pod-dhaga-412.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-413-20261117 | [King by another’s strength](https://projectodisha.org/dhaga/sayings/pod-dhaga-413.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-414-20261117 | [Fed by one side, praising the other](https://projectodisha.org/dhaga/sayings/pod-dhaga-414.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-415-20261117 | [A son blamed for a family’s decline](https://projectodisha.org/dhaga/sayings/pod-dhaga-415.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-416-20261117 | [The fibre shares the flowers’ honour](https://projectodisha.org/dhaga/sayings/pod-dhaga-416.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-417-20261117 | [A trayful lost, a handful hoped for](https://projectodisha.org/dhaga/sayings/pod-dhaga-417.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-418-20261117 | [The grievance is remembered](https://projectodisha.org/dhaga/sayings/pod-dhaga-418.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-419-20261117 | [What wedding calls for all this?](https://projectodisha.org/dhaga/sayings/pod-dhaga-419.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-420-20261117 | [The ladle does not taste the curry](https://projectodisha.org/dhaga/sayings/pod-dhaga-420.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-421-20261117 | [Sometimes the cart carries the boat](https://projectodisha.org/dhaga/sayings/pod-dhaga-421.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-422-20261117 | [A waxed parting in grey hair](https://projectodisha.org/dhaga/sayings/pod-dhaga-422.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-423-20261117 | [Anger as enemy, understanding as friend](https://projectodisha.org/dhaga/sayings/pod-dhaga-423.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-424-20261117 | [A boon by anger or austerity](https://projectodisha.org/dhaga/sayings/pod-dhaga-424.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-425-20261117 | [Go a kos, gain a handful](https://projectodisha.org/dhaga/sayings/pod-dhaga-425.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-426-20261117 | [The servant became the mistress](https://projectodisha.org/dhaga/sayings/pod-dhaga-426.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-427-20261117 | [Which virtue of the date palm shall I praise?](https://projectodisha.org/dhaga/sayings/pod-dhaga-427.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-428-20261117 | [Can persuasion make someone one’s own?](https://projectodisha.org/dhaga/sayings/pod-dhaga-428.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-429-20261117 | [Ready to eat, unable to ululate](https://projectodisha.org/dhaga/sayings/pod-dhaga-429.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-430-20261117 | [After eating, why should I go?](https://projectodisha.org/dhaga/sayings/pod-dhaga-430.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-431-20261117 | [Yesterday’s scraps, today’s rejected fritters](https://projectodisha.org/dhaga/sayings/pod-dhaga-431.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-432-20261117 | [I provided, another gained authority](https://projectodisha.org/dhaga/sayings/pod-dhaga-432.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-433-20261117 | [Wherever you go, karma goes with you](https://projectodisha.org/dhaga/sayings/pod-dhaga-433.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-434-20261117 | [The journey and its disappointing fruit](https://projectodisha.org/dhaga/sayings/pod-dhaga-434.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-435-20261117 | [Poverty made a pretext for mockery](https://projectodisha.org/dhaga/sayings/pod-dhaga-435.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-436-20261117 | [Refusing when called upon](https://projectodisha.org/dhaga/sayings/pod-dhaga-436.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-437-20261117 | [Struck or striking, I am done for](https://projectodisha.org/dhaga/sayings/pod-dhaga-437.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-438-20261117 | [The poor ox belongs to no one](https://projectodisha.org/dhaga/sayings/pod-dhaga-438.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-439-20261117 | [Used up a little at a time](https://projectodisha.org/dhaga/sayings/pod-dhaga-439.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-440-20261117 | [Can fine qualities become a drink?](https://projectodisha.org/dhaga/sayings/pod-dhaga-440.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-441-20261117 | [Caught up in the herd’s excitement](https://projectodisha.org/dhaga/sayings/pod-dhaga-441.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-442-20261117 | [Pursue without catching, raise without striking](https://projectodisha.org/dhaga/sayings/pod-dhaga-442.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-443-20261117 | [Crossing with another’s support](https://projectodisha.org/dhaga/sayings/pod-dhaga-443.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-444-20261117 | [All yours, but touch nothing](https://projectodisha.org/dhaga/sayings/pod-dhaga-444.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-445-20261117 | [Let the house burn, so the mice get some of it](https://projectodisha.org/dhaga/sayings/pod-dhaga-445.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-446-20261117 | [House fire and horseback prosperity](https://projectodisha.org/dhaga/sayings/pod-dhaga-446.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-447-20261117 | [Even a straw recovered is something](https://projectodisha.org/dhaga/sayings/pod-dhaga-447.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-448-20261117 | [Digging a well while the house burns](https://projectodisha.org/dhaga/sayings/pod-dhaga-448.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-449-20261117 | [Satisfaction gives way to alarm](https://projectodisha.org/dhaga/sayings/pod-dhaga-449.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-450-20261117 | [No lemon or salt at home, but show outside](https://projectodisha.org/dhaga/sayings/pod-dhaga-450.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-451-20261117 | [A palm-leaf screen and a key at the waist](https://projectodisha.org/dhaga/sayings/pod-dhaga-451.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-452-20261117 | [The wound goes, the mark remains](https://projectodisha.org/dhaga/sayings/pod-dhaga-452.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-453-20261117 | [A dream kept within](https://projectodisha.org/dhaga/sayings/pod-dhaga-453.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-454-20261117 | [The golden cage and the remembered hollow](https://projectodisha.org/dhaga/sayings/pod-dhaga-454.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-455-20261117 | [A nature said to last a lifetime](https://projectodisha.org/dhaga/sayings/pod-dhaga-455.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-456-20261117 | [Six for the horse, nine for its feed](https://projectodisha.org/dhaga/sayings/pod-dhaga-456.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-457-20261117 | [Loose wheel, loose axle](https://projectodisha.org/dhaga/sayings/pod-dhaga-457.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-458-20261117 | [The farmer who sustains many lives](https://projectodisha.org/dhaga/sayings/pod-dhaga-458.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-459-20261117 | [A question about rice, an answer about meals](https://projectodisha.org/dhaga/sayings/pod-dhaga-459.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-460-20261117 | [Three sharing the rice, and another to bring home](https://projectodisha.org/dhaga/sayings/pod-dhaga-460.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-461-20261117 | [The son follows the household’s role](https://projectodisha.org/dhaga/sayings/pod-dhaga-461.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-462-20261117 | [Licking while cutting the throat](https://projectodisha.org/dhaga/sayings/pod-dhaga-462.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-463-20261117 | [Across the roofs, unnoticed](https://projectodisha.org/dhaga/sayings/pod-dhaga-463.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-464-20261117 | [Cultivation and a home](https://projectodisha.org/dhaga/sayings/pod-dhaga-464.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-465-20261117 | [Worry eats away](https://projectodisha.org/dhaga/sayings/pod-dhaga-465.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-466-20261117 | [An identity already known](https://projectodisha.org/dhaga/sayings/pod-dhaga-466.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-467-20261117 | [Let anger die down within](https://projectodisha.org/dhaga/sayings/pod-dhaga-467.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-468-20261117 | [Who can wake the already awake?](https://projectodisha.org/dhaga/sayings/pod-dhaga-468.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-469-20261117 | [Brazen words after wrongdoing](https://projectodisha.org/dhaga/sayings/pod-dhaga-469.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-470-20261117 | [Wisdom after the thief escapes](https://projectodisha.org/dhaga/sayings/pod-dhaga-470.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-471-20261117 | [A thief with a soldier’s bearing](https://projectodisha.org/dhaga/sayings/pod-dhaga-471.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-472-20261117 | [Telling the thief and the constable](https://projectodisha.org/dhaga/sayings/pod-dhaga-472.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-473-20261117 | [Each mind on its own concern](https://projectodisha.org/dhaga/sayings/pod-dhaga-473.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-474-20261117 | [One sin and a thousand](https://projectodisha.org/dhaga/sayings/pod-dhaga-474.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-475-20261117 | [Plenty of dumplings, an untouched mouth](https://projectodisha.org/dhaga/sayings/pod-dhaga-475.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-476-20261117 | [Guile in trade, a bank for water](https://projectodisha.org/dhaga/sayings/pod-dhaga-476.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-477-20261117 | [Shade that travels with you](https://projectodisha.org/dhaga/sayings/pod-dhaga-477.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-478-20261117 | [Mushrooms when the rain comes](https://projectodisha.org/dhaga/sayings/pod-dhaga-478.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-479-20261117 | [The sulking cat returns](https://projectodisha.org/dhaga/sayings/pod-dhaga-479.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-480-20261117 | [Small snake, strong venom](https://projectodisha.org/dhaga/sayings/pod-dhaga-480.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-481-20261117 | [An honouring name and a proud response](https://projectodisha.org/dhaga/sayings/pod-dhaga-481.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-482-20261117 | [Honour held above life](https://projectodisha.org/dhaga/sayings/pod-dhaga-482.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-483-20261117 | [Polished outside, harmful within](https://projectodisha.org/dhaga/sayings/pod-dhaga-483.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-484-20261117 | [Confidence in divine presence](https://projectodisha.org/dhaga/sayings/pod-dhaga-484.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-485-20261117 | [The tall head meets the stick](https://projectodisha.org/dhaga/sayings/pod-dhaga-485.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-486-20261117 | [The polished, hollow drum](https://projectodisha.org/dhaga/sayings/pod-dhaga-486.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-487-20261117 | [Blows for the drum, payment for the drummer](https://projectodisha.org/dhaga/sayings/pod-dhaga-487.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-488-20261117 | [The wary crow’s long life](https://projectodisha.org/dhaga/sayings/pod-dhaga-488.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-489-20261117 | [Sweeping someone else’s doorway](https://projectodisha.org/dhaga/sayings/pod-dhaga-489.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-490-20261117 | [Three hosts, an unfed guest](https://projectodisha.org/dhaga/sayings/pod-dhaga-490.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-491-20261117 | [Three-way care, a jackal’s feast](https://projectodisha.org/dhaga/sayings/pod-dhaga-491.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-492-20261117 | [Your appeal, my son-in-law](https://projectodisha.org/dhaga/sayings/pod-dhaga-492.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-493-20261117 | [A royal mouth, an unprotected back](https://projectodisha.org/dhaga/sayings/pod-dhaga-493.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-494-20261117 | [Beyond branches, among leaves](https://projectodisha.org/dhaga/sayings/pod-dhaga-494.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-495-20261117 | [Oil is oil, water is water](https://projectodisha.org/dhaga/sayings/pod-dhaga-495.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-496-20261117 | [Your wealth, another’s importance](https://projectodisha.org/dhaga/sayings/pod-dhaga-496.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-497-20261117 | [The hand with means and without](https://projectodisha.org/dhaga/sayings/pod-dhaga-497.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-498-20261117 | [A tiger’s fare, a snake’s fare](https://projectodisha.org/dhaga/sayings/pod-dhaga-498.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-499-20261117 | [A thousand merits, but no character](https://projectodisha.org/dhaga/sayings/pod-dhaga-499.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-500-20261117 | [Fate’s rope, the human cow](https://projectodisha.org/dhaga/sayings/pod-dhaga-500.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-501-20261117 | [A month of promises, still tomorrow](https://projectodisha.org/dhaga/sayings/pod-dhaga-501.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-502-20261117 | [Curd with rice, a flower in the hair](https://projectodisha.org/dhaga/sayings/pod-dhaga-502.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-503-20261117 | [One sickle, many handles](https://projectodisha.org/dhaga/sayings/pod-dhaga-503.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-504-20261117 | [A stumble outside, a broken stone at home](https://projectodisha.org/dhaga/sayings/pod-dhaga-504.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-505-20261117 | [A donor with too little cloth](https://projectodisha.org/dhaga/sayings/pod-dhaga-505.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-506-20261117 | [After the deity and its seat](https://projectodisha.org/dhaga/sayings/pod-dhaga-506.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-507-20261117 | [The giver and the long-awaited sweets](https://projectodisha.org/dhaga/sayings/pod-dhaga-507.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-508-20261117 | [Remembering aunt only at the festival](https://projectodisha.org/dhaga/sayings/pod-dhaga-508.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-509-20261117 | [Oily hands from tending the lamp](https://projectodisha.org/dhaga/sayings/pod-dhaga-509.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-510-20261117 | [When the lamp’s oil runs out](https://projectodisha.org/dhaga/sayings/pod-dhaga-510.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-511-20261117 | [The ones in between drown](https://projectodisha.org/dhaga/sayings/pod-dhaga-511.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-512-20261117 | [What is given and what is kept](https://projectodisha.org/dhaga/sayings/pod-dhaga-512.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-513-20261117 | [The good-looking gourd badi](https://projectodisha.org/dhaga/sayings/pod-dhaga-513.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-514-20261117 | [A fine-looking cow, not a drop of milk](https://projectodisha.org/dhaga/sayings/pod-dhaga-514.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-515-20261117 | [Giving praised, asking disparaged](https://projectodisha.org/dhaga/sayings/pod-dhaga-515.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-516-20261117 | [Keep saying yes to giving](https://projectodisha.org/dhaga/sayings/pod-dhaga-516.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-517-20261117 | [Whose wealth, whose greed](https://projectodisha.org/dhaga/sayings/pod-dhaga-517.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-518-20261117 | [Honesty without an opportunity](https://projectodisha.org/dhaga/sayings/pod-dhaga-518.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-519-20261117 | [Tough only before his wife](https://projectodisha.org/dhaga/sayings/pod-dhaga-519.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-520-20261117 | [The day went in sorting grains](https://projectodisha.org/dhaga/sayings/pod-dhaga-520.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-521-20261117 | [A blow when someone is bowed down](https://projectodisha.org/dhaga/sayings/pod-dhaga-521.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-522-20261117 | [Beautiful in one’s own eyes](https://projectodisha.org/dhaga/sayings/pod-dhaga-522.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-523-20261117 | [The bee’s unexpected choice](https://projectodisha.org/dhaga/sayings/pod-dhaga-523.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-524-20261117 | [Appeal calls for attention](https://projectodisha.org/dhaga/sayings/pod-dhaga-524.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-525-20261117 | [A healer in name, death in practice](https://projectodisha.org/dhaga/sayings/pod-dhaga-525.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-526-20261117 | [One ornament, two turns](https://projectodisha.org/dhaga/sayings/pod-dhaga-526.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-527-20261117 | [Applying a matter in the wrong place](https://projectodisha.org/dhaga/sayings/pod-dhaga-527.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-528-20261117 | [The gourd that must be lifted](https://projectodisha.org/dhaga/sayings/pod-dhaga-528.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-529-20261117 | [One’s observance in another’s house](https://projectodisha.org/dhaga/sayings/pod-dhaga-529.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-530-20261117 | [The mouth’s taste and the belly](https://projectodisha.org/dhaga/sayings/pod-dhaga-530.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-531-20261117 | [Wrongful gain spent on atonement](https://projectodisha.org/dhaga/sayings/pod-dhaga-531.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-532-20261117 | [Bangles before the son arrives](https://projectodisha.org/dhaga/sayings/pod-dhaga-532.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-533-20261117 | [The son at court, the father’s bowl](https://projectodisha.org/dhaga/sayings/pod-dhaga-533.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-534-20261117 | [Why save, whichever son he becomes?](https://projectodisha.org/dhaga/sayings/pod-dhaga-534.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-535-20261117 | [Two grandsons, two opposed images](https://projectodisha.org/dhaga/sayings/pod-dhaga-535.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-536-20261117 | [Food for the belly, blows for the back](https://projectodisha.org/dhaga/sayings/pod-dhaga-536.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-537-20261117 | [Hunger within, shame on the face](https://projectodisha.org/dhaga/sayings/pod-dhaga-537.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-538-20261117 | [Coarse rice, hand on the moustache](https://projectodisha.org/dhaga/sayings/pod-dhaga-538.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-539-20261117 | [Your face and mine look beautiful](https://projectodisha.org/dhaga/sayings/pod-dhaga-539.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-540-20261117 | [The great ones failed; the small ones set out](https://projectodisha.org/dhaga/sayings/pod-dhaga-540.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-541-20261117 | [A friend gives strength, a river footing](https://projectodisha.org/dhaga/sayings/pod-dhaga-541.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-542-20261117 | [Meeting the smith, remembering the iron](https://projectodisha.org/dhaga/sayings/pod-dhaga-542.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-543-20261117 | [A father’s backing and a son’s intelligence](https://projectodisha.org/dhaga/sayings/pod-dhaga-543.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-544-20261117 | [The nest sways in the wind](https://projectodisha.org/dhaga/sayings/pod-dhaga-544.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-545-20261117 | [Sinking down and down](https://projectodisha.org/dhaga/sayings/pod-dhaga-545.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-546-20261117 | [A straw for someone drowning](https://projectodisha.org/dhaga/sayings/pod-dhaga-546.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-547-20261117 | [A greeting for the wife’s sake](https://projectodisha.org/dhaga/sayings/pod-dhaga-547.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-548-20261117 | [Garb brings alms](https://projectodisha.org/dhaga/sayings/pod-dhaga-548.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-549-20261117 | [A sour mango tastes good to hunger](https://projectodisha.org/dhaga/sayings/pod-dhaga-549.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-550-20261117 | [I will not stay and endure it](https://projectodisha.org/dhaga/sayings/pod-dhaga-550.html) | excluded | standalone_dhaga_collection |
