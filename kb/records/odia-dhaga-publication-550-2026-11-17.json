@@ -1,5 +1,5 @@
 {
-  "status": "release_verified_website_validation_in_progress",
+  "status": "published_and_live_verified",
   "authorization_quote": "Let's publish the updated Dhaga collection to the website and update the book PDF too.",
   "scope": "Publish reviewed 550-entry collection, 13 added variants and matching book; retain 24 deferred readings outside public entries.",
   "coordinator": "Disha",
@@ -29,9 +29,9 @@
   },
   "baseline_main": "804f155b367939e2b1b11d036a324c659375fd58",
   "content_audit": "output/dhaga-sequential-2026-11-16/completion-audit-review.json",
-  "publication": false,
+  "publication": true,
   "programme_credit": 0,
-  "next_action": "Complete final PDF review, integrate latest main, publish exact release asset and verify website deployment.",
+  "next_action": "Publication complete. Retain 24 deferred readings until attributable evidence resolves them.",
   "local_validation": [
     "Repository16tests passed",
     "Source inventory6tests passed",
@@ -50,7 +50,8 @@
     "source_commit": "PASS",
     "pdf_report_sha256": "5a208b15f6535b9f053e3839be8d91220bdb0b4c5bc34d871e19b376729aaf66",
     "source_report_sha256": "f0608c1830570bb235bd480acd4f8fde3c54ed2ef44ea22fbcd3a5b259adab78",
-    "descriptor": "PASS"
+    "descriptor": "PASS",
+    "final_artifact": "PASS"
   },
   "release": {
     "schema": "project-odisha-pdf-release-v1",
@@ -69,6 +70,59 @@
     "entries": 550
   },
   "anonymous_pdf_download": "PASS_HYDRATED_EXACT",
-  "web_export_bytes": 92475687,
-  "web_export_byte_limit": 95000000
+  "web_export_bytes": 92475673,
+  "web_export_byte_limit": 95000000,
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/782",
+  "merged_commit": "d7df2d370a6e3d7d4e71cf784cc4b8d8de06ce5c",
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 44135045115,
+    "headSha": "d7df2d370a6e3d7d4e71cf784cc4b8d8de06ce5c",
+    "status": "completed",
+    "updatedAt": "2026-11-17T17:27:13Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44135045115"
+  },
+  "verified_routes": [
+    "/dhaga/",
+    "/books/",
+    "/explore/",
+    "/dhaga/sayings/pod-dhaga-001.html",
+    "/dhaga/sayings/pod-dhaga-359.html",
+    "/dhaga/sayings/pod-dhaga-550.html",
+    "/archive/odia-dhaga-550-a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375.pdf"
+  ],
+  "live_checks": {
+    "/dhaga/": {
+      "http": 200,
+      "updated_content": true
+    },
+    "/books/": {
+      "http": 200,
+      "updated_content": true
+    },
+    "/explore/": {
+      "http": 200,
+      "updated_content": true
+    },
+    "/dhaga/sayings/pod-dhaga-001.html": {
+      "http": 200,
+      "updated_content": true
+    },
+    "/dhaga/sayings/pod-dhaga-359.html": {
+      "http": 200,
+      "updated_content": true
+    },
+    "/dhaga/sayings/pod-dhaga-550.html": {
+      "http": 200,
+      "updated_content": true
+    },
+    "/archive/odia-dhaga-550-a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375.pdf": {
+      "http": 200,
+      "sha256": "a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375",
+      "bytes": 110904363
+    }
+  },
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/44131984720",
+  "final_artifact_review_sha256": "6555413924b14f686c3af47d3c27c6bf5beb20140653ff3cdc9d82d53140e3fb",
+  "publication_payload_bytes": 882202379
 }
