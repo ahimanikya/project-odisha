@@ -22,7 +22,18 @@ from svglib.svglib import svg2rlg
 from build import load_library, reading_caption, book_cover, intro_source_ids
 ROOT=Path(__file__).resolve().parent
 # Reviewed exception: preserve the complete critical bilingual reading at normal type size.
-FULL_WIDTH_READING_IDS=frozenset({'POD-DHAGA-268', 'POD-DHAGA-269', 'POD-DHAGA-280', 'POD-DHAGA-285', 'POD-DHAGA-288', 'POD-DHAGA-293', 'POD-DHAGA-252', 'POD-DHAGA-253', 'POD-DHAGA-254', 'POD-DHAGA-246', 'POD-DHAGA-248', 'POD-DHAGA-236', 'POD-DHAGA-235', 'POD-DHAGA-241', 'POD-DHAGA-243', "POD-DHAGA-223", "POD-DHAGA-224", "POD-DHAGA-225", "POD-DHAGA-226", "POD-DHAGA-227", "POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
+FULL_WIDTH_READING_IDS=frozenset({'POD-DHAGA-540', 'POD-DHAGA-524', 'POD-DHAGA-534', 'POD-DHAGA-535', 'POD-DHAGA-550', 'POD-DHAGA-520', 'POD-DHAGA-481', 'POD-DHAGA-454', 'POD-DHAGA-428', 'POD-DHAGA-431', 'POD-DHAGA-365', 'POD-DHAGA-303', 'POD-DHAGA-268', 'POD-DHAGA-269', 'POD-DHAGA-280', 'POD-DHAGA-285', 'POD-DHAGA-288', 'POD-DHAGA-293', 'POD-DHAGA-252', 'POD-DHAGA-253', 'POD-DHAGA-254', 'POD-DHAGA-246', 'POD-DHAGA-248', 'POD-DHAGA-236', 'POD-DHAGA-235', 'POD-DHAGA-241', 'POD-DHAGA-243', "POD-DHAGA-223", "POD-DHAGA-224", "POD-DHAGA-225", "POD-DHAGA-226", "POD-DHAGA-227", "POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
+
+def print_raster_bytes(src, entry_id):
+    """Keep the original edition encoding; reduce only the reviewed new art batch."""
+    number = int(entry_id.rsplit('-', 1)[1])
+    quality = 80 if 302 <= number <= 550 else 90
+    raster = RasterImage.open(src).convert('RGB')
+    raster.thumbnail((1400, 1000))
+    encoded = BytesIO()
+    raster.save(encoded, format='JPEG', quality=quality)
+    encoded.seek(0)
+    return encoded
 
 def public_print_note(text):
     """Remove production attribution only; keep textual uncertainty and review limits."""
@@ -223,7 +234,7 @@ def make_book(root=ROOT):
                     if src.suffix=='.svg':
                         im=svg2rlg(str(src));scale=min(cardwidth/im.width,190/im.height);im.width*=scale;im.height*=scale;im.scale(scale,scale)
                     else:
-                        raster=RasterImage.open(src).convert('RGB');raster.thumbnail((1400,1000));encoded=BytesIO();raster.save(encoded,format='JPEG',quality=90);encoded.seek(0)
+                        encoded=print_raster_bytes(src,ident)
                         im=Image(encoded);scale=min(cardwidth/im.imageWidth,190/im.imageHeight)
                         if ident in {'POD-DHAGA-268','POD-DHAGA-269','POD-DHAGA-280','POD-DHAGA-293'}:
                             scale=min((usable-12)/im.imageWidth,159.7014735658043/im.imageHeight)
