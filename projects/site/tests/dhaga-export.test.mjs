@@ -5,7 +5,7 @@ const read=p=>readFileSync(root+'/dhaga/'+p,'utf8');
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
 test('public Dhaga export preserves every accepted entry and its source links without internal research',()=>{
  assert.equal(readdirSync(root+'/dhaga/sayings').length,data.entries.length);
- for(const e of data.entries){const h=read('sayings/'+e.id.toLowerCase()+'.html');assert.equal((h.match(/class="browse"/g)||[]).length,1,e.id);assert.ok(h.includes('href="#browse-top-'+e.id+'"'));assert.equal((h.match(new RegExp('id="browse-top-'+e.id+'"','g'))||[]).length,1);if(e.id!=='POD-DHAGA-001')assert.equal((h.match(/rel="prev"/g)||[]).length,2);if(e.id!==data.entries.at(-1).id)assert.equal((h.match(/rel="next"/g)||[]).length,2);assert.ok(h.includes(esc(e.odia)),e.id);assert.ok(h.includes(esc(e.explanation)),e.id);assert.ok(h.includes('noindex'));assert.ok(h.includes('/dhaga/sources.html'));assert.doesNotMatch(h,/href="[^\"]*(?:README|source127|evidence\/)/);for(const w of e.witnesses){const s=data.sources.find(s=>s.id===w.source_id);assert.ok(h.includes(esc(s.url)),e.id+': witness');}}
+ for(const e of data.entries){const h=read('sayings/'+e.id.toLowerCase()+'.html');assert.equal((h.match(/class="browse"/g)||[]).length,1,e.id);assert.ok(h.includes('href="#browse-top-'+e.id+'"'));assert.equal((h.match(new RegExp('id="browse-top-'+e.id+'"','g'))||[]).length,1);if(e.id!=='POD-DHAGA-001')assert.equal((h.match(/rel="prev"/g)||[]).length,2);if(e.id!==data.entries.at(-1).id)assert.equal((h.match(/rel="next"/g)||[]).length,2);assert.ok(h.includes(esc(e.odia)),e.id);assert.ok(h.includes(esc(e.explanation)),e.id);assert.ok(h.includes('noindex'));assert.ok(h.includes('/dhaga/sources.html'));assert.doesNotMatch(h,/href="[^\"]*(?:README|source127|evidence\/)/);for(const w of e.witnesses){const s=data.sources.find(s=>s.id===w.source_id);if(s.kind==='document'){assert.ok(h.includes('<cite>'+esc(s.title)+'</cite>'),e.id+': document witness');assert.ok(h.includes('not publicly hosted'));}else assert.ok(h.includes(esc(s.url)),e.id+': witness');}}
  const nav=read('sayings/pod-dhaga-048.html');assert.equal((nav.match(/class="browse"/g)||[]).length,1);assert.match(nav,/href="#browse-top-POD-DHAGA-048">Browse Dhaga ↑/);assert.equal((nav.match(/rel="next"/g)||[]).length,2);
  const all=readdirSync(root+'/dhaga');assert.ok(!all.includes('collection.json'));assert.ok(!all.includes('evidence'));assert.ok(!all.includes('source127.html'));
 });
@@ -16,7 +16,7 @@ test('book navigation uses lowercase public URLs, a pinned exact PDF and retaine
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const exported=JSON.parse(readFileSync('.astro/dhaga-export.json'));
- assert.ok(exported.bytes<=48_000_000,'Complete public export must remain within48MB');
+ assert.ok(exported.bytes<=95_000_000,'Complete public export must remain within95MB');
  assert.equal(exported.pdf_sha256,packing.pdf.sha256);assert.equal(exported.entries,data.entries.length);
  const h=read('index.html');
  const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
@@ -31,7 +31,7 @@ test('colour cover and exact book metadata match the illustrated edition',()=>{
 
 test('public source credits retain exact revisions and distinct quotation rights without research logs',async()=>{
  const {publicSourceCredit}=await import('../tools/export-dhaga.mjs');
- const wiki=data.sources.find(s=>s.url.includes('oldid='));const credit=publicSourceCredit(wiki);
+ const wiki=data.sources.find(s=>s.url?.includes('oldid='));const credit=publicSourceCredit(wiki);
  assert.ok(credit.includes(new URL(wiki.url).searchParams.get('oldid')));assert.ok(credit.includes('creativecommons.org/licenses/by-sa/4.0/'));assert.ok(credit.includes(esc(wiki.title)));assert.ok(!credit.includes(esc(wiki.access)));
  const scert=data.sources.find(s=>s.id.includes('scert'));assert.match(publicSourceCredit(scert),/2024, p.139/);assert.match(publicSourceCredit(scert),/not openly licensed/);
 });
@@ -177,4 +177,17 @@ test('card packaging refuses missing, duplicated or heavy original references be
  const good='<img class="card-art" src="assets/cards/pod-dhaga-001.webp" loading="lazy">';
  assert.deepEqual(validateCardImages(entries,good),['assets/cards/pod-dhaga-001.webp']);
  for(const bad of ['',good+good,good.replace('assets/cards/pod-dhaga-001.webp','assets/one.png'),good+'<img class="card-art" src="assets/cards/pod-dhaga-302.webp">'])assert.throws(()=>validateCardImages(entries,bad),/optimized thumbnail/);
+});
+
+test('unhosted document source is escaped and has no invented hyperlink',async()=>{
+ const {publicSourceCredit}=await import('../tools/export-dhaga.mjs');
+ const rendered=publicSourceCredit({kind:'document',title:'Uploaded <work>',rights:'Unknown & retained'});
+ assert.match(rendered,/<cite>Uploaded &lt;work&gt;<\/cite>/);
+ assert.match(rendered,/not publicly hosted/);assert.doesNotMatch(rendered,/href=/);
+});
+
+test('public witness notes retain inspection limits without internal reviewer attribution',()=>{
+ const h=read('sayings/pod-dhaga-001.html');
+ assert.match(h,/The scan was visually inspected\./);
+ assert.doesNotMatch(h,/Anvesha and Disha visually inspected/);
 });

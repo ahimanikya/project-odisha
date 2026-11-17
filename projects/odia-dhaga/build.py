@@ -21,6 +21,31 @@ def required(obj, fields, context):
         if not isinstance(obj.get(field), str) or not obj[field].strip():
             raise ValueError(f'{context}: missing {field}')
 
+def validate_source_location(source):
+    """A document is identified by its content digest, never a private file link."""
+    if source.get('kind') == 'document':
+        required(source, ['title', 'access', 'rights', 'limits', 'locator', 'document_sha256'], 'document source')
+        if not re.fullmatch(r'[0-9a-f]{64}', source['document_sha256']):
+            raise ValueError('document source requires a lowercase SHA256 identity')
+        if 'url' in source or any(k in source for k in ('path', 'filepath', 'file_path', 'local_path', 'filesystem_path')):
+            raise ValueError('document source must not contain a URL or filesystem path')
+        if re.search(r'/Users/|/private/|/home/|/tmp/|/var/|/Volumes/|file:|[A-Za-z]:[\\\\/]', json.dumps(source)):
+            raise ValueError('document source must not expose a private filesystem path')
+    else:
+        if source.get('kind') not in (None, 'web'):
+            raise ValueError('unsupported source kind')
+        required(source, ['url'], 'web source')
+        url = urlparse(source['url'])
+        if url.scheme not in ('https', 'http') or not url.netloc:
+            raise ValueError('source URL must be HTTP(S)')
+
+
+def source_citation(source):
+    if source.get('kind') == 'document':
+        return f'<cite>{esc(source["title"])}</cite> <span class="note">User-supplied document; not publicly hosted</span>'
+    return f'<a href="{esc(source["url"])}">{esc(source["title"])}</a>'
+
+
 def validate(data):
     required(data, ['title', 'subtitle', 'scope_note', 'checked_on'], 'collection')
     sources, entries = data.get('sources'), data.get('entries')
@@ -39,10 +64,8 @@ def validate(data):
     source_ids = ids(sources, 'source')
     ids(entries, 'entry')
     for source in sources:
-        required(source, ['title', 'url', 'access', 'rights', 'limits'], source['id'])
-        url = urlparse(source['url'])
-        if url.scheme not in ('https', 'http') or not url.netloc:
-            raise ValueError('source URL must be HTTP(S)')
+        required(source, ['title', 'access', 'rights', 'limits'], source['id'])
+        validate_source_location(source)
     for entry in entries:
         required(entry, ['odia', 'literal_meaning', 'explanation', 'usage_example',
                          'cultural_context', 'origin_note', 'rights_note'], entry['id'])
@@ -112,7 +135,7 @@ def introduction_html(data):
             backs=[(f'intro-ref-{section["id"]}-{i}',section['title_english'],i+1) for section in sections for i,p in enumerate(section['paragraphs']) if sid in p.get('source_ids',[])]
             returns=' '.join(f'<a href="#{esc(anchor)}-or" aria-label="Return to Odia reference: {esc(title)}, paragraph {number}">↩ Odia ({esc(title)}, {number})</a> <a href="#{esc(anchor)}" aria-label="Return to English reference: {esc(title)}, paragraph {number}">↩ English ({esc(title)}, {number})</a>' for anchor,title,number in backs)
             detail=source.get('citation') or source.get('bibliography') or source.get('locator','')
-            parts.append(f'<li id="intro-source-{esc(sid)}"><a href="{esc(source["url"])}">{esc(source["title"])}</a> {esc(detail)} {returns}</li>')
+            parts.append(f'<li id="intro-source-{esc(sid)}">{source_citation(source)} {esc(detail)} {returns}</li>')
         parts.append('</ol></section>')
     return ''.join(parts)
 
@@ -234,7 +257,7 @@ def render(data):
     cited_source_ids = {item['source_id'] for entry in data['entries']
                         for item in entry['witnesses'] + entry.get('variants', [])
                         if item.get('source_id')}
-    bibliography = ''.join(f'''<section class="source" id="source-{esc(s['id'])}"><h3><a href="{esc(s['url'])}">{esc(s['title'])}</a></h3>
+    bibliography = ''.join(f'''<section class="source" id="source-{esc(s['id'])}"><h3>{source_citation(s)}</h3>
 {f'<p class="meta">Status: {esc(s["status"])}</p>' if s.get('status') else ''}
 {f'<p><strong>Bibliography:</strong> {esc(s["bibliography"])}</p>' if s.get('bibliography') else ''}
 <p><strong>Access:</strong> {esc(s['access'])}</p><p><strong>Rights:</strong> {esc(s['rights'])}</p>
@@ -351,9 +374,9 @@ def consolidate_entry_sources(page, entry, data):
     for sid in dict.fromkeys(w['source_id'] for w in entry['witnesses']+entry.get('variants',[]) if w.get('source_id')):
         source=sources[sid]
         creator=source.get('creator') or source.get('author')
-        domain=urlparse(source['url']).netloc
+        domain=urlparse(source.get('url', '')).netloc
         if not creator:creator='Odia Wiktionary contributors' if 'wiktionary' in domain else 'Wikimedia Incubator contributors' if 'incubator.wikimedia' in domain else ''
-        credit=f'<section class="source" id="source-{esc(sid)}"><h3><a href="{esc(source["url"])}">{esc(source["title"])}</a></h3>'
+        credit=f'<section class="source" id="source-{esc(sid)}"><h3>{source_citation(source)}</h3>'
         if creator:credit+=f'<p>{esc(creator)}</p>'
         detail=source.get('citation') or source.get('bibliography','')
         if detail:credit+=f'<p>{esc(detail)}</p>'
@@ -367,7 +390,7 @@ def consolidate_entry_sources(page, entry, data):
     # Move passage-specific details into the single source area.
     page=re.sub(r'<details><summary>Witnesses, variants &amp; limits</summary>.*?</details>', '', page, count=1, flags=re.S)
     def public_note(text):
-        return esc(text.replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.').replace('AI visual reading','Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))
+        return esc(text.replace('Anvesha and Disha visually inspected the scan.', 'The scan was visually inspected.').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.').replace('AI visual reading','Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))
     for sid in dict.fromkeys(x['source_id'] for x in entry['witnesses']+entry.get('variants',[]) if x.get('source_id')):
         additions=[]
         for w in entry['witnesses']:

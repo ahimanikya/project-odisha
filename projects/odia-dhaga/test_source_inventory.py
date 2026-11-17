@@ -6,6 +6,16 @@ class SourceInventoryTests(unittest.TestCase):
     def setUp(self):
         self.collection={'entries':[{'id':'POD-DHAGA-001'}]}
         self.data={'title':'Source <127>','scope_note':'Not full text','source':{'title':'Source','url':'https://example.org/source','date':'2017','rights_note':'Unverified'},'positions':[{'number':n,'status':'awaiting_independent_witness','collection_ids':[],'duplicate_of':None,'notes':[]} for n in range(1,128)]}
+    def test_document_concordance_source_without_public_link(self):
+        source=self.data['source'];source.pop('url')
+        source.update(kind='document',document_sha256='b'*64,locator='Uploaded PDF',access='User supplied',rights='Unresolved',limits='No public hosting',title='Uploaded <work>')
+        out=render(self.data,self.collection)
+        self.assertIn('<cite>Uploaded &lt;work&gt;</cite>',out)
+        self.assertIn('User-supplied document; not publicly hosted',out)
+        self.assertNotIn('Open original source',out)
+        source['document_sha256']='invalid'
+        with self.assertRaises(ValueError):validate(self.data,self.collection)
+
     def test_complete_static_output_and_escaping(self):
         self.data['positions'][0]['notes']=['<script>alert(1)</script>']
         out=render(self.data,self.collection)

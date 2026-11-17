@@ -8,9 +8,10 @@ const site=fileURLToPath(new URL('../',import.meta.url)),book=resolve(site,'../o
 const deliveryPath=resolve(book,'pdf-delivery.json');
 export async function validatePdfDelivery(){
  const d=JSON.parse(await readFile(deliveryPath,'utf8'));
- const packing=JSON.parse(await readFile(resolve(book,'packing-report.json'),'utf8')).pdf;
- const name=`odia-dhaga-358-${d.sha256}.pdf`,tag=`dhaga-358-${d.target_commit}`;
- if(d.schema!=='project-odisha-pdf-release-v1'||d.repository!=='ahimanikya/project-odisha'||d.release_immutable!==false||!d.mutability_limit||!Number.isSafeInteger(d.release_id)||d.release_id<1||!Number.isSafeInteger(d.asset_id)||d.asset_id<1||!(/^[a-f0-9]{40}$/).test(d.target_commit)||!(/^[a-f0-9]{64}$/).test(d.sha256)||d.entries!==358||d.pages!==226||d.tag!==tag||d.asset_name!==name||d.browser_download_url!==`https://github.com/${d.repository}/releases/download/${tag}/${name}`)throw Error('Invalid or pending Dhaga release descriptor');
+ const report=JSON.parse(await readFile(resolve(book,'packing-report.json'),'utf8')),packing=report.pdf;
+ const collection=JSON.parse(await readFile(resolve(book,'collection.json'),'utf8'));
+ const name=`odia-dhaga-${d.entries}-${d.sha256}.pdf`,tag=`dhaga-${d.entries}-${d.target_commit}`;
+ if(d.schema!=='project-odisha-pdf-release-v1'||d.repository!=='ahimanikya/project-odisha'||d.release_immutable!==false||!d.mutability_limit||!Number.isSafeInteger(d.release_id)||d.release_id<1||!Number.isSafeInteger(d.asset_id)||d.asset_id<1||!(/^[a-f0-9]{40}$/).test(d.target_commit)||!(/^[a-f0-9]{64}$/).test(d.sha256)||!Number.isSafeInteger(d.entries)||d.entries<1||d.entries!==report.entries||d.entries!==collection.entries.length||!Number.isSafeInteger(d.pages)||d.pages<1||d.tag!==tag||d.asset_name!==name||d.browser_download_url!==`https://github.com/${d.repository}/releases/download/${tag}/${name}`)throw Error('Invalid or pending Dhaga release descriptor');
  if(['pages','bytes','sha256'].some(k=>d[k]!==packing[k]))throw Error('Dhaga release descriptor does not match packing metadata');
  const bytes=await readFile(resolve(book,'odia-dhaga-book.pdf'));
  if(bytes.length!==d.bytes||createHash('sha256').update(bytes).digest('hex')!==d.sha256)throw Error('Dhaga local PDF differs from verified release descriptor');
@@ -18,6 +19,7 @@ export async function validatePdfDelivery(){
 }
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function publicSourceCredit(source){
+ if(source.kind==='document')return '<cite>'+esc(source.title)+'</cite><p>User-supplied document; not publicly hosted</p><p>'+esc(source.rights)+'</p>';
  const url=new URL(source.url),revision=url.searchParams.get('oldid');
  const title='<a href="'+esc(source.url)+'">'+esc(source.title)+'</a>';
  if(url.hostname.endsWith('wiktionary.org')||url.hostname==='incubator.wikimedia.org'){
@@ -114,14 +116,14 @@ export async function exportDhaga(destination){
  for(const e of data.entries){const name=e.id.toLowerCase()+'.html',route='/dhaga/sayings/'+name;routes.push(route);await writeFile(resolve(out,'sayings',name),adapt(await readFile(resolve(book,'sayings',e.id+'.html'),'utf8'),route));}
  const used=new Set(data.entries.flatMap(e=>[...e.witnesses,...(e.variants||[])].map(w=>w.source_id)));
  for(const section of data.book_intro?.sections||[])for(const paragraph of section.paragraphs)for(const sid of paragraph.source_ids||[])used.add(sid);
- const sourceHTML='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dhaga · Sources and rights</title><style>body{font:1.1rem/1.7 Georgia,serif;max-width:72ch;margin:auto;padding:2rem;background:#fffaf0;color:#29251e}a{color:#784025}li{margin:1.5rem 0;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #784025;outline-offset:4px}</style></head><body><a href="#sources">Skip to sources</a><header><a href="/dhaga/">← Book contents</a><h1>Sources &amp; rights</h1></header><main id="sources" tabindex="-1"><p>Original Project Odisha commentary and illustrations are available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA4.0</a>. Explanations are expanded by Project Odisha, drawing on the sources below; applicable share-alike terms are retained. Three short SCERT quotations retain separate source rights; they are not openly licensed or relicensed here. Each Dhaga gives its witnesses, locators and limitations.</p><ul>'+data.sources.filter(s=>used.has(s.id)).map(s=>'<li>'+publicSourceCredit(s)+'</li>').join('')+'</ul><h2>Font licences</h2><ul>'+licences.map(n=>'<li><a href="assets/'+n+'">'+esc(n.replace('-OFL.txt',''))+' · SIL Open Font Licence</a></li>').join('')+'</ul></main><footer></footer></body></html>';
+ const sourceHTML='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dhaga · Sources and rights</title><style>body{font:1.1rem/1.7 Georgia,serif;max-width:72ch;margin:auto;padding:2rem;background:#fffaf0;color:#29251e}a{color:#784025}li{margin:1.5rem 0;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #784025;outline-offset:4px}</style></head><body><a href="#sources">Skip to sources</a><header><a href="/dhaga/">← Book contents</a><h1>Sources &amp; rights</h1></header><main id="sources" tabindex="-1"><p>Original Project Odisha commentary and illustrations are available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA4.0</a>. Explanations are expanded by Project Odisha, drawing on the sources below; applicable share-alike terms are retained. Source quotations retain their own rights, including uploaded, journal, literary and SCERT material; they are not relicensed by the collection. Source-specific rights and access limitations are listed below. Each Dhaga gives its witnesses, locators and limitations.</p><ul>'+data.sources.filter(s=>used.has(s.id)).map(s=>'<li>'+publicSourceCredit(s)+'</li>').join('')+'</ul><h2>Font licences</h2><ul>'+licences.map(n=>'<li><a href="assets/'+n+'">'+esc(n.replace('-OFL.txt',''))+' · SIL Open Font Licence</a></li>').join('')+'</ul></main><footer></footer></body></html>';
  await writeFile(resolve(out,'sources.html'),adapt(sourceHTML,'/dhaga/sources.html'));
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- //358 readings measured47,631,448bytes full export; prior assets exact, new300/301art640px/q60.
- //Historical299 measurement:37.524MB full /37.512MB coast. Current358 bound48MB retains unchanged image quality.
- if(bytes>48_000_000)throw Error('Dhaga web export exceeds48MB budget: '+bytes);
+ //550 readings measured92,475,687bytes full export with existing301illustrations unchanged.
+ //95MB bounds the expanded text/navigation; the complete publication also has a separate1GB gate.
+ if(bytes>95_000_000)throw Error('Dhaga web export exceeds95MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_release_url:delivery.browser_download_url,documents:[pdfURL],pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};
  await mkdir(resolve(site,'.astro'),{recursive:true});await writeFile(resolve(site,'.astro/dhaga-export.json'),JSON.stringify(report,null,2)+'\n');return report;
 }

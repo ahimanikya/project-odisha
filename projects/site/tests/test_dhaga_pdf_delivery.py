@@ -7,7 +7,7 @@ class Tests(unittest.TestCase):
  def setUp(self):
   self.t=tempfile.TemporaryDirectory();self.root=Path(self.t.name).resolve();self.body=b'%PDF-SYNTHETIC-OFFLINE-FIXTURE';sha=hashlib.sha256(self.body).hexdigest();commit='a'*40;tag='dhaga-358-'+commit;name='odia-dhaga-358-'+sha+'.pdf';url=f'https://github.com/ahimanikya/project-odisha/releases/download/{tag}/{name}'
   self.d={'schema':'project-odisha-pdf-release-v1','repository':'ahimanikya/project-odisha','release_immutable':False,'mutability_limit':'Release assets and tags can change; every retrieval must verify identity and bytes.','release_id':123,'asset_id':456,'target_commit':commit,'sha256':sha,'tag':tag,'asset_name':name,'browser_download_url':url,'bytes':len(self.body),'pages':226,'entries':358}
-  self.pack={'pdf':{k:self.d[k] for k in ['pages','bytes','sha256']}}
+  self.pack={'entries':358,'pdf':{k:self.d[k] for k in ['pages','bytes','sha256']}}
   self.asset={'id':456,'name':name,'state':'uploaded','size':len(self.body),'digest':'sha256:'+sha,'browser_download_url':url}
   self.release={'id':123,'tag_name':tag,'target_commitish':commit,'draft':False,'prerelease':False,'immutable':False,'assets':[self.asset]};self.calls=[]
  def tearDown(self):self.t.cleanup()
@@ -26,6 +26,14 @@ class Tests(unittest.TestCase):
   d=copy.deepcopy(self.d);d.update(entries=299,pages=193)
   with self.assertRaises(ValueError):g.hydrate(d,self.pack,self.root/'old.pdf',self.fetch)
   self.assertEqual(self.calls,[])
+ def test_new_edition_bound_to_packing(self):
+  d=copy.deepcopy(self.d);packing=copy.deepcopy(self.pack)
+  d.update(entries=550,pages=350);packing['entries']=550;packing['pdf']['pages']=350
+  d['tag']='dhaga-550-'+d['target_commit'];d['asset_name']='odia-dhaga-550-'+d['sha256']+'.pdf'
+  d['browser_download_url']=f"https://github.com/{d['repository']}/releases/download/{d['tag']}/{d['asset_name']}"
+  self.assertEqual(g.validate_descriptor(d,packing),d['browser_download_url'])
+  packing['entries']=549
+  with self.assertRaises(ValueError):g.validate_descriptor(d,packing)
  def test_identity_refusals(self):
   for key,value in [('release_id',None),('asset_id',0),('tag','latest'),('target_commit','main'),('asset_name','old.pdf'),('sha256','bad'),('bytes',1),('release_immutable',True),('browser_download_url','https://evil.invalid/a')]:
    with self.subTest(key=key):

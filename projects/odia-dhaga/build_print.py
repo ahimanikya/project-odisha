@@ -24,6 +24,15 @@ ROOT=Path(__file__).resolve().parent
 # Reviewed exception: preserve the complete critical bilingual reading at normal type size.
 FULL_WIDTH_READING_IDS=frozenset({'POD-DHAGA-268', 'POD-DHAGA-269', 'POD-DHAGA-280', 'POD-DHAGA-285', 'POD-DHAGA-288', 'POD-DHAGA-293', 'POD-DHAGA-252', 'POD-DHAGA-253', 'POD-DHAGA-254', 'POD-DHAGA-246', 'POD-DHAGA-248', 'POD-DHAGA-236', 'POD-DHAGA-235', 'POD-DHAGA-241', 'POD-DHAGA-243', "POD-DHAGA-223", "POD-DHAGA-224", "POD-DHAGA-225", "POD-DHAGA-226", "POD-DHAGA-227", "POD-DHAGA-220", "POD-DHAGA-221", "POD-DHAGA-222", "POD-DHAGA-199", "POD-DHAGA-200", "POD-DHAGA-202", "POD-DHAGA-204", "POD-DHAGA-206", "POD-DHAGA-214", "POD-DHAGA-213", "POD-DHAGA-212", "POD-DHAGA-216", "POD-DHAGA-218", "POD-DHAGA-215", "POD-DHAGA-219", "POD-DHAGA-217"})
 
+def public_print_note(text):
+    """Remove production attribution only; keep textual uncertainty and review limits."""
+    return text.replace('Anvesha and Disha visually inspected the scan.', 'The scan was visually inspected.').replace('AI visual reading', 'Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending', 'with human Odia proofreading still pending')
+
+def print_source_citation(source, label):
+    if source.get('kind') == 'document':
+        return escape(label) + ' · User-supplied document; not publicly hosted'
+    return '<link href="'+escape(source['url'],quote=True)+'">'+escape(label)+'</link>'
+
 class FlowPage(Flowable):
     def __init__(self, placements, width, height, filler=None):
         Flowable.__init__(self);self.placements=placements;self.width=width;self.height=height;self.filler=filler
@@ -75,7 +84,7 @@ def pack_reading_units(units,column_width,page_width,available):
     """Pack intact units; only explicitly reviewed exceptions get a dedicated wide page."""
     pages=[];placed=[];column=0;top=0;chapter_pages={};packing=[]
     for item in units:
-        wide=item['id'] in FULL_WIDTH_READING_IDS
+        wide=item['id'] in FULL_WIDTH_READING_IDS or item.get('variant_reading',False)
         measure_width=page_width if wide else column_width
         try:h,image_fit=fit_reading_unit(item['unit'],measure_width,available)
         except ValueError as error:raise ValueError(f"Unit {item['id']}: {error}") from error
@@ -96,6 +105,34 @@ def pack_reading_units(units,column_width,page_width,available):
             placed.append(item);top+=h+22
     if placed:pages.append(placed)
     return pages,chapter_pages,packing
+
+def pack_credit_blocks(units,width,available,header_height):
+    """Continue long source acknowledgements across columns without shrinking text."""
+    pages=[];group=[];column=0;top=0;limit=available-header_height
+    def advance():
+        nonlocal group,column,top,limit
+        if column==0:column=1
+        else:pages.append(group);group=[];column=0;limit=available
+        top=0
+    for blocks,_,_ in units:
+        pending=list(blocks)
+        # Keep a source/entry heading with its first detail, wherever it fits.
+        opening=sum(b.wrap(width,10000)[1]+b.getSpaceAfter() for b in pending[:2])
+        if top and opening<=limit and opening>limit-top:advance()
+        while pending:
+            block=pending.pop(0);h=block.wrap(width,10000)[1]+block.getSpaceAfter()
+            if h>limit-top:
+                pieces=block.split(width,max(0,limit-top-block.getSpaceAfter()))
+                if pieces:
+                    block=pieces[0];pending=pieces[1:]+pending
+                    h=block.wrap(width,10000)[1]+block.getSpaceAfter()
+                elif top or limit<available:
+                    advance();pending.insert(0,block);continue
+                else:raise ValueError('Unsplittable credit block exceeds column')
+            group.append({'unit':([block],None,None),'column':column,'top':top});top+=h
+        top+=9
+    if group:pages.append(group)
+    return pages
 
 def make_book(root=ROOT):
     root=Path(root);data=load_library(root);design=json.loads((root/'research-design.json').read_text())
@@ -158,7 +195,7 @@ def make_book(root=ROOT):
                     source=sources[sid];detail=source.get('citation') or source.get('bibliography') or source.get('locator','')
                     label=f"[{number}] {source['title']} · {detail}"
                     style=styles['small'].clone('intro-credit',fontName='Odia' if re.search(r'[\u0b00-\u0b7f]',label) else 'English')
-                    story.append(Paragraph('<link href="'+escape(source['url'],quote=True)+'">'+escape(label)+'</link>',style))
+                    story.append(Paragraph(print_source_citation(source,label),style))
             story.extend([Spacer(1,24),p('Contents','heading')])
             story.extend(p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {chapter_pages.get(ch['label'],0)}") for ch in design['shelves'])
             story.extend([Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example. Source acknowledgements and reuse rights are collected at the end.','small')])
@@ -192,7 +229,11 @@ def make_book(root=ROOT):
                             scale=min((usable-12)/im.imageWidth,159.7014735658043/im.imageHeight)
                         im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale
                     caption=p(reading_caption(g['caption']),'small')
-                units.append({'id':ident,'chapter':ch['label'],'unit':(blocks,im,caption)})
+                units.append({'id':ident,'chapter':ch['label'],'source_entry_sha256':hashlib.sha256((root/'entries'/(ident+'.json')).read_bytes()).hexdigest(),'unit':(blocks,im,caption)})
+                for variant_number,variant in enumerate(e.get('variants',[]),1):
+                    source=next(s for s in data['sources'] if s['id']==variant['source_id'])
+                    variant_blocks=[p(ch['label']+' · Dhaga '+ident.rsplit('-',1)[1]+' · Variant '+str(variant_number),'label'),p(variant['odia'],'saying'),p(public_print_note(variant.get('note','')),'odia'),p('Source: '+source['title']+' · '+variant.get('locator',''),'small')]
+                    units.append({'id':ident+'-variant-'+str(variant_number),'entry_id':ident,'variant_reading':True,'variant_sha256':hashlib.sha256(json.dumps(variant,ensure_ascii=False,sort_keys=True).encode()).hexdigest(),'chapter':ch['label'],'unit':(variant_blocks,None,None)})
                 for sid in dict.fromkeys(w['source_id'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')):
                     primary.setdefault(sid,[]).append(e['id'].rsplit('-',1)[1])
         # First pass: measure intact reading units and pack down left, then right.
@@ -238,22 +279,36 @@ def make_book(root=ROOT):
         for index,placements in enumerate(pages):story.extend([PageBreak(),FlowPage(placements,usable-12,available,page_fillers.get(index))])
         styles=front_styles
         sources={s['id']:s for s in data['sources']}
+        note_units=[([p('Textual notes and source limits','heading'),p('These notes preserve the source wording, editorial repairs and limits associated with each reading. Variant notes appear beside their variant readings.','small')],None,None)]
+        for entry in data['entries']:
+            blocks=[p('Dhaga '+entry['id'].rsplit('-',1)[1]+' · '+entry['title'],'body')]
+            if entry.get('origin_note'):blocks.append(p(public_print_note(entry['origin_note']),'small'))
+            for witness in entry['witnesses']:
+                source=sources[witness['source_id']]
+                blocks.append(p(source['title']+' · '+witness.get('locator',''),'small'))
+                if witness.get('wording'):blocks.append(p(witness['wording'],'small'))
+                if witness.get('note'):blocks.append(p(public_print_note(witness['note']),'small'))
+            note_units.append((blocks,None,None))
+        note_pages=pack_credit_blocks(note_units,cardwidth,available,0)
+        for placements in note_pages:story.extend([PageBreak(),FlowPage(placements,usable-12,available)])
+
         headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Explanations expanded by Project Odisha, drawing on the sources below. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
         credit_units=[]
         for sid in intro_source_ids(data):primary.setdefault(sid,[])
         for sid,ids in primary.items():
-            source=sources[sid];url=quote(source['url'],safe=':/?&=%#');parts=urlsplit(url)
+            source=sources[sid];url=quote(source.get('url',''),safe=':/?&=%#');parts=urlsplit(url)
             creator=source.get('creator') or source.get('author') or ('Odia Wiktionary contributors' if 'wiktionary' in parts.netloc else 'Wikimedia Incubator contributors' if 'incubator.wikimedia' in parts.netloc else 'Creator not established in source record')
             if not isinstance(creator,str):creator=json.dumps(creator,ensure_ascii=False)
             credit_title_style=styles['body'].clone('credit-title',fontName='Odia' if re.search(r'[\u0b00-\u0b7f]',source['title']) else 'English')
             title=Paragraph(escape(source['title']),credit_title_style)
-            title.source_url=url
+            if url:title.source_url=url
             locators=list(dict.fromkeys(w['locator'] for e in data['entries'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')==sid and w.get('locator')))
             revision=parse_qs(parts.query).get('oldid',[''])[0]
             detail=source.get('citation') or (('Revision '+revision) if revision else source.get('bibliography',''))
             blocks=[title,p(creator+(' · Dhaga '+', '.join(sorted(ids,key=int)) if ids else ' · Introduction'),'small')]
+            if source.get('kind') == 'document':blocks.append(p('User-supplied document; not publicly hosted','small'))
             if detail:blocks.append(p(detail,'small'))
-            if locators:blocks.append(p('; '.join(locators),'small'))
+            blocks.extend(p(locator,'small') for locator in locators)
             # These new lexical references require their reviewed note-only limits in print.
             if sid in {'dhaga-wiktionary-212713','dhaga-wiktionary-227729','dhaga-wiktionary-220334'}:
                 notes=dict.fromkeys(w['note'] for e in data['entries'] for w in e['witnesses'] if w.get('source_id')==sid and 'wording' not in w and w.get('note'))
@@ -266,15 +321,7 @@ def make_book(root=ROOT):
                 blocks.append(p(source['rights'],'small'))
             credit_units.append((blocks,None,None))
         header_height=sum(v.wrap(usable-12,10000)[1]+v.getSpaceAfter() for v in headers)+16
-        credit_pages=[];group=[];column=0;top=0;limit=available-header_height
-        for unit in credit_units:
-            h=unit_height(unit,cardwidth)
-            if top and top+h>limit:
-                if column==0:column=1;top=0
-                else:credit_pages.append(group);group=[];column=0;top=0;limit=available
-            if h>limit:raise ValueError('Credit entry too tall')
-            group.append({'unit':unit,'column':column,'top':top});top+=h+9
-        if group:credit_pages.append(group)
+        credit_pages=pack_credit_blocks(credit_units,cardwidth,available,header_height)
         class CreditPage(Flowable):
             def __init__(self,placements,first):
                 Flowable.__init__(self);self.width=usable-12;self.height=available;self.placements=placements;self.first=first
@@ -293,7 +340,7 @@ def make_book(root=ROOT):
         document.build(story,onFirstPage=page_number,onLaterPages=page_number)
         pdf_bytes=out.read_bytes()
         pdf_metadata={'pages':document.page,'bytes':len(pdf_bytes),'sha256':hashlib.sha256(pdf_bytes).hexdigest()}
-        (root/'packing-report.json').write_text(json.dumps({'pdf':pdf_metadata,'entries':len(units),'reading_pages':len(pages),'first_reading_page':first_reading_page,'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
+        (root/'packing-report.json').write_text(json.dumps({'pdf':pdf_metadata,'entries':len(data['entries']),'reading_units':len(units),'variant_readings':sum(len(e.get('variants',[])) for e in data['entries']),'illustrated_entries':sum(bool(e.get('graphic')) for e in data['entries']),'textual_note_entries':len(data['entries']),'textual_note_pages':len(note_pages),'reading_pages':len(pages),'first_reading_page':first_reading_page,'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
         print('Reading pages:',len(pages),'units:',len(units),'shrink:',1)
         return out
 if __name__=='__main__':print(make_book())

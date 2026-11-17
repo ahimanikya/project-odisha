@@ -1,0 +1,74 @@
+{
+  "status": "release_verified_website_validation_in_progress",
+  "authorization_quote": "Let's publish the updated Dhaga collection to the website and update the book PDF too.",
+  "scope": "Publish reviewed 550-entry collection, 13 added variants and matching book; retain 24 deferred readings outside public entries.",
+  "coordinator": "Disha",
+  "workers": {
+    "Samanta": "PDF generation, necessary layout fixes and edition guards/tests; no publishing",
+    "Anvesha": "Read-only release/discovery reconnaissance",
+    "Drishti": "Independent source, PDF visual and release review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/odia-dhaga/build_print.py",
+      "projects/odia-dhaga/packing-report.json",
+      "projects/odia-dhaga/odia-dhaga-book.pdf",
+      "projects/site/tools/export-dhaga.mjs",
+      "projects/site/tools/verify-dhaga-pdf.py",
+      "related edition guard tests"
+    ],
+    "Disha": [
+      "Git/release/deployment",
+      "projects/odia-dhaga/pdf-delivery.json",
+      "kb/records/odia-dhaga-publication-550-2026-11-17.json",
+      "release evidence and history"
+    ],
+    "Drishti": [
+      "output/dhaga-publication-2026-11-17/review reports"
+    ]
+  },
+  "baseline_main": "804f155b367939e2b1b11d036a324c659375fd58",
+  "content_audit": "output/dhaga-sequential-2026-11-16/completion-audit-review.json",
+  "publication": false,
+  "programme_credit": 0,
+  "next_action": "Complete final PDF review, integrate latest main, publish exact release asset and verify website deployment.",
+  "local_validation": [
+    "Repository16tests passed",
+    "Source inventory6tests passed",
+    "Transcription fixtures passed",
+    "Autonomous programme consistency passed",
+    "Team consistency passed"
+  ],
+  "reviewed_source_commit": "4e5cc6b036fd7fe95dabce76eace92943a0d9aad",
+  "pdf": {
+    "pages": 422,
+    "bytes": 110904363,
+    "sha256": "a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375"
+  },
+  "independent_review": {
+    "pdf": "PASS",
+    "source_commit": "PASS",
+    "pdf_report_sha256": "5a208b15f6535b9f053e3839be8d91220bdb0b4c5bc34d871e19b376729aaf66",
+    "source_report_sha256": "f0608c1830570bb235bd480acd4f8fde3c54ed2ef44ea22fbcd3a5b259adab78",
+    "descriptor": "PASS"
+  },
+  "release": {
+    "schema": "project-odisha-pdf-release-v1",
+    "repository": "ahimanikya/project-odisha",
+    "release_immutable": false,
+    "mutability_limit": "Release assets and tags can change; every retrieval must verify identity and bytes.",
+    "release_id": 448920161,
+    "asset_id": 759838474,
+    "target_commit": "4e5cc6b036fd7fe95dabce76eace92943a0d9aad",
+    "sha256": "a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375",
+    "tag": "dhaga-550-4e5cc6b036fd7fe95dabce76eace92943a0d9aad",
+    "asset_name": "odia-dhaga-550-a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375.pdf",
+    "browser_download_url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-550-4e5cc6b036fd7fe95dabce76eace92943a0d9aad/odia-dhaga-550-a84bd7b50f3c91a038ee394a74c93aa433d12d0c56dc09121cf15e6e71223375.pdf",
+    "bytes": 110904363,
+    "pages": 422,
+    "entries": 550
+  },
+  "anonymous_pdf_download": "PASS_HYDRATED_EXACT",
+  "web_export_bytes": 92475687,
+  "web_export_byte_limit": 95000000
+}
