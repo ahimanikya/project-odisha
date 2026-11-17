@@ -1,0 +1,42 @@
+{
+  "status": "preparing_authorized_publication",
+  "authorization_quote": "Let's publish the updated Dhaga collection to the website and update the book PDF too.",
+  "scope": "Publish reviewed 550-entry collection, 13 added variants and matching book; retain 24 deferred readings outside public entries.",
+  "coordinator": "Disha",
+  "workers": {
+    "Samanta": "PDF generation, necessary layout fixes and edition guards/tests; no publishing",
+    "Anvesha": "Read-only release/discovery reconnaissance",
+    "Drishti": "Independent source, PDF visual and release review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/odia-dhaga/build_print.py",
+      "projects/odia-dhaga/packing-report.json",
+      "projects/odia-dhaga/odia-dhaga-book.pdf",
+      "projects/site/tools/export-dhaga.mjs",
+      "projects/site/tools/verify-dhaga-pdf.py",
+      "related edition guard tests"
+    ],
+    "Disha": [
+      "Git/release/deployment",
+      "projects/odia-dhaga/pdf-delivery.json",
+      "kb/records/odia-dhaga-publication-550-2026-11-17.json",
+      "release evidence and history"
+    ],
+    "Drishti": [
+      "output/dhaga-publication-2026-11-17/review reports"
+    ]
+  },
+  "baseline_main": "804f155b367939e2b1b11d036a324c659375fd58",
+  "content_audit": "output/dhaga-sequential-2026-11-16/completion-audit-review.json",
+  "publication": false,
+  "programme_credit": 0,
+  "next_action": "Complete final PDF review, integrate latest main, publish exact release asset and verify website deployment.",
+  "local_validation": [
+    "Repository16tests passed",
+    "Source inventory6tests passed",
+    "Transcription fixtures passed",
+    "Autonomous programme consistency passed",
+    "Team consistency passed"
+  ]
+}

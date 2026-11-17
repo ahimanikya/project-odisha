@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 from urllib.parse import urlparse
-from build import CSS, esc
+from build import CSS, esc, validate_source_location, source_citation
 ROOT = Path(__file__).resolve().parent
 STATUSES = {'independent_witness_candidate': 'Independent witness candidate', 'awaiting_independent_witness': 'Awaiting independent witness', 'existing_reader_match': 'Existing reader match', 'duplicate_source_position': 'Duplicate source position', 'user_supplied_candidate': 'User-supplied candidate'}
 
@@ -13,12 +13,10 @@ def validate(data, collection):
         if not isinstance(data.get(field), str) or not data[field].strip():
             raise ValueError('Missing '+field)
     source = data.get('source', {})
-    for field in ('title', 'url', 'date', 'rights_note'):
+    for field in ('title', 'date', 'rights_note'):
         if not isinstance(source.get(field), str) or not source[field].strip():
             raise ValueError('Missing source '+field)
-    u = urlparse(source['url'])
-    if u.scheme not in ('http','https') or not u.netloc:
-        raise ValueError('Unsafe source URL')
+    validate_source_location(source)
     positions = data.get('positions', [])
     numbers = [p.get('number') for p in positions]
     if len(numbers) != 127 or any(type(n) is not int for n in numbers) or sorted(numbers) != list(range(1,128)):
@@ -70,9 +68,10 @@ def render(data, collection):
         notes=''.join(f'<li>{esc(note)}</li>' for note in p['notes'])
         cards.append(f'<li class="entry" id="position-{n}"><h2><a href="#position-{n}">Position {n}</a></h2><p class="status">{STATUSES[p["status"]]}</p>{"<p>Reader links: "+links+"</p>" if links else ""}{duplicate}{user}{witness}{"<ul>"+notes+"</ul>" if notes else ""}</li>')
     source=data['source']; counts={s:sum(p['status']==s for p in data['positions']) for s in STATUSES}
+    original_source = source_citation(source) if source.get('kind') == 'document' else f'<a href="{esc(source["url"])}">Open original source</a>'
     tally=' · '.join(f'{STATUSES[s]}: {n}' for s,n in counts.items())
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(data['title'])}</title><style>{CSS}
-.positions{{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.positions .entry{{padding:1.3rem}}.positions h2{{font-family:inherit;font-size:1.25rem;line-height:1.4;margin:0}}[lang="or"]{{font-family:Odia,serif;font-size:1.2rem;line-height:1.9}}.positions a,.positions li{{overflow-wrap:anywhere}}@media(max-width:640px){{.positions{{grid-template-columns:1fr}}}}</style></head><body><a class="skip" href="#positions">Skip to positions</a><header><p class="eyebrow">Project Odisha · Source concordance</p><h1>{esc(data['title'])}</h1><p class="subtitle">127 source positions · {len(collection['entries'])} explained reader entries</p><p class="scope">{esc(data['scope_note'])}</p><p>This is a map of numbered source positions, not a transcription of all 127 sayings or 127 independently verified entries.</p><nav class="header-links" aria-label="Concordance resources"><a href="index.html">Read explained sayings</a><a href="{esc(source['url'])}">Open original source</a><a href="source127.json">Concordance data</a></nav><p>Source: {esc(source['title'])} · {esc(source['date'])}</p><p>{esc(source['rights_note'])}</p><p>{tally}</p></header><main><h2 id="positions">Source positions</h2><ol class="positions">{''.join(cards)}</ol></main><footer>Unmatched positions retain their research status. No missing wording or meaning has been invented.<p>{esc(data.get("attribution", "Independent witness wording is attributed to the linked sources."))}</p><p>Adaptation licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; source rights and limits remain as stated. The original blog compilation is not reproduced or relicensed here.</p></footer></body></html>'''
+.positions{{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.positions .entry{{padding:1.3rem}}.positions h2{{font-family:inherit;font-size:1.25rem;line-height:1.4;margin:0}}[lang="or"]{{font-family:Odia,serif;font-size:1.2rem;line-height:1.9}}.positions a,.positions li{{overflow-wrap:anywhere}}@media(max-width:640px){{.positions{{grid-template-columns:1fr}}}}</style></head><body><a class="skip" href="#positions">Skip to positions</a><header><p class="eyebrow">Project Odisha · Source concordance</p><h1>{esc(data['title'])}</h1><p class="subtitle">127 source positions · {len(collection['entries'])} explained reader entries</p><p class="scope">{esc(data['scope_note'])}</p><p>This is a map of numbered source positions, not a transcription of all 127 sayings or 127 independently verified entries.</p><nav class="header-links" aria-label="Concordance resources"><a href="index.html">Read explained sayings</a>{original_source}<a href="source127.json">Concordance data</a></nav><p>Source: {esc(source['title'])} · {esc(source['date'])}</p><p>{esc(source['rights_note'])}</p><p>{tally}</p></header><main><h2 id="positions">Source positions</h2><ol class="positions">{''.join(cards)}</ol></main><footer>Unmatched positions retain their research status. No missing wording or meaning has been invented.<p>{esc(data.get("attribution", "Independent witness wording is attributed to the linked sources."))}</p><p>Adaptation licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; source rights and limits remain as stated. The original blog compilation is not reproduced or relicensed here.</p></footer></body></html>'''
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,default=ROOT/'source127.json');p.add_argument('--collection',type=Path,default=ROOT/'collection.json');p.add_argument('--output',type=Path,default=ROOT/'source127.html');a=p.parse_args()

@@ -22,6 +22,40 @@ class Document(HTMLParser):
         if tag=='article':self.entries.append(a)
 
 class RepositoryTests(unittest.TestCase):
+    def document_fixture(self):
+        d=fixture();source=d['sources'][0];source.pop('url')
+        source.update(kind='document',document_sha256='a'*64,locator='Uploaded PDF, page 1',title='Uploaded <work> & notes')
+        return d
+
+    def test_document_source_citations_across_renderers(self):
+        from build import consolidate_entry_sources, introduction_html, source_citation
+        d=self.document_fixture();validate(d)
+        expected='<cite>Uploaded &lt;work&gt; &amp; notes</cite>'
+        d['book_intro']={'sections':[{'id':'intro','title_odia':'ଆରମ୍ଭ','title_english':'Introduction','paragraphs':[{'odia':'ଅର୍ଥ','english':'Meaning','source_ids':['source-1']}]}]}
+        for out in [render(d),consolidate_entry_sources(render(d),d['entries'][0],d),introduction_html(d)]:
+            self.assertIn(expected,out)
+            self.assertIn('User-supplied document; not publicly hosted',out)
+            doc=Document();doc.feed(out)
+            self.assertNotIn('',doc.links)
+            self.assertFalse(any('Uploaded' in link or link.startswith('file:') for link in doc.links))
+            self.assertNotIn('<work>',out)
+        self.assertEqual(source_citation(fixture()['sources'][0]),'<a href="https://example.org/book">Witness</a>')
+
+    def test_document_source_identity_and_private_paths_rejected(self):
+        for field in ['title','access','rights','limits','locator','document_sha256']:
+            d=self.document_fixture();del d['sources'][0][field]
+            with self.subTest(missing=field),self.assertRaises(ValueError):validate(d)
+        for digest in ['a'*63,'A'*64,'g'*64,True,123,None]:
+            d=self.document_fixture();d['sources'][0]['document_sha256']=digest
+            with self.subTest(digest=digest),self.assertRaises(ValueError):validate(d)
+        for key,value in [('url','https://example.org/fake'),('url',''),('path','secret.pdf'),('locator','/tmp/private.pdf'),('locator','/Users/person/file.pdf'),('access','file:///tmp/doc.pdf'),('locator',r'C:\Users\person\file.pdf')]:
+            d=self.document_fixture();d['sources'][0][key]=value
+            with self.subTest(key=key,value=value),self.assertRaises(ValueError):validate(d)
+        d=fixture();del d['sources'][0]['url']
+        with self.assertRaises(ValueError):validate(d)
+        d=fixture();d['sources'][0]['kind']='unknown'
+        with self.assertRaises(ValueError):validate(d)
+
     def test_valid_and_all_static_entries_without_javascript(self):
         data=fixture(); out=render(data); p=Document();p.feed(out)
         self.assertEqual(len(p.entries),1); self.assertNotIn('hidden',p.entries[0])

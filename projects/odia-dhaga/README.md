@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **358 explained sayings and idioms, 301 accompanying illustrations, and 258 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **550 explained sayings and idioms, 301 accompanying illustrations, and 271 source records**. It is a bounded collection, not a complete anthology. It includes user-supplied compilation witnesses alongside located public witnesses. Source wording, editorial repairs, uncertain readings and limits of interpretation remain identified; uploaded or separately copyrighted quotations retain their own rights. Historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -111,7 +111,7 @@ Run `python3 build.py` in this folder. It reads the entry folder by default and 
 
 ## Printable reading edition
 
-The reader download is `odia-dhaga-book.pdf`, an A4 book with flowing two-column readings and alternating illustration placement, a bilingual subject introduction, chapter contents, illustrations and compact source credits. It deliberately omits the online witness, variant and research-limit panels; the canonical evidence remains unchanged.
+The reader download is `odia-dhaga-book.pdf`, an A4 book with flowing two-column readings and alternating illustration placement, a bilingual subject introduction, chapter contents, illustrations and compact source credits. The current550-entry edition includes all36 recorded variants as source-attributed readings with their complete notes, including uncertainty and editorial qualifications. All301 accompanying illustrations remain. A textual-notes section preserves each entry’s original witness wording, source notes, repair notices and origin limits. Detailed online research panels remain available separately; canonical evidence is unchanged.
 
 After editing entries or the introduction, run `python3 build.py`, then regenerate the PDF with `python3 build_print.py` in an environment containing `requirements-print.txt`. The generator converts the bundled licensed fonts temporarily and uses HarfBuzz shaping for Odia. Inspect rendered pages after regeneration; PDF text extraction alone cannot verify Odia glyph shaping.
 

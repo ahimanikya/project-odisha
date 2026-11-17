@@ -1530,3 +1530,8 @@ Final download-verification receipt PR731 merged at b94cfe53 after required vali
 ### 9 November 2026 · Existing GitHub hosting capacity published and verified
 
 PR733 merged at9d2cbf32 after required validation42508884668 passed on reviewed head3d71ebc8. Deployment42510035032 succeeded:870307518bytes/2869files,129692482bytes headroom. Fourteen unchanged MP4s use exact verified GitHub release copies; original files, all PDFs and images remain preserved. Live13PDFs (11current books and2historical scans) match full bytes and hashes with direct200application/pdf and39exact206ranges. All39updated pages,26VTTs and14posters pass. Chrome live playback, seeking and English/Odia captions pass. Embedded1991links across13PDFs contain no old video addresses. Independent source/final-artifact review passed; zero programme credit. [Receipt](../records/hosting-capacity-20261108.json).
+
+
+### 16 November 2026 · Uploaded Dhaga sequence started
+
+The Founder authorized continuous one-by-one processing of229 candidates from the uploaded32-page PDF. The comparison baseline is358 readings. PDF-002 is under source review; zero additions accepted at this point. The durable queue records each entry separately. Other programme claims remain intact. [Handoff](../records/odia-dhaga-upload-sequence-2026-11-16.json).
