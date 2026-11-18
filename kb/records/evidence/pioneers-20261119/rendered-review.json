@@ -1,0 +1,67 @@
+{
+  "reviewer": "Drishti — independent AI integration review",
+  "reviewed_on": "2026-11-19",
+  "verdict": "PASS",
+  "blocking_findings": [],
+  "profiles": [
+    {
+      "slug": "bc-mohanty",
+      "paragraphs": 11,
+      "draft_sha256": "7fa580e96985a2de7f26129dd048dde281092351287b73c97b387b7a7a67e6a4",
+      "image": "/assets/pioneers/bc-mohanty-illustration.webp",
+      "result": "PASS"
+    },
+    {
+      "slug": "charles-fabri",
+      "paragraphs": 8,
+      "draft_sha256": "3a486e1d6240fdcb68018ececed539dabe32bb7ad699fd7a9e832052abe2ec71",
+      "image": null,
+      "result": "PASS"
+    },
+    {
+      "slug": "nilamani-senapati",
+      "paragraphs": 7,
+      "draft_sha256": "6d06d5e41c253ead68a01b38475b770193c4cb1ae94806bd81e0af103b0c04dc",
+      "image": null,
+      "result": "PASS"
+    },
+    {
+      "slug": "sudhira-das",
+      "paragraphs": 7,
+      "draft_sha256": "b1e3817963f3a89127b70a7423961bc01fcf22d9f7ecfa58d4d54ea4affb8416",
+      "image": "/assets/pioneers/sudhira-das-portrait.webp",
+      "result": "PASS"
+    },
+    {
+      "slug": "bira-kishore-ray",
+      "paragraphs": 6,
+      "draft_sha256": "97693ebe7c6827d92c992cfc2b7c2b6912d826fd417492f5177fbb94358bae05",
+      "image": null,
+      "result": "PASS"
+    },
+    {
+      "slug": "sanjukta-panigrahi",
+      "paragraphs": 7,
+      "draft_sha256": "d73381bafb40d9950f8b120e0f8793667ba8a0301a870779ebfa469e159a28fc",
+      "image": null,
+      "result": "PASS"
+    }
+  ],
+  "checks": [
+    "All 46 rendered narrative paragraphs exactly match final dossier text after whitespace normalization and removal of numeric markers.",
+    "Every dossier source note preserved in rendered output.",
+    "Exactly one H1 per profile; no duplicate IDs; all internal fragment links resolve.",
+    "All local page links resolve in dist.",
+    "Six-profile landing and adjacent previous/next navigation follow requested order, with no forthcoming placeholders.",
+    "Only approved BC illustration and Sudhira portrait appear; four profiles without cleared images omit figures.",
+    "Sudhira uses full-aspect contained portrait style and numeric photograph source/return links, creator, source, license URL and derivative notice.",
+    "All rendered responsive source-set asset paths exist."
+  ],
+  "build_evidence": "Samanta reported final full build exit 0 before completion of integration checks. Focused tests owned separately by Samanta.",
+  "limits": [
+    "Browser layout and interaction review belongs to root; no independent desktop/mobile visual claim here.",
+    "No publication or deployment action performed.",
+    "Source evidence limits remain in individual source-review receipts."
+  ],
+  "next_action": "Use alongside root visual review and Samanta tests for publication decision."
+}

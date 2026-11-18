@@ -12,6 +12,7 @@ import '../../../styles/pioneers-reading.css';
 export function getStaticPaths(){return pioneerProfiles.map(profile=>({params:{slug:profile.slug},props:{profile}}));}
 const {profile}=Astro.props;
 const image=pioneerImage(profile);
+const isPortrait=image&&image.height>image.width;
 const position=pioneerProfiles.findIndex(entry=>entry.slug===profile.slug);
 const sequence=[position>0?{entry:pioneerProfiles[position-1],direction:'Previous'}:null,position<pioneerProfiles.length-1?{entry:pioneerProfiles[position+1],direction:'Next'}:null].filter(Boolean);
 const passages=profile.sections.flatMap(section=>section.paragraphs.map((paragraph,index)=>({...paragraph,id:`${section.id}-${index}`})));
@@ -24,7 +25,7 @@ const further=pioneerFurtherReading(profile).filter(link=>!link.href.startsWith(
  <article class="article-reading pioneer-profile">
   <a class="pioneers-return" href={pioneersSeries.route}>← {pioneersSeries.title}</a>
   <header><h1>{profile.title}</h1><ArticleByline author={profile.author}/><p class="pioneers-dek">{profile.description}</p><SaveJourney id={`reading:pioneers/${profile.slug}`} quiet/></header>
-  {image&&<figure class="pioneers-image"><ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 784px) 92vw, 740px" fetchpriority="high"/><figcaption>{image.caption}{imageSource&&<ArticleFootnote ids={[imageSource.id]} sources={sources} passage="photograph"/>}</figcaption></figure>}
+  {image&&<figure class:list={["pioneers-image",{"pioneers-image-portrait":isPortrait}]}><ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes={isPortrait?"(max-width: 456px) 92vw, 420px":"(max-width: 784px) 92vw, 740px"} fetchpriority="high"/><figcaption>{image.caption}{imageSource&&<ArticleFootnote ids={[imageSource.id]} sources={sources} passage="photograph"/>}</figcaption></figure>}
   {profile.sections.map(section=><section id={section.id} class="pioneers-section">
    {section.title&&<h2>{section.title}</h2>}
    {section.paragraphs.map((paragraph,index)=><p data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.segments.map(segment=>segment.source_id?null:segment.emphasis==='em'?<em>{segment.text}</em>:segment.emphasis==='strong'?<strong>{segment.text}</strong>:segment.text)}<ArticleFootnote ids={paragraph.source_ids} sources={sources} passage={`${section.id}-${index}`}/></p>)}

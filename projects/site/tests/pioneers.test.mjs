@@ -39,6 +39,29 @@ for(const [index,entry] of admitted.entries()){
   assert.match(html,/Footnotes &amp; Sources/);
   assert.match(html,/Suggest an update/);
  });
+ test(`${entry.slug} uses only its documented image with appropriate attribution`,()=>{
+  const imagePath=`../../kb/research/pioneers/${entry.slug}-image.json`;
+  const image=profile.image||(existsSync(imagePath)?JSON.parse(read(imagePath)):null);
+  if(!image){assert.doesNotMatch(html,/<figure[^>]*class="[^"]*pioneers-image/);return;}
+  assert.ok(existsSync('public'+image.src));
+  assert.ok(html.includes(`src="${image.src}"`));
+  assert.ok(decode(html).includes(`alt="${image.alt}"`));
+  assert.ok(html.includes(`width="${image.width}"`));assert.ok(html.includes(`height="${image.height}"`));
+  assert.ok(visible(html).includes(image.caption));
+  assert.ok(html.includes(`content="https://projectodisha.org${image.src}"`));
+  if(image.height>image.width){
+   assert.match(html,/class="[^"]*pioneers-image-portrait/);
+   assert.ok(html.includes('sizes="(max-width: 456px) 92vw, 420px"'));
+  }
+  if(image.creator!=='Project Odisha'){
+   assert.ok(image.source&&image.license&&image.license_url&&image.changes);
+   for(const text of [image.creator,image.license,image.changes])assert.ok(visible(html).includes(text));
+   for(const url of [image.source,image.license_url])assert.ok(decode(html).includes(`href="${url}"`));
+   assert.equal(html.split('id="note-profile-image"').length-1,1);
+   assert.equal(html.split('id="ref-photograph-profile-image"').length-1,1);
+   assert.equal(html.split('href="#ref-photograph-profile-image"').length-1,1);
+  }
+ });
  test(`${entry.slug} sequence leads only to admitted neighbouring profiles`,()=>{
   const sequence=html.match(/<nav[^>]*aria-label="Pioneers reading sequence"[^>]*>([\s\S]*?)<\/nav>/)?.[1]||'';
   const links=[...sequence.matchAll(/href="([^"]+)"/g)].map(match=>match[1]);

@@ -31,5 +31,5 @@ export const pioneerProfiles=series.order.filter(entry=>seen.has(entry.slug)).ma
 const illustrations=import.meta.glob('../../../../kb/research/pioneers/*-image.json',{eager:true,import:'default'}) as Record<string,PioneerImage>;
 export const pioneerImage=(profile:PioneerProfile)=>profile.image||illustrations[`../../../../kb/research/pioneers/${profile.slug}-image.json`];
 export const pioneerFurtherReading=(profile:PioneerProfile)=>profile.further_reading||(
- profile.slug==='bc-mohanty'?[{href:'/textiles/khandua/',title:'Khandua: words woven into cloth'},{href:'/textiles/sambalpuri-bandha/',title:'Sambalpuri bandha'}]:[]
+ profile.slug==='bc-mohanty'?[{href:'/textiles/khandua/',title:'Khandua: words woven into cloth'},{href:'/textiles/sambalpuri-bandha/',title:'Sambalpuri bandha'}]:profile.slug==='charles-fabri'?[{href:'/stories/odissi-abhinaya/',title:'Odissi abhinaya'},{href:'/stories/ekamra-evening/',title:'An Evening in Ekamra'}]:profile.slug==='sanjukta-panigrahi'?[{href:'/stories/odissi-abhinaya/',title:'Odissi abhinaya'}]:[]
 );
