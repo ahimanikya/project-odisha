@@ -1,5 +1,5 @@
 {
-  "status": "generated_output_review",
+  "status": "release_asset_published_site_validation",
   "authorization_quote": "Proofread all 550 Dhagas one by one and fix any Odia spelling or explanation issues.",
   "baseline_commit": "950a1ce7a8503a79589a40ddeb1f8759112c374c",
   "scope": "Review 001–550 in order, each Odia saying/summary/meaning and literal/explanation/usage/context plus variants. Correct supported spelling, grammar and meaning issues; preserve dialect, source quotations, artwork and notes-free reader layout. Record uncertainty separately; no invented human proofreading. Rebuild website and book after reviewed fixes.",
@@ -67,5 +67,23 @@
     "bytes": 190063906,
     "sha256": "3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd"
   },
-  "focused_tests": "33 repository/source inventory/print layout tests and transcription fixtures passed"
+  "focused_tests": "33 repository/source inventory/print layout tests and transcription fixtures passed",
+  "source_commit": "09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0",
+  "pdf_release": {
+    "schema": "project-odisha-pdf-release-v1",
+    "repository": "ahimanikya/project-odisha",
+    "release_immutable": false,
+    "mutability_limit": "Release assets and tags can change; every retrieval must verify identity and bytes.",
+    "release_id": 450293307,
+    "asset_id": 764223503,
+    "target_commit": "09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0",
+    "sha256": "3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd",
+    "tag": "dhaga-550-09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0",
+    "asset_name": "odia-dhaga-550-3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd.pdf",
+    "browser_download_url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-550-09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0/odia-dhaga-550-3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd.pdf",
+    "bytes": 190063906,
+    "pages": 355,
+    "entries": 550
+  },
+  "generated_output_review": "PASS_GENERATED_OUTPUT_LOCAL"
 }
