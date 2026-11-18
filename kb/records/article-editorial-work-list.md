@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1343. blocked: 1, completed: 214, excluded: 870, in_progress: 1, queued: 257.
+Route inventory: 1350. blocked: 1, completed: 215, excluded: 871, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1316,7 +1316,7 @@ Route inventory: 1343. blocked: 1, completed: 214, excluded: 870, in_progress: 1
 | POD-EDIT-DHAGA-548-20261117 | [Garb brings alms](https://projectodisha.org/dhaga/sayings/pod-dhaga-548.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-549-20261117 | [A sour mango tastes good to hunger](https://projectodisha.org/dhaga/sayings/pod-dhaga-549.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-550-20261117 | [I will not stay and endure it](https://projectodisha.org/dhaga/sayings/pod-dhaga-550.html) | excluded | standalone_dhaga_collection |
-| POD-EDIT-OSAKOTHI-20261118 | [When the Goddess Comes to the Wall](https://projectodisha.org/stories/when-the-goddess-comes-to-the-wall/) | in_progress | Founder-approved sourced essay for The Year That Feeds Us; no programme credit. |
+| POD-EDIT-OSAKOTHI-20261118 | [When the Goddess Comes to the Wall](https://projectodisha.org/stories/when-the-goddess-comes-to-the-wall/) | completed | Founder-approved sourced essay for The Year That Feeds Us; no programme credit. |
 | POD-EDIT-YEAR-FEEDS-INDEX-20261118 | [The Year That Feeds Us](https://projectodisha.org/stories/the-year-that-feeds-us/) | excluded | Series navigation accompanying the Osakothi story. |
 | POD-EDIT-CULTURE-BOOK-00-20261118 | [Odisha: Culture, Memory and Living Traditions](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
 | POD-EDIT-CULTURE-BOOK-01-20261118 | [Many Odishas](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/many-odishas/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
@@ -1367,3 +1367,10 @@ Route inventory: 1343. blocked: 1, completed: 214, excluded: 870, in_progress: 1
 | POD-EDIT-CULTURE-BOOK-46-20261118 | [Languages on New Screens](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/languages-on-new-screens/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
 | POD-EDIT-CULTURE-BOOK-47-20261118 | [Modern Art, Photography and Public Heritage](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/modern-art-photography-and-public-heritage/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
 | POD-EDIT-CULTURE-BOOK-48-20261118 | [Keeping Culture Alive](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/keeping-culture-alive/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
+| POD-EDIT-PIONEERS-BC-MOHANTY-20261119 | [B. C. Mohanty](https://projectodisha.org/stories/pioneers/bc-mohanty/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-CHARLES-FABRI-20261119 | [Charles Louis Fabri](https://projectodisha.org/stories/pioneers/charles-fabri/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-NILAMANI-SENAPATI-20261119 | [Nilamani Senapati](https://projectodisha.org/stories/pioneers/nilamani-senapati/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-SUDHIRA-DAS-20261119 | [Sudhira Das](https://projectodisha.org/stories/pioneers/sudhira-das/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-BIRA-KISHORE-RAY-20261119 | [Justice Bira Kishore Ray](https://projectodisha.org/stories/pioneers/bira-kishore-ray/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-SANJUKTA-PANIGRAHI-20261119 | [Sanjukta Panigrahi](https://projectodisha.org/stories/pioneers/sanjukta-panigrahi/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-INDEX-20261119 | [Pioneers](https://projectodisha.org/stories/pioneers/) | excluded | Series navigation accompanying six separately reviewed profiles. |
