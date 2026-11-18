@@ -66,14 +66,24 @@ test('every cover face has descriptive alternative text and explicit image dimen
 
 test('all five online books and their chapters omit book download and printing controls',()=>{
  const bookFiles=new Set([culture.download.file,dongria.file,kotpad.download.file,'/archive/'+dhagaDownload.asset_name,cinema.standalone_intro.file,...[...cinema.books,...cinema.review_books,...cinema.archived_review_books].flatMap(b=>[b.file,b.release_file]).filter(Boolean)]);
- const dirs=['books','stories/dongria','stories/kotpad','cinema','dhaga'];let count=0;
- for(const dir of dirs)for(const file of readdirSync('dist/'+dir,{recursive:true}).filter(f=>f.endsWith('.html'))){
-  const page=read('dist/'+dir+'/'+file);count++;
+ const dongriaArticles=JSON.parse(read('src/data/dongariya.json'));
+ const families={
+  culture:[culture.route,...culture.chapters.map(c=>culture.route+c.slug+'/')],
+  dongria:['/stories/dongria/','/stories/dongria/book/',...dongriaArticles.map(a=>`/stories/dongria/${a.routeSlug||a.slug}/`)],
+  kotpad:['/stories/kotpad/','/stories/kotpad/book/',...kotpad.chapters.map(c=>`/stories/kotpad/${c.slug}/`)],
+  cinema:['/cinema/','/cinema/book/','/cinema/watch/',...cinema.articles.map(a=>a.route||`/cinema/${a.slug}/`)],
+  dhaga:['/dhaga/','/dhaga/reader.html',...dhaga.entries.map(e=>`/dhaga/sayings/${e.id.toLowerCase()}.html`)],
+ };
+ const routeFile=route=>'dist'+route+(route.endsWith('/')?'index.html':'');
+ const paths=new Set(Object.values(families).flat().map(routeFile));
+ for(const dir of ['books','stories/dongria','stories/kotpad','cinema','dhaga'])for(const file of readdirSync('dist/'+dir,{recursive:true}).filter(f=>f.endsWith('.html')))paths.add('dist/'+dir+'/'+file);
+ for(const file of paths){
+  const page=read(file);
   for(const match of page.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)){
-   assert.ok(!bookFiles.has(match[1].split('#')[0]),dir+'/'+file+': book download link');
+   assert.ok(!bookFiles.has(match[1].split('#')[0]),file+': book download link');
    const label=match[2].replace(/<[^>]*>/g,' ');
-   assert.doesNotMatch(label,/Download (?:the )?(?:(?:complete|illustrated|PDF) )?(?:book|reading edition)|Read or download the book|Read or print the book|Book editions and printing notes|standalone PDF/i,dir+'/'+file);
+   assert.doesNotMatch(label,/Download (?:the )?(?:(?:complete|illustrated|PDF) )?(?:book|reading edition)|Read or download the book|Read or print the book|Book editions and printing notes|standalone PDF/i,file);
   }
  }
- assert.ok(count>=48+12+9+cinema.articles.length+dhagaDownload.entries,'All book chapter families must be checked');
+ // read() above fails for any missing manifest route, including Cinema chapters under /people/.
 });
