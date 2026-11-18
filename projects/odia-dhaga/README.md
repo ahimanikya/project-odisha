@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **550 explained sayings and idioms, 301 accompanying illustrations, and 271 source records**. It is a bounded collection, not a complete anthology. It includes user-supplied compilation witnesses alongside located public witnesses. Source wording, editorial repairs, uncertain readings and limits of interpretation remain identified; uploaded or separately copyrighted quotations retain their own rights. Historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **550 explained sayings and idioms, 550 accompanying illustrations, and 271 source records**. It is a bounded collection, not a complete anthology. It includes user-supplied compilation witnesses alongside located public witnesses. Source wording, editorial repairs, uncertain readings and limits of interpretation remain identified; uploaded or separately copyrighted quotations retain their own rights. Historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -105,13 +105,13 @@ Entries092–108 add17 independently AI-reviewed records beyond the canonical91:
 
 ## Book source files and building
 
-Edit one saying in `entries/POD-DHAGA-NNN.json`. These214 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
+Edit one saying in `entries/POD-DHAGA-NNN.json`. These550 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
 
 Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.
 
 ## Printable reading edition
 
-The reader download is `odia-dhaga-book.pdf`, an A4 book with flowing two-column readings and alternating illustration placement, a bilingual subject introduction, chapter contents, illustrations and compact source credits. The current550-entry edition includes all36 recorded variants as source-attributed readings with their complete notes, including uncertainty and editorial qualifications. All301 accompanying illustrations remain. A textual-notes section preserves each entry’s original witness wording, source notes, repair notices and origin limits. Detailed online research panels remain available separately; canonical evidence is unchanged.
+The reader download is `odia-dhaga-book.pdf`, an A4 book with flowing two-column readings and alternating illustration placement, a bilingual subject introduction, chapter contents, illustrations and compact source credits. The current550-entry edition includes all36 recorded variants as source-attributed readings with their complete notes, including uncertainty and editorial qualifications. All550 readings have an accompanying illustration; the original301 artwork files remain unchanged. A textual-notes section preserves each entry’s original witness wording, source notes, repair notices and origin limits. Detailed online research panels remain available separately; canonical evidence is unchanged.
 
 After editing entries or the introduction, run `python3 build.py`, then regenerate the PDF with `python3 build_print.py` in an environment containing `requirements-print.txt`. The generator converts the bundled licensed fonts temporarily and uses HarfBuzz shaping for Odia. Inspect rendered pages after regeneration; PDF text extraction alone cannot verify Odia glyph shaping.
 
@@ -209,6 +209,11 @@ Forty-five reviewed readings and approved original illustrations extend the254-r
 Two reviewed readings and approved original illustrations extend the299-reading edition to301 readings. Earlier prose/art and historical cursors/pending75 remain unchanged. Critical readings and imagined examples are editorial, not established traditional morals.
 
 
-## 2026-11-07 expanded candidate
+## Historical 2026-11-07 expanded candidate
 
 The reviewed text package adds 57 readings to the preserved 301-entry book. The generated candidate contains 358 readings, 301 illustrations and 258 source records across 226 PDF pages. The 57 new readings have no new illustration; optional scene briefs are retained as proposals. Existing source qualifications, provisional readings and research backlogs remain in force. This local candidate awaits separate production review and public release; these counts do not claim publication or human proofreading.
+
+
+## 2026-11-18 fully illustrated candidate
+
+The550-reading candidate now contains550 illustrations:249 reviewed additions accompany readings302–550 while the original301 artwork files and every non-graphic entry field remain unchanged. All36 recorded variants and textual witness notes remain included. New print-image derivatives use the separately reviewed quality80 encoding at unchanged dimensions; the earlier301 retain their original quality90 encoding. Measured long readings use the existing full-width layout at normal type size. Prompts, exact asset hashes, separate visual reviews and retained correction histories are recorded in `evidence/illustrations550-2026-11-17/` and both artwork provenance manifests. This candidate awaits final production review and release; the public PDF descriptor continues to identify the preceding published edition until the coordinator binds the new release.

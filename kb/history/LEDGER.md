@@ -1641,3 +1641,7 @@ The Founder requested expansion and publication of his long-awaited Prahlad Nata
 ### 16 November 2026 · Uploaded Dhaga sequence started
 
 The Founder authorized continuous one-by-one processing of229 candidates from the uploaded32-page PDF. The comparison baseline is358 readings. PDF-002 is under source review; zero additions accepted at this point. The durable queue records each entry separately. Other programme claims remain intact. [Handoff](../records/odia-dhaga-upload-sequence-2026-11-16.json).
+
+## 17 November 2026 · 550-entry Dhaga collection and book published
+
+The Founder authorized publication of the updated Dhaga collection and PDF. PR782 merged the independently reviewed 550-entry collection, 36 recorded variants and 422-page book, retaining 301 illustrations. Deployment44135045115 succeeded at d7df2d370a6e3d7d4e71cf784cc4b8d8de06ce5c. Live collection, books/discovery pages, representative old/new readings and the exact110,904,363-byte PDF were verified. The24 unresolved readings remain deferred; this publication adds no autonomous-programme completion credit. Receipt: `records/odia-dhaga-publication-550-2026-11-17.json`.

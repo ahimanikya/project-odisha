@@ -121,9 +121,9 @@ export async function exportDhaga(destination){
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- //550 readings measured92,475,687bytes full export with existing301illustrations unchanged.
- //95MB bounds the expanded text/navigation; the complete publication also has a separate1GB gate.
- if(bytes>95_000_000)throw Error('Dhaga web export exceeds95MB budget: '+bytes);
+ //550 readings measured92,475,687bytes before new art;249 new640px/q60 images add10,919,326bytes.
+ //110MB bounds all550 illustrated readings; the complete publication retains its separate1GB gate.
+ if(bytes>110_000_000)throw Error('Dhaga web export exceeds110MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_release_url:delivery.browser_download_url,documents:[pdfURL],pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};
  await mkdir(resolve(site,'.astro'),{recursive:true});await writeFile(resolve(site,'.astro/dhaga-export.json'),JSON.stringify(report,null,2)+'\n');return report;
 }

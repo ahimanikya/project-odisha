@@ -5,6 +5,22 @@ from reportlab.lib.styles import ParagraphStyle
 from build_print import pack_reading_units
 
 class LongReadingLayoutTests(unittest.TestCase):
+    def test_new_art_encoding_preserves_old_bytes_and_dimensions(self):
+        from build_print import print_raster_bytes
+        from PIL import Image as Raster
+        from io import BytesIO
+        from pathlib import Path
+        root=Path(__file__).parent
+        for number,quality in [(301,90),(302,80)]:
+            src=root/'assets'/f'pod-dhaga-{number:03}-v1.png'
+            before=src.read_bytes()
+            im=Raster.open(src).convert('RGB');im.thumbnail((1400,1000))
+            expected=BytesIO();im.save(expected,format='JPEG',quality=quality)
+            actual=print_raster_bytes(src,f'POD-DHAGA-{number:03}').getvalue()
+            self.assertEqual(actual,expected.getvalue())
+            self.assertEqual(Raster.open(BytesIO(actual)).size,im.size)
+            self.assertEqual(src.read_bytes(),before)
+
     def unit(self,ident,height=100):
         return {'id':ident,'chapter':'A','unit':([Spacer(1,height)],None,None)}
     def test_variant_gets_full_width_without_changing_primary(self):

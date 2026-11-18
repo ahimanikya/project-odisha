@@ -1,0 +1,90 @@
+{
+  "reviewer": "Drishti / independent visual review",
+  "status": "PASS_NEW_IMAGE_Q80_PILOT",
+  "scope": "New illustrations302–550 only; sampled302,305,312",
+  "reviewed_at": "2026-11-18",
+  "hashes_reviewed": {
+    "output/dhaga-illustrations-2026-11-17/quality-comparison.json": "fab619e58d8e8f7a095cfbb7ecbf90b06467a3e66eb0a7ec1c42e9bd52f15820",
+    "output/dhaga-illustrations-2026-11-17/quality-302.png": "146d88c5e0d4acc9628ae3e30a61a80feb233850be2c013115f7ca12eebf6f89",
+    "output/dhaga-illustrations-2026-11-17/quality-305.png": "beb37ecb0fd503b9dfcfeec84aa44bb1146cd8253dd2260aa1386c4bbbb24c8c",
+    "output/dhaga-illustrations-2026-11-17/quality-312.png": "5a44a19e0527ada469878e80f2872a633e418c8cacaec23376083178f5ba99b0"
+  },
+  "encoding_evidence": [
+    {
+      "id": 302,
+      "source_sha256": "91848c122839ead7720c4125d8506c333db98dc6299da75d4d8430ed2915bdaa",
+      "dimensions": [
+        1400,
+        933
+      ],
+      "encodings": {
+        "90": {
+          "bytes": 495594,
+          "sha256": "4a38845659ae2b7fb1d19be4e87151e0e80b344d5723b74f2f8bf763cd699f39"
+        },
+        "80": {
+          "bytes": 359025,
+          "sha256": "85fe57ef2a44b3966be107ac30eb96343f4609056f0fb451f6343dd24c4708c0"
+        }
+      },
+      "pdf_sha256": "674d493ad7ece285f9273365e1ecaa6b343564629cc76f913f3e04b46c87b0a9"
+    },
+    {
+      "id": 305,
+      "source_sha256": "6f8a30711cb348fce67a18000d66049b68b1d0f1b4231552cd781c7679f8617b",
+      "dimensions": [
+        1400,
+        933
+      ],
+      "encodings": {
+        "90": {
+          "bytes": 571151,
+          "sha256": "b819338c7688226fc705d550bb806e4f51e4c47aff965ab6dcb406b365821ceb"
+        },
+        "80": {
+          "bytes": 415522,
+          "sha256": "93772eb821c6c152a7f19501ccba7777eb451cc2e03654af3f31a8fb405a2ee6"
+        }
+      },
+      "pdf_sha256": "77d06806e382b0941544af48a9a89fad959e970c6e6358c4907d383cf9b9aa46"
+    },
+    {
+      "id": 312,
+      "source_sha256": "1f995cb6f49583cb1dc4f6866980997655180591f422ffd261731f5b208e34ed",
+      "dimensions": [
+        1400,
+        933
+      ],
+      "encodings": {
+        "90": {
+          "bytes": 437679,
+          "sha256": "e035fbe75509545cb78b9606df70eb77ed7f8407f926a5ee272a93ec0385a0ff"
+        },
+        "80": {
+          "bytes": 315880,
+          "sha256": "1cdcbaacf6db16ae76f227b3e9a205db829206f62f7e1a9d47df040531c714cc"
+        }
+      },
+      "pdf_sha256": "6c12b878ec00e1e0c4e08cd95260eb199e903248f1c85b653133641088282352"
+    }
+  ],
+  "findings": [
+    "At actual print scale, faces, hands, weave, object contours and crosshatching remain readable at q80.",
+    "Enlarged detail shows minor softness; no material loss of scene meaning or severe blocking observed."
+  ],
+  "sample_bytes": {
+    "q90": 1504424,
+    "q80": 1090427,
+    "reduction_percent": 27.52
+  },
+  "approved_constraints": [
+    "Preserve1400x933 encoded dimensions and original PNGs.",
+    "Apply q80 only to new302–550 images; preserve001–301 encoding.",
+    "Validate final PDF layout and representative renders after full integration."
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "Three-image sample, not a review of every future encoded image.",
+    "Screen comparison at stated239.6378x159.7015pt print size and3x detail, not a physical printed proof."
+  ]
+}
