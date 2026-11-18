@@ -85,7 +85,10 @@ export function bindBookCover(root, host = window) {
     render(before !== state.view);
   });
   host.addEventListener('pointercancel', cancel);
-  viewport.addEventListener('lostpointercapture', () => { if (state.gesture) cancel(); });
+  viewport.addEventListener('lostpointercapture', event => {
+    // Capture may move from a touched image to the viewport; its bubbled loss is not a cancellation.
+    if (event.target === viewport && state.gesture) cancel();
+  });
   host.addEventListener('blur', cancel);
   reduced.addEventListener('change', cancel);
   flat.addEventListener('change', cancel);

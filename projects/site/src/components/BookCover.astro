@@ -40,7 +40,7 @@ const { title, author, ratio, spineColor, spineTitle, frontSrc, spineSrc, backSr
   .book-spine{inset-inline-start:0;background:linear-gradient(90deg,rgb(0 0 0 / .22),transparent 45%,rgb(255 255 255 / .08)),var(--book-spine);transform:translateX(-50%) rotateY(-90deg);color:#fff7df;display:grid;place-items:center}
   .spine-label{writing-mode:vertical-rl;display:flex;justify-content:space-between;align-items:center;gap:.5rem;max-block-size:100%;block-size:100%;inline-size:calc(100% - 2rem);padding:1rem 0;font-size:.55rem;line-height:1.2;white-space:nowrap}
   .spine-label strong{font-size:.7rem;font-weight:600}
-  .book-spine > img{display:block;inline-size:100%;block-size:100%;object-fit:fill}
+  .book-spine > img{position:absolute;inset:0;display:block;inline-size:100%;block-size:100%;min-inline-size:0;min-block-size:0;object-fit:fill}
   .cover-larger{font-size:.85rem;text-align:center;margin:.8rem 0 0}.cover-larger a[hidden]{display:none}.cover-larger a:focus-visible{outline:3px solid var(--sea);outline-offset:3px}
   .book-pages{inset-inline-end:0;inset-block:2px;transform:translateX(50%) rotateY(90deg);background:repeating-linear-gradient(90deg,#e7dfcb 0,#e7dfcb 1px,#faf6e9 1px,#faf6e9 3px);border-block:1px solid #d5cab0}
   .book-cover-author{font-size:1.12rem;font-weight:650;color:var(--ink);line-height:1.5;text-align:center;margin:.35rem 0 1rem}

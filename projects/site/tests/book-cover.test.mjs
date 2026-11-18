@@ -53,3 +53,19 @@ test('reduced motion omits drag interpolation but retains immediate selection',(
  assert.equal(root.dataset.dragging,undefined);assert.equal(nodes.volume.attrs['--book-angle'],'-8deg');
  host.emit('pointerup',pointer(0));assert.equal(root.dataset.view,'spine');assert.equal(nodes.volume.attrs['--book-angle'],'90deg');
 });
+
+test('capture transfer from a descendant preserves swipe; actual viewport capture loss cancels',()=>{
+ const {root,host,nodes}=fixture();
+ nodes.viewport.emit('pointerdown',pointer());
+ nodes.viewport.emit('pointermove',pointer(65));
+ nodes.viewport.emit('lostpointercapture',{target:new Element()});
+ nodes.viewport.emit('pointermove',pointer(0));
+ host.emit('pointerup',pointer(0));
+ assert.equal(root.dataset.view,'spine');
+ nodes.viewport.emit('pointerdown',pointer());
+ nodes.viewport.emit('pointermove',pointer(0));
+ nodes.viewport.emit('lostpointercapture',{target:nodes.viewport});
+ host.emit('pointerup',pointer(0));
+ assert.equal(root.dataset.view,'spine');
+ assert.equal(root.dataset.dragging,undefined);
+});
