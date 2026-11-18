@@ -1,0 +1,57 @@
+{
+  "id": "POD-DHAGA-185",
+  "baseline_sha256": "dd658c76e845e625dea466f071d16e35010072dbf853901800ae3493d90868f3",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Who is the unstated knower/intentional agent in opening ଜାଣି?",
+  "evidence_inspected": [
+    {
+      "locator": "projects/odia-dhaga/evidence/batch04-2026-10-30/samanta/captures/146978-revision.json, lines26–27",
+      "finding": "Full source wording and divine-restraint gloss read. The gloss offers an interpretation, not an explicit grammatical subject in the verse."
+    },
+    {
+      "locator": "query_research.py ଜାଣି ଘୋଡ଼ାର",
+      "finding": "No reusable record. Fresh exact-opening queries did not establish an expanded version."
+    },
+    {
+      "url": "https://www.sahityacharcha.com/2022/06/27/mankada-manisha/",
+      "access": "Indexed authored usage only",
+      "finding": "Related proverb lacks opening ଜାଣି entirely, with explicit କିଛି as final object. Does not repair original opening."
+    },
+    {
+      "url": "https://www.transliteral.org/dictionary/ଜାଣିଶୁଣି/word",
+      "access": "Indexed lexical entry",
+      "finding": "Related compound defined knowingly/with understanding. No subject supplied by lexical sense."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ଜାଣି",
+      "access": "Direct headword inaccessible"
+    }
+  ],
+  "reasoning": "The opening permits an intentional reading. The attached divine-restraint gloss supports carrying this as “By design” without naming an agent or converting it into an imperative. This corrects omission of the opening word while preserving elliptical agency.",
+  "status": "contextual_reading_resolved",
+  "remaining_limits": [
+    "Unexpressed agent remains unspecified; current explanation accurately attributes divine-restraint gloss."
+  ],
+  "changes": [
+    {
+      "field": "literal_meaning",
+      "before": "The horse has no horns; with horns it would spare no one.",
+      "after": "By design, the horse has no horns; with horns it would spare no one.",
+      "reason": "Carry the opening knowing/intending force contextually, without adding a named agent."
+    },
+    {
+      "field": "cultural_context",
+      "before": "The supplied gloss invokes divine restraint; this is the collection’s explanation, not evidence for a particular myth or author. The last clause’s omitted object is rendered “no one” in English in line with the gloss’s reference to heeding nobody. The opening ଜାଣି does not securely establish who knows or intends this; the English does not turn it into an imperative. Its agency remains unresolved.",
+      "after": "The supplied gloss imagines divine restraint on the strong. “By design” carries that contextual reading of ଜାଣି without naming an agent in the verse. The final clause leaves its object unstated; “no one” follows the gloss’s reference to heeding nobody.",
+      "reason": "Explain supported contextual choices plainly; retain actual elliptical limits without presenting them as a failed translation."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

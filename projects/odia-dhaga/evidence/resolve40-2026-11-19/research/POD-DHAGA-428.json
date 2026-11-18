@@ -1,0 +1,46 @@
+{
+  "id": "POD-DHAGA-428",
+  "baseline_sha256": "a61005edb13fe0ed3170683ab8b4e8d147ee928ae75024c8df14082b64e7e665",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "What physical action does ମୋହିଁଲେ describe in the sugar-and-neem line?",
+  "evidence_inspected": [
+    {
+      "capture": "output/dhaga-sequential-2026-11-16/eighty-seventh-research.json",
+      "inspection": "Full original four lines, exact public counterpart and prior failed verb lookup reread. Prior broad treated-with rendering deliberately avoids coating/soaking/churning."
+    },
+    {
+      "url": "https://xn--l1b6a9di5a0j.xn--h2brj9c/dictionary/odia/ମୋହିଁବା/",
+      "access": "Search-indexed headword defines putting material into fire to burn, with straw/stove example. This new sense does not fit the sugar instrument construction without an invented cooking event."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ମୋହିଁବା",
+      "access": "Direct lookup inaccessible. Targeted sugar/churning searches did not yield a full applicable definition. Original dictionary headword scan requested from parent."
+    },
+    {
+      "local_query": "tools/research/query_research.py ଧନ ମୋହିଁଲେ ସହସ୍ର ପାପ --json",
+      "result": "No additional registered result."
+    },
+    {
+      "capture": "/private/tmp/dhaga-v5-p1539.png",
+      "locator": "Original vol5 printed6735 left column ମୋହିବା sense5",
+      "inspection": "Personally inspected: ଏକତ୍ର ମିଶାଇ ପାକ କରିବା—To cook by mixing an ingredient. Relevant possible sense, but headword lacks nasalization of uploaded ମୋହିଁଲେ and no exact quotation is present."
+    }
+  ],
+  "reasoning": [
+    "New fire-feeding definition and related churning usages cannot be imported just because they share the verb. Broad treated-with translation remains faithful to instrumental sugar and attempted transformation but exact physical act unresolved. No change justified before an applicable headword or contextual parallel is recovered.",
+    "Cooking by mixing is a newly documented candidate physical action, more relevant than fire-feeding, but cannot yet uniquely select the nasalized uploaded verb. Keep broad treated-with rather than assert cooking."
+  ],
+  "status": "unresolved",
+  "remaining_limits": [
+    "Precise physical action and relationship between uploaded nasalized ମୋହିଁଲେ and cooking sense under ମୋହିବା remain unresolved."
+  ],
+  "changes": [],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

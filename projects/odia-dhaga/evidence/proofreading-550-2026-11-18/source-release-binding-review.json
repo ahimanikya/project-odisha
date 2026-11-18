@@ -1,0 +1,34 @@
+{
+  "status": "PASS_SOURCE_RELEASE_BINDING",
+  "source_head": "a53faab53b1b01ef7a38d199518960b921d1e143",
+  "reviewer": "Drishti AI",
+  "descriptor": {
+    "schema": "project-odisha-pdf-release-v1",
+    "repository": "ahimanikya/project-odisha",
+    "release_immutable": false,
+    "mutability_limit": "Release assets and tags can change; every retrieval must verify identity and bytes.",
+    "release_id": 450293307,
+    "asset_id": 764223503,
+    "target_commit": "09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0",
+    "sha256": "3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd",
+    "tag": "dhaga-550-09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0",
+    "asset_name": "odia-dhaga-550-3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd.pdf",
+    "browser_download_url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-550-09d2f0908ebad816f6d02b38b79b2ce1ac4cdcf0/odia-dhaga-550-3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd.pdf",
+    "bytes": 190063906,
+    "pages": 355,
+    "entries": 550
+  },
+  "raw_release_metadata_sha256": "9172aedd75e652eb010169f6a4533fd88f6a3a3cd426844b757a0400e0c2c46d",
+  "checks": [
+    "Release id, asset id, source target, tag, asset name, URL, size and reported GitHub digest match descriptor.",
+    "Coast download path names exact new PDF; generated workbench hash equals current coast file.",
+    "Binding commit contains descriptor, coast route, workbench hash and evidence only; no changed canonical entries or generated reader content."
+  ],
+  "hashes_reviewed": {
+    "projects/odia-dhaga/pdf-delivery.json": "eed504da130abf7cbc646cb929ab9e0cf217f87eee4e216b1c7f6988a25b4e56",
+    "projects/site/editions/coast.json": "75dcf3cddd27ffe2df65fab57fde2949e93463dc751866a31fa69b2e5044d2db",
+    "kb/records/editorial-workbench.json": "8271cedc4c96452c39cfbc47777a93cadb4258fcbaf7498dc092af050db6f2be"
+  },
+  "findings": [],
+  "limitation": "Final dist-publish checks pending completed pipeline; this is not a live website approval."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "POD-DHAGA-527",
+  "baseline_sha256": "c8dc0ee575a24eacbe2353f18268cfb33951efe394c47964f9d5bcde345c5ea0",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Can the opening designation Nirimaila be lexically identified without changing the supported applying verb?",
+  "evidence_inspected": [
+    {
+      "capture": "output/dhaga-sequential-2026-11-16/hundred-ninety-sixth-research.json",
+      "inspection": "Full exact upload and quoted dictionary sense37 applying/using reread; source address with exclamation documented."
+    },
+    {
+      "local_query": "tools/research/query_research.py ନିରିମାଇଲ ମାଠିବା ପିଢା ଦେବା ଦେବା --json",
+      "result": "No additional registered research."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ନିରିମାଇଲ",
+      "access": "Direct headword failed. New exact designation search returned only wider ମାରିବା entry, no identity or definition. Parent original lookup requested."
+    },
+    {
+      "path": "/private/tmp/dhaga-v4-p738.png",
+      "locator": "Purnachandra vol4 printed4362 lower-left ନିରିମାଇଲ sense2",
+      "finding": "Personally inspected original. Defines friendship established by exchange of dried rice offered to Jagannath or Lingaraj. Quotes close counterpart with final ଥୋଇଲ, not uploaded ମାଇଲ."
+    }
+  ],
+  "reasoning": "The exact headword and adjacent close proverb resolve the address as a term of ritual friendship rather than an unidentified personal name. Uploaded final verb remains supported separately under applying; the counterpart does not authorize substituting its verb or inventing a particular ceremony.",
+  "status": "resolved_contextually",
+  "remaining_limits": [
+    "No individual identity or particular ceremony is specified; original counterpart differs in final verb."
+  ],
+  "changes": [
+    {
+      "field": "literal_meaning",
+      "before": "Nirimaila! Taking a matter from where, where have you applied it?",
+      "after": "My ritual friend! Taking a matter from where, where have you applied it?",
+      "reason": "Original full headword and adjacent counterpart resolve the address."
+    },
+    {
+      "field": "meaning_odia",
+      "before": "କେଉଁଠାର କଥା ନେଇ କେଉଁଠି ଲଗାଇଲ ବୋଲି କଥକ ପଚାରୁଛନ୍ତି। ଅଭିଧାନରେ ଏହି ଢଗଟି ମାରିବାର ପ୍ରୟୋଗ କରିବା ଅର୍ଥରେ ଦିଆଯାଇଛି। ଆମ ସମ୍ପାଦକୀୟ ପାଠରେ ଏହା ଗୋଟିଏ ପ୍ରସଙ୍ଗର କଥାକୁ ଅନ୍ୟ ପ୍ରସଙ୍ଗରେ ଅସଙ୍ଗତ ଭାବେ ଲଗାଇବା ଉପରେ ଆପତ୍ତି। ଆରମ୍ଭର ନିରିମାଇଲ ସମ୍ବୋଧନଟି ଅବିକଳ ରଖାଯାଇଛି; ତାହାର ନିର୍ଦ୍ଦିଷ୍ଟ ପରିଚୟ ସ୍ପଷ୍ଟ ନୁହେଁ।",
+      "after": "ନିରିମାଇଲ ଅର୍ଥ ମହାପ୍ରସାଦ ଆଦାନପ୍ରଦାନରେ ସ୍ଥାପିତ ବନ୍ଧୁତା। କଥକ ସେହି ବନ୍ଧୁଙ୍କୁ ପଚାରୁଛନ୍ତି, କେଉଁଠାର କଥା ନେଇ କେଉଁଠି ଲଗାଇଲ? ଏଠାରେ ଆପତ୍ତି ହେଉଛି ଗୋଟିଏ ପ୍ରସଙ୍ଗର କଥାକୁ ଅନ୍ୟ ପ୍ରସଙ୍ଗରେ ଅସଙ୍ଗତ ଭାବେ ଲଗାଇବା ଉପରେ।",
+      "reason": "Replace unexplained designation with attested contextual address, retaining apply sense."
+    },
+    {
+      "field": "cultural_context",
+      "before": "The rhyme between the opening address and the final verb gives the objection a compact, pointed sound. Nirimaila is retained as an unexplained address; the question itself carries the contrast between where a matter came from and where it is being used.",
+      "after": "Nirimaila addresses a friend joined through the exchange of consecrated dried rice. The familiar address makes the objection personal: why carry a matter from one setting into another where it does not fit?",
+      "reason": "Original definition supports friendship, without inventing a named individual or a narrated ceremony."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

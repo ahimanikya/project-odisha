@@ -1,0 +1,38 @@
+{
+  "status": "BUILD_TESTS_PASS_AWAITING_VISUAL_REVIEW",
+  "working_directory": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga",
+  "commands": [
+    "python3 build.py",
+    "PYTHONPATH=/private/tmp/dhaga-source-test-deps /Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 build_print.py",
+    "PYTHONPATH=/private/tmp/dhaga-source-test-deps /Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest test_repository test_source_inventory test_print_layout",
+    "python3 test_transcription.py"
+  ],
+  "tests": {
+    "unittest_count": 33,
+    "unittest_result": "OK",
+    "duration_seconds": 21.739,
+    "transcription": "All positive fixtures passed;22/28/32 malformed cases rejected"
+  },
+  "pdf": {
+    "pages": 355,
+    "bytes": 190061625,
+    "sha256": "e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801"
+  },
+  "delivery_pdf": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/pdf/odia-dhaga-resolved40.pdf",
+  "canonical_pdf": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/odia-dhaga-book.pdf",
+  "copies_identical": true,
+  "coverage": {
+    "entries": 550,
+    "reading_units": 586,
+    "variant_readings": 36,
+    "illustrated_entries": 550,
+    "textual_note_pages": 0
+  },
+  "hashes": {
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/collection.json": "5a81d3a26cf34c2518c1d6489102f0001cf7766666aeff47d983895afe4efd4a",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/reader_content.py": "2c334dfa748c91463dcb3ae3d3ead6249a031193a72461d9d91650f2eedfc083",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/packing-report.json": "913b2986017fdc0198d623d7245ec7cb6016872fede884576a842c4430000c77",
+    "output/dhaga-resolve40-2026-11-19/application-integrity.json": "265bdda2a9e216ad69f3dad4b9aecd0c5b0b074f7186c8edf7ce2ab01022cc8e"
+  },
+  "source_changes": "21 entries plus only099/222 reader projection; all original witnesses/art/rights preserved. Original display repairs individually approved and bound in application audits."
+}

@@ -1,0 +1,81 @@
+{
+  "id": "POD-DHAGA-335",
+  "baseline_sha256": "87a352f5a9ba0c3fc85f61c314d044fc539694f05cd4d1d764b95680400c52bb",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Is ପଚାଲିଲେ the intended asking verb or a digital transcription error?",
+  "evidence_inspected": [
+    {
+      "capture": "projects/odia-dhaga/evidence/expansion358-2026-11-07/captures/dhaga-wiktionary-209733.txt",
+      "inspection": "Full ପିନ୍ଧିବା headword and quoted proverb read; digital ପଚାଲିଲେ."
+    },
+    {
+      "capture": "/private/tmp/dhaga-v4-p1228.png",
+      "detail_capture": "/private/tmp/dhaga335-crop.png",
+      "locator": "Original volume4 printed4852, PDF1228 bottom-right, sense1 ପିନ୍ଧିବା",
+      "inspection": "Original and enlarged crop personally inspected. Quote reads ପଚାରିଲେ, not digital ପଚାଲିଲେ."
+    },
+    {
+      "url": "https://antarangakalinga.org/mudhi/",
+      "access": "Search-indexed complete counterpart and surrounding authored discussion by Dr Jayashree Nanda inspected; direct fetch timed out. Counterpart uses ପଚାରିଲେ and joins ପରଲୁଗା. Discussion concerns unease in borrowed finery; not imported as definite motive of exact quotation."
+    },
+    {
+      "local_query": "tools/research/query_research.py ପଚାଲିଲେ --json",
+      "result": "No registered result."
+    }
+  ],
+  "reasoning": [
+    "Original print and complete modern counterpart converge on asking verb. Repair one letter in display; retain original digital witness. The actual question and intended nod remain unstated, a natural ambiguity not a lexical defect."
+  ],
+  "status": "source_transcription_resolved",
+  "remaining_limits": [
+    "Meaning of the nod, content of the question and exact motive remain unspecified."
+  ],
+  "changes": [
+    {
+      "field": "odia",
+      "before": "ପର ଲୁଗା ପିନ୍ଧି ଯାତକୁ ଯାଏ ଲୋକ ପଚାଲିଲେ ମୁଣ୍ଡ ଟୁଙ୍ଗାରୁ ଥାଏ",
+      "after": "ପର ଲୁଗା ପିନ୍ଧି ଯାତକୁ ଯାଏ ଲୋକ ପଚାରିଲେ ମୁଣ୍ଡ ଟୁଙ୍ଗାରୁ ଥାଏ",
+      "reason": "Original printed quotation supports ର rather than digital ଲ."
+    },
+    {
+      "field": "literal_meaning",
+      "before": "Provisional reading: wearing another’s clothes, someone goes to the fair; when people ask, the person keeps nodding.",
+      "after": "Wearing another’s clothes, someone goes to the fair; when people ask, the person keeps nodding.",
+      "reason": "Asking verb now source verified; no provisional label needed."
+    },
+    {
+      "field": "meaning_odia",
+      "before": "ଅନ୍ୟର ଲୁଗା ପିନ୍ଧିବା ପାଖରେ ଧାଡ଼ିଟି ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବାକୁ ରଖେ। ଉତ୍ସର ପଚାଲିଲେ ଶବ୍ଦରୂପ ଅବିକଳ ରହିଛି; ପଚାରିବା ସମ୍ବନ୍ଧୀୟ ଏହି ପାଠ ସମ୍ଭାବ୍ୟ। ଆମ ପାଠ ବାହାରକୁ ଦିଶୁଥିବା କଥା ଓ ଅକୁହା ଉତ୍ତର ମଧ୍ୟର ଫାଙ୍କ ଦେଖେ। ଲୋକେ କଣ ପଚାରିଲେ, ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବାର ଅର୍ଥ କଣ, ବା ଠକିବା ଉଦ୍ଦେଶ୍ୟ ଥିଲା କି ନାହିଁ—କୁହାଯାଇନାହିଁ। ଅନ୍ୟର ଲୁଗା ନେବା ନିଜେ ଅସାଧୁତାର ପ୍ରମାଣ ନୁହେଁ।",
+      "after": "ଅନ୍ୟର ଲୁଗା ପିନ୍ଧିବା ପାଖରେ ଧାଡ଼ିଟି ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବାକୁ ରଖେ। ଆମ ପାଠ ବାହାରକୁ ଦିଶୁଥିବା କଥା ଓ ଅକୁହା ଉତ୍ତର ମଧ୍ୟର ଫାଙ୍କ ଦେଖେ। ଲୋକେ କଣ ପଚାରିଲେ, ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବାର ଅର୍ଥ କଣ, ବା ଠକିବା ଉଦ୍ଦେଶ୍ୟ ଥିଲା କି ନାହିଁ—କୁହାଯାଇନାହିଁ। ଅନ୍ୟର ଲୁଗା ନେବା ନିଜେ ଅସାଧୁତାର ପ୍ରମାଣ ନୁହେଁ।",
+      "reason": "Remove resolved transcription uncertainty; retain substantive ambiguity and nonjudgment."
+    },
+    {
+      "field": "cultural_context",
+      "before": "Sense1 is wearing clothes. Exact spelling is retained; no owner’s return, withdrawal, shame ending, wearer’s gender or verified fair custom is added.",
+      "after": "The borrowed clothes are visible, but the response is only a nod. The line leaves the question and the wearer’s intention unstated.",
+      "reason": "Plain actual scene rather than source-process list."
+    },
+    {
+      "field": "tags",
+      "before": [
+        "appearance",
+        "response",
+        "provisional reading"
+      ],
+      "after": [
+        "appearance",
+        "response",
+        "borrowed clothes"
+      ],
+      "reason": "Remove obsolete provisional label."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}
