@@ -1,5 +1,6 @@
 ---
 import Shell from '../layouts/Shell.astro';
+import culture from '../data/cultural-book.json';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import dongria from '../data/dongariya-book.json';
 import dongriaReading from '../data/dongria-book-reading.json';
@@ -16,17 +17,23 @@ const dhagaFile = '/archive/' + dhagaDownload.asset_name;
 const dongriaCover = dongriaReading.cover.at(-1)!;
 const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
 ---
-<Shell title="Books" description="Explore four books about Odisha: Dongria Kondh, Mirgan and Kotpad, Odia Cinema and Odia Dhaga. Read each online or download its own PDF." active="books" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
+<Shell title="Books" description="Explore five books about Odisha’s culture, communities, textiles, cinema and sayings. Read each online or download its complete PDF." active="books" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
 <div class="books-page">
   <header class="books-intro">
     <p class="eyebrow">Project Odisha · The reading collection</p>
     <h1>Books</h1>
-    <p>Four books about people, cloth, cinema and the words we carry in Odisha. Each has its own reading path, sources and downloadable edition.</p>
+    <p>Five books about culture, people, cloth, cinema and the words we carry in Odisha. Each has its own reading path, sources and downloadable edition.</p>
     <p>Read online at your own pace, or download a book to keep reading offline.</p>
   </header>
   <div class="book-grid">
+    <article class="book-card" data-book="culture" aria-labelledby="culture-title">
+      <img src={culture.cover.src} width={culture.cover.width} height={culture.cover.height} alt={culture.cover.alt} fetchpriority="high" decoding="async"/>
+      <header><p class="eyebrow">The complete cultural edition</p><h2 id="culture-title"><a href={culture.route}>{culture.title}</a></h2><p class="book-author">By {culture.author}</p></header>
+      <div class="book-description"><p>A cultural companion across Odisha’s landscapes, languages, faiths, literature, performance, crafts, food and everyday lives. Follow forty-eight connected chapters through the people and practices that carry culture forward.</p><p class="book-details">48 chapters · {culture.download.pages} pages · PDF {fileSize(culture.download.bytes)}</p><p class="cover-credit">The Indigo &amp; Gold illustrated cover of the complete edition.</p></div>
+      <footer class="book-actions"><a href={culture.route} aria-label={`Read online: ${culture.title}`}>Read online →</a><a href={culture.download.file} aria-label={`Download PDF: ${culture.title}`}>Download PDF ↓</a></footer>
+    </article>
     <article class="book-card" data-book="dongria" aria-labelledby="dongria-title">
-      <img src={dongriaCover.src} srcset={dongriaReading.cover.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 400px) 70vw, 256px" width={dongriaCover.width} height={dongriaCover.height} alt={dongriaReading.cover_alt} fetchpriority="high" decoding="async"/>
+      <img src={dongriaCover.src} srcset={dongriaReading.cover.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 400px) 70vw, 256px" width={dongriaCover.width} height={dongriaCover.height} alt={dongriaReading.cover_alt} loading="lazy" decoding="async"/>
       <header>
         <p class="eyebrow">{dongria.edition}</p>
         <h2 id="dongria-title"><a href="/stories/dongria/book/">{dongria.title}</a></h2>

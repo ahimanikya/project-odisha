@@ -1,0 +1,38 @@
+{
+  "id": "POD-DHAGA-011",
+  "input_after_sha256": "cddd671eafc4c0460d99acb69fdaecf329695729a9d31345295c8b8a8271fe57",
+  "reviewer": "Drishti AI",
+  "fields_reviewed": [
+    "odia",
+    "meaning_odia",
+    "odia_summary",
+    "title",
+    "literal_meaning",
+    "explanation",
+    "usage_example",
+    "cultural_context",
+    "english_summary",
+    "variants",
+    "witnesses",
+    "origin_note",
+    "editorial_status"
+  ],
+  "assessment": "Wrongfully gained wealth and loss including the roots remain intact; explanations attribute a moral warning rather than predicting every wrongdoer’s fate. Historical normalized variant retains its uncertainty. Visible cultural_context has a missing space in the1893. Requested spacing correction verified in full context; no other field changed in this follow-up.",
+  "findings": [],
+  "status": "PASS",
+  "review_scope": "Personally read complete listed fields, compared baseline and applied change plus recorded witness context. AI editorial review; not human or native-speaker certification.",
+  "baseline_sha256": "b7162c0ecb947e32f678cb60b49068704c22d3f6f628a40a9da585482fa08912",
+  "review_history": [
+    {
+      "input_after_sha256": "b7162c0ecb947e32f678cb60b49068704c22d3f6f628a40a9da585482fa08912",
+      "status": "NEEDS_FIX",
+      "findings": [
+        {
+          "field": "cultural_context",
+          "issue": "Missing space before1893",
+          "requested_change": "Replace the1893 with the 1893"
+        }
+      ]
+    }
+  ]
+}
