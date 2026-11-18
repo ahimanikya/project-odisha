@@ -1,6 +1,6 @@
 {
   "id": "POD-OSAKOTHI-IMAGES-20261118",
-  "status": "in_progress",
+  "status": "published_verified",
   "authorization": "User: These pages don’t have images - can we add images?",
   "scope": "Article photograph, series image/card, Explore and sharing metadata; preserve approved narrative.",
   "reservations": {
@@ -41,12 +41,83 @@
     "focused_tests": "4/4 PASS",
     "records": "bundle, team, rollout, workbench PASS",
     "disclosures": "dist PASS; coastal and publication gates required in hosted workflow",
-    "full_build": "PASS"
+    "full_build": "PASS",
+    "hosted": {
+      "id": 44342054411,
+      "conclusion": "success",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44342054411"
+    }
   },
   "reservations_released": [
     "Anvesha",
     "Samanta",
     "Drishti"
   ],
-  "next_action": "Hosted checks then publication under user authorization"
+  "next_action": "Image update complete; publication receipt saved on publication branch.",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/788",
+  "reviewed_head": "2b7c75534327a51bda81259b012b518fe3529259",
+  "merge_sha": "89083cfffc38295085331b3608101d3c2f602158",
+  "deployment": {
+    "id": 44345438474,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44345438474"
+  },
+  "verified_routes": [
+    "/stories/when-the-goddess-comes-to-the-wall/",
+    "/stories/the-year-that-feeds-us/"
+  ],
+  "live_verification": {
+    "checked_at": "2026-11-18T16:37:03.148773+00:00",
+    "deployment_run": 44345438474,
+    "merge_sha": "89083cfffc38295085331b3608101d3c2f602158",
+    "routes": {
+      "/stories/when-the-goddess-comes-to-the-wall/": {
+        "http_200": true,
+        "image_present": true,
+        "intrinsic_dimensions": true,
+        "alt": true,
+        "responsive": true,
+        "creator_credit": true,
+        "source_link": true,
+        "licence_link": true,
+        "sharing_image": true,
+        "approved_paragraphs_match": true
+      },
+      "/stories/the-year-that-feeds-us/": {
+        "http_200": true,
+        "image_present": true,
+        "intrinsic_dimensions": true,
+        "alt": true,
+        "responsive": true,
+        "creator_credit": true,
+        "source_link": true,
+        "licence_link": true,
+        "sharing_image": true
+      }
+    },
+    "assets": {
+      "/assets/osakothi/simanchala-nahaka-2019.jpg": {
+        "status": 200,
+        "bytes": 778285,
+        "sha256": "57bf8f1fc7a6ccaab7106c37938e84a73c158b150e69a233e59b97502c67248c",
+        "matches_original": true
+      },
+      "/images/responsive/bf0bddd22f01f440-480.webp": {
+        "status": 200,
+        "bytes": 27680,
+        "sha256": "bf0bddd22f01f44012f4c1d05b4faf04e8764f59e92e80d499fe557a984fe6eb"
+      },
+      "/images/responsive/0758c20944798c2a-960.webp": {
+        "status": 200,
+        "bytes": 76578,
+        "sha256": "0758c20944798c2ac61c061af10562eb95e1353f474697f6c78b0ff6022c3dc7"
+      },
+      "/images/responsive/f724c81ba31fc220-1440.webp": {
+        "status": 200,
+        "bytes": 130010,
+        "sha256": "f724c81ba31fc220947b1be3c9740487efd1fb8b71c088bb031acc913c19a547"
+      }
+    },
+    "result": "PASS"
+  }
 }

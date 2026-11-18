@@ -1,3 +1,4 @@
+import {pioneerProfiles,pioneerRoute} from './pioneers';
 import osakothi from '../../../../kb/research/stories/when-the-goddess-comes-to-the-wall.json';
 import tasarEditorial from '../../../../kb/research/culture/tasar-editorial.json';
 import kotpadEditorial from '../../../../kb/research/culture/kotpad-editorial.json';
@@ -101,6 +102,10 @@ import cuttackMeal from '../../../../kb/research/food/cuttack.json';
 import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
+for(const profile of pioneerProfiles){
+ const paragraphs=profile.sections.flatMap(section=>section.paragraphs);
+ entries.push({id:`reading:pioneers/${profile.slug}`,author:profile.author,title:profile.title,kind:'Reading',area:'Odisha',summary:paragraphs[0].text,href:pioneerRoute(profile.slug),checked:profile.checked_on,practical:profile.sections.map(section=>({heading:section.title||profile.title,paragraphs:section.paragraphs.filter(paragraph=>paragraph!==paragraphs[0]).map(paragraph=>paragraph.text)})).filter(section=>section.paragraphs.length).map(section=>({...section,text:section.paragraphs.join(' ')})),sources:profile.sources.map(({title,url})=>({title,url}))});
+}
 entries.push({id:maniabandha.save_id,title:maniabandha.title,author:maniabandha.author,kind:'Reading',area:'Cuttack',summary:maniabandha.lead,href:maniabandha.href,checked:maniabandha.checked_on,practical:maniabandha.passages.map(p=>({heading:'',text:p.text})),sources:maniabandha.sources});
 const dhagaBody=dhagaArticleRaw.replace(/^---[\s\S]*?---\s*/, '');
 const dhagaPlain=(text:string)=>text.replace(/^#{1,6}\s+/gm,'').replace(/\[\^[^\]]+\]/g,'').replace(/\[([^\]]+)\]\(([^)]+)\)/g,'$1 ($2)').replace(/^> ?/gm,'').replace(/\*\*/g,'').replace(/\*([^*]+)\*/g,'$1').trim();

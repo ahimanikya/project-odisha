@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-18T20:31:54.159757+00:00",
+  "status": "pass",
+  "scope": "Local review integration of all six Pioneers profiles; no publication or Git operation performed.",
+  "profiles": [
+    "bc-mohanty",
+    "charles-fabri",
+    "nilamani-senapati",
+    "sudhira-das",
+    "bira-kishore-ray",
+    "sanjukta-panigrahi"
+  ],
+  "node": "25.8.1",
+  "build": {
+    "command": "npm run build",
+    "exit_code": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/pioneers-20261119/integration-build.log"
+  },
+  "tests": {
+    "command": "node --test tests/pioneers.test.mjs tests/build.test.mjs",
+    "exit_code": 0,
+    "passed": 32,
+    "failed": 0,
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/pioneers-20261119/integration-tests.log"
+  },
+  "disclosures": {
+    "command": "node tools/check-public-disclosures.mjs dist",
+    "exit_code": 0,
+    "pages_scanned": 1478,
+    "violations": [],
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/pioneers-20261119/integration-disclosures.json"
+  },
+  "coverage": [
+    "All six narratives and source footnotes preserved",
+    "Original requested series order and admitted-neighbour navigation",
+    "Discovery and saved readers",
+    "Documented present images and absent-image handling",
+    "Sudhira portrait dimensions, attribution, licensing, modifications and note return links",
+    "Full-build route, link, asset and fragment assertions"
+  ],
+  "remaining": "Root browser review and shared records; publication intentionally withheld."
+}
