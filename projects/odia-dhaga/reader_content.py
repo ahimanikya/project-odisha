@@ -7,7 +7,7 @@ VARIANT_EXPLANATION_END = {
     ('231',1): ' Rendered page inspected', ('363',1): ' Locator:',
     ('376',1): ' Uploaded page31', ('403',1): ' Source:',
     ('406',1): ' Name reference:', ('461',1): ' Source:',
-    ('483',1): ' Source:', ('486',1): ' Source:',
+    ('483',1): ' Source:', ('486',1): ' Source:', ('550',1): ' Source:',
 }
 VARIANT_EXPLANATION_EXTRA = {
     ('034',1): 'Bamboo statement belongs to the proverbial image, without a universal biological claim.',
@@ -30,7 +30,7 @@ VARIANT_SHORT_EXPLANATIONS = {
     ('103',1): ['Same local-variation/river-bend proposition', 'this Incubator item supplies wording without a gloss and does not independently support the existing explanatory narrative.'],
     ('156',1): ['Stroked/indulged dog urinates in the face versus existing156 help answered with urination. Same coarse animal-image complaint about kindness repaid by disrespect.', 'Not a new count, animal fact or rule about recipients of help.', 'this Incubator item supplies wording without a gloss and does not independently support the existing explanatory narrative.'],
     ('176',1): ['Editorial comparison only; no assertion that all sibling relationships are instrumental.'],
-    ('178',1): ['Paired by the source with the same complete-destruction gloss; its separate literal image is not resolved here.'],
+    ('178',1): ['ଖୋଳ କରିବା: ସମୂଳେ ଧ୍ୱଂସ କରିବା। To destroy completely.'],
     ('187',1): ['Separately worded thematic parallel: visible marks versus concealed wrongdoing.', 'Source does not identify the marks, a religion, caste or actual person. Do not infer ritual details.'],
     ('195',1): ['Separately worded refusal parallel: declining provision and declining praise.'],
     ('222',1): ['Printed variant: “Among the ornaments, a neem twig has a place in the nose.” ଅଳଙ୍କାରମାନଙ୍କ ମଧ୍ୟରେ ନାକରେ ନିମକାଠିର ସ୍ଥାନ ଅଛି।'],

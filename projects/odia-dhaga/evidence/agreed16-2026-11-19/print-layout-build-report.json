@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "tests": {
+    "command": "python3 -m unittest test_repository test_source_inventory test_print_layout",
+    "passed": 36,
+    "initial_attempt": "Stale generated collection; deterministic rebuild refreshed it, rerun passed."
+  },
+  "pdf": {
+    "pages": 359,
+    "bytes": 190064100,
+    "sha256": "1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8"
+  },
+  "pdf_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/odia-dhaga-book.pdf",
+  "reading_units": 589,
+  "variants": 39,
+  "illustrated_entries": 550,
+  "placement_entry_hashes_match_current_entries": true,
+  "all_placements_fit": true,
+  "516_placement": {
+    "id": "POD-DHAGA-516",
+    "chapter": "Words & appearances",
+    "source_entry_sha256": "96e24206ccba948f6fd3859fae4aa3513d919136a963199eb6fc45f5c26cf29b",
+    "original_image_height_pt": 159.7014735658043,
+    "image_height_pt": 159.7014735658043,
+    "image_scale_factor": 1.0,
+    "text_scale_factor": 1,
+    "column": 0,
+    "top": 0,
+    "height": 614.7014735658042,
+    "image_position": "below",
+    "layout": "full-width",
+    "measured_width_pt": 499.27559055118115,
+    "page": 73
+  },
+  "proof": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/dhaga-agreed16-2026-11-19/reading516-page073.png",
+  "visual_check": "Complete text, unchanged illustration and caption fit without clipping; normal type retained.",
+  "changed_code": [
+    "build_print.py",
+    "test_repository.py",
+    "test_print_layout.py"
+  ],
+  "regression": "550 three-line primary and four-line uploaded variant distinct, bilingual variant explanation retained without source locator."
+}
