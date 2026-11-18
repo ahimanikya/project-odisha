@@ -1,0 +1,38 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
+import ArticleByline from '../../../components/ArticleByline.astro';
+import ArticleFootnote from '../../../components/ArticleFootnote.astro';
+import ArticleFootnotes from '../../../components/ArticleFootnotes.astro';
+import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
+import SaveJourney from '../../../components/SaveJourney.astro';
+import {pioneerProfiles,pioneersSeries,pioneerRoute,pioneerImage,pioneerFurtherReading} from '../../../data/pioneers';
+import '../../../styles/article-reading.css';
+import '../../../styles/pioneers-reading.css';
+export function getStaticPaths(){return pioneerProfiles.map(profile=>({params:{slug:profile.slug},props:{profile}}));}
+const {profile}=Astro.props;
+const image=pioneerImage(profile);
+const position=pioneerProfiles.findIndex(entry=>entry.slug===profile.slug);
+const sequence=[position>0?{entry:pioneerProfiles[position-1],direction:'Previous'}:null,position<pioneerProfiles.length-1?{entry:pioneerProfiles[position+1],direction:'Next'}:null].filter(Boolean);
+const passages=profile.sections.flatMap(section=>section.paragraphs.map((paragraph,index)=>({...paragraph,id:`${section.id}-${index}`})));
+const imageSource=image&&image.creator!=='Project Odisha'?{id:'profile-image',title:'Photograph: '+image.alt,url:image.source,note:`${image.creator}. ${image.license}. ${image.changes}`} : null;
+const sources=imageSource?[...profile.sources,imageSource]:profile.sources;
+const citedPassages=imageSource?[...passages,{id:'photograph',source_ids:[imageSource.id]}]:passages;
+const further=pioneerFurtherReading(profile).filter(link=>!link.href.startsWith('/')||link.href!==pioneerRoute(profile.slug));
+---
+<Shell title={profile.title} description={profile.description} active="explore" shareImage={image} wide related={false}>
+ <article class="article-reading pioneer-profile">
+  <a class="pioneers-return" href={pioneersSeries.route}>← {pioneersSeries.title}</a>
+  <header><h1>{profile.title}</h1><ArticleByline author={profile.author}/><p class="pioneers-dek">{profile.description}</p><SaveJourney id={`reading:pioneers/${profile.slug}`} quiet/></header>
+  {image&&<figure class="pioneers-image"><ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 784px) 92vw, 740px" fetchpriority="high"/><figcaption>{image.caption}{imageSource&&<ArticleFootnote ids={[imageSource.id]} sources={sources} passage="photograph"/>}</figcaption></figure>}
+  {profile.sections.map(section=><section id={section.id} class="pioneers-section">
+   {section.title&&<h2>{section.title}</h2>}
+   {section.paragraphs.map((paragraph,index)=><p data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.segments.map(segment=>segment.source_id?null:segment.emphasis==='em'?<em>{segment.text}</em>:segment.emphasis==='strong'?<strong>{segment.text}</strong>:segment.text)}<ArticleFootnote ids={paragraph.source_ids} sources={sources} passage={`${section.id}-${index}`}/></p>)}
+  </section>)}
+  {sequence.length>0&&<nav class="pioneers-sequence" aria-label="Pioneers reading sequence">{sequence.map(item=><a href={pioneerRoute(item.entry.slug)} rel={item.direction==='Previous'?'prev':'next'}><span>{item.direction}</span>{item.direction==='Previous'&&<span aria-hidden="true">← </span>}{item.entry.name}{item.direction==='Next'&&<span aria-hidden="true"> →</span>}</a>)}</nav>}
+  <ArticleReadingPath heading="Continue reading" links={[{href:pioneersSeries.route,title:'All Pioneers profiles'}]}/>
+  {further.length>0&&<ArticleReadingPath heading="Further reading" links={further}/>}
+  <ArticleFootnotes sources={sources} passages={citedPassages}>{imageSource&&<p>Image reuse: <a href={image.license_url}>{image.license}</a>.</p>}</ArticleFootnotes>
+  <p class="pioneers-update"><a href={`/contribute/?page=${encodeURIComponent(pioneerRoute(profile.slug))}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </article>
+</Shell>
