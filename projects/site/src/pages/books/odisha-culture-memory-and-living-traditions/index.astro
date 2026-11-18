@@ -1,0 +1,24 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import book from '../../../data/cultural-book.json';
+import '../../../styles/cultural-book.css';
+---
+<Shell title={book.title} description="Read all 48 chapters of Odisha: Culture, Memory and Living Traditions, by Ahimanikya Satapathy, online or download the complete illustrated book." active="books" related={false} shareImage={book.cover}>
+<article class="culture-book culture-home">
+  <nav class="culture-breadcrumbs" aria-label="Breadcrumbs"><ol><li><a href="/books/">Books</a></li><li><a href={book.route} aria-current="page">Odisha: Culture, Memory and Living Traditions</a></li></ol></nav>
+  <header class="culture-intro"><p class="eyebrow">48 chapters · Eight parts · An illustrated cultural companion</p><h1>{book.title}</h1><p class="culture-byline">By {book.author}</p></header>
+  <section class="culture-opening" aria-label="About the book">
+    <img class="culture-cover" src={book.cover.src} width={book.cover.width} height={book.cover.height} alt={book.cover.alt} fetchpriority="high" decoding="async" />
+    <div>{book.description.map(p=><p>{p}</p>)}
+      <p class="culture-actions"><a href={`${book.route}${book.chapters[0].slug}/`}>Start reading →</a><a href="#contents">Browse all chapters</a></p>
+      <p><a href={book.download.file}>Download the complete book · PDF · {(book.download.bytes/1000000).toFixed(1)} MB</a></p><p class="culture-small">310 pages including the front and back covers. The interior keeps its continuous page numbering and linked contents.</p>
+    </div>
+  </section>
+  <nav id="contents" class="culture-contents" aria-label="Book contents"><h2>Read the book online</h2><p>Follow the chapters in order, or begin with a subject that interests you.</p>
+    <div class="culture-parts">{book.parts.map(part=><section aria-labelledby={`part-${part.number}`}><p class="eyebrow">Part {part.number}</p><h3 id={`part-${part.number}`}>{part.title}</h3><ol start={(part.number-1)*6+1}>{book.chapters.filter(c=>c.part===part.number).map(chapter=><li><a href={`${book.route}${chapter.slug}/`}>{chapter.title}</a></li>)}</ol></section>)}</div>
+  </nav>
+  <section class="culture-author" aria-labelledby="about-author"><img src={book.portrait.src} width={book.portrait.width} height={book.portrait.height} alt={book.portrait.alt} loading="lazy" decoding="async"/><div><h2 id="about-author">About the author</h2><p>{book.authorBio}</p></div></section>
+  <section class="culture-update"><h2>Suggest an update</h2><p><a href={`/contribute/?page=${encodeURIComponent(book.route)}`}>Share a correction or source for this book</a>. GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
+  <p><a href="/books/">Explore the other books →</a></p>
+</article>
+</Shell>
