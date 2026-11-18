@@ -1,0 +1,62 @@
+---
+interface Props { title: string; author: string; ratio: number; spineColor: string; spineTitle: string; frontSrc: string; spineSrc?: string; backSrc?: string; backAlt?: string; backText?: string; }
+const { title, author, ratio, spineColor, spineTitle, frontSrc, spineSrc, backSrc, backAlt, backText } = Astro.props;
+---
+<div class="book-cover" data-book-cover data-view="front" role="group" aria-label={`${title}: cover views`} style={`--book-spine: ${spineColor}; --cover-ratio: ${ratio}`}>
+  <div class="book-viewport" data-cover-viewport>
+    <div class="book-volume" data-cover-volume>
+      <div class="book-face book-front" data-cover-face="front" aria-hidden="false"><slot/><span class="book-binding" aria-hidden="true"></span></div>
+      <div class="book-face book-back" data-cover-face="back" aria-hidden="true">
+        {backSrc ? <img src={backSrc} alt={backAlt || `${title}: back cover`} loading="lazy" decoding="async" draggable="false"/> : <div class="book-type-back"><p class="back-name">{spineTitle}</p><p>{backText}</p><p class="back-author">By {author}</p></div>}
+      </div>
+      <div class="book-spine" data-cover-face="spine" aria-hidden="true">{spineSrc ? <img src={spineSrc} alt={`${title}: original spine`} loading="lazy" decoding="async" draggable="false"/> : <div class="spine-label"><strong>{spineTitle}</strong><span>{author}</span></div>}</div>
+      <div class="book-pages" aria-hidden="true"></div>
+    </div>
+  </div>
+  <p class="book-cover-author">By {author}</p>
+  <div class="book-controls" data-cover-controls role="group" aria-label={`Choose a cover view for ${title}`} hidden>
+    <button type="button" data-cover-view="front" aria-pressed="true">Front</button>
+    <button type="button" data-cover-view="spine" aria-pressed="false">Spine</button>
+    <button type="button" data-cover-view="back" aria-pressed="false">Back</button>
+  </div>
+  <p class="book-cover-hint" data-cover-hint hidden>Use the buttons or swipe sideways across the cover.</p>
+  <p class="cover-larger"><a data-cover-larger data-front-src={frontSrc} data-back-src={backSrc} data-spine-src={spineSrc} href={frontSrc}>View cover larger ↗</a></p>
+  <span class="cover-status" data-cover-status role="status" aria-live="polite" aria-atomic="true"></span>
+</div>
+<script>
+  import { bindBookCover } from '../lib/book-cover.mjs';
+  for (const root of document.querySelectorAll('[data-book-cover]')) bindBookCover(root);
+</script>
+<style>
+  .book-cover{min-inline-size:0;max-inline-size:100%}
+  .book-viewport{display:grid;grid-template-columns:minmax(0,1fr);place-items:center;min-inline-size:0;inline-size:100%;padding:2rem 1.4rem;box-sizing:border-box;perspective:100rem;touch-action:pan-y pinch-zoom;user-select:none}
+  .book-volume{--book-depth:2rem;--book-angle:-8deg;position:relative;inline-size:min(100%,calc(24rem * var(--cover-ratio)));min-inline-size:0;aspect-ratio:var(--cover-ratio);transform-style:preserve-3d;transform:rotateY(var(--book-angle))}
+  .book-face{position:absolute;inset:0;backface-visibility:hidden;background:var(--book-spine);border-radius:1px 2px 2px 1px;box-shadow:.6rem .8rem 1.2rem rgb(25 19 13 / .18)}
+  .book-front{transform:translateZ(calc(var(--book-depth) / 2))}
+  .book-back{transform:rotateY(180deg) translateZ(calc(var(--book-depth) / 2))}
+  .book-front > :global(img),.book-back > img{display:block;inline-size:100%;block-size:100%;object-fit:contain;max-inline-size:100%;border-radius:inherit;-webkit-user-drag:none}
+  .book-binding{position:absolute;inset-block:0;inset-inline-start:3px;inline-size:6px;background:linear-gradient(90deg,rgb(0 0 0 / .14),rgb(255 255 255 / .08) 40%,transparent);pointer-events:none}
+  .book-spine,.book-pages{position:absolute;inset-block:0;inline-size:var(--book-depth);backface-visibility:hidden}
+  .book-spine{inset-inline-start:0;background:linear-gradient(90deg,rgb(0 0 0 / .22),transparent 45%,rgb(255 255 255 / .08)),var(--book-spine);transform:translateX(-50%) rotateY(-90deg);color:#fff7df;display:grid;place-items:center}
+  .spine-label{writing-mode:vertical-rl;display:flex;justify-content:space-between;align-items:center;gap:.5rem;max-block-size:100%;block-size:100%;inline-size:calc(100% - 2rem);padding:1rem 0;font-size:.55rem;line-height:1.2;white-space:nowrap}
+  .spine-label strong{font-size:.7rem;font-weight:600}
+  .book-spine > img{display:block;inline-size:100%;block-size:100%;object-fit:fill}
+  .cover-larger{font-size:.85rem;text-align:center;margin:.8rem 0 0}.cover-larger a[hidden]{display:none}.cover-larger a:focus-visible{outline:3px solid var(--sea);outline-offset:3px}
+  .book-pages{inset-inline-end:0;inset-block:2px;transform:translateX(50%) rotateY(90deg);background:repeating-linear-gradient(90deg,#e7dfcb 0,#e7dfcb 1px,#faf6e9 1px,#faf6e9 3px);border-block:1px solid #d5cab0}
+  .book-cover-author{font-size:1.12rem;font-weight:650;color:var(--ink);line-height:1.5;text-align:center;margin:.35rem 0 1rem}
+  .book-controls{display:flex;justify-content:center;flex-wrap:wrap;gap:.5rem}
+  .book-controls[hidden],.book-cover-hint[hidden]{display:none}
+  .book-controls button{min-block-size:2.75rem;padding:.55rem 1rem;border:1px solid var(--line);border-radius:.25rem;background:var(--paper);color:var(--ink);font:inherit;font-size:.95rem;cursor:pointer}
+  .book-controls button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
+  .book-controls button:hover{box-shadow:0 2px 7px rgb(0 0 0 / .17)}
+  .book-controls button:active{box-shadow:inset 0 0 0 2px currentColor}
+  .book-controls button:focus-visible{outline:3px solid var(--sea);outline-offset:3px}
+  .book-cover-hint{text-align:center;font-size:.8rem;color:var(--muted);line-height:1.5;margin:.8rem 0 0}
+  .cover-status{position:absolute;inline-size:1px;block-size:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+  .book-type-back{box-sizing:border-box;block-size:100%;padding:clamp(.9rem,3vw,1.75rem);color:#fff7df;display:flex;flex-direction:column;justify-content:center;gap:.65rem;text-align:center;border:2px solid #d6aa62;font-family:Georgia,serif;font-size:clamp(.7rem,1.3vw,.95rem);line-height:1.65}
+  .book-type-back p{margin:0}.back-name{font-size:1.5em}.back-author{font-weight:600}
+  @media(prefers-reduced-motion:no-preference){.book-cover[data-cover-ready] .book-volume{transition:transform .42s ease}.book-cover[data-dragging] .book-volume{transition:none}}
+  @media(max-width:400px){.book-viewport{padding:1.5rem 1rem}.book-volume{--book-depth:1.6rem}.book-cover-author{font-size:1.05rem}.book-controls button{padding-inline:.85rem}}
+  @media(forced-colors:active){.book-volume{transform:none!important;box-shadow:none}.book-face,.book-spine{transform:none;box-shadow:none;position:absolute;inset:0;inline-size:100%;background:Canvas;color:CanvasText;border:1px solid CanvasText}.book-face[aria-hidden=true],.book-spine[aria-hidden=true],.book-pages,.book-binding{display:none}.spine-label{writing-mode:horizontal-tb;inline-size:auto;block-size:auto;white-space:normal;padding:2rem;flex-direction:column;font-size:1rem;text-align:center}.spine-label strong{font-size:1.4rem}.book-controls button[aria-pressed=true]{border:3px solid Highlight;outline-offset:2px}.book-type-back{color:CanvasText}.book-controls button:focus-visible{outline-color:Highlight}}
+  @media print{.book-volume{transform:none!important}.book-face{transform:none;box-shadow:none}.book-back,.book-spine,.book-pages,.book-binding,.book-controls,.book-cover-hint{display:none!important}.book-front{display:block!important}}
+</style>
