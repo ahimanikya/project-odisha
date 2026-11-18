@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pdf_uploaded_validation_pending",
+  "status": "published_and_live_verified",
   "authorization_quote": "Remove the textual notes appendix too. We only need the Dhaga, explanations and illustrations in the book.",
   "baseline_commit": "c6a281ca2c720ea53146da305e648018e777266c",
   "scope": "Remove printed textual notes appendix and its contents promise. Preserve all 550 primary readings and illustrations, 36 variant wordings, and substantive explanations embedded in variant notes. Omit variant provenance/source/rights details from print only. Keep canonical research and website reading content unchanged; update published PDF download.",
@@ -16,7 +16,7 @@
     "Anvesha": "read-only scope/dependency audit",
     "Drishti": "independent read-only review; evidence output only"
   },
-  "publication": false,
+  "publication": true,
   "programme_credit": 0,
   "pdf": {
     "pages": 355,
@@ -41,5 +41,59 @@
     "bytes": 190064629,
     "pages": 355,
     "entries": 550
-  }
+  },
+  "reviewed_head": "b898eb4ed3d3045dd442d47310b0dec68e54a568",
+  "merge_commit": "5a4d92184d878591be8022be0bc7d2fd0397889f",
+  "pull_request": 785,
+  "ci_run": 44265775345,
+  "deployment_run": 44268852746,
+  "validation": {
+    "collection_layout_tests": 32,
+    "delivery_tests": 14,
+    "full_site_tests": 774,
+    "public_edition_tests": 597,
+    "final_artifact_review": "PASS_FINAL_ARTIFACT_REVIEW",
+    "payload_bytes": 971989055,
+    "payload_files": 3369,
+    "disclosure_pages": 1406,
+    "disclosure_violations": 0
+  },
+  "scope_released": true,
+  "live_verification": {
+    "status": "PASS_LIVE_BOOK_WITHOUT_NOTES",
+    "pages": [
+      {
+        "route": "/dhaga/",
+        "status": "PASS"
+      },
+      {
+        "route": "/dhaga/reader.html",
+        "status": "PASS"
+      },
+      {
+        "route": "/books/",
+        "status": "PASS"
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-064.html",
+        "status": "PASS"
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-550.html",
+        "status": "PASS"
+      }
+    ],
+    "retired_source_page": 404,
+    "pdf": {
+      "sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33",
+      "bytes": 190064629,
+      "pages": 355
+    }
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "5a4d92184d878591be8022be0bc7d2fd0397889f",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44268852746"
+  },
+  "final_review_sha256": "c8830dc3545e1b6a0ab6744e3c6b806353ae272035c78dd0a8bd0c09dc9ae30e"
 }
