@@ -1,0 +1,37 @@
+{
+  "id": "POD-DHAGA-228",
+  "review_sha256": "2955f495434da105cc6735926ea4989eb5406fc09b3af2dbff3c845ac85f93b2",
+  "before_file_sha256": "1cb13e60a7693bb3dfb96c65cae22a9f4fdcac6561bc2cf722c9c6627199bccc",
+  "after_file_sha256": "207601c3bd96af68b92c5c77cf8d07b4549bb32cf099f690472b4bca97505b71",
+  "changed_fields": [
+    "cultural_context"
+  ],
+  "actual_status": "applied_revised_review",
+  "checks": [
+    "Exact review and baseline preimage matched",
+    "Only explicitly proposed fields changed",
+    "Source wording, witnesses, rights and artwork preserved"
+  ],
+  "open_questions": [
+    "Cultural-context numeric references27001/99210 differ from listed lexical witness169883; source/admin fields preserved, refer for provenance audit rather than guessing identifier replacement."
+  ],
+  "independent_review": "PASS",
+  "revisions": [
+    {
+      "previous_review_sha256": "b5f03b53bc6b12704baae4278113fe3e485d1a6043ac7d5882c054f60130ec78",
+      "review_sha256": "2955f495434da105cc6735926ea4989eb5406fc09b3af2dbff3c845ac85f93b2",
+      "before_file_sha256": "a412ffd03c5524d39300f44424e457d31854a9999dd7f0f9a194421a15aef26c",
+      "after_file_sha256": "207601c3bd96af68b92c5c77cf8d07b4549bb32cf099f690472b4bca97505b71",
+      "field": "cultural_context",
+      "before": "27001 defines torn cloth. 99210 defines the compound ଲହୁଣିଆଁ ମାଠ as a fine soft shawl/cloth, supporting a bounded cloth contrast, not a particular fibre, weave or historic price. Retrospective valuation is editorial close reading. No origin or general rule about grief is claimed.",
+      "after": "The image contrasts a torn rag with fine cloth; it does not specify a particular fibre, weave or historical price. Retrospective valuation is editorial close reading. No origin or general rule about grief is claimed.",
+      "reason": "Replace research identifiers with the supported reader-facing lexical contrast, following root’s scope clarification; no guessed identifier correction or canonical source change.",
+      "coherence_check": "Rag/fine cloth contrast and limitations retained; opaque reference IDs removed only from public prose."
+    }
+  ],
+  "initial_independent_review": "pending",
+  "independent_review_sha256": "39640cbdbde91ce2fd0825e530ee24be8fdde716a719b12c3d6e2812b4075805",
+  "final_changed_fields": [
+    "cultural_context"
+  ]
+}
