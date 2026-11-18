@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FINAL_PDF_REVIEW",
+  "reviewer": "Drishti independent review",
+  "source_commit": "9129fac293c0da4c433c89ad80cb596165fc1763",
+  "pdf": {
+    "path": "projects/odia-dhaga/odia-dhaga-book.pdf",
+    "sha256": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35",
+    "pages": 431,
+    "bytes": 190358135
+  },
+  "independent_checks": {
+    "status": "PASS",
+    "pdf_sha256": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35",
+    "pages": 431,
+    "bytes": 190358135,
+    "entries_checked": 550,
+    "non_graphic_fields_preserved": 550,
+    "original_entry_bytes_preserved": 301,
+    "baseline_assets_preserved": 301,
+    "placements_checked": 586,
+    "variant_hashes_checked": 36,
+    "primary_images_nonzero": 550,
+    "all_text_scale_factors": 1,
+    "all_placements_within_page": true
+  },
+  "art_review": {
+    "new_images_individually_inspected": 249,
+    "current_assets_passed": 249,
+    "prior_rejections_preserved": true,
+    "corrected_535_and_546_visible_in_final_pdf": true
+  },
+  "visual_review": {
+    "final_pages_inspected": [
+      1,
+      2,
+      13,
+      38,
+      128,
+      166,
+      172,
+      212,
+      268,
+      271,
+      354,
+      356,
+      431
+    ],
+    "new_final_full_width_entries": [
+      524,
+      534,
+      535,
+      540,
+      550
+    ],
+    "earlier_measured_exceptions_reviewed_in_checkpoint_reports": [
+      303,
+      365,
+      428,
+      431,
+      454,
+      481,
+      520
+    ],
+    "findings": [
+      "All five final wide readings retain complete bilingual text, qualifications, illustrations and captions at normal type size.",
+      "Cover states550; introductory pages and original301 artwork remain clear.",
+      "Representative old/new two-column pages, full-width variant064, textual notes and final credits are legible without visible clipping or overlap.",
+      "Variant064 preserves the full bilingual note, editorial grouping limits and source/rights attribution.",
+      "Corrected535 uses the object-only spine/lamp/equal-chair composition;546 is neutral monochrome."
+    ]
+  },
+  "source_review": {
+    "verdict": "PASS_SOURCE_REVIEW",
+    "scope": "Exact commit code delta and all550 entry preservation; q80 limited to302–550, original301 q90 path unchanged,12 measured width exceptions, matching110MB export guard/test.",
+    "nonblocking_note": "export-dhaga.mjs measurement comment still mentions an intermediate206-image count; actual final249-image bytes are recorded in final-capacity.json. This does not affect the guard or output."
+  },
+  "tests_evidence": {
+    "reported_passed": 29,
+    "source": "final-implementation.json",
+    "rerun_by_reviewer": false
+  },
+  "limitations": [
+    "Visual inspection samples13 final pages plus earlier checkpoint exceptions; it is not a page-by-page visual proof of all431 pages. All586 placements and their canonical hashes were checked programmatically.",
+    "Whole-site publication total in final-capacity.json is an estimate; this PDF/source approval does not substitute for the final1GB publication gate or release hydration verification."
+  ],
+  "required_corrections": [],
+  "hashes_reviewed": {
+    "art-review.json": "aeace2ca9c24bc349798eb311c1de14031fc9cd6d76aa929a9886a27ea49cd74",
+    "integration-baseline.json": "be295818cb030ba82d184edf81e54856592beda3672aaca7c7b43897bdfbeb71",
+    "final-implementation.json": "099d781896004f5d3eaa896bbd15fc64c3bd892f7db2e87fa667646c6775783c",
+    "final-packing.json": "fe13996cfca471a6c28a2a3f524126f1e322c98f5f8a0d3cd9563352612eb55f",
+    "final-capacity.json": "ab50824cc8fc4c493e9f0033d2d07659bb281298feaf9cbaefbd9a3d8c860cad",
+    "layout-measurement-final.json": "28e81250d6a9039e4892cace06d41196a8ac74b81a51af87dfa3b727223744f1",
+    "final-independent-checks.json": "a998ead1f19720ab0c30aeaa4e63daf4f01c9cb2032fc2824a3ef3c5299a52f0",
+    "final-page-001.png": "cd9236274ed91c077bd3a5f33cdcfd5480e3acbda09379aeeba4fc099ed96edc",
+    "final-page-002.png": "2cb302a6645a3a3acd961259b6f8db91ff261388ebc03627b371a443e6eff13d",
+    "final-page-038.png": "9fb453dffb35bac67fe24ef12035a3fe6f19588ceb5b7afcddbbf9fc7fe3699d",
+    "final-page-128.png": "36bba726478321c307abf9494f448dee244839e89cfdb353441a0cc719d8e393",
+    "final-page-166.png": "6fceb1c8b55fb96c2402588d7825ae63908685602c8532bedd6a9848d87f71c4",
+    "final-page-172.png": "4023183afc0ccddd1e2ea5f2fba0e6615ba851fa5f5a57804fe9a991e2451ca0",
+    "final-page-212.png": "5b87f25a8b3f2eff724baa0b3250fb11231c2c9dadb7c6481fb3147f5414605a",
+    "final-page-268.png": "4832bbbd2f7c6e3d0a0f35c1fe70ac0d3ee92f362f17cffece4be7cd37f31720",
+    "final-page-271.png": "9a031250407176c731b28c18aa0e01754a90b5fcecf24c359a15ba3b57631c53",
+    "final-page-354.png": "5dc3b8c5d864be3636f777e30f0a63a52e2ff2a40c78d35911a7e6e0052d57ac",
+    "final-page-431.png": "ce453bb66850b8fe2e03746df503213de807e246efecc5eea9c0a9659cdb51a4",
+    "final-review-variant-page013.png": "f13d0c4ed1d20d74a32f3b0e536d3e4789cd425eb8b1c0ac0059366205f10cbc",
+    "final-review-notes-page356.png": "b0a4cb4d9df6e4cc494168f817557ad55703f7eedd12b9bb9b32c491e88a3603"
+  }
+}
