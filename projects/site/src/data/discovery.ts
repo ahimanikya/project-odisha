@@ -1,3 +1,4 @@
+import {pioneerProfiles,pioneersSeries,pioneerRoute,pioneerImage} from './pioneers';
 import osakothiImage from '../../../../kb/research/stories/osakothi-image.json';
 import osakothi from '../../../../kb/research/stories/when-the-goddess-comes-to-the-wall.json';
 import tasarEditorial from '../../../../kb/research/culture/tasar-editorial.json';
@@ -32,6 +33,8 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ {label:pioneersSeries.title,category:'People',dek:pioneersSeries.description,href:pioneersSeries.route,image:pioneerProfiles[0]?pioneerImage(pioneerProfiles[0]):undefined,regions:['Across Odisha']},
+ ...pioneerProfiles.map(profile=>({label:profile.name,category:'People',dek:profile.description,href:pioneerRoute(profile.slug),image:pioneerImage(profile),regions:['Across Odisha']})),
  {label:osakothi.title,image:osakothiImage,category:'Living culture',dek:osakothi.description,href:osakothi.route,regions:['Ganjam'],aliases:['Osakothi','Kothisala','The Year That Feeds Us']},
  {label:'The Year That Feeds Us',image:osakothiImage,category:'Living culture',dek:'Stories of cultivation, food, seasonal observances and the people who carry them forward.',href:'/stories/the-year-that-feeds-us/',regions:['Across Odisha'],aliases:['Agriculture','Seasonal traditions']},
  {"label": "Finally Watching Prahlad Natak", "category": "Personal", "dek": "A long-awaited performance, a distinctive dance style, and a meeting with organiser and Odissi singer Soumya Biswajit.", "href": "/stories/watching-prahlad-natak/", "image": {"src": "/assets/watching-prahlad-natak/performance-space.jpg", "alt": "Performers and audience beneath a yellow-and-white canopy.", "width": 1600, "height": 900}, "regions": ["Odisha"], "aliases": ["Prahlad Natak", "Prahlada Nataka", "Soumya Biswajit", "Kishorachandrananda Champu"]},

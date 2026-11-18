@@ -4,7 +4,21 @@ import {createHash} from 'node:crypto';
 import sharp from 'sharp';
 import {inflateSync,deflateSync,crc32} from 'node:zlib';
 const hash=b=>createHash('sha256').update(b).digest('hex');
-export const eligiblePNG=p=>/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
+// Exact measured additions; all retain decoded pixels and ancillary chunks byte-exact.
+export const additionalDeliveryPNGs=[
+  "assets/coast-natural-fallback-v2.png",
+  "assets/maniabandha/maniabandha-illustration.png",
+  "assets/cinema/pencil-akshaya-mohanty-20261101.png",
+  "assets/bhubaneswar-week/poem-conversations-v1.png",
+  "assets/cinema/pencil-gour-prasad-ghose-20261101.png",
+  "assets/cinema/pencil-uttam-mohanty-20261101.png",
+  "assets/cinema/pencil-searching-for-sita-bibaha-20261101.png",
+  "assets/cinema/pencil-bijaya-jena-20261101.png",
+  "assets/cinema/pencil-manmohan-mahapatra-20261101.png",
+  "assets/cinema/pencil-kalindi-charan-panigrahi-20261101.png",
+  "assets/cinema/pencil-nandita-das-20261101.png"
+];
+export const eligiblePNG=p=>additionalDeliveryPNGs.includes(p)||/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
 function chunks(bytes){
  if(!bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))throw Error('Invalid PNG signature');
  const result=[];let pos=8;
@@ -43,5 +57,5 @@ export async function losslessPNG(input){
 export async function optimizePublicationPNGs(output){
  const paths=[];async function walk(dir,prefix=''){for(const e of await readdir(dir,{withFileTypes:true})){if(e.isSymbolicLink())throw Error('Publication output must not contain symlinks');const p=prefix+e.name;if(e.isDirectory())await walk(new URL(e.name+'/',dir),p+'/');else if(eligiblePNG(p))paths.push(p);}}await walk(output);
  const files=[],cache=new Map();for(const path of paths.sort()){const url=new URL(path,output),input=await readFile(url),source_sha256=hash(input);let result=cache.get(source_sha256);if(!result){result=await losslessPNG(input);cache.set(source_sha256,result);}if(result.bytes.length<input.length)await writeFile(url,result.bytes);const {bytes,...checks}=result;files.push({path,source_sha256,output_sha256:hash(bytes),source_bytes:input.length,output_bytes:bytes.length,saved_bytes:input.length-bytes.length,...checks});}
- return {method:'PNG IDAT recompression with exact inflated scanline equality;  original ancillary chunks preserved byte-exact; decoded RGBA equality required',scope:['characters/','images/poetry-jhula/','images/stories/'],saved_bytes:files.reduce((n,f)=>n+f.saved_bytes,0),files};
+ return {method:'PNG IDAT recompression with exact inflated scanline equality;  original ancillary chunks preserved byte-exact; decoded RGBA equality required',scope:['characters/','images/poetry-jhula/','images/stories/',...additionalDeliveryPNGs],saved_bytes:files.reduce((n,f)=>n+f.saved_bytes,0),files};
 }

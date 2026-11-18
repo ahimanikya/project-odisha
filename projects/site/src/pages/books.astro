@@ -25,13 +25,13 @@ const dongriaCover = dongriaReading.cover.at(-1)!;
   </header>
   <div class="book-grid">
     <article class="book-card" data-book="culture" aria-labelledby="culture-title">
-      <img src={culture.cover.src} width={culture.cover.width} height={culture.cover.height} alt={culture.cover.alt} fetchpriority="high" decoding="async"/>
+      <div class="book-scene" style={`--book-spine: #142442; --cover-ratio: ${culture.cover.width / culture.cover.height}`}><div class="book-volume"><img src={culture.cover.src} width={culture.cover.width} height={culture.cover.height} alt={culture.cover.alt} fetchpriority="high" decoding="async"/><span class="book-binding" aria-hidden="true"></span></div></div>
       <header><p class="eyebrow">The complete cultural edition</p><h2 id="culture-title"><a href={culture.route}>{culture.title}</a></h2><p class="book-author">By {culture.author}</p></header>
       <div class="book-description"><p>A cultural companion across Odisha’s landscapes, languages, faiths, literature, performance, crafts, food and everyday lives. Follow forty-eight connected chapters through the people and practices that carry culture forward.</p><p class="book-details">48 chapters · {culture.download.pages} pages</p><p class="cover-credit">The Indigo &amp; Gold illustrated cover of the complete edition.</p></div>
       <footer class="book-actions"><a href={culture.route} aria-label={`Read online: ${culture.title}`}>Read online →</a></footer>
     </article>
     <article class="book-card" data-book="dongria" aria-labelledby="dongria-title">
-      <img src={dongriaCover.src} srcset={dongriaReading.cover.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 400px) 70vw, 256px" width={dongriaCover.width} height={dongriaCover.height} alt={dongriaReading.cover_alt} loading="lazy" decoding="async"/>
+      <div class="book-scene" style={`--book-spine: #6c3928; --cover-ratio: ${dongriaCover.width / dongriaCover.height}`}><div class="book-volume"><img src={dongriaCover.src} srcset={dongriaReading.cover.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 400px) 70vw, 256px" width={dongriaCover.width} height={dongriaCover.height} alt={dongriaReading.cover_alt} loading="lazy" decoding="async"/><span class="book-binding" aria-hidden="true"></span></div></div>
       <header>
         <p class="eyebrow">{dongria.edition}</p>
         <h2 id="dongria-title"><a href="/stories/dongria/book/">{dongria.title}</a></h2>
@@ -47,7 +47,7 @@ const dongriaCover = dongriaReading.cover.at(-1)!;
       </footer>
     </article>
     <article class="book-card" data-book="kotpad" aria-labelledby="kotpad-title">
-      <ResponsiveImage src={kotpad.cover.src} sizes="(max-width: 400px) 70vw, 205px" width={kotpad.cover.width} height={kotpad.cover.height} alt={kotpad.cover.alt} loading="lazy"/>
+      <div class="book-scene" style={`--book-spine: #69342b; --cover-ratio: ${kotpad.cover.width / kotpad.cover.height}`}><div class="book-volume"><ResponsiveImage src={kotpad.cover.src} sizes="(max-width: 400px) 70vw, 205px" width={kotpad.cover.width} height={kotpad.cover.height} alt={kotpad.cover.alt} loading="lazy"/><span class="book-binding" aria-hidden="true"></span></div></div>
       <header>
         <p class="eyebrow">{kotpad.edition}</p>
         <h2 id="kotpad-title"><a href="/stories/kotpad/book/">{kotpad.title}</a></h2>
@@ -63,7 +63,7 @@ const dongriaCover = dongriaReading.cover.at(-1)!;
       </footer>
     </article>
     <article class="book-card" data-book="cinema" aria-labelledby="cinema-title">
-      <img src="/assets/cinema/a-living-screen-cover-20261027.jpg" width="800" height="1199" alt="Odia Cinema: A Living Screen, with a symbolic household scene on the front cover" loading="lazy" decoding="async"/>
+      <div class="book-scene" style={`--book-spine: #4b3427; --cover-ratio: ${800 / 1199}`}><div class="book-volume"><img src="/assets/cinema/a-living-screen-cover-20261027.jpg" width="800" height="1199" alt="Odia Cinema: A Living Screen, with a symbolic household scene on the front cover" loading="lazy" decoding="async"/><span class="book-binding" aria-hidden="true"></span></div></div>
       <header>
         <p class="eyebrow">Digital reading edition</p>
         <h2 id="cinema-title"><a href="/cinema/">{cinemaTitle}</a></h2>
@@ -80,7 +80,7 @@ const dongriaCover = dongriaReading.cover.at(-1)!;
       </footer>
     </article>
     <article class="book-card" data-book="dhaga" aria-labelledby="dhaga-title">
-      <img src={dhagaCover} width="640" height={Math.round(dhaga.cover.height * 640 / dhaga.cover.width)} alt={dhaga.cover.alt} loading="lazy" decoding="async"/>
+      <div class="book-scene" style={`--book-spine: #8d5733; --cover-ratio: ${dhaga.cover.width / dhaga.cover.height}`}><div class="book-volume"><img src={dhagaCover} width="640" height={Math.round(dhaga.cover.height * 640 / dhaga.cover.width)} alt={dhaga.cover.alt} loading="lazy" decoding="async"/><span class="book-binding" aria-hidden="true"></span></div></div>
       <header>
         <p class="eyebrow">Odia Dhaga · Illustrated collection</p>
         <h2 id="dhaga-title"><a href="/dhaga/">{dhaga.cover.title_english} — <span lang="or">{dhaga.cover.title_odia}</span></a></h2>
@@ -110,7 +110,15 @@ const dongriaCover = dongriaReading.cover.at(-1)!;
   .books-intro>p:not(.eyebrow){font-size:1.12rem;line-height:1.8;margin-block:.75rem}
   .book-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,24rem),1fr));gap:2rem}
   .book-card{display:grid;grid-template-rows:auto auto 1fr auto;gap:1.5rem;min-inline-size:0;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);background:var(--paper);align-content:start}
-  .book-card > :global(img){display:block;inline-size:auto;block-size:20rem;max-inline-size:100%;object-fit:contain;justify-self:start}
+  .book-scene{display:grid;grid-template-columns:minmax(0,1fr);place-items:center;inline-size:100%;min-inline-size:0;min-block-size:22rem;padding:1rem 1.25rem 1.5rem;box-sizing:border-box;perspective:70rem}
+  .book-volume{--book-depth:2rem;position:relative;inline-size:min(100%,calc(20rem * var(--cover-ratio)));min-inline-size:0;max-inline-size:100%;transform-style:preserve-3d;transform:rotateY(-22deg);box-shadow:.7rem 1rem 1.2rem rgb(25 19 13 / .2)}
+  .book-volume > :global(img){position:relative;display:block;inline-size:100%;block-size:auto;max-inline-size:100%;transform:translateZ(calc(var(--book-depth) / 2));border-radius:1px 2px 2px 1px}
+  .book-binding{position:absolute;inset-block:0;inset-inline-start:3px;inline-size:6px;background:linear-gradient(90deg,rgb(0 0 0 / .15),rgb(255 255 255 / .1) 40%,transparent);transform:translateZ(calc(var(--book-depth) / 2 + 1px));pointer-events:none}
+  .book-volume::before,.book-volume::after{content:"";position:absolute;inset-block:1px;inline-size:var(--book-depth);pointer-events:none}
+  .book-volume::before{inset-inline-start:0;background:linear-gradient(90deg,rgb(0 0 0 / .28),transparent 35%,rgb(255 255 255 / .12) 65%,rgb(0 0 0 / .12)),var(--book-spine);transform:translateX(-50%) rotateY(-90deg)}
+  .book-volume::after{inset-inline-end:0;inset-block:2px;background:repeating-linear-gradient(90deg,#e7dfcb 0,#e7dfcb 1px,#faf6e9 1px,#faf6e9 3px);border-block:1px solid #d5cab0;transform:translateX(50%) rotateY(90deg)}
+  @media(prefers-reduced-motion:no-preference) and (hover:hover) and (pointer:fine){.book-volume{transition:transform .25s ease}.book-card:hover .book-volume,.book-card:focus-within .book-volume{transform:rotateY(-14deg)}}
+  @media(forced-colors:active){.book-volume{transform:none}.book-volume > :global(img){transform:none;box-shadow:none;outline:1px solid CanvasText}.book-volume::before,.book-volume::after,.book-binding{display:none}}
   .book-card h2{font-size:clamp(1.9rem,3vw,2.5rem);line-height:1.16;margin-block:.65rem 1rem;overflow-wrap:break-word}
   .book-card h2 a{text-decoration:none}
   .book-card h2 a:hover{text-decoration:underline}
@@ -126,5 +134,6 @@ const dongriaCover = dongriaReading.cover.at(-1)!;
   .books-next{max-inline-size:44rem;margin-block-start:3rem;font-size:1rem;line-height:1.8}
   .books-next h2{font-size:1.8rem;margin-block-end:1rem}
   .books-next p+p{margin-block-start:1rem}
-  @media(max-width:400px){.books-page{margin-block-start:2rem}.book-card > :global(img){block-size:auto;max-block-size:20rem;max-inline-size:100%}}
+  @media(max-width:400px){.books-page{margin-block-start:2rem}.book-scene{min-block-size:0;padding-block:1rem 1.5rem}.book-volume{--book-depth:1.6rem}}
+  @media print{.book-volume,.book-volume > :global(img){transform:none;box-shadow:none}.book-volume::before,.book-volume::after,.book-binding{display:none}}
 </style>

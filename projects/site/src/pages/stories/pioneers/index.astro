@@ -1,0 +1,27 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
+import {pioneerProfiles,pioneersSeries,pioneerRoute,pioneerImage} from '../../../data/pioneers';
+import '../../../styles/article-reading.css';
+import '../../../styles/pioneers-reading.css';
+const profileFor=(slug:string)=>pioneerProfiles.find(profile=>profile.slug===slug);
+const firstImage=pioneerProfiles[0]?pioneerImage(pioneerProfiles[0]):undefined;
+---
+<Shell title={pioneersSeries.title} description={pioneersSeries.description} active="explore" shareImage={firstImage} wide related={false}>
+ <article class="article-reading pioneers-collection">
+  <a class="pioneers-return" href="/explore/">← Explore Project Odisha</a>
+  <header><h1>{pioneersSeries.title}</h1></header>
+  {pioneersSeries.introduction.map(paragraph=><p>{paragraph}</p>)}
+  <section aria-labelledby="profiles-heading"><h2 id="profiles-heading">The profiles</h2>
+   <ol class="pioneers-list">{pioneersSeries.order.map(entry=>{
+    const profile=profileFor(entry.slug),image=profile?pioneerImage(profile):undefined;
+    return <li>{profile?<>
+     <h3><a href={pioneerRoute(entry.slug)}>{entry.name} <span aria-hidden="true">→</span></a></h3>
+     <p>{profile.description}</p>
+     {image&&<figure class="pioneers-image"><a href={pioneerRoute(entry.slug)}><ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 784px) 92vw, 740px" loading="lazy"/></a><figcaption>{image.caption}{image.creator!=='Project Odisha'&&<> By <a href={image.source}>{image.creator}</a>, <a href={image.license_url}>{image.license}</a>. {image.changes}</>}</figcaption></figure>}
+    </>:<><h3>{entry.name}</h3><p class="pioneers-forthcoming">Forthcoming</p></>}</li>;
+   })}</ol>
+  </section>
+  <p class="pioneers-update"><a href="/contribute/?page=%2Fstories%2Fpioneers%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </article>
+</Shell>

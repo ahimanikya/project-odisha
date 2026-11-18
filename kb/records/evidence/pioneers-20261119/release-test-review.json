@@ -1,0 +1,29 @@
+{
+  "reviewer": "Drishti — independent AI test-change review",
+  "reviewed_on": "2026-11-19",
+  "verdict": "PASS",
+  "scope": "Test-only Pioneers count corrections; execution outcomes owned separately by Samanta.",
+  "blocking_findings": [],
+  "files": [
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "949d0b2c0cf0d40f1898dbfa5a6d3ec225c1ecf6484ddd7c78ef2c4b58c29d6c"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "bce2e72820e0c5bdcfe346b93090d1a898d2d786b3759c58b599c37bad02c65e"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "e4af129cfa7a434ce6b659830efdb5de09f4f8aac919d76a30626e7d5f332866"
+    }
+  ],
+  "findings": [
+    "Reading baseline remains 60; six admitted profile readings produce expected 66. New exact-set assertion verifies Pioneers reading IDs against admitted metadata, preventing count-only false positives.",
+    "Explore baseline remains 176 under existing formula; one collection plus six admitted profiles produces expected 183. Production discovery.ts has precisely the collection entry and per-admitted-profile map.",
+    "Existing exact coastal route set, journey catalog IDs, starter IDs, noindex, prohibited-content, reading prompts, source checks, filter controls and controller-delivery assertions remain intact.",
+    "Previously reviewed full-build page count already derives one landing plus admitted profile count; no further weakening introduced."
+  ],
+  "execution_limit": "Coast build/tests were still running when source review completed. Existing dist-coast observed at old baseline 176 entries/60 Readings; this is not treated as new build evidence. Full dist has broader scope (194 entries/67 Readings), so coastal expectations must not be applied to it.",
+  "next_action": "Use Samanta’s final coastal build/test outcome as release execution evidence; no source correction requested."
+}

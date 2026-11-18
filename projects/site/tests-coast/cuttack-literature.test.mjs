@@ -26,7 +26,9 @@ test('reading starter and every literary idea retain reading prompts and source 
  for(const section of gangadhar.sections)for(const paragraph of section.paragraphs)assert.ok(book.includes(`<p>${escapeHTML(paragraph.text)}</p>`),section.id);
  assert.ok(book.includes('Keep the translation in view'));assert.ok(book.includes('Harekrishna Meher'));assert.ok(book.includes('Madhusudan Pati'));
  assert.ok(book.includes('Compare my canto and edition.'));assert.ok(book.includes('Gangadhar Meher'));assert.ok(book.includes('sahitya-akademi.gov.in'));
- const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,60);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
+ const pioneerSlugs=JSON.parse(readFileSync('../../kb/research/pioneers/series.json','utf8')).included_profiles;
+ const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,60+pioneerSlugs.length);
+ assert.deepEqual(reading.filter(i=>i.id.startsWith('reading:pioneers/')).map(i=>i.id).sort(),pioneerSlugs.map(slug=>'reading:pioneers/'+slug).sort());assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
  for(const idea of reading){
   if(idea.id==='reading:stories/reading-kalinga-beyond-odisha')assert.deepEqual(idea.practical,[{heading:'Continue online',text:'Open the article for its full narrative and source notes.'}]);
   else if(idea.id==='reading:knowledge/kotpad'){assert.equal(idea.practical.length,1);const ed=JSON.parse(readFileSync('../../kb/research/culture/kotpad-editorial.json'));assert.equal(ed.portable.paragraphs.length,2);assert.deepEqual(idea.practical.flatMap(p=>p.paragraphs),ed.portable.paragraphs);}
