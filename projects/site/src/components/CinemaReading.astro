@@ -22,7 +22,7 @@ const sequence=index<0?[]:[index>0?{entry:cinema.articles[index-1],direction:'Pr
   <div class="cinema-update" set:html={afterReading}/>
   {alternate&&<nav class="cinema-utilities" aria-label={onward.aria}><a href={onward.href}>{onward.label}</a></nav>}
   {sequence.length>0&&<nav class="cinema-sequence" aria-label="Full collection reading sequence">{sequence.map(n=><a href={n.entry.route} rel={n.direction==='Next'?'next':'prev'}><span>{n.direction} in full collection{n.direction==='Next'&&onward.aria==='Central reading route'&&onward.href===n.entry.route?' and central route':''}</span>{n.direction==='Previous'&&<span aria-hidden="true">← </span>}<Fragment set:html={n.direction==='Next'?cinemaLinkTitle(cinemaNavigationLabel(n.entry)):cinemaLabelHtml(cinemaNavigationLabel(n.entry))}/></a>)}</nav>}
-  <nav class="cinema-utilities" aria-label="Cinema collection"><a href="/cinema/">All {cinema.articles.length} readings</a><a href="/cinema/book/">Read or print the book</a><a href="/cinema/watch/">Find something to watch</a><a href="/cinema/reading-guide/#reading-paths">Reading paths and connections</a></nav>
+  <nav class="cinema-utilities" aria-label="Cinema collection"><a href="/cinema/">All {cinema.articles.length} readings</a><a href="/cinema/book/">Read the book online</a><a href="/cinema/watch/">Find something to watch</a><a href="/cinema/reading-guide/#reading-paths">Reading paths and connections</a></nav>
  </ReviewedCultureArticle></div>
 </Shell>
 <style>

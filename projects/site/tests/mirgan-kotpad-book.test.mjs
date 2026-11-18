@@ -32,10 +32,10 @@ test('complete book retains all bookends and one bibliography with navigable cha
  assert.equal((p.match(/id="book-note-/g)||[]).length,36);
  for(const c of book.chapters){assert.ok(p.includes(`href="${route(c)}"`));const cp=chapterPage(c);assert.ok(cp.includes(c.number===1?'/stories/kotpad/book/#introduction':route(book.chapters[c.number-2])));assert.ok(cp.includes(c.number===9?'/stories/kotpad/book/#conclusion':route(book.chapters[c.number])));assert.ok(cp.includes('/stories/dongria/book/'));}
 });
-test('both book entrances link the identical reviewed direct PDF',()=>{
+test('both book entrances offer online reading while preserving the reviewed PDF',()=>{
  assert.equal(book.download.pages,58);assert.equal(book.download.file,'/archive/mirgan-kotpad-reading.pdf');
  for(const base of ['public','dist']){const b=readFileSync(base+book.download.file);assert.equal(b.length,book.download.bytes);assert.equal(createHash('sha256').update(b).digest('hex'),book.download.sha256);}
- for(const path of ['dist/stories/kotpad/index.html','dist/stories/kotpad/book/index.html']){const p=read(path);assert.ok(p.includes(book.download.file));assert.ok(p.includes(book.cover.src));const rendered=p.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'');assert.doesNotMatch(rendered,/AI-generated|AI-assisted|ISBN\s*\d|printer-ready/);}
+ for(const path of ['dist/stories/kotpad/index.html','dist/stories/kotpad/book/index.html']){const p=read(path);assert.ok(!p.includes(`href="${book.download.file}"`));assert.ok(p.includes(book.cover.src));const rendered=p.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'');assert.doesNotMatch(rendered,/AI-generated|AI-assisted|ISBN\s*\d|printer-ready/);}
 });
 test('cross-chapter references are actual links and all contributions remain public-aware',()=>{
  for(const c of book.chapters){const p=chapterPage(c);for(const b of c.body)for(const m of b.matchAll(/\bChapter ([1-9])\b/g))assert.ok(p.includes(`href="${route(book.chapters[Number(m[1])-1])}"`));assert.ok(p.includes('Suggest an update'));assert.ok(p.includes('GitHub submissions are public.'));assert.ok(p.includes('Footnotes &amp; Sources'));}

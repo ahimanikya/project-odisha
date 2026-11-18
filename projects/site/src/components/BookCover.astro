@@ -1,15 +1,15 @@
 ---
-interface Props { title: string; author: string; ratio: number; spineColor: string; spineTitle: string; frontSrc: string; spineSrc?: string; backSrc?: string; backAlt?: string; backText?: string; }
-const { title, author, ratio, spineColor, spineTitle, frontSrc, spineSrc, backSrc, backAlt, backText } = Astro.props;
+interface Props { title: string; author: string; ratio: number; spineColor: string; spineTitle: string; frontSrc: string; spineSrc?: string; spineWidth?: number; spineHeight?: number; backSrc?: string; backWidth?: number; backHeight?: number; backAlt?: string; backText?: string; }
+const { title, author, ratio, spineColor, spineTitle, frontSrc, spineSrc, spineWidth, spineHeight, backSrc, backWidth, backHeight, backAlt, backText } = Astro.props;
 ---
 <div class="book-cover" data-book-cover data-view="front" role="group" aria-label={`${title}: cover views`} style={`--book-spine: ${spineColor}; --cover-ratio: ${ratio}`}>
   <div class="book-viewport" data-cover-viewport>
     <div class="book-volume" data-cover-volume>
       <div class="book-face book-front" data-cover-face="front" aria-hidden="false"><slot/><span class="book-binding" aria-hidden="true"></span></div>
       <div class="book-face book-back" data-cover-face="back" aria-hidden="true">
-        {backSrc ? <img src={backSrc} alt={backAlt || `${title}: back cover`} loading="lazy" decoding="async" draggable="false"/> : <div class="book-type-back"><p class="back-name">{spineTitle}</p><p>{backText}</p><p class="back-author">By {author}</p></div>}
+        {backSrc ? <img src={backSrc} width={backWidth} height={backHeight} alt={backAlt || `${title}: back cover`} loading="lazy" decoding="async" draggable="false"/> : <div class="book-type-back"><p class="back-name">{spineTitle}</p><p>{backText}</p><p class="back-author">By {author}</p></div>}
       </div>
-      <div class="book-spine" data-cover-face="spine" aria-hidden="true">{spineSrc ? <img src={spineSrc} alt={`${title}: original spine`} loading="lazy" decoding="async" draggable="false"/> : <div class="spine-label"><strong>{spineTitle}</strong><span>{author}</span></div>}</div>
+      <div class="book-spine" data-cover-face="spine" aria-hidden="true">{spineSrc ? <img src={spineSrc} width={spineWidth} height={spineHeight} alt={`${title}: original spine`} loading="lazy" decoding="async" draggable="false"/> : <div class="spine-label"><strong>{spineTitle}</strong><span>{author}</span></div>}</div>
       <div class="book-pages" aria-hidden="true"></div>
     </div>
   </div>

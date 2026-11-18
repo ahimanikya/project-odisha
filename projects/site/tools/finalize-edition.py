@@ -190,6 +190,10 @@ for route, doc in pages.items():
         elif resolved.fragment and unquote(resolved.fragment) not in pages[target].ids:
             errors.append('Missing fragment: ' + route + ' → ' + ref)
 
+# Declared book originals remain available even when online readers offer no download control.
+for ref in sorted(documents):
+    retain(ref, OUT / 'index.html')
+
 # Explicit collection downloads also retain historical assets that have no current page link.
 for ref in sorted(downloads):
     if ref.startswith('/characters/'):
