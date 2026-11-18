@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1294. blocked: 1, completed: 215, excluded: 821, queued: 257.
+Route inventory: 1294. blocked: 1, completed: 214, excluded: 821, in_progress: 1, queued: 257.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1316,5 +1316,5 @@ Route inventory: 1294. blocked: 1, completed: 215, excluded: 821, queued: 257.
 | POD-EDIT-DHAGA-548-20261117 | [Garb brings alms](https://projectodisha.org/dhaga/sayings/pod-dhaga-548.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-549-20261117 | [A sour mango tastes good to hunger](https://projectodisha.org/dhaga/sayings/pod-dhaga-549.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-550-20261117 | [I will not stay and endure it](https://projectodisha.org/dhaga/sayings/pod-dhaga-550.html) | excluded | standalone_dhaga_collection |
-| POD-EDIT-OSAKOTHI-20261118 | [When the Goddess Comes to the Wall](https://projectodisha.org/stories/when-the-goddess-comes-to-the-wall/) | completed | Founder-approved sourced essay for The Year That Feeds Us; no programme credit. |
+| POD-EDIT-OSAKOTHI-20261118 | [When the Goddess Comes to the Wall](https://projectodisha.org/stories/when-the-goddess-comes-to-the-wall/) | in_progress | Founder-approved sourced essay for The Year That Feeds Us; no programme credit. |
 | POD-EDIT-YEAR-FEEDS-INDEX-20261118 | [The Year That Feeds Us](https://projectodisha.org/stories/the-year-that-feeds-us/) | excluded | Series navigation accompanying the Osakothi story. |

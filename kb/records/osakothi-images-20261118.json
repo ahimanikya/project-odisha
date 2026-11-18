@@ -1,0 +1,52 @@
+{
+  "id": "POD-OSAKOTHI-IMAGES-20261118",
+  "status": "in_progress",
+  "authorization": "User: These pages don’t have images - can we add images?",
+  "scope": "Article photograph, series image/card, Explore and sharing metadata; preserve approved narrative.",
+  "reservations": {
+    "Anvesha": "Read-only rights and caption review; PASS completed.",
+    "Samanta": [
+      "projects/site/src/pages/stories/when-the-goddess-comes-to-the-wall.astro",
+      "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "projects/site/src/data/discovery.ts",
+      "projects/site/tests/osakothi.test.mjs",
+      "kb/research/stories/osakothi-image.json"
+    ],
+    "Drishti": "Read-only integrated image review",
+    "Disha": "Assets, shared records, checks, Git and publication"
+  },
+  "asset": {
+    "path": "projects/site/public/assets/osakothi/simanchala-nahaka-2019.jpg",
+    "sha256": "57bf8f1fc7a6ccaab7106c37938e84a73c158b150e69a233e59b97502c67248c",
+    "bytes": 778285,
+    "width": 2046,
+    "height": 2838,
+    "source": "https://commons.wikimedia.org/wiki/File:Guru_Simanchala_Nahaka_performs_Dhanakoila_or_Osakothi_(Gahana).jpg",
+    "creator": "Prateek Pattanaik",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "date": "2019-08-05",
+    "changes": "Original downloaded bytes retained. Responsive site derivatives may resize or re-encode without cropping.",
+    "rights_review": "Root retrieved full Commons page and visually inspected original; separate Anvesha metadata review PASS.",
+    "caption_scope": "Named Osakothi performer; no identification as Laxmidhar, mural photograph or documented village ceremony."
+  },
+  "programme_credit": 0,
+  "reviews": {
+    "source": "Anvesha separate agent PASS; root full source page and original photo inspected",
+    "implementation": "Samanta separate agent; reserved source files integrated",
+    "quality": "Drishti separate agent PASS: original hash, image identity, licence, dimensions, metadata, note6 and original narrative unchanged",
+    "browser": "Root CUA desktop and390px mobile PASS; full portrait and caption visible, image loaded352x488, scrollWidth390; series photo and credit inspected"
+  },
+  "validation": {
+    "focused_tests": "4/4 PASS",
+    "records": "bundle, team, rollout, workbench PASS",
+    "disclosures": "dist PASS; coastal and publication gates required in hosted workflow",
+    "full_build": "PASS"
+  },
+  "reservations_released": [
+    "Anvesha",
+    "Samanta",
+    "Drishti"
+  ],
+  "next_action": "Hosted checks then publication under user authorization"
+}

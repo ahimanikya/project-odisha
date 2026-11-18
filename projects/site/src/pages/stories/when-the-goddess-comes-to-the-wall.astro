@@ -1,4 +1,6 @@
 ---
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import image from '../../../../../kb/research/stories/osakothi-image.json';
 import Shell from '../../layouts/Shell.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import ArticleFootnote from '../../components/ArticleFootnote.astro';
@@ -7,9 +9,11 @@ import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import SaveJourney from '../../components/SaveJourney.astro';
 import '../../styles/article-reading.css';
 import story from '../../../../../kb/research/stories/when-the-goddess-comes-to-the-wall.json';
+const imageSource={id:'osakothi-photograph',title:'Guru Simanchala Nahaka performs Dhanakoila or Osakothi',url:image.source,note:`Photograph by ${image.creator}, 5 August 2019. ${image.license}. ${image.changes}`};
+const sources=[...story.sources,imageSource];
 const passages=story.sections.flatMap(section=>section.paragraphs.map((paragraph,index)=>({...paragraph,id:`${section.id}-${index}`})));
 ---
-<Shell title={story.title} description={story.description} active="explore" wide related={false}>
+<Shell title={story.title} description={story.description} active="explore" shareImage={image} wide related={false}>
  <article class="article-reading osakothi-story">
   <a class="collection-return" href={story.series.href}>← {story.series.title}</a>
   <header>
@@ -18,18 +22,25 @@ const passages=story.sections.flatMap(section=>section.paragraphs.map((paragraph
    <p class="story-dek">{story.description}</p>
    <SaveJourney id="reading:stories/when-the-goddess-comes-to-the-wall" quiet/>
   </header>
+  <figure class="osakothi-photograph">
+   <ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 470px) 90vw, 420px" fetchpriority="high"/>
+   <figcaption>{image.caption}<ArticleFootnote ids={[imageSource.id]} sources={sources} passage="photograph"/></figcaption>
+  </figure>
   {story.sections.map(section=><section id={section.id} class="story-section">
    {section.title&&<h2>{section.title}</h2>}
    {section.paragraphs.map((paragraph,index)=><p data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.segments.map(segment=>segment.source_id?<ArticleFootnote ids={[segment.source_id]} sources={story.sources} passage={`${section.id}-${index}`}/>:segment.emphasis==='em'?<em>{segment.text}</em>:segment.text)}</p>)}
   </section>)}
   <ArticleReadingPath id="osakothi-continue-reading" heading="Continue reading" links={[{href:story.series.href,title:story.series.title,description:'Cultivation, food, seasonal observances and the people who carry them forward.'}]}/>
-  <ArticleFootnotes sources={story.sources} passages={passages}><p>{story.source_note}</p></ArticleFootnotes>
+  <ArticleFootnotes sources={sources} passages={[...passages,{id:'photograph',source_ids:[imageSource.id]}]}><p>Photograph reuse: <a href={image.license_url}>{image.license}</a>.</p><p>{story.source_note}</p></ArticleFootnotes>
   <p class="article-update"><a href="/contribute/?page=%2Fstories%2Fwhen-the-goddess-comes-to-the-wall%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
  </article>
 </Shell>
 <style>
  .collection-return{display:inline-block;margin-bottom:2rem;font-size:.95rem}
  .story-dek{font-size:1.15rem;color:var(--muted)}
+ .osakothi-photograph{width:100%;max-width:420px;margin:2.5rem auto}
+ .osakothi-photograph :global(img){display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+ .osakothi-photograph figcaption{font-size:.9rem;line-height:1.6;margin-top:.75rem}
  .story-section{margin-block:3rem}
  .article-update{font-size:.9rem;margin-top:2.5rem}
  @media(max-width:600px){.story-section{margin-block:2.5rem}}
