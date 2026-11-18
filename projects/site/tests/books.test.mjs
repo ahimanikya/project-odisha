@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 const read=p=>readFileSync(p,'utf8');
 const culture=JSON.parse(read('src/data/cultural-book.json'));
@@ -17,6 +17,7 @@ test('books remain separate, with descriptive online reading links and no direct
  assert.deepEqual([...cards.keys()],['culture','dongria','kotpad','cinema','dhaga']);
  assert.equal(new Set(expected.map(b=>b.route)).size,5);
  assert.doesNotMatch(html,/<a\b[^>]*href="[^"]*\.pdf(?:[?#][^"]*)?"/i);
+ assert.doesNotMatch(html,/Book editions and printing notes/);
  assert.doesNotMatch(html,/Download PDF|\bPDF \d|\d+(?:\.\d+)? MB|download(?:able)? (?:a book|edition|its complete)/i);
  for(const b of expected){const card=cards.get(b.id);
   assert.ok(card.includes(b.title));assert.ok(card.includes(`By ${kotpad.author}`));
@@ -42,4 +43,47 @@ test('Books is available in both main navigation layouts and is current only on 
  for(const route of ['cinema/book/index.html','dhaga/index.html'])assert.match(read('dist/'+route),/<a href="\/books\/"[^>]*>(?:← )?All books<\/a>/);
  assert.ok(cards.get('dhaga').includes('Cover illustration: Project Odisha'));
  assert.ok(cards.get('dhaga').includes('https://creativecommons.org/licenses/by-sa/4.0/'));
+});
+
+test('every cover face has descriptive alternative text and explicit image dimensions',()=>{
+ const faces=new Map([
+  ['/assets/cultural-book/back-cover.png',[700,1000]],
+  ['/assets/book-covers/culture-spine.png',[104,1440]],
+  ['/assets/book-covers/dongria-back.png',[800,1000]],
+  ['/images/mirgan-kotpad/back-cover.png',[767,1200]],
+  ['/assets/book-covers/cinema-back.png',[801,1200]],
+ ]);
+ const seen=new Set();
+ for(const card of cards.values())for(const [img] of card.matchAll(/<img\b[^>]*>/g)){
+  assert.match(img,/alt="[^"\s][^"]*"/);
+  assert.match(img,/width="[1-9]\d*"/);
+  assert.match(img,/height="[1-9]\d*"/);
+  const src=img.match(/src="([^"]+)"/)[1];
+  if(faces.has(src)){const [width,height]=faces.get(src);assert.ok(img.includes(`width="${width}"`),src);assert.ok(img.includes(`height="${height}"`),src);seen.add(src);}
+ }
+ assert.deepEqual([...seen].sort(),[...faces.keys()].sort());
+});
+
+test('all five online books and their chapters omit book download and printing controls',()=>{
+ const bookFiles=new Set([culture.download.file,dongria.file,kotpad.download.file,'/archive/'+dhagaDownload.asset_name,cinema.standalone_intro.file,...[...cinema.books,...cinema.review_books,...cinema.archived_review_books].flatMap(b=>[b.file,b.release_file]).filter(Boolean)]);
+ const dongriaArticles=JSON.parse(read('src/data/dongariya.json'));
+ const families={
+  culture:[culture.route,...culture.chapters.map(c=>culture.route+c.slug+'/')],
+  dongria:['/stories/dongria/','/stories/dongria/book/',...dongriaArticles.map(a=>`/stories/dongria/${a.routeSlug||a.slug}/`)],
+  kotpad:['/stories/kotpad/','/stories/kotpad/book/',...kotpad.chapters.map(c=>`/stories/kotpad/${c.slug}/`)],
+  cinema:['/cinema/','/cinema/book/','/cinema/watch/',...cinema.articles.map(a=>a.route||`/cinema/${a.slug}/`)],
+  dhaga:['/dhaga/','/dhaga/reader.html',...dhaga.entries.map(e=>`/dhaga/sayings/${e.id.toLowerCase()}.html`)],
+ };
+ const routeFile=route=>'dist'+route+(route.endsWith('/')?'index.html':'');
+ const paths=new Set(Object.values(families).flat().map(routeFile));
+ for(const dir of ['books','stories/dongria','stories/kotpad','cinema','dhaga'])for(const file of readdirSync('dist/'+dir,{recursive:true}).filter(f=>f.endsWith('.html')))paths.add('dist/'+dir+'/'+file);
+ for(const file of paths){
+  const page=read(file);
+  for(const match of page.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)){
+   assert.ok(!bookFiles.has(match[1].split('#')[0]),file+': book download link');
+   const label=match[2].replace(/<[^>]*>/g,' ');
+   assert.doesNotMatch(label,/Download (?:the )?(?:(?:complete|illustrated|PDF) )?(?:book|reading edition)|Read or download the book|Read or print the book|Book editions and printing notes|standalone PDF/i,file);
+  }
+ }
+ // read() above fails for any missing manifest route, including Cinema chapters under /people/.
 });

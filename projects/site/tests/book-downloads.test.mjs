@@ -31,11 +31,11 @@ test('current Cinema descriptors use direct documents without changing edition i
   assert.ok(scope.documents.includes(book.file),`${book.file} declared for Coast retention`);
  }
 });
-test(`built Cinema downloads remain exact and linked (${stage})`,{skip:stage==='source'?'Source-only stage explicitly requested; run again after building.':false},()=>{
+test(`built Cinema originals remain exact without download controls (${stage})`,{skip:stage==='source'?'Source-only stage explicitly requested; run again after building.':false},()=>{
  const html=readFileSync(`${stage}/cinema/book/index.html`,'utf8');
  for(const book of expected){
   verify(stage,book);
-  assert.ok(html.includes(`href="${book.file}"`),`${book.edition}: same-origin book link`);
+  assert.ok(!html.includes(`href="${book.file}"`),`${book.edition}: no download control`);
  }
 });
 
@@ -75,8 +75,8 @@ test('Dhaga adapter preserves the pinned descriptor and validates bytes before d
  assert.ok(json('editions/coast.json').documents.includes(result.pdfURL));
  assert.match(d.browser_download_url,/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\//);
 });
-test(`Dhaga staged PDF is exact and linked directly (${stage})`,{skip:stage==='source'},()=>{
+test(`Dhaga staged PDF is exact without a website download control (${stage})`,{skip:stage==='source'},()=>{
  const d=json('../odia-dhaga/pdf-delivery.json'),file='/archive/'+d.asset_name;
  verify(stage,{...d,file});
- assert.ok(readFileSync(stage+'/dhaga/index.html','utf8').includes(`href="${file}"`));
+ assert.ok(!readFileSync(stage+'/dhaga/index.html','utf8').includes(`href="${file}"`));
 });

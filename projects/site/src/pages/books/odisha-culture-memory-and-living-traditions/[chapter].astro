@@ -15,7 +15,7 @@ const image=id=>chapter.images.find(i=>i.id===id);
 <article class="culture-book culture-reading">
   <nav class="culture-breadcrumbs" aria-label="Breadcrumbs"><ol><li><a href="/books/">Books</a></li><li><a href={book.route}>Culture, Memory and Living Traditions</a></li><li><a href={route} aria-current="page">Chapter {chapter.number}</a></li></ol></nav>
   <header class="culture-chapter-head"><p class="eyebrow">Part {part.number} · {part.title}</p><p class="culture-small">Chapter {chapter.number} of 48</p><h1 id="chapter-title">{chapter.title}</h1><p class="culture-subtitle">{chapter.subtitle}</p><p class="culture-byline">By {chapter.author}</p></header>
-  <nav class="culture-chapter-tools" aria-label="Reading tools"><a href={`${book.route}#contents`}>All chapters</a><a href="#references">Footnotes &amp; Sources</a><a href={`${book.download.file}#page=${chapter.startPage+1}`}>Read this chapter in the PDF</a></nav>
+  <nav class="culture-chapter-tools" aria-label="Reading tools"><a href={`${book.route}#contents`}>All chapters</a><a href="#references">Footnotes &amp; Sources</a></nav>
   <div class="culture-prose">{chapter.sections.map((section,si)=><section class="culture-section">
     {section.heading && <h2>{section.heading}</h2>}
     {section.image_before && <CulturalBookFigure image={image(section.image_before)} eager={si===0}/>}

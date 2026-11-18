@@ -60,7 +60,6 @@ export async function exportDhaga(destination){
 
  await rm(out,{recursive:true,force:true});await mkdir(resolve(out,'sayings'),{recursive:true});await mkdir(resolve(out,'assets'),{recursive:true});
  await writeFile(resolve(out,'assets/site-chrome.css'),(chrome.match(/<style[^>]*>[\s\S]*?<\/style>/g)||[]).map(s=>s.replace(/^<style[^>]*>|<\/style>$/g,'')).join('\n'));
- const pdfLabel=`Download PDF book (${pdf.pages} pages, ~${Math.round(pdf.bytes/1024/1024)} MB)`;
  const coverSrc=data.cover?.src;
  if(!coverSrc)throw Error('Dhaga cover metadata is required');
  const assets=new Map(),dimensions=new Map();
@@ -80,7 +79,7 @@ export async function exportDhaga(destination){
   html=html.replace(/<meta name="robots"[^>]*>/g,'');
   html=html.replace(/<meta (?:name|property)="(?:description|og:[^"]+|twitter:[^"]+|referrer)"[^>]*>/g,'');
   const title=html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||'Odia Dhaga';
-  const description='Read Odia Dhaga with English and Odia meanings, usage and illustrations, and download the complete book.';
+  const description='Read Odia Dhaga with English and Odia meanings, usage and illustrations.';
   const social='<meta name="description" content="'+description+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+description+'"><meta property="og:url" content="https://projectodisha.org'+route+'"><meta property="og:image" content="https://projectodisha.org/dhaga/assets/'+basename(assets.get(coverSrc))+'"><meta property="og:image:alt" content="'+esc(data.cover.alt)+'"><meta property="og:image:width" content="'+dimensions.get(assets.get(coverSrc)).width+'"><meta property="og:image:height" content="'+dimensions.get(assets.get(coverSrc)).height+'"><meta name="twitter:card" content="summary_large_image"><meta name="referrer" content="strict-origin-when-cross-origin">';
   const meta=social+'<meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://projectodisha.org'+route+'">'+fonts.map(f=>'<link rel="preload" href="/dhaga/assets/'+f+'" as="font" type="font/woff2" crossorigin>').join('');
   if(!html.includes('<head>'))html=html.replace('<html lang="en">','<html lang="en"><head>').replace('<body>','</head><body>');
@@ -93,7 +92,8 @@ export async function exportDhaga(destination){
   // The reader redirect builds its URL dynamically from stable uppercase IDs.
   html=html.replace(/["']sayings\/["']\s*\+\s*id\s*\+\s*["']\.html["']/g,"'/dhaga/sayings/'+id.toLowerCase()+'.html'");
   html=html.replace(/<a href="(?:\.\.\/)?(?:README\.md|source127\.html)"[^>]*>[\s\S]*?<\/a>/g,'');
-  html=html.replace(/odia-dhaga-book\.pdf/g,pdfURL).replace(/ download>Download book/g,'>'+pdfLabel);
+  // The website offers online reading; the separately validated offline edition stays intact.
+  html=html.replace(/<a\b[^>]*href="(?:\.\.\/)?odia-dhaga-book\.pdf"[^>]*>[\s\S]*?<\/a>/g,'').replace('aria-label="Read or download"','aria-label="Read the collection"');
   for(const [src,dst] of assets)html=html.replaceAll(src,dst);
   html=html.replace(/<img ([^>]*?)src="((?:\.\.\/)?assets\/[^"]+)"([^>]*)>/g,(match,before,path,after)=>{const info=dimensions.get(path.replace(/^\.\.\//,''));return info?'<img '+before.replace(/\s*(?:width|height)="[^"]*"/g,'')+'src="'+path+'" width="'+info.width+'" height="'+info.height+'"'+after.replace(/\s*(?:width|height)="[^"]*"/g,'')+'>':match;});
   html=html.replace('Read locally, share carefully.','Read and share with care.');

@@ -3,41 +3,23 @@ import Shell from '../../layouts/Shell.astro';
 import CinemaDiscovery from '../../components/CinemaDiscovery.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
-import {cinema,picture} from '../../lib/cinema-article.mjs';
+import {cinema} from '../../lib/cinema-article.mjs';
 import '../../styles/article-reading.css';
 const lead=cinema.articles.find(a=>a.slug==='odia-cinema'),hero=lead.images.find(i=>i.role==='title');
-const mb=n=>(n/1000000).toFixed(1)+' MB';
-const formatDate=date=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(date+'T00:00:00Z'));
-const current=cinema.review_books[0];
-const candidate=current.status==='local_review_candidate';
-if(cinema.review_books.some(book=>book.edition_date!==current.edition_date||book.readings!==current.readings||(book.status==='local_review_candidate')!==candidate))throw Error('Book editions must share date, reading count and release status');
-const editionDate=formatDate(current.edition_date);
-const editionLabel=book=>book.edition==='digital'?'Digital reading edition':'Printable reading edition';
-const description=book=>book.description||(book.edition==='digital'?'Linked contents, chapter references and sources.':book.edition_date>='2026-11-01'?'Mirrored margins, selected printed links and credited images.':'Mirrored margins, printed source URLs and credited images.');
-const archives=[...new Set(cinema.archived_review_books.map(book=>book.edition_date))].sort().reverse().map(date=>({date,books:cinema.archived_review_books.filter(book=>book.edition_date===date)}));
 ---
-<Shell title="Odia Cinema: A Living Screen — the book" description="Download the connected digital and printable book about Odia cinema, literature, radio, television and the people making stories." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
+<Shell title="Odia Cinema: A Living Screen — the book" description="Read the connected book about Odia cinema, literature, radio, television and the people making stories, with sources and image credits." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
  <article class="article-reading cinema-book"><p><a href="/books/">← All books</a> · <a href="/cinema/">The cinema readings</a></p><h1>Odia Cinema:<br/>A Living Screen</h1><p>Stories, People and the Places Between</p><ArticleByline author="Ahimanikya Satapathy"/>
 
   <p>The collection opens with <a href="/cinema/the-question-that-brought-me-here/">The Question That Brought Me Here</a>, the author’s personal introduction. The online collection brings {cinema.articles.length} readings into {cinema.parts.length} parts, with connecting threads, a people guide, dated turning points and linked image credits.</p>
   <p>In the book, DAMaN’s three filmmaker profiles are woven into its chapter. Their profiles appear together in the online DAMaN team reading.</p>
-  <p><a href={cinema.standalone_intro.file}>The Question That Brought Me Here — standalone PDF</a>. {cinema.standalone_intro.pages} pages, {mb(cinema.standalone_intro.bytes)}.</p>
-  <h2>{candidate?'Review PDF edition':'Available PDF edition'} · {editionDate}</h2>
-  <p>These downloads contain {current.readings} readings in the {candidate?'review':'published'} edition dated {editionDate}, with linked sources and image credits. {candidate?'This edition is available here for review; earlier published downloads remain below.':'The online readings may include later revisions.'}</p>
-  <ul>{cinema.review_books.map(book=><li><a href={book.file}>{editionLabel(book)} · {editionDate} — PDF, {mb(book.bytes)}</a>. {book.pages} pages. {description(book)}</li>)}</ul>
-  <h2>Printing the book</h2><p>The print edition uses a 6 × 9 inch page. Print at 100% on matching stock, duplex with long-edge binding, or ask a print shop to impose and trim it to that size. For A4 or Letter home printing, choose fit-to-page and expect a different finished size. This is a reading edition, not a printer-specific press-ready PDF.</p>
+  <p><a href="/cinema/the-question-that-brought-me-here/">Begin with the introduction →</a></p>
   <figure class="book-cover"><img src="/assets/cinema/a-living-screen-cover-20261027.jpg" width="800" height="1199" alt="Odia Cinema: A Living Screen, with a symbolic household scene on the front cover" fetchpriority="high"/><figcaption>Cover of Odia Cinema: A Living Screen.</figcaption></figure>
-  <p>The <a href="/cinema/">online reading collection</a> offers the expanded sequence in accessible HTML. These PDF reading editions have bookmarks and links but are not tagged accessibility editions.</p>
+  <p>The <a href="/cinema/">online reading collection</a> offers the expanded sequence with chapter navigation, sources and image credits.</p>
   <CinemaDiscovery heading="Explore the online collection"/>
-  <details class="book-archives"><summary>Earlier published editions</summary>
-{archives.map(group=><Fragment><h2>Earlier published edition · {formatDate(group.date)}</h2><p>The {group.books[0].readings}-reading edition remains available as an archive.</p><ul>{group.books.map(book=><li><a href={book.file}>{editionLabel(book)} · {formatDate(group.date)} — PDF, {mb(book.bytes)}</a>. {book.pages} pages.</li>)}</ul></Fragment>)}
-  <h2>Earlier published edition · 26 October 2026</h2><p>The fourteen-chapter edition of 26 October 2026 remains available as an archive; it predates the current introduction and later readings.</p><ul><li><a href="https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen.pdf">Digital reading edition · 26 October 2026 — PDF, {mb(cinema.books[0].bytes)}</a>. Hosted as a Project Odisha release download. 95 pages, linked contents and sources.</li><li><a href="https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen-print.pdf">Printable reading edition · 26 October 2026 — PDF download, {mb(cinema.books[1].bytes)}</a>. Hosted as a Project Odisha release download. 106 pages, mirrored margins, printed source URLs and credited images.</li></ul>
-  </details>
 
-  <p>{candidate?'Review PDF edition':'Downloadable PDF edition'} dated {editionDate}; earlier published editions remain available above. Documentary images retain their credits and reuse terms; imagined illustrations are labelled. The book offers a sourced reading of this history, not a definitive account of every Odia film.</p>
+  <p>Documentary images retain their credits and reuse terms; imagined illustrations are labelled. The book offers a sourced reading of this history, not a definitive account of every Odia film.</p>
   <ArticleReadingPath links={[{href:'/cinema/',title:'Read the connected articles online'},{href:'/cinema/watch/',title:'Open the viewing room',description:'Source-hosted films and clips, with provider conditions made explicit.'}]}/>
  </article>
 </Shell>
 <style>.cinema-book{max-width:804px;padding-inline:32px}.cinema-book :global(img){max-width:100%;height:auto}.book-cover img{display:block;max-width:350px;margin-inline:auto}.book-cover figcaption{text-align:center}@media(max-width:600px){.cinema-book{padding-inline:22px}}</style>
 
-<style>.book-archives{margin-block:2rem;border-block:1px solid var(--line);padding-block:.75rem}.book-archives summary{cursor:pointer;min-height:44px;padding-block:.5rem;font-weight:600}.book-archives summary:focus-visible{outline:3px solid var(--earth);outline-offset:4px}</style>
