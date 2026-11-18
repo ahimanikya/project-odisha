@@ -16,6 +16,8 @@ VARIANT_EXPLANATION_EXTRA = {
 }
 
 VARIANT_SHORT_EXPLANATIONS = {
+    ('516', 1): ['ଏହି ପାଠ ପ୍ରତିଶ୍ରୁତିରୁ ଆରମ୍ଭ ହୋଇ ନ ଦେବା ଓ ମନା ମଧ୍ୟ ନ କରିବାକୁ କଟାକ୍ଷ କରେ। This reading begins with the repeated promise; the book’s gloss identifies satire of a person who promises but does not give.'],
+    ('516', 2): ['ଏହି ପାଠ ଆଚରଣର ଅସଙ୍ଗତିକୁ ପ୍ରଥମେ ରଖିଛି; ଶବ୍ଦକ୍ରମ ବଦଳିଲେ ମଧ୍ୟ ବ୍ୟଙ୍ଗର ଅର୍ଥ ସମାନ। This reading puts neither giving nor refusing first, then extends the repeated promise for as long as the moon and sun endure.'],
     ('011',1): ['Provisional normalized historical reading, not an exact diplomatic transcription.', 'Modern spacing supplied in normalized reading; old typography is faint.'],
     ('012',1): ['Provisional normalized historical reading, not an exact diplomatic transcription.', 'Distinguish historical ଆରେ from contemporary ଆଲୋ; exact historical spacing/punctuation not certified.'],
     ('143',1): ['Preserve କଞ୍ଚା/କଷା and ସଢ଼ା/ପଚା differences; no shared-origin inference.'],
