@@ -1,5 +1,5 @@
 {
-  "status": "independent_review_and_validation",
+  "status": "published_and_live_verified",
   "authorization_quote": "Remove the textual notes from the website too. Keep only the Dhaga, explanations and illustrations.",
   "baseline_commit": "6da8ed72302984cbbae741a0399ba2962c2b8b75",
   "scope": "Remove website textual notes, witness/source and origin panels; preserve 550 sayings/explanations/illustrations and 36 variant wordings with same useful explanation projection as approved book. Canonical research and published PDF unchanged.",
@@ -25,12 +25,43 @@
       "shared records, Git and publishing"
     ]
   },
-  "publication": false,
+  "publication": true,
   "programme_credit": 0,
   "implementation_tests": 33,
   "preserved_pdf": {
     "pages": 355,
     "bytes": 190064629,
     "sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33"
-  }
+  },
+  "reviewed_head": "c15d11a3695b7812ec66d75ff043e7a2d34013b2",
+  "merge_commit": "36ffd82792fc804fd7fd505224347d2bdeae0b9a",
+  "pull_request": 786,
+  "ci_run": 44329474111,
+  "deployment_run": 44332603602,
+  "validation": {
+    "focused_tests": 33,
+    "full_site_tests": 774,
+    "public_edition_tests": 597,
+    "final_artifact_review": "PASS_FINAL_ARTIFACT_REVIEW",
+    "payload_bytes": 971550192,
+    "payload_files": 3369,
+    "disclosure_pages": 1406,
+    "disclosure_violations": 0
+  },
+  "scope_released": true,
+  "live_verification": {
+    "status": "PASS_LIVE_WEBSITE_WITHOUT_NOTES",
+    "readings_checked": 550,
+    "illustrations_checked": 550,
+    "variants_checked": 36,
+    "primary_content_and_variant_explanations_retained": true,
+    "textual_notes_panels_absent": true,
+    "download_filename": "odia-dhaga-550-811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33.pdf"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "36ffd82792fc804fd7fd505224347d2bdeae0b9a",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44332603602"
+  },
+  "final_review_sha256": "eff595ea20dd71fa2dafea18f0d0250047c0cc19055b008c8346d9d2f41030a2"
 }

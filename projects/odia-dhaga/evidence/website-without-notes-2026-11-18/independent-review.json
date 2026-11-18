@@ -1,0 +1,39 @@
+{
+  "status": "PASS_INDEPENDENT_REVIEW",
+  "source_commit": "c15d11a3695b7812ec66d75ff043e7a2d34013b2",
+  "baseline_commit": "6da8ed72",
+  "protected_files_checked": 1673,
+  "html_pages_checked": 552,
+  "primary_entries_checked": 550,
+  "variant_wordings_checked": 36,
+  "explanations_checked": 29,
+  "projection_matches_approved_book": true,
+  "pdf_sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33",
+  "browser_review": {
+    "surface": "Real Chrome extension, locally served full site dist",
+    "page": "POD-DHAGA-092",
+    "desktop": {
+      "viewport_width": 1272,
+      "document_width": 1272,
+      "visual": "Readable primary text and entire long bilingual variant; absent notes panel; image shown."
+    },
+    "mobile": {
+      "viewport_width": 390,
+      "document_width": 390,
+      "visual": "Readable wrapped bilingual variant and image, no clipping or horizontal overflow."
+    },
+    "limitation": "Subsequent navigation smoke and additional001/156 pages blocked by an unrelated extension UI. No successful click-navigation claim. Temporary viewport reset."
+  },
+  "required_corrections": [],
+  "hashes_reviewed": {
+    "build.py": "0002f34fab89f0466bb5d62e64f6cbdadf19f94931e41b452eb0dfec2d2dec29",
+    "build_print.py": "87a51cba604a397512bcbc45f3ac70c91e725d7d7a5661e9a365d1803947e99a",
+    "reader_content.py": "b8c3e408461b3079972cfeca11b5cf5f1451ca078f072fa387ad963324417847",
+    "test_repository.py": "0e29effdb263e3007ebacdaead92c289b11336ad30745d8bd92950b620917b2b",
+    "test_print_layout.py": "fd18b5adc6dadf563708d76c05d88b19b14fbb3aa2605747968dbf9c88f24deb",
+    "pdf-delivery.json": "221fee1a38c8ac93fcb2e6423ddec8ff753eb0b1974062ab237b9dc96692aeec",
+    "packing-report.json": "72339ac51c9fa7020d2b42bdfa049ada426ab53a3d6588511b58278b74e6e2f6"
+  },
+  "implementation_report_sha256": "c27d89799a30def24ef554a84525dcd078a6bb0b3c521ee59137f46842161a14",
+  "validation_evidence": "Implementer33 tests passed; root774 full-site tests passed. Independent all-page text/image comparison and same-page fragment check performed here."
+}
