@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1350. blocked: 6, completed: 215, excluded: 871, queued: 258.
+Route inventory: 1350. blocked: 1, completed: 215, excluded: 871, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1367,10 +1367,10 @@ Route inventory: 1350. blocked: 6, completed: 215, excluded: 871, queued: 258.
 | POD-EDIT-CULTURE-BOOK-46-20261118 | [Languages on New Screens](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/languages-on-new-screens/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
 | POD-EDIT-CULTURE-BOOK-47-20261118 | [Modern Art, Photography and Public Heritage](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/modern-art-photography-and-public-heritage/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
 | POD-EDIT-CULTURE-BOOK-48-20261118 | [Keeping Culture Alive](https://projectodisha.org/books/odisha-culture-memory-and-living-traditions/keeping-culture-alive/) | excluded | Standalone 48-chapter cultural book; no autonomous article programme credit. |
-| POD-EDIT-PIONEERS-BC-MOHANTY-20261119 | [B. C. Mohanty](https://projectodisha.org/stories/pioneers/bc-mohanty/) | blocked | Source-reviewed and locally validated Pioneers draft; not published. Zero programme credit. |
-| POD-EDIT-PIONEERS-CHARLES-FABRI-20261119 | [Charles Louis Fabri](https://projectodisha.org/stories/pioneers/charles-fabri/) | blocked | Source-reviewed and locally validated Pioneers draft; not published. Zero programme credit. |
-| POD-EDIT-PIONEERS-NILAMANI-SENAPATI-20261119 | [Nilamani Senapati](https://projectodisha.org/stories/pioneers/nilamani-senapati/) | blocked | Source-reviewed and locally validated Pioneers draft; not published. Zero programme credit. |
-| POD-EDIT-PIONEERS-SUDHIRA-DAS-20261119 | [Sudhira Das](https://projectodisha.org/stories/pioneers/sudhira-das/) | queued | Source-reviewed and locally validated Pioneers draft; not published. Zero programme credit. |
-| POD-EDIT-PIONEERS-BIRA-KISHORE-RAY-20261119 | [Justice Bira Kishore Ray](https://projectodisha.org/stories/pioneers/bira-kishore-ray/) | blocked | Source-reviewed and locally validated Pioneers draft; not published. Zero programme credit. |
-| POD-EDIT-PIONEERS-SANJUKTA-PANIGRAHI-20261119 | [Sanjukta Panigrahi](https://projectodisha.org/stories/pioneers/sanjukta-panigrahi/) | blocked | Source-reviewed and locally validated Pioneers draft; not published. Zero programme credit. |
+| POD-EDIT-PIONEERS-BC-MOHANTY-20261119 | [B. C. Mohanty](https://projectodisha.org/stories/pioneers/bc-mohanty/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-CHARLES-FABRI-20261119 | [Charles Louis Fabri](https://projectodisha.org/stories/pioneers/charles-fabri/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-NILAMANI-SENAPATI-20261119 | [Nilamani Senapati](https://projectodisha.org/stories/pioneers/nilamani-senapati/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-SUDHIRA-DAS-20261119 | [Sudhira Das](https://projectodisha.org/stories/pioneers/sudhira-das/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-BIRA-KISHORE-RAY-20261119 | [Justice Bira Kishore Ray](https://projectodisha.org/stories/pioneers/bira-kishore-ray/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
+| POD-EDIT-PIONEERS-SANJUKTA-PANIGRAHI-20261119 | [Sanjukta Panigrahi](https://projectodisha.org/stories/pioneers/sanjukta-panigrahi/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
 | POD-EDIT-PIONEERS-INDEX-20261119 | [Pioneers](https://projectodisha.org/stories/pioneers/) | excluded | Series navigation accompanying six separately reviewed profiles. |
