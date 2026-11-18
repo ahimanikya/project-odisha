@@ -80,11 +80,11 @@ export async function exportDhaga(destination){
   html=html.replace(/<meta name="robots"[^>]*>/g,'');
   html=html.replace(/<meta (?:name|property)="(?:description|og:[^"]+|twitter:[^"]+|referrer)"[^>]*>/g,'');
   const title=html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||'Odia Dhaga';
-  const description='Read Odia Dhaga with English and Odia meanings, usage, source witnesses and rights, and download the complete book.';
+  const description='Read Odia Dhaga with English and Odia meanings, usage and illustrations, and download the complete book.';
   const social='<meta name="description" content="'+description+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+description+'"><meta property="og:url" content="https://projectodisha.org'+route+'"><meta property="og:image" content="https://projectodisha.org/dhaga/assets/'+basename(assets.get(coverSrc))+'"><meta property="og:image:alt" content="'+esc(data.cover.alt)+'"><meta property="og:image:width" content="'+dimensions.get(assets.get(coverSrc)).width+'"><meta property="og:image:height" content="'+dimensions.get(assets.get(coverSrc)).height+'"><meta name="twitter:card" content="summary_large_image"><meta name="referrer" content="strict-origin-when-cross-origin">';
   const meta=social+'<meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://projectodisha.org'+route+'">'+fonts.map(f=>'<link rel="preload" href="/dhaga/assets/'+f+'" as="font" type="font/woff2" crossorigin>').join('');
   if(!html.includes('<head>'))html=html.replace('<html lang="en">','<html lang="en"><head>').replace('<body>','</head><body>');
-  html=html.replace(/<main\b([^>]*)>/,(_,attrs)=>'<main'+attrs.replace(/\s(?:id|tabindex)="[^"]*"/g,'')+' id="main" tabindex="-1">').replace('href="#sources"','href="#main"');
+  html=html.replace(/<main\b([^>]*)>/,(_,attrs)=>'<main'+attrs.replace(/\s(?:id|tabindex)="[^"]*"/g,'')+' id="main" tabindex="-1">');
   if(!html.includes('href="#main"'))html=html.replace(/<body>/,'<body><a class="skip" href="#main">Skip to main content</a>');
   html=html.replace(/(?:\.\.\/)?index\.html/g,'/dhaga/').replace(/(?:\.\.\/)?reader\.html/g,'/dhaga/reader.html');
   html=html.replace(/(?:sayings\/)?POD-DHAGA-(\d+)\.html/g,(_,n)=>'/dhaga/sayings/pod-dhaga-'+n+'.html');
@@ -102,7 +102,7 @@ export async function exportDhaga(destination){
    if(html.split(readingLinksMarker).length!==2)throw Error('Dhaga reading-links slot missing or duplicated');
    html=html.replace(readingLinksMarker,'<nav class="web-reading-links" aria-label="More about Odia Dhaga"><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a><a href="/stories/essential-odia-dhaga/">Essential Odia Dhaga: 25 Sayings to Carry With You →</a></nav>');
   }
-  const links='<nav aria-label="Project Odisha and book sources"><a href="/books/">All books</a> · <a href="/explore/">Explore Project Odisha</a> · <a href="/dhaga/sources.html">Sources &amp; rights</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
+  const links='<nav aria-label="Project Odisha and book navigation"><a href="/books/">All books</a> · <a href="/explore/">Explore Project Odisha</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
   html=html.replace(/<footer>/,'<footer>'+links);
   if(!html.includes('<footer>'))html=html.replace('</body>','<footer>'+links+'</footer></body>');
   html=html.replace(/ ·\s* ·/g,' ·').replace(/ ·\s*<\/nav>/g,'</nav>');
@@ -111,13 +111,10 @@ export async function exportDhaga(destination){
   html=html.replace(/<title>/,chromeHead+meta+'<title>');
   return html;
  }
- const routes=['/dhaga/','/dhaga/reader.html','/dhaga/sources.html'];
+ const routes=['/dhaga/','/dhaga/reader.html'];
  for(const file of ['index.html','reader.html'])await writeFile(resolve(out,file),adapt(await readFile(resolve(book,file),'utf8'),file==='index.html'?'/dhaga/':'/dhaga/reader.html'));
  for(const e of data.entries){const name=e.id.toLowerCase()+'.html',route='/dhaga/sayings/'+name;routes.push(route);await writeFile(resolve(out,'sayings',name),adapt(await readFile(resolve(book,'sayings',e.id+'.html'),'utf8'),route));}
- const used=new Set(data.entries.flatMap(e=>[...e.witnesses,...(e.variants||[])].map(w=>w.source_id)));
- for(const section of data.book_intro?.sections||[])for(const paragraph of section.paragraphs)for(const sid of paragraph.source_ids||[])used.add(sid);
- const sourceHTML='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dhaga · Sources and rights</title><style>body{font:1.1rem/1.7 Georgia,serif;max-width:72ch;margin:auto;padding:2rem;background:#fffaf0;color:#29251e}a{color:#784025}li{margin:1.5rem 0;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #784025;outline-offset:4px}</style></head><body><a href="#sources">Skip to sources</a><header><a href="/dhaga/">← Book contents</a><h1>Sources &amp; rights</h1></header><main id="sources" tabindex="-1"><p>Original Project Odisha commentary and illustrations are available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA4.0</a>. Explanations are expanded by Project Odisha, drawing on the sources below; applicable share-alike terms are retained. Source quotations retain their own rights, including uploaded, journal, literary and SCERT material; they are not relicensed by the collection. Source-specific rights and access limitations are listed below. Each Dhaga gives its witnesses, locators and limitations.</p><ul>'+data.sources.filter(s=>used.has(s.id)).map(s=>'<li>'+publicSourceCredit(s)+'</li>').join('')+'</ul><h2>Font licences</h2><ul>'+licences.map(n=>'<li><a href="assets/'+n+'">'+esc(n.replace('-OFL.txt',''))+' · SIL Open Font Licence</a></li>').join('')+'</ul></main><footer></footer></body></html>';
- await writeFile(resolve(out,'sources.html'),adapt(sourceHTML,'/dhaga/sources.html'));
+ await rm(resolve(out,'sources.html'),{force:true});
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
