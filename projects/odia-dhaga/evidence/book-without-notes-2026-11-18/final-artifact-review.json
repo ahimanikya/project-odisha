@@ -1,0 +1,42 @@
+{
+  "status": "PASS_FINAL_ARTIFACT_REVIEW",
+  "reviewer": "Drishti independent review",
+  "candidate_commit": "b898eb4ed3d3045dd442d47310b0dec68e54a568",
+  "artifact": "projects/site/dist-publish",
+  "payload": {
+    "bytes": 971989055,
+    "files": 3369,
+    "headroom_under_1GB": 28010945
+  },
+  "pdf": {
+    "sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33",
+    "bytes": 190064629,
+    "pages": 355
+  },
+  "checks": [
+    "Exact approved PDF bytes included in archive.",
+    "Books and Dhaga indexes link exact new PDF and show355-page labels; no previous c689dde download hash in public HTML.",
+    "All550 exported illustration SHA256 hashes unchanged from independently reviewed illustrated edition.",
+    "All552 source reading HTML files unchanged from pre-task baseline.",
+    "All550 exported literal meanings, English explanations, Odia meanings, usage examples and cultural-context texts match canonical fields; all36 variant wordings remain.",
+    "Published package below1GB limit."
+  ],
+  "evidence": {
+    "full_site_tests_passed": 774,
+    "coast_tests_passed": 597,
+    "disclosure_pages": 1406,
+    "disclosure_violations": 0
+  },
+  "required_corrections": [],
+  "limitations": [
+    "Local finalized artifact approved; CI44265775345 and live deployment verification remain coordinator gates."
+  ],
+  "hashes_reviewed": {
+    "/private/tmp/dhaga-no-notes-payload.json": "c0cb84aeba3d9803b897f670881056d0c492b3206568a6848a1cf83eb46559d1",
+    "/private/tmp/dhaga-no-notes-tests.log": "3bb13d08b8d9fb1d4787c36c15a0a6ffb6be31b95c11087c2a5e85178d1acdab",
+    "/private/tmp/dhaga-no-notes-coast-tests.log": "44e210a1ae7d10f97b7248171fc3083b9412bb48de060f07485c1ff6e4dd200c",
+    "/private/tmp/dhaga-no-notes-publication-disclosures.log": "7330a5965e0b15284e4e3a8cba8ae0c89366b2690ee287077f4ac6c08a81d7aa",
+    "output/dhaga-book-without-notes-2026-11-18/independent-review.json": "1b4288e81d7bc8577998aca31a9b949b931ef0efc8853ff1bdab4e723d6960b9",
+    "output/dhaga-book-without-notes-2026-11-18/final-source-descriptor-review.json": "caa11b5a02bd36dfcb3cd7752f16d6bf0d72e96cb5544a42faa0ec053824c342"
+  }
+}
