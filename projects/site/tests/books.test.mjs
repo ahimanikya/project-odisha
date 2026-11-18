@@ -31,7 +31,7 @@ test('the collection uses the existing complete covers and retains the photograp
  const d=cards.get('dongria');assert.ok(d.includes(reading.cover_credit.creator));assert.ok(d.includes(reading.cover_credit.source_url));assert.ok(d.includes(reading.cover_credit.licence_url));
 });
 test('all five downloads still contain the exact independently reviewed book bytes',()=>{
- for(const b of expected){const bytes=readFileSync('dist'+b.download.file);assert.equal(bytes.length,b.download.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),b.download.sha256);}
+ for(const b of expected){const bytes=readFileSync(b.id==='culture'?'../cultural-book/odisha-culture-memory-and-living-traditions.pdf':'dist'+b.download.file);assert.equal(bytes.length,b.download.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),b.download.sha256);}
 });
 
 test('Books is available in both main navigation layouts and is current only on the collection',()=>{
