@@ -13,24 +13,22 @@ const cinemaDownload = cinema.review_books.find(book => book.edition === 'digita
 const cinemaTitle = 'Odia Cinema: A Living Screen';
 const dhagaTitle = `${dhaga.cover.title_english} — ${dhaga.cover.title_odia}`;
 const dhagaCover = '/dhaga/' + dhaga.cover.src.replace(/\.png$/, '.webp');
-const dhagaFile = '/archive/' + dhagaDownload.asset_name;
 const dongriaCover = dongriaReading.cover.at(-1)!;
-const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
 ---
-<Shell title="Books" description="Explore five books about Odisha’s culture, communities, textiles, cinema and sayings. Read each online or download its complete PDF." active="books" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
+<Shell title="Books" description="Explore five books about Odisha’s culture, communities, textiles, cinema and sayings. Read each book online at your own pace." active="books" related={false} shareImage={{src:dongriaCover.src,alt:dongriaReading.cover_alt,width:dongriaCover.width,height:dongriaCover.height}}>
 <div class="books-page">
   <header class="books-intro">
     <p class="eyebrow">Project Odisha · The reading collection</p>
     <h1>Books</h1>
-    <p>Five books about culture, people, cloth, cinema and the words we carry in Odisha. Each has its own reading path, sources and downloadable edition.</p>
-    <p>Read online at your own pace, or download a book to keep reading offline.</p>
+    <p>Five books about culture, people, cloth, cinema and the words we carry in Odisha. Each has its own reading path and sources.</p>
+    <p>Choose a book and follow its chapters at your own pace.</p>
   </header>
   <div class="book-grid">
     <article class="book-card" data-book="culture" aria-labelledby="culture-title">
       <img src={culture.cover.src} width={culture.cover.width} height={culture.cover.height} alt={culture.cover.alt} fetchpriority="high" decoding="async"/>
       <header><p class="eyebrow">The complete cultural edition</p><h2 id="culture-title"><a href={culture.route}>{culture.title}</a></h2><p class="book-author">By {culture.author}</p></header>
-      <div class="book-description"><p>A cultural companion across Odisha’s landscapes, languages, faiths, literature, performance, crafts, food and everyday lives. Follow forty-eight connected chapters through the people and practices that carry culture forward.</p><p class="book-details">48 chapters · {culture.download.pages} pages · PDF {fileSize(culture.download.bytes)}</p><p class="cover-credit">The Indigo &amp; Gold illustrated cover of the complete edition.</p></div>
-      <footer class="book-actions"><a href={culture.route} aria-label={`Read online: ${culture.title}`}>Read online →</a><a href={culture.download.file} aria-label={`Download PDF: ${culture.title}`}>Download PDF ↓</a></footer>
+      <div class="book-description"><p>A cultural companion across Odisha’s landscapes, languages, faiths, literature, performance, crafts, food and everyday lives. Follow forty-eight connected chapters through the people and practices that carry culture forward.</p><p class="book-details">48 chapters · {culture.download.pages} pages</p><p class="cover-credit">The Indigo &amp; Gold illustrated cover of the complete edition.</p></div>
+      <footer class="book-actions"><a href={culture.route} aria-label={`Read online: ${culture.title}`}>Read online →</a></footer>
     </article>
     <article class="book-card" data-book="dongria" aria-labelledby="dongria-title">
       <img src={dongriaCover.src} srcset={dongriaReading.cover.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 400px) 70vw, 256px" width={dongriaCover.width} height={dongriaCover.height} alt={dongriaReading.cover_alt} loading="lazy" decoding="async"/>
@@ -41,12 +39,11 @@ const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
       </header>
       <div class="book-description">
         <p>Beginning with a shawl, this book follows the people, food, cloth, learning and songs of Niyamgiri. Its connected chapters bring together named accounts and sources for further reading.</p>
-        <p class="book-details">{dongriaChapters.length} chapters · {dongria.pages} pages · PDF {fileSize(dongria.bytes)}</p>
+        <p class="book-details">{dongriaChapters.length} chapters · {dongria.pages} pages</p>
         <p class="cover-credit">Cover photograph: {dongriaReading.cover_credit.creator}. <a href={dongriaReading.cover_credit.source_url}>Source</a> · <a href={dongriaReading.cover_credit.licence_url}>{dongriaReading.cover_credit.licence}</a>. The preview reproduces the published cover.</p>
       </div>
       <footer class="book-actions">
         <a href="/stories/dongria/book/" aria-label={`Read online: ${dongria.title}`}>Read online →</a>
-        <a href={dongria.file} aria-label={`Download PDF: ${dongria.title}`}>Download PDF ↓</a>
       </footer>
     </article>
     <article class="book-card" data-book="kotpad" aria-labelledby="kotpad-title">
@@ -58,12 +55,11 @@ const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
       </header>
       <div class="book-description">
         <p>Follow the work behind Kotpad cloth, from making colour and sharing earnings to learning and the working year. This first edition draws on published sources and named testimony.</p>
-        <p class="book-details">{kotpad.chapters.length} chapters · {kotpad.download.pages} pages · PDF {fileSize(kotpad.download.bytes)}</p>
+        <p class="book-details">{kotpad.chapters.length} chapters · {kotpad.download.pages} pages</p>
         <p class="cover-credit">The illustrated cover of the first reading edition.</p>
       </div>
       <footer class="book-actions">
         <a href="/stories/kotpad/book/" aria-label={`Read online: ${kotpad.title}`}>Read online →</a>
-        <a href={kotpad.download.file} aria-label={`Download PDF: ${kotpad.title}`}>Download PDF ↓</a>
       </footer>
     </article>
     <article class="book-card" data-book="cinema" aria-labelledby="cinema-title">
@@ -75,13 +71,12 @@ const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
       </header>
       <div class="book-description">
         <p>A connected journey through Odia cinema, literature, songs, radio and television. The readings follow storytellers, audiences and the work that helps creative lives continue.</p>
-        <p class="book-details">{cinemaDownload.readings} book chapters · {cinemaDownload.pages} pages · PDF {fileSize(cinemaDownload.bytes)}</p>
+        <p class="book-details">{cinemaDownload.readings} book chapters · {cinemaDownload.pages} pages</p>
         <p class="cover-credit">The illustrated cover of Odia Cinema: A Living Screen.</p>
         <p><a href="/cinema/book/">Book editions and printing notes →</a></p>
       </div>
       <footer class="book-actions">
         <a href="/cinema/" aria-label={`Read online: ${cinemaTitle}`}>Read online →</a>
-        <a href={cinemaDownload.file} aria-label={`Download PDF: ${cinemaTitle}`}>Download PDF ↓</a>
       </footer>
     </article>
     <article class="book-card" data-book="dhaga" aria-labelledby="dhaga-title">
@@ -93,12 +88,11 @@ const fileSize = (bytes:number) => `${(bytes / 1000000).toFixed(1)} MB`;
       </header>
       <div class="book-description">
         <p>Odia sayings carry images, humour and ways of judging everyday life. Explore {dhagaDownload.entries} sayings with Odia and English meanings, usage and illustrations.</p>
-        <p class="book-details">{dhagaDownload.entries} sayings · {dhagaDownload.pages} pages · PDF {fileSize(dhagaDownload.bytes)}</p>
+        <p class="book-details">{dhagaDownload.entries} sayings · {dhagaDownload.pages} pages</p>
         <p class="cover-credit">Cover illustration: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
       </div>
       <footer class="book-actions">
         <a href="/dhaga/" aria-label={`Read online: ${dhagaTitle}`}>Read online →</a>
-        <a href={dhagaFile} aria-label={`Download PDF: ${dhagaTitle}`}>Download PDF ↓</a>
       </footer>
     </article>
   </div>
