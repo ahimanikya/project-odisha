@@ -231,3 +231,7 @@ The reader PDF now ends with the Dhaga readings. Its textual-notes appendix and 
 ## 2026-11-18 website without textual notes
 
 The website now shows the Dhaga readings, explanations and illustrations without textual-note, witness or origin panels. All36 recorded variant wordings remain visible, with the same29 available explanations and uncertainty qualifications retained in the book. Source locators and research-administration prose remain in canonical records. Web and print share a pure reader-content projection; this website update does not rebuild or alter the355-page PDF.
+
+## 2026-11-18 proofreading of all550 readings
+
+All550 entries received individual first and separate AI editorial reviews, including the Odia sayings, bilingual explanations and recorded variants. Supported spelling, grammar, translation and explanatory-prose corrections affect55 entries;495 remain unchanged. Forty entries retain explicitly qualified lexical or interpretive questions rather than guessed repairs. This is not a claim of human or native-speaker certification. All550 illustrations,36 variant wordings and original witnesses remain intact. The notes-free website and book are regenerated from these reviewed entries; detailed changes, evidence, limits and exact review bindings are recorded in `evidence/proofreading-550-2026-11-18/`. Release and live verification are recorded in the dated coordinator handoff.

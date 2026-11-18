@@ -1,0 +1,68 @@
+{
+  "id": "POD-DHAGA-031",
+  "review_sha256": "b9c1463a7e5a878008a90e83239376cb84f2249594348614645a0a02f8180d96",
+  "before_file_sha256": "6f8ddbe0f26c0733aeddcdbbd99f061f365c55572e37176cfee3038f0d5e656f",
+  "after_file_sha256": "8b8785d23a929438193c42e42ae55692a4b436932d4177f8bd7beb167d0a5ee2",
+  "changed_fields": [
+    "cultural_context",
+    "editorial_corrections",
+    "literal_meaning",
+    "meaning_odia",
+    "odia"
+  ],
+  "actual_status": "applied_reviewed_source_repair",
+  "checks": [
+    "Exact review and baseline preimage matched",
+    "Only explicitly proposed fields changed",
+    "Source wording, witnesses, rights and artwork preserved"
+  ],
+  "independent_review": "PASS",
+  "revisions": [
+    {
+      "request_sha256": "ed164758389a1cf3bc8b8263974de8e5ef7d041bff3668b8e37a6a2702aee3ed",
+      "request": "queries/031-repair-request.json",
+      "before_file_sha256": "70bf5f7cbff6b5f1ce1496afe14bca009a4617ef6a833f65dae2b1897f1302ee",
+      "after_file_sha256": "8b8785d23a929438193c42e42ae55692a4b436932d4177f8bd7beb167d0a5ee2",
+      "changes": [
+        {
+          "field": "odia",
+          "before": "ମୋତେ ଯେତେ ମାଠିବୁ ମାଠ ମୁହିଁ ସେଇ ଦରପଡ଼ା କାଠ",
+          "after": "ମୋତେ ଯେତେ ମାଠିବୁ ମାଠ ମୁହିଁ ସେଇ ଦରପୋଡ଼ା କାଠ"
+        },
+        {
+          "field": "literal_meaning",
+          "before": "Provisional reading: Polish me as much as you like; I remain that half-burnt wood.",
+          "after": "Polish me as much as you like; I remain that half-burnt wood."
+        },
+        {
+          "field": "meaning_odia",
+          "before": "ଘଷିଲେ ବି ଅବସ୍ଥା ବଦଳିବ ନାହିଁ—ଏମିତି ଏକ ଜିଦ୍ ବା ନିଜକୁ ନେଇ ଟିପ୍ପଣୀର ସ୍ୱର ଏଠାରେ ଶୁଣାଯାଏ। ଅଧାପୋଡ଼ା କାଠର ଉପମା ଭାବେ ପଢ଼ିଲେ ଅନ୍ୟର ବଦଳାଇବା ଚେଷ୍ଟାକୁ ଅଗ୍ରାହ୍ୟ କରିବାର ଭାବ ଆସେ। ତେବେ ଉତ୍ସର ‘ଦରପଡ଼ା’ ବନାନର ଏହି ପାଠ ଏକ ବ୍ୟାଖ୍ୟା, ନିଶ୍ଚିତ ଶବ୍ଦାର୍ଥ ନୁହେଁ; ମଣିଷ ବଦଳିପାରେନାହିଁ ବୋଲି ବି ଏହା ପ୍ରମାଣ କରେନାହିଁ।",
+          "after": "ଘଷିଲେ ବି ଅବସ୍ଥା ବଦଳିବ ନାହିଁ—ଏମିତି ଏକ ଜିଦ୍ ବା ନିଜକୁ ନେଇ ଟିପ୍ପଣୀର ସ୍ୱର ଏଠାରେ ଶୁଣାଯାଏ। ଅଧାପୋଡ଼ା କାଠର ଉପମାରେ ଅନ୍ୟର ବଦଳାଇବା ଚେଷ୍ଟାକୁ ଅଗ୍ରାହ୍ୟ କରିବାର ଭାବ ଆସେ। ଏହା ମଣିଷ ବଦଳିପାରେନାହିଁ ବୋଲି ପ୍ରମାଣ କରେନାହିଁ।"
+        },
+        {
+          "field": "cultural_context",
+          "before": "The wood image and the first-person voice are preserved. This is distinct from enduring pressure: here the emphasis falls on resisting another person’s attempts to remake the speaker. The source spells the word ଦରପଡ଼ା. “Half-burnt” is an editorial interpretation of that spelling, not a verified correction to the original; lexical and human review remain pending.",
+          "after": "The wood image and the first-person voice are preserved. This is distinct from enduring pressure: here the emphasis falls on resisting another person’s attempts to remake the speaker. The half-burnt wood supplies an image of stubborn resistance, not proof that people cannot change."
+        }
+      ],
+      "added_internal_correction": {
+        "date": "2026-11-18",
+        "field": "odia",
+        "original": "ଦରପଡ଼ା",
+        "corrected": "ଦରପୋଡ଼ା",
+        "reason": "Missing-vowel spelling repair supported by an independently inspected related proverb witness and indexed dictionary definition. Original primary witness remains verbatim.",
+        "evidence_record": "evidence/proofreading-550-2026-11-18/queries/031-lexical-followup.json"
+      },
+      "previous_status": "applied_reviewed_changes",
+      "coherence_check": "First-person resistance to remaking preserved; half-burnt lexical reading now supported by separately reviewed evidence; no assertion people cannot change."
+    }
+  ],
+  "initial_independent_review": "pending",
+  "independent_review_sha256": "a930d8a4e8dea469130cef8c8783eb4fa4c27fdd065ef42c0390170e316c01f0",
+  "final_changed_fields": [
+    "cultural_context",
+    "editorial_corrections",
+    "meaning_odia",
+    "odia"
+  ]
+}
