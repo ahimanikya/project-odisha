@@ -106,7 +106,7 @@ class RepositoryTests(unittest.TestCase):
                 fragment=reader_language_spans(text);parsed=Text();parsed.feed(fragment)
                 self.assertEqual(parsed.text,text)
                 if any('\u0b00'<=c<='\u0b7f' for c in text):self.assertIn('lang="or"',fragment)
-        self.assertEqual(len(explanations),29)
+        self.assertEqual(len(explanations),31)
         rendered=render(data);parsed=Text();parsed.feed(rendered)
         for text in explanations:self.assertIn(text,parsed.text)
         for label in ['Textual notes','Origins and uncertainty','class="witnesses"']:
@@ -128,6 +128,19 @@ class RepositoryTests(unittest.TestCase):
             with self.assertRaises(ValueError):validate(d)
         d=fixture();d['entries'][0]['variants']=[{'odia':'variant','note':'note','source_id':'absent'}]
         with self.assertRaises(ValueError):validate(d)
+    def test_variant_page_citations_are_visible_and_safe(self):
+        d=fixture();v={'odia':'ପାଠ','note':'A historical variant.',
+                      'page_url':'https://example.org/book/page/100',
+                      'page_label':'Printed page100'}
+        d['entries'][0]['variants']=[v]
+        validate(d)
+        self.assertIn('<a href="https://example.org/book/page/100">Printed page100</a>',render(d))
+        for bad in ['javascript:alert(1)','file:///tmp/book','/relative','https:///missing-host']:
+            v['page_url']=bad
+            with self.assertRaises(ValueError):validate(d)
+        v['page_url']='https://example.org/book/page/100';del v['page_label']
+        with self.assertRaises(ValueError):validate(d)
+
     def test_untrusted_text_cannot_inject_script_or_attributes(self):
         d=fixture();attack='</script><script>alert("x")</script><img src=x onerror=alert(1)>'
         for key in ['title','subtitle','scope_note']:d[key]=attack

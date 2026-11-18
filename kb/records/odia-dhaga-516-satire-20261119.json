@@ -1,0 +1,54 @@
+{
+  "status": "reviewed_pending_publication",
+  "authorization": "User requested adding approved explanation with both historical readings and page references to Project Odisha collection.",
+  "scope": "POD-DHAGA-516 only; preserve uploaded witness, add historical variants and correct interpretation.",
+  "reservations": {
+    "Disha": "KB record, history, Git and publication",
+    "Anvesha": "read-only source verification",
+    "Samanta": "projects/odia-dhaga/entries/POD-DHAGA-516.json, collection-metadata.json, reader_content.py if needed, generated collection/index/reader/sayings; focused checks; build.py optional variant page citation; test_repository.py focused expectation",
+    "Drishti": "read-only independent review"
+  },
+  "programme_credit": 0,
+  "source_review": {
+    "reviewer": "Anvesha, separate AI agent",
+    "status": "passed",
+    "source": "https://archive.org/details/dhaga-dhamali-bachana-v01-1926-n-1990",
+    "locators": [
+      {
+        "printed_page": 100,
+        "section": "ଦ",
+        "item": 86,
+        "pdf_page": 102,
+        "scan_index": 101
+      },
+      {
+        "printed_page": 106,
+        "section": "ନ",
+        "item": 49,
+        "pdf_page": 108,
+        "scan_index": 107
+      }
+    ],
+    "findings": "Visual source review confirms both readings, କରିବା and ଯାବଚ୍ଚନ୍ଦ୍ର; explicit gloss identifies satire. Clear refusal is derived moral, not literal instruction. Distinct from existing 259-page source."
+  },
+  "baseline": "0b1f66ca",
+  "foreign_work_preserved": "Untracked outputs/pioneers-20261119/; open PR795 book covers not modified.",
+  "publication_scope": "Update existing public Dhaga entry and online collection only; existing downloadable PDF is a separate earlier edition and is not rebuilt in this correction.",
+  "independent_review": {
+    "reviewer": "Drishti, separate AI agent",
+    "status": "PASS",
+    "findings": "550 entries retained; only516 canonical entry changed; exact uploaded wording retained; both historical readings and page citations visible in generated HTML. Other549 generated saying pages differ only by corrected shared navigation title. Safe HTTP(S) link validation; distinct source edition; satire and inferred lesson separated. Browser/live review pending."
+  },
+  "tests": [
+    "build.py passed",
+    "19 repository tests passed",
+    "transcription tests passed",
+    "git diff --check passed",
+    "full site build passed"
+  ],
+  "browser_review": {
+    "status": "PASS_local",
+    "route": "http://127.0.0.1:8882/dhaga/sayings/pod-dhaga-516.html",
+    "observed": "Corrected Odia and English interpretation; both historical readings, page100/item86 and page106/item49 links; readable desktop layout."
+  }
+}
