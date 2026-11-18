@@ -80,7 +80,7 @@ test('hot-rice lexical context stays visible without becoming a second saying wi
 });
 
 
-test('new plant context remains lexical only and the unresolved variant is retained',()=>{
+test('plant context stays lexical and the print-corrected variant preserves its digital reading internally',()=>{
  const entry=data.entries.find(e=>e.id==='POD-DHAGA-220');
  const context=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-199211');
  assert.ok(context&&!Object.hasOwn(context,'wording'));
@@ -91,7 +91,11 @@ test('new plant context remains lexical only and the unresolved variant is retai
  assert.ok(source.url);
  const variant=data.entries.find(e=>e.id==='POD-DHAGA-222').variants.find(v=>v.source_id==='dhaga-wiktionary-88757');
  assert.ok(variant&&variant.normalized_odia===null);
- const last=read('sayings/pod-dhaga-222.html');assert.ok(last.includes(esc(variant.odia)));assert.ok(last.includes('ନୀକରେ'));
+ const last=read('sayings/pod-dhaga-222.html');
+ assert.equal(variant.odia,'ଅଳଙ୍କାର ମଧ୍ୟେ ନାକରେ ନିମକାଠି ଥାନେ');
+ assert.ok(last.includes(esc(variant.odia)));
+ assert.match(variant.note,/digital transcription was ନୀକରେ ନିମ୍ୱକାଠି/);
+ assert.ok(!last.includes('ନୀକରେ'),'Superseded digital reading stays in internal provenance');
 });
 
 
