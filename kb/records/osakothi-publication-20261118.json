@@ -1,0 +1,157 @@
+{
+  "id": "POD-EDIT-OSAKOTHI-20261118",
+  "title": "When the Goddess Comes to the Wall",
+  "route": "/stories/when-the-goddess-comes-to-the-wall/",
+  "status": "published_verified",
+  "authorization": "User: Sounds good, let’s publish “When the Goddess Comes to the Wall” on Project Odisha as part of The Year That Feeds Us series.",
+  "input_head": "5a4d92184d878591be8022be0bc7d2fd0397889f",
+  "coordinator": "Disha, root agent",
+  "reservations": {
+    "Anvesha": "Read-only source verification; completed PASS, no changes.",
+    "Samanta": [
+      "kb/research/stories/when-the-goddess-comes-to-the-wall.json",
+      "projects/site/src/pages/stories/when-the-goddess-comes-to-the-wall.astro",
+      "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "projects/site/src/data/discovery.ts",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json",
+      "projects/site/tests/osakothi.test.mjs"
+    ],
+    "Drishti": "Read-only independent integrated review after implementation.",
+    "Disha": "Shared records, route inventory, Git, validation and publication."
+  },
+  "programme_credit": 0,
+  "prior_article_reconciliation": {
+    "id": "POD-EDIT-PRAHLAD-PERSONAL-20261116",
+    "observed_merge_pr": 781,
+    "merge_sha": "804f155b367939e2b1b11d036a324c659375fd58",
+    "live_receipt": "External workspace articles/prahlad-natak-2026-11-16/live-verification.json PASS on 2026-11-16; current canonical preparation status stale; preserved, no new credit."
+  },
+  "source_review": {
+    "reviewer": "Anvesha, separate AI agent",
+    "result": "PASS",
+    "limits": [
+      "IGNCA indexed text, full PDF not inspected",
+      "2026 Bhuyan indexed excerpts after direct-open failure",
+      "No fieldwork or current practitioner census"
+    ]
+  },
+  "implementation": {
+    "agent": "Samanta, separate AI agent",
+    "approved_paragraphs_preserved": 19,
+    "media": "No new media; text-led article",
+    "series_route": "/stories/the-year-that-feeds-us/",
+    "modern_web_guidance": "HTML and accessibility guidance: one h1, semantic sections, native links and existing styles; no new platform features."
+  },
+  "independent_review": {
+    "agent": "Drishti, separate AI agent",
+    "result": "PASS",
+    "checks": [
+      "19 approved paragraphs preserved",
+      "Five cited sources and valid return anchors",
+      "Correct canonical metadata",
+      "Reciprocal series navigation and discovery",
+      "Three rendered focused tests pass",
+      "Shared records checks pass"
+    ],
+    "limits": "Not human or specialist review."
+  },
+  "visual_review": {
+    "reviewer": "Disha root agent",
+    "method": "CUA browser preview",
+    "desktop": "1280px screenshot: readable column, title, byline and spacing",
+    "mobile": "390px viewport: readable wrapped text, collapsed navigation, document scrollWidth=390; no horizontal overflow",
+    "interactions": [
+      "Source marker reaches matching anchor",
+      "Series return link opens series landing"
+    ],
+    "result": "PASS"
+  },
+  "reservations_released": [
+    "Anvesha",
+    "Samanta",
+    "Drishti"
+  ],
+  "next_action": "Publication complete. Receipt saved on publication branch; no new article reserved.",
+  "validation": {
+    "full_build": "PASS",
+    "focused_full": "3/3 PASS",
+    "focused_coast": "3/3 PASS",
+    "full_suite": "776 passed; one page-count assertion failed initially, corrected for two new routes; affected file rerun 6/6 PASS",
+    "coast_suite": "Count-only assertions corrected for two discovery entries and one saved reading; affected rerun 10/10 PASS",
+    "record_checks": [
+      "registers --check",
+      "article_rollout --check",
+      "check_bundle",
+      "check_team_assignments",
+      "check_autonomous_program",
+      "research validate",
+      "editorial workbench --check"
+    ],
+    "disclosures": "dist, dist-coast and dist-publish PASS",
+    "browser": "Desktop and mobile PASS",
+    "hosted": "All required hosted checks PASS",
+    "payload_bytes": 972044343
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/787",
+  "reviewed_head": "3454b05d3f762370620dc1c4272b16b45cfdd552",
+  "merge_commit": "675a5219d6d8ef0c5b4b019e426932fe96e0b172",
+  "hosted_validation": {
+    "run_id": 44333102879,
+    "conclusion": "success"
+  },
+  "deployment": {
+    "run_id": 44336449972,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44336449972",
+    "head": "675a5219d6d8ef0c5b4b019e426932fe96e0b172"
+  },
+  "verified_routes": [
+    "/stories/when-the-goddess-comes-to-the-wall/",
+    "/stories/the-year-that-feeds-us/",
+    "/explore/"
+  ],
+  "live_verification": {
+    "checked_at": "2026-11-18T15:47:20.701615+00:00",
+    "merge_sha": "675a5219d6d8ef0c5b4b019e426932fe96e0b172",
+    "deployment_run": 44336449972,
+    "routes": {
+      "/stories/when-the-goddess-comes-to-the-wall/": {
+        "http_status": 200,
+        "sha256": "cd48e5b5ce77488e1c177a8a5b28b00911657648eccce47db640e33e88e9cf25",
+        "h1": [
+          "When the Goddess Comes to the Wall"
+        ]
+      },
+      "/stories/the-year-that-feeds-us/": {
+        "http_status": 200,
+        "sha256": "20aab3ac77e98f66d3ee770e9d698d611e9d66f8b84eb8435065f21c39238824",
+        "h1": [
+          "The Year That Feeds Us"
+        ]
+      },
+      "/explore/": {
+        "http_status": 200,
+        "sha256": "ba7a5cd77293e083f880b8564659b3998cfc603bf67fd81c3425840281bc2c5f",
+        "h1": [
+          "Where will curiositytake you?"
+        ]
+      }
+    },
+    "checks": {
+      "approved_paragraphs_match": true,
+      "article_title": true,
+      "series_title": true,
+      "article_to_series": true,
+      "series_to_article": true,
+      "discoverable": true,
+      "source_links": true,
+      "source_targets": true,
+      "anchors_resolve": true,
+      "no_duplicate_ids": true
+    },
+    "result": "PASS",
+    "paragraphs": 19
+  }
+}

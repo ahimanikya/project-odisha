@@ -1,0 +1,36 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
+import image from '../../../../../../kb/research/stories/osakothi-image.json';
+import '../../../styles/article-reading.css';
+import story from '../../../../../../kb/research/stories/when-the-goddess-comes-to-the-wall.json';
+const title='The Year That Feeds Us';
+const description='Stories of cultivation, food, seasonal observances and the people who carry them forward.';
+---
+<Shell title={title} description={description} active="explore" shareImage={image} wide related={false}>
+ <div class="article-reading seasonal-series">
+  <a href="/explore/">← Explore Project Odisha</a>
+  <header><h1>{title}</h1><p class="series-dek">Nature, food and the celebration of life in Odisha</p></header>
+  <p>The year can be followed through seed, soil, rain and the food that reaches a shared meal. It can also be followed through the people who cultivate, cook, keep vows and pass on what they know.</p>
+  <p><em>The Year That Feeds Us</em> brings these relationships into view through stories of Odisha’s seasonal life. Each reading stays close to particular people and places, making room for the different meanings a tradition can hold.</p>
+  <section id="series-stories" class="series-stories">
+   <h2>Stories in this series</h2>
+   <figure class="series-photograph">
+    <a href={story.route}><ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 470px) 90vw, 420px"/></a>
+    <figcaption>{image.caption} Photograph by <a href={image.source}>{image.creator}</a>, <a href={image.license_url}>{image.license}</a>. Responsive versions resized and re-encoded without cropping.</figcaption>
+   </figure>
+   <h3><a href={story.route}>{story.title} <span aria-hidden="true">→</span></a></h3>
+   <p>{story.description}</p>
+  </section>
+  <p class="article-update"><a href="/contribute/?page=%2Fstories%2Fthe-year-that-feeds-us%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </div>
+</Shell>
+<style>
+ .seasonal-series>header{margin-block:2rem}
+ .series-dek{font-size:1.2rem;color:var(--muted)}
+ .series-stories{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}
+ .series-photograph{width:100%;max-width:420px;margin:1.5rem auto}
+ .series-photograph :global(img){display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+ .series-photograph figcaption{font-size:.85rem;line-height:1.6;margin-top:.75rem}
+ .article-update{font-size:.9rem;margin-top:2.5rem}
+</style>
