@@ -1,0 +1,29 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import CulturalBookFigure from '../../../components/CulturalBookFigure.astro';
+import book from '../../../data/cultural-book.json';
+import { paragraphHTML, firstCitation } from '../../../lib/cultural-book.mjs';
+import '../../../styles/cultural-book.css';
+export function getStaticPaths(){return book.chapters.map((chapter,index)=>({params:{chapter:chapter.slug},props:{chapter,index}}));}
+const {chapter,index}=Astro.props;
+const previous=book.chapters[index-1],next=book.chapters[index+1];
+const part=book.parts.find(p=>p.number===chapter.part)!;
+const route=`${book.route}${chapter.slug}/`;
+const image=id=>chapter.images.find(i=>i.id===id);
+---
+<Shell title={`${chapter.title} — ${book.title}`} description={`${chapter.subtitle}. Chapter ${chapter.number} of Odisha: Culture, Memory and Living Traditions, by Ahimanikya Satapathy.`} active="books" related={false} shareImage={book.cover}>
+<article class="culture-book culture-reading">
+  <nav class="culture-breadcrumbs" aria-label="Breadcrumbs"><ol><li><a href="/books/">Books</a></li><li><a href={book.route}>Culture, Memory and Living Traditions</a></li><li><a href={route} aria-current="page">Chapter {chapter.number}</a></li></ol></nav>
+  <header class="culture-chapter-head"><p class="eyebrow">Part {part.number} · {part.title}</p><p class="culture-small">Chapter {chapter.number} of 48</p><h1 id="chapter-title">{chapter.title}</h1><p class="culture-subtitle">{chapter.subtitle}</p><p class="culture-byline">By {chapter.author}</p></header>
+  <nav class="culture-chapter-tools" aria-label="Reading tools"><a href={`${book.route}#contents`}>All chapters</a><a href="#references">Footnotes &amp; Sources</a><a href={`${book.download.file}#page=${chapter.startPage+1}`}>Read this chapter in the PDF</a></nav>
+  <div class="culture-prose">{chapter.sections.map((section,si)=><section class="culture-section">
+    {section.heading && <h2>{section.heading}</h2>}
+    {section.image_before && <CulturalBookFigure image={image(section.image_before)} eager={si===0}/>}
+    {section.paragraphs.map((paragraph,pi)=><p set:html={paragraphHTML(paragraph,si,pi)}/>)}
+    {section.image_after && <CulturalBookFigure image={image(section.image_after)}/>}
+  </section>)}</div>
+  <section id="references" class="culture-references" aria-labelledby="sources-title"><h2 id="sources-title">Footnotes &amp; Sources</h2><ol>{chapter.notes.map(note=><li id={`source-${note.number}`} value={note.number}><a href={note.url}>{note.title}</a>. {note.detail} {note.extra_url && <a href={note.extra_url}>Additional source</a>} <a class="culture-return" href={firstCitation(chapter,note.number)} aria-label={`Return to source ${note.number} in the chapter`}>↩</a></li>)}</ol><p class="culture-rights">{chapter.imageLicenseStatement}</p></section>
+  <nav class="culture-next" aria-label="Continue reading">{previous ? <a href={`${book.route}${previous.slug}/`}><span>Previous chapter</span><strong>← {previous.title}</strong></a> : <a href={book.route}><span>The book</span><strong>← Introduction and contents</strong></a>}{next ? <a href={`${book.route}${next.slug}/`}><span>Next chapter</span><strong>{next.title} →</strong></a> : <a href={book.route}><span>The book</span><strong>Return to the contents →</strong></a>}</nav>
+  <section class="culture-update"><h2>Suggest an update</h2><p><a href={`/contribute/?page=${encodeURIComponent(route)}`}>Share a correction or source for this chapter</a>. GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
+</article>
+</Shell>

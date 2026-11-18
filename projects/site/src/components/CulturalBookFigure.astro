@@ -1,0 +1,7 @@
+---
+const { image, eager = false } = Astro.props;
+---
+{image && <figure class="culture-figure">
+  <img src={image.src} width={image.width} height={image.height} alt={image.alt} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  <figcaption><p>{image.caption}</p><p class="culture-credit">{image.creator_url ? <a href={image.creator_url}>{image.creator}</a> : image.creator}. <a href={image.source}>Source</a> · <a href={image.license_url}>{image.license}</a>. {image.changes || image.alterations}</p></figcaption>
+</figure>}
