@@ -1645,3 +1645,8 @@ The Founder authorized continuous one-by-one processing of229 candidates from th
 ## 17 November 2026 · 550-entry Dhaga collection and book published
 
 The Founder authorized publication of the updated Dhaga collection and PDF. PR782 merged the independently reviewed 550-entry collection, 36 recorded variants and 422-page book, retaining 301 illustrations. Deployment44135045115 succeeded at d7df2d370a6e3d7d4e71cf784cc4b8d8de06ce5c. Live collection, books/discovery pages, representative old/new readings and the exact110,904,363-byte PDF were verified. The24 unresolved readings remain deferred; this publication adds no autonomous-programme completion credit. Receipt: `records/odia-dhaga-publication-550-2026-11-17.json`.
+
+
+### 19 November 2026 · Dhaga516 historical readings and satire corrected
+
+The Founder requested adding the approved explanation with both historical readings and page references. Preserved the uploaded primary witness, added the separately identified1926/n.1990 scan readings at printed100/item86 and106/item49, and corrected the interpretation to satire of promises without delivery or refusal. Separate source and integrated content reviews passed; local browser review confirms visible quotations and clickable page references. Collection stays550entries; earlier PDF edition unchanged. Publication pending. [Scoped receipt](../records/odia-dhaga-516-satire-20261119.json).
