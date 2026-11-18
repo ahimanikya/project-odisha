@@ -1,0 +1,82 @@
+{
+  "status": "PASS_READER_CLEANUP_REVIEW",
+  "reviewer": "Drishti independent review",
+  "pdf": {
+    "pages": 408,
+    "bytes": 190228916,
+    "sha256": "c689dde8322621376ae73572d9c3c4ef79e44491aa25ef510e4725a9b1091d01"
+  },
+  "independent_checks": {
+    "status": "PASS",
+    "canonical_entry_asset_files_byte_preserved": 1669,
+    "source_records_preserved": 271,
+    "canonical_intro_and_license_preserved": true,
+    "reading_placements_identical_to_previous_pdf": 586,
+    "entries": 550,
+    "variants": 36,
+    "illustrations": 550,
+    "textual_notes_entries": 550,
+    "textual_notes_pages": 53,
+    "html_pages_checked": 552,
+    "targeted_removed_sections_and_anchors_absent": true,
+    "local_fragment_targets_valid": true,
+    "main_nav_details_section_article_nesting_valid": true,
+    "pdf": {
+      "sha256": "c689dde8322621376ae73572d9c3c4ef79e44491aa25ef510e4725a9b1091d01",
+      "bytes": 190228916,
+      "pages": 408
+    },
+    "pdf_introduction_markers_absent": true,
+    "pdf_bibliography_absent": true,
+    "pdf_ends_with_retained_Dhaga550_textual_note": true
+  },
+  "supplemental_preservation_check": {
+    "implementation_baseline_files_matched": 1674,
+    "includes_metadata_provenance_and_unchanged_descriptor": true
+  },
+  "visual_review": {
+    "pages": [
+      2,
+      3,
+      5,
+      408
+    ],
+    "findings": [
+      "Introduction paragraphs retain bilingual prose without citation markers; heading and paragraph spacing remain readable.",
+      "Contents and final introduction paragraph fit cleanly on page5.",
+      "Final page408 retains substantive textual notes through Dhaga550 with no clipped content; Sources & Credits bibliography is absent."
+    ]
+  },
+  "source_review": [
+    "Introduction reference generation and notes block removed without mutating canonical introduction research.",
+    "Public source bibliography/panels and links removed; per-reading textual notes and variants retain qualifications.",
+    "Witness/variant source references now direct citations rather than removed fragment targets.",
+    "Bottom navigation inserted before closing main;552 generated pages pass targeted element nesting and local-fragment checks.",
+    "Exporter omits and removes stale sources.html; both coast route lists no longer contain that route."
+  ],
+  "test_evidence": {
+    "repository_source_print_passed": 30,
+    "seconds": 20.074,
+    "adapter_unit_tests_passed": 3,
+    "full_site_export_tests": "deferred until coordinator final release descriptor binding"
+  },
+  "required_corrections": [],
+  "limitations": [
+    "Review covers generated library HTML and final408-page PDF. Full website export, new release descriptor binding, final publication artifact and live deployment verification remain coordinator publication gates.",
+    "PDF visual review sampled introduction/contents/ending; all586 reading placements are independently byte-for-byte equal in packing metadata to the previously reviewed edition."
+  ],
+  "hashes_reviewed": {
+    "output/dhaga-reader-cleanup-2026-11-18/independent-checks.json": "426ae7a187502be154ad47121b83dbfdd1641a5b73481d7e0243787c6695582f",
+    "output/dhaga-reader-cleanup-2026-11-18/review-baseline.json": "172334f77323e553984e8146d73f969587657e360943b2cd78ab3f173446b134",
+    "output/dhaga-reader-cleanup-2026-11-18/implementation-report.json": "a74ef0dc3e904d6743ce9492d845a127201850175c0660f8f11a57251b74285e",
+    "output/dhaga-reader-cleanup-2026-11-18/baseline-hashes.json": "977405d0c1219b2757737456e0b0f3c74866f95a4e8c6e6d1690b5f387ac1ac1",
+    "output/dhaga-reader-cleanup-2026-11-18/page-002.png": "3a2af04766d938c13ec31de0ec6f5080950d3001722a6312b8f0c2cd7ff8e436",
+    "output/dhaga-reader-cleanup-2026-11-18/page-003.png": "761b0ac145de406fb58c62b24444da99087d582452d41146088a4453938caa3d",
+    "output/dhaga-reader-cleanup-2026-11-18/page-005.png": "068aeff10d2398b3e74631a7ac6c9e397269717132530b42fa24909cf9faf2bd",
+    "output/dhaga-reader-cleanup-2026-11-18/page-408.png": "1d6936dcf62300075b29dc1fffce27e1aac80444f081419774b4b62b66358f1f",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/build.py": "f7761414575f6d56a488faf280d76c786c79e6a6bf95c9e36de04828d70f28cb",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/build_print.py": "bca3de85fac3bc5a7e05fa6142468802afd6dc6e526b00abafa2cc677913da80",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/site/tools/export-dhaga.mjs": "593f8964ac07e5ab5d0cfcb6c2e6253dfbe01c10397e8e6d483a6bc18c934411",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/site/editions/coast.json": "4d19b9475af6df7014d5ae458bef5da685078b6b5ff92bb0e8e0a98513b44ac3"
+  }
+}

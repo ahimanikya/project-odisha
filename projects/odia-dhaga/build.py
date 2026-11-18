@@ -120,23 +120,12 @@ def introduction_html(data):
     intro=data['book_intro'];sections=intro.get('sections',[])
     if not sections:
         return ''.join(f'<p class="odia" lang="or">{esc(t)}</p>' for t in intro['odia'])+''.join(f'<p>{esc(t)}</p>' for t in intro['english'])
-    ids=intro_source_ids(data);sources={s['id']:s for s in data['sources']};parts=[]
+    parts=[]
     for section in sections:
         parts.append(f'<section id="intro-{esc(section["id"])}"><h2><span class="odia" lang="or">{esc(section["title_odia"])}</span><br>{esc(section["title_english"])}</h2>')
-        for index,para in enumerate(section['paragraphs']):
-            anchor=f'intro-ref-{section["id"]}-{index}'
-            refs=' '.join(f'<a href="#intro-source-{esc(sid)}" aria-label="Source {ids.index(sid)+1}">[{ids.index(sid)+1}]</a>' for sid in para.get('source_ids',[]))
-            parts.append(f'<p class="odia" lang="or" id="{esc(anchor)}-or">{esc(para["odia"])} <sup>{refs}</sup></p><p id="{esc(anchor)}">{esc(para["english"])} <sup>{refs}</sup></p>')
+        for para in section['paragraphs']:
+            parts.append(f'<p class="odia" lang="or">{esc(para["odia"])}</p><p>{esc(para["english"])}</p>')
         parts.append('</section>')
-    if ids:
-        parts.append('<section aria-label="Introduction sources"><h2>Notes to the introduction</h2><ol>')
-        for sid in ids:
-            source=sources[sid]
-            backs=[(f'intro-ref-{section["id"]}-{i}',section['title_english'],i+1) for section in sections for i,p in enumerate(section['paragraphs']) if sid in p.get('source_ids',[])]
-            returns=' '.join(f'<a href="#{esc(anchor)}-or" aria-label="Return to Odia reference: {esc(title)}, paragraph {number}">↩ Odia ({esc(title)}, {number})</a> <a href="#{esc(anchor)}" aria-label="Return to English reference: {esc(title)}, paragraph {number}">↩ English ({esc(title)}, {number})</a>' for anchor,title,number in backs)
-            detail=source.get('citation') or source.get('bibliography') or source.get('locator','')
-            parts.append(f'<li id="intro-source-{esc(sid)}">{source_citation(source)} {esc(detail)} {returns}</li>')
-        parts.append('</ol></section>')
     return ''.join(parts)
 
 CSS = """
@@ -234,11 +223,11 @@ def render(data):
         fields = [('Literal meaning','literal_meaning'),('What it means','explanation'),
                   ('When you might use it','usage_example'),('Cultural context','cultural_context')]
         body = ''.join(f'<section><h3>{label}</h3><p>{esc(entry[key])}</p></section>' for label,key in fields)
-        witnesses = ''.join(f'<li><a href="#source-{esc(w["source_id"])}">{esc(sources[w["source_id"]]["title"])}</a> — {esc(w["locator"])}'
+        witnesses = ''.join(f'<li>{source_citation(sources[w["source_id"]])} — {esc(w["locator"])}'
                              + (f'<p class="odia" lang="or">{esc(w["wording"])}</p>' if w.get('wording') else '')
                              + (f'<p class="note">{esc(w["note"])}</p>' if w.get('note') else '') + '</li>' for w in entry['witnesses'])
         variants = ''.join(f'<li><span class="odia" lang="or">{esc(v["odia"])}</span> — {esc(v["note"])}'
-                            + (f' <a href="#source-{esc(v["source_id"])}">Source</a>' if v.get('source_id') else '') + '</li>' for v in entry.get('variants', []))
+                            + (f' · {source_citation(sources[v["source_id"]])}' if v.get('source_id') else '') + '</li>' for v in entry.get('variants', []))
         graphic = entry.get('graphic')
         figure = f'<figure><img src="{esc(graphic["src"])}" alt="{esc(graphic["alt"])}" loading="lazy"><figcaption>{esc(graphic["caption"])}</figcaption></figure>' if graphic else ''
         cards.append(f'''<article class="entry" id="{esc(entry['id'])}" data-shelf="{esc(shelf(entry))}">
@@ -250,18 +239,10 @@ def render(data):
 {f'<p class="transliteration">{esc(entry["transliteration"])}</p>' if entry.get('transliteration') else ''}
 <div class="tags">{''.join(f'<span class="tag">{esc(t)}</span>' for t in entry['tags'])}</div>
 <div class="details-grid">{body}</div>{figure}
-<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses">{witnesses}</ul>
+<details><summary>Textual notes</summary><ul class="witnesses">{witnesses}</ul>
 {f'<h3>Recorded variants</h3><ul>{variants}</ul>' if variants else '<p class="note">No additional variant is documented in this entry.</p>'}
 <h3>Origins and uncertainty</h3><p>{esc(entry['origin_note'].replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))}</p>
-<h3>Explanation credit</h3><p>{narrative_credit_html(entry,data['sources'])}</p></details></div></details></article>''')
-    cited_source_ids = {item['source_id'] for entry in data['entries']
-                        for item in entry['witnesses'] + entry.get('variants', [])
-                        if item.get('source_id')}
-    bibliography = ''.join(f'''<section class="source" id="source-{esc(s['id'])}"><h3>{source_citation(s)}</h3>
-{f'<p class="meta">Status: {esc(s["status"])}</p>' if s.get('status') else ''}
-{f'<p><strong>Bibliography:</strong> {esc(s["bibliography"])}</p>' if s.get('bibliography') else ''}
-<p><strong>Access:</strong> {esc(s['access'])}</p><p><strong>Rights:</strong> {esc(s['rights'])}</p>
-<p><strong>Limits:</strong> {esc(s['limits'])}</p></section>''' for s in data['sources'] if s['id'] in cited_source_ids)
+</details></div></details></article>''')
     tags = sorted({t for e in data['entries'] for t in e['tags']})
     counts = {title:sum(shelf(e)==title for e in data['entries']) for title in SHELVES}
     shelves = ''.join(f'<button type="button" data-filter-shelf="{esc(title)}" aria-pressed="false">{esc(title)} <span>{count}</span></button>' for title,count in counts.items() if count)
@@ -271,7 +252,7 @@ def render(data):
 <body><a class="skip" href="#collection">Skip to Dhaga</a>
 <header><p class="eyebrow">Project Odisha · A living research collection</p><h1>{esc(data['title'])}</h1>
 <p class="subtitle">{esc(data['subtitle'])}</p><p class="scope">{esc(data['scope_note'])}</p>
-<nav class="header-links" aria-label="Collection resources"><a href="#sources">Sources &amp; rights</a><a href="README.md">Research guide</a><a href="coverage-ledger.json">Coverage ledger</a><a href="source127.html">Research: 127 source items</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
+<nav class="header-links" aria-label="Collection resources"><a href="README.md">Research guide</a><a href="coverage-ledger.json">Coverage ledger</a><a href="source127.html">Research: 127 source items</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
 <p class="scope">By Ahimanikya Satapathy · <a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a></p>
 {f'<p class="note"><strong>Collection licence:</strong> {esc(data["license"])}</p>' if data.get('license') else ''}
 <p class="meta">Checked {esc(data['checked_on'])} · {len(cards)} documented entries</p></header>
@@ -282,7 +263,7 @@ def render(data):
 <noscript><p>Search needs JavaScript. Every Dhaga and its sources remain readable below.</p></noscript></section>
 <p id="empty" hidden>No Dhaga match. Try a different word or clear the filters.</p>
 <h2 id="collection-heading" tabindex="-1">Find a Dhaga to open</h2><div id="collection" class="collection">{''.join(cards)}</div><nav id="pagination" aria-label="Library pages" hidden><button id="previous" type="button">← Previous</button><span id="page-label"></span><button id="next" type="button">Next →</button></nav>
-<section id="sources"><h2>Sources &amp; rights</h2><p>Sources cited by the Dhaga above, including recorded variants. Availability is not a reuse licence. External source links require an internet connection.</p>{bibliography}</section></main>
+</main>
 <footer>Read locally, share carefully. Explanations and diagrams are contemporary aids, not evidence of a Dhaga’s age.<br>
 Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.</footer>
 <script>{JS}</script></body></html>'''
@@ -340,10 +321,10 @@ filter();revealHash();
 .chapter{margin:2.5rem 0 3.5rem}.chapter>h2{font-size:1.65rem;line-height:1.4;scroll-margin-top:1rem;margin-bottom:.4rem}.chapter>p{color:var(--muted);max-width:70ch}.chapter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;align-items:stretch;margin-top:1.4rem}.index-row{display:flex;flex-direction:column;min-inline-size:0;background:#fffdf7;border:1px solid var(--line);border-radius:.55rem;padding:1.15rem;box-shadow:0 3px 12px #243b3b08;overflow-wrap:anywhere;scroll-margin-top:1rem}.index-row:focus-within{border-color:var(--accent)}.index-row .card-art{display:block;inline-size:100%;block-size:11rem;object-fit:contain;margin:0 0 1rem;background:#faf7ee;border-radius:.25rem}.index-row h3{font:600 1.5rem/1.9 Odia,serif;letter-spacing:0;margin:.65rem 0 1rem;color:var(--ink)}.index-row p{margin:.65rem 0;line-height:1.7}.index-row p.odia{line-height:1.9;font-size:1.05rem}.index-row .number{font-size:.7rem;line-height:1.6;color:var(--accent);margin:0;letter-spacing:.045em}.card-meanings{flex:1;border-top:1px solid #e8e1d2;padding-top:.3rem}.card-meanings>p:last-child{font-size:.98rem;color:var(--muted)}.index-row>a{display:block;border-top:1px solid #e8e1d2;padding:.85rem 0 0;margin-top:1.1rem;font:600 .8rem/1.65 system-ui,sans-serif;text-decoration-thickness:1px}.index-row:not(:has(>.card-art)){border-top:3px solid #ae7656;background:linear-gradient(145deg,#fffdf7,#f6efdf)}@media(max-width:1000px){.chapter-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}@media(max-width:600px){.chapter-grid{grid-template-columns:minmax(0,1fr)}.index-row{padding:1.1rem}.index-row .card-art{block-size:12rem}}
 .library-main :where(a,button,input,select,summary):focus-visible{outline:3px solid var(--accent);outline-offset:3px}.chapter-back{margin-top:1rem}.web-reading-links{margin:.5rem 0}.web-reading-links a{display:inline-block;padding:.35rem 0;margin-right:1rem}@media(max-width:600px){.library-hero{grid-template-columns:minmax(0,1fr) 4.5rem;gap:.8rem;padding:1rem 1.1rem}.filter-fields{grid-template-columns:1fr;gap:.65rem}.chapter-links ol{grid-template-columns:1fr}.index-row h3{font-size:1.35rem}.book-actions{gap:.3rem 1rem}.library-hero .subtitle{font-size:.9rem}.library-main{padding-inline:1.1rem}}@media print{.browse-controls,.chapter-links,.book-actions,.chapter-back{display:none!important}.index-row[hidden],.chapter[hidden]{display:block!important}.book-intro-disclosure>*{display:block!important}.index-row{break-inside:avoid}}
 """
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(cover['title_english']+' — '+cover['title_odia'])}</title><style>{CSS}{css}</style></head><body><a class="skip" href="#browse-controls">Skip to search and Dhaga</a><header class="library-hero"><div><p class="eyebrow">Project Odisha · A book of Odia Dhaga</p><h1 class="book-title"><span class="english-title" lang="en">{esc(cover['title_english'])}</span><span lang="or">{esc(cover['title_odia'])}</span></h1><p class="subtitle">{esc(cover['subtitle'])}</p><p>{esc(byline)}</p></div><img class="book-cover" src="{esc(cover['src'])}" width="{cover['width']}" height="{cover['height']}" alt="{esc(cover['alt'])}"></header><main class="library-main"><nav class="book-actions" aria-label="Read or download"><a href="reader.html">Start reading →</a><a href="odia-dhaga-book.pdf" download>Download book</a></nav><div class="browse-controls" id="browse-controls" tabindex="-1"><div class="filter-fields"><div><label for="book-search">Search in Odia or English</label><input id="book-search" type="search" autocomplete="off" disabled></div><div><label for="book-theme">Theme</label><select id="book-theme" disabled><option value="">All themes</option>{options}</select></div></div><div class="filter-state"><p id="result-count" role="status">{len(data['entries'])} Dhaga</p><button id="clear-search" type="button" hidden>Clear filters</button></div><p id="empty" hidden>No Dhaga match. Try another word or clear the filters.</p><noscript>Search needs JavaScript. All Dhaga and chapter links remain available below.</noscript></div><nav class="chapter-links" aria-label="Chapters"><ol>{contents}</ol></nav><!-- dhaga-reading-links --><details class="book-intro-disclosure"><summary>About this book · read the full introduction</summary><article class="book-intro" aria-label="About Odia Dhaga">{introduction_html(data)}</article></details><div id="collection">{chapters}</div></main><footer><nav aria-label="Book resources"><a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a> · <a href="source127.html">Source concordance</a> · <a href="README.md">Research guide</a></nav><details><summary>Sources &amp; rights</summary><p>{esc(data.get('license',''))}</p><p><a href="https://creativecommons.org/licenses/by-sa/4.0/">Read the CC BY-SA4.0 licence</a>. Each Dhaga links its own witnesses.</p></details></footer><script>{script}</script></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(cover['title_english']+' — '+cover['title_odia'])}</title><style>{CSS}{css}</style></head><body><a class="skip" href="#browse-controls">Skip to search and Dhaga</a><header class="library-hero"><div><p class="eyebrow">Project Odisha · A book of Odia Dhaga</p><h1 class="book-title"><span class="english-title" lang="en">{esc(cover['title_english'])}</span><span lang="or">{esc(cover['title_odia'])}</span></h1><p class="subtitle">{esc(cover['subtitle'])}</p><p>{esc(byline)}</p></div><img class="book-cover" src="{esc(cover['src'])}" width="{cover['width']}" height="{cover['height']}" alt="{esc(cover['alt'])}"></header><main class="library-main"><nav class="book-actions" aria-label="Read or download"><a href="reader.html">Start reading →</a><a href="odia-dhaga-book.pdf" download>Download book</a></nav><div class="browse-controls" id="browse-controls" tabindex="-1"><div class="filter-fields"><div><label for="book-search">Search in Odia or English</label><input id="book-search" type="search" autocomplete="off" disabled></div><div><label for="book-theme">Theme</label><select id="book-theme" disabled><option value="">All themes</option>{options}</select></div></div><div class="filter-state"><p id="result-count" role="status">{len(data['entries'])} Dhaga</p><button id="clear-search" type="button" hidden>Clear filters</button></div><p id="empty" hidden>No Dhaga match. Try another word or clear the filters.</p><noscript>Search needs JavaScript. All Dhaga and chapter links remain available below.</noscript></div><nav class="chapter-links" aria-label="Chapters"><ol>{contents}</ol></nav><!-- dhaga-reading-links --><details class="book-intro-disclosure"><summary>About this book · read the full introduction</summary><article class="book-intro" aria-label="About Odia Dhaga">{introduction_html(data)}</article></details><div id="collection">{chapters}</div></main><footer><nav aria-label="Book resources"><a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a> · <a href="source127.html">Source concordance</a> · <a href="README.md">Research guide</a></nav></footer><script>{script}</script></body></html>'''
 
 def reading_caption(text):
-    # Credits are collected at the end; retain the image's explanatory/uncertainty text.
+    # Keep internal credits separate; retain explanatory/uncertainty text.
     text=re.sub(r'\s*Original illustration for Project Odisha\s*·\s*CC BY-SA\s*4\.0\.?', '', text)
     text=re.sub(r'\s*CC BY-SA\s*4\.0\.?', '', text)
     text=text.replace(' by Project Odisha,;', ';').replace(' by Project Odisha,', '').replace(' for Project Odisha, approved by the Founder;', ';').replace(' for Project Odisha;', ';')
@@ -369,50 +350,10 @@ def narrative_credit_html(entry, sources):
 
 
 def consolidate_entry_sources(page, entry, data):
-    # Keep exact witness locators and source links; internal access/status logs stay in JSON.
-    sources={source['id']:source for source in data['sources']}
-    for sid in dict.fromkeys(w['source_id'] for w in entry['witnesses']+entry.get('variants',[]) if w.get('source_id')):
-        source=sources[sid]
-        creator=source.get('creator') or source.get('author')
-        domain=urlparse(source.get('url', '')).netloc
-        if not creator:creator='Odia Wiktionary contributors' if 'wiktionary' in domain else 'Wikimedia Incubator contributors' if 'incubator.wikimedia' in domain else ''
-        credit=f'<section class="source" id="source-{esc(sid)}"><h3>{source_citation(source)}</h3>'
-        if creator:credit+=f'<p>{esc(creator)}</p>'
-        detail=source.get('citation') or source.get('bibliography','')
-        if detail:credit+=f'<p>{esc(detail)}</p>'
-        if 'scert' in sid:
-            credit+='<p>SCERT Odisha, 2024, p.139. Brief quotations retain separate source rights; not openly licensed.</p>'
-        elif '1893' in sid:
-            credit+='<p>Historical witness; publisher is not assumed to be author. Transcription and reuse remain qualified.</p>'
-        elif not ('wiktionary' in domain or 'incubator.wikimedia' in domain):credit+=f'<p>{esc(source["rights"])}</p>'
-        credit+='</section>'
-        page=re.sub(r'<section class="source" id="source-'+re.escape(sid)+r'">.*?</section>',lambda m:credit,page,count=1,flags=re.S)
-    # Move passage-specific details into the single source area.
-    page=re.sub(r'<details><summary>Witnesses, variants &amp; limits</summary>.*?</details>', '', page, count=1, flags=re.S)
-    def public_note(text):
-        return esc(text.replace('Anvesha and Disha visually inspected the scan.', 'The scan was visually inspected.').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.').replace('AI visual reading','Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))
-    for sid in dict.fromkeys(x['source_id'] for x in entry['witnesses']+entry.get('variants',[]) if x.get('source_id')):
-        additions=[]
-        for w in entry['witnesses']:
-            if w['source_id']!=sid: continue
-            additions.append('<p><strong>Passage:</strong> '+esc(w['locator'])+'</p>')
-            if w.get('wording'):additions.append('<p class="odia" lang="or">'+esc(w['wording'])+'</p>')
-            if w.get('note'):additions.append('<p class="note">'+public_note(w['note'])+'</p>')
-        for v in entry.get('variants',[]):
-            if v.get('source_id')!=sid: continue
-            additions.append('<p><strong>Recorded variant:</strong> <span class="odia" lang="or">'+esc(v['odia'])+'</span></p><p>'+public_note(v['note'])+'</p>')
-            if v.get('locator'):additions.append('<p>'+esc(v['locator'])+'</p>')
-        pattern=r'(<section class="source" id="source-'+re.escape(sid)+r'">.*?</h3>)'
-        page=re.sub(pattern,lambda m:m.group(1)+''.join(additions),page,count=1,flags=re.S)
+    """Keep textual qualifications in their original disclosure, without a bibliography."""
     if entry.get('graphic'):
         page=page.replace(esc(entry['graphic']['caption']),esc(reading_caption(entry['graphic']['caption'])))
-    page=page.replace('Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.','')
-    extra='<h3>Origins and uncertainty</h3><p>'+public_note(entry['origin_note'])+'</p><h3>Explanation credit</h3><p>'+narrative_credit_html(entry,data['sources'])+'</p><p>Illustrations: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.</p>'
-    for v in entry.get('variants',[]):
-        if not v.get('source_id'):extra+='<p class="odia" lang="or">'+esc(v['odia'])+'</p><p>'+public_note(v['note'])+'</p>'
-    page=page.replace('<section id="sources"><h2>Sources &amp; rights</h2>','<section id="sources"><details open><summary>Sources &amp; rights</summary>'+extra)
-    page=page.replace('</section></main>', '</details></section></main>', 1)
-    return page
+    return page.replace('Anvesha and Disha visually inspected the scan.', 'The scan was visually inspected.')
 
 
 BROWSE_CSS = """
@@ -465,7 +406,7 @@ def build_library(directory=ROOT):
             page=page.replace('href="'+name+'"','href="../'+name+'"')
         header=f'<header><p class="eyebrow">Project Odisha · A book of Odia Dhaga</p><h1>{esc(e.get("title",e["odia"]))}</h1><p>By Ahimanikya Satapathy</p></header>'
         page=re.sub(r'<header>.*?</header>',header,page,count=1,flags=re.S)
-        page=page.replace('<main>','<main>'+saying_navigation(data,i,'top')).replace('<section id="sources">',saying_navigation(data,i,'bottom')+'<section id="sources">',1)
+        page=page.replace('<main>','<main>'+saying_navigation(data,i,'top')).replace('</main>',saying_navigation(data,i,'bottom')+'</main>',1)
         page=page.replace('</head>','<style>'+BROWSE_CSS+'</style></head>').replace('</body>','<script>'+BROWSE_JS+'</script></body>')
         (dest/(e['id']+'.html')).write_text(page)
     links=''.join(f'<li><a href="sayings/{e["id"]}.html">{esc(e.get("title",e["odia"]))}</a></li>' for e in data['entries'])

@@ -1,0 +1,63 @@
+{
+  "status": "PASS_FINAL_PUBLICATION_ARTIFACT",
+  "reviewer": "Drishti independent review",
+  "candidate_commit": "7f6e59d22a7097e7c0c693486d8dfd6841ff661d",
+  "artwork_source_commit": "9129fac293c0da4c433c89ad80cb596165fc1763",
+  "artifact": "projects/site/dist-publish",
+  "independent_checks": {
+    "status": "PASS",
+    "publication_bytes": 972706176,
+    "publication_files": 3372,
+    "headroom_bytes": 27293824,
+    "entries_with_matching_image_and_alt": 550,
+    "new_entries_with_matching_caption": 249,
+    "pdf_sha256": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35",
+    "pdf_bytes": 190358135,
+    "download_binding_pages": [
+      "dhaga/index.html",
+      "books/index.html"
+    ]
+  },
+  "corrected_derivatives_byte_exact": [
+    392,
+    399,
+    440,
+    444,
+    450,
+    462,
+    487,
+    505,
+    535,
+    546
+  ],
+  "derivative_check_method": "Regenerated in memory from current approved PNGs with exact exporter sharp640px/q60/effort6 settings and compared SHA256 to published WebP bytes.",
+  "final_source_delta": "Reviewed delivery identity, coast download path and corrected249-image measurement comment; remaining changes are workbench/evidence records. No canonical reading/art changes since approved source.",
+  "test_evidence": {
+    "full_site_passed": 773,
+    "coast_passed": 597,
+    "disclosure_reports": "Full/coast/publication zero violations"
+  },
+  "hydration_evidence": {
+    "run_id": 44220943511,
+    "log": "/tmp/dhaga-illustrated-ci-pass.log",
+    "status": "PASS_HYDRATED_EXACT",
+    "sha256": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35",
+    "checkout": "CI tested synthetic merge cf16a454 of candidate7f6e59d22a7097e7c0c693486d8dfd6841ff661d into d7df2d370a6e3d7d4e71cf784cc4b8d8de06ce5c",
+    "note": "Local independent network retrieval unavailable; inspected CI log records successful authorized exact hydration and matching190358135-byte export."
+  },
+  "required_corrections": [],
+  "limitations": [
+    "This approves the reviewed local artifact and candidate source for merge/publication; deployed URL verification remains after publication."
+  ],
+  "hashes_reviewed": {
+    "/tmp/dhaga-illustrated-ci-pass.log": "58f0de329e0fa8c046a5569b1e0c374029b78ca4a6f662eaea393d8a9fd1fbee",
+    "/tmp/dhaga-illustrated-site-tests.log": "5d8a35b32c57f857d28c5d72ba158b36e55949c928413fa7d25e2dc2039f5aac",
+    "/tmp/dhaga-illustrated-coast-tests.log": "fc5d902728877f4bd3ce687264bb5081dbbb9de674cbb65aacbc133a0e58f7ce",
+    "/tmp/dhaga-illustrated-disclosures.log": "75d946c29a425cf90c427094a510a32497f294ad7b28684dd7efd0894ab52171",
+    "/tmp/dhaga-illustrated-coast-disclosures.log": "5aa2c5179b439e35a5a738c4365c5e30b8b312f49344fb26075631f2d91ccc08",
+    "/tmp/dhaga-illustrated-publication-disclosures.log": "487a424553cbf1ac72ae793892c9d8eb919cb1382800ee2b1a42ba9694c4c973",
+    "output/dhaga-illustrations-2026-11-17/final-publication-independent-checks.json": "e03253f71afedc583d10cc04ab406f8c24628de63bfc047374760ffc7390ba02",
+    "output/dhaga-illustrations-2026-11-17/final-pdf-review.json": "e3837d7809e603232eba40b16f22e6fb5941aeaefca188f2c0d82f282f931cc0",
+    "output/dhaga-illustrations-2026-11-17/delivery-descriptor-review.json": "0b3fa71de1bccd00f8b08556bd5db508c7aac90d7c0be9e12e1900cf61c4c0c4"
+  }
+}

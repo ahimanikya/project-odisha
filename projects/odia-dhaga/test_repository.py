@@ -21,6 +21,15 @@ class Document(HTMLParser):
         if tag=='script':self.scripts+=1
         if tag=='article':self.entries.append(a)
 
+class Structure(HTMLParser):
+    def __init__(self):
+        super().__init__();self.stack=[]
+    def handle_starttag(self,tag,attrs):
+        if tag in {'details','section','main','article','nav','ul','ol'}:self.stack.append(tag)
+    def handle_endtag(self,tag):
+        if tag in {'details','section','main','article','nav','ul','ol'}:
+            if not self.stack or self.stack.pop()!=tag:raise AssertionError('Unbalanced '+tag)
+
 class RepositoryTests(unittest.TestCase):
     def document_fixture(self):
         d=fixture();source=d['sources'][0];source.pop('url')
@@ -32,7 +41,7 @@ class RepositoryTests(unittest.TestCase):
         d=self.document_fixture();validate(d)
         expected='<cite>Uploaded &lt;work&gt; &amp; notes</cite>'
         d['book_intro']={'sections':[{'id':'intro','title_odia':'ଆରମ୍ଭ','title_english':'Introduction','paragraphs':[{'odia':'ଅର୍ଥ','english':'Meaning','source_ids':['source-1']}]}]}
-        for out in [render(d),consolidate_entry_sources(render(d),d['entries'][0],d),introduction_html(d)]:
+        for out in [render(d),consolidate_entry_sources(render(d),d['entries'][0],d)]:
             self.assertIn(expected,out)
             self.assertIn('User-supplied document; not publicly hosted',out)
             doc=Document();doc.feed(out)
@@ -63,6 +72,20 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(len(p.ids),len(set(p.ids)))
         for link in p.links:
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
+    def test_reader_cleanup_preserves_notes_variants_and_balanced_structure(self):
+        from build import consolidate_entry_sources
+        d=fixture();e=d['entries'][0]
+        e['witnesses'][0].update(wording='Original <wording>',note='Uncertain reading remains.')
+        e['variants']=[{'odia':'ବିକଳ୍ପ','note':'Qualified alternate & reading.','source_id':'source-1'}]
+        out=consolidate_entry_sources(render(d),e,d)
+        for text in ['Original &lt;wording&gt;','Uncertain reading remains.','ବିକଳ୍ପ','Qualified alternate &amp; reading.','Textual notes']:
+            self.assertIn(text,out)
+        self.assertNotIn('Sources &amp; rights',out)
+        parser=Structure();parser.feed(out);self.assertEqual(parser.stack,[])
+        document=Document();document.feed(out)
+        for link in document.links:
+            if link.startswith('#'):self.assertIn(link[1:],document.ids)
+
     def test_missing_and_duplicate_ids(self):
         for kind in ['sources','entries']:
             d=fixture();del d[kind][0]['id']
@@ -118,14 +141,11 @@ class RepositoryTests(unittest.TestCase):
         for entry in d['entries']:
             if entry.get('meaning_odia'):self.assertIn('<p class="odia" lang="or">'+escape(entry['meaning_odia'],quote=True),out)
             if entry.get('title'):self.assertIn(escape(entry['title'],quote=True),out)
-        cited = {item['source_id'] for entry in d['entries']
-                 for item in entry['witnesses'] + entry.get('variants', []) if item.get('source_id')}
-        for source in d['sources']:
-            if source['id'] in cited:
-                self.assertIn('source-'+source['id'],p.ids)
-                if source.get('bibliography'):self.assertIn(escape(source['bibliography'],quote=True),out)
-            else:
-                self.assertNotIn('source-'+source['id'],p.ids)
+        self.assertNotIn('Sources &amp; rights',out)
+        self.assertNotIn('id="sources"',out)
+        for entry in d['entries']:
+            for variant in entry.get('variants',[]):
+                self.assertIn(escape(variant['odia'],quote=True),out)
         self.assertEqual(len(p.ids),len(set(p.ids)))
         for link in p.links:
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
@@ -138,8 +158,9 @@ class CulturalEditionTests(unittest.TestCase):
         d['book_intro']={'odia':[],'english':[],'sections':[{'id':'culture','title_odia':'ଢଗ','title_english':'Culture','paragraphs':[{'odia':'ଓଡ଼ିଆ କଥା','english':'A <living> expression & context.','source_ids':[sid]}]}]}
         d['book_intro']['sections'][0]['paragraphs'].append({'odia':'ଦ୍ୱିତୀୟ କଥା','english':'Another use of the same source.','source_ids':[sid]})
         validate(d);out=introduction_html(d);doc=Document();doc.feed(out)
-        for anchor in ['intro-ref-culture-0','intro-ref-culture-1']:
-            self.assertIn('href="#'+anchor+'"',out);self.assertIn('href="#'+anchor+'-or"',out)
+        self.assertNotIn('Notes to the introduction',out)
+        self.assertNotIn('<sup>',out)
+        self.assertFalse(any('intro-source-' in link for link in doc.links))
         self.assertIn('ଓଡ଼ିଆ କଥା',out);self.assertIn('A &lt;living&gt; expression &amp; context.',out)
         for link in doc.links:
             if link.startswith('#'):self.assertIn(link[1:],doc.ids)
@@ -178,11 +199,14 @@ class LibraryFileTests(unittest.TestCase):
             self.assertIn('<details class="saying-detail" open>',out)
             self.assertNotIn('id="pagination"',out)
             if e.get('meaning_odia'):self.assertIn(escape(e['meaning_odia'],quote=True),out)
-            expected={x['source_id'] for x in e['witnesses']+e.get('variants',[]) if x.get('source_id')}
-            actual={x.removeprefix('source-') for x in doc.ids if x.startswith('source-')}
-            self.assertEqual(actual,expected)
+            self.assertFalse(any(x.startswith('source-') for x in doc.ids))
+            self.assertNotIn('Sources &amp; rights',out)
+            structure=Structure();structure.feed(out);self.assertEqual(structure.stack,[])
+            for variant in e.get('variants',[]):self.assertIn(escape(variant['odia'],quote=True),out)
             for link in doc.links:
-                if link.startswith(('https:','http:','#')):continue
+                if link.startswith('#'):
+                    self.assertIn(link[1:],doc.ids);continue
+                if link.startswith(('https:','http:')):continue
                 self.assertTrue((path.parent/link.split('#')[0]).is_file(),link)
             for resource in doc.resources:self.assertTrue((path.parent/resource).is_file())
             if i:self.assertIn(data['entries'][i-1]['id']+'.html',out)

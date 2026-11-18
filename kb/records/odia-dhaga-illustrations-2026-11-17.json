@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_release_uploaded_website_validation_pending",
+  "status": "published_and_live_verified",
   "authorization_quote": "Can we add illustrations where missing",
   "scope": "Add meaning-faithful illustrations to249 currently unillustrated entries302–550. Preserve existing301illustrations and all reading text.",
   "coordinator": "Disha",
@@ -23,7 +23,7 @@
     ]
   },
   "queue": "output/dhaga-illustrations-2026-11-17/queue.json",
-  "publication": false,
+  "publication": true,
   "programme_credit": 0,
   "generated": 249,
   "independently_reviewed": 249,
@@ -56,5 +56,141 @@
   },
   "independent_pdf_review": "PASS_FINAL_PDF_REVIEW",
   "independent_source_review": "PASS_SOURCE_REVIEW",
-  "final_pdf_review_sha256": "e3837d7809e603232eba40b16f22e6fb5941aeaefca188f2c0d82f282f931cc0"
+  "final_pdf_review_sha256": "e3837d7809e603232eba40b16f22e6fb5941aeaefca188f2c0d82f282f931cc0",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/783",
+  "merged_commit": "97d8fa4b5aa51dd130088e7b88b03ae162323ae3",
+  "reviewed_candidate": "7f6e59d22a7097e7c0c693486d8dfd6841ff661d",
+  "deployment": {
+    "run_id": 44243651685,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44243651685"
+  },
+  "validation": {
+    "run_id": 44220943511,
+    "conclusion": "success",
+    "anonymous_pdf_hydration": "PASS_HYDRATED_EXACT",
+    "collection_layout_tests": 29,
+    "delivery_guard_tests": 14,
+    "full_site_tests": 773,
+    "coastal_tests": 597,
+    "disclosure_violations": 0,
+    "publication_bytes": 972706176,
+    "publication_files": 3372,
+    "publication_byte_limit": 1000000000
+  },
+  "live_verification": {
+    "html": [
+      {
+        "path": "/dhaga/",
+        "http": 200,
+        "expected": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35",
+        "verified": true
+      },
+      {
+        "path": "/books/",
+        "http": 200,
+        "expected": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35",
+        "verified": true
+      },
+      {
+        "path": "/dhaga/sayings/pod-dhaga-302.html",
+        "http": 200,
+        "expected": "pod-dhaga-302-v1.webp",
+        "verified": true
+      },
+      {
+        "path": "/dhaga/sayings/pod-dhaga-505.html",
+        "http": 200,
+        "expected": "pod-dhaga-505-v2.webp",
+        "verified": true
+      },
+      {
+        "path": "/dhaga/sayings/pod-dhaga-535.html",
+        "http": 200,
+        "expected": "pod-dhaga-535-v2.webp",
+        "verified": true
+      },
+      {
+        "path": "/dhaga/sayings/pod-dhaga-546.html",
+        "http": 200,
+        "expected": "pod-dhaga-546-v2.webp",
+        "verified": true
+      },
+      {
+        "path": "/dhaga/sayings/pod-dhaga-550.html",
+        "http": 200,
+        "expected": "pod-dhaga-550-v1.webp",
+        "verified": true
+      }
+    ],
+    "images": [
+      {
+        "file": "pod-dhaga-302-v1.webp",
+        "sha256": "ecff607bc39953f2a88613e08799c7f4a77a62cc15e259ca759d616d88aa1d2e",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-392-v2.webp",
+        "sha256": "1f99e215f2d02216b8c7c13c75c4384ad9a077f706529d5a0b89368901721f4d",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-399-v2.webp",
+        "sha256": "11feff11e9ec64262b413f07669de9c2a194c5de9bbbc49b9cbae237ea9b84ca",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-440-v2.webp",
+        "sha256": "b8d52b6b7d1bd2a177ec9cfcd469a3fa701e7e8c1ceb80723e594c6fb757c605",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-444-v2.webp",
+        "sha256": "004ac68a16a18aa9421bd32f226e833dc2109372fed52e2e2c41035232cb1419",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-450-v2.webp",
+        "sha256": "772c4121ae86fec923fdf4c535359d0420efe3ecfd43f6c462ee97f51bc42db9",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-462-v2.webp",
+        "sha256": "98bc42e8b6a9b9f6188edc7cf751c9b1270b1a5a31b8d9a365205531889bbf56",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-487-v2.webp",
+        "sha256": "08915c1a0d8e1edd3794b2262475e47062e08c1612cf9e1446f6121d4a729c73",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-505-v2.webp",
+        "sha256": "2d46ea3e0039642c8478f00dcfbf74a219d90e6505d093d90b99bf264e2b3295",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-535-v2.webp",
+        "sha256": "cce8fc0dfe8e29436d155d268c2e0ec27686657f8e450dbb8bce113093ad5539",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-546-v2.webp",
+        "sha256": "55c3bc04e6dfcfd725fd67748b2914f4da2a698fd5de70f5dad507c805f84ad1",
+        "matches_reviewed_artifact": true
+      },
+      {
+        "file": "pod-dhaga-550-v1.webp",
+        "sha256": "0b9a4aedde763f281a4d70a7672bec13f73db55d8a719736144163e9a2ee9b06",
+        "matches_reviewed_artifact": true
+      }
+    ],
+    "pdf": {
+      "bytes": 190358135,
+      "sha256": "6d64b210c6c6644578b19ba09011bf68c06964e71a120ffa59314357d9a8fc35"
+    }
+  },
+  "final_artifact_review_sha256": "69c05086a95116b7b60b610f62875670fe11ce1ce318c2edaa6e3fec52c8bd2d",
+  "next_action": "Complete: all550 readings illustrated; updated website and431-page book live and verified."
 }

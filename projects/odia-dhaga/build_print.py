@@ -191,25 +191,16 @@ def make_book(root=ROOT):
         byid={e['id']:e for e in data['entries']}
         def frontmatter(chapter_pages):
             story=[CoverPage(),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About Odia Dhaga','heading')]
-            intro=data['book_intro'];sections=intro.get('sections',[]);refs=intro_source_ids(data)
+            intro=data['book_intro'];sections=intro.get('sections',[])
             for section in sections:
                 story.extend([p(section['title_odia'],'heading'),p(section['title_english'],'heading')])
                 for para in section['paragraphs']:
-                    numbers=' '.join('['+str(refs.index(sid)+1)+']' for sid in para.get('source_ids',[]))
-                    story.append(KeepTogether([p(para['odia']+(' '+numbers if numbers else ''),'odia'),p(para['english']+(' '+numbers if numbers else ''))]))
+                    story.append(KeepTogether([p(para['odia'],'odia'),p(para['english'])]))
             if not sections:
                 story.extend(p(x,'odia') for x in intro['odia']);story.extend(p(x) for x in intro['english'])
-            if refs:
-                story.append(p('Notes to the introduction','heading'))
-                sources={source['id']:source for source in data['sources']}
-                for number,sid in enumerate(refs,1):
-                    source=sources[sid];detail=source.get('citation') or source.get('bibliography') or source.get('locator','')
-                    label=f"[{number}] {source['title']} · {detail}"
-                    style=styles['small'].clone('intro-credit',fontName='Odia' if re.search(r'[\u0b00-\u0b7f]',label) else 'English')
-                    story.append(Paragraph(print_source_citation(source,label),style))
             story.extend([Spacer(1,24),p('Contents','heading')])
             story.extend(p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {chapter_pages.get(ch['label'],0)}") for ch in design['shelves'])
-            story.extend([Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example. Source acknowledgements and reuse rights are collected at the end.','small')])
+            story.extend([Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example. Textual notes preserve wording, editorial repairs and uncertainty at the end.','small')])
             return story
         primary={}
         front_styles=styles
@@ -303,46 +294,6 @@ def make_book(root=ROOT):
         note_pages=pack_credit_blocks(note_units,cardwidth,available,0)
         for placements in note_pages:story.extend([PageBreak(),FlowPage(placements,usable-12,available)])
 
-        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Explanations expanded by Project Odisha, drawing on the sources below. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
-        credit_units=[]
-        for sid in intro_source_ids(data):primary.setdefault(sid,[])
-        for sid,ids in primary.items():
-            source=sources[sid];url=quote(source.get('url',''),safe=':/?&=%#');parts=urlsplit(url)
-            creator=source.get('creator') or source.get('author') or ('Odia Wiktionary contributors' if 'wiktionary' in parts.netloc else 'Wikimedia Incubator contributors' if 'incubator.wikimedia' in parts.netloc else 'Creator not established in source record')
-            if not isinstance(creator,str):creator=json.dumps(creator,ensure_ascii=False)
-            credit_title_style=styles['body'].clone('credit-title',fontName='Odia' if re.search(r'[\u0b00-\u0b7f]',source['title']) else 'English')
-            title=Paragraph(escape(source['title']),credit_title_style)
-            if url:title.source_url=url
-            locators=list(dict.fromkeys(w['locator'] for e in data['entries'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')==sid and w.get('locator')))
-            revision=parse_qs(parts.query).get('oldid',[''])[0]
-            detail=source.get('citation') or (('Revision '+revision) if revision else source.get('bibliography',''))
-            blocks=[title,p(creator+(' · Dhaga '+', '.join(sorted(ids,key=int)) if ids else ' · Introduction'),'small')]
-            if source.get('kind') == 'document':blocks.append(p('User-supplied document; not publicly hosted','small'))
-            if detail:blocks.append(p(detail,'small'))
-            blocks.extend(p(locator,'small') for locator in locators)
-            # These new lexical references require their reviewed note-only limits in print.
-            if sid in {'dhaga-wiktionary-212713','dhaga-wiktionary-227729','dhaga-wiktionary-220334'}:
-                notes=dict.fromkeys(w['note'] for e in data['entries'] for w in e['witnesses'] if w.get('source_id')==sid and 'wording' not in w and w.get('note'))
-                blocks.extend(p(note,'small') for note in notes)
-            if 'scert' in sid:
-                blocks.append(p('SCERT Odisha, 2024, p.139. Brief quotations retain separate source rights; not openly licensed.','small'))
-            elif '1893' in sid:
-                blocks.append(p('Historical witness; publisher is not assumed to be author. Transcription and reuse remain qualified.','small'))
-            elif not ('wiktionary' in parts.netloc or 'incubator.wikimedia' in parts.netloc):
-                blocks.append(p(source['rights'],'small'))
-            credit_units.append((blocks,None,None))
-        header_height=sum(v.wrap(usable-12,10000)[1]+v.getSpaceAfter() for v in headers)+16
-        credit_pages=pack_credit_blocks(credit_units,cardwidth,available,header_height)
-        class CreditPage(Flowable):
-            def __init__(self,placements,first):
-                Flowable.__init__(self);self.width=usable-12;self.height=available;self.placements=placements;self.first=first
-            def draw(self):
-                if self.first:
-                    y=available
-                    for block in headers:
-                        _,h=block.wrap(usable-12,available);y-=h;block.drawOn(self.canv,0,y);y-=block.getSpaceAfter()
-                FlowPage(self.placements,usable-12,available-header_height if self.first else available).drawOn(self.canv,0,0)
-        for n,placements in enumerate(credit_pages):story.extend([PageBreak(),CreditPage(placements,n==0)])
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             if doc.page==1:return
