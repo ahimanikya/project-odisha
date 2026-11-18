@@ -1,0 +1,86 @@
+{
+  "status": "PASS_BOOK_WITHOUT_NOTES_REVIEW",
+  "reviewer": "Drishti independent review",
+  "baseline_commit": "c6a281ca",
+  "pdf": {
+    "pages": 355,
+    "bytes": 190064629,
+    "sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33"
+  },
+  "independent_checks": {
+    "status": "PASS",
+    "baseline_files_preserved": 2222,
+    "primary_placements_identical": 550,
+    "primary_reading_pages_text_identical": 314,
+    "front_pages_1_to_4_text_identical": true,
+    "variant_wordings_preserved": 36,
+    "explanatory_projections": 29,
+    "administrative_only_wording_forms": 7,
+    "textual_notes_appendix_absent": true,
+    "source_locator_lines_absent": true,
+    "pdf": {
+      "pages": 355,
+      "bytes": 190064629,
+      "sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33"
+    }
+  },
+  "supplemental_baseline_files_verified": 2227,
+  "variant_content_review": {
+    "all36_original_notes_compared_with_projection": true,
+    "full_bilingual_explanations_retained": 13,
+    "shorter_interpretive_or_essential_uncertainty_excerpts": 16,
+    "administrative_only_wording_forms": 7,
+    "findings": "Literal and interpretive content retained, including unresolved opening092, final-word uncertainty099, source reading caveats011/012, animal/sibling/ancestry limits and narrow meaning distinctions. Removed content is research administration, provenance/source locators, licensing and grouping bookkeeping.",
+    "corrections_resolved": [
+      "103 missing sentence boundary fixed.",
+      "156 count-bookkeeping phrase removed; sentence capitalization fixed."
+    ]
+  },
+  "visual_review": {
+    "pages": [
+      1,
+      5,
+      219,
+      221,
+      226,
+      257,
+      321,
+      355
+    ],
+    "findings": [
+      "Cover and introduction/contents remain clear. Appendix promise removed.",
+      "Full bilingual variant pages092,034,406 and corrected shorter103/156 remain readable and unclipped.",
+      "Book ends cleanly at final themed reading549 on page355, retaining its complete text and illustration; no notes appendix follows."
+    ]
+  },
+  "source_review": "Print-only projection explicitly selects retained explanation segments and important qualifications; all canonical files, website HTML and art hashes unchanged. Primary layout/image construction untouched.",
+  "tests": {
+    "passed": 32,
+    "seconds": 19.514,
+    "evidence": "tests.log"
+  },
+  "required_corrections": [],
+  "limitations": [
+    "Final release descriptor and publication/export binding are not part of this PDF implementation approval.",
+    "Visual proofing samples the changed front/variant/ending pages;314 primary reading pages have independently identical extracted text and all550 primary placements are identical to baseline. Odia extraction is shaping-sensitive, so exact canonical variant wording/projection and visual proof supplement extraction."
+  ],
+  "hashes_reviewed": {
+    "output/dhaga-book-without-notes-2026-11-18/review-baseline.json": "0f32f8f407ace9d7df5d65f5a366ba171021d6c4998e7e88032974d9f390373e",
+    "output/dhaga-book-without-notes-2026-11-18/baseline-pdf-text.json": "309b5dd5fb3207e4e72e7aad92e88d661bdca2f19d886f4a5ffa9ad6c5a8cb4f",
+    "output/dhaga-book-without-notes-2026-11-18/variant-print-projection.json": "28c49422f477cf7dc2f82c6d1ad718e37cd94421b153d820546381fa2930cf9d",
+    "output/dhaga-book-without-notes-2026-11-18/implementation-report.json": "741026254c3be442ac4a99f2c2e37e8b63d1b4a7b292a345acf26d35cc4cc196",
+    "output/dhaga-book-without-notes-2026-11-18/independent-checks.json": "b467de617d3d6d136dcd97dd2cc4403e66dd91c415ac6c50f18ba186a2c17c44",
+    "output/dhaga-book-without-notes-2026-11-18/tests.log": "61fed817c27a268fdc2de6b20eed784aac0988a7a957052b45194c42fef02e48",
+    "output/dhaga-book-without-notes-2026-11-18/proof-001.png": "cd9236274ed91c077bd3a5f33cdcfd5480e3acbda09379aeeba4fc099ed96edc",
+    "output/dhaga-book-without-notes-2026-11-18/proof-005.png": "61103b42f3cfa4683dd48f43f209d2092235f23c47fde7670d9c8c0e967b0c8f",
+    "output/dhaga-book-without-notes-2026-11-18/proof-219.png": "335ce8376bdd3812154698cb35c4c39b805a472ff33a89d389f0bfd45f5ac353",
+    "output/dhaga-book-without-notes-2026-11-18/proof-221.png": "e855e5f7f45a426ec5637c7786cb59cf2cb3c43692310d4671e9c050a9328c32",
+    "output/dhaga-book-without-notes-2026-11-18/proof-226.png": "0dfd544b710c6e5c9e9de2757bb3c0649b24f5292b3ba12aa25438c431509fbb",
+    "output/dhaga-book-without-notes-2026-11-18/proof-257.png": "4c3a374ec433d904f99118faedc58484949fbfab03cfa4d144ca8b701a47823e",
+    "output/dhaga-book-without-notes-2026-11-18/proof-321.png": "e31e994bbd16ede3c6fe0516c2b741fc2a4727755c1ed986c83f1868cfccc3cc",
+    "output/dhaga-book-without-notes-2026-11-18/proof-355.png": "674ded3d32730b9e4a6b066bfe7278c7a35147aebb084c409bfccf7d500a1f5b",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/build_print.py": "f8b82cc2e3c7276e9dc0cb586471df428d67915ee9ae4dc6cf105deb5e6982e9",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/test_print_layout.py": "fd18b5adc6dadf563708d76c05d88b19b14fbb3aa2605747968dbf9c88f24deb"
+  },
+  "source_commit": "3e241fa087d338e54a9188561e5945679ed02077"
+}
