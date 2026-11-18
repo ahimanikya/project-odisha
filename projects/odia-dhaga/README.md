@@ -111,7 +111,7 @@ Run `python3 build.py` in this folder. It reads the entry folder by default and 
 
 ## Printable reading edition
 
-The reader download is `odia-dhaga-book.pdf`, an A4 book with flowing two-column readings and alternating illustration placement, a bilingual subject introduction, chapter contents and illustrations. The current550-entry edition includes all36 recorded variants as source-attributed readings with their complete notes, including uncertainty and editorial qualifications. All550 readings have an accompanying illustration; the original301 artwork files remain unchanged. A textual-notes section preserves each entry’s original witness wording, source notes, repair notices and origin limits. Reader-facing introduction references and Sources & rights panels are omitted; canonical evidence and internal licence files remain unchanged.
+The reader download is `odia-dhaga-book.pdf`, an A4 book with flowing two-column readings and alternating illustration placement, a bilingual subject introduction, chapter contents and illustrations. The current550-entry edition includes all36 recorded variant wordings as reading cards, retaining their available explanations and meaningful uncertainty. Variant source locators and research-administration notes remain in the canonical records and website. All550 readings have an accompanying illustration; the original301 artwork files remain unchanged. The print edition has no textual-notes appendix; witness wording, source notes, repair notices and origin limits remain in the canonical records and website. Reader-facing introduction references and Sources & rights panels are omitted; canonical evidence and internal licence files remain unchanged.
 
 After editing entries or the introduction, run `python3 build.py`, then regenerate the PDF with `python3 build_print.py` in an environment containing `requirements-print.txt`. The generator converts the bundled licensed fonts temporarily and uses HarfBuzz shaping for Odia. Inspect rendered pages after regeneration; PDF text extraction alone cannot verify Odia glyph shaping.
 
@@ -221,4 +221,9 @@ The550-reading candidate now contains550 illustrations:249 reviewed additions ac
 
 ## 2026-11-18 reader presentation cleanup
 
-The introduction now reads without reference markers or its notes bibliography. Sources & rights panels, their public navigation/page and the PDF Sources & Credits bibliography are omitted. Textual notes, all36 variant readings and meaningful uncertainty remain visible; the550 canonical entries, source registry, artwork and internal provenance/licence files remain unchanged.
+The introduction now reads without reference markers or its notes bibliography. Sources & rights panels, their public navigation/page and the PDF Sources & Credits bibliography are omitted. Textual notes and variant notes remain visible on the website; the later print-only cleanup below omits the appendix and variant research-administration notes from the PDF while preserving variant explanations. All36 variant wordings and the550 canonical entries, source registry, artwork and internal provenance/licence files remain unchanged.
+
+
+## 2026-11-18 book without textual notes
+
+The reader PDF now ends with the Dhaga readings. Its textual-notes appendix and the source/locator and research-administration lines on variant cards are omitted; their literal and bilingual explanations and interpretive qualifications remain. All550 primary readings, explanations and illustrations, all36 variant wordings, and the cover and introduction remain. Canonical JSON, source and rights records, website HTML, artwork and internal provenance are unchanged.

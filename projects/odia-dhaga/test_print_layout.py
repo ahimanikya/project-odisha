@@ -23,6 +23,46 @@ class LongReadingLayoutTests(unittest.TestCase):
 
     def unit(self,ident,height=100):
         return {'id':ident,'chapter':'A','unit':([Spacer(1,height)],None,None)}
+    def test_variant_card_keeps_wording_without_notes_or_source_locator(self):
+        from build_print import variant_reading_blocks
+        variant={'odia':'ଓଡ଼ିଆ\nବିକଳ୍ପ','note':'Editorial interpretation retained internally.',
+                 'source_id':'source-1','locator':'Page 9'}
+        blocks=variant_reading_blocks('Chapter','POD-DHAGA-056',1,variant,lambda text,style:(text,style))
+        self.assertEqual(blocks,[('Chapter · Dhaga 056 · Variant 1','label'),('ଓଡ଼ିଆ\nବିକଳ୍ପ','saying')])
+        self.assertEqual(variant['note'],'Editorial interpretation retained internally.')
+
+    def test_variant_explanations_preserve_bilingual_meaning_and_limits(self):
+        import json
+        from pathlib import Path
+        from build_print import variant_explanation, VARIANT_EXPLANATION_END, VARIANT_EXPLANATION_EXTRA, VARIANT_SHORT_EXPLANATIONS
+        entries=json.loads((Path(__file__).parent/'collection.json').read_text())['entries']
+        retained=[]
+        for entry in entries:
+            for number,variant in enumerate(entry.get('variants',[]),1):
+                text=variant_explanation(entry['id'],number,variant)
+                if not text: continue
+                key=(entry['id'].rsplit('-',1)[1],number)
+                if key in VARIANT_SHORT_EXPLANATIONS:
+                    expected=' '.join(VARIANT_SHORT_EXPLANATIONS[key])
+                    if key==('103',1):
+                        expected=expected.replace('proposition this Incubator','proposition. This Incubator')
+                    if key==('156',1):
+                        expected=expected.replace('Not a new count, animal fact','Not an animal fact').replace('help. this Incubator','help. This Incubator')
+                        self.assertNotIn('new count',text)
+                    self.assertEqual(text,expected)
+                    continue
+                retained.append((entry['id'].rsplit('-',1)[1],number))
+                self.assertIn('Literal',text)
+                self.assertTrue('ଅର୍ଥ:' in text or 'Odia meaning:' in text)
+                self.assertTrue('Explanation:' in text or 'Interpretive reading:' in text)
+                self.assertNotIn('Source quotation',text)
+                self.assertNotIn('inspected17November2026',text)
+                key=retained[-1]
+                if key in VARIANT_EXPLANATION_EXTRA:
+                    self.assertIn(VARIANT_EXPLANATION_EXTRA[key],text)
+        self.assertEqual(set(retained),set(VARIANT_EXPLANATION_END))
+        self.assertEqual(len(retained),13)
+
     def test_variant_gets_full_width_without_changing_primary(self):
         items=[self.unit('POD-DHAGA-034'),self.unit('POD-DHAGA-034-variant-1')]
         items[1]['variant_reading']=True

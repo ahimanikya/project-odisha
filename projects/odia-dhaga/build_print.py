@@ -35,6 +35,76 @@ def print_raster_bytes(src, entry_id):
     encoded.seek(0)
     return encoded
 
+# Explicit reader projections avoid treating mixed research notes as expendable prose.
+VARIANT_EXPLANATION_END = {
+    ('034',1): ' Source:', ('064',1): ' Source:', ('092',1): ' Source:',
+    ('099',1): ' Rendered page31', ('176',2): ' Rendered upload',
+    ('231',1): ' Rendered page inspected', ('363',1): ' Locator:',
+    ('376',1): ' Uploaded page31', ('403',1): ' Source:',
+    ('406',1): ' Name reference:', ('461',1): ' Source:',
+    ('483',1): ' Source:', ('486',1): ' Source:',
+}
+VARIANT_EXPLANATION_EXTRA = {
+    ('034',1): 'Bamboo statement belongs to the proverbial image, without a universal biological claim.',
+    ('376',1): 'The fruit-to-doom connection is unexplained; no debt or intentional evasion inferred.',
+    ('406',1): 'Uploaded spelling retained without repair. No epic-origin claim.',
+}
+
+VARIANT_SHORT_EXPLANATIONS = {
+    ('011',1): ['Provisional normalized historical reading, not an exact diplomatic transcription.', 'Modern spacing supplied in normalized reading; old typography is faint.'],
+    ('012',1): ['Provisional normalized historical reading, not an exact diplomatic transcription.', 'Distinguish historical ଆରେ from contemporary ଆଲୋ; exact historical spacing/punctuation not certified.'],
+    ('143',1): ['Preserve କଞ୍ଚା/କଷା and ସଢ଼ା/ପଚା differences; no shared-origin inference.'],
+    ('169',1): ['one underlying impossible-dimensions comparison'],
+    ('260',1): ['Exact shorter source wording preserved; not substituted for the complete conditional primary quotation.'],
+    ('009',1): ['Hunger is the explicit trigger here;009 uses medicine-related anger. Both bite the bowl.', 'Related image/application, not certified identical wording or complete meaning'],
+    ('036',1): ['Different kinship/animal pairs but same substitution proposition; source explicitly connects aunt with care for motherless children.'],
+    ('081',1): ['Cold’s great rage'],
+    ('087',1): ['Same contrast with different first-clause wording'],
+    ('103',1): ['Same local-variation/river-bend proposition', 'this Incubator item supplies wording without a gloss and does not independently support the existing explanatory narrative.'],
+    ('156',1): ['Stroked/indulged dog urinates in the face versus existing156 help answered with urination. Same coarse animal-image complaint about kindness repaid by disrespect.', 'Not a new count, animal fact or rule about recipients of help.', 'this Incubator item supplies wording without a gloss and does not independently support the existing explanatory narrative.'],
+    ('176',1): ['Editorial comparison only; no assertion that all sibling relationships are instrumental.'],
+    ('178',1): ['Paired by the source with the same complete-destruction gloss; its separate literal image is not resolved here.'],
+    ('187',1): ['Separately worded thematic parallel: visible marks versus concealed wrongdoing.', 'Source does not identify the marks, a religion, caste or actual person. Do not infer ritual details.'],
+    ('195',1): ['Separately worded refusal parallel: declining provision and declining praise.'],
+    ('222',1): ['ନୀକରେ unresolved.'],
+}
+
+def variant_explanation(ident, number, variant):
+    key=(ident.rsplit('-',1)[1],number)
+    note=variant.get('note','')
+    if key in VARIANT_SHORT_EXPLANATIONS:
+        passages=VARIANT_SHORT_EXPLANATIONS[key]
+        assert all(passage in note for passage in passages)
+        text=' '.join(passages)
+        if key==('103',1):
+            text=text.replace('proposition this Incubator', 'proposition. This Incubator')
+        if key==('156',1):
+            text=text.replace('Not a new count, animal fact', 'Not an animal fact').replace('help. this Incubator', 'help. This Incubator')
+        return text
+    if key not in VARIANT_EXPLANATION_END:
+        return ''
+    start=note.index('Literal')
+    end=note.index(VARIANT_EXPLANATION_END[key],start)
+    explanation=note[start:end]
+    if key==('231',1):
+        prefix='Current wording specifies selling, not a free gift.'
+        assert prefix in note
+        explanation=prefix+' '+explanation
+    if key in VARIANT_EXPLANATION_EXTRA:
+        extra=VARIANT_EXPLANATION_EXTRA[key]
+        assert extra in note
+        explanation+=' '+extra
+    return explanation
+
+def variant_reading_blocks(chapter, ident, number, variant, paragraph):
+    """Keep recorded wording and its explanation, without research administration."""
+    blocks=[paragraph(chapter+' · Dhaga '+ident.rsplit('-',1)[1]+' · Variant '+str(number),'label'),
+            paragraph(variant['odia'],'saying')]
+    explanation=variant_explanation(ident,number,variant)
+    if explanation:
+        blocks.append(paragraph(explanation,'body'))
+    return blocks
+
 def public_print_note(text):
     """Remove production attribution only; keep textual uncertainty and review limits."""
     return text.replace('Anvesha and Disha visually inspected the scan.', 'The scan was visually inspected.').replace('AI visual reading', 'Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending', 'with human Odia proofreading still pending')
@@ -200,9 +270,8 @@ def make_book(root=ROOT):
                 story.extend(p(x,'odia') for x in intro['odia']);story.extend(p(x) for x in intro['english'])
             story.extend([Spacer(1,24),p('Contents','heading')])
             story.extend(p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {chapter_pages.get(ch['label'],0)}") for ch in design['shelves'])
-            story.extend([Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example. Textual notes preserve wording, editorial repairs and uncertainty at the end.','small')])
+            story.extend([Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example.','small')])
             return story
-        primary={}
         front_styles=styles
         styles={k:v.clone('card-'+k) for k,v in styles.items()}
         cardwidth=(usable-12-20)/2
@@ -233,11 +302,8 @@ def make_book(root=ROOT):
                     caption=p(reading_caption(g['caption']),'small')
                 units.append({'id':ident,'chapter':ch['label'],'source_entry_sha256':hashlib.sha256((root/'entries'/(ident+'.json')).read_bytes()).hexdigest(),'unit':(blocks,im,caption)})
                 for variant_number,variant in enumerate(e.get('variants',[]),1):
-                    source=next(s for s in data['sources'] if s['id']==variant['source_id'])
-                    variant_blocks=[p(ch['label']+' · Dhaga '+ident.rsplit('-',1)[1]+' · Variant '+str(variant_number),'label'),p(variant['odia'],'saying'),p(public_print_note(variant.get('note','')),'odia'),p('Source: '+source['title']+' · '+variant.get('locator',''),'small')]
+                    variant_blocks=variant_reading_blocks(ch['label'],ident,variant_number,variant,p)
                     units.append({'id':ident+'-variant-'+str(variant_number),'entry_id':ident,'variant_reading':True,'variant_sha256':hashlib.sha256(json.dumps(variant,ensure_ascii=False,sort_keys=True).encode()).hexdigest(),'chapter':ch['label'],'unit':(variant_blocks,None,None)})
-                for sid in dict.fromkeys(w['source_id'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')):
-                    primary.setdefault(sid,[]).append(e['id'].rsplit('-',1)[1])
         # First pass: measure intact reading units and pack down left, then right.
         available=bodyheight-12
         pages,chapter_pages,packing=pack_reading_units(units,cardwidth,usable-12,available)
@@ -279,21 +345,6 @@ def make_book(root=ROOT):
         story=frontmatter(chapter_pages)
         styles=reading_styles
         for index,placements in enumerate(pages):story.extend([PageBreak(),FlowPage(placements,usable-12,available,page_fillers.get(index))])
-        styles=front_styles
-        sources={s['id']:s for s in data['sources']}
-        note_units=[([p('Textual notes and source limits','heading'),p('These notes preserve the source wording, editorial repairs and limits associated with each reading. Variant notes appear beside their variant readings.','small')],None,None)]
-        for entry in data['entries']:
-            blocks=[p('Dhaga '+entry['id'].rsplit('-',1)[1]+' · '+entry['title'],'body')]
-            if entry.get('origin_note'):blocks.append(p(public_print_note(entry['origin_note']),'small'))
-            for witness in entry['witnesses']:
-                source=sources[witness['source_id']]
-                blocks.append(p(source['title']+' · '+witness.get('locator',''),'small'))
-                if witness.get('wording'):blocks.append(p(witness['wording'],'small'))
-                if witness.get('note'):blocks.append(p(public_print_note(witness['note']),'small'))
-            note_units.append((blocks,None,None))
-        note_pages=pack_credit_blocks(note_units,cardwidth,available,0)
-        for placements in note_pages:story.extend([PageBreak(),FlowPage(placements,usable-12,available)])
-
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             if doc.page==1:return
@@ -302,7 +353,7 @@ def make_book(root=ROOT):
         document.build(story,onFirstPage=page_number,onLaterPages=page_number)
         pdf_bytes=out.read_bytes()
         pdf_metadata={'pages':document.page,'bytes':len(pdf_bytes),'sha256':hashlib.sha256(pdf_bytes).hexdigest()}
-        (root/'packing-report.json').write_text(json.dumps({'pdf':pdf_metadata,'entries':len(data['entries']),'reading_units':len(units),'variant_readings':sum(len(e.get('variants',[])) for e in data['entries']),'illustrated_entries':sum(bool(e.get('graphic')) for e in data['entries']),'textual_note_entries':len(data['entries']),'textual_note_pages':len(note_pages),'reading_pages':len(pages),'first_reading_page':first_reading_page,'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
+        (root/'packing-report.json').write_text(json.dumps({'pdf':pdf_metadata,'entries':len(data['entries']),'reading_units':len(units),'variant_readings':sum(len(e.get('variants',[])) for e in data['entries']),'illustrated_entries':sum(bool(e.get('graphic')) for e in data['entries']),'textual_note_entries':0,'textual_note_pages':0,'variant_print_content':'wording_and_explanations_without_source_notes','reading_pages':len(pages),'first_reading_page':first_reading_page,'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
         print('Reading pages:',len(pages),'units:',len(units),'shrink:',1)
         return out
 if __name__=='__main__':print(make_book())

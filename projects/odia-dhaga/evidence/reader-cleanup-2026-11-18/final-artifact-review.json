@@ -1,0 +1,56 @@
+{
+  "status": "PASS_FINAL_ARTIFACT_REVIEW",
+  "reviewer": "Drishti independent review",
+  "candidate_commit": "2254b57a134e7cbcea974e68690caf7a20fcd511",
+  "artifact": "projects/site/dist-publish",
+  "payload": {
+    "bytes": 972153342,
+    "files": 3369,
+    "headroom_under_1GB": 27846658
+  },
+  "pdf": {
+    "sha256": "c689dde8322621376ae73572d9c3c4ef79e44491aa25ef510e4725a9b1091d01",
+    "bytes": 190228916,
+    "pages": 408
+  },
+  "checks": {
+    "all550_published_illustration_hashes_unchanged": true,
+    "all550_reading_routes_have_matching_images_and_alt": true,
+    "all36_variant_wordings_present": true,
+    "retired_sources_page_absent": true,
+    "retired_source_links_absent_across_public_html": true,
+    "introduction_notes_and_reference_markers_absent": true,
+    "Sources_and_rights_panels_absent": true,
+    "dhaga_html_local_fragments_valid": 552,
+    "books_and_dhaga_downloads_bind_exact_pdf": true,
+    "final_delta_only_removes_retired_route_from_reference_manifest": true
+  },
+  "preservation_evidence": "independent-review.json and independent-checks.json bind550 canonical readings,36 variants,550 artworks,271 sources and53 textual-note pages; no subsequent canonical edits.",
+  "test_evidence": {
+    "full_site_passed": 774,
+    "coast_passed": 597,
+    "publication_disclosure_scanned": 1406,
+    "violations": 0
+  },
+  "required_corrections": [],
+  "limitations": [
+    "This approves the local finalized artifact and final source delta; live deployment verification remains after publication."
+  ],
+  "hashes_reviewed": {
+    "/private/tmp/dhaga-cleanup-tests.log": "c1973c17a360c4f683d7f025c697c6bb5b1a5938c4010d3d38ab09e80c329a75",
+    "/private/tmp/dhaga-cleanup-coast-tests.log": "103f110214f508112892baba4cacc9ed4d8246bd7e970e6aba73dbeb82affaf0",
+    "/private/tmp/dhaga-cleanup-publication-disclosures.log": "7330a5965e0b15284e4e3a8cba8ae0c89366b2690ee287077f4ac6c08a81d7aa",
+    "/private/tmp/dhaga-cleanup-payload.json": "c01838fce45d850d5ffc1afd59fa5c8cdfde6b6a67b9d8b6a3e637b2d2c21c2f",
+    "output/dhaga-reader-cleanup-2026-11-18/independent-review.json": "02b68ac7e2b26aa89d42d82f140d36ef7c08d7e1d20bb149536e212b471acbaa",
+    "output/dhaga-reader-cleanup-2026-11-18/final-source-descriptor-review.json": "20b69201886db9632b3ba8a9569b198df1878756ed9ed4e522acfa9447753174",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/kb/reference/public-website-routes.json": "1c9d4423d36443f2f78d82c9c92467f9e97038701155e7f0ebd4b81d02abbd94",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/kb/records/editorial-workbench.json": "d033cfa4b445fbf2336e59197bae4e19e33f79cf4f3b58da41941adac0f9487c"
+  },
+  "rebind": {
+    "previous_commit": "b4a08eea617fbb0e14a6b057b468c8f33e3cde5b",
+    "previous_review_sha256": "b2abf75892c6f00ecab388474759650dd7588a37ff6f7c29f5484945ff291207",
+    "verified_delta": "Only one generated editorial-workbench coast.json hash line changed to the actual current coast.json SHA256. No artifact-producing source changed.",
+    "artifact_check": "Publication file count/total bytes and exact PDF hash remain unchanged. Prior full artifact review reused.",
+    "workbench_tests": "Coordinator reports six passing tests."
+  }
+}
