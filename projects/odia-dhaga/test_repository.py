@@ -42,12 +42,13 @@ class RepositoryTests(unittest.TestCase):
         expected='<cite>Uploaded &lt;work&gt; &amp; notes</cite>'
         d['book_intro']={'sections':[{'id':'intro','title_odia':'ଆରମ୍ଭ','title_english':'Introduction','paragraphs':[{'odia':'ଅର୍ଥ','english':'Meaning','source_ids':['source-1']}]}]}
         for out in [render(d),consolidate_entry_sources(render(d),d['entries'][0],d)]:
-            self.assertIn(expected,out)
-            self.assertIn('User-supplied document; not publicly hosted',out)
+            self.assertNotIn(expected,out)
+            self.assertNotIn('User-supplied document; not publicly hosted',out)
             doc=Document();doc.feed(out)
             self.assertNotIn('',doc.links)
             self.assertFalse(any('Uploaded' in link or link.startswith('file:') for link in doc.links))
             self.assertNotIn('<work>',out)
+        self.assertIn(expected,source_citation(d['sources'][0]))
         self.assertEqual(source_citation(fixture()['sources'][0]),'<a href="https://example.org/book">Witness</a>')
 
     def test_document_source_identity_and_private_paths_rejected(self):
@@ -72,19 +73,45 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(len(p.ids),len(set(p.ids)))
         for link in p.links:
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
-    def test_reader_cleanup_preserves_notes_variants_and_balanced_structure(self):
+    def test_reader_cleanup_omits_notes_preserves_variants_and_balanced_structure(self):
         from build import consolidate_entry_sources
         d=fixture();e=d['entries'][0]
         e['witnesses'][0].update(wording='Original <wording>',note='Uncertain reading remains.')
         e['variants']=[{'odia':'ବିକଳ୍ପ','note':'Qualified alternate & reading.','source_id':'source-1'}]
         out=consolidate_entry_sources(render(d),e,d)
-        for text in ['Original &lt;wording&gt;','Uncertain reading remains.','ବିକଳ୍ପ','Qualified alternate &amp; reading.','Textual notes']:
-            self.assertIn(text,out)
+        for text in ['Original &lt;wording&gt;','Uncertain reading remains.','Qualified alternate &amp; reading.','Textual notes','Origins and uncertainty']:
+            self.assertNotIn(text,out)
+        self.assertIn('ବିକଳ୍ପ',out)
+        self.assertIn('<section class="recorded-variants">',out)
         self.assertNotIn('Sources &amp; rights',out)
         parser=Structure();parser.feed(out);self.assertEqual(parser.stack,[])
         document=Document();document.feed(out)
         for link in document.links:
             if link.startswith('#'):self.assertIn(link[1:],document.ids)
+
+    def test_web_and_print_share_reviewed_variant_explanations(self):
+        import json
+        from html.parser import HTMLParser
+        from reader_content import variant_explanation
+        from build import reader_language_spans
+        class Text(HTMLParser):
+            def __init__(self):super().__init__();self.text=''
+            def handle_data(self,value):self.text+=value
+        data=json.loads((ROOT/'collection.json').read_text())
+        explanations=[]
+        for entry in data['entries']:
+            for number,variant in enumerate(entry.get('variants',[]),1):
+                text=variant_explanation(entry['id'],number,variant)
+                if text: explanations.append(text)
+                fragment=reader_language_spans(text);parsed=Text();parsed.feed(fragment)
+                self.assertEqual(parsed.text,text)
+                if any('\u0b00'<=c<='\u0b7f' for c in text):self.assertIn('lang="or"',fragment)
+        self.assertEqual(len(explanations),29)
+        rendered=render(data);parsed=Text();parsed.feed(rendered)
+        for text in explanations:self.assertIn(text,parsed.text)
+        for label in ['Textual notes','Origins and uncertainty','class="witnesses"']:
+            self.assertNotIn(label,rendered)
+        self.assertIn('&lt;script&gt;',reader_language_spans('<script>ଅର୍ଥ</script>'))
 
     def test_missing_and_duplicate_ids(self):
         for kind in ['sources','entries']:
@@ -145,7 +172,7 @@ class RepositoryTests(unittest.TestCase):
         self.assertNotIn('id="sources"',out)
         for entry in d['entries']:
             for variant in entry.get('variants',[]):
-                self.assertIn(escape(variant['odia'],quote=True),out)
+                self.assertIn(escape(variant['odia'],quote=True).replace('\n','<br>'),out)
         self.assertEqual(len(p.ids),len(set(p.ids)))
         for link in p.links:
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
@@ -202,7 +229,7 @@ class LibraryFileTests(unittest.TestCase):
             self.assertFalse(any(x.startswith('source-') for x in doc.ids))
             self.assertNotIn('Sources &amp; rights',out)
             structure=Structure();structure.feed(out);self.assertEqual(structure.stack,[])
-            for variant in e.get('variants',[]):self.assertIn(escape(variant['odia'],quote=True),out)
+            for variant in e.get('variants',[]):self.assertIn(escape(variant['odia'],quote=True).replace('\n','<br>'),out)
             for link in doc.links:
                 if link.startswith('#'):
                     self.assertIn(link[1:],doc.ids);continue

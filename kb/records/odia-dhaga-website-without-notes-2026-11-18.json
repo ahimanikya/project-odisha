@@ -1,0 +1,36 @@
+{
+  "status": "independent_review_and_validation",
+  "authorization_quote": "Remove the textual notes from the website too. Keep only the Dhaga, explanations and illustrations.",
+  "baseline_commit": "6da8ed72302984cbbae741a0399ba2962c2b8b75",
+  "scope": "Remove website textual notes, witness/source and origin panels; preserve 550 sayings/explanations/illustrations and 36 variant wordings with same useful explanation projection as approved book. Canonical research and published PDF unchanged.",
+  "coordinator": "Disha",
+  "reservations": {
+    "Samanta": [
+      "projects/odia-dhaga/build.py",
+      "projects/odia-dhaga/build_print.py",
+      "projects/odia-dhaga/reader_content.py",
+      "projects/odia-dhaga/test_repository.py",
+      "projects/odia-dhaga/test_print_layout.py",
+      "projects/odia-dhaga/README.md",
+      "projects/odia-dhaga/index.html",
+      "projects/odia-dhaga/reader.html",
+      "projects/odia-dhaga/sayings/",
+      "projects/site/tools/export-dhaga.mjs",
+      "projects/site/tests/dhaga-export.test.mjs"
+    ],
+    "Anvesha": "read-only dependency and preservation audit",
+    "Drishti": "independent read-only review and output evidence",
+    "Disha": [
+      "projects/site/src/pages/books.astro",
+      "shared records, Git and publishing"
+    ]
+  },
+  "publication": false,
+  "programme_credit": 0,
+  "implementation_tests": 33,
+  "preserved_pdf": {
+    "pages": 355,
+    "bytes": 190064629,
+    "sha256": "811da4dba3c2b1bff4bfd36b36c0e9fb089b3eea468d5dc1596efb399a052e33"
+  }
+}

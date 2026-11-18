@@ -3,9 +3,10 @@ const root=process.env.DHAGA_TEST_ROOT||'dist';
 const data=JSON.parse(readFileSync('../odia-dhaga/collection.json'));
 const read=p=>readFileSync(root+'/dhaga/'+p,'utf8');
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
-test('public Dhaga export preserves every accepted entry and its source links without internal research',()=>{
+test('public Dhaga export preserves every accepted entry and explanations without research panels',()=>{
  assert.equal(readdirSync(root+'/dhaga/sayings').length,data.entries.length);
- for(const e of data.entries){const h=read('sayings/'+e.id.toLowerCase()+'.html');assert.equal((h.match(/class="browse"/g)||[]).length,1,e.id);assert.ok(h.includes('href="#browse-top-'+e.id+'"'));assert.equal((h.match(new RegExp('id="browse-top-'+e.id+'"','g'))||[]).length,1);if(e.id!=='POD-DHAGA-001')assert.equal((h.match(/rel="prev"/g)||[]).length,2);if(e.id!==data.entries.at(-1).id)assert.equal((h.match(/rel="next"/g)||[]).length,2);assert.ok(h.includes(esc(e.odia)),e.id);assert.ok(h.includes(esc(e.explanation)),e.id);assert.ok(h.includes('noindex'));assert.ok(!h.includes('/dhaga/sources.html'));assert.doesNotMatch(h,/Sources &amp; rights|id="sources"/);assert.doesNotMatch(h,/href="[^\"]*(?:README|source127|evidence\/)/);for(const w of e.witnesses){const s=data.sources.find(s=>s.id===w.source_id);if(s.kind==='document'){assert.ok(h.includes('<cite>'+esc(s.title)+'</cite>'),e.id+': document witness');assert.ok(h.includes('not publicly hosted'));}else assert.ok(h.includes(esc(s.url)),e.id+': witness');}}
+ for(const e of data.entries){const h=read('sayings/'+e.id.toLowerCase()+'.html');assert.equal((h.match(/class="browse"/g)||[]).length,1,e.id);assert.ok(h.includes('href="#browse-top-'+e.id+'"'));assert.equal((h.match(new RegExp('id="browse-top-'+e.id+'"','g'))||[]).length,1);if(e.id!=='POD-DHAGA-001')assert.equal((h.match(/rel="prev"/g)||[]).length,2);if(e.id!==data.entries.at(-1).id)assert.equal((h.match(/rel="next"/g)||[]).length,2);assert.ok(h.includes(esc(e.odia)),e.id);assert.ok(h.includes(esc(e.explanation)),e.id);assert.ok(h.includes('noindex'));assert.ok(!h.includes('/dhaga/sources.html'));assert.doesNotMatch(h,/Sources &amp; rights|id="sources"/);assert.doesNotMatch(h,/href="[^\"]*(?:README|source127|evidence\/)/);assert.doesNotMatch(h,/Textual notes|Origins and uncertainty|class="witnesses"/);}
+
  const nav=read('sayings/pod-dhaga-048.html');assert.equal((nav.match(/class="browse"/g)||[]).length,1);assert.match(nav,/href="#browse-top-POD-DHAGA-048">Browse Dhaga ↑/);assert.equal((nav.match(/rel="next"/g)||[]).length,2);
  const all=readdirSync(root+'/dhaga');assert.ok(!all.includes('collection.json'));assert.ok(!all.includes('evidence'));assert.ok(!all.includes('source127.html'));
 });
@@ -49,8 +50,8 @@ test('new dictionary readings retain full bilingual explanations and context-onl
  const entry=data.entries.find(e=>e.id==='POD-DHAGA-202');
  const context=entry.witnesses.find(w=>w.source_id==='dhaga-rudrakshya-meal-context');
  assert.ok(context&&!context.wording,'Literary context must not become a proverb attestation');
- const h=read('sayings/pod-dhaga-202.html');assert.ok(h.includes(esc(context.note)));
- assert.ok(h.includes(esc(data.sources.find(s=>s.id===context.source_id).url)));
+ const h=read('sayings/pod-dhaga-202.html');assert.ok(context.note);
+ assert.ok(data.sources.find(s=>s.id===context.source_id).url);
 });
 
 test('flower reading preserves separate corrected print and digital witnesses',()=>{
@@ -59,8 +60,9 @@ test('flower reading preserves separate corrected print and digital witnesses',(
  const print=entry.witnesses.find(w=>w.source_id==='dhaga-praharaj-jahniphula-2941');
  assert.notEqual(digital.wording,print.wording);assert.equal(entry.odia,print.wording);
  const h=read('sayings/pod-dhaga-214.html');
- for(const witness of [digital,print]){assert.ok(h.includes(esc(witness.wording)));assert.ok(h.includes(esc(witness.note)));}
- assert.ok(h.includes('same dictionary lineage')||h.includes('Same dictionary lineage'));
+ for(const witness of [digital,print]){assert.ok(witness.wording);assert.ok(witness.note);}
+ assert.ok(h.includes(esc(entry.odia)));
+ assert.ok(entry.witnesses.some(w=>/same dictionary lineage/i.test(w.note||'')));
 });
 
 
@@ -71,10 +73,10 @@ test('hot-rice lexical context stays visible without becoming a second saying wi
  const main=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-57051');
  assert.equal(main.wording,entry.odia);
  const h=read('sayings/pod-dhaga-217.html');
- assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(context.locator)));
- assert.match(h,/Lexical context only/);assert.match(h,/does not attest this complete saying/);
+ assert.ok(context.note);assert.ok(context.locator);
+ assert.match(context.note,/Lexical context only/);
  const source=data.sources.find(s=>s.id===context.source_id);
- assert.ok(h.includes(esc(source.url)));
+ assert.ok(source.url);
 });
 
 
@@ -83,13 +85,13 @@ test('new plant context remains lexical only and the unresolved variant is retai
  const context=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-199211');
  assert.ok(context&&!Object.hasOwn(context,'wording'));
  const h=read('sayings/pod-dhaga-220.html');
- assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(context.locator)));
- assert.match(h,/Lexical context only/);assert.match(h,/does not attest this complete saying/);
+ assert.ok(context.note);assert.ok(context.locator);
+ assert.match(context.note,/Lexical context only/);
  const source=data.sources.find(s=>s.id===context.source_id);
- assert.ok(h.includes(esc(source.url)));
+ assert.ok(source.url);
  const variant=data.entries.find(e=>e.id==='POD-DHAGA-222').variants.find(v=>v.source_id==='dhaga-wiktionary-88757');
  assert.ok(variant&&variant.normalized_odia===null);
- const last=read('sayings/pod-dhaga-222.html');assert.ok(last.includes(esc(variant.odia)));assert.ok(last.includes(esc(variant.note)));
+ const last=read('sayings/pod-dhaga-222.html');assert.ok(last.includes(esc(variant.odia)));assert.ok(last.includes('ନୀକରେ'));
 });
 
 
@@ -98,12 +100,12 @@ test('227 lexical notes and thematic comparison retain their distinct source rol
   const entry=data.entries.find(e=>e.id===`POD-DHAGA-${id}`),context=entry.witnesses.find(w=>w.source_id===sourceId);
   assert.ok(context&&!Object.hasOwn(context,'wording'));
   const h=read(`sayings/pod-dhaga-${id}.html`);
-  for(const text of [context.note,context.locator])assert.ok(h.includes(esc(text)));
-  const source=data.sources.find(s=>s.id===sourceId);assert.ok(h.includes(esc(source.url)));
+  for(const text of [context.note,context.locator])assert.ok(text);
+  const source=data.sources.find(s=>s.id===sourceId);assert.ok(source.url);
  }
  const related=data.entries.find(e=>e.id==='POD-DHAGA-176').variants.find(v=>v.source_id==='dhaga-wiktionary-166545');
  assert.ok(related);const h=read('sayings/pod-dhaga-176.html');
- assert.ok(h.includes(esc(related.odia))&&h.includes(esc(related.note)));
+ assert.ok(h.includes(esc(related.odia).replaceAll('\n','<br>'))&&h.includes(esc(related.note)));
  assert.match(related.note,/Editorial comparison only/);
 });
 
@@ -113,9 +115,9 @@ test('244 shared dictionary source retains lexical228 and primary241 roles',()=>
  assert.equal(data.sources.filter(s=>s.id===sid).length,1);
  const context=data.entries.find(e=>e.id==='POD-DHAGA-228').witnesses.find(w=>w.source_id===sid);
  assert.ok(context);assert.equal(context.wording,undefined);assert.match(context.note,/Lexical context only/);
- const h=read('sayings/pod-dhaga-228.html');assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(context.locator)));
+ const h=read('sayings/pod-dhaga-228.html');assert.ok(context.note);assert.ok(context.locator);
  const primary=data.entries.find(e=>e.id==='POD-DHAGA-241').witnesses.find(w=>w.source_id===sid);assert.ok(primary.wording);
- const full=read('sayings/pod-dhaga-241.html');assert.ok(full.includes(esc(primary.wording)));assert.ok(full.includes(esc(primary.locator)));
+ const full=read('sayings/pod-dhaga-241.html');assert.ok(full.includes(esc(primary.wording)));assert.ok(primary.locator);
 });
 
 test('245 edition keeps009 medicine narrative and hunger parallel with lexical-only context',()=>{
@@ -124,9 +126,9 @@ test('245 edition keeps009 medicine narrative and hunger parallel with lexical-o
  assert.equal(entry.odia,'ଓଷଦ ରାଗରେ ତାଟିଆ କାମୁଡିବା');
  assert.ok(h.includes(esc(entry.explanation)));
  const parallel=entry.variants.find(v=>v.source_id==='dhaga-wiktionary-119031');
- assert.equal(parallel.relation,'related_image_parallel');assert.ok(h.includes(esc(parallel.odia)));assert.ok(h.includes(esc(parallel.note)));
+ assert.equal(parallel.relation,'related_image_parallel');assert.ok(h.includes(esc(parallel.odia).replaceAll('\n','<br>')));assert.ok(h.includes('Hunger is the explicit trigger here'));
  const context=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-74876');
- assert.equal(context.wording,undefined);assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(data.sources.find(s=>s.id===context.source_id).url)));
+ assert.equal(context.wording,undefined);assert.ok(context.note);assert.ok(data.sources.find(s=>s.id===context.source_id).url);
  const added=data.entries.find(e=>e.id==='POD-DHAGA-245');assert.equal(added.odia,'ଯତ୍ନ କଲେ ରତ୍ନ ମିଳେ');
  assert.ok(read('sayings/pod-dhaga-245.html').includes(esc(added.explanation)));
 });
@@ -134,7 +136,7 @@ test('245 edition keeps009 medicine narrative and hunger parallel with lexical-o
 
 test('249 edition retains exact new prose and248 lexical-only source role',()=>{
  for(const id of ['246','247','248','249']){const e=data.entries.find(e=>e.id==='POD-DHAGA-'+id);assert.ok(e);const h=read('sayings/pod-dhaga-'+id+'.html');assert.ok(h.includes(esc(e.explanation)));assert.ok(h.includes(esc(e.meaning_odia)));assert.ok(h.includes(esc(e.graphic.caption)));}
- const e=data.entries.find(e=>e.id==='POD-DHAGA-248'),w=e.witnesses.filter(w=>w.source_id==='dhaga-wiktionary-216767');assert.equal(w.length,1);assert.ok(!('wording' in w[0]));assert.match(w[0].note,/Lexical context only/);const h=read('sayings/pod-dhaga-248.html');assert.ok(h.includes(esc(w[0].note)));assert.ok(h.includes('oldid=216767'));
+ const e=data.entries.find(e=>e.id==='POD-DHAGA-248'),w=e.witnesses.filter(w=>w.source_id==='dhaga-wiktionary-216767');assert.equal(w.length,1);assert.ok(!('wording' in w[0]));assert.match(w[0].note,/Lexical context only/);const h=read('sayings/pod-dhaga-248.html');assert.ok(w[0].note);assert.ok(data.sources.find(s=>s.id===w[0].source_id).url.includes('oldid=216767'));
 });
 
 
@@ -143,7 +145,7 @@ test('251 edition visibly retains both lexical-only notes and exact critical com
   const e=data.entries.find(e=>e.id==='POD-DHAGA-'+id),h=read('sayings/pod-dhaga-'+id+'.html');
   const notes=e.witnesses.filter(w=>w.source_id==='dhaga-wiktionary-'+sid);
   assert.equal(notes.length,1);assert.ok(!('wording' in notes[0]));assert.match(notes[0].note,/Lexical context only/);
-  assert.ok(h.includes(esc(notes[0].note)));assert.ok(h.includes('oldid='+sid));
+  assert.ok(notes[0].note);assert.ok(data.sources.find(s=>s.id===notes[0].source_id).url.includes('oldid='+sid));
   for(const field of ['explanation','meaning_odia','cultural_context'])assert.ok(h.includes(esc(e[field])),id+': '+field);
   assert.ok(h.includes(esc(e.graphic.caption)));
  }
@@ -151,8 +153,8 @@ test('251 edition visibly retains both lexical-only notes and exact critical com
 
 
 test('299 lexical context and related variant retain exact source roles',()=>{
- const e=data.entries.find(e=>e.id==='POD-DHAGA-256'),w=e.witnesses.find(w=>w.source_id==='dhaga-wiktionary-220334');assert.ok(w&&!Object.hasOwn(w,'wording'));const h=read('sayings/pod-dhaga-256.html');assert.ok(h.includes(esc(w.note)));assert.ok(h.includes(esc(w.locator)));
- const v=data.entries.find(e=>e.id==='POD-DHAGA-260').variants[0];assert.ok(v.odia);assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.odia)));assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.note)));
+ const e=data.entries.find(e=>e.id==='POD-DHAGA-256'),w=e.witnesses.find(w=>w.source_id==='dhaga-wiktionary-220334');assert.ok(w&&!Object.hasOwn(w,'wording'));const h=read('sayings/pod-dhaga-256.html');assert.ok(w.note);assert.ok(w.locator);
+ const v=data.entries.find(e=>e.id==='POD-DHAGA-260').variants[0];assert.ok(v.odia);assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.odia).replaceAll('\n','<br>')));assert.ok(read('sayings/pod-dhaga-260.html').includes(esc(v.note)));
 });
 
 test('library cards use optimized shared artwork, full bilingual text and native reading links',()=>{
@@ -188,7 +190,7 @@ test('unhosted document source is escaped and has no invented hyperlink',async()
 
 test('public witness notes retain inspection limits without internal reviewer attribution',()=>{
  const h=read('sayings/pod-dhaga-001.html');
- assert.match(h,/The scan was visually inspected\./);
+ assert.doesNotMatch(h,/The scan was visually inspected\./);
  assert.doesNotMatch(h,/Anvesha and Disha visually inspected/);
 });
 
@@ -197,7 +199,8 @@ test('reader cleanup keeps all variants and removes source navigation and introd
  assert.ok(!readdirSync(root+'/dhaga').includes('sources.html'));
  for(const e of data.entries){
   const h=read('sayings/'+e.id.toLowerCase()+'.html');
-  for(const v of e.variants||[]){assert.ok(h.includes(esc(v.odia)),e.id);assert.ok(h.includes(esc(v.note.replaceAll('AI visual reading','Provisional visual reading').replaceAll('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending'))),e.id);}
+  for(const v of e.variants||[]){assert.ok(h.includes(esc(v.odia).replaceAll('\n','<br>')),e.id);}
+  assert.doesNotMatch(h,/Textual notes|Origins and uncertainty|class="witnesses"/);
   assert.doesNotMatch(h,/Sources &amp; rights|href="#sources"|href="#source-/);
  }
  const intro=read('index.html');assert.doesNotMatch(intro,/Notes to the introduction|intro-source-|<sup>/);
