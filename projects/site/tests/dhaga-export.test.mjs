@@ -10,8 +10,8 @@ test('public Dhaga export preserves every accepted entry and explanations withou
  const nav=read('sayings/pod-dhaga-048.html');assert.equal((nav.match(/class="browse"/g)||[]).length,1);assert.match(nav,/href="#browse-top-POD-DHAGA-048">Browse Dhaga ↑/);assert.equal((nav.match(/rel="next"/g)||[]).length,2);
  const all=readdirSync(root+'/dhaga');assert.ok(!all.includes('collection.json'));assert.ok(!all.includes('evidence'));assert.ok(!all.includes('source127.html'));
 });
-test('book navigation uses lowercase public URLs, a pinned exact PDF and retained rights',()=>{
- assert.match(read('reader.html'),/id\.toLowerCase\(\)/);const delivery=JSON.parse(readFileSync('../odia-dhaga/pdf-delivery.json'));assert.ok(read('index.html').includes('/archive/'+delivery.asset_name));assert.doesNotMatch(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/221fb5b/);assert.ok(!readdirSync(root+'/dhaga').includes('sources.html'));assert.ok(readFileSync(root+'/dhaga/assets/NotoSerifOriya-OFL.txt').length>0);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to search and Dhaga/);assert.match(read('index.html'),/href="#browse-controls"/);assert.match(read('index.html'),/id="browse-controls"/);
+test('book navigation uses lowercase reading URLs and retains source rights',()=>{
+ assert.match(read('reader.html'),/id\.toLowerCase\(\)/);const delivery=JSON.parse(readFileSync('../odia-dhaga/pdf-delivery.json'));assert.ok(!read('index.html').includes('/archive/'+delivery.asset_name));assert.match(read('index.html'),/aria-label="Read the collection"/);assert.doesNotMatch(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/221fb5b/);assert.ok(!readdirSync(root+'/dhaga').includes('sources.html'));assert.ok(readFileSync(root+'/dhaga/assets/NotoSerifOriya-OFL.txt').length>0);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to search and Dhaga/);assert.match(read('index.html'),/href="#browse-controls"/);assert.match(read('index.html'),/id="browse-controls"/);
 });
 
 test('colour cover and exact book metadata match the illustrated edition',()=>{
@@ -24,7 +24,7 @@ test('colour cover and exact book metadata match the illustrated edition',()=>{
  assert.ok(h.includes('class="book-cover" src="'+cover+'"'));
  const coverTag=h.match(/<img class="book-cover"[^>]+>/)?.[0];assert.ok(coverTag);assert.doesNotMatch(coverTag,/loading="lazy"/);
  assert.match(coverTag,/width="[1-9][0-9]*"/);assert.match(coverTag,/height="[1-9][0-9]*"/);
- assert.ok(h.includes(`Download PDF book (${packing.pdf.pages} pages, ~${Math.round(packing.pdf.bytes/1024/1024)} MB)`));
+ assert.doesNotMatch(h,/Download (?:PDF book|book)|Read or download|download the complete book/);
  assert.ok(h.includes('og:image" content="https://projectodisha.org/dhaga/'+cover));
  for(const section of data.book_intro?.sections||[])for(const paragraph of section.paragraphs){assert.ok(h.includes(esc(paragraph.odia)));assert.ok(h.includes(esc(paragraph.english)));assert.doesNotMatch(h,/intro-source-|Notes to the introduction|<sup>/);}
 });

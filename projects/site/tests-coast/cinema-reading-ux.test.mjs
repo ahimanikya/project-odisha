@@ -56,14 +56,15 @@ test('hub provides every named native part shortcut with valid targets',()=>{
  assert.ok(nav);assert.equal((nav.match(/href="#/g)||[]).length,cinema.parts.length);assert.equal(new Set(cinema.parts.map(p=>p.id)).size,cinema.parts.length);
  for(const part of cinema.parts){assert.ok(nav.includes('href="#'+part.id+'"'));assert.ok(html.includes('id="'+part.id+'"'));}
 });
-test('current dated downloads and sizes appear before the cover, prior edition remains explicit',()=>{
+test('the book landing preserves online reading paths without download or printing controls',()=>{
  const html=read('/cinema/book/');
- for(const book of cinema.review_books){const linkAt=html.indexOf('href="'+book.file+'"');assert.ok(linkAt>=0,book.edition+' download exists');assert.ok(linkAt<html.indexOf('class="book-cover"'));assert.ok(html.includes(book.pages+' pages'));assert.ok(html.includes((book.bytes/1e6).toFixed(1)+' MB'));}
- const formatDate=date=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(date+'T00:00:00Z'));
+ for(const book of [...cinema.review_books,...cinema.archived_review_books,cinema.standalone_intro])assert.ok(!html.includes('href="'+book.file+'"'));
+ assert.ok(html.includes('href="/cinema/the-question-that-brought-me-here/"'));
+ assert.ok(html.includes('href="/cinema/"'));assert.ok(html.includes('href="/cinema/watch/"'));
+ assert.ok(html.includes(cinema.articles.length+' readings'));assert.ok(html.includes('class="book-cover"'));
+ assert.match(html,/Documentary images retain their credits and reuse terms/);
+ const visible=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
+ assert.doesNotMatch(visible,/Available PDF edition|Printing the book|Earlier published edition|PDF download|standalone PDF/);
  const current=cinema.review_books[0];assert.notEqual(current.status,'local_review_candidate','production coast remains published');
- assert.ok(html.includes('Available PDF edition · '+formatDate(current.edition_date)));assert.ok(html.includes(current.readings+' readings'));
- for(const date of new Set(cinema.archived_review_books.map(book=>book.edition_date)))assert.ok(html.includes('Earlier published edition · '+formatDate(date)));
- assert.ok(html.includes('Earlier published edition · 26 October 2026'));
- for(const book of cinema.archived_review_books){assert.ok(html.includes('href="'+book.file+'"'));assert.ok(!cinema.review_books.some(current=>current.file===book.file));}
- assert.match(html,/not a printer-specific press-ready PDF/);assert.match(html,/not tagged accessibility editions/);
+ for(const book of cinema.archived_review_books)assert.ok(!cinema.review_books.some(current=>current.file===book.file));
 });

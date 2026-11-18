@@ -22,7 +22,7 @@ test('all chapter sources resolve and return to a unique citation, with adjacent
   for(const image of c.images){assert.ok(html.includes(image.src));assert.ok(html.includes(escapeHTML(image.source)));assert.ok(html.includes(escapeHTML(image.license_url)));assert.ok(existsSync('public'+image.src));}
   if(index>0)assert.ok(html.includes(`href="${book.route}${book.chapters[index-1].slug}/"`));
   if(index<47)assert.ok(html.includes(`href="${book.route}${book.chapters[index+1].slug}/"`));
-  assert.ok(html.includes(`${book.download.file}#page=${c.startPage+1}`));
+  assert.ok(!html.includes(book.download.file));assert.ok(html.includes(`${book.route}#contents`));
   assert.match(html,/<nav[^>]*aria-label="Breadcrumbs"/);assert.match(html,/aria-current="page">Chapter/);
  }
 });

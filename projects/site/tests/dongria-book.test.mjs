@@ -13,7 +13,7 @@ test('book companion preserves complete author opening, preface, closing and six
  for(const key of ['author_note','preface','closing'])for(const p of reading[key].paragraphs)assert.ok(plain(page).includes(p.replace(/\s+/g,' ').trim()),p);
  assert.equal(reading.glossary.length,16);
  for(const e of reading.glossary){assert.ok(page.includes(e.source_url.replaceAll('&','&amp;'))||page.includes(e.source_url));assert.ok(plain(page).includes(e.definition));}
- assert.ok(page.includes(book.file));assert.ok(page.includes(String(book.pages)+' pages'));
+ assert.ok(!page.includes(`href="${book.file}"`));assert.ok(page.includes(String(book.pages)+' pages'));
  assert.ok(page.includes('I have not yet visited Niyamgiri.'));
  assert.ok(page.includes('translator unnamed'));
 });
@@ -37,10 +37,10 @@ test('public book media use only approved plates and one contextual supplementar
 });
 
 
-test('Dongria PDF is an exact same-origin document linked from both book entrances',()=>{
+test('Dongria PDF bytes stay intact while book entrances offer online reading',()=>{
  assert.equal(book.file,'/archive/dongria-kondh-public-reading.pdf');
  const scope=JSON.parse(read('editions/coast.json'));assert.ok(scope.documents.includes(book.file));
  for(const root of ['public','dist']){const bytes=readFileSync(root+book.file);assert.equal(bytes.length,book.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),book.sha256);}
- for(const route of ['dist/stories/dongria/index.html','dist/stories/dongria/book/index.html'])assert.ok(read(route).includes(`href="${book.file}"`));
+ for(const route of ['dist/stories/dongria/index.html','dist/stories/dongria/book/index.html'])assert.ok(!read(route).includes(`href="${book.file}"`));
  assert.ok(page.includes('A shawl bought at a dinner party with friends'));assert.ok(!page.includes('supper club'));
 });

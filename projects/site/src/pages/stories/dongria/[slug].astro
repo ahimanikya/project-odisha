@@ -25,7 +25,7 @@ const nextLink=next?{href:route(next),title:next.title,image:next.image,descript
 
 <nav class="dongria-sequence" aria-label="Chapter reading sequence"><a href={previousLink.href} rel="prev"><span>Previous</span>← {previousLink.title}</a><a href={nextLink.href} rel="next"><span>Next</span>{nextLink.title} →</a></nav>
 <ArticleReadingPath heading="Continue reading" links={[nextLink]} uniformImages containImages/>
-<nav class="series-nav" aria-label="Collection links"><a href="/stories/dongria/">All stories</a><a href="/stories/dongria/book/">The book and download</a></nav>
+<nav class="series-nav" aria-label="Collection links"><a href="/stories/dongria/">All stories</a><a href="/stories/dongria/book/">Read the book online</a></nav>
 <section class="suggest-update"><h2>Suggest an update</h2><p><a href={`/contribute/?page=${encodeURIComponent(`/stories/dongria/${article.routeSlug || article.slug}/`)}`}>Share a correction or source for this article</a>.</p><p>GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
 </article>
 </Shell>
