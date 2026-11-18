@@ -1,0 +1,34 @@
+{
+  "id": "POD-DHAGA-062",
+  "review_sha256": "b66fb311d190f830ef5cb1e8878b9d6aae98f02306e14551c6ea483c6b2cd445",
+  "before_file_sha256": "603ca8437deafad4275e8e59360ac5fc4089fc1752c336b4a0d4730eabf720b5",
+  "after_file_sha256": "eaca8dabc47afe176ad88240f3c6a68df099263a36915ffa1395785169ce3230",
+  "changed_fields": [
+    "literal_meaning"
+  ],
+  "actual_status": "applied_independent_review_correction",
+  "checks": [
+    "Exact review and baseline preimage matched",
+    "Only explicitly proposed fields changed",
+    "Source wording, witnesses, rights and artwork preserved"
+  ],
+  "independent_review": "PASS",
+  "revisions": [
+    {
+      "reviewer": "Drishti AI",
+      "request": "Restore explicit opening being swept away midstream in literal translation",
+      "before_file_sha256": "603ca8437deafad4275e8e59360ac5fc4089fc1752c336b4a0d4730eabf720b5",
+      "after_file_sha256": "eaca8dabc47afe176ad88240f3c6a68df099263a36915ffa1395785169ce3230",
+      "field": "literal_meaning",
+      "before": "I pulled you from the river; now your hollow cheeks have filled out and you answer me back.",
+      "after": "You were being swept away in midstream; I pulled you out. Now your hollow cheeks have filled out, and you answer me back.",
+      "previous_status": "verified_no_change",
+      "coherence_check": "Restores source opening and preserves rescue, filled cheeks and answering-back contrast."
+    }
+  ],
+  "initial_independent_review": "pending",
+  "independent_review_sha256": "884bcd0a8a4bcb33a881ff96521ed24e681cb52d65202ae7a1e78ab64dccb2c7",
+  "final_changed_fields": [
+    "literal_meaning"
+  ]
+}

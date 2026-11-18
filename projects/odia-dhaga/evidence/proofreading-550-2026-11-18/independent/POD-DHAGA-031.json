@@ -1,0 +1,41 @@
+{
+  "id": "POD-DHAGA-031",
+  "input_after_sha256": "8b8785d23a929438193c42e42ae55692a4b436932d4177f8bd7beb167d0a5ee2",
+  "reviewer": "Drishti AI",
+  "fields_reviewed": [
+    "odia",
+    "meaning_odia",
+    "odia_summary",
+    "title",
+    "literal_meaning",
+    "explanation",
+    "usage_example",
+    "cultural_context",
+    "english_summary",
+    "variants",
+    "witnesses",
+    "origin_note",
+    "editorial_status"
+  ],
+  "assessment": "Independently inspected OdishaLIVE related-proverb usage supports explicit missing-vowel correction ଦରପଡ଼ା→ଦରପୋଡ଼ା. Actual final headword, literal, full Odia and English/context reread: half-burnt wood and first-person resistance are coherent, without claiming people cannot change. Obsolete lexical uncertainty removed consistently. Original witness remains verbatim and editorial_corrections records the repair/evidence. No claim of exact full-string independent attestation.",
+  "findings": [],
+  "status": "PASS",
+  "review_scope": "Personally read complete listed fields, compared baseline and applied change plus recorded witness context. AI editorial review; not human or native-speaker certification.",
+  "baseline_sha256": "6f8ddbe0f26c0733aeddcdbbd99f061f365c55572e37176cfee3038f0d5e656f",
+  "review_history": [
+    {
+      "input_after_sha256": "70bf5f7cbff6b5f1ce1496afe14bca009a4617ef6a833f65dae2b1897f1302ee",
+      "status": "REVIEWED_UNRESOLVED",
+      "findings": [
+        {
+          "field": "literal_meaning",
+          "kind": "retained_source_query",
+          "issue": "ଦରପଡ଼ା exact lexical sense remains unresolved; half-burnt is now explicitly provisional.",
+          "action": "Retain qualification; no silent source repair."
+        }
+      ],
+      "assessment": "Adding Provisional reading to the literal correctly exposes the already documented uncertainty in ଦରପଡ଼ା rather than presenting half-burnt as certain. Polishing/refusal interpretation, first-person stance and both summaries remain coherent. Exact lexical equivalence remains unresolved, not a newly verified repair."
+    }
+  ],
+  "followup_evidence": "queries/031-independent-lexical-followup.json"
+}
