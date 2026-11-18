@@ -1,0 +1,62 @@
+{
+  "id": "POD-DHAGA-528",
+  "baseline_sha256": "da56f60e93edcd257092abf9ba34f15bb38829a5e8908d34257384f80c508ddc",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Does pidha mean a stool, roof or growing support in the gourd image?",
+  "evidence_inspected": [
+    {
+      "capture": "output/dhaga-sequential-2026-11-16/hundred-ninety-seventh-research.json",
+      "inspection": "Full source and original literary contextual evidence reread; corrected Srinibas Samal authorship preserved."
+    },
+    {
+      "local_query": "tools/research/query_research.py ନିରିମାଇଲ ମାଠିବା ପିଢା ଦେବା ଦେବା --json",
+      "result": "No additional registered research."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ପିଢ଼ା",
+      "access": "Direct headword inaccessible. New pidha/roof targeted query did not yield an exact headword definition. Parent original scan requested."
+    },
+    {
+      "url": "https://shubhapallaba.in/tathapi-mo-gaon-hasuchi/",
+      "evidence_role": "Previously inspected direct poem explicitly associates missing pidha with gourd not spreading; supports broad growing-support context, not a particular structure."
+    },
+    {
+      "path": "/private/tmp/dhaga-v4-p1213.png",
+      "locator": "Purnachandra vol4 printed4837, ପିଢ଼ା lower-left continuing upper-right senses3–4",
+      "finding": "Personally inspected original: ridge of a thatch and outer portion of house thatch, alongside stool senses. Roof meaning is independently lexical."
+    }
+  ],
+  "reasoning": "The original roof senses and already documented gourd-on-pidha literary context jointly support thatched roof. A particular roof structure is unnecessary; broad roof translation resolves the image without inventing a stool or trellis. Preserve uploaded spelling.",
+  "status": "resolved_contextually",
+  "remaining_limits": [
+    "No exact roof geometry or origin is specified; no textual repair proposed."
+  ],
+  "changes": [
+    {
+      "field": "literal_meaning",
+      "before": "Shameless gourd! When lifted up, you go onto the pidha.",
+      "after": "Shameless gourd! When lifted up, you go onto the thatched roof.",
+      "reason": "Attested roof sense fits plant context."
+    },
+    {
+      "field": "meaning_odia",
+      "before": "ଲାଉକୁ ନିଲଜ ବୋଲି ସମ୍ବୋଧନ କରି କଥକ କହୁଛନ୍ତି, ଟେକି ଦେଲେ ସେ ପିଢ଼ାକୁ ଯାଏ। ଆମ ସମ୍ପାଦକୀୟ ପାଠରେ ଏହା ଅନ୍ୟର ସାହାଯ୍ୟରେ ଉପରକୁ ଉଠିବା ଉପରେ ଏକ କଟାକ୍ଷ। ଏଠାରେ ପିଢ଼ାକୁ ସମ୍ପାଦକୀୟ ପାଠରେ ଲାଉ ମାଡ଼ିବାର ଚାଳ ବା ଆଧାର ଭାବେ ବୁଝାଯାଇଛି; ନିର୍ଦ୍ଦିଷ୍ଟ ଗଠନ ସ୍ପଷ୍ଟ ନୁହେଁ। ସାହାଯ୍ୟ ଦରକାର ହେବାକୁ ନିଜେ ଲଜ୍ଜାର ବିଷୟ ବୋଲି ଧରାଯାଇନାହିଁ।",
+      "after": "ଲାଉକୁ ନିଲଜ ବୋଲି ସମ୍ବୋଧନ କରି କଥକ କହୁଛନ୍ତି, ଟେକି ଦେଲେ ସେ ଚାଳକୁ ଯାଏ। ଏହା ଅନ୍ୟର ସାହାଯ୍ୟରେ ଉପରକୁ ଉଠିବା ଉପରେ ଏକ କଟାକ୍ଷ। ଏଠାରେ ପିଢ଼ାର ଅର୍ଥ ଘରର ଚାଳ। ସାହାଯ୍ୟ ଦରକାର ହେବାକୁ ନିଜେ ଲଜ୍ଜାର ବିଷୟ ବୋଲି ଧରାଯାଇନାହିଁ।",
+      "reason": "Resolve contextual roof sense, preserve source-attributed taunt."
+    },
+    {
+      "field": "cultural_context",
+      "before": "The verse turns an ordinary lifting action into an exchange with a gourd. Pidha is retained in translation and read here as a roof or growing support; its precise structure remains uncertain.",
+      "after": "The verse personifies a gourd being lifted onto a thatched roof. Its teasing voice makes dependence on another person’s help the point of the image.",
+      "reason": "Remove now-unnecessary unresolved structure label; do not invent a specific construction."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

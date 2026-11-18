@@ -3,7 +3,7 @@
 # Explicit reader projections avoid treating mixed research notes as expendable prose.
 VARIANT_EXPLANATION_END = {
     ('034',1): ' Source:', ('064',1): ' Source:', ('092',1): ' Source:',
-    ('099',1): ' Rendered page31', ('176',2): ' Rendered upload',
+    ('099',1): ' Original uploaded final word', ('176',2): ' Rendered upload',
     ('231',1): ' Rendered page inspected', ('363',1): ' Locator:',
     ('376',1): ' Uploaded page31', ('403',1): ' Source:',
     ('406',1): ' Name reference:', ('461',1): ' Source:',
@@ -31,7 +31,7 @@ VARIANT_SHORT_EXPLANATIONS = {
     ('178',1): ['Paired by the source with the same complete-destruction gloss; its separate literal image is not resolved here.'],
     ('187',1): ['Separately worded thematic parallel: visible marks versus concealed wrongdoing.', 'Source does not identify the marks, a religion, caste or actual person. Do not infer ritual details.'],
     ('195',1): ['Separately worded refusal parallel: declining provision and declining praise.'],
-    ('222',1): ['ନୀକରେ unresolved.'],
+    ('222',1): ['Printed variant: “Among the ornaments, a neem twig has a place in the nose.” ଅଳଙ୍କାରମାନଙ୍କ ମଧ୍ୟରେ ନାକରେ ନିମକାଠିର ସ୍ଥାନ ଅଛି।'],
 }
 
 def variant_explanation(ident, number, variant):

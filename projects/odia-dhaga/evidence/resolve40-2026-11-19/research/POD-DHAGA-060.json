@@ -1,0 +1,63 @@
+{
+  "id": "POD-DHAGA-060",
+  "baseline_sha256": "0a2f4b575ce7b01e4753667056c266e34cfead210691579d0d24c7938328995e",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "What is the precise wordwise force of opening ଅଲାଜୁକ ଷାଠିଆ?",
+  "evidence_inspected": [
+    {
+      "capture": "projects/odia-dhaga/entries/POD-DHAGA-060.json",
+      "access": "Full entry and empty variants read."
+    },
+    {
+      "capture": "projects/odia-dhaga/evidence/proofreading-550-2026-11-18/queries/060-followup.json",
+      "access": "Prior exact-term searches found no applicable definition."
+    },
+    {
+      "tool": "query_research.py",
+      "query": "ଷାଠିଆ",
+      "result": "No mapped records/tasks."
+    },
+    {
+      "url": "https://incubator.wikimedia.org/wiki/Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ",
+      "locator": "item9 lines123–124, oldid4144125",
+      "access": "Fresh complete item and gloss read19November2026",
+      "finding": "Exact opening retained; gloss says shameless outward false bravado. No ornate pouch, giving action or wordwise definition."
+    },
+    {
+      "queries": [
+        "site.or.wiktionary.org ଷାଠିଆ",
+        "ଶାଠିଆ ଅଭିଧାନ"
+      ],
+      "access": "Returned results inspected; rice and surname contexts not applicable."
+    },
+    {
+      "urls": [
+        "https://or.wiktionary.org/wiki/ଷାଠିଆ",
+        "https://or.wiktionary.org/wiki/ଶାଠିଆ",
+        "https://or.wiktionary.org/wiki/ଅଲାଜୁକ"
+      ],
+      "access": "Direct dictionary requests inaccessible; no definitions claimed."
+    }
+  ],
+  "reasoning": "The directly inspected source gives enough evidence for shameless show-off as a whole-expression rendering, but not the exact separate sense of ଷାଠିଆ. Do not normalize it to another spelling or infer a name/rice reference. Fresh reading also shows the existing Odia explanation adds decoration of the pouch and intent to give, neither stated in source; simplify that clause while keeping lexical uncertainty privately and in current cultural-context qualification.",
+  "status": "unresolved",
+  "remaining_limits": [
+    "Exact opening wordwise gloss remains unresolved; overall false-bravado interpretation is explicitly sourced."
+  ],
+  "changes": [
+    {
+      "field": "meaning_odia",
+      "before": "ଥଳିର ସଜସଜ୍ଜା ଦିଶୁଛି, କିନ୍ତୁ ଦେବା ପାଇଁ ଭିତରେ ପାନଗୁଆ ନାହିଁ। ବାହାରର ଆଡ଼ମ୍ବର ସହ ଭିତରର ଅଭାବକୁ ଏକାଠି ରଖି କଥାଟି ମଜା କରେ। ଦେଖାଣି ଅପେକ୍ଷା ପ୍ରକୃତ ସମ୍ବଳ ମୁଖ୍ୟ ବୋଲି ବୁଝାଯାଇପାରେ; ଆରମ୍ଭର ସବୁ ଶବ୍ଦର ସୂକ୍ଷ୍ମ ଅର୍ଥ ଏଠାରେ ନିଶ୍ଚିତ ହୋଇନାହିଁ।",
+      "after": "ବଟୁଆ ଅଛି, କିନ୍ତୁ ଭିତରେ ପାନଗୁଆ ନାହିଁ। ବାହାରର ଆଡ଼ମ୍ବର ସହ ଭିତରର ଅଭାବକୁ ଏକାଠି ରଖି କଥାଟି ମଜା କରେ। ଦେଖାଣି ଅପେକ୍ଷା ପ୍ରକୃତ ସମ୍ବଳ ମୁଖ୍ୟ ବୋଲି ବୁଝାଯାଇପାରେ।",
+      "reason": "Remove unsupported decorated-pouch/giving details and research-process tail; source overall gloss supports the plain explanation. Lexical limitation remains in dossier and existing cultural context."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

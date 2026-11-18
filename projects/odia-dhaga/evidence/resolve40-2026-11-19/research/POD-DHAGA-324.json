@@ -1,0 +1,62 @@
+{
+  "id": "POD-DHAGA-324",
+  "baseline_sha256": "538a9c0747f4dcf0a4155c543228fc9a1012dab2a874ae9addbf249135476f20",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Is address ମାଇ ପଡ଼ିଶା genuine or misread ସାଇ ପଡ଼ିଶା?",
+  "evidence_inspected": [
+    {
+      "locator": "projects/odia-dhaga/evidence/expansion358-2026-11-07/captures/dhaga-wiktionary-83906.txt",
+      "finding": "Full headword ଧାଇଁ ପଡ଼ିବା read: many people assemble by running from different distances. Exact digital quote has ମାଇ."
+    },
+    {
+      "locator": "query_research.py ମାଇ ପଡ଼ିଶା; fresh exact quote, address and opening searches",
+      "finding": "No exact independent counterpart or reusable record; ordinary ସାଇ ପଡ଼ିଶା usage alone cannot justify substitution."
+    },
+    {
+      "capture": "/private/tmp/dhaga-v4-p371.png",
+      "locator": "Purnachandra Bhashakosha volume4, printed3995, PDF371, top-left quotation under ଧାଇଁ ପଡ଼ିବା",
+      "inspection": "Personally inspected original image: address reads ସାଇ ପଡ଼ିଶା, not digitized ମାଇ ପଡ଼ିଶା. Definition explicitly describes people running to assemble."
+    }
+  ],
+  "reasoning": [
+    "Original scan resolves the suspect initial letter as ସ. The address is to the neighborhood and neighbors; no gender or spouse must be inferred. Repair only the erroneous digitized word, preserving digital witness. The appeal does not narrate its outcome."
+  ],
+  "status": "source_transcription_resolved",
+  "remaining_limits": [
+    "No historical incident or response to the call established."
+  ],
+  "changes": [
+    {
+      "field": "odia",
+      "before": "ଗାଆଁ ମୁଣ୍ଡେ କଲି ଘର, ଧାଇଁ ପଡ଼ହୋ ମାଇ ପଡ଼ିଶା ମୋ ଘରେ ପଶିଛି ଚୋର",
+      "after": "ଗାଆଁ ମୁଣ୍ଡେ କଲି ଘର, ଧାଇଁ ପଡ଼ହୋ ସାଇ ପଡ଼ିଶା ମୋ ଘରେ ପଶିଛି ଚୋର",
+      "reason": "Original printed quotation supports ସାଇ; digital witness remains unchanged."
+    },
+    {
+      "field": "literal_meaning",
+      "before": "Provisional rendering: I built a house at the village’s edge; come running, neighbors—a thief has entered my house.",
+      "after": "I built a house at the village’s edge; come running, neighbors—a thief has entered my house.",
+      "reason": "Resolved address removes provisional label."
+    },
+    {
+      "field": "meaning_odia",
+      "before": "ବକ୍ତା ଗାଁ ମୁଣ୍ଡରେ ନିଜ ଘର କଥା କହି ଚୋର ପଶିଥିବା ଜଣାଇ ଅନ୍ୟମାନଙ୍କୁ ଡାକୁଛନ୍ତି। ଶବ୍ଦର ଅର୍ଥରେ ଲୋକେ ଦଉଡ଼ି ଆସି ଏକାଠି ହେବା କଥା ଅଛି। ଆମ ପାଠ ନିଜ ଘର କଥାରୁ ପଡ଼ୋଶୀଙ୍କୁ ଡାକିବାର ମୋଡ଼କୁ ଦେଖେ। କେହି ଆସିଲେ କି ବା ସତରେ ଚୋର ପଶିଥିଲା କି, ଧାଡ଼ିଟି ପ୍ରମାଣ କରେନାହିଁ। ସମ୍ବୋଧନର ମାଇ ଶବ୍ଦର ଭୂମିକା ଅନିଶ୍ଚିତ ରହିଛି।",
+      "after": "ବକ୍ତା ଗାଁ ମୁଣ୍ଡରେ ନିଜ ଘର କଥା କହି ଚୋର ପଶିଥିବା ଜଣାଇ ସାଇପଡ଼ିଶାଙ୍କୁ ଦଉଡ଼ି ଆସିବାକୁ ଡାକୁଛନ୍ତି। ନିଜ ଘରର ସଙ୍କଟରେ ପଡ଼ୋଶୀଙ୍କ ସାହାଯ୍ୟ ଲୋଡ଼ିବାର ସ୍ୱର ଏଥିରେ ଅଛି। କେହି ଆସିଲେ କି ନାହିଁ, ଧାଡ଼ିଟି କହେନାହିଁ।",
+      "reason": "Corrected address gives a complete plain explanation without unresolved digital typo."
+    },
+    {
+      "field": "cultural_context",
+      "before": "Exact ମାଇ ପଡ଼ିଶା is retained; the vocative nuance is uncertain. No spouse, gender, actual crime or universal settlement practice is established.",
+      "after": "The call reaches outward from one household to its neighbors. The verse leaves their response unstated.",
+      "reason": "Original printed address resolves earlier vocative uncertainty; no invented settlement custom."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

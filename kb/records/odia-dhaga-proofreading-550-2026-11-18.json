@@ -1,5 +1,5 @@
 {
-  "status": "release_asset_published_site_validation",
+  "status": "published_and_live_verified",
   "authorization_quote": "Proofread all 550 Dhagas one by one and fix any Odia spelling or explanation issues.",
   "baseline_commit": "950a1ce7a8503a79589a40ddeb1f8759112c374c",
   "scope": "Review 001–550 in order, each Odia saying/summary/meaning and literal/explanation/usage/context plus variants. Correct supported spelling, grammar and meaning issues; preserve dialect, source quotations, artwork and notes-free reader layout. Record uncertainty separately; no invented human proofreading. Rebuild website and book after reviewed fixes.",
@@ -38,7 +38,7 @@
       "REVIEWED_UNRESOLVED": 40
     }
   },
-  "publication": false,
+  "publication": true,
   "programme_credit": 0,
   "review_result": {
     "individual_first_reviews": 550,
@@ -85,5 +85,42 @@
     "pages": 355,
     "entries": 550
   },
-  "generated_output_review": "PASS_GENERATED_OUTPUT_LOCAL"
+  "generated_output_review": "PASS_GENERATED_OUTPUT_LOCAL",
+  "reviewed_head": "a53faab53b1b01ef7a38d199518960b921d1e143",
+  "merge_commit": "4587cd4b791d8ae09446c7a5eb0069db0d125fb2",
+  "pull_request": 790,
+  "ci_run": 44354339805,
+  "deployment_run": 44357885165,
+  "validation": {
+    "focused_tests": 33,
+    "pdf_delivery_tests": 14,
+    "full_site_tests": 778,
+    "public_edition_tests": 597,
+    "independent_final_artifact": "PASS_FINAL_ARTIFACT_REVIEW",
+    "publication_bytes": 972622569,
+    "publication_files": 3375,
+    "disclosure_pages": 1408,
+    "disclosure_violations": 0,
+    "ci": "success",
+    "deployment": "success"
+  },
+  "scope_released": true,
+  "live_website": {
+    "status": "PASS_LIVE_PROOFREAD_COLLECTION",
+    "readings_checked": 550,
+    "illustrations_checked": 550,
+    "variants_checked": 36,
+    "primary_content_and_variant_explanations_retained": true,
+    "textual_notes_panels_absent": true,
+    "download_filename": "odia-dhaga-550-3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd.pdf"
+  },
+  "live_pdf": {
+    "status": "PASS_LIVE_PDF_EXACT",
+    "bytes": 190063906,
+    "pages": 355,
+    "sha256": "3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd",
+    "url": "https://projectodisha.org/archive/odia-dhaga-550-3ec233e2d8f64659fcc15535421618cfbf8e9da9bf1f8be211244715db0388fd.pdf"
+  },
+  "completion": "All550 entries individually reviewed in two separate AI passes;55 corrected,495 unchanged;40 retain disclosed interpretive/lexical qualifications. Website and book published and verified.",
+  "follow_up": "Retained lexical questions are documented in independent-summary.json; no outstanding required proofreading patches. No human/native-speaker certification claimed."
 }

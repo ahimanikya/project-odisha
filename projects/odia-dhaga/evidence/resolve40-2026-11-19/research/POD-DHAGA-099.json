@@ -1,0 +1,67 @@
+{
+  "id": "POD-DHAGA-099",
+  "baseline_sha256": "e063343f949c4bfbe2d534bcf07b92c0b0246439bf54bdbf23b3e74baea976da",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Is variant final ଭଲେ defective for ଭାଲେ, and can the complete clause be rendered without an omitted term?",
+  "evidence_inspected": [
+    {
+      "capture": "projects/odia-dhaga/entries/POD-DHAGA-099.json",
+      "access": "Full entry and entire variant read."
+    },
+    {
+      "capture": "output/dhaga-sequential-2026-11-16/two-hundred-twenty-second-research.json",
+      "access": "Prior indexed counterpart and failed dictionary request read."
+    },
+    {
+      "tool": "query_research.py",
+      "query": "ଭଲେ",
+      "result": "No mapped records/tasks."
+    },
+    {
+      "capture": "tmp/dhaga-comparison-20261116/page-31.png",
+      "access": "Personally viewed19November2026; final word visibly ଭଲେ."
+    },
+    {
+      "url": "https://odishasambad.in/saradshashi-a-story-for-children-by-namita-paikray-2/",
+      "locator": "Concluding paragraph line120",
+      "access": "Directly opened and read19November2026",
+      "finding": "Quotes closely matching couplet with final ଭାଲେ, in explicit consideration-before-action context; uses କର୍ମ not uploaded କାର୍ଯ୍ୟ."
+    },
+    {
+      "url": "https://odiapedia.com/language/dictionary/ଭାଲ",
+      "access": "Indexed dictionary definition read; direct open cache miss",
+      "finding": "Forehead and luck/lot/fortune senses explicitly returned."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ଭାଲ",
+      "access": "Direct request inaccessible; not claimed inspected."
+    }
+  ],
+  "reasoning": "Fresh direct counterpart inspection improves on the earlier search excerpt. Its final ଭାଲେ supplies a minimal missing-vowel correction; lexical forehead/fortune senses make the locative clause coherent. Fall to one’s lot is a natural complete English rendering, without awkward invented physical impact on a forehead. Do not import counterpart କର୍ମ or change any other source word. Preserve original ଭଲେ in variant note as provenance and flag reader_content projection for regeneration.",
+  "status": "supported_text_repair",
+  "remaining_limits": [
+    "Dictionary full page inaccessible; indexed senses support the directly inspected literary counterpart. Earliest form and lineage remain unknown."
+  ],
+  "changes": [
+    {
+      "field": "variants.0.odia",
+      "before": "ବୁଝି ବିଚାରି କାର୍ଯ୍ୟ କଲେ\nପ୍ରମାଦ ନପଡ଼ଇ ଭଲେ।",
+      "after": "ବୁଝି ବିଚାରି କାର୍ଯ୍ୟ କଲେ\nପ୍ରମାଦ ନପଡ଼ଇ ଭାଲେ।",
+      "reason": "Minimal missing-vowel repair supported by directly inspected published counterpart and lexical sense."
+    },
+    {
+      "field": "variants.0.note",
+      "before": "Related-family wording grouped editorially with POD-DHAGA-099 for deliberation before action to avert trouble; no textual descent asserted. Literal reading: If you act with understanding and consideration, misfortune will not befall you. Odia meaning: ବୁଝି ବିଚାରି କାମ କଲେ ପ୍ରମାଦ ପଡ଼େ ନାହିଁ ବୋଲି ପଙ୍କ୍ତି କହୁଛି। ଏହାକୁ ଆମେ କାମର ଅର୍ଥ ଓ ପରିଣାମ ବିଚାର କରି ଆଗେଇବାର ପରାମର୍ଶ ଭାବେ ପଢ଼ୁଛୁ। ବିଚାର କଲେ ସବୁ ବିପଦ ନିଶ୍ଚୟ ଦୂର ହେବ ବୋଲି ନୁହେଁ। ମୂଳର ଭଲେ ଶବ୍ଦଟି ରଖାଯାଇଛି; ଅନୁବାଦରେ ସମ୍ପୂର୍ଣ୍ଣ ଶେଷ ପଙ୍କ୍ତିକୁ ପ୍ରସଙ୍ଗ ଅନୁସାରେ ବିପଦ ନପଡ଼ିବା ଅର୍ଥରେ ନିଆଯାଇଛି। Interpretive reading: Understanding and consideration come before the action. Our editorial reading takes the couplet as encouragement to think through a situation and its consequences before proceeding. Its categorical promise gives the advice force; thoughtful action can still meet unforeseen trouble. Exact uploaded ଭଲେ retained without correction. Its precise final-word nuance remains uncertain; the whole clause is translated contextually as misfortune not befalling one, without adding forehead imagery. Rendered page31 inspected17November2026; source quotation has unknown rights and is excluded from the collection’s original editorial-content licence.",
+      "after": "Related-family wording grouped editorially with POD-DHAGA-099 for deliberation before action to avert trouble; no textual descent asserted. Literal reading: If you act with understanding and consideration, misfortune will not fall to your lot. Odia meaning: ବୁଝି ବିଚାରି କାମ କଲେ ପ୍ରମାଦ ପଡ଼େ ନାହିଁ ବୋଲି ପଙ୍କ୍ତି କହୁଛି। ଏହାକୁ ଆମେ କାମର ଅର୍ଥ ଓ ପରିଣାମ ବିଚାର କରି ଆଗେଇବାର ପରାମର୍ଶ ଭାବେ ପଢ଼ୁଛୁ। ବିଚାର କଲେ ସବୁ ବିପଦ ନିଶ୍ଚୟ ଦୂର ହେବ ବୋଲି ନୁହେଁ। ଭାଲ ଅର୍ଥ କପାଳ ବା ଭାଗ୍ୟ; ଏଠାରେ ନିଜ ଭାଗରେ ବିପଦ ନପଡ଼ିବାର ଚିତ୍ର ଅଛି। Interpretive reading: Understanding and consideration come before the action. Our editorial reading takes the couplet as encouragement to think through a situation and its consequences before proceeding. Its categorical promise gives the advice force; thoughtful action can still meet unforeseen trouble. Original uploaded final word ଭଲେ is preserved here as evidence; display repairs it to ଭାଲେ using the published counterpart in Namita Paikray’s story at https://odishasambad.in/saradshashi-a-story-for-children-by-namita-paikray-2/ (concluding paragraph, inspected19November2026). The counterpart differs elsewhere (କର୍ମ rather than କାର୍ଯ୍ୟ); only the missing vowel is repaired. ଭାଲ means forehead or fortune; falling to one’s lot carries the latter sense naturally. Rendered page31 inspected17November2026; source quotation has unknown rights and is excluded from the collection’s original editorial-content licence.",
+      "reason": "Update literal/meaning after supported repair, preserve original spelling and source differences internally; refresh exact-excerpt reader projection."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

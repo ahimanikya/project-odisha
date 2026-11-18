@@ -1,0 +1,51 @@
+{
+  "id": "POD-DHAGA-222",
+  "research_sha256": "38e67b200cbce292b38d35f27b1d69d463576b4a5c39694a54f25de8c2cb240b",
+  "review_sha256": "39609bc9dbf754ea24010cf111405035c6266d3a5517f1b3e839b1a98a2708cf",
+  "review_status": "APPROVED",
+  "before_file_sha256": "4c556abbb91ec48e9ec50b8ec08c85d82387cde7e18580e515d0ae674acf0c58",
+  "after_file_sha256": "94dd35cb09a27cd6f951ca73847bddf553b9a9fb70f3bbada1a9f5dba5e8899e",
+  "changed_fields": [
+    "variants.0.odia",
+    "variants.0.note",
+    "cultural_context"
+  ],
+  "changes": [
+    {
+      "field": "variants.0.odia",
+      "before": "ଅଳଙ୍କାର ମଧ୍ୟେ ନୀକରେ ନିମ୍ୱକାଠି ଥାନେ",
+      "after": "ଅଳଙ୍କାର ମଧ୍ୟେ ନାକରେ ନିମକାଠି ଥାନେ",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    },
+    {
+      "field": "variants.0.note",
+      "before": "Exact digital variant retained; ନୀକରେ unresolved. Same dictionary lineage; not a second entry or silently normalized reading.",
+      "after": "Printed variant: “Among the ornaments, a neem twig has a place in the nose.” ଅଳଙ୍କାରମାନଙ୍କ ମଧ୍ୟରେ ନାକରେ ନିମକାଠିର ସ୍ଥାନ ଅଛି। Original Bhashakosha vol4 printed4329 supplies ନାକରେ ନିମକାଠି; digital transcription was ନୀକରେ ନିମ୍ୱକାଠି. Same dictionary lineage; no independent origin claim.",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    },
+    {
+      "field": "cultural_context",
+      "before": "88757 supplies a related variant and supplementary lexical context in the same dictionary lineage, not independent corroboration. It includes a longer variant with the unresolved digital word ନୀକରେ; that variant is preserved in the capture but not silently normalized or treated as a second saying. No piercing method, medical safety claim or named community practice is recommended.",
+      "after": "The longer version places the neem twig in the nose, connecting it directly with the dictionary’s description of a simple substitute for an ornament. Its modest place can be treated warmly or dismissively according to the speaker and occasion.",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    }
+  ],
+  "actual_status": "applied_approved_display_repair",
+  "remaining_dependencies": [],
+  "projection_dependency": {
+    "path": "reader_content.py",
+    "before_sha256": "3050d595b30cdb0f6e0412518593b3009cb03a143b3521dd911678d9f9a6be8c",
+    "after_sha256": "2c334dfa748c91463dcb3ae3d3ead6249a031193a72461d9d91650f2eedfc083",
+    "changed_key": [
+      "222",
+      1
+    ],
+    "rendered_explanation": "Printed variant: “Among the ornaments, a neem twig has a place in the nose.” ଅଳଙ୍କାରମାନଙ୍କ ମଧ୍ୟରେ ନାକରେ ନିମକାଠିର ସ୍ଥାନ ଅଛି।",
+    "all_other_35_projections_unchanged": true
+  },
+  "preservation_checks": [
+    "Only approved context/variant fields changed; witnesses/art/rights unchanged",
+    "Original variant spelling retained in note",
+    "Only approved original-print variant display repair; full bilingual explanation retained"
+  ]
+}

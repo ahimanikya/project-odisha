@@ -1,0 +1,50 @@
+{
+  "id": "POD-DHAGA-049",
+  "baseline_sha256": "17cf219f86491bef90a4e9a28cdcb70e6309cc096b28d9d6f3294ca317e7929d",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Does ତାଳ in this exact idiom mean palm fruit or palm tree?",
+  "evidence_inspected": [
+    {
+      "capture": "projects/odia-dhaga/entries/POD-DHAGA-049.json",
+      "access": "Complete current entry, empty variants and SCERT witness read."
+    },
+    {
+      "capture": "projects/odia-dhaga/evidence/proofreading-550-2026-11-18/queries/049-followup.json",
+      "access": "Prior fruit/tree search attempts read; no decisive exact-idiom definition."
+    },
+    {
+      "tool": "query_research.py",
+      "query": "ତିଳ ତାଳ",
+      "result": "No mapped records/tasks."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ତାଳ",
+      "locator": "Sense2, rendered line139",
+      "access": "Full digital dictionary headword opened19November2026",
+      "finding": "Explicitly defines the palmyra palm AND its fruit; adjective sense3 also large/great. Does not quote this idiom."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ତିଳକୁ_ତାଳ_କରିବା",
+      "access": "Tool inaccessible; no content inspected."
+    },
+    {
+      "url": "https://scert.odisha.gov.in/wp-content/uploads/2025/08/Word-Book-SCERT_11zon.pdf",
+      "locator": "p139 pair14",
+      "access": "Fresh fetch timed out; historical source report read, original /tmp captures absent; root requested recovery."
+    }
+  ],
+  "reasoning": "The new full-headword evidence confirms that fruit is a real lexical sense, not a guessed botanical substitution. It does not select fruit rather than tree in this short idiom. The exaggeration reading is stable, and no faulty source spelling is demonstrated. Retain qualified literal until direct compound evidence or original-source context resolves the choice; do not silently switch to tree.",
+  "status": "partial_resolution",
+  "remaining_limits": [
+    "Lexical legitimacy of fruit confirmed, exact referent in idiom unresolved. Original SCERT page not freshly inspected due access failure."
+  ],
+  "changes": [],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

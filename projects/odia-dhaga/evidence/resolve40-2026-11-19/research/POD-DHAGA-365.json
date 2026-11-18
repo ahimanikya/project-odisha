@@ -1,0 +1,44 @@
+{
+  "id": "POD-DHAGA-365",
+  "baseline_sha256": "4ddd8d21a89f444bc0ed78a11dd09f1aa4e3acf5c967aed5f521daa139333f00",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Does ଧନ in the direct address mean dear or form a wealth-and-age compound?",
+  "evidence_inspected": [
+    {
+      "capture": "output/dhaga-sequential-2026-11-16/eighth-research.json",
+      "inspection": "Original full four-line reading and upload/public ଚହଟ/ଚହଟି difference reread; previous gap was vocative function, not spelling."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ଧନ",
+      "locator": "Domestic interjection, lines152–158; noun6 lines140–142",
+      "access": "Full page directly opened19November2026. Explicitly gives affectionate address to child, husband, wife, companion: My dear; noun beloved person also documented."
+    },
+    {
+      "local_query": "tools/research/query_research.py ଧନ ମୋହିଁଲେ ସହସ୍ର ପାପ --json",
+      "result": "No additional registered result."
+    }
+  ],
+  "reasoning": [
+    "The exact lexical function needed is expressly documented, including spouse address. Surrounding vocatives ଲୋ/ଗୋରୀ and second-person ତୋତେ/ବସାଉଛୁ support contextual vocative reading. Missing punctuation need not make it provisional. A wealth reading is lexically possible but not required here; do not insert lost wealth into translation."
+  ],
+  "status": "contextual_reading_resolved",
+  "remaining_limits": [
+    "Precise tone and subject of street gatherings are unstated; no new historical setting inferred."
+  ],
+  "changes": [
+    {
+      "field": "cultural_context",
+      "before": "The speaker links his wife’s appearance and age with his judgment of her public sociability. The complexion praise and gendered reproach belong to that source voice. They are not this edition’s standards for women’s worth or conduct. ଧନ is read as an address meaning dear; the verse itself supplies no punctuation to resolve that reading independently.",
+      "after": "The speaker links his wife’s appearance and age with his judgment of her public sociability. The complexion praise and gendered reproach belong to that source voice. They are not this edition’s standards for women’s worth or conduct. ଧନ is an affectionate address, “dear,” within the speaker’s direct appeal to his wife.",
+      "reason": "Full dictionary explicitly supports spouse vocative; remove unnecessary punctuation-based doubt."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

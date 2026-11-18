@@ -1,0 +1,57 @@
+{
+  "id": "POD-DHAGA-320",
+  "baseline_sha256": "134157ebf8ba6738240c26f5758c896e7a649be8ee4d2a3bf8a2c3155037a6ed",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Is ବଥା pain or a boil/sore in the small-to-large comparison?",
+  "evidence_inspected": [
+    {
+      "locator": "projects/odia-dhaga/evidence/expansion358-2026-11-07/captures/dhaga-wiktionary-88111.txt",
+      "finding": "Full ନିଖିଏ headword read: tiny amount, collocated with ଟିକିଏ; quotation explicitly ବଥାକୁ."
+    },
+    {
+      "url": "https://new.odiabibhaba.in/api/bhashakosha/volumes/5/stream?download=1",
+      "access": "Indexed original dictionary headword excerpt",
+      "finding": "ବଥା from ବ୍ୟଥା: aching/acute pain; second sense pang/colic. Adjacent ବଥର ମଞ୍ଜି is core of boil, demonstrating separate word."
+    },
+    {
+      "url": "https://scert.odisha.gov.in/wp-content/uploads/2024/06/English-IV-P-1-136_11zon.pdf",
+      "access": "Indexed school wordlist",
+      "finding": "ମୁଣ୍ଡବଥା translated headache/head-pain, corroborating ordinary pain sense."
+    },
+    {
+      "locator": "query_research.py ବଥା; exact phrase and boil/pain contrast searches",
+      "finding": "No reusable research record. Direct Wiktionary headword inaccessible; root asked to inspect original quotation if convenient."
+    }
+  ],
+  "reasoning": "The written form ବଥା supports pain. The alternative sore/boil was imported from nearby ବଥ without evidence of that form here. Translating pain faithfully does not require a medical diagnosis or prove that anyone’s real suffering is trivial.",
+  "status": "lexical_resolution",
+  "remaining_limits": [],
+  "changes": [
+    {
+      "field": "literal_meaning",
+      "before": "Provisional rendering: like making a tiny pain or sore so large.",
+      "after": "Like making a tiny pain so large.",
+      "reason": "Translate attested ବଥା as pain; remove unsupported sore alternative and provisional label."
+    },
+    {
+      "field": "meaning_odia",
+      "before": "ତୁଚ୍ଛ ବୋଲି କୁହାଯାଇଥିବା କିଛିକୁ ବଡ଼ କରିବାର ତୁଳନା ଏଠାରେ ଅଛି। ଶବ୍ଦର ଅର୍ଥ ଅତି ସାମାନ୍ୟ, ଏବଂ ଟିକିଏ ସହ ଏହାର ବ୍ୟବହାର ବିଷୟରେ ଟୀକା ଅଛି। ଆମ ପ୍ରୟୋଗ ପଚାରେ, ବର୍ଣ୍ଣନାରେ ଘଟଣାଟି ବଢ଼ାଇ ଦିଆଯାଉଛି କି। କାହାର ପ୍ରକୃତ ବଥା ସାମାନ୍ୟ ବା ଅତିରଞ୍ଜିତ ବୋଲି ଏଥିରୁ କହିହେବନାହିଁ; ବିଚାର ପାଇଁ ଉତ୍ସ କୌଣସି ବ୍ୟକ୍ତି ବା ଚିକିତ୍ସା ପରିସ୍ଥିତି ଦେଇନାହିଁ। ବଥା ଶବ୍ଦଟିର ସଠିକ ଅର୍ଥଛାୟା ଏଠାରେ ନିଶ୍ଚିତ ନୁହେଁ।",
+      "after": "ତୁଚ୍ଛ ବୋଲି କୁହାଯାଇଥିବା କିଛିକୁ ବଡ଼ କରିବାର ତୁଳନା ଏଠାରେ ଅଛି। ଶବ୍ଦର ଅର୍ଥ ଅତି ସାମାନ୍ୟ, ଏବଂ ଟିକିଏ ସହ ଏହାର ବ୍ୟବହାର ବିଷୟରେ ଟୀକା ଅଛି। ଆମ ପ୍ରୟୋଗ ପଚାରେ, ବର୍ଣ୍ଣନାରେ ଘଟଣାଟି ବଢ଼ାଇ ଦିଆଯାଉଛି କି। କାହାର ପ୍ରକୃତ ବଥା ସାମାନ୍ୟ ବା ଅତିରଞ୍ଜିତ ବୋଲି ଏଥିରୁ କହିହେବନାହିଁ; ବିଚାର ପାଇଁ ଉତ୍ସ କୌଣସି ବ୍ୟକ୍ତି ବା ଚିକିତ୍ସା ପରିସ୍ଥିତି ଦେଇନାହିଁ।",
+      "reason": "Remove resolved lexical doubt; preserve caution against judging a real person’s pain."
+    },
+    {
+      "field": "cultural_context",
+      "before": "The witness is a comparison ending ନ୍ୟାୟ, labelled Dhaga, not a complete incident or diagnosis. Exact ବଥା remains unresolved between pain/sore nuances; no medical judgment is established.",
+      "after": "ବଥା means pain or aching. The comparison enlarges something described as tiny; it gives no actual person or illness whose suffering can be judged.",
+      "reason": "Replace unresolved pain/sore alternative with supported word meaning and actual interpretive limit."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}
