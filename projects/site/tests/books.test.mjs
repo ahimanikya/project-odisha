@@ -13,14 +13,15 @@ const dhagaDownload=JSON.parse(read('../odia-dhaga/pdf-delivery.json'));
 const html=read('dist/books/index.html');
 const cards=new Map([...html.matchAll(/<article\b[^>]*data-book="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)].map(m=>[m[1],m[2]]));
 const expected=[{id:'culture',title:culture.title,route:culture.route,download:culture.download,cover:culture.cover},{id:'dongria',title:dongria.title,route:'/stories/dongria/book/',download:dongria,cover:reading.cover.at(-1)},{id:'kotpad',title:kotpad.title,route:'/stories/kotpad/book/',download:kotpad.download,cover:kotpad.cover},{id:'cinema',title:'Odia Cinema: A Living Screen',route:'/cinema/',download:cinema.review_books.find(b=>b.edition==='digital'),cover:{src:'/assets/cinema/a-living-screen-cover-20261027.jpg',width:800,height:1199}},{id:'dhaga',title:`${dhaga.cover.title_english} — ${dhaga.cover.title_odia}`,route:'/dhaga/',download:{...dhagaDownload,file:'/archive/'+dhagaDownload.asset_name},cover:{src:'/dhaga/'+dhaga.cover.src.replace(/\.png$/,'.webp'),width:640,height:Math.round(dhaga.cover.height*640/dhaga.cover.width)}}];
-test('books remain separate, with descriptive reading and PDF links for each edition',()=>{
+test('books remain separate, with descriptive online reading links and no direct PDF downloads',()=>{
  assert.deepEqual([...cards.keys()],['culture','dongria','kotpad','cinema','dhaga']);
- assert.equal(new Set(expected.flatMap(b=>[b.route,b.download.file])).size,10);
+ assert.equal(new Set(expected.map(b=>b.route)).size,5);
+ assert.doesNotMatch(html,/<a\b[^>]*href="[^"]*\.pdf(?:[?#][^"]*)?"/i);
+ assert.doesNotMatch(html,/Download PDF|\bPDF \d|\d+(?:\.\d+)? MB|download(?:able)? (?:a book|edition|its complete)/i);
  for(const b of expected){const card=cards.get(b.id);
   assert.ok(card.includes(b.title));assert.ok(card.includes(`By ${kotpad.author}`));
   assert.ok(card.includes(`href="${b.route}" aria-label="Read online: ${b.title}"`));
-  assert.ok(card.includes(`href="${b.download.file}" aria-label="Download PDF: ${b.title}"`));
-  assert.ok(card.includes(`${b.download.pages} pages`));assert.ok(card.includes(`${(b.download.bytes/1000000).toFixed(1)} MB`));
+  assert.ok(card.includes(`${b.download.pages} pages`));
   let linkDepth=0;for(const tag of card.matchAll(/<\/?a\b[^>]*>/g)){linkDepth+=tag[0].startsWith('</')?-1:1;assert.ok(linkDepth>=0&&linkDepth<=1,'Native links must not nest');}assert.equal(linkDepth,0);
  }
 });
