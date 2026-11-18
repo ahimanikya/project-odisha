@@ -88,6 +88,11 @@ def validate(data):
             required(variant, ['odia', 'note'], 'variant')
             if variant.get('source_id') and variant['source_id'] not in source_ids:
                 raise ValueError('dangling variant source')
+            if 'page_url' in variant or 'page_label' in variant:
+                required(variant, ['page_url', 'page_label'], 'variant page citation')
+                page_url = urlparse(variant['page_url'])
+                if page_url.scheme not in ('https', 'http') or not page_url.netloc:
+                    raise ValueError('variant page URL must be HTTP(S)')
         if entry.get('graphic'):
             graphic = entry['graphic']
             required(graphic, ['src', 'alt', 'caption'], 'graphic')
@@ -232,7 +237,9 @@ def render(data):
         variants = ''.join(
             '<li><p class="odia" lang="or">'+source_heading(v['odia'])+'</p>'
             + ('<p>'+reader_language_spans(variant_explanation(entry['id'],number,v))+'</p>'
-               if variant_explanation(entry['id'],number,v) else '')+'</li>'
+               if variant_explanation(entry['id'],number,v) else '')
+            + ('<p><a href="'+esc(v['page_url'])+'">'+reader_language_spans(v['page_label'])+'</a></p>'
+               if v.get('page_url') else '')+'</li>'
             for number,v in enumerate(entry.get('variants',[]),1))
         graphic = entry.get('graphic')
         figure = f'<figure><img src="{esc(graphic["src"])}" alt="{esc(graphic["alt"])}" loading="lazy"><figcaption>{esc(graphic["caption"])}</figcaption></figure>' if graphic else ''
