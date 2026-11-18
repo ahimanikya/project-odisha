@@ -1,0 +1,36 @@
+{
+  "id": "POD-DHAGA-516",
+  "baseline_sha256": "690ad3475d0cfb41e0a5d18dbfec012d920007dcb104537bcce24a6c9f00ade8",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Do the compressed negatives rule out spoken refusal or assert actual non-giving?",
+  "evidence_inspected": [
+    {
+      "capture": "output/dhaga-sequential-2026-11-16/hundred-eighty-third-research.json",
+      "inspection": "Full two lines and prior parsing reread, including exact unpunctuated source."
+    },
+    {
+      "local_query": "tools/research/query_research.py ନିରିମାଇଲ ମାଠିବା ପିଢା ଦେବା ଦେବା --json",
+      "result": "No additional registered research."
+    },
+    {
+      "search": "New exact ଦେବା ଦେବା + ନକରିବା search",
+      "result": "No applicable full counterpart. Corrupted unrelated historical-book snippets not adopted."
+    }
+  ],
+  "reasoning": [
+    "First line explicitly supplies saying, so treating the following negatives as the answer not to make is grammatically coherent. However other grouping cannot be categorically excluded without contextual witness. Existing translation and explanation already expose parsing, preserve negation and avoid claiming a promise is fulfilled or intentionally broken. No new evidence justifies strengthening tone."
+  ],
+  "status": "partial_resolution",
+  "remaining_limits": [
+    "Quoted-answer boundaries remain editorial; sincerity/evasion and fulfilment are naturally unspecified."
+  ],
+  "changes": [],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification"
+}

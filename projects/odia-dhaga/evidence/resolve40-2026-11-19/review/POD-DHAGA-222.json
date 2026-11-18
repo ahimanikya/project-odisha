@@ -1,0 +1,38 @@
+{
+  "id": "POD-DHAGA-222",
+  "reviewer": "Drishti AI",
+  "status": "APPROVED",
+  "resolution": "Original-print transcription resolved; contextual tone remains naturally variable.",
+  "research_sha256": "38e67b200cbce292b38d35f27b1d69d463576b4a5c39694a54f25de8c2cb240b",
+  "baseline_sha256": "4c556abbb91ec48e9ec50b8ec08c85d82387cde7e18580e515d0ae674acf0c58",
+  "approved_changes": [
+    {
+      "field": "variants.0.odia",
+      "before": "ଅଳଙ୍କାର ମଧ୍ୟେ ନୀକରେ ନିମ୍ୱକାଠି ଥାନେ",
+      "after": "ଅଳଙ୍କାର ମଧ୍ୟେ ନାକରେ ନିମକାଠି ଥାନେ",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    },
+    {
+      "field": "variants.0.note",
+      "before": "Exact digital variant retained; ନୀକରେ unresolved. Same dictionary lineage; not a second entry or silently normalized reading.",
+      "after": "Printed variant: “Among the ornaments, a neem twig has a place in the nose.” ଅଳଙ୍କାରମାନଙ୍କ ମଧ୍ୟରେ ନାକରେ ନିମକାଠିର ସ୍ଥାନ ଅଛି। Original Bhashakosha vol4 printed4329 supplies ନାକରେ ନିମକାଠି; digital transcription was ନୀକରେ ନିମ୍ୱକାଠି. Same dictionary lineage; no independent origin claim.",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    },
+    {
+      "field": "cultural_context",
+      "before": "88757 supplies a related variant and supplementary lexical context in the same dictionary lineage, not independent corroboration. It includes a longer variant with the unresolved digital word ନୀକରେ; that variant is preserved in the capture but not silently normalized or treated as a second saying. No piercing method, medical safety claim or named community practice is recommended.",
+      "after": "The longer version places the neem twig in the nose, connecting it directly with the dictionary’s description of a simple substitute for an ornament. Its modest place can be treated warmly or dismissively according to the speaker and occasion.",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    }
+  ],
+  "evidence_inspected": [
+    "Complete current entry, both full digital headword captures 88757.txt and 223744.txt.",
+    "Personally viewed original vol4 PDF705 printed4329, /private/tmp/dhaga-v4-p705.png; bottom-left quotation reads ନାକରେ ନିମକାଠି beneath sense2, with nose/ear placeholder definition."
+  ],
+  "assessment": "The original print independently supports both proposed transcription corrections. The translated variant preserves its nose-specific image, while the shorter primary wording and literal remain intact. The new context correctly explains the substitute without prescribing a piercing practice or fixing an unsupported emotional tone. Original digital transcription remains explicitly recorded in the variant note.",
+  "remaining_dependencies": [],
+  "implementation_dependencies": [
+    "Project the complete new bilingual variant explanation through reader_content.py, stopping before the original-print/digital provenance tail; verify other35 variant projections unchanged."
+  ],
+  "findings": []
+}

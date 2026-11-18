@@ -1,0 +1,64 @@
+{
+  "id": "POD-DHAGA-222",
+  "baseline_sha256": "4c556abbb91ec48e9ec50b8ec08c85d82387cde7e18580e515d0ae674acf0c58",
+  "researcher": "Anvesha AI",
+  "date": "2026-11-19",
+  "full_entry_and_variants_read": true,
+  "exact_question": "Is variant ନୀକରେ genuine wording or digital transcription error; does tone need a single settled interpretation?",
+  "evidence_inspected": [
+    {
+      "locator": "projects/odia-dhaga/evidence/expansion222-2026-10-31/anvesha/captures/88757.txt",
+      "finding": "Full headword ନିମକାଠି read: sense2 piercing placeholder, followed by longer example with ନୀକରେ."
+    },
+    {
+      "locator": "projects/odia-dhaga/evidence/expansion222-2026-10-31/anvesha/captures/223744.txt",
+      "finding": "Full headword ମଇଧେ read: amongst, followed by shorter complete proverb without extra word."
+    },
+    {
+      "locator": "query_research.py ନୀକରେ; fresh exact compound/word and ନୀକ good searches",
+      "finding": "No reusable record or relevant exact lexical definition; unrelated machine-translated material rejected."
+    },
+    {
+      "url": "https://or.wiktionary.org/wiki/ନୀକ",
+      "access": "Direct retrieval inaccessible",
+      "finding": "No support for guessed good/well adverb."
+    },
+    {
+      "locator": "Original Bhashakosha vol4 PDF705 printed4329, /private/tmp/dhaga-v4-p705.png, bottom-left quotation",
+      "access": "Image personally inspected",
+      "finding": "Print reads ଅଳଙ୍କାର ମଧ୍ୟେ ନାକରେ ନିମକାଠି ଥାନେ. Both extra vowel in ନୀକରେ and added conjunct in digital ନିମ୍ୱକାଠି differ from print."
+    }
+  ],
+  "reasoning": "Original print resolves the opaque digital word to ନାକରେ, at/in the nose. It agrees with the headword’s specific bodily-placeholder definition. Present the exact printed variant, preserving the digital transcription in its provenance note. Tone remains naturally dependent on context.",
+  "status": "source_transcription_resolved",
+  "remaining_limits": [
+    "Tone is context-dependent; no single obligatory affectionate or dismissive force asserted."
+  ],
+  "changes": [
+    {
+      "field": "variants.0.odia",
+      "before": "ଅଳଙ୍କାର ମଧ୍ୟେ ନୀକରେ ନିମ୍ୱକାଠି ଥାନେ",
+      "after": "ଅଳଙ୍କାର ମଧ୍ୟେ ନାକରେ ନିମକାଠି ଥାନେ",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    },
+    {
+      "field": "variants.0.note",
+      "before": "Exact digital variant retained; ନୀକରେ unresolved. Same dictionary lineage; not a second entry or silently normalized reading.",
+      "after": "Printed variant: “Among the ornaments, a neem twig has a place in the nose.” ଅଳଙ୍କାରମାନଙ୍କ ମଧ୍ୟରେ ନାକରେ ନିମକାଠିର ସ୍ଥାନ ଅଛି। Original Bhashakosha vol4 printed4329 supplies ନାକରେ ନିମକାଠି; digital transcription was ନୀକରେ ନିମ୍ୱକାଠି. Same dictionary lineage; no independent origin claim.",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    },
+    {
+      "field": "cultural_context",
+      "before": "88757 supplies a related variant and supplementary lexical context in the same dictionary lineage, not independent corroboration. It includes a longer variant with the unresolved digital word ନୀକରେ; that variant is preserved in the capture but not silently normalized or treated as a second saying. No piercing method, medical safety claim or named community practice is recommended.",
+      "after": "The longer version places the neem twig in the nose, connecting it directly with the dictionary’s description of a simple substitute for an ornament. Its modest place can be treated warmly or dismissively according to the speaker and occasion.",
+      "reason": "Resolve digital transcription against personally inspected original print; preserve digital reading in note and explain actual image."
+    }
+  ],
+  "preserve": [
+    "original witnesses",
+    "artwork",
+    "rights/admin data"
+  ],
+  "review_claim": "AI source and language analysis; no human/native certification",
+  "projection_warning": "Variant note explanatory addition should be retained by reader_content projection; provenance tail remains private."
+}
