@@ -27,5 +27,5 @@ test('all chapter sources resolve and return to a unique citation, with adjacent
  }
 });
 test('the complete PDF download matches the delivered 310-page edition',()=>{
- const bytes=readFileSync('public'+book.download.file);assert.equal(book.download.pages,310);assert.equal(bytes.length,book.download.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),book.download.sha256);
+ const bytes=readFileSync('../cultural-book/odisha-culture-memory-and-living-traditions.pdf');assert.equal(book.download.pages,310);assert.equal(bytes.length,book.download.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),book.download.sha256);
 });
