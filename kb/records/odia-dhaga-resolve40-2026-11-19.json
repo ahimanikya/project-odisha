@@ -1,5 +1,5 @@
 {
-  "status": "review_complete_generated_validation_pending",
+  "status": "reviewed_release_preparation",
   "authorization_quote": "Let’s go through the remaining 40 Dhagas one by one and try to resolve the spelling and interpretation questions.",
   "baseline_commit": "b58c15391f57606b1abcc36800743530ff98ac23",
   "coordinator": "Disha",
@@ -69,6 +69,11 @@
       "clarified_with_residual_question": 12,
       "unresolved": 6,
       "fully_resolved": 22
+    },
+    "independent_outcomes": {
+      "clarified_with_residual_question": 11,
+      "fully_resolved": 24,
+      "unresolved": 5
     }
   },
   "candidate_pdf": {
@@ -85,5 +90,34 @@
   },
   "focused_tests": 33,
   "evidence_directory": "projects/odia-dhaga/evidence/resolve40-2026-11-19",
-  "human_proofreading_claimed": false
+  "human_proofreading_claimed": false,
+  "review_result": {
+    "individually_researched": 40,
+    "independently_reviewed": 40,
+    "changed_entries": 21,
+    "unchanged_entries": 19,
+    "adequately_resolved": 24,
+    "clarified_with_residual_question": 11,
+    "unresolved": 5,
+    "material_remaining_questions": 16,
+    "open_fix_requests": 0
+  },
+  "source_commit": "2dfe962c6351c1d0bd28978e83737358787cdab4",
+  "generated_output_review": "PASS_GENERATED_OUTPUT_REVIEW",
+  "pdf_release": {
+    "schema": "project-odisha-pdf-release-v1",
+    "repository": "ahimanikya/project-odisha",
+    "release_immutable": false,
+    "mutability_limit": "Release assets and tags can change; every retrieval must verify identity and bytes.",
+    "release_id": 450550330,
+    "asset_id": 764981559,
+    "target_commit": "2dfe962c6351c1d0bd28978e83737358787cdab4",
+    "sha256": "e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801",
+    "tag": "dhaga-550-2dfe962c6351c1d0bd28978e83737358787cdab4",
+    "asset_name": "odia-dhaga-550-e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801.pdf",
+    "browser_download_url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-550-2dfe962c6351c1d0bd28978e83737358787cdab4/odia-dhaga-550-e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801.pdf",
+    "bytes": 190061625,
+    "pages": 355,
+    "entries": 550
+  }
 }
