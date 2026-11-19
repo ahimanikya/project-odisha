@@ -61,7 +61,30 @@ class LongReadingLayoutTests(unittest.TestCase):
                 if key in VARIANT_EXPLANATION_EXTRA:
                     self.assertIn(VARIANT_EXPLANATION_EXTRA[key],text)
         self.assertEqual(set(retained),set(VARIANT_EXPLANATION_END))
-        self.assertEqual(len(retained),13)
+        self.assertEqual(len(retained),14)
+
+    def test_book550_primary_and_uploaded_variant_remain_distinct(self):
+        import json
+        from pathlib import Path
+        from build_print import variant_reading_blocks
+        entry=json.loads((Path(__file__).parent/'entries/POD-DHAGA-550.json').read_text())
+        self.assertEqual(len(entry['odia'].splitlines()),3)
+        self.assertIn('ତାଟି କିଳା ଭାତ ଖାଇବି ନାହିଁ',entry['odia'])
+        variant=entry['variants'][0]
+        self.assertEqual(len(variant['odia'].splitlines()),4)
+        self.assertIn('ତାଟି କିଳା ମାଡ଼ ସହିବି ନାଇଁ',variant['odia'])
+        blocks=variant_reading_blocks('Chapter',entry['id'],1,variant,lambda text,style:(text,style))
+        self.assertEqual(blocks[1][0],variant['odia'])
+        rendered=' '.join(text for text,style in blocks)
+        self.assertIn('ଅର୍ଥ:',rendered)
+        self.assertIn('Explanation:',rendered)
+        self.assertNotIn('Source:',rendered)
+        self.assertNotIn(variant['locator'],rendered)
+
+    def test_long516_uses_dedicated_width_without_reducing_type(self):
+        _,_,packing=pack_reading_units([self.unit('POD-DHAGA-516')],200,420,600)
+        self.assertEqual(packing[0]['layout'],'full-width')
+        self.assertEqual(packing[0]['text_scale_factor'],1)
 
     def test_variant_gets_full_width_without_changing_primary(self):
         items=[self.unit('POD-DHAGA-034'),self.unit('POD-DHAGA-034-variant-1')]

@@ -106,7 +106,7 @@ class RepositoryTests(unittest.TestCase):
                 fragment=reader_language_spans(text);parsed=Text();parsed.feed(fragment)
                 self.assertEqual(parsed.text,text)
                 if any('\u0b00'<=c<='\u0b7f' for c in text):self.assertIn('lang="or"',fragment)
-        self.assertEqual(len(explanations),31)
+        self.assertEqual(len(explanations),32)
         rendered=render(data);parsed=Text();parsed.feed(rendered)
         for text in explanations:self.assertIn(text,parsed.text)
         for label in ['Textual notes','Origins and uncertainty','class="witnesses"']:

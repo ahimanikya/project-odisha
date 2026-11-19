@@ -1,0 +1,40 @@
+{
+  "status": "PASS_SOURCE_RELEASE_BINDING",
+  "reviewer": "Drishti AI",
+  "head": "89fb061d22ca76dac15e5947d2dc1575c7b9a580",
+  "descriptor": {
+    "schema": "project-odisha-pdf-release-v1",
+    "repository": "ahimanikya/project-odisha",
+    "release_immutable": false,
+    "mutability_limit": "Release assets and tags can change; every retrieval must verify identity and bytes.",
+    "release_id": 450550330,
+    "asset_id": 764981559,
+    "target_commit": "2dfe962c6351c1d0bd28978e83737358787cdab4",
+    "sha256": "e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801",
+    "tag": "dhaga-550-2dfe962c6351c1d0bd28978e83737358787cdab4",
+    "asset_name": "odia-dhaga-550-e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801.pdf",
+    "browser_download_url": "https://github.com/ahimanikya/project-odisha/releases/download/dhaga-550-2dfe962c6351c1d0bd28978e83737358787cdab4/odia-dhaga-550-e260a153cef79a0236f0ec010532535a9f0fad8805feacf9cf8c790e53760801.pdf",
+    "bytes": 190061625,
+    "pages": 355,
+    "entries": 550
+  },
+  "checks": [
+    "Release metadata identity, asset name, bytes, digest and URL match descriptor.",
+    "Approved canonical PDF exact hash and byte size match release metadata.",
+    "Coast download path and generated workbench coast hash match.",
+    "No entry, projection or packing changes since approved source commit."
+  ],
+  "limitations": [
+    "Fresh gh API request failed connecting to api.github.com. Review uses saved actual release API response /private/tmp/dhaga-resolve40-release.json; does not claim an independent fresh anonymous download.",
+    "Final website package build and CI/publication remain pending."
+  ],
+  "hashes_reviewed": {
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/odia-dhaga/pdf-delivery.json": "9487212ab0194438ec6ddf2e72643e16a41aa44de33c15ba54a7bcd9f2172e83",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/projects/site/editions/coast.json": "e39b06e17b5c8a33ebbaa4d8db6f6392a858c130e46984665b5d92f959f1d848",
+    "planning/utkala-odisha/checkouts/dongria-release-20261105/kb/records/editorial-workbench.json": "f7672951187306d35b7202745f76a90a8cd584bdf2ac0728976b4f985881858f",
+    "/private/tmp/dhaga-resolve40-release.json": "8abb0fd81cf3a03fbe89de3176f8576e0f88e47a96ce320fa0a40e3d034850aa"
+  },
+  "findings": [],
+  "previous_head": "046c94aaef7dcfe0dca73ef2ade1f18675c86cdb",
+  "followup_delta": "Only projects/site/tests/dhaga-export.test.mjs changed: exact approved222 printed wording now asserted; digital error remains required in internal note and excluded from public HTML. This strengthens the provenance/display distinction and does not relax content coverage. No PDF, descriptor, canonical or generated-source change."
+}
