@@ -1,0 +1,201 @@
+{
+  "status": "publication_candidate",
+  "article_id": "POD-EDIT-DEOMALI-20261122",
+  "route": "/destinations/deomali/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
+  "image_direction_quote": "Always find a high-quality image and attach it to the article - attach an image to the article preview - also, we can always use more than one image for any article as required.",
+  "authorization": "POD-DEC-2026112291",
+  "work_id": "POD-WORK-2026112291",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Integration, shared records, image, checks and publishing",
+    "Anvesha": "Independent source research and integrated claims review",
+    "Samanta": "Scoped article and navigation implementation; lossless capacity measurements",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "research_evidence": "outputs/deomali-publication-2026-11-22/research/anvesha-findings.md",
+  "media": {
+    "record": "research/destinations/deomali-image.json",
+    "source_revision": "https://commons.wikimedia.org/w/index.php?title=File:Deomali_hilltop.jpg&oldid=1201236862",
+    "original_dimensions": [
+      4032,
+      1860
+    ],
+    "original_date": "2021-09-03",
+    "delivery_dimensions": [
+      2000,
+      923
+    ],
+    "license": "CC BY-SA 4.0",
+    "visual_review": "Root inspected both original candidates at1100px; selected clear landscape without windshield obstruction. Full-frame derivative; preview crop disclosed.",
+    "source_sha256": "5f9b75a60339d582deff6720cb9369c7b6ce55fc9861a45640e58421b4af33f3",
+    "delivery_sha256": "a11da8b60b6a05e8651de7707ca9b9d90384501952a608bf9bafe7b187aeb0ed"
+  },
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false,
+    "prior_receipt_pr": 811
+  },
+  "next_action": "Finish independent review, builds, browser checks, reviewed merge and live publication verification before next article.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "source_word_budgets": {
+      "butterfly": 170,
+      "flora": 160,
+      "others": "101–145"
+    },
+    "printed_page_correction": "Drishti found physical PDF locators one page low; public citation now uses verified printed pages only.",
+    "evidence": "outputs/deomali-publication-2026-11-22/research/integrated-source-review.md"
+  },
+  "capacity_fix": {
+    "method": "Existing lossless optimizer; exact23-path addition only",
+    "measured_saved_bytes": 2944535,
+    "evidence": "outputs/deomali-publication-2026-11-22/capacity/lossless-png-candidates.json",
+    "source_assets_unchanged": true,
+    "gate_unchanged": true,
+    "retention_confirmed": true,
+    "excluded_candidate": "assets/cinema/pencil-deependra-samal-20261101.png is not retained in the coastal build and was removed from proposed scope."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "Local full build in in-app browser",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        812
+      ]
+    ],
+    "no_horizontal_overflow": true,
+    "checks": [
+      "Full-frame article photograph and credited preview images inspected.",
+      "First native footnote and return activated with keyboard.",
+      "Article/Kotpad and article/hills links activated both ways."
+    ],
+    "screenshots": [
+      "desktop.jpg",
+      "mobile.jpg",
+      "narrow.jpg",
+      "mobile-footnotes.jpg",
+      "kotpad-preview.jpg",
+      "hills-preview.jpg"
+    ],
+    "limits": "Viewport simulation, not physical-device, cross-engine or screen-reader certification."
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_suite": "821/821 pass",
+    "coastal_build": "pass",
+    "coastal_suite": "595/597 initial; both expected discovery-count assertions updated for two new entries; affected6/6 pass",
+    "disclosures_dist": {
+      "pages": 1487,
+      "violations": 0
+    },
+    "disclosures_coast": {
+      "pages": 1472,
+      "violations": 0
+    },
+    "publication_build": "pass on pre-reconciliation candidate",
+    "local_page_checks": "outputs/deomali-publication-2026-11-22/local-checks.json",
+    "local_publication_bytes": 996618022,
+    "disclosures_publish": {
+      "pages": 1473,
+      "violations": 0
+    },
+    "article_fragment_sha256": "3c1745b95523b4b4ba2d6d16b1d112d5fa2e41d5d0410f97f06961735db49142"
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/deomali-publication-2026-11-22/review/drishti-integrated.json",
+    "capacity_evidence": "outputs/deomali-publication-2026-11-22/review/drishti-capacity.json"
+  },
+  "concurrent_release_reconciliation": {
+    "pr": 812,
+    "article": "Kagaja Mukha",
+    "detected_after_initial_reconciliation": true,
+    "shared_files_overlap": true,
+    "response": "Renumber Deomali pre-merge work/decision/event IDs to2026112291 to avoid collision with existing Kagaja preparation; keep releases sequential and reconcile latest main before merge. No changes to foreign work.",
+    "status": "combined_candidate_prepared",
+    "preceding_receipt_pr": 814,
+    "preceding_receipt_head": "001d12cff69244d497cfb9caade5f99c48bfdcd7",
+    "merge_condition": "PR813 must not merge before PR814 is merged. Preparation incorporates its separately reviewed receipt without modifying foreign evidence.",
+    "resolved_files": 12,
+    "all_three_new_routes_preserved": true,
+    "full_build_count_addend": 166,
+    "discovery_count_addend": 153
+  },
+  "baseline_ci": {
+    "id": 44942432126,
+    "head": "94a110b315b69006001c20ef550d8db470ee93ee",
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 597,
+    "publication_bytes": 997384366,
+    "scope": "Before incorporating preceding Kagaja publication and receipt; combined exact-head validation required."
+  },
+  "ci_attempts": [
+    {
+      "id": 44941529256,
+      "conclusion": "failure",
+      "finding": "Portable route inventory lacked two new routes; corrected."
+    },
+    {
+      "id": 44941776133,
+      "conclusion": "failure",
+      "finding": "Koraput research link needed absolute public URL; corrected."
+    },
+    {
+      "id": 44942076982,
+      "conclusion": "failure",
+      "finding": "Generated editorial-workbench record needed refresh; corrected."
+    }
+  ],
+  "merge_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/deomali-publication-2026-11-22/review/merge-review.md",
+    "finding": "Foreign records and article files preserved; all three routes and both source headings retained; fresh rendered article hashes unchanged.",
+    "release_gates": [
+      "PR814 must merge first",
+      "Combined exact-head CI must pass",
+      "Live Deomali and image verification required"
+    ]
+  },
+  "combined_local_validation": {
+    "full_build": "pass",
+    "full_tests": "821/821 pass after book export finished",
+    "disclosure_pages": 1488,
+    "disclosure_violations": 0,
+    "bundle": "pass",
+    "registers": "pass",
+    "research": "pass",
+    "research_map": "pass",
+    "team_assignments": "pass",
+    "autonomous_program": "pass;zero credit",
+    "workbench": "pass",
+    "existing_activity_history": "Prior receipt-branch bytes retained exactly; one Deomali event appended.",
+    "initial_test_attempt": "Started before export completion and encountered missing Dhaga files; rerun after successful build passed821/821."
+  }
+}

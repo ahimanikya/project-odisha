@@ -101,3 +101,10 @@ The Founder rejected large filler panels around cinema article photographs. On c
 ### Cinema catalogue maintenance notes · 27 October 2026
 
 Keep routine catalogue/link-check dates and inspection narration in research records, rather than interrupting article reading. Preserve source dates and any date necessary to understand a time-sensitive claim. Retain concise availability or access qualifications where they help a reader, and distinguish catalogue entries, trailers and full-film listings.
+
+
+## Article and preview images · 22 November 2026
+
+Founder direction: “Always find a high-quality image and attach it to the article - attach an image to the article preview - also, we can always use more than one image for any article as required.”
+
+Every new article must include a relevant high-quality image and attach that image to its article preview and sharing metadata. Find a rights-cleared photograph for a real destination where available; verify the depicted place. Use additional images when they contribute information. Preserve creator, source, licence and modification details, and keep the full image visible within the article. Preview crops may differ with that change disclosed. This requirement applies to the ongoing destination series; it does not claim retrospective review of every existing article.

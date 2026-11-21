@@ -55,13 +55,13 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-KAGAJAMUKHA-20261122",
-    "route": "/stories/kagaja-mukha-and-the-making-of-a-mask/",
+    "id": "POD-EDIT-DEOMALI-20261122",
+    "route": "/destinations/deomali/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/kagaja-mukha-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+    "phase": "integration",
+    "handoff": "records/deomali-publication-20261122.json",
+    "scope_released": false,
+    "activation_condition": "Candidate activation only after preceding Kagaja receipt PR814 merges; Deomali release remains gated on that merge."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -628,6 +628,15 @@
       "owner": "Disha",
       "phase": "receipt_integrated",
       "handoff": "records/sagada-publication-20261121.json",
+      "scope_released": true,
+      "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+    },
+    {
+      "id": "POD-EDIT-KAGAJAMUKHA-20261122",
+      "route": "/stories/kagaja-mukha-and-the-making-of-a-mask/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/kagaja-mukha-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
     }

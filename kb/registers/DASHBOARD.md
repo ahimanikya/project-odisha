@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1cc87442f7708ee56e9396c9b8dc1c850490ab7ee7765b2ff928e9d4fc5f26f6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `05ed805adfd14b1d62e9105cb91ee96d88132d4a9ae70948f686f2400f876958`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -392,6 +392,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112113 · Publish Sagada article | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112201 · Prepare Kagaja Mukha article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112202 · Publish Kagaja Mukha article | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
+| POD-WORK-2026112291 · Research, review and publish Deomali | in_progress | draft | Ahimanikya Satapathy | Complete review and publication with credited article and preview image. | — |
 
 ## Pending human review and decisions
 
@@ -721,6 +722,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112113 · Publish reviewed Sagada article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
 | POD-DEC-2026112201 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
 | POD-DEC-2026112202 · Publish reviewed Kagaja Mukha article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
+| POD-DEC-2026112291 · Publish the destination series sequentially, beginning with Deomali | recorded_direction | Ahimanikya Satapathy | Research, separate review and publication one hill destination at a time, then broader destination series. Images in article and preview required. |
 
 ## Reviews
 
@@ -1410,7 +1412,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112118 | 2026-11-21T13:42:22.240632+00:00 | Prior Jau receipt merged and checked; new single draft scope reserved. Independent historical cart-design angle selected after scoped coverage checks; no publication or programme credit. | — |
 | POD-EVT-2026112119 | 2026-11-21T13:49:17.190676+00:00 | Original historical cart-design article, source evidence and publication brief delivered locally after separate review. Three source families and historical/geographic limits retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112120 | 2026-11-21T15:27:23.151976+00:00 | Founder authorized publication with two relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and foreign task preserved. | — |
 | POD-EVT-2026112121 | 2026-11-21T16:41:20.919842+00:00 | Reviewed article and two incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
@@ -1420,6 +1421,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112203 | 2026-11-21T19:14:17.629391+00:00 | Started authorized Kagaja Mukha publication with three relevant reading links. | — |
 | POD-EVT-2026112204 | 2026-11-21T20:05:21.616099+00:00 | Reviewed article and three incoming links published and live verified on desktop/mobile. Zero programme credit; evidence-only receipt review and integration pending. | — |
 | POD-EVT-2026112205 | 2026-11-21T20:09:25.801643+00:00 | Separate Drishti delivery review passed using fresh live responses, exact hashes, actual GitHub records and saved screenshots. Evidence-only receipt ready to integrate; no new deployment required. | — |
+| POD-EVT-2026112291 | 2026-11-21T19:23:23.821537+00:00 | Founder authorized sequential destination publication and mandatory article/preview imagery. Deomali is sole active article; previous Sagada receipt merged; foreign Kala Bhoomi task preserved. Zero programme credit. | — |
 
 ## Deferred extensions
 
