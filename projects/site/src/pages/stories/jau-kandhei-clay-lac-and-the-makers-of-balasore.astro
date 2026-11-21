@@ -1,0 +1,26 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md';
+const continueReading = [{href: '/stories/ganjapa-cards-made-for-play/', title: 'Ganjapa Cards Made for Play', image: '/images/stories/ganjapa-pack-comparison.svg'}];
+const furtherReading = [{href: '/crafts/pattachitra/', title: 'Pattachitra: preparing a surface, learning a line'}, {href: '/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/', title: 'Silver, Metal, Clay, Stone and Appliqué'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fjau-kandhei-clay-lac-and-the-makers-of-balasore%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

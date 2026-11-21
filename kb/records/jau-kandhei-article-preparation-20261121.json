@@ -1,0 +1,168 @@
+{
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+  "programme_credit": 0,
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-JAUKANDHEI-20261121",
+  "authorization": "POD-DEC-2026112110",
+  "work_id": "POD-WORK-2026112110",
+  "scope_released": true,
+  "input_head": "a3b623d3a5681e1ee42c9b5568e45d89266f37dd",
+  "assignments": {
+    "Disha": "Topic selection, shared records, editorial integration and delivery",
+    "Anvesha": "Independent evidence research in reserved source-review record",
+    "Samanta": "Draft article and publication brief after evidence handoff",
+    "Drishti": "Separate read-only source, originality and editorial review"
+  },
+  "runtime": "Existing separate task-scoped AI agents reused; not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation",
+  "remote_reconciliation": {
+    "prior_receipt_pr": 807,
+    "prior_receipt_merged": true,
+    "required_check_run": 44888587696,
+    "required_check_result": "SUCCESS",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/jau-kandhei-source-review-20261121.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md",
+      "outputs/jau-kandhei-article-2026-11-21/publication-brief.md"
+    ],
+    "Disha": [
+      "shared registers, map, handoff and clean reading copy"
+    ]
+  },
+  "novelty": {
+    "queries": [
+      "Jau Kandhei",
+      "Jaukandhei",
+      "Jou Kondhei",
+      "lacquer",
+      "lac dolls",
+      "ଜଉ କଣ୍ଢେଇ",
+      "Balasore"
+    ],
+    "finding": "No dedicated Jau Kandhei narrative or research-map entry found in scoped searches. Existing Ganjapa and Pattachitra discuss lacquer as a finish; the cultural book describes a different Barpali clay fish toy and mentions clay dolls generically. None covers Balasore lac dolls.",
+    "reuse": [
+      "culture/index.md",
+      "culture/ganjapa-cards-made-for-play.md",
+      "references/data/research-queue.json:RES-033.reuse_before_research",
+      "projects/site/src/data/cultural-book.json",
+      "destinations/regions.json:balasore"
+    ],
+    "missing_question": "How do clay and lac become Jau Kandhei, and what do documented makers, collections and producer groups tell us about this Balasore craft?",
+    "limits": "Scoped alias and semantic coverage check, not exhaustive proof of absence.",
+    "existing_mentions": [
+      {
+        "path": "projects/site/src/data/cultural-book.json",
+        "chapter": "Silver, Metal, Clay, Stone and Appliqué",
+        "scope": "Barpali/Bargarh clay fish toy process with Jayadev Rana; distinct tradition."
+      },
+      {
+        "path": "projects/site/src/data/cultural-book.json",
+        "chapter": "Growing Up in Odisha",
+        "scope": "Generic clay dolls in school framework, no Jau Kandhei process."
+      }
+    ]
+  },
+  "discovery_only": {
+    "title": "ଜଉ କଣ୍ଢେଇ",
+    "url": "https://antarangakalinga.org/ଜଉ-କଣ୍ଢେଇ/",
+    "publisher": "Antaranga Kalinga",
+    "author": "Deba Tripathy (ଦେଵ ତ୍ରିପାଠୀ)",
+    "publication_date": "2021-05-18",
+    "use": "Topic discovery and originality comparison only; no text, narrative structure, factual evidence or media reused."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "evidence_ready_for_draft",
+    "source_ids": [
+      "jaukandhei-southasia-collection",
+      "jaukandhei-gaon-senapati-20220908",
+      "jaukandhei-missionshakti-coffeetable-iv"
+    ],
+    "finding": "Three independent source families support the documented process, named maker testimony, a distinct historical producer group and museum acquisitions. Original2022MissionShakti cover and relevant spread visually inspected; museum originalHTML and Gaon article read.",
+    "limits": "No fieldwork, interviews, physical-object inspection, current group counts or image reuse rights. Only relevant government spread and cover inspected."
+  },
+  "completed_on": "2026-11-21",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "This request delivers a local article draft and editorial evidence. No public route or website asset changed.",
+  "next_action": "Reviewed article and publication brief delivered for Founder review; website integration awaits a publication instruction.",
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md",
+      "outputs/jau-kandhei-article-2026-11-21/publication-brief.md"
+    ],
+    "editorial_revision": "Disha added a source-backed definition of lac, removed repeated process narration, corrected testimony locators and generated matching reading copy."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_article_sha256": "b5449eb2c9d36faa500a9af0de4c7b3761d7e198c3f2b1d96fa1ee2f78ab7585",
+    "findings": [
+      "Material and maker angle adds beyond existing lacquer finishes and distinct Barpali clay-toy coverage.",
+      "Dates, maker testimony, separate groups and acquisition scope remain distinct.",
+      "No copied or translated Antaranga prose, distinctive narrative sequence or media.",
+      "Seven references resolve to three definitions; reading copy matches canonical body."
+    ],
+    "conservative_derived_word_allocations": {
+      "south-asia-collection-museum": 199,
+      "gaon-connection-ashis-senapati": 195,
+      "odisha-mission-shakti-programme-report": 146
+    },
+    "counting_scope": "Article plus brief; full title/dek and headings charged to each, whole shared opening charged to museum and Gaon, whole relevant paragraphs/notes and applicable brief labels/locators; closing reader question additionally charged to museum. Identical reading copy adds no distinct prose. Process, access, review and rights safeguards and local-corpus comparison are not derived craft claims.",
+    "limits": [
+      "Separate AI review, not human specialist approval.",
+      "Only relevant government spread and cover visually inspected, not entire report.",
+      "Museum acquisition year is not manufacture date; no maker inferred for collected objects.",
+      "No fieldwork, interview, current membership confirmation or media licence.",
+      "No rendered website layout, integration or publication claimed."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md",
+      "sha256": "b5449eb2c9d36faa500a9af0de4c7b3761d7e198c3f2b1d96fa1ee2f78ab7585"
+    },
+    {
+      "path": "kb/research/culture/jau-kandhei-source-review-20261121.json",
+      "sha256": "0f92e2b868fc522da1fcc88cddb9a148f9c4af960bac667ca4f59daaba9afba1"
+    },
+    {
+      "path": "outputs/jau-kandhei-article-2026-11-21/article.md",
+      "sha256": "d8132b775d6ba4d0fb985921f4f2a8379727be4bf2b42f1b6b1d43b8e9cc59e7"
+    },
+    {
+      "path": "outputs/jau-kandhei-article-2026-11-21/publication-brief.md",
+      "sha256": "9fcf743ee7b1bd1ac716457daca47e9f2f598a46424f9c0081d34d6f385788b7"
+    }
+  ],
+  "validation": {
+    "notes": {
+      "definitions": 3,
+      "references": 7,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical_body": true,
+    "foreign_task_preserved": true,
+    "research_map": "pass;1832records",
+    "bundle": "pass",
+    "git_diff_whitespace": "pass"
+  }
+}
