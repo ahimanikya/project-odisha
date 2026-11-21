@@ -1,4 +1,5 @@
 import {pioneerProfiles,pioneersSeries,pioneerRoute,pioneerImage} from './pioneers';
+import {hillDestinationGuides,deomaliGuide} from './hill-destinations';
 import osakothiImage from '../../../../kb/research/stories/osakothi-image.json';
 import osakothi from '../../../../kb/research/stories/when-the-goddess-comes-to-the-wall.json';
 import tasarEditorial from '../../../../kb/research/culture/tasar-editorial.json';
@@ -33,6 +34,8 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ ...hillDestinationGuides.map(guide=>({label:guide.title,category:'Places',dek:guide.summary,href:guide.href,image:guide.photo,regions:guide.regions,aliases:guide.aliases})),
+ {label:'Hills and highland escapes',category:'Places',dek:'Explore Odisha’s peaks, valleys and hill destinations, beginning with Deomali.',href:'/destinations/hills/',image:deomaliGuide.photo,regions:['Across Odisha'],aliases:['Hill stations','Highlands']},
  {"label": "Reading the Bhagabata beyond the Tungi", "category": "Living culture", "dek": "Begin reading the Odia Bhagabata online and keep a passage connected to its source.", "href": "/stories/reading-the-bhagabata/", "image": {"src": "/images/stories/bhagabata-tungi-2016.jpg", "alt": "Entrance to a Bhagabata Tungi with Odia lettering and devotional objects.", "width": 4208, "height": 2368}, "regions": ["Across Odisha"], "aliases": ["Bhagabata", "Bhagabata Tungi", "Wikisource", "Jagannath Das", "ଓଡ଼ିଆ ଭାଗବତ"]},
  {label:pioneersSeries.title,category:'People',dek:pioneersSeries.description,href:pioneersSeries.route,image:pioneerProfiles[0]?pioneerImage(pioneerProfiles[0]):undefined,regions:['Across Odisha']},
  ...pioneerProfiles.map(profile=>({label:profile.name,category:'People',dek:profile.description,href:pioneerRoute(profile.slug),image:pioneerImage(profile),regions:['Across Odisha']})),

@@ -1,0 +1,124 @@
+{
+  "status": "publication_candidate",
+  "article_id": "POD-EDIT-DEOMALI-20261122",
+  "route": "/destinations/deomali/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
+  "image_direction_quote": "Always find a high-quality image and attach it to the article - attach an image to the article preview - also, we can always use more than one image for any article as required.",
+  "authorization": "POD-DEC-2026112201",
+  "work_id": "POD-WORK-2026112201",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Integration, shared records, image, checks and publishing",
+    "Anvesha": "Independent source research and integrated claims review",
+    "Samanta": "Scoped article and navigation implementation; lossless capacity measurements",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "research_evidence": "outputs/deomali-publication-2026-11-22/research/anvesha-findings.md",
+  "media": {
+    "record": "research/destinations/deomali-image.json",
+    "source_revision": "https://commons.wikimedia.org/w/index.php?title=File:Deomali_hilltop.jpg&oldid=1201236862",
+    "original_dimensions": [
+      4032,
+      1860
+    ],
+    "original_date": "2021-09-03",
+    "delivery_dimensions": [
+      2000,
+      923
+    ],
+    "license": "CC BY-SA 4.0",
+    "visual_review": "Root inspected both original candidates at1100px; selected clear landscape without windshield obstruction. Full-frame derivative; preview crop disclosed."
+  },
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false,
+    "prior_receipt_pr": 811
+  },
+  "next_action": "Finish independent review, builds, browser checks, reviewed merge and live publication verification before next article.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "source_word_budgets": {
+      "butterfly": 170,
+      "flora": 160,
+      "others": "101–145"
+    },
+    "printed_page_correction": "Drishti found physical PDF locators one page low; public citation now uses verified printed pages only.",
+    "evidence": "outputs/deomali-publication-2026-11-22/research/integrated-source-review.md"
+  },
+  "capacity_fix": {
+    "method": "Existing lossless optimizer; exact23-path addition only",
+    "measured_saved_bytes": 2944535,
+    "evidence": "outputs/deomali-publication-2026-11-22/capacity/lossless-png-candidates.json",
+    "source_assets_unchanged": true,
+    "gate_unchanged": true,
+    "retention_confirmed": true,
+    "excluded_candidate": "assets/cinema/pencil-deependra-samal-20261101.png is not retained in the coastal build and was removed from proposed scope."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "Local full build in in-app browser",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        812
+      ]
+    ],
+    "no_horizontal_overflow": true,
+    "checks": [
+      "Full-frame article photograph and credited preview images inspected.",
+      "First native footnote and return activated with keyboard.",
+      "Article/Kotpad and article/hills links activated both ways."
+    ],
+    "screenshots": [
+      "desktop.jpg",
+      "mobile.jpg",
+      "narrow.jpg",
+      "mobile-footnotes.jpg",
+      "kotpad-preview.jpg",
+      "hills-preview.jpg"
+    ],
+    "limits": "Viewport simulation, not physical-device, cross-engine or screen-reader certification."
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_suite": "821/821 pass",
+    "coastal_build": "pass",
+    "coastal_suite": "595/597 initial; both expected discovery-count assertions updated for two new entries; affected6/6 pass",
+    "disclosures_dist": {
+      "pages": 1487,
+      "violations": 0
+    },
+    "disclosures_coast": {
+      "pages": 1472,
+      "violations": 0
+    },
+    "publication_build": "pending",
+    "local_page_checks": "outputs/deomali-publication-2026-11-22/local-checks.json"
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "editorial_pass_capacity_pending",
+    "evidence": "outputs/deomali-publication-2026-11-22/review/drishti-integrated.json"
+  }
+}

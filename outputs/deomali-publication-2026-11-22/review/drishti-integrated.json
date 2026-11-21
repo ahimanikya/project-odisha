@@ -1,0 +1,52 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "source_static_review": "pass",
+  "corrections_verified": [
+    "Flora citation now uses correct printed-page locators only.",
+    "Rendered source heading is Footnotes & Sources.",
+    "Image credit describes full-frame article and potential preview crop accurately."
+  ],
+  "rendered_review": {
+    "full_build_article_sha256": "3c1745b95523b4b4ba2d6d16b1d112d5fa2e41d5d0410f97f06961735db49142",
+    "references": 13,
+    "returns": 13,
+    "all_anchors_resolve": true,
+    "duplicate_ids": 0,
+    "single_h1_and_byline": true,
+    "hero_and_og_match": true,
+    "incoming_routes": [
+      "/destinations/",
+      "/destinations/hills/",
+      "/explore/",
+      "/stories/kotpad/",
+      "/reading-room/places/koraput/"
+    ]
+  },
+  "screenshots_inspected": [
+    "desktop.jpg",
+    "mobile.jpg",
+    "narrow.jpg",
+    "mobile-footnotes.jpg",
+    "kotpad-preview.jpg",
+    "hills-preview.jpg"
+  ],
+  "visual_findings": "Clear full-frame article photograph, readable desktop/mobile/narrow title and text, visible creator/licence/modification credit, readable notes/return markers and real photograph in both preview contexts. No visible clipping in inspected screenshots.",
+  "root_observations_attributed": "Root reports keyboard footnote and return, reciprocal Kotpad/hills navigation, and overflow measurements1440/390/320. These interactions were not independently executed by Drishti.",
+  "limitations": "Separate AI review; no human, field, physical-device, cross-engine or screen-reader certification. No deployment yet. Capacity and delivered-payload retention to be recorded separately.",
+  "file_sha256": {
+    "kb/research/places/deomali-article.md": "67d2bb9d6edc56b8d8baa4e05152eca3e39067bc6aa9ab33b19e5690539c5379",
+    "kb/research/destinations/deomali-image.json": "c830f7239ca88672010f0097b6c3a856b45657dd8d5315d263d22c7d92adf705",
+    "projects/site/src/pages/destinations/deomali.astro": "1da72ebb65dd553731ce74f70bc09935233611eba04b04746df5831b78cf6111",
+    "projects/site/src/pages/destinations/hills.astro": "408f0bd734de68b2910c3cf99131f45c53eaf871166701d451066ee3edb494fb",
+    "projects/site/src/data/hill-destinations.ts": "3cb71603eda63a62aa56fc4c7515d2a3b2da55196e3e9b149d003f1142d89389",
+    "projects/site/src/data/destination-directory.ts": "89034a328c7db2fb546ab4fce809734ff3327b323739eb04e161f6c21b5a493e",
+    "projects/site/src/data/discovery.ts": "05b8441c8bf6b15a6182ce6553c92e4f5c2ba3ba4b0cd91131fef2565dbb3658",
+    "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
+    "projects/site/src/pages/stories/kotpad/index.astro": "39d90ae50c92652b2e1e053716db33676e4a2edaca3ee7e78d2ce39fbde4a58d",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "b3b9514bc518c526e555c1ddc0cfb5c7ffe75d8b3a0aecfdccd0f37983d5fe99",
+    "projects/site/tools/optimize-publication-png.mjs": "f056eca3d363c067f81c53182226809a70cf79f0b0dae1cd5aca40a121565bfa",
+    "projects/site/tests/publication-png.test.mjs": "9bc76af37fe4eacf4bc3e08a8973fd849360601834f1c5473731866413935419",
+    "projects/site/public/images/destinations/deomali-hills.webp": "a11da8b60b6a05e8651de7707ca9b9d90384501952a608bf9bafe7b187aeb0ed"
+  }
+}

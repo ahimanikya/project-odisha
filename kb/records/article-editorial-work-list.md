@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1357. blocked: 1, completed: 222, excluded: 871, queued: 263.
+Route inventory: 1359. blocked: 1, completed: 222, excluded: 872, in_progress: 1, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1381,3 +1381,5 @@ Route inventory: 1357. blocked: 1, completed: 222, excluded: 871, queued: 263.
 | POD-EDIT-BAGHACHELI-20261121 | [Bagha Chheli and the Rules of Play](https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/) | completed | Publish reviewed new article with two relevant incoming links and credited documentary photograph; zero programme credit. |
 | POD-EDIT-JAUKANDHEI-20261121 | [Jau Kandhei and the Doll Makers of Balasore](https://projectodisha.org/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/) | completed | Publish reviewed new article with three relevant incoming links; zero programme credit. |
 | POD-EDIT-SAGADA-20261121 | [Sagada: The Work of a Bullock Cart](https://projectodisha.org/stories/sagada-and-the-work-of-the-bullock-cart/) | completed | Publish reviewed new article with two relevant incoming links; zero programme credit. |
+| POD-EDIT-DEOMALI-20261122 | [Deomali: Grasslands Above Koraput](https://projectodisha.org/destinations/deomali/) | in_progress | New researched destination article with rights-cleared article/preview image; zero programme credit. |
+| POD-EDIT-HILLS-INDEX-20261122 | [Hills and highland escapes](https://projectodisha.org/destinations/hills/) | excluded | Navigation for the sequential destination articles. |

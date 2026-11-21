@@ -5,6 +5,7 @@ import ArticleByline from '../../../components/ArticleByline.astro';
 import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
 import KotpadContents from '../../../components/KotpadContents.astro';
 import book from '../../../data/mirgan-kotpad-book.json';
+import {deomaliGuide} from '../../../data/hill-destinations';
 import '../../../styles/article-reading.css';
 import '../../../styles/kotpad-reading.css';
 ---
@@ -14,6 +15,6 @@ import '../../../styles/kotpad-reading.css';
 <div class="book-opening"><figure><ResponsiveImage src={book.cover.src} sizes="(max-width: 640px) 256px, 288px" alt={book.cover.alt} width={book.cover.width} height={book.cover.height} fetchpriority="high"/><figcaption>The first reading edition.</figcaption></figure><div>{book.synopsis.map(p=><p>{p}</p>)}<p><a href="/stories/kotpad/book/">Read the book online →</a></p></div></div>
 <section id="chapters"><h2>Read the chapters</h2><KotpadContents/></section>
 <ArticleReadingPath heading="Continue your reading path" links={[{href:'/stories/kotpad/book/#introduction',title:'Begin with the introduction'},{href:'/stories/kotpad/book/#source-notes',title:'Source notes and references'}]}/>
-<ArticleReadingPath heading="Further reading" links={[{href:'/stories/dongria/book/',title:'Dongria Kondh: Life in Niyamgiri',description:'A separate companion book about the people, food, cloth, learning and songs of Niyamgiri.'}]}/>
+<ArticleReadingPath heading="Further reading" links={[{href:'/stories/dongria/book/',title:'Dongria Kondh: Life in Niyamgiri',description:'A separate companion book about the people, food, cloth, learning and songs of Niyamgiri.'},{href:deomaliGuide.href,title:'Deomali and the high country of Koraput',description:deomaliGuide.summary,image:deomaliGuide.photo.src}]}/>
 <section class="suggest-update"><h2>Suggest an update</h2><p><a href="/contribute/?page=%2Fstories%2Fkotpad%2F">Share a correction or source for this collection</a>.</p><p>GitHub submissions are public. Please omit private contact details and consent documents.</p></section>
 </article></Shell>

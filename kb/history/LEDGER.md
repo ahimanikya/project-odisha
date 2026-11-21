@@ -1659,3 +1659,5 @@ The Founder authorized integration and publication of the revised reader guide, 
 ## 21 November 2026 — Bhagabata reading guide published
 
 Published the separately reviewed reading guide and incoming link from A Place to Learn Together. Required CI and deployment passed; live article, links, sources and image assets verified. Desktop/mobile layout checked. Receipt: [Bhagabata publication](../records/bhagabata-publication-20261121.json). Zero autonomous-programme credit; unrelated receipt task preserved.
+
+- 2026-11-22 — Deomali destination article research and publication authorized; separate research/implementation/review, mandatory credited article and preview image. records/deomali-publication-20261122.json; zero programme credit.
