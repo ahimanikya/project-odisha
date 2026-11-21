@@ -10214,12 +10214,12 @@
       "id": "POD-WORK-2026112202",
       "title": "Publish Kagaja Mukha article",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112202",
-      "next_action": "Integrate, validate, review and publish the authorized article.",
+      "next_action": "Article and three incoming links published and live verified; delivery receipt saved.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112202"
@@ -24603,6 +24603,28 @@
         "Selected source pages inspected; not full-volume visual reading or fieldwork.",
         "Draft only; no website layout or publication check."
       ]
+    },
+    {
+      "id": "POD-REV-2026112202",
+      "title": "Kagaja Mukha separate integrated and publication receipt review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112202",
+        "POD-REL-2026112202"
+      ],
+      "evidence": [
+        "records/kagaja-mukha-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.",
+        "Source scope and dated evidence preserved; no fieldwork claimed."
+      ]
     }
   ],
   "releases": [
@@ -28747,6 +28769,20 @@
       ],
       "evidence": [
         "records/sagada-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112202",
+      "title": "Kagaja Mukha and the Paper Masks of Raghurajpur",
+      "status": "published",
+      "authorization": "POD-DEC-2026112202",
+      "destination": "https://projectodisha.org/stories/kagaja-mukha-and-the-making-of-a-mask/",
+      "refs": [
+        "POD-WORK-2026112202",
+        "POD-DEC-2026112202"
+      ],
+      "evidence": [
+        "records/kagaja-mukha-publication-20261122.json"
       ]
     }
   ],
