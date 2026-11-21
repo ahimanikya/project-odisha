@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `069e4476258c9f8c6c1151eebd6f518314cde10e44fc444b41752c8c308ac17c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b401700ef73f1278e48f16eeda8d5630fc6e78c36fac99de0741d7fd6508ace9`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -379,7 +379,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-2026112101 · Publish Reading the Bhagabata beyond the Tungi | completed | published | Ahimanikya Satapathy | Publication and reciprocal link verified; receipt saved. No further action for this article. | — |
 | POD-WORK-2026112102 · Prepare The Dhinki and the Work Behind Rice | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112103 · Publish The Dhinki and the Work Behind Rice | in_progress | draft | Ahimanikya Satapathy | Review integrated article and relevant links, verify responsive layout, publish and save live receipt. | — |
+| POD-WORK-2026112103 · Publish The Dhinki and the Work Behind Rice | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1331,6 +1331,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026110802 · Patrapoda: leaf parcels and distinct cooking methods | published | https://projectodisha.org/food/patrapoda/ | POD-DEC-225 |
 | POD-REL-171 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | published | https://projectodisha.org/crafts/pipili-applique/ | POD-DEC-225 |
 | POD-REL-2026112101 · Reading the Bhagabata beyond the Tungi | published | https://projectodisha.org/stories/reading-the-bhagabata/ | POD-DEC-2026112101 |
+| POD-REL-2026112103 · The Dhinki and the Work Behind Rice | published | https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/ | POD-DEC-2026112103 |
 
 ## Sources and assets
 

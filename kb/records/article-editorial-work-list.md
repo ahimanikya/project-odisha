@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1352. blocked: 1, completed: 216, excluded: 871, in_progress: 1, queued: 263.
+Route inventory: 1352. blocked: 1, completed: 217, excluded: 871, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1375,4 +1375,4 @@ Route inventory: 1352. blocked: 1, completed: 216, excluded: 871, in_progress: 1
 | POD-EDIT-PIONEERS-SANJUKTA-PANIGRAHI-20261119 | [Sanjukta Panigrahi](https://projectodisha.org/stories/pioneers/sanjukta-panigrahi/) | queued | Reviewed profile release authorized by Founder with Sudhira portrait and remaining portraits deferred. Zero programme credit. |
 | POD-EDIT-PIONEERS-INDEX-20261119 | [Pioneers](https://projectodisha.org/stories/pioneers/) | excluded | Series navigation accompanying six separately reviewed profiles. |
 | POD-EDIT-BHAGABATA-20261121 | [Reading the Bhagabata beyond the Tungi](https://projectodisha.org/stories/reading-the-bhagabata/) | completed | Founder-authorized new reading guide and incoming companion link; zero programme credit. |
-| POD-EDIT-DHINKI-20261121 | [The Dhinki and the Work Behind Rice](https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/) | in_progress | Publish reviewed new article with two relevant incoming links; zero programme credit. |
+| POD-EDIT-DHINKI-20261121 | [The Dhinki and the Work Behind Rice](https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/) | completed | Publish reviewed new article with two relevant incoming links; zero programme credit. |
