@@ -82,3 +82,5 @@
 [Bhanita and literary signatures](bhanita-and-poet-signatures.md) — a sourced song example and the distinction between character, poet and singer.
 
 [How sound and comparison shape Bhanja’s poetry](alankara-and-bhanja.md) — a standalone illustrated close reading; local draft, with Abana still an open question.
+
+[Jau Kandhei and the Doll Makers of Balasore](jau-kandhei-clay-lac-and-the-makers-of-balasore.md) — independently sourced article draft on clay, lac and documented makers.
