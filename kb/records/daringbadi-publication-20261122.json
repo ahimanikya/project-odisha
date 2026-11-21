@@ -1,0 +1,215 @@
+{
+  "status": "reviewed_pending_release_gates",
+  "article_id": "POD-EDIT-DARINGBADI-20261122",
+  "route": "/destinations/daringbadi/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization": "POD-DEC-2026112291",
+  "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
+  "work_id": "POD-WORK-2026112294",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "aa92b064cfc889283972008f304ba989d3af10fe",
+  "preceding_release": {
+    "article": "Deomali",
+    "receipt_pr": 815,
+    "receipt_merge": "29e65f0dfba5c03fc12d9e4fcd787f33c5a16af6"
+  },
+  "coordination": {
+    "brass_fish_preparation": "Completed local commit aa92b064; explicitly released by its owner. Preserve draft and records; no dedicated public integration authorized.",
+    "public_exclusion_check": "Required before publication.",
+    "foreign_task": "POD-EDIT-133 preserved"
+  },
+  "assignments": {
+    "Disha": "Coordinator, imagery, shared records, review integration and publishing",
+    "Anvesha": "Independent research in reserved evidence file",
+    "Samanta": "Read-only integration/retention plan first, then explicitly reserved implementation files",
+    "Drishti": "Separate review after integration"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/daringbadi-publication-2026-11-22/research/findings.md",
+      "outputs/daringbadi-publication-2026-11-22/research/integrated-source-review.md"
+    ],
+    "Samanta": [
+      "kb/research/places/daringbadi-article.md",
+      "projects/site/src/pages/destinations/daringbadi.astro",
+      "projects/site/src/data/hill-destinations.ts",
+      "projects/site/src/pages/destinations/hills.astro",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs"
+    ],
+    "Disha": [
+      "kb/records/daringbadi-publication-20261122.json",
+      "shared records",
+      "Daringbadi image and article integration"
+    ],
+    "Drishti": [
+      "outputs/daringbadi-publication-2026-11-22/review/drishti-review.md"
+    ]
+  },
+  "reuse_before_research": {
+    "queries": [
+      "Daringbadi",
+      "daringbadi|daringibadi in places/site/queue/rollout"
+    ],
+    "finding": "One dated homestay-policy source; no dedicated destination article returned by scoped search.",
+    "pointers": [
+      "research/sources/homestay-cycle1-may2026.md",
+      "research/references/data/research-queue.json:RES-008",
+      "research/methods/trip-planning-content.md",
+      "records/destination-series-20261122.json"
+    ],
+    "missing_question": "What defines Daringbadi as a Kandhamal hill town, which named local places belong in a useful visit, and what primary evidence supports seasons, landscape and practical access without snowfall or facility guarantees?"
+  },
+  "image_requirement": "Relevant high-quality rights-cleared photograph in article, preview and sharing metadata; further images if useful.",
+  "next_action": "Finish final payload/exclusion check and exact-head CI, merge and publish, verify live article and images, then merge reviewed receipt before releasing scope.",
+  "research_evidence": "outputs/daringbadi-publication-2026-11-22/research/findings.md",
+  "media": [
+    {
+      "record": "research/destinations/daringbadi-image.json",
+      "source": "https://commons.wikimedia.org/wiki/File:Dawn_at_Daringbadi_Odisha.jpg",
+      "source_revision_id": 1166125414,
+      "source_revision_access": "Permanent-link target observed on current source page; revision fetch returned cache miss. Current source licence and author directly inspected.",
+      "original_dimensions": [
+        4032,
+        3024
+      ],
+      "original_date": "2025-03-09",
+      "delivery_dimensions": [
+        2000,
+        1500
+      ],
+      "license": "CC BY-SA 4.0",
+      "source_sha256": "94d245cca9d30b7b243f923b82d84b74a2795f5a4e26fc4134977d29ce06bc71",
+      "delivery_sha256": "057d45827cd40945d4825ed89e42192bcc74b1a78d8697503576ed1d761d809f",
+      "delivery_bytes": 116012,
+      "visual_review": "Disha inspected photograph; full-frame resize only. Dawn selected for article/preview/sharing; coffee for context. Hill View Park candidate inspected but not selected.",
+      "provenance_limit": "Location and capture date attributed to Commons uploader; no field verification or current-condition claim."
+    },
+    {
+      "record": "research/destinations/daringbadi-coffee-image.json",
+      "source": "https://commons.wikimedia.org/wiki/File:Coffee_garden,_Daringbari.JPG",
+      "source_revision_id": 1129219145,
+      "source_revision_access": "Permanent-link target observed on current source page; revision fetch returned cache miss. Current source licence and author directly inspected.",
+      "original_dimensions": [
+        4000,
+        3000
+      ],
+      "original_date": "2015-10-19",
+      "delivery_dimensions": [
+        1600,
+        1200
+      ],
+      "license": "CC BY-SA 4.0",
+      "source_sha256": "310f86af3007c82af67b78ec9e10005adfaa6c1060a421398007454ba44ea778",
+      "delivery_sha256": "f3e754d615e1c2767e8f9258c4604f5191c9df8592b6dd21de6fc353475b6c19",
+      "delivery_bytes": 543662,
+      "visual_review": "Disha inspected photograph; full-frame resize only. Dawn selected for article/preview/sharing; coffee for context. Hill View Park candidate inspected but not selected.",
+      "provenance_limit": "Location and capture date attributed to Commons uploader; no field verification or current-condition claim."
+    }
+  ],
+  "modern_web_guidance": {
+    "status": "saved_guides_and_official_documentation_consulted",
+    "guides": [
+      "HTML",
+      "Responsive design",
+      "Card"
+    ],
+    "saved_evidence": "Previously retrieved /private/tmp/deomali-web-guidance.md",
+    "official_reference": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+    "retrieval_limit": "Automatic approval review rejected running an unpinned latest third-party package. No retry/bypass; saved guidance and official documentation used.",
+    "implementation": "Existing semantic article/image components; native full-frame img for secondary image, dimensions and lazy loading; no new interaction API."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "manuscript_sha256": "ff1d56abe3ca460f01d3a33a5419710cc51f155f145f3a377c9b095a64188d0d",
+    "source_word_ceiling": {
+      "forest": 185,
+      "tourism": 163,
+      "district": 98,
+      "commons": 87
+    },
+    "evidence": "outputs/daringbadi-publication-2026-11-22/research/integrated-source-review.md"
+  },
+  "remote_reconciliation": {
+    "main": "29e65f0dfba5c03fc12d9e4fcd787f33c5a16af6",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "Local full build in in-app Chromium",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        812
+      ]
+    ],
+    "horizontal_overflow": false,
+    "single_h1": true,
+    "images_loaded": true,
+    "hero_display_dimensions": [
+      695,
+      521
+    ],
+    "full_frame_images": true,
+    "first_footnote_and_return_keyboard": "pass",
+    "reciprocal_links": "Article to hills collection and back",
+    "preview_image_inspected": true,
+    "screenshots": [
+      "desktop.jpg",
+      "mobile.jpg",
+      "narrow.jpg",
+      "mobile-footnotes.jpg",
+      "hills-preview.jpg"
+    ],
+    "limitations": "Viewport simulation, not physical-device, screen-reader or cross-engine certification.",
+    "screenshot_limit": "mobile-footnotes.jpg captured body/inline references while scrolling; no independent visual source-note-list claim. Keyboard target and return checked by URL/focus, all targets checked structurally."
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_tests": "821/821 pass",
+    "full_disclosures": {
+      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
+      "pages": 1489,
+      "violations": []
+    },
+    "coastal_build": "pass",
+    "coastal_tests": "597/597 pass",
+    "coastal_disclosures": {
+      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
+      "pages": 1474,
+      "violations": []
+    }
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_limitations",
+    "evidence": "outputs/daringbadi-publication-2026-11-22/review/drishti-review.md",
+    "remaining_gates": [
+      "Coastal/publication exclusion and payload check",
+      "Exact-head required CI",
+      "Deployment and live verification",
+      "Reviewed delivery receipt"
+    ]
+  }
+}

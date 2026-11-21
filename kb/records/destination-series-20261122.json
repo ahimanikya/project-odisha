@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": null,
+  "current": "daringbadi",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -14,7 +14,13 @@
     },
     {
       "slug": "daringbadi",
-      "status": "queued"
+      "status": "in_progress",
+      "handoff": "records/daringbadi-publication-20261122.json",
+      "reuse_before_research": [
+        "research/sources/homestay-cycle1-may2026.md",
+        "research/references/data/research-queue.json:RES-008",
+        "research/methods/trip-planning-content.md"
+      ]
     },
     {
       "slug": "putsil",
@@ -68,5 +74,5 @@
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
   "next_hill": "daringbadi",
-  "coordination": "Deomali delivery complete; scope releases on receipt merge. Next shared preparation slot is coordinated with Research Antaranga Kalinga; Daringbadi remains queued until its preparation scope is released."
+  "coordination": "Brass-fish preparation completed and explicitly released. Daringbadi is sole active article; preserve other completed draft without public integration."
 }

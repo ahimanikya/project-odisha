@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-DEOMALI-20261122",
-    "route": "/destinations/deomali/",
+    "id": "POD-EDIT-DARINGBADI-20261122",
+    "route": "/destinations/daringbadi/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/deomali-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+    "phase": "reviewed_pending_release_gates",
+    "handoff": "records/daringbadi-publication-20261122.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -639,14 +638,21 @@
       "handoff": "records/kagaja-mukha-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+    },
+    {
+      "id": "POD-EDIT-DEOMALI-20261122",
+      "route": "/destinations/deomali/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/deomali-publication-20261122.json",
+      "scope_released": true,
+      "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
     }
   ],
   "next_article_coordination": {
-    "status": "handoff_after_deomali_receipt_merge",
-    "next_owner_chat": "Research Antaranga Kalinga",
-    "scope": "One independently researched uncovered topic, draft preparation only, per the Founder instruction independently verified in that chat.",
-    "following_hill": "daringbadi",
-    "condition": "Daringbadi stays queued until that preparation owner explicitly releases the single article slot.",
-    "permission": "Founder explicitly authorized coordination of the two releases."
+    "status": "daringbadi_active_after_explicit_handoff",
+    "completed_preparation": "records/brass-fish-article-preparation-20261122.json",
+    "owner_chat": "Odisha hill destinations",
+    "scope": "Daringbadi research, separate review and publication under existing sequential series direction."
   }
 }

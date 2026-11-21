@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1a92864d8c5d46c9fd0f7c03f2ce54b8062dd09562490a874659c874bfff59fa`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `761902509f1a27a8ca3d815e681b6753fa4db35f9a0578c68327eb13f5f43814`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -394,6 +394,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112202 · Publish Kagaja Mukha article | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112291 · Research, review and publish Deomali | completed | published | Ahimanikya Satapathy | Deomali, its credited photograph and destination preview cards published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112203 · Prepare Bellaguntha brass fish article | completed | reviewed | Ahimanikya Satapathy | Reviewed draft, photograph and publication brief delivered locally; no website integration or publication. Coordinated preparation scope released. | — |
+| POD-WORK-2026112294 · Research, review and publish Daringbadi | in_progress | reviewed | Ahimanikya Satapathy | Complete final publication gates, deploy, live verify and record reviewed receipt. | — |
 
 ## Pending human review and decisions
 
@@ -1118,6 +1119,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112202 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; Source scope and dated evidence preserved; no fieldwork claimed. |
 | POD-REV-2026112291 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions and overflow measurements attributed to root; screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; No fieldwork claimed; current entry arrangements and numerical elevation limits retained. |
 | POD-REV-2026112203 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Selected source pages inspected, not full-volume visual review, fieldwork, interviews or video inspection.; No rendered website layout or publication claimed.; Photograph licensed for noncommercial use under CC BY-NC-SA4.0; no commercial permission asserted. |
+| POD-REV-2026112294 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Final payload, exact-head CI, deployment and live delivery remain required.; Browser viewport simulation only; screenshot and access limits retained in detailed review. |
 
 ## Publication and application history
 
@@ -1417,8 +1419,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112201 | 2026-11-21T18:53:03.266756+00:00 | Prior Sagada receipt merged and checked; new single draft scope reserved. Paper-mask craft selected after scoped coverage checks; no publication or programme credit. | — |
-| POD-EVT-2026112202 | 2026-11-21T19:05:17.589603+00:00 | Original paper-mask article, source evidence and publication brief delivered locally after separate review. Three primary source families and their limits retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112203 | 2026-11-21T19:14:17.629391+00:00 | Started authorized Kagaja Mukha publication with three relevant reading links. | — |
 | POD-EVT-2026112204 | 2026-11-21T20:05:21.616099+00:00 | Reviewed article and three incoming links published and live verified on desktop/mobile. Zero programme credit; evidence-only receipt review and integration pending. | — |
 | POD-EVT-2026112205 | 2026-11-21T20:09:25.801643+00:00 | Separate Drishti delivery review passed using fresh live responses, exact hashes, actual GitHub records and saved screenshots. Evidence-only receipt ready to integrate; no new deployment required. | — |
@@ -1427,6 +1427,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112293 | 2026-11-21T21:14:14.419993+00:00 | Separate Drishti delivery review passed actual publication, six live routes, article/image integrity and screenshots; foreign history preserved. Evidence-only receipt releases scope only after required checks and merge. Zero programme credit. | — |
 | POD-EVT-2026112206 | 2026-11-21T21:49:14.973818+00:00 | After verified Deomali receipt815 merge and explicit coordinated handoff, reserve single independent draft preparation. Foreign Kala Bhoomi task preserved; no publication or programme credit. | — |
 | POD-EVT-2026112207 | 2026-11-21T21:56:14.567357+00:00 | Independent source research and separate originality/editorial/photo review passed. Draft, credited original photo and preview/publication brief delivered locally. No website change, deployment or autonomous-programme credit; own preparation scope released and foreign task preserved. | — |
+| POD-EVT-2026112294 | 2026-11-21T21:59:20.592901+00:00 | Resume authorized hill series after Deomali receipt815 and explicit completed brass-fish draft handoff. Preserve companion draft and foreign task; Daringbadi sole active article with mandatory article/preview imagery. Zero programme credit. | — |
+| POD-EVT-2026112295 | 2026-11-21T22:14:14.796817+00:00 | Separate source and integrated quality review passed with explicit limits. Two licensed credited photographs attached; article/preview/sharing and native notes checked. Full821 and coast597tests pass. Work remains in progress pending exact-head CI, deployment, live verification and reviewed receipt. Brass-fish draft preserved and excluded from intended public scope;zero programme credit. | — |
 
 ## Deferred extensions
 

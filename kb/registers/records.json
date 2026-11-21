@@ -10263,6 +10263,24 @@
       "evidence": [
         "records/brass-fish-article-preparation-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112294",
+      "title": "Research, review and publish Daringbadi",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112291",
+      "next_action": "Complete final publication gates, deploy, live verify and record reviewed receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112291"
+      ],
+      "evidence": [
+        "records/daringbadi-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -24734,6 +24752,27 @@
         "Selected source pages inspected, not full-volume visual review, fieldwork, interviews or video inspection.",
         "No rendered website layout or publication claimed.",
         "Photograph licensed for noncommercial use under CC BY-NC-SA4.0; no commercial permission asserted."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112294",
+      "title": "Daringbadi separate source and integrated quality review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112294"
+      ],
+      "evidence": [
+        "records/daringbadi-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Final payload, exact-head CI, deployment and live delivery remain required.",
+        "Browser viewport simulation only; screenshot and access limits retained in detailed review."
       ]
     }
   ],

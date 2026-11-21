@@ -1550,3 +1550,5 @@ Reuse the [bounded dossier](../culture/cinema-series/palmful-source-2026-11-10.j
 ### Brass fish preparation · 22 November 2026
 
 Added a new Bellaguntha craft narrative, independent source review and image provenance after scoped alias and corpus checks found no dedicated coverage. The existing material-arts narrative remains unchanged. Antaranga Kalinga supplied only the topic lead; process, maker and dated teaching evidence comes from separate original sources. A licensed photograph is attached to the draft and designated for its preview. Three mapped records added; current inventory 1839. Draft preparation only; no website publication or programme credit.
+
+Daringbadi extension, 22 November 2026: mapped `places/daringbadi-article` with primary tourism, forest working-plan and district sources; inventory now1840. Prior brass-fish preparation and its boundaries are preserved. This is a scoped addition, not an exhaustive semantic deduplication claim.
