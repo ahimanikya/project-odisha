@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `64ca3ef87f6874b31bf0132ac549b23d468a56afd50bc6ff798443d84d04bf2a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8a95748b26678533092cf40341fc89563f5231c3b64b8ecb9ea3802190921fbd`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -382,6 +382,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112103 · Publish The Dhinki and the Work Behind Rice | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112104 · Prepare Ganjapa Cards Made for Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112105 · Publish Ganjapa Cards Made for Play | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
+| POD-WORK-2026112106 · Prepare Dhumpa Music and Its Players | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 
 ## Pending human review and decisions
 
@@ -701,6 +702,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112103 · Publish the reviewed Dhinki article | recorded_direction | Ahimanikya Satapathy | Integrate reviewed Dhinki article, explanatory diagram and relevant incoming links; verify mobile/desktop and publish. |
 | POD-DEC-2026112104 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Select a new topic through Antaranga Kalinga; independent research and article preparation only. |
 | POD-DEC-2026112105 · Publish the reviewed Ganjapa article | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article and relevant links, verify responsive layout and publish. |
+| POD-DEC-2026112106 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
 
 ## Reviews
 
@@ -1082,6 +1084,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-301 | pass_with_limitations | True | Separate AI review, not human review.; No origin or ceremony inference from inaccessible tourism source.; 358 public Dhaga and seven local proposals unchanged.; Actual saved live Chrome evidence plus separate AI pixel/content review; no human proofreading claim and no duplicate live browser run.; ZIP digest independently verified; targeted regular-member comparison is not whole-site archive safety certification. Large ZIP remains local only.; No claim that all old catalogue or unrelated pages equal current site; only scoped parent/source/article/photo checks.; Original network-restricted status lookup failure and authorized retry retained; no live failure rewritten.; Source188 allocation and prior source limits inherited; no new research or source-derived prose.; Live PASS does not materialize or approve an unreviewed receipt, receipt merge, or programme credit.; No canonical/Git/build/deployment mutations performed.; Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata. |
 | POD-REV-2026112102 | pass_with_limitations | True | AI editorial review, not human or specialist approval; text-only preparation, no live layout or publication claim. |
 | POD-REV-2026112104 | pass_with_limitations | True | AI editorial review, not human or specialist approval; prepared text only, no live layout or publication claim. |
+| POD-REV-2026112106 | pass_with_limitations | True | Separate AI editorial review, not human specialist approval.; Official PDF source text inspected through original-domain search index; direct acquisition timed out. No visual PDF check claimed.; No audio/video playback, fieldwork, rendered layout or live publication checks claimed. |
 
 ## Publication and application history
 
