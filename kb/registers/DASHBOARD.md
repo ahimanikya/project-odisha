@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d4c674940aac6cddd072ab147325b8cbd625ec27b64de3e16daf9f09193b0718`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f1a77accb1d8d6f0c93c0462da9bfd5f8486eb4f7b44f4a684e45a5536fc5443`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -389,7 +389,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112110 · Prepare Jau Kandhei article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112112 · Prepare Sagada article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112113 · Publish Sagada article | in_progress | reviewed | Ahimanikya Satapathy | Integrate reviewed narrative and reading links, verify layouts and publish through approved main workflow. | — |
+| POD-WORK-2026112113 · Publish Sagada article | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1105,6 +1105,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112110 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Only relevant government spread and cover visually inspected, not entire report.; Museum acquisition year is not manufacture date; no maker inferred for collected objects.; No fieldwork, interview, current membership confirmation or media licence.; No rendered website layout, integration or publication claimed. |
 | POD-REV-2026112111 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.; Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename. Source and historic group distinctions retained. |
 | POD-REV-2026112112 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Original 1978 cover and all four article pages visually inspected; not the whole journal issue.; CSTT lexical entry checked through original-domain indexed text; direct PDF access timed out.; FAO-hosted chapter is comparative context, not an Odisha survey.; No fieldwork, interview, engineering validation, cleared image reuse or current prevalence claim.; No rendered website layout, integration or publication claimed. |
+| POD-REV-2026112113 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.; Historical and geographic source limits retained; no new fieldwork claimed. |
 
 ## Publication and application history
 
@@ -1364,6 +1365,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112107 · Dhumpa Music and Its Players | published | https://projectodisha.org/stories/dhumpa-music-and-its-players/ | POD-DEC-2026112107 |
 | POD-REL-2026112109 · Bagha Chheli and the Rules of Play | published | https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/ | POD-DEC-2026112109 |
 | POD-REL-2026112111 · Jau Kandhei and the Doll Makers of Balasore | published | https://projectodisha.org/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/ | POD-DEC-2026112111 |
+| POD-REL-2026112113 · Sagada: The Work of a Bullock Cart | published | https://projectodisha.org/stories/sagada-and-the-work-of-the-bullock-cart/ | POD-DEC-2026112113 |
 
 ## Sources and assets
 
@@ -1401,8 +1403,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112111 | 2026-11-21T08:21:17.752957+00:00 | Founder authorized publication with two relevant reading links and credited photograph. Prepared narrative and distinct rule versions retained; zero programme credit and unrelated task preserved. | — |
-| POD-EVT-2026112112 | 2026-11-21T09:11:27.608104+00:00 | Bagha Chheli article published with two reciprocal reading paths after separate source/integrated review, required CI and successful Pages deployment. Live article, chapter and licensed photo match local publication; Ganjapa differs only in one verified platform-specific responsive-image filename; desktop/mobile checked. Zero programme credit; foreign task preserved. | — |
 | POD-EVT-2026112113 | 2026-11-21T11:14:24.505017+00:00 | Reserved new Jau Kandhei draft after scoped coverage and prior receipt checks. Antaranga Kalinga used only for topic discovery; independent craft and maker research. Zero programme credit; foreign task preserved. | — |
 | POD-EVT-2026112114 | 2026-11-21T11:22:52.880552+00:00 | Original Jau Kandhei article, source evidence and publication brief delivered locally after separate review. Three source families and distinct group histories retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112115 | 2026-11-21T12:07:38.442036+00:00 | Founder authorized publication with three relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and unrelated task preserved. | — |
@@ -1411,6 +1411,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112118 | 2026-11-21T13:42:22.240632+00:00 | Prior Jau receipt merged and checked; new single draft scope reserved. Independent historical cart-design angle selected after scoped coverage checks; no publication or programme credit. | — |
 | POD-EVT-2026112119 | 2026-11-21T13:49:17.190676+00:00 | Original historical cart-design article, source evidence and publication brief delivered locally after separate review. Three source families and historical/geographic limits retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112120 | 2026-11-21T15:27:23.151976+00:00 | Founder authorized publication with two relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and foreign task preserved. | — |
+| POD-EVT-2026112121 | 2026-11-21T16:41:20.919842+00:00 | Reviewed article and two incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
+| POD-EVT-2026112122 | 2026-11-21T16:43:00.548267+00:00 | Separate Drishti review verified publication, live pages, saved screenshots, lossless capacity fix and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 
 ## Deferred extensions
 
