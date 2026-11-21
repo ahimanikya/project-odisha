@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `16b747a6d7475957708acb047b617ee9940129185774bc8f0481698dd94df732`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d4c674940aac6cddd072ab147325b8cbd625ec27b64de3e16daf9f09193b0718`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -389,6 +389,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112110 · Prepare Jau Kandhei article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112112 · Prepare Sagada article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
+| POD-WORK-2026112113 · Publish Sagada article | in_progress | reviewed | Ahimanikya Satapathy | Integrate reviewed narrative and reading links, verify layouts and publish through approved main workflow. | — |
 
 ## Pending human review and decisions
 
@@ -715,6 +716,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112110 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
 | POD-DEC-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | recorded_direction | Ahimanikya Satapathy | Integrate, check desktop/mobile, publish and verify article with relevant incoming links. |
 | POD-DEC-2026112112 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
+| POD-DEC-2026112113 · Publish reviewed Sagada article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
 
 ## Reviews
 
@@ -1399,7 +1401,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112110 | 2026-11-21T07:42:29.878461+00:00 | Original local article and publication brief delivered after separate review, adding beyond existing name-only mention. Source limits and distinct rule versions retained. Local draft only; zero programme credit; preparation scope released. | — |
 | POD-EVT-2026112111 | 2026-11-21T08:21:17.752957+00:00 | Founder authorized publication with two relevant reading links and credited photograph. Prepared narrative and distinct rule versions retained; zero programme credit and unrelated task preserved. | — |
 | POD-EVT-2026112112 | 2026-11-21T09:11:27.608104+00:00 | Bagha Chheli article published with two reciprocal reading paths after separate source/integrated review, required CI and successful Pages deployment. Live article, chapter and licensed photo match local publication; Ganjapa differs only in one verified platform-specific responsive-image filename; desktop/mobile checked. Zero programme credit; foreign task preserved. | — |
 | POD-EVT-2026112113 | 2026-11-21T11:14:24.505017+00:00 | Reserved new Jau Kandhei draft after scoped coverage and prior receipt checks. Antaranga Kalinga used only for topic discovery; independent craft and maker research. Zero programme credit; foreign task preserved. | — |
@@ -1409,6 +1410,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112117 | 2026-11-21T13:06:55.841975+00:00 | Separate Drishti review verified publication, live pages, saved screenshots and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 | POD-EVT-2026112118 | 2026-11-21T13:42:22.240632+00:00 | Prior Jau receipt merged and checked; new single draft scope reserved. Independent historical cart-design angle selected after scoped coverage checks; no publication or programme credit. | — |
 | POD-EVT-2026112119 | 2026-11-21T13:49:17.190676+00:00 | Original historical cart-design article, source evidence and publication brief delivered locally after separate review. Three source families and historical/geographic limits retained. No website publication; zero programme credit; draft scope released. | — |
+| POD-EVT-2026112120 | 2026-11-21T15:27:23.151976+00:00 | Founder authorized publication with two relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and foreign task preserved. | — |
 
 ## Deferred extensions
 

@@ -4,9 +4,9 @@ description: "A historical Odisha study opens a closer look at the working cart.
 author: "Ahimanikya Satapathy"
 subjects: ["everyday", "arts"]
 type: "Tools and transport essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 Sagada, <span lang="or">ଶଗଡ଼</span>, is the Odia word for a cart.[^1] A photograph in B. G. Yadav’s 1978 study of bullock-cart transport in Odisha shows a load above the frame and a log suspended beneath it.[^2]
@@ -24,8 +24,6 @@ A later discussion gives repair a place alongside design. In a contribution to W
 This is a broader technical context, separate from Yadav’s Odisha case. It helps frame a question about the cart’s working life: can its parts be maintained where it is used?
 
 What did a particular cart carry, and who kept its parts in working order?
-
-## Footnotes & Sources
 
 [^1]: Commission for Scientific and Technical Terminology, [*Administrative Glossary, English–Oriya*](https://www.cstt.education.gov.in/sites/default/files/administrative-glossary-eng-oriya-1-220-part.pdf), p. 56, “cart” entry.
 

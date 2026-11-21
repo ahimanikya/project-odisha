@@ -84,3 +84,5 @@
 [How sound and comparison shape Bhanja’s poetry](alankara-and-bhanja.md) — a standalone illustrated close reading; local draft, with Abana still an open question.
 
 [Jau Kandhei and the Doll Makers of Balasore](jau-kandhei-clay-lac-and-the-makers-of-balasore.md) — independently sourced article draft on clay, lac and documented makers.
+
+[Sagada: The Work of a Bullock Cart](sagada-and-the-work-of-the-bullock-cart.md) — historical cart design, loading and repair, with dated sources.
