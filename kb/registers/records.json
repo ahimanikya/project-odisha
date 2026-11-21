@@ -10155,6 +10155,24 @@
       "evidence": [
         "records/jau-kandhei-publication-20261121.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112112",
+      "title": "Prepare Sagada article",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112112",
+      "next_action": "Prepared article and source review delivered locally; website integration and publication are outside this preparation task.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112112"
+      ],
+      "evidence": [
+        "records/sagada-article-preparation-20261121.json"
+      ]
     }
   ],
   "decisions": [
@@ -15357,6 +15375,21 @@
       "refs": [],
       "evidence": [
         "records/jau-kandhei-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112112",
+      "title": "Prepare another independently researched article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+      "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+      "refs": [],
+      "evidence": [
+        "records/sagada-article-preparation-20261121.json"
       ]
     }
   ],
@@ -24399,6 +24432,30 @@
         "Separate AI review, not human specialist approval.",
         "Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.",
         "Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename. Source and historic group distinctions retained."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112112",
+      "title": "Sagada draft source and originality review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112112"
+      ],
+      "evidence": [
+        "records/sagada-article-preparation-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Original 1978 cover and all four article pages visually inspected; not the whole journal issue.",
+        "CSTT lexical entry checked through original-domain indexed text; direct PDF access timed out.",
+        "FAO-hosted chapter is comparative context, not an Odisha survey.",
+        "No fieldwork, interview, engineering validation, cleared image reuse or current prevalence claim.",
+        "No rendered website layout, integration or publication claimed."
       ]
     }
   ],
