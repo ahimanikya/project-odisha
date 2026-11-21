@@ -2,7 +2,7 @@
   "reviewer": "Drishti",
   "kind": "separate_ai_agent",
   "status": "pass",
-  "method": "Independently reran unchanged losslessPNG on all24 selected actual sources; compared source/output hashes, savings, pixel/ancillary hashes and dimensions against measurement. No sources written.",
+  "method": "Independently reran unchanged losslessPNG on all24 measured candidates. Compared source/output hashes, savings, pixel/ancillary hashes and dimensions against measurement. Selected23retained files after unused Deependra path removed. No sources written.",
   "files": [
     {
       "path": "assets/cinema/pencil-the-question-that-brought-me-here-20261101.png",
@@ -155,16 +155,6 @@
       "height": 1024
     },
     {
-      "path": "assets/cinema/pencil-deependra-samal-20261101.png",
-      "source_sha256": "d7106006f7aec23bab1492217c976abc8fb7477b0a78a08d07673343aeaeb5a5",
-      "output_sha256": "ed6f2570e194f9328d9221e685c8d7b9b7fdf40cbeab0fb0530e52371bc3ffa7",
-      "saved_bytes": 115173,
-      "pixel_sha256": "8ca9de00937d1abb38eadd9700d9f4eb6a0d628865c12782e39113be2fa563a7",
-      "metadata_sha256": "73e739b42db21d0e4b2cca4ef4bbb932079b21171915cf2c45793ffe45ae4db5",
-      "width": 1536,
-      "height": 1024
-    },
-    {
       "path": "assets/cinema/pencil-nirad-mohapatra-20261101.png",
       "source_sha256": "b8c546b43373a1284701c9a5760e62f1ddeadfaa5bcdf5c0f3219dd888440ffb",
       "output_sha256": "77fc66224210dd8b006fc140ed1d3ed06c3fbb79357a4016b112633f9a486883",
@@ -245,5 +235,27 @@
       "height": 1024
     }
   ],
-  "saved_bytes": 3059708
+  "saved_bytes": 2944535,
+  "measured_count": 24,
+  "excluded_after_retention_check": [
+    {
+      "path": "assets/cinema/pencil-deependra-samal-20261101.png",
+      "source_sha256": "d7106006f7aec23bab1492217c976abc8fb7477b0a78a08d07673343aeaeb5a5",
+      "output_sha256": "ed6f2570e194f9328d9221e685c8d7b9b7fdf40cbeab0fb0530e52371bc3ffa7",
+      "saved_bytes": 115173,
+      "pixel_sha256": "8ca9de00937d1abb38eadd9700d9f4eb6a0d628865c12782e39113be2fa563a7",
+      "metadata_sha256": "73e739b42db21d0e4b2cca4ef4bbb932079b21171915cf2c45793ffe45ae4db5",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "selected_count": 23,
+  "focused_tests": {
+    "passed": 6,
+    "failed": 0,
+    "scope": "Final23-path additional allowlist"
+  },
+  "coast_retention": "All23 selected files retained byte-exact in dist-coast; unused Deependra path removed.",
+  "algorithm_and_gate_unchanged": true,
+  "source_assets_unchanged": true
 }

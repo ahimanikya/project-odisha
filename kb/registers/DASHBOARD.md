@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4c3252c19ebec1723f69ca8203de02bb8d1dff8ad5f0670ac24c4aed79bf1b1b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e1b7ad0e9d7f3fc068eb3271843180219ff62db3a438464d471e31c54bd59a93`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -390,7 +390,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112112 · Prepare Sagada article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112113 · Publish Sagada article | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
-| POD-WORK-2026112201 · Research, review and publish Deomali | in_progress | draft | Ahimanikya Satapathy | Complete review and publication with credited article and preview image. | — |
+| POD-WORK-2026112291 · Research, review and publish Deomali | in_progress | draft | Ahimanikya Satapathy | Complete review and publication with credited article and preview image. | — |
 
 ## Pending human review and decisions
 
@@ -718,7 +718,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | recorded_direction | Ahimanikya Satapathy | Integrate, check desktop/mobile, publish and verify article with relevant incoming links. |
 | POD-DEC-2026112112 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
 | POD-DEC-2026112113 · Publish reviewed Sagada article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
-| POD-DEC-2026112201 · Publish the destination series sequentially, beginning with Deomali | recorded_direction | Ahimanikya Satapathy | Research, separate review and publication one hill destination at a time, then broader destination series. Images in article and preview required. |
+| POD-DEC-2026112291 · Publish the destination series sequentially, beginning with Deomali | recorded_direction | Ahimanikya Satapathy | Research, separate review and publication one hill destination at a time, then broader destination series. Images in article and preview required. |
 
 ## Reviews
 
@@ -1414,7 +1414,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112120 | 2026-11-21T15:27:23.151976+00:00 | Founder authorized publication with two relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and foreign task preserved. | — |
 | POD-EVT-2026112121 | 2026-11-21T16:41:20.919842+00:00 | Reviewed article and two incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
 | POD-EVT-2026112122 | 2026-11-21T16:43:00.548267+00:00 | Separate Drishti review verified publication, live pages, saved screenshots, lossless capacity fix and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
-| POD-EVT-2026112201 | 2026-11-21T19:23:23.821537+00:00 | Founder authorized sequential destination publication and mandatory article/preview imagery. Deomali is sole active article; previous Sagada receipt merged; foreign Kala Bhoomi task preserved. Zero programme credit. | — |
+| POD-EVT-2026112291 | 2026-11-21T19:23:23.821537+00:00 | Founder authorized sequential destination publication and mandatory article/preview imagery. Deomali is sole active article; previous Sagada receipt merged; foreign Kala Bhoomi task preserved. Zero programme credit. | — |
 
 ## Deferred extensions
 

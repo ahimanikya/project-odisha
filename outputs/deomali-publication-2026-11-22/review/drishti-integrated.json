@@ -33,7 +33,7 @@
   ],
   "visual_findings": "Clear full-frame article photograph, readable desktop/mobile/narrow title and text, visible creator/licence/modification credit, readable notes/return markers and real photograph in both preview contexts. No visible clipping in inspected screenshots.",
   "root_observations_attributed": "Root reports keyboard footnote and return, reciprocal Kotpad/hills navigation, and overflow measurements1440/390/320. These interactions were not independently executed by Drishti.",
-  "limitations": "Separate AI review; no human, field, physical-device, cross-engine or screen-reader certification. No deployment yet. Capacity and delivered-payload retention to be recorded separately.",
+  "limitations": "Separate AI review; no human, field, physical-device, cross-engine or screen-reader certification. No deployment yet. Publication output and CI/live checks remain coordinator release gates.",
   "file_sha256": {
     "kb/research/places/deomali-article.md": "67d2bb9d6edc56b8d8baa4e05152eca3e39067bc6aa9ab33b19e5690539c5379",
     "kb/research/destinations/deomali-image.json": "c830f7239ca88672010f0097b6c3a856b45657dd8d5315d263d22c7d92adf705",
@@ -45,8 +45,16 @@
     "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
     "projects/site/src/pages/stories/kotpad/index.astro": "39d90ae50c92652b2e1e053716db33676e4a2edaca3ee7e78d2ce39fbde4a58d",
     "projects/site/tools/nimuhi-footnote-heading.mjs": "b3b9514bc518c526e555c1ddc0cfb5c7ffe75d8b3a0aecfdccd0f37983d5fe99",
-    "projects/site/tools/optimize-publication-png.mjs": "f056eca3d363c067f81c53182226809a70cf79f0b0dae1cd5aca40a121565bfa",
-    "projects/site/tests/publication-png.test.mjs": "9bc76af37fe4eacf4bc3e08a8973fd849360601834f1c5473731866413935419",
+    "projects/site/tools/optimize-publication-png.mjs": "fb49407612ed6d2476ae0ea007186795c36b604853344ff36e707e97c49a3ae0",
+    "projects/site/tests/publication-png.test.mjs": "064918f485e63d9142598aec1bb0fc5f99b0b3623633d281f11fdd753b7c25af",
     "projects/site/public/images/destinations/deomali-hills.webp": "a11da8b60b6a05e8651de7707ca9b9d90384501952a608bf9bafe7b187aeb0ed"
+  },
+  "capacity_review": {
+    "status": "pass",
+    "report": "drishti-capacity.json",
+    "selected_paths": 23,
+    "saved_bytes": 2944535,
+    "focused_tests": "6/6 pass",
+    "coast_retention": "23/23 byte exact"
   }
 }

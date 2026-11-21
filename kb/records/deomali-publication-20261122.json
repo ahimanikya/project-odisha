@@ -6,8 +6,8 @@
   "started_on": "2026-11-22",
   "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
   "image_direction_quote": "Always find a high-quality image and attach it to the article - attach an image to the article preview - also, we can always use more than one image for any article as required.",
-  "authorization": "POD-DEC-2026112201",
-  "work_id": "POD-WORK-2026112201",
+  "authorization": "POD-DEC-2026112291",
+  "work_id": "POD-WORK-2026112291",
   "programme_credit": 0,
   "scope_released": false,
   "input_head": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
@@ -118,7 +118,16 @@
   "integrated_review": {
     "reviewer": "Drishti",
     "kind": "separate_ai_agent",
-    "status": "editorial_pass_capacity_pending",
-    "evidence": "outputs/deomali-publication-2026-11-22/review/drishti-integrated.json"
+    "status": "pass",
+    "evidence": "outputs/deomali-publication-2026-11-22/review/drishti-integrated.json",
+    "capacity_evidence": "outputs/deomali-publication-2026-11-22/review/drishti-capacity.json"
+  },
+  "concurrent_release_reconciliation": {
+    "pr": 812,
+    "article": "Kagaja Mukha",
+    "detected_after_initial_reconciliation": true,
+    "shared_files_overlap": true,
+    "response": "Renumber Deomali pre-merge work/decision/event IDs to2026112291 to avoid collision with existing Kagaja preparation; keep releases sequential and reconcile latest main before merge. No changes to foreign work.",
+    "status": "waiting_for_prior_release"
   }
 }
