@@ -1,0 +1,155 @@
+{
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-GANJAPA-20261121",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "authorization": "POD-DEC-2026112104",
+  "work_id": "POD-WORK-2026112104",
+  "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+  "programme_credit": 0,
+  "scope_released": true,
+  "input_head": "40c3603be3cea930c8691ef4c056f1c0b26f5275",
+  "remote_reconciliation": {
+    "main": "40c3603be3cea930c8691ef4c056f1c0b26f5275",
+    "tree_matches_local": true,
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "assignments": {
+    "Disha": "Topic selection, shared records, editorial integration and delivery",
+    "Anvesha": "Independent evidence research in reserved source-review record",
+    "Samanta": "Draft article and publication brief in reserved files",
+    "Drishti": "Separate read-only source, originality and editorial review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/ganjapa-source-review-20261121.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/ganjapa-cards-made-for-play.md",
+      "outputs/ganjapa-article-2026-11-21/publication-brief.md"
+    ],
+    "Disha": [
+      "records/ganjapa-article-preparation-20261121.json",
+      "kb/registers/records.json",
+      "kb/team/operations.json",
+      "kb/history/ledger.jsonl",
+      "kb/research/references/data/research-map.json",
+      "kb/registers/DASHBOARD.md",
+      "kb/catalog.json",
+      "outputs/ganjapa-article-2026-11-21/article.md"
+    ]
+  },
+  "runtime": "Existing separate task-scoped agents reused; not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation",
+  "novelty": {
+    "queries": [
+      "Ganjapa",
+      "Ganjifa",
+      "ganjapha",
+      "ଗଞ୍ଜପା",
+      "ଗଞ୍ଜିଫା",
+      "ଗଞ୍ଜାପା"
+    ],
+    "finding": "No matches found in research-map queries or scoped KB and site corpus search. Existing Raghurajpur and material-arts narratives are adjacent, not playing-card coverage.",
+    "reuse": [
+      "culture/material-arts.md",
+      "culture/raghurajpur-pattachitra.md",
+      "references/data/research-queue.json:RES-032.reuse_before_research",
+      "references/data/research-queue.json:RES-033.reuse_before_research"
+    ],
+    "missing_question": "What do documented card sets and craft accounts reveal about making, identifying and playing with Ganjapa cards?",
+    "limits": "Scoped semantic/alias check, not exhaustive proof of absence."
+  },
+  "discovery_only": {
+    "title": "ପହିଲି ରଜ / Pahili Raja",
+    "url": "https://antarangakalinga.org/%E0%AC%AA%E0%AC%B9%E0%AC%BF%E0%AC%B2%E0%AC%BF-%E0%AC%B0%E0%AC%9C/amp/",
+    "publisher": "Antaranga Kalinga",
+    "credited_poet": "Dr Sachidananda Routray",
+    "publication_date": null,
+    "locator": "Section (ଶେଷରଜ), second stanza, contains the word ଗଞ୍ଜପା.",
+    "access": "Search-indexed original page text inspected; direct AMP/non-AMP opens returned cache miss or timeout.",
+    "use": "Topic discovery through a mention in a Raja poem page, not a dedicated Ganjapa article. No poem, translation, prose, image or distinctive narrative reused as article evidence."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Three independent evidence families support maker testimony, craft process and object-specific variation; claims bounded to inspected records."
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/ganjapa-cards-made-for-play.md",
+      "outputs/ganjapa-article-2026-11-21/publication-brief.md"
+    ],
+    "editorial_revision": "Shortened repetitive commentary, clarified playing cards and ministers, retained object-specific examples and avoided treating rank identification as a game rulebook."
+  },
+  "completed_on": "2026-11-21",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "This request delivers a local article draft and editorial evidence; no public route or website assets changed.",
+  "next_action": "Prepared article delivered for Founder review; website integration awaits a publication instruction.",
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_article_sha256": "887e72619ef851d006f8e4211d4cc8debfc78230cf0381ed78718254fe60577c",
+    "findings": [
+      "Three source families independently inspected against claims and exact locators.",
+      "Original article adds card-set and maker-practice coverage; no Antaranga prose, poem, translation or media reused.",
+      "Three note definitions support six references; reading copy preserves canonical body.",
+      "Object dates, card counts, shape and testimony remain scoped. No invented rules, origins, extinction or sole-maker claims."
+    ],
+    "derived_word_allocations_including_notes": {
+      "ganjapa-crt-sethi-process": 169,
+      "ganjapa-mahapatra-interview2025": 171,
+      "ganjapa-ignca-catalogue": 160
+    },
+    "limits": [
+      "Separate AI editorial review, not human specialist approval.",
+      "No fieldwork, video playback, rendered-layout or live publication checks claimed."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/ganjapa-cards-made-for-play.md",
+      "sha256": "887e72619ef851d006f8e4211d4cc8debfc78230cf0381ed78718254fe60577c"
+    },
+    {
+      "path": "kb/research/culture/ganjapa-source-review-20261121.json",
+      "sha256": "07f6292e28687c85a121dda620668555af8af3b31c28e462bb5c8a38b9b306d4"
+    },
+    {
+      "path": "outputs/ganjapa-article-2026-11-21/article.md",
+      "sha256": "a4073af3c12a62571ea524584fc64357aed534c1ddc88fc85bb4515d277d83c3"
+    },
+    {
+      "path": "outputs/ganjapa-article-2026-11-21/publication-brief.md",
+      "sha256": "6737adb979d3034b5dab9b0ecfeed99fd6e72f69bb96bef1b4ce4f18b9a93989"
+    }
+  ],
+  "validation": {
+    "notes": {
+      "definitions": 3,
+      "references": 6,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical_body": true,
+    "foreign_task_preserved": true,
+    "registers": "pass",
+    "catalogue": "pass",
+    "team_assignments": "pass",
+    "autonomous_program": "pass; zero credit",
+    "research_map": "pass",
+    "bundle": "pass",
+    "git_diff_whitespace": "pass"
+  }
+}

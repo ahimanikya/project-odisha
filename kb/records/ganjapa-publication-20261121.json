@@ -1,0 +1,120 @@
+{
+  "status": "reviewed_local",
+  "article_id": "POD-EDIT-GANJAPA-20261121",
+  "route": "/stories/ganjapa-cards-made-for-play/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the Ganjapa article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112105",
+  "work_id": "POD-WORK-2026112105",
+  "programme_credit": 0,
+  "scope_released": false,
+  "preparation_receipt": "records/ganjapa-article-preparation-20261121.json",
+  "input_head": "b2534c1c3020ecde05ced4ad6e2d409427de788a",
+  "remote_main": "40c3603be3cea930c8691ef4c056f1c0b26f5275",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Shared records, route inventory, builds, browser verification and publication",
+    "Anvesha": "Read-only source review of proposed schematic and integrated claims",
+    "Samanta": "Implement new article, original schematic and two incoming article links",
+    "Drishti": "Separate read-only integrated quality review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro",
+      "projects/site/public/images/stories/ganjapa-pack-comparison.svg",
+      "projects/site/src/components/PattachitraArticle.astro",
+      "projects/site/src/pages/visit/[kind]/[slug].astro"
+    ],
+    "Disha": [
+      "kb/records/ganjapa-publication-20261121.json",
+      "kb/research/culture/ganjapa-cards-made-for-play.md",
+      "kb/team/operations.json",
+      "kb/registers/records.json",
+      "kb/history/ledger.jsonl",
+      "kb/records/article-editorial-rollout.json",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json",
+      "kb/reference/public-website-routes.json",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "generated register, catalogue and workbench views"
+    ]
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "html"
+    ],
+    "application": "Semantic article and figure, intrinsic image dimensions, single h1, responsive existing reading styles; no new client script."
+  },
+  "media_plan": "Original compact schematic comparing the two precisely identified IGNCA packs: rectangular 192 cards/16 suits and round 144 cards/12 suits. No recreation of card artwork; clearly labelled diagram.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Final SVG and narrow render verified against IGNCA rows3 and56; original diagram with accurate scoped names, shapes, dates and counts. No copied artwork or invented game rules."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Separately inspected desktop/mobile screenshots, three built routes, all six reference/return anchors, one source heading, both incoming and outgoing links and exact SVG bytes. No blockers; release gates and live verification pending.",
+    "catalogue_derived_words": 184,
+    "limits": "Separate AI review, not human specialist approval or fieldwork."
+  },
+  "media": {
+    "path": "projects/site/public/images/stories/ganjapa-pack-comparison.svg",
+    "kind": "original explanatory schematic",
+    "bytes": 1624,
+    "sha256": "7d543be11341b70188b71cfdd066ca4699c6b9bec7e2005312f2cf0600849296",
+    "creator": "Samanta task-scoped AI implementation under Founder direction",
+    "rights": "Original schematic created for Project Odisha, no copied third-party artwork. Internal provenance only.",
+    "basis": "IGNCA catalogue entries3 and56, dates are year of the set, shapes not to scale."
+  },
+  "incoming_routes": [
+    "/crafts/pattachitra/",
+    "/visit/places/raghurajpur/"
+  ],
+  "browser_review": {
+    "status": "pass",
+    "surface": "local full build, in-app browser",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 812
+      }
+    ],
+    "checks": [
+      "Title, full diagram, mobile body and visible source notes inspected.",
+      "No horizontal overflow at observed widths.",
+      "Footnote1 and return link clicked.",
+      "Both incoming reading links and both outgoing return links clicked.",
+      "Pattachitra incoming card visually inspected on mobile."
+    ],
+    "screenshots": [
+      "outputs/ganjapa-publication-2026-11-21/desktop-preview.jpg",
+      "outputs/ganjapa-publication-2026-11-21/mobile-preview.jpg",
+      "outputs/ganjapa-publication-2026-11-21/pattachitra-mobile-link.jpg"
+    ],
+    "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+  },
+  "local_validation": {
+    "full_build": "pass after granting existing dependency-cache access",
+    "full_suite": "821/821 pass",
+    "disclosures_dist": {
+      "pages": 1481,
+      "violations": 0
+    },
+    "structure": "outputs/ganjapa-publication-2026-11-21/local-structure.json",
+    "coastal_build": "running",
+    "publication_build": "pending clean required CI"
+  }
+}
