@@ -1,0 +1,172 @@
+{
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+  "programme_credit": 0,
+  "assignments": {
+    "Disha": "Topic selection, shared records, editorial integration and delivery",
+    "Anvesha": "Independent evidence research in reserved source-review record",
+    "Samanta": "Draft article and publication brief after evidence handoff",
+    "Drishti": "Separate read-only source, originality and editorial review"
+  },
+  "runtime": "Existing separate task-scoped AI agents reused; not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation",
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-KAGAJAMUKHA-20261122",
+  "authorization": "POD-DEC-2026112201",
+  "work_id": "POD-WORK-2026112201",
+  "scope_released": true,
+  "input_head": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
+  "remote_reconciliation": {
+    "prior_receipt_pr": 811,
+    "prior_receipt_merged": true,
+    "required_check_run": 44926129716,
+    "required_check_result": "SUCCESS",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/kagaja-mukha-source-review-20261122.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/kagaja-mukha-and-the-making-of-a-mask.md",
+      "outputs/kagaja-mukha-article-2026-11-22/publication-brief.md"
+    ],
+    "Disha": [
+      "shared registers, map, handoff and clean reading copy"
+    ]
+  },
+  "novelty": {
+    "queries": [
+      "mask",
+      "papier",
+      "kagaja mukha",
+      "paper mask",
+      "କାଗଜମୁଖା"
+    ],
+    "finding": "No dedicated paper-mask narrative found in scoped map and corpus searches. Existing cultural-book chapter25 lists masks, fresco coverage shows painted faces without material attribution, and performance pages discuss other mask uses; none explains this documented making process. Earlier fresco source review had removed an unsupported papier-mache-specific village claim.",
+    "reuse": [
+      "culture/raghurajpur-pattachitra.md",
+      "culture/index.md",
+      "people/people-and-creations.md",
+      "references/data/research-queue.json:RES-033.reuse_before_research",
+      "kb/records/fresco-editorial-source-mapping-2026-10-19.json",
+      "projects/site/src/data/cultural-book.json",
+      "projects/site/src/components/PattachitraArticle.astro",
+      "kb/research/culture/ganjapa-cards-made-for-play.md"
+    ],
+    "missing_question": "How do documented Raghurajpur mask-making methods distinguish the shaped object, its painted surface and display or performance uses?",
+    "limits": "Scoped alias and semantic check, not exhaustive proof of absence."
+  },
+  "discovery_only": {
+    "title": "କାଗଜମୁଖା",
+    "url": "https://antarangakalinga.org/କାଗଜମୁଖା/",
+    "publisher": "Antaranga Kalinga",
+    "use": "Topic discovery and originality comparison only; no prose, facts or media to be reused.",
+    "author": "Deba Tripathy (ଦେଵ ତ୍ରିପାଠୀ)",
+    "publication_date": "2020-05-12",
+    "modified_date": "2025-09-23",
+    "access": "Original HTML retrieved and full article read for topic attribution and originality comparison."
+  },
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "This request delivers a local article draft and editorial evidence. No public route or website asset changed.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "evidence_ready_for_draft",
+    "source_ids": [
+      "kagajamukha-gambhir-idc",
+      "kagajamukha-baral-nid",
+      "kagajamukha-lka-2016-17"
+    ],
+    "unused_context": [
+      "kagajamukha-sahu-nie-201607"
+    ],
+    "finding": "Three original documentation works support the bounded draft; two making accounts remain distinct, and the dated institutional teaching example is not an outcomes claim.",
+    "limits": [
+      "Separate AI review, not human specialist approval.",
+      "Selected original PDF pages visually inspected; not every page of each work.",
+      "No fieldwork, interview, current prevalence or cleared source-image reuse.",
+      "No rendered website layout, integration or publication claimed."
+    ]
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/kagaja-mukha-and-the-making-of-a-mask.md",
+      "outputs/kagaja-mukha-article-2026-11-22/publication-brief.md"
+    ],
+    "editorial_revision": "Disha clarified the title and pulp description, removed research-record narration and tightened the ending; generated matching reading copy."
+  },
+  "completed_on": "2026-11-22",
+  "next_action": "Reviewed article and publication brief delivered for Founder review; website integration awaits a publication instruction.",
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_article_sha256": "bc754598a5cbeb4e9da829cf09ef5ba658e5693378e0897c37c2964d968e80b2",
+    "findings": [
+      "Distinct material-and-maker treatment adds beyond incidental village, fresco and performance references.",
+      "No copied or translated Antaranga prose, distinctive sequence or media.",
+      "Named makers, separate methods and dated institutional demonstration retain their source scope.",
+      "Four native note references resolve to three definitions; reading copy matches canonical body.",
+      "Three proposed reading routes verified in local sources/template."
+    ],
+    "conservative_derived_word_allocations": {
+      "sakshi-gambhir-masks-raghurajpur": 197,
+      "baral-divyadarshan-sharma-nid-monograph": 157,
+      "lalit-kala-akademi-2016-17": 117
+    },
+    "counting_scope": "Article plus brief: full title/dek and all three headings charged to each family; relevant complete paragraphs and notes; whole closing reflection charged to IDC and NID; brief title/locators and derived exclusion or dated-event limitations charged. Identical reading-copy text adds no distinct prose. Internal corpus-search, rights and production provenance is not derived craft content.",
+    "limits": [
+      "Separate AI review, not human specialist approval.",
+      "Selected original PDF pages visually inspected; not every page of each work.",
+      "No fieldwork, interview, current prevalence or cleared source-image reuse.",
+      "No rendered website layout, integration or publication claimed."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/kagaja-mukha-and-the-making-of-a-mask.md",
+      "sha256": "bc754598a5cbeb4e9da829cf09ef5ba658e5693378e0897c37c2964d968e80b2"
+    },
+    {
+      "path": "kb/research/culture/kagaja-mukha-source-review-20261122.json",
+      "sha256": "200a9c396ba6ed330fb84f322b19b73d6d16392b9b5abf579321111aca9897d7"
+    },
+    {
+      "path": "outputs/kagaja-mukha-article-2026-11-22/article.md",
+      "sha256": "55da9e1a575221f50a72bf417918bac8941b793bff70418710d7ca89cad0fe1a"
+    },
+    {
+      "path": "outputs/kagaja-mukha-article-2026-11-22/publication-brief.md",
+      "sha256": "e0a3ba0196e2d47339582e9bd38407577b9602be41f1c16bf09a6b13203ccabf"
+    }
+  ],
+  "validation": {
+    "notes": {
+      "definitions": 3,
+      "references": 4,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical_body": true,
+    "foreign_task_preserved": true,
+    "research_map": "pass;1836 records",
+    "bundle": "pass;1906 concepts",
+    "git_diff_whitespace": "pass",
+    "autonomous_program": "pass; record consistency only, zero programme credit",
+    "team_assignments": "pass",
+    "registers": "pass;1293 records,766 events",
+    "catalogue": "pass;1906 concepts",
+    "delivery_hashes": "pass"
+  }
+}
