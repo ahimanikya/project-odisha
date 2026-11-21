@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d706ba53ea0ec5c38e845c155589cd434fb16cb82656a03d95b7970366dbe33c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d6a6225c2778a6c922637caa54c1f0110d988f54f5ef4b4a608d0fe2bcfbfd6a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -383,7 +383,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112104 · Prepare Ganjapa Cards Made for Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112105 · Publish Ganjapa Cards Made for Play | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112106 · Prepare Dhumpa Music and Its Players | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112107 · Publish Dhumpa Music and Its Players | in_progress | draft | Ahimanikya Satapathy | Implement reviewed article, check responsive rendering and links, publish and verify live delivery. | — |
+| POD-WORK-2026112107 · Publish Dhumpa Music and Its Players | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1087,6 +1087,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112102 | pass_with_limitations | True | AI editorial review, not human or specialist approval; text-only preparation, no live layout or publication claim. |
 | POD-REV-2026112104 | pass_with_limitations | True | AI editorial review, not human or specialist approval; prepared text only, no live layout or publication claim. |
 | POD-REV-2026112106 | pass_with_limitations | True | Separate AI editorial review, not human specialist approval.; Official PDF source text inspected through original-domain search index; direct acquisition timed out. No visual PDF check claimed.; No audio/video playback, fieldwork, rendered layout or live publication checks claimed. |
+| POD-REV-2026112107 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.; Earlier Dhuduki and Daskathia attribution/footnote conventions preserved; not a complete editorial review of those pages. |
 
 ## Publication and application history
 
@@ -1343,6 +1344,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112101 · Reading the Bhagabata beyond the Tungi | published | https://projectodisha.org/stories/reading-the-bhagabata/ | POD-DEC-2026112101 |
 | POD-REL-2026112103 · The Dhinki and the Work Behind Rice | published | https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/ | POD-DEC-2026112103 |
 | POD-REL-2026112105 · Ganjapa Cards Made for Play | published | https://projectodisha.org/stories/ganjapa-cards-made-for-play/ | POD-DEC-2026112105 |
+| POD-REL-2026112107 · Dhumpa Music and Its Players | published | https://projectodisha.org/stories/dhumpa-music-and-its-players/ | POD-DEC-2026112107 |
 
 ## Sources and assets
 
@@ -1380,7 +1382,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261111001 | 2026-11-11T11:17:44.468501+00:00 | Register pending Kala Bhoomi native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
 | POD-EVT-20261111002 | 2026-11-11T12:51:44.206237+00:00 | Kala Bhoomi actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261113001 | 2026-11-13T15:27:28.299505+00:00 | Malajanha added to the local viewing-room preview; Matira Manisha narration kept as a separate literary companion. Source beginning/end and embedded sample checked;19tests and independent review passed. Existing entries and foreign work preserved. No publication or book changes; zero programme credit. | — |
 | POD-EVT-20261113002 | 2026-11-13T16:15:17.790755+00:00 | Aparichita (1980) added to the local viewing room with its Pratibha Ray novel connection. Opening, ending and embedded playback sampled; 20 tests and independent review passed. Previous 12 entries and Matira Manisha narration preserved. No publication or book changes; zero programme credit. | — |
@@ -1390,6 +1391,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261115003 | 2026-11-14T21:07:23.822120+00:00 | Founder authorized final typo check and publication of the approved shorter personal essay. Separate typo review found no required corrections. Preserve seven photographs and original source boundaries; release checks pending. No programme credit. | — |
 | POD-EVT-20261115004 | 2026-11-14T21:57:13.996993+00:00 | Published the author-approved shorter Ekamra personal essay after final typo review, separate exact-candidate review, required CI and Pages deployment. Revised live prose, seven unchanged photograph hashes, three footnotes, discovery and reading links verified. Zero programme credit; foreign ownership preserved. | — |
 | POD-EVT-2026112107 | 2026-11-21T06:07:01.395468+00:00 | Founder authorized publication of the reviewed Dhumpa article with three relevant reading links. Native source-heading integration only; prepared narrative and evidence preserved. Foreign task retained; zero programme credit. | — |
+| POD-EVT-2026112108 | 2026-11-21T07:03:33.086369+00:00 | Dhumpa article published with three reciprocal reading paths after separate source/integrated review, required CI and successful Pages deployment. Four live article bodies match local publication, desktop/mobile checked. Zero programme credit; foreign task preserved. | — |
 
 ## Deferred extensions
 
