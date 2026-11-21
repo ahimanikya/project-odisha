@@ -1,0 +1,31 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/dhinki-and-the-work-behind-rice.md';
+const image = {src: '/images/stories/dhinki-mechanism.svg', alt: 'Two stages of a dhinki: pressing the short foot end lowers it and lifts the pestle; releasing pressure lets the pestle fall into the grain hollow. The fulcrum stays fixed.', width: 640, height: 840};
+const continueReading = [{href: '/stories/essential-odia-dhaga/', title: 'Essential Odia Dhaga: 25 Sayings to Carry With You', description: 'Encounter the dhinki in a saying about habits that travel with us.', image: '/dhaga/assets/dhaga-cultural-cover-v2.webp'}];
+const furtherReading = [{href: '/stories/odia-dhaga/', title: 'The Poetry We Speak', description: 'How everyday sayings carry language, humour and cultural memory.'}, {href: '/dhaga/', title: 'Words We Carry', description: 'Explore the illustrated collection of Odia sayings.', image: '/dhaga/assets/dhaga-cultural-cover-v2.webp'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <figure class="mechanism-figure">
+      <img {...image} loading="eager" fetchpriority="high"/>
+      <figcaption>Simplified diagram of the lever action; proportions and construction vary.</figcaption>
+    </figure>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fdhinki-and-the-work-behind-rice%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  .mechanism-figure{max-width:32rem;margin-inline:auto}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

@@ -1,0 +1,132 @@
+{
+  "status": "reviewed_candidate",
+  "article_id": "POD-EDIT-DHINKI-20261121",
+  "route": "/stories/dhinki-and-the-work-behind-rice/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the Dhinki article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112103",
+  "work_id": "POD-WORK-2026112103",
+  "programme_credit": 0,
+  "scope_released": false,
+  "preparation_receipt": "records/dhinki-article-preparation-20261121.json",
+  "input_head": "a4e3b6723f2ffaea3df916961d171a3e144c1aae",
+  "remote_main": "a4e3b6723f2ffaea3df916961d171a3e144c1aae",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Shared records, route inventory, builds, browser review and publishing",
+    "Anvesha": "Read-only source and proposed mechanism-diagram accuracy review",
+    "Samanta": "Implement new article, simple original SVG mechanism diagram and two incoming article links only",
+    "Drishti": "Separate read-only integrated review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro",
+      "projects/site/public/images/stories/dhinki-mechanism.svg",
+      "projects/site/src/pages/stories/essential-odia-dhaga.astro",
+      "projects/site/src/pages/stories/odia-dhaga.astro"
+    ],
+    "Disha": [
+      "kb/research/culture/dhinki-and-the-work-behind-rice.md",
+      "kb/records/dhinki-publication-20261121.json",
+      "kb/team/operations.json",
+      "kb/registers/records.json",
+      "kb/registers/DASHBOARD.md",
+      "kb/history/ledger.jsonl",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "projects/site/editions/coast.json",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "kb/catalog.json",
+      "kb/research/search-index.json",
+      "kb/reference/public-website-routes.json",
+      "kb/records/editorial-workbench.json",
+      "projects/site/editions/search-candidate.json",
+      "projects/site/tests/build.test.mjs"
+    ]
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "html"
+    ],
+    "application": "Semantic article, single h1, logical headings, language tags, visible footnotes and reading links; intrinsic diagram dimensions and responsive sizing; no new client script."
+  },
+  "media_plan": "Original lightweight explanatory SVG of the lever action, labelled schematic rather than documentary; no third-party photo or artwork copied.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Reused sources supported; rendered schematic accurately shows fixed fulcrum and grain hollow with opposite beam movement. Original asset; no third-party media copied."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Reviewed prose preserved; byline, one source heading, all six references/returns, incoming and return links, schematic description verified. No blockers.",
+    "limits": "Separate AI review; no human specialist approval or fieldwork claimed."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "local full build in in-app browser",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 812
+      }
+    ],
+    "checks": [
+      "New article title, body, full diagram and mobile source notes inspected.",
+      "No horizontal overflow at observed widths.",
+      "Footnote1 and return navigation clicked.",
+      "Both incoming article cards clicked through to new article; return reading links clicked.",
+      "Essential Dhaga incoming card visually inspected on mobile."
+    ],
+    "limits": [
+      "Viewport simulation, not physical device testing.",
+      "No cross-engine or screen-reader certification."
+    ],
+    "screenshots": [
+      "outputs/dhinki-publication-2026-11-21/desktop-preview.jpg",
+      "outputs/dhinki-publication-2026-11-21/mobile-preview.jpg"
+    ]
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "coastal_build": "pass",
+    "full_suite": "820/821; single route-count assertion updated for new page; affected six-test build/link suite then passed.",
+    "early_test_attempt": "First full-suite attempt ran before Dhaga export finished; generated-file failures were not treated as candidate defects or successes.",
+    "coastal_suite": "596/597; one fixture could not write its external dependency cache; six-test fixture file passed with authorized cache access.",
+    "disclosures": {
+      "dist": {
+        "pages": 1480,
+        "violations": 0
+      },
+      "dist_coast": {
+        "pages": 1465,
+        "violations": 0
+      }
+    },
+    "publication_build": "Required clean CI publication build and payload acceptance pending."
+  },
+  "media": {
+    "path": "projects/site/public/images/stories/dhinki-mechanism.svg",
+    "kind": "original explanatory schematic",
+    "bytes": 3110,
+    "sha256": "b979476a30ddca418c9f092c0e0e03da4177a8de11e773d4ada3993be0fdec68",
+    "creator": "Samanta task-scoped AI implementation under Founder direction",
+    "rights": "Original diagram created for Project Odisha; no copied media. Internal production provenance only.",
+    "basis": "Basic lever mechanics and structural elements documented by Sabar and Pradhan2025; not exact local construction or documentary reconstruction."
+  },
+  "incoming_routes": [
+    "/stories/essential-odia-dhaga/",
+    "/stories/odia-dhaga/"
+  ]
+}

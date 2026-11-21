@@ -1,0 +1,120 @@
+{
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-DHINKI-20261121",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "authorization": "POD-DEC-2026112102",
+  "work_id": "POD-WORK-2026112102",
+  "scope": "Independent research and reviewed article draft only; website integration and publication are not part of this request.",
+  "programme_credit": 0,
+  "scope_released": true,
+  "input_head": "7a2f19f74a3a8636f5368ccf5e6e641aa3fb7102",
+  "remote_reconciliation": {
+    "main": "a4e3b6723f2ffaea3df916961d171a3e144c1aae",
+    "tree_matches_local": true,
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "assignments": {
+    "Disha": "Coordinate topic, shared evidence and editorial integration",
+    "Anvesha": "Separate read-only novelty and primary-source research, completed handoff",
+    "Samanta": "Prepare article Markdown and publication brief only in reserved paths",
+    "Drishti": "Separate read-only source, originality and editorial review after draft"
+  },
+  "reserved_files": {
+    "Disha": [
+      "kb/records/dhinki-article-preparation-20261121.json",
+      "kb/research/culture/dhinki-source-review-20261121.json",
+      "kb/registers/records.json",
+      "kb/team/operations.json",
+      "kb/history/ledger.jsonl",
+      "kb/research/references/data/research-map.json",
+      "kb/registers/DASHBOARD.md",
+      "outputs/dhinki-article-2026-11-21/article.md"
+    ],
+    "Samanta": [
+      "kb/research/culture/dhinki-and-the-work-behind-rice.md",
+      "outputs/dhinki-article-2026-11-21/publication-brief.md"
+    ]
+  },
+  "runtime": "Existing task-scoped Anvesha, Samanta and Drishti agents reused; these are AI agents, not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation (unpublished preparation; rollout current_article remains reserved for website articles)",
+  "completed_on": "2026-11-21",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "User requested a prepared article; this delivery is a local text draft and supporting editorial evidence. No public route or website assets changed.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Dedicated tool article adds to proverb coverage; independent sources support scoped mechanism, Odisha documentation and labour context."
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/dhinki-and-the-work-behind-rice.md",
+      "outputs/dhinki-article-2026-11-21/publication-brief.md"
+    ],
+    "editorial_revision": "Reduced documentation advice; direct mechanism and processing explanation, bounded Koraput account, five source notes."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": [
+      "All five source passages independently checked; dates and locality bounded.",
+      "Distinct from full Antaranga article and proverb48/124/235; no borrowed text, poems, ritual sequence or images detected.",
+      "Five note definitions and six references resolve; all source allocations under200words.",
+      "Lever pressure/release identified as mechanical explanation of documented device, not claimed field observation."
+    ],
+    "limitations": [
+      "Separate AI review, not human or specialist approval.",
+      "No browser, fieldwork, live layout or publication verification performed or required for this text-only draft."
+    ],
+    "resolved_minor_findings": [
+      "Brief calls references sources rather than all primary documents.",
+      "Koraput source role updated to actual article support."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/dhinki-and-the-work-behind-rice.md",
+      "sha256": "92f1a34dc8a4c1524479cc66f766b64d83f4abe4f26f6abedfe9fe7a7631cf31"
+    },
+    {
+      "path": "kb/research/culture/dhinki-source-review-20261121.json",
+      "sha256": "e2bd3f4afdc41526576a6b5ddce3cb299fc4aba6636450d3305853c1b236cf00"
+    },
+    {
+      "path": "outputs/dhinki-article-2026-11-21/article.md",
+      "sha256": "f6b7a448a2049b49e325eb36971ca87de030832daf4bd421f5dba4ad32f9f43f"
+    },
+    {
+      "path": "outputs/dhinki-article-2026-11-21/publication-brief.md",
+      "sha256": "5bebdd371c6a681ff2373f901f3a22888170fdd4a7f1f4811d5ec33195128ce4"
+    }
+  ],
+  "next_action": "Article prepared for Founder review; integrate into website only upon a new publication instruction.",
+  "validation": {
+    "registers": "pass",
+    "team_assignments": "pass",
+    "autonomous_program": "pass; zero credit",
+    "research_map": "pass",
+    "git_diff_whitespace": "pass",
+    "delivery_hashes": "pass",
+    "reading_copy_matches_canonical_body": true,
+    "notes": {
+      "definitions": 5,
+      "references": 6,
+      "all_resolve": true
+    },
+    "foreign_task_preserved": true
+  }
+}
