@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `76017533d585c66f222b0ad582866acb4764711145ee3a79ae64a81fd616cd40`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `64ca3ef87f6874b31bf0132ac549b23d468a56afd50bc6ff798443d84d04bf2a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -381,7 +381,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112102 · Prepare The Dhinki and the Work Behind Rice | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112103 · Publish The Dhinki and the Work Behind Rice | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112104 · Prepare Ganjapa Cards Made for Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112105 · Publish Ganjapa Cards Made for Play | in_progress | reviewed | Ahimanikya Satapathy | Integrate, review, verify mobile/desktop and publish with live receipt. | — |
+| POD-WORK-2026112105 · Publish Ganjapa Cards Made for Play | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1337,6 +1337,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-171 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | published | https://projectodisha.org/crafts/pipili-applique/ | POD-DEC-225 |
 | POD-REL-2026112101 · Reading the Bhagabata beyond the Tungi | published | https://projectodisha.org/stories/reading-the-bhagabata/ | POD-DEC-2026112101 |
 | POD-REL-2026112103 · The Dhinki and the Work Behind Rice | published | https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/ | POD-DEC-2026112103 |
+| POD-REL-2026112105 · Ganjapa Cards Made for Play | published | https://projectodisha.org/stories/ganjapa-cards-made-for-play/ | POD-DEC-2026112105 |
 
 ## Sources and assets
 

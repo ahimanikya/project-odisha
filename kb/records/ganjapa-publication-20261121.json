@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_local",
+  "status": "published_verified",
   "article_id": "POD-EDIT-GANJAPA-20261121",
   "route": "/stories/ganjapa-cards-made-for-play/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization": "POD-DEC-2026112105",
   "work_id": "POD-WORK-2026112105",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "preparation_receipt": "records/ganjapa-article-preparation-20261121.json",
   "input_head": "b2534c1c3020ecde05ced4ad6e2d409427de788a",
   "remote_main": "40c3603be3cea930c8691ef4c056f1c0b26f5275",
@@ -60,7 +60,8 @@
     "status": "pass",
     "finding": "Separately inspected desktop/mobile screenshots, three built routes, all six reference/return anchors, one source heading, both incoming and outgoing links and exact SVG bytes. No blockers; release gates and live verification pending.",
     "catalogue_derived_words": 184,
-    "limits": "Separate AI review, not human specialist approval or fieldwork."
+    "limits": "Separate AI review, not human specialist approval or fieldwork.",
+    "reviewed_head": "358f714985731c18da4c887b0de523c616839170"
   },
   "media": {
     "path": "projects/site/public/images/stories/ganjapa-pack-comparison.svg",
@@ -114,7 +115,115 @@
       "violations": 0
     },
     "structure": "outputs/ganjapa-publication-2026-11-21/local-structure.json",
-    "coastal_build": "running",
-    "publication_build": "pending clean required CI"
+    "coastal_build": "pass",
+    "publication_build": "pass local and clean GitHub CI",
+    "coastal_suite": "597/597 pass",
+    "disclosures_dist_coast": {
+      "pages": 1466,
+      "violations": 0
+    },
+    "local_publication_bytes": 999136846,
+    "disclosures_dist_publish": {
+      "pages": 1467,
+      "violations": 0
+    }
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/802",
+  "reviewed_head": "358f714985731c18da4c887b0de523c616839170",
+  "merge_sha": "436f9485c2e2fd66e60b94d2b6fe527a82186a8b",
+  "ci": {
+    "id": 44865875802,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44865875802",
+    "publication_bytes": 999896253,
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597
+  },
+  "deployment": {
+    "id": 44867441894,
+    "head_sha": "436f9485c2e2fd66e60b94d2b6fe527a82186a8b",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44867441894",
+    "attempt": 1,
+    "publication_bytes": 999896253
+  },
+  "completed_at": "2026-11-21T05:02:21.934028+00:00",
+  "live_verification": {
+    "/stories/ganjapa-cards-made-for-play/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "byline": true,
+      "reference_count": 6,
+      "return_count": 6,
+      "references_resolve": true,
+      "source_heading_count": 1,
+      "outgoing_links": true,
+      "process_link": true,
+      "diagram_present": true
+    },
+    "/crafts/pattachitra/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "byline": true,
+      "reference_count": 2,
+      "return_count": 2,
+      "references_resolve": true,
+      "incoming_link": true
+    },
+    "/visit/places/raghurajpur/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "byline": true,
+      "reference_count": 14,
+      "return_count": 14,
+      "references_resolve": true,
+      "incoming_link": true
+    },
+    "diagram": {
+      "bytes": 1624,
+      "sha256": "7d543be11341b70188b71cfdd066ca4699c6b9bec7e2005312f2cf0600849296",
+      "matches_local": true
+    },
+    "checked_at": "2026-11-21T05:02:21.934028+00:00",
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "diagram_loaded": true,
+      "both_incoming_and_outgoing_links_clicked": true,
+      "raghurajpur_incoming_card_visually_inspected": true,
+      "screenshots": [
+        "outputs/ganjapa-publication-2026-11-21/live-desktop.jpg",
+        "outputs/ganjapa-publication-2026-11-21/live-mobile.jpg",
+        "outputs/ganjapa-publication-2026-11-21/raghurajpur-mobile-link.jpg"
+      ],
+      "limits": "Browser viewport simulation, not physical-device or cross-engine certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/ganjapa-cards-made-for-play/",
+    "/crafts/pattachitra/",
+    "/visit/places/raghurajpur/"
+  ],
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Article and reading links already deployed at recorded merge; this receipt changes internal records and evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified PR802 merge, exact-head CI and publication success, actual package size, three live HTTP200 routes, incoming/outgoing links, six native reference/return anchors and exact SVG bytes. Separately inspected three live screenshots. Foreign task preserved and zero programme credit; receipt-only changes. No blockers.",
+    "limits": "Click and no-overflow observations attributed to root; saved screenshots independently inspected. No human, physical-device or cross-engine certification."
   }
 }
