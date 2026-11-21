@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `72d58ea8f7754f8ad788d26fec1566b5d96d1734e30b8f26b39adc386216778b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8c0fb9186244c88367d3b5a368485d655ae40d0623dd986b10e784d0ca2fc18f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -385,7 +385,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112106 · Prepare Dhumpa Music and Its Players | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112107 · Publish Dhumpa Music and Its Players | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112108 · Prepare Bagha Chheli and the Rules of Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112109 · Publish Bagha Chheli and the Rules of Play | in_progress | draft | Ahimanikya Satapathy | Implement, review, publish and verify live delivery. | — |
+| POD-WORK-2026112109 · Publish Bagha Chheli and the Rules of Play | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1093,6 +1093,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112106 | pass_with_limitations | True | Separate AI editorial review, not human specialist approval.; Official PDF source text inspected through original-domain search index; direct acquisition timed out. No visual PDF check claimed.; No audio/video playback, fieldwork, rendered layout or live publication checks claimed. |
 | POD-REV-2026112107 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.; Earlier Dhuduki and Daskathia attribution/footnote conventions preserved; not a complete editorial review of those pages. |
 | POD-REV-2026112108 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Original1926scan not recovered; indexed Ludii evidence distinguished from direct navigation shell.; Photograph metadata/rights checked but image not visually inspected or downloaded.; No fieldwork, gameplay test, rendered layout or publication claimed. |
+| POD-REV-2026112109 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.; Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename; no gameplay or original1926scan verification. |
 
 ## Publication and application history
 
@@ -1350,6 +1351,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112103 · The Dhinki and the Work Behind Rice | published | https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/ | POD-DEC-2026112103 |
 | POD-REL-2026112105 · Ganjapa Cards Made for Play | published | https://projectodisha.org/stories/ganjapa-cards-made-for-play/ | POD-DEC-2026112105 |
 | POD-REL-2026112107 · Dhumpa Music and Its Players | published | https://projectodisha.org/stories/dhumpa-music-and-its-players/ | POD-DEC-2026112107 |
+| POD-REL-2026112109 · Bagha Chheli and the Rules of Play | published | https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/ | POD-DEC-2026112109 |
 
 ## Sources and assets
 
@@ -1387,7 +1389,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261113003 | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
 | POD-EVT-20261115001 | 2026-11-14T18:48:16.547102+00:00 | Prepared the Founder-approved 14 November Ekamra Walks personal essay with seven supplied photographs, Prateek’s temple tour and Omm Prakash and team’s teaching/performance. Separate source and generated-output reviews passed; publication gates pending. No invented musical details, video placeholders or programme credit. | — |
 | POD-EVT-20261115002 | 2026-11-14T20:02:08.455938+00:00 | Published the approved Ekamra evening personal essay after separate reviews, required CI and Pages deployment. Live text, seven exact photograph hashes, footnotes, discovery and reciprocal reading links verified. No videos supplied or added. Zero programme credit; foreign ownership preserved. | — |
 | POD-EVT-20261115003 | 2026-11-14T21:07:23.822120+00:00 | Founder authorized final typo check and publication of the approved shorter personal essay. Separate typo review found no required corrections. Preserve seven photographs and original source boundaries; release checks pending. No programme credit. | — |
@@ -1397,6 +1398,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112109 | 2026-11-21T07:36:28.114949+00:00 | New draft-only article reserved after scoped coverage checks. A name-only mention in Growing Up in Odisha is preserved; this article will add game structure and version-specific rules through independent sources. Topic discovery from Antaranga Kalinga only; zero programme credit. | — |
 | POD-EVT-2026112110 | 2026-11-21T07:42:29.878461+00:00 | Original local article and publication brief delivered after separate review, adding beyond existing name-only mention. Source limits and distinct rule versions retained. Local draft only; zero programme credit; preparation scope released. | — |
 | POD-EVT-2026112111 | 2026-11-21T08:21:17.752957+00:00 | Founder authorized publication with two relevant reading links and credited photograph. Prepared narrative and distinct rule versions retained; zero programme credit and unrelated task preserved. | — |
+| POD-EVT-2026112112 | 2026-11-21T09:11:27.608104+00:00 | Bagha Chheli article published with two reciprocal reading paths after separate source/integrated review, required CI and successful Pages deployment. Live article, chapter and licensed photo match local publication; Ganjapa differs only in one verified platform-specific responsive-image filename; desktop/mobile checked. Zero programme credit; foreign task preserved. | — |
 
 ## Deferred extensions
 

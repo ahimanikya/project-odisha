@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1355. blocked: 1, completed: 219, excluded: 871, in_progress: 1, queued: 263.
+Route inventory: 1355. blocked: 1, completed: 220, excluded: 871, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1378,4 +1378,4 @@ Route inventory: 1355. blocked: 1, completed: 219, excluded: 871, in_progress: 1
 | POD-EDIT-DHINKI-20261121 | [The Dhinki and the Work Behind Rice](https://projectodisha.org/stories/dhinki-and-the-work-behind-rice/) | completed | Publish reviewed new article with two relevant incoming links; zero programme credit. |
 | POD-EDIT-GANJAPA-20261121 | [Ganjapa Cards Made for Play](https://projectodisha.org/stories/ganjapa-cards-made-for-play/) | completed | Publish reviewed new article with relevant incoming links; zero programme credit. |
 | POD-EDIT-DHUMPA-20261121 | [Dhumpa Music and Its Players](https://projectodisha.org/stories/dhumpa-music-and-its-players/) | completed | Publish reviewed new article with three relevant incoming links; zero programme credit. |
-| POD-EDIT-BAGHACHELI-20261121 | [Bagha Chheli and the Rules of Play](https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/) | in_progress | Publish reviewed new article with two relevant incoming links and credited documentary photograph; zero programme credit. |
+| POD-EDIT-BAGHACHELI-20261121 | [Bagha Chheli and the Rules of Play](https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/) | completed | Publish reviewed new article with two relevant incoming links and credited documentary photograph; zero programme credit. |
