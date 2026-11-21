@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-JAUKANDHEI-20261121",
   "route": "/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization": "POD-DEC-2026112111",
   "work_id": "POD-WORK-2026112111",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "preparation_receipt": "records/jau-kandhei-article-preparation-20261121.json",
   "input_head": "5f1356b9087d145689c11f7218d2930ed4603c6a",
   "remote_main": "a3b623d3a5681e1ee42c9b5568e45d89266f37dd",
@@ -111,7 +111,8 @@
       "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro": "c3d482e4fb946068c39454caf121af4c5bacd7cf7be54c3beda484bbfec6a0f4",
       "projects/site/src/components/PattachitraArticle.astro": "4fc77dab6e54aa48693a5e9f4d70b3a14f07dca18157f6cf32bf83238434a653",
       "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "4a1aa393e32f86c5827f89f93b986f8a615db94ed73aec1514bf4e56af525b9d"
-    }
+    },
+    "reviewed_head": "4e25467e43489e92220062214361bbd75e96ec55"
   },
   "local_validation": {
     "full_build": "pass",
@@ -127,6 +128,131 @@
       "pages": 1469,
       "violations": 0
     },
-    "publication_build": "in_progress"
+    "publication_build": "pass",
+    "disclosures_dist_publish": {
+      "pages": 1470,
+      "violations": 0
+    },
+    "local_publication_bytes": 999217780
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/808",
+  "reviewed_head": "4e25467e43489e92220062214361bbd75e96ec55",
+  "merge_sha": "f5c1e43104c6cf8c1f47e78126db909eb741a8d1",
+  "ci": {
+    "id": 44903422972,
+    "conclusion": "success",
+    "attempt": 1,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44903422972",
+    "publication_bytes": 999980728,
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597
+  },
+  "publication_attempts": [
+    {
+      "run_id": 44905162786,
+      "attempt": 1,
+      "conclusion": "failure",
+      "stage": "Hydrate exact reviewed Dhaga release PDF",
+      "finding": "Anonymous GitHub release API download returned HTTP403 before site build. Same approved release retried; no code or guard changes."
+    }
+  ],
+  "deployment": {
+    "id": 44905162786,
+    "head_sha": "f5c1e43104c6cf8c1f47e78126db909eb741a8d1",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44905162786",
+    "attempt": 2,
+    "publication_bytes": 999980728
+  },
+  "completed_at": "2026-11-21T13:04:20.020407+00:00",
+  "live_verification": {
+    "/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 7,
+      "return_count": 7,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "9141efeda894d9d0d39f08522c2df4eaf8171d59cf679adf48a800d34bc5de1d",
+      "article_matches_local_publication": true,
+      "byline": true,
+      "source_heading_count": 1,
+      "outgoing_links": true
+    },
+    "/stories/ganjapa-cards-made-for-play/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 6,
+      "return_count": 6,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "d81f96857717a2d90383b636c139d69d2df9e2a37e11a93d83277b4612769985",
+      "article_matches_local_publication": false,
+      "matches_after_one_platform_derivative_path_normalization": true,
+      "difference": "Only existing Pattachitra1440px responsive derivative filename differs by platform encoding. Live derivative HTTP200 and SHA256 address verified; source image matches local exactly. All other article bytes identical.",
+      "incoming_link": true
+    },
+    "/crafts/pattachitra/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 2,
+      "return_count": 2,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "a91030e6615b7c9fdb55c3e31f91e1844d6588af1d19e2e5aab0b020ce349923",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 0,
+      "return_count": 0,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "c8d9606f84eccfd32a6b5b79920cf0d831f045497f0ae728f24c7cad64cee8cc",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "checked_at": "2026-11-21T13:03:02.812970+00:00",
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "three_incoming_and_outgoing_links_activated": true,
+      "first_native_footnote_and_return_activated": true,
+      "screenshots": [
+        "outputs/jau-kandhei-publication-2026-11-21/live-desktop.jpg",
+        "outputs/jau-kandhei-publication-2026-11-21/live-mobile.jpg"
+      ],
+      "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/",
+    "/stories/ganjapa-cards-made-for-play/",
+    "/crafts/pattachitra/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Article and reading links already deployed at recorded merge; this receipt changes internal records and evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified PR808 merge, exact-head CI and attempt2 publication success; attempt1 stopped on existing PDF download before deploy. Fresh HTTP200 on four routes with exact receipt hashes. New article, Pattachitra and material chapter match local article bytes exactly. Ganjapa differs only in one verified platform-specific responsive-image filename; derivative SHA256 address and unchanged source image verified. All reciprocal paths and applicable native anchors resolve. Separately inspected both live screenshots. Logs support821/597 tests and999980728 bytes. Receipt-only scope, zero programme credit and foreign task/handoff preserved. No blockers.",
+    "limits": "Root browser keyboard/overflow observations attributed to root; saved screenshots independently inspected. No human, physical-device or cross-engine certification."
   }
 }

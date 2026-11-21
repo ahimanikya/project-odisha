@@ -10142,12 +10142,12 @@
       "id": "POD-WORK-2026112111",
       "title": "Publish Jau Kandhei and the Doll Makers of Balasore",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112111",
-      "next_action": "Implement, review, publish and verify live delivery.",
+      "next_action": "Article and three incoming links published and live verified; delivery receipt saved.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112111"
@@ -24378,6 +24378,28 @@
         "No fieldwork, interview, current membership confirmation or media licence.",
         "No rendered website layout, integration or publication claimed."
       ]
+    },
+    {
+      "id": "POD-REV-2026112111",
+      "title": "Jau Kandhei separate integrated and publication receipt review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112111",
+        "POD-REL-2026112111"
+      ],
+      "evidence": [
+        "records/jau-kandhei-publication-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.",
+        "Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename. Source and historic group distinctions retained."
+      ]
     }
   ],
   "releases": [
@@ -28494,6 +28516,20 @@
       ],
       "evidence": [
         "records/bagha-chheli-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112111",
+      "title": "Jau Kandhei and the Doll Makers of Balasore",
+      "status": "published",
+      "authorization": "POD-DEC-2026112111",
+      "destination": "https://projectodisha.org/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/",
+      "refs": [
+        "POD-WORK-2026112111",
+        "POD-DEC-2026112111"
+      ],
+      "evidence": [
+        "records/jau-kandhei-publication-20261121.json"
       ]
     }
   ],
