@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8a95748b26678533092cf40341fc89563f5231c3b64b8ecb9ea3802190921fbd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d706ba53ea0ec5c38e845c155589cd434fb16cb82656a03d95b7970366dbe33c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -383,6 +383,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112104 · Prepare Ganjapa Cards Made for Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112105 · Publish Ganjapa Cards Made for Play | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112106 · Prepare Dhumpa Music and Its Players | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
+| POD-WORK-2026112107 · Publish Dhumpa Music and Its Players | in_progress | draft | Ahimanikya Satapathy | Implement reviewed article, check responsive rendering and links, publish and verify live delivery. | — |
 
 ## Pending human review and decisions
 
@@ -703,6 +704,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112104 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Select a new topic through Antaranga Kalinga; independent research and article preparation only. |
 | POD-DEC-2026112105 · Publish the reviewed Ganjapa article | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article and relevant links, verify responsive layout and publish. |
 | POD-DEC-2026112106 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
+| POD-DEC-2026112107 · Publish Dhumpa with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed Dhumpa article, verify desktop and mobile, publish with relevant incoming links. |
 
 ## Reviews
 
@@ -1378,7 +1380,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261110012 | 2026-11-10T17:18:05.917279+00:00 | Jobra maritime actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261111001 | 2026-11-11T11:17:44.468501+00:00 | Register pending Kala Bhoomi native editorial contribution with explicit acceptance and zero credit; preserve actual prior release and all parallel ownership. | — |
 | POD-EVT-20261111002 | 2026-11-11T12:51:44.206237+00:00 | Kala Bhoomi actual publication and separate live review passed; one completion, finite receipt integration pending. | — |
 | POD-EVT-20261113001 | 2026-11-13T15:27:28.299505+00:00 | Malajanha added to the local viewing-room preview; Matira Manisha narration kept as a separate literary companion. Source beginning/end and embedded sample checked;19tests and independent review passed. Existing entries and foreign work preserved. No publication or book changes; zero programme credit. | — |
@@ -1388,6 +1389,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261115002 | 2026-11-14T20:02:08.455938+00:00 | Published the approved Ekamra evening personal essay after separate reviews, required CI and Pages deployment. Live text, seven exact photograph hashes, footnotes, discovery and reciprocal reading links verified. No videos supplied or added. Zero programme credit; foreign ownership preserved. | — |
 | POD-EVT-20261115003 | 2026-11-14T21:07:23.822120+00:00 | Founder authorized final typo check and publication of the approved shorter personal essay. Separate typo review found no required corrections. Preserve seven photographs and original source boundaries; release checks pending. No programme credit. | — |
 | POD-EVT-20261115004 | 2026-11-14T21:57:13.996993+00:00 | Published the author-approved shorter Ekamra personal essay after final typo review, separate exact-candidate review, required CI and Pages deployment. Revised live prose, seven unchanged photograph hashes, three footnotes, discovery and reading links verified. Zero programme credit; foreign ownership preserved. | — |
+| POD-EVT-2026112107 | 2026-11-21T06:07:01.395468+00:00 | Founder authorized publication of the reviewed Dhumpa article with three relevant reading links. Native source-heading integration only; prepared narrative and evidence preserved. Foreign task retained; zero programme credit. | — |
 
 ## Deferred extensions
 

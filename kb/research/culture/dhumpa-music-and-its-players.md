@@ -4,9 +4,9 @@ description: "A Khandapada ensemble account and named public programmes offer a 
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "people"]
 type: "Music and performance essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 Dhumpa names an instrument and the music performed with it. An account from Khandapada in Odisha’s Nayagarh district places it among singers, stick players and a dancer.[^1]
@@ -28,8 +28,6 @@ The rainy season and the Radha–Krishna theme give the songs a setting beyond t
 Sangeet Natak Akademi’s programme for the 21–25 June 2022 Jyotirgamaya festival in New Delhi lists Alok Bishoyi with “Dhumpa Vadya.”[^3] The listing gives us a named practitioner within a festival devoted to performers and musical instruments. It is a programme credit, rather than a description of what was played on the day.
 
 Keeping these names with the music gives readers something concrete to follow: an ensemble associated with a reported performance, and a musician named in an organiser’s programme.
-
-## Footnotes & Sources
 
 [^1]: Indira Gandhi National Centre for the Arts, [*Report on Cultural Mapping of India*](https://www.ignca.gov.in/PDF_data/UNESCO_Report.pdf), p. 94, Dhumpa entry. The Khandapada description credits a personal interaction with BibutiBhusan Mardaraja; undated report.
 
