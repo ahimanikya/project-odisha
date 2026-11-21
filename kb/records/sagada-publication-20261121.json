@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_release_checks",
+  "status": "published_verified",
   "article_id": "POD-EDIT-SAGADA-20261121",
   "route": "/stories/sagada-and-the-work-of-the-bullock-cart/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization": "POD-DEC-2026112113",
   "work_id": "POD-WORK-2026112113",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "preparation_receipt": "records/sagada-article-preparation-20261121.json",
   "input_head": "5da92684",
   "remote_main": "6aec023c01138a88c98308603a13ff13dc97cf19",
@@ -130,7 +130,8 @@
       "projects/site/src/pages/stories/sagada-and-the-work-of-the-bullock-cart.astro": "df1d3932d014e7ad7054cd80dafcf7624989e7650a67155ef390d8e5f8ed8f70",
       "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "4f2f844f6d5bda9370679a7bf59c6cf5cb1ae4a2054f5f4bcb5304cf85d6c193",
       "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "d0147a71cb8c457304919ee0723eae82febc9c5e9e14d03d84e88220c4b59750"
-    }
+    },
+    "reviewed_head": "40584c62cff51027e524a56e600f7e5643789b27"
   },
   "ci_attempts": [
     {
@@ -149,6 +150,110 @@
     "validation": "Targeted tests6/6 passed. Actual source recompression matches recorded output, decoded RGBA and all non-IDAT chunks preserved byte-exact.",
     "evidence": "outputs/sagada-publication-2026-11-21/capacity-preservation.json",
     "local_full_publication_rebuilt_after_fix": false,
-    "acceptance": "Required online full publication build must pass before merge."
+    "acceptance": "Passed exact-head CI and deployed publication:999906417 bytes.",
+    "separate_review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_agent",
+      "status": "pass",
+      "reviewed_head": "40584c62cff51027e524a56e600f7e5643789b27",
+      "finding": "Independently reran6 focused tests and actual-source recompression.94288 bytes saved; output hash, pixels, metadata and dimensions match preservation record. Original asset, algorithm, size gate and all four article files unchanged."
+    }
+  },
+  "completed_at": "2026-11-21T16:41:20.919842+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/810",
+  "reviewed_head": "40584c62cff51027e524a56e600f7e5643789b27",
+  "merge_sha": "46e97203373c3ecbccd62113039c1cd4c4565d01",
+  "ci": {
+    "id": 44922067640,
+    "conclusion": "success",
+    "attempt": 1,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44922067640",
+    "publication_bytes": 999906417,
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597
+  },
+  "deployment": {
+    "id": 44924110981,
+    "head_sha": "46e97203373c3ecbccd62113039c1cd4c4565d01",
+    "conclusion": "success",
+    "attempt": 1,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44924110981",
+    "publication_bytes": 999906417
+  },
+  "live_verification": {
+    "/stories/sagada-and-the-work-of-the-bullock-cart/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 5,
+      "return_count": 5,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "78eea24104272f55bc9ddecc8f04e11b48c63353e28bcda84b8aa0458c9edb63",
+      "article_matches_local_publication": true,
+      "byline": true,
+      "source_heading_count": 1,
+      "outgoing_links": true
+    },
+    "/stories/dhinki-and-the-work-behind-rice/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 6,
+      "return_count": 6,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "1d0b6b6441147e94c258aec1b274564769005c5a8a8b69b13dc34f44b83c2430",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 0,
+      "return_count": 0,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "d1c93bc5a40e66e5d69e9d076b3621633a13df3b0ed55f8f8769069cc0fa2b95",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "checked_at": "2026-11-21T16:39:54.223301+00:00",
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "two_incoming_and_outgoing_links_activated": true,
+      "first_native_footnote_and_return_activated": true,
+      "screenshots": [
+        "outputs/sagada-publication-2026-11-21/live-desktop.jpg",
+        "outputs/sagada-publication-2026-11-21/live-mobile.jpg"
+      ],
+      "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/sagada-and-the-work-of-the-bullock-cart/",
+    "/stories/dhinki-and-the-work-behind-rice/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Article and reading links already deployed at recorded merge; this receipt changes internal records and evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified exact-head CI, PR810 merge and deployment44924110981 attempt1 success; logs support821/597 tests and999906417 bytes. Fresh HTTP200 on all three routes, article bodies identical to local publication and recorded hashes. Five Sagada references and returns resolve; both reciprocal paths present. Live optimized PNG matches reviewed output hash and size. Separately inspected both live screenshots. Scoped evidence-only receipt, zero programme credit and foreign task preserved. Conditional scope release explicit. No blockers.",
+    "limits": "Root browser keyboard and overflow observations attributed to root; saved screenshots independently inspected. No human, physical-device or cross-engine certification."
   }
 }

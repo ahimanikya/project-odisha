@@ -10177,13 +10177,13 @@
     {
       "id": "POD-WORK-2026112113",
       "title": "Publish Sagada article",
-      "category": "knowledge",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "category": "publication",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112113",
-      "next_action": "Integrate reviewed narrative and reading links, verify layouts and publish through approved main workflow.",
+      "next_action": "Article and two incoming links published and live verified; delivery receipt saved.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112113"
@@ -24492,6 +24492,28 @@
         "No fieldwork, interview, engineering validation, cleared image reuse or current prevalence claim.",
         "No rendered website layout, integration or publication claimed."
       ]
+    },
+    {
+      "id": "POD-REV-2026112113",
+      "title": "Sagada separate integrated and publication receipt review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112113",
+        "POD-REL-2026112113"
+      ],
+      "evidence": [
+        "records/sagada-publication-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.",
+        "Historical and geographic source limits retained; no new fieldwork claimed."
+      ]
     }
   ],
   "releases": [
@@ -28622,6 +28644,20 @@
       ],
       "evidence": [
         "records/jau-kandhei-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112113",
+      "title": "Sagada: The Work of a Bullock Cart",
+      "status": "published",
+      "authorization": "POD-DEC-2026112113",
+      "destination": "https://projectodisha.org/stories/sagada-and-the-work-of-the-bullock-cart/",
+      "refs": [
+        "POD-WORK-2026112113",
+        "POD-DEC-2026112113"
+      ],
+      "evidence": [
+        "records/sagada-publication-20261121.json"
       ]
     }
   ],
