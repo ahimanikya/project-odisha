@@ -1,5 +1,5 @@
 {
-  "status": "publication_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-DEOMALI-20261122",
   "route": "/destinations/deomali/",
   "owner": "Disha",
@@ -9,7 +9,7 @@
   "authorization": "POD-DEC-2026112291",
   "work_id": "POD-WORK-2026112291",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
   "preserved_foreign_task": "POD-EDIT-133",
   "assignments": {
@@ -46,7 +46,7 @@
     "running_publication": false,
     "prior_receipt_pr": 811
   },
-  "next_action": "Finish independent review, builds, browser checks, reviewed merge and live publication verification before next article.",
+  "next_action": "Merge independently reviewed evidence-only delivery receipt, then hand the next article preparation slot to Research Antaranga Kalinga. Daringbadi remains next queued hill destination until that scope is released.",
   "source_review": {
     "reviewer": "Anvesha",
     "kind": "separate_ai_agent",
@@ -136,14 +136,15 @@
     "detected_after_initial_reconciliation": true,
     "shared_files_overlap": true,
     "response": "Renumber Deomali pre-merge work/decision/event IDs to2026112291 to avoid collision with existing Kagaja preparation; keep releases sequential and reconcile latest main before merge. No changes to foreign work.",
-    "status": "combined_candidate_prepared",
+    "status": "preceding_receipt_merged_and_condition_met",
     "preceding_receipt_pr": 814,
     "preceding_receipt_head": "001d12cff69244d497cfb9caade5f99c48bfdcd7",
     "merge_condition": "PR813 must not merge before PR814 is merged. Preparation incorporates its separately reviewed receipt without modifying foreign evidence.",
     "resolved_files": 12,
     "all_three_new_routes_preserved": true,
     "full_build_count_addend": 166,
-    "discovery_count_addend": 153
+    "discovery_count_addend": 153,
+    "preceding_receipt_merge": "9cfdb57cc9a22f9b823d4904be41e3b4f81ff69a"
   },
   "baseline_ci": {
     "id": 44942432126,
@@ -197,5 +198,188 @@
     "workbench": "pass",
     "existing_activity_history": "Prior receipt-branch bytes retained exactly; one Deomali event appended.",
     "initial_test_attempt": "Started before export completion and encountered missing Dhaga files; rerun after successful build passed821/821."
-  }
+  },
+  "pull_request": 813,
+  "reviewed_head": "049b147ba893a86eb46d3f23b739fb15410c7e1c",
+  "merge_sha": "856b39a3b094f28bc3d65f33d27e44995730ef3e",
+  "ci": {
+    "run": 44945538072,
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 597,
+    "payload_bytes": 997405392,
+    "disclosure_pages": {
+      "full": 1488,
+      "coast": 1473,
+      "publication": 1474
+    },
+    "disclosure_violations": 0
+  },
+  "deployment": {
+    "run": 44948003151,
+    "conclusion": "success",
+    "source_sha": "856b39a3b094f28bc3d65f33d27e44995730ef3e",
+    "attempt": 1,
+    "payload_bytes": 997405392
+  },
+  "coordination": {
+    "permission": "Founder explicitly answered Yes, coordinate the two releases.",
+    "other_chat": "Research Antaranga Kalinga",
+    "next_slot": "Founder instruction verified directly in the Research Antaranga Kalinga chat: prepare one independently researched uncovered topic after Deomali. Hand preparation slot there after Deomali receipt merges; Daringbadi remains queued until that preparation releases scope.",
+    "shared_writer": "Disha in Deomali chat until its delivery receipt merges; no overlapping article claim."
+  },
+  "completed_at": "2026-11-21T21:11:10.167940+00:00",
+  "live_verification": {
+    "/destinations/deomali/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "photograph_present": true,
+      "reference_and_return_targets": 26,
+      "all_targets_resolve": true,
+      "article_sha256": "5145a9d49ef79ee354b773bf68010350c1bbc39ff312dafb93b5df46c12974a1",
+      "local_article_sha256": "3c1745b95523b4b4ba2d6d16b1d112d5fa2e41d5d0410f97f06961735db49142",
+      "raw_article_matches_local": false,
+      "normalized_article_matches_local": true,
+      "normalization": "Only content-addressed responsive WebP filenames; actual fetched bytes match filename hash prefixes.",
+      "source_heading_count": 1,
+      "matching_share_image": true,
+      "hero_variants": [
+        {
+          "path": "/images/responsive/dde29f2668346ca5-480.webp",
+          "width_descriptor": "480w",
+          "bytes": 13224,
+          "sha256": "dde29f2668346ca59b394ac2f308f2ff54d5dc460e1175b1eeb87ce9d01619de",
+          "dimensions": [
+            480,
+            222
+          ]
+        },
+        {
+          "path": "/images/responsive/6888ea4719a2a3b9-960.webp",
+          "width_descriptor": "960w",
+          "bytes": 42524,
+          "sha256": "6888ea4719a2a3b95dfb5a43ff9e4788ea62ad474920f5c394e4799c5ba1e7bc",
+          "dimensions": [
+            960,
+            443
+          ]
+        },
+        {
+          "path": "/images/responsive/b20f6e2041df4551-1440.webp",
+          "width_descriptor": "1440w",
+          "bytes": 84344,
+          "sha256": "b20f6e2041df455124783ad32577983139f34779f2e35e304f85de07efbede94",
+          "dimensions": [
+            1440,
+            665
+          ]
+        }
+      ]
+    },
+    "/destinations/hills/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "deomali_link": true,
+      "photograph_present": true
+    },
+    "/destinations/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "deomali_link": true,
+      "photograph_present": true
+    },
+    "/stories/kotpad/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "deomali_link": true,
+      "photograph_present": true
+    },
+    "/explore/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "deomali_link": true,
+      "photograph_present": true
+    },
+    "/reading-room/places/koraput/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "deomali_link": true
+    },
+    "original_image": {
+      "path": "/images/destinations/deomali-hills.webp",
+      "http_status": 200,
+      "bytes": 231942,
+      "sha256": "a11da8b60b6a05e8651de7707ca9b9d90384501952a608bf9bafe7b187aeb0ed",
+      "matches_reviewed_asset": true,
+      "dimensions": [
+        2000,
+        923
+      ]
+    },
+    "checked_at": "2026-11-21T21:09:28.097490+00:00"
+  },
+  "live_browser_review": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "surface": "In-app Chromium browser on the live site",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "horizontal_overflow": false,
+    "single_h1": true,
+    "hero_loaded": true,
+    "preview_loaded": true,
+    "first_footnote_and_return_keyboard": "pass",
+    "reciprocal_paths": [
+      "Deomali to hills collection and back",
+      "Deomali to Kotpad and back"
+    ],
+    "screenshots": [
+      "review/live-desktop.jpg",
+      "review/live-mobile.jpg",
+      "review/live-preview.jpg"
+    ],
+    "limits": "Viewport simulation, not physical-device, cross-engine or screen-reader certification. Other incoming links verified in fetched live HTML."
+  },
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records and screenshots; website source remains856b39a3b094f28bc3d65f33d27e44995730ef3e.",
+    "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "checks": [
+      "Successful exact-head CI and deployment independently verified;997405392byte payload.",
+      "Fresh HTTP200 on six routes; incoming links, byline, source heading, share image and all26native anchor targets resolve.",
+      "Original photograph SHA256 and2000x923dimensions match reviewed asset; all3responsive derivatives match filename hashes and declared dimensions.",
+      "Live article text and markup match reviewed content after narrow normalization of responsive-image filenames only.",
+      "Three live screenshots independently inspected: desktop article, mobile article and photographed preview card.",
+      "Foreign records and ownership preserved; preceding Kagaja receipt byte-exact; prior event bytes exact prefix;zero programme credit and conditional release explicit."
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist approval.",
+      "Root browser interactions and overflow measurements attributed to root; screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.",
+      "No fieldwork claimed; current entry arrangements and numerical elevation limits retained."
+    ],
+    "dashboard_correction": "Regenerated after release/review records; final --check required before commit."
+  },
+  "reserved_files_released_by_workers": true,
+  "verified_routes": [
+    "/destinations/deomali/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/stories/kotpad/",
+    "/explore/",
+    "/reading-room/places/koraput/"
+  ]
 }
