@@ -24134,15 +24134,24 @@
       "id": "POD-EDIT-KAGAJAMUKHA-20261122",
       "route": "/stories/kagaja-mukha-and-the-making-of-a-mask/",
       "title": "Kagaja Mukha and the Paper Masks of Raghurajpur",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "Disha",
       "scope": "Publish reviewed article and three relevant incoming links; zero programme credit.",
       "source_template": "projects/site/src/pages/stories/kagaja-mukha-and-the-making-of-a-mask.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/kagaja-mukha-publication-20261122.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/kagaja-mukha-publication-20261122.json"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-KAGAJAMUKHA-20261122",
   "route": "/stories/kagaja-mukha-and-the-making-of-a-mask/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization": "POD-DEC-2026112202",
   "work_id": "POD-WORK-2026112202",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "preparation_receipt": "records/kagaja-mukha-article-preparation-20261122.json",
   "input_head": "1c1f3598",
   "remote_main": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
@@ -113,9 +113,18 @@
     "unchanged_book_chapters": 47,
     "target_book_chapter_changed_only": true,
     "full_article_sha256": "cbb8b6a3f95893ee2734c42bbf5667a242e07e3989370bf24f656fb29c922a6c",
-    "full_tests": "821 passed",
+    "full_tests": 821,
     "full_disclosure_gate": "pass",
-    "coast_and_publication": "running; required before merge"
+    "coast_tests": 597,
+    "disclosure_gates": {
+      "full": "pass",
+      "coast": "pass",
+      "publication": "pass"
+    },
+    "article_identical_in_three_builds": true,
+    "local_payload_bytes": 999162134,
+    "book_unchanged_chapters": 47,
+    "workbench_validation": "6 passed"
   },
   "integrated_review": {
     "reviewer": "Drishti",
@@ -133,7 +142,148 @@
       "Separate AI review, not human specialist approval",
       "Browser interactions and measurements performed by Disha; Drishti independently inspected source, HTML and screenshots",
       "CI and live verification pending"
-    ]
+    ],
+    "package_review": {
+      "reviewer": "Drishti",
+      "status": "pass",
+      "finding": "All four article bodies identical across three builds; local payload independently measured; source hashes unchanged."
+    },
+    "generated_index_correction_review": {
+      "reviewer": "Drishti",
+      "status": "pass",
+      "finding": "Commit c0d6797c changes only the correct coastal-input digest; existing records and source files unchanged."
+    }
   },
-  "reserved_files_released_by_workers": true
+  "reserved_files_released_by_workers": true,
+  "pull_request": 812,
+  "reviewed_head": "c0d6797c25d24ad29bc4a4636c43b093df89ede9",
+  "merge_sha": "b21e17d98205c9af64650bb67f7ec3bfedda130e",
+  "ci_attempts": [
+    {
+      "run": 44940516195,
+      "conclusion": "failure",
+      "reason": "Outdated generated workbench coastal input digest; regenerated one hash and six workbench tests passed."
+    },
+    {
+      "run": 44940905946,
+      "conclusion": "success",
+      "head": "c0d6797c25d24ad29bc4a4636c43b093df89ede9"
+    }
+  ],
+  "ci": {
+    "run": 44940905946,
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 597,
+    "payload_bytes": 999927443
+  },
+  "deployment": {
+    "run": 44942572843,
+    "conclusion": "success",
+    "source_sha": "b21e17d98205c9af64650bb67f7ec3bfedda130e",
+    "attempt": 1,
+    "payload_bytes": 999927443
+  },
+  "completed_at": "2026-11-21T20:05:21.616099+00:00",
+  "live_verification": {
+    "/stories/kagaja-mukha-and-the-making-of-a-mask/": {
+      "http_status": 200,
+      "article_sha256": "cebc217ecccdd659c169676e3662abb8f45856e2eadc8d66df2498bd0ef87953",
+      "matches_local": false,
+      "incoming_link_count": 0,
+      "matches_after_one_verified_derivative_filename": true,
+      "derivative_difference": {
+        "local": "/images/responsive/53a5a26953d9d47f-1440.webp",
+        "live": "/images/responsive/45c40dcdf1bd1f26-1440.webp",
+        "scope": "One srcset filename only; article text, links, markup and all other image references match exactly."
+      }
+    },
+    "/crafts/pattachitra/": {
+      "http_status": 200,
+      "article_sha256": "b5f11c2700e752d43450a3bfa4d36f184e2961e760b80614a7caeec6af169594",
+      "matches_local": true,
+      "incoming_link_count": 1
+    },
+    "/stories/ganjapa-cards-made-for-play/": {
+      "http_status": 200,
+      "article_sha256": "81b744b034978aa3b877cba3360ea819253c4ae6d819b746eedfe30b4353edc7",
+      "matches_local": false,
+      "incoming_link_count": 1,
+      "matches_after_one_verified_derivative_filename": true,
+      "derivative_difference": {
+        "local": "/images/responsive/53a5a26953d9d47f-1440.webp",
+        "live": "/images/responsive/45c40dcdf1bd1f26-1440.webp",
+        "scope": "One srcset filename only; article text, links, markup and all other image references match exactly."
+      }
+    },
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/": {
+      "http_status": 200,
+      "article_sha256": "ff94b29976f2fb7c6937c79187dd0353929d865143178a9d4f996e667bc853e0",
+      "matches_local": true,
+      "incoming_link_count": 1
+    }
+  },
+  "verified_routes": [
+    "/stories/kagaja-mukha-and-the-making-of-a-mask/",
+    "/crafts/pattachitra/",
+    "/stories/ganjapa-cards-made-for-play/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "live_browser_review": {
+    "reviewer": "Disha",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "overflow": false,
+    "keyboard_footnote_and_return": "pass",
+    "three_reciprocal_reading_paths": "pass",
+    "images_loaded": true,
+    "screenshots": [
+      "outputs/kagaja-mukha-publication-20261122/live-desktop.jpg",
+      "outputs/kagaja-mukha-publication-20261122/live-mobile.jpg",
+      "outputs/kagaja-mukha-publication-20261122/live-preview.jpg"
+    ],
+    "limits": "In-app browser viewport checks, not physical-device, screen-reader or cross-engine certification."
+  },
+  "live_image_variant_verification": {
+    "url": "https://projectodisha.org/images/responsive/45c40dcdf1bd1f26-1440.webp",
+    "status": 200,
+    "bytes": 248756,
+    "dimensions": [
+      1440,
+      1080
+    ],
+    "finding": "Only one responsive-image filename differs between local macOS and CI output in Kagaja and Ganjapa. Exact substitution yields identical article fragments; all source content and other links preserved."
+  },
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records and screenshots; deployed website source remains b21e17d98205c9af64650bb67f7ec3bfedda130e.",
+    "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "checks": [
+      "Fresh four-route HTTP200 and article hashes match receipt",
+      "Correct PR merge, CI and deployment heads independently verified",
+      "Four native references/returns and all reciprocal links resolve",
+      "One exact derivative-filename difference only; original image bytes unchanged",
+      "Live desktop/mobile screenshots independently inspected",
+      "Eight-file evidence-only receipt diff preserves foreign ownership and zero programme credit"
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist approval.",
+      "Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.",
+      "Source scope and dated evidence preserved; no fieldwork claimed."
+    ]
+  }
 }

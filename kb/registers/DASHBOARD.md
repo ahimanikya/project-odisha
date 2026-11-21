@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cea40761dde18f3ed9640926f491ea615488323a9962671712032cabbcb657f5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1cc87442f7708ee56e9396c9b8dc1c850490ab7ee7765b2ff928e9d4fc5f26f6`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -391,7 +391,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112112 · Prepare Sagada article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112113 · Publish Sagada article | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112201 · Prepare Kagaja Mukha article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112202 · Publish Kagaja Mukha article | in_progress | draft | Ahimanikya Satapathy | Integrate, validate, review and publish the authorized article. | — |
+| POD-WORK-2026112202 · Publish Kagaja Mukha article | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1111,6 +1111,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112112 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Original 1978 cover and all four article pages visually inspected; not the whole journal issue.; CSTT lexical entry checked through original-domain indexed text; direct PDF access timed out.; FAO-hosted chapter is comparative context, not an Odisha survey.; No fieldwork, interview, engineering validation, cleared image reuse or current prevalence claim.; No rendered website layout, integration or publication claimed. |
 | POD-REV-2026112113 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.; Historical and geographic source limits retained; no new fieldwork claimed. |
 | POD-REV-2026112201 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Selected source pages inspected; not full-volume visual reading or fieldwork.; Draft only; no website layout or publication check. |
+| POD-REV-2026112202 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; Source scope and dated evidence preserved; no fieldwork claimed. |
 
 ## Publication and application history
 
@@ -1371,6 +1372,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112109 · Bagha Chheli and the Rules of Play | published | https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/ | POD-DEC-2026112109 |
 | POD-REL-2026112111 · Jau Kandhei and the Doll Makers of Balasore | published | https://projectodisha.org/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/ | POD-DEC-2026112111 |
 | POD-REL-2026112113 · Sagada: The Work of a Bullock Cart | published | https://projectodisha.org/stories/sagada-and-the-work-of-the-bullock-cart/ | POD-DEC-2026112113 |
+| POD-REL-2026112202 · Kagaja Mukha and the Paper Masks of Raghurajpur | published | https://projectodisha.org/stories/kagaja-mukha-and-the-making-of-a-mask/ | POD-DEC-2026112202 |
 
 ## Sources and assets
 
@@ -1408,8 +1410,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112116 | 2026-11-21T13:04:20.020407+00:00 | Reviewed article and three incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
-| POD-EVT-2026112117 | 2026-11-21T13:06:55.841975+00:00 | Separate Drishti review verified publication, live pages, saved screenshots and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 | POD-EVT-2026112118 | 2026-11-21T13:42:22.240632+00:00 | Prior Jau receipt merged and checked; new single draft scope reserved. Independent historical cart-design angle selected after scoped coverage checks; no publication or programme credit. | — |
 | POD-EVT-2026112119 | 2026-11-21T13:49:17.190676+00:00 | Original historical cart-design article, source evidence and publication brief delivered locally after separate review. Three source families and historical/geographic limits retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112120 | 2026-11-21T15:27:23.151976+00:00 | Founder authorized publication with two relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and foreign task preserved. | — |
@@ -1418,6 +1418,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112201 | 2026-11-21T18:53:03.266756+00:00 | Prior Sagada receipt merged and checked; new single draft scope reserved. Paper-mask craft selected after scoped coverage checks; no publication or programme credit. | — |
 | POD-EVT-2026112202 | 2026-11-21T19:05:17.589603+00:00 | Original paper-mask article, source evidence and publication brief delivered locally after separate review. Three primary source families and their limits retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112203 | 2026-11-21T19:14:17.629391+00:00 | Started authorized Kagaja Mukha publication with three relevant reading links. | — |
+| POD-EVT-2026112204 | 2026-11-21T20:05:21.616099+00:00 | Reviewed article and three incoming links published and live verified on desktop/mobile. Zero programme credit; evidence-only receipt review and integration pending. | — |
+| POD-EVT-2026112205 | 2026-11-21T20:09:25.801643+00:00 | Separate Drishti delivery review passed using fresh live responses, exact hashes, actual GitHub records and saved screenshots. Evidence-only receipt ready to integrate; no new deployment required. | — |
 
 ## Deferred extensions
 
