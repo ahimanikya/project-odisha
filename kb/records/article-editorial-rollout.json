@@ -23976,14 +23976,23 @@
       "id": "POD-EDIT-BHAGABATA-20261121",
       "route": "/stories/reading-the-bhagabata/",
       "title": "Reading the Bhagabata beyond the Tungi",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Founder-authorized new reading guide and incoming companion link; zero programme credit.",
       "source_template": "projects/site/src/pages/stories/reading-the-bhagabata.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/bhagabata-publication-20261121.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/bhagabata-publication-20261121.json"
     }
   ]
 }

@@ -1655,3 +1655,7 @@ The Founder requested adding the approved explanation with both historical readi
 ### 21 November 2026 · Bhagabata reading guide prepared for publication
 
 The Founder authorized integration and publication of the revised reader guide, with a link from A Place to Learn Together. The article adds direct text navigation and source/edition guidance beyond the existing community-learning treatments. Separate source review passed; implementation, desktop/mobile and release checks are underway. No fieldwork or autonomous programme credit. [Scoped record](../records/bhagabata-publication-20261121.json).
+
+## 21 November 2026 — Bhagabata reading guide published
+
+Published the separately reviewed reading guide and incoming link from A Place to Learn Together. Required CI and deployment passed; live article, links, sources and image assets verified. Desktop/mobile layout checked. Receipt: [Bhagabata publication](../records/bhagabata-publication-20261121.json). Zero autonomous-programme credit; unrelated receipt task preserved.

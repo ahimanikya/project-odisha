@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f8e820a56f1451e26bd8edf2d0a8cb67cf6a4544c773e284661fe81e6ae4fe58`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b35d6e720e8270cf467f73bf30b5a74241b8d521fda6f4e07f68c4c7d2ad0eed`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -377,7 +377,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-343 · Mayurbhanj journey native attention and learning reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-344 · Jobra native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
-| POD-WORK-2026112101 · Publish Reading the Bhagabata beyond the Tungi | in_progress | draft | Ahimanikya Satapathy | Build, review mobile and desktop, pass required CI, publish and record live verification. | — |
+| POD-WORK-2026112101 · Publish Reading the Bhagabata beyond the Tungi | completed | published | Ahimanikya Satapathy | Publication and reciprocal link verified; receipt saved. No further action for this article. | — |
 
 ## Pending human review and decisions
 
@@ -1325,6 +1325,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026110801 · Tomato poda: an attributed preparation sequence | published | https://projectodisha.org/food/tomato-poda/ | POD-DEC-225 |
 | POD-REL-2026110802 · Patrapoda: leaf parcels and distinct cooking methods | published | https://projectodisha.org/food/patrapoda/ | POD-DEC-225 |
 | POD-REL-171 · Pipili appliqué: from repeated cloth pieces to a formed lampshade | published | https://projectodisha.org/crafts/pipili-applique/ | POD-DEC-225 |
+| POD-REL-2026112101 · Reading the Bhagabata beyond the Tungi | published | https://projectodisha.org/stories/reading-the-bhagabata/ | POD-DEC-2026112101 |
 
 ## Sources and assets
 

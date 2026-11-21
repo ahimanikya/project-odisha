@@ -1,12 +1,12 @@
 {
-  "status": "integration",
+  "status": "published_verified",
   "article_id": "POD-EDIT-BHAGABATA-20261121",
   "route": "/stories/reading-the-bhagabata/",
   "owner": "Disha",
   "started_on": "2026-11-21",
   "authorization_quote": "Go ahead and integrate the revised article into Project Odisha, check the layout on mobile and desktop, and publish it with a link from the existing article.",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "ebeb4b3cf091fd58435b3d9ca3bb1f245eaf3f14",
   "assignments": {
     "Disha": "Shared records, publication scope, builds, browser checks and release",
@@ -108,5 +108,123 @@
     ],
     "orientation": 1,
     "visual_review": "Full frame and readable details inspected; original retained. Full-size delivery JPEG is resized and compressed with visible caption disclosure; responsive WebP variants remain generated from original."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/798",
+  "reviewed_head": "a32943b523e9f6d75dc2593a71445732b2a7dc20",
+  "merge_sha": "99d2731dba57566648fb393684f933ff8497e205",
+  "ci": {
+    "id": 44844422179,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44844422179",
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597,
+    "publication_bytes": 999838348
+  },
+  "deployment": {
+    "id": 44846455117,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44846455117",
+    "head_sha": "99d2731dba57566648fb393684f933ff8497e205",
+    "publication_bytes": 999838348
+  },
+  "live_verification": {
+    "checked_at": "2026-11-21T01:10:50.520558+00:00",
+    "merge_sha": "99d2731dba57566648fb393684f933ff8497e205",
+    "deployment_run": 44846455117,
+    "routes": {
+      "/stories/reading-the-bhagabata/": {
+        "http_200": true,
+        "companion_link": true,
+        "visible_sources": true,
+        "byline": true,
+        "footnotes_resolve": true,
+        "reference_count": 6,
+        "return_count": 6,
+        "photo_credit": true,
+        "delivery_caption": true,
+        "sharing_dimensions": true
+      },
+      "/stories/a-place-to-learn-together/": {
+        "http_200": true,
+        "companion_link": true,
+        "visible_sources": true,
+        "byline": true,
+        "footnotes_resolve": true,
+        "reference_count": 3,
+        "return_count": 3
+      }
+    },
+    "assets": {
+      "/images/stories/bhagabata-tungi-2016.jpg": {
+        "status": 200,
+        "bytes": 582531,
+        "sha256": "42e74f98eb700b1bcf0edbb2aaf3f39780f4a910367b5cf6988d9040b79ca7e5",
+        "matches_reviewed_local": false,
+        "dimensions": [
+          2048,
+          1152
+        ],
+        "orientation": 1,
+        "visual_review": "pass",
+        "local_comparison": {
+          "byte_identical": false,
+          "maximum_decoded_channel_difference": 2,
+          "mean_decoded_channel_difference": 6.244800708912037e-05,
+          "changed_channels": 431,
+          "total_channels": 7077888,
+          "finding": "Live derivative visually inspected; full frame and orientation match. Tiny encoding differences retained as evidence, not claimed byte-identical."
+        }
+      },
+      "/images/responsive/191a07628f15aa82-480.webp": {
+        "status": 200,
+        "bytes": 25262,
+        "sha256": "191a07628f15aa82e27274473b7beb9c72d7ca7e1c2b32f7afbbadcea7ec6c4a",
+        "matches_reviewed_local": true
+      },
+      "/images/responsive/8d0c16270db63923-960.webp": {
+        "status": 200,
+        "bytes": 79554,
+        "sha256": "8d0c16270db63923eb7ea812de081a2174e28d5e444cb26bfd6b79b0903e2fca",
+        "matches_reviewed_local": true
+      },
+      "/images/responsive/7e1e7c60202bb6e0-1440.webp": {
+        "status": 200,
+        "bytes": 157680,
+        "sha256": "7e1e7c60202bb6e0916715a45be93698b23cfd378a53a2025e249e1c856c7f3b",
+        "matches_reviewed_local": true
+      }
+    },
+    "result": "PASS",
+    "browser": {
+      "status": "pass",
+      "live_desktop_width": 1440,
+      "live_mobile_width": 390,
+      "no_horizontal_overflow": true,
+      "hero_loaded": true,
+      "reciprocal_navigation_clicked": true,
+      "screenshots": [
+        "desktop.jpg",
+        "mobile.jpg"
+      ],
+      "limits": "Viewport simulation; no physical-device claim."
+    }
+  },
+  "verified_routes": [
+    "/stories/reading-the-bhagabata/",
+    "/stories/a-place-to-learn-together/"
+  ],
+  "completed_at": "2026-11-21T01:12:39.126570+00:00",
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_head": "a32943b523e9f6d75dc2593a71445732b2a7dc20",
+    "findings": "Explicit per-photo delivery settings, exact original and credit metadata preserved, full-frame caption and sharing dimensions correct; no blockers."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "GitHub CI and deployment independently checked; eight KB-only changes; own claim released, foreign task unchanged, zero programme credit. Live/local JPEG distinction accurate. Browser observations attributed to root."
   }
 }
