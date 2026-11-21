@@ -1,0 +1,122 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "pass",
+  "reviewed_at": "2026-11-21T23:21:42.347101+00:00",
+  "scope": "Daringbadi live delivery and evidence-only receipt candidate before final review fields/view regeneration and commit",
+  "publication_head": "8a13741f188d339380756c56d26abb657aa5e047",
+  "publication_merge": "09c751207cbf57644cc0f889078862f8af3cbdc1",
+  "independent_release_checks": {
+    "pr": 816,
+    "state": "MERGED",
+    "ci_run": 44955851469,
+    "ci_conclusion": "success",
+    "deployment_run": 44958538048,
+    "deployment_conclusion": "success",
+    "source_sha_matches_merge": true,
+    "full_tests": 821,
+    "coast_tests": 597,
+    "failed_tests": 0,
+    "ci_and_deployment_payload_bytes": 998163589,
+    "disclosure_page_counts": {
+      "full": 1489,
+      "coast": 1474,
+      "publication": 1475
+    },
+    "method": "Direct read-only GitHub PR/run API and logs; successful build/deployment jobs observed."
+  },
+  "independent_live_checks": {
+    "verified_routes": [
+      "/destinations/daringbadi/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "all_http_status": 200,
+    "single_article_h1": true,
+    "native_reference_and_return_targets": 12,
+    "all_fragment_targets_resolve": true,
+    "ids_unique": true,
+    "three_incoming_routes_have_article_link_and_dawn_image": true,
+    "article_sha256": "51bd8a9791b557fb2d4dbfac786877f96c0ed604348c1ecced7506b6406be377",
+    "local_article_sha256": "38b05c7770d46dbd668cd7d9f28421ab1ef61ca3b94de0b4711090a98da8cc83",
+    "normalized_article_matches": true,
+    "normalization": "Only /images/responsive/<16 lowercase hex digits>-<width>.webp filenames; every live responsive image in the article was fetched and its SHA-256 prefix checked.",
+    "original_images": [
+      {
+        "name": "dawn",
+        "bytes": 116012,
+        "dimensions": [
+          2000,
+          1500
+        ],
+        "sha256": "057d45827cd40945d4825ed89e42192bcc74b1a78d8697503576ed1d761d809f"
+      },
+      {
+        "name": "coffee",
+        "bytes": 543662,
+        "dimensions": [
+          1600,
+          1200
+        ],
+        "sha256": "f3e754d615e1c2767e8f9258c4604f5191c9df8592b6dd21de6fc353475b6c19"
+      }
+    ],
+    "daringbadi_responsive_dimensions": [
+      [
+        480,
+        360
+      ],
+      [
+        960,
+        720
+      ],
+      [
+        1440,
+        1080
+      ]
+    ],
+    "responsive_variants_fetched": 6,
+    "variant_scope": "Three Daringbadi hero variants plus three existing Deomali Continue Reading variants. All SHA prefixes verified; Daringbadi descriptors match actual widths and 4:3 dimensions.",
+    "method": "Fresh HTTPS requests, in-memory image decoding/hash verification and HTML parsing. Web-reader access failed; direct HTTPS succeeded."
+  },
+  "screenshot_review": {
+    "status": "pass",
+    "files": [
+      "live-desktop.jpg",
+      "live-mobile.jpg",
+      "live-coffee.jpg",
+      "live-footnotes.jpg",
+      "live-preview.jpg"
+    ],
+    "observed": "Readable desktop/mobile title, byline and dawn photograph; distinct coffee photograph with dated credit; actual mobile source-note list with return links; correct Daringbadi preview beside Deomali. No visible clipping in reviewed views.",
+    "capture_owner": "Disha",
+    "independent_action": "Drishti visually inspected all five saved screenshots.",
+    "interaction_attribution": "Keyboard reference/return, reciprocal navigation and overflow measurements remain Disha browser observations; not independently repeated by Drishti.",
+    "historical_limit_preserved": "Earlier local mobile-footnotes capture showed prose; fresh live-footnotes now actually shows the source-note list. No retrospective claim that the earlier screenshot showed notes."
+  },
+  "receipt_review": {
+    "status": "pass",
+    "website_source_changes": false,
+    "existing_foreign_records_preserved": true,
+    "only_existing_register_record_changed": "POD-WORK-2026112294",
+    "foreign_current_task_unchanged": true,
+    "activity_history_exact_byte_prefix": true,
+    "brass_fish_files_byte_preserved": 10,
+    "brass_fish_comparison_base": "aa92b064cfc889283972008f304ba989d3af10fe",
+    "brass_fish_public_exclusion": "Previously independently passed coastal/publication scans; publication source remains unchanged. No new dedicated draft integration.",
+    "programme_credit": 0,
+    "new_active_article_count": 0,
+    "scope_release_condition": "Effective only after independently reviewed receipt merges. Putsil remains queued.",
+    "deployment_required": false,
+    "reason": "Receipt modifies internal records and captured evidence only; delivered website source remains reviewed publication merge."
+  },
+  "required_fixes": [],
+  "remaining_gate": "Coordinator may add this accurately attributed review and one actual review event, regenerate views, commit the evidence-only receipt, pass required exact-head checks and merge it before beginning the next article.",
+  "limits": [
+    "Separate AI review, not human specialist approval or field verification.",
+    "Viewport screenshots are not physical-device, screen-reader or cross-engine certification.",
+    "Receipt commit and its CI/merge do not yet exist at this review point.",
+    "Original image hash exclusion is not a perceptual search for every possible transformed brass-fish photograph."
+  ]
+}

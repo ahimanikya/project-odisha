@@ -24188,15 +24188,24 @@
       "id": "POD-EDIT-DARINGBADI-20261122",
       "route": "/destinations/daringbadi/",
       "title": "Daringbadi: Coffee, Shade and Hill Views",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "Disha",
       "scope": "Researched hill-town article with rights-cleared article/preview photograph; zero programme credit.",
       "source_template": "projects/site/src/pages/destinations/daringbadi.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/daringbadi-publication-20261122.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/daringbadi-publication-20261122.json"
     }
   ]
 }

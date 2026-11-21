@@ -10268,12 +10268,12 @@
       "id": "POD-WORK-2026112294",
       "title": "Research, review and publish Daringbadi",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112291",
-      "next_action": "Complete final publication gates, deploy, live verify and record reviewed receipt.",
+      "next_action": "Daringbadi and both credited photographs are published and live verified; delivery receipt saved for independent review and integration.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112291"
@@ -24756,7 +24756,7 @@
     },
     {
       "id": "POD-REV-2026112294",
-      "title": "Daringbadi separate source and integrated quality review",
+      "title": "Daringbadi separate integrated and publication receipt review",
       "status": "pass_with_limitations",
       "reviewer": {
         "kind": "ai_assistant",
@@ -24764,15 +24764,16 @@
       },
       "independent": true,
       "refs": [
-        "POD-WORK-2026112294"
+        "POD-WORK-2026112294",
+        "POD-REL-2026112294"
       ],
       "evidence": [
         "records/daringbadi-publication-20261122.json"
       ],
       "limitations": [
         "Separate AI review, not human specialist approval or field verification.",
-        "Final payload, exact-head CI, deployment and live delivery remain required.",
-        "Browser viewport simulation only; screenshot and access limits retained in detailed review."
+        "Root browser interactions and overflow measurements attributed to root; five live screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.",
+        "Original image hash exclusion is not a perceptual search for every possible transformed photograph."
       ]
     }
   ],
@@ -28946,6 +28947,20 @@
       ],
       "evidence": [
         "records/deomali-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112294",
+      "title": "Daringbadi: Coffee, Shade and Hill Views",
+      "status": "published",
+      "authorization": "POD-DEC-2026112291",
+      "destination": "https://projectodisha.org/destinations/daringbadi/",
+      "refs": [
+        "POD-WORK-2026112294",
+        "POD-DEC-2026112291"
+      ],
+      "evidence": [
+        "records/daringbadi-publication-20261122.json"
       ]
     }
   ],
