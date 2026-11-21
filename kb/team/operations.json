@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-DHUMPA-20261121",
-    "route": "/stories/dhumpa-music-and-its-players/",
+    "id": "POD-EDIT-BAGHACHELI-20261121",
+    "route": "/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/dhumpa-publication-20261121.json",
-    "scope_released": true,
-    "release_condition": "Effective upon merge of this reviewed publication receipt."
+    "phase": "implementation",
+    "handoff": "records/bagha-chheli-publication-20261121.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -439,6 +438,15 @@
       },
       "original_current_article": null,
       "credit_added_here": 0
+    },
+    {
+      "scope": "POD-EDIT-DHUMPA-20261121",
+      "resolution": "COMPLETE_RELEASED",
+      "receipt_pr": 805,
+      "receipt_merge": "11b78f4c8abb5bbf65399175a261e711a9c813b9",
+      "required_check_run": 44878695724,
+      "required_check_result": "SUCCESS",
+      "credit_added_here": 0
     }
   ],
   "prior_coordinator_claims": [
@@ -519,10 +527,10 @@
     }
   ],
   "draft_preparation": {
-    "article_id": "POD-EDIT-DHUMPA-20261121",
+    "article_id": "POD-EDIT-BAGHACHELI-20261121",
     "owner": "Disha",
     "status": "prepared_reviewed",
-    "handoff": "records/dhumpa-article-preparation-20261121.json",
+    "handoff": "records/bagha-chheli-article-preparation-20261121.json",
     "scope_released": true,
     "scope": "Independent research and reviewed article draft only. No website integration or publication."
   },
@@ -533,6 +541,14 @@
       "status": "prepared_reviewed",
       "handoff": "records/ganjapa-article-preparation-20261121.json",
       "scope_released": true
+    },
+    {
+      "article_id": "POD-EDIT-DHUMPA-20261121",
+      "owner": "Disha",
+      "status": "prepared_reviewed",
+      "handoff": "records/dhumpa-article-preparation-20261121.json",
+      "scope_released": true,
+      "scope": "Independent research and reviewed article draft only. No website integration or publication."
     }
   ],
   "article_pointer_history": [
@@ -542,6 +558,15 @@
       "owner": "Disha",
       "phase": "receipt_integrated",
       "handoff": "records/ganjapa-publication-20261121.json",
+      "scope_released": true,
+      "release_condition": "Effective upon merge of this reviewed publication receipt."
+    },
+    {
+      "id": "POD-EDIT-DHUMPA-20261121",
+      "route": "/stories/dhumpa-music-and-its-players/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/dhumpa-publication-20261121.json",
       "scope_released": true,
       "release_condition": "Effective upon merge of this reviewed publication receipt."
     }

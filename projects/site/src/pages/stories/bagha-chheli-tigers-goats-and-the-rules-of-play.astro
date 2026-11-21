@@ -1,0 +1,31 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md';
+const image = {src: '/images/stories/bagha-chheli-bengaluru.webp', alt: 'Stones arranged on a line board drawn on the floor.', width: 900, height: 716};
+const continueReading = [{href: '/stories/ganjapa-cards-made-for-play/', title: 'Ganjapa Cards Made for Play', image: '/images/stories/ganjapa-pack-comparison.svg'}];
+const furtherReading = [{href: '/books/odisha-culture-memory-and-living-traditions/growing-up-in-odisha/', title: 'Growing Up in Odisha'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <figure>
+      <img {...image} loading="eager" fetchpriority="high"/>
+      <figcaption>Bagha Chheli at home in Bengaluru, 29 July 2014.<sup><a href="#user-content-fn-3" aria-label="Footnote 3: photograph source">3</a></sup> <a href="https://commons.wikimedia.org/wiki/File:Bagha_cheli.JPG">Subhashish Panigrahi / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Resized and converted to WebP; derivative under the same licence.</figcaption>
+    </figure>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fbagha-chheli-tigers-goats-and-the-rules-of-play%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

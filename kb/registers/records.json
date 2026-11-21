@@ -10083,6 +10083,42 @@
       "evidence": [
         "records/dhumpa-publication-20261121.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112108",
+      "title": "Prepare Bagha Chheli and the Rules of Play",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112108",
+      "next_action": "Prepared article and source review delivered locally; website integration and publication are outside this preparation task.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112108"
+      ],
+      "evidence": [
+        "records/bagha-chheli-article-preparation-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112109",
+      "title": "Publish Bagha Chheli and the Rules of Play",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112109",
+      "next_action": "Implement, review, publish and verify live delivery.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112109"
+      ],
+      "evidence": [
+        "records/bagha-chheli-publication-20261121.json"
+      ]
     }
   ],
   "decisions": [
@@ -15225,6 +15261,36 @@
       "refs": [],
       "evidence": [
         "records/dhumpa-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112108",
+      "title": "Prepare another independently researched article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+      "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+      "refs": [],
+      "evidence": [
+        "records/bagha-chheli-article-preparation-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112109",
+      "title": "Publish Bagha Chheli with related reading links",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Go ahead and integrate the Bagha Chheli article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+      "scope": "Integrate reviewed article, verify desktop/mobile and publish with two relevant incoming links.",
+      "refs": [],
+      "evidence": [
+        "records/bagha-chheli-publication-20261121.json"
       ]
     }
   ],
@@ -24178,6 +24244,28 @@
         "Separate AI review, not human specialist approval.",
         "Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.",
         "Earlier Dhuduki and Daskathia attribution/footnote conventions preserved; not a complete editorial review of those pages."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112108",
+      "title": "Bagha Chheli separate source and originality review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112108"
+      ],
+      "evidence": [
+        "records/bagha-chheli-article-preparation-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Original1926scan not recovered; indexed Ludii evidence distinguished from direct navigation shell.",
+        "Photograph metadata/rights checked but image not visually inspected or downloaded.",
+        "No fieldwork, gameplay test, rendered layout or publication claimed."
       ]
     }
   ],
