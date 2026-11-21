@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b871d56b8fa24bc2124210e94c1fcca85aaa41d826fcaa05c061cfbaffb1002f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `76017533d585c66f222b0ad582866acb4764711145ee3a79ae64a81fd616cd40`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -381,6 +381,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112102 · Prepare The Dhinki and the Work Behind Rice | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112103 · Publish The Dhinki and the Work Behind Rice | completed | published | Ahimanikya Satapathy | Article and both incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112104 · Prepare Ganjapa Cards Made for Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
+| POD-WORK-2026112105 · Publish Ganjapa Cards Made for Play | in_progress | reviewed | Ahimanikya Satapathy | Integrate, review, verify mobile/desktop and publish with live receipt. | — |
 
 ## Pending human review and decisions
 
@@ -699,6 +700,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112102 · Prepare an independently researched next article | recorded_direction | Ahimanikya Satapathy | Select a distinct topic, research independently and prepare a reviewed draft. No website publication requested. |
 | POD-DEC-2026112103 · Publish the reviewed Dhinki article | recorded_direction | Ahimanikya Satapathy | Integrate reviewed Dhinki article, explanatory diagram and relevant incoming links; verify mobile/desktop and publish. |
 | POD-DEC-2026112104 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Select a new topic through Antaranga Kalinga; independent research and article preparation only. |
+| POD-DEC-2026112105 · Publish the reviewed Ganjapa article | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article and relevant links, verify responsive layout and publish. |
 
 ## Reviews
 

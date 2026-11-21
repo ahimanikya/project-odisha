@@ -11,6 +11,7 @@ import netajiEditorial from '../../../../../../kb/research/destinations/netaji-m
 import tarakasiEditorial from '../../../../../../kb/research/destinations/tarakasi-editorial.json';
 import barabatiEditorial from '../../../../../../kb/research/destinations/barabati-editorial.json';
 import ArticleByline from '../../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
 import ArticleFootnote from '../../../components/ArticleFootnote.astro';
 import ArticleFootnotes from '../../../components/ArticleFootnotes.astro';
 import bhubStayEditorial from '../../../../../../kb/research/destinations/bhubaneswar-stay-editorial.json';
@@ -103,6 +104,7 @@ const kindLabel=r.kind==='stays'?'Stay-area guide':r.kind==='experiences'?'Thing
    </section>}
    {!editorial?.practical_in_article&&<VisitReadiness/>}
    <VisitNotebook editorial={editorial}/>
+   {r.kind==='places'&&r.slug==='raghurajpur'&&<div class="detail-further-reading"><ArticleReadingPath id="ganjapa-reading" heading="Painted cards made for play" links={[{href:'/stories/ganjapa-cards-made-for-play/',title:'Ganjapa Cards Made for Play',description:'Card-making, named packs and the choices of their makers.',image:'/images/stories/ganjapa-pack-comparison.svg'}]}/></div>}
    {isJobra&&<h2 class="jobra-further-reading">Further reading</h2>}{isKala&&<h2 class="detail-further-reading">Further reading</h2>}
    {inCollection?<div id="connect-visit"><CollectionOnward path={pagePath} extraLinks={r.related.map(relatedDetail).filter(Boolean)}/></div>:(isBarabati||isTarakasi||isNetaji||isCuttackStay||isChandipur||isSimilipal||isChhau||isBalasoreStay||isSimilipalStay)?<section id="connect-visit" class="detail-further-reading"><details class="utk-disclosure"><summary>Further reading</summary><nav aria-label="Related places and experiences"><ul>{r.related.map(relatedDetail).filter(link=>link&&allowsPage(link.href)).map(link=><li><a href={link.href}>{link.title} →</a></li>)}</ul></nav></details><p><a href="/journey/">Open my journey →</a></p></section>:<><section id="connect-visit" class="visit-connections"><div><p class="eyebrow">Connect the pieces</p><h2>Make room for<br/><em>the whole visit.</em></h2><p>Know the place, choose an experience and research a base. These are related ideas, not a confirmed route.</p></div><nav aria-label="Related places and experiences">{r.related.map(relatedDetail).filter(link=>link&&allowsPage(link.href)).map(link=><a href={link.href}><span>{link.href.includes('/food/')?'At the table':link.href.includes('/stays/')?'Stay-area research':link.href.includes('/experiences/')?'An experience':link.href.includes('/places/')?'The place':link.href.includes('/crafts/')?'A craft story':'The wider destination'}</span><strong>{link.title} ↗</strong></a>)}<a href="/journey/"><span>Bring your choices together</span><strong>Open my journey →</strong></a></nav></section></>}
    {r.gallery?.filter(id=>!r.sections.some(s=>s.photo_ref===id)).map(id=><div class="detail-gallery"><DestinationPhoto photo={detailChapterPhoto(id)}/></div>)}

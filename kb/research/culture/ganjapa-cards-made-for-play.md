@@ -4,9 +4,9 @@ description: "How Ganjapa cards are made, how makers vary their form, and what d
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "everyday"]
 type: "Material culture essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 Odisha’s Ganjapa playing cards bring painting into the hand. A pack joins the work of an artist to the needs of a game.[^1]
@@ -34,8 +34,6 @@ Mahapatra’s interview gives another view of that variety. He says he learnt de
 His account connects the painted surface to a working practice: watching others, learning designs and responding to requests. A square card can carry a Dashavatar design; a Ramayana minister can ride a bicycle. These choices belong to named makers and particular packs.
 
 That variety is part of Ganjapa’s interest. The pictures have identities within a set, while the finished objects must stand up to handling. Painting and play meet in the same small object.
-
-## Footnotes & Sources
 
 [^1]: Ritu Sethi, [“Ganjappa: Playing Cards of Odisha”](https://artsandculture.google.com/story/ganjappa-playing-cards-of-odisha-craft-revival-trust/sgVR69nwnE_-SA?hl=en), Craft Revival Trust/Asia InCH, hosted by Google Arts & Culture; flower-card caption and final process paragraph. Undated.
 
