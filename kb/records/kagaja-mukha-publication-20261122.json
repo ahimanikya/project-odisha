@@ -1,0 +1,139 @@
+{
+  "status": "reviewed_candidate",
+  "article_id": "POD-EDIT-KAGAJAMUKHA-20261122",
+  "route": "/stories/kagaja-mukha-and-the-making-of-a-mask/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization_quote": "Go ahead and integrate the Kagaja Mukha article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112202",
+  "work_id": "POD-WORK-2026112202",
+  "programme_credit": 0,
+  "scope_released": false,
+  "preparation_receipt": "records/kagaja-mukha-article-preparation-20261122.json",
+  "input_head": "1c1f3598",
+  "remote_main": "e941ba256239143cd21f8532a83d3ba7f882b9a1",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Coordinator, shared records and publication",
+    "Anvesha": "Read-only source continuity review",
+    "Samanta": "Reserved website integration",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/kagaja-mukha-and-the-making-of-a-mask.astro",
+      "projects/site/src/components/PattachitraArticle.astro",
+      "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro"
+    ],
+    "Disha": [
+      "shared KB, registers, route configuration and test count"
+    ]
+  },
+  "incoming_routes": [
+    "/crafts/pattachitra/",
+    "/stories/ganjapa-cards-made-for-play/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "media_plan": "Text-first approved draft; no source photographs cleared and no new media introduced.",
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlap_found": false,
+    "prior_receipt_pr": 811,
+    "prior_receipt_merged": true
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "responsive-design",
+      "html"
+    ],
+    "retrieved_on": "2026-11-22",
+    "application": "Native heading and note links; rem-bounded fluid title; established responsive reading column. No new client JavaScript."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Body, notes and source links unchanged from reviewed draft; status metadata and source-heading placement only.",
+    "derived_word_allocations": {
+      "IDC": 197,
+      "NID": 157,
+      "LKA": 117
+    },
+    "limitations": "No new research, fieldwork, image reuse, layout or live validation claimed."
+  },
+  "browser_review": {
+    "reviewer": "Disha",
+    "browser": "In-app Chromium browser",
+    "status": "local_pass",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        812
+      ]
+    ],
+    "overflow": false,
+    "desktop_column_px": 740,
+    "body_font_px": {
+      "desktop": 17.92,
+      "mobile": 16.8
+    },
+    "body_line_height": {
+      "desktop": 1.85,
+      "mobile": 1.8
+    },
+    "checks": [
+      "Visible notes and return links",
+      "Keyboard first-note and return",
+      "All three reciprocal reading paths followed",
+      "Both existing reading-card images loaded"
+    ],
+    "evidence_directory": "outputs/kagaja-mukha-publication-20261122",
+    "limits": [
+      "Emulated viewport sizes, not physical devices",
+      "No Firefox, WebKit or screen-reader certification"
+    ]
+  },
+  "local_validation": {
+    "native_refs": 4,
+    "note_definitions": 3,
+    "single_sources_heading": true,
+    "unchanged_book_chapters": 47,
+    "target_book_chapter_changed_only": true,
+    "full_article_sha256": "cbb8b6a3f95893ee2734c42bbf5667a242e07e3989370bf24f656fb29c922a6c",
+    "full_tests": "821 passed",
+    "full_disclosure_gate": "pass",
+    "coast_and_publication": "running; required before merge"
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "article_fragment_sha256": "cbb8b6a3f95893ee2734c42bbf5667a242e07e3989370bf24f656fb29c922a6c",
+    "findings": [
+      "All three responsive screenshots visually inspected",
+      "Four rendered routes checked; three reciprocal paths present",
+      "Four note references and four returns resolve; no duplicate IDs",
+      "Other47book chapters byte-identical at article-fragment scope",
+      "All five source files unchanged from reviewed snapshot"
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist approval",
+      "Browser interactions and measurements performed by Disha; Drishti independently inspected source, HTML and screenshots",
+      "CI and live verification pending"
+    ]
+  },
+  "reserved_files_released_by_workers": true
+}

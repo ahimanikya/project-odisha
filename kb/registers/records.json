@@ -10191,6 +10191,42 @@
       "evidence": [
         "records/sagada-publication-20261121.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112201",
+      "title": "Prepare Kagaja Mukha article",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112201",
+      "next_action": "Prepared article and source review delivered locally; website integration and publication are outside this preparation task.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112201"
+      ],
+      "evidence": [
+        "records/kagaja-mukha-article-preparation-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112202",
+      "title": "Publish Kagaja Mukha article",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112202",
+      "next_action": "Integrate, validate, review and publish the authorized article.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112202"
+      ],
+      "evidence": [
+        "records/kagaja-mukha-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -15425,6 +15461,38 @@
       ],
       "evidence": [
         "records/sagada-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112201",
+      "title": "Prepare another independently researched article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+      "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+      "refs": [],
+      "evidence": [
+        "records/kagaja-mukha-article-preparation-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112202",
+      "title": "Publish reviewed Kagaja Mukha article with related reading links",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Go ahead and integrate the Kagaja Mukha article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+      "scope": "Integrate reviewed article, check desktop/mobile, publish with relevant incoming links.",
+      "refs": [
+        "POD-WORK-2026112201"
+      ],
+      "evidence": [
+        "records/kagaja-mukha-publication-20261122.json"
       ]
     }
   ],
@@ -24513,6 +24581,27 @@
         "Separate AI review, not human specialist approval.",
         "Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.",
         "Historical and geographic source limits retained; no new fieldwork claimed."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112201",
+      "title": "Kagaja Mukha separate source originality and editorial review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112201"
+      ],
+      "evidence": [
+        "records/kagaja-mukha-article-preparation-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Selected source pages inspected; not full-volume visual reading or fieldwork.",
+        "Draft only; no website layout or publication check."
       ]
     }
   ],
