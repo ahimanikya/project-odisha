@@ -1,0 +1,165 @@
+{
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+  "programme_credit": 0,
+  "assignments": {
+    "Disha": "Topic selection, shared records, editorial integration and delivery",
+    "Anvesha": "Independent evidence research in reserved source-review record",
+    "Samanta": "Draft article and publication brief in reserved files",
+    "Drishti": "Separate read-only source, originality and editorial review"
+  },
+  "runtime": "Existing separate task-scoped AI agents reused; not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation",
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-BAGHACHELI-20261121",
+  "authorization": "POD-DEC-2026112108",
+  "work_id": "POD-WORK-2026112108",
+  "scope_released": true,
+  "input_head": "11b78f4c8abb5bbf65399175a261e711a9c813b9",
+  "remote_reconciliation": {
+    "prior_receipt_pr": 805,
+    "prior_receipt_merged": true,
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/bagha-chheli-source-review-20261121.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md",
+      "outputs/bagha-chheli-article-2026-11-21/publication-brief.md"
+    ],
+    "Disha": [
+      "shared registers, map, handoff and clean reading copy"
+    ]
+  },
+  "novelty": {
+    "queries": [
+      "Bagha Chheli",
+      "Bagha Cheli",
+      "Bagha Bajari",
+      "Bagha Guti",
+      "Bagh Chal",
+      "Bagh Bandi",
+      "ବାଘଛେଳି",
+      "tigers and goats"
+    ],
+    "finding": "No dedicated Bagha Chheli article or research-map entry found. Broader corpus review found a brief name-only mention in Growing Up in Odisha; new article adds game structure and documented rule distinctions.",
+    "reuse": [
+      "culture/ganjapa-cards-made-for-play.md",
+      "culture/index.md",
+      "references/data/research-queue.json:RES-033.reuse_before_research",
+      "projects/site/src/data/cultural-book.json:growing-up-in-odisha"
+    ],
+    "missing_question": "How do the unequal roles of tigers and goats shape Bagha Chheli, and why should readers distinguish recorded rule versions?",
+    "limits": "Scoped alias and semantic check, not exhaustive proof of absence.",
+    "existing_mention": {
+      "path": "projects/site/src/data/cultural-book.json",
+      "chapter": "Growing Up in Odisha",
+      "locator": "chapter37, Play and the language of learning, paragraph1",
+      "scope": "Name in SCERT2025 school-framework games list; no game description or rules."
+    }
+  },
+  "discovery_only": {
+    "title": "ବାଘଛେଳି ଖେଳ",
+    "url": "https://antarangakalinga.org/ବାଘଛେଳି-ଖେଳ/",
+    "publisher": "Antaranga Kalinga",
+    "author": "Shishir Sahu Manoj",
+    "publication_date": "2020-11-13",
+    "access": "Direct non-AMP article inspected 2026-11-21. AMP request returned429.",
+    "use": "Topic discovery and originality comparison only. No translated prose, distinctive narrative, media or factual claims reused as article evidence."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "evidence_ready_with_access_limits",
+    "finding": "Three independent source families support documented game structure, differentiated rule endpoints and one credited photographic occasion. Archive and Ludii share one evidence family.",
+    "source_ids": [
+      "baghachheli-archive-6395",
+      "baghachheli-ludii-782-1648",
+      "baghachheli-mycitylinks-20200813",
+      "baghachheli-panigrahi-photo-20140729"
+    ],
+    "limits": "Original1926scan not recovered; Ludii indexed evidence and direct shell distinguished; Commons metadata read but no visual photo claim."
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md",
+      "outputs/bagha-chheli-article-2026-11-21/publication-brief.md"
+    ],
+    "editorial_revision": "Disha tightened title and removed redundant introductory and photographic-record commentary; claims and version distinctions preserved."
+  },
+  "completed_on": "2026-11-21",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "This request delivers a local article draft and editorial evidence. No public route or website assets changed.",
+  "next_action": "Reviewed article and publication brief delivered for Founder review; website integration awaits a publication instruction.",
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_article_sha256": "ef5b31b7750c52d03c6cc66abaf3c3daaabe0f02c35e840fbdb5f32ef55eb363",
+    "findings": [
+      "Original game structure and version-comparison angle adds beyond existing name-only mention.",
+      "Archive modern all-goats condition and Mycitylinks five-goat condition kept distinct.",
+      "No copied or translated Antaranga prose, narrative sequence or media.",
+      "Six references resolve to three definitions; reading copy matches canonical body."
+    ],
+    "conservative_derived_word_allocations": {
+      "dasgupta-ludii-boardgames-archive": 196,
+      "mycitylinks-sameedha-mohanty": 180,
+      "panigrahi-firsthand-photograph": 132
+    },
+    "counting_scope": "Includes title/dek, applicable complete paragraphs and interpretation, notes and headings; Commons includes brief media paragraph. Identical reading-copy/title/dek wording counted once; source IDs, bibliographic/procedural metadata and original closing advice do not add new derived narrative.",
+    "limits": [
+      "Separate AI review, not human specialist approval.",
+      "Original1926scan not recovered; indexed Ludii evidence distinguished from direct navigation shell.",
+      "Photograph metadata/rights checked but image not visually inspected or downloaded.",
+      "No fieldwork, gameplay test, rendered layout or publication claimed."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md",
+      "sha256": "ef5b31b7750c52d03c6cc66abaf3c3daaabe0f02c35e840fbdb5f32ef55eb363"
+    },
+    {
+      "path": "kb/research/culture/bagha-chheli-source-review-20261121.json",
+      "sha256": "1c6af3cdf441d48056aa0b01e0cbfff1093e32a4daad8e1e82f3fd31dc02b052"
+    },
+    {
+      "path": "outputs/bagha-chheli-article-2026-11-21/article.md",
+      "sha256": "b8d2fcb0f40f51e94f42132597c690dec2caf899b5b9fbbc4e7b570ba7a12c46"
+    },
+    {
+      "path": "outputs/bagha-chheli-article-2026-11-21/publication-brief.md",
+      "sha256": "64627d53b994fda4a95277956d99e496818df56668233c08e7d927fb9e04b052"
+    }
+  ],
+  "validation": {
+    "notes": {
+      "definitions": 3,
+      "references": 6,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical_body": true,
+    "foreign_task_preserved": true,
+    "registers": "pass",
+    "catalogue": "pass",
+    "team_assignments": "pass",
+    "autonomous_program": "pass; zero credit",
+    "research_map": "pass",
+    "bundle": "pass",
+    "git_diff_whitespace": "pass"
+  }
+}
