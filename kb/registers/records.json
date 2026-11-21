@@ -10047,6 +10047,42 @@
       "evidence": [
         "records/ganjapa-publication-20261121.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112106",
+      "title": "Prepare Dhumpa Music and Its Players",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112106",
+      "next_action": "Prepared article and source review delivered locally; website integration and publication are outside this preparation task.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112106"
+      ],
+      "evidence": [
+        "records/dhumpa-article-preparation-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112107",
+      "title": "Publish Dhumpa Music and Its Players",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112107",
+      "next_action": "Implement reviewed article, check responsive rendering and links, publish and verify live delivery.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112107"
+      ],
+      "evidence": [
+        "records/dhumpa-publication-20261121.json"
+      ]
     }
   ],
   "decisions": [
@@ -15159,6 +15195,36 @@
       ],
       "evidence": [
         "records/ganjapa-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112106",
+      "title": "Prepare another independently researched article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+      "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+      "refs": [],
+      "evidence": [
+        "records/dhumpa-article-preparation-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112107",
+      "title": "Publish Dhumpa with related reading links",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Go ahead and integrate the Dhumpa article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+      "scope": "Integrate reviewed Dhumpa article, verify desktop and mobile, publish with relevant incoming links.",
+      "refs": [],
+      "evidence": [
+        "records/dhumpa-publication-20261121.json"
       ]
     }
   ],
@@ -24069,6 +24135,27 @@
       ],
       "limitations": [
         "AI editorial review, not human or specialist approval; prepared text only, no live layout or publication claim."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112106",
+      "title": "Dhumpa separate source and originality review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112106"
+      ],
+      "evidence": [
+        "records/dhumpa-article-preparation-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI editorial review, not human specialist approval.",
+        "Official PDF source text inspected through original-domain search index; direct acquisition timed out. No visual PDF check claimed.",
+        "No audio/video playback, fieldwork, rendered layout or live publication checks claimed."
       ]
     }
   ],

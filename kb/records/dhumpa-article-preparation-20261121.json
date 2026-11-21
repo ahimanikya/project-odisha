@@ -1,0 +1,171 @@
+{
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-DHUMPA-20261121",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "authorization": "POD-DEC-2026112106",
+  "work_id": "POD-WORK-2026112106",
+  "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+  "programme_credit": 0,
+  "scope_released": true,
+  "input_head": "933d884bd1ceb5ae343b227260b3aaa79d35c7e6",
+  "remote_reconciliation": {
+    "main": "933d884bd1ceb5ae343b227260b3aaa79d35c7e6",
+    "tree_matches_local": true,
+    "prior_receipt_pr": 803,
+    "prior_receipt_merged": true,
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "assignments": {
+    "Disha": "Topic selection, shared records, editorial integration and delivery",
+    "Anvesha": "Independent evidence research in reserved source-review record",
+    "Samanta": "Draft article and publication brief in reserved files",
+    "Drishti": "Separate read-only source, originality and editorial review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/dhumpa-source-review-20261121.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/dhumpa-music-and-its-players.md",
+      "outputs/dhumpa-article-2026-11-21/publication-brief.md"
+    ],
+    "Disha": [
+      "records/dhumpa-article-preparation-20261121.json",
+      "kb/registers/records.json",
+      "kb/team/operations.json",
+      "kb/history/ledger.jsonl",
+      "kb/research/references/data/research-map.json",
+      "kb/registers/DASHBOARD.md",
+      "kb/catalog.json",
+      "outputs/dhumpa-article-2026-11-21/article.md"
+    ]
+  },
+  "runtime": "Existing separate task-scoped AI agents reused; not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation",
+  "novelty": {
+    "queries": [
+      "Dhumpa",
+      "Dhump",
+      "Dhumpha",
+      "ଢୁମ୍ପ",
+      "ଧୁମ୍ପ",
+      "ଢୁମ୍ଫ",
+      "Dhumfa"
+    ],
+    "finding": "No matches in scoped research and site corpus or Dhumpa research-map query. Existing performing-arts collection covers other traditions.",
+    "reuse": [
+      "culture/dance-and-music-connections.md",
+      "culture/odissi.md",
+      "references/data/research-queue.json:RES-027.reuse_before_research",
+      "references/data/research-queue.json:RES-044.reuse_before_research"
+    ],
+    "missing_question": "How is Dhumpa played, and what do documented ensembles and performances show about its collective practice?",
+    "limits": "Scoped alias and semantic check, not exhaustive proof of absence."
+  },
+  "discovery_only": {
+    "title": "ଢୁମ୍ଫା",
+    "url": "https://antarangakalinga.org/%E0%AC%A2%E0%AD%81%E0%AC%AE%E0%AD%8D%E0%AC%AB%E0%AC%BE/",
+    "publisher": "Antaranga Kalinga",
+    "credited_research_and_presentation": [
+      "Shishir Sahu Manoj",
+      "Santosh Pattanaik"
+    ],
+    "publication_date": "2020-10-05",
+    "access": "Direct page inspected 2026-11-21; heading, date and credit at web text lines85–91.",
+    "use": "Topic discovery and originality comparison only. No translated prose, distinctive narrative, images or factual claims reused as article evidence."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "evidence_ready_with_access_limits",
+    "finding": "Three independent source families support a local ensemble description, reported performance and official programme listing. Indexed original PDF passages inspected; direct PDF acquisition incomplete.",
+    "source_ids": [
+      "dhumpa-ignca-cultural-mapping",
+      "dhumpa-orissapost2018",
+      "dhumpa-sna-jyotirgamaya2022"
+    ]
+  },
+  "completed_on": "2026-11-21",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "This request delivers a local article draft and editorial evidence. No public route or website assets changed.",
+  "next_action": "Prepared article delivered for Founder review; website integration awaits a publication instruction.",
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/dhumpa-music-and-its-players.md",
+      "outputs/dhumpa-article-2026-11-21/publication-brief.md"
+    ],
+    "editorial_revision": "Disha shortened repeated interpretation, clarified that Kathias accompany singing, retained source-specific accompanying instruments and changed festival wording to a programme listing."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_article_sha256": "42acbd42737b14ac90bc560885136564c451ce889d21eba08f6ac4def32917c7",
+    "findings": [
+      "Three source families independently inspected against exact locators.",
+      "Distinct ensemble and dated-credits narrative; no copied or translated Antaranga passages, song text or media.",
+      "Four references resolve to three note definitions; clean reading copy preserves canonical body.",
+      "Scoped local description and reported performance distinguished from scheduled programme."
+    ],
+    "derived_word_allocations_including_notes": {
+      "dhumpa-ignca-cultural-mapping": 164,
+      "dhumpa-orissapost2018": 128,
+      "dhumpa-sna-jyotirgamaya2022": 106
+    },
+    "allocations_including_full_description_and_relevant_heading": [
+      190,
+      154,
+      132
+    ],
+    "limits": [
+      "Separate AI editorial review, not human specialist approval.",
+      "Official PDF source text inspected through original-domain search index; direct acquisition timed out. No visual PDF check claimed.",
+      "No audio/video playback, fieldwork, rendered layout or live publication checks claimed."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/dhumpa-music-and-its-players.md",
+      "sha256": "42acbd42737b14ac90bc560885136564c451ce889d21eba08f6ac4def32917c7"
+    },
+    {
+      "path": "kb/research/culture/dhumpa-source-review-20261121.json",
+      "sha256": "c818c8e23da3e6e39fcfd03cbcedd03572feddc0a1275bf6d2b4b059cb54759d"
+    },
+    {
+      "path": "outputs/dhumpa-article-2026-11-21/article.md",
+      "sha256": "714dfdd1616b255aaad0e83572cf3e69243a9a71c4699dd1ffc344169ce858b1"
+    },
+    {
+      "path": "outputs/dhumpa-article-2026-11-21/publication-brief.md",
+      "sha256": "00124f51cf2ac38728f959d491ff56f2672793269ccb0c932468377e2d4aac50"
+    }
+  ],
+  "validation": {
+    "notes": {
+      "definitions": 3,
+      "references": 4,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical_body": true,
+    "foreign_task_preserved": true,
+    "registers": "pass",
+    "catalogue": "pass",
+    "team_assignments": "pass",
+    "autonomous_program": "pass; zero credit",
+    "research_map": "pass",
+    "bundle": "pass",
+    "git_diff_whitespace": "pass"
+  }
+}

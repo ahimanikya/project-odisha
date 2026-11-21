@@ -1,0 +1,29 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/dhumpa-music-and-its-players.md';
+import pala from '../../../../../kb/research/culture/pala-website.json';
+const continueReading = [{href: '/sounds-of-odisha/pala/', title: 'Pala: poetry with people around it', description: 'Explore the Pala article.', image: '/images/sounds/pala-nalconagar.webp', imageNote: pala.photo.caption}];
+const furtherReading = [{href: '/sounds-of-odisha/daskathia/', title: 'Daskathia and the art of telling aloud', description: 'Continue through Sounds of Odisha.'}, {href: '/stories/dhuduki/', title: 'Dhuduki: a string beneath the story', description: 'Read the companion article about Dhuduki.'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <p class="reading-image-credit">Pala photograph: <a href={pala.photo.url}>{pala.photo.creator}</a> · <a href={pala.photo.license_url}>{pala.photo.license}</a>. {pala.photo.changes}</p>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fdhumpa-music-and-its-players%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+  .reading-image-credit{font-size:.85rem;line-height:1.6;margin-top:1rem;color:var(--muted)}
+</style>
