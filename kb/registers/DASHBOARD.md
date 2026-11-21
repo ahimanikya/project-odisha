@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b35d6e720e8270cf467f73bf30b5a74241b8d521fda6f4e07f68c4c7d2ad0eed`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `069e4476258c9f8c6c1151eebd6f518314cde10e44fc444b41752c8c308ac17c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -378,6 +378,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-344 · Jobra native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-2026112101 · Publish Reading the Bhagabata beyond the Tungi | completed | published | Ahimanikya Satapathy | Publication and reciprocal link verified; receipt saved. No further action for this article. | — |
+| POD-WORK-2026112102 · Prepare The Dhinki and the Work Behind Rice | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
+| POD-WORK-2026112103 · Publish The Dhinki and the Work Behind Rice | in_progress | draft | Ahimanikya Satapathy | Review integrated article and relevant links, verify responsive layout, publish and save live receipt. | — |
 
 ## Pending human review and decisions
 
@@ -693,6 +695,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026102908 · Publish Essential Odia Dhaga companion article | recorded_direction | Ahimanikya Satapathy | Publish the reviewed 25-saying Essential Odia Dhaga draft as a companion article, with series discovery and existing publication gates. |
 | POD-DEC-2026110501 · Publish the completed Dongria series | recorded_direction | Ahimanikya Satapathy | Latest user instruction follows explicit remaining scope: integrate twelve articles into current Project Odisha website, resolve checks, review final preview and publish. Bounded series batch, not broad research or changes to unrelated active articles. |
 | POD-DEC-2026112101 · Publish the revised Bhagabata reading guide | recorded_direction | Ahimanikya Satapathy | Integrate the reviewed article, verify desktop and mobile, publish with incoming link from A Place to Learn Together. Preserve source limits, photo rights and unrelated work. |
+| POD-DEC-2026112102 · Prepare an independently researched next article | recorded_direction | Ahimanikya Satapathy | Select a distinct topic, research independently and prepare a reviewed draft. No website publication requested. |
+| POD-DEC-2026112103 · Publish the reviewed Dhinki article | recorded_direction | Ahimanikya Satapathy | Integrate reviewed Dhinki article, explanatory diagram and relevant incoming links; verify mobile/desktop and publish. |
 
 ## Reviews
 
@@ -1072,6 +1076,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026110801 | pass_with_limitations | True | Concise attributed preparation note, not tested comprehensive recipe; Separate AI review; no human review invented; Preserve other-owner Dongria work and serialize publication; Dhaga358 and threeB65 proposals preserved; no Dhaga programme credit; Point-in-time saved Chrome evidence; no independent browser rerun, assistive technology, Firefox or WebKit claim.; Live960 responsive filename and analytics/cookie shell differ from older local preview. No live960 derivative byte-equality claim; embedded original download photo identity verified.; No source-research repeat, canonical receipt mutation, programme credit or human proofreading claim.; Live acceptance is not materialized receipt or completed programme registration approval.; Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata. |
 | POD-REV-2026110802 | pass_with_limitations | True | Two attributed preparations, not origin chronology or statewide/medical claims.; Separate AI review, no human review invented.; No full copyrighted source capture published.; 358publicDhaga/7localproposals;zeroDhaga credit.; AI-only review, not human editorial review or independent assistive-technology testing.; Point-in-time saved Chrome evidence; no Firefox/WebKit or new live-browser run.; Public whole-page HTML differs from historical local dist-coast due to publication shell, journey optimization, responsive assets and other-owner additions; no whole old catalogue equality claim.; Responsive images visibly decoded; exact base photograph proven through HTML download bytes, not responsive variant byte identity.; Live PASS does not approve an unwritten materialized receipt, grant completion credit or release finite receipt ownership. Separate actual receipt and committed-head review remain required.; No canonical/Git changes, builds or source retrieval performed.; Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata. |
 | POD-REV-301 | pass_with_limitations | True | Separate AI review, not human review.; No origin or ceremony inference from inaccessible tourism source.; 358 public Dhaga and seven local proposals unchanged.; Actual saved live Chrome evidence plus separate AI pixel/content review; no human proofreading claim and no duplicate live browser run.; ZIP digest independently verified; targeted regular-member comparison is not whole-site archive safety certification. Large ZIP remains local only.; No claim that all old catalogue or unrelated pages equal current site; only scoped parent/source/article/photo checks.; Original network-restricted status lookup failure and authorized retry retained; no live failure rewritten.; Source188 allocation and prior source limits inherited; no new research or source-derived prose.; Live PASS does not materialize or approve an unreviewed receipt, receipt merge, or programme credit.; No canonical/Git/build/deployment mutations performed.; Receipt merge/remote verification pending; no additional website deployment for receipt-only metadata. |
+| POD-REV-2026112102 | pass_with_limitations | True | AI editorial review, not human or specialist approval; text-only preparation, no live layout or publication claim. |
 
 ## Publication and application history
 

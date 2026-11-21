@@ -1,6 +1,7 @@
 ---
 import SaveJourney from '../../components/SaveJourney.astro';
 import Shell from '../../layouts/Shell.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
 import '../../styles/article-reading.css';
@@ -12,6 +13,7 @@ import {Content,frontmatter} from '../../../../../kb/research/culture/odia-dhaga
 <div class="actions"><SaveJourney id="reading:stories/odia-dhaga" quiet/><a href="/dhaga/">Open Words We Carry →</a></div>
 <Content/>
 <OdiaConnectedReading current="odia-dhaga"/>
+<ArticleReadingPath id="dhinki-related" heading="The tool behind the saying" links={[{href:'/stories/dhinki-and-the-work-behind-rice/',title:'The Dhinki and the Work Behind Rice',description:'How the foot-operated pounder works, and the labour of preparing rice and millets.',image:'/images/stories/dhinki-mechanism.svg'}]}/>
 <section aria-labelledby="dhaga-next"><h2 id="dhaga-next">Further reading</h2><p><a href="/stories/essential-odia-dhaga/">Essential Odia Dhaga: 25 Sayings to Carry With You →</a></p><p><a href="/dhaga/">Words We Carry: the illustrated Dhaga collection →</a></p><p><a href="/languages/odia/">The Odia language →</a></p></section>
 <p><a href="/contribute/?page=%2Fstories%2Fodia-dhaga%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
 </article></Shell>
