@@ -24157,15 +24157,24 @@
       "id": "POD-EDIT-DEOMALI-20261122",
       "route": "/destinations/deomali/",
       "title": "Deomali: Grasslands Above Koraput",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "Disha",
       "scope": "New researched destination article with rights-cleared article/preview image; zero programme credit.",
       "source_template": "projects/site/src/pages/destinations/deomali.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/deomali-publication-20261122.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/deomali-publication-20261122.json"
     },
     {
       "id": "POD-EDIT-HILLS-INDEX-20261122",

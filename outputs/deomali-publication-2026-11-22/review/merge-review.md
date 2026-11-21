@@ -27,3 +27,11 @@ The fresh reconciled Astro build completed with 676 generated pages. Independent
 ## Remaining release gates
 
 The previous successful CI run applies to the pre-reconciliation Deomali head, not automatically to this merged tree. The coordinator must commit the reviewed reconciliation, obtain exact-head required checks, confirm PR 814 is merged, then merge/publish Deomali and verify actual live delivery. This review does not claim those future steps, a new coastal/publication build for the reconciled tree, or completion of the post-Astro Dhaga export. Existing local publication size evidence remains explicitly the earlier build.
+
+## Exact-head history-preservation addendum
+
+Reviewed committed head `049b147ba893a86eb46d3f23b739fb15410c7e1c`; working tree clean at inspection. PASS. The activity log begins with the exact bytes from preceding receipt head `001d12cff69244d497cfb9caade5f99c48bfdcd7`, followed by exactly one line: the original Deomali event `POD-EVT-2026112291`, byte-identical to its pre-reconciliation line. Thus the final change preserves append-only history without merely relying on equivalent parsed JSON.
+
+Rechecked all seven foreign receipt/manuscript/wrapper/incoming-link files: byte-exact. Foreign current task and conditional Kagaja pointer preserved. All previously reviewed Deomali file hashes remain unchanged except the already-reviewed combined source-heading allowlist. The rendered Deomali article still has hash `3c1745b95523b4b4ba2d6d16b1d112d5fa2e41d5d0410f97f06961735db49142`. Register/dashboard check passes with 1299 records and 770 events. Fresh post-export test log reports 821/821 passing; independent full-build disclosure scan checks 1488 pages with zero violations. The earlier pre-export test log contains missing-export failures and is superseded by the explicitly named final test log, not erased.
+
+PR 814 merge and successful combined-head required CI remain explicit release gates. This exact-head addendum adds no public changes or publication claim.

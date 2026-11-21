@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `05ed805adfd14b1d62e9105cb91ee96d88132d4a9ae70948f686f2400f876958`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d4757de59239aa31fd8609457fd31e792885f08e792a8b0eb76af1492503e566`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -392,7 +392,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112113 · Publish Sagada article | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112201 · Prepare Kagaja Mukha article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112202 · Publish Kagaja Mukha article | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
-| POD-WORK-2026112291 · Research, review and publish Deomali | in_progress | draft | Ahimanikya Satapathy | Complete review and publication with credited article and preview image. | — |
+| POD-WORK-2026112291 · Research, review and publish Deomali | completed | published | Ahimanikya Satapathy | Deomali, its credited photograph and destination preview cards published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1114,6 +1114,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112113 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.; Historical and geographic source limits retained; no new fieldwork claimed. |
 | POD-REV-2026112201 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Selected source pages inspected; not full-volume visual reading or fieldwork.; Draft only; no website layout or publication check. |
 | POD-REV-2026112202 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; Source scope and dated evidence preserved; no fieldwork claimed. |
+| POD-REV-2026112291 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions and overflow measurements attributed to root; screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; No fieldwork claimed; current entry arrangements and numerical elevation limits retained. |
 
 ## Publication and application history
 
@@ -1375,6 +1376,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112111 · Jau Kandhei and the Doll Makers of Balasore | published | https://projectodisha.org/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/ | POD-DEC-2026112111 |
 | POD-REL-2026112113 · Sagada: The Work of a Bullock Cart | published | https://projectodisha.org/stories/sagada-and-the-work-of-the-bullock-cart/ | POD-DEC-2026112113 |
 | POD-REL-2026112202 · Kagaja Mukha and the Paper Masks of Raghurajpur | published | https://projectodisha.org/stories/kagaja-mukha-and-the-making-of-a-mask/ | POD-DEC-2026112202 |
+| POD-REL-2026112291 · Deomali: Grasslands Above Koraput | published | https://projectodisha.org/destinations/deomali/ | POD-DEC-2026112291 |
 
 ## Sources and assets
 
@@ -1412,8 +1414,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112119 | 2026-11-21T13:49:17.190676+00:00 | Original historical cart-design article, source evidence and publication brief delivered locally after separate review. Three source families and historical/geographic limits retained. No website publication; zero programme credit; draft scope released. | — |
-| POD-EVT-2026112120 | 2026-11-21T15:27:23.151976+00:00 | Founder authorized publication with two relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and foreign task preserved. | — |
 | POD-EVT-2026112121 | 2026-11-21T16:41:20.919842+00:00 | Reviewed article and two incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
 | POD-EVT-2026112122 | 2026-11-21T16:43:00.548267+00:00 | Separate Drishti review verified publication, live pages, saved screenshots, lossless capacity fix and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 | POD-EVT-2026112201 | 2026-11-21T18:53:03.266756+00:00 | Prior Sagada receipt merged and checked; new single draft scope reserved. Paper-mask craft selected after scoped coverage checks; no publication or programme credit. | — |
@@ -1422,6 +1422,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112204 | 2026-11-21T20:05:21.616099+00:00 | Reviewed article and three incoming links published and live verified on desktop/mobile. Zero programme credit; evidence-only receipt review and integration pending. | — |
 | POD-EVT-2026112205 | 2026-11-21T20:09:25.801643+00:00 | Separate Drishti delivery review passed using fresh live responses, exact hashes, actual GitHub records and saved screenshots. Evidence-only receipt ready to integrate; no new deployment required. | — |
 | POD-EVT-2026112291 | 2026-11-21T19:23:23.821537+00:00 | Founder authorized sequential destination publication and mandatory article/preview imagery. Deomali is sole active article; previous Sagada receipt merged; foreign Kala Bhoomi task preserved. Zero programme credit. | — |
+| POD-EVT-2026112292 | 2026-11-21T21:11:10.167940+00:00 | Deomali PR813 merged after required exact-head CI; deployment44948003151 succeeded. Article, five incoming routes, original photograph hash, responsive variants and live desktop/mobile presentation verified. Delivery review and evidence-only receipt merge remain required; zero programme credit. | — |
+| POD-EVT-2026112293 | 2026-11-21T21:14:14.419993+00:00 | Separate Drishti delivery review passed actual publication, six live routes, article/image integrity and screenshots; foreign history preserved. Evidence-only receipt releases scope only after required checks and merge. Zero programme credit. | — |
 
 ## Deferred extensions
 
