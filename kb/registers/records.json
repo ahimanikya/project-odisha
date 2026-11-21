@@ -10070,12 +10070,12 @@
       "id": "POD-WORK-2026112107",
       "title": "Publish Dhumpa Music and Its Players",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112107",
-      "next_action": "Implement reviewed article, check responsive rendering and links, publish and verify live delivery.",
+      "next_action": "Article and three incoming links published and live verified; delivery receipt saved.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112107"
@@ -24157,6 +24157,28 @@
         "Official PDF source text inspected through original-domain search index; direct acquisition timed out. No visual PDF check claimed.",
         "No audio/video playback, fieldwork, rendered layout or live publication checks claimed."
       ]
+    },
+    {
+      "id": "POD-REV-2026112107",
+      "title": "Dhumpa separate integrated and publication receipt review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112107",
+        "POD-REL-2026112107"
+      ],
+      "evidence": [
+        "records/dhumpa-publication-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.",
+        "Earlier Dhuduki and Daskathia attribution/footnote conventions preserved; not a complete editorial review of those pages."
+      ]
     }
   ],
   "releases": [
@@ -28245,6 +28267,20 @@
       ],
       "evidence": [
         "records/ganjapa-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112107",
+      "title": "Dhumpa Music and Its Players",
+      "status": "published",
+      "authorization": "POD-DEC-2026112107",
+      "destination": "https://projectodisha.org/stories/dhumpa-music-and-its-players/",
+      "refs": [
+        "POD-WORK-2026112107",
+        "POD-DEC-2026112107"
+      ],
+      "evidence": [
+        "records/dhumpa-publication-20261121.json"
       ]
     }
   ],
