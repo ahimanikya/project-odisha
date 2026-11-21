@@ -32,7 +32,9 @@
       923
     ],
     "license": "CC BY-SA 4.0",
-    "visual_review": "Root inspected both original candidates at1100px; selected clear landscape without windshield obstruction. Full-frame derivative; preview crop disclosed."
+    "visual_review": "Root inspected both original candidates at1100px; selected clear landscape without windshield obstruction. Full-frame derivative; preview crop disclosed.",
+    "source_sha256": "5f9b75a60339d582deff6720cb9369c7b6ce55fc9861a45640e58421b4af33f3",
+    "delivery_sha256": "a11da8b60b6a05e8651de7707ca9b9d90384501952a608bf9bafe7b187aeb0ed"
   },
   "remote_reconciliation": {
     "open_prs": [
@@ -112,8 +114,14 @@
       "pages": 1472,
       "violations": 0
     },
-    "publication_build": "pending",
-    "local_page_checks": "outputs/deomali-publication-2026-11-22/local-checks.json"
+    "publication_build": "pass on pre-reconciliation candidate",
+    "local_page_checks": "outputs/deomali-publication-2026-11-22/local-checks.json",
+    "local_publication_bytes": 996618022,
+    "disclosures_publish": {
+      "pages": 1473,
+      "violations": 0
+    },
+    "article_fragment_sha256": "3c1745b95523b4b4ba2d6d16b1d112d5fa2e41d5d0410f97f06961735db49142"
   },
   "integrated_review": {
     "reviewer": "Drishti",
@@ -128,6 +136,66 @@
     "detected_after_initial_reconciliation": true,
     "shared_files_overlap": true,
     "response": "Renumber Deomali pre-merge work/decision/event IDs to2026112291 to avoid collision with existing Kagaja preparation; keep releases sequential and reconcile latest main before merge. No changes to foreign work.",
-    "status": "waiting_for_prior_release"
+    "status": "combined_candidate_prepared",
+    "preceding_receipt_pr": 814,
+    "preceding_receipt_head": "001d12cff69244d497cfb9caade5f99c48bfdcd7",
+    "merge_condition": "PR813 must not merge before PR814 is merged. Preparation incorporates its separately reviewed receipt without modifying foreign evidence.",
+    "resolved_files": 12,
+    "all_three_new_routes_preserved": true,
+    "full_build_count_addend": 166,
+    "discovery_count_addend": 153
+  },
+  "baseline_ci": {
+    "id": 44942432126,
+    "head": "94a110b315b69006001c20ef550d8db470ee93ee",
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 597,
+    "publication_bytes": 997384366,
+    "scope": "Before incorporating preceding Kagaja publication and receipt; combined exact-head validation required."
+  },
+  "ci_attempts": [
+    {
+      "id": 44941529256,
+      "conclusion": "failure",
+      "finding": "Portable route inventory lacked two new routes; corrected."
+    },
+    {
+      "id": 44941776133,
+      "conclusion": "failure",
+      "finding": "Koraput research link needed absolute public URL; corrected."
+    },
+    {
+      "id": 44942076982,
+      "conclusion": "failure",
+      "finding": "Generated editorial-workbench record needed refresh; corrected."
+    }
+  ],
+  "merge_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/deomali-publication-2026-11-22/review/merge-review.md",
+    "finding": "Foreign records and article files preserved; all three routes and both source headings retained; fresh rendered article hashes unchanged.",
+    "release_gates": [
+      "PR814 must merge first",
+      "Combined exact-head CI must pass",
+      "Live Deomali and image verification required"
+    ]
+  },
+  "combined_local_validation": {
+    "full_build": "pass",
+    "full_tests": "821/821 pass after book export finished",
+    "disclosure_pages": 1488,
+    "disclosure_violations": 0,
+    "bundle": "pass",
+    "registers": "pass",
+    "research": "pass",
+    "research_map": "pass",
+    "team_assignments": "pass",
+    "autonomous_program": "pass;zero credit",
+    "workbench": "pass",
+    "existing_activity_history": "Prior receipt-branch bytes retained exactly; one Deomali event appended.",
+    "initial_test_attempt": "Started before export completion and encountered missing Dhaga files; rerun after successful build passed821/821."
   }
 }

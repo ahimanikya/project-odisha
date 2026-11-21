@@ -60,7 +60,8 @@
     "owner": "Disha",
     "phase": "integration",
     "handoff": "records/deomali-publication-20261122.json",
-    "scope_released": false
+    "scope_released": false,
+    "activation_condition": "Candidate activation only after preceding Kagaja receipt PR814 merges; Deomali release remains gated on that merge."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -536,10 +537,10 @@
     }
   ],
   "draft_preparation": {
-    "article_id": "POD-EDIT-SAGADA-20261121",
+    "article_id": "POD-EDIT-KAGAJAMUKHA-20261122",
     "owner": "Disha",
     "status": "prepared_reviewed",
-    "handoff": "records/sagada-article-preparation-20261121.json",
+    "handoff": "records/kagaja-mukha-article-preparation-20261122.json",
     "scope_released": true,
     "scope": "Independent research and reviewed article draft only. No website integration or publication."
   },
@@ -572,6 +573,14 @@
       "owner": "Disha",
       "status": "prepared_reviewed",
       "handoff": "records/jau-kandhei-article-preparation-20261121.json",
+      "scope_released": true,
+      "scope": "Independent research and reviewed article draft only. No website integration or publication."
+    },
+    {
+      "article_id": "POD-EDIT-SAGADA-20261121",
+      "owner": "Disha",
+      "status": "prepared_reviewed",
+      "handoff": "records/sagada-article-preparation-20261121.json",
       "scope_released": true,
       "scope": "Independent research and reviewed article draft only. No website integration or publication."
     }
@@ -619,6 +628,15 @@
       "owner": "Disha",
       "phase": "receipt_integrated",
       "handoff": "records/sagada-publication-20261121.json",
+      "scope_released": true,
+      "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+    },
+    {
+      "id": "POD-EDIT-KAGAJAMUKHA-20261122",
+      "route": "/stories/kagaja-mukha-and-the-making-of-a-mask/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/kagaja-mukha-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
     }
