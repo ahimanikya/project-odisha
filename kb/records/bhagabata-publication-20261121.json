@@ -59,5 +59,54 @@
     "limits": [
       "Browser viewport simulation, not physical device testing"
     ]
+  },
+  "validation": {
+    "full_site_tests": {
+      "pass": 821,
+      "fail": 0
+    },
+    "coastal_tests": {
+      "pass": 597,
+      "fail": 0
+    },
+    "jpeg_delivery_tests": {
+      "pass": 3,
+      "fail": 0
+    },
+    "disclosure": {
+      "pages": 1465,
+      "violations": 0
+    },
+    "focused_payload_check": {
+      "bytes": 999081247,
+      "status": "pass",
+      "method": "Completed baseline publication optimization with reviewed Bhagabata-only derivative and matching caption applied; full clean assembly remains required in CI."
+    }
+  },
+  "image_delivery": {
+    "path": "images/stories/bhagabata-tungi-2016.jpg",
+    "settings": {
+      "maximum_dimension": 2048,
+      "quality": 90,
+      "chromaSubsampling": "4:4:4",
+      "mozjpeg": true,
+      "preserve_metadata": true
+    },
+    "status": "resized-and-compressed",
+    "source_sha256": "75f5808ef270eb66ef0a0d0298ef35515bbc208b7f09886dd1adae9e31326316",
+    "output_sha256": "2eef3c3c029fa2484a9a7206db7579d0bd9c7ca51a28af8403fe2beb83de3f9a",
+    "source_bytes": 3930320,
+    "output_bytes": 582511,
+    "saved_bytes": 3347809,
+    "source_dimensions": [
+      4208,
+      2368
+    ],
+    "output_dimensions": [
+      2048,
+      1152
+    ],
+    "orientation": 1,
+    "visual_review": "Full frame and readable details inspected; original retained. Full-size delivery JPEG is resized and compressed with visible caption disclosure; responsive WebP variants remain generated from original."
   }
 }
