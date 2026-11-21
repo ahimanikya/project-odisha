@@ -98,7 +98,7 @@
   },
   "local_validation": {
     "full_build": "pass",
-    "full_suite": "820/821 passed; sole route-count expectation updated for new page; affected build test file rerun 6/6 pass",
+    "full_suite": "820/821 then affected build-test rerun 6/6 pass after expected route count update",
     "disclosures_dist": {
       "pages": 1485,
       "violations": 0
@@ -109,8 +109,15 @@
       "pages": 1470,
       "violations": 0
     },
-    "coastal_suite": "596/597 passed; sole shared-cache permission failure rerun with cache access: affected Desia test file 6/6 pass",
-    "publication_build": "running; final payload and CI acceptance required before merge"
+    "coastal_suite": "596/597 then affected Desia test rerun 6/6 pass with shared cache access",
+    "publication_build": "pass",
+    "disclosures_dist_publish": {
+      "pages": 1471,
+      "violations": 0
+    },
+    "local_publication_bytes": 999236581,
+    "article_bytes_identical_across_builds": true,
+    "article_fragment_sha256": "78eea24104272f55bc9ddecc8f04e11b48c63353e28bcda84b8aa0458c9edb63"
   },
   "integrated_review": {
     "reviewer": "Drishti",
@@ -124,5 +131,24 @@
       "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "4f2f844f6d5bda9370679a7bf59c6cf5cb1ae4a2054f5f4bcb5304cf85d6c193",
       "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "d0147a71cb8c457304919ee0723eae82febc9c5e9e14d03d84e88220c4b59750"
     }
+  },
+  "ci_attempts": [
+    {
+      "id": 44920396844,
+      "head": "bdd75e72497e8c04c8eed83e9d7c0e340a01f0e2",
+      "conclusion": "failure",
+      "stage": "Build publication",
+      "publication_bytes": 1000000705,
+      "finding": "Linux output exceeded unchanged 1 GB limit by 705 bytes. Applying scoped lossless delivery compression to one existing PNG; article and source image unchanged."
+    }
+  ],
+  "capacity_fix": {
+    "asset": "assets/cinema/pencil-kanhu-charan-mohanty-20261101.png",
+    "scope": "Publication output only; one exact path added to existing lossless optimizer and matching test allowlist. Source asset and size gate unchanged.",
+    "saved_bytes": 94288,
+    "validation": "Targeted tests6/6 passed. Actual source recompression matches recorded output, decoded RGBA and all non-IDAT chunks preserved byte-exact.",
+    "evidence": "outputs/sagada-publication-2026-11-21/capacity-preservation.json",
+    "local_full_publication_rebuilt_after_fix": false,
+    "acceptance": "Required online full publication build must pass before merge."
   }
 }

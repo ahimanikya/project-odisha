@@ -16,7 +16,8 @@ export const additionalDeliveryPNGs=[
   "assets/cinema/pencil-bijaya-jena-20261101.png",
   "assets/cinema/pencil-manmohan-mahapatra-20261101.png",
   "assets/cinema/pencil-kalindi-charan-panigrahi-20261101.png",
-  "assets/cinema/pencil-nandita-das-20261101.png"
+  "assets/cinema/pencil-nandita-das-20261101.png",
+  "assets/cinema/pencil-kanhu-charan-mohanty-20261101.png"
 ];
 export const eligiblePNG=p=>additionalDeliveryPNGs.includes(p)||/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
 function chunks(bytes){
