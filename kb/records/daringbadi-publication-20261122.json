@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_release_gates",
+  "status": "published_verified",
   "article_id": "POD-EDIT-DARINGBADI-20261122",
   "route": "/destinations/daringbadi/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
   "work_id": "POD-WORK-2026112294",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "aa92b064cfc889283972008f304ba989d3af10fe",
   "preceding_release": {
     "article": "Deomali",
@@ -17,7 +17,7 @@
   },
   "coordination": {
     "brass_fish_preparation": "Completed local commit aa92b064; explicitly released by its owner. Preserve draft and records; no dedicated public integration authorized.",
-    "public_exclusion_check": "Required before publication.",
+    "public_exclusion_check": "Passed independently in coastal and publication outputs; no dedicated brass-fish draft export or image. Ten preserved draft/evidence/media files are byte-exact to aa92b064.",
     "foreign_task": "POD-EDIT-133 preserved"
   },
   "assignments": {
@@ -47,7 +47,9 @@
       "Daringbadi image and article integration"
     ],
     "Drishti": [
-      "outputs/daringbadi-publication-2026-11-22/review/drishti-review.md"
+      "outputs/daringbadi-publication-2026-11-22/review/drishti-review.md",
+      "outputs/daringbadi-publication-2026-11-22/review/drishti-release-check.md",
+      "outputs/daringbadi-publication-2026-11-22/review/delivery-review.json"
     ]
   },
   "reuse_before_research": {
@@ -65,7 +67,7 @@
     "missing_question": "What defines Daringbadi as a Kandhamal hill town, which named local places belong in a useful visit, and what primary evidence supports seasons, landscape and practical access without snowfall or facility guarantees?"
   },
   "image_requirement": "Relevant high-quality rights-cleared photograph in article, preview and sharing metadata; further images if useful.",
-  "next_action": "Finish final payload/exclusion check and exact-head CI, merge and publish, verify live article and images, then merge reviewed receipt before releasing scope.",
+  "next_action": "Merge the independently reviewed delivery receipt, then continue the hill series with Putsil as the next single article.",
   "research_evidence": "outputs/daringbadi-publication-2026-11-22/research/findings.md",
   "media": [
     {
@@ -186,19 +188,84 @@
   },
   "local_validation": {
     "full_build": "pass",
-    "full_tests": "821/821 pass",
-    "full_disclosures": {
-      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
-      "pages": 1489,
-      "violations": []
-    },
+    "full_tests": 821,
     "coastal_build": "pass",
-    "coastal_tests": "597/597 pass",
-    "coastal_disclosures": {
-      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
-      "pages": 1474,
-      "violations": []
-    }
+    "coastal_tests": 597,
+    "publication_build": "pass",
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 997394951,
+      "regular_files": 3576,
+      "directories": 811,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 87250,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+          "bytes": 190064100
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+          "bytes": 51351553
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+          "bytes": 38421623
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "archive/mirgan-kotpad-reading.pdf",
+          "bytes": 7410047
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "assets/bhubaneswar-week/conversations.jpg",
+          "bytes": 4296333
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "disclosures": {
+      "full": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
+        "pages": 1489,
+        "violations": []
+      },
+      "coast": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
+        "pages": 1474,
+        "violations": []
+      },
+      "publication": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-publish",
+        "pages": 1475,
+        "violations": []
+      }
+    },
+    "retention_and_exclusion": "local-checks.json",
+    "reviewed_head": "8a13741f188d339380756c56d26abb657aa5e047",
+    "limits": "Local macOS artifact; exact-head Linux CI and deployment must independently pass. No live delivery yet."
   },
   "integrated_review": {
     "reviewer": "Drishti",
@@ -211,5 +278,193 @@
       "Deployment and live verification",
       "Reviewed delivery receipt"
     ]
-  }
+  },
+  "pull_request": 816,
+  "reviewed_head": "8a13741f188d339380756c56d26abb657aa5e047",
+  "merge_sha": "09c751207cbf57644cc0f889078862f8af3cbdc1",
+  "ci": {
+    "run": 44955851469,
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 597,
+    "payload_bytes": 998163589,
+    "disclosure_pages": {
+      "full": 1489,
+      "coast": 1474,
+      "publication": 1475
+    },
+    "disclosure_violations": 0
+  },
+  "deployment": {
+    "run": 44958538048,
+    "conclusion": "success",
+    "source_sha": "09c751207cbf57644cc0f889078862f8af3cbdc1",
+    "attempt": 1,
+    "payload_bytes": 998163589
+  },
+  "release_continuity_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_release_conditions",
+    "evidence": "outputs/daringbadi-publication-2026-11-22/review/drishti-release-check.md"
+  },
+  "research_artifact_transfer": "Anvesha initially wrote the reserved findings file under the prior project mirror. Disha copied it into the publication checkout before appending the separately verified original-PDF follow-up. The integrated source review and Drishti reports were written in the current checkout; reviewed article hashes match.",
+  "live_verification": {
+    "/destinations/daringbadi/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "both_photographs_present": true,
+      "reference_and_return_targets": 12,
+      "all_targets_resolve": true,
+      "article_sha256": "51bd8a9791b557fb2d4dbfac786877f96c0ed604348c1ecced7506b6406be377",
+      "local_article_sha256": "38b05c7770d46dbd668cd7d9f28421ab1ef61ca3b94de0b4711090a98da8cc83",
+      "normalized_article_matches_local": true,
+      "normalization": "Only content-addressed responsive WebP filenames; each live variant fetched and SHA256 prefix verified.",
+      "source_heading_count": 1,
+      "matching_share_image": true,
+      "hero_variants": [
+        {
+          "path": "/images/responsive/505e3d236c787385-480.webp",
+          "width_descriptor": "480w",
+          "bytes": 7252,
+          "sha256": "505e3d236c787385dbe51eaaff687dd24032f8fbf75033aaf42364a0d181c656",
+          "dimensions": [
+            480,
+            360
+          ]
+        },
+        {
+          "path": "/images/responsive/8eed051bc5063b8f-960.webp",
+          "width_descriptor": "960w",
+          "bytes": 21922,
+          "sha256": "8eed051bc5063b8fd179d8fa4715ee26ed15e6a496b7c838d7d2525cce8dd88e",
+          "dimensions": [
+            960,
+            720
+          ]
+        },
+        {
+          "path": "/images/responsive/7ad188ddbb49213a-1440.webp",
+          "width_descriptor": "1440w",
+          "bytes": 41166,
+          "sha256": "7ad188ddbb49213a1a5960fb58b43d15baa9c6be8d0eb832d34a6f8f91c58432",
+          "dimensions": [
+            1440,
+            1080
+          ]
+        }
+      ]
+    },
+    "/destinations/hills/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "daringbadi_link": true,
+      "photograph_present": true
+    },
+    "/destinations/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "daringbadi_link": true,
+      "photograph_present": true
+    },
+    "/explore/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "daringbadi_link": true,
+      "photograph_present": true
+    },
+    "dawn_image": {
+      "path": "/images/destinations/daringbadi-dawn.webp",
+      "http_status": 200,
+      "bytes": 116012,
+      "sha256": "057d45827cd40945d4825ed89e42192bcc74b1a78d8697503576ed1d761d809f",
+      "matches_reviewed_asset": true,
+      "dimensions": [
+        2000,
+        1500
+      ]
+    },
+    "coffee_image": {
+      "path": "/images/destinations/daringbadi-coffee.webp",
+      "http_status": 200,
+      "bytes": 543662,
+      "sha256": "f3e754d615e1c2767e8f9258c4604f5191c9df8592b6dd21de6fc353475b6c19",
+      "matches_reviewed_asset": true,
+      "dimensions": [
+        1600,
+        1200
+      ]
+    },
+    "checked_at": "2026-11-21T23:16:18.822175+00:00"
+  },
+  "live_browser_review": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "surface": "Live site in in-app Chromium",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "horizontal_overflow": false,
+    "both_article_images_loaded": true,
+    "full_frame_article_dimensions": [
+      695,
+      521
+    ],
+    "preview_loaded": true,
+    "preview_dimensions": [
+      424,
+      282
+    ],
+    "first_footnote_and_return_keyboard": "pass; destination target top0.20px; return reference top-0.04px and focused reference ID verified after scrolling settled",
+    "reciprocal_paths": [
+      "Daringbadi to hills collection and back"
+    ],
+    "screenshots": [
+      "review/live-desktop.jpg",
+      "review/live-mobile.jpg",
+      "review/live-coffee.jpg",
+      "review/live-footnotes.jpg",
+      "review/live-preview.jpg"
+    ],
+    "limits": "Viewport simulation, not physical-device, screen-reader or cross-engine certification. Native scrolling observations and screenshots are root evidence pending separate screenshot review."
+  },
+  "verified_routes": [
+    "/destinations/daringbadi/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "completed_at": "2026-11-21T23:18:41.080853+00:00",
+  "gate_resolution": "Publication PR816 exact-headCI and deployment passed; live checks passed. Evidence-only receipt review/integration remains the final scope-release condition.",
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records, live checks and screenshots. Website source remains merge09c751207cbf57644cc0f889078862f8af3cbdc1.",
+    "release_condition": "Effective when this independently reviewed receipt merges; no next article starts before that merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/daringbadi-publication-2026-11-22/review/delivery-review.json",
+    "checks": [
+      "Exact-head CI and deployment independently verified with998163589byte payload.",
+      "Four fresh live routes, both original image hashes/dimensions, six responsive variants including existing Deomali reading card,12native anchor targets and article text verified.",
+      "Five live screenshots independently inspected, including coffee photograph, source-note list and photographed preview.",
+      "Foreign records, brass-fish draft and activity history preserved;zero programme credit; no website changes in receipt."
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist approval or field verification.",
+      "Viewport screenshots are not physical-device, screen-reader or cross-engine certification.",
+      "Original image hash exclusion is not a perceptual search for every possible transformed brass-fish photograph."
+    ]
+  },
+  "reserved_files_released_by_workers": true
 }
