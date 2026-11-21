@@ -10010,6 +10010,24 @@
       "evidence": [
         "records/dhinki-publication-20261121.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112104",
+      "title": "Prepare Ganjapa Cards Made for Play",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112104",
+      "next_action": "Prepared article and source review delivered locally; website integration and publication are outside this preparation task.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112104"
+      ],
+      "evidence": [
+        "records/ganjapa-article-preparation-20261121.json"
+      ]
     }
   ],
   "decisions": [
@@ -15090,6 +15108,21 @@
       ],
       "evidence": [
         "records/dhinki-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112104",
+      "title": "Prepare another independently researched article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+      "scope": "Select a new topic through Antaranga Kalinga; independent research and article preparation only.",
+      "refs": [],
+      "evidence": [
+        "records/ganjapa-article-preparation-20261121.json"
       ]
     }
   ],
@@ -23981,6 +24014,25 @@
       ],
       "limitations": [
         "AI editorial review, not human or specialist approval; text-only preparation, no live layout or publication claim."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112104",
+      "title": "Ganjapa separate source and originality review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112104"
+      ],
+      "evidence": [
+        "records/ganjapa-article-preparation-20261121.json"
+      ],
+      "limitations": [
+        "AI editorial review, not human or specialist approval; prepared text only, no live layout or publication claim."
       ]
     }
   ],
