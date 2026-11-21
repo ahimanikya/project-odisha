@@ -10106,12 +10106,12 @@
       "id": "POD-WORK-2026112109",
       "title": "Publish Bagha Chheli and the Rules of Play",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112109",
-      "next_action": "Implement, review, publish and verify live delivery.",
+      "next_action": "Article and two incoming links published and live verified; delivery receipt saved.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112109"
@@ -24267,6 +24267,28 @@
         "Photograph metadata/rights checked but image not visually inspected or downloaded.",
         "No fieldwork, gameplay test, rendered layout or publication claimed."
       ]
+    },
+    {
+      "id": "POD-REV-2026112109",
+      "title": "Bagha Chheli separate integrated and publication receipt review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112109",
+        "POD-REL-2026112109"
+      ],
+      "evidence": [
+        "records/bagha-chheli-publication-20261121.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.",
+        "Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename; no gameplay or original1926scan verification."
+      ]
     }
   ],
   "releases": [
@@ -28369,6 +28391,20 @@
       ],
       "evidence": [
         "records/dhumpa-publication-20261121.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112109",
+      "title": "Bagha Chheli and the Rules of Play",
+      "status": "published",
+      "authorization": "POD-DEC-2026112109",
+      "destination": "https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/",
+      "refs": [
+        "POD-WORK-2026112109",
+        "POD-DEC-2026112109"
+      ],
+      "evidence": [
+        "records/bagha-chheli-publication-20261121.json"
       ]
     }
   ],
