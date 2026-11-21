@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-DHINKI-20261121",
   "route": "/stories/dhinki-and-the-work-behind-rice/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization": "POD-DEC-2026112103",
   "work_id": "POD-WORK-2026112103",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "preparation_receipt": "records/dhinki-article-preparation-20261121.json",
   "input_head": "a4e3b6723f2ffaea3df916961d171a3e144c1aae",
   "remote_main": "a4e3b6723f2ffaea3df916961d171a3e144c1aae",
@@ -63,7 +63,8 @@
     "kind": "separate_ai_agent",
     "status": "pass",
     "finding": "Reviewed prose preserved; byline, one source heading, all six references/returns, incoming and return links, schematic description verified. No blockers.",
-    "limits": "Separate AI review; no human specialist approval or fieldwork claimed."
+    "limits": "Separate AI review; no human specialist approval or fieldwork claimed.",
+    "reviewed_head": "39b1866c66caa6274862e1a4787e4f52c97ab86a"
   },
   "browser_review": {
     "status": "pass",
@@ -114,7 +115,7 @@
         "violations": 0
       }
     },
-    "publication_build": "Required clean CI publication build and payload acceptance pending."
+    "publication_build": "Clean GitHub CI build and payload acceptance passed."
   },
   "media": {
     "path": "projects/site/public/images/stories/dhinki-mechanism.svg",
@@ -128,5 +129,112 @@
   "incoming_routes": [
     "/stories/essential-odia-dhaga/",
     "/stories/odia-dhaga/"
-  ]
+  ],
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/800",
+  "reviewed_head": "39b1866c66caa6274862e1a4787e4f52c97ab86a",
+  "merge_sha": "99be63bce2526c8f9028cc0bccb1bc613e9097f2",
+  "ci": {
+    "id": 44857855271,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44857855271",
+    "publication_bytes": 999867953,
+    "coastal_tests_pass": 597,
+    "full_tests_pass": 821
+  },
+  "publication_attempts": [
+    {
+      "run": 44859459572,
+      "attempt": 1,
+      "conclusion": "failure",
+      "stage": "Hydrate exact reviewed Dhaga release PDF",
+      "reason": "Anonymous GitHub API HTTP403; stopped before build and deployment.",
+      "action": "Retry failed jobs; no content or verification guards changed."
+    }
+  ],
+  "completed_at": "2026-11-21T03:29:38.668041+00:00",
+  "live_verification": {
+    "checked_at": "2026-11-21T03:28:16.013288+00:00",
+    "result": "PASS",
+    "routes": {
+      "/stories/dhinki-and-the-work-behind-rice/": {
+        "http_status": 200,
+        "title_h1_count": 1,
+        "byline": true,
+        "diagram_present": true,
+        "reference_count": 6,
+        "return_count": 6,
+        "footnotes_resolve": true,
+        "source_heading_count": 1,
+        "outgoing_links": true,
+        "odia_lang": true,
+        "public_process_link": true,
+        "update_link": true
+      },
+      "/stories/essential-odia-dhaga/": {
+        "http_status": 200,
+        "title_h1_count": 1,
+        "byline": true,
+        "incoming_link": true
+      },
+      "/stories/odia-dhaga/": {
+        "http_status": 200,
+        "title_h1_count": 1,
+        "byline": true,
+        "incoming_link": true
+      }
+    },
+    "diagram": {
+      "http_status": 200,
+      "bytes": 3110,
+      "sha256": "b979476a30ddca418c9f092c0e0e03da4177a8de11e773d4ada3993be0fdec68",
+      "matches_reviewed_local": true
+    },
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "diagram_loaded": true,
+      "both_incoming_and_return_links_clicked": true,
+      "poetry_incoming_card_visually_inspected_on_mobile": true,
+      "screenshots": [
+        "outputs/dhinki-publication-2026-11-21/live-desktop.jpg",
+        "outputs/dhinki-publication-2026-11-21/live-mobile.jpg"
+      ],
+      "limits": "Browser viewport simulation; not physical-device or cross-engine certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/dhinki-and-the-work-behind-rice/",
+    "/stories/essential-odia-dhaga/",
+    "/stories/odia-dhaga/"
+  ],
+  "deployment": {
+    "id": 44859459572,
+    "attempt": 2,
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44859459572",
+    "head_sha": "99be63bce2526c8f9028cc0bccb1bc613e9097f2",
+    "publication_bytes": 999867953
+  },
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Public article and links already deployed at recorded merge; this receipt changes internal records and saved evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified deployment attempt2 at exact merge, three live HTTP200 routes, incoming links, six reference/return anchors and exact SVG bytes. Saved desktop/mobile screenshots inspected. Receipt matches saved evidence; foreign task preserved, zero programme credit. No blockers.",
+    "limits": "Browser navigation observations attributed to root; saved screenshots inspected separately. No human or physical-device review claimed."
+  }
 }
