@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `37b110cb775c1a3867e5d3a75b025b464c55a322cb8bcf08dc48e461d16e4031`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `164ba19150a40f59ff0a591683f8184457f1ff5148497c71fea4f5ae57888d41`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -387,7 +387,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112108 · Prepare Bagha Chheli and the Rules of Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112109 · Publish Bagha Chheli and the Rules of Play | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112110 · Prepare Jau Kandhei article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
-| POD-WORK-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | in_progress | draft | Ahimanikya Satapathy | Implement, review, publish and verify live delivery. | — |
+| POD-WORK-2026112111 · Publish Jau Kandhei and the Doll Makers of Balasore | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 
 ## Pending human review and decisions
 
@@ -1099,6 +1099,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112108 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Original1926scan not recovered; indexed Ludii evidence distinguished from direct navigation shell.; Photograph metadata/rights checked but image not visually inspected or downloaded.; No fieldwork, gameplay test, rendered layout or publication claimed. |
 | POD-REV-2026112109 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; live screenshots separately inspected. No physical-device or cross-engine certification.; Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename; no gameplay or original1926scan verification. |
 | POD-REV-2026112110 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Only relevant government spread and cover visually inspected, not entire report.; Museum acquisition year is not manufacture date; no maker inferred for collected objects.; No fieldwork, interview, current membership confirmation or media licence.; No rendered website layout, integration or publication claimed. |
+| POD-REV-2026112111 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions attributed to root; saved screenshots independently inspected. No physical-device or cross-engine certification.; Ganjapa live HTML differs from local only in one verified platform-specific responsive-image filename. Source and historic group distinctions retained. |
 
 ## Publication and application history
 
@@ -1357,6 +1358,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112105 · Ganjapa Cards Made for Play | published | https://projectodisha.org/stories/ganjapa-cards-made-for-play/ | POD-DEC-2026112105 |
 | POD-REL-2026112107 · Dhumpa Music and Its Players | published | https://projectodisha.org/stories/dhumpa-music-and-its-players/ | POD-DEC-2026112107 |
 | POD-REL-2026112109 · Bagha Chheli and the Rules of Play | published | https://projectodisha.org/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/ | POD-DEC-2026112109 |
+| POD-REL-2026112111 · Jau Kandhei and the Doll Makers of Balasore | published | https://projectodisha.org/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/ | POD-DEC-2026112111 |
 
 ## Sources and assets
 
@@ -1394,8 +1396,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261115004 | 2026-11-14T21:57:13.996993+00:00 | Published the author-approved shorter Ekamra personal essay after final typo review, separate exact-candidate review, required CI and Pages deployment. Revised live prose, seven unchanged photograph hashes, three footnotes, discovery and reading links verified. Zero programme credit; foreign ownership preserved. | — |
-| POD-EVT-2026112107 | 2026-11-21T06:07:01.395468+00:00 | Founder authorized publication of the reviewed Dhumpa article with three relevant reading links. Native source-heading integration only; prepared narrative and evidence preserved. Foreign task retained; zero programme credit. | — |
 | POD-EVT-2026112108 | 2026-11-21T07:03:33.086369+00:00 | Dhumpa article published with three reciprocal reading paths after separate source/integrated review, required CI and successful Pages deployment. Four live article bodies match local publication, desktop/mobile checked. Zero programme credit; foreign task preserved. | — |
 | POD-EVT-2026112109 | 2026-11-21T07:36:28.114949+00:00 | New draft-only article reserved after scoped coverage checks. A name-only mention in Growing Up in Odisha is preserved; this article will add game structure and version-specific rules through independent sources. Topic discovery from Antaranga Kalinga only; zero programme credit. | — |
 | POD-EVT-2026112110 | 2026-11-21T07:42:29.878461+00:00 | Original local article and publication brief delivered after separate review, adding beyond existing name-only mention. Source limits and distinct rule versions retained. Local draft only; zero programme credit; preparation scope released. | — |
@@ -1404,6 +1404,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112113 | 2026-11-21T11:14:24.505017+00:00 | Reserved new Jau Kandhei draft after scoped coverage and prior receipt checks. Antaranga Kalinga used only for topic discovery; independent craft and maker research. Zero programme credit; foreign task preserved. | — |
 | POD-EVT-2026112114 | 2026-11-21T11:22:52.880552+00:00 | Original Jau Kandhei article, source evidence and publication brief delivered locally after separate review. Three source families and distinct group histories retained. No website publication; zero programme credit; draft scope released. | — |
 | POD-EVT-2026112115 | 2026-11-21T12:07:38.442036+00:00 | Founder authorized publication with three relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and unrelated task preserved. | — |
+| POD-EVT-2026112116 | 2026-11-21T13:04:20.020407+00:00 | Reviewed article and three incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
+| POD-EVT-2026112117 | 2026-11-21T13:06:55.841975+00:00 | Separate Drishti review verified publication, live pages, saved screenshots and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 
 ## Deferred extensions
 
