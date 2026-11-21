@@ -1,0 +1,132 @@
+{
+  "status": "reviewed_candidate",
+  "article_id": "POD-EDIT-JAUKANDHEI-20261121",
+  "route": "/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the Jau Kandhei article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112111",
+  "work_id": "POD-WORK-2026112111",
+  "programme_credit": 0,
+  "scope_released": false,
+  "preparation_receipt": "records/jau-kandhei-article-preparation-20261121.json",
+  "input_head": "5f1356b9087d145689c11f7218d2930ed4603c6a",
+  "remote_main": "a3b623d3a5681e1ee42c9b5568e45d89266f37dd",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Shared records, route inventory, builds, browser review and publication",
+    "Anvesha": "Read-only integrated claims and source-budget review",
+    "Samanta": "Implement article and three scoped incoming links",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro",
+      "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro",
+      "projects/site/src/components/PattachitraArticle.astro",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro"
+    ],
+    "Disha": [
+      "canonical Markdown metadata and source heading",
+      "shared registers, route inventories and release gates"
+    ]
+  },
+  "incoming_routes": [
+    "/stories/ganjapa-cards-made-for-play/",
+    "/crafts/pattachitra/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "media_plan": "Text-first article as reviewed brief. No cleared documentary image; no fabricated workshop scene. Existing Ganjapa schematic only as a related reading card.",
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "responsive-design",
+      "typography",
+      "html"
+    ],
+    "application": "Existing semantic article layout, native accessible notes, rem/clamp heading and natural mobile reflow. No new client-side script."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Read all four page/link files and canonical diff. Public body and notes unchanged; wrappers and neutral exact-title incoming links add no claims. Distinct groups and dated reporting retained; no museum maker inference. Existing Ganjapa schematic only in related reading card.",
+    "source_family_words": {
+      "museum": 199,
+      "gaon": 195,
+      "mission_shakti": 146
+    },
+    "limits": "Same conservative whole-artifact accounting as preparation review; no new fieldwork, human review or cleared documentary image claimed."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "local full build, in-app browser",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 812
+      }
+    ],
+    "checks": [
+      "Single title/byline and text-first layout inspected.",
+      "No horizontal overflow at1440,390,320 widths.",
+      "First native footnote and return activated.",
+      "Three outgoing and incoming reading paths activated via keyboard.",
+      "Pattachitra and material chapter incoming links visually inspected on mobile."
+    ],
+    "screenshots": [
+      "outputs/jau-kandhei-publication-2026-11-21/desktop-preview.jpg",
+      "outputs/jau-kandhei-publication-2026-11-21/mobile-preview.jpg",
+      "outputs/jau-kandhei-publication-2026-11-21/mobile-footnotes.jpg",
+      "outputs/jau-kandhei-publication-2026-11-21/pattachitra-incoming-mobile.jpg",
+      "outputs/jau-kandhei-publication-2026-11-21/book-incoming-mobile.jpg"
+    ],
+    "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Separately inspected rendered pages and five supplied screenshots. Reviewed prose/notes preserved; seven native reference and return anchors resolve, one source heading/byline. Three incoming links present. Recomputed all48 book hashes: other47 unchanged. No blockers.",
+    "limits": "Separate AI review. Root keyboard/overflow observations attributed to root; no human, physical-device or cross-engine certification.",
+    "reviewed_file_hashes": {
+      "kb/research/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md": "9f376aa2cd896f92182361131ecf41a2fe94a4daa31e5dd6eb38d85eecf9b512",
+      "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro": "98a09f5beb94f141a2cbcb58e4c85c1339c31f067f4f93d8269e8589cd3b9bde",
+      "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro": "c3d482e4fb946068c39454caf121af4c5bacd7cf7be54c3beda484bbfec6a0f4",
+      "projects/site/src/components/PattachitraArticle.astro": "4fc77dab6e54aa48693a5e9f4d70b3a14f07dca18157f6cf32bf83238434a653",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "4a1aa393e32f86c5827f89f93b986f8a615db94ed73aec1514bf4e56af525b9d"
+    }
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_suite": "821/821 pass",
+    "disclosures_dist": {
+      "pages": 1484,
+      "violations": 0
+    },
+    "book_preservation": "outputs/jau-kandhei-publication-2026-11-21/book-preservation.json",
+    "coastal_build": "pass",
+    "coastal_suite": "597/597 pass",
+    "disclosures_dist_coast": {
+      "pages": 1469,
+      "violations": 0
+    },
+    "publication_build": "in_progress"
+  }
+}

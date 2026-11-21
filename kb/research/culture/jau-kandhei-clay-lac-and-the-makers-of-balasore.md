@@ -4,9 +4,9 @@ description: "Clay, lac and the work of named makers offer a closer look at Bala
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "people"]
 type: "Craft and makers essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 Jau Kandhei from Balasore bring two kinds of work into one object: shaping clay and decorating its surface with lac.[^1] Lac is a resin secreted by insects living on trees.[^2]
@@ -27,8 +27,6 @@ A separate organisation appears in Mission Shakti’s 2022 publication *Scaling 
 The South Asia Collection records a different destination for finished figures. It acquired four Jau Kandhei figures and a Ganesha in 2017 at the Crafts Council in New Delhi.[^1]
 
 When looking at a doll, its surface can be a starting point for questions: who shaped it, who decorated it, and what occasion was it made for?
-
-## Footnotes & Sources
 
 [^1]: The South Asia Collection, [“Jaukandhei”](https://staging.thesouthasiacollection.co.uk/collection/jaukandhei/), undated, process and acquisition paragraphs.
 
