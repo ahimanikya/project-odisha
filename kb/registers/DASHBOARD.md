@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f3e38452107752737ada7a14469ce6aa52a4ab85d5f9e1f4524cc74e809d8051`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cea40761dde18f3ed9640926f491ea615488323a9962671712032cabbcb657f5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -391,6 +391,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112112 · Prepare Sagada article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112113 · Publish Sagada article | completed | published | Ahimanikya Satapathy | Article and two incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112201 · Prepare Kagaja Mukha article | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
+| POD-WORK-2026112202 · Publish Kagaja Mukha article | in_progress | draft | Ahimanikya Satapathy | Integrate, validate, review and publish the authorized article. | — |
 
 ## Pending human review and decisions
 
@@ -719,6 +720,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112112 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
 | POD-DEC-2026112113 · Publish reviewed Sagada article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
 | POD-DEC-2026112201 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
+| POD-DEC-2026112202 · Publish reviewed Kagaja Mukha article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
 
 ## Reviews
 
@@ -1406,7 +1408,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112115 | 2026-11-21T12:07:38.442036+00:00 | Founder authorized publication with three relevant reading links. Prepared narrative and source limits retained; text-first layout, zero programme credit and unrelated task preserved. | — |
 | POD-EVT-2026112116 | 2026-11-21T13:04:20.020407+00:00 | Reviewed article and three incoming links published and live verified. Separate delivery review pending; zero programme credit and foreign task preserved. Scope release effective on receipt merge. | — |
 | POD-EVT-2026112117 | 2026-11-21T13:06:55.841975+00:00 | Separate Drishti review verified publication, live pages, saved screenshots and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 | POD-EVT-2026112118 | 2026-11-21T13:42:22.240632+00:00 | Prior Jau receipt merged and checked; new single draft scope reserved. Independent historical cart-design angle selected after scoped coverage checks; no publication or programme credit. | — |
@@ -1416,6 +1417,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112122 | 2026-11-21T16:43:00.548267+00:00 | Separate Drishti review verified publication, live pages, saved screenshots, lossless capacity fix and scoped receipt. No blockers. Evidence-only receipt ready for required checks and merge; no further deployment required. | — |
 | POD-EVT-2026112201 | 2026-11-21T18:53:03.266756+00:00 | Prior Sagada receipt merged and checked; new single draft scope reserved. Paper-mask craft selected after scoped coverage checks; no publication or programme credit. | — |
 | POD-EVT-2026112202 | 2026-11-21T19:05:17.589603+00:00 | Original paper-mask article, source evidence and publication brief delivered locally after separate review. Three primary source families and their limits retained. No website publication; zero programme credit; draft scope released. | — |
+| POD-EVT-2026112203 | 2026-11-21T19:14:17.629391+00:00 | Started authorized Kagaja Mukha publication with three relevant reading links. | — |
 
 ## Deferred extensions
 

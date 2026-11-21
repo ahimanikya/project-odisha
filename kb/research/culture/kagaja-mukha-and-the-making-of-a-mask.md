@@ -4,9 +4,9 @@ description: "Shaped paper, painted faces and named Raghurajpur makers offer a c
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "people"]
 type: "Craft and makers essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 A paper mask need not be made to wear. In Sakshi Gambhir’s documentation of Raghurajpur masks, Srikhetra Maharana and Kumudini Maharana make non-theatrical objects without openings for the eyes or nose.[^1] The face is meant to be looked at; it does not need a wearer looking out through it.
@@ -22,8 +22,6 @@ A separate NID account by Bibhudutta Baral, Divyadarshan C. S. and Aakash Sharma
 Lalit Kala Akademi’s 2016–17 annual report records Sulachana Maharana and Pratima Maharana, both from Raghurajpur, demonstrating papier-mâché techniques to village women and schoolchildren on 25–26 July 2016. Its Bhubaneswar Regional Centre organised the workshop at Pratisruti in Padanpur, via Jatni, Khordha.[^3]
 
 A finished mask invites attention to its painted face. Looking at its shape and how its body was made brings the work before the brush into view.
-
-## Footnotes & Sources
 
 [^1]: Sakshi Gambhir, [*Masks of Raghurajpur*](https://www.dsource.in/sites/default/files/resource/masks-raghurajpur/downloads/file/masks-raghurajpur.pdf), IDC, IIT Bombay, undated, pp. 7, 10, 13: People, Papier-mache and Cowdung.
 
