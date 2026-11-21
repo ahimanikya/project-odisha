@@ -58,7 +58,7 @@ Build attributed profiles of willing growers, weavers, food producers and hosts,
 
 ## Connected reading
 
-- [Deomali: Grasslands Above Koraput](/destinations/deomali/) — Explore the tableland, stream habitats and visiting considerations.
+- [Deomali: Grasslands Above Koraput](https://projectodisha.org/destinations/deomali/) — Explore the tableland, stream habitats and visiting considerations.
 
 - [Life in Odisha](../collections/life-in-odisha.md) — Use statewide services as context while keeping district evidence gaps visible.
 - [Made in Odisha](../collections/made-in-odisha.md) — Follow regional materials and techniques into the wider maker collection.
