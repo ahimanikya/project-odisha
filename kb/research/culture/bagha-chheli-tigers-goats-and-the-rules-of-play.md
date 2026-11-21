@@ -4,9 +4,9 @@ description: "A closer look at Bagha Chheli through unequal playing roles, ordin
 author: "Ahimanikya Satapathy"
 subjects: ["everyday", "arts"]
 type: "Games and play essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 Bagha Chheli gives its two players different jobs. One controls tigers that capture; the other controls goats that try to leave the tigers unable to move.[^1]
@@ -25,7 +25,6 @@ Photographer Subhashish Panigrahi’s record places a game of Bagha Chheli in a 
 
 For anyone returning to the board, a useful opening question is simple: how did the people you played with decide when the game was won?
 
-## Footnotes & Sources
 
 [^1]: Ancient Indian Boardgames: Digital Documentation, [“Bagha Chheli ( Odisha)”](https://souvikmukherjeeresearch.com/omekas/s/ancientindianboardgames/item/6395), undated, Description and Rules. The winning condition above comes from the modern Rules field.
 

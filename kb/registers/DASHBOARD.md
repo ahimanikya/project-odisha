@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5215c50d3e871d4a55d0f3aaad6581aa0b371596dda1cb7e660c102f1cc54260`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `72d58ea8f7754f8ad788d26fec1566b5d96d1734e30b8f26b39adc386216778b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -385,6 +385,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112106 · Prepare Dhumpa Music and Its Players | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
 | POD-WORK-2026112107 · Publish Dhumpa Music and Its Players | completed | published | Ahimanikya Satapathy | Article and three incoming links published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112108 · Prepare Bagha Chheli and the Rules of Play | completed | reviewed | Ahimanikya Satapathy | Prepared article and source review delivered locally; website integration and publication are outside this preparation task. | — |
+| POD-WORK-2026112109 · Publish Bagha Chheli and the Rules of Play | in_progress | draft | Ahimanikya Satapathy | Implement, review, publish and verify live delivery. | — |
 
 ## Pending human review and decisions
 
@@ -707,6 +708,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112106 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
 | POD-DEC-2026112107 · Publish Dhumpa with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed Dhumpa article, verify desktop and mobile, publish with relevant incoming links. |
 | POD-DEC-2026112108 · Prepare another independently researched article | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft only. No website integration or publication. |
+| POD-DEC-2026112109 · Publish Bagha Chheli with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, verify desktop/mobile and publish with two relevant incoming links. |
 
 ## Reviews
 
@@ -1385,7 +1387,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261113002 | 2026-11-13T16:15:17.790755+00:00 | Aparichita (1980) added to the local viewing room with its Pratibha Ray novel connection. Opening, ending and embedded playback sampled; 20 tests and independent review passed. Previous 12 entries and Matira Manisha narration preserved. No publication or book changes; zero programme credit. | — |
 | POD-EVT-20261113003 | 2026-11-13T17:42:24.259028+00:00 | Published Malajanha and Aparichita in the viewing room with a separate Matira Manisha narrated-novel link. Reviewed candidate, required CI, Pages deployment and live asset/browser checks passed. Books and other work unchanged; zero programme credit. | — |
 | POD-EVT-20261115001 | 2026-11-14T18:48:16.547102+00:00 | Prepared the Founder-approved 14 November Ekamra Walks personal essay with seven supplied photographs, Prateek’s temple tour and Omm Prakash and team’s teaching/performance. Separate source and generated-output reviews passed; publication gates pending. No invented musical details, video placeholders or programme credit. | — |
 | POD-EVT-20261115002 | 2026-11-14T20:02:08.455938+00:00 | Published the approved Ekamra evening personal essay after separate reviews, required CI and Pages deployment. Live text, seven exact photograph hashes, footnotes, discovery and reciprocal reading links verified. No videos supplied or added. Zero programme credit; foreign ownership preserved. | — |
@@ -1395,6 +1396,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112108 | 2026-11-21T07:03:33.086369+00:00 | Dhumpa article published with three reciprocal reading paths after separate source/integrated review, required CI and successful Pages deployment. Four live article bodies match local publication, desktop/mobile checked. Zero programme credit; foreign task preserved. | — |
 | POD-EVT-2026112109 | 2026-11-21T07:36:28.114949+00:00 | New draft-only article reserved after scoped coverage checks. A name-only mention in Growing Up in Odisha is preserved; this article will add game structure and version-specific rules through independent sources. Topic discovery from Antaranga Kalinga only; zero programme credit. | — |
 | POD-EVT-2026112110 | 2026-11-21T07:42:29.878461+00:00 | Original local article and publication brief delivered after separate review, adding beyond existing name-only mention. Source limits and distinct rule versions retained. Local draft only; zero programme credit; preparation scope released. | — |
+| POD-EVT-2026112111 | 2026-11-21T08:21:17.752957+00:00 | Founder authorized publication with two relevant reading links and credited photograph. Prepared narrative and distinct rule versions retained; zero programme credit and unrelated task preserved. | — |
 
 ## Deferred extensions
 
