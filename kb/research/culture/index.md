@@ -88,3 +88,5 @@
 [Sagada: The Work of a Bullock Cart](sagada-and-the-work-of-the-bullock-cart.md) — historical cart design, loading and repair, with dated sources.
 
 - [Kagaja Mukha and the Paper Masks of Raghurajpur](kagaja-mukha-and-the-making-of-a-mask.md) — independently sourced article; [source review](kagaja-mukha-source-review-20261122.json).
+
+[Bellaguntha’s Brass Fish](bellaguntha-brass-fish.md) — Independently researched draft prepared for editorial review; not yet published.

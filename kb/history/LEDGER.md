@@ -1661,3 +1661,5 @@ The Founder authorized integration and publication of the revised reader guide, 
 Published the separately reviewed reading guide and incoming link from A Place to Learn Together. Required CI and deployment passed; live article, links, sources and image assets verified. Desktop/mobile layout checked. Receipt: [Bhagabata publication](../records/bhagabata-publication-20261121.json). Zero autonomous-programme credit; unrelated receipt task preserved.
 
 - 2026-11-22 — Deomali destination article research and publication authorized; separate research/implementation/review, mandatory credited article and preview image. records/deomali-publication-20261122.json; zero programme credit.
+
+- 2026-11-22 — Prepared and separately reviewed Bellaguntha’s Brass Fish after Deomali receipt815 merged and explicit coordinated handoff. Independent sources, unchanged licensed photograph and preview brief delivered locally; no publication or programme credit. [Preparation receipt](../records/brass-fish-article-preparation-20261122.json).
