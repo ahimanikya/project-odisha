@@ -1650,3 +1650,8 @@ The Founder authorized publication of the updated Dhaga collection and PDF. PR78
 ### 19 November 2026 · Dhaga516 historical readings and satire corrected
 
 The Founder requested adding the approved explanation with both historical readings and page references. Preserved the uploaded primary witness, added the separately identified1926/n.1990 scan readings at printed100/item86 and106/item49, and corrected the interpretation to satire of promises without delivery or refusal. Separate source and integrated content reviews passed; local browser review confirms visible quotations and clickable page references. Collection stays550entries; earlier PDF edition unchanged. Publication pending. [Scoped receipt](../records/odia-dhaga-516-satire-20261119.json).
+
+
+### 21 November 2026 · Bhagabata reading guide prepared for publication
+
+The Founder authorized integration and publication of the revised reader guide, with a link from A Place to Learn Together. The article adds direct text navigation and source/edition guidance beyond the existing community-learning treatments. Separate source review passed; implementation, desktop/mobile and release checks are underway. No fieldwork or autonomous programme credit. [Scoped record](../records/bhagabata-publication-20261121.json).

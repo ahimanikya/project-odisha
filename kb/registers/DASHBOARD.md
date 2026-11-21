@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4ea9e549875bf2e4d8195bc8ad120dca5600b0c8f37a156b5aad747da99a43a7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f8e820a56f1451e26bd8edf2d0a8cb67cf6a4544c773e284661fe81e6ae4fe58`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -377,6 +377,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-343 · Mayurbhanj journey native attention and learning reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-344 · Jobra native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
 | POD-WORK-345 · Kala Bhoomi native evidence contribution and editorial reading | completed | reviewed | Ahimanikya Satapathy | Integrate separately reviewed receipt after required CI; release only after actual receipt merge/remote verification. | — |
+| POD-WORK-2026112101 · Publish Reading the Bhagabata beyond the Tungi | in_progress | draft | Ahimanikya Satapathy | Build, review mobile and desktop, pass required CI, publish and record live verification. | — |
 
 ## Pending human review and decisions
 
@@ -691,6 +692,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026102907 · Publish Maniabandha article and illustration | recorded_direction | Ahimanikya Satapathy | Publish the independently sourced Maniabandha article and approved illustration on Project Odisha; preserve companion social draft without sending it. |
 | POD-DEC-2026102908 · Publish Essential Odia Dhaga companion article | recorded_direction | Ahimanikya Satapathy | Publish the reviewed 25-saying Essential Odia Dhaga draft as a companion article, with series discovery and existing publication gates. |
 | POD-DEC-2026110501 · Publish the completed Dongria series | recorded_direction | Ahimanikya Satapathy | Latest user instruction follows explicit remaining scope: integrate twelve articles into current Project Odisha website, resolve checks, review final preview and publish. Bounded series batch, not broad research or changes to unrelated active articles. |
+| POD-DEC-2026112101 · Publish the revised Bhagabata reading guide | recorded_direction | Ahimanikya Satapathy | Integrate the reviewed article, verify desktop and mobile, publish with incoming link from A Place to Learn Together. Preserve source limits, photo rights and unrelated work. |
 
 ## Reviews
 
