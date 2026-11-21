@@ -1,0 +1,35 @@
+---
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/reading-the-bhagabata.md';
+const image = {src: '/images/stories/bhagabata-tungi-2016.jpg', alt: 'Entrance to a Bhagabata Tungi with Odia lettering, devotional objects and painted walls.', width: 4208, height: 2368};
+const continueReading = [{href: '/stories/a-place-to-learn-together/', title: 'A Place to Learn Together — ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା', titleHtml: 'A Place to Learn Together — <span lang="or">ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା</span> <span aria-hidden="true">→</span>', description: 'Organising a dependable space for shared learning.', image: '/images/stories/learn-neighbourhood-room-v2.png'}];
+const furtherReading = [{href: 'https://or.wikisource.org/wiki/ଓଡ଼ିଆ_ଭାଗବତ', title: 'Read the Odia Bhagabata', description: 'The contents and linked skandhas on Odia Wikisource.'}, {href: 'https://or.wikisource.org/wiki/ଓଡ଼ିଆ_ଭାଗବତ/୧', title: 'Begin with the first skandha', description: 'Follow the chapter headings and numbered verses.'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <figure>
+      <ResponsiveImage {...image} sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px" loading="eager" fetchpriority="high"/>
+      <figcaption>
+        Bhagabata Tungi in the Shani temple precinct at Niladri Vihar, Bhubaneswar, photographed on 1 January 2016.
+        Photograph by <a href="https://commons.wikimedia.org/wiki/File:Bhagabata_Tungi.jpg">Hellohappy, Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Full frame, resized for display.
+      </figcaption>
+    </figure>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href="/contribute/?page=%2Fstories%2Freading-the-bhagabata%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article :global(img){max-width:100%;height:auto}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

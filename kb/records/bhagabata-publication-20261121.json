@@ -1,0 +1,112 @@
+{
+  "status": "integration",
+  "article_id": "POD-EDIT-BHAGABATA-20261121",
+  "route": "/stories/reading-the-bhagabata/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the revised article into Project Odisha, check the layout on mobile and desktop, and publish it with a link from the existing article.",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "ebeb4b3cf091fd58435b3d9ca3bb1f245eaf3f14",
+  "assignments": {
+    "Disha": "Shared records, publication scope, builds, browser checks and release",
+    "Anvesha": "Read-only source and image rights review",
+    "Samanta": "New article page and body, photograph and incoming link only",
+    "Drishti": "Read-only separate integrated quality review"
+  },
+  "reserved_files": [
+    "kb/research/culture/reading-the-bhagabata.md",
+    "projects/site/src/pages/stories/reading-the-bhagabata.astro",
+    "projects/site/src/pages/stories/a-place-to-learn-together.astro",
+    "projects/site/public/images/stories/bhagabata-tungi-2016.jpg"
+  ],
+  "limits": [
+    "No new fieldwork or human specialist review claimed",
+    "Existing unrelated receipt task preserved; no autonomous programme credit"
+  ],
+  "authorization": "POD-DEC-2026112101",
+  "work_id": "POD-WORK-2026112101",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "History, dated digitisation, checked reading route and qualified workflow support the copy. Distinct contribution. Photo licence and checksum verified. No blockers."
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "optimize-image-priority",
+      "html",
+      "performance"
+    ],
+    "application": "Semantic article and figure; single h1; explicit image dimensions; eager high-priority hero, responsive variants and lazy related cards; no new client script."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Distinct practical reading task; reviewed prose preserved apart from Odia language tags; all six reference and return links resolve; byline, source and image credits, reading paths and privacy notice intact. No blockers."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "local built article and existing companion",
+    "checks": [
+      "Desktop and narrow mobile article views inspected",
+      "No horizontal overflow at observed 1440, 390, 320 and 300 CSS pixel widths",
+      "Hero loaded with intact full-frame credit",
+      "Footnote and return-reference navigation exercised",
+      "Incoming and return reading cards clicked; mobile incoming card visually inspected"
+    ],
+    "limits": [
+      "Browser viewport simulation, not physical device testing"
+    ]
+  },
+  "validation": {
+    "full_site_tests": {
+      "pass": 821,
+      "fail": 0
+    },
+    "coastal_tests": {
+      "pass": 597,
+      "fail": 0
+    },
+    "jpeg_delivery_tests": {
+      "pass": 3,
+      "fail": 0
+    },
+    "disclosure": {
+      "pages": 1465,
+      "violations": 0
+    },
+    "focused_payload_check": {
+      "bytes": 999081247,
+      "status": "pass",
+      "method": "Completed baseline publication optimization with reviewed Bhagabata-only derivative and matching caption applied; full clean assembly remains required in CI."
+    }
+  },
+  "image_delivery": {
+    "path": "images/stories/bhagabata-tungi-2016.jpg",
+    "settings": {
+      "maximum_dimension": 2048,
+      "quality": 90,
+      "chromaSubsampling": "4:4:4",
+      "mozjpeg": true,
+      "preserve_metadata": true
+    },
+    "status": "resized-and-compressed",
+    "source_sha256": "75f5808ef270eb66ef0a0d0298ef35515bbc208b7f09886dd1adae9e31326316",
+    "output_sha256": "2eef3c3c029fa2484a9a7206db7579d0bd9c7ca51a28af8403fe2beb83de3f9a",
+    "source_bytes": 3930320,
+    "output_bytes": 582511,
+    "saved_bytes": 3347809,
+    "source_dimensions": [
+      4208,
+      2368
+    ],
+    "output_dimensions": [
+      2048,
+      1152
+    ],
+    "orientation": 1,
+    "visual_review": "Full frame and readable details inspected; original retained. Full-size delivery JPEG is resized and compressed with visible caption disclosure; responsive WebP variants remain generated from original."
+  }
+}
