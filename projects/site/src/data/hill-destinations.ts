@@ -2,6 +2,7 @@ import {allowsPage} from './edition';
 import deomaliImage from '../../../../kb/research/destinations/deomali-image.json';
 import daringbadiImage from '../../../../kb/research/destinations/daringbadi-image.json';
 import putsilImage from '../../../../kb/research/destinations/putsil-image.json';
+import mandasaruImage from '../../../../kb/research/destinations/mandasaru-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -33,4 +34,14 @@ export const putsilGuide = {
  aliases: ['Putsil Valley'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide].filter(guide => allowsPage(guide.href));
+export const mandasaruGuide = {
+ title: 'Mandasaru',
+ odia: '',
+ summary: 'A gorge and its conservation story.',
+ href: '/destinations/mandasaru/',
+ photo: mandasaruImage,
+ regions: ['Kandhamal'],
+ aliases: ['Mandasaru Gorge'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide].filter(guide => allowsPage(guide.href));

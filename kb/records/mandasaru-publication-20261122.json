@@ -1,0 +1,219 @@
+{
+  "status": "reviewed_release_gates_pending",
+  "article_id": "POD-EDIT-MANDASARU-20261122",
+  "route": "/destinations/mandasaru/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization": "POD-DEC-2026112291",
+  "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
+  "work_id": "POD-WORK-2026112296",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "0aa8447922e78a3208978408d5f1f6dc31d20ec2",
+  "preceding_release": {
+    "article": "Putsil",
+    "receipt_pr": 819,
+    "receipt_merge": "0aa8447922e78a3208978408d5f1f6dc31d20ec2",
+    "required_check": 44969462882,
+    "conclusion": "success"
+  },
+  "coordination": {
+    "brass_fish": "Completed preparation preserved, not authorized for dedicated website publication.",
+    "foreign_task": "POD-EDIT-133 preserved"
+  },
+  "assignments": {
+    "Disha": "Coordinator, imagery, shared records and publishing",
+    "Anvesha": "Bounded independent research",
+    "Samanta": "Reserved implementation",
+    "Drishti": "Separate quality and delivery review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/mandasaru-publication-2026-11-22/research/findings.md",
+      "outputs/mandasaru-publication-2026-11-22/research/integrated-source-review.md"
+    ],
+    "Samanta": [
+      "kb/research/places/mandasaru-article.md",
+      "projects/site/src/pages/destinations/mandasaru.astro",
+      "projects/site/src/data/hill-destinations.ts",
+      "projects/site/src/pages/destinations/hills.astro",
+      "projects/site/src/components/DestinationCards.astro",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "projects/site/src/pages/explore.astro"
+    ],
+    "Drishti": [
+      "outputs/mandasaru-publication-2026-11-22/review/drishti-review.md",
+      "outputs/mandasaru-publication-2026-11-22/review/drishti-release-check.md",
+      "outputs/mandasaru-publication-2026-11-22/review/delivery-review.json"
+    ],
+    "Disha": [
+      "kb/records/mandasaru-publication-20261122.json",
+      "shared records",
+      "Mandasaru image provenance and assets"
+    ]
+  },
+  "reuse_before_research": {
+    "queries": [
+      "query_research.py Mandasaru",
+      "mandasaru|mandasar in research and site"
+    ],
+    "finding": "No dedicated destination narrative or matching source record returned by bounded map/corpus searches. Reuse Daringbadi regional context and its forest working-plan source; do not transfer Daringbadi access or season claims to Mandasaru.",
+    "pointers": [
+      "research/places/daringbadi-article.md",
+      "records/daringbadi-publication-20261122.json",
+      "research/references/data/research-queue.json:RES-010",
+      "research/references/data/research-queue.json:RES-023",
+      "research/methods/trip-planning-content.md"
+    ],
+    "missing_question": "What defines Mandasaru’s gorge and forest landscape, what primary visitor/access evidence is available, and which authentic photograph is usable with clear rights?"
+  },
+  "image_requirement": "High-quality relevant image attached to article, preview and sharing metadata; additional images where useful.",
+  "next_action": "Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article.",
+  "remote_reconciliation": {
+    "main": "0aa8447922e78a3208978408d5f1f6dc31d20ec2",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false
+  },
+  "media_status": "No photograph passed both location and reuse-rights checks. Optional illustration preference unanswered; coordinator stated default to a clearly captioned interpretive landscape illustration under existing article/image authorization. No new explicit user approval claimed.",
+  "modern_web_guidance": {
+    "status": "saved_guides_consulted",
+    "guides": [
+      "HTML",
+      "Responsive design",
+      "Card"
+    ],
+    "saved_evidence": "Previously retrieved /private/tmp/deomali-web-guidance.md",
+    "retrieval_limit": "Prior automatic approval review rejected unpinned latest package; no retry or bypass. Existing components only."
+  },
+  "media": [
+    {
+      "record": "research/destinations/mandasaru-image.json",
+      "provenance": "outputs/mandasaru-publication-2026-11-22/media/provenance.json",
+      "kind": "interpretive_illustration",
+      "delivery_bytes": 553693,
+      "delivery_sha256": "15cd0dc63507920f9eb1a6c5dfe064f2497ae47487e6784a38d25128cafe3f13"
+    }
+  ],
+  "research_evidence": "outputs/mandasaru-publication-2026-11-22/research/findings.md",
+  "implementation": {
+    "worker": "Samanta",
+    "kind": "separate_ai_agent",
+    "status": "completed",
+    "files_released": true,
+    "manuscript_sha256": "3fb27c0459242b7e728460430fa88fe9916f07f0ff7d8f450ccabe547c71ab97",
+    "checks": "Static syntax and diff checks passed; full runtime checks pending with coordinator."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "manuscript_sha256": "3fb27c0459242b7e728460430fa88fe9916f07f0ff7d8f450ccabe547c71ab97",
+    "source_word_ceiling": {
+      "biodiversity": 195,
+      "tourism": 191,
+      "district": 183
+    },
+    "evidence": "outputs/mandasaru-publication-2026-11-22/research/integrated-source-review.md"
+  },
+  "browser_review": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "surface": "Local full build in in-app Chromium",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        812
+      ]
+    ],
+    "horizontal_overflow": false,
+    "single_h1": true,
+    "hero_loaded": true,
+    "full_frame": true,
+    "hero_dimensions_desktop": [
+      695.203125,
+      463.46875
+    ],
+    "hero_dimensions_mobile": [
+      351.609375,
+      234.40625
+    ],
+    "first_footnote_and_return_keyboard": "pass; note top -0.21875px, return top -0.1015625px, correct reference focused",
+    "reciprocal_links": "Mandasaru to hills and back through illustrated preview",
+    "preview_loaded": true,
+    "preview_dimensions": [
+      356,
+      237.328125
+    ],
+    "screenshots": [
+      "desktop.jpg",
+      "mobile.jpg",
+      "mobile-footnotes.jpg",
+      "hills-preview.jpg",
+      "narrow.jpg",
+      "explore-preview.jpg"
+    ],
+    "limits": "Viewport simulation, not physical-device, screen-reader or cross-engine certification. Initial transient mobile screenshot replaced after settled navigation.",
+    "explore": {
+      "filter": "Mandasaru",
+      "results": 2,
+      "visible_illustration_label": true,
+      "empty_credit_anchors": 0
+    }
+  },
+  "review_corrections": [
+    {
+      "reviewer": "Drishti",
+      "finding": "Explore independent credit renderer emitted empty licence anchor for original illustration.",
+      "resolution": "Samanta made source/licence links conditional and added visible Illustration label; regression extended to Explore. Rebuilt full output and browser verify no empty anchors and clear label."
+    }
+  ],
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_release_conditions",
+    "evidence": "outputs/mandasaru-publication-2026-11-22/review/drishti-review.md",
+    "remaining_gates": [
+      "Final publication package and strict hosting limit",
+      "Exact-head required CI",
+      "Deployment and live verification",
+      "Reviewed delivery receipt"
+    ]
+  },
+  "reserved_files_released_by_workers": true,
+  "local_validation": {
+    "full_build": "pass",
+    "full_tests": 821,
+    "coastal_build": "pass",
+    "coastal_tests": 598,
+    "publication_build": "running",
+    "disclosures": {
+      "full": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
+        "pages": 1491,
+        "violations": []
+      },
+      "coast": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
+        "pages": 1476,
+        "violations": []
+      }
+    },
+    "scope": "Actual local checks; no final-package, CI, publication or live claim yet."
+  }
+}
