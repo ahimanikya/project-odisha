@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": "kapilash",
+  "current": null,
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -98,13 +98,14 @@
     },
     {
       "slug": "kapilash",
-      "status": "in_progress",
+      "status": "completed",
       "handoff": "records/kapilash-publication-20261123.json",
       "reuse_before_research": [
         "research/methods/trip-planning-content.md",
         "research/references/data/restaurant-audit-20261020.json",
         "research/references/data/research-queue.json:RES-023"
-      ]
+      ],
+      "publication_receipt": "records/kapilash-publication-20261123.json"
     },
     {
       "slug": "gandhamardan",
@@ -130,5 +131,12 @@
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
   "next_hill": "gandhamardan",
-  "coordination": "Horn-craft reviewed receipt835 merged and explicit slot returned. Kapilash now sole active hill article."
+  "coordination": "Kapilash published/live verified; reviewed receipt merge precedes explicit preparation-only handoff to Research Antaranga Kalinga. Gandhamardan waits for return.",
+  "reserved_next_slot": {
+    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "Prepare one independently researched, previously uncovered Antaranga Kalinga topic with credited image; no publication authorization.",
+    "human_instruction_quote": "Once Kapilash’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+    "verification": "Read actual human message in turn01a204ca-ec8b-7f50-b700-6c62e32e0c20.",
+    "condition": "After Kapilash reviewed receipt merge and explicit handoff; no next hill before slot return."
+  }
 }

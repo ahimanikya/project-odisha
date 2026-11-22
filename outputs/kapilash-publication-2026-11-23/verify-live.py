@@ -20,7 +20,7 @@ def get(path):
   return r.read(),{k:r.headers.get(k) for k in ['Content-Type','Last-Modified','ETag']}
 def fragment(s):return re.search(r'<article class="article-reading.*?</article>',s,re.S).group()
 report={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'routes':{},'images':{},'responsive_substitutions':[],'limits':['HTTP/content verification, not browser or visual acceptance. Any changed encoding needs separate measurement and review.']}
-route='/destinations/kapilash/';photo='/images/destinations/kapilash-temple.webp'
+route='/destinations/kapilash/';photo='/images/destinations/kapilash-temple.webp';base_images={photo}
 for path in [route,'/destinations/hills/','/destinations/','/explore/']:
  b,headers=get(path);s=b.decode();p=parse(s);assert p.h1==1
  filename='article.html' if path==route else path.strip('/').replace('/','-')+'.html';(OUT/filename).write_bytes(b)
@@ -30,7 +30,7 @@ for path in [route,'/destinations/hills/','/destinations/','/explore/']:
   lp=parse(la);ap=parse(a);assert len(lp.images)==len(ap.images)
   replacements={}
   for li,ai in zip(lp.images,ap.images):
-   assert li.get('src')==ai.get('src')
+   assert li.get('src')==ai.get('src');base_images.add(ai['src'])
    lv=[x.strip().split() for x in li.get('srcset','').split(',') if x.strip()];av=[x.strip().split() for x in ai.get('srcset','').split(',') if x.strip()];assert len(lv)==len(av)
    for (lurl,lw),(url,w) in zip(lv,av):
     assert lw==w
@@ -51,8 +51,9 @@ for path in [route,'/destinations/hills/','/destinations/','/explore/']:
   record.update(native_reference_and_return_links=12,credited_hero_and_sharing=True)
  else:assert route in p.links and photo in s;record['incoming_article_and_photo']=True
  report['routes'][path]=record
-for url,name in [(photo,'kapilash-temple.webp')]:
+for url in sorted(base_images):
+ name=Path(url).name
  data,headers=get(url);(OUT/name).write_bytes(data);same=data==(SITE/url.lstrip('/')).read_bytes()
- if url==photo:assert same
+ assert same, 'Reviewed base image changed: '+url
  report['images'][url]={'status':200,'bytes':len(data),'sha256':sha(data),'same_as_local_bytes':same,'headers':headers}
 (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'routes':len(report['routes']),'images':len(report['images']),'responsive_substitutions':report['responsive_substitutions']},ensure_ascii=False))

@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-KAPILASH-20261123",
   "route": "/destinations/kapilash/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has the horn-craft receipt merged and the slot returned now? If so, go ahead with Kapilash—research, review and publish it with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112391",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "6be88b16a06bb32e85e9b13adaa5b201aaa8da5a",
   "preceding_release": {
     "article": "Paralakhemundi horn craft",
@@ -68,8 +68,14 @@
   },
   "capacity": {
     "prior_linux_payload_bytes": 999323574,
-    "remaining_bytes": 676426,
-    "constraint": "Strict one-billion-byte limit. Use a compact quality-reviewed image derivative if needed while preserving original; no unrelated optimizer changes."
+    "remaining_bytes": 55557,
+    "constraint": "Strict one-billion-byte limit. Use a compact quality-reviewed image derivative if needed while preserving original; no unrelated optimizer changes.",
+    "prior_remaining_bytes": 676426,
+    "publication_ci_payload": {
+      "payload_bytes": 999944443,
+      "files": 3624,
+      "remaining_bytes": 55557
+    }
   },
   "foreign_ownership": "Kala Bhoomi current_task and handoff_home preserved",
   "remote_reconciliation": {
@@ -81,7 +87,7 @@
     ],
     "overlap_found": false
   },
-  "next_action": "Review exact committed candidate, run project-required CI, merge and publish, then independently verify live delivery and integrate reviewed receipt.",
+  "next_action": "Merge exact reviewed evidence-only receipt after project-required CI; then explicitly hand the reserved preparation-only slot to Research Antaranga Kalinga. Gandhamardan remains queued until return.",
   "research": {
     "status": "pass",
     "reviewer": "Anvesha, separate subagent",
@@ -120,7 +126,7 @@
     "status": "source_code_media_and_rendered_pass",
     "reviewer": "Drishti, separate subagent",
     "evidence": "outputs/kapilash-publication-2026-11-23/review/drishti-review.md",
-    "pending": "Exact committed review, project-required CI and actual publication/live verification."
+    "pending": "Exact committed receipt review, project-required CI and actual receipt merge."
   },
   "browser_review": {
     "result": "pass",
@@ -247,5 +253,91 @@
     "reviewer": "Drishti, separate subagent",
     "evidence": "outputs/kapilash-publication-2026-11-23/review/final-package-review.md",
     "limitations": "Local output only; Linux CI/deployment and live behavior pending."
-  }
+  },
+  "next_slot": {
+    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "Prepare one independently researched, previously uncovered Antaranga Kalinga topic with credited image; no publication authorization.",
+    "human_instruction_quote": "Once Kapilash’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+    "verification": "Read actual human message in turn01a204ca-ec8b-7f50-b700-6c62e32e0c20.",
+    "condition": "After Kapilash reviewed receipt merge and explicit handoff; no next hill before slot return."
+  },
+  "completed_at": "2026-11-22T20:16:54.522871+00:00",
+  "pull_request": 836,
+  "publication": {
+    "pr": 836,
+    "reviewed_head": "309db86d7a27bdf2699d6d3656470b9272793ae5",
+    "exact_head_review": "Separate Drishti read-only PASS: all60files match reviewed manifest; clean tree.",
+    "ci_run": 45059924629,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "check_requirement": "Project-required Review coastal candidate workflow passed.",
+    "merge_commit": "63b8be7a011e50d5332a489d4b74335bcce8d4fb",
+    "merged_at": "2026-11-22T19:44:14Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45062445092,
+    "deployment_head": "63b8be7a011e50d5332a489d4b74335bcce8d4fb",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "deployment": {
+    "run": 45062445092,
+    "source_sha": "63b8be7a011e50d5332a489d4b74335bcce8d4fb",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999944443,
+    "files": 3624
+  },
+  "verified_routes": [
+    "/destinations/kapilash/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "live_verification": {
+    "evidence": "outputs/kapilash-publication-2026-11-23/live/verification.json",
+    "routes": [
+      "/destinations/kapilash/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "images_fetched_and_checked": 7,
+    "article_match": "Exact reviewed article fragment without substitutions.",
+    "reviewed_public_base_image_exact": true,
+    "image_comparison": "outputs/kapilash-publication-2026-11-23/live/image-comparison.json",
+    "encoding_differences": [],
+    "difference_limit": "Raw measurements preserved. Separate visual acceptance does not establish the encoding cause or site-wide equality."
+  },
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/kapilash-publication-2026-11-23/review/live-browser-review.json",
+    "screenshots": 8,
+    "limits": "Chromium viewport simulation, not physical-device or broad accessibility audit. Initial hero extends below viewport; both live photo-credit views show the complete portrait and credit. Footnotes view begins at note1 with heading above frame. Hills and Explore cards completely framed; credit disclosures remained collapsed. Viewport override reset."
+  },
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/kapilash-publication-2026-11-23/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Article and images already deployed from the reviewed publication merge. Receipt records actual delivery evidence and generated project views only.",
+    "required_gates": [
+      "Separate final integrated receipt review",
+      "Exact committed receipt review",
+      "Project-required CI",
+      "Actual receipt merge"
+    ],
+    "final_review": {
+      "reviewer": "Drishti, separate subagent",
+      "result": "pass",
+      "scope": "Final integrated receipt, live evidence, records and conditional preparation-only handoff; public/research/original/horn sources and foreign ownership preserved. Exact committed review, project-required CI and actual merge remain."
+    }
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. No next hill starts before that merge.",
+  "reserved_files_released_by_workers": true
 }
