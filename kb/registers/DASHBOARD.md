@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ee444838e2f218350637ce81e2c3743eeb3ab66235d6dfe0373b46758c7ce380`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1f5704fe5019913e848dad1494cb2b0bce5513870dc4fd7d399c7316ff134223`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -399,6 +399,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112296 · Research, review and publish Mandasaru | completed | published | Ahimanikya Satapathy | Mandasaru and its clearly captioned article/preview illustration are published and live verified; delivery receipt saved for separate review and integration. | — |
 | POD-WORK-2026112204 · Publish Bellaguntha’s Brass Fish | completed | published | Ahimanikya Satapathy | Published and live verified; merge separately reviewed delivery receipt before explicit coordinated slot return. | — |
 | POD-WORK-2026112297 · Research, review and publish Mahendragiri | completed | published | Ahimanikya Satapathy | Mahendragiri published and live verified; separately reviewed receipt prepared. Slot release effective upon receipt merge. | — |
+| POD-WORK-2026112205 · Prepare Binchana article | completed | reviewed | Ahimanikya Satapathy | Reviewed unpublished draft, photograph and brief delivered locally. Preparation slot released for coordinated Taptapani queue; no website integration/publication. | — |
 
 ## Pending human review and decisions
 
@@ -732,6 +733,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112203 · Prepare next independent article after Deomali | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft with article/preview image; no website publication. |
 | POD-DEC-2026112204 · Publish reviewed Bellaguntha brass fish article | recorded_direction | Ahimanikya Satapathy | Integrate, review desktop/mobile, publish with credited image and incoming links; necessary lossless delivery compression. |
 | POD-DEC-2026112297 · Continue hill destinations with Mahendragiri after brass fish | recorded_direction | Ahimanikya Satapathy | Research, separate review, publication and image-backed previews, one hill destination at a time. |
+| POD-DEC-2026112205 · Prepare next independent article after Mahendragiri | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed draft with credited article/preview image; no website integration or publication. |
 
 ## Reviews
 
@@ -1130,6 +1132,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112296 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root keyboard and viewport measurements attributed to root; six screenshots independently inspected.; Final publication package, exact-head required CI, deployment and reviewed live receipt remain release gates. |
 | POD-REV-2026112204 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions attributed to root; screenshots and fresh live HTTP evidence independently reviewed.; Existing unrelated Mardala480px variant is visually equivalent across Linux/macOS encoding, not pixel-exact. |
 | POD-REV-2026112297 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root keyboard/viewport measurements attributed to root;5screenshots independently inspected with framing limits retained.; Final package, required CI, deployment and reviewed delivery receipt remain gates. |
+| POD-REV-2026112205 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No fieldwork, interviews, current market survey or complete fan-making tutorial.; Journal and supplement text inspected; PDF page images not visually recovered.; Museum collection entry read; its object image not inspected.; Photograph has visible grain and softness; use restrained full-portrait display without upscaling.; No rendered website layout or live publication checks for draft preparation. |
 
 ## Publication and application history
 
@@ -1434,8 +1437,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261122105 | 2026-11-22T02:53:55.784023+00:00 | Mandasaru PR820 merged after exact-head required checks; deployment 44975805693 succeeded. Article, three incoming routes, original illustration hash, responsive variants and live desktop/mobile presentation verified. Separate delivery review and evidence-only receipt merge remain required; zero programme credit. | — |
-| POD-EVT-20261122106 | 2026-11-22T02:59:02.651606+00:00 | Separate Drishti review passed actual CI/deployment/live receipt. Founder subsequently explicitly confirmed clearly captioned illustration; original decision timing preserved. Verified new brass-fish publication instruction in owner chat and reserved next slot after this receipt merge; Mahendragiri deferred until explicit return. No website changes or programme credit. | — |
 | POD-EVT-2026112208 | 2026-11-22T03:31:04.102735+00:00 | Founder explicitly authorized publication. Verified Mandasaru receipt821 merge and explicit handoff before claiming single article; foreign Kala Bhoomi task preserved. | — |
 | POD-EVT-2026112209 | 2026-11-22T04:10:52.625335+00:00 | Separate source, integrated/layout and actual local package review passed. PR822 exact head d717c9be passed required CI44981917059 with999928292byte Linux package and merged3829f86f. Authorized deployment44983816493 dispatched; live delivery not yet claimed. Scope retained through receipt integration; zero programme credit. | — |
 | POD-EVT-2026112210 | 2026-11-22T04:36:21.596247+00:00 | Deployment44983816493 succeeded from reviewed merge3829f86f. Three live routes, article integrity, credited original and all three responsive images pass; desktop/mobile/narrow layouts and native photo-credit return verified. Separate delivery review and evidence-only receipt integration remain pending. Scope held; zero programme credit. | — |
@@ -1444,6 +1445,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261122108 | 2026-11-22T05:39:08.819486+00:00 | Separate Anvesha source and Drishti integrated review passed. Licensed landscape photograph attached to article/preview/sharing; root desktop/mobile/narrow and source-note navigation checked.822full and598coast tests passed. Final publication-package and live release gates pending;foreign work preserved;zero programme credit. | — |
 | POD-EVT-20261122109 | 2026-11-22T06:53:58.690529+00:00 | PR824 exact-head CI44991387735 and deployment44993334496 succeeded. Five live routes, original photograph, three hero variants, native notes and desktop/mobile previews checked. Live JPEG encoding difference inspected and explicitly recorded, not claimed pixel-identical. Receipt review/integration pending; next article remains queued; foreign task preserved;zero programme credit. | — |
 | POD-EVT-20261122110 | 2026-11-22T06:58:00.521279+00:00 | Drishti independently verified exact-head CI/deployment, five live routes, both article fragments and all24 unique responsive files across the checked articles, original photograph, six screenshots and credits. Live JPEG exception independently measured and visually accepted with limits. Evidence-only receipt ready; scope releases only upon merge; Taptapani remains queued. Foreign task preserved;zero programme credit. | — |
+| POD-EVT-2026112212 | 2026-11-22T07:44:12.813447+00:00 | Following merged Mahendragiri receipt825 and explicit handoff, reserve preparation-only Binchana scope. Foreign Kala Bhoomi task preserved; zero programme credit. | — |
+| POD-EVT-2026112213 | 2026-11-22T07:53:59.898977+00:00 | Independent source research, drafted fan article, original credited photograph and separate review complete. Local preparation only; no website deployment or programme credit. Coordinated slot released after evidence commit; foreign task preserved. | — |
 
 ## Deferred extensions
 
