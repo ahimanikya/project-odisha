@@ -10299,6 +10299,24 @@
       "evidence": [
         "records/putsil-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112296",
+      "title": "Research, review and publish Mandasaru",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112291",
+      "next_action": "Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112291"
+      ],
+      "evidence": [
+        "records/mandasaru-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -24814,6 +24832,27 @@
         "Separate AI review, not human specialist approval or on-site verification.",
         "Screenshots do not certify physical-device, screen-reader or cross-engine behavior.",
         "Brass-fish exclusion is a scoped marker and original-byte check, not perceptual detection of every transformed photograph."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112296",
+      "title": "Mandasaru separate source and integrated review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112296"
+      ],
+      "evidence": [
+        "records/mandasaru-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root keyboard and viewport measurements attributed to root; six screenshots independently inspected.",
+        "Final publication package, exact-head required CI, deployment and reviewed live receipt remain release gates."
       ]
     }
   ],

@@ -1554,3 +1554,5 @@ Added a new Bellaguntha craft narrative, independent source review and image pro
 Daringbadi extension, 22 November 2026: mapped `places/daringbadi-article` with primary tourism, forest working-plan and district sources; inventory now1840. Prior brass-fish preparation and its boundaries are preserved. This is a scoped addition, not an exhaustive semantic deduplication claim.
 
 Putsil extension, 22 November 2026: mapped `places/putsil-article` after scoped Putsil/Putisil reuse checks. Administrative village identity and valley tourism guidance remain distinct from historical Kuvi testimony and Deomali ecology. One licensed photograph attached; inventory now1841. No exhaustive semantic deduplication claim.
+
+Mandasaru extension, 22 November 2026: mapped `places/mandasaru-article` after scoped map/corpus checks and inspection of RES-010/RES-023 reuse pointers. Daringbadi context was not transferred as local access evidence. The original 2019 declaration and attributed forest/community accounts support the article; illustration is interpretive. Inventory now1842; no exhaustive semantic deduplication claim.
