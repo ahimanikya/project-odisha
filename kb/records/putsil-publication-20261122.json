@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_release_gates_pending",
+  "status": "published_verified",
   "article_id": "POD-EDIT-PUTSIL-20261122",
   "route": "/destinations/putsil/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
   "work_id": "POD-WORK-2026112295",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "8e8a4c8a1e0467bf872b464224005a7e8e120dcc",
   "preceding_release": {
     "article": "Daringbadi",
@@ -43,7 +43,9 @@
       "projects/site/tests-coast/discovery-flow.test.mjs"
     ],
     "Drishti": [
-      "outputs/putsil-publication-2026-11-22/review/drishti-review.md"
+      "outputs/putsil-publication-2026-11-22/review/drishti-review.md",
+      "outputs/putsil-publication-2026-11-22/review/drishti-release-check.md",
+      "outputs/putsil-publication-2026-11-22/review/delivery-review.json"
     ],
     "Disha": [
       "kb/records/putsil-publication-20261122.json",
@@ -69,7 +71,7 @@
     "missing_question": "What place and landscape does Putsil name, which primary sources distinguish it from Deomali, and what visitor access/season information and rights-cleared photograph can be verified?"
   },
   "image_requirement": "Relevant high-quality rights-cleared photograph in article, preview and sharing metadata; further images if useful.",
-  "next_action": "Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article.",
+  "next_action": "Merge the independently reviewed delivery receipt, then continue with Mandasaru as the next single hill destination.",
   "remote_reconciliation": {
     "main": "8e8a4c8a1e0467bf872b464224005a7e8e120dcc",
     "open_prs": [
@@ -193,7 +195,61 @@
     "full_tests": 821,
     "coastal_build": "pass",
     "coastal_tests": 597,
-    "publication_build": "running",
+    "publication_build": "pass",
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 998048111,
+      "regular_files": 3581,
+      "directories": 812,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 87250,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+          "bytes": 190064100
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+          "bytes": 51351553
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+          "bytes": 38421623
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "archive/mirgan-kotpad-reading.pdf",
+          "bytes": 7410047
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "assets/bhubaneswar-week/conversations.jpg",
+          "bytes": 4296333
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
     "disclosures": {
       "full": {
         "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
@@ -204,8 +260,194 @@
         "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
         "pages": 1475,
         "violations": []
+      },
+      "publication": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-publish",
+        "pages": 1476,
+        "violations": []
       }
     },
-    "scope": "Actual local checks; no final-package, CI, publication or live claim yet."
+    "reviewed_head": "09223698d5d7ef001b5ad3842a89bd48c93e28e2",
+    "retention_and_exclusion": "local-checks.json",
+    "scope": "Actual macOS package; required Linux CI and deployment remain independent gates."
+  },
+  "completed_at": "2026-11-22T00:58:02.056216+00:00",
+  "pull_request": 818,
+  "reviewed_head": "09223698d5d7ef001b5ad3842a89bd48c93e28e2",
+  "merge_sha": "ba22da7550bcb8b68d1ca9587f88c29c43d0822c",
+  "ci": {
+    "run": 44964884798,
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 597,
+    "payload_bytes": 998817872,
+    "disclosure_pages": {
+      "full": 1490,
+      "coast": 1475,
+      "publication": 1476
+    },
+    "disclosure_violations": 0
+  },
+  "deployment": {
+    "run": 44966663495,
+    "conclusion": "success",
+    "source_sha": "ba22da7550bcb8b68d1ca9587f88c29c43d0822c",
+    "attempt": 1,
+    "payload_bytes": 998817872
+  },
+  "release_continuity_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_release_conditions",
+    "evidence": "outputs/putsil-publication-2026-11-22/review/drishti-release-check.md"
+  },
+  "live_verification": {
+    "/destinations/putsil/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "photograph_present": true,
+      "reference_and_return_targets": 10,
+      "all_targets_resolve": true,
+      "article_sha256": "f84eacfc2fb43ddc2302ea7211274679b60ac2f10c611a9f71f7f52870136689",
+      "local_article_sha256": "c6b3f07b440cc63cd6839f5af8319cfb90c09a03d94a69efb2d40aa7c3d1c290",
+      "normalized_article_matches_local": true,
+      "normalization": "Only content-addressed responsive WebP filenames; each live variant fetched and SHA256 prefix verified.",
+      "source_heading_count": 1,
+      "matching_share_image": true,
+      "hero_variants": [
+        {
+          "path": "/images/responsive/c066e39458278ba8-480.webp",
+          "width_descriptor": "480w",
+          "bytes": 21374,
+          "sha256": "c066e39458278ba8d4c7384240cada4880b70fa46378dec7ce27341a5a5af56c",
+          "dimensions": [
+            480,
+            270
+          ]
+        },
+        {
+          "path": "/images/responsive/72a846bddac145d6-960.webp",
+          "width_descriptor": "960w",
+          "bytes": 85690,
+          "sha256": "72a846bddac145d647abc2aaa694ed294b9cfec9c67fe5cba2ab3ceaf4bf0b64",
+          "dimensions": [
+            960,
+            540
+          ]
+        },
+        {
+          "path": "/images/responsive/f5ba3f7305d26a44-1440.webp",
+          "width_descriptor": "1440w",
+          "bytes": 177572,
+          "sha256": "f5ba3f7305d26a44837d83d8fd38b57b1337c98a718d8afeea5fb51602f4d48c",
+          "dimensions": [
+            1440,
+            810
+          ]
+        }
+      ],
+      "variant_scope": "Three unique responsive files shared by the hero and Further reading collection card."
+    },
+    "/destinations/hills/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "putsil_link": true,
+      "photograph_present": true
+    },
+    "/destinations/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "putsil_link": true,
+      "photograph_present": true
+    },
+    "/explore/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "putsil_link": true,
+      "photograph_present": true
+    },
+    "valley_image": {
+      "path": "/images/destinations/putsil-valley.jpg",
+      "http_status": 200,
+      "bytes": 342803,
+      "sha256": "489e49204d2aa6dafbdfc5726b4fbc48d11e85fb5d6d3ad763d07475a8a30bd0",
+      "matches_reviewed_asset": true,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    "checked_at": "2026-11-22T00:56:31.929956+00:00"
+  },
+  "live_browser_review": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "surface": "Live site in in-app Chromium",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "horizontal_overflow": false,
+    "hero_loaded": true,
+    "full_frame_article_dimensions": [
+      695.203125,
+      391.046875
+    ],
+    "mobile_hero_dimensions": [
+      351.609375,
+      197.7734375
+    ],
+    "preview_loaded": true,
+    "preview_dimensions": [
+      356,
+      237.328125
+    ],
+    "first_footnote_and_return_keyboard": "pass; note top0.1484375px, return top0.03125px; user-content-fnref-highlands focused",
+    "reciprocal_paths": [
+      "Putsil to hills collection and back"
+    ],
+    "screenshots": [
+      "review/live-desktop.jpg",
+      "review/live-mobile.jpg",
+      "review/live-footnotes.jpg",
+      "review/live-preview.jpg"
+    ],
+    "limits": "Viewport simulation, not physical-device, screen-reader or cross-engine certification. Root performed interactions and measurements; separate screenshot review remains pending."
+  },
+  "verified_routes": [
+    "/destinations/putsil/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "gate_resolution": "Publication PR818 exact-head required checks, deployment and live checks passed. Independent receipt review and integration remain the final scope-release condition.",
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records, live checks and screenshots. Website source remains merge ba22da7550bcb8b68d1ca9587f88c29c43d0822c.",
+    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/putsil-publication-2026-11-22/review/delivery-review.json",
+    "checks": [
+      "Exact-head CI and deployment independently verified with998817872byte payload.",
+      "Four fresh live routes, original image hash and dimensions, all nine article responsive files, ten native anchor targets and matching article verified.",
+      "Four live screenshots separately inspected, including actual source-note list and illustrated preview.",
+      "Foreign records and ten brass-fish draft files preserved; zero programme credit; no website changes in receipt."
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist approval or on-site verification.",
+      "Screenshots do not certify physical-device, screen-reader or cross-engine behavior.",
+      "Brass-fish exclusion is a scoped marker and original-byte check, not perceptual detection of every transformed photograph."
+    ]
   }
 }

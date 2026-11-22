@@ -58,9 +58,10 @@
     "id": "POD-EDIT-PUTSIL-20261122",
     "route": "/destinations/putsil/",
     "owner": "Disha",
-    "phase": "reviewed",
+    "phase": "receipt_integrated",
     "handoff": "records/putsil-publication-20261122.json",
-    "scope_released": false
+    "scope_released": true,
+    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -659,9 +660,9 @@
     }
   ],
   "next_article_coordination": {
-    "status": "putsil_active",
+    "status": "putsil_receipt_pending_merge",
     "completed_preparation": "records/brass-fish-article-preparation-20261122.json",
     "owner_chat": "Odisha hill destinations",
-    "scope": "Daringbadi receipt817 merged; Putsil is now the sole active article. Brass-fish preparation remains unpublished."
+    "scope": "Putsil published and live verified; Mandasaru remains queued until receipt merge. Brass-fish preparation remains unpublished."
   }
 }

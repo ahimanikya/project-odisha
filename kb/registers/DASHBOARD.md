@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b5e58605efe21462e73788a9b150eb599f64920c00f3a27abe617bebd9fcd277`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e7ec62b4d2988141d7ccd3921f37931dfe2c86a8eb8a06e012a0479629910b60`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -395,7 +395,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112291 · Research, review and publish Deomali | completed | published | Ahimanikya Satapathy | Deomali, its credited photograph and destination preview cards published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112203 · Prepare Bellaguntha brass fish article | completed | reviewed | Ahimanikya Satapathy | Reviewed draft, photograph and publication brief delivered locally; no website integration or publication. Coordinated preparation scope released. | — |
 | POD-WORK-2026112294 · Research, review and publish Daringbadi | completed | published | Ahimanikya Satapathy | Daringbadi and both credited photographs are published and live verified; delivery receipt saved for independent review and integration. | — |
-| POD-WORK-2026112295 · Research, review and publish Putsil | in_progress | reviewed | Ahimanikya Satapathy | Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article. | — |
+| POD-WORK-2026112295 · Research, review and publish Putsil | completed | published | Ahimanikya Satapathy | Putsil and its credited article/preview photograph are published and live verified; delivery receipt saved for separate review and integration. | — |
 
 ## Pending human review and decisions
 
@@ -1121,7 +1121,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112291 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions and overflow measurements attributed to root; screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; No fieldwork claimed; current entry arrangements and numerical elevation limits retained. |
 | POD-REV-2026112203 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Selected source pages inspected, not full-volume visual review, fieldwork, interviews or video inspection.; No rendered website layout or publication claimed.; Photograph licensed for noncommercial use under CC BY-NC-SA4.0; no commercial permission asserted. |
 | POD-REV-2026112294 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions and overflow measurements attributed to root; five live screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; Original image hash exclusion is not a perceptual search for every possible transformed photograph. |
-| POD-REV-2026112295 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root keyboard and viewport measurements attributed to root; five screenshots independently inspected.; Final publication package, exact-head required CI, deployment and reviewed live receipt remain release gates. |
+| POD-REV-2026112295 | pass_with_limitations | True | Separate AI review, not human specialist approval or on-site verification.; Screenshots do not certify physical-device, screen-reader or cross-engine behavior.; Brass-fish exclusion is a scoped marker and original-byte check, not perceptual detection of every transformed photograph. |
 
 ## Publication and application history
 
@@ -1385,6 +1385,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112202 · Kagaja Mukha and the Paper Masks of Raghurajpur | published | https://projectodisha.org/stories/kagaja-mukha-and-the-making-of-a-mask/ | POD-DEC-2026112202 |
 | POD-REL-2026112291 · Deomali: Grasslands Above Koraput | published | https://projectodisha.org/destinations/deomali/ | POD-DEC-2026112291 |
 | POD-REL-2026112294 · Daringbadi: Coffee, Shade and Hill Views | published | https://projectodisha.org/destinations/daringbadi/ | POD-DEC-2026112291 |
+| POD-REL-2026112295 · Putsil: A Valley in Koraput’s Hills | published | https://projectodisha.org/destinations/putsil/ | POD-DEC-2026112291 |
 
 ## Sources and assets
 
@@ -1422,8 +1423,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112293 | 2026-11-21T21:14:14.419993+00:00 | Separate Drishti delivery review passed actual publication, six live routes, article/image integrity and screenshots; foreign history preserved. Evidence-only receipt releases scope only after required checks and merge. Zero programme credit. | — |
-| POD-EVT-2026112206 | 2026-11-21T21:49:14.973818+00:00 | After verified Deomali receipt815 merge and explicit coordinated handoff, reserve single independent draft preparation. Foreign Kala Bhoomi task preserved; no publication or programme credit. | — |
 | POD-EVT-2026112207 | 2026-11-21T21:56:14.567357+00:00 | Independent source research and separate originality/editorial/photo review passed. Draft, credited original photo and preview/publication brief delivered locally. No website change, deployment or autonomous-programme credit; own preparation scope released and foreign task preserved. | — |
 | POD-EVT-2026112294 | 2026-11-21T21:59:20.592901+00:00 | Resume authorized hill series after Deomali receipt815 and explicit completed brass-fish draft handoff. Preserve companion draft and foreign task; Daringbadi sole active article with mandatory article/preview imagery. Zero programme credit. | — |
 | POD-EVT-2026112295 | 2026-11-21T22:14:14.796817+00:00 | Separate source and integrated quality review passed with explicit limits. Two licensed credited photographs attached; article/preview/sharing and native notes checked. Full821 and coast597tests pass. Work remains in progress pending exact-head CI, deployment, live verification and reviewed receipt. Brass-fish draft preserved and excluded from intended public scope;zero programme credit. | — |
@@ -1432,6 +1431,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112298 | 2026-11-21T23:22:17.645253+00:00 | Separate Drishti live-delivery and receipt review passed with no fixes. Exact-head CI, deployment, four fresh routes, photo bytes, source-note navigation, article continuity and five screenshots verified. Foreign records and completed brass-fish draft preserved. Receipt-only integration needs no deployment; single-article scope releases after its merge. | — |
 | POD-EVT-2026112299 | 2026-11-21T23:50:28.176064+00:00 | Verified receipt817 exact head e72f0d45 passed required44961576713 and merged at8e8a4c8a. Single article scope now Putsil after reuse search. Completed brass-fish draft and foreign task preserved. Zero programme credit. | — |
 | POD-EVT-20261122100 | 2026-11-22T00:04:09.941338+00:00 | Separate Anvesha source and Drishti integrated review passed. Original licensed photograph attached to article/preview/sharing. Root desktop/mobile/narrow and source-note navigation passed;821full and597coast tests passed. Final-package/CI/deployment/live receipt remain pending. Foreign draft and task preserved;zero programme credit. | — |
+| POD-EVT-20261122101 | 2026-11-22T00:58:02.056216+00:00 | Putsil PR818 merged after exact-head required checks; deployment 44966663495 succeeded. Article, three incoming routes, original photograph hash, responsive variants and live desktop/mobile presentation verified. Separate delivery review and evidence-only receipt merge remain required; zero programme credit. | — |
+| POD-EVT-20261122102 | 2026-11-22T01:00:39.354337+00:00 | Separate Drishti review verified remote publication checks, four fresh live routes, exact original image, nine responsive files and all four live screenshots. Evidence-only receipt ready for required checks and merge; Mandasaru remains queued until integration. | — |
 
 ## Deferred extensions
 
