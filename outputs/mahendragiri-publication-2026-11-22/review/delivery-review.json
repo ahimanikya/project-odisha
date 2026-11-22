@@ -1,0 +1,148 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "human_review_claimed": false,
+  "checked_at": "2026-11-22T06:57:10.014463+00:00",
+  "result": "pass",
+  "blocking_findings": [],
+  "scope": "Independent live delivery and evidence-only receipt review; reviewed receipt integration may proceed. Article slot remains occupied until receipt merges.",
+  "publication": {
+    "pull_request": 824,
+    "reviewed_head": "b005dfb2b79c0ccea202f396ccdd52cb63c2c6aa",
+    "merge_sha": "14ba683b58e8026e661f77ad4973054d02285b99",
+    "ci_run": 44991387735,
+    "ci_status": "completed/success, attempt 1, exact reviewed head independently queried via GitHub API",
+    "deployment_run": 44993334496,
+    "deployment_status": "completed/success, attempt 1, exact merge independently queried via GitHub API",
+    "linux_payload_bytes": 997913048,
+    "payload_limit_exclusive": 1000000000,
+    "full_tests": 822,
+    "coast_tests": 598,
+    "test_and_payload_evidence": "Successful GitHub logs independently read; no local rebuild or test rerun."
+  },
+  "fresh_http": {
+    "verified_routes": [
+      "/destinations/mahendragiri/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/",
+      "/stories/bhubaneswar-week/"
+    ],
+    "all_http_200": true,
+    "three_incoming_routes_have_article_and_photo": true,
+    "mahendragiri_article_sha256": "4975b460a046480f613b10364bdfa030b63dd0e3a893444a3644810b745e2ddf",
+    "local_article_sha256": "fcade62b82cb1cd1db9a888bf4374915898faae914fd5082374b2ede67dd5332",
+    "bhubaneswar_article_sha256": "a4b0111e4c2c2c206a4a95dee94303eafcb6c6ef05f93f15d3fa8ed0ac8f443f",
+    "both_article_fragments_match_local_after_only_responsive_filename_normalization": true,
+    "mahendragiri_reference_and_return_links": 16,
+    "all_targets_resolve": true,
+    "matching_og_and_twitter_photo": true,
+    "original_photo": {
+      "bytes": 149320,
+      "dimensions": [
+        1080,
+        771
+      ],
+      "sha256": "296694e83748a546771ba76abc5066a149413c331d9ed2079fe817caa155144f"
+    },
+    "responsive_verification": "Every unique responsive WebP inside both normalized article fragments independently fetched; HTTP200, actual dimensions read and SHA256 filename prefix checked. Nine Mahendragiri article variants (three hero, three Deomali, three Mandasaru); fifteen Bhubaneswar article variants. No unfetched variant normalized.",
+    "mahendragiri_variant_prefixes": [
+      "28c48896e93a7787",
+      "3c4ac744aee98db5",
+      "30bc213e140dc227",
+      "dde29f2668346ca5",
+      "6888ea4719a2a3b9",
+      "b20f6e2041df4551",
+      "9ca41c8d55fd8741",
+      "1e36c4c89d345737",
+      "6835ff0dd2fdaee4"
+    ],
+    "hero_dimensions": [
+      [
+        480,
+        343
+      ],
+      [
+        960,
+        685
+      ],
+      [
+        1080,
+        771
+      ]
+    ],
+    "bhubaneswar_variant_prefixes": [
+      "0c8b5e24bf455db0",
+      "8b7cb3f8898ece48",
+      "8e50a685a2b42f4f",
+      "9be5cb4f1c451dba",
+      "190314be2be666c1",
+      "a5cc0ba6b8b55d21",
+      "45fd879208adffe8",
+      "fe9bb07e417d77d7",
+      "8c1f6da3e1fffd92",
+      "0494dd9fb0ac09b7",
+      "de84f8af72644d40",
+      "abd44afad0ba7527",
+      "f0c4c68f9163a038",
+      "f47ed4da2e7f4407",
+      "8b030c3b48acd32f"
+    ]
+  },
+  "jpeg_exception": {
+    "independently_fetched": true,
+    "live_sha256": "76dbf620ed1699b70dc381f741175eb873f3a3bb7d44ca009dd130b236e65e2e",
+    "live_bytes": 1682420,
+    "dimensions": [
+      1728,
+      3072
+    ],
+    "encoded_delta_bytes": 16,
+    "independently_reproduced_different_pixels": 133,
+    "different_channels": 378,
+    "max_absolute_channel_delta": 2,
+    "local_and_live_icc_iptc_xmp_exif_blocks_equal": true,
+    "source_and_coastal_original_sha256": "4f7a569ad73f87f31291c606008133e64521cf19fe21d65fa8a96c7dcbe32780",
+    "visual_comparisons_inspected": [
+      "live/conversations-live-local-display.png",
+      "live/conversations-live-local-detail.png"
+    ],
+    "finding": "No discernible quality regression in full display-size or native-scale face/detail comparison. Tiny measured decoded difference accepted with explicit evidence; neither byte-identical nor pixel-identical. Exact encoder/platform cause not independently reproduced.",
+    "exif_limit": "Derivative EXIF matches between local/live; source EXIF differs. Source/coastal bytes unchanged."
+  },
+  "visual_review": {
+    "screenshots_independently_inspected": [
+      "review/live-desktop.jpg",
+      "review/live-mobile.jpg",
+      "review/live-footnotes.jpg",
+      "review/live-preview.jpg",
+      "review/live-explore-preview.jpg",
+      "review/live-optimized-photo.jpg"
+    ],
+    "finding": "Readable article and full mobile hero/credit; full Mahendragiri hub and Explore preview images; readable native notes and full conversations photo/caption. No visible layout blocker.",
+    "interaction_attribution": "Keyboard note/return, focus, reciprocal navigation and overflow measurements are Disha root browser evidence, not independent Drishti interactions.",
+    "limits": [
+      "In-app Chromium viewport simulation, not physical-device, cross-engine or screen-reader certification.",
+      "Desktop opening caption is below screenshot; mobile shows it. Footnote screenshot shows notes1–5 and start of6, not all7; structure checked separately.",
+      "Conversations browser screenshot uses unchanged responsive WebP; actual JPEG conclusion uses fresh bytes, independent decoding and actual JPEG comparison images."
+    ]
+  },
+  "receipt_integrity": {
+    "base": "14ba683b58e8026e661f77ad4973054d02285b99",
+    "website_and_research_source_diff_empty": true,
+    "manuscript_sha256": "5d16ae57ffcb73a0015a167771adfeb6d0d15e01f32c2bff68e57cbfadac8d6c",
+    "foreign_current_task_and_handoff_home_preserved": true,
+    "activity_base_prefix_byte_exact": true,
+    "foreign_brass_fish_work_unchanged": true,
+    "programme_credit": 0,
+    "current_article_scope_released": false,
+    "evidence_only": true,
+    "deployment_required": false,
+    "record_accuracy": "Canonical release, live checks and exception agree with independently observed evidence. Prior review limits retained. No premature next-article start observed."
+  },
+  "remaining": [
+    "Coordinator may integrate this actual review, regenerate records, commit and complete required receipt checks.",
+    "Receipt merge is required before releasing Mahendragiri slot or beginning next article."
+  ],
+  "work_performed": "Read-only Git/source/remote/live/image review; only this reserved review report written. No source/shared record/Git edits or builds."
+}
