@@ -19,6 +19,7 @@ const destinationImages={
  '/sounds-of-odisha/mardala/':'/assets/home-art/odissi-rehearsal-v1.webp'
 };
 const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&'),image:destinationImages[href],description:href==='/sounds-of-odisha/mardala/'?'Illustration from the Mardala article.':undefined}));
+readingLinks.push({href:'/stories/bellaguntha-brass-fish/',title:'Bellaguntha’s Brass Fish',image:'/images/stories/bellaguntha-brass-fish.jpg'});
 const [body,afterReading]=article.html.split(further[0]);
 article.html=body;
 ---

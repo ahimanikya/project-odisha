@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `55573464ba72aea482d0ab5347f9186cca7765c394e2c1cd6189d37d69040c90`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e891725ca7dc4dedf2c63b4b56d8320cc0cfb76aff8062cda4aecef519f3471a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -397,6 +397,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112294 · Research, review and publish Daringbadi | completed | published | Ahimanikya Satapathy | Daringbadi and both credited photographs are published and live verified; delivery receipt saved for independent review and integration. | — |
 | POD-WORK-2026112295 · Research, review and publish Putsil | completed | published | Ahimanikya Satapathy | Putsil and its credited article/preview photograph are published and live verified; delivery receipt saved for separate review and integration. | — |
 | POD-WORK-2026112296 · Research, review and publish Mandasaru | completed | published | Ahimanikya Satapathy | Mandasaru and its clearly captioned article/preview illustration are published and live verified; delivery receipt saved for separate review and integration. | — |
+| POD-WORK-2026112204 · Publish Bellaguntha’s Brass Fish | in_progress | draft | Ahimanikya Satapathy | Integrate, review and verify publication; retain scope through merged receipt. | — |
 
 ## Pending human review and decisions
 
@@ -728,6 +729,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112202 · Publish reviewed Kagaja Mukha article with related reading links | recorded_direction | Ahimanikya Satapathy | Integrate reviewed article, check desktop/mobile, publish with relevant incoming links. |
 | POD-DEC-2026112291 · Publish the destination series sequentially, beginning with Deomali | recorded_direction | Ahimanikya Satapathy | Research, separate review and publication one hill destination at a time, then broader destination series. Images in article and preview required. |
 | POD-DEC-2026112203 · Prepare next independent article after Deomali | recorded_direction | Ahimanikya Satapathy | Independent research and reviewed article draft with article/preview image; no website publication. |
+| POD-DEC-2026112204 · Publish reviewed Bellaguntha brass fish article | recorded_direction | Ahimanikya Satapathy | Integrate, review desktop/mobile, publish with credited image and incoming links; necessary lossless delivery compression. |
 
 ## Reviews
 
@@ -1426,7 +1428,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112297 | 2026-11-21T23:18:41.098311+00:00 | Deployment44958538048 succeeded from reviewed merge09c75120 with998163589bytes. Four live routes, both original photo hashes,three unique responsive variants,12native reference/return targets,article text and photographed previews verified. Desktop/mobile browser review includes coffee image and source-note list. Receipt is evidence-only;next article waits for independent receipt review and merge. Zero programme credit. | — |
 | POD-EVT-2026112298 | 2026-11-21T23:22:17.645253+00:00 | Separate Drishti live-delivery and receipt review passed with no fixes. Exact-head CI, deployment, four fresh routes, photo bytes, source-note navigation, article continuity and five screenshots verified. Foreign records and completed brass-fish draft preserved. Receipt-only integration needs no deployment; single-article scope releases after its merge. | — |
 | POD-EVT-2026112299 | 2026-11-21T23:50:28.176064+00:00 | Verified receipt817 exact head e72f0d45 passed required44961576713 and merged at8e8a4c8a. Single article scope now Putsil after reuse search. Completed brass-fish draft and foreign task preserved. Zero programme credit. | — |
 | POD-EVT-20261122100 | 2026-11-22T00:04:09.941338+00:00 | Separate Anvesha source and Drishti integrated review passed. Original licensed photograph attached to article/preview/sharing. Root desktop/mobile/narrow and source-note navigation passed;821full and597coast tests passed. Final-package/CI/deployment/live receipt remain pending. Foreign draft and task preserved;zero programme credit. | — |
@@ -1436,6 +1437,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261122104 | 2026-11-22T01:50:56.013884+00:00 | Separate Anvesha source and Drishti integrated review passed. Original interpretive illustration attached to article/preview/sharing. Root desktop/mobile/narrow and source-note navigation passed;821full and598coast tests passed. Final-package/CI/deployment/live receipt remain pending. Foreign draft and task preserved;zero programme credit. | — |
 | POD-EVT-20261122105 | 2026-11-22T02:53:55.784023+00:00 | Mandasaru PR820 merged after exact-head required checks; deployment 44975805693 succeeded. Article, three incoming routes, original illustration hash, responsive variants and live desktop/mobile presentation verified. Separate delivery review and evidence-only receipt merge remain required; zero programme credit. | — |
 | POD-EVT-20261122106 | 2026-11-22T02:59:02.651606+00:00 | Separate Drishti review passed actual CI/deployment/live receipt. Founder subsequently explicitly confirmed clearly captioned illustration; original decision timing preserved. Verified new brass-fish publication instruction in owner chat and reserved next slot after this receipt merge; Mahendragiri deferred until explicit return. No website changes or programme credit. | — |
+| POD-EVT-2026112208 | 2026-11-22T03:31:04.102735+00:00 | Founder explicitly authorized publication. Verified Mandasaru receipt821 merge and explicit handoff before claiming single article; foreign Kala Bhoomi task preserved. | — |
 
 ## Deferred extensions
 
