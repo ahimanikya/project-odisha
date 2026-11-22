@@ -1,8 +1,8 @@
 {
   "article_id": "POD-EDIT-BINCHANA-20261122",
   "owner": "Disha",
-  "status": "candidate_awaiting_package_and_ci",
-  "scope_released": false,
+  "status": "published_verified",
+  "scope_released": true,
   "started_on": "2026-11-22",
   "authorization": "POD-DEC-2026112206",
   "work_id": "POD-WORK-2026112206",
@@ -20,7 +20,8 @@
     "explicit_handoff_received": true,
     "next_hill": "Jirang–Chandragiri; release back only after own receipt merges",
     "preserved_foreign_task": "POD-EDIT-133",
-    "return_to_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68"
+    "return_to_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "return_status": "conditional_after_receipt_merge"
   },
   "reserved_files": {
     "Anvesha": [
@@ -73,9 +74,14 @@
       "remaining_before_new_HTML": 96578,
       "scope": "Local estimate only; actual full Linux package acceptance required.",
       "independently_reproduced_by": "Drishti"
-    }
+    },
+    "actual_local_macos_bytes": 999150713,
+    "local_limit": "Local macOS package only; actual Linux capacity was separately verified in required CI.",
+    "actual_linux_ci_bytes": 999926062,
+    "remaining_linux_ci_bytes": 73938,
+    "actual_deployment_bytes": 999926062
   },
-  "next_action": "Open draft publication review for exact candidate; local package, required Linux checks and separate final review must pass before merge/deployment. Slot retained.",
+  "next_action": "Pass required receipt checks and merge the separately reviewed evidence-only receipt, then explicitly return the shared article slot for Jirang–Chandragiri.",
   "source_continuity": {
     "reviewer": "Anvesha",
     "kind": "separate_ai_agent",
@@ -216,6 +222,11 @@
       "result": "798/822 passed;24 failed while Dhaga export incomplete",
       "reason": "Coordinator started dependent tests before build process finished. Not a candidate code defect; preserve failure evidence and rerun after completion.",
       "evidence": "outputs/binchana-publication-20261122/full-tests-premature-export-failure.log"
+    },
+    {
+      "attempt": "initial candidate upload",
+      "result": "Git transport failed with HTTP 400; PR creation correctly found no remote head.",
+      "correction": "Retried the unchanged candidate with a command-scoped 10 MiB postBuffer; push succeeded and draft PR828 verified the exact head. No persistent setting or authentication change."
     }
   ],
   "local_validation": {
@@ -240,14 +251,153 @@
       "pages": 1480,
       "violations": []
     },
-    "publication_package": "running; no acceptance claimed",
-    "record_checks": "PASS; programme credit zero"
+    "publication_package": "PASS",
+    "record_checks": "PASS; programme credit is zero.",
+    "candidate": "f1050504b56a0f8ca2f184afc0b285c798c74a95",
+    "review_pr": 828,
+    "required_run": 45013805036,
+    "publication_payload": {
+      "status": "PASS",
+      "regular_file_bytes": 999150713,
+      "regular_files": 3606,
+      "directories": 817,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 87250,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+          "bytes": 190064100
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+          "bytes": 51351553
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+          "bytes": 38421623
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "archive/mirgan-kotpad-reading.pdf",
+          "bytes": 7410047
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+          "bytes": 3891461
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "publication_disclosure": {
+      "root": "/Users/ahimanikya/.codex/worktrees/bhagabata-publication/dongria-release-20261105/projects/site/dist-publish",
+      "pages": 1481,
+      "violations": []
+    },
+    "delivery_evidence": "outputs/binchana-publication-20261122/local-delivery.json"
   },
   "integrated_review": {
     "reviewer": "Drishti",
     "kind": "separate_ai_agent",
-    "status": "source_rendered_screenshots_pass_package_pending",
+    "status": "pass",
     "evidence": "outputs/binchana-publication-20261122/review/source-rendered-screenshots.json",
-    "limits": "Local package, required Linux CI and exact-head final acceptance pending. Root operated browser; reviewer inspected screenshots and files."
+    "limits": "Separate AI pre-merge review. Root performed browser interactions in simulated viewports; separate live delivery review is recorded below.",
+    "head": "f1050504b56a0f8ca2f184afc0b285c798c74a95",
+    "package_evidence": "outputs/binchana-publication-20261122/review/local-package.json",
+    "linux_addendum": "outputs/binchana-publication-20261122/review/linux-ci-addendum.json"
+  },
+  "publication": {
+    "pr": 828,
+    "reviewed_head": "f1050504b56a0f8ca2f184afc0b285c798c74a95",
+    "required_run": 45013805036,
+    "required_result": "SUCCESS",
+    "required_attempt": 1,
+    "merge": "e42bd7aa508cfa84864028f0ac7b494b8b16a748",
+    "merged_at": "2026-11-22T11:07:49Z",
+    "deployment_run": 45015826241,
+    "deployment_status": "SUCCESS",
+    "deployment_payload_bytes": 999926062
+  },
+  "pull_request": 828,
+  "merge_commit": "e42bd7aa508cfa84864028f0ac7b494b8b16a748",
+  "deployment": {
+    "run_id": 45015826241,
+    "conclusion": "success",
+    "head_sha": "e42bd7aa508cfa84864028f0ac7b494b8b16a748",
+    "regular_file_bytes": 999926062
+  },
+  "verified_routes": [
+    "/stories/binchana-and-the-handmade-breeze/",
+    "/crafts/pipili-applique/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/",
+    "/books/odisha-culture-memory-and-living-traditions/modern-art-photography-and-public-heritage/"
+  ],
+  "live_verification": {
+    "status": "PASS_WITH_DOCUMENTED_IMAGE_DIFFERENCES",
+    "http": "outputs/binchana-publication-20261122/live-http.json",
+    "image_comparison": "outputs/binchana-publication-20261122/live-image-comparison.json",
+    "limits": "All four article fragments match after only the two named responsive-image URL substitutions. Fan source WebP and960variant are byte-exact; fan480 and existing Pipili1440 are not byte/pixel-exact. Independent decoded-RGB and visual review accepted both, with no cause asserted. Root browser interactions and viewport simulation limits retained.",
+    "browser": "outputs/binchana-publication-20261122/live-browser.json",
+    "screenshots": [
+      "live/desktop-full.jpg",
+      "live/desktop.jpg",
+      "live/full-photo.jpg",
+      "live/material-chapter-preview.jpg",
+      "live/mobile-credit.jpg",
+      "live/mobile-full.jpg",
+      "live/mobile-photo-return.jpg",
+      "live/mobile.jpg",
+      "live/modern-chapter-preview.jpg",
+      "live/pipili-preview.jpg",
+      "live/reading-links.jpg"
+    ]
+  },
+  "scope_release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Until then Disha retains the shared article slot; explicit handoff returns it for Jirang–Chandragiri.",
+  "completed_on": "2026-11-22",
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "PASS",
+    "evidence": "outputs/binchana-publication-20261122/review/delivery-review.json",
+    "sha256": "66b871251922796846fe146c4f739bc94fc610c9c5365978c895c6c1bd76c782",
+    "limits": [
+      "Root performed browser interactions and viewport measurements; reviewer inspected files, screenshots and fresh HTTP responses.",
+      "No physical-device, cross-engine, screen-reader or human specialist certification.",
+      "Final receipt reconciliation remains a separate gate."
+    ]
+  },
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records, verification helper, logs and screenshots; published website source remains e42bd7aa508cfa84864028f0ac7b494b8b16a748.",
+    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Until then Disha retains the shared article slot; explicit handoff returns it for Jirang–Chandragiri."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "PASS",
+    "scope": "Final evidence-only diff, canonical records and new evidence files. Actual merge/CI/deployment/routes and accepted image differences reconciled; published source, foreign task and zero programme credit preserved.",
+    "limits": "Scope release remains conditional on the reviewed receipt merging; no further deployment is required."
   }
 }

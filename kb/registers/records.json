@@ -10398,16 +10398,17 @@
       "id": "POD-WORK-2026112206",
       "title": "Publish Binchana and the Handmade Breeze",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112206",
-      "next_action": "Open draft publication review for exact candidate; local package, required Linux checks and separate final review must pass before merge/deployment. Slot retained.",
+      "next_action": "Pass required receipt checks and merge the separately reviewed evidence-only receipt, then explicitly return the shared article slot for Jirang–Chandragiri.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112206",
-        "POD-REV-2026112206"
+        "POD-REV-2026112206",
+        "POD-REL-2026112206"
       ],
       "evidence": [
         "records/binchana-publication-20261122.json"
@@ -25105,7 +25106,7 @@
     },
     {
       "id": "POD-REV-2026112206",
-      "title": "Binchana separate source, media and responsive review",
+      "title": "Binchana separate source, media, responsive, package and delivery review",
       "status": "pass_with_limitations",
       "reviewer": {
         "kind": "ai_assistant",
@@ -25113,14 +25114,16 @@
       },
       "independent": true,
       "refs": [
-        "POD-WORK-2026112206"
+        "POD-WORK-2026112206",
+        "POD-REL-2026112206"
       ],
       "evidence": [
         "records/binchana-publication-20261122.json"
       ],
       "limitations": [
-        "Source, rendered HTML and screenshot review passed; final local package, exact-head required CI and live delivery still pending.",
-        "Separate AI review, not human specialist approval; root browser interactions and simulated viewport limits retained."
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root performed browser interactions and simulated viewport checks; screenshots and fresh HTTP evidence independently reviewed.",
+        "Two responsive image variants are visually accepted but not byte/pixel-exact; decoded-RGB metrics recorded and cause unproved."
       ]
     }
   ],
@@ -29378,6 +29381,20 @@
       ],
       "evidence": [
         "records/taptapani-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112206",
+      "title": "Binchana and the Handmade Breeze",
+      "status": "published",
+      "authorization": "POD-DEC-2026112206",
+      "destination": "https://projectodisha.org/stories/binchana-and-the-handmade-breeze/",
+      "refs": [
+        "POD-WORK-2026112206",
+        "POD-DEC-2026112206"
+      ],
+      "evidence": [
+        "records/binchana-publication-20261122.json"
       ]
     }
   ],
