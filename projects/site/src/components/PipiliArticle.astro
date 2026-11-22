@@ -9,6 +9,7 @@ const paragraphs=entry.sections.flatMap(s=>s.paragraphs);
  <MagazineCover title={entry.title} odia={entry.odia} eyebrow={'A craft of Odisha · '+entry.area} deck={[]} photo={assets[entry.hero]} saveId={entry.save_id} startHref="#looking" startLabel="Follow the detail" footline="Look closely. Ask gently. Remember the maker."><Fragment slot="byline"><ArticleByline author={editorial.author}/></Fragment></MagazineCover>
  <article class="mag-content">
   <div class="pipili-chapters">{entry.sections.map(section=><section id={section.id} class="pipili-section">{section.title&&<h2>{section.title}</h2>}{section.photo&&<figure class="chapter-photo"><ResponsiveImage src={assets[section.photo].src} alt={assets[section.photo].alt} width={assets[section.photo].width} height={assets[section.photo].height} loading="lazy"/><figcaption>{assets[section.photo].caption}</figcaption></figure>}{section.paragraphs.map(p=><p id={'paragraph-'+p.id} data-source-ids={p.source_ids.join(' ')}>{p.text}{p.note_ids.map(id=><sup><a id={`ref-${p.id}-${id}`} href={`#note-${id}`} data-footnote-ref aria-label={`Footnote ${id}`}>{id}</a></sup>)}</p>)}</section>)}</div>
+  <section class="binchana-onward" aria-label="Continue reading"><h2>Continue reading</h2><p><a class="binchana-reading" href="/stories/binchana-and-the-handmade-breeze/"><ResponsiveImage src="/images/stories/binchana-from-odisha.webp" alt="" width={960} height={1163} sizes="176px" loading="lazy"/><span>Binchana and the Handmade Breeze →</span></a></p></section>
   <nav class="pipili-onward" aria-label="Continue the craft story"><a href="/crafts/">Made by hand in Odisha →</a>{links.map(link=><a href={link.href}>{link.title} →</a>)}<a href="/journey/">Open my journey →</a></nav>
   <section id="story-sources" class="article-footnotes" aria-labelledby="footnote-title"><h2 id="footnote-title">Footnotes &amp; Sources</h2><ol>{editorial.notes.map(note=><li id={`note-${note.id}`} tabindex="-1"><a href={note.url}>{note.text}</a>{note.license_url&&<> <a href={note.license_url}>Licence</a></>} <span>{paragraphs.filter(p=>p.note_ids.includes(note.id)).map((p,i)=><a href={`#ref-${p.id}-${note.id}`} data-footnote-backref aria-label={`Return to passage ${i+1} for footnote ${note.id}`}>↩{i>0?i+1:''}</a>)}</span></li>)}</ol></section>
  </article>
@@ -18,7 +19,9 @@ import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
 document.querySelectorAll('.pipili-editorial sup, .pipili-editorial .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
 </script>
 <style>
-.pipili-chapters,.pipili-onward,.article-footnotes{max-width:740px;margin-inline:auto}
+.binchana-onward{margin-block:2rem}.binchana-onward h2{font-size:clamp(1.5rem,1rem + 2vw,1.8rem)}
+.binchana-reading{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}.binchana-reading :global(img){width:11rem;max-width:100%;height:auto;object-fit:contain}
+.pipili-chapters,.pipili-onward,.article-footnotes,.binchana-onward{max-width:740px;margin-inline:auto}
 .pipili-section{margin:48px 0;scroll-margin-top:28px}.pipili-section p{font-size:18px;line-height:1.85;margin:0 0 1.25em}
 .chapter-photo{max-width:480px;margin:0 0 2rem}.chapter-photo :global(img){width:100%;height:auto;object-fit:contain}.chapter-photo figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}
 .pipili-onward{display:flex;flex-wrap:wrap;gap:1rem 2rem;padding-block:2rem;border-top:1px solid var(--line)}.pipili-onward a{min-height:44px;display:inline-flex;align-items:center}

@@ -4,9 +4,9 @@ description: "Palm leaf, bamboo and decorated cloth offer different ways into Od
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "everyday"]
 type: "Everyday objects and makers essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 With a hand fan, a breeze is something you make. In Odisha, the binchana takes different forms. Subhashish Panigrahi’s photograph shows one decorated cloth example, with flowers, reflective centres and a bright border.[^1]
@@ -33,7 +33,7 @@ Leaf, bamboo and stitched cloth give the hand fan different surfaces and forms. 
 
 ## Footnotes & Sources
 
-[^1]: Subhashish Panigrahi, [“Binchana from Odisha”](https://commons.wikimedia.org/wiki/File:Binchana_from_Odisha.jpg), photograph dated 15 July 2013, Wikimedia Commons. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Original image unchanged.
+[^1]: Subhashish Panigrahi, [“Binchana from Odisha”](https://commons.wikimedia.org/wiki/File:Binchana_from_Odisha.jpg), photograph dated 15 July 2013, Wikimedia Commons. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Web version resized and compressed.
 
 [^2]: Sudam C. Sahu and Ankita Das, [“Traditional plant-based artifacts of Odisha”](https://nopr.niscpr.res.in/bitstream/123456789/63243/4/IJTK%20Vol.23%281%29%2056-66.pdf), *Indian Journal of Traditional Knowledge* 23(1), January 2024, pp. 56, 58; [supplementary table S1](https://or.niscpr.res.in/index.php/IJTK/article/download/8146/2453/29687), row 9.
 

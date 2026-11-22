@@ -10393,6 +10393,25 @@
       "evidence": [
         "records/taptapani-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112206",
+      "title": "Publish Binchana and the Handmade Breeze",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112206",
+      "next_action": "Open draft publication review for exact candidate; local package, required Linux checks and separate final review must pass before merge/deployment. Slot retained.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112206",
+        "POD-REV-2026112206"
+      ],
+      "evidence": [
+        "records/binchana-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -15738,6 +15757,21 @@
       "refs": [],
       "evidence": [
         "records/binchana-article-preparation-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112206",
+      "title": "Integrate and publish Binchana after Taptapani",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once Taptapani’s release is complete, integrate the Binchana article into Project Odisha, check the layout on mobile and desktop, and publish it with the credited image and links from relevant existing articles.",
+      "scope": "Reviewed Binchana article, credited image, incoming links, desktop/mobile checks and website publication after Taptapani completion.",
+      "refs": [],
+      "evidence": [
+        "records/binchana-publication-20261122.json"
       ]
     }
   ],
@@ -25067,6 +25101,26 @@
         "Five live screenshots independently inspected; root browser interactions attributed to root. First forward keyboard-scroll capture inconclusive; separate source-link click and keyboard return verified.",
         "Chromium viewport simulation only; no cross-engine, assistive-technology or field-performance claim.",
         "Article slot releases only after exact reviewed evidence-only receipt merges."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112206",
+      "title": "Binchana separate source, media and responsive review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source continuity review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112206"
+      ],
+      "evidence": [
+        "records/binchana-publication-20261122.json"
+      ],
+      "limitations": [
+        "Source, rendered HTML and screenshot review passed; final local package, exact-head required CI and live delivery still pending.",
+        "Separate AI review, not human specialist approval; root browser interactions and simulated viewport limits retained."
       ]
     }
   ],
