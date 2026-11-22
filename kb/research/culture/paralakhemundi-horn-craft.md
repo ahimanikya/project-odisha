@@ -4,9 +4,9 @@ description: "Horn combs and animal figures open a story of material choices, sk
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "craft", "Paralakhemundi"]
 type: "Material craft essay"
-status: "draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 Combs, cranes, prawns and peacocks belong to the same craft repertoire in Paralakhemundi. The Gajapati district administration’s account of horn work includes both everyday implements and animal figures.[^1] A line of comb teeth and a bird’s spreading wings ask for different forms, even when the material belongs to the same craft.
@@ -33,7 +33,7 @@ Look at a horn animal’s curve, the edge of a fin or wing, and the meeting of i
 
 [^1]: Gajapati district administration, [“District industries”](https://gajapati.odisha.gov.in/en/departments/district-industries), “Horn Craft” and “Cooperative Societies” sections. The account’s workforce figures are undated and are not used here.
 
-[^2]: Subhashish Panigrahi, [horn-fish photograph](https://commons.wikimedia.org/wiki/File:Decorative_ishes_made_of_animal_horn_at_Odisha_Crafts_Museum,_Bhubaneswar,_Odisha,_India.jpg), 10 June 2018, Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original photograph unchanged.
+[^2]: Subhashish Panigrahi, [horn-fish photograph](https://commons.wikimedia.org/wiki/File:Decorative_ishes_made_of_animal_horn_at_Odisha_Crafts_Museum,_Bhubaneswar,_Odisha,_India.jpg), 10 June 2018, Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized and compressed.
 
 [^3]: Bibhudutta Baral and Bhargava A. J., NID Bengaluru, [*Horn Craft — Cuttack, Orissa*](https://dsource.in/sites/default/files/resource/horn-craft-cuttack-orissa/downloads/file/184_horn_craft_cuttack_orissa.pdf), D’source, p. 9, “Making Process”.
 

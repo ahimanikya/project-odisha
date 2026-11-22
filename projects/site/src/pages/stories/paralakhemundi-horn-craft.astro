@@ -1,0 +1,52 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import '../../styles/article-reading.css';
+import source from '../../../../../kb/research/culture/paralakhemundi-horn-craft.md?raw';
+const metadata=source.match(/^---\n([\s\S]*?)\n---\n/)?.[1];
+if(!metadata)throw Error('Horn-craft canonical metadata missing');
+const readMetadata=(key: string)=>{
+ const value=metadata.match(new RegExp(`^${key}: (".*")$`,'m'))?.[1];
+ if(!value)throw Error(`Horn-craft canonical ${key} missing`);
+ const parsed=JSON.parse(value);
+ if(typeof parsed!=='string')throw Error(`Horn-craft canonical ${key} must be a string`);
+ return parsed;
+};
+const frontmatter={title:readMetadata('title'),description:readMetadata('description'),author:readMetadata('author')};
+const route='/stories/paralakhemundi-horn-craft/';
+const imageMatch=source.match(/!\[([^\]]+)\]\(([^)]+)\)/);
+if(!imageMatch)throw Error('Horn-craft canonical image missing');
+const image={src:'/images/stories/paralakhemundi-horn-fish.webp',alt:imageMatch[1],width:1200,height:864};
+let body=source.replace(/^---\n[\s\S]*?\n---\n/,'');
+if(!/^## Footnotes & Sources\s*$/m.test(body))body=body.replace(/^(\[\^\d+\]:)/m,'## Footnotes & Sources\n\n$1');
+const article=renderReviewedCultureArticle(`# ${frontmatter.title}\n\nBy ${frontmatter.author}\n\n${body}`,{
+ sourcePath:'kb/research/culture/paralakhemundi-horn-craft.md',route,
+ images:{[imageMatch[2]]:image.src},imageDimensions:{[image.src]:{width:image.width,height:image.height}}
+});
+const figure=article.html.match(/<p><img\b[^>]+><\/p>\s*<p>([\s\S]*?)<\/p>/);
+if(!figure)throw Error('Horn-craft canonical image and caption missing');
+const [beforeFigure,afterFigure]=article.html.split(figure[0]);
+const continueReading=[{href:'/stories/bellaguntha-brass-fish/',title:'Bellaguntha’s Brass Fish'}];
+const furtherReading=[{href:'/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/',title:'Silver, Metal, Clay, Stone and Appliqué'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header><h1>{frontmatter.title}</h1><ArticleByline author={frontmatter.author}/></header>
+    <div set:html={beforeFigure}/>
+    <figure>
+      <ResponsiveImage {...image} sizes="(max-width: 740px) calc(100vw - 2.4rem), 696px" loading="eager" fetchpriority="high"/>
+      <figcaption set:html={figure[1]}/>
+    </figure>
+    <div set:html={afterFigure}/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href={`/contribute/?page=${encodeURIComponent(route)}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(.article-footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+</style>

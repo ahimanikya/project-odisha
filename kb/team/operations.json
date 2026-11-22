@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-PANCHALINGESWAR-20261122",
-    "route": "/destinations/panchalingeswar/",
+    "id": "POD-EDIT-PARALAKHEMUNDI-HORN-20261122",
+    "route": "/stories/paralakhemundi-horn-craft/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/panchalingeswar-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit publication-slot handoff to Research Antaranga Kalinga follows that observed merge."
+    "phase": "local_validation",
+    "handoff": "records/paralakhemundi-horn-publication-20261122.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -709,10 +708,19 @@
       "handoff": "records/taptapani-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Explicit handoff to the Binchana publication chat follows that observed merge."
+    },
+    {
+      "id": "POD-EDIT-PANCHALINGESWAR-20261122",
+      "route": "/destinations/panchalingeswar/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/panchalingeswar-publication-20261122.json",
+      "scope_released": true,
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit publication-slot handoff to Research Antaranga Kalinga follows that observed merge."
     }
   ],
   "next_article_coordination": {
-    "status": "horn_publication_reserved_after_panchalingeswar_receipt_merge",
+    "status": "horn_publication_slot_accepted",
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "scope": "After reviewed Panchalingeswar receipt merge and explicit handoff, integrate/review/publish horn craft. Kapilash remains queued until explicit return."
   }

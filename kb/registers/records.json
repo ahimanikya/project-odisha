@@ -10471,6 +10471,25 @@
       "evidence": [
         "records/panchalingeswar-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112208",
+      "title": "Publish Paralakhemundi horn craft article",
+      "category": "knowledge",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112208",
+      "next_action": "Finish final package/exact-commit review; required CI, authorized deployment and separate live receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112208",
+        "POD-REV-2026112208"
+      ],
+      "evidence": [
+        "records/paralakhemundi-horn-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -15846,6 +15865,21 @@
       "refs": [],
       "evidence": [
         "records/antaranga-next-preparation-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112208",
+      "title": "Publish Paralakhemundi horn craft article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Go ahead and integrate the Paralakhemundi horn craft article into Project Odisha, check the layout on mobile and desktop, and publish it with the credited image and links from relevant existing articles.",
+      "scope": "Integrate/review/publish article with credited image, relevant incoming links and mobile/desktop verification.",
+      "refs": [],
+      "evidence": [
+        "records/paralakhemundi-horn-publication-20261122.json"
       ]
     }
   ],
@@ -25267,6 +25301,29 @@
         "Image identity relies on photographer description; no independent geolocation or exact official rock match.",
         "Root browser interactions are attributed to root, with separate screenshot review; Chromium viewport simulation only.",
         "Exact committed receipt review, project-required CI and actual receipt merge remain; conditional handoff only."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112208",
+      "title": "Paralakhemundi horn craft separate source, media and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112208",
+        "POD-DEC-2026112208"
+      ],
+      "evidence": [
+        "records/paralakhemundi-horn-publication-20261122.json"
+      ],
+      "summary": "Separate source/code/media and local desktop/mobile visual review passed. Final package, exact commit, Linux CI and live delivery pending.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root browser interactions and separate screenshot review; Chromium viewport simulation only.",
+        "Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork."
       ]
     }
   ],
