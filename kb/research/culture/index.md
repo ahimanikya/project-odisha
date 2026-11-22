@@ -89,4 +89,4 @@
 
 - [Kagaja Mukha and the Paper Masks of Raghurajpur](kagaja-mukha-and-the-making-of-a-mask.md) — independently sourced article; [source review](kagaja-mukha-source-review-20261122.json).
 
-[Bellaguntha’s Brass Fish](bellaguntha-brass-fish.md) — Independently researched draft prepared for editorial review; not yet published.
+[Bellaguntha’s Brass Fish](bellaguntha-brass-fish.md) — Independently researched article on an articulated metal object and named learning histories.

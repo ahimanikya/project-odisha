@@ -4,9 +4,9 @@ description: "How separate brass pieces become a flexible fish, and how named ma
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "people"]
 type: "Craft and makers essay"
-status: "prepared_draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 A brass fish can move because its body is assembled in parts. In Santosh Kumar Jha’s 2016 study of Bellaguntha’s craft, the head and tail are relatively rigid, while the abdomen consists of joined rings with room to move.[^1]

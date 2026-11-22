@@ -40,7 +40,13 @@ export const additionalDeliveryPNGs=[
   "assets/cinema/maya-miriga-threshold.png",
   "assets/cinema/pratikshya-waiting.png",
   "assets/cinema/pencil-bijay-mohanty-20261101.png",
-  "assets/cinema/pencil-sadhu-meher-20261101.png"
+  "assets/cinema/pencil-sadhu-meher-20261101.png",
+  "assets/cinema/pencil-manglu-charan-biswal-20261101.png",
+  "assets/cinema/economics-boat-screening.png",
+  "assets/cinema/pencil-tapu-mishra-20261101.png",
+  "assets/cinema/air-listener.png",
+  "assets/cinema/surya-material-passed-on.png",
+  "assets/cinema/bhukha-publicity.png"
 ];
 export const eligiblePNG=p=>additionalDeliveryPNGs.includes(p)||/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
 function chunks(bytes){
