@@ -1,0 +1,221 @@
+{
+  "result": "pass",
+  "reviewer": {
+    "name": "Drishti",
+    "kind": "ai_assistant",
+    "independent": true
+  },
+  "reviewed_on": "2026-11-23",
+  "scope": "Separate live-delivery review of Kapilash; final integrated receipt and exact receipt commit remain to be reviewed.",
+  "publication": {
+    "reviewed_head": "309db86d7a27bdf2699d6d3656470b9272793ae5",
+    "pr": 836,
+    "pr_url": "https://github.com/ahimanikya/project-odisha/pull/836",
+    "merge": "63b8be7a011e50d5332a489d4b74335bcce8d4fb",
+    "merged_at": "2026-11-22T19:44:14Z",
+    "merged_tree_matches_reviewed_candidate": true,
+    "ci": {
+      "conclusion": "success",
+      "event": "pull_request",
+      "head_sha": "309db86d7a27bdf2699d6d3656470b9272793ae5",
+      "html_url": "https://github.com/ahimanikya/project-odisha/actions/runs/45059924629",
+      "id": 45059924629,
+      "path": ".github/workflows/validate-site.yml",
+      "run_attempt": 1,
+      "status": "completed"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "head_sha": "63b8be7a011e50d5332a489d4b74335bcce8d4fb",
+      "html_url": "https://github.com/ahimanikya/project-odisha/actions/runs/45062445092",
+      "id": 45062445092,
+      "path": ".github/workflows/publish-site.yml",
+      "run_attempt": 1,
+      "status": "completed"
+    },
+    "linux_payload": {
+      "bytes": 999944443,
+      "files": 3624,
+      "remaining_bytes": 55557,
+      "strict_limit": 1000000000
+    },
+    "tests": {
+      "full": 822,
+      "coast": 598
+    },
+    "verification": "Fresh independent gh API metadata and completed run logs, in addition to saved release-execution and payload evidence."
+  },
+  "fresh_http": {
+    "routes": {
+      "/destinations/kapilash/": {
+        "status": 200,
+        "bytes": 24103
+      },
+      "/destinations/hills/": {
+        "status": 200,
+        "bytes": 25658,
+        "one_matching_preview": true
+      },
+      "/destinations/": {
+        "status": 200,
+        "bytes": 33493,
+        "one_matching_preview": true
+      },
+      "/explore/": {
+        "status": 200,
+        "bytes": 299563,
+        "one_matching_preview": true
+      }
+    },
+    "article_fragment_sha256": "a8f7ba6f1e3ce8c3d065f9632e0b4afdab9bf69a6c43dd98c8059480ddc2a3b6",
+    "article_byte_exact": true,
+    "substitutions": 0,
+    "references": 12,
+    "all_article_image_sources_and_variants": {
+      "/assets/cultural-book/chapters/e9c97d309c237666575f.webp": {
+        "status": 200,
+        "bytes": 73424,
+        "sha256": "8e03c90d8e778f9a60ecc223d7b32ea469de6b93433dc845ca60d2efb8ab9726",
+        "byte_exact_local": true
+      },
+      "/images/destinations/kapilash-temple.webp": {
+        "status": 200,
+        "bytes": 267374,
+        "sha256": "8b18365a274debacd43cf133df776c594a6dd0787256d285c303c619a37b5386",
+        "byte_exact_local": true
+      },
+      "/images/destinations/panchalingeswar-shrine.jpg": {
+        "status": 200,
+        "bytes": 565011,
+        "sha256": "f1ac167d83f4536cfa32481a27e7fb1fb7de27d561041c8b8d82f21ec3cc4ca6",
+        "byte_exact_local": true
+      },
+      "/images/responsive/2e7a32e0ebf9a310-960.webp": {
+        "status": 200,
+        "bytes": 251574,
+        "sha256": "2e7a32e0ebf9a310dad163a46a579c8f28cdc2cacf8d212c3ec13721a1208fd3",
+        "byte_exact_local": true
+      },
+      "/images/responsive/95656e6bb719c7c2-480.webp": {
+        "status": 200,
+        "bytes": 92562,
+        "sha256": "95656e6bb719c7c2b4f26afe693d0ef72ce7b68df2caae52bba70a10d7945961",
+        "byte_exact_local": true
+      },
+      "/images/responsive/9d33ef262e469115-838.webp": {
+        "status": 200,
+        "bytes": 226952,
+        "sha256": "9d33ef262e4691151b958bd0ec284ecb3a75fd95453bc4366715664c98b1e31e",
+        "byte_exact_local": true
+      },
+      "/images/responsive/aaf3722df1dd2f58-480.webp": {
+        "status": 200,
+        "bytes": 73878,
+        "sha256": "aaf3722df1dd2f58c2b15cad08d56afe62a139b5e0ccc592f9d4dea070f99f12",
+        "byte_exact_local": true
+      }
+    }
+  },
+  "images": {
+    "all_seven_article_src_and_srcset_fetched": true,
+    "all_byte_exact_to_reviewed_local_files": true,
+    "responsive_hash_prefixes_match": true,
+    "dimensions": {
+      "/assets/cultural-book/chapters/e9c97d309c237666575f.webp": [
+        955,
+        604
+      ],
+      "/images/destinations/kapilash-temple.webp": [
+        960,
+        1280
+      ],
+      "/images/destinations/panchalingeswar-shrine.jpg": [
+        838,
+        1117
+      ],
+      "/images/responsive/2e7a32e0ebf9a310-960.webp": [
+        960,
+        1280
+      ],
+      "/images/responsive/95656e6bb719c7c2-480.webp": [
+        480,
+        640
+      ],
+      "/images/responsive/9d33ef262e469115-838.webp": [
+        838,
+        1117
+      ],
+      "/images/responsive/aaf3722df1dd2f58-480.webp": [
+        480,
+        640
+      ]
+    },
+    "dimensions_method": "Decoded corresponding local files after independently proving fresh live bytes identical.",
+    "original_jpeg_sha256": "f1679a62a649687b8339f01b7348a496d688ff6d8934f0cebb40e173be1e12e2",
+    "source_credit": "Previously independently checked Anup525 own work, CC BY-SA4.0, 2019; live article retains date, creator, source, licence and full-frame/preview alteration disclosure.",
+    "coverage_expansion": "Independent review fetched all three article base images plus all four unique responsive files. Root then expanded verify-live.py to seven, retaining initial-five reports. Final live/verification.json independently read: four routes, seven images, zero substitutions.",
+    "retained_initial_reports": [
+      "live/verification-initial-five.json",
+      "live/image-comparison-initial-five.json"
+    ]
+  },
+  "visual_review": {
+    "result": "pass",
+    "independently_opened_individually": [
+      "live-desktop.jpg",
+      "live-desktop-photo-credit.jpg",
+      "live-desktop-footnotes.jpg",
+      "live-mobile.jpg",
+      "live-mobile-photo-credit.jpg",
+      "live-mobile-preview.jpg",
+      "live-desktop-preview.jpg",
+      "live-explore-preview.jpg"
+    ],
+    "directory": "outputs/kapilash-publication-2026-11-23/screenshots",
+    "findings": "Readable desktop/mobile headings, byline, text, credits and source list. Both live photo-credit views fully frame portrait and credit, showing preserved full composition. Hills desktop/mobile and Explore fully frame Kapilash preview cards. Preview crops retain meaningful temple detail. No visible overlap or truncation blocker.",
+    "framing_limits": "Initial hero screenshots extend below viewport. Footnotes screenshot begins at note1 with source heading above frame; heading independently verified in exact live markup. Credit disclosures remained collapsed in captures; article credits are visible and output/source attribution checked."
+  },
+  "browser_actions": {
+    "actor": "Disha",
+    "evidence": "review/live-browser-review.json",
+    "viewports": [
+      [
+        1280,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reported_horizontal_overflow": false,
+    "observed_by_root": "First-source click and keyboard Enter on exact return link restored reference hash and focus.",
+    "independent_review_limit": "Drishti inspected screenshots and HTTP content, not browser interactions. No physical-device, broad keyboard, screen-reader or cross-browser audit."
+  },
+  "continuity": {
+    "manuscript_sha256": "f3c0abeeb054c399b22cec5df853dfdaa2bdaf4cdfbff69b3b0e4e1325c11ace",
+    "public_and_research_diff_vs_merge": [],
+    "ten_horn_preparation_files_byte_exact": true,
+    "foreign_current_task_and_handoff_home_preserved": true,
+    "activity_prefix_byte_preserved": true,
+    "review_method": "Read-only Git diff over public/site and research scope, explicit hashes for selected source/manuscript, ten-file inherited horn comparison, foreign-field and history-prefix comparisons. Redundant whole-tree byte traversal was stopped after targeted checks completed and is not claimed as completed.",
+    "current_receipt_scope": "Only own next-slot coordination and internal HTTP verifier changed at inspection, plus new delivery evidence; root's final completed receipt integration follows this review.",
+    "programme_credit": 0,
+    "scope_released": false
+  },
+  "next_slot": {
+    "condition": "After reviewed Kapilash receipt merge and explicit handoff.",
+    "scope": "One independently researched preparation-only Antaranga Kalinga article with credited image; no publication authorization inferred.",
+    "instruction_provenance": "Root's canonical record identifies actual human message turn01a204ca-ec8b-7f50-b700-6c62e32e0c20. This reviewer checked the recorded conditional scope, not the originating chat."
+  },
+  "limitations": [
+    "Desk research and independent AI review, not human specialist or field verification.",
+    "Historical photograph establishes no current condition, independent geolocation or exact official-photo match.",
+    "No live image differences or responsive substitutions found in this scoped seven-file check; no site-wide equivalence claim.",
+    "Linux payload leaves 55,557 bytes; this acceptance does not authorize future additions without a new actual capacity gate.",
+    "Final integrated evidence-only receipt, exact receipt commit, project-required CI and actual receipt merge remain before slot release."
+  ],
+  "required_fixes": [],
+  "ready_for_receipt_integration": true
+}
