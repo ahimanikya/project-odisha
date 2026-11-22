@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": "daringbadi",
+  "current": "putsil",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -25,7 +25,17 @@
     },
     {
       "slug": "putsil",
-      "status": "queued"
+      "status": "in_progress",
+      "handoff": "records/putsil-publication-20261122.json",
+      "reuse_before_research": [
+        "research/places/koraput.md",
+        "research/references/data/odisha-heritage-walks-20261019.json",
+        "research/stories/narratives/dongariya/kuvi-and-jatapu-script.md",
+        "research/references/data/dongariya-language-colours-20261103.json",
+        "research/references/data/research-queue.json:RES-014",
+        "research/references/data/research-queue.json:RES-023",
+        "research/methods/trip-planning-content.md"
+      ]
     },
     {
       "slug": "mandasaru",
@@ -74,6 +84,6 @@
   ],
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
-  "next_hill": "putsil",
-  "coordination": "Daringbadi published and live verified; release of the single-article slot is conditional on reviewed receipt integration. Putsil is next. Completed brass-fish draft remains preserved without dedicated public integration."
+  "next_hill": "mandasaru",
+  "coordination": "Daringbadi receipt817 merged at8e8a4c8a; Putsil reserved as next single article. Brass-fish preparation preserved without dedicated public integration."
 }
