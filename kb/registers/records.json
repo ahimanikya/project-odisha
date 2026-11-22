@@ -10451,6 +10451,25 @@
       "evidence": [
         "records/antaranga-next-preparation-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261122100",
+      "title": "Research, review and publish Panchalingeswar",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Separate final-package and exact-commit review, required GitHub checks, then merge and publish authorized article; retain slot until live review and receipt merge.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297",
+        "POD-REV-20261122100"
+      ],
+      "evidence": [
+        "records/panchalingeswar-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -25223,6 +25242,30 @@
         "Separate AI review, not human specialist approval.",
         "No publication, deployment or rendered website review for preparation-only scope.",
         "Photo manufacturer/locality unassigned; process comparison explicitly Cuttack; historical earlier works unread."
+      ]
+    },
+    {
+      "id": "POD-REV-20261122100",
+      "title": "Panchalingeswar separate source, image, article and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-20261122100",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/panchalingeswar-publication-20261122.json"
+      ],
+      "summary": "Separate source, originality, media/code and all eight local screenshots passed; final package and delivery remain pending.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Image identity relies on photographer description; no independent geolocation or exact official rock match.",
+        "Root browser interactions are attributed to root, with separate screenshot review; Chromium viewport simulation only.",
+        "Final package, required CI, deployment and live delivery remain pending."
       ]
     }
   ],

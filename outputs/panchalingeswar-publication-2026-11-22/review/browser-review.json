@@ -1,0 +1,54 @@
+{
+  "reviewer": "Disha",
+  "method": "Actual CUA browser actions and viewport screenshots; separate reviewer will inspect saved images.",
+  "edition": "full dist, served on127.0.0.1:4381; exact article equivalence to publication output checked separately",
+  "result": "pass",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "hero_rendered": [
+        480,
+        640
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "hero_rendered": [
+        351.609375,
+        468.8125
+      ]
+    }
+  ],
+  "routes": [
+    "/destinations/panchalingeswar/",
+    "/destinations/hills/",
+    "/explore/?q=Panchalingeswar"
+  ],
+  "checks": [
+    "Comfortable title and paragraph wrapping; no horizontal overflow.",
+    "Fullframe portrait, creator/source/licence/change text visibly present.",
+    "Desktop and mobile hill cards preserve water and garland crop; no distortion.",
+    "Explore returns Panchalingeswar and collection, with correct photograph.",
+    "Clicked reference1; observed source hash. PressedEnter on Back to reference1; observed return hash and citation focus.",
+    "Expanded native notes and onward Balasore/Mahendragiri/hills reading links visible."
+  ],
+  "screenshots": [
+    "desktop.jpg",
+    "portrait-credit.jpg",
+    "footnotes.jpg",
+    "mobile.jpg",
+    "mobile-credit.jpg",
+    "mobile-preview.jpg",
+    "preview.jpg",
+    "explore-preview.jpg"
+  ],
+  "limitations": [
+    "Chromium viewport simulation, not physical device or cross-engine audit.",
+    "Footnotes screenshot begins at first note after anchor navigation; visible heading established in DOM snapshot.",
+    "No live deployment evidence yet."
+  ]
+}
