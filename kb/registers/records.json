@@ -10476,16 +10476,17 @@
       "id": "POD-WORK-2026112208",
       "title": "Publish Paralakhemundi horn craft article",
       "category": "knowledge",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112208",
-      "next_action": "Finish final package/exact-commit review; required CI, authorized deployment and separate live receipt.",
+      "next_action": "Merge reviewed delivery receipt after required checks, then explicit slot return for Kapilash.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112208",
-        "POD-REV-2026112208"
+        "POD-REV-2026112208",
+        "POD-REL-2026112208"
       ],
       "evidence": [
         "records/paralakhemundi-horn-publication-20261122.json"
@@ -25318,12 +25319,13 @@
       "evidence": [
         "records/paralakhemundi-horn-publication-20261122.json"
       ],
-      "summary": "Separate source/code/media and local desktop/mobile visual review passed. Final package, exact commit, Linux CI and live delivery pending.",
+      "summary": "Separate source/media/code/local and live layout/package/delivery reviews passed. All three live routes and15images checked; two measured responsive differences visually accepted with no cause or pixel-exact claim. Final receipt and exact-commit review/CI remain.",
       "independent": true,
       "limitations": [
         "Separate AI review, not human specialist approval or field verification.",
         "Root browser interactions and separate screenshot review; Chromium viewport simulation only.",
-        "Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork."
+        "Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork.",
+        "Two responsive images differ in bytes and pixels; measured and visually accepted. All other checked images exact; no site-wide equivalence claim."
       ]
     }
   ],
@@ -29623,6 +29625,20 @@
       ],
       "evidence": [
         "records/panchalingeswar-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112208",
+      "title": "Paralakhemundi’s Horn Craft: From Comb to Crane",
+      "status": "published",
+      "authorization": "POD-DEC-2026112208",
+      "destination": "https://projectodisha.org/stories/paralakhemundi-horn-craft/",
+      "refs": [
+        "POD-WORK-2026112208",
+        "POD-DEC-2026112208"
+      ],
+      "evidence": [
+        "records/paralakhemundi-horn-publication-20261122.json"
       ]
     }
   ],

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `efd9464d05f14eb6b86f0b00eade053eca45db461dd65c80f3c82214be9234bb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4585d29cad772d6ea8de9e5c7df077caa076e01a446ec4b009e213f4549f588c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -405,7 +405,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112299 · Research, review and publish Jirang–Chandragiri | completed | published | Ahimanikya Satapathy | Merge exact reviewed evidence-only receipt after required CI, then explicitly hand preparation-only slot to Research Antaranga Kalinga. Panchalingeswar remains queued until explicit return. | — |
 | POD-WORK-2026112207 · Prepare Paralakhemundi’s horn craft article | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed draft, credited original photograph and publication brief. Return preparation slot to hill-series chat for Panchalingeswar after local evidence commit; no website integration/publication. | — |
 | POD-WORK-20261122100 · Research, review and publish Panchalingeswar | completed | published | Ahimanikya Satapathy | Merge exact reviewed evidence-only receipt after project-required CI, then explicitly hand publication slot to Research Antaranga Kalinga for horn craft. Kapilash remains queued until explicit return. | — |
-| POD-WORK-2026112208 · Publish Paralakhemundi horn craft article | in_progress | reviewed | Ahimanikya Satapathy | Finish final package/exact-commit review; required CI, authorized deployment and separate live receipt. | — |
+| POD-WORK-2026112208 · Publish Paralakhemundi horn craft article | completed | published | Ahimanikya Satapathy | Merge reviewed delivery receipt after required checks, then explicit slot return for Kapilash. | — |
 
 ## Pending human review and decisions
 
@@ -1147,7 +1147,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112299 | pass_with_limitations | True | Separate AI review, not human specialist approval, field verification or independent geolocation.; Six live screenshots independently reviewed; root source-click and keyboard-return interactions attributed to root. Local initial keyboard-forward capture remains inconclusive.; Chromium viewport simulation only, not cross-engine or assistive-technology review.; Three delivered encodings differ in bytes and pixels from local candidates; measured and visually accepted, with no cause asserted.; Single-article slot release is conditional on actual reviewed receipt merge and explicit handoff. |
 | POD-REV-2026112207 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No publication, deployment or rendered website review for preparation-only scope.; Photo manufacturer/locality unassigned; process comparison explicitly Cuttack; historical earlier works unread. |
 | POD-REV-20261122100 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Image identity relies on photographer description; no independent geolocation or exact official rock match.; Root browser interactions are attributed to root, with separate screenshot review; Chromium viewport simulation only.; Exact committed receipt review, project-required CI and actual receipt merge remain; conditional handoff only. |
-| POD-REV-2026112208 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions and separate screenshot review; Chromium viewport simulation only.; Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork. |
+| POD-REV-2026112208 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions and separate screenshot review; Chromium viewport simulation only.; Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork.; Two responsive images differ in bytes and pixels; measured and visually accepted. All other checked images exact; no site-wide equivalence claim. |
 
 ## Publication and application history
 
@@ -1419,6 +1419,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112206 · Binchana and the Handmade Breeze | published | https://projectodisha.org/stories/binchana-and-the-handmade-breeze/ | POD-DEC-2026112206 |
 | POD-REL-2026112299 · Jirang–Chandragiri: A Monastery in Odisha’s Hills | published | https://projectodisha.org/destinations/jirang-chandragiri/ | POD-DEC-2026112297 |
 | POD-REL-20261122100 · Panchalingeswar: A Shrine in Flowing Water | published | https://projectodisha.org/destinations/panchalingeswar/ | POD-DEC-2026112297 |
+| POD-REL-2026112208 · Paralakhemundi’s Horn Craft: From Comb to Crane | published | https://projectodisha.org/stories/paralakhemundi-horn-craft/ | POD-DEC-2026112208 |
 
 ## Sources and assets
 
@@ -1456,8 +1457,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261122119 | 2026-11-22T13:46:50.156548+00:00 | Reviewed PR830 passed required CI and deployed successfully from exact merge. Five live routes,26image files,sixscreenshots and source navigation verified; separate delivery review passed, including measured encoding differences. Reviewed receipt merge remains before explicit preparation-only handoff; zero programme credit. | — |
-| POD-EVT-20261122120 | 2026-11-22T13:47:59.155771+00:00 | Separate Drishti final receipt review passed. Public and research sources unchanged; no further deployment required. Exact committed review, required CI and receipt merge remain before explicit preparation-only slot return. | — |
 | POD-EVT-2026112220 | 2026-11-22T14:17:04.215155+00:00 | Accepted explicit preparation-only handoff after merged Jirang receipt831; fetched6e2b127f. Single coordinated new-topic selection; foreign Kala Bhoomi task preserved. No publication or programme credit. | — |
 | POD-EVT-2026112221 | 2026-11-22T14:28:42.724003+00:00 | Original horn-craft draft and credited museum photograph prepared; Anvesha source check and separate Drishti integrated review passed. Source-place/date/rights limits preserved. Preparation delivered locally; no website publication or programme credit. | — |
 | POD-EVT-20261122121 | 2026-11-22T14:33:34.015368+00:00 | Accepted explicit horn-craft preparation-slot return, fetched54bcd323 and verified all10delivery hashes. Panchalingeswar is sole active article under repeated Founder direction; next horn-craft publication slot reserved from verified human instruction. Foreign task preserved; zero programme credit. | — |
@@ -1466,6 +1465,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261122124 | 2026-11-22T16:11:09.052106+00:00 | Separate Drishti final integrated evidence-only receipt review passed, preserving public/research sources, ten horn delivery hashes and foreign ownership. Exact committed review, project-required CI and actual merge remain before explicit horn-publication slot handoff. | — |
 | POD-EVT-2026112222 | 2026-11-22T16:38:19.976153+00:00 | Accepted completed Panchalingeswar receipt handoff and fetched5656c8d4; Founder-authorized horn-craft publication is sole active article. Original preparation and foreign Kala Bhoomi task preserved. | — |
 | POD-EVT-2026112223 | 2026-11-22T16:55:45.371624+00:00 | Source, media and separate desktop/mobile screenshot review passed; full822/coast598tests passed after explicit route hold/count corrections. Other47chapter prose/credits preserved; package/CI/live gates remain. | — |
+| POD-EVT-2026112224 | 2026-11-22T18:18:08.226528+00:00 | PR834 passed exact-head CI45048369711 and merged9cac2527; deployment45051165017 succeeded. Separate live review checked3routes15images and10meaningful screenshots. Two measured image differences visually accepted; base images/original preserved. Actual999323574bytes/3620files. Receipt merge precedes explicit Kapilash handoff; zero programme credit. | — |
+| POD-EVT-2026112225 | 2026-11-22T18:19:53.542618+00:00 | Separate Drishti final evidence-only receipt review passed. Website, factual body, original photo and foreign ownership preserved; measured image differences remain explicit. Exact committed receipt review, required CI and actual merge precede Kapilash handoff. | — |
 
 ## Deferred extensions
 

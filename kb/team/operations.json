@@ -58,9 +58,10 @@
     "id": "POD-EDIT-PARALAKHEMUNDI-HORN-20261122",
     "route": "/stories/paralakhemundi-horn-craft/",
     "owner": "Disha",
-    "phase": "local_validation",
+    "phase": "receipt_integrated",
     "handoff": "records/paralakhemundi-horn-publication-20261122.json",
-    "scope_released": false
+    "scope_released": true,
+    "release_condition": "Effective after this reviewed evidence-only receipt merges with required CI; explicit Kapilash handoff follows actual merge."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -720,8 +721,8 @@
     }
   ],
   "next_article_coordination": {
-    "status": "horn_publication_slot_accepted",
-    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-    "scope": "After reviewed Panchalingeswar receipt merge and explicit handoff, integrate/review/publish horn craft. Kapilash remains queued until explicit return."
+    "status": "horn_receipt_review_before_explicit_return",
+    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "scope": "Kapilash reserved after reviewed horn receipt merge and explicit return. No next article claimed by this chat."
   }
 }
