@@ -10413,6 +10413,25 @@
       "evidence": [
         "records/binchana-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112299",
+      "title": "Research, review and publish Jirang–Chandragiri",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Required exact-head CI, merge, deploy and independently verify live delivery; then reviewed receipt merge and preparation-only slot handoff.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297",
+        "POD-REV-2026112299"
+      ],
+      "evidence": [
+        "records/jirang-chandragiri-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -25124,6 +25143,27 @@
         "Separate AI review, not human specialist approval or field verification.",
         "Root performed browser interactions and simulated viewport checks; screenshots and fresh HTTP evidence independently reviewed.",
         "Two responsive image variants are visually accepted but not byte/pixel-exact; decoded-RGB metrics recorded and cause unproved."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112299",
+      "title": "Jirang–Chandragiri separate source, image and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112299"
+      ],
+      "evidence": [
+        "records/jirang-chandragiri-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval, field verification or independent geolocation.",
+        "Five local screenshots independently inspected; root browser interactions attributed to root. Initial keyboard-forward capture inconclusive; source click and keyboard return verified.",
+        "Final local package and six screenshots passed; exact-head CI, deployment and live review remain pending."
       ]
     }
   ],

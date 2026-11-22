@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1584d6c771621a97ba5c47476c3d573db041dfa18f01a0e1a9d22bd02260fdb1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `52b886b33d2660c6b103d59aa2eea490c9101673025c21074312c5e081807e6d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -402,6 +402,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112205 · Prepare Binchana article | completed | reviewed | Ahimanikya Satapathy | Reviewed unpublished draft, photograph and brief delivered locally. Preparation slot released for coordinated Taptapani queue; no website integration/publication. | — |
 | POD-WORK-2026112298 · Research, review and publish Taptapani | completed | published | Ahimanikya Satapathy | Merge separately reviewed evidence-only receipt, then explicitly return publication slot for Binchana; no next hill claim before return. | — |
 | POD-WORK-2026112206 · Publish Binchana and the Handmade Breeze | completed | published | Ahimanikya Satapathy | Pass required receipt checks and merge the separately reviewed evidence-only receipt, then explicitly return the shared article slot for Jirang–Chandragiri. | — |
+| POD-WORK-2026112299 · Research, review and publish Jirang–Chandragiri | in_progress | reviewed | Ahimanikya Satapathy | Required exact-head CI, merge, deploy and independently verify live delivery; then reviewed receipt merge and preparation-only slot handoff. | — |
 
 ## Pending human review and decisions
 
@@ -1138,6 +1139,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112205 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No fieldwork, interviews, current market survey or complete fan-making tutorial.; Journal and supplement text inspected; PDF page images not visually recovered.; Museum collection entry read; its object image not inspected.; Photograph has visible grain and softness; use restrained full-portrait display without upscaling.; No rendered website layout or live publication checks for draft preparation. |
 | POD-REV-2026112298 | pass_with_limitations | True | Separate AI review, not human specialist approval, field verification or independent geolocation.; Five live screenshots independently inspected; root browser interactions attributed to root. First forward keyboard-scroll capture inconclusive; separate source-link click and keyboard return verified.; Chromium viewport simulation only; no cross-engine, assistive-technology or field-performance claim.; Article slot releases only after exact reviewed evidence-only receipt merges. |
 | POD-REV-2026112206 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root performed browser interactions and simulated viewport checks; screenshots and fresh HTTP evidence independently reviewed.; Two responsive image variants are visually accepted but not byte/pixel-exact; decoded-RGB metrics recorded and cause unproved. |
+| POD-REV-2026112299 | pass_with_limitations | True | Separate AI review, not human specialist approval, field verification or independent geolocation.; Five local screenshots independently inspected; root browser interactions attributed to root. Initial keyboard-forward capture inconclusive; source click and keyboard return verified.; Final local package and six screenshots passed; exact-head CI, deployment and live review remain pending. |
 
 ## Publication and application history
 
@@ -1444,8 +1446,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261122113 | 2026-11-22T08:28:03.454256+00:00 | Verified actual human instruction in coordinated chat to publish Binchana after Taptapani completes. Reserve next slot conditionally upon Taptapani reviewed receipt merge; current Taptapani remains sole active article and Binchana stays excluded from this public release. Jirang–Chandragiri queued until explicit return. | — |
-| POD-EVT-20261122114 | 2026-11-22T08:34:26.686795+00:00 | Drishti independently passed final package998608713bytes/3601files, finalarticle andresponsiveimages, allthreeedition Binchana exclusion and source preservation. Candidate ready for exact-head required CI; no publication or slot release claimed. | — |
 | POD-EVT-20261122115 | 2026-11-22T09:30:51.945616+00:00 | PR826 exactreviewedhead passedCI and merged; deployment45005382148 succeeded fromexactmerge. Root verified livearticlefragment andoriginalphotoexact, nine responsivefiles, four routes, five screenshots andpreviews. Linuxpayload999383034bytes. Independentdeliveryreview andreviewedreceiptmerge stillrequired;no slotreturn or programmecredit. | — |
 | POD-EVT-20261122116 | 2026-11-22T09:34:03.787945+00:00 | Separate Drishti delivery review passed actual PR826/CI/deployment, four live routes, exact article and original photo, all nine responsive images and five screenshots. Receipt integrated with browser limitations and zero programme credit. Slot release is conditional on reviewed receipt merge; Binchana publication is next under verified human direction. | — |
 | POD-EVT-2026112214 | 2026-11-22T10:09:37.006222+00:00 | Verified Taptapani receipt827 merge and explicit slot return. Reserve Binchana publication with image, incoming links and responsive review. Preserve foreign Kala Bhoomi task and historical preparation. | — |
@@ -1454,6 +1454,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112217 | 2026-11-22T11:42:30.867445+00:00 | Deployment45015826241 succeeded from reviewed merge e42bd7aa. Four live routes, credited full portrait, footnotes and all three incoming previews verified. Two actual responsive image differences measured and visually reviewed; no byte/pixel-identity claim for those variants. Actual Linux payload999926062bytes. | — |
 | POD-EVT-2026112218 | 2026-11-22T11:42:30.870109+00:00 | Separate Drishti delivery review passed fresh GitHub/HTTP/image evidence and all11screenshots. Evidence-only receipt prepared; release of the shared slot remains conditional on its reviewed merge. Foreign Kala Bhoomi task preserved and programme credit zero. | — |
 | POD-EVT-2026112219 | 2026-11-22T11:44:09.335470+00:00 | Separate Drishti review passed the final evidence-only receipt and records. Website/research source is unchanged; no further deployment needed. Required receipt CI and merge remain before explicit shared-slot return. | — |
+| POD-EVT-20261122117 | 2026-11-22T12:17:17.563549+00:00 | Verified Binchana receipt829 and successful required check, fetched merged main and accepted explicit shared-slot return. Jirang–Chandragiri is sole active hill article; research reuse checked, foreign task preserved, zero programme credit. | — |
+| POD-EVT-20261122118 | 2026-11-22T12:38:46.170758+00:00 | Separate source, media/code and five-screenshot reviews passed. Full and coast builds/disclosures/tests passed; final package and publication pending. Credited photograph identity corroborated. Next preparation-only slot reserved from verified human instruction; no other article started. | — |
 
 ## Deferred extensions
 

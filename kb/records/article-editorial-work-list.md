@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1367. blocked: 1, completed: 231, excluded: 872, queued: 263.
+Route inventory: 1368. blocked: 1, completed: 231, excluded: 872, in_progress: 1, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1391,3 +1391,4 @@ Route inventory: 1367. blocked: 1, completed: 231, excluded: 872, queued: 263.
 | POD-EDIT-MAHENDRAGIRI-20261122 | [Mahendragiri: Mountain Shrines and Forest Life](https://projectodisha.org/destinations/mahendragiri/) | completed | Researched hill destination article with rights-cleared article and preview photograph; zero programme credit. |
 | POD-EDIT-TAPTAPANI-20261122 | [Taptapani: A Spring in the Wooded Hills](https://projectodisha.org/destinations/taptapani/) | completed | Researched hill destination and hot spring article with rights-cleared article/preview image;zero programme credit. |
 | POD-EDIT-BINCHANA-20261122 | [Binchana and the Handmade Breeze](https://projectodisha.org/stories/binchana-and-the-handmade-breeze/) | completed | New independently prepared hand-fan article with credited photograph and reciprocal reading links; zero programme credit. |
+| POD-EDIT-JIRANG-CHANDRAGIRI-20261122 | [Jirang–Chandragiri: A Monastery in Odisha’s Hills](https://projectodisha.org/destinations/jirang-chandragiri/) | in_progress | Researched hill settlement and monastery article with credited article/preview photograph;zero programme credit. |

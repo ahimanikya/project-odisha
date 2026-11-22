@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains four explicit photos',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg']));
+test('JPEG delivery scope remains five explicit photos',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg']));
 test('delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -44,7 +44,7 @@ test('Bhagabata delivery preserves the full frame and source credits with a phot
  }finally{await rm(dir,{recursive:true,force:true});}
 });
 
-test('Bhubaneswar delivery retains the source, photo URL, credit, second photo and sharing metadata',async()=>{
+test('Bhubaneswar delivery retains the source, photo URL, credits, both full frames and sharing metadata',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-bhubaneswar-jpeg-'));
  try{
  const asset='assets/bhubaneswar-week/conversations.jpg',otherAsset='assets/bhubaneswar-week/mentis-films.jpg',page='stories/bhubaneswar-week/index.html';
@@ -57,15 +57,20 @@ test('Bhubaneswar delivery retains the source, photo URL, credit, second photo a
  await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);await writeFile(path.join(dir,otherAsset),otherSource);
  await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
- assert.equal(result.files.length,1);assert.equal(result.files[0].path,asset);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>2000000);
+ assert.equal(result.files.length,2);assert.equal(result.files[0].path,asset);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>2000000);
  assert.equal(result.settings.maximum_dimension,3072);assert.equal(result.settings.quality,95);assert.equal(result.settings.chromaSubsampling,'4:4:4');
  const output=await readFile(path.join(dir,asset)),actual=await sharp(output).metadata(),original=await sharp(source).metadata();
  assert.equal(actual.width,1728);assert.equal(actual.height,3072);assert.equal(actual.width*original.height,actual.height*original.width);
  assert.equal(actual.orientation,original.orientation);assert.equal(actual.density,original.density);
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
  assert.ok(actual.exif);assert.notEqual(result.files[0].source_sha256,result.files[0].output_sha256);
- assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace(caption,caption+' Full frame, resized and compressed for web delivery.'));
- assert.ok((await readFile(path.join(dir,otherAsset))).equals(otherSource));
+ assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace(caption,caption+' Full frame, resized and compressed for web delivery.').replace(otherCaption,otherCaption+' Full frame, resized and compressed for web delivery.'));
+ const second=result.files.find(file=>file.path===otherAsset);assert.equal(second.status,'resized-and-compressed');assert.ok(second.saved_bytes>2400000);
+ const secondOutput=await readFile(path.join(dir,otherAsset)),secondMeta=await sharp(secondOutput).metadata(),secondOriginal=await sharp(otherSource).metadata();
+ assert.equal(secondMeta.width,3072);assert.equal(secondMeta.height,1728);assert.equal(secondMeta.width*secondOriginal.height,secondMeta.height*secondOriginal.width);
+ assert.equal(secondMeta.orientation,secondOriginal.orientation);assert.equal(secondMeta.density,secondOriginal.density);
+ for(const field of ['icc','iptc','xmp'])assert.deepEqual(secondMeta[field],secondOriginal[field]);
+ assert.ok(secondMeta.exif);assert.notEqual(second.source_sha256,second.output_sha256);
  assert.ok((await readFile(sourceURL)).equals(source));assert.ok((await readFile(otherURL)).equals(otherSource));
  }finally{await rm(dir,{recursive:true,force:true});}
 });

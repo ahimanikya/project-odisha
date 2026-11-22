@@ -5,6 +5,7 @@ import putsilImage from '../../../../kb/research/destinations/putsil-image.json'
 import mandasaruImage from '../../../../kb/research/destinations/mandasaru-image.json';
 import mahendragiriImage from '../../../../kb/research/destinations/mahendragiri-image.json';
 import taptapaniImage from '../../../../kb/research/destinations/taptapani-image.json';
+import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-chandragiri-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -66,4 +67,14 @@ export const taptapaniGuide = {
  aliases: ['Taptapani Hot Water Spring', 'Tapta Pani'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide].filter(guide => allowsPage(guide.href));
+export const jirangChandragiriGuide = {
+ title: 'Jirang–Chandragiri',
+ odia: '',
+ summary: 'A monastery and Tibetan settlement history in Gajapati’s hills.',
+ href: '/destinations/jirang-chandragiri/',
+ photo: jirangChandragiriImage,
+ regions: ['Gajapati'],
+ aliases: ['Jirang', 'Jeerang', 'Jirango', 'Chandragiri', 'Padmasambhava Mahavihara', 'Rigon Thupten Mindrolling', 'Phuntsokling'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide].filter(guide => allowsPage(guide.href));
