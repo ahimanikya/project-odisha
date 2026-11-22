@@ -1,0 +1,137 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_task_scoped_AI_review",
+  "reviewed_at": "2026-11-22T04:38:47.636718+00:00",
+  "status": "PASS",
+  "candidate": "d717c9beb1d59c2082f8bac3a74a07251574220b",
+  "deployed_merge": "3829f86f1d58ac8f3907274a095fe2010bd2417f",
+  "deployment": {
+    "run": 44983816493,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44983816493",
+    "head_sha": "3829f86f1d58ac8f3907274a095fe2010bd2417f",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "actual_payload_bytes": 999928292,
+    "regular_files": 3591,
+    "full_tests": 821,
+    "coastal_tests": 598,
+    "verification": "Independent fresh GitHub API and direct run log reads"
+  },
+  "fresh_http": {
+    "routes": [
+      {
+        "route": "/stories/bellaguntha-brass-fish/",
+        "status": 200,
+        "article_sha256": "f618ba5c719873bda9a62023fe3120cab4e69c20f80f2d1f54a40189dabe5509",
+        "exact_local": true
+      },
+      {
+        "route": "/crafts/balakati-metalcraft/",
+        "status": 200,
+        "article_sha256": "81979832fec013344ad163f07a7f89cbbc135e375feaf55670f01899a814a063",
+        "exact_local": false,
+        "only_one_recorded_url_substitution_yields_exact_equality": true
+      },
+      {
+        "route": "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/",
+        "status": 200,
+        "article_sha256": "892368280500f3648571caab99accf8626ac5593d9b15e104decf8535a7cb238",
+        "exact_local": true
+      }
+    ],
+    "new_article_references": 7,
+    "new_article_returns": 7,
+    "all_anchors_resolve": true,
+    "each_of_two_incoming_and_outgoing_paths_once": true,
+    "full_photo_credit_verified_in_live_html": true,
+    "original_and_three_variants": {
+      "all_http_200_and_byte_exact_local": true,
+      "original_sha256": "8255e44619f612b4c5c4abe62b1d45d874f1c3d28db56843e7449840a73165b0",
+      "original_bytes": 465627,
+      "original_dimensions": [
+        1000,
+        667
+      ],
+      "variants": [
+        {
+          "path": "/images/responsive/5c1ec09f237375aa-480.webp",
+          "bytes": 22716,
+          "dimensions": [
+            480,
+            320
+          ]
+        },
+        {
+          "path": "/images/responsive/dd5f46d1049bfc8d-960.webp",
+          "bytes": 71958,
+          "dimensions": [
+            960,
+            640
+          ]
+        },
+        {
+          "path": "/images/responsive/ef37842db77069b4-1000.webp",
+          "bytes": 77100,
+          "dimensions": [
+            1000,
+            667
+          ]
+        }
+      ]
+    }
+  },
+  "balakati_platform_exception": {
+    "source": "/assets/home-art/odissi-rehearsal-v1.webp",
+    "source_http_status": 200,
+    "source_sha256": "c0cf4cf310ecf1e21c10c52b743d5c140d32811efc1728025e573125d12c6545",
+    "source_byte_exact_local": true,
+    "local_variant": "/images/responsive/d56d266914463e00-480.webp",
+    "live_variant": "/images/responsive/7709f4b4aa26dd76-480.webp",
+    "live_status": 200,
+    "live_bytes": 25568,
+    "live_sha256": "7709f4b4aa26dd762225330e778f1d35c7405278d900fe7b825c89c4e5c5e8ba",
+    "both_dimensions": [
+      480,
+      320
+    ],
+    "decoded_rgba_difference": {
+      "maximum": 22,
+      "mean": 1.1676708984375,
+      "differing_channels": 294232,
+      "total_channels": 614400
+    },
+    "visual_comparison": "Independently inspected both variants: same scene and full frame, no material visible defect. Not byte- or pixel-identical.",
+    "scope": "Single existing Mardala preview URL only; all other Balakati article markup including new brass-fish preview equals reviewed local markup."
+  },
+  "screenshots": {
+    "viewed": [
+      "outputs/brass-fish-publication-20261122/live/desktop.jpg",
+      "outputs/brass-fish-publication-20261122/live/mobile.jpg",
+      "outputs/brass-fish-publication-20261122/live/photo-caption-return.jpg",
+      "outputs/brass-fish-publication-20261122/live/balakati-preview.jpg",
+      "outputs/brass-fish-publication-20261122/live/book-preview.jpg"
+    ],
+    "result": "PASS: readable desktop/mobile opening, full fish, caption and both incoming preview cards.",
+    "precision": "photo-caption-return.jpg (same bytes previously inspected under the name photo-credit.jpg) shows the caption after returning, not the complete source note. Full source note was checked in fresh live HTML and root browser text. Balakati preview visibility was verified from settled screenshot, not the earlier stale offscreen rectangle.",
+    "browser_operator": "Disha",
+    "reviewer_interactions": "None; reviewer independently fetched HTTP/HTML/assets and inspected saved screenshots.",
+    "limits": "Viewport evidence, not physical-device, cross-engine or screen-reader certification."
+  },
+  "receipt_scope": {
+    "current_status": "published_verified_receipt_pending",
+    "scope_released": false,
+    "foreign_current_task_and_handoff_home_unchanged": true,
+    "programme_credit": 0,
+    "receipt_only_diff": true,
+    "further_deployment_required": false,
+    "completion_fields": "Coordinator will reconcile after this review, followed by a short final receipt read.",
+    "historical_status_note": "Earlier preliminary/local_checks_so_far remaining fields should be identified as historical or superseded when reconciling final completion."
+  },
+  "blockers": [],
+  "limits": [
+    "Separate AI review, not human specialist approval.",
+    "No shared records, website files, merge or publication actions by reviewer.",
+    "Receipt merge and explicit coordination handoff remain pending."
+  ]
+}

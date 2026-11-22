@@ -10322,15 +10322,17 @@
       "id": "POD-WORK-2026112204",
       "title": "Publish Bellaguntha’s Brass Fish",
       "category": "delivery",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112204",
-      "next_action": "Integrate, review and verify publication; retain scope through merged receipt.",
+      "next_action": "Published and live verified; merge separately reviewed delivery receipt before explicit coordinated slot return.",
       "blockers": [],
       "refs": [
-        "POD-DEC-2026112204"
+        "POD-DEC-2026112204",
+        "POD-REV-2026112204",
+        "POD-REL-2026112204"
       ],
       "evidence": [
         "records/brass-fish-publication-20261122.json"
@@ -24889,6 +24891,28 @@
         "Root keyboard and viewport measurements attributed to root; six screenshots independently inspected.",
         "Final publication package, exact-head required CI, deployment and reviewed live receipt remain release gates."
       ]
+    },
+    {
+      "id": "POD-REV-2026112204",
+      "title": "Bellaguntha brass fish separate source, layout, package and delivery review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source continuity review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112204",
+        "POD-REL-2026112204"
+      ],
+      "evidence": [
+        "records/brass-fish-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root browser interactions attributed to root; screenshots and fresh live HTTP evidence independently reviewed.",
+        "Existing unrelated Mardala480px variant is visually equivalent across Linux/macOS encoding, not pixel-exact."
+      ]
     }
   ],
   "releases": [
@@ -29103,6 +29127,20 @@
       ],
       "evidence": [
         "records/mandasaru-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112204",
+      "title": "Bellaguntha’s Brass Fish",
+      "status": "published",
+      "authorization": "POD-DEC-2026112204",
+      "destination": "https://projectodisha.org/stories/bellaguntha-brass-fish/",
+      "refs": [
+        "POD-WORK-2026112204",
+        "POD-DEC-2026112204"
+      ],
+      "evidence": [
+        "records/brass-fish-publication-20261122.json"
       ]
     }
   ],
