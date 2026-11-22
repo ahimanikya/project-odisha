@@ -1561,3 +1561,10 @@ Mandasaru extension, 22 November 2026: mapped `places/mandasaru-article` after s
 ### Binchana preparation · 22 November 2026
 
 Reuse the [fan source dossier](../culture/binchana-source-review-20261122.json), [image provenance](../culture/binchana-image.json) and [draft](../culture/binchana-and-the-handmade-breeze.md). Scoped alias checks found no dedicated narrative; the existing art-collection hand-fan mention and Pipili craft account remain distinct. Antaranga Kalinga supplied the topic lead only. A 2019–21 plant-craft survey, dated local reporting and a museum catalogue support different material examples; none is a universal making tutorial or present market survey. The authentic photograph depicts decorated cloth, not palm leaf, and does not establish its maker or workshop. Preparation only; no public route added.
+
+
+### Paralakhemundi horn craft preparation · 22 November 2026
+
+Reuse the [draft](../culture/paralakhemundi-horn-craft.md), [source review](../culture/paralakhemundi-horn-source-review-20261122.json) and [image provenance](../culture/paralakhemundi-horn-image.json). Scoped aliases found no dedicated horn-craft narrative. Antaranga supplied a passing topic lead only. The district repertoire and cooperative listing remain undated; Panigrahi’s 2009 historical account is a synthesis, with its earlier survey/gazetteer uninspected. The process example is explicitly Cuttack. The credited museum horn-fish photograph does not establish Paralakhemundi manufacture. Three mapped records added; inventory1851. Preparation only, no public route or programme credit.
+
+Panchalingeswar extension, 22 November 2026: mapped `places/panchalingeswar-article` after scoped alias and map checks. Devagiri/Nilagiri hill-shrine identity, water and stair approach use district and tourism sources; unverified founding legends and current service claims are omitted. Original credited photograph attached. Horn-craft preparation preserved separately. Inventory1852; no exhaustive semantic deduplication claim or programme credit.

@@ -92,3 +92,5 @@
 [Bellaguntha’s Brass Fish](bellaguntha-brass-fish.md) — Independently researched article on an articulated metal object and named learning histories.
 
 [Binchana and the Handmade Breeze](binchana-and-the-handmade-breeze.md) — Independent draft on the hand fan’s materials and dated maker accounts, with a credited photograph.
+
+[Paralakhemundi’s Horn Craft: From Comb to Crane](paralakhemundi-horn-craft.md) — Original unpublished draft on material choices and workshop trade, with a credited museum photograph.

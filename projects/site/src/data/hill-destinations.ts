@@ -6,6 +6,7 @@ import mandasaruImage from '../../../../kb/research/destinations/mandasaru-image
 import mahendragiriImage from '../../../../kb/research/destinations/mahendragiri-image.json';
 import taptapaniImage from '../../../../kb/research/destinations/taptapani-image.json';
 import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-chandragiri-image.json';
+import panchalingeswarImage from '../../../../kb/research/destinations/panchalingeswar-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -77,4 +78,14 @@ export const jirangChandragiriGuide = {
  aliases: ['Jirang', 'Jeerang', 'Jirango', 'Chandragiri', 'Padmasambhava Mahavihara', 'Rigon Thupten Mindrolling', 'Phuntsokling'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide].filter(guide => allowsPage(guide.href));
+export const panchalingeswarGuide = {
+ title: 'Panchalingeswar',
+ odia: '',
+ summary: 'A hill shrine where flowing water covers five Shiva lingas.',
+ href: '/destinations/panchalingeswar/',
+ photo: panchalingeswarImage,
+ regions: ['Balasore'],
+ aliases: ['Panchalingeswar Temple', 'Panchalingeshwar', 'Panchalingeswara', 'Devagiri'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide].filter(guide => allowsPage(guide.href));
