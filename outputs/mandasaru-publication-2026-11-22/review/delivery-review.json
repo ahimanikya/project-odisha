@@ -1,0 +1,120 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "pass",
+  "reviewed_at": "2026-11-22T02:57:39.500703+00:00",
+  "scope": "Mandasaru live delivery and evidence-only receipt candidate before final review integration and commit",
+  "publication_head": "e4898ffa55e10556ad4154561310c434f989eb88",
+  "publication_merge": "853c7156fb4a72b2e8e9e69ea38fa14728dd8ad6",
+  "independent_release_checks": {
+    "pr": 820,
+    "state": "MERGED",
+    "ci_run": 44973523170,
+    "ci_conclusion": "success",
+    "deployment_run": 44975805693,
+    "deployment_conclusion": "success",
+    "deployment_source_matches_merge": true,
+    "full_tests": 821,
+    "coastal_tests": 598,
+    "ci_and_deployment_payload_bytes": 999804913,
+    "strict_payload_limit_bytes": 1000000000,
+    "disclosure_page_counts": {
+      "full": 1491,
+      "coast": 1476,
+      "publication": 1477
+    },
+    "method": "Read-only GitHub PR/run responses and actual release logs."
+  },
+  "independent_live_checks": {
+    "verified_routes": [
+      "/destinations/mandasaru/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "all_http_status": 200,
+    "single_article_h1": true,
+    "native_reference_and_return_targets": 10,
+    "all_targets_resolve": true,
+    "ids_unique": true,
+    "sharing_image_matches": true,
+    "article_sha256": "b6503222e5051dd6251148f6042dd59b0cffd434a214750bcc0c3980caad9327",
+    "exact_article_matches_reviewed_local": true,
+    "normalization_required": false,
+    "delivery_jpeg": {
+      "bytes": 553693,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "15cd0dc63507920f9eb1a6c5dfe064f2497ae47487e6784a38d25128cafe3f13",
+      "matches_reviewed_asset": true
+    },
+    "mandasaru_unique_responsive_dimensions": [
+      [
+        480,
+        320
+      ],
+      [
+        960,
+        640
+      ],
+      [
+        1440,
+        960
+      ]
+    ],
+    "all_article_responsive_files_checked": 6,
+    "variant_scope": "Three Mandasaru variants plus three Daringbadi reading-path variants. Every live filename SHA-256 prefix verified. Mandasaru dimensions match descriptors and 3:2 geometry.",
+    "incoming_preview_checks": "All three incoming cards contain the actual article link, illustration and visible Illustration label. Their credit sections have no empty anchors and retain existing photograph credits/licence links.",
+    "method": "Fresh HTTPS reads, in-memory image decoding/hashing and HTML parsing."
+  },
+  "screenshot_review": {
+    "status": "pass",
+    "files": [
+      "live-desktop.jpg",
+      "live-mobile.jpg",
+      "live-footnotes.jpg",
+      "live-preview.jpg",
+      "live-explore-preview.jpg"
+    ],
+    "capture_owner": "Disha",
+    "independent_action": "Drishti visually inspected all five saved live screenshots.",
+    "observed": "Readable desktop/mobile title, Founder byline, full-frame interpretive illustration and explicit qualification; five-note list with returns; labelled Hills and Explore cards. No visible clipping issue in reviewed views.",
+    "interaction_attribution": "Keyboard note/return, focus, filter behavior, exact dimensions and overflow are Disha browser observations, not interactions independently repeated by Drishti.",
+    "keyboard_limit": "Disha records note top -0.21875px, return reference visible at 412.3984375px with correct focus. No claim that the return reference was at viewport top."
+  },
+  "resolved_evidence_issue": {
+    "field": "live/browser-review.json preview.label",
+    "original_measurement": false,
+    "resolution": "Original false retained with a case-sensitive diagnostic limitation; visible_illustration_label true is separately supported by actual HTML and independently viewed screenshot. Saved and canonical browser records match.",
+    "status": "resolved_without_website_change"
+  },
+  "receipt_review": {
+    "status": "pass",
+    "website_source_changes": false,
+    "programme_credit": 0,
+    "deployment_required": false,
+    "brass_fish_files_preserved": 10,
+    "comparison_base": "853c7156fb4a72b2e8e9e69ea38fa14728dd8ad6",
+    "foreign_current_task_unchanged": true,
+    "activity_history_exact_byte_prefix": true,
+    "existing_register_records_preserved_except": [
+      "POD-WORK-2026112296"
+    ],
+    "new_active_article_count": 0,
+    "scope_release": "Only after the separately reviewed receipt merges; Mahendragiri remains queued.",
+    "brass_exclusion": "Prior independent full/coastal/final marker, path and original-byte scans passed; website source remains unchanged from the reviewed publication merge.",
+    "subsequent_user_confirmation": "Canonical receipt and internal media provenance consistently record the coordinator-reported user quote “Use a clearly captioned illustration”, received after publication during receipt review. Timing is explicit and original default-under-standing-authorization history is preserved; no retroactive approval claim.",
+    "reason_no_deployment": "Internal records, provenance annotation and captured evidence only."
+  },
+  "required_fixes": [],
+  "remaining_gate": "Coordinator may integrate this accurately attributed review and actual review event, regenerate views, commit the evidence-only receipt, pass required exact-head checks and merge before starting another article.",
+  "limits": [
+    "Separate AI review, not human specialist approval or field verification.",
+    "The artwork is an interpretive illustration, not a documentary photograph or verified viewpoint.",
+    "Screenshots do not certify physical-device, screen-reader or cross-engine behavior.",
+    "Receipt commit, required checks and merge remain pending at this review point.",
+    "Brass-draft exclusion is scoped marker/original-byte checking, not perceptual detection of every possible transformed image."
+  ]
+}

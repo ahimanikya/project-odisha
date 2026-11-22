@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bc4979fa8b101cc2087adfe1c6773117a8cbadc3da4fffd446b76033e0469ac6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `55573464ba72aea482d0ab5347f9186cca7765c394e2c1cd6189d37d69040c90`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -396,7 +396,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112203 · Prepare Bellaguntha brass fish article | completed | reviewed | Ahimanikya Satapathy | Reviewed draft, photograph and publication brief delivered locally; no website integration or publication. Coordinated preparation scope released. | — |
 | POD-WORK-2026112294 · Research, review and publish Daringbadi | completed | published | Ahimanikya Satapathy | Daringbadi and both credited photographs are published and live verified; delivery receipt saved for independent review and integration. | — |
 | POD-WORK-2026112295 · Research, review and publish Putsil | completed | published | Ahimanikya Satapathy | Putsil and its credited article/preview photograph are published and live verified; delivery receipt saved for separate review and integration. | — |
-| POD-WORK-2026112296 · Research, review and publish Mandasaru | in_progress | reviewed | Ahimanikya Satapathy | Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article. | — |
+| POD-WORK-2026112296 · Research, review and publish Mandasaru | completed | published | Ahimanikya Satapathy | Mandasaru and its clearly captioned article/preview illustration are published and live verified; delivery receipt saved for separate review and integration. | — |
 
 ## Pending human review and decisions
 
@@ -1388,6 +1388,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112291 · Deomali: Grasslands Above Koraput | published | https://projectodisha.org/destinations/deomali/ | POD-DEC-2026112291 |
 | POD-REL-2026112294 · Daringbadi: Coffee, Shade and Hill Views | published | https://projectodisha.org/destinations/daringbadi/ | POD-DEC-2026112291 |
 | POD-REL-2026112295 · Putsil: A Valley in Koraput’s Hills | published | https://projectodisha.org/destinations/putsil/ | POD-DEC-2026112291 |
+| POD-REL-2026112296 · Mandasaru: A Gorge and the Forest Around It | published | https://projectodisha.org/destinations/mandasaru/ | POD-DEC-2026112291 |
 
 ## Sources and assets
 
@@ -1425,8 +1426,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112295 | 2026-11-21T22:14:14.796817+00:00 | Separate source and integrated quality review passed with explicit limits. Two licensed credited photographs attached; article/preview/sharing and native notes checked. Full821 and coast597tests pass. Work remains in progress pending exact-head CI, deployment, live verification and reviewed receipt. Brass-fish draft preserved and excluded from intended public scope;zero programme credit. | — |
-| POD-EVT-2026112296 | 2026-11-21T22:48:35.077700+00:00 | PR816 merged exact reviewed head8a13741f after requiredCI44955851469 passed;821full/597coast tests,zero disclosure violations and998163589byte payload. Authorized deployment44958538048 started from merge09c75120. Live verification and reviewed receipt remain pending;single article scope retained. | — |
 | POD-EVT-2026112297 | 2026-11-21T23:18:41.098311+00:00 | Deployment44958538048 succeeded from reviewed merge09c75120 with998163589bytes. Four live routes, both original photo hashes,three unique responsive variants,12native reference/return targets,article text and photographed previews verified. Desktop/mobile browser review includes coffee image and source-note list. Receipt is evidence-only;next article waits for independent receipt review and merge. Zero programme credit. | — |
 | POD-EVT-2026112298 | 2026-11-21T23:22:17.645253+00:00 | Separate Drishti live-delivery and receipt review passed with no fixes. Exact-head CI, deployment, four fresh routes, photo bytes, source-note navigation, article continuity and five screenshots verified. Foreign records and completed brass-fish draft preserved. Receipt-only integration needs no deployment; single-article scope releases after its merge. | — |
 | POD-EVT-2026112299 | 2026-11-21T23:50:28.176064+00:00 | Verified receipt817 exact head e72f0d45 passed required44961576713 and merged at8e8a4c8a. Single article scope now Putsil after reuse search. Completed brass-fish draft and foreign task preserved. Zero programme credit. | — |
@@ -1435,6 +1434,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261122102 | 2026-11-22T01:00:39.354337+00:00 | Separate Drishti review verified remote publication checks, four fresh live routes, exact original image, nine responsive files and all four live screenshots. Evidence-only receipt ready for required checks and merge; Mandasaru remains queued until integration. | — |
 | POD-EVT-20261122103 | 2026-11-22T01:28:48.984570+00:00 | Verified Putsil receipt819 exact head1e88e8cb passed required44969462882 and merged at0aa84479. Mandasaru is the next single article after reuse checks. Foreign draft and task preserved; zero programme credit. | — |
 | POD-EVT-20261122104 | 2026-11-22T01:50:56.013884+00:00 | Separate Anvesha source and Drishti integrated review passed. Original interpretive illustration attached to article/preview/sharing. Root desktop/mobile/narrow and source-note navigation passed;821full and598coast tests passed. Final-package/CI/deployment/live receipt remain pending. Foreign draft and task preserved;zero programme credit. | — |
+| POD-EVT-20261122105 | 2026-11-22T02:53:55.784023+00:00 | Mandasaru PR820 merged after exact-head required checks; deployment 44975805693 succeeded. Article, three incoming routes, original illustration hash, responsive variants and live desktop/mobile presentation verified. Separate delivery review and evidence-only receipt merge remain required; zero programme credit. | — |
+| POD-EVT-20261122106 | 2026-11-22T02:59:02.651606+00:00 | Separate Drishti review passed actual CI/deployment/live receipt. Founder subsequently explicitly confirmed clearly captioned illustration; original decision timing preserved. Verified new brass-fish publication instruction in owner chat and reserved next slot after this receipt merge; Mahendragiri deferred until explicit return. No website changes or programme credit. | — |
 
 ## Deferred extensions
 

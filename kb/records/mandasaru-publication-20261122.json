@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_release_gates_pending",
+  "status": "published_verified",
   "article_id": "POD-EDIT-MANDASARU-20261122",
   "route": "/destinations/mandasaru/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Complete the research and review for Deomali and publish it, then continue with the other hill destinations, one article at a time.",
   "work_id": "POD-WORK-2026112296",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "0aa8447922e78a3208978408d5f1f6dc31d20ec2",
   "preceding_release": {
     "article": "Putsil",
@@ -18,7 +18,7 @@
     "conclusion": "success"
   },
   "coordination": {
-    "brass_fish": "Completed preparation preserved, not authorized for dedicated website publication.",
+    "brass_fish": "Completed preparation preserved. Founder subsequently authorized integration/publication in its owner chat; next slot reserved after Mandasaru receipt merge.",
     "foreign_task": "POD-EDIT-133 preserved"
   },
   "assignments": {
@@ -71,7 +71,7 @@
     "missing_question": "What defines Mandasaru’s gorge and forest landscape, what primary visitor/access evidence is available, and which authentic photograph is usable with clear rights?"
   },
   "image_requirement": "High-quality relevant image attached to article, preview and sharing metadata; additional images where useful.",
-  "next_action": "Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article.",
+  "next_action": "Merge this reviewed delivery receipt, then hand the single-article slot to the Research Antaranga Kalinga chat for its newly authorized brass-fish publication. Resume Mahendragiri after that chat returns the slot with a merged delivery receipt.",
   "remote_reconciliation": {
     "main": "0aa8447922e78a3208978408d5f1f6dc31d20ec2",
     "open_prs": [
@@ -201,7 +201,61 @@
     "full_tests": 821,
     "coastal_build": "pass",
     "coastal_tests": 598,
-    "publication_build": "running",
+    "publication_build": "pass",
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 999034017,
+      "regular_files": 3586,
+      "directories": 813,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 87250,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+          "bytes": 190064100
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+          "bytes": 51351553
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+          "bytes": 38421623
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "archive/mirgan-kotpad-reading.pdf",
+          "bytes": 7410047
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "assets/bhubaneswar-week/conversations.jpg",
+          "bytes": 4296333
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
     "disclosures": {
       "full": {
         "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
@@ -212,8 +266,234 @@
         "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
         "pages": 1476,
         "violations": []
+      },
+      "publication": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-publish",
+        "pages": 1477,
+        "violations": []
       }
     },
-    "scope": "Actual local checks; no final-package, CI, publication or live claim yet."
+    "reviewed_head": "e4898ffa55e10556ad4154561310c434f989eb88",
+    "retention_and_exclusion": "local-checks.json",
+    "scope": "Actual macOS package; required Linux CI and deployment remain independent gates."
+  },
+  "completed_at": "2026-11-22T02:53:55.784023+00:00",
+  "pull_request": 820,
+  "reviewed_head": "e4898ffa55e10556ad4154561310c434f989eb88",
+  "merge_sha": "853c7156fb4a72b2e8e9e69ea38fa14728dd8ad6",
+  "ci": {
+    "run": 44973523170,
+    "conclusion": "success",
+    "full_tests": 821,
+    "coast_tests": 598,
+    "payload_bytes": 999804913,
+    "disclosure_pages": {
+      "full": 1491,
+      "coast": 1476,
+      "publication": 1477
+    },
+    "disclosure_violations": 0
+  },
+  "deployment": {
+    "run": 44975805693,
+    "conclusion": "success",
+    "source_sha": "853c7156fb4a72b2e8e9e69ea38fa14728dd8ad6",
+    "attempt": 1,
+    "payload_bytes": 999804913
+  },
+  "release_continuity_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_release_conditions",
+    "evidence": "outputs/mandasaru-publication-2026-11-22/review/drishti-release-check.md"
+  },
+  "live_verification": {
+    "/destinations/mandasaru/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "illustration_present": true,
+      "reference_and_return_targets": 10,
+      "all_targets_resolve": true,
+      "article_sha256": "b6503222e5051dd6251148f6042dd59b0cffd434a214750bcc0c3980caad9327",
+      "local_article_sha256": "b6503222e5051dd6251148f6042dd59b0cffd434a214750bcc0c3980caad9327",
+      "normalized_article_matches_local": true,
+      "normalization": "Only content-addressed responsive WebP filenames; each live variant fetched and SHA256 prefix verified.",
+      "source_heading_count": 1,
+      "matching_share_image": true,
+      "hero_variants": [
+        {
+          "path": "/images/responsive/9ca41c8d55fd8741-480.webp",
+          "width_descriptor": "480w",
+          "bytes": 38104,
+          "sha256": "9ca41c8d55fd87417a75f0649c498b8c8f1a24891d65b95c24b42a86d8472cb2",
+          "dimensions": [
+            480,
+            320
+          ]
+        },
+        {
+          "path": "/images/responsive/1e36c4c89d345737-960.webp",
+          "width_descriptor": "960w",
+          "bytes": 126144,
+          "sha256": "1e36c4c89d34573706a111d2f71197365bdbf726daa1dc12924100cf7a887c90",
+          "dimensions": [
+            960,
+            640
+          ]
+        },
+        {
+          "path": "/images/responsive/6835ff0dd2fdaee4-1440.webp",
+          "width_descriptor": "1440w",
+          "bytes": 244220,
+          "sha256": "6835ff0dd2fdaee4276b15911da3db81bcfc1bcbbcf94c57b7d8d7492faab139",
+          "dimensions": [
+            1440,
+            960
+          ]
+        }
+      ],
+      "exact_article_matches_local": true
+    },
+    "/destinations/hills/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "mandasaru_link": true,
+      "illustration_present": true
+    },
+    "/destinations/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "mandasaru_link": true,
+      "illustration_present": true
+    },
+    "/explore/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "mandasaru_link": true,
+      "illustration_present": true
+    },
+    "illustration_image": {
+      "path": "/images/destinations/mandasaru-forest-illustration.jpg",
+      "http_status": 200,
+      "bytes": 553693,
+      "sha256": "15cd0dc63507920f9eb1a6c5dfe064f2497ae47487e6784a38d25128cafe3f13",
+      "matches_reviewed_asset": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "checked_at": "2026-11-22T02:50:43.635165+00:00"
+  },
+  "live_browser_review": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "surface": "Live site in in-app Chromium",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "limits": "Viewport simulation, not physical-device, screen-reader or cross-engine certification. Root performed interactions and measurements; separate screenshot review pending.",
+    "desktop": {
+      "dimensions": [
+        695.203125,
+        463.46875
+      ],
+      "h1": 1,
+      "loaded": true,
+      "overflow": false
+    },
+    "mobile": {
+      "dimensions": [
+        351.609375,
+        234.40625
+      ],
+      "loaded": true,
+      "overflow": false,
+      "top": 429.8125
+    },
+    "noteTop": -0.21875,
+    "returnLink": {
+      "focused": "user-content-fnref-board",
+      "top": 412.3984375
+    },
+    "preview": {
+      "height": 237.328125,
+      "label": false,
+      "loaded": true,
+      "overflow": false,
+      "width": 356,
+      "label_measurement_limit": "The case-sensitive innerText.includes(\"Illustration\") diagnostic returned false because the eyebrow is rendered uppercase (ILLUSTRATION). The screenshot and rendered HTML independently verify the visible label; this false value is not an absence claim.",
+      "visible_illustration_label": true,
+      "label_verification": "Rendered card contains explicit Illustration paragraph; root and separate reviewer visually verified live-preview.jpg."
+    },
+    "explore": {
+      "emptyCreditAnchors": 0,
+      "overflow": false,
+      "resultText": "2 entries found · “Mandasaru”"
+    },
+    "screenshots": [
+      "review/live-desktop.jpg",
+      "review/live-mobile.jpg",
+      "review/live-footnotes.jpg",
+      "review/live-preview.jpg",
+      "review/live-explore-preview.jpg"
+    ],
+    "reciprocal_paths": [
+      "Mandasaru to hills collection and back"
+    ],
+    "first_footnote_and_return_keyboard": "pass; note at viewport top, return reference visible and correctly focused"
+  },
+  "verified_routes": [
+    "/destinations/mandasaru/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "gate_resolution": "Publication PR820 exact-head required checks, deployment and live checks passed. Independent receipt review and integration remain the final scope-release condition.",
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records, live checks and screenshots. Website source remains merge 853c7156fb4a72b2e8e9e69ea38fa14728dd8ad6.",
+    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/mandasaru-publication-2026-11-22/review/delivery-review.json",
+    "checks": [
+      "Exact-head CI and deployment independently verified with999804913byte payload.",
+      "Four fresh live routes, byte-exact article, original illustration hash/dimensions and all six article responsive files verified.",
+      "Five live screenshots separately inspected; native anchors and clearly labelled previews pass.",
+      "Foreign task, ten brass-fish preparation files and activity prefix preserved; zero programme credit; no website changes."
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist approval or field verification.",
+      "Viewport simulation and screenshots do not certify physical-device, screen-reader or cross-engine behavior.",
+      "Preview uppercase-label diagnostic false retained with explicit measurement explanation and separate visible-label verification."
+    ]
+  },
+  "user_image_confirmation": {
+    "quote": "Use a clearly captioned illustration",
+    "question": "For Mandasaru, the photographs found so far have unclear reuse rights or an uncertain location. If a suitable licensed photograph remains unavailable, may I use a clearly captioned landscape illustration in the article and preview?",
+    "received_on": "2026-11-22",
+    "timing": "Explicit user response received after publication and live verification, during receipt review; does not retroactively replace the original coordinator-default record."
+  },
+  "next_slot_handoff": {
+    "target_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "topic": "Bellaguntha’s Brass Fish",
+    "status": "reserved_after_receipt_merge",
+    "human_instruction_verified": true,
+    "human_instruction_quote": "Go ahead and integrate the Bellaguntha brass fish article into Project Odisha, check the layout on mobile and desktop, and publish it with the credited image and links from relevant existing articles.",
+    "verification": "Read actual human userMessage in owner chat via read_thread,22November2026.",
+    "next_hill_after_return": "mahendragiri",
+    "capacity_note": "Actual Linux payload999804913bytes. Read-only diagnosis identifies537228bytes previously measured lossless savings from six unchanged PNGs in existing capacity report; no optimization edits made."
   }
 }

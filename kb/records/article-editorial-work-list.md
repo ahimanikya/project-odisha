@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1363. blocked: 1, completed: 226, excluded: 872, in_progress: 1, queued: 263.
+Route inventory: 1363. blocked: 1, completed: 227, excluded: 872, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1386,4 +1386,4 @@ Route inventory: 1363. blocked: 1, completed: 226, excluded: 872, in_progress: 1
 | POD-EDIT-HILLS-INDEX-20261122 | [Hills and highland escapes](https://projectodisha.org/destinations/hills/) | excluded | Navigation for the sequential destination articles. |
 | POD-EDIT-DARINGBADI-20261122 | [Daringbadi: Coffee, Shade and Hill Views](https://projectodisha.org/destinations/daringbadi/) | completed | Researched hill-town article with rights-cleared article/preview photograph; zero programme credit. |
 | POD-EDIT-PUTSIL-20261122 | [Putsil: A Valley in Koraput’s Hills](https://projectodisha.org/destinations/putsil/) | completed | Researched hill destination article with rights-cleared article/preview photograph; zero programme credit. |
-| POD-EDIT-MANDASARU-20261122 | [Mandasaru: A Gorge and the Forest Around It](https://projectodisha.org/destinations/mandasaru/) | in_progress | Researched hill destination article with rights-cleared article and preview photograph; zero programme credit. |
+| POD-EDIT-MANDASARU-20261122 | [Mandasaru: A Gorge and the Forest Around It](https://projectodisha.org/destinations/mandasaru/) | completed | Researched hill destination article with rights-cleared article and preview photograph; zero programme credit. |
