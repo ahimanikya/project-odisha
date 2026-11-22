@@ -1,0 +1,134 @@
+{
+  "status": "pass",
+  "reviewer": "Drishti, separate AI subagent",
+  "checked_at": "2026-11-22T16:08:54.399879+00:00",
+  "human_review_claimed": false,
+  "scope": "Independent live delivery and existing evidence continuity. Final integrated and exact committed receipt review remain separate gates.",
+  "publication": {
+    "pr": 832,
+    "reviewed_head": "0ea785ae3751cbc40d2f1c3e08fa93b940dc1681",
+    "merge_commit": "d38bf2389c0e5f8b906cecbe17ad44fbea8c7fd4",
+    "merged_at": "2026-11-22T15:34:49Z",
+    "merge_tree_equals_reviewed_tree": true,
+    "ci_run": 45036327604,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "deployment_run": 45039147170,
+    "deployment_attempt": 1,
+    "deployment_conclusion": "success",
+    "deployment_head": "d38bf2389c0e5f8b906cecbe17ad44fbea8c7fd4",
+    "independent_evidence": "Fresh GitHub PR/run metadata and actual remote log reads. Full822/coastal598 tests passed; actual CI and deployment payloads both999124531bytes/3615files."
+  },
+  "payload": {
+    "linux_bytes": 999124531,
+    "files": 3615,
+    "limit_bytes": 1000000000,
+    "remaining_bytes": 875469,
+    "local_bytes": 998346917,
+    "local_linux_distinction_preserved": true
+  },
+  "fresh_http": {
+    "verified_routes": [
+      "/destinations/panchalingeswar/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "all_status_200": true,
+    "image_files_fetched": 9,
+    "responsive_files": 8,
+    "all_fresh_hashes_match_saved_evidence": true,
+    "all_images_byte_exact_local": true,
+    "all_responsive_hash_prefixes_checked": true,
+    "responsive_substitutions": [],
+    "article_fragment_byte_exact": true,
+    "article_fragment_sha256": "f497f1e11e5005b9929da769e1448dfa56ea05f44ab50b359ae6d1f3ba2e86eb",
+    "normalization": "None required or applied.",
+    "native_reference_return_links": 8,
+    "original_photo": {
+      "bytes": 565011,
+      "width": 838,
+      "height": 1117,
+      "sha256": "f1ac167d83f4536cfa32481a27e7fb1fb7de27d561041c8b8d82f21ec3cc4ca6"
+    },
+    "hero_variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "bytes": 92562,
+        "sha256": "95656e6bb719c7c2b4f26afe693d0ef72ce7b68df2caae52bba70a10d7945961"
+      },
+      {
+        "width": 838,
+        "height": 1117,
+        "bytes": 226952,
+        "sha256": "9d33ef262e4691151b958bd0ec284ecb3a75fd95453bc4366715664c98b1e31e"
+      }
+    ],
+    "image_measurement": "Independently read all9actual file dimensions and checked hashes. All equal local output; no encoding exception.",
+    "credit_and_preview": "Actual article and all3incoming hub HTML files retain selected photo and creator/Commons/licence links. Exact article includes reviewed sharing metadata and reading paths."
+  },
+  "visual_review": {
+    "screenshots_viewed": [
+      "live-desktop.jpg",
+      "live-portrait-credit.jpg",
+      "live-footnotes.jpg",
+      "live-mobile.jpg",
+      "live-mobile-credit.jpg",
+      "live-mobile-preview.jpg",
+      "live-preview.jpg",
+      "live-explore-preview.jpg"
+    ],
+    "result": "pass",
+    "finding": "Readable title, byline, body and credit at both widths. Complete desktop hill card is visible with appropriate water/garland crop; mobile and Explore partial-card captures show correct image/title/summary without visible distortion. All3source notes/returns and expanded onward links are legible. No blocking layout or image-quality finding.",
+    "browser_actor": "Disha performed CUA actions; Drishti independently viewed saved screenshots and JSON, without browser interaction.",
+    "recorded_viewports": [
+      {
+        "width": 1280,
+        "height": 900,
+        "overflow": false,
+        "hero_rendered": [
+          480,
+          640
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "overflow": false,
+        "hero_rendered": [
+          351.609375,
+          468.8125
+        ]
+      }
+    ],
+    "interaction_attribution": "Root clicked reference1 and observed source hash, then pressed Enter on its return control and observed correct reference hash/focus. No independent interaction or numerical scroll-top measurement claimed.",
+    "limits": [
+      "Initial hero views extend below viewport; paired credit views establish lower photograph and full credit.",
+      "Footnotes screenshot begins at note1 and does not itself show the heading; root DOM evidence and exact reviewed markup establish it separately.",
+      "Mobile hill and desktop Explore screenshots begin within the photograph. They are not full-card captures. Full desktop hill and prior local mobile/Explore views provide complementary framing evidence.",
+      "Preview credit disclosures remain collapsed in screenshots; actual HTTP markup was independently checked.",
+      "Chromium viewport simulation only; no physical-device, cross-engine, screen-reader, broad keyboard or human-specialist audit."
+    ]
+  },
+  "source_limits": [
+    "Desk research, not a visit or current access/water-safety assurance.",
+    "Photo identity rests on photographer attribution and consistency with official setting; no exact official rock-geometry match or independent geolocation.",
+    "File-page date13April2011 and EXIF28January2011 remain distinguished internally; no exact capture day claimed publicly.",
+    "No five individually visible lingas inferred from image; unavailable Endowment festival claims omitted."
+  ],
+  "preservation": {
+    "public_and_research_diff_from_publication_merge_empty": true,
+    "all10horn_preparation_hashes_match": true,
+    "foreign_current_task_unchanged": true,
+    "foreign_handoff_home_unchanged": true,
+    "activity_exact_prefix_preserved": true,
+    "programme_credit": 0,
+    "scope_released": false,
+    "export_boundary": "Known unpublished horn draft/image excluded in independently reviewed local3edition scans; no new source/export changes in receipt. This review does not claim an exhaustive live-site semantic scan.",
+    "next_slot": "Horn-craft publication only after Panchalingeswar reviewed receipt merge and explicit handoff."
+  },
+  "blockers": [],
+  "readiness": "Live delivery accepted. Integrate actual successful deployment, live review and receipt records; current canonical deployment_in_progress field is pre-integration state, not the observed final result. Final receipt continuity, required receipt CI and merge remain before slot handoff.",
+  "writes": "Only this reserved delivery-review.json. No public/shared source, Git, build or browser changes."
+}
