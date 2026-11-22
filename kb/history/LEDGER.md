@@ -1663,3 +1663,5 @@ Published the separately reviewed reading guide and incoming link from A Place t
 - 2026-11-22 — Deomali destination article research and publication authorized; separate research/implementation/review, mandatory credited article and preview image. records/deomali-publication-20261122.json; zero programme credit.
 
 - 2026-11-22 — Prepared and separately reviewed Bellaguntha’s Brass Fish after Deomali receipt815 merged and explicit coordinated handoff. Independent sources, unchanged licensed photograph and preview brief delivered locally; no publication or programme credit. [Preparation receipt](../records/brass-fish-article-preparation-20261122.json).
+
+- 2026-11-22 — Brass-fish receipt823 verified merged and shared publication slot returned. Mahendragiri article prepared with original conservation and monument records, a dated botanical study and a licensed landscape photograph. Separate source and integrated reviews passed; publication gates remain pending. [Scoped receipt](../records/mahendragiri-publication-20261122.json). Zero programme credit.

@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains three explicit photos',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg']));
+test('JPEG delivery scope remains four explicit photos',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg']));
 test('delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -41,5 +41,31 @@ test('Bhagabata delivery preserves the full frame and source credits with a phot
  assert.match(changedHTML,/<meta name="unrelated:width" content="4208">/);
  assert.match(changedHTML,/<img src="\/images\/stories\/bhagabata-tungi-2016.jpg" width="4208" height="2368">/);
  assert.ok(changedHTML.includes(credit));assert.ok((await readFile(sourceURL)).equals(source));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+test('Bhubaneswar delivery retains the source, photo URL, credit, second photo and sharing metadata',async()=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-bhubaneswar-jpeg-'));
+ try{
+ const asset='assets/bhubaneswar-week/conversations.jpg',otherAsset='assets/bhubaneswar-week/mentis-films.jpg',page='stories/bhubaneswar-week/index.html';
+ const sourceURL=new URL('../public/'+asset,import.meta.url),otherURL=new URL('../public/'+otherAsset,import.meta.url);
+ const source=await readFile(sourceURL),otherSource=await readFile(otherURL);
+ const caption='A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy.';
+ const otherCaption='At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy.';
+ const sharing='<meta property="og:image" content="https://projectodisha.org/assets/bhubaneswar-week/poem-conversations-v1.png"><meta property="og:image:width" content="1536"><meta property="og:image:height" content="1024">';
+ const html=sharing+`<figure><img src="/${asset}" width="3213" height="5712"><figcaption>${caption}</figcaption></figure><figure><img src="/${otherAsset}" width="5712" height="3213"><figcaption>${otherCaption}</figcaption></figure>`;
+ await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);await writeFile(path.join(dir,otherAsset),otherSource);
+ await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
+ const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+ assert.equal(result.files.length,1);assert.equal(result.files[0].path,asset);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>2000000);
+ assert.equal(result.settings.maximum_dimension,3072);assert.equal(result.settings.quality,95);assert.equal(result.settings.chromaSubsampling,'4:4:4');
+ const output=await readFile(path.join(dir,asset)),actual=await sharp(output).metadata(),original=await sharp(source).metadata();
+ assert.equal(actual.width,1728);assert.equal(actual.height,3072);assert.equal(actual.width*original.height,actual.height*original.width);
+ assert.equal(actual.orientation,original.orientation);assert.equal(actual.density,original.density);
+ for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
+ assert.ok(actual.exif);assert.notEqual(result.files[0].source_sha256,result.files[0].output_sha256);
+ assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace(caption,caption+' Full frame, resized and compressed for web delivery.'));
+ assert.ok((await readFile(path.join(dir,otherAsset))).equals(otherSource));
+ assert.ok((await readFile(sourceURL)).equals(source));assert.ok((await readFile(otherURL)).equals(otherSource));
  }finally{await rm(dir,{recursive:true,force:true});}
 });

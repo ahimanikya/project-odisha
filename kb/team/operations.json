@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-BRASSFISH-20261122",
-    "route": "/stories/bellaguntha-brass-fish/",
+    "id": "POD-EDIT-MAHENDRAGIRI-20261122",
+    "route": "/destinations/mahendragiri/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/brass-fish-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Effective only when this evidence-only receipt branch merges into main; until then Disha retains the slot. Explicit handoff then returns it for Mahendragiri."
+    "phase": "reviewed",
+    "handoff": "records/mahendragiri-publication-20261122.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -666,12 +665,20 @@
       "handoff": "records/putsil-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+    },
+    {
+      "id": "POD-EDIT-BRASSFISH-20261122",
+      "route": "/stories/bellaguntha-brass-fish/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/brass-fish-publication-20261122.json",
+      "scope_released": true,
+      "release_condition": "Effective only when this evidence-only receipt branch merges into main; until then Disha retains the slot. Explicit handoff then returns it for Mahendragiri."
     }
   ],
   "next_article_coordination": {
-    "status": "mandasaru_receipt_pending_merge_then_brass_fish",
-    "completed_preparation": "records/brass-fish-article-preparation-20261122.json",
-    "owner_chat": "Research Antaranga Kalinga",
-    "scope": "Brass-fish publication newly authorized by Founder in owner chat. Next slot reserved only after Mandasaru receipt merge; Mahendragiri remains queued until brass-fish receipt merges and slot is returned."
+    "status": "mahendragiri_active",
+    "owner_chat": "Odisha hill destinations",
+    "scope": "Brass-fish receipt823 merged and explicit slot returned; Mahendragiri is sole active article."
   }
 }
