@@ -10433,6 +10433,24 @@
       "evidence": [
         "records/jirang-chandragiri-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112207",
+      "title": "Prepare Paralakhemundi’s horn craft article",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112207",
+      "next_action": "Deliver reviewed draft, credited original photograph and publication brief. Return preparation slot to hill-series chat for Panchalingeswar after local evidence commit; no website integration/publication.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112207"
+      ],
+      "evidence": [
+        "records/antaranga-next-preparation-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -15793,6 +15811,21 @@
       "refs": [],
       "evidence": [
         "records/binchana-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112207",
+      "title": "Prepare next independent article after Jirang–Chandragiri",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Is Jirang–Chandragiri’s release and live review complete now? If so, prepare the next article on an uncovered Antaranga Kalinga topic with independent research and a credited image. Don’t copy their content.",
+      "scope": "One independently researched article preparation with credited image; no publication or website integration.",
+      "refs": [],
+      "evidence": [
+        "records/antaranga-next-preparation-20261122.json"
       ]
     }
   ],
@@ -25167,6 +25200,29 @@
         "Chromium viewport simulation only, not cross-engine or assistive-technology review.",
         "Three delivered encodings differ in bytes and pixels from local candidates; measured and visually accepted, with no cause asserted.",
         "Single-article slot release is conditional on actual reviewed receipt merge and explicit handoff."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112207",
+      "title": "Independent horn-craft preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112207",
+        "POD-DEC-2026112207"
+      ],
+      "evidence": [
+        "records/antaranga-next-preparation-20261122.json"
+      ],
+      "summary": "Separate source, originality, image and draft review passed. No human specialist approval, website integration or publication.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "No publication, deployment or rendered website review for preparation-only scope.",
+        "Photo manufacturer/locality unassigned; process comparison explicitly Cuttack; historical earlier works unread."
       ]
     }
   ],
