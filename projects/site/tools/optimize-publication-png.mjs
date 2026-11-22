@@ -46,7 +46,9 @@ export const additionalDeliveryPNGs=[
   "assets/cinema/pencil-tapu-mishra-20261101.png",
   "assets/cinema/air-listener.png",
   "assets/cinema/surya-material-passed-on.png",
-  "assets/cinema/bhukha-publicity.png"
+  "assets/cinema/bhukha-publicity.png",
+  "assets/cinema/lipika-film-letter.png",
+  "assets/cinema/pramod-paper-movement.png"
 ];
 export const eligiblePNG=p=>additionalDeliveryPNGs.includes(p)||/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
 function chunks(bytes){

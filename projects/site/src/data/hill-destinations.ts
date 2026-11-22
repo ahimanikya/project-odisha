@@ -8,6 +8,7 @@ import taptapaniImage from '../../../../kb/research/destinations/taptapani-image
 import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-chandragiri-image.json';
 import panchalingeswarImage from '../../../../kb/research/destinations/panchalingeswar-image.json';
 import kapilashImage from '../../../../kb/research/destinations/kapilash-image.json';
+import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -99,4 +100,14 @@ export const kapilashGuide = {
  aliases: ['Kapilas', 'Kapilash Temple', 'Chandrasekhar Temple'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide].filter(guide => allowsPage(guide.href));
+export const gandhamardanGuide = {
+ title: 'Gandhamardan',
+ odia: '',
+ summary: 'Two pilgrimage approaches and a history of forest protection.',
+ href: '/destinations/gandhamardan/',
+ photo: gandhamardanImage,
+ regions: ['Bargarh', 'Balangir'],
+ aliases: ['Gandhamardan Hills', 'Gandhamardhan', 'Harishankar', 'Harisankar', 'Nrusinghanath'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide].filter(guide => allowsPage(guide.href));

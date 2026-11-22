@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fd3dd1f0e87805028a61b52418c3b6a4dec30998ea827476f6e9bda16de64412`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `24a612accc94d6e7b325ae4753e19605fdfa134ecfd139047bab330603c780b0`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -408,6 +408,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112208 · Publish Paralakhemundi horn craft article | completed | published | Ahimanikya Satapathy | Merge reviewed delivery receipt after required checks, then explicit slot return for Kapilash. | — |
 | POD-WORK-2026112391 · Research, review and publish Kapilash | completed | published | Ahimanikya Satapathy | Merge exact reviewed evidence-only receipt after project-required CI; then explicitly hand the reserved preparation-only slot to Research Antaranga Kalinga. Gandhamardan remains queued until return. | — |
 | POD-WORK-2026112301 · Prepare Sola and the Making of an Odissi Tahia | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed draft, original credited photograph and publication brief. Return preparation slot with local commit to hill-series chat for Gandhamardan; no website integration/publication. | — |
+| POD-WORK-2026112392 · Research, review and publish Gandhamardan | in_progress | reviewed | Ahimanikya Satapathy | Complete final package and exact-commit review, hosted checks, publication and live receipt. | — |
 
 ## Pending human review and decisions
 
@@ -1153,6 +1154,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112208 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions and separate screenshot review; Chromium viewport simulation only.; Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork.; Two responsive images differ in bytes and pixels; measured and visually accepted. All other checked images exact; no site-wide equivalence claim. |
 | POD-REV-2026112391 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Photographer description establishes image identity; no independent geolocation.; Root browser interactions attributed to root; separate screenshot review, Chromium viewport simulation.; Publication/live delivery and final integrated receipt reviewed; exact committed receipt review, CI and actual receipt merge remain. Conditional scope release only. |
 | POD-REV-2026112301 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No fieldwork, interviews or present workforce/income survey.; Photo source does not establish depicted maker or precise workshop location.; No website layout, deployment or live checks for preparation-only delivery. |
+| POD-REV-2026112392 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Photographer description establishes image identity; no independent geolocation or current-condition evidence.; Root operated browser interactions; separate screenshot review, Chromium viewport simulation.; Exact committed candidate and actual Linux capacity, CI/deployment/live delivery and merged receipt still required. |
 
 ## Publication and application history
 
@@ -1463,16 +1465,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112223 | 2026-11-22T16:55:45.371624+00:00 | Source, media and separate desktop/mobile screenshot review passed; full822/coast598tests passed after explicit route hold/count corrections. Other47chapter prose/credits preserved; package/CI/live gates remain. | — |
-| POD-EVT-2026112224 | 2026-11-22T18:18:08.226528+00:00 | PR834 passed exact-head CI45048369711 and merged9cac2527; deployment45051165017 succeeded. Separate live review checked3routes15images and10meaningful screenshots. Two measured image differences visually accepted; base images/original preserved. Actual999323574bytes/3620files. Receipt merge precedes explicit Kapilash handoff; zero programme credit. | — |
-| POD-EVT-2026112225 | 2026-11-22T18:19:53.542618+00:00 | Separate Drishti final evidence-only receipt review passed. Website, factual body, original photo and foreign ownership preserved; measured image differences remain explicit. Exact committed receipt review, required CI and actual merge precede Kapilash handoff. | — |
-| POD-EVT-2026112391 | 2026-11-22T18:49:59.413706+00:00 | Accepted explicit horn-craft release return; independently verified receipt835 merge6be88b16 and successful CI45054523114. Kapilash is sole active article under repeated Founder direction. Existing workers idle and reused; foreign task preserved; zero programme credit. | — |
 | POD-EVT-2026112392 | 2026-11-22T19:15:49.814187+00:00 | Anvesha source review and separate Drishti source/media/code/rendered/package review passed; eight desktop/mobile views and native source return checked. Full822/coast598 tests pass. Publication and live delivery remain; zero programme credit. | — |
 | POD-EVT-2026112393 | 2026-11-22T20:16:54.522871+00:00 | PR836 passed exact-head CI45059924629 and merged63b8be7a; deployment45062445092 succeeded. Separate live delivery review covered4routes,7images and8screenshots. Actual999944443bytes/3624files. Reviewed receipt merge precedes next hill; zero programme credit. | — |
 | POD-EVT-2026112394 | 2026-11-22T20:18:15.580684+00:00 | Separate Drishti final evidence-only receipt review passed. Website/research/original/horn evidence and foreign ownership preserved. Actual exact committed receipt review, required CI and merge precede reserved preparation-only handoff; zero programme credit. | — |
 | POD-EVT-2026112301 | 2026-11-22T20:43:07.500207+00:00 | Kapilash receipt837 verified merged after successful CI and explicit handoff. Sole preparation scope accepted; topic selection pending, no publication or programme credit. | — |
 | POD-EVT-2026112302 | 2026-11-22T20:52:54.884042+00:00 | Original sola and Odissi tahia draft, credited original photograph and publication brief separately reviewed. No website publication; zero programme credit. Final record review and local commit precede explicit Gandhamardan handoff. | — |
 | POD-EVT-2026112303 | 2026-11-22T20:54:26.523099+00:00 | Separate final completion-record review passed; all 11 delivery hashes, generated views, preparation-only scope and foreign ownership verified. Ready for local commit and explicit Gandhamardan handoff; no public delivery or programme credit. | — |
+| POD-EVT-2026112395 | 2026-11-22T20:57:48.480211+00:00 | Accepted explicit reviewed Sola preparation return at af57ee13; all11 delivery hashes verified and preserved. Gandhamardan sole active hill article under standing Founder authorization. Existing workers reconciled completed; foreign task preserved, zero programme credit. | — |
+| POD-EVT-2026112396 | 2026-11-22T21:06:15.306995+00:00 | Verified direct Founder instruction in other-chat turn01a2050c-d6a8-7822-b5ee-d4c532dd4db4 and acknowledged reserved Sola publication after Gandhamardan reviewed receipt. Gandhamardan retains sole active scope; no Sola website integration here. | — |
+| POD-EVT-2026112397 | 2026-11-22T21:12:19.969132+00:00 | Samanta released original article and bounded integration; Anvesha separately passed final claim/source-family review. Drishti early media/capacity review passed, with only first two exact lossless additions implemented. Full article/rendered/package review and publication remain pending; zero programme credit. | — |
+| POD-EVT-2026112398 | 2026-11-22T21:27:27.172155+00:00 | All eight local build/test/disclosure stages pass,822full/598coastal tests,103targeted checks. Actual local package999199871bytes/3628files; two exact lossless additions preserve source pixels/metadata. Separate nine-screenshot review passed; final package/hosted checks/live receipt remain. No programme credit. | — |
 
 ## Deferred extensions
 

@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1371. blocked: 1, completed: 235, excluded: 872, queued: 263.
+Route inventory: 1372. blocked: 1, completed: 235, excluded: 872, in_progress: 1, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1395,3 +1395,4 @@ Route inventory: 1371. blocked: 1, completed: 235, excluded: 872, queued: 263.
 | POD-EDIT-PANCHALINGESWAR-20261122 | [Panchalingeswar: A Shrine in Flowing Water](https://projectodisha.org/destinations/panchalingeswar/) | completed | Hill shrine destination article with high-quality credited article/preview image; zero programme credit. |
 | POD-EDIT-PARALAKHEMUNDI-HORN-20261122 | [Paralakhemundi’s Horn Craft: From Comb to Crane](https://projectodisha.org/stories/paralakhemundi-horn-craft/) | completed | Original horn-craft article, credited museum photograph and incoming links; zero programme credit. |
 | POD-EDIT-KAPILASH-20261123 | [Kapilash: A Hill Shrine and an Older Temple’s Trace](https://projectodisha.org/destinations/kapilash/) | completed | Hill shrine destination article with high-quality credited article/preview image; zero programme credit. |
+| POD-EDIT-GANDHAMARDAN-20261123 | [Gandhamardan: Two Shrines and a Living Forest](https://projectodisha.org/destinations/gandhamardan/) | in_progress | Hill destination with credited high-quality article/preview image; zero programme credit. |

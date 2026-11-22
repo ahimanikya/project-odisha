@@ -61,7 +61,9 @@ test('additional PNG delivery scope is an exact measured allowlist',()=>{
   "assets/cinema/pencil-tapu-mishra-20261101.png",
   "assets/cinema/air-listener.png",
   "assets/cinema/surya-material-passed-on.png",
-  "assets/cinema/bhukha-publicity.png"
+  "assets/cinema/bhukha-publicity.png",
+  "assets/cinema/lipika-film-letter.png",
+  "assets/cinema/pramod-paper-movement.png"
 ];
  assert.deepEqual(additionalDeliveryPNGs,expected);
  for(const p of expected){assert.ok(eligiblePNG(p));assert.ok(!eligiblePNG("../"+p));assert.ok(!eligiblePNG(p+".backup"));}

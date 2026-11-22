@@ -10527,6 +10527,24 @@
       "evidence": [
         "records/antaranga-next-preparation-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112392",
+      "title": "Research, review and publish Gandhamardan",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Complete final package and exact-commit review, hosted checks, publication and live receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/gandhamardan-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -25425,6 +25443,30 @@
         "No fieldwork, interviews or present workforce/income survey.",
         "Photo source does not establish depicted maker or precise workshop location.",
         "No website layout, deployment or live checks for preparation-only delivery."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112392",
+      "title": "Gandhamardan separate source, image, article and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112392",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/gandhamardan-publication-20261123.json"
+      ],
+      "summary": "Separate source/media/code, all nine local screenshots and final local package review passed. Exact committed candidate, hosted checks and live delivery remain pending.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Photographer description establishes image identity; no independent geolocation or current-condition evidence.",
+        "Root operated browser interactions; separate screenshot review, Chromium viewport simulation.",
+        "Exact committed candidate and actual Linux capacity, CI/deployment/live delivery and merged receipt still required."
       ]
     }
   ],
