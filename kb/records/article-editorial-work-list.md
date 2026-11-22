@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1366. blocked: 1, completed: 229, excluded: 872, in_progress: 1, queued: 263.
+Route inventory: 1366. blocked: 1, completed: 230, excluded: 872, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1389,4 +1389,4 @@ Route inventory: 1366. blocked: 1, completed: 229, excluded: 872, in_progress: 1
 | POD-EDIT-MANDASARU-20261122 | [Mandasaru: A Gorge and the Forest Around It](https://projectodisha.org/destinations/mandasaru/) | completed | Researched hill destination article with rights-cleared article and preview photograph; zero programme credit. |
 | POD-EDIT-BRASSFISH-20261122 | [Bellaguntha’s Brass Fish](https://projectodisha.org/stories/bellaguntha-brass-fish/) | completed | Publish independently researched brass-fish article with credited original image, previews and relevant incoming links; zero programme credit. |
 | POD-EDIT-MAHENDRAGIRI-20261122 | [Mahendragiri: Mountain Shrines and Forest Life](https://projectodisha.org/destinations/mahendragiri/) | completed | Researched hill destination article with rights-cleared article and preview photograph; zero programme credit. |
-| POD-EDIT-TAPTAPANI-20261122 | [Taptapani: A Spring in the Wooded Hills](https://projectodisha.org/destinations/taptapani/) | in_progress | Researched hill destination and hot spring article with rights-cleared article/preview image;zero programme credit. |
+| POD-EDIT-TAPTAPANI-20261122 | [Taptapani: A Spring in the Wooded Hills](https://projectodisha.org/destinations/taptapani/) | completed | Researched hill destination and hot spring article with rights-cleared article/preview image;zero programme credit. |
