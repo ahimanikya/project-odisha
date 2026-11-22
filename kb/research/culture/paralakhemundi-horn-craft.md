@@ -4,7 +4,7 @@ description: "Horn combs and animal figures open a story of material choices, sk
 author: "Ahimanikya Satapathy"
 subjects: ["arts", "craft", "Paralakhemundi"]
 type: "Material craft essay"
-status: "publication_candidate"
+status: "published"
 human_review_claimed: false
 publication_authorized: true
 ---

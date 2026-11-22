@@ -2,8 +2,8 @@
   "article_id": "POD-EDIT-PARALAKHEMUNDI-HORN-20261122",
   "owner": "Disha",
   "started_on": "2026-11-22",
-  "status": "reviewed_candidate",
-  "scope_released": false,
+  "status": "published_verified",
+  "scope_released": true,
   "authorization": "POD-DEC-2026112208",
   "work_id": "POD-WORK-2026112208",
   "authorization_quote": "Go ahead and integrate the Paralakhemundi horn craft article into Project Odisha, check the layout on mobile and desktop, and publish it with the credited image and links from relevant existing articles.",
@@ -75,7 +75,7 @@
     "root_visual_review": "Original previously inspected; full-frame1200pxWebP inspected now. Both fish, fin and tail detail retained at restrained article size.",
     "projection_bytes": 174926,
     "projection_only": true,
-    "actual_linux_gate": "pending",
+    "actual_linux_gate": "pass in publication CI45048369711",
     "separate_preliminary_review": {
       "reviewer": "Drishti",
       "kind": "separate_ai_agent",
@@ -110,8 +110,8 @@
   "quality_review": {
     "reviewer": "Drishti",
     "kind": "separate_ai_agent",
-    "status": "source_code_media_rendered_pass",
-    "pending": "Publication package, exact commit, required CI, actual deployment and separate live review."
+    "status": "source_code_media_rendered_package_live_pass",
+    "pending": "Final integrated receipt and exact-commit review, required receipt CI and merge."
   },
   "local_validation": {
     "steps": [
@@ -255,7 +255,7 @@
     },
     "preserved_inputs": "outputs/paralakhemundi-horn-publication-20261122/preserved-inputs.json"
   },
-  "next_action": "Separate final package and exact-commit review, project-required CI, authorized publication, separate live review and evidence-only receipt.",
+  "next_action": "Merge reviewed evidence-only receipt after required checks, then explicitly return slot for Kapilash.",
   "final_package_review": {
     "result": "pass",
     "reviewer": "Drishti",
@@ -273,5 +273,105 @@
     "attempt": 1,
     "conclusion": "failure",
     "cause": "Portable public website route inventory stale; added the single new declared route. No article, image or layout change."
-  }
+  },
+  "publication": {
+    "pr": 834,
+    "reviewed_head": "2d5180e662dcae645d5c2b990e9dfdc3ea5e3fbb",
+    "exact_head_review": "Separate Drishti read-only exact committed continuity PASS; clean tree and reviewed inventory correction only.",
+    "ci_run": 45048369711,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge_commit": "9cac25270df766745d50c6f206e555b091614589",
+    "merged_at": "2026-11-22T17:44:32Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45051165017,
+    "deployment_head": "9cac25270df766745d50c6f206e555b091614589",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "capacity": {
+    "actual_linux_ci_bytes": 999323574,
+    "files": 3620,
+    "remaining_bytes": 676426,
+    "unrelated_optimizer_changes": false
+  },
+  "completed_at": "2026-11-22T18:18:08.226528+00:00",
+  "deployment": {
+    "run": 45051165017,
+    "source_sha": "9cac25270df766745d50c6f206e555b091614589",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999323574,
+    "files": 3620
+  },
+  "verified_routes": [
+    "/stories/paralakhemundi-horn-craft/",
+    "/stories/bellaguntha-brass-fish/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "live_verification": {
+    "evidence": "outputs/paralakhemundi-horn-publication-20261122/live/live-http.json",
+    "routes": 3,
+    "images": 15,
+    "byte_equal_images": 13,
+    "article_match": "All three article fragments match after only two directly observed responsive image URL substitutions; no prose, credit or layout markup differences.",
+    "public_base_image_exact": true,
+    "image_comparison": "outputs/paralakhemundi-horn-publication-20261122/live/image-comparison.json",
+    "differences": [
+      {
+        "image": "horn960",
+        "changed_pixels": 60906,
+        "total_pixels": 663360,
+        "maximum_channel_delta": 27,
+        "mean_channel_delta": 0.16575363804470172
+      },
+      {
+        "image": "existing Binchana480",
+        "changed_pixels": 178763,
+        "total_pixels": 279360,
+        "maximum_channel_delta": 26,
+        "mean_channel_delta": 1.4936044291714394
+      }
+    ],
+    "acceptance": "Root, Samanta and separate Drishti visual inspection found no material visible difference. Both dimensions preserved; public base images byte-exact. No cause inferred; raw REVIEW_DIFFERENCES retained. No pixel-exact claim."
+  },
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/paralakhemundi-horn-publication-20261122/live/browser-verification.json",
+    "meaningful_screenshots": 10,
+    "result": "pass",
+    "limits": "Chromium desktop1440/mobile390 simulation. Initial article viewport cuts lower photo at viewport edge; fullpage covers entire frame. Native credit click and keyboard return verified. Early chapter captures incomplete; final clear capture used."
+  },
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass_with_limitations",
+    "evidence": "outputs/paralakhemundi-horn-publication-20261122/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Public article, images and incoming links already deployed from reviewed publication merge. Receipt records actual delivery and updates internal status/views; public article body is unchanged.",
+    "required_gates": [
+      "Separate final receipt review",
+      "Exact committed receipt review",
+      "Project-required CI",
+      "Actual merge and explicit next-slot handoff"
+    ],
+    "final_review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_agent",
+      "result": "pass",
+      "scope": "Integrated actual delivery evidence, internal status, preserved website/manuscript body/original media and foreign ownership; exact-commit review and required receipt CI/merge remain."
+    }
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit return to hill-series chat for Kapilash follows observed merge.",
+  "next_slot": {
+    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "article": "Kapilash",
+    "condition": "After reviewed horn-craft receipt merge and explicit return; no new article claimed here."
+  },
+  "pull_request": 834
 }
