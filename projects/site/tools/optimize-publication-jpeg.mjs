@@ -2,8 +2,9 @@
 import sharp from 'sharp';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-export const deliveryJPEGs=['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg'];
+export const deliveryJPEGs=['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg'];
 const captions={
+ 'assets/bhubaneswar-week/mentis-films.jpg':{page:'stories/bhubaneswar-week/index.html',source:'/assets/bhubaneswar-week/mentis-films.jpg',phrase:'At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy.',description:'At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy. Full frame, resized and compressed for web delivery.'},
  'assets/sahi-jatra/performer.jpg':{page:'stories/sahi-jatra/index.html',source:'https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg'},
  'assets/sakhi-nata-and-sakhi-pila/mardala.jpg':{page:'stories/sakhi-nata-and-sakhi-pila/index.html',source:'https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg'},
  'images/stories/bhagabata-tungi-2016.jpg':{page:'stories/reading-the-bhagabata/index.html',source:'https://commons.wikimedia.org/wiki/File:Bhagabata_Tungi.jpg',phrase:'Full frame, resized for display.',description:'Full frame, resized and compressed for web delivery.',updateShareDimensions:true,settings:{maximum_dimension:2048,quality:90}},
