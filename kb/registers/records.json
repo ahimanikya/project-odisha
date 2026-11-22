@@ -10418,16 +10418,17 @@
       "id": "POD-WORK-2026112299",
       "title": "Research, review and publish Jirang–Chandragiri",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112297",
-      "next_action": "Required exact-head CI, merge, deploy and independently verify live delivery; then reviewed receipt merge and preparation-only slot handoff.",
+      "next_action": "Merge exact reviewed evidence-only receipt after required CI, then explicitly hand preparation-only slot to Research Antaranga Kalinga. Panchalingeswar remains queued until explicit return.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112297",
-        "POD-REV-2026112299"
+        "POD-REV-2026112299",
+        "POD-REL-2026112299"
       ],
       "evidence": [
         "records/jirang-chandragiri-publication-20261122.json"
@@ -25147,7 +25148,7 @@
     },
     {
       "id": "POD-REV-2026112299",
-      "title": "Jirang–Chandragiri separate source, image and rendered review",
+      "title": "Jirang–Chandragiri separate source, rendered and live delivery review",
       "status": "pass_with_limitations",
       "reviewer": {
         "kind": "ai_assistant",
@@ -25162,8 +25163,10 @@
       ],
       "limitations": [
         "Separate AI review, not human specialist approval, field verification or independent geolocation.",
-        "Five local screenshots independently inspected; root browser interactions attributed to root. Initial keyboard-forward capture inconclusive; source click and keyboard return verified.",
-        "Final local package and six screenshots passed; exact-head CI, deployment and live review remain pending."
+        "Six live screenshots independently reviewed; root source-click and keyboard-return interactions attributed to root. Local initial keyboard-forward capture remains inconclusive.",
+        "Chromium viewport simulation only, not cross-engine or assistive-technology review.",
+        "Three delivered encodings differ in bytes and pixels from local candidates; measured and visually accepted, with no cause asserted.",
+        "Single-article slot release is conditional on actual reviewed receipt merge and explicit handoff."
       ]
     }
   ],
@@ -29435,6 +29438,20 @@
       ],
       "evidence": [
         "records/binchana-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112299",
+      "title": "Jirang–Chandragiri: A Monastery in Odisha’s Hills",
+      "status": "published",
+      "authorization": "POD-DEC-2026112297",
+      "destination": "https://projectodisha.org/destinations/jirang-chandragiri/",
+      "refs": [
+        "POD-WORK-2026112299",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/jirang-chandragiri-publication-20261122.json"
       ]
     }
   ],
