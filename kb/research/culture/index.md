@@ -94,3 +94,5 @@
 [Binchana and the Handmade Breeze](binchana-and-the-handmade-breeze.md) — Independent draft on the hand fan’s materials and dated maker accounts, with a credited photograph.
 
 [Paralakhemundi’s Horn Craft: From Comb to Crane](paralakhemundi-horn-craft.md) — Original unpublished draft on material choices and workshop trade, with a credited museum photograph.
+
+[Sola: The Craft Behind an Odissi Tahia](sola-and-tahia.md) — independently researched draft with a credited finished-headpiece photograph; preparation only.

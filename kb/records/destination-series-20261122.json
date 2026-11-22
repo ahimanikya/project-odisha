@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": null,
+  "current": "gandhamardan",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -109,7 +109,17 @@
     },
     {
       "slug": "gandhamardan",
-      "status": "queued"
+      "status": "in_progress",
+      "handoff": "records/gandhamardan-publication-20261123.json",
+      "reuse_before_research": [
+        "research/history/forest-livelihoods.md",
+        "research/references/data/forest-livelihood-history.json",
+        "research/sources/forest-vasundhara2001.md",
+        "research/methods/trip-planning-content.md",
+        "research/references/data/research-queue.json:RES-058",
+        "research/references/data/research-queue.json:RES-014",
+        "research/references/data/research-queue.json:RES-023"
+      ]
     },
     {
       "slug": "belghar-tumudibandha",
@@ -130,13 +140,11 @@
   ],
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
-  "next_hill": "gandhamardan",
-  "coordination": "Kapilash published/live verified; reviewed receipt merge precedes explicit preparation-only handoff to Research Antaranga Kalinga. Gandhamardan waits for return.",
-  "reserved_next_slot": {
-    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-    "scope": "Prepare one independently researched, previously uncovered Antaranga Kalinga topic with credited image; no publication authorization.",
-    "human_instruction_quote": "Once Kapilash’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
-    "verification": "Read actual human message in turn01a204ca-ec8b-7f50-b700-6c62e32e0c20.",
-    "condition": "After Kapilash reviewed receipt merge and explicit handoff; no next hill before slot return."
+  "next_hill": "belghar-tumudibandha",
+  "coordination": "Gandhamardan is sole active article. Sola publication in the other chat is reserved after its reviewed receipt merges; preparation originals remain excluded from this public release.",
+  "reserved_next_publication": {
+    "article": "Sola and Odissi Tahia",
+    "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "after": "Gandhamardan reviewed receipt merge and explicit handoff"
   }
 }

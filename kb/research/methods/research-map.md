@@ -1570,3 +1570,8 @@ Reuse the [draft](../culture/paralakhemundi-horn-craft.md), [source review](../c
 Panchalingeswar extension, 22 November 2026: mapped `places/panchalingeswar-article` after scoped alias and map checks. Devagiri/Nilagiri hill-shrine identity, water and stair approach use district and tourism sources; unverified founding legends and current service claims are omitted. Original credited photograph attached. Horn-craft preparation preserved separately. Inventory1852; no exhaustive semantic deduplication claim or programme credit.
 
 Kapilash extension, 23 November 2026: mapped `places/kapilash-article` after scoped alias and map checks. Primary district and Tourism sources support pilgrimage and broad approach; Sircar’s original inscription study and ASI’s protected list retain qualified dating and the older/standing-temple distinction. A licensed 2019 photograph is attached with its original preserved. Inventory1853; no exhaustive semantic deduplication claim or programme credit.
+
+
+### Sola and tahia preparation · 23 November 2026
+
+Reuse the [draft](../culture/sola-and-tahia.md), [source dossier](../culture/sola-source-review-20261123.json) and [image provenance](../culture/sola-image.json). Scoped aliases found no dedicated sola/tahia narrative. Antaranga supplied a passing crown-craft lead only. SIDAC’s material overview and two dated maker accounts support the distinct Odissi construction angle; conflicting inventor stories are omitted. The credited finished-tahia photograph does not identify its maker or workshop. Three mapped records added; inventory1856. Preparation only, no public route or programme credit.

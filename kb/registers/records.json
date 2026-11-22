@@ -10509,6 +10509,42 @@
       "evidence": [
         "records/kapilash-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112301",
+      "title": "Prepare Sola and the Making of an Odissi Tahia",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112301",
+      "next_action": "Deliver reviewed draft, original credited photograph and publication brief. Return preparation slot with local commit to hill-series chat for Gandhamardan; no website integration/publication.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112301"
+      ],
+      "evidence": [
+        "records/antaranga-next-preparation-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112392",
+      "title": "Research, review and publish Gandhamardan",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Complete final package and exact-commit review, hosted checks, publication and live receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/gandhamardan-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -15899,6 +15935,21 @@
       "refs": [],
       "evidence": [
         "records/paralakhemundi-horn-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112301",
+      "title": "Prepare next independent article after Kapilash",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once Kapilash’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+      "scope": "One independently researched article preparation with credited image; no publication or website integration.",
+      "refs": [],
+      "evidence": [
+        "records/antaranga-next-preparation-20261123.json"
       ]
     }
   ],
@@ -25368,6 +25419,54 @@
         "Photographer description establishes image identity; no independent geolocation.",
         "Root browser interactions attributed to root; separate screenshot review, Chromium viewport simulation.",
         "Publication/live delivery and final integrated receipt reviewed; exact committed receipt review, CI and actual receipt merge remain. Conditional scope release only."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112301",
+      "title": "Independent sola and tahia preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112301",
+        "POD-DEC-2026112301"
+      ],
+      "evidence": [
+        "records/antaranga-next-preparation-20261123.json"
+      ],
+      "summary": "Separate source, originality, image and draft review passed. No human specialist approval, website integration or publication.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "No fieldwork, interviews or present workforce/income survey.",
+        "Photo source does not establish depicted maker or precise workshop location.",
+        "No website layout, deployment or live checks for preparation-only delivery."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112392",
+      "title": "Gandhamardan separate source, image, article and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112392",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/gandhamardan-publication-20261123.json"
+      ],
+      "summary": "Separate source/media/code, all nine local screenshots and final local package review passed. Exact committed candidate, hosted checks and live delivery remain pending.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Photographer description establishes image identity; no independent geolocation or current-condition evidence.",
+        "Root operated browser interactions; separate screenshot review, Chromium viewport simulation.",
+        "Exact committed candidate and actual Linux capacity, CI/deployment/live delivery and merged receipt still required."
       ]
     }
   ],

@@ -1,0 +1,12 @@
+{
+  "run": 45072679658,
+  "head": "d1e2d8c143dff0d000329f50de0df949825413a0",
+  "conclusion": "failure",
+  "failed_step": "Build and verify coastal edition",
+  "specific_gate": "audit-coast.py metadata_and_language",
+  "finding": "/destinations/hills/ description253characters exceeded250 limit;5431of5432checks passed",
+  "full_tests": 822,
+  "coast_tests": 598,
+  "article_and_media_changed": false,
+  "correction": "Only generic hill-hub metadata description shortened to143characters. Freshcoastalbuild/audit and newexactheadCI required."
+}
