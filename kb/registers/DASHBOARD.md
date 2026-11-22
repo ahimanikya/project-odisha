@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `24a612accc94d6e7b325ae4753e19605fdfa134ecfd139047bab330603c780b0`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9fe2b33c9be6eddf40b4f5cb8d3a8e9b4a2fcfce6d7cb7061e6fc188872c61a3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1465,7 +1465,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112392 | 2026-11-22T19:15:49.814187+00:00 | Anvesha source review and separate Drishti source/media/code/rendered/package review passed; eight desktop/mobile views and native source return checked. Full822/coast598 tests pass. Publication and live delivery remain; zero programme credit. | — |
 | POD-EVT-2026112393 | 2026-11-22T20:16:54.522871+00:00 | PR836 passed exact-head CI45059924629 and merged63b8be7a; deployment45062445092 succeeded. Separate live delivery review covered4routes,7images and8screenshots. Actual999944443bytes/3624files. Reviewed receipt merge precedes next hill; zero programme credit. | — |
 | POD-EVT-2026112394 | 2026-11-22T20:18:15.580684+00:00 | Separate Drishti final evidence-only receipt review passed. Website/research/original/horn evidence and foreign ownership preserved. Actual exact committed receipt review, required CI and merge precede reserved preparation-only handoff; zero programme credit. | — |
 | POD-EVT-2026112301 | 2026-11-22T20:43:07.500207+00:00 | Kapilash receipt837 verified merged after successful CI and explicit handoff. Sole preparation scope accepted; topic selection pending, no publication or programme credit. | — |
@@ -1475,6 +1474,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112396 | 2026-11-22T21:06:15.306995+00:00 | Verified direct Founder instruction in other-chat turn01a2050c-d6a8-7822-b5ee-d4c532dd4db4 and acknowledged reserved Sola publication after Gandhamardan reviewed receipt. Gandhamardan retains sole active scope; no Sola website integration here. | — |
 | POD-EVT-2026112397 | 2026-11-22T21:12:19.969132+00:00 | Samanta released original article and bounded integration; Anvesha separately passed final claim/source-family review. Drishti early media/capacity review passed, with only first two exact lossless additions implemented. Full article/rendered/package review and publication remain pending; zero programme credit. | — |
 | POD-EVT-2026112398 | 2026-11-22T21:27:27.172155+00:00 | All eight local build/test/disclosure stages pass,822full/598coastal tests,103targeted checks. Actual local package999199871bytes/3628files; two exact lossless additions preserve source pixels/metadata. Separate nine-screenshot review passed; final package/hosted checks/live receipt remain. No programme credit. | — |
+| POD-EVT-2026112399 | 2026-11-22T21:50:43.996533+00:00 | Required CI45072679658 stopped at hill-hub253-character description exceeding250. Samanta shortened metadataonly to143characters; sourcecorrection separately reviewed. Freshcoastbuild/all5432pagechecks and discovery/search-readiness/disclosuregates pass. Article/image/visiblelayout unchanged; corrected exact-headCI remains required. | — |
 
 ## Deferred extensions
 

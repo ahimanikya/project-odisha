@@ -259,12 +259,70 @@
       ],
       "total_bytes": 146586
     },
-    "preservation": "All11 Sola files retain exact preparation hashes; prior Kapilash article/image/receipt and foreign current_task/handoff_home preserved. Sola excluded from dedicated public export."
+    "preservation": "All11 Sola files retain exact preparation hashes; prior Kapilash article/image/receipt and foreign current_task/handoff_home preserved. Sola excluded from dedicated public export.",
+    "validated_candidate": "d1e2d8c143dff0d000329f50de0df949825413a0 before hub metadata-only correction"
   },
   "final_package_review": {
     "reviewer": "Drishti",
     "status": "pass",
     "evidence": "outputs/gandhamardan-publication-2026-11-23/review/final-package-review.md",
     "scope": "Independent103checks,11actualarticleimagefiles/three-editionfragments,selected2losslessoutputs,11Solaoriginals/publicexclusion,foreignownership and frozenrecords. Exact-commit/Linux/live checks pending."
+  },
+  "metadata_correction": {
+    "failed_run": 45072679658,
+    "failed_head": "d1e2d8c143dff0d000329f50de0df949825413a0",
+    "failure": "Hill-hub description253characters exceeded250character bound;5431/5432pagechecks passed. Hosted822full/598coastal tests passed.",
+    "correction": "Only generic hill-hub description shortened to143characters; all visiblecopy/article/media unchanged.",
+    "fresh_coast_build_exit_code": 0,
+    "checks": [
+      {
+        "name": "coast-metadata-acceptance",
+        "command": [
+          "python3",
+          "tools/audit-coast.py"
+        ],
+        "exit_code": 0,
+        "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-acceptance.log"
+      },
+      {
+        "name": "coast-metadata-discovery",
+        "command": [
+          "python3",
+          "tools/audit-discovery.py"
+        ],
+        "exit_code": 0,
+        "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-discovery.log"
+      },
+      {
+        "name": "coast-metadata-search-review",
+        "command": [
+          "node",
+          "tools/prepare-search-review.mjs"
+        ],
+        "exit_code": 0,
+        "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-search-review.log"
+      },
+      {
+        "name": "coast-metadata-launch-readiness",
+        "command": [
+          "python3",
+          "tools/audit-launch-readiness.py"
+        ],
+        "exit_code": 0,
+        "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-launch-readiness.log"
+      },
+      {
+        "name": "coast-metadata-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-coast"
+        ],
+        "exit_code": 0,
+        "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-disclosures.log"
+      }
+    ],
+    "review": "outputs/gandhamardan-publication-2026-11-23/review/metadata-correction-review.md",
+    "scope": "Prior full/package/artifact proof remains evidence for unchanged article and media. Fresh coastal acceptance/discovery/search-readiness/disclosure gates pass. Corrected exact-head Linux build and capacity required before merge."
   }
 }
