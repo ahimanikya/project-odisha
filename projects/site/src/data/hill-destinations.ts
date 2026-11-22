@@ -3,6 +3,7 @@ import deomaliImage from '../../../../kb/research/destinations/deomali-image.jso
 import daringbadiImage from '../../../../kb/research/destinations/daringbadi-image.json';
 import putsilImage from '../../../../kb/research/destinations/putsil-image.json';
 import mandasaruImage from '../../../../kb/research/destinations/mandasaru-image.json';
+import mahendragiriImage from '../../../../kb/research/destinations/mahendragiri-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -44,4 +45,14 @@ export const mandasaruGuide = {
  aliases: ['Mandasaru Gorge'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide].filter(guide => allowsPage(guide.href));
+export const mahendragiriGuide = {
+ title: 'Mahendragiri',
+ odia: '',
+ summary: 'Mountain shrines and forest life in Gajapati.',
+ href: '/destinations/mahendragiri/',
+ photo: mahendragiriImage,
+ regions: ['Gajapati'],
+ aliases: ['Mahendragiri Hills', 'Mahendra Giri'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide].filter(guide => allowsPage(guide.href));

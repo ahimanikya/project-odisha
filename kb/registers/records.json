@@ -10337,6 +10337,24 @@
       "evidence": [
         "records/brass-fish-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112297",
+      "title": "Research, review and publish Mahendragiri",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Verify final publication package and optimized photograph page, then exact-head CI, merge, deploy, live verification and reviewed receipt integration.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/mahendragiri-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -15650,6 +15668,23 @@
       ],
       "evidence": [
         "records/brass-fish-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112297",
+      "title": "Continue hill destinations with Mahendragiri after brass fish",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once the brass-fish release is complete, continue with Mahendragiri. Research, review and publish it with a high-quality image in the article and preview, then move through the remaining hill destinations one at a time.",
+      "scope": "Research, separate review, publication and image-backed previews, one hill destination at a time.",
+      "refs": [
+        "POD-DEC-2026112291"
+      ],
+      "evidence": [
+        "records/mahendragiri-publication-20261122.json"
       ]
     }
   ],
@@ -24912,6 +24947,27 @@
         "Separate AI review, not human specialist approval or field verification.",
         "Root browser interactions attributed to root; screenshots and fresh live HTTP evidence independently reviewed.",
         "Existing unrelated Mardala480px variant is visually equivalent across Linux/macOS encoding, not pixel-exact."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112297",
+      "title": "Mahendragiri separate source and integrated review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112297"
+      ],
+      "evidence": [
+        "records/mahendragiri-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root keyboard/viewport measurements attributed to root;5screenshots independently inspected with framing limits retained.",
+        "Final package, required CI, deployment and reviewed delivery receipt remain gates."
       ]
     }
   ],

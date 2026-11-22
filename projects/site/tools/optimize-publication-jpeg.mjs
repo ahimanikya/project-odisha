@@ -2,11 +2,12 @@
 import sharp from 'sharp';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-export const deliveryJPEGs=['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg'];
+export const deliveryJPEGs=['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg'];
 const captions={
  'assets/sahi-jatra/performer.jpg':{page:'stories/sahi-jatra/index.html',source:'https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg'},
  'assets/sakhi-nata-and-sakhi-pila/mardala.jpg':{page:'stories/sakhi-nata-and-sakhi-pila/index.html',source:'https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg'},
- 'images/stories/bhagabata-tungi-2016.jpg':{page:'stories/reading-the-bhagabata/index.html',source:'https://commons.wikimedia.org/wiki/File:Bhagabata_Tungi.jpg',phrase:'Full frame, resized for display.',description:'Full frame, resized and compressed for web delivery.',updateShareDimensions:true,settings:{maximum_dimension:2048,quality:90}}
+ 'images/stories/bhagabata-tungi-2016.jpg':{page:'stories/reading-the-bhagabata/index.html',source:'https://commons.wikimedia.org/wiki/File:Bhagabata_Tungi.jpg',phrase:'Full frame, resized for display.',description:'Full frame, resized and compressed for web delivery.',updateShareDimensions:true,settings:{maximum_dimension:2048,quality:90}},
+ 'assets/bhubaneswar-week/conversations.jpg':{page:'stories/bhubaneswar-week/index.html',source:'/assets/bhubaneswar-week/conversations.jpg',phrase:'A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy.',description:'A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy. Full frame, resized and compressed for web delivery.'}
 };
 const settings={maximum_dimension:3072,quality:95,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true};
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
