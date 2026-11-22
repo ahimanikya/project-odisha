@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-PANCHALINGESWAR-20261122",
   "route": "/destinations/panchalingeswar/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has the other chat returned the slot? If so, go ahead with Panchalingeswar—research, review and publish it with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-20261122100",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "54bcd323606f80c9fef47ae3bf65d313a31068ed",
   "preceding_release": {
     "article": "Jirang–Chandragiri",
@@ -74,7 +74,12 @@
   "capacity": {
     "prior_linux_payload_bytes": 998213092,
     "remaining_bytes": 1786908,
-    "constraint": "Strict1billion-byte limit. Prefer compact quality-reviewed image within headroom, no unrelated optimizer changes."
+    "constraint": "Strict1billion-byte limit. Prefer compact quality-reviewed image within headroom, no unrelated optimizer changes.",
+    "publication_ci_payload": {
+      "bytes": 999124531,
+      "files": 3615,
+      "remaining_bytes": 875469
+    }
   },
   "remote_reconciliation": {
     "main": "6e2b127f7dd9c0991fbcbe4f83e945b7f0ec9a71",
@@ -87,7 +92,7 @@
     "publication_running": false
   },
   "foreign_ownership": "Kala Bhoomi current_task and handoff_home preserved",
-  "next_action": "Separate final-package and exact-commit review, required GitHub checks, then merge and publish authorized article; retain slot until live review and receipt merge.",
+  "next_action": "Merge exact reviewed evidence-only receipt after project-required CI, then explicitly hand publication slot to Research Antaranga Kalinga for horn craft. Kapilash remains queued until explicit return.",
   "next_slot": {
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "article": "Paralakhemundi horn craft",
@@ -131,7 +136,7 @@
     "status": "source_code_media_and_rendered_pass",
     "reviewer": "Drishti, separate subagent",
     "evidence": "outputs/panchalingeswar-publication-2026-11-22/review/drishti-review.md",
-    "pending": "Required remote checks, exact-head merge and live delivery review."
+    "pending": "Exact committed receipt review, project-required CI and actual receipt merge."
   },
   "browser_review": {
     "result": "pass",
@@ -260,5 +265,84 @@
     "checks_reperformed": 83,
     "local_payload_bytes": 998346917,
     "limitations": "Local output only; Linux CI/deployment and live behavior pending."
+  },
+  "publication": {
+    "pr": 832,
+    "reviewed_head": "0ea785ae3751cbc40d2f1c3e08fa93b940dc1681",
+    "exact_head_review": "Separate Drishti read-only exact committed continuity PASS; clean tree and all63files match reviewed candidate.",
+    "ci_run": 45036327604,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "check_requirement": "Project-required Review coastal candidate workflow passed; GitHub CLI reported no branch-protection-required checks.",
+    "merge_commit": "d38bf2389c0e5f8b906cecbe17ad44fbea8c7fd4",
+    "merged_at": "2026-11-22T15:34:49Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45039147170,
+    "deployment_head": "d38bf2389c0e5f8b906cecbe17ad44fbea8c7fd4",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "pull_request": 832,
+  "deployment": {
+    "run": 45039147170,
+    "source_sha": "d38bf2389c0e5f8b906cecbe17ad44fbea8c7fd4",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999124531,
+    "files": 3615
+  },
+  "verified_routes": [
+    "/destinations/panchalingeswar/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "live_verification": {
+    "evidence": "outputs/panchalingeswar-publication-2026-11-22/live/verification.json",
+    "routes": [
+      "/destinations/panchalingeswar/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "images_fetched_and_checked": 9,
+    "article_match": "Article fragment exactly matches reviewed local publication output without responsive URL substitutions.",
+    "original_public_image_exact": true,
+    "image_comparison": "outputs/panchalingeswar-publication-2026-11-22/live/image-comparison.json",
+    "encoding_differences": "None among the nine checked image files; no site-wide image equality claim."
+  },
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/panchalingeswar-publication-2026-11-22/review/live-browser-review.json",
+    "screenshots": 8,
+    "limits": "Chromium viewport simulation; source click and keyboard return verified. Hero extends below initial viewport; mobile hill and desktop Explore images partly above screenshot. Full desktop hill card shown; credit disclosures stayed collapsed."
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Article and photographs already deployed from reviewed publication merge. Receipt records actual delivery evidence and generated project views only.",
+    "required_gates": [
+      "Separate delivery and final receipt review",
+      "Exact committed receipt review",
+      "Project-required CI",
+      "Actual merge and explicit next-slot handoff"
+    ],
+    "final_review": {
+      "reviewer": "Drishti, separate subagent",
+      "result": "pass",
+      "scope": "Final integrated receipt, records, live evidence, preserved public/research/horn sources, foreign ownership and conditional horn-publication handoff; exact committed review and project-required CI remain."
+    }
+  },
+  "completed_at": "2026-11-22T16:09:54.269933+00:00",
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit publication-slot handoff to Research Antaranga Kalinga follows that observed merge.",
+  "reserved_files_released_by_workers": true,
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/panchalingeswar-publication-2026-11-22/review/delivery-review.json",
+    "human_review_claimed": false,
+    "scope": "Fresh independent four-route/nine-image/remote execution verification, all eight screenshots and source/ownership continuity. Root browser actions correctly attributed; screenshot framing limits retained."
   }
 }

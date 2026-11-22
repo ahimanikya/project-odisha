@@ -1,0 +1,56 @@
+{
+  "reviewer": "Disha",
+  "method": "Actual Disha CUA browser actions, DOM measurements and viewport screenshots; separate Drishti screenshot review recorded separately.",
+  "edition": "Live projectodisha.org after deployment45039147170",
+  "result": "pass",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "hero_rendered": [
+        480,
+        640
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "hero_rendered": [
+        351.609375,
+        468.8125
+      ]
+    }
+  ],
+  "routes": [
+    "/destinations/panchalingeswar/",
+    "/destinations/hills/",
+    "/explore/?q=Panchalingeswar"
+  ],
+  "checks": [
+    "Comfortable title and paragraph wrapping; no horizontal overflow.",
+    "Fullframe portrait, creator/source/licence/change text visibly present.",
+    "Desktop and mobile hill cards preserve water and garland crop; no distortion.",
+    "Explore returns Panchalingeswar and collection, with correct photograph.",
+    "Clicked reference1; observed source hash. PressedEnter on Back to reference1; observed return hash and citation focus.",
+    "Expanded native notes and onward Balasore/Mahendragiri/hills reading links visible."
+  ],
+  "screenshots": [
+    "live-desktop.jpg",
+    "live-portrait-credit.jpg",
+    "live-footnotes.jpg",
+    "live-mobile.jpg",
+    "live-mobile-credit.jpg",
+    "live-mobile-preview.jpg",
+    "live-preview.jpg",
+    "live-explore-preview.jpg"
+  ],
+  "limitations": [
+    "Chromium viewport simulation, not a physical device or cross-engine audit.",
+    "Footnotes screenshot begins at first note; source heading established in DOM snapshot.",
+    "Hero is a full-frame image extending below initial desktop/mobile viewport; the additional views show lower photograph and credit.",
+    "Mobile hill and desktop Explore screenshots begin within the image; full desktop hill card and earlier local mobile view establish full card framing. No claim that each screenshot contains the entire photograph or card.",
+    "Image credit disclosures on previews stayed collapsed; their contents were checked in HTTP evidence."
+  ]
+}
