@@ -1,0 +1,32 @@
+python3 tools/registers.py
+POD: valid; 1331 records, 808 events; dashboard generated
+python3 tools/editorial/article_rollout.py
+{"result": "PASS", "counts": {"blocked": 1, "completed": 231, "excluded": 872, "queued": 263}, "errors": []}
+python3 tools/editorial/build_workbench.py
+{"result": "PASS", "counts": {"records": 500, "by_kind": {"Source": 361, "Food": 23, "Person": 64, "Place": 4, "Work": 48}, "with_flags": 229, "mapped_pages": 13, "newer_records_outside_frozen_selection": 593}, "mode": "build"}
+python3 tools/registers.py --check
+POD: valid; 1331 records, 808 events; dashboard current
+python3 tools/catalog.py --check
+Whole-project catalogue current: 1914 concepts
+python3 tools/check_bundle.py
+{
+  "result": "PASS",
+  "concepts": 1914,
+  "local_links": 8606,
+  "errors": [],
+  "configuration_checked": true,
+  "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+}
+python3 tools/research/validate_research_map.py
+{
+  "result": "PASS",
+  "records": 1847,
+  "tasks": 71,
+  "reviewed_overlaps": 8,
+  "errors": [],
+  "scope": "Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval."
+}
+python3 tools/check_team_assignments.py
+{"result": "PASS", "errors": [], "scope": "Record consistency, not distributed locking, actual authorization or independent review."}
+python3 tools/check_autonomous_program.py
+PASS: autonomous program count and linked delivery records
