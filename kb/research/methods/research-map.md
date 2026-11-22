@@ -1556,3 +1556,8 @@ Daringbadi extension, 22 November 2026: mapped `places/daringbadi-article` with 
 Putsil extension, 22 November 2026: mapped `places/putsil-article` after scoped Putsil/Putisil reuse checks. Administrative village identity and valley tourism guidance remain distinct from historical Kuvi testimony and Deomali ecology. One licensed photograph attached; inventory now1841. No exhaustive semantic deduplication claim.
 
 Mandasaru extension, 22 November 2026: mapped `places/mandasaru-article` after scoped map/corpus checks and inspection of RES-010/RES-023 reuse pointers. Daringbadi context was not transferred as local access evidence. The original 2019 declaration and attributed forest/community accounts support the article; illustration is interpretive. Inventory now1842; no exhaustive semantic deduplication claim.
+
+
+### Binchana preparation · 22 November 2026
+
+Reuse the [fan source dossier](../culture/binchana-source-review-20261122.json), [image provenance](../culture/binchana-image.json) and [draft](../culture/binchana-and-the-handmade-breeze.md). Scoped alias checks found no dedicated narrative; the existing art-collection hand-fan mention and Pipili craft account remain distinct. Antaranga Kalinga supplied the topic lead only. A 2019–21 plant-craft survey, dated local reporting and a museum catalogue support different material examples; none is a universal making tutorial or present market survey. The authentic photograph depicts decorated cloth, not palm leaf, and does not establish its maker or workshop. Preparation only; no public route added.

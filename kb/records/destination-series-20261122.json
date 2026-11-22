@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": null,
+  "current": "taptapani",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -65,7 +65,13 @@
     },
     {
       "slug": "taptapani",
-      "status": "queued"
+      "status": "in_progress",
+      "handoff": "records/taptapani-publication-20261122.json",
+      "reuse_before_research": [
+        "research/methods/trip-planning-content.md",
+        "research/references/data/research-queue.json:RES-014",
+        "research/references/data/research-queue.json:RES-023"
+      ]
     },
     {
       "slug": "jirang-chandragiri",
@@ -102,8 +108,8 @@
   ],
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
-  "next_hill": "taptapani",
-  "coordination": "Verified newer human instruction reserves next single-article preparation for Research Antaranga Kalinga after Mahendragiri receipt merge; resume Taptapani after explicit slot return.",
+  "next_hill": "jirang-chandragiri",
+  "coordination": "Taptapani active. Verified new human direction reserves next single-article publication slot for Binchana after reviewed Taptapani receipt merge; Jirang–Chandragiri remains queued until return.",
   "next_publication_owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-  "next_slot_scope": "Article preparation only; no new publication authorization."
+  "next_slot_scope": "Publish the preserved Binchana article under verified new human direction, only after Taptapani reviewed receipt merge and explicit handoff."
 }

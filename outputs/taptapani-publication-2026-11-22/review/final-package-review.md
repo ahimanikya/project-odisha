@@ -1,0 +1,19 @@
+# Taptapani final local publication-package review
+
+Drishti, separate AI reviewer,22November2026. **PASS for the reviewed working tree and completed local artifact.** Exact committed candidate, Linux CI, deployment/live checks and reviewed receipt remain pending. No human approval claimed.
+
+Independently statted actual dist-publish: **998,608,713 regular-file bytes across3,601 files**, zero symbolic or hard-linked files, below the strict exclusive1,000,000,000-byte limit by1,391,287 bytes. This is actual local macOS output; it does not establish Linux payload size or deployment success. No optimizer code or allowlist changed for Taptapani.
+
+Read all eight successful sequential build-result records and actual test/disclosure logs: full822/coastal598 tests pass with zero failures; full1494/coastal1479/publication1480 disclosure pages have zero violations. These are root-executed results reviewed by Drishti; no rerun or build by this reviewer.
+
+Independently examined all three output editions. Article fragment SHA256 is identical: `2358cbb1c7dc391219f3b02681c9111bb952dad7c6f3d3354e2f5a60e34aa4ea`. It retains the final manuscript wording, one h1, four visible source notes, ten resolving reference/return links and matching photograph OG/Twitter metadata. Original photograph remains `5bad4ad57c149007d76683b953d8082368fedb1abb90e837e25dbf7887a02c75` in each edition. Actual final publication hero variants are480×360,960×720 and1440×1080; each filename’s content-hash prefix matches actual bytes. Incoming hills/destinations/Explore links and photographs are retained by the inspected release checks and prior rendered review.
+
+Independent bounded Binchana scan found no title, exact opening sentence, slug, media filename or Binchana-named output path in all three editions’ HTML/JSON/MD/TXT. Text files inspected: full1639/coastal1497/publication1498. No file matches the original3,374,337-byte image hash. Retained draft and original image remain byte-identical to input `b4c75736d2299e3e6e46aa27e2e77fbf53f7b3db`: manuscript `a1cf92097fab09c4eae2e29136bc1c22ad896aa4467ed1db8464541dc7b018f1`; image `12d5949655c798f7034d256b475bc282c17bb23c2401e73e35835814e651fd01`. This bounded evidence establishes exclusion of the prepared article/media; it is not a claim that the ordinary word binchana can never appear in unrelated published content.
+
+Foreign current_task/handoff_home remain unchanged and activity retains the exact inherited byte prefix. Canonical handoff keeps Taptapani sole active article and programme credit zero. New coordination records a newer human instruction, verified by Disha via the owner chat, reserving Binchana integration/publication only after the reviewed Taptapani receipt merges. It does not include Binchana in this package or authorize overlapping work. Jirang–Chandragiri remains queued until explicit slot return. Drishti reviewed the recorded coordination and its condition, not a separate read_thread verification of that message.
+
+Prior rendered assessment remains applicable: all five screenshots were independently inspected; mobile shows full photograph and credit, all four notes are visible in the source screenshot, previews are correct. Root keyboard/overflow measurements retain their actual attribution and viewport limits. No further website edits were identified.
+
+HEAD was still input `b4c75736d2299e3e6e46aa27e2e77fbf53f7b3db` during artifact review. This approves the current working tree/package; it does not approve a future commit without continuity verification. Remaining release gates: frozen committed-candidate review, exact-head Linux CI including strict payload, deployment/live article and media verification, then separate receipt review and merge before slot handoff.
+
+Only this reserved report was written. No source/shared-record/Git changes or builds/tests performed.

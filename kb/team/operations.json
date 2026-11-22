@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-MAHENDRAGIRI-20261122",
-    "route": "/destinations/mahendragiri/",
+    "id": "POD-EDIT-TAPTAPANI-20261122",
+    "route": "/destinations/taptapani/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/mahendragiri-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+    "phase": "publication_candidate",
+    "handoff": "records/taptapani-publication-20261122.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -537,12 +536,12 @@
     }
   ],
   "draft_preparation": {
-    "article_id": "POD-EDIT-BRASSFISH-20261122",
+    "article_id": "POD-EDIT-BINCHANA-20261122",
     "owner": "Disha",
     "status": "prepared_reviewed",
-    "handoff": "records/brass-fish-article-preparation-20261122.json",
+    "handoff": "records/binchana-article-preparation-20261122.json",
     "scope_released": true,
-    "scope": "Independent article preparation only; no website integration or publication."
+    "scope": "Independent preparation only; no website integration or publication."
   },
   "draft_preparation_history": [
     {
@@ -583,6 +582,14 @@
       "handoff": "records/sagada-article-preparation-20261121.json",
       "scope_released": true,
       "scope": "Independent research and reviewed article draft only. No website integration or publication."
+    },
+    {
+      "article_id": "POD-EDIT-BRASSFISH-20261122",
+      "owner": "Disha",
+      "status": "prepared_reviewed",
+      "handoff": "records/brass-fish-article-preparation-20261122.json",
+      "scope_released": true,
+      "scope": "Independent article preparation only; no website integration or publication."
     }
   ],
   "article_pointer_history": [
@@ -675,11 +682,20 @@
       "handoff": "records/brass-fish-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective only when this evidence-only receipt branch merges into main; until then Disha retains the slot. Explicit handoff then returns it for Mahendragiri."
+    },
+    {
+      "id": "POD-EDIT-MAHENDRAGIRI-20261122",
+      "route": "/destinations/mahendragiri/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/mahendragiri-publication-20261122.json",
+      "scope_released": true,
+      "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
     }
   ],
   "next_article_coordination": {
-    "status": "reserved_after_mahendragiri_receipt_merge",
-    "owner_chat": "Research Antaranga Kalinga",
-    "scope": "New independently researched article preparation only under verified latest human instruction. Return slot for Taptapani after preparation; no publication inferred."
+    "status": "taptapani_active",
+    "owner_chat": "Odisha hill destinations",
+    "scope": "Binchana reviewed preparation preserved and slot explicitly returned. Taptapani sole active article."
   }
 }

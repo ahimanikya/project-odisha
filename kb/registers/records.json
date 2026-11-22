@@ -10355,6 +10355,43 @@
       "evidence": [
         "records/mahendragiri-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112205",
+      "title": "Prepare Binchana article",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112205",
+      "next_action": "Reviewed unpublished draft, photograph and brief delivered locally. Preparation slot released for coordinated Taptapani queue; no website integration/publication.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112205"
+      ],
+      "evidence": [
+        "records/binchana-article-preparation-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112298",
+      "title": "Research, review and publish Taptapani",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Complete package and unpublished-draft exclusion checks, then exact-head publication and delivery review.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297",
+        "POD-REV-2026112298"
+      ],
+      "evidence": [
+        "records/taptapani-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -15685,6 +15722,21 @@
       ],
       "evidence": [
         "records/mahendragiri-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112205",
+      "title": "Prepare next independent article after Mahendragiri",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once Mahendragiri’s release is complete, find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+      "scope": "Independent research and reviewed draft with credited article/preview image; no website integration or publication.",
+      "refs": [],
+      "evidence": [
+        "records/binchana-article-preparation-20261122.json"
       ]
     }
   ],
@@ -24967,6 +25019,51 @@
       "limitations": [
         "Separate AI review, not human specialist approval or field verification.",
         "Root keyboard/viewport measurements attributed to root;5screenshots independently inspected with framing limits retained.",
+        "Final package, required CI, deployment and reviewed delivery receipt remain gates."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112205",
+      "title": "Binchana separate factual originality and media review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112205"
+      ],
+      "evidence": [
+        "records/binchana-article-preparation-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval.",
+        "No fieldwork, interviews, current market survey or complete fan-making tutorial.",
+        "Journal and supplement text inspected; PDF page images not visually recovered.",
+        "Museum collection entry read; its object image not inspected.",
+        "Photograph has visible grain and softness; use restrained full-portrait display without upscaling.",
+        "No rendered website layout or live publication checks for draft preparation."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112298",
+      "title": "Taptapani separate source and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112298"
+      ],
+      "evidence": [
+        "records/taptapani-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root keyboard/viewport measurements attributed to root;five screenshots independently inspected.",
         "Final package, required CI, deployment and reviewed delivery receipt remain gates."
       ]
     }
