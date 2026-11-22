@@ -10378,16 +10378,17 @@
       "id": "POD-WORK-2026112298",
       "title": "Research, review and publish Taptapani",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112297",
-      "next_action": "Complete package and unpublished-draft exclusion checks, then exact-head publication and delivery review.",
+      "next_action": "Merge separately reviewed evidence-only receipt, then explicitly return publication slot for Binchana; no next hill claim before return.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112297",
-        "POD-REV-2026112298"
+        "POD-REV-2026112298",
+        "POD-REL-2026112298"
       ],
       "evidence": [
         "records/taptapani-publication-20261122.json"
@@ -25048,7 +25049,7 @@
     },
     {
       "id": "POD-REV-2026112298",
-      "title": "Taptapani separate source and rendered review",
+      "title": "Taptapani separate source, rendered and live delivery review",
       "status": "pass_with_limitations",
       "reviewer": {
         "kind": "ai_assistant",
@@ -25062,9 +25063,10 @@
         "records/taptapani-publication-20261122.json"
       ],
       "limitations": [
-        "Separate AI review, not human specialist approval or field verification.",
-        "Root keyboard/viewport measurements attributed to root;five screenshots independently inspected.",
-        "Final package, required CI, deployment and reviewed delivery receipt remain gates."
+        "Separate AI review, not human specialist approval, field verification or independent geolocation.",
+        "Five live screenshots independently inspected; root browser interactions attributed to root. First forward keyboard-scroll capture inconclusive; separate source-link click and keyboard return verified.",
+        "Chromium viewport simulation only; no cross-engine, assistive-technology or field-performance claim.",
+        "Article slot releases only after exact reviewed evidence-only receipt merges."
       ]
     }
   ],
@@ -29308,6 +29310,20 @@
       ],
       "evidence": [
         "records/mahendragiri-publication-20261122.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112298",
+      "title": "Taptapani: A Spring in the Wooded Hills",
+      "status": "published",
+      "authorization": "POD-DEC-2026112297",
+      "destination": "https://projectodisha.org/destinations/taptapani/",
+      "refs": [
+        "POD-WORK-2026112298",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/taptapani-publication-20261122.json"
       ]
     }
   ],

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `307f2cff7ca90bd018b2f1fd9e9b255740872129ca0f55ced6e6b0c7bf40da8e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4c90335e7f8162acbb9ae54d7fc38ee09e55201811ab163b80465968fd7a1109`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -400,7 +400,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112204 · Publish Bellaguntha’s Brass Fish | completed | published | Ahimanikya Satapathy | Published and live verified; merge separately reviewed delivery receipt before explicit coordinated slot return. | — |
 | POD-WORK-2026112297 · Research, review and publish Mahendragiri | completed | published | Ahimanikya Satapathy | Mahendragiri published and live verified; separately reviewed receipt prepared. Slot release effective upon receipt merge. | — |
 | POD-WORK-2026112205 · Prepare Binchana article | completed | reviewed | Ahimanikya Satapathy | Reviewed unpublished draft, photograph and brief delivered locally. Preparation slot released for coordinated Taptapani queue; no website integration/publication. | — |
-| POD-WORK-2026112298 · Research, review and publish Taptapani | in_progress | reviewed | Ahimanikya Satapathy | Complete package and unpublished-draft exclusion checks, then exact-head publication and delivery review. | — |
+| POD-WORK-2026112298 · Research, review and publish Taptapani | completed | published | Ahimanikya Satapathy | Merge separately reviewed evidence-only receipt, then explicitly return publication slot for Binchana; no next hill claim before return. | — |
 
 ## Pending human review and decisions
 
@@ -1134,7 +1134,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112204 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions attributed to root; screenshots and fresh live HTTP evidence independently reviewed.; Existing unrelated Mardala480px variant is visually equivalent across Linux/macOS encoding, not pixel-exact. |
 | POD-REV-2026112297 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root keyboard/viewport measurements attributed to root;5screenshots independently inspected with framing limits retained.; Final package, required CI, deployment and reviewed delivery receipt remain gates. |
 | POD-REV-2026112205 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No fieldwork, interviews, current market survey or complete fan-making tutorial.; Journal and supplement text inspected; PDF page images not visually recovered.; Museum collection entry read; its object image not inspected.; Photograph has visible grain and softness; use restrained full-portrait display without upscaling.; No rendered website layout or live publication checks for draft preparation. |
-| POD-REV-2026112298 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root keyboard/viewport measurements attributed to root;five screenshots independently inspected.; Final package, required CI, deployment and reviewed delivery receipt remain gates. |
+| POD-REV-2026112298 | pass_with_limitations | True | Separate AI review, not human specialist approval, field verification or independent geolocation.; Five live screenshots independently inspected; root browser interactions attributed to root. First forward keyboard-scroll capture inconclusive; separate source-link click and keyboard return verified.; Chromium viewport simulation only; no cross-engine, assistive-technology or field-performance claim.; Article slot releases only after exact reviewed evidence-only receipt merges. |
 
 ## Publication and application history
 
@@ -1402,6 +1402,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112296 · Mandasaru: A Gorge and the Forest Around It | published | https://projectodisha.org/destinations/mandasaru/ | POD-DEC-2026112291 |
 | POD-REL-2026112204 · Bellaguntha’s Brass Fish | published | https://projectodisha.org/stories/bellaguntha-brass-fish/ | POD-DEC-2026112204 |
 | POD-REL-2026112297 · Mahendragiri: Mountain Shrines and Forest Life | published | https://projectodisha.org/destinations/mahendragiri/ | POD-DEC-2026112297 |
+| POD-REL-2026112298 · Taptapani: A Spring in the Wooded Hills | published | https://projectodisha.org/destinations/taptapani/ | POD-DEC-2026112297 |
 
 ## Sources and assets
 
@@ -1439,8 +1440,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261122107 | 2026-11-22T05:14:56.084982+00:00 | Verified receipt823 merge and required success, deployment completion and explicit slot return. Existing workers idle; Mahendragiri claimed after saved-research search. Foreign task and historical evidence preserved. Zero programme credit. | — |
-| POD-EVT-20261122108 | 2026-11-22T05:39:08.819486+00:00 | Separate Anvesha source and Drishti integrated review passed. Licensed landscape photograph attached to article/preview/sharing; root desktop/mobile/narrow and source-note navigation checked.822full and598coast tests passed. Final publication-package and live release gates pending;foreign work preserved;zero programme credit. | — |
 | POD-EVT-20261122109 | 2026-11-22T06:53:58.690529+00:00 | PR824 exact-head CI44991387735 and deployment44993334496 succeeded. Five live routes, original photograph, three hero variants, native notes and desktop/mobile previews checked. Live JPEG encoding difference inspected and explicitly recorded, not claimed pixel-identical. Receipt review/integration pending; next article remains queued; foreign task preserved;zero programme credit. | — |
 | POD-EVT-20261122110 | 2026-11-22T06:58:00.521279+00:00 | Drishti independently verified exact-head CI/deployment, five live routes, both article fragments and all24 unique responsive files across the checked articles, original photograph, six screenshots and credits. Live JPEG exception independently measured and visually accepted with limits. Evidence-only receipt ready; scope releases only upon merge; Taptapani remains queued. Foreign task preserved;zero programme credit. | — |
 | POD-EVT-2026112212 | 2026-11-22T07:44:12.813447+00:00 | Following merged Mahendragiri receipt825 and explicit handoff, reserve preparation-only Binchana scope. Foreign Kala Bhoomi task preserved; zero programme credit. | — |
@@ -1449,6 +1448,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261122112 | 2026-11-22T08:24:53.109813+00:00 | Independent source review and separate editorial/media/rendered review passed final manuscript. Credited dated original attached to article, previews and sharing; full822/coast598tests passed. Actual package and Binchana export exclusion remain pending. Single active article and foreign task preserved;zero programme credit. | — |
 | POD-EVT-20261122113 | 2026-11-22T08:28:03.454256+00:00 | Verified actual human instruction in coordinated chat to publish Binchana after Taptapani completes. Reserve next slot conditionally upon Taptapani reviewed receipt merge; current Taptapani remains sole active article and Binchana stays excluded from this public release. Jirang–Chandragiri queued until explicit return. | — |
 | POD-EVT-20261122114 | 2026-11-22T08:34:26.686795+00:00 | Drishti independently passed final package998608713bytes/3601files, finalarticle andresponsiveimages, allthreeedition Binchana exclusion and source preservation. Candidate ready for exact-head required CI; no publication or slot release claimed. | — |
+| POD-EVT-20261122115 | 2026-11-22T09:30:51.945616+00:00 | PR826 exactreviewedhead passedCI and merged; deployment45005382148 succeeded fromexactmerge. Root verified livearticlefragment andoriginalphotoexact, nine responsivefiles, four routes, five screenshots andpreviews. Linuxpayload999383034bytes. Independentdeliveryreview andreviewedreceiptmerge stillrequired;no slotreturn or programmecredit. | — |
+| POD-EVT-20261122116 | 2026-11-22T09:34:03.787945+00:00 | Separate Drishti delivery review passed actual PR826/CI/deployment, four live routes, exact article and original photo, all nine responsive images and five screenshots. Receipt integrated with browser limitations and zero programme credit. Slot release is conditional on reviewed receipt merge; Binchana publication is next under verified human direction. | — |
 
 ## Deferred extensions
 
