@@ -7,6 +7,7 @@ import mahendragiriImage from '../../../../kb/research/destinations/mahendragiri
 import taptapaniImage from '../../../../kb/research/destinations/taptapani-image.json';
 import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-chandragiri-image.json';
 import panchalingeswarImage from '../../../../kb/research/destinations/panchalingeswar-image.json';
+import kapilashImage from '../../../../kb/research/destinations/kapilash-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -88,4 +89,14 @@ export const panchalingeswarGuide = {
  aliases: ['Panchalingeswar Temple', 'Panchalingeshwar', 'Panchalingeswara', 'Devagiri'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide].filter(guide => allowsPage(guide.href));
+export const kapilashGuide = {
+ title: 'Kapilash',
+ odia: '',
+ summary: 'Chandrasekhar’s hill shrine and traces of an older temple.',
+ href: '/destinations/kapilash/',
+ photo: kapilashImage,
+ regions: ['Dhenkanal'],
+ aliases: ['Kapilas', 'Kapilash Temple', 'Chandrasekhar Temple'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide].filter(guide => allowsPage(guide.href));

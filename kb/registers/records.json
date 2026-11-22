@@ -10491,6 +10491,24 @@
       "evidence": [
         "records/paralakhemundi-horn-publication-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112391",
+      "title": "Research, review and publish Kapilash",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Review exact committed candidate, run project-required CI, merge and publish, then independently verify live delivery and integrate reviewed receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/kapilash-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -25326,6 +25344,30 @@
         "Root browser interactions and separate screenshot review; Chromium viewport simulation only.",
         "Museum image maker/manufacture place unidentified; Cuttack workshop comparison is not direct Paralakhemundi fieldwork.",
         "Two responsive images differ in bytes and pixels; measured and visually accepted. All other checked images exact; no site-wide equivalence claim."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112391",
+      "title": "Kapilash separate source, image, article and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112391",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/kapilash-publication-20261123.json"
+      ],
+      "summary": "Separate source/code/media, eight local screenshot and final local package reviews passed. Exact committed review, project-required CI and live delivery remain.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Photographer description establishes image identity; no independent geolocation.",
+        "Root browser interactions attributed to root; separate screenshot review, Chromium viewport simulation.",
+        "Actual Linux CI/deployment capacity and live behavior remain unverified."
       ]
     }
   ],
