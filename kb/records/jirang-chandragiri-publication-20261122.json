@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_publication_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-JIRANG-CHANDRAGIRI-20261122",
   "route": "/destinations/jirang-chandragiri/",
   "owner": "Disha",
@@ -7,7 +7,7 @@
   "authorization": "POD-DEC-2026112297",
   "work_id": "POD-WORK-2026112299",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "39da6cb89f49558148676b7162f7aab04a644c2e",
   "preceding_release": {
     "article": "Binchana",
@@ -114,7 +114,10 @@
     },
     "local_final_bytes": 997436624,
     "local_headroom_bytes": 2563376,
-    "note": "Actual local macOS package; Linux CI and deployment remain authoritative for release."
+    "note": "Actual local macOS package; Linux CI and deployment remain authoritative for release.",
+    "linux_ci_bytes": 998213092,
+    "linux_ci_headroom_bytes": 1786908,
+    "linux_deployment_bytes": 998213092
   },
   "foreign_ownership": "Kala Bhoomi current_task and handoff_home preserved",
   "remote_reconciliation": {
@@ -127,7 +130,7 @@
     "overlap_found": false,
     "publication_running": false
   },
-  "next_action": "Commit reviewed candidate, pass required CI, merge and deploy; live verification and reviewed receipt merge precede explicit preparation-slot handoff.",
+  "next_action": "Merge exact reviewed evidence-only receipt after required CI, then explicitly hand preparation-only slot to Research Antaranga Kalinga. Panchalingeswar remains queued until explicit return.",
   "research": {
     "status": "pass",
     "reviewer": "Anvesha, separate subagent",
@@ -194,7 +197,7 @@
     "status": "source_code_media_and_rendered_pass",
     "reviewer": "Drishti, separate subagent",
     "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/drishti-review.md",
-    "pending": "Final package, exact-head CI, publication and live review."
+    "pending": "No content or delivery review pending; required evidence-only receipt integration remains."
   },
   "browser_review": {
     "actor": "Disha",
@@ -330,5 +333,91 @@
     "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/final-package-review.md",
     "scope": "Independent final three-edition article/image/card/14anchor, actual payload, six-screenshot, original preservation, source/licence and foreign ownership/history review.",
     "limits": "Local candidate only; exact committed continuity, Linux CI and live delivery pending."
+  },
+  "publication": {
+    "pr": 830,
+    "reviewed_head": "fcb12642d397bf2a8cf3782d6f7043a3e647b03d",
+    "exact_head_review": "Separate Drishti read-only committed continuity PASS; clean tree and public sources unchanged.",
+    "ci_run": 45024287879,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge_commit": "53c3734af18c71be4078e0a388e728902200b55b",
+    "merged_at": "2026-11-22T13:18:57Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45026892948,
+    "deployment_head": "53c3734af18c71be4078e0a388e728902200b55b",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "pull_request": 830,
+  "deployment": {
+    "run": 45026892948,
+    "source_sha": "53c3734af18c71be4078e0a388e728902200b55b",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 998213092
+  },
+  "live_verification": {
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/live/verification.json",
+    "five_routes": [
+      "/destinations/jirang-chandragiri/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/",
+      "/stories/bhubaneswar-week/"
+    ],
+    "images_fetched_and_checked": 26,
+    "article_match": "Jirang and Bhubaneswar article fragments match the reviewed package after exactly two recorded responsive image URL substitutions.",
+    "original_public_jirang_image_exact": true,
+    "image_comparison": "outputs/jirang-chandragiri-publication-2026-11-22/live/image-comparison.json",
+    "encoding_differences": "Three files differ in bytes and decoded pixels: Jirang480px, an existing1440px palm-leaf preview in Bhubaneswar further reading, and MentisJPEG. Each measured and visually compared; no cause asserted. Mentis metadata equals local candidate, distinct from originalEXIF preservation."
+  },
+  "verified_routes": [
+    "/destinations/jirang-chandragiri/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/bhubaneswar-week/"
+  ],
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/live-browser-review.json",
+    "screenshots": [
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-desktop.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-mobile.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-footnotes.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-preview.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-explore.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-mentis.png"
+    ],
+    "limits": "Chromium viewport simulation only; source click and keyboard return verified. Desktop photograph extends below viewport; mobile shows full photograph andcredit. Preview disclosures collapsed. Mentis on-page responsive image and directly fetched JPEG reviewed separately."
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Public article and photos already deployed from reviewed publication merge. This branch records actual delivery evidence and generated project views only.",
+    "required_gates": [
+      "Separate delivery and final receipt review",
+      "Exact committed receipt review",
+      "Required CI",
+      "Actual merge and explicit next-slot handoff"
+    ],
+    "final_review": {
+      "reviewer": "Drishti, separate subagent",
+      "result": "pass",
+      "scope": "Final integrated receipt, canonical records, evidence, public/source preservation and conditional preparation-only handoff; exact committed continuity and required CI remain."
+    }
+  },
+  "completed_at": "2026-11-22T13:46:50.128011+00:00",
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Explicit preparation-only handoff to Research Antaranga Kalinga follows that observed merge.",
+  "reserved_files_released_by_workers": true,
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/delivery-review.json",
+    "human_review_claimed": false,
+    "scope": "Independent live and release verification, all six screenshots and measured three encoding differences; root browser actions correctly attributed."
   }
 }
