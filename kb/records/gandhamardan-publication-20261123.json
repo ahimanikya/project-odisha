@@ -1,5 +1,5 @@
 {
-  "status": "publication_candidate_review",
+  "status": "published_verified",
   "article_id": "POD-EDIT-GANDHAMARDAN-20261123",
   "route": "/destinations/gandhamardan/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Once the horn-craft release is complete, continue with Kapilash—research, review and publish it with a high-quality credited image in the article and preview, then continue through the remaining hill destinations one at a time.",
   "work_id": "POD-WORK-2026112392",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "af57ee13b805874a8afa32e55936fefbcd4091c3",
   "preceding_release": {
     "article": "Kapilash",
@@ -53,7 +53,9 @@
     "Drishti": [
       "outputs/gandhamardan-publication-2026-11-23/review/drishti-review.md",
       "outputs/gandhamardan-publication-2026-11-23/review/final-package-review.md",
-      "outputs/gandhamardan-publication-2026-11-23/review/delivery-review.json"
+      "outputs/gandhamardan-publication-2026-11-23/review/delivery-review.json",
+      "outputs/gandhamardan-publication-2026-11-23/review/media-capacity-review.md",
+      "outputs/gandhamardan-publication-2026-11-23/review/metadata-correction-review.md"
     ],
     "Disha": [
       "shared canonical records",
@@ -93,7 +95,13 @@
     "review": "outputs/gandhamardan-publication-2026-11-23/review/media-capacity-review.md",
     "local_payload_bytes": 999199871,
     "local_remaining_bytes": 800129,
-    "linux_capacity_status": "pending actual hosted check; local and Linux can differ"
+    "linux_capacity_status": "Actual corrected-head CI and deployment gates passed; live images verified.",
+    "actual_linux_ci_bytes": 999980594,
+    "actual_linux_ci_files": 3628,
+    "actual_linux_remaining_bytes": 19406,
+    "actual_deployed_bytes": 999980594,
+    "actual_deployed_files": 3628,
+    "remaining_bytes": 19406
   },
   "foreign_ownership": "Kala Bhoomi current_task/handoff_home and prior Kapilash/horn/Sola evidence preserved",
   "remote_reconciliation": {
@@ -106,13 +114,14 @@
     "overlap_found": false,
     "publication_running": false
   },
-  "next_action": "Finish separate package and exact-commit review, hosted checks, merge/deploy, live review and separate receipt before Sola handoff.",
+  "next_action": "Merge exact reviewed evidence-only receipt after project-required CI; then explicitly hand the reserved Sola publication slot to Research Antaranga Kalinga. Belghar–Tumudibandha remains queued until return.",
   "next_slot": {
     "article": "Sola: The Craft Behind an Odissi Tahia",
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "scope": "publication",
     "release_condition": "Gandhamardan reviewed publication receipt merged and explicit handoff",
-    "verified_human_turn": "01a2050c-d6a8-7822-b5ee-d4c532dd4db4"
+    "verified_human_turn": "01a2050c-d6a8-7822-b5ee-d4c532dd4db4",
+    "human_instruction_quote": "Once Gandhamardan’s release is complete, integrate and publish the Sola and Odissi Tahia article with the credited image, links from relevant existing articles, and mobile and desktop layout checks."
   },
   "research": {
     "findings": "outputs/gandhamardan-publication-2026-11-23/research/findings.md",
@@ -324,5 +333,92 @@
     ],
     "review": "outputs/gandhamardan-publication-2026-11-23/review/metadata-correction-review.md",
     "scope": "Prior full/package/artifact proof remains evidence for unchanged article and media. Fresh coastal acceptance/discovery/search-readiness/disclosure gates pass. Corrected exact-head Linux build and capacity required before merge."
-  }
+  },
+  "publication": {
+    "pr": 838,
+    "reviewed_head": "b9d96843e0928d2217464283f5a2b03b82b15a6a",
+    "exact_head_review": "Separate Drishti read-only PASS: all14correctionfiles exact; prior67filecandidate reviewed; clean tree, manuscript/media/Sola/foreign state preserved.",
+    "ci_run": 45074470889,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "check_requirement": "Project-required Review coastal candidate workflow passed.",
+    "prior_failed_run": 45072679658,
+    "prior_failed_head": "d1e2d8c143dff0d000329f50de0df949825413a0",
+    "prior_failure": "Hill-hub metadata description253characters exceeded250; separately corrected to143 and fresh5432/5432acceptance checks passed. No article/image/visible-layout change.",
+    "merge_commit": "1a2b904edba7bbc16b822b47ed75fd9054c09c98",
+    "merged_at": "2026-11-22T22:21:54Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45077339965,
+    "deployment_head": "1a2b904edba7bbc16b822b47ed75fd9054c09c98",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "deployment": {
+    "run": 45077339965,
+    "source_sha": "1a2b904edba7bbc16b822b47ed75fd9054c09c98",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999980594,
+    "files": 3628
+  },
+  "verified_routes": [
+    "/destinations/gandhamardan/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/people/lipika-singh-darai/",
+    "/people/pramod-pati/"
+  ],
+  "live_verification": {
+    "evidence": "outputs/gandhamardan-publication-2026-11-23/live/verification.json",
+    "routes": [
+      "/destinations/gandhamardan/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/",
+      "/people/lipika-singh-darai/",
+      "/people/pramod-pati/"
+    ],
+    "images_fetched_and_checked": 13,
+    "article_match": "Exact reviewed article fragment without substitutions. Live hill-hub metadata equals separately reviewed143-character correction.",
+    "reviewed_public_base_image_exact": true,
+    "image_comparison": "outputs/gandhamardan-publication-2026-11-23/live/image-comparison.json",
+    "encoding_differences": [],
+    "scope": "All13 actual images byte-identical to reviewed local output, including both losslessly compressed PNGs; not a site-wide equality claim."
+  },
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/gandhamardan-publication-2026-11-23/review/live-browser-review.json",
+    "screenshots": 9,
+    "limits": "Chromium viewport simulation, not physical-device testing. Mobile notes screenshot begins at note1 with heading above frame. Full photo and credit shown in separate desktop view; mobile initial view contains both. Native click and keyboard return actually operated by root. Viewport reset."
+  },
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/gandhamardan-publication-2026-11-23/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Article and images already deployed from reviewed publication merge1a2b904e. Receipt records actual delivery evidence and generated project views only.",
+    "required_gates": [
+      "Separate final integrated receipt review",
+      "Exact committed receipt review",
+      "Project-required CI",
+      "Actual receipt merge"
+    ],
+    "final_review": {
+      "reviewer": "Drishti, separate subagent",
+      "result": "pass",
+      "evidence": "outputs/gandhamardan-publication-2026-11-23/review/final-receipt-review.md",
+      "scope": "Final integrated evidence-only receipt, live evidence, records, preservation and conditional Sola publication handoff; exact committed review, project-required CI and actual merge remain."
+    }
+  },
+  "completed_at": "2026-11-22T22:54:34.075679+00:00",
+  "reserved_files_released_by_workers": true,
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit Sola publication-slot handoff follows actual merge; no next hill starts before its slot returns.",
+  "pull_request": 838
 }

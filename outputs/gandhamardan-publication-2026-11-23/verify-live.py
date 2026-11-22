@@ -50,6 +50,12 @@ for path in [route,'/destinations/hills/','/destinations/','/explore/']:
   for text in ['Amitabh Patra','https://creativecommons.org/licenses/by-sa/3.0/','Resized and converted to WebP; full frame retained. Preview crops and resized copies share the same licence.']:assert text in a
   record.update(native_reference_and_return_links=10,credited_hero_and_sharing=True)
  else:assert route in p.links and photo in s;record['incoming_article_and_photo']=True
+ if path=='/destinations/hills/':
+  source=(ROOT/'projects/site/src/pages/destinations/hills.astro').read_text()
+  expected=re.search(r'<Shell[^>]+description="([^"]+)"',source).group(1)
+  assert p.meta.get('description')==expected and 50<=len(expected)<=250
+  record['corrected_description_characters']=len(expected)
+  record['corrected_description_matches_reviewed_source']=True
  report['routes'][path]=record
 for path,asset in [('/people/lipika-singh-darai/','/assets/cinema/lipika-film-letter.png'),('/people/pramod-pati/','/assets/cinema/pramod-paper-movement.png')]:
  b,headers=get(path);s=b.decode();assert asset in s
