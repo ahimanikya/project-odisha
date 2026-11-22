@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-DARINGBADI-20261122",
-    "route": "/destinations/daringbadi/",
+    "id": "POD-EDIT-PUTSIL-20261122",
+    "route": "/destinations/putsil/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/daringbadi-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+    "phase": "reviewed",
+    "handoff": "records/putsil-publication-20261122.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -648,12 +647,21 @@
       "handoff": "records/deomali-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge."
+    },
+    {
+      "id": "POD-EDIT-DARINGBADI-20261122",
+      "route": "/destinations/daringbadi/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/daringbadi-publication-20261122.json",
+      "scope_released": true,
+      "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
     }
   ],
   "next_article_coordination": {
-    "status": "daringbadi_published_receipt_pending",
+    "status": "putsil_active",
     "completed_preparation": "records/brass-fish-article-preparation-20261122.json",
     "owner_chat": "Odisha hill destinations",
-    "scope": "Daringbadi is live and verified. Its scope releases when the separately reviewed receipt merges; Putsil is next queued. Brass-fish preparation remains unpublished."
+    "scope": "Daringbadi receipt817 merged; Putsil is now the sole active article. Brass-fish preparation remains unpublished."
   }
 }

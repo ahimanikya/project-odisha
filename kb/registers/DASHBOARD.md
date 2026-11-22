@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `922fd7d6b5290a078a01ae893bdc36792daf96010a56f28dc1b8a3061de42f69`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b5e58605efe21462e73788a9b150eb599f64920c00f3a27abe617bebd9fcd277`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -395,6 +395,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112291 · Research, review and publish Deomali | completed | published | Ahimanikya Satapathy | Deomali, its credited photograph and destination preview cards published and live verified; delivery receipt saved. | — |
 | POD-WORK-2026112203 · Prepare Bellaguntha brass fish article | completed | reviewed | Ahimanikya Satapathy | Reviewed draft, photograph and publication brief delivered locally; no website integration or publication. Coordinated preparation scope released. | — |
 | POD-WORK-2026112294 · Research, review and publish Daringbadi | completed | published | Ahimanikya Satapathy | Daringbadi and both credited photographs are published and live verified; delivery receipt saved for independent review and integration. | — |
+| POD-WORK-2026112295 · Research, review and publish Putsil | in_progress | reviewed | Ahimanikya Satapathy | Complete final package validation and exact-head required checks, then merge, deploy, verify live delivery and integrate reviewed receipt before the next article. | — |
 
 ## Pending human review and decisions
 
@@ -1120,6 +1121,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112291 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Root browser interactions and overflow measurements attributed to root; screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; No fieldwork claimed; current entry arrangements and numerical elevation limits retained. |
 | POD-REV-2026112203 | pass_with_limitations | True | Separate AI review, not human specialist approval.; Selected source pages inspected, not full-volume visual review, fieldwork, interviews or video inspection.; No rendered website layout or publication claimed.; Photograph licensed for noncommercial use under CC BY-NC-SA4.0; no commercial permission asserted. |
 | POD-REV-2026112294 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser interactions and overflow measurements attributed to root; five live screenshots independently inspected. No physical-device, screen-reader or cross-engine certification.; Original image hash exclusion is not a perceptual search for every possible transformed photograph. |
+| POD-REV-2026112295 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root keyboard and viewport measurements attributed to root; five screenshots independently inspected.; Final publication package, exact-head required CI, deployment and reviewed live receipt remain release gates. |
 
 ## Publication and application history
 
@@ -1420,8 +1422,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112291 | 2026-11-21T19:23:23.821537+00:00 | Founder authorized sequential destination publication and mandatory article/preview imagery. Deomali is sole active article; previous Sagada receipt merged; foreign Kala Bhoomi task preserved. Zero programme credit. | — |
-| POD-EVT-2026112292 | 2026-11-21T21:11:10.167940+00:00 | Deomali PR813 merged after required exact-head CI; deployment44948003151 succeeded. Article, five incoming routes, original photograph hash, responsive variants and live desktop/mobile presentation verified. Delivery review and evidence-only receipt merge remain required; zero programme credit. | — |
 | POD-EVT-2026112293 | 2026-11-21T21:14:14.419993+00:00 | Separate Drishti delivery review passed actual publication, six live routes, article/image integrity and screenshots; foreign history preserved. Evidence-only receipt releases scope only after required checks and merge. Zero programme credit. | — |
 | POD-EVT-2026112206 | 2026-11-21T21:49:14.973818+00:00 | After verified Deomali receipt815 merge and explicit coordinated handoff, reserve single independent draft preparation. Foreign Kala Bhoomi task preserved; no publication or programme credit. | — |
 | POD-EVT-2026112207 | 2026-11-21T21:56:14.567357+00:00 | Independent source research and separate originality/editorial/photo review passed. Draft, credited original photo and preview/publication brief delivered locally. No website change, deployment or autonomous-programme credit; own preparation scope released and foreign task preserved. | — |
@@ -1430,6 +1430,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112296 | 2026-11-21T22:48:35.077700+00:00 | PR816 merged exact reviewed head8a13741f after requiredCI44955851469 passed;821full/597coast tests,zero disclosure violations and998163589byte payload. Authorized deployment44958538048 started from merge09c75120. Live verification and reviewed receipt remain pending;single article scope retained. | — |
 | POD-EVT-2026112297 | 2026-11-21T23:18:41.098311+00:00 | Deployment44958538048 succeeded from reviewed merge09c75120 with998163589bytes. Four live routes, both original photo hashes,three unique responsive variants,12native reference/return targets,article text and photographed previews verified. Desktop/mobile browser review includes coffee image and source-note list. Receipt is evidence-only;next article waits for independent receipt review and merge. Zero programme credit. | — |
 | POD-EVT-2026112298 | 2026-11-21T23:22:17.645253+00:00 | Separate Drishti live-delivery and receipt review passed with no fixes. Exact-head CI, deployment, four fresh routes, photo bytes, source-note navigation, article continuity and five screenshots verified. Foreign records and completed brass-fish draft preserved. Receipt-only integration needs no deployment; single-article scope releases after its merge. | — |
+| POD-EVT-2026112299 | 2026-11-21T23:50:28.176064+00:00 | Verified receipt817 exact head e72f0d45 passed required44961576713 and merged at8e8a4c8a. Single article scope now Putsil after reuse search. Completed brass-fish draft and foreign task preserved. Zero programme credit. | — |
+| POD-EVT-20261122100 | 2026-11-22T00:04:09.941338+00:00 | Separate Anvesha source and Drishti integrated review passed. Original licensed photograph attached to article/preview/sharing. Root desktop/mobile/narrow and source-note navigation passed;821full and597coast tests passed. Final-package/CI/deployment/live receipt remain pending. Foreign draft and task preserved;zero programme credit. | — |
 
 ## Deferred extensions
 
