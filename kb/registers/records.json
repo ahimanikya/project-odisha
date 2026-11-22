@@ -10373,6 +10373,25 @@
       "evidence": [
         "records/binchana-article-preparation-20261122.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112298",
+      "title": "Research, review and publish Taptapani",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Complete package and unpublished-draft exclusion checks, then exact-head publication and delivery review.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297",
+        "POD-REV-2026112298"
+      ],
+      "evidence": [
+        "records/taptapani-publication-20261122.json"
+      ]
     }
   ],
   "decisions": [
@@ -25025,6 +25044,27 @@
         "Museum collection entry read; its object image not inspected.",
         "Photograph has visible grain and softness; use restrained full-portrait display without upscaling.",
         "No rendered website layout or live publication checks for draft preparation."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112298",
+      "title": "Taptapani separate source and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent; Anvesha source review"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112298"
+      ],
+      "evidence": [
+        "records/taptapani-publication-20261122.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root keyboard/viewport measurements attributed to root;five screenshots independently inspected.",
+        "Final package, required CI, deployment and reviewed delivery receipt remain gates."
       ]
     }
   ],

@@ -1,0 +1,33 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/places/taptapani-article.md';
+import image from '../../../../../kb/research/destinations/taptapani-image.json';
+import {mahendragiriGuide,daringbadiGuide} from '../../data/hill-destinations';
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <p class="eyebrow">Ganjam · Hills and highland escapes</p>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <figure>
+      <ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px" loading="eager" fetchpriority="high"/>
+      <figcaption>{image.caption} Photograph by <a href={image.source}>{image.creator}</a>, <a href={image.license_url}>{image.license}</a>. {image.changes}</figcaption>
+    </figure>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={[{href:mahendragiriGuide.href,title:'Mahendragiri: Mountain Shrines and Forest Life',description:mahendragiriGuide.summary,image:mahendragiriGuide.photo.src},{href:daringbadiGuide.href,title:'Daringbadi: Coffee, Shade and Hill Views',description:daringbadiGuide.summary,image:daringbadiGuide.photo.src}]}/>
+    <ArticleReadingPath heading="Further reading" links={[{href:'/destinations/hills/',title:'Hills and highland escapes',description:'Explore the growing collection of hill destinations.',image:image.src}]}/>
+    <p><a href="/contribute/?page=%2Fdestinations%2Ftaptapani%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(img){max-width:100%;height:auto}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

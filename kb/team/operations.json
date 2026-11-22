@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-MAHENDRAGIRI-20261122",
-    "route": "/destinations/mahendragiri/",
+    "id": "POD-EDIT-TAPTAPANI-20261122",
+    "route": "/destinations/taptapani/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/mahendragiri-publication-20261122.json",
-    "scope_released": true,
-    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+    "phase": "publication_candidate",
+    "handoff": "records/taptapani-publication-20261122.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -683,12 +682,20 @@
       "handoff": "records/brass-fish-publication-20261122.json",
       "scope_released": true,
       "release_condition": "Effective only when this evidence-only receipt branch merges into main; until then Disha retains the slot. Explicit handoff then returns it for Mahendragiri."
+    },
+    {
+      "id": "POD-EDIT-MAHENDRAGIRI-20261122",
+      "route": "/destinations/mahendragiri/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/mahendragiri-publication-20261122.json",
+      "scope_released": true,
+      "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
     }
   ],
   "next_article_coordination": {
-    "status": "preparation_complete_slot_returned_after_local_commit",
-    "owner_chat": "Cover Odisha’s major tourist destinations",
-    "scope": "Taptapani may resume following explicit completed Binchana preparation handoff. Binchana remains unpublished; no publication authorization inferred.",
-    "preparation_receipt": "records/binchana-article-preparation-20261122.json"
+    "status": "taptapani_active",
+    "owner_chat": "Odisha hill destinations",
+    "scope": "Binchana reviewed preparation preserved and slot explicitly returned. Taptapani sole active article."
   }
 }

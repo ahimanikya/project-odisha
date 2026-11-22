@@ -4,6 +4,7 @@ import daringbadiImage from '../../../../kb/research/destinations/daringbadi-ima
 import putsilImage from '../../../../kb/research/destinations/putsil-image.json';
 import mandasaruImage from '../../../../kb/research/destinations/mandasaru-image.json';
 import mahendragiriImage from '../../../../kb/research/destinations/mahendragiri-image.json';
+import taptapaniImage from '../../../../kb/research/destinations/taptapani-image.json';
 
 export const deomaliGuide = {
  title: 'Deomali',
@@ -55,4 +56,14 @@ export const mahendragiriGuide = {
  aliases: ['Mahendragiri Hills', 'Mahendra Giri'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide].filter(guide => allowsPage(guide.href));
+export const taptapaniGuide = {
+ title: 'Taptapani',
+ odia: '',
+ summary: 'A hot spring and a place of worship in Ganjam’s wooded hills.',
+ href: '/destinations/taptapani/',
+ photo: taptapaniImage,
+ regions: ['Ganjam'],
+ aliases: ['Taptapani Hot Water Spring', 'Tapta Pani'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide].filter(guide => allowsPage(guide.href));
