@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_publication_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-BELGHAR-TUMUDIBANDHA-20261123",
   "route": "/destinations/belghar-tumudibandha/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Once the horn-craft release is complete, continue with Kapilash—research, review and publish it with a high-quality credited image in the article and preview, then continue through the remaining hill destinations one at a time.",
   "work_id": "POD-WORK-2026112393",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "a87b78462487a38b08c1294d58dad238654249f6",
   "preceding_release": {
     "article": "Sola and Odissi Tahia",
@@ -76,7 +76,11 @@
       "bytes": 998968820,
       "files": 3638,
       "remaining_bytes": 1031180
-    }
+    },
+    "actual_ci_payload_bytes": 999752098,
+    "actual_ci_remaining_bytes": 247902,
+    "actual_linux_payload_bytes": 999752098,
+    "actual_remaining_bytes": 247902
   },
   "foreign_ownership": "Kala Bhoomi current_task/handoff_home and all prior Sola/Gandhamardan evidence preserved",
   "remote_reconciliation": {
@@ -89,7 +93,7 @@
     "overlap_found": false,
     "publication_running": false
   },
-  "next_action": "Finish independent final package and exact-commit review; push candidate, pass actual required CI, merge/deploy, verify live, then reviewed receipt before reserved preparation-only handoff.",
+  "next_action": "Complete reviewed evidence-only receipt merge, then explicit reserved preparation-only handoff; no next hill starts before slot returns.",
   "media_research": {
     "status": "illustration_explicitly_authorized",
     "evidence": "outputs/belghar-tumudibandha-publication-2026-11-23/media/candidate-review.json",
@@ -151,10 +155,10 @@
   "worker_scope_status": {
     "Anvesha": "Integrated source review complete; scope released",
     "Samanta": "Website integration complete; scope released",
-    "Drishti": "Final local package review complete; exact-commit review next",
+    "Drishti": "Final integrated receipt review complete; exact committed review remains",
     "Disha": "Single coordinator; media, shared records and publication"
   },
-  "publication_state": "Integrated local candidate; not published.",
+  "publication_state": "Live article and illustrated previews verified; evidence-only receipt integration pending.",
   "next_slot_reservation": {
     "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "scope": "One independently researched original Antaranga Kalinga topic preparation with credited image; no publication inferred",
@@ -219,5 +223,78 @@
     "payload_bytes": 998968820,
     "files": 3638,
     "limitations": "Local build and13screenshots independently reviewed with framing limits; hosted CI, deployment and live review still required."
+  },
+  "publication": {
+    "pr": 842,
+    "reviewed_head": "ca877af63424f332bc67c5ce016019d8a05d89e6",
+    "merge_commit": "418a009c7d50000678e473510d15567366ac4625",
+    "merged_at": "2026-11-23T06:31:00Z",
+    "ci_run": 45120884986,
+    "ci_conclusion": "success",
+    "ci_attempt": 1,
+    "deployment_run": 45124673470,
+    "deployment_head": "418a009c7d50000678e473510d15567366ac4625",
+    "deployment_conclusion": "success",
+    "merged_tree_matches_reviewed_head": true,
+    "check_requirement": "Project-required Review coastal candidate workflow",
+    "deployment_attempt": 1,
+    "deployment_status": "completed"
+  },
+  "completed_at": "2026-11-23T07:06:42.904627+00:00",
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required CI. Explicit preparation-only handoff to Research Antaranga Kalinga follows actual merge; Kalinga Ghati waits for the slot to return.",
+  "deployment": {
+    "run": 45124673470,
+    "source_sha": "418a009c7d50000678e473510d15567366ac4625",
+    "conclusion": "success",
+    "payload_bytes": 999752098,
+    "files": 3638,
+    "attempt": 1
+  },
+  "live_verification": {
+    "evidence": "outputs/belghar-tumudibandha-publication-2026-11-23/live/verification.json",
+    "routes": [
+      "/destinations/belghar-tumudibandha/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "images": 12,
+    "raw_status": "pass",
+    "responsive_url_substitutions": [],
+    "scope": "Observed article, credited illustration and relevant actual images; all 12 checked images byte-identical to reviewed local outputs. No site-wide byte-equality claim.",
+    "browser_evidence": "outputs/belghar-tumudibandha-publication-2026-11-23/review/live-browser-review.json",
+    "image_comparison": "outputs/belghar-tumudibandha-publication-2026-11-23/live/image-comparison.json",
+    "encoding_differences": []
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/belghar-tumudibandha-publication-2026-11-23/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Reviewed article already deployed from observed publication merge; this receipt records actual delivery evidence and project views only.",
+    "required_gates": [
+      "Separate final receipt review",
+      "Exact committed review",
+      "Project-required CI",
+      "Actual receipt merge"
+    ]
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/842",
+  "verified_routes": [
+    "/destinations/belghar-tumudibandha/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "final_receipt_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/belghar-tumudibandha-publication-2026-11-23/review/final-receipt-review.md",
+    "human_review_claimed": false,
+    "scope": "Integrated evidence-only receipt; exact committed review and actual required CI/merge remain separate gates."
   }
 }

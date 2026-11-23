@@ -1,0 +1,17 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate subagent",
+  "evidence_kind": "Actual separate-agent message recorded by coordinator",
+  "scope": "Receipt-only verify-live.py delta and compare-live-images.mjs, read-only review before deployment completion",
+  "findings": [
+    "Responsive URLs map by matching article image order, base source and width; normalization only substitutes observed filenames.",
+    "Relevant actual article and preview image URLs are fetched; base illustration equality is mandatory.",
+    "Comparison checks geometry, byte hashes and decoded RGB differences without asserting an encoding cause.",
+    "Differences remain flagged for separate visual review."
+  ],
+  "limits": [
+    "Decoded comparison removes alpha; these reviewed assets are opaque.",
+    "Content-hash filename prefixes still require independent live verification.",
+    "No live fetch, execution or file changes performed by this helper review."
+  ]
+}

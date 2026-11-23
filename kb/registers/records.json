@@ -10570,12 +10570,12 @@
       "id": "POD-WORK-2026112393",
       "title": "Research, review and publish Belghar–Tumudibandha",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112297",
-      "next_action": "Integrate explicitly approved landscape illustration, finish source/media/layout and release checks, publish, verify live and merge reviewed receipt before reserved cross-chat preparation handoff.",
+      "next_action": "Merge reviewed evidence-only receipt after actual required CI, then explicit reserved preparation-only handoff; Kalinga Ghati remains queued.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112297"
@@ -25547,8 +25547,8 @@
     },
     {
       "id": "POD-REV-2026112393",
-      "title": "Belghar–Tumudibandha separate source, media and implementation review",
-      "status": "pass_with_limitations",
+      "title": "Belghar–Tumudibandha separate source, illustration and delivery review",
+      "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
         "name": "Drishti"
@@ -25560,12 +25560,12 @@
       "evidence": [
         "records/belghar-tumudibandha-publication-20261123.json"
       ],
-      "summary": "Separate integrated Anvesha source review and Drishti source/media/code review passed; root local builds,823full/599coast tests,5440acceptance and97delivery checks pass. Final independent package, remoteCI and live delivery remain required.",
+      "summary": "Separate source/media/code/package and exact-candidate reviews passed; hosted CI and deployed article/previews verified with separate live delivery review.",
       "independent": true,
       "limitations": [
-        "No human specialist, field or current-service verification.",
-        "Interpretive illustration is explicitly labelled and is not a documented viewpoint.",
-        "Remote CI, deployment and live delivery verification remain pending."
+        "No human specialist, field or physical-device review.",
+        "Interpretive illustration is labelled, not a documented viewpoint.",
+        "All 12 checked live image files match reviewed local bytes; no site-wide equality claim."
       ]
     }
   ],
@@ -29921,6 +29921,20 @@
       ],
       "evidence": [
         "records/sola-publication-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112393",
+      "title": "Belghar: Forest and a Wooden Bungalow",
+      "status": "published",
+      "authorization": "POD-DEC-2026112297",
+      "destination": "https://projectodisha.org/destinations/belghar-tumudibandha/",
+      "refs": [
+        "POD-WORK-2026112393",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/belghar-tumudibandha-publication-20261123.json"
       ]
     }
   ],

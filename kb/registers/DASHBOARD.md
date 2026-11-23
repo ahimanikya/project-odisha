@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5d9ddb7626dcc5ed35aec26fbaa038bb9633825a9e6b1aede4e6fbf6bd2b1a1f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e1e6ab60f459597f67cc6634aed9f2dd01d99263fbaa408429bad4a7099212eb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -410,7 +410,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112301 · Prepare Sola and the Making of an Odissi Tahia | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed draft, original credited photograph and publication brief. Return preparation slot with local commit to hill-series chat for Gandhamardan; no website integration/publication. | — |
 | POD-WORK-2026112392 · Research, review and publish Gandhamardan | completed | published | Ahimanikya Satapathy | Merge exact reviewed evidence-only receipt after project-required CI; then explicitly hand the reserved Sola publication slot to Research Antaranga Kalinga. Belghar–Tumudibandha remains queued until return. | — |
 | POD-WORK-2026112302 · Publish Sola: The Craft Behind an Odissi Tahia | completed | published | Ahimanikya Satapathy | Merge reviewed evidence-only receipt after required checks, then explicitly return the slot for Belghar–Tumudibandha. | — |
-| POD-WORK-2026112393 · Research, review and publish Belghar–Tumudibandha | in_progress | reviewed | Ahimanikya Satapathy | Integrate explicitly approved landscape illustration, finish source/media/layout and release checks, publish, verify live and merge reviewed receipt before reserved cross-chat preparation handoff. | — |
+| POD-WORK-2026112393 · Research, review and publish Belghar–Tumudibandha | completed | published | Ahimanikya Satapathy | Merge reviewed evidence-only receipt after actual required CI, then explicit reserved preparation-only handoff; Kalinga Ghati remains queued. | — |
 
 ## Pending human review and decisions
 
@@ -1159,7 +1159,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112301 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No fieldwork, interviews or present workforce/income survey.; Photo source does not establish depicted maker or precise workshop location.; No website layout, deployment or live checks for preparation-only delivery. |
 | POD-REV-2026112392 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Photographer description establishes image identity; no independent geolocation or current-condition evidence.; Root operated browser interactions; separate screenshot review, Chromium viewport simulation.; Evidence-only receipt exact review, project-required CI and actual merge still required; conditional slot release only. |
 | POD-REV-2026112302 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Chromium viewport simulation and saved screenshot review; native interactions operated by Disha.; Four live image encodings differ from local bytes and pixels; dimensions/framing preserved, measurements and visual acceptance recorded, no cause asserted. |
-| POD-REV-2026112393 | pass_with_limitations | True | No human specialist, field or current-service verification.; Interpretive illustration is explicitly labelled and is not a documented viewpoint.; Remote CI, deployment and live delivery verification remain pending. |
+| POD-REV-2026112393 | pass | True | No human specialist, field or physical-device review.; Interpretive illustration is labelled, not a documented viewpoint.; All 12 checked live image files match reviewed local bytes; no site-wide equality claim. |
 
 ## Publication and application history
 
@@ -1435,6 +1435,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112391 · Kapilash: A Hill Shrine and an Older Temple’s Trace | published | https://projectodisha.org/destinations/kapilash/ | POD-DEC-2026112297 |
 | POD-REL-2026112392 · Gandhamardan: Two Shrines and a Living Forest | published | https://projectodisha.org/destinations/gandhamardan/ | POD-DEC-2026112297 |
 | POD-REL-2026112302 · Sola: The Craft Behind an Odissi Tahia | published | https://projectodisha.org/stories/sola-and-odissi-tahia/ | POD-DEC-2026112302 |
+| POD-REL-2026112393 · Belghar: Forest and a Wooden Bungalow | published | https://projectodisha.org/destinations/belghar-tumudibandha/ | POD-DEC-2026112297 |
 
 ## Sources and assets
 
@@ -1472,7 +1473,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112381 | 2026-11-22T22:54:34.075679+00:00 | Deployment45077339965 succeeded from reviewed merge1a2b904e. Separate Drishti fresh review verified six routes, thirteen byte-exact images, nine live desktop/mobile views and root native note interaction. Actual payload999980594 bytes/3628 files leaves19406 bytes. Evidence-only receipt integration begins; slot release remains conditional on reviewed receipt merge. | — |
 | POD-EVT-2026112382 | 2026-11-22T22:56:56.234161+00:00 | Separate Drishti final integrated evidence-only receipt review passed. Public/source/media, eleven Sola files, foreign pointers and history preserved. Exact committed review, project-required CI and actual receipt merge remain before explicit Sola handoff. | — |
 | POD-EVT-2026112304 | 2026-11-22T23:27:24.384100+00:00 | Gandhamardan receipt839 verified merged after successful CI and explicit handoff. Sole Sola publication scope accepted; all eleven preparation hashes verified, foreign task preserved and zero programme credit. | — |
 | POD-EVT-2026112305 | 2026-11-22T23:59:48.493299+00:00 | Separate final local review passed with823full/598coasttests, correcteddesktop/mobilepreviews,4routes20images and998219974Bpackage. Hosted exacthead checks, deployment and live review remain; no programme credit. | — |
@@ -1482,6 +1482,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112384 | 2026-11-23T02:04:11.100704+00:00 | Anvesha source review and separate Drishti original-page/text review passed on manuscript1cd00aff with conservative177/101/66 source-family words. No accepted licensed photo; pending user choice for clearly captioned illustration or further photo search. Website unchanged, article slot retained, zero programme credit. | — |
 | POD-EVT-2026112385 | 2026-11-23T05:33:32.476306+00:00 | Founder explicitly approved a clearly captioned landscape illustration for article and preview and reiterated publication. Original generated illustration preserved; bounded integration and separate review resumed. Next preparation-only slot reserved for Research Antaranga Kalinga after actual reviewed receipt merge; zero programme credit. | — |
 | POD-EVT-2026112386 | 2026-11-23T05:53:30.513301+00:00 | Approved interpretive illustration integrated with labelled article, sharing and three incoming previews. Separate integrated source/media/code reviews and local full/publication checks pass; final package review and remote/live publication remain. Original preserved; no new optimization; zero programme credit. | — |
+| POD-EVT-2026112387 | 2026-11-23T07:06:42.904627+00:00 | Reviewed Belghar article published with explicitly labelled original landscape illustration and three incoming previews. Required CI, exact-merge deployment and separate live delivery review passed. Evidence-only receipt merge still required before reserved cross-chat preparation handoff; zero programme credit. | — |
 
 ## Deferred extensions
 
