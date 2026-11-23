@@ -38,3 +38,45 @@ If an illustration is later authorized, its caption/alt and visible labels must 
 Image decision/acquisition/provenance, actual article and preview wiring, complete metadata/source budgets, final code/edition checks, rendered desktop/mobile review, disclosure/size gates, exact-head CI, deployment/live verification and receipt review remain pending. No shared records, source/site files or Git state were changed by this review; only this reserved report was written.
 
 Final source-report alignment: Anvesha subsequently updated the separate report to the same final1cd00aff…ccb24 manuscript hash. I read the updated hash/count fields:207 words and conservative177/101/66 family totals, matching this review. Text-only PASS remains; image and remaining integration fields are still excluded.
+
+## Integrated source, media and code supplement — 23 November 2026
+
+**PASS for the reviewed source/media/code stage. Rendered and publication gates remain pending.** This supplement supersedes the earlier pending image decision and provisional metadata budgets; it does not retroactively alter that earlier text-only review.
+
+The subsequent explicit user instruction authorizes a clearly captioned landscape illustration in the article and preview, completion of review and publication. The separate `media-review.md` records my individual visual inspection of the original and full-frame derivative. The image is a painterly wooded landscape with climbers, ferns and layered hills. It neither depicts an invented bungalow nor purports to show a documented viewpoint, people or current visitor conditions. Caption, alt, `kind: illustration`, creator Project Odisha and “Not a documented viewpoint” are consistent with that interpretation. No unsupported photographic or Creative Commons attribution is introduced. Original generation provenance and the user's later authorization remain distinguishable from the earlier unsuccessful photograph search.
+
+### Exact source continuity
+
+Independently rehashed the final integration:
+
+- Manuscript: `1cd00aff53698ffbd44e58c8a319bd4e246a9481a5c9d86bb29a7eba752ccb24`.
+- Image metadata: `f9898d8fbe53d95f914ea9456a6ec4bb32a19d18a00ff3580044762563ba0391`.
+- Article wrapper: `29326be18653c1a4468d8f0f7e743ab4cc02680cf1312a1e9e3b01365c0a55fd`.
+- Hill-destination data: `fe2ca76c1287f6f5ed1889b79a606140f8564fadda253ebef7d860c199c0cfb5`.
+- Discovery data: `3e12189f75a2b2b8dbfc0058a16f0836ca71de4f919ca60c66747782c8a1c3b1`.
+- Previously independently measured generation original: `a28864f4ddbdcdfb0eb15441d773820a2ab39a15857f94d5e9b15bfc5fe3bda0`, 1536×1024, 3,406,268 bytes.
+- Previously independently measured public derivative: `e15f5d8e69303ccbff1e560df32519eaf48f4d1361332f4fc44aaa9456160951`, 1200×800, 278,076 bytes.
+
+The manuscript is unchanged from the independently reviewed final text. Its qualified historical, administrative, forest and community claims retain the original source relationships discussed above. The integrated card summary describes a forest destination within Tumudibandha block without expanding the location into an unsupported sanctuary, service or tour claim.
+
+### Complete source allocation
+
+Read Anvesha's final integrated report and checked its allocation against the actual manuscript and metadata. The resulting conservative family totals are **Forestry/OFDC 194, Atlas 128, District 93**, including 55 common metadata/illustration words charged to every family. The body/notes allocations are 139, 73 and 38 respectively. The 55-word allowance comprises 31 title/dek/summary/eyebrow/guide/region words and 24 image/creator/interpretive-label words. This includes labels and generic art descriptions even where they are editorial rather than derived facts.
+
+These totals are not interchangeable with Samanta's 199/123/88 estimate. That earlier method added 22 integration words to the provisional 177/101/66; the final method includes five further creator/label words but removes the district's ten-word bus-stop sentence from the forestry allocation. Thus the reconciliation is 199+5−10=194, 123+5=128, 88+5=93. No source-family limit is waived. Forestry has only six words of remaining allowance under this conservative method; further public copy would require another assessment.
+
+### Code and presentation contract
+
+Read the new article wrapper and complete bounded site/configuration diff. The wrapper uses the established article shell, byline, reading-path and responsive-image components, one article h1, eager hero with intrinsic 1200×800 dimensions, full-frame proportional image styling and the same asset for social sharing. It displays the interpretive caption, an explicit “Illustration: Project Odisha” credit and the non-documentary qualification. The existing source-heading mechanism is extended only to this exact manuscript; six citations and four definitions require twelve native forward/return anchors in the rendered result.
+
+The new hill guide retains the shared edition filter and has no unsupported aliases. The article's Daringbadi/Mandasaru reading paths retain their own media; the hill-collection path labels the Belghar illustration. The discovery collection's generic replacement description avoids an ever-growing destination list while individual guide mappings remain. The existing hills shell description remains 143 characters and is unchanged from the base. No shared image-layout component, optimizer algorithm or additional delivery optimization is changed.
+
+Edition/inventory additions are bounded to the Belghar route and image: the coastal selection has 1,360 routes, with only Belghar added and none removed; the responsive allowlist, search hold and portable inventory add that same scope. Test count expectations advance accordingly. The existing illustration regression now exercises both Mandasaru and Belghar, retaining photo attribution checks and checking explicit illustration treatment and absence of empty credit anchors. This is source inspection, not a claim that I ran the build or tests.
+
+I identified an incorrect two-variant expectation in the newly written local verifier. The existing responsive generator clamps its 480/960/1440 targets to a 1200-pixel source, producing **480, 960 and 1200**. Root corrected the verifier; I reread lines24 and35 and confirmed the exact three-width assertion and “all three variants attached” check. Actual emitted files, dimensions and hash correspondence remain a package-review gate.
+
+### Preservation and remaining gates
+
+Compared the full integration against inherited base `a87b78462487a38b08c1294d58dad238654249f6`, rather than only the preliminary current commit. No changed path contains Sola or Gandhamardan. Independently compared eight retained source/evidence files (both preceding wrappers, manuscripts, publication records and public images) with the base: bytes unchanged. Foreign `operations.current_task` and `handoff_home` remain identical, and the activity ledger retains the base's exact byte prefix. These are bounded preservation checks, not a claim to have independently rehashed every historical asset.
+
+No source/media/code blocker remains after the verifier correction. Root reports the full build and disclosure stage passed while tests are still in progress; those are root-reported execution results at this stage. I have not yet reviewed the rendered article/cards, screenshots, actual output exclusions, final capacity, exact committed tree, remote CI, deployment or live delivery. Desktop/mobile full-frame image treatment, readable visible credits and illustration labels, native note targets, all incoming previews and the complete final package must pass before a publication verdict. Only this reserved review file was changed by this supplement.

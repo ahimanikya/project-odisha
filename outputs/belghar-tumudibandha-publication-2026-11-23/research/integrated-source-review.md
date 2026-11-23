@@ -1,45 +1,57 @@
-# Belghar–Tumudibandha: integrated text source review
+# Belghar–Tumudibandha: final integrated source review
 
-Anvesha,23November2026. Delegated AI source review, not human or specialist review. **PASS for the current manuscript and explicitly proposed preview summary only.** Image choice and its public wording remain pending; no media or publication readiness claimed.
+Anvesha,23November2026. Delegated AI source review, not human/specialist review. **PASS for the exact manuscript and integrated public wording inspected below. No correction required.** This supersedes the earlier text-only checkpoint. The coordinator reports the user's explicit approval of a clearly captioned illustration; its actual metadata, public wiring and appearance are now inspected. This is not a deployment, live-delivery, accessibility or exhaustive legal/media-origin audit.
 
-Reviewed manuscript `kb/research/places/belghar-tumudibandha-article.md`, SHA256 `1cd00aff53698ffbd44e58c8a319bd4e246a9481a5c9d86bb29a7eba752ccb24`.
+Manuscript SHA256 `1cd00aff53698ffbd44e58c8a319bd4e246a9481a5c9d86bb29a7eba752ccb24`.
 
-Proposed preview summary: “A forest destination within Tumudibandha block.”
+## Scope and exact inspected files
 
-At inspection the destination wrapper was not present, and no Belghar guide/discovery/hills copy was found in the scoped files. Therefore additional wrapper eyebrow, guide title/aliases/regions, hub copy, image caption/alt/credits and rendered reuse are NOT silently marked reviewed. Recount those before final release. Only this reserved review file written.
+| File | SHA256 |
+| --- | --- |
+| `kb/research/places/belghar-tumudibandha-article.md` | `1cd00aff53698ffbd44e58c8a319bd4e246a9481a5c9d86bb29a7eba752ccb24` |
+| `kb/research/destinations/belghar-tumudibandha-image.json` | `f9898d8fbe53d95f914ea9456a6ec4bb32a19d18a00ff3580044762563ba0391` |
+| `projects/site/src/pages/destinations/belghar-tumudibandha.astro` | `29326be18653c1a4468d8f0f7e743ab4cc02680cf1312a1e9e3b01365c0a55fd` |
+| `projects/site/src/data/hill-destinations.ts` | `fe2ca76c1287f6f5ed1889b79a606140f8564fadda253ebef7d860c199c0cfb5` |
+| `projects/site/src/data/discovery.ts` | `3e12189f75a2b2b8dbfc0058a16f0836ca71de4f919ca60c66747782c8a1c3b1` |
+| `projects/site/src/pages/destinations/hills.astro` | `959c2567da4caa442910d5fc1bf20280002dc04e47ccd77c543a73430939d85b` |
+| `projects/site/public/images/destinations/belghar-landscape-illustration.webp` | `e15f5d8e69303ccbff1e560df32519eaf48f4d1361332f4fc44aaa9456160951` |
 
-## Claim checks against inspected originals
+Read entire article/wrapper/image metadata, the new guide, discovery's guide mapping and the hills hub's data-driven inclusion. No additional Belghar prose/aliases in discovery or hills. Also inspected existing DestinationCards and ArticleReadingPath rendering to trace image labels/credits. Related Daringbadi/Mandasaru reading cards retain their own prior copy and do not introduce Belghar facts. Generic navigation and contribution text are not source-derived destination prose. Root's later edition inclusion is outside these exact hashes; any new substantive public copy requires recounting. Only this reserved review file written.
 
-- **Locality/block relationship:** opening identifies Belghar within Tumudibandha block, Kandhamal. The atlas's printed102/PDF107 location table explicitly places the Belghar agency headquarters there and identifies hills/forest terrain. Proposed preview summary preserves that distinction. Article never treats Belghar as another name for Tumudibandha town.
-- **Forest scope:** working plan printed224/PDF286 describes dense forest at Belghar. Printed66/PDF128 identifies lower riparian/permanently moist valleys including Belghar among semi-evergreen habitats, with climbers and ferns. The draft explicitly specifies those lower river-edge and moist valleys; removing the redundant varied-landscape sentence does not extend riparian habitat to the whole locality.
-- **Bungalow:** printed224 states constructed before1980. Draft retains attribution and does not invent exact date, builder, colonial origin, condition or present bookability.
-- **Kutia Kandha/Kui and agency history:** atlas printed102 supports community language and1978–79agency establishment. Draft attributes its account and does not impose a uniform way of life on present residents. Generic advice to ask before entering homes/photographing people is editorial, not fabricated source testimony or a claim of access.
-- **Balliguda road approach:** working plan Table8.6.1 printed223/PDF285 lists Belghar's road distance from Balliguda. Draft uses broad approach without publishing a precise distance or time.
-- **Tumudibandha bus stop:** root-recovered original district HTML, By Road field, explicitly identifies it as nearest. Draft attributes this to the district and promises no timetable, onward bus service or current road condition.
-- **Camp contact:** directly read OFDC directory has Belghar Nature Camp entry. Draft asks readers to confirm arrangements through it; no available rooms, current operating dates, fees, booking guarantee or claim that the historic bungalow is offered as lodging.
+## Claim checks against the inspected originals
 
-The canonical `balliguda-working-plan-2021-2031` citation ID retains the original reused document lineage. Mirrors and earlier Daringbadi reuse are not counted as new corroboration. Source originals, hashes and exact page mappings remain in findings.md: working-plan SHA256 `c05c704766bbb0cc4b22dd19f8c3f738312a09236083a222940b2b577f35680c`; atlas SHA256 `39a4a0e4d0d75d1bccb608c720e830e7c4472ac19f1bfba4c39e760c97336227`; root district capture SHA256 `5dd278aac7b675a876df9274e7750c893344fd6960e233c1041f5307f4362949`. Target PDF pages were visually inspected during this assignment's research, not merely inferred from extraction. Original PDFs and page renders remain outside public output. No edition year is fabricated for the atlas.
+- **Locality/block:** opening and description precisely identify Belghar within Tumudibandha block, Kandhamal; proposed summary is now actual guide copy. The atlas's printed102/PDF107 location table places the Belghar agency headquarters there, with hills/forest terrain. Belghar is never treated as another name for Tumudibandha town.
+- **Habitat:** plan printed224/PDF286 describes dense forest at Belghar. Printed66/PDF128 identifies lower riparian/permanently moist valleys including the Belghar area among semi-evergreen habitats, with climbers and ferns. Draft explicitly restricts the claim to those valleys, not all Belghar. Removal of the redundant varied-landscape sentence did not remove this restriction.
+- **Bungalow:** plan printed224 supports construction before1980. Draft preserves attribution without an invented exact year, builder, colonial origin, condition or present accommodation promise.
+- **Community:** atlas printed102 supports the Kutia Kandha Development Agency's location and1978–79establishment and identifies Kui. Its dated account is attributed; no uniform lifestyle, stereotype, traditional dress, ceremony access or fresh testimony is invented. Advice to ask before entering homes/photographing people is editorial.
+- **Balliguda approach:** plan Table8.6.1 printed223/PDF285 lists road distance from Balliguda to Belghar; draft adopts the broad approach, omitting exact distance/time.
+- **Bus stop:** root-recovered original district HTML, By Road field, explicitly names Tumudibandha as nearest. Draft attributes that statement, promising no timetable or onward service.
+- **Contact:** original OFDC directory has the Belghar Nature Camp entry. Draft directs readers to confirm arrangements; it does not claim rooms are available or that the historic bungalow is currently offered as lodging.
 
-## Independent word accounting
+Canonical `balliguda-working-plan-2021-2031` retains the existing reused document lineage. Sources and precise inspection limits remain in findings.md. Original hashes: plan `c05c704766bbb0cc4b22dd19f8c3f738312a09236083a222940b2b577f35680c`; atlas `39a4a0e4d0d75d1bccb608c720e830e7c4472ac19f1bfba4c39e760c97336227`; root district HTML `5dd278aac7b675a876df9274e7750c893344fd6960e233c1041f5307f4362949`. Relevant original PDF pages were visually inspected in this assignment. No redundant new research performed for this final check. Complete book and page renders remain outside public outputs. No fabricated atlas edition year or sanctuary designation.
 
-Method: replace Markdown links with displayed labels; remove footnote identifiers; count word/numeral tokens, treating hyphenated/en-dash compounds as one word. Body, three headings and four notes total **207words**. Paragraph counts in manuscript order:20,5,48,4,36,3,45,13,14,5,14.
+## Final conservative source-family accounting
 
-Known distinct public metadata allowance **28words**: title6, description16, proposed preview summary6. Repeated future rendering of the same value does not create distinct new copy; separately stored new labels/aliases/eyebrows do require counting. Existing author name and generic content classification are not derived destination prose.
+Method: displayed Markdown link labels replace URLs; footnote IDs removed; word/numeral tokens counted, with hyphenated/en-dash compounds one word. Manuscript body, headings and notes total **207words**. Paragraph counts:20,5,48,4,36,3,45,13,14,5,14.
 
-| Source family | Manuscript allocation | Known metadata allowance | Conservative current total |
-| --- | ---: | ---: | ---: |
-| Forestry + OFDC combined | Opening20 + forest heading5 + forest paragraph48 + planning heading3 + ENTIRE planning paragraph45 + working-plan note14 + OFDC note14 =149 |28| **177** |
-| Atlas/ATLC/SCSTRTI combined | Opening20 + community heading4 + entire community/advice paragraph36 + note13 =73 |28| **101** |
-| District page/listing/host variants combined | Opening20 + planning heading3 + district sentence10 + note5 =38 |28| **66** |
+All distinct common public metadata totals **31words**: title6; description16; guide summary6; wrapper eyebrow1; guide title1; guide region1. Guide aliases are empty. Discovery reuses these same fields; hills renders the same guide. Separately stored occurrences are counted; identical generated renderings do not add new editorial text.
 
-All remain below200derivedwords per family. Forestry's177 deliberately also charges the10word district sentence and full20word opening, beyond its narrowly attributable material. This is a conservative bound, not an exact plagiarism or derivation measure. Current forestry headroom is **23words** under that bound; pending image/wrapper wording must be reviewed, or allocation/content shortened. Unassigned image text has no invented count or presumed separate source rights.
+Image/interpretive wording allowance **24words**: alt9; caption6; creator2; changes4; wrapper “Illustration”1; kind-driven preview marker1; Further reading imageNote1. Thus **55words** are charged to **every factual family**, even though interpretive qualifiers and creator credit are original editorial content rather than borrowed source prose. This intentionally includes more than source-derived landscape language.
 
-No extended narrative quotation or copied brochure passage was identified; the draft paraphrases factual material and retains ordinary bibliographic titles/proper names. No source's verbatim quotation reaches25words. No Antaranga material was used in this source chain; this is a bounded comparison with inspected originals, not an exhaustive web plagiarism scan.
+| Family | Manuscript allocation | Common/image allowance | Final total | Ceiling |
+| --- | ---: | ---: | ---: | ---: |
+| Forestry + OFDC combined | Opening20 + forest heading5 + forest paragraph48 + planning heading3 + Balliguda sentence11 + entire contact/advice sentence24 + plan note14 + OFDC note14 =139 |55| **194** |200|
+| Atlas/ATLC/SCSTRTI combined | Opening20 + community heading4 + entire community/advice paragraph36 + note13 =73 |55| **128** |200|
+| District page/listing/host variants combined | Opening20 + planning heading3 + district sentence10 + note5 =38 |55| **93** |200|
 
-## Editorial result and outstanding integration
+The earlier provisional forestry177bound charged the entire planning paragraph, including the10word sentence sourced solely to the district. Final allocation removes ONLY that unrelated sentence from forestry:177+27new integration words−10 =194. The district retains that sentence in full. All forestry-dependent words, full opening, complete contact advice and all55metadata/image words remain charged. This transparent source-based allocation avoids an artificial202total while retaining conservative overlap. Forestry has6words of remaining headroom; new substantive copy must be checked.
 
-Flow is clear: identity, forest/bungalow, community context, practical confirmation. No elevation, sanctuary designation, snow, wildlife-sighting, best-season or current-service claims have slipped in. No cultural stereotypes or invented field observations identified.
+No extended narrative quotation or copied brochure passage identified. Ordinary citation labels/proper names remain; no source's verbatim quotation reaches25words. No Antaranga material was used in this evidence chain. This is a bounded comparison with inspected originals, not an exhaustive internet plagiarism scan.
 
-Final two-change check: Disha added **block** in the description and removed “This is one part of a varied forest landscape.” Both changes are acceptable; the habitat restriction remains explicit in the preceding sentence. The removed sentence contains9words under this review's stated count, not10; adding block gives a net8word forestry reduction from185to177. Atlas/district each increase1word. Hash and all totals above now describe the amended final text. No canonical text edited by Anvesha.
+## Illustration and final editorial assessment
 
-Text-review scope released. Before final signoff: resolve the user's image preference, review actual image/caption/alt/provenance, inspect final wrapper/cards/hub/search fields, recount all source families, and record final manuscript hash. Separate implementation, rendered quality, publication and live checks remain with their owners.
+Viewed actual1200×800public illustration. It is visibly painted: wooded ridges/valley, tree canopy and foreground foliage. Its alt describes that depicted content rather than a photographed location. Caption explicitly calls it interpretive, and “Not a documented viewpoint” prevents geographic overclaim. No bungalow, named peak, residents, ritual, wildlife species or precise scene is asserted by the image text. No particular pictured plant is identified as a documented Belghar specimen. Its landscape details are a visual interpretation, not field evidence.
+
+Article credits Project Odisha as illustration creator. Wrapper shares this image object; destination guide supplies it to preview/discovery. DestinationCards adds an Illustration marker via kind, and the further-reading card labels the artwork too. Required original/generated media provenance and separate visual/rendered checks remain with the coordinator/Drishti; no government photograph licence or source-book image licence is inferred.
+
+Natural flow and boundaries remain sound: precise identity, scoped forest/bungalow, attributed community context, then practical confirmation. No unverified best-month window, snow, wildlife encounter, elevation, current accommodation or cultural-tour service has been introduced. Final integrated source/copy scope released to Disha. Preserve these hashes and wording; complete remaining build, rendered review, edition inclusion and publication/live gates separately.

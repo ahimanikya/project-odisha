@@ -8,6 +8,7 @@ import taptapaniImage from '../../../../kb/research/destinations/taptapani-image
 import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-chandragiri-image.json';
 import panchalingeswarImage from '../../../../kb/research/destinations/panchalingeswar-image.json';
 import kapilashImage from '../../../../kb/research/destinations/kapilash-image.json';
+import belgharTumudibandhaImage from '../../../../kb/research/destinations/belghar-tumudibandha-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
 export const deomaliGuide = {
@@ -110,4 +111,14 @@ export const gandhamardanGuide = {
  aliases: ['Gandhamardan Hills', 'Gandhamardhan', 'Harishankar', 'Harisankar', 'Nrusinghanath'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide].filter(guide => allowsPage(guide.href));
+export const belgharTumudibandhaGuide = {
+ title: 'Belghar–Tumudibandha',
+ odia: '',
+ summary: 'A forest destination within Tumudibandha block.',
+ href: '/destinations/belghar-tumudibandha/',
+ photo: belgharTumudibandhaImage,
+ regions: ['Kandhamal'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide].filter(guide => allowsPage(guide.href));
