@@ -5,9 +5,9 @@ author: "Ahimanikya Satapathy"
 subjects: ["arts", "craft", "Odissi", "sola", "tahia"]
 aliases: ["sola", "shola", "sholapith", "solapith", "tahia", "ସୋଲ", "ତାହିଆ"]
 type: "Material craft essay"
-status: "draft"
+status: "publication_candidate"
 human_review_claimed: false
-publication_authorized: false
+publication_authorized: true
 ---
 
 A white flower in an Odissi dancer’s headpiece may begin as the pale inner material of a plant. Sola craft uses this soft pith, cut into shapes and assembled into ornament.[^1]
@@ -34,7 +34,7 @@ Sola’s uses connect dance costume with other kinds of ceremonial making, but t
 
 [^1]: State Institute for Development of Arts & Crafts, Odisha, [“Crafts of Odisha”](https://sidac.odisha.gov.in/en/crafts-of-odisha), “Solapith” section. Institutional overview of material and uses.
 
-[^2]: Prakriti Panda, [“A fully-made Tahia”](https://commons.wikimedia.org/wiki/File:A_fully-made_Tahia.jpg), 23 May 2022, Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original photograph, unaltered.
+[^2]: Prakriti Panda, [“A fully-made Tahia”](https://commons.wikimedia.org/wiki/File:A_fully-made_Tahia.jpg), 23 May 2022, Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized and compressed for web display.
 
 [^3]: [“His Crowning Story”](https://www.newindianexpress.com/magazine/2016/Mar/05/his-crowning-story-900278.html), *The New Indian Express*, 5 March 2016. Workshop account and explanations attributed to Nityananda Moharana.
 

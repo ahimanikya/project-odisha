@@ -2,8 +2,9 @@
 import sharp from 'sharp';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-export const deliveryJPEGs=['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg'];
+export const deliveryJPEGs=['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg'];
 const captions={
+ 'assets/jhulana-in-odisha/hindola-raga.jpg':{page:'stories/jhulana-in-odisha/index.html',source:'https://www.clevelandart.org/art/1975.9',phrase:'Image released under CC0.',description:'Image released under CC0. Full frame, resized and compressed for web delivery.',updateShareDimensions:true,settings:{maximum_dimension:2048,quality:95}},
  'assets/bhubaneswar-week/mentis-films.jpg':{page:'stories/bhubaneswar-week/index.html',source:'/assets/bhubaneswar-week/mentis-films.jpg',phrase:'At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy.',description:'At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy. Full frame, resized and compressed for web delivery.'},
  'assets/sahi-jatra/performer.jpg':{page:'stories/sahi-jatra/index.html',source:'https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg'},
  'assets/sakhi-nata-and-sakhi-pila/mardala.jpg':{page:'stories/sakhi-nata-and-sakhi-pila/index.html',source:'https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg'},

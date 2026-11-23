@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-GANDHAMARDAN-20261123",
-    "route": "/destinations/gandhamardan/",
+    "id": "POD-EDIT-SOLA-20261123",
+    "route": "/stories/sola-and-odissi-tahia/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/gandhamardan-publication-20261123.json",
-    "scope_released": true,
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit Sola publication-slot handoff follows actual merge; no next hill starts before its slot returns."
+    "phase": "publication_checks",
+    "handoff": "records/sola-publication-20261123.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -744,18 +743,20 @@
       "handoff": "records/kapilash-publication-20261123.json",
       "scope_released": true,
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. No next hill starts before that merge."
+    },
+    {
+      "id": "POD-EDIT-GANDHAMARDAN-20261123",
+      "route": "/destinations/gandhamardan/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/gandhamardan-publication-20261123.json",
+      "scope_released": true,
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required checks. Explicit Sola publication-slot handoff follows actual merge; no next hill starts before its slot returns."
     }
   ],
   "next_article_coordination": {
-    "status": "sola_publication_reserved_after_receipt",
-    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
-    "scope": "Sola publication slot returns to Research Antaranga Kalinga only after Gandhamardan reviewed receipt merges and explicit handoff. No next hill before Sola slot returns.",
-    "reserved_after_current": {
-      "article": "Sola: The Craft Behind an Odissi Tahia",
-      "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-      "scope": "publication",
-      "release_condition": "Gandhamardan reviewed publication receipt merged and explicit handoff",
-      "verified_human_turn": "01a2050c-d6a8-7822-b5ee-d4c532dd4db4"
-    }
+    "status": "sola_publication_active",
+    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "Sola publication through reviewed merged receipt; then explicit return for queued Belghar–Tumudibandha."
   }
 }
