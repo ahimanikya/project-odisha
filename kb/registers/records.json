@@ -10601,6 +10601,25 @@
       "evidence": [
         "records/antaranga-after-belghar-preparation-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112394",
+      "title": "Research, review and publish Kalinga Ghati",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112394",
+      "next_action": "Exact candidate review, required hosted checks, publication, live verification and reviewed receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112394",
+        "POD-REV-2026112394"
+      ],
+      "evidence": [
+        "records/kalinga-ghati-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -16037,6 +16056,21 @@
       },
       "quote": "Yes, coordinate with the other chat and reserve the next slot. Once Belghar–Tumudibandha’s release is complete, prepare an original article on an uncovered Antaranga Kalinga topic with independent research and a credited image.",
       "scope": "One independent draft with credited image; preparation only."
+    },
+    {
+      "id": "POD-DEC-2026112394",
+      "title": "Publish Kalinga Ghati after the returned preparation slot",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once the other chat returns the slot, continue with Kalinga Ghati—research, review and publish it with a high-quality credited image in the article and preview, then continue through the remaining hill destinations one at a time.",
+      "scope": "Research, review and publish Kalinga Ghati with credited article/preview image, then remaining hills one at a time.",
+      "refs": [],
+      "evidence": [
+        "records/kalinga-ghati-publication-20261123.json"
+      ]
     }
   ],
   "requirements": [
@@ -25625,6 +25659,29 @@
         "Photo maker, workshop and capture date are unknown; not assigned to the Kendrapara group.",
         "Noncommercial, share-alike and attribution conditions apply to the licensed image.",
         "No website rendering, deployment or live checks for this preparation-only task."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112394",
+      "title": "Kalinga Ghati separate source, image and publication review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112394",
+        "POD-DEC-2026112394"
+      ],
+      "evidence": [
+        "records/kalinga-ghati-publication-20261123.json"
+      ],
+      "summary": "Separate source/media/code, rendered desktop/mobile and final local package reviews passed. Exact commit, actual Linux CI/capacity, deployment and live delivery remain pending.",
+      "independent": true,
+      "limitations": [
+        "No fieldwork or human specialist review.",
+        "Photo locality follows publisher caption; capture date unverified.",
+        "Static review is not publication or current-access guarantee."
       ]
     }
   ],
