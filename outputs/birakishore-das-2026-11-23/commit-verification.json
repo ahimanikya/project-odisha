@@ -1,0 +1,12 @@
+{
+  "status": "PASS_WITH_RAW_SOURCE_WHITESPACE_EXCEPTION",
+  "reviewed_article_sha256": "f9390412c3165e920ad3b99430fe5c1be730fbb421b600519f357080e793cc1f",
+  "final_review_sha256": "2ea25a94c583cb85cb763d352ed61b772d3ee1e6c6be4612abab76ea95832dbd",
+  "only_isolated_delivery_staged": true,
+  "raw_source_exceptions": [
+    "media/publisher-catalogue.html",
+    "media/stock-portrait.html"
+  ],
+  "reason": "Unmodified external HTML evidence retains original CRLF/trailing whitespace. Initial full staged diff whitespace check failed on these two captures; exact-path-excluded staged check passes. Source bytes and capture hashes are preserved. No code is executed from captures.",
+  "publication": "None; no tracked project files changed"
+}
