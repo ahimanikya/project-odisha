@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "reviewer": "Disha, root-operated browser",
+  "checked_at": "2026-11-23T10:22:14.274910+00:00",
+  "origin": "https://projectodisha.org",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "screenshots": [
+    {
+      "file": "screenshots/live-desktop-article.jpg",
+      "sha256": "7db9bdb31b3ecdfca7eb3007c8a529dba147b02ddb7f306dc92413b3cc9d4241"
+    },
+    {
+      "file": "screenshots/live-desktop-sources.jpg",
+      "sha256": "3b2a5846625532e69634a0ca371f50b010d34ffd3a4a32436ced2b4542414fef"
+    },
+    {
+      "file": "screenshots/live-desktop-notes-reading.jpg",
+      "sha256": "9ad2b275a7694c0b72195ffa9661ea5ede832cea6e37b78ae471e904ca12bce6"
+    },
+    {
+      "file": "screenshots/live-mobile-article.jpg",
+      "sha256": "089fe7ee9876c6aae1ec4fdc00eae45d2421204b1c1b512e9bf00fef6b784caa"
+    },
+    {
+      "file": "screenshots/live-mobile-sources.jpg",
+      "sha256": "f72d73c7bd86004fef3c750e84a261a23f4b2e52f0da91ea3a969e3ba29eb25c"
+    },
+    {
+      "file": "screenshots/live-mobile-hills-card.jpg",
+      "sha256": "e24bc4bfa192f6c2e6b1b88ed2ca098330a60b966c9fbdb9e2051447579b0b30"
+    },
+    {
+      "file": "screenshots/live-mobile-explore.jpg",
+      "sha256": "0e0a7d5b1fc02f9456ca905c6fee05fa5ec2c4c9049d0fd126e54b2ccfd92d34"
+    },
+    {
+      "file": "screenshots/live-desktop-explore-card.jpg",
+      "sha256": "171cf22c773ac12d91c3a61c304608ec06971855a35645604ea7b8a1d50f714c"
+    },
+    {
+      "file": "screenshots/live-desktop-destinations.jpg",
+      "sha256": "bde9f6e2f74e8464995b8457402f55007f9881de8378eccaf4c358d6d372edab"
+    },
+    {
+      "file": "screenshots/live-desktop-ashta.jpg",
+      "sha256": "0c6a40736b7382355b305d4c029e29b98d240c8caa1b3bc42d0811782b3cab8e"
+    },
+    {
+      "file": "screenshots/live-mobile-ashta.jpg",
+      "sha256": "347863082f5d5ca143bc9c7899b29cd58d0e6305c965395ad7fe0386c8c51aa1"
+    }
+  ],
+  "interactions": [
+    "Desktop reference3 clicked to exact source; Back to reference3 Enter returned to exact reference.",
+    "Mobile reference1 clicked to exact source; Back to reference1 Enter returned to exact reference.",
+    "Hills, Explore and destinations Kalinga cards clicked; each navigated to exact article route.",
+    "Explore query Kalinga Ghati showed exactly1entry."
+  ],
+  "observations": [
+    "Full habitat panel and genuine linked credits readable; full panel shown on mobile.",
+    "All four notes visible in source screenshots; native note/return behavior verified.",
+    "Article, hills, Explore, destinations and Ashta inspected at recorded widths; no observed horizontal overflow.",
+    "Ashta full-frame painting and full credit visible at desktop/mobile; no conspicuous visual degradation.",
+    "Previews reuse the authentic photograph; article and sharing base file verified by HTTP helper."
+  ],
+  "limitations": [
+    "Desktop opening screenshot clips the lower credit; full credit is visible on mobile and in actual DOM/HTTP evidence.",
+    "live-desktop-explore.jpg has clipped image and is excluded; complete live-desktop-explore-card.jpg replaces it.",
+    "live-desktop-notes.jpg captured during scroll transition and is excluded; source-reading screenshots carry the evidence.",
+    "No physical-device or site-wide accessibility certification."
+  ],
+  "viewport_reset": true
+}

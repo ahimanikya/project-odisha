@@ -66,6 +66,9 @@ def main():
             check('By Ahimanikya Satapathy' in plain(fragment) and 'Footnotes & Sources' in plain(fragment),'Live Founder byline and visible notes')
             notes=[x for x in p.links if x.startswith('#user-content-fn')]
             check(len(notes)==10 and all(x[1:] in p.ids for x in notes),'Live five native citations/five returns resolve')
+            references=[x for x in notes if x.startswith('#user-content-fn-')]
+            returns=[x for x in notes if x.startswith('#user-content-fnref-')]
+            check(len(references)==5 and len(set(references))==4 and len(returns)==5 and len(set(returns))==5,'Live five references to four notes and five distinct returns')
             figure=next(f for f in re.findall(r'<figure\b[^>]*>.*?</figure>',fragment,re.S) if im['src'] in f)
             caption=re.search(r'<figcaption\b[^>]*>(.*?)</figcaption>',figure,re.S).group(1)
             for value in [im['caption'],im['changes'],im['license'],*common.AUTHORS]: check(value in plain(caption),'Live visible credit '+value)
