@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1375. blocked: 1, completed: 238, excluded: 872, in_progress: 1, queued: 263.
+Route inventory: 1376. blocked: 1, completed: 238, excluded: 872, in_progress: 1, queued: 264.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1399,3 +1399,4 @@ Route inventory: 1375. blocked: 1, completed: 238, excluded: 872, in_progress: 1
 | POD-EDIT-SOLA-20261123 | [Sola: The Craft Behind an Odissi Tahia](https://projectodisha.org/stories/sola-and-odissi-tahia/) | completed | Reviewed original article publication with credited image, incoming links and desktop/mobile checks; zero programme credit. |
 | POD-EDIT-BELGHAR-TUMUDIBANDHA-20261123 | [Belghar: Forest and a Wooden Bungalow](https://projectodisha.org/destinations/belghar-tumudibandha/) | completed | Hill and forest destination article with credited high-quality article/preview image; zero programme credit. |
 | POD-EDIT-KALINGA-GHATI-20261123 | [Kalinga Ghati: Through the Forested Pass](https://projectodisha.org/destinations/kalinga-ghati/) | in_progress | Research, review and publish hill destination with credited article/preview image; zero programme credit. |
+| POD-EDIT-ODIAHOMEPAGE-20261123 | [When Odisha Became a Homepage](https://projectodisha.org/stories/when-odisha-became-a-homepage/) | queued | Publish the author-approved text, ten original images and exact references; no prose rewrite; zero programme credit. |
