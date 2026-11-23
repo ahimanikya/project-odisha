@@ -1,0 +1,25 @@
+{
+  "result": "pass",
+  "checks": {
+    "registers": "1360 records, 847 events; dashboard generated",
+    "editorial_rollout": {
+      "blocked": 1,
+      "completed": 238,
+      "excluded": 872,
+      "queued": 263
+    },
+    "research_reindex": "1506 concepts",
+    "workbench": "PASS",
+    "catalogue": "1921 concepts",
+    "bundle": "8619 local links; PASS",
+    "team": "PASS",
+    "autonomous_program": "PASS; zero credit for this release",
+    "research_map": "1858 records, 71 tasks, 8 reviewed overlaps; PASS",
+    "git_diff_check": "PASS"
+  },
+  "corrected_local_validation_findings": [
+    "Completed rollout item initially lacked publication_receipt; added canonical actual receipt path.",
+    "Receipt initially lacked top-level pull_request and verified_routes expected by rollout validator; added actual PR842 and four verified routes."
+  ],
+  "limitations": "Consistency checks do not establish factual accuracy, actual authorization or live behavior; separate source and live review evidence retained."
+}

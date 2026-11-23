@@ -15,7 +15,7 @@ class Page(HTMLParser):
 def parse(s):p=Page();p.feed(s);return p
 def fetch(url):
  with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'ProjectOdisha-Release-Verification/1.0'}),timeout=60) as r:assert r.status==200;return r.read(),dict(r.headers)
-report={'status':'running','checked_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'routes':[],'images':[],'checks':[],'limits':['HTTP evidence; separate rendered browser and delivery review required.']};urls=set();im=json.loads((ROOT/'kb/research/destinations/belghar-tumudibandha-image.json').read_text())
+report={'status':'running','checked_at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'routes':[],'images':[],'checks':[],'limits':['HTTP evidence; separate rendered browser and delivery review required.']};urls=set();url_map={};im=json.loads((ROOT/'kb/research/destinations/belghar-tumudibandha-image.json').read_text())
 def check(ok,msg):assert ok,msg;report['checks'].append(msg)
 for route in routes:
  b,headers=fetch(ORIGIN+route);s=b.decode();name=route.strip('/').replace('/','-') or 'home';(LIVE/(name+'.html')).write_bytes(b);p=parse(s)
@@ -26,6 +26,16 @@ for route in routes:
   n=[x for x in p.links if x.startswith('#user-content-fn')];check(len(n)==12 and all(x[1:] in p.ids for x in n),'Live twelve native note links resolve')
   for key in ['og:image','twitter:image']:check(p.meta.get(key)==ORIGIN+im['src'],'Live '+key)
   local=(SITE/'dist-publish'/route.strip('/')/'index.html').read_text();lf=re.search(r'<article class="article-reading.*?</article>',local,re.S).group();(LIVE/'article-fragment.html').write_text(fragment);(LIVE/'local-article-fragment.html').write_text(lf);report['fragment_exact']=fragment==lf
+  localimgs=parse(lf).images;check(len(localimgs)==len(imgs),'Live/local article image counts match');subs=[]
+  for li,lo in zip(imgs,localimgs):
+   check(li.get('src')==lo.get('src'),'Article base image order preserved')
+   livevariants={w:u for u,w in re.findall(r'(/[^ ,]+)\s+(\d+)w',li.get('srcset',''))};localvariants={w:u for u,w in re.findall(r'(/[^ ,]+)\s+(\d+)w',lo.get('srcset',''))};check(livevariants.keys()==localvariants.keys(),'Same responsive widths')
+   for width,url in livevariants.items():
+    url_map[url]=localvariants[width]
+    if url!=localvariants[width] and {'local':localvariants[width],'live':url} not in subs:subs.append({'local':localvariants[width],'live':url})
+  normalized=lf
+  for sub in subs:normalized=normalized.replace(sub['local'],sub['live'])
+  check(normalized==fragment,'Article exact after only observed responsive URL substitutions');report['responsive_url_substitutions']=subs;report['fragment_after_observed_substitutions_exact']=True
  else:
   cards=[x for x in re.findall(r'<article\b.*?</article>',s,re.S) if 'href="'+ROUTE+'"' in x];check(len(cards)==1,'One live incoming card '+route);check(bool(re.search(r'>Illustration</(?:p|figcaption)>',cards[0])),'Live preview illustration label '+route);imgs=parse(cards[0]).images;check(any(x.get('src')==im['src'] for x in imgs),'Live preview image '+route)
  for i in imgs:
@@ -33,7 +43,7 @@ for route in routes:
   for x in re.findall(r'(/[^ ,]+)\s+\d+w',i.get('srcset','')):urls.add(x)
  report['routes'].append({'route':route,'status':200,'sha256':sha(b),'saved':name+'.html','bytes':len(b)})
 for url in sorted(urls):
- b,h=fetch(ORIGIN+url);name=Path(url).name;(LIVE/name).write_bytes(b);local=SITE/'dist-publish'/url.lstrip('/');equal=local.is_file() and sha(local.read_bytes())==sha(b)
- report['images'].append({'url':url,'status':200,'bytes':len(b),'sha256':sha(b),'local_exists':local.is_file(),'local_sha256':sha(local.read_bytes()) if local.is_file() else None,'byte_equal':equal,'saved':name})
+ b,h=fetch(ORIGIN+url);name=Path(url).name;(LIVE/name).write_bytes(b);local_url=url_map.get(url,url);local=SITE/'dist-publish'/local_url.lstrip('/');equal=local.is_file() and sha(local.read_bytes())==sha(b)
+ report['images'].append({'url':url,'local_url':local_url,'status':200,'bytes':len(b),'sha256':sha(b),'local_exists':local.is_file(),'local_sha256':sha(local.read_bytes()) if local.is_file() else None,'byte_equal':equal,'saved':name})
 check(next(x for x in report['images'] if x['url']==im['src'])['byte_equal'],'Original public illustration exact')
 report['status']='pass' if report['fragment_exact'] and all(x['byte_equal'] for x in report['images']) else 'review_differences';(LIVE/'verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'status':report['status'],'routes':len(routes),'images':len(urls),'different_images':[x['url'] for x in report['images'] if not x['byte_equal']],'fragment_exact':report['fragment_exact']}))

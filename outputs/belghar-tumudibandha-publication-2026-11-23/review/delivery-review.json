@@ -1,0 +1,166 @@
+{
+  "result": "pass",
+  "reviewer": {
+    "name": "Drishti",
+    "kind": "separate_ai_assistant",
+    "human_review_claimed": false
+  },
+  "review_date": "2026-11-23",
+  "scope": "Independent live delivery and existing receipt-evidence review; final integrated receipt and its exact commit remain separate gates.",
+  "publication": {
+    "pr": 842,
+    "reviewed_head": "ca877af63424f332bc67c5ce016019d8a05d89e6",
+    "merge_commit": "418a009c7d50000678e473510d15567366ac4625",
+    "reviewed_and_merged_trees_identical": true,
+    "ci": {
+      "run": 45120884986,
+      "attempt": 1,
+      "conclusion": "success",
+      "full_tests": 823,
+      "coast_tests": 599
+    },
+    "deployment": {
+      "run": 45124673470,
+      "attempt": 1,
+      "conclusion": "success",
+      "exact_merge_head": true
+    },
+    "verification_method": "Independent fresh GitHub API reads for both runs and PR842, plus fresh run-log reads for hosted test and payload counts."
+  },
+  "capacity": {
+    "ci_bytes": 999752098,
+    "deployment_bytes": 999752098,
+    "regular_files": 3638,
+    "strict_exclusive_limit": 1000000000,
+    "remaining_bytes": 247902,
+    "local_bytes": 998968820,
+    "local_and_hosted_bytes_not_claimed_equal": true
+  },
+  "independent_http": {
+    "method": "Fresh read-only urllib requests for all four routes and twelve actual article/preview image URLs; not merely reuse of root status flags. Initial restricted-network reads failed, then authorized read-only network execution succeeded. Web-tool route opens were unavailable.",
+    "routes": [
+      "/destinations/belghar-tumudibandha/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "all_routes_status": 200,
+    "image_count": 12,
+    "all_images_status": 200,
+    "all_images_byte_identical_to_reviewed_local": true,
+    "responsive_files": 9,
+    "all_responsive_sha256_filename_prefixes_verified": true,
+    "article_fragment_sha256": "b95ee14fb28aa2a494ab6fd015f5e16460f005e743c0b46a6aceb7c9b2c3dc35",
+    "article_fragment_byte_exact": true,
+    "responsive_url_substitutions": 0,
+    "native_forward_and_return_links": 12,
+    "all_native_targets_resolve": true,
+    "ids_unique": true,
+    "all_three_incoming_cards_have_illustration_label_and_correct_asset": true,
+    "matching_og_and_twitter_image": true
+  },
+  "media": {
+    "public_original_sha256": "e15f5d8e69303ccbff1e560df32519eaf48f4d1361332f4fc44aaa9456160951",
+    "public_original_bytes": 278076,
+    "public_original_dimensions": [
+      1200,
+      800
+    ],
+    "hero_variants": [
+      [
+        480,
+        320
+      ],
+      [
+        960,
+        640
+      ],
+      [
+        1200,
+        800
+      ]
+    ],
+    "measurement": "Independently decoded all twelve saved live files with Sharp after checking their hashes against freshly fetched responses; all nine responsive width descriptors match actual decoded widths.",
+    "encoding_differences": 0,
+    "illustration_credit": "Project Odisha",
+    "honesty": "Caption identifies an interpretive landscape illustration and explicitly says it is not a documented viewpoint. No photographic identity, actual bungalow architecture or current-condition claim. Earlier media/source reports and preserved generation provenance remain applicable."
+  },
+  "screenshots": [
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-desktop-destinations-card.jpg",
+      "sha256": "fe7b64482caada52885c762233a57743b42eae4f673fa9a7b7000704e375885d"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-desktop-explore-card.jpg",
+      "sha256": "9af1f2f8438a21236827f2eb6e90be8967f283157ab8fd2bda90464f6876fcef"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-desktop-hero.jpg",
+      "sha256": "4f853e436d9cebb4645f145ecc6cbace70a7c84c158eb89de67efb6850803ec8"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-desktop-hills-card.jpg",
+      "sha256": "6dda9201e5aae8e939e045a40311ccd1c9f64fa82ba3d70112da4cf86577d62e"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-desktop-notes.jpg",
+      "sha256": "11bb31d7eb2ae707dca7947450a90e30a0c5cadff6f6dbe446f024e23318e731"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-mobile-explore-card.jpg",
+      "sha256": "9ba53869b4c12c16686a4d784d6e9aea06513f90023e152fa067bd10fe07f1a7"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-mobile-hero.jpg",
+      "sha256": "8fbade291f5ed4d66d2f494d5ad87c169504f231041f16cad0663c7c48081aae"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-mobile-hills-card.jpg",
+      "sha256": "bee611d973913a9ce064cb2fa5fc4974c8ab8bbb7311268971fa751ce56dc31f"
+    },
+    {
+      "path": "outputs/belghar-tumudibandha-publication-2026-11-23/screenshots/live-mobile-notes.jpg",
+      "sha256": "5c8dc0299a0ae118037e9df3df9372cdd747f95b5f8305b3cbeda819cc42f1ed"
+    }
+  ],
+  "visual_review": {
+    "independently_opened_images": 9,
+    "findings": [
+      "Mobile hero shows complete proportionate illustration, interpretive caption, credit and non-documentary qualification.",
+      "Desktop hero lower image and caption continue below the viewport.",
+      "Desktop and mobile note lists are readable; their source headings are above the captured frame.",
+      "Desktop hills and destinations screenshots show complete Belghar previews with illustration labels, titles and summaries.",
+      "Mobile hills and both Explore screenshots clip the top of the image but show the illustration label, title, summary and entry link clearly.",
+      "No visible layout blocker in the inspected screenshots."
+    ],
+    "browser_operator": "Disha",
+    "operator_evidence": "review/live-browser-review.json",
+    "operator_actions_attributed": [
+      "Desktop/mobile atlas citation click and native keyboard return verified by hash and focus.",
+      "Hills reading-path and all three incoming article links followed.",
+      "Explore Belghar search returned one entry and Read the entry opened the article.",
+      "No horizontal overflow observed at1280×900 and390×844; temporary viewport override reset."
+    ],
+    "independent_browser_interaction_claimed": false
+  },
+  "preservation": {
+    "website_research_media_source_changes_since_publication_merge": false,
+    "prior_sola_and_gandhamardan_records_unchanged": true,
+    "sola_manuscript_wrapper_and_image_unchanged": true,
+    "foreign_current_task_and_handoff_home_unchanged": true,
+    "activity_prefix_exact": true,
+    "programme_credit": 0,
+    "scope_release": "Still conditional on separately reviewed receipt actually merging and explicit preparation-only handoff. No next article activated by this review.",
+    "receipt_helper_changes": "verify-live.py adds observed responsive-URL mapping; comparison helper measures geometry, bytes and decoded RGB differences. These evidence helpers are outside deployed website source."
+  },
+  "limitations": [
+    "Desk research, generated landscape interpretation and simulated desktop/mobile browser views; no human specialist, field, current-service, physical-device or cross-browser verification.",
+    "Native browser interactions and runtime overflow measurements were performed by Disha; Drishti independently inspected saved screenshots and fresh HTTP/GitHub responses.",
+    "Different whole-page HTML between local and live is not normalized or claimed equal; the complete article fragment is byte-exact.",
+    "No broad claim that every screenshot frames the complete image or card.",
+    "Current canonical record is an interim merged/deployment-running snapshot awaiting integration of this successful delivery review; final receipt must record actual successful deployment and retain conditional scope release.",
+    "This PASS does not assert future receipt CI or merge."
+  ],
+  "blockers": [],
+  "readiness": "Ready for coordinator to integrate actual delivery evidence into an evidence-only receipt, then separate final receipt and exact-commit review."
+}
