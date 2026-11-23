@@ -1,0 +1,275 @@
+{
+  "status": "PASS scoped implementation preservation; portable inventory action reported separately",
+  "baseline_commit": "d8eef97818bc0451c77d24c97ab19e7e415666b5",
+  "method": "Read-only source comparisons and focused in-memory Astro/raw-renderer checks; no build started by this audit.",
+  "checks": {
+    "astro_syntax": "PASS, 3 files",
+    "sola": {
+      "refs": 6,
+      "notes": 4,
+      "backs": 6
+    },
+    "odissi_existing": {
+      "refs": 8,
+      "notes": 6,
+      "backs": 8
+    },
+    "odissi_with_supplement": {
+      "refs": 8,
+      "notes": 7,
+      "backs": 9
+    },
+    "odissi_original_html_preserved": true,
+    "unaffected_book_chapters": 47,
+    "template_changed_lines": [
+      28
+    ],
+    "route_registered_once": true,
+    "prep_originals_equal": true
+  },
+  "canonical": {
+    "path": "kb/research/culture/sola-and-tahia.md",
+    "baseline_sha256": "86131bc114cac91ca8d6e8fcd17205816ac0f6861e849617c617fdaf6e0e7fe5",
+    "current_sha256": "f23e5e34cc418855e281afc261276eec4a08aac8f395defdf6bfeefb096b896a",
+    "only_allowed_changes": [
+      "status draft to publication_candidate",
+      "publication_authorized false to true",
+      "note2 original-photo wording replaced with accurate web resize/compression wording"
+    ],
+    "all_other_text_exact": true
+  },
+  "preserved_preparation_files": [
+    {
+      "path": "kb/media/sola/finished-tahia-prakriti-panda.jpg",
+      "git_blob": "0c0a81ab7ecd820d95634620abad6a5ba1b1b22e",
+      "unchanged": true
+    },
+    {
+      "path": "kb/research/culture/sola-image.json",
+      "git_blob": "6a4185ffc59cfbd7a3fc2b5a4db878c97db73baa",
+      "unchanged": true
+    },
+    {
+      "path": "kb/research/culture/sola-source-review-20261123.json",
+      "git_blob": "723689d10e8ad7409a97b763fe8fb551bdf8195e",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/article.md",
+      "git_blob": "c7a9975ce5984483868e7e9e91d8ea0a9975e1e7",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/checks.json",
+      "git_blob": "6a7028b47ab7c5e5d49fc5f10a64f43e924d4a7b",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/media/commons-imageinfo-and-revision.json",
+      "git_blob": "3d74af1d7980b80094c819cf283150b76a365d61",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/media/commons-structured-data.json",
+      "git_blob": "b431afc9a9cab08f137de05253fbbebf302a2d1e",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/media/finished-tahia-prakriti-panda.jpg",
+      "git_blob": "0c0a81ab7ecd820d95634620abad6a5ba1b1b22e",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/publication-brief.md",
+      "git_blob": "8f7f71de1ec7a7fb5a76c26155f9ed380c5407c0",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/sola-article-2026-11-23/research/source-access.json",
+      "git_blob": "7f50a7f24ef035c483adc2284c3ab461f6c24e65",
+      "unchanged": true
+    }
+  ],
+  "original_photo": {
+    "canonical_path": "kb/media/sola/finished-tahia-prakriti-panda.jpg",
+    "portable_path": "outputs/sola-article-2026-11-23/media/finished-tahia-prakriti-panda.jpg",
+    "sha256": "50c47707d4d50cd4855d16e554360145d486cc9536308919c2a17f70a69586be",
+    "bytes": 13720898,
+    "identical_copies": true
+  },
+  "book": {
+    "unaffected_chapters": [
+      "many-odishas",
+      "kalinga-utkala-and-odisha",
+      "ports-boats-and-ocean-crossings",
+      "cities-villages-and-cultural-landscapes",
+      "adivasi-worlds-and-community-knowledge",
+      "odisha-beyond-its-borders",
+      "jagannath-and-the-many-worlds-of-puri",
+      "temples-goddesses-and-local-shrines",
+      "buddhist-and-jain-histories",
+      "mahima-dharma-and-the-poetry-of-bhima-bhoi",
+      "muslim-and-christian-lives-in-odisha",
+      "the-seasonal-calendar",
+      "a-land-of-many-languages",
+      "odia-in-manuscript-print-and-public-life",
+      "poets-storytellers-and-the-changing-literary-world",
+      "the-craft-of-the-poem",
+      "dhaga-dhamali-riddles-and-everyday-wit",
+      "stories-passed-from-voice-to-voice",
+      "listening-to-odisha",
+      "odissi-music-and-its-literary-worlds",
+      "odissi-gotipua-and-expressive-performance",
+      "chhau-dalkhai-ghumura-and-dhemsa",
+      "pala-daskathia-and-the-singing-story",
+      "the-stage-the-street-and-the-festival",
+      "pattachitra-and-the-painted-story",
+      "palm-leaf-paper-and-the-work-of-the-hand",
+      "threads-of-place",
+      "cloth-in-everyday-and-ceremonial-life",
+      "homes-courtyards-and-everyday-design",
+      "rice-millets-and-the-agricultural-year",
+      "the-everyday-odia-table",
+      "pitha-sweets-and-the-festival-kitchen",
+      "sacred-food-and-shared-meals",
+      "forest-hill-river-and-coast",
+      "markets-makers-and-cultural-livelihoods",
+      "growing-up-in-odisha",
+      "birth-marriage-mourning-and-remembrance",
+      "women-as-makers-and-keepers-of-culture",
+      "caste-labour-and-access-to-cultural-life",
+      "places-to-learn-together",
+      "changing-towns-and-rural-lives",
+      "radio-recordings-and-television",
+      "odia-cinema-and-the-worlds-it-makes",
+      "archives-libraries-and-the-digital-page",
+      "languages-on-new-screens",
+      "modern-art-photography-and-public-heritage",
+      "keeping-culture-alive"
+    ],
+    "material_chapter_change": "Only supplementary reading-photo attribution note12; template addition restricted to existing exact material-chapter conditional. The Sola preview superscript additionally has flex-shrink:0 and white-space:nowrap to keep12 together on narrow screens.",
+    "rendered_html_comparison": false
+  },
+  "odissi": {
+    "canonical_source_unchanged": true,
+    "original_rendered_body_and_six_notes_exact_after_removing_supplement": true,
+    "original_counts": {
+      "refs": 8,
+      "notes": 6,
+      "returns": 8
+    },
+    "integrated_counts_including_template_reference": {
+      "refs": 9,
+      "notes": 7,
+      "returns": 9
+    },
+    "note": "The ninth reference is in the Astro reading-link slot, outside article.html; the focused renderer count therefore remains8refs in article.html."
+  },
+  "media": {
+    "source": {
+      "path": "kb/media/sola/finished-tahia-prakriti-panda.jpg",
+      "width": 6016,
+      "height": 4016,
+      "bytes": 13720898,
+      "sha256": "50c47707d4d50cd4855d16e554360145d486cc9536308919c2a17f70a69586be"
+    },
+    "derivative": {
+      "path": "projects/site/public/images/stories/sola-tahia.webp",
+      "width": 1200,
+      "height": 801,
+      "bytes": 156978,
+      "sha256": "1b90fc8fca3cafaa0176bcea08ab72bcd81c1b0cdf93c0379351ffbbbed2ee0b"
+    },
+    "method": {
+      "sharp": "0.35.5",
+      "libvips": "8.18.7",
+      "width": 1200,
+      "quality": 88,
+      "effort": 5,
+      "fit": "full-frame aspect-preserving resize",
+      "metadata": "keepMetadata()",
+      "variantsQuality": 82
+    },
+    "metadata": {
+      "hasProfile": false,
+      "orientation": 1,
+      "retainedBuffers": [
+        "exif",
+        "xmp"
+      ]
+    },
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "bytes": 22524,
+        "sha256": "e6a946dcf98ad6f36d6f46af516768eae76b4646560ead9fdd302a4ea9cd2f3e",
+        "filename": "e6a946dcf98ad6f3-480.webp"
+      },
+      {
+        "width": 960,
+        "height": 641,
+        "bytes": 54976,
+        "sha256": "7f1b5888095e2183beab90810ac01b7b61e1942175ee6247e825b79d383c0597",
+        "filename": "7f1b5888095e2183-960.webp"
+      },
+      {
+        "width": 1200,
+        "height": 801,
+        "bytes": 82034,
+        "sha256": "ab82d604156120f31fde3de2a140a7683a214466851c889b1cb7047f8b73957e",
+        "filename": "ab82d604156120f3-1200.webp"
+      }
+    ],
+    "projected_image_bytes": 316512,
+    "baseline_headroom_bytes": 19406,
+    "remaining_before_HTML": -297106,
+    "visual_review": "Original full-frame inspection preview and derivative personally inspected; the curved headpiece, petals, buds, hand and worktable remain in frame. Detail is suitable at the reading-column width.",
+    "limits": "Local encoding projection only. Build platform may encode different variant bytes; actual Linux package acceptance and browser review remain required.",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Resized and compressed for web display.",
+    "creator": "Prakriti Panda",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_fully-made_Tahia.jpg",
+    "source_revision": 1049053845
+  },
+  "routes": {
+    "route": "/stories/sola-and-odissi-tahia/",
+    "coast_occurrences": 1,
+    "standalone_occurrences": 0,
+    "search_decision": {
+      "route": "/stories/sola-and-odissi-tahia/",
+      "decision": "hold",
+      "reason": "Founder-authorized public article; existing limited search-index approval remains unchanged."
+    },
+    "portable_inventory_path": "kb/reference/public-website-routes.json",
+    "portable_inventory_present_when_checked": true,
+    "required_root_action": "Append route to routes array if not already updated; consumed by tools/check_bundle.py."
+  },
+  "limits": [
+    "No full/coast build, package-size acceptance or browser-layout result claimed by this report. Root pipeline is active.",
+    "Image variant sizes are local Sharp projections; deployed encoding may differ.",
+    "Book preservation here is source-data and scoped-template evidence, not a comparison of all rendered chapter HTML."
+  ],
+  "mobile_marker_fix": {
+    "source_file": "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro",
+    "rule": ".sola-reading-item > sup{flex-shrink:0;white-space:nowrap}",
+    "scope": "Inside material-chapter-only inline style; no Odissi or other chapter change.",
+    "evidence": "Root mobile screenshot personally inspected:12 wrapped vertically before this fix. Marker text and anchor attributes unchanged.",
+    "validation_limit": "No build/test run for this follow-up; rebuilt browser validation and overflow check remain pending with root."
+  },
+  "report_history": [
+    {
+      "event": "Initial final-package helper assertion failure",
+      "assertion": "Only intended Hindola HTML transformations",
+      "helper_before_sha256": "4f0996b50974917ed76b8c40e35b0adc7a42c5bdda04239cf7d2bf1196d39854",
+      "reported_by": "Root final-package run",
+      "diagnosis": "Whole coastal/publication HTML comparison included intended global edition transforms. Tag-level read-only comparison found robots noindex,nofollow becoming noindex,follow and journey-data inline JSON extracted to an external asset script.",
+      "observed_external_asset": "/assets/journey-data-6c54d9a2f4744288b8ccd1c6f37fefa65cd4a8918648d57f8f76c241a086988f.js",
+      "article_fragment_exact_after_only_credit_replacement": true,
+      "correction": "Strict whole article equality after sole credit replacement, plus independent actual OG image source and dimensions for dist/coast/publish. Global edition controls explicitly excluded from byte equality.",
+      "helper_after_sha256": "5c950890d1ef01f472f485ce7fa983fb62138a57af40dac35b7d67a5f940d3aa",
+      "package_rerun_status": "Pending root rerun; no pass inferred from diagnosis."
+    }
+  ]
+}

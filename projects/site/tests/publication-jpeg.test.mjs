@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains five explicit photos',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg']));
+test('JPEG delivery scope remains six explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg']));
 test('delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -72,5 +72,25 @@ test('Bhubaneswar delivery retains the source, photo URL, credits, both full fra
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(secondMeta[field],secondOriginal[field]);
  assert.ok(secondMeta.exif);assert.notEqual(second.source_sha256,second.output_sha256);
  assert.ok((await readFile(sourceURL)).equals(source));assert.ok((await readFile(otherURL)).equals(otherSource));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+
+test('Hindola delivery retains the complete painting, museum credit and source while updating share geometry',async()=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-hindola-jpeg-'));
+ try{
+ const asset='assets/jhulana-in-odisha/hindola-raga.jpg',page='stories/jhulana-in-odisha/index.html';
+ const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
+ const credit='<a href="https://www.clevelandart.org/art/1975.9">Cleveland Museum of Art, 1975.9</a>. Image released under CC0.';
+ const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="2519"><meta property="og:image:height" content="3400"><p>'+credit+'</p>';
+ await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);
+ await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
+ const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+ assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>1000000);
+ const actual=await sharp(await readFile(path.join(dir,asset))).metadata(),original=await sharp(source).metadata();
+ assert.equal(actual.width,1517);assert.equal(actual.height,2048);assert.equal(actual.orientation??1,original.orientation??1);
+ for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
+ assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace('Image released under CC0.','Image released under CC0. Full frame, resized and compressed for web delivery.').replace('property="og:image:width" content="2519"','property="og:image:width" content="1517"').replace('property="og:image:height" content="3400"','property="og:image:height" content="2048"'));
+ assert.ok((await readFile(sourceURL)).equals(source));
  }finally{await rm(dir,{recursive:true,force:true});}
 });

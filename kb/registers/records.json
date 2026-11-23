@@ -10545,6 +10545,25 @@
       "evidence": [
         "records/gandhamardan-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112302",
+      "title": "Publish Sola: The Craft Behind an Odissi Tahia",
+      "category": "delivery",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112302",
+      "next_action": "Commit reviewed candidate, obtain exact-commit review and successful hosted checks, then merge and publish under existing Founder authorization.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112302",
+        "POD-REV-2026112302"
+      ],
+      "evidence": [
+        "records/sola-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -15950,6 +15969,21 @@
       "refs": [],
       "evidence": [
         "records/antaranga-next-preparation-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112302",
+      "title": "Publish Sola and the Odissi tahia after Gandhamardan",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once Gandhamardan’s release is complete, integrate and publish the Sola and Odissi Tahia article with the credited image, links from relevant existing articles, and mobile and desktop layout checks.",
+      "scope": "Integrate and publish reviewed Sola article with credited photograph, related incoming links and mobile/desktop layout checks.",
+      "refs": [],
+      "evidence": [
+        "records/sola-publication-20261123.json"
       ]
     }
   ],
@@ -25467,6 +25501,29 @@
         "Photographer description establishes image identity; no independent geolocation or current-condition evidence.",
         "Root operated browser interactions; separate screenshot review, Chromium viewport simulation.",
         "Evidence-only receipt exact review, project-required CI and actual merge still required; conditional slot release only."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112302",
+      "title": "Sola article separate source, image, implementation and rendered review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112302",
+        "POD-DEC-2026112302"
+      ],
+      "evidence": [
+        "records/sola-publication-20261123.json"
+      ],
+      "summary": "Separate source/media/code/local desktop/mobile and final package reviews passed. Four routes and20images checked in998219974B localpackage; exactcommittedhead, hosted checks and live delivery remain.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or field verification.",
+        "Root browser operation and separate screenshot review; Chromium viewport simulation only.",
+        "Existing Hindola delivery is lossy resized/compressed, originals retained; final Linux and live encodings unverified."
       ]
     }
   ],

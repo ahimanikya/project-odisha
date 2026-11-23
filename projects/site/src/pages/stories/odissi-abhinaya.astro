@@ -1,5 +1,6 @@
 ---
 import Shell from '../../layouts/Shell.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
 import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
 import source from '../../../../../kb/research/culture/odissi-abhinaya.md?raw';
@@ -10,6 +11,10 @@ const article=renderReviewedCultureArticle(source,{
  imageDimensions:{[image.src]:{width:image.width,height:image.height}},
  links:{'jhulana-in-odisha.md':'/stories/jhulana-in-odisha/','bhanita-and-poet-signatures.md':'/literature/bhanita-and-poet-signatures/','champu-and-sakhi.md':'/literature/champu-and-sakhi/','ashta-nayika.md':'/stories/ashta-nayika/','prahallad-nataka.md':'/stories/prahlada-nataka/','mardala.md':'/sounds-of-odisha/mardala/'}
 });
+// Supplementary attribution for the reading-link photograph; canonical notes stay intact.
+const notes=article.html.match(/<section data-footnotes[\s\S]*?<\/section>/g);
+if(notes?.length!==1 || (notes[0].match(/<li id="user-content-fn-/g)||[]).length!==6 || (notes[0].match(/<\/ol>/g)||[]).length!==1 || article.html.includes('user-content-fn-sola-photo'))throw Error('Unexpected Odissi footnote structure');
+article.html=article.html.replace(notes[0],notes[0].replace('</ol>',"<li id=\"user-content-fn-sola-photo\"><p>Prakriti Panda, <a href=\"https://commons.wikimedia.org/wiki/File:A_fully-made_Tahia.jpg\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Resized and compressed. <a href=\"#user-content-fnref-sola-photo\" data-footnote-backref=\"\" aria-label=\"Back to reference 7\" class=\"data-footnote-backref\">↩</a></p></li>"+'</ol>'));
 ---
 <Shell title={article.title} description="Bhava, rasa and abhinaya: following a lyric, its musicians and expressive storytelling in Odissi." active="explore" related={false} shareImage={{...image,src:'/assets/odissi-abhinaya/abhinaya-reading.png'}}>
  <ReviewedCultureArticle article={article}>
@@ -17,7 +22,9 @@ const article=renderReviewedCultureArticle(source,{
   <p>Companion readings without a published article open the research knowledge base on GitHub.</p>
   <nav aria-label="Continue reading about music and performance">
    <h2>Continue reading</h2>
-   <ul><li><a href="/stories/ashta-nayika/">Ashta Nayika</a></li><li><a href="/stories/odissi-music/">Odissi music</a></li><li><a href="/stories/prahlada-nataka/">Prahallad Nataka</a></li><li><a href="/sounds-of-odisha/">Sounds of Odisha</a></li></ul>
+   <ul><li><a href="/stories/ashta-nayika/">Ashta Nayika</a></li><li><a href="/stories/odissi-music/">Odissi music</a></li><li><a href="/stories/prahlada-nataka/">Prahallad Nataka</a></li><li><a href="/sounds-of-odisha/">Sounds of Odisha</a></li><li class="sola-reading-item"><a class="sola-reading" href="/stories/sola-and-odissi-tahia/"><ResponsiveImage src="/images/stories/sola-tahia.webp" alt="" width={1200} height={801} sizes="176px" loading="lazy"/><span>Sola: The Craft Behind an Odissi Tahia →</span></a><sup><a id="user-content-fnref-sola-photo" href="#user-content-fn-sola-photo" data-footnote-ref aria-describedby="footnote-label">7</a></sup></li></ul>
   </nav>
  </ReviewedCultureArticle>
 </Shell>
+
+<style is:inline>.sola-reading-item{display:flex;align-items:flex-start;gap:.25rem}.sola-reading{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}.sola-reading img{width:11rem;max-width:100%;height:auto;object-fit:contain}</style>

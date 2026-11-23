@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7c646596628936ea4e0041e06fc47f252b019c83073baa8debe35db50024538b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6a33517381323177af03612e0f5292b7e47f29091a01868cd22cefdec462b789`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -409,6 +409,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112391 · Research, review and publish Kapilash | completed | published | Ahimanikya Satapathy | Merge exact reviewed evidence-only receipt after project-required CI; then explicitly hand the reserved preparation-only slot to Research Antaranga Kalinga. Gandhamardan remains queued until return. | — |
 | POD-WORK-2026112301 · Prepare Sola and the Making of an Odissi Tahia | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed draft, original credited photograph and publication brief. Return preparation slot with local commit to hill-series chat for Gandhamardan; no website integration/publication. | — |
 | POD-WORK-2026112392 · Research, review and publish Gandhamardan | completed | published | Ahimanikya Satapathy | Merge exact reviewed evidence-only receipt after project-required CI; then explicitly hand the reserved Sola publication slot to Research Antaranga Kalinga. Belghar–Tumudibandha remains queued until return. | — |
+| POD-WORK-2026112302 · Publish Sola: The Craft Behind an Odissi Tahia | in_progress | reviewed | Ahimanikya Satapathy | Commit reviewed candidate, obtain exact-commit review and successful hosted checks, then merge and publish under existing Founder authorization. | — |
 
 ## Pending human review and decisions
 
@@ -747,6 +748,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112207 · Prepare next independent article after Jirang–Chandragiri | recorded_direction | Ahimanikya Satapathy | One independently researched article preparation with credited image; no publication or website integration. |
 | POD-DEC-2026112208 · Publish Paralakhemundi horn craft article | recorded_direction | Ahimanikya Satapathy | Integrate/review/publish article with credited image, relevant incoming links and mobile/desktop verification. |
 | POD-DEC-2026112301 · Prepare next independent article after Kapilash | recorded_direction | Ahimanikya Satapathy | One independently researched article preparation with credited image; no publication or website integration. |
+| POD-DEC-2026112302 · Publish Sola and the Odissi tahia after Gandhamardan | recorded_direction | Ahimanikya Satapathy | Integrate and publish reviewed Sola article with credited photograph, related incoming links and mobile/desktop layout checks. |
 
 ## Reviews
 
@@ -1155,6 +1157,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112391 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Photographer description establishes image identity; no independent geolocation.; Root browser interactions attributed to root; separate screenshot review, Chromium viewport simulation.; Publication/live delivery and final integrated receipt reviewed; exact committed receipt review, CI and actual receipt merge remain. Conditional scope release only. |
 | POD-REV-2026112301 | pass_with_limitations | True | Separate AI review, not human specialist approval.; No fieldwork, interviews or present workforce/income survey.; Photo source does not establish depicted maker or precise workshop location.; No website layout, deployment or live checks for preparation-only delivery. |
 | POD-REV-2026112392 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Photographer description establishes image identity; no independent geolocation or current-condition evidence.; Root operated browser interactions; separate screenshot review, Chromium viewport simulation.; Evidence-only receipt exact review, project-required CI and actual merge still required; conditional slot release only. |
+| POD-REV-2026112302 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Root browser operation and separate screenshot review; Chromium viewport simulation only.; Existing Hindola delivery is lossy resized/compressed, originals retained; final Linux and live encodings unverified. |
 
 ## Publication and application history
 
@@ -1466,8 +1469,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112302 | 2026-11-22T20:52:54.884042+00:00 | Original sola and Odissi tahia draft, credited original photograph and publication brief separately reviewed. No website publication; zero programme credit. Final record review and local commit precede explicit Gandhamardan handoff. | — |
-| POD-EVT-2026112303 | 2026-11-22T20:54:26.523099+00:00 | Separate final completion-record review passed; all 11 delivery hashes, generated views, preparation-only scope and foreign ownership verified. Ready for local commit and explicit Gandhamardan handoff; no public delivery or programme credit. | — |
 | POD-EVT-2026112395 | 2026-11-22T20:57:48.480211+00:00 | Accepted explicit reviewed Sola preparation return at af57ee13; all11 delivery hashes verified and preserved. Gandhamardan sole active hill article under standing Founder authorization. Existing workers reconciled completed; foreign task preserved, zero programme credit. | — |
 | POD-EVT-2026112396 | 2026-11-22T21:06:15.306995+00:00 | Verified direct Founder instruction in other-chat turn01a2050c-d6a8-7822-b5ee-d4c532dd4db4 and acknowledged reserved Sola publication after Gandhamardan reviewed receipt. Gandhamardan retains sole active scope; no Sola website integration here. | — |
 | POD-EVT-2026112397 | 2026-11-22T21:12:19.969132+00:00 | Samanta released original article and bounded integration; Anvesha separately passed final claim/source-family review. Drishti early media/capacity review passed, with only first two exact lossless additions implemented. Full article/rendered/package review and publication remain pending; zero programme credit. | — |
@@ -1476,6 +1477,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112380 | 2026-11-22T22:23:11.160745+00:00 | Corrected exact reviewed PR838headb9d96843 passed requiredCI45074470889; merged1a2b904e with identical reviewedtree. ActualLinux999980594bytes/3628files leaves19406bytes. Authorized deployment45077339965started; live review and merged receipt pending, slot retained. | — |
 | POD-EVT-2026112381 | 2026-11-22T22:54:34.075679+00:00 | Deployment45077339965 succeeded from reviewed merge1a2b904e. Separate Drishti fresh review verified six routes, thirteen byte-exact images, nine live desktop/mobile views and root native note interaction. Actual payload999980594 bytes/3628 files leaves19406 bytes. Evidence-only receipt integration begins; slot release remains conditional on reviewed receipt merge. | — |
 | POD-EVT-2026112382 | 2026-11-22T22:56:56.234161+00:00 | Separate Drishti final integrated evidence-only receipt review passed. Public/source/media, eleven Sola files, foreign pointers and history preserved. Exact committed review, project-required CI and actual receipt merge remain before explicit Sola handoff. | — |
+| POD-EVT-2026112304 | 2026-11-22T23:27:24.384100+00:00 | Gandhamardan receipt839 verified merged after successful CI and explicit handoff. Sole Sola publication scope accepted; all eleven preparation hashes verified, foreign task preserved and zero programme credit. | — |
+| POD-EVT-2026112305 | 2026-11-22T23:59:48.493299+00:00 | Separate final local review passed with823full/598coasttests, correcteddesktop/mobilepreviews,4routes20images and998219974Bpackage. Hosted exacthead checks, deployment and live review remain; no programme credit. | — |
 
 ## Deferred extensions
 

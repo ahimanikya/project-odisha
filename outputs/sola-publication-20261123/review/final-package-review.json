@@ -1,0 +1,80 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "PASS_LOCAL_FINAL_PACKAGE",
+  "candidate_base": "d8eef97818bc0451c77d24c97ab19e7e415666b5",
+  "source_hashes": {
+    "kb/research/culture/sola-and-tahia.md": "f23e5e34cc418855e281afc261276eec4a08aac8f395defdf6bfeefb096b896a",
+    "projects/site/src/pages/stories/sola-and-odissi-tahia.astro": "92f02c976b3aedb021ce8f8634607d37b6c9ef6f6be8e65035aa58f2b9c712b8",
+    "projects/site/src/pages/stories/odissi-abhinaya.astro": "d781895d9f9cd6505af8eea189e041785467780765facbff9db9802deb5ba9d3",
+    "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "bd419fb09c54541e5b6be0e4ce0664f82bf2051acb369c317f0c9499534f326b",
+    "projects/site/src/data/cultural-book.json": "1723c52aae6c872fbe1c805f5467926df7577767aeb41f55674cab58ac96cdd0",
+    "projects/site/public/images/stories/sola-tahia.webp": "1b90fc8fca3cafaa0176bcea08ab72bcd81c1b0cdf93c0379351ffbbbed2ee0b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "ba957c4d9113ee0f67404e2b2fe2da120cc67d42c26a0042ebb278904731dc07",
+    "projects/site/tests/publication-jpeg.test.mjs": "f6563d43479c534a892142e012397c903d05703ae81d150e759c0fd5dc47ba28",
+    "projects/site/editions/coast.json": "b03ebf8f136fe4f895f9815dac865fb6dc79afcd4b3b8c91a6ca8c95a0b15759",
+    "projects/site/editions/responsive-images.json": "c0219d83ef0ad786d4d4f68c4ff6e3ee15b3334a30ce6ebbeaf7c3372438b386",
+    "projects/site/editions/search-candidate.json": "779473a85502244d08046e3374016b90a6fdb8771d95fedffad1116a57597f2a",
+    "projects/site/tests/build.test.mjs": "41a6f00f335807343d153b440626d8f596c19910577312669f8f0501b7aeef00"
+  },
+  "evidence_hashes": {
+    "package-checks.json": "82d498b2a440d50159b08ddb16f3c2bcd8227224ea3326ef9f8c88548f7fe732",
+    "local-delivery.json": "3f053bc9b34881c82cca0846365eb2db3b8f9964e5d7f4f15c5d313f618b25b2",
+    "local-payload.json": "5913600e5039e841c6bb362d82e055b68a129163933b9f765a36e7af5c99cba4",
+    "checks-0.json": "bc551ecf78a544beb7b31ee3d025616e627df6067a8e00867ce67e424c18e9a0",
+    "coast-audits.json": "b29b1742a1f1c24b678b96665d1ae196babf132e544e2e40d508f106669065b2",
+    "full-tests.log": "96fe491e10bef9817fef5c3e354e242a53efd27040d2ee03f3c2362569b22244",
+    "coast-tests.log": "947aa832866d22518ecff63652b02c8d368aba8544b14f57d0369256779745bd",
+    "check_package.py": "5c950890d1ef01f472f485ce7fa983fb62138a57af40dac35b7d67a5f940d3aa",
+    "verify_delivery.py": "72b10977bee37a2a882a3d5696274d02da0ac058a8b986fceddfb7d2d5d326a5",
+    "local/hindola-desktop-full.jpg": "ebcb48fe60d8089cac320bee5dff57e9866d3ca3629a816457cd3b286b90e701",
+    "local/hindola-mobile.jpg": "33d9ce985eac9247b41e99aeee5de30a63373d0c428e6ad2fd90dedf52d0a025",
+    "local/browser-verification.json": "a3f021c22674cd8b8d4e1752a0d16b7375fb38b33c105458f3432994886f0502"
+  },
+  "independent_checks": {
+    "read_only_package_helper": "Reran check_package.py; PASS; output /tmp/sola-drishti-package-check.json. Read helper before execution.",
+    "delivery_helper": "Reran verify_delivery.py against local package to /tmp/sola-drishti-delivery/check.json; PASS4routes20actualimagefiles. No liveHTTP claimed.",
+    "payload_stat": {
+      "regular_file_bytes": 998219974,
+      "regular_files": 3633,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "headroom_bytes": 1780026
+    },
+    "article_integrity": "New article exact across full/coast/publication: SHA25665694922d0b05280d67efb3ed2a6723fbd7b0316943054aae64cddf3b3597440;6refs4notes6returns,oneh1/byline,creator/source/licence/alteration,actualresponsivegeometry andshareimage checked.",
+    "incoming": "Both incoming cards exactlyonce, fullframephoto/variants, separate complete credit notes and native target/return anchors.",
+    "hindola": "Actual publication JPEG SHA07542ff440a55a4b9966c55740e0ab4093dc684fff70504952c829de2ac1fa15 equals reviewed candidate. Repository/full/coast source SHA68f51f38c4a37a169f832d367e4230c6b0031cb2d35099cc1fa69f059700ecbc unchanged. Publication article differs only by intended CC0 alteration sentence; actualOG1517x2048 andsameimageURL verified. PriorfiveJPEGsettings remainbyte-identical after removing exactsixthentry.",
+    "preservation": "47 unaffected chapter source-data objects unchanged. Preparedoutputfolder,originalKBmedia,imageprovenance,dossier noGitdiffagainstinputd8eef978. Foreigncurrent_task/handoff_home value-identical. Onlyallowedcanonicalmetadata/photoalteration change.",
+    "source_continuity": "Onlychange since initial source review is previouslyreviewed conditional chapter no-wrapCSS; allotherrecordedsourcehashesmatch."
+  },
+  "root_run_evidence_reviewed": {
+    "full_tests": "823passed,0failed from actual full-tests.log",
+    "coast_tests": "598passed,0failed from actual coast-tests.log",
+    "pipeline": "All8 finalstepsPASS inchecks-0.json",
+    "disclosures": {
+      "full": 1501,
+      "coast": 1486,
+      "publication": 1487,
+      "violations": 0
+    },
+    "coast_audits": "Allfourcommands exit0 in coast-audits.json; root reports5436coastacceptancechecks."
+  },
+  "visual_review": "Personally inspected Hindola desktopfull and mobilecaptures. Fullpaintingframe andcaption visible, no material deliveryqualityissue atdisplayedsizes. Desktopfull tool displayresized1440x6127to1410x6000; notnativepixelinspection. Did not use cropped-topdesktopviewport as completeframeproof. Alterationnote visible in desktopfull source4 and independentlyverifiedHTML. Prior localrenderedreview covers Sola/Odissi/correctedchapter.",
+  "helper_history": "Initial wholeHTMLcomparison mistakenly included legitimate robots/journey-data edition transforms. Currenthelper keeps exact articlecomparison and independentOGchecks. This is a bounded correction, not a blanket normalization; fullpagebyteequality notclaimed.",
+  "record_review": "Currentreceipt holds scope,false,programmecredit0,awaitingpublicationreview. Actual localresults present. Requested root mark stale historical rerun-underway phrase and nextaction superseded; no publiccodeblocker.",
+  "blockers": [],
+  "remaining_gates": [
+    "Exact committed candidate continuity",
+    "Mandatory hostedLinuxCI includingactualpayload capacity",
+    "Authorized deployment andseparate liveverification",
+    "Final evidence-only receipt reconciliation"
+  ],
+  "limits": [
+    "LocalmacOSpackage size is not Linuxcapacityacceptance.",
+    "47preservationclaim is source-data equality, notfullrendered-pagebyteidentity.",
+    "No new builds,suiteexecutions,browsercontrol or publication performed by reviewer.",
+    "Lossyimages are not pixel-identical; EXIFchanges/orientationnormalization documented in prior review.",
+    "AI review,not humanexpert approval."
+  ]
+}
