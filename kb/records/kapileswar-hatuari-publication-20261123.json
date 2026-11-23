@@ -1,5 +1,5 @@
 {
-  "status": "prepared_reviewed_awaiting_publication_slot",
+  "status": "published_verified",
   "article_id": "POD-EDIT-KAPILESWAR-HATUARI-20261123",
   "route": "/stories/kapileswar-hatuari/",
   "owner": "Disha",
@@ -9,8 +9,8 @@
   "earlier_coordination_authorization": "Yes, coordinate with the other chat and publish the article in Project Odisha’s History and Heritage section when the slot is available. Send me the live link so I can share it with Sambit.",
   "work_id": "POD-WORK-20261123101",
   "programme_credit": 0,
-  "scope_released": false,
-  "canonical_publication_claim": false,
+  "scope_released": true,
+  "canonical_publication_claim": true,
   "input_head": "1ebd29664991a3b98d56ec63bea2391094839264",
   "assignments": {
     "Disha": "Shared coordinator, canonical records, integration and publication",
@@ -19,8 +19,8 @@
     "Drishti": "Separate integrated quality and delivery review"
   },
   "publication_slot": {
-    "status": "reserved_after_kalinga_ghati_receipt",
-    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "status": "retained_through_actual_receipt_merge",
+    "owner_chat": "01a20703-448b-7671-acd4-f292f7019f8d",
     "next_return": "Birakishore Das in chat01a1fb2f-f551-7330-b96b-507aaed53178 after our completed receipt; then Tensa, per preserved Kalinga reservation."
   },
   "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home and prior release/preparation evidence",
@@ -42,7 +42,7 @@
     "Possible shared source among inventory, book and board",
     "No fieldwork, archaeological specialist review or current engineering assessment claimed"
   ],
-  "next_action": "Complete package checks; receive explicit slot handoff, reconcile main, record claim, commit and review exact head; required hosted checks, merge, publish, live verification and evidence-only receipt.",
+  "next_action": "Complete final receipt review, exact committed review and required checks; merge receipt and explicitly hand off to Birakishore Das chat.",
   "local_validation": {
     "status": "pass",
     "full_tests": 826,
@@ -82,5 +82,148 @@
     "result": "pass",
     "evidence": "Actual agent message;14implementation hashes,source hash and6output hashes matched; no files changed.",
     "next": "Recheck only changed integration records and final committed head."
+  },
+  "preceding_receipt": {
+    "pr": 845,
+    "merge": "d5639cac700324dec910c8f29135865438a78f92",
+    "reviewed_head": "167e08978cf3a26ce8fff1465f503e51db90f4a4",
+    "required_check": 45156628082,
+    "conclusion": "success",
+    "merged_tree_verified": "8f4a8b59e7a051f2397c0fb05215ca56be3fa449",
+    "explicit_handoff_message": "msg_0131bb2f359befd9016b041bdbd5c087d08e1d59557310b29f"
+  },
+  "publication_candidate": {
+    "pr": 846,
+    "reviewed_head": "96a29b718417d66d59c27de5ba3b56509b731e48",
+    "required_check": 45157190629,
+    "status": "merged_after_required_checks",
+    "ci_conclusion": "success",
+    "merge": "553786bccb8e1502ea02d453d67cd836e02e853c",
+    "merged_at": "2026-11-23T11:03:16Z",
+    "reviewed_tree": "0caf9cddf66eef94d102a3c1be0dcfaf37618ed0"
+  },
+  "exact_integrated_review": {
+    "reviewer": "Drishti, separate subagent",
+    "result": "pass",
+    "head": "96a29b718417d66d59c27de5ba3b56509b731e48",
+    "scope": "All1375preceding rollout rows retained;14implementation and article-source hashes match; no public changes from reviewed candidate."
+  },
+  "hosted_validation": {
+    "run": 45157190629,
+    "conclusion": "success",
+    "head": "96a29b718417d66d59c27de5ba3b56509b731e48",
+    "payload_bytes": 999720504,
+    "remaining_bytes": 279496,
+    "evidence": "outputs/kapileswar-hatuari-publication-20261123/remote/ci-summary.json"
+  },
+  "deployment": {
+    "run": 45161698364,
+    "head": "553786bccb8e1502ea02d453d67cd836e02e853c",
+    "status": "completed",
+    "dispatch": "Explicit Founder publication authorization; main tree verified before dispatch",
+    "initial_failure": {
+      "step": "Hydrate exact reviewed Dhaga release PDF",
+      "cause_observed": "Anonymous GitHub release metadata HTTP403; curl22",
+      "cause_unknown": "Rate limiting plausible, not established; no response headers/body in log",
+      "public_site_changed": false,
+      "decision": "Retry unchanged release; inspect response details if recurrent; no code, credentials or approval changes."
+    },
+    "conclusion": "success",
+    "attempt": 2,
+    "source_sha": "553786bccb8e1502ea02d453d67cd836e02e853c",
+    "payload_bytes": 999720504,
+    "files": 3647,
+    "remaining_bytes": 279496,
+    "evidence": "outputs/kapileswar-hatuari-publication-20261123/remote/deployment-attempt2-run-45161698364-attempt2.json",
+    "payload_evidence": "outputs/kapileswar-hatuari-publication-20261123/remote/deployment-attempt2-payload-check-step.log"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/846",
+  "verified_routes": [
+    "/stories/kapileswar-hatuari/",
+    "/history/",
+    "/destinations/kapilash/",
+    "/explore/"
+  ],
+  "release_condition": "Scope release takes effect only after this independently reviewed evidence-only receipt actually merges following required hosted checks. Then explicit handoff to Research Antaranga Kalinga for Birakishore Das; Tensa follows that completed release and explicit return.",
+  "publication": {
+    "pr": 846,
+    "reviewed_head": "96a29b718417d66d59c27de5ba3b56509b731e48",
+    "merge_commit": "553786bccb8e1502ea02d453d67cd836e02e853c",
+    "merged_at": "2026-11-23T11:03:16Z",
+    "ci_run": 45157190629,
+    "ci_conclusion": "success",
+    "ci_attempt": 1,
+    "deployment_run": 45161698364,
+    "deployment_conclusion": "success",
+    "deployment_status": "completed",
+    "deployment_attempt": 2,
+    "deployment_head": "553786bccb8e1502ea02d453d67cd836e02e853c",
+    "merged_tree_matches_reviewed_head": true,
+    "check_requirement": "Project-required Review coastal candidate workflow"
+  },
+  "live_verification": {
+    "result": "pass",
+    "evidence": "outputs/kapileswar-hatuari-publication-20261123/live/verification.json",
+    "routes": [
+      "/stories/kapileswar-hatuari/",
+      "/history/",
+      "/destinations/kapilash/",
+      "/explore/"
+    ],
+    "images": 3,
+    "article_text_matches_reviewed_build": true,
+    "images_match_reviewed_bytes": true,
+    "encoding_differences": [],
+    "browser_evidence": "outputs/kapileswar-hatuari-publication-20261123/review/live-browser-review.json",
+    "scope": "Four routes and three Hatuari image files;8notes10markers with working fragment targets. Actual desktop/mobile reading and History incoming-link interaction."
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/kapileswar-hatuari-publication-20261123/review/delivery-independent-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "The reviewed article is already deployed and independently live-verified. This receipt saves actual evidence, ownership and derived project views only.",
+    "required_gates": [
+      "Separate final receipt review",
+      "Exact committed-head review",
+      "Project-required hosted checks",
+      "Actual receipt merge"
+    ]
+  },
+  "final_receipt_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/kapileswar-hatuari-publication-20261123/review/final-receipt-review.json",
+    "human_review_claimed": false,
+    "scope": "Integrated evidence-only receipt and four live screenshots; exact committed review, required checks and actual merge remain closing gates."
+  },
+  "preserved_capture_whitespace": {
+    "scope": "Exact downloaded GitHub job/step logs retain original whitespace; no log normalization. Only these named captures are excluded from whitespace validation, not review, hashes, hosted checks or deployment gates.",
+    "files": [
+      {
+        "path": "outputs/kapileswar-hatuari-publication-20261123/remote/ci-job-137633030282.log",
+        "sha256": "bdceaea90f8296816dcbd1825d304b241f44a1dfced8e9ae74cb5235492e68cc"
+      },
+      {
+        "path": "outputs/kapileswar-hatuari-publication-20261123/remote/ci-payload-check-step.log",
+        "sha256": "6bef61a8ce93e01684ddaf503a50df01eef0b73dfe33ce7909dccc3aed144df7"
+      },
+      {
+        "path": "outputs/kapileswar-hatuari-publication-20261123/remote/deployment-attempt1-job-137648460218.log",
+        "sha256": "e7fd2083af2e1a92a9260e2f3cee61c55ca9d3fafe414c419bb5b7143b6d8bcd"
+      },
+      {
+        "path": "outputs/kapileswar-hatuari-publication-20261123/remote/deployment-attempt2-build-job-137650475628.log",
+        "sha256": "45fd697fd1dc8bd4f0cd51707c8db1926a7e18feaa4da56064009306d55abdcd"
+      },
+      {
+        "path": "outputs/kapileswar-hatuari-publication-20261123/remote/deployment-attempt2-payload-check-step.log",
+        "sha256": "1f431bda9f9b4301f200f7aa325d4f416fd8829058540df8cb2ad0df65bf790b"
+      }
+    ]
   }
 }

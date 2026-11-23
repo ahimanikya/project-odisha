@@ -1,0 +1,384 @@
+build	Set up job	﻿2026-11-23T11:03:47.9973228Z Current runner version: '2.338.2'
+build	Set up job	2026-11-23T11:03:47.9997309Z ##[group]Runner Image Provisioner
+build	Set up job	2026-11-23T11:03:47.9998158Z Hosted Compute Agent
+build	Set up job	2026-11-23T11:03:47.9998728Z Version: 20261111.635
+build	Set up job	2026-11-23T11:03:47.9999407Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+build	Set up job	2026-11-23T11:03:48.0000146Z Build Date: 2026-11-11T01:49:01Z
+build	Set up job	2026-11-23T11:03:48.0000830Z Worker ID: {b7a609da-c81e-46f5-8290-1eb6448f78b2}
+build	Set up job	2026-11-23T11:03:48.0001518Z Region: us-east-1
+build	Set up job	2026-11-23T11:03:48.0002011Z Cloud: AWS
+build	Set up job	2026-11-23T11:03:48.0002565Z ##[endgroup]
+build	Set up job	2026-11-23T11:03:48.0004378Z ##[group]Operating System
+build	Set up job	2026-11-23T11:03:48.0005032Z Ubuntu
+build	Set up job	2026-11-23T11:03:48.0005524Z 26.04.1
+build	Set up job	2026-11-23T11:03:48.0006324Z LTS
+build	Set up job	2026-11-23T11:03:48.0006825Z ##[endgroup]
+build	Set up job	2026-11-23T11:03:48.0007350Z ##[group]Runner Image
+build	Set up job	2026-11-23T11:03:48.0007972Z Image: ubuntu-26.04
+build	Set up job	2026-11-23T11:03:48.0008519Z Version: 20261116.88.1
+build	Set up job	2026-11-23T11:03:48.0009576Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.88/images/ubuntu/Ubuntu2604-Readme.md
+build	Set up job	2026-11-23T11:03:48.0011347Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.88
+build	Set up job	2026-11-23T11:03:48.0012286Z ##[endgroup]
+build	Set up job	2026-11-23T11:03:48.0013592Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2026-11-23T11:03:48.0015865Z Contents: read
+build	Set up job	2026-11-23T11:03:48.0016533Z Metadata: read
+build	Set up job	2026-11-23T11:03:48.0017045Z ##[endgroup]
+build	Set up job	2026-11-23T11:03:48.0019150Z Secret source: Actions
+build	Set up job	2026-11-23T11:03:48.0019989Z Cache mode: write
+build	Set up job	2026-11-23T11:03:48.0020839Z Prepare workflow directory
+build	Set up job	2026-11-23T11:03:48.0508747Z Prepare all required actions
+build	Set up job	2026-11-23T11:03:48.0545917Z Getting action download info
+build	Set up job	2026-11-23T11:03:48.2070994Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+build	Set up job	2026-11-23T11:03:49.9259843Z Download action repository 'actions/setup-node@v7' (SHA:949feb2413d6458794dcd2491c4babbbce0c15c1)
+build	Set up job	2026-11-23T11:03:50.0693820Z Download action repository 'actions/configure-pages@v6' (SHA:45bfe0192ca1faeb007ade9deae92b16b8254a0d)
+build	Set up job	2026-11-23T11:03:50.1816441Z Download action repository 'actions/upload-pages-artifact@v5' (SHA:fc324d3547104276b827a68afc52ff2a11cc49c9)
+build	Set up job	2026-11-23T11:03:50.3614660Z Getting action download info
+build	Set up job	2026-11-23T11:03:50.4335105Z Download action repository 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f' (SHA:bbbca2ddaa5d8feaa63e36b76fdaad77386f024f)
+build	Set up job	2026-11-23T11:03:50.6100650Z Complete job name: build
+build	Run actions/checkout@v6	﻿2026-11-23T11:03:50.6890480Z ##[group]Run actions/checkout@v6
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6891605Z with:
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6892351Z   persist-credentials: false
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6893612Z   repository: ahimanikya/project-odisha
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6901017Z   token: ***
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6901793Z   ssh-strict: true
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6902574Z   ssh-user: git
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6903459Z   clean: true
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6904305Z   sparse-checkout-cone-mode: true
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6905234Z   fetch-depth: 1
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6905999Z   fetch-tags: false
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6906945Z   show-progress: true
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6907792Z   lfs: false
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6908608Z   submodules: false
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6909425Z   set-safe-directory: true
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6910327Z   allow-unsafe-pr-checkout: false
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6911424Z env:
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6912167Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6913307Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Run actions/checkout@v6	2026-11-23T11:03:50.6914255Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7350852Z Syncing repository: ahimanikya/project-odisha
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7353231Z ##[group]Getting Git version info
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7353973Z Working directory is '/home/runner/work/project-odisha/project-odisha'
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7355143Z [command]/usr/bin/git version
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7355602Z git version 2.56.1
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7364656Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7375917Z Temporarily overriding HOME='/home/runner/work/_temp/00e1e696-b2bf-46ea-8d4c-0c3159d1494f' before making global git config changes
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7377276Z Adding repository directory to the temporary git global config as a safe directory
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7379736Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/project-odisha/project-odisha
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7880518Z Deleting the contents of '/home/runner/work/project-odisha/project-odisha'
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7884174Z ##[group]Determining repository object format
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7886265Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7886931Z ##[group]Initializing the repository
+build	Run actions/checkout@v6	2026-11-23T11:03:53.7891516Z [command]/usr/bin/git init /home/runner/work/project-odisha/project-odisha
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8809133Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8809960Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8810502Z hint: to use in all of your new repositories, which will suppress this warning,
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8810974Z hint: call:
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8811256Z hint:
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8811666Z hint: 	git config --global init.defaultBranch <name>
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8812034Z hint:
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8812763Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8813468Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8813941Z hint:
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8814244Z hint: 	git branch -m <name>
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8814548Z hint:
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8814937Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8840019Z Initialized empty Git repository in /home/runner/work/project-odisha/project-odisha/.git/
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8848218Z [command]/usr/bin/git remote add origin https://github.com/ahimanikya/project-odisha
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8919482Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8920009Z ##[group]Disabling automatic garbage collection
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8922529Z [command]/usr/bin/git config --local gc.auto 0
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8944271Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8945335Z ##[group]Setting up auth
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8945944Z Removing SSH command configuration
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8949666Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Run actions/checkout@v6	2026-11-23T11:03:53.8970911Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Run actions/checkout@v6	2026-11-23T11:03:54.2882052Z Removing HTTP extra header
+build	Run actions/checkout@v6	2026-11-23T11:03:54.2889272Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Run actions/checkout@v6	2026-11-23T11:03:54.2913653Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3078112Z Removing includeIf entries pointing to credentials config files
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3082836Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3105007Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3279331Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3305094Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/project-odisha/project-odisha/.git.path /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3327859Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/project-odisha/project-odisha/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3355742Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3376770Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3401431Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3401947Z ##[group]Fetching the repository
+build	Run actions/checkout@v6	2026-11-23T11:03:54.3403349Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +553786bccb8e1502ea02d453d67cd836e02e853c:refs/remotes/origin/main
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7654109Z From https://github.com/ahimanikya/project-odisha
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7654791Z  * [new ref]           553786bccb8e1502ea02d453d67cd836e02e853c -> origin/main
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7663768Z [command]/usr/bin/git branch --list --remote origin/main
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7683579Z   origin/main
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7689663Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7709223Z 553786bccb8e1502ea02d453d67cd836e02e853c
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7712877Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7713504Z ##[group]Determining the checkout info
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7714057Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7718790Z [command]/usr/bin/git sparse-checkout disable
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7753974Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7843617Z ##[group]Checking out the ref
+build	Run actions/checkout@v6	2026-11-23T11:05:00.7854277Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build	Run actions/checkout@v6	2026-11-23T11:05:01.7956535Z Updating files:   9% (1997/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:01.8274099Z Updating files:  10% (1998/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:01.8574619Z Updating files:  11% (2198/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:01.9270863Z Updating files:  12% (2397/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:01.9464230Z Updating files:  13% (2597/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:01.9726884Z Updating files:  14% (2797/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.0351826Z Updating files:  15% (2997/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.0757647Z Updating files:  16% (3196/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.0864529Z Updating files:  17% (3396/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.0949904Z Updating files:  18% (3596/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.1026910Z Updating files:  19% (3796/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.1163461Z Updating files:  20% (3995/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.1622142Z Updating files:  21% (4195/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.1732973Z Updating files:  22% (4395/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.1869259Z Updating files:  23% (4595/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.1964615Z Updating files:  24% (4794/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.2058810Z Updating files:  25% (4994/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.2136113Z Updating files:  26% (5194/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.7595399Z Updating files:  27% (5393/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:02.7970441Z Updating files:  28% (5593/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.0661960Z Updating files:  28% (5624/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.0831768Z Updating files:  29% (5793/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.0978212Z Updating files:  30% (5993/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1573179Z Updating files:  31% (6192/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1615239Z Updating files:  32% (6392/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1664297Z Updating files:  33% (6592/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1714142Z Updating files:  34% (6792/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1756023Z Updating files:  35% (6991/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1813369Z Updating files:  36% (7191/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.1898112Z Updating files:  37% (7391/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.3822377Z Updating files:  38% (7591/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.4005925Z Updating files:  39% (7790/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.4186946Z Updating files:  40% (7990/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.4407919Z Updating files:  41% (8190/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.4714543Z Updating files:  42% (8390/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.4823320Z Updating files:  43% (8589/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.4964958Z Updating files:  44% (8789/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.5081428Z Updating files:  45% (8989/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.5357200Z Updating files:  46% (9189/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.5865602Z Updating files:  47% (9388/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.6209875Z Updating files:  48% (9588/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.7094721Z Updating files:  49% (9788/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.7964217Z Updating files:  50% (9987/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:03.9011399Z Updating files:  50% (10101/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:04.0760069Z Updating files:  51% (10187/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:04.0893119Z Updating files:  52% (10387/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:04.1016829Z Updating files:  53% (10587/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:04.8055647Z Updating files:  54% (10786/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:04.9934984Z Updating files:  54% (10969/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:05.8083034Z Updating files:  55% (10986/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:06.8090365Z Updating files:  55% (11051/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:07.5967415Z Updating files:  55% (11130/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:07.8116047Z Updating files:  56% (11186/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:08.8042575Z Updating files:  56% (11199/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:09.8126321Z Updating files:  56% (11262/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:10.7989453Z Updating files:  56% (11323/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:10.8581958Z Updating files:  56% (11382/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:11.8055957Z Updating files:  57% (11386/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1075730Z Updating files:  57% (11444/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1158452Z Updating files:  58% (11585/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1220676Z Updating files:  59% (11785/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1375799Z Updating files:  60% (11985/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1453420Z Updating files:  61% (12185/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1524279Z Updating files:  62% (12384/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1601926Z Updating files:  63% (12584/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.1894160Z Updating files:  64% (12784/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2079017Z Updating files:  65% (12984/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2219534Z Updating files:  66% (13183/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2334316Z Updating files:  67% (13383/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2484086Z Updating files:  68% (13583/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2521320Z Updating files:  69% (13783/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2558159Z Updating files:  70% (13982/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2648539Z Updating files:  71% (14182/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2681214Z Updating files:  72% (14382/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2711730Z Updating files:  73% (14582/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2758318Z Updating files:  74% (14781/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2794666Z Updating files:  75% (14981/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2822084Z Updating files:  76% (15181/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2860893Z Updating files:  77% (15380/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2898008Z Updating files:  78% (15580/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.2930801Z Updating files:  79% (15780/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.3221599Z Updating files:  80% (15980/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.3473740Z Updating files:  81% (16179/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.3692858Z Updating files:  82% (16379/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.3904890Z Updating files:  83% (16579/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:12.9391510Z Updating files:  84% (16779/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:14.0001264Z Updating files:  84% (16799/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.0269456Z Updating files:  84% (16807/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.5583949Z Updating files:  84% (16811/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.6077544Z Updating files:  85% (16978/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.6666985Z Updating files:  86% (17178/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.7491383Z Updating files:  87% (17378/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.8061447Z Updating files:  88% (17578/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:15.8237020Z Updating files:  88% (17687/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:16.0141416Z Updating files:  89% (17777/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:16.5679942Z Updating files:  90% (17977/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:16.7966029Z Updating files:  91% (18177/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.1087183Z Updating files:  91% (18223/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.5314603Z Updating files:  92% (18377/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.7665260Z Updating files:  93% (18576/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.7733368Z Updating files:  94% (18776/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.7828247Z Updating files:  95% (18976/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.7878732Z Updating files:  96% (19176/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.7927773Z Updating files:  97% (19375/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.7947775Z Updating files:  98% (19575/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:17.8407039Z Updating files:  98% (19652/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:18.1859407Z Updating files:  99% (19775/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:18.1860037Z Updating files: 100% (19974/19974)
+build	Run actions/checkout@v6	2026-11-23T11:05:18.1860337Z Updating files: 100% (19974/19974), done.
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2456652Z Switched to a new branch 'main'
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2458938Z branch 'main' set up to track 'origin/main'.
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2768689Z ##[endgroup]
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2802967Z [command]/usr/bin/git log -1 --format=%H
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2823266Z 553786bccb8e1502ea02d453d67cd836e02e853c
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2830699Z ##[group]Removing auth
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2831297Z Removing SSH command configuration
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2833671Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Run actions/checkout@v6	2026-11-23T11:05:18.2855969Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3060899Z Removing HTTP extra header
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3064481Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3086006Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3280133Z Removing includeIf entries pointing to credentials config files
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3282310Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3298741Z includeif.gitdir:/home/runner/work/project-odisha/project-odisha/.git.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3299748Z includeif.gitdir:/home/runner/work/project-odisha/project-odisha/.git/worktrees/*.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3300593Z includeif.gitdir:/github/workspace/.git.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3301244Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3308929Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/project-odisha/project-odisha/.git.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3323599Z /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3329514Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/project-odisha/project-odisha/.git.path /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3401085Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/project-odisha/project-odisha/.git/worktrees/*.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3421782Z /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3426825Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/project-odisha/project-odisha/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.3991900Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4009054Z /github/runner_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4017482Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4054137Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4068145Z /github/runner_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4073762Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4471601Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4664857Z Removing credentials config '/home/runner/work/_temp/git-credentials-d075007c-86ed-40c4-af77-f1c411944896.config'
+build	Run actions/checkout@v6	2026-11-23T11:05:18.4670299Z ##[endgroup]
+build	Run actions/setup-node@v7	﻿2026-11-23T11:05:18.4918621Z ##[group]Run actions/setup-node@v7
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4918903Z with:
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4919160Z   node-version: 24
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4919385Z   cache: npm
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4919670Z   cache-dependency-path: projects/site/package-lock.json
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4920052Z   check-latest: false
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4922445Z   token: ***
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4922893Z   package-manager-cache: true
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4923157Z env:
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4923378Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4923656Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.4923945Z ##[endgroup]
+build	Run actions/setup-node@v7	2026-11-23T11:05:18.6926472Z Found in cache @ /opt/hostedtoolcache/node/24.22.3/x64
+build	Run actions/setup-node@v7	2026-11-23T11:05:20.0714574Z ##[group]Environment details
+build	Run actions/setup-node@v7	2026-11-23T11:05:22.6679027Z node: v24.22.3
+build	Run actions/setup-node@v7	2026-11-23T11:05:22.6679520Z npm: 11.19.1
+build	Run actions/setup-node@v7	2026-11-23T11:05:22.6679951Z yarn: 1.22.22
+build	Run actions/setup-node@v7	2026-11-23T11:05:22.6680578Z ##[endgroup]
+build	Run actions/setup-node@v7	2026-11-23T11:05:22.6690614Z [command]/opt/hostedtoolcache/node/24.22.3/x64/bin/npm config get cache
+build	Run actions/setup-node@v7	2026-11-23T11:05:22.9786638Z /home/runner/.npm
+build	Run actions/setup-node@v7	2026-11-23T11:05:23.0953480Z Cache hit for: node-cache-Linux-x64-npm-faaee1cc539078c72703f15631cb529de7b3c41327528d35b740cd9c235e9302
+build	Run actions/setup-node@v7	2026-11-23T11:05:23.8646838Z Received 101769104 of 101769104 (100.0%), 144.6 MBs/sec
+build	Run actions/setup-node@v7	2026-11-23T11:05:23.8647425Z Cache Size: ~97 MB (101769104 B)
+build	Run actions/setup-node@v7	2026-11-23T11:05:23.8693677Z [command]/usr/bin/tar -xf /home/runner/work/_temp/6df7aa6c-2805-413b-807d-9489cf4c2cf7/cache.tzst -P -C /home/runner/work/project-odisha/project-odisha --use-compress-program unzstd
+build	Run actions/setup-node@v7	2026-11-23T11:05:23.9676557Z Cache restored successfully
+build	Run actions/setup-node@v7	2026-11-23T11:05:23.9716882Z Cache restored from key: node-cache-Linux-x64-npm-faaee1cc539078c72703f15631cb529de7b3c41327528d35b740cd9c235e9302
+build	Run actions/configure-pages@v6	﻿2026-11-23T11:05:23.9883653Z ##[group]Run actions/configure-pages@v6
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9883980Z with:
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9886405Z   token: ***
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9886632Z   enablement: false
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9886891Z env:
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9887109Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9887420Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Run actions/configure-pages@v6	2026-11-23T11:05:23.9887713Z ##[endgroup]
+build	Run npm ci	﻿2026-11-23T11:05:24.3601478Z ##[group]Run npm ci
+build	Run npm ci	2026-11-23T11:05:24.3601807Z ^[[36;1mnpm ci^[[0m
+build	Run npm ci	2026-11-23T11:05:24.3934635Z shell: /usr/bin/bash -e {0}
+build	Run npm ci	2026-11-23T11:05:24.3934927Z env:
+build	Run npm ci	2026-11-23T11:05:24.3935244Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Run npm ci	2026-11-23T11:05:24.3935581Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Run npm ci	2026-11-23T11:05:24.3935880Z   GITHUB_PAGES: true
+build	Run npm ci	2026-11-23T11:05:24.3936107Z ##[endgroup]
+build	Run npm ci	2026-11-23T11:05:38.3726501Z 
+build	Run npm ci	2026-11-23T11:05:38.3732875Z added 279 packages, and audited 280 packages in 14s
+build	Run npm ci	2026-11-23T11:05:38.3733313Z 
+build	Run npm ci	2026-11-23T11:05:38.3733538Z 77 packages are looking for funding
+build	Run npm ci	2026-11-23T11:05:38.3734135Z   run `npm fund` for details
+build	Run npm ci	2026-11-23T11:05:38.5533518Z 
+build	Run npm ci	2026-11-23T11:05:38.5534383Z 10 vulnerabilities (1 moderate, 9 high)
+build	Run npm ci	2026-11-23T11:05:38.5534919Z 
+build	Run npm ci	2026-11-23T11:05:38.5535137Z To address issues that do not require attention, run:
+build	Run npm ci	2026-11-23T11:05:38.5535531Z   npm audit fix
+build	Run npm ci	2026-11-23T11:05:38.5535694Z 
+build	Run npm ci	2026-11-23T11:05:38.5535902Z To address all issues (including breaking changes), run:
+build	Run npm ci	2026-11-23T11:05:38.5536379Z   npm audit fix --force
+build	Run npm ci	2026-11-23T11:05:38.5536548Z 
+build	Run npm ci	2026-11-23T11:05:38.5536698Z Run `npm audit` for details.
+build	Run npm ci	2026-11-23T11:05:38.5541856Z npm warn install-scripts 3 packages have install scripts not yet covered by allowScripts:
+build	Run npm ci	2026-11-23T11:05:38.5542907Z npm warn install-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+build	Run npm ci	2026-11-23T11:05:38.5543546Z npm warn install-scripts   esbuild@0.28.2 (postinstall: node install.js)
+build	Run npm ci	2026-11-23T11:05:38.5544141Z npm warn install-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+build	Run npm ci	2026-11-23T11:05:38.5544594Z npm warn install-scripts
+build	Run npm ci	2026-11-23T11:05:38.5545477Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+build	Verify release PDF delivery guards	﻿2026-11-23T11:05:38.5974163Z ##[group]Run python3 tests/test_dhaga_pdf_delivery.py
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5974608Z ^[[36;1mpython3 tests/test_dhaga_pdf_delivery.py^[[0m
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5992983Z shell: /usr/bin/bash -e {0}
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5993273Z env:
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5993571Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5993891Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5994232Z   GITHUB_PAGES: true
+build	Verify release PDF delivery guards	2026-11-23T11:05:38.5994472Z ##[endgroup]
+build	Verify release PDF delivery guards	2026-11-23T11:05:39.8182043Z ..............
+build	Verify release PDF delivery guards	2026-11-23T11:05:39.8182912Z ----------------------------------------------------------------------
+build	Verify release PDF delivery guards	2026-11-23T11:05:39.8183503Z Ran 14 tests in 1.039s
+build	Verify release PDF delivery guards	2026-11-23T11:05:39.8183682Z 
+build	Verify release PDF delivery guards	2026-11-23T11:05:39.8183804Z OK
+build	Hydrate exact reviewed Dhaga release PDF	﻿2026-11-23T11:05:39.8353976Z ##[group]Run python3 tools/verify-dhaga-pdf.py --descriptor ../odia-dhaga/pdf-delivery.json --packing ../odia-dhaga/packing-report.json --target ../odia-dhaga/odia-dhaga-book.pdf
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8355244Z ^[[36;1mpython3 tools/verify-dhaga-pdf.py --descriptor ../odia-dhaga/pdf-delivery.json --packing ../odia-dhaga/packing-report.json --target ../odia-dhaga/odia-dhaga-book.pdf^[[0m
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8373427Z shell: /usr/bin/bash -e {0}
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8373765Z env:
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8374038Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8374334Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8374680Z   GITHUB_PAGES: true
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8374936Z   RUN_AUTHORIZED_PDF_HYDRATION: 1
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.8375209Z ##[endgroup]
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9270583Z Traceback (most recent call last):
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9275213Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 100, in <module>
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9276828Z     if __name__=='__main__':main()
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9277634Z                             ~~~~^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9279199Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 99, in main
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9280316Z     print(json.dumps(hydrate(d,packing,a.target)))
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9280923Z                      ~~~~~~~^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9281765Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 70, in hydrate
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9283089Z     release=api('/releases/'+str(d['release_id']),'release.json')
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9284071Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 69, in api
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9285281Z     out=td/name;fetch('https://api.github.com/repos/'+d['repository']+suffix,out,8*1024*1024);return json.loads(out.read_text())
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9286199Z                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9287080Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 61, in curl
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9288331Z     need(a.returncode==0 and a.stdout.strip()=='200',f'Anonymous HTTP download failed: exit={a.returncode}, status={a.stdout.strip()}')
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9289274Z     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9290220Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 8, in need
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9291030Z     if not ok: raise ValueError(message)
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9291514Z                ^^^^^^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9292155Z ValueError: Anonymous HTTP download failed: exit=22, status=403
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-23T11:05:39.9428118Z ##[error]Process completed with exit code 1.
+build	Post Run actions/checkout@v6	﻿2026-11-23T11:05:39.9560167Z Post job cleanup.
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0207893Z [command]/usr/bin/git version
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0238734Z git version 2.56.1
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0264286Z Temporarily overriding HOME='/home/runner/work/_temp/277cce2c-b015-4d06-b288-d77a21068420' before making global git config changes
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0265763Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0267230Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/project-odisha/project-odisha
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0290665Z Removing SSH command configuration
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0295811Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0319942Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0515866Z Removing HTTP extra header
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0519757Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0541673Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0753978Z Removing includeIf entries pointing to credentials config files
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0754832Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Post Run actions/checkout@v6	2026-11-23T11:05:40.0767556Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Complete job	﻿2026-11-23T11:05:40.1078182Z Cleaning up orphan processes

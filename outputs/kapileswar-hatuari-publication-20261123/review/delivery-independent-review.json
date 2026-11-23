@@ -1,0 +1,76 @@
+{
+  "reviewer": "Drishti, separate task-scoped AI reviewer",
+  "reviewed_at": "2026-11-23T11:39:53.608713+00:00",
+  "result": "PASS \u2014 actual bounded live delivery",
+  "release_head": "553786bccb8e1502ea02d453d67cd836e02e853c",
+  "reviewed_candidate_head": "96a29b718417d66d59c27de5ba3b56509b731e48",
+  "article_source_sha256": "14976a20d76e8e3a299553eb391fa193f6063846f01bbceaac65964227256330",
+  "fresh_verification": "live-independent/verification.json",
+  "verification_sha256": "9fc4b0cac4bf58639d23da5173cc21442045d4781a7554cf18e9123c35a125db",
+  "observed_checks": [
+    "Fresh independent HTTPS fetch of4live routes:article,History,Kapilash,Explore;all HTTP200",
+    "All3incoming links reach the article",
+    "Normalized main article text exactly matches reviewed build;8notes,10reference markers;all source/backlink fragment targets resolve",
+    "All36main-article links match reviewed local article in order",
+    "Photo author/source/CC BY-SA4.0/date/change credit and sharing metadata are present",
+    "Both tracked Hatuari images and generated responsive discovery image fetched independently and match local reviewed bytes exactly",
+    "Viewed fetched480px generated preview:full temple,tree,Nandi and embankment retained;no encoding/URL difference observed",
+    "Independently queried GitHub CI45157190629 and deployment45161698364attempt2;both completed successfully on expected heads",
+    "Read actual hosted payload logs:999720504bytes,3647files,PASS,279496bytes below exclusive limit"
+  ],
+  "images": [
+    {
+      "url": "/images/kapileswar-hatuari/kapileswar-anup525-864.webp",
+      "bytes": 135168,
+      "sha256": "320d2af806bd8322718f49ce0f5f6f99bc469f022625e1786ef2c174893d8a5b",
+      "local_sha256": "320d2af806bd8322718f49ce0f5f6f99bc469f022625e1786ef2c174893d8a5b",
+      "byte_equal": true,
+      "saved": "6ec2adbdff1c-kapileswar-anup525-864.webp"
+    },
+    {
+      "url": "/images/kapileswar-hatuari/kapileswar-anup525-480.webp",
+      "bytes": 42158,
+      "sha256": "7f1fea26716a26c39a853db86d9d14f088776b52d4185c97b15b94599b7297d3",
+      "local_sha256": "7f1fea26716a26c39a853db86d9d14f088776b52d4185c97b15b94599b7297d3",
+      "byte_equal": true,
+      "saved": "e9912eb66d0a-kapileswar-anup525-480.webp"
+    },
+    {
+      "url": "/images/responsive/20faeb931f60910f-480.webp",
+      "bytes": 49232,
+      "sha256": "20faeb931f60910f4d3781d753ee0d623a327155ced2e7a0a47acb3d4aa55365",
+      "local_sha256": "20faeb931f60910f4d3781d753ee0d623a327155ced2e7a0a47acb3d4aa55365",
+      "byte_equal": true,
+      "saved": "4093cfcdcaeb-20faeb931f60910f-480.webp"
+    }
+  ],
+  "article_text": {
+    "normalization": "HTML text extraction excluding scripts/styles; NFC and whitespace only",
+    "exact_normalized_match": true,
+    "local_sha256": "8faaa45414945ff7649fd39d33fe3d97a9a98b230bfc1da460f1cd0344e153e7",
+    "live_sha256": "8faaa45414945ff7649fd39d33fe3d97a9a98b230bfc1da460f1cd0344e153e7"
+  },
+  "deployment_history": {
+    "ci": {
+      "run": 45157190629,
+      "head": "96a29b718417d66d59c27de5ba3b56509b731e48",
+      "conclusion": "success"
+    },
+    "deployment": {
+      "run": 45161698364,
+      "attempt": 2,
+      "head": "553786bccb8e1502ea02d453d67cd836e02e853c",
+      "build": "success",
+      "deploy": "success"
+    },
+    "attempt1": "Preserved log shows HTTP403 during anonymous release-metadata request before artifact upload;deployment skipped. No rate-limit or other underlying cause inferred. Unchanged-head attempt2 succeeded."
+  },
+  "limits": [
+    "Not human or archaeological-specialist review; historical uncertainties remain explicit",
+    "Fresh browser interaction/screenshots belong to coordinator review, not repeated by this reviewer",
+    "Verified article and3incoming routes plus3Hatuari assets,not every asset or route sitewide",
+    "Article text normalization covers NFC/whitespace only;complete shared shell byte identity not required",
+    "Hosted bytes differ from local package measurement;actual hosted log is used for deployment capacity",
+    "Reviewed receipt integration and actual scope handoff still required to release the publication slot"
+  ]
+}
