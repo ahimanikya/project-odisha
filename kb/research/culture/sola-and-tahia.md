@@ -5,7 +5,7 @@ author: "Ahimanikya Satapathy"
 subjects: ["arts", "craft", "Odissi", "sola", "tahia"]
 aliases: ["sola", "shola", "sholapith", "solapith", "tahia", "ସୋଲ", "ତାହିଆ"]
 type: "Material craft essay"
-status: "publication_candidate"
+status: "published"
 human_review_claimed: false
 publication_authorized: true
 ---

@@ -2,8 +2,8 @@
   "article_id": "POD-EDIT-SOLA-20261123",
   "owner": "Disha",
   "started_on": "2026-11-23",
-  "status": "ready_for_publication_checks",
-  "scope_released": false,
+  "status": "published_verified",
+  "scope_released": true,
   "authorization": "POD-DEC-2026112302",
   "work_id": "POD-WORK-2026112302",
   "authorization_quote": "Once Gandhamardan’s release is complete, integrate and publish the Sola and Odissi Tahia article with the credited image, links from relevant existing articles, and mobile and desktop layout checks.",
@@ -69,7 +69,7 @@
     "browser_target": "Baseline Widely available"
   },
   "preserved_foreign_task": "POD-EDIT-133",
-  "next_action": "Commit reviewed candidate, obtain exact-commit review and successful hosted checks, then merge and publish under existing Founder authorization.",
+  "next_action": "Merge reviewed evidence-only receipt after required checks, then explicitly return the slot for Belghar–Tumudibandha.",
   "source_continuity": {
     "reviewer": "Anvesha",
     "kind": "separate_ai_agent",
@@ -97,9 +97,10 @@
   "image_delivery": {
     "record": "outputs/sola-publication-20261123/media/delivery-image.json",
     "projection_bytes": 316512,
-    "projection_only": true,
+    "projection_only": false,
     "root_visual_review": "Original preparation inspected previously; fullframe1200px WebP inspected now. Petals, buds, hands and worktable retained.",
-    "limits": "Lossy resized/compressed derivative; original retained. Final package/Linux/live pending."
+    "limits": "Lossy resized/compressed derivative; original retained. Hosted package and live bytes verified; encoding differences independently measured and visually reviewed.",
+    "actual_linux_gate": "PASS in publication CI and deployment, both999002101bytes/3633files"
   },
   "capacity_review": {
     "status": "pass",
@@ -115,7 +116,7 @@
     },
     "preservation": "Full frame; repository/coastal original unchanged; ICC/IPTC/XMP byte-identical. EXIF changed116→206bytes; absent orientation normalized1. No pixel-identical claim.",
     "root_visual_review": "Original and derivative inspected at850px fullframe; no material visible loss at that reading size.",
-    "actual_linux_gate": "pending",
+    "actual_linux_gate": "PASS in requiredCI45086332194attempt2",
     "diagnosis_history": "No-resizequality95 candidate was3999255B, larger than3122908B original; rejected. Six other losslessPNG diagnostics recorded; none added.",
     "evidence": "outputs/sola-publication-20261123/review/source-media-capacity-review.json",
     "final_local_payload_bytes": 998219974,
@@ -264,9 +265,9 @@
   "quality_review": {
     "reviewer": "Drishti",
     "kind": "separate_ai_agent",
-    "status": "source_media_code_rendered_package_pass",
+    "status": "source_media_code_rendered_package_live_pass",
     "evidence": "outputs/sola-publication-20261123/review/source-media-capacity-review.json",
-    "pending": "Exact commit, hosted CI and actual live delivery."
+    "pending": "Final integrated receipt and exact-commit review, required receipt CI and actual merge."
   },
   "browser_review": {
     "result": "pass",
@@ -274,7 +275,7 @@
     "evidence": "outputs/sola-publication-20261123/local/browser-verification.json",
     "independent_review": "outputs/sola-publication-20261123/review/local-rendered-review.json",
     "scope": "1440desktop/390mobile article and both incoming previews, native note click and keyboard return, incoming card navigation. Corrected12marker verified singleline.",
-    "limits": "Chromium simulation only; prior incomplete framing preserved and excluded. mobile-credit screenshot shows caption; note navigation proved byDOM and complete notevisibleinfullpage. Hindola finalpackage reviewpending.",
+    "limits": "Chromium simulation only; prior incomplete framing preserved and excluded. Local mobile-credit capture showed caption; note navigation proved by DOM and fullpage. Final Hindola package review separately passed.",
     "hindola_package": "Actual1517×2048 delivery checked desktop1440/mobile390. Fullframe mobile screenshot and fullpage desktop retain frame; desktop viewport topedge framing limit recorded. No mobile overflow."
   },
   "final_package_review": {
@@ -286,6 +287,140 @@
     "files": 3633,
     "routes": 4,
     "images": 20,
-    "limits": "Local package only.47 other chapters verified as source data, not full rendered-page equivalence. Exact committed version, hosted CI and live delivery remain."
+    "limits": "Historical local package review snapshot:47 other chapters checked as source data, not full rendered-page equivalence. Subsequent exact-head, hosted and live evidence is recorded separately below."
+  },
+  "publication": {
+    "pr": 840,
+    "reviewed_head": "66f1937c2d075146ec83b06164f3dbe28e55ea06",
+    "exact_head_review": "Separate Drishti read-only PASS;12source/12evidencehashes match, clean committedtree and accuratependingpublicationstatus.",
+    "ci_run": 45086332194,
+    "ci_attempt": 2,
+    "ci_conclusion": "success",
+    "initial_ci_failure": {
+      "attempt": 1,
+      "cause": "Existing anonymous Dhaga release API download HTTP403; article build not reached. Unchanged retry passed.",
+      "evidence": "outputs/sola-publication-20261123/live/ci-attempt1-failure.log"
+    },
+    "merge_commit": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "merged_at": "2026-11-23T00:36:13Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45089745640,
+    "deployment_head": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "capacity": {
+    "actual_linux_ci_bytes": 999002101,
+    "files": 3633,
+    "remaining_bytes": 997899,
+    "bounded_optimizer_change": "One existing Hindola Raga JPEG delivery derivative; source original unchanged, alterations and metadata limits recorded.",
+    "actual_deployment_bytes": 999002101
+  },
+  "deployment": {
+    "run": 45089745640,
+    "source_sha": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999002101,
+    "files": 3633
+  },
+  "completed_at": "2026-11-23T01:14:02.856861+00:00",
+  "pull_request": 840,
+  "verified_routes": [
+    "/stories/sola-and-odissi-tahia/",
+    "/stories/odissi-abhinaya/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/",
+    "/stories/jhulana-in-odisha/"
+  ],
+  "live_verification": {
+    "evidence": "outputs/sola-publication-20261123/live/live-http.json",
+    "routes": 4,
+    "images": 20,
+    "byte_equal_images": 16,
+    "article_match": "All four article fragments match after only three directly observed responsive image URL substitutions; Jhulana is exact. No prose, credit or layout markup changes.",
+    "public_base_image_exact": true,
+    "image_comparison": "outputs/sola-publication-20261123/live/image-comparison.json",
+    "differences": [
+      {
+        "image": "/images/responsive/a375b1fe80e6c613-960.webp",
+        "dimensions": [
+          960,
+          641
+        ],
+        "changed_pixels": 192069,
+        "maximum_channel_delta": 21,
+        "mean_channel_delta": 0.6354973782284624
+      },
+      {
+        "image": "/images/responsive/8286bb5f7fcbd265-960.webp",
+        "dimensions": [
+          960,
+          691
+        ],
+        "changed_pixels": 60906,
+        "maximum_channel_delta": 27,
+        "mean_channel_delta": 0.16575363804470172
+      },
+      {
+        "image": "/images/responsive/f4e4108ab5b2cde9-480.webp",
+        "dimensions": [
+          480,
+          582
+        ],
+        "changed_pixels": 178763,
+        "maximum_channel_delta": 26,
+        "mean_channel_delta": 1.4936044291714394
+      },
+      {
+        "image": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "dimensions": [
+          1517,
+          2048
+        ],
+        "changed_pixels": 606955,
+        "maximum_channel_delta": 15,
+        "mean_channel_delta": 0.21246854228466272
+      }
+    ],
+    "acceptance": "Disha, Samanta and separate Drishti visually inspected all four full-frame comparisons; no material visible loss at inspected display scale. Separate Drishti decoded measurements match. No cause inferred and no pixel-identical claim; raw REVIEW_DIFFERENCES retained."
+  },
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/sola-publication-20261123/live/browser-verification.json",
+    "meaningful_screenshots": 12,
+    "result": "pass",
+    "limits": "Chromium desktop1440/mobile390 simulation only. Native credit click, settled visible attribution and keyboard return verified; both incoming cards opened Sola. One premature chapter screenshot excluded; final clear capture used. Sola desktop viewport ends near caption, fullpage includes article. Hindola full frame visible; desktop caption continues beyond viewport, fullpage and mobile retain it."
+  },
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass_with_limitations",
+    "evidence": "outputs/sola-publication-20261123/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Public article, images, incoming links and bounded delivery change already deployed from reviewed publication merge. This receipt records actual delivery and internal status/views; public article body is unchanged.",
+    "required_gates": [
+      "Separate final receipt review",
+      "Exact committed receipt review",
+      "Project-required CI",
+      "Actual merge and explicit next-slot handoff"
+    ],
+    "final_review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_agent",
+      "result": "pass",
+      "evidence": "outputs/sola-publication-20261123/review/final-receipt-review.json",
+      "scope": "Actual integrated delivery evidence and internal status reviewed; website source/manuscript body/original media/foreign ownership preserved. Exact committed review, required receipt CI and actual merge remain."
+    }
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Explicit return to hill-series chat for Belghar–Tumudibandha follows observed merge.",
+  "next_slot": {
+    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "article": "Belghar–Tumudibandha",
+    "condition": "After reviewed Sola receipt merge and explicit return; no next article claimed here."
   }
 }
