@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1373. blocked: 1, completed: 237, excluded: 872, queued: 263.
+Route inventory: 1374. blocked: 1, completed: 237, excluded: 872, in_progress: 1, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1397,3 +1397,4 @@ Route inventory: 1373. blocked: 1, completed: 237, excluded: 872, queued: 263.
 | POD-EDIT-KAPILASH-20261123 | [Kapilash: A Hill Shrine and an Older Temple’s Trace](https://projectodisha.org/destinations/kapilash/) | completed | Hill shrine destination article with high-quality credited article/preview image; zero programme credit. |
 | POD-EDIT-GANDHAMARDAN-20261123 | [Gandhamardan: Two Shrines and a Living Forest](https://projectodisha.org/destinations/gandhamardan/) | completed | Hill destination with credited high-quality article/preview image; zero programme credit. |
 | POD-EDIT-SOLA-20261123 | [Sola: The Craft Behind an Odissi Tahia](https://projectodisha.org/stories/sola-and-odissi-tahia/) | completed | Reviewed original article publication with credited image, incoming links and desktop/mobile checks; zero programme credit. |
+| POD-EDIT-BELGHAR-TUMUDIBANDHA-20261123 | [Belghar: Forest and a Wooden Bungalow](https://projectodisha.org/destinations/belghar-tumudibandha/) | in_progress | Hill and forest destination article with credited high-quality article/preview image; zero programme credit. |

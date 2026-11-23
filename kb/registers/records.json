@@ -10565,6 +10565,24 @@
       "evidence": [
         "records/sola-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112393",
+      "title": "Research, review and publish Belghar–Tumudibandha",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112297",
+      "next_action": "Integrate explicitly approved landscape illustration, finish source/media/layout and release checks, publish, verify live and merge reviewed receipt before reserved cross-chat preparation handoff.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/belghar-tumudibandha-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -25525,6 +25543,29 @@
         "Separate AI review, not human specialist approval or field verification.",
         "Chromium viewport simulation and saved screenshot review; native interactions operated by Disha.",
         "Four live image encodings differ from local bytes and pixels; dimensions/framing preserved, measurements and visual acceptance recorded, no cause asserted."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112393",
+      "title": "Belghar–Tumudibandha separate source, media and implementation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112393",
+        "POD-DEC-2026112297"
+      ],
+      "evidence": [
+        "records/belghar-tumudibandha-publication-20261123.json"
+      ],
+      "summary": "Separate integrated Anvesha source review and Drishti source/media/code review passed; root local builds,823full/599coast tests,5440acceptance and97delivery checks pass. Final independent package, remoteCI and live delivery remain required.",
+      "independent": true,
+      "limitations": [
+        "No human specialist, field or current-service verification.",
+        "Interpretive illustration is explicitly labelled and is not a documented viewpoint.",
+        "Remote CI, deployment and live delivery verification remain pending."
       ]
     }
   ],

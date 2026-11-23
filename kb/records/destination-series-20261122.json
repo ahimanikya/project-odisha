@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": "gandhamardan",
+  "current": "belghar-tumudibandha",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -124,7 +124,16 @@
     },
     {
       "slug": "belghar-tumudibandha",
-      "status": "queued"
+      "status": "in_progress",
+      "handoff": "records/belghar-tumudibandha-publication-20261123.json",
+      "reuse_before_research": [
+        "research/methods/trip-planning-content.md",
+        "research/places/daringbadi-article.md",
+        "research/places/mandasaru-article.md",
+        "research/references/data/research-queue.json:RES-010",
+        "research/references/data/research-queue.json:RES-014",
+        "research/references/data/research-queue.json:RES-023"
+      ]
     },
     {
       "slug": "kalinga-ghati",
@@ -141,11 +150,6 @@
   ],
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
-  "next_hill": "belghar-tumudibandha",
-  "coordination": "Gandhamardan live delivery verified. Its slot release is conditional on reviewed receipt merge and explicit Sola publication handoff; Belghar–Tumudibandha remains queued until the other chat returns the slot.",
-  "reserved_next_publication": {
-    "article": "Sola and Odissi Tahia",
-    "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-    "after": "Gandhamardan reviewed receipt merge and explicit handoff"
-  }
+  "next_hill": "kalinga-ghati",
+  "coordination": "Belghar–Tumudibandha retains sole article slot. After reviewed receipt actually merges, reserved Research Antaranga Kalinga preparation-only slot precedes Kalinga Ghati; no publication inferred for that draft."
 }
