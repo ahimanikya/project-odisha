@@ -18,7 +18,7 @@ The Oriya Homepage appears to have begun in 1995. I knew it during my IIT Bombay
 
 In an email dated 3 February 1998, I told him I had been “a silent observer of the page since sept 96.”
 
-![Debasmita Misra in the good old days.](https://projectodisha.org/images/stories/odia-homepage/image9.jpg)
+![Debasmita Misra in the good old days.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image9.jpg)
 
 Debasmita Misra in the good old days.
 
@@ -30,11 +30,11 @@ On 1 February I sent him a design plan. Before getting into the details, I asked
 
 I worked on a copy on my Linux PC and put it online for him to review. We agreed to tell each other what we were changing and leave notes with the files. The plan included simpler navigation, smaller images, fewer broken links and better ways for visitors to send us material.
 
-![The homepage before our redesign, 1997.](https://projectodisha.org/images/stories/odia-homepage/image2.jpg)
+![The homepage before our redesign, 1997.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image2.jpg)
 
    
 
-![The homepage before our redesign, 1997.](https://projectodisha.org/images/stories/odia-homepage/image8.jpg)
+![The homepage before our redesign, 1997.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image8.jpg)
 
 The homepage before our redesign, 1997.
 
@@ -44,11 +44,11 @@ Debasmita made graphics and commented on the look of the pages. I worked on the 
 
 On 6 March I asked him for a new background so the redesign would look different. He sent one on 9 March. After I suggested trying a light background colour, he sent a revised version on 10 March. Both files were still attached to the emails when I opened them again.
 
-![Two background designs from Debasmita, March 1998.](https://projectodisha.org/images/stories/odia-homepage/image10.JPG)
+![Two background designs from Debasmita, March 1998.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image10.JPG)
 
    
 
-![Two background designs from Debasmita, March 1998.](https://projectodisha.org/images/stories/odia-homepage/image11.JPG)
+![Two background designs from Debasmita, March 1998.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image11.JPG)
 
 Two background designs from Debasmita, March 1998.
 
@@ -56,11 +56,11 @@ There was room for teasing too. When he suggested putting my name before his, I 
 
 The versions that survive show how much the homepage changed. The pale background from our March emails is visible in the December 1998 capture. By May 2001, the homepage displayed through odiya.org had changed again.
 
-![The redesigned homepage, 1998.](https://projectodisha.org/images/stories/odia-homepage/image3.jpg)
+![The redesigned homepage, 1998.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image3.jpg)
 
 The redesigned homepage, 1998.
 
-![The homepage in 2001.](https://projectodisha.org/images/stories/odia-homepage/image4.jpg)
+![The homepage in 2001.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image4.jpg)
 
 The homepage in 2001.
 
@@ -72,7 +72,7 @@ It was still a work in progress. People told us what worked and what did not. So
 
 A few days earlier, when we were talking about criticism, I had written: “What I did is for a mass not for you, not for me.” We were making something for other Odias to use.
 
-![Our names together on the homepage, 1998.](https://projectodisha.org/images/stories/odia-homepage/image5.jpg)
+![Our names together on the homepage, 1998.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image5.jpg)
 
 Our names together on the homepage, 1998.
 
@@ -84,7 +84,7 @@ There were unexpected requests too. In February, John H. Jenkins wrote from Appl
 
 Later in 1998, I moved to the United States. This picture was taken in Fort Lauderdale, after the move. Back in March I had told Bhaina that I did not have a scanned photograph of myself.
 
-![Ahimanikya Satapathy, Fort Lauderdale, Florida, 1998.](https://projectodisha.org/images/stories/odia-homepage/image6.jpg)
+![Ahimanikya Satapathy, Fort Lauderdale, Florida, 1998.](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image6.jpg)
 
 Ahimanikya Satapathy, Fort Lauderdale, Florida, 1998.
 
@@ -94,7 +94,7 @@ There were other people building an Odia presence online too. Priyadarsan Patra,
 
 The emails have brought back the ordinary parts of it: waiting for a reply, asking for a different colour, trying to arrange a chat across time zones. In one letter Bhaina sent his best wishes “as a brother and a good friend.”
 
-![Bikash Panda’s “Orissa on the Web.”](https://projectodisha.org/images/stories/odia-homepage/image7.jpg)
+![Bikash Panda’s “Orissa on the Web.”](https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/image7.jpg)
 
 Bikash Panda’s “Orissa on the Web.”
 

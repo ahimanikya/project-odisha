@@ -9,7 +9,7 @@ import source from '../../../../../kb/research/culture/when-odisha-became-a-home
 const title='When Odisha Became a Homepage';
 const description='Ahimanikya Satapathy remembers working with Debasmita Misra on the Oriya Homepage’s 1998 redesign.';
 const route='/stories/when-odisha-became-a-homepage/';
-const imageBase='/images/stories/odia-homepage/';
+const imageBase='https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/';
 const dimensions: Record<string,{width:number;height:number}>={
   'image9.jpg':{width:640,height:480},
   'image2.jpg':{width:639,height:799},
@@ -22,10 +22,9 @@ const dimensions: Record<string,{width:number;height:number}>={
   'image6.jpg':{width:368,height:347},
   'image7.jpg':{width:1280,height:720},
 };
-const shareImage={src:imageBase+'image3.jpg',alt:'The redesigned homepage, 1998.',...dimensions['image3.jpg']};
+const shareImage={src:'/images/stories/odia-homepage/image3.jpg',alt:'The redesigned homepage, 1998.',...dimensions['image3.jpg']};
 // Presentation alone changes: the approved prose, captions and references stay intact.
-const markdown=source.replace(/^---\n[\s\S]*?\n---\n/,'').replace(/^# .+\n/m,'')
-  .replaceAll('https://projectodisha.org/images/stories/odia-homepage/',imageBase);
+const markdown=source.replace(/^---\n[\s\S]*?\n---\n/,'').replace(/^# .+\n/m,'');
 let {html}=markdownToHtml(markdown);
 let imageCount=0;
 html=html.replace(/<img\b([^>]*?)src="([^"]+)"([^>]*)>/g,(_whole,before,src,after)=>{
@@ -48,7 +47,7 @@ html=html.replace('<h2>References and image notes</h2>','<h2 id="references-and-
 const furtherReading=[{
   href:'https://archive.projectodisha.org/odiya.org/',
   title:'First Odia Home Page — restored website',
-  image:imageBase+'image3.jpg',
+  image:'/images/stories/odia-homepage/image3.jpg',
 }];
 ---
 <Shell title={title} description={description} shareImage={shareImage} active="explore" wide related={false}>
