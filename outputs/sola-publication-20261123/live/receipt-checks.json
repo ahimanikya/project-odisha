@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-11-23T01:15:37.141219+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "command": "python3 tools/registers.py",
+      "exit_code": 0,
+      "output": "POD: valid; 1357 records, 841 events; dashboard generated\n"
+    },
+    {
+      "command": "python3 tools/catalog.py",
+      "exit_code": 0,
+      "output": "Whole-project catalogue current: 1920 concepts\n"
+    },
+    {
+      "command": "python3 tools/research/reindex.py",
+      "exit_code": 0,
+      "output": "Indexed 1506 concepts.\n"
+    },
+    {
+      "command": "python3 tools/editorial/build_workbench.py",
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 593}, \"mode\": \"build\"}\n"
+    },
+    {
+      "command": "python3 tools/editorial/article_rollout.py",
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"counts\": {\"blocked\": 1, \"completed\": 237, \"excluded\": 872, \"queued\": 263}, \"errors\": []}\n"
+    },
+    {
+      "command": "python3 tools/check_bundle.py",
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1920,\n  \"local_links\": 8619,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n"
+    },
+    {
+      "command": "python3 tools/check_team_assignments.py",
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n"
+    },
+    {
+      "command": "python3 tools/check_autonomous_program.py",
+      "exit_code": 0,
+      "output": "PASS: autonomous program count and linked delivery records\n"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    }
+  ]
+}

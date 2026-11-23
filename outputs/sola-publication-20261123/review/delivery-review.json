@@ -1,0 +1,265 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "PASS_WITH_EXPLICIT_IMAGE_ENCODING_DIFFERENCES",
+  "github_independently_queried": {
+    "pr": 840,
+    "reviewed_head": "66f1937c2d075146ec83b06164f3dbe28e55ea06",
+    "merged_head": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "merge_tree_equals_reviewed_tree": true,
+    "tree": "9237cf69989a552d761bf2c8382e5a800544ce65",
+    "ci_run": 45086332194,
+    "ci_attempt": 2,
+    "ci_conclusion": "success",
+    "deployment_run": 45089745640,
+    "deployment_attempt": 1,
+    "deployment_head": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "deployment_conclusion": "success",
+    "initial_ci_failure": "Saved first-attempt log records existing Dhaga downloadHTTP403; unchanged-head attempt2 passed."
+  },
+  "linux_payload_evidence": {
+    "ci_and_deployment_bytes": 999002101,
+    "files": 3633,
+    "headroom_bytes": 997899,
+    "source": "Read saved actual CI/deployment payload log extracts; remote run status/head independently confirmed."
+  },
+  "fresh_http": {
+    "evidence": "outputs/sola-publication-20261123/review/live-http-independent.json",
+    "status_raw": "REVIEW_DIFFERENCES",
+    "routes": 4,
+    "images": 20,
+    "all_http200": true,
+    "byte_exact_images": 16,
+    "different_images": 4,
+    "article_integrity": "Jhulana article exact. Sola/Odissi/materialchapter articles match local only after the three actual observed responsive URL substitutions; no other article change.",
+    "source_image": "Sola public base156978B,480variant and1200variant byte-exact. Originals remain exact.",
+    "native_notes": "Fresh Sola HTML has6refs4notes6returns and unique IDs. Correct source/licence/alteration,oneh1/byline,bothoutgoingpaths; each incoming link exactlyonce.",
+    "share": "Fresh Sola OG1200x801 and exact publicphotoURL verified."
+  },
+  "image_comparison": {
+    "independent_metrics": "outputs/sola-publication-20261123/review/live-image-metrics-independent.json",
+    "samanta_report_audit": "All4 independently decoded means,RMS,changedpixel counts match Samanta report exactly.",
+    "differences": [
+      {
+        "path": "/images/responsive/a375b1fe80e6c613-960.webp",
+        "live_bytes": 54880,
+        "local_bytes": 54976,
+        "width": 960,
+        "height": 641,
+        "channels": 3,
+        "changed_channels": 576042,
+        "total_channels": 1846080,
+        "changed_pixels": 192069,
+        "total_pixels": 615360,
+        "max_delta": 21,
+        "mean_absolute": 0.6354973782284624,
+        "rms": 1.4498763029945323,
+        "metadata": [
+          {
+            "field": "exif",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "icc",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "iptc",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "xmp",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          }
+        ],
+        "orientation": [
+          null,
+          null
+        ],
+        "visual_result": "No material visible quality difference at inspected scale; full frame retained. Native decoded pixels differ."
+      },
+      {
+        "path": "/images/responsive/8286bb5f7fcbd265-960.webp",
+        "live_bytes": 28240,
+        "local_bytes": 28244,
+        "width": 960,
+        "height": 691,
+        "channels": 3,
+        "changed_channels": 182644,
+        "total_channels": 1990080,
+        "changed_pixels": 60906,
+        "total_pixels": 663360,
+        "max_delta": 27,
+        "mean_absolute": 0.16575363804470172,
+        "rms": 0.7035692917913807,
+        "metadata": [
+          {
+            "field": "exif",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "icc",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "iptc",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "xmp",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          }
+        ],
+        "orientation": [
+          null,
+          null
+        ],
+        "visual_result": "No material visible quality difference at inspected scale; full frame retained. Native decoded pixels differ."
+      },
+      {
+        "path": "/images/responsive/f4e4108ab5b2cde9-480.webp",
+        "live_bytes": 48448,
+        "local_bytes": 48580,
+        "width": 480,
+        "height": 582,
+        "channels": 3,
+        "changed_channels": 495565,
+        "total_channels": 838080,
+        "changed_pixels": 178763,
+        "total_pixels": 279360,
+        "max_delta": 26,
+        "mean_absolute": 1.4936044291714394,
+        "rms": 2.478345506386538,
+        "metadata": [
+          {
+            "field": "exif",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "icc",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "iptc",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          {
+            "field": "xmp",
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          }
+        ],
+        "orientation": [
+          null,
+          null
+        ],
+        "visual_result": "No material visible quality difference at inspected scale; full frame retained. Native decoded pixels differ."
+      },
+      {
+        "path": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "live_bytes": 1804677,
+        "local_bytes": 1804657,
+        "width": 1517,
+        "height": 2048,
+        "channels": 3,
+        "changed_channels": 1490701,
+        "total_channels": 9320448,
+        "changed_pixels": 606955,
+        "total_pixels": 3106816,
+        "max_delta": 15,
+        "mean_absolute": 0.21246854228466272,
+        "rms": 0.5903570482875219,
+        "metadata": [
+          {
+            "field": "exif",
+            "live_bytes": 206,
+            "local_bytes": 206,
+            "equal": true
+          },
+          {
+            "field": "icc",
+            "live_bytes": 3144,
+            "local_bytes": 3144,
+            "equal": true
+          },
+          {
+            "field": "iptc",
+            "live_bytes": 11610,
+            "local_bytes": 11610,
+            "equal": true
+          },
+          {
+            "field": "xmp",
+            "live_bytes": 9276,
+            "local_bytes": 9276,
+            "equal": true
+          }
+        ],
+        "orientation": [
+          1,
+          1
+        ],
+        "visual_result": "No material visible quality difference at inspected scale; full frame retained. Native decoded pixels differ."
+      }
+    ],
+    "metadata": "Hindola live/local EXIF206B,ICC3144B,IPTC11610B,XMP9276B all byte-identical,orientation1; dimensions1517x2048. WebP difference pairs same dimensions,no metadata buffers in either.",
+    "method": "Fresh files decoded with Sharp0.35.5/libvips8.18.7; RGB channels excluding alpha, no resizing for metrics. Independently generated side-by-side fullframe comparisons. Hindola visualcomparison downscaled to900px each for tool display; other comparisons viewed native-size composites.",
+    "claim_limit": "No cause attribution. Neither byte equality nor pixel equality claimed for any of four differing files. Hindola20byte filesize difference also accompanies decodedpixel differences; not characterized as header-only."
+  },
+  "visual": {
+    "screenshots_independently_viewed": {
+      "desktop.jpg": "26a46e45d54fee8cf4ef8308577c632e3c29c048ffee7248e44e6f13e7400a71",
+      "desktop-full.jpg": "46772287fbe73dc13e1e76bf3df89c30bf5c1c5a057976ef8307bd28f6cccb26",
+      "mobile.jpg": "8be3271825ec12fd7956ab1639670ee7189e9b97250aadb50946059c5bdbbaae",
+      "mobile-full.jpg": "d6f709a8283e86637277b63950fe8b9d5402eb7efac4931319830a61d0b28e82",
+      "mobile-credit.jpg": "dd4e94591890cf6f1ba5aa74c640737f0595c30cdf6af0c2067f162255add890",
+      "odissi-preview-mobile.jpg": "56336acec3e9b7c3f5a0d2ae18bc6f0dfa1a5e3309941b0d8fcbf40630a0e3db",
+      "odissi-preview-desktop.jpg": "ca408084e739868e4f62fbeb067b29094888252ee0db4da76bcd989b75ab2f3e",
+      "chapter-preview-mobile.jpg": "95e7fe1c57fe9a769f997efd5f389c4cbefdf26a77d12e780c5696db502954c0",
+      "chapter-preview-desktop-clear.jpg": "dacfbd158b67153d5cf9ab7201f380424695669a5bc7897d8d90e77d62f78831",
+      "hindola-desktop.jpg": "b06457fb9219f2e41033b57ff137b73709a7c6a76230c469229c741b9eb0b442",
+      "hindola-desktop-full.jpg": "4e892850a9e0963ffe595bae50228c16f211124b3fc70c4d0c454c4de3fb373d",
+      "hindola-mobile.jpg": "9f541aace9d8d50bd4fbdf603db591ff073b3d88d6e37426683c68020dc129c2"
+    },
+    "result": "All12 listed captures inspected: readable Sola title/byline/body/nativecredit and completeheadpiece ondesktop/mobile; bothincoming previews loaded/readable; chapter12singleline; Hindolafullframe and caption clear onmobile/fullpage. No material visualblocker.",
+    "excluded": "Premature chapter-preview-desktop.jpg not used.",
+    "limits": [
+      "Initial desktop image metric has completefalse/natural0 beforeload; not used as loaded-image proof. Later actual desktop/fullpage screenshots visibly show loadedphoto.",
+      "Hindola desktopviewport ends before fullcaption; mobile/fullpage providecompletecaption.",
+      "Hindola fullpage tool display rescaled1440x6127to1410x6000.",
+      "Only1440/390Chromiumsimulatedviewports; no realdevice/crossengine/assistivetechnology certification."
+    ]
+  },
+  "root_browser_attribution": {
+    "record": "outputs/sola-publication-20261123/live/browser-verification.json",
+    "sha256": "962bc47c2103c6428c9a9b33d0ce43d54f35c3ff1174f371ec1957a5958728c7",
+    "actor": "Disha",
+    "reported": "No horizontaloverflow1440/390; source2nativeclick reachedsettledvisiblecredit,keyboardEnter returnedhash/focusreference2; bothincoming cardclicks reachednewroute. Reviewer performed no browseractions."
+  },
+  "preservation": "Rechecked original SolaSHA50c47707d4d50cd4855d16e554360145d486cc9536308919c2a17f70a69586be and HindolaSHA68f51f38c4a37a169f832d367e4230c6b0031cb2d35099cc1fa69f059700ecbc. Prior exactcommit review establishes foreignpointers andzero programmecredit; final sharedreceipt review pending.",
+  "blockers": [],
+  "pending": "Final evidence-only receipt integration and exact receiptcommit checks; no further website deployment implied."
+}
