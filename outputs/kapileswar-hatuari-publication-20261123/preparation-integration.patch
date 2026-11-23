@@ -1,0 +1,53 @@
+--- a/projects/site/src/pages/history/index.astro
++++ b/projects/site/src/pages/history/index.astro
+@@ -4,6 +4,7 @@
+ import '../../styles/article-reading.css';
+ import kalinga from '../../../../../kb/research/stories/reading-kalinga-beyond-odisha.json';
+ const links=[
++ {title:"Kapileswar at Hatuari: What Do We Actually Know?",href:"/stories/kapileswar-hatuari/",description:"A river-island temple in Dhenkanal, conflicting dates and the limits of architectural evidence.",image:"/images/kapileswar-hatuari/kapileswar-anup525-864.webp"},
+  {title:kalinga.title,href:kalinga.route,description:kalinga.description},
+  {title:'Ratnagiri: a place built for learning',href:'/stories/ratnagiri/',description:'Read the Ratnagiri account and its source notes.'},
+  {title:'Lalitgiri: relics, monasteries and a long Buddhist history',href:'/stories/lalitgiri/',description:'Continue with the Lalitgiri reading.'},
+--- a/projects/site/src/data/discovery.ts
++++ b/projects/site/src/data/discovery.ts
+@@ -43,6 +43,7 @@
+  {label:'The Year That Feeds Us',image:osakothiImage,category:'Living culture',dek:'Stories of cultivation, food, seasonal observances and the people who carry them forward.',href:'/stories/the-year-that-feeds-us/',regions:['Across Odisha'],aliases:['Agriculture','Seasonal traditions']},
+  {"label": "Finally Watching Prahlad Natak", "category": "Personal", "dek": "A long-awaited performance, a distinctive dance style, and a meeting with organiser and Odissi singer Soumya Biswajit.", "href": "/stories/watching-prahlad-natak/", "image": {"src": "/assets/watching-prahlad-natak/performance-space.jpg", "alt": "Performers and audience beneath a yellow-and-white canopy.", "width": 1600, "height": 900}, "regions": ["Odisha"], "aliases": ["Prahlad Natak", "Prahlada Nataka", "Soumya Biswajit", "Kishorachandrananda Champu"]},
+  {"label": "Mirgan Households and Kotpad Textiles", "category": "Living culture", "dek": "Read nine connected chapters on people, colour and livelihoods, or download the complete book.", "href": "/stories/kotpad/book/", "regions": ["Koraput"], "image": {"src": "/images/mirgan-kotpad/front-cover.png", "alt": "Mirgan Households and Kotpad Textiles book cover", "width": 767, "height": 1200}},
++ {label:"Kapileswar at Hatuari: What Do We Actually Know?",category:"Places",dek:"A river-island Shiva temple in Dhenkanal, conflicting dates and the limits of architectural evidence.",href:"/stories/kapileswar-hatuari/",image:{src:"/images/kapileswar-hatuari/kapileswar-anup525-864.webp",width:864,height:1152,alt:"Kapileswar Mahadev Temple at Hatuari above its stone-faced embankment."},regions:["Dhenkanal"],aliases:["Hatuari","Kapileswar","Kapilesvara","Ramiala","temple","heritage"]},
+  {label:"History and heritage",category:"Living culture",dek:"Read connected accounts of places, records and the people who study them.",href:"/history/",regions:["Across Odisha"],aliases:["history","heritage","archaeology","inscriptions"]},
+  {label:kalingaReading.title,category:"Living culture",dek:kalingaReading.description,href:kalingaReading.route,regions:["North Andhra","Odisha"],aliases:["Kalinga","Deepak Kumar Nayak","heritage research","inscriptions"]},
+  {label:'Dongria Kondh: life in Niyamgiri',category:'Living culture',dek:'Twelve connected articles on cloth, language, cultivation and learning.',href:'/stories/dongria/',regions:['Rayagada','Niyamgiri']},
+--- a/projects/site/src/pages/destinations/kapilash.astro
++++ b/projects/site/src/pages/destinations/kapilash.astro
+@@ -23,7 +23,7 @@
+       <figcaption>{image.caption} Photograph by <a href={image.source}>{image.creator}</a>, <a href={image.license_url}>{image.license}</a>. {image.changes}</figcaption>
+     </figure>
+     <Content/>
+-    <ArticleReadingPath heading="Continue reading" links={[{href:panchalingeswarGuide.href,title:'Panchalingeswar: A Shrine in Flowing Water',description:panchalingeswarGuide.summary,image:panchalingeswarGuide.photo.src},{href:'/books/odisha-culture-memory-and-living-traditions/'+mahimaChapter.slug+'/',title:mahimaChapter.title,description:'A separate religious tradition, with Joranda among its places of gathering.',image:jorandaImage.src}]}/>
++    <ArticleReadingPath heading="Continue reading" links={[{href:'/stories/kapileswar-hatuari/',title:'Kapileswar at Hatuari: What Do We Actually Know?',description:'A separate Shiva temple in Dhenkanal, with a provisional architectural date.',image:'/images/kapileswar-hatuari/kapileswar-anup525-864.webp'},{href:panchalingeswarGuide.href,title:'Panchalingeswar: A Shrine in Flowing Water',description:panchalingeswarGuide.summary,image:panchalingeswarGuide.photo.src},{href:'/books/odisha-culture-memory-and-living-traditions/'+mahimaChapter.slug+'/',title:mahimaChapter.title,description:'A separate religious tradition, with Joranda among its places of gathering.',image:jorandaImage.src}]}/>
+     <ArticleReadingPath heading="Further reading" links={[{href:'/destinations/hills/',title:'Hills and highland escapes',description:'Explore the growing collection of hill destinations.',image:image.src}]}/>
+     <p><a href="/contribute/?page=%2Fdestinations%2Fkapilash%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+   </article>
+--- a/projects/site/tools/nimuhi-footnote-heading.mjs
++++ b/projects/site/tools/nimuhi-footnote-heading.mjs
+@@ -1,6 +1,6 @@
+ // Scope the visible source heading to the approved reference article.
+ export default function nimuhiFootnoteHeading({fileURL}) {
+-  if (!fileURL?.pathname.includes('/content/dongariya/') && !['/places/belghar-tumudibandha-article.md', '/places/gandhamardan-article.md', '/places/kapilash-article.md', '/places/panchalingeswar-article.md', '/places/jirang-chandragiri-article.md', '/places/taptapani-article.md', '/places/mahendragiri-article.md', '/places/mandasaru-article.md', '/places/putsil-article.md', '/places/daringbadi-article.md', '/places/deomali-article.md', '/culture/essential-odia-dhaga.md', '/culture/odia-dhaga.md', '/stories/buddhist-triangle/diamond-triangle.md', '/stories/buddhist-triangle/lalitgiri.md', '/stories/buddhist-triangle/udayagiri.md', '/stories/buddhist-triangle/ratnagiri.md', '/culture/sashisena-and-nimuhi-temple.md', '/culture/odia-cultural-identity.md', '/culture/rise-children-of-utkal.md', '/culture/a-place-to-learn-together.md', '/culture/reading-the-bhagabata.md', '/culture/dhinki-and-the-work-behind-rice.md', '/culture/ganjapa-cards-made-for-play.md', '/culture/dhumpa-music-and-its-players.md', '/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md', '/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md', '/culture/sagada-and-the-work-of-the-bullock-cart.md', '/culture/kagaja-mukha-and-the-making-of-a-mask.md', '/stories/bhubaneswar-week.md'].some(path => fileURL?.pathname.endsWith(path))) return null;
++  if (!fileURL?.pathname.includes('/content/dongariya/') && !['/places/kapileswar-hatuari-article.md', '/places/belghar-tumudibandha-article.md', '/places/gandhamardan-article.md', '/places/kapilash-article.md', '/places/panchalingeswar-article.md', '/places/jirang-chandragiri-article.md', '/places/taptapani-article.md', '/places/mahendragiri-article.md', '/places/mandasaru-article.md', '/places/putsil-article.md', '/places/daringbadi-article.md', '/places/deomali-article.md', '/culture/essential-odia-dhaga.md', '/culture/odia-dhaga.md', '/stories/buddhist-triangle/diamond-triangle.md', '/stories/buddhist-triangle/lalitgiri.md', '/stories/buddhist-triangle/udayagiri.md', '/stories/buddhist-triangle/ratnagiri.md', '/culture/sashisena-and-nimuhi-temple.md', '/culture/odia-cultural-identity.md', '/culture/rise-children-of-utkal.md', '/culture/a-place-to-learn-together.md', '/culture/reading-the-bhagabata.md', '/culture/dhinki-and-the-work-behind-rice.md', '/culture/ganjapa-cards-made-for-play.md', '/culture/dhumpa-music-and-its-players.md', '/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md', '/culture/jau-kandhei-clay-lac-and-the-makers-of-balasore.md', '/culture/sagada-and-the-work-of-the-bullock-cart.md', '/culture/kagaja-mukha-and-the-making-of-a-mask.md', '/stories/bhubaneswar-week.md'].some(path => fileURL?.pathname.endsWith(path))) return null;
+   return {
+     name: 'nimuhi-footnote-heading',
+     after(root, ctx) {
+--- a/projects/site/editions/coast.json
++++ b/projects/site/editions/coast.json
+@@ -1361,7 +1361,8 @@
+     "/destinations/kapilash/",
+     "/destinations/gandhamardan/",
+     "/stories/sola-and-odissi-tahia/",
+-    "/destinations/belghar-tumudibandha/"
++    "/destinations/belghar-tumudibandha/",
++    "/stories/kapileswar-hatuari/"
+   ],
+   "starter_ids": [
+     "stone-sea-makers",

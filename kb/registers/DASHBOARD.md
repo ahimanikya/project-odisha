@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0ec8f3ee093d194f57766c699c227e496c2e88dd7ba9cc90b70b55955cd51361`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `44392aaf5ac40245d4a734617a36b544e00b4e408eddd72de7732d15a0c95b53`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -412,6 +412,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112302 · Publish Sola: The Craft Behind an Odissi Tahia | completed | published | Ahimanikya Satapathy | Merge reviewed evidence-only receipt after required checks, then explicitly return the slot for Belghar–Tumudibandha. | — |
 | POD-WORK-2026112393 · Research, review and publish Belghar–Tumudibandha | completed | published | Ahimanikya Satapathy | Merge reviewed evidence-only receipt after actual required CI, then explicit reserved preparation-only handoff; Kalinga Ghati remains queued. | — |
 | POD-WORK-2026112303 · Prepare Kaincha: Making with Golden Grass | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Kaincha draft, unchanged credited photograph and publication brief; return the preparation slot to the hill-series chat for Kalinga Ghati. No public integration authorized. | — |
+| POD-WORK-2026112394 · Research, review and publish Kalinga Ghati | completed | published | Ahimanikya Satapathy | Complete separately reviewed receipt and actual required CI/merge, then explicit handoff to Kapileswar Hatuari, preserving following Birakishore reservation before Tensa. | — |
+| POD-WORK-20261123101 · Publish Kapileswar at Hatuari: What Do We Actually Know? | completed | published | Ahimanikya Satapathy | Complete final receipt review, exact committed review and required checks; merge receipt and explicitly hand off to Birakishore Das chat. | — |
 
 ## Pending human review and decisions
 
@@ -752,6 +754,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112301 · Prepare next independent article after Kapilash | recorded_direction | Ahimanikya Satapathy | One independently researched article preparation with credited image; no publication or website integration. |
 | POD-DEC-2026112302 · Publish Sola and the Odissi tahia after Gandhamardan | recorded_direction | Ahimanikya Satapathy | Integrate and publish reviewed Sola article with credited photograph, related incoming links and mobile/desktop layout checks. |
 | POD-DEC-2026112303 · Prepare next original Antaranga-led article after Belghar release | recorded_direction | Ahimanikya Satapathy | One independent draft with credited image; preparation only. |
+| POD-DEC-2026112394 · Publish Kalinga Ghati after the returned preparation slot | recorded_direction | Ahimanikya Satapathy | Research, review and publish Kalinga Ghati with credited article/preview image, then remaining hills one at a time. |
+| POD-DEC-20261123101 · Publish original Kapileswar at Hatuari article in History and Heritage | recorded_direction | Ahimanikya Satapathy | Finish original independently researched article and publish in History and Heritage after coordinated slot handoff; provide working link to Founder. No Facebook sending. |
 
 ## Reviews
 
@@ -1163,6 +1167,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112302 | pass_with_limitations | True | Separate AI review, not human specialist approval or field verification.; Chromium viewport simulation and saved screenshot review; native interactions operated by Disha.; Four live image encodings differ from local bytes and pixels; dimensions/framing preserved, measurements and visual acceptance recorded, no cause asserted. |
 | POD-REV-2026112393 | pass | True | No human specialist, field or physical-device review.; Interpretive illustration is labelled, not a documented viewpoint.; All 12 checked live image files match reviewed local bytes; no site-wide equality claim. |
 | POD-REV-2026112303 | pass_with_limitations | True | Separate AI review, not human specialist approval or fieldwork.; Directorate original indexed entry inspected; direct HTML access failed.; Dsource plant-name and hidden core terminology remain unresolved and are omitted.; Photo maker, workshop and capture date are unknown; not assigned to the Kendrapara group.; Noncommercial, share-alike and attribution conditions apply to the licensed image.; No website rendering, deployment or live checks for this preparation-only task. |
+| POD-REV-2026112394 | pass | True | No fieldwork or human specialist review.; Photo locality follows publisher caption; capture date unverified.; Static review is not publication or current-access guarantee. |
+| POD-REV-20261123101 | pass | True | Fourteenth-century architectural date remains provisional; Post-Ganga wording is an apparent chronological inconsistency, not silently corrected; Chapter author and full references remain unverified; Possible shared source among inventory, book and board; No fieldwork, archaeological specialist review or current engineering assessment claimed |
 
 ## Publication and application history
 
@@ -1439,6 +1445,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112392 · Gandhamardan: Two Shrines and a Living Forest | published | https://projectodisha.org/destinations/gandhamardan/ | POD-DEC-2026112297 |
 | POD-REL-2026112302 · Sola: The Craft Behind an Odissi Tahia | published | https://projectodisha.org/stories/sola-and-odissi-tahia/ | POD-DEC-2026112302 |
 | POD-REL-2026112393 · Belghar: Forest and a Wooden Bungalow | published | https://projectodisha.org/destinations/belghar-tumudibandha/ | POD-DEC-2026112297 |
+| POD-REL-2026112394 · Kalinga Ghati: Through the Forested Pass | published | https://projectodisha.org/destinations/kalinga-ghati/ | POD-DEC-2026112394 |
+| POD-REL-20261123101 · Kapileswar at Hatuari: What Do We Actually Know? | published | https://projectodisha.org/stories/kapileswar-hatuari/ | POD-DEC-20261123101 |
 
 ## Sources and assets
 
@@ -1476,16 +1484,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112305 | 2026-11-22T23:59:48.493299+00:00 | Separate final local review passed with823full/598coasttests, correcteddesktop/mobilepreviews,4routes20images and998219974Bpackage. Hosted exacthead checks, deployment and live review remain; no programme credit. | — |
-| POD-EVT-2026112306 | 2026-11-23T01:14:02.856861+00:00 | Deployment45089745640 succeeded from reviewed merge399feaab. Separate delivery review verified4routes20images12meaningfulscreenshots and root-operated native notes/incoming links. Four measured image encoding differences accepted with explicit limits. ActualLinux999002101bytes/3633files leaves997899bytes. Evidence-only receipt pending required checks and actual merge; zero programme credit. | — |
-| POD-EVT-2026112307 | 2026-11-23T01:16:43.295145+00:00 | Separate Drishti final integrated receipt review passed. Website source, manuscript body, original media and foreign ownership preserved; delivery differences/limits explicit. Exact committed receipt review, required checks and actual merge remain before explicit next-slot return. | — |
-| POD-EVT-2026112383 | 2026-11-23T01:48:03.662301+00:00 | Sola receipt841 merged at a87b7846 with CI45093797524success independently verified and explicit slot returned. Sole Belghar–Tumudibandha research/publication scope accepted after scoped reuse check; foreign task and prior evidence preserved, zero programme credit. | — |
 | POD-EVT-2026112384 | 2026-11-23T02:04:11.100704+00:00 | Anvesha source review and separate Drishti original-page/text review passed on manuscript1cd00aff with conservative177/101/66 source-family words. No accepted licensed photo; pending user choice for clearly captioned illustration or further photo search. Website unchanged, article slot retained, zero programme credit. | — |
 | POD-EVT-2026112385 | 2026-11-23T05:33:32.476306+00:00 | Founder explicitly approved a clearly captioned landscape illustration for article and preview and reiterated publication. Original generated illustration preserved; bounded integration and separate review resumed. Next preparation-only slot reserved for Research Antaranga Kalinga after actual reviewed receipt merge; zero programme credit. | — |
 | POD-EVT-2026112386 | 2026-11-23T05:53:30.513301+00:00 | Approved interpretive illustration integrated with labelled article, sharing and three incoming previews. Separate integrated source/media/code reviews and local full/publication checks pass; final package review and remote/live publication remain. Original preserved; no new optimization; zero programme credit. | — |
 | POD-EVT-2026112387 | 2026-11-23T07:06:42.904627+00:00 | Reviewed Belghar article published with explicitly labelled original landscape illustration and three incoming previews. Required CI, exact-merge deployment and separate live delivery review passed. Evidence-only receipt merge still required before reserved cross-chat preparation handoff; zero programme credit. | — |
 | POD-EVT-2026112308 | 2026-11-23T07:46:14.624228+00:00 | Belghar receipt843 verified merged after successful checks and explicit handoff. Sole next preparation scope accepted; foreign task preserved, no website publication or programme credit. | — |
 | POD-EVT-2026112309 | 2026-11-23T08:16:39.142522+00:00 | Independent source and separate integrated reviews passed for original Kaincha draft and unchanged credited photograph. No website integration or publication; local commit and explicit slot return remain. Zero programme credit. | — |
+| POD-EVT-2026112388 | 2026-11-23T08:32:40.592025+00:00 | Accepted explicit reviewed Kaincha preparation slot return and verified all delivery hashes; Kalinga Ghati is sole active article. Kaincha remains unpublished, foreign ownership preserved, zero programme credit. | — |
+| POD-EVT-2026112389 | 2026-11-23T09:23:21.315878+00:00 | Separate source/media/code/rendered/final-package reviews passed for Kalinga Ghati. Credited CC BY4.0 habitat panel and previews verified; bounded Ashta delivery derivative preserves original and supplies capacity. Hosted checks/publication/live receipt pending; Kaincha unpublished and foreign ownership preserved, zero programme credit. | — |
+| POD-EVT-2026112390 | 2026-11-23T10:24:27.169502+00:00 | PR844 and deployment45151083571 succeeded; separate fresh live review passed five routes, thirteen images and eleven meaningful screenshots. Two measured image differences visually accepted, original/base images preserved. Reviewed receipt merge required before Kapileswar handoff, then reserved Birakishore publication before Tensa. Kaincha and foreign ownership preserved; zero programme credit. | — |
+| POD-EVT-20261123101 | 2026-11-23T11:40:56.014037+00:00 | PR846 and deployment45161698364attempt2 succeeded on reviewed source. Initial external metadata403 failure preserved; unchanged retry succeeded. Separate live review passed4routes3exactimages. Historical dating remains provisional; scope held through actual receipt merge, then Birakishore. Zero programme credit. | — |
 
 ## Deferred extensions
 

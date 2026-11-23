@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains six explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg']));
+test('JPEG delivery scope remains seven explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg']));
 test('delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -91,6 +91,26 @@ test('Hindola delivery retains the complete painting, museum credit and source w
  assert.equal(actual.width,1517);assert.equal(actual.height,2048);assert.equal(actual.orientation??1,original.orientation??1);
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
  assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace('Image released under CC0.','Image released under CC0. Full frame, resized and compressed for web delivery.').replace('property="og:image:width" content="2519"','property="og:image:width" content="1517"').replace('property="og:image:height" content="3400"','property="og:image:height" content="2048"'));
+ assert.ok((await readFile(sourceURL)).equals(source));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+test('Abhisarika delivery retains the complete painting, museum credit and source while updating share geometry',async()=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-abhisarika-jpeg-'));
+ try{
+ const asset='assets/ashta-nayika/abhisarika-met.jpg',page='stories/ashta-nayika/index.html';
+ const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
+ const credit='<a href="https://www.metmuseum.org/art/collection/search/37992">The Metropolitan Museum of Art, Rogers Fund, 1918, 18.134.3</a>; public domain.';
+ const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="2907"><meta property="og:image:height" content="4000"><p>'+credit+'</p>';
+ await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);
+ await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
+ const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+ assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>1000000);
+ const actual=await sharp(await readFile(path.join(dir,asset))).metadata(),original=await sharp(source).metadata();
+ assert.equal(actual.width,1488);assert.equal(actual.height,2048);assert.equal(actual.orientation??1,original.orientation??1);
+ for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
+ assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace('public domain.','public domain. Full frame, resized and compressed for web delivery.').replace('property="og:image:width" content="2907"','property="og:image:width" content="1488"').replace('property="og:image:height" content="4000"','property="og:image:height" content="2048"'));
+ assert.ok(original.exif===undefined);assert.ok(actual.exif); // Added technical EXIF is not represented as preserved original metadata.
  assert.ok((await readFile(sourceURL)).equals(source));
  }finally{await rm(dir,{recursive:true,force:true});}
 });

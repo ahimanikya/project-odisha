@@ -9,6 +9,7 @@ import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-
 import panchalingeswarImage from '../../../../kb/research/destinations/panchalingeswar-image.json';
 import kapilashImage from '../../../../kb/research/destinations/kapilash-image.json';
 import belgharTumudibandhaImage from '../../../../kb/research/destinations/belghar-tumudibandha-image.json';
+import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
 export const deomaliGuide = {
@@ -121,4 +122,14 @@ export const belgharTumudibandhaGuide = {
  aliases: [],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide].filter(guide => allowsPage(guide.href));
+export const kalingaGhatiGuide = {
+ title: 'Kalinga Ghati',
+ odia: '',
+ summary: 'A forested road between Ganjam and Kandhamal.',
+ href: '/destinations/kalinga-ghati/',
+ photo: kalingaGhatiImage,
+ regions: ['Ganjam', 'Kandhamal'],
+ aliases: ['Kalinga Ghat'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide].filter(guide => allowsPage(guide.href));

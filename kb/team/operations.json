@@ -55,13 +55,14 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-BELGHAR-TUMUDIBANDHA-20261123",
-    "route": "/destinations/belghar-tumudibandha/",
+    "id": "POD-EDIT-KAPILESWAR-HATUARI-20261123",
+    "route": "/stories/kapileswar-hatuari/",
     "owner": "Disha",
     "phase": "receipt_integrated",
-    "handoff": "records/belghar-tumudibandha-publication-20261123.json",
+    "handoff": "records/kapileswar-hatuari-publication-20261123.json",
     "scope_released": true,
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required CI. Explicit preparation-only handoff to Research Antaranga Kalinga follows actual merge; Kalinga Ghati waits for the slot to return."
+    "status": "published_verified",
+    "release_condition": "Scope release takes effect only after this independently reviewed evidence-only receipt actually merges following required hosted checks. Then explicit handoff to Research Antaranga Kalinga for Birakishore Das; Tensa follows that completed release and explicit return."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -770,11 +771,31 @@
       "handoff": "records/sola-publication-20261123.json",
       "scope_released": true,
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Explicit return to hill-series chat for Belghar–Tumudibandha follows observed merge."
+    },
+    {
+      "id": "POD-EDIT-BELGHAR-TUMUDIBANDHA-20261123",
+      "route": "/destinations/belghar-tumudibandha/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/belghar-tumudibandha-publication-20261123.json",
+      "scope_released": true,
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following project-required CI. Explicit preparation-only handoff to Research Antaranga Kalinga follows actual merge; Kalinga Ghati waits for the slot to return."
+    },
+    {
+      "id": "POD-EDIT-KALINGA-GHATI-20261123",
+      "route": "/destinations/kalinga-ghati/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/kalinga-ghati-publication-20261123.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to Kapileswar Hatuari; its reviewed receipt is followed by reserved Birakishore Das publication, then Tensa after explicit returned slot."
     }
   ],
   "next_article_coordination": {
-    "status": "kaincha_preparation_complete_handoff_ready",
+    "status": "birakishore_reserved_after_actual_hatuari_receipt_merge",
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-    "scope": "Prepared Kaincha article and credited image only. Release effective after reviewed local commit and explicit return to hill-series chat for Kalinga Ghati; no Kaincha publication authorized."
+    "scope": "Scope release takes effect only after this independently reviewed evidence-only receipt actually merges following required hosted checks. Then explicit handoff to Research Antaranga Kalinga for Birakishore Das; Tensa follows that completed release and explicit return.",
+    "evidence": "records/kalinga-ghati-publication-20261123.json"
   }
 }

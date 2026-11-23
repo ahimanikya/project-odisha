@@ -1,0 +1,128 @@
+{
+  "agent": "Samanta",
+  "status": "isolated_candidate_checks_passed",
+  "input_head": "1ebd2966",
+  "publication_claim": false,
+  "source_sha256": "14976a20d76e8e3a299553eb391fa193f6063846f01bbceaac65964227256330",
+  "owned_files": [
+    {
+      "path": "projects/site/src/pages/stories/kapileswar-hatuari.astro",
+      "sha256": "8f51035bee67c83082605239daa5ab275951f7d730dd3b6efb8619c4fef729db"
+    },
+    {
+      "path": "projects/site/public/images/kapileswar-hatuari/kapileswar-anup525-864.webp",
+      "sha256": "320d2af806bd8322718f49ce0f5f6f99bc469f022625e1786ef2c174893d8a5b"
+    },
+    {
+      "path": "projects/site/public/images/kapileswar-hatuari/kapileswar-anup525-480.webp",
+      "sha256": "7f1fea26716a26c39a853db86d9d14f088776b52d4185c97b15b94599b7297d3"
+    },
+    {
+      "path": "projects/site/src/pages/history/index.astro",
+      "sha256": "0dd77dc6d8b3ef2c2c0faa6d5df26f4737a5a3079031ba996f02a6537ecde1ad"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "1b1c3356745abe787f9336a9371f3c9b100e79951f2d6681bd650f979537542f"
+    },
+    {
+      "path": "projects/site/src/pages/destinations/kapilash.astro",
+      "sha256": "47870fa5563864b13ad833a0bec0ae8f594fcde395c26d370aff2eb129342eb2"
+    },
+    {
+      "path": "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "sha256": "994c3a38a96a23f255f5c4b8d4ab2386170b7689acbdee8a7e11a6baaec08b7b"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "0812b29cc1574be22ef2554bfb47ab2c90996b2d63b4c48f1cd343c91039c0c4"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "0ddd927cd28a86481c58463391414fb36b0ea556cc289ef94e4c959846972780"
+    },
+    {
+      "path": "projects/site/tests/kapileswar-hatuari.test.mjs",
+      "sha256": "cb08c82b56af4c9706f792cf1c5aed5de55b3b9c0c54a1d1192efbe547df7064"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "6744217dc8db32eb98abf8de84d9d446c041941afbc15889671ddd7a1027da31"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "c8bba9735d3e26ef4c2f495fbd8b2a09f95d83313cabbcd2482562f5b386165d"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "9451246969ee7ac2c7670337e0a1ea2d9c823901bb8e6ff6b996b0af0e51eaf8"
+    },
+    {
+      "path": "projects/site/editions/responsive-images.json",
+      "sha256": "700f09250af9ca805a16211e327f51ad5304d8e86122ae0fb0614785ff874776"
+    }
+  ],
+  "full_tests": {
+    "passed": 826,
+    "failed": 0,
+    "log": "implementation/test-full-final.log"
+  },
+  "full_disclosure_gate": {
+    "scanned": 1504,
+    "violations": 0,
+    "log": "implementation/disclosures-full-final.log"
+  },
+  "image_bytes": 177326,
+  "git_mutations": false,
+  "deployment": false,
+  "coastal_tests": {
+    "passed": 599,
+    "failed": 0,
+    "initial_failure": "Explore photograph missing responsive manifest entry; corrected by registering480px source in existing pipeline; initial log retained",
+    "log": "implementation/test-coast-rerun.log"
+  },
+  "image_bytes_including_generated_variant": 226558,
+  "coastal_disclosure_gate": {
+    "scanned": 1489,
+    "violations": 0,
+    "log": "implementation/disclosures-coast-final.log"
+  },
+  "audits": {
+    "coastal": "passed",
+    "discovery": "passed",
+    "launch_readiness": "passed;11sitemap URLs,14contrast pairs",
+    "search_shortlist": "passed;11reviewed pages,zero errors",
+    "publication_capacity": "passed locally;Linux CI must measure its platform-specific encodings"
+  },
+  "browser_checks_reported_by_coordinator": {
+    "desktop_mobile": true,
+    "mobile_width": 390,
+    "footnote_backlink": true,
+    "horizontal_overflow": false,
+    "screenshots": [
+      "/tmp/kapileswar-integrated-desktop.jpg",
+      "/tmp/kapileswar-integrated-mobile.jpg",
+      "/tmp/kapileswar-integrated-mobile-notes.jpg"
+    ]
+  },
+  "publication_disclosure_gate": {
+    "scanned": 1490,
+    "violations": 0,
+    "log": "implementation/disclosures-publication.log"
+  },
+  "publication_package": {
+    "bytes": 998934885,
+    "regular_files": 3647,
+    "remaining_bytes_below_limit": 1065115,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "log": "implementation/payload-check.log"
+  },
+  "remaining": [
+    "Explicit external slot handoff",
+    "Independent integrated review",
+    "Coordinator shared-record reconciliation",
+    "Required CI on reviewed commit",
+    "Authorized merge/deploy and actual live verification"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run": 45161698364,
+  "head": "553786bccb8e1502ea02d453d67cd836e02e853c",
+  "conclusion": "failure",
+  "failed_step": "Hydrate exact reviewed Dhaga release PDF",
+  "failure": "Anonymous HTTP download failed: curl exit22, HTTP403",
+  "deploy_job": "skipped",
+  "payload_check": "not reached; exact matching log excerpt is empty",
+  "monitoring": "complete; polling stopped",
+  "run_json_sha256": "4637d8e74c4511474a3dcb4eaaa30c4f246bfaae9b2a1a677b4206f9fdd31aa0",
+  "failure_excerpt_sha256": "6788beb6269507deae5e8113ede0abb9bf948e9c66b9cd260d4a512395ccf514",
+  "failure_location": "First anonymous GET for GitHub release metadata, before asset retrieval, at verify-dhaga-pdf.py hydrate line70",
+  "cause_limit": "HTTP403 is confirmed; rate limiting or another API denial cannot be distinguished without response headers/body.",
+  "bounded_next_action": "Coordinator may retry the unchanged authorized deployment on a fresh hosted runner. If the metadata403recurs, capture response details before proposing any helper/workflow change. Do not bypass release identity or byte checks.",
+  "guard_tests": "14passed immediately before hydration"
+}
