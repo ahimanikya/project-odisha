@@ -1,0 +1,433 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate automated reviewer",
+  "checked_at": "2026-11-23T10:24:14.506415+00:00",
+  "scope": "Independent live delivery review. Fresh HTTP, GitHub metadata/log reads, same-decoder actual image measurements, individual screenshot inspection and preservation review. No browser interaction by this reviewer.",
+  "publication": {
+    "pr": 844,
+    "reviewed_head": "f60c750f4f4f0d92474d26ca95355947df751a93",
+    "merge_commit": "1ebd29664991a3b98d56ec63bea2391094839264",
+    "tree": "2570f9f6261f93a2f52ddd2b960177f46e6084ed",
+    "required_ci": 45146847895,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "deployment": 45151083571,
+    "deployment_attempt": 1,
+    "deployment_conclusion": "success",
+    "independent_remote_verification": "Fresh GitHub API reads confirmed exact candidate CI, merged PR and deployment from exact merge; fresh completed log retrieval confirmed both payloads and original raw log SHA-256 values.",
+    "actual_linux_payload_bytes": 999459785,
+    "actual_linux_payload_files": 3643,
+    "remaining_bytes_below_strict_limit": 540215
+  },
+  "fresh_live": {
+    "routes": [
+      {
+        "route": "/destinations/kalinga-ghati/",
+        "status": 200,
+        "sha256": "0167121916e9dc2f24d71c4f176fefeae2f7bb3329a2318c13fbf816e8e09a25",
+        "saved": "destinations-kalinga-ghati.html",
+        "fragment_sha256": "305b51c974cd6541661de19e7bf59f50d07656f26add32134bc0a5b385b9822b",
+        "substitutions": [
+          [
+            "/images/responsive/ef01992f5f867325-480.webp",
+            "/images/responsive/c6ea82f262607026-480.webp"
+          ],
+          [
+            "/images/responsive/ef01992f5f867325-480.webp",
+            "/images/responsive/c6ea82f262607026-480.webp"
+          ]
+        ]
+      },
+      {
+        "route": "/destinations/hills/",
+        "status": 200,
+        "sha256": "da22e575260710b37b7c171cd2f54346020c2efb9cb25d4a8a21c504c72f35f6",
+        "saved": "destinations-hills.html",
+        "fragment_sha256": "041139e0700b39f287811fedfcfdbff512d0f731b8dc1e092a590af329f0e1b4",
+        "substitutions": []
+      },
+      {
+        "route": "/destinations/",
+        "status": 200,
+        "sha256": "6731f66478ed00e238a9172640d4f3a2d5b3edcec86d841dc10e22b4acd42e40",
+        "saved": "destinations.html",
+        "fragment_sha256": "041139e0700b39f287811fedfcfdbff512d0f731b8dc1e092a590af329f0e1b4",
+        "substitutions": []
+      },
+      {
+        "route": "/explore/",
+        "status": 200,
+        "sha256": "42e475511bc98f03717956c2fb77f5ff0bb057ea165298b0cf961e2eb4417368",
+        "saved": "explore.html",
+        "fragment_sha256": "4dcddf22e6524edc5eb8f25edc62995ce80519efb3ee65ffe6d3d18285cb4ac5",
+        "substitutions": [
+          [
+            "/images/responsive/ef01992f5f867325-480.webp",
+            "/images/responsive/c6ea82f262607026-480.webp"
+          ]
+        ]
+      },
+      {
+        "route": "/stories/ashta-nayika/",
+        "status": 200,
+        "sha256": "d7dd698d0d172aeb3fbe4965f3ea8d2cb799225c46d6bf18dbfd27d973fcd85e",
+        "saved": "stories-ashta-nayika.html",
+        "fragment_sha256": "6106ce457784ab69b16c68747e49656c13ba6c998b7bd802407553f45fa74c91",
+        "substitutions": []
+      }
+    ],
+    "images": [
+      {
+        "url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "local_url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "status": 200,
+        "saved": "a892ea37d5bf-abhisarika-met.jpg",
+        "bytes": 1253838,
+        "sha256": "c015694c9c63580d35f7f77ef19218156fd162db165b5d36547481fd7ec1a160",
+        "local_sha256": "cbf7a0cbc5887e219af9ed9e8bae332e1939b23b74d93bb892e6d29cc83c7040",
+        "byte_equal": false,
+        "descriptor_width": null
+      },
+      {
+        "url": "/images/destinations/belghar-landscape-illustration.webp",
+        "local_url": "/images/destinations/belghar-landscape-illustration.webp",
+        "status": 200,
+        "saved": "7ec4cb3b49af-belghar-landscape-illustration.webp",
+        "bytes": 278076,
+        "sha256": "e15f5d8e69303ccbff1e560df32519eaf48f4d1361332f4fc44aaa9456160951",
+        "local_sha256": "e15f5d8e69303ccbff1e560df32519eaf48f4d1361332f4fc44aaa9456160951",
+        "byte_equal": true,
+        "descriptor_width": null
+      },
+      {
+        "url": "/images/destinations/daringbadi-dawn.webp",
+        "local_url": "/images/destinations/daringbadi-dawn.webp",
+        "status": 200,
+        "saved": "1a1f6dc0bad7-daringbadi-dawn.webp",
+        "bytes": 116012,
+        "sha256": "057d45827cd40945d4825ed89e42192bcc74b1a78d8697503576ed1d761d809f",
+        "local_sha256": "057d45827cd40945d4825ed89e42192bcc74b1a78d8697503576ed1d761d809f",
+        "byte_equal": true,
+        "descriptor_width": null
+      },
+      {
+        "url": "/images/destinations/kalinga-ghati-habitat.webp",
+        "local_url": "/images/destinations/kalinga-ghati-habitat.webp",
+        "status": 200,
+        "saved": "31e20adafb75-kalinga-ghati-habitat.webp",
+        "bytes": 446156,
+        "sha256": "8ff0cd8c541902e1a44b693357dacfd0d625007b4877bf2e8dbd6b313876a448",
+        "local_sha256": "8ff0cd8c541902e1a44b693357dacfd0d625007b4877bf2e8dbd6b313876a448",
+        "byte_equal": true,
+        "descriptor_width": null
+      },
+      {
+        "url": "/images/responsive/22d8ed4c200dab0c-960.webp",
+        "local_url": "/images/responsive/22d8ed4c200dab0c-960.webp",
+        "status": 200,
+        "saved": "7d95043f427e-22d8ed4c200dab0c-960.webp",
+        "bytes": 139850,
+        "sha256": "22d8ed4c200dab0cad3fee9d704d9104d756e30d54046418ded5e945d14c70e8",
+        "local_sha256": "22d8ed4c200dab0cad3fee9d704d9104d756e30d54046418ded5e945d14c70e8",
+        "byte_equal": true,
+        "descriptor_width": 960
+      },
+      {
+        "url": "/images/responsive/2ed449cf5bf6c795-480.webp",
+        "local_url": "/images/responsive/2ed449cf5bf6c795-480.webp",
+        "status": 200,
+        "saved": "6bd63ec9fbf6-2ed449cf5bf6c795-480.webp",
+        "bytes": 45018,
+        "sha256": "2ed449cf5bf6c79504c9785f868983f2eb780f5cb9f713868ba44127bb2071fc",
+        "local_sha256": "2ed449cf5bf6c79504c9785f868983f2eb780f5cb9f713868ba44127bb2071fc",
+        "byte_equal": true,
+        "descriptor_width": 480
+      },
+      {
+        "url": "/images/responsive/4448906916d0828c-960.webp",
+        "local_url": "/images/responsive/4448906916d0828c-960.webp",
+        "status": 200,
+        "saved": "eab2258cfd05-4448906916d0828c-960.webp",
+        "bytes": 249868,
+        "sha256": "4448906916d0828c7796fb689b9623a68b05b1b7fcb96537ca462266b780fca6",
+        "local_sha256": "4448906916d0828c7796fb689b9623a68b05b1b7fcb96537ca462266b780fca6",
+        "byte_equal": true,
+        "descriptor_width": 960
+      },
+      {
+        "url": "/images/responsive/505e3d236c787385-480.webp",
+        "local_url": "/images/responsive/505e3d236c787385-480.webp",
+        "status": 200,
+        "saved": "6fa68749ca06-505e3d236c787385-480.webp",
+        "bytes": 7252,
+        "sha256": "505e3d236c787385dbe51eaaff687dd24032f8fbf75033aaf42364a0d181c656",
+        "local_sha256": "505e3d236c787385dbe51eaaff687dd24032f8fbf75033aaf42364a0d181c656",
+        "byte_equal": true,
+        "descriptor_width": 480
+      },
+      {
+        "url": "/images/responsive/58028ebb873ff8a1-1200.webp",
+        "local_url": "/images/responsive/58028ebb873ff8a1-1200.webp",
+        "status": 200,
+        "saved": "78f57900e8f9-58028ebb873ff8a1-1200.webp",
+        "bytes": 436506,
+        "sha256": "58028ebb873ff8a1b79a878f35bb7c68578766893d9168a1506a90359bdc85b3",
+        "local_sha256": "58028ebb873ff8a1b79a878f35bb7c68578766893d9168a1506a90359bdc85b3",
+        "byte_equal": true,
+        "descriptor_width": 1200
+      },
+      {
+        "url": "/images/responsive/7ad188ddbb49213a-1440.webp",
+        "local_url": "/images/responsive/7ad188ddbb49213a-1440.webp",
+        "status": 200,
+        "saved": "b634c7407b19-7ad188ddbb49213a-1440.webp",
+        "bytes": 41166,
+        "sha256": "7ad188ddbb49213a1a5960fb58b43d15baa9c6be8d0eb832d34a6f8f91c58432",
+        "local_sha256": "7ad188ddbb49213a1a5960fb58b43d15baa9c6be8d0eb832d34a6f8f91c58432",
+        "byte_equal": true,
+        "descriptor_width": 1440
+      },
+      {
+        "url": "/images/responsive/8eed051bc5063b8f-960.webp",
+        "local_url": "/images/responsive/8eed051bc5063b8f-960.webp",
+        "status": 200,
+        "saved": "9c34e9a7552b-8eed051bc5063b8f-960.webp",
+        "bytes": 21922,
+        "sha256": "8eed051bc5063b8fd179d8fa4715ee26ed15e6a496b7c838d7d2525cce8dd88e",
+        "local_sha256": "8eed051bc5063b8fd179d8fa4715ee26ed15e6a496b7c838d7d2525cce8dd88e",
+        "byte_equal": true,
+        "descriptor_width": 960
+      },
+      {
+        "url": "/images/responsive/c6ea82f262607026-480.webp",
+        "local_url": "/images/responsive/ef01992f5f867325-480.webp",
+        "status": 200,
+        "saved": "761d3333ebcd-c6ea82f262607026-480.webp",
+        "bytes": 65572,
+        "sha256": "c6ea82f2626070268e9509eb6591da640a7a922aefd1a3ab186f3921b0f8e1bc",
+        "local_sha256": "ef01992f5f867325e234a821b2d7a6cd7715536f5384d970a39bbd527bd142e6",
+        "byte_equal": false,
+        "descriptor_width": 480
+      },
+      {
+        "url": "/images/responsive/f4f586ecd87e392c-1200.webp",
+        "local_url": "/images/responsive/f4f586ecd87e392c-1200.webp",
+        "status": 200,
+        "saved": "636e95a2393a-f4f586ecd87e392c-1200.webp",
+        "bytes": 260484,
+        "sha256": "f4f586ecd87e392c638b2475fb7fbcdd9611964dd266f729d565c46f7f1f34c6",
+        "local_sha256": "f4f586ecd87e392c638b2475fb7fbcdd9611964dd266f729d565c46f7f1f34c6",
+        "byte_equal": true,
+        "descriptor_width": 1200
+      }
+    ],
+    "route_count": 5,
+    "image_count": 13,
+    "all_http200": true,
+    "images_byte_exact": 11,
+    "responsive_sha_prefixes_and_decoded_descriptor_widths_verified": 9,
+    "base_photo_exact": true,
+    "base_photo_sha256": "8ff0cd8c541902e1a44b693357dacfd0d625007b4877bf2e8dbd6b313876a448",
+    "article_raw_sha256": "305b51c974cd6541661de19e7bf59f50d07656f26add32134bc0a5b385b9822b",
+    "local_article_fragment_sha256": "784e034aa311172a225f4568c8a6ad052318584b7dbf94e61bc2416d4c9f0f12",
+    "continuity": "Only the actually observed Kalinga480 responsive URL substitution is normalized; no prose, credit, structure or other image-base substitutions. The same URL occurs twice in article markup and once in Explore. Hills/destinations cards and Ashta article are raw exact.",
+    "notes": "Ten valid native links: five citations to four notes and five distinct returns; unique IDs. Full source/rights credit, all eight copyright authors, CC BY4.0 link, source DOI, extraction disclosure, caption and sharing base file retained. No photographer identity invented.",
+    "incoming_routes": [
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ]
+  },
+  "encoding_difference_review": {
+    "result": "accepted_after_independent_measurement_and_visual_review",
+    "raw_status_retained": "REVIEW_DIFFERENCES",
+    "measurements": [
+      {
+        "url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "dimensions": [
+          1488,
+          2048
+        ],
+        "byte_equal": false,
+        "decoded": {
+          "changed_channels": 166,
+          "total_channels": 9142272,
+          "max_delta": 2,
+          "mean_delta": 2.0126288082437276e-05,
+          "rms": 0.004905511196457135
+        },
+        "metadata": {
+          "icc": {
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          "iptc": {
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          "xmp": {
+            "live_bytes": 3380,
+            "local_bytes": 3380,
+            "equal": true
+          },
+          "exif": {
+            "live_bytes": 186,
+            "local_bytes": 186,
+            "equal": true
+          }
+        }
+      },
+      {
+        "url": "/images/responsive/c6ea82f262607026-480.webp",
+        "dimensions": [
+          480,
+          311
+        ],
+        "byte_equal": false,
+        "decoded": {
+          "changed_channels": 184711,
+          "total_channels": 447840,
+          "max_delta": 19,
+          "mean_delta": 1.1602715255448375,
+          "rms": 2.2996360990218125
+        },
+        "metadata": {
+          "icc": {
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          "iptc": {
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          "xmp": {
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          },
+          "exif": {
+            "live_bytes": 0,
+            "local_bytes": 0,
+            "equal": true
+          }
+        }
+      }
+    ],
+    "visual": "Viewed freshly fetched Kalinga480 image directly against the earlier actual local variant; forest, building, wires and A marker remain clear. Viewed actual live and local Ashta JPEG side-by-side at full-frame display size; no conspicuous quality loss, crop or semantic change. All eleven final screenshots additionally reviewed.",
+    "ashta_live_sha256": "c015694c9c63580d35f7f77ef19218156fd162db165b5d36547481fd7ec1a160",
+    "ashta_local_sha256": "cbf7a0cbc5887e219af9ed9e8bae332e1939b23b74d93bb892e6d29cc83c7040",
+    "ashta_original_sha256": "eaff339bea55c126bce518e954ae531d2daec78764b5db13a62cb1581c83dcf9",
+    "ashta_live_bytes": 1253838,
+    "ashta_local_bytes": 1253839,
+    "limits": "Neither differing image is byte- or pixel-identical. Exact cause is not reproduced or asserted. Actual live/local metadata equality does not erase the previously documented addition of technical EXIF relative to the archival Ashta original. Measurements do not substitute for the separate visual assessment."
+  },
+  "visual_review": {
+    "result": "pass",
+    "screenshots_individually_inspected": [
+      {
+        "file": "screenshots/live-desktop-article.jpg",
+        "sha256": "7db9bdb31b3ecdfca7eb3007c8a529dba147b02ddb7f306dc92413b3cc9d4241"
+      },
+      {
+        "file": "screenshots/live-desktop-sources.jpg",
+        "sha256": "3b2a5846625532e69634a0ca371f50b010d34ffd3a4a32436ced2b4542414fef"
+      },
+      {
+        "file": "screenshots/live-desktop-notes-reading.jpg",
+        "sha256": "9ad2b275a7694c0b72195ffa9661ea5ede832cea6e37b78ae471e904ca12bce6"
+      },
+      {
+        "file": "screenshots/live-mobile-article.jpg",
+        "sha256": "089fe7ee9876c6aae1ec4fdc00eae45d2421204b1c1b512e9bf00fef6b784caa"
+      },
+      {
+        "file": "screenshots/live-mobile-sources.jpg",
+        "sha256": "f72d73c7bd86004fef3c750e84a261a23f4b2e52f0da91ea3a969e3ba29eb25c"
+      },
+      {
+        "file": "screenshots/live-mobile-hills-card.jpg",
+        "sha256": "e24bc4bfa192f6c2e6b1b88ed2ca098330a60b966c9fbdb9e2051447579b0b30"
+      },
+      {
+        "file": "screenshots/live-mobile-explore.jpg",
+        "sha256": "0e0a7d5b1fc02f9456ca905c6fee05fa5ec2c4c9049d0fd126e54b2ccfd92d34"
+      },
+      {
+        "file": "screenshots/live-desktop-explore-card.jpg",
+        "sha256": "171cf22c773ac12d91c3a61c304608ec06971855a35645604ea7b8a1d50f714c"
+      },
+      {
+        "file": "screenshots/live-desktop-destinations.jpg",
+        "sha256": "bde9f6e2f74e8464995b8457402f55007f9881de8378eccaf4c358d6d372edab"
+      },
+      {
+        "file": "screenshots/live-desktop-ashta.jpg",
+        "sha256": "0c6a40736b7382355b305d4c029e29b98d240c8caa1b3bc42d0811782b3cab8e"
+      },
+      {
+        "file": "screenshots/live-mobile-ashta.jpg",
+        "sha256": "347863082f5d5ca143bc9c7899b29cd58d0e6305c965395ad7fe0386c8c51aa1"
+      }
+    ],
+    "count": 11,
+    "root_browser_attribution": "Disha operated actual desktop reference3/mobile reference1 clicks and Enter returns, all three incoming-card navigations and Explore query. This reviewer inspected supplied images independently, not the interactions.",
+    "findings": [
+      "Full selected habitat panel and complete eight-author/source/licence/change credit readable on mobile; desktop opening clips lower credit as documented.",
+      "All four notes are readable in source screenshots, with heading above the frame; partial reading view begins at note3. Belghar retains Illustration label and Daringbadi its photograph.",
+      "Complete mobile hills card, complete desktop/mobile Explore entries and complete desktop destinations Kalinga card show the correct photograph.",
+      "Both Ashta views show the full painted mount and readable museum/context/transformation caption; direct fetched JPEG independently assessed.",
+      "No visible layout overlap or horizontal clipping in supplied1440/390views. Root separately reports no observed overflow."
+    ],
+    "excluded": [
+      "screenshots/live-desktop-explore.jpg",
+      "screenshots/live-desktop-notes.jpg"
+    ],
+    "limits": [
+      "No physical-device, cross-browser or site-wide accessibility certification.",
+      "Screenshot inspection cannot independently establish keyboard focus or scrolling; those actions are root-attributed.",
+      "Source-heading not framed in final source-list views; live HTML retains it."
+    ]
+  },
+  "preservation": {
+    "no_public_site_research_media_diff_from_publication_merge": true,
+    "all_15_kaincha_preparation_hashes_preserved": true,
+    "kaincha_receipt_and_completion_review_preserved": true,
+    "foreign_current_task_handoff_home_preserved": true,
+    "activity_exact_historical_prefix_preserved": true,
+    "full_figure_original_sha256": "b9f9790d592a06029cba340fb10c3cbf5abf2d35d5d1876c6b592c921e17d04e",
+    "source_media_rights_and_archival_ashta_originals_unchanged": true,
+    "raw_capture_log_whitespace_exceptions_remain_scoped": true,
+    "programme_credit": 0
+  },
+  "coordination": {
+    "active_article": "Kalinga Ghati",
+    "release_condition": "Only after separately reviewed evidence-only receipt passes required checks and actually merges.",
+    "next_reserved": "Kapileswar Hatuari, then Birakishore Das, then Tensa after explicit returned slot.",
+    "authorization_attribution": "Reservation records contain actual user-message IDs/quotes independently retrieved by coordinator; this reviewer verified conditional wording and consistency, not a separate read_thread retrieval.",
+    "kaincha": "Preparation preserved and unpublished; no new authorization inferred."
+  },
+  "required_next": [
+    "Integrate actual delivery evidence into canonical receipt and undergo separate final receipt review",
+    "Exact receipt commit continuity, required project CI and actual receipt merge before handoff"
+  ],
+  "limitations": [
+    "Source locality follows original scientific figure caption; no capture-date, current-condition or fieldwork assertion.",
+    "Dated access report remains attributed reporting, not a continuing road-access guarantee.",
+    "No human reviewer is claimed.",
+    "Delivery PASS does not by itself complete or merge the evidence-only receipt."
+  ],
+  "evidence": {
+    "review/live-independent/fresh-fetch.json": "87a97f37dbd622a753a8bf0ef268f7282f1d706ce455f0ec893f84a3fcfde17d",
+    "review/live-independent/independent-measurement.json": "21709c210775ce849ae1a45c0dede6337036df86bca27544c38d8d1ccc641100",
+    "review/live-independent/fresh-remote-payload.json": "adfa66f10c31f0836276f8c2853d67b5d9d99b6a6cc84073e5e1f638585e2686",
+    "live/verification.json": "c2f3c54433af2de562dcf5a741179556367502ba34b09317471ed1dcf04777b8",
+    "live/image-comparison.json": "84fca47673ee31dc29459dea200c88da54808607e4db9e7dddaaae250388a75f",
+    "review/live-browser-review.json": "6398378f753a16cea625a6116fcb16f036f095af5b805cfd5bc6c858d1250998",
+    "remote/deployment.json": "64370b9d53e7cf42fbe9e84eed943b8c027f70e20c5ddbaee914adf406cf0a41",
+    "remote/deployment-payload.json": "ea3ef939ea17f23f0ac57cce0c20aad37f8cf9ebfa2ebd34c845ff29bed43645"
+  }
+}
