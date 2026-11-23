@@ -10621,6 +10621,27 @@
       "evidence": [
         "records/kalinga-ghati-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261123101",
+      "title": "Publish Kapileswar at Hatuari: What Do We Actually Know?",
+      "category": "publication",
+      "status": "ready",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-20261123101",
+      "next_action": "Complete package checks; receive explicit slot handoff, reconcile main, record claim, commit and review exact head; required hosted checks, merge, publish, live verification and evidence-only receipt.",
+      "blockers": [
+        "Waiting for reserved publication slot after Kalinga Ghati receipt"
+      ],
+      "refs": [
+        "POD-DEC-20261123101",
+        "POD-REV-20261123101"
+      ],
+      "evidence": [
+        "records/kapileswar-hatuari-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -16071,6 +16092,21 @@
       "refs": [],
       "evidence": [
         "records/kalinga-ghati-publication-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261123101",
+      "title": "Publish original Kapileswar at Hatuari article in History and Heritage",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Please finish publishing the article in Project Odisha’s History and Heritage section and send me the working link so I can share it with Gayatri and Sambit.",
+      "scope": "Finish original independently researched article and publish in History and Heritage after coordinated slot handoff; provide working link to Founder. No Facebook sending.",
+      "refs": [],
+      "evidence": [
+        "records/kapileswar-hatuari-publication-20261123.json"
       ]
     }
   ],
@@ -25683,6 +25719,31 @@
         "No fieldwork or human specialist review.",
         "Photo locality follows publisher caption; capture date unverified.",
         "Static review is not publication or current-access guarantee."
+      ]
+    },
+    {
+      "id": "POD-REV-20261123101",
+      "title": "Kapileswar at Hatuari independent source and integrated editorial review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-20261123101",
+        "POD-DEC-20261123101"
+      ],
+      "evidence": [
+        "records/kapileswar-hatuari-publication-20261123.json"
+      ],
+      "summary": "Independent content, source distinctions, licensed image, integrated reading and incoming links passed; package gates, exact head and actual delivery remain pending.",
+      "independent": true,
+      "limitations": [
+        "Fourteenth-century architectural date remains provisional",
+        "Post-Ganga wording is an apparent chronological inconsistency, not silently corrected",
+        "Chapter author and full references remain unverified",
+        "Possible shared source among inventory, book and board",
+        "No fieldwork, archaeological specialist review or current engineering assessment claimed"
       ]
     }
   ],

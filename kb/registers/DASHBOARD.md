@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e9074ca5493bc9918f39a17582116691eefdd88a45877c50980347dbb70984f1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `71f7a96de148d893ed662a09f8dc5936c8b76247b2b71f864115ed8ca4aba6fe`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -413,6 +413,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112393 · Research, review and publish Belghar–Tumudibandha | completed | published | Ahimanikya Satapathy | Merge reviewed evidence-only receipt after actual required CI, then explicit reserved preparation-only handoff; Kalinga Ghati remains queued. | — |
 | POD-WORK-2026112303 · Prepare Kaincha: Making with Golden Grass | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Kaincha draft, unchanged credited photograph and publication brief; return the preparation slot to the hill-series chat for Kalinga Ghati. No public integration authorized. | — |
 | POD-WORK-2026112394 · Research, review and publish Kalinga Ghati | completed | published | Ahimanikya Satapathy | Complete separately reviewed receipt and actual required CI/merge, then explicit handoff to Kapileswar Hatuari, preserving following Birakishore reservation before Tensa. | — |
+| POD-WORK-20261123101 · Publish Kapileswar at Hatuari: What Do We Actually Know? | ready | reviewed | Ahimanikya Satapathy | Complete package checks; receive explicit slot handoff, reconcile main, record claim, commit and review exact head; required hosted checks, merge, publish, live verification and evidence-only receipt. | Waiting for reserved publication slot after Kalinga Ghati receipt |
 
 ## Pending human review and decisions
 
@@ -754,6 +755,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112302 · Publish Sola and the Odissi tahia after Gandhamardan | recorded_direction | Ahimanikya Satapathy | Integrate and publish reviewed Sola article with credited photograph, related incoming links and mobile/desktop layout checks. |
 | POD-DEC-2026112303 · Prepare next original Antaranga-led article after Belghar release | recorded_direction | Ahimanikya Satapathy | One independent draft with credited image; preparation only. |
 | POD-DEC-2026112394 · Publish Kalinga Ghati after the returned preparation slot | recorded_direction | Ahimanikya Satapathy | Research, review and publish Kalinga Ghati with credited article/preview image, then remaining hills one at a time. |
+| POD-DEC-20261123101 · Publish original Kapileswar at Hatuari article in History and Heritage | recorded_direction | Ahimanikya Satapathy | Finish original independently researched article and publish in History and Heritage after coordinated slot handoff; provide working link to Founder. No Facebook sending. |
 
 ## Reviews
 
@@ -1166,6 +1168,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112393 | pass | True | No human specialist, field or physical-device review.; Interpretive illustration is labelled, not a documented viewpoint.; All 12 checked live image files match reviewed local bytes; no site-wide equality claim. |
 | POD-REV-2026112303 | pass_with_limitations | True | Separate AI review, not human specialist approval or fieldwork.; Directorate original indexed entry inspected; direct HTML access failed.; Dsource plant-name and hidden core terminology remain unresolved and are omitted.; Photo maker, workshop and capture date are unknown; not assigned to the Kendrapara group.; Noncommercial, share-alike and attribution conditions apply to the licensed image.; No website rendering, deployment or live checks for this preparation-only task. |
 | POD-REV-2026112394 | pass | True | No fieldwork or human specialist review.; Photo locality follows publisher caption; capture date unverified.; Static review is not publication or current-access guarantee. |
+| POD-REV-20261123101 | pass | True | Fourteenth-century architectural date remains provisional; Post-Ganga wording is an apparent chronological inconsistency, not silently corrected; Chapter author and full references remain unverified; Possible shared source among inventory, book and board; No fieldwork, archaeological specialist review or current engineering assessment claimed |
 
 ## Publication and application history
 
