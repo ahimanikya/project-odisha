@@ -1,0 +1,251 @@
+{
+  "owner": "Disha",
+  "started_on": "2026-11-23",
+  "authorization_quote": "Yes, coordinate with the other chat and reserve the next slot. Once Belghar–Tumudibandha’s release is complete, prepare an original article on an uncovered Antaranga Kalinga topic with independent research and a credited image.",
+  "authorization": "POD-DEC-2026112303",
+  "work_id": "POD-WORK-2026112303",
+  "scope": "One independently researched original article preparation with credited image; no website integration or publication.",
+  "status": "prepared_reviewed",
+  "scope_released": true,
+  "programme_credit": 0,
+  "input_head": "2f2900a4f2d6d1c685ed46ead1b929fc0310034e",
+  "remote_reconciliation": {
+    "prior_receipt_pr": 843,
+    "prior_receipt_merge": "2f2900a4f2d6d1c685ed46ead1b929fc0310034e",
+    "required_check_run": 45129311537,
+    "required_check_result": "SUCCESS",
+    "explicit_handoff_received": true,
+    "independent_github_verification": true,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "assignments": {
+    "Disha": "Single coordinator, original prose and shared records",
+    "Anvesha": "Bounded topic novelty and independent source research",
+    "Samanta": "Rights-cleared photograph and provenance after topic selection",
+    "Drishti": "Separate integrated article/source/media review"
+  },
+  "reserved_files": {
+    "Disha": [
+      "kb/records/antaranga-after-belghar-preparation-20261123.json",
+      "shared records",
+      "kb/research/culture/kaincha-and-golden-grass.md",
+      "outputs/kaincha-article-2026-11-23/article.md",
+      "outputs/kaincha-article-2026-11-23/publication-brief.md"
+    ],
+    "Anvesha": [
+      "kb/research/culture/kaincha-source-review-20261123.json",
+      "outputs/kaincha-article-2026-11-23/research/"
+    ],
+    "Samanta": [
+      "kb/research/culture/kaincha-image.json",
+      "kb/media/kaincha/",
+      "outputs/kaincha-article-2026-11-23/media/"
+    ],
+    "Drishti": [
+      "outputs/kaincha-article-2026-11-23/review/"
+    ]
+  },
+  "publication_authorized": false,
+  "deployment_required": false,
+  "deployment_reason": "Preparation only; no website edits.",
+  "runtime": "Existing completed agents reconciled before reuse; no continuous runtime claimed.",
+  "topic": "Kaincha / golden-grass craft",
+  "article_id": "POD-EDIT-KAINCHA-20261123",
+  "novelty": {
+    "queries": [
+      "python3 tools/research/query_research.py golden",
+      "python3 tools/research/query_research.py sabai",
+      "python3 tools/research/query_research.py kaincha",
+      "rg -n -i 'golden.grass|kaincha|kaicha|sab[aā]i|କାଇଁଚ|ସବାଇ' kb/research/culture projects/site/src/pages projects/site/src/data --glob '!people-creations.json'"
+    ],
+    "finding": "No dedicated mapped or narrative coverage found in the scoped corpus. Golden query yielded unrelated Golden Triangle tourism. Sabai and kaincha map queries returned no records. Actual culture/site search found prior Sola screening and Binchana taxonomy caution only.",
+    "reuse_inspected": [
+      "kb/research/methods/research-map.md",
+      "references/data/research-queue.json:RES-032.reuse_before_research",
+      "references/data/research-queue.json:RES-033.reuse_before_research",
+      "kb/research/culture/material-arts.md",
+      "kb/research/culture/index.md",
+      "kb/research/culture/binchana-source-review-20261122.json"
+    ],
+    "new_contribution": "A focused reading of documented grass-working actions and containers, connected to a named producer group in a dated government report.",
+    "limits": "Scoped semantic search, not a claim that every archive or external page was exhaustively inspected. Existing fan coverage remains distinct."
+  },
+  "completed_on": "2026-11-23",
+  "publication_status": "not_published",
+  "release_condition": "Effective after separately reviewed local preparation commit and explicit handoff to the hill-series chat; no website publication.",
+  "next_action": "Deliver reviewed Kaincha draft, unchanged credited photograph and publication brief; return the preparation slot to the hill-series chat for Kalinga Ghati. No public integration authorized.",
+  "discovery_only": {
+    "url": "https://antarangakalinga.org/ama-chalani/",
+    "title": "ଆମ ଚଳଣି / Ama Chalani",
+    "author": "Dr Jayashree Nanda / ଡ. ଜୟଶ୍ରୀ ନନ୍ଦ",
+    "published": "2026-05-23",
+    "locator": "Photo-description list mentions କାଇଁଚ ଡାଲା",
+    "access": "Original indexed search extraction inspected during topic screening; direct web open returned cache miss. Author/date reused from previously verified Binchana discovery record.",
+    "use": "Topic discovery only. No narrative, translation, factual claim or photograph adopted. This is a passing craft mention, not a dedicated golden-grass article."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "record": "research/culture/kaincha-source-review-20261123.json",
+    "final_review": "outputs/kaincha-article-2026-11-23/research/final-source-review.json",
+    "scope_released": true
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "status": "media_complete",
+    "record": "research/culture/kaincha-image.json",
+    "scope_released": true,
+    "editorial_owner": "Disha"
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "record": "outputs/kaincha-article-2026-11-23/review/integrated-review.json",
+    "reviewed_hashes": {
+      "kb/research/culture/kaincha-and-golden-grass.md": "2e9b88e970e8153b3833c7db60814977f0ae7962188a5cf5232b221ffc9c50d8",
+      "outputs/kaincha-article-2026-11-23/article.md": "08b3aac86acaae653ebd2628b019b5bc4696b1fad48bbf08ce1c10d6f971aca4",
+      "outputs/kaincha-article-2026-11-23/publication-brief.md": "a6b4b6c705d1d94465ebe055f2d6ca7880d435b97b04768819baf702d4dcfc34",
+      "kb/research/culture/kaincha-image.json": "c9956b9c0d237384a4f2f7c1aaf81c5ef985fd5aa93dc47d235c1ed34362d9c0",
+      "kb/research/culture/kaincha-source-review-20261123.json": "48de852fc89d68b833db3df5e83a0f04cd911acce7fb2e64a9da48ae2e0d90d0",
+      "kb/media/kaincha/golden-grass-square-box.jpg": "f4129296626ece7655531a234bc9783d6066706db7d97aa859fd090b8aa72761",
+      "outputs/kaincha-article-2026-11-23/media/golden-grass-square-box.jpg": "f4129296626ece7655531a234bc9783d6066706db7d97aa859fd090b8aa72761",
+      "outputs/kaincha-article-2026-11-23/research/final-source-review.json": "62328935db2eb891f2b1919977c8bb1f79495d7a27b8d3359c85034d9ad48455"
+    },
+    "conservative_derived_word_allocations": {
+      "directorate": 153,
+      "mission_shakti": 153,
+      "dsource_text_and_photography": 197
+    },
+    "counting_scope": "Full title, description, headings, related prose and notes, photo alt/caption/credit, and substantive brief wording. Drishti adds one shared ampersand token to Anvesha counts. Identical portable representation counted once. Future preview wording requires a fresh combined count.",
+    "limitations": [
+      "Separate AI review, not human specialist approval or fieldwork.",
+      "Directorate original indexed entry inspected; direct HTML access failed.",
+      "Dsource plant-name and hidden core terminology remain unresolved and are omitted.",
+      "Photo maker, workshop and capture date are unknown; not assigned to the Kendrapara group.",
+      "Noncommercial, share-alike and attribution conditions apply to the licensed image.",
+      "No website rendering, deployment or live checks for this preparation-only task."
+    ],
+    "scope_released": true
+  },
+  "validation": {
+    "status": "pass",
+    "article_notes": {
+      "references": 7,
+      "definitions": 4,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical": true,
+    "byline": "Ahimanikya Satapathy",
+    "publication_authorized": false,
+    "original_image_sha256": "f4129296626ece7655531a234bc9783d6066706db7d97aa859fd090b8aa72761",
+    "original_bytes": 162391,
+    "images_byte_identical": true,
+    "foreign_task_and_belghar_receipt_preserved": true,
+    "website_paths_changed": false,
+    "deployment_required": false,
+    "deployment_reason": "Preparation only; no website route or site asset changes.",
+    "layout_and_live_checks": "Not performed for preparation-only delivery.",
+    "programme_credit": 0,
+    "checks_passed": [
+      "research map 1861 records",
+      "catalogue 1922 concepts",
+      "bundle 8624 local links",
+      "editorial workbench current",
+      "team assignments",
+      "autonomous programme record consistency",
+      "staged whitespace check excluding three unchanged raw HTML source captures",
+      "register consistency: 1363 records, 849 events"
+    ],
+    "whitespace_capture_exception": {
+      "full_staged_check": "Reported original CRLF and trailing whitespace in the three raw HTML source captures; preserved byte-exact for provenance.",
+      "excluded_paths": [
+        "outputs/kaincha-article-2026-11-23/media/credits-source.html",
+        "outputs/kaincha-article-2026-11-23/media/licence-source.html",
+        "outputs/kaincha-article-2026-11-23/media/products-source.html"
+      ],
+      "scoped_check": "PASS for all other staged paths. Earlier unstaged check did not include untracked captures."
+    }
+  },
+  "capacity_handoff": {
+    "prior_live_payload_bytes": 999752098,
+    "remaining_bytes": 247902,
+    "original_image_bytes": 162391,
+    "action": "Preserve original and remeasure actual capacity after future integration/variants. No site optimization in this task."
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/kaincha-and-golden-grass.md",
+      "sha256": "2e9b88e970e8153b3833c7db60814977f0ae7962188a5cf5232b221ffc9c50d8"
+    },
+    {
+      "path": "kb/research/culture/kaincha-source-review-20261123.json",
+      "sha256": "48de852fc89d68b833db3df5e83a0f04cd911acce7fb2e64a9da48ae2e0d90d0"
+    },
+    {
+      "path": "kb/research/culture/kaincha-image.json",
+      "sha256": "c9956b9c0d237384a4f2f7c1aaf81c5ef985fd5aa93dc47d235c1ed34362d9c0"
+    },
+    {
+      "path": "kb/media/kaincha/golden-grass-square-box.jpg",
+      "sha256": "f4129296626ece7655531a234bc9783d6066706db7d97aa859fd090b8aa72761"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/article.md",
+      "sha256": "08b3aac86acaae653ebd2628b019b5bc4696b1fad48bbf08ce1c10d6f971aca4"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/checks.json",
+      "sha256": "e81b9aae9585046030c9bff4842cdb4cbd7581bc7dae8ff867a2be8ff4fbd62c"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/media/credits-source.html",
+      "sha256": "316f7816487b659336aad2c0c1b7a073ae670ac0e740d8470ab9e4b7ec002d9a"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/media/golden-grass-square-box.jpg",
+      "sha256": "f4129296626ece7655531a234bc9783d6066706db7d97aa859fd090b8aa72761"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/media/licence-source.html",
+      "sha256": "b2e84a068acb73afc90e334cef0b96f1f0e944d9fc1ccde836ff5d769a76b866"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/media/products-source.html",
+      "sha256": "524f8c38a73c55faa6759f372d34aab6b4c5a3e7c369be51b12772ef3d02d372"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/media/retrieval.json",
+      "sha256": "0537dbe499be7ad44f2472938d7e403826d72c0734bdac7a63230e58ce685eec"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/publication-brief.md",
+      "sha256": "a6b4b6c705d1d94465ebe055f2d6ca7880d435b97b04768819baf702d4dcfc34"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/research/final-source-review.json",
+      "sha256": "62328935db2eb891f2b1919977c8bb1f79495d7a27b8d3359c85034d9ad48455"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/research/retrieval.json",
+      "sha256": "5d32382542c023e844aa088dab98ab90597983bbed005d3c330147ef4cff65f3"
+    },
+    {
+      "path": "outputs/kaincha-article-2026-11-23/review/integrated-review.json",
+      "sha256": "a14d12297afa3a263ce1179d6304bfe112bba2fced7dc596eefe9d217eb22ca8"
+    }
+  ],
+  "completion_record_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "record": "outputs/kaincha-article-2026-11-23/review/completion-review.json",
+    "sha256": "5180df8da68360ec8ae9350b8b7eae333d836009adea00225f0aa2a354cc9423",
+    "delivery_hashes_verified": 15,
+    "website_diff": "empty",
+    "foreign_ownership": "preserved",
+    "limitations": "Local commit and explicit handoff remain. No public delivery authorized; three unchanged raw HTML captures retain original whitespace."
+  }
+}

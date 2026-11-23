@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "topic": "Kaincha / golden-grass craft",
+  "status": "final_preparation_source_review_pass",
+  "reviewer": "Anvesha; task-scoped AI source review, not human specialist review",
+  "access_date": "2026-11-23",
+  "handoff": "kb/records/antaranga-after-belghar-preparation-20261123.json",
+  "publication_authorized": false,
+  "discovery": {
+    "url": "https://antarangakalinga.org/ama-chalani/",
+    "title": "ଆମ ଚଳଣି / Ama Chalani",
+    "author": "Dr Jayashree Nanda / ଡ. ଜୟଶ୍ରୀ ନନ୍ଦ",
+    "published": "2026-05-23",
+    "locator": "Photo-description list mentions କାଇଁଚ ଡାଲା",
+    "access": "Original indexed search extraction inspected during topic screening; direct web open returned cache miss. Author/date reused from previously verified Binchana discovery record.",
+    "use": "Topic discovery only. No narrative, translation, factual claim or photograph adopted. This is a passing craft mention, not a dedicated golden-grass article."
+  },
+  "novelty": {
+    "queries": ["python3 tools/research/query_research.py golden", "python3 tools/research/query_research.py sabai", "python3 tools/research/query_research.py kaincha", "rg -n -i 'golden.grass|kaincha|kaicha|sab[aā]i|କାଇଁଚ|ସବାଇ' kb/research/culture projects/site/src/pages projects/site/src/data --glob '!people-creations.json'"],
+    "finding": "No dedicated mapped or narrative coverage found in the scoped corpus. Golden query yielded unrelated Golden Triangle tourism. Sabai and kaincha map queries returned no records. Actual culture/site search found prior Sola screening and Binchana taxonomy caution only.",
+    "reuse_inspected": ["kb/research/methods/research-map.md", "references/data/research-queue.json:RES-032.reuse_before_research", "references/data/research-queue.json:RES-033.reuse_before_research", "kb/research/culture/material-arts.md", "kb/research/culture/index.md", "kb/research/culture/binchana-source-review-20261122.json"],
+    "new_contribution": "A focused reading of documented grass-working actions and containers, connected to a named producer group in a dated government report.",
+    "limits": "Scoped semantic search, not a claim that every archive or external page was exhaustively inspected. Existing fan coverage remains distinct."
+  },
+  "sources": [
+    {
+      "id": "kaincha-directorate-golden-grass",
+      "family": "directorate-handicrafts",
+      "title": "Golden Grass",
+      "author": "Directorate of Handicrafts, Government of Odisha",
+      "date": null,
+      "date_limit": "Undated craft entry; no inferred fieldwork or publication date.",
+      "url": "https://crafts.odisha.gov.in/?crafts=golden-grass",
+      "type": "Institutional primary craft description",
+      "access": "Original indexed entry read via web search. Direct web open timed out; direct curl failed to connect. Do not describe as locally captured full HTML.",
+      "locators": ["Single craft-description paragraph following Back to Crafts Page"],
+      "supported_claims": ["Institution uses Kaincha as the local name for golden grass.", "Description connects the golden appearance to drying and describes splitting and weaving dried material.", "Its examples include baskets, mats, coasters, boxes, wall hangings and hats."],
+      "limits": ["Not a botanical identification or universal name equivalence.", "No current production, geographical exclusivity, GI status or sustainability claim."],
+      "word_budget": 200
+    },
+    {
+      "id": "kaincha-dsource-nid-puri",
+      "family": "dsource-nid-puri-text-and-photography",
+      "title": "Golden Grass Craft - Puri, Orissa",
+      "authors": ["Prof. Bibhudutta Baral", "Divyadarshan C. S.", "Aakash Sharma"],
+      "publisher": "D’source; NID Campus, Bengaluru",
+      "date": null,
+      "date_limit": "No verified documentation or photo date; asset metadata is not fieldwork dating.",
+      "url": "https://www.dsource.in/resource/golden-grass-craft-puri-orissa/",
+      "pdf_url": "https://www.dsource.in/sites/default/files/resource/golden-grass-craft-puri-orissa/downloads/file/golden-grass-craft-puri-orissa.pdf",
+      "type": "Institutional craft documentation with process photographs; internally inconsistent material terminology",
+      "access": "Original 20-page PDF downloaded successfully; all extracted text read. Anvesha visually inspected full pages12–15. HTML process page contains unrelated injected games links; none followed. Original PDF supports the bounded photographic observations but repeats the suspect botanical/core terminology, so that terminology remains excluded.",
+      "local_original": "/tmp/kaincha-dsource.pdf",
+      "sha256": "132d197c39af4195a1bdf3d2ada2a33b64af6d4f1588d9922f4ee8d90dec826e",
+      "locators": ["p1 title and credits", "pp2–3 Gop framing", "pp7,11 material/process prose", "p12 illustrated process chart", "p13 blade preparation, colour treatment and winding photographs", "p14 tensioned circular start", "p15 tool use, larger circular work and completed lidded container", "pp16–18 product descriptions and images", "p20 documentation credits"],
+      "supported_claims": ["In this Gop/Puri documentation, photographs show blade preparation, colouring, a small circular start drawn tight, and a pointed iron tool opening gaps as work develops.", "The sequence ends with a round lidded container; product pages separately show boxes and other useful forms.", "A bounded reading of the documented handwork is supported; it is not a complete tutorial or proof of one statewide technique."],
+      "limits": ["Do not equate kaincha, sikki, munj, khar, sabai or Bena, or name a scientific species.", "Do not assert a particular hidden core material: images cannot independently establish the species; prose terminology and regional framing are confused.", "Omit origin, tribal identity, artisan counts, present livelihood, prices, sustainability and market-growth claims.", "Omit dye recipe, duration and safety instructions; no exact universal process order.", "Pictured product maker and exact workshop are not identified."],
+      "word_budget": 200,
+      "budget_reservation": "Same family includes selected product photograph, alt, caption and full creator/licence note (about53words), documentation note, headings and relevant metadata. Keep factual prose plus documentation note around120words or below pending final count.",
+      "media_record": "kb/research/culture/kaincha-image.json"
+    },
+    {
+      "id": "kaincha-mission-shakti-2021-22",
+      "family": "mission-shakti-annual-report",
+      "title": "Annual Activity Report 2021–2022",
+      "author": "Department of Mission Shakti, Government of Odisha",
+      "date": "2021–2022 reporting period",
+      "date_limit": "Cover establishes report period; exact publication day not verified. URL upload directory2022-12 is not a publication date. Adjacent report content includes June2022 events, so avoid assigning every example to a strict financial-year event date.",
+      "url": "https://missionshakti.odisha.gov.in/sites/default/files/2022-12/Mission%20Shakti%20Activity%20Report%202021-22_compressed.pdf",
+      "type": "Primary institutional report about its programme; self-reported example, not an independent evaluation",
+      "access": "Web open timed out; direct original PDF download succeeded. Cover and full printed/PDFp58 visually inspected by Anvesha after text extraction.",
+      "local_original": "/tmp/kaincha-mission.pdf",
+      "sha256": "f2238e0a6d94fefeccc5758ad46dcba5c3b7759c6d90d348cdf74a4ef62e09ac",
+      "locators": ["Cover: report title and period", "Printed/PDFp58, Kendrapara paragraph"],
+      "supported_claims": ["The report identifies Mahabir SHG at Jhajanga in its Kendrapara account.", "It associates the group with baskets, bags, flower vases, jewellery boxes, lamps, mats and decorative items."],
+      "limits": ["Attribute to the dated report rather than imply a fresh visit or current output.", "Exclude turnover, pioneering status, empowerment outcomes and unspecified training success.", "Do not identify selected Puri photograph with this Kendrapara group.", "General harvesting wording overlaps other institutional accounts; independence here rests on the named programme example, not treating repeated generic text as corroboration.", "Earlier Coffee Table Book search extraction spells the group Mahanir; not adopted. Preserve Mahabir as visibly printed in this report without inventing identity reconciliation."],
+      "word_budget": 200
+    }
+  ],
+  "claim_map": [
+    {"claim": "Name, dried appearance and range of usable objects", "source_ids": ["kaincha-directorate-golden-grass"], "scope": "Institutional craft description, no botanical inference"},
+    {"claim": "Specific visible making actions and container form", "source_ids": ["kaincha-dsource-nid-puri"], "scope": "Gop/Puri documentation, bounded visual observations"},
+    {"claim": "Named producer-group example", "source_ids": ["kaincha-mission-shakti-2021-22"], "scope": "Dated report, not present-day verification"}
+  ],
+  "source_families": {
+    "count": 3,
+    "independence": "Directorate craft entry, NID documentation and Mission Shakti programme report are distinct records. Use the report for its specific group example rather than overlapping generic grass language. Dsource HTML/PDF/photo are one family.",
+    "ceiling": "200 derived words per family across final article, relevant title/dek/headings, source notes, photo alt/caption/credit and newly authored brief claims. Identical portable copy is not additional prose. Final allocations require actual draft review."
+  },
+  "taxonomy_limits": "Existing Binchana dossier explicitly withheld golden-grass/Bena botanical equivalence. Current Dsource repeats sikki/munj terminology across its PDF and HTML but this is not independent reconciliation. This article adopts none of those equivalences or scientific names.",
+  "excluded": ["GI registration claim", "Botanical species and regional plant-name equivalences", "Antiquity, extinction or universal household prevalence", "Present income/workforce or success metrics", "Unverified named teacher or training account", "Puri image assigned to Mahabir SHG", "Antaranga prose, translation or image reuse"],
+  "captures": "Original PDFs and temporary page renders remain in /tmp; no full third-party article text is redistributed in repository. A compact retrieval record under the reserved research directory records actual inspection and hashes.",
+  "review_state": "Final claims, source attribution, temporal specificity, image description, interpretation boundaries and source-family budgets PASS. Root removed the four redundant brief media descriptions; full public credit unchanged. Separate quality review remains independent. Anvesha reserved scope released.",
+  "final_claim_review": {
+    "reviewed_on": "2026-11-23",
+    "canonical_sha256_at_review": "2e9b88e970e8153b3833c7db60814977f0ae7962188a5cf5232b221ffc9c50d8",
+    "claim_result": "PASS",
+    "article_scope": "Original form comparisons are explicitly identified as the author's reading. Process observations correspond to original PDFpp13–15. Mahabir/Jhajanga remains attributed to report2021–2022. Puri photograph is not assigned to that group.",
+    "media_inspection": "Anvesha personally viewed the full original667×1000 two-view photograph; alt, caption and rectangular/open/closed box descriptions match. Both team photographer names and CC BY-NC-SA4.0 credit retained. Rights provenance remains in kaincha-image.json.",
+    "portable_parity": "Narrative and notes identical after expected removal of YAML, addition of title/byline and relative image-path substitution; files are not byte-identical.",
+    "initial_budget_counts": {"directorate": 152, "mission_shakti": 152, "dsource_including_repeated_brief_media_facts": 234},
+    "recommended_budget_fix": "Resolved: root removed four redundant brief media-fact sentences totalling38words and added procedural image-record reference. Complete public source/licence credit preserved.",
+    "final_budget_counts": {"directorate": 152, "mission_shakti": 152, "dsource_including_media": 196},
+    "budget_result": "PASS; four-word Dsource margin remains. Any later public preview or factual addition needs a new publication-scope count.",
+    "final_brief_sha256": "a6b4b6c705d1d94465ebe055f2d6ca7880d435b97b04768819baf702d4dcfc34",
+    "scope_released": true
+  }
+}

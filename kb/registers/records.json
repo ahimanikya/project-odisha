@@ -10583,6 +10583,24 @@
       "evidence": [
         "records/belghar-tumudibandha-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112303",
+      "title": "Prepare Kaincha: Making with Golden Grass",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with separate Anvesha, Samanta and Drishti assignments",
+      "authorization": "POD-DEC-2026112303",
+      "next_action": "Deliver reviewed Kaincha draft, unchanged credited photograph and publication brief; return the preparation slot to the hill-series chat for Kalinga Ghati. No public integration authorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112303"
+      ],
+      "evidence": [
+        "records/antaranga-after-belghar-preparation-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -16004,6 +16022,21 @@
       "evidence": [
         "records/sola-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-DEC-2026112303",
+      "title": "Prepare next original Antaranga-led article after Belghar release",
+      "status": "recorded_direction",
+      "refs": [],
+      "evidence": [
+        "records/antaranga-after-belghar-preparation-20261123.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Yes, coordinate with the other chat and reserve the next slot. Once Belghar–Tumudibandha’s release is complete, prepare an original article on an uncovered Antaranga Kalinga topic with independent research and a credited image.",
+      "scope": "One independent draft with credited image; preparation only."
     }
   ],
   "requirements": [
@@ -25566,6 +25599,32 @@
         "No human specialist, field or physical-device review.",
         "Interpretive illustration is labelled, not a documented viewpoint.",
         "All 12 checked live image files match reviewed local bytes; no site-wide equality claim."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112303",
+      "title": "Independent Kaincha preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112303",
+        "POD-DEC-2026112303"
+      ],
+      "evidence": [
+        "records/antaranga-after-belghar-preparation-20261123.json"
+      ],
+      "summary": "Separate source, originality, photograph and draft review passed. No human specialist approval, website integration or publication.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or fieldwork.",
+        "Directorate original indexed entry inspected; direct HTML access failed.",
+        "Dsource plant-name and hidden core terminology remain unresolved and are omitted.",
+        "Photo maker, workshop and capture date are unknown; not assigned to the Kendrapara group.",
+        "Noncommercial, share-alike and attribution conditions apply to the licensed image.",
+        "No website rendering, deployment or live checks for this preparation-only task."
       ]
     }
   ],
