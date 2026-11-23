@@ -1,0 +1,34 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+const read=path=>readFileSync(path,'utf8');
+const route='/stories/kapileswar-hatuari/';
+const image=JSON.parse(read('../../kb/research/places/kapileswar-hatuari-image.json'));
+test('Hatuari article preserves dating limits, eight linked notes and attributed image',()=>{
+ const html=read('dist'+route+'index.html');
+ assert.match(html,/By Ahimanikya Satapathy/);
+ assert.match(html,/provisional architectural attribution/);
+ assert.match(html,/Post-Ganga/);
+ assert.match(html,/apparent chronological inconsistency/);
+ assert.match(html,/complete references.*unconfirmed/);
+ assert.match(html,/Footnotes &amp; Sources/);
+ const notes=[...html.matchAll(/id="user-content-fn-([^" ]+)"/g)].map(m=>m[1]);
+ assert.equal(notes.length,8);assert.ok(notes.includes('hatuari-board'));
+ const ids=new Set([...html.matchAll(/id="([^" ]+)"/g)].map(m=>m[1]));
+ for(const [,target] of html.matchAll(/href="#([^" ]+)"/g))assert.ok(ids.has(target),target);
+ assert.ok(html.includes(image.source));assert.ok(html.includes(image.license_url));assert.ok(html.includes(image.creator));
+ assert.ok(html.includes('https://projectodisha.org'+image.src));
+ assert.match(html,/fetchpriority="high"/);assert.match(html,/loading="eager"/);
+ for(const src of [image.src,image.small_src])assert.ok(existsSync('dist'+src));
+ assert.ok(html.includes('/destinations/kapilash/'));
+ assert.ok(html.includes('/contribute/?page=%2Fstories%2Fkapileswar-hatuari%2F'));
+});
+test('Hatuari has incoming history, Kapilash and Dhenkanal discovery links with reusable image credit',()=>{
+ for(const path of ['dist/history/index.html','dist/destinations/kapilash/index.html','dist/explore/index.html'])assert.ok(read(path).includes('href="'+route+'"'),path);
+ const explore=read('dist/explore/index.html');
+ assert.ok(explore.includes(image.source));assert.ok(explore.includes(image.creator));assert.ok(explore.includes(image.license_url));
+ const entry=[...explore.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)].map(m=>m[0]).find(s=>s.includes('href="'+route+'"'));
+ assert.ok(entry);assert.ok(entry.includes('Dhenkanal'));assert.ok(entry.includes(image.small_src));
+ const scope=JSON.parse(read('editions/coast.json'));assert.ok(scope.routes.includes(route));
+ const selection=JSON.parse(read('editions/search-candidate.json'));assert.equal(selection.pages.find(p=>p.route===route)?.decision,'hold');
+});
