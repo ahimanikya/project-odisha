@@ -153,5 +153,12 @@
     "failure": "Generated dashboard source digest stale after original Unicode JSON serialization was restored.",
     "correction": "Regenerate dashboard; no public source/image change. Preserve first failure, repeat record consistency checks and separate exact-head review.",
     "evidence": "outputs/jhoti-publication-2026-11-25/release/ci-initial-failure.log"
+  },
+  "hosted_workbench_correction": {
+    "failed_run": 45482982284,
+    "failed_head": "762e5cd9b774eace924c6beee1c11126653e20db",
+    "failure": "Internal editorial workbench input hash for the public-edition route list was stale after adding Jhoti.",
+    "correction": "Regenerate single coast.json digest in internal report; no public content, media, selection or workbench logic change.",
+    "evidence": "outputs/jhoti-publication-2026-11-25/release/ci-workbench-failure.log"
   }
 }
