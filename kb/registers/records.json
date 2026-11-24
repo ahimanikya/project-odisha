@@ -10725,15 +10725,17 @@
       "id": "POD-WORK-20261125201",
       "title": "Publish Jhoti Chita with credited photograph and reading links",
       "category": "knowledge",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with separate Anvesha, Samanta and Drishti assignments",
       "authorization": "POD-DEC-20261125201",
-      "next_action": "Exact committed candidate review and required hosted CI, then publication/live review and reviewed receipt merge.",
+      "next_action": "Complete reviewed evidence-only receipt merge, then return the shared slot to the coordinating hill chat.",
       "blockers": [],
       "refs": [
-        "POD-DEC-20261125201"
+        "POD-DEC-20261125201",
+        "POD-REV-20261125201",
+        "POD-REL-20261125201"
       ],
       "evidence": [
         "records/jhoti-publication-20261125.json"
@@ -26010,6 +26012,30 @@
         "Photograph identity, date and north-view label are creator supplied; no independent geolocation.",
         "One responsive encoding differs; no pixel identity or encoding cause claimed. Two screenshot pairs overlap."
       ]
+    },
+    {
+      "id": "POD-REV-20261125201",
+      "title": "Jhoti Chita separate source, media, rendered, package and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-20261125201",
+        "POD-DEC-20261125201"
+      ],
+      "evidence": [
+        "records/jhoti-publication-20261125.json"
+      ],
+      "summary": "Separate source/media/code/local-rendered/package and fresh live delivery reviews passed. Five live routes, ten images and fourteen root screenshots reviewed. All Jhoti files and five page fragments byte-exact. One existing Taptapani JPEG difference independently measured and visually accepted. Originals and38protected preparation files preserved.",
+      "independent": true,
+      "limitations": [
+        "No fieldwork or human specialist review.",
+        "Photo provenance is the preserved official Commons preview; the camera original was not acquired. The drawing maker is not separately identified.",
+        "One existing delivery JPEG differs in184pixels; no pixel identity or encoding cause claimed.",
+        "One browser engine and two viewport sizes; screenshots overlap in content and are not fourteen distinct page layouts."
+      ]
     }
   ],
   "releases": [
@@ -30451,6 +30477,21 @@
       ],
       "evidence": [
         "records/saptasajya-publication-20261124.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261125201",
+      "title": "Jhoti Chita and the Art of Drawing with Rice Paste",
+      "status": "published",
+      "authorization": "POD-DEC-20261125201",
+      "destination": "https://projectodisha.org/stories/jhoti-chita/",
+      "refs": [
+        "POD-WORK-20261125201",
+        "POD-DEC-20261125201",
+        "POD-REV-20261125201"
+      ],
+      "evidence": [
+        "records/jhoti-publication-20261125.json"
       ]
     }
   ],

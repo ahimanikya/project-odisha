@@ -1,0 +1,46 @@
+{
+  "status": "PASS_EXACT_WORKBENCH_CORRECTION_PENDING_NEW_REQUIRED_CI",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "commit": "5b1a5cc56dfeb7eaecf0bfdc976fdd924754ecbc",
+  "parent": "762e5cd9b774eace924c6beee1c11126653e20db",
+  "tree": "71784de1672d5e1770cef3e37caa65728ded4a05",
+  "changed_files": {
+    "kb/records/editorial-workbench.json": "6c679046fcc45e6421012ef68acb64ffd2237c3a59444cb0d6127c6f8855c955",
+    "kb/records/jhoti-publication-20261125.json": "072d4bdcf0021d428a6142a5fdb96ac23ccaaf2cc76227a1670f2328cd5a7e47",
+    "outputs/jhoti-publication-2026-11-25/release/ci-workbench-failure.log": "40834ffd9a5b7778e622bb19cf24ff1be4283ca844fa47216849e0dd7ddcd4f4"
+  },
+  "working_tree_clean": true,
+  "reviewed_source_sha256": {
+    "projects/site/src/pages/stories/jhoti-chita.astro": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c",
+    "projects/site/src/pages/stories/craft-listening.astro": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35",
+    "projects/site/src/pages/culture/osha/[slug].astro": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59",
+    "projects/site/src/pages/culture/osha/index.astro": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0a98fda64301d2843c2511349f623268ac7f9b5ceebb140a1edf1fb709af958f",
+    "projects/site/tools/optimize-publication-png.mjs": "9b9b9cc6396bdb63552bffc5f6fc6a0546372e9a2bd73673d189e29d530fe881",
+    "projects/site/tests/publication-jpeg.test.mjs": "96023d580b5c85a416cf17e5aa70caaa47abea06ba18d0a1e6cd64be39cc16f5",
+    "projects/site/tests/publication-png.test.mjs": "4ad5e246a5ee45036ffe801fb2bff8424db7e2ddd6605135c63b1c5648c20205",
+    "projects/site/editions/coast.json": "0c3c104671e6efe4bda5ec566c74dc849497c166add772f405a952eaf041821e",
+    "projects/site/editions/responsive-images.json": "709799a20da29c661220fdd44ebf76395eb11e41ae8cadde03276869852d2577",
+    "projects/site/editions/search-candidate.json": "d10ef4ae8e011a2f7854abde83394e5366c3a308a0db06adea84fcf804c86e1c",
+    "projects/site/public/assets/jhoti/gurubara-jhoti-1200.webp": "7a3f7094998bcdc8c6f52a31caba2b4ea8bd31b72716d382a14464a939138d84",
+    "kb/research/culture/jhoti-chita.md": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea",
+    "outputs/jhoti-publication-2026-11-25/research/final-source-audit.json": "f0e4958dbfd56902aa5376e5371cc5906c0b1a3c9916d9cb5cbfa02e49eaa62b",
+    "projects/site/tests/build.test.mjs": "65b4dd792c869690c1af9be53bc3d123458dc503ddd48f9b79e0fa09941e263b"
+  },
+  "actual_checks": {
+    "registers": "PASS: 1,388 records, 867 events; dashboard current.",
+    "workbench": "PASS after permission retry: 500 records; 229 with flags; 13 mapped pages; 593 newer records outside frozen selection.",
+    "initial_local_limit": "First actual --check invocation reached its unconditional ignored preview write and failed filesystem permission. Authorized retry succeeded. No tracked file changes; ignored workbench dist/index.html refreshed by the existing check command.",
+    "coast_digest": "Committed coast.json SHA256 0c3c104671e6efe4bda5ec566c74dc849497c166add772f405a952eaf041821e exactly matches the corrected workbench input digest.",
+    "scope": "Only one internal workbench hash line, canonical failed-run/correction history and the captured CI failure log changed. Website and media have no delta from the prior reviewed candidate. All reviewed source hashes match exact committed blobs.",
+    "failure_history": "Inspected raw hosted workbench failure log. Run 45482982284 on 762e5cd9 is recorded as failed; earlier dashboard failure also remains preserved. No prior CI success claimed.",
+    "whitespace": "Bounded correction diff check passed."
+  },
+  "findings": [],
+  "limits": [
+    "No full website rebuild repeated because public source and media are byte-identical. Prior local package review remains applicable.",
+    "New required CI and actual Linux payload gate remain pending; deployment/live delivery are not accepted by this review."
+  ],
+  "verdict": "PASS. Corrected exact candidate is ready for its new required hosted validation."
+}

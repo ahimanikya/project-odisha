@@ -1,0 +1,201 @@
+{
+  "status": "PASS_LIVE_DELIVERY_WITH_EXPLICIT_JPEG_DIFFERENCE",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "reviewed_head": "5b1a5cc56dfeb7eaecf0bfdc976fdd924754ecbc",
+  "merge": "f9a056fe42b7eacf2fd28fcc666071103e90e552",
+  "merged_tree": "71784de1672d5e1770cef3e37caa65728ded4a05",
+  "reviewed_evidence_sha256": {
+    "outputs/jhoti-publication-2026-11-25/review/live-independent/http.json": "43a315abf7ca7d898abe9e925c67f9dd47db494a2bd3e5b3f7c6b8c5f905f02f",
+    "outputs/jhoti-publication-2026-11-25/review/live-independent/image-comparison.json": "bb47a7e1d41d3df38ee3d8a65c9da9567f26c71690e792104c02359209b24612",
+    "outputs/jhoti-publication-2026-11-25/review/live-independent/remote-execution.json": "975ac9049d11220eb1c90cfc88d071bf19b0bebd2b8421b2fa821ace04012492",
+    "outputs/jhoti-publication-2026-11-25/review/live-independent/taptapani-fullframe-comparison.png": "2b68c59b9e331519f5d37ef892d44c598b240c079a26272787c5a62377a9ce11",
+    "outputs/jhoti-publication-2026-11-25/review/live-independent/taptapani-detail-comparison.png": "920da6bf013a020449802b934cc022aa6329d3a0479712ab12346b90ba2ca772",
+    "outputs/jhoti-publication-2026-11-25/browser/live-review.json": "74d37c12b6cdd1082b92cd1f49f1c13d11e39c9a0afc80a52d08b3c4666473ee",
+    "outputs/jhoti-publication-2026-11-25/browser/live/metrics.json": "6a28086b442bde7d6a3f0f787730d7194e0079195e21f4d38a4c211d6f6e49ef",
+    "outputs/jhoti-publication-2026-11-25/release/deployment.json": "6e35bfa76fb217bf4269347bf547f0b7e51df8b3e35ad4c5262ff99281f5681c",
+    "outputs/jhoti-publication-2026-11-25/release/deployment.log.gz": "4e0f41e58078d0f9e4114bc92214a5af0b5dba5c48228f1a4d739d81219391f8",
+    "outputs/jhoti-publication-2026-11-25/release/ci-success.json": "cce074ae269ef105e269c6bdd24f4b88ce3bd0709b00a7fa99ac639732cd3a9f",
+    "outputs/jhoti-publication-2026-11-25/release/ci-success.log.gz": "f80ad2774111edfdea35d13eb39bde73638e9e2b08be70cc303120eb53dff5b3",
+    "outputs/jhoti-publication-2026-11-25/release/publication-pr.json": "61e7e92048361a85d502ece9e2700a29da32f0eeb4d7bf2f89f034a60dba388d"
+  },
+  "remote_execution": {
+    "ci": {
+      "attempt": 1,
+      "conclusion": "success",
+      "databaseId": 45483987588,
+      "headSha": "5b1a5cc56dfeb7eaecf0bfdc976fdd924754ecbc",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45483987588"
+    },
+    "deployment": {
+      "attempt": 1,
+      "conclusion": "success",
+      "databaseId": 45489423611,
+      "headSha": "f9a056fe42b7eacf2fd28fcc666071103e90e552",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45489423611"
+    },
+    "pr": {
+      "headRefOid": "5b1a5cc56dfeb7eaecf0bfdc976fdd924754ecbc",
+      "mergeCommit": {
+        "oid": "f9a056fe42b7eacf2fd28fcc666071103e90e552"
+      },
+      "mergedAt": "2026-11-24T21:15:44Z",
+      "number": 855,
+      "state": "MERGED",
+      "url": "https://github.com/ahimanikya/project-odisha/pull/855"
+    }
+  },
+  "actual_hosted_payload": {
+    "bytes": 999952877,
+    "regular_files": 3670,
+    "remaining_bytes": 47123,
+    "evidence": "CI and deployment raw logs both record this amount; full 828 and coastal 599 tests pass."
+  },
+  "fresh_http": {
+    "report": "outputs/jhoti-publication-2026-11-25/review/live-independent/http.json",
+    "requests": "New independent requests, five routes and ten observed image URLs; no copied root downloads.",
+    "checks": 204,
+    "failed_checks": 0,
+    "routes_200": 5,
+    "images_200": 10,
+    "article_fragments": "All five complete article/main fragments byte-exact to reviewed local publication output, without URL substitutions.",
+    "image_bytes": "Four Jhoti files, three Taptapani responsive variants and two selected PNGs byte-exact. Only the Taptapani base JPEG differs.",
+    "robots_and_metadata": "Reviewed noindex, follow policy, title/description/sharing image metadata, credits and numbered note targets match. Jhoti has six references, four notes and six resolving returns. Three incoming cards and all outgoing paths retain reviewed markup.",
+    "raw_status": "REVIEW_DIFFERENCES retained; acceptance is in this separate review, not rewritten into the raw report."
+  },
+  "jpeg_difference": {
+    "local_sha256": "a78663427bd7a5d00ba332ad4ff34f0533f1d873ad33d4da4c26423582bba897",
+    "live_sha256": "2be6d8b77cb569047522d4c4c4ccc76f19edda328b0bb2fb1499ae70a3475094",
+    "local_bytes": 434019,
+    "live_bytes": 434035,
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "channels": 3,
+    "changed_pixels": 184,
+    "total_pixels": 1920000,
+    "changed_channels": 423,
+    "total_channels": 5760000,
+    "max_absolute_channel_difference": 3,
+    "mean_absolute_RGB": 9.010416666666666e-05,
+    "rms_RGB": 0.01125,
+    "metadata": {
+      "icc": {
+        "local_bytes": 1304,
+        "live_bytes": 1304,
+        "equal": true
+      },
+      "iptc": {
+        "local_bytes": 0,
+        "live_bytes": 0,
+        "equal": true
+      },
+      "xmp": {
+        "local_bytes": 0,
+        "live_bytes": 0,
+        "equal": true
+      },
+      "exif": {
+        "local_bytes": 11376,
+        "live_bytes": 11376,
+        "equal": true
+      }
+    },
+    "orientation": [
+      1,
+      1
+    ],
+    "density": [
+      72,
+      72
+    ],
+    "detail_crop": {
+      "left": 713,
+      "top": 880,
+      "width": 240,
+      "height": 240
+    },
+    "visual_order": "Live left, local right; full frame 1000px each, detail 2× nearest-neighbour. No cause inferred.",
+    "accepted": true,
+    "reason": "Independently decoded fresh live and local bytes. Personally inspected full-frame pairs at 1000 pixels each and a 2× detail crop around the maximum measured difference; no visible material framing, colour or detail degradation at those scales.",
+    "limits": "The files and decoded pixels are not identical. No encoder/platform/caching cause is inferred. Metadata equality here compares the two delivery files; repository-original EXIF differs from the resized derivative as already recorded."
+  },
+  "browser_review": {
+    "personally_viewed": [
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/craft-desktop.jpg",
+        "sha256": "e5e80ad165f92af5927e66b481f3212ff033995d69efba7d62bd61085e3bdb5e"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/craft-mobile.jpg",
+        "sha256": "d0d28af519dbd3926bd309cf1941fa7f7ea44540953bcb1b1aa3f52712ebb598"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/desktop-credit.jpg",
+        "sha256": "1f427c855f401f3f50dfaed3919913a241d30f5c660ff6234df19f2e23f1370f"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/desktop-photo.jpg",
+        "sha256": "7b4eae056d48330f7de64744ae4b5c165adb907a6707673ba6cb90a1bcf7e619"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/desktop-top.jpg",
+        "sha256": "16111c5b008361a54e1afc6f47309bf0bf52825283d8568a81613a52a71f72ec"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/manabasa-desktop.jpg",
+        "sha256": "d78b4085b625c63527c3bf5c6e2150b67d38d1b064954faab055b7daeee3ca6d"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/manabasa-mobile.jpg",
+        "sha256": "aef11bcdc36715873c4dc3f427f7e3f6aa34b4e87a34df05386c956643548881"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/mobile-credit.jpg",
+        "sha256": "e2ce4364c42af789d697488bb9f8746193832979c7bba81251f71ee7ba46b8bb"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/mobile-photo.jpg",
+        "sha256": "bf6fc47c70a38d93810250371bb2dcac2741d61eeef8924db4a74acc0996d7e6"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/mobile-top.jpg",
+        "sha256": "10bc48656eb1899e148bdc1a2aa4fc5bf5bf4f72c87eb7b2f17461118d635c25"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/osha-desktop.jpg",
+        "sha256": "e915a7fcd0bf877b066a7a9411dfe4547814535d521f75c67ef7914bb3cb8fcb"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/osha-mobile.jpg",
+        "sha256": "4e0f4f3a4ca52d78d23d2d23817e8806bbb75a797b1049a8617a149a9059f0c5"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/taptapani-desktop.jpg",
+        "sha256": "f085fcb5d97221fb3ba469dabcd562a5c9ce1bf7a74beb2f5f656c62919ffb71"
+      },
+      {
+        "path": "outputs/jhoti-publication-2026-11-25/browser/live/taptapani-mobile.jpg",
+        "sha256": "227e003a3a34aade485b21e1179d64ed54df4d7962cc4489d1e6f6301cfa81cc"
+      }
+    ],
+    "operator": "Disha root; reviewer inspected captures and records but did not operate the browser.",
+    "observations": "All fourteen screenshots individually viewed. Article title/byline, full-frame photo and dated caption are clear at desktop/mobile. Complete image credit is readable in dedicated note captures. All three incoming cards remain full frame and legible at both widths. Taptapani photo and complete accurate transformation/source/licence caption are visible. No visible horizontal clipping or broken image.",
+    "recorded_interactions": "Root source-2 clicks and Enter returns at both widths have recorded destination URL, settled note/reference position and returned focus. Root reports actually clicking all three incoming links and reaching the live article. Ten route/viewport metrics show scroll width equal to viewport.",
+    "framing_limits": [
+      "Top article screenshots show only the upper photograph; separate photo captures show its full frame.",
+      "Desktop Taptapani capture clips the title top but fully shows photograph and credit.",
+      "Manabasa preview captures show the reference marker and card, not the distant complete fifth credit note; fresh HTML validates that note and return.",
+      "The mobile credit capture ends part-way through final reading navigation; full live markup validates remaining links.",
+      "One browser engine at 1440 × 1000 and 390 × 844; no physical-device or cross-engine claim.",
+      "Browser Taptapani screenshots use responsive variants; differing base JPEG was evaluated separately from downloaded bytes."
+    ]
+  },
+  "preservation": "All 38 protected Jhoti/Kaincha preparation files remain exact. Merge tree equals reviewed candidate tree. No source, shared record, browser state or publication mutation by this reviewer; writes limited to reserved review evidence.",
+  "findings": [],
+  "remaining": "Final evidence-only receipt consistency, exact receipt commit, required receipt CI and actual receipt merge before coordination handoff.",
+  "verdict": "PASS. Actual publication and live delivery are verified within the recorded scope, with the sole JPEG difference explicitly measured and visually accepted. No human specialist approval or pixel-equivalence claim."
+}
