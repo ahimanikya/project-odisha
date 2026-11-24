@@ -146,5 +146,12 @@
       }
     ]
   },
-  "candidate_cleanup": "Initial local candidate8da7401f preceded resolution of staged whitespace in the verbatim guidance capture. Corrected evidence exception and restored existing Unicode JSON serialization (semantic data unchanged); final candidate must receive separate exact-head review."
+  "candidate_cleanup": "Initial local candidate8da7401f preceded resolution of staged whitespace in the verbatim guidance capture. Corrected evidence exception and restored existing Unicode JSON serialization (semantic data unchanged); final candidate must receive separate exact-head review.",
+  "hosted_candidate_correction": {
+    "failed_run": 45482040750,
+    "failed_head": "7736807ba672d4e2458bd03d016d10ae6396abbd",
+    "failure": "Generated dashboard source digest stale after original Unicode JSON serialization was restored.",
+    "correction": "Regenerate dashboard; no public source/image change. Preserve first failure, repeat record consistency checks and separate exact-head review.",
+    "evidence": "outputs/jhoti-publication-2026-11-25/release/ci-initial-failure.log"
+  }
 }
