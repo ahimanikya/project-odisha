@@ -10705,16 +10705,17 @@
       "id": "POD-WORK-2026112495",
       "title": "Research, review and publish Saptasajya",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112495",
-      "next_action": "Exact-commit review, required hosted checks, authorized publication and fresh live verification.",
+      "next_action": "Integrate reviewed evidence-only receipt with required CI, then explicit Jhoti slot handoff.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112495",
-        "POD-REV-2026112495"
+        "POD-REV-2026112495",
+        "POD-REL-2026112495"
       ],
       "evidence": [
         "records/saptasajya-publication-20261124.json"
@@ -25956,7 +25957,7 @@
     },
     {
       "id": "POD-REV-2026112495",
-      "title": "Saptasajya separate source, media, code, rendered and package review",
+      "title": "Saptasajya separate source, media, rendered, package and live delivery review",
       "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
@@ -25969,12 +25970,12 @@
       "evidence": [
         "records/saptasajya-publication-20261124.json"
       ],
-      "summary": "Separate source/media/code, desktop/mobile and final local package review passed. Exact frozen manuscript and 38 protected preparation files preserved. Hosted checks and publication/live verification remain.",
+      "summary": "Separate source/media/code, desktop/mobile, package and fresh live delivery reviews passed. Four live routes, eight images and twelve root screenshots reviewed; one responsive image difference independently measured and visually accepted. Frozen manuscript, originals and 38 protected preparation files preserved.",
       "independent": true,
       "limitations": [
         "No fieldwork or human specialist review.",
-        "Photograph identity and north-view date are creator supplied; no independent geolocation.",
-        "Local review does not establish hosted Linux capacity or live delivery."
+        "Photograph identity, date and north-view label are creator supplied; no independent geolocation.",
+        "One responsive encoding differs; no pixel identity or encoding cause claimed. Two screenshot pairs overlap."
       ]
     }
   ],
@@ -30402,6 +30403,21 @@
       ],
       "evidence": [
         "records/tensa-publication-20261124.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112495",
+      "title": "Saptasajya: A Shrine Among Wooded Hills",
+      "status": "published",
+      "authorization": "POD-DEC-2026112495",
+      "destination": "https://projectodisha.org/destinations/saptasajya/",
+      "refs": [
+        "POD-WORK-2026112495",
+        "POD-DEC-2026112495",
+        "POD-REV-2026112495"
+      ],
+      "evidence": [
+        "records/saptasajya-publication-20261124.json"
       ]
     }
   ],
