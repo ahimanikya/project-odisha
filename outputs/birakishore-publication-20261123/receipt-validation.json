@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "records": 1375,
+  "events": 856,
+  "catalog_concepts": 1926,
+  "bundle_links": 8629,
+  "rollout": {
+    "completed": 241,
+    "blocked": 1,
+    "excluded": 872,
+    "queued": 264
+  },
+  "checks": [
+    "registers --check",
+    "catalog --check",
+    "article_rollout --check",
+    "check_bundle",
+    "check_team_assignments",
+    "check_autonomous_program",
+    "validate_research_map",
+    "build_workbench --check"
+  ],
+  "limits": "Consistency checks do not establish authority, facts, review or delivery; separate actual evidence linked in canonical receipt."
+}

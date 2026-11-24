@@ -58,11 +58,12 @@
     "id": "POD-EDIT-BIRAKISHORE-20261123",
     "route": "/literature/birakishore-das/",
     "owner": "Disha",
-    "phase": "integration",
+    "phase": "receipt_integrated",
     "handoff": "records/birakishore-publication-20261123.json",
-    "scope_released": false,
-    "status": "candidate_reviewed",
-    "next_action": "Exact committed review, required hosted CI and measured Linux capacity; merge reviewed candidate, deploy, fresh live verification and separately reviewed receipt merge before slot return."
+    "scope_released": true,
+    "status": "published_verified",
+    "next_action": "Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa.",
+    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit Tensa handoff to the hill-series chat follows observed merge; no next article is claimed here."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
