@@ -58,11 +58,12 @@
     "id": "POD-EDIT-TENSA-20261124",
     "route": "/destinations/tensa/",
     "owner": "Disha",
-    "phase": "publication_checks",
+    "phase": "receipt_integrated",
     "handoff": "records/tensa-publication-20261124.json",
-    "scope_released": false,
-    "status": "in_progress",
-    "next_action": "Exact committed-head review, hosted checks, authorized merge/deployment and live verification."
+    "scope_released": true,
+    "status": "published_verified",
+    "next_action": "Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot.",
+    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. No next article is claimed by this receipt."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -814,8 +815,9 @@
     }
   ],
   "next_article_coordination": {
-    "status": "tensa_active_after_explicit_return",
+    "status": "tensa_receipt_pending_merge",
     "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
-    "evidence": "records/tensa-publication-20261124.json"
+    "evidence": "records/tensa-publication-20261124.json",
+    "next_article_claimed": false
   }
 }

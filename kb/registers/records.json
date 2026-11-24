@@ -10666,16 +10666,17 @@
       "id": "POD-WORK-2026112491",
       "title": "Research, review and publish Tensa",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112491",
-      "next_action": "Pass exact-commit review and required hosted checks, then publish and live-verify Tensa.",
+      "next_action": "Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112491",
-        "POD-REV-2026112491"
+        "POD-REV-2026112491",
+        "POD-REL-2026112491"
       ],
       "evidence": [
         "records/tensa-publication-20261124.json"
@@ -25839,7 +25840,7 @@
     },
     {
       "id": "POD-REV-2026112491",
-      "title": "Tensa separate source, media, code, rendered and local package review",
+      "title": "Tensa separate source, media, code, rendered, package and live delivery review",
       "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
@@ -25852,12 +25853,12 @@
       "evidence": [
         "records/tensa-publication-20261124.json"
       ],
-      "summary": "Separate source/media/code, ten settled desktop/mobile screenshots and actual final local package reviewed. All13build/test stages and10676artifact checks pass; hosted CI and live delivery remain pending.",
+      "summary": "Separate source/media/code, local package and fresh live delivery review passed. Four routes, eleven actual images and twelve desktop/mobile screenshots checked; all four new Tensa image files exact. Existing Kalinga480 difference measured and visually accepted. Final integrated receipt review also passed; exact-commit review and required CI/merge remain.",
       "independent": true,
       "limitations": [
         "No fieldwork or human specialist review.",
         "Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.",
-        "Local package is not proof of hosted Linux or live delivery."
+        "Bounded live checks and separate AI review; no fieldwork or human specialist review. Conditional scope release only after reviewed receipt merge."
       ]
     }
   ],
@@ -30270,6 +30271,21 @@
       ],
       "evidence": [
         "records/birakishore-publication-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112491",
+      "title": "Tensa: Hills, Iron Ore and a Community Camp",
+      "status": "published",
+      "authorization": "POD-DEC-2026112491",
+      "destination": "https://projectodisha.org/destinations/tensa/",
+      "refs": [
+        "POD-WORK-2026112491",
+        "POD-DEC-2026112491",
+        "POD-REV-2026112491"
+      ],
+      "evidence": [
+        "records/tensa-publication-20261124.json"
       ]
     }
   ],

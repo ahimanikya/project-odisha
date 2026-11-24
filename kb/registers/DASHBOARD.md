@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `840f060ffc72893d09be14c65be7ebfbbdc68b67262544ea0056bd68fbb378b1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b538d9ff9550a8dd811a299a259e6fbd1ac4a110a52f919fcd9c6a8e699a02d2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -415,7 +415,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112394 · Research, review and publish Kalinga Ghati | completed | published | Ahimanikya Satapathy | Complete separately reviewed receipt and actual required CI/merge, then explicit handoff to Kapileswar Hatuari, preserving following Birakishore reservation before Tensa. | — |
 | POD-WORK-20261123101 · Publish Kapileswar at Hatuari: What Do We Actually Know? | completed | published | Ahimanikya Satapathy | Complete final receipt review, exact committed review and required checks; merge receipt and explicitly hand off to Birakishore Das chat. | — |
 | POD-WORK-20261123201 · Publish Birakishore Das: Poems, Schoolbooks and the Young Reader | completed | published | Ahimanikya Satapathy | Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa. | — |
-| POD-WORK-2026112491 · Research, review and publish Tensa | in_progress | reviewed | Ahimanikya Satapathy | Pass exact-commit review and required hosted checks, then publish and live-verify Tensa. | — |
+| POD-WORK-2026112491 · Research, review and publish Tensa | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot. | — |
 
 ## Pending human review and decisions
 
@@ -1174,7 +1174,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112394 | pass | True | No fieldwork or human specialist review.; Photo locality follows publisher caption; capture date unverified.; Static review is not publication or current-access guarantee. |
 | POD-REV-20261123101 | pass | True | Fourteenth-century architectural date remains provisional; Post-Ganga wording is an apparent chronological inconsistency, not silently corrected; Chapter author and full references remain unverified; Possible shared source among inventory, book and board; No fieldwork, archaeological specialist review or current engineering assessment claimed |
 | POD-REV-20261123201 | pass | True | No human specialist review or fieldwork.; Symbolic illustration is not a portrait or historic book facsimile.; Local capacity is not proof of Linux or live acceptance. |
-| POD-REV-2026112491 | pass | True | No fieldwork or human specialist review.; Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.; Local package is not proof of hosted Linux or live delivery. |
+| POD-REV-2026112491 | pass | True | No fieldwork or human specialist review.; Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.; Bounded live checks and separate AI review; no fieldwork or human specialist review. Conditional scope release only after reviewed receipt merge. |
 
 ## Publication and application history
 
@@ -1454,6 +1454,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112394 · Kalinga Ghati: Through the Forested Pass | published | https://projectodisha.org/destinations/kalinga-ghati/ | POD-DEC-2026112394 |
 | POD-REL-20261123101 · Kapileswar at Hatuari: What Do We Actually Know? | published | https://projectodisha.org/stories/kapileswar-hatuari/ | POD-DEC-20261123101 |
 | POD-REL-20261123201 · Birakishore Das: Poems, Schoolbooks and the Young Reader | published | https://projectodisha.org/literature/birakishore-das/ | POD-DEC-20261123201 |
+| POD-REL-2026112491 · Tensa: Hills, Iron Ore and a Community Camp | published | https://projectodisha.org/destinations/tensa/ | POD-DEC-2026112491 |
 
 ## Sources and assets
 
@@ -1491,8 +1492,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112309 | 2026-11-23T08:16:39.142522+00:00 | Independent source and separate integrated reviews passed for original Kaincha draft and unchanged credited photograph. No website integration or publication; local commit and explicit slot return remain. Zero programme credit. | — |
-| POD-EVT-2026112388 | 2026-11-23T08:32:40.592025+00:00 | Accepted explicit reviewed Kaincha preparation slot return and verified all delivery hashes; Kalinga Ghati is sole active article. Kaincha remains unpublished, foreign ownership preserved, zero programme credit. | — |
 | POD-EVT-2026112389 | 2026-11-23T09:23:21.315878+00:00 | Separate source/media/code/rendered/final-package reviews passed for Kalinga Ghati. Credited CC BY4.0 habitat panel and previews verified; bounded Ashta delivery derivative preserves original and supplies capacity. Hosted checks/publication/live receipt pending; Kaincha unpublished and foreign ownership preserved, zero programme credit. | — |
 | POD-EVT-2026112390 | 2026-11-23T10:24:27.169502+00:00 | PR844 and deployment45151083571 succeeded; separate fresh live review passed five routes, thirteen images and eleven meaningful screenshots. Two measured image differences visually accepted, original/base images preserved. Reviewed receipt merge required before Kapileswar handoff, then reserved Birakishore publication before Tensa. Kaincha and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-20261123101 | 2026-11-23T11:40:56.014037+00:00 | PR846 and deployment45161698364attempt2 succeeded on reviewed source. Initial external metadata403 failure preserved; unchanged retry succeeded. Separate live review passed4routes3exactimages. Historical dating remains provisional; scope held through actual receipt merge, then Birakishore. Zero programme credit. | — |
@@ -1501,6 +1500,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261123203 | 2026-11-24T08:01:13.700920+00:00 | PR849 and deployment45346733610 succeeded on reviewed source. Required CI attempt1 external403 preserved; unchanged attempt2 passed. Separate fresh live review and15root browser captures cover article, credited illustration and3incoming links. Two existing image encodings differ and were separately measured/visually accepted. Receipt merge precedes explicit Tensa slot return; zero programme credit. | — |
 | POD-EVT-2026112491 | 2026-11-24T08:44:12.729571+00:00 | Accepted explicit slot return after independently verifying Birakishore receipt merge and required CI. Tensa sole active article; prior evidence and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-2026112492 | 2026-11-24T09:23:47.270925+00:00 | Source, credited original image, article and3incomingpreviews reviewed; separate desktop/mobile and final local package PASS.827full/599coastal tests,5460pagechecks and10676artifactchecks passed. Actuallocal998680963bytes; hosted/live gates pending; zero programme credit. | — |
+| POD-EVT-2026112493 | 2026-11-24T09:50:20.363311+00:00 | PR851 exact reviewed head passed required CI45365066846 attempt1 and merged2166225c. Merged tree equals reviewed candidate; actualLinux999470107bytes. Authorized deployment45368774658 started from that merge; no live or completed-delivery claim yet. | — |
+| POD-EVT-2026112494 | 2026-11-24T10:23:32.846928+00:00 | Successful deployment45368774658 from exact reviewed merge2166225c; fresh separate delivery review verified4routes11images12screenshots and credited article/previews. All new photo files exact; existing Kalinga480 difference measured and visually accepted. First interrupted HTTP attempt retained; unchanged retry and independent fetch passed. Receipt review/CI/actual merge still required before scope release; zero programme credit. | — |
 
 ## Deferred extensions
 
