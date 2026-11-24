@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b538d9ff9550a8dd811a299a259e6fbd1ac4a110a52f919fcd9c6a8e699a02d2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a52ea8cf7634084d5dffa6f46225e678692d6a0c9fd641b387ee6af8de4b0955`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -416,6 +416,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261123101 · Publish Kapileswar at Hatuari: What Do We Actually Know? | completed | published | Ahimanikya Satapathy | Complete final receipt review, exact committed review and required checks; merge receipt and explicitly hand off to Birakishore Das chat. | — |
 | POD-WORK-20261123201 · Publish Birakishore Das: Poems, Schoolbooks and the Young Reader | completed | published | Ahimanikya Satapathy | Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa. | — |
 | POD-WORK-2026112491 · Research, review and publish Tensa | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot. | — |
+| POD-WORK-20261124201 · Prepare original Jhoti Chita article with credited image | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Jhoti draft, credited photograph and publication brief; return the preparation slot to the hill-series chat for its next uncovered destination. No public integration authorized. | — |
 
 ## Pending human review and decisions
 
@@ -760,6 +761,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261123101 · Publish original Kapileswar at Hatuari article in History and Heritage | recorded_direction | Ahimanikya Satapathy | Finish original independently researched article and publish in History and Heritage after coordinated slot handoff; provide working link to Founder. No Facebook sending. |
 | POD-DEC-20261123201 · Publish reviewed Birakishore Das article after coordinated handoff | recorded_direction | Ahimanikya Satapathy | Integrate and publish original article with credited illustration, relevant incoming links and desktop/mobile checks after slot return. |
 | POD-DEC-2026112491 · Publish Tensa after completed Birakishore handoff | recorded_direction | Ahimanikya Satapathy | One researched and separately reviewed destination article with credited article and preview image; publication and live verification authorized. |
+| POD-DEC-20261124201 · Prepare next original Antaranga-led article after Tensa | recorded_direction | Ahimanikya Satapathy | One independently researched original article preparation with credited image; no website integration or publication. |
 
 ## Reviews
 
@@ -1175,6 +1177,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261123101 | pass | True | Fourteenth-century architectural date remains provisional; Post-Ganga wording is an apparent chronological inconsistency, not silently corrected; Chapter author and full references remain unverified; Possible shared source among inventory, book and board; No fieldwork, archaeological specialist review or current engineering assessment claimed |
 | POD-REV-20261123201 | pass | True | No human specialist review or fieldwork.; Symbolic illustration is not a portrait or historic book facsimile.; Local capacity is not proof of Linux or live acceptance. |
 | POD-REV-2026112491 | pass | True | No fieldwork or human specialist review.; Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.; Bounded live checks and separate AI review; no fieldwork or human specialist review. Conditional scope release only after reviewed receipt merge. |
+| POD-REV-20261124201 | pass_with_limitations | True | Separate AI review, not human specialist approval or fieldwork.; Acquired official Commons preview preserved; original camera file was not acquired.; Preparation only; no website rendering, integration, deployment or live checks. |
 
 ## Publication and application history
 
@@ -1492,8 +1495,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112389 | 2026-11-23T09:23:21.315878+00:00 | Separate source/media/code/rendered/final-package reviews passed for Kalinga Ghati. Credited CC BY4.0 habitat panel and previews verified; bounded Ashta delivery derivative preserves original and supplies capacity. Hosted checks/publication/live receipt pending; Kaincha unpublished and foreign ownership preserved, zero programme credit. | — |
-| POD-EVT-2026112390 | 2026-11-23T10:24:27.169502+00:00 | PR844 and deployment45151083571 succeeded; separate fresh live review passed five routes, thirteen images and eleven meaningful screenshots. Two measured image differences visually accepted, original/base images preserved. Reviewed receipt merge required before Kapileswar handoff, then reserved Birakishore publication before Tensa. Kaincha and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-20261123101 | 2026-11-23T11:40:56.014037+00:00 | PR846 and deployment45161698364attempt2 succeeded on reviewed source. Initial external metadata403 failure preserved; unchanged retry succeeded. Separate live review passed4routes3exactimages. Historical dating remains provisional; scope held through actual receipt merge, then Birakishore. Zero programme credit. | — |
 | POD-EVT-20261123201 | 2026-11-23T15:25:06.318849+00:00 | Birakishore publication starts after verified Hatuari receipt and explicit handoff; independent preparation and foreign records preserved. | — |
 | POD-EVT-20261123202 | 2026-11-24T06:34:17.439445+00:00 | Birakishore local candidate reviewed; 827 full and 599 coastal tests, 5,456 acceptance checks, source, media, code, rendered and package reviews pass. Publication remains pending; zero programme credit. | — |
@@ -1502,6 +1503,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112492 | 2026-11-24T09:23:47.270925+00:00 | Source, credited original image, article and3incomingpreviews reviewed; separate desktop/mobile and final local package PASS.827full/599coastal tests,5460pagechecks and10676artifactchecks passed. Actuallocal998680963bytes; hosted/live gates pending; zero programme credit. | — |
 | POD-EVT-2026112493 | 2026-11-24T09:50:20.363311+00:00 | PR851 exact reviewed head passed required CI45365066846 attempt1 and merged2166225c. Merged tree equals reviewed candidate; actualLinux999470107bytes. Authorized deployment45368774658 started from that merge; no live or completed-delivery claim yet. | — |
 | POD-EVT-2026112494 | 2026-11-24T10:23:32.846928+00:00 | Successful deployment45368774658 from exact reviewed merge2166225c; fresh separate delivery review verified4routes11images12screenshots and credited article/previews. All new photo files exact; existing Kalinga480 difference measured and visually accepted. First interrupted HTTP attempt retained; unchanged retry and independent fetch passed. Receipt review/CI/actual merge still required before scope release; zero programme credit. | — |
+| POD-EVT-20261124201 | 2026-11-24T15:21:11.231716+00:00 | Tensa completed receipt reconciled; one Jhoti Chita preparation claimed under direct Founder instruction. No publication or programme credit. | — |
+| POD-EVT-20261124202 | 2026-11-24T15:33:31.801096+00:00 | Prepared original Jhoti Chita draft and credited authentic photograph after independent research and separate review. Unpublished; return to hill chat follows reviewed local commit. | — |
 
 ## Deferred extensions
 
