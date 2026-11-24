@@ -1,0 +1,271 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti — separate automated delivery review",
+  "reviewed_on": "2026-11-24",
+  "scope": "Actual Tensa publication, fresh HTTP/media delivery and independently inspected saved browser screenshots. Final integrated receipt and its exact commit/CI/merge remain separate.",
+  "publication": {
+    "ci": {
+      "id": 45365066846,
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e1edfb88867e935a1af67a3a31ca71244ff0e5d2",
+      "run_attempt": 1,
+      "html_url": "https://github.com/ahimanikya/project-odisha/actions/runs/45365066846",
+      "created_at": "2026-11-24T09:25:33Z",
+      "updated_at": "2026-11-24T09:47:14Z"
+    },
+    "deployment": {
+      "id": 45368774658,
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "2166225c8ba4966385e03951d9a853ac61b7336e",
+      "run_attempt": 1,
+      "html_url": "https://github.com/ahimanikya/project-odisha/actions/runs/45368774658",
+      "created_at": "2026-11-24T09:49:03Z",
+      "updated_at": "2026-11-24T10:15:59Z"
+    },
+    "pr": {
+      "number": 851,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-11-24T09:48:33Z",
+      "head": "e1edfb88867e935a1af67a3a31ca71244ff0e5d2",
+      "merge_commit_sha": "2166225c8ba4966385e03951d9a853ac61b7336e",
+      "html_url": "https://github.com/ahimanikya/project-odisha/pull/851"
+    }
+  },
+  "reviewed_tree": "52b99ddf8bfaa19935910ed5df191ac550230567",
+  "deployed_payload": {
+    "bytes": 999470107,
+    "files": 3660,
+    "remaining_bytes": 529893,
+    "exclusive_limit": 1000000000,
+    "evidence": "Fresh GitHub metadata checked independently; root-retained original CI gzip and deployment full log actually inspected for payload fields. Both runs report same measured Linux payload, distinct from local 998680963."
+  },
+  "fresh_independent_http": {
+    "evidence": "outputs/tensa-publication-2026-11-24/review/live-independent/verification.json",
+    "routes": 4,
+    "all_status_200": true,
+    "actual_unique_image_files": 11,
+    "byte_exact": 10,
+    "different": 1,
+    "all_decoded_dimensions_match_reviewed_local": true,
+    "responsive_filename_sha_prefixes_match": true,
+    "responsive_width_descriptors_match_decoded_widths": true,
+    "incoming_cards": "All three unique Tensa cards retain reviewed text, image/alt, actual responsive widths where present, source/creator/licence/alteration credit. Hills/destinations use original JPEG; Explore uses responsive sizes.",
+    "article": {
+      "live_sha256": "a33bd03172c7339cdb70d2cab1679ccdd014cd558fa2c59800fd59f5402676f2",
+      "local_sha256": "cdebe55d5125dc6ec2b710dc8442a5c954b7f03bbae6e096128edb0e20f95b16",
+      "normalized_match": true,
+      "references": 7,
+      "unique_notes": 4,
+      "returns": 7
+    },
+    "substitutions": {
+      "/images/responsive/ef01992f5f867325-480.webp": "/images/responsive/c6ea82f262607026-480.webp"
+    },
+    "search_policy": "Actual publication noindex,follow matches reviewed hold; no search-authority expansion.",
+    "native_notes": "Seven references to four notes, seven distinct resolving return targets, unique IDs; HTTP checks do not independently establish browser focus or scrolling."
+  },
+  "new_tensa_media": {
+    "original_sha256": "64b6b782a99bf5252d41dcf4a187ac0725c77004c2d708c8c1fcfc655404c56d",
+    "original_bytes": 292662,
+    "original_dimensions": [
+      2048,
+      1365
+    ],
+    "responsive_dimensions": [
+      [
+        480,
+        320
+      ],
+      [
+        960,
+        640
+      ],
+      [
+        1440,
+        960
+      ]
+    ],
+    "all_four_byte_exact": true,
+    "actual_visual_inspection": "Freshly downloaded original and480WebP viewed; the other two responsive sizes are byte-identical to individually viewed local files. Full frame and recognizable scene preserved.",
+    "rights": "Previously independently verified Manjeet bhoi / own work / CC BY-SA4.0. Live creator/source/licence/modification text remains exact. Caption retains creator-labelled Tensa locality and2021 publication; no exact mine, camp, operator, viewpoint, present condition or independent capture-date claim.",
+    "sharing": "OG and Twitter use exact unchanged Tensa original."
+  },
+  "accepted_existing_image_difference": {
+    "image": "Existing Kalinga Ghati480WebP in related reading",
+    "live_sha256": "c6ea82f2626070268e9509eb6591da640a7a922aefd1a3ab186f3921b0f8e1bc",
+    "local_sha256": "ef01992f5f867325e234a821b2d7a6cd7715536f5384d970a39bbd527bd142e6",
+    "independent_measurement": {
+      "live_bytes": 65572,
+      "local_bytes": 65518,
+      "dimensions": [
+        480,
+        311
+      ],
+      "changed_channels": 184711,
+      "total_channels": 447840,
+      "max_delta": 19,
+      "mean_delta": 1.1602715255448375,
+      "rmse": 2.2996360990218125,
+      "sharp": "0.35.5",
+      "libvips": "8.18.7",
+      "interpretation": "Measured difference only; visual acceptance and cause require separate treatment."
+    },
+    "visual_result": "Independently viewed actual fresh live and local files separately at480×311. Same full habitat frame and panelA marker; trees/building detail remains legible, no conspicuous degradation or identity change. Acceptable as related-reading thumbnail.",
+    "limits": "Not byte-identical or pixel-identical. No encoding-cause inference. This acceptance is separate from raw REVIEW_DIFFERENCES, which remains preserved. Existing original and larger Kalinga files are exact."
+  },
+  "browser_visual_review": {
+    "operator": "Disha/root performed actual browser actions. Drishti individually inspected all12 saved captures and verified their hashes; no reviewer CUA interaction.",
+    "manifest": "outputs/tensa-publication-2026-11-24/browser/live-browser-review.json",
+    "screenshots": [
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-top.jpg",
+        "sha256": "2e7de0bd9565bec7b873d2d620f57a1b9f14a5f1d2d130fa8751d59d49b10646",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Title and full photograph; credit continues at viewport bottom."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-photo-credit.jpg",
+        "sha256": "62f11543a7a93da976d972cfceae44c6394fd759a9e95141645b7577a643aaf9",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Title, full photograph and complete credit."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-source3.jpg",
+        "sha256": "cadae1100d3bd330d1346f06706fe7ee7905d0c939bb1d1276fc8b30a43006b8",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Native source3 target after actual click."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-body-return.jpg",
+        "sha256": "dc2601c9798ddc82196fcc435a66dc30454fe4a221bc8d90d890a3e2363ca3ea",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Settled keyboard return, active reference3 and article body."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-all-notes.jpg",
+        "sha256": "6412ff5a60088d9de9998f901cb64578903b530be70dd77f6a9265cd70975ff3",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "All four source notes and first related reading."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-mobile-top.jpg",
+        "sha256": "01101b9fc21e236ca9db60ff201dfdc3594d7d1a6fd2e491132e7608e5be4fb9",
+        "viewport": [
+          390,
+          844
+        ],
+        "scope": "Title, full photograph and complete credit at390x844."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-mobile-body.jpg",
+        "sha256": "e899de4069cbc2a3b990730bf84e5a6e82d71f4c221e207a25260c2a547de2aa",
+        "viewport": [
+          390,
+          844
+        ],
+        "scope": "Mining and community sections."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-mobile-notes.jpg",
+        "sha256": "996ee98eab5a5530efb84bb08541cf4fce01789bcdfe2116d65a5a9bcdf9e929",
+        "viewport": [
+          390,
+          844
+        ],
+        "scope": "All four notes and start of related readings."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-mobile-hills-preview.jpg",
+        "sha256": "c7fc4eaf4ced77eecc86061a373590b9dbe1c652778ac63318c5ca42090c1d45",
+        "viewport": [
+          390,
+          844
+        ],
+        "scope": "Loaded Tensa preview and collapsed credits."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-destinations-preview.jpg",
+        "sha256": "4640d0011427e14cab053174e10f91d2b9f68f3c6cd0344a2ad536ed83815ff2",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Loaded Tensa card among destination cards."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-explore-preview.jpg",
+        "sha256": "24611e9bcc16ad9d5d45a71a138a3f672683278ba64b8648811dfe157ef2ce40",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Loaded Tensa Explore card."
+      },
+      {
+        "file": "outputs/tensa-publication-2026-11-24/browser/live-desktop-preview-credit.jpg",
+        "sha256": "0ba968c1ffe8695d91478c80e7bb4cf3e812cfe30d1fd5a9a25eb555cba71842",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scope": "Expanded credits with actual Tensa attribution and licence."
+      }
+    ],
+    "assessment": "Readable title/body and full photograph; complete creator/licence/change credit in dedicated desktop and mobile views. All four notes visible in desktop and mobile note captures. Settled return screenshot visibly focuses reference3. All three preview images, titles and summaries are legible. Expanded hills credit capture includes actual Tensa attribution. No visible clipping or horizontal overflow in reviewed article/mobile layouts.",
+    "interaction_evidence": "Root observed source3 click, Enter return with exact hash/focus, each incoming card reaching Tensa, and credits disclosure. Root measured width parity at1440/390 and reset viewport.",
+    "framing_limits": [
+      "Initial desktop top has caption continuing below viewport; separate credit capture shows complete credit.",
+      "Source3-target capture begins at note3; separate all-notes captures show whole list.",
+      "Expanded-credit shot clips top of card image; separate full-card screenshots establish preview frame.",
+      "Review covers these desktop1440×1000 and mobile390×844 views, not every device, keyboard path or assistive technology."
+    ]
+  },
+  "retained_failed_attempt": {
+    "evidence": "outputs/tensa-publication-2026-11-24/release/live-attempt1-connection-reset.json",
+    "finding": "Root first HTTP attempt failed curl56 on Explore after three successful route reads. Partial report and files retained. Unchanged retry completed all routes/images; reviewer fresh separate fetch also completed all4/11. No failed run rewritten as success."
+  },
+  "preservation": {
+    "source_site_media_changes_since_publication_merge": [],
+    "manuscript_sha256": "cc225a6ef26ae07e04138b8f07c84efb0053e3d3ad068f6eedf262f220303c17",
+    "kaincha_preparation_files": 15,
+    "additional_completion_review": 1,
+    "all_protected_hashes_preserved": true,
+    "foreign_current_task_handoff_home_preserved": true,
+    "activity_prior_prefix_preserved": true,
+    "programme_credit": 0,
+    "scope_release": "Not granted by this delivery review. Requires final separately reviewed receipt, exact-head required checks and actual receipt merge."
+  },
+  "limitations": [
+    "Source truth/rights review relies on actual prior primary-source inspection; delivery review does not claim new fieldwork, booking or human specialist approval.",
+    "Automatic byte/geometry measurements do not establish aesthetic quality; the one unequal file was separately inspected.",
+    "Current receipt records are still being integrated by root; this is not final receipt continuity approval."
+  ],
+  "blockers": [],
+  "reviewed_evidence_sha256": {
+    "outputs/tensa-publication-2026-11-24/live-verification.json": "820bf599472f3a834fe766383ed912953536c6bae0b59cec1369ac2b14cff567",
+    "outputs/tensa-publication-2026-11-24/live-image-comparison.json": "07bf90be1907d30cb0cca82b3843b7839c2b6ab61530af831c20d63be655d91c",
+    "outputs/tensa-publication-2026-11-24/browser/live-browser-review.json": "b2df926fe7ea3d54b0630f02bbaaebff7015177d9b9fa6adc908a201811689a6",
+    "outputs/tensa-publication-2026-11-24/review/live-independent/verification.json": "3512cb9fecca96a0ae3dfbf9523a64a6ecdbbd6df97f1a703524357149f82a67",
+    "outputs/tensa-publication-2026-11-24/review/live-independent/github.json": "950e9517b0f357509bd1593ae24314a6f9b4e67080385c11ca537f7828abb33a",
+    "outputs/tensa-publication-2026-11-24/review/live-independent/kalinga-difference.json": "7260ccae73432e5cb5670ffa72b336e8caf1f724c54e42f139304e0b98d1e350",
+    "outputs/tensa-publication-2026-11-24/release/live-attempt1-connection-reset.json": "1c19304f6955753dbbf4159f544380f581a765f51b789c7e8503e66bf98e27c6"
+  }
+}

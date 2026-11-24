@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_publication_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-TENSA-20261124",
   "route": "/destinations/tensa/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Once the Birakishore Das release is complete and the slot returns, continue with Tensa—research, review and publish it with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112491",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "38b6216d331d04235c90977553ded55bcdde8d74",
   "preceding_release": {
     "article": "Birakishore Das",
@@ -37,16 +37,18 @@
     "prior_linux_payload_bytes": 998950813,
     "prior_remaining_bytes": 1049187,
     "candidate_image_payload_bytes": 490958,
-    "candidate_image_payload_note": "Unchanged292662-byte source plus three generated WebP variants total490958bytes. Actual assembled and Linux payload still required.",
+    "candidate_image_payload_note": "Unchanged292662-byte source plus three generated WebP variants total490958bytes; actual assembled Linux package independently verified.",
     "local_payload": {
       "bytes": 998680963,
       "files": 3660,
       "remaining_bytes": 1319037
     },
-    "intervention": "No new optimizer or unrelated image changes. Original JPEG plus responsive variants fit measuredlocal package; actual Linux limit remainsrequired."
+    "intervention": "No new optimizer or unrelated image changes. Original JPEG and responsive variants fit actual Linux CI/deployment payload.",
+    "actual_ci_payload_bytes": 999470107,
+    "actual_ci_remaining_bytes": 529893
   },
   "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, Kaincha preparation and prior release evidence.",
-  "next_action": "Review exact committed candidate, pass required hosted CI and actual Linux capacity, then merge and deploy under standing authorization.",
+  "next_action": "Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot.",
   "reserved_files": {
     "Anvesha": [
       "outputs/tensa-publication-2026-11-24/research/"
@@ -120,5 +122,60 @@
         "sha256": "9dc16d64921e98dd0f52477e0003b7549949f0e8cea7f3148137f9950d9bdbad"
       }
     ]
-  }
+  },
+  "publication": {
+    "pr": 851,
+    "reviewed_head": "e1edfb88867e935a1af67a3a31ca71244ff0e5d2",
+    "merge": "2166225c8ba4966385e03951d9a853ac61b7336e",
+    "merged_at": "2026-11-24T09:48:33Z",
+    "required_ci": 45365066846,
+    "attempt": 1,
+    "conclusion": "success",
+    "evidence": "outputs/tensa-publication-2026-11-24/release/publication-verification.json"
+  },
+  "deployment": {
+    "run": 45368774658,
+    "head": "2166225c8ba4966385e03951d9a853ac61b7336e",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999470107,
+    "files": 3660,
+    "remaining_bytes": 529893,
+    "evidence": "outputs/tensa-publication-2026-11-24/release/deployment.json",
+    "log": "outputs/tensa-publication-2026-11-24/release/deployment.log.gz"
+  },
+  "live_verification": {
+    "evidence": "outputs/tensa-publication-2026-11-24/live-verification.json",
+    "image_comparison": "outputs/tensa-publication-2026-11-24/live-image-comparison.json",
+    "browser_evidence": "outputs/tensa-publication-2026-11-24/browser/live-browser-review.json",
+    "routes": 4,
+    "images": 11,
+    "screenshots": 12,
+    "raw_status": "REVIEW_DIFFERENCES",
+    "new_photo_and_variants": "All four Tensa files byte-exact; unchanged original plus three responsive variants.",
+    "difference": "Existing Kalinga Ghati480 variant differs:184711changed RGB channels, max19, mean1.1602715255. Root and separate reviewer independently viewed both full frames and accept displayed quality; no encoding cause or pixel identity inferred. Raw REVIEW_DIFFERENCES preserved.",
+    "attempt1": "Connection reset while retrieving Explore; raw failure and three partial captures preserved in release/live-attempt1-*; unchanged second attempt completed.",
+    "independent_evidence": "outputs/tensa-publication-2026-11-24/review/live-independent/verification.json"
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. No next article is claimed by this receipt.",
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/tensa-publication-2026-11-24/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_review": {
+    "status": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/tensa-publication-2026-11-24/review/final-receipt-review.json",
+    "scope": "Final integrated evidence-only receipt reviewed; exact committed-head review, required CI and actual merge remain."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/851",
+  "verified_routes": [
+    "/destinations/tensa/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ]
 }
