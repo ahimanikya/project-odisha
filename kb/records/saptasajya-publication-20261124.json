@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-SAPTASAJYA-20261124",
   "route": "/destinations/saptasajya/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Continue with the next uncovered hill destination—research, review and publish it with a high-quality credited image in the article and preview, one article at a time.",
   "work_id": "POD-WORK-2026112495",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "7d26d22bf03d1a5bf308c9a936aca2c5c4795e3e",
   "prior_release": {
     "receipt_pr": 852,
@@ -35,14 +35,16 @@
   "capacity": {
     "prior_linux_payload_bytes": 999470107,
     "prior_remaining_bytes": 529893,
-    "new_package_measurement": "Local package measured and passed; hosted Linux measurement pending",
+    "new_package_measurement": "Actual Linux required publication CI and deployment both verified at 999912801 bytes / 3665 files.",
     "local_payload": {
       "bytes": 999122548,
       "files": 3665,
       "remaining_bytes": 877452
     },
-    "intervention": "No unrelated image or optimizer changes. Actual Linux package still required.",
-    "candidate_image_payload_bytes": 416482
+    "intervention": "No new optimizer or unrelated image changes. Credited photograph and variants fit actual Linux CI/deployment capacity.",
+    "candidate_image_payload_bytes": 416482,
+    "actual_ci_payload_bytes": 999912801,
+    "actual_ci_remaining_bytes": 87199
   },
   "assignments": {
     "Disha": "Coordination, media and publication",
@@ -51,7 +53,7 @@
     "Drishti": "Separate quality and delivery review"
   },
   "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, Jhoti/Kaincha unpublished preparation and all prior releases.",
-  "next_action": "Complete final package and exact-commit review, then required hosted checks and authorized publication.",
+  "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly hand the slot to the reserved Jhoti Chita publication chat.",
   "web_guidance": {
     "basis": "Previously retrieved actual HTML, responsive-design and card guidance read from /private/tmp/deomali-web-guidance.md; reused existing article patterns.",
     "limitation": "No fresh retrieval or new browser feature claimed. Prior unpinned CLI automatic-review rejection not retried."
@@ -132,5 +134,59 @@
       }
     ]
   },
-  "final_package_review": "outputs/saptasajya-publication-2026-11-24/review/final-package-review.json"
+  "final_package_review": "outputs/saptasajya-publication-2026-11-24/review/final-package-review.json",
+  "publication": {
+    "pr": 853,
+    "reviewed_head": "712b7b40ffd820dadc93666fa5ac491a282e9488",
+    "merge": "c49d0fc8927067779997cd004cbcaa187184fe90",
+    "merged_at": "2026-11-24T18:06:57Z",
+    "required_ci": 45449589661,
+    "attempt": 2,
+    "conclusion": "success",
+    "evidence": "outputs/saptasajya-publication-2026-11-24/release/publication-verification.json"
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to the reserved Jhoti Chita publication chat; no next hill is claimed.",
+  "deployment": {
+    "run": 45456071334,
+    "head": "c49d0fc8927067779997cd004cbcaa187184fe90",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999912801,
+    "files": 3665,
+    "remaining_bytes": 87199,
+    "evidence": "outputs/saptasajya-publication-2026-11-24/release/deployment.json",
+    "log": "outputs/saptasajya-publication-2026-11-24/release/deployment.log.gz"
+  },
+  "live_verification": {
+    "evidence": "outputs/saptasajya-publication-2026-11-24/live-verification.json",
+    "image_comparison": "outputs/saptasajya-publication-2026-11-24/live-image-comparison.json",
+    "browser_evidence": "outputs/saptasajya-publication-2026-11-24/browser/live-browser-review.json",
+    "routes": 4,
+    "images": 8,
+    "screenshots": 12,
+    "raw_status": "REVIEW_DIFFERENCES",
+    "difference": "Seven images byte-exact. Saptasajya480 differs: 281081/518400 changed RGB channels, max27, mean1.44390625, RMS2.6108831904. Root and separate reviewer independently measured/viewed both full frames and accepted visible quality; no pixel identity or encoding cause inferred. Raw differences retained. Article fragment matches after only the observed responsive URL substitution.",
+    "independent_evidence": "outputs/saptasajya-publication-2026-11-24/review/live-independent/http-verification.json",
+    "screenshot_limit": "Two body/all-notes pairs overlap; twelve captures are not twelve distinct layouts."
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/saptasajya-publication-2026-11-24/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/853",
+  "verified_routes": [
+    "/destinations/saptasajya/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/"
+  ],
+  "receipt_review": {
+    "status": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/saptasajya-publication-2026-11-24/review/final-receipt-review.json",
+    "scope": "Final integrated evidence-only receipt reviewed; exact committed-head review, required CI and actual merge remain."
+  }
 }

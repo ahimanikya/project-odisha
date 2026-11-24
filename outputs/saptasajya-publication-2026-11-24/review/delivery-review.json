@@ -1,0 +1,221 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate live delivery review",
+  "reviewed_on": "2026-11-25",
+  "scope": "Actual Saptasajya delivery, independent fresh HTTP/GitHub reads and decoded-image checks, plus independent inspection of root-operated live screenshots. Not final receipt merge approval.",
+  "blockers": [],
+  "publication": {
+    "pr": 853,
+    "reviewed_head": "712b7b40ffd820dadc93666fa5ac491a282e9488",
+    "merge": "c49d0fc8927067779997cd004cbcaa187184fe90",
+    "reviewed_and_merged_tree": "58366d61fc335a06317a11b17c7e8766bb6624ed",
+    "ci": 45449589661,
+    "ci_attempt": 2,
+    "ci_conclusion": "success",
+    "deployment": 45456071334,
+    "deployment_attempt": 1,
+    "deployment_conclusion": "success",
+    "verification": "Fresh GitHub API responses saved under review/live-independent. Retained CI/deployment gzip logs read for actual payload. First unchanged-head CI attempt failed during anonymous Dhaga archive download HTTP403; raw failure retained, successful attempt2 verified, no underlying cause inferred."
+  },
+  "actual_linux_payload": {
+    "bytes": 999912801,
+    "files": 3665,
+    "exclusive_limit": 1000000000,
+    "remaining_bytes": 87199,
+    "source": "Both retained successful CI and deployment payload acceptance log sections; identical actual count."
+  },
+  "fresh_http": {
+    "routes": [
+      {
+        "route": "/destinations/saptasajya/",
+        "http": 200,
+        "file": "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-0.html",
+        "sha256": "a5511bc7def9c462ba42643a1d5eccd97a15c5146810f7dda6de21c64aa20f59"
+      },
+      {
+        "route": "/destinations/hills/",
+        "http": 200,
+        "file": "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-1.html",
+        "sha256": "0115afc44210141feee8afbb10c0bb044bb3756f2cf7e5b407ef9dfc99ce7f0b"
+      },
+      {
+        "route": "/destinations/",
+        "http": 200,
+        "file": "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-2.html",
+        "sha256": "ed5d5fe6d8cce04deb7e7496389e603cf4897d82eca1cff36783c817cc519fcb"
+      },
+      {
+        "route": "/explore/",
+        "http": 200,
+        "file": "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-3.html",
+        "sha256": "9638e752056d9ce14667218b35338b2b81a48b1bfbf63fab485679f05540961d"
+      }
+    ],
+    "actual_image_urls": 8,
+    "byte_exact_images": 7,
+    "different_images": 1,
+    "coverage": "All actual article src/srcset images including both reading-path destinations, plus all three incoming Saptasajya preview image sets collected from fresh HTML and fetched. Every request HTTP200. Responsive filename SHA prefixes and decoded descriptor widths checked.",
+    "article": {
+      "live_fragment_sha256": "0454a45e9e4b950a1f27679877dbf1703e48d19b95cd765cc4c64f6977f61b3a",
+      "local_fragment_sha256": "8b53f7e88ccb83cf9be3682f3ecedb2339ed373b1033701da98ecc28bf19f355",
+      "substitutions": {
+        "/images/responsive/3867fe434648ddd8-480.webp": "/images/responsive/e0e6b1a38b4692ec-480.webp"
+      },
+      "normalized_match": true,
+      "references": 4,
+      "notes": 2,
+      "returns": 4
+    },
+    "checks": [
+      "Four native references, two notes and four distinct returns resolve; IDs unique.",
+      "Founder byline, visible sources, reading paths and article-specific update notice preserved by exact normalized fragment.",
+      "Actual sharing image and new article noindex,follow policy match review.",
+      "All three incoming cards retain reviewed text, correct image/alt and linked source, creator, licence and changes."
+    ]
+  },
+  "image_difference": {
+    "url": "/images/responsive/e0e6b1a38b4692ec-480.webp",
+    "local_url": "/images/responsive/3867fe434648ddd8-480.webp",
+    "live_sha256": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+    "local_sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+    "live_bytes": 24384,
+    "local_bytes": 24408,
+    "dimensions": [
+      480,
+      360
+    ],
+    "changed_rgb_channels": 281081,
+    "total_rgb_channels": 518400,
+    "max_absolute_channel_delta": 27,
+    "mean_absolute_channel_delta": 1.44390625,
+    "root_mean_squared_channel_delta": 2.61088319040715,
+    "visual_result": "Accepted after independently opening actual fresh live and reviewed local480 files separately. Same complete composition, recognizable hills and foreground, no conspicuous added degradation at displayed size. Not byte/pixel identical.",
+    "cause": "Not established; no encoding-cause assertion.",
+    "raw_status": "Root REVIEW_DIFFERENCES and measurement_complete_visual_review_pending reports retained unchanged; this separate review supplies acceptance."
+  },
+  "rights_and_preservation": {
+    "original_sha256": "d13171f767a476cddcb0f17de208821b1575ccbf901f323fec7a8b2a24ddc478",
+    "live_public_base_sha256": "7ec87dc4bc579349d3264c7891b6f17356016c588a131147d720766442e75fa1",
+    "credit": "Devopam / Commons File:Saptsajya_Hills.JPG / CC BY-SA4.0, July2015 source-described north view; resizing/compression/crop disclosure retained.",
+    "protected_files": 38,
+    "result": "All protected preparation hashes preserved; foreign current_task/handoff_home and prior activity prefix unchanged. No projects/site, kb/media or kb/research diff from actual publication merge. Previous independent package exclusion review remains applicable to unchanged source tree; no new draft publication authorized by this verdict.",
+    "programme_credit": 0
+  },
+  "visual_review": {
+    "browser_manifest_path": "outputs/saptasajya-publication-2026-11-24/browser/live-browser-review.json",
+    "browser_manifest_sha256": "1c107fb9cba38a370d5f6acc0ed4051e9df2bfc3c49d925530b018d8989f36ba",
+    "screenshots": [
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-all-notes.jpg",
+        "sha256": "077b590095521324e1c8937b06640c4c191aaf943c91ebdfad1a95571dce4b3f",
+        "independently_viewed": true,
+        "assessment": "Both complete notes and returns readable. Same captured view as desktop-body."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-body.jpg",
+        "sha256": "077b590095521324e1c8937b06640c4c191aaf943c91ebdfad1a95571dce4b3f",
+        "independently_viewed": true,
+        "assessment": "Body, both notes and visible reference2 focus outline readable. Identical bytes to desktop-all-notes, not a distinct layout."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-destinations-preview.jpg",
+        "sha256": "16e79e5f2cebca2ce4f93085327c37ace9dd59539d72da0f4a4ff535bdad11b7",
+        "independently_viewed": true,
+        "assessment": "Complete Saptasajya card, recognizable photograph, title and summary."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-explore-preview.jpg",
+        "sha256": "46339600e373f766407228725039311aa1f51df78e0dde8737cf7a80835112a8",
+        "independently_viewed": true,
+        "assessment": "Complete one-result Explore card, image, title, summary and entry link; credit disclosure closed, actual linked credit independently checked in HTTP HTML."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-note-return.jpg",
+        "sha256": "fc8b4d50bf813c3ba7df069f7c32e29bd3e9782e8d9261813f75bbc0a493b280",
+        "independently_viewed": true,
+        "assessment": "Shows note2 and complete Continue/Further reading paths plus update link; filename alone is not evidence of keyboard return. Focus/action evidence is separately attributed to root and body views."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-photo-credit.jpg",
+        "sha256": "1f8f925a25a4b86b27453ac8f068c94a6b069424a9d250b7dfb5058f4bf3e46d",
+        "independently_viewed": true,
+        "assessment": "Complete landscape frame and full historical caption, source/creator, licence and changes readable."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-desktop-top.jpg",
+        "sha256": "0a739393e84617edff3c9017eb437ac4dbee09eecfefa186d1bbc55a354039d2",
+        "independently_viewed": true,
+        "assessment": "Title/byline and landscape clear; lower edge/caption below initial viewport, separately covered by credit view."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-mobile-all-notes.jpg",
+        "sha256": "228cc9287a92085503fe53c2d99d64d96c9d1da9804c00e0ee71dd1c430a214c",
+        "independently_viewed": true,
+        "assessment": "Both notes and return markers visible; same view as mobile-body."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-mobile-body.jpg",
+        "sha256": "228cc9287a92085503fe53c2d99d64d96c9d1da9804c00e0ee71dd1c430a214c",
+        "independently_viewed": true,
+        "assessment": "Planning paragraph, both complete notes and beginning of Continue reading clear; same bytes as mobile-all-notes."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-mobile-forest.jpg",
+        "sha256": "4c35d18b9dc3a183f6a1920f7c087d68057657eea8ee1cabc56009c02629a7d7",
+        "independently_viewed": true,
+        "assessment": "Forest paragraph and planning prose readable, visible reference2 focus outline; note2 continues beyond lower edge."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-mobile-hills-preview.jpg",
+        "sha256": "f78b0db3d72f46a9f304aa66bb7f8a986e61cfae24e0415aaeee2af1f6a3e7c6",
+        "independently_viewed": true,
+        "assessment": "Complete hill card and image visible; crop retains hills/foreground and title/summary legible."
+      },
+      {
+        "path": "outputs/saptasajya-publication-2026-11-24/browser/live-mobile-top.jpg",
+        "sha256": "70918d9a5b6a3cdb3219d7f8585fe1620912a1d1b3f31ce70195b00876b32578",
+        "independently_viewed": true,
+        "assessment": "Full photograph and complete wrapping caption/credit visible at390px; title/byline and margin readable."
+      }
+    ],
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "distinct_file_hashes": 10,
+    "result": "PASS for inspected actual frames. Twelve files viewed individually, ten unique hashes: two duplicate pairs are disclosed rather than claimed as twelve distinct layouts.",
+    "interaction_attribution": "Disha/root operated actual desktop/mobile source2 click and Enter return, all three incoming-card links and viewport measurements/reset. Drishti independently viewed saved captures and inspected/fetched actual HTML/media; no independent CUA or exhaustive keyboard audit claimed."
+  },
+  "limits": [
+    "Desk research and creator-supplied image identity/date/direction; no field visit, current-condition evidence, human specialist review or independent geolocation.",
+    "Body/notes overlap and initial desktop hero viewport clipping explicitly described; dedicated photo-credit/mobile views supply full-frame proof.",
+    "Existing public card credits are in collapsible credit sections; actual source/licence links checked in live HTML, not claimed visible in closed-disclosure screenshots.",
+    "Final integrated evidence-only receipt review, exact committed continuity, required receipt CI and actual receipt merge remain pending. Article slot not released by this review."
+  ],
+  "evidence_sha256": {
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/ci-attempt1.json": "96036d52a21b4321dbb5e5778b0e8eac4e8c562c9c086d9b3d10760afee5fbac",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/ci.json": "454008783162668c1aae4f64228108d8f2bf724f98924bc8c4a110226ad7b814",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/decoded-comparison.json": "48b418484a086dbbc56796317a4e462862e14737519babb69fbe189bbf55bb55",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/deployment.json": "3b238de41937eff6020fb4f007c2fb2fe23ed78433f993fd1ab3807392022764",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/http-verification.json": "e35d30a7de3c9dd99c52cb68b2e646292bf8835ecb74dea6ed2cd0b97c6d39b5",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-0.webp": "7ec87dc4bc579349d3264c7891b6f17356016c588a131147d720766442e75fa1",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-1.webp": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-2.webp": "997e9b043ab6ecb94d0028c13489b629ef039364722a7cebafa6584a6370c884",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-3.webp": "20c0599057420cff59dae3b53d0fb7e92d997dbc10321f229ff435db0bc49441",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-4.webp": "8b18365a274debacd43cf133df776c594a6dd0787256d285c303c619a37b5386",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-5.webp": "aaf3722df1dd2f58c2b15cad08d56afe62a139b5e0ccc592f9d4dea070f99f12",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-6.webp": "2e7a32e0ebf9a310dad163a46a579c8f28cdc2cacf8d212c3ec13721a1208fd3",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/image-7.webp": "320d2af806bd8322718f49ce0f5f6f99bc469f022625e1786ef2c174893d8a5b",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/publication-pr.json": "1eed0a161954b664239fd43763e96cb054ac3a21f4a62743e60cdce2f51e7c06",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-0.html": "a5511bc7def9c462ba42643a1d5eccd97a15c5146810f7dda6de21c64aa20f59",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-1.html": "0115afc44210141feee8afbb10c0bb044bb3756f2cf7e5b407ef9dfc99ce7f0b",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-2.html": "ed5d5fe6d8cce04deb7e7496389e603cf4897d82eca1cff36783c817cc519fcb",
+    "outputs/saptasajya-publication-2026-11-24/review/live-independent/route-3.html": "9638e752056d9ce14667218b35338b2b81a48b1bfbf63fab485679f05540961d"
+  }
+}

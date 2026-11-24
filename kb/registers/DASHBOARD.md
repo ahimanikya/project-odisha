@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c5ea98b648f6595acf9a045dd0355de34f9d8ecab7178537c45023a390114b02`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a3faff158094285d57e346942234279599fd056a6435ca4387a4ac293d482699`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -417,7 +417,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261123201 · Publish Birakishore Das: Poems, Schoolbooks and the Young Reader | completed | published | Ahimanikya Satapathy | Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa. | — |
 | POD-WORK-2026112491 · Research, review and publish Tensa | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot. | — |
 | POD-WORK-20261124201 · Prepare original Jhoti Chita article with credited image | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Jhoti draft, credited photograph and publication brief; return the preparation slot to the hill-series chat for its next uncovered destination. No public integration authorized. | — |
-| POD-WORK-2026112495 · Research, review and publish Saptasajya | in_progress | reviewed | Ahimanikya Satapathy | Exact-commit review, required hosted checks, authorized publication and fresh live verification. | — |
+| POD-WORK-2026112495 · Research, review and publish Saptasajya | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI, then explicit Jhoti slot handoff. | — |
 
 ## Pending human review and decisions
 
@@ -1180,7 +1180,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261123201 | pass | True | No human specialist review or fieldwork.; Symbolic illustration is not a portrait or historic book facsimile.; Local capacity is not proof of Linux or live acceptance. |
 | POD-REV-2026112491 | pass | True | No fieldwork or human specialist review.; Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.; Bounded live checks and separate AI review; no fieldwork or human specialist review. Conditional scope release only after reviewed receipt merge. |
 | POD-REV-20261124201 | pass_with_limitations | True | Separate AI review, not human specialist approval or fieldwork.; Acquired official Commons preview preserved; original camera file was not acquired.; Preparation only; no website rendering, integration, deployment or live checks. |
-| POD-REV-2026112495 | pass | True | No fieldwork or human specialist review.; Photograph identity and north-view date are creator supplied; no independent geolocation.; Local review does not establish hosted Linux capacity or live delivery. |
+| POD-REV-2026112495 | pass | True | No fieldwork or human specialist review.; Photograph identity, date and north-view label are creator supplied; no independent geolocation.; One responsive encoding differs; no pixel identity or encoding cause claimed. Two screenshot pairs overlap. |
 
 ## Publication and application history
 
@@ -1461,6 +1461,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-20261123101 · Kapileswar at Hatuari: What Do We Actually Know? | published | https://projectodisha.org/stories/kapileswar-hatuari/ | POD-DEC-20261123101 |
 | POD-REL-20261123201 · Birakishore Das: Poems, Schoolbooks and the Young Reader | published | https://projectodisha.org/literature/birakishore-das/ | POD-DEC-20261123201 |
 | POD-REL-2026112491 · Tensa: Hills, Iron Ore and a Community Camp | published | https://projectodisha.org/destinations/tensa/ | POD-DEC-2026112491 |
+| POD-REL-2026112495 · Saptasajya: A Shrine Among Wooded Hills | published | https://projectodisha.org/destinations/saptasajya/ | POD-DEC-2026112495 |
 
 ## Sources and assets
 
@@ -1498,7 +1499,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261123202 | 2026-11-24T06:34:17.439445+00:00 | Birakishore local candidate reviewed; 827 full and 599 coastal tests, 5,456 acceptance checks, source, media, code, rendered and package reviews pass. Publication remains pending; zero programme credit. | — |
 | POD-EVT-20261123203 | 2026-11-24T08:01:13.700920+00:00 | PR849 and deployment45346733610 succeeded on reviewed source. Required CI attempt1 external403 preserved; unchanged attempt2 passed. Separate fresh live review and15root browser captures cover article, credited illustration and3incoming links. Two existing image encodings differ and were separately measured/visually accepted. Receipt merge precedes explicit Tensa slot return; zero programme credit. | — |
 | POD-EVT-2026112491 | 2026-11-24T08:44:12.729571+00:00 | Accepted explicit slot return after independently verifying Birakishore receipt merge and required CI. Tensa sole active article; prior evidence and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-2026112492 | 2026-11-24T09:23:47.270925+00:00 | Source, credited original image, article and3incomingpreviews reviewed; separate desktop/mobile and final local package PASS.827full/599coastal tests,5460pagechecks and10676artifactchecks passed. Actuallocal998680963bytes; hosted/live gates pending; zero programme credit. | — |
@@ -1508,6 +1508,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261124202 | 2026-11-24T15:33:31.801096+00:00 | Prepared original Jhoti Chita draft and credited authentic photograph after independent research and separate review. Unpublished; return to hill chat follows reviewed local commit. | — |
 | POD-EVT-2026112495 | 2026-11-24T15:38:01.331941+00:00 | Founder requested next uncovered hill; Tensa receipt verified and Jhoti reviewed preparation explicitly returned. Reconciled7d26d22b and verified22Jhoti hashes. Saptasajya selected after scoped reuse search; research and publication checks pending, zero programme credit. | — |
 | POD-EVT-2026112496 | 2026-11-24T17:28:37.219911+00:00 | Source/media/code and separate rendered reviews passed;827 full and599 coastal tests,5464 page checks and13 publication stages passed. Exact final local artifacts and38 protected preparation files verified; local package999122548bytes. Final package review, hosted checks and publication remain; zero programme credit. | — |
+| POD-EVT-2026112497 | 2026-11-24T19:20:23.493729+00:00 | PR853 passed CI attempt2 and merged c49d0fc8; deployment45456071334 succeeded. Separate fresh delivery review passed four routes/eight images/twelve screenshots and real root interactions. One responsive image difference measured and visually accepted. Actual999912801 bytes/3665 files leaves87199 bytes; zero programme credit. Slot remains held until reviewed receipt actually merges. | — |
 
 ## Deferred extensions
 
