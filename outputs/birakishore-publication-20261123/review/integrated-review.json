@@ -1,0 +1,60 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "PASS_SOURCE_CODE_MEDIA_ONLY",
+  "scope": "Integrated source, code, illustration and bounded JPEG implementation. Rendered layout, final package, exact commit, Linux CI and publication remain unreviewed.",
+  "reviewed_hashes": {
+    "projects/site/src/pages/literature/birakishore-das.astro": "bd61aa2148d38551777b9afd78459adb9d4ebfffe5434ad75f63835ab3d3ab7a",
+    "projects/site/src/pages/literature/index.astro": "95696d039db987d505e3dcd72665841cc436f961590fe68e4f5cab70bc6921d7",
+    "projects/site/src/pages/stories/odia-literature-preservation.astro": "c84e696e51a7a6a7037c57d22c6a369f1af8b292de9944e9061c5281723a282a",
+    "projects/site/src/pages/stories/odia-bibhaba-visit.astro": "a4795c6c8cf0d8b46dae8e48c7df227cf1c680324d71566eff248387ddd74610",
+    "projects/site/src/components/CultureCards.astro": "b16b6ebf8e288569080404b055d7c6abd3e849ccddc618839b2eeb0754bdbf8f",
+    "projects/site/editions/coast.json": "714ceb6674a4a1733323ebb5ff9df2e9dd3299ee949399e2bcf0e82b3a84de44",
+    "projects/site/editions/search-candidate.json": "17af9d29c820a4a9c48b5e903a9a548f6e786c2d567c01aa9366440337295ecb",
+    "projects/site/tests/build.test.mjs": "c174405986869ea446fc729dd4437cf37a2c6e8ee62a1ace9b22a06e87791b98",
+    "projects/site/public/images/literature/birakishore-das/reading-table.webp": "d0ec60a0b0398d1ccb66ad137b44dae4cc5d0493c3fdb244ad1cdd546ef00a4e",
+    "projects/site/public/images/literature/birakishore-das/reading-table-480.webp": "17d45aa8e55d53600789da82ca43226530c316a4476fdf08fe25a20c5661e25f",
+    "kb/research/people/birakishore-das-article.md": "e1e2914ba8fe103ba8703f2d30cc33f3b90a36793bb5292c029d0e406e6afd01",
+    "kb/research/people/birakishore-das-sources.json": "87f7fb4df796bbac01f9699b41e3d3f4fc146361069a5e5486759d2f71b53f6c",
+    "kb/reference/public-website-routes.json": "31641caa040d3f1e498175cf43c2c758edd01ebfb9f7d3d1b39be10ab2b4346b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "a5326dad6a24b555d3dda9afd812afac833591df2333f1222a1ceac0515a8ec6",
+    "projects/site/tests/publication-jpeg.test.mjs": "6d0ceaca30f263cf8a2fb21daeb320e01dd5bc56f8ae51c57846ce0d41f48e91",
+    "projects/site/tests-coast/literature-editorial.test.mjs": "9b32487e717bd3a64f6f9a4e1f6d309466b3761137fa6abf6e8da28ee0c45fe5"
+  },
+  "checks": [
+    "Independently normalized canonical frontmatter and only the absolute public image URL: manuscript body equals reviewed preparation byte-for-byte. No new historical claim; source citations and corrected another-name wording remain.",
+    "Invoked existing renderer without site build: six actual footnote references, four definitions, six actual return anchors, unique IDs and all fragment targets. Exact caption/title/byline retained. New wrapper provides one h1, visible sources, Further reading, Literature return and update/privacy notice.",
+    "Personally viewed actual1200×800 and480×320 WebPs. Complete composition retained and details readable at shown scale. Base127966 bytes and preview21594 total149560. Independently reproduced both byte-exact in memory:1200 from original,480 from1200 base. The latter is a second lossy encoding, not directly resized from PNG. Original hash remains1316ffb065ef65b565415ad9ff645f5d1927a967862a53065f134334b6e7bc0a.",
+    "Hero explicit dimensions and480w/1200w srcset are eager/high priority; previews are lazy and name-only, with Illustration: Project Odisha credits. Main sharing uses1200 asset. Existing reading-path component contains complete image. Actual layout still requires screenshots/browser evidence.",
+    "Independently removed the exact optional c.image branch from CultureCards and obtained base component byte-for-byte. Existing collection has no direct-image cards; only new literature card uses this branch. Existing asset/text behavior/styles remain intact across19 potential callers; runtime regression checks remain required.",
+    "Three incoming pages append only intended cards/links, preserving prior narratives, sources, images and reading paths. Coast adds exactly one route; search adds hold; full fixed-page expectation183→184 matches one page. Coastal card expectation adds exactly one card and assertions for its image, credit and destination; existing checks retained.",
+    "Explicit raw manuscript import introduces no broad research export. Kaincha is absent from public route/search selection; original PNG and private source captures are not referenced by new page. Existing knowledge export is explicitly selected. Package absence verification remains pending.",
+    "Completed JPEG diff adds only exact eighth Radha path and per-file2048/95 settings. Previous seven entries, defaults, algorithm and PNG optimizer remain unchanged. Matching museum URL, unique credit phrase and exact OG image/dimensions guard transformations. New tests cover geometry, technical metadata, original equality and reject invalid inputs before writes.",
+    "Read capacity implementation evidence reporting7/7 focused tests and byte-exact reviewed candidate; did not rerun them. Metadata assertions correctly distinguish absent ICC/IPTC/XMP, absent→1 orientation and added EXIF. Visual derivative approval is independently recorded in capacity-review.json.",
+    "Read installed web guidance and captured image-priority/HTML guidance. No new client JS. The stale implementation parity helper was corrected to the absolute URL; my own independent normalized parity already passed. Samanta reports successful corrected helper and4/4 coastal test; these are attributed results, not my test runs."
+  ],
+  "source_budget": {
+    "method": "Previous independent block count plus publication metadata5 and three name labels6, replacing historical brief heading5. Full title, relevant/source headings, notes and symbolic caption conservatively charged. Dash-separated tokens split, producing a stricter count than Anvesha.",
+    "mo_desa": 188,
+    "granthabali": 200,
+    "patnaik": 178,
+    "osepa_sahitya_surabhi": 183,
+    "anvesha_comparison": "186/198/178/180. No additional derived summary should be added without recounting."
+  },
+  "preservation": [
+    "No diff observed in Kaincha manuscript, memoir page or PNG optimizer.",
+    "No source painting mutation; originals and preparation retained.",
+    "Root remains sole shared-record writer; foreign ownership preservation checked in preflight."
+  ],
+  "resolved_findings": [
+    "Evidence helper expected old relative image URL; corrected before final review.",
+    "Coastal literature card count needed one additional card; updated assertion preserves prior checks and adds specific new-card coverage."
+  ],
+  "limits": [
+    "No full/coast/publication build or suite run by this reviewer.",
+    "No browser use or screenshot review in this phase; no mobile/desktop acceptance claimed.",
+    "Actual package capacity and exact-head Linux CI remain required; local media totals are not acceptance.",
+    "Final route package must independently verify private captures, Kaincha and unrelated preparation exclusion."
+  ],
+  "blockers": []
+}

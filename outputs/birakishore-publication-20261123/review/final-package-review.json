@@ -1,0 +1,71 @@
+{
+  "reviewer": "Drishti",
+  "kind": "Separate AI agent review",
+  "status": "PASS_LOCAL_PACKAGE",
+  "reviewed_at_utc": "2026-11-24T06:33:41.479823+00:00",
+  "reviewed_hashes": {
+    "projects/site/src/pages/literature/birakishore-das.astro": "bd61aa2148d38551777b9afd78459adb9d4ebfffe5434ad75f63835ab3d3ab7a",
+    "projects/site/src/pages/literature/index.astro": "95696d039db987d505e3dcd72665841cc436f961590fe68e4f5cab70bc6921d7",
+    "projects/site/src/pages/stories/odia-literature-preservation.astro": "c84e696e51a7a6a7037c57d22c6a369f1af8b292de9944e9061c5281723a282a",
+    "projects/site/src/pages/stories/odia-bibhaba-visit.astro": "a4795c6c8cf0d8b46dae8e48c7df227cf1c680324d71566eff248387ddd74610",
+    "projects/site/src/components/CultureCards.astro": "b16b6ebf8e288569080404b055d7c6abd3e849ccddc618839b2eeb0754bdbf8f",
+    "projects/site/editions/coast.json": "714ceb6674a4a1733323ebb5ff9df2e9dd3299ee949399e2bcf0e82b3a84de44",
+    "projects/site/editions/search-candidate.json": "17af9d29c820a4a9c48b5e903a9a548f6e786c2d567c01aa9366440337295ecb",
+    "projects/site/tests/build.test.mjs": "c174405986869ea446fc729dd4437cf37a2c6e8ee62a1ace9b22a06e87791b98",
+    "projects/site/public/images/literature/birakishore-das/reading-table.webp": "d0ec60a0b0398d1ccb66ad137b44dae4cc5d0493c3fdb244ad1cdd546ef00a4e",
+    "projects/site/public/images/literature/birakishore-das/reading-table-480.webp": "17d45aa8e55d53600789da82ca43226530c316a4476fdf08fe25a20c5661e25f",
+    "kb/research/people/birakishore-das-article.md": "c969639c79634ac51a1ee0b3a231b497b73a55b617c2dac5cd777a1188da3696",
+    "kb/research/people/birakishore-das-sources.json": "a21582027ba73ce7d871acbc0e460e3836035590fc8e3018104924c6c116f238",
+    "kb/reference/public-website-routes.json": "31641caa040d3f1e498175cf43c2c758edd01ebfb9f7d3d1b39be10ab2b4346b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "a5326dad6a24b555d3dda9afd812afac833591df2333f1222a1ceac0515a8ec6",
+    "projects/site/tests/publication-jpeg.test.mjs": "6d0ceaca30f263cf8a2fb21daeb320e01dd5bc56f8ae51c57846ce0d41f48e91",
+    "projects/site/tests-coast/literature-editorial.test.mjs": "9b32487e717bd3a64f6f9a4e1f6d309466b3761137fa6abf6e8da28ee0c45fe5",
+    "outputs/birakishore-publication-20261123/check_package.py": "74dcb6ce0103f851503d74432c5c19149f1ffc77304301943f12d696e89a6a68",
+    "outputs/birakishore-publication-20261123/package-checks.json": "5cfa8e97d79a225b5126fe0da55e393095c3b07466bba23526768370b31fb1e2",
+    "outputs/birakishore-publication-20261123/local/final-package-browser.json": "0116c2299496e07e51fa56889862221b2aad527e68cb39028e9bf9c49c4e4cc1",
+    "outputs/birakishore-publication-20261123/review/rendered-review.json": "4f16318eccf454eede117a5b88a130ace0f30d217465518e20891affaaa47157",
+    "outputs/birakishore-publication-20261123/validation/full-test.log": "9047c1335878d787bb3714bebcffe1c5f3421e6355a237c78bb3b021a26eb4bb",
+    "outputs/birakishore-publication-20261123/validation/coast-test.log": "04d04139b4907322f55a4177af9c94c08d903f091058a1d6f5711fb9b21b1187",
+    "outputs/birakishore-publication-20261123/validation/publication-disclosure.log": "0bccff6cf88e0078a8c81c8ae5c5241a661d6cd1e5a46269ad26f72f189bc6c7",
+    "outputs/birakishore-publication-20261123/validation/coast-audit.log": "9f4d91e38c55048d21fe6f813a17e880fe644aff7f6ed632ab355c5accf6db45",
+    "outputs/birakishore-publication-20261123/validation/progress.json": "464874c7c9d8237be4db3f482456ab8c27cca82c70266e22980e0feb0012b9f4"
+  },
+  "screenshots": {
+    "painting-desktop.jpg": "29c995c52edf0e198c21257dc86fa0f90a88de6eb8f17267102b7612da563f2b",
+    "painting-mobile.jpg": "39f0d8fc2de04ffc6416ddd2222be250ca7d227f676c2aa96ad7afbe4ff174e1",
+    "final-package-mobile.jpg": "26da9aecae77a8821dc80ac62109168009237f46ddd1bfdf25a807a268add2da",
+    "final-package-desktop.jpg": "e2011858f1ca5fb7e488d605e77d0bab121580c0b3511c91db84cc97a1dc722b",
+    "final-package-desktop-loaded.jpg": "8b9aa746d1531dfdfa361aeec1e010e3f5036e4634db52ec80c804b77145a74d"
+  },
+  "actual_independent_checks": [
+    "Read the package checker implementation, then independently ran its read-only checks against actual dist, dist-coast and dist-publish. It passed with identical article fragment SHA256 9cc000afa6753319d341d28f9c59245be9c58a0bf25d4617ec37480ca7728d13 across all three.",
+    "Verified current 52-character description, one title/byline, exact prepared narrative and sources, six references/four notes/six returns, unique IDs, resolved targets, sharing image/dimensions, opening image priority and exact responsive sources.",
+    "Three incoming new-card or complete story fragments match across editions, with one actionable name link each, correct full-frame illustration dimensions and credit; no nested anchors. Global edition controls intentionally are not compared byte-for-byte.",
+    "Both illustration derivatives are byte-exact to reviewed media in all builds. Seven decoded dimension checks pass. Repository original illustration and painting remain unchanged. Painting delivery matches reviewed candidate eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf, 1244754 bytes, 2048 by 1341.",
+    "Champu article in publication differs from full/coast only by the approved full-frame resizing/compression sentence. Museum link, public-domain credit and comparative identity remain; sharing dimensions change only for the exact painting.",
+    "Independently walked package with lstat: 3655 regular files, 998162796 bytes, no symbolic links, hard-linked files or special files. Local headroom is 1837204 bytes.",
+    "Checked exclusion by paths and matching sizes/hashes for 19 known preparation assets: original illustration, research scans and Kaincha media are absent. This is bounded known-asset exclusion, not a universal provenance audit.",
+    "Git comparisons show no changes to original painting, Kaincha manuscript or memoir page against reconciled main; entire Birakishore preparation output equals its preparation commit. Foreign operations current_task and handoff_home equal reconciled main.",
+    "Read final logs: full 827/827, coast 599/599, coast acceptance 5456/5456, publication disclosure 1492 pages with zero violations. These are root-run results, not reviewer-run suites. The stale full-build metadata was caught and all three actual current outputs now pass the description check."
+  ],
+  "payload": {
+    "bytes": 998162796,
+    "regular_files": 3655,
+    "headroom_bytes": 1837204,
+    "linux_acceptance": false
+  },
+  "visual_review": [
+    "Individually viewed all four final screenshots. Painting desktop and mobile show the complete border, figures and landscape with readable museum/public-domain credit and resizing/compression disclosure. No material display-quality issue at these scales.",
+    "Final article mobile shows the complete illustration, title, byline and symbolic caption. Earlier reviewed screenshots remain the evidence for full prose, sources and all three incoming cards.",
+    "final-package-desktop.jpg shows title/byline and a blank reserved image area. It is not evidence of a loaded desktop image; earlier desktop.jpg shows that image loaded. No cause is assumed. Root has been notified.",
+    "Subsequently inspected final-package-desktop-loaded.jpg individually: the complete illustration is now visibly loaded in the final desktop package capture. It supersedes the blank capture for loaded-image evidence; caption remains below the viewport and is visible on mobile. No cause is asserted for the prior blank capture."
+  ],
+  "metadata_limits": "The reviewed JPEG operation adds EXIF and normalizes absent orientation to 1; ICC/IPTC/XMP are absent in both. The derivative is lossy and not pixel-identical. Local output equality is not evidence of Linux encoded-byte equality.",
+  "record_state": "Updated validation/progress.json records actual local package PASS, full 827/coast 599 and retained initial failures, while actual Linux acceptance remains pending. Canonical package result is parent-owned and will be reconciled before exact-commit review; scope remains held and no publication claim is accepted.",
+  "limits": [
+    "No builds, broad test suites, network calls or browser operation by this reviewer. Browser measurements/actions are attributed to Disha.",
+    "Initial final desktop screenshot is superseded by the separately viewed loaded-image capture. Desktop caption below fold is supplied by mobile. No multi-engine, physical-device or accessibility certification.",
+    "Exact committed continuity, mandatory Linux CI capacity and eventual live publication require separate acceptance. Local macOS payload is not Linux proof."
+  ],
+  "blockers": []
+}

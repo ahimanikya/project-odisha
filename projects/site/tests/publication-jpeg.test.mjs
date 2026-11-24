@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains seven explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg']));
+test('JPEG delivery scope remains eight explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg','assets/champu-and-sakhi/radha-confidante-met.jpg']));
 test('delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -111,6 +111,43 @@ test('Abhisarika delivery retains the complete painting, museum credit and sourc
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
  assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace('public domain.','public domain. Full frame, resized and compressed for web delivery.').replace('property="og:image:width" content="2907"','property="og:image:width" content="1488"').replace('property="og:image:height" content="4000"','property="og:image:height" content="2048"'));
  assert.ok(original.exif===undefined);assert.ok(actual.exif); // Added technical EXIF is not represented as preserved original metadata.
+ assert.ok((await readFile(sourceURL)).equals(source));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+
+test('Radha delivery preserves the source and complete museum credit with guarded caption and share geometry',async(t)=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-radha-jpeg-'));
+ try{
+ const asset='assets/champu-and-sakhi/radha-confidante-met.jpg',page='literature/champu-and-sakhi/index.html';
+ const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
+ const credit='<a href="https://www.metmuseum.org/art/collection/search/662782">The Metropolitan Museum of Art, Gift of Steven Kossak, The Kronos Collections, 2020, 2020.383</a>; public domain.';
+ const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="3923"><meta property="og:image:height" content="2569"><figure><img src="/'+asset+'" width="3923" height="2569"><figcaption>'+credit+'</figcaption></figure><p>This Gita Govinda painting is not an illustration of Kishorachandrananda Champu.</p>';
+ const assetPath=path.join(dir,asset),pagePath=path.join(dir,page);
+ await mkdir(path.dirname(assetPath),{recursive:true});await writeFile(assetPath,source);
+ await mkdir(path.dirname(pagePath),{recursive:true});await writeFile(pagePath,html);
+ const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+ assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>1000000);
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:2048,quality:95,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ const actual=await sharp(await readFile(assetPath)).metadata(),original=await sharp(source).metadata();
+ assert.equal(actual.width,2048);assert.equal(actual.height,1341);
+ assert.ok(Math.abs(actual.height-actual.width*original.height/original.width)<=1);
+ assert.equal(original.orientation,undefined);assert.equal(actual.orientation,1);assert.equal(actual.orientation??1,original.orientation??1);
+ for(const field of ['icc','iptc','xmp']){assert.equal(original[field],undefined);assert.equal(actual[field],undefined);}
+ assert.equal(original.exif,undefined);assert.ok(actual.exif); // Technical EXIF added; no claim of raw metadata equality.
+ assert.equal(await readFile(pagePath,'utf8'),html.replace('public domain.','public domain. Full frame, resized and compressed for web delivery.').replace('property="og:image:width" content="3923"','property="og:image:width" content="2048"').replace('property="og:image:height" content="2569"','property="og:image:height" content="1341"'));
+ assert.ok((await readFile(sourceURL)).equals(source));
+ t.diagnostic('Radha capacity measurement: '+JSON.stringify(result.files[0]));
+ for(const [invalidHTML,message] of [
+  [html.replace('/search/662782','/search/other'),/Expected unique photo credit/],
+  [html+'<p>public domain.</p>',/Expected unique photo credit/],
+  [html.replace('content="https://projectodisha.org/'+asset+'"','content="https://projectodisha.org/unrelated.jpg"'),/Expected matching share image/],
+  [html.replace('property="og:image:width" content="3923"','property="og:image:width" content="1"'),/Expected unique share image width/]
+ ]){
+  await writeFile(assetPath,source);await writeFile(pagePath,invalidHTML);
+  await assert.rejects(optimizePublicationJPEGs(pathToFileURL(dir+'/')),message);
+  assert.ok((await readFile(assetPath)).equals(source));assert.equal(await readFile(pagePath,'utf8'),invalidHTML);
+ }
  assert.ok((await readFile(sourceURL)).equals(source));
  }finally{await rm(dir,{recursive:true,force:true});}
 });
