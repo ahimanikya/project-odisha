@@ -10740,6 +10740,25 @@
       "evidence": [
         "records/jhoti-publication-20261125.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112591",
+      "title": "Research, review and publish Malayagiri",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112591",
+      "next_action": "Required exact-candidate hosted checks, publication, live review and actual delivery receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112591",
+        "POD-REV-2026112591"
+      ],
+      "evidence": [
+        "records/malayagiri-publication-20261125.json"
+      ]
     }
   ],
   "decisions": [
@@ -16282,6 +16301,23 @@
       "refs": [],
       "evidence": [
         "records/jhoti-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112591",
+      "title": "Next uncovered hill destination after Jhoti",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has Jhoti Chita’s release finished and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one hill destination with credited article/preview image.",
+      "refs": [
+        "POD-WORK-2026112591"
+      ],
+      "evidence": [
+        "records/malayagiri-publication-20261125.json"
       ]
     }
   ],
@@ -26035,6 +26071,30 @@
         "Photo provenance is the preserved official Commons preview; the camera original was not acquired. The drawing maker is not separately identified.",
         "One existing delivery JPEG differs in184pixels; no pixel identity or encoding cause claimed.",
         "One browser engine and two viewport sizes; screenshots overlap in content and are not fourteen distinct page layouts."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112591",
+      "title": "Malayagiri separate source, media, code, rendered and final package review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112591",
+        "POD-DEC-2026112591"
+      ],
+      "evidence": [
+        "records/malayagiri-publication-20261125.json"
+      ],
+      "summary": "Separate source/media/code/capacity/rendered/final-package reviews PASS. 829 full tests,599 coast tests,5472 page checks and10745 artifact checks passed. Local999115274 bytes/3675files. Original media,38protected preparation files and foreign ownership preserved. Exact commit, hosted Linux capacity, deployment/live and receipt remain.",
+      "independent": true,
+      "limitations": [
+        "No fieldwork or human specialist review.",
+        "District original-publisher text retrieved through search index after direct access failed; original research paper read through author-deposited text, not visually inspected PDF.",
+        "Photo identity/date creator-supplied; no current access claim.",
+        "Actual local package validated; hosted Linux CI/deployment capacity and live review remain separate gates."
       ]
     }
   ],

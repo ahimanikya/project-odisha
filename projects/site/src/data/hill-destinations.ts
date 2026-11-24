@@ -11,6 +11,7 @@ import kapilashImage from '../../../../kb/research/destinations/kapilash-image.j
 import belgharTumudibandhaImage from '../../../../kb/research/destinations/belghar-tumudibandha-image.json';
 import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
 import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-image.json';
+import malayagiriImage from '../../../../kb/research/destinations/malayagiri-image.json';
 import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
@@ -154,4 +155,14 @@ export const saptasajyaGuide = {
  aliases: [],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide].filter(guide => allowsPage(guide.href));
+export const malayagiriGuide = {
+ title: 'Malayagiri',
+ odia: '',
+ summary: 'Angul’s mountain landscape, a forest study and Khuludi waterfall.',
+ href: '/destinations/malayagiri/',
+ photo: malayagiriImage,
+ regions: ['Angul'],
+ aliases: ['Malyagiri'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide].filter(guide => allowsPage(guide.href));

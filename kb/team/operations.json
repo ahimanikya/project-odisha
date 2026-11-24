@@ -55,15 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-JHOTI-20261124",
-    "route": "/stories/jhoti-chita/",
+    "id": "POD-EDIT-MALAYAGIRI-20261125",
+    "route": "/destinations/malayagiri/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/jhoti-publication-20261125.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then returns to the coordinating hill chat; no next article is claimed here.",
-    "next_action": "Complete reviewed receipt merge before explicit slot handoff."
+    "phase": "ready_for_hosted_validation",
+    "handoff": "records/malayagiri-publication-20261125.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -842,13 +839,22 @@
       "status": "published_verified",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to the reserved Jhoti Chita publication chat; no next hill is claimed.",
       "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly hand the slot to the reserved Jhoti Chita publication chat."
+    },
+    {
+      "id": "POD-EDIT-JHOTI-20261124",
+      "route": "/stories/jhoti-chita/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/jhoti-publication-20261125.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then returns to the coordinating hill chat; no next article is claimed here.",
+      "next_action": "Complete reviewed receipt merge before explicit slot handoff."
     }
   ],
   "next_article_coordination": {
-    "status": "hill_chat_reserved_after_jhoti_receipt",
-    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
-    "evidence": "records/jhoti-publication-20261125.json",
-    "scope": "Next uncovered hill destination under direct Founder instruction reported by coordinating chat; explicit handoff only after actual reviewed Jhoti receipt merge.",
-    "next_article_claimed": false
+    "status": "malayagiri_active_after_jhoti_return",
+    "evidence": "records/malayagiri-publication-20261125.json",
+    "scope": "One next uncovered hill article, authorized by Founder. No later article claimed."
   }
 }
