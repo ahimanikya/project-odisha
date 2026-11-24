@@ -1,0 +1,22 @@
+validate	Validate project knowledge and authority records	﻿2026-11-24T20:35:43.2796525Z ##[group]Run python3 tools/registers.py --check
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2797233Z ^[[36;1mpython3 tools/registers.py --check^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2797736Z ^[[36;1mpython3 tools/catalog.py --check^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2798259Z ^[[36;1mpython3 tools/check_bundle.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2798924Z ^[[36;1mpython3 tools/test_registers.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2799392Z ^[[36;1mpython3 tools/test_config.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2799913Z ^[[36;1mpython3 tools/test_project_prefix.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2800455Z ^[[36;1mpython3 tools/test_family_id_aliases.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2801360Z ^[[36;1m(cd projects/store && python3 tools/test_project_prefix.py && python3 tools/registers.py --check && python3 tools/check_bundle.py)^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2802318Z ^[[36;1mpython3 tools/check_autonomous_program.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2802923Z ^[[36;1mpython3 tools/editorial/article_rollout.py --check^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2803522Z ^[[36;1mpython3 tools/check_team_assignments.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2804104Z ^[[36;1mpython3 tools/test_team_assignments.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2804711Z ^[[36;1mpython3 tools/test_autonomous_program.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2805307Z ^[[36;1mpython3 tools/check_sound_collection.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2805871Z ^[[36;1mpython3 tools/test_sound_collection.py^[[0m
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2828546Z shell: /usr/bin/bash -e {0}
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2829037Z env:
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2829272Z   ASTRO_TELEMETRY_DISABLED: 1
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.2829534Z ##[endgroup]
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.9223713Z Register check failed: Dashboard stale; regenerate
+validate	Validate project knowledge and authority records	2026-11-24T20:35:43.9327677Z ##[error]Process completed with exit code 1.

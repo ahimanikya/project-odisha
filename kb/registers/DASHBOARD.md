@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a3faff158094285d57e346942234279599fd056a6435ca4387a4ac293d482699`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e99b87e694e953f4e535b6f588a314d31cd6471813cf3d89e68c6fb8391826de`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -418,6 +418,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112491 · Research, review and publish Tensa | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot. | — |
 | POD-WORK-20261124201 · Prepare original Jhoti Chita article with credited image | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Jhoti draft, credited photograph and publication brief; return the preparation slot to the hill-series chat for its next uncovered destination. No public integration authorized. | — |
 | POD-WORK-2026112495 · Research, review and publish Saptasajya | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI, then explicit Jhoti slot handoff. | — |
+| POD-WORK-20261125201 · Publish Jhoti Chita with credited photograph and reading links | in_progress | reviewed | Ahimanikya Satapathy | Exact committed candidate review and required hosted CI, then publication/live review and reviewed receipt merge. | — |
 
 ## Pending human review and decisions
 
@@ -764,6 +765,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112491 · Publish Tensa after completed Birakishore handoff | recorded_direction | Ahimanikya Satapathy | One researched and separately reviewed destination article with credited article and preview image; publication and live verification authorized. |
 | POD-DEC-20261124201 · Prepare next original Antaranga-led article after Tensa | recorded_direction | Ahimanikya Satapathy | One independently researched original article preparation with credited image; no website integration or publication. |
 | POD-DEC-2026112495 · Next uncovered hill destination publication | recorded_direction | Ahimanikya Satapathy | One independently researched, separately reviewed and published uncovered hill destination with credited image. |
+| POD-DEC-20261125201 · Publish reviewed Jhoti Chita article after Saptasajya | recorded_direction | Ahimanikya Satapathy | One article publication with credited image, related links and responsive review. |
 
 ## Reviews
 
@@ -1499,8 +1501,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261123203 | 2026-11-24T08:01:13.700920+00:00 | PR849 and deployment45346733610 succeeded on reviewed source. Required CI attempt1 external403 preserved; unchanged attempt2 passed. Separate fresh live review and15root browser captures cover article, credited illustration and3incoming links. Two existing image encodings differ and were separately measured/visually accepted. Receipt merge precedes explicit Tensa slot return; zero programme credit. | — |
-| POD-EVT-2026112491 | 2026-11-24T08:44:12.729571+00:00 | Accepted explicit slot return after independently verifying Birakishore receipt merge and required CI. Tensa sole active article; prior evidence and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-2026112492 | 2026-11-24T09:23:47.270925+00:00 | Source, credited original image, article and3incomingpreviews reviewed; separate desktop/mobile and final local package PASS.827full/599coastal tests,5460pagechecks and10676artifactchecks passed. Actuallocal998680963bytes; hosted/live gates pending; zero programme credit. | — |
 | POD-EVT-2026112493 | 2026-11-24T09:50:20.363311+00:00 | PR851 exact reviewed head passed required CI45365066846 attempt1 and merged2166225c. Merged tree equals reviewed candidate; actualLinux999470107bytes. Authorized deployment45368774658 started from that merge; no live or completed-delivery claim yet. | — |
 | POD-EVT-2026112494 | 2026-11-24T10:23:32.846928+00:00 | Successful deployment45368774658 from exact reviewed merge2166225c; fresh separate delivery review verified4routes11images12screenshots and credited article/previews. All new photo files exact; existing Kalinga480 difference measured and visually accepted. First interrupted HTTP attempt retained; unchanged retry and independent fetch passed. Receipt review/CI/actual merge still required before scope release; zero programme credit. | — |
@@ -1509,6 +1509,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112495 | 2026-11-24T15:38:01.331941+00:00 | Founder requested next uncovered hill; Tensa receipt verified and Jhoti reviewed preparation explicitly returned. Reconciled7d26d22b and verified22Jhoti hashes. Saptasajya selected after scoped reuse search; research and publication checks pending, zero programme credit. | — |
 | POD-EVT-2026112496 | 2026-11-24T17:28:37.219911+00:00 | Source/media/code and separate rendered reviews passed;827 full and599 coastal tests,5464 page checks and13 publication stages passed. Exact final local artifacts and38 protected preparation files verified; local package999122548bytes. Final package review, hosted checks and publication remain; zero programme credit. | — |
 | POD-EVT-2026112497 | 2026-11-24T19:20:23.493729+00:00 | PR853 passed CI attempt2 and merged c49d0fc8; deployment45456071334 succeeded. Separate fresh delivery review passed four routes/eight images/twelve screenshots and real root interactions. One responsive image difference measured and visually accepted. Actual999912801 bytes/3665 files leaves87199 bytes; zero programme credit. Slot remains held until reviewed receipt actually merges. | — |
+| POD-EVT-20261125201 | 2026-11-24T19:57:17.006005+00:00 | Saptasajya receipt verified and explicit handoff accepted; Jhoti publication now sole active article. Preparation hashes and foreign ownership preserved. | — |
+| POD-EVT-20261125202 | 2026-11-24T20:30:42.022448+00:00 | Independent source and rendered review passed;828full/599coastal tests and5468page checks passed. Final local3163deliverychecks and999161472byte/3670file package passed. Root checked14meaningful desktop/mobile views plus three actual incoming links. HostedCI, deployment and reviewed delivery receipt remain; no live publication claimed. | — |
 
 ## Deferred extensions
 

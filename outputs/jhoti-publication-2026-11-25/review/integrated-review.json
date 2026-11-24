@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SOURCE_CODE_MEDIA_REVIEW_PENDING_RENDERED_AND_PACKAGE_GATES",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "base": "82267ea4268b2690ee9a72204e3fca23a4f3d351",
+  "reviewed_sha256": {
+    "projects/site/src/pages/stories/jhoti-chita.astro": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c",
+    "projects/site/src/pages/stories/craft-listening.astro": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35",
+    "projects/site/src/pages/culture/osha/[slug].astro": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59",
+    "projects/site/src/pages/culture/osha/index.astro": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0a98fda64301d2843c2511349f623268ac7f9b5ceebb140a1edf1fb709af958f",
+    "projects/site/tools/optimize-publication-png.mjs": "9b9b9cc6396bdb63552bffc5f6fc6a0546372e9a2bd73673d189e29d530fe881",
+    "projects/site/tests/publication-jpeg.test.mjs": "96023d580b5c85a416cf17e5aa70caaa47abea06ba18d0a1e6cd64be39cc16f5",
+    "projects/site/tests/publication-png.test.mjs": "4ad5e246a5ee45036ffe801fb2bff8424db7e2ddd6605135c63b1c5648c20205",
+    "projects/site/editions/coast.json": "0c3c104671e6efe4bda5ec566c74dc849497c166add772f405a952eaf041821e",
+    "projects/site/editions/responsive-images.json": "709799a20da29c661220fdd44ebf76395eb11e41ae8cadde03276869852d2577",
+    "projects/site/editions/search-candidate.json": "d10ef4ae8e011a2f7854abde83394e5366c3a308a0db06adea84fcf804c86e1c",
+    "projects/site/public/assets/jhoti/gurubara-jhoti-1200.webp": "7a3f7094998bcdc8c6f52a31caba2b4ea8bd31b72716d382a14464a939138d84",
+    "kb/research/culture/jhoti-chita.md": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea",
+    "outputs/jhoti-publication-2026-11-25/research/final-source-audit.json": "f0e4958dbfd56902aa5376e5371cc5906c0b1a3c9916d9cb5cbfa02e49eaa62b"
+  },
+  "findings": [],
+  "actual_checks": {
+    "source_and_rendering": "Read all four Astro sources and the existing canonical renderer. Independently ran the read-only implementation helper: four syntax checks pass; exact canonical hash retained; six native references, four notes and six returns; unique IDs and all internal footnote targets resolve. One title/byline and the dated caption are preserved. No new visible dek or factual card summary.",
+    "source_budgets": "Reviewed actual source audit and compared publication changes to the prior independent preparation review. Anvesha totals 196/181/147/147; the stricter page-range splitting used in my preparation review gives 198/182/147/147. All are at most 200 per family. Existing prepared brief remains historical and is not a newly published summary.",
+    "media": "Public Jhoti WebP is byte-identical to the previously personally inspected full-frame prepared derivative. Main alt/caption and four notes are retained; all three previews carry photographer/source/licence/alteration credit via visible numbered notes. Camera-original acquisition is not claimed.",
+    "navigation_and_scope": "Three neutral incoming links and three relevant outgoing paths. Only Manabasa receives the dynamic template additions; inline scoped styles remain inside that conditional. Independently verified each helper baseline equals base Git source and source recovery after removing only additions. All 52 other Osha profiles remain logically untouched; actual rendered preservation is still a build gate. Existing reading paths and source text remain.",
+    "responsive_semantics": "Article and previews declare 1200 × 900 dimensions, preserve full-frame aspect ratio, use native links and existing responsive image handling, and add no client JavaScript. Reused current-turn HTML/responsive/card guidance. No visual layout pass claimed yet.",
+    "capacity_implementation": "Reviewed root implementation separately from my proposal. Exactly one JPEG path and two PNG paths added; prior entries and algorithms unchanged. Taptapani uses 1600/85 with existing 4:4:4 mozjpeg/keepMetadata defaults. Unique source/credit phrase and matching OG URL/dimension guards execute before writes to that asset/page. Replacement credit accurately discloses full-frame resizing/compression, keeping licence/source links. PNG additions use existing decoded-RGBA and non-IDAT metadata equality guards.",
+    "tests_reviewed": "Exact allowlist tests add only approved paths; negative PNG check switches to an unrelated path without weakening traversal/extension checks. New real-source JPEG test checks geometry, original bytes, density, ICC/IPTC/XMP, exact caption/OG transform and failure-before-target-mutation for wrong source, repeated caption and incorrect width. Parent reports 8 JPEG and 6 PNG checks passed; I did not rerun those during the active build.",
+    "configuration": "One new coast/public route, one responsive source and one search hold. Existing limited search approval remains unchanged.",
+    "preservation": "Prepared canonical, photo records, media and preparation outputs have no diff against base. Public photo matches prepared bytes. No shared records, site code or source assets were edited by this reviewer."
+  },
+  "capacity_limits": [
+    "The proposal saves 713,040 local bytes; actual package HTML growth and mandatory Linux gate remain pending.",
+    "Taptapani EXIF bytes differ in the measured candidate; no exact EXIF or pixel equality claim. ICC/IPTC/XMP and orientation guards are retained.",
+    "Current code retains original intrinsic HTML image ratio; OG dimensions are updated to the derivative dimensions. Actual final package and image loading still require inspection."
+  ],
+  "remaining_gates": [
+    "Actual full/coast/publication builds and tests.",
+    "Rendered article, preview cards, native navigation and desktop/mobile screenshots from parent.",
+    "52 unaffected rendered Osha profiles and source originals preservation.",
+    "Final local package and actual hosted capacity/CI/deployment."
+  ],
+  "verdict": "No source/code/media blocker found in this snapshot. This is not final layout, package or live-delivery approval."
+}

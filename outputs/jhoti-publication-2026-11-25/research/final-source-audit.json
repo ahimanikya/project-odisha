@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "date": "2026-11-25",
+  "reviewer": "Anvesha; AI source review, not human specialist review",
+  "scope": "Actual canonical manuscript, article wrapper/metadata and three incoming article-photo cards. Source/rights continuity and publication-specific word budgets only; no browser, deployment or live-availability assertion.",
+  "handoff": "kb/records/jhoti-publication-20261125.json",
+  "reused_evidence": ["kb/research/culture/jhoti-source-review-20261124.json", "outputs/jhoti-article-2026-11-24/research/final-source-audit.json", "kb/research/culture/jhoti-image.json", "outputs/jhoti-article-2026-11-24/research/inspection-record.json"],
+  "verified_files": [
+    {"path": "kb/research/culture/jhoti-chita.md", "sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"},
+    {"path": "projects/site/src/pages/stories/jhoti-chita.astro", "sha256": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c"},
+    {"path": "projects/site/src/pages/stories/craft-listening.astro", "sha256": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35"},
+    {"path": "projects/site/src/pages/culture/osha/index.astro", "sha256": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b"},
+    {"path": "projects/site/src/pages/culture/osha/[slug].astro", "sha256": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59"}
+  ],
+  "continuity": {
+    "manuscript": "Exact SHA matches prepared source review. Original narrative, interpretation, caption, alt and four notes remain unchanged.",
+    "wrapper": "Imports canonical raw text; reads exact title/description/author. Description appears in metadata, not a new visible dek. Image URL remapped to public asset; no source prose replacement. Six reference markers and four manuscript notes preserved at source level; rendered navigation checks belong to Samanta/Drishti.",
+    "incoming_cards": "Only three cards, labelled Jhoti Chita, two words each. No factual card descriptions. Dynamic Osha template condition is restricted to manabasa-gurubara; not added to all Osha articles.",
+    "source_links": "Prepared four citation URLs retained; no changed source attribution or external availability claim.",
+    "reading_paths": "Outgoing Manabasa Gurubara, Osha collection and Craft Listening titles are neutral navigation, not newly derived historical assertions.",
+    "preparation": "Prepared canonical/reading/brief hashes remain unchanged; prior preparation allocations retained as historical evidence. No preparation files edited."
+  },
+  "count_method": "Whitespace-delimited visible source-derived text after stripping Markdown/HTML syntax, URL destinations and note markers. Count full narrative/interpretation and full notes, full10-word main title,20-word metadata description, relevant section heading,3-word source heading and all three two-word incoming labels. Commons additionally includes12-word alt,9-word caption,27-word article image note and three actual18-word incoming credit notes; two newly added3-word photo-source headings are conservatively charged to Commons. Existing unchanged source sections and old preparation brief are not new publication text. Generic navigation, arrows, controls and image-source accessible labels do not add factual derivation. Template copies of one metadata property do not constitute new authored summaries.",
+  "source_family_counts": [
+    {"id": "jhoti-odisha-government-overview", "body_and_note": 153, "main_title": 10, "metadata": 20, "section_heading": 4, "source_heading": 3, "three_incoming_labels": 6, "total": 196, "ceiling": 200},
+    {"id": "osha-jhoti-biswal-dash2020", "body_and_note": 136, "main_title": 10, "metadata": 20, "section_heading": 6, "source_heading": 3, "three_incoming_labels": 6, "total": 181, "ceiling": 200},
+    {"id": "jhoti-singha-raghurajpur-2023", "body_and_note": 104, "main_title": 10, "metadata": 20, "section_heading": 4, "source_heading": 3, "three_incoming_labels": 6, "total": 147, "ceiling": 200},
+    {"id": "jhoti-commons-prateek-pattanaik-2016", "article_alt_caption_and_note": 48, "main_title": 10, "metadata": 20, "article_source_heading": 3, "three_incoming_labels": 6, "three_incoming_credit_notes": [18,18,18], "two_new_photo_source_headings": 6, "total": 147, "ceiling": 200}
+  ],
+  "claim_and_originality_review": "PASS. Material distinction, cloth method, household surfaces and named participant's collective learning account retain prior source boundaries. No claim about specific personal teachers, universal practice, caste, origin, current prevalence, decline, sanitation or the quarantined BaliTrutiya maritime interpretation added. No Antaranga prose, translated passage, narrative sequence or imagery adopted. No new quotation.",
+  "photo_credit_review": {
+    "actual_incoming_credit": "Photograph: Prateek Pattanaik, Wikimedia Commons, CC BY-SA 4.0. Full frame, resized and compressed from the official Commons preview.",
+    "source": "https://commons.wikimedia.org/wiki/File:Gurubara_Jhoti.jpg",
+    "licence": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "result": "PASS. Photographer/source/licence links and alteration wording retained in each of three public cards. Empty preview alt is decorative beside the article link; main image retains descriptive alt and dated caption.",
+    "identity_limits": "No named maker or exact location asserted. Photo source explicitly identifies rice-paste medium and LakshmiPuja; the photograph alone does not establish which drawing tool was used.",
+    "acquisition_limit": "Original camera file remains unacquired; credited derivative comes from preserved official Commons1920pxpreview. No false original-preservation claim. Full-frame resizing/compression compatible with reviewed CC BY-SA4.0 terms; actual delivery bytes/visual preservation remain implementation/media review scope."
+  },
+  "remaining_limits": ["Government family has four-word conservative margin; recheck any added factual dek/card description.", "A source PASS does not verify rendered layout, package capacity, deployment or current external server availability.", "No new historical research or human specialist review claimed."],
+  "scope_released": true
+}

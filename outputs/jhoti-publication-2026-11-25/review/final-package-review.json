@@ -1,0 +1,145 @@
+{
+  "status": "PASS_FINAL_LOCAL_PACKAGE_PENDING_HOSTED_GATES",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "base": "82267ea4268b2690ee9a72204e3fca23a4f3d351",
+  "reviewed_source_sha256": {
+    "projects/site/src/pages/stories/jhoti-chita.astro": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c",
+    "projects/site/src/pages/stories/craft-listening.astro": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35",
+    "projects/site/src/pages/culture/osha/[slug].astro": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59",
+    "projects/site/src/pages/culture/osha/index.astro": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0a98fda64301d2843c2511349f623268ac7f9b5ceebb140a1edf1fb709af958f",
+    "projects/site/tools/optimize-publication-png.mjs": "9b9b9cc6396bdb63552bffc5f6fc6a0546372e9a2bd73673d189e29d530fe881",
+    "projects/site/tests/publication-jpeg.test.mjs": "96023d580b5c85a416cf17e5aa70caaa47abea06ba18d0a1e6cd64be39cc16f5",
+    "projects/site/tests/publication-png.test.mjs": "4ad5e246a5ee45036ffe801fb2bff8424db7e2ddd6605135c63b1c5648c20205",
+    "projects/site/editions/coast.json": "0c3c104671e6efe4bda5ec566c74dc849497c166add772f405a952eaf041821e",
+    "projects/site/editions/responsive-images.json": "709799a20da29c661220fdd44ebf76395eb11e41ae8cadde03276869852d2577",
+    "projects/site/editions/search-candidate.json": "d10ef4ae8e011a2f7854abde83394e5366c3a308a0db06adea84fcf804c86e1c",
+    "projects/site/public/assets/jhoti/gurubara-jhoti-1200.webp": "7a3f7094998bcdc8c6f52a31caba2b4ea8bd31b72716d382a14464a939138d84",
+    "kb/research/culture/jhoti-chita.md": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea",
+    "outputs/jhoti-publication-2026-11-25/research/final-source-audit.json": "f0e4958dbfd56902aa5376e5371cc5906c0b1a3c9916d9cb5cbfa02e49eaa62b",
+    "projects/site/tests/build.test.mjs": "65b4dd792c869690c1af9be53bc3d123458dc503ddd48f9b79e0fa09941e263b"
+  },
+  "reviewed_evidence_sha256": {
+    "kb/records/jhoti-publication-20261125.json": "0100d023fd660b26e3abe6e802df2ae6ed719b6d7e39f1deb04389a4cea3911b",
+    "outputs/jhoti-publication-2026-11-25/build-results.json": "885f557ed1934a7d31a295da231285aacb37edb030c4eba718d86cbf251173a9",
+    "outputs/jhoti-publication-2026-11-25/local-verification.json": "2dbcc674d4c6665e2606b53af414b5d5c5289ad424740edd826c5fc427646565",
+    "outputs/jhoti-publication-2026-11-25/local-verification.initial.json": "a826932be72dab67db806db9997097ac9bf1b6edf868b6a8895a9bfcf52fc5d4",
+    "outputs/jhoti-publication-2026-11-25/payload-check.json": "d114a09bb7bedb0d0b0607d240d78cebd68f731fa86bd52352e71bf898c55058",
+    "outputs/jhoti-publication-2026-11-25/browser/review.json": "c72b0193b0906d91f1be94b81bc0f61ed5e63f7d7c8a1a0313ea451e31f60723",
+    "outputs/jhoti-publication-2026-11-25/browser/metrics.json": "95a50d71264c6d67e2e629622f3c1adcfc29d02784059eb8388601530bde69fe",
+    "outputs/jhoti-publication-2026-11-25/browser/final-page-hash-check.json": "01c7a75e411e9eb746d6d2008bd949a25821cdb3f7875d396da16be8ffa8ff6c",
+    "outputs/jhoti-publication-2026-11-25/pre-compression-page-hashes.json": "7e225463859e16e239e6f32c2d6d04992bcafc644122f89e599237473debf72a",
+    "projects/site/.astro/publication-jpeg-optimization.json": "be26f7a81cccb8272e94e49334c95e2efc1c22fec185144c0a2e9f7ed99f551a",
+    "projects/site/.astro/publication-png-optimization.json": "4a7bd7763e0105df4b0394c2bd16112d9be9e8462f4bcf8ced3600da086b1f21",
+    "projects/site/.astro/responsive-image-report.json": "22d72c6e0ac13e2ed321e5ea9deb2494ebd3be53dd0c520363e1d377b05c5e8a"
+  },
+  "findings": [],
+  "actual_checks": {
+    "independent_helper": "Read verify-local.py, then independently executed the unchanged verification logic with Path.write_text intercepted in memory so no shared evidence was overwritten. All 3,163 checks passed. No build run.",
+    "package_stat": {
+      "bytes": 999161472,
+      "regular_files": 3670,
+      "remaining_bytes": 838528,
+      "symlinks_or_special_files": 0
+    },
+    "article_and_routes": "Inspected actual final artifacts through the parser/helper: identical Jhoti article fragment across full, coastal and publication editions; six references, four notes, six returns; source credits, byline, outgoing routes and sharing image retained. All three incoming image cards and numbered credit targets present. All four final whole-page hashes exactly match pre-compression screenshot files.",
+    "images": "Reviewed base Jhoti image and all three 480/960/1200 responsive files match actual responsive report hashes in all editions. Publication image URLs and dimensions remain consistent; original acquired Commons preview is excluded from public output.",
+    "capacity": "Actual final Taptapani JPEG and the two PNG outputs match the independently measured proposal hashes exactly. Selected source files equal coastal copies and recorded original hashes. PNG metadata/pixel preservation guards were already independently exercised for these exact bytes. Taptapani is 1600 × 1200, 434,019 bytes, orientation 1 and density 72; ICC bytes equal, IPTC/XMP absent. EXIF bytes differ (11,384 to 11,376), as disclosed; no exact EXIF/pixel claim.",
+    "taptapani_markup": "Final destination page retains creator Ilya Mauter, source and CC BY 3.0 links, states full-frame resizing/compression, and has guarded 1600 × 1200 OG dimensions.",
+    "visual_review": "Individually viewed final Taptapani desktop and mobile screenshots. Complete image and accurate caption/credit are visible in both, without visible horizontal clipping. Desktop title top is outside the scroll frame; mobile title is visible. Prior twelve accepted Jhoti/preview captures remain valid by exact four-page hash continuity. Browser operation and navigation remain attributed to Disha.",
+    "preservation": "Verifier checked all 22 Jhoti preparation and 16 Kaincha preparation artifacts, including completion reviews. Foreign current_task and handoff_home equal base. Reviewed source hashes unchanged; Tensa receipt byte-identical. Internal Kaincha prose/photo and Jhoti source-preview/journal captures absent from public textual exports.",
+    "osha_scope_limit": "Exact source-template recovery and unchanged source inputs, plus passing coastal tests, support preserving 52 unrelated Osha profiles. No pre-change rendered baseline exists for those 52 pages; this review does not claim per-page rendered byte equality.",
+    "tests_and_disclosures": "All 13 final stage records passed; inspected final logs: 828 full tests, 599 coastal tests. Disclosure gates report 1,509 full, 1,494 coastal and 1,495 publication pages with no violations. The fixed page-count term 186→187 corresponds to the one new article.",
+    "failure_history": "Initial exact page-count failure, coastal cache EPERM and verifier invoked before the thirteenth stage completed remain recorded. Final verifier rerun after stage completion passes; no application-code weakening inferred.",
+    "canonical_record": "Current receipt remains in progress with scope held and zero programme credit; actual local results complete, actual hosted capacity and live gates pending. Corrected browser record restores viewport/framing limits and links the final hash file. No premature publication claim.",
+    "raw_log_preservation": "Verified the exact hashes of the three named raw logs allowed to retain tool-output whitespace. This is a bounded evidence exception; all other staged paths still require the final whitespace gate."
+  },
+  "additional_screenshots": [
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/taptapani-desktop.jpg",
+      "sha256": "12335d46a08eb0cf0488f77573d7231ce5ab7ecc2c5a8bc833e3f2941b53efdf"
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/taptapani-mobile.jpg",
+      "sha256": "e95ece6ce221f3a0f687d4226c145838c528bf25b0a80e04d4633ae7239c53f9"
+    }
+  ],
+  "capacity_outputs": [
+    {
+      "path": "assets/nimuhi/user-supplied-memorial.png",
+      "source_sha256": "aee7c57247e6613f32406a82cc332dea3516f1e2c26ca0b018413beb16ba2cc8",
+      "output_sha256": "507fda41769bf0bc6ac9aeffc705c5747fbab0c15d6c8015418f790f2b80ac02",
+      "source_bytes": 2327874,
+      "output_bytes": 2251718,
+      "saved_bytes": 76156,
+      "status": "losslessly-recompressed",
+      "deflate_settings": {
+        "level": 9,
+        "memLevel": 9,
+        "strategy": 0
+      },
+      "inflated_scanline_sha256": "557f384d863f0916d6aacc16df7bb0ebf8167c567e94005dd7418165817a75d0",
+      "pixel_sha256": "3c27e71d9b0cc059fd9b37254d47a91335100f3289479eaddef1dc09bd20aaeb",
+      "metadata_sha256": "c8751317d184de1620a8f56b230da30bed237dfc2ab4ed60f9c34e6a2f0de61a",
+      "width": 1080,
+      "height": 1440
+    },
+    {
+      "path": "assets/cultural-book/author.png",
+      "source_sha256": "49b203a4c68f277d80b5e3204fcf73175d74576dd6f24a26d4ebb4736457d616",
+      "output_sha256": "71e242a06f3ea39e119c1732e0b4d30168b5f0f54ef1846aebf0217a3c4cc8be",
+      "source_bytes": 635867,
+      "output_bytes": 615403,
+      "saved_bytes": 20464,
+      "status": "losslessly-recompressed",
+      "deflate_settings": {
+        "level": 9,
+        "memLevel": 9,
+        "strategy": 0
+      },
+      "inflated_scanline_sha256": "15ab3e0a22f81f95018cc64abb015777a17b3985e0834f96951a2ba68e6ec050",
+      "pixel_sha256": "c7da257f7bbb7c0385d8beb517ad7923893a79ce51aa555333e2c5056ff81185",
+      "metadata_sha256": "c8b28cf90ac0121da8b1a671829d81d251495790f405a52d33dfc723299a2cc8",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "path": "images/destinations/taptapani-worship.jpg",
+      "settings": {
+        "maximum_dimension": 1600,
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "mozjpeg": true,
+        "preserve_metadata": true
+      },
+      "status": "resized-and-compressed",
+      "source_sha256": "5bad4ad57c149007d76683b953d8082368fedb1abb90e837e25dbf7887a02c75",
+      "output_sha256": "a78663427bd7a5d00ba332ad4ff34f0533f1d873ad33d4da4c26423582bba897",
+      "source_bytes": 1050439,
+      "output_bytes": 434019,
+      "saved_bytes": 616420,
+      "source_dimensions": [
+        2304,
+        1728
+      ],
+      "output_dimensions": [
+        1600,
+        1200
+      ],
+      "orientation": 1
+    }
+  ],
+  "remaining_gates": [
+    "Bind a committed candidate to these source hashes.",
+    "Required CI and actual Linux package capacity under the unchanged decimal-GB gate.",
+    "Authorized deployment, fresh live verification and separately reviewed final receipt."
+  ],
+  "limits": [
+    "Local package size is not Linux acceptance or a future capacity guarantee.",
+    "Screenshot review covers one engine and explicit desktop/mobile viewports; no physical-device testing or browser operation by this reviewer.",
+    "The retained inconclusive Osha frame is excluded from accepted evidence.",
+    "No human specialist or new fieldwork review claimed."
+  ],
+  "verdict": "Ready as a local reviewed candidate for exact-commit and required hosted checks. No local package blocker remains."
+}

@@ -55,15 +55,13 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-SAPTASAJYA-20261124",
-    "route": "/destinations/saptasajya/",
+    "id": "POD-EDIT-JHOTI-20261124",
+    "route": "/stories/jhoti-chita/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/saptasajya-publication-20261124.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to the reserved Jhoti Chita publication chat; no next hill is claimed.",
-    "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly hand the slot to the reserved Jhoti Chita publication chat."
+    "phase": "validation",
+    "handoff": "records/jhoti-publication-20261125.json",
+    "scope_released": false,
+    "status": "in_progress"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -831,12 +829,23 @@
       "status": "published_verified",
       "next_action": "Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot.",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. No next article is claimed by this receipt."
+    },
+    {
+      "id": "POD-EDIT-SAPTASAJYA-20261124",
+      "route": "/destinations/saptasajya/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/saptasajya-publication-20261124.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to the reserved Jhoti Chita publication chat; no next hill is claimed.",
+      "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly hand the slot to the reserved Jhoti Chita publication chat."
     }
   ],
   "next_article_coordination": {
-    "status": "jhoti_publication_reserved_after_saptasajya_receipt",
+    "status": "jhoti_publication_active",
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-    "evidence": "records/saptasajya-publication-20261124.json",
-    "scope": "Jhoti publication under Founder direct instruction reported by coordinating chat; explicit handoff only after actual reviewed Saptasajya receipt merge."
+    "evidence": "records/jhoti-publication-20261125.json",
+    "next_article_claimed": false
   }
 }
