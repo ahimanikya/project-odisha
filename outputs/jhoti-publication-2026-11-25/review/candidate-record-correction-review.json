@@ -1,0 +1,51 @@
+{
+  "status": "PASS_EXACT_CORRECTION_PENDING_NEW_REQUIRED_CI",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "commit": "762e5cd9b774eace924c6beee1c11126653e20db",
+  "parent": "7736807ba672d4e2458bd03d016d10ae6396abbd",
+  "tree": "c64b433fb821003ad5dcc2871a7c47adde960d90",
+  "changed_files": {
+    "kb/records/jhoti-publication-20261125.json": "b55fed32c55d432979e3e27b9e1a24c0e352e0d10cba81949ab0a308c0fe6e67",
+    "kb/registers/DASHBOARD.md": "be6a2d72b5590619ba29edf01d219fe4e74c394791008420cfe0ee98de40425b",
+    "outputs/jhoti-publication-2026-11-25/release/ci-initial-failure.log": "547446c95ca92b397d8746eddb9b5699102901becc76581c537c3380ef69cd82"
+  },
+  "working_tree_clean": true,
+  "actual_register_check": {
+    "command": "python3 tools/registers.py --check",
+    "exit_code": 0,
+    "result": "POD: valid; 1388 records, 867 events; dashboard current"
+  },
+  "reviewed_source_sha256": {
+    "projects/site/src/pages/stories/jhoti-chita.astro": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c",
+    "projects/site/src/pages/stories/craft-listening.astro": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35",
+    "projects/site/src/pages/culture/osha/[slug].astro": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59",
+    "projects/site/src/pages/culture/osha/index.astro": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0a98fda64301d2843c2511349f623268ac7f9b5ceebb140a1edf1fb709af958f",
+    "projects/site/tools/optimize-publication-png.mjs": "9b9b9cc6396bdb63552bffc5f6fc6a0546372e9a2bd73673d189e29d530fe881",
+    "projects/site/tests/publication-jpeg.test.mjs": "96023d580b5c85a416cf17e5aa70caaa47abea06ba18d0a1e6cd64be39cc16f5",
+    "projects/site/tests/publication-png.test.mjs": "4ad5e246a5ee45036ffe801fb2bff8424db7e2ddd6605135c63b1c5648c20205",
+    "projects/site/editions/coast.json": "0c3c104671e6efe4bda5ec566c74dc849497c166add772f405a952eaf041821e",
+    "projects/site/editions/responsive-images.json": "709799a20da29c661220fdd44ebf76395eb11e41ae8cadde03276869852d2577",
+    "projects/site/editions/search-candidate.json": "d10ef4ae8e011a2f7854abde83394e5366c3a308a0db06adea84fcf804c86e1c",
+    "projects/site/public/assets/jhoti/gurubara-jhoti-1200.webp": "7a3f7094998bcdc8c6f52a31caba2b4ea8bd31b72716d382a14464a939138d84",
+    "kb/research/culture/jhoti-chita.md": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea",
+    "outputs/jhoti-publication-2026-11-25/research/final-source-audit.json": "f0e4958dbfd56902aa5376e5371cc5906c0b1a3c9916d9cb5cbfa02e49eaa62b",
+    "projects/site/tests/build.test.mjs": "65b4dd792c869690c1af9be53bc3d123458dc503ddd48f9b79e0fa09941e263b"
+  },
+  "checks": [
+    "All reviewed source/media hashes match committed blobs at the corrected exact head.",
+    "No projects/site difference from the previously reviewed candidate.",
+    "Only three files changed: dashboard digest line, truthful canonical failed-run/correction history, and captured initial CI failure log.",
+    "Actual initial CI log reports stale dashboard during register validation; no claim that run 45482040750 passed.",
+    "Independently ran register consistency check and bounded correction whitespace check; both pass.",
+    "Clean working tree; no build, source change or repository write by this reviewer."
+  ],
+  "findings": [],
+  "limits": [
+    "Prior local package/source/layout review remains applicable because site/media are unchanged.",
+    "This review supersedes the prior exact-head readiness only for the corrected digest and recorded failure history.",
+    "New required CI and its actual Linux payload, deployment, live review and final receipt remain pending."
+  ],
+  "verdict": "PASS. Corrected candidate is ready for its new required hosted check; initial hosted failure remains accurately recorded."
+}

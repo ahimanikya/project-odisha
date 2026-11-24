@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified",
   "article_id": "POD-EDIT-JHOTI-20261124",
   "route": "/stories/jhoti-chita/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Is Saptasajya’s release and final review record complete now? If so, publish Jhoti Chita with the credited photograph, relevant article links, and mobile and desktop layout checks.",
   "work_id": "POD-WORK-20261125201",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "82267ea4268b2690ee9a72204e3fca23a4f3d351",
   "preparation_commit": "7d26d22bf03d1a5bf308c9a936aca2c5c4795e3e",
   "prior_release": {
@@ -21,7 +21,7 @@
   "capacity": {
     "prior_linux_payload_bytes": 999912801,
     "remaining_bytes": 87199,
-    "action": "Three exact reviewed delivery paths only; actual hosted capacity remains mandatory.",
+    "action": "Exactly three reviewed delivery-image paths changed; actual Linux CI and deployment passed at999952877bytes/3670files with47123bytes remaining.",
     "proposal": "outputs/jhoti-publication-2026-11-25/review/capacity-proposal.json",
     "selected": [
       "images/destinations/taptapani-worship.jpg",
@@ -32,12 +32,16 @@
     "new_media_projection_bytes": 722876,
     "source_preservation": "Repository and coastal originals unchanged; selected acquired Jhoti preview preserved.",
     "jpeg_limits": "Taptapani full-frame1600x1200 q85 derivative is lossy. Root and separate reviewer viewed source/candidate. ICC/orientation preserved; IPTC/XMP absent; EXIF serialization changes, not claimed byte-exact.",
-    "tests": "8 targeted JPEG and 6 PNG tests, 828 full tests and 599 coastal tests passed. Final local3163checks and measured999161472byte package passed; actual Linux capacity remains pending.",
+    "tests": "8 targeted JPEG and6PNG tests,828full and599coastal tests passed. Local3163checks and actual Linux CI/deployment capacity passed.",
     "local_payload": {
       "bytes": 999161472,
       "files": 3670,
       "remaining_bytes": 838528
-    }
+    },
+    "actual_ci_payload_bytes": 999952877,
+    "actual_ci_files": 3670,
+    "actual_ci_remaining_bytes": 47123,
+    "actual_deployed_payload_bytes": 999952877
   },
   "reserved_files": {
     "Disha": [
@@ -70,7 +74,7 @@
     "Drishti": "Separate source/media/code/rendered/package/live review"
   },
   "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, Kaincha, prior receipts and Jhoti original preparation bytes.",
-  "next_action": "Exact committed candidate review and required hosted CI, then publication/live review and reviewed receipt merge.",
+  "next_action": "Complete separate integrated/exact-commit receipt review, required checks and actual receipt merge; then explicitly return the sole publication slot to the coordinating hill chat.",
   "web_guidance": {
     "record": "outputs/jhoti-publication-2026-11-25/web-guidance.md",
     "guides": [
@@ -160,5 +164,55 @@
     "failure": "Internal editorial workbench input hash for the public-edition route list was stale after adding Jhoti.",
     "correction": "Regenerate single coast.json digest in internal report; no public content, media, selection or workbench logic change.",
     "evidence": "outputs/jhoti-publication-2026-11-25/release/ci-workbench-failure.log"
-  }
+  },
+  "publication": {
+    "pr": 855,
+    "reviewed_head": "5b1a5cc56dfeb7eaecf0bfdc976fdd924754ecbc",
+    "merge": "f9a056fe42b7eacf2fd28fcc666071103e90e552",
+    "merged_at": "2026-11-24T21:15:44Z",
+    "required_ci": 45483987588,
+    "attempt": 1,
+    "conclusion": "success",
+    "evidence": "outputs/jhoti-publication-2026-11-25/release/publication-verification.json"
+  },
+  "deployment": {
+    "run": 45489423611,
+    "head": "f9a056fe42b7eacf2fd28fcc666071103e90e552",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999952877,
+    "files": 3670,
+    "remaining_bytes": 47123,
+    "evidence": "outputs/jhoti-publication-2026-11-25/release/deployment.json",
+    "log": "outputs/jhoti-publication-2026-11-25/release/deployment.log.gz"
+  },
+  "live_verification": {
+    "evidence": "outputs/jhoti-publication-2026-11-25/live/verification-20261124T214100Z/http.json",
+    "image_comparison": "outputs/jhoti-publication-2026-11-25/live/taptapani-image-comparison.json",
+    "browser_evidence": "outputs/jhoti-publication-2026-11-25/browser/live-review.json",
+    "routes": 5,
+    "images": 10,
+    "screenshots": 14,
+    "raw_status": "REVIEW_DIFFERENCES",
+    "difference": "Nine images byte-exact, including all four Jhoti files. Taptapani base JPEG is16bytes larger than local;184pixels/423RGBchannels differ, max3, mean0.00009010416666666666, RMS0.01125. Root and separate reviewer independently measured/viewed both and accepted visible quality; no pixel identity or encoding cause claimed. All five article fragments byte-exact with no responsive URL substitutions.",
+    "independent_evidence": "outputs/jhoti-publication-2026-11-25/review/live-independent/http.json",
+    "screenshot_limit": "Fourteen meaningful captures cover five routes at two widths; top/article/photo/credit views overlap and do not represent fourteen distinct page layouts."
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then returns to the coordinating hill chat; no next article is claimed here.",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/855",
+  "verified_routes": [
+    "/stories/jhoti-chita/",
+    "/culture/osha/manabasa-gurubara/",
+    "/culture/osha/",
+    "/stories/craft-listening/",
+    "/destinations/taptapani/"
+  ],
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/jhoti-publication-2026-11-25/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "final_receipt_review": "outputs/jhoti-publication-2026-11-25/review/final-receipt-review.json"
 }

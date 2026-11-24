@@ -1,0 +1,54 @@
+{
+  "status": "PASS_EXACT_COMMITTED_LOCAL_CANDIDATE",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "commit": "7736807ba672d4e2458bd03d016d10ae6396abbd",
+  "tree": "141fc4b648074f6604a650295f741dc85bfb22c8",
+  "parent": "8da7401f4297a2edf2eb08a170c66e5ca0900ac9",
+  "base": "82267ea4268b2690ee9a72204e3fca23a4f3d351",
+  "working_tree_clean": true,
+  "changed_files": {
+    "total": 85,
+    "canonical_or_derived_kb": 9,
+    "site_source_config_tests_media": 13,
+    "task_evidence": 63
+  },
+  "reviewed_source_sha256": {
+    "projects/site/src/pages/stories/jhoti-chita.astro": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c",
+    "projects/site/src/pages/stories/craft-listening.astro": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35",
+    "projects/site/src/pages/culture/osha/[slug].astro": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59",
+    "projects/site/src/pages/culture/osha/index.astro": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0a98fda64301d2843c2511349f623268ac7f9b5ceebb140a1edf1fb709af958f",
+    "projects/site/tools/optimize-publication-png.mjs": "9b9b9cc6396bdb63552bffc5f6fc6a0546372e9a2bd73673d189e29d530fe881",
+    "projects/site/tests/publication-jpeg.test.mjs": "96023d580b5c85a416cf17e5aa70caaa47abea06ba18d0a1e6cd64be39cc16f5",
+    "projects/site/tests/publication-png.test.mjs": "4ad5e246a5ee45036ffe801fb2bff8424db7e2ddd6605135c63b1c5648c20205",
+    "projects/site/editions/coast.json": "0c3c104671e6efe4bda5ec566c74dc849497c166add772f405a952eaf041821e",
+    "projects/site/editions/responsive-images.json": "709799a20da29c661220fdd44ebf76395eb11e41ae8cadde03276869852d2577",
+    "projects/site/editions/search-candidate.json": "d10ef4ae8e011a2f7854abde83394e5366c3a308a0db06adea84fcf804c86e1c",
+    "projects/site/public/assets/jhoti/gurubara-jhoti-1200.webp": "7a3f7094998bcdc8c6f52a31caba2b4ea8bd31b72716d382a14464a939138d84",
+    "kb/research/culture/jhoti-chita.md": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea",
+    "outputs/jhoti-publication-2026-11-25/research/final-source-audit.json": "f0e4958dbfd56902aa5376e5371cc5906c0b1a3c9916d9cb5cbfa02e49eaa62b",
+    "projects/site/tests/build.test.mjs": "65b4dd792c869690c1af9be53bc3d123458dc503ddd48f9b79e0fa09941e263b"
+  },
+  "final_package_review_sha256": "fe80e7bf1090863f55f8c5876671a1a598cba3cbc92e06b8ca22c642462b9c14",
+  "committed_receipt_sha256": "51e1c0b9e71499d62fe8fdbdc4ae40e2aa9d80303074121b265c08ef9b903df3",
+  "checks": [
+    "Compared every source hash from the final local package review against git show at the exact committed head; all match.",
+    "All previously reviewed evidence hashes match except the explicitly updated canonical publication record. Its changes link the actual final package review and document the fourth raw capture exception and candidate cleanup.",
+    "Confirmed both commits remain in ancestry: first implementation candidate 8da7401f, then formatting/evidence correction 7736807b. No history rewriting.",
+    "Compared the cleanup commit semantically: rollout and register JSON data are identical before and after formatting restoration; only canonical whitespace-exception and cleanup fields change. No public source or image changes in the cleanup commit.",
+    "Verified all 38 protected Jhoti/Kaincha artifact hashes from committed blobs. Tensa and Saptasajya receipts are byte-identical to base.",
+    "Foreign current_task and handoff_home remain unchanged; prior Saptasajya current_article is preserved in article_pointer_history. Jhoti owns the active slot, with scope held.",
+    "Inspected rollout, work record and appended events: local checks complete, work/rollout still in_progress, readiness reviewed, actual hosted CI/deployment/live review pending, zero programme credit.",
+    "Verified all four named raw whitespace capture hashes and independently ran aggregate base-to-head git diff --check excluding only those exact paths; scoped check passed.",
+    "Working tree status is empty. No changes were made inside the repository by this review."
+  ],
+  "findings": [],
+  "limits": [
+    "This binds the prior local package PASS to the committed source. It does not establish actual Linux payload acceptance.",
+    "Required hosted CI, deployment, fresh live review and final receipt merge remain outstanding.",
+    "The 52 unaffected Osha profiles have source-template preservation evidence and passing coastal tests, not saved per-page pre-change rendered comparisons.",
+    "Raw log/guidance whitespace is intentionally preserved only in four byte-hashed captures."
+  ],
+  "verdict": "PASS. Exact candidate is ready for required hosted checks; no publication completion is claimed."
+}

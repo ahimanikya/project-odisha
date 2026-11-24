@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e99b87e694e953f4e535b6f588a314d31cd6471813cf3d89e68c6fb8391826de`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8b22478a173366c816c884f3f21a1b1ae7633f093513a4ae54e4d4af0942dc42`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -418,7 +418,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112491 · Research, review and publish Tensa | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot. | — |
 | POD-WORK-20261124201 · Prepare original Jhoti Chita article with credited image | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Jhoti draft, credited photograph and publication brief; return the preparation slot to the hill-series chat for its next uncovered destination. No public integration authorized. | — |
 | POD-WORK-2026112495 · Research, review and publish Saptasajya | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI, then explicit Jhoti slot handoff. | — |
-| POD-WORK-20261125201 · Publish Jhoti Chita with credited photograph and reading links | in_progress | reviewed | Ahimanikya Satapathy | Exact committed candidate review and required hosted CI, then publication/live review and reviewed receipt merge. | — |
+| POD-WORK-20261125201 · Publish Jhoti Chita with credited photograph and reading links | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt merge, then return the shared slot to the coordinating hill chat. | — |
 
 ## Pending human review and decisions
 
@@ -1183,6 +1183,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112491 | pass | True | No fieldwork or human specialist review.; Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.; Bounded live checks and separate AI review; no fieldwork or human specialist review. Conditional scope release only after reviewed receipt merge. |
 | POD-REV-20261124201 | pass_with_limitations | True | Separate AI review, not human specialist approval or fieldwork.; Acquired official Commons preview preserved; original camera file was not acquired.; Preparation only; no website rendering, integration, deployment or live checks. |
 | POD-REV-2026112495 | pass | True | No fieldwork or human specialist review.; Photograph identity, date and north-view label are creator supplied; no independent geolocation.; One responsive encoding differs; no pixel identity or encoding cause claimed. Two screenshot pairs overlap. |
+| POD-REV-20261125201 | pass | True | No fieldwork or human specialist review.; Photo provenance is the preserved official Commons preview; the camera original was not acquired. The drawing maker is not separately identified.; One existing delivery JPEG differs in184pixels; no pixel identity or encoding cause claimed.; One browser engine and two viewport sizes; screenshots overlap in content and are not fourteen distinct page layouts. |
 
 ## Publication and application history
 
@@ -1464,6 +1465,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-20261123201 · Birakishore Das: Poems, Schoolbooks and the Young Reader | published | https://projectodisha.org/literature/birakishore-das/ | POD-DEC-20261123201 |
 | POD-REL-2026112491 · Tensa: Hills, Iron Ore and a Community Camp | published | https://projectodisha.org/destinations/tensa/ | POD-DEC-2026112491 |
 | POD-REL-2026112495 · Saptasajya: A Shrine Among Wooded Hills | published | https://projectodisha.org/destinations/saptasajya/ | POD-DEC-2026112495 |
+| POD-REL-20261125201 · Jhoti Chita and the Art of Drawing with Rice Paste | published | https://projectodisha.org/stories/jhoti-chita/ | POD-DEC-20261125201 |
 
 ## Sources and assets
 
@@ -1501,7 +1503,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112492 | 2026-11-24T09:23:47.270925+00:00 | Source, credited original image, article and3incomingpreviews reviewed; separate desktop/mobile and final local package PASS.827full/599coastal tests,5460pagechecks and10676artifactchecks passed. Actuallocal998680963bytes; hosted/live gates pending; zero programme credit. | — |
 | POD-EVT-2026112493 | 2026-11-24T09:50:20.363311+00:00 | PR851 exact reviewed head passed required CI45365066846 attempt1 and merged2166225c. Merged tree equals reviewed candidate; actualLinux999470107bytes. Authorized deployment45368774658 started from that merge; no live or completed-delivery claim yet. | — |
 | POD-EVT-2026112494 | 2026-11-24T10:23:32.846928+00:00 | Successful deployment45368774658 from exact reviewed merge2166225c; fresh separate delivery review verified4routes11images12screenshots and credited article/previews. All new photo files exact; existing Kalinga480 difference measured and visually accepted. First interrupted HTTP attempt retained; unchanged retry and independent fetch passed. Receipt review/CI/actual merge still required before scope release; zero programme credit. | — |
 | POD-EVT-20261124201 | 2026-11-24T15:21:11.231716+00:00 | Tensa completed receipt reconciled; one Jhoti Chita preparation claimed under direct Founder instruction. No publication or programme credit. | — |
@@ -1511,6 +1512,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112497 | 2026-11-24T19:20:23.493729+00:00 | PR853 passed CI attempt2 and merged c49d0fc8; deployment45456071334 succeeded. Separate fresh delivery review passed four routes/eight images/twelve screenshots and real root interactions. One responsive image difference measured and visually accepted. Actual999912801 bytes/3665 files leaves87199 bytes; zero programme credit. Slot remains held until reviewed receipt actually merges. | — |
 | POD-EVT-20261125201 | 2026-11-24T19:57:17.006005+00:00 | Saptasajya receipt verified and explicit handoff accepted; Jhoti publication now sole active article. Preparation hashes and foreign ownership preserved. | — |
 | POD-EVT-20261125202 | 2026-11-24T20:30:42.022448+00:00 | Independent source and rendered review passed;828full/599coastal tests and5468page checks passed. Final local3163deliverychecks and999161472byte/3670file package passed. Root checked14meaningful desktop/mobile views plus three actual incoming links. HostedCI, deployment and reviewed delivery receipt remain; no live publication claimed. | — |
+| POD-EVT-20261125203 | 2026-11-24T21:50:32.325822+00:00 | PR855 final reviewed head5b1a5cc5 passed CI45483987588 and mergedf9a056fe; deployment45489423611 succeeded. Separate fresh delivery review passed5routes/10images/14root desktop-mobile screenshots and actual source/incoming-link actions. All Jhoti media/page fragments exact; one existing JPEG difference measured/visually accepted. Actual999952877bytes/3670files leaves47123bytes. Earlier internal digest failures preserved. Zero programme credit; slot held until reviewed receipt actually merges. | — |
 
 ## Deferred extensions
 
