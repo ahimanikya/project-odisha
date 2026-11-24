@@ -1,0 +1,64 @@
+{
+  "reviewer": "Drishti",
+  "kind": "Separate AI agent review",
+  "status": "PASS_HOSTED_CANDIDATE",
+  "reviewed_at_utc": "2026-11-24T07:19:09.417100+00:00",
+  "reviewed_head": "d019a07cf76b852994f95742c7f60af2d737e763",
+  "merge_commit": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+  "tree": "c1ccbb98e3065ccdc94f60bed56d4c253b00663c",
+  "evidence_hashes": {
+    "hosted/ci-attempt1-failure.log": "a6ba656f270461210fba06102d2e10bdd8932a04752f9400e52a111baafb611f",
+    "hosted/ci-attempt2.json": "c81e89ec687ef9da977315e43420fe31e4a1a48f1072ebe36dde71f1cd9ddfa9",
+    "hosted/ci-attempt2.log": "8e90d255aeaa923315937d518757b322478c3432fc377bebfd814d01fad30124",
+    "hosted/ci-attempt2-payload.log": "69d158df2450f18ec366c90347dfde2f54ab2a0fb067cac07bb19c0fd67949e0",
+    "hosted/pr849-merged.json": "407715920312abb992b49e2df9ea6145129c2a748f52daa19b3e313ee403572a",
+    "review/exact-candidate-review.json": "446996b33176a90611c1e8f2f796af8a3048d46bf7240795a3a68136375ec67a"
+  },
+  "independent_github_queries": {
+    "ci_attempt1": {
+      "run_id": 45341972057,
+      "attempt": 1,
+      "head": "d019a07cf76b852994f95742c7f60af2d737e763",
+      "status": "completed",
+      "conclusion": "failure"
+    },
+    "ci_attempt2": {
+      "run_id": 45341972057,
+      "attempt": 2,
+      "head": "d019a07cf76b852994f95742c7f60af2d737e763",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "pr849": {
+      "state": "MERGED",
+      "head": "d019a07cf76b852994f95742c7f60af2d737e763",
+      "merge": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+      "merged_at": "2026-11-24T07:16:09Z"
+    }
+  },
+  "linux_payload": {
+    "status": "PASS",
+    "regular_file_bytes": 998950813,
+    "regular_files": 3655,
+    "headroom_bytes": 1049187,
+    "exclusive_limit": 1000000000,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "special_files": 0,
+    "evidence": "Actual hosted Validate Pages payload acceptance log, after fourteen payload-checker tests passed."
+  },
+  "checks": [
+    "Read saved first-failure, successful complete-run and payload logs. Independently queried GitHub for both CI attempts and the merged PR; all confirm the same reviewed candidate SHA.",
+    "Successful hosted logs contain full827/827, coastal599/599, acceptance5456/5456 and zero full/coast/publication disclosure violations. The payload check passes on the actual Linux output, not the earlier local projection.",
+    "Attempt1 failed before website build during existing Dhaga PDF hydration: anonymous GitHub releases metadata request returned403, curl exit22; verifier exited1. Attempt2 retried the identical commit and succeeded. The failure evidence is preserved.",
+    "Fetched merge has reviewed candidate tree exactly. Merge parents are reconciled main cea878defc5306c765fd3993b572abd8bc81716d and reviewed candidate; there is no candidate-to-merge content diff. Every previously bound artifact hash equals its merge-commit blob.",
+    "No tracked local edits observed before writing this review. Existing untracked hosted/progress/exact-review evidence is retained for the forthcoming receipt."
+  ],
+  "limits": [
+    "No assertion that the403 was caused by rate limiting or another specific infrastructure condition; available log proves the refused anonymous metadata request only.",
+    "Payload measurement is stat-based acceptance, not an archive digest or proof that live delivery succeeded. Local and Linux totals differ; byte equality is not assumed.",
+    "Deployment45346733610 was still a separate running workflow at assignment. This review does not inspect or approve deployment, live routes, remote images or browser behavior.",
+    "No shared records, public files, Git commits or branches were modified."
+  ],
+  "blockers": []
+}

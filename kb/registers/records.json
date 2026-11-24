@@ -10646,16 +10646,17 @@
       "id": "POD-WORK-20261123201",
       "title": "Publish Birakishore Das: Poems, Schoolbooks and the Young Reader",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-20261123201",
-      "next_action": "Exact committed review, required hosted CI and measured Linux capacity; merge reviewed candidate, deploy, fresh live verification and separately reviewed receipt merge before slot return.",
+      "next_action": "Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261123201",
-        "POD-REV-20261123201"
+        "POD-REV-20261123201",
+        "POD-REL-20261123201"
       ],
       "evidence": [
         "records/birakishore-publication-20261123.json"
@@ -25794,7 +25795,7 @@
       "evidence": [
         "records/birakishore-publication-20261123.json"
       ],
-      "summary": "Separate source/media/code, desktop/mobile rendered and final local package reviews passed. Root operated browser links and native footnote return. Exact-commit/hosted CI/deployment/live delivery remain subsequent gates.",
+      "summary": "Separate source, media, code, rendered, package, exact candidate, hosted and fresh live delivery reviews passed. Two measured existing image encoding differences visually accepted with raw evidence preserved; no cause inferred. Root browser actions separately attributed.",
       "independent": true,
       "limitations": [
         "No human specialist review or fieldwork.",
@@ -30197,6 +30198,21 @@
       ],
       "evidence": [
         "records/kapileswar-hatuari-publication-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261123201",
+      "title": "Birakishore Das: Poems, Schoolbooks and the Young Reader",
+      "status": "published",
+      "authorization": "POD-DEC-20261123201",
+      "destination": "https://projectodisha.org/literature/birakishore-das/",
+      "refs": [
+        "POD-WORK-20261123201",
+        "POD-DEC-20261123201",
+        "POD-REV-20261123201"
+      ],
+      "evidence": [
+        "records/birakishore-publication-20261123.json"
       ]
     }
   ],
