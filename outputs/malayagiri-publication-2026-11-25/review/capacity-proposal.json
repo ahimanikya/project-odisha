@@ -1,0 +1,197 @@
+{
+  "status": "PROPOSAL_READY_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-11-25",
+  "input_head": "0929dad2ae5e4fd6d950a8f8bd2aaf99c5a3a628",
+  "scope": "Only this report and review derivatives written. No website/source/optimizer changes.",
+  "baseline": {
+    "actual_linux_payload_bytes": 999952877,
+    "remaining_bytes": 47123,
+    "local_limit": "dist-publish predates Jhoti (Taptapani still1050439B); no actual current package size inferred from it. Selected Sahi bytes independently tied to existing settings."
+  },
+  "rejected_png_candidates": [
+    {
+      "path": "assets/cinema/literature-page-to-screen-20261030.png",
+      "source_bytes": 703411,
+      "source_sha256": "5ef6ffe37cb9a46951cb2b72a7448cb90d4ac2855c82e63b5201d8d19f37136c",
+      "output_bytes": 692740,
+      "output_sha256": "3c44271e59cf94e1a4364d684fb10b4e33579b61353a51f4cdb27b3c93c88dbd",
+      "saved_bytes": 10671,
+      "status": "losslessly-recompressed",
+      "deflate_settings": null,
+      "inflated_scanline_sha256": "e8325fa7af7a58a1b1320e9ae5b744d3e85aa8a5f44e0e54d2b51ca0a1f65cad",
+      "pixel_sha256": "3d5e64ce7cae31be21cef92b1488259be4b7c631cf2c835c54ad113195cc9bac",
+      "metadata_sha256": "1d1f51d31cc00189bfa95b903151960f26ff0e894af31f8503f8305bb7547467",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "assets/cinema/shared-story-table-20261030.png",
+      "source_bytes": 361541,
+      "source_sha256": "23c6d33e3304641fccfa5e937e7f2d6bce9a1d9d59d801c491ce1ac0ae9cf4ef",
+      "output_bytes": 340127,
+      "output_sha256": "1d903876f8f8f013382e3dc46d67b92fbadcd8dad885c9aa0160a4db4de3480b",
+      "saved_bytes": 21414,
+      "status": "losslessly-recompressed",
+      "deflate_settings": null,
+      "inflated_scanline_sha256": "77afddf6a3d2da2b78d9bfa840bfda476c98982eb7b11b1ae748e2a6db792093",
+      "pixel_sha256": "8c11e1a8d57f9dbca143f06c1d7e1fd5dd48aae5ec31432f83d83ea5289b8dcd",
+      "metadata_sha256": "532f7cf42ad03daa28f5e1a3aa71f3d2ca3fd538f6b6a64cf3c205b8b588e803",
+      "width": 1774,
+      "height": 887
+    }
+  ],
+  "selected": {
+    "path": "assets/sahi-jatra/performer.jpg",
+    "route": "/stories/sahi-jatra/",
+    "source_bytes": 8825988,
+    "source_sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+    "current_local_delivery_bytes": 2602768,
+    "current_local_delivery_sha256": "e407a4787081d76e04cf0dc173e1886e30bcc5d2ea34dd50cc79d0975e22f061",
+    "candidate_file": "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-q95.jpg",
+    "candidate_bytes": 1726913,
+    "candidate_sha256": "c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12",
+    "saved_bytes": 875855,
+    "headroom_after_optimization_before_new_article": 922978,
+    "new_photo_plus_variants_bytes": 804004,
+    "projected_remaining_before_new_html": 118974,
+    "settings": {
+      "maximum_dimension": 2400,
+      "quality": 95,
+      "chromaSubsampling": "4:4:4",
+      "mozjpeg": true,
+      "preserve_metadata": true
+    },
+    "source_stored_geometry": [
+      4928,
+      3264
+    ],
+    "candidate_stored_geometry": [
+      2400,
+      1590
+    ],
+    "source_display_geometry": [
+      3264,
+      4928
+    ],
+    "candidate_display_geometry": [
+      1590,
+      2400
+    ],
+    "orientation": [
+      8,
+      8
+    ],
+    "density": [
+      300,
+      300
+    ],
+    "metadata": {
+      "icc": {
+        "before_bytes": 0,
+        "after_bytes": 0,
+        "byte_equal": true
+      },
+      "iptc": {
+        "before_bytes": 0,
+        "after_bytes": 0,
+        "byte_equal": true
+      },
+      "xmp": {
+        "before_bytes": 0,
+        "after_bytes": 0,
+        "byte_equal": true
+      }
+    },
+    "exif_note": "EXIF is not byte-exact: in addition to dimension fields, Drishti measured MakerNote shrinking from36022 to11403bytes. No assertion of all EXIF preservation. Original camera JPEG remains byte-exact in KB/public/full/coast; delivery retains orientation8 and300dpi, with ICC/IPTC/XMP byte-equality checks (all absent in this image).",
+    "pixel_comparison": {
+      "reference": "Original resized to candidate stored geometry with same Sharp resize; JPEG decode compared to reference RGB.",
+      "mse": 3.907102987421384,
+      "psnr_db": 42.21225501913581,
+      "maximum_channel_error": 20,
+      "lossless": false
+    },
+    "source_copies": {
+      "../../kb/research/media/sahi-jatra/performer.jpg": {
+        "bytes": 8825988,
+        "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+        "equals_original": true
+      },
+      "public/assets/sahi-jatra/performer.jpg": {
+        "bytes": 8825988,
+        "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+        "equals_original": true
+      },
+      "dist/assets/sahi-jatra/performer.jpg": {
+        "bytes": 8825988,
+        "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+        "equals_original": true
+      },
+      "dist-coast/assets/sahi-jatra/performer.jpg": {
+        "bytes": 8825988,
+        "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+        "equals_original": true
+      }
+    },
+    "maker_note_review": {
+      "reviewer": "Drishti",
+      "source_bytes": 36022,
+      "candidate_bytes": 11403,
+      "scope": "Independent reported metadata finding; current3072 derivative may have the same rewrite, not independently established by this proposal."
+    }
+  },
+  "alternatives": [
+    {
+      "maximum_dimension": 2560,
+      "quality": 95,
+      "candidate_bytes": 1921400,
+      "saved_bytes": 681368,
+      "decision": "Insufficient for804004B new photo package."
+    },
+    {
+      "maximum_dimension": 2304,
+      "quality": 95,
+      "candidate_bytes": 1612544,
+      "saved_bytes": 990224,
+      "remaining_after_new_photo_before_html": 233343,
+      "decision": "Fallback only if2400px candidate fails actual package gate; needs its own visual review."
+    },
+    {
+      "path": "assets/osakothi/simanchala-nahaka-2019.jpg",
+      "maximum_dimension": 1600,
+      "quality": 90,
+      "candidate_bytes": 256124,
+      "saved_bytes": 522161,
+      "decision": "Insufficient and used on two credited pages; not selected."
+    }
+  ],
+  "rights": {
+    "creator": "Prateek Pattanaik",
+    "source": "https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg",
+    "license": "CC BY-SA4.0",
+    "records": [
+      "kb/research/media/sahi-jatra/provenance.json",
+      "kb/research/media/sahi-jatra/commons-record.json"
+    ],
+    "rights_limit": "Existing verified records reused; no fresh remote licence check.",
+    "caption": "Keep creator/source/licence/date and unique existing transformation from reproduced without alteration. to resized and compressed for web delivery without cropping. unchanged."
+  },
+  "proposal": {
+    "files": [
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs"
+    ],
+    "change": "Only existing Sahi entry gets maximum_dimension2400 at unchanged95/4:4:4/mozjpeg. No extra image path, no source changes, no broad optimization.",
+    "sharing": "Existing original share geometry3264x4928 is display-oriented; raw JPEG4928x3264 has orientation8. Opted-in correction must validate source autoOrient3264x4928 and emit candidate1590x2400. Existing raw-dimension updateShareDimensions would reject; use a specifically scoped orientation-aware branch plus orientation8 regression, preserving every other entry.",
+    "validation": "Assert original KB/public/full/coast exact hashes, sameURL, no crop, aspect/orientation/density and ICC/IPTC/XMP preservation; unique caption; correct oriented OG dimensions; source-note/licence unchanged; existing JPEG tests and actual local/Linux payload gates."
+  },
+  "visual_review": {
+    "status": "IMPLEMENTER_VIEWED_BOTH_COMPARISONS",
+    "files": [
+      "sahi-jatra-2400-fullframe-comparison.png",
+      "sahi-jatra-2400-detail-comparison.png"
+    ],
+    "order": "Left original; middle current3072 delivery; right candidate2400. Fullframe panels each480px wide. Detail same geometry/extraction across three inputs; crop is review artifact only.",
+    "required": "Inspect framing, ornaments, face paint and skin/clothing detail; then separate root/Drishti review. Linux byte/decoded differences need actual measurement and visual review, no assumption of identity.",
+    "finding": "Full framing/orientation retained. At equal displayed scales, head ornament outlines, beadwork, coloured paint and face remain legible; no obvious new blocking, colour shift or missing detail seen. This is a lossy derivative, not pixel-identical. Root and separate reviewer acceptance still required."
+  }
+}

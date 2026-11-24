@@ -1,0 +1,106 @@
+{
+  "task": "POD-EDIT-MALAYAGIRI-20261125",
+  "researcher": "Anvesha",
+  "date": "2026-11-25",
+  "input_head": "0929dad2ae5e4fd6d950a8f8bd2aaf99c5a3a628",
+  "scope": "Bounded research, not manuscript implementation or independent review of own findings",
+  "sources": [
+    {
+      "id": "angul-malayagiri-about-20261125",
+      "family": "angul-government-geography",
+      "url": "https://angul.odisha.gov.in/en/about-district/about-us",
+      "title": "Angul district — About Us",
+      "access": "2026-11-25",
+      "method": "Original-publisher text returned by focused web search; direct page open returned 502 and direct urllib/curl DNS failure. Not direct HTML or rendered verification.",
+      "locator": "District profile paragraph beginning For better administration",
+      "excerpt": "The highest point is Malayagiri at 1187 m above MSL.",
+      "claims": [
+        "Malayagiri is the highest point in Angul district, 1187m above mean sea level."
+      ],
+      "limits": [
+        "District scope only; no state-wide height ranking.",
+        "Search crawl date is not a fresh field survey."
+      ]
+    },
+    {
+      "id": "angul-khuludi-visitor-page-20261125",
+      "family": "angul-government-geography",
+      "url": "https://angul.odisha.gov.in/en/tourism/places-of-interest",
+      "title": "Angul district — Places of Interest",
+      "access": "2026-11-25",
+      "method": "Focused web search returned original-publisher section text. Direct page opens returned 502; direct urllib/curl DNS failure. Root independently reported same indexed passage.",
+      "locator": "Khuludi, Pallahara section",
+      "excerpt": "It is in the Malyagiri Mountain range of Pallahara Sub division",
+      "claims": [
+        "Khuludi waterfall is near Khuludi village in the Malyagiri range, Pallahara subdivision.",
+        "District lists distance as 20km from Pallahara and 120km from Angul; origins and measured road alignment not specified.",
+        "Angul is described as reachable by road or train."
+      ],
+      "limits": [
+        "Do not use the undated regular-bus claim as current operating evidence.",
+        "Shiva reference is figurative in this passage; do not infer a temple construction date, precise ritual, festival or origin story.",
+        "No current hours, fees, trail, safe swimming, summit route or accessibility assurance."
+      ]
+    },
+    {
+      "id": "sahu-dhal-mohanty-2012-malyagiri-trees",
+      "family": "sahu2012-malyagiri",
+      "url": "https://www.researchgate.net/publication/275350100_Tree_Species_diversity_distribution_and_population_structure_in_a_tropical_dry_deciduous_forest_of_Malyagiri_Hill_Ranges_Eastern_Ghats_India",
+      "title": "S. C. Sahu, N. K. Dhal and R. C. Mohanty (2012), Tree species diversity, distribution and population structure in a tropical dry deciduous forest of Malyagiri hill ranges, Eastern Ghats, India",
+      "publication": "Tropical Ecology 53(2):163–168, 2012; International Society for Tropical Ecology",
+      "access": "2026-11-25",
+      "method": "Direct web open of author-deposited full original text on ResearchGate; page explicitly credits upload by SUDAM C. Sahu on 17 October 2017. Not a third-party summary. Downloaded PDF/visual page inspection unavailable in this pass.",
+      "locator": "Printed p.163 abstract; p.164 study-area and vegetation-analysis paragraphs. Relevant web text lines92–132,254–306.",
+      "excerpt": "Vegetation analysis was carried out during March 2007 to December 2009",
+      "claims": [
+        "Eastern Ghats hill range in Pallahara subdivision, Angul.",
+        "Terrain consists of undulating hills and intervening valleys; p164 distinguishes lateritic hilltops and red clay/clay-loam valley soils.",
+        "Study published2012, fieldwork March2007–December2009.",
+        "60 tree plots, each20×20m, totaling2.4ha; 1063 trees from57 species; tree inclusion threshold at least15cm girth at breast height.",
+        "Sal (Shorea robusta) had highest importance-value index,44.67, in the sampled forest."
+      ],
+      "limits": [
+        "57 is sampled richness, not total species of the range or a current count.",
+        "Dominance belongs to the surveyed tropical dry deciduous forest, not every part of the range.",
+        "Do not treat cited medicinal uses as efficacy or dated pressure descriptions as fresh measurements.",
+        "No DOI verified; do not invent one.",
+        "Publisher PDF recovery and author PDF click failed; author-text reading is the actual method."
+      ]
+    }
+  ],
+  "unadopted_leads": [
+    {
+      "id": "angul-dsr-sand-2026-physiography",
+      "url": "https://angul.odisha.gov.in/sites/default/files/2026-02/DSR%20%28SAND%29%20ANGUL%202026.pdf",
+      "locator": "Section9 Physiography; indexed printed46",
+      "access": "2026-11-25",
+      "method": "Original-publisher indexed passage only; direct open502. No PDF acquired or visual page inspection.",
+      "relation": "Same physiography wording as CGWB Angul report; not independent corroboration. Conservatively combine with all Angul-government coverage if used.",
+      "status": "Not necessary for initial draft; original verification would be needed for fine geology or exact locator certainty."
+    },
+    {
+      "id": "cgwb-angul-physiography-lead",
+      "url": "https://www.cgwb.gov.in/old_website/AQM/NAQUIM_REPORT/Odisha/Angul.pdf",
+      "alternate_url": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/17412385051448745588file.pdf",
+      "locator": "Section3.1.1 Northern Mountainous Region; old indexed printed10; alternate edition contents differ, do not conflate page numbers",
+      "access": "2026-11-25",
+      "method": "Indexed original passage only; web originals502 and direct TLS failure. No PDF acquired.",
+      "relation": "Shared paragraph lineage with district DSR.",
+      "status": "Lead only. Both describe Malayagiri south of Pallahara,1187m, broad valleys, quartzite higher hills. Avoid a separate budget or false independent corroboration."
+    }
+  ],
+  "source_budget": {
+    "angul-government-geography": {
+      "target_words": 175,
+      "hard_ceiling": 200,
+      "includes": "District About Us, Places of Interest and any reused DSR/CGWB physiography; all future headings/notes/metadata/cards/caption-derived facts."
+    },
+    "sahu2012-malyagiri": {
+      "target_words": 175,
+      "hard_ceiling": 200,
+      "includes": "Original paper, author deposit and mirrors; all future notes/metadata/card-derived facts."
+    }
+  },
+  "capture_policy": "Bounded excerpts and structured claim capture only; no complete copyrighted article or full government compilation copied into public repository. No downloaded original PDF or HTML hash exists because acquisition failed.",
+  "scope_released": true
+}

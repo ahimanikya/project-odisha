@@ -11,10 +11,46 @@ test('delivery resizing preserves ratio, orientation and credit metadata while l
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
  const source=await sharp({create:{width:4000,height:2400,channels:3,background:'#87553a'}}).withMetadata({orientation:8,density:144}).withXmp('<x:xmpmeta xmlns:x="adobe:ns:meta/"><credit>Test photographer</credit></x:xmpmeta>').jpeg({quality:100}).toBuffer();
- await mkdir(path.join(dir,'assets/sahi-jatra'),{recursive:true});await writeFile(path.join(dir,'original.jpg'),source);await writeFile(path.join(dir,deliveryJPEGs[0]),source);await writeFile(path.join(dir,'assets/unrelated.jpg'),source);
- await mkdir(path.join(dir,'stories/sahi-jatra'),{recursive:true});await writeFile(path.join(dir,'stories/sahi-jatra/index.html'),'<a href="https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg">Source</a>; reproduced without alteration.');
+ await mkdir(path.join(dir,'assets/sakhi-nata-and-sakhi-pila'),{recursive:true});await writeFile(path.join(dir,'original.jpg'),source);await writeFile(path.join(dir,deliveryJPEGs[1]),source);await writeFile(path.join(dir,'assets/unrelated.jpg'),source);
+ await mkdir(path.join(dir,'stories/sakhi-nata-and-sakhi-pila'),{recursive:true});await writeFile(path.join(dir,'stories/sakhi-nata-and-sakhi-pila/index.html'),'<a href="https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg">Source</a>; reproduced without alteration.');
  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>0);
- const actual=await sharp(await readFile(path.join(dir,deliveryJPEGs[0]))).metadata(),original=await sharp(source).metadata();assert.equal(actual.width,3072);assert.equal(actual.height,1843);assert.equal(actual.orientation,8);assert.deepEqual(actual.xmp,original.xmp);assert.deepEqual(actual.icc,original.icc);assert.equal(actual.density,original.density);assert.ok((await readFile(path.join(dir,'original.jpg'))).equals(source));assert.ok((await readFile(path.join(dir,'assets/unrelated.jpg'))).equals(source));assert.notEqual(result.files[0].source_sha256,result.files[0].output_sha256);assert.match(await readFile(path.join(dir,'stories/sahi-jatra/index.html'),'utf8'),/resized and compressed for web delivery without cropping/);
+ const actual=await sharp(await readFile(path.join(dir,deliveryJPEGs[1]))).metadata(),original=await sharp(source).metadata();assert.equal(actual.width,3072);assert.equal(actual.height,1843);assert.equal(actual.orientation,8);assert.deepEqual(actual.xmp,original.xmp);assert.deepEqual(actual.icc,original.icc);assert.equal(actual.density,original.density);assert.ok((await readFile(path.join(dir,'original.jpg'))).equals(source));assert.ok((await readFile(path.join(dir,'assets/unrelated.jpg'))).equals(source));assert.notEqual(result.files[0].source_sha256,result.files[0].output_sha256);assert.match(await readFile(path.join(dir,'stories/sakhi-nata-and-sakhi-pila/index.html'),'utf8'),/resized and compressed for web delivery without cropping/);
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+test('Sahi delivery keeps the reviewed portrait orientation, credits and originals while correcting only its displayed share dimensions',async()=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-sahi-jpeg-'));
+ try{
+ const asset='assets/sahi-jatra/performer.jpg',page='stories/sahi-jatra/index.html';
+ const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
+ const credit='<a href="https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg">Prateek Pattanaik, 2018</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; reproduced without alteration.';
+ const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="3264"><meta property="og:image:height" content="4928"><meta name="unrelated:width" content="3264"><figure><img src="/'+asset+'" width="3264" height="4928"><figcaption>'+credit+'</figcaption></figure><p>Unrelated article text.</p>';
+ await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);
+ await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
+ const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+ assert.equal(result.files.length,1);assert.equal(result.files[0].path,asset);
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:2400,quality:95,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ const output=await readFile(path.join(dir,asset)),actual=await sharp(output).metadata(),original=await sharp(source).metadata();
+ assert.deepEqual([actual.width,actual.height,actual.orientation],[2400,1590,8]);
+ assert.deepEqual([actual.autoOrient.width,actual.autoOrient.height],[1590,2400]);
+ assert.equal(actual.density,original.density);for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
+ // EXIF MakerNote bytes are not promised unchanged; the exact original remains available.
+ const current=await sharp(source).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(current.length-output.length>850000);
+ assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace('reproduced without alteration.','resized and compressed for web delivery without cropping.').replace('property="og:image:width" content="3264"','property="og:image:width" content="1590"').replace('property="og:image:height" content="4928"','property="og:image:height" content="2400"'));
+ assert.ok((await readFile(sourceURL)).equals(source));
+ const wrongOrientation=await sharp(source).withMetadata({orientation:1}).jpeg({quality:100}).toBuffer();
+ for(const [name,input,invalidHTML,error] of [
+  ['orientation',wrongOrientation,html,/Expected reviewed Sahi orientation8 geometry/],
+  ['unrelated sharing image',source,html.replace('https://projectodisha.org/'+asset,'https://projectodisha.org/assets/unrelated.jpg'),/Expected matching share image/],
+  ['raw instead of displayed width',source,html.replace('property="og:image:width" content="3264"','property="og:image:width" content="4928"'),/Expected unique share image width/],
+  ['duplicate caption',source,html+'<p>reproduced without alteration.</p>',/Expected unique photo credit/]
+ ]){
+  await writeFile(path.join(dir,asset),input);await writeFile(path.join(dir,page),invalidHTML);
+  await assert.rejects(optimizePublicationJPEGs(pathToFileURL(dir+'/')),error,name);
+  assert.ok((await readFile(path.join(dir,asset))).equals(input),name+': image unchanged after rejected guard');
+  assert.equal(await readFile(path.join(dir,page),'utf8'),invalidHTML,name+': HTML unchanged after rejected guard');
+ }
  }finally{await rm(dir,{recursive:true,force:true});}
 });
 
