@@ -1,0 +1,5 @@
+Publishes an independently researched article on Birakishore Das’s poetry, schoolbook production and children’s publishing, with four source notes and a credited symbolic illustration. Adds illustrated links from Literature and the two existing Odia Bibhaba articles.
+
+Preserves the reviewed preparation, original illustration, Kapileswar release, memoir and unpublished Kaincha materials. A separately reviewed, full-frame web derivative of one existing public-domain Met painting creates hosting capacity; the original is retained and resizing/compression is disclosed in its caption.
+
+Validation evidence: `outputs/birakishore-publication-20261123/` and `kb/records/birakishore-publication-20261123.json`. Full 827 tests, coastal 599 tests, 5,456 page acceptance checks, disclosure gates, source/media/code and separate desktop/mobile article/preview/package reviews pass. Local package: 998,162,796 bytes across 3,655 files; this does not substitute for the Linux gate. Actual Linux payload acceptance and the required branch check must pass before merge; deployment and live delivery review follow.

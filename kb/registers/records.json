@@ -10641,6 +10641,25 @@
       "evidence": [
         "records/kapileswar-hatuari-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261123201",
+      "title": "Publish Birakishore Das: Poems, Schoolbooks and the Young Reader",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-20261123201",
+      "next_action": "Exact committed review, required hosted CI and measured Linux capacity; merge reviewed candidate, deploy, fresh live verification and separately reviewed receipt merge before slot return.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261123201",
+        "POD-REV-20261123201"
+      ],
+      "evidence": [
+        "records/birakishore-publication-20261123.json"
+      ]
     }
   ],
   "decisions": [
@@ -16106,6 +16125,21 @@
       "refs": [],
       "evidence": [
         "records/kapileswar-hatuari-publication-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261123201",
+      "title": "Publish reviewed Birakishore Das article after coordinated handoff",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Coordinate with the other chat and, when the slot is available, integrate and publish the Birakishore Das article with the credited illustration, links from relevant articles, and mobile and desktop layout checks.",
+      "scope": "Integrate and publish original article with credited illustration, relevant incoming links and desktop/mobile checks after slot return.",
+      "refs": [],
+      "evidence": [
+        "records/birakishore-publication-20261123.json"
       ]
     }
   ],
@@ -25743,6 +25777,29 @@
         "Chapter author and full references remain unverified",
         "Possible shared source among inventory, book and board",
         "No fieldwork, archaeological specialist review or current engineering assessment claimed"
+      ]
+    },
+    {
+      "id": "POD-REV-20261123201",
+      "title": "Birakishore Das separate source, media, code and rendered publication review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-20261123201",
+        "POD-DEC-20261123201"
+      ],
+      "evidence": [
+        "records/birakishore-publication-20261123.json"
+      ],
+      "summary": "Separate source/media/code, desktop/mobile rendered and final local package reviews passed. Root operated browser links and native footnote return. Exact-commit/hosted CI/deployment/live delivery remain subsequent gates.",
+      "independent": true,
+      "limitations": [
+        "No human specialist review or fieldwork.",
+        "Symbolic illustration is not a portrait or historic book facsimile.",
+        "Local capacity is not proof of Linux or live acceptance."
       ]
     }
   ],

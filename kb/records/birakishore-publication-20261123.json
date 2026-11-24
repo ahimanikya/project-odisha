@@ -1,0 +1,128 @@
+{
+  "status": "candidate_reviewed",
+  "article_id": "POD-EDIT-BIRAKISHORE-20261123",
+  "route": "/literature/birakishore-das/",
+  "owner": "Disha",
+  "started_on": "2026-11-23",
+  "authorization": "POD-DEC-20261123201",
+  "authorization_quote": "Coordinate with the other chat and, when the slot is available, integrate and publish the Birakishore Das article with the credited illustration, links from relevant articles, and mobile and desktop layout checks.",
+  "work_id": "POD-WORK-20261123201",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_main": "cea878defc5306c765fd3993b572abd8bc81716d",
+  "preparation_commit": "1e040a23c3ab8ec13d1f5788357d14b2fad386de",
+  "preparation_manifest": "outputs/birakishore-das-2026-11-23/manifest.json",
+  "prepared_article_sha256": "f9390412c3165e920ad3b99430fe5c1be730fbb421b600519f357080e793cc1f",
+  "preceding_receipt": {
+    "pr": 848,
+    "merge": "cea878defc5306c765fd3993b572abd8bc81716d",
+    "reviewed_head": "0ed7963d95490be93b97c0553dc5891d1b44726a",
+    "required_ci": 45169055982,
+    "conclusion": "SUCCESS",
+    "actual_handoff": "Explicit completed release from Kapileswar chat01a20703-448b-7671-acd4-f292f7019f8d; verified merged PR and successful check via GitHub before reconciliation."
+  },
+  "assignments": {
+    "Disha": "Canonical manuscript, shared registers, ownership, review integration and publication",
+    "Anvesha": "Canonical source dossier and separate source audit, reusing captured originals",
+    "Samanta": "Bounded article/image/incoming link implementation and edition integration",
+    "Drishti": "Separate quality, media, rendered, package, exact-head and live delivery review"
+  },
+  "file_reservations": {
+    "Disha": [
+      "kb/registers/",
+      "kb/team/operations.json",
+      "kb/records/birakishore-publication-20261123.json",
+      "kb/records/article-editorial-rollout.json",
+      "kb/research/people/birakishore-das-article.md",
+      "kb/research/references/data/research-map.json",
+      "kb/research/methods/research-map.md",
+      "kb/history/",
+      "derived KB views",
+      "outputs/birakishore-publication-20261123/"
+    ],
+    "Anvesha": [
+      "kb/research/people/birakishore-das-sources.json",
+      "outputs/birakishore-publication-20261123/research/"
+    ],
+    "Samanta": [
+      "projects/site/src/pages/literature/birakishore-das.astro",
+      "projects/site/src/pages/literature/index.astro",
+      "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "projects/site/src/pages/stories/odia-bibhaba-visit.astro",
+      "projects/site/public/images/literature/birakishore-das/",
+      "bounded edition/responsive/export/test integration",
+      "outputs/birakishore-publication-20261123/implementation/",
+      "projects/site/src/components/CultureCards.astro",
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs"
+    ],
+    "Drishti": [
+      "outputs/birakishore-publication-20261123/review/"
+    ]
+  },
+  "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, all previous releases, Kaincha preparation and memoir847. No foreign publication status inference.",
+  "source_limits": [
+    "Memoir remains retrospective testimony; no specific reader-authorship claim.",
+    "Mo Desa launch year and Sishulekha role omitted.",
+    "Symbolic illustration, not a portrait or historical publication facsimile."
+  ],
+  "next_action": "Exact committed review, required hosted CI and measured Linux capacity; merge reviewed candidate, deploy, fresh live verification and separately reviewed receipt merge before slot return.",
+  "next_slot": {
+    "chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "article": "Tensa",
+    "condition": "Explicit return only after actual reviewed Birakishore publication receipt merge."
+  },
+  "publication": null,
+  "capacity": {
+    "baseline_deployment": 45166156030,
+    "baseline_bytes": 999928859,
+    "headroom_bytes": 71141,
+    "proposal": "One full-frame resized/compressed delivery JPEG; original retained.",
+    "candidate": "outputs/birakishore-publication-20261123/capacity/jpeg-candidate.json",
+    "review": "outputs/birakishore-publication-20261123/review/capacity-review.json",
+    "expected_saving_bytes": 1152299,
+    "actual_linux_gate": "pending",
+    "local_bytes": 998162796,
+    "local_files": 3655,
+    "local_headroom_bytes": 1837204
+  },
+  "validation_history": [
+    {
+      "check": "register consistency",
+      "initial_failure": "New uncommitted activity event omitted id; corrected own event and re-ran successfully."
+    },
+    {
+      "check": "portable KB bundle",
+      "initial_failure": "Route inventory stale and public image path treated as route; synced inventory and changed canonical image to absolute public URL. Recheck pending."
+    },
+    {
+      "check": "coastal literature cards",
+      "initial_failure": "Expected12actual13; explicitly added new card to expected count and verified credited image;599/599suite passes."
+    },
+    {
+      "check": "coastal page acceptance",
+      "initial_failure": "Description28characters below50; revised only metadata to independently reviewed52character5word description.5456/5456passed."
+    }
+  ],
+  "reviews": {
+    "source": "outputs/birakishore-publication-20261123/research/publication-source-review.json",
+    "capacity": "outputs/birakishore-publication-20261123/review/capacity-review.json",
+    "integrated": "outputs/birakishore-publication-20261123/review/integrated-review.json",
+    "rendered": "outputs/birakishore-publication-20261123/review/rendered-review.json",
+    "package": "outputs/birakishore-publication-20261123/review/final-package-review.json"
+  },
+  "browser": "outputs/birakishore-publication-20261123/local/browser-verification.json",
+  "metadata_description": "Birakishore Das: literature, textbooks, publication.",
+  "validation": {
+    "full_tests": 827,
+    "coastal_tests": 599,
+    "coastal_acceptance_checks": 5456,
+    "disclosure": "Full/coast/publication zero violations",
+    "package": "outputs/birakishore-publication-20261123/package-checks.json",
+    "history": "outputs/birakishore-publication-20261123/validation/progress.json",
+    "browser": "outputs/birakishore-publication-20261123/local/browser-verification.json",
+    "final_package_browser": "outputs/birakishore-publication-20261123/local/final-package-browser.json",
+    "actual_linux_gate": "pending"
+  }
+}

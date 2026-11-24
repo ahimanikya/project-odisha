@@ -1,0 +1,203 @@
+{
+  "status": "implementation_complete_build_and_browser_pending",
+  "input_head": "526c42379d93809532ca81878f292317728ddaac",
+  "changed_files": [
+    {
+      "path": "projects/site/src/pages/literature/birakishore-das.astro",
+      "sha256": "bd61aa2148d38551777b9afd78459adb9d4ebfffe5434ad75f63835ab3d3ab7a"
+    },
+    {
+      "path": "projects/site/src/pages/literature/index.astro",
+      "sha256": "95696d039db987d505e3dcd72665841cc436f961590fe68e4f5cab70bc6921d7"
+    },
+    {
+      "path": "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "sha256": "c84e696e51a7a6a7037c57d22c6a369f1af8b292de9944e9061c5281723a282a"
+    },
+    {
+      "path": "projects/site/src/pages/stories/odia-bibhaba-visit.astro",
+      "sha256": "a4795c6c8cf0d8b46dae8e48c7df227cf1c680324d71566eff248387ddd74610"
+    },
+    {
+      "path": "projects/site/src/components/CultureCards.astro",
+      "sha256": "b16b6ebf8e288569080404b055d7c6abd3e849ccddc618839b2eeb0754bdbf8f"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "714ceb6674a4a1733323ebb5ff9df2e9dd3299ee949399e2bcf0e82b3a84de44"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "17af9d29c820a4a9c48b5e903a9a548f6e786c2d567c01aa9366440337295ecb"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "c174405986869ea446fc729dd4437cf37a2c6e8ee62a1ace9b22a06e87791b98"
+    },
+    {
+      "path": "projects/site/public/images/literature/birakishore-das/reading-table.webp",
+      "sha256": "d0ec60a0b0398d1ccb66ad137b44dae4cc5d0493c3fdb244ad1cdd546ef00a4e"
+    },
+    {
+      "path": "projects/site/public/images/literature/birakishore-das/reading-table-480.webp",
+      "sha256": "17d45aa8e55d53600789da82ca43226530c316a4476fdf08fe25a20c5661e25f"
+    }
+  ],
+  "checks": {
+    "status": "PASS",
+    "astro_syntax_files": [
+      "projects/site/src/pages/literature/birakishore-das.astro",
+      "projects/site/src/pages/literature/index.astro",
+      "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "projects/site/src/pages/stories/odia-bibhaba-visit.astro",
+      "projects/site/src/components/CultureCards.astro"
+    ],
+    "article": {
+      "title": "Birakishore Das: Poems, Schoolbooks and the Young Reader",
+      "description": "Birakishore Das: literature, textbooks, publication.",
+      "refs": 6,
+      "notes": 4,
+      "returns": 6,
+      "unique_ids": true,
+      "all_targets_resolve": true
+    },
+    "reviewed_manuscript_exact_except_public_image_url": true,
+    "existing_CultureCards_branches_exact": true,
+    "incoming_name_only_cards": 3,
+    "original_preserved": true,
+    "route_registered_once": true,
+    "search_policy": "hold"
+  },
+  "diff_whitespace_check": "git diff --check passed",
+  "media": {
+    "original": {
+      "path": "outputs/birakishore-das-2026-11-23/media/reading-table-original.png",
+      "bytes": 3047537,
+      "sha256": "1316ffb065ef65b565415ad9ff645f5d1927a967862a53065f134334b6e7bc0a",
+      "width": 1536,
+      "height": 1024
+    },
+    "files": [
+      {
+        "path": "projects/site/public/images/literature/birakishore-das/reading-table.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 127966,
+        "sha256": "d0ec60a0b0398d1ccb66ad137b44dae4cc5d0493c3fdb244ad1cdd546ef00a4e"
+      },
+      {
+        "path": "projects/site/public/images/literature/birakishore-das/reading-table-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21594,
+        "sha256": "17d45aa8e55d53600789da82ca43226530c316a4476fdf08fe25a20c5661e25f"
+      }
+    ],
+    "total_public_media_bytes": 149560,
+    "method": {
+      "base": {
+        "width": 1200,
+        "quality": 80,
+        "effort": 6
+      },
+      "preview": {
+        "width": 480,
+        "quality": 82,
+        "effort": 5
+      },
+      "sharp": "0.35.5",
+      "libvips": "8.18.7",
+      "full_frame": true,
+      "changes": "Aspect-preserving resize and WebP compression only."
+    },
+    "responsive_delivery": "Explicit480w+1200w srcset; preview cards use480px asset. Not added to global3variant pipeline, avoiding redundant encodings.",
+    "visual_review": "Original1536\u00d71024 and both full-frame derivatives personally inspected. Books, page edges and pencil remain distinct; texture is adequate at reading-column and preview display sizes. No crop or added image content.",
+    "limits": "Local byte count only; final publication package acceptance remains required."
+  },
+  "guidance": {
+    "skill": ".agents/skills/modern-web-guidance/SKILL.md",
+    "search_command": "NPM_CONFIG_CACHE=/tmp/npm-cache npx --offline --yes modern-web-guidance@1.0.1 search \"optimize article images\" --skill-version2026_10_16-6654652b",
+    "search_status": "Successful; relevant results optimize-image-priority and html. Explicit cached version approved; no unpinned installation.",
+    "retrieve_command": "npx --offline --yes modern-web-guidance@1.0.1 retrieve \"optimize-image-priority,html\"",
+    "capture": "web-guidance.md",
+    "upstream_warning": "Newer skill snapshot2026_11_10-47b4c80e available; installed skill not changed.",
+    "applied": [
+      "Hero eager with fetchpriority high; previews lazy with ordinary priority.",
+      "Single semantich1, native navigation anchors, figure/figcaption, explicit intrinsic dimensions, full-frame480w/1200w srcset.",
+      "No new client JavaScript."
+    ]
+  },
+  "shared_component": {
+    "path": "projects/site/src/components/CultureCards.astro",
+    "change": "Optional direct image fallback after existing asset branch, before unchanged text-only card branch. No new styles.",
+    "existing_branches_exact_when_added_fallback_removed": true,
+    "existing_collection_cards_with_direct_image_field": 0,
+    "potential_callers": [
+      "projects/site/src/pages/literature/index.astro",
+      "projects/site/src/pages/literature/six-acres-and-a-third.astro",
+      "projects/site/src/pages/languages/kui.astro",
+      "projects/site/src/pages/languages/sambalpuri.astro",
+      "projects/site/src/pages/languages/desia.astro",
+      "projects/site/src/pages/languages/index.astro",
+      "projects/site/src/pages/languages/kuvi.astro",
+      "projects/site/src/pages/languages/odia.astro",
+      "projects/site/src/pages/languages/juang.astro",
+      "projects/site/src/pages/languages/ho.astro",
+      "projects/site/src/pages/languages/koya.astro",
+      "projects/site/src/pages/languages/santali.astro",
+      "projects/site/src/pages/languages/saora.astro",
+      "projects/site/src/pages/people/bhima-bhoi.astro",
+      "projects/site/src/pages/people/pratibha-ray.astro",
+      "projects/site/src/pages/people/gangadhar-meher.astro",
+      "projects/site/src/pages/people/sarala-das.astro",
+      "projects/site/src/pages/people/fakir-mohan-senapati.astro",
+      "projects/site/src/pages/people/gopinath-mohanty.astro"
+    ],
+    "new_field_used_only_by": "/literature/",
+    "regression_requirement": "Root full/coast tests and rendered literature preview; existing callers remain on previous branches."
+  },
+  "integration_requirements": [
+    "Root add /literature/birakishore-das/ to kb/reference/public-website-routes.json (sharedKB inventory outside worker scope).",
+    "No global responsive registry needed: explicit2file srcset and480preview avoid redundant variant encodings.",
+    "No compiler footnote-heading allowlist needed: existing raw renderer retains native visible heading.",
+    "Full/coast/publication build, exact package capacity, separate review, mobile/desktop and live checks remain root-owned."
+  ],
+  "limits": [
+    "No full build or browser check performed by this implementation task.",
+    "149560newmedia bytes is local artifact size, not final publication headroom certification.",
+    "Reviewed source-family budgets require separate Anvesha count; neutral preview names adopted per root."
+  ],
+  "scope_released": true,
+  "canonical_url_followup": {
+    "reason": "Coordinator made canonical image URL absolute for portable KB reading; exact body parity expectation updated accordingly.",
+    "canonical_sha256": "c969639c79634ac51a1ee0b3a231b497b73a55b617c2dac5cd777a1188da3696",
+    "helper_sha256": "53a6b083103ac1b85487ee7bbb3d19274b6f329bde1ba8b35d159c8c1a333b70",
+    "status": "PASS",
+    "public_code_changes": false
+  },
+  "followup_history": [
+    {
+      "issue": "Coastal suite reported 598 pass / 1 fail: literature card count expected12, actual13 after new Birakishore card.",
+      "file": "projects/site/tests-coast/literature-editorial.test.mjs",
+      "resolution": "Expected two supplemental author cards (existing Gourahari plus Birakishore); assert one distinct Birakishore card, title/decorative link structure,480\u00d7320 lazy illustration, credit and published destination.",
+      "focused_command": "node --test tests-coast/literature-editorial.test.mjs",
+      "status": "PASS",
+      "tests": 4,
+      "failed": 0,
+      "stdout": "\u2714 Literature source map covers three factual passages and retains seven doors and documentary image hashes (3.729208ms)\n\u2714 Literature begins with complete narrative before the seven reading doors and has exact visible note returns (3.2135ms)\n\u2714 Literature preserves image context, rights once per source, existing and newly reviewed links and unlinked future writers without a hub download (11.625292ms)\n\u2714 Literature keeps collapsed onward reading and visible update privacy with other profiles untouched (8.880417ms)\n\u2139 tests 4\n\u2139 suites 0\n\u2139 pass 4\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 80.3615\n",
+      "scope": "Test only; no page/content changes."
+    },
+    {
+      "issue": "Coordinator reviewed metadata description changed to meet coastal audit length requirement.",
+      "description": "Birakishore Das: literature, textbooks, publication.",
+      "resolution": "Updated exact expected description in both verification helpers; focused manuscript check PASS; package helper syntax checked only, not executed.",
+      "canonical_sha256": "c969639c79634ac51a1ee0b3a231b497b73a55b617c2dac5cd777a1188da3696",
+      "public_code_changes": false
+    }
+  ],
+  "package_helper": {
+    "path": "outputs/birakishore-publication-20261123/check_package.py",
+    "sha256": "74dcb6ce0103f851503d74432c5c19149f1ffc77304301943f12d696e89a6a68",
+    "status": "Python syntax checked; package assertions deliberately not run before coordinator final-package readiness."
+  }
+}

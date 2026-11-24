@@ -55,14 +55,14 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-KAPILESWAR-HATUARI-20261123",
-    "route": "/stories/kapileswar-hatuari/",
+    "id": "POD-EDIT-BIRAKISHORE-20261123",
+    "route": "/literature/birakishore-das/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/kapileswar-hatuari-publication-20261123.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "release_condition": "Scope release takes effect only after this independently reviewed evidence-only receipt actually merges following required hosted checks. Then explicit handoff to Research Antaranga Kalinga for Birakishore Das; Tensa follows that completed release and explicit return."
+    "phase": "integration",
+    "handoff": "records/birakishore-publication-20261123.json",
+    "scope_released": false,
+    "status": "candidate_reviewed",
+    "next_action": "Exact committed review, required hosted CI and measured Linux capacity; merge reviewed candidate, deploy, fresh live verification and separately reviewed receipt merge before slot return."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -790,12 +790,22 @@
       "scope_released": true,
       "status": "published_verified",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to Kapileswar Hatuari; its reviewed receipt is followed by reserved Birakishore Das publication, then Tensa after explicit returned slot."
+    },
+    {
+      "id": "POD-EDIT-KAPILESWAR-HATUARI-20261123",
+      "route": "/stories/kapileswar-hatuari/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/kapileswar-hatuari-publication-20261123.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this independently reviewed evidence-only receipt actually merges following required hosted checks. Then explicit handoff to Research Antaranga Kalinga for Birakishore Das; Tensa follows that completed release and explicit return."
     }
   ],
   "next_article_coordination": {
-    "status": "birakishore_reserved_after_actual_hatuari_receipt_merge",
-    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
-    "scope": "Scope release takes effect only after this independently reviewed evidence-only receipt actually merges following required hosted checks. Then explicit handoff to Research Antaranga Kalinga for Birakishore Das; Tensa follows that completed release and explicit return.",
-    "evidence": "records/kalinga-ghati-publication-20261123.json"
+    "status": "tensa_reserved_after_birakishore_completed_receipt",
+    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "scope": "Explicit return only after actual reviewed Birakishore publication receipt merge.",
+    "evidence": "records/birakishore-publication-20261123.json"
   }
 }

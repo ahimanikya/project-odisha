@@ -38,7 +38,7 @@ for (const match of articleHtml.matchAll(pattern)) {
 }
 parts.push({html: articleHtml.slice(offset), photo: null});
 if (parts.filter(part => part.photo).length !== 2) throw new Error('Odia Bibhaba article must render both supplied photographs.');
-const readingLinks = [{href: '/stories/odia-literature-preservation/', title: 'Odia Bibhaba and the Work of Keeping Literature Available', description: 'The archive’s history and its place alongside other Odia reading and listening resources.', image: '/assets/odia-literature-preservation/reading-table-v1.jpg'}];
+const readingLinks = [{href: '/stories/odia-literature-preservation/', title: 'Odia Bibhaba and the Work of Keeping Literature Available', description: 'The archive’s history and its place alongside other Odia reading and listening resources.', image: '/assets/odia-literature-preservation/reading-table-v1.jpg'}, {href:'/literature/birakishore-das/',title:'Birakishore Das',image:'/images/literature/birakishore-das/reading-table-480.webp',imageNote:'Illustration: Project Odisha.'}];
 ---
 <Shell title={title} description={description} shareImage={shareImage} active="explore" wide related={false}>
   <article class="article-reading odia-bibhaba-visit">

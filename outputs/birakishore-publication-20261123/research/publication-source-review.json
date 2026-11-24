@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "review_date": "2026-11-23",
+  "reviewer": "Anvesha, AI source reviewer; not human specialist review",
+  "scope": "Source continuity and publication-specific source-family budgets for canonical manuscript, new article wrapper and three incoming cards. No deployment or browser-layout claim.",
+  "handoff": "kb/records/birakishore-publication-20261123.json",
+  "canonical_dossier": "kb/research/people/birakishore-das-sources.json",
+  "prepared_evidence": "outputs/birakishore-das-2026-11-23/research/final-source-review.json",
+  "verified_files": [
+    {"path": "kb/research/people/birakishore-das-article.md", "sha256": "c969639c79634ac51a1ee0b3a231b497b73a55b617c2dac5cd777a1188da3696"},
+    {"path": "projects/site/src/pages/literature/birakishore-das.astro", "sha256": "bd61aa2148d38551777b9afd78459adb9d4ebfffe5434ad75f63835ab3d3ab7a"},
+    {"path": "projects/site/src/pages/literature/index.astro", "sha256": "95696d039db987d505e3dcd72665841cc436f961590fe68e4f5cab70bc6921d7"},
+    {"path": "projects/site/src/pages/stories/odia-literature-preservation.astro", "sha256": "c84e696e51a7a6a7037c57d22c6a369f1af8b292de9944e9061c5281723a282a"},
+    {"path": "projects/site/src/pages/stories/odia-bibhaba-visit.astro", "sha256": "a4795c6c8cf0d8b46dae8e48c7df227cf1c680324d71566eff248387ddd74610"}
+  ],
+  "continuity": {
+    "prepared_article_sha256": "f9390412c3165e920ad3b99430fe5c1be730fbb421b600519f357080e793cc1f",
+    "prepared_brief_sha256": "321f1174c9e0bbe93ef2a974b1d7a568f43036089d821fc3e7b236ad1322b3aa",
+    "body_parity": "PASS after URL-only portability update: strip canonical frontmatter and replace https://projectodisha.org/images/literature/birakishore-das/reading-table.webp with media/reading-table-original.png; result is byte-exact to prepared article. No prose, notes or source-family counts changed.",
+    "references": "Six manuscript reference markers and four source notes retained. Wrapper imports canonical raw text and delegates to existing reviewed renderer; rendered navigation verification remains implementation/quality scope.",
+    "claims": "No new historical claims. Another name retained in memoir account; no individual school-reader authorship, magazine launch year or Sishulekha attribution added.",
+    "source_links": "All four external citation URLs unchanged and match actually retrieved archive/official originals; original hashes and selected captures retained. Same-day reuse adequate. No new network availability or complete-book-reading claim.",
+    "metadata": "2026-11-24 bounded metadata correction PASS: Birakishore Das: literature, textbooks, publication. Exactly52characters and five words; meets50-character minimum while preserving existing five-word source allocation. Topic labels reflect the reviewed article without implying individual textbook authorship. Main title remains eight words; prepared narrative and notes unchanged.",
+    "incoming_cards": "Three name-only Birakishore Das labels, two words each; no historical descriptions; each retains Illustration: Project Odisha."
+  },
+  "budget_method": "Count new public article narrative and interpretation, full bibliographic notes, full article title, relevant section heading, source heading, five-word metadata description and all three incoming two-word labels. Conservatively charge the entire13-word original illustration caption to every historical source family despite it not deriving from those sources. Do not recount unchanged historical preparation brief or internal evidence notes. Original illustration alt and preview creator credits describe a new symbolic asset and do not derive from external historical sources. Template repetitions of the same metadata property do not constitute newly authored summaries.",
+  "family_counts": [
+    {"id": "birakishore-modesa-original", "body_and_note": 146, "main_title": 8, "section_heading": 5, "source_heading": 3, "metadata_description": 5, "three_incoming_labels": 6, "illustration_caption_conservative": 13, "total": 186, "ceiling": 200},
+    {"id": "birakishore-granthabali-1996", "body_and_note": 159, "main_title": 8, "section_heading": 4, "source_heading": 3, "metadata_description": 5, "three_incoming_labels": 6, "illustration_caption_conservative": 13, "total": 198, "ceiling": 200},
+    {"id": "birakishore-patnaik-akademi-1994", "body_and_note": 138, "main_title": 8, "section_heading": 5, "source_heading": 3, "metadata_description": 5, "three_incoming_labels": 6, "illustration_caption_conservative": 13, "total": 178, "ceiling": 200},
+    {"id": "birakishore-osepa-sahitya-surabhi-2026", "body_and_note": 140, "main_title": 8, "section_heading": 5, "source_heading": 3, "metadata_description": 5, "three_incoming_labels": 6, "illustration_caption_conservative": 13, "total": 180, "ceiling": 200}
+  ],
+  "quotation_check": "No poem or memoir sentence quoted; existing titles, names and bibliographic labels only. No song-lyric excerpt added.",
+  "media_and_rights": {
+    "credit": "Project Odisha; article caption and each incoming preview explicitly identify an illustration.",
+    "limits": "No portrait, authentic editions, personal possessions, archival photograph or reconstruction claimed. Source scans and portraits remain unlicensed for public reuse and excluded from article assets.",
+    "prepared_provenance": "outputs/birakishore-das-2026-11-23/media/illustration-provenance.json",
+    "delivery": "Wrapper uses full-frame1200x800 and480x320 derivatives of original symbolic image. Actual image hashes/encoding and visual review belong to Samanta/Drishti media evidence, not inferred from this source review."
+  },
+  "limits": ["Primary evidence reuse, not a new human specialist review or exhaustive bibliography.", "Original preparation files and their historical counts remain unchanged.", "Live external URL availability, deployment and mobile/desktop behavior are not asserted here."],
+  "scope_released": true
+}
