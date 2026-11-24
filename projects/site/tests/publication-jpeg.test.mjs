@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains eight explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg','assets/champu-and-sakhi/radha-confidante-met.jpg']));
+test('JPEG delivery scope remains nine explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg','assets/champu-and-sakhi/radha-confidante-met.jpg','images/destinations/taptapani-worship.jpg']));
 test('delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -149,5 +149,31 @@ test('Radha delivery preserves the source and complete museum credit with guarde
   assert.ok((await readFile(assetPath)).equals(source));assert.equal(await readFile(pagePath,'utf8'),invalidHTML);
  }
  assert.ok((await readFile(sourceURL)).equals(source));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+test('Taptapani delivery preserves source and licence while bounding full-frame geometry and caption changes',async()=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-taptapani-jpeg-'));
+ try{
+  const asset='images/destinations/taptapani-worship.jpg',page='destinations/taptapani/index.html';
+  const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
+  const credit='<a href="https://commons.wikimedia.org/wiki/File:Brahmana_performing_puja_Taptapani_Orissa.JPG">Ilya Mauter</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.';
+  const phrase='Original photograph; full frame in the article. Responsive copies are resized; previews may be cropped.';
+  const replacement='Full-frame photograph, resized and compressed for web delivery. Responsive copies are resized; previews may be cropped.';
+  const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="2304"><meta property="og:image:height" content="1728"><figure><img src="/'+asset+'" width="2304" height="1728"><figcaption>'+credit+' '+phrase+'</figcaption></figure>';
+  const assetPath=path.join(dir,asset),pagePath=path.join(dir,page);
+  await mkdir(path.dirname(assetPath),{recursive:true});await mkdir(path.dirname(pagePath),{recursive:true});
+  await writeFile(assetPath,source);await writeFile(pagePath,html);
+  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+  assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>600000);
+  const before=await sharp(source).metadata(),after=await sharp(await readFile(assetPath)).metadata();
+  assert.deepEqual([after.width,after.height],[1600,1200]);assert.equal(after.orientation??1,before.orientation??1);
+  for(const key of ['icc','iptc','xmp'])assert.deepEqual(after[key],before[key]);
+  assert.equal(after.density,before.density);
+  assert.equal(await readFile(pagePath,'utf8'),html.replace(phrase,replacement).replace('property="og:image:width" content="2304"','property="og:image:width" content="1600"').replace('property="og:image:height" content="1728"','property="og:image:height" content="1200"'));
+  for(const invalid of [html.replace('Orissa.JPG','Other.JPG'),html+'<p>'+phrase+'</p>',html.replace('property="og:image:width" content="2304"','property="og:image:width" content="1"')]){
+   await writeFile(assetPath,source);await writeFile(pagePath,invalid);await assert.rejects(optimizePublicationJPEGs(pathToFileURL(dir+'/')));assert.ok((await readFile(assetPath)).equals(source));assert.equal(await readFile(pagePath,'utf8'),invalid);
+  }
+  assert.ok((await readFile(sourceURL)).equals(source));
  }finally{await rm(dir,{recursive:true,force:true});}
 });

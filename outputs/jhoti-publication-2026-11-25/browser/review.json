@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "stage": "Final local article, three incoming routes and Taptapani delivery layout",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "observations": [
+    "Article title, byline, full-frame photograph and caption legible without horizontal overflow at both widths.",
+    "Photograph source 2 clicked at both widths; resulting note visible; Enter on Back to reference 2 returned to matching citation with focus.",
+    "All three incoming Jhoti Chita card links actually clicked and reached /stories/jhoti-chita/.",
+    "Manabasa, Osha and craft incoming photographs remain full frame at mobile and desktop; credit notes resolve.",
+    "Initial Osha mobile capture after viewport resize/reload retained old scroll position. Preserved as osha-mobile-initial-framing.jpg; separate navigation to visible heading anchor produced meaningful osha-mobile-card.jpg.",
+    "First immediate smooth-scroll screenshot after source click showed intermediate content. Final note was checked in a subsequent settled observation; no success claimed from intermediate frame.",
+    "Final four article/preview HTML files exactly match pre-compression screenshoted versions; final-page-hash-check.json records equality.",
+    "Taptapani final full-frame image and accurate resizing/compression caption with Ilya Mauter/CC BY 3.0 credit inspected at both widths.",
+    "Temporary viewport override reset after local checks."
+  ],
+  "limits": [
+    "One browser engine, two explicit viewport sizes; not every physical device.",
+    "Desktop top and mobile top show only upper part of photograph due viewport framing; separate photo captures show complete frame.",
+    "One initial Osha mobile frame missed the preview due retained scroll position; preserved and excluded from accepted count."
+  ],
+  "screenshots": [
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/craft-desktop-card.jpg",
+      "sha256": "e5e80ad165f92af5927e66b481f3212ff033995d69efba7d62bd61085e3bdb5e",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/craft-mobile-card.jpg",
+      "sha256": "d0d28af519dbd3926bd309cf1941fa7f7ea44540953bcb1b1aa3f52712ebb598",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/desktop-notes.jpg",
+      "sha256": "1f427c855f401f3f50dfaed3919913a241d30f5c660ff6234df19f2e23f1370f",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/desktop-photo.jpg",
+      "sha256": "ce9704cf647d62234f22d32e7f8b072911e4f2b7dc708eab150ef19f6f180172",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/desktop-top.jpg",
+      "sha256": "b08ea38ef8d46c0e73e00303ccdbd7209401b18f6814845a1f71f3ff33347f79",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/manabasa-desktop-card.jpg",
+      "sha256": "68bfcf299ab3097e740d196ad59f3a438f90a4163579abb9411e4c47ae1d98fb",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/manabasa-mobile-card.jpg",
+      "sha256": "01b12d0458fb1b14cdf079dc065220869ca42d21e0f7d7f5a2e2478a7ce5ed79",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/mobile-credit.jpg",
+      "sha256": "e2ce4364c42af789d697488bb9f8746193832979c7bba81251f71ee7ba46b8bb",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/mobile-photo.jpg",
+      "sha256": "bf6fc47c70a38d93810250371bb2dcac2741d61eeef8924db4a74acc0996d7e6",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/mobile-top.jpg",
+      "sha256": "10bc48656eb1899e148bdc1a2aa4fc5bf5bf4f72c87eb7b2f17461118d635c25",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/osha-desktop-card.jpg",
+      "sha256": "e915a7fcd0bf877b066a7a9411dfe4547814535d521f75c67ef7914bb3cb8fcb",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/osha-mobile-card.jpg",
+      "sha256": "4e0f4f3a4ca52d78d23d2d23817e8806bbb75a797b1049a8617a149a9059f0c5",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/osha-mobile-initial-framing.jpg",
+      "sha256": "992e17e045eece5673d69ce30dc9e0331da75b0d8e7c66c7f3012fb2b9abae21",
+      "accepted": false
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/taptapani-desktop.jpg",
+      "sha256": "12335d46a08eb0cf0488f77573d7231ce5ab7ecc2c5a8bc833e3f2941b53efdf",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/taptapani-mobile.jpg",
+      "sha256": "e95ece6ce221f3a0f687d4226c145838c528bf25b0a80e04d4633ae7239c53f9",
+      "accepted": true
+    }
+  ],
+  "final_page_hash_check": "outputs/jhoti-publication-2026-11-25/browser/final-page-hash-check.json"
+}
