@@ -1,0 +1,124 @@
+{
+  "status": "reviewed_publication_candidate",
+  "article_id": "POD-EDIT-TENSA-20261124",
+  "route": "/destinations/tensa/",
+  "owner": "Disha",
+  "started_on": "2026-11-24",
+  "authorization": "POD-DEC-2026112491",
+  "authorization_quote": "Once the Birakishore Das release is complete and the slot returns, continue with Tensa—research, review and publish it with a high-quality credited image in the article and preview.",
+  "work_id": "POD-WORK-2026112491",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "38b6216d331d04235c90977553ded55bcdde8d74",
+  "preceding_release": {
+    "article": "Birakishore Das",
+    "receipt_pr": 850,
+    "receipt_merge": "38b6216d331d04235c90977553ded55bcdde8d74",
+    "required_check": 45353341997,
+    "conclusion": "success",
+    "explicit_handoff_received": true
+  },
+  "assignments": {
+    "Disha": "Coordinator, media, records and publishing",
+    "Anvesha": "Bounded research and source review",
+    "Samanta": "Bounded implementation",
+    "Drishti": "Separate quality and delivery review"
+  },
+  "reuse_before_research": {
+    "query": "query_research.py Tensa",
+    "result": "No dedicated Tensa narrative found by mapped query and scoped corpus search; reused destination planning method and district/visitor research pointers. Not exhaustive semantic deduplication.",
+    "pointers": [
+      "research/methods/trip-planning-content.md",
+      "research/references/data/research-queue.json:RES-013",
+      "research/references/data/research-queue.json:RES-023"
+    ]
+  },
+  "capacity": {
+    "prior_linux_payload_bytes": 998950813,
+    "prior_remaining_bytes": 1049187,
+    "candidate_image_payload_bytes": 490958,
+    "candidate_image_payload_note": "Unchanged292662-byte source plus three generated WebP variants total490958bytes. Actual assembled and Linux payload still required.",
+    "local_payload": {
+      "bytes": 998680963,
+      "files": 3660,
+      "remaining_bytes": 1319037
+    },
+    "intervention": "No new optimizer or unrelated image changes. Original JPEG plus responsive variants fit measuredlocal package; actual Linux limit remainsrequired."
+  },
+  "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, Kaincha preparation and prior release evidence.",
+  "next_action": "Review exact committed candidate, pass required hosted CI and actual Linux capacity, then merge and deploy under standing authorization.",
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/tensa-publication-2026-11-24/research/"
+    ],
+    "Samanta": [
+      "kb/research/places/tensa-article.md",
+      "projects/site/src/pages/destinations/tensa.astro",
+      "projects/site/src/data/hill-destinations.ts",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "outputs/tensa-publication-2026-11-24/review/implementation.md"
+    ],
+    "Drishti": [
+      "outputs/tensa-publication-2026-11-24/review/"
+    ],
+    "Disha": [
+      "shared canonical records",
+      "media",
+      "edition inclusion",
+      "verification and publication evidence"
+    ]
+  },
+  "preserved_preparation": "outputs/tensa-publication-2026-11-24/preserved-preparation.json",
+  "media_review": "outputs/tensa-publication-2026-11-24/review/media-source-review.md",
+  "web_guidance": {
+    "basis": "Previously retrieved actual HTML/responsive/card guidance at /private/tmp/deomali-web-guidance.md, read for same existing patterns; no fresh retrieval claimed.",
+    "limitation": "Prior unpinned npx CLI automatic-review rejection not retried. No new browser features introduced."
+  },
+  "research_handoff": "outputs/tensa-publication-2026-11-24/research/findings.md",
+  "root_current_listing_verification": {
+    "url": "https://www.ecotourodisha.com/destination/tensa",
+    "method": "Actual browser rendered DOM and screenshot; no booking or outreach",
+    "capture": "outputs/tensa-publication-2026-11-24/research/ecotour-rendered-root.txt",
+    "scope": "Current destination description, camp listing and visitor notes; no guarantee of subsequent availability."
+  },
+  "research_review_pending": false,
+  "source_review": "outputs/tensa-publication-2026-11-24/research/integrated-source-review.md",
+  "remote_reconciliation": {
+    "main": "38b6216d331d04235c90977553ded55bcdde8d74",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlap_found": false
+  },
+  "quality_review": "outputs/tensa-publication-2026-11-24/review/drishti-review.md",
+  "local_browser_review": "outputs/tensa-publication-2026-11-24/browser/local-browser-review.json",
+  "local_validation": {
+    "full_tests_passed": 827,
+    "coastal_tests_passed": 599,
+    "page_acceptance_checks_passed": 5460,
+    "stage_evidence": "outputs/tensa-publication-2026-11-24/build-results.json",
+    "publication_package": "passed",
+    "artifact_verification": "outputs/tensa-publication-2026-11-24/local-verification.json",
+    "payload_check": "outputs/tensa-publication-2026-11-24/payload-check.json",
+    "all_stage_results": "outputs/tensa-publication-2026-11-24/build-results.json"
+  },
+  "final_package_review": "outputs/tensa-publication-2026-11-24/review/final-package-review.json",
+  "preserved_raw_log_whitespace": {
+    "reason": "Unchanged raw Astro console output retains trailing spaces; staged whitespace check finds only these exact two paths. Non-log diff checked without exceptions.",
+    "files": [
+      {
+        "path": "outputs/tensa-publication-2026-11-24/checks/coast-build.log",
+        "sha256": "83102efffdcded66ad7760d903ffea575dbaca04711ce2dc068265a7b49d1fcc"
+      },
+      {
+        "path": "outputs/tensa-publication-2026-11-24/checks/full-build.log",
+        "sha256": "9dc16d64921e98dd0f52477e0003b7549949f0e8cea7f3148137f9950d9bdbad"
+      }
+    ]
+  }
+}
