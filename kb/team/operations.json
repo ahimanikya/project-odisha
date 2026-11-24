@@ -55,15 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-TENSA-20261124",
-    "route": "/destinations/tensa/",
+    "id": "POD-EDIT-SAPTASAJYA-20261124",
+    "route": "/destinations/saptasajya/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/tensa-publication-20261124.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "next_action": "Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot.",
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. No next article is claimed by this receipt."
+    "phase": "final_local_review",
+    "handoff": "records/saptasajya-publication-20261124.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -541,10 +538,10 @@
   "draft_preparation": {
     "owner": "Disha",
     "status": "prepared_reviewed",
-    "handoff": "records/antaranga-after-belghar-preparation-20261123.json",
+    "handoff": "records/antaranga-after-tensa-preparation-20261124.json",
     "scope_released": true,
     "scope": "One independently researched original article preparation with credited image; no website integration or publication.",
-    "article_id": "POD-EDIT-KAINCHA-20261123"
+    "article_id": "POD-EDIT-JHOTI-20261124"
   },
   "draft_preparation_history": [
     {
@@ -617,6 +614,14 @@
       "scope_released": true,
       "scope": "One independently researched article preparation with credited image; no publication or website integration.",
       "article_id": "POD-EDIT-SOLA-20261123"
+    },
+    {
+      "owner": "Disha",
+      "status": "prepared_reviewed",
+      "handoff": "records/antaranga-after-belghar-preparation-20261123.json",
+      "scope_released": true,
+      "scope": "One independently researched original article preparation with credited image; no website integration or publication.",
+      "article_id": "POD-EDIT-KAINCHA-20261123"
     }
   ],
   "article_pointer_history": [
@@ -812,12 +817,23 @@
       "status": "published_verified",
       "next_action": "Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa.",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit Tensa handoff to the hill-series chat follows observed merge; no next article is claimed here."
+    },
+    {
+      "id": "POD-EDIT-TENSA-20261124",
+      "route": "/destinations/tensa/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/tensa-publication-20261124.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "next_action": "Complete separate integrated and exact-commit receipt review, required checks and actual receipt merge; then report completed Tensa delivery and release the slot.",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. No next article is claimed by this receipt."
     }
   ],
   "next_article_coordination": {
-    "status": "tensa_receipt_pending_merge",
-    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
-    "evidence": "records/tensa-publication-20261124.json",
-    "next_article_claimed": false
+    "status": "jhoti_publication_reserved_after_saptasajya_receipt",
+    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "evidence": "records/saptasajya-publication-20261124.json",
+    "scope": "Jhoti publication under Founder direct instruction reported by coordinating chat; explicit handoff only after actual reviewed Saptasajya receipt merge."
   }
 }

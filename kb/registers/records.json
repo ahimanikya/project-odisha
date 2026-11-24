@@ -10681,6 +10681,44 @@
       "evidence": [
         "records/tensa-publication-20261124.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261124201",
+      "title": "Prepare original Jhoti Chita article with credited image",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with separate Anvesha, Samanta and Drishti assignments",
+      "authorization": "POD-DEC-20261124201",
+      "next_action": "Deliver reviewed Jhoti draft, credited photograph and publication brief; return the preparation slot to the hill-series chat for its next uncovered destination. No public integration authorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261124201",
+        "POD-REV-20261124201"
+      ],
+      "evidence": [
+        "records/antaranga-after-tensa-preparation-20261124.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112495",
+      "title": "Research, review and publish Saptasajya",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112495",
+      "next_action": "Exact-commit review, required hosted checks, authorized publication and fresh live verification.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112495",
+        "POD-REV-2026112495"
+      ],
+      "evidence": [
+        "records/saptasajya-publication-20261124.json"
+      ]
     }
   ],
   "decisions": [
@@ -16177,6 +16215,38 @@
       "evidence": [
         "records/tensa-publication-20261124.json"
       ]
+    },
+    {
+      "id": "POD-DEC-20261124201",
+      "title": "Prepare next original Antaranga-led article after Tensa",
+      "status": "recorded_direction",
+      "refs": [],
+      "evidence": [
+        "records/antaranga-after-tensa-preparation-20261124.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Now that Tensa’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+      "scope": "One independently researched original article preparation with credited image; no website integration or publication."
+    },
+    {
+      "id": "POD-DEC-2026112495",
+      "title": "Next uncovered hill destination publication",
+      "status": "recorded_direction",
+      "refs": [
+        "POD-WORK-2026112495"
+      ],
+      "evidence": [
+        "records/saptasajya-publication-20261124.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Continue with the next uncovered hill destination—research, review and publish it with a high-quality credited image in the article and preview, one article at a time.",
+      "scope": "One independently researched, separately reviewed and published uncovered hill destination with credited image."
     }
   ],
   "requirements": [
@@ -25859,6 +25929,52 @@
         "No fieldwork or human specialist review.",
         "Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.",
         "Bounded live checks and separate AI review; no fieldwork or human specialist review. Conditional scope release only after reviewed receipt merge."
+      ]
+    },
+    {
+      "id": "POD-REV-20261124201",
+      "title": "Independent Jhoti Chita preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-20261124201",
+        "POD-DEC-20261124201"
+      ],
+      "evidence": [
+        "records/antaranga-after-tensa-preparation-20261124.json"
+      ],
+      "summary": "Separate source, originality, photograph and draft review passed. No human specialist approval, website integration or publication.",
+      "independent": true,
+      "limitations": [
+        "Separate AI review, not human specialist approval or fieldwork.",
+        "Acquired official Commons preview preserved; original camera file was not acquired.",
+        "Preparation only; no website rendering, integration, deployment or live checks."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112495",
+      "title": "Saptasajya separate source, media, code, rendered and package review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112495",
+        "POD-DEC-2026112495"
+      ],
+      "evidence": [
+        "records/saptasajya-publication-20261124.json"
+      ],
+      "summary": "Separate source/media/code, desktop/mobile and final local package review passed. Exact frozen manuscript and 38 protected preparation files preserved. Hosted checks and publication/live verification remain.",
+      "independent": true,
+      "limitations": [
+        "No fieldwork or human specialist review.",
+        "Photograph identity and north-view date are creator supplied; no independent geolocation.",
+        "Local review does not establish hosted Linux capacity or live delivery."
       ]
     }
   ],

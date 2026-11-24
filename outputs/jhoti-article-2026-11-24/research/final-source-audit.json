@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "date": "2026-11-24",
+  "reviewer": "Anvesha; AI source reviewer, not human specialist review",
+  "scope": "Prepared manuscript, matching reading copy, photo/source note and publication brief. No integration, publication or browser review.",
+  "supersedes_draft_findings": "draft-source-audit.json remains an accurate earlier review; all requested source/budget corrections resolved in this final candidate.",
+  "verified_files": [
+    {"path": "kb/research/culture/jhoti-chita.md", "sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"},
+    {"path": "outputs/jhoti-article-2026-11-24/article.md", "sha256": "18085df5380cca572ee7240342752033beb26b4552e71c996bf487447b251946"},
+    {"path": "outputs/jhoti-article-2026-11-24/publication-brief.md", "sha256": "1cd179b53dbc6d68094d952abd78733cdb82d195260f8fca623ffa40c33e7208"}
+  ],
+  "reading_copy_parity": "PASS: removing canonical frontmatter, adding its title and Founder byline, and changing only the image path to the portable media path yields exact reading copy. Identical prose counted once.",
+  "count_method": "Whitespace-delimited visible words after stripping Markdown markers, reference syntax and link destinations. Include full10-word title, full20-word description,3-word source heading and4-word brief title conservatively in each family. Include each family's relevant body, interpretation, source note and section heading. Commons includes all photo alt/caption/credit and the entire66-word photograph paragraph plus its one-word heading in the brief. Other brief instructions and novelty/procedure statements add no external source-derived factual summary. Earlier unchanged festival articles and private evidence notes are separate historical records, not new draft text.",
+  "source_family_counts": [
+    {"id": "jhoti-odisha-government-overview", "body_paragraphs": [56,30,41], "note": 26, "title": 10, "description": 20, "section_heading": 4, "source_heading": 3, "brief_title": 4, "total": 194, "ceiling": 200},
+    {"id": "osha-jhoti-biswal-dash2020", "body_paragraphs": [54,49], "note": 33, "title": 10, "description": 20, "section_heading": 6, "source_heading": 3, "brief_title": 4, "total": 179, "ceiling": 200},
+    {"id": "jhoti-singha-raghurajpur-2023", "body_paragraphs": [33,38], "note": 33, "title": 10, "description": 20, "section_heading": 4, "source_heading": 3, "brief_title": 4, "total": 145, "ceiling": 200},
+    {"id": "jhoti-commons-prateek-pattanaik-2016", "alt": 12, "caption": 9, "note": 27, "title": 10, "description": 20, "source_heading": 3, "brief_title": 4, "brief_photo_heading": 1, "brief_photo_paragraph": 66, "total": 152, "ceiling": 200}
+  ],
+  "claim_review": [
+    "Government material/surfaces claims and Margasira association supported. Muruja note now includes paragraphs1–2, accurately locating finger-release description.",
+    "2020journal technique details match personally inspected printed117/PDF118. Author interpretation of sequence clearly follows the described tool; no demonstration or new fieldwork invented.",
+    "December2023 Raghurajpur event and RukminiMohapatra account remain attributed to MinatiSingha's reporting. Collective family-learning description no longer becomes a claim about precisely which of her relatives taught her.",
+    "Brief correctly distinguishes participant's reported account from reporter's own testimony.",
+    "Old BaliTrutiya maritime interpretation remains excluded. No broad origins, universal religious/caste rules, decline, nutrition or sanitation claim introduced."
+  ],
+  "originality": "PASS: original material/handwork/surface/learning structure. No Antaranga wedding narrative, motif catalogue, poem, translated passage, distinctive anecdote or imagery adopted. Independent source IDs and locators preserved.",
+  "quotation_review": "No source-prose quotation or poem excerpt. Bibliographic titles/names and material labels retained; no extended borrowed wording.",
+  "photo_review": {
+    "source_family": "jhoti-commons-prateek-pattanaik-2016",
+    "provenance": "kb/research/culture/jhoti-image.json",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gurubara_Jhoti.jpg",
+    "source_revision": 1115356039,
+    "actual_review": "Read saved API metadata and media dossier; personally viewed acquired1920x1440 official Commons preview. White branching outlines/dots and brown surface support alt. Rice-paste medium, LakshmiPuja occasion and24November2016date come from source metadata, not appearance alone.",
+    "attribution": "Prateek Pattanaik credited as photographer, Commons source and CC BY-SA4.0 linked, resizing/compression from official preview declared. Drawn motif's maker not separately identified.",
+    "limits": "Original camera file not acquired; official preview preserved. No location asserted from category, no named artist, no inference about the actual tool used in this photographed design. No AK/journal/TOI image reused.",
+    "rights": "Source CC BY-SA4.0 supports attributed sharing/adaptation under same licence. Samanta owns delivery-image byte/visual verification; this audit does not invent original-file acquisition."
+  },
+  "publication_limit": "Preparation-only authorization retained. Future integration needs a fresh count of new preview/meta text, rights/alteration continuity, layout and actual delivery checks.",
+  "scope_released": true
+}

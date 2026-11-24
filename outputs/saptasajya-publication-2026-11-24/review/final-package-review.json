@@ -1,0 +1,207 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI quality review",
+  "date": "2026-11-24",
+  "scope": "Final local package and integrated candidate records only; hosted Linux, publication and live delivery remain pending.",
+  "base": "7d26d22bf03d1a5bf308c9a936aca2c5c4795e3e",
+  "blockers": [],
+  "actual_verification": {
+    "method": "Imported reviewed verify-local.py and called main() read-only, without its __main__ writer; additionally counted actual files/stat values, scanned public outputs for protected materials, rehashed protected/base/static files and independently decoded emitted images. No builds or browser operations.",
+    "checks": 10711,
+    "result": "PASS",
+    "reviewer_environment_correction": "First invocation selected obsolete /usr/local/bin/node and failed at --input-type=module. Unchanged helper rerun with installed Node25 PATH used by root passed. Root report was not overwritten; no source or output change.",
+    "raw_root_initial_failure": "local-verification-before-final-audit.json records rejection of incomplete stages while final search-shortlist audit was still running. verification-sequence.json truthfully preserves unchanged retry after all stages completed."
+  },
+  "build_evidence": {
+    "stages": 13,
+    "all_exit_codes": 0,
+    "all_manuscript_hashes_match": true,
+    "full_tests_passed": 827,
+    "coast_tests_passed": 599,
+    "page_acceptance_passed": 5464,
+    "disclosures": {
+      "dist": {
+        "pages": 1508,
+        "violations": 0
+      },
+      "dist-coast": {
+        "pages": 1493,
+        "violations": 0
+      },
+      "dist-publish": {
+        "pages": 1494,
+        "violations": 0
+      }
+    },
+    "search": "Discovery, launch readiness and 11-page shortlist audits passed; new article remains on search hold. Existing search authority not expanded.",
+    "attribution": "Read actual completed logs and stage record; did not independently rebuild or rerun full suites."
+  },
+  "payload": {
+    "actual_local_bytes": 999122548,
+    "regular_files": 3665,
+    "exclusive_limit_bytes": 1000000000,
+    "remaining_bytes": 877452,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "new_image_family_bytes": 416482,
+    "limitation": "Local artifact measurement only; prior Linux/macOS difference is not a prediction or proof of current hosted payload."
+  },
+  "article_continuity": {
+    "manuscript_sha256": "c3e46b85973db3ab035b35ae5ca3eb6f812d2da293d77ceee5432f5ff1b3a935",
+    "identical_fragment_all_three_editions": "8b53f7e88ccb83cf9be3682f3ecedb2339ed373b1033701da98ecc28bf19f355",
+    "same_as_independently_reviewed_rendering": true,
+    "references": 4,
+    "notes": 2,
+    "distinct_returns": 4,
+    "native_targets_resolve": true,
+    "hero_sharing_and_three_incoming_previews": "Reviewed image, alt and credits preserved in actual artifacts. Full frame in article; disclosed preview crops. Article reading paths resolve.",
+    "static_manifest": "All source/media/edition/helper/contract hashes in earlier independent review remain unchanged."
+  },
+  "media": {
+    "original_sha256": "d13171f767a476cddcb0f17de208821b1575ccbf901f323fec7a8b2a24ddc478",
+    "files": [
+      {
+        "path": "images/destinations/saptasajya-hills-devopam.webp",
+        "sha256": "7ec87dc4bc579349d3264c7891b6f17356016c588a131147d720766442e75fa1",
+        "bytes": 162900,
+        "decoded_dimensions": [
+          1280,
+          960
+        ]
+      },
+      {
+        "path": "images/responsive/3867fe434648ddd8-480.webp",
+        "sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+        "bytes": 24408,
+        "decoded_dimensions": [
+          480,
+          360
+        ]
+      },
+      {
+        "path": "images/responsive/997e9b043ab6ecb9-960.webp",
+        "sha256": "997e9b043ab6ecb94d0028c13489b629ef039364722a7cebafa6584a6370c884",
+        "bytes": 80774,
+        "decoded_dimensions": [
+          960,
+          720
+        ]
+      },
+      {
+        "path": "images/responsive/20c0599057420cff-1280.webp",
+        "sha256": "20c0599057420cff59dae3b53d0fb7e92d997dbc10321f229ff435db0bc49441",
+        "bytes": 148400,
+        "decoded_dimensions": [
+          1280,
+          960
+        ]
+      }
+    ],
+    "rights": "Devopam / Commons / CC BY-SA 4.0 retained; historical 2015 caption and source-based north view, no independent geolocation/current-condition claim.",
+    "visual_evidence": "Prior independent original/public photo review plus all12 saved local browser captures, bound in rendered-review.json. Package article fragment and media continuity support reuse of those observed views; no new browser interaction claimed."
+  },
+  "protected_scope": {
+    "files": 38,
+    "result": "All Jhoti and Kaincha manifest files byte-identical to reviewed input base and recorded hashes. Foreign current_task/handoff_home equal base; activity history exact prefix; prior three receipts unchanged.",
+    "public_exclusion": "Both dist-coast and dist-publish exclude exact protected draft filenames/opening prose and exact protected file hashes. Independently scanned 1596 and1598 text-like files respectively plus all output paths and same-size file candidates.",
+    "broad_search_hits": "A broader jhoti-chita substring scan found only the pre-existing official https://odisha.gov.in/en/odisha-tourism/jhoti-chita-muruja source URL in the culture-book homes chapter and Bhubaneswar fresco article. Their three source data/editorial files are byte-identical to base; these are existing citations, not new draft export.",
+    "full_edition_limit": "Full dist is an internal edition; draft exclusion acceptance applies to dedicated coast/publication artifacts."
+  },
+  "integrated_records": {
+    "status": "final_local_review",
+    "scope_released": false,
+    "programme_credit": 0,
+    "article_phase": "final_local_review",
+    "assessment": "Accurate local candidate state; work/rollout still in progress. Actual source/static/rendered reviews and local stages linked without hosted/deployment claim. Conditional next Jhoti slot is explicitly after reviewed Saptasajya receipt merge; its external authority remains reported, not independently created here.",
+    "capacity_wording": "Clarified as local package measured/passed, hosted Linux pending.",
+    "event": "Actual local-check event POD-EVT-2026112496 appended, with original history preserved.",
+    "initial_record_findings": "Missing actor/rollout and unsupported in_review readiness corrections retained in initial-record-correction.json/readiness-correction.json; no human review or publication inferred.",
+    "whitespace": "Raw build-log whitespace retained in two exact-hash new Astro logs. Whole branch versus main additionally contains inherited original Jhoti Commons HTML. staged-whitespace.json records scoped exceptions; no unrestricted clean-diff claim."
+  },
+  "pending": [
+    "Root adds actual final review pointer/readiness and regenerated views as needed",
+    "Separate exact committed candidate continuity review",
+    "Required hosted CI including actual Linux payload",
+    "Actual merge, deployment and fresh live content/media/browser review",
+    "Reviewed evidence-only receipt and actual receipt merge before slot release"
+  ],
+  "reviewed_manifest": {
+    "kb/catalog.json": "a01b1049d2ac617ac928ceb26b0356cb111b27a5a9c9406b171a153b3e3ba9c9",
+    "kb/media/saptasajya/saptasajya-hills-devopam-original.jpg": "d13171f767a476cddcb0f17de208821b1575ccbf901f323fec7a8b2a24ddc478",
+    "kb/records/article-editorial-rollout.json": "1bf49e0c822aab79f5f6e92a2c2d1827397b46571e4725432170182d9b759553",
+    "kb/records/article-editorial-work-list.md": "bac2029e3378e7ab917e084bc16227fdb8fb1b30a2cbb361af47f8919240ee37",
+    "kb/records/destination-series-20261122.json": "3c05e44dfb5f6a641f98bb21ca29e3a123f50f9ccd237403e484605da5b7a1b9",
+    "kb/records/editorial-workbench.json": "0391ff4a5bdede158651678a0869873e2e16630774fd3900a2929c5101385a70",
+    "kb/records/saptasajya-publication-20261124.json": "8225f56e945054e957ff8ecd769131a4d29aff3466db0e46adaa74160f4f210a",
+    "kb/reference/public-website-routes.json": "0e2b573db10f7cb73d61c9fedcd07b72fa2e65cfe4e2ed9100657139d265693f",
+    "kb/registers/DASHBOARD.md": "5190f25f17e12989c10e6a37c0ab69d584df95b56ca35caab4993775a4e1442f",
+    "kb/registers/activity.jsonl": "756e499a68958c34c49e6a958bb74272f008336db3815a02c4997f9eb3ef6018",
+    "kb/registers/records.json": "9e133688c4629879cbbcc850f4a199230b9120477cdbc79f70b6c9c6e2532363",
+    "kb/research/destinations/saptasajya-image.json": "1f3a76150627c390b6d61b0a712913438ff993371fd1299733be9048e87197f7",
+    "kb/research/places/saptasajya-article.md": "c3e46b85973db3ab035b35ae5ca3eb6f812d2da293d77ceee5432f5ff1b3a935",
+    "kb/research/references/data/research-map.json": "6a9364549f3da67dcb425fde93701a80951e1078ac238d1b7cd21423c1db6692",
+    "kb/research/search-index.json": "feba2a623df4aea14acd50f206ae1327cb17d991fe2bd883cd46e7c06fac5272",
+    "kb/team/operations.json": "d7c73cd7a480ac9b3118333069cb0ebeef5bd7d4fb7eeab4100e949f8ca443a1",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-browser-review.json": "58d42eebea6f9f49c6ae951a590d0c54f6853edeca92edb9123e3f4c26fea8d9",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-desktop-body-return.jpg": "077b590095521324e1c8937b06640c4c191aaf943c91ebdfad1a95571dce4b3f",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-desktop-destinations-preview.jpg": "20aa6e759cb9373617b01ec7d558e111a48e35bba4063f1c9f36fd994e0e5648",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-desktop-explore-preview.jpg": "723116ec37d967c14b9beca03a7a16b8b7a283667460cf310b531fc935d38837",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-desktop-notes.jpg": "575cd5d9f1c520883c028c22f2aa9d61aad9f4ece38a52a99e7ed049ae1a63c6",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-desktop-photo-credit.jpg": "a342ce286816f8d28fadf26ecaef0b6b76bba2b3ee8f6e0b7c257a33ca5e0b2d",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-desktop-top.jpg": "0a739393e84617edff3c9017eb437ac4dbee09eecfefa186d1bbc55a354039d2",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-mobile-all-notes.jpg": "56d0e02e87158821c6620ae0abd58df1461348bc6d02e4ebc7cfc4409c26e541",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-mobile-body.jpg": "4497c7185ae637d7dbe5838093aa9bb6f38560b466c948b7e4e0a85c562ef92c",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-mobile-forest.jpg": "3e6cd528cc58c8a5a47dfb57b953e5d9d92bc3df3e34a783a612451408b3a54c",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-mobile-hills-preview.jpg": "b4c8bd4876f3a36dada87b5aab4ea774d86f5c33ad778b693c8cce31a090d113",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-mobile-notes.jpg": "c5d6bd29b65fa4d4bdce50f8abdc330ce9fdc968e05d4d8e72464bb5826d49c8",
+    "outputs/saptasajya-publication-2026-11-24/browser/local-mobile-top.jpg": "dad7bb4e05b2cb709282318ffe7c14336ea6ee9f2cbcfa04dae26de1f2fa04fa",
+    "outputs/saptasajya-publication-2026-11-24/build-results.json": "6feb77b0a8e8ee45042f8848cb57f9cc9b83e52369ba80ef9fb0f6c2c09447dd",
+    "outputs/saptasajya-publication-2026-11-24/checks/coast-acceptance.log": "b3af13ef250e79a39f876e9ecee9f9a03eda85d4360fa53d9026c0a55f462dbf",
+    "outputs/saptasajya-publication-2026-11-24/checks/coast-build.log": "cc0c38bbe4bf05f7d55b63753423f242589315e65fd0146d6bae14a4c2188ec2",
+    "outputs/saptasajya-publication-2026-11-24/checks/coast-disclosures.log": "780dafdb0c48f8241ecfe17bda6db7f2a2b914fe165c2d4ae6977ecaa1a90976",
+    "outputs/saptasajya-publication-2026-11-24/checks/coast-discovery.log": "9236d3f3e9f43c4f39642b5739ee18a64afc7bc3b4e3ba53f18c76e6a48cee1e",
+    "outputs/saptasajya-publication-2026-11-24/checks/coast-tests.log": "a9c7124874931326366508e16c566f698deaf2c81d77112b6b954b64ae0d9924",
+    "outputs/saptasajya-publication-2026-11-24/checks/full-build.log": "afbd0903a366007cee011b5e783121135606c4be9732dcc134fc366f24bcfe18",
+    "outputs/saptasajya-publication-2026-11-24/checks/full-disclosures.log": "a0e39b5814a1b24b83a9700035888d367e7a6e1f987fe4834f6007879ff93eae",
+    "outputs/saptasajya-publication-2026-11-24/checks/full-tests.log": "3316fe438721c501b0699ce7b2dbe3aa147666dd594230c5cd11e20259d31bfe",
+    "outputs/saptasajya-publication-2026-11-24/checks/launch-readiness.log": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb",
+    "outputs/saptasajya-publication-2026-11-24/checks/publication-build.log": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c",
+    "outputs/saptasajya-publication-2026-11-24/checks/publication-disclosures.log": "cccef72c45376eb82ab18adc59163b1318a54dd423413308021ff2e840db2057",
+    "outputs/saptasajya-publication-2026-11-24/checks/search-review.log": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf",
+    "outputs/saptasajya-publication-2026-11-24/checks/search-shortlist.log": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed",
+    "outputs/saptasajya-publication-2026-11-24/compare-live-images.mjs": "beae99ab478200bcbf713b21e4f96ecace731b5f0e4e47c6e404b53109318c41",
+    "outputs/saptasajya-publication-2026-11-24/initial-record-correction.json": "344bdf8abe3f7dbec2f1ca74ca1b44b661b8e83659840d7a2195d748a754508c",
+    "outputs/saptasajya-publication-2026-11-24/local-verification-before-final-audit.json": "4232d8fb2377e7158ae61ef42b723e03042034bee8c07200beda95a92e01a16e",
+    "outputs/saptasajya-publication-2026-11-24/local-verification.json": "91b291710bbccca8e97714c35a814c75c59fc387a0f1074fabdd59b2f8c01e0c",
+    "outputs/saptasajya-publication-2026-11-24/media/commons-imageinfo.json": "4abb9730832ed034b7e40280c5f01519cd3ff01d9237810f5e02c76ea5786915",
+    "outputs/saptasajya-publication-2026-11-24/media/saptasajya-hills-devopam-original.jpg": "d13171f767a476cddcb0f17de208821b1575ccbf901f323fec7a8b2a24ddc478",
+    "outputs/saptasajya-publication-2026-11-24/payload-check.json": "30b7d8bf2e75721961e7659efb6cf38716637f0980ad80158784ab09af64e009",
+    "outputs/saptasajya-publication-2026-11-24/preserved-foreign-pointers.json": "a75ed09db8c3e8b40f7cd105a6d1b0778694ced80e5d9b3e5019c5fba0b57888",
+    "outputs/saptasajya-publication-2026-11-24/preserved-preparation.json": "64bc2abe4cbb9f71fceaaab343b8576152f4b310a76b0fa593d585e61daef3ee",
+    "outputs/saptasajya-publication-2026-11-24/readiness-correction.json": "7c6eb8f9ab3af4f9500f603a50b3618ef21a78fe45a7595bccf3cd1e4ef2ca03",
+    "outputs/saptasajya-publication-2026-11-24/research/findings.md": "def9141df9d30f4d7a6faca17a2c00edb9ec8d83f6d70f0bc25ee8e333f3d5c8",
+    "outputs/saptasajya-publication-2026-11-24/research/integrated-source-review.md": "4aac1f4a3e9248407b3332e3fc81d0717610ca158802ccf7e2c09776544a6968",
+    "outputs/saptasajya-publication-2026-11-24/research/source-manifest.json": "70069c0c26ac4612ee8381bc067680fc70d0534057fbc974b334f3b8a2ad69c5",
+    "outputs/saptasajya-publication-2026-11-24/review/drishti-review.json": "45fcb95577df674d8546c2e9f6bb81a2799aa9bc68d8a71b25a2052ab4c1102b",
+    "outputs/saptasajya-publication-2026-11-24/review/implementation.md": "6ee0c3468838c1fa29a19ae62c5f9b3541c1a964adbc77f9b0693508c5664e36",
+    "outputs/saptasajya-publication-2026-11-24/review/media-review.json": "4d057951a78cdb5539752fd9e92cb99338e2659457694a071aba73502365393f",
+    "outputs/saptasajya-publication-2026-11-24/review/rendered-review.json": "a9c46f61240d7c20987bc26b92bc325bf186848d046fa2b7ff2f2afa46d6ac3c",
+    "outputs/saptasajya-publication-2026-11-24/reviewed-article-contract.json": "bbf03a7de637729b84509b3958601c7a988cc908e4add74a75f7180f20656f0b",
+    "outputs/saptasajya-publication-2026-11-24/run-checks.py": "b773fa9eba6c850b000a65522908a681e82d2eb0f9843123d3da25988b056513",
+    "outputs/saptasajya-publication-2026-11-24/staged-whitespace.json": "f6dc50a547040c57dd85eb87cfd5a07352ca73e550722ff29ec70d284c154007",
+    "outputs/saptasajya-publication-2026-11-24/verification-sequence.json": "7d445bba8463e5356fbb9b4c233b640d407cba0af7ac6aeabb9e33e5f6d28adb",
+    "outputs/saptasajya-publication-2026-11-24/verify-live.py": "9d280def40bde5b8f6249fcd1bd909420b9c57715f13a29bafba430e670775d2",
+    "outputs/saptasajya-publication-2026-11-24/verify-local.py": "ebedb971d11ed7aac2c74b72f43e8399636bbe5cefb1cfc8bfd3191d1b886a25",
+    "projects/site/editions/coast.json": "908ea7300997a42fece4a6a0c50a2cb43b55255e95a64917c99e8c7aa8f2a699",
+    "projects/site/editions/responsive-images.json": "fe7cf7645fe22b0710ab7f2332f5a7432efd72d8fe7c45706e4a32fa89d0911a",
+    "projects/site/editions/search-candidate.json": "e4c23bd5348b40ecc9fe874d56ae0c6d52afbcd1f6a39a673c3a6cac6faed5d1",
+    "projects/site/public/images/destinations/saptasajya-hills-devopam.webp": "7ec87dc4bc579349d3264c7891b6f17356016c588a131147d720766442e75fa1",
+    "projects/site/src/data/hill-destinations.ts": "ffae876677cfc7aa7bf6a9c92016c0ccd4ebd65afbf95e65ba59d7ed031ec6f9",
+    "projects/site/src/pages/destinations/saptasajya.astro": "f0f03cb81d72b45acac2f7e91606232070fafdaf2489ec7fa1c40591123324ec",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "25eaab79041fbedc45f5ec4c099d777d6086502f790984971273ef4a5d940cf1",
+    "projects/site/tests-coast/edition.test.mjs": "6fc1360466b9a65b2773d4d5cfd0dcbcda4dcb449cccac101f384f379e48e01c",
+    "projects/site/tests/build.test.mjs": "7b9f52d0ed4d1656732521a25abf17de4e8c17a43e9a3e46895d2efaf6e20b65",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "76a8b2354633cced641bc7aef72a6bdc2c0aa0fc03bf2603c96e356c18c7da24"
+  },
+  "reviewed_manifest_sha256": "be9295d10dd0b47692ed391adcf33abe04bd855821fa617e5075674d19c7dd25"
+}
