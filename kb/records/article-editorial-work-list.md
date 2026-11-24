@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1379. blocked: 1, completed: 242, excluded: 872, queued: 264.
+Route inventory: 1380. blocked: 1, completed: 242, excluded: 872, in_progress: 1, queued: 264.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1403,3 +1403,4 @@ Route inventory: 1379. blocked: 1, completed: 242, excluded: 872, queued: 264.
 | POD-EDIT-ODIAHOMEPAGE-20261123 | [When Odisha Became a Homepage](https://projectodisha.org/stories/when-odisha-became-a-homepage/) | queued | Publish the author-approved text, ten original images and exact references; no prose rewrite; zero programme credit. |
 | POD-EDIT-BIRAKISHORE-20261123 | [Birakishore Das: Poems, Schoolbooks and the Young Reader](https://projectodisha.org/literature/birakishore-das/) | completed | Original independently sourced article and credited symbolic illustration, incoming links and responsive checks; zero programme credit. |
 | POD-EDIT-TENSA-20261124 | [Tensa: Hills, Iron Ore and a Community Camp](https://projectodisha.org/destinations/tensa/) | completed | Original destination article with credited article and preview image; zero programme credit. |
+| POD-EDIT-SAPTASAJYA-20261124 | [Saptasajya: A Shrine Among Wooded Hills](https://projectodisha.org/destinations/saptasajya/) | in_progress | Original hill destination article with credited article and preview image; zero programme credit. |

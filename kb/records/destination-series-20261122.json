@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": "tensa",
+  "current": "saptasajya",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -161,6 +161,16 @@
         "research/references/data/research-queue.json:RES-023"
       ],
       "publication_receipt": "records/tensa-publication-20261124.json"
+    },
+    {
+      "slug": "saptasajya",
+      "status": "in_progress",
+      "handoff": "records/saptasajya-publication-20261124.json",
+      "reuse_before_research": [
+        "research/methods/trip-planning-content.md",
+        "research/references/data/research-queue.json:RES-013",
+        "research/references/data/research-queue.json:RES-023"
+      ]
     }
   ],
   "later_phases": [
@@ -169,6 +179,6 @@
   ],
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
-  "next_hill": null,
-  "coordination": "Tensa published and separately live-reviewed. Scope release requires actual reviewed receipt merge; no following article claimed. Wider destination series remains open."
+  "next_hill": "saptasajya",
+  "coordination": "Jhoti reviewed preparation returned explicitly; Saptasajya now sole active destination article."
 }

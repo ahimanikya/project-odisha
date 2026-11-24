@@ -10,6 +10,7 @@ import panchalingeswarImage from '../../../../kb/research/destinations/panchalin
 import kapilashImage from '../../../../kb/research/destinations/kapilash-image.json';
 import belgharTumudibandhaImage from '../../../../kb/research/destinations/belghar-tumudibandha-image.json';
 import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
+import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-image.json';
 import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
@@ -143,4 +144,14 @@ export const tensaGuide = {
  aliases: [],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide].filter(guide => allowsPage(guide.href));
+export const saptasajyaGuide = {
+ title: 'Saptasajya',
+ odia: '',
+ summary: 'A hill shrine, local legend and a wooded landscape.',
+ href: '/destinations/saptasajya/',
+ photo: saptasajyaImage,
+ regions: ['Dhenkanal'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide].filter(guide => allowsPage(guide.href));
