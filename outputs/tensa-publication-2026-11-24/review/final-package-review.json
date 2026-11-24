@@ -1,0 +1,154 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti — separate automated quality review",
+  "reviewed_on": "2026-11-24",
+  "scope": "Completed local publication package and continuity; not hosted CI, deployment or live approval",
+  "base": "38b6216d331d04235c90977553ded55bcdde8d74",
+  "manuscript_sha256": "cc225a6ef26ae07e04138b8f07c84efb0053e3d3ad068f6eedf262f220303c17",
+  "article_fragment_sha256": "cdebe55d5125dc6ec2b710dc8442a5c954b7f03bbae6e096128edb0e20f95b16",
+  "independent_execution": {
+    "method": "Imported inspected verify-local module and invoked main without its report-writing entrypoint; separately recomputed payload, parsed article/cards, decoded images and scanned both public outputs. No build rerun.",
+    "verifier_checks": 10676,
+    "verifier_result": "PASS",
+    "independent_payload_bytes": 998680963,
+    "regular_files": 3660,
+    "remaining_bytes": 1319037,
+    "exclusive_limit": 1000000000,
+    "symlink_or_multilink_files": 0,
+    "article_parity": [
+      "dist",
+      "dist-coast",
+      "dist-publish"
+    ],
+    "kaincha_leaks": []
+  },
+  "root_stage_evidence_reviewed": {
+    "all_stages": 13,
+    "all_exit_codes": 0,
+    "full_tests_passed": 827,
+    "coast_tests_passed": 599,
+    "coast_acceptance": 5460,
+    "disclosure_pages": {
+      "dist": 1507,
+      "dist-coast": 1492,
+      "dist-publish": 1493
+    },
+    "disclosure_violations": 0,
+    "stage_manuscript_hashes": "All equal frozen reviewed manuscript. Logs and results actually inspected; tests/builds executed by root."
+  },
+  "artifact_checks": {
+    "h1": 1,
+    "references": 7,
+    "unique_notes": 4,
+    "distinct_returns": 7,
+    "all_native_targets_resolve": true,
+    "full_source_image_sha256": "64b6b782a99bf5252d41dcf4a187ac0725c77004c2d708c8c1fcfc655404c56d",
+    "source_dimensions": [
+      2048,
+      1365
+    ],
+    "original_bytes": 292662,
+    "responsive_dimensions": [
+      [
+        480,
+        320
+      ],
+      [
+        960,
+        640
+      ],
+      [
+        1440,
+        960
+      ]
+    ],
+    "responsive_bytes": [
+      16280,
+      60272,
+      121744
+    ],
+    "image_family_bytes": 490958,
+    "image_preservation": "Original, public source and all three emitted editions are exact. Variant hashes and decoded dimensions match the reviewed manifest. All three variants were individually viewed in prior static review.",
+    "article_and_explore": "Exact three reviewed srcset variants in every edition.",
+    "hills_and_destinations": "Existing cards use the unchanged original JPEG without srcset; independent initial blanket-srcset assertion was corrected after inspecting this actual intended markup. No implementation defect.",
+    "all_article_images": 4,
+    "all_article_unique_image_urls": 11,
+    "all_article_image_files_present": true,
+    "credits": "Actual caption/creator/source/licence/changes preserved, matching sharing image and three incoming previews.",
+    "search_policy": "Full/coast noindex,nofollow; publication noindex,follow. No authority expansion."
+  },
+  "preservation": {
+    "kaincha_preparation_files": 15,
+    "additional_completion_review": 1,
+    "hashes_and_base_bytes_match": true,
+    "kaincha_receipt_unchanged": true,
+    "preceding_birakishore_receipt_unchanged": true,
+    "foreign_current_task_and_handoff_home": true,
+    "prior_activity_exact_prefix": true,
+    "public_exclusion": "Independent filename/path/prose and same-size exact-hash scans of dist-coast and dist-publish found no protected Kaincha draft leakage. Full internal edition is not asserted to exclude unpublished research.",
+    "optimizer_change": "None in this candidate."
+  },
+  "visual_review": {
+    "report": "outputs/tensa-publication-2026-11-24/review/drishti-review.md",
+    "actual_screenshots_inspected": 11,
+    "final_meaningful_settled_screenshots": 10,
+    "retained_total_screenshots": 13,
+    "limitations": [
+      "Initial desktop-top was additionally classified transitional (1440×810); settled desktop figure supplies proof. Two other transitional captures remain excluded.",
+      "Mobile notes shows notes 3–4; desktop all-notes shows all four.",
+      "Root performed native source click, keyboard return and three incoming-card clicks. Reviewer independently inspected screenshots and markup, not browser interaction."
+    ],
+    "artifact_transfer": "The inspected full-edition article fragment exactly equals final publication fragment. Photo/base/variants are exact across all three editions."
+  },
+  "helper_review": {
+    "local_gaps": "Closed: fixed original SHA, frozen manuscript contract/stage hashes, exact native-link contract, actual decoder dimensions.",
+    "live_gaps": "Corrected incoming-card text/alt/srcset coverage and filename-prefix checks verified in code.",
+    "comparison_helper": "Inspected compare-live-images.mjs. It requires completed four-route HTTP evidence; reads each recorded image pair; pins bytes to raw hashes; validates content-addressed names; compares geometry; records decoded RGB and metadata deltas only for unequal bytes; retains raw report hash; never automatically accepts visual differences or attributes an encoding cause.",
+    "remaining_obligation": "At live delivery independently confirm all actual article/card image URLs are represented (current local set is 11 unique files), responsive descriptors match decoded geometry, and visually review any differences. The comparison helper alone does not prove exhaustive collection."
+  },
+  "canonical_state_at_review": {
+    "status": "review_in_progress",
+    "programme_credit": 0,
+    "scope_released": false,
+    "note": "Root will integrate actual final-package result into prepublication records after this review; those final records and exact committed head still need continuity review."
+  },
+  "pending": [
+    "Final root record integration and exact committed-head continuity",
+    "Required hosted CI and its actual Linux payload under strict limit",
+    "Successful deployment and fresh live routes/images/browser evidence",
+    "Reviewed receipt actual merge before releasing article scope"
+  ],
+  "limitations": [
+    "Local macOS size is actual, not a prediction or guarantee of hosted Linux size.",
+    "No human, specialist, field, booking or current-condition verification claimed.",
+    "No source/shared record, helper, Git, build, server or browser changes performed by reviewer; only reserved review output written."
+  ],
+  "blockers": [],
+  "reviewed_file_sha256": {
+    "kb/research/places/tensa-article.md": "cc225a6ef26ae07e04138b8f07c84efb0053e3d3ad068f6eedf262f220303c17",
+    "kb/research/destinations/tensa-image.json": "f65150caff712f956358e5183d891a8cdf031700444e0fda19ec8bd0cd8ee421",
+    "projects/site/src/pages/destinations/tensa.astro": "75f70c750670e57775d745150176ab9b824a25388bb9e52e7027536083299356",
+    "projects/site/src/data/hill-destinations.ts": "6d28acd44bcd11b5333336362bc5e0a6145f9084cdd240f588d448eda4c8bf36",
+    "projects/site/editions/coast.json": "78b46eac2ee5bafb0cbe4e2722a38505c12277e0540747275a802c735f3b9485",
+    "projects/site/editions/responsive-images.json": "f1edb91bff5da61ab3308d155a5b459d6f41aa0148599ab4cabde467a6af357a",
+    "projects/site/editions/search-candidate.json": "41a36f6219c8154909a6657f5b3c29a5ef49b446e8e48907709eb45c8fb1c5ad",
+    "kb/reference/public-website-routes.json": "46fc45254a5f343b098a6c7ae152bb75c850546c830aa07ac83a317714575905",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "eb7200abe45bdb500ec762f640bc7ebbe3cddc712a36a9435c903cf374c51c3d",
+    "projects/site/tests/build.test.mjs": "318c39160f2a3c0e13caffdb1f5e06b79b0f46bbc8184b3a77233c180c6eb7e9",
+    "projects/site/tests-coast/edition.test.mjs": "10169803acd7d18c370743fee78372331d727d51bcff4e27347835d8360e908c",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "be6fbec2ec40723e2bc72d73db3c91189e5bd7f1fd7c8321e4ce65157fa82117",
+    "kb/media/tensa/tensa-mines-manjeet-bhoi.jpg": "64b6b782a99bf5252d41dcf4a187ac0725c77004c2d708c8c1fcfc655404c56d",
+    "projects/site/public/images/destinations/tensa-mines-manjeet-bhoi.jpg": "64b6b782a99bf5252d41dcf4a187ac0725c77004c2d708c8c1fcfc655404c56d",
+    "outputs/tensa-publication-2026-11-24/run-checks.py": "107b5c65a8219638e0fc7d332694c071989ed9302a40e935574f2f4d44f6ed72",
+    "outputs/tensa-publication-2026-11-24/verify-local.py": "2b1064ba4e6378390e51846e517f2716a93e4badddfa5e88f7b18f2b51502f66",
+    "outputs/tensa-publication-2026-11-24/verify-live.py": "728d82bf4aa93438a7b59f2dc4e31e4076c9fb5209f9f34b4b11a5915a3f08f8",
+    "outputs/tensa-publication-2026-11-24/compare-live-images.mjs": "760507f99c6adf2252bf7623b8cad7f6407f0f63f834dfe7b72e9e9db475b6dc",
+    "outputs/tensa-publication-2026-11-24/reviewed-article-contract.json": "079a996e5162f974e6ad3bdb9bd2a3de4a052c8d9518bb0fcb096a8efd0d0293",
+    "outputs/tensa-publication-2026-11-24/build-results.json": "4e165aa3f482c13687ec39b6c3475214bbc2cc3398ec444e226fa87b0284cc61",
+    "outputs/tensa-publication-2026-11-24/local-verification.json": "ef86011acbc22c6be93c89fba86ba0d0620e1f197a8c99aeb2aaa24df7651f9a",
+    "outputs/tensa-publication-2026-11-24/payload-check.json": "f29b819485a7d16267f7b588aff5c17ed78955d5bcce5a0dc798fe59d8a59b39",
+    "outputs/tensa-publication-2026-11-24/browser/local-browser-review.json": "d11731e30880468fc3fb110ac917ad0b798841ae3da65080e5335b1f6c58cde4",
+    "outputs/tensa-publication-2026-11-24/research/integrated-source-review.md": "07444570c96bc620e7333c6defd6bed0bed8b8d0bed968b847b417509d850752",
+    "outputs/tensa-publication-2026-11-24/review/drishti-review.md": "db430ca9fa65644b165daa14187f3bfbbf3984897d61da2724354f0de93b6e76"
+  }
+}

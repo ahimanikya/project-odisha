@@ -10661,6 +10661,25 @@
       "evidence": [
         "records/birakishore-publication-20261123.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112491",
+      "title": "Research, review and publish Tensa",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112491",
+      "next_action": "Pass exact-commit review and required hosted checks, then publish and live-verify Tensa.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112491",
+        "POD-REV-2026112491"
+      ],
+      "evidence": [
+        "records/tensa-publication-20261124.json"
+      ]
     }
   ],
   "decisions": [
@@ -16141,6 +16160,21 @@
       "refs": [],
       "evidence": [
         "records/birakishore-publication-20261123.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112491",
+      "title": "Publish Tensa after completed Birakishore handoff",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Once the Birakishore Das release is complete and the slot returns, continue with Tensa—research, review and publish it with a high-quality credited image in the article and preview.",
+      "scope": "One researched and separately reviewed destination article with credited article and preview image; publication and live verification authorized.",
+      "refs": [],
+      "evidence": [
+        "records/tensa-publication-20261124.json"
       ]
     }
   ],
@@ -25801,6 +25835,29 @@
         "No human specialist review or fieldwork.",
         "Symbolic illustration is not a portrait or historic book facsimile.",
         "Local capacity is not proof of Linux or live acceptance."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112491",
+      "title": "Tensa separate source, media, code, rendered and local package review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112491",
+        "POD-DEC-2026112491"
+      ],
+      "evidence": [
+        "records/tensa-publication-20261124.json"
+      ],
+      "summary": "Separate source/media/code, ten settled desktop/mobile screenshots and actual final local package reviewed. All13build/test stages and10676artifact checks pass; hosted CI and live delivery remain pending.",
+      "independent": true,
+      "limitations": [
+        "No fieldwork or human specialist review.",
+        "Photograph carries creator-labelled Tensa identity; exact mine and viewpoint unverified.",
+        "Local package is not proof of hosted Linux or live delivery."
       ]
     }
   ],

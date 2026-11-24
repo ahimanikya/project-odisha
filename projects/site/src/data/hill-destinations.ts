@@ -9,6 +9,7 @@ import jirangChandragiriImage from '../../../../kb/research/destinations/jirang-
 import panchalingeswarImage from '../../../../kb/research/destinations/panchalingeswar-image.json';
 import kapilashImage from '../../../../kb/research/destinations/kapilash-image.json';
 import belgharTumudibandhaImage from '../../../../kb/research/destinations/belghar-tumudibandha-image.json';
+import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
 import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
@@ -132,4 +133,14 @@ export const kalingaGhatiGuide = {
  aliases: ['Kalinga Ghat'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide].filter(guide => allowsPage(guide.href));
+export const tensaGuide = {
+ title: 'Tensa',
+ odia: '',
+ summary: 'Hill country, iron ore and a community-managed nature camp.',
+ href: '/destinations/tensa/',
+ photo: tensaImage,
+ regions: ['Sundargarh'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide].filter(guide => allowsPage(guide.href));

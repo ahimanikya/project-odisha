@@ -5,7 +5,7 @@
   "maximum_active_articles": 1,
   "sequence_rule": "Finish research, independent review, publication, live verification and receipt integration before opening the next article.",
   "image_requirement": "Every article and preview has a relevant high-quality rights-cleared image; add more where useful.",
-  "current": "kalinga-ghati",
+  "current": "tensa",
   "hill_sequence": [
     {
       "slug": "deomali",
@@ -152,7 +152,14 @@
     },
     {
       "slug": "tensa",
-      "status": "queued"
+      "status": "in_progress",
+      "handoff": "records/tensa-publication-20261124.json",
+      "reuse_before_research": [
+        "research/methods/research-map.md",
+        "research/methods/trip-planning-content.md",
+        "research/references/data/research-queue.json:RES-013",
+        "research/references/data/research-queue.json:RES-023"
+      ]
     }
   ],
   "later_phases": [
@@ -162,5 +169,5 @@
   "scope_note": "Hill stations, peaks, valleys and hill pilgrimages are distinct types; no claim that every destination is a hill station or that the series is complete.",
   "programme_credit": 0,
   "next_hill": "tensa",
-  "coordination": "Kalinga Ghati published/live verified; sole slot retained until actual reviewed receipt merge. Then Kapileswar Hatuari publication, Birakishore Das publication, and Tensa after reviewed receipts and explicit return."
+  "coordination": "Birakishore receipt PR850 merged and explicit slot returned. Tensa is the sole active article."
 }

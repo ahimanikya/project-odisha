@@ -1588,3 +1588,5 @@ Kalinga Ghati candidate extension, 23 November 2026: mapped `places/kalinga-ghat
 ### Birakishore Das · 23 November 2026
 
 Added a distinct literary article and source dossier from reviewed independent preparation: collected memoir and verse, an original Mo Desa issue, an Academy biography and an official textbook. No Facebook prose or images adopted; textbook production is distinguished from individual reader authorship. Publication gates remain pending; zero programme credit.
+
+Tensa candidate extension, 24 November 2026: mapped `places/tensa-article` after scoped map and corpus reuse checks. Original district FY2020–21 report, Bonai working plan, SAIL2023–24 statement and current official camp listing support distinct landscape, mining and visitor contexts. Credited Commons photograph retains source-labelled identity without exact-mine or access inference. Publication pending; inventory1866, zero programme credit and no exhaustive semantic deduplication claim.
