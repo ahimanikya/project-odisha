@@ -10785,14 +10785,15 @@
       "title": "Research, review and publish Gonasika",
       "category": "publication",
       "status": "in_progress",
-      "readiness": "draft",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112592",
-      "next_action": "Verify sources and photograph, implement one reviewed article, publish and verify live before receipt completion.",
+      "next_action": "Complete local rendered/package review, exact candidate and hosted checks before publication.",
       "blockers": [],
       "refs": [
-        "POD-DEC-2026112592"
+        "POD-DEC-2026112592",
+        "POD-REV-2026112592"
       ],
       "evidence": [
         "records/gonasika-publication-20261125.json"
@@ -26191,6 +26192,24 @@
         "No website layout, browser, live route, build, deployment or publication review applies to this preparation.",
         "Shared completion-record reconciliation and local commit remain coordinator-owned subsequent gates."
       ]
+    },
+    {
+      "id": "POD-REV-2026112592",
+      "title": "Gonasika source, media and implementation review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112592",
+        "POD-DEC-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ],
+      "independent": true,
+      "summary": "Separate source/media/static code review only; rendered/package/hosted/live gates remain. Not a human specialist review."
     }
   ],
   "releases": [

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6f2cc29d20068040e996d9ca4069d451102c3355f523397df62866b5ad064a8c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `807387254dd6dd00d787e85d3a6a6328527ed7c4de07f1d469edf45237ec2616`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -421,7 +421,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261125201 · Publish Jhoti Chita with credited photograph and reading links | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt merge, then return the shared slot to the coordinating hill chat. | — |
 | POD-WORK-2026112591 · Research, review and publish Malayagiri | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI before releasing the article slot. | — |
 | POD-WORK-20261125301 · Prepare original Nilagiri stone-utensils article with credited illustration | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Nilagiri draft, credited illustration and publication brief; return slot to hill chat for its next separately authorized destination. No public integration authorized. | — |
-| POD-WORK-2026112592 · Research, review and publish Gonasika | in_progress | draft | Ahimanikya Satapathy | Verify sources and photograph, implement one reviewed article, publish and verify live before receipt completion. | — |
+| POD-WORK-2026112592 · Research, review and publish Gonasika | in_progress | reviewed | Ahimanikya Satapathy | Complete local rendered/package review, exact candidate and hosted checks before publication. | — |
 
 ## Pending human review and decisions
 
@@ -1192,6 +1192,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261125201 | pass | True | No fieldwork or human specialist review.; Photo provenance is the preserved official Commons preview; the camera original was not acquired. The drawing maker is not separately identified.; One existing delivery JPEG differs in184pixels; no pixel identity or encoding cause claimed.; One browser engine and two viewport sizes; screenshots overlap in content and are not fourteen distinct page layouts. |
 | POD-REV-2026112591 | pass | True | No fieldwork or human specialist review.; District original-publisher text retrieved through search index after direct access failed; original research paper read through author-deposited text, not visually inspected PDF.; Photo identity/date creator-supplied; no current access claim.; Three existing delivery images differ in bytes/pixels, independently measured/viewed; no cause or pixel identity inferred. Screenshot framing limits retained. |
 | POD-REV-20261125301 | pass_with_limitations | True | Directorate evidence independently inspected as original-domain indexed text; no downloaded or visually inspected Directorate PDF claimed.; Odisha Review title and relevant page visually inspected; the complete issue was not reviewed. Utkalika and AK original page text independently read.; Scoped novelty search is not exhaustive semantic deduplication.; No website layout, browser, live route, build, deployment or publication review applies to this preparation.; Shared completion-record reconciliation and local commit remain coordinator-owned subsequent gates. |
+| POD-REV-2026112592 | pass | True | — |
 
 ## Publication and application history
 

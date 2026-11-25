@@ -84,12 +84,14 @@ def main():
     check(dims==[[1280,960],[480,360],[960,720],[1280,960]],'Independently decoded source and variant dimensions')
     op='kb/team/operations.json'; previous=json.loads(old(op)); current=json.loads((ROOT/op).read_text())
     for k in ['current_task','handoff_home']:check(previous[k]==current[k],'Foreign ownership preserved '+k)
+    memoir='kb/records/odia-homepage-publication-20261123.json'
+    check((ROOT/memoir).read_bytes()==subprocess.check_output(['git','show','a377c8f5beb9811ca35697b535ab7f40ae0abe56:'+memoir],cwd=ROOT),'Merged memoir receipt859 preserved')
     protected=json.loads((OUT/'preserved-preparation.json').read_text())['files']
     for f in protected:check(sha((ROOT/f['path']).read_bytes())==f['sha256'],'Preparation preservation '+f['path'])
     for name in ['antaranga-after-belghar-preparation-20261123','antaranga-after-tensa-preparation-20261124','jhoti-publication-20261125','saptasajya-publication-20261124','tensa-publication-20261124','malayagiri-publication-20261125','antaranga-after-malayagiri-preparation-20261125']:
         path='kb/records/'+name+'.json';check((ROOT/path).read_bytes()==old(path),'Prior receipt preserved '+name)
     internal=[f for f in protected if 'kaincha' in f['path'] or 'golden-grass' in f['path'] or 'nilagiri' in f['path'] or 'antaranga-after-malayagiri' in f['path']]; hashes={f['sha256'] for f in internal}; sizes={(ROOT/f['path']).stat().st_size for f in internal}
-    forbidden=['nilagiri-stone-utensils','nilagiri-utensils','A Craft for the Table','jhoti-chita.md','gurubara-jhoti-commons-1920.jpg','kaincha-and-golden-grass','golden-grass-square-box.jpg','Golden grass takes its name from the lustre of the dried material.']
+    forbidden=['A plate, a bowl, a drinking vessel: Odisha’s stonework has a domestic scale.','nilagiri-stone-utensils','nilagiri-utensils','A Craft for the Table','jhoti-chita.md','gurubara-jhoti-commons-1920.jpg','kaincha-and-golden-grass','golden-grass-square-box.jpg','Golden grass takes its name from the lustre of the dried material.']
     for edition in ['dist-coast','dist-publish']:
         for f in (SITE/edition).rglob('*'):
             if not f.is_file():continue
@@ -102,9 +104,30 @@ def main():
     for edition in ['public','dist','dist-coast']:
         check(sha((SITE/edition/image_path).read_bytes())==capacity['source_sha256'],'Capacity original preserved '+edition)
     check(sha((SITE/'dist-publish'/image_path).read_bytes())==capacity['candidate_sha256'],'Exact reviewed delivery derivative')
+    check(sha((ROOT/'kb/research/media/sakhi-nata/mardala.jpg').read_bytes())==capacity['source_sha256'],'Original KB Mardala preserved')
     affected=(SITE/'dist-publish'/capacity['page']).read_text()
+    previous=(SITE/'dist-coast'/capacity['page']).read_text()
+    expected_affected=previous.replace('reproduced without alteration.','resized and compressed for web delivery without cropping.').replace('<meta property="og:image:width" content="2716">','<meta property="og:image:width" content="1552">').replace('<meta property="og:image:height" content="3024">','<meta property="og:image:height" content="1728">')
+    check(previous.count('reproduced without alteration.')==1,'Unique Mardala modification phrase')
+    # Existing publication delivery also changes crawler controls and externalizes
+    # the exact inline journey JSON. Verify these bounded transforms explicitly.
+    crawler_before='<meta name="robots" content="noindex, nofollow">'
+    crawler_after='<meta name="robots" content="noindex, follow">'
+    check(expected_affected.count(crawler_before)==1,'One existing non-indexable crawler control')
+    expected_affected=expected_affected.replace(crawler_before,crawler_after)
+    journey=re.search(r'<script type="application/json" id="journey-data">(.*?)</script>',previous,re.S)
+    external=re.search(r'<script type="application/json" id="journey-data"></script><script src="(/assets/journey-data-[a-f0-9]+\.js)"></script>',affected)
+    check(bool(journey and external),'Existing publication journey delivery envelope present')
+    asset=(SITE/'dist-publish'/external.group(1).lstrip('/')).read_text()
+    prefix="document.getElementById('journey-data').textContent="
+    check(asset.startswith(prefix) and asset.endswith(';\n'),'Expected journey assignment envelope')
+    check(json.loads(asset[len(prefix):-2])==journey.group(1),'External journey JSON preserves exact inline data')
+    check(sha(asset.encode()) in external.group(1),'Journey asset name matches actual digest')
+    expected_affected=expected_affected.replace(journey.group(0),external.group(0))
+    check(expected_affected==affected,'Mardala full HTML has only reviewed image changes and verified existing publication transforms')
+    ap=parse(affected)
+    check(ap.meta.get('og:image:width')=='1552' and ap.meta.get('og:image:height')=='1728','Mardala sharing geometry matches delivered1552x1728')
     check(capacity['source_url'] in affected,'Affected image source credit retained')
-    check('resized and compressed' in affected,'Affected image modification disclosure retained')
     files=[p for p in (SITE/'dist-publish').rglob('*') if p.is_file()]; size=sum(p.stat().st_size for p in files)
     check(size<1_000_000_000,'Strict public payload limit')
     report['payload']={'bytes':size,'files':len(files),'remaining_bytes':1_000_000_000-size};report['status']='PASS'
