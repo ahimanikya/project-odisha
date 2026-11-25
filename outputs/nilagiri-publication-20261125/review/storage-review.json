@@ -1,0 +1,28 @@
+{
+  "status": "PASS_BOUNDED_STORAGE_IMPLEMENTATION_LOCAL_TEST",
+  "reviewer": "Drishti; separate AI reviewer",
+  "date": "2026-11-25",
+  "scope": "New publication staging copy adapter, vendored helper, build call site and focused storage test. No article, capacity or final publication acceptance implied.",
+  "findings": [],
+  "policy_read": "/Users/ahimanikya/.codex/skills/project-odisha-storage-copies/SKILL.md",
+  "checks": [
+    "Vendored cow_copy.py is byte-identical to the installed helper, SHA256 924b5ba7ddc50aada98810789d24f9340cbda40acd022369db20ef90716dc79e. Production code uses a repository-relative helper path, not a personal home path.",
+    "Read complete helper. macOS invokes native clonefile without --allow-full-copy or --no-hash. Clone failure aborts without silent full-copy fallback. Full source/output hashing, metadata verification, source-stability checks and independent inode checks remain enabled. Temporary staging is published atomically with no overwrite.",
+    "The adapter rejects an existing destination, including a symlink. The build keeps its existing disposable dist-publish rebuild behavior and its input/output symlink guards; frozen preparations and source assets are not targets.",
+    "Linux full copy is an explicit build call-site policy, not a failed-clone fallback. Before copying it rejects non-directory sources, symlinks and unsupported entries, measures total regular-file bytes and checks available space against bytes plus a 1 GiB reserve. It logs its explicit full-copy mode and preserves timestamps. Other platforms are refused by the actual build call site.",
+    "Actual independent focused test on this macOS host passed 1/1: one cloned file, zero full copies; exact file contents, distinct source/destination inodes, independent subsequent edit and existing-destination refusal.",
+    "No historical copy script or frozen evidence was rewritten to retrofit the storage policy."
+  ],
+  "limitations": [
+    "Actual Linux branch execution remains pending required hosted CI; no Linux execution claim is made from the local macOS test.",
+    "Linux intentionally retains the existing independent full-copy delivery mode. Unlike the APFS helper it does not provide transactional tree publication, complete source-stability checks or ACL/xattr/creation-time verification. Do not describe the Linux path as having those macOS guarantees. Final hosted payload and source/package integrity checks remain required.",
+    "This focused test does not independently inspect physical shared blocks; native clonefile usage and its successful report were observed. The unchanged installed helper’s full race/link/metadata suite was not rerun.",
+    "No full build or final package was run by this reviewer. Source stability assumes the coordinator’s sequential build ownership."
+  ],
+  "reviewed_sha256": {
+    "projects/site/tools/storage-copy.mjs": "d9a3047f458a7256375d6a697066bc0451b4e7ab8e51eb495489c6f8ddd1c37f",
+    "projects/site/tools/cow_copy.py": "924b5ba7ddc50aada98810789d24f9340cbda40acd022369db20ef90716dc79e",
+    "projects/site/tools/build-publication.mjs": "c668e4e0efba5286a6b825782c16cbad7e653caabb852cb4715cfda6b43b045c",
+    "projects/site/tests/storage-copy.test.mjs": "eabdbc5feeff73df5caa7a1d3dc1d869ec28c3c380eb7fc09a1336ecb6197aef"
+  }
+}

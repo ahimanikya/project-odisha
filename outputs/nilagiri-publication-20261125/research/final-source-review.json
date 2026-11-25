@@ -1,0 +1,61 @@
+{
+  "status":"PASS",
+  "date":"2026-11-25",
+  "reviewer":"Anvesha, scoped source reviewer; no human specialist review claimed",
+  "scope":"Final public Astro sources, unchanged canonical article, source notes, main image alt/caption/credit, metadata/OG representations and three incoming cards. No new research, site edit, shared-record edit, Git operation or publication performed.",
+  "authorization":"POD-DEC-20261125401",
+  "reviewed_files":[
+    {"path":"kb/research/culture/nilagiri-stone-utensils.md","sha256":"7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed","bytes":3701},
+    {"path":"projects/site/src/pages/stories/nilagiri-stone-utensils.astro","sha256":"7afe7f02e533f1f68c7a8aea27317bd0d1c43650dfec3a0b71ef60e9faf1248c","bytes":3228},
+    {"path":"projects/site/src/pages/stories/craft-listening.astro","sha256":"d442b6920046f449ce965dbcb7e62af83446b600fdd37fdfe6e8e59c2b5c25d4","bytes":7034},
+    {"path":"projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro","sha256":"20d928199e8f0afa31be768aea75fc16da2deb44b62c4ed6b1a57a1517b654ee","bytes":1902},
+    {"path":"projects/site/src/pages/destinations/[slug].astro","sha256":"f81440ce0cdcb3712cd63be982c3312fa839101d0f28ca8f5da693f701099a4e","bytes":10160},
+    {"path":"projects/site/public/assets/nilagiri-utensils/nilagiri-stone-utensils-1200.webp","sha256":"8ac780530a8262e6716b60bc00b63bac4e1a25fc8b12ed0e63b0e2194191bfae","bytes":158022}
+  ],
+  "continuity":{
+    "canonical":"Hash exactly matches frozen preparation. Wrapper imports raw canonical, removes redundant title/byline for shared components, maps image URL, and presents existing Further reading once. No rewritten factual body or notes.",
+    "sources":"Existing stable source IDs and citation URLs preserved. Utkalika original HTML and Mishra original PDF/captures reused. Directorate access limits remain indexed-original inspection; no newly claimed direct original-page access.",
+    "geography":"Nilagiri's documented association with utensils remains separate from Utkalika's Odisha-wide turning/polishing and figure-carving description. Neither incoming district card nor craft links imply a locally witnessed process.",
+    "dates_and_limits":"2022 registration-planning notice is not a GI award or present registry status. Mishra is explicitly November2023. No quarry/mineral identification, maker, workshop visit, health, export, origin, workforce or decline claim added.",
+    "originality":"Preparation AK comparison preserved: topic discovery only; no translated prose, narrative sequence or source imagery adopted."
+  },
+  "public_additions":{
+    "title":"Nilagiri’s Stone Utensils: A Craft for the Table",
+    "description":"Nilagiri stone utensils.",
+    "visible_dek":false,
+    "incoming_cards":[
+      {"route":"/stories/craft-listening/","label":"Nilagiri’s Stone Utensils","credit":"Illustration: Project Odisha.","alt":""},
+      {"route":"/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/","label":"Nilagiri’s Stone Utensils","credit":"Illustration: Project Odisha.","alt":""},
+      {"route":"/destinations/balasore/","label":"Nilagiri’s Stone Utensils","credit":"Illustration: Project Odisha.","alt":"","condition":"r.slug==='balasore' only"}
+    ],
+    "metadata_check":"Shell uses same supplied title/description/image alt for head, OG and Twitter; no Nilagiri description override exists in coastal-page-descriptions.json at review. Identical representations count once. Site-name suffix is source-independent.",
+    "component_check":"ArticleReadingPath supplies empty decorative alt and visible imageNote; no implicit factual image description."
+  },
+  "count_method":"Visible whitespace tokens after Markdown destinations, emphasis and footnote markers removed. Count canonical narrative/notes/alt/caption/title once across body, head and matching OG/Twitter representations. Distinct three incoming labels counted separately (3words each). Three-word description counted once. Do not re-charge unchanged nonpublic preparation brief, internal source-title/tag metadata or delivery copies. Shared title/source heading allocated to every family conservatively. Own illustration credit/provenance and generic navigation are source-independent. This is a new publication scope; historical preparation200/143/122 remains intact.",
+  "source_family_totals":[
+    {"family":"nilagiri-utkalika-stone-carving","limit":200,"components":{"process_paragraph":77,"geographic_scope_sentence":5,"original_form_observation":27,"opening_vessel_sentence":13,"article_title":8,"source_heading":3,"main_alt":8,"main_caption":14,"source_note":15,"description":3,"three_incoming_labels":9},"total":182},
+    {"family":"nilagiri-directorate-craft-records","limit":200,"components":{"whole_opening_paragraph":48,"article_title":8,"source_heading":3,"source_note":27,"description":3,"three_incoming_labels":9},"total":98},
+    {"family":"nilagiri-mishra-review-2023","limit":200,"components":{"whole_context_paragraph_including_utkalika_scope":54,"article_title":8,"source_heading":3,"source_note":18,"description":3,"three_incoming_labels":9},"total":95}
+  ],
+  "source_independent_media_words":{"main_illustration_note":21,"three_incoming_illustration_credits":9,"reason":"Project Odisha's original interpretive artwork, not language or a photograph derived from an external source. Main form alt/caption already conservatively charged to Utkalika above."},
+  "rights_and_identity":"Public WebP is byte-identical to the previously inspected prepared derivative. Complete bowl/plate illustration, original Project Odisha credit and non-documentary caption retained. It makes no claim to depict an identified maker's utensil, a Nilagiri workshop, an exact mineral or measured historical specimen. No external source photo has been adopted.",
+  "quotation_check":"No source verse or quoted passage introduced. Necessary names, source titles and craft term remain attribution/identification.",
+  "limits":"Source-level continuity and public wording PASS. Full rendered footnote behavior, capacity, desktop/mobile display, required CI and actual live delivery are separate coordinator/implementation/quality checks; not claimed by this audit.",
+  "amendments":[
+    {
+      "date":"2026-11-25",
+      "reason":"Actual acceptance check requires a public description of at least50characters. Canonical preparation remains frozen.",
+      "review_status":"APPROVED_BEFORE_IMPLEMENTATION",
+      "proposed_publication_only_description":"Nilagiri’s stone utensils and the turning and polishing of stoneware in Odisha.",
+      "characters":79,
+      "words":12,
+      "replaces_words":3,
+      "source_assessment":"Nilagiri utensil identity and Odisha-wide turning/polishing remain distinct. Final geography in Odisha explicitly frames the process broadly; no Nilagiri workshop observation, exclusivity or new technique asserted.",
+      "revised_conservative_public_totals":{"nilagiri-utkalika-stone-carving":191,"nilagiri-directorate-craft-records":107,"nilagiri-mishra-review-2023":104},
+      "count_method":"Replace the previous3-word description with12words, a9-word increase. Matching head/OG/Twitter descriptions remain one authored representation. All other components unchanged.",
+      "preservation":"Earlier audit text, allocations and file hashes above remain the historical inspected version; not silently overwritten. No frozen manuscript or source capture changed.",
+      "pending":"Implementation and refreshed wrapper hash not yet inspected at this amendment. Root/Samanta to apply publication-only metadata then bind final artifacts."
+    }
+  ],
+  "scope_release":"Source review complete; original integration PASS plus approved metadata amendment above. No body cuts or new research required."
+}

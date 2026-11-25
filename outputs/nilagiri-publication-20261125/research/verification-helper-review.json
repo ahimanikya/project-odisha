@@ -1,0 +1,24 @@
+{
+  "date":"2026-11-25",
+  "status":"PASS_after_targeted_strengthening",
+  "reviewed_file":"outputs/nilagiri-publication-20261125/verify-local.py",
+  "sha256":"abfffecf7c1d11b79a44f7917c8a57ba27502c77518102862eed8bffe7a85059",
+  "execution":"Not executed. Build-results contained4 of13 stages at inspection; reviewed source and existing artifact structure only.",
+  "valid_structure":"Repository root derivation, frozen canonical path, raw renderer call, actual responsive-report schema, ArticleReadingPath image/credit nesting, four known source-note IDs, public illustration hash and reviewed JPEG proposal fields agree with inspected structures. Scope correctly distinguishes local payload from hosted delivery.",
+  "findings":[
+    {"id":"stage-identity","priority":"medium","finding":"Thirteen successful records can include duplicates or omit a required named stage. Count alone does not substantiate all thirteen intended stages passed.","recommendation":"Compare the unique stage-name set with the exact expected stage set and retain exit-code/manuscript bindings."},
+    {"id":"distinct-notes","priority":"medium","finding":"Four forward links and four return links with existing targets could all point to one note. Assertion label currently overstates four distinct native references/returns.","recommendation":"Require exact one-each target sets #user-content-fn-1 through4 and #user-content-fnref-1 through4, plus existing unique IDs. Actual inspected dist page currently has the correct pattern."},
+    {"id":"variant-integrity","priority":"medium","finding":"Variant file hashes/lengths are recorded but not checked against responsive-image-report.json. Missing files fail, but altered variant bytes would pass.","recommendation":"Compare each variant sha256 and bytes with the report values in every edition; keep selected source illustration hash check."},
+    {"id":"public-wording","priority":"low","finding":"Incoming assertions require image and credit, but not exact label or decorative alt. Main caption/description/title are not directly asserted. Existing source review verifies them; this helper alone does not.","recommendation":"Optionally bind exact incoming label/empty alt and canonical description/caption; otherwise limit claims to what the helper checks."},
+    {"id":"single-jpeg-scope","priority":"low","finding":"Verifying the selected Osakothi candidate does not prove it is the only existing JPEG changed by packaging.","recommendation":"Use a separately reviewed package media-diff manifest to establish exclusivity, or record that limitation explicitly."}
+  ],
+  "followup_review":{
+    "reviewed_sha256":"d051a2db1150b2eb82bb97d6cca4beffffa567d3b94c261ace48307d9844c80a",
+    "result":"PASS; no remaining helper blocker identified within requested scope.",
+    "resolved":["Exact ordered13stage names now asserted; duplicates or omitted required stages fail.","Exact one-each fn1–4 and fnref1–4 target lists asserted, with unique IDs and existing targets.","All responsive variants checked against report byte length and SHA256 in each edition.","Incoming label/empty decorative alt, main description and illustration caption now asserted.","One-new-JPEG allowlist exclusivity explicitly attributed to separate Drishti capacity review, not inferred from one image check."],
+    "execution":"Helper not executed by Anvesha; this is source/structure review. Root runs only after all13stages complete.",
+    "limits":"Paragraph presence uses normalized-text matching, and cross-edition fragments use exact equality. This is not a general proof that arbitrary unwanted extra prose is impossible; separate frozen-source and quality review remain applicable. Hosted build/capacity and live delivery remain expressly separate."
+  },
+  "current_content_result":"No new factual source, image identity or rights problem identified. Initial findings above are preserved as review history and resolved by the inspected follow-up.",
+  "scope":"Only this review record written. Helper, manuscript, shared records and build artifacts unchanged."
+}

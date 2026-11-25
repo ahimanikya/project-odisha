@@ -1,6 +1,7 @@
 import {shareJourneyData} from './shared-journey-data.mjs';
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
-import {readFile,writeFile,cp,rm,lstat,readdir,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,rm,lstat,readdir,mkdir} from 'node:fs/promises';
+import {copyPublicationTree} from './storage-copy.mjs';
 import {deliveryJPEGs,optimizePublicationJPEGs} from './optimize-publication-jpeg.mjs';
 import {eligiblePNG,optimizePublicationPNGs} from './optimize-publication-png.mjs';
 import {fileURLToPath} from 'node:url';
@@ -52,7 +53,10 @@ export async function buildPublication(site){
  const projectedBytes=projectedNonOptimizableBytes(sizes,replacements);
  if(projectedBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${projectedBytes} projected non-optimizable bytes`);
  try{if((await lstat(output)).isSymbolicLink())throw Error('Publication output must not be a symlink');}catch(e){if(e.code!=='ENOENT')throw e;}
- await rm(output,{recursive:true,force:true});await cp(input,output,{recursive:true});
+ await rm(output,{recursive:true,force:true});
+ // Hosted Linux release builds explicitly retain their independent full-copy policy.
+ // Local macOS staging requires verified APFS clones and fails closed on clone errors.
+ await copyPublicationTree(input,output,{allowNonMacFullCopy:process.platform==='linux'});
  for(const page of pages)await writeFile(new URL(page.path,output),page.html);
  await mkdir(new URL('assets/',output),{recursive:true});
  for(const [path,body] of journeyAssets)await writeFile(new URL(path,output),body);

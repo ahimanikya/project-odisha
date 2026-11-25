@@ -1,0 +1,151 @@
+{
+  "status": "READ_ONLY_RECONCILIATION_PLAN_READY",
+  "reviewer": "Drishti; separate AI reviewer",
+  "date": "2026-11-25",
+  "base": "013a3950f5e30aace88e2fdf5179819cdc8041a5",
+  "incoming_merge": "e5401eb6e18e4e302ddd8b433066be6ee858822b",
+  "incoming_parents": [
+    "013a3950f5e30aace88e2fdf5179819cdc8041a5",
+    "89cbbcd2aa7ac2269762dc5c64c25354def32644"
+  ],
+  "incoming_tree": "06e5953bfb0d61704dc5e0335e1b77340c94f631",
+  "incoming_files": [
+    {
+      "path": "kb/catalog.json",
+      "bytes": 388541,
+      "incoming_sha256": "00083d5f3f7daf3d5846bc3c1211d53ccd9cbe138799da8b022b304a9b30c2b0",
+      "incoming_git_blob": "55b4bf6c07f68440c3c8c7954f5ef6005a085825",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "kb/records/article-editorial-rollout.json",
+      "bytes": 1071628,
+      "incoming_sha256": "c6ef4250beb395cf0f8ac11e2fb9dfcb89255e5cc4cb4631e82f835902d0d7f5",
+      "incoming_git_blob": "bf1ae30c5e90628d51884c174ed63f31db2516ee",
+      "handling": "reconcile combined data or regenerate derived view"
+    },
+    {
+      "path": "kb/records/article-editorial-work-list.md",
+      "bytes": 280907,
+      "incoming_sha256": "ff576e37dcbd013164ef21b2cc2b0b82570a41aabd1ab3a73238397e1ed98c43",
+      "incoming_git_blob": "04462503f19fb259661ee758804dd98b9799c4b2",
+      "handling": "reconcile combined data or regenerate derived view"
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "bytes": 1066207,
+      "incoming_sha256": "244f3799aa665a9e3da6657e6f9560dc1f1021520014ff037edef2090fe0bbc7",
+      "incoming_git_blob": "4900a2d6da2331d4f3dd323790dc73b50c2d6ac4",
+      "handling": "reconcile combined data or regenerate derived view"
+    },
+    {
+      "path": "kb/reference/public-website-routes.json",
+      "bytes": 58943,
+      "incoming_sha256": "530d3ea808ef38bc95561617c97a0429ac006cab9af85942b2f77e10f51370b6",
+      "incoming_git_blob": "8e55c16db890bd1cc0942401185293b4b95f300c",
+      "handling": "reconcile combined data or regenerate derived view"
+    },
+    {
+      "path": "kb/research/culture/akhi-muthi-anukula.md",
+      "bytes": 7185,
+      "incoming_sha256": "1b8cc21d3659e05d0278ceb6b2cac46a7512952d378faac3e93f64f3b030de83",
+      "incoming_git_blob": "a3e733779a4f7eb7d84fb23275612c0ea50c3d4b",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "bytes": 120302,
+      "incoming_sha256": "96ef1aa9845159f769cbc0f51dc30fcc23985c403ed847f4a84218e82bedc397",
+      "incoming_git_blob": "022963f8362707362f78ac31190887f2093e7139",
+      "handling": "reconcile combined data or regenerate derived view"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "bytes": 287908,
+      "incoming_sha256": "b6382eace8af1179a98e2a183cdcb1bfaf6e773de6799b591417db9ac34422b0",
+      "incoming_git_blob": "50597db041bfc3d2bbbb77c22fdd85889b3e69c6",
+      "handling": "reconcile combined data or regenerate derived view"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "bytes": 25567,
+      "incoming_sha256": "1f982332d193b03de399d4fa9495893f0246efe3761231e762810b8fcf3d4862",
+      "incoming_git_blob": "9e129311d3f1e1af08a0bed46293802f9ce757fb",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "projects/site/src/pages/stories/akhi-muthi-anukula.astro",
+      "bytes": 1444,
+      "incoming_sha256": "69f32c80232df67c2c9222b3c16b65216f05d806530215758a7f49b0a06faf8a",
+      "incoming_git_blob": "20bb2582c9e8ae9f6a0af346b99153dd7dfba644",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "bytes": 3320,
+      "incoming_sha256": "ceab15a6dec3020d8832bdde773b7aeb3476848853e51f38329e4124891947f2",
+      "incoming_git_blob": "c6dc95ce8cadbf328d4aa90b3222e8518a32ce7a",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "bytes": 3847,
+      "incoming_sha256": "27cf4a4bf78d8b755f8db641de2c445d479e8ce4982b1400cb845e6d3930b2c8",
+      "incoming_git_blob": "5d730737ab47082f6e12797bb1ba0c23fc4ea698",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "bytes": 5811,
+      "incoming_sha256": "3e55dcfd644d115115cf35fdd8f9002eff31655993397bf501b237bcfe2d7eba",
+      "incoming_git_blob": "8a548ca20247148b6fa5e2ef713694d84fc69d0d",
+      "handling": "preserve incoming bytes exactly"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "bytes": 7471,
+      "incoming_sha256": "2b16f62461a4f51f845e6e1b67df25d5edff3e34884dae415812cb652d778b90",
+      "incoming_git_blob": "4b201b24af9dc8eb3f491331e8766a8be45fa9e9",
+      "handling": "reconcile combined data or regenerate derived view"
+    }
+  ],
+  "shared_paths": [
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "preserve_incoming_byte_exact": [
+    "kb/catalog.json",
+    "kb/research/culture/akhi-muthi-anukula.md",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/pages/stories/akhi-muthi-anukula.astro",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+    "projects/site/tests-coast/discovery-flow.test.mjs",
+    "projects/site/tests-coast/edition.test.mjs"
+  ],
+  "checks": [
+    "Read complete14-file incoming diff and new article wrapper. Incoming merge first parent is013a3950, matching the requested comparison base. No checkout, merge, index mutation or source copy was performed.",
+    "Incoming adds one Akhi Muthi article, one discovery entry and one series link. It does not change Nilagiri manuscript/media or optimizer code.",
+    "Shared test conflict is arithmetic, not a choice between routes: each branch increments original static190 by one. Combined term192 is justified, with explicit Akhi, Garbhana and Nilagiri presence assertions retained. No standalone route recategorization.",
+    "Incoming coastal discovery counts171→172 represent its one added discovery entry. Nilagiri currently adds no discovery entry, so preserve incoming172 values without another increment."
+  ],
+  "reconciliation_checklist": [
+    "Wait until the active build stops, record its actual outcome and preserve failure history; do not merge underneath a running builder.",
+    "Create the coordinator checkpoint, merge incoming history and retain all seven nonshared incoming files byte-for-byte against the supplied hashes.",
+    "Union both exact route entries in coast and portable public-route inventories, each exactly once. Keep all existing standalone classifications and current search approval; both new routes remain hold.",
+    "Retain incoming queued Akhi rollout entry unchanged and the owned Nilagiri entry/status. Regenerate article work list from the combined rollout instead of hand-merging counts.",
+    "Regenerate editorial-workbench from final combined coast input; neither branch’s old input digest is valid after the route union. Regenerate/check catalogue and other derived records as necessary.",
+    "Set full-build static term192, preserving all three explicit page assertions and existing exhaustive links/assets/fragments checks. Preserve incoming coastal discovery test values172.",
+    "Re-run required combined full/coastal/publication pipeline and disclosure, source-preservation and actual payload checks. The current pre-merge package cannot validate the combined tree. New festival HTML can consume the projected capacity margin.",
+    "Bind incoming nonshared hashes, final combined source hashes and new required hosted CI to the final candidate before publication."
+  ],
+  "limits": [
+    "This is a preservation and reconciliation plan, not a substantive source/rights/layout review of the independently authored festival article.",
+    "Reported PR867 CI success was supplied by the coordinator; this review inspected fetched Git objects and did not independently query GitHub.",
+    "No capacity or publication acceptance is granted. Nilagiri local screenshot review remains source-bound and must be reconciled after rebuild."
+  ]
+}

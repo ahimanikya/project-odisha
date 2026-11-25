@@ -1,0 +1,40 @@
+[
+  {
+    "stage": "full-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 146.44,
+    "manuscript_sha256": "7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed",
+    "source_head": "d4e52e5040a24a5f9af94da23a74ede0c9a95878",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "full-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 3.87,
+    "manuscript_sha256": "7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed",
+    "source_head": "d4e52e5040a24a5f9af94da23a74ede0c9a95878",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "full-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 20.23,
+    "manuscript_sha256": "7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed",
+    "source_head": "d4e52e5040a24a5f9af94da23a74ede0c9a95878",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  }
+]
