@@ -1,0 +1,51 @@
+{
+  "reviewer": "Drishti, separate AI reviewer, not human specialist approval",
+  "reviewed_at_utc": "2026-11-25T11:49:06.235738+00:00",
+  "publication_base": "b8b08ea25a7b91c44a2bb8b23d9f92d8faceec81",
+  "receipt_checkpoint": "11d17a59e41eed238cdf15711b5a7584617242c5",
+  "incoming_festival_merge": "6573e6b762ea7a67234f644b256fa18e8ecec57e",
+  "blockers": [],
+  "status": "PASS_FINAL_INTEGRATED_RECEIPT_WORKING_TREE",
+  "reviewed_canonical_sha256": {
+    "kb/records/article-editorial-rollout.json": "cdc4ad501d2470210e7380a96de3e3a18394c869602e86f4e6b32513d721d254",
+    "kb/records/article-editorial-work-list.md": "af85da23f85f123dafdc87a6feb8c3941c04187e73cd26389481b3f800bad5ff",
+    "kb/records/nilagiri-publication-20261125.json": "62cf1868ccd90b45bf84c2be91d633282f805f39d1ba3133288847f2b5375a04",
+    "kb/registers/DASHBOARD.md": "0fed55e1a9541ecf1ec6a588fd5dfa14255d880b94fd62b7cd42e1efc5da1354",
+    "kb/registers/activity.jsonl": "d48b45dfa967b37021e97f32e8b92e7503c1c5e0e377caa6065705ca47c4ac12",
+    "kb/registers/records.json": "768642eadc40d7dfc7c26ef6210d861eb97a37712abb6082f6f60857f2a1e2e2",
+    "kb/team/operations.json": "d27814a6f24301240e54fec0fd8fa12ec7ccd6bdd05f4b6888d666844cf60b2a"
+  },
+  "reviewed_evidence_sha256": {
+    "outputs/nilagiri-publication-20261125/release/receipt-reconciliation.json": "088658b2a1584e0aa3862b6080876334b4852fc0606c161c648dd0f4fe4209e9",
+    "outputs/nilagiri-publication-20261125/review/delivery-review.json": "7d0e4ed186bf8e083e1416ae086b89f9439ddd3047ba6e7fe0f217092939f08c",
+    "outputs/nilagiri-publication-20261125/review/final-package-review.json": "42ad623e7f07c106682464960eac432fd10c81cbd8dfc62f31729739d878d714",
+    "outputs/nilagiri-publication-20261125/review/exact-commit-review.json": "095d2feea7ef5dbadbe5efb0e60527ad46207f45cc0fba8ad3dbaba4f9a99531",
+    "outputs/nilagiri-publication-20261125/browser-live.json": "ba9664ff72e9543609e56cff12150b063be2d6e62be49efd18666db58287ae9f",
+    "outputs/nilagiri-publication-20261125/live/image-comparison.json": "9d68906515ec83ac51ab7742d7a9156e800fb991f20936596798b95bd1ca5e1b",
+    "outputs/nilagiri-publication-20261125/live/page-difference-classification.json": "05ce71a91231ac805444dcb2aba7b647fbdbfd868fa072930f458012504d9b2a",
+    "outputs/nilagiri-publication-20261125/review/receipt-reconciliation-plan.json": "cdec8d3aa65726c0d2a3512df8cebd89f25cf27d5496b0fd5f93494b58a10559",
+    "outputs/nilagiri-publication-20261125/review/receipt-reconciliation-review.json": "24e597da656509a80ed0d18806044f149c45ccfc1aa8056587898e51fe42b6e3"
+  },
+  "findings": [
+    "Seven canonical/derived KB files differ from current incoming main; the diff is narrow after Unicode-format restoration. No public source edits are introduced by the receipt.",
+    "Receipt accurately records publication PR868, exact candidate/merge, successful CI and deployment45588246011, historical999987029-byte payload, seven routes,43images and nine screenshots.",
+    "Delivery review hash and scope match the actual separate review. Eight directly affected image files are exact;35existing variants differ in bytes/pixels and were individually inspected. Raw REVIEW_DIFFERENCES reports remain preserved. Whole-page analytics-element differences and two content-fragment URL substitutions are explicitly classified.",
+    "Only Nilagiri work/review/release rows change in shared registers. Its work is completed and published, its AI review is pass, and release links the correct article. Historical candidate-merged event retains its then-running deployment state; later event records actual live delivery without claiming receipt merge.",
+    "Operations receipt_integrated and scope_released true are explicitly conditional: release takes effect only after reviewed receipt actually merges following required CI. No next article is claimed; explicit return is still pending.",
+    "Only Nilagiri rollout completion changes; foreign Chitau stays queued as incoming. Foreign Kala Bhoomi pointers and67protected preparation files remain exact. Programme credit remains zero.",
+    "Historical failed build/test/helper attempts are retained and superseded by actual local and hosted successes. Current combined capacity after PR869 is correctly left to required receipt CI."
+  ],
+  "actual_checks": [
+    "Independently ran registers.py --check: valid1409records882events; dashboard current.",
+    "Ran workbench --check: first call reached an ignored dist output write and failed workspace permission. Reran with only that dist/index.html write suppressed; input/current-record checkPASS,500records. No tracked or public writes.",
+    "git diff --check against incoming main forKB passed.",
+    "Independently compared all13incoming nonshared files, allincoming rollout rows,67protected artifacts, public source tree and foreign pointers."
+  ],
+  "limits": [
+    "Working-tree review during merge reconciliation, not exact committed receipt approval. Required hosted CI and actual receipt merge remain pending.",
+    "No additional live/browser interaction or full website build was performed; published delivery evidence is historical and bound to b8b08ea25.",
+    "Root reported other catalogue/bundle/team/programme validators passed; reviewer independently reran only the bounded checks stated above.",
+    "Review did not assume or approve Chitau publication status beyond preserving its independently merged source/records."
+  ],
+  "merge_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit return then goes to the coordinating hill chat; no next article is claimed here."
+}
