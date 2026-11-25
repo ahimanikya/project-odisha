@@ -1,0 +1,69 @@
+{
+  "status": "PASS_BUILD_TESTS_AWAIT_VISUAL_REVIEW",
+  "pdf": {
+    "pages": 359,
+    "bytes": 190011210,
+    "sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373",
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/pdf/odia-dhaga-art-five.pdf"
+  },
+  "entries": 550,
+  "variants": 39,
+  "reading_units": 589,
+  "illustrated_entries": 550,
+  "tests": {
+    "count": 36,
+    "status": "PASS",
+    "log": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/dhaga-art-five-2026-11-25/tests.log"
+  },
+  "preservation": {
+    "all550_non_graphic_fields": true,
+    "other545_entry_bytes": true,
+    "other545_artwork_hashes": true,
+    "encoding_unchanged": true
+  },
+  "proofs": [
+    {
+      "id": "POD-DHAGA-142",
+      "page": 21,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/dhaga-art-five-2026-11-25/proof-142-page-21.png"
+    },
+    {
+      "id": "POD-DHAGA-288",
+      "page": 306,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/dhaga-art-five-2026-11-25/proof-288-page-306.png"
+    },
+    {
+      "id": "POD-DHAGA-386",
+      "page": 51,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/dhaga-art-five-2026-11-25/proof-386-page-51.png"
+    },
+    {
+      "id": "POD-DHAGA-497",
+      "page": 211,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/dhaga-art-five-2026-11-25/proof-497-page-211.png"
+    },
+    {
+      "id": "POD-DHAGA-504",
+      "page": 357,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/dongria-release-20261105/output/dhaga-art-five-2026-11-25/proof-504-page-357.png"
+    }
+  ],
+  "pdf_delta_bytes": -52890,
+  "dependencies": "/private/tmp/dhaga-art-five-deps",
+  "implementation_visual_check": {
+    "status": "PASS",
+    "pages": [
+      21,
+      306,
+      51,
+      211,
+      357
+    ],
+    "finding": "All five full-page renders personally inspected: complete readable text, image/caption alignment, two-panel sequences and cracked slab/stool visible; no clipping or overlaps."
+  },
+  "commands": [
+    "python3 projects/odia-dhaga/build.py",
+    "PYTHONPATH=/private/tmp/dhaga-art-five-deps bundled-python -m unittest discover -s projects/odia-dhaga -p test_*.py",
+    "PYTHONPATH=/private/tmp/dhaga-art-five-deps bundled-python projects/odia-dhaga/build_print.py"
+  ]
+}

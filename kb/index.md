@@ -29,6 +29,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+[Five Dhaga illustration updates](records/odia-dhaga-art-five-2026-11-25.json): corrections and clarity improvements underway; final text preserved; website and book publication authorized.
+
 [Dhaga illustration review — 25 November 2026](records/odia-dhaga-illustration-review-2026-11-25.json): all550 images visually checked against the final entries.547 can be retained;142,386 and504 need illustration revision.288 and497 have optional clarity improvements. The completed text review remains unchanged; this audit did not change the artwork, website or PDF.
 
 [Dhaga editorial review complete — 25 November 2026](records/odia-dhaga-review-complete-2026-11-25.json): all550 entries individually reviewed; the final four interpretation decisions are recorded, with zero outstanding editorial questions or required spelling/explanation fixes for this edition. Existing published wording already matches these decisions; no rebuild is required. Historical and literal uncertainties remain evidence limits, not pending editorial choices.

@@ -1706,3 +1706,7 @@ All550 Dhagas have completed the editorial review for this edition. The four fin
 **25 November 2026 · Review complete with three correction briefs**
 
 All550 current illustrations were actually viewed against their final entries.547 can be retained.142 and386 need clearer same-actor staging;504 needs the flat grinding slab specified by the text.288 and497 have optional clarity improvements. The completed textual review remains unchanged. No artwork, website or PDF was changed in this audit. [Review record](../records/odia-dhaga-illustration-review-2026-11-25.json).
+
+## 25 November 2026 · Five Dhaga illustrations
+
+Founder authorized corrections142386504 and improvements288497 plus website/book publication. Final550 textual decisions preserved. Original assets retained; zero programme credit.
