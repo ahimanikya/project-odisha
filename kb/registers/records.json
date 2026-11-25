@@ -10865,7 +10865,7 @@
       "id": "POD-WORK-20261125027",
       "title": "Integrate 27 revised articles in the library and website",
       "category": "editorial_production",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
@@ -10873,7 +10873,7 @@
         "name": "Current coordinating assistant with separate implementation and quality-review agents"
       },
       "authorization": "POD-DEC-20261125027",
-      "next_action": "Complete integrated source/link checks, publication checks and live verification of every article and category entry.",
+      "next_action": "Published and all28 routes verified; retain sources and respond to future corrections.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261125027"
@@ -26418,6 +26418,24 @@
       ],
       "independent": true,
       "summary": "Separate source/media/capacity/code/rendered/package/exact-candidate and fresh delivery review passed. Root13livecaptures and5routes checked; independent31images,4measured differences visually accepted. Raw differences and limits retained. Required receipt review/checks/merge pending. Not human-specialist or field approval."
+    },
+    {
+      "id": "POD-REV-20261125027",
+      "title": "Separate27-article source, integration and delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Separate article_integration_review agent"
+      },
+      "refs": [
+        "POD-WORK-20261125027",
+        "POD-DEC-20261125027"
+      ],
+      "evidence": [
+        "records/independent-articles-27-20261125.json"
+      ],
+      "independent": true,
+      "summary": "Original narratives and109 citation occurrences preserved; six categories and all27 articles reviewed. Task-scoped AI review, not human specialist approval."
     }
   ],
   "releases": [
@@ -30948,6 +30966,21 @@
       ],
       "evidence": [
         "records/barunei-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261125027",
+      "title": "27 independent Odisha essays in six categories",
+      "status": "published",
+      "authorization": "POD-DEC-20261125027",
+      "destination": "https://projectodisha.org/stories/odisha/",
+      "refs": [
+        "POD-WORK-20261125027",
+        "POD-DEC-20261125027",
+        "POD-REV-20261125027"
+      ],
+      "evidence": [
+        "records/independent-articles-27-20261125.json"
       ]
     }
   ],
