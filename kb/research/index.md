@@ -68,3 +68,5 @@ This is a research collection, not a current travel-booking directory. Statement
 [Ashta Nayika](culture/ashta-nayika.md) · [Odissi abhinaya](culture/odissi-abhinaya.md) · [Champu and sakhi research](sources/champu-and-sakhi-research.md) · [Instagram survey and research directions](sources/odissiandbeyond-research-map.md). Local drafts; 140 caption records surveyed, complete audiovisual review not claimed.
 
 [Illustrated Champu and sakhi article](culture/champu-and-sakhi.md) completes the linked Nayika–abhinaya–sakhi reading sequence. Each article includes an image and visible credit to Soumya Biswajit / Odissi & Beyond.
+
+- [Odisha: places, work and living traditions](stories/independent-features/index.md) — 27 revised source-linked articles, organised by subject.

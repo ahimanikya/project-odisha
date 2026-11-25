@@ -61,3 +61,11 @@ Subject membership is editorial classification. It does not establish historical
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
+
+## Places, work and living traditions
+
+- [Mandasaru and the smaller lives of a forest gorge](../stories/independent-features/nature/mandasaru.md) — Fungi, ferns and community institutions within a protected forest gorge.
+- [Pentha and the unfinished work of coastal protection](../stories/independent-features/nature/pentha.md) — The changing design and maintenance of a coastal defence at Pentha.
+- [Patrapada’s garden of named plants](../stories/independent-features/nature/patrapada.md) — Named plants, soil and water management, and research at Patrapada’s garden.
+- [The rivers beyond Similipal’s waterfalls](../stories/independent-features/nature/similipal-waterfalls.md) — Barehipani, Joranda and the rivers that connect Similipal to the wider region.
+- [Cyclone Dana and the layers of coastal protection](../stories/independent-features/nature/cyclone-dana.md) — Dana’s landfall, dated evacuation records and the evidence for layered protection.

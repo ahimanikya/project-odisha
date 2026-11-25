@@ -1,0 +1,50 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import ArticleByline from '../../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../../lib/reviewed-culture-article.mjs';
+import {independentFeatureCollection as collection, independentFeatures} from '../../../data/independent-features';
+import '../../../styles/article-reading.css';
+
+export function getStaticPaths() {
+  return independentFeatures.map(entry => ({params: {slug: entry.slug}, props: {entry}}));
+}
+const {entry} = Astro.props;
+const sources = import.meta.glob('../../../../../../kb/research/stories/independent-features/*/*.md', {query: '?raw', import: 'default', eager: true});
+const source = sources['../../../../../../' + entry.source_path];
+if (typeof source !== 'string') throw Error(`Canonical article is missing: ${entry.source_path}`);
+const article = renderReviewedCultureArticle(source, {sourcePath: entry.source_path, route: entry.href});
+if (article.title !== entry.title) throw Error(`Article title disagrees with collection: ${entry.slug}`);
+const siblings = independentFeatures.filter(item => item.subject === entry.subject);
+const next = siblings[(siblings.findIndex(item => item.slug === entry.slug) + 1) % siblings.length];
+const continueReading = [
+  {href: next.href, title: next.title, description: next.description},
+  {href: collection.href + '#' + entry.subject, title: entry.category}
+];
+const furtherReading = entry.related.length ? entry.related : [
+  {href: collection.href, title: collection.title}
+];
+---
+<Shell title={entry.title} description={entry.description} active="explore" related={false}>
+  <article class="article-reading independent-feature">
+    <nav class="collection-return" aria-label="Article collection">
+      <a href={collection.href}>{collection.title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={collection.href + '#' + entry.subject}>{entry.category}</a>
+    </nav>
+    <header>
+      <h1>{article.title}</h1>
+      <ArticleByline author={article.author}/>
+    </header>
+    <div set:html={article.html}/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p class="article-update"><a href={`/contribute/?page=${encodeURIComponent(entry.href)}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  .collection-return{font-size:.9rem;line-height:1.6;margin-bottom:2rem}
+  .collection-return a{display:inline-block;padding-block:.25rem}
+  .article-update{font-size:.9rem;margin-top:2.5rem}
+  article :global(.article-footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+</style>

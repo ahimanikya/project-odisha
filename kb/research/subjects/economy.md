@@ -154,3 +154,8 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Maker-linked services · 3 October 2026
 
 [Bargarh catalogue service](../economy/bargarh-textile-catalogue-service.md) is a business research draft linked to arts and place records; no profitability assertion.
+
+## Places, work and living traditions
+
+- [Lower Indra and the two promises of a reservoir](../stories/independent-features/economy/lower-indra.md) — The distribution network and resettlement commitments behind Lower Indra.
+- [Following Jalaput’s water towards electricity](../stories/independent-features/economy/jalaput-machkund.md) — Following stored water through diversion works into the Machkund power system.

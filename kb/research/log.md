@@ -854,3 +854,7 @@ Added two sourced articles, Champu/sakhi evidence and a dated Instagram concept 
 ## 2026-10-23 · Illustrated Nayika second pass
 
 Deepened Ashta Nayika with precise Gita Govinda passages, expanded abhinaya through the historical waiting scene and credited practitioner views, and created Champu/sakhi feature. Every article has an image and visible Soumya Biswajit acknowledgement. Two Met public-domain paintings and one original SVG retain provenance. No new archive-completion or public-release claim.
+
+## 2026-11-25
+
+Integrated [27 revised independent articles](stories/independent-features/index.md) across six existing subject families. Preserved narrative wording and cited URLs; converted inline citations to visible numbered footnotes for the public articles. Website delivery is tracked separately in the project register.

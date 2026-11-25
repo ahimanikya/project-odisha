@@ -104,3 +104,10 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 
 
 [Pala artists](../people/pala-artists.md) — teaching lineages, written works, women’s festival repertoire and recordings, with evidence dates.
+
+## Places, work and living traditions
+
+- [Dhemsa and the movement of a shared rhythm](../stories/independent-features/arts/dhemsa.md) — Linked movements, live instruments and the occasions that give Dhemsa meaning.
+- [Toshali’s temporary market for continuing craft](../stories/independent-features/arts/toshali.md) — Stalls, demonstrations and the work of bringing regional craft to buyers.
+- [Raja’s days of rest, swings and renewal](../stories/independent-features/arts/raja.md) — Agricultural rest, swings and the changing settings of Raja celebrations.
+- [Bande Utkala Janani from poem to public ceremony](../stories/independent-features/arts/bande-utkala-janani.md) — The poem’s landscape imagery and its movement into public ceremony.
