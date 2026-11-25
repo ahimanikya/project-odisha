@@ -10765,16 +10765,18 @@
       "id": "POD-WORK-20261125101",
       "title": "Correct Hatuari public attribution",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-20261125101",
-      "next_action": "Review removal and generated article, coordinate release, publish and verify live absence.",
+      "next_action": "Merge separately reviewed evidence-only receipt with required checks, then explicitly return temporary slot to Gonasika; Nilagiri follows.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261125101",
-        "POD-WORK-20261123101"
+        "POD-WORK-20261123101",
+        "POD-REV-20261125101",
+        "POD-REL-20261125101"
       ],
       "evidence": [
         "records/hatuari-privacy-correction-20261125.json"
@@ -26133,6 +26135,29 @@
         "Photo identity/date creator-supplied; no current access claim.",
         "Three existing delivery images differ in bytes/pixels, independently measured/viewed; no cause or pixel identity inferred. Screenshot framing limits retained."
       ]
+    },
+    {
+      "id": "POD-REV-20261125101",
+      "title": "Hatuari discussion-attribution correction review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261125101",
+        "POD-DEC-20261125101"
+      ],
+      "evidence": [
+        "records/hatuari-privacy-correction-20261125.json"
+      ],
+      "summary": "Separate source, rendered and exact-head candidate review passed; final live delivery review recorded in correction receipt.",
+      "limitations": [
+        "Prior public repository history is not erased",
+        "No new historical research or human specialist review",
+        "Local mobile verified; live browser viewport stayed desktop"
+      ]
     }
   ],
   "releases": [
@@ -30604,6 +30629,20 @@
       ],
       "evidence": [
         "records/malayagiri-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261125101",
+      "title": "Hatuari public attribution corrected",
+      "status": "published",
+      "authorization": "POD-DEC-20261125101",
+      "destination": "https://projectodisha.org/stories/kapileswar-hatuari/",
+      "refs": [
+        "POD-WORK-20261125101",
+        "POD-DEC-20261125101"
+      ],
+      "evidence": [
+        "records/hatuari-privacy-correction-20261125.json"
       ]
     }
   ],

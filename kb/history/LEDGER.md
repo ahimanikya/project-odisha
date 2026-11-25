@@ -1710,3 +1710,5 @@ All550 current illustrations were actually viewed against their final entries.54
 ## 25 November 2026 · Five Dhaga illustrations
 
 Founder authorized corrections142386504 and improvements288497 plus website/book publication. Final550 textual decisions preserved. Original assets retained; zero programme credit.
+
+- 2026-11-25 — Corrected the live Hatuari article before sharing: removed discussion-derived passages and note, retaining independently published sources and licensed photograph. Seven source notes, two article image files and History link verified. [Correction receipt](../records/hatuari-privacy-correction-20261125.json). Historical public repository versions remain; reviewed receipt merge precedes temporary-slot return to Gonasika, then Nilagiri. Zero programme credit.
