@@ -84,3 +84,11 @@ Subject membership is editorial classification. It does not establish historical
 ## History and heritage reading series
 
 [Open the history reading collection](https://projectodisha.org/history/) and [Reading Kalinga Beyond Odisha’s Borders](https://projectodisha.org/stories/reading-kalinga-beyond-odisha/) connect the documented work of contemporary researchers with earlier inscription scholarship. Publication status is recorded in the article handoff.
+
+## Places, work and living traditions
+
+- [A royal procession survives beneath Sitabinji’s rock](../stories/independent-features/history/sitabinji.md) — A painted procession, a fading caption and the documentation of Sitabinji.
+- [Kharaldhas and the forts along the Jonk](../stories/independent-features/history/kharaldhas-jonk.md) — The Jonk links Kharaldhas with forts and excavated remains in Maraguda.
+- [What Ashoka’s inscriptions at Dhauli ask of government](../stories/independent-features/history/dhauli.md) — Ashoka’s Separate Kalinga Edicts and their demands on judicial officers.
+- [Bali Jatra and the seasonal knowledge of sailors](../stories/independent-features/history/bali-jatra.md) — Monsoon sailing knowledge behind the maritime memory of Bali Jatra.
+- [What shell offcuts reveal about Odisha’s coastal craft](../stories/independent-features/history/coastal-shell-craft.md) — Shell offcuts, production stages and the evidence for coastal craft.
