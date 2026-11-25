@@ -1,12 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import sharp from 'sharp';
-import {mkdtemp,mkdir,writeFile,readFile,rm} from 'node:fs/promises';
+import {mkdtemp,mkdir,writeFile,readFile,rm,copyFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
 import {deliveryJPEGs,optimizePublicationJPEGs} from '../tools/optimize-publication-jpeg.mjs';
-test('JPEG delivery scope remains nine explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg','assets/champu-and-sakhi/radha-confidante-met.jpg','images/destinations/taptapani-worship.jpg']));
+test('JPEG delivery scope remains ten explicit images',()=>assert.deepEqual(deliveryJPEGs,['assets/sahi-jatra/performer.jpg','assets/sakhi-nata-and-sakhi-pila/mardala.jpg','images/stories/bhagabata-tungi-2016.jpg','assets/bhubaneswar-week/conversations.jpg','assets/bhubaneswar-week/mentis-films.jpg','assets/jhulana-in-odisha/hindola-raga.jpg','assets/ashta-nayika/abhisarika-met.jpg','assets/champu-and-sakhi/radha-confidante-met.jpg','images/destinations/taptapani-worship.jpg','assets/osakothi/simanchala-nahaka-2019.jpg']));
 test('Mardala delivery preserves the source frame, credit metadata and originals while updating sharing geometry',async()=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-jpeg-'));
  try{
@@ -225,5 +227,49 @@ test('Taptapani delivery preserves source and licence while bounding full-frame 
    await writeFile(assetPath,source);await writeFile(pagePath,invalid);await assert.rejects(optimizePublicationJPEGs(pathToFileURL(dir+'/')));assert.ok((await readFile(assetPath)).equals(source));assert.equal(await readFile(pagePath,'utf8'),invalid);
   }
   assert.ok((await readFile(sourceURL)).equals(source));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
+
+
+test('Osakothi delivery compresses only the reviewed JPEG with unchanged geometry and complete credit guards',async()=>{
+ const dir=await mkdtemp(path.join(tmpdir(),'publication-osakothi-jpeg-'));
+ try{
+ const asset='assets/osakothi/simanchala-nahaka-2019.jpg',page='stories/when-the-goddess-comes-to-the-wall/index.html';
+ const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
+ const originalPhrase='Responsive versions resized and re-encoded without cropping; original photograph retained.';
+ const deliveryPhrase='Full-frame photograph compressed for web delivery; responsive versions resized and re-encoded without cropping.';
+ const credit='<a href="https://commons.wikimedia.org/wiki/File:Guru_Simanchala_Nahaka_performs_Dhanakoila_or_Osakothi_(Gahana).jpg">Guru Simanchala Nahaka performs Dhanakoila or Osakothi</a>. Photograph by Prateek Pattanaik, 5 August 2019. CC BY-SA 4.0. '+originalPhrase+' <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.';
+ const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="2046"><meta property="og:image:height" content="2838"><figure><img src="/'+asset+'" width="2046" height="2838"></figure><p>'+credit+'</p><p>Unrelated article text.</p>';
+ const destination=path.join(dir,asset),pagePath=path.join(dir,page);
+ await mkdir(path.dirname(destination),{recursive:true});await mkdir(path.dirname(pagePath),{recursive:true});
+ const resetSource=async()=>{
+  await rm(destination,{force:true});
+  if(process.platform==='darwin')execFileSync('python3',[fileURLToPath(new URL('../tools/cow_copy.py',import.meta.url)),fileURLToPath(sourceURL),destination],{stdio:'pipe'});
+  // Hosted non-macOS tests use the same explicit independent-copy policy as publication staging.
+  else await copyFile(sourceURL,destination);
+ };
+ await resetSource();await writeFile(pagePath,html);
+ const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
+ assert.equal(result.files.length,1);assert.equal(result.files[0].path,asset);assert.equal(result.files[0].status,'compressed');assert.ok(result.saved_bytes>250000);
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:3072,quality:88,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ const output=await readFile(destination),before=await sharp(source).metadata(),after=await sharp(output).metadata();
+ assert.deepEqual([before.width,before.height],[2046,2838]);assert.deepEqual([after.width,after.height],[2046,2838]);assert.equal(after.orientation??1,before.orientation??1);
+ for(const field of ['icc','iptc','xmp'])assert.deepEqual(after[field],before[field]);
+ assert.equal(before.iptc.length,100);assert.equal(before.xmp.length,2992);assert.equal(before.icc,undefined);
+ // EXIF bytes may be rewritten by Sharp; no raw EXIF equality is claimed.
+ assert.equal(await readFile(pagePath,'utf8'),html.replace(originalPhrase,deliveryPhrase));assert.ok((await readFile(sourceURL)).equals(source));
+ for(const [name,invalid] of [
+  ['missing creator',html.replace('Prateek Pattanaik','Other Person')],
+  ['missing licence URL',html.replace('https://creativecommons.org/licenses/by-sa/4.0/','https://example.invalid/')],
+  ['missing source',html.replace('Guru_Simanchala_Nahaka_performs_Dhanakoila_or_Osakothi_(Gahana).jpg','Other.jpg')],
+  ['duplicate alteration',html+'<p>'+originalPhrase+'</p>'],
+  ['wrong share image',html.replace('content="https://projectodisha.org/'+asset+'"','content="https://projectodisha.org/unrelated.jpg"')],
+  ['wrong share width',html.replace('property="og:image:width" content="2046"','property="og:image:width" content="1"')]
+ ]){
+  await resetSource();await writeFile(pagePath,invalid);
+  await assert.rejects(optimizePublicationJPEGs(pathToFileURL(dir+'/')),undefined,name);
+  assert.ok((await readFile(destination)).equals(source),name+': source preserved after guard failure');assert.equal(await readFile(pagePath,'utf8'),invalid);
+ }
+ assert.ok((await readFile(sourceURL)).equals(source));
  }finally{await rm(dir,{recursive:true,force:true});}
 });

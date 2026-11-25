@@ -1,0 +1,69 @@
+{
+  "status": "source_ready_for_build_and_review",
+  "changed_site_files": [
+    "projects/site/src/pages/stories/nilagiri-stone-utensils.astro",
+    "projects/site/src/pages/stories/craft-listening.astro",
+    "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro",
+    "projects/site/src/pages/destinations/[slug].astro",
+    "projects/site/public/assets/nilagiri-utensils/nilagiri-stone-utensils-1200.webp"
+  ],
+  "canonical_sha256": "7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed",
+  "canonical_prose_and_notes_edited": false,
+  "native_notes": {
+    "references": 4,
+    "notes": 4,
+    "returns": 4
+  },
+  "preservation": [
+    {
+      "path": "projects/site/src/pages/stories/craft-listening.astro",
+      "prior_content_preserved_exact_after_removing_only_approved_addition": true,
+      "sha256": "d442b6920046f449ce965dbcb7e62af83446b600fdd37fdfe6e8e59c2b5c25d4"
+    },
+    {
+      "path": "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro",
+      "prior_content_preserved_exact_after_removing_only_approved_addition": true,
+      "sha256": "20d928199e8f0afa31be768aea75fc16da2deb44b62c4ed6b1a57a1517b654ee"
+    },
+    {
+      "path": "projects/site/src/pages/destinations/[slug].astro",
+      "prior_content_preserved_exact_after_removing_only_approved_addition": true,
+      "sha256": "f81440ce0cdcb3712cd63be982c3312fa839101d0f28ca8f5da693f701099a4e"
+    }
+  ],
+  "image": {
+    "src": "/assets/nilagiri-utensils/nilagiri-stone-utensils-1200.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 158022,
+    "sha256": "8ac780530a8262e6716b60bc00b63bac4e1a25fc8b12ed0e63b0e2194191bfae",
+    "original_png_sha256": "624928180e493b22556e39ee6b37cf92c879e5decf12a2e7dea2c8871cf33afa",
+    "original_and_portable_preparation_preserved": true,
+    "public_asset_exact_to_reviewed_webp": true,
+    "independent_inode": true,
+    "copy_method": "Installed APFS clone-aware helper, no fallback, no hardlinks",
+    "visual_review": "Generated original and approved1200x800 derivative personally viewed during preparation; publication copy exact hash, no further image edits."
+  },
+  "guide": {
+    "ids": [
+      "html",
+      "performance",
+      "responsive-design"
+    ],
+    "path": "implementation/web-guidance.md",
+    "retrieved": true,
+    "read_in_full": true,
+    "applied": [
+      "One visible h1, native anchors and figure/figcaption",
+      "Existing responsive component with explicit geometry and sizes",
+      "Hero eager/high priority; reading previews lazy",
+      "Shared reading path and rem-plus-viewport heading clamp; no new JS"
+    ]
+  },
+  "limits": [
+    "Full build and browser checks owned by coordinator, not claimed here.",
+    "Standalone @astrojs/compiler probe failed because package unavailable in Astro7 dependency tree; canonical renderer succeeded.",
+    "Capacity candidate not implemented or approved yet."
+  ],
+  "footnote_plugin_change": "Not required; existing raw reviewed renderer supplies visible source heading."
+}

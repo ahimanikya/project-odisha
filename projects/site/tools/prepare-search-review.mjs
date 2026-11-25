@@ -1,5 +1,6 @@
 // Separate local review output; publication continues to use dist-coast.
-import {readFile,writeFile,mkdir,cp,rm,lstat} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,rm,lstat} from 'node:fs/promises';
+import {copyPublicationTree} from './storage-copy.mjs';
 import {fileURLToPath} from 'node:url';
 import {validateSearchSelection,candidateRobots,searchSitemap,candidateCrawlers} from '../src/lib/search-launch.mjs';
 const site=new URL('../',import.meta.url),read=async p=>JSON.parse(await readFile(new URL(p,site),'utf8'));
@@ -12,7 +13,8 @@ for(const route of scope.routes){
 }
 const output=new URL('.search-review/',site);
 try{if((await lstat(output)).isSymbolicLink())throw Error('Refusing a symlink review output');}catch(e){if(e.code!=='ENOENT')throw e;}
-await rm(output,{recursive:true,force:true});await cp(new URL('dist-coast/',site),output,{recursive:true});
+await rm(output,{recursive:true,force:true});
+await copyPublicationTree(new URL('dist-coast/',site),output,{allowNonMacFullCopy:process.platform==='linux'});
 for(const page of pages)await writeFile(new URL(page.path,output),page.html);
 await writeFile(new URL('sitemap.xml',output),searchSitemap(routes));await writeFile(new URL('robots.txt',output),candidateCrawlers);
 await mkdir(new URL('.astro/',site),{recursive:true});

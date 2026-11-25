@@ -1,0 +1,90 @@
+{
+  "status": "local_browser_checks_pass",
+  "browser": "cua_repl in-app browser, tab17",
+  "origin": "http://127.0.0.1:4335",
+  "artifact": "projects/site/dist",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    "Desktop title/byline and reading measure",
+    "Mobile title/text/illustration fit; document scrollWidth equals390px viewport",
+    "Hero loaded; full-frame image351.609375px wide on390px viewport",
+    "Actual desktop source3click then Enter on Back to reference3 returned correct hash",
+    "Actual mobile image-note2click and Enter return; settled note capture includes Project Odisha credit",
+    "All three incoming Nilagiri cards clicked from craft-listening, Balasore and Jau Kandhei; actual target URL verified",
+    "Visible incoming illustration credit on allthreecards"
+  ],
+  "limits": [
+    "Viewport screenshots, not every pixel of every page.",
+    "local-mobile-credit.jpg captured before smooth scroll settled and shows prior reference region; local-mobile-credit-settled.jpg proves note destination.",
+    "local-mobile-craft-card.jpg captured before smooth scroll settled; local-mobile-craft-card-settled.jpg proves actual card.",
+    "ControlOrMeta+Home press failed; direct base-route navigation subsequently verified mobiletop.",
+    "First craft link locator omitted credit from accessible name; zero matches, corrected observed full accessible name.",
+    "Final hosted/live behavior remains to verify."
+  ],
+  "screenshots": [
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-body.jpg",
+      "bytes": 121084,
+      "sha256": "b9f20c79b720b455f5735f6e5048332d727aaf5e20c13feb8fcffbe58dfeaeab"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-jau-card.jpg",
+      "bytes": 79358,
+      "sha256": "3d012bae65d8c92c7affd24303b83ad02486454db7431ead7708b9a20756551a"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-notes.jpg",
+      "bytes": 121882,
+      "sha256": "a768ca4a3ad107eb1fea1851e274f549d41a8632ac8ab3cb3f272f1a3b6b9110"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-top.jpg",
+      "bytes": 97637,
+      "sha256": "7f5bfd335018a10d6c0d569798acff4da755cde66e965c11fd60e51baf1b4332"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-balasore-card.jpg",
+      "bytes": 39420,
+      "sha256": "74e760fc82bd7b1032c787c3d89e1f0770a4d987fc4e5c777e59b912c1216ca4"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-body.jpg",
+      "bytes": 68997,
+      "sha256": "07d771f43fe4b22f7f6adf8e1b34cf8362010b275105035143d9d98391898a80"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-craft-card-settled.jpg",
+      "bytes": 38893,
+      "sha256": "caa0c98dc9b0a5431e194ffc865f4f3a43000f75e2275bf2bff67b6170786c54"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-craft-card.jpg",
+      "bytes": 41120,
+      "sha256": "8a1d74cc49a2ebe1ec5ae12e0114b566b5ec093db1e02349aea62e0fbbd21105"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-credit-settled.jpg",
+      "bytes": 45862,
+      "sha256": "fef7d7bd2e1f09f2e014b913ae0295f5798b3c5530f06410a4c8c526e9055ffb"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-credit.jpg",
+      "bytes": 66000,
+      "sha256": "1ddf6f39957d4601b6b02d10c061789723ee30f0aa3012259fcb725eff94cbdc"
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-top.jpg",
+      "bytes": 48352,
+      "sha256": "30d881ee67503d924a4f102e8fc12d48aab830bed3bd44dffaf6ab7d970438d6"
+    }
+  ]
+}

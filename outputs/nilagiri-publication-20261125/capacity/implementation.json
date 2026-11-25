@@ -1,0 +1,61 @@
+{
+  "status": "implemented_targeted_tests_pass",
+  "approval": "Root visual approval plus Drishti review/capacity-review.json PASS",
+  "changed_files": [
+    "projects/site/tools/optimize-publication-jpeg.mjs",
+    "projects/site/tests/publication-jpeg.test.mjs",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "approved_delivery_asset": "assets/osakothi/simanchala-nahaka-2019.jpg",
+  "source_sha256": "57bf8f1fc7a6ccaab7106c37938e84a73c158b150e69a233e59b97502c67248c",
+  "source_unchanged": true,
+  "source_article_changed": false,
+  "source_metadata_record_changed": false,
+  "settings": {
+    "maximum_dimension": 3072,
+    "quality": 88,
+    "chromaSubsampling": "4:4:4",
+    "mozjpeg": true,
+    "preserve_metadata": true
+  },
+  "expected_geometry": [
+    2046,
+    2838
+  ],
+  "reviewed_candidate_sha256": "1e0d7da99a358d1365149e267960a9c3e87135a21001f9138d06df50420a4139",
+  "reviewed_candidate_bytes": 504666,
+  "reviewed_savings": 273619,
+  "existing_nine_entries_and_settings_preserved": true,
+  "guard_coverage": [
+    "Exactly ten explicit images",
+    "Matching Commons source and unique alteration phrase",
+    "Exact photographer/date/licence text and licence URL",
+    "Matching share image and unique original OG dimensions",
+    "Unchanged frame/aspect and equivalent orientation",
+    "ICC/IPTC/XMP preservation",
+    "Source asset unchanged after success and rejection",
+    "Only alteration sentence changes in HTML"
+  ],
+  "tests": {
+    "command": "PATH=/Users/ahimanikya/.nvm/versions/node/v25.8.1/bin:$PATH node --test tests/publication-jpeg.test.mjs",
+    "cwd": "projects/site",
+    "passed": 10,
+    "failed": 0,
+    "duration_ms": 22561.892709,
+    "history": [
+      "Initial invocation from repository root found no tests/publication-jpeg.test.mjs; corrected to projects/site and suite passed."
+    ]
+  },
+  "limits": [
+    "Compression is lossy; no decoded pixel equality claimed.",
+    "EXIF bytes may change; no full semantic tag audit claimed.",
+    "Final combined Linux package size and browser checks remain coordinator gates."
+  ],
+  "route_count_evidence": "implementation/route-count-diagnosis.json",
+  "scope_released": true,
+  "changed_file_sha256": {
+    "projects/site/tools/optimize-publication-jpeg.mjs": "3d7488a6f70669d99938c7685bf412120fb2164b25b65ef32d8f2b1403884156",
+    "projects/site/tests/publication-jpeg.test.mjs": "835dea915f6ff0cfebd2354e5ecd9889af81b760c64d2af376b06f7f068abab7",
+    "projects/site/tests/build.test.mjs": "7a3d0efb2d2eb9c4962de1c930c103640d80a5660406f5b2b7a68b9659e5fbdc"
+  }
+}
