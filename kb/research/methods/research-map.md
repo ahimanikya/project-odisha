@@ -1609,3 +1609,8 @@ Added one destination narrative after a scoped map and corpus search. District s
 ### Barunei destination extension · 25 November 2026
 
 Added one original destination narrative after scoped query and corpus checks. A 2006 historical essay, dated presidential commemorations and district tourism guidance retain distinct evidentiary roles. The licensed 2009 photograph shows a view from the hill; no current trail or shrine-access claim is inferred. Inventory: 1876 records. Publication and live verification remain pending; zero programme credit.
+
+
+### Kula preparation · 26 November 2026
+
+Reuse the [draft](../culture/kula-and-the-work-of-winnowing.md), [source dossier](../culture/kula-source-review-20261126.json) and [image provenance](../culture/kula-image.json). Existing Binchana, Dhinki and proverb mentions remain distinct from this dedicated implement reading. Antaranga supplies a passing object lead only. A bounded ICAR table, FAO technical explanation and dated Malkangiri reporting support different claims; no general origin, prevalence or current livelihood inference. The credited photograph is not assigned to the named makers. Three mapped records added; inventory1879. Preparation only, no public integration or programme credit; scoped search is not exhaustive semantic deduplication.

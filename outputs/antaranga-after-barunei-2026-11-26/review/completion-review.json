@@ -1,0 +1,141 @@
+{
+  "status": "PASS_COMPLETION_RECORDS_READY_FOR_LOCAL_COMMIT",
+  "reviewer": "Drishti, separate task-scoped AI reviewer",
+  "scope": "Bounded completion-record accuracy and preservation review; no repeated source, image or website review.",
+  "base": "c1b4b901ce692a70762a19a5d0e149747b6c9e18",
+  "checks": {
+    "delivery_files": {
+      "count": 20,
+      "all_sha256_match": true
+    },
+    "protected_preparation_files": {
+      "count": 67,
+      "all_sha256_match": true
+    },
+    "frozen_integrated_review_files": "All eleven recorded content/media/evidence hashes still match the completed integrated review.",
+    "foreign_operations": "current_task, handoff_home and prior Barunei current_article structurally identical to base.",
+    "register_changes": "Exactly one authorized preparation work, one Founder direction and one actual separate-review record added; no prior register rows removed or modified.",
+    "activity": "One preparation-reviewed event appended; all prior events retained. UTC timestamp corresponds to the local 26 November date.",
+    "ledger": "New entry explicitly says unpublished preparation, zero programme credit and pending reviewed local commit/slot return.",
+    "source_ids": "Canonical, research-map entries and dossier use the same three source IDs. Earlier dossier names retained as drafting aliases only.",
+    "research_map": "Exactly three Kula records added, no prior records removed or modified; total1879.",
+    "catalogue": "One draft article concept added; no prior concepts changed.",
+    "search_index": "Only existing research-map body extended;1506 entries retained. No claim that a new standalone search result was added.",
+    "workbench": "Only search-index input digest changed and independently matches the current file.",
+    "register_validation": "Actually ran python3 tools/registers.py --check:1416 records,885 events,dashboard current.",
+    "whitespace": "Actually ran git diff --check against base successfully before final sanitized-header change; root records final staged check separately.",
+    "public_scope": "No projects, tools, tests, editions or .github diff against base."
+  },
+  "record_accuracy": {
+    "status": "prepared_reviewed is consistent with completed content/media preparation; it is not a publication or commit claim.",
+    "scope_release": "scope_released true is expressly conditional in release_condition on separately reviewed local preparation commit and explicit return. Operations next_article_coordination retains local_commit_pending; no actual handoff claimed.",
+    "publication_authorized": false,
+    "publication_status": "not_published",
+    "programme_credit": 0,
+    "prior_checks": "Earlier-stage validation/checks counts retained; completion_checks separately reports updated1416/885 and8670 links.",
+    "source_budgets": "Frozen independent audit108/193/196/188 remains bound, under200 per family.",
+    "header_sanitization": "Current new header capture inspected: client-specific and cookie fields removed, readable LF text. Canonical record explains sanitation, updated delivery hash matches, and original image bytes are unchanged. No raw removed values reproduced in this report."
+  },
+  "limits": [
+    "Catalogue, bundle, team, programme and whole-workbench validator outcomes are root-observed, not rerun by this reviewer; corresponding bounded generated diffs and workbench digest were independently checked.",
+    "No fresh remote CI/PR query, website build, browser, publication or human specialist review in this completion pass.",
+    "Commit and explicit handoff remain pending. This report does not certify a future committed tree."
+  ],
+  "blockers": [],
+  "reviewed_sha256": {
+    "kb/records/antaranga-after-barunei-preparation-20261126.json": "be56ab9d133500989e00465dbb0d4617f6005da67eaf8b8c97799a15bde68152",
+    "kb/team/operations.json": "e9c8d928e9317926f8ecb6c0c385412ce75cbc19f2d9989b8fc9bcda8ef2df9a",
+    "kb/registers/records.json": "684709109267871475bab51c73ea77694f6c86f020373201d6400a12c7f28a31",
+    "kb/registers/activity.jsonl": "0c3343380fe53e72ad35d9858b5ca299132c09cb5899e6e04ddc45838e979d43",
+    "kb/registers/DASHBOARD.md": "060c133e7886c74a39456f622ca4edbdc0ac74e284d5bc30e71f655d8b374340",
+    "kb/history/LEDGER.md": "5df31f55245e33c8841f4f16c38e9974b24358da6ccc8439a7371129637e0b41",
+    "kb/research/references/data/research-map.json": "eee8bbfdf546af82f34693cd251e09bbd4b3f6859439b213da5fea177c5687bb",
+    "kb/research/methods/research-map.md": "4aac2666954e284ebd25c4b1a1e4d4aaf35a398620ce6e7579334496be863e52",
+    "kb/research/search-index.json": "8d75ebb3fa5b4106b0bc78ec3b986c89bd6cdaf0e3a9f58f1838b97a786bfeb8",
+    "kb/catalog.json": "35ed3e7684fb94aa49c37fdd11ba3bf16b315eb95f2d2591d07f1b431b7e26d4",
+    "kb/records/editorial-workbench.json": "1ffd0b5bde3a91dcee4f6740510f3bc63648394b066f94455d344242bc6381be"
+  },
+  "delivery_manifest_snapshot": [
+    {
+      "path": "kb/media/kula/kula-trays-1200.webp",
+      "sha256": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963"
+    },
+    {
+      "path": "kb/media/kula/winnowing-fan1-original.jpg",
+      "sha256": "341382ed0c65d057bfe8a16db75469540a737b129bbd6c8db92b0156fa14503b"
+    },
+    {
+      "path": "kb/research/culture/kula-and-the-work-of-winnowing.md",
+      "sha256": "855f6b48bea44726a19e9b86d293655742b3c46922c549ad2b5b0355e102efaf"
+    },
+    {
+      "path": "kb/research/culture/kula-image.json",
+      "sha256": "5153c5c958427fa5e4fd9b56076a73d679dff13bbf13f98cbd85333d7c9549c4"
+    },
+    {
+      "path": "kb/research/culture/kula-source-review-20261126.json",
+      "sha256": "31e65692236da864aadb87b0f746bccbf37f84760988c164821f8d261872fe60"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/article.md",
+      "sha256": "a8358a02b3f94d1e58b89eddc7d518cde6ea11839bf9b4b7103aa07b9e333bd3"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/checks.json",
+      "sha256": "b100d636c17fb70e4d039a8129973c3b190e2cab0bcf29cd1326e5decfd43b4b"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/media/commons-api.json",
+      "sha256": "cb8402fbb28c52c1f52a7993eb45bb30cf9ae9f4bec14f9c1d90b8ce739e4998"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/media/download-headers.txt",
+      "sha256": "e169976ac072c6df1947fdffd40e714927a15aa4afb2114e299ded64a8b14a23"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/media/image-measurements.json",
+      "sha256": "31b348ca9adefb39a9ad5fc4f2695e4b3c1b0dadd7bbcace51ec5173923bef82"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/media/image.json",
+      "sha256": "5153c5c958427fa5e4fd9b56076a73d679dff13bbf13f98cbd85333d7c9549c4"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/media/kula-trays-1200.webp",
+      "sha256": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/media/winnowing-fan1-original.jpg",
+      "sha256": "341382ed0c65d057bfe8a16db75469540a737b129bbd6c8db92b0156fa14503b"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/preserved-preparation.json",
+      "sha256": "4f35ea2ab44b25a87ab036e9f4ef28939d07bb577141f9ef9e17a0d4293e0cff"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/publication-brief.md",
+      "sha256": "cbd226144627b89a378c434ace6f84aff3be4b1fab72ad61dd668f8d3e638020"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/research/final-source-audit.json",
+      "sha256": "0845ec19033133cec0cab64f539ea2cf5bc6518d252ed03f1dffa12f5d25975b"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/research/icar-printed57.png",
+      "sha256": "e8f93beb46d8dbf71b77b272e07d05dfe384d7e87fd4f39fcbdc2c895023d2af"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/research/source-inspection-notes.json",
+      "sha256": "e184ca38fe18ef7dfdb4336b17b694501f9c3f7d648a383e01a4444a4aec13ed"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/review/integrated-review.json",
+      "sha256": "fadd8ecc2453d1dacd9a2653a4994311bec527d84615fb411339422a23824c80"
+    },
+    {
+      "path": "outputs/antaranga-after-barunei-2026-11-26/review/preliminary-review.json",
+      "sha256": "36f3e4620ecb3848366f42e5d206fa87fc05bda923911e968901a73271b5bc0f"
+    }
+  ],
+  "scope_released": true
+}

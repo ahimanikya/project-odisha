@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1419. blocked: 1, completed: 276, excluded: 873, queued: 269.
+Route inventory: 1420. blocked: 1, completed: 276, excluded: 873, in_progress: 1, queued: 269.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1442,4 +1442,5 @@ Route inventory: 1419. blocked: 1, completed: 276, excluded: 873, queued: 269.
 | POD-EDIT-INDEPENDENT-INDEX-20261125 | [Odisha: places, work and living traditions](https://projectodisha.org/stories/odisha/) | excluded | Categorized collection navigation |
 | POD-EDIT-GAMHA-PURNIMA | [Gamha Purnima: A Meal for the Bullocks](https://projectodisha.org/stories/gamha-purnima/) | queued | article |
 | POD-EDIT-PUSPUNI | [Puspuni: Who Gets a Share of the Harvest?](https://projectodisha.org/stories/puspuni/) | queued | article |
+| POD-EDIT-OLASUNI-20261126 | [Olasuni hill](https://projectodisha.org/destinations/olasuni/) | in_progress | One original hill destination article with credited photograph; zero programme credit. |
 | POD-EDIT-MAKAR-SANKRANTI | [Makar Sankranti: A Bowl of Rice for the Sun and a Friend](https://projectodisha.org/stories/makar-sankranti/) | queued | article |

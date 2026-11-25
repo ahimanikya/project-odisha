@@ -1,0 +1,145 @@
+{
+  "status": "PROPOSAL_PENDING_ROOT_AND_INDEPENDENT_REVIEW",
+  "date": "2026-11-26",
+  "baseline": {
+    "historical_linux_bytes": 999858345,
+    "files": 3694,
+    "remaining_bytes": 141655,
+    "limit": "Historical combined Barunei receipt, not a fresh Olasuni build."
+  },
+  "selected": {
+    "path": "assets/bhubaneswar-week/mentis-films.jpg",
+    "page": "stories/bhubaneswar-week/index.html",
+    "source_url": "/assets/bhubaneswar-week/mentis-films.jpg",
+    "source": {
+      "bytes": 3737818,
+      "sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+      "dimensions": [
+        5712,
+        3213
+      ]
+    },
+    "current": {
+      "bytes": 1279563,
+      "sha256": "49d0b2418bff5216afe5dd907acd7fcb0ff79b452a01bea97e702a29cf832d6d",
+      "dimensions": [
+        3072,
+        1728
+      ],
+      "reproduced_byte_exact": true
+    },
+    "candidate": {
+      "file": "mentis-films-q86.jpg",
+      "bytes": 665030,
+      "sha256": "573cf630eedded2e1616f72d39a60013775fa7c1c5804a816470e9a91bf3f63c",
+      "dimensions": [
+        3072,
+        1728
+      ],
+      "quality": 86,
+      "maximum_dimension": 3072,
+      "chromaSubsampling": "4:4:4",
+      "mozjpeg": true
+    },
+    "saving_bytes": 614533,
+    "orientation": [
+      1,
+      1
+    ],
+    "density": [
+      72,
+      72
+    ],
+    "metadata": {
+      "icc": {
+        "source_bytes": 536,
+        "candidate_bytes": 536,
+        "equal_to_source": true,
+        "equal_to_current": true
+      },
+      "iptc": {
+        "source_bytes": 0,
+        "candidate_bytes": 0,
+        "equal_to_source": true,
+        "equal_to_current": true
+      },
+      "xmp": {
+        "source_bytes": 2610,
+        "candidate_bytes": 2610,
+        "equal_to_source": true,
+        "equal_to_current": true
+      },
+      "exif": {
+        "source_bytes": 3068,
+        "candidate_bytes": 3040,
+        "equal_to_source": false,
+        "equal_to_current": true
+      }
+    },
+    "source_copies": {
+      "public": {
+        "bytes": 3737818,
+        "sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+        "source_equal": true
+      },
+      "dist": {
+        "bytes": 3737818,
+        "sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+        "source_equal": true
+      },
+      "dist-coast": {
+        "bytes": 3737818,
+        "sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+        "source_equal": true
+      }
+    },
+    "decoded_comparison": {
+      "lossless": false,
+      "reference": "Exact original resized to candidate geometry, decoded sRGB RGB.",
+      "psnr_db": 40.33761318524304,
+      "max_channel_error": 41
+    }
+  },
+  "rights": {
+    "basis": "Existing author-supplied publication authorization; no new public licence inferred.",
+    "record": "kb/records/bhubaneswar-week-publication-2026-10-24.json",
+    "credit": "Photograph supplied by Ahimanikya Satapathy."
+  },
+  "unchanged_contract": {
+    "same_url": true,
+    "full_source_frame": true,
+    "caption": "At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy. Full frame, resized and compressed for web delivery.",
+    "other_photograph": "assets/bhubaneswar-week/conversations.jpg at current q90 unchanged",
+    "sharing": "Separate poem-conversations-v1.png remains unchanged; no OG geometry change.",
+    "responsive_variants": "Unchanged existing variants; only named base delivery JPEG proposed."
+  },
+  "capacity": {
+    "new_olasuni_package": 618212,
+    "projected_remaining_before_html": 137976,
+    "alternative_q88": {
+      "bytes": 726024,
+      "saving_bytes": 553539,
+      "remaining_before_html": 76982,
+      "decision": "Same image, but tighter room for new route/three previews. q86 candidate provides additional60994B margin."
+    },
+    "limits": "Actual local and hosted final strict payload gates required; no final-fit assertion."
+  },
+  "visual": {
+    "status": "IMPLEMENTER_INSPECTED_PENDING_ROOT_AND_SEPARATE_REVIEW",
+    "comparison_order": "Original/current/candidate left to right, same geometry at each scale.",
+    "files": [
+      "mentis-q86-fullframe.png",
+      "mentis-q86-detail.png"
+    ],
+    "required": "Root and separate reviewer must inspect actual candidate and comparisons before implementation.",
+    "finding": "Viewed full-frame and detail triptychs. At observed scales, faces, clothing texture, sign and framed poster composition remain clear; fine poster text is softer at pixel level. No conspicuous blocking or colour shift observed. No face identity inference. Compression is lossy, not pixel-equivalent."
+  },
+  "implementation_if_accepted": {
+    "files": [
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs"
+    ],
+    "change": "Only existing Mentis entry receives settings3072/q86. Keep other nine entries and existing caption/source/geometry guards; extend relevant regression with incremental saving and unchanged other photo/share checks."
+  },
+  "storage": "No unchanged copies created; all outputs are new derived artifacts. Clone-aware skill read; no existing source, asset, optimizer, record or build was changed."
+}
