@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1389. blocked: 1, completed: 249, excluded: 872, queued: 267.
+Route inventory: 1390. blocked: 1, completed: 249, excluded: 872, in_progress: 1, queued: 267.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1413,3 +1413,4 @@ Route inventory: 1389. blocked: 1, completed: 249, excluded: 872, queued: 267.
 | POD-EDIT-CHITAU-AMAVASYA | [Chitau Amavasya: A Pitha for the Feet in the Field](https://projectodisha.org/stories/chitau-amavasya/) | queued | article |
 | POD-EDIT-BARUNEI-20261125 | [Barunei: Two Goddesses and Khordha’s Past](https://projectodisha.org/destinations/barunei/) | completed | One original hill destination article with credited article and preview image; zero programme credit. |
 | POD-EDIT-GAMHA-PURNIMA | [Gamha Purnima: A Meal for the Bullocks](https://projectodisha.org/stories/gamha-purnima/) | queued | article |
+| POD-EDIT-OLASUNI-20261126 | [Olasuni hill](https://projectodisha.org/destinations/olasuni/) | in_progress | One original hill destination article with credited photograph; zero programme credit. |
