@@ -1,14 +1,13 @@
 {
-  "candidate_state": "Hosted-check preparation only",
-  "final_local_package": "pending",
+  "candidate_state": "Final local package reviewed; corrected commit and hosted checks pending",
+  "final_local_package": "PASS",
+  "final_package_review_sha256": "429d15b4dd85be3a1633673fdf0670d932bcbadfbe0b7d01fdf2e99136337430",
   "publication_allowed": false,
-  "prior_package_report_location": "pre-hatuari-package/",
-  "original_root_optimization_reports": "Pre-Hatuari copies until refreshed after current build; not current package measurements.",
   "required_before_merge": [
-    "Completed rebuilt package",
-    "Final artifact verification",
-    "Separate final package review",
-    "Separate exact-head review",
-    "Required hosted CI success"
-  ]
+    "Independent exact corrected-commit review",
+    "Successful required hosted CI on that head"
+  ],
+  "local_artifact_report": "local-verification.json",
+  "prior_package_report_location": "pre-hatuari-package/",
+  "limits": "No deployment or live verification yet; local package measurements do not substitute for actual Linux capacity."
 }

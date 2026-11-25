@@ -123,5 +123,43 @@
     "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
     "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
     "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 798.09,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "publication-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 13.22,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "search-shortlist",
+    "command": [
+      "python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 41.51,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "status": "candidate_prepared_pending_final_checks",
+  "status": "final_candidate_review",
   "article_id": "POD-EDIT-GONASIKA-20261125",
   "route": "/destinations/gonasika/",
   "owner": "Disha",
@@ -66,14 +66,25 @@
   "capacity": {
     "prior_linux_payload_bytes": 999907903,
     "prior_remaining_bytes": 92097,
-    "new_package_measurement": "pending",
+    "new_package_measurement": "Reconciled localpackage999067472bytes/3680files; actual Gonasika Linux capacity pending required CI.",
     "proposal": "outputs/gonasika-publication-2026-11-25/review/capacity-proposal.json",
     "root_visual_acceptance": "Original/current/proposed1728px full-frame Mardala triptych and detailed rim/lacing comparison personally viewed. Framing and visible drum detail acceptable; lossyresizing not pixel equivalence. Separate review pending before implementation.",
     "review": "outputs/gonasika-publication-2026-11-25/review/capacity-review.json",
     "implementation_authorized": "Root and separate Drishti reviewed measured1728/q95 existing Mardala derivative, original/full frame retained; only named entry and related regression test. Public modification caption and sharing geometry must remain accurate.",
     "selected": "assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
     "measured_local_saving_bytes": 1134461,
-    "implementation": "outputs/gonasika-publication-2026-11-25/review/capacity-implementation.md"
+    "implementation": "outputs/gonasika-publication-2026-11-25/review/capacity-implementation.md",
+    "local_payload_bytes": 999067472,
+    "local_payload_files": 3680,
+    "local_remaining_bytes": 932528,
+    "reconciled_baseline": {
+      "deployment": 45550295469,
+      "head": "5c3a2e84dbb380ec235494d0c4e066347618f21e",
+      "bytes": 999841567,
+      "files": 3675,
+      "remaining_bytes": 158433,
+      "scope": "Latest successful Dhaga deployment read from actual log; not a Gonasika result."
+    }
   },
   "next_slot": {
     "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
@@ -81,7 +92,7 @@
     "condition": "Only after Gonasika reviewed receipt actually merges and explicit handoff.",
     "authority_basis": "Other chat reports a newer direct Founder instruction for Nilagiri publication; not independently read here. This is a coordination reservation only, not publication authority for this release. Receiving chat must act under its actual human instruction. Historical preparation remains publication_authorized=false."
   },
-  "next_action": "Run hosted candidate checks while final local compression completes; no merge or publication before fresh final local artifact and independent exact-head review pass.",
+  "next_action": "Complete corrected exact-head review and successful required CI, merge/deploy exact reviewed tree, verify live article/images/links and Hatuari preservation, then reviewed receipt and Nilagiri handoff.",
   "initial_consistency_correction": "First team check during claim assembly failed because rollout row was not yet appended. Added owned in-progress Gonasika row; no authorization or review inferred. Register check also rejected readiness research; changed to allowed draft value, retaining research phase in handoff. Later review-register assembly rejected an outside-KB ../outputs evidence path; corrected register to canonical KB handoff which links actual review evidence. Register rejected noncanonical passed/missing independence fields; corrected to pass and explicit true reflecting actual separate Drishti worker.",
   "remote_reconciliation": {
     "main": "07c3e16e85b4e342ef469259f545d4698e73dec2",
@@ -150,10 +161,12 @@
     "coast_tests": 599,
     "page_acceptance_checks": 5476,
     "build_results": "outputs/gonasika-publication-2026-11-25/build-results.json",
-    "status": "Reconciled full/coastal tests and audits passed; final publication compression and subsequent final artifact review still running. Candidate may enter hosted checks but must not merge/publish before final separate package and exact-head review.",
+    "status": "All13 reconciled build/audit stages and10878 final artifact checks PASS. Separate finalpackage review passed; exact corrected-head review and required hosted CI remain before publication.",
     "root_browser_review": "outputs/gonasika-publication-2026-11-25/browser/local-review.json",
     "scope": "Earlier17captures cover unchanged Gonasika/layout/Mardala source; final emitted parity still required.",
-    "artifact_report": "outputs/gonasika-publication-2026-11-25/local-verification.json"
+    "artifact_report": "outputs/gonasika-publication-2026-11-25/local-verification.json",
+    "artifact_checks": 10878,
+    "payload_report": "outputs/gonasika-publication-2026-11-25/payload-check.json"
   },
   "helper_review": {
     "path": "outputs/gonasika-publication-2026-11-25/review/reconciled-helper-review.json",
@@ -171,5 +184,17 @@
       "sha256": "39f2ce98f3ed79edcec513e46f587d19d1abe36eff031697c54cc4f1d657ad2a",
       "result": "PASS"
     }
+  },
+  "final_package_review": "outputs/gonasika-publication-2026-11-25/review/final-package-review.json",
+  "hosted_workbench_correction": {
+    "failed_run": 45557235994,
+    "record": "outputs/gonasika-publication-2026-11-25/release/workbench-correction.json",
+    "change": "Only generated input digest for kb/research/search-index.json refreshed; public source unchanged.",
+    "review": "Separate Drishti independently verified solehash delta and exact pure generator model."
+  },
+  "preserved_raw_whitespace": {
+    "record": "outputs/gonasika-publication-2026-11-25/release/full-candidate-whitespace.json",
+    "result": "PASS_WITH_EXACT_RAW_CAPTURE_EXCEPTIONS",
+    "scope": "Entire candidate against reconciled main, with11exact raw-source/log exceptions."
   }
 }
