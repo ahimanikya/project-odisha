@@ -1,5 +1,5 @@
 {
-  "status": "combined_validation_in_progress",
+  "status": "published_verified",
   "article_id": "POD-EDIT-OLASUNI-20261126",
   "route": "/destinations/olasuni/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has the other chat returned the slot now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112691",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "badd853c76dc8cd55541fb913156856761072667",
   "prior_handoff": {
     "record": "records/antaranga-after-barunei-preparation-20261126.json",
@@ -59,15 +59,21 @@
     "historical_combined_receipt_bytes": 999858345,
     "historical_files": 3694,
     "historical_remaining_bytes": 141655,
-    "status": "New final Linux measurement required",
+    "status": "Original publication CI and deployment passed. Receipt CI must separately measure combined main including PR877 and PR879.",
     "proposal": "outputs/olasuni-publication-2026-11-26/capacity/proposal.json",
     "separate_review": "outputs/olasuni-publication-2026-11-26/review/capacity-review.json",
     "root_review": "outputs/olasuni-publication-2026-11-26/capacity/root-visual-review.json",
     "approved_change": "Only existing Mentis delivery JPEG3072/q86, source original/full frame/current credit/disclosure retained; other paths unchanged.",
     "projected_incremental_saving_bytes": 614533,
-    "actual_final_gate_required": true
+    "actual_final_gate_required": true,
+    "actual_linux_ci_bytes": 999458286,
+    "actual_linux_ci_files": 3729,
+    "actual_linux_ci_remaining_bytes": 541714,
+    "actual_deployed_bytes": 999458286,
+    "actual_deployed_files": 3729,
+    "actual_deployed_remaining_bytes": 541714
   },
-  "next_action": "Complete combined validation and separate reconciliation review, then required hosted checks and authorized publication.",
+  "next_action": "Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Kula publication slot.",
   "next_slot": {
     "topic": "Kula",
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
@@ -105,8 +111,129 @@
       875,
       876
     ],
-    "status": "combined_validation_in_progress",
+    "status": "separately_reviewed_and_combined_checks_pass",
     "combined_contract": "outputs/olasuni-publication-2026-11-26/reviewed-article-contract-combined.json",
     "historical_evidence_unchanged": true
+  },
+  "publication": {
+    "pull_request": 878,
+    "reviewed_head": "4d9bd7227f071040f5967d9710ef1ffff4af6fd6",
+    "required_ci": 45698734939,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge": "931b8e6ac6e66626cff37e07c440b29284795372",
+    "reviewed_and_merged_tree": "bf8efa618b65f46f40502955bbd6fac9d6360d5f",
+    "deployment_run": 45703571404,
+    "deployment_status": "success"
+  },
+  "combined_local_validation": {
+    "full_tests": 838,
+    "coastal_tests": 603,
+    "page_checks": 5620,
+    "artifact_checks": 20323,
+    "bytes": 998623301,
+    "files": 3729,
+    "remaining_bytes": 1376699,
+    "build_evidence": "outputs/olasuni-publication-2026-11-26/build-results-combined.json",
+    "artifact_evidence": "outputs/olasuni-publication-2026-11-26/local-verification-combined.json",
+    "separate_review": "outputs/olasuni-publication-2026-11-26/review/final-combined-package-review.json",
+    "exact_commit_review": "outputs/olasuni-publication-2026-11-26/review/exact-candidate-review.json",
+    "live_claim": false
+  },
+  "failure_history": [
+    {
+      "stage": "combined local verifier",
+      "observed": "Ownership check used incoming main instead of returned Kula handoff. Corrected only comparison baseline to exact badd853c; all three fields retained, failed report preserved, separate review and 20323-check rerun pass. No public source change.",
+      "evidence": "outputs/olasuni-publication-2026-11-26/combined-verifier-correction.json"
+    },
+    {
+      "stage": "uncommitted receipt rollout check",
+      "observed": "Completed row lacked explicit publication_receipt pointer although evidence already linked it. Added required pointer and actual delivery fields; no public source change."
+    },
+    {
+      "stage": "uncommitted receipt ownership check",
+      "observed": "Current article phase still receipt caused active-claim consistency error after delivery completion. Set standard receipt_integrated phase with explicit actual-merge release condition; foreign ownership untouched."
+    }
+  ],
+  "review_id": "POD-REV-2026112691",
+  "pull_request": 878,
+  "verified_routes": [
+    "/destinations/olasuni/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/bhubaneswar-week/"
+  ],
+  "deployment": {
+    "run": 45703571404,
+    "head": "931b8e6ac6e66626cff37e07c440b29284795372",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999458286,
+    "files": 3729,
+    "remaining_bytes": 541714,
+    "evidence": "outputs/olasuni-publication-2026-11-26/release/deployment-45703571404.json",
+    "log": "outputs/olasuni-publication-2026-11-26/release/deployment-45703571404.log"
+  },
+  "delivery_review": {
+    "status": "PASS",
+    "reviewer": "Drishti, separate AI assistant",
+    "evidence": "outputs/olasuni-publication-2026-11-26/review/delivery-review.json",
+    "sha256": "a12b3b4e901a29d015f586b2856641f2c1c9606fbf2c6ca4de6593e7b07f277a"
+  },
+  "live_verification": {
+    "root_http": "outputs/olasuni-publication-2026-11-26/live-verification.json",
+    "root_checks": 522,
+    "root_routes": 5,
+    "root_images": 31,
+    "independent_routes": 5,
+    "independent_images": 33,
+    "screenshots": 11,
+    "browser": "outputs/olasuni-publication-2026-11-26/browser-live.json",
+    "root_measurement": "outputs/olasuni-publication-2026-11-26/image-comparison-2026-11-25T21-56-42-653Z/report.json",
+    "root_visual": "outputs/olasuni-publication-2026-11-26/root-live-image-review.json",
+    "independent_evidence": "outputs/olasuni-publication-2026-11-26/review/live-independent",
+    "raw_differences_retained": true,
+    "limits": "Olasuni base/960/1440 and selected Mentis JPEG byte-exact. Olasuni480, existing Saptasajya480, conversations JPEG and manuscript1440 differ; all four pairs separately measured and visually accepted without cause or pixel-identity claims. Article/card fragments match after observed responsive substitutions. Page shells additionally include classified hosted analytics markup; 44 unrelated Explore image tags differ only in srcset filenames, without claiming their delivered visual acceptance. Screenshot framing limits retained."
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to reserved Kula publication; no next hill is claimed.",
+  "review_limits": "Task-scoped separate AI reviews, not human specialist approval or field visit. EcoTour body indexed-only and availability unverified. Native UI actions and actual image differences documented; original sources preserved.",
+  "receipt_reconciliation": {
+    "incoming_pr": 877,
+    "incoming_merge": "c9acb10436ff6d4447791802461745776da2ce4b",
+    "required_ci": 45705119693,
+    "conclusion": "success",
+    "scope": "Preserve all14 incoming paths; regenerate shared work-list/workbench after completing only own Olasuni row. Public source equals latest incoming main. No extra deployment for evidence-only receipt.",
+    "historical_contract_limit": "24-input combined contract records the actual Olasuni candidate/deployment; subsequent Makar routes/tests/discovery additions are preserved separately, not relabeled as original release.",
+    "capacity": "Await actual combined receipt CI; original Olasuni deployment remains999458286 bytes/3729 files."
+  },
+  "receipt_pending": [
+    "Separate exact-commit continuity review",
+    "Required hosted receipt checks",
+    "Actual receipt merge and explicit handoff"
+  ],
+  "receipt_whitespace": "Four exact original local/hosted log paths retain captured whitespace; all other staged paths pass. See outputs/olasuni-publication-2026-11-26/receipt-whitespace-exceptions.json.",
+  "reported_followup_coordination": "outputs/olasuni-publication-2026-11-26/coordination-followup.json",
+  "integrated_receipt_review": {
+    "status": "PASS",
+    "evidence": "outputs/olasuni-publication-2026-11-26/review/final-receipt-review.json",
+    "sha256": "40f2aa0d6bd10bf2c46ca56e130bead23f61ad5939f22a2b13aa512c56cb6aff",
+    "scope": "Receipt based on c9acb10436ff6d4447791802461745776da2ce4b; subsequent incoming changes require separate reconciliation review."
+  },
+  "receipt_reconciliation_after_review": {
+    "incoming_pr": 879,
+    "incoming_merge": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "reviewed_incoming_head": "cd29868bd99b7500dd9053d834324905fe088954",
+    "required_ci": 45705527242,
+    "conclusion": "success",
+    "scope": "Preserve incoming independent-article images, code, tools, records and historical event formatting. Receipt changes no public source. Original Olasuni reviews and deployment remain scoped to their recorded source. No independent claim to re-review the incoming image collection.",
+    "preservation": "outputs/olasuni-publication-2026-11-26/receipt-pr879-preservation.json",
+    "capacity": "Required receipt CI measures latest combined source separately from original deployment.",
+    "separate_review": {
+      "evidence": "outputs/olasuni-publication-2026-11-26/review/receipt-pr879-review.json",
+      "sha256": "b637be22e0572221066fa5f2ae26bc941dd9d9b1e209c93ee920c7c5940ba2a3",
+      "status": "PASS"
+    }
   }
 }

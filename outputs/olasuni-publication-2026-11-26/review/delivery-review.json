@@ -1,0 +1,369 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "date": "2026-11-26",
+  "scope": "Fresh independent Olasuni live delivery, three incoming previews, all observed Olasuni/Bhubaneswar article images and variants, sharing assets, release evidence and saved browser rendering. Receipt integration and actual receipt merge remain separate.",
+  "publication_merge": "931b8e6ac6e66626cff37e07c440b29284795372",
+  "reviewed_candidate": "4d9bd7227f071040f5967d9710ef1ffff4af6fd6",
+  "tree": "bf8efa618b65f46f40502955bbd6fac9d6360d5f",
+  "release": {
+    "pull_request": 878,
+    "required_ci": {
+      "run": 45698734939,
+      "attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "head": "4d9bd7227f071040f5967d9710ef1ffff4af6fd6"
+    },
+    "deployment": {
+      "run": 45703571404,
+      "attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "head": "931b8e6ac6e66626cff37e07c440b29284795372"
+    },
+    "payload": {
+      "bytes": 999458286,
+      "files": 3729,
+      "remaining_bytes": 541714
+    },
+    "method": "Fresh gh api reads of PR, CI and deployment; actual deployment payload log inspected. Local git tree of publication merge equals the reviewed candidate tree.",
+    "evidence": {
+      "outputs/olasuni-publication-2026-11-26/review/live-independent/pr.json": "ae412baccc719dbcb0b9fb0f9f0620ebe74f0c78b22caa4215ba07cb918bafc7",
+      "outputs/olasuni-publication-2026-11-26/review/live-independent/ci.json": "33e3c482ab30ec8b76fd158a8bf7feb61a875b720145e4fec4a753d27b63c9ee",
+      "outputs/olasuni-publication-2026-11-26/review/live-independent/deployment.json": "c9cdfd73798d114ef52381ed39638b4c021bbce469daf1f60feed13221cbe45b"
+    }
+  },
+  "independent_http": {
+    "report": "outputs/olasuni-publication-2026-11-26/review/live-independent/http-verification.json",
+    "sha256": "8c2f589b21e01220898d5b6c10143ac430629c12b50d9bac424f3fe2de40560a",
+    "routes": 5,
+    "http_200_routes": [
+      "/destinations/olasuni/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/",
+      "/stories/bhubaneswar-week/"
+    ],
+    "images": 33,
+    "http_200_images": 33,
+    "fresh_capture": "Separate urllib requests with explicit same-URL/status/size assertions; raw pages and image bytes saved in review/live-independent/http.",
+    "coverage": "All images and srcset widths in both actual article fragments, selected preview images, and sharing images from all five pages.",
+    "root_count_distinction": "Root separately captured 31 images. All 31 captured/local hashes match the independent counterparts; reviewer additionally fetched the Hills and Destinations sharing assets.",
+    "fragment_comparisons": [
+      {
+        "route": "/destinations/olasuni/",
+        "file": "outputs/olasuni-publication-2026-11-26/review/live-independent/http/page-0.html",
+        "sha256": "ad3b982fb92a14deaf35c6462949f9a83738acbcf822850290813eb5df916778",
+        "local_sha256": "af3782bf93d96c1fdf0934095a9763a450bdf9de11dc0ec75b61240efca46ac0",
+        "full_page_exact": false,
+        "fragment_sha256": "e667e57fdfec0e845c1d04083c149838c841a2d5262e757b23fe27966ca3fe75",
+        "local_fragment_sha256": "456a122b476f14bbf3018af671a4811710d901e4cbdca8942379689c4775f7db",
+        "fragment_exact": false,
+        "substitutions": {
+          "/images/responsive/39259dc1b1379492-480.webp": "/images/responsive/81c3b5fb4304afbc-480.webp",
+          "/images/responsive/3867fe434648ddd8-480.webp": "/images/responsive/e0e6b1a38b4692ec-480.webp"
+        },
+        "fragment_exact_after_observed_urls": true,
+        "image_tags": 4,
+        "refs": 7,
+        "returns": 7
+      },
+      {
+        "route": "/destinations/hills/",
+        "file": "outputs/olasuni-publication-2026-11-26/review/live-independent/http/page-1.html",
+        "sha256": "f9a38d434a5a18494d410af8cfa051bd954744f179b5708b6881b0ef6caaf6f2",
+        "local_sha256": "6cdb8aaae1b5880e1cb318e3a049a5909afd8b7375bafd5664268d4b3d258551",
+        "full_page_exact": false,
+        "fragment_sha256": "956edb14914a11135ddd759619fc2a7d3c6171eb5f5c1b2ff977d54705da7a8f",
+        "local_fragment_sha256": "956edb14914a11135ddd759619fc2a7d3c6171eb5f5c1b2ff977d54705da7a8f",
+        "fragment_exact": true,
+        "substitutions": {},
+        "fragment_exact_after_observed_urls": true,
+        "image_tags": 1,
+        "refs": 0,
+        "returns": 0
+      },
+      {
+        "route": "/destinations/",
+        "file": "outputs/olasuni-publication-2026-11-26/review/live-independent/http/page-2.html",
+        "sha256": "00a23d080cb67c1776a35e57dfe3efad7c7ac87c17b14adbdcbe6539723660e9",
+        "local_sha256": "26e5364350eb3f76ba192477d69bdcaee9bcc71fc1cdea055be374fcf39c12a5",
+        "full_page_exact": false,
+        "fragment_sha256": "956edb14914a11135ddd759619fc2a7d3c6171eb5f5c1b2ff977d54705da7a8f",
+        "local_fragment_sha256": "956edb14914a11135ddd759619fc2a7d3c6171eb5f5c1b2ff977d54705da7a8f",
+        "fragment_exact": true,
+        "substitutions": {},
+        "fragment_exact_after_observed_urls": true,
+        "image_tags": 1,
+        "refs": 0,
+        "returns": 0
+      },
+      {
+        "route": "/explore/",
+        "file": "outputs/olasuni-publication-2026-11-26/review/live-independent/http/page-3.html",
+        "sha256": "5f1a4fbe70d064f40648033b3bd8ff0f780c957fb658d16b8cdee677f9ab739a",
+        "local_sha256": "b2f10eaaf6ddad238b0faca73cbd2a8decd869177f68971006c16ae086ef1dbe",
+        "full_page_exact": false,
+        "fragment_sha256": "098995f3ecc1743b7fd3345b3a03d513f2a1886b6daf982d3d8357c8df9666e9",
+        "local_fragment_sha256": "e750cc94cc845a78e1d2aa530e660f33e94a1fedb9379deec0706c8eba31b928",
+        "fragment_exact": false,
+        "substitutions": {
+          "/images/responsive/39259dc1b1379492-480.webp": "/images/responsive/81c3b5fb4304afbc-480.webp"
+        },
+        "fragment_exact_after_observed_urls": true,
+        "image_tags": 1,
+        "refs": 0,
+        "returns": 0
+      },
+      {
+        "route": "/stories/bhubaneswar-week/",
+        "file": "outputs/olasuni-publication-2026-11-26/review/live-independent/http/page-4.html",
+        "sha256": "c400b306ccafdb5e19f799ca088b0efbfae9266c80a83ebba0dc64eebcc6d57e",
+        "local_sha256": "690d98a76d6f24e49aa34c075b89939cea9cb8645c11e2590193f4d23fda4a94",
+        "full_page_exact": false,
+        "fragment_sha256": "b7d3d41ff00f10fcb4b8e2778fdcf052967abc2221f4c8eea2cdb88d32831afe",
+        "local_fragment_sha256": "75623c2ac850697074f0f67a283fe57947f79e36151f3bd18fd98dbd2b371cc0",
+        "fragment_exact": false,
+        "substitutions": {
+          "/images/responsive/f7fd7db2e2c9d60a-1440.webp": "/images/responsive/8b030c3b48acd32f-1440.webp"
+        },
+        "fragment_exact_after_observed_urls": true,
+        "image_tags": 5,
+        "refs": 0,
+        "returns": 0
+      }
+    ]
+  },
+  "image_review": {
+    "measurement": "outputs/olasuni-publication-2026-11-26/review/live-independent/image-measurement.json",
+    "sha256": "dac09814d76141104e6f4b9a9d993c6e56f64f4f6fe29036eb60ab4c567339ca",
+    "byte_exact": 29,
+    "byte_differences": 4,
+    "differences": [
+      {
+        "index": 1,
+        "url": "/images/responsive/81c3b5fb4304afbc-480.webp",
+        "local_url": "/images/responsive/39259dc1b1379492-480.webp",
+        "live_sha256": "81c3b5fb4304afbc0c10ea3ec04c10091241358c77aa9dd406a564947ac88013",
+        "local_sha256": "39259dc1b13794921f6fd272ed9ce7cb4626a3cfcaa0ce62b51a37d1d32653c3",
+        "byte_equal": false,
+        "dimensions": [
+          480,
+          215
+        ],
+        "local_dimensions": [
+          480,
+          215
+        ],
+        "orientation": [
+          1,
+          1
+        ],
+        "rgba_channels": 4,
+        "changed_channels": 38648,
+        "max_delta": 20,
+        "mean_delta": 0.2674297480620155,
+        "comparison": "comparison-1.png",
+        "comparison_sha256": "8cbbfa09abce3c82ae4a413d3c9d3bd2933d5a550c1070cbe1e02f0f7b25a0dc"
+      },
+      {
+        "index": 8,
+        "url": "/images/responsive/e0e6b1a38b4692ec-480.webp",
+        "local_url": "/images/responsive/3867fe434648ddd8-480.webp",
+        "live_sha256": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+        "local_sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+        "byte_equal": false,
+        "dimensions": [
+          480,
+          360
+        ],
+        "local_dimensions": [
+          480,
+          360
+        ],
+        "orientation": [
+          1,
+          1
+        ],
+        "rgba_channels": 4,
+        "changed_channels": 281081,
+        "max_delta": 27,
+        "mean_delta": 1.0829296875,
+        "comparison": "comparison-8.png",
+        "comparison_sha256": "59fe444a2f88a017b7bca82e8927aa44bacc6071724d34865aa18df6d9d51379"
+      },
+      {
+        "index": 17,
+        "url": "/assets/bhubaneswar-week/conversations.jpg",
+        "local_url": "/assets/bhubaneswar-week/conversations.jpg",
+        "live_sha256": "0391d5cf65c3a2bf3cf00c8b74ea54425a36cc8c3d0916332cbf10b6d9525470",
+        "local_sha256": "8acf94aeca470d945afb8a857d67fa4c7fbda5aa4e6713dcea03da14f1715981",
+        "byte_equal": false,
+        "dimensions": [
+          1728,
+          3072
+        ],
+        "local_dimensions": [
+          1728,
+          3072
+        ],
+        "orientation": [
+          1,
+          1
+        ],
+        "rgba_channels": 4,
+        "changed_channels": 702,
+        "max_delta": 4,
+        "mean_delta": 4.676536277488426e-05,
+        "comparison": "comparison-17.png",
+        "comparison_sha256": "64a4a8907f840adeaf5467817e04a4171a47c97296cd02d9a6cfe8fbfc179aad"
+      },
+      {
+        "index": 32,
+        "url": "/images/responsive/8b030c3b48acd32f-1440.webp",
+        "local_url": "/images/responsive/f7fd7db2e2c9d60a-1440.webp",
+        "live_sha256": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+        "local_sha256": "f7fd7db2e2c9d60a7e0c7c7ca4e239e108da495c669debc84da6c8e5a8c43fbd",
+        "byte_equal": false,
+        "dimensions": [
+          1440,
+          1080
+        ],
+        "local_dimensions": [
+          1440,
+          1080
+        ],
+        "orientation": [
+          1,
+          1
+        ],
+        "rgba_channels": 4,
+        "changed_channels": 1381315,
+        "max_delta": 23,
+        "mean_delta": 0.5755536265432099,
+        "comparison": "comparison-32.png",
+        "comparison_sha256": "83bf52b6da64ea58b278fb34f4ba4cb71d91f3cc88da5555e9917dcf7a4d6138"
+      }
+    ],
+    "method": "Independent decoding with installed Sharp/libvips; same orientation-normalized sRGB RGBA layout. Changed-channel count and mean/max deltas are RGBA measurements. Personally viewed each generated local-left/live-right full-frame comparison.",
+    "verdict": "Accepted visible display quality and framing in all four pairs. No conspicuous loss of scene identity or detail at the reviewed display size. Raw byte and pixel differences remain retained; no encoding cause or pixel identity is claimed.",
+    "new_media": "Olasuni public base, 960 and 1440 variants are byte-exact to the reviewed local package. Its 480 variant differs as measured. Actual Mentis q86 JPEG is byte-exact to the reviewed candidate.",
+    "original_sha256": "66b0e1ab536d10e6e6aad7acfcea4ecd46809149601b62045f89e17356556e81",
+    "public_base_sha256": "abebc1bda3211c852a579d3aaad8faead05736106f6670f4f9532fab84cf2928",
+    "mentis_sha256": "573cf630eedded2e1616f72d39a60013775fa7c1c5804a816470e9a91bf3f63c"
+  },
+  "page_differences": {
+    "report": "outputs/olasuni-publication-2026-11-26/review/live-independent/shell-differences.json",
+    "sha256": "6a90c833a7c8eb2d206a5b0d719ee168a765a60d12f1e4224cbd67cc4cd4a303",
+    "classification": "outputs/olasuni-publication-2026-11-26/review/live-independent/shell-classification.json",
+    "classification_sha256": "09492bd97db709abcc44500ba42933487674c551084466d3cab83a37c3da44d2",
+    "finding": "Both article fragments and every Olasuni card match exactly after only independently fetched observed responsive URL substitutions. Full pages additionally contain hosted analytics configuration and cookie-choice markup from the existing Analytics component; hosted workflow supplies its environment variable. Explore has 44 additional unrelated image tags whose only differing attribute is srcset, with matching source, alt, geometry and descriptor widths.",
+    "limit": "Those unrelated Explore variant bytes were not fetched or visually accepted. They remain classified raw markup differences; no whole-page byte-equality or blanket image acceptance is claimed.",
+    "non_evidence_attempt": "An initial character-level diagnostic diff was interrupted for slowness; the final saved token-level classification completed. Raw captures were unchanged."
+  },
+  "content_and_rights": {
+    "manuscript_sha256": "bd3c87392a277df871de542cafc3d180636c7156e4d5264fd4f12c0252dee1a9",
+    "article_refs": 7,
+    "unique_notes": 5,
+    "returns": 7,
+    "finding": "Delivered reviewed prose, byline, source links, native note IDs/returns, reading paths, caption, photographer and CC0 credit are preserved. Sharing points to the selected photograph. Three incoming cards retain the selected image and summary, with source/licence/modification credits in markup. Article is full-frame; previews intentionally crop. No current booking guarantee or new historical/media identity claim."
+  },
+  "browser_review": {
+    "root_manifest": "outputs/olasuni-publication-2026-11-26/browser-live.json",
+    "sha256": "5e79027b53329425b155bd7a350305af6fb5c8b2373ad4eca08abbea6c64d3ee",
+    "screenshots": [
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-desktop-destinations-card.jpg",
+        "sha256": "5840f2fc7de3c5b375ec6e5408f59ed2a682bccd5fcf588799c3c838afcce096"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-desktop-explore-card.jpg",
+        "sha256": "ba82670b87a336431bf8c5fd8a9f1006d2bb922ca1f2ccf8b0c565d3f66586da"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-desktop-hero.jpg",
+        "sha256": "f7214226628931fbc796185e4dfdd675e73a900e2b25f0ecaf2989e3b87bf4af"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-desktop-hills-card.jpg",
+        "sha256": "ea1f81a06778f0ebaadb5fd8e4945c4015f9e95efa1bcd322219692f0bcbcd78"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-desktop-notes.jpg",
+        "sha256": "327eaedeff8b5fa29944e3d82939ef6f8c913bb960803dc67b2332e617e9623d"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-mobile-body.jpg",
+        "sha256": "21e3e8ec54c048fa2647d35c440a242e16ed2827503bad47e04cfb64be503dfa"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-mobile-destinations-card.jpg",
+        "sha256": "5b0924744b9e9df79498b07c2ea44b2538340aa7e01b7f10341bf67228280d0f"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-mobile-explore-card.jpg",
+        "sha256": "a55efd29fa0cdc76fdf1bbaeda387b81d27caab691ad1916a014241357dc8577"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-mobile-hero.jpg",
+        "sha256": "efbc4a512bab9958db250be48b8d613aeed458e4da449fc0852a09606693c0db"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-mobile-hills-card.jpg",
+        "sha256": "1434196462bf1af326fd5a9df0ec53092672829b9b7349cd930182b844e89f68"
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/live-mobile-notes.jpg",
+        "sha256": "f407b7e5421296921a3f847f856f689bd5d4428e22ae6bc610e98c318c715ac2"
+      }
+    ],
+    "independently_viewed": 11,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "finding": "Personally opened all eleven saved captures. Desktop/mobile hero shows the complete photograph and readable dated creator/licence caption; body and shown notes are readable. Three incoming previews are recognizable with clear title/summary/link. No visible overlap or horizontal clipping in the accepted views.",
+    "root_actions": [
+      "Delivered article title/byline/full-frame photo and Nathularog CC0 credit inspected at desktop/mobile",
+      "Readable mobile body and source notes; observed document width390 equals viewport390",
+      "Desktop reference3 click and keyboard return resolved correct hash/focus",
+      "Mobile reference4 click and keyboard return resolved correct hash/focus",
+      "All3 incoming previews viewed desktop/mobile and clicked to exact live Olasuni route",
+      "Viewport override reset"
+    ],
+    "attribution": "All browser navigation, native note clicks, keyboard returns, incoming-card clicks and width measurements were performed by root. Reviewer inspected saved screenshots and HTTP content, without operating the browser.",
+    "limits": [
+      "Desktop notes image starts at note 3 and mobile notes at note 4; complete note structure is established by HTTP evidence, not these partial views.",
+      "Mobile Destinations screenshot shows the image/title/dek but lower card boundary is outside the viewport.",
+      "No new Bhubaneswar browser screenshot is claimed: fresh HTTP verifies its complete fragment and actual affected image; the byte-exact Mentis candidate has prior actual visual review.",
+      "Initial root navigation timeout was recovered before the recorded successful checks."
+    ]
+  },
+  "preservation": {
+    "frozen_public_inputs": 24,
+    "all_exact": true,
+    "protected_preparations": 88,
+    "all_protected_exact": true,
+    "foreign_fields_exact": [
+      "current_task",
+      "handoff_home",
+      "current_preparation"
+    ],
+    "programme_credit": 0,
+    "finding": "Original source photograph and frozen manuscript remain unchanged. No shared/public source was edited by this review. Receipt scope is still occupied until actual reviewed receipt merge; no Kula handoff is released by this verdict."
+  },
+  "blockers": [],
+  "limitations": [
+    "This is independent AI desk and delivery review, not human-specialist or field review.",
+    "Source-access and identity qualifications remain as recorded in the earlier source/media approvals.",
+    "Image differences are accepted by actual visual review with measurements retained, not automatically by thresholds.",
+    "Receipt records, exact receipt commit, required receipt CI and actual merge still require review and completion."
+  ]
+}
