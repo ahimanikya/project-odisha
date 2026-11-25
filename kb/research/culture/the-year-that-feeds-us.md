@@ -1,4 +1,5 @@
 ---
+type: "Article"
 title: The Year That Feeds Us
 description: Follow the rice through Raja, Nuakhai and Manabasa Gurubara, from the resting earth to the first mouthful and the household grain measure.
 ---
