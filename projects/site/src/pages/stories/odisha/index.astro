@@ -1,12 +1,13 @@
 ---
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
 import Shell from '../../../layouts/Shell.astro';
-import {independentFeatureCollection as collection, independentFeatures} from '../../../data/independent-features';
+import {independentFeatureCollection as collection, independentFeatures, independentFeaturePreview} from '../../../data/independent-features';
 const groups = collection.categories.map(category => ({
   ...category,
   articles: independentFeatures.filter(article => article.subject === category.id)
 }));
 ---
-<Shell title={collection.title} description={collection.description} active="explore" related={false}>
+<Shell title={collection.title} description={collection.description} shareImage={independentFeatures[0].image} active="explore" related={false}>
   <div class="feature-collection">
     <header>
       <p class="eyebrow">Essays from Project Odisha</p>
@@ -19,8 +20,15 @@ const groups = collection.categories.map(category => ({
     {groups.map(group => <section class="category" aria-labelledby={group.id}>
       <h2 id={group.id}>{group.title}</h2>
       <ul class="feature-list" role="list">{group.articles.map(article => <li>
-        <h3><a href={article.href}>{article.title}</a></h3>
-        <p>{article.description}</p>
+        <figure>
+          <ResponsiveImage src={independentFeaturePreview(article.image).src} srcset={independentFeaturePreview(article.image).srcset} sizes="(max-width: 600px) calc(100vw - 2.4rem), 220px" alt={article.image.alt} width={independentFeaturePreview(article.image).width} height={independentFeaturePreview(article.image).height} loading="lazy"/>
+          <figcaption>
+            <h3><a href={article.href}>{article.title}</a></h3>
+            <p>{article.description}</p>
+            <p class="feature-image-caption">{article.image.caption}</p>
+            <p class="feature-image-credit"><a href={article.image.source}>{article.image.title}</a> — {article.image.creator} · {article.image.license_url ? <a href={article.image.license_url}>{article.image.license}</a> : article.image.license}. {article.image.changes}</p>
+          </figcaption>
+        </figure>
       </li>)}</ul>
     </section>)}
     <p class="collection-end"><a href="/explore/">Explore the wider Project Odisha collection</a></p>
@@ -36,11 +44,16 @@ const groups = collection.categories.map(category => ({
   .category{margin-top:3rem}
   h2{font:1.8rem/1.3 var(--serif);scroll-margin-top:2rem;margin:0 0 1.25rem}
   .feature-list{list-style:none;margin:0;padding:0}
-  .feature-list li{padding:1.25rem 0;border-bottom:1px solid var(--line)}
+  .feature-list li{padding:1.5rem 0;border-bottom:1px solid var(--line)}
+  .feature-list figure{display:grid;grid-template-columns:220px minmax(0,1fr);gap:1.4rem;margin:0;align-items:start}
+  .feature-list :global(img){display:block;width:100%;height:auto;object-fit:contain}
+  .feature-list figcaption{min-width:0}
+  .feature-list .feature-image-caption{font-size:1rem;line-height:1.5;margin-top:1rem;color:var(--muted)}
+  .feature-list .feature-image-credit{font-size:1rem;line-height:1.5;margin-top:.5rem;color:var(--muted)}
   h3{font:1.3rem/1.45 var(--serif);margin:0 0 .5rem}
   .feature-list p{font-size:1rem;line-height:1.7;margin:0;max-width:730px}
   a{overflow-wrap:anywhere;text-underline-offset:.2em}
   a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
   .collection-end{margin-top:3rem;font-size:1rem}
-  @media(max-width:600px){.feature-collection{margin-top:2rem;padding:0 1.2rem}.category-links ul{display:block}.category-links li+li{margin-top:.25rem}h2{font-size:1.6rem}}
+  @media(max-width:600px){.feature-list figure{grid-template-columns:1fr;gap:1rem}.feature-list :global(img){max-width:360px}.feature-collection{margin-top:2rem;padding:0 1.2rem}.category-links ul{display:block}.category-links li+li{margin-top:.25rem}h2{font-size:1.6rem}}
 </style>

@@ -2,7 +2,7 @@
 
 Twenty-seven revised, source-linked articles, organised within Project Odisha’s established subjects.
 
-[Source access and editorial limits](source-register.md)
+[Source access and editorial limits](source-register.md) · [Images and image credits](image-catalog.md)
 
 ## Nature and environment
 

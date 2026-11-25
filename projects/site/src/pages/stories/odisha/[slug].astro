@@ -1,5 +1,6 @@
 ---
 import Shell from '../../../layouts/Shell.astro';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
 import ArticleByline from '../../../components/ArticleByline.astro';
 import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
 import {renderReviewedCultureArticle} from '../../../lib/reviewed-culture-article.mjs';
@@ -10,6 +11,7 @@ export function getStaticPaths() {
   return independentFeatures.map(entry => ({params: {slug: entry.slug}, props: {entry}}));
 }
 const {entry} = Astro.props;
+const image = entry.image;
 const sources = import.meta.glob('../../../../../../kb/research/stories/independent-features/*/*.md', {query: '?raw', import: 'default', eager: true});
 const source = sources['../../../../../../' + entry.source_path];
 if (typeof source !== 'string') throw Error(`Canonical article is missing: ${entry.source_path}`);
@@ -25,7 +27,7 @@ const furtherReading = entry.related.length ? entry.related : [
   {href: collection.href, title: collection.title}
 ];
 ---
-<Shell title={entry.title} description={entry.description} active="explore" related={false}>
+<Shell title={entry.title} description={entry.description} shareImage={image} active="explore" related={false}>
   <article class="article-reading independent-feature">
     <nav class="collection-return" aria-label="Article collection">
       <a href={collection.href}>{collection.title}</a>
@@ -36,6 +38,12 @@ const furtherReading = entry.related.length ? entry.related : [
       <h1>{article.title}</h1>
       <ArticleByline author={article.author}/>
     </header>
+    <figure class="feature-image" style={{'--feature-image-width': `${Math.min(image.width, 580 * image.width / image.height)}px`}}>
+      {image.small_src && image.small_width ?
+        <img src={image.src} srcset={`${image.small_src} ${image.small_width}w, ${image.src} ${image.width}w`} sizes="(max-width: 740px) calc(100vw - 2.8rem), 695px" alt={image.alt} width={image.width} height={image.height} loading="eager" fetchpriority="high" decoding="async"/> :
+        <ResponsiveImage src={image.src} sizes="(max-width: 740px) calc(100vw - 2.8rem), 695px" alt={image.alt} width={image.width} height={image.height} loading="eager" fetchpriority="high"/>}
+      <figcaption>{image.caption} <span class="image-credit"><a href={image.source}>{image.title}</a> — {image.creator} · {image.license_url ? <a href={image.license_url}>{image.license}</a> : image.license}. {image.changes}</span></figcaption>
+    </figure>
     <div set:html={article.html}/>
     <ArticleReadingPath heading="Continue reading" links={continueReading}/>
     <ArticleReadingPath heading="Further reading" links={furtherReading}/>
@@ -43,6 +51,9 @@ const furtherReading = entry.related.length ? entry.related : [
   </article>
 </Shell>
 <style>
+  .feature-image{width:min(100%,var(--feature-image-width));margin-inline:auto}
+  .feature-image :global(img){height:auto;object-fit:contain}
+  .image-credit{display:block;margin-top:.35rem}
   .collection-return{font-size:.9rem;line-height:1.6;margin-bottom:2rem}
   .collection-return a{display:inline-block;padding-block:.25rem}
   .article-update{font-size:.9rem;margin-top:2.5rem}
