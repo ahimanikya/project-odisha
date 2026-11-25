@@ -1,0 +1,22 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "scope": "Newly authored attestation of the completed exact-candidate review and independently verified merge-tree continuity.",
+  "reviewed_candidate": "02af7802fbc3954cf2226d2b7776b350337b66d3",
+  "publication_merge": "0769feeb8792d98c5be2c5b017b57a3f169b259f",
+  "identical_tree": "662ece15310039bce0e348db08d91ca7ff3926e1",
+  "preserved_original_review": {
+    "path": "/private/tmp/barunei-candidate-exact-review.json",
+    "sha256": "2221471ede7f6c58c8b6733e7e4ba2dd9958e5627f2b1eedab550c1e921f8f18",
+    "hash_independently_rechecked": true
+  },
+  "completed_review": "The original review passed 110 committed paths, 21 frozen public inputs, 30 source/evidence hashes, 24 screenshot hashes and 67 protected files. Foreign ownership, preparation and activity history were preserved; checkout was clean. Record, programme, team and read-only workbench consistency checks passed. Eight raw whitespace exceptions remained explicit.",
+  "current_verification": "Read local Git objects for the reviewed candidate and current publication merge; their trees are identical. Re-read and hashed the preserved original review.",
+  "limits": [
+    "This document is newly written, not a file copy or full metadata snapshot. The parent reports strict clone preservation failed; no successful clone or fallback is claimed.",
+    "No new test run or independent remote CI/deployment verification performed for this attestation.",
+    "Deployment completion and fresh live delivery review remain pending.",
+    "Separate AI review does not imply human or field review."
+  ],
+  "blockers": []
+}

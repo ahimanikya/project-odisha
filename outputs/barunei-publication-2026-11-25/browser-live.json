@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "reviewer": "Disha, root actual browser interactions and visual inspection",
+  "observed_at": "2026-11-25T17:58:35.051536+00:00",
+  "route": "https://projectodisha.org/destinations/barunei/",
+  "deployment_run": 45664502523,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "screenshots": {
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-article.jpg": "69ab7771639b3926b02b72c92134fbc1472946b3c3b98241d0d075baa8ec06ae",
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-conversations-base.jpg": "9dcb76c80d6c96d20daf14ec60dcb7bd7313f5683787d90e65d8b3d506815bea",
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-conversations.jpg": "90a2db4b9410e170828f2d42d0cfa80ffc61dbe0bf70f09f4aaea2e491c70a2c",
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-credit.jpg": "fee1ace1eb3c58e27d95f5e498703c82482814e18e3536157f77f8949e231640",
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-explore-preview.jpg": "11549c6096cbf97b367767ae8d6dd227e38f69fa9e74c0c9b2c4414101f9dc86",
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-notes.jpg": "621fb85002ffbb373c737318aba554bd72ad4612c3b4172c9f2d8b5f8eda432d",
+    "outputs/barunei-publication-2026-11-25/browser/live-desktop-preview-credit.jpg": "52bb1140107aee8f9d843b023f2b4c66958b683703d821cf57772a5f80be9117",
+    "outputs/barunei-publication-2026-11-25/browser/live-mobile-article.jpg": "21e09fee56d582b804ff6f9acdc3ab2e93cff1c956d090df51197fa8fdfb2624",
+    "outputs/barunei-publication-2026-11-25/browser/live-mobile-conversations.jpg": "6ddeed74bc67cbb9c175851650b07bf436a30822399bfaa6f5036eea48c1dec6",
+    "outputs/barunei-publication-2026-11-25/browser/live-mobile-destinations-preview.jpg": "95fb8a31fa4ff4f6d355761f0805cdd7e394011c6cf6dce56270e22e1f19961e",
+    "outputs/barunei-publication-2026-11-25/browser/live-mobile-hills-preview.jpg": "0d84b42435d3a7cceb1233d0ab0aab56e3ea7a33d79f76e2a4c83c5a36e99a77",
+    "outputs/barunei-publication-2026-11-25/browser/live-mobile-notes.jpg": "4129228676bd638d584a58c62dcd61d834093fe5c012c30a2f58b7ed06330469",
+    "outputs/barunei-publication-2026-11-25/browser/live-mobile-prose.jpg": "284fc7a11cd778d8d581a25aac3cd484bb118673abf5f220ca58dbe1d9b23c6e"
+  },
+  "checks": [
+    "Actual desktop and mobile article hero, original dated caption, real creator/licence links, prose and sources inspected",
+    "Native source1 click reached target and keyboard Enter on exact Back to reference1 returned to cited prose, at both viewport sizes",
+    "All3incoming links operated: hills/mobile, destinations/mobile, Explore/desktop; each reached actual Barunei route",
+    "Photographs loaded in all3previews; observed mobile scrollWidth390 equals viewport390; desktopExplore1440 equals viewport1440",
+    "Hills Images & credits disclosure opened, actual Barunei credit inspected",
+    "Existing conversations full-frame responsive figure and unchanged credit viewed desktop/mobile; separately opened actual1728x3072 delivered baseJPEG and inspected full frame",
+    "Temporary viewport reset; returned to live Barunei article"
+  ],
+  "limits": [
+    "Viewport captures are selected sections, not every scroll position; desktop article top omits lower caption, recorded separately. Notes start at target with heading above viewport.",
+    "Preview cards checked at listed sizes; complete local review remains separately documented.",
+    "A text selector including decorative arrow did not match; fresh observed href selector clicked successfully. One Explore href selector matched2links, resolved by exact visible Barunei name. No site defect or hidden-state change inferred.",
+    "Browser runtime expired during deployment waiting; rebound same designated tab, no live interaction result claimed from failed unexecuted call.",
+    "Actual responsive conversations figure is419x747 at desktop rendering; baseJPEG1728x3072 verified separately. No pixel identity claim."
+  ]
+}

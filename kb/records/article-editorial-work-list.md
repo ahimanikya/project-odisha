@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1417. blocked: 1, completed: 248, excluded: 873, in_progress: 1, queued: 294.
+Route inventory: 1417. blocked: 1, completed: 249, excluded: 873, queued: 294.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1411,7 +1411,7 @@ Route inventory: 1417. blocked: 1, completed: 248, excluded: 873, in_progress: 1
 | POD-EDIT-NILAGIRI-UTENSILS-20261125 | [Nilagiri’s Stone Utensils: A Craft for the Table](https://projectodisha.org/stories/nilagiri-stone-utensils/) | completed | article |
 | POD-EDIT-AKHI-MUTHI-ANUKULA | [Akhi Muthi Anukula: The First Handful of Seed](https://projectodisha.org/stories/akhi-muthi-anukula/) | queued | article |
 | POD-EDIT-CHITAU-AMAVASYA | [Chitau Amavasya: A Pitha for the Feet in the Field](https://projectodisha.org/stories/chitau-amavasya/) | queued | article |
-| POD-EDIT-BARUNEI-20261125 | [Barunei Hills](https://projectodisha.org/destinations/barunei/) | in_progress | One original hill destination article with credited article and preview image; zero programme credit. |
+| POD-EDIT-BARUNEI-20261125 | [Barunei: Two Goddesses and Khordha’s Past](https://projectodisha.org/destinations/barunei/) | completed | One original hill destination article with credited article and preview image; zero programme credit. |
 | POD-EDIT-INDEPENDENT-01-20261125 | [Mandasaru and the smaller lives of a forest gorge](https://projectodisha.org/stories/odisha/mandasaru/) | queued | Reviewed article within the Founder-authorized 27-piece collection; original prose and independent sources, no creator media. Zero autonomous-programme credit. |
 | POD-EDIT-INDEPENDENT-02-20261125 | [Pentha and the unfinished work of coastal protection](https://projectodisha.org/stories/odisha/pentha/) | queued | Reviewed article within the Founder-authorized 27-piece collection; original prose and independent sources, no creator media. Zero autonomous-programme credit. |
 | POD-EDIT-INDEPENDENT-03-20261125 | [Odisha Rasagola from the kneading board to Niladri Bije](https://projectodisha.org/stories/odisha/odisha-rasagola/) | queued | Reviewed article within the Founder-authorized 27-piece collection; original prose and independent sources, no creator media. Zero autonomous-programme credit. |
