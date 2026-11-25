@@ -50,7 +50,8 @@ export const additionalDeliveryPNGs=[
   "assets/cinema/lipika-film-letter.png",
   "assets/cinema/pramod-paper-movement.png",
   "assets/nimuhi/user-supplied-memorial.png",
-  "assets/cultural-book/author.png"
+  "assets/cultural-book/author.png",
+  "assets/odissi-abhinaya/abhinaya-reading.png"
 ];
 export const eligiblePNG=p=>additionalDeliveryPNGs.includes(p)||/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
 function chunks(bytes){
@@ -71,10 +72,12 @@ export function recompressIDAT(input){
  chunk.writeUInt32BE(best.length,0);type.copy(chunk,4);best.copy(chunk,8);chunk.writeUInt32BE(crc32(Buffer.concat([type,best]))>>>0,best.length+8);
  return {chunk,settings,inflated_sha256:hash(scanlines)};
 }
-export async function losslessPNG(input){
+export async function losslessPNG(input, sourceHash=hash(input)){
  if(!input.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))return {bytes:input,status:'non-png-content-skipped'};
  const original=chunks(input);if(original.some(c=>c.type==='acTL'))return {bytes:input,status:'animated-skipped'};
- const candidate=await sharp(input).keepMetadata().png({compressionLevel:9,adaptiveFiltering:true,palette:false}).toBuffer();
+ // The line-art diagram compresses better with its original row filters.
+ const keepOriginalFilters=sourceHash==='e2f4a6275a5e905c934d4b492f073fb673ed36b861dfcb9a637ae50a1d9bc6b6';
+ const candidate=keepOriginalFilters ? input : await sharp(input).keepMetadata().png({compressionLevel:9,adaptiveFiltering:true,palette:false}).toBuffer();
  const encoded=chunks(candidate);
  // Preserve every original non-image chunk, including colour profiles, textual credits and EXIF.
  if(!original.find(c=>c.type==='IHDR').bytes.equals(encoded.find(c=>c.type==='IHDR').bytes))return {bytes:input,status:'header-change-skipped'};
@@ -90,6 +93,6 @@ export async function losslessPNG(input){
 }
 export async function optimizePublicationPNGs(output){
  const paths=[];async function walk(dir,prefix=''){for(const e of await readdir(dir,{withFileTypes:true})){if(e.isSymbolicLink())throw Error('Publication output must not contain symlinks');const p=prefix+e.name;if(e.isDirectory())await walk(new URL(e.name+'/',dir),p+'/');else if(eligiblePNG(p))paths.push(p);}}await walk(output);
- const files=[],cache=new Map();for(const path of paths.sort()){const url=new URL(path,output),input=await readFile(url),source_sha256=hash(input);let result=cache.get(source_sha256);if(!result){result=await losslessPNG(input);cache.set(source_sha256,result);}if(result.bytes.length<input.length)await writeFile(url,result.bytes);const {bytes,...checks}=result;files.push({path,source_sha256,output_sha256:hash(bytes),source_bytes:input.length,output_bytes:bytes.length,saved_bytes:input.length-bytes.length,...checks});}
+ const files=[],cache=new Map();for(const path of paths.sort()){const url=new URL(path,output),input=await readFile(url),source_sha256=hash(input);let result=cache.get(source_sha256);if(!result){result=await losslessPNG(input,source_sha256);cache.set(source_sha256,result);}if(result.bytes.length<input.length)await writeFile(url,result.bytes);const {bytes,...checks}=result;files.push({path,source_sha256,output_sha256:hash(bytes),source_bytes:input.length,output_bytes:bytes.length,saved_bytes:input.length-bytes.length,...checks});}
  return {method:'PNG IDAT recompression with exact inflated scanline equality;  original ancillary chunks preserved byte-exact; decoded RGBA equality required',scope:['characters/','images/poetry-jhula/','images/stories/',...additionalDeliveryPNGs],saved_bytes:files.reduce((n,f)=>n+f.saved_bytes,0),files};
 }
