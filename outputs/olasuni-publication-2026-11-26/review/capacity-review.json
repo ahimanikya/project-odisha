@@ -1,0 +1,114 @@
+{
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-25T19:28:06.639260+00:00",
+  "protected_files_verified": 88,
+  "foreign_pointers_preserved": true,
+  "publication_approval": false,
+  "result": "pass_for_bounded_implementation",
+  "approved_scope": "Only existing assets/bhubaneswar-week/mentis-films.jpg delivery quality 95 to 86, retaining maximum dimension 3072, full frame, 4:4:4, mozjpeg and current metadata guards. No other image or algorithm change is covered.",
+  "independent_measurement": {
+    "source": {
+      "bytes": 3737818,
+      "sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+      "width": 5712,
+      "height": 3213,
+      "orientation": 1,
+      "metadata": {
+        "icc": {
+          "bytes": 536,
+          "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0"
+        },
+        "iptc": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "xmp": {
+          "bytes": 2610,
+          "sha256": "9d13eab52e8386ee53ae612a3ccfc119c4588d2cc5e3d67cf3dfa2f291544c56"
+        },
+        "exif": {
+          "bytes": 3068,
+          "sha256": "539a124164b6f91a540dfe588a825c39758483621c6d337394243b35545a8c6a"
+        }
+      }
+    },
+    "q95": {
+      "bytes": 1279563,
+      "sha256": "49d0b2418bff5216afe5dd907acd7fcb0ff79b452a01bea97e702a29cf832d6d",
+      "width": 3072,
+      "height": 1728,
+      "orientation": 1,
+      "metadata": {
+        "icc": {
+          "bytes": 536,
+          "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0"
+        },
+        "iptc": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "xmp": {
+          "bytes": 2610,
+          "sha256": "9d13eab52e8386ee53ae612a3ccfc119c4588d2cc5e3d67cf3dfa2f291544c56"
+        },
+        "exif": {
+          "bytes": 3040,
+          "sha256": "5c46ca1443936cd2e54ab54ceb55c6082c121c0473731a04054752aa9125c575"
+        }
+      }
+    },
+    "q86": {
+      "bytes": 665030,
+      "sha256": "573cf630eedded2e1616f72d39a60013775fa7c1c5804a816470e9a91bf3f63c",
+      "width": 3072,
+      "height": 1728,
+      "orientation": 1,
+      "metadata": {
+        "icc": {
+          "bytes": 536,
+          "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0"
+        },
+        "iptc": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "xmp": {
+          "bytes": 2610,
+          "sha256": "9d13eab52e8386ee53ae612a3ccfc119c4588d2cc5e3d67cf3dfa2f291544c56"
+        },
+        "exif": {
+          "bytes": 3040,
+          "sha256": "5c46ca1443936cd2e54ab54ceb55c6082c121c0473731a04054752aa9125c575"
+        }
+      }
+    },
+    "reproduced_exact": true,
+    "saving": 614533
+  },
+  "visual_findings": [
+    "Personally opened full-frame original/current/candidate triptych, detail triptych and actual q86 candidate. Composition, faces, clothing and wall-poster detail remain clear at shown scales; minor compression differences are acceptable for display.",
+    "This is lossy encoding, not pixel identity. Original and existing responsive variants remain the reference; no alteration to people or scene is approved."
+  ],
+  "metadata": "ICC and XMP are byte-exact to source and q95; IPTC is absent throughout. EXIF is byte-exact to q95 but differs from the original (3068 to 3040 bytes). Do not describe all metadata as identical to the original. Display geometry and orientation remain 3072×1728 and orientation 1.",
+  "preservation": "Read and hash-checked current public, full-build and coastal Mentis originals; all match the same 3737818-byte source. No optimizer code change was present during this review. Existing conversations q90, separate sharing PNG, source originals, URL, credit and responsive files must remain unchanged.",
+  "projection": {
+    "historical_headroom": 141655,
+    "independently_reproduced_local_saving": 614533,
+    "new_image_family_bytes": 618212,
+    "projected_remaining_before_html": 137976,
+    "limit": "Estimate only. It combines historical Linux headroom with locally reproduced saving; it is not proof of the actual final package."
+  },
+  "evidence_sha256": {
+    "outputs/olasuni-publication-2026-11-26/capacity/proposal.json": "7a9021b17f774aa67fabde7e9b69b7f567a9ea0a5d4c785fd991c7afc7806901",
+    "outputs/olasuni-publication-2026-11-26/capacity/mentis-films-q86.jpg": "573cf630eedded2e1616f72d39a60013775fa7c1c5804a816470e9a91bf3f63c",
+    "outputs/olasuni-publication-2026-11-26/capacity/mentis-q86-fullframe.png": "76033d67c0855a911ff6a5f04d13d101ae10027bbf23751dc048a6fc8a357c04",
+    "outputs/olasuni-publication-2026-11-26/capacity/mentis-q86-detail.png": "330bf74f0234bdc8ab4b57e631c83dbd61028a0bc99fc93ff7de3827a14afad4"
+  },
+  "pending": [
+    "Root authorization and exact bounded implementation/test review",
+    "Final emitted source/credit/image/share preservation",
+    "Actual local and hosted strict payload gates",
+    "Rendered final delivery image review"
+  ],
+  "blockers": []
+}
