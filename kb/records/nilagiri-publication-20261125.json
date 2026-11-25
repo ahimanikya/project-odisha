@@ -1,0 +1,124 @@
+{
+  "status": "in_progress",
+  "owner": "Disha",
+  "article_id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
+  "route": "/stories/nilagiri-stone-utensils/",
+  "started_on": "2026-11-25",
+  "authorization": "POD-DEC-20261125401",
+  "authorization_quote": "When the slot is available, integrate and publish the Nilagiri stone utensils article with the credited illustration, links from relevant existing articles, and mobile and desktop layout checks.",
+  "work_id": "POD-WORK-20261125401",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "d4e52e5040a24a5f9af94da23a74ede0c9a95878",
+  "remote_reconciliation": {
+    "receipt_pr": 866,
+    "merge": "013a3950f5e30aace88e2fdf5179819cdc8041a5",
+    "required_ci": 45570050986,
+    "conclusion": "success",
+    "explicit_handoff_received": true
+  },
+  "prior_preparation": "records/antaranga-after-malayagiri-preparation-20261125.json",
+  "assignments": {
+    "Disha": "Single coordinator, shared records, editions, builds, browser and publication",
+    "Anvesha": "Bounded reuse/source validation and total public wording audit",
+    "Samanta": "Article, image, incoming links and bounded capacity proposal/implementation",
+    "Drishti": "Separate source/media/code/capacity/rendered/package/delivery review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/nilagiri-publication-20261125/research/"
+    ],
+    "Samanta": [
+      "projects/site/src/pages/stories/nilagiri-stone-utensils.astro",
+      "projects/site/src/pages/stories/craft-listening.astro",
+      "projects/site/src/pages/destinations/[slug].astro",
+      "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/public/assets/nilagiri-utensils/",
+      "outputs/nilagiri-publication-20261125/implementation/",
+      "outputs/nilagiri-publication-20261125/capacity/",
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs",
+      "projects/site/editions/coast.json:standalone_routes only"
+    ],
+    "Drishti": [
+      "outputs/nilagiri-publication-20261125/review/"
+    ],
+    "Disha": [
+      "shared records",
+      "editions/route inventory",
+      "verification helpers/browser",
+      "Git/publication",
+      "projects/site/tools/storage-copy.mjs",
+      "projects/site/tools/cow_copy.py",
+      "projects/site/tools/build-publication.mjs",
+      "projects/site/tests/storage-copy.test.mjs",
+      "projects/site/tools/prepare-search-review.mjs"
+    ]
+  },
+  "capacity": {
+    "prior_combined_linux_payload": 999893680,
+    "remaining_bytes": 106320,
+    "action": "Measure bounded separately reviewed delivery handling; preserve originals; actual Linux gate mandatory.",
+    "reviewed_proposal": "outputs/nilagiri-publication-20261125/capacity/osakothi-q88-proposal.json",
+    "separate_review": "outputs/nilagiri-publication-20261125/review/capacity-review.json",
+    "root_visual": "Viewed source and q88 full frame at420px; face, feather whisk and clothing remain clear. Compression changes pixels; EXIF bytes differ, IPTC/XMP exact; original preserved.",
+    "pre_festival_local_payload": {
+      "bytes": 999166179,
+      "files": 3686,
+      "evidence": "outputs/nilagiri-publication-20261125/before-festival-local-verification.json"
+    }
+  },
+  "foreign_ownership": "Kala Bhoomi current_task/handoff_home and all earlier preparation/publication records preserved.",
+  "next_action": "Reconcile merged festival867, rebuild and separately review combined package, then required CI/publication.",
+  "reviews": {
+    "source": "outputs/nilagiri-publication-20261125/research/final-source-review.json",
+    "static": "outputs/nilagiri-publication-20261125/review/static-review.json",
+    "capacity": "outputs/nilagiri-publication-20261125/review/capacity-review.json",
+    "capacity_implementation": "outputs/nilagiri-publication-20261125/review/capacity-implementation-review.json",
+    "rendered": "outputs/nilagiri-publication-20261125/review/rendered-review.json",
+    "metadata_correction": "outputs/nilagiri-publication-20261125/review/metadata-correction-review.json",
+    "storage": "outputs/nilagiri-publication-20261125/review/storage-review.json"
+  },
+  "review_limits": "Separate AI reviews, no human review claimed. Final rebuilt package, hosted CI, deployment and live review still pending.",
+  "failure_history": [
+    {
+      "stage": "first full build",
+      "cause": "Local Vite cache EPERM; unchanged elevated rerun passed",
+      "evidence": "outputs/nilagiri-publication-20261125/build-results-permission-failure.json"
+    },
+    {
+      "stage": "first full tests",
+      "cause": "New direct article requires page-count191; diagnosed exact new route, corrected count and explicit route assertion;831tests passed",
+      "evidence": "outputs/nilagiri-publication-20261125/build-results-page-count-failure.json"
+    },
+    {
+      "stage": "coast acceptance",
+      "cause": "Canonical draft description too short for public metadata; reviewed publication-only79character description, original draft retained. Full rebuild pending.",
+      "evidence": "outputs/nilagiri-publication-20261125/build-results-short-description-failure.json"
+    },
+    {
+      "stage": "local artifact helper",
+      "cause": "HTML serializes empty alt as bare alt; helper now accepts present alt with empty or None value. No article change. Rerun181checks passed.",
+      "evidence": "outputs/nilagiri-publication-20261125/local-verification-helper-alt-failure.json"
+    }
+  ],
+  "storage_copy": {
+    "implementation": "projects/site/tools/storage-copy.mjs",
+    "helper": "projects/site/tools/cow_copy.py",
+    "scope": "New local publication and search-review staging uses strict APFS storage sharing; source independent. Hosted Linux explicitly retains independent full-copy policy with free-space checks, no APFS claim.",
+    "review": "outputs/nilagiri-publication-20261125/review/storage-review.json"
+  },
+  "browser_local": "outputs/nilagiri-publication-20261125/browser-local.json",
+  "festival_reconciliation": {
+    "status": "reconciled_worktree_preserved_build_pending",
+    "incoming_merge": "e5401eb6e18e4e302ddd8b433066be6ee858822b",
+    "pr": 867,
+    "required_ci": 45573419121,
+    "conclusion": "success",
+    "incoming_linux_payload_bytes": 999918457,
+    "plan": "outputs/nilagiri-publication-20261125/review/festival-reconciliation-plan.json",
+    "limits": "Independent foreign release preserved; no substantive source review of its article claimed. New combined package and hosted gate required.",
+    "evidence": "outputs/nilagiri-publication-20261125/release/festival-reconciliation.json"
+  }
+}

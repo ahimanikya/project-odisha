@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `47f5e2316574454b7ded51ea5349d67fe9d1bc375c98cabc31dc3501f0ee4b1f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e44d7029442e46193b6bfc26b9aaa4798b284c0b95fdb5624f28b3d1259fff76`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -423,6 +423,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261125301 · Prepare original Nilagiri stone-utensils article with credited illustration | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Nilagiri draft, credited illustration and publication brief; return slot to hill chat for its next separately authorized destination. No public integration authorized. | — |
 | POD-WORK-2026112592 · Research, review and publish Gonasika | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt merge before explicit Nilagiri handoff. | — |
 | POD-WORK-20261125101 · Correct Hatuari public attribution | completed | published | Ahimanikya Satapathy | Merge separately reviewed evidence-only receipt with required checks, then explicitly return temporary slot to Gonasika; Nilagiri follows. | — |
+| POD-WORK-20261125401 · Publish Nilagiri stone utensils with credited illustration | in_progress | draft | Ahimanikya Satapathy | Integrate reviewed article/image, resolve delivery capacity, separate review and desktop/mobile verification before required CI/publication. | — |
 
 ## Pending human review and decisions
 
@@ -774,6 +775,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261125301 · Prepare original Antaranga-led article after Malayagiri | recorded_direction | Ahimanikya Satapathy | One independently researched original article preparation with credited image; no website integration or publication. |
 | POD-DEC-2026112592 · Next uncovered hill after Nilagiri preparation | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one hill destination with credited article/preview image. |
 | POD-DEC-20261125101 · Correct Hatuari public attribution before sharing | recorded_direction | Ahimanikya Satapathy | Remove potentially private discussion attribution and dependent passages from the public article before sharing; retain independently sourced account. |
+| POD-DEC-20261125401 · Publish reviewed Nilagiri stone-utensils article | recorded_direction | Ahimanikya Satapathy | One article publication with credited illustration, relevant incoming links, mobile/desktop checks and verified delivery. |
 
 ## Reviews
 
@@ -1518,7 +1520,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112592 | 2026-11-24T23:10:05.894092+00:00 | Actual separate local source/media/code/rendered/package reviews and tests passed. Candidate awaits exact commit, hosted CI, deployment and live receipt. Zero programme credit. | — |
 | POD-EVT-2026112593 | 2026-11-25T00:19:32.008451+00:00 | Actual reviewed PR857/CI45508007471 and deployment45512451748 passed. Separate fresh live review passed5routes16images14captures. Three measured existing image differences accepted with limits. Receipt integration pending before slot release; zero programme credit. | — |
 | POD-EVT-20261125301 | 2026-11-25T01:04:57.104451+00:00 | Verified receipt858/merge07c3e16e and successful CI45517888336; sole preparation-only slot claimed. No publication or programme credit; foreign ownership preserved. | — |
 | POD-EVT-20261125302 | 2026-11-25T01:24:35.623723+00:00 | Original independently researched manuscript and credited interpretive illustration passed separate review. Preparation only, no public integration/deployment/programme credit. Slot returns after reviewed local commit and explicit handoff; prior and foreign ownership preserved. | — |
@@ -1528,6 +1529,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112595 | 2026-11-25T05:41:21.011816+00:00 | Verified Hatuari receipt862 mergefe426d76 and successful CI45551097225; accepted explicit returned slot. Reconciled correction and Dhaga861, retained prior local review and67protected preparationfiles. Exact new Dhaga PDF hydrated before fresh combined build. No Gonasika publication claimed; Nilagiri remains reserved next. | — |
 | POD-EVT-2026112596 | 2026-11-25T06:07:07.064267+00:00 | Reconciled local package passed separate review: 829 full tests, 599 coastal tests, 5476 page checks, 10878 artifact checks, 17 reviewed captures and exact prior article/image continuity. Local payload 999067472 bytes. Two hosted generated-view failures and bounded corrections retained. Exact corrected-head review and successful hosted checks remain before publication; zero programme credit. | — |
 | POD-EVT-2026112597 | 2026-11-25T07:29:32.643665+00:00 | Reviewed Gonasika publication PR864 and actual deployment completed; fresh live article, credited photograph, incoming previews, native notes and corrected Hatuari verified. Evidence-only receipt merge and explicit Nilagiri handoff remain. Zero programme credit. | — |
+| POD-EVT-20261125401 | 2026-11-25T08:07:48.125040+00:00 | Accepted and independently verified Gonasika receipt866/013a3950 and CI45570050986; reconciled latest main with preserved preparation and local authorization. Sole Nilagiri publication slot claimed. | — |
 
 ## Deferred extensions
 

@@ -1,0 +1,50 @@
+{
+  "status": "PASS_BOUNDED_CAPACITY_PROPOSAL",
+  "reviewer": "Drishti; separate AI reviewer",
+  "date": "2026-11-25",
+  "findings": [],
+  "approved_boundary": "One existing Osakothi JPEG delivery derivative only; original public/KB source and existing responsive derivatives remain untouched. This accepts the proposal, not an unreviewed optimizer implementation.",
+  "settings": {
+    "maximum_dimension": 3072,
+    "quality": 88,
+    "chromaSubsampling": "4:4:4",
+    "mozjpeg": true,
+    "keepMetadata": true,
+    "withoutEnlargement": true
+  },
+  "measurement": {
+    "source_bytes": 778285,
+    "candidate_bytes": 504666,
+    "saving": 273619,
+    "source_and_candidate_dimensions": [
+      2046,
+      2838
+    ],
+    "new_nilagiri_media_total": 318978,
+    "prior_linux_headroom": 106320,
+    "projected_remaining_before_html": 60961
+  },
+  "actual_checks": [
+    "Personally viewed original and candidate full-frame files, plus their separate 420px views. Face, whisk, jewellery and clothing remain legible; no material framing or colour loss observed at these display scales. Compression is lossy and not pixel-identical.",
+    "Independently reproduced candidate bytes in memory with the stated Sharp settings. Original source SHA verified unchanged.",
+    "ICC is absent in both; IPTC100 bytes and XMP2992 bytes are exact. Orientation absent becomes1, an equivalent upright orientation. EXIF952→964 bytes is not byte-identical and was not audited tag by tag.",
+    "Existing image source record identifies Prateek Pattanaik, Commons, CC BY-SA4.0, 5 August2019. Candidate must preserve those credits and links.",
+    "Proposed exact alteration sentence truthfully says full-frame compressed, not resized; existing responsive resize description remains. Actual image and OG dimensions stay2046×2838."
+  ],
+  "required_implementation_guards": [
+    "Exact single path allowlist addition only, with existing entries/settings unchanged.",
+    "Unique expected page/credit phrase guards before mutation, original preservation and exact geometry/credit test.",
+    "Keep 1GB actual final package gate unchanged; actual hosted Linux payload is mandatory because the margin is only a projection."
+  ],
+  "limits": [
+    "No optimizer modification, package build or browser performed by this reviewer.",
+    "No inference about recompression cause or byte/pixel identity; no full EXIF semantic-equivalence claim.",
+    "Rejected q90 and PNG proposals remain historical proposal evidence, not accepted implementation scope."
+  ],
+  "reviewed_sha256": {
+    "projects/site/public/assets/osakothi/simanchala-nahaka-2019.jpg": "57bf8f1fc7a6ccaab7106c37938e84a73c158b150e69a233e59b97502c67248c",
+    "outputs/nilagiri-publication-20261125/capacity/osakothi-q88.jpg": "1e0d7da99a358d1365149e267960a9c3e87135a21001f9138d06df50420a4139",
+    "outputs/nilagiri-publication-20261125/capacity/osakothi-q88-proposal.json": "ee93c5be18cde7946f363c96831f8927d6179b1d55144eadd0d90d9e99635a5a",
+    "kb/research/stories/osakothi-image.json": "09acd410a88e71d9a397e0a06352c1ee2f3e1e3a3d516961043968d2c41b4dae"
+  }
+}

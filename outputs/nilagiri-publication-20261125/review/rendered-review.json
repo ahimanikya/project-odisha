@@ -1,0 +1,94 @@
+{
+  "status": "PASS_LOCAL_RENDERED_REVIEW_WITH_FRAMING_LIMITS",
+  "reviewer": "Drishti; separate AI reviewer",
+  "date": "2026-11-25",
+  "findings": [],
+  "actual_visual_review": "Personally opened and inspected all11 listed JPEGs individually;9 are meaningful accepted frames and2 are explicitly premature scroll captures, not proof of their named targets.",
+  "screenshots": [
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-body.jpg",
+      "bytes": 121084,
+      "sha256": "b9f20c79b720b455f5735f6e5048332d727aaf5e20c13feb8fcffbe58dfeaeab",
+      "review": "Readable main paragraphs, caption and source heading; image upper portion is above viewport."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-jau-card.jpg",
+      "bytes": 79358,
+      "sha256": "3d012bae65d8c92c7affd24303b83ad02486454db7431ead7708b9a20756551a",
+      "review": "Complete Nilagiri preview and original illustration credit; existing Ganjapa and further-reading links remain visible."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-notes.jpg",
+      "bytes": 121882,
+      "sha256": "a768ca4a3ad107eb1fea1851e274f549d41a8632ac8ab3cb3f272f1a3b6b9110",
+      "review": "Shows body and first two notes including illustration credit; later notes lie below viewport. Does not itself show source3 destination."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-desktop-top.jpg",
+      "bytes": 97637,
+      "sha256": "7f5bfd335018a10d6c0d569798acff4da755cde66e965c11fd60e51baf1b4332",
+      "review": "Readable title/byline and lead. Image extends below viewport; this single frame is not evidence of the entire image."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-balasore-card.jpg",
+      "bytes": 39420,
+      "sha256": "74e760fc82bd7b1032c787c3d89e1f0770a4d987fc4e5c777e59b912c1216ca4",
+      "review": "Both vessels and card title/credit visible; section heading and upper image whitespace are above viewport. Existing onward district link and footer remain visible."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-body.jpg",
+      "bytes": 68997,
+      "sha256": "07d771f43fe4b22f7f6adf8e1b34cf8362010b275105035143d9d98391898a80",
+      "review": "Caption and main prose wrap naturally with readable notes and paragraph spacing."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-craft-card-settled.jpg",
+      "bytes": 38893,
+      "sha256": "caa0c98dc9b0a5431e194ffc865f4f3a43000f75e2275bf2bff67b6170786c54",
+      "review": "Complete Nilagiri preview and visible illustration credit; existing reading-path panel remains."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-craft-card.jpg",
+      "bytes": 41120,
+      "sha256": "8a1d74cc49a2ebe1ec5ae12e0114b566b5ec093db1e02349aea62e0fbbd21105",
+      "review": "Early scroll frame shows existing article opening, not the new card. Inconclusive for card review."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-credit-settled.jpg",
+      "bytes": 45862,
+      "sha256": "fef7d7bd2e1f09f2e014b913ae0295f5798b3c5530f06410a4c8c526e9055ffb",
+      "review": "Settled note2 displays the complete Project Odisha credit and identity limit, followed by notes3/4, further-reading links and update link."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-credit.jpg",
+      "bytes": 66000,
+      "sha256": "1ddf6f39957d4601b6b02d10c061789723ee30f0aa3012259fcb725eff94cbdc",
+      "review": "Early scroll frame: caption/reference region, not the credit-note destination. Retained as inconclusive for credit arrival."
+    },
+    {
+      "file": "outputs/nilagiri-publication-20261125/screenshots/local-mobile-top.jpg",
+      "bytes": 48352,
+      "sha256": "30d881ee67503d924a4f102e8fc12d48aab830bed3bd44dffaf6ab7d970438d6",
+      "review": "Title/byline/lead fit390px. Both complete vessels are visible within the full illustration frame; caption lies below viewport."
+    }
+  ],
+  "layout": "Desktop1440×1000 and mobile390×844 show coherent title/byline, readable measure, illustration framing and neutral credited previews. No visible horizontal clipping in inspected new content. Numeric notes remain legible.",
+  "independent_html_check": {
+    "file": "projects/site/dist/stories/nilagiri-stone-utensils/index.html",
+    "sha256": "6e24bfe28947e2fd7cc21d7692da03aaaab7c7f1d4f6aa3381ee5375ada996bf",
+    "h1": 1,
+    "native_reference_anchors": 4,
+    "native_return_anchors": 4,
+    "all_targets_resolve": true,
+    "unique_ids": true
+  },
+  "interaction_attribution": "Disha operated the actual in-app browser. Her record reports desktop source3 click and Enter return, mobile illustration note2 click and Enter return, all three incoming card clicks reaching the new article and mobile document scrollWidth390. This reviewer inspected saved evidence and HTML, and did not operate the browser.",
+  "limits": [
+    "One browser engine and two viewport sizes; not separate physical devices or cross-engine assurance.",
+    "The screenshots are viewport slices, not complete-page visual coverage. Only Jau preview is shown desktop; Balasore and craft previews are shown mobile. No claim that all three previews were visually captured at both widths.",
+    "Desktop source3 arrival and keyboard interactions are recorded by the coordinator, not independently established by a still frame.",
+    "Osakothi final delivery derivative/caption, final publication package, hosted CI/capacity and live delivery remain pending."
+  ],
+  "browser_record_sha256": "f476fd62e1fa59967df9c088cb555ae2991a671a6a1f696814206ca86efe70e2",
+  "reviewed_source_snapshot": "static-review.json and capacity-implementation-review.json; no source edits by this reviewer."
+}
