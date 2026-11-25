@@ -1,5 +1,5 @@
 {
-  "status": "candidate_reviewed",
+  "status": "published_verified",
   "article_id": "POD-EDIT-ODIAHOMEPAGE-20261123",
   "route": "/stories/when-odisha-became-a-homepage/",
   "authorization_quote": "Publish “When Odisha Became a Homepage” on Project Odisha with the approved text and images, and share the article link.",
@@ -9,19 +9,85 @@
   "source_review": "outputs/odia-homepage-publication-20261123/source-review.json",
   "approval_scope": "Exact approved prose, captions, images and references. Representation and surrounding site navigation only. Reference structure retained under explicit user direction.",
   "foreign_ownership": "Other article and receipt scopes remain unchanged. Isolated preparation; reconcile remote before release.",
-  "publication": null,
-  "quality_review": "outputs/odia-homepage-publication-20261123/rendered-quality-review.json",
+  "publication": {
+    "url": "https://projectodisha.org/stories/when-odisha-became-a-homepage/",
+    "merge_commit": "39b9b8104b7500ca5c074e277243a03d92c0f9a4",
+    "verified_at": "2026-11-23T13:18:18.239058+00:00"
+  },
+  "quality_review": "outputs/odia-homepage-publication-20261123/final-quality-review.json",
   "validation": {
+    "full_tests": 826,
+    "coast_tests": 599,
+    "result": "pass",
+    "hosted_run": 45162650583,
+    "reviewed_head": "6f64e2068a6844ef7936cdaa37433d32ce7fa372",
+    "hosted_payload_bytes": 999928859,
+    "local_payload_bytes": 999142089,
+    "disclosure_violations": 0,
+    "source_preservation": "54 approved text blocks,8 reference hyperlinks,10 original images,8 caption groups",
+    "browser": "Desktop and mobile previews had no horizontal overflow. Live page visually inspected after deployment; all ten archive image URLs returned HTTP200 with original hashes."
+  },
+  "image_delivery": {
+    "originals": "Ten byte-identical approved images on existing archive.projectodisha.org hosting",
+    "base_url": "https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/",
+    "local_preview": "Original image3.jpg with responsive collection variants",
+    "reason": "Main site near 1GB hosting limit; no source-image recompression or unrelated media changes.",
+    "archive_commit": "0bfd72d4e63337d629e801e75f4ebe37fad3abcd",
+    "archive_run": 45162134872,
+    "live_hashes_verified": true
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/847",
+  "deployment": {
+    "run_id": 45166156030,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45166156030",
+    "head": "39b9b8104b7500ca5c074e277243a03d92c0f9a4",
+    "conclusion": "success"
+  },
+  "verified_routes": [
+    "/stories/when-odisha-became-a-homepage/",
+    "/founder/",
+    "/explore/"
+  ],
+  "delivery_evidence": "outputs/odia-homepage-publication-20261123/live-verification.json",
+  "initial_validation_history": {
     "full_tests": 824,
     "full_tests_result": "pass",
     "coast_initial": "597 passed,2 failed; fixed one remaining article count and added preview image to responsive pipeline; rerun pending",
     "rendered_source": "54 approved paragraphs/headings,8 reference links,10 byte-identical original images and8 captions verified",
     "browser": "1280x900 and390x844; no horizontal overflow"
   },
-  "image_delivery": {
-    "originals": "Ten byte-identical approved images on existing archive.projectodisha.org hosting",
-    "base_url": "https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/",
-    "local_preview": "Original image3.jpg with responsive collection variants",
-    "reason": "Main site near 1GB hosting limit; no source-image recompression or unrelated media changes."
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Records actual publication and verification of the approved article; no public article or asset changes.",
+    "recorded_on": "2026-11-25",
+    "authorization_quote": "Please finish updating the internal publication log too.",
+    "earlier_delay": "Automatic permission-review timeout prevented canonical record update on23November; verified evidence was saved with the source archive.",
+    "scope": "Reconcile the existing publication receipt, rollout status and generated views; preserve other article ownership.",
+    "local_validation": {
+      "result": "pass",
+      "checks": [
+        "programme consistency",
+        "team assignment consistency",
+        "article rollout",
+        "editorial workbench",
+        "registers",
+        "catalogue",
+        "portable knowledge bundle"
+      ]
+    },
+    "merge_condition": "Integrate this independently reviewed evidence-only receipt after required hosted checks pass.",
+    "separate_review": {
+      "result": "pass",
+      "reviewer": "Drishti, separate subagent",
+      "evidence": "outputs/odia-homepage-publication-20261123/log-integration-review-20261125.json",
+      "human_review_claimed": false
+    }
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "human_review_claimed": false,
+    "evidence": "outputs/odia-homepage-publication-20261123/delivery-review.json"
   }
 }

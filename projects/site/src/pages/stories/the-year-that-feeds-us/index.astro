@@ -4,15 +4,24 @@ import ResponsiveImage from '../../../components/ResponsiveImage.astro';
 import image from '../../../../../../kb/research/stories/osakothi-image.json';
 import '../../../styles/article-reading.css';
 import story from '../../../../../../kb/research/stories/when-the-goddess-comes-to-the-wall.json';
+import ArticleByline from '../../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../../components/ArticleReadingPath.astro';
+import {Content} from '../../../../../../kb/research/culture/the-year-that-feeds-us.md';
+const chapters = [
+  {href: '/culture/osha/raja-parba/', title: 'Raja Parba', description: 'Resting the earth as the monsoon approaches.'},
+  {href: '/stories/garbhana-sankranti/', title: 'Garbhana Sankranti', description: 'Prayers for the rice still growing in the field, and a comparison with Gujarat’s Garba.'},
+  {href: '/culture/osha/nuakhai/', title: 'Nuakhai', description: 'Offering and sharing the first new rice in western Odisha.'},
+  {href: '/culture/osha/manabasa-gurubara/', title: 'Manabasa Gurubara', description: 'The grain measure, Lakshmi and the question of who may eat.'},
+];
 const title='The Year That Feeds Us';
 const description='Stories of cultivation, food, seasonal observances and the people who carry them forward.';
 ---
 <Shell title={title} description={description} active="explore" shareImage={image} wide related={false}>
  <div class="article-reading seasonal-series">
   <a href="/explore/">← Explore Project Odisha</a>
-  <header><h1>{title}</h1><p class="series-dek">Nature, food and the celebration of life in Odisha</p></header>
-  <p>The year can be followed through seed, soil, rain and the food that reaches a shared meal. It can also be followed through the people who cultivate, cook, keep vows and pass on what they know.</p>
-  <p><em>The Year That Feeds Us</em> brings these relationships into view through stories of Odisha’s seasonal life. Each reading stays close to particular people and places, making room for the different meanings a tradition can hold.</p>
+  <header><h1>{title}</h1><p class="series-dek">Nature, food and the celebration of life in Odisha</p><ArticleByline author="Ahimanikya Satapathy"/></header>
+  <Content/>
+  <ArticleReadingPath heading="Read the festival articles" links={chapters}/>
   <section id="series-stories" class="series-stories">
    <h2>Stories in this series</h2>
    <figure class="series-photograph">

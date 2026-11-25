@@ -1,0 +1,265 @@
+{
+  "reviewer": "Drishti (separate AI review)",
+  "date": "2026-11-25",
+  "result": "pass_combined_local_package_and_exact_source",
+  "head": "aa384a77a18d64b5780468492a80bbafb2331ee0",
+  "tree": "30755f85553a1e6a4f00280fe9b35ed28b2bb779",
+  "parents": [
+    "9bdba0e7b860f73d3fbde4cddbb4cb738f3f4180",
+    "1c5d46e231e436377c29c539182d889087c94f2a"
+  ],
+  "human_review_claimed": false,
+  "scope": "Completed combined local artifacts and exact mergedsource continuity; hostedCI/deployment/live remain independent gates.",
+  "release_ready_without_hosted_ci": false,
+  "independent_verification": {
+    "method": "Owned and ran reviewed verify-local.py once after all13stages exit0 onaa384a77, usingconfiguredNode25. Saved actuallocal-verification.json; no builds/publicsourcechanges. Independently enumerated payload withlstat, compared actualarticle/card/image/PDFbytes, preserveddrafts and renderedfestival links.",
+    "result": "PASS",
+    "assertions": 10878,
+    "note": "Assertion count includes per-file exclusion checks, not10878browser interactions."
+  },
+  "payload": {
+    "bytes": 999075765,
+    "files": 3680,
+    "remaining_bytes": 924235,
+    "exclusive_limit": 1000000000,
+    "symlinks": 0,
+    "hard_links": 0,
+    "special_files": 0,
+    "scope": "ActuallocalmacOSpackage, not hostedLinux result."
+  },
+  "stages": {
+    "complete": 13,
+    "all_exit_zero": true,
+    "all_source_head": "aa384a77a18d64b5780468492a80bbafb2331ee0",
+    "full_tests": 829,
+    "coast_tests": 599,
+    "page_checks": 5476,
+    "disclosures": {
+      "full_pages": 1511,
+      "coast_pages": 1496,
+      "publication_pages": 1497,
+      "violations": 0
+    }
+  },
+  "actual_content_checks": {
+    "edition_fragments_and_pdf": {
+      "dist": {
+        "gonasika_fragment": "684f6fb5495476b74f26958468b38027e68bef2bdaf1fe7ec8d8893e552576e3",
+        "hatuari_fragment": "72e05ea9d799e9fbf216ff8a8859f0ed5ef4ccde724493215815867b8a486ce8",
+        "dhaga_pdf": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+      },
+      "dist-coast": {
+        "gonasika_fragment": "684f6fb5495476b74f26958468b38027e68bef2bdaf1fe7ec8d8893e552576e3",
+        "hatuari_fragment": "72e05ea9d799e9fbf216ff8a8859f0ed5ef4ccde724493215815867b8a486ce8",
+        "dhaga_pdf": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+      },
+      "dist-publish": {
+        "gonasika_fragment": "684f6fb5495476b74f26958468b38027e68bef2bdaf1fe7ec8d8893e552576e3",
+        "hatuari_fragment": "72e05ea9d799e9fbf216ff8a8859f0ed5ef4ccde724493215815867b8a486ce8",
+        "dhaga_pdf": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+      }
+    },
+    "festival_outputs": [
+      {
+        "edition": "dist",
+        "route": "stories/the-year-that-feeds-us",
+        "sha256": "e3de3b4d195fe4c577fc1c8f40572b7a6998d1b859fe00976496e6f53987d96d",
+        "six_notes_and_returns_resolve": true,
+        "three_chapter_links": true
+      },
+      {
+        "edition": "dist",
+        "route": "culture/osha",
+        "sha256": "2b8b20e697c0e4c76fc5bb4edca6390ad52b94810e64bd46a6f8040aed43df11",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist",
+        "route": "culture/osha/raja-parba",
+        "sha256": "62494be2a82c47e86249c6d2e95ff6349e5c1ba4d8a705c09ae7ea000f185f3a",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist",
+        "route": "culture/osha/nuakhai",
+        "sha256": "701b9f3734359b594994461ac5024a96b31c406d7185aa02653dc225f4bc1a45",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist",
+        "route": "culture/osha/manabasa-gurubara",
+        "sha256": "ea0bbc7c65241c040b95ff5cac87b95ab64f11cb90ea4ba012340f1422586ebc",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-coast",
+        "route": "stories/the-year-that-feeds-us",
+        "sha256": "fcb4c209edc24eb83d509537536b4ff49c3085f79c320143f8802d9218a444e0",
+        "six_notes_and_returns_resolve": true,
+        "three_chapter_links": true
+      },
+      {
+        "edition": "dist-coast",
+        "route": "culture/osha",
+        "sha256": "b4e81ca9c8a2783c1c3b0c736da159553e118d1588327bde211d622cdcd41eaf",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-coast",
+        "route": "culture/osha/raja-parba",
+        "sha256": "df4d8532fe1a0374870782207dac954778257c5a9663200fe959f672e62b0f4d",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-coast",
+        "route": "culture/osha/nuakhai",
+        "sha256": "c9e9e66be0243a717bc17e89fa412200a143686940f484db0c7b17ff6c262078",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-coast",
+        "route": "culture/osha/manabasa-gurubara",
+        "sha256": "a49b0c5da325e3faf3b50eec22ab85879a7f1e838d9a4ed77745f0e4afdba5ba",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-publish",
+        "route": "stories/the-year-that-feeds-us",
+        "sha256": "76ec97c613456be3017201f0ca45f83ac643600306df4fb7edc28c400eb376c0",
+        "six_notes_and_returns_resolve": true,
+        "three_chapter_links": true
+      },
+      {
+        "edition": "dist-publish",
+        "route": "culture/osha",
+        "sha256": "a98c455381e09b9f3cec1b84d22a93ff1894b5dceba3f6fa149953b52bc31917",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-publish",
+        "route": "culture/osha/raja-parba",
+        "sha256": "11d3bde7b36be7e20a2d8005c37a2c2ce42aace1ce89047832e6d3c8bc60fafb",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-publish",
+        "route": "culture/osha/nuakhai",
+        "sha256": "f906d02948f86862c1854a67e4cdf9be724464c3c2f93936985f4476eb667afa",
+        "introduction_backlink": true
+      },
+      {
+        "edition": "dist-publish",
+        "route": "culture/osha/manabasa-gurubara",
+        "sha256": "16e92b3bc6e9174d937fe0d1892258d842a1b163a6be903ce3d463766e86b105",
+        "introduction_backlink": true
+      }
+    ],
+    "mardala_fragment": "7b1cd6f44e292a11ddaef81b3f0b439636b4f9716ffcf27d073c384bf3b37164",
+    "selected_media_exact_to_prior_review": [
+      {
+        "path": "projects/site/dist-publish/images/destinations/gonasika-guptaganga-sudeep-pramanik.jpg",
+        "sha256": "34652c7fb58d25dfd471a9870032424284d8715499a4739aaef4e09a6db072e1",
+        "bytes": 413538,
+        "width": 1280,
+        "height": 960,
+        "orientation": null
+      },
+      {
+        "path": "projects/site/dist-publish/images/responsive/62c87119c9ea3a89-480.webp",
+        "sha256": "62c87119c9ea3a89a60ec023ff9454fa4065fd9095a8d89f81e0bfbc9d52f611",
+        "bytes": 70568,
+        "width": 480,
+        "height": 360,
+        "orientation": null
+      },
+      {
+        "path": "projects/site/dist-publish/images/responsive/37ab06656d237f42-960.webp",
+        "sha256": "37ab06656d237f424a2d7dc5e12f33c5247de92e750bdc135a1bae9c615c34b3",
+        "bytes": 246396,
+        "width": 960,
+        "height": 720,
+        "orientation": null
+      },
+      {
+        "path": "projects/site/dist-publish/images/responsive/749cfba3a125f63b-1280.webp",
+        "sha256": "749cfba3a125f63b096b30548cbbfeaac11452feeab799cf0fb1515b3fcbe37a",
+        "bytes": 395778,
+        "width": 1280,
+        "height": 960,
+        "orientation": null
+      },
+      {
+        "path": "projects/site/dist-publish/assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
+        "sha256": "4f1ad44a4a9bcecd14d47410e58571120935b7a93928e301dd656cbccbb3b8a1",
+        "bytes": 1088597,
+        "width": 1552,
+        "height": 1728,
+        "orientation": 1
+      }
+    ],
+    "previously_viewed_screenshots_preserved": 17,
+    "foreign_source_exact_paths": [
+      "kb/research/culture/the-year-that-feeds-us.md",
+      "projects/site/src/pages/culture/osha/[slug].astro",
+      "projects/site/src/pages/culture/osha/index.astro",
+      "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro"
+    ]
+  },
+  "visual_reuse": {
+    "basis": "All17previously individually inspected screenshots retainexacthashes. Gonasika full/coast/publication articlefragments, selectedJPEG/threeWebPvariants, Mardaladerivative+articlefragment and allthreepreviewcardfragments areexact to prior independentreview. Relevant source/styles unchanged byfestivalmerge. No new screenshotinteraction or field/humanreviewclaimed.",
+    "operator": "Disha/root actualbrowseractions; Drishti independentpreviousscreenshotinspection plus currentexactartifactcontinuity.",
+    "limits": "Previouscaptureframinglimitations retained. Foreignfestivalcontent integration checked inemittedmarkup only; no newfestivalbrowser/factual/sourcebudgetreview asserted."
+  },
+  "preservation": {
+    "protected_preparations": 67,
+    "working_and_commit_hashes_exact": true,
+    "private_exclusion": "Existingverifier recheckedpubliccoast/publicationforprotectedKaincha/Nilagirititles/openings/paths/exactfiles. No unauthorizedpreparationexport.",
+    "foreign": "Fourfestival sourcefiles exactincoming1c5d46e2; catalogunion separatelyreviewed. ExactHatuaricorrectedfragment7notes9markers/returns andlatest190011210-byteDhagaPDF remain inallthreeeditions. Incomingfestivalintro6sources/refreturns and3chapterlinks, collectionand3backlinks independentlyverifiedinallthreeeditions.",
+    "own": "Gonasikaarticle bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270 andphoto34652c7fb58d25dfd471a9870032424284d8715499a4739aaef4e09a6db072e1 unchanged. Source/rights/identity/datedphoto/capacitylimits fromactualpriorreviewretained.",
+    "governance": "No kb/ orprojects/workingdiff fromexactmergedhead. Ownslotunreleased/programme0; foreignownership andconditionalreportedNilagirireservation unchanged."
+  },
+  "live_helper_receipt_only_review": {
+    "result": "pass_bounded_change",
+    "change": "Exactlytwochangedlines: addHatuari as sixth expectedroute and changefailuremessageto six. Matchesverify-live.py sixthfreshfetch/exactcorrectedfragmentguard. All imagehash/geometry/orientation/pixelmeasurement/raw-evidencerechecks unchanged; no automaticacceptanceintroduced.",
+    "sha256": "5c226f871b87cfc421607db007e17c5fca62cda99a1e2a82e752b77a9aa34366",
+    "boundary": "This uncommittedhelperchange is laterreceipt evidence only, not publicbuildinput/currentcommit. No actualliveverificationperformed."
+  },
+  "prior_exact_evidence": {
+    "before_festival_report": "/private/tmp/gonasika-publication-exact-review.json",
+    "before_festival_sha256": "3232cd939295eb5f709ea7ab02b551037d8ebabbe9815a4bbc9e0bcca4d184ce",
+    "festival_merge_report": "/private/tmp/gonasika-festival-reconciliation-review.json",
+    "festival_merge_sha256": "b2c17fd0ee30249a1c1bf8f8ae4c88eaf686cb31331b4a19369366ae7685e66c"
+  },
+  "evidence_sha256": {
+    "outputs/gonasika-publication-2026-11-25/build-results.json": "c55fdc0e964abda78afbedffbbfea975b02f47e0fa0922d949c8cf78ebeace4f",
+    "outputs/gonasika-publication-2026-11-25/local-verification.json": "9dc37bb76a0293a56cb5fe4498307f09e2ad99f5dbbdca4251b44717c2790f12",
+    "outputs/gonasika-publication-2026-11-25/payload-check.json": "55c15ec3fe8498853401d13f86f6f8eb74247c8a3c9c415e0f9ede779f0a4546",
+    "outputs/gonasika-publication-2026-11-25/local-publication-plan.json": "9d04cbcf8866918df51f81cd4ec3a80e52fb460d549a180cbdcb1391eafe7775",
+    "outputs/gonasika-publication-2026-11-25/local-publication-jpeg-optimization.json": "a7e56bb1752b17d71487958cfafc0d0aea7c4d20ad438c5f2f237b1b2aee3ef6",
+    "outputs/gonasika-publication-2026-11-25/local-publication-png-optimization.json": "4a7bd7763e0105df4b0394c2bd16112d9be9e8462f4bcf8ced3600da086b1f21",
+    "outputs/gonasika-publication-2026-11-25/browser/local-review.json": "a9da9fa39ddc51e5d1e0c90add711552d7dc5a56868b9f6927781afb0cd16e1a",
+    "outputs/gonasika-publication-2026-11-25/verify-local.py": "33084ae1c9fdd160762cc56727b1745ad356b876c8d54acf24714a4ccfa06c42",
+    "outputs/gonasika-publication-2026-11-25/verify-live.py": "15f20fa34de264ef500aa98a90e69f47c4c3955c3f017d10faa2f81da9b9789b",
+    "outputs/gonasika-publication-2026-11-25/compare-live-images.mjs": "5c226f871b87cfc421607db007e17c5fca62cda99a1e2a82e752b77a9aa34366",
+    "outputs/gonasika-publication-2026-11-25/review/final-package-review.json": "429d15b4dd85be3a1633673fdf0670d932bcbadfbe0b7d01fdf2e99136337430",
+    "outputs/gonasika-publication-2026-11-25/review/reconciled-helper-review.json": "07f43a811cf492ec8f7df34f39de4cb709f01ef7bfd59fa8a4ddd640b8af97da"
+  },
+  "exact_foreign_source_sha256": {
+    "kb/research/culture/the-year-that-feeds-us.md": "f3bb4e65eedf3ab3843e26ed3aa08d8b96db9ce951fad503196c430e01a48339",
+    "projects/site/src/pages/culture/osha/[slug].astro": "db9c85b9475b4a01d69ae899b82cf181e7edef9e1a03add2b53f5d169fa88d12",
+    "projects/site/src/pages/culture/osha/index.astro": "8aa01583cfff923019e70838b8f89d1191aa45924d1fe3648bff4e558d5b7414",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "81f97f92b8407436440a38f86db4f5868d771b41157a988c2f355574447863b7"
+  },
+  "findings": [],
+  "limits": [
+    "Workingtreecontainsupdatedbuild/verificationevidence, archives andreceipt-onlyhelperchange; nocleanworkingtreeclaim. Exact publicsource remainsaa384a77.",
+    "Previouslycommittedcanonicalpackagecounts describeearlierstage; thisreportbindsupdatedactualcombinedmeasurement forlaterreceipt withoutrewritingpriorhistory.",
+    "No substantivefactualreview or authorshipcreditclaimed forforeignfestivalarticle.",
+    "No Gonasika requiredCI success, actualLinuxcapacity, deployment orliveclaimed. RequiredCI45559848925 pendingatassignment; thisreviewdoesnot independentlyqueryitsstatus."
+  ],
+  "remaining_conditions": [
+    "ActualsuccessfulrequiredCI onaa384a77 and unchangedremote-tree reconciliation beforemerge.",
+    "Exactreviewedtree deployment plusindependentfreshlivearticle/image/preview/Hatuari checks.",
+    "Reviewedpublicationreceipt actualmerge andexplicitcoordination beforeslotrelease."
+  ]
+}

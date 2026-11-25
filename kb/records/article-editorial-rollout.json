@@ -24549,23 +24549,34 @@
         "responsive": true
       },
       "evidence": [
-        "records/kapileswar-hatuari-publication-20261123.json"
+        "records/kapileswar-hatuari-publication-20261123.json",
+        "records/hatuari-privacy-correction-20261125.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/kapileswar-hatuari-publication-20261123.json"
+      "publication_receipt": "records/hatuari-privacy-correction-20261125.json"
     },
     {
       "id": "POD-EDIT-ODIAHOMEPAGE-20261123",
       "route": "/stories/when-odisha-became-a-homepage/",
       "title": "When Odisha Became a Homepage",
-      "status": "queued",
+      "status": "completed",
       "owner": "Disha",
       "scope": "Publish the author-approved text, ten original images and exact references; no prose rewrite; zero programme credit.",
       "source_template": "projects/site/src/pages/stories/when-odisha-became-a-homepage.astro",
       "evidence": [
         "records/odia-homepage-publication-20261123.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "publication_receipt": "records/odia-homepage-publication-20261123.json"
     },
     {
       "id": "POD-EDIT-BIRAKISHORE-20261123",
@@ -24692,6 +24703,48 @@
         "receipt": "records/malayagiri-publication-20261125.json"
       },
       "publication_receipt": "records/malayagiri-publication-20261125.json"
+    },
+    {
+      "id": "POD-EDIT-GONASIKA-20261125",
+      "route": "/destinations/gonasika/",
+      "title": "Gonasika: A Hill Source and a River’s Journey",
+      "status": "completed",
+      "owner": "Disha",
+      "scope": "Original hill destination article with credited article and preview image; zero programme credit.",
+      "source_template": "projects/site/src/pages/destinations/gonasika.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/gonasika-publication-20261125.json",
+      "delivery": {
+        "url": "https://projectodisha.org/destinations/gonasika/",
+        "pull_request": 864,
+        "deployment_run": 45563244558,
+        "receipt": "records/gonasika-publication-20261125.json"
+      }
+    },
+    {
+      "id": "POD-EDIT-GARBHANA-SANKRANTI",
+      "route": "/stories/garbhana-sankranti/",
+      "title": "Garbhana Sankranti: When the Paddy Is Expecting",
+      "status": "queued",
+      "scope": "article",
+      "source_template": "projects/site/src/pages/stories/garbhana-sankranti.astro",
+      "checks": {},
+      "evidence": [
+        "research/culture/garbhana-sankranti.md"
+      ],
+      "blocker": null
     }
   ]
 }

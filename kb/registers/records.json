@@ -10779,6 +10779,47 @@
       "evidence": [
         "records/antaranga-after-malayagiri-preparation-20261125.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112592",
+      "title": "Research, review and publish Gonasika",
+      "category": "publication",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112592",
+      "next_action": "Complete reviewed evidence-only receipt merge before explicit Nilagiri handoff.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112592",
+        "POD-REV-2026112592",
+        "POD-REL-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-20261125101",
+      "title": "Correct Hatuari public attribution",
+      "category": "publication",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-20261125101",
+      "next_action": "Merge separately reviewed evidence-only receipt with required checks, then explicitly return temporary slot to Gonasika; Nilagiri follows.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261125101",
+        "POD-WORK-20261123101",
+        "POD-REV-20261125101",
+        "POD-REL-20261125101"
+      ],
+      "evidence": [
+        "records/hatuari-privacy-correction-20261125.json"
+      ]
     }
   ],
   "decisions": [
@@ -16354,6 +16395,40 @@
       },
       "quote": "Now that Malayagiri’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
       "scope": "One independently researched original article preparation with credited image; no website integration or publication."
+    },
+    {
+      "id": "POD-DEC-2026112592",
+      "title": "Next uncovered hill after Nilagiri preparation",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has the other chat returned the slot now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one hill destination with credited article/preview image.",
+      "refs": [
+        "POD-WORK-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261125101",
+      "title": "Correct Hatuari public attribution before sharing",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Can we fix the article before I post",
+      "scope": "Remove potentially private discussion attribution and dependent passages from the public article before sharing; retain independently sourced account.",
+      "refs": [
+        "POD-WORK-20261125101"
+      ],
+      "evidence": [
+        "records/hatuari-privacy-correction-20261125.json"
+      ]
     }
   ],
   "requirements": [
@@ -26156,6 +26231,47 @@
         "No website layout, browser, live route, build, deployment or publication review applies to this preparation.",
         "Shared completion-record reconciliation and local commit remain coordinator-owned subsequent gates."
       ]
+    },
+    {
+      "id": "POD-REV-2026112592",
+      "title": "Gonasika separate source, media, rendered, package and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112592",
+        "POD-DEC-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ],
+      "independent": true,
+      "summary": "Separate source/media/capacity/code, desktop/mobile, reconciliation, combined package and fresh live delivery reviews passed. Actual image differences and screenshot limits retained. Original assets,67 protected files and Hatuari correction preserved. Not a human specialist or field review."
+    },
+    {
+      "id": "POD-REV-20261125101",
+      "title": "Hatuari discussion-attribution correction review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261125101",
+        "POD-DEC-20261125101"
+      ],
+      "evidence": [
+        "records/hatuari-privacy-correction-20261125.json"
+      ],
+      "summary": "Separate source, rendered and exact-head candidate review passed; final live delivery review recorded in correction receipt.",
+      "limitations": [
+        "Prior public repository history is not erased",
+        "No new historical research or human specialist review",
+        "Local mobile verified; live browser viewport stayed desktop"
+      ]
     }
   ],
   "releases": [
@@ -30627,6 +30743,35 @@
       ],
       "evidence": [
         "records/malayagiri-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261125101",
+      "title": "Hatuari public attribution corrected",
+      "status": "published",
+      "authorization": "POD-DEC-20261125101",
+      "destination": "https://projectodisha.org/stories/kapileswar-hatuari/",
+      "refs": [
+        "POD-WORK-20261125101",
+        "POD-DEC-20261125101"
+      ],
+      "evidence": [
+        "records/hatuari-privacy-correction-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112592",
+      "title": "Gonasika: A Hill Source and a River’s Journey",
+      "status": "published",
+      "authorization": "POD-DEC-2026112592",
+      "destination": "https://projectodisha.org/destinations/gonasika/",
+      "refs": [
+        "POD-WORK-2026112592",
+        "POD-DEC-2026112592",
+        "POD-REV-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
       ]
     }
   ],

@@ -1,0 +1,21 @@
+{
+  "status": "PASS_WITH_RETAINED_DIFFERENCES",
+  "reviewer": "Disha root",
+  "root_measured_report": "outputs/gonasika-publication-2026-11-25/live-image-comparison.json",
+  "root_measured_sha256": "0c96bc0ba700a0d81df9c60c28048dc261cdb836d942f14ce12b249eb6eed3f9",
+  "independent_capture_parity": "All21 root image hashes and local comparison hashes match the independently fetched counterparts; independent review additionally fetched five Hatuari image files.",
+  "visually_viewed": {
+    "outputs/gonasika-publication-2026-11-25/review/live-independent/difference-0.png": "70021b574766b63913edfda23aebe3fcfe78abfe1acad6f3c6b6e85b71badd7c",
+    "outputs/gonasika-publication-2026-11-25/review/live-independent/difference-1.png": "7819a16f0e4571db479632509b7a1dd18c2e44864292009bbccb47f35173d940",
+    "outputs/gonasika-publication-2026-11-25/review/live-independent/difference-2.png": "e46d57cacd0ebae8298e5456fcba2200e4787fa0bfda68e7401332fedb9b3f7b",
+    "outputs/gonasika-publication-2026-11-25/review/live-independent/difference-3.png": "20fa3239e18528b9220092c0eac3b6ae97e6c531b564c24f45ba1b2264628f21",
+    "outputs/gonasika-publication-2026-11-25/review/live-independent/difference-4.png": "7705ee5cc085a16e52a3ddd8f0d4497c8071165a39d1440fc9d87c4eed8534fe",
+    "outputs/gonasika-publication-2026-11-25/review/live-independent/difference-5.png": "7d64c02ece82c096b7e1c0eea731b1b4f52166cbe95ffcbc6659e193453b71f9"
+  },
+  "finding": "Root personally viewed all six local-left/live-right comparisons. Frames, subjects and readable detail remain acceptable at inspected display size; no conspicuous loss. All four new Gonasika image files and adjusted Mardala JPEG are byte-exact to local reviewed outputs.",
+  "limits": [
+    "Six existing files differ in decoded pixels as measured; no pixel-identity or encoding-cause claim.",
+    "Comparisons are display-sized; full-resolution differences are measured, not visually inspected pixel by pixel."
+  ],
+  "raw_difference_count": 6
+}

@@ -1,0 +1,79 @@
+{
+  "reviewer": "Drishti",
+  "date": "2026-11-25",
+  "result": "pass",
+  "scope": "Accept bounded one-existing-entry Mardala1728/q95 proposal for subsequent implementation/review. Not implemented-code, emitted final-package, hosted capacity or live approval.",
+  "human_review_claimed": false,
+  "proposal_sha256": "1c7b44051efd4eefef6916932b301d3fb006edff85fcab8297b83c358d2f708e",
+  "asset": "assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
+  "measurements": {
+    "source_bytes": 7129541,
+    "source_sha256": "4bea00407654109672b7ba747ec9a1ae842974931642233a1c59ca6cebbba420",
+    "current_bytes": 2223058,
+    "current_sha256": "9bb7ef5f0603cd65db32025fb97fdd4ac1f2f4ece1eceba6ff6009095b536a3c",
+    "candidate_bytes": 1088597,
+    "candidate_sha256": "4f1ad44a4a9bcecd14d47410e58571120935b7a93928e301dd656cbccbb3b8a1",
+    "saving_vs_current_bytes": 1134461,
+    "source_current_dimensions": [
+      2716,
+      3024
+    ],
+    "candidate_dimensions": [
+      1552,
+      1728
+    ],
+    "orientation": 1,
+    "density": 72,
+    "reproduction": "Independently reproduced exact candidate bytes in memory from original using existing Sharp fit-inside1728/q95/4:4:4/mozjpeg/keepMetadata; SHA256 and length match proposal.",
+    "preservation": "Independently decoded and hashed KB original, public source, current full and coastal copies; all exact original. Current dist-publish matches measured2223058-byte baseline."
+  },
+  "metadata": {
+    "icc": "Absent both.",
+    "iptc": "118bytes byte-exact.",
+    "xmp": "4158bytes byte-exact.",
+    "exif": "1016bytes in original/current/candidate, but different candidate SHA256. Independently parsed55tags (IFD0,Exif,GPS): only ExifImageWidth2716→1552 and ExifImageHeight3024→1728 differ. This bounded parsed-tag check is not a blanket archival metadata identity claim.",
+    "original_exif_sha256": "9045b45f1950651ed75b1b95abcb2035870c365d520fa9addc9394e44692b01a",
+    "candidate_exif_sha256": "59c0b19691387db9f2f34fc1a27fa4bf65a1fad7cb251972f67008e9b0a4a30b"
+  },
+  "pixels": {
+    "lossless": false,
+    "independently_reproduced_mse": 3.2169214156166475,
+    "psnr_db": 43.05639908974615,
+    "maximum_channel_delta": 20,
+    "method": "Compared original decoded and resized with same geometry against candidate sRGB RGBdecode;8045568channels. Resampling already changes geometry; no original-resolution pixel identity."
+  },
+  "visual_review": {
+    "viewed": [
+      "Provided full-frame original/current/candidate triptych",
+      "Provided lacing/detail triptych",
+      "Actual candidate JPEG",
+      "Independent full-frame inspection derived from original decode",
+      "Independent full-frame inspection derived from current delivery decode"
+    ],
+    "result": "Full source frame and orientation retained, drum skin/rim/lacing and background label readable. No conspicuous new blocking or colour shift at inspected display scales. Candidate detail is acceptably clear for web article.",
+    "limits": "Original photograph itself excludes part of drum at left edge; full-frame preservation does not mean whole instrument. Direct original image output exceeded tool display limit, so independent original decode/downscaled full-frame inspection used; no full-resolution original-screen claim. This is not a page-browser check."
+  },
+  "rights_and_credit": {
+    "source": "https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg",
+    "revision": 1213089463,
+    "verified": "Independently opened Commons source in addition to retained provenance; Prateek Pattanaik, own work,10October2023,CC BY-SA4.0.",
+    "retained": "Keep same imageURL, creator/source/licence/date and explicit instrument-versus-troupe sentence. Actual current coastal caption and OG inspected.",
+    "caption_change": "Existing unique reproduced without alteration. replaced only by resized and compressed for web delivery without cropping. through existing guard.",
+    "og_change": "Existing orientation1 matching-source OG guard can change2716×3024 to1552×1728; preserve all other HTML/figure dimensions and surrounding text."
+  },
+  "feasibility": {
+    "prior_actual_linux_remaining_bytes": 92097,
+    "saving_bytes": 1134461,
+    "new_photo_projection_bytes": 1126280,
+    "projected_remaining_before_html": 100278,
+    "limit": "Arithmetic verified; prior Linux plus local image deltas is projection only. New HTML, actual variants and exact Linux build must pass strict1,000,000,000-byte gate. No current final package pass inferred.",
+    "alternatives": "Reported1800option leaves23669bytes beforeHTML;1728 proposal reasonably provides bounded margin without selecting another asset. No other optimization approved."
+  },
+  "implementation_conditions": [
+    "Only existing Mardala entry settings maximum_dimension1728/quality95 and updateShareDimensions:true; no new allowlist path or optimizer algorithm.",
+    "Meaningful actual-source regression verifies exact candidate, originals, orientation, metadata, unique caption and OG-only HTML changes; other entries stay unchanged.",
+    "Final emitted asset, credits, actual desktop/mobile full-frame page and strict local/hosted payload reviewed separately.",
+    "Original KB/public/full/coastal assets preserved; live encoding differences must be measured and visually assessed if present."
+  ],
+  "blocking_findings": []
+}

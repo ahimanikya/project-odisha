@@ -1,0 +1,57 @@
+{
+  "reviewer": "Drishti (separate AI review)",
+  "date": "2026-11-25",
+  "result": "pass",
+  "scope": "Bounded reconciliation of the reviewed Gonasika receipt with separately merged PR 865. No new factual, layout or deployment review of the foreign festival article is claimed.",
+  "receipt_parent": "ba74de7705fb3d42af5c50232a32176955ba2709",
+  "incoming_parent": "c908e24dc898ba5bfb8e1f358237e23b83565753",
+  "merge_commit_pending": true,
+  "human_review_claimed": false,
+  "actual_receipt_merge_claimed": false,
+  "staged_changed_paths": 16,
+  "staged_manifest_sha256": {
+    "kb/catalog.json": "a5b4bc0548e088192e16896cbfef91472e1369593f36f63ea992dad3dff4170c",
+    "kb/records/article-editorial-rollout.json": "bb8fff528bd26860baf9a274331042e8cf3a9a1954837d36ed14fb61c256219e",
+    "kb/records/article-editorial-work-list.md": "fbfb33a175dba136a945cdba7f000211f91fb22ea9ccc807fea118f63fba42f1",
+    "kb/records/editorial-workbench.json": "53e5b9a0732a4559e5e67fb792dccda5bb395d25c93856da4314a8c28a40d862",
+    "kb/records/gonasika-publication-20261125.json": "bd3936dc31706a5208a2c7b7912286421575b730a2d8fae85e1e8338956adf3e",
+    "kb/reference/public-website-routes.json": "b609814c0837481a299eac4522257955ba884102f1307da064d92f33555e9cfc",
+    "kb/research/culture/garbhana-sankranti.md": "97cfd5a1c863666048aa58776db91cee9396cd6690d33baa57cca223667db61d",
+    "outputs/gonasika-publication-2026-11-25/release/receipt-festival-reconciliation.json": "f7d50504679cc6529c8c191c1f001be721d4c9ec34e553d8bcf1476efb5f92f7",
+    "projects/site/editions/coast.json": "95d67213a0ee90fe5c22329259c5645ddbde830a9d83bbbc52980302d38aad9e",
+    "projects/site/editions/search-candidate.json": "bb42c316f29f2feba7798d58200575df3deb4d55f5618c9e4c77dfb42f916116",
+    "projects/site/src/data/discovery.ts": "0b9eee5aba2b464320d6343cc1f455871dac84a7a9df81bdd32a0000504af998",
+    "projects/site/src/pages/stories/garbhana-sankranti.astro": "2ef51558f81f46ba1fb3a3f43fb70f50117da44d2e557e8e63cbf1c012edc969",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "561beeeba05013186a70a478d9911c7e3c7765da206e2127758b8076d0a7554f",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "3de1a492e344b5e49fc69ea709a44fbaa37edf448c5b67708a840a82f16d0961",
+    "projects/site/tests-coast/edition.test.mjs": "650ce17fd8805d2696b4819d429da69e96a68bb5c25a24af0042833d6168e886",
+    "projects/site/tests/build.test.mjs": "5ee5ec8b83a6b800da4450f8d106fa4b9a281de4d1aef13e3daca6a4d8e54b92"
+  },
+  "verified": {
+    "incoming": "All 11 files listed in receipt-festival-reconciliation.json exactly match incoming main, both in staged bytes and recorded hashes. This includes the foreign manuscript, page, routes, discovery entry, tests and catalogue.",
+    "public_source": "There is no public source diff against incoming main. Gonasika source, media and the previously delivered privacy correction remain preserved; incoming festival changes are not attributed to this review.",
+    "rollout": "Independently reconstructed the three-way stable-ID merge. All 1,384 rows match the expected union: incoming adds only POD-EDIT-GARBHANA-SANKRANTI, while the owned Gonasika row retains its completed delivery status. No row was lost or overwritten.",
+    "generated_views": "Work-list validation passes: 247 completed, 264 queued, 872 excluded and one blocked. The workbench differs only in its coastal-edition input fingerprint and exactly matches the pure generator model. Research index remains current.",
+    "prior_receipt": "Against the prior 156-path closing manifest, only rollout, generated work list, generated workbench and the owned canonical handoff differ. The handoff adds only receipt_festival_reconciliation. Prior publication/live evidence and review reports remain unchanged.",
+    "ownership_history": "Register records, activity history and operations are byte-identical to the reviewed receipt parent. All 67 protected files match staged Git-blob hashes. Existing conditional receipt-merge release semantics and reported Nilagiri reservation are unchanged.",
+    "checks": "Register check passes with 1,405 records and 879 events; dashboard current. Team and autonomous programme checks pass. Catalogue check passes with 1,934 concepts. Scoped merge has no unresolved index stages, and its staged whitespace check passes without exceptions.",
+    "historical_deployment": "Gonasika delivery measurements still refer to actual deployment 45563244558 from publication merge 8872d9fb. They are not relabelled as measurements for this later combined receipt. The reconciliation record explicitly requires new CI capacity measurement."
+  },
+  "prior_exact_review": {
+    "path": "/private/tmp/gonasika-receipt-closing/exact-review.json",
+    "sha256": "e642225ab36554868b8e042e8626953962636cfd7e10b4741bf023f3665ff4f1",
+    "scope": "PASS for ba74de77; retained unchanged as historical exact-head evidence."
+  },
+  "findings": [],
+  "limitations": [
+    "This reviews the resolved staged merge, not a newly committed or hosted-tested receipt head.",
+    "No browser, build, fresh live HTTP or substantive foreign article review was performed or required for this preservation check.",
+    "Root reports the bundle check passed for 8,649 links; this bounded review did not rerun that check.",
+    "No copies or historical evidence rewrites were made. This report is the sole repository write."
+  ],
+  "remaining": [
+    "Commit the resolved receipt and actual reconciliation review evidence; verify the resulting exact head.",
+    "Require fresh successful CI on the combined receipt, including its actual capacity checks.",
+    "Observe the actual reviewed receipt merge before the explicit coordination handoff."
+  ]
+}
