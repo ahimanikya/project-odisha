@@ -25,6 +25,10 @@ def main():
  stages=json.loads((O/'build-results.json').read_text());expected_stages=['full-build','full-disclosures','full-tests','coast-build','coast-disclosures','coast-tests','coast-acceptance','coast-discovery','search-review','launch-readiness','publication-build','publication-disclosures','search-shortlist'];check([x['stage'] for x in stages]==expected_stages and all(x['exit_code']==0 for x in stages),'All thirteen distinct ordered build/test/audit stages passed')
  for stage in stages:
   check(stage.get('source_hashes') and all(H((R/p).read_bytes())==v for p,v in stage['source_hashes'].items()),'Current public source matches stage '+stage['stage'])
+ plan=json.loads((O/'review/festival-reconciliation-plan.json').read_text())
+ for row in plan['incoming_files']:
+  if row['path'] in plan['preserve_incoming_byte_exact']:check(H((R/row['path']).read_bytes())==row['incoming_sha256'],'Exact incoming festival file '+row['path'])
+ prior=json.loads((O/'before-festival-local-verification.json').read_text())
  protected=json.loads((O/'preserved-preparation.json').read_text());check(len(protected)==67,'67 protected preparation records')
  for item in protected:check(H((R/item['path']).read_bytes())==item['sha256'],'Preserved '+item['path'])
  check(all(x['manuscript_sha256']=='7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed' for x in stages),'Every stage bound frozen canonical manuscript')
@@ -40,6 +44,7 @@ def main():
  bodies=[]
  for edition in ['dist','dist-coast','dist-publish']:
   base=S/edition;html=(base/ROUTE.strip('/')/'index.html').read_text();body=fragment(html);p=Page(html);bodies.append(body)
+  check(H(body.encode())==prior['editions'][edition]['article_sha256'],edition+': exact Nilagiri article continuity after festival reconciliation')
   check(len(p.ids)==len(set(p.ids)),edition+': unique IDs')
   refs=[x for x in p.links if x.startswith('#user-content-fn-')];backs=[x for x in p.links if x.startswith('#user-content-fnref-')]
   check(sorted(refs)==['#user-content-fn-'+str(n) for n in range(1,5)] and sorted(backs)==['#user-content-fnref-'+str(n) for n in range(1,5)] and all(x[1:] in p.ids for x in refs+backs),edition+': four native references and returns')

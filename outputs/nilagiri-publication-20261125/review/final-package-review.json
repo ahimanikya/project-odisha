@@ -1,0 +1,75 @@
+{
+  "reviewer": "Drishti, separate AI review; not human specialist approval",
+  "reviewed_at_utc": "2026-11-25T09:41:03.406984+00:00",
+  "head": "85ac8698b3185f6f6c822da4edf51deee029d15d",
+  "blockers": [],
+  "status": "PASS_LOCAL_COMBINED_PACKAGE",
+  "scope": "Actual local dist, dist-coast and dist-publish outputs bound to committed combined candidate; hosted CI and live delivery remain separate gates.",
+  "actual_checks": [
+    "Read the final verifier and its delta, then independently executed it with only its report write redirected to /tmp. All 191 checks passed. No builds or site mutations performed.",
+    "Independently statted 3,687 regular files totaling 999,189,811 bytes; 810,189 bytes below the strict billion-byte limit; zero symbolic links and hardlinked files.",
+    "All 13 ordered stage records pass and all 19 source hashes match both current files and committed HEAD. Inspected actual logs: full 831/831, coastal 599/599, page acceptance 5488/5488, search shortlist 11/11; disclosure scans 1514, 1499 and 1500 pages with zero violations.",
+    "Exact canonical paragraphs, four native references and four returns, unique IDs, author, illustration caption/credit, description and sharing image verified in all three editions. All three incoming cards occur once with visible illustration credits and decorative empty alt.",
+    "Nilagiri article fragment SHA256 e078b7891b7c15391ebcd68e373ce06e0d97ac696a0152445be8dc65ee0e5e48 is identical across editions and pre-festival baseline. All four illustration files match expected hashes and the original reviewed public WebP.",
+    "Seven incoming festival files and 67 protected preparation artifacts retain expected hashes. Foreign current_task and handoff_home match the recorded base. Internal preparation directories, Kaincha and the original illustration PNG are absent from coastal/publication exports.",
+    "Actual Osakothi output matches the independently reviewed q88 candidate exactly: 504666 bytes, 2046 by 2838, saving 273619 bytes. Repository source and coastal original remain exact. IPTC and XMP are byte-identical, ICC absent in both, orientation absent to 1 is equivalent; EXIF differs 952 to 964 bytes and is not claimed byte-identical.",
+    "Read actual optimization report with ten JPEG entries; one reviewed Osakothi addition is separately bound by capacity-implementation-review.json. Compression disclosure is present in actual publication HTML.",
+    "Personally viewed all five final screenshots listed in browser-combined.json. Nilagiri desktop/mobile title, author and lead are readable; mobile shows the complete illustration. Osakothi separate frame shows complete photograph and caption; actual note 6 capture shows photographer, date, licence, source and delivery alteration."
+  ],
+  "helper_review": {
+    "source_hash_binding": "All stages require current hashes; final metadata and combined festival inputs are covered.",
+    "decorative_alt": "The parser accepts explicitly present alt with empty string or None, corresponding to alt=\"\" or bare empty alt; missing alt is rejected.",
+    "additional_checks": "Seven incoming file hashes and exact per-edition pre-festival article continuity are enforced.",
+    "failure_history": "Premature invocation failed the complete 13-stage guard and is retained in local-verification-before-shortlist-complete.json. Final unchanged rerun passed after completion."
+  },
+  "payload": {
+    "bytes": 999189811,
+    "files": 3687,
+    "remaining_bytes": 810189
+  },
+  "source_hashes": {
+    "projects/site/src/pages/stories/nilagiri-stone-utensils.astro": "333f1d0231b214621a187959a6a95cd9068a9930d98b19a36a1e3f841b00a7ba",
+    "projects/site/src/pages/stories/craft-listening.astro": "d442b6920046f449ce965dbcb7e62af83446b600fdd37fdfe6e8e59c2b5c25d4",
+    "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro": "20d928199e8f0afa31be768aea75fc16da2deb44b62c4ed6b1a57a1517b654ee",
+    "projects/site/src/pages/destinations/[slug].astro": "f81440ce0cdcb3712cd63be982c3312fa839101d0f28ca8f5da693f701099a4e",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "3d7488a6f70669d99938c7685bf412120fb2164b25b65ef32d8f2b1403884156",
+    "projects/site/tools/storage-copy.mjs": "d9a3047f458a7256375d6a697066bc0451b4e7ab8e51eb495489c6f8ddd1c37f",
+    "projects/site/tools/cow_copy.py": "924b5ba7ddc50aada98810789d24f9340cbda40acd022369db20ef90716dc79e",
+    "projects/site/tools/build-publication.mjs": "c668e4e0efba5286a6b825782c16cbad7e653caabb852cb4715cfda6b43b045c",
+    "projects/site/tools/prepare-search-review.mjs": "a13da9fa3cf2947539bb161d9588ed49d172bf3b382855f0c49f9eda18636281",
+    "projects/site/editions/coast.json": "d03445d643143371c60fd68469c76a04c4147d593fd65a26f1f631c2e372a0b5",
+    "projects/site/editions/responsive-images.json": "93a32c87c1f7e74ee808268390d61b4da66a4daad2616ffd42be7d41c442e9b1",
+    "projects/site/editions/search-candidate.json": "0599f24a709e0a6a56f7100e741821f9b037a11e94bec146968c08b4d0cb345a",
+    "projects/site/src/data/discovery.ts": "1f982332d193b03de399d4fa9495893f0246efe3761231e762810b8fcf3d4862",
+    "projects/site/src/pages/stories/akhi-muthi-anukula.astro": "69f32c80232df67c2c9222b3c16b65216f05d806530215758a7f49b0a06faf8a",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "ceab15a6dec3020d8832bdde773b7aeb3476848853e51f38329e4124891947f2",
+    "kb/research/culture/akhi-muthi-anukula.md": "1b8cc21d3659e05d0278ceb6b2cac46a7512952d378faac3e93f64f3b030de83",
+    "projects/site/tests/build.test.mjs": "4374db296a579c35498ca3979ad40f4a7663e79f71d74cabc86701781d06d021",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "27cf4a4bf78d8b755f8db641de2c445d479e8ce4982b1400cb845e6d3930b2c8",
+    "projects/site/tests-coast/edition.test.mjs": "3e55dcfd644d115115cf35fdd8f9002eff31655993397bf501b237bcfe2d7eba"
+  },
+  "evidence_sha256": {
+    "outputs/nilagiri-publication-20261125/build-results.json": "a5788aba468d4be98200273fb2e0966a5147460468a7e5a205d786c905969efd",
+    "outputs/nilagiri-publication-20261125/local-verification.json": "6af2943fc3213613c548fb2ded6951c852b24c1429cac513b37d3a047f084d57",
+    "outputs/nilagiri-publication-20261125/local-verification-before-shortlist-complete.json": "bcaaf575123c088672acd861bfbdd7bfd41470a0ae0abbd830ea31b0ebce4ca9",
+    "outputs/nilagiri-publication-20261125/combined-payload.json": "10b765ec585ef988ea376b5bedf63c7294a6cdb166b3d35840d578c72f0f4a95",
+    "outputs/nilagiri-publication-20261125/browser-combined.json": "aa90891dd4501a04d9fd2fbd76c10b1183b7e4f8d0dfeb21ebfc3a20e9e044be",
+    "outputs/nilagiri-publication-20261125/verify-local.py": "dacadfcde768fd3699b3d5a85871ee1d7057ea0d5249127b5f5273d2fbbd494f",
+    "outputs/nilagiri-publication-20261125/before-festival-local-verification.json": "ce68e150eea0a06c6e09b0214e588b7e2def44cb139b9ba0495b2012054dc32f",
+    "outputs/nilagiri-publication-20261125/preserved-preparation.json": "4f35ea2ab44b25a87ab036e9f4ef28939d07bb577141f9ef9e17a0d4293e0cff",
+    "outputs/nilagiri-publication-20261125/release/festival-reconciliation.json": "233624adcce05646059ee0dbc1c3c7a4f3dc494744a3746fe508814f8b27b318",
+    "outputs/nilagiri-publication-20261125/screenshots/combined-desktop-top.jpg": "7f5bfd335018a10d6c0d569798acff4da755cde66e965c11fd60e51baf1b4332",
+    "outputs/nilagiri-publication-20261125/screenshots/combined-mobile-top.jpg": "63148ef7bc62a0da5465bb2d57a25d40a91f13430631cda5393db0a765fc4f70",
+    "outputs/nilagiri-publication-20261125/screenshots/combined-osakothi-credit.jpg": "c0507ae030ba8accd8ed00bce3299a96f70727cdfa07f032c82165104b2f82ab",
+    "outputs/nilagiri-publication-20261125/screenshots/combined-osakothi-frame.jpg": "ce353ea7fe55b647e6c58d69fe9f384c73cd2b85d514adfba5a4cc1b16559b2f",
+    "outputs/nilagiri-publication-20261125/screenshots/combined-osakothi-top.jpg": "2be5d56ddb996286c0961b9b35e038e8cbc5e4b5e37492342275c30ce8b60fe7"
+  },
+  "limits": [
+    "Local macOS capacity is not Linux acceptance. Required CI45583299390 and subsequent publication/live validation are not accepted by this review.",
+    "Reviewer inspected saved screenshots, not an operated browser. Clicks, keyboard returns, viewport measurements and no-overflow observations belong to Disha. One engine at two viewport sizes is not real-device or cross-engine coverage.",
+    "Final desktop article screenshot ends within the illustration, and Osakothi top screenshot shows only its upper part; separate full-frame Osakothi capture supplies complete framing. Earlier two smooth-scroll frames remain inconclusive as documented in rendered-review.json.",
+    "JPEG recompression is lossy; no byte or pixel equivalence to the original is claimed. EXIF was not exhaustively audited tag by tag.",
+    "Current canonical record is an in-progress committed snapshot with an older next action. The completed local evidence is supplemental; it does not assert hosted success, publication or released ownership.",
+    "Foreign festival preservation is byte-level continuity, not a new substantive editorial review of that independently merged article."
+  ]
+}
