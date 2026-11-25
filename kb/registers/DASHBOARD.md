@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b0cd194d791d59e1d7e8ee2d5a6b4c693839ff907bf8fdd8ee89038eb28cb439`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `49ba9fc05cd63946184428414c2b2cd3331a89359a920d05bc43d261eae8fd9c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -420,7 +420,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112495 · Research, review and publish Saptasajya | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI, then explicit Jhoti slot handoff. | — |
 | POD-WORK-20261125201 · Publish Jhoti Chita with credited photograph and reading links | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt merge, then return the shared slot to the coordinating hill chat. | — |
 | POD-WORK-2026112591 · Research, review and publish Malayagiri | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI before releasing the article slot. | — |
-| POD-WORK-20261125101 · Correct Hatuari public attribution | in_progress | draft | Ahimanikya Satapathy | Review removal and generated article, coordinate release, publish and verify live absence. | — |
+| POD-WORK-20261125101 · Correct Hatuari public attribution | completed | published | Ahimanikya Satapathy | Merge separately reviewed evidence-only receipt with required checks, then explicitly return temporary slot to Gonasika; Nilagiri follows. | — |
 
 ## Pending human review and decisions
 
@@ -1189,6 +1189,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112495 | pass | True | No fieldwork or human specialist review.; Photograph identity, date and north-view label are creator supplied; no independent geolocation.; One responsive encoding differs; no pixel identity or encoding cause claimed. Two screenshot pairs overlap. |
 | POD-REV-20261125201 | pass | True | No fieldwork or human specialist review.; Photo provenance is the preserved official Commons preview; the camera original was not acquired. The drawing maker is not separately identified.; One existing delivery JPEG differs in184pixels; no pixel identity or encoding cause claimed.; One browser engine and two viewport sizes; screenshots overlap in content and are not fourteen distinct page layouts. |
 | POD-REV-2026112591 | pass | True | No fieldwork or human specialist review.; District original-publisher text retrieved through search index after direct access failed; original research paper read through author-deposited text, not visually inspected PDF.; Photo identity/date creator-supplied; no current access claim.; Three existing delivery images differ in bytes/pixels, independently measured/viewed; no cause or pixel identity inferred. Screenshot framing limits retained. |
+| POD-REV-20261125101 | pass | True | Prior public repository history is not erased; No new historical research or human specialist review; Local mobile verified; live browser viewport stayed desktop |
 
 ## Publication and application history
 
@@ -1472,6 +1473,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112495 · Saptasajya: A Shrine Among Wooded Hills | published | https://projectodisha.org/destinations/saptasajya/ | POD-DEC-2026112495 |
 | POD-REL-20261125201 · Jhoti Chita and the Art of Drawing with Rice Paste | published | https://projectodisha.org/stories/jhoti-chita/ | POD-DEC-20261125201 |
 | POD-REL-2026112591 · Malayagiri: Hills, Forest and Khuludi’s Waterfall | published | https://projectodisha.org/destinations/malayagiri/ | POD-DEC-2026112591 |
+| POD-REL-20261125101 · Hatuari public attribution corrected | published | https://projectodisha.org/stories/kapileswar-hatuari/ | POD-DEC-20261125101 |
 
 ## Sources and assets
 
@@ -1509,7 +1511,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112495 | 2026-11-24T15:38:01.331941+00:00 | Founder requested next uncovered hill; Tensa receipt verified and Jhoti reviewed preparation explicitly returned. Reconciled7d26d22b and verified22Jhoti hashes. Saptasajya selected after scoped reuse search; research and publication checks pending, zero programme credit. | — |
 | POD-EVT-2026112496 | 2026-11-24T17:28:37.219911+00:00 | Source/media/code and separate rendered reviews passed;827 full and599 coastal tests,5464 page checks and13 publication stages passed. Exact final local artifacts and38 protected preparation files verified; local package999122548bytes. Final package review, hosted checks and publication remain; zero programme credit. | — |
 | POD-EVT-2026112497 | 2026-11-24T19:20:23.493729+00:00 | PR853 passed CI attempt2 and merged c49d0fc8; deployment45456071334 succeeded. Separate fresh delivery review passed four routes/eight images/twelve screenshots and real root interactions. One responsive image difference measured and visually accepted. Actual999912801 bytes/3665 files leaves87199 bytes; zero programme credit. Slot remains held until reviewed receipt actually merges. | — |
 | POD-EVT-20261125201 | 2026-11-24T19:57:17.006005+00:00 | Saptasajya receipt verified and explicit handoff accepted; Jhoti publication now sole active article. Preparation hashes and foreign ownership preserved. | — |
@@ -1519,6 +1520,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112592 | 2026-11-24T23:10:05.894092+00:00 | Actual separate local source/media/code/rendered/package reviews and tests passed. Candidate awaits exact commit, hosted CI, deployment and live receipt. Zero programme credit. | — |
 | POD-EVT-2026112593 | 2026-11-25T00:19:32.008451+00:00 | Actual reviewed PR857/CI45508007471 and deployment45512451748 passed. Separate fresh live review passed5routes16images14captures. Three measured existing image differences accepted with limits. Receipt integration pending before slot release; zero programme credit. | — |
 | POD-EVT-20261125101 | 2026-11-25T03:40:24.839623+00:00 | User requested correction before sharing. Preparing removal of discussion-derived attribution and passages; independent sources and licensed photo retained. No publication claimed. | — |
+| POD-EVT-20261125102 | 2026-11-25T05:02:43.640956+00:00 | Reviewed correction PR860 and deployment45546126487 succeeded. Live article matches corrected build,7notes and2articleimagefiles exact; History link valid. Historical repository exposure persists. Receipt merge and explicit temporary-slot return remain; zero programme credit. | — |
 
 ## Deferred extensions
 
