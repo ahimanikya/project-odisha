@@ -12,6 +12,7 @@ import belgharTumudibandhaImage from '../../../../kb/research/destinations/belgh
 import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
 import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-image.json';
 import malayagiriImage from '../../../../kb/research/destinations/malayagiri-image.json';
+import gonasikaImage from '../../../../kb/research/destinations/gonasika-image.json';
 import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
@@ -165,4 +166,14 @@ export const malayagiriGuide = {
  aliases: ['Malyagiri'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide].filter(guide => allowsPage(guide.href));
+export const gonasikaGuide = {
+ title: 'Gonasika',
+ odia: '',
+ summary: 'Guptaganga, hill shrines and the Baitarani’s beginnings.',
+ href: '/destinations/gonasika/',
+ photo: gonasikaImage,
+ regions: ['Kendujhar'],
+ aliases: ['Guptaganga'],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide].filter(guide => allowsPage(guide.href));
