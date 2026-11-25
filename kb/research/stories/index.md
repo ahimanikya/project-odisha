@@ -89,3 +89,5 @@ For publication decisions and what is actually live, use the [current project re
 </details>
 
 - [Khudurukuni Osha and maritime knowledge](khudurukuni-maritime-knowledge.md) — Tapoi, girls’ cultural work and the practical demands of voyaging.
+
+- [Odisha: places, work and living traditions](independent-features/index.md) — 27 revised source-linked articles, organised by subject.

@@ -1,3 +1,4 @@
+import {independentFeatureDiscovery} from './independent-features';
 import kapileswarHatuariImage from '../../../../kb/research/places/kapileswar-hatuari-image.json';
 import {pioneerProfiles,pioneersSeries,pioneerRoute,pioneerImage} from './pioneers';
 import {hillDestinationGuides,deomaliGuide} from './hill-destinations';
@@ -35,6 +36,7 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ ...independentFeatureDiscovery,
  {"label": "When Odisha Became a Homepage", "category": "Personal", "dek": "Ahimanikya Satapathy remembers working with Debasmita Misra on the Oriya Homepage and its 1998 redesign.", "href": "/stories/when-odisha-became-a-homepage/", "image": {"src": "/images/stories/odia-homepage/image3.jpg", "alt": "The redesigned homepage, 1998.", "width": 1280, "height": 720}, "regions": ["Across Odisha"], "aliases": ["First Odia Home Page", "Oriya Homepage", "odiya.org", "Debasmita Misra", "ORNET"]},
  ...hillDestinationGuides.map(guide=>({label:guide.title,category:'Places',dek:guide.summary,href:guide.href,image:guide.photo,regions:guide.regions,aliases:guide.aliases})),
  {label:'Hills and highland escapes',category:'Places',dek:'Explore Odisha’s hill destinations through their landscapes, local histories and practical visiting information.',href:'/destinations/hills/',image:deomaliGuide.photo,regions:['Across Odisha'],aliases:['Hill stations','Highlands']},
@@ -117,5 +119,5 @@ const collectionEntries=[
  ...foods.pages.map(p=>({label:p.title,category:'Food',dek:p.lead,href:'/food/'+p.slug+'/',image:foods.assets[p.hero],regions:p.regions||(p.slug==='mudhi-mansa'?['Mayurbhanj']:p.slug==='balasore'?['Balasore']:['Nayagarh','Across Odisha'])}))
 ];
 export const discoveryEntries=collectionEntries.filter(e=>allowsPage(e.href)).map(e=>({...e,dek:isCoastalEdition&&e.href==='/destinations/bhubaneswar/'?editionCopy.bhubaneswar.orientation:e.dek,aliases:aliases.entries[e.href]||[]}));
-export const discoveryTopics=isCoastalEdition?['All',...new Set(discoveryEntries.map(e=>e.category))]:['All','People','Places','Experiences','Stay areas','Living culture','Food','Maritime connections','Languages','Literature','Personal'];
+export const discoveryTopics=isCoastalEdition?['All',...new Set(discoveryEntries.map(e=>e.category))]:['All','People','Places','Experiences','Stay areas','Living culture','Food','Maritime connections','Languages','Literature','Personal',...new Set(independentFeatureDiscovery.map(entry=>entry.category).filter(category=>!['Food','Living culture','Places'].includes(category)))];
 export const discoveryRegions=['All',...new Set(discoveryEntries.flatMap(e=>e.regions))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b));
