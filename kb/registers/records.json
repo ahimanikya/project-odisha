@@ -10784,16 +10784,17 @@
       "id": "POD-WORK-2026112592",
       "title": "Research, review and publish Gonasika",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112592",
-      "next_action": "Complete exact corrected-head review and required hosted CI, then authorized publication/live review and receipt.",
+      "next_action": "Complete reviewed evidence-only receipt merge before explicit Nilagiri handoff.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112592",
-        "POD-REV-2026112592"
+        "POD-REV-2026112592",
+        "POD-REL-2026112592"
       ],
       "evidence": [
         "records/gonasika-publication-20261125.json"
@@ -26233,7 +26234,7 @@
     },
     {
       "id": "POD-REV-2026112592",
-      "title": "Gonasika source, media and implementation review",
+      "title": "Gonasika separate source, media, rendered, package and live delivery review",
       "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
@@ -26247,7 +26248,7 @@
         "records/gonasika-publication-20261125.json"
       ],
       "independent": true,
-      "summary": "Separate source/media/code, reconciliation and final rendered/package review passed. Exact corrected-head review and hosted/live gates remain. Not a human specialist review."
+      "summary": "Separate source/media/capacity/code, desktop/mobile, reconciliation, combined package and fresh live delivery reviews passed. Actual image differences and screenshot limits retained. Original assets,67 protected files and Hatuari correction preserved. Not a human specialist or field review."
     },
     {
       "id": "POD-REV-20261125101",
@@ -30756,6 +30757,21 @@
       ],
       "evidence": [
         "records/hatuari-privacy-correction-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112592",
+      "title": "Gonasika: A Hill Source and a River’s Journey",
+      "status": "published",
+      "authorization": "POD-DEC-2026112592",
+      "destination": "https://projectodisha.org/destinations/gonasika/",
+      "refs": [
+        "POD-WORK-2026112592",
+        "POD-DEC-2026112592",
+        "POD-REV-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
       ]
     }
   ],

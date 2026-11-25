@@ -5,9 +5,9 @@ const root=new URL('../../',import.meta.url),dir=new URL('./',import.meta.url);
 const sharp=createRequire(new URL('projects/site/package.json',root))('sharp');
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const raw=await readFile(new URL('live-verification.json',dir)),v=JSON.parse(raw);
-const expectedRoutes=['/destinations/gonasika/','/destinations/hills/','/destinations/','/explore/','/stories/sakhi-nata-and-sakhi-pila/'];
+const expectedRoutes=['/destinations/gonasika/','/destinations/hills/','/destinations/','/explore/','/stories/sakhi-nata-and-sakhi-pila/','/stories/kapileswar-hatuari/'];
 if(!['PASS','REVIEW_DIFFERENCES'].includes(v.status))throw Error('Completed successful HTTP evidence required');
-if(v.routes?.length!==expectedRoutes.length||new Set(v.routes.map(x=>x.route)).size!==expectedRoutes.length||!expectedRoutes.every(r=>v.routes.some(x=>x.route===r&&x.status===200)))throw Error('All five expected routes required');
+if(v.routes?.length!==expectedRoutes.length||new Set(v.routes.map(x=>x.route)).size!==expectedRoutes.length||!expectedRoutes.every(r=>v.routes.some(x=>x.route===r&&x.status===200)))throw Error('All six expected routes required');
 if(!Array.isArray(v.images)||!v.images.length||!['/images/destinations/gonasika-guptaganga-sudeep-pramanik.jpg','/assets/sakhi-nata-and-sakhi-pila/mardala.jpg'].every(u=>v.images.some(x=>x.url===u)))throw Error('Complete article image evidence required');
 const report={status:'measurement_complete_visual_review_pending',raw_status:v.status,raw_sha256:hash(raw),decoder:{sharp:sharp.versions.sharp,libvips:sharp.versions.vips},images:[],limits:['Same installed decoder for each actual live/local pair; differences do not identify an encoding cause.','Raw HTTP and HTML differences retained; no automatic visual acceptance.']};
 for(const e of v.images){

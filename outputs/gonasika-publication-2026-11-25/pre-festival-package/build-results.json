@@ -1,0 +1,165 @@
+[
+  {
+    "stage": "full-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 102.74,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "full-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.25,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "full-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 71.2,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 179.28,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.88,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 35.45,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "coast-acceptance",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 15.2,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "coast-discovery",
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.19,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "search-review",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 46.57,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "launch-readiness",
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.84,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 798.09,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "publication-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 13.22,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "stage": "search-shortlist",
+    "command": [
+      "python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 41.51,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270",
+    "source_head": "0a56bf8619ab79e4575ff6498489c6f379bcc411",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  }
+]
