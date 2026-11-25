@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified",
   "owner": "Disha",
   "article_id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
   "route": "/stories/nilagiri-stone-utensils/",
@@ -8,7 +8,7 @@
   "authorization_quote": "When the slot is available, integrate and publish the Nilagiri stone utensils article with the credited illustration, links from relevant existing articles, and mobile and desktop layout checks.",
   "work_id": "POD-WORK-20261125401",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "d4e52e5040a24a5f9af94da23a74ede0c9a95878",
   "remote_reconciliation": {
     "receipt_pr": 866,
@@ -59,7 +59,7 @@
   "capacity": {
     "prior_combined_linux_payload": 999893680,
     "remaining_bytes": 106320,
-    "action": "Measure bounded separately reviewed delivery handling; preserve originals; actual Linux gate mandatory.",
+    "action": "Actual hosted publication CI and deployment passed below the strict one-billion-byte limit. Evidence-only receipt CI must also pass before handoff.",
     "reviewed_proposal": "outputs/nilagiri-publication-20261125/capacity/osakothi-q88-proposal.json",
     "separate_review": "outputs/nilagiri-publication-20261125/review/capacity-review.json",
     "root_visual": "Viewed source and q88 full frame at420px; face, feather whisk and clothing remain clear. Compression changes pixels; EXIF bytes differ, IPTC/XMP exact; original preserved.",
@@ -67,10 +67,20 @@
       "bytes": 999166179,
       "files": 3686,
       "evidence": "outputs/nilagiri-publication-20261125/before-festival-local-verification.json"
-    }
+    },
+    "combined_local_bytes": 999189811,
+    "combined_local_files": 3687,
+    "actual_linux_ci_bytes": 999987029,
+    "actual_linux_ci_files": 3687,
+    "actual_linux_ci_remaining_bytes": 12971,
+    "required_ci": 45583299390,
+    "reviewed_single_existing_change": "Osakothi base JPEG at unchanged2046x2838, q88, 273619B saved; source preserved, IPTC/XMP exact, EXIF bytes differ and orientation absence becomes1 (equivalent). No pixel-identity claim.",
+    "actual_deployed_bytes": 999987029,
+    "actual_deployed_files": 3687,
+    "actual_deployed_remaining_bytes": 12971
   },
   "foreign_ownership": "Kala Bhoomi current_task/handoff_home and all earlier preparation/publication records preserved.",
-  "next_action": "Reconcile merged festival867, rebuild and separately review combined package, then required CI/publication.",
+  "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly return the sole article slot to the coordinating hill chat.",
   "reviews": {
     "source": "outputs/nilagiri-publication-20261125/research/final-source-review.json",
     "static": "outputs/nilagiri-publication-20261125/review/static-review.json",
@@ -78,9 +88,13 @@
     "capacity_implementation": "outputs/nilagiri-publication-20261125/review/capacity-implementation-review.json",
     "rendered": "outputs/nilagiri-publication-20261125/review/rendered-review.json",
     "metadata_correction": "outputs/nilagiri-publication-20261125/review/metadata-correction-review.json",
-    "storage": "outputs/nilagiri-publication-20261125/review/storage-review.json"
+    "storage": "outputs/nilagiri-publication-20261125/review/storage-review.json",
+    "reconciliation": "outputs/nilagiri-publication-20261125/review/reconciliation-review.json",
+    "final_local_package": "outputs/nilagiri-publication-20261125/review/final-package-review.json",
+    "exact_commit": "outputs/nilagiri-publication-20261125/review/exact-commit-review.json",
+    "delivery": "outputs/nilagiri-publication-20261125/review/delivery-review.json"
   },
-  "review_limits": "Separate AI reviews, no human review claimed. Final rebuilt package, hosted CI, deployment and live review still pending.",
+  "review_limits": "Separate task-scoped AI reviews, not human specialist approval. Source, media, code, capacity, storage, local rendered/package, exact candidate and fresh live delivery reviews passed. Screenshot framing and raw image/page differences remain explicit. Receipt review and required checks precede actual merge and slot return.",
   "failure_history": [
     {
       "stage": "first full build",
@@ -95,12 +109,31 @@
     {
       "stage": "coast acceptance",
       "cause": "Canonical draft description too short for public metadata; reviewed publication-only79character description, original draft retained. Full rebuild pending.",
-      "evidence": "outputs/nilagiri-publication-20261125/build-results-short-description-failure.json"
+      "evidence": "outputs/nilagiri-publication-20261125/build-results-short-description-failure.json",
+      "resolution": "Subsequent complete combined rebuild passed all 13 stages, including 5,488 page checks; required CI 45583299390 and deployment 45588246011 passed on the reviewed candidate/merge."
     },
     {
       "stage": "local artifact helper",
       "cause": "HTML serializes empty alt as bare alt; helper now accepts present alt with empty or None value. No article change. Rerun181checks passed.",
       "evidence": "outputs/nilagiri-publication-20261125/local-verification-helper-alt-failure.json"
+    },
+    {
+      "stage": "combined artifact helper preflight",
+      "cause": "Root invoked before the last shortlist stage completed; guard correctly failed. Raw report preserved; all13stages completed then191checks passed.",
+      "evidence": "outputs/nilagiri-publication-20261125/local-verification-before-shortlist-complete.json"
+    },
+    {
+      "stage": "candidate upload and watch",
+      "cause": "Initial upload HTTP400; remote branch confirmed absent, unchanged temporary-transfer-settings retry succeeded. First CIwatch timed out; direct API verified still in progress, resumed watch completed successfully. No underlying cause inferred.",
+      "evidence": [
+        "outputs/nilagiri-publication-20261125/release/push-attempt-1.json",
+        "outputs/nilagiri-publication-20261125/release/ci-45583299390-watch.log",
+        "outputs/nilagiri-publication-20261125/release/ci-45583299390-watch-2.log"
+      ]
+    },
+    {
+      "stage": "uncommitted receipt record consistency",
+      "cause": "Register checker rejected unsupported readiness ready; corrected to reviewed, matching completed candidate review. No public source change."
     }
   ],
   "storage_copy": {
@@ -111,7 +144,7 @@
   },
   "browser_local": "outputs/nilagiri-publication-20261125/browser-local.json",
   "festival_reconciliation": {
-    "status": "reconciled_worktree_preserved_build_pending",
+    "status": "preserved_rebuilt_and_separately_reviewed",
     "incoming_merge": "e5401eb6e18e4e302ddd8b433066be6ee858822b",
     "pr": 867,
     "required_ci": 45573419121,
@@ -119,6 +152,102 @@
     "incoming_linux_payload_bytes": 999918457,
     "plan": "outputs/nilagiri-publication-20261125/review/festival-reconciliation-plan.json",
     "limits": "Independent foreign release preserved; no substantive source review of its article claimed. New combined package and hosted gate required.",
-    "evidence": "outputs/nilagiri-publication-20261125/release/festival-reconciliation.json"
-  }
+    "evidence": "outputs/nilagiri-publication-20261125/release/festival-reconciliation.json",
+    "resolution": "Combined rebuild, separate reconciliation review, required CI and deployment completed successfully; foreign files preserved."
+  },
+  "publication": {
+    "pull_request": 868,
+    "reviewed_head": "85ac8698b3185f6f6c822da4edf51deee029d15d",
+    "required_ci": 45583299390,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge": "b8b08ea25a7b91c44a2bb8b23d9f92d8faceec81",
+    "reviewed_and_merged_tree": "d2f2792c38c8434f9071e60cd3f2ec4be0445bb4",
+    "deployment_run": 45588246011,
+    "deployment_status": "success",
+    "deployment_attempt": 1,
+    "deployment_evidence": "outputs/nilagiri-publication-20261125/release/deployment-45588246011.json"
+  },
+  "local_validation": {
+    "build_stages": 13,
+    "full_tests": 831,
+    "coastal_tests": 599,
+    "page_acceptance_checks": 5488,
+    "artifact_checks": 191,
+    "build_results": "outputs/nilagiri-publication-20261125/build-results.json",
+    "artifact_results": "outputs/nilagiri-publication-20261125/local-verification.json",
+    "combined_browser": "outputs/nilagiri-publication-20261125/browser-combined.json"
+  },
+  "review_id": "POD-REV-20261125401",
+  "browser_live": "outputs/nilagiri-publication-20261125/browser-live.json",
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit return then goes to the coordinating hill chat; no next article is claimed here.",
+  "pull_request": 868,
+  "verified_routes": [
+    "/stories/nilagiri-stone-utensils/",
+    "/stories/craft-listening/",
+    "/destinations/balasore/",
+    "/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/",
+    "/stories/when-the-goddess-comes-to-the-wall/",
+    "/explore/",
+    "/stories/the-year-that-feeds-us/"
+  ],
+  "deployment": {
+    "run": 45588246011,
+    "head": "b8b08ea25a7b91c44a2bb8b23d9f92d8faceec81",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999987029,
+    "files": 3687,
+    "remaining_bytes": 12971,
+    "evidence": "outputs/nilagiri-publication-20261125/release/deployment-45588246011.json",
+    "log": "outputs/nilagiri-publication-20261125/release/deployment-45588246011.log"
+  },
+  "delivery_review": {
+    "status": "PASS",
+    "reviewer": "Drishti, separate AI assistant",
+    "evidence": "outputs/nilagiri-publication-20261125/review/delivery-review.json",
+    "sha256": "7d0e4ed186bf8e083e1416ae086b89f9439ddd3047ba6e7fe0f217092939f08c"
+  },
+  "live_verification": {
+    "root_http": "outputs/nilagiri-publication-20261125/live/delivery-20261125T100929.906584Z/http.json",
+    "browser": "outputs/nilagiri-publication-20261125/browser-live.json",
+    "image_comparison": "outputs/nilagiri-publication-20261125/live/image-comparison.json",
+    "root_visual_sample": "outputs/nilagiri-publication-20261125/live/root-image-sample.json",
+    "routes": 7,
+    "images": 43,
+    "screenshots": 9,
+    "directly_affected_images_byte_exact": 8,
+    "existing_responsive_byte_differences": 35,
+    "raw_differences_retained": true,
+    "article_fragment": "Exact, with no Nilagiri responsive URL substitution. Balasore and Explore fragments match after only explicitly observed src/srcset substitutions.",
+    "limits": "Whole-page bytes are not identical; actual outer-shell changes are separately classified. All 35 existing responsive files have matching geometry/metadata but differing pixels; separate reviewer visually inspected each actual pair. Root visually sampled the maximum mean-delta and maximum channel-delta pairs. No encoding cause or pixel-identity claim.",
+    "page_difference_classification": "outputs/nilagiri-publication-20261125/live/page-difference-classification.json",
+    "root_shell_review": "outputs/nilagiri-publication-20261125/live/root-shell-review.json"
+  },
+  "preserved_preparation": {
+    "files": 67,
+    "hash_manifest": "outputs/nilagiri-publication-20261125/preserved-preparation.json",
+    "verified": true,
+    "original_artwork_preserved": true
+  },
+  "next_slot": {
+    "chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "scope": "Next uncovered hill under that chat\u2019s existing human authorization, after explicit completed receipt handoff."
+  },
+  "receipt_festival_reconciliation": {
+    "pr": 869,
+    "incoming_merge": "6573e6b762ea7a67234f644b256fa18e8ecec57e",
+    "evidence": "outputs/nilagiri-publication-20261125/release/receipt-reconciliation.json",
+    "status": "preserved_and_separately_reviewed",
+    "current_combined_capacity": "Await required receipt CI; do not relabel original deployment measurement.",
+    "review": "outputs/nilagiri-publication-20261125/review/receipt-reconciliation-review.json"
+  },
+  "final_receipt_review": {
+    "status": "PASS",
+    "evidence": "outputs/nilagiri-publication-20261125/review/final-receipt-review.json",
+    "sha256": "2112dfd67f3e08883796528dd60900e01f59d66376f3c7e5cd8346d43d2cb1b7",
+    "limits": "Exact committed review, required CI and actual receipt merge remain. Separate AI review, not human specialist approval."
+  },
+  "receipt_whitespace": "Canonical records and source diff checks pass. Raw captured HTTP pages and original build/CI logs retain original whitespace as historical evidence; they are not reformatted."
 }

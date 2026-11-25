@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-11-24T09:23:47.270925+00:00",
+  "updated_at": "2026-11-25T11:22:11.361671+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -24750,15 +24750,24 @@
       "id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
       "route": "/stories/nilagiri-stone-utensils/",
       "title": "Nilagiri’s Stone Utensils: A Craft for the Table",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "article",
       "source_template": "projects/site/src/pages/stories/nilagiri-stone-utensils.astro",
       "owner": "Disha",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/nilagiri-publication-20261125.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/nilagiri-publication-20261125.json"
     },
     {
       "id": "POD-EDIT-AKHI-MUTHI-ANUKULA",

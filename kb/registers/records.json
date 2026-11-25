@@ -10825,15 +10825,17 @@
       "id": "POD-WORK-20261125401",
       "title": "Publish Nilagiri stone utensils with credited illustration",
       "category": "knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with separate Anvesha, Samanta and Drishti",
       "authorization": "POD-DEC-20261125401",
-      "next_action": "Integrate reviewed article/image, resolve delivery capacity, separate review and desktop/mobile verification before required CI/publication.",
+      "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly return the sole article slot to the coordinating hill chat.",
       "blockers": [],
       "refs": [
-        "POD-DEC-20261125401"
+        "POD-DEC-20261125401",
+        "POD-REV-20261125401",
+        "POD-REL-20261125401"
       ],
       "evidence": [
         "records/nilagiri-publication-20261125.json"
@@ -26305,6 +26307,24 @@
         "No new historical research or human specialist review",
         "Local mobile verified; live browser viewport stayed desktop"
       ]
+    },
+    {
+      "id": "POD-REV-20261125401",
+      "title": "Nilagiri separate source, media, code, capacity, rendered and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261125401",
+        "POD-DEC-20261125401"
+      ],
+      "evidence": [
+        "records/nilagiri-publication-20261125.json"
+      ],
+      "summary": "Separate source/local/exact-candidate and fresh live delivery reviews passed. Seven routes, 43 images and nine browser captures verified; all eight directly affected files exact, 35 existing responsive differences measured and visually accepted with raw evidence and limits retained. Not human specialist review."
     }
   ],
   "releases": [
@@ -30805,6 +30825,21 @@
       ],
       "evidence": [
         "records/gonasika-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261125401",
+      "title": "Nilagiri’s Stone Utensils: A Craft for the Table",
+      "status": "published",
+      "authorization": "POD-DEC-20261125401",
+      "destination": "https://projectodisha.org/stories/nilagiri-stone-utensils/",
+      "refs": [
+        "POD-WORK-20261125401",
+        "POD-DEC-20261125401",
+        "POD-REV-20261125401"
+      ],
+      "evidence": [
+        "records/nilagiri-publication-20261125.json"
       ]
     }
   ],

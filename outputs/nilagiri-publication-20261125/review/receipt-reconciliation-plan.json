@@ -1,0 +1,95 @@
+{
+  "reviewer": "Drishti, separate AI reviewer, not human specialist approval",
+  "reviewed_at_utc": "2026-11-25T11:49:06.235738+00:00",
+  "publication_base": "b8b08ea25a7b91c44a2bb8b23d9f92d8faceec81",
+  "receipt_checkpoint": "11d17a59e41eed238cdf15711b5a7584617242c5",
+  "incoming_festival_merge": "6573e6b762ea7a67234f644b256fa18e8ecec57e",
+  "blockers": [],
+  "status": "PASS_BOUNDED_RECONCILIATION_PLAN",
+  "timing": "Requested before merge; recorded after inspecting actual merge-in-progress resolution, not falsely presented as a prior pre-merge approval.",
+  "incoming_files": [
+    "kb/catalog.json",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "kb/research/culture/chitau-amavasya.md",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/pages/stories/chitau-amavasya.astro",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+    "projects/site/tests-coast/discovery-flow.test.mjs",
+    "projects/site/tests-coast/edition.test.mjs",
+    "projects/site/tests/build.test.mjs",
+    "projects/site/tests/publication-png.test.mjs",
+    "projects/site/tools/optimize-publication-png.mjs"
+  ],
+  "shared_files": [
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json"
+  ],
+  "nonshared_exact_files": [
+    {
+      "path": "kb/catalog.json",
+      "sha256": "42d7c40404cd1fa8b9b5541cf28c4e9dfed8720fc6a5e0ce7b10585d8d9249b9"
+    },
+    {
+      "path": "kb/reference/public-website-routes.json",
+      "sha256": "4a6c9923e193fb8f6eac18c53fe92738d3beba21337866100f78502a4ed517b9"
+    },
+    {
+      "path": "kb/research/culture/chitau-amavasya.md",
+      "sha256": "cb8df48c67b22f2e108f0085bfe2961eba1af03d4cc99af072ea3a8afac2c6c9"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "aedb713ee712f56348a9e2a0a8a54c191426f8d96f77fbd78c889315121521ad"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "8375c1d94085e5d7d3b1ade8ea6ca18a9641c4aa03b1742de134d3076a6e898a"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "13a66872968ff4850058f45821b528730d543dee7fd8452cc8a1121a9609726d"
+    },
+    {
+      "path": "projects/site/src/pages/stories/chitau-amavasya.astro",
+      "sha256": "2c892806613cec4968289e43dc07b385c7b586f743ddb6b5f17ec1a4f478f54e"
+    },
+    {
+      "path": "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "sha256": "72c23c67acb0b400a46c47b036ab4e66a2a95bc499b9b2ff6977eef201d412d4"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "e20c26ec81a609c8cd5adc03215bcb1fdda97e306747ba1dde6f3ab4f8261add"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "1f2dd64764b6c4239388d5bf8bfffc9131e93df982a663e1855edbcbe5a0c238"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "11b5ba6d2a2d9decc2f04f61a4a8ceaee7272ecc19750b417024a812dc7bf1fe"
+    },
+    {
+      "path": "projects/site/tests/publication-png.test.mjs",
+      "sha256": "937cf1e174a869ce36fd423f1d7cdce3d5bc965508c94a7754e7231e1ade337f"
+    },
+    {
+      "path": "projects/site/tools/optimize-publication-png.mjs",
+      "sha256": "b004577ed9ab6ca4bdd09febb602d32b3593fdc2046d997418896153ba87124c"
+    }
+  ],
+  "required_resolution": [
+    "Preserve all 13 nonshared incoming files exactly, including the independent Chitau article, route/discovery updates and foreign PNG optimizer/test change.",
+    "Retain every incoming rollout row unchanged; complete only the Nilagiri row. Regenerate work-list and hash-bound workbench/dashboard.",
+    "Keep incoming static count193, discovery base173 and explicit Chitau route assertion: one new independent article. No extra Nilagiri count is added.",
+    "Public source must equal incoming6573e6b7. Preserve all67 preparation files and foreign task/handoff pointers.",
+    "Historical Nilagiri deployment remains bound to b8b08ea25 and999987029 bytes; do not reuse that capacity number as evidence for the new incoming tree. Required combined receipt CI remains a gate."
+  ],
+  "authority_limit": "Preserving an independently merged release is not a new substantive editorial, capacity-implementation or live-publication approval of its content."
+}

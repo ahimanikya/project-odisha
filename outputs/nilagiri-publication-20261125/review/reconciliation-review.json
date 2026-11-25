@@ -1,0 +1,68 @@
+{
+  "status": "PASS_MERGED_TREE_RECONCILIATION_BUILD_PENDING",
+  "reviewer": "Drishti; separate AI reviewer",
+  "date": "2026-11-25",
+  "commit": "85ac8698b3185f6f6c822da4edf51deee029d15d",
+  "parents": [
+    "ce976725ad520ad6e3c698a9c8661c50772cc8c2",
+    "e5401eb6e18e4e302ddd8b433066be6ee858822b"
+  ],
+  "tree": "d2f2792c38c8434f9071e60cd3f2ec4be0445bb4",
+  "findings": [],
+  "verified": {
+    "incoming_nonshared_byte_exact": [
+      "kb/catalog.json",
+      "kb/research/culture/akhi-muthi-anukula.md",
+      "projects/site/src/data/discovery.ts",
+      "projects/site/src/pages/stories/akhi-muthi-anukula.astro",
+      "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs"
+    ],
+    "owned_source_files_byte_exact_to_checkpoint": [
+      "projects/site/src/pages/stories/nilagiri-stone-utensils.astro",
+      "projects/site/src/pages/stories/craft-listening.astro",
+      "projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro",
+      "projects/site/src/pages/destinations/[slug].astro",
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs",
+      "projects/site/tools/storage-copy.mjs",
+      "projects/site/tools/cow_copy.py",
+      "projects/site/tools/build-publication.mjs",
+      "projects/site/tools/prepare-search-review.mjs"
+    ],
+    "protected_preparation_hashes": 67,
+    "coastal_routes": "Exact union, unique entries, unchanged standalone classifications; portable inventory equals final route order.",
+    "search": "Only incoming Akhi hold row added; prior decisions unchanged.",
+    "rollout": "Only incoming queued Akhi row added, identical to incoming; every prior owned/foreign row unchanged.",
+    "generated_workbench_coast_sha256": "d03445d643143371c60fd68469c76a04c4147d593fd65a26f1f631c2e372a0b5",
+    "tests": "Combined static192 and all three presence assertions retained. Two coastal discovery tests byte-exact incoming, using172.",
+    "operations_and_registers": "Byte-exact to coordinator checkpoint; no foreign pointer or work ownership changed by reconciliation.",
+    "tracked_worktree": "Matches committed tree at inspection; running pipeline outputs are untracked."
+  },
+  "reviewed_changes": "Read actual17-file checkpoint-to-merge diff. Additional two evidence/runner paths bind the incoming source files for the combined pipeline. Canonical record truthfully states reconciliation complete and build pending.",
+  "limits": [
+    "Current pipeline not complete; no package, hosted CI or publication acceptance.",
+    "No substantive source/rights/layout review of foreign festival article is claimed. Its seven nonshared incoming files are preserved exactly.",
+    "Generated view content/digest reviewed; broad validators were not rerun concurrently with the active build."
+  ],
+  "reviewed_sha256": {
+    "kb/catalog.json": "00083d5f3f7daf3d5846bc3c1211d53ccd9cbe138799da8b022b304a9b30c2b0",
+    "kb/records/article-editorial-rollout.json": "2bfbf4bb403520e55e36337a3d4127a5399071c4c3e61761e179cf176d07f7c2",
+    "kb/records/article-editorial-work-list.md": "2c15ccce6c38c2aad5b20780739280f9520d8907b380ed9c07d9d10447a7220e",
+    "kb/records/editorial-workbench.json": "c1561c74a715cedab3c55cbfbe68c2e6864caa3115a3a5de6a6e38b18272fec8",
+    "kb/records/nilagiri-publication-20261125.json": "4b6826c48c7c4d71bf70db0901e37725e842bc7e9cd0fb724b12bce422f14e76",
+    "kb/reference/public-website-routes.json": "2a9000badcf7b202b44a20adb1e0588764b38843b0c43721c4b232d5f79ed364",
+    "kb/research/culture/akhi-muthi-anukula.md": "1b8cc21d3659e05d0278ceb6b2cac46a7512952d378faac3e93f64f3b030de83",
+    "outputs/nilagiri-publication-20261125/release/festival-reconciliation.json": "233624adcce05646059ee0dbc1c3c7a4f3dc494744a3746fe508814f8b27b318",
+    "outputs/nilagiri-publication-20261125/run-checks.py": "dc660a1cfbda49f8b773ede37cfc0e0441b828aba0416421417899ec008a220d",
+    "projects/site/editions/coast.json": "d03445d643143371c60fd68469c76a04c4147d593fd65a26f1f631c2e372a0b5",
+    "projects/site/editions/search-candidate.json": "0599f24a709e0a6a56f7100e741821f9b037a11e94bec146968c08b4d0cb345a",
+    "projects/site/src/data/discovery.ts": "1f982332d193b03de399d4fa9495893f0246efe3761231e762810b8fcf3d4862",
+    "projects/site/src/pages/stories/akhi-muthi-anukula.astro": "69f32c80232df67c2c9222b3c16b65216f05d806530215758a7f49b0a06faf8a",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "ceab15a6dec3020d8832bdde773b7aeb3476848853e51f38329e4124891947f2",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "27cf4a4bf78d8b755f8db641de2c445d479e8ce4982b1400cb845e6d3930b2c8",
+    "projects/site/tests-coast/edition.test.mjs": "3e55dcfd644d115115cf35fdd8f9002eff31655993397bf501b237bcfe2d7eba",
+    "projects/site/tests/build.test.mjs": "4374db296a579c35498ca3979ad40f4a7663e79f71d74cabc86701781d06d021"
+  }
+}
