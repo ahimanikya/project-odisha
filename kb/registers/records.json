@@ -10860,6 +10860,25 @@
       "evidence": [
         "records/barunei-publication-20261125.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261126301",
+      "title": "Prepare Kula and the Work of Winnowing",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with separate Anvesha, Samanta and Drishti",
+      "authorization": "POD-DEC-20261126301",
+      "next_action": "Commit reviewed preparation and explicitly return the article slot; publication remains unauthorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126301",
+        "POD-REV-20261126301"
+      ],
+      "evidence": [
+        "records/antaranga-after-barunei-preparation-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16500,6 +16519,23 @@
       ],
       "evidence": [
         "records/barunei-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126301",
+      "title": "Prepare next original article after Barunei",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has Barunei’s final review record merged and the slot returned now? If so, prepare the next article on an uncovered Antaranga Kalinga topic with independent research and a credited image. Don’t copy their content.",
+      "scope": "One independently researched original article preparation with credited image; no website integration or publication.",
+      "refs": [
+        "POD-WORK-20261126301"
+      ],
+      "evidence": [
+        "records/antaranga-after-barunei-preparation-20261126.json"
       ]
     }
   ],
@@ -26380,6 +26416,24 @@
       ],
       "independent": true,
       "summary": "Separate source/media/capacity/code/rendered/package/exact-candidate and fresh delivery review passed. Root13livecaptures and5routes checked; independent31images,4measured differences visually accepted. Raw differences and limits retained. Required receipt review/checks/merge pending. Not human-specialist or field approval."
+    },
+    {
+      "id": "POD-REV-20261126301",
+      "title": "Kula separate source, photograph and integrated preparation review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261126301",
+        "POD-DEC-20261126301"
+      ],
+      "evidence": [
+        "records/antaranga-after-barunei-preparation-20261126.json"
+      ],
+      "summary": "Original draft, independently inspected sources, credited photograph and portable reading copy passed separate review. No public integration, responsive site or deployment review; no human specialist review claimed."
     }
   ],
   "releases": [

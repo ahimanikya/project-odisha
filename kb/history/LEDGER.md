@@ -1712,3 +1712,5 @@ All550 current illustrations were actually viewed against their final entries.54
 Founder authorized corrections142386504 and improvements288497 plus website/book publication. Final550 textual decisions preserved. Original assets retained; zero programme credit.
 
 - 2026-11-25 — Corrected the live Hatuari article before sharing: removed discussion-derived passages and note, retaining independently published sources and licensed photograph. Seven source notes, two article image files and History link verified. [Correction receipt](../records/hatuari-privacy-correction-20261125.json). Historical public repository versions remain; reviewed receipt merge precedes temporary-slot return to Gonasika, then Nilagiri. Zero programme credit.
+
+- 2026-11-26 — Prepared Kula and the Work of Winnowing after Barunei’s merged receipt and explicit handoff. Original prose, independent sources and credited photograph passed separate review. [Preparation receipt](../records/antaranga-after-barunei-preparation-20261126.json). Unpublished preparation only; explicit slot return follows reviewed local commit. Zero programme credit.
