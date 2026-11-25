@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_hosted_validation",
+  "status": "published_verified",
   "article_id": "POD-EDIT-MALAYAGIRI-20261125",
   "route": "/destinations/malayagiri/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has Jhoti Chita’s release finished and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112591",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "0929dad2ae5e4fd6d950a8f8bd2aaf99c5a3a628",
   "prior_release": {
     "receipt_pr": 856,
@@ -29,7 +29,7 @@
   "capacity": {
     "prior_linux_payload_bytes": 999952877,
     "prior_remaining_bytes": 47123,
-    "new_package_measurement": "Actual completed local package passed; actual Linux CI/deployment remain pending.",
+    "new_package_measurement": "Actual required publication CI and deployment both verified at999907903bytes/3675files,92097bytes remaining.",
     "proposal": "outputs/malayagiri-publication-2026-11-25/review/capacity-proposal.json",
     "review": "outputs/malayagiri-publication-2026-11-25/review/capacity-review.json",
     "implementation": "outputs/malayagiri-publication-2026-11-25/review/capacity-implementation.md",
@@ -40,7 +40,9 @@
     "limits": "One existing allowlisted Sahi JPEG changes to2400px/q95 with exact orientation8 sharing dimensions. Original preserved; lossy derivative. EXIF/MakerNote reduction already existed in3072px delivery; no all-metadata identity claim. Actual local and Linux package gates remain required.",
     "local_payload_bytes": 999115274,
     "local_payload_files": 3675,
-    "local_remaining_bytes": 884726
+    "local_remaining_bytes": 884726,
+    "actual_ci_payload_bytes": 999907903,
+    "actual_ci_remaining_bytes": 92097
   },
   "assignments": {
     "Disha": "Coordinator, image, records and publication",
@@ -50,7 +52,7 @@
   },
   "preserved_preparation": "outputs/malayagiri-publication-2026-11-25/preserved-preparation.json",
   "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, all38Jhoti/Kaincha preparation files and prior receipts.",
-  "next_action": "Commit separately reviewed candidate, verify exact commit, then required hosted CI and actual Linux capacity before authorized publication.",
+  "next_action": "Complete separate final integrated/exact-commit receipt review, required receipt CI and actual merge; then release the sole article slot.",
   "reserved_files": {
     "Anvesha": [
       "outputs/malayagiri-publication-2026-11-25/research/"
@@ -135,5 +137,64 @@
       }
     ],
     "scoped_exit_code": 0
+  },
+  "publication": {
+    "status": "PASS",
+    "pr": 857,
+    "reviewed_head": "b5748090629d226c658d7beec317c32d368332f1",
+    "merge": "d8a7fe5382ad287cb8294d971bc485cca92f0950",
+    "reviewed_and_merged_tree": "255a6c5de7e2de60d98da04f6b35f6ba85e369b8",
+    "required_ci": 45508007471,
+    "attempt": 1,
+    "conclusion": "success",
+    "linux_payload_bytes": 999907903,
+    "files": 3675,
+    "remaining_bytes": 92097,
+    "scope": "Actual required CI, merged PR and fetched tree verified. Deployment and live verification pending."
+  },
+  "deployment": {
+    "run": 45512451748,
+    "head": "d8a7fe5382ad287cb8294d971bc485cca92f0950",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999907903,
+    "files": 3675,
+    "remaining_bytes": 92097,
+    "evidence": "outputs/malayagiri-publication-2026-11-25/release/deployment.json",
+    "log": "outputs/malayagiri-publication-2026-11-25/release/deployment.log.gz"
+  },
+  "release_condition": "Scope release takes effect only after the separately reviewed evidence-only receipt actually merges following required CI. No next article is claimed before that merge.",
+  "live_verification": {
+    "evidence": "outputs/malayagiri-publication-2026-11-25/live-verification.json",
+    "image_comparison": "outputs/malayagiri-publication-2026-11-25/live-image-comparison.json",
+    "browser_evidence": "outputs/malayagiri-publication-2026-11-25/browser/live-browser-review.json",
+    "routes": 5,
+    "images": 16,
+    "screenshots": 14,
+    "raw_status": "REVIEW_DIFFERENCES",
+    "difference": "Thirteen image files byte-exact, including all four Khuludi files and Sahi JPEG. Existing Saptasajya480, HindolaJPEG and AbhisarikaJPEG differ in bytes/pixels; root and separate reviewer independently measured/viewed all three pairs and accepted visible quality. No encoding cause or pixel-identity claim. Malayagiri fragment differs only the observed existing Saptasajya480 URL; Sahi fragment byte-exact.",
+    "independent_evidence": "outputs/malayagiri-publication-2026-11-25/review/live-independent/http-verification.json",
+    "screenshot_limit": "One intermediate destination-mobile capture excluded as card proof; complete replacement supplied. Hills-mobile and desktop-title-caption framing limits retained; captures are complementary, not14distinctlayouts."
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/malayagiri-publication-2026-11-25/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/857",
+  "verified_routes": [
+    "/destinations/malayagiri/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/sahi-jatra/"
+  ],
+  "receipt_review": {
+    "status": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/malayagiri-publication-2026-11-25/review/final-receipt-review.json",
+    "scope": "Final integrated evidence-only receipt reviewed; exact committed-head review, required CI and actual merge remain."
   }
 }

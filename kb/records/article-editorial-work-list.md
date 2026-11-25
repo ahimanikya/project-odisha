@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1382. blocked: 1, completed: 244, excluded: 872, in_progress: 1, queued: 264.
+Route inventory: 1382. blocked: 1, completed: 245, excluded: 872, queued: 264.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1405,4 +1405,4 @@ Route inventory: 1382. blocked: 1, completed: 244, excluded: 872, in_progress: 1
 | POD-EDIT-TENSA-20261124 | [Tensa: Hills, Iron Ore and a Community Camp](https://projectodisha.org/destinations/tensa/) | completed | Original destination article with credited article and preview image; zero programme credit. |
 | POD-EDIT-SAPTASAJYA-20261124 | [Saptasajya: A Shrine Among Wooded Hills](https://projectodisha.org/destinations/saptasajya/) | completed | Original hill destination article with credited article and preview image; zero programme credit. |
 | POD-EDIT-JHOTI-20261124 | [Jhoti Chita and the Art of Drawing with Rice Paste](https://projectodisha.org/stories/jhoti-chita/) | completed | Original article with credited photograph and relevant incoming links; zero programme credit. |
-| POD-EDIT-MALAYAGIRI-20261125 | [Malayagiri: Hills, Forest and Khuludi’s Waterfall](https://projectodisha.org/destinations/malayagiri/) | in_progress | Original hill destination article with credited article and preview image; zero programme credit. |
+| POD-EDIT-MALAYAGIRI-20261125 | [Malayagiri: Hills, Forest and Khuludi’s Waterfall](https://projectodisha.org/destinations/malayagiri/) | completed | Original hill destination article with credited article and preview image; zero programme credit. |
