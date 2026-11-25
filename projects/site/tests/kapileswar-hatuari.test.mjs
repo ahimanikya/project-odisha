@@ -4,7 +4,7 @@ import {readFileSync,existsSync} from 'node:fs';
 const read=path=>readFileSync(path,'utf8');
 const route='/stories/kapileswar-hatuari/';
 const image=JSON.parse(read('../../kb/research/places/kapileswar-hatuari-image.json'));
-test('Hatuari article preserves dating limits, eight linked notes and attributed image',()=>{
+test('Hatuari article preserves dating limits, seven linked notes and attributed image',()=>{
  const html=read('dist'+route+'index.html');
  assert.match(html,/By Ahimanikya Satapathy/);
  assert.match(html,/provisional architectural attribution/);
@@ -13,7 +13,9 @@ test('Hatuari article preserves dating limits, eight linked notes and attributed
  assert.match(html,/complete references.*unconfirmed/);
  assert.match(html,/Footnotes &amp; Sources/);
  const notes=[...html.matchAll(/id="user-content-fn-([^" ]+)"/g)].map(m=>m[1]);
- assert.equal(notes.length,8);assert.ok(notes.includes('hatuari-board'));
+ assert.equal(notes.length,7);
+ assert.doesNotMatch(html,/hatuari-board|facebook\.com|elder-brother\/younger-brother/);
+ assert.match(html,/The neighbouring hill shrine/);
  const ids=new Set([...html.matchAll(/id="([^" ]+)"/g)].map(m=>m[1]));
  for(const [,target] of html.matchAll(/href="#([^" ]+)"/g))assert.ok(ids.has(target),target);
  assert.ok(html.includes(image.source));assert.ok(html.includes(image.license_url));assert.ok(html.includes(image.creator));
