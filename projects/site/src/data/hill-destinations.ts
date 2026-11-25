@@ -13,6 +13,7 @@ import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
 import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-image.json';
 import malayagiriImage from '../../../../kb/research/destinations/malayagiri-image.json';
 import gonasikaImage from '../../../../kb/research/destinations/gonasika-image.json';
+import baruneiImage from '../../../../kb/research/places/barunei-image.json';
 import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
 import gandhamardanImage from '../../../../kb/research/destinations/gandhamardan-image.json';
 
@@ -176,4 +177,14 @@ export const gonasikaGuide = {
  aliases: ['Guptaganga'],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide].filter(guide => allowsPage(guide.href));
+export const baruneiGuide = {
+ title: 'Barunei',
+ odia: '',
+ summary: 'Paired goddesses, a former royal centre and the memory of 1817.',
+ href: '/destinations/barunei/',
+ photo: baruneiImage,
+ regions: ['Khordha'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide].filter(guide => allowsPage(guide.href));

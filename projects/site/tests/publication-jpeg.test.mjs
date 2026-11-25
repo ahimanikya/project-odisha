@@ -106,7 +106,11 @@ test('Bhubaneswar delivery retains the source, photo URL, credits, both full fra
  const otherCaption='At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy.';
  const sharing='<meta property="og:image" content="https://projectodisha.org/assets/bhubaneswar-week/poem-conversations-v1.png"><meta property="og:image:width" content="1536"><meta property="og:image:height" content="1024">';
  const html=sharing+`<figure><img src="/${asset}" width="3213" height="5712"><figcaption>${caption}</figcaption></figure><figure><img src="/${otherAsset}" width="5712" height="3213"><figcaption>${otherCaption}</figcaption></figure>`;
- await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);await writeFile(path.join(dir,otherAsset),otherSource);
+ await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});
+ for(const [from,to] of [[sourceURL,path.join(dir,asset)],[otherURL,path.join(dir,otherAsset)]]){
+  if(process.platform==='darwin')execFileSync('python3',[fileURLToPath(new URL('../tools/cow_copy.py',import.meta.url)),fileURLToPath(from),to],{stdio:'pipe'});
+  else await copyFile(from,to); // Existing explicit non-macOS fixture policy; independent files.
+ }
  await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
  assert.equal(result.files.length,2);assert.equal(result.files[0].path,asset);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>2000000);
@@ -116,9 +120,15 @@ test('Bhubaneswar delivery retains the source, photo URL, credits, both full fra
  assert.equal(actual.orientation,original.orientation);assert.equal(actual.density,original.density);
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(actual[field],original[field]);
  assert.ok(actual.exif);assert.notEqual(result.files[0].source_sha256,result.files[0].output_sha256);
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:3072,quality:90,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ const previous=await sharp(source).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(previous.length-output.length>500000);
+ assert.deepEqual(actual.exif,(await sharp(previous).metadata()).exif);
  assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace(caption,caption+' Full frame, resized and compressed for web delivery.').replace(otherCaption,otherCaption+' Full frame, resized and compressed for web delivery.'));
  const second=result.files.find(file=>file.path===otherAsset);assert.equal(second.status,'resized-and-compressed');assert.ok(second.saved_bytes>2400000);
  const secondOutput=await readFile(path.join(dir,otherAsset)),secondMeta=await sharp(secondOutput).metadata(),secondOriginal=await sharp(otherSource).metadata();
+ assert.equal(second.settings,undefined);
+ const unchangedSecond=await sharp(otherSource).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();assert.ok(secondOutput.equals(unchangedSecond));
  assert.equal(secondMeta.width,3072);assert.equal(secondMeta.height,1728);assert.equal(secondMeta.width*secondOriginal.height,secondMeta.height*secondOriginal.width);
  assert.equal(secondMeta.orientation,secondOriginal.orientation);assert.equal(secondMeta.density,secondOriginal.density);
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(secondMeta[field],secondOriginal[field]);

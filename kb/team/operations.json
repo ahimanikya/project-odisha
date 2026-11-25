@@ -55,15 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
-    "route": "/stories/nilagiri-stone-utensils/",
+    "id": "POD-EDIT-BARUNEI-20261125",
+    "route": "/destinations/barunei/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/nilagiri-publication-20261125.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit return then goes to the coordinating hill chat; no next article is claimed here.",
-    "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly return the sole article slot to the coordinating hill chat."
+    "phase": "publication_verification",
+    "handoff": "records/barunei-publication-20261125.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -862,12 +859,23 @@
       "handoff": "records/malayagiri-publication-20261125.json",
       "scope_released": true,
       "release_condition": "Only after reviewed evidence-only receipt merges with required CI."
+    },
+    {
+      "id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
+      "route": "/stories/nilagiri-stone-utensils/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/nilagiri-publication-20261125.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit return then goes to the coordinating hill chat; no next article is claimed here.",
+      "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly return the sole article slot to the coordinating hill chat."
     }
   ],
   "next_article_coordination": {
-    "status": "nilagiri_receipt_merge_pending",
-    "evidence": "records/nilagiri-publication-20261125.json",
-    "scope": "Explicit return to the coordinating hill chat follows actual reviewed receipt merge; no next article claimed here."
+    "status": "barunei_active",
+    "evidence": "records/barunei-publication-20261125.json",
+    "scope": "One authorized hill article after completed Nilagiri handoff; no next reservation or article claim."
   },
   "current_preparation": {
     "id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
