@@ -1,0 +1,26 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "date": "2026-11-26",
+  "scope": "Static, schema and safety review of the future live-image measurement helper only. No live execution or delivery acceptance.",
+  "helper": "outputs/olasuni-publication-2026-11-26/compare-live-images.mjs",
+  "sha256": "09f82121ad63e7149da6bba12ae4732994d4c064e5b517cf7cc9494360e0c6eb",
+  "producer": "outputs/olasuni-publication-2026-11-26/verify-live-combined.py",
+  "producer_sha256": "6daa6716c7d726c4262a7e3578bb96e44697563581596320a307721f12de14f4",
+  "findings": {
+    "schema": "Fields consumed by the JavaScript helper match verify-live-combined.py: route/file/hash/status, image url/local_url/file/local_file/bytes/hashes, deployment evidence and expected release, contract and local report hashes. Both PASS and REVIEW_DIFFERENCES are accepted capture states; neither becomes automatic visual acceptance.",
+    "release_gate": "Requires explicit full merge and positive deployment run, exactly the five intended successful routes, successful deployment proof with matching run/head/hash, and a completed matching combined local report.",
+    "image_pairing": "Uses every actual captured pair. It requires the four selected/affected base assets and unchanged sharing asset but does not impose a fixed total image count or require responsive live/local URLs to be identical. Captured content-address prefixes, hashes, sizes and geometry are verified. Existing actual responsive substitutions are therefore allowed while unknown normalization is not introduced.",
+    "measurement": "Both files use the same installed Sharp/libvips decoder, normalized orientation and sRGB RGBA. Reports byte identity separately from decoded identity; changed_channels and mean/max/RMS explicitly refer to the four-channel decoded array. ICC/IPTC/XMP/EXIF byte lengths and hashes are independently reported. No encoding cause is inferred.",
+    "evidence": "Raw page hashes and image hashes are verified before measurement; raw report, contract and images are checked again afterwards. Existing capture files are not overwritten. Each invocation creates a new timestamped measurement directory with exclusive report/contact-sheet writes; failure status is retained.",
+    "filesystem_network": "No network calls, publication, Git or source writes occur. Image reads are restricted to the recorded Olasuni raw directory and dist-publish paths. Deployment evidence is an explicitly recorded local read. New contact sheets and reports are generated evidence, not source copies.",
+    "visual_limits": "Contact sheets are labelled local-left/live-right and preserve complete frames on white at a reduced display size. Actual source files remain necessary for detailed inspection. Alpha handling and resized sheets do not establish pixel equality or subjective quality."
+  },
+  "blockers": [],
+  "limitations": [
+    "Static review and the parent-reported syntax check do not establish execution success.",
+    "Future independent delivery review must verify fresh actual captures, inspect all changed pairs and explain any remaining HTML differences; this helper does not replace that review.",
+    "The helper trusts the reviewed HTTP producer to enumerate article/card pairs. Independent live review must check actual emitted image coverage rather than relying solely on the expected base-image subset.",
+    "Combined final package, exact hosted checks and successful deployment remain prerequisites."
+  ]
+}

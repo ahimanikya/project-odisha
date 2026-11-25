@@ -130,7 +130,9 @@ def main():
     check(file_hash(manifest)==c['protected_manifest_sha256'],'Frozen protected preparation manifest')
     protected=read(manifest); check(len(protected)==c['protected_count']==88,'All eighty-eight protected preparation files listed')
     for row in protected: check(file_hash(ROOT/row['path'])==row['sha256'],'Preserved preparation '+row['path'])
-    op='kb/team/operations.json'; old=json.loads(subprocess.check_output(['git','show',c['base']+':'+op],cwd=ROOT)); now=read(ROOT/op)
+    # Ownership follows the explicit returned Kula handoff, which is not yet in incoming main.
+    ownership_base='badd853c76dc8cd55541fb913156856761072667'
+    op='kb/team/operations.json'; old=json.loads(subprocess.check_output(['git','show',ownership_base+':'+op],cwd=ROOT)); now=read(ROOT/op)
     for key in ['current_task','handoff_home','current_preparation']: check(old[key]==now[key],'Foreign ownership unchanged '+key)
     # Published Nilagiri/Jhoti content is allowed; internal raw sources and Kaincha remain excluded.
     internal=[x for x in protected if ('kaincha' in x['path'] or 'kula' in x['path']) or x['path'].endswith(('nilagiri-stone-utensils-illustration.png','gurubara-jhoti-commons-1920.jpg'))]

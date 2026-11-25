@@ -10906,15 +10906,17 @@
       "id": "POD-WORK-2026112691",
       "title": "Research, review and publish Olasuni",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112691",
-      "next_action": "Complete combined validation after preserving incoming publications, then hosted checks, deployment and actual reviewed receipt.",
+      "next_action": "Merge the separately reviewed evidence-only receipt after required CI, then return the reserved Kula slot.",
       "blockers": [],
       "refs": [
-        "POD-DEC-2026112691"
+        "POD-DEC-2026112691",
+        "POD-REV-2026112691",
+        "POD-REL-2026112691"
       ],
       "evidence": [
         "records/olasuni-publication-20261126.json"
@@ -26525,6 +26527,24 @@
         "records/antaranga-after-barunei-preparation-20261126.json"
       ],
       "summary": "Original draft, independently inspected sources, credited photograph and portable reading copy passed separate review. No public integration, responsive site or deployment review; no human specialist review claimed."
+    },
+    {
+      "id": "POD-REV-2026112691",
+      "title": "Olasuni source, photograph, implementation and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112691",
+        "POD-DEC-2026112691"
+      ],
+      "evidence": [
+        "records/olasuni-publication-20261126.json"
+      ],
+      "summary": "Separate source/media/code/rendered/package/exact-commit and fresh delivery reviews passed. Actual five-route/33-image review and11root screenshots inspected. Four encodings measured and visually accepted; raw differences and framing limits retained. Not human specialist or field approval."
     }
   ],
   "releases": [
@@ -31070,6 +31090,21 @@
       ],
       "evidence": [
         "records/independent-articles-27-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112691",
+      "title": "Olasuni hill article with credited photograph",
+      "status": "published",
+      "authorization": "POD-DEC-2026112691",
+      "destination": "https://projectodisha.org/destinations/olasuni/",
+      "refs": [
+        "POD-WORK-2026112691",
+        "POD-DEC-2026112691",
+        "POD-REV-2026112691"
+      ],
+      "evidence": [
+        "records/olasuni-publication-20261126.json"
       ]
     }
   ],
