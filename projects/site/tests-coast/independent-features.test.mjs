@@ -67,7 +67,7 @@ test('every published feature retains all citations with working reference and r
 
 test('the collection exposes each article once under its category and keeps category anchors reachable', () => {
   const html = page(collection.href);
-  const sections = [...html.matchAll(/<section\b[^>]*aria-labelledby="([^"]+)"[^>]*>([\s\S]*?)<\/section>/g)];
+  const sections = [...html.matchAll(/<section\b[^>]*class="category"[^>]*aria-labelledby="([^"]+)"[^>]*>([\s\S]*?)<\/section>/g)];
   assert.equal(sections.length, collection.categories.length);
   const categoryLinks = hrefs(html);
   for (const category of collection.categories) {
