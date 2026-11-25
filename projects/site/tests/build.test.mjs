@@ -20,9 +20,10 @@ test('all built local links, assets and fragment targets resolve',()=>{
   assert.ok(pages.includes("stories/puspuni/index.html"));
   assert.ok(pages.includes("stories/makar-sankranti/index.html"));
   assert.ok(pages.includes("stories/agira-purnima/index.html"));
+  assert.ok(pages.includes("stories/dola-purnima/index.html"));
   assert.ok(pages.includes("stories/garbhana-sankranti/index.html"));
   assert.ok(pages.includes("stories/nilagiri-stone-utensils/index.html"));
-  assert.equal(pages.length,independentFeaturePageCount+1+pioneers.included_profiles.length+1+JSON.parse(readFileSync('src/data/cultural-book.json','utf8')).chapters.length+standalonePages.size+199+2+JSON.parse(readFileSync('src/data/dongariya.json','utf8')).length+2+JSON.parse(readFileSync('src/data/mirgan-kotpad-book.json','utf8')).chapters.length+JSON.parse(readFileSync('src/data/cinema.json','utf8')).articles.length+(JSON.parse(readFileSync('src/data/cinema.json','utf8')).book_source_profiles||[]).length+JSON.parse(readFileSync('src/data/cinema-companions.json','utf8')).articles.length+4+reviewedArticleCount+JSON.parse(readFileSync('../../kb/research/food/restaurants.json','utf8')).venues.length+JSON.parse(readFileSync('../../kb/records/pending-reading-room.json','utf8')).entries.length+JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
+  assert.equal(pages.length,independentFeaturePageCount+1+pioneers.included_profiles.length+1+JSON.parse(readFileSync('src/data/cultural-book.json','utf8')).chapters.length+standalonePages.size+200+2+JSON.parse(readFileSync('src/data/dongariya.json','utf8')).length+2+JSON.parse(readFileSync('src/data/mirgan-kotpad-book.json','utf8')).chapters.length+JSON.parse(readFileSync('src/data/cinema.json','utf8')).articles.length+(JSON.parse(readFileSync('src/data/cinema.json','utf8')).book_source_profiles||[]).length+JSON.parse(readFileSync('src/data/cinema-companions.json','utf8')).articles.length+4+reviewedArticleCount+JSON.parse(readFileSync('../../kb/research/food/restaurants.json','utf8')).venues.length+JSON.parse(readFileSync('../../kb/records/pending-reading-room.json','utf8')).entries.length+JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
@@ -114,6 +115,15 @@ test('Agira Purnima joins the harvest series and links readers back to Nuakhai a
   const story=read('stories/agira-purnima/index.html');
   assert.ok(series.includes('href="/stories/agira-purnima/"'));
   for(const route of ['/stories/the-year-that-feeds-us/','/culture/osha/nuakhai/','/stories/makar-sankranti/']){
+    assert.ok(story.includes('href="'+route+'"'),route);
+  }
+});
+
+test('Dola Purnima joins the harvest series and links readers back to Nuakhai and Agira Purnima',()=>{
+  const series=read('stories/the-year-that-feeds-us/index.html');
+  const story=read('stories/dola-purnima/index.html');
+  assert.ok(series.includes('href="/stories/dola-purnima/"'));
+  for(const route of ['/stories/the-year-that-feeds-us/','/culture/osha/nuakhai/','/stories/agira-purnima/']){
     assert.ok(story.includes('href="'+route+'"'),route);
   }
 });
