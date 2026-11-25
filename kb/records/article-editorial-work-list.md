@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1417. blocked: 1, completed: 249, excluded: 873, queued: 294.
+Route inventory: 1418. blocked: 1, completed: 249, excluded: 873, queued: 295.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1441,3 +1441,4 @@ Route inventory: 1417. blocked: 1, completed: 249, excluded: 873, queued: 294.
 | POD-EDIT-INDEPENDENT-27-20261125 | [Chhatia’s chhena kakara and the roadside economy](https://projectodisha.org/stories/odisha/chhatia-kakara/) | queued | Reviewed article within the Founder-authorized 27-piece collection; original prose and independent sources, no creator media. Zero autonomous-programme credit. |
 | POD-EDIT-INDEPENDENT-INDEX-20261125 | [Odisha: places, work and living traditions](https://projectodisha.org/stories/odisha/) | excluded | Categorized collection navigation |
 | POD-EDIT-GAMHA-PURNIMA | [Gamha Purnima: A Meal for the Bullocks](https://projectodisha.org/stories/gamha-purnima/) | queued | article |
+| POD-EDIT-PUSPUNI | [Puspuni: Who Gets a Share of the Harvest?](https://projectodisha.org/stories/puspuni/) | queued | article |
