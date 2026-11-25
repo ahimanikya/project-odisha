@@ -1,0 +1,38 @@
+{
+  "reviewer": "Drishti (separate AI review)",
+  "date": "2026-11-25",
+  "result": "pass_bounded_index_correction",
+  "base_head": "80ea8151847e640100834ee1e8d6c8c95bd4431b",
+  "scope": "Internal generated-index correction and associated failure record only; final package and new exact hosted head remain pending.",
+  "human_review_claimed": false,
+  "publication_allowed": false,
+  "file_sha256": {
+    "kb/research/search-index.json": "4e9a143edb1900aa38182badc1fa766b027a1a885165b77ca109304428a1e79b",
+    "kb/records/gonasika-publication-20261125.json": "3839e395285ed37472831a511e49b0c73e199567132692807a03ead84045e377",
+    "outputs/gonasika-publication-2026-11-25/release/index-correction.json": "e6ff243cbc17fad296a1c91774681a540e4ca49b51d646daae37cb2e42806888",
+    "outputs/gonasika-publication-2026-11-25/release/ci-45556417765-failed.json": "7670614b70ef7c7f80610ca7bd63764fa8e8c07c08b063dfed0af06b1a15276f",
+    "outputs/gonasika-publication-2026-11-25/release/ci-45556417765-failed.log": "48d49e811f73468365f59cc95f36be16afd301ef5d40fbd97954c89f5055e472"
+  },
+  "verified": {
+    "index_delta": "1506 concepts before and after, identical IDs/order. Sole semantic change is methods/research-map.body, append-only1286 characters comprising already-present Nilagiri preparation and Gonasika notes. No other record/field changed.",
+    "body_before_sha256": "e310c8d83b2ef9078bfe89540e4df989e2f53a479a4a1479eb5a28e541b5c890",
+    "body_after_sha256": "e91d26cb33054e80792826abdb4e86be33292edb068495c125da41f916650fec",
+    "generator": "Independently read reindex.py, invoked underlying concepts() in memory without writing index; all1506 generated objects exactly match corrected index. Existing research-map.md unchanged.",
+    "validation": "Independently ran tools/research/validate.py: PASS1506concepts6049local-linkchecks38growthchecks71preserved-evidence-records.",
+    "public_dependency": "Tracked projects/site code contains no search-index.json, kb/research/search-index or methods/research-map references. Inspected package build entrypoints, select-content and local-verification preparation; content uses explicit narrative paths, not this generated convenience index. Public article, original/candidate images, layout and build helpers unchanged.",
+    "governance": "Only canonical hosted_index_correction object added: retains failed run45556417765, names generated refresh and requires separate review/new hosted candidate. Existing candidate publication restrictions, programme0 and unreleased scope unchanged.",
+    "raw_failure": "Saved completed failure run identifies exact prior head80ea8151847e640100834ee1e8d6c8c95bd4431b; raw job log explicitly runs reindex then git diff --exit-code on search-index and shows this stale body. Failure preserved, not waived. GitHub metadata inspected from retained capture, no fresh remote call by reviewer.",
+    "continuity": "Tracked working diff has only internal index and owned canonical correction fields; no protected preparation, public source or foreign task change since bounded candidate review."
+  },
+  "findings": [],
+  "remaining": [
+    "Commit corrected candidate and verify exact-head continuity.",
+    "Fresh required hosted CI on corrected head; old failed run cannot establish success.",
+    "Complete final rebuilt package and independent artifact review before any merge/publication."
+  ],
+  "limits": [
+    "This correction is not a new source/factual review or publication approval.",
+    "No new builds, browser or live requests performed.",
+    "Internal index freshness does not independently verify claims."
+  ]
+}

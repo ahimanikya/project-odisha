@@ -1,0 +1,30 @@
+validate	Validate imported research collection	﻿2026-11-25T05:53:22.6439871Z ##[group]Run python3 tools/research/reindex.py
+validate	Validate imported research collection	2026-11-25T05:53:22.6440334Z ^[[36;1mpython3 tools/research/reindex.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6440688Z ^[[36;1mgit diff --exit-code -- kb/research/search-index.json^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6441062Z ^[[36;1mpython3 tools/research/validate.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6441376Z ^[[36;1mpython3 tools/research/validate_visitor_index.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6441727Z ^[[36;1mpython3 tools/research/validate_maritime.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6442062Z ^[[36;1mpython3 tools/research/validate_growth_journeys.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6442414Z ^[[36;1mpython3 tools/research/validate_statistics.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6442775Z ^[[36;1mpython3 tools/research/validate_homestays.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6443122Z ^[[36;1mpython3 tools/research/validate_classification.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6443460Z ^[[36;1mpython3 tools/research/validate_collections.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6443796Z ^[[36;1mpython3 tools/research/validate_prd.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6444114Z ^[[36;1mpython3 tools/research/validate_creations.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6444531Z ^[[36;1mpython3 tools/research/validate_sports.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6444839Z ^[[36;1mpython3 tools/research/validate_research_map.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6445291Z ^[[36;1mpython3 tools/research/validate_osha_culture.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6445664Z ^[[36;1mpython3 tools/research/validate_seasonal_food.py^[[0m
+validate	Validate imported research collection	2026-11-25T05:53:22.6464510Z shell: /usr/bin/bash -e {0}
+validate	Validate imported research collection	2026-11-25T05:53:22.6464817Z env:
+validate	Validate imported research collection	2026-11-25T05:53:22.6465082Z   ASTRO_TELEMETRY_DISABLED: 1
+validate	Validate imported research collection	2026-11-25T05:53:22.6465353Z ##[endgroup]
+validate	Validate imported research collection	2026-11-25T05:53:22.7554160Z Indexed 1506 concepts.
+validate	Validate imported research collection	2026-11-25T05:53:22.8037336Z diff --git a/kb/research/search-index.json b/kb/research/search-index.json
+validate	Validate imported research collection	2026-11-25T05:53:22.8038063Z index 2f74fbf8..2163d206 100644
+validate	Validate imported research collection	2026-11-25T05:53:22.8038626Z --- a/kb/research/search-index.json
+validate	Validate imported research collection	2026-11-25T05:53:22.8039289Z +++ b/kb/research/search-index.json
+validate	Validate imported research collection	2026-11-25T05:53:22.8040147Z @@ -10161,7 +10161,7 @@
+validate	Validate imported research collection	2026-11-25T05:53:22.8040496Z      },
+validate	Validate imported research collection	2026-11-25T05:53:22.8040841Z      "sources": [],
+validate	Validate imported research collection	2026-11-25T05:53:22.8041600Z      "evidence_basis": "Audit of saved files and committed project snapshot; no new web research or human factual review.",
