@@ -1,0 +1,45 @@
+{
+  "reviewer": "Drishti, separate AI subagent",
+  "human_review_claimed": false,
+  "reviewed_on": "2026-11-25",
+  "result": "pass",
+  "base_commit": "07c3e16e85b4e342ef469259f545d4698e73dec2",
+  "candidate_state": "Uncommitted candidate identified by exact file hashes below.",
+  "scope": "Evidence-only publication receipt, own rollout completion, ledger additions and generated work list.",
+  "checks": {
+    "delivery": "PR847,head6f64e206,merge39b9b810 and deployment45166156030 agree with saved evidence. Published23November; logged25November.",
+    "validation": "826full/599coastal hosted passes and999928859hosted/999142089local payload bytes match saved records. Initial824full and597passed2failed coastal validation is preserved unchanged.",
+    "approved_material": "54approved title/heading/text blocks,8reference links,10original-image hashes and8caption groups supported by saved verification; no article or asset changes.",
+    "historical_limits": "Copied delivery-review.json is exact and retains the unsuccessful second-network-attempt limitation. Independent parsing of root-fetched HTML is distinguished from root network/browser observations.",
+    "scope_isolation": "Only POD-EDIT-ODIAHOMEPAGE-20261123 changes in rollout. Other entries,team operations/assignments,registers and public site files unchanged from baseline.",
+    "evidence": "Historical copied files match source archive; earlier pending states remain snapshots,while current receipt correctly records actual delivery.",
+    "views": "Generated work-list changes only own completion and counts. Root reports all programme/team/rollout/workbench/registers/catalogue/bundle checks passed.",
+    "helper": "verify-rendered.py uses saved delivery hashes for HTTPS images,not a new network fetch."
+  },
+  "resolved_finding": "Browser wording now separates desktop/mobile overflow checks from all10 HTTP/hash verification.",
+  "open_findings": [],
+  "candidate_sha256": {
+    "kb/history/LEDGER.md": "564dd64f9d851a68c94f822fc305b3baefb8356378f49bc76fca6286b61299c5",
+    "kb/history/ledger.jsonl": "05e67b332b12ba33620b02c8d1c485c23b4404269a101aa8f58190d475bf127d",
+    "kb/records/article-editorial-rollout.json": "9ee1e1e7fddf62e94ff1519c84ce645272d3563995694d38e8181cb524cadff4",
+    "kb/records/article-editorial-work-list.md": "423e52069cedba6c34374915b4147877a7a4bc65a869c4f9f40398b23be9df2f",
+    "kb/records/odia-homepage-publication-20261123.json": "9ccb2e0b460d490ae9f128cc567e8ef0cd0171c6deb6584af15f78f7db6f98b3",
+    "outputs/odia-homepage-publication-20261123/archive-live-verification.json": "5842f12bb6b36018074c007e691d1dbc0eff7eb1c91e918aabc09f0b6c429870",
+    "outputs/odia-homepage-publication-20261123/delivery-review.json": "5c5402c436dfe287bc825cd4cf680bd93721c82b9fd3f8a9dc14a15603f362bd",
+    "outputs/odia-homepage-publication-20261123/deployment.json": "38c1682b67ce5f91c6512706141cb4c0736b564c050815e0cba9ff2ea5cb2794",
+    "outputs/odia-homepage-publication-20261123/final-quality-review.json": "d65c528aa18a35e07da0af17a1cc01b7a3120f8086dfd6e5b69554f3084704da",
+    "outputs/odia-homepage-publication-20261123/final-rendered-verification.json": "d98aa5dd6ba7a10009a6d88ac407df2bef7eb850fc4ceea7c9337a20a3dfadcc",
+    "outputs/odia-homepage-publication-20261123/hosted-validation.json": "9dfc8d8981a295f5050a13896c1ff5f9ad66c35132b7b9bb318c93f6358f7c8c",
+    "outputs/odia-homepage-publication-20261123/live-verification.json": "8227bcf7797c320eaec4ab67c26de538c0f50fb5dd0a106cea3c992af1910896",
+    "outputs/odia-homepage-publication-20261123/local-payload.json": "ff6ac3f8afcc9335621898aab659b781ba7983a436355f17016ce8933cc468ff",
+    "outputs/odia-homepage-publication-20261123/publication-rendered-verification.json": "c7d3f841bab2af854f8a52c43df5d578e63c3375ad05e4cb0b5b61cb78d33a3c",
+    "outputs/odia-homepage-publication-20261123/published-article.jpg": "d4bf8ea92111fd6fcf6b65cc451e3acfa50d23ab214f6506c9b8c5aa3c452674",
+    "outputs/odia-homepage-publication-20261123/verify-rendered.py": "7b7bf69b7a4f2a5457cb26c39d3b7a8e37203e1e3959f67525ce507214281370"
+  },
+  "recommendation": "Commit and merge the reviewed evidence-only candidate after required hosted checks. No new deployment needed. Reconcile later material changes before reusing review.",
+  "limitations": [
+    "No new live-site or historical-source research for this log update.",
+    "Local gates are coordinator-reported; evidence consistency and candidate scope independently checked.",
+    "Commit,hosted receipt CI and merge are still pending."
+  ]
+}
