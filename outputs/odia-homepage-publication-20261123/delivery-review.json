@@ -1,0 +1,52 @@
+{
+  "reviewer": "Drishti, separate AI subagent",
+  "human_review_claimed": false,
+  "result": "delivery_evidence_pass",
+  "checked_at": "2026-11-23T15:15:53.915655+00:00",
+  "reviewed_head": "6f64e2068a6844ef7936cdaa37433d32ce7fa372",
+  "merge_commit": "39b9b8104b7500ca5c074e277243a03d92c0f9a4",
+  "merge_tree_equals_reviewed_tree": true,
+  "publication_run": 45166156030,
+  "deployment_conclusion": "success",
+  "url": "https://projectodisha.org/stories/when-odisha-became-a-homepage/",
+  "independent_checks": {
+    "saved_live_html_sha256": "ab78aeaab21702ed511719c3c31f42c204644a295732f97d3a551972e37b7837",
+    "approved_prose_reference_caption_blocks": 51,
+    "additional_title_and_section_headings": 3,
+    "source_links": 8,
+    "ordered_images": 10,
+    "caption_groups": 8,
+    "live_receipt_image_hashes_match_approved_originals": true
+  },
+  "root_observed_live_evidence": {
+    "http_status": 200,
+    "incoming_links": [
+      "/founder/",
+      "/explore/"
+    ],
+    "archive_reading_link": true,
+    "image_http200_count": 10,
+    "visual_inspection": "Root reports successful public URL inspection"
+  },
+  "required_ci": {
+    "run": 45162650583,
+    "head": "6f64e2068a6844ef7936cdaa37433d32ce7fa372",
+    "full_tests": 826,
+    "coastal_tests": 599,
+    "payload_bytes": 999928859,
+    "exclusive_byte_limit": 1000000000
+  },
+  "limitations": [
+    "Fresh reviewer network fetch was unavailable: initial automatic approval review timed out and allowed concise curl retry failed DNS resolution. Successful root fetch is independently parsed, not represented as a second successful network fetch.",
+    "Live image receipt hashes compared to approved originals; no independent second image downloads claimed.",
+    "Prior local screenshots independently reviewed; live visual inspection is root-reported.",
+    "No original mailbox verification or sitewide audit claimed.",
+    "Canonical receipt integration was not completed because automatic approval review timed out; verified delivery evidence saved in permitted Odia Archive workspace."
+  ],
+  "local_receipt_review": {
+    "path": "research/first-odia-home-page/publication-2026-11-23.json",
+    "result": "pass",
+    "scope": "Publication URL,PR847,commit39b9b810,deployment45166156030 and preservation counts agree with inspected evidence. Record-sync limitation is explicit."
+  },
+  "published_screenshot_review": "Independently viewed published-article.jpg: title,byline,opening approved prose and first photograph display cleanly. Screenshot is a single partial-page view, not an additional live browser session."
+}
