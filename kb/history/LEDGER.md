@@ -1695,3 +1695,18 @@ Published the separately reviewed reading guide and incoming link from A Place t
 - 2026-11-24 — Prepared Jhoti Chita and the Art of Drawing with Rice Paste after Tensa’s merged receipt and explicit coordination handoff. Original material-and-handwork essay, independent sources and authentic credited photograph passed separate review. Acquired official Commons preview preserved; original camera file not acquired. [Preparation receipt](../records/antaranga-after-tensa-preparation-20261124.json). Unpublished preparation only; hill chat follows reviewed local-commit handoff. Zero programme credit.
 
 - 2026-11-25 — Reconciled the internal log for **When Odisha Became a Homepage**, published and verified on23November. Approved prose,8reference links,10original images and8caption groups preserved; article,founder andExplore links verified. [Publication receipt](../records/odia-homepage-publication-20261123.json) records the successful deployment and separate delivery review. The earlier automatic approval timeout is retained as history. Evidence-only update; zero programme credit.
+## POD-HIS-DHAGA-REVIEW-COMPLETE-20261125 · Dhaga editorial review complete
+
+**25 November 2026 · Founder decision recorded**
+
+All550 Dhagas have completed the editorial review for this edition. The four final decisions retain the fixed-expression meaning of178, broad sugar treatment in428, plenty-versus-scarcity in498, and a general interpretation without an assigned speaker or origin for550. No editorial questions or required spelling/explanation fixes remain. Existing published content already matches these decisions; no new deployment is required. Evidence limits and earlier review outcomes remain preserved. [Completion record](../records/odia-dhaga-review-complete-2026-11-25.json).
+
+## POD-HIS-DHAGA-ILLUSTRATIONS550-20261125 · Illustration review of all550 Dhagas
+
+**25 November 2026 · Review complete with three correction briefs**
+
+All550 current illustrations were actually viewed against their final entries.547 can be retained.142 and386 need clearer same-actor staging;504 needs the flat grinding slab specified by the text.288 and497 have optional clarity improvements. The completed textual review remains unchanged. No artwork, website or PDF was changed in this audit. [Review record](../records/odia-dhaga-illustration-review-2026-11-25.json).
+
+## 25 November 2026 · Five Dhaga illustrations
+
+Founder authorized corrections142386504 and improvements288497 plus website/book publication. Final550 textual decisions preserved. Original assets retained; zero programme credit.

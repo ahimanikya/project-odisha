@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SOURCE_MERGE_DELTA",
+  "reviewer": "Drishti AI",
+  "head": "10f7e2f7bc6b43c7b7efbc16f7c6bc218724ccf3",
+  "previous_reviewed_head": "ad21cd88c45bd3ea16d77318be09a202a33c6a2d",
+  "canonical_library_diff": "No changes anywhere under projects/odia-dhaga; entries, artwork, reader projections, PDF and descriptor unchanged.",
+  "pdf_sha256": "1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8",
+  "reviewed_behavior": [
+    "Public exporter removes PDF download anchors and download metadata promise; collection navigation is reading-only.",
+    "Finalizer explicitly retains declared archive documents without requiring a visible download link.",
+    "Books rotation and cover assets are foreign authorized work preserved by this review."
+  ],
+  "findings": [],
+  "limitation": "Source delta only. Existing final-artifact-review.json remains bound to prior HEAD until fresh build completes and actual package is checked."
+}
