@@ -66,7 +66,10 @@ test('additional PNG delivery scope is an exact measured allowlist',()=>{
   "assets/cinema/pramod-paper-movement.png",
   "assets/nimuhi/user-supplied-memorial.png",
   "assets/cultural-book/author.png",
-  "assets/odissi-abhinaya/abhinaya-reading.png"
+  "assets/odissi-abhinaya/abhinaya-reading.png",
+  "assets/odissi-tala-and-changing-cycles/tala-counts.png",
+  "assets/balakati-metalcraft/process-overview.png",
+  "assets/abana-rasataranga/abana-script.png"
 ];
  assert.deepEqual(additionalDeliveryPNGs,expected);
  for(const p of expected){assert.ok(eligiblePNG(p));assert.ok(!eligiblePNG("../"+p));assert.ok(!eligiblePNG(p+".backup"));}
@@ -79,4 +82,20 @@ test('published abhinaya diagram retains its pixels and metadata with smaller or
  assert.equal(result.status,'losslessly-recompressed');
  assert.ok(input.length-result.bytes.length>=15000);
  assert.ok(result.pixel_sha256 && result.metadata_sha256);
+});
+
+test('three line drawings preserve pixels and metadata and save at least 40 kB together',async()=>{
+ let saved=0;
+ for(const path of [
+  "assets/odissi-tala-and-changing-cycles/tala-counts.png",
+  "assets/balakati-metalcraft/process-overview.png",
+  "assets/abana-rasataranga/abana-script.png"
+]){
+  const input=await readFile(new URL('../public/'+path,import.meta.url));
+  const result=await losslessPNG(input);
+  assert.equal(result.status,'losslessly-recompressed');
+  assert.ok(result.pixel_sha256 && result.metadata_sha256);
+  saved+=input.length-result.bytes.length;
+ }
+ assert.ok(saved>=40000);
 });

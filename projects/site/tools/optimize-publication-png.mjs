@@ -51,7 +51,10 @@ export const additionalDeliveryPNGs=[
   "assets/cinema/pramod-paper-movement.png",
   "assets/nimuhi/user-supplied-memorial.png",
   "assets/cultural-book/author.png",
-  "assets/odissi-abhinaya/abhinaya-reading.png"
+  "assets/odissi-abhinaya/abhinaya-reading.png",
+  "assets/odissi-tala-and-changing-cycles/tala-counts.png",
+  "assets/balakati-metalcraft/process-overview.png",
+  "assets/abana-rasataranga/abana-script.png"
 ];
 export const eligiblePNG=p=>additionalDeliveryPNGs.includes(p)||/^(?:characters\/|images\/poetry-jhula\/|images\/stories\/).+\.png$/.test(p);
 function chunks(bytes){
@@ -72,11 +75,17 @@ export function recompressIDAT(input){
  chunk.writeUInt32BE(best.length,0);type.copy(chunk,4);best.copy(chunk,8);chunk.writeUInt32BE(crc32(Buffer.concat([type,best]))>>>0,best.length+8);
  return {chunk,settings,inflated_sha256:hash(scanlines)};
 }
+// These line drawings compress best using their original row filters.
+const originalFilterDigests=new Set([
+  "e2f4a6275a5e905c934d4b492f073fb673ed36b861dfcb9a637ae50a1d9bc6b6",
+  "62e42e08701daf2f3599ef34ce1434cdf9c27624d2989911fcca6f0ce0e580c0",
+  "5be90d29432377855e22dd7660a3a7808649edfbf537a3699f182ac69616b4a8",
+  "bd18ccbd8ab9840e7b5a3c8d86f646e1c6f19d26e0433042f397729da7b994b4"
+]);
 export async function losslessPNG(input, sourceHash=hash(input)){
  if(!input.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))return {bytes:input,status:'non-png-content-skipped'};
  const original=chunks(input);if(original.some(c=>c.type==='acTL'))return {bytes:input,status:'animated-skipped'};
- // The line-art diagram compresses better with its original row filters.
- const keepOriginalFilters=sourceHash==='e2f4a6275a5e905c934d4b492f073fb673ed36b861dfcb9a637ae50a1d9bc6b6';
+ const keepOriginalFilters=originalFilterDigests.has(sourceHash);
  const candidate=keepOriginalFilters ? input : await sharp(input).keepMetadata().png({compressionLevel:9,adaptiveFiltering:true,palette:false}).toBuffer();
  const encoded=chunks(candidate);
  // Preserve every original non-image chunk, including colour profiles, textual credits and EXIF.
