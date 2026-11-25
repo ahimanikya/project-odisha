@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `807387254dd6dd00d787e85d3a6a6328527ed7c4de07f1d469edf45237ec2616`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e0ac92fcdf0597e57467da45e7fe853267b424da08c299da262af4c895098def`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -422,6 +422,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112591 · Research, review and publish Malayagiri | completed | published | Ahimanikya Satapathy | Integrate reviewed evidence-only receipt with required CI before releasing the article slot. | — |
 | POD-WORK-20261125301 · Prepare original Nilagiri stone-utensils article with credited illustration | completed | reviewed | Ahimanikya Satapathy | Deliver reviewed Nilagiri draft, credited illustration and publication brief; return slot to hill chat for its next separately authorized destination. No public integration authorized. | — |
 | POD-WORK-2026112592 · Research, review and publish Gonasika | in_progress | reviewed | Ahimanikya Satapathy | Complete local rendered/package review, exact candidate and hosted checks before publication. | — |
+| POD-WORK-20261125101 · Correct Hatuari public attribution | completed | published | Ahimanikya Satapathy | Merge separately reviewed evidence-only receipt with required checks, then explicitly return temporary slot to Gonasika; Nilagiri follows. | — |
 
 ## Pending human review and decisions
 
@@ -772,6 +773,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112591 · Next uncovered hill destination after Jhoti | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one hill destination with credited article/preview image. |
 | POD-DEC-20261125301 · Prepare original Antaranga-led article after Malayagiri | recorded_direction | Ahimanikya Satapathy | One independently researched original article preparation with credited image; no website integration or publication. |
 | POD-DEC-2026112592 · Next uncovered hill after Nilagiri preparation | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one hill destination with credited article/preview image. |
+| POD-DEC-20261125101 · Correct Hatuari public attribution before sharing | recorded_direction | Ahimanikya Satapathy | Remove potentially private discussion attribution and dependent passages from the public article before sharing; retain independently sourced account. |
 
 ## Reviews
 
@@ -1193,6 +1195,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112591 | pass | True | No fieldwork or human specialist review.; District original-publisher text retrieved through search index after direct access failed; original research paper read through author-deposited text, not visually inspected PDF.; Photo identity/date creator-supplied; no current access claim.; Three existing delivery images differ in bytes/pixels, independently measured/viewed; no cause or pixel identity inferred. Screenshot framing limits retained. |
 | POD-REV-20261125301 | pass_with_limitations | True | Directorate evidence independently inspected as original-domain indexed text; no downloaded or visually inspected Directorate PDF claimed.; Odisha Review title and relevant page visually inspected; the complete issue was not reviewed. Utkalika and AK original page text independently read.; Scoped novelty search is not exhaustive semantic deduplication.; No website layout, browser, live route, build, deployment or publication review applies to this preparation.; Shared completion-record reconciliation and local commit remain coordinator-owned subsequent gates. |
 | POD-REV-2026112592 | pass | True | — |
+| POD-REV-20261125101 | pass | True | Prior public repository history is not erased; No new historical research or human specialist review; Local mobile verified; live browser viewport stayed desktop |
 
 ## Publication and application history
 
@@ -1476,6 +1479,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112495 · Saptasajya: A Shrine Among Wooded Hills | published | https://projectodisha.org/destinations/saptasajya/ | POD-DEC-2026112495 |
 | POD-REL-20261125201 · Jhoti Chita and the Art of Drawing with Rice Paste | published | https://projectodisha.org/stories/jhoti-chita/ | POD-DEC-20261125201 |
 | POD-REL-2026112591 · Malayagiri: Hills, Forest and Khuludi’s Waterfall | published | https://projectodisha.org/destinations/malayagiri/ | POD-DEC-2026112591 |
+| POD-REL-20261125101 · Hatuari public attribution corrected | published | https://projectodisha.org/stories/kapileswar-hatuari/ | POD-DEC-20261125101 |
 
 ## Sources and assets
 
@@ -1513,8 +1517,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112497 | 2026-11-24T19:20:23.493729+00:00 | PR853 passed CI attempt2 and merged c49d0fc8; deployment45456071334 succeeded. Separate fresh delivery review passed four routes/eight images/twelve screenshots and real root interactions. One responsive image difference measured and visually accepted. Actual999912801 bytes/3665 files leaves87199 bytes; zero programme credit. Slot remains held until reviewed receipt actually merges. | — |
-| POD-EVT-20261125201 | 2026-11-24T19:57:17.006005+00:00 | Saptasajya receipt verified and explicit handoff accepted; Jhoti publication now sole active article. Preparation hashes and foreign ownership preserved. | — |
 | POD-EVT-20261125202 | 2026-11-24T20:30:42.022448+00:00 | Independent source and rendered review passed;828full/599coastal tests and5468page checks passed. Final local3163deliverychecks and999161472byte/3670file package passed. Root checked14meaningful desktop/mobile views plus three actual incoming links. HostedCI, deployment and reviewed delivery receipt remain; no live publication claimed. | — |
 | POD-EVT-20261125203 | 2026-11-24T21:50:32.325822+00:00 | PR855 final reviewed head5b1a5cc5 passed CI45483987588 and mergedf9a056fe; deployment45489423611 succeeded. Separate fresh delivery review passed5routes/10images/14root desktop-mobile screenshots and actual source/incoming-link actions. All Jhoti media/page fragments exact; one existing JPEG difference measured/visually accepted. Actual999952877bytes/3670files leaves47123bytes. Earlier internal digest failures preserved. Zero programme credit; slot held until reviewed receipt actually merges. | — |
 | POD-EVT-2026112591 | 2026-11-24T22:30:45.688255+00:00 | Verified Jhoti receipt PR856/CI and explicit return; reconciled0929dad2 and38protected hashes. Selected uncovered Malayagiri after scoped reuse search; research/media/capacity pending, zero programme credit. | — |
@@ -1523,6 +1525,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261125301 | 2026-11-25T01:04:57.104451+00:00 | Verified receipt858/merge07c3e16e and successful CI45517888336; sole preparation-only slot claimed. No publication or programme credit; foreign ownership preserved. | — |
 | POD-EVT-20261125302 | 2026-11-25T01:24:35.623723+00:00 | Original independently researched manuscript and credited interpretive illustration passed separate review. Preparation only, no public integration/deployment/programme credit. Slot returns after reviewed local commit and explicit handoff; prior and foreign ownership preserved. | — |
 | POD-EVT-2026112594 | 2026-11-25T01:33:03.998314+00:00 | Accepted reviewed Nilagiri preparation commit and verified 28 delivery hashes plus completion review; sole hill slot claimed. Gonasika source/media checks active. Nilagiri publication reserved after completed reviewed receipt; foreign ownership and all preparation retained. | — |
+| POD-EVT-20261125101 | 2026-11-25T03:40:24.839623+00:00 | User requested correction before sharing. Preparing removal of discussion-derived attribution and passages; independent sources and licensed photo retained. No publication claimed. | — |
+| POD-EVT-20261125102 | 2026-11-25T05:02:43.640956+00:00 | Reviewed correction PR860 and deployment45546126487 succeeded. Live article matches corrected build,7notes and2articleimagefiles exact; History link valid. Historical repository exposure persists. Receipt merge and explicit temporary-slot return remain; zero programme credit. | — |
 
 ## Deferred extensions
 

@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_publication",
+  "status": "published_verified",
   "authorization": "Let's apply all 16 agreed revisions, use the verified book wording for Dhaga 550, and publish the updated website and book PDF.",
   "scope": "Apply all16 collaborative decisions and publish matching website/book. Preserve foreign work,550entries,illustrations,original witness evidence and removed public notes.",
   "ids": [
@@ -21,14 +21,14 @@
     "POD-DHAGA-550"
   ],
   "reservations": {
-    "Disha": "Shared KB, Git, source metadata550, publication and coordination",
-    "Samanta": "Print layout for expanded516 and regression tests; no canonical entry changes",
-    "Anvesha": "Read-only decision/source verification; output-only findings",
-    "Drishti": "Read-only independent content/output review; output-only findings"
+    "Disha": "Released after verified publication",
+    "Samanta": "Released after verified publication",
+    "Anvesha": "Released after verified publication",
+    "Drishti": "Released after verified publication"
   },
   "work_directory": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/output/dhaga-agreed16-2026-11-19",
-  "publication": false,
-  "scope_released": false,
+  "publication": true,
+  "scope_released": true,
   "programme_credit": 0,
   "concurrent_pr": 796,
   "concurrent_pr_status": "PR796 merged at b73153e3b84288f1a9b5a98d832b2d49432dc753; integrated via97f67500",
@@ -40,7 +40,14 @@
     "pdf_delivery_tests": 14,
     "pdf_pages": 359,
     "variants": 39,
-    "variant_explanations": 32
+    "variant_explanations": 32,
+    "full_site_tests": 820,
+    "coast_tests": 597,
+    "final_artifact_review": "PASS",
+    "release_download": "PASS_HYDRATED_EXACT",
+    "payload_bytes": 998208840,
+    "payload_files": 3549,
+    "live_final_review": "PASS_LIVE_FINAL_REVIEW"
   },
   "release": {
     "release_id": 450689202,
@@ -50,5 +57,43 @@
     "pages": 359,
     "bytes": 190064100,
     "tag": "dhaga-550-43127351f71b01e90e47d6d37b26bc58425e3b9c"
+  },
+  "reviewed_head": "10f7e2f7bc6b43c7b7efbc16f7c6bc218724ccf3",
+  "pr": 797,
+  "ci_run": 44425405418,
+  "ci_result": "success",
+  "merge_commit": "ebeb4b3cf091fd58435b3d9ca3bb1f245eaf3f14",
+  "deployment_run": 44428023900,
+  "integrated_prs": [
+    795,
+    796
+  ],
+  "live_pdf": {
+    "status": "PASS_LIVE_PDF_EXACT",
+    "url": "https://projectodisha.org/archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+    "sha256": "1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8",
+    "bytes": 190064100,
+    "pages": 359
+  },
+  "live_verification": {
+    "readings": 550,
+    "illustrations": 550,
+    "variants": 39,
+    "variant_explanations": 32,
+    "exact_local_images": 527,
+    "identical_previously_visually_reviewed_pairs": 23,
+    "all_live_images_identical_to_previous_reviewed_deployment": true,
+    "textual_notes_absent": true,
+    "website_download_controls": "absent per integratedPR795; exact archivedPDFpublished"
+  },
+  "evidence_directory": "projects/odia-dhaga/evidence/agreed16-2026-11-19",
+  "deployment_result": "success",
+  "current_editorial_review": {
+    "status": "complete",
+    "recorded_on": "2026-11-25",
+    "record": "records/odia-dhaga-review-complete-2026-11-25.json",
+    "outstanding_editorial_questions": 0,
+    "pending_required_fixes": 0,
+    "note": "Historical review outcomes above are preserved. Final user decisions close the editorial questions without claiming newly verified literal meanings or origins."
   }
 }

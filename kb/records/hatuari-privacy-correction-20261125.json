@@ -1,0 +1,196 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-KAPILESWAR-HATUARI-20261123",
+  "route": "/stories/kapileswar-hatuari/",
+  "authorization": "Can we fix the article before I post",
+  "authorized_on": "2026-11-25",
+  "scope": "Remove public identification and linking of the potentially private discussion and source-dependent passages. Retain independently sourced history, uncertainty and licensed photograph. Historical provenance is not consent and is not rewritten.",
+  "owner": "Disha",
+  "programme_credit": 0,
+  "assignments": {
+    "Anvesha": "Read-only evidence dependency and public exposure audit",
+    "Samanta": "Edit only kb/research/places/kapileswar-hatuari-article.md; render and verify correction; no shared records or Git operations",
+    "Drishti": "Separate read-only final candidate and live review"
+  },
+  "publication": {
+    "pull_request": 860,
+    "reviewed_head": "486b06497c010bbf85188e40840793e8ef20d498",
+    "merge": "9030b07769c9a20661f3f70b8066c8486fd90f9d",
+    "reviewed_and_merged_tree": "bed06fabf05cb59f4eafcfacffa2f634e0c995fc",
+    "ci": {
+      "run_id": 45542664126,
+      "head": "486b06497c010bbf85188e40840793e8ef20d498",
+      "conclusion": "success",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45542664126",
+      "regular_file_bytes": 999906281,
+      "exclusive_limit": 1000000000,
+      "headroom_bytes": 93719,
+      "payload_step_status": "success",
+      "monitoring": "stopped at completion"
+    },
+    "deployment_run": 45546126487,
+    "deployment_status": "success"
+  },
+  "coordination": {
+    "kind": "bounded_existing_article_correction",
+    "authority": "User requested correction before sharing. No new article programme claim.",
+    "foreign_scopes_preserved": [
+      "Gonasika preparation",
+      "Nilagiri next reservation",
+      "Kala Bhoomi and existing handoff records"
+    ],
+    "observation": "Main includes completed Malayagiri and memoir receipts; no active publication PR/run observed during preparation. Hill coordinator notified, reply not received; no explicit handoff claimed. Other chat reports Gonasika preparation and Nilagiri reservation.",
+    "release_gate": "Recheck exact remote main, open release PRs and active publication jobs immediately before merge/deploy; avoid concurrent release. Send actual completion notice.",
+    "review": "Separate reviewer confirms no further human approval needed for bounded user-authorized correction; silence does not release foreign ownership.",
+    "explicit_handoff": {
+      "from_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+      "received": "2026-11-25",
+      "scope": "Temporary sole release slot for correction deployment and receipt; Gonasika then Nilagiri remain reserved. No PR/merge/deployment existed for Gonasika at handoff.",
+      "return_condition": "After reviewed correction deployment and receipt, explicitly return with actual merge/check evidence."
+    }
+  },
+  "authorization_id": "POD-DEC-20261125101",
+  "work_id": "POD-WORK-20261125101",
+  "historical_exposure_limit": "This corrects the current website article. The repository is public; earlier source revisions, publication captures and history are not private and are not erased by this correction.",
+  "source_review": {
+    "reviewer": "Anvesha, separate subagent",
+    "result": "pass",
+    "scope": "Existing evidence only: remove both discussion-dependent passages and board note; do not anonymize and retain their claims. Independent publication and photograph sources retained. No other current public article export discovered; prior public repository captures remain historical.",
+    "human_review_claimed": false
+  },
+  "source_candidate_review": {
+    "reviewer": "Drishti, separate subagent",
+    "result": "pass",
+    "scope": "Exact removals preserve seven independent source notes, qualified dating and conservation claims, and photograph rights. No anonymized replacement claims. Rendered review pending.",
+    "human_review_claimed": false
+  },
+  "local_browser_review": {
+    "result": "pass",
+    "reviewer": "Disha, actual CUA browser",
+    "viewport_desktop": [
+      1280,
+      720
+    ],
+    "viewport_mobile": [
+      390,
+      844
+    ],
+    "mobile_scroll_width": 390,
+    "notes": 7,
+    "discussion_text_and_profile_link_present": false,
+    "note_four_and_backlink": "clicked and verified",
+    "screenshots": [
+      "outputs/hatuari-privacy-correction-20261125/local-desktop.png",
+      "outputs/hatuari-privacy-correction-20261125/local-mobile-notes.png"
+    ]
+  },
+  "validation": {
+    "full_tests": {
+      "passed": 829,
+      "failed": 0
+    },
+    "coast_tests": {
+      "passed": 599,
+      "failed": 0
+    },
+    "focused_tests": {
+      "passed": 2,
+      "failed": 0
+    },
+    "full_and_coast_disclosure": "pass",
+    "full_and_coast_rendered": "7 notes,9 markers; fragments resolve; removed passages and references absent",
+    "publication_package": "pass",
+    "required_ci": "pass",
+    "live_verification": "pass",
+    "evidence": "outputs/hatuari-privacy-correction-20261125/result.json"
+  },
+  "rendered_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "exact_head": "486b06497c010bbf85188e40840793e8ef20d498",
+    "source_sha256": "69f8b492a6e3468535f89f1676536a33e8d6c789819d68e0124e87244f7206de",
+    "publication_html_sha256": "b27dc5e1db1f762ebc6f11234600817707d0ff5eaa971888e383bff4bbe1d200",
+    "scope": "Source, three rendered editions, linked notes, screenshots and localpackage reviewed; no human or live review inferred."
+  },
+  "deployment": {
+    "run_id": 45546126487,
+    "head": "9030b07769c9a20661f3f70b8066c8486fd90f9d",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45546126487",
+    "regular_file_bytes": 999906281,
+    "exclusive_limit": 1000000000,
+    "headroom_bytes": 93719,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "completed_at": "2026-11-25T04:40:33Z"
+      },
+      {
+        "name": "deploy",
+        "conclusion": "success",
+        "completed_at": "2026-11-25T04:41:07Z"
+      }
+    ],
+    "monitoring": "stopped at completion",
+    "limit": "Hosted workflow success; parent handles live page verification."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/860",
+  "verified_routes": [
+    "/stories/kapileswar-hatuari/",
+    "/history/"
+  ],
+  "live_verification": {
+    "result": "pass",
+    "checked_at": "2026-11-25T05:00:40.874228+00:00",
+    "article_url": "https://projectodisha.org/stories/kapileswar-hatuari/",
+    "http_status": 200,
+    "article_matches_reviewed_build": true,
+    "removed_discussion_references_present": false,
+    "notes": 7,
+    "fragments_valid": true,
+    "history_incoming_link": true,
+    "images": [
+      {
+        "path": "/images/kapileswar-hatuari/kapileswar-anup525-480.webp",
+        "bytes": 42158,
+        "sha256": "7f1fea26716a26c39a853db86d9d14f088776b52d4185c97b15b94599b7297d3",
+        "exact_local": true
+      },
+      {
+        "path": "/images/kapileswar-hatuari/kapileswar-anup525-864.webp",
+        "bytes": 135168,
+        "sha256": "320d2af806bd8322718f49ce0f5f6f99bc469f022625e1786ef2c174893d8a5b",
+        "exact_local": true
+      }
+    ]
+  },
+  "live_browser_review": {
+    "result": "pass_desktop",
+    "reviewer": "Disha, actual CUA",
+    "viewport": [
+      1280,
+      720
+    ],
+    "notes": 7,
+    "removed_references_present": false,
+    "source_note_four_and_backlink": "clicked and URL targets observed",
+    "screenshot": "outputs/hatuari-privacy-correction-20261125/live-desktop.png",
+    "limit": "Live mobile override did not apply and remained1280px; no live-mobile approval claimed. Local390px mobile screenshot and reading check passed. Misnamed intermediate live-mobile screenshot excluded."
+  },
+  "checker_limit": "An initial local verification helper matched the workspace directory name and checked unrelated images; corrected to the two article image filenames. Only final scoped results are claimed.",
+  "receipt_integration": {
+    "status": "pending_review_and_merge",
+    "deployment_required": false,
+    "reason": "Evidence and project records only; public correction already deployed and verified.",
+    "base": "5c3a2e84dbb380ec235494d0c4e066347618f21e",
+    "foreign_scope": "Independently merged Dhaga PR861 preserved unchanged; its deployment45550295469 was in progress when receipt reconciliation occurred. This receipt does not claim its delivery.",
+    "return_condition": "Explicit return to Gonasika then Nilagiri after actual reviewed receipt merge."
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/hatuari-privacy-correction-20261125/delivery-review.json",
+    "human_review_claimed": false
+  }
+}

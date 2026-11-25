@@ -25,8 +25,6 @@ On 26 July 2020, *OrissaPOST* reported Tapan Kumar Satpathy’s belief that the 
 
 The inventory assigns a fourteenth-century date under Ganga rule, based on architecture. Its precise-date field is blank; its sole bibliographic entry is *Cultural Heritage of Dhenkanal* (2005). These records should not be counted as independent confirmations.[^hatuari-inventory]
 
-An explanatory board photographed in a Facebook reply shared by Gayatri Das Pinky likewise infers a fourteenth-century Ganga date from construction style. Its authorship, installation date and relationship to the inventory remain unverified. Agreement between the accounts does not establish independent corroboration.[^hatuari-board]
-
 The distinction matters: a reported belief and an architectural attribution are both evidence about how the temple has been understood. Neither is equivalent to a dated foundation record.
 
 ## The problem on page 215
@@ -41,9 +39,7 @@ The full chapter has not yet been verified. Its author, complete references and 
 
 For now, **the fourteenth-century date is a provisional architectural attribution, not an established construction date**. The contradictory period label should travel with any discussion of that attribution, rather than disappear in retelling.
 
-## Tradition and the neighbouring hill shrine
-
-Sambit Das’s Facebook discussion, which prompted this inquiry, describes an elder-brother/younger-brother relationship between Kapileswar and Kapilash. It deserves documentation as a tradition, with its tellers and local variations identified. It cannot, by itself, establish which surviving building came first.
+## The neighbouring hill shrine
 
 Kapilash also requires care. D. C. Sircar’s reading favouring 1246 concerns inscriptions on a detached stone *kalasa*, an architectural crowning element that he associated with an earlier temple. It is not a secure date for the entire building standing there today.[^kapilas-sircar-inscriptions-ei33] Comparing two unqualified construction dates would therefore conceal uncertainties at both sites.
 
@@ -72,5 +68,3 @@ Readers who can identify the chapter, point to an earlier publication or share a
 [^kapilas-sircar-inscriptions-ei33]: D. C. Sircar, [“Kapilas Inscriptions of Narasimhadeva”](https://library.bjp.org/jspui/bitstream/123456789/1910/24/epigraphia-indica-vol-33.pdf), *Epigraphia Indica* XXXIII, printed pp. 41–43. See also Project Odisha’s [Kapilash article](https://projectodisha.org/destinations/kapilash/) for the distinction between the inscribed remnant and the present building.
 
 [^hatuari-conservation]: Archaeological Survey of India, [*Indian Archaeology 2008–09—A Review*](https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/20), entry 111, printed pp. 219–220 (PDF pp. 230–231). Original report linked through [ASI’s publication directory](https://asi.nic.in/pages/Publications/indianArchaelogyReports). The Hatuari entry records retaining-wall work in progress; adjacent entries concern other monuments.
-
-[^hatuari-board]: Photograph shared by [Gayatri Das Pinky in a Facebook reply](https://www.facebook.com/gayatridas.pinky?comment_id=Y29tbWVudDoxMjIyMjkzODI1MjA5NTYzNThfMTE1NjM4Mzk0MzYwMzA4OQ%3D%3D), supplied for this article by Ahimanikya Satapathy, showing an Odia explanatory board headed “Kapileswar Mahadev Temple, Hatuari, Dhenkanal”. The final sentence attributes the date to construction style and uses wording meaning “is inferred”. Photographer, capture date, installing authority and source relationship remain unverified. The image was examined as evidence; no historical inscription is shown.
