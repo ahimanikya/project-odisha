@@ -1,0 +1,575 @@
+{
+  "checked_at": "2026-11-25T21:07:28.183922+00:00",
+  "reviewer": "article_integration_review; independent of GroupB image sourcing and root illustration creation",
+  "result": "PASS",
+  "scope": "13 GroupB main images visually inspected, captions/alt/licences/source provenance cross-checked; all24 file outputs reconstructed in memory from source bytes with documented transformation and compared byte-exact. No rendered browser/layout or live-publication review claimed.",
+  "counts": {
+    "articles": 13,
+    "licensed_or_public_domain": 9,
+    "original_illustrations": 4,
+    "outputs_byte_exact_reconstructed": 24,
+    "downloaded_originals_sha256_preserved": 7,
+    "local_reuse_sha256_preserved": 2
+  },
+  "transformation_verification": {
+    "method": "Read /private/tmp/finalize_independent_images.mjs; independently used Sharp rotate plus inside resize without enlargement, primary1200px WebPq80effort6 and preview480px q76effort6, in-memory only. Compared each result to finalpublic bytes and production-report hashes.",
+    "result": "PASS",
+    "additional_crop": false,
+    "filesystem_writes_during_verification": 0
+  },
+  "source_evidence": [
+    "outputs/independent-article-images-20261126/research/group-b-assets/source-pages-batch-1.json",
+    "outputs/independent-article-images-20261126/research/group-b-assets/source-pages-batch-2.json",
+    "kb/records/food-card-image-provenance-2026-10-20.json",
+    "kb/research/destinations/regions.json",
+    "outputs/independent-article-images-20261126/generated-prompts.json",
+    "outputs/independent-article-images-20261126/image-production-report.json"
+  ],
+  "blocking_issues": [],
+  "advisories": [
+    "Bande Utkala Janani statue photograph is dark/soft in the source; keep portrait at restrained width, preserving full frame.",
+    "Preserve visible illustration captions and enhanced-colour/non-Manikapatana caveats when rendering.",
+    "Browser preview containment and actual visible media credits still require integrated/rendered review."
+  ],
+  "items": [
+    {
+      "slug": "pakhala",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Meal photograph visibly matches bowl and vegetable accompaniment caption; existing source metadata and image hash verified.",
+      "input_sha256_preserved": "df69069dda4ec3757310bd594d965abb21b9264466293e1e937d29c8a773f0e0",
+      "files": [
+        {
+          "src": "/images/food/pakhala-tomato-poda.webp",
+          "sha256": "df69069dda4ec3757310bd594d965abb21b9264466293e1e937d29c8a773f0e0",
+          "bytes": 115604,
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Subhashish Panigrahi",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Pakhala_with_assorted_side_dishes_03.jpg",
+        "title": "Pakhala with assorted side dishes 03.jpg",
+        "caption": "Pakhala with vegetable accompaniments, photographed in 2019.",
+        "alt": "A bowl of pakhala with tomato, greens and other vegetable side dishes.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Resized and converted to WebP; displayed adaptation remains CC BY-SA 4.0.",
+        "src": "/images/food/pakhala-tomato-poda.webp",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "slug": "similipal-waterfalls",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Distant Barehipani waterfall and forested rock face match caption and existing provenance hash. Historical2013 view, not current conditions.",
+      "input_sha256_preserved": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026",
+      "files": [
+        {
+          "src": "/images/regions/barehipani.jpg",
+          "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026",
+          "bytes": 131911,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Wiki GSD",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg",
+        "title": "Similipal (2).jpg",
+        "caption": "Barehipani waterfall in Similipal, photographed in 2013.",
+        "alt": "Barehipani falls descending through a wooded rock face in Similipal.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Original file retained. Full image shown; adaptation, if any, remains CC BY-SA 4.0.",
+        "src": "/images/regions/barehipani.jpg",
+        "width": 960,
+        "height": 720
+      }
+    },
+    {
+      "slug": "raja",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Decorated swing and child match caption; no identity or additional cultural detail inferred from appearance. Full framing retained.",
+      "input_sha256_preserved": "41109a9de29acd5167bc0c2d04082de5897a7bb56c00e71ef2947ea8250c7edd",
+      "files": [
+        {
+          "src": "/images/independent-features/raja-v1.webp",
+          "sha256": "135f1b6ee1ced4b639e960ad7982e2b19b30e22a064f2cb45bd50e8cd1c05eee",
+          "bytes": 184764,
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "src": "/images/independent-features/raja-480-v1.webp",
+          "sha256": "2faf1650bbbb69e0df16d81f6abac76b647493c46d360b3ced93fcce3cbcde12",
+          "bytes": 40898,
+          "width": 480,
+          "height": 319
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "ଜଗଦୀଶ ଉତ୍ତରକବାଟ",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Raja_doli.jpg",
+        "title": "Raja doli.jpg",
+        "caption": "Raja swing play, photographed in June 2011.",
+        "alt": "A child on a swing decorated with green leaves and marigolds, with adults behind.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Resized and converted to WebP; full downloaded framing retained. Displayed adaptation retains CC BY-SA 3.0.",
+        "src": "/images/independent-features/raja-v1.webp",
+        "width": 1200,
+        "height": 799,
+        "small_src": "/images/independent-features/raja-480-v1.webp",
+        "small_width": 480,
+        "small_height": 319
+      }
+    },
+    {
+      "slug": "gundichaghagi",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Broad monsoon cascade and forest match subject caption. Specific location/year grounded in saved Commons source; no present-day flow claim.",
+      "input_sha256_preserved": "2e8d9eda8d46d459dc26a6da2ca7a2dd76e5b7bb31b6e46d71fc660e545438bc",
+      "files": [
+        {
+          "src": "/images/independent-features/gundichaghagi-v1.webp",
+          "sha256": "bc60b817807fbb57cff76a1bdfb45b9039aeea76a95f063381856a749cd5ff43",
+          "bytes": 147058,
+          "width": 1080,
+          "height": 767
+        },
+        {
+          "src": "/images/independent-features/gundichaghagi-480-v1.webp",
+          "sha256": "69c1cb21311745eb7e52e38c89f22357ab50ec178eaccb2e80cb509b68e5f1be",
+          "bytes": 32964,
+          "width": 480,
+          "height": 341
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Bikashkumargiri1997",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Gundichaghagi_Waterfall,_Keonjhar_During_monsoons.png",
+        "title": "Gundichaghagi Waterfall, Keonjhar During monsoons.png",
+        "caption": "Gundichaghagi waterfall during the monsoon, photographed in 2019.",
+        "alt": "Monsoon water crossing a broad rocky ledge into a gorge bordered by forest.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Resized and converted to WebP; full downloaded framing retained. Displayed adaptation retains CC BY-SA 4.0.",
+        "src": "/images/independent-features/gundichaghagi-v1.webp",
+        "width": 1080,
+        "height": 767,
+        "small_src": "/images/independent-features/gundichaghagi-480-v1.webp",
+        "small_width": 480,
+        "small_height": 341
+      }
+    },
+    {
+      "slug": "rabandhara",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Rocky falls, pool and trees match caption; prior Featous Commons crop disclosed. No further crop or upscaling.",
+      "input_sha256_preserved": "3940b234370bba4b824edb4b1d28589617ed4b2dcad686dc68365bb15703a442",
+      "files": [
+        {
+          "src": "/images/independent-features/rabandhara-v1.webp",
+          "sha256": "81a41e2f387ecdccc599f16a4e580c2c7c22d2f8ca6708f6b0cbadbfbea094e6",
+          "bytes": 94772,
+          "width": 750,
+          "height": 561
+        },
+        {
+          "src": "/images/independent-features/rabandhara-480-v1.webp",
+          "sha256": "73f2120a5f6a8a2df323b11ee9dc2e0a59fe89a002a38cf894b05b2a594d8a23",
+          "bytes": 39648,
+          "width": 480,
+          "height": 359
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Debasish Rout",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Rabandhara_Waterfall,_Kalahandi.jpg",
+        "title": "Rabandhara Waterfall, Kalahandi.jpg",
+        "caption": "Rabandhara waterfall in Kalahandi, photographed in 2018.",
+        "alt": "Water falling down a rocky face into a pool surrounded by green trees at Rabandhara.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Commons version cropped vertically by Featous in 2021; converted to WebP without further cropping. Displayed adaptation retains CC BY-SA 4.0.",
+        "src": "/images/independent-features/rabandhara-v1.webp",
+        "width": 750,
+        "height": 561,
+        "small_src": "/images/independent-features/rabandhara-480-v1.webp",
+        "small_width": 480,
+        "small_height": 359
+      }
+    },
+    {
+      "slug": "cyclone-dana",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Historical satellite cloud system coherent and caption date/NOAA-20 attribution align with source. Prior Commons crop by TCFHK disclosed; no additional crop.",
+      "input_sha256_preserved": "0605d85995dcd3c293691ed670f680b590ac4d174369b35f0a137de5c33f6366",
+      "files": [
+        {
+          "src": "/images/independent-features/cyclone-dana-v1.webp",
+          "sha256": "780e9d1777da2f39a73cab8ea908b864af858490595d2c8a1e3e31ab8e8fc052",
+          "bytes": 187582,
+          "width": 857,
+          "height": 1200
+        },
+        {
+          "src": "/images/independent-features/cyclone-dana-480-v1.webp",
+          "sha256": "8083bfb76743efc026b768956317f5a6d68efc8a40c709db19555496a84ba859",
+          "bytes": 31664,
+          "width": 343,
+          "height": 480
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "NOAA-20 Satellite / NOAA",
+        "license": "Public domain — NOAA work",
+        "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NOAA",
+        "source": "https://commons.wikimedia.org/wiki/File:Dana_2024-10-24_0800Z.jpg",
+        "title": "Dana 2024-10-24 0800Z.jpg",
+        "caption": "Cyclone Dana over the Bay of Bengal on 24 October 2024, seen by NOAA-20.",
+        "alt": "Satellite view of Cyclone Dana cloud bands over the Bay of Bengal on 24 October 2024.",
+        "kind": "satellite image",
+        "reviewed_on": "2026-11-26",
+        "changes": "Commons version cropped by TCFHK in March 2025; resized and converted to WebP without further cropping.",
+        "src": "/images/independent-features/cyclone-dana-v1.webp",
+        "width": 857,
+        "height": 1200,
+        "small_src": "/images/independent-features/cyclone-dana-480-v1.webp",
+        "small_width": 343,
+        "small_height": 480
+      }
+    },
+    {
+      "slug": "bande-utkala-janani",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Standing book-holding statue matches subject and statue caption; not presented as lifetime portrait. Source photograph is dark/soft, but subject remains identifiable at restrained display width.",
+      "input_sha256_preserved": "223198a062c0ba07c8cb20bcd273d4556a6255911639d71d2a10ce666c8b0127",
+      "files": [
+        {
+          "src": "/images/independent-features/bande-utkala-janani-v1.webp",
+          "sha256": "d0c01a9921ec0256b8f004c8f47ba12904f4d935bf8801c3b8636cd5099379de",
+          "bytes": 71714,
+          "width": 764,
+          "height": 1200
+        },
+        {
+          "src": "/images/independent-features/bande-utkala-janani-480-v1.webp",
+          "sha256": "1382d2d25f7e48e8064145ee23726b8ce2da23d5d3bb963267a584fc97054523",
+          "bytes": 20964,
+          "width": 305,
+          "height": 480
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Subhrasingh",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Laxmikanta_Mohapatra_Statue.jpg",
+        "title": "Laxmikanta Mohapatra Statue.jpg",
+        "caption": "A statue of Kantakabi Laxmikanta Mohapatra, the poet of Bande Utkala Janani, in Bhubaneswar. Photograph from 2022.",
+        "alt": "A standing statue of Laxmikanta Mohapatra holding a book, with trees behind.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Resized and converted to WebP; full downloaded framing retained. Displayed adaptation retains CC BY-SA 4.0.",
+        "src": "/images/independent-features/bande-utkala-janani-v1.webp",
+        "width": 764,
+        "height": 1200,
+        "small_src": "/images/independent-features/bande-utkala-janani-480-v1.webp",
+        "small_width": 305,
+        "small_height": 480
+      }
+    },
+    {
+      "slug": "jalaput-machkund",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Branching reservoir visibly rendered in enhanced turquoise/white/yellow. Embedded Copernicus/Sentinel Hub attribution remains at lower left. Caption discloses processing; credit records Monja Šebela, Sentinel Hub, modified Copernicus Sentinel2021 data and Ulyssys script. No water-quality/current-extent inference.",
+      "input_sha256_preserved": "fb261b05509b71bbbd946ec6c2f0973e07db8b3e3551d5f13f642201622d9be8",
+      "files": [
+        {
+          "src": "/images/independent-features/jalaput-machkund-v1.webp",
+          "sha256": "479edffc08665979c2658a40a41d331fc94fcc4067b269f2c96bfd9c454a3d62",
+          "bytes": 290624,
+          "width": 1200,
+          "height": 851
+        },
+        {
+          "src": "/images/independent-features/jalaput-machkund-480-v1.webp",
+          "sha256": "a9df129f5372ffc806f78c25e7a9d61c0f5bef81feb8562397098f3cc463c0ed",
+          "bytes": 49252,
+          "width": 480,
+          "height": 341
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Monja Šebela / Sentinel Hub",
+        "license": "CC BY 2.0; Copernicus Sentinel attribution",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Jalaput_Reservoir,_India_(52233761286).png",
+        "title": "Jalaput Reservoir, India (52233761286).png",
+        "caption": "Jalaput Reservoir in an enhanced-colour Sentinel-2 view from December 2021; colours reflect image processing.",
+        "alt": "Processed Sentinel-2 view of the branching Jalaput Reservoir, with enhanced turquoise, white and yellow water colours.",
+        "kind": "satellite image",
+        "reviewed_on": "2026-11-26",
+        "changes": "Contains modified Copernicus Sentinel data [2021], processed by Sentinel Hub using the Ulyssys script. Official thumbnail converted to WebP; full framing and embedded attribution retained.",
+        "src": "/images/independent-features/jalaput-machkund-v1.webp",
+        "width": 1200,
+        "height": 851,
+        "small_src": "/images/independent-features/jalaput-machkund-480-v1.webp",
+        "small_width": 480,
+        "small_height": 341
+      }
+    },
+    {
+      "slug": "coastal-shell-craft",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Full museum specimen and historical labels retained, including Ceylon. Species Turbinella pyrum and Naturalis attribution/CC0 agree with saved source; caption explicitly says not a Manikapatana excavation object. No scale or Odia origin claimed.",
+      "input_sha256_preserved": "033e254978b576541c0b82e436a3512915fb0f3d49735f18bb081185e74039a9",
+      "files": [
+        {
+          "src": "/images/independent-features/coastal-shell-craft-v1.webp",
+          "sha256": "e16ddcec44d770ddfae0ace655d7534d58fb06dbce1aefa0cb2a10e77cd9b965",
+          "bytes": 29468,
+          "width": 1200,
+          "height": 798
+        },
+        {
+          "src": "/images/independent-features/coastal-shell-craft-480-v1.webp",
+          "sha256": "e9005874e4776a89d05cb1477c152d445e09cfc2ac08093a7aa5616c2d9a489c",
+          "bytes": 6538,
+          "width": 480,
+          "height": 319
+        }
+      ],
+      "reviewed_metadata": {
+        "creator": "Naturalis Biodiversity Center",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.MOLL.356504_-_Turbinella_pyrum_(Linnaeus,_1758)_-_Turbinellidae_-_Mollusc_shell.jpeg",
+        "title": "Naturalis Biodiversity Center - ZMA.MOLL.356504 - Turbinella pyrum (Linnaeus, 1758) - Turbinellidae - Mollusc shell.jpeg",
+        "caption": "A museum specimen of Turbinella pyrum, the conch species discussed in the shell-working study. This is not an excavated object from Manikapatana.",
+        "alt": "A Turbinella pyrum conch specimen beside historical museum labels on a black background.",
+        "kind": "photograph",
+        "reviewed_on": "2026-11-26",
+        "changes": "Resized and converted to WebP; specimen and historical collection labels retained.",
+        "src": "/images/independent-features/coastal-shell-craft-v1.webp",
+        "width": 1200,
+        "height": 798,
+        "small_src": "/images/independent-features/coastal-shell-craft-480-v1.webp",
+        "small_width": 480,
+        "small_height": 319
+      }
+    },
+    {
+      "slug": "sonapur",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Clearly painted river mouth and sand spit; caption explicitly conceptual, not surveyed/documentary Sonapur. No invented facilities/landmarks shown.",
+      "input_sha256_preserved": "2324faad76816b068289c53af7ffb51685f3eaeece95a44efcb4daf3b6d9f0e2",
+      "files": [
+        {
+          "src": "/images/independent-features/sonapur-v1.webp",
+          "sha256": "48b2d69bb6798de5b2e20f9ce8336dd1be3423089962dbcb4d5fa0387435ff09",
+          "bytes": 187742,
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/images/independent-features/sonapur-480-v1.webp",
+          "sha256": "62214c0df484c63f97e0f09242f9e7c1f2df3000dadd618be2c805f1b6add1ce",
+          "bytes": 27312,
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "reviewed_metadata": {
+        "title": "A river meeting the sea",
+        "caption": "A conceptual illustration of a river mouth and sandy coast, not a surveyed or documentary view of Sonapur.",
+        "alt": "Watercolor illustration of a river opening into the sea beside a sandy spit.",
+        "creator": "Project Odisha",
+        "source": "https://github.com/ahimanikya/project-odisha/blob/main/outputs/independent-article-images-20261126/original-art/sonapur-v1.png",
+        "license": "Original Project Odisha artwork; no third-party licence applies",
+        "license_url": null,
+        "kind": "illustration",
+        "changes": "Resized and converted to WebP; full composition retained.",
+        "reviewed_on": "2026-11-26",
+        "src": "/images/independent-features/sonapur-v1.webp",
+        "width": 1200,
+        "height": 800,
+        "small_src": "/images/independent-features/sonapur-480-v1.webp",
+        "small_width": 480,
+        "small_height": 320
+      }
+    },
+    {
+      "slug": "galigabdar",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Clearly painted stepped cascade; caption explicitly avoids exact-falls reconstruction. Does not identify depicted stream as Nuagaon or claim current visitor facilities.",
+      "input_sha256_preserved": "130ce7767a7fee6c7dd8c241968a7298fec743a0b1899332d6a54f5a03c51dfd",
+      "files": [
+        {
+          "src": "/images/independent-features/galigabdar-v1.webp",
+          "sha256": "e856c9fe63a2e673317c4ee96f04915e4b7d37e9caaae994aaa3fff0e7ecfca9",
+          "bytes": 205388,
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/images/independent-features/galigabdar-480-v1.webp",
+          "sha256": "ac57ac164e8c7edf9f3a84fa14dc4a29150aab71c3a644aaabc61b8a9ba9cdfe",
+          "bytes": 34646,
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "reviewed_metadata": {
+        "title": "Water over rock steps",
+        "caption": "An illustration of water descending successive rock shelves, not a reconstruction of the exact Galigabdar falls.",
+        "alt": "Painted water descends uneven rock shelves among green foliage.",
+        "creator": "Project Odisha",
+        "source": "https://github.com/ahimanikya/project-odisha/blob/main/outputs/independent-article-images-20261126/original-art/galigabdar-v1.png",
+        "license": "Original Project Odisha artwork; no third-party licence applies",
+        "license_url": null,
+        "kind": "illustration",
+        "changes": "Resized and converted to WebP; full composition retained.",
+        "reviewed_on": "2026-11-26",
+        "src": "/images/independent-features/galigabdar-v1.webp",
+        "width": 1200,
+        "height": 800,
+        "small_src": "/images/independent-features/galigabdar-480-v1.webp",
+        "small_width": 480,
+        "small_height": 320
+      }
+    },
+    {
+      "slug": "chandoori-sai",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Material study depicts terracotta tile/pot, split bamboo, plaster and iron latch. Caption accurately identifies materials and denies depiction of guesthouse; matches manuscript.",
+      "input_sha256_preserved": "8d9a0edfc5ec2f66a90d575b70623d6f8f141c10d8442ee6da62772253fde78c",
+      "files": [
+        {
+          "src": "/images/independent-features/chandoori-sai-v1.webp",
+          "sha256": "4a0c34b34a9f1b92a4e38ffa136178753734b78c055793fadb766f80df958aa9",
+          "bytes": 110662,
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/images/independent-features/chandoori-sai-480-v1.webp",
+          "sha256": "a479042d456789d94b4384b274dedbcc33707b6b13fe431effe83cce24375816",
+          "bytes": 14574,
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "reviewed_metadata": {
+        "title": "Clay, earth, bamboo and iron",
+        "caption": "An illustrated material study of terracotta, earthen plaster, bamboo and ironwork discussed in the article; not a depiction of the guesthouse.",
+        "alt": "Terracotta tiles and a pot, split bamboo, ochre plaster and an iron latch.",
+        "creator": "Project Odisha",
+        "source": "https://github.com/ahimanikya/project-odisha/blob/main/outputs/independent-article-images-20261126/original-art/chandoori-sai-v1.png",
+        "license": "Original Project Odisha artwork; no third-party licence applies",
+        "license_url": null,
+        "kind": "illustration",
+        "changes": "Resized and converted to WebP; full composition retained.",
+        "reviewed_on": "2026-11-26",
+        "src": "/images/independent-features/chandoori-sai-v1.webp",
+        "width": 1200,
+        "height": 800,
+        "small_src": "/images/independent-features/chandoori-sai-480-v1.webp",
+        "small_width": 480,
+        "small_height": 320
+      }
+    },
+    {
+      "slug": "chhatia-kakara",
+      "result": "PASS",
+      "main_image_visually_inspected": true,
+      "caption_and_alt_match": true,
+      "credit_and_license_match_source": true,
+      "visual_notes": "Painterly fried sweets/tray/roadside counter match stated imagined illustration. Caption avoids exact shop/recipe claim; no identifiable vendor or fabricated documentary scene.",
+      "input_sha256_preserved": "f599ac3b9e2fc11b6e092d625981f32a4aca02e1496c28ef5a56e3598248f989",
+      "files": [
+        {
+          "src": "/images/independent-features/chhatia-kakara-v1.webp",
+          "sha256": "63e4470f81b78ad5c93ade2696456fe2a63defce841520fcf50cec793ab702f8",
+          "bytes": 171144,
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/images/independent-features/chhatia-kakara-480-v1.webp",
+          "sha256": "26452b34ded15cbd7cc073c017704aa8b7794fb6aa73349c08b09747c60e8144",
+          "bytes": 26232,
+          "width": 480,
+          "height": 320
+        }
+      ],
+      "reviewed_metadata": {
+        "title": "Roadside sweets",
+        "caption": "An imagined illustration of fried sweets at a roadside counter, not a record of a particular Chhatia shop or recipe.",
+        "alt": "Watercolor illustration of round fried sweets on a steel tray beside a paper pouch and frying spoon.",
+        "creator": "Project Odisha",
+        "source": "https://github.com/ahimanikya/project-odisha/blob/main/outputs/independent-article-images-20261126/original-art/chhatia-kakara-v1.png",
+        "license": "Original Project Odisha artwork; no third-party licence applies",
+        "license_url": null,
+        "kind": "illustration",
+        "changes": "Resized and converted to WebP; full composition retained.",
+        "reviewed_on": "2026-11-26",
+        "src": "/images/independent-features/chhatia-kakara-v1.webp",
+        "width": 1200,
+        "height": 800,
+        "small_src": "/images/independent-features/chhatia-kakara-480-v1.webp",
+        "small_width": 480,
+        "small_height": 320
+      }
+    }
+  ]
+}

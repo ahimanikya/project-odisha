@@ -1,6 +1,8 @@
 // Deterministic public adapter: never export the research directory wholesale.
-import {readFile,writeFile,mkdir,rm,copyFile,stat} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,rm,stat} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
+import {createReadStream} from 'node:fs';
+import {copyPublicationFile} from './storage-copy.mjs';
 import {resolve,basename} from 'node:path';
 import {createHash} from 'node:crypto';
 import sharp from 'sharp';
@@ -43,10 +45,15 @@ export function validateCardImages(entries,indexHTML){
  return expected;
 }
 export async function exportDhaga(destination){
- const {delivery,pdf,pdfURL,pdfBytes}=await validatePdfDelivery();
+ const {delivery,pdf,pdfURL}=await validatePdfDelivery();
  // Stage only the bytes that passed descriptor/packing validation; never commit the large PDF.
  await mkdir(resolve(destination,'archive'),{recursive:true});
- await writeFile(resolve(destination,'archive',delivery.asset_name),pdfBytes);
+ const stagedPDF=resolve(destination,'archive',delivery.asset_name);
+ await copyPublicationFile(resolve(book,'odia-dhaga-book.pdf'),stagedPDF,{allowNonMacFullCopy:process.platform==='linux'});
+ // Recheck the staged bytes against the approved descriptor, including source-change races.
+ const stagedHash=createHash('sha256');let stagedBytes=0;
+ for await(const chunk of createReadStream(stagedPDF)){stagedHash.update(chunk);stagedBytes+=chunk.length;}
+ if(stagedBytes!==delivery.bytes||stagedHash.digest('hex')!==delivery.sha256)throw Error('Staged Dhaga PDF differs from verified release descriptor');
  const data=JSON.parse(await readFile(resolve(book,'collection.json'),'utf8')),out=resolve(destination,'dhaga');
  if(data.entries.length!==delivery.entries)throw Error('Dhaga entry count differs from PDF delivery');
  const indexHTML=await readFile(resolve(book,'index.html'),'utf8');
@@ -74,7 +81,7 @@ export async function exportDhaga(destination){
  for(const e of data.entries)if(graphicPath(e)!==null)assets.set('assets/cards/'+e.id.toLowerCase()+'.webp',assets.get(e.graphic.src));
  const fonts=['NotoSerifOriya-Variable.woff2','SourceSerif4-Variable.woff2'];
  const licences=['NotoSerifOriya-OFL.txt','SourceSerif4-OFL.txt'];
- for(const name of [...fonts,...licences])await copyFile(resolve(book,'assets',name),resolve(out,'assets',name));
+ for(const name of [...fonts,...licences])await copyPublicationFile(resolve(book,'assets',name),resolve(out,'assets',name),{allowNonMacFullCopy:process.platform==='linux'});
  function adapt(html,route){
   html=html.replace(/<meta name="robots"[^>]*>/g,'');
   html=html.replace(/<meta (?:name|property)="(?:description|og:[^"]+|twitter:[^"]+|referrer)"[^>]*>/g,'');

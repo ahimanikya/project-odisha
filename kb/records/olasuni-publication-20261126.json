@@ -59,7 +59,7 @@
     "historical_combined_receipt_bytes": 999858345,
     "historical_files": 3694,
     "historical_remaining_bytes": 141655,
-    "status": "Original publication CI and deployment passed. Combined receipt CI must measure latest main including Makar separately.",
+    "status": "Original publication CI and deployment passed. Receipt CI must separately measure combined main including PR877 and PR879.",
     "proposal": "outputs/olasuni-publication-2026-11-26/capacity/proposal.json",
     "separate_review": "outputs/olasuni-publication-2026-11-26/review/capacity-review.json",
     "root_review": "outputs/olasuni-publication-2026-11-26/capacity/root-visual-review.json",
@@ -220,5 +220,15 @@
     "evidence": "outputs/olasuni-publication-2026-11-26/review/final-receipt-review.json",
     "sha256": "40f2aa0d6bd10bf2c46ca56e130bead23f61ad5939f22a2b13aa512c56cb6aff",
     "scope": "Receipt based on c9acb10436ff6d4447791802461745776da2ce4b; subsequent incoming changes require separate reconciliation review."
+  },
+  "receipt_reconciliation_after_review": {
+    "incoming_pr": 879,
+    "incoming_merge": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "reviewed_incoming_head": "cd29868bd99b7500dd9053d834324905fe088954",
+    "required_ci": 45705527242,
+    "conclusion": "success",
+    "scope": "Preserve incoming independent-article images, code, tools, records and historical event formatting. Receipt changes no public source. Original Olasuni reviews and deployment remain scoped to their recorded source. No independent claim to re-review the incoming image collection.",
+    "preservation": "outputs/olasuni-publication-2026-11-26/receipt-pr879-preservation.json",
+    "capacity": "Required receipt CI measures latest combined source separately from original deployment."
   }
 }
