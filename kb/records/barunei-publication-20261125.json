@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_publication_candidate",
+  "status": "published_verified",
   "article_id": "POD-EDIT-BARUNEI-20261125",
   "route": "/destinations/barunei/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has Nilagiri’s release finished and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112593",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "b62e8d6c98bcf7d42df30926e98867502a21d7b1",
   "prior_release": {
     "record": "records/nilagiri-publication-20261125.json",
@@ -77,16 +77,22 @@
     "payload_bytes": 999995588,
     "files": 3688,
     "remaining_bytes": 4412,
-    "status": "New article image capacity requires separately reviewed bounded measurement.",
+    "status": "Actual original publication CI and deployment passed. Receipt CI must measure any combined latest-main source separately.",
     "proposal": "outputs/barunei-publication-2026-11-25/capacity/proposal.json",
     "root_visual_acceptance": "Personally viewed q90 full-frame and detail triptychs. Composition and visible detail acceptable at displayed scale; no pixel-equivalence claim. Separate review and final payload required.",
     "review": "outputs/barunei-publication-2026-11-25/review/capacity-review.json",
     "selected": "assets/bhubaneswar-week/conversations.jpg",
     "selected_quality": 90,
     "measured_local_saving_bytes": 532358,
-    "implementation_authorized": "Only named existing image quality90 override, with original/frame/metadata/credit preserved as reviewed; actual package gate still required."
+    "implementation_authorized": "Only named existing image quality90 override, with original/frame/metadata/credit preserved as reviewed; actual package gate still required.",
+    "actual_linux_ci_bytes": 999876636,
+    "actual_linux_ci_files": 3693,
+    "actual_linux_ci_remaining_bytes": 123364,
+    "actual_deployed_bytes": 999876636,
+    "actual_deployed_files": 3693,
+    "actual_deployed_remaining_bytes": 123364
   },
-  "next_action": "Finish independent package and candidate review, run hosted checks, then merge and publish exact reviewed head.",
+  "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly hand off the reserved preparation-only slot.",
   "media": "research/places/barunei-image.json",
   "web_guidance": {
     "evidence": "outputs/barunei-publication-2026-11-25/web-guidance.md",
@@ -112,7 +118,7 @@
   "rendered_review": "outputs/barunei-publication-2026-11-25/review/rendered-review.json",
   "local_browser": "outputs/barunei-publication-2026-11-25/browser/local-review.json",
   "candidate_gate": {
-    "status": "local_pass_hosted_pending",
+    "status": "publication_and_live_review_pass_receipt_pending",
     "completed": [
       "Separate source/media/capacity/static review",
       "Root and separate coastal desktop/mobile article and preview review",
@@ -122,13 +128,18 @@
       "All13 localbuild/test/audit stages",
       "20026 artifact checks",
       "Final publication q90base and responsivefigure visualreview",
-      "Independent final package/rendered review PASS"
+      "Independent final package/rendered review PASS",
+      "Separate exact committed candidate review PASS",
+      "Required hosted CI45659955442 attempt1 PASS",
+      "Exact reviewed tree verified at actual publication merge",
+      "Actual successful deployment45664502523 attempt1",
+      "Root live browser and HTTP review",
+      "Separate fresh delivery review PASS",
+      "Separate integrated receipt review PASS"
     ],
     "pending": [
-      "Exact committed candidate continuity review",
-      "Required hosted CI and actual Linux capacity",
-      "Deployment/live review",
-      "Reviewed receipt merge"
+      "Separate exact committed receipt continuity review",
+      "Required receipt CI and actual receipt merge"
     ]
   },
   "local_artifact_verification": "outputs/barunei-publication-2026-11-25/local-verification.json",
@@ -139,5 +150,98 @@
     "remaining_bytes": 922821,
     "hosted_measurement": false
   },
-  "final_local_review": "outputs/barunei-publication-2026-11-25/review/final-package-review.json"
+  "final_local_review": "outputs/barunei-publication-2026-11-25/review/final-package-review.json",
+  "publication": {
+    "pull_request": 871,
+    "reviewed_head": "02af7802fbc3954cf2226d2b7776b350337b66d3",
+    "required_ci": 45659955442,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge": "0769feeb8792d98c5be2c5b017b57a3f169b259f",
+    "reviewed_and_merged_tree": "662ece15310039bce0e348db08d91ca7ff3926e1",
+    "deployment_run": 45664502523,
+    "deployment_status": "success",
+    "deployment_attempt": 1,
+    "deployment_evidence": "outputs/barunei-publication-2026-11-25/release/deployment-45664502523.json"
+  },
+  "next_slot": {
+    "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "One independently researched uncovered Antaranga Kalinga article preparation only, with credited image, after this actual reviewed receipt merge and explicit handoff.",
+    "authorization": "Received direct human-authorized coordination request, accepted under standing coordination permission; no publication authority inferred for the future draft."
+  },
+  "failure_history": [
+    {
+      "stage": "candidate upload",
+      "observed": "Initial upload HTTP400; remote branch verified absent, unchanged retry with command-local http.postBuffer and HTTP/1.1 succeeded. No persistent setting or cause claim."
+    },
+    {
+      "stage": "temporary evidence preservation",
+      "observed": "Strict clone-aware copies of temporary review report failed Operation not permitted both default and escalated; no fallback or source alteration. Original18186-byte report retained in /private/tmp with exact hash. Fresh GitHub captures and newly authored reviewer continuity attestation used in receipt; no exact file-metadata snapshot claim."
+    },
+    {
+      "stage": "uncommitted receipt rollout check",
+      "observed": "Rollout validator requires top-level pull_request and verified_routes; actual completed evidence was nested under publication/live_verification. Added required references to verified values; public source unchanged."
+    }
+  ],
+  "review_id": "POD-REV-2026112593",
+  "exact_commit_review": "outputs/barunei-publication-2026-11-25/review/exact-commit-review.json",
+  "browser_live": "outputs/barunei-publication-2026-11-25/browser-live.json",
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to the reserved Research Antaranga Kalinga preparation-only chat; no next hill is claimed.",
+  "deployment": {
+    "run": 45664502523,
+    "head": "0769feeb8792d98c5be2c5b017b57a3f169b259f",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999876636,
+    "files": 3693,
+    "remaining_bytes": 123364,
+    "evidence": "outputs/barunei-publication-2026-11-25/release/deployment-45664502523.json",
+    "log": "outputs/barunei-publication-2026-11-25/release/deployment-45664502523.log"
+  },
+  "delivery_review": {
+    "status": "PASS",
+    "reviewer": "Drishti, separate AI assistant",
+    "evidence": "outputs/barunei-publication-2026-11-25/review/delivery-review.json",
+    "sha256": "f933f0c7693062da3eb32591ae39c7ee148bbc7d98d7874839c3e7e7a332bf35"
+  },
+  "live_verification": {
+    "root_http": "outputs/barunei-publication-2026-11-25/live-verification.json",
+    "root_checks": 364,
+    "root_routes": 5,
+    "root_images": 20,
+    "independent_routes": 5,
+    "independent_images": 31,
+    "screenshots": 13,
+    "browser": "outputs/barunei-publication-2026-11-25/browser-live.json",
+    "root_image_measurement": "outputs/barunei-publication-2026-11-25/live-image-comparison.json",
+    "independent_evidence": "outputs/barunei-publication-2026-11-25/review/live-independent/http-verification.json",
+    "independent_image_measurement": "outputs/barunei-publication-2026-11-25/review/live-independent/image-measurements.json",
+    "root_visual": "outputs/barunei-publication-2026-11-25/live/root-visual-review.json",
+    "page_difference_classification": "outputs/barunei-publication-2026-11-25/review/live-independent/continuity.json",
+    "new_article_image_files_byte_exact": 4,
+    "raw_differences_retained": true,
+    "limits": "Independent expanded review31images:27byte-exact,4existing encodings differ. Root and reviewer visually accepted all4pairs; measurements retained, no cause or pixel-identity claim. Complete Barunei and Bhubaneswar article fragments match after one observed responsive substitution each; all3new cards exact. Whole pages additionally have classified production Analytics markup, and Explore35outside-card responsive URL substitutions. No complete visual-quality or consent-behavior claim for those other Explore entries."
+  },
+  "preserved_preparation": {
+    "files": 67,
+    "manifest": "outputs/gonasika-publication-2026-11-25/preserved-preparation.json",
+    "source_originals_retained": true
+  },
+  "review_limits": "Separate task-scoped AI reviews; no human-specialist or field-visit approval. Raw image and page differences and screenshot framing limits preserved. Original research PDF remains in temporary storage with hash, as documented. Public source unchanged by receipt.",
+  "pull_request": 871,
+  "verified_routes": [
+    "/destinations/barunei/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/bhubaneswar-week/"
+  ],
+  "final_receipt_review": {
+    "status": "PASS",
+    "evidence": "outputs/barunei-publication-2026-11-25/review/final-receipt-review.json",
+    "sha256": "68cb3c65ecf90ebf013e0d9fd4294649f4e359dd79da0dac1f3098510a3826b0",
+    "limits": "Separate exact committed continuity review, required hosted receipt checks and actual merge remain."
+  },
+  "receipt_whitespace": "Exactly two original hosted logs retain captured whitespace; all other staged paths pass, including raw HTTP captures. Explicit paths in receipt-whitespace-exceptions.json."
 }
