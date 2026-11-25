@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1421. blocked: 1, completed: 276, excluded: 873, in_progress: 1, queued: 270.
+Route inventory: 1421. blocked: 1, completed: 277, excluded: 873, queued: 270.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1442,6 +1442,6 @@ Route inventory: 1421. blocked: 1, completed: 276, excluded: 873, in_progress: 1
 | POD-EDIT-INDEPENDENT-INDEX-20261125 | [Odisha: places, work and living traditions](https://projectodisha.org/stories/odisha/) | excluded | Categorized collection navigation |
 | POD-EDIT-GAMHA-PURNIMA | [Gamha Purnima: A Meal for the Bullocks](https://projectodisha.org/stories/gamha-purnima/) | queued | article |
 | POD-EDIT-PUSPUNI | [Puspuni: Who Gets a Share of the Harvest?](https://projectodisha.org/stories/puspuni/) | queued | article |
-| POD-EDIT-OLASUNI-20261126 | [Olasuni hill](https://projectodisha.org/destinations/olasuni/) | in_progress | One original hill destination article with credited photograph; zero programme credit. |
+| POD-EDIT-OLASUNI-20261126 | [Olasuni: A Hill, a Saint and a Living Fair](https://projectodisha.org/destinations/olasuni/) | completed | One original hill destination article with credited photograph; zero programme credit. |
 | POD-EDIT-MAKAR-SANKRANTI | [Makar Sankranti: A Bowl of Rice for the Sun and a Friend](https://projectodisha.org/stories/makar-sankranti/) | queued | article |
 | POD-EDIT-AGIRA-PURNIMA | [Agira Purnima: Which Way Will the Fire Lean?](https://projectodisha.org/stories/agira-purnima/) | queued | article |
