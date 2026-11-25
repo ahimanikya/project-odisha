@@ -127,8 +127,12 @@ test('Bhubaneswar delivery retains the source, photo URL, credits, both full fra
  assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace(caption,caption+' Full frame, resized and compressed for web delivery.').replace(otherCaption,otherCaption+' Full frame, resized and compressed for web delivery.'));
  const second=result.files.find(file=>file.path===otherAsset);assert.equal(second.status,'resized-and-compressed');assert.ok(second.saved_bytes>2400000);
  const secondOutput=await readFile(path.join(dir,otherAsset)),secondMeta=await sharp(secondOutput).metadata(),secondOriginal=await sharp(otherSource).metadata();
- assert.equal(second.settings,undefined);
- const unchangedSecond=await sharp(otherSource).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();assert.ok(secondOutput.equals(unchangedSecond));
+ assert.deepEqual(second.settings,{maximum_dimension:3072,quality:86,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ const previousSecond=await sharp(otherSource).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(previousSecond.length-secondOutput.length>600000);
+ assert.deepEqual(secondMeta.exif,(await sharp(previousSecond).metadata()).exif);
+ const unchangedFirst=await sharp(source).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:90,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(output.equals(unchangedFirst));
  assert.equal(secondMeta.width,3072);assert.equal(secondMeta.height,1728);assert.equal(secondMeta.width*secondOriginal.height,secondMeta.height*secondOriginal.width);
  assert.equal(secondMeta.orientation,secondOriginal.orientation);assert.equal(secondMeta.density,secondOriginal.density);
  for(const field of ['icc','iptc','xmp'])assert.deepEqual(secondMeta[field],secondOriginal[field]);

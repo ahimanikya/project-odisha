@@ -10904,6 +10904,43 @@
       "evidence": [
         "records/independent-article-images-20261126.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261126301",
+      "title": "Prepare Kula and the Work of Winnowing",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with separate Anvesha, Samanta and Drishti",
+      "authorization": "POD-DEC-20261126301",
+      "next_action": "Commit reviewed preparation and explicitly return the article slot; publication remains unauthorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126301",
+        "POD-REV-20261126301"
+      ],
+      "evidence": [
+        "records/antaranga-after-barunei-preparation-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112691",
+      "title": "Research, review and publish Olasuni",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112691",
+      "next_action": "Complete combined validation after preserving incoming publications, then hosted checks, deployment and actual reviewed receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112691"
+      ],
+      "evidence": [
+        "records/olasuni-publication-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16574,6 +16611,40 @@
       "scope": "Add suitable credited article, preview and sharing images to the previously authorized library and live collection.",
       "evidence": [
         "records/independent-article-images-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126301",
+      "title": "Prepare next original article after Barunei",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has Barunei’s final review record merged and the slot returned now? If so, prepare the next article on an uncovered Antaranga Kalinga topic with independent research and a credited image. Don’t copy their content.",
+      "scope": "One independently researched original article preparation with credited image; no website integration or publication.",
+      "refs": [
+        "POD-WORK-20261126301"
+      ],
+      "evidence": [
+        "records/antaranga-after-barunei-preparation-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112691",
+      "title": "Next uncovered hill after reviewed Kula preparation",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has the other chat returned the slot now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one uncovered hill destination with credited article and preview image.",
+      "refs": [
+        "POD-WORK-2026112691"
+      ],
+      "evidence": [
+        "records/olasuni-publication-20261126.json"
       ]
     }
   ],
@@ -26490,6 +26561,24 @@
       ],
       "independent": true,
       "summary": "All27 image choices cross-reviewed for subject, captions, rights and provenance; separate integration code review passed. Final rebuilt suites, package and live verification still pending. No human-specialist or field review claimed."
+    },
+    {
+      "id": "POD-REV-20261126301",
+      "title": "Kula separate source, photograph and integrated preparation review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261126301",
+        "POD-DEC-20261126301"
+      ],
+      "evidence": [
+        "records/antaranga-after-barunei-preparation-20261126.json"
+      ],
+      "summary": "Original draft, independently inspected sources, credited photograph and portable reading copy passed separate review. No public integration, responsive site or deployment review; no human specialist review claimed."
     }
   ],
   "releases": [

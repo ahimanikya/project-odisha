@@ -1,0 +1,231 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "date": "2026-11-26",
+  "scope": "Completed local package and frozen source continuity on badd853c plus the Olasuni working-tree candidate; not the subsequently announced origin/main reconciliation.",
+  "base": "badd853c76dc8cd55541fb913156856761072667",
+  "source_contract_sha256": "58a0955974125bb29bb92336831119cc4a5d16d6ce279bca6fd6463eed1b698e",
+  "source_hashes": {
+    "kb/research/places/olasuni-article.md": "bd3c87392a277df871de542cafc3d180636c7156e4d5264fd4f12c0252dee1a9",
+    "kb/research/places/olasuni-image.json": "b730621d0f4f3372867d3477a270a976ccf76d21dc8459849c948c799a8dc8df",
+    "projects/site/src/pages/destinations/olasuni.astro": "3ebe35d4936f78314bc26299c0508b453ab37fc9b49fdeda6bab1e32fd2055d0",
+    "projects/site/src/data/hill-destinations.ts": "e0d572b85cd8ec9cc702035b8c1a3062a4976e053a7ed5e02b03548cc8b17fc0",
+    "projects/site/src/pages/destinations/hills.astro": "959c2567da4caa442910d5fc1bf20280002dc04e47ccd77c543a73430939d85b",
+    "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
+    "projects/site/src/pages/explore.astro": "9d474d6e18fd805d55d1a2eba0788c83f74fa0e3f8eda969d0cc19db9cbdc175",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "ffd79a8d1499ae99be75961df851d5ebbf457f065002e0b0e61cdcb0826ca91b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "fde67fb09ebc4587369c3a275c5aa22880254601ea36f7edc7440072310fe35f",
+    "projects/site/tools/storage-copy.mjs": "d9a3047f458a7256375d6a697066bc0451b4e7ab8e51eb495489c6f8ddd1c37f",
+    "projects/site/tools/cow_copy.py": "924b5ba7ddc50aada98810789d24f9340cbda40acd022369db20ef90716dc79e",
+    "projects/site/tools/build-publication.mjs": "c668e4e0efba5286a6b825782c16cbad7e653caabb852cb4715cfda6b43b045c",
+    "projects/site/tools/prepare-search-review.mjs": "a13da9fa3cf2947539bb161d9588ed49d172bf3b382855f0c49f9eda18636281",
+    "projects/site/editions/coast.json": "9725536c1213010836659aaaa9447be276eea168f953d0587ac8745bb60c7707",
+    "projects/site/editions/responsive-images.json": "5d91f34819b229876f0d93d0d03982ef1ad7e546cf2ec85abd0f2f3e89e29f45",
+    "projects/site/editions/search-candidate.json": "1b2560281523e5de025b787f551a0be78924b718b51a9764964b1a41edc2e068",
+    "projects/site/tests/build.test.mjs": "d5fd52617842a821e2c96c3d4a09e43d065e93420a1cfe2a468e7fa4b415e133",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "8cca087a3dc8a5a3cfb5ff6925f8e4d99a9be7dea2ae42400d26b3fbd07a181e",
+    "projects/site/tests-coast/edition.test.mjs": "5ba7ab1e9e90850af9b6ea8c82ca113a9e76eab39c10aa3248f52a4d2771bfe4",
+    "projects/site/tests/publication-jpeg.test.mjs": "9f6812f614c57294400d443ce86859484f50da4bf2f1a8db037b195731d0bfa5",
+    "projects/site/public/images/destinations/olasuni-view-nathularog.webp": "abebc1bda3211c852a579d3aaad8faead05736106f6670f4f9532fab84cf2928"
+  },
+  "independent_execution": {
+    "method": "Ran reviewed verify-local.py through runpy under a non-main name, then called main directly; wrote only separate reviewer evidence. Separately enumerated actual package regular files and sizes. No build or browser was run.",
+    "report": "/private/tmp/olasuni-independent-package-verification.json",
+    "sha256": "a1bc0c00576b528699a5b0f117b1f07dfe74eddca23d763b1e26fce3438b7cea",
+    "checks": 20086,
+    "result": "PASS"
+  },
+  "payload": {
+    "bytes": 999088041,
+    "files": 3699,
+    "remaining_bytes": 911959,
+    "strict_limit_bytes": 1000000000,
+    "non_regular_entries": [],
+    "measurement": "Actual local filesystem, not a Linux prediction."
+  },
+  "build_evidence": {
+    "stages_passed": 13,
+    "full_tests": 833,
+    "coast_tests": 599,
+    "page_checks": 5504,
+    "disclosures": {
+      "full": {
+        "pages": 1518,
+        "violations": 0
+      },
+      "coast": {
+        "pages": 1503,
+        "violations": 0
+      },
+      "publication": {
+        "pages": 1504,
+        "violations": 0
+      }
+    },
+    "build_results_sha256": "ac40f8f148cc712c795b308d30e9ea88ac9240ad513b13ef3ad05fd85d42b335",
+    "root_verification_sha256": "eaaa522af9dc5a94a5c633f81499c8f9f908e52f3092724f26719b258c0eb152",
+    "attribution": "Root ran the builds and suites; reviewer read their completed evidence and independently reran artifact verification."
+  },
+  "article": {
+    "manuscript_sha256": "bd3c87392a277df871de542cafc3d180636c7156e4d5264fd4f12c0252dee1a9",
+    "fragment_sha256": "456a122b476f14bbf3018af671a4811710d901e4cbdca8942379689c4775f7db",
+    "exact_parity": [
+      "dist",
+      "dist-coast",
+      "dist-publish"
+    ],
+    "references": 7,
+    "unique_notes": 5,
+    "returns": 7,
+    "one_h1": true,
+    "public_robots": "noindex, follow",
+    "source_families": {
+      "ASI": 156,
+      "Tourism": 107,
+      "Committee": 181,
+      "TOI": 189,
+      "EcoTour": 137,
+      "Commons": 77
+    },
+    "finding": "Reviewed prose, native notes, source URLs, process disclosure, credited hero, sharing image and all three incoming cards remain wired to the frozen candidate. No new service or current-condition guarantee."
+  },
+  "media": {
+    "original_sha256": "66b0e1ab536d10e6e6aad7acfcea4ecd46809149601b62045f89e17356556e81",
+    "public_sha256": "abebc1bda3211c852a579d3aaad8faead05736106f6670f4f9532fab84cf2928",
+    "geometry": [
+      1440,
+      644
+    ],
+    "variant_geometry": [
+      [
+        480,
+        215
+      ],
+      [
+        960,
+        429
+      ],
+      [
+        1440,
+        644
+      ]
+    ],
+    "family_bytes": 618212,
+    "finding": "Actual source/base/variants verified. Full-frame article presentation and intentional preview crops retain the view-from-hill meaning. Creator Nathularog, January 2026 date and CC0 credit remain correct; no independent geolocation or named-river claim."
+  },
+  "capacity": {
+    "path": "assets/bhubaneswar-week/mentis-films.jpg",
+    "emitted_sha256": "573cf630eedded2e1616f72d39a60013775fa7c1c5804a816470e9a91bf3f63c",
+    "bytes": 665030,
+    "dimensions": [
+      3072,
+      1728
+    ],
+    "quality": 86,
+    "saving_against_reviewed_local_q95": 614533,
+    "finding": "Actual emitted JPEG hash equals independently reviewed and reproduced candidate. Viewed the actual emitted JPEG again. Source/full/coast originals, the separate conversations photograph and sharing illustration remain unchanged. Existing delivery disclosure and page differences are bounded by the verifier. ICC/XMP retained; EXIF equals prior q95 derivative, not original source. Lossy encoding is not pixel-identical."
+  },
+  "preservation": {
+    "protected_files": 88,
+    "manifest_sha256": "b4288e9cfd50a0a5d68b967629d8d96cfa1af487124215d73d7c338879f79b77",
+    "foreign_fields": [
+      "current_task",
+      "handoff_home",
+      "current_preparation"
+    ],
+    "dedicated_public_exclusions": [
+      "Kula route, exact opening and original image hash",
+      "Kaincha route, prose and original image hash"
+    ],
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373",
+    "finding": "All protected hashes and foreign pointers match. Latest pinned Dhaga PDF is exact in all three editions. Twenty-one frozen source hashes match throughout all thirteen stage records and current files."
+  },
+  "visual_review": {
+    "method": "Personally opened the listed saved screenshots and actual emitted Mentis JPEG using view_image. Browser actions belong to root, not this reviewer.",
+    "screenshots": [
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-desktop-hero-loaded.jpg",
+        "sha256": "bd94a0688804c7b8b26d5574e8fa8942d54ec6adcdd47578d4a4a02ef669c7e5",
+        "observation": "Settled desktop title, complete panoramic photograph and dated creator/licence caption."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-desktop-notes.jpg",
+        "sha256": "a27c89f70a999378c70295afd5c7a57821e6148d2a23312342fab00c5978860b",
+        "observation": "Notes 3–5 and reading paths; not evidence of the entire source list."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-hero.jpg",
+        "sha256": "efbc4a512bab9958db250be48b8d613aeed458e4da449fc0852a09606693c0db",
+        "observation": "Complete photograph and caption, title and opening text."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-body.jpg",
+        "sha256": "e17ca810c79c5d3d0e60d77517addc0332a40bdd3ce071b9e92cfb59a1d6d069",
+        "observation": "Readable middle prose; lower paragraph continues below the frame."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-source-heading.jpg",
+        "sha256": "36653617aa52fc78d61b17f4ff6ae37ca2ab01c4cf0ec25af9e880190bec49fd",
+        "observation": "Source heading and all five notes with return links."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-notes.jpg",
+        "sha256": "b6425dd04925a9063bba49b48884a05c2cd1a57fe8451049c7b99e1b05f88a65",
+        "observation": "Notes 4–5 and reading paths only."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-hills-preview.jpg",
+        "sha256": "5f8e4485a66e30f33bacabebfc5ab88e10ec900d83d6487cecd6dc0f85701d9a",
+        "observation": "Earlier partial preview with image top clipped; superseded for full-card acceptance."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-desktop-hills-card.jpg",
+        "sha256": "c513a3aa1a1d2d85c4a7c771fc38e9dfb93c4bd07736d7937696e84011f76180",
+        "observation": "Complete Olasuni card, recognizable cropped photograph, title and summary; credits disclosure is closed."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-hills-card.jpg",
+        "sha256": "8ed902032385f6adf67b8ef995ea2d60e0168a02512bd771db9f3fdbc94eae4e",
+        "observation": "Complete Olasuni card and closed credits disclosure."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-desktop-destinations-full-card.jpg",
+        "sha256": "33b69cef0d6b214d0f01f3d611107b99fe0b49882b237368edaf973bc848dbc9",
+        "observation": "Complete Olasuni photograph, title and summary within the destination grid."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-destinations-olasuni.jpg",
+        "sha256": "3c5ee1d82ce21fcea42476a708dadff05848a081485511150cf77ae2d3668809",
+        "observation": "Complete Olasuni card with photograph and summary."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-desktop-explore-card.jpg",
+        "sha256": "a23297714be665fddbb9c3f3a6450bd39ec74ec7f5ff34f55b180f00b9a2be02",
+        "observation": "Complete Olasuni card with Jajpur label, photograph, summary and entry link."
+      },
+      {
+        "path": "outputs/olasuni-publication-2026-11-26/screenshots/local-mobile-explore-card.jpg",
+        "sha256": "9ec920645a0f5c0303cb71bdca4649ea7ec1d6a2462fabba9f95da4c679f2d85",
+        "observation": "Complete Olasuni Explore card, photograph, Jajpur label, summary and entry link."
+      }
+    ],
+    "excluded_transient": "local-desktop-hero.jpg",
+    "finding": "No visible text clipping or overlapping layout in the accepted frames. Settled article image and caption are readable. Complete desktop/mobile cards are available for all three incoming surfaces. The earlier partial hills image is not used as full-card evidence.",
+    "root_actions": "Root reports clicking all three incoming links to the exact article and resetting the viewport. This is attributed evidence, not an independent interaction claim."
+  },
+  "governance": {
+    "observed_status": "implementation_in_progress",
+    "scope_released": false,
+    "next_slot": "Kula in the owning chat only after actual reviewed Olasuni receipt merge and explicit handoff.",
+    "programme_credit": 0,
+    "finding": "Current canonical record does not claim publication. Final root record integration and exact committed review remain separate."
+  },
+  "blockers": [],
+  "limitations": [
+    "This pass covers the completed local pre-reconciliation package only. Newly announced origin/main a8ec2c87a and PR873/875/876 require preservation review and combined verification.",
+    "Hosted exact-head CI, actual Linux payload, publication, deployment and fresh live delivery have not been accepted.",
+    "Screenshots show rendering only. Root owns native interactions; no independent keyboard, broad accessibility or live-browser audit is claimed.",
+    "Source limitations from the earlier source/media reports remain: EcoTour indexed original content only, devotional tradition attributed to its committee, photograph identity follows uploader description rather than independent geolocation.",
+    "No human review is claimed. Final receipt merge and scope handoff remain pending."
+  ]
+}
