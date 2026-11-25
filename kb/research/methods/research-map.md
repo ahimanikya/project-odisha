@@ -1595,3 +1595,12 @@ Tensa candidate extension, 24 November 2026: mapped `places/tensa-article` after
 ### Jhoti Chita preparation · 24 November 2026
 
 Reuse the [draft](../culture/jhoti-chita.md), [source dossier](../culture/jhoti-source-review-20261124.json) and [image provenance](../culture/jhoti-image.json). Scoped searches found existing festival mentions and the 2020 journal source, but no dedicated material-and-handwork narrative. The journal retains source ID `osha-jhoti-biswal-dash2020`; its earlier disputed boat interpretation remains excluded. An official overview and a dated named practitioner account supply distinct contexts. Antaranga is discovery only. The licensed photograph is an acquired official Commons preview; original-camera-file retrieval failed and no original-preservation claim is made. Three mapped records added; inventory1869. Preparation only, no public route or programme credit; no exhaustive semantic deduplication claim.
+
+
+### Nilagiri stone-utensils preparation · 25 November 2026
+
+Reuse the [draft](../culture/nilagiri-stone-utensils.md), [source dossier](../culture/nilagiri-utensils-source-review-20261125.json) and [image provenance](../culture/nilagiri-utensils-image.json). Scoped map and corpus searches found no dedicated utensils reading; the existing Bhubaneswar sculpture narrative remains distinct. Antaranga supplies discovery only. Directorate records and Mishra’s 2023 overview support the Nilagiri association; Utkalika describes making at Odisha-wide scope. No local process observation, precise mineral, origin, health or registration-outcome inference. The original interpretive illustration is not a documentary object photograph. Three mapped records added; inventory1874. Preparation only; no public route or programme credit, and no exhaustive semantic deduplication claim.
+
+### Gonasika destination extension · 25 November 2026
+
+Added one destination narrative after a scoped map and corpus search. District sacred accounts remain distinct from Water Resources river geography; existing Juang research retains its own scope. The credited Guptaganga photograph does not date the separate Brahmeswar shrine. Inventory:1875 records. Publication remains pending; zero programme credit.

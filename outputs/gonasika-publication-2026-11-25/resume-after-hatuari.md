@@ -1,0 +1,9 @@
+# Resume Gonasika after the temporary Hatuari correction slot returns
+
+The publication slot was explicitly yielded to Hatuari and accepted. Wait for its actual reviewed correction deployment/receipt completion and explicit return; PR860 at reported head486b06497c010bbf85188e40840793e8ef20d498 is not yet a completed receipt. Preserve Gonasika then Nilagiri ordering. No Gonasika PR, deployment or live verification exists.
+
+This is a local pre-correction checkpoint. All13 build stages and10795 artifact checks passed; local payload999133808bytes/3680files leaves866192bytes. No actual Linux measurement exists. Separate rendered/package review passed with release_ready=false; all17root captures inspected. Source/photo/static reviews and67protected preparation hashes remain valid. The preview server and local check processes are stopped.
+
+Before publication fetch/reconcile Hatuari’s actual completed receipt, preserving its corrected manuscript/test and records. Regenerate affected views and website outputs; prove removed Hatuari material stays absent. Recheck Gonasika article/photo/native notes and unchanged review contracts, actual package capacity and separate final/exact-commit review. Then candidate PR/required CI/merge, exact-merge deployment, fresh live/root browser and separate delivery review, evidence-only receipt with independent review/required CI/actual merge. Only then hand the slot to reserved Nilagiri chat. Do not describe this checkpoint as publication-ready.
+
+Current final review: review/rendered-package-review.json. Both initial local verifier failures and bounded corrections are retained in checks/. The verifier needs configured Node25 PATH. Public source/optimizer did not change during the temporary yield. Existing canonical record edits in this checkpoint predate the yield; coordination updates are local output evidence only.

@@ -1,0 +1,139 @@
+[
+  {
+    "stage": "full-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 108.04,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "full-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.33,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "full-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 22.96,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 117.2,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 36.03,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 11.55,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "coast-acceptance",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 15.77,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "coast-discovery",
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.54,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "search-review",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 36.58,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "launch-readiness",
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.81,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 811.72,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "publication-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 8.96,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  },
+  {
+    "stage": "search-shortlist",
+    "command": [
+      "python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.72,
+    "manuscript_sha256": "bbe65edc68f4c166c95e37adc6723b283165bd1703df2d448cd725305d9af270"
+  }
+]

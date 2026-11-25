@@ -10762,6 +10762,44 @@
       ]
     },
     {
+      "id": "POD-WORK-20261125301",
+      "title": "Prepare original Nilagiri stone-utensils article with credited illustration",
+      "category": "knowledge",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with separate Anvesha, Samanta and Drishti assignments",
+      "authorization": "POD-DEC-20261125301",
+      "next_action": "Deliver reviewed Nilagiri draft, credited illustration and publication brief; return slot to hill chat for its next separately authorized destination. No public integration authorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261125301",
+        "POD-REV-20261125301"
+      ],
+      "evidence": [
+        "records/antaranga-after-malayagiri-preparation-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112592",
+      "title": "Research, review and publish Gonasika",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112592",
+      "next_action": "Complete exact corrected-head review and required hosted CI, then authorized publication/live review and receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112592",
+        "POD-REV-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ]
+    },
+    {
       "id": "POD-WORK-20261125101",
       "title": "Correct Hatuari public attribution",
       "category": "publication",
@@ -16340,6 +16378,38 @@
       ],
       "evidence": [
         "records/malayagiri-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261125301",
+      "title": "Prepare original Antaranga-led article after Malayagiri",
+      "status": "recorded_direction",
+      "refs": [],
+      "evidence": [
+        "records/antaranga-after-malayagiri-preparation-20261125.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Now that Malayagiri’s release is complete, find another uncovered topic from Antaranga Kalinga, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+      "scope": "One independently researched original article preparation with credited image; no website integration or publication."
+    },
+    {
+      "id": "POD-DEC-2026112592",
+      "title": "Next uncovered hill after Nilagiri preparation",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has the other chat returned the slot now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one hill destination with credited article/preview image.",
+      "refs": [
+        "POD-WORK-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
       ]
     },
     {
@@ -26135,6 +26205,49 @@
         "Photo identity/date creator-supplied; no current access claim.",
         "Three existing delivery images differ in bytes/pixels, independently measured/viewed; no cause or pixel identity inferred. Screenshot framing limits retained."
       ]
+    },
+    {
+      "id": "POD-REV-20261125301",
+      "title": "Independent Nilagiri stone-utensils preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-20261125301",
+        "POD-DEC-20261125301"
+      ],
+      "evidence": [
+        "records/antaranga-after-malayagiri-preparation-20261125.json"
+      ],
+      "summary": "Separate source, originality, illustration and draft review passed. No human specialist approval, website integration or publication.",
+      "independent": true,
+      "limitations": [
+        "Directorate evidence independently inspected as original-domain indexed text; no downloaded or visually inspected Directorate PDF claimed.",
+        "Odisha Review title and relevant page visually inspected; the complete issue was not reviewed. Utkalika and AK original page text independently read.",
+        "Scoped novelty search is not exhaustive semantic deduplication.",
+        "No website layout, browser, live route, build, deployment or publication review applies to this preparation.",
+        "Shared completion-record reconciliation and local commit remain coordinator-owned subsequent gates."
+      ]
+    },
+    {
+      "id": "POD-REV-2026112592",
+      "title": "Gonasika source, media and implementation review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112592",
+        "POD-DEC-2026112592"
+      ],
+      "evidence": [
+        "records/gonasika-publication-20261125.json"
+      ],
+      "independent": true,
+      "summary": "Separate source/media/code, reconciliation and final rendered/package review passed. Exact corrected-head review and hosted/live gates remain. Not a human specialist review."
     },
     {
       "id": "POD-REV-20261125101",
