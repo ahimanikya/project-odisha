@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1382. blocked: 1, completed: 245, excluded: 872, queued: 264.
+Route inventory: 1382. blocked: 1, completed: 246, excluded: 872, queued: 263.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1400,7 +1400,7 @@ Route inventory: 1382. blocked: 1, completed: 245, excluded: 872, queued: 264.
 | POD-EDIT-BELGHAR-TUMUDIBANDHA-20261123 | [Belghar: Forest and a Wooden Bungalow](https://projectodisha.org/destinations/belghar-tumudibandha/) | completed | Hill and forest destination article with credited high-quality article/preview image; zero programme credit. |
 | POD-EDIT-KALINGA-GHATI-20261123 | [Kalinga Ghati: Through the Forested Pass](https://projectodisha.org/destinations/kalinga-ghati/) | completed | Research, review and publish hill destination with credited article/preview image; zero programme credit. |
 | POD-EDIT-KAPILESWAR-HATUARI-20261123 | [Kapileswar at Hatuari: What Do We Actually Know?](https://projectodisha.org/stories/kapileswar-hatuari/) | completed | Original sourced heritage article, provisional dating and licensed photograph; published and live verified, zero programme credit. |
-| POD-EDIT-ODIAHOMEPAGE-20261123 | [When Odisha Became a Homepage](https://projectodisha.org/stories/when-odisha-became-a-homepage/) | queued | Publish the author-approved text, ten original images and exact references; no prose rewrite; zero programme credit. |
+| POD-EDIT-ODIAHOMEPAGE-20261123 | [When Odisha Became a Homepage](https://projectodisha.org/stories/when-odisha-became-a-homepage/) | completed | Publish the author-approved text, ten original images and exact references; no prose rewrite; zero programme credit. |
 | POD-EDIT-BIRAKISHORE-20261123 | [Birakishore Das: Poems, Schoolbooks and the Young Reader](https://projectodisha.org/literature/birakishore-das/) | completed | Original independently sourced article and credited symbolic illustration, incoming links and responsive checks; zero programme credit. |
 | POD-EDIT-TENSA-20261124 | [Tensa: Hills, Iron Ore and a Community Camp](https://projectodisha.org/destinations/tensa/) | completed | Original destination article with credited article and preview image; zero programme credit. |
 | POD-EDIT-SAPTASAJYA-20261124 | [Saptasajya: A Shrine Among Wooded Hills](https://projectodisha.org/destinations/saptasajya/) | completed | Original hill destination article with credited article and preview image; zero programme credit. |
