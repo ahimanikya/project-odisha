@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "review_date": "2026-11-25",
+  "reviewer": "Anvesha, scoped source reviewer; no human specialist review claimed",
+  "scope": "Frozen preparation manuscript, matching reading copy, title/description, alt/caption, numbered notes and publication brief. No publication authorization or live verification asserted.",
+  "files": [
+    {"path":"kb/research/culture/nilagiri-stone-utensils.md","sha256":"7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed"},
+    {"path":"outputs/antaranga-after-malayagiri-2026-11-25/article.md","sha256":"89922f47b57074ca51dcaf6029e58b1963454307ea36995188c3f4f59420ce43"},
+    {"path":"outputs/antaranga-after-malayagiri-2026-11-25/publication-brief.md","sha256":"d1f718b87f7c71e0d982f4d32281e259fa099353e036a4ac6f95719833815653"},
+    {"path":"outputs/antaranga-after-malayagiri-2026-11-25/research/nilagiri-source-review.json","sha256":"f896cf3d1525a2fe6ee325d4bf6066fd48cc0137eee6532c145689c62f02dd21"}
+  ],
+  "parity": "Canonical body equals portable reading copy after frontmatter removal and normalization of the one WebP destination. No other body or note differences.",
+  "word_count_method": "Whitespace token count after Markdown destinations, emphasis and footnote markers removed. Identical canonical/portable body counted once. Shared title and source heading conservatively allocated to every family; repeated frontmatter title and description additionally counted. Brief full heading5 (punctuation-only dash excluded) + proposed title8 + preview label3 counted for every family. Administrative schema/tag values are not public derived prose. Internal frontmatter source-title labels additionally counted below despite not being visible prose. Editorial workflow instructions, own artwork provenance, credit and existing Project Odisha reading titles are source-independent.",
+  "source_family_allocations": [
+    {
+      "family":"nilagiri-utkalika-stone-carving",
+      "ceiling":200,
+      "components":{"process_and_interpretation_paragraph":77,"geographic_scope_sentence":5,"closing_form_observation":27,"opening_vessel_sentence":13,"article_title":8,"source_heading":3,"illustration_alt":8,"illustration_caption":14,"source_note":15,"frontmatter_title":8,"frontmatter_description":3,"brief_subject_and_title_and_preview_label":16,"internal_source_title_label":3},
+      "total":200,
+      "note":"This unusually conservative total charges the original closing observation and illustration form wording to Utkalika. Do not add process/form-derived captions, dek or preview sentences without a fresh allocation."
+    },
+    {
+      "family":"nilagiri-directorate-craft-records",
+      "ceiling":200,
+      "components":{"whole_opening_paragraph":48,"article_title":8,"source_heading":3,"source_note":27,"frontmatter_title":8,"frontmatter_description":3,"brief_subject_and_title_and_preview_label":16,"brief_administrative_notice_limit":22,"internal_source_title_label":8},
+      "total":143,
+      "note":"Cluster list, craft page and2022 EOI remain a single Directorate family. Entire lead is allocated although vessel framing is also charged to Utkalika."
+    },
+    {
+      "family":"nilagiri-mishra-review-2023",
+      "ceiling":200,
+      "components":{"whole_local_context_paragraph_including_utkalika_scope_sentence":54,"article_title":8,"source_heading":3,"source_note":18,"frontmatter_title":8,"frontmatter_description":3,"brief_subject_and_title_and_preview_label":16,"internal_source_title_label":12},
+      "total":122,
+      "note":"Full contextual paragraph allocated, including the separately supported Utkalika scope sentence."
+    }
+  ],
+  "claims_review": {
+    "result":"PASS",
+    "findings":[
+      "Nilagiri association is supported by the Directorate cluster row and administrative craft naming; no local manufacturing method is inferred from those records.",
+      "Turning/polishing on kunda/lathe and listed vessel forms come from directly inspected Utkalika original. Text explicitly gives Odisha-wide scope.",
+      "Figure-carving comparison stays within the same Utkalika account and does not claim mutually exclusive techniques or a complete tutorial.",
+      "Mishra2023 identifies Nilagiri with stone utensils; surrounding domestic-tool geography remains separate. The illustration is not the uncaptioned source photograph.",
+      "The note cites2022 only, avoiding the initially incorrect31August citation. Neither GI award nor current application status is claimed.",
+      "No quarry, mineral, maker, origin, workshop visit, export completion, health benefit, current workforce or decline assertion introduced."
+    ]
+  },
+  "originality": "Direct AK original article read for comparison. No translation, borrowed prose, imagery, narrative sequence, nostalgia/decline story or specific unsupported quarry claims used. Existing Bhubaneswar sculpture narrative is extended by the household-vessel subject, not duplicated.",
+  "quotation_check": "No quoted poem, song or source passage. Source titles, place names, named author and necessary craft term are attribution/identification.",
+  "media_check": {
+    "personally_viewed":"outputs/antaranga-after-malayagiri-2026-11-25/media/nilagiri-stone-utensils-1200.webp",
+    "sha256_from_preserved_media_record":"8ac780530a8262e6716b60bc00b63bac4e1a25fc8b12ed0e63b0e2194191bfae",
+    "finding":"Complete bowl and shallow plate visible; clearly interpretive watercolour treatment. Alt and caption fit visible content. Credit distinguishes illustration from documentary work. No source photo, specific maker, quarry or workshop identity claimed.",
+    "limit":"Shapes and grey washes are illustrative choices, not verified dimensions or a particular Nilagiri specimen. Media provenance and original byte checks are owned by Samanta; this review does not invent an authentic photographic reference."
+  },
+  "evidence_limits_retained": "Directorate notices/tables were inspected as indexed original extracts; original PDF download failed. Utkalika original HTML and Odisha Review PDF/title/relevant page are preserved internally. Museum PDF remains unrecovered and is unused; social video description was not treated as watched footage. No new research was needed for this frozen review.",
+  "scope_release": "Source audit complete. Reserved research scope released; no frozen manuscript, shared record, site or Git edits performed."
+}

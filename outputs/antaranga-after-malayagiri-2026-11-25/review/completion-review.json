@@ -1,0 +1,91 @@
+{
+  "status": "PASS_COMPLETION_RECORDS_READY_FOR_LOCAL_COMMIT",
+  "date": "2026-11-25",
+  "reviewer": "Drishti; separate AI review, not human specialist approval",
+  "scope": "Bounded completion-record consistency and preservation check; no repeated source research, image review, build or publication.",
+  "findings": [],
+  "checks": {
+    "delivery_hashes": {
+      "verified": 28,
+      "mismatches": []
+    },
+    "protected_preparation_hashes": {
+      "verified": 38,
+      "mismatches": []
+    },
+    "reviewed_content_hashes": {
+      "verified": 9,
+      "unchanged": true
+    },
+    "foreign_operations_fields_unchanged": [
+      "current_task",
+      "handoff_home",
+      "current_article",
+      "draft_preparation"
+    ],
+    "register_preservation": "All pre-existing register records remain equal to input base. Only one work, one decision and one review record added; all address Nilagiri preparation. No release entry or programme credit added.",
+    "events": "Activity is append-only against input base, with two new preparation events. Neither claims publication or completed handoff.",
+    "maps_and_catalogue": "Three scoped research-map entries and one draft catalogue entry added. Published routes are not created.",
+    "public_changes": "No diff in projects, tools, tests, editions or .github against input base.",
+    "whitespace": {
+      "full_staged_check": "Failed only on captured original Utkalika HTML whitespace; preserved exact source hash.",
+      "exception_path": "outputs/antaranga-after-malayagiri-2026-11-25/research/utkalika-stone-carving-original.html",
+      "exception_sha256": "d82fc6fbb3f49b5029f6811126b79769331475368e90342e0f8adb0aaa87c9f9",
+      "all_other_staged_paths": "PASS independently rerun"
+    }
+  },
+  "status_accuracy": "prepared_reviewed and completed/reviewed work describe a finished unpublished preparation. publication_authorized false, publication_status not_published, deployment_required false and programme_credit zero are consistent. Release is expressly conditional on reviewed local commit and explicit hill-chat handoff; neither is claimed complete.",
+  "source_budget": {
+    "utkalika": 200,
+    "directorate": 143,
+    "mishra": 122,
+    "limit": 200,
+    "note": "Values match the final independent source audit and integrated review. No additional source-derived wording allowed without recalculation."
+  },
+  "validation_evidence": "Read current checks.json and canonical validation. Root records catalogue1931, bundle8639, map1874, registers1397/873, team, programme and workbench passes. Those broader validators were not rerun in this bounded record review.",
+  "limits": [
+    "Local commit and actual explicit handoff remain pending. No publication authorized.",
+    "Prior content/media review limits remain unchanged, including indexed-only Directorate evidence and non-documentary illustration identity.",
+    "The report reviews current working-tree records; root must stage the finalized receipt/checks versions and this report before committing."
+  ],
+  "reviewed_sha256": {
+    "kb/catalog.json": "4179365232bfd09e226263a2d9a22df1938fed14871be88ac2580b2935d4a976",
+    "kb/media/nilagiri-utensils/nilagiri-stone-utensils-1200.webp": "8ac780530a8262e6716b60bc00b63bac4e1a25fc8b12ed0e63b0e2194191bfae",
+    "kb/media/nilagiri-utensils/nilagiri-stone-utensils-illustration.png": "624928180e493b22556e39ee6b37cf92c879e5decf12a2e7dea2c8871cf33afa",
+    "kb/records/antaranga-after-malayagiri-preparation-20261125.json": "df182055b4fd115fcfab354d0ab08caafe4e73c4d795a018a4a4b91bf8326bed",
+    "kb/registers/DASHBOARD.md": "43b228060fbacbb808711809affec9c0db1c8a5088327d1bb6a33dcdd5693c2c",
+    "kb/registers/activity.jsonl": "558725e2d8142477ed3b5f1f7647092b9286c46f5ae2d1665374b4bd67f3b515",
+    "kb/registers/records.json": "663d6e3f9e3d37526b79595219645e48d7439b35534a1f30d72bdd42a06f6081",
+    "kb/research/culture/nilagiri-stone-utensils.md": "7c300d0ae2316e4ef33f621be197ed5fd1615157eddb454c1e7469790edddbed",
+    "kb/research/culture/nilagiri-utensils-image.json": "a389a1168feab69e2ebc98e9fb9ccb2f4fdfb0746834b46d11016c664b8c0a3e",
+    "kb/research/culture/nilagiri-utensils-source-review-20261125.json": "f896cf3d1525a2fe6ee325d4bf6066fd48cc0137eee6532c145689c62f02dd21",
+    "kb/research/methods/research-map.md": "6af609a7b7a2eee06406796828eea5dcb373a813b9fc86c1db1e5da6c8601909",
+    "kb/research/references/data/research-map.json": "75ab500f464e41cacbde96496bc84d742e2e56820cd3b121bd69205b6d2559ff",
+    "kb/team/operations.json": "60cd77ebf61f4b5c9fc6487701ee49586fc6511d790e30d2f537746fb91cab73",
+    "outputs/antaranga-after-malayagiri-2026-11-25/article.md": "89922f47b57074ca51dcaf6029e58b1963454307ea36995188c3f4f59420ce43",
+    "outputs/antaranga-after-malayagiri-2026-11-25/checks.json": "e6aedf22f0c72acea09dcecc263df329f53aa074a84f9627f383ff168d3ee4ac",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/candidate-original.jpg": "be44f7ec1495b4c1e6514d38c6582e1fe2a8e6ba2c0eead297de24c78b37af66",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/commons-related-objects.json": "18868a4a196373c7d578320816a5e0833a306ee70cc543a9feb1ddad209c74b4",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/commons-stone-carving-nilagiri.json": "3ac9ae776b3a6832fdec0f570dbaede880570e7e46f339bcaec73396ce73c170",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/feasibility.json": "9e3bdd9ba842fa83f4ee59ce6ca1e4b7da87df1042d60283e908010af458eef7",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/image-generation.json": "755608b1500f80ee4369ebb207c6748a435c6131a696b06aae89f2a4af534939",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/museum-candidate-preview.jpg": "e3c8fe01922655802bd622f50838e96e83968c12c51f8621221ca52b6064f505",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/nilagiri-stone-utensils-1200.webp": "8ac780530a8262e6716b60bc00b63bac4e1a25fc8b12ed0e63b0e2194191bfae",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/nilagiri-stone-utensils-illustration.png": "624928180e493b22556e39ee6b37cf92c879e5decf12a2e7dea2c8871cf33afa",
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/prompt.txt": "08dc0750ed9885b89dc96bdf303099ef220e71f9cbee4d3263c767944435fecd",
+    "outputs/antaranga-after-malayagiri-2026-11-25/preserved-preparation.json": "d0f8d6cc6de92e18d6363830f89e689f8fb6c9a733793ffec8429381a3cf44b1",
+    "outputs/antaranga-after-malayagiri-2026-11-25/publication-brief.md": "d1f718b87f7c71e0d982f4d32281e259fa099353e036a4ac6f95719833815653",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/draft-source-audit.json": "ddbbd83d7e7a40e784bec1edee488202a3e0fdb94dba51e1a023df261d38ab00",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/final-source-audit.json": "0d7973b1fb63b10a789aae04ff15a65bc00e010c2b90a70bd786a7e56381c430",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/nilagiri-source-review.json": "f896cf3d1525a2fe6ee325d4bf6066fd48cc0137eee6532c145689c62f02dd21",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/odisha-review-2023-p24-title.png": "999e58d2b5a233dff2ddd3bc02e217859292c4ff67952397c1685cdfeb3ba4fe",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/odisha-review-2023-p30-inspected.png": "38058b7c7d3c2a6c37ee386726e720b4b323c21b0c61a549e807520686e57517",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/odisha-review-november2023-original.pdf": "22e7859ad48581c7e89fdf8a090292b7353a289e88ff4c2b6d4c987eb21dd6c6",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/root-topic-screen.json": "31b6c00fdb0fe8ec11d7c61ffa337595e8080cf4f6bf2712ebe407bcfc0e36d7",
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/utkalika-stone-carving-original.html": "d82fc6fbb3f49b5029f6811126b79769331475368e90342e0f8adb0aaa87c9f9",
+    "outputs/antaranga-after-malayagiri-2026-11-25/review/integrated-review.json": "37435f5a36df80f3de27a1fd3624a8866c9d9a89c44ef464a841ffc9552e2841",
+    "outputs/antaranga-after-malayagiri-2026-11-25/review/preliminary-review.json": "f1d1396aa90c93d51960c56c7559aa68f32ab120e3a6580ed3e08ef166b62f15"
+  },
+  "integrated_review_sha256": "37435f5a36df80f3de27a1fd3624a8866c9d9a89c44ef464a841ffc9552e2841",
+  "scope_release": "Completion review finished. Reviewer scope released; coordinator retains the commit and handoff gates."
+}
