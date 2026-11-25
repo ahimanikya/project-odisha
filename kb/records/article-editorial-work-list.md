@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1385. blocked: 1, completed: 247, excluded: 872, in_progress: 1, queued: 264.
+Route inventory: 1386. blocked: 1, completed: 247, excluded: 872, in_progress: 1, queued: 265.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1409,3 +1409,4 @@ Route inventory: 1385. blocked: 1, completed: 247, excluded: 872, in_progress: 1
 | POD-EDIT-GONASIKA-20261125 | [Gonasika: A Hill Source and a River’s Journey](https://projectodisha.org/destinations/gonasika/) | completed | Original hill destination article with credited article and preview image; zero programme credit. |
 | POD-EDIT-GARBHANA-SANKRANTI | [Garbhana Sankranti: When the Paddy Is Expecting](https://projectodisha.org/stories/garbhana-sankranti/) | queued | article |
 | POD-EDIT-NILAGIRI-UTENSILS-20261125 | [Nilagiri’s Stone Utensils: A Craft for the Table](https://projectodisha.org/stories/nilagiri-stone-utensils/) | in_progress | article |
+| POD-EDIT-AKHI-MUTHI-ANUKULA | [Akhi Muthi Anukula: The First Handful of Seed](https://projectodisha.org/stories/akhi-muthi-anukula/) | queued | article |

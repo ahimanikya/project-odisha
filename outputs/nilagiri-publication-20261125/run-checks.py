@@ -27,6 +27,7 @@ descriptor=json.loads((ROOT/'projects/odia-dhaga/pdf-delivery.json').read_text()
 pdf=ROOT/'projects/odia-dhaga/odia-dhaga-book.pdf'
 assert pdf.stat().st_size==descriptor['bytes'] and hashlib.sha256(pdf.read_bytes()).hexdigest()==descriptor['sha256'], 'Hydrate exact reviewed Dhaga PDF before builds'
 bound_paths=['projects/site/src/pages/stories/nilagiri-stone-utensils.astro','projects/site/src/pages/stories/craft-listening.astro','projects/site/src/pages/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore.astro','projects/site/src/pages/destinations/[slug].astro','projects/site/tools/optimize-publication-jpeg.mjs','projects/site/tools/storage-copy.mjs','projects/site/tools/cow_copy.py','projects/site/tools/build-publication.mjs','projects/site/tools/prepare-search-review.mjs','projects/site/editions/coast.json','projects/site/editions/responsive-images.json','projects/site/editions/search-candidate.json']
+bound_paths+=['projects/site/src/data/discovery.ts','projects/site/src/pages/stories/akhi-muthi-anukula.astro','projects/site/src/pages/stories/the-year-that-feeds-us/index.astro','kb/research/culture/akhi-muthi-anukula.md','projects/site/tests/build.test.mjs','projects/site/tests-coast/discovery-flow.test.mjs','projects/site/tests-coast/edition.test.mjs']
 source_hashes={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in bound_paths}
 source_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 start=int(env.get('NILAGIRI_START_STAGE','0'))
