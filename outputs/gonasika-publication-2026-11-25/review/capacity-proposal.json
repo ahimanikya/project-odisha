@@ -1,0 +1,171 @@
+{
+  "status": "PROPOSAL_READY_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-11-25",
+  "input_head": "cd027f4327423f84b5278fc7509fcab57ae45b2a",
+  "scope": "Only this report written in project; comparison derivatives in private temporary folder. No optimizer/site/source mutations.",
+  "baseline": {
+    "actual_linux_payload_bytes": 999907903,
+    "remaining_bytes": 92097
+  },
+  "selected": {
+    "path": "assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
+    "route": "/stories/sakhi-nata-and-sakhi-pila/",
+    "source_bytes": 7129541,
+    "source_sha256": "4bea00407654109672b7ba747ec9a1ae842974931642233a1c59ca6cebbba420",
+    "current_bytes": 2223058,
+    "current_sha256": "9bb7ef5f0603cd65db32025fb97fdd4ac1f2f4ece1eceba6ff6009095b536a3c",
+    "current_emitted_byte_match": true,
+    "candidate_file": "/private/tmp/gonasika-capacity/mardala-1728-q95.jpg",
+    "candidate_bytes": 1088597,
+    "candidate_sha256": "4f1ad44a4a9bcecd14d47410e58571120935b7a93928e301dd656cbccbb3b8a1",
+    "saving_bytes": 1134461,
+    "source_dimensions": [
+      2716,
+      3024
+    ],
+    "current_dimensions": [
+      2716,
+      3024
+    ],
+    "candidate_dimensions": [
+      1552,
+      1728
+    ],
+    "orientation": [
+      1,
+      1
+    ],
+    "density": [
+      72,
+      72
+    ],
+    "metadata": {
+      "icc": {
+        "source_bytes": 0,
+        "candidate_bytes": 0,
+        "equal": true
+      },
+      "iptc": {
+        "source_bytes": 118,
+        "candidate_bytes": 118,
+        "equal": true
+      },
+      "xmp": {
+        "source_bytes": 4158,
+        "candidate_bytes": 4158,
+        "equal": true
+      }
+    },
+    "exif": {
+      "source_bytes": 1016,
+      "current_bytes": 1016,
+      "candidate_bytes": 1016,
+      "note": "No all-EXIF preservation claim; original unchanged. Inspect changed tags independently before acceptance."
+    },
+    "settings": {
+      "maximum_dimension": 1728,
+      "quality": 95,
+      "chromaSubsampling": "4:4:4",
+      "mozjpeg": true,
+      "preserve_metadata": true
+    },
+    "source_copies": {
+      "../../kb/research/media/sakhi-nata/mardala.jpg": {
+        "bytes": 7129541,
+        "sha256": "4bea00407654109672b7ba747ec9a1ae842974931642233a1c59ca6cebbba420",
+        "source_equal": true
+      },
+      "public/assets/sakhi-nata-and-sakhi-pila/mardala.jpg": {
+        "bytes": 7129541,
+        "sha256": "4bea00407654109672b7ba747ec9a1ae842974931642233a1c59ca6cebbba420",
+        "source_equal": true
+      },
+      "dist/assets/sakhi-nata-and-sakhi-pila/mardala.jpg": {
+        "bytes": 7129541,
+        "sha256": "4bea00407654109672b7ba747ec9a1ae842974931642233a1c59ca6cebbba420",
+        "source_equal": true
+      },
+      "dist-coast/assets/sakhi-nata-and-sakhi-pila/mardala.jpg": {
+        "bytes": 7129541,
+        "sha256": "4bea00407654109672b7ba747ec9a1ae842974931642233a1c59ca6cebbba420",
+        "source_equal": true
+      }
+    },
+    "pixels": {
+      "lossless": false,
+      "mse": 3.2169214156166475,
+      "psnr_db": 43.05639908974615,
+      "maximum_channel_error": 20,
+      "reference": "Original resized with same transform to candidate geometry; RGB comparison against candidate decode."
+    },
+    "page": "stories/sakhi-nata-and-sakhi-pila/index.html",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg"
+  },
+  "feasibility": {
+    "new_source_jpeg": 413538,
+    "variants": [
+      {
+        "width": 480,
+        "bytes": 70568
+      },
+      {
+        "width": 960,
+        "bytes": 246396
+      },
+      {
+        "width": 1280,
+        "bytes": 395778
+      }
+    ],
+    "new_photo_total": 1126280,
+    "headroom_after_optimization": 1226558,
+    "remaining_before_html": 100278,
+    "limit": "Local deltas plus prior Linux baseline are projection only; actual local and hosted strict gates required."
+  },
+  "rights": {
+    "creator": "Prateek Pattanaik",
+    "date": "2023-10-10",
+    "source": "https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg",
+    "license": "CC BY-SA4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": "kb/research/media/sakhi-nata/provenance.json and article source note; existing verified rights reused, no fresh remote claim."
+  },
+  "implementation_if_accepted": {
+    "files": [
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs"
+    ],
+    "change": "Only Mardala existing entry maximum_dimension1728,quality95 and existing updateShareDimensions:true; no new paths or optimizer design. Other entries unchanged.",
+    "sharing": "Orientation1 existing guard can validate2716x3024 and emit1552x1728. SameURL; retain source figure dimensions and all other HTML.",
+    "caption": "Existing unique reproduced without alteration. guard/disclosure remains; creator/source/licence/date and sentence explaining instrument rather than troupe performance remain.",
+    "validation": "Actual source/candidate geometry, original preservation, exact caption+OG-only HTML transform, retained metadata, all other JPEG regression coverage, actual package gates and live encoding review."
+  },
+  "alternatives": [
+    {
+      "maximum_dimension": 2048,
+      "saving": 779626,
+      "decision": "Insufficient for exact new photo package."
+    },
+    {
+      "maximum_dimension": 1920,
+      "saving": 924864,
+      "decision": "Insufficient."
+    },
+    {
+      "maximum_dimension": 1800,
+      "saving": 1057852,
+      "remaining_before_html": 23669,
+      "decision": "Too little HTML margin."
+    }
+  ],
+  "visual_review": {
+    "status": "IMPLEMENTER_VIEWED_BOTH",
+    "files": [
+      "/private/tmp/gonasika-capacity/mardala-1728-fullframe.png",
+      "/private/tmp/gonasika-capacity/mardala-1728-detail.png"
+    ],
+    "order": "Original/current/candidate left to right; review detail crop only, delivery full frame.",
+    "required": "Root and separate Drishti accept framing, drum surface and lacing details; then bounded implementation reservation. Lossy, not pixel-identical.",
+    "finding": "Full source frame retained at matched display scale. Drum rim, concentric head, lacing and background label remain legible, with no conspicuous new blocking or colour shift. Lossy resampling is not pixel equivalence; independent review remains required."
+  }
+}

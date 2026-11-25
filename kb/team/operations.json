@@ -55,13 +55,12 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-MALAYAGIRI-20261125",
-    "route": "/destinations/malayagiri/",
+    "id": "POD-EDIT-GONASIKA-20261125",
+    "route": "/destinations/gonasika/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/malayagiri-publication-20261125.json",
-    "scope_released": true,
-    "release_condition": "Only after reviewed evidence-only receipt merges with required CI."
+    "phase": "implementation_review",
+    "handoff": "records/gonasika-publication-20261125.json",
+    "scope_released": false
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -851,11 +850,29 @@
       "status": "published_verified",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then returns to the coordinating hill chat; no next article is claimed here.",
       "next_action": "Complete reviewed receipt merge before explicit slot handoff."
+    },
+    {
+      "id": "POD-EDIT-MALAYAGIRI-20261125",
+      "route": "/destinations/malayagiri/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/malayagiri-publication-20261125.json",
+      "scope_released": true,
+      "release_condition": "Only after reviewed evidence-only receipt merges with required CI."
     }
   ],
   "next_article_coordination": {
-    "status": "malayagiri_receipt_pending",
-    "evidence": "records/malayagiri-publication-20261125.json",
-    "scope": "No next article claimed. The current slot releases only after reviewed receipt merge."
+    "status": "gonasika_active_nilagiri_reserved",
+    "evidence": "records/gonasika-publication-20261125.json",
+    "scope": "Nilagiri publication follows actual reviewed Gonasika receipt merge and explicit handoff."
+  },
+  "current_preparation": {
+    "id": "POD-EDIT-NILAGIRI-UTENSILS-20261125",
+    "owner": "Disha",
+    "phase": "preparation",
+    "handoff": "records/antaranga-after-malayagiri-preparation-20261125.json",
+    "scope_released": true,
+    "status": "prepared_reviewed",
+    "topic": "Nilagiri stone utensils"
   }
 }

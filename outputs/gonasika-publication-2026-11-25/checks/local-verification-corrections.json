@@ -1,0 +1,17 @@
+{
+  "failures_preserved": [
+    "checks/local-verification-node18-failure.json",
+    "checks/local-verification-html-failure.json"
+  ],
+  "corrections": [
+    {
+      "issue": "Verifier invoked system Node18, incompatible with current sharp import syntax.",
+      "resolution": "Reran unchanged article/package with configured Node25 PATH; no dependency or implementation change."
+    },
+    {
+      "issue": "Verifier expected whole-page equality without existing publication crawler and shared journey JSON transformations.",
+      "resolution": "Verified existing build-publication/shared-journey-data implementation. Added exact single robots replacement plus exact decoded external JSON/hash/envelope checks before requiring whole-page equality. No broad normalization and no website change."
+    }
+  ],
+  "scope": "Local verification helper only; publication remains deferred pending Hatuari receipt reconciliation."
+}
