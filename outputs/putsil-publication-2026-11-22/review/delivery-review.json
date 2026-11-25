@@ -1,0 +1,112 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "pass",
+  "reviewed_at": "2026-11-22T01:00:08.690588+00:00",
+  "scope": "Putsil live delivery and evidence-only receipt candidate before final review integration and commit",
+  "publication_head": "09223698d5d7ef001b5ad3842a89bd48c93e28e2",
+  "publication_merge": "ba22da7550bcb8b68d1ca9587f88c29c43d0822c",
+  "independent_release_checks": {
+    "pr": 818,
+    "state": "MERGED",
+    "ci_run": 44964884798,
+    "ci_conclusion": "success",
+    "deployment_run": 44966663495,
+    "deployment_conclusion": "success",
+    "deployment_source_matches_merge": true,
+    "full_tests": 821,
+    "coastal_tests": 597,
+    "ci_and_deployment_payload_bytes": 998817872,
+    "strict_payload_limit_bytes": 1000000000,
+    "disclosure_page_counts": {
+      "full": 1490,
+      "coast": 1475,
+      "publication": 1476
+    },
+    "method": "Direct read-only GitHub PR/run API and release logs."
+  },
+  "independent_live_checks": {
+    "verified_routes": [
+      "/destinations/putsil/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "all_http_status": 200,
+    "single_article_h1": true,
+    "native_reference_and_return_targets": 10,
+    "all_targets_resolve": true,
+    "ids_unique": true,
+    "sharing_image_matches": true,
+    "three_incoming_routes_have_article_link_and_photograph": true,
+    "article_sha256": "f84eacfc2fb43ddc2302ea7211274679b60ac2f10c611a9f71f7f52870136689",
+    "local_article_sha256": "c6b3f07b440cc63cd6839f5af8319cfb90c09a03d94a69efb2d40aa7c3d1c290",
+    "normalized_article_matches": true,
+    "normalization": "Only /images/responsive/<16 lowercase hex digits>-<width>.webp filenames. Every responsive file referenced in the article was fetched and its SHA-256 prefix checked.",
+    "original_jpeg": {
+      "bytes": 342803,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "489e49204d2aa6dafbdfc5726b4fbc48d11e85fb5d6d3ad763d07475a8a30bd0",
+      "matches_reviewed_asset": true
+    },
+    "putsil_unique_responsive_dimensions": [
+      [
+        480,
+        270
+      ],
+      [
+        960,
+        540
+      ],
+      [
+        1440,
+        810
+      ]
+    ],
+    "all_article_responsive_files_checked": 9,
+    "responsive_scope": "Three Putsil variants shared by hero and Further reading card, plus six Deomali/Daringbadi Continue reading variants. All filename hash prefixes verified; Putsil widths match descriptors and 16:9 geometry.",
+    "method": "Fresh HTTPS reads, in-memory image decoding and hashes, HTML parsing and narrow normalization."
+  },
+  "screenshot_review": {
+    "status": "pass",
+    "files": [
+      "live-desktop.jpg",
+      "live-mobile.jpg",
+      "live-footnotes.jpg",
+      "live-preview.jpg"
+    ],
+    "capture_owner": "Disha",
+    "independent_action": "Drishti visually inspected all four saved live screenshots.",
+    "observed": "Readable desktop/mobile title, Founder byline, full-frame Putsil photograph and licence caption; actual four-note mobile list with returns; Putsil preview photograph, title and summary. No visible clipping issue in inspected views.",
+    "interaction_attribution": "Keyboard note/return, focus, reciprocal navigation, loaded image measurements and overflow checks are Disha browser observations, not interactions independently repeated by Drishti."
+  },
+  "receipt_review": {
+    "status": "pass",
+    "website_source_changes": false,
+    "programme_credit": 0,
+    "deployment_required": false,
+    "brass_fish_files_preserved": 10,
+    "foreign_comparison_base": "ba22da7550bcb8b68d1ca9587f88c29c43d0822c",
+    "foreign_current_task_unchanged": true,
+    "activity_history_exact_byte_prefix": true,
+    "existing_register_records_preserved_except": [
+      "POD-WORK-2026112295"
+    ],
+    "new_active_article_count": 0,
+    "scope_release": "Conditional on separately reviewed receipt merge; Mandasaru remains queued.",
+    "brass_exclusion": "Prior independent coastal/final marker, path and original-photo-hash scans passed; website source remains the reviewed publication merge.",
+    "prior_package_report": "Disha transcription in drishti-release-check.md accurately preserves the earlier read-only report and its historical pending gates.",
+    "reason_no_deployment": "Receipt changes internal records and captured evidence only."
+  },
+  "required_fixes": [],
+  "remaining_gate": "Coordinator may integrate this accurately attributed review, append its actual review event, regenerate views, commit the receipt, pass required exact-head checks and merge it before opening the next article.",
+  "limits": [
+    "Separate AI review, not human specialist approval or on-site verification.",
+    "Screenshots do not certify physical-device, screen-reader or cross-engine behavior.",
+    "Final receipt commit, its checks and merge remain pending at this review point.",
+    "Brass-fish exclusion is a scoped marker and original-byte check, not perceptual detection of every transformed photograph."
+  ]
+}

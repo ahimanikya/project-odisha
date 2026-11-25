@@ -1,0 +1,44 @@
+{
+  "reviewer": "Drishti, separate AI subagent",
+  "human_review_claimed": false,
+  "reviewed_head": "6f64e2068a6844ef7936cdaa37433d32ce7fa372",
+  "result": "scoped_review_pass_release_gates_pending",
+  "scope": "Approved memoir fidelity, article presentation, image delivery mapping, imported main preservation and count correction review.",
+  "checks": {
+    "approved_text": "Canonical manuscript matches author-approved source after reversing frontmatter and image-URL representation. Latest coastal HTML independently preserves 51 prose/reference/caption blocks, plus title and two section headings.",
+    "references": "All eight approved source hyperlinks retain exact labels and targets. Approved reference structure retained without footnote rewriting.",
+    "images": "All ten repository image originals remain byte-identical to approved supplied assets and retain their displayed order. Eight visible caption groups preserved, including the two pairs sharing captions.",
+    "archive_delivery": "All ten article image URLs now use https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/. Root-provided archive-live-verification.json records HTTP 200 and hashes matching every approved original; this reviewer compared those hashes to provenance, without claiming a separate network fetch.",
+    "asset_containment": "Independently inspected latest dist-coast article: ten archive image references and eight captions. Only image3.jpg remains in the local odia-homepage output folder for metadata and discovery/reading previews; the other originals remain preserved in source.",
+    "layout": "Previously reviewed five desktop/mobile screenshots show readable spacing, wrapped notes and visible archive reading path. Image dimensions independently matched actual source dimensions; normal article images preserve native aspect ratio and size. Image-host substitution changes URLs, not layout rules.",
+    "imported_changes": "Nonowned files imported from main match 553786bccb8e1502ea02d453d67cd836e02e853c. Route inventories equal upstream plus the memoir route; rollout preserves upstream entries plus the memoir entry. Kapileswar content and other ownership remain intact.",
+    "count_corrections": "Reviewed all four count expression corrections in 6f64e206: full-page count base 183 and discovery base 166 in all three expressions. These account for both independently added articles and resolve the coalesced merge increment.",
+    "scope": "No prose rewriting, unused image insertion, unrelated source changes or premature publication completion found."
+  },
+  "validation_evidence": {
+    "independently_observed": "Bundle and rollout structural checks passed during reconciliation. Latest coastal HTML text, source links, image URLs, caption count and local image containment independently checked.",
+    "coast_page_sha256": "c5715a1610ec02ac3059c1693511119306ab856acca8f50e37d5ebcb1b445879",
+    "coast_tests": {
+      "passed": 599,
+      "total": 599,
+      "basis": "Root-reported current local result; not independently rerun by reviewer"
+    },
+    "ci": {
+      "run_id": 45162650583,
+      "status_at_handoff": "running",
+      "basis": "Root-provided current handoff"
+    },
+    "publication_packaging": "Still running at handoff; no current payload-capacity pass claimed."
+  },
+  "limitations": [
+    "Desktop/mobile visual review used five sampled screenshots, not every image or browser engine.",
+    "Root-provided viewport overflow observations and network fetch evidence are distinguished from independent source/rendered-HTML inspection.",
+    "No independent inspection of original email mailboxes or historical factual verification claimed.",
+    "No successful main-site publication or live-article verification claimed."
+  ],
+  "release_conditions": [
+    "Required CI must pass for the exact reviewed head, or any subsequent changes must receive scoped reconciliation.",
+    "Current final publication package must pass payload capacity and disclosure gates; do not use stale dist-publish output.",
+    "Publish the reviewed source through the authorized main workflow, then verify the live article, all ten delivered original images, captions, source links and discovery/reading links before marking complete."
+  ]
+}

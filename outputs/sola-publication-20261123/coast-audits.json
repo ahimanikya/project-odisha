@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0
+  }
+]

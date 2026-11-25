@@ -1,0 +1,5 @@
+Records the completed Birakishore Das publication, credited illustration, three incoming reading links and actual desktop/mobile delivery checks. The article is live at https://projectodisha.org/literature/birakishore-das/ from publication PR 849, merge `54e779cf18755f8ef35b99ef327ddb51e929cf0b` and successful deployment `45346733610`.
+
+Separate delivery review verified five routes, six image files and 15 screenshots. The new article and both illustration files match the reviewed package. Two existing image encodings differ from local output; measurements, visual acceptance and original captures are retained without asserting pixel identity or a cause. Required publication CI attempt 1's external HTTP 403 is retained; the unchanged second attempt passed. Actual deployed payload is 998,950,813 bytes across 3,655 files.
+
+This evidence-only change preserves public source/code, preparation originals, memoir and foreign Kala Bhoomi ownership. Record consistency checks pass; no additional deployment is required. The publishing slot returns explicitly for Tensa only after this reviewed receipt merges with required checks. Zero programme credit.

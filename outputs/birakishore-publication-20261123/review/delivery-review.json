@@ -1,0 +1,192 @@
+{
+  "reviewer": "Drishti",
+  "kind": "Separate AI agent review",
+  "status": "PASS_LIVE_DELIVERY_WITH_EXPLICIT_IMAGE_DIFFERENCES",
+  "reviewed_at_utc": "2026-11-24T07:59:48.906295+00:00",
+  "deployment": {
+    "run_id": 45346733610,
+    "attempt": 1,
+    "head": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+    "status": "completed",
+    "conclusion": "success",
+    "verification": "Independently queried GitHub run attempt API; matches saved deployment metadata and exact reviewed merge tree.",
+    "actual_payload_bytes": 998950813,
+    "actual_regular_files": 3655
+  },
+  "evidence_hashes": {
+    "hosted/deployment-attempt1.json": "34bc378a13f048813cf1b7a4fd1c4a430178ec8a0d438b19e5c3ccae96d6d151",
+    "hosted/deployment-attempt1.log": "ece23e30477c84e9123907da80a556b430a9bcc9415413d36c9c71d72b301711",
+    "live/browser/observations.json": "90c2f9c813908bed892695628a4ee99a8f6b3b6ba600fcd674edd64c8b6165bb",
+    "live/browser/verification.json": "c419c92e7e600eb66e64def7d4aecb699fc4df00c11236793a419e2dcf957e4b",
+    "live/delivery-20261124T074845Z/http.json": "8aa24972542a0d8f243894802a20bc63bc4f59e7148dcc8e261dd7454ed8fc86",
+    "live/comparison/fragment-and-fetch.json": "f191cb3eadce7d2ef41d37997492fefa24862d8a9898fe770b6aea927ec33d4d",
+    "live/comparison/image-comparison.json": "825d4ab2cefb1ca687c911da5819bcf44fcc62d60f7c06ac3b9644cf74edcfa2",
+    "live/comparison/met-painting-local-left-live-right.png": "6be549d16cd69963c87c764b45fcf01a0f6fed77116c8b01db5d51623a182f40",
+    "live/comparison/manuscript-1440-local-left-live-right.png": "a117be736a7a43708df722691daea92cad2ebc31f05ea8b3661edc303ea36879",
+    "review/fresh-live/independent-metrics.json": "147343b0b75a23b75b7da462f12189f5ae0f38d9b9076559554273be1b37ccb6",
+    "review/fresh-live/8b030c3b48acd32f-1440.webp": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+    "review/fresh-live/odia-manuscript.webp": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812",
+    "review/fresh-live/met-detail.png": "b9ae76b78849100553eeeff0a67f65071591237d6198eb46c5242e896575fb63",
+    "review/fresh-live/manuscript-detail.png": "168a0f4b9ee33fdf486638629e94ccf6f4dd103a541529a2850d102fceeaf054",
+    "review/fresh-live/route-1.html": "ddda10ce516c931a45919fc1bf87a8d8e6fa799b53223523e2c0f73bf1361606",
+    "review/fresh-live/f47ed4da2e7f4407-960.webp": "f47ed4da2e7f44076ad30b15296fa396d5164345cab697b9e2fac443aaf85d6b",
+    "review/fresh-live/http.json": "d9e04b2a9ef451f3269963276cae0e64cb54950268803e2efc6473131154b0ca",
+    "review/fresh-live/reading-table-480.webp": "17d45aa8e55d53600789da82ca43226530c316a4476fdf08fe25a20c5661e25f",
+    "review/fresh-live/route-0.html": "50fa6d2e57cd04f42987765f20068bf7699469a72f781dd99fd17a3a352750ac",
+    "review/fresh-live/route-3.html": "504518c718989975c2fb0c1c5f1f7e2cf7e6f4b4516ac39bfb1617df15d6f07f",
+    "review/fresh-live/radha-confidante-met.jpg": "7b2fc2938e7dd92be11e1b936ed7c1ab41a84df8849f15436f615750d65406f7",
+    "review/fresh-live/reading-table.webp": "d0ec60a0b0398d1ccb66ad137b44dae4cc5d0493c3fdb244ad1cdd546ef00a4e",
+    "review/fresh-live/route-2.html": "541a83076c1b753bdbb6078dc7cfe403185afd599a7a7da5f2be3feb9f9808b2",
+    "review/fresh-live/route-4.html": "033afe041080b0cd846cca9217eea9573bed0a6a8ba23337f019cd2b933b229d",
+    "live/browser/article-desktop-full.jpg": "c6255072e5a4f7d7e5c4ae6f55f51894d8e0d62ea247e2964d485e8ef76ded53",
+    "live/browser/article-desktop.jpg": "cc7ec36605dd8e6e0d0deb6b55f39591b9602bbdfb6048ed9ce26dc2661f178b",
+    "live/browser/article-mobile-full.jpg": "f831c0381de7d99edd6d4c3dd5339dfb2c121a11b144ef88ed7bc5668482b552",
+    "live/browser/article-mobile.jpg": "42a55a0bc633c0783107734f9c71a521d032619f5a5ec5a250c9144c360d9204",
+    "live/browser/bibhaba-desktop.jpg": "d82f316ecfd09c10ad3ade8066f00d567b14b7ccc820becc91423c5fae08eaf2",
+    "live/browser/bibhaba-mobile.jpg": "62107fd209034053dbe5b14749d4e72e2ce0fe8298b0f118ac428631fcc6364b",
+    "live/browser/literature-desktop.jpg": "9ede245fc684bfc78ac50e3e98e9fe810f9dc460b7a38e200c60332abcb06dee",
+    "live/browser/literature-mobile.jpg": "c7e6c54e2cfbbdf6e248150f7a7f50c9d539d28adc94ef12a0336eff8f8ddaf6",
+    "live/browser/manuscript-desktop.jpg": "af0ca45c0202398747b9c6159fc7f515c9c56c23c5cd15c421e770076d7b7e34",
+    "live/browser/note-mobile.jpg": "d1a2bda3b5f394422dfea77d88ea7d2882d91f5a764106ce11f0e668dd237785",
+    "live/browser/painting-desktop.jpg": "46dba0929989294c0d70cf77eccd6cb642ab66c86688d1de404093139ae58003",
+    "live/browser/painting-mobile.jpg": "654f2f51cae36cf605c69e6f3b788ad46e4fdf7c36fa022a7d221552d9f3ecab",
+    "live/browser/preservation-desktop.jpg": "1496680e4f5830d802bc8aafff80f075f260bdadde4a848f4284b55d98bea5f8",
+    "live/browser/preservation-mobile.jpg": "ba17f59dd2fff63c55633925b857d270447b5dc30384aa2547b2fc884c9007d0",
+    "live/browser/return-mobile.jpg": "0afdd899834cf7776988b71d7a49518eccec0e47f16357e4748e85c24bcb498d"
+  },
+  "fresh_http": {
+    "report": "review/fresh-live/http.json",
+    "pages": 5,
+    "images": 6,
+    "all_http_200": true,
+    "new_article_fragment_sha256": "9cc000afa6753319d341d28f9c59245be9c58a0bf25d4617ec37480ca7728d13",
+    "exact_fragments": [
+      "/literature/birakishore-das/",
+      "/stories/odia-literature-preservation/",
+      "/stories/odia-bibhaba-visit/",
+      "/literature/champu-and-sakhi/"
+    ],
+    "literature_exception": "Complete main differs only at one occurrence of the existing manuscript 1440w URL: f7fd7db2e2c9d60a to 8b030c3b48acd32f. Exact in-memory substitution yields equality; raw responses remain unchanged.",
+    "structure": "One new h1/byline, six native references/four notes/six returns, unique IDs and all targets resolved; no nested anchors. Three actionable incoming cards and exact credits retained. All five pages have matching reviewed OG metadata.",
+    "byte_exact_images": [
+      "New 1200px illustration",
+      "New 480px illustration",
+      "Existing manuscript base source",
+      "Existing manuscript 960px variant selected in root browser"
+    ]
+  },
+  "image_differences": {
+    "decision": "ACCEPT_BOTH_WITH_LIMITS",
+    "independent_metrics": [
+      {
+        "name": "met",
+        "width": 2048,
+        "height": 1341,
+        "changed_pixels": 25640,
+        "changed_channels": 62548,
+        "max_delta": 9,
+        "mean_RGB": 0.009605534776597067,
+        "rms_RGB": 0.12063245487879501,
+        "profiles": {
+          "icc": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          },
+          "iptc": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          },
+          "xmp": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          },
+          "exif": {
+            "equal": true,
+            "local_bytes": 186,
+            "live_bytes": 186
+          }
+        },
+        "local_orientation": 1,
+        "live_orientation": 1
+      },
+      {
+        "name": "manuscript",
+        "width": 1440,
+        "height": 1080,
+        "changed_pixels": 465823,
+        "changed_channels": 1381315,
+        "max_delta": 23,
+        "mean_RGB": 0.7674048353909465,
+        "rms_RGB": 1.7846803689188688,
+        "profiles": {
+          "icc": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          },
+          "iptc": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          },
+          "xmp": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          },
+          "exif": {
+            "equal": true,
+            "local_bytes": 0,
+            "live_bytes": 0
+          }
+        },
+        "local_orientation": null,
+        "live_orientation": null
+      }
+    ],
+    "method": "Fresh downloaded files decoded with Sharp to sRGB RGBA8; RGB deltas counted without alpha, no resize or rotation. Independently reproduced Samanta changed-pixel/channel counts and means exactly.",
+    "met": "Live JPEG is 1,244,845 bytes versus local 1,244,754; dimensions 2048 × 1341. 25,640 pixels differ, maximum channel delta 9 and RGB mean 0.0096055348. ICC/IPTC/XMP are absent in both; 186-byte EXIF is exactly equal and orientation is 1.",
+    "manuscript": "Live 1440px WebP is 123,324 bytes versus local 123,262; dimensions 1440 × 1080. 465,823 pixels differ, maximum channel delta 23 and RGB mean 0.7674048354. Metadata profile fields and orientation are absent in both.",
+    "visual_assessment": "Personally inspected both full-frame side-by-side previews at 1000px per image and independently generated native 600 × 600 details. Painting faces, textile patterns, flowers and border retain detail; manuscript leaf edges and cord retain clarity. No material change in framing, color or displayed detail at these scales. Both differences accepted for this delivery.",
+    "limits": "Neither differing file is byte- or pixel-identical. No cause is inferred. Visual acceptance at inspected scales is not a claim of universal perceptual equivalence."
+  },
+  "browser_review": {
+    "operator": "Disha, root assistant",
+    "reviewer_role": "Individually inspected all 15 saved screenshots and recorded observations; did not control the browser.",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "findings": [
+      "New article shows readable title/byline, complete credited illustration, prose, further reading and visible source notes. Both full-page captures contain the loaded image.",
+      "All three incoming cards visibly retain complete image, name link and credit at desktop/mobile sizes. Root observations record actual clicks opening the new article.",
+      "Native note 3 is visibly highlighted; return screenshot shows focused reference 3. Root observations record note hash and keyboard Enter focus return.",
+      "Painting screenshots show complete frame and readable museum/public-domain/alteration caption on both sizes. Existing manuscript is visibly loaded in desktop hub capture.",
+      "Root-recorded document scroll widths equal 1440/390 for checked routes. No visible clipping or overflow concern in inspected captures."
+    ],
+    "framing_limits": [
+      "Article desktop viewport ends at image bottom; full-page and mobile captures supply caption.",
+      "Reference 3 return is at the top edge, with the previous paragraph only partly visible.",
+      "Painting desktop title is partly outside the viewport, but full image and entire credit are visible.",
+      "Incoming-page captures cover the new cards and adjacent content, not each whole original article. Fresh HTML provides content integrity checks.",
+      "Manuscript browser selected the 960w image; changed 1440w was inspected through fresh download/comparison rather than falsely attributed to browser.",
+      "Viewport simulations do not establish physical-device, cross-engine, assistive-technology or performance coverage."
+    ]
+  },
+  "preservation": [
+    "Original painting SHA 45e94027…, original illustration SHA 1316ffb0… and manuscript source SHA 6561796f… remain unchanged. Fresh live manuscript base equals public/local bytes.",
+    "Raw helper status REVIEW_DIFFERENCES and SHA 8aa24972… remain untouched; this separate review accepts the measured differences rather than rewriting raw evidence.",
+    "No shared records, public source files or Git state edited by this reviewer. Fresh captures, measurements and this report are reserved review evidence."
+  ],
+  "remaining_gate": "Parent must reconcile and separately review the evidence-only publication receipt; no claim that receipt has already merged or ownership has been released.",
+  "blockers": []
+}

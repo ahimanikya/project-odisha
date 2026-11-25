@@ -1,0 +1,144 @@
+{
+  "status": "pass",
+  "reviewer": "Drishti, separate AI subagent",
+  "checked_at": "2026-11-22T13:46:27.629135+00:00",
+  "human_review_claimed": false,
+  "scope": "Independent actual live delivery, source/media preservation, six screenshots and current evidence-only receipt diff. Final integrated and committed receipt continuity remain separate gates.",
+  "publication": {
+    "pr": 830,
+    "reviewed_head": "fcb12642d397bf2a8cf3782d6f7043a3e647b03d",
+    "merge_commit": "53c3734af18c71be4078e0a388e728902200b55b",
+    "merged_at": "2026-11-22T13:18:57Z",
+    "merge_tree_equals_reviewed_tree": true,
+    "ci_run": 45024287879,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "deployment_run": 45026892948,
+    "deployment_attempt": 1,
+    "deployment_conclusion": "success",
+    "deployment_head": "53c3734af18c71be4078e0a388e728902200b55b",
+    "independently_verified": "Fresh gh PR/run queries and remote log reads; full822/coastal598 test passes and both CI/deployment payload998213092bytes/3611files confirmed."
+  },
+  "payload": {
+    "linux_bytes": 998213092,
+    "files": 3611,
+    "limit_bytes": 1000000000,
+    "headroom_bytes": 1786908,
+    "local_bytes": 997436624,
+    "local_and_linux_distinct": true
+  },
+  "fresh_http": {
+    "routes": 5,
+    "image_files": 26,
+    "responsive_files": 24,
+    "all_status_200": true,
+    "all_fresh_bytes_match_saved_evidence_hashes": true,
+    "all_responsive_hash_prefixes_verified": true,
+    "all_dimensions_match_local_equivalents": true,
+    "verified_routes": [
+      "/destinations/jirang-chandragiri/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/",
+      "/stories/bhubaneswar-week/"
+    ],
+    "article_continuity": "Both actual article fragments equal reviewed local fragments after only the two explicit responsive URL substitutions recorded below. No broad text normalization.",
+    "substitutions": [
+      {
+        "route": "/destinations/jirang-chandragiri/",
+        "local": "/images/responsive/46b0f010719486e4-480.webp",
+        "live": "/images/responsive/4e81dac188d20fc1-480.webp"
+      },
+      {
+        "route": "/stories/bhubaneswar-week/",
+        "local": "/images/responsive/f7fd7db2e2c9d60a-1440.webp",
+        "live": "/images/responsive/8b030c3b48acd32f-1440.webp"
+      }
+    ],
+    "native_reference_return_links": 14,
+    "live_original_public_photo_sha256": "e282803e70c07429f84362f3e09a81a786c0c41963b86c8c9102111cf6378b0c",
+    "credits_and_sharing": "Actual article retains source/licence/dated caption and sharing; all three incoming hub HTML files retain selected image and creator/Commons/licence links."
+  },
+  "encoding_review": {
+    "status": "accepted_with_explicit_difference",
+    "method": "Independently decoded each differing live/local file with same installed Sharp decoder; independently viewed all three saved side-by-side comparisons. Fresh HTTP bytes match the files compared.",
+    "differences": [
+      {
+        "image": "Jirang480WebP",
+        "dimensions": [
+          480,
+          303
+        ],
+        "live_bytes": 42430,
+        "local_bytes": 42450,
+        "max_absolute_channel_delta": 21,
+        "mean_absolute_channel_delta": 0.8678653281994866,
+        "differing_channels": 144233
+      },
+      {
+        "image": "Existing palm-leaf1440WebP in Bhubaneswar further reading",
+        "dimensions": [
+          1440,
+          1080
+        ],
+        "live_bytes": 123324,
+        "local_bytes": 123262,
+        "max_absolute_channel_delta": 23,
+        "mean_absolute_channel_delta": 0.7674048353909465,
+        "differing_channels": 1381315
+      },
+      {
+        "image": "Mentis deliveryJPEG",
+        "dimensions": [
+          3072,
+          1728
+        ],
+        "live_bytes": 1279539,
+        "local_bytes": 1279563,
+        "live_sha256": "8c13ec06632334732bc26d86018aa0b1f7d838e4e19ec3c47330e4ba12efd576",
+        "max_absolute_channel_delta": 2,
+        "mean_absolute_channel_delta": 8.037551440329219e-06,
+        "differing_channels": 126
+      }
+    ],
+    "visual_finding": "No conspicuous loss of detail, changed framing, colour discontinuity or semantic difference observed in the three comparisons. Not a pixel-equality or human-quality claim.",
+    "metadata": "Live/local compared metadata fields ICC/IPTC/XMP/EXIF equal, including Mentis candidate. This is distinct from original Mentis EXIF, which differs from the resized candidate.",
+    "cause": "Not established; do not attribute the differences to a specific encoder/platform without reproduction."
+  },
+  "visual_review": {
+    "screenshots_viewed": [
+      "live-desktop.png",
+      "live-mobile.png",
+      "live-footnotes.png",
+      "live-preview.png",
+      "live-explore.png",
+      "live-mentis.png"
+    ],
+    "finding": "Clean title/byline and legible photograph; mobile shows entire hero and full dated creator/licence/change caption. All four source notes visible with return controls. Hills and Explore cards are fully visible. Mentis figure and complete caption are visible with no overlap or conspicuous degradation.",
+    "browser_actor": "Disha; Drishti independently inspected saved screenshots and JSON, did not run browser interactions.",
+    "source_click_top": 0.109375,
+    "keyboard_return_top": 440.0859375,
+    "keyboard_return_focus": "user-content-fnref-jirang-ripa-monastery",
+    "limits": [
+      "Desktop hero extends below viewport; not a clipping defect.",
+      "Preview credit disclosures remain collapsed in screenshots; credit content separately checked in actual HTML.",
+      "Live source click and keyboard return are root observations. No live forward-keyboard or broad accessibility audit claim.",
+      "Mentis browser uses existing responsive WebP; JPEG was separately fetched, measured and visually compared.",
+      "Chromium viewport simulation only; no real-device, cross-engine, screen-reader, field or human-specialist claim."
+    ]
+  },
+  "preservation": {
+    "public_and_research_diff_from_deployed_merge_empty": true,
+    "mentis_original_public_and_coastal_sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+    "foreign_current_task_unchanged": true,
+    "foreign_handoff_home_unchanged": true,
+    "activity_exact_prefix_preserved": true,
+    "programme_credit": 0,
+    "current_diff": "Own handoff delivery evidence plus saved live artifacts; no website changes.",
+    "scope_released": false,
+    "next_slot": "Preparation only after reviewed receipt merge and explicit handoff; no publication inferred."
+  },
+  "blockers": [],
+  "readiness": "Delivery accepted. Root may integrate this factual review and finish evidence-only receipt, then request final integrated/committed continuity review and required receipt CI/merge. Shared slot stays occupied until reviewed receipt merge.",
+  "writes": "Only this reserved delivery-review.json; no source/shared-record/Git/build/browser changes."
+}

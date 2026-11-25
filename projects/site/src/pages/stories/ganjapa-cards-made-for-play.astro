@@ -1,0 +1,34 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/ganjapa-cards-made-for-play.md';
+const image = {src: '/images/stories/ganjapa-pack-comparison.svg', alt: 'Schematic comparison of rectangular and round Ganjapa cards; the two catalogued sets are described below.', width: 640, height: 620};
+const continueReading = [{href: '/crafts/pattachitra/', title: 'Pattachitra: read the painted line', description: 'Follow the making of a painted surface and the practice behind it.', image: '/images/crafts/pattachitra-making.webp'}];
+const furtherReading = [{href: '/visit/places/raghurajpur/', title: 'Raghurajpur', description: 'Explore the village context of painting and performance.', image: '/images/regions/raghurajpur-artisan.jpg'}];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <figure class="pack-comparison">
+      <img {...image} loading="eager" fetchpriority="high"/>
+      <figcaption>Schematic comparison of two catalogued Ganjapa sets; card artwork and dimensions are not reproduced.<sup><a href="#user-content-fn-3" aria-label="Footnote 3: IGNCA catalogue">3</a></sup></figcaption>
+    </figure>
+    <Content/>
+    <p>Another game to explore: <a href="/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/">Bagha Chheli and the Rules of Play</a>.</p>
+    <p>Read the companion article: <a href="/stories/jau-kandhei-clay-lac-and-the-makers-of-balasore/">Jau Kandhei and the Doll Makers of Balasore</a>.</p>
+    <p>Read the companion article: <a href="/stories/kagaja-mukha-and-the-making-of-a-mask/">Kagaja Mukha and the Paper Masks of Raghurajpur</a>.</p>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fganjapa-cards-made-for-play%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  .pack-comparison{max-width:36rem;margin-inline:auto}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

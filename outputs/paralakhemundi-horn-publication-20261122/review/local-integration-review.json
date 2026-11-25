@@ -1,0 +1,83 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "pass_with_limitations",
+  "reviewed_on": "2026-11-22",
+  "scope": "Independent source-code, rendered HTML and root-captured local screenshot review; no reviewer browser interaction. Final package, exact committed head, required Linux CI and live delivery remain pending.",
+  "findings": [
+    "Desktop1440 and mobile390 captures show readable title, byline, body, expanded sources and reading links without visible clipping.",
+    "Full-page captures and mobile-caption capture show both museum fish with full source framing and sufficient detail.",
+    "Complete photographer, source, CC BY-SA4.0 licence and alteration statement are visible in full-page note2.",
+    "Four settled incoming-card screenshots show uncropped fish previews and museum manufacture identity limits; existing reading paths remain.",
+    "New article rendered with one h1,5 references,4 notes and5 returns; brass-fish with one h1,8 references,5 notes and8 returns. All three routes have unique IDs, resolved fragment targets and no nested anchors.",
+    "Other47 book chapter data objects are identical to baseline. Optional note fields have no pre-existing consumers. Rendered47-chapter fragment comparison remains for package review.",
+    "Search-candidate change appends exactly one hold without altering prior decisions. Build test changes only fixed route count175 to176 for one new route; assertions remain intact."
+  ],
+  "root_browser_evidence": "Root browser-verification.json reports no horizontal overflow at1440/390/320, mobile photo-note click and keyboard return, and brass-fish incoming navigation. These are root actions, not reviewer interactions.",
+  "limits": [
+    "narrow.jpg contains only the footer; no independent320px article screenshot claim. The320 DOM metrics are supplementary.",
+    "mobile-credit.jpg contains the full photo and caption, not the source-credit note. Full-page screenshots supply visible note2 credit evidence.",
+    "Earlier incoming framing attempts were excluded.",
+    "One browser engine with simulated viewports; no physical-device or cross-engine verification.",
+    "No final package, Linux capacity, publication or live-delivery acceptance."
+  ],
+  "screenshots": [
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/desktop.jpg",
+      "sha256": "58f51f97645532243daca6bd7cc12e0cfe487a0db07bdf6dd98c8457a47958bb"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/mobile.jpg",
+      "sha256": "44d35ed764bedc3f2ff4fda7f8d7cdfb232ad298ff8b09baadd3d0573bd9f562"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/desktop-full.jpg",
+      "sha256": "e14cb19ecc4e1612143d4fefa965908aa090b44a113877c682ee7f030e4ff4d3"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/mobile-full.jpg",
+      "sha256": "b4b4b5f8e3985d9b5f6f8afe77d3e6da7957a223abcbdcd9a2c78129df6a39bf"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/narrow.jpg",
+      "sha256": "b04b14db13e1a11daca74ae81af915c5110382dcca2df03b6648311e667d64f0"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/mobile-credit.jpg",
+      "sha256": "9c548a8338f34ddc84e5151010bcfa3df700cc76d56f56faa4bb151987d55077"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/mobile-photo-return.jpg",
+      "sha256": "0cb47865fce1cee2b22bf14d83cb96335e4c9eb4e5e7125e4af91b8882ba86fd"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/brass-fish-preview-clear.jpg",
+      "sha256": "5dcea5727401b0f52a616124dadf239203df7bc76d8572faafbe54b98f4c3466"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/brass-fish-preview-mobile-clear.jpg",
+      "sha256": "ebcc495561c9be8d073d7038b298fc49807365dcb775948c5b5e378ec30f41c7"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/chapter-preview-desktop-clear.jpg",
+      "sha256": "713105f0c927c304fab1e9c4abbede265071bed722af68c9ad994f9c9608909d"
+    },
+    {
+      "path": "outputs/paralakhemundi-horn-publication-20261122/local/chapter-preview-mobile.jpg",
+      "sha256": "6766fcd26e8d3603971506ba3fad69bb3aa00bf9167c34bf294a846212b51fb2"
+    }
+  ],
+  "browser_record": {
+    "path": "outputs/paralakhemundi-horn-publication-20261122/local/browser-verification.json",
+    "sha256": "6d6871acd1ca215079c6633138afaa024bed49b611d961c224afe9ffebfd5941"
+  },
+  "source_hashes": {
+    "kb/research/culture/paralakhemundi-horn-craft.md": "5f80d2e64904b05fef6cc6e982fee96a37d83ccb30c7c9c41224f8c5e8d15161",
+    "projects/site/src/pages/stories/paralakhemundi-horn-craft.astro": "f576d5e6b34d38f30f8a431eb82ebdfabc6385d43bf01ace404538b83ccb5b73",
+    "projects/site/src/pages/stories/bellaguntha-brass-fish.astro": "4a0e4a93718801e95c87141eccee96184d844d051863a28da41bb3d9f5801bd2",
+    "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "b43903b4b283c091aba1e3e60cc1fda8692a4f3d7f6f2246265e33f13a25a94a",
+    "projects/site/src/data/cultural-book.json": "3823ccdc427d4d454d2ade29e711a8ba8a0c450be7e49c10f855a7e45fb4987d",
+    "projects/site/editions/search-candidate.json": "ea8a7be9e87509c38304ccfacab75894d2c1707dcac7740e17a65693eebb597e",
+    "projects/site/tests/build.test.mjs": "48e408543f993b646cddc20e605b892eda179cd2134cb8228420a2f52f1196da"
+  }
+}

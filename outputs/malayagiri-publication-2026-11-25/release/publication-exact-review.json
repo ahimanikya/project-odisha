@@ -1,0 +1,464 @@
+{
+  "reviewer": "Drishti",
+  "date": "2026-11-25",
+  "result": "pass",
+  "scope": "Read-only exact committed candidate continuity against completed independent local-package review. No hosted/live success inferred.",
+  "head": "b5748090629d226c658d7beec317c32d368332f1",
+  "tree": "255a6c5de7e2de60d98da04f6b35f6ba85e369b8",
+  "parent": "0929dad2ae5e4fd6d950a8f8bd2aaf99c5a3a628",
+  "clean_worktree": true,
+  "committed_changed_paths": 96,
+  "reviewed_snapshot_paths": 94,
+  "unchanged_snapshot_paths": 89,
+  "changed_snapshot_paths": [
+    "kb/records/malayagiri-publication-20261125.json",
+    "kb/registers/DASHBOARD.md",
+    "kb/registers/activity.jsonl",
+    "kb/registers/records.json",
+    "kb/team/operations.json"
+  ],
+  "added_paths": [
+    "outputs/malayagiri-publication-2026-11-25/review/final-package-review.json",
+    "outputs/malayagiri-publication-2026-11-25/staged-whitespace.json"
+  ],
+  "missing_snapshot_paths": [],
+  "continuity": "89 of94 snapshot paths byte exact. Five closing-record paths changed; reconstructed pre-close operations, handoff and records JSON serialize to exact prior reviewed SHA256 after reverting only expected phase/status/readiness/review wording/pointers and raw-whitespace object. Activity prefix excluding last event hashes exactly to reviewed snapshot; actual event2592 faithfully records local reviews. Generated dashboard is current. Two additions are exact final-package report and raw-whitespace manifest.",
+  "content": "All committed source/article/image/guide/edition/optimizer/test/helper and retained evidence hashes match reviewed snapshot. Actual manuscript138954b7d9cbf7589995927880bf04f10306c32064854aa539f44339b47b8020. Source originals and38protected preparation hashes match committed blobs; current_task/handoff_home match parent. Prior publication receipts unchanged. All96 current working files equal their committed blobs.",
+  "claims": "Canonical status ready_for_hosted_validation, work in_progress/readiness reviewed; scope held and programme credit0. All local review fields reflect actual checks. Single authorized Malayagiri article only; no expanded publication/search authority, no future slot release or human review claim.",
+  "consistency_checks": {
+    "registers": "PASS1393records/870events/dashboard current",
+    "team": "PASS",
+    "autonomous_program": "PASS",
+    "scoped_whitespace": "PASS excluding exactly three unchanged raw capture/log files",
+    "unrestricted_whitespace": "Exit2 only two original Astro build logs and Commons HTML; explicitly preserved exceptions, not blanket whitespace pass"
+  },
+  "raw_whitespace_exceptions": {
+    "status": "PASS_WITH_RAW_CAPTURE_EXCEPTIONS",
+    "unrestricted_exit_code": 2,
+    "reason": "Original build console output and Commons HTML retain captured whitespace; evidence bytes preserved. All other staged paths pass.",
+    "files": [
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/checks/coast-build.log",
+        "sha256": "fe4a2a7b7bd6dffe8757a19cfb0cd9740a29c7b4a3bf8aede4285b0d42b72b3f"
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/checks/full-build.log",
+        "sha256": "b680ee0de17d479270caed7864e77997dda9fe33599cb4e4a890fa8d2b301ff4"
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/media/commons-file-page.html",
+        "sha256": "ed2f591d586db64c4dc54aa2c7629e1409f301d8df82a290cbfdb22b11c1aab7"
+      }
+    ],
+    "scoped_exit_code": 0
+  },
+  "completed_local_evidence": {
+    "final_package_report_sha256": "1ddab7b482004a50dd91393d60f9b29b8f6f1cc51bf4c99e3bfe7957b0751a73",
+    "rendered_report_sha256": "edd5f15c7f23c53f1e7c8fa0c92ef2cca9cd738fedd3ef332c501549326c6692",
+    "local_payload_bytes": 999115274,
+    "files": 3675,
+    "local_remaining_bytes": 884726,
+    "full_tests": 829,
+    "coast_tests": 599,
+    "page_acceptance": 5472,
+    "artifact_assertions": 10745,
+    "all13stages_pass": true,
+    "screenshots_inspected": 20
+  },
+  "limitations": [
+    "Capacity is actual local measurement, not hosted Linux delivery.",
+    "Historical government-indexed and author-text/source-photo limits remain.",
+    "Sahi derivative lossy with qualified EXIF/MakerNote differences and unchanged originals.",
+    "Root performed browser actions; separate reviewer inspected screenshots/files.",
+    "Hosted exact-head checks, merge/deployment, actual live review and receipt remain mandatory."
+  ],
+  "blocking_findings": [],
+  "committed_manifest": [
+    {
+      "path": "kb/catalog.json",
+      "sha256": "74ee8ffae6c1277e1d18aac71a28f1ecca6b45f9967e9e252b721c5b0d4ceedd"
+    },
+    {
+      "path": "kb/media/malayagiri/khuludi-rajani3737-original.jpg",
+      "sha256": "59299b69cbb71567590a41b38de4276f42a48593c299f68173cd5582f1c9fb17"
+    },
+    {
+      "path": "kb/records/article-editorial-rollout.json",
+      "sha256": "6e46d56954ae5d8dcdd3061830fa1e86581bdf3eac2b8093006349b557f67e4d"
+    },
+    {
+      "path": "kb/records/article-editorial-work-list.md",
+      "sha256": "7ae6a3c70fc684a48b35668fb7d885c9f843ac4b3ef11d02f09832a831c82e37"
+    },
+    {
+      "path": "kb/records/destination-series-20261122.json",
+      "sha256": "6715a2555f053d9f41970bc47654aed453e67e5012806eeeff33ae94d762b81d"
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "sha256": "1e36e6bf017781a5c455c1b27cf48d46ddbeb3ffbb6193b1bdd45db614a23847"
+    },
+    {
+      "path": "kb/records/malayagiri-publication-20261125.json",
+      "sha256": "f3546b429c2a4e12bdf6aa98d911768e7504ca7b39bd4eab4ef90d17b357665f"
+    },
+    {
+      "path": "kb/reference/public-website-routes.json",
+      "sha256": "ed7613358054a24a683d13b610733238ee3c4b802743062b04bea910823e5921"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "204be7e28b56af31ba1d7f297b79db7fefd5ab8981050677003e326126d08ad0"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "f88149b921615e9cb9587ff3c6361ce460719b4aa74bf972c6a57c82bff27685"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "f82426238babd8939ba3faee4291937ecae5081f9b470a9834ed741934080eee"
+    },
+    {
+      "path": "kb/research/destinations/malayagiri-image.json",
+      "sha256": "dc90102fcc94787d87c6b14aa8b42c02f718a41e64bd97da2f899526e551e093"
+    },
+    {
+      "path": "kb/research/places/malayagiri-article.md",
+      "sha256": "138954b7d9cbf7589995927880bf04f10306c32064854aa539f44339b47b8020"
+    },
+    {
+      "path": "kb/research/references/data/research-map.json",
+      "sha256": "a9e5b460c46018ec5ff38c620ab72dd4cdcb862ad027368d19dc24173a294866"
+    },
+    {
+      "path": "kb/team/operations.json",
+      "sha256": "ec6441395f9b08c619e16aec499b05546c1c45e4d13cff3d495d53b34f11dd6d"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-article-desktop-body.jpg",
+      "sha256": "99a0b356134c3e16659998b1f12f9369958f18cd80fc09345233d0c62df4d4e9"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-article-desktop-top.jpg",
+      "sha256": "ff8fc9e4edd53b1b85a8fbbeaece8f53068611b39564ddde95fde46cac7b6962"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-article-mobile-body.jpg",
+      "sha256": "029cf7474949be1059ab8be2939eeb2361f2167bdf0f5465b6e6f2549f9c58f3"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-article-mobile-top-settled.jpg",
+      "sha256": "e5b4825e9d259c31f37077e24353d38f53eec2949471f03d0ef3b9a0e7d08560"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-article-mobile-top.jpg",
+      "sha256": "366debedace3f78f79caa7c60639267f7aea89e39f3190970f1cf2f2d26d2ce2"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-desktop-full-source-list.jpg",
+      "sha256": "24bdc0220c4e1c5f0ed4a7d70ccc1d488b8d5fe03a6e3fb8e06909f82a6b61d8"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-desktop-notes.jpg",
+      "sha256": "370f14d655824f1632a83f34137c9a26615708c8f72bd678d0443c163de49c12"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-destinations-desktop-card.jpg",
+      "sha256": "77f668420aca3bf5f4aec066b87a5fb157540cfab15dd4a0391e75477adbc908"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-destinations-mobile-card.jpg",
+      "sha256": "65b7be404fe45c651ac1495f067e72f8cd82a7012d74d7285e960d113020cc4d"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-explore-desktop-card.jpg",
+      "sha256": "a89d60457133af4c30a1eceb99cf128546c1018bf446776e813d2778555a2b62"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-explore-mobile-card.jpg",
+      "sha256": "158b828a9b16d97037eb9780380a12788e233627d6c02646a65636022f387286"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-explore-mobile-complete.jpg",
+      "sha256": "f3dbc0e5ca265a0efb7b0df678a92b40f5f1de0f831d18d435716335abc2fe54"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-hills-desktop-card.jpg",
+      "sha256": "3e3b1220dd8e3d662505331e9584925810a2d5af8bb306c46dfb21993fe46b20"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-hills-mobile-card-complete.jpg",
+      "sha256": "c5338a69772880382d6b41aeeb31d062a53001bec1fb40371f29d6a5212f6b1c"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-hills-mobile-card.jpg",
+      "sha256": "9f3df0ecfb8d82a7865aec2e4027695bd9fb8354dfc072edc7d9bd95b2e0ccc6"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-mobile-notes-settled.jpg",
+      "sha256": "7181d399aa923404dc231dc529e3e376ba7b6e47cd7333a30926e4c0e8026707"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-sahi-desktop-fullframe.jpg",
+      "sha256": "66e9865ed2b6e63419520dce1e3955b5646b225060805895b89f590ead099d5b"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-sahi-desktop.jpg",
+      "sha256": "41340cb5eaad2a0eb4d07dbf00560203c376d03d950607ae19cf221d1c6fccca"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-sahi-mobile-credit.jpg",
+      "sha256": "214f66c303cf1730b45944d62d76cd5234ca03366116b8739dd21182747786c7"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/local-sahi-mobile-fullframe.jpg",
+      "sha256": "e54ca6f4c82321e2150e732e72dfc91fe9f729436ba73c9e2aa88db6e394ebdc"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/browser/root-local-review.json",
+      "sha256": "c774a219b735e237bf3af931e297bb4d769741bc9cf515e128f5d1f1bc814a1c"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/build-results.json",
+      "sha256": "dc2754f8dab6a34ad317e4a7495f58ab96d9b158117849cf6a955c02ea0e43fd"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/coast-acceptance.log",
+      "sha256": "ab24089a0647ab62a086a065c74432d82ea0ab9ec6d8a68bad274fdee4d50db9"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/coast-build.log",
+      "sha256": "fe4a2a7b7bd6dffe8757a19cfb0cd9740a29c7b4a3bf8aede4285b0d42b72b3f"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/coast-disclosures.log",
+      "sha256": "aed453ddccc2ab30cc6878300cf35fb849412dd9213b1cc59dcaf0caaf8f2c6f"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/coast-discovery.log",
+      "sha256": "5e96f68a6de6b5c2cd4abf9f150083de9f9f372ed8a70df8576028d1260d609a"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/coast-tests.log",
+      "sha256": "ec9cb1d503ddd49c7ef385ed1f5903ea65fb4abb8cc70ff8213cd6a02de9143f"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/full-build.log",
+      "sha256": "b680ee0de17d479270caed7864e77997dda9fe33599cb4e4a890fa8d2b301ff4"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/full-disclosures.log",
+      "sha256": "1fe79e423ba91da8e9f2cc9df5229d3b1e02a43d000aad2bbbdfdf1f694168c3"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/full-tests.log",
+      "sha256": "bf9319b023f6c8259191b089dcae6c47b3ac2d678948d038334d9f05df04d6db"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/launch-readiness.log",
+      "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/publication-build.log",
+      "sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/publication-disclosures.log",
+      "sha256": "a3f13e4384c9db2f17ce03b78d03179df917e0349439aee6f5c4b6f4a2acbadf"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/search-review.log",
+      "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/checks/search-shortlist.log",
+      "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/compare-live-images.mjs",
+      "sha256": "83a18a59f3faa6291627756fe050ca7b8e64f3c9d7a01761eae18bee735e6842"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/initial-record-correction.json",
+      "sha256": "e96581831f8749103bf420a261f05eaf38b16a9fab35852ff841c7125ec8173a"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/local-verification.json",
+      "sha256": "0fa9fe282a9febd753336c0244b27b3720d53b1f4b22461d711a19294da9eb3a"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/media/commons-file-page.html",
+      "sha256": "ed2f591d586db64c4dc54aa2c7629e1409f301d8df82a290cbfdb22b11c1aab7"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/media/commons-imageinfo.json",
+      "sha256": "8b9cf6815d31e1c687acce5ae3b0181077b9393cad5d08e0a6b6e08ab63e4df7"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/media/derivative.json",
+      "sha256": "4d4b9d5e8109b451d58a3d3c4de165804db80833bb81999c087b16ebea5b8cde"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/media/khuludi-rajani3737-1280.webp",
+      "sha256": "802d46f8f57ba698ae2caff261c8e8628c5dd8060f01ed7e514659798aa3d4fb"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/media/khuludi-rajani3737-original.jpg",
+      "sha256": "59299b69cbb71567590a41b38de4276f42a48593c299f68173cd5582f1c9fb17"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/media/payload-projection.json",
+      "sha256": "612019713e9444e66862b2c7e84a32c47bae633352f196b44b93192a3eda1862"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/payload-check.json",
+      "sha256": "f483a7534456ed595aecc2bbaf051bbed3e7716a2f576ef8100b1ad85f38a5e6"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/preserved-foreign-pointers.json",
+      "sha256": "a75ed09db8c3e8b40f7cd105a6d1b0778694ced80e5d9b3e5019c5fba0b57888"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/preserved-preparation.json",
+      "sha256": "64bc2abe4cbb9f71fceaaab343b8576152f4b310a76b0fa593d585e61daef3ee"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/research/findings.md",
+      "sha256": "bf5e98e1cc4fd2bacd3ec5cd06e2b6c3ddbf4da069e14a44b15840f6f37c763e"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/research/integrated-source-review.md",
+      "sha256": "2aadce92096a28a5961981a6da9e5013777b2d7d89121e966400eee5750c0265"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/research/source-manifest.json",
+      "sha256": "4240b70fa2d18e375b4b56ff81d7da0eea77409a2b6478b3c631405fbf0e4014"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/capacity-implementation.md",
+      "sha256": "5cfd80a8da6fe6e0e0882185e2ef9153a09334d0ca876421d599bd13d0236f65"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/capacity-proposal.json",
+      "sha256": "32644adf16747209f36770bf0a4d40d88253cc95664d27a8e409d9a21e423879"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/capacity-review.json",
+      "sha256": "569d6897682df3b5bb30bba50b7a8a3ba63c9c78cd9afa95886c9dc0b8f73213"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/drishti-review.json",
+      "sha256": "f99ddb471ef237ef3549a7a089c35ed39028f2957a926942cba3397b6e1ee353"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/final-package-review.json",
+      "sha256": "1ddab7b482004a50dd91393d60f9b29b8f6f1cc51bf4c99e3bfe7957b0751a73"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/implementation.md",
+      "sha256": "562ead49917485bd6b59690f4b9d69ebebd1dc0f04ee223bd0968f422e8dddc8"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/media-review.json",
+      "sha256": "81ab4e2104e928e06c32bbe9f9af5fccb66b0cb3f807bd9cbed9968a115f9fe3"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/rendered-review.json",
+      "sha256": "edd5f15c7f23c53f1e7c8fa0c92ef2cca9cd738fedd3ef332c501549326c6692"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/root-capacity-visual.json",
+      "sha256": "4f2bb10978b9b3f538ab1649666ded0a611f2e8a5e1a1a698b465ed186be773f"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-detail-comparison.png",
+      "sha256": "f9fe7ce8ceb6fc7ef9fc88c082be63b0e890baef8a2d1079f43965493eb0d659"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-fullframe-comparison.png",
+      "sha256": "24d9136d53407fa9cdef32420d118c6717a4a2d3b5faba1fd699222438a938de"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-q95.jpg",
+      "sha256": "c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2560-q95.jpg",
+      "sha256": "ea887b3648553861844627f9d7c6820178e0b44d7ea2f5e7d70946206a18bee0"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-fullframe-comparison.png",
+      "sha256": "ce9a58cef1b09202d115c65b773b850df1f9e9a8f72f5fb089afdeed5ff33eb6"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/reviewed-article-contract.json",
+      "sha256": "ad062859738046830b99f011fe1cc031ea77e0fd161785c50e8ba70287199ade"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/run-checks.py",
+      "sha256": "3c27195ca76e7a5f325c85a084d07b652aeb9cc86a0a00750eea09491304565c"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/staged-whitespace.json",
+      "sha256": "9fe9e676ca9cfa838ad9d8a4d6ac7cb916746199d856c6a4ce3ebcc0adc3a1c9"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/verify-live.py",
+      "sha256": "7080283816fccec71979fb7afff4caff0bc020c43389340a3910e8959a54695e"
+    },
+    {
+      "path": "outputs/malayagiri-publication-2026-11-25/verify-local.py",
+      "sha256": "11b43ebf9a57ddd06085b19232c5877ff9c893c66ef98dd82260b8c6a6d7136d"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "5fd4d06fb1dae1cafc05288baa116a8ec3730b8d069879bae13f2c7ef0ae641e"
+    },
+    {
+      "path": "projects/site/editions/responsive-images.json",
+      "sha256": "b6f18b90bdc57cbb743c11b7ed2b60c6812a01a8b6ed34bfbf03b4af7655965e"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "7e9fcdaabe5b3612c288b9985c1eb57f9f19e82d122dff52ce520e3327306755"
+    },
+    {
+      "path": "projects/site/public/images/destinations/malayagiri-khuludi-rajani3737.webp",
+      "sha256": "802d46f8f57ba698ae2caff261c8e8628c5dd8060f01ed7e514659798aa3d4fb"
+    },
+    {
+      "path": "projects/site/src/data/hill-destinations.ts",
+      "sha256": "ad78539b95a7488cf185ecddb44faf4ea23c3643083b127a5b14014da1061e68"
+    },
+    {
+      "path": "projects/site/src/pages/destinations/malayagiri.astro",
+      "sha256": "c532856f37fabb710ba4839686255a56311e6f2bc84512b7fcff5f68e4f103d9"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "2b18d47f4e331183594a0b39d573aec297703c7ada4718396d4159761058e3d7"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "526fcc990e81f069e39ce9cd4c754b355e338bd9cd0e405e349537033390f44b"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "4ad9387df236d2473459ed837025f762304217181b59d07e51b5149d540c7fb6"
+    },
+    {
+      "path": "projects/site/tests/publication-jpeg.test.mjs",
+      "sha256": "a756a0f555c86553b2d7b5fb1ff00d329215744ab511c7db65bcb659a5e38501"
+    },
+    {
+      "path": "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "sha256": "9497240bfa65020891afc5ac0e70ad9d07541b38a462ed1716482ceb30a72464"
+    },
+    {
+      "path": "projects/site/tools/optimize-publication-jpeg.mjs",
+      "sha256": "a495f6278652540dffa1771627b1498fe4f556b775da2a61cdeebb4f263a97d5"
+    }
+  ],
+  "committed_manifest_sha256": "4cab012de2eec6897f1d5eeb3cd9281b7ba0d6d1216041310b487e712f87956e",
+  "repository_files_written": false
+}

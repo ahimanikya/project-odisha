@@ -1,0 +1,48 @@
+[
+  {
+    "name": "coast-metadata-acceptance",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-acceptance.log"
+  },
+  {
+    "name": "coast-metadata-discovery",
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-discovery.log"
+  },
+  {
+    "name": "coast-metadata-search-review",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-search-review.log"
+  },
+  {
+    "name": "coast-metadata-launch-readiness",
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-launch-readiness.log"
+  },
+  {
+    "name": "coast-metadata-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-metadata-disclosures.log"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "status": "PASS_COMPLETION_RECORD_REVIEW",
+  "reviewer": "Drishti, separate AI reviewer",
+  "review_date": "2026-11-24",
+  "base": "49370c8a5ab73e45e20fd4ec7cda545c00176fa5",
+  "scope": "Bounded preparation completion-record reconciliation; no source research, build or publication repeated.",
+  "reviewed_sha256": {
+    "kb/records/antaranga-after-tensa-preparation-20261124.json": "ba69dab0719c43c51fd0839029073bd46f6bf7645cd498b5787f1ad546caead4",
+    "outputs/jhoti-article-2026-11-24/manifest.json": "5a186b3a45e112e83a5cc942abd22fc264c8530e63e878ab8237b94b1fd9904f",
+    "outputs/jhoti-article-2026-11-24/review/integrated-review.json": "9c221ee7caa8ee4c912debe99930088d0f97aa8bc23834094f3a059d404bab87",
+    "kb/team/operations.json": "0812b33183cd046e400695b2eebc22e7d8c0307a4ed89d9b80b1302a422ba48b",
+    "kb/registers/records.json": "6b243c1650b88e0905d1b8237921eb2af06d108716f22dc6a4f17b618abcdbe0",
+    "kb/registers/activity.jsonl": "082ea1c6a4fba5ed100005203ec024df4537d99540cc52158059659206f5dd9d",
+    "kb/history/LEDGER.md": "0fe97bc7ee92c6a3f5bc77fed30070abe4b55d17d6167c1ff76146c630c5707c",
+    "kb/research/references/data/research-map.json": "071af79d7b219f2de3c8347ac31fb57eeb1f024b384623f5bcaddd05ea87280e"
+  },
+  "checks": {
+    "delivery_hashes": {
+      "count": 21,
+      "all_match": true,
+      "manifest_list_matches_receipt": true
+    },
+    "content_continuity": "Canonical manuscript, portable article, brief, source dossier, images and integrated review retain the exact reviewed hashes. The review prose and limitations are represented faithfully.",
+    "records": "Work POD-WORK-20261124201 is completed with reviewed readiness; decision and review identifiers align with events 20261124201 and 20261124202. Ledger and map describe an unpublished preparation with zero programme credit. Initial invalid complete enum is retained as a corrected local failure.",
+    "preservation": "Compared current_task, handoff_home and current_article to the base: all unchanged. The prior Kaincha draft pointer is preserved in history; Kaincha and Tensa canonical receipts remain byte-identical to base. No tracked or untracked projects/site changes.",
+    "release_boundary": "The receipt and operations retain preparation-only scope. Publication is unauthorized, no deployment is required, and the explicit release condition requires the reviewed local preparation commit and handoff. No next article is claimed. scope_released is interpreted with that stated condition, not as evidence that commit/handoff already occurred.",
+    "validation": "Inspected recorded root validator successes; did not rerun broad validators. Independently reran staged whitespace checks: full check reports only original Commons HTML capture whitespace; excluding that exact capture passes. The original capture and its hash are preserved.",
+    "staging": "Observed 31 staged files before this separate completion review was written."
+  },
+  "findings": [],
+  "limits": [
+    "This is a local preparation review, not human specialist approval or publication approval.",
+    "Commit and explicit coordination handoff remain pending.",
+    "The completion-review link/hash may be added after this report; such an addition does not change the reviewed article."
+  ],
+  "verdict": "PASS. Records accurately represent the reviewed unpublished preparation and are ready for the bounded local commit and subsequent explicit handoff."
+}

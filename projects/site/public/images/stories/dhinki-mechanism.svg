@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="840" viewBox="0 0 640 840" role="img" aria-labelledby="title description">
+  <title id="title">Two stages of a dhinki’s lever action</title>
+  <desc id="description">A fixed fulcrum supports a short foot end and a longer pounding end. In stage one, pressing the foot end down lifts the pestle clear of the grain hollow. In stage two, releasing pressure lets the pestle drop into the same hollow. The beam and pestle move together; proportions are schematic.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#30666a"/></marker>
+    <g id="fixed">
+      <path d="M40 345H600" stroke="#d8c9b4" stroke-width="3"/>
+      <path d="M210 210 175 320H245Z" fill="#d9c5a7" stroke="#6b503a" stroke-width="4"/>
+      <path d="M430 305Q470 292 510 305L505 340Q470 354 435 340Z" fill="#bb9162" stroke="#6b503a" stroke-width="4"/>
+      <ellipse cx="470" cy="305" rx="40" ry="14" fill="#f1dfba" stroke="#6b503a" stroke-width="4"/>
+      <path d="m445 304 8-3m8 6 9-3m13-1 9 3" stroke="#9b773d" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="beam">
+      <path d="M80 210H470" stroke="#976c46" stroke-width="24" stroke-linecap="round"/>
+      <path d="M470 210V310" stroke="#976c46" stroke-width="20"/>
+      <path d="M458 305H482" stroke="#514c43" stroke-width="13"/>
+    </g>
+  </defs>
+  <rect width="640" height="840" rx="12" fill="#faf4e8"/>
+  <g font-family="system-ui, sans-serif" fill="#332d26">
+    <g>
+      <text x="32" y="48" font-size="32" font-weight="650">1  Press with the foot</text>
+      <text x="32" y="88" font-size="27">Foot end down · pestle up</text>
+      <use href="#fixed"/>
+      <use href="#beam" transform="rotate(-10 210 210)"/>
+      <circle cx="210" cy="210" r="8" fill="#332d26"/>
+      <text x="40" y="139" font-size="28">Foot</text>
+      <path d="M92 154V217" stroke="#30666a" stroke-width="6" marker-end="url(#arrow)"/>
+      <text x="486" y="145" font-size="28">Pestle</text>
+      <path d="M565 250V180" stroke="#30666a" stroke-width="6" marker-end="url(#arrow)"/>
+      <text x="130" y="374" font-size="28">Fulcrum</text>
+      <text x="386" y="374" font-size="28">Grain hollow</text>
+    </g>
+    <path d="M32 414H608" stroke="#d8c9b4" stroke-width="2"/>
+    <g transform="translate(0 420)">
+      <text x="32" y="48" font-size="32" font-weight="650">2  Release the pressure</text>
+      <text x="32" y="88" font-size="27">Pestle drops into the grain</text>
+      <use href="#fixed"/>
+      <use href="#beam"/>
+      <circle cx="210" cy="210" r="8" fill="#332d26"/>
+      <text x="40" y="139" font-size="28">Foot end</text>
+      <path d="M92 187V157" stroke="#30666a" stroke-width="6" marker-end="url(#arrow)"/>
+      <text x="486" y="145" font-size="28">Pestle</text>
+      <path d="M565 180V283" stroke="#30666a" stroke-width="6" marker-end="url(#arrow)"/>
+      <text x="130" y="374" font-size="28">Fulcrum</text>
+      <text x="386" y="374" font-size="28">Grain hollow</text>
+    </g>
+  </g>
+</svg>

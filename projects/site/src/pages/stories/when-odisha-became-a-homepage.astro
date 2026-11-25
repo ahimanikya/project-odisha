@@ -1,0 +1,67 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {markdownToHtml} from 'satteri';
+import '../../styles/article-reading.css';
+import source from '../../../../../kb/research/culture/when-odisha-became-a-homepage.md?raw';
+
+const title='When Odisha Became a Homepage';
+const description='Ahimanikya Satapathy remembers working with Debasmita Misra on the Oriya Homepage’s 1998 redesign.';
+const route='/stories/when-odisha-became-a-homepage/';
+const imageBase='https://archive.projectodisha.org/article-media/when-odisha-became-a-homepage/';
+const dimensions: Record<string,{width:number;height:number}>={
+  'image9.jpg':{width:640,height:480},
+  'image2.jpg':{width:639,height:799},
+  'image8.jpg':{width:639,height:799},
+  'image10.JPG':{width:640,height:480},
+  'image11.JPG':{width:640,height:480},
+  'image3.jpg':{width:1280,height:720},
+  'image4.jpg':{width:1280,height:720},
+  'image5.jpg':{width:1280,height:720},
+  'image6.jpg':{width:368,height:347},
+  'image7.jpg':{width:1280,height:720},
+};
+const shareImage={src:'/images/stories/odia-homepage/image3.jpg',alt:'The redesigned homepage, 1998.',...dimensions['image3.jpg']};
+// Presentation alone changes: the approved prose, captions and references stay intact.
+const markdown=source.replace(/^---\n[\s\S]*?\n---\n/,'').replace(/^# .+\n/m,'');
+let {html}=markdownToHtml(markdown);
+let imageCount=0;
+html=html.replace(/<img\b([^>]*?)src="([^"]+)"([^>]*)>/g,(_whole,before,src,after)=>{
+  const name=src.slice(imageBase.length);
+  const size=dimensions[name];
+  if(!src.startsWith(imageBase)||!size)throw Error('Unmapped approved homepage image: '+src);
+  const loading=imageCount++===0?'eager':'lazy';
+  return `<img${before}src="${src}"${after} width="${size.width}" height="${size.height}" loading="${loading}" decoding="async">`;
+});
+let figureCount=0;
+html=html.replace(/((?:<p><img\b[^>]*><\/p>\s*)+)<p>([\s\S]*?)<\/p>/g,(_whole,images,caption)=>{
+  figureCount++;
+  const names=[...images.matchAll(/src="[^"]*\/([^/\"]+)"/g)].map(match=>match[1]);
+  const width=Math.max(...names.map(name=>dimensions[name].width));
+  return `<figure style="--figure-width:${width}px">${images.replace(/<\/?p>/g,'')}<figcaption>${caption}</figcaption></figure>`;
+});
+if(imageCount!==10||figureCount!==8)throw Error('Approved homepage image/caption grouping changed');
+html=html.replace('<h2>References and image notes</h2>','<h2 id="references-and-image-notes">References and image notes</h2>')
+  .replace('<h2>Email references and recollections</h2>','<h2 id="email-references-and-recollections">Email references and recollections</h2>');
+const furtherReading=[{
+  href:'https://archive.projectodisha.org/odiya.org/',
+  title:'First Odia Home Page — restored website',
+  image:'/images/stories/odia-homepage/image3.jpg',
+}];
+---
+<Shell title={title} description={description} shareImage={shareImage} active="explore" wide related={false}>
+  <article class="article-reading homepage-memoir">
+    <header><h1>{title}</h1><ArticleByline author="Ahimanikya Satapathy"/></header>
+    <div id="approved-article" set:html={html}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href={`/contribute/?page=${encodeURIComponent(route)}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  .homepage-memoir h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  .homepage-memoir :global(#approved-article figure){width:100%;max-width:var(--figure-width);margin:2.5rem auto}
+  .homepage-memoir :global(#approved-article figure img){display:block;width:100%;height:auto;object-fit:contain}
+  .homepage-memoir :global(#approved-article figure img + img){margin-top:1rem}
+  .homepage-memoir :global(#references-and-image-notes){padding-top:1.5rem;border-top:1px solid var(--line)}
+</style>

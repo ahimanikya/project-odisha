@@ -1,0 +1,71 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "PASS_LOCAL_RENDERED_VIEWS",
+  "scope": "Independent inspection of root-captured local screenshots; no browser control or independent interaction claimed.",
+  "inspected_screenshots": {
+    "desktop-full.jpg": {
+      "path": "outputs/sola-publication-20261123/local/desktop-full.jpg",
+      "sha256": "c8bb8d6238b38f3a856b205d6a129c9472de1e66578c9dc73d7651681f513f40"
+    },
+    "mobile-full.jpg": {
+      "path": "outputs/sola-publication-20261123/local/mobile-full.jpg",
+      "sha256": "fb94e33bbe1da12b00856d60df6df1d5aeef566d9df1325085650eb6641be2bf"
+    },
+    "mobile-credit.jpg": {
+      "path": "outputs/sola-publication-20261123/local/mobile-credit.jpg",
+      "sha256": "49a2e98191055ca7efbe1fca3a6181e93640c603e0ba3b12a5ed3eec7d6fe9e8"
+    },
+    "mobile-return.jpg": {
+      "path": "outputs/sola-publication-20261123/local/mobile-return.jpg",
+      "sha256": "d1e16ca0af481ba388ffdf84fa2d5a9dfe15811c4992bef3c8639c27d82bdf15"
+    },
+    "odissi-preview-desktop.jpg": {
+      "path": "outputs/sola-publication-20261123/local/odissi-preview-desktop.jpg",
+      "sha256": "4bfb829435935f21dc73814e546eac9780f35086eb5205e5e5af47f6206717b5"
+    },
+    "odissi-preview-mobile-clear.jpg": {
+      "path": "outputs/sola-publication-20261123/local/odissi-preview-mobile-clear.jpg",
+      "sha256": "d0df528851cd0e202777c57fe0d891f94b3c79329a740e84ac473eed12b75d6e"
+    },
+    "chapter-preview-mobile-clear.jpg": {
+      "path": "outputs/sola-publication-20261123/local/chapter-preview-mobile-clear.jpg",
+      "sha256": "cd22cbdde4f86994928e3beb38e33e268aafb244cde871334f54eaaa84d3b827"
+    },
+    "chapter-preview-mobile-fixed.jpg": {
+      "path": "outputs/sola-publication-20261123/local/chapter-preview-mobile-fixed.jpg",
+      "sha256": "47b5331cd601c2291f494bf788dd8eeb7d1f0380cbdbbdf7df1c26018b55c294"
+    },
+    "chapter-preview-desktop-fixed.jpg": {
+      "path": "outputs/sola-publication-20261123/local/chapter-preview-desktop-fixed.jpg",
+      "sha256": "ddddecf61e1787f47f34968468badaf2f429f4497f5a9d6aca5ae2688df0b4bf"
+    }
+  },
+  "findings": [
+    "Desktop and mobile full-page article: clear single title/byline, readable prose and headings, complete full-frame tahia photograph, source section and both outgoing reading paths. No visible horizontal clipping.",
+    "Source2 creator, Commons source, CC BY-SA4.0, date and alteration statement visibly readable in full-page screenshots.",
+    "mobile-credit.jpg is a photo/caption view, not a source-note view. mobile-return.jpg visibly shows focus on caption reference2. These filenames do not establish the forward interaction.",
+    "Odissi clear desktop/mobile previews contain the full photo, readable article title and visible single-digit source7 reference; existing reading links remain. Mobile arrow wraps to a separate line without obscuring the link.",
+    "Old chapter-preview-mobile-clear.jpg visibly splits source12 into stacked digits. This is retained as failure evidence, not a passing screenshot.",
+    "Current source adds exactly .sola-reading-item > sup{flex-shrink:0;white-space:nowrap} inside the existing material-chapter conditional styling. Independently inspected final rebuilt chapter mobile and desktop screenshots: complete photo, readable title, single-line12 marker, preserved surrounding reading cards and no visible clipping. Earlier split-marker screenshot remains historical failure evidence."
+  ],
+  "chapter_template_sha256": "bd419fb09c54541e5b6be0e4ce0664f82bf2051acb369c317f0c9499534f326b",
+  "root_reported_interaction": "Root reports native click reached source2 and keyboard Enter returned focus to reference2; reviewer did not perform these interactions.",
+  "pending": [
+    "Final Hindola delivered-image/credit/share-dimension package review",
+    "Completed local package and actual mandatory Linux CI",
+    "Exact committed candidate binding and live delivery"
+  ],
+  "blockers_for_inspected_article_and_odissi": [],
+  "limits": "Screenshots prove only captured views. No cross-engine, real-device, independent DOM overflow, browser interaction, final build or publication acceptance claimed.",
+  "root_browser_record": {
+    "path": "outputs/sola-publication-20261123/local/browser-verification.json",
+    "sha256": "161816b23704dba248706f449e7142f44c98251a988157480bfe49c384a12f08",
+    "reviewed": true,
+    "attribution": "Disha operated Chromium viewport simulation; reviewer only inspected saved record and screenshots.",
+    "reported_metrics": "Article1440/390 scroll width equals viewport; rebuilt chapter390 scroll width390 and single-line marker14.03125x22,nowrap,flex-shrink0.",
+    "reported_interactions": "Both incoming Sola cards opened the actual new route; native source2 click and keyboard return reached correct targets.",
+    "historical_limit": "Top-level chapter_failure retains earlier pending language; corrected_chapter supplies the later rebuilt successful verification."
+  },
+  "blockers": []
+}

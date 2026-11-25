@@ -1,0 +1,173 @@
+{
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next article for Project Odisha. Don’t copy their content.",
+  "scope": "Independent research and reviewed article draft only. No website integration or publication.",
+  "programme_credit": 0,
+  "assignments": {
+    "Disha": "Topic selection, shared records, editorial integration and delivery",
+    "Anvesha": "Independent evidence research in reserved source-review record",
+    "Samanta": "Draft article and publication brief after evidence handoff",
+    "Drishti": "Separate read-only source, originality and editorial review"
+  },
+  "runtime": "Existing separate task-scoped AI agents reused; not human reviewers or continuous staff.",
+  "claim_location": "team/operations.json:draft_preparation",
+  "status": "prepared_reviewed",
+  "article_id": "POD-EDIT-SAGADA-20261121",
+  "authorization": "POD-DEC-2026112112",
+  "work_id": "POD-WORK-2026112112",
+  "scope_released": true,
+  "input_head": "6aec023c01138a88c98308603a13ff13dc97cf19",
+  "remote_reconciliation": {
+    "prior_receipt_pr": 809,
+    "prior_receipt_merged": true,
+    "required_check_run": 44907268088,
+    "required_check_result": "SUCCESS",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "preserved_foreign_task": "POD-EDIT-133"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/sagada-source-review-20261121.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/sagada-and-the-work-of-the-bullock-cart.md",
+      "outputs/sagada-article-2026-11-21/publication-brief.md"
+    ],
+    "Disha": [
+      "shared registers, map, handoff and clean reading copy"
+    ]
+  },
+  "novelty": {
+    "queries": [
+      "cart",
+      "Sagada",
+      "sagad",
+      "cart wheel",
+      "bullock cart",
+      "ଶଗଡ଼",
+      "ଶଗଡ"
+    ],
+    "finding": "No dedicated cart or cart-wheel narrative found in scoped map and corpus searches. Magunira Sagada appears in a literary-attribution research record, not a cart-design article. Other search results concern unrelated place names and transport references.",
+    "reuse": [
+      "culture/index.md",
+      "people/people-and-creations.md",
+      "references/data/research-queue.json:RES-033.reuse_before_research",
+      "projects/site/src/data/cultural-book.json",
+      "sources/literature-and-screen-expansion-2026-10-29.json"
+    ],
+    "missing_question": "What does a historical Odisha engineering study reveal about the relationship between a bullock cart’s wheel, load and road?",
+    "limits": "Scoped alias and semantic check, not exhaustive proof of absence."
+  },
+  "discovery_only": {
+    "title": "ଶଗଡ଼ଚକ",
+    "url": "https://antarangakalinga.org/ଶଗଡ଼ଚକ/",
+    "publisher": "Antaranga Kalinga",
+    "author": "Deba Tripathy (ଦେଵ ତ୍ରିପାଠୀ)",
+    "publication_date": "2020-05-11",
+    "use": "Topic discovery and originality comparison only; no prose, narrative sequence, factual evidence or media reused."
+  },
+  "completed_on": "2026-11-21",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "This request delivers a local article draft and editorial evidence. No public route or website asset changed.",
+  "next_action": "Reviewed article and publication brief delivered for Founder review; website integration awaits a publication instruction.",
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "evidence_ready_for_draft",
+    "source_ids": [
+      "sagada-yadav-ama-1978",
+      "sagada-adeoti-ilca-1993",
+      "sagada-cstt-administrative-glossary"
+    ],
+    "unused_leads": [
+      "sagada-nmma-1355279"
+    ],
+    "finding": "Official 1978 engineering article and later comparative transport chapter support a bounded historical design essay. Official glossary supports the Odia term. Museum model and Chuda wheelmaker leads are not used in public prose.",
+    "limits": [
+      "Separate AI review, not human specialist approval.",
+      "Original 1978 cover and all four article pages visually inspected; not the whole journal issue.",
+      "CSTT lexical entry checked through original-domain indexed text; direct PDF access timed out.",
+      "FAO-hosted chapter is comparative context, not an Odisha survey.",
+      "No fieldwork, interview, engineering validation, cleared image reuse or current prevalence claim.",
+      "No rendered website layout, integration or publication claimed."
+    ]
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "changed_files": [
+      "kb/research/culture/sagada-and-the-work-of-the-bullock-cart.md",
+      "outputs/sagada-article-2026-11-21/publication-brief.md"
+    ],
+    "editorial_revision": "Disha tightened repeated loading and repair prose, added a PDF page fragment to the source link and generated a matching clean reading copy."
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "reviewed_article_sha256": "6b881304e7b4a1692d1ea5968803f902a6d482a46e692bb4555cc450ffd953dd",
+    "findings": [
+      "Distinct historical cart-design subject adds beyond literary attribution and incidental transport references.",
+      "No copied or translated Antaranga prose, distinctive narrative sequence or media.",
+      "Dates, geography, lexical access and engineering evidence limits remain distinct.",
+      "Five footnote references resolve to three definitions; reading copy matches the canonical body.",
+      "Two proposed reading routes verified in local sources."
+    ],
+    "conservative_derived_word_allocations": {
+      "yadav-ama-1978-study": 190,
+      "adeoti-ilca-1993": 169,
+      "cstt-english-oriya-glossary": 86
+    },
+    "counting_scope": "Article plus brief: full title/dek and all three headings charged to each family; full mixed opening to Yadav and CSTT; relevant source paragraphs and complete notes; closing reader question to Yadav and Adeoti; first cross-context sentence additionally to Yadav; remaining reflection to Adeoti; brief topic heading and corresponding source locators. Identical reading-copy text adds no distinct prose. Internal process, rights and scoped corpus-search commentary are not derived technical claims.",
+    "limits": [
+      "Separate AI review, not human specialist approval.",
+      "Original 1978 cover and all four article pages visually inspected; not the whole journal issue.",
+      "CSTT lexical entry checked through original-domain indexed text; direct PDF access timed out.",
+      "FAO-hosted chapter is comparative context, not an Odisha survey.",
+      "No fieldwork, interview, engineering validation, cleared image reuse or current prevalence claim.",
+      "No rendered website layout, integration or publication claimed."
+    ]
+  },
+  "delivery_files": [
+    {
+      "path": "kb/research/culture/sagada-and-the-work-of-the-bullock-cart.md",
+      "sha256": "6b881304e7b4a1692d1ea5968803f902a6d482a46e692bb4555cc450ffd953dd"
+    },
+    {
+      "path": "kb/research/culture/sagada-source-review-20261121.json",
+      "sha256": "3f28b5342d205e1fecb1c70c4c4c9161f8110b25cf83bde3402cc3b04a299f5a"
+    },
+    {
+      "path": "outputs/sagada-article-2026-11-21/article.md",
+      "sha256": "6ccbd89b16d0e7c10b4835bc05bb8b6beb0b001de41cf495c73954fa8e005359"
+    },
+    {
+      "path": "outputs/sagada-article-2026-11-21/publication-brief.md",
+      "sha256": "8312d7b6abd7605f7d31422a78f44fdc48af30ecaedd9ec45e201999388439ff"
+    }
+  ],
+  "validation": {
+    "notes": {
+      "definitions": 3,
+      "references": 5,
+      "all_resolve": true
+    },
+    "reading_copy_matches_canonical_body": true,
+    "foreign_task_preserved": true,
+    "research_map": "pass; 1834 records",
+    "bundle": "pass; 1905 concepts",
+    "git_diff_whitespace": "pass",
+    "autonomous_program": "pass; record consistency only, zero programme credit",
+    "team_assignments": "pass",
+    "registers": "pass; 1286 records, 761 events",
+    "catalogue": "pass; 1905 concepts",
+    "delivery_hashes": "pass"
+  }
+}

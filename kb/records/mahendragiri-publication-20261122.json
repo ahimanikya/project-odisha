@@ -1,0 +1,625 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-MAHENDRAGIRI-20261122",
+  "route": "/destinations/mahendragiri/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization": "POD-DEC-2026112297",
+  "authorization_quote": "Once the brass-fish release is complete, continue with Mahendragiri. Research, review and publish it with a high-quality image in the article and preview, then move through the remaining hill destinations one at a time.",
+  "work_id": "POD-WORK-2026112297",
+  "programme_credit": 0,
+  "scope_released": true,
+  "input_head": "dc009e63517ffc99d95a6d5448ca0c10c83f676a",
+  "preceding_release": {
+    "article": "Bellaguntha’s Brass Fish",
+    "receipt_pr": 823,
+    "reviewed_head": "e94ec4082ac7fc5b006fc0d0f93648ea5ceb77c2",
+    "receipt_merge": "dc009e63517ffc99d95a6d5448ca0c10c83f676a",
+    "required_check": 44986206952,
+    "attempt": 2,
+    "conclusion": "success",
+    "deployment_run": 44983816493,
+    "deployment_conclusion": "success",
+    "explicit_slot_return": "Owner chat 01a1fb2f-f551-7330-b96b-507aaed53178 confirmed completed receipt and idle workers; slot returned for Mahendragiri."
+  },
+  "coordination": {
+    "foreign_task": "POD-EDIT-133 current_task and handoff_home preserved",
+    "single_article": "Mahendragiri only; remaining hills stay queued"
+  },
+  "assignments": {
+    "Disha": "Coordinator, imagery, shared records and publication",
+    "Anvesha": "Bounded research and source review",
+    "Samanta": "Bounded engineering and article implementation after evidence",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/mahendragiri-publication-2026-11-22/research/findings.md",
+      "outputs/mahendragiri-publication-2026-11-22/research/integrated-source-review.md"
+    ],
+    "Samanta": [
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs",
+      "outputs/mahendragiri-publication-2026-11-22/capacity/findings.md",
+      "kb/research/places/mahendragiri-article.md",
+      "projects/site/src/pages/destinations/mahendragiri.astro",
+      "projects/site/src/data/hill-destinations.ts",
+      "projects/site/src/pages/destinations/hills.astro",
+      "projects/site/src/data/discovery.ts",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "outputs/mahendragiri-publication-2026-11-22/review/implementation.md",
+      "projects/site/tests-coast/discovery-flow.test.mjs"
+    ],
+    "Drishti": [],
+    "Disha": [
+      "kb/records/mahendragiri-publication-20261122.json",
+      "shared records",
+      "Mahendragiri image provenance and assets"
+    ]
+  },
+  "reuse_before_research": {
+    "queries": [
+      "query_research.py Mahendragiri",
+      "mahendragiri|mahendra giri in kb/research"
+    ],
+    "finding": "No dedicated narrative returned by dated map. Existing portal snapshot identifies cluster/destination and Koinpur GP, not operating homestay evidence; personal Ekamra essay recalls guide’s Shailodbhava legend, not independent history; Deepak tracker contains bibliographic lead only, no inspected Juge Juge Mahendragiri pages. Preserve distinctions.",
+    "pointers": [
+      "research/references/data/homestay-portal-areas-20261001.json",
+      "research/stories/ekamra-evening.md",
+      "research/references/data/deepak-nayak-work-tracker.json",
+      "research/methods/trip-planning-content.md"
+    ],
+    "missing_question": "Verify mountain identity, landscape, temple/pilgrimage and conservation evidence, source conflicts about elevation or rank, practical access/season information, and authentic rights-cleared photography."
+  },
+  "image_requirement": "High-quality relevant rights-cleared photograph in article, preview and sharing metadata; additional images if useful.",
+  "capacity": {
+    "prior_linux_payload_bytes": 999928292,
+    "remaining_bytes": 71708,
+    "next_action": "Find bounded safe delivery optimization preserving originals, URLs, credits and quality before adding image; no gate weakening.",
+    "selected_asset": "assets/bhubaneswar-week/conversations.jpg",
+    "method": "Existing delivery-only JPEG3072px q95 4:4:4; unchanged source/coastal original and URL; full frame, metadata and credit retained; lossy derivative explicitly described.",
+    "measured_saving_bytes": 2613929,
+    "root_visual_review": "Display-size and native-scale detail comparisons inspected; no conspicuous loss observed. Final package and separate review still required.",
+    "targeted_tests": {
+      "executor": "Samanta",
+      "result": "4 JPEG tests passed",
+      "root_verification_pending": false,
+      "root_verification": "Included in completed full suite:822 passing tests"
+    },
+    "actual_local_publication_check": "outputs/mahendragiri-publication-2026-11-22/review/optimized-photo-check.json",
+    "actual_local_payload_bytes": 997139858,
+    "linux_payload_pending": false,
+    "actual_linux_ci_payload_bytes": 997913048,
+    "live_jpeg_encoding_review": {
+      "reviewer": "Samanta",
+      "kind": "separate_ai_agent_implementation_diagnosis",
+      "report": "outputs/mahendragiri-publication-2026-11-22/live/jpeg-encoding-review.json",
+      "live_bytes": 1682420,
+      "live_sha256": "76dbf620ed1699b70dc381f741175eb873f3a3bb7d44ca009dd130b236e65e2e",
+      "live_saving_bytes": 2613913,
+      "same_as_mac_bytes": false,
+      "pixels_identical": false,
+      "finding": "133 of5308416pixels differ; maxchannel delta2/255. Same dimensions and byte-identical ICC/IPTC/XMP/EXIF blocks. No discernible quality change in full and detail comparison. Exact platform encoder cause not reproduced. Original source/coast preserved.",
+      "initial_live_check": "Exact-byte comparison intentionally failed and triggered diagnosis; no pixel-identical claim or unexamined exception."
+    }
+  },
+  "remote_reconciliation": {
+    "main": "dc009e63517ffc99d95a6d5448ca0c10c83f676a",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "publication_running": false
+  },
+  "next_action": "Merge reviewed evidence-only receipt, then explicitly hand the single-article preparation slot to Research Antaranga Kalinga. Resume Taptapani after its completed preparation and explicit return.",
+  "media": {
+    "checked_on": "2026-11-22",
+    "source": "https://commons.wikimedia.org/wiki/File:Mahendragiri_Hills.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mahendragiri_Hills.jpg",
+    "creator": "Subhamsahoo2008",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_date": "2022-07-02",
+    "original_bytes": 149320,
+    "original_sha256": "296694e83748a546771ba76abc5066a149413c331d9ed2079fe817caa155144f",
+    "source_sha1": "4012d24a7751cc50e409ee182f2f3a1b3d8371cd",
+    "dimensions": [
+      1080,
+      771
+    ],
+    "identity_evidence": "Uploader identifies own work as Mahendragiri Hills; Commons lists use on Mahendragiri (Odisha) and Gajapati district pages. No exact viewpoint or temple location inferred.",
+    "visual_review": "Root inspected complete original: detailed wooded ridges, red-earth winding track, no watermark/text overlay. 1080px adequate for approximately695px article column; no enlargement beyond native image requested.",
+    "modification": "None to original public JPEG. Existing responsive derivatives and preview framing retain same licence and are disclosed.",
+    "rejected_or_unused_candidates": [
+      {
+        "source": "https://commons.wikimedia.org/wiki/File:BhimaTemple-Mahendragiri-Odisha-002.jpg",
+        "status": "Original download HTTP429; no file obtained, not used.",
+        "known_rights": "Vsvlss CC BY-SA4.0,4160x3120, camera18.967200,84.366170."
+      },
+      {
+        "source": "https://commons.wikimedia.org/wiki/File:Mahendragiri_Temple,_Mahendragiri.jpg",
+        "status": "679x452 only; not selected when landscape provides stronger opening image."
+      }
+    ],
+    "metadata": "research/destinations/mahendragiri-image.json"
+  },
+  "research_evidence": {
+    "researcher": "Anvesha",
+    "kind": "separate_ai_agent",
+    "report": "outputs/mahendragiri-publication-2026-11-22/research/findings.md",
+    "originals": [
+      "outputs/mahendragiri-publication-2026-11-22/research/mahendragiri-notification.pdf",
+      "outputs/mahendragiri-publication-2026-11-22/research/asi-protected-monuments.pdf"
+    ],
+    "scope": "Notification pp1–2 and ASI p77 visually verified; district/Tourism/NBA and original JoTT paper directly read. No fieldwork or current service inspection.",
+    "original_hashes": {
+      "outputs/mahendragiri-publication-2026-11-22/research/mahendragiri-notification.pdf": "cff67035c57d3372b50980a6445508f8788b80954d1e849ab3d04fffdfd58722",
+      "outputs/mahendragiri-publication-2026-11-22/research/asi-protected-monuments.pdf": "93c6d6bd34e8cbb200dd4920e66c2390bd55e4a1048404eb338cc6dacef414d0"
+    }
+  },
+  "modern_web_guidance": {
+    "skill_read": ".agents/skills/modern-web-guidance/SKILL.md",
+    "retrieval_limitation": "Unpinned npx execution rejected by automatic approval earlier in this session; not retried or bypassed.",
+    "reused_guidance": "Previously retrieved HTML/responsive/card guidance in /private/tmp/deomali-web-guidance.md; existing static components and native references; official documentation fallback for current compatibility if needed.",
+    "target": "Baseline Widely available",
+    "review_pending": false
+  },
+  "preliminary_media_capacity_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass_with_pending_delivery_checks",
+    "findings": "Fresh Commons source and local/public hashes verified. Selected landscape detailed enough at695px. Identity is uploader attribution and supporting usage, no independently geolocated viewpoint. Conversations comparisons visually inspected with no conspicuous loss; measured1682404B and2613929B saving; original/coastal hashes, full frame and profile metadata preserved. Exact allowlist/caption scope only.",
+    "remaining": [
+      "Targeted regression result review",
+      "Final emitted publication derivative/caption",
+      "Rebuilt desktop/mobile article and preview",
+      "Actual Linux payload",
+      "Live delivery checks"
+    ],
+    "human_review_claimed": false
+  },
+  "implementation": {
+    "implementer": "Samanta",
+    "kind": "separate_ai_agent",
+    "report": "outputs/mahendragiri-publication-2026-11-22/review/implementation.md",
+    "manuscript_sha256": "5d16ae57ffcb73a0015a167771adfeb6d0d15e01f32c2bff68e57cbfadac8d6c",
+    "scope_released": true,
+    "checks": "Astro and data parser checks,16native note/return targets and4JPEG regressions passed; full builds pending."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/mahendragiri-publication-2026-11-22/research/integrated-source-review.md",
+    "manuscript_sha256": "5d16ae57ffcb73a0015a167771adfeb6d0d15e01f32c2bff68e57cbfadac8d6c",
+    "family_word_totals": {
+      "district": 104,
+      "ASI": 177,
+      "biodiversity": 161,
+      "JoTT": 172,
+      "Tourism": 162,
+      "image_provenance": 46
+    }
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_tests": 822,
+    "full_disclosures": {
+      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
+      "pages": 1493,
+      "violations": []
+    },
+    "initial_test_attempt": "Started prematurely before Dhaga export finished; missing generated Dhaga files caused failure. Complete build then repeated unchanged tests:822pass. Not a source defect or waived test.",
+    "coastal_build": "pass",
+    "coastal_tests": 598,
+    "coastal_disclosures": {
+      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
+      "pages": 1478,
+      "violations": []
+    },
+    "publication_build": "pass",
+    "targeted_article_checks": "outputs/mahendragiri-publication-2026-11-22/local-checks.json",
+    "publication_payload": {
+      "status": "PASS",
+      "regular_file_bytes": 997139858,
+      "regular_files": 3596,
+      "directories": 815,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 87250,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+          "bytes": 190064100
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+          "bytes": 51351553
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+          "bytes": 38421623
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "archive/mirgan-kotpad-reading.pdf",
+          "bytes": 7410047
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+          "bytes": 3891461
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "publication_disclosures": {
+      "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-publish",
+      "pages": 1479,
+      "violations": []
+    }
+  },
+  "browser_review": {
+    "executor": "Disha root",
+    "stage": "full local build",
+    "desktop": {
+      "caption": "The hills at Mahendragiri, photographed in July 2022. Photograph by Subhamsahoo2008, CC BY-SA 4.0. Original photograph; full frame in the article. Responsive copies are resized; previews may be cropped, under the same licence.",
+      "complete": true,
+      "hero": [
+        695.203125,
+        496.0546875
+      ],
+      "natural": [
+        695,
+        496
+      ],
+      "notes": 7,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "complete": true,
+      "hero": [
+        351.609375,
+        250.8828125
+      ],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "narrow": {
+      "scrollWidth": 320,
+      "width": 320
+    },
+    "noteJump": {
+      "focus": "page-top",
+      "hash": "#user-content-fn-mahendragiri-district",
+      "noteTop": -0.0703125
+    },
+    "noteReturn": {
+      "focus": "user-content-fnref-mahendragiri-district",
+      "hash": "#user-content-fnref-mahendragiri-district",
+      "refTop": -0.125
+    },
+    "preview": {
+      "complete": true,
+      "image": "http://127.0.0.1:4321/images/destinations/mahendragiri-hills.jpg",
+      "size": [
+        423.6015625,
+        282.3984375
+      ],
+      "text": "Mahendragiri ↗\n\nMountain shrines and forest life in Gajapati."
+    },
+    "explore": {
+      "overflow": false,
+      "results": "PLACES · GAJAPATI\n\nMahendragiri\n\nMountain shrines and forest life in Gajapati.\n\nREAD THE ENTRY\n↗\n\nPLACES · ACROSS ODISHA\n\nHills and highland escapes\n\nExplore Odisha’s peaks, valleys and hill towns, with guides to Deomali, Daringbadi, Putsil, Mandasaru and Mahendragiri.\n\nREAD THE ENTRY\n↗"
+    },
+    "limitations": [
+      "Chromium in-app browser only; no screen reader or field performance claim.",
+      "Initial captures occurred during smooth scrolling; saved footnote and preview images replaced after settled view."
+    ],
+    "screenshots": [
+      "outputs/mahendragiri-publication-2026-11-22/review/desktop.jpg",
+      "outputs/mahendragiri-publication-2026-11-22/review/mobile.jpg",
+      "outputs/mahendragiri-publication-2026-11-22/review/footnotes.jpg",
+      "outputs/mahendragiri-publication-2026-11-22/review/preview.jpg",
+      "outputs/mahendragiri-publication-2026-11-22/review/explore-preview.jpg"
+    ]
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_release_conditions",
+    "manuscript_sha256": "5d16ae57ffcb73a0015a167771adfeb6d0d15e01f32c2bff68e57cbfadac8d6c",
+    "rendered_article_sha256": "fcade62b82cb1cd1db9a888bf4374915898faae914fd5082374b2ede67dd5332",
+    "evidence": "outputs/mahendragiri-publication-2026-11-22/review/drishti-review.md",
+    "remaining": [
+      "Final package and emitted optimized photograph/page",
+      "Exact frozen-head required CI",
+      "Deployment and live checks",
+      "Reviewed receipt integration"
+    ]
+  },
+  "reserved_files_released_by_workers": true,
+  "final_package_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass_with_remote_delivery_conditions",
+    "evidence": "outputs/mahendragiri-publication-2026-11-22/review/final-package-review.md",
+    "scope": "Actual local working tree and dist-publish package; not yet committed candidate",
+    "remaining": [
+      "Committed-candidate continuity",
+      "Exact-head Linux CI",
+      "Deployment and live verification",
+      "Reviewed receipt merge"
+    ]
+  },
+  "pull_request": 824,
+  "reviewed_head": "b005dfb2b79c0ccea202f396ccdd52cb63c2c6aa",
+  "merge_sha": "14ba683b58e8026e661f77ad4973054d02285b99",
+  "ci": {
+    "run": 44991387735,
+    "conclusion": "success",
+    "full_tests": 822,
+    "coast_tests": 598,
+    "payload_bytes": 997913048,
+    "disclosure_pages": {
+      "full": 1493,
+      "coast": 1478,
+      "publication": 1479
+    },
+    "disclosure_violations": 0
+  },
+  "deployment": {
+    "run": 44993334496,
+    "source_sha": "14ba683b58e8026e661f77ad4973054d02285b99",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 997913048
+  },
+  "release_continuity_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass_with_remote_delivery_conditions",
+    "reviewed_head": "b005dfb2b79c0ccea202f396ccdd52cb63c2c6aa",
+    "actual_review": "Approved committed-candidate continuity. Clean tree; manuscript and original-photo hashes match; all three built article fragments retain reviewed hash; review records faithfully preserve attribution and limits. Foreign ownership/history preserved; zero programme credit. No blockers. Exact-head Linux CI, deployment/live and receipt review remain pending."
+  },
+  "completed_at": "2026-11-22T06:53:58.666916+00:00",
+  "live_verification": {
+    "/destinations/mahendragiri/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "photograph_present": true,
+      "reference_and_return_targets": 16,
+      "all_targets_resolve": true,
+      "article_sha256": "4975b460a046480f613b10364bdfa030b63dd0e3a893444a3644810b745e2ddf",
+      "local_article_sha256": "fcade62b82cb1cd1db9a888bf4374915898faae914fd5082374b2ede67dd5332",
+      "normalized_article_matches_local": true,
+      "normalization": "Only content-addressed responsive WebP filenames; each live variant fetched and SHA256 prefix verified.",
+      "source_heading_count": 1,
+      "matching_share_image": true,
+      "hero_variants": [
+        {
+          "path": "/images/responsive/28c48896e93a7787-480.webp",
+          "width_descriptor": "480w",
+          "bytes": 43552,
+          "sha256": "28c48896e93a7787c5e06ab87c874e119f4a508ebbf2334624d366571adddc8f"
+        },
+        {
+          "path": "/images/responsive/3c4ac744aee98db5-960.webp",
+          "width_descriptor": "960w",
+          "bytes": 171296,
+          "sha256": "3c4ac744aee98db541c593ea7b9ca591fcbe4eecedea821e55ba00c90de20236"
+        },
+        {
+          "path": "/images/responsive/30bc213e140dc227-1080.webp",
+          "width_descriptor": "1080w",
+          "bytes": 204194,
+          "sha256": "30bc213e140dc227b9cfa10f0ee679ed7915fe4a0c823190e448efd1fb2766bb"
+        }
+      ]
+    },
+    "/destinations/hills/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "mahendragiri_link": true,
+      "photograph_present": true
+    },
+    "/destinations/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "mahendragiri_link": true,
+      "photograph_present": true
+    },
+    "/explore/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "mahendragiri_link": true,
+      "photograph_present": true
+    },
+    "landscape_image": {
+      "path": "/images/destinations/mahendragiri-hills.jpg",
+      "http_status": 200,
+      "bytes": 149320,
+      "sha256": "296694e83748a546771ba76abc5066a149413c331d9ed2079fe817caa155144f",
+      "matches_reviewed_asset": true
+    },
+    "/stories/bhubaneswar-week/": {
+      "http_status": 200,
+      "delivery_caption_present": true,
+      "article_sha256": "a4b0111e4c2c2c206a4a95dee94303eafcb6c6ef05f93f15d3fa8ed0ac8f443f",
+      "normalized_article_matches_local": true,
+      "sharing_image_unchanged": true
+    },
+    "optimized_photo": {
+      "http_status": 200,
+      "path": "/assets/bhubaneswar-week/conversations.jpg",
+      "bytes": 1682420,
+      "sha256": "76dbf620ed1699b70dc381f741175eb873f3a3bb7d44ca009dd130b236e65e2e",
+      "matches_mac_candidate_bytes": false,
+      "matches_separately_reviewed_live_asset": true,
+      "encoding_review": "live/jpeg-encoding-review.json"
+    },
+    "checked_at": "2026-11-22T06:52:29.894413+00:00",
+    "hero_variant_enumeration": "Deduplicated HTML img and noscript fallback entries; three unique delivered files."
+  },
+  "live_browser_review": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "kind": "root browser interactions and measurements",
+    "surface": "Live site in in-app Chromium",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "measurements": {
+      "desktop": {
+        "dimensions": [
+          695.203125,
+          496.0546875
+        ],
+        "h1": 1,
+        "loaded": true,
+        "overflow": false
+      },
+      "mobile": {
+        "dimensions": [
+          351.609375,
+          250.8828125
+        ],
+        "loaded": true,
+        "overflow": false,
+        "top": 410.015625
+      },
+      "note": {
+        "hash": "#user-content-fn-mahendragiri-district",
+        "top": -0.0703125
+      },
+      "returnLink": {
+        "focus": "user-content-fnref-mahendragiri-district",
+        "hash": "#user-content-fnref-mahendragiri-district",
+        "top": -0.125
+      },
+      "preview": {
+        "bottom": 441.6875,
+        "dimensions": [
+          356,
+          237.328125
+        ],
+        "loaded": true,
+        "overflow": false,
+        "top": 204.359375
+      },
+      "explore": {
+        "bottom": 507.984375,
+        "dimensions": [
+          420.265625,
+          289.8359375
+        ],
+        "loaded": true,
+        "overflow": false,
+        "results": "PLACES · GAJAPATI\n\nMahendragiri\n\nMountain shrines and forest life in Gajapati.\n\nREAD THE ENTRY\n↗\n\nPLACES · ACROSS ODISHA\n\nHills and highland escapes\n\nExplore Odisha’s peaks, valleys and hill towns, with guides to Deomali, Daringbadi, Putsil, Mandasaru and Mahendragiri.\n\nREAD THE ENTRY\n↗",
+        "top": 218.1484375
+      },
+      "optimizedPhoto": {
+        "bottom": 810.546875,
+        "caption": "A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy. Full frame, resized and compressed for web delivery.",
+        "currentSrc": "https://projectodisha.org/images/responsive/9be5cb4f1c451dba-480.webp",
+        "dimensions": [
+          420,
+          747.25
+        ],
+        "loaded": true,
+        "overflow": false,
+        "top": 63.296875
+      }
+    },
+    "screenshots": [
+      "review/live-desktop.jpg",
+      "review/live-mobile.jpg",
+      "review/live-footnotes.jpg",
+      "review/live-preview.jpg",
+      "review/live-explore-preview.jpg",
+      "review/live-optimized-photo.jpg"
+    ],
+    "limitations": [
+      "Viewport simulation; not physical-device, cross-engine or screen-reader certification.",
+      "Desktop opening screenshot shows full hero but caption below viewport; mobile shows full hero and credit. Notes screenshot shows1–5 and beginning6; all7 structurally checked.",
+      "Optimized-photo browser screenshot displays unchanged responsive WebP. Actual JPEG encoding separately compared, not certified from browser screenshot."
+    ],
+    "reciprocal_links": "Mahendragiri → hills hub → Mahendragiri passed",
+    "keyboard_note_and_return": "First note jumps to viewport top; backlink returns focus to reference."
+  },
+  "verified_routes": [
+    "/destinations/mahendragiri/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/bhubaneswar-week/"
+  ],
+  "receipt_integration": {
+    "status": "reviewed_ready_to_integrate",
+    "deployment_required": false,
+    "reason": "Evidence-only records, live checks and screenshots. Website source remains release merge14ba683b58e8026e661f77ad4973054d02285b99.",
+    "release_condition": "Effective only when the separately reviewed evidence-only receipt merges; no next article starts before that merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "evidence": "outputs/mahendragiri-publication-2026-11-22/review/delivery-review.json",
+    "checks": [
+      "Exact-head CI and deployment independently verified with997913048byte payload and822/598tests.",
+      "Five fresh live routes; both article fragments match except content-addressed responsive filenames.",
+      "All9 unique Mahendragiri and15 Bhubaneswar article responsive files fetched and dimensions/hash prefixes verified; new original photograph exact.",
+      "Six live screenshots inspected; credits, previews and notes pass. Root interactions/measurements attributed accurately.",
+      "Live JPEG difference independently reproduced and full/detail comparisons inspected; no discernible regression; not byte/pixel identical.",
+      "Foreign task, history and source originals preserved; evidence-only receipt;zero programme credit."
+    ],
+    "limitations": [
+      "Separate AI review, not human specialist review or field verification.",
+      "Viewport simulations not physical-device/cross-engine/screen-reader certification.",
+      "Exact encoding-difference cause unproved; browser photo screenshot uses unchanged WebP."
+    ]
+  },
+  "gate_resolution": "PR824 exact-head CI, deployment, live verification and separate delivery review passed; claim release effective only upon receipt merge.",
+  "next_slot_handoff": {
+    "target_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "Independent preparation only, topic selection in owner chat; no publication authorization inferred.",
+    "status": "reserved_after_receipt_merge",
+    "human_instruction_verified": true,
+    "human_instruction_quote": "Once Mahendragiri’s release is complete, find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+    "verification": "Read actual human userMessage in owner chat via read_thread on22November2026.",
+    "next_hill_after_return": "taptapani"
+  }
+}

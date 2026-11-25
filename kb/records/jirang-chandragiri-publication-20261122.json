@@ -1,0 +1,423 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-JIRANG-CHANDRAGIRI-20261122",
+  "route": "/destinations/jirang-chandragiri/",
+  "owner": "Disha",
+  "started_on": "2026-11-22",
+  "authorization": "POD-DEC-2026112297",
+  "work_id": "POD-WORK-2026112299",
+  "programme_credit": 0,
+  "scope_released": true,
+  "input_head": "39da6cb89f49558148676b7162f7aab04a644c2e",
+  "preceding_release": {
+    "article": "Binchana",
+    "receipt_pr": 829,
+    "reviewed_head": "dda9eb16b47e96887f0b14f557dd428b6734c72d",
+    "receipt_merge": "39da6cb89f49558148676b7162f7aab04a644c2e",
+    "required_check": 45018853203,
+    "attempt": 1,
+    "conclusion": "success",
+    "explicit_slot_return": true,
+    "verified_by": "Disha via actual GitHub PR and run queries, fetched main"
+  },
+  "assignments": {
+    "Disha": "Single coordinator, shared records, image and publishing",
+    "Anvesha": "Bounded research and source review",
+    "Samanta": "Capacity assessment then bounded implementation",
+    "Drishti": "Separate quality and delivery review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/jirang-chandragiri-publication-2026-11-22/research/findings.md",
+      "outputs/jirang-chandragiri-publication-2026-11-22/research/integrated-source-review.md"
+    ],
+    "Samanta": [
+      "kb/research/places/jirang-chandragiri-article.md",
+      "projects/site/src/pages/destinations/jirang-chandragiri.astro",
+      "projects/site/src/data/hill-destinations.ts",
+      "projects/site/src/pages/destinations/hills.astro",
+      "projects/site/src/data/discovery.ts",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/implementation.md"
+    ],
+    "Drishti": [
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/drishti-review.md",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/final-package-review.md",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/delivery-review.json"
+    ],
+    "Disha": [
+      "records/jirang-chandragiri-publication-20261122.json",
+      "shared records",
+      "new image assets and provenance",
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs"
+    ]
+  },
+  "reuse_before_research": {
+    "queries": [
+      "query_research.py Jirang",
+      "query_research.py Chandragiri",
+      "corpus aliases Jirang/Jeerang/Chandragiri/Padmasambhava/Phuntsokling"
+    ],
+    "finding": "No dedicated narrative in scoped searches. Existing dated homestay portal record identifies Jeerango RTTM Khasada in Mohana,Gajapati; not evidence of visitor facilities or monastery history. Regional research and visitor-question methodology reused.",
+    "pointers": [
+      "research/references/data/homestay-portal-areas-20261001.json",
+      "research/methods/trip-planning-content.md",
+      "research/references/data/research-queue.json:RES-014",
+      "research/references/data/research-queue.json:RES-023"
+    ],
+    "missing_question": "Verify hill settlement and monastery identities, community history, inauguration dates, location/access and visitor conditions; locate rights-cleared authentic photograph without importing unrelated Chandragiri places."
+  },
+  "capacity": {
+    "linux_baseline_bytes": 999926062,
+    "remaining_bytes": 73938,
+    "constraint": "Strict1billion-byte limit; new image and page require separately reviewed capacity solution with original assets preserved.",
+    "assessment": "outputs/jirang-chandragiri-publication-2026-11-22/review/capacity-assessment.md",
+    "proposed_solution": "One reviewed Mentis Films JPEG delivery derivative using existing optimizer settings, original preserved; PNG-only saving insufficient. No broad optimizer change.",
+    "new_image_projection": {
+      "sourceBytes": 278062,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 42450,
+          "sha256": "46b0f010719486e45499812e6bc76e00c9769751575687820a3a6a04e0e14dbe"
+        },
+        {
+          "width": 960,
+          "bytes": 145396,
+          "sha256": "9707e67aa8e320c978a972e6577ece2e23e8913f10776d84535ea009cb6286d9"
+        },
+        {
+          "width": 1200,
+          "bytes": 249770,
+          "sha256": "79ff306721355b544248cdf6c025392b85922b3a071b1de83fb0d2ee4d14ec55"
+        }
+      ],
+      "total": 715678
+    },
+    "separate_preliminary_review": "Drishti passed exact Mentis source/candidate, metadata fields and display/detail comparisons; originalEXIF differs so no blanket metadata equality. Existing original retained.",
+    "mentis": {
+      "path": "assets/bhubaneswar-week/mentis-films.jpg",
+      "source_bytes": 3737818,
+      "source_sha256": "798bc7eb53ac2fe76b29305d8c6d979952b32aa673156d7112291c94d11c1734",
+      "local_delivery_bytes": 1279563,
+      "local_delivery_sha256": "49d0b2418bff5216afe5dd907acd7fcb0ff79b452a01bea97e702a29cf832d6d",
+      "dimensions": [
+        3072,
+        1728
+      ],
+      "saving_bytes": 2458255,
+      "method": "Existing 3072px maximum, quality95, 4:4:4, mozjpeg, keepMetadata. Full-frame resized lossy derivative, original retained. ICC/IPTC/XMP/orientation/density preserved; EXIF block differs. No blanket metadata equality claimed."
+    },
+    "local_final_bytes": 997436624,
+    "local_headroom_bytes": 2563376,
+    "note": "Actual local macOS package; Linux CI and deployment remain authoritative for release.",
+    "linux_ci_bytes": 998213092,
+    "linux_ci_headroom_bytes": 1786908,
+    "linux_deployment_bytes": 998213092
+  },
+  "foreign_ownership": "Kala Bhoomi current_task and handoff_home preserved",
+  "remote_reconciliation": {
+    "main": "39da6cb89f49558148676b7162f7aab04a644c2e",
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlap_found": false,
+    "publication_running": false
+  },
+  "next_action": "Merge exact reviewed evidence-only receipt after required CI, then explicitly hand preparation-only slot to Research Antaranga Kalinga. Panchalingeswar remains queued until explicit return.",
+  "research": {
+    "status": "pass",
+    "reviewer": "Anvesha, separate subagent",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/research/integrated-source-review.md",
+    "manuscript_sha256": "6bbbc602670f2a156cfe3d969adcd3e014cfbf4cff9a8009a13385ac151d7563",
+    "source_family_words": {
+      "community": 194,
+      "Ripa": 160,
+      "district": 133,
+      "tourism": 175,
+      "media": 76
+    },
+    "limits": "Desk research; no field visit, present facility guarantee, independent geolocation or human specialist approval. Settlement founding and monastery inauguration distinguished."
+  },
+  "image": {
+    "src": "/images/destinations/jirang-monastery.webp",
+    "alt": "The monastery façade at Jirang, with blue window frames, gilded roof ornaments and steps leading to its entrance.",
+    "width": 1200,
+    "height": 757,
+    "caption": "The monastery at Jirang, photographed in September 2021.",
+    "creator": "Shrimaanyashraj",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Monastry_In_Jiranga.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Full frame, resized and compressed for web delivery. Preview crops and resized copies share the same licence.",
+    "date_taken": "2021-09-26",
+    "original": {
+      "file": "outputs/jirang-chandragiri-publication-2026-11-22/media/jiranga-original.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/b/b9/The_Monastry_In_Jiranga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "bytes": 4576309,
+      "dimensions": [
+        2388,
+        1506
+      ],
+      "sha1": "0170648d72e06381875983d294a88ed203b5adf7",
+      "sha256": "0c83f77dfb8387b85458ae30cccfbef7c9e0cac50050f6987b6ca450b2eb4cc5"
+    },
+    "public_derivative": {
+      "bytes": 278062,
+      "sha256": "e282803e70c07429f84362f3e09a81a786c0c41963b86c8c9102111cf6378b0c",
+      "settings": "Sharp resize1200px width, WebP85 effort6; original unchanged internally"
+    },
+    "identity_evidence": "Own-work upload identifies the monastery in Jiranga and category Padmasambhava Mahavihara. Source camera coordinates 19.268855,84.262911 are retained as source metadata, not independently geolocated. Drishti separately inspected the official Ripa institutional photograph and corroborated the paired upper bays, central ornaments, windows, entrance and stairs; see review/drishti-review.md. Institutional photograph is reference-only and not reused.",
+    "root_visual_review": "Detailed full frontal photograph; gilded roof ornaments and whole facade visible. Source has strong colour/contrast; no added editing beyond resize/compression. No exact room, deity, person or present condition inferred."
+  },
+  "modern_web_guidance": {
+    "reused": "/private/tmp/deomali-web-guidance.md HTML guidance",
+    "limitation": "Previously unpinned CLI execution rejected; no bypass or new retrieval claimed.",
+    "fallback": "Current MDN img documentation directly read, Baseline widely available semantic image with alt, dimensions,srcset/sizes."
+  },
+  "next_slot": {
+    "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "One independently researched, reviewed article preparation with credited image; no publication authorization inferred.",
+    "human_instruction_quote": "Once Jirang–Chandragiri’s release is complete, find another topic from Antaranga Kalinga that we haven’t covered, research it independently, and prepare the next Project Odisha article with a credited image. Don’t copy their content.",
+    "verification": "Read actual human message in owner chat turn01a20337-7f19-74d3-af15-d0356473811f.",
+    "condition": "After Jirang–Chandragiri reviewed publication receipt merge and explicit handoff; Panchalingeswar remains queued until preparation owner returns the slot."
+  },
+  "implementation": {
+    "status": "complete_scope_released",
+    "owner": "Samanta",
+    "report": "outputs/jirang-chandragiri-publication-2026-11-22/review/implementation.md"
+  },
+  "quality_review": {
+    "status": "source_code_media_and_rendered_pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/drishti-review.md",
+    "pending": "No content or delivery review pending; required evidence-only receipt integration remains."
+  },
+  "browser_review": {
+    "actor": "Disha",
+    "status": "local_scoped_pass",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/browser-review.json",
+    "limitations": "Chromium only; no cross-engine or assistive-technology claim. Initial keyboard-forward capture inconclusive; source click and keyboard return verified. Desktop hero extends below viewport; mobile photograph and caption fully visible.",
+    "screenshots": [
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/desktop.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/mobile.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/footnotes.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/preview.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/explore.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/mentis-publication.png"
+    ]
+  },
+  "local_validation_history": {
+    "record_checks": "Initial team check preceded own rollout row and bundle check found stale route inventory; both corrected and passed. No gates waived.",
+    "projection": "Initial image payload estimate omitted the third1200px variant; superseded by actual715678-byte source plus three variants."
+  },
+  "local_validation": {
+    "build_steps": [
+      {
+        "name": "full-build",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/full-build.log"
+      },
+      {
+        "name": "full-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/full-disclosures.log"
+      },
+      {
+        "name": "full-tests",
+        "command": [
+          "npm",
+          "test"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/full-tests.log"
+      },
+      {
+        "name": "coast-build",
+        "command": [
+          "npm",
+          "run",
+          "build:coast"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/coast-build.log"
+      },
+      {
+        "name": "coast-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-coast"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/coast-disclosures.log"
+      },
+      {
+        "name": "coast-tests",
+        "command": [
+          "npm",
+          "run",
+          "test:coast"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/coast-tests.log"
+      },
+      {
+        "name": "publication-build",
+        "command": [
+          "npm",
+          "run",
+          "build:publication"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/publication-build.log"
+      },
+      {
+        "name": "publication-disclosures",
+        "command": [
+          "node",
+          "tools/check-public-disclosures.mjs",
+          "dist-publish"
+        ],
+        "exit_code": 0,
+        "log": "outputs/jirang-chandragiri-publication-2026-11-22/publication-disclosures.log"
+      }
+    ],
+    "full_tests": 822,
+    "coast_tests": 598,
+    "targeted_checks": 90,
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/local-verification.json",
+    "payload": {
+      "files": 3611,
+      "bytes": 997436624,
+      "limit_bytes": 1000000000,
+      "remaining_bytes": 2563376
+    },
+    "disclosures": {
+      "full": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist",
+        "pages": 1496,
+        "violations": []
+      },
+      "coast": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-coast",
+        "pages": 1481,
+        "violations": []
+      },
+      "publication": {
+        "root": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/projects/site/dist-publish",
+        "pages": 1482,
+        "violations": []
+      }
+    }
+  },
+  "final_package_review": {
+    "status": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/final-package-review.md",
+    "scope": "Independent final three-edition article/image/card/14anchor, actual payload, six-screenshot, original preservation, source/licence and foreign ownership/history review.",
+    "limits": "Local candidate only; exact committed continuity, Linux CI and live delivery pending."
+  },
+  "publication": {
+    "pr": 830,
+    "reviewed_head": "fcb12642d397bf2a8cf3782d6f7043a3e647b03d",
+    "exact_head_review": "Separate Drishti read-only committed continuity PASS; clean tree and public sources unchanged.",
+    "ci_run": 45024287879,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge_commit": "53c3734af18c71be4078e0a388e728902200b55b",
+    "merged_at": "2026-11-22T13:18:57Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45026892948,
+    "deployment_head": "53c3734af18c71be4078e0a388e728902200b55b",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "pull_request": 830,
+  "deployment": {
+    "run": 45026892948,
+    "source_sha": "53c3734af18c71be4078e0a388e728902200b55b",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 998213092
+  },
+  "live_verification": {
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/live/verification.json",
+    "five_routes": [
+      "/destinations/jirang-chandragiri/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/",
+      "/stories/bhubaneswar-week/"
+    ],
+    "images_fetched_and_checked": 26,
+    "article_match": "Jirang and Bhubaneswar article fragments match the reviewed package after exactly two recorded responsive image URL substitutions.",
+    "original_public_jirang_image_exact": true,
+    "image_comparison": "outputs/jirang-chandragiri-publication-2026-11-22/live/image-comparison.json",
+    "encoding_differences": "Three files differ in bytes and decoded pixels: Jirang480px, an existing1440px palm-leaf preview in Bhubaneswar further reading, and MentisJPEG. Each measured and visually compared; no cause asserted. Mentis metadata equals local candidate, distinct from originalEXIF preservation."
+  },
+  "verified_routes": [
+    "/destinations/jirang-chandragiri/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/bhubaneswar-week/"
+  ],
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/live-browser-review.json",
+    "screenshots": [
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-desktop.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-mobile.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-footnotes.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-preview.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-explore.png",
+      "outputs/jirang-chandragiri-publication-2026-11-22/review/live-mentis.png"
+    ],
+    "limits": "Chromium viewport simulation only; source click and keyboard return verified. Desktop photograph extends below viewport; mobile shows full photograph andcredit. Preview disclosures collapsed. Mentis on-page responsive image and directly fetched JPEG reviewed separately."
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Public article and photos already deployed from reviewed publication merge. This branch records actual delivery evidence and generated project views only.",
+    "required_gates": [
+      "Separate delivery and final receipt review",
+      "Exact committed receipt review",
+      "Required CI",
+      "Actual merge and explicit next-slot handoff"
+    ],
+    "final_review": {
+      "reviewer": "Drishti, separate subagent",
+      "result": "pass",
+      "scope": "Final integrated receipt, canonical records, evidence, public/source preservation and conditional preparation-only handoff; exact committed continuity and required CI remain."
+    }
+  },
+  "completed_at": "2026-11-22T13:46:50.128011+00:00",
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Explicit preparation-only handoff to Research Antaranga Kalinga follows that observed merge.",
+  "reserved_files_released_by_workers": true,
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/jirang-chandragiri-publication-2026-11-22/review/delivery-review.json",
+    "human_review_claimed": false,
+    "scope": "Independent live and release verification, all six screenshots and measured three encoding differences; root browser actions correctly attributed."
+  }
+}

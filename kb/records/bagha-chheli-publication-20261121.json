@@ -1,0 +1,258 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-BAGHACHELI-20261121",
+  "route": "/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the Bagha Chheli article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112109",
+  "work_id": "POD-WORK-2026112109",
+  "programme_credit": 0,
+  "scope_released": true,
+  "preparation_receipt": "records/bagha-chheli-article-preparation-20261121.json",
+  "input_head": "f09d9ea9c7a91d68fde66ab21e47c95f81eef4d9",
+  "remote_main": "11b78f4c8abb5bbf65399175a261e711a9c813b9",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Shared records, route inventory, builds, browser checks and publication",
+    "Anvesha": "Read-only integrated claims, source budget and media review",
+    "Samanta": "Implement article and two scoped incoming links",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/bagha-chheli-tigers-goats-and-the-rules-of-play.astro",
+      "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro"
+    ],
+    "Disha": [
+      "canonical Markdown metadata/source heading",
+      "public image and internal media provenance",
+      "shared registers, route inventory and publication gates"
+    ]
+  },
+  "incoming_routes": [
+    "/stories/ganjapa-cards-made-for-play/",
+    "/books/odisha-culture-memory-and-living-traditions/growing-up-in-odisha/"
+  ],
+  "modern_web_guidance": {
+    "guides": [
+      "responsive-design",
+      "typography",
+      "html"
+    ],
+    "application": "Semantic article, one h1, bounded rem/clamp typography, original-aspect image with intrinsic dimensions and natural mobile reflow. No new client script."
+  },
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false
+  },
+  "media": {
+    "path": "projects/site/public/images/stories/bagha-chheli-bengaluru.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bagha_cheli.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bagha_cheli.JPG",
+    "creator": "Subhashish Panigrahi",
+    "capture_date": "2014-07-29",
+    "location": "Bengaluru",
+    "licence": "CC BY-SA4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Resized and converted to WebP; no crop or content changes; derivative remains CC BY-SA4.0.",
+    "original_sha256": "75b3668b46507646e8b5034f5ad74f76f609f34abb19952f315d0d3fb0e09f84",
+    "original_sha1": "e3958c581b92686e5173c029b4b7459995cee646",
+    "publication_sha256": "8a02c9e759522b1fb632018ecdf8bb4d7445dfe71ba9e987e481be17da3257c4",
+    "bytes": 19528,
+    "width": 900,
+    "height": 716,
+    "visual_review": "Disha inspected full-frame preview: stones on a floor-drawn line board with a seated player partially visible. No player identity or specific rules inferred from photograph."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Reviewed narrative and version distinctions unchanged; wrapper and incoming links add no game claims. Full-frame preview and production image inspected, original SHA1 matches Commons and rights/changes preserved.",
+    "source_family_words": {
+      "archive": 196,
+      "mycitylinks": 180,
+      "photograph_including_accessibility_label": 177
+    },
+    "limits": "Original1926scan remains unverified. Photo date/location follow creator metadata; no player identity, gameplay testing or current prevalence claim."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "local full build, in-app browser",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 812
+      }
+    ],
+    "checks": [
+      "Single title/byline and full-frame photograph inspected.",
+      "No horizontal overflow at1440,390,320 widths.",
+      "First native footnote and return activated.",
+      "Both outgoing and incoming reading paths activated via keyboard.",
+      "Growing Up incoming Further reading section visually inspected on mobile."
+    ],
+    "screenshots": [
+      "outputs/bagha-chheli-publication-2026-11-21/desktop-preview.jpg",
+      "outputs/bagha-chheli-publication-2026-11-21/mobile-preview.jpg",
+      "outputs/bagha-chheli-publication-2026-11-21/mobile-footnotes.jpg",
+      "outputs/bagha-chheli-publication-2026-11-21/book-incoming-mobile.jpg"
+    ],
+    "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_suite": "821/821 pass",
+    "disclosures_dist": {
+      "pages": 1483,
+      "violations": 0
+    },
+    "book_preservation": "outputs/bagha-chheli-publication-2026-11-21/book-preservation.json",
+    "coastal_build": "pass",
+    "coastal_suite": "597/597 pass",
+    "publication_build": "pass",
+    "disclosures_dist_coast": {
+      "pages": 1468,
+      "violations": 0
+    },
+    "disclosures_dist_publish": {
+      "pages": 1469,
+      "violations": 0
+    },
+    "local_publication_bytes": 999197317
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Separately inspected four screenshots and rendered pages. Six narrative paragraphs preserved; six native reference/return anchors plus photograph source link, one source heading and two reciprocal reading paths. Exact photo rights and source limits retained; other47 book article bodies byte-identical. No blockers.",
+    "limits": "Separate AI review. Root keyboard/overflow observations attributed to root; no human, physical-device, cross-engine, gameplay or original1926scan verification.",
+    "reviewed_file_hashes": {
+      "kb/research/culture/bagha-chheli-tigers-goats-and-the-rules-of-play.md": "d8e7de4b0d446f49ea3800579f09abe435d93dbdd50a23fc94f68f82d1ca8b54",
+      "projects/site/src/pages/stories/bagha-chheli-tigers-goats-and-the-rules-of-play.astro": "66a41ac127c843d626b5613051a9de8f7daf71bdf6a12b6fdcc8de50d0db84a0",
+      "projects/site/src/pages/stories/ganjapa-cards-made-for-play.astro": "bdd577c766e5e23b1a4963ff4b78f696c83d9761b568486a11d09de2a421a0ce",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "8f6cade7882c80d80116e5d930e4adf15c49d422cb7f2c161121ffc172c1a033",
+      "projects/site/public/images/stories/bagha-chheli-bengaluru.webp": "8a02c9e759522b1fb632018ecdf8bb4d7445dfe71ba9e987e481be17da3257c4"
+    },
+    "reviewed_head": "949f1030f790eb0d1b3526350303ad91e4d1dac3"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/806",
+  "reviewed_head": "949f1030f790eb0d1b3526350303ad91e4d1dac3",
+  "merge_sha": "06719651300c38e2b52590f6e45c5f3969673b2e",
+  "ci": {
+    "id": 44885115565,
+    "conclusion": "success",
+    "attempt": 1,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44885115565",
+    "publication_bytes": 999959064,
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597
+  },
+  "deployment": {
+    "id": 44886800270,
+    "head_sha": "06719651300c38e2b52590f6e45c5f3969673b2e",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44886800270",
+    "attempt": 1,
+    "publication_bytes": 999959064
+  },
+  "completed_at": "2026-11-21T09:11:27.608104+00:00",
+  "live_verification": {
+    "/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 6,
+      "return_count": 6,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "7b5a153045ab94dc27f471fb302df9e99779c5c2d135c6e71ab7d3d27ee5cf5b",
+      "article_matches_local_publication": true,
+      "byline": true,
+      "source_heading_count": 1,
+      "outgoing_links": true
+    },
+    "/stories/ganjapa-cards-made-for-play/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 6,
+      "return_count": 6,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "3b0667ba853e4168451384e10188f9a8a421c03be116ae18381daf2ba6658dfc",
+      "article_matches_local_publication": false,
+      "matches_after_one_platform_derivative_path_normalization": true,
+      "difference": "Only existing Pattachitra1440px responsive derivative filename differs by platform encoding. Live derivative HTTP200 and SHA256 address verified; source image matches local exactly. All other article bytes identical.",
+      "incoming_link": true
+    },
+    "/books/odisha-culture-memory-and-living-traditions/growing-up-in-odisha/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 0,
+      "return_count": 0,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "d8a60547e171f858210feb0b7654269c7d192a2344ea21e3c9f2d9c8555c3832",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "photo": {
+      "http_status": 200,
+      "bytes": 19528,
+      "sha256": "8a02c9e759522b1fb632018ecdf8bb4d7445dfe71ba9e987e481be17da3257c4",
+      "matches_reviewed_image": true
+    },
+    "checked_at": "2026-11-21T09:10:04.270285+00:00",
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "both_incoming_and_outgoing_links_activated": true,
+      "first_native_footnote_and_return_activated": true,
+      "screenshots": [
+        "outputs/bagha-chheli-publication-2026-11-21/live-desktop.jpg",
+        "outputs/bagha-chheli-publication-2026-11-21/live-mobile.jpg"
+      ],
+      "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/bagha-chheli-tigers-goats-and-the-rules-of-play/",
+    "/stories/ganjapa-cards-made-for-play/",
+    "/books/odisha-culture-memory-and-living-traditions/growing-up-in-odisha/"
+  ],
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Article and reading links already deployed at recorded merge; this receipt changes internal records and evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified PR806 merge, exact-head CI and publication success, full821/coastal597 tests and actual package999959064 bytes. Three fresh live HTTP200 article hashes match saved evidence. New article, chapter and photo byte-exact against local; Ganjapa differs only in one verified platform-specific responsive-image filename. Native anchors and both reciprocal paths resolve. Separately inspected both live screenshots. Only Bagha Chheli completion, release and evidence changed; foreign task and handoff preserved. Zero programme credit. No blockers.",
+    "limits": "Root browser interactions and no-overflow measurements attributed to root; saved screenshots independently inspected. No human, physical-device, cross-engine or gameplay certification. Original1926scan remains unverified; source limits preserved."
+  }
+}

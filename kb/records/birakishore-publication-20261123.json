@@ -1,0 +1,254 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-BIRAKISHORE-20261123",
+  "route": "/literature/birakishore-das/",
+  "owner": "Disha",
+  "started_on": "2026-11-23",
+  "authorization": "POD-DEC-20261123201",
+  "authorization_quote": "Coordinate with the other chat and, when the slot is available, integrate and publish the Birakishore Das article with the credited illustration, links from relevant articles, and mobile and desktop layout checks.",
+  "work_id": "POD-WORK-20261123201",
+  "programme_credit": 0,
+  "scope_released": true,
+  "input_main": "cea878defc5306c765fd3993b572abd8bc81716d",
+  "preparation_commit": "1e040a23c3ab8ec13d1f5788357d14b2fad386de",
+  "preparation_manifest": "outputs/birakishore-das-2026-11-23/manifest.json",
+  "prepared_article_sha256": "f9390412c3165e920ad3b99430fe5c1be730fbb421b600519f357080e793cc1f",
+  "preceding_receipt": {
+    "pr": 848,
+    "merge": "cea878defc5306c765fd3993b572abd8bc81716d",
+    "reviewed_head": "0ed7963d95490be93b97c0553dc5891d1b44726a",
+    "required_ci": 45169055982,
+    "conclusion": "SUCCESS",
+    "actual_handoff": "Explicit completed release from Kapileswar chat01a20703-448b-7671-acd4-f292f7019f8d; verified merged PR and successful check via GitHub before reconciliation."
+  },
+  "assignments": {
+    "Disha": "Canonical manuscript, shared registers, ownership, review integration and publication",
+    "Anvesha": "Canonical source dossier and separate source audit, reusing captured originals",
+    "Samanta": "Bounded article/image/incoming link implementation and edition integration",
+    "Drishti": "Separate quality, media, rendered, package, exact-head and live delivery review"
+  },
+  "file_reservations": {
+    "Disha": [
+      "kb/registers/",
+      "kb/team/operations.json",
+      "kb/records/birakishore-publication-20261123.json",
+      "kb/records/article-editorial-rollout.json",
+      "kb/research/people/birakishore-das-article.md",
+      "kb/research/references/data/research-map.json",
+      "kb/research/methods/research-map.md",
+      "kb/history/",
+      "derived KB views",
+      "outputs/birakishore-publication-20261123/"
+    ],
+    "Anvesha": [
+      "kb/research/people/birakishore-das-sources.json",
+      "outputs/birakishore-publication-20261123/research/"
+    ],
+    "Samanta": [
+      "projects/site/src/pages/literature/birakishore-das.astro",
+      "projects/site/src/pages/literature/index.astro",
+      "projects/site/src/pages/stories/odia-literature-preservation.astro",
+      "projects/site/src/pages/stories/odia-bibhaba-visit.astro",
+      "projects/site/public/images/literature/birakishore-das/",
+      "bounded edition/responsive/export/test integration",
+      "outputs/birakishore-publication-20261123/implementation/",
+      "projects/site/src/components/CultureCards.astro",
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs"
+    ],
+    "Drishti": [
+      "outputs/birakishore-publication-20261123/review/"
+    ]
+  },
+  "foreign_ownership": "Preserve Kala Bhoomi current_task/handoff_home, all previous releases, Kaincha preparation and memoir847. No foreign publication status inference.",
+  "source_limits": [
+    "Memoir remains retrospective testimony; no specific reader-authorship claim.",
+    "Mo Desa launch year and Sishulekha role omitted.",
+    "Symbolic illustration, not a portrait or historical publication facsimile."
+  ],
+  "next_action": "Final integrated receipt review, exact committed-head review and required checks; actually merge receipt, then explicitly return the slot for Tensa.",
+  "next_slot": {
+    "chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "article": "Tensa",
+    "condition": "Explicit return only after actual reviewed Birakishore publication receipt merge."
+  },
+  "publication": {
+    "pr": 849,
+    "reviewed_head": "d019a07cf76b852994f95742c7f60af2d737e763",
+    "merge_commit": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+    "merged_at": "2026-11-24T07:16:09Z",
+    "ci_run": 45341972057,
+    "ci_attempt": 2,
+    "ci_conclusion": "success",
+    "deployment_run": 45346733610,
+    "deployment_attempt": 1,
+    "deployment_conclusion": "success",
+    "deployment_head": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+    "merged_tree_matches_reviewed_head": true,
+    "reviewed_tree": "c1ccbb98e3065ccdc94f60bed56d4c253b00663c",
+    "check_requirement": "Project-required Review coastal candidate workflow"
+  },
+  "capacity": {
+    "baseline_deployment": 45166156030,
+    "baseline_bytes": 999928859,
+    "headroom_bytes": 71141,
+    "proposal": "One full-frame resized/compressed delivery JPEG; original retained.",
+    "candidate": "outputs/birakishore-publication-20261123/capacity/jpeg-candidate.json",
+    "review": "outputs/birakishore-publication-20261123/review/capacity-review.json",
+    "expected_saving_bytes": 1152299,
+    "actual_linux_gate": "pass",
+    "local_bytes": 998162796,
+    "local_files": 3655,
+    "local_headroom_bytes": 1837204,
+    "linux_ci_bytes": 998950813,
+    "linux_deployment_bytes": 998950813,
+    "linux_files": 3655,
+    "remaining_bytes": 1049187,
+    "live_painting_bytes": 1244845,
+    "live_painting_saving_from_original": 1152208
+  },
+  "validation_history": [
+    {
+      "check": "register consistency",
+      "initial_failure": "New uncommitted activity event omitted id; corrected own event and re-ran successfully."
+    },
+    {
+      "check": "portable KB bundle",
+      "initial_failure": "Route inventory stale and public image path treated as route; synced inventory and changed canonical image to absolute public URL. Recheck pending.",
+      "resolution": "Route inventory synchronized and canonical image changed to absolute public URL; bundle recheck and hosted checks passed."
+    },
+    {
+      "check": "coastal literature cards",
+      "initial_failure": "Expected12actual13; explicitly added new card to expected count and verified credited image;599/599suite passes."
+    },
+    {
+      "check": "coastal page acceptance",
+      "initial_failure": "Description28characters below50; revised only metadata to independently reviewed52character5word description.5456/5456passed."
+    },
+    {
+      "check": "Required hosted CI attempt1",
+      "observed_failure": "Anonymous existing Dhaga release metadata API returned HTTP403 before website builds. Exact cause unproved. Unchanged attempt2 passed.",
+      "evidence": "outputs/birakishore-publication-20261123/hosted/ci-attempt1-failure.log"
+    },
+    {
+      "check": "Initial Git push",
+      "observed_failure": "HTTP400/RPCdisconnect; verified remote branch and PR absent. Identical commit pushed successfully with per-command http.postBuffer=524288000; no global configuration changed."
+    },
+    {
+      "check": "Raw evidence whitespace",
+      "observed_failure": "Captured guidance/build and GitHub job logs retain original whitespace. Code/KB check passed; raw evidence exceptions independently reviewed."
+    }
+  ],
+  "reviews": {
+    "source": "outputs/birakishore-publication-20261123/research/publication-source-review.json",
+    "capacity": "outputs/birakishore-publication-20261123/review/capacity-review.json",
+    "integrated": "outputs/birakishore-publication-20261123/review/integrated-review.json",
+    "rendered": "outputs/birakishore-publication-20261123/review/rendered-review.json",
+    "package": "outputs/birakishore-publication-20261123/review/final-package-review.json",
+    "exact_candidate": "outputs/birakishore-publication-20261123/review/exact-candidate-review.json",
+    "hosted": "outputs/birakishore-publication-20261123/review/hosted-candidate-review.json",
+    "delivery": "outputs/birakishore-publication-20261123/review/delivery-review.json"
+  },
+  "browser": "outputs/birakishore-publication-20261123/local/browser-verification.json",
+  "metadata_description": "Birakishore Das: literature, textbooks, publication.",
+  "validation": {
+    "full_tests": 827,
+    "coastal_tests": 599,
+    "coastal_acceptance_checks": 5456,
+    "disclosure": "Full/coast/publication zero violations",
+    "package": "outputs/birakishore-publication-20261123/package-checks.json",
+    "history": "outputs/birakishore-publication-20261123/validation/progress.json",
+    "browser": "outputs/birakishore-publication-20261123/local/browser-verification.json",
+    "final_package_browser": "outputs/birakishore-publication-20261123/local/final-package-browser.json",
+    "actual_linux_gate": "pass"
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit Tensa handoff to the hill-series chat follows observed merge; no next article is claimed here.",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/849",
+  "verified_routes": [
+    "/literature/birakishore-das/",
+    "/literature/",
+    "/stories/odia-literature-preservation/",
+    "/stories/odia-bibhaba-visit/",
+    "/literature/champu-and-sakhi/"
+  ],
+  "deployment": {
+    "run": 45346733610,
+    "head": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 998950813,
+    "files": 3655,
+    "remaining_bytes": 1049187,
+    "evidence": "outputs/birakishore-publication-20261123/hosted/deployment-attempt1.json",
+    "payload_evidence": "outputs/birakishore-publication-20261123/hosted/deployment-attempt1-payload.log"
+  },
+  "live_verification": {
+    "result": "pass",
+    "evidence": "outputs/birakishore-publication-20261123/live/delivery-20261124T074845Z/http.json",
+    "independent_evidence": "outputs/birakishore-publication-20261123/review/delivery-review.json",
+    "browser_evidence": "outputs/birakishore-publication-20261123/live/browser/verification.json",
+    "article_fragment_exact": true,
+    "new_illustration_files_byte_exact": 2,
+    "raw_helper_result": "REVIEW_DIFFERENCES retained unchanged; separate measurements and independent acceptance recorded.",
+    "encoding_differences": {
+      "evidence": "outputs/birakishore-publication-20261123/live/comparison/image-comparison.json",
+      "literature_fragment": "Exactly one existing manuscript1440w responsive URL differs; all remaining fragment content exact after isolated in-memory substitution. Raw captures unmodified.",
+      "painting": "2048x1341; live91bytes larger;25640pixels differ, max channel delta9.",
+      "manuscript1440": "1440x1080; live62bytes larger;465823pixels differ, max channel delta23. Original manuscript exact.",
+      "acceptance": "Separately measured and visually reviewed; not byte- or pixel-identical. No cause inferred."
+    },
+    "browser_scope": "Root-operated article and three incoming previews at1440x1000 and390x844, painting at both widths, manuscript desktop, all three card clicks and native source3 click/keyboard return;15screenshots with explicit framing limits."
+  },
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/birakishore-publication-20261123/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Reviewed public article already deployed and independently live-verified. This receipt changes internal evidence, ownership and derived records only.",
+    "closing_gates": [
+      "Separate final receipt review",
+      "Exact committed-head review",
+      "Project-required hosted CI",
+      "Actual receipt merge and explicit slot return"
+    ]
+  },
+  "preserved_capture_whitespace": {
+    "scope": "Exact captured logs retain original whitespace; not normalized. No code or KB exemption.",
+    "files": [
+      {
+        "path": "outputs/birakishore-publication-20261123/hosted/ci-attempt1-failure.log",
+        "sha256": "a6ba656f270461210fba06102d2e10bdd8932a04752f9400e52a111baafb611f"
+      },
+      {
+        "path": "outputs/birakishore-publication-20261123/hosted/ci-attempt2-payload.log",
+        "sha256": "69d158df2450f18ec366c90347dfde2f54ab2a0fb067cac07bb19c0fd67949e0"
+      },
+      {
+        "path": "outputs/birakishore-publication-20261123/hosted/ci-attempt2.log",
+        "sha256": "8e90d255aeaa923315937d518757b322478c3432fc377bebfd814d01fad30124"
+      },
+      {
+        "path": "outputs/birakishore-publication-20261123/hosted/deployment-attempt1-payload.log",
+        "sha256": "ac88dfcbddfe83fbb1c5dcf1e164f2939c0cb11445f712a4f1f52cb4b9497a51"
+      },
+      {
+        "path": "outputs/birakishore-publication-20261123/hosted/deployment-attempt1.log",
+        "sha256": "ece23e30477c84e9123907da80a556b430a9bcc9415413d36c9c71d72b301711"
+      }
+    ]
+  },
+  "final_receipt_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/birakishore-publication-20261123/review/final-receipt-review.json",
+    "sha256": "044b1aa87a1ace02ac7530a4c9444611866ae1305fba3363a42ba0cb14b5e222",
+    "human_review_claimed": false,
+    "scope": "Evidence-only integrated receipt; exact committed review, required hosted checks and actual merge remain closing gates."
+  }
+}

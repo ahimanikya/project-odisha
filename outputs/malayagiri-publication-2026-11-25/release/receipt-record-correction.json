@@ -1,0 +1,9 @@
+{
+  "initial_result": "FAIL",
+  "initial_error": "POD-EDIT-MALAYAGIRI-20261125 lacks publication receipt",
+  "cause": "Root supplied nested delivery.receipt but omitted schema-required publication_receipt on completed rollout row.",
+  "correction": "Added actual canonical publication_receipt; no public/source/media changes.",
+  "scope": "Local record check; not hosted failure.",
+  "team_initial_error": "Active claim must own the in-progress article",
+  "team_correction": "Changed completed article claim phase from published_verified to schema receipt_integrated, with explicit condition that release takes effect only after reviewed receipt actual merge."
+}

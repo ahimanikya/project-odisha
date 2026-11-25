@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "Preparation artifact checks; no website rendering, deployment or live verification claimed",
+  "date": "2026-11-23",
+  "article_sha256": "f9390412c3165e920ad3b99430fe5c1be730fbb421b600519f357080e793cc1f",
+  "native_footnotes": {
+    "references": [
+      "1",
+      "2",
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "definitions": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "matched": true
+  },
+  "byline_and_image_credit": true,
+  "public_production_labels_absent": true,
+  "linked_local_image_exists": true,
+  "all_preparation_json_parses": true,
+  "shared_tracked_files_unchanged": true,
+  "programme_consistency": "python3 tools/check_autonomous_program.py PASS",
+  "assignment_consistency": "python3 tools/check_team_assignments.py PASS; validates records, not distributed lock or review",
+  "programme_credit": 0,
+  "not_performed": [
+    "website integration",
+    "desktop/mobile layout checks",
+    "publication capacity gate",
+    "deployment",
+    "live review"
+  ],
+  "review_records": [
+    "research/final-source-review.json",
+    "review/image-review.json",
+    "review/final-review.json"
+  ],
+  "markdown_whitespace": "PASS"
+}

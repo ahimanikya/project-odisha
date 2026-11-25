@@ -1651,6 +1651,50 @@ The Founder authorized publication of the updated Dhaga collection and PDF. PR78
 
 The Founder requested adding the approved explanation with both historical readings and page references. Preserved the uploaded primary witness, added the separately identified1926/n.1990 scan readings at printed100/item86 and106/item49, and corrected the interpretation to satire of promises without delivery or refusal. Separate source and integrated content reviews passed; local browser review confirms visible quotations and clickable page references. Collection stays550entries; earlier PDF edition unchanged. Publication pending. [Scoped receipt](../records/odia-dhaga-516-satire-20261119.json).
 
+
+### 21 November 2026 · Bhagabata reading guide prepared for publication
+
+The Founder authorized integration and publication of the revised reader guide, with a link from A Place to Learn Together. The article adds direct text navigation and source/edition guidance beyond the existing community-learning treatments. Separate source review passed; implementation, desktop/mobile and release checks are underway. No fieldwork or autonomous programme credit. [Scoped record](../records/bhagabata-publication-20261121.json).
+
+## 21 November 2026 — Bhagabata reading guide published
+
+Published the separately reviewed reading guide and incoming link from A Place to Learn Together. Required CI and deployment passed; live article, links, sources and image assets verified. Desktop/mobile layout checked. Receipt: [Bhagabata publication](../records/bhagabata-publication-20261121.json). Zero autonomous-programme credit; unrelated receipt task preserved.
+
+- 2026-11-22 — Deomali destination article research and publication authorized; separate research/implementation/review, mandatory credited article and preview image. records/deomali-publication-20261122.json; zero programme credit.
+
+- 2026-11-22 — Prepared and separately reviewed Bellaguntha’s Brass Fish after Deomali receipt815 merged and explicit coordinated handoff. Independent sources, unchanged licensed photograph and preview brief delivered locally; no publication or programme credit. [Preparation receipt](../records/brass-fish-article-preparation-20261122.json).
+
+- 2026-11-22 — Brass-fish receipt823 verified merged and shared publication slot returned. Mahendragiri article prepared with original conservation and monument records, a dated botanical study and a licensed landscape photograph. Separate source and integrated reviews passed; publication gates remain pending. [Scoped receipt](../records/mahendragiri-publication-20261122.json). Zero programme credit.
+
+- 2026-11-22 — Published Mahendragiri with credited photograph in article and previews. Required checks and deployment passed; five live routes, sources, photographs and desktop/mobile layouts verified, with separate delivery review. [Publication receipt](../records/mahendragiri-publication-20261122.json). Taptapani follows after reviewed receipt integration; zero programme credit.
+
+- 2026-11-22 — Prepared Binchana and the Handmade Breeze after Mahendragiri’s merged receipt and explicit slot handoff. Independent sources distinguish palm, bamboo and decorated cloth fans; original credited photograph and separate factual/originality review included. [Preparation receipt](../records/binchana-article-preparation-20261122.json). Unpublished draft only; Taptapani coordination resumes after local evidence handoff. Zero programme credit.
+
+- 2026-11-22 — Published Taptapani with its credited photograph in article and previews. Required checks and deployment passed; separate review verified four live routes, exact article and image delivery, and desktop/mobile screenshots. [Publication receipt](../records/taptapani-publication-20261122.json). Next slot reserved for Binchana publication after reviewed receipt merge; zero programme credit.
+
+- 2026-11-22 — Prepared Jirang–Chandragiri after the verified Binchana receipt and explicit slot return. Independent sources distinguish the settlement’s 1963 founding from the monastery’s 2010 inauguration; licensed photograph and article/preview layouts separately reviewed. Final package and publication remain pending. [Scoped receipt](../records/jirang-chandragiri-publication-20261122.json). Zero programme credit; next preparation-only slot reserved for the coordinated research chat.
+
+- 2026-11-22 — Published Jirang–Chandragiri with credited monastery photograph in article and previews. Required checks and deployment passed; separate delivery review covers five live routes, source links, images and six screenshots. Original assets preserved; three delivered encoding differences measured and visually accepted. [Publication receipt](../records/jirang-chandragiri-publication-20261122.json). Preparation-only handoff follows reviewed receipt merge; zero programme credit.
+
+- 2026-11-22 — Prepared Panchalingeswar with independently checked district/tourism sources and a credited original shrine photograph. Separate article, image and eight-view layout review passed; website tests and local package checks passed. [Scoped receipt](../records/panchalingeswar-publication-20261122.json). Publication and live verification remain pending; horn-craft preparation preserved unpublished, zero programme credit.
+
+- 2026-11-23 — Prepared Kaincha: Making with Golden Grass after Belghar’s merged receipt and explicit coordination handoff. Original prose, independent institutional sources and unchanged credited photograph passed separate review. [Preparation receipt](../records/antaranga-after-belghar-preparation-20261123.json). Unpublished preparation only; Kalinga Ghati follows the local-commit handoff. Zero programme credit.
+
+- 2026-11-23 — Published Kalinga Ghati with a credited authentic forest-habitat photograph in article and previews. Required checks, deployment and separate live delivery review passed. Two encoding differences measured and visually accepted; originals preserved. [Publication receipt](../records/kalinga-ghati-publication-20261123.json). Reviewed receipt merge precedes Kapileswar Hatuari, then reserved Birakishore Das publication; Tensa follows returned slot. Zero programme credit.
+
+- 2026-11-23 — Published Kapileswar at Hatuari in History and Heritage, with a credited licensed photograph and provisional historical dating. Separate live review passed four routes and three exact image files; actual desktop/mobile reading and section navigation verified. [Publication receipt](../records/kapileswar-hatuari-publication-20261123.json). Reviewed receipt merge precedes the reserved Birakishore Das release; zero programme credit.
+
+- 2026-11-23 — Founder requested publication of When Odisha Became a Homepage with approved prose and ten supplied images. Exact source and image fidelity separately verified; isolated website preparation and release checks underway. [Scoped record](../records/odia-homepage-publication-20261123.json). Zero programme credit.
+
+- 2026-11-23 — Accepted the completed Hatuari receipt and reserved the authorized Birakishore Das publication. Reviewed preparation and credited symbolic illustration preserved; integration, responsive review and publication gates underway. [Scoped record](../records/birakishore-publication-20261123.json). Zero programme credit; foreign ownership and memoir preserved.
+
+- 2026-11-24 — Published Birakishore Das: Poems, Schoolbooks and the Young Reader with a credited symbolic illustration and three incoming reading links. Required checks and deployment passed; separate live review and mobile/desktop checks completed. Two existing image encoding differences were measured and visually accepted, with originals preserved. [Publication receipt](../records/birakishore-publication-20261123.json). Explicit Tensa handoff follows actual reviewed receipt merge; zero programme credit.
+
+- 2026-11-24 — Published Tensa: Hills, Iron Ore and a Community Camp with an authentic credited photograph in the article and three incoming previews. Required checks and deployment passed; separate review verified four live routes, eleven image files and twelve desktop/mobile screenshots. New photo files exact; one existing thumbnail encoding difference measured and visually accepted. [Publication receipt](../records/tensa-publication-20261124.json). Scope release follows actual reviewed receipt merge; zero programme credit.
+
+- 2026-11-24 — Prepared Jhoti Chita and the Art of Drawing with Rice Paste after Tensa’s merged receipt and explicit coordination handoff. Original material-and-handwork essay, independent sources and authentic credited photograph passed separate review. Acquired official Commons preview preserved; original camera file not acquired. [Preparation receipt](../records/antaranga-after-tensa-preparation-20261124.json). Unpublished preparation only; hill chat follows reviewed local-commit handoff. Zero programme credit.
+
+- 2026-11-25 — Reconciled the internal log for **When Odisha Became a Homepage**, published and verified on23November. Approved prose,8reference links,10original images and8caption groups preserved; article,founder andExplore links verified. [Publication receipt](../records/odia-homepage-publication-20261123.json) records the successful deployment and separate delivery review. The earlier automatic approval timeout is retained as history. Evidence-only update; zero programme credit.
 ## POD-HIS-DHAGA-REVIEW-COMPLETE-20261125 · Dhaga editorial review complete
 
 **25 November 2026 · Founder decision recorded**

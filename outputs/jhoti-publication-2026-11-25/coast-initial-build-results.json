@@ -1,0 +1,67 @@
+[
+  {
+    "stage": "full-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 115.67,
+    "manuscript_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"
+  },
+  {
+    "stage": "full-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 44.72,
+    "manuscript_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"
+  },
+  {
+    "stage": "full-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 30.45,
+    "manuscript_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"
+  },
+  {
+    "stage": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 114.53,
+    "manuscript_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"
+  },
+  {
+    "stage": "coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 34.46,
+    "manuscript_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"
+  },
+  {
+    "stage": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 10.91,
+    "manuscript_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea"
+  }
+]

@@ -2,6 +2,7 @@
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import Shell from '../../layouts/Shell.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
 import '../../styles/article-reading.css';
 import {Content, frontmatter} from '../../../../../kb/research/culture/a-place-to-learn-together.md';
@@ -11,6 +12,7 @@ import {Content, frontmatter} from '../../../../../kb/research/culture/a-place-t
 <figure><ResponsiveImage sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px" loading="eager" fetchpriority="high" src="/images/stories/learn-neighbourhood-room-v2.png" width="1536" height="1024" alt="Illustration of neighbours reading and discussing together in a community room while another person brings a chair."/><figcaption>Illustration · An imagined neighbourhood room for reading, discussion and making space for one another.</figcaption></figure>
 <Content/>
 <OdiaConnectedReading current="a-place-to-learn-together"/>
+<ArticleReadingPath heading="Further reading" links={[{href: "/stories/reading-the-bhagabata/", title: "Reading the Bhagabata beyond the Tungi", description: "Find the digital text, follow its chapters and keep quotations connected to their source.", image: "/images/stories/bhagabata-tungi-2016.jpg"}]}/>
 <p><a href="/contribute/?page=%2Fstories%2Fa-place-to-learn-together%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
 </article></Shell>
 <style>article :global(img){max-width:100%;height:auto}article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}article :global(.footnotes){margin-top:3rem}</style>

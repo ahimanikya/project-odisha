@@ -1,0 +1,25 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import DestinationCards from '../../components/DestinationCards.astro';
+import PlanningPaths from '../../components/PlanningPaths.astro';
+import {hillDestinationGuides,deomaliGuide} from '../../data/hill-destinations';
+---
+<Shell title="Hills and highland escapes" description="Explore Odisha’s hill stations, peaks, valleys and pilgrimage landscapes through sourced destination guides and practical visiting information." shareImage={deomaliGuide.photo} active="explore" wide related={false}>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Odisha destinations</p>
+      <h1>Hills and highland escapes</h1>
+      <p class="lead">Explore Deomali and Putsil in Koraput, Daringbadi and Mandasaru in Kandhamal, Mahendragiri and Jirang–Chandragiri in Gajapati, Taptapani in Ganjam, Panchalingeswar in Balasore, Kapilash in Dhenkanal, and Gandhamardan across Bargarh and Balangir. This growing collection brings together hill stations, peaks, valleys and hill pilgrimages, with each place’s landscape and character explained in its own article.</p>
+    </header>
+    <PlanningPaths current="/destinations/"/>
+    <section class="section" aria-labelledby="hill-guides">
+      <h2 id="hill-guides">Explore the hills</h2>
+      <DestinationCards guides={hillDestinationGuides}/>
+    </section>
+    <p><a href="/destinations/">Browse all destination guides</a></p>
+  </div>
+</Shell>
+<style>
+  h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  h2{font-size:clamp(1.7rem,1.2rem + 2vw,2.4rem);margin-bottom:1.5rem}
+</style>

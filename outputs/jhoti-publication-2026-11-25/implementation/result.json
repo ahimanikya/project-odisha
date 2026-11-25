@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "projects/site/src/pages/stories/jhoti-chita.astro",
+      "sha256": "a778845884e8d5066b221ceb9f0f2a98239c5c8949a97a70a4d3965b83850b3c"
+    },
+    {
+      "path": "projects/site/src/pages/stories/craft-listening.astro",
+      "sha256": "feaeb0f8973a19935605a28307d78f7a9d8ebac3e0a9f0bfb702cc0ed2bd6a35"
+    },
+    {
+      "path": "projects/site/src/pages/culture/osha/[slug].astro",
+      "sha256": "903ed732efc1a0a0d87505c8f8a0d7416fe732a77aecb046ccbc20ef5c457b59"
+    },
+    {
+      "path": "projects/site/src/pages/culture/osha/index.astro",
+      "sha256": "7666d9199b556c33e180544dc5f3551b4067c19537c90c5c7ee17df09b83524b"
+    }
+  ],
+  "syntax_files": 4,
+  "canonical_sha256": "836a0685e258a1dbc4de6bc24ec3d9f1b2e7c39fcd3caa644ef7dd39a07f0eea",
+  "canonical_unchanged": true,
+  "article": {
+    "refs": 6,
+    "notes": 4,
+    "returns": 6,
+    "unique_ids": true,
+    "all_targets_resolve": true,
+    "caption_reference_retained": true,
+    "one_title_byline": true,
+    "visible_dek_added": false
+  },
+  "incoming_cards": 3,
+  "complete_incoming_credits": true,
+  "existing_pages_exact_after_removing_only_added_sections": true,
+  "unaffected_profile_count": 52,
+  "unaffected_profile_guarantee": "Exact source-template recovery after removing two Manabasa-only conditionals and new import; new styles inline inside that condition. Actual rendered preservation remains full-build gate.",
+  "no_build_or_browser_checks": true,
+  "diff_whitespace_check": "PASS",
+  "guidance": {
+    "skill": ".agents/skills/modern-web-guidance/SKILL.md",
+    "retrieved_by": "Root with installed Node25.8.1; worker read saved current-turn guidance before implementation",
+    "capture": "outputs/jhoti-publication-2026-11-25/web-guidance.md",
+    "guides": [
+      "html",
+      "responsive-design",
+      "card"
+    ],
+    "applied": [
+      "Single semantic h1 and byline, native links and numbered source/return anchors.",
+      "No new client JavaScript; eager/high-priority article image and lazy decorative previews.",
+      "Explicit1200\u00d7900dimensions, fullframe4:3,ResponsiveImage srcset/sizes, narrow single-column cards and font-relative headings.",
+      "Card source links outside primary card navigation anchor; no nested anchors."
+    ]
+  },
+  "scope_released": true,
+  "not_modified": [
+    "canonical preparation Markdown/media",
+    "article-reading-images.ts (does not exist; no file created)",
+    "nimuhi-footnote-heading.mjs (raw renderer handles native heading)",
+    "shared reading components"
+  ],
+  "remaining_root_gates": [
+    "Full/coast/publication builds and regression tests",
+    "Rendered preservation of52unaffectedOsha profiles",
+    "Source-family audit",
+    "Mobile/desktop/keyboard layout checks",
+    "Final package capacity and deployment"
+  ]
+}

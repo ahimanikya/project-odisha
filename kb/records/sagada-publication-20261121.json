@@ -1,0 +1,259 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-SAGADA-20261121",
+  "route": "/stories/sagada-and-the-work-of-the-bullock-cart/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the Sagada article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112113",
+  "work_id": "POD-WORK-2026112113",
+  "programme_credit": 0,
+  "scope_released": true,
+  "preparation_receipt": "records/sagada-article-preparation-20261121.json",
+  "input_head": "5da92684",
+  "remote_main": "6aec023c01138a88c98308603a13ff13dc97cf19",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Shared records, route inventory, builds, browser review and publication",
+    "Anvesha": "Read-only integrated claims and source-budget review",
+    "Samanta": "Implement article and two scoped incoming links",
+    "Drishti": "Separate integrated and delivery review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/sagada-and-the-work-of-the-bullock-cart.astro",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro"
+    ],
+    "Disha": [
+      "canonical Markdown metadata and source heading",
+      "shared registers, route inventories and release gates"
+    ]
+  },
+  "incoming_routes": [
+    "/stories/dhinki-and-the-work-behind-rice/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "media_plan": "Text-first reviewed brief. No new image or borrowed source figure. Existing Dhinki artwork only as a related reading card.",
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "responsive-design",
+      "html"
+    ],
+    "application": "Existing semantic article layout, native accessible notes, font-relative bounded heading and mobile reflow. No new client-side script."
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Compared canonical body, wrapper and both incoming links: body and notes unchanged, no new technical claims; historical and geographic scopes retained. Existing Dhinki artwork appears only as its related card.",
+    "source_family_words": {
+      "yadav": 190,
+      "adeoti": 169,
+      "cstt": 86
+    },
+    "limits": "Same distinct-prose accounting as preparation review; no new research, fieldwork, human review or cleared documentary image claimed."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "local full build, in-app browser",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 812
+      }
+    ],
+    "checks": [
+      "Single title/byline and text-first layout inspected.",
+      "No horizontal overflow at 1440, 390 or 320 pixels.",
+      "First native footnote and return activated with keyboard.",
+      "Both outgoing and incoming reading paths activated with keyboard.",
+      "Material chapter reading links visually inspected on mobile."
+    ],
+    "screenshots": [
+      "outputs/sagada-publication-2026-11-21/desktop-preview.jpg",
+      "outputs/sagada-publication-2026-11-21/mobile-preview.jpg",
+      "outputs/sagada-publication-2026-11-21/mobile-footnotes.jpg",
+      "outputs/sagada-publication-2026-11-21/narrow-preview.jpg",
+      "outputs/sagada-publication-2026-11-21/book-incoming-mobile.jpg"
+    ],
+    "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_suite": "820/821 then affected build-test rerun 6/6 pass after expected route count update",
+    "disclosures_dist": {
+      "pages": 1485,
+      "violations": 0
+    },
+    "book_preservation": "outputs/sagada-publication-2026-11-21/book-preservation.json",
+    "coastal_build": "pass",
+    "disclosures_dist_coast": {
+      "pages": 1470,
+      "violations": 0
+    },
+    "coastal_suite": "596/597 then affected Desia test rerun 6/6 pass with shared cache access",
+    "publication_build": "pass",
+    "disclosures_dist_publish": {
+      "pages": 1471,
+      "violations": 0
+    },
+    "local_publication_bytes": 999236581,
+    "article_bytes_identical_across_builds": true,
+    "article_fragment_sha256": "78eea24104272f55bc9ddecc8f04e11b48c63353e28bcda84b8aa0458c9edb63"
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Separately inspected three rendered routes and five saved screenshots. Reviewed prose and notes preserved; five native reference and return anchors resolve without duplicate IDs, one source heading and byline. Both reciprocal reading links verified. Recomputed 48 book hashes: other 47 unchanged. Test count change accounts for exactly one added route. No blockers.",
+    "limits": "Separate AI review. Root keyboard and overflow observations attributed to root; no human, physical-device, cross-engine or screen-reader certification.",
+    "reviewed_file_hashes": {
+      "kb/research/culture/sagada-and-the-work-of-the-bullock-cart.md": "76c1feab921b5ed662fb6d5884d43b2b1aabec825cb4d1f35448f867e829ab7e",
+      "projects/site/src/pages/stories/sagada-and-the-work-of-the-bullock-cart.astro": "df1d3932d014e7ad7054cd80dafcf7624989e7650a67155ef390d8e5f8ed8f70",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "4f2f844f6d5bda9370679a7bf59c6cf5cb1ae4a2054f5f4bcb5304cf85d6c193",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "d0147a71cb8c457304919ee0723eae82febc9c5e9e14d03d84e88220c4b59750"
+    },
+    "reviewed_head": "40584c62cff51027e524a56e600f7e5643789b27"
+  },
+  "ci_attempts": [
+    {
+      "id": 44920396844,
+      "head": "bdd75e72497e8c04c8eed83e9d7c0e340a01f0e2",
+      "conclusion": "failure",
+      "stage": "Build publication",
+      "publication_bytes": 1000000705,
+      "finding": "Linux output exceeded unchanged 1 GB limit by 705 bytes. Applying scoped lossless delivery compression to one existing PNG; article and source image unchanged."
+    }
+  ],
+  "capacity_fix": {
+    "asset": "assets/cinema/pencil-kanhu-charan-mohanty-20261101.png",
+    "scope": "Publication output only; one exact path added to existing lossless optimizer and matching test allowlist. Source asset and size gate unchanged.",
+    "saved_bytes": 94288,
+    "validation": "Targeted tests6/6 passed. Actual source recompression matches recorded output, decoded RGBA and all non-IDAT chunks preserved byte-exact.",
+    "evidence": "outputs/sagada-publication-2026-11-21/capacity-preservation.json",
+    "local_full_publication_rebuilt_after_fix": false,
+    "acceptance": "Passed exact-head CI and deployed publication:999906417 bytes.",
+    "separate_review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_agent",
+      "status": "pass",
+      "reviewed_head": "40584c62cff51027e524a56e600f7e5643789b27",
+      "finding": "Independently reran6 focused tests and actual-source recompression.94288 bytes saved; output hash, pixels, metadata and dimensions match preservation record. Original asset, algorithm, size gate and all four article files unchanged."
+    }
+  },
+  "completed_at": "2026-11-21T16:41:20.919842+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/810",
+  "reviewed_head": "40584c62cff51027e524a56e600f7e5643789b27",
+  "merge_sha": "46e97203373c3ecbccd62113039c1cd4c4565d01",
+  "ci": {
+    "id": 44922067640,
+    "conclusion": "success",
+    "attempt": 1,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44922067640",
+    "publication_bytes": 999906417,
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597
+  },
+  "deployment": {
+    "id": 44924110981,
+    "head_sha": "46e97203373c3ecbccd62113039c1cd4c4565d01",
+    "conclusion": "success",
+    "attempt": 1,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44924110981",
+    "publication_bytes": 999906417
+  },
+  "live_verification": {
+    "/stories/sagada-and-the-work-of-the-bullock-cart/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 5,
+      "return_count": 5,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "78eea24104272f55bc9ddecc8f04e11b48c63353e28bcda84b8aa0458c9edb63",
+      "article_matches_local_publication": true,
+      "byline": true,
+      "source_heading_count": 1,
+      "outgoing_links": true
+    },
+    "/stories/dhinki-and-the-work-behind-rice/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 6,
+      "return_count": 6,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "1d0b6b6441147e94c258aec1b274564769005c5a8a8b69b13dc34f44b83c2430",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 0,
+      "return_count": 0,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "d1c93bc5a40e66e5d69e9d076b3621633a13df3b0ed55f8f8769069cc0fa2b95",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "checked_at": "2026-11-21T16:39:54.223301+00:00",
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "two_incoming_and_outgoing_links_activated": true,
+      "first_native_footnote_and_return_activated": true,
+      "screenshots": [
+        "outputs/sagada-publication-2026-11-21/live-desktop.jpg",
+        "outputs/sagada-publication-2026-11-21/live-mobile.jpg"
+      ],
+      "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/sagada-and-the-work-of-the-bullock-cart/",
+    "/stories/dhinki-and-the-work-behind-rice/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+  ],
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Article and reading links already deployed at recorded merge; this receipt changes internal records and evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified exact-head CI, PR810 merge and deployment44924110981 attempt1 success; logs support821/597 tests and999906417 bytes. Fresh HTTP200 on all three routes, article bodies identical to local publication and recorded hashes. Five Sagada references and returns resolve; both reciprocal paths present. Live optimized PNG matches reviewed output hash and size. Separately inspected both live screenshots. Scoped evidence-only receipt, zero programme credit and foreign task preserved. Conditional scope release explicit. No blockers.",
+    "limits": "Root browser keyboard and overflow observations attributed to root; saved screenshots independently inspected. No human, physical-device or cross-engine certification."
+  }
+}

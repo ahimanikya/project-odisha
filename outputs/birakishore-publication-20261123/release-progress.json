@@ -1,0 +1,33 @@
+{
+  "status": "receipt_review",
+  "candidate_commit": "d019a07cf76b852994f95742c7f60af2d737e763",
+  "publication_pr": 849,
+  "required_ci": 45341972057,
+  "exact_commit_review": "review/exact-candidate-review.json",
+  "history": [
+    {
+      "event": "Initial push failed HTTP400/RPCdisconnect. Remote branch and PR absence verified. Same commit pushed successfully with per-command http.postBuffer=524288000; no global settings changed."
+    },
+    {
+      "event": "Initial staged diff whitespace check flagged captured guidance/build logs. Code and KB check passed excluding outputs; raw evidence retained, independent exact review confirms exceptions only four evidence files."
+    },
+    {
+      "event": "Required CI attempt 1 failed at anonymous Dhaga release API HTTP403; preceding governance checks passed, website build not reached. Unchanged run retried as attempt 2.",
+      "evidence": "hosted/ci-attempt1-failure.log"
+    }
+  ],
+  "scope_released": false,
+  "next_action": "Separate final receipt and exact-commit review, required CI and actual receipt merge before explicit Tensa handoff.",
+  "required_ci_attempt": 2,
+  "required_ci_conclusion": "success",
+  "linux_ci_bytes": 998950813,
+  "linux_ci_files": 3655,
+  "linux_ci_headroom": 1049187,
+  "merge": "54e779cf18755f8ef35b99ef327ddb51e929cf0b",
+  "merged_tree": "c1ccbb98e3065ccdc94f60bed56d4c253b00663c",
+  "deployment": 45346733610,
+  "deployment_conclusion": "success",
+  "deployment_attempt": 1,
+  "linux_deployment_bytes": 998950813,
+  "linux_deployment_files": 3655
+}

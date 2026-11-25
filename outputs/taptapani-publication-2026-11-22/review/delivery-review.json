@@ -1,0 +1,165 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "human_review_claimed": false,
+  "checked_at": "2026-11-22T09:32:42.921599+00:00",
+  "result": "pass",
+  "blocking_findings": [],
+  "scope": "Independent Taptapani live delivery and evidence-only receipt review. Coordinator may integrate actual review and complete receipt checks; article slot releases only after reviewed receipt merge.",
+  "publication": {
+    "pr": 826,
+    "reviewed_head": "8f20290624ec13c40cf33ffb6565a12c346fbf39",
+    "merge_sha": "af5e26fc899f6490139d6fd0ee1b8dd866df46be",
+    "merged_at": "2026-11-22T08:59:30Z",
+    "ci_run": 45003583652,
+    "ci_attempt": 1,
+    "ci_status": "completed",
+    "ci_conclusion": "success",
+    "deployment_run": 45005382148,
+    "deployment_attempt": 1,
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "verification": "GitHub API independently queried exact heads, outcomes and PR merge; actual CI/deployment logs independently inspected.",
+    "full_tests": 822,
+    "coast_tests": 598,
+    "linux_payload_bytes": 999383034,
+    "linux_payload_regular_files": 3601,
+    "exclusive_limit": 1000000000,
+    "ci_and_deployment_payload_match": true
+  },
+  "fresh_live_checks": {
+    "routes": [
+      "/destinations/taptapani/",
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "all_http_200": true,
+    "article_fragment_sha256": "2358cbb1c7dc391219f3b02681c9111bb952dad7c6f3d3354e2f5a60e34aa4ea",
+    "article_byte_exact_local": true,
+    "normalization_required": false,
+    "h1_count": 1,
+    "native_reference_return_links": 10,
+    "all_targets_resolve": true,
+    "creator_license_date_present": true,
+    "og_twitter_use_selected_image": true,
+    "three_incoming_routes_link_to_article_with_selected_photo": true,
+    "original_photo": {
+      "bytes": 1050439,
+      "dimensions": [
+        2304,
+        1728
+      ],
+      "sha256": "5bad4ad57c149007d76683b953d8082368fedb1abb90e837e25dbf7887a02c75",
+      "byte_exact_reviewed_source": true
+    },
+    "all_nine_unique_article_responsive_files": {
+      "http_200": true,
+      "actual_dimensions_verified": true,
+      "content_hash_prefixes_verified": true,
+      "each_byte_exact_local_named_file": true,
+      "files": [
+        {
+          "prefix": "85d685afc34c2250",
+          "dimensions": [
+            480,
+            360
+          ]
+        },
+        {
+          "prefix": "2d025d911bad9b0b",
+          "dimensions": [
+            960,
+            720
+          ]
+        },
+        {
+          "prefix": "fd7f43194f02449d",
+          "dimensions": [
+            1440,
+            1080
+          ]
+        },
+        {
+          "prefix": "28c48896e93a7787",
+          "dimensions": [
+            480,
+            343
+          ]
+        },
+        {
+          "prefix": "3c4ac744aee98db5",
+          "dimensions": [
+            960,
+            685
+          ]
+        },
+        {
+          "prefix": "30bc213e140dc227",
+          "dimensions": [
+            1080,
+            771
+          ]
+        },
+        {
+          "prefix": "505e3d236c787385",
+          "dimensions": [
+            480,
+            360
+          ]
+        },
+        {
+          "prefix": "8eed051bc5063b8f",
+          "dimensions": [
+            960,
+            720
+          ]
+        },
+        {
+          "prefix": "7ad188ddbb49213a",
+          "dimensions": [
+            1440,
+            1080
+          ]
+        }
+      ]
+    }
+  },
+  "visual_review": {
+    "screenshots_independently_inspected": [
+      "live-desktop.jpg",
+      "live-mobile.jpg",
+      "live-footnotes.jpg",
+      "live-preview.jpg",
+      "live-explore-preview.jpg"
+    ],
+    "finding": "No visible layout or attribution blocker. Mobile shows the complete photo and June2007/Ilya Mauter/CC BY3.0 credit with changes; all four sources visible in source screenshot; complete hill/Explore cards show the correct photograph. Desktop opening image continues below viewport, so full-frame evidence comes from mobile and separately recorded geometry.",
+    "root_browser_attribution": "All browser interactions and geometric measurements are Disha root evidence, not independent Drishti keyboard or CUA testing.",
+    "navigation_limitation": "First forward keyboard activation changed the source hash but recorded targetTop2004.703125; this does not establish completed forward scrolling. Separate source3 link click recorded targetTop0; keyboard return recorded correct reference focus and targetTop-0.0390625. No broad keyboard-navigation audit claimed.",
+    "other_limits": [
+      "Viewport simulation in in-app Chromium; no physical-device, cross-engine or screen-reader certification.",
+      "Preview and Explore bounds describe cards, not image dimensions.",
+      "Source and image review is separate AI review, not human specialist review, fieldwork or independent geolocation."
+    ]
+  },
+  "receipt_integrity": {
+    "base": "af5e26fc899f6490139d6fd0ee1b8dd866df46be",
+    "source_website_media_diff_empty": true,
+    "manuscript_sha256": "695700a82dc3f7a4b9484817ed36aa1e1edb7cdbdf815173085be86dfedbcd2b",
+    "foreign_current_task_handoff_home_preserved": true,
+    "activity_base_prefix_exact": true,
+    "binchana_draft_and_image_byte_exact_base": true,
+    "binchana_current_release_exclusion": "Prior independent all-edition marker/path/original-image-hash scan remains applicable; receipt introduces no website or research/media changes. No new live whole-site exclusion scan claimed.",
+    "programme_credit": 0,
+    "scope_released": false,
+    "next_slot": "Binchana integration/publication only after reviewed Taptapani receipt merge; explicit handoff still pending.",
+    "evidence_only": true,
+    "deployment_required": false,
+    "record_accuracy": "Publication, live content/images and screenshot limitations agree with independently inspected evidence. Root may now integrate this actual review and regenerate records."
+  },
+  "remaining": [
+    "Receipt integration, exact committed receipt continuity and required checks/merge.",
+    "No next article starts or slot return before reviewed receipt merge."
+  ],
+  "work_performed": "Read-only remote/live/source/image review; wrote only this reserved report. No builds, tests, source/shared-record edits or Git mutations."
+}

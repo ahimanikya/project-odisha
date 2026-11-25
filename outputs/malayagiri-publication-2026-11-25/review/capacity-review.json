@@ -1,0 +1,107 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate bounded capacity proposal review",
+  "date": "2026-11-25",
+  "scope": "Accept only existing Sahi delivery JPEG at maximum2400,quality95 with specifically scoped orientation8 sharing-dimension correction. Proposal acceptance, not implemented-code/test/package/Linux approval.",
+  "blockers": [],
+  "independent_measurement": {
+    "method": "Decoded actual original and candidate, reproduced both current3072 and proposed2400 derivatives in memory using installed Sharp/existing95,4:4:4,mozjpeg,keepMetadata settings. No source or derivative file edited.",
+    "original_bytes": 8825988,
+    "original_sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+    "current3072_bytes": 2602768,
+    "current3072_sha256": "e407a4787081d76e04cf0dc173e1886e30bcc5d2ea34dd50cc79d0975e22f061",
+    "candidate_bytes": 1726913,
+    "candidate_sha256": "c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12",
+    "candidate_reproduction_byte_exact": true,
+    "saved_vs_current_local_delivery": 875855,
+    "geometry": {
+      "source_stored": [
+        4928,
+        3264
+      ],
+      "source_display": [
+        3264,
+        4928
+      ],
+      "candidate_stored": [
+        2400,
+        1590
+      ],
+      "candidate_display": [
+        1590,
+        2400
+      ],
+      "source_and_candidate_orientation": 8,
+      "source_and_candidate_density": 300
+    },
+    "pixel_measurement": {
+      "reference": "Original resized with the exact2400×2400 fit-inside/withoutEnlargement transform then decoded sRGB reference versus candidate JPEG decode.",
+      "mse": 3.907102987421384,
+      "psnr_db": 42.21225501913581,
+      "maximum_rgb_channel_error": 20,
+      "lossless": false
+    }
+  },
+  "metadata_qualification": {
+    "icc_iptc_xmp": "Original/candidate buffers byte-equal (all absent); orientation8 and density300 preserved.",
+    "exif": "Not byte-identical. Original EXIF65532bytes; candidate20949. Decoded width/height change4928×3264→2400×1590; InteroperabilityOffset36898→12284; Nikon MakerNote36022→11403bytes. Do not describe all EXIF as preserved or its changes as dimensions only.",
+    "maker_note_comparison": "Current3072 delivery already has the identical11403-byte MakerNote as proposed2400, SHAd0429d61d870fc8ba3506e759dcb4c3a5900d4b273fd1ea8332e6a775ce5de01. Proposed reduction does not add new MakerNote loss relative to existing delivery. Original full EXIF remains intact. No unsupported reason for internal MakerNote rewriting inferred."
+  },
+  "visual_review": {
+    "files_viewed": [
+      "sahi-jatra-2400-fullframe-comparison.png",
+      "sahi-jatra-2400-detail-comparison.png",
+      "actual sahi-jatra-2400-q95.jpg"
+    ],
+    "finding": "Original/current/candidate comparison panels preserve portrait orientation and complete source frame. Ornament outlines, beadwork, coloured face paint and visible facial details remain legible; no conspicuous new blocking or colour shift at reviewed display scales. Actual candidate opened separately confirms portrait orientation. Photo itself frames a head-and-shoulders close-up; full-frame does not mean full-body.",
+    "quality_limit": "Lossy resized JPEG, not pixel-identical. No exhaustive fine-detail archival equivalence claim."
+  },
+  "preservation_and_rights": {
+    "source_files": "KB original and public original byte-identical to base0929dad2; current full/coast emitted originals also exact8825988B hash461acabe…ec5.",
+    "existing_metadata": "Existing Sahi provenance and Commons record unchanged; creator Prateek Pattanaik, CC BY-SA4.0 and source date/identification retained. Previously verified rights records reused; no fresh remote licence check claimed here.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg",
+    "required_credit": "Preserve unique source/creator/licence/date attribution and existing delivery phrase about resized/compressed without cropping. Same image URL. No narrative or source asset rewrite."
+  },
+  "feasibility": {
+    "prior_actual_linux_headroom_bytes": 47123,
+    "measured_candidate_saving_bytes": 875855,
+    "measured_new_photo_projection": {
+      "base": 302034,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 47356
+        },
+        {
+          "width": 960,
+          "bytes": 160286
+        },
+        {
+          "width": 1280,
+          "bytes": 294328
+        }
+      ],
+      "total": 804004,
+      "method": "Independently reproduced in memory using actual responsive generator rotate/resize/WebP82,effort5 settings."
+    },
+    "projected_remaining_before_new_html_bytes": 118974,
+    "assessment": "Plausible narrowly scoped capacity solution. Projection combines prior actual Linux baseline with locally measured image deltas and excludes new HTML/other package variation; it is not a current package measurement. Actual full local and hosted Linux strict payload gates remain decisive.",
+    "not_approved": "No2304fallback,other JPEG path or rejected PNG addition accepted by this report."
+  },
+  "implementation_conditions": [
+    "Only existing Sahi caption/settings entry changes to maximum_dimension2400 at unchanged quality95/4:4:4/mozjpeg; preserve all other entries and generic behavior.",
+    "Opt-in Sahi orientation8 branch validates original display3264×4928 and emits correct candidate display1590×2400 OG dimensions. Do not use raw2400×1590 as displayed sharing geometry. Reject mismatched orientation or unrelated share image; no broad semantics change.",
+    "Regression must exercise actual orientation8 source/candidate, original preservation, correct oriented OG tags, unique caption-only transformation and retained creator/licence/source.",
+    "Final package/source/coast preservation, exact selected candidate, rendered Sahi photo+credit and hosted/Linux acceptance reviewed after implementation.",
+    "Any live image byte or decoded differences require actual measurement and separate visual acceptance, without inferred encoding cause."
+  ],
+  "input_sha256": {
+    "outputs/malayagiri-publication-2026-11-25/review/capacity-proposal.json": "32644adf16747209f36770bf0a4d40d88253cc95664d27a8e409d9a21e423879",
+    "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-q95.jpg": "c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12",
+    "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-fullframe-comparison.png": "24d9136d53407fa9cdef32420d118c6717a4a2d3b5faba1fd699222438a938de",
+    "outputs/malayagiri-publication-2026-11-25/review/sahi-jatra-2400-detail-comparison.png": "f9fe7ce8ceb6fc7ef9fc88c082be63b0e890baef8a2d1079f43965493eb0d659",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0a98fda64301d2843c2511349f623268ac7f9b5ceebb140a1edf1fb709af958f",
+    "kb/research/media/sahi-jatra/provenance.json": "545033b00e771f6bcdfe864ce19c9cb436be62b2fca8cae2d3b2af2345bc83c4",
+    "kb/research/media/sahi-jatra/commons-record.json": "0555f6535c55b49ab46df76c83061bf463bdbda13e067e7e43533e431bb9bfd7"
+  }
+}

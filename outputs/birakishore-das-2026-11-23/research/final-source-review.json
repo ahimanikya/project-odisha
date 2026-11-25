@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "date": "2026-11-23",
+  "reviewer_role": "Anvesha; AI source reviewer, not human specialist review",
+  "scope": "Prepared article and publication brief only; no publication or website implementation reviewed or authorized.",
+  "verified_files": [
+    {"path": "outputs/birakishore-das-2026-11-23/article.md", "sha256": "f9390412c3165e920ad3b99430fe5c1be730fbb421b600519f357080e793cc1f"},
+    {"path": "outputs/birakishore-das-2026-11-23/publication-brief.md", "sha256": "321f1174c9e0bbe93ef2a974b1d7a568f43036089d821fc3e7b236ad1322b3aa"}
+  ],
+  "source_word_budget_method": "Whitespace-delimited visible words after removing Markdown syntax, link destinations and footnote markers. Include body, interpretation and full source notes. Conservatively charge the complete8-word title, complete13-word symbolic illustration caption,3-word source heading and5-word brief heading to every family. Charge relevant section heading to its family; young-readers heading charged to both magazine and biography. No other brief prose adds historical claims. Original illustration alt, byline, neutral navigation and operational preparation instructions do not derive from source material. The source dossier and private inspection notes are evidence records, not repeated public article prose.",
+  "family_counts": [
+    {"id": "birakishore-modesa-original", "body_paragraphs": [65,35], "note": 46, "article_title": 8, "section_heading": 5, "source_heading": 3, "illustration_caption_conservative": 13, "brief_heading_conservative": 5, "total": 180, "ceiling": 200},
+    {"id": "birakishore-granthabali-1996", "body_paragraphs": [71,45], "note": 43, "article_title": 8, "section_heading": 4, "source_heading": 3, "illustration_caption_conservative": 13, "brief_heading_conservative": 5, "total": 192, "ceiling": 200},
+    {"id": "birakishore-patnaik-akademi-1994", "body_paragraphs": [50,48], "note": 40, "article_title": 8, "section_heading": 5, "source_heading": 3, "illustration_caption_conservative": 13, "brief_heading_conservative": 5, "total": 172, "ceiling": 200},
+    {"id": "birakishore-osepa-sahitya-surabhi-2026", "body_paragraphs": [61,33], "note": 46, "article_title": 8, "section_heading": 5, "source_heading": 3, "illustration_caption_conservative": 13, "brief_heading_conservative": 5, "total": 174, "ceiling": 200}
+  ],
+  "claim_checks": [
+    {"claim_group": "Mo Desa cover and Mo Gaon", "result": "PASS", "evidence": "Personally inspected original PDF31–34: editor credit, contents attribution and signed poem. Cover imagery and village details support the description and restrained interpretation. Exact calendar issue year omitted."},
+    {"claim_group": "Mohanabansi memoir and opening poem", "result": "PASS after correction", "evidence": "Personally inspected PDF66–68. Memoir states younger brother Banambar; earlier draft nephew/Banamali was incorrect. Final article avoids uncertain name transcription with 'another name' and attributes the account as recollection. Mukura Press and apprehension of arrest are supported; opening poem addresses Utkal and invokes writers/public figures."},
+    {"claim_group": "Textbook institutional role", "result": "PASS", "evidence": "Personally inspected Patnaik1994 PDF40/printed33 plus colophonPDF4. Article correctly attributes textbook-nationalisation and publishing arrangements to this retrospective biography; does not invent specific reader authorship."},
+    {"claim_group": "2026 school anthology", "result": "PASS", "evidence": "Parent retrieved edition and supplied original captures. Anvesha independently inspected sahitya-surabhi-poem-page-1.png, -page-2.png and note-page.png: lesson, named figures, Bira Gitika attribution and exercises match. Edition metadata independently inspected by parent, documented separately in textbook-source.json."}
+  ],
+  "quotation_review": "No poem or memoir sentence quoted. Only titles, personal names, institutional names and bibliographic labels retained; no translated verse or stanza reproduced. No song-lyric excerpt.",
+  "originality": "Facebook post treated solely as lead. Article draws fresh structure and analysis from original magazine, collected memoir/poem, academy biography and official textbook; no Facebook narrative or images adopted.",
+  "media_limits": "Prepared image is a separately generated symbolic illustration credited to Project Odisha, explicitly identified as illustration. It does not establish historical objects, portrait identity, manuscript appearance or provenance. No source-book cover, portrait or magazine drawing cleared for public reuse. Media asset verification belongs to Samanta/Drishti records.",
+  "internal_captures": "capture-manifest.json lists eight selected page renders with SHA256. Retain only for private verification, exclude from public exports. Full source PDFs remain temporary; their hashes and original URLs are in source-review.json.",
+  "remaining_limits": ["Mo Chhabibahi and Nua Chhabibahi individual authorship remains unverified and is omitted.", "Sishulekha role and magazine launch year remain unverified and are omitted.", "No claim about every school's current use or unbroken magazine publication.", "No deployment, browser/layout or publication review occurred in this source task."],
+  "scope_released": true
+}

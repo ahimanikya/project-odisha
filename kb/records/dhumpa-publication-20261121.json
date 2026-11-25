@@ -1,0 +1,254 @@
+{
+  "status": "published_verified",
+  "article_id": "POD-EDIT-DHUMPA-20261121",
+  "route": "/stories/dhumpa-music-and-its-players/",
+  "owner": "Disha",
+  "started_on": "2026-11-21",
+  "authorization_quote": "Go ahead and integrate the Dhumpa article into Project Odisha, check the layout on mobile and desktop, and publish it with links from the relevant existing articles.",
+  "authorization": "POD-DEC-2026112107",
+  "work_id": "POD-WORK-2026112107",
+  "programme_credit": 0,
+  "scope_released": true,
+  "preparation_receipt": "records/dhumpa-article-preparation-20261121.json",
+  "input_head": "a0bacb34ec924183d9c1bab698ee66aaa3aafb21",
+  "remote_main": "933d884bd1ceb5ae343b227260b3aaa79d35c7e6",
+  "preserved_foreign_task": "POD-EDIT-133",
+  "assignments": {
+    "Disha": "Shared records, route inventory, builds, browser verification and publication",
+    "Anvesha": "Read-only check of integrated claims and source budget",
+    "Samanta": "Implement new article and three relevant incoming links",
+    "Drishti": "Separate read-only integrated quality review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/dhumpa-music-and-its-players.astro",
+      "projects/site/src/pages/stories/dhuduki.astro",
+      "projects/site/src/pages/sounds-of-odisha/daskathia.astro",
+      "projects/site/src/pages/sounds-of-odisha/pala.astro"
+    ],
+    "Disha": [
+      "kb/records/dhumpa-publication-20261121.json",
+      "kb/research/culture/dhumpa-music-and-its-players.md",
+      "kb/team/operations.json",
+      "kb/registers/records.json",
+      "kb/registers/activity.jsonl",
+      "kb/history/ledger.jsonl",
+      "kb/records/article-editorial-rollout.json",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json",
+      "kb/reference/public-website-routes.json",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "generated register, catalogue and workbench views"
+    ]
+  },
+  "modern_web_guidance": {
+    "guides": [
+      "responsive-design",
+      "typography",
+      "html"
+    ],
+    "application": "Existing semantic article reading layout; rem typography, bounded line lengths, natural text reflow and single visible source heading. No new client-side script."
+  },
+  "media_plan": "Text-first article; no fabricated instrument illustration or uncleared photograph. Existing related-article imagery only with preserved credits. Incoming links are contextual text links.",
+  "incoming_routes": [
+    "/stories/dhuduki/",
+    "/sounds-of-odisha/daskathia/",
+    "/sounds-of-odisha/pala/"
+  ],
+  "remote_reconciliation": {
+    "open_prs": [
+      534,
+      304,
+      281
+    ],
+    "overlapping_pr_found": false,
+    "running_publication": false
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Prepared narrative and source notes preserved; three incoming links add neutral titles only. Source family maxima including title and metadata remain196/160/138. Related Pala image retains exact creator, source, licence and alteration credit.",
+    "limits": "Official PDF access limits retained; no new fieldwork, recording or visual PDF claim."
+  },
+  "browser_review": {
+    "status": "pass",
+    "surface": "local full build, in-app browser",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 812
+      }
+    ],
+    "checks": [
+      "Single h1/byline and comfortable740px desktop reading column.",
+      "No horizontal overflow at1440,390,320 widths.",
+      "Mobile body16.8px with30.24px line height; source notes inspected.",
+      "First native footnote and return link activated.",
+      "All three outgoing and incoming reading links activated via keyboard/native accessibility.",
+      "Pala incoming link inspected at320px; source credits retained."
+    ],
+    "screenshots": [
+      "outputs/dhumpa-publication-2026-11-21/desktop-preview.jpg",
+      "outputs/dhumpa-publication-2026-11-21/mobile-preview.jpg",
+      "outputs/dhumpa-publication-2026-11-21/mobile-footnotes.jpg",
+      "outputs/dhumpa-publication-2026-11-21/pala-incoming-mobile.jpg"
+    ],
+    "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+  },
+  "local_validation": {
+    "full_build": "pass",
+    "full_suite": "821/821 pass",
+    "disclosures_dist": {
+      "pages": 1482,
+      "violations": 0
+    },
+    "coastal_build": "pass",
+    "coastal_suite": "597/597 pass after dependency-cache access retry",
+    "publication_build": "pass",
+    "coastal_initial_attempt": "596/597; fixture cache unlink blocked by local permission; no code change required.",
+    "disclosures_dist_coast": {
+      "pages": 1467,
+      "violations": 0
+    },
+    "structure": "outputs/dhumpa-publication-2026-11-21/local-structure.json",
+    "local_publication_bytes": 999157816,
+    "disclosures_dist_publish": {
+      "pages": 1468,
+      "violations": 0
+    }
+  },
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "finding": "Separately viewed four screenshots and inspected four rendered routes. Seven narrative paragraphs match reviewed Markdown;4native refs/returns and one source heading on new page. Three reciprocal reading paths and exact Pala credit retained. Existing article changes limited to neutral link paragraphs.",
+    "limits": "Separate AI review; root click/overflow observations attributed to root. Dhuduki and Daskathia retain their earlier attribution/footnote conventions; this is not a full editorial review of those pages. No human, physical-device or cross-engine certification.",
+    "reviewed_file_hashes": {
+      "kb/research/culture/dhumpa-music-and-its-players.md": "440480e16909730977ea3fd0f8619d12f3edfcb0a8ce8a905261fba0664fa0af",
+      "projects/site/src/pages/stories/dhumpa-music-and-its-players.astro": "a382bd02e26c7abf0b221d0b20d30980ba80d69d3a7cefcd941564c198c31677",
+      "projects/site/src/pages/stories/dhuduki.astro": "7a6003633ac048526b4a564540255df8d35700bd5df828af474784f74e569e30",
+      "projects/site/src/pages/sounds-of-odisha/daskathia.astro": "94998d54c1ea4707a98000acd4d2cc8ca27bca1d55af7218c1fa2d1e82e2f7a3",
+      "projects/site/src/pages/sounds-of-odisha/pala.astro": "fbadd5042ad029be0ae9191b0783ce3d0e03b48db8fae28a9312a659a4602a4c"
+    },
+    "reviewed_head": "04be7fde1405f9feedffc0ddec7991d616118f4f"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/804",
+  "reviewed_head": "04be7fde1405f9feedffc0ddec7991d616118f4f",
+  "merge_sha": "7a4180ee8b8bc10526ef3171799f455c23a18b48",
+  "ci": {
+    "id": 44874740786,
+    "conclusion": "success",
+    "attempt": 2,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44874740786",
+    "publication_bytes": 999918371,
+    "full_tests_pass": 821,
+    "coastal_tests_pass": 597,
+    "initial_attempt": "Existing archive release metadata lookup returned anonymous HTTP403. Unchanged candidate passed on attempt2."
+  },
+  "deployment": {
+    "id": 44876678259,
+    "head_sha": "7a4180ee8b8bc10526ef3171799f455c23a18b48",
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44876678259",
+    "attempt": 1,
+    "publication_bytes": 999918371
+  },
+  "completed_at": "2026-11-21T07:03:33.086369+00:00",
+  "live_verification": {
+    "/stories/dhumpa-music-and-its-players/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 4,
+      "return_count": 4,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "df6aebfcd9877f6ee5995e101220d3443fbe3a6b26ec01580c3e9e5c89514023",
+      "article_matches_local_publication": true,
+      "byline": true,
+      "source_heading_count": 1,
+      "outgoing_links": true
+    },
+    "/stories/dhuduki/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 5,
+      "return_count": 0,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "a462eb3e7e2308416798195656ca19635538097ad2cd1eeeea2e5ee1ddd777c8",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "/sounds-of-odisha/daskathia/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 7,
+      "return_count": 0,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "2f66c83b1821323ae55d1d086194ab726e005b6f0b281a8ce2421c9e12be3866",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "/sounds-of-odisha/pala/": {
+      "http_status": 200,
+      "h1_count": 1,
+      "reference_count": 25,
+      "return_count": 25,
+      "references_resolve": true,
+      "process_link": true,
+      "article_sha256": "d907f874ad03108263cf57bdeb687feb4831b3fac609cccd4bef79b53f296cf1",
+      "article_matches_local_publication": true,
+      "incoming_link": true
+    },
+    "checked_at": "2026-11-21T06:59:04.012697+00:00",
+    "browser": {
+      "status": "pass",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "no_horizontal_overflow": true,
+      "all_three_incoming_and_outgoing_links_activated": true,
+      "screenshots": [
+        "outputs/dhumpa-publication-2026-11-21/live-desktop.jpg",
+        "outputs/dhumpa-publication-2026-11-21/live-mobile.jpg"
+      ],
+      "limits": "Browser viewport simulation; no physical-device, cross-engine or screen-reader certification."
+    }
+  },
+  "verified_routes": [
+    "/stories/dhumpa-music-and-its-players/",
+    "/stories/dhuduki/",
+    "/sounds-of-odisha/daskathia/",
+    "/sounds-of-odisha/pala/"
+  ],
+  "receipt_integration": {
+    "scope_release_condition": "Effective when this reviewed evidence-only receipt merges; no next article starts before that merge.",
+    "deployment_required": false,
+    "reason": "Article and reading links already deployed at recorded merge; this receipt changes internal records and evidence only."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "findings": "Independently verified PR804 merge, exact-head CI attempt2 and publication success, full821/coastal597 tests and actual package999918371 bytes. Four fresh live HTTP200 article bodies match saved hashes; native anchors and all three reciprocal paths resolve. Separately inspected both live screenshots. Only Dhumpa completion, release and evidence changed; foreign task and handoff preserved. Zero programme credit. No blockers.",
+    "limits": "Root browser interactions and no-overflow measurements attributed to root; saved screenshots independently inspected. No human, physical-device or cross-engine certification. Dhuduki and Daskathia earlier byline and footnote conventions preserved. Official PDF source access limits retained."
+  }
+}

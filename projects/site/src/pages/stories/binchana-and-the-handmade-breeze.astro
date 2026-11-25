@@ -1,0 +1,65 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import '../../styles/article-reading.css';
+import source from '../../../../../kb/research/culture/binchana-and-the-handmade-breeze.md?raw';
+const metadata=source.match(/^---\n([\s\S]*?)\n---\n/)?.[1];
+if(!metadata)throw Error('Binchana canonical metadata missing');
+const readMetadata=(key: string)=>{
+ const value=metadata.match(new RegExp(`^${key}: (".*")$`,'m'))?.[1];
+ if(!value)throw Error(`Binchana canonical ${key} missing`);
+ const parsed=JSON.parse(value);
+ if(typeof parsed!=='string')throw Error(`Binchana canonical ${key} must be a string`);
+ return parsed;
+};
+const frontmatter={title:readMetadata('title'),description:readMetadata('description'),author:readMetadata('author')};
+const route='/stories/binchana-and-the-handmade-breeze/';
+const imageMatch=source.match(/!\[([^\]]+)\]\(([^)]+)\)/);
+if(!imageMatch)throw Error('Binchana canonical image missing');
+const image={src:'/images/stories/binchana-from-odisha.webp',alt:imageMatch[1],width:960,height:1163};
+let body=source.replace(/^---\n[\s\S]*?\n---\n/,'');
+if(!/^## Footnotes & Sources\s*$/m.test(body))body=body.replace(/^(\[\^\d+\]:)/m,'## Footnotes & Sources\n\n$1');
+const article=renderReviewedCultureArticle(`# ${frontmatter.title}\n\nBy ${frontmatter.author}\n\n${body}`,{
+ sourcePath:'kb/research/culture/binchana-and-the-handmade-breeze.md',route,
+ images:{[imageMatch[2]]:image.src},imageDimensions:{[image.src]:{width:image.width,height:image.height}}
+});
+// Supplementary reading-link media attribution; the four canonical notes remain intact.
+const notesSections=[...article.html.matchAll(/<section data-footnotes\b[\s\S]*?<\/section>/g)];
+if(notesSections.length!==1)throw Error('Binchana requires one source-note section');
+const notesSection=notesSections[0][0];
+if((notesSection.match(/<li id="user-content-fn-/g)||[]).length!==4 || (notesSection.match(/<\/ol>/g)||[]).length!==1 || article.html.includes('id="user-content-fn-5"'))throw Error('Binchana supplementary note insertion is ambiguous');
+const readingImagesNote='<li id="user-content-fn-5"><p>Pipili: <a href="https://commons.wikimedia.org/wiki/File:Pipli_4.jpg">Rahul Mukherjee</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; resized and converted to WebP, with the same licence. Silver filigree: <a href="https://commons.wikimedia.org/wiki/File:Silver_Filigree_Work.jpg">Government of Odisha</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; resized and converted for layout. Raghurajpur: <a href="https://commons.wikimedia.org/wiki/File:Raghurajpur_1.jpg">Rangan Datta Wiki</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; resized for local delivery, with the same licence. <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Return to reading-link photograph reference" class="data-footnote-backref">↩</a></p></li>';
+article.html=article.html.replace(notesSection,notesSection.replace('</ol>',readingImagesNote+'\n</ol>'));
+const figure=article.html.match(/<p><img\b[^>]+><\/p>\s*<p>([\s\S]*?)<\/p>/);
+if(!figure)throw Error('Binchana canonical image and caption missing');
+const [beforeFigure,afterFigure]=article.html.split(figure[0]);
+const continueReading=[{href:'/crafts/pipili-applique/',title:'Pipili appliqué',image:'/images/crafts/pipili-display.webp'}];
+const furtherReading=[
+ {href:'/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/',title:'Silver, Metal, Clay, Stone and Appliqué',image:'/assets/cultural-book/chapters/5f21c20e4183b4111341.webp'},
+ {href:'/books/odisha-culture-memory-and-living-traditions/modern-art-photography-and-public-heritage/',title:'Modern Art, Photography and Public Heritage',image:'/assets/cultural-book/chapters/a6f459469b4f825a3eaa.webp'}
+];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header><h1>{frontmatter.title}</h1><ArticleByline author={frontmatter.author}/></header>
+    <div set:html={beforeFigure}/>
+    <figure class="binchana-portrait">
+      <ResponsiveImage {...image} sizes="(max-width: 518px) calc(100vw - 2.4rem), 480px" loading="eager" fetchpriority="high"/>
+      <figcaption set:html={figure[1]}/>
+    </figure>
+    <div set:html={afterFigure}/>
+    <ArticleReadingPath heading="Continue reading" links={continueReading}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p>Photographs shown in the reading links.<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup></p>
+    <p><a href={`/contribute/?page=${encodeURIComponent(route)}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  .binchana-portrait{max-width:30rem;margin-inline:auto}
+  .binchana-portrait :global(img){width:100%;height:auto;object-fit:contain}
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(.article-footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+</style>

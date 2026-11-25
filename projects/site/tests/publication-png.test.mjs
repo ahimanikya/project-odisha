@@ -31,9 +31,43 @@ test('additional PNG delivery scope is an exact measured allowlist',()=>{
   "assets/cinema/pencil-bijaya-jena-20261101.png",
   "assets/cinema/pencil-manmohan-mahapatra-20261101.png",
   "assets/cinema/pencil-kalindi-charan-panigrahi-20261101.png",
-  "assets/cinema/pencil-nandita-das-20261101.png"
+  "assets/cinema/pencil-nandita-das-20261101.png",
+  "assets/cinema/pencil-kanhu-charan-mohanty-20261101.png",
+  "assets/cinema/pencil-the-question-that-brought-me-here-20261101.png",
+  "assets/cinema/pencil-aparajita-mohanty-20261101.png",
+  "assets/cinema/basanta-knitting.png",
+  "assets/cinema/preservation-can-and-notes-20261030.png",
+  "assets/cinema/pencil-sabyasachi-mohapatra-20261101.png",
+  "assets/cinema/learning-three-bicycles.png",
+  "assets/cinema/pencil-who-keeps-a-film-alive-20261101.png",
+  "assets/cinema/pencil-odia-ott-20261101.png",
+  "assets/cinema/pencil-prafulla-kar-20261101.png",
+  "assets/cinema/pencil-literature-and-screen-20261101.png",
+  "assets/cinema/pencil-ak-bir-20261101.png",
+  "assets/cinema/pencil-odia-television-20261101.png",
+  "assets/cinema/pencil-gopal-chhotray-20261101.png",
+  "assets/cinema/pencil-daman-20261101.png",
+  "assets/cinema/pencil-anupam-patnaik-20261101.png",
+  "assets/cinema/pencil-nirad-mohapatra-20261101.png",
+  "assets/cinema/bijay-speaking-pages.png",
+  "assets/cinema/pencil-commercial-successes-20261101.png",
+  "assets/cinema/pencil-reading-odia-cinema-20261101.png",
+  "assets/cinema/maya-miriga-threshold.png",
+  "assets/cinema/pratikshya-waiting.png",
+  "assets/cinema/pencil-bijay-mohanty-20261101.png",
+  "assets/cinema/pencil-sadhu-meher-20261101.png",
+  "assets/cinema/pencil-manglu-charan-biswal-20261101.png",
+  "assets/cinema/economics-boat-screening.png",
+  "assets/cinema/pencil-tapu-mishra-20261101.png",
+  "assets/cinema/air-listener.png",
+  "assets/cinema/surya-material-passed-on.png",
+  "assets/cinema/bhukha-publicity.png",
+  "assets/cinema/lipika-film-letter.png",
+  "assets/cinema/pramod-paper-movement.png",
+  "assets/nimuhi/user-supplied-memorial.png",
+  "assets/cultural-book/author.png"
 ];
  assert.deepEqual(additionalDeliveryPNGs,expected);
  for(const p of expected){assert.ok(eligiblePNG(p));assert.ok(!eligiblePNG("../"+p));assert.ok(!eligiblePNG(p+".backup"));}
- for(const p of ["assets/cinema/other.png","assets/maniabandha/other.png","assets/nimuhi/user-supplied-memorial.png"])assert.ok(!eligiblePNG(p));
+ for(const p of ["assets/cinema/other.png","assets/maniabandha/other.png","assets/nimuhi/other-memorial.png"])assert.ok(!eligiblePNG(p));
 });

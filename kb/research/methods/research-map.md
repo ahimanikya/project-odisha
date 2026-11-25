@@ -1546,3 +1546,52 @@ Reuse the [source dossier](../culture/cinema-series/bideha-source-2026-11-10.jso
 ### Palmful of Stars: first-page reading and translation limits · 10 November 2026
 
 Reuse the [bounded dossier](../culture/cinema-series/palmful-source-2026-11-10.json) and [handoff](../../records/cinema-palmful-source-2026-11-10.json). The entire original opening page119 was visually inspected in JSTOR’s legitimate preview; pages120–124 remain unread. The first page supports the fictional narrator’s agency in a college relationship and memories of cinema visits. The existing2018secondary Aanjula/self-translation lead was rechecked against the complete study and its references, not rediscovered or upgraded to primary verification. No underlying Odia publication citation was found there; its page7 reference is an unresolved locator discrepancy with six catalogued journal pages. Keep original title, translator credit and first publication open until full journal/author/publisher evidence is available. No account created, purchase, outreach, public article change or book rebuild. The Waterfall school example and student-film additions are already published; actual production-support delivery remains open.
+
+### Brass fish preparation · 22 November 2026
+
+Added a new Bellaguntha craft narrative, independent source review and image provenance after scoped alias and corpus checks found no dedicated coverage. The existing material-arts narrative remains unchanged. Antaranga Kalinga supplied only the topic lead; process, maker and dated teaching evidence comes from separate original sources. A licensed photograph is attached to the draft and designated for its preview. Three mapped records added; current inventory 1839. Draft preparation only; no website publication or programme credit.
+
+Daringbadi extension, 22 November 2026: mapped `places/daringbadi-article` with primary tourism, forest working-plan and district sources; inventory now1840. Prior brass-fish preparation and its boundaries are preserved. This is a scoped addition, not an exhaustive semantic deduplication claim.
+
+Putsil extension, 22 November 2026: mapped `places/putsil-article` after scoped Putsil/Putisil reuse checks. Administrative village identity and valley tourism guidance remain distinct from historical Kuvi testimony and Deomali ecology. One licensed photograph attached; inventory now1841. No exhaustive semantic deduplication claim.
+
+Mandasaru extension, 22 November 2026: mapped `places/mandasaru-article` after scoped map/corpus checks and inspection of RES-010/RES-023 reuse pointers. Daringbadi context was not transferred as local access evidence. The original 2019 declaration and attributed forest/community accounts support the article; illustration is interpretive. Inventory now1842; no exhaustive semantic deduplication claim.
+
+
+### Binchana preparation · 22 November 2026
+
+Reuse the [fan source dossier](../culture/binchana-source-review-20261122.json), [image provenance](../culture/binchana-image.json) and [draft](../culture/binchana-and-the-handmade-breeze.md). Scoped alias checks found no dedicated narrative; the existing art-collection hand-fan mention and Pipili craft account remain distinct. Antaranga Kalinga supplied the topic lead only. A 2019–21 plant-craft survey, dated local reporting and a museum catalogue support different material examples; none is a universal making tutorial or present market survey. The authentic photograph depicts decorated cloth, not palm leaf, and does not establish its maker or workshop. Preparation only; no public route added.
+
+
+### Paralakhemundi horn craft preparation · 22 November 2026
+
+Reuse the [draft](../culture/paralakhemundi-horn-craft.md), [source review](../culture/paralakhemundi-horn-source-review-20261122.json) and [image provenance](../culture/paralakhemundi-horn-image.json). Scoped aliases found no dedicated horn-craft narrative. Antaranga supplied a passing topic lead only. The district repertoire and cooperative listing remain undated; Panigrahi’s 2009 historical account is a synthesis, with its earlier survey/gazetteer uninspected. The process example is explicitly Cuttack. The credited museum horn-fish photograph does not establish Paralakhemundi manufacture. Three mapped records added; inventory1851. Preparation only, no public route or programme credit.
+
+Panchalingeswar extension, 22 November 2026: mapped `places/panchalingeswar-article` after scoped alias and map checks. Devagiri/Nilagiri hill-shrine identity, water and stair approach use district and tourism sources; unverified founding legends and current service claims are omitted. Original credited photograph attached. Horn-craft preparation preserved separately. Inventory1852; no exhaustive semantic deduplication claim or programme credit.
+
+Kapilash extension, 23 November 2026: mapped `places/kapilash-article` after scoped alias and map checks. Primary district and Tourism sources support pilgrimage and broad approach; Sircar’s original inscription study and ASI’s protected list retain qualified dating and the older/standing-temple distinction. A licensed 2019 photograph is attached with its original preserved. Inventory1853; no exhaustive semantic deduplication claim or programme credit.
+
+
+### Sola and tahia preparation · 23 November 2026
+
+Reuse the [draft](../culture/sola-and-tahia.md), [source dossier](../culture/sola-source-review-20261123.json) and [image provenance](../culture/sola-image.json). Scoped aliases found no dedicated sola/tahia narrative. Antaranga supplied a passing crown-craft lead only. SIDAC’s material overview and two dated maker accounts support the distinct Odissi construction angle; conflicting inventor stories are omitted. The credited finished-tahia photograph does not identify its maker or workshop. Three mapped records added; inventory1856. Preparation only, no public route or programme credit.
+
+Belghar–Tumudibandha draft extension, 23 November 2026: mapped `places/belghar-tumudibandha-article` after scoped Belghar/Belaghar/Tumudibandha map and corpus checks. Reuses the Balliguda working-plan publication identity; the Academy atlas distinguishes Belghar locality and Tumudibandha block. Habitat scope, pre-1980 bungalow dating and current-service limits remain explicit. Image rights/illustration choice unresolved; no website integration or publication. Inventory1858; zero programme credit and no exhaustive semantic deduplication claim.
+
+
+### Kaincha preparation · 23 November 2026
+
+Reuse the [draft](../culture/kaincha-and-golden-grass.md), [source dossier](../culture/kaincha-source-review-20261123.json) and [image provenance](../culture/kaincha-image.json). Scoped alias checks found no dedicated golden-grass narrative. Existing Binchana material-name cautions and material-art overview remain distinct. Antaranga supplied a passing topic lead only. Directorate naming, bounded Gop/Puri process photographs and Mission Shakti’s dated Mahabir SHG example serve different purposes. Conflicting botanical/core terminology and current income claims are excluded. The original credited Puri product photograph is not assigned to the Kendrapara group. Three mapped records added; inventory1861. Preparation only, no public route or programme credit.
+
+Kalinga Ghati candidate extension, 23 November 2026: mapped `places/kalinga-ghati-article` after scoped map and corpus reuse checks, distinct from historical Kalinga narratives. Uses bounded Ghumsur working-plan sections, the 2025 gecko description, IIT reporting and a dated 22 November reopening report. Authentic author-credited Figure7A habitat image retains rights and extraction provenance. Publication pending; inventory1862, zero programme credit and no exhaustive semantic deduplication claim.
+
+### Birakishore Das · 23 November 2026
+
+Added a distinct literary article and source dossier from reviewed independent preparation: collected memoir and verse, an original Mo Desa issue, an Academy biography and an official textbook. No Facebook prose or images adopted; textbook production is distinguished from individual reader authorship. Publication gates remain pending; zero programme credit.
+
+Tensa candidate extension, 24 November 2026: mapped `places/tensa-article` after scoped map and corpus reuse checks. Original district FY2020–21 report, Bonai working plan, SAIL2023–24 statement and current official camp listing support distinct landscape, mining and visitor contexts. Credited Commons photograph retains source-labelled identity without exact-mine or access inference. Publication pending; inventory1866, zero programme credit and no exhaustive semantic deduplication claim.
+
+
+### Jhoti Chita preparation · 24 November 2026
+
+Reuse the [draft](../culture/jhoti-chita.md), [source dossier](../culture/jhoti-source-review-20261124.json) and [image provenance](../culture/jhoti-image.json). Scoped searches found existing festival mentions and the 2020 journal source, but no dedicated material-and-handwork narrative. The journal retains source ID `osha-jhoti-biswal-dash2020`; its earlier disputed boat interpretation remains excluded. An official overview and a dated named practitioner account supply distinct contexts. Antaranga is discovery only. The licensed photograph is an acquired official Commons preview; original-camera-file retrieval failed and no original-preservation claim is made. Three mapped records added; inventory1869. Preparation only, no public route or programme credit; no exhaustive semantic deduplication claim.

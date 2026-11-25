@@ -1,0 +1,82 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti",
+  "scope": "Exact committed Tensa publication candidate continuity; no hosted or live approval",
+  "head": "e1edfb88867e935a1af67a3a31ca71244ff0e5d2",
+  "tree": "52b99ddf8bfaa19935910ed5df191ac550230567",
+  "parent": "38b6216d331d04235c90977553ded55bcdde8d74",
+  "changed_files": 78,
+  "checkout_clean": true,
+  "comparison_to_prior_package_manifest": {
+    "same_file_set": true,
+    "unchanged_files": 72,
+    "changed_only": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/tensa-publication-20261124.json",
+      "kb/registers/DASHBOARD.md",
+      "kb/registers/activity.jsonl",
+      "kb/registers/records.json",
+      "kb/team/operations.json"
+    ],
+    "assessment": "All six final record/view deltas inspected. They accurately integrate prior separate review, measured package, work readiness and actual append-only event. No source, image, helper, screenshot or build evidence changed."
+  },
+  "static_hashes": {
+    "kb/research/places/tensa-article.md": "cc225a6ef26ae07e04138b8f07c84efb0053e3d3ad068f6eedf262f220303c17",
+    "kb/research/destinations/tensa-image.json": "f65150caff712f956358e5183d891a8cdf031700444e0fda19ec8bd0cd8ee421",
+    "projects/site/src/pages/destinations/tensa.astro": "75f70c750670e57775d745150176ab9b824a25388bb9e52e7027536083299356",
+    "projects/site/public/images/destinations/tensa-mines-manjeet-bhoi.jpg": "64b6b782a99bf5252d41dcf4a187ac0725c77004c2d708c8c1fcfc655404c56d",
+    "outputs/tensa-publication-2026-11-24/review/final-package-review.json": "d8b39c04f4abc63822bb0a6cdd2fdc3ae1697273059e46ff3d6713eb9a430068"
+  },
+  "records": {
+    "status": "reviewed_publication_candidate",
+    "work_status": "in_progress",
+    "readiness": "reviewed",
+    "rollout_status": "in_progress",
+    "rollout_local_checks": true,
+    "programme_credit": 0,
+    "scope_released": false,
+    "current_article_phase": "publication_checks",
+    "new_review": "POD-REV-2026112491",
+    "new_prepublication_event": "POD-EVT-2026112492",
+    "review_attribution": "Actual independent automated review, no human specialist or field review. Hosted CI and delivery still pending.",
+    "existing_register_entities_unchanged": true,
+    "historical_operations_prefix_preserved": true,
+    "foreign_current_task_and_handoff_home_preserved": true,
+    "activity_prior_bytes_preserved": true,
+    "kaincha_15_files_plus_completion_review_preserved": true
+  },
+  "read_only_checks": {
+    "registers": "PASS;1378 records/858 events/dashboard current",
+    "team": "PASS",
+    "programme": "PASS",
+    "rollout": "PASS;241 completed,1 in_progress",
+    "unrestricted_whitespace": "Fails only exact two preserved raw Astro log files. No zero-exception claim.",
+    "scoped_whitespace": "PASS excluding only documented two log paths, both recorded hashes verified."
+  },
+  "raw_log_exceptions": {
+    "reason": "Unchanged raw Astro console output retains trailing spaces; staged whitespace check finds only these exact two paths. Non-log diff checked without exceptions.",
+    "files": [
+      {
+        "path": "outputs/tensa-publication-2026-11-24/checks/coast-build.log",
+        "sha256": "83102efffdcded66ad7760d903ffea575dbaca04711ce2dc068265a7b49d1fcc"
+      },
+      {
+        "path": "outputs/tensa-publication-2026-11-24/checks/full-build.log",
+        "sha256": "9dc16d64921e98dd0f52477e0003b7549949f0e8cea7f3148137f9950d9bdbad"
+      }
+    ]
+  },
+  "reviewed_local_payload": {
+    "bytes": 998680963,
+    "files": 3660,
+    "remaining_bytes": 1319037,
+    "limitation": "Actual local size only; hosted Linux gate still required."
+  },
+  "pending": [
+    "Required exact-head hosted CI and actual Linux capacity",
+    "Actual authorized merge and deployment",
+    "Fresh live route/image/browser verification and separate reviewed receipt before scope release"
+  ],
+  "blockers": [],
+  "mutation_scope": "Only this /private/tmp evidence file written. No repository edit, Git mutation, build or browser action."
+}

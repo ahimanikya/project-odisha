@@ -1,0 +1,51 @@
+{
+  "reviewer": "Samanta",
+  "kind": "separate_ai_agent",
+  "status": "visually_accepted_with_explicit_differences",
+  "source_public_fan_exact": true,
+  "source_public_pipili_exact": true,
+  "fan960_exact": true,
+  "variants": [
+    {
+      "name": "Binchana480",
+      "live_path": "/images/responsive/f4e4108ab5b2cde9-480.webp",
+      "local_path": "/images/responsive/5358a16ba141b6ae-480.webp",
+      "live_sha256": "f4e4108ab5b2cde9d7f9481f7ed8de068b51588f6d606da4716b769733962918",
+      "local_sha256": "5358a16ba141b6aeaf0390758dc1cb871112d38a9cbc2653fca2a7ee97ecd9a6",
+      "dimensions": [
+        480,
+        582
+      ],
+      "live_bytes": 48448,
+      "local_bytes": 48580,
+      "changed_pixels": 178763,
+      "total_pixels": 279360,
+      "maximum_channel_delta": 26,
+      "mean_absolute_channel_delta": 1.4936,
+      "rms_channel_delta": 2.4783
+    },
+    {
+      "name": "ExistingPipili1440",
+      "live_path": "/images/responsive/8504dc65881c4b9d-1440.webp",
+      "local_path": "/images/responsive/af44bf890be295f7-1440.webp",
+      "live_sha256": "8504dc65881c4b9d55359d11f25ed171f3e707511495b27d031cadf85ddecc5a",
+      "local_sha256": "af44bf890be295f7307c7b27be9cece466022734e1a835b731888443ab1b811a",
+      "dimensions": [
+        1440,
+        720
+      ],
+      "live_bytes": 148198,
+      "local_bytes": 148514,
+      "changed_pixels": 416439,
+      "total_pixels": 1036800,
+      "maximum_channel_delta": 28,
+      "mean_absolute_channel_delta": 0.88766,
+      "rms_channel_delta": 1.89144
+    }
+  ],
+  "visual_findings": "Same full framing, object edges and detail; no discernible material visual change in the inspected comparisons. Both variants are decoded-pixel and byte different, not merely filename/metadata differences.",
+  "metadata": "Both pairs are three-channel sRGB WebP without alpha/profile/EXIF buffers reported by Sharp.",
+  "limits": "Exact cause of encoding/decoded differences is unproved. This is separate implementation-agent diagnosis; Drishti delivery review still required.",
+  "initial_http_check": "Initial helper assumed macOS hash URL would exist live and received404. Actual rendered URL was observed in browser, downloaded successfully and compared; no broken live-page image was found.",
+  "metric_scope": "Mean absolute and RMS differences are over decoded RGB channels; constant alpha is excluded."
+}

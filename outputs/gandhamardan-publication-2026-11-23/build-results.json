@@ -1,0 +1,81 @@
+[
+  {
+    "name": "full-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/full-build.log"
+  },
+  {
+    "name": "full-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/full-disclosures.log"
+  },
+  {
+    "name": "full-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/full-tests.log"
+  },
+  {
+    "name": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-build.log"
+  },
+  {
+    "name": "coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-disclosures.log"
+  },
+  {
+    "name": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/coast-tests.log"
+  },
+  {
+    "name": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/publication-build.log"
+  },
+  {
+    "name": "publication-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "log": "outputs/gandhamardan-publication-2026-11-23/publication-disclosures.log"
+  }
+]

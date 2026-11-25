@@ -1,0 +1,83 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "status": "PASS_WITH_PENDING_RENDERED_PACKAGE_AND_LIVE_GATES",
+  "scope": "Current uncommitted source/media/capacity implementation; no browser, build, test-suite, Linux or live acceptance claimed.",
+  "base_head": "d8eef97818bc0451c77d24c97ab19e7e415666b5",
+  "source_hashes": {
+    "kb/research/culture/sola-and-tahia.md": "f23e5e34cc418855e281afc261276eec4a08aac8f395defdf6bfeefb096b896a",
+    "projects/site/src/pages/stories/sola-and-odissi-tahia.astro": "92f02c976b3aedb021ce8f8634607d37b6c9ef6f6be8e65035aa58f2b9c712b8",
+    "projects/site/src/pages/stories/odissi-abhinaya.astro": "d781895d9f9cd6505af8eea189e041785467780765facbff9db9802deb5ba9d3",
+    "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "701a0ea85fd7197ca7f1f6ad513d71e0a13f8cc7b122f3974189aeae9f183467",
+    "projects/site/src/data/cultural-book.json": "1723c52aae6c872fbe1c805f5467926df7577767aeb41f55674cab58ac96cdd0",
+    "projects/site/public/images/stories/sola-tahia.webp": "1b90fc8fca3cafaa0176bcea08ab72bcd81c1b0cdf93c0379351ffbbbed2ee0b",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "ba957c4d9113ee0f67404e2b2fe2da120cc67d42c26a0042ebb278904731dc07",
+    "projects/site/tests/publication-jpeg.test.mjs": "f6563d43479c534a892142e012397c903d05703ae81d150e759c0fd5dc47ba28",
+    "projects/site/editions/coast.json": "b03ebf8f136fe4f895f9815dac865fb6dc79afcd4b3b8c91a6ca8c95a0b15759",
+    "projects/site/editions/responsive-images.json": "c0219d83ef0ad786d4d4f68c4ff6e3ee15b3334a30ce6ebbeaf7c3372438b386",
+    "projects/site/editions/search-candidate.json": "779473a85502244d08046e3374016b90a6fdb8771d95fedffad1116a57597f2a",
+    "projects/site/tests/build.test.mjs": "41a6f00f335807343d153b440626d8f596c19910577312669f8f0501b7aeef00"
+  },
+  "checks": [
+    "Canonical factual narrative and four source notes equal prepared baseline except accurate photo alteration sentence; metadata publication flags changed as authorized.",
+    "Bounded direct renderer invocation: six references, four definitions, six returns, no duplicate IDs or missing fragment targets; renderer removes title/byline for single wrapper heading/byline.",
+    "Book data:47 chapter objects unchanged; only material-crafts note12 added. Removing exact new conditional card restores prior template byte-for-byte.",
+    "Removing intended import, supplementary photo note7, incoming card and CSS restores original Odissi template byte-for-byte. Existing reading paths and canonical notes preserved.",
+    "New route uses semantic full-frame figure, meaningful alt, explicit1200x801 dimensions, eager/high-priority hero, lazy full-frame incoming previews with empty decorative alt and adjacent exact article title. Both incoming credits retain creator/source/CC BY-SA4.0 and alteration statement.",
+    "Coast and portable route additions, responsive image allowlist, search hold and static count178->179 reflect one article; no widened search approval or weakened test assertion.",
+    "Sixth JPEG allowlist entry only; previous five settings and shared optimizer algorithm unchanged. New guard-bound credit sentence and exact og:image dimensions update reviewed. New real-source test checks geometry, attribution buffers, original bytes and exact transformed HTML; test suite execution left to root."
+  ],
+  "source_word_allocations": {
+    "SIDAC": 149,
+    "NIE": 171,
+    "PARI_Panda_combined": 195,
+    "scope": "Current public article, metadata values once, both incoming titles and credits; historical prepared brief not republished. No additional factual summaries introduced."
+  },
+  "media": {
+    "sola": {
+      "original_sha256": "50c47707d4d50cd4855d16e554360145d486cc9536308919c2a17f70a69586be",
+      "original_bytes": 13720898,
+      "delivery_sha256": "1b90fc8fca3cafaa0176bcea08ab72bcd81c1b0cdf93c0379351ffbbbed2ee0b",
+      "delivery_bytes": 156978,
+      "dimensions": [
+        1200,
+        801
+      ],
+      "independently_reproduced_byte_exact": true,
+      "metadata": "XMP byte-equal; EXIF65532->30538bytes changes. No ICC or IPTC in either. Orientation1 retained. keepMetadata is not an assertion of all metadata byte identity.",
+      "visual": "Personally inspected full original inspection PNG and actual1200px WebP. Complete curved headpiece, buds, layered petals, hands and worktable retained; no material quality concern at reading size. No maker/workshop/person identity inferred.",
+      "rights": "Specific Commons Prakriti Panda photograph, CC BY-SA4.0; source licence retained and alteration disclosed."
+    },
+    "hindola": {
+      "original_sha256": "68f51f38c4a37a169f832d367e4230c6b0031cb2d35099cc1fa69f059700ecbc",
+      "delivery_sha256": "07542ff440a55a4b9966c55740e0ab4093dc684fff70504952c829de2ac1fa15",
+      "original_bytes": 3122908,
+      "delivery_bytes": 1804657,
+      "saved_bytes": 1318251,
+      "dimensions": [
+        1517,
+        2048
+      ],
+      "independently_reproduced_byte_exact": true,
+      "metadata": "ICC/IPTC/XMP byte-identical. EXIF116->206bytes changed; absent source orientation normalized to1, equivalent display orientation.",
+      "visual": "Personally viewed both850px fullframe inspection PNGs. Entire painting edges, figures, instruments and swing retained, no material visible quality issue at inspected size; not a pixel-identical or archival-detail assertion.",
+      "rights": "Read existing original museum API record and provenance: Cleveland Museum of Art1975.9, Edward L. Whittemore Fund,CC0. Comparative Pahari image, not Odisha documentary evidence."
+    }
+  },
+  "capacity": {
+    "new_image_and_projected_variants_bytes": 316512,
+    "baseline_reported_headroom_bytes": 19406,
+    "hindola_saving_bytes": 1318251,
+    "projected_headroom_before_html_and_platform_differences": 1021145,
+    "limits": "Projection only; actual final package and mandatory LinuxCI acceptance pending."
+  },
+  "guidance": "Installed modern-web-guidance instructions read; earlier rejected unpinned execution not retried. Official MDN img documentation consulted: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+  "blockers": [],
+  "limits": [
+    "No browser/layout screenshot review yet; source structure does not prove mobile/desktop rendering.",
+    "No independent suite run or production build; root pipeline owns execution.",
+    "Source snapshot mutable until exact commit binding.",
+    "Lossy resizing/compression changes image pixels and some EXIF; originals retained.",
+    "Independent AI review only; no human specialist approval."
+  ]
+}

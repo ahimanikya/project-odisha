@@ -82,3 +82,17 @@
 [Bhanita and literary signatures](bhanita-and-poet-signatures.md) — a sourced song example and the distinction between character, poet and singer.
 
 [How sound and comparison shape Bhanja’s poetry](alankara-and-bhanja.md) — a standalone illustrated close reading; local draft, with Abana still an open question.
+
+[Jau Kandhei and the Doll Makers of Balasore](jau-kandhei-clay-lac-and-the-makers-of-balasore.md) — independently sourced article draft on clay, lac and documented makers.
+
+[Sagada: The Work of a Bullock Cart](sagada-and-the-work-of-the-bullock-cart.md) — historical cart design, loading and repair, with dated sources.
+
+- [Kagaja Mukha and the Paper Masks of Raghurajpur](kagaja-mukha-and-the-making-of-a-mask.md) — independently sourced article; [source review](kagaja-mukha-source-review-20261122.json).
+
+[Bellaguntha’s Brass Fish](bellaguntha-brass-fish.md) — Independently researched article on an articulated metal object and named learning histories.
+
+[Binchana and the Handmade Breeze](binchana-and-the-handmade-breeze.md) — Independent draft on the hand fan’s materials and dated maker accounts, with a credited photograph.
+
+[Paralakhemundi’s Horn Craft: From Comb to Crane](paralakhemundi-horn-craft.md) — Original unpublished draft on material choices and workshop trade, with a credited museum photograph.
+
+[Sola: The Craft Behind an Odissi Tahia](sola-and-tahia.md) — independently researched draft with a credited finished-headpiece photograph; preparation only.

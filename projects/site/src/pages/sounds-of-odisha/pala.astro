@@ -19,6 +19,7 @@ const contents=[...sections.filter(block=>block.title).map(block=>({title:block.
 <section class="narrative-section" aria-labelledby="planning-links"><h2 id="planning-links">Planning and listening links</h2><ul>{story.visitor_links.map(link=><li><a href={link.url}>{link.title}</a><p>{link.purpose}</p></li>)}</ul></section>
 <p><a href="/literature/">Explore Odia literature →</a> · <a href="/sounds-of-odisha/#daskathia">Meet Daskathia →</a></p>
 <ArticleFootnotes sources={story.sources.map(s=>({id:s.id,title:s.title,url:s.resource,note:s.reader_note}))} passages={passages}><p>More artists and their work: <a href="https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/pala-artists.md">the twenty-artist collection</a>.</p><h3>Photograph</h3><p><a href={story.photo.url}>{story.photo.creator} · Nalconagar, 2013</a> · <a href={story.photo.license_url}>{story.photo.license}</a>. {story.photo.changes} The performer is not identified here.</p></ArticleFootnotes>
+<p>Continue through Sounds of Odisha with <a href="/stories/dhumpa-music-and-its-players/">Dhumpa Music and Its Players →</a>.</p>
 <SoundReadingPaths current="pala"/>
 <p><a href="/contribute/?page=%2Fsounds-of-odisha%2Fpala%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p><SoundsReadingTrail slug="pala"/></div>
 </article></Shell>

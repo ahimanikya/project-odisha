@@ -1,0 +1,40 @@
+{
+  "reviewer": "Drishti",
+  "result": "pass_for_measured_image_differences",
+  "method": "Independently decoded every freshly fetched actual live/local pair and opened each of the three differing pairs individually with view_image. No human or field review claimed.",
+  "comparison_sha256": "ba70991a41df6772550f65ba9ac2639c5e076f40799ab70a01cbd7db9a2d2489",
+  "images": [
+    {
+      "url": "/images/responsive/e0e6b1a38b4692ec-480.webp",
+      "local_file": "projects/site/dist-publish/images/responsive/3867fe434648ddd8-480.webp",
+      "live_file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/images/5.webp",
+      "local_sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+      "live_sha256": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+      "result": "accepted_with_measured_differences",
+      "visual_review": "Both actual480files separately opened. Hills, trees, red foreground and complete frame match; minor pixel changes are measurable, but no conspicuous visible degradation in this thumbnail."
+    },
+    {
+      "url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+      "local_file": "projects/site/dist-publish/assets/jhulana-in-odisha/hindola-raga.jpg",
+      "live_file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/images/14.jpg",
+      "local_sha256": "07542ff440a55a4b9966c55740e0ab4093dc684fff70504952c829de2ac1fa15",
+      "live_sha256": "1f5de7dec00f1910ace8b42d4979b9b14cb3bdfeb91933a312c65fc9924149ee",
+      "result": "accepted_with_measured_differences",
+      "visual_review": "Both full actual1517x2048files separately opened. Complete borders, figures, swing, trees and fine costume/face details retained; no conspicuous color or detail loss at reviewed display. Metadata blocks byte-equal."
+    },
+    {
+      "url": "/assets/ashta-nayika/abhisarika-met.jpg",
+      "local_file": "projects/site/dist-publish/assets/ashta-nayika/abhisarika-met.jpg",
+      "live_file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/images/15.jpg",
+      "local_sha256": "cbf7a0cbc5887e219af9ed9e8bae332e1939b23b74d93bb892e6d29cc83c7040",
+      "live_sha256": "c015694c9c63580d35f7f77ef19218156fd162db165b5d36547481fd7ec1a160",
+      "result": "accepted_with_measured_differences",
+      "visual_review": "Both full actual1488x2048files separately opened. Complete painting/borders and figure details retained. The166changed RGBchannels at maximum2 do not produce a conspicuous visible difference; no pixel-identity claim."
+    }
+  ],
+  "limits": [
+    "All three remain nonidentical in bytes and pixels; raw HTTP evidence retains REVIEW_DIFFERENCES.",
+    "No encoding cause, historical unchanged-delivery conclusion, broader browser compatibility or live page layout verdict inferred.",
+    "Final delivery review remains pending live screenshot review."
+  ]
+}

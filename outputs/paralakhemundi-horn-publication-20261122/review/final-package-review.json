@@ -1,0 +1,131 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_ai_agent",
+  "reviewed_on": "2026-11-22",
+  "status": "PASS",
+  "scope": "Final local package acceptance for the current uncommitted candidate. This does not accept required Linux CI, deployment or live delivery.",
+  "checks": {
+    "delivery_helper": {
+      "executed_independently": true,
+      "command": "python3 outputs/paralakhemundi-horn-publication-20261122/verify_delivery.py --output /tmp/horn-drishti-package/delivery.json",
+      "status": "PASS",
+      "routes": 3,
+      "images": 15,
+      "limits": "Local files only; helper compares local delivery files and verifies their presence, markup, credits and links. No HTTP or visual delivery check implied."
+    },
+    "independent_payload_stat": {
+      "regular_file_bytes": 998544801,
+      "regular_files": 3620,
+      "directories": 820,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "exclusive_limit": 1000000000,
+      "headroom_bytes": 1455199,
+      "status": "PASS"
+    },
+    "affected_routes_cross_edition": {
+      "status": "PASS",
+      "comparison": "Article fragments byte-identical across dist,dist-coast,dist-publish",
+      "routes": [
+        {
+          "route": "/stories/paralakhemundi-horn-craft/",
+          "article_sha256": "ef31ff886474e43078e0ad14c287d0f6d8d2adddcc5eab2ee51eb1787003535c"
+        },
+        {
+          "route": "/stories/bellaguntha-brass-fish/",
+          "article_sha256": "b3e589ba8c1aae8e0877afa096e559eddc020cdf81b5b06281fa16194b29c1b6"
+        },
+        {
+          "route": "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/",
+          "article_sha256": "af979c9fea4ffa02a7867e6f1ce8413236f2a276275b8f221168c32e5a3276b1"
+        }
+      ]
+    },
+    "native_notes": {
+      "new_article": {
+        "references": 5,
+        "definitions": 4,
+        "returns": 5
+      },
+      "credit_source_license_alteration": true,
+      "share_image": "/images/stories/paralakhemundi-horn-fish.webp"
+    },
+    "unaffected_chapters": {
+      "independently_checked_local_hashes": 47,
+      "all_match_saved_local_baseline": true,
+      "all47_cross_edition_fragments_exact": true,
+      "saved_production_comparison": {
+        "exact": 46,
+        "one_observed_image_url_only": 1,
+        "exception": "modern-art-photography-and-public-heritage: Binchana480 local5358a16ba141b6ae to observed productionf4e4108ab5b2cde9",
+        "exception_saved_fragment_hashes_verified": true,
+        "exception_exact_single_replacement_verified": true
+      },
+      "limits": "Saved production observations reviewed, not independently refetched in this package review. Production baseline is observational, not an immutable commit-bound snapshot. No byte or pixel equality claimed for differing existing image encodings."
+    },
+    "preservation": {
+      "original_photo_hash_unchanged": true,
+      "prepared_dossier_provenance_receipt_unchanged": true,
+      "all_preparation_deliveries_except_authorized_canonical_change_hash_equal": true,
+      "source_snapshot_matches_prior_integration_review": true,
+      "foreign_current_task_and_handoff_home_unchanged": true
+    },
+    "test_log_review": {
+      "full_tests": 822,
+      "full_pass": 822,
+      "coast_tests": 598,
+      "coast_pass": 598,
+      "initial_failure_preserved": "checks-0.json retains initial full-test failure; receipt records3 failures from missing route count/search hold. Current full-tests.log contains corrected rerun. Tests were not rerun by this reviewer.",
+      "steps_reviewed": [
+        "checks-0.json",
+        "checks-2.json"
+      ]
+    },
+    "disclosure_log_review": {
+      "full_pages": 1498,
+      "coast_pages": 1483,
+      "publication_pages": 1484,
+      "violations_each": 0,
+      "new_article_no_repeated_production_labels": true
+    },
+    "record_consistency": {
+      "status": "reviewed_candidate",
+      "scope_released": false,
+      "programme_credit": 0,
+      "actual_linux_pending": true,
+      "deployment_and_live_pending": true
+    }
+  },
+  "limits": [
+    "Local macOS package bytes are not Linux acceptance.",
+    "Source snapshot not yet bound to final commit.",
+    "Previously reviewed screenshot limits retained; root performed all browser interactions.",
+    "No new browser control, build, broad test suite or live HTTP requests during this package review."
+  ],
+  "source_hashes": {
+    "kb/research/culture/paralakhemundi-horn-craft.md": "5f80d2e64904b05fef6cc6e982fee96a37d83ccb30c7c9c41224f8c5e8d15161",
+    "projects/site/src/pages/stories/paralakhemundi-horn-craft.astro": "f576d5e6b34d38f30f8a431eb82ebdfabc6385d43bf01ace404538b83ccb5b73",
+    "projects/site/src/pages/stories/bellaguntha-brass-fish.astro": "4a0e4a93718801e95c87141eccee96184d844d051863a28da41bb3d9f5801bd2",
+    "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro": "b43903b4b283c091aba1e3e60cc1fda8692a4f3d7f6f2246265e33f13a25a94a",
+    "projects/site/src/data/cultural-book.json": "3823ccdc427d4d454d2ade29e711a8ba8a0c450be7e49c10f855a7e45fb4987d",
+    "projects/site/editions/search-candidate.json": "ea8a7be9e87509c38304ccfacab75894d2c1707dcac7740e17a65693eebb597e",
+    "projects/site/tests/build.test.mjs": "48e408543f993b646cddc20e605b892eda179cd2134cb8228420a2f52f1196da",
+    "projects/site/editions/coast.json": "3ef15dd623e0e7b44c84198dfda32f668408cc3e7d878db094912001c0348002",
+    "projects/site/editions/responsive-images.json": "fafb69d80c3550ad7f3d69e6ec690adaa716066e86e6239864f88f095e167291",
+    "projects/site/public/images/stories/paralakhemundi-horn-fish.webp": "0c8c57dd8299aaf406c130cb2d3f96c8612bcd53b7bc7701fadce0215084f622"
+  },
+  "evidence_hashes": {
+    "outputs/paralakhemundi-horn-publication-20261122/checks-0.json": "aa9cd81cd232698c22e029f851884fa1ae98122a52f26f699a4198457f65a2bf",
+    "outputs/paralakhemundi-horn-publication-20261122/checks-2.json": "facad51f49fa8178f6205025d5ef1cdf2e545fdb7f20002d764a3dabdd1f896f",
+    "outputs/paralakhemundi-horn-publication-20261122/local-delivery.json": "0ac3a9626e44a91ce01c893af3182c395439521cd80f0632c0c1a5e8fb2e2d06",
+    "outputs/paralakhemundi-horn-publication-20261122/local-payload.json": "fc3dc2acff16fd99e3df488fc10b34d73d76035e659500d1dc98a8b368b29676",
+    "outputs/paralakhemundi-horn-publication-20261122/preserved-inputs.json": "d13b598f8d378283fb545909da0cbecec0b2ad850d7313e8a073a5a42713ccff",
+    "outputs/paralakhemundi-horn-publication-20261122/full-tests.log": "ae36e4abd96f22239f922737e2e9e741bbfd3c90095390740ffed82b29b917f6",
+    "outputs/paralakhemundi-horn-publication-20261122/coast-tests.log": "a22a950a130aaa90e8f736d2a11832e74030aae332ff4fd80b4219625d430f7d",
+    "outputs/paralakhemundi-horn-publication-20261122/full-disclosure.log": "634d59f577b1a6f90ae26c137944220a549958ddd38d3812f06e15bed1b0f979",
+    "outputs/paralakhemundi-horn-publication-20261122/coast-disclosure.log": "cf9ed2fe4e6f3b4a9ea1ae2d32d6ba8ad4352e1a07e3b229bdb68cdf6d67fe44",
+    "outputs/paralakhemundi-horn-publication-20261122/publication-disclosure.log": "ab72c2ef814e8f9f9c8cb1f4772a08b6b07cd1fa1fff198b583dbd5e9291d504",
+    "outputs/paralakhemundi-horn-publication-20261122/review/chapter-preservation/report.json": "0bf110f2adac10f32272e18525b2cc906143971956da7b23a79c3a8f8998b322"
+  }
+}

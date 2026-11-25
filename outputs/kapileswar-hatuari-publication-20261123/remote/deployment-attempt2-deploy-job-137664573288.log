@@ -1,0 +1,63 @@
+deploy	Set up job	﻿2026-11-23T11:34:53.0875110Z Current runner version: '2.338.2'
+deploy	Set up job	2026-11-23T11:34:53.0894288Z ##[group]Runner Image Provisioner
+deploy	Set up job	2026-11-23T11:34:53.0894896Z Hosted Compute Agent
+deploy	Set up job	2026-11-23T11:34:53.0895273Z Version: 20261111.635
+deploy	Set up job	2026-11-23T11:34:53.0895678Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+deploy	Set up job	2026-11-23T11:34:53.0896095Z Build Date: 2026-11-11T01:49:01Z
+deploy	Set up job	2026-11-23T11:34:53.0896538Z Worker ID: {26d440b8-97d4-45c1-9b94-858ad1409a0e}
+deploy	Set up job	2026-11-23T11:34:53.0896948Z Region: southcentralus
+deploy	Set up job	2026-11-23T11:34:53.0897288Z Cloud: Azure
+deploy	Set up job	2026-11-23T11:34:53.0897684Z ##[endgroup]
+deploy	Set up job	2026-11-23T11:34:53.0898463Z ##[group]Operating System
+deploy	Set up job	2026-11-23T11:34:53.0898880Z Ubuntu
+deploy	Set up job	2026-11-23T11:34:53.0899325Z 26.04.1
+deploy	Set up job	2026-11-23T11:34:53.0899622Z LTS
+deploy	Set up job	2026-11-23T11:34:53.0899997Z ##[endgroup]
+deploy	Set up job	2026-11-23T11:34:53.0900312Z ##[group]Runner Image
+deploy	Set up job	2026-11-23T11:34:53.0900664Z Image: ubuntu-26.04
+deploy	Set up job	2026-11-23T11:34:53.0901001Z Version: 20261116.202.1
+deploy	Set up job	2026-11-23T11:34:53.0901592Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.202/images/ubuntu/Ubuntu2604-Readme.md
+deploy	Set up job	2026-11-23T11:34:53.0902918Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.202
+deploy	Set up job	2026-11-23T11:34:53.0903475Z ##[endgroup]
+deploy	Set up job	2026-11-23T11:34:53.0904087Z ##[group]GITHUB_TOKEN Permissions
+deploy	Set up job	2026-11-23T11:34:53.0905440Z Metadata: read
+deploy	Set up job	2026-11-23T11:34:53.0905774Z Pages: write
+deploy	Set up job	2026-11-23T11:34:53.0906082Z ##[endgroup]
+deploy	Set up job	2026-11-23T11:34:53.0907408Z Secret source: Actions
+deploy	Set up job	2026-11-23T11:34:53.0907922Z Cache mode: write
+deploy	Set up job	2026-11-23T11:34:53.0908415Z Prepare workflow directory
+deploy	Set up job	2026-11-23T11:34:53.1121461Z Prepare all required actions
+deploy	Set up job	2026-11-23T11:34:53.1152281Z Getting action download info
+deploy	Set up job	2026-11-23T11:34:53.3793298Z Download action repository 'actions/deploy-pages@v5' (SHA:368f82528645a54fb793d4d04e342629a3f51346)
+deploy	Set up job	2026-11-23T11:34:54.0102538Z Complete job name: deploy
+deploy	Publish approved website	﻿2026-11-23T11:34:54.0708761Z ##[group]Run actions/deploy-pages@v5
+deploy	Publish approved website	2026-11-23T11:34:54.0709479Z with:
+deploy	Publish approved website	2026-11-23T11:34:54.0711680Z   token: ***
+deploy	Publish approved website	2026-11-23T11:34:54.0711934Z   timeout: 600000
+deploy	Publish approved website	2026-11-23T11:34:54.0712206Z   error_count: 10
+deploy	Publish approved website	2026-11-23T11:34:54.0712467Z   reporting_interval: 5000
+deploy	Publish approved website	2026-11-23T11:34:54.0712761Z   artifact_name: github-pages
+deploy	Publish approved website	2026-11-23T11:34:54.0713058Z   preview: false
+deploy	Publish approved website	2026-11-23T11:34:54.0713397Z ##[endgroup]
+deploy	Publish approved website	2026-11-23T11:34:54.3285137Z (node:2118) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+deploy	Publish approved website	2026-11-23T11:34:54.3286279Z (Use `node --trace-deprecation ...` to show where the warning was created)
+deploy	Publish approved website	2026-11-23T11:34:54.5086723Z Fetching artifact metadata for "github-pages" in this workflow run
+deploy	Publish approved website	2026-11-23T11:34:54.6783941Z Found 1 artifact(s)
+deploy	Publish approved website	2026-11-23T11:34:54.6830085Z Creating Pages deployment with payload:
+deploy	Publish approved website	2026-11-23T11:34:54.6830936Z {
+deploy	Publish approved website	2026-11-23T11:34:54.6831341Z 	"artifact_id": 14814439252,
+deploy	Publish approved website	2026-11-23T11:34:54.6831992Z 	"pages_build_version": "553786bccb8e1502ea02d453d67cd836e02e853c",
+deploy	Publish approved website	2026-11-23T11:34:54.6881768Z 	"oidc_token": "***"
+deploy	Publish approved website	2026-11-23T11:34:54.6882636Z }
+deploy	Publish approved website	2026-11-23T11:34:55.1765242Z Created deployment for 553786bccb8e1502ea02d453d67cd836e02e853c, ID: 553786bccb8e1502ea02d453d67cd836e02e853c
+deploy	Publish approved website	2026-11-23T11:34:59.4448301Z Getting Pages deployment status...
+deploy	Publish approved website	2026-11-23T11:34:59.5916635Z Current status: deployment_in_progress
+deploy	Publish approved website	2026-11-23T11:35:08.4827508Z Getting Pages deployment status...
+deploy	Publish approved website	2026-11-23T11:35:08.7718080Z Current status: syncing_files
+deploy	Publish approved website	2026-11-23T11:35:18.3966268Z Getting Pages deployment status...
+deploy	Publish approved website	2026-11-23T11:35:18.6457011Z Current status: syncing_files
+deploy	Publish approved website	2026-11-23T11:35:38.1283603Z Getting Pages deployment status...
+deploy	Publish approved website	2026-11-23T11:35:38.3821917Z Reported success!
+deploy	Complete job	﻿2026-11-23T11:35:38.4154141Z Evaluate and set environment url
+deploy	Complete job	2026-11-23T11:35:38.4156862Z Evaluated environment url: https://projectodisha.org/
+deploy	Complete job	2026-11-23T11:35:38.4157382Z Cleaning up orphan processes

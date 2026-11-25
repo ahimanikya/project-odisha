@@ -1,0 +1,37 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/places/kapilash-article.md';
+import image from '../../../../../kb/research/destinations/kapilash-image.json';
+import {panchalingeswarGuide} from '../../data/hill-destinations';
+import culturalBook from '../../data/cultural-book.json';
+const mahimaChapter=culturalBook.chapters.find(chapter=>chapter.slug==='mahima-dharma-and-the-poetry-of-bhima-bhoi')!;
+const jorandaImage=mahimaChapter.images.find(image=>image.id==='joranda')!;
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <p class="eyebrow">Dhenkanal · Hills and highland escapes</p>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author={frontmatter.author}/>
+    </header>
+    <figure class="shrine-photo">
+      <ResponsiveImage src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 520px) calc(100vw - 2.4rem), 30rem" loading="eager" fetchpriority="high"/>
+      <figcaption>{image.caption} Photograph by <a href={image.source}>{image.creator}</a>, <a href={image.license_url}>{image.license}</a>. {image.changes}</figcaption>
+    </figure>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={[{href:'/stories/kapileswar-hatuari/',title:'Kapileswar at Hatuari: What Do We Actually Know?',description:'A separate Shiva temple in Dhenkanal, with a provisional architectural date.',image:'/images/kapileswar-hatuari/kapileswar-anup525-864.webp'},{href:panchalingeswarGuide.href,title:'Panchalingeswar: A Shrine in Flowing Water',description:panchalingeswarGuide.summary,image:panchalingeswarGuide.photo.src},{href:'/books/odisha-culture-memory-and-living-traditions/'+mahimaChapter.slug+'/',title:mahimaChapter.title,description:'A separate religious tradition, with Joranda among its places of gathering.',image:jorandaImage.src}]}/>
+    <ArticleReadingPath heading="Further reading" links={[{href:'/destinations/hills/',title:'Hills and highland escapes',description:'Explore the growing collection of hill destinations.',image:image.src}]}/>
+    <p><a href="/contribute/?page=%2Fdestinations%2Fkapilash%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  .shrine-photo{width:min(100%,30rem);margin-inline:auto}
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(img){max-width:100%;height:auto}
+  article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+  article :global(.footnotes){margin-top:3rem}
+</style>

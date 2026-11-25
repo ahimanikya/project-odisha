@@ -1,0 +1,64 @@
+{
+  "status": "PASS_BOUNDED_IMPLEMENTATION",
+  "changed_code_files": [
+    "projects/site/tools/optimize-publication-jpeg.mjs",
+    "projects/site/tests/publication-jpeg.test.mjs"
+  ],
+  "measurement": {
+    "path": "assets/champu-and-sakhi/radha-confidante-met.jpg",
+    "settings": {
+      "maximum_dimension": 2048,
+      "quality": 95,
+      "chromaSubsampling": "4:4:4",
+      "mozjpeg": true,
+      "preserve_metadata": true
+    },
+    "status": "resized-and-compressed",
+    "source_sha256": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+    "output_sha256": "eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf",
+    "source_bytes": 2397053,
+    "output_bytes": 1244754,
+    "saved_bytes": 1152299,
+    "source_dimensions": [
+      3923,
+      2569
+    ],
+    "output_dimensions": [
+      2048,
+      1341
+    ],
+    "orientation": 1
+  },
+  "preservation": {
+    "source_matches_HEAD_byte_exact": true,
+    "optimizer_algorithm_and_previous_seven_entries_unchanged": true,
+    "original_source_bytes": 2397053,
+    "icc_iptc_xmp": "Absent in both original and derivative, asserted in real-asset test.",
+    "orientation": "Original absent; derivative 1; equivalent normal display orientation asserted.",
+    "exif": "Absent original EXIF; technical EXIF added in derivative. No raw metadata equality claim.",
+    "caption_and_OG": "Only unique public-domain caption suffix and matching OG width/height transformed; full museum/gift/object credit and contextual text preserved.",
+    "guard_rejections": [
+      "Incorrect museum source URL",
+      "Duplicate public-domain credit phrase",
+      "Wrong OG image path",
+      "Wrong OG source width"
+    ],
+    "guard_failures_leave_asset_and_HTML_unchanged": true
+  },
+  "validation": {
+    "command": "PATH=/Users/ahimanikya/.nvm/versions/node/v25.8.1/bin:$PATH node --test tests/publication-jpeg.test.mjs",
+    "tests": 7,
+    "passed": 7,
+    "failed": 0,
+    "duration_ms": 321324.16075,
+    "git_diff_check": "PASS",
+    "exact_allowlist_count": 8,
+    "stdout": "\u2714 JPEG delivery scope remains eight explicit images (0.590167ms)\n\u2714 delivery resizing preserves ratio, orientation and credit metadata while leaving originals and unrelated files unchanged (221.815042ms)\n\u2714 Bhagabata delivery preserves the full frame and source credits with a photo-specific caption and settings (301.165792ms)\n\u2714 Bhubaneswar delivery retains the source, photo URL, credits, both full frames and sharing metadata (1889.342583ms)\n\u2714 Hindola delivery retains the complete painting, museum credit and source while updating share geometry (1041.265333ms)\n\u2714 Abhisarika delivery retains the complete painting, museum credit and source while updating share geometry (451.082709ms)\n\u2714 Radha delivery preserves the source and complete museum credit with guarded caption and share geometry (317291.667375ms)\n\u2139 Radha capacity measurement: {\"path\":\"assets/champu-and-sakhi/radha-confidante-met.jpg\",\"settings\":{\"maximum_dimension\":2048,\"quality\":95,\"chromaSubsampling\":\"4:4:4\",\"mozjpeg\":true,\"preserve_metadata\":true},\"status\":\"resized-and-compressed\",\"source_sha256\":\"45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d\",\"output_sha256\":\"eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf\",\"source_bytes\":2397053,\"output_bytes\":1244754,\"saved_bytes\":1152299,\"source_dimensions\":[3923,2569],\"output_dimensions\":[2048,1341],\"orientation\":1}\n\u2139 tests 7\n\u2139 suites 0\n\u2139 pass 7\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 321324.16075\n"
+  },
+  "limits": [
+    "No full build or final package capacity gate run by this agent.",
+    "No browser checks in this bounded change.",
+    "Lossy resized delivery candidate; not pixel-identical to original. Separate candidate visual review is review/capacity-review.json.",
+    "Actual final Linux package size remains a coordinator gate."
+  ]
+}

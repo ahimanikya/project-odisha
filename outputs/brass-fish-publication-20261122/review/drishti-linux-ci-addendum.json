@@ -1,0 +1,42 @@
+{
+  "reviewer": "Drishti",
+  "kind": "separate_task_scoped_AI_review",
+  "reviewed_at": "2026-11-22T04:10:43.956035+00:00",
+  "status": "PASS",
+  "candidate": "d717c9beb1d59c2082f8bac3a74a07251574220b",
+  "prior_review": "outputs/brass-fish-publication-20261122/review/drishti-local-package.json",
+  "verification_method": "Fresh read-only gh API query, gh pr view and gh run view --log; no reliance solely on coordinator report.",
+  "ci": {
+    "run": 44981917059,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/44981917059",
+    "head_sha": "d717c9beb1d59c2082f8bac3a74a07251574220b",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "full_tests_passed": 821,
+    "coastal_tests_passed": 598,
+    "linux_regular_file_bytes": 999928292,
+    "regular_files": 3591,
+    "exclusive_limit": 1000000000,
+    "margin_bytes": 71708,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "special_files": 0
+  },
+  "pull_request": {
+    "number": 822,
+    "url": "https://github.com/ahimanikya/project-odisha/pull/822",
+    "state": "MERGED",
+    "head_sha": "d717c9beb1d59c2082f8bac3a74a07251574220b",
+    "merge_sha": "3829f86f1d58ac8f3907274a095fe2010bd2417f",
+    "merged_at": "2026-11-22T04:09:32Z"
+  },
+  "binding": "CI and merged PR head exactly match the candidate independently reviewed for source, layouts and local package.",
+  "limits": [
+    "Linux package acceptance established from actual successful run and its logs, not inferred from macOS local size.",
+    "Publication workflow dispatch is not deployment success. No live route, image or browser result is claimed in this addendum.",
+    "Coordination remains held through reviewed delivery receipt merge.",
+    "No human specialist approval; no shared record or website changes by this reviewer."
+  ],
+  "blockers": []
+}

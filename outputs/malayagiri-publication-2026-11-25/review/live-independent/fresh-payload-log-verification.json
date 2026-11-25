@@ -1,0 +1,31 @@
+{
+  "reviewer": "Drishti",
+  "result": "pass",
+  "runs": [
+    {
+      "run_id": 45508007471,
+      "name": "publication-ci",
+      "fresh_log_sha256": "e10a6516a34f851af73794fd7cd6cecdc3e5cf1bea7b0fca2f545e5f7601cf2c",
+      "matches_retained_decompressed_log": true,
+      "payload_lines": [
+        "validate\tValidate Pages payload acceptance\t2026-11-24T23:41:06.2970382Z   \"regular_file_bytes\": 999907903,",
+        "validate\tValidate Pages payload acceptance\t2026-11-24T23:41:06.2970805Z   \"regular_files\": 3675,",
+        "validate\tValidate Pages payload acceptance\t2026-11-24T23:41:06.2971584Z   \"exclusive_byte_limit\": 1000000000,"
+      ]
+    },
+    {
+      "run_id": 45512451748,
+      "name": "deployment",
+      "fresh_log_sha256": "1dd433824f4df57cfb9a205b0e019c0515f8f270baf3029aad9819121290756b",
+      "matches_retained_decompressed_log": true,
+      "payload_lines": [
+        "build\tCheck Pages payload before upload\t2026-11-25T00:06:56.0345581Z   \"regular_file_bytes\": 999907903,",
+        "build\tCheck Pages payload before upload\t2026-11-25T00:06:56.0345907Z   \"regular_files\": 3675,",
+        "build\tCheck Pages payload before upload\t2026-11-25T00:06:56.0346584Z   \"exclusive_byte_limit\": 1000000000,"
+      ]
+    }
+  ],
+  "actual_bytes": 999907903,
+  "files": 3675,
+  "remaining_bytes": 92097
+}

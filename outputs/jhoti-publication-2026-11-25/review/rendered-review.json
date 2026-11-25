@@ -1,0 +1,100 @@
+{
+  "status": "PASS_LOCAL_RENDERED_REVIEW_WITH_PENDING_PACKAGE_GATES",
+  "reviewer": "Drishti, separate AI reviewer",
+  "date": "2026-11-25",
+  "scope": "Individually inspected all twelve accepted root-captured screenshots; inspected root browser record, seven saved metric entries, pre-compression page hashes and the one-count build-test correction. No browser control or build by this reviewer.",
+  "reviewed_evidence_sha256": {
+    "outputs/jhoti-publication-2026-11-25/browser/review.json": "5c779d2b258c73e2c55bf3ac889bbc7c6055e8b665b9f18969034c1645279272",
+    "outputs/jhoti-publication-2026-11-25/browser/metrics.json": "aae88d8a5bfdbf509c2a631ebf4ab803cb8d8746a43673e1ee73aa2b02806dc8",
+    "outputs/jhoti-publication-2026-11-25/pre-compression-page-hashes.json": "7e225463859e16e239e6f32c2d6d04992bcafc644122f89e599237473debf72a",
+    "projects/site/tests/build.test.mjs": "65b4dd792c869690c1af9be53bc3d123458dc503ddd48f9b79e0fa09941e263b"
+  },
+  "personally_viewed_screenshots": [
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/craft-desktop-card.jpg",
+      "sha256": "e5e80ad165f92af5927e66b481f3212ff033995d69efba7d62bd61085e3bdb5e",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/craft-mobile-card.jpg",
+      "sha256": "d0d28af519dbd3926bd309cf1941fa7f7ea44540953bcb1b1aa3f52712ebb598",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/desktop-notes.jpg",
+      "sha256": "1f427c855f401f3f50dfaed3919913a241d30f5c660ff6234df19f2e23f1370f",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/desktop-photo.jpg",
+      "sha256": "ce9704cf647d62234f22d32e7f8b072911e4f2b7dc708eab150ef19f6f180172",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/desktop-top.jpg",
+      "sha256": "b08ea38ef8d46c0e73e00303ccdbd7209401b18f6814845a1f71f3ff33347f79",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/manabasa-desktop-card.jpg",
+      "sha256": "68bfcf299ab3097e740d196ad59f3a438f90a4163579abb9411e4c47ae1d98fb",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/manabasa-mobile-card.jpg",
+      "sha256": "01b12d0458fb1b14cdf079dc065220869ca42d21e0f7d7f5a2e2478a7ce5ed79",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/mobile-credit.jpg",
+      "sha256": "e2ce4364c42af789d697488bb9f8746193832979c7bba81251f71ee7ba46b8bb",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/mobile-photo.jpg",
+      "sha256": "bf6fc47c70a38d93810250371bb2dcac2741d61eeef8924db4a74acc0996d7e6",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/mobile-top.jpg",
+      "sha256": "10bc48656eb1899e148bdc1a2aa4fc5bf5bf4f72c87eb7b2f17461118d635c25",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/osha-desktop-card.jpg",
+      "sha256": "e915a7fcd0bf877b066a7a9411dfe4547814535d521f75c67ef7914bb3cb8fcb",
+      "accepted": true
+    },
+    {
+      "path": "outputs/jhoti-publication-2026-11-25/browser/osha-mobile-card.jpg",
+      "sha256": "4e0f4f3a4ca52d78d23d2d23817e8806bbb75a797b1049a8617a149a9059f0c5",
+      "accepted": true
+    }
+  ],
+  "findings": [],
+  "observations": {
+    "article": "Desktop and mobile title, byline and opening are legible with comfortable line lengths. The photo views show the complete 4:3 image and caption; the top views intentionally cut off the lower photograph at the viewport edge. The small visible toe at the original lower-right edge is retained, consistent with full-frame delivery.",
+    "credits_and_notes": "Desktop note and mobile credit captures show the complete photographer/source/licence/alteration and unidentified-maker statement, with native return arrows. Notes wrap within the mobile column. Desktop notes capture includes all outgoing reading links; mobile credit ends before the full final reading list.",
+    "incoming_cards": "Viewed desktop and mobile captures for Manabasa, Osha index and Craft Listening. Each shows a full-frame preview, the neutral Jhoti Chita title and numeric photo reference. Osha and Craft captures also show readable complete photo-credit notes. Manabasa credit number 5 is visible, but the separate image note itself is outside those screenshot frames; its exact source/target was checked during integration review.",
+    "layout": "No visible horizontal clipping or broken image in accepted views. Seven saved measurements show scrollWidth equal to viewport for article mobile and all three incoming pages at both widths. There is no separately saved article-desktop metric entry in metrics.json; that measurement remains a root-reported observation, with the desktop screenshot visually consistent.",
+    "interaction_attribution": "Root reports source-2 clicks and Enter returns with focus at both widths, and actual activation of all three incoming title links. These are root actions, not interactions performed by the reviewer. Screenshots alone do not prove those actions.",
+    "source_continuity": "All four Astro hashes still match the integrated review. No prose, credits or source-family changes since that review.",
+    "count_correction": "tests/build.test.mjs changes only the fixed static-page term 186 to 187, matching one new article. Link/asset/fragment iteration and all assertions remain intact. This repairs the expected count rather than weakening validation."
+  },
+  "excluded_evidence": {
+    "path": "outputs/jhoti-publication-2026-11-25/browser/osha-mobile-initial-framing.jpg",
+    "reason": "Explicitly inconclusive initial viewport/scroll framing; not counted as a passed layout capture. Its recorded hash was checked, but the frame was not used for the verdict."
+  },
+  "framing_limits": [
+    "Twelve viewport captures are not a full-page visual audit of every paragraph or source entry.",
+    "One browser engine at 1440 × 1000 and 390 × 844; no physical-device or cross-engine claim.",
+    "Some desktop heading tops and preceding sections are clipped by deliberate scroll positions; the relevant image/card/credit regions are visible.",
+    "Initial smooth-scroll intermediate frames are not evidence of settled note navigation."
+  ],
+  "pending": [
+    "Final compressed package must preserve the four captured page hashes or explain exact differences.",
+    "Final Taptapani delivery geometry, credit, metadata and rendered desktop/mobile views remain unreviewed.",
+    "Final payload capacity, mandatory hosted CI and live delivery remain pending."
+  ],
+  "verdict": "No blocker in the accepted local article, credit and incoming-card captures. This is a bounded rendered review, not final package or publication acceptance."
+}

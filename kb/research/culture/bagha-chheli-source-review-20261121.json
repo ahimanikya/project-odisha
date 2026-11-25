@@ -1,0 +1,109 @@
+{
+  "id": "POD-RESEARCH-BAGHACHELI-20261121",
+  "article_id": "POD-EDIT-BAGHACHELI-20261121",
+  "status": "evidence_ready_for_draft",
+  "researcher_role": "Anvesha; task-scoped AI source review, not human specialist review",
+  "accessed_on": "2026-11-21",
+  "scope": "Independent article preparation only; no publication or media download.",
+  "reuse": {
+    "read": ["AGENTS.md", "kb/research/methods/research-map.md", "kb/research/references/data/research-queue.json:RES-033.reuse_before_research", "kb/research/culture/index.md", "kb/research/people/people-and-creations.md", "kb/research/culture/ganjapa-cards-made-for-play.md", "kb/records/bagha-chheli-article-preparation-20261121.json"],
+    "query": "python3 tools/research/query_research.py 'Bagha Chheli' --json returned no records/tasks/shared publications; dated map is not exhaustive.",
+    "prior_mention": "projects/site/src/data/cultural-book.json:5822 mentions Bagha Chheli among Odisha2025 school-curriculum resources. This is a brief list in an educational-intent paragraph, not a dedicated game article.",
+    "new_angle": "Unequal goals on a shared board; distinguish documented rule versions. Ganjapa is the existing companion about cards and making, not this game's mechanics."
+  },
+  "discovery_only": {
+    "url": "https://antarangakalinga.org/ବାଘଛେଳି-ଖେଳ/",
+    "title": "ବାଘଛେଳି ଖେଳ",
+    "author": "Shishir Sahu Manoj",
+    "publication_date": "2020-11-13",
+    "access": "Original non-AMP inspected by coordinator; earlier direct article inspection retained in task history.",
+    "restriction": "Topic discovery and originality comparison only. No prose, translation, factual narrative, arrangement, photographs or diagrams reused. Avoid its nostalgic-decline opening and its subsequent Dhadi Dhokada treatment."
+  },
+  "sources": [
+    {
+      "id": "baghachheli-archive-6395",
+      "family": "dasgupta-ludii-boardgames-archive",
+      "title": "Bagha Chheli ( Odisha)",
+      "author": "Entry entered by Adrija Mukherjee; Creator field names Hem Chandra Das Gupta",
+      "publisher": "Ancient Indian Boardgames: Digital Documentation; supported by Centre for Studies in Social Sciences, Calcutta and funded by JPN National Centre for Excellence, IIT Indore",
+      "url": "https://souvikmukherjeeresearch.com/omekas/s/ancientindianboardgames/item/6395",
+      "alternate_url": "https://indiaboardgamesarchive.in/omekas/s/ancientindianboardgames/item/6395",
+      "publication_date": null,
+      "date_limit": "Undated item. Embedded screenshot filename is not an article publication date.",
+      "access": "Full original-project mirror text inspected through web open. Main host timed out for coordinator. No downloaded capture claimed.",
+      "locators": ["Description, paragraphs1–3 (web lines11–14)", "Rules (lines17–19)", "Source and References (lines23–40)", "Entered by (lines66–67)"],
+      "supported_claims": [
+        "The entry identifies the game with Odisha and attributes its account to Das Gupta and an Odisha informant.",
+        "Two players control four tigers and twenty goats respectively.",
+        "Its Rules field describes play on a five-by-five array of intersections, with diagonal lines in each quadrant; pieces move along board lines to adjacent vacant points.",
+        "Four goats start on the board; the remaining sixteen are placed one at a time before goats may move. Tigers move first and alone capture by jumping a goat to a vacant point beyond.",
+        "This modern Rules field states all-goats capture as the tiger victory condition; goats win by immobilizing tigers."
+      ],
+      "limits": [
+        "This is a documented version, not a claim of uniform rules throughout Odisha.",
+        "The enormous alternative-title list groups related games; do not treat every listed name as an exact synonym.",
+        "Do not attribute the modern all-goats criterion verbatim to the1926 author.",
+        "The Rights field says only Creative Commons without a specific licence. Do not reuse its image or prose."
+      ],
+      "word_budget": {"max_derived_words_across_article_metadata_notes_brief": 200, "recommended_target": 180, "quotation_target": 0}
+    },
+    {
+      "id": "baghachheli-ludii-782-1648",
+      "family": "dasgupta-ludii-boardgames-archive",
+      "title": "Evidence for Orissa Tiger Game (Four Tigers)",
+      "publisher": "Ludii / Digital Ludeme Project",
+      "author": "Database editors; quoted historical evidence attributed to H. Das Gupta",
+      "url": "https://ludii.games/data.php?gameId=782",
+      "related_url": "https://ludii.games/details.php?keyword=Orissa+Tiger+Game+%28Four+Tigers%29",
+      "publication_date": null,
+      "historical_source": "H. Das Gupta, A Few Types of Indian Sedentary Games, Journal and Proceedings of the Asiatic Society of Bengal22(4),1926,pp211–213; evidence quotation attributed to p212.",
+      "access": "Indexed original-domain full evidence and game descriptions inspected. Direct evidence-page open exposed navigation only; details-page open returned cache miss. The1926 original scan was not recovered or visually inspected.",
+      "locators": ["DLP.Evidence.1648, Content quotation", "DLP.Evidence.1648, separate Rules field", "Game782 Description and Sources"],
+      "supported_claims": ["Historical extract specifies4tigers,20goats,four goats initially placed,and placement of remaining16before movement.", "Game description expressly says the recorded game's name was not recorded."],
+      "limits": ["Archive,Ludii and their shared Das Gupta source are one evidence family, not three independent corroborations.", "The quoted original says the tiger side seeks as many captures as possible; it does not state the modern Rules field's all-goats end condition.", "No ancient origin, named inventor, uniform historical title or present prevalence follows from this record."],
+      "word_budget": "Shared200-word family ceiling with baghachheli-archive-6395; this entry adds no separate allowance."
+    },
+    {
+      "id": "baghachheli-mycitylinks-20200813",
+      "family": "mycitylinks-sameedha-mohanty",
+      "title": "Classic Odia Games That Will Make You Nostalgic",
+      "author": "Sameedha Mohanty",
+      "publisher": "Mycitylinks",
+      "url": "https://www.mycitylinks.in/classic-odia-games-that-will-make-you-nostalgic",
+      "publication_date": "2020-08-13",
+      "access": "Original publisher article fully inspected; date/byline at lines60–64, relevant section104–107.",
+      "locators": ["BAGHA CHELI section, single paragraph"],
+      "supported_claims": ["Two players use four larger stones for tigers and twenty smaller stones for goats.", "Tiger player opens. Its account ends play when tigers capture five goats or goats block tiger movement."],
+      "limits": ["Independent modern popular account, not a field survey or historical authority.", "Its4X4squaregrid wording must not be silently equated with a count of intersections or used as proof of a different board without inspection.", "Do not reuse broad claims of oblivion, children's ignorance or generational decline.", "Do not combine this capture-five endpoint with Archive placement details as though the composite is a single fully specified ruleset."],
+      "word_budget": {"max_derived_words_across_article_metadata_notes_brief": 200, "recommended_target": 120, "quotation_target": 0}
+    },
+    {
+      "id": "baghachheli-panigrahi-photo-20140729",
+      "family": "panigrahi-firsthand-photograph",
+      "title": "File:Bagha cheli.JPG",
+      "author": "Subhashish Panigrahi",
+      "publisher": "Wikimedia Commons; photographer's own-work upload",
+      "url": "https://commons.wikimedia.org/wiki/File:Bagha_cheli.JPG",
+      "capture_date": "2014-07-29",
+      "upload_date": "2015-12-08",
+      "access": "Commons original file-description, licence, history and metadata inspected. Image not downloaded or visually inspected for this evidence record.",
+      "locators": ["Summary:Description,Date,Source,Author (lines120–123)", "Licensing (lines128–141)", "File history (line148)", "EXIF generation date (line167)"],
+      "supported_claims": ["Photographer identifies the image as a two-player house game of Bagha Cheli in Bengaluru, India.", "Listed capture date is29July2014; upload is8December2015. This is one documented occasion, not a participation survey."],
+      "limits": ["Do not caption it as photographed in Odisha.", "No visual details, player identities, tutorial positions, continuity since2014 or current prevalence inferred from metadata.", "Archive linking this same photograph does not create another independent image record."],
+      "rights": {"licence": "CC BY-SA4.0", "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/", "credit": "Subhashish Panigrahi, Bagha cheli, Wikimedia Commons, CC BY-SA4.0", "requirements": "Link creator/source and licence; identify alterations; adapted photograph must retain applicable share-alike terms. Do not imply endorsement.", "status": "Suitable rights candidate for later authorized integration after visual inspection; no media obtained in this task."},
+      "word_budget": {"max_derived_words_across_article_metadata_notes_brief": 200, "recommended_target": 100, "quotation_target": 0}
+    }
+  ],
+  "claim_map": [
+    {"claim": "Asymmetry: few capture-capable tigers versus numerous goats trying to restrict movement", "sources": ["baghachheli-archive-6395", "baghachheli-mycitylinks-20200813"], "scope": "Explain consequences as editorial reading of documented rules, not proven strategy or measured skill gain."},
+    {"claim": "Placement phase and board intersections", "sources": ["baghachheli-archive-6395"], "scope": "Explicitly that record's version; short explanation, not comprehensive tutorial."},
+    {"claim": "Capture-five versus capture-all", "sources": ["baghachheli-mycitylinks-20200813", "baghachheli-archive-6395"], "scope": "Name the accounts; no claim one is wrong or that all local variation is mapped."},
+    {"claim": "Documented house gameplay outside Odisha", "sources": ["baghachheli-panigrahi-photo-20140729"], "scope": "One Bengaluru occasion and credited2014date only; not migration history."}
+  ],
+  "bounded_unsuccessful_or_excluded_leads": [
+    {"url": "https://archive.org/details/sedentary-games-of-india/page/91/mode/2up?q=orissa", "result": "Archive's linked later collection returned cache miss; direct text-stream attempt inaccessible. No original page read, no public-domain determination or edition claim made."},
+    {"url": "https://repository.tribal.gov.in/upload/bitstream/123456789/60767/1/SCST_2017_research_0084.pdf", "result": "OfficialPDF returned404. Indexed academia mirror of Documentation & Mapping of Traditional Games and Sports of Relevant Tribes in03TribalDominatedStates lists indoor Bagha-Chheli but also an apparently different same-name outdoor game. Excluded to avoid a tangential/confused third prose source."}
+  ],
+  "draft_guidance": "Aim for a compact original essay; source volume does not require450–650words. Focus on contrasting goals, how placement makes empty points matter, ordinary stones and a named photographic occasion, then the two documented endpoints. Avoid repeating source exposition or writing an unsupported complete rulebook. Ask players to agree their version before a game as editorial advice, not ethnographic fact. Footnotes should identify the modern sources actually inspected; historical citation remains mediated. No source photograph or article prose copied.",
+  "review_limits": "No fieldwork, interviews, gameplay testing, original1926scan verification, present-day popularity survey or human specialist review. Sources were independently inspected online; no local capture files invented."
+}

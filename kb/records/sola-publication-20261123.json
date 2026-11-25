@@ -1,0 +1,426 @@
+{
+  "article_id": "POD-EDIT-SOLA-20261123",
+  "owner": "Disha",
+  "started_on": "2026-11-23",
+  "status": "published_verified",
+  "scope_released": true,
+  "authorization": "POD-DEC-2026112302",
+  "work_id": "POD-WORK-2026112302",
+  "authorization_quote": "Once Gandhamardan’s release is complete, integrate and publish the Sola and Odissi Tahia article with the credited image, links from relevant existing articles, and mobile and desktop layout checks.",
+  "input_head": "d8eef97818bc0451c77d24c97ab19e7e415666b5",
+  "preparation": {
+    "commit": "af57ee13b805874a8afa32e55936fefbcd4091c3",
+    "receipt": "records/antaranga-next-preparation-20261123.json",
+    "input_delivery_hashes_verified": 11
+  },
+  "programme_credit": 0,
+  "route": "/stories/sola-and-odissi-tahia/",
+  "previous_release": {
+    "receipt_pr": 839,
+    "receipt_merge": "d8eef97818bc0451c77d24c97ab19e7e415666b5",
+    "ci": 45080624824,
+    "result": "SUCCESS",
+    "explicit_handoff_received": true,
+    "independently_verified": true,
+    "remaining_capacity_bytes": 19406
+  },
+  "assignments": {
+    "Disha": "Single coordinator, canonical article, capacity review, shared records and publication",
+    "Anvesha": "Separate final source and credited-media continuity review",
+    "Samanta": "Bounded website integration and web image delivery",
+    "Drishti": "Separate source/media/code/rendered/package/live and receipt review"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/pages/stories/sola-and-odissi-tahia.astro",
+      "projects/site/src/pages/stories/odissi-abhinaya.astro",
+      "projects/site/src/pages/books/odisha-culture-memory-and-living-traditions/[chapter].astro: material-crafts conditional card only",
+      "projects/site/src/data/cultural-book.json: material-crafts related link and required photo attribution only",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/responsive-images.json",
+      "projects/site/public/images/stories/sola-tahia.webp",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "projects/site/tests-coast/discovery.test.mjs",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "outputs/sola-publication-20261123/media/",
+      "projects/site/editions/search-candidate.json: usual hold entry"
+    ],
+    "Anvesha": [
+      "read-only"
+    ],
+    "Drishti": [
+      "read-only"
+    ],
+    "Disha": [
+      "kb/research/culture/sola-and-tahia.md",
+      "shared records",
+      "outputs/sola-publication-20261123/ excluding Samanta media scope",
+      "projects/site/tools/optimize-publication-jpeg.mjs and projects/site/tests/publication-jpeg.test.mjs: sixth bounded Hindola Raga derivative only"
+    ]
+  },
+  "modern_web_guidance": {
+    "result": "Installed skill read. Earlier automatic approval review rejected unpinned latest package execution; no retry or bypass.",
+    "fallback": "Official MDN img and responsive-image documentation consulted; use semantic image dimensions, srcset/sizes, full-frame presentation and appropriate loading priority. No retrieved CLI guide claimed.",
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images"
+    ],
+    "browser_target": "Baseline Widely available"
+  },
+  "preserved_foreign_task": "POD-EDIT-133",
+  "next_action": "Merge reviewed evidence-only receipt after required checks, then explicitly return the slot for Belghar–Tumudibandha.",
+  "source_continuity": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "publication_derived_word_allocations": {
+      "SIDAC": 149,
+      "NIE": 171,
+      "PARI_Panda": 195
+    },
+    "counting_scope": "New public article, metadata and two incoming titles/credits; historical preparation remains separate. Common42word title/description/headings/card allocation conservatively applied to all source families.",
+    "findings": "Factual body unchanged apart from accurate photo alteration credit; creator, exact source, licence and full frame preserved. No new maker/locality claim."
+  },
+  "implementation": {
+    "owner": "Samanta",
+    "kind": "separate_ai_agent",
+    "status": "complete",
+    "scope_released": true,
+    "incoming_routes": [
+      "/stories/odissi-abhinaya/",
+      "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/"
+    ],
+    "checks": "Astro syntax and canonical notes, original Odissi body and47 unaffected chapter data checks passed. Browser/build checks separate.",
+    "preservation_report": "outputs/sola-publication-20261123/review/implementation-preservation.json"
+  },
+  "image_delivery": {
+    "record": "outputs/sola-publication-20261123/media/delivery-image.json",
+    "projection_bytes": 316512,
+    "projection_only": false,
+    "root_visual_review": "Original preparation inspected previously; fullframe1200px WebP inspected now. Petals, buds, hands and worktable retained.",
+    "limits": "Lossy resized/compressed derivative; original retained. Hosted package and live bytes verified; encoding differences independently measured and visually reviewed.",
+    "actual_linux_gate": "PASS in publication CI and deployment, both999002101bytes/3633files"
+  },
+  "capacity_review": {
+    "status": "pass",
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "candidate": "outputs/sola-publication-20261123/capacity/jpeg-candidate.json",
+    "bounded_path": "assets/jhulana-in-odisha/hindola-raga.jpg",
+    "saved_bytes_local_diagnosis": 1318251,
+    "settings": {
+      "maximum_dimension": 2048,
+      "quality": 95,
+      "chromaSubsampling": "4:4:4"
+    },
+    "preservation": "Full frame; repository/coastal original unchanged; ICC/IPTC/XMP byte-identical. EXIF changed116→206bytes; absent orientation normalized1. No pixel-identical claim.",
+    "root_visual_review": "Original and derivative inspected at850px fullframe; no material visible loss at that reading size.",
+    "actual_linux_gate": "PASS in requiredCI45086332194attempt2",
+    "diagnosis_history": "No-resizequality95 candidate was3999255B, larger than3122908B original; rejected. Six other losslessPNG diagnostics recorded; none added.",
+    "evidence": "outputs/sola-publication-20261123/review/source-media-capacity-review.json",
+    "final_local_payload_bytes": 998219974,
+    "final_local_saved_bytes": 1318251
+  },
+  "local_validation": {
+    "initial_environment_failure": "Full build could not unlink shared dependency cache under restricted filesystem. No code failure; same build restarted with authorized filesystem access. Logs retained.",
+    "mobile_correction": {
+      "finding": "Chapter preview photo-note12 wrapped digits on390px viewport.",
+      "fix": "Only new material-chapter Sola superscript flex-shrink0 and white-space nowrap.",
+      "history": "Initial822full/598coast tests passed; final JPEG module5tests passed separately. Initial package intentionally terminated for scoped CSS correction. Final rerun has now passed all8steps including823full/598coast tests and publication/disclosure. Earlier logs retained."
+    },
+    "full_tests": 823,
+    "coast_tests": 598,
+    "coast_page_acceptance": 5436,
+    "coast_audits": "outputs/sola-publication-20261123/coast-audits.json",
+    "steps": [
+      {
+        "step": 0,
+        "name": "full-build",
+        "status": "pass",
+        "started": 1795390917.874686,
+        "exit_code": 0,
+        "finished": 1795390991.8543
+      },
+      {
+        "step": 1,
+        "name": "full-disclosure",
+        "status": "pass",
+        "started": 1795390991.864915,
+        "exit_code": 0,
+        "finished": 1795390993.946917
+      },
+      {
+        "step": 2,
+        "name": "full-tests",
+        "status": "pass",
+        "started": 1795390993.954653,
+        "exit_code": 0,
+        "finished": 1795391014.0250728
+      },
+      {
+        "step": 3,
+        "name": "coast-build",
+        "status": "pass",
+        "started": 1795391014.030368,
+        "exit_code": 0,
+        "finished": 1795391102.3130581
+      },
+      {
+        "step": 4,
+        "name": "coast-disclosure",
+        "status": "pass",
+        "started": 1795391102.319255,
+        "exit_code": 0,
+        "finished": 1795391130.529793
+      },
+      {
+        "step": 5,
+        "name": "coast-tests",
+        "status": "pass",
+        "started": 1795391130.533477,
+        "exit_code": 0,
+        "finished": 1795391139.859205
+      },
+      {
+        "step": 6,
+        "name": "publication-build",
+        "status": "pass",
+        "started": 1795391139.8682802,
+        "exit_code": 0,
+        "finished": 1795391756.601742
+      },
+      {
+        "step": 7,
+        "name": "publication-disclosure",
+        "status": "pass",
+        "started": 1795391756.608866,
+        "exit_code": 0,
+        "finished": 1795391757.774292
+      }
+    ],
+    "payload": {
+      "status": "PASS",
+      "regular_file_bytes": 998219974,
+      "regular_files": 3633,
+      "directories": 823,
+      "exclusive_byte_limit": 1000000000,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0,
+      "index_html_bytes": 87250,
+      "largest_files": [
+        {
+          "path": "archive/odia-dhaga-550-1124d34c5c42d84b6109edfaacd8f991d45f140ed205d8b911c8ccd35dbdb0f8.pdf",
+          "bytes": 190064100
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+          "bytes": 51351553
+        },
+        {
+          "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+          "bytes": 38421623
+        },
+        {
+          "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+          "bytes": 24088311
+        },
+        {
+          "path": "archive/dongria-kondh-public-reading.pdf",
+          "bytes": 17689084
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+          "bytes": 13322690
+        },
+        {
+          "path": "archive/mirgan-kotpad-reading.pdf",
+          "bytes": 7410047
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+          "bytes": 5506729
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+          "bytes": 5176380
+        },
+        {
+          "path": "characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+          "bytes": 3891461
+        }
+      ],
+      "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+    },
+    "package_checks": "outputs/sola-publication-20261123/package-checks.json",
+    "delivery": {
+      "status": "PASS",
+      "routes": 4,
+      "images": 20,
+      "evidence": "outputs/sola-publication-20261123/local-delivery.json"
+    },
+    "helper_correction": "Initial helper incorrectly compared entire coastal/publication HTML despite existing robots and journey-data transforms. Corrected to exact Hindola article alteration and independently checked source/share dimensions; failure history preserved in implementation report."
+  },
+  "quality_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "source_media_code_rendered_package_live_pass",
+    "evidence": "outputs/sola-publication-20261123/review/source-media-capacity-review.json",
+    "pending": "Final integrated receipt and exact-commit review, required receipt CI and actual merge."
+  },
+  "browser_review": {
+    "result": "pass",
+    "actor": "Disha",
+    "evidence": "outputs/sola-publication-20261123/local/browser-verification.json",
+    "independent_review": "outputs/sola-publication-20261123/review/local-rendered-review.json",
+    "scope": "1440desktop/390mobile article and both incoming previews, native note click and keyboard return, incoming card navigation. Corrected12marker verified singleline.",
+    "limits": "Chromium simulation only; prior incomplete framing preserved and excluded. Local mobile-credit capture showed caption; note navigation proved by DOM and fullpage. Final Hindola package review separately passed.",
+    "hindola_package": "Actual1517×2048 delivery checked desktop1440/mobile390. Fullframe mobile screenshot and fullpage desktop retain frame; desktop viewport topedge framing limit recorded. No mobile overflow."
+  },
+  "final_package_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass",
+    "evidence": "outputs/sola-publication-20261123/review/final-package-review.json",
+    "payload_bytes": 998219974,
+    "files": 3633,
+    "routes": 4,
+    "images": 20,
+    "limits": "Historical local package review snapshot:47 other chapters checked as source data, not full rendered-page equivalence. Subsequent exact-head, hosted and live evidence is recorded separately below."
+  },
+  "publication": {
+    "pr": 840,
+    "reviewed_head": "66f1937c2d075146ec83b06164f3dbe28e55ea06",
+    "exact_head_review": "Separate Drishti read-only PASS;12source/12evidencehashes match, clean committedtree and accuratependingpublicationstatus.",
+    "ci_run": 45086332194,
+    "ci_attempt": 2,
+    "ci_conclusion": "success",
+    "initial_ci_failure": {
+      "attempt": 1,
+      "cause": "Existing anonymous Dhaga release API download HTTP403; article build not reached. Unchanged retry passed.",
+      "evidence": "outputs/sola-publication-20261123/live/ci-attempt1-failure.log"
+    },
+    "merge_commit": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "merged_at": "2026-11-23T00:36:13Z",
+    "merged_tree_matches_reviewed_head": true,
+    "deployment_run": 45089745640,
+    "deployment_head": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "deployment_status": "completed",
+    "deployment_conclusion": "success",
+    "deployment_attempt": 1
+  },
+  "capacity": {
+    "actual_linux_ci_bytes": 999002101,
+    "files": 3633,
+    "remaining_bytes": 997899,
+    "bounded_optimizer_change": "One existing Hindola Raga JPEG delivery derivative; source original unchanged, alterations and metadata limits recorded.",
+    "actual_deployment_bytes": 999002101
+  },
+  "deployment": {
+    "run": 45089745640,
+    "source_sha": "399feaabd8d314bdf1b2834f5ceea8b6e2c5662f",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999002101,
+    "files": 3633
+  },
+  "completed_at": "2026-11-23T01:14:02.856861+00:00",
+  "pull_request": 840,
+  "verified_routes": [
+    "/stories/sola-and-odissi-tahia/",
+    "/stories/odissi-abhinaya/",
+    "/books/odisha-culture-memory-and-living-traditions/silver-metal-clay-stone-and-applique/",
+    "/stories/jhulana-in-odisha/"
+  ],
+  "live_verification": {
+    "evidence": "outputs/sola-publication-20261123/live/live-http.json",
+    "routes": 4,
+    "images": 20,
+    "byte_equal_images": 16,
+    "article_match": "All four article fragments match after only three directly observed responsive image URL substitutions; Jhulana is exact. No prose, credit or layout markup changes.",
+    "public_base_image_exact": true,
+    "image_comparison": "outputs/sola-publication-20261123/live/image-comparison.json",
+    "differences": [
+      {
+        "image": "/images/responsive/a375b1fe80e6c613-960.webp",
+        "dimensions": [
+          960,
+          641
+        ],
+        "changed_pixels": 192069,
+        "maximum_channel_delta": 21,
+        "mean_channel_delta": 0.6354973782284624
+      },
+      {
+        "image": "/images/responsive/8286bb5f7fcbd265-960.webp",
+        "dimensions": [
+          960,
+          691
+        ],
+        "changed_pixels": 60906,
+        "maximum_channel_delta": 27,
+        "mean_channel_delta": 0.16575363804470172
+      },
+      {
+        "image": "/images/responsive/f4e4108ab5b2cde9-480.webp",
+        "dimensions": [
+          480,
+          582
+        ],
+        "changed_pixels": 178763,
+        "maximum_channel_delta": 26,
+        "mean_channel_delta": 1.4936044291714394
+      },
+      {
+        "image": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "dimensions": [
+          1517,
+          2048
+        ],
+        "changed_pixels": 606955,
+        "maximum_channel_delta": 15,
+        "mean_channel_delta": 0.21246854228466272
+      }
+    ],
+    "acceptance": "Disha, Samanta and separate Drishti visually inspected all four full-frame comparisons; no material visible loss at inspected display scale. Separate Drishti decoded measurements match. No cause inferred and no pixel-identical claim; raw REVIEW_DIFFERENCES retained."
+  },
+  "live_browser_review": {
+    "actor": "Disha",
+    "evidence": "outputs/sola-publication-20261123/live/browser-verification.json",
+    "meaningful_screenshots": 12,
+    "result": "pass",
+    "limits": "Chromium desktop1440/mobile390 simulation only. Native credit click, settled visible attribution and keyboard return verified; both incoming cards opened Sola. One premature chapter screenshot excluded; final clear capture used. Sola desktop viewport ends near caption, fullpage includes article. Hindola full frame visible; desktop caption continues beyond viewport, fullpage and mobile retain it."
+  },
+  "delivery_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "result": "pass_with_limitations",
+    "evidence": "outputs/sola-publication-20261123/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "receipt_integration": {
+    "evidence_only": true,
+    "deployment_required": false,
+    "reason": "Public article, images, incoming links and bounded delivery change already deployed from reviewed publication merge. This receipt records actual delivery and internal status/views; public article body is unchanged.",
+    "required_gates": [
+      "Separate final receipt review",
+      "Exact committed receipt review",
+      "Project-required CI",
+      "Actual merge and explicit next-slot handoff"
+    ],
+    "final_review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_agent",
+      "result": "pass",
+      "evidence": "outputs/sola-publication-20261123/review/final-receipt-review.json",
+      "scope": "Actual integrated delivery evidence and internal status reviewed; website source/manuscript body/original media/foreign ownership preserved. Exact committed review, required receipt CI and actual merge remain."
+    }
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt merges following required checks. Explicit return to hill-series chat for Belghar–Tumudibandha follows observed merge.",
+  "next_slot": {
+    "owner_chat": "01a1feb7-f98f-7ee0-96b3-419c6800ee68",
+    "article": "Belghar–Tumudibandha",
+    "condition": "After reviewed Sola receipt merge and explicit return; no next article claimed here."
+  }
+}
