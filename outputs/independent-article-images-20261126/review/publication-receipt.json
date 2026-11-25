@@ -1,0 +1,249 @@
+{
+  "status": "pass",
+  "recorded_at": "2026-11-25T22:48:08.084168+00:00",
+  "publication": {
+    "conclusion": "success",
+    "createdAt": "2026-11-25T22:01:42Z",
+    "headSha": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "jobs": [
+      {
+        "completedAt": "2026-11-25T22:42:35Z",
+        "conclusion": "success",
+        "databaseId": 139549305569,
+        "name": "build",
+        "startedAt": "2026-11-25T22:19:31Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-25T22:19:33Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-25T22:19:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:20:55Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-11-25T22:19:33Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:21:01Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-11-25T22:20:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:21:01Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-11-25T22:21:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:21:19Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-11-25T22:21:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:21:20Z",
+            "conclusion": "success",
+            "name": "Verify release PDF delivery guards",
+            "number": 6,
+            "startedAt": "2026-11-25T22:21:19Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:21:22Z",
+            "conclusion": "success",
+            "name": "Hydrate exact reviewed Dhaga release PDF",
+            "number": 7,
+            "startedAt": "2026-11-25T22:21:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:23:28Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 8,
+            "startedAt": "2026-11-25T22:21:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:23:30Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist",
+            "number": 9,
+            "startedAt": "2026-11-25T22:23:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:24:19Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 10,
+            "startedAt": "2026-11-25T22:23:30Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:26:48Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 11,
+            "startedAt": "2026-11-25T22:24:19Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:26:51Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-coast",
+            "number": 12,
+            "startedAt": "2026-11-25T22:26:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:27:11Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 13,
+            "startedAt": "2026-11-25T22:26:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:06Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 14,
+            "startedAt": "2026-11-25T22:27:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:07Z",
+            "conclusion": "success",
+            "name": "Run node tools/check-public-disclosures.mjs dist-publish",
+            "number": 15,
+            "startedAt": "2026-11-25T22:42:06Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:07Z",
+            "conclusion": "success",
+            "name": "Check Pages payload before upload",
+            "number": 16,
+            "startedAt": "2026-11-25T22:42:07Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:33Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 17,
+            "startedAt": "2026-11-25T22:42:07Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:33Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 33,
+            "startedAt": "2026-11-25T22:42:33Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:33Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 34,
+            "startedAt": "2026-11-25T22:42:33Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:42:33Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 35,
+            "startedAt": "2026-11-25T22:42:33Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45709638155/job/139549305569"
+      },
+      {
+        "completedAt": "2026-11-25T22:43:20Z",
+        "conclusion": "success",
+        "databaseId": 139560459073,
+        "name": "deploy",
+        "startedAt": "2026-11-25T22:42:39Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-25T22:42:41Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-25T22:42:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:43:19Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-11-25T22:42:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:43:19Z",
+            "conclusion": "skipped",
+            "name": "Record Pages status after deployment failure",
+            "number": 3,
+            "startedAt": "2026-11-25T22:43:19Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-25T22:43:19Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 4,
+            "startedAt": "2026-11-25T22:43:19Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45709638155/job/139560459073"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-11-25T22:43:21Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45709638155"
+  },
+  "validation": {
+    "full_tests": 843,
+    "coastal_tests": 605,
+    "failures": 0,
+    "public_disclosure_pages": 1534,
+    "public_disclosure_violations": 0,
+    "payload_bytes": 999202073,
+    "regular_files": 3777,
+    "directories": 877,
+    "exclusive_byte_limit": 1000000000,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "special_files": 0
+  },
+  "live_report": "live-verification-network.json",
+  "live_ui": {
+    "collection": "27 figures and 27 visible captions; no horizontal overflow at normal desktop viewport",
+    "motu_article": "Loaded original river schematic; source link, caption, creator and rights visible; no horizontal overflow",
+    "prior_local_ui": "Desktop/mobile collection and article checks, full-frame Explore images and Dhaga stylesheet comparison recorded in local-verification.json"
+  },
+  "evidence_limits": "Actual hosted tests and deployment, separate task-scoped AI live verification and coordinator browser inspection. No human-specialist review; existing article citation targets were preserved, not all re-fetched. The failed restricted-network attempt is retained as live-verification.json; the successful network-enabled report is authoritative."
+}

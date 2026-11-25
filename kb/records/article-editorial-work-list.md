@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1421. blocked: 1, completed: 277, excluded: 873, in_progress: 1, queued: 269.
+Route inventory: 1422. blocked: 1, completed: 277, excluded: 873, in_progress: 1, queued: 270.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1444,4 +1444,5 @@ Route inventory: 1421. blocked: 1, completed: 277, excluded: 873, in_progress: 1
 | POD-EDIT-PUSPUNI | [Puspuni: Who Gets a Share of the Harvest?](https://projectodisha.org/stories/puspuni/) | queued | article |
 | POD-EDIT-OLASUNI-20261126 | [Olasuni: A Hill, a Saint and a Living Fair](https://projectodisha.org/destinations/olasuni/) | completed | One original hill destination article with credited photograph; zero programme credit. |
 | POD-EDIT-MAKAR-SANKRANTI | [Makar Sankranti: A Bowl of Rice for the Sun and a Friend](https://projectodisha.org/stories/makar-sankranti/) | queued | article |
+| POD-EDIT-AGIRA-PURNIMA | [Agira Purnima: Which Way Will the Fire Lean?](https://projectodisha.org/stories/agira-purnima/) | queued | article |
 | POD-EDIT-KULA-20261126 | [Kula and the Work of Winnowing](https://projectodisha.org/stories/kula-and-the-work-of-winnowing/) | in_progress | article |
