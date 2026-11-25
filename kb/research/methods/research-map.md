@@ -1603,4 +1603,4 @@ Reuse the [draft](../culture/nilagiri-stone-utensils.md), [source dossier](../cu
 
 ### Gonasika destination extension · 25 November 2026
 
-Added one destination narrative after a scoped map and corpus search. District sacred accounts remain distinct from Water Resources river geography; existing Juang research retains its own scope. The credited Guptaganga photograph does not date the separate Brahmeswar shrine. Inventory:1875 records. Publication remains pending; zero programme credit.
+Added one destination narrative after a scoped map and corpus search. District sacred accounts remain distinct from Water Resources river geography; existing Juang research retains its own scope. The credited Guptaganga photograph does not date the separate Brahmeswar shrine. Inventory:1875 records. Publication PR864 and deployment45563244558 passed actual delivery review; the evidence-only receipt must merge before explicit Nilagiri handoff. Zero programme credit.

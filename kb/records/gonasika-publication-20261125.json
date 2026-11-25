@@ -1,5 +1,5 @@
 {
-  "status": "final_candidate_review",
+  "status": "published_verified",
   "article_id": "POD-EDIT-GONASIKA-20261125",
   "route": "/destinations/gonasika/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has the other chat returned the slot now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112592",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "cd027f4327423f84b5278fc7509fcab57ae45b2a",
   "prior_preparation": {
     "record": "records/antaranga-after-malayagiri-preparation-20261125.json",
@@ -66,17 +66,17 @@
   "capacity": {
     "prior_linux_payload_bytes": 999907903,
     "prior_remaining_bytes": 92097,
-    "new_package_measurement": "Reconciled localpackage999067472bytes/3680files; actual Gonasika Linux capacity pending required CI.",
+    "new_package_measurement": "Actual combined publication CI and deployment each measured 999,869,531 bytes across 3,680 files, leaving 130,469 bytes.",
     "proposal": "outputs/gonasika-publication-2026-11-25/review/capacity-proposal.json",
-    "root_visual_acceptance": "Original/current/proposed1728px full-frame Mardala triptych and detailed rim/lacing comparison personally viewed. Framing and visible drum detail acceptable; lossyresizing not pixel equivalence. Separate review pending before implementation.",
+    "root_visual_acceptance": "Original/current/proposed 1728px full-frame Mardala triptych and detailed rim/lacing comparison personally viewed. Framing and visible drum detail accepted; lossy resizing is not pixel equivalence. Separate capacity review and later live delivery review passed.",
     "review": "outputs/gonasika-publication-2026-11-25/review/capacity-review.json",
     "implementation_authorized": "Root and separate Drishti reviewed measured1728/q95 existing Mardala derivative, original/full frame retained; only named entry and related regression test. Public modification caption and sharing geometry must remain accurate.",
     "selected": "assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
     "measured_local_saving_bytes": 1134461,
     "implementation": "outputs/gonasika-publication-2026-11-25/review/capacity-implementation.md",
-    "local_payload_bytes": 999067472,
+    "local_payload_bytes": 999075765,
     "local_payload_files": 3680,
-    "local_remaining_bytes": 932528,
+    "local_remaining_bytes": 924235,
     "reconciled_baseline": {
       "deployment": 45550295469,
       "head": "5c3a2e84dbb380ec235494d0c4e066347618f21e",
@@ -92,7 +92,7 @@
     "condition": "Only after Gonasika reviewed receipt actually merges and explicit handoff.",
     "authority_basis": "Other chat reports a newer direct Founder instruction for Nilagiri publication; not independently read here. This is a coordination reservation only, not publication authority for this release. Receiving chat must act under its actual human instruction. Historical preparation remains publication_authorized=false."
   },
-  "next_action": "Complete corrected exact-head review and successful required CI, merge/deploy exact reviewed tree, verify live article/images/links and Hatuari preservation, then reviewed receipt and Nilagiri handoff.",
+  "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual merge, then explicitly hand off to reserved Nilagiri publication.",
   "initial_consistency_correction": "First team check during claim assembly failed because rollout row was not yet appended. Added owned in-progress Gonasika row; no authorization or review inferred. Register check also rejected readiness research; changed to allowed draft value, retaining research phase in handoff. Later review-register assembly rejected an outside-KB ../outputs evidence path; corrected register to canonical KB handoff which links actual review evidence. Register rejected noncanonical passed/missing independence fields; corrected to pass and explicit true reflecting actual separate Drishti worker.",
   "remote_reconciliation": {
     "main": "07c3e16e85b4e342ef469259f545d4698e73dec2",
@@ -161,9 +161,9 @@
     "coast_tests": 599,
     "page_acceptance_checks": 5476,
     "build_results": "outputs/gonasika-publication-2026-11-25/build-results.json",
-    "status": "All13 reconciled build/audit stages and10878 final artifact checks PASS. Separate finalpackage review passed; exact corrected-head review and required hosted CI remain before publication.",
+    "status": "All13 combined build stages,10878 artifact checks and separate exact combined package review passed; actual hosted/deployment/live evidence recorded below.",
     "root_browser_review": "outputs/gonasika-publication-2026-11-25/browser/local-review.json",
-    "scope": "Earlier17captures cover unchanged Gonasika/layout/Mardala source; final emitted parity still required.",
+    "scope": "Earlier17 local captures remain supported by exact final Gonasika and Mardala article/image continuity; fresh actual live browser evidence is separate.",
     "artifact_report": "outputs/gonasika-publication-2026-11-25/local-verification.json",
     "artifact_checks": 10878,
     "payload_report": "outputs/gonasika-publication-2026-11-25/payload-check.json"
@@ -185,7 +185,7 @@
       "result": "PASS"
     }
   },
-  "final_package_review": "outputs/gonasika-publication-2026-11-25/review/final-package-review.json",
+  "final_package_review": "outputs/gonasika-publication-2026-11-25/review/combined-package-exact-review.json",
   "hosted_workbench_correction": {
     "failed_run": 45557235994,
     "record": "outputs/gonasika-publication-2026-11-25/release/workbench-correction.json",
@@ -196,5 +196,78 @@
     "record": "outputs/gonasika-publication-2026-11-25/release/full-candidate-whitespace.json",
     "result": "PASS_WITH_EXACT_RAW_CAPTURE_EXCEPTIONS",
     "scope": "Entire candidate against reconciled main, with11exact raw-source/log exceptions."
-  }
+  },
+  "publication": {
+    "status": "PASS",
+    "pr": 864,
+    "reviewed_head": "aa384a77a18d64b5780468492a80bbafb2331ee0",
+    "merge": "8872d9fb8afaf87df6176a6b8c1b52c79bb9e154",
+    "reviewed_and_merged_tree": "30755f85553a1e6a4f00280fe9b35ed28b2bb779",
+    "required_ci": 45559848925,
+    "attempt": 1,
+    "conclusion": "success",
+    "linux_payload_bytes": 999869531,
+    "files": 3680,
+    "remaining_bytes": 130469,
+    "scope": "Exact reviewed head passed required CI and merged with identical tree; deployment and fresh live review subsequently passed."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/864",
+  "festival_reconciliation": {
+    "pr": 863,
+    "main": "1c5d46e231e436377c29c539182d889087c94f2a",
+    "combined_head": "aa384a77a18d64b5780468492a80bbafb2331ee0",
+    "review": "outputs/gonasika-publication-2026-11-25/release/festival-reconciliation-review.json",
+    "final_package_review": "outputs/gonasika-publication-2026-11-25/review/combined-package-exact-review.json",
+    "scope": "Four incoming source files exact; catalog union preserved. Full combined rebuild and separate review passed. No substantive foreign article review claimed."
+  },
+  "superseded_ci": {
+    "run": 45558544818,
+    "conclusion": "cancelled",
+    "reason": "New combined candidate after independently merged festival update; no success inferred."
+  },
+  "deployment": {
+    "run": 45563244558,
+    "head": "8872d9fb8afaf87df6176a6b8c1b52c79bb9e154",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999869531,
+    "files": 3680,
+    "remaining_bytes": 130469,
+    "evidence": "outputs/gonasika-publication-2026-11-25/release/deployment.json",
+    "log": "outputs/gonasika-publication-2026-11-25/release/deployment.log.gz"
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to the reserved Nilagiri publication chat.",
+  "verified_routes": [
+    "/destinations/gonasika/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/sakhi-nata-and-sakhi-pila/",
+    "/stories/kapileswar-hatuari/"
+  ],
+  "delivery_review": {
+    "result": "pass",
+    "reviewer": "Drishti, separate subagent",
+    "evidence": "outputs/gonasika-publication-2026-11-25/review/delivery-review.json",
+    "human_review_claimed": false
+  },
+  "live_verification": {
+    "evidence": "outputs/gonasika-publication-2026-11-25/live-verification.json",
+    "image_comparison": "outputs/gonasika-publication-2026-11-25/live-image-comparison.json",
+    "browser_evidence": "outputs/gonasika-publication-2026-11-25/browser/live-browser-review.json",
+    "routes": 6,
+    "images": 21,
+    "raw_status": "REVIEW_DIFFERENCES",
+    "different_image_files": 6,
+    "limits": "Actual byte/pixel comparisons and visual acceptance are retained in the separate delivery review. No encoding cause or pixel identity inferred. Browser capture framing limits are recorded separately.",
+    "independent_images": 26,
+    "root_browser_captures": 19,
+    "root_image_review": "outputs/gonasika-publication-2026-11-25/root-live-image-review.json"
+  },
+  "storage_copy_instruction": "outputs/gonasika-publication-2026-11-25/release/storage-copy-note.json",
+  "final_receipt_review": "outputs/gonasika-publication-2026-11-25/review/receipt-review.json",
+  "receipt_whitespace": "outputs/gonasika-publication-2026-11-25/release/receipt-whitespace.json",
+  "receipt_festival_reconciliation": "outputs/gonasika-publication-2026-11-25/release/receipt-festival-reconciliation.json",
+  "receipt_reconciliation_review": "outputs/gonasika-publication-2026-11-25/review/receipt-reconciliation-review.json"
 }

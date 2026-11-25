@@ -1,0 +1,18 @@
+{
+  "status": "BOUNDED_HELPER_FIX_CHECKED",
+  "file": "outputs/gonasika-publication-2026-11-25/compare-live-images.mjs",
+  "sha256": "5c226f871b87cfc421607db007e17c5fca62cda99a1e2a82e752b77a9aa34366",
+  "changes": [
+    "Added /stories/kapileswar-hatuari/ to exact expected route list",
+    "Updated missing-route error to six routes"
+  ],
+  "checks": {
+    "sixUniqueSuccessfulRoutes": "PASS",
+    "missingRouteRejected": true,
+    "duplicateRouteRejected": true,
+    "failedHTTPRejected": true,
+    "unexpectedRouteRejected": true
+  },
+  "preserved": "All image presence, byte hashes, geometry, responsive content-address, decoder and raw-evidence status/hash guards unchanged.",
+  "limits": "No helper execution against live evidence, network calls, build or publication; no live acceptance claimed."
+}

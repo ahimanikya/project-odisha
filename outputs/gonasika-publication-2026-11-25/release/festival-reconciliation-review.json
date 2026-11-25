@@ -1,0 +1,48 @@
+{
+  "reviewer": "Drishti (separate AI review)",
+  "date": "2026-11-25",
+  "result": "pass_bounded_festival_reconciliation",
+  "head": "aa384a77a18d64b5780468492a80bbafb2331ee0",
+  "tree": "30755f85553a1e6a4f00280fe9b35ed28b2bb779",
+  "parents": [
+    "9bdba0e7b860f73d3fbde4cddbb4cb738f3f4180",
+    "1c5d46e231e436377c29c539182d889087c94f2a"
+  ],
+  "human_review_claimed": false,
+  "release_ready": false,
+  "scope": "Merge preservation and combined-source implications only; final combined build/package/hosted/live approval pending.",
+  "changed_paths": [
+    "kb/catalog.json",
+    "kb/research/culture/the-year-that-feeds-us.md",
+    "projects/site/src/pages/culture/osha/[slug].astro",
+    "projects/site/src/pages/culture/osha/index.astro",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro"
+  ],
+  "manifest_sha256": {
+    "kb/catalog.json": "efebde1ef9dc2beee6386f1c8493e569362041c865289b3bfb5fad86156323ab",
+    "kb/research/culture/the-year-that-feeds-us.md": "f3bb4e65eedf3ab3843e26ed3aa08d8b96db9ce951fad503196c430e01a48339",
+    "projects/site/src/pages/culture/osha/[slug].astro": "db9c85b9475b4a01d69ae899b82cf181e7edef9e1a03add2b53f5d169fa88d12",
+    "projects/site/src/pages/culture/osha/index.astro": "8aa01583cfff923019e70838b8f89d1191aa45924d1fe3648bff4e558d5b7414",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "81f97f92b8407436440a38f86db4f5868d771b41157a988c2f355574447863b7"
+  },
+  "verified": {
+    "incoming": "New festival manuscript and three Astro source files byte-exact to incoming main.",
+    "catalog": "Exact incoming festival row added; all prior own and incoming catalog entries retained. Own1932→combined1933, no removed/replaced prior row. This additive shared file is correctly not byte-identical to foreign catalog.",
+    "own": "No changes to Gonasika manuscript/imageJSON/original/publicphoto/page/hilldata/optimizer/tools/editions/current ownership/registers/canonicalhandoff from reviewed9bdba0e7. All67protectedpreparationGitblobhashes independentlymatch storedmanifest.",
+    "generated": "Pure concepts() still1506entries exactlymatching committedsearchindex; pure workbenchmodel matches committedJSON. No new freshness issue observed in these views.",
+    "history": "Merge has exact reviewedcandidate and incomingPR863merge as parents. No conflict marker or source rewrite introduced; no semantic source merge needed.",
+    "working_scope": "At audit start clean; root subsequently writes build-results/full-buildlog and archives pre-festival evidence. These are expected ongoing build evidence, not part of this committed merge review."
+  },
+  "combined_source_implications": {
+    "routes": "Existing /stories/the-year-that-feeds-us/ and three festival routes already declared in coast. No new route, mediaasset, image license, globalstyle or optimizerentry introduced by fivefilediff.",
+    "rendering": "Existing introduction now imports new narrativeContent, existingArticleByline/ArticleReadingPath, adds threechapterlinks. Oshacollection adds introductionlink/summary; threeexistingfestivalpages add backlinks. These change public HTML and package bytes, so oldcompletepackage/CIcannot certify newhead.",
+    "required_checks": "Fresh combined full/coast/publication build, existing tests/disclosures/link/footnote checks, generatedcatalogconsistency and strict actualpackagecapacity; preserve Gonasika image/fragment/credit continuity plus Hatuari correction and currentDhagaPDF. Currentpipeline underway, no completionclaim.",
+    "foreign_review_limit": "Inspected actual diff and source integration for merge implications, not a fresh factual/copyrightbudget/browserreview of the separately merged festival narrative. Preserve its foreign ownership; do not attribute its substantive review to Drishti/Gonasika."
+  },
+  "findings": [],
+  "remaining": [
+    "Finish combined package and independently verify final artifact and provenance preservation.",
+    "Review final exact candidate and require successful hosted CI on that head; earlier9bdba0e7run not proof of aa384a77.",
+    "Actualdeployment/liveverification/reviewedreceipt before release and conditionalNilagirihandoff."
+  ]
+}
