@@ -1,5 +1,6 @@
 // Additional discovery entries include the Mirgan and Kotpad book collection and Odia Bibhaba personal visit.
 const reviewedArticleCount=JSON.parse(readFileSync('src/data/reviewed-culture.json','utf8')).length;
+const independentFeatureEntryCount=1+JSON.parse(readFileSync('../../kb/research/stories/independent-features/collection.json','utf8')).articles.length;
 const pioneerCount=JSON.parse(readFileSync('../../kb/research/pioneers/series.json','utf8')).included_profiles.length;
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -18,7 +19,7 @@ const files=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirector
 test('only selected pages and their declared client content ship',()=>{
  const actual=files('dist-coast').filter(p=>p.endsWith('.html')&&!(scope.downloads||[]).includes('/'+p.slice('dist-coast/'.length))).map(p=>'/'+p.slice('dist-coast/'.length).replace(/index\.html$/,'')).sort();assert.deepEqual(actual,[...scope.routes].sort());
  for(const route of scope.routes){const html=read(route);assert.ok(html.includes('noindex'));if((scope.standalone_routes||[]).includes(route)){assert.ok(!html.includes('id="journey-data"'));continue;}const d=payload(html);assert.deepEqual(d.catalog.map(i=>i.id).sort(),[...scope.journey_ids].sort());assert.deepEqual(d.starters.map(s=>s.id),scope.starter_ids);assert.ok(html.includes('noindex'));}
- assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,176+reviewedArticleCount+2+JSON.parse(readFileSync('src/data/dongariya.json','utf8')).length+1+1+pioneerCount);
+ assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,independentFeatureEntryCount+177+reviewedArticleCount+2+JSON.parse(readFileSync('src/data/dongariya.json','utf8')).length+1+1+pioneerCount);
  assert.ok(read('/destinations/bhubaneswar/').includes('fresco-procession'));
  for(const f of files('dist-coast').filter(p=>/\.(html|js)$/.test(p)))for(const held of ['gopinath-mohanty.jpg','href="/store/'])assert.ok(!readFileSync(f,'utf8').includes(held),f+': '+held);
 });

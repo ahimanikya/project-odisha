@@ -1,5 +1,5 @@
 {
-  "status": "implementation_in_progress",
+  "status": "combined_validation_in_progress",
   "article_id": "POD-EDIT-OLASUNI-20261126",
   "route": "/destinations/olasuni/",
   "owner": "Disha",
@@ -67,7 +67,7 @@
     "projected_incremental_saving_bytes": 614533,
     "actual_final_gate_required": true
   },
-  "next_action": "Complete article implementation and separate source/code/rendered review, then actual release checks.",
+  "next_action": "Complete combined validation and separate reconciliation review, then required hosted checks and authorized publication.",
   "next_slot": {
     "topic": "Kula",
     "owner_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
@@ -83,5 +83,30 @@
   "web_guidance": {
     "status": "retrieval_blocked_official_docs_fallback",
     "evidence": "outputs/olasuni-publication-2026-11-26/web-guidance.md"
+  },
+  "local_validation": {
+    "scope": "Candidate before incoming PR873/875/876 reconciliation",
+    "full_tests": 833,
+    "coastal_tests": 599,
+    "page_checks": 5504,
+    "artifact_checks": 20086,
+    "bytes": 999088041,
+    "files": 3699,
+    "build_evidence": "outputs/olasuni-publication-2026-11-26/build-results.json",
+    "artifact_evidence": "outputs/olasuni-publication-2026-11-26/local-verification.json",
+    "separate_review": "outputs/olasuni-publication-2026-11-26/review/package-review.json",
+    "root_browser": "outputs/olasuni-publication-2026-11-26/root-local-ui-review.json",
+    "live_claim": false
+  },
+  "reconciliation": {
+    "incoming": "a8ec2c87a",
+    "preserved_publications": [
+      873,
+      875,
+      876
+    ],
+    "status": "combined_validation_in_progress",
+    "combined_contract": "outputs/olasuni-publication-2026-11-26/reviewed-article-contract-combined.json",
+    "historical_evidence_unchanged": true
   }
 }

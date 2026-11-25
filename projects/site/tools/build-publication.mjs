@@ -1,4 +1,5 @@
 import {shareJourneyData} from './shared-journey-data.mjs';
+import {shareReadingStyles} from './shared-reading-styles.mjs';
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
 import {readFile,writeFile,rm,lstat,readdir,mkdir} from 'node:fs/promises';
 import {copyPublicationTree} from './storage-copy.mjs';
@@ -43,10 +44,12 @@ export async function buildPublication(site){
  if(floor>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${floor} fixed non-optimizable bytes`);
  for(const path of paths)if(sizes.get(path)>=1_000_000_000)throw Error(`Publication HTML exceeds the 1 GB budget: ${path}`);
  const inlinePages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
- const {pages,assets:journeyAssets}=shareJourneyData(inlinePages);
+ const {pages:journeyPages,assets:journeyAssets}=shareJourneyData(inlinePages);
+ const {pages,assets:readingAssets}=shareReadingStyles(journeyPages);
+ const sharedAssets=new Map([...journeyAssets,...readingAssets]);
  const controls=publicationCrawlerFiles(plan);
  const replacements=new Map(pages.map(page=>[page.path,Buffer.byteLength(page.html)]));
- for(const [path,body] of journeyAssets)replacements.set(path,Buffer.byteLength(body));
+ for(const [path,body] of sharedAssets)replacements.set(path,Buffer.byteLength(body));
  replacements.set('robots.txt',Buffer.byteLength(controls.robots));
  replacements.set('sitemap.xml',controls.sitemap?Buffer.byteLength(controls.sitemap):0);
  replacements.set(verificationName,verification.length);
@@ -59,7 +62,7 @@ export async function buildPublication(site){
  await copyPublicationTree(input,output,{allowNonMacFullCopy:process.platform==='linux'});
  for(const page of pages)await writeFile(new URL(page.path,output),page.html);
  await mkdir(new URL('assets/',output),{recursive:true});
- for(const [path,body] of journeyAssets)await writeFile(new URL(path,output),body);
+ for(const [path,body] of sharedAssets)await writeFile(new URL(path,output),body);
  await writeFile(new URL('robots.txt',output),controls.robots);
  await rm(new URL('sitemap.xml',output),{force:true});
  if(controls.sitemap)await writeFile(new URL('sitemap.xml',output),controls.sitemap);

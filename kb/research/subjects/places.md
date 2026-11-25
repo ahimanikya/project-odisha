@@ -58,3 +58,12 @@ Subject membership is editorial classification. It does not establish historical
 [Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
 
 [Bharatpur mine safety](../economy/bharatpur-mine-safety.md) — a dated accident account with separate event counts, recommendations and unresolved inquiry evidence.
+
+## Places, work and living traditions
+
+- [Motu where a confluence connects three states](../stories/independent-features/places/motu-mugi-point.md) — Two river junctions and the downstream connections behind Motu’s flood history.
+- [Sonapur where beach management meets a river mouth](../stories/independent-features/places/sonapur.md) — The Bahuda river mouth, dated Blue Flag awards and continuing beach care.
+- [Gundichaghagi and Ghatagaon’s river landscape](../stories/independent-features/places/gundichaghagi.md) — The Musala waterfall within Ghatagaon’s natural and cultural geography.
+- [Galigabdar beyond the waterfall view](../stories/independent-features/places/galigabdar.md) — A stepped waterfall and residents’ concerns about water in the wider panchayat.
+- [Chandoori Sai and the craft within its walls](../stories/independent-features/places/chandoori-sai.md) — Tiles, earthen walls and local craft in the construction of a guesthouse.
+- [Rabandhara from a seasonal gorge to a nature camp](../stories/independent-features/places/rabandhara.md) — A seasonal gorge, downstream irrigation and the work of hosting visitors.

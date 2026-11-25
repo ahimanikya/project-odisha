@@ -154,3 +154,11 @@ Manabasa distinguishes ritual arrangement, a separate Sudasa manda passage and t
 ## 20 October 2026 · Place-linked sweets
 
 [Sweets and the places they carry](../food/sweets-and-places.md) connects eight sweet identities with named local reputations, production areas and ritual contexts. These relationships do not establish invention, current serving venues, statewide sales or exports.
+
+## Places, work and living traditions
+
+- [Odisha Rasagola from the kneading board to Niladri Bije](../stories/independent-features/food/odisha-rasagola.md) — Kneading chhena, temple ritual and the regional identity of Odisha Rasagola.
+- [The work behind a cup of Koraput coffee](../stories/independent-features/food/koraput-coffee.md) — Shade, processing, local purchasing and the work behind Koraput coffee.
+- [Sakhigopal’s coconut trade after the storm](../stories/independent-features/food/sakhigopal-coconuts.md) — Auctions, lost palms and the rebuilding of a coconut trade after Fani.
+- [Pakhala and the many ways to build a meal](../stories/independent-features/food/pakhala.md) — Fresh and fermented forms, tempering and the accompaniments around a bowl.
+- [Chhatia’s chhena kakara and the roadside economy](../stories/independent-features/food/chhatia-kakara.md) — Chhena kakara and the roadside businesses that sustain a familiar stop.
