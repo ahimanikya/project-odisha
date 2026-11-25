@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4e99a0ec8522814b09efc184ff9218566a5bfcb9de2fbfc996e4bd040dafcaf9`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c53c19e589919de6cac4f790c7b75e530461e5706e8412a0aa4f8a58928fab60`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -426,6 +426,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261125401 · Publish Nilagiri stone utensils with credited illustration | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly return the sole article slot to the coordinating hill chat. | — |
 | POD-WORK-2026112593 · Research, review and publish Barunei Hills | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt merge before explicit preparation-only handoff. | — |
 | POD-WORK-20261125027 · Integrate 27 revised articles in the library and website | completed | reviewed | Ahimanikya Satapathy | Published and all28 routes verified; retain sources and respond to future corrections. | — |
+| POD-WORK-20261126027 · Illustrate27 independent Odisha articles with documented rights | in_progress | reviewed | Ahimanikya Satapathy | Complete final rebuilt and delivery checks, then publish authorized library and website image additions. | — |
 
 ## Pending human review and decisions
 
@@ -780,6 +781,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261125401 · Publish reviewed Nilagiri stone-utensils article | recorded_direction | Ahimanikya Satapathy | One article publication with credited illustration, relevant incoming links, mobile/desktop checks and verified delivery. |
 | POD-DEC-2026112593 · Next uncovered hill after completed Nilagiri publication | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
 | POD-DEC-20261125027 · Add and publish 27 revised independent articles | recorded_direction | Ahimanikya Satapathy | Add the supplied revised collection to the categorized library and live website. Preserve independent source URLs and exclude discovery-creator material. |
+| POD-DEC-20261126027 · Add original or openly licensed images to27 independent articles | recorded_direction | Ahimanikya Satapathy | Add suitable credited article, preview and sharing images to the previously authorized library and live collection. |
 
 ## Reviews
 
@@ -1205,6 +1207,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261125401 | pass | True | — |
 | POD-REV-2026112593 | pass | True | — |
 | POD-REV-20261125027 | pass | True | — |
+| POD-REV-20261126027 | pass | True | — |
 
 ## Publication and application history
 
@@ -1530,8 +1533,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112595 | 2026-11-25T05:41:21.011816+00:00 | Verified Hatuari receipt862 mergefe426d76 and successful CI45551097225; accepted explicit returned slot. Reconciled correction and Dhaga861, retained prior local review and67protected preparationfiles. Exact new Dhaga PDF hydrated before fresh combined build. No Gonasika publication claimed; Nilagiri remains reserved next. | — |
-| POD-EVT-2026112596 | 2026-11-25T06:07:07.064267+00:00 | Reconciled local package passed separate review: 829 full tests, 599 coastal tests, 5476 page checks, 10878 artifact checks, 17 reviewed captures and exact prior article/image continuity. Local payload 999067472 bytes. Two hosted generated-view failures and bounded corrections retained. Exact corrected-head review and successful hosted checks remain before publication; zero programme credit. | — |
 | POD-EVT-2026112597 | 2026-11-25T07:29:32.643665+00:00 | Reviewed Gonasika publication PR864 and actual deployment completed; fresh live article, credited photograph, incoming previews, native notes and corrected Hatuari verified. Evidence-only receipt merge and explicit Nilagiri handoff remain. Zero programme credit. | — |
 | POD-EVT-20261125401 | 2026-11-25T08:07:48.125040+00:00 | Accepted and independently verified Gonasika receipt866/013a3950 and CI45570050986; reconciled latest main with preserved preparation and local authorization. Sole Nilagiri publication slot claimed. | — |
 | POD-EVT-20261125402 | 2026-11-25T09:45:51.736060+00:00 | Reviewed PR868 passed required CI45583299390 attempt1 and merged b8b08ea25 with exact reviewed tree. Deployment45588246011 is running; no live delivery or scope return claimed. Actual Linux payload999987029bytes/3687files; zero programme credit. | — |
@@ -1540,6 +1541,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261125027 | 2026-11-25T17:50:25.527994+00:00 | Integrated 27 revised manuscripts as distinct categorized library articles; original narrative and source URLs preserved. User separately confirmed library and live website. Public delivery remains pending. | — |
 | POD-EVT-2026112599 | 2026-11-25T18:03:32.076972+00:00 | Actual reviewed PR871/CI45659955442 and deployment45664502523 passed. Root5routes20images13captures and separate31image review passed;4measured existing image differences visually accepted with limits. Receipt review/required CI/actual merge pending before reserved preparation-only handoff. Zero programme credit. | — |
 | POD-EVT-20261125028 | 2026-11-25T20:04:38.048993+00:00 | Published27 reviewed original articles and six-category collection under explicit library-and-live authorization. All28 routes verified against reviewed content; no creator text or images. Zero programme credit. | — |
+| POD-EVT-20261126027 | 2026-11-25T20:44:07.468791+00:00 | Started the explicitly requested27-article image additions. Source and licence verification precedes integration; no discovery-creator images and zero programme credit. | — |
+| POD-EVT-20261126028 | 2026-11-25T21:25:24.710125+00:00 | 27 image choices and their rights/captions passed separate cross-review; integration code review passed after complete Explore credits and full-image framing fixes. Final rebuilt, package and hosted delivery checks remain pending; no publication claim and zero programme credit. | — |
 
 ## Deferred extensions
 

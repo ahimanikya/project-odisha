@@ -1,5 +1,6 @@
 import {shareJourneyData} from './shared-journey-data.mjs';
 import {shareReadingStyles} from './shared-reading-styles.mjs';
+import {shareDhagaStyles} from './shared-dhaga-styles.mjs';
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
 import {readFile,writeFile,rm,lstat,readdir,mkdir} from 'node:fs/promises';
 import {copyPublicationTree} from './storage-copy.mjs';
@@ -45,8 +46,9 @@ export async function buildPublication(site){
  for(const path of paths)if(sizes.get(path)>=1_000_000_000)throw Error(`Publication HTML exceeds the 1 GB budget: ${path}`);
  const inlinePages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
  const {pages:journeyPages,assets:journeyAssets}=shareJourneyData(inlinePages);
- const {pages,assets:readingAssets}=shareReadingStyles(journeyPages);
- const sharedAssets=new Map([...journeyAssets,...readingAssets]);
+ const {pages:readingPages,assets:readingAssets}=shareReadingStyles(journeyPages);
+ const {pages,assets:dhagaAssets}=shareDhagaStyles(readingPages);
+ const sharedAssets=new Map([...journeyAssets,...readingAssets,...dhagaAssets]);
  const controls=publicationCrawlerFiles(plan);
  const replacements=new Map(pages.map(page=>[page.path,Buffer.byteLength(page.html)]));
  for(const [path,body] of sharedAssets)replacements.set(path,Buffer.byteLength(body));

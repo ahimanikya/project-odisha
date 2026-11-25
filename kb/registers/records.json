@@ -10882,6 +10882,28 @@
         "records/independent-articles-27-20261125.json",
         "research/stories/independent-features/index.md"
       ]
+    },
+    {
+      "id": "POD-WORK-20261126027",
+      "title": "Illustrate27 independent Odisha articles with documented rights",
+      "category": "editorial_production",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Coordinating assistant with separate research, implementation and review agents"
+      },
+      "authorization": "POD-DEC-20261126027",
+      "next_action": "Complete final rebuilt and delivery checks, then publish authorized library and website image additions.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126027",
+        "POD-REV-20261126027"
+      ],
+      "evidence": [
+        "records/independent-article-images-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16538,6 +16560,20 @@
       "evidence": [
         "records/independent-articles-27-20261125.json",
         "research/stories/independent-features/index.md"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126027",
+      "title": "Add original or openly licensed images to27 independent articles",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Add suitable original or openly licensed images to the 27 articles, with proper source and licence details. Don’t use any images from the creator.",
+      "scope": "Add suitable credited article, preview and sharing images to the previously authorized library and live collection.",
+      "evidence": [
+        "records/independent-article-images-20261126.json"
       ]
     }
   ],
@@ -26436,6 +26472,24 @@
       ],
       "independent": true,
       "summary": "Original narratives and109 citation occurrences preserved; six categories and all27 articles reviewed. Task-scoped AI review, not human specialist approval."
+    },
+    {
+      "id": "POD-REV-20261126027",
+      "title": "Separate image rights, visual and integration code review for27 articles",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Separate article_integration_review and article_image_research_b agents"
+      },
+      "refs": [
+        "POD-WORK-20261126027",
+        "POD-DEC-20261126027"
+      ],
+      "evidence": [
+        "records/independent-article-images-20261126.json"
+      ],
+      "independent": true,
+      "summary": "All27 image choices cross-reviewed for subject, captions, rights and provenance; separate integration code review passed. Final rebuilt suites, package and live verification still pending. No human-specialist or field review claimed."
     }
   ],
   "releases": [

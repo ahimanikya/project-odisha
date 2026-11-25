@@ -1,0 +1,60 @@
+{
+  "status": "reviewed_local_validation",
+  "authorization_quote": "Add suitable original or openly licensed images to the 27 articles, with proper source and licence details. Don\u2019t use any images from the creator.",
+  "destination": "Existing categorized library and live website collection at /stories/odisha/",
+  "scope": "27 article images and matching preview/sharing images; preserve original narratives and their109 citations.",
+  "prior_publication": "records/independent-articles-27-20261125.json",
+  "coordinator": "Disha in current chat",
+  "team_handoff": "outputs/independent-article-images-20261126/handoff.json",
+  "media_manifest": "research/stories/independent-features/images.json",
+  "source_rules": [
+    "No images from the discovery creator",
+    "Verify third-party image identity, creator, source, licence and changes",
+    "Use original illustrations only with truthful captions, never as documentary photographs",
+    "Retain existing source and historical evidence"
+  ],
+  "programme_credit": 0,
+  "review": {
+    "status": "image_and_code_review_pass",
+    "human_specialist_review": false,
+    "reports": [
+      "outputs/independent-article-images-20261126/review/cross-review-a.json",
+      "outputs/independent-article-images-20261126/review/cross-review-b.json",
+      "outputs/independent-article-images-20261126/review/integration-code-review.json"
+    ],
+    "limits": "Final rebuilt suites, package gate, hosted CI and actual live verification pending."
+  },
+  "publication": {
+    "status": "pending"
+  },
+  "media": {
+    "articles": 27,
+    "original_illustrations": 10,
+    "openly_licensed_or_public_domain_images": 17,
+    "existing_assets_reused": 5,
+    "new_primary_images": 22,
+    "new_preview_images": 22,
+    "new_asset_bytes": 3578298,
+    "narrative_change": "none",
+    "source_citations_preserved": 109,
+    "distinct_original_source_urls_preserved": 94,
+    "creator_material_used": false,
+    "manifest": "research/stories/independent-features/images.json",
+    "original_art_prompts": [
+      "outputs/independent-article-images-20261126/generated-prompts.json",
+      "outputs/independent-article-images-20261126/generated-prompts-batch2.json"
+    ],
+    "derivatives": "outputs/independent-article-images-20261126/image-production-report.json",
+    "library_catalogue": "research/stories/independent-features/image-catalog.md",
+    "original_art_acceptance": "All9 newly generated originals visually accepted in cross-review-b; prompt files retain their creation-time status.",
+    "derivative_procedure": "outputs/independent-article-images-20261126/derivative-procedure.json"
+  },
+  "capacity": {
+    "method": "Share two exact repeated Dhaga saying stylesheets in the same URL directory, preserving relative URL resolution and cascade positions.",
+    "saved_bytes": 3965203,
+    "pages_checked": 550,
+    "css_blocks_shared": 1100,
+    "byte_roundtrip": "pass in implementation review",
+    "limit": "Final packaged payload and actual live checks pending."
+  }
+}

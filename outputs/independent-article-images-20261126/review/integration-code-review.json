@@ -1,0 +1,423 @@
+{
+  "schema": "project-odisha-integration-code-review-v1",
+  "reviewed_at": "2026-11-25T21:23:25.861955+00:00",
+  "reviewer": "article_integration_review",
+  "status": "PASS",
+  "base_head": "a8ec2c87abbb27b93de8f1e257fd9c04fab22291",
+  "reviewed_state": "Uncommitted working tree after final Explore complete-credit identity and full-image containment fixes",
+  "reviewed_diff_sha256": "e05f44b939c7259c051a5a8417b36284782f6753c6d08b2b0beb12a6c8c5890b",
+  "entire_tracked_diff_sha256_for_identification_only": "8a19aee94aac10dd3ba6ed5909cdd47c268595ccef2dc0e9b63a552ff2e371a4",
+  "reviewed_files": [
+    {
+      "path": "projects/site/src/components/ResponsiveImage.astro",
+      "sha256": "2dd95cff185fa906ae058a67e4484768321a1f6b0138e08857771f738b0bb178"
+    },
+    {
+      "path": "projects/site/src/data/independent-features.ts",
+      "sha256": "ef39804e62e37ca3610ca5b28738f823962ffaf2d87438e9ec1a80961c7891f1"
+    },
+    {
+      "path": "projects/site/src/pages/explore.astro",
+      "sha256": "898af6ace9897af6fb29ff77ccebdad02fbc8a03c094a0ceb9ac617c4b7eb404"
+    },
+    {
+      "path": "projects/site/src/pages/stories/odisha/[slug].astro",
+      "sha256": "ce87557005a16048efbd6abf8b384646b40e648af58ba1972aa14eabafb929d1"
+    },
+    {
+      "path": "projects/site/src/pages/stories/odisha/index.astro",
+      "sha256": "6020ab83306c17daea21c9c330469c522b8670ae123434f0f95750e32519596d"
+    },
+    {
+      "path": "projects/site/tests-coast/independent-features.test.mjs",
+      "sha256": "04f88a0db0549aac81ec6f47ace4dcca246d074e5389675c7cc68219a27313b3"
+    },
+    {
+      "path": "projects/site/tests/storage-copy.test.mjs",
+      "sha256": "5150a7ce12bbdfa4e9f23520f86e41d0add6ee8e608203df1aa59bc845312b88"
+    },
+    {
+      "path": "projects/site/tests/shared-dhaga-styles.test.mjs",
+      "sha256": "8a5ccaf156240536815c1c66be2ef6242707f44c35b79d0198fe3619aa6b0ec9"
+    },
+    {
+      "path": "projects/site/tools/build-publication.mjs",
+      "sha256": "6433899cd39cf420e19556b5819e33194ef5b69e5c48a66ae3e879eeb3e8c48b"
+    },
+    {
+      "path": "projects/site/tools/export-dhaga.mjs",
+      "sha256": "2a7811faf7defa4127de7a7788ab1b0c8dc766387eada8937f0251a8b3799022"
+    },
+    {
+      "path": "projects/site/tools/storage-copy.mjs",
+      "sha256": "a3d42748f64451ce10f8e59d03e28e942883cff2506df4cb3dfa093c063db4dd"
+    },
+    {
+      "path": "projects/site/tools/shared-dhaga-styles.mjs",
+      "sha256": "adaad4d69cf7ea9538bdb478065ef8e32cc0501819edfc0b973cf0f8678d65cb"
+    },
+    {
+      "path": "kb/research/stories/independent-features/images.json",
+      "sha256": "d135222aed2f427b4ac41e59225d342ee6922d40205f83874e5a7fdfc569c485"
+    },
+    {
+      "path": "kb/research/stories/independent-features/image-catalog.md",
+      "sha256": "5284c392aa12f69c6bfe61ff4a7649c8a86eb828223a27e8e3c5ec8ad5a6f282"
+    },
+    {
+      "path": "kb/research/stories/independent-features/index.md",
+      "sha256": "08d5a177904c0612fe16767f5a1181a4b4064e15a0a39abc98561e9799949f55"
+    },
+    {
+      "path": "kb/catalog.json",
+      "sha256": "7d6f7300dff5d9e16d242869ebeafdd6a3d692d79a0c2a93ed8c1897ef6bff1e"
+    }
+  ],
+  "final_image_files": [
+    {
+      "path": "projects/site/public/images/destinations/mandasaru-forest-illustration.jpg",
+      "sha256": "15cd0dc63507920f9eb1a6c5dfe064f2497ae47487e6784a38d25128cafe3f13"
+    },
+    {
+      "path": "projects/site/public/images/food/pakhala-tomato-poda.webp",
+      "sha256": "df69069dda4ec3757310bd594d965abb21b9264466293e1e937d29c8a773f0e0"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/bali-jatra-480-v1.webp",
+      "sha256": "5e16b0948791b35fe3ca97e6bc05fd3660b5797c86d37fdbd893bbbe036f2c8d"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/bali-jatra-v1.webp",
+      "sha256": "22192dc6a7564a916dc63c86a473f41327decc19a4a393cf985eeb0e508fa84d"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/bande-utkala-janani-480-v1.webp",
+      "sha256": "1382d2d25f7e48e8064145ee23726b8ce2da23d5d3bb963267a584fc97054523"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/bande-utkala-janani-v1.webp",
+      "sha256": "d0c01a9921ec0256b8f004c8f47ba12904f4d935bf8801c3b8636cd5099379de"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/chandoori-sai-480-v1.webp",
+      "sha256": "a479042d456789d94b4384b274dedbcc33707b6b13fe431effe83cce24375816"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/chandoori-sai-v1.webp",
+      "sha256": "4a0c34b34a9f1b92a4e38ffa136178753734b78c055793fadb766f80df958aa9"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/chhatia-kakara-480-v1.webp",
+      "sha256": "26452b34ded15cbd7cc073c017704aa8b7794fb6aa73349c08b09747c60e8144"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/chhatia-kakara-v1.webp",
+      "sha256": "63e4470f81b78ad5c93ade2696456fe2a63defce841520fcf50cec793ab702f8"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/coastal-shell-craft-480-v1.webp",
+      "sha256": "e9005874e4776a89d05cb1477c152d445e09cfc2ac08093a7aa5616c2d9a489c"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/coastal-shell-craft-v1.webp",
+      "sha256": "e16ddcec44d770ddfae0ace655d7534d58fb06dbce1aefa0cb2a10e77cd9b965"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/cyclone-dana-480-v1.webp",
+      "sha256": "8083bfb76743efc026b768956317f5a6d68efc8a40c709db19555496a84ba859"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/cyclone-dana-v1.webp",
+      "sha256": "780e9d1777da2f39a73cab8ea908b864af858490595d2c8a1e3e31ab8e8fc052"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/dhemsa-480-v1.webp",
+      "sha256": "8b8aadd7c6cad4746a56dff8b834bea1b6825f6f14493a2efef7cae596c4901a"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/dhemsa-v1.webp",
+      "sha256": "b40c089656ebe39c5dc0db0995c77747dcaaf5d5f380f953a8595a31df5f7cd6"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/galigabdar-480-v1.webp",
+      "sha256": "ac57ac164e8c7edf9f3a84fa14dc4a29150aab71c3a644aaabc61b8a9ba9cdfe"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/galigabdar-v1.webp",
+      "sha256": "e856c9fe63a2e673317c4ee96f04915e4b7d37e9caaae994aaa3fff0e7ecfca9"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/gundichaghagi-480-v1.webp",
+      "sha256": "69c1cb21311745eb7e52e38c89f22357ab50ec178eaccb2e80cb509b68e5f1be"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/gundichaghagi-v1.webp",
+      "sha256": "bc60b817807fbb57cff76a1bdfb45b9039aeea76a95f063381856a749cd5ff43"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/jalaput-machkund-480-v1.webp",
+      "sha256": "a9df129f5372ffc806f78c25e7a9d61c0f5bef81feb8562397098f3cc463c0ed"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/jalaput-machkund-v1.webp",
+      "sha256": "479edffc08665979c2658a40a41d331fc94fcc4067b269f2c96bfd9c454a3d62"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/kharaldhas-jonk-480-v1.webp",
+      "sha256": "06a209c4cf58f0c2577fdfc071eb3bcae5dba8ad35a65d8180b93f403130f5a4"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/kharaldhas-jonk-v1.webp",
+      "sha256": "5cb35f926bc6f09150ec21f5cdf23225ddd5a1b6f1f97497bc0098b4a0cdf0f4"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/koraput-coffee-480-v1.webp",
+      "sha256": "481adcfbcadf15ded396aeb08dd30053e4d401199d00404adfdef4f83b7274fa"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/koraput-coffee-v1.webp",
+      "sha256": "a0d2051e7ebb27363c67685c5df3d396a20f19f04846d096b0fcfa921d550c64"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/lower-indra-480-v1.webp",
+      "sha256": "34a750b1c8afdf97c5550265034f2b778f0b1e6e99397dc62013871b19f8fe73"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/lower-indra-v1.webp",
+      "sha256": "c62d00ad1344a70932b3bcf4234584c8ea54b9f6edb43e92a4606fe8ab75c1ad"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/motu-mugi-point-480-v1.webp",
+      "sha256": "b9e74e562654a03d2443da00613b53fd1015255b326eb5b21bbf1153ab66aaca"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/motu-mugi-point-v1.webp",
+      "sha256": "c50d5025632abb4c5b71072f0213f7d1135200ededbb7aa5dcbfb0d0b5f03e95"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/patrapada-480-v1.webp",
+      "sha256": "1ef2a0b58b1d40bb6725d6337e810d56565a42e927a0b7d4d92bb6be35292267"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/patrapada-v1.webp",
+      "sha256": "cbe995dc308a11f8015d697acd34ce443c05866f4434dd416c372aa32c6d23f9"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/pentha-480-v1.webp",
+      "sha256": "30921529d34bee86bf6efe4f73bb4c5ca7ffef53183611058fa40eb7022dda66"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/pentha-v1.webp",
+      "sha256": "e9c41873ec8590be5ae256b1fa0ac3d6bf7bbdad02822b085c3520649f80b49f"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/rabandhara-480-v1.webp",
+      "sha256": "73f2120a5f6a8a2df323b11ee9dc2e0a59fe89a002a38cf894b05b2a594d8a23"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/rabandhara-v1.webp",
+      "sha256": "81a41e2f387ecdccc599f16a4e580c2c7c22d2f8ca6708f6b0cbadbfbea094e6"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/raja-480-v1.webp",
+      "sha256": "2faf1650bbbb69e0df16d81f6abac76b647493c46d360b3ced93fcce3cbcde12"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/raja-v1.webp",
+      "sha256": "135f1b6ee1ced4b639e960ad7982e2b19b30e22a064f2cb45bd50e8cd1c05eee"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/sakhigopal-coconuts-480-v1.webp",
+      "sha256": "a2a75c49414f5c0b7a3f5a6fbf886857028aebdc73ece56314a6f6447d7e960c"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/sakhigopal-coconuts-v1.webp",
+      "sha256": "b00c1a798e84a999d387e59abea118d7675e66c778f69521b229e41e0b973802"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/sitabinji-480-v1.webp",
+      "sha256": "14ca719a34d82d4f04f6253de6644596ab15942334e89c9bbcfc7ebfdf5784b2"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/sitabinji-v1.webp",
+      "sha256": "a1276ed17169a9ab6a7b1fae2891eab3c94776bda4459c633c4cb3a9381d2cc7"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/sonapur-480-v1.webp",
+      "sha256": "62214c0df484c63f97e0f09242f9e7c1f2df3000dadd618be2c805f1b6add1ce"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/sonapur-v1.webp",
+      "sha256": "48b2d69bb6798de5b2e20f9ce8336dd1be3423089962dbcb4d5fa0387435ff09"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/toshali-480-v1.webp",
+      "sha256": "490485f2cb29e336c52e29b6c888475d01fa4d5ba1e86a9b1a687c3a81a71597"
+    },
+    {
+      "path": "projects/site/public/images/independent-features/toshali-v1.webp",
+      "sha256": "b285647e4e6ed3b0b658c3d1336b7fb325b97bc8f40d724aa80d2dc6cb4f8e50"
+    },
+    {
+      "path": "projects/site/public/images/regions/barehipani.jpg",
+      "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026"
+    },
+    {
+      "path": "projects/site/public/images/regions/dhauli-elephant.jpg",
+      "sha256": "d41aa30f330a73ea7a4d86b95c024cc64fb548c67f3e4d677214743dc9b5d058"
+    },
+    {
+      "path": "projects/site/public/images/regions/pahala-rasagola.webp",
+      "sha256": "b74bcb3cdb5622083cab01eecd0c90267bc9410fcd968edeb54b095b5aba0a0f"
+    }
+  ],
+  "findings": [],
+  "resolved_findings": [
+    {
+      "issue": "Collection previews omitted image.caption, hiding historical/interpretive/processing qualifications",
+      "resolution": "Added visible feature-image-caption paragraph; exact-caption assertion added for all 27 entries",
+      "verified": "Source inspected; final rebuilt rendering delegated to root"
+    },
+    {
+      "issue": "A reused image with a prior title could suppress the reviewed source title/context in Explore credits",
+      "resolution": "Deduplicate full credit identity, render title as source anchor and retain original caption separately; per-entry test requires complete matching source/title/caption/creator/licence/modification row.",
+      "verified": "Final source and assertions inspected; rebuilt rendering delegated to root."
+    },
+    {
+      "issue": "Explore fixed-ratio cover styling could crop diagrams and embedded Copernicus attribution",
+      "resolution": "All independent-feature previews set fit:contain; explicit explore-contain selector applies object-fit:contain, and tests require the class on every one of the 27 image tags.",
+      "verified": "Final source inspected; browser geometry delegated to root."
+    }
+  ],
+  "checks": {
+    "focused_unit_tests": {
+      "command": "node --test tests/shared-dhaga-styles.test.mjs tests/storage-copy.test.mjs",
+      "passed": 5,
+      "failed": 0,
+      "platform": "macOS; both copy tests reported one APFS cloned file and zero full copies"
+    },
+    "image_metadata_test": {
+      "command": "node --test --test-name-pattern=\"all 27 article images\" tests-coast/independent-features.test.mjs",
+      "passed": 1,
+      "failed": 0,
+      "covers": "All 27 metadata entries, local raster formats, exact image dimensions, source/licence presence, no creator-source references"
+    },
+    "dhaga_static_restoration": {
+      "canonical_source_pages": 550,
+      "changed_pages": 550,
+      "replaced_blocks": 1100,
+      "exact_restoration_passes": 550,
+      "asset_bytes": [
+        6028,
+        1419
+      ],
+      "net_saving_on_source_set_bytes": 3965203,
+      "note": "In-memory transformation of canonical saying HTML, not measured published artifact; every page restored byte-for-byte. Both relative font URLs keep the same directory base. No @import or @charset in either allowed exact CSS body."
+    },
+    "catalogue_metadata": {
+      "entries": 27,
+      "all_alt_caption_title_creator_source_license_changes_verbatim": true,
+      "all_non_null_license_urls_present": true
+    },
+    "canonical_article_manuscripts_changed": [],
+    "followup_source_review": {
+      "changed_files": [
+        "projects/site/src/data/independent-features.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/tests-coast/independent-features.test.mjs"
+      ],
+      "test_file_syntax": "PASS",
+      "complete_credit_identity": "src,source,title,caption-or-alt,creator,license,license_url,changes",
+      "all_27_full_image_containment": "Preview helper sets contain; Explore class and specific object-fit rule honor it; per-entry rendered assertions require class",
+      "new_rendered_tests_run_by_reviewer": false
+    }
+  },
+  "review_conclusions": [
+    "Exact SHA-256 and byte-length allowlist limits Dhaga sharing to two reviewed styles; head-only, attribute-free replacement preserves cascade position and CSS URL base; unexpected CSS stays inline.",
+    "Existing actual decimal 1 GB publication gate, PNG/JPEG optimization, source descriptor validation and crawler policy remain intact. New assets are counted in projected and final delivery bytes.",
+    "macOS file export uses existing strict clone-aware copier; source must be regular, destination must be absent, no silent full copy. Linux explicit independent-copy policy uses COPYFILE_EXCL and free-space reserve. Staged PDF streamed size/SHA check detects mismatched source bytes.",
+    "ResponsiveImage preserves automatic variants when no explicit srcset is supplied; reviewed previews supply their actual widths and sizes. Explore deduplication retains complete credit identities; all independent previews explicitly opt into full-image containment.",
+    "Article and collection templates show image credits, licence links and changes. Article full captions and corrected collection captions preserve qualified imagery. Explore credits preserve supplied source titles and captions.",
+    "Catalogue includes every image with caption, source, licence, modifications and original-art links. Manuscript bodies and their citations are untouched. No assertion that a metadata regex alone proves image provenance; independent source/visual reviews are recorded separately."
+  ],
+  "limitations": [
+    "No heavy build, full rendered suite, browser comparison, hosted CI, deployment or final delivery-budget measurement performed by this reviewer in this task. Root owns these final gates.",
+    "Reviewed current image integration and packaging implementation, not unrelated shared register edits.",
+    "Linux copy branch was statically reviewed but not executed on this macOS host.",
+    "Source-image visual/licence review is scoped to the existing cross-review-a.json and group-a research records; no new all-27 visual review claimed."
+  ],
+  "guidance_tool_note": "Automatic approval review rejected downloading/executing modern-web-guidance via npx as unnecessary external-code risk for read-only review. No retry or workaround; review proceeded using repository code and tests.",
+  "revision_history": [
+    {
+      "reviewed_at": "2026-11-25T21:18:00.509243+00:00",
+      "reviewed_diff_sha256": "fa4452c1ebeed8e5f95068029eb368cd10e2685945619fe939cdd964c5d9afb1",
+      "reviewed_files": [
+        {
+          "path": "projects/site/src/components/ResponsiveImage.astro",
+          "sha256": "2dd95cff185fa906ae058a67e4484768321a1f6b0138e08857771f738b0bb178"
+        },
+        {
+          "path": "projects/site/src/data/independent-features.ts",
+          "sha256": "21de7c9554be5d5212d001dda7e39764d8914edd9966cabe8b283272525553ab"
+        },
+        {
+          "path": "projects/site/src/pages/explore.astro",
+          "sha256": "62536428ab2c22f68db4f38d650874882f3c739e1ef7929af3151c73fca6dfdd"
+        },
+        {
+          "path": "projects/site/src/pages/stories/odisha/[slug].astro",
+          "sha256": "ce87557005a16048efbd6abf8b384646b40e648af58ba1972aa14eabafb929d1"
+        },
+        {
+          "path": "projects/site/src/pages/stories/odisha/index.astro",
+          "sha256": "6020ab83306c17daea21c9c330469c522b8670ae123434f0f95750e32519596d"
+        },
+        {
+          "path": "projects/site/tests-coast/independent-features.test.mjs",
+          "sha256": "310846291ae45148b103e6dcc150ddcc438b7a2f4f4cbc259fd9e743d634f439"
+        },
+        {
+          "path": "projects/site/tests/storage-copy.test.mjs",
+          "sha256": "5150a7ce12bbdfa4e9f23520f86e41d0add6ee8e608203df1aa59bc845312b88"
+        },
+        {
+          "path": "projects/site/tests/shared-dhaga-styles.test.mjs",
+          "sha256": "8a5ccaf156240536815c1c66be2ef6242707f44c35b79d0198fe3619aa6b0ec9"
+        },
+        {
+          "path": "projects/site/tools/build-publication.mjs",
+          "sha256": "6433899cd39cf420e19556b5819e33194ef5b69e5c48a66ae3e879eeb3e8c48b"
+        },
+        {
+          "path": "projects/site/tools/export-dhaga.mjs",
+          "sha256": "2a7811faf7defa4127de7a7788ab1b0c8dc766387eada8937f0251a8b3799022"
+        },
+        {
+          "path": "projects/site/tools/storage-copy.mjs",
+          "sha256": "a3d42748f64451ce10f8e59d03e28e942883cff2506df4cb3dfa093c063db4dd"
+        },
+        {
+          "path": "projects/site/tools/shared-dhaga-styles.mjs",
+          "sha256": "adaad4d69cf7ea9538bdb478065ef8e32cc0501819edfc0b973cf0f8678d65cb"
+        },
+        {
+          "path": "kb/research/stories/independent-features/images.json",
+          "sha256": "d135222aed2f427b4ac41e59225d342ee6922d40205f83874e5a7fdfc569c485"
+        },
+        {
+          "path": "kb/research/stories/independent-features/image-catalog.md",
+          "sha256": "5284c392aa12f69c6bfe61ff4a7649c8a86eb828223a27e8e3c5ec8ad5a6f282"
+        },
+        {
+          "path": "kb/research/stories/independent-features/index.md",
+          "sha256": "08d5a177904c0612fe16767f5a1181a4b4064e15a0a39abc98561e9799949f55"
+        },
+        {
+          "path": "kb/catalog.json",
+          "sha256": "7d6f7300dff5d9e16d242869ebeafdd6a3d692d79a0c2a93ed8c1897ef6bff1e"
+        }
+      ],
+      "note": "Superseded by follow-up review of complete Explore credit deduplication and explicit full-image framing; initial PASS did not catch these subsequently identified Explore integration issues."
+    }
+  ]
+}
