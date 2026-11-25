@@ -65,9 +65,18 @@ test('additional PNG delivery scope is an exact measured allowlist',()=>{
   "assets/cinema/lipika-film-letter.png",
   "assets/cinema/pramod-paper-movement.png",
   "assets/nimuhi/user-supplied-memorial.png",
-  "assets/cultural-book/author.png"
+  "assets/cultural-book/author.png",
+  "assets/odissi-abhinaya/abhinaya-reading.png"
 ];
  assert.deepEqual(additionalDeliveryPNGs,expected);
  for(const p of expected){assert.ok(eligiblePNG(p));assert.ok(!eligiblePNG("../"+p));assert.ok(!eligiblePNG(p+".backup"));}
  for(const p of ["assets/cinema/other.png","assets/maniabandha/other.png","assets/nimuhi/other-memorial.png"])assert.ok(!eligiblePNG(p));
+});
+
+test('published abhinaya diagram retains its pixels and metadata with smaller original scanlines',async()=>{
+ const input=await readFile(new URL('../public/assets/odissi-abhinaya/abhinaya-reading.png',import.meta.url));
+ const result=await losslessPNG(input);
+ assert.equal(result.status,'losslessly-recompressed');
+ assert.ok(input.length-result.bytes.length>=15000);
+ assert.ok(result.pixel_sha256 && result.metadata_sha256);
 });
