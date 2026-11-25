@@ -1,0 +1,150 @@
+{
+  "checked_at": "2026-11-25T21:32:28.158567+00:00",
+  "candidate_before_main_reconciliation": "21e3c59132a9f46e6c3c9de2dae992fc7f9a6a9d",
+  "final_image_integration": {
+    "coastal_tests": {
+      "passed": 605,
+      "failed": 0
+    },
+    "full_tests": {
+      "passed": 842,
+      "failed": 0
+    },
+    "disclosure_gate": {
+      "pages": 1531,
+      "violations": []
+    }
+  },
+  "browser": {
+    "surface": "Local rendered coastal site",
+    "collection": {
+      "figures": 27,
+      "visible_caption_elements": 27,
+      "desktop_horizontal_overflow": false,
+      "mobile_390x844_horizontal_overflow": false
+    },
+    "article_examples": [
+      "Motu schematic mobile: loaded480px image, nooverflow, visible qualifiedcaption andcredit",
+      "Bande Utkala Janani portrait desktop: restrainedwidth withnaturalaspect"
+    ],
+    "explore": {
+      "example": "Jalaput",
+      "computed_object_fit": "contain",
+      "image_loaded": true,
+      "embedded_credit_visible": true,
+      "complete_credit_rows_read": [
+        "Jalaput Reservoir, India (52233761286).png",
+        "Similipal (2).jpg"
+      ]
+    },
+    "packaged_dhaga_style_check": {
+      "page": "/dhaga/sayings/pod-dhaga-001.html",
+      "before": "local dist-coast on4180",
+      "after": "local dist-publish on4190",
+      "visible_screenshots": "Same appearance observed before andafter shared CSS extraction",
+      "sample_elements": 6,
+      "computed_fonts_colors_widths_heights": "exactmatch",
+      "scope": "One desktop rendered sample complements all550-page byte-restoration proof."
+    }
+  },
+  "reconciliation": {
+    "incoming_main": "931b8e6a",
+    "combined_head": "8faba0b0cd54ef132e5f4c1ed255f59ea5bfdfd5",
+    "reason": "Olasuni publication merged concurrently; combined local coastal tests, package and disclosure gates now passed.",
+    "previous_audit_limit": "Audit-discovery started before reconciliation then encountered new Olasuni source route absent from premerge localoutput; not a finalcombinedvalidation result."
+  },
+  "live_publication": "pending",
+  "combined_coastal_tests": {
+    "passed": 605,
+    "failed": 0
+  },
+  "combined_head": "cd29868bd99b7500dd9053d834324905fe088954",
+  "combined_publication_payload": {
+    "status": "PASS",
+    "regular_file_bytes": 999174364,
+    "regular_files": 3776,
+    "directories": 876,
+    "exclusive_byte_limit": 1000000000,
+    "symbolic_links": 0,
+    "hard_linked_files": 0,
+    "special_files": 0,
+    "index_html_bytes": 88339,
+    "largest_files": [
+      {
+        "path": "archive/odia-dhaga-550-1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373.pdf",
+        "bytes": 190011210
+      },
+      {
+        "path": "archive/odia-cinema-a-living-screen-print-2026-11-10-literary.pdf",
+        "bytes": 51351553
+      },
+      {
+        "path": "archive/odia-cinema-a-living-screen-2026-11-10-literary.pdf",
+        "bytes": 38421623
+      },
+      {
+        "path": "characters/downloads/gudul-gudli-three-stories-v1.pdf",
+        "bytes": 24088311
+      },
+      {
+        "path": "archive/dongria-kondh-public-reading.pdf",
+        "bytes": 17689084
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-three-little-stories-v1.pdf",
+        "bytes": 13322690
+      },
+      {
+        "path": "archive/mirgan-kotpad-reading.pdf",
+        "bytes": 7410047
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-adventure-book-v2.pdf",
+        "bytes": 5506729
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-merchandise-proof-v1.pdf",
+        "bytes": 5176380
+      },
+      {
+        "path": "characters/downloads/nilu-chaiti-room-for-one-more-proof-v1.pdf",
+        "bytes": 3891461
+      }
+    ],
+    "scope": "Stat-only directory acceptance, not archive digest or deployment success"
+  },
+  "combined_disclosure": {
+    "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/revised-articles-27-20261125/projects/site/dist-publish",
+    "pages": 1533,
+    "violations": []
+  },
+  "combined_audits": {
+    "page_acceptance": "5620 / 5620 passed",
+    "discovery": "passed",
+    "launch_readiness": "All candidate/default indexing comparisons,11sitemapURLs,14contrastpairs passed"
+  },
+  "packaged_media_verification": "outputs/independent-article-images-20261126/review/packaged-image-verification.json",
+  "required_ci": {
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45705527242",
+    "head": "cd29868bd99b7500dd9053d834324905fe088954",
+    "result": "success",
+    "full_tests": 842,
+    "coastal_tests": 605,
+    "payload_bytes": 999175286
+  },
+  "publication_pr": {
+    "url": "https://github.com/ahimanikya/project-odisha/pull/879",
+    "merge": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "merged_at": "2026-11-25T22:01:01Z"
+  },
+  "publication_run": {
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45709638155",
+    "head": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "status": "queued_behind_existing_approved_release"
+  },
+  "live_helper_review": {
+    "first_check": "live-helper-local-check.json retained: comparison initially missed the additional preserved NIAM archive link in Sakhigopal footnote1.",
+    "resolved_check": "live-helper-local-check-v2.json passes with all109 footnote entries and110 external footnote links compared to canonical text.",
+    "packaged_check": "packaged-image-verification.json passes on actual local publication output."
+  }
+}
