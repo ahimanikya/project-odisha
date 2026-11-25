@@ -1,0 +1,103 @@
+{
+  "article_id": "POD-EDIT-KULA-20261126",
+  "route": "/stories/kula-and-the-work-of-winnowing/",
+  "owner": "Disha",
+  "status": "local_candidate_reviewed",
+  "scope_released": false,
+  "started_on": "2026-11-26",
+  "authorization": "POD-DEC-20261126302",
+  "work_id": "POD-WORK-20261126302",
+  "authorization_quote": "Has Olasuni\u2019s final review record merged and the slot returned now? If so, publish Kula with the credited photograph, relevant article links, and mobile and desktop layout checks.",
+  "input_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+  "prior_receipt": "records/olasuni-publication-20261126.json",
+  "preparation": "records/antaranga-after-barunei-preparation-20261126.json",
+  "programme_credit": 0,
+  "publication_authorized": true,
+  "assignments": {
+    "Anvesha": {
+      "scope": "Read-only existing source/media review; outputs/kula-publication-20261126/research/ only",
+      "status": "source_review_pass",
+      "scope_released": true
+    },
+    "Samanta": {
+      "scope": "New Kula page, three incoming article links, image public delivery, edition manifests and narrowly required build/export registrations; outputs/kula-publication-20261126/implementation.json; no canonical manuscript, shared records or optimizer changes",
+      "status": "integration_frozen",
+      "scope_released": true
+    },
+    "Drishti": {
+      "scope": "Separate quality review; outputs/kula-publication-20261126/review/ only",
+      "status": "final_local_package_pass"
+    }
+  },
+  "capacity": {
+    "prior_combined_bytes": 999202073,
+    "prior_remaining_bytes": 797927,
+    "status": "Actual local package passes; hosted Linux capacity remains required",
+    "projected_new_media_bytes": 613520,
+    "actual_local_bytes": 999005517,
+    "actual_local_files": 3782,
+    "actual_local_remaining_bytes": 994483
+  },
+  "next_action": "Reconcile incoming PR881/882, review combined candidate and run required hosted checks before authorized publication.",
+  "foreign_ownership": {
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-133",
+      "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+      "scope_released": false
+    },
+    "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json"
+  },
+  "publication_manuscript": "research/culture/kula-and-the-work-of-winnowing-publication.md",
+  "preparation_preservation": "Original draft, reading copy, sources and media remain byte-exact. Publication sibling compacts image note without losing required credit, licence, alteration and identity limits.",
+  "source_review": "outputs/kula-publication-20261126/research/final-source-audit.json",
+  "implementation": "outputs/kula-publication-20261126/implementation.json",
+  "media": "research/culture/kula-image.json",
+  "protected_preparation": {
+    "manifest": "outputs/kula-publication-20261126/protected-preparation.json",
+    "count": 88,
+    "checked_exact": true
+  },
+  "web_guidance": "outputs/kula-publication-20261126/guidance-applied.md",
+  "local_review": {
+    "root_browser": "outputs/kula-publication-20261126/root-ui-review.json",
+    "separate_static": "outputs/kula-publication-20261126/review/code-review.json",
+    "separate_rendered": "outputs/kula-publication-20261126/review/rendered-review.json",
+    "screenshots": 17,
+    "limits": "Desktop full-page capture has a blank hero region; three early captures miss target framing. Final settled viewport and all six incoming card views provide acceptance. Hosted/live checks remain."
+  },
+  "failure_history": [
+    {
+      "stage": "first local full build",
+      "observed": "Shared Vite cache unlink denied by filesystem boundary; unchanged authorized rerun passed. No source change.",
+      "log": "outputs/kula-publication-20261126/full-build-permission-failure.log",
+      "results": "outputs/kula-publication-20261126/build-results-permission-failure.json"
+    },
+    {
+      "stage": "local artifact verifier",
+      "observed": "Leading newline made a Markdown heading block count as a paragraph. Trim-before-classification corrected the verifier; all exact paragraph comparisons passed. No public-source change.",
+      "evidence": "outputs/kula-publication-20261126/verifier-correction.json"
+    }
+  ],
+  "queued_after_release": {
+    "topic": "Godabarish Mahapatra and Niankhunta",
+    "scope": "User-authorized independent preparation only, after Kula delivery receipt; then explicit hill-chat return.",
+    "started": false
+  },
+  "local_validation": {
+    "full_tests": 843,
+    "coastal_tests": 605,
+    "page_checks": 5628,
+    "artifact_checks": 213,
+    "bytes": 999005517,
+    "files": 3782,
+    "build_evidence": "outputs/kula-publication-20261126/build-results.json",
+    "artifact_evidence": "outputs/kula-publication-20261126/local-verification.json",
+    "root_browser": "outputs/kula-publication-20261126/root-ui-review.json",
+    "live_claim": false,
+    "separate_review": "outputs/kula-publication-20261126/review/final-package-review.json",
+    "scope": "Kula candidate based on Olasuni receipt417fcfdee, before incoming AgiraPR881/image-receiptPR882"
+  }
+}

@@ -1,0 +1,5 @@
+Publish Kula and the Work of Winnowing, using the independently reviewed manuscript and Debiprasad Sahoo’s credited CC BY-SA 3.0 photograph. Add illustrated, credited links from Dhinki, Binchana and Listening to Craft, with native source notes and full-frame responsive images.
+
+The article distinguishes a winnower from a sieve, explains the cleaning principle, and identifies the limits of the dated Malkangiri account and photograph. Original preparation files and media remain unchanged; this change adds no optimizer paths.
+
+Validation: 843 full-site tests, 605 coastal tests and 5,628 page checks pass. Root desktop/mobile interactions and separate source, media, static and rendered reviews pass, with screenshot framing limits retained. All 13 local stages and 213 focused artifact checks pass. Actual local payload: 999,005,517 bytes across 3,782 files; hosted Linux capacity remains mandatory. The verifier’s heading-classification correction and initial shared-cache permission failure are preserved; neither changed public source.
