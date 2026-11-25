@@ -1,0 +1,65 @@
+{
+  "result": "pass",
+  "scope": "Bounded q90 capacity proposal only; not article or publication approval.",
+  "reviewer": "Drishti, separate AI review",
+  "baseline": "b62e8d6c98bcf7d42df30926e98867502a21d7b1",
+  "path": "assets/bhubaneswar-week/conversations.jpg",
+  "selected_quality": 90,
+  "maximum_dimension": 3072,
+  "source": {
+    "bytes": 4296333,
+    "sha256": "4f7a569ad73f87f31291c606008133e64521cf19fe21d65fa8a96c7dcbe32780",
+    "dimensions": [
+      3213,
+      5712
+    ]
+  },
+  "current_delivery": {
+    "bytes": 1682404,
+    "sha256": "b83bb3c340449eebfa5c35ba16a4441c143df185239659cbb9d786c7b0b947ed"
+  },
+  "candidate": {
+    "bytes": 1150046,
+    "sha256": "8acf94aeca470d945afb8a857d67fa4c7fbda5aa4e6713dcea03da14f1715981",
+    "dimensions": [
+      1728,
+      3072
+    ],
+    "saving_bytes": 532358
+  },
+  "independent_checks": [
+    "Read existing optimizer, actual-source regression, photo authorization record and article wrapper.",
+    "Decoded original, current local delivery, q90 and q88; reproduced all three encodings byte-exact in memory with Sharp.",
+    "Public, full and coastal originals have the same source hash.",
+    "Original, second photograph, sharing illustration, wrapper and optimizer match the input commit.",
+    "Independently inspected the q90 full-frame and detail triptychs and actual q90 JPEG. Full frame, facial features, clothing texture and background ornament remain clear; no conspicuous display-quality degradation observed. No identity inference."
+  ],
+  "metadata": {
+    "icc": "536 bytes, exact source/current/q90 equality",
+    "xmp": "2610 bytes, exact source/current/q90 equality",
+    "iptc": "Absent in source and outputs",
+    "exif": "Source 3080 bytes; current and q90 3052 bytes, exact to each other but not source. Parsed source-to-q90 changes: ExifImageWidth 5712 to 1728, ExifImageHeight 4284 to 3072, HostComputer omitted. Source tags do not match decoded source geometry; no correction to the original is proposed. This is not an all-metadata identity claim.",
+    "orientation": 1,
+    "density": 72
+  },
+  "rights": "Existing author-supplied publication authorization and credit remain applicable; no new public license is asserted.",
+  "preservation_required": [
+    "Keep the original and full/coastal original bytes.",
+    "Change only the named conversations JPEG quality to 90; retain the ten-path allowlist and other settings.",
+    "Retain second-photo processing, caption and source; preserve the separate poem-conversations-v1.png sharing image and its dimensions.",
+    "Keep the existing full-frame modification disclosure and meaningful regression guards."
+  ],
+  "capacity": {
+    "baseline_linux_bytes": 999995588,
+    "baseline_headroom_bytes": 4412,
+    "projected_headroom_before_new_article_media": 536770,
+    "qualification": "Actual new base image, responsive variants and HTML must fit; local and hosted Linux payload gates remain mandatory. The saving is measured against local current delivery, not a claim of exact hosted bytes."
+  },
+  "limits": [
+    "No implementation changes or tests run in this review.",
+    "q88 was independently measured and reproduced but not visually accepted or selected.",
+    "No final article, layout, package, CI or live approval.",
+    "No copies made; the storage-sharing instruction was read."
+  ],
+  "blockers": []
+}

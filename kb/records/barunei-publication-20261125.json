@@ -1,0 +1,143 @@
+{
+  "status": "reviewed_publication_candidate",
+  "article_id": "POD-EDIT-BARUNEI-20261125",
+  "route": "/destinations/barunei/",
+  "owner": "Disha",
+  "started_on": "2026-11-25",
+  "authorization": "POD-DEC-2026112593",
+  "authorization_quote": "Has Nilagiri’s release finished and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+  "work_id": "POD-WORK-2026112593",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "b62e8d6c98bcf7d42df30926e98867502a21d7b1",
+  "prior_release": {
+    "record": "records/nilagiri-publication-20261125.json",
+    "pr": 870,
+    "merge": "b62e8d6c98bcf7d42df30926e98867502a21d7b1",
+    "required_ci": 45608249792,
+    "conclusion": "success",
+    "explicit_handoff_received": true
+  },
+  "reuse_before_research": {
+    "query": "query_research.py Barunei and corpus Barunei/Barunai search",
+    "finding": "No dedicated Barunei narrative found in bounded research/site search. Not an exhaustive semantic audit.",
+    "pointers": [
+      "research/methods/research-map.md",
+      "research/methods/trip-planning-content.md",
+      "research/references/data/research-queue.json:RES-013",
+      "research/references/data/research-queue.json:RES-023"
+    ]
+  },
+  "assignments": {
+    "Disha": "Coordinator/media/shared records/publication",
+    "Anvesha": "Bounded source research",
+    "Samanta": "Bounded capacity assessment then article integration",
+    "Drishti": "Separate source/media/quality/delivery review"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "outputs/barunei-publication-2026-11-25/research/"
+    ],
+    "Samanta": [
+      "outputs/barunei-publication-2026-11-25/capacity/",
+      "kb/research/places/barunei-article.md",
+      "projects/site/src/pages/destinations/barunei.astro",
+      "projects/site/src/data/hill-destinations.ts",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/edition.test.mjs",
+      "projects/site/tests-coast/discovery-flow.test.mjs",
+      "outputs/barunei-publication-2026-11-25/review/implementation.md",
+      "projects/site/tools/optimize-publication-jpeg.mjs",
+      "projects/site/tests/publication-jpeg.test.mjs"
+    ],
+    "Drishti": [
+      "outputs/barunei-publication-2026-11-25/review/"
+    ],
+    "Disha": [
+      "shared records",
+      "media",
+      "verification",
+      "Git/publication"
+    ]
+  },
+  "foreign_ownership": {
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-133",
+      "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+      "scope_released": false
+    },
+    "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json"
+  },
+  "capacity": {
+    "baseline_receipt_ci": 45608249792,
+    "payload_bytes": 999995588,
+    "files": 3688,
+    "remaining_bytes": 4412,
+    "status": "New article image capacity requires separately reviewed bounded measurement.",
+    "proposal": "outputs/barunei-publication-2026-11-25/capacity/proposal.json",
+    "root_visual_acceptance": "Personally viewed q90 full-frame and detail triptychs. Composition and visible detail acceptable at displayed scale; no pixel-equivalence claim. Separate review and final payload required.",
+    "review": "outputs/barunei-publication-2026-11-25/review/capacity-review.json",
+    "selected": "assets/bhubaneswar-week/conversations.jpg",
+    "selected_quality": 90,
+    "measured_local_saving_bytes": 532358,
+    "implementation_authorized": "Only named existing image quality90 override, with original/frame/metadata/credit preserved as reviewed; actual package gate still required."
+  },
+  "next_action": "Finish independent package and candidate review, run hosted checks, then merge and publish exact reviewed head.",
+  "media": "research/places/barunei-image.json",
+  "web_guidance": {
+    "evidence": "outputs/barunei-publication-2026-11-25/web-guidance.md",
+    "guides": [
+      "html",
+      "responsive-design",
+      "card"
+    ],
+    "retrieval": "Actual latest search and retrieve completed25November2026; stale installed-skill warning retained as observed, no automatic skill replacement.",
+    "scope": "Existing static article/card patterns, intrinsic dimensions, native links, eager hero and responsive variants; no unrelated component redesign."
+  },
+  "source_research": "outputs/barunei-publication-2026-11-25/research/findings.md",
+  "media_review": "outputs/barunei-publication-2026-11-25/review/media-review.json",
+  "storage_copy": {
+    "successful_clones": 3,
+    "full_copies": 0,
+    "source_pdf_clone_failure": "Clone-aware helper from /private/tmp/barunei-barik-2006.pdf failed Operation not permitted; original114620-byte PDF and actual rendered page remain intact in temporary locations with hashes in source-manifest. No full-copy fallback or historical rewrite.",
+    "additional_clone": "Prior run-checks helper cloned as a new working file, then adapted; no historical evidence changed."
+  },
+  "source_review": "outputs/barunei-publication-2026-11-25/research/integrated-source-review.json",
+  "integrated_review": "outputs/barunei-publication-2026-11-25/review/integrated-review.json",
+  "helper_continuity": "Final verifier must check identical input hashes across all13 stages. Run-checks was strengthened during the already-running unchanged-source build for future resumes and per-stage Dhaga checks; current run loaded original helper and does not claim those new checks executed per stage. Exact delivered PDF checks required at final acceptance.",
+  "rendered_review": "outputs/barunei-publication-2026-11-25/review/rendered-review.json",
+  "local_browser": "outputs/barunei-publication-2026-11-25/browser/local-review.json",
+  "candidate_gate": {
+    "status": "local_pass_hosted_pending",
+    "completed": [
+      "Separate source/media/capacity/static review",
+      "Root and separate coastal desktop/mobile article and preview review",
+      "832 full tests",
+      "599 coastal tests",
+      "5496 page acceptance checks",
+      "All13 localbuild/test/audit stages",
+      "20026 artifact checks",
+      "Final publication q90base and responsivefigure visualreview",
+      "Independent final package/rendered review PASS"
+    ],
+    "pending": [
+      "Exact committed candidate continuity review",
+      "Required hosted CI and actual Linux capacity",
+      "Deployment/live review",
+      "Reviewed receipt merge"
+    ]
+  },
+  "local_artifact_verification": "outputs/barunei-publication-2026-11-25/local-verification.json",
+  "build_results": "outputs/barunei-publication-2026-11-25/build-results.json",
+  "local_payload": {
+    "bytes": 999077179,
+    "files": 3693,
+    "remaining_bytes": 922821,
+    "hosted_measurement": false
+  },
+  "final_local_review": "outputs/barunei-publication-2026-11-25/review/final-package-review.json"
+}

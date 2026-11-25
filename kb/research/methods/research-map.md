@@ -1604,3 +1604,8 @@ Reuse the [draft](../culture/nilagiri-stone-utensils.md), [source dossier](../cu
 ### Gonasika destination extension · 25 November 2026
 
 Added one destination narrative after a scoped map and corpus search. District sacred accounts remain distinct from Water Resources river geography; existing Juang research retains its own scope. The credited Guptaganga photograph does not date the separate Brahmeswar shrine. Inventory:1875 records. Publication PR864 and deployment45563244558 passed actual delivery review; the evidence-only receipt must merge before explicit Nilagiri handoff. Zero programme credit.
+
+
+### Barunei destination extension · 25 November 2026
+
+Added one original destination narrative after scoped query and corpus checks. A 2006 historical essay, dated presidential commemorations and district tourism guidance retain distinct evidentiary roles. The licensed 2009 photograph shows a view from the hill; no current trail or shrine-access claim is inferred. Inventory: 1876 records. Publication and live verification remain pending; zero programme credit.
