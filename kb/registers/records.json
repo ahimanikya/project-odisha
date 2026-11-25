@@ -10745,16 +10745,17 @@
       "id": "POD-WORK-2026112591",
       "title": "Research, review and publish Malayagiri",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112591",
-      "next_action": "Required exact-candidate hosted checks, publication, live review and actual delivery receipt.",
+      "next_action": "Integrate reviewed evidence-only receipt with required CI before releasing the article slot.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112591",
-        "POD-REV-2026112591"
+        "POD-REV-2026112591",
+        "POD-REL-2026112591"
       ],
       "evidence": [
         "records/malayagiri-publication-20261125.json"
@@ -26075,7 +26076,7 @@
     },
     {
       "id": "POD-REV-2026112591",
-      "title": "Malayagiri separate source, media, code, rendered and final package review",
+      "title": "Malayagiri separate source, media, rendered, package and live delivery review",
       "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
@@ -26088,13 +26089,13 @@
       "evidence": [
         "records/malayagiri-publication-20261125.json"
       ],
-      "summary": "Separate source/media/code/capacity/rendered/final-package reviews PASS. 829 full tests,599 coast tests,5472 page checks and10745 artifact checks passed. Local999115274 bytes/3675files. Original media,38protected preparation files and foreign ownership preserved. Exact commit, hosted Linux capacity, deployment/live and receipt remain.",
+      "summary": "Separate source/media/code/capacity, desktop/mobile, final package and fresh live delivery reviews passed. Five live routes,16images and14root captures independently reviewed. Three existing image differences independently measured and visually accepted; exact original sources and38protected files preserved.",
       "independent": true,
       "limitations": [
         "No fieldwork or human specialist review.",
         "District original-publisher text retrieved through search index after direct access failed; original research paper read through author-deposited text, not visually inspected PDF.",
         "Photo identity/date creator-supplied; no current access claim.",
-        "Actual local package validated; hosted Linux CI/deployment capacity and live review remain separate gates."
+        "Three existing delivery images differ in bytes/pixels, independently measured/viewed; no cause or pixel identity inferred. Screenshot framing limits retained."
       ]
     }
   ],
@@ -30552,6 +30553,21 @@
       ],
       "evidence": [
         "records/jhoti-publication-20261125.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112591",
+      "title": "Malayagiri: Hills, Forest and Khuludi’s Waterfall",
+      "status": "published",
+      "authorization": "POD-DEC-2026112591",
+      "destination": "https://projectodisha.org/destinations/malayagiri/",
+      "refs": [
+        "POD-WORK-2026112591",
+        "POD-DEC-2026112591",
+        "POD-REV-2026112591"
+      ],
+      "evidence": [
+        "records/malayagiri-publication-20261125.json"
       ]
     }
   ],

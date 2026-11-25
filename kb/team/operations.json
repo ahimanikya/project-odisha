@@ -58,9 +58,10 @@
     "id": "POD-EDIT-MALAYAGIRI-20261125",
     "route": "/destinations/malayagiri/",
     "owner": "Disha",
-    "phase": "ready_for_hosted_validation",
+    "phase": "receipt_integrated",
     "handoff": "records/malayagiri-publication-20261125.json",
-    "scope_released": false
+    "scope_released": true,
+    "release_condition": "Only after reviewed evidence-only receipt merges with required CI."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -853,8 +854,8 @@
     }
   ],
   "next_article_coordination": {
-    "status": "malayagiri_active_after_jhoti_return",
+    "status": "malayagiri_receipt_pending",
     "evidence": "records/malayagiri-publication-20261125.json",
-    "scope": "One next uncovered hill article, authorized by Founder. No later article claimed."
+    "scope": "No next article claimed. The current slot releases only after reviewed receipt merge."
   }
 }

@@ -1,0 +1,330 @@
+{
+  "reviewer": "Drishti",
+  "date": "2026-11-25",
+  "result": "pass",
+  "scope": "Independent actual publication and live delivery review, with separate fresh GitHub/HTTP/image measurements and independent inspection of14root live screenshots. This pass does not itself merge the evidence-only receipt or release the single-article slot.",
+  "human_review_claimed": false,
+  "publication": {
+    "pull_request": 857,
+    "url": "https://github.com/ahimanikya/project-odisha/pull/857",
+    "reviewed_head": "b5748090629d226c658d7beec317c32d368332f1",
+    "merge": "d8a7fe5382ad287cb8294d971bc485cca92f0950",
+    "merge_tree": "255a6c5de7e2de60d98da04f6b35f6ba85e369b8",
+    "tree_identical_to_reviewed_candidate": true,
+    "merged_at": "2026-11-24T23:43:31Z",
+    "required_ci": {
+      "run_id": 45508007471,
+      "attempt": 1,
+      "conclusion": "success",
+      "head": "b5748090629d226c658d7beec317c32d368332f1",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45508007471"
+    },
+    "deployment": {
+      "run_id": 45512451748,
+      "attempt": 1,
+      "conclusion": "success",
+      "head": "d8a7fe5382ad287cb8294d971bc485cca92f0950",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45512451748"
+    },
+    "evidence_method": "Fresh GitHub API reads and independently refetched complete hosted logs. Both logs exactly match retained decompressed raw logs; actual payload lines independently parsed.",
+    "linux_payload_bytes": 999907903,
+    "files": 3675,
+    "remaining_bytes": 92097
+  },
+  "fresh_http": {
+    "evidence": "outputs/malayagiri-publication-2026-11-25/review/live-independent/http-verification.json",
+    "raw_status": "REVIEW_DIFFERENCES",
+    "routes": [
+      {
+        "route": "/destinations/malayagiri/",
+        "file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/destinations/malayagiri/index.html",
+        "sha256": "6366476a936d48839cd15958f16048df003e46c7a45e202c0466da10d7856077",
+        "status": 200
+      },
+      {
+        "route": "/destinations/hills/",
+        "file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/destinations/hills/index.html",
+        "sha256": "38dff1646ef53af13f438fe3c0859ab9ffa10f5e73d5d49a86e8be1a4e01ff7d",
+        "status": 200
+      },
+      {
+        "route": "/destinations/",
+        "file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/destinations/index.html",
+        "sha256": "13e6ea9e667922cfed456ef2c956b0d62db78fafd536d340b21de13a3d539552",
+        "status": 200
+      },
+      {
+        "route": "/explore/",
+        "file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/explore/index.html",
+        "sha256": "394b176150187a7f79f8a03ba68d955fc478e2fa7b4991b67fc11cf02538e7a0",
+        "status": 200
+      },
+      {
+        "route": "/stories/sahi-jatra/",
+        "file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/stories/sahi-jatra/index.html",
+        "sha256": "e326d69e90d6403fd8f29e4ce630fb81fec89ef273ad80760dda9d9fc9687b5c",
+        "status": 200
+      }
+    ],
+    "all_five_http200": true,
+    "method": "Fresh independent curl responses; reused reviewed helper logic with separate evidence directory, no root HTTP evidence reused.",
+    "images_fetched": 16,
+    "new_article_fragment": {
+      "live_sha256": "47950c282923325895df4523912eca7bad8fbbffcfd893453080d0104bf69bb1",
+      "local_sha256": "47680db38863307873f82b04b9cccf464717a7ba0b672567cddfe34cee64e78b",
+      "substitutions": {
+        "/images/responsive/3867fe434648ddd8-480.webp": "/images/responsive/e0e6b1a38b4692ec-480.webp"
+      },
+      "normalized_match": true
+    },
+    "sahi_fragment": {
+      "live_sha256": "5809484c94ca921add720aad984d044f4dd5a772d830a669d9c9eea3139e5630",
+      "local_sha256": "5809484c94ca921add720aad984d044f4dd5a772d830a669d9c9eea3139e5630",
+      "substitutions": {},
+      "normalized_match": true
+    },
+    "checks": "Reviewed source text, historical caption, native five references/three notes/five return links, linked credits, expanded readings, OG/Twitter, search hold, actual preview image/alt/text/credits and all actual src/srcset URLs preserved. Malayagiri exact except one observed existing Saptasajya480content-address URL; Sahi fragment byte exact.",
+    "normalization_limit": "Only actual corresponding srcset URLs substituted, never arbitrary prose or metadata. All16actual referenced image files fetched and decoded; responsive filename prefixes verified."
+  },
+  "images": {
+    "comparison_evidence": "outputs/malayagiri-publication-2026-11-25/review/live-independent/decoded-comparison.json",
+    "visual_evidence": "outputs/malayagiri-publication-2026-11-25/review/live-independent/image-visual-review.json",
+    "byte_exact": 13,
+    "measured_differences": [
+      {
+        "url": "/images/responsive/e0e6b1a38b4692ec-480.webp",
+        "local_url": "/images/responsive/3867fe434648ddd8-480.webp",
+        "live_file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/images/5.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/3867fe434648ddd8-480.webp",
+        "live_sha256": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+        "local_sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+        "live_bytes": 24384,
+        "local_bytes": 24408,
+        "stored_dimensions": [
+          480,
+          360
+        ],
+        "orientation": 1,
+        "display_dimensions": [
+          480,
+          360
+        ],
+        "byte_equal": false,
+        "decoded": {
+          "channels": 3,
+          "changed_channels": 281081,
+          "total_channels": 518400,
+          "max_absolute_channel_delta": 27,
+          "mean_absolute_channel_delta": 1.44390625,
+          "rms": 2.61088319040715
+        }
+      },
+      {
+        "url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "local_url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "live_file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/images/14.jpg",
+        "local_file": "projects/site/dist-publish/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "live_sha256": "1f5de7dec00f1910ace8b42d4979b9b14cb3bdfeb91933a312c65fc9924149ee",
+        "local_sha256": "07542ff440a55a4b9966c55740e0ab4093dc684fff70504952c829de2ac1fa15",
+        "live_bytes": 1804677,
+        "local_bytes": 1804657,
+        "stored_dimensions": [
+          1517,
+          2048
+        ],
+        "orientation": 1,
+        "display_dimensions": [
+          1517,
+          2048
+        ],
+        "byte_equal": false,
+        "decoded": {
+          "channels": 3,
+          "changed_channels": 1490701,
+          "total_channels": 9320448,
+          "max_absolute_channel_delta": 15,
+          "mean_absolute_channel_delta": 0.21246854228466272,
+          "rms": 0.5903570482875219
+        }
+      },
+      {
+        "url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "local_url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "live_file": "outputs/malayagiri-publication-2026-11-25/review/live-independent/live/images/15.jpg",
+        "local_file": "projects/site/dist-publish/assets/ashta-nayika/abhisarika-met.jpg",
+        "live_sha256": "c015694c9c63580d35f7f77ef19218156fd162db165b5d36547481fd7ec1a160",
+        "local_sha256": "cbf7a0cbc5887e219af9ed9e8bae332e1939b23b74d93bb892e6d29cc83c7040",
+        "live_bytes": 1253838,
+        "local_bytes": 1253839,
+        "stored_dimensions": [
+          1488,
+          2048
+        ],
+        "orientation": 1,
+        "display_dimensions": [
+          1488,
+          2048
+        ],
+        "byte_equal": false,
+        "decoded": {
+          "channels": 3,
+          "changed_channels": 166,
+          "total_channels": 9142272,
+          "max_absolute_channel_delta": 2,
+          "mean_absolute_channel_delta": 2.0126288082437276e-05,
+          "rms": 0.004905511196457135
+        }
+      }
+    ],
+    "visual_verdict": "All three actual local/live pairs separately opened. Same complete hill scene/artwork frames, preserved visible detail and no conspicuous degradation at reviewed display; accepted with raw measurable differences, not pixel identity or an encoding-cause inference.",
+    "new_khuludi": "Original source retained6000x4000/3833242B. Public1280x853WebP and480x320,960x640,1280x853variants are byte-exact reviewed files,302034+47356+160286+294328=804004B. Caption and source/creator/licence/modification maintained.",
+    "sahi": "Live1726913B candidate c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12 byte-exact local; stored2400x1590orientation8 displays1590x2400 with matching OG. Full source remains byte-exact; existing EXIF/MakerNote qualifications remain, no archival-equivalence claim.",
+    "raw_difference_preservation": "Root and independent HTTP/comparison evidence retain REVIEW_DIFFERENCES and original measurements; this separate visual acceptance does not overwrite them."
+  },
+  "live_visual_review": {
+    "root_manifest": "outputs/malayagiri-publication-2026-11-25/browser/live-browser-review.json",
+    "root_manifest_sha256": "3fb67498b45c738bc178183459e031e566d9d409bfecb1a3d2818a373991af49",
+    "screenshots": [
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-article-desktop-body.jpg",
+        "sha256": "0ec96f228d3c9542298013e4696c1a73faa8dfbbb44c4c736c99a23f3bff1700",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Complete historical photo caption, linked creator/licence/modification and readable body/reference markers."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-article-desktop-notes.jpg",
+        "sha256": "f827e0a9529e8646b376928fb5c3ca37043f00b45ba21e6bff0c5df9a3c3f93a",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "All three source notes/five return markers visible; source heading above viewport. Expanded readings and update notice visible."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-article-desktop-top.jpg",
+        "sha256": "179399e00f7e409562d4e7c5fa5ddcb0a12c8e86417a6e0abea53ef84c00b816",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Clear title/byline and complete full-frame waterfall; caption extends below viewport, completed in body view."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-article-mobile-notes.jpg",
+        "sha256": "e79eb9e1d758333354df2a64e1ff8f82c01521ec1b9fbf1574df3cc37cecc605",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "All three notes and five returns readable; heading above viewport, followed by reading cards."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-article-mobile-top.jpg",
+        "sha256": "e5b4825e9d259c31f37077e24353d38f53eec2949471f03d0ef3b9a0e7d08560",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Complete hero and caption/credits in390px column; readable title/byline and no visible sideways clipping."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-destinations-desktop-card.jpg",
+        "sha256": "8d2a4f34054b149624919c6bb4e20846824eeb9ddd7ed2914fd3bd7f97facafd",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Full Malayagiri preview image/title/summary readable."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-destinations-mobile-card.jpg",
+        "sha256": "2ccb2defcc108689198f933210839359580aaae5f14abdbc8a8f054fd0b785fc",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Intermediate misframed view shows following Balasore card; excluded as Malayagiri full-card proof."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-destinations-mobile-complete.jpg",
+        "sha256": "d66a588a3de0fbb77bd32101963d945ebd71f7701c534e7f9bcdf018bf083d8a",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Final complete Malayagiri image/title/summary within mobile column."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-explore-desktop-card.jpg",
+        "sha256": "855d1a56222f84cb5d50026abb219e69971f589c1d3cad8c2ce5f20b070ef6a6",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Complete image, title, regional label, summary and entry link readable."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-explore-mobile-card.jpg",
+        "sha256": "811ea97e84e5794f98466dfa309cb1bb707036cc41776b78de8f41ea48af91e5",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Complete image/title/summary/read link visible on mobile."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-hills-desktop-card.jpg",
+        "sha256": "d0c4d4830d10acf740ee176ff1dd677c2fc55dff7980561828d87f83e64d2560",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Full Malayagiri card and closed image-credit disclosure visible; no screenshot claim of expanded attribution."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-hills-mobile-card.jpg",
+        "sha256": "326b1537765a802487da0974f355ed99805f6d15aeb2dc5e4e28fc15ba416299",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Photo top outside viewport; visible waterfall/card text clear. Complete equivalent mobile destination/Explore cards supplement it."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-sahi-desktop-fullframe.jpg",
+        "sha256": "6f0fe55411cea4f41eb44686c734e84d9ffcf426831b49d19f16461b1c034db2",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Entire portrait frame and creator/source/licence/resizing caption visible and legible."
+      },
+      {
+        "path": "outputs/malayagiri-publication-2026-11-25/browser/live-sahi-mobile-fullframe.jpg",
+        "sha256": "feb24afa1968d65baffe0f21bb324b7a9e74b422d988fec7f7ba8861775908c6",
+        "independently_opened": true,
+        "hash_verified": true,
+        "finding": "Entire portrait and complete wrapped credit visible; no sideways clipping or distorted geometry."
+      }
+    ],
+    "browser_actions_attributed_to": "Disha/root, not this reviewer",
+    "actions_reviewed_as_root_evidence": [
+      "Actual live article full photograph, byline, caption, creator and linked licence reviewed on desktop/mobile.",
+      "Source1 clicked on desktop/mobile; actual matching note fragment reached; Back to reference1 operated with Enter and actual original fragment returned.",
+      "All three incoming Malayagiri cards clicked and actual article route reached.",
+      "Hills Images & credits expanded; Khuludi/Rajani3737 rendered attribution inspected.",
+      "Actual final Sahi full portrait frame and creator/licence/resizing disclosure reviewed on desktop/mobile; live OG1590x2400 confirmed.",
+      "Article,Destinations and Sahi measured mobile scrollWidth390 equalsviewport390. Temporary viewport reset."
+    ],
+    "verdict": "No blocking visible layout defect. Full-frame credited hero and Sahi portrait, readable prose/source notes and appropriate photographed previews at observed desktop1440x1000/mobile390x844.",
+    "limits": "One intermediate destination-mobile capture excluded from card proof; hill-mobile and desktop-title-caption framing limits retained. Screenshots complement one another and do not establish separate layouts or broad accessibility/browser coverage. Source heading is above viewport in both live note-list captures but present in independently fetched markup. Live mobile hero produces same pixel capture hash as earlier local view; no inference that this establishes an additional distinct layout."
+  },
+  "preservation": {
+    "manuscript_sha256": "138954b7d9cbf7589995927880bf04f10306c32064854aa539f44339b47b8020",
+    "reviewed_static_hash_drift": [],
+    "original_khuludi_sha256": "59299b69cbb71567590a41b38de4276f42a48593c299f68173cd5582f1c9fb17",
+    "original_sahi_sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+    "protected_files": 38,
+    "protected_hash_mismatches": [],
+    "foreign_current_task_and_handoff_home_unchanged": true,
+    "public_source_edits_since_merge": false,
+    "programme_credit": 0
+  },
+  "limitations": [
+    "No human specialist review, field visit, independent photo geolocation or current visitor-access verification.",
+    "District evidence is original-publisher indexed text; scholarly evidence is author-deposited original text, not a visually inspected PDF.",
+    "Three existing delivery images differ in bytes/pixels; exact geometry/metadata comparisons and direct visual acceptance do not identify a cause.",
+    "Root operated browser; Drishti independently inspected actual screenshots and fresh HTTP/media/remote evidence. No screen-reader or multi-engine audit claimed.",
+    "Separate integrated/exact receipt review, required receipt CI and actual receipt merge remain before scope release or next article."
+  ],
+  "blocking_findings": [],
+  "evidence_hashes": {
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/http-verification.json": "74619d6063744df04fc7f4f17b22175dd93a33a69972f747e7076f0998753a1d",
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/decoded-comparison.json": "ba70991a41df6772550f65ba9ac2639c5e076f40799ab70a01cbd7db9a2d2489",
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/image-visual-review.json": "3d4e9b13e9b98cd1610ac80d33e29776f9750fbad2c55067f6cebcc42ca2781b",
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/fresh-payload-log-verification.json": "121eeb54351a1ccd7afd855f97d2a0fe5d7ca9b4194ecf77fd8a1b36f845b2bd",
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/publication-pr.json": "c280d3bddaae2cc0c60705385c6764d8cec33e843cedcbef774dacd5f7667817",
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/required-ci.json": "7a10987beae32f0c3163a79f48191f1c7ec55ef34d1177c510e47e57edfe7218",
+    "outputs/malayagiri-publication-2026-11-25/review/live-independent/deployment.json": "28169e4a7cf6f18856f35221043a582726d44362ebd4dd4c650aed4a4b1b5596",
+    "outputs/malayagiri-publication-2026-11-25/live-verification.json": "6ec6783b61cea4a41c9b40cfd470069a07d6c9270ed60f270e2393739f615f3d",
+    "outputs/malayagiri-publication-2026-11-25/live-image-comparison.json": "96b7f86c35d0aa71b058c3212e875177b23c47c5bf0929b2a50b6ad14fe3b1ee",
+    "outputs/malayagiri-publication-2026-11-25/review/root-live-image-review.json": "438eae122d287963add43c910f2c494b519b91dcba7dd470dfbbcb772f3bd7b1"
+  }
+}

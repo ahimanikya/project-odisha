@@ -1,0 +1,149 @@
+{
+  "status": "PASS_WITH_MEASURED_DIFFERENCES",
+  "method": "Root independently decoded all16actual live files with compare-live-images.mjs and visually opened each of three differing live/local pairs using view_image.",
+  "images": 16,
+  "byte_exact": 13,
+  "differences": [
+    {
+      "url": "/images/responsive/e0e6b1a38b4692ec-480.webp",
+      "local_url": "/images/responsive/3867fe434648ddd8-480.webp",
+      "saved": "outputs/malayagiri-publication-2026-11-25/live/images/5.webp",
+      "dimensions": [
+        480,
+        360
+      ],
+      "orientation": 1,
+      "live_sha256": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+      "local_sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+      "byte_equal": false,
+      "decoded": {
+        "identical": false,
+        "channels": 3,
+        "changed_channels": 281081,
+        "total_channels": 518400,
+        "max_absolute_channel_delta": 27,
+        "mean_absolute_channel_delta": 1.44390625,
+        "root_mean_squared_channel_delta": 2.61088319040715
+      },
+      "metadata": {
+        "icc": {
+          "live_bytes": 0,
+          "local_bytes": 0,
+          "identical": true
+        },
+        "iptc": {
+          "live_bytes": 0,
+          "local_bytes": 0,
+          "identical": true
+        },
+        "xmp": {
+          "live_bytes": 0,
+          "local_bytes": 0,
+          "identical": true
+        },
+        "exif": {
+          "live_bytes": 0,
+          "local_bytes": 0,
+          "identical": true
+        }
+      }
+    },
+    {
+      "url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+      "local_url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+      "saved": "outputs/malayagiri-publication-2026-11-25/live/images/14.jpg",
+      "dimensions": [
+        1517,
+        2048
+      ],
+      "orientation": 1,
+      "live_sha256": "1f5de7dec00f1910ace8b42d4979b9b14cb3bdfeb91933a312c65fc9924149ee",
+      "local_sha256": "07542ff440a55a4b9966c55740e0ab4093dc684fff70504952c829de2ac1fa15",
+      "byte_equal": false,
+      "decoded": {
+        "identical": false,
+        "channels": 3,
+        "changed_channels": 1490701,
+        "total_channels": 9320448,
+        "max_absolute_channel_delta": 15,
+        "mean_absolute_channel_delta": 0.21246854228466272,
+        "root_mean_squared_channel_delta": 0.5903570482875219
+      },
+      "metadata": {
+        "icc": {
+          "live_bytes": 3144,
+          "local_bytes": 3144,
+          "identical": true
+        },
+        "iptc": {
+          "live_bytes": 11610,
+          "local_bytes": 11610,
+          "identical": true
+        },
+        "xmp": {
+          "live_bytes": 9276,
+          "local_bytes": 9276,
+          "identical": true
+        },
+        "exif": {
+          "live_bytes": 206,
+          "local_bytes": 206,
+          "identical": true
+        }
+      }
+    },
+    {
+      "url": "/assets/ashta-nayika/abhisarika-met.jpg",
+      "local_url": "/assets/ashta-nayika/abhisarika-met.jpg",
+      "saved": "outputs/malayagiri-publication-2026-11-25/live/images/15.jpg",
+      "dimensions": [
+        1488,
+        2048
+      ],
+      "orientation": 1,
+      "live_sha256": "c015694c9c63580d35f7f77ef19218156fd162db165b5d36547481fd7ec1a160",
+      "local_sha256": "cbf7a0cbc5887e219af9ed9e8bae332e1939b23b74d93bb892e6d29cc83c7040",
+      "byte_equal": false,
+      "decoded": {
+        "identical": false,
+        "channels": 3,
+        "changed_channels": 166,
+        "total_channels": 9142272,
+        "max_absolute_channel_delta": 2,
+        "mean_absolute_channel_delta": 2.0126288082437276e-05,
+        "root_mean_squared_channel_delta": 0.004905511196457135
+      },
+      "metadata": {
+        "icc": {
+          "live_bytes": 0,
+          "local_bytes": 0,
+          "identical": true
+        },
+        "iptc": {
+          "live_bytes": 0,
+          "local_bytes": 0,
+          "identical": true
+        },
+        "xmp": {
+          "live_bytes": 3380,
+          "local_bytes": 3380,
+          "identical": true
+        },
+        "exif": {
+          "live_bytes": 186,
+          "local_bytes": 186,
+          "identical": true
+        }
+      }
+    }
+  ],
+  "visual_findings": [
+    "Saptasajya480 retains the full hill/vegetation/earth scene with acceptable visible detail.",
+    "Hindola painting retains all borders, figures, swing and colours with acceptable visible detail.",
+    "Abhisarika painting retains full border, figure and fine details with no conspicuous visible change."
+  ],
+  "limitations": [
+    "No pixel-identity or encoding cause asserted. Raw REVIEW_DIFFERENCES and exact measurements retained.",
+    "Full-frame visual inspection supports delivery suitability, not proof every decoded pixel is identical."
+  ]
+}
