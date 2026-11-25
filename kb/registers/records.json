@@ -10840,6 +10840,24 @@
       "evidence": [
         "records/nilagiri-publication-20261125.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112593",
+      "title": "Research, review and publish Barunei Hills",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112593",
+      "next_action": "Finish independent final package/exact-head review, required hosted checks, deployment/live review and merged receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112593"
+      ],
+      "evidence": [
+        "records/barunei-publication-20261125.json"
+      ]
     }
   ],
   "decisions": [
@@ -16464,6 +16482,23 @@
       },
       "quote": "When the slot is available, integrate and publish the Nilagiri stone utensils article with the credited illustration, links from relevant existing articles, and mobile and desktop layout checks.",
       "scope": "One article publication with credited illustration, relevant incoming links, mobile/desktop checks and verified delivery."
+    },
+    {
+      "id": "POD-DEC-2026112593",
+      "title": "Next uncovered hill after completed Nilagiri publication",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has Nilagiri’s release finished and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one uncovered hill destination with credited article and preview image.",
+      "refs": [
+        "POD-WORK-2026112593"
+      ],
+      "evidence": [
+        "records/barunei-publication-20261125.json"
+      ]
     }
   ],
   "requirements": [
@@ -26325,6 +26360,24 @@
         "records/nilagiri-publication-20261125.json"
       ],
       "summary": "Separate source/local/exact-candidate and fresh live delivery reviews passed. Seven routes, 43 images and nine browser captures verified; all eight directly affected files exact, 35 existing responsive differences measured and visually accepted with raw evidence and limits retained. Not human specialist review."
+    },
+    {
+      "id": "POD-REV-2026112593",
+      "title": "Barunei separate source, media, code, rendered and local package review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "refs": [
+        "POD-WORK-2026112593",
+        "POD-DEC-2026112593"
+      ],
+      "evidence": [
+        "records/barunei-publication-20261125.json"
+      ],
+      "independent": true,
+      "summary": "Separate source/media/capacity/static/rendered/package review passed; actual20026artifact checks and24screenshots inspected,4rawframes excluded. Hosted checks/deployment/live review remain pending. Not a human specialist or field review."
     }
   ],
   "releases": [

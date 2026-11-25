@@ -1,0 +1,161 @@
+{
+  "status": "PROPOSAL_ONLY_REQUIRES_ROOT_AND_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-11-25",
+  "selected": {
+    "path": "assets/bhubaneswar-week/conversations.jpg",
+    "page": "stories/bhubaneswar-week/index.html",
+    "source_url": "/assets/bhubaneswar-week/conversations.jpg",
+    "preferred_quality": 90,
+    "alternative_quality": 88,
+    "selection_condition": "Select90 only if exact new Barunei base+responsive variants+HTML fits; otherwise88 provides a measured678720B saving. Neither selected for implementation yet.",
+    "maximum_dimension": 3072,
+    "dimensions_unchanged": [
+      1728,
+      3072
+    ]
+  },
+  "measurements": {
+    "status": "MEASURED_PENDING_VISUAL_REVIEW",
+    "baseline_linux_bytes": 999995588,
+    "baseline_remaining_bytes": 4412,
+    "path": "assets/bhubaneswar-week/conversations.jpg",
+    "page": "stories/bhubaneswar-week/index.html",
+    "source_bytes": 4296333,
+    "source_sha256": "4f7a569ad73f87f31291c606008133e64521cf19fe21d65fa8a96c7dcbe32780",
+    "source_dimensions": [
+      3213,
+      5712
+    ],
+    "current_bytes": 1682404,
+    "current_sha256": "b83bb3c340449eebfa5c35ba16a4441c143df185239659cbb9d786c7b0b947ed",
+    "current_dimensions": [
+      1728,
+      3072
+    ],
+    "candidates": [
+      {
+        "quality": 90,
+        "bytes": 1150046,
+        "sha256": "8acf94aeca470d945afb8a857d67fa4c7fbda5aa4e6713dcea03da14f1715981",
+        "saving_bytes": 532358,
+        "dimensions": [
+          1728,
+          3072
+        ],
+        "orientation": 1,
+        "density": 72,
+        "metadata": {
+          "icc": {
+            "source_bytes": 536,
+            "candidate_bytes": 536,
+            "byte_equal": true
+          },
+          "iptc": {
+            "source_bytes": 0,
+            "candidate_bytes": 0,
+            "byte_equal": true
+          },
+          "xmp": {
+            "source_bytes": 2610,
+            "candidate_bytes": 2610,
+            "byte_equal": true
+          },
+          "exif": {
+            "source_bytes": 3080,
+            "candidate_bytes": 3052,
+            "byte_equal": false
+          }
+        },
+        "psnr_db": 40.61088901687994,
+        "max_channel_error": 34,
+        "exif_equal_to_existing_delivery": true
+      },
+      {
+        "quality": 88,
+        "bytes": 1003684,
+        "sha256": "ed9e984d916e65aca5af28a77fb0ba7f64aa3c622c52fa51f5203fab897fbf05",
+        "saving_bytes": 678720,
+        "dimensions": [
+          1728,
+          3072
+        ],
+        "orientation": 1,
+        "density": 72,
+        "metadata": {
+          "icc": {
+            "source_bytes": 536,
+            "candidate_bytes": 536,
+            "byte_equal": true
+          },
+          "iptc": {
+            "source_bytes": 0,
+            "candidate_bytes": 0,
+            "byte_equal": true
+          },
+          "xmp": {
+            "source_bytes": 2610,
+            "candidate_bytes": 2610,
+            "byte_equal": true
+          },
+          "exif": {
+            "source_bytes": 3080,
+            "candidate_bytes": 3052,
+            "byte_equal": false
+          }
+        },
+        "psnr_db": 39.83922804413463,
+        "max_channel_error": 37,
+        "exif_equal_to_existing_delivery": true
+      }
+    ],
+    "method": "Existing full-frame3072px mozjpeg4:4:4 transform from exact original, changing only named JPEG quality95 to90 or88; metadata retained with keepMetadata.",
+    "comparison_order": "Original/current/candidate left to right; same geometry at each comparison scale.",
+    "copies": "No unchanged copies made; all candidate/comparison files are newly derived artifacts. Storage-sharing skill read; originals untouched."
+  },
+  "preservation": {
+    "source_unchanged": true,
+    "current_reproduced_byte_exact": true,
+    "dist": {
+      "sha256": "4f7a569ad73f87f31291c606008133e64521cf19fe21d65fa8a96c7dcbe32780",
+      "source_equal": true
+    },
+    "dist-coast": {
+      "sha256": "4f7a569ad73f87f31291c606008133e64521cf19fe21d65fa8a96c7dcbe32780",
+      "source_equal": true
+    }
+  },
+  "rights": {
+    "basis": "Existing author-supplied photograph and publication authorization; no new public licence inferred.",
+    "record": "kb/records/bhubaneswar-week-publication-2026-10-24.json",
+    "credit": "Photograph supplied by Ahimanikya Satapathy."
+  },
+  "reader_contract": {
+    "same_url": true,
+    "caption_unchanged": "A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy. Full frame, resized and compressed for web delivery.",
+    "second_photo_unchanged": "assets/bhubaneswar-week/mentis-films.jpg",
+    "sharing_unchanged": "Article uses separate poem-conversations-v1.png sharing illustration; no OG dimensions change.",
+    "responsive_derivatives_unchanged": true
+  },
+  "visual_review": {
+    "implementer": "Viewed q90 full-frame and detail triptychs and q88 detail. Original/current/candidate left-to-right. No conspicuous new blocking or colour shift at those observed scales; facial features and background fine linework remain legible. No identities inferred.",
+    "lossless": false,
+    "required": "Root plus separate Drishti acceptance before any named-entry settings change; original/detail comparison files retained."
+  },
+  "scope_if_accepted": [
+    "projects/site/tools/optimize-publication-jpeg.mjs: only existing conversations settings {maximum_dimension:3072,quality:selectedQuality}",
+    "projects/site/tests/publication-jpeg.test.mjs: extend existing Bhubaneswar regression for settings/savings while retaining second-photo/caption/metadata/source and share guards"
+  ],
+  "capacity_limits": {
+    "quality90_headroom_before_new_media": 536770,
+    "quality88_headroom_before_new_media": 683132,
+    "baseline_is_linux_but_candidates_are_local": true,
+    "required": "Actual combined local and hosted payload gates; no final-fit claim before new-photo package measured."
+  },
+  "storage": {
+    "skill": "/Users/ahimanikya/.codex/skills/project-odisha-storage-copies/SKILL.md",
+    "read": true,
+    "copies_made": 0,
+    "outputs": "New derived compression/comparison artifacts only; no cp/shutil or source overwrite."
+  },
+  "preserved": "No public assets, code, optimizer configuration, shared records, builds or Git state changed. Existing ten-path scope and prior Nilagiri Osakothi change remain intact."
+}
