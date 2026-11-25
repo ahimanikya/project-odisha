@@ -1,5 +1,5 @@
 {
-  "status": "built_pending_final_review",
+  "status": "reviewed_publication_in_progress",
   "recorded_on": "2026-11-25",
   "authorization_quote": "Let's fix the illustrations for Dhagas 142, 386 and 504, improve 288 and 497 too, and publish the updated website and book PDF.",
   "scope": "Replace five illustrations and their descriptions; preserve all final Dhaga texts and meanings; rebuild and publish website and book PDF.",
@@ -20,7 +20,7 @@
   },
   "generation_record": "projects/odia-dhaga/evidence/art-five-2026-11-25/generation.json",
   "text_review": "Complete and unchanged",
-  "next_action": "Final independent PDF review, versioned release binding, website gates, merge and live verification.",
+  "next_action": "Bind reviewed PDF release, complete website checks and deploy; verify live bytes.",
   "art_review": {
     "status": "PASS",
     "reviewer": "Separate Drishti AI",
@@ -97,5 +97,6 @@
       "PYTHONPATH=/private/tmp/dhaga-art-five-deps bundled-python -m unittest discover -s projects/odia-dhaga -p test_*.py",
       "PYTHONPATH=/private/tmp/dhaga-art-five-deps bundled-python projects/odia-dhaga/build_print.py"
     ]
-  }
+  },
+  "final_artifact_review": "projects/odia-dhaga/evidence/art-five-2026-11-25/final-artifact-review.json"
 }
