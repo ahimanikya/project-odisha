@@ -243,5 +243,17 @@
     "sha256": "68cb3c65ecf90ebf013e0d9fd4294649f4e359dd79da0dac1f3098510a3826b0",
     "limits": "Separate exact committed continuity review, required hosted receipt checks and actual merge remain."
   },
-  "receipt_whitespace": "Exactly two original hosted logs retain captured whitespace; all other staged paths pass, including raw HTTP captures. Explicit paths in receipt-whitespace-exceptions.json."
+  "receipt_whitespace": "Exactly two original hosted logs retain captured whitespace; all other staged paths pass, including raw HTTP captures. Explicit paths in receipt-whitespace-exceptions.json.",
+  "receipt_festival_reconciliation": {
+    "pr": 872,
+    "incoming_merge": "ec345fbfbb07f080080ec723e73227443543528f",
+    "required_ci": 45667129458,
+    "conclusion": "success",
+    "evidence": "outputs/barunei-publication-2026-11-25/release/festival-reconciliation.json",
+    "status": "preserved_and_separately_reviewed",
+    "capacity": "Await actual combined receipt CI; original Barunei deployment remains999876636B/3693files.",
+    "source_contract_limit": "21originalcandidate hashes remain historical evidence; incoming route/edition/test changes preserved exactly in reconciliation manifest. No claim that historical whole-source contract matches the newly combined main.",
+    "review": "outputs/barunei-publication-2026-11-25/review/receipt-reconciliation-review.json",
+    "review_sha256": "9d8cc11816e741fe79a9acccdcbf64732c35b40844e74a3bf937c48cd233e5a9"
+  }
 }
