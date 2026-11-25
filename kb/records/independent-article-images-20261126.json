@@ -1,8 +1,8 @@
 {
-  "status": "reviewed_local_validation",
+  "status": "published_verified",
   "authorization_quote": "Add suitable original or openly licensed images to the 27 articles, with proper source and licence details. Don\u2019t use any images from the creator.",
   "destination": "Existing categorized library and live website collection at /stories/odisha/",
-  "scope": "27 article images and matching preview/sharing images; preserve original narratives and their109 citations.",
+  "scope": "27 article images and matching preview/sharing images; preserve original narratives and their 109 citations.",
   "prior_publication": "records/independent-articles-27-20261125.json",
   "coordinator": "Disha in current chat",
   "team_handoff": "outputs/independent-article-images-20261126/handoff.json",
@@ -15,17 +15,41 @@
   ],
   "programme_credit": 0,
   "review": {
-    "status": "image_and_code_review_pass",
+    "status": "pass",
     "human_specialist_review": false,
     "reports": [
       "outputs/independent-article-images-20261126/review/cross-review-a.json",
       "outputs/independent-article-images-20261126/review/cross-review-b.json",
-      "outputs/independent-article-images-20261126/review/integration-code-review.json"
+      "outputs/independent-article-images-20261126/review/integration-code-review.json",
+      "outputs/independent-article-images-20261126/review/combined-head-review.json",
+      "outputs/independent-article-images-20261126/review/local-verification.json",
+      "outputs/independent-article-images-20261126/review/packaged-image-verification.json",
+      "outputs/independent-article-images-20261126/review/live-verification-network.json",
+      "outputs/independent-article-images-20261126/review/publication-receipt.json"
     ],
-    "limits": "Final rebuilt suites, package gate, hosted CI and actual live verification pending."
+    "limits": "Separate task-scoped AI image, code, preservation and live-delivery reviews passed, with actual local and hosted checks. No human-specialist or field review claimed. Article citation URLs are preserved; no claim that all external citation targets were re-fetched."
   },
   "publication": {
-    "status": "pending"
+    "status": "published_verified",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/879",
+    "reviewed_head": "cd29868bd99b7500dd9053d834324905fe088954",
+    "merge_commit": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "required_ci": "https://github.com/ahimanikya/project-odisha/actions/runs/45705527242",
+    "required_ci_status": "success",
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/45709638155",
+    "run_head": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "url": "https://projectodisha.org/stories/odisha/",
+    "library": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/stories/independent-features/image-catalog.md",
+    "preserved_concurrent_updates": [
+      "Olasuni",
+      "Makar Sankranti"
+    ],
+    "completed_at": "2026-11-25T22:43:20Z",
+    "run_status": "success",
+    "live_verification": "outputs/independent-article-images-20261126/review/live-verification-network.json",
+    "live_pages": 29,
+    "live_asset_hash_matches": 49,
+    "original_source_targets_verified": 9
   },
   "media": {
     "articles": 27,
@@ -55,6 +79,10 @@
     "pages_checked": 550,
     "css_blocks_shared": 1100,
     "byte_roundtrip": "pass in implementation review",
-    "limit": "Final packaged payload and actual live checks pending."
-  }
+    "limit": "Unchanged exclusive 1000000000-byte gate passed for actual merged-main publication.",
+    "local_payload_bytes": 999174364,
+    "required_ci_payload_bytes": 999175286,
+    "published_payload_bytes": 999202073
+  },
+  "receipt_note": "This receipt records the completed image publication. Library-only Mandasaru source link made absolute for correct navigation on GitHub; public image manifest and article manuscripts unchanged."
 }

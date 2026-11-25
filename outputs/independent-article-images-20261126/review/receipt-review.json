@@ -1,0 +1,124 @@
+{
+  "schema": "project-odisha-image-publication-receipt-review-v1",
+  "status": "PASS",
+  "reviewed_at": "2026-11-25T22:49:45.041380+00:00",
+  "reviewer": "article_integration_review",
+  "base_head": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+  "review_scope": "Receipt-only working tree, actual publication evidence, preservation and absolute library-link correction",
+  "tracked_diff_sha256": "ce8269ca6a43a1a207c95aa78b2d4cc20a69837edcafaef3582a2f1c7a742a19",
+  "reviewed_files": [
+    {
+      "path": "kb/history/LEDGER.md",
+      "sha256": "01eb40b4d6c2d0ae7e184c5e7b27d4e1f0469494db54b110930c85f7882be086"
+    },
+    {
+      "path": "kb/records/independent-article-images-20261126.json",
+      "sha256": "ce045b3ad9630ffcf5f2f776c7b824c1b1a2874cfa6b730d195d2f0885c3679d"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "24f4064e237e764ed4d65b31d32cf77a70bce7916ef082cc87bcfc81064c96bd"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "66e6a2178cd98a0f28234f7a4533c2ff2a46db94c3225250eaac3ae9921f4cc9"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "3cdb40a3414d5bdc63c08e7d8e8f4c32ce1f36414081c22eb5f75e8a1770ebcb"
+    },
+    {
+      "path": "kb/research/stories/independent-features/image-catalog.md",
+      "sha256": "6bc5dd814e98d19fd688b33fda97fb2a3ba3dc2474d7b4d7ff291ed9e51f5597"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/handoff.json",
+      "sha256": "d6dbfafe2be65de9797a7bd5f9f49f6f421375164bae94ba9cf6cb18896de6c4"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/packaged-image-verification.json",
+      "sha256": "a3a4f0da0c9d3178870f186fc9dbdd94391cbebf0c91a707e6b201cf2ab151a2"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/combined-head-review.json",
+      "sha256": "3465cb3bc6d859fe62cebdef41b52540bc9e1fda25677e8cb998f833982b5e27"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/publication-receipt.json",
+      "sha256": "01d23abe5f6ba3ea78b01627d54ef80dded866c62cbf2b2db9f2b855a46d36ca"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-verification-network.json",
+      "sha256": "22aaf03cbbe270dec32ccf960f558be8fd60e65012731c7ba0ec8d19f9e87673"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/verify-live-images.py",
+      "sha256": "e910e1ef9bd20cfe1fa9e101b8fb8b8a4b154805db1065045382200da93c59c8"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-verification.json",
+      "sha256": "dd4b23c9c9d971d091861c059af02cfff5cdf7e07577048d1851e2cb1d561b1f"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/local-verification.json",
+      "sha256": "e5f7aadcaa2f1d455efefd6e283cd7ddf98a01502500f2b4db021d30c280448a"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-helper-local-check-v2.json",
+      "sha256": "bf745d1124fd10ab5cd49b43c94f7166206407367db92bf98b5f7e3bede4f3d7"
+    }
+  ],
+  "findings": [],
+  "verified": {
+    "publication_run": "https://github.com/ahimanikya/project-odisha/actions/runs/45709638155",
+    "published_head": "16ca2bd418b19d1835acb8ffe2cd625cdedeee5c",
+    "actual_run_status": "success",
+    "receipt_run_object_matches_downloaded_run_json": true,
+    "hosted_log_full_tests": 843,
+    "hosted_log_coastal_tests": 605,
+    "hosted_log_failures": 0,
+    "hosted_log_disclosure_pages": 1534,
+    "hosted_log_disclosure_violations": 0,
+    "hosted_log_payload_bytes": 999202073,
+    "exclusive_budget_bytes": 1000000000,
+    "hosted_log_regular_files": 3777,
+    "live_report_pages": 29,
+    "live_report_assets": 49,
+    "live_asset_hashes_match_current_manifest_files": true,
+    "original_source_http_targets": 9,
+    "footnote_entries": 109,
+    "external_footnote_links": 110,
+    "live_report_errors": 0,
+    "failed_restricted_network_report_retained": true,
+    "historical_local_pending_fields": "Historical pre-publication record; current canonical record and publication-receipt clearly supersede them.",
+    "activity_historical_bytes_prefix_preserved": true,
+    "ledger_historical_bytes_prefix_preserved": true,
+    "foreign_register_objects_unchanged": true,
+    "changed_register_ids": [
+      "POD-WORK-20261126027",
+      "POD-REV-20261126027"
+    ],
+    "new_release_id": "POD-REL-20261126027",
+    "new_event_id": "POD-EVT-20261126029",
+    "programme_credit": 0,
+    "website_public_manifest_and_27_manuscripts_unchanged": true,
+    "library_only_change": "Mandasaru source link made absolute at https://projectodisha.org/destinations/mandasaru/; other catalogue text unchanged.",
+    "private_raw_header_files": {
+      "count": 5,
+      "currently_untracked_and_unstaged": true
+    },
+    "register_check": "Independently ran python3 tools/registers.py --check: valid1426 records,891events,dashboard current"
+  },
+  "root_reported_checks_not_rerun": [
+    "Catalogue1972",
+    "Bundle8807links",
+    "Autonomous/team/rollout",
+    "git diff--check"
+  ],
+  "limits": [
+    "This reviewer inspected stored network evidence and actual hosted run JSON/log; did not repeat network requests or browser inspection.",
+    "Initial restricted-network failure remains truthful historical evidence; successful network-enabled report is the current live result.",
+    "This receipt review makes no new article factual review or human-specialist-review claim.",
+    "The five private header captures must remain excluded when committing receipt evidence."
+  ]
+}

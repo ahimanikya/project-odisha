@@ -21,7 +21,7 @@ Images for all 27 articles, grouped by subject. Captions distinguish documentary
 
 An interpretive illustration of Mandasaru’s forest and gorge.
 
-[Mandasaru forest illustration](/destinations/mandasaru/) — Project Odisha. Original Project Odisha artwork; no third-party licence applies.
+[Mandasaru forest illustration](https://projectodisha.org/destinations/mandasaru/) — Project Odisha. Original Project Odisha artwork; no third-party licence applies.
 
 Existing interpretive illustration reused unchanged; not a documented viewpoint.
 
