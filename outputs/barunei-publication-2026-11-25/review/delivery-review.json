@@ -1,0 +1,317 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-25T18:02:52.232760+00:00",
+  "scope": "Actual Barunei delivery review, independently fetched HTTP and GitHub evidence, decoded image comparisons, and independent visual inspection of all 13 root browser screenshots. This does not approve or claim a later receipt merge.",
+  "publication_merge": "0769feeb8792d98c5be2c5b017b57a3f169b259f",
+  "reviewed_candidate": "02af7802fbc3954cf2226d2b7776b350337b66d3",
+  "matching_tree": "662ece15310039bce0e348db08d91ca7ff3926e1",
+  "remote": {
+    "pull_request": {
+      "number": 871,
+      "html_url": "https://github.com/ahimanikya/project-odisha/pull/871",
+      "merged": true,
+      "merged_at": "2026-11-25T17:24:14Z",
+      "merge_commit_sha": "0769feeb8792d98c5be2c5b017b57a3f169b259f"
+    },
+    "reviewed_head": "02af7802fbc3954cf2226d2b7776b350337b66d3",
+    "required_ci": {
+      "id": 45659955442,
+      "head_sha": "02af7802fbc3954cf2226d2b7776b350337b66d3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_attempt": 1,
+      "html_url": "https://github.com/ahimanikya/project-odisha/actions/runs/45659955442"
+    },
+    "deployment": {
+      "id": 45664502523,
+      "head_sha": "0769feeb8792d98c5be2c5b017b57a3f169b259f",
+      "status": "completed",
+      "conclusion": "success",
+      "run_attempt": 1,
+      "html_url": "https://github.com/ahimanikya/project-odisha/actions/runs/45664502523"
+    }
+  },
+  "deployed_payload": {
+    "bytes": 999876636,
+    "files": 3693,
+    "remaining_below_strict_billion": 123364,
+    "evidence": "release/deployment-45664502523.log"
+  },
+  "fresh_http": {
+    "routes": [
+      {
+        "route": "/destinations/barunei/",
+        "status": 200,
+        "sha256": "0f2159b674b0eef4c7504fe9012ec47738394c273b6dba88b4a8da33c695f108"
+      },
+      {
+        "route": "/destinations/hills/",
+        "status": 200,
+        "sha256": "a583c82f717338e9284893f3ff95db9f0a23662917ec0fc0c5bbeb0bafac2016"
+      },
+      {
+        "route": "/destinations/",
+        "status": 200,
+        "sha256": "ea82d98251d720dad664453d6a150782d7664c565f8cdeee11033ce2ecf2709d"
+      },
+      {
+        "route": "/explore/",
+        "status": 200,
+        "sha256": "dbe1d0d14edd896db18f0cbf8f2b73ccf003629ed104072a92b11b8b286b21eb"
+      },
+      {
+        "route": "/stories/bhubaneswar-week/",
+        "status": 200,
+        "sha256": "c400b306ccafdb5e19f799ca088b0efbfae9266c80a83ebba0dc64eebcc6d57e"
+      }
+    ],
+    "independent_image_count": 31,
+    "root_image_count": 20,
+    "byte_exact": 27,
+    "measured_differences": 4,
+    "scope": "Every actual img base and srcset URL inside both reviewed article fragments, including their reading cards. All four Barunei image files are byte-identical to the reviewed package. The 20 root capture hashes also match independent captures."
+  },
+  "article_and_card_continuity": [
+    {
+      "route": "/destinations/barunei/",
+      "live_sha256": "92aac02a2d1c6ed534ab67d50afc143e95d28377fa62382801fa87cae84a50c6",
+      "local_sha256": "2b64817bcdb20a55498f3ab242024579f95dd493988b39e8c6de82734ba64c97",
+      "substitutions": {
+        "/images/responsive/3867fe434648ddd8-480.webp": "/images/responsive/e0e6b1a38b4692ec-480.webp"
+      },
+      "exact_after_known_image_urls": true,
+      "differences": []
+    },
+    {
+      "route": "/destinations/hills/ Barunei card",
+      "raw_exact": true
+    },
+    {
+      "route": "/destinations/ Barunei card",
+      "raw_exact": true
+    },
+    {
+      "route": "/explore/ Barunei card",
+      "raw_exact": true
+    },
+    {
+      "route": "/stories/bhubaneswar-week/",
+      "live_sha256": "b7d3d41ff00f10fcb4b8e2778fdcf052967abc2221f4c8eea2cdb88d32831afe",
+      "local_sha256": "75623c2ac850697074f0f67a283fe57947f79e36151f3bd18fd98dbd2b371cc0",
+      "substitutions": {
+        "/images/responsive/f7fd7db2e2c9d60a-1440.webp": "/images/responsive/8b030c3b48acd32f-1440.webp"
+      },
+      "exact_after_known_image_urls": true,
+      "differences": []
+    }
+  ],
+  "full_page_classification": [
+    {
+      "route": "/destinations/barunei/",
+      "only_additional_markup": "Exact production Analytics config, consent section and status paragraph; existing component inspected.",
+      "responsive_substitutions": 1,
+      "otherwise_exact": true,
+      "analytics_config": {
+        "id": "G-9WJHZGN1EM",
+        "canonical": "https://projectodisha.org/destinations/barunei/",
+        "title": "Barunei: Two Goddesses and Khordha’s Past · Project Odisha",
+        "allowedPaths": [
+          "/destinations/barunei/"
+        ]
+      }
+    },
+    {
+      "route": "/destinations/hills/",
+      "only_additional_markup": "Exact production Analytics config, consent section and status paragraph; existing component inspected.",
+      "responsive_substitutions": 0,
+      "otherwise_exact": true,
+      "analytics_config": {
+        "id": "G-9WJHZGN1EM",
+        "canonical": "https://projectodisha.org/destinations/hills/",
+        "title": "Hills and highland escapes · Project Odisha",
+        "allowedPaths": [
+          "/destinations/hills/"
+        ]
+      }
+    },
+    {
+      "route": "/destinations/",
+      "only_additional_markup": "Exact production Analytics config, consent section and status paragraph; existing component inspected.",
+      "responsive_substitutions": 0,
+      "otherwise_exact": true,
+      "analytics_config": {
+        "id": "G-9WJHZGN1EM",
+        "canonical": "https://projectodisha.org/destinations/",
+        "title": "Destinations in Odisha · Project Odisha",
+        "allowedPaths": [
+          "/destinations/"
+        ]
+      }
+    },
+    {
+      "route": "/explore/",
+      "only_additional_markup": "Exact production Analytics config, consent section and status paragraph; existing component inspected.",
+      "responsive_substitutions": 35,
+      "otherwise_exact": true,
+      "analytics_config": {
+        "id": "G-9WJHZGN1EM",
+        "canonical": "https://projectodisha.org/explore/",
+        "title": "Explore the collection · Project Odisha",
+        "allowedPaths": [
+          "/explore/"
+        ]
+      }
+    },
+    {
+      "route": "/stories/bhubaneswar-week/",
+      "only_additional_markup": "Exact production Analytics config, consent section and status paragraph; existing component inspected.",
+      "responsive_substitutions": 1,
+      "otherwise_exact": true,
+      "analytics_config": {
+        "id": "G-9WJHZGN1EM",
+        "canonical": "https://projectodisha.org/stories/bhubaneswar-week/",
+        "title": "A Week in Bhubaneswar: Conversations and New Beginnings · Project Odisha",
+        "allowedPaths": [
+          "/stories/bhubaneswar-week/"
+        ]
+      }
+    }
+  ],
+  "image_differences": [
+    {
+      "url": "/images/responsive/e0e6b1a38b4692ec-480.webp",
+      "local_url": "/images/responsive/3867fe434648ddd8-480.webp",
+      "bytes": 24384,
+      "local_bytes": 24408,
+      "sha256": "e0e6b1a38b4692eceebbeb44d5f629a2ee0521354733358d68f456cf77e1b22f",
+      "local_sha256": "3867fe434648ddd8826ab27788eade3268e64e9c003875f66ce20af43b31eab3",
+      "width": 480,
+      "height": 360,
+      "orientation": 1,
+      "decoded_difference": {
+        "channels": 281081,
+        "pixels": 103169,
+        "max_channel_delta": 27,
+        "mean_absolute_delta": 1.44390625
+      },
+      "comparison": "comparison-8.png"
+    },
+    {
+      "url": "/assets/bhubaneswar-week/conversations.jpg",
+      "local_url": "/assets/bhubaneswar-week/conversations.jpg",
+      "bytes": 1150026,
+      "local_bytes": 1150046,
+      "sha256": "0391d5cf65c3a2bf3cf00c8b74ea54425a36cc8c3d0916332cbf10b6d9525470",
+      "local_sha256": "8acf94aeca470d945afb8a857d67fa4c7fbda5aa4e6713dcea03da14f1715981",
+      "width": 1728,
+      "height": 3072,
+      "orientation": 1,
+      "decoded_difference": {
+        "channels": 702,
+        "pixels": 324,
+        "max_channel_delta": 4,
+        "mean_absolute_delta": 6.235381703317902e-05
+      },
+      "comparison": "comparison-15.png"
+    },
+    {
+      "url": "/assets/bhubaneswar-week/mentis-films.jpg",
+      "local_url": "/assets/bhubaneswar-week/mentis-films.jpg",
+      "bytes": 1279539,
+      "local_bytes": 1279563,
+      "sha256": "8c13ec06632334732bc26d86018aa0b1f7d838e4e19ec3c47330e4ba12efd576",
+      "local_sha256": "49d0b2418bff5216afe5dd907acd7fcb0ff79b452a01bea97e702a29cf832d6d",
+      "width": 3072,
+      "height": 1728,
+      "orientation": 1,
+      "decoded_difference": {
+        "channels": 126,
+        "pixels": 43,
+        "max_channel_delta": 2,
+        "mean_absolute_delta": 8.037551440329219e-06
+      },
+      "comparison": "comparison-19.png"
+    },
+    {
+      "url": "/images/responsive/8b030c3b48acd32f-1440.webp",
+      "local_url": "/images/responsive/f7fd7db2e2c9d60a-1440.webp",
+      "bytes": 123324,
+      "local_bytes": 123262,
+      "sha256": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+      "local_sha256": "f7fd7db2e2c9d60a7e0c7c7ca4e239e108da495c669debc84da6c8e5a8c43fbd",
+      "width": 1440,
+      "height": 1080,
+      "orientation": 1,
+      "decoded_difference": {
+        "channels": 1381315,
+        "pixels": 465823,
+        "max_channel_delta": 23,
+        "mean_absolute_delta": 0.7674048353909465
+      },
+      "comparison": "comparison-30.png"
+    }
+  ],
+  "image_visual_verdict": "All four generated local/live pairs were independently opened and inspected. Complete scenes, geometry and displayed orientation are preserved; no conspicuous loss of display quality was observed. Differences remain real and accepted, not pixel-identical. No encoding cause is asserted.",
+  "photo_and_rights": "The article and sharing image remain Pallav Kumar Nayak’s view from Barunei Hill, dated August 2009, CC BY 3.0. Creator and licence links, dated caption, resizing/compression disclosure and possible preview crops are preserved. This is a historical view from the hill, not a current-condition or shrine-building photograph.",
+  "native_notes": {
+    "references": 4,
+    "notes": 3,
+    "returns": 4,
+    "all_resolve": true
+  },
+  "preservation": {
+    "frozen_inputs": 21,
+    "protected_files": 67,
+    "foreign_pointers_preserved": true,
+    "source_manuscript_sha256": "27896635b7ea9b63efa3cbefee92c872028be09cbd5a6235090293f997ab02ec",
+    "original_photo_sha256": "4d58e5af139447ba596f0dbca33b2c3c6de3c585cc59c72014b62e7e17d9eefe",
+    "statement": "The reviewed source, original media, contract inputs and protected preparation files remain unchanged. Foreign task and handoff pointers remain preserved."
+  },
+  "browser_visual_review": {
+    "count": 13,
+    "screenshots": {
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-article.jpg": "69ab7771639b3926b02b72c92134fbc1472946b3c3b98241d0d075baa8ec06ae",
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-conversations-base.jpg": "9dcb76c80d6c96d20daf14ec60dcb7bd7313f5683787d90e65d8b3d506815bea",
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-conversations.jpg": "90a2db4b9410e170828f2d42d0cfa80ffc61dbe0bf70f09f4aaea2e491c70a2c",
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-credit.jpg": "fee1ace1eb3c58e27d95f5e498703c82482814e18e3536157f77f8949e231640",
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-explore-preview.jpg": "11549c6096cbf97b367767ae8d6dd227e38f69fa9e74c0c9b2c4414101f9dc86",
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-notes.jpg": "621fb85002ffbb373c737318aba554bd72ad4612c3b4172c9f2d8b5f8eda432d",
+      "outputs/barunei-publication-2026-11-25/browser/live-desktop-preview-credit.jpg": "52bb1140107aee8f9d843b023f2b4c66958b683703d821cf57772a5f80be9117",
+      "outputs/barunei-publication-2026-11-25/browser/live-mobile-article.jpg": "21e09fee56d582b804ff6f9acdc3ab2e93cff1c956d090df51197fa8fdfb2624",
+      "outputs/barunei-publication-2026-11-25/browser/live-mobile-conversations.jpg": "6ddeed74bc67cbb9c175851650b07bf436a30822399bfaa6f5036eea48c1dec6",
+      "outputs/barunei-publication-2026-11-25/browser/live-mobile-destinations-preview.jpg": "95fb8a31fa4ff4f6d355761f0805cdd7e394011c6cf6dce56270e22e1f19961e",
+      "outputs/barunei-publication-2026-11-25/browser/live-mobile-hills-preview.jpg": "0d84b42435d3a7cceb1233d0ab0aab56e3ea7a33d79f76e2a4c83c5a36e99a77",
+      "outputs/barunei-publication-2026-11-25/browser/live-mobile-notes.jpg": "4129228676bd638d584a58c62dcd61d834093fe5c012c30a2f58b7ed06330469",
+      "outputs/barunei-publication-2026-11-25/browser/live-mobile-prose.jpg": "284fc7a11cd778d8d581a25aac3cd484bb118673abf5f220ca58dbe1d9b23c6e"
+    },
+    "independent_observations": [
+      "Desktop title and article photo are readable; the first desktop frame extends below the viewport and the separate credit capture covers the dated credit and opening prose.",
+      "Mobile article capture shows the complete 4:3 photograph and dated creator/licence caption. Prose and all three source notes are readable without visible horizontal clipping.",
+      "Both mobile incoming destination cards and the desktop Explore card show complete Barunei images, titles, summaries and links. The expanded hills credit list includes the correct Barunei author and licence.",
+      "Desktop and mobile existing conversations figures show the full portrait frame and modification credit. The direct base-JPEG screenshot separately shows the complete delivered portrait."
+    ],
+    "interaction_attribution": "Actual source 1 click and keyboard Enter return at both viewports, the three incoming card clicks, expanded credit disclosure and viewport reset were performed and recorded by Disha/root. Drishti independently inspected saved screenshots and HTML, without operating the browser."
+  },
+  "limitations": [
+    "This is an AI editorial and technical review, not a human or on-site review. Historical photo identity and source access limits from the source review remain applicable.",
+    "Screenshots are selected views. The source heading is above the notes captures; desktop photo and credit are documented across separate captures. No exhaustive accessibility, browser or device audit is claimed.",
+    "The production Analytics configuration and consent/status markup are an identified existing environment-dependent addition, not article changes. Every full-page difference is accounted for by that exact block plus observed responsive URL substitutions.",
+    "Explore has 35 observed responsive URL substitutions outside the exact Barunei card. Their markup relationships were classified; this review does not claim to have downloaded or visually reviewed every Explore image.",
+    "The responsive conversations figure shown in the page is distinct from its delivered JPEG base; both were separately inspected. Four measured image differences are accepted without an inferred encoding cause.",
+    "Raw root REVIEW_DIFFERENCES evidence is preserved. This delivery verdict supersedes neither raw measurements nor historical pending-stage records.",
+    "The article slot remains occupied until the reviewed evidence-only receipt actually merges. No new article authority, human review or programme credit is inferred."
+  ],
+  "blockers": [],
+  "evidence_sha256": {
+    "outputs/barunei-publication-2026-11-25/review/live-independent/http-verification.json": "fa4a958b4508c7453be82bfff7176d8794682fff5ec469de2c30c28937548cbe",
+    "outputs/barunei-publication-2026-11-25/review/live-independent/image-measurements.json": "1f74cbd2a51fe105e06389f8128fc245d9a49b20421dc874fe20ffcc31f5404c",
+    "outputs/barunei-publication-2026-11-25/review/live-independent/continuity.json": "fca7353edaa2a53e9a0c176aacc9b1cf573d4c4ad50a18fa3d8a5179171e69cb",
+    "outputs/barunei-publication-2026-11-25/review/live-independent/remote-verification.json": "ed1bfad74deb4e5c1f402c5a0b87653794f55f4e1991fcfed367e54e755a3c61",
+    "outputs/barunei-publication-2026-11-25/browser-live.json": "8473559341225f1d3fc91f1cad90f00f9b681e55b4412b77710ef675137d7085",
+    "outputs/barunei-publication-2026-11-25/live-verification.json": "f6dc733ae827f8149cc214de5c08b5f1d3d5932e5ba8fc4ea9eee26309efcff9",
+    "outputs/barunei-publication-2026-11-25/live-image-comparison.json": "d4e2253bf9a71905ea4e7a78aba132fcc8e4362963f26affd600148e6bde6601",
+    "outputs/barunei-publication-2026-11-25/review/exact-commit-review.json": "8644fcb5c43976e7854048e505dba25f2fe1774dc56f4d404e636d4407c40bc9",
+    "outputs/barunei-publication-2026-11-25/review/final-package-review.json": "f2be935b0f2c82f90d9c482cab746ab27f2bcee194729f1ecd60eb5cc732ad9d"
+  }
+}
