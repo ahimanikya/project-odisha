@@ -1,0 +1,164 @@
+{
+  "schema": "project-odisha-live-review-link-repair-review-v1",
+  "status": "PASS",
+  "reviewed_at": "2026-11-25T23:40:37.475683+00:00",
+  "reviewer": "article_integration_review",
+  "base_head": "9599f3e36f88a3c40c4c1e05289d400bd55fe394",
+  "tracked_diff_sha256": "d0011c02304dcd61a11ec7594728a0b8ed1c6da799039ef96634964443551060",
+  "reviewed_files": [
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "28cf603677d1a9fbbc4712cc5a226520c482437f9c4b456711861bac4005aa67"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "36236c49383fb49739f71830671a303d1724ae22312fabeeec74e4fc3437d567"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "cc57f7cdea1548f7ce818dd0cf139daa56e89e15922243add19340f22ec6026c"
+    },
+    {
+      "path": "kb/research/search-index.json",
+      "sha256": "4137d49d22ed049333ef47d6f1384ba90617199261c036fe931891405032bc81"
+    },
+    {
+      "path": "kb/research/stories/independent-features/food/sakhigopal-coconuts.md",
+      "sha256": "f17bd261655aff2dc047122378b218a40ab96540e8add26965e5b7d84883da89"
+    },
+    {
+      "path": "kb/research/stories/independent-features/nature/similipal-waterfalls.md",
+      "sha256": "e17d58e98abbf376c2915d279f100f8f42cbf093957d614a4f5207b8254186e2"
+    },
+    {
+      "path": "kb/research/stories/independent-features/places/motu-mugi-point.md",
+      "sha256": "5962b22febd702ef6078e3be9baeb151eb8330fbbfcd9bde95fa266bd1d9637a"
+    },
+    {
+      "path": "kb/research/stories/independent-features/source-register.md",
+      "sha256": "c228361779cec0ceb44c9126c8fa8e2fbba598a01a35fe6232b3c2859e0acd42"
+    },
+    {
+      "path": "kb/records/independent-articles-live-review-20261126.json",
+      "sha256": "39c1804f7697ab25d601ad847c53d93ebcb292eecba9d53d770c3112676894c9"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/browser-review.json",
+      "sha256": "58ddd96b3138ca9e09170cca44e3e7d56a8da4f4d19b23f6bbd9781dbb508928"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/handoff.json",
+      "sha256": "b7d0ceb2ba0a3de9f5bcccd5298718ef0fcb19bba14b17cc6558418e3414efc7"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/layout-code-review.json",
+      "sha256": "c4b948b7a58359f520bec4d49e542afb203f14a7f3b08df0d77117e513171204"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-discovery.json",
+      "sha256": "bb9f1932745a8d04947639e696fc96ecfa3ea87bca46d6c629987094a870f63c"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-external.json",
+      "sha256": "3644eb28741234728e8ad2284f6725c8ecff968bdfeae28dcfef086a4ee8960e"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-external.py",
+      "sha256": "fa0fb289c79a0da17936ad3c96ed71e9dae6f9512fb71d61bb7d3fc1e9fe4343"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-local-source.json",
+      "sha256": "6ae588326b6528b5d0ae2094da9abff88381e191e22f81576c1195f2d3fa13d4"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-recommendations.json",
+      "sha256": "7881fe70debfdf3c03d785499d6aaa98c686c6017d02a2243c2c33b00ee4b221"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-replacement-checks.json",
+      "sha256": "f9e0348992adcbae5efb9236d19737f49d307bd45bce279df421638ffaf042e0"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/link-audit-site.json",
+      "sha256": "eb2eb6570b669364735f3747d34556a699700dff00eac57e08c5a269ce4c1681"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/local-validation.json",
+      "sha256": "405c6c509af83efc926e976ce123e6693fdb45c607997c42ffec81821026d45f"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/suitability-review.json",
+      "sha256": "1d60be5ac676d2c27ca1918e37d3dad7e4102710f55d4722855e8ffda8e5878f"
+    }
+  ],
+  "findings": [],
+  "implementation_evidence": "No separate implementation report was created. Implementer confirmed bounded changes and preservation in agent messages; independently rechecked below. Source-page extraction is documented by the separate link researcher.",
+  "checks": {
+    "narrative_paragraphs_unchanged": 27,
+    "changed_citation_articles": [
+      "sakhigopal-coconuts",
+      "motu-mugi-point",
+      "similipal-waterfalls"
+    ],
+    "historical_original_sha256_generated_date_source_review_date_preserved": true,
+    "unique_dead_targets_replaced": 4,
+    "affected_footnote_definitions": 5,
+    "source_identifiers_preserved": true,
+    "metadata_and_visible_footnotes_aligned": true,
+    "one_time_in_memory_renderer": {
+      "articles": 27,
+      "footnotes": 109,
+      "metadata_source_occurrences": 109,
+      "distinct_metadata_sources": 94,
+      "every_metadata_resource_present_in_rendered_links": true
+    },
+    "permanent_test_edits": "None; implementation-mirroring added test/import removed by root and entire projects/site tree unchanged from base.",
+    "image_manifest_assets_captions_credits_unchanged": true,
+    "foreign_register_objects_unchanged": true,
+    "new_register_ids": [
+      "POD-WORK-20261126030",
+      "POD-DEC-20261126030"
+    ],
+    "activity_historical_bytes_exact_prefix": true,
+    "programme_credit": 0,
+    "publication_status": "Pending; records do not claim repaired links already published.",
+    "browser_report_scope": "Coordinator reports54 live article views at1280/390, two narrow320 credit checks, collection breakpoints and focusedExplore; later local dev-server checks of three repaired footnotes. This reviewer checked record coverage/consistency, did not repeat browser views.",
+    "sanitization": "Inspected new JSON reports and audit script. No raw response/challenge bodies, cookie/client-IP fields or token/session query values present. The handoff authorization key is the quoted task instruction, not an HTTP credential. Old private header captures remain outside this new folder."
+  },
+  "source_assessments": [
+    {
+      "article": "sakhigopal-coconuts",
+      "verdict": "PASS",
+      "basis": "Fresh web-reader inspection of https://www.ccsniam.gov.in/index.php/archive confirms the Odisha ENAM report listing. Footnote explicitly calls it a catalogue rather than full text and retains prior indexed-text basis.",
+      "fresh_full_report_read": false
+    },
+    {
+      "article": "motu-mugi-point",
+      "verdict": "PASS",
+      "basis": "Separate researcher verified publisher proceedings title/authors and printedp162. New notes explicitly say the listing does not reproduce section10 or full paper and retain prior-review basis for detailed claims.",
+      "limitation": "My fresh web-reader proceedings attempt timed out; exactpage assertion relies on researcher documented inspection, not independent fresh PDF extraction."
+    },
+    {
+      "article": "similipal-waterfalls",
+      "verdict": "PASS",
+      "basis": "Observed publisher catalogue mapping in sanitized source evidence identifies exactVolI PartI Core Area Plan CDN file; separate researcher extracted printed14–15/PDF8–9, confirming existingwatershed/environment context andTable1.c. Footnote distinguishes printed/PDFpage numbering accurately. Currentnotices landing target supports consultingnotices without adding a present opening guarantee.",
+      "limitation": "My web-reader could not access CDN PDF; page-content verification rests on separate researcher direct PDFKit inspection recorded in recommendations, not a new independent extraction."
+    }
+  ],
+  "source_register": "Dated repair note records all fourtargets and listinglimitations; it does not overwrite historicalreview basis or claim fresh verification of everyarticle fact.",
+  "root_reported_checks_not_rerun": [
+    "Existing27/94 structure test",
+    "research1535/local6142",
+    "register/catalogue/bundle/programme/team checks",
+    "Six local repairedfootnote browser screenshots"
+  ],
+  "remaining_gates": [
+    "Required CI/productionbuild and actualpublication",
+    "Fresh live verification of the repairedfootnotes after deployment"
+  ],
+  "limits": [
+    "No new article claims, image replacements, site implementation changes or shared-record edits by this reviewer.",
+    "External access restrictions are not treated as dead sources: four404targets are distinguished from twelve access/transport restrictions.",
+    "Only this review JSON written; no build or deployment performed."
+  ]
+}

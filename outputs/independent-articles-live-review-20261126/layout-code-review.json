@@ -1,0 +1,152 @@
+{
+  "review": "Read-only layout and code review of the 27 independent articles",
+  "reviewed_on": "2026-11-26",
+  "reviewer": "site_integration_plan / Samanta, implementation agent",
+  "base_from_current_handoff": "9599f3e36f88a3c40c4c1e05289d400bd55fe394",
+  "scope": "Article template, collection template, discovery image mapping, responsive image component, Explore credits/layout and existing regression tests.",
+  "status": "code_review_complete_no_confirmed_layout_blocker",
+  "source_hashes": {
+    "projects/site/src/pages/stories/odisha/[slug].astro": "ce87557005a16048efbd6abf8b384646b40e648af58ba1972aa14eabafb929d1",
+    "projects/site/src/pages/stories/odisha/index.astro": "6020ab83306c17daea21c9c330469c522b8670ae123434f0f95750e32519596d",
+    "projects/site/src/data/independent-features.ts": "ef39804e62e37ca3610ca5b28738f823962ffaf2d87438e9ec1a80961c7891f1",
+    "projects/site/src/components/ResponsiveImage.astro": "2dd95cff185fa906ae058a67e4484768321a1f6b0138e08857771f738b0bb178",
+    "projects/site/src/pages/explore.astro": "898af6ace9897af6fb29ff77ccebdad02fbc8a03c094a0ceb9ac617c4b7eb404",
+    "projects/site/src/styles/article-reading.css": "8174015acacbe6af334de30646054fc2b411d12369811f905f2efc01c369fceb",
+    "projects/site/src/styles/global.css": "41a269ee944f4f68b0b0ebeb1aabbf32adba06c3e4693e895e6b94f4854d0cfb",
+    "projects/site/tests-coast/independent-features.test.mjs": "04f88a0db0549aac81ec6f47ace4dcca246d074e5389675c7cc68219a27313b3",
+    "kb/research/stories/independent-features/images.json": "d135222aed2f427b4ac41e59225d342ee6922d40205f83874e5a7fdfc569c485"
+  },
+  "guidance": {
+    "file": "/private/tmp/odisha-27-live-review-guidance.txt",
+    "guides": [
+      "responsive-design",
+      "css-layout"
+    ],
+    "applied_review_checks": [
+      "Natural image aspect and reserved dimensions",
+      "Intrinsic grid sizing and min-width:0",
+      "Long-link wrapping without clipping",
+      "Responsive breakpoints, zoom and readable credit presentation"
+    ]
+  },
+  "confirmed_code_properties": [
+    {
+      "property": "All 27 article images preserve their full frame.",
+      "evidence": "[slug].astro lines41-45,54-55; article-reading.css figure image rule. Width is min(available width,native width,580*native aspect ratio), height auto and object-fit contain; caption shares figure width."
+    },
+    {
+      "property": "Collection images and captions keep natural dimensions and visible context.",
+      "evidence": "index.astro lines23-30,48-58. A220px image track sits beside flexible caption; below601px it stacks. Full image.caption and source-title/creator/licence/changes remain visible. minmax(0,1fr), min-width:0 and link overflow-wrap:anywhere prevent intrinsic-width expansion."
+    },
+    {
+      "property": "Explore preserves all new image frames and distinct credit disclosures.",
+      "evidence": "independent-features.ts lines17-21 sets fit:contain; explore.astro lines7-11,23,28 deduplicates complete credit identities and applies explore-contain. Fixed preview aspect reserves a frame but contain avoids source-image cropping."
+    },
+    {
+      "property": "Responsive choices retain dimensions and deterministic metadata.",
+      "evidence": "ResponsiveImage.astro lines2-5 preserves generated fallback or supplied srcset and emits sizes only when appropriate; hero is eager/high priority and previews are lazy. Explicit article shareImage uses primary image, not the thumbnail."
+    },
+    {
+      "property": "Headings, list semantics and citation navigation are retained.",
+      "evidence": "Collection uses h1/h2/h3 hierarchy and role=list; article source headings remain visible; regression tests verify unique IDs, source notes and return links for all27."
+    }
+  ],
+  "confirmed_defects": [],
+  "browser_check_targets": [
+    {
+      "id": "long-credit-wrap",
+      "priority": "focused check",
+      "routes": [
+        "/stories/odisha/coastal-shell-craft/",
+        "/stories/odisha/jalaput-machkund/"
+      ],
+      "reason": "These include the longest specimen title and processing/embedded-attribution disclosures. Links have wrapping protection, but readability and the visual relation between caption and image require viewing.",
+      "checks": [
+        "At320-390px viewport confirm no page-level horizontal overflow and full credit text remains visible.",
+        "Confirm specimen labels and satellite embedded attribution are not cropped; do not require thumbnail-scale label legibility.",
+        "At200% zoom ensure source and licence links remain reachable without overlap."
+      ],
+      "defect_confirmed": false
+    },
+    {
+      "id": "portrait-caption-alignment",
+      "priority": "focused check",
+      "routes": [
+        "/stories/odisha/bande-utkala-janani/",
+        "/stories/odisha/cyclone-dana/"
+      ],
+      "reason": "Portrait figures are capped to approximately369.3px and414.2px respectively at the580px height limit; captions intentionally share that narrower centered width.",
+      "checks": [
+        "Confirm full portrait/meteorological image remains visible.",
+        "Confirm long caption and credit wrap within the same centered figure rather than extending into a blank panel."
+      ],
+      "defect_confirmed": false
+    },
+    {
+      "id": "collection-breakpoint",
+      "priority": "focused check",
+      "routes": [
+        "/stories/odisha/"
+      ],
+      "reason": "The collection switches between a220px/flexible two-column figure and a single column at600px.",
+      "checks": [
+        "Check600px and601px or nearby narrow tablet widths, especially coastal-shell-craft and jalaput-machkund rows.",
+        "Check source filename links, description and credit do not collide; no horizontal scrolling."
+      ],
+      "defect_confirmed": false
+    },
+    {
+      "id": "explore-credit-legibility",
+      "priority": "focused check",
+      "routes": [
+        "/explore/"
+      ],
+      "reason": "Explore image credits currently use13px text and illustration labels11px; credits reside in an expandable details block. This is a concrete small-type configuration, not a confirmed accessibility failure.",
+      "checks": [
+        "Open Collection image credits on mobile and at200% zoom.",
+        "Check title/source/licence links remain readable and operable.",
+        "Confirm full frames for new portrait and satellite previews despite fixed preview aspect ratio."
+      ],
+      "defect_confirmed": false
+    }
+  ],
+  "nonblocking_delivery_observations": [
+    {
+      "file": "projects/site/src/pages/stories/odisha/[slug].astro:43",
+      "observation": "Hero sizes advertises695px desktop even when a portrait figure is capped near369-414px. This can select a larger image than necessary; it does not crop or stretch the image.",
+      "action": "No speculative fix; only revisit if measured transfer cost warrants tuning."
+    },
+    {
+      "file": "projects/site/src/pages/stories/odisha/index.astro:24",
+      "observation": "Below601px the sizes hint tracks viewport width although the image itself is capped at360px. Around600px this may choose a larger source than the displayed image needs.",
+      "action": "No layout fix required from this code audit; retain quality unless browser/network evidence supports adjustment."
+    }
+  ],
+  "verification": {
+    "command": "node --test tests-coast/independent-features.test.mjs",
+    "runtime": "Node25.8.1",
+    "cwd": "projects/site",
+    "result": {
+      "tests": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    "verified_artifacts": "Existing local dist-coast and canonical image metadata; not a fresh build and not proof of live deployment.",
+    "coverage": [
+      "27 unique articles and six categories",
+      "94 distinct independent text sources",
+      "Visible footnotes and valid reference/backref targets",
+      "27 actual local raster files/dimensions and rights fields",
+      "Article/collection/Explore image sources, responsive pairs and contain classes",
+      "All27 exact collection captions and complete Explore credit rows",
+      "Primary social images"
+    ]
+  },
+  "limitations": [
+    "No browser/CUA actions performed by this agent. Root owns the54 live desktop/mobile views.",
+    "No HTTP link audit or independent image-rights adjudication performed; assigned to other agents.",
+    "Existing tests assert markup/data contracts, not computed geometry, naturalWidth after live loading, keyboard operation or visual legibility.",
+    "No source edits, build, Git action or publication performed. Only this report was written."
+  ],
+  "recommendation": "Do not make speculative layout changes. Reconcile the root browser evidence with the focused targets above and implement only observed issues under an explicit bounded assignment."
+}
