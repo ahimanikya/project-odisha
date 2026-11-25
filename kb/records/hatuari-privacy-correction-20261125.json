@@ -1,0 +1,82 @@
+{
+  "status": "candidate_reviewed",
+  "article_id": "POD-EDIT-KAPILESWAR-HATUARI-20261123",
+  "route": "/stories/kapileswar-hatuari/",
+  "authorization": "Can we fix the article before I post",
+  "authorized_on": "2026-11-25",
+  "scope": "Remove public identification and linking of the potentially private discussion and source-dependent passages. Retain independently sourced history, uncertainty and licensed photograph. Historical provenance is not consent and is not rewritten.",
+  "owner": "Disha",
+  "programme_credit": 0,
+  "assignments": {
+    "Anvesha": "Read-only evidence dependency and public exposure audit",
+    "Samanta": "Edit only kb/research/places/kapileswar-hatuari-article.md; render and verify correction; no shared records or Git operations",
+    "Drishti": "Separate read-only final candidate and live review"
+  },
+  "publication": null,
+  "coordination": {
+    "kind": "bounded_existing_article_correction",
+    "authority": "User requested correction before sharing. No new article programme claim.",
+    "foreign_scopes_preserved": [
+      "Gonasika preparation",
+      "Nilagiri next reservation",
+      "Kala Bhoomi and existing handoff records"
+    ],
+    "observation": "Main includes completed Malayagiri and memoir receipts; no active publication PR/run observed during preparation. Hill coordinator notified, reply not received; no explicit handoff claimed. Other chat reports Gonasika preparation and Nilagiri reservation.",
+    "release_gate": "Recheck exact remote main, open release PRs and active publication jobs immediately before merge/deploy; avoid concurrent release. Send actual completion notice.",
+    "review": "Separate reviewer confirms no further human approval needed for bounded user-authorized correction; silence does not release foreign ownership."
+  },
+  "authorization_id": "POD-DEC-20261125101",
+  "work_id": "POD-WORK-20261125101",
+  "historical_exposure_limit": "This corrects the current website article. The repository is public; earlier source revisions, publication captures and history are not private and are not erased by this correction.",
+  "source_review": {
+    "reviewer": "Anvesha, separate subagent",
+    "result": "pass",
+    "scope": "Existing evidence only: remove both discussion-dependent passages and board note; do not anonymize and retain their claims. Independent publication and photograph sources retained. No other current public article export discovered; prior public repository captures remain historical.",
+    "human_review_claimed": false
+  },
+  "source_candidate_review": {
+    "reviewer": "Drishti, separate subagent",
+    "result": "pass",
+    "scope": "Exact removals preserve seven independent source notes, qualified dating and conservation claims, and photograph rights. No anonymized replacement claims. Rendered review pending.",
+    "human_review_claimed": false
+  },
+  "local_browser_review": {
+    "result": "pass",
+    "reviewer": "Disha, actual CUA browser",
+    "viewport_desktop": [
+      1280,
+      720
+    ],
+    "viewport_mobile": [
+      390,
+      844
+    ],
+    "mobile_scroll_width": 390,
+    "notes": 7,
+    "discussion_text_and_profile_link_present": false,
+    "note_four_and_backlink": "clicked and verified",
+    "screenshots": [
+      "outputs/hatuari-privacy-correction-20261125/local-desktop.png",
+      "outputs/hatuari-privacy-correction-20261125/local-mobile-notes.png"
+    ]
+  },
+  "validation": {
+    "full_tests": {
+      "passed": 829,
+      "failed": 0
+    },
+    "coast_tests": {
+      "passed": 599,
+      "failed": 0
+    },
+    "focused_tests": {
+      "passed": 2,
+      "failed": 0
+    },
+    "full_and_coast_disclosure": "pass",
+    "full_and_coast_rendered": "7 notes,9 markers; fragments resolve; removed passages and references absent",
+    "publication_package": "pending",
+    "required_ci": "pending",
+    "live_verification": "pending"
+  }
+}
