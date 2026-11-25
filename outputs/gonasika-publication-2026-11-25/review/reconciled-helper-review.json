@@ -1,0 +1,35 @@
+{
+  "reviewer": "Drishti (separate AI review)",
+  "date": "2026-11-25",
+  "result": "pass_bounded_helper_review",
+  "scope": "Read-only review of three reconciliation helper changes against HEAD0a56bf8619ab79e4575ff6498489c6f379bcc411 plus current full/coastal artifacts. Final publication package still pending.",
+  "human_review_claimed": false,
+  "release_ready": false,
+  "sha256": {
+    "outputs/gonasika-publication-2026-11-25/run-checks.py": "520c74c92c3c65f39a1bab0dbd2f2cafcd2529824f84199f5ebf564a6a3a7509",
+    "outputs/gonasika-publication-2026-11-25/verify-local.py": "33084ae1c9fdd160762cc56727b1745ad356b876c8d54acf24714a4ccfa06c42",
+    "outputs/gonasika-publication-2026-11-25/verify-live.py": "15f20fa34de264ef500aa98a90e69f47c4c3955c3f017d10faa2f81da9b9789b"
+  },
+  "findings": [],
+  "checks": {
+    "diff": "Existing validation retained; additions6/1 lines in runner (result row augmented),17/0 local,7/0 live. All three parse as Python. No relaxed manuscript/media/protected/exclusion/capacity comparison.",
+    "runner": "Before pipeline, checks actual ignored source PDF size and SHA against reviewed descriptor, resets stale stage results, records source HEAD and descriptor digest with each completed stage. Exits on failed stage.",
+    "pdf_path": "Independently read export-dhaga.mjs validatePdfDelivery: emitted /archive/odia-dhaga-{entries}-{sha256}.pdf, with descriptor/packing/collection consistency and source byte hash enforced. Current entries550; helper literal550 matches current actual descriptor and export.",
+    "actual_pdf": "Current dist and dist-coast both contain exact190011210-byte latestPDF SHA1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373. Publication artifact not evaluated in this review.",
+    "foreign": "Helper actually checks73 exact incoming paths after seven additive/shared exceptions; all73 independently compared and match fe426d768e2f40a3fd6f1a5ab2d76f4bbe3b0c5f. Earlier independent reconciliation70 excluded three additional exact history/index paths. Additive exceptions remain covered by separate reconciliation review, not presumed by helper.",
+    "hatuari_selector": "Regex selects exactly one current article-reading article in both full/coastal outputs. Corrected fragment SHA72e05ea9d799e9fbf216ff8a8859f0ed5ef4ccde724493215815867b8a486ce8 identical. Independently found7unique notes,9markers,9returns, all target IDs resolve; removed discussion strings absent.",
+    "live": "Adds sixth route with fresh fetch and strict exact local article-fragment comparison, plus removed discussion string absence. Any changed responsive filename would fail closed for separate review; no automatic normalization/acceptance added. It does not fetch Hatuari media separately and does not claim that coverage.",
+    "current_pipeline": "Observed first five completed stages successful: full-build, full-disclosures, full-tests, coast-build, coast-disclosures. Root separately reports829 fulltests; no new build/test execution by this reviewer."
+  },
+  "limitations": [
+    "Runner measures PDF once at pipeline entry; each stage carries that descriptor digest rather than separately rehashing source PDF before every stage. Existing exporter checks it again when exporting, and final verifier hashes all three emitted PDFs. Do not describe the carried digest as independent per-stage PDF measurement.",
+    "Source HEAD is captured once and not a full dirty-tree fingerprint; final frozen-manifest/exact-commit review remains required.",
+    "The Hatuari fragment selector covers article content, not every byte in surrounding page or every emitted media file. Fixed current removed-string checks complement exact corrected source preservation and later live fragment equality.",
+    "Current actual output inspection was full/coastal only. Final publication package, real capacity, full final helper execution, hosted CI, deployment and live review remain unverified here."
+  ],
+  "remaining_gates": [
+    "Complete current publication package and run corrected local verifier.",
+    "Independently review final emitted artifacts, protected exclusions and actual strict payload.",
+    "Frozen candidate and hosted/live delivery reviews before release."
+  ]
+}

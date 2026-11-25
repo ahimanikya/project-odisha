@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e0ac92fcdf0597e57467da45e7fe853267b424da08c299da262af4c895098def`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f7d6748e84fd903dbd9db300498c32a42869820c88ec0b1e880a02c0ae07e08f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1517,7 +1517,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261125202 | 2026-11-24T20:30:42.022448+00:00 | Independent source and rendered review passed;828full/599coastal tests and5468page checks passed. Final local3163deliverychecks and999161472byte/3670file package passed. Root checked14meaningful desktop/mobile views plus three actual incoming links. HostedCI, deployment and reviewed delivery receipt remain; no live publication claimed. | — |
 | POD-EVT-20261125203 | 2026-11-24T21:50:32.325822+00:00 | PR855 final reviewed head5b1a5cc5 passed CI45483987588 and mergedf9a056fe; deployment45489423611 succeeded. Separate fresh delivery review passed5routes/10images/14root desktop-mobile screenshots and actual source/incoming-link actions. All Jhoti media/page fragments exact; one existing JPEG difference measured/visually accepted. Actual999952877bytes/3670files leaves47123bytes. Earlier internal digest failures preserved. Zero programme credit; slot held until reviewed receipt actually merges. | — |
 | POD-EVT-2026112591 | 2026-11-24T22:30:45.688255+00:00 | Verified Jhoti receipt PR856/CI and explicit return; reconciled0929dad2 and38protected hashes. Selected uncovered Malayagiri after scoped reuse search; research/media/capacity pending, zero programme credit. | — |
 | POD-EVT-2026112592 | 2026-11-24T23:10:05.894092+00:00 | Actual separate local source/media/code/rendered/package reviews and tests passed. Candidate awaits exact commit, hosted CI, deployment and live receipt. Zero programme credit. | — |
@@ -1527,6 +1526,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112594 | 2026-11-25T01:33:03.998314+00:00 | Accepted reviewed Nilagiri preparation commit and verified 28 delivery hashes plus completion review; sole hill slot claimed. Gonasika source/media checks active. Nilagiri publication reserved after completed reviewed receipt; foreign ownership and all preparation retained. | — |
 | POD-EVT-20261125101 | 2026-11-25T03:40:24.839623+00:00 | User requested correction before sharing. Preparing removal of discussion-derived attribution and passages; independent sources and licensed photo retained. No publication claimed. | — |
 | POD-EVT-20261125102 | 2026-11-25T05:02:43.640956+00:00 | Reviewed correction PR860 and deployment45546126487 succeeded. Live article matches corrected build,7notes and2articleimagefiles exact; History link valid. Historical repository exposure persists. Receipt merge and explicit temporary-slot return remain; zero programme credit. | — |
+| POD-EVT-2026112595 | 2026-11-25T05:41:21.011816+00:00 | Verified Hatuari receipt862 mergefe426d76 and successful CI45551097225; accepted explicit returned slot. Reconciled correction and Dhaga861, retained prior local review and67protected preparationfiles. Exact new Dhaga PDF hydrated before fresh combined build. No Gonasika publication claimed; Nilagiri remains reserved next. | — |
 
 ## Deferred extensions
 

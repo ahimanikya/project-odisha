@@ -23,7 +23,12 @@ stages = [
     ('publication-disclosures', ['node', 'tools/check-public-disclosures.mjs', 'dist-publish']),
     ('search-shortlist', ['python3', 'tools/audit-search-shortlist.py']),
 ]
+descriptor=json.loads((ROOT/'projects/odia-dhaga/pdf-delivery.json').read_text())
+pdf=ROOT/'projects/odia-dhaga/odia-dhaga-book.pdf'
+assert pdf.stat().st_size==descriptor['bytes'] and hashlib.sha256(pdf.read_bytes()).hexdigest()==descriptor['sha256'], 'Hydrate exact reviewed Dhaga PDF before builds'
+source_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 results = []
+(OUT / 'build-results.json').write_text('[]\n')
 (OUT / 'checks').mkdir(exist_ok=True)
 for stage, command in stages:
     started = time.time()
@@ -31,7 +36,7 @@ for stage, command in stages:
     print('START', stage, flush=True)
     with (OUT / 'checks' / (stage + '.log')).open('w') as log:
         code = subprocess.run(command, cwd=SITE, env=env, stdout=log, stderr=subprocess.STDOUT).returncode
-    results.append({'stage': stage, 'command': command, 'exit_code': code, 'elapsed_seconds': round(time.time() - started, 2), 'manuscript_sha256': manuscript_sha256})
+    results.append({'stage': stage, 'command': command, 'exit_code': code, 'elapsed_seconds': round(time.time() - started, 2), 'manuscript_sha256': manuscript_sha256, 'source_head': source_head, 'dhaga_pdf_sha256': descriptor['sha256']})
     (OUT / 'build-results.json').write_text(json.dumps(results, indent=2) + '\n')
     print('END', stage, code, flush=True)
     if code:

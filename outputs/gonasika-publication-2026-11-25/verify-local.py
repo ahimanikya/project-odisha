@@ -86,6 +86,23 @@ def main():
     for k in ['current_task','handoff_home']:check(previous[k]==current[k],'Foreign ownership preserved '+k)
     memoir='kb/records/odia-homepage-publication-20261123.json'
     check((ROOT/memoir).read_bytes()==subprocess.check_output(['git','show','a377c8f5beb9811ca35697b535ab7f40ae0abe56:'+memoir],cwd=ROOT),'Merged memoir receipt859 preserved')
+    latest='fe426d768e2f40a3fd6f1a5ab2d76f4bbe3b0c5f'
+    foreign_paths=subprocess.check_output(['git','diff','--name-only','a377c8f5beb9811ca35697b535ab7f40ae0abe56',latest],cwd=ROOT,text=True).splitlines()
+    additive={'kb/records/article-editorial-rollout.json','kb/records/editorial-workbench.json','kb/registers/DASHBOARD.md','kb/registers/activity.jsonl','kb/registers/records.json','kb/research/references/data/research-map.json','projects/site/editions/coast.json'}
+    for path in foreign_paths:
+        if path not in additive:
+            check((ROOT/path).read_bytes()==subprocess.check_output(['git','show',latest+':'+path],cwd=ROOT),'Exact foreign correction/Dhaga preservation '+path)
+    descriptor=json.loads((ROOT/'projects/odia-dhaga/pdf-delivery.json').read_text())
+    check(all(x.get('dhaga_pdf_sha256')==descriptor['sha256'] for x in stages),'Every rebuild binds latest reviewed Dhaga PDF')
+    pdf_name='odia-dhaga-550-'+descriptor['sha256']+'.pdf'
+    for edition in ['dist','dist-coast','dist-publish']:
+        base=SITE/edition
+        pdf=base/'archive'/pdf_name
+        check(pdf.stat().st_size==descriptor['bytes'] and sha(pdf.read_bytes())==descriptor['sha256'],edition+': exact latest reviewed Dhaga PDF')
+        h=(base/'stories/kapileswar-hatuari/index.html').read_text();hp=parse(h);hb=fragment(h)
+        check(not any(x.lower() in hb.lower() for x in ['Gayatri','Sambit','facebook.com','hatuari-board','elder-brother']),edition+': Hatuari removed discussion material stays absent')
+        hrefs=[x for x in hp.links if x.startswith('#user-content-fn-')]
+        check(len(hrefs)==9 and len(set(hrefs))==7,edition+': corrected Hatuari seven notes/nine markers retained')
     protected=json.loads((OUT/'preserved-preparation.json').read_text())['files']
     for f in protected:check(sha((ROOT/f['path']).read_bytes())==f['sha256'],'Preparation preservation '+f['path'])
     for name in ['antaranga-after-belghar-preparation-20261123','antaranga-after-tensa-preparation-20261124','jhoti-publication-20261125','saptasajya-publication-20261124','tensa-publication-20261124','malayagiri-publication-20261125','antaranga-after-malayagiri-preparation-20261125']:

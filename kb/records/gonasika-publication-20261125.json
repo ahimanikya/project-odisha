@@ -1,5 +1,5 @@
 {
-  "status": "implementation_review",
+  "status": "candidate_prepared_pending_final_checks",
   "article_id": "POD-EDIT-GONASIKA-20261125",
   "route": "/destinations/gonasika/",
   "owner": "Disha",
@@ -81,7 +81,7 @@
     "condition": "Only after Gonasika reviewed receipt actually merges and explicit handoff.",
     "authority_basis": "Other chat reports a newer direct Founder instruction for Nilagiri publication; not independently read here. This is a coordination reservation only, not publication authority for this release. Receiving chat must act under its actual human instruction. Historical preparation remains publication_authorized=false."
   },
-  "next_action": "Verify sources and photograph, implement one reviewed article, publish and verify live before receipt completion.",
+  "next_action": "Run hosted candidate checks while final local compression completes; no merge or publication before fresh final local artifact and independent exact-head review pass.",
   "initial_consistency_correction": "First team check during claim assembly failed because rollout row was not yet appended. Added owned in-progress Gonasika row; no authorization or review inferred. Register check also rejected readiness research; changed to allowed draft value, retaining research phase in handoff. Later review-register assembly rejected an outside-KB ../outputs evidence path; corrected register to canonical KB handoff which links actual review evidence. Register rejected noncanonical passed/missing independence fields; corrected to pass and explicit true reflecting actual separate Drishti worker.",
   "remote_reconciliation": {
     "main": "07c3e16e85b4e342ef469259f545d4698e73dec2",
@@ -120,5 +120,45 @@
     "photo_conservative_words": 90
   },
   "implementation": "outputs/gonasika-publication-2026-11-25/review/implementation.md",
-  "quality_review": "outputs/gonasika-publication-2026-11-25/review/drishti-review.json"
+  "quality_review": "outputs/gonasika-publication-2026-11-25/review/drishti-review.json",
+  "temporary_hatuari_slot": {
+    "record": "outputs/gonasika-publication-2026-11-25/temporary-release-handoff.json",
+    "returned": true,
+    "receipt_pr": 862,
+    "receipt_merge": "fe426d768e2f40a3fd6f1a5ab2d76f4bbe3b0c5f",
+    "required_ci": 45551097225,
+    "required_ci_conclusion": "SUCCESS",
+    "verified": "Actual GitHub PR state and checks, plus explicit return from correction chat.",
+    "reconciled_commit": "0a56bf86",
+    "included_foreign_change": "DhagaPR861 preserved; no Gonasika attribution to its review.",
+    "conflicts": "Stable-ID three-way register merge and original activity-line union; generated dashboard/workbench rebuilt."
+  },
+  "reconciliation_review": {
+    "path": "outputs/gonasika-publication-2026-11-25/review/reconciliation-review.json",
+    "sha256": "c38978b8e8a6474989a63e454c97ada07b9eb66d438bbfd06e6837846c1b18c4",
+    "result": "PASS",
+    "scope": "Committed reconciliation0a56bf86 only; final rebuiltpackage/helper/live review separate."
+  },
+  "pre_correction_package_review": {
+    "path": "outputs/gonasika-publication-2026-11-25/review/rendered-package-review.json",
+    "result": "PASS for prior local snapshot, not a current release approval",
+    "screenshots": 17,
+    "archive": "outputs/gonasika-publication-2026-11-25/pre-hatuari-package/"
+  },
+  "local_validation": {
+    "full_tests": 829,
+    "coast_tests": 599,
+    "page_acceptance_checks": 5476,
+    "build_results": "outputs/gonasika-publication-2026-11-25/build-results.json",
+    "status": "Reconciled full/coastal tests and audits passed; final publication compression and subsequent final artifact review still running. Candidate may enter hosted checks but must not merge/publish before final separate package and exact-head review.",
+    "root_browser_review": "outputs/gonasika-publication-2026-11-25/browser/local-review.json",
+    "scope": "Earlier17captures cover unchanged Gonasika/layout/Mardala source; final emitted parity still required.",
+    "artifact_report": "outputs/gonasika-publication-2026-11-25/local-verification.json"
+  },
+  "helper_review": {
+    "path": "outputs/gonasika-publication-2026-11-25/review/reconciled-helper-review.json",
+    "sha256": "07f43a811cf492ec8f7df34f39de4cb709f01ef7bfd59fa8a4ddd640b8af97da",
+    "result": "PASS",
+    "limit": "PDF bytes measured once at pipeline entry; stage entries carry that descriptor digest. Final verifier measures each emitted edition."
+  }
 }

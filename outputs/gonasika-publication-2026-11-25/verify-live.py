@@ -97,6 +97,13 @@ def main():
             check(bool(credit),route+': photograph source credit')
             for v in [im['creator'],im['license_url'],im['changes']]:check(any(v in unescape(c) for c in credit),route+': preview credit '+v)
         report['routes'].append({'route':route,'file':str(dest.relative_to(ROOT)),'sha256':sha(b),'status':200})
+    correction_route='/stories/kapileswar-hatuari/'
+    dest=OUT/'live'/correction_route.strip('/')/'index.html'
+    b=fetch(ORIGIN+correction_route,dest);actual=fragment(b.decode());expected=fragment((LOCAL/correction_route.strip('/')/'index.html').read_text())
+    check(actual==expected,'Live Hatuari corrected article remains exact after Gonasika deployment')
+    check(not any(x.lower() in actual.lower() for x in ['Gayatri','Sambit','facebook.com','hatuari-board','elder-brother']),'Live Hatuari removed discussion material remains absent')
+    report['correction_preservation']={'route':correction_route,'fragment_sha256':sha(actual.encode()),'exact_local':True}
+    report['routes'].append({'route':correction_route,'file':str(dest.relative_to(ROOT)),'sha256':sha(b),'status':200})
     for n,(url,local_url) in enumerate(images.items()):
         path=OUT/'live/images'/(str(n)+Path(url).suffix);b=fetch(ORIGIN+url,path);local=LOCAL/local_url.lstrip('/');lb=local.read_bytes();same=b==lb
         if '/images/responsive/' in url:check(Path(url).name.split('-')[0]==sha(b)[:16],'Live responsive filename hash '+url)
