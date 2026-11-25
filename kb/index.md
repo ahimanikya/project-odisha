@@ -29,6 +29,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+[Dhaga editorial review complete — 25 November 2026](records/odia-dhaga-review-complete-2026-11-25.json): all550 entries individually reviewed; the final four interpretation decisions are recorded, with zero outstanding editorial questions or required spelling/explanation fixes for this edition. Existing published wording already matches these decisions; no rebuild is required. Historical and literal uncertainties remain evidence limits, not pending editorial choices.
+
 [Hosting capacity](records/hosting-capacity-20261108.json): published and verified using existing GitHub. Fourteen unchanged videos now use release delivery, removing108.6MB from the website payload. The deployed site is870.3MB with129.7MB free. All11current PDFs retain direct website downloads and exact bytes;39video pages and40poster/caption files pass live checks. Download-verification receipt PR731 is merged.
 
 Book-download reliability: [Cinema delivery and website audit](records/book-downloads-20261108.json). Published and live verified: current Cinema screen, print and introduction PDFs open directly from the website with exact reviewed bytes and partial-download support.34book/source-PDF links responded successfully; Dhaga and six character PDFs also passed partial-download checks.
