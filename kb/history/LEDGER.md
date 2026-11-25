@@ -1656,3 +1656,9 @@ The Founder requested adding the approved explanation with both historical readi
 **25 November 2026 · Founder decision recorded**
 
 All550 Dhagas have completed the editorial review for this edition. The four final decisions retain the fixed-expression meaning of178, broad sugar treatment in428, plenty-versus-scarcity in498, and a general interpretation without an assigned speaker or origin for550. No editorial questions or required spelling/explanation fixes remain. Existing published content already matches these decisions; no new deployment is required. Evidence limits and earlier review outcomes remain preserved. [Completion record](../records/odia-dhaga-review-complete-2026-11-25.json).
+
+## POD-HIS-DHAGA-ILLUSTRATIONS550-20261125 · Illustration review of all550 Dhagas
+
+**25 November 2026 · Review complete with three correction briefs**
+
+All550 current illustrations were actually viewed against their final entries.547 can be retained.142 and386 need clearer same-actor staging;504 needs the flat grinding slab specified by the text.288 and497 have optional clarity improvements. The completed textual review remains unchanged. No artwork, website or PDF was changed in this audit. [Review record](../records/odia-dhaga-illustration-review-2026-11-25.json).
