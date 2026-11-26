@@ -1,0 +1,397 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "scope": "Final combined local package acceptance for exact committed source a8b701f8. Required hosted evidence and authorized merge/deployment/live review are separate gates.",
+  "head": "a8b701f8e24a1c7bd83199793e9b1f2e8dfc4b54",
+  "tree": "8656702066ebedbf1a0278fc0fbf4b180107e056",
+  "contract_sha256": "c44cbdf28995d1674e5a4b967ec234d4eac8476f02adbe7cb638db15ec042c70",
+  "source_input_count": 35,
+  "source_hashes": {
+    "kb/reference/public-website-routes.json": "3181a6c172e851c58ae0cc83ce152744b58bc881ab6f693d7aeb1f146b7e8864",
+    "kb/research/culture/pana-sankranti.md": "ce1db0ddd2fc122eb241b56842ed3e5d16cd4d3b895932104b6bfb0b6c491879",
+    "kb/research/places/mahavinayak-article.md": "8772cfa910c63e1ec9027feda857a924c4d6c78b5fcf8871ed231c32f3247b2e",
+    "kb/research/places/mahavinayak-image.json": "5a281b2ea88fa9f46808b25f4f44d7bdaa8d3bccc7076eaaec55faa3d44b49b2",
+    "kb/research/search-index.json": "381cfbdf7223fb4a27f087d684b30d52d23fc85b6d148c5596d8daa8c55bb7be",
+    "kb/research/stories/independent-features/arts/bande-utkala-janani.md": "88f5e9cc82fabc1fb12c6d5b4cfe6d1623c9ae423c4fb1038345d8f50bb66f75",
+    "kb/research/stories/independent-features/arts/dhemsa.md": "245e67e1c2ed3b90c11fdbeb13120ea72753c9c92d050d2853e1d34df9c47927",
+    "kb/research/stories/independent-features/arts/raja.md": "6da729480f149b27cc49bbc5f9adc1b7dbc2246fd3a2ee37a23ef2af9188e34d",
+    "kb/research/stories/independent-features/history/bali-jatra.md": "ae3e2ca44131dc76ff5778e6fca39be1ffc7d328cbd5cd2df4f6c4d20254a4c0",
+    "kb/research/stories/independent-features/history/coastal-shell-craft.md": "e5ab314892d6d75328fe51cde29c93b8ee865b658e7534de09e6a368fac84281",
+    "kb/research/stories/independent-features/nature/cyclone-dana.md": "52ed539f7e74b91729b2edb644ef36826b98770028291f1e0632cab43c19f9cd",
+    "kb/research/stories/independent-features/nature/mandasaru.md": "0a29da4efb922ff1656cad0fb5881412f789cb7624ced747f7197a198d3bd1f8",
+    "kb/research/stories/independent-features/nature/similipal-waterfalls.md": "014b8e24127028f440d94135ba0c4c7ed2b42ecc65c1f0f297dc21bdbcbc432e",
+    "kb/research/stories/independent-features/source-register.md": "d4fd6b1d36e608f62c4c369957364026d3a88b5e27652b89ef99feca5d35c430",
+    "projects/site/editions/coast.json": "a1d0a104d9ef43f341d1c4297d4e9f7009b402ee85b4490d135cf732b994c8fc",
+    "projects/site/editions/responsive-images.json": "98aca39aa68ff1a398af27b478e0ffa1efee5d50ce9e78a393eb93dcb0cc50b5",
+    "projects/site/editions/search-candidate.json": "58a2b21c7a19a23d8141e0ff74312a7a637bca27a0965208dd55a969977a74fa",
+    "projects/site/public/images/destinations/mahavinayak-temple-kamalakanta777.webp": "0cc429b057f1073b1ac88b562c766b659ba38c466670925e66c7fdf6f0be146b",
+    "projects/site/src/data/discovery.ts": "a72364fe8b7cb1cb3c022fbec2921b72018478d0a864f36e1554f46e39902470",
+    "projects/site/src/data/hill-destinations.ts": "27c6481c5accfdd79f331d88a9035cb398638b9b17f07f7157c534ea2b71282d",
+    "projects/site/src/pages/destinations/hills.astro": "959c2567da4caa442910d5fc1bf20280002dc04e47ccd77c543a73430939d85b",
+    "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
+    "projects/site/src/pages/destinations/mahavinayak.astro": "c2dbc00ecf70cac36f152271c9cafaea5c5024c12c40c8fe6096c6d5da50cd8f",
+    "projects/site/src/pages/explore.astro": "898af6ace9897af6fb29ff77ccebdad02fbc8a03c094a0ceb9ac617c4b7eb404",
+    "projects/site/src/pages/stories/pana-sankranti.astro": "608a5d153c4f3fc24509dde54bd7cf1223e2684aac5e19af5e1a252c38300495",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "54d0804126ac2776ab8246ce194da9bc9f50689b94e836ed55e11b45a237fcc2",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "7b02aada91702ecb7d19a7c16e256626208783159360bd8dfc78d9e97e55bc09",
+    "projects/site/tests-coast/edition.test.mjs": "88363214bf504cae648496065501ea9bbc4c3cb4f2a3edabec31b949507400d9",
+    "projects/site/tests/build.test.mjs": "a43bb0310e856a31247db159b7d51192295469fe792727b2ba1d7968ac2a6e5f",
+    "projects/site/tests/publication-jpeg.test.mjs": "bd42f1f579ba68f80af7a4832a07cdb3b854e7b79c2e9a121c53f3b1a930649b",
+    "projects/site/tools/build-publication.mjs": "6433899cd39cf420e19556b5819e33194ef5b69e5c48a66ae3e879eeb3e8c48b",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "f0be5472e5a38c956e2b0aed346e8281beb6cfe541b1f0b9783e6cb58fefc7d3",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "9e8dd31a977b8d9618e9edeca631a9430824ba90070f815c5e849564f5397113",
+    "projects/site/tools/prepare-search-review.mjs": "a13da9fa3cf2947539bb161d9588ed49d172bf3b382855f0c49f9eda18636281",
+    "projects/site/tools/storage-copy.mjs": "a3d42748f64451ce10f8e59d03e28e942883cff2506df4cb3dfa093c063db4dd"
+  },
+  "build_results_sha256": "ad75f4c3e81e64fcd3166d33473f96cd0ce39f945198780ba09002d4ab0afa44",
+  "verifier": {
+    "executed_by": "Drishti, after all13 stages completed; root did not run concurrently",
+    "helper_sha256": "621cd125141ff86b50712f3f394958044e8ef527aadf3956a848639c04bd9ebd",
+    "report_sha256": "23a56b378779a618b31b0f191ad70d767a5850f349608466ca7c7337c83c83fe",
+    "result": "PASS",
+    "checks_passed": 385,
+    "first_execution_for_combined_output": true
+  },
+  "independent_artifact_measurement": {
+    "checks": {
+      "all35_inputs": true,
+      "protected113": true,
+      "foreign3": true,
+      "13stages": true,
+      "dist_historic_article": true,
+      "dist_destinations/hills_historic_card": true,
+      "dist_destinations_historic_card": true,
+      "dist_explore_historic_card": true,
+      "dist_historic_sahi": true,
+      "dist_photo": true,
+      "dist_PDF": true,
+      "dist-coast_historic_article": true,
+      "dist-coast_destinations/hills_historic_card": true,
+      "dist-coast_destinations_historic_card": true,
+      "dist-coast_explore_historic_card": true,
+      "dist-coast_historic_sahi": true,
+      "dist-coast_photo": true,
+      "dist-coast_PDF": true,
+      "dist-publish_historic_article": true,
+      "dist-publish_destinations/hills_historic_card": true,
+      "dist-publish_destinations_historic_card": true,
+      "dist-publish_explore_historic_card": true,
+      "dist-publish_historic_sahi": true,
+      "dist-publish_photo": true,
+      "dist-publish_PDF": true,
+      "Sahi_candidate": true,
+      "CSS_components_sources_unchanged": true,
+      "27incoming_exact": true,
+      "dist_incoming_dhemsa": true,
+      "dist-coast_incoming_dhemsa": true,
+      "dist-publish_incoming_dhemsa": true,
+      "dist_incoming_raja": true,
+      "dist-coast_incoming_raja": true,
+      "dist-publish_incoming_raja": true,
+      "dist_incoming_bande-utkala-janani": true,
+      "dist-coast_incoming_bande-utkala-janani": true,
+      "dist-publish_incoming_bande-utkala-janani": true,
+      "dist_incoming_mandasaru": true,
+      "dist-coast_incoming_mandasaru": true,
+      "dist-publish_incoming_mandasaru": true,
+      "dist_incoming_cyclone-dana": true,
+      "dist-coast_incoming_cyclone-dana": true,
+      "dist-publish_incoming_cyclone-dana": true,
+      "dist_incoming_similipal-waterfalls": true,
+      "dist-coast_incoming_similipal-waterfalls": true,
+      "dist-publish_incoming_similipal-waterfalls": true,
+      "dist_incoming_coastal-shell-craft": true,
+      "dist-coast_incoming_coastal-shell-craft": true,
+      "dist-publish_incoming_coastal-shell-craft": true,
+      "dist_incoming_bali-jatra": true,
+      "dist-coast_incoming_bali-jatra": true,
+      "dist-publish_incoming_bali-jatra": true,
+      "dist_pana_links": true,
+      "dist_harvest_pana_link": true,
+      "dist-coast_pana_links": true,
+      "dist-coast_harvest_pana_link": true,
+      "dist-publish_pana_links": true,
+      "dist-publish_harvest_pana_link": true,
+      "strict_payload": true
+    },
+    "all_pass": true,
+    "artifacts": {
+      "dist": {
+        "article": "37cae0db50c65ef675f463241b9e0a34eb96d6ac8aa3c8aaca3862598f4a296a",
+        "cards": {
+          "destinations/hills": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168",
+          "destinations": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168",
+          "explore": "2fbddf715ec76174f69bf8b39be380eb6cd6ae7f4d72fd6b86f2b0355e52cac6"
+        }
+      },
+      "dist-coast": {
+        "article": "37cae0db50c65ef675f463241b9e0a34eb96d6ac8aa3c8aaca3862598f4a296a",
+        "cards": {
+          "destinations/hills": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168",
+          "destinations": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168",
+          "explore": "2fbddf715ec76174f69bf8b39be380eb6cd6ae7f4d72fd6b86f2b0355e52cac6"
+        }
+      },
+      "dist-publish": {
+        "article": "37cae0db50c65ef675f463241b9e0a34eb96d6ac8aa3c8aaca3862598f4a296a",
+        "cards": {
+          "destinations/hills": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168",
+          "destinations": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168",
+          "explore": "2fbddf715ec76174f69bf8b39be380eb6cd6ae7f4d72fd6b86f2b0355e52cac6"
+        }
+      }
+    },
+    "incoming_emitted_checks": [
+      {
+        "source": "kb/research/stories/independent-features/arts/dhemsa.md",
+        "route": "/stories/odisha/dhemsa/",
+        "urls": [
+          "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+          "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf",
+          "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf",
+          "https://www.scstrti.in/index.php/communities/tribes/91-tribes/164-gadaba"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/arts/raja.md",
+        "route": "/stories/odisha/raja/",
+        "urls": [
+          "https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage",
+          "https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage",
+          "https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+          "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav",
+          "https://indianexpress.com/article/cities/pune/pune-odisha-raja-tradition-classical-dances-message-menstrual-hygiene-10065311/"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/arts/bande-utkala-janani.md",
+        "route": "/stories/odisha/bande-utkala-janani/",
+        "urls": [
+          "https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+          "https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf",
+          "https://egazette.odisha.gov.in/extraordinary_archival_dept/90/3",
+          "https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-cabinet-accords-state-song-status-to-bande-utkal-janani/articleshow/76247719.cms",
+          "https://www.newindianexpress.com/states/odisha/2020/Nov/14/bande-utkala-janani-becomes-part-of-school-syllabus-in-odisha-2223479.html"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/nature/mandasaru.md",
+        "route": "/stories/odisha/mandasaru/",
+        "urls": [
+          "https://www.odishabiodiversityboard.in/bhs.html",
+          "https://odishatourism.gov.in/en/places/mandasaru-valley",
+          "https://www.odishabiodiversityboard.in/bhs.html",
+          "https://www.odishabiodiversityboard.in/assets/bhs-pdf/mandasaru_BHS-notification.pdf"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/nature/cyclone-dana.md",
+        "route": "/stories/odisha/cyclone-dana/",
+        "urls": [
+          "https://internal.imd.gov.in/press_release/20241107_pr_3389.pdf",
+          "https://www.osdma.org/wp-content/uploads/2019/05/KENDRAPADA_DDMP_2025.pdf",
+          "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+          "https://www.forest-trends.org/wp-content/uploads/imported/dasvincent_2009_mangroves-protected-villages-pdf.pdf"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/nature/similipal-waterfalls.md",
+        "route": "/stories/odisha/similipal-waterfalls/",
+        "urls": [
+          "https://www.similipal.org/barehipani-joranda-waterfalls/",
+          "https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+          "https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf",
+          "https://www.unesco.org/en/mab/similipal",
+          "https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places",
+          "https://www.similipal.org/tender/"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/history/coastal-shell-craft.md",
+        "route": "/stories/odisha/coastal-shell-craft/",
+        "urls": [
+          "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+          "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+          "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10151044005056675.pdf",
+          "https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      },
+      {
+        "source": "kb/research/stories/independent-features/history/bali-jatra.md",
+        "route": "/stories/odisha/bali-jatra/",
+        "urls": [
+          "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48",
+          "https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf",
+          "https://agris.fao.org/search/en/providers/122415/records/6473680f53aa8c89630d0490",
+          "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48"
+        ],
+        "editions": {
+          "dist": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-coast": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          },
+          "dist-publish": {
+            "all_markdown_source_links_present": true,
+            "missing": []
+          }
+        }
+      }
+    ],
+    "payload": {
+      "bytes": 999089458,
+      "files": 3790,
+      "remaining": 910542,
+      "links_or_special_files": []
+    },
+    "measurement_correction": "Initial own comparison wrongly applied HTML unescape to raw Markdown URL, interpreting literal &reg as an entity. Actual emitted links preserve the exact original URL. Corrected comparison uses raw Markdown URL versus HTMLParser-decoded href. No artifact/helper/source change."
+  },
+  "completed_gates": {
+    "stages": 13,
+    "all_exit_zero": true,
+    "full_tests": 846,
+    "coastal_tests": 605,
+    "page_acceptance": 5644,
+    "disclosure_pages": {
+      "full": 1553,
+      "coast": 1538,
+      "publication": 1539
+    },
+    "disclosure_violations": 0
+  },
+  "preservation": [
+    "All35 frozen inputs match actual files and every stage record. All113 protected files and three foreign ownership values unchanged.",
+    "All27 incoming nonshared source/evidence files remain byte-exact to1bd308add. Each imported source-repair article preserves its actual Markdown source URLs in all three editions, and Pana/harvest reciprocal reading links resolve in emitted pages. This is preservation, not fresh factual review.",
+    "Pinned Dhaga PDF bytes match in all three editions. Verifier confirms dedicated Godabarish/Kaincha prose/path/original-hash exclusion.",
+    "Mahavinayak article fragment remains37cae0db50c65ef675f463241b9e0a34eb96d6ac8aa3c8aaca3862598f4a296a in all editions. All three Mahavinayak preview-card fragments match historical reviewed hashes.",
+    "Selected article base/variants and Sahi q88 delivery remain reviewed exact bytes. Sahi primary fragments match historical reviewed artifacts, including the sole allowed existing compression-disclosure transformation; original and credit/share guards pass."
+  ],
+  "visual_continuity": {
+    "historical_evidence": "Eleven full-dist screenshots plus three final-publication screenshots personally viewed in prior review; no new browser interaction/capture is claimed.",
+    "rendered_review_sha256": "98c356cfb384d12b375188bc810f3284105a6a75b7fee4ef1d994a4b3e043f01",
+    "package_browser_supplement_sha256": "5ea66091680ecfe772d81ae006f40349ad313df94688a05c7f08584c8d4950c1",
+    "basis": "Exact article and card fragment parity, unchanged emitted selected image bytes, unchanged CSS/layout/component source and unchanged Sahi emitted image/article establish applicability. Surrounding Explore has an added incoming item; no claim that the entire hub page is byte-identical.",
+    "framing_limits": "Original clipped desktop hero, partial mobile Hills and adjacent-card exclusion, partial note frames and Sahi top-of-photo viewport limits remain unchanged."
+  },
+  "measurement_correction": {
+    "finding": "Initial own comparison wrongly applied HTML unescape to raw Markdown URL, interpreting literal &reg as an entity. Actual emitted links preserve the exact original URL. Corrected comparison uses raw Markdown URL versus HTMLParser-decoded href. No artifact/helper/source change.",
+    "original_evidence": "/private/tmp/mahavinayak-final-combined-package-measurement.json",
+    "original_sha256": "6cff1bb238f6ebf656fdac6814bcb3e831a1f7c3082bb3be4b112b0056b0bd4d",
+    "corrected_evidence": "/private/tmp/mahavinayak-final-combined-package-measurement-corrected.json",
+    "corrected_sha256": "f5ab6e03f634fcd9dd146ad56da2519b4e08617fe74898bcecd6ad4556332d5e",
+    "source_or_helper_change": false
+  },
+  "blockers": [],
+  "remaining_gates": [
+    "Root must bind actual successful required CI and Linux payload to unchanged exact a8b701f8 and reconcile any newer main changes before authorized merge.",
+    "Actual deployment, fresh HTTP/image-difference review and live browser verification.",
+    "Evidence-only receipt review/CI/actual merge before releasing the article slot."
+  ],
+  "limits": [
+    "Actual local package999089458 bytes across3790 regular files,910542 bytes remaining; no symlinks/hardlinks/special files found. This is not the Linux measurement.",
+    "Root reports hosted attempt2 success999931163 bytes; that remote claim is not independently reverified or substituted for local evidence in this bounded report.",
+    "No Git staging/commit, public/shared edits, new image transformation or pipeline rerun. Only reserved verifier output and this review were generated.",
+    "No human-specialist or new source/field/booking review claimed."
+  ]
+}

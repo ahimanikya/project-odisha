@@ -11011,16 +11011,17 @@
       "id": "POD-WORK-2026112693",
       "title": "Research, review and publish Mahavinayak",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112693",
-      "next_action": "Finish final package review, required hosted CI, authorized publication, live delivery review and reviewed receipt.",
+      "next_action": "Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Godabarish publication slot.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112693",
-        "POD-REV-2026112693"
+        "POD-REV-2026112693",
+        "POD-REL-2026112693"
       ],
       "evidence": [
         "records/mahavinayak-publication-20261126.json"
@@ -26840,7 +26841,7 @@
     },
     {
       "id": "POD-REV-2026112693",
-      "title": "Mahavinayak source, photograph, implementation and local delivery review",
+      "title": "Mahavinayak source, photograph, implementation and live delivery review",
       "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
@@ -26854,7 +26855,7 @@
       "evidence": [
         "records/mahavinayak-publication-20261126.json"
       ],
-      "summary": "Separate source/media/capacity/code/rendered/package reviews passed with explicit screenshot and helper-correction limits. Exact candidate, required hosted CI, deployment and fresh live verification remain; not human specialist or field approval."
+      "summary": "Separate source/media/capacity/code/rendered/package/exact-commit and fresh live delivery reviews passed. All11 root captures inspected; actual differences measured and visually accepted within explicit limits. Not human specialist or field approval."
     },
     {
       "id": "POD-REV-20261126032",
@@ -31493,6 +31494,21 @@
       ],
       "evidence": [
         "records/remaining-12-source-links-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112693",
+      "title": "Mahavinayak hill article with credited photograph",
+      "status": "published",
+      "authorization": "POD-DEC-2026112693",
+      "destination": "https://projectodisha.org/destinations/mahavinayak/",
+      "refs": [
+        "POD-WORK-2026112693",
+        "POD-DEC-2026112693",
+        "POD-REV-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
       ]
     }
   ],
