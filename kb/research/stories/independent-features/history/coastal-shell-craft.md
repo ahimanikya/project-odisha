@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Thakuria, *Journal of Indian Ocean Archaeology* 9, 2013", "resource": "https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana"}, {"id": "2", "title": "Thakuria’s analysis of production stages", "resource": "https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana"}, {"id": "3", "title": "Hornell, 1914, page 75", "resource": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10151044005056675.pdf"}, {"id": "4", "title": "Directorate of Handicrafts, Baleswar directory", "resource": "https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf"}]
+sources: [{"id": "1", "title": "Thakuria, *Journal of Indian Ocean Archaeology* 9, 2013", "resource": "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana"}, {"id": "2", "title": "Thakuria’s analysis of production stages", "resource": "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana"}, {"id": "3", "title": "Hornell, 1914, page 75", "resource": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10151044005056675.pdf"}, {"id": "4", "title": "Directorate of Handicrafts, Baleswar directory", "resource": "https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf"}]
 public_route: "/stories/odisha/coastal-shell-craft/"
 original_sha256: "a525d6313905e1ad98e81e2d3156ea5b67648e7f25eb750bf1118e7b69725d2e"
 ---
@@ -36,10 +36,10 @@ The waste is especially eloquent. It preserves choices that the completed orname
 
 ## Footnotes & Sources
 
-[^1]: [Thakuria, *Journal of Indian Ocean Archaeology* 9, 2013](https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana)
+[^1]: [Tilok Thakuria, “Shell Bangle Manufacturing in Coastal Odisha: A Study of Surface Collection at Manikapatana”, *Journal of Indian Ocean Archaeology* 9 (2013), pp. 23–34](https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana), especially pp. 26–29. Readable article text preserved on the author-upload page, archived 19 July 2025; a separate PDF download was not verified.
 
-[^2]: [Thakuria’s analysis of production stages](https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana)
+[^2]: [Thakuria’s analysis of production stages, pp. 28–30](https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana), in the same archived article text. The discussion of possible finishing elsewhere remains an interpretation, not proof of another workshop.
 
 [^3]: [Hornell, 1914, page 75](https://www.rarebooksocietyofindia.org/book_archive/196174216674_10151044005056675.pdf)
 
-[^4]: [Directorate of Handicrafts, Baleswar directory](https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf)
+[^4]: [Directorate of Handicrafts, Baleswar directory](https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf), PDF page 58, rows 3263–3264 and 3266–3269 (Bhogarai, Sea Shell Work); archived 23 June 2022.

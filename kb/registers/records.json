@@ -10987,6 +10987,28 @@
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261126032",
+      "title": "Recover twelve unreliable source links in the27article collection",
+      "category": "editorial_maintenance",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Disha with separate research, implementation and review agents"
+      },
+      "authorization": "POD-DEC-20261126032",
+      "next_action": "Pass required production checks, merge reviewed repairs, publish and verify actual live pages.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126032",
+        "POD-REV-20261126032"
+      ],
+      "evidence": [
+        "records/remaining-12-source-links-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16722,6 +16744,20 @@
       "scope": "Existing 27-article collection; bounded live fixes and library synchronization under prior live publication authorization.",
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126032",
+      "title": "Recover remaining twelve external sources and publish corrections",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Check the remaining 12 external links and find reliable replacements or archived versions where needed. Update the articles and source notes on the live website.",
+      "scope": "Twelve unresolved source targets from the prior27article live review; bounded articles and source-note updates to library and live website. Zero programme credit.",
+      "evidence": [
+        "records/remaining-12-source-links-20261126.json"
       ]
     }
   ],
@@ -26710,6 +26746,24 @@
         "records/kula-publication-20261126.json"
       ],
       "summary": "Separate source/media/code/rendered/package/exact-merge and fresh live delivery reviews passed. Four routes, six actual images and thirteen root screenshots inspected; four encodings independently measured and visually accepted, raw differences and framing limits retained. No human specialist claim."
+    },
+    {
+      "id": "POD-REV-20261126032",
+      "title": "Independent review of twelve recovered source links",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Separate article_integration_review agent, with bounded source research by root, article_image_research_b and site_integration_plan"
+      },
+      "refs": [
+        "POD-WORK-20261126032",
+        "POD-DEC-20261126032"
+      ],
+      "evidence": [
+        "records/remaining-12-source-links-20261126.json"
+      ],
+      "independent": true,
+      "summary": "All12 source mappings and109footnotes align. Exact archive contents/claim locators verified; one official replacement and one restored original. Historical source IDs, hashes, dates and image manifest preserved; only approved bounded wording changed. Required production CI and actual publication still pending."
     }
   ],
   "releases": [

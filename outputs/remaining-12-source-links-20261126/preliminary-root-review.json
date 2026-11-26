@@ -1,0 +1,76 @@
+{
+  "reviewed_on": "2026-11-26",
+  "reviewer": "article_integration_review",
+  "base_head": "f7788e79a0aebf55e011a94e90b6d0c3859ef078",
+  "verdict": "PASS for the four proposed source decisions; implementation review pending",
+  "scope": "Preliminary independent source and claim review of root-assigned Mandasaru, Similipal UNESCO, Raja and Cyclone Dana entries only. No site, manuscript, shared-register or Git edits. No universal-access guarantee.",
+  "evidence_report_sha256": {
+    "root-direct-check.json": "cd0660742f50ff29130763d2ce5618dffb748ee380f10c28827ebafe5f503783",
+    "root-archive-discovery.json": "74ca05ecb139f94679b4642ac68257fcdaf4d60eef528c7f01ac9d4cd19f0955",
+    "root-candidate-check.json": "5ae42d49d133168311fca4cbfb207beb69968f9ca5d14091a5bea9cabb1a1750",
+    "dana-archive-payload-check.json": "5d0007e55f01d3daf56ef5f82d52046267c1e6e17e2d4fe42ad495d32272c012",
+    "research-root.json": "72da137cd5dca24219dff348fd0f05f55df84c3961cb5611086dcf40c51d282a"
+  },
+  "items": [
+    {
+      "article": "mandasaru",
+      "note": "2",
+      "verdict": "PASS with bounded sentence replacement",
+      "source_url": "https://odishatourism.gov.in/en/places/mandasaru-valley",
+      "independent_method": "Fresh official page web-reader inspection of introduction, Key Information / Location, and forest/stream highlights.",
+      "support": "Official page locates Mandasaru in Kandhamala and describes Eastern Ghats forests, streams, waterfalls and woodland trails.",
+      "approved_sentence": "The gorge lies in Kandhamal, within the Eastern Ghats forests described by Odisha Tourism.",
+      "limits": "Replacement does not independently support the former Raikia or moist-deciduous wording; remove those details from this sentence. Retained forest-setting observation is consistent with the official description. Do not import unreviewed travel timings or fees."
+    },
+    {
+      "article": "similipal-waterfalls",
+      "note": "4",
+      "verdict": "PASS; retain original URL",
+      "source_url": "https://www.unesco.org/en/mab/similipal",
+      "independent_method": "Fresh UNESCO page web-reader inspection.",
+      "locator": "General information; Ecological Characteristics",
+      "support": "Hills, perennial streams, waterfalls and sal forest support the existing paragraph.",
+      "limits": "The current successful check establishes access at review time, not universal or permanent availability."
+    },
+    {
+      "article": "raja",
+      "note": "4",
+      "verdict": "PASS; exact archived original",
+      "source_url": "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav",
+      "capture_date": "2026-05-15",
+      "independent_method": "Normal certificate-validated HTTPS GET independently returned HTTP 200 and actual archived narrative.",
+      "observed_bytes": 44956,
+      "observed_response_sha256": "d39acd1984c5d3ddbf9d24b227e62b890ee30c2b5eb6357d3fcb70c49c2ee2ed",
+      "locator": "Raja Parba: A Celebration of Womanhood and Earth’s Fertility",
+      "support": "Exact passage supports festive dress, Podapitha, rope swings, singing and visits. Existing article paragraph may remain.",
+      "limits": "Archive wrapper size differs slightly from earlier root request; this is a response fingerprint, not a claim of invariant replay bytes. Web-reader replay was unavailable, but direct HTTPS succeeded. Label capture date and preserve Ministry of Tourism/Utsav source identity."
+    },
+    {
+      "article": "cyclone-dana",
+      "note": "3",
+      "verdict": "PASS; exact archived original",
+      "source_url": "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "payload_url": "https://web.archive.org/web/20241106050633if_/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "capture_date": "2024-11-06",
+      "independent_method": "Rendered and visually inspected local archived PDF pages 1, 2 and 6; independently matched payload SHA and byte size to root transport report.",
+      "payload_bytes": 502611,
+      "payload_sha256": "56053cb44163be48757e841aea1604825b2eb56b536114b63b6c43cd776b2e6a",
+      "locator": "Report dated 27 October 2024 at 1800 hours, printed p. 2 Current Situation and p. 6 table 8 Odisha row.",
+      "support": "Page 1 verifies issuing Ministry and report date; page 2 explicitly gives 8,10,896 evacuees; page 6 aligns 6,210 with relief centres opened. Existing article reports these as dated report figures and may remain.",
+      "limits": "Archive capture date is separate from report date. Page 2 also discusses 470 camps with current occupants; do not silently substitute that narrower current-occupancy measure for table 8 centres opened."
+    }
+  ],
+  "implementation_requirements": [
+    "Keep metadata resource URLs and corresponding footnotes aligned.",
+    "Include accurate section/page locators and explicit archive capture dates.",
+    "Retain historical original_sha256 values and previous access evidence; append dated recovery information.",
+    "Only Mandasaru’s approved sentence needs narrative revision within these four decisions.",
+    "Preserve existing images, captions, licences, source identities and unrelated content."
+  ],
+  "blocking_findings": [],
+  "limits": [
+    "This is a source-decision review, not a final rendered or committed-head review.",
+    "Dana transport status is supported by root report; this reviewer independently verified the exact downloaded payload contents and digest.",
+    "Other eight remaining-link investigations and their eventual implementation are outside this preliminary report."
+  ]
+}

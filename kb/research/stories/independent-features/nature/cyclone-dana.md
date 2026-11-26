@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "IMD report on Dana", "resource": "https://internal.imd.gov.in/press_release/20241107_pr_3389.pdf"}, {"id": "2", "title": "Kendrapara district plan, Dana response", "resource": "https://www.osdma.org/wp-content/uploads/2019/05/KENDRAPADA_DDMP_2025.pdf"}, {"id": "3", "title": "Home Ministry situation report, 27 October 2024", "resource": "https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243"}, {"id": "4", "title": "Das and Vincent, *PNAS*, 2009", "resource": "https://www.forest-trends.org/wp-content/uploads/imported/dasvincent_2009_mangroves-protected-villages-pdf.pdf"}]
+sources: [{"id": "1", "title": "IMD report on Dana", "resource": "https://internal.imd.gov.in/press_release/20241107_pr_3389.pdf"}, {"id": "2", "title": "Kendrapara district plan, Dana response", "resource": "https://www.osdma.org/wp-content/uploads/2019/05/KENDRAPADA_DDMP_2025.pdf"}, {"id": "3", "title": "Home Ministry situation report, 27 October 2024", "resource": "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243"}, {"id": "4", "title": "Das and Vincent, *PNAS*, 2009", "resource": "https://www.forest-trends.org/wp-content/uploads/imported/dasvincent_2009_mangroves-protected-villages-pdf.pdf"}]
 public_route: "/stories/odisha/cyclone-dana/"
 original_sha256: "216f2fd7354c87f053e46b5fe18e7d7008ada2811b290d3a1b0a2632ae63aa75"
 ---
@@ -40,6 +40,6 @@ Dana is therefore most accurately remembered through the combination of its mete
 
 [^2]: [Kendrapara district plan, Dana response](https://www.osdma.org/wp-content/uploads/2019/05/KENDRAPADA_DDMP_2025.pdf)
 
-[^3]: [Home Ministry situation report, 27 October 2024](https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243)
+[^3]: [Home Ministry situation report, 27 October 2024, 1800 hrs](https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243), p. 2 (evacuations) and p. 6, Table 8 (relief centres); archived 6 November 2024.
 
 [^4]: [Das and Vincent, *PNAS*, 2009](https://www.forest-trends.org/wp-content/uploads/imported/dasvincent_2009_mangroves-protected-villages-pdf.pdf)

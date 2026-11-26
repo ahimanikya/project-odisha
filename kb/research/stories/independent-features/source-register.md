@@ -20,7 +20,7 @@ Link issue recorded on 25 November 2026: the NIAM PDF for Sakhigopal returned 40
 The biodiversity inventory and designation notification were opened. The district’s forest description was also available in indexed text. The superseded “433” activity link was not used.
 
 - [Odisha Biodiversity Board](https://www.odishabiodiversityboard.in/bhs.html)
-- [Kandhamal district](https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia)
+- [Odisha Tourism, Mandasaru Valley](https://odishatourism.gov.in/en/places/mandasaru-valley)
 - [Government notification](https://www.odishabiodiversityboard.in/assets/bhs-pdf/mandasaru_BHS-notification.pdf)
 
 ## 2. Pentha and the unfinished work of coastal protection
@@ -60,7 +60,7 @@ The Coffee Board annual-report passage on the 1978 centre was checked through in
 
 The relevant Reference Annual passage was accessible through indexing; full-document retrieval timed out. The Lokaratna study was opened and its specific Dhemsa pages checked. Different community descriptions are not conflated.
 
-- [Odisha Reference Annual 2014, “The Gadabas and Their Dances”](https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/ora-2014.pdf)
+- [Odisha Reference Annual 2014, “The Gadabas and Their Dances”](https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf)
 - [Anand Mahanand, *Lokaratna* XIII, pages 24–25](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf)
 - [SCSTRTI, Gadaba profile](https://www.scstrti.in/index.php/communities/tribes/91-tribes/164-gadaba)
 
@@ -128,7 +128,7 @@ ASI’s account was opened. The district gazetteer and IGNCA translation were ch
 The Culture Ministry account and researchers’ uploaded wind study were accessible. The FAO AGRIS record provides the maritime-archaeology abstract and metadata; it is not represented as full access to that paper.
 
 - [Ministry of Culture account](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48)
-- [Tripati and Raut, 2006](https://www.researchgate.net/publication/27666817_Monsoon_wind_and_maritime_trade_A_case_study_of_historical_evidence_from_Orissa_India)
+- [Tripati and Raut, 2006](https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf)
 - [Tripati, maritime archaeology of Kalinga](https://agris.fao.org/search/en/providers/122415/records/6473680f53aa8c89630d0490)
 
 ## 15. Raja’s days of rest, swings and renewal
@@ -136,8 +136,8 @@ The Culture Ministry account and researchers’ uploaded wind study were accessi
 The district account and the Pune news report were read. The Orissa Review and Tourism entries were checked through indexed text. The Pune source described preparations; no claim that the planned programme occurred has been added.
 
 - [Kendujhar district cultural account](https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage)
-- [*Orissa Review*, June 2006](https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf)
-- [Ministry of Tourism, Raja Mahotsav](https://www.utsav.gov.in/view-event/raja-mahotsav)
+- [*Orissa Review*, June 2006](https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf)
+- [Ministry of Tourism, Raja Mahotsav](https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav)
 - [Dipanita Nath, *The Indian Express*](https://indianexpress.com/article/cities/pune/pune-odisha-raja-tradition-classical-dances-message-menstrual-hygiene-10065311/)
 
 ## 16. Pakhala and the many ways to build a meal
@@ -163,7 +163,7 @@ The official destination, annual-report and Economic Survey passages were checke
 The waterfall and official-notice pages were opened. The district survey, conservation plan and UNESCO descriptions were checked in relevant indexed passages. Conflicting fall heights and a questionable UNESCO area figure were excluded.
 
 - [Similipal’s waterfall account](https://www.similipal.org/barehipani-joranda-waterfalls/)
-- [Balasore district survey, river system](https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf)
+- [Balasore district survey, river system](https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf)
 - [Similipal Tiger Conservation Plan 2023–24 to 2033–34, Vol. I, Part I: Core Area Plan, printed pp. 14–15](https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf)
 - [UNESCO, Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal)
 - [Mayurbhanj district destinations](https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places)
@@ -199,15 +199,15 @@ The IMD report, district response record, Home Ministry situation report and 199
 
 - [IMD report on Dana](https://internal.imd.gov.in/press_release/20241107_pr_3389.pdf)
 - [Kendrapara district plan, Dana response](https://www.osdma.org/wp-content/uploads/2019/05/KENDRAPADA_DDMP_2025.pdf)
-- [Home Ministry situation report, 27 October 2024](https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243)
+- [Home Ministry situation report, 27 October 2024](https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243)
 - [Das and Vincent, *PNAS*, 2009](https://www.forest-trends.org/wp-content/uploads/imported/dasvincent_2009_mangroves-protected-villages-pdf.pdf)
 
 ## 23. Bande Utkala Janani from poem to public ceremony
 
 The Reference Annual poem, Kantakabi essay and cabinet-report passages were checked through indexing; the gazette archive entry and school-syllabus report were accessible. The underlying full gazette notification was not retrieved, so no detailed recital protocol is asserted.
 
-- [Text in *Odisha Reference Annual 2017*, page 6](https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf)
-- [*Orissa Review*, August 2006, study of Kantakabi](https://magazines.odisha.gov.in/Orissareview/Aug2006/engpdf/43-47.pdf)
+- [Text in *Odisha Reference Annual 2017*, page 6](https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf)
+- [*Orissa Review*, August 2006, study of Kantakabi](https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf)
 - [Odisha eGazette record](https://egazette.odisha.gov.in/extraordinary_archival_dept/90/3)
 - [The Times of India, 7 June 2020](https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-cabinet-accords-state-song-status-to-bande-utkal-janani/articleshow/76247719.cms)
 - [The New Indian Express, 14 November 2020](https://www.newindianexpress.com/states/odisha/2020/Nov/14/bande-utkala-janani-becomes-part-of-school-syllabus-in-odisha-2223479.html)
@@ -232,9 +232,9 @@ The district page, forestry report and October 2026 local feature were checked. 
 
 Thakuria’s study was accessible through its author-upload page. Hornell’s relevant historical passage and the Baleswar directory were checked through indexing; the large Hornell file exceeded direct retrieval limits. No present workshop visit or uninterrupted lineage is claimed.
 
-- [Thakuria, *Journal of Indian Ocean Archaeology* 9, 2013](https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana)
+- [Thakuria, *Journal of Indian Ocean Archaeology* 9, 2013](https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana)
 - [Hornell, 1914, page 75](https://www.rarebooksocietyofindia.org/book_archive/196174216674_10151044005056675.pdf)
-- [Directorate of Handicrafts, Baleswar directory](https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf)
+- [Directorate of Handicrafts, Baleswar directory](https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf)
 
 ## 27. Chhatia’s chhena kakara and the roadside economy
 
@@ -253,3 +253,21 @@ The live-site review found four unavailable source targets in three articles. Ac
 - **Motu, notes 2 and 4:** the [publisher’s 2024 proceedings, printed p. 162](https://indiawaterweek.in/assets/pdfs/iiww2024p.pdf), lists P. Devender Rao and M. L. Franklin’s *Challenges in Management of Floods*. The full paper’s former target was unavailable in the current check. Section 10 and the July 2022 backwater discussion remain the original citation contexts; the replacement listing identifies the publication and does not independently supply those passages.
 - **Similipal, note 3:** the official reports catalogue identifies the [Core Area Plan, Vol. I, Part I](https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf). Printed pp. 14–15 (PDF pages 8–9) were checked for the existing watershed list and environmental contrasts, including Table 1.c. This is a direct replacement document, not a general landing page.
 - **Similipal, note 6:** the current [official notices page](https://www.similipal.org/tender/) replaces the unavailable `index.php` target. No current opening date or visitor-access guarantee was added.
+
+## Further source recovery · 26 November 2026
+
+The remaining-link review recovered exact archived documents and added claim-level locators. The historical access descriptions above and the earlier link-repair record remain unchanged. Archive capture dates identify preserved versions, not new publication dates. Source identifiers, the original review date, historical `original_sha256` values and all images and captions remain unchanged.
+
+- **Mandasaru, note 2:** [Odisha Tourism’s Mandasaru Valley account](https://odishatourism.gov.in/en/places/mandasaru-valley), introductory description and Key Information / Location, replaces the inaccessible district page. The first sentence of the cited paragraph was narrowed to Kandhamal and its Eastern Ghats forest setting; the replacement does not independently establish the former Raikia or moist-deciduous wording.
+- **Similipal, note 2:** the exact [Balasore draft district survey archived 7 December 2025](https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf) was retrieved as a 190-page PDF. The Road Metal/Building Stone section, §5.1, printed pp. 18–19 (PDF pages 19–20), identifies the Similipal origin, Barehipani and downstream Balasore town. The cited paragraph’s downstream sentence and the closing sentence were narrowed to settlements; no agricultural-use claim is inferred from that passage.
+- **Similipal, note 4:** the original [UNESCO account](https://www.unesco.org/en/mab/similipal) returned successfully. The visible note now identifies General information and Ecological Characteristics; its URL and narrative remain unchanged.
+- **Raja, note 4:** the exact [Ministry of Tourism event account archived 15 May 2026](https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav) was inspected under “Raja Parba: A Celebration of Womanhood and Earth’s Fertility”. Its clothing, podapitha and rope-swing details match the existing paragraph.
+- **Cyclone Dana, note 3:** the exact [Home Ministry report archived 6 November 2024](https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243) was retrieved as a six-page PDF. The report is dated 27 October 2024 at 1800 hrs: p. 2 supplies the evacuation figure and p. 6, Table 8, the relief-centre figure.
+- **Coastal shell craft, note 4:** the exact [Baleswar directory archived 23 June 2022](https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf) was retrieved as a 178-page PDF. PDF page 58, rows 3263–3264 and 3266–3269, associates Bhogarai with Sea Shell Work. The table was visually checked; personal artisan details are not reproduced. This category remains distinct from a conch-bangle-specific technique or current livelihood count.
+
+- **Dhemsa, note 1:** the exact [2014 annual chapter archived 17 November 2024](https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf), “The Gadabas and Their Dances (Folk Dance)”, was retrieved as a 19-page PDF. Printed p. 93 (PDF page 15) confirms the cited Gadaba occasions, linked movements and instruments. This shorter chapter belongs to the same annual as the former whole-volume link.
+- **Raja, note 3:** Pravukalyan Mohapatra’s [“Raja Sankranti: The Festival of Swings”, archived 17 July 2026](https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf), *Orissa Review*, June 2006, pp. 122–123, was retrieved as the exact two-page PDF. Printed p. 122 places Basumata Puja on a fourth day in some local observances, preserving the article’s qualification.
+- **Bande Utkala Janani, note 1:** the exact [2017 annual archived 6 May 2025](https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf) was retrieved as the complete 366-page PDF. The poem’s printed p. 6 (PDF page 28) was inspected in the actual archived volume and independently checked against indexed text. The annual credits *Kanta Sahitya Mala*.
+- **Bande Utkala Janani, note 2:** Soma Chand’s [“Kantakabi Laxmikanta and Nationalist Poems”, archived 7 December 2025](https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf), *Orissa Review*, August 2006, pp. 43–47, was retrieved as the exact five-page PDF. Printed pp. 45–46 support the nationalist-writing and Gandhian spinning/khadi discussion. This essay is not used to date the separate 2020 official recognition.
+- **Bali Jatra, note 2:** Sila Tripati and L. N. Raut’s [2006 *Current Science* paper, publisher copy archived 6 August 2009](https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf), was retrieved as the exact eight-page PDF. Printed pp. 864 and 870 describe outward travel during the northeast monsoon and return during the southwest monsoon. The replay uses HTTPS; the embedded historical publisher address retains its original HTTP scheme.
+- **Coastal shell craft, notes 1 and 2:** the exact [author-upload page archived 19 July 2025](https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana) provides readable article text for Tilok Thakuria’s 2013 study, with printed page markers. Pages 26–30 support the surface-context, material and manufacturing discussion. The article transcription was inspected rather than the site’s generated abstract; a separate downloadable PDF was not verified. The suggestion of finishing elsewhere remains a cautious interpretation.
