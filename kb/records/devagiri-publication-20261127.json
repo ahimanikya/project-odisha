@@ -78,7 +78,7 @@
       "actual_gate": "pending"
     }
   },
-  "next_action": "Reconcile incoming record-only PR897, exact-commit review and required hosted CI, then authorized deployment, fresh live review and receipt.",
+  "next_action": "Exact committed review and required hosted checks, then deployment, live review and receipt.",
   "web_guidance": "outputs/devagiri-publication-2026-11-27/web-guidance.md",
   "setup_check_history": [
     {
@@ -167,5 +167,13 @@
       "result": "PASS"
     },
     "root_package_viewing": "outputs/devagiri-publication-2026-11-27/root-package-viewing.json"
+  },
+  "reconciliation": {
+    "incoming_pr": 897,
+    "incoming_main": "6e387de22d0648781cb56f3cab14ee811b130e78",
+    "report": "outputs/devagiri-publication-2026-11-27/reconciliation-897.json",
+    "separate_review": "outputs/devagiri-publication-2026-11-27/reconciliation-review.json",
+    "sha256": "6b54b53e021941aec37de08bc3a5c2e81dd607eb7ba45bbd6bcf5cdf7d6ae015",
+    "public_source_change": false
   }
 }
