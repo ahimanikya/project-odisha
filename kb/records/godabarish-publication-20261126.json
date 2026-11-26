@@ -264,9 +264,34 @@
     "prs": [
       894
     ],
-    "status": "combined_review_pending",
+    "status": "combined_reconciliation_review_pass",
     "evidence": "outputs/godabarish-publication-20261126/receipt-incoming-preservation.json",
     "nonshared_files": 13,
-    "scope": "Incoming15paths preserved, only sharedrollout/worklist reconciled; no public-source difference against newmain. Fresh required checks will measure current combined package, not relabel original deployment."
+    "scope": "Incoming15paths preserved, only sharedrollout/worklist reconciled; no public-source difference against newmain. Fresh required checks will measure current combined package, not relabel original deployment.",
+    "separate_review": {
+      "status": "PASS",
+      "path": "outputs/godabarish-publication-20261126/review/receipt-reconciliation-review.json",
+      "sha256": "56248c734820a86bdd5e285c00c14245fd9500b3aa38625d0a74433c6dd1f24d"
+    }
+  },
+  "receipt_source_fallback_reconciliation": {
+    "incoming": "334adfdf47d078a77b550a46ed7ec0f471d740d2",
+    "pr": 895,
+    "status": "combined_reconciliation_review_pass",
+    "evidence": "outputs/godabarish-publication-20261126/receipt-source-fallback-preservation.json",
+    "nonshared_files": 10,
+    "scope": "Retain all incoming source/evidence/registers via exact three-way union. Required final combined CI pending; originalGodabarishdeployment retained distinctly.",
+    "separate_review": {
+      "status": "PASS",
+      "path": "outputs/godabarish-publication-20261126/review/receipt-reconciliation-review.json",
+      "sha256": "56248c734820a86bdd5e285c00c14245fd9500b3aa38625d0a74433c6dd1f24d"
+    },
+    "historical_manifest_limit": "PR895 updates editorial-workbench.json from the prior PR894 version. The13-file PR894 manifest remains historical to checkpointc3892c1bb; final10-file PR895 manifest is exact."
+  },
+  "receipt_check_history": {
+    "initial_head": "6b3fa0e733ec6efe5628545880da9bee97b10591",
+    "initial_run": 45883688350,
+    "scope": "Superseded by combined receipt after PR894/895. No combined success inferred from earlier run. Final run outcome will be verified before actual merge.",
+    "watcher_limit": "Local gh watcher API read timed out; fresh read showed run still in_progress. Monitoring resumed without rerunning CI; external raw evidence retained."
   }
 }
