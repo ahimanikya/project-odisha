@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1431. blocked: 1, completed: 280, excluded: 873, in_progress: 1, queued: 276.
+Route inventory: 1432. blocked: 1, completed: 280, excluded: 873, in_progress: 1, queued: 277.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1455,3 +1455,4 @@ Route inventory: 1431. blocked: 1, completed: 280, excluded: 873, in_progress: 1
 | POD-EDIT-CHANDAN-YATRA | [Chandan Yatra: When the Deities Take to the Water](https://projectodisha.org/stories/chandan-yatra/) | queued | article |
 | POD-EDIT-SEMICONDUCTORS-20261127 | [Inside Odisha’s chip industry: three projects, three milestones](https://projectodisha.org/knowledge/odisha-semiconductors/) | queued | article |
 | POD-EDIT-SNANA-PURNIMA | [Snana Purnima: After the Deities Have Bathed](https://projectodisha.org/stories/snana-purnima/) | queued | article |
+| POD-EDIT-PARADIP-CARGO-20261127 | [What 156 million tonnes at Paradip means for Odisha](https://projectodisha.org/knowledge/paradip-port-cargo/) | queued | article |
