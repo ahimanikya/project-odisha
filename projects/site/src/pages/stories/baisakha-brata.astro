@@ -1,0 +1,25 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/baisakha-brata.md';
+
+const related = [
+  {href: '/stories/the-year-that-feeds-us/', title: 'The Year That Feeds Us', description: 'Explore the stories of cultivation and household worship in this series.'},
+  {href: '/stories/pana-sankranti/', title: 'Pana Sankranti', description: 'Visit the courtyard tulasi at the start of the Odia year.'},
+  {href: '/culture/osha/baisakha-brata/', title: 'Baisakha Brata in the Osha collection', description: 'Read the observance profile and its source notes.'},
+];
+---
+<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <a href="/stories/the-year-that-feeds-us/">The Year That Feeds Us</a>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author="Ahimanikya Satapathy"/>
+    </header>
+    <Content/>
+    <ArticleReadingPath heading="Continue reading" links={related}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fbaisakha-brata%2F">Suggest an update</a>. GitHub submissions are public. Please omit private contact details and consent documents.</p>
+  </article>
+</Shell>
