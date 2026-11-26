@@ -1,0 +1,39 @@
+{
+  "scope": "Bounded post-publication Dhemsa archive recheck only",
+  "status": "passed_viewer_and_exact_pdf_recovered",
+  "checks": [
+    {
+      "url": "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "checked_at": "2026-11-26T07:51:03.613441+00:00",
+      "method": "Verified-TLS public GET; at most65536bytes read; no error body saved",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "content_type": "text/html",
+      "pdf_signature": false,
+      "elapsed_seconds": 2.85
+    },
+    {
+      "url": "https://web.archive.org/web/20241117004307if_/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "checked_at": "2026-11-26T07:51:34.872556+00:00",
+      "method": "Verified-TLS GET of exact previously observed public viewer-embedded PDF URL; bounded2MB read; no error body saved",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20241117004307if_/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "content_type": "application/pdf",
+      "pdf_signature": true,
+      "bytes_received": 270048,
+      "sha256": "19156ee9a84fd57e51ef9e022e2b06cccdcda87a206c4391fc7b61d29801681b",
+      "content_verification": {
+        "checked_pdf_page": 15,
+        "dhemsa_present": true,
+        "instrument_names_present": true,
+        "pdf_pages": 19,
+        "printed_page93_present": true,
+        "title_present": true
+      },
+      "elapsed_seconds": 15.01
+    }
+  ],
+  "privacy": "Status and timing metadata only; no raw response headers, HTML, challenge tokens or client identifiers retained.",
+  "conclusion": "The published viewer URL now returns HTTP200 and its exact previously observed embedded PDF returns HTTP200 with the correct19-page document and printed page93. Earlier429 reports remain valid observations of temporary rate limiting; this later check demonstrates recovery, not guaranteed future availability. Retain the current exact chapter citation; no replacement needed.",
+  "completed_at": "2026-11-26T07:51:49.885925+00:00"
+}
