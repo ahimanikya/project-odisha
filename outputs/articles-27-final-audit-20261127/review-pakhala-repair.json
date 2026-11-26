@@ -1,0 +1,39 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-26T22:06:31.622924+00:00",
+  "base_head": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+  "verdict": "PASS_BOUNDED_PAKHALA_SOURCE_REPAIR",
+  "scope": "Read-only review of Pakhala note 3/source-resource replacement and source-register amendment. No duplicate external requests made.",
+  "evidence_basis": "Reviewed Anvesha exact-archive GET evidence (HTTP200, complete195458-byte response, matching Memento date/capture, author/title/date and culinary term/claim checks); compared actual source diff and current files independently. This reviewer did not independently fetch the remote page.",
+  "checks": {
+    "exact_capture_timestamp": "20261014232402",
+    "archive_date_correct": "14 October 2026",
+    "same_original_publisher_path": true,
+    "author_title_publication_date_preserved_or_made_explicit": true,
+    "unchanged_culinary_paragraph_matches_reported_archive_details": true,
+    "no_health_claim_added": true,
+    "narrative_byte_identical": true,
+    "frontmatter_unchanged_except_resource3": true,
+    "all_four_notes_retained": true,
+    "notes1_2_4_byte_identical": true,
+    "other26_articles_byte_identical_to_HEAD": true,
+    "images_manifest_and_collection_byte_identical": true,
+    "historical_source_register_preserved_except_active_bullet": true,
+    "new_register_note_appended": true,
+    "no_site_asset_or_template_changes": true
+  },
+  "renderer_validation": "Samanta-reported shared-renderer PASS for four notes, sources and backrefs; not rerun by this reviewer.",
+  "changed_source_hashes": {
+    "kb/research/stories/independent-features/food/pakhala.md": "177cfe2ba60420a858479a36e11b41a0f3761c06f75e5b607cd67bdb12e0191b",
+    "kb/research/stories/independent-features/source-register.md": "7ed0380630536e7849679fedf352122d20d405689d35e9f340d6e5340fa32a51"
+  },
+  "evidence_hashes": {
+    "source-pakhala-repair.json": "3f03e75c2bd0530b2cb387225e0910f5af14e6d9d96dc6c5d328dc4474f711f0",
+    "technical-implementation.json": "3d3234bcfbb8281fa3b9c9a9cd202161d33e49cc574f37cb9630521350f36638"
+  },
+  "findings": [],
+  "limits": [
+    "This is pre-publication source review, not live-delivery verification of the repair.",
+    "All-95 source audit disposition and final aggregate review remain separate."
+  ]
+}

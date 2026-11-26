@@ -36,7 +36,7 @@ Sitabinji’s power lies in the survival of a human arrangement within that enor
 
 ## Footnotes & Sources
 
-[^1]: [Paul Yule, *Early Historic Sites in Orissa*, Sitabhinji section](https://fid4sa-repository.ub.uni-heidelberg.de/147/3/yule_ehso_text.pdf)
+[^1]: [Paul Yule, *Early Historic Sites in Orissa*, Sitabhinji section](https://fid4sa-repository.ub.uni-heidelberg.de/147/3/yule_ehso_text.pdf), printed pp. 53–54 (PDF pages 23–24). Fallback: [archived 9 July 2022](https://web.archive.org/web/20220709023011/https://fid4sa-repository.ub.uni-heidelberg.de/147/3/yule_ehso_text.pdf).
 
 [^2]: [ASI’s account of Ravana Chhaya](https://www.linkedin.com/posts/archaeologicalsurveyofindiahq_the-rock-locally-known-as-ravana-chhaya-and-activity-7465115165009534976-jawa)
 
