@@ -263,5 +263,17 @@
     "result": "PASS",
     "scope": "Final integrated evidence-only receipt and PR899 preservation; exact committed continuity, required CI and actual receipt merge remain."
   },
-  "receipt_whitespace": "outputs/devagiri-publication-2026-11-27/receipt-whitespace-review.json"
+  "receipt_whitespace": "outputs/devagiri-publication-2026-11-27/receipt-whitespace-review.json",
+  "additional_receipt_reconciliation": {
+    "incoming_pr": 900,
+    "incoming_main": "728a83723d5a89dcb3e246b62a4980b386bafec6",
+    "evidence": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-900.json",
+    "prior_receipt_ci": 45906029809,
+    "status": "Prior exact head passed; combined receipt review and CI required. Incoming source-audit work preserved; no receipt-owned public changes.",
+    "separate_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-review-900.json",
+      "sha256": "303c31c9a24bd2171abb029b1b9ef6f91cfaaaa921ae7c8589117ccadbe82309",
+      "result": "PASS"
+    }
+  }
 }

@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-11-26T22:01:11.793952+00:00",
+  "status": "complete",
+  "scope": "Fresh live HTML for27 articles, their article image/srcset files, displayed image credits/source/licence links, and article-local/linked-local fragments. Source-footnote destinations delegated to Anvesha; visual browser layout delegated to root.",
+  "totals": {
+    "article_pages": 27,
+    "source_notes": 109,
+    "unique_live_external_footnote_urls": 95,
+    "image_assets_requested": 63,
+    "image_assets_http200": 63,
+    "image_assets_exact_local_byte_matches": 62,
+    "primary_article_images_exact_matches": 27,
+    "image_source_licence_destinations": 34,
+    "image_source_licence_http200": 34,
+    "local_destination_checks": 64,
+    "missing_local_fragments": 0
+  },
+  "checks": {
+    "all_expected109notes_visible": true,
+    "all_metadata_source_urls_in_visible_notes": true,
+    "all_caption_title_creator_licence_changes_match_manifest": true,
+    "all_image_source_licence_links_match_manifest": true,
+    "all_primary_image_alt_dimensions_match_manifest": true,
+    "no_creator_text_or_images_introduced_by_audit": true
+  },
+  "actionable_defects": [],
+  "qualifications": [
+    {
+      "type": "responsive_encoding_difference",
+      "slug": "pakhala",
+      "url": "https://projectodisha.org/images/responsive/32285dcfdf1b0985-1440.webp",
+      "explanation": "Live1440responsive rendition absent locally; its content-address prefix matches actual SHA256. Dimensions1440x810 match configured aspect-preserving transform. In-memory reproduction differs slightly in encoded/decoded pixels (mean absolute channel difference0.735/255), consistent with documented platform-dependent encoding. Approved primary image is byte-identical. No broken asset or crop indicated.",
+      "evidence": "technical-responsive-check.json"
+    },
+    {
+      "type": "scope_limit",
+      "explanation": "HTTP status and bounded destination-page checks establish present reachability, not future availability or new independent licence adjudication. Independent reviewer checks rights records; root checks actual browser mobile/desktop layout."
+    }
+  ],
+  "evidence_files": [
+    "technical-live-pages.json",
+    "technical-live-footnotes.json",
+    "technical-live-image-assets.json",
+    "technical-live-local-links.json",
+    "technical-live-image-credit-links.json",
+    "technical-responsive-check.json"
+  ],
+  "public_files_changed": [],
+  "git_or_publication_actions": false
+}

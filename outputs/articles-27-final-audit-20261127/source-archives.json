@@ -1,0 +1,607 @@
+{
+  "started_at": "2026-11-26T22:00:59.433280+00:00",
+  "method": "Sequential verified-TLS replay GETs with five-second spacing; exact capture metadata and actual content checked. No archive timestamp guessing or live-origin fallback. Large poem PDF uses a fresh1MiB prefix comparison against the previously fully verified exact52.4MB temporary PDF, followed by local page28 extraction; all other PDFs inspected from current payload.",
+  "expected_unique_archives": 11,
+  "results": [
+    {
+      "url": "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "checked_at": "2026-11-26T22:00:59.433485+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 9196,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Sun, 17 Nov 2024 00:43:07 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.08,
+      "key": "dhemsa",
+      "references": [
+        {
+          "slug": "dhemsa",
+          "note": "1",
+          "registered_title": "Odisha Reference Annual 2014, “The Gadabas and Their Dances”",
+          "note_text": "[“The Gadabas and Their Dances (Folk Dance)”, *Odisha Reference Annual 2014*](https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf), printed p. 93 (PDF page 15 of the chapter, pp. 79–97); archived 17 November 2024."
+        }
+      ],
+      "expected_capture_timestamp": "20241117004307",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20241117004307if_/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20241117004307if_/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+        "checked_at": "2026-11-26T22:01:06.516305+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20241117004307if_/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 270048,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Sun, 17 Nov 2024 00:43:07 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "19156ee9a84fd57e51ef9e022e2b06cccdcda87a206c4391fc7b61d29801681b",
+        "elapsed_seconds": 2.57
+      },
+      "pdf_page_count": 19,
+      "inspected_pdf_pages": [
+        15
+      ],
+      "claim_marker_checks": {
+        "Gadabas": true,
+        "Dhemsa": true,
+        "Tamak": true,
+        "Mahuri": true
+      },
+      "payload_sha256": "19156ee9a84fd57e51ef9e022e2b06cccdcda87a206c4391fc7b61d29801681b",
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf",
+      "checked_at": "2026-11-26T22:01:16.432882+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 8985,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Thu, 06 Aug 2009 09:55:54 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 1.5,
+      "key": "bali-jatra",
+      "references": [
+        {
+          "slug": "bali-jatra",
+          "note": "2",
+          "registered_title": "Tripati and Raut, 2006",
+          "note_text": "[Sila Tripati and L. N. Raut, “Monsoon wind and maritime trade: a case study of historical evidence from Orissa, India”, *Current Science* 90(6), 25 March 2006, pp. 864–871](https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf), especially pp. 864 and 870; publisher PDF archived 6 August 2009."
+        }
+      ],
+      "expected_capture_timestamp": "20090806095554",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20090806095554if_/http://www.ias.ac.in:80/currsci/mar252006/864.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20090806095554if_/http://www.ias.ac.in:80/currsci/mar252006/864.pdf",
+        "checked_at": "2026-11-26T22:01:22.930299+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20090806095554if_/http://www.ias.ac.in:80/currsci/mar252006/864.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 232824,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Thu, 06 Aug 2009 09:55:54 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "72e3899c6d8a71b788f0c715101517b26892dc3380ec8cfd18e446496709515e",
+        "elapsed_seconds": 2.91
+      },
+      "pdf_page_count": 8,
+      "inspected_pdf_pages": [
+        1,
+        7
+      ],
+      "claim_marker_checks": {
+        "northeast": true,
+        "southwest": true,
+        "monsoon": true
+      },
+      "payload_sha256": "72e3899c6d8a71b788f0c715101517b26892dc3380ec8cfd18e446496709515e",
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "checked_at": "2026-11-26T22:01:31.806139+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 9192,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Fri, 17 Jul 2026 01:48:54 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.89,
+      "key": "raja-essay",
+      "references": [
+        {
+          "slug": "raja",
+          "note": "3",
+          "registered_title": "*Orissa Review*, June 2006",
+          "note_text": "[Pravukalyan Mohapatra, “Raja Sankranti: The Festival of Swings”, *Orissa Review*, June 2006, pp. 122–123](https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf), especially p. 122 on the fourth-day observance in some places; archived 17 July 2026."
+        }
+      ],
+      "expected_capture_timestamp": "20260717014854",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20260717014854if_/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20260717014854if_/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+        "checked_at": "2026-11-26T22:01:39.704095+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20260717014854if_/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 157646,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Fri, 17 Jul 2026 01:48:54 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "fac88b094e3817e754e52f924e64f0a65c7f1837c704879eb5955629c171a37b",
+        "elapsed_seconds": 2.3
+      },
+      "pdf_page_count": 2,
+      "inspected_pdf_pages": [
+        1
+      ],
+      "claim_marker_checks": {
+        "Basumata": true,
+        "Pahili": true,
+        "122": true
+      },
+      "payload_sha256": "fac88b094e3817e754e52f924e64f0a65c7f1837c704879eb5955629c171a37b",
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav",
+      "checked_at": "2026-11-26T22:01:47.918395+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 44954,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Fri, 15 May 2026 22:40:49 GMT",
+      "title": "Events & Festivals in India | A Ministry of Tourism Initiative",
+      "heading_titles": [
+        "Raja Mahotsav"
+      ],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.8,
+      "key": "raja-event",
+      "references": [
+        {
+          "slug": "raja",
+          "note": "4",
+          "registered_title": "Ministry of Tourism, Raja Mahotsav",
+          "note_text": "[Ministry of Tourism, Raja Mahotsav](https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav), “Raja Parba: A Celebration of Womanhood and Earth’s Fertility”; archived 15 May 2026."
+        }
+      ],
+      "expected_capture_timestamp": "20260515224049",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": true,
+      "memento_date_matches_capture": true,
+      "claim_marker_checks": {
+        "Raja Parba": true,
+        "Podapitha": true,
+        "rope": true
+      },
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "checked_at": "2026-11-26T22:01:55.738232+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 9208,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Sun, 07 Dec 2025 00:51:16 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 1.56,
+      "key": "balasore-survey",
+      "references": [
+        {
+          "slug": "similipal-waterfalls",
+          "note": "2",
+          "registered_title": "Balasore district survey, river system",
+          "note_text": "[Balasore draft district survey, Road Metal/Building Stone section, §5.1 River System](https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf), printed pp. 18–19 (PDF pages 19–20); archived 7 December 2025."
+        }
+      ],
+      "expected_capture_timestamp": "20251207005116",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20251207005116if_/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20251207005116if_/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+        "checked_at": "2026-11-26T22:02:02.309602+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20251207005116if_/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 5574395,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Sun, 07 Dec 2025 00:51:16 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "6082e660fc5fde25fb071a1abf67b9b1690ec5bb5c8f2f4048158edde79807de",
+        "elapsed_seconds": 5.48
+      },
+      "pdf_page_count": 190,
+      "inspected_pdf_pages": [
+        19,
+        20
+      ],
+      "claim_marker_checks": {
+        "Budhabalanga": true,
+        "Similipal": true,
+        "River System": true
+      },
+      "payload_sha256": "6082e660fc5fde25fb071a1abf67b9b1690ec5bb5c8f2f4048158edde79807de",
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal",
+      "checked_at": "2026-11-26T22:02:13.642308+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 279614,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Sun, 25 Oct 2026 12:54:05 GMT",
+      "title": "Similipal - Man and the Biosphere Programme (MAB)",
+      "heading_titles": [
+        "Similipal"
+      ],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.56,
+      "key": "unesco",
+      "references": [
+        {
+          "slug": "similipal-waterfalls",
+          "note": "4",
+          "registered_title": "Dated archive fallback",
+          "note_text": "[UNESCO, Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal), General information and Ecological Characteristics. Fallback: [archived 25 October 2026](https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal)."
+        }
+      ],
+      "expected_capture_timestamp": "20261025125405",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": true,
+      "memento_date_matches_capture": true,
+      "claim_marker_checks": {
+        "perennial streams": true,
+        "waterfalls": true,
+        "sal tree": true
+      },
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "checked_at": "2026-11-26T22:02:21.224158+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "content_type": "text/html",
+      "sample_bytes": 9137,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Wed, 06 Nov 2024 05:06:33 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 1.79,
+      "key": "dana",
+      "references": [
+        {
+          "slug": "cyclone-dana",
+          "note": "3",
+          "registered_title": "Home Ministry situation report, 27 October 2024",
+          "note_text": "[Home Ministry situation report, 27 October 2024, 1800 hrs](https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243), p. 2 (evacuations) and p. 6, Table 8 (relief centres); archived 6 November 2024."
+        }
+      ],
+      "expected_capture_timestamp": "20241106050633",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20241106050633if_/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20241106050633if_/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+        "checked_at": "2026-11-26T22:02:28.022882+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20241106050633if_/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+        "content_type": "application/pdf",
+        "sample_bytes": 502611,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Wed, 06 Nov 2024 05:06:33 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "56053cb44163be48757e841aea1604825b2eb56b536114b63b6c43cd776b2e6a",
+        "elapsed_seconds": 2.89
+      },
+      "pdf_page_count": 6,
+      "inspected_pdf_pages": [
+        1,
+        2,
+        6
+      ],
+      "claim_marker_checks": {
+        "810896": true,
+        "6210": true,
+        "27": true
+      },
+      "payload_sha256": "56053cb44163be48757e841aea1604825b2eb56b536114b63b6c43cd776b2e6a",
+      "content_verdict": "pass",
+      "cover_date_verification": {
+        "method": "Current full downloaded payload SHA256 equals preserved reviewed six-page PDF; native PDFKit inspected its first page",
+        "date": "27 October 2024 at1800hrs",
+        "pdf_page": 1,
+        "exact_sha256_match": true
+      },
+      "review_note": "Initial date marker check used only cited statistics pages2/6; cover page1 supplies report date. Both numeric citation checks passed on the fresh payload."
+    },
+    {
+      "url": "https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+      "checked_at": "2026-11-26T22:03:45.737239+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 9322,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Tue, 06 May 2025 06:28:18 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.2,
+      "key": "poem",
+      "references": [
+        {
+          "slug": "bande-utkala-janani",
+          "note": "1",
+          "registered_title": "Text in *Odisha Reference Annual 2017*, page 6",
+          "note_text": "[Kantakabi Laxmikanta Mohapatra, “Bande Utkala Janani”, *Odisha Reference Annual 2017*, printed p. 6](https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf), PDF page 28 of the 366-page annual; the annual credits *Kanta Sahitya Mala*. Archived 6 May 2025."
+        }
+      ],
+      "expected_capture_timestamp": "20250506062818",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20250506062818if_/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20250506062818if_/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+        "checked_at": "2026-11-26T22:03:52.948276+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20250506062818if_/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 1048576,
+        "response_sample_complete": false,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Tue, 06 May 2025 06:28:18 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "cb7db804ca5f2498d733cfdc08e624c99579629df3b218494cbf246970b6921b",
+        "elapsed_seconds": 4.25
+      },
+      "fresh_prefix_matches_reviewed_full_pdf": true,
+      "reviewed_full_pdf_sha256": "8214f54d2d9625c1c7a7ecd3e1232d3853a7dc02b9337b6cfc607ee6378cf17f",
+      "reviewed_full_pdf_hash_matches_prior_evidence": true,
+      "pdf_page_count": 366,
+      "inspected_pdf_pages": [
+        28
+      ],
+      "claim_marker_checks": {
+        "BANDE UTKALA JANANI": true,
+        "Kantakabi": true,
+        "Kanta Sahitya Mala": true
+      },
+      "payload_sha256": "8214f54d2d9625c1c7a7ecd3e1232d3853a7dc02b9337b6cfc607ee6378cf17f",
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf",
+      "checked_at": "2026-11-26T22:04:04.382601+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 9169,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Sun, 07 Dec 2025 04:15:44 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 1.65,
+      "key": "kantakabi",
+      "references": [
+        {
+          "slug": "bande-utkala-janani",
+          "note": "2",
+          "registered_title": "*Orissa Review*, August 2006, study of Kantakabi",
+          "note_text": "[Soma Chand, “Kantakabi Laxmikanta and Nationalist Poems”, *Orissa Review*, August 2006, pp. 43–47](https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf), especially pp. 45–46 on nationalist writing, spinning and khadi; archived 7 December 2025."
+        }
+      ],
+      "expected_capture_timestamp": "20251207041544",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20251207041544if_/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20251207041544if_/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf",
+        "checked_at": "2026-11-26T22:04:11.036458+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20251207041544if_/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 383660,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Sun, 07 Dec 2025 04:15:44 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "9988d5dd443b6ce81d76253a0326a6c08a1f7fd73c8ce9fe7d6e41e8fa276f4f",
+        "elapsed_seconds": 3.24
+      },
+      "pdf_page_count": 5,
+      "inspected_pdf_pages": [
+        3,
+        4
+      ],
+      "claim_marker_checks": {
+        "Khadar": true,
+        "spinning": true,
+        "nationalist": true
+      },
+      "payload_sha256": "9988d5dd443b6ce81d76253a0326a6c08a1f7fd73c8ce9fe7d6e41e8fa276f4f",
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+      "checked_at": "2026-11-26T22:04:20.198906+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 256134,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Sat, 19 Jul 2025 16:22:58 GMT",
+      "title": "(PDF) Shell Bangle Manufacturing in Coastal Odisha: A Study of Surface Collection at Manikapatana",
+      "heading_titles": [
+        "Shell Bangle Manufacturing in Coastal Odisha: A Study of Surface Collection at Manikapatana"
+      ],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.73,
+      "key": "shell-paper",
+      "references": [
+        {
+          "slug": "coastal-shell-craft",
+          "note": "1",
+          "registered_title": "Thakuria’s analysis of production stages",
+          "note_text": "[Tilok Thakuria, “Shell Bangle Manufacturing in Coastal Odisha: A Study of Surface Collection at Manikapatana”, *Journal of Indian Ocean Archaeology* 9 (2013), pp. 23–34](https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana), especially pp. 26–29. Readable article text preserved on the author-upload page, archived 19 July 2025; a separate PDF download was not verified."
+        },
+        {
+          "slug": "coastal-shell-craft",
+          "note": "2",
+          "registered_title": "Thakuria’s analysis of production stages",
+          "note_text": "[Thakuria’s analysis of production stages, pp. 28–30](https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana), in the same archived article text. The discussion of possible finishing elsewhere remains an interpretation, not proof of another workshop."
+        }
+      ],
+      "expected_capture_timestamp": "20250719162258",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": true,
+      "memento_date_matches_capture": true,
+      "claim_marker_checks": {
+        "2008 to 2011": true,
+        "Manikapatana": true,
+        "two stages": true
+      },
+      "content_verdict": "pass"
+    },
+    {
+      "url": "https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "checked_at": "2026-11-26T22:04:27.938611+00:00",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "content_type": "text/html",
+      "sample_bytes": 9171,
+      "response_sample_complete": true,
+      "pdf_signature": false,
+      "classification": "reachable",
+      "memento_datetime": "Thu, 23 Jun 2022 00:30:39 GMT",
+      "title": "Wayback Machine",
+      "heading_titles": [],
+      "destination_kind": "html_page",
+      "elapsed_seconds": 2.0,
+      "key": "craft-directory",
+      "references": [
+        {
+          "slug": "coastal-shell-craft",
+          "note": "4",
+          "registered_title": "Directorate of Handicrafts, Baleswar directory",
+          "note_text": "[Directorate of Handicrafts, Baleswar directory](https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf), PDF page 58, rows 3263–3264 and 3266–3269 (Bhogarai, Sea Shell Work); archived 23 June 2022."
+        }
+      ],
+      "expected_capture_timestamp": "20220623003039",
+      "capture_timestamp_in_final_url": true,
+      "capture_timestamp_in_replay_metadata": false,
+      "memento_date_matches_capture": true,
+      "observed_embedded_pdf_urls": [
+        "https://web.archive.org/web/20220623003039if_/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf"
+      ],
+      "payload": {
+        "url": "https://web.archive.org/web/20220623003039if_/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+        "checked_at": "2026-11-26T22:04:34.940881+00:00",
+        "http_status": 200,
+        "final_url": "https://web.archive.org/web/20220623003039if_/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+        "content_type": "application/pdf",
+        "sample_bytes": 3414726,
+        "response_sample_complete": true,
+        "pdf_signature": true,
+        "classification": "reachable",
+        "memento_datetime": "Thu, 23 Jun 2022 00:30:39 GMT",
+        "destination_kind": "pdf_payload",
+        "sample_sha256": "9ef548c07c43513565e8e6c89542e6733c64f05fd3967d73530f2cd1230ebc00",
+        "elapsed_seconds": 4.5
+      },
+      "pdf_page_count": 178,
+      "inspected_pdf_pages": [
+        58
+      ],
+      "claim_marker_checks": {
+        "Bhogarai": true,
+        "Sea Shell Work": true,
+        "3263": true
+      },
+      "payload_sha256": "9ef548c07c43513565e8e6c89542e6733c64f05fd3967d73530f2cd1230ebc00",
+      "content_verdict": "pass"
+    }
+  ],
+  "completed_at": "2026-11-26T22:04:41.594423+00:00",
+  "verified_count": 11,
+  "unrequested_archives": []
+}

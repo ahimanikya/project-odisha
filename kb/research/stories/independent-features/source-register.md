@@ -146,7 +146,7 @@ The Mint Lounge and chef accounts were accessible. The Tourism food essay and OT
 
 - [*Mint Lounge*, 2021](https://www.livemint.com/mint-lounge/food/there-is-more-to-panta-bhat-than-just-being-a-masterchef-finale-dish-111626403672396.html)
 - [Pritisha Das, Odisha Tourism](https://odishatourism.gov.in/in/blog/odisha-s-must-try-soul-food)
-- [Nisar Ahmed, Odisha Tourism, 2 June 2021](https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine)
+- [Chef Nisar Ahmed, “Beat the heat with this healthy Odia Cuisine”, Odisha Tourism, 2 June 2021](https://web.archive.org/web/20261014232402/https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine), archived 14 October 2026.
 - [OTDC event record](https://otdc.odisha.gov.in/storage/advertisement/1742472029_pakhala%20Dibas.pdf)
 
 ## 17. Sonapur where beach management meets a river mouth
@@ -275,3 +275,15 @@ The remaining-link review recovered exact archived documents and added claim-lev
 ## UNESCO source fallback · 27 November 2026
 
 Similipal note 4 retains the original UNESCO source and adds an [archive fallback captured 25 October 2026](https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal). The exact archived page was retrieved successfully and its capture provenance verified. General information supports the hills, perennial streams and waterfalls; Ecological Characteristics explicitly identifies sal. The fallback supplements the same source rather than providing independent corroboration. Article prose, images, source identifiers and resources, historical review date and original hash remain unchanged; earlier access records above are preserved.
+
+## Pakhala source recovery · 27 November 2026
+
+Pakhala note 3 now links to the exact [Chef Nisar Ahmed essay, “Beat the heat with this healthy Odia Cuisine”, Odisha Tourism, 2 June 2021](https://web.archive.org/web/20261014232402/https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine), archived 14 October 2026. The final live-source check found the original target unavailable. The actual archived essay and capture provenance were verified; the cited torani, roasted cumin, ginger, yoghurt, greens, badi and coconut details match the existing paragraph. No health-benefit claim was added. Article prose, images, source identifiers, historical review date and original hash remain unchanged. The earlier access descriptions above are preserved.
+
+## Sitabinji source fallback · 27 November 2026
+
+Sitabinji note 1 retains Paul Yule’s original Heidelberg repository link and adds an [archive fallback captured 9 July 2022](https://web.archive.org/web/20220709023011/https://fid4sa-repository.ub.uni-heidelberg.de/147/3/yule_ehso_text.pdf). The original currently presents an access challenge. The verified archived payload is the actual 65-page PDF: printed pp. 53–54 (PDF pages 23–24) contain the cited Sitabhinji painting dimensions, procession details and water-diversion channel. A newer 2026 capture was rejected because it contained a challenge rather than the paper. No challenge was bypassed. Article prose, images, source metadata and historical access descriptions remain unchanged.
+
+## Pentha source access · 27 November 2026
+
+Pentha note 2 retains the original CAG Economic Sector audit citation, section 3.2.6. Its public address currently redirects ordinary browser access to sign-in, while the exact 146-page report remains readable through the indexed research reader. No verified archive of that report was recovered. The visible source note now states the publisher’s sign-in requirement and separately links [IIT Madras’s *Guidelines on Geo-synthetics for Coastal Protection and Port Works*, 10 July 2021](https://shipmin.gov.in/sites/default/files/Geo%20Synthetics%20final%20report.pdf), pp. 69–71 and 186. That public 493-page document was verified as a distinct engineering account of Pentha; it is not an archived audit and does not establish the audit’s 675-to-505-metre figures. Those figures remain attributed to CAG. This is transparent access mitigation, not confirmation that every source is publicly accessible. Article prose, source metadata, images and earlier access records remain unchanged.

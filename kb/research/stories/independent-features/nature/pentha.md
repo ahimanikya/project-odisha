@@ -36,6 +36,6 @@ For communities beside an eroding shore, the useful measure is whether protectio
 
 [^1]: [Down To Earth, February 2009](https://www.downtoearth.org.in/environment/coastal-folly-3063)
 
-[^2]: [CAG, Economic Sector audit, section 3.2.6](https://agodi.cag.gov.in/agodisha/writereaddata/ERSA_Audit%20Report_Economic%20Sector-II_English%20Version_1507532887176.pdf)
+[^2]: [CAG, Economic Sector audit, section 3.2.6](https://agodi.cag.gov.in/agodisha/writereaddata/ERSA_Audit%20Report_Economic%20Sector-II_English%20Version_1507532887176.pdf) The publisher currently requires sign-in. Separate public engineering account: [IIT Madras, *Guidelines on Geo-synthetics for Coastal Protection and Port Works*](https://shipmin.gov.in/sites/default/files/Geo%20Synthetics%20final%20report.pdf), 10 July 2021, pp. 69–71 and 186. This companion is not an archived copy of the audit and does not supply its 675-to-505-metre figures.
 
 [^3]: [The New Indian Express, 11 January 2026](https://www.newindianexpress.com/states/odisha/2026/Jan/11/geo-synthetic-tube-to-combat-soil-erosion-wall-set-on-fire-by-miscreants-in-odisha)
