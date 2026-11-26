@@ -1,0 +1,45 @@
+{
+  "result": "pass",
+  "scope": "Bounded preview-framing source correction; actual rebuilt visual result remains pending.",
+  "reviewer": "Drishti, separate AI reviewer",
+  "observed_issue": {
+    "screenshot": "outputs/devagiri-publication-2026-11-27/screenshots/local-mobile-hills-full-card.jpg",
+    "sha256": "a23d6242c2632f7dd03e9f19bee5e00996bf05eba66ac7b958afb42b09cadd40",
+    "actual_viewing": "Independently opened the full mobile card screenshot. Center crop excludes the temple tower and emphasizes foreground visitors. Doorway remains recognizable, but shifting crop toward the top is a proportionate improvement."
+  },
+  "patch_verification": [
+    "Image JSON differs from pre-framing contract image only by previewPosition:center top. Article text, caption/credit, original and public image bytes remain unchanged.",
+    "DestinationCards and Explore differ from prior source only by conditional inline objectPosition using the image metadata. Undefined fields omit the style; no CSS/default object-fit/dimensions or other component changes.",
+    "ResponsiveImage forwards the style through its existing attribute spread to native img. The article wrapper does not pass previewPosition and keeps its uncropped full portrait.",
+    "Repository metadata/source search finds exactly one previewPosition value: Devagiri. Other existing photo positions are therefore unchanged by this property at source level."
+  ],
+  "shared_component_inventory": {
+    "DestinationCards_consumers": [
+      "/",
+      "/destinations/",
+      "/destinations/hills/"
+    ],
+    "homepage_limit": "Homepage selects Bhubaneswar, Puri and Cuttack only; none has previewPosition. No Devagiri card introduced there.",
+    "Explore": "All entries use conditional branch, but only Devagiri metadata sets a value.",
+    "actual_expected_affected_routes": [
+      "/destinations/",
+      "/destinations/hills/",
+      "/explore/"
+    ]
+  },
+  "historical_evidence": "Initial six completed stages and intentionally interrupted coast acceptance are retained under pre-framing, with exit130. They do not establish final corrected package acceptance. Prior static reports remain historical and unchanged.",
+  "current_hashes": {
+    "kb/research/places/devagiri-image.json": "95b726cf0f99c5b9ae3dab584db69457814d0b9f2a1a53f75068360907af8b3b",
+    "projects/site/src/components/DestinationCards.astro": "3956f2a8e87e1ccbf1c703583f9eddbe82a4f3f9e1d1e7be3e7cde268dc7ebb9",
+    "projects/site/src/pages/explore.astro": "0912a03ca95d0771a3039c2f9a783298bce0aa96d45c30893bee482e87aa2c92",
+    "projects/site/src/components/ResponsiveImage.astro": "2dd95cff185fa906ae058a67e4484768321a1f6b0138e08857771f738b0bb178",
+    "projects/site/src/pages/destinations/devagiri.astro": "ed995a80cc380ecccbbb457101c5d370d0aac98ee213730847c07e7290a7d3b2",
+    "kb/research/places/devagiri-article.md": "77d19143aae3ca29827d2d612df321d80fec410b67adb5a9372f4c1852bc896c"
+  },
+  "pending": [
+    "Rebuilt desktop/mobile views must show a recognizable shrine tower, appropriate crop and readable caption/summary.",
+    "Inspect actual three incoming image styles plus unchanged neighboring/default images; check homepage default rendering and existing styles.",
+    "Fresh final full/coast/publication checks and exact contract required; prior package unfinished."
+  ],
+  "blockers": []
+}

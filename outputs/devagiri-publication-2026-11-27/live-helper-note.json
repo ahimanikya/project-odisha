@@ -1,0 +1,27 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "source_helper": "outputs/mahavinayak-combined-2026-11-26/verify-live.py",
+  "copy_method": "APFS clone-aware copy;1 cloned file;0 full copies",
+  "helper_sha256": "7ad7f4c8ced382da54f799dcbdf6f82c87ad1d7cd78bea5c77fd65b18480eb39",
+  "routes": [
+    "/destinations/devagiri/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/sakhi-nata-and-sakhi-pila/"
+  ],
+  "image_scope": "Devagiri base plus two reviewed responsive files; Mardala base plus up to two responsive files only if actually present in reviewed local markup",
+  "preconditions": [
+    "explicit expected full merge hash",
+    "successful deployment evidence with matching head and run",
+    "PASS local-verification.json",
+    "unchanged contract and frozen sources"
+  ],
+  "evidence": "New timestamped raw HTML/images and per-response sanitized HTTP metadata; all page/image hashes; image attribute differences and analytics scripts separately retained; no normalization",
+  "limits": [
+    "No network calls, builds, tests or helper execution performed during preparation.",
+    "Current dist-publish did not yet include Devagiri; root must complete reviewed package before execution.",
+    "Current Mardala local markup has no responsive variants; helper derives actual presence at execution.",
+    "Differing delivery bytes/URLs produce REVIEW_DIFFERENCES; no encoding or visual equivalence assumed."
+  ]
+}

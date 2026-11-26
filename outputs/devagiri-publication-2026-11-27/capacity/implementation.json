@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "code": {
+    "projects/site/tools/optimize-publication-jpeg.mjs": "399e6607c4336a1efc6e873ae0c74e6ba29c586a107fa8700e88f956bf0b66ed",
+    "projects/site/tests/publication-jpeg.test.mjs": "c9da9f6464ec4fc066bb9b2d7d5c7d59bff2164f9dfb82107431c755dd653032"
+  },
+  "capacity": {
+    "asset": "assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
+    "maximum_dimension": 1728,
+    "quality_before": 95,
+    "quality_after": 90,
+    "geometry": [
+      1552,
+      1728
+    ],
+    "prior_bytes": 1088597,
+    "selected_bytes": 759525,
+    "selected_sha256": "d22fe88283d1342230e27d29d3a835d82f38b10a1afd8e8c1f1e68fc0e72ef09",
+    "saved_bytes": 329072,
+    "new_image_projected_total_bytes": 269246,
+    "estimated_headroom_before_html": 103571,
+    "other_ten_entries_preserved": true,
+    "regression": "Actual source resized; incremental saving >300000; EXIF equal prior1728 derivative, ICC/IPTC/XMP/density/source original/sharing geometry/caption and negative guards retained.",
+    "limits": "Technical EXIF dimensions differ from original; original bytes remain exact. Full source frame retained; original clips left edge of instrument."
+  },
+  "checks": {
+    "tests": 11,
+    "failed": 0,
+    "exact_one_setting_change": true
+  },
+  "review": "outputs/devagiri-publication-2026-11-27/media-capacity-review.json"
+}

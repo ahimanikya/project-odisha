@@ -13,6 +13,7 @@ import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
 import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-image.json';
 import malayagiriImage from '../../../../kb/research/destinations/malayagiri-image.json';
 import gonasikaImage from '../../../../kb/research/destinations/gonasika-image.json';
+import devagiriImage from '../../../../kb/research/places/devagiri-image.json';
 import mahavinayakImage from '../../../../kb/research/places/mahavinayak-image.json';
 import olasuniImage from '../../../../kb/research/places/olasuni-image.json';
 import baruneiImage from '../../../../kb/research/places/barunei-image.json';
@@ -209,4 +210,14 @@ export const mahavinayakGuide = {
  aliases: [],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide,olasuniGuide,mahavinayakGuide].filter(guide => allowsPage(guide.href));
+export const devagiriGuide = {
+ title: 'Devagiri',
+ odia: '',
+ summary: 'A rocky pilgrimage hill with a cave shrine and named pools.',
+ href: '/destinations/devagiri/',
+ photo: devagiriImage,
+ regions: ['Rayagada'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide,olasuniGuide,mahavinayakGuide,devagiriGuide].filter(guide => allowsPage(guide.href));

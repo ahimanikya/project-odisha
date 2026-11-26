@@ -1,0 +1,68 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "scope": "Integrated static source, media, routing and bounded optimizer implementation only. Current root pipeline is in progress; no rendered, final package or publication acceptance.",
+  "base": "54a8b3260b4ec006b815b24763fbb43456984177",
+  "contract_sha256": "affe2cc9acf0ce7d6be6dfa1cb40c5cd27fcf536d79404eccaf8cef457d098d1",
+  "frozen_input_count": 22,
+  "frozen_input_hashes": {
+    "kb/reference/public-website-routes.json": "fd2a8079550190f04ef5ca5331eaaa9251e6c954dbe4585dee18dc4a9d4832de",
+    "kb/research/places/devagiri-article.md": "77d19143aae3ca29827d2d612df321d80fec410b67adb5a9372f4c1852bc896c",
+    "kb/research/places/devagiri-image.json": "49bf44433d777781d26560669d6f007e7df69e39222e225859250f04a4415db1",
+    "projects/site/editions/coast.json": "19edadd0f648935fee9d7660a0889da91de379d75675b2f7f09bc72d4a500a70",
+    "projects/site/editions/responsive-images.json": "e3b213372285b64820bf47c6053339909f416e14890fefd52cddbd768eecb1de",
+    "projects/site/editions/search-candidate.json": "353fcc70137e700f2c8d7a9087b16579eb3d7960fb2f633af5cc08a1b6da2a7f",
+    "projects/site/public/images/destinations/devagiri-vinayak-hpsatapathy.webp": "15b8a5a9acfe91760d897e92cafc6fa086620a6e8f31f2713f6d5e10fe229caf",
+    "projects/site/src/data/hill-destinations.ts": "23ef501dbdc1b015aadb502a03e42682f7c9e8e59184b33ffa11f16030d3524d",
+    "projects/site/src/pages/destinations/devagiri.astro": "ed995a80cc380ecccbbb457101c5d370d0aac98ee213730847c07e7290a7d3b2",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "7c9c484337af300a48340504b7cb0f824843412a087d3e7b624682360fe3d5ac",
+    "projects/site/tests-coast/edition.test.mjs": "e72b240b4e15b7ae4ee186fa99d5b3759971d3981d531fa3187fcd95cad6b10a",
+    "projects/site/tests/build.test.mjs": "ed083e2b27333edcf669a3d8e4e74ebbd3672f53bed21c111beb0c16d3182db8",
+    "projects/site/tests/publication-jpeg.test.mjs": "c9da9f6464ec4fc066bb9b2d7d5c7d59bff2164f9dfb82107431c755dd653032",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "c6f64395f03d3f6dce58fbcc61d573cb773ad6844d69c6e302ed7b9161e907a1",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "399e6607c4336a1efc6e873ae0c74e6ba29c586a107fa8700e88f956bf0b66ed",
+    "projects/site/tools/build-publication.mjs": "6433899cd39cf420e19556b5819e33194ef5b69e5c48a66ae3e879eeb3e8c48b",
+    "projects/site/tools/prepare-search-review.mjs": "a13da9fa3cf2947539bb161d9588ed49d172bf3b382855f0c49f9eda18636281",
+    "projects/site/tools/storage-copy.mjs": "a3d42748f64451ce10f8e59d03e28e942883cff2506df4cb3dfa093c063db4dd",
+    "projects/site/src/pages/destinations/hills.astro": "959c2567da4caa442910d5fc1bf20280002dc04e47ccd77c543a73430939d85b",
+    "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
+    "projects/site/src/pages/explore.astro": "898af6ace9897af6fb29ff77ccebdad02fbc8a03c094a0ceb9ac617c4b7eb404",
+    "projects/odia-dhaga/pdf-delivery.json": "54729ef67725de7f864551624bdbcda4b0da604be0d17d76ad3483ed8d1eb068"
+  },
+  "findings": [
+    "Exact corrected307-word manuscript retained. Seven native references resolve to four definitions; scoped footnote-heading plugin includes exact new Markdown filename. Rendered return links still require final output/UI checks.",
+    "New wrapper reuses shared Shell, byline, responsive image, source rendering and reading-path components. Caption identifies Vinayaka temple photograph rather than cave interior. Full portrait is restrained to30rem, intrinsic960×1210 dimensions and eager/high-priority principal image retained. Visible source/CC BY-SA3.0/creator/date/alterations and same-licence derivative credit wired from reviewed metadata.",
+    "Hills and Destinations use the new guide photo and reused summary; Explore receives the same guide and shared image-credit collector. Three incoming mappings preserve regionRayagada and no unsupported aliases. Actual preview crop recognition remains a rendered gate.",
+    "Continued reading maps actual Mahendragiri and Gonasika images; further-reading hill image uses Devagiri. Suggest an update and public-submission privacy notice remain visible. No repeated production disclosure or shared CSS/client component changes.",
+    "Exactly one new coast/portable route and held search candidate. Responsive source is added once;480/960 outputs are capped at the960 source width. Existing search authorization is not expanded. Test counts increment by one while dynamic incoming-content counts remain intact.",
+    "Optimizer diff is exactly Mardala existing1728px quality95→90. Other ten entries, algorithm, source/credit transformation and sharing-dimension rules unchanged. The actual-source regression checks incremental>300000B saving against previous1728/q95, metadata against original/prior derivative as appropriate, full frame, source/unrelated-byte preservation, exact caption/OG changes and negative guards. Samanta reports11passing focused tests; reviewer inspected test logic and independently reproduced approved outputs in prior media review, without rerunning the suite here.",
+    "All22 frozen input hashes currently match;113 protected preparation hashes and three foreign ownership fields equal the claimed base. Both KB and public Mardala originals remain exact, as does reviewed Devagiri original/derivative. Sole active candidate remains in_progress with zero programme credit."
+  ],
+  "final_copy_budget": {
+    "method": "Current title6+description12+summary11+guide title1+region1+eyebrow1=32 common words. Independently checked source review totals remain86/167/142/170; conservatively add entire12-word caption and13-word alt to each textual family, even where unrelated to that source. Photo family94 from prior review plus Photograph by2 and image-credit heading allowance3 gives99. No added new article prose or guide summary.",
+    "conservative_family_ceilings": {
+      "Tourism": 111,
+      "Census": 192,
+      "Francis1907": 167,
+      "NIE": 195,
+      "Commons_photo": 99
+    },
+    "hard_ceiling": 200,
+    "repeated_identical_preview_copy": "No new expression; credited media terms and source titles retained."
+  },
+  "guidance": "Read installed modern-web instructions and retained official-platform fallback. Prior unverified CLI rejection not retried. No new browser feature or fallback dependency introduced.",
+  "evidence": {
+    "outputs/devagiri-publication-2026-11-27/source-review.json": "6a4f3966d4e16a3c4954fdea79eb86f67fcc6bf83062df8b88a6f2ae03a0aff2",
+    "outputs/devagiri-publication-2026-11-27/media-capacity-review.json": "8e22096805d609b08bc13ac45ef77f0857a6e35731363d62492c1a552dbef0aa",
+    "outputs/devagiri-publication-2026-11-27/review/implementation.json": "2ea186e894ef0fc568693a5b94cf65035394cc7d8494f6220f3b2ba53476f908",
+    "outputs/devagiri-publication-2026-11-27/capacity/implementation.json": "54df1ebde40556af3a32ad1eabe817c3e5630b3ab415562e699fc1a9f57ed522",
+    "kb/research/places/devagiri-image.json": "49bf44433d777781d26560669d6f007e7df69e39222e225859250f04a4415db1"
+  },
+  "pending": [
+    "Complete root full/coast/publication stages and disclosure checks.",
+    "Actual notes/return behavior, full-frame portrait and recognizable incoming crops on desktop/mobile.",
+    "Actual emitted source/variant dimensions and exact one-entry compression, package payload below1billion bytes and hosted Linux gate.",
+    "Exact committed candidate, required CI, deployment, fresh live delivery and separate receipt merge."
+  ],
+  "blockers": []
+}

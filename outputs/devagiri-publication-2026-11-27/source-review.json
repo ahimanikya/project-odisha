@@ -1,0 +1,77 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "scope": "Independent source and current draft review; final integrated site fields, implementation and rendered/package/live gates remain pending.",
+  "manuscript_sha256": "77d19143aae3ca29827d2d612df321d80fec410b67adb5a9372f4c1852bc896c",
+  "body_headings_notes_words": 307,
+  "correction": {
+    "initial_finding": "Publisher labels24November2026 as Updated on, not independently established original publication date.",
+    "resolved": "Actual prose now says report dated; internal manifest uses page_updated_date and explicit limitation. Prior308word allocation retained as conservative ceiling."
+  },
+  "source_review": [
+    {
+      "source": "devagiri-tourism-centres-2026",
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-04/Identified%20Tourist%20Centre%20in%20Odisha%20%28382%29.pdf",
+      "original_sha256": "cb0e423f8cec743dc8cb5650bc4949a4d072fa2ce4931668b2f1708e85faaf34",
+      "locators": "Printed8/PDF9, Rayagada item03"
+    },
+    {
+      "source": "devagiri-census2001-rayagada",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/44145/download/47801/DH_21_2001_RAY.pdf",
+      "original_sha256": "7059b22343d4d1bc7660c35978ff82accba252ad378db6d25749eae78d5ebde6",
+      "locators": "Analytical Note printed17/PDF41, Devagiri entry; titlePDF1"
+    },
+    {
+      "source": "devagiri-francis1907",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Vizagapatam_%28IA_vizagapatam01madr%29.pdf",
+      "original_sha256": "1bc9396f40764755d9e4cb71bc62a94ec8c13105811b55830ac3665c7b2160b4",
+      "locators": "Printed302/PDF322, Singapur paragraph; original titlePDF7"
+    },
+    {
+      "source": "devagiri-kartik-nie2026",
+      "url": "https://www.newindianexpress.com/states/odisha/2026/Nov/24/devagiri-sees-rush-on-last-monday-of-kartik-month",
+      "original_sha256": null,
+      "locators": "Main report paragraphs1–4, web lines53–57"
+    }
+  ],
+  "independent_inspection": [
+    "Read original Census title and printed17/PDF41 image, checked local original hash and extracted page. Devagiri entry separately supports Mahalaxmi worship, cave deity images, four named pools and Shivaratri; neighboring place details were not transferred.",
+    "Read Francis1907 title and printed302/PDF322 image and original extracted text. Devagiri is a rocky hill southwest of Kalyana Singapur with cave lingam, pools and Shivaratri feast. Prose confines this to an early written account and does not infer construction date or unchanged present practice.",
+    "Read Tourism printed8/PDF9 Rayagada row and original extracted text. Devagiri is listed as Scenic Spot; this supports the narrow listing statement, not accommodation/access guarantees.",
+    "Fresh original NIE page opened and complete short main report read. Updated24November2026 report supports Odisha/neighbouring-state pilgrims, cave Shiva worship, stepped ascent and hilltop water visits. Exact step number, barefoot recommendation, year-round water and future event promises are omitted."
+  ],
+  "prose_and_attribution": "Compact original synthesis about the place. Sacred-name interpretation is modest and identifiable as explanatory synthesis. Historical descriptions and dated reporting remain attributed; caption identifies the separate Vinayaka temple photograph rather than passing it off as the cave interior. No unsupported antiquity, hydrology, visitor facility or safe-climb claim.",
+  "copyright_allocation": {
+    "method": "Independently reproduced opening33+headings10+proposed metadata32 common allowance. Census paragraph57 +mixed pilgrimage sentence18+note17; Francis paragraph56+note11; NIE dated part43+planning35+note16. Existing draft uses one-word larger NIE ceiling, retained. Image family separately includes current caption/alt/alterations/creator/licence/title53 plus metadata32 and source-title allowance9.",
+    "ceilings": {
+      "Tourism": 86,
+      "Census": 167,
+      "Francis1907": 142,
+      "NIE": 170,
+      "Commons_photo": 94
+    },
+    "direct_quotes": 0,
+    "limit": "All below200; final actual public fields must be recounted. Identical repeated preview text is not new expression; no unused allowance implies permission for extra copy."
+  },
+  "source_notes": "Four definitions and seven actual citation occurrences group connected claims. Original public source URLs and printed locators supplied; no private capture paths in public notes.",
+  "visual_original_pages": {
+    "/private/tmp/devagiri-census-p1.png": "ea9add2d501a4545ffe9ec4c09ac5e3027e7ad8c733c517a2d4d772a807a3b3e",
+    "/private/tmp/devagiri-census-p41.png": "d6f169deaa42e43583d631b7f72462c535126423411ca7a31de3ea8f85fd7c6b",
+    "/private/tmp/devagiri-francis-title.png": "72a8d254e2bc858ef33776cebd3590403963725d5c7992e8362f918d4fa1f8dc",
+    "/private/tmp/devagiri-francis-p322.png": "fe4087950ebca39e7a4a4d154e3ccb6c688cda175f0c0e6787f7b4111553ef4a",
+    "/private/tmp/devagiri-tourism-page.png": "3cf5eeee73f66386ee542490f72591b8b92c1ecca3eb4ab4010a30785856a3c6"
+  },
+  "evidence_hashes": {
+    "outputs/devagiri-publication-2026-11-27/research/source-manifest.json": "80ee7171d3a8c025d7c88733d2d10e21cc68668d65bc9545e623225ca6868be3",
+    "outputs/devagiri-publication-2026-11-27/research/draft-source-allocation.json": "69464bed18680d030608e41cef8f69b5cd666618cc5c97189623eae5ac577e6d",
+    "outputs/devagiri-publication-2026-11-27/research/findings.md": "904a2eeeb1e3c94cdcd6cd23bf0151c54aacebff36822ceda86d45cc69126a0e",
+    "kb/research/places/devagiri-image.json": "49bf44433d777781d26560669d6f007e7df69e39222e225859250f04a4415db1"
+  },
+  "limits": [
+    "Read bounded relevant original pages, not entire228/394-page books.",
+    "No field visit, human specialist review or present-access verification.",
+    "Media rights/visual acceptance is separately recorded in media-capacity-review.json; current Vinayaka wording is consistent with original source.",
+    "No final site integration, preview crops, build, capacity, CI or publication approval in this report."
+  ],
+  "blockers": []
+}

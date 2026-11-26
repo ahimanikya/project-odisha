@@ -1,0 +1,171 @@
+{
+  "status": "in_progress",
+  "article_id": "POD-EDIT-DEVAGIRI-20261127",
+  "route": "/destinations/devagiri/",
+  "owner": "Disha",
+  "started_on": "2026-11-27",
+  "authorization": "POD-DEC-2026112791",
+  "authorization_quote": "Has Godabarish’s final receipt merged and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+  "work_id": "POD-WORK-2026112791",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "54a8b3260b4ec006b815b24763fbb43456984177",
+  "prior_handoff": {
+    "record": "records/godabarish-publication-20261126.json",
+    "receipt_pr": 896,
+    "merge": "54a8b3260b4ec006b815b24763fbb43456984177",
+    "required_ci": 45886736838,
+    "conclusion": "success",
+    "explicit_return_received": true
+  },
+  "reuse_before_research": {
+    "queries": [
+      "query_research.py Devagiri",
+      "rg Devagiri/Debagiri/Deva Giri in KB and site"
+    ],
+    "finding": "No dedicated Rayagada Devagiri narrative found. Panchalingeswar uses Devagiri in Balasore; explicitly preserve distinct identity. Debrigarh/Dunguri screened only, not claimed.",
+    "pointers": [
+      "research/methods/research-map.md",
+      "research/methods/trip-planning-content.md",
+      "research/references/data/research-queue.json:RES-013",
+      "research/references/data/research-queue.json:RES-014",
+      "research/references/data/research-queue.json:RES-023"
+    ]
+  },
+  "assignments": {
+    "Disha": "Sole coordinator, shared records and publication",
+    "Anvesha": "Independent bounded sources/draft in outputs/devagiri-publication-2026-11-27/research and kb/research/places/devagiri-article.md",
+    "Samanta": "Photograph provenance/derivative in outputs/devagiri-publication-2026-11-27/media and kb/media/devagiri; implementation only after followup",
+    "Drishti": "Separate source/media/implementation/rendered/delivery review, no publishing"
+  },
+  "foreign_ownership": {
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-133",
+      "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+      "scope_released": false
+    },
+    "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json",
+    "current_preparation": {
+      "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",
+      "owner": "Disha",
+      "phase": "preparation",
+      "handoff": "records/godabarish-niankhunta-preparation-20261126.json",
+      "scope_released": true,
+      "status": "prepared_reviewed",
+      "topic": "Godabarish Mahapatra and Niankhunta",
+      "release_condition": "Effective after separately reviewed local preparation commit and explicit return to the coordinating hill chat."
+    }
+  },
+  "protected_preparation": {
+    "manifest": "outputs/devagiri-publication-2026-11-27/protected-preparation.json",
+    "count": 113,
+    "checked_exact": true
+  },
+  "capacity": {
+    "last_combined_receipt_bytes": 999956255,
+    "files": 3794,
+    "remaining_bytes": 43745,
+    "status": "Separate bounded capacity handling and actual Linux gate required before publication",
+    "bounded_proposal": {
+      "path": "outputs/devagiri-publication-2026-11-27/capacity/proposal.json",
+      "review": "outputs/devagiri-publication-2026-11-27/media-capacity-review.json",
+      "implemented": "Mardala existing1728px delivery quality95 to90 only; source/original/full frame/credit retained",
+      "projected_savings_bytes": 329072,
+      "new_image_projected_bytes": 269246,
+      "actual_gate": "pending"
+    }
+  },
+  "next_action": "Reconcile incoming record-only PR897, exact-commit review and required hosted CI, then authorized deployment, fresh live review and receipt.",
+  "web_guidance": "outputs/devagiri-publication-2026-11-27/web-guidance.md",
+  "setup_check_history": [
+    {
+      "check": "check_team_assignments.py",
+      "initial_result": "FAIL: new claim preceded its rollout row",
+      "resolution": "Added exact owned in-progress Devagiri rollout row; rerun PASS. No foreign ownership changed."
+    },
+    {
+      "check": "registers.py",
+      "initial_result": "FAIL: unsupported in_review readiness value in owned Devagiri work row",
+      "resolution": "Restored allowed draft readiness while final package/review remain pending; next action still accurately names remaining gates."
+    }
+  ],
+  "research": {
+    "manuscript": "kb/research/places/devagiri-article.md",
+    "source_manifest": "outputs/devagiri-publication-2026-11-27/research/source-manifest.json",
+    "allocation": "outputs/devagiri-publication-2026-11-27/research/draft-source-allocation.json",
+    "separate_review": {
+      "result": "PASS",
+      "path": "outputs/devagiri-publication-2026-11-27/source-review.json",
+      "sha256": "6a4f3966d4e16a3c4954fdea79eb86f67fcc6bf83062df8b88a6f2ae03a0aff2"
+    }
+  },
+  "media": {
+    "record": "kb/research/places/devagiri-image.json",
+    "root_review": "outputs/devagiri-publication-2026-11-27/root-media-review.json",
+    "separate_review": {
+      "result": "PASS",
+      "path": "outputs/devagiri-publication-2026-11-27/media-capacity-review.json",
+      "sha256": "8e22096805d609b08bc13ac45ef77f0857a6e35731363d62492c1a552dbef0aa"
+    }
+  },
+  "implementation": {
+    "report": "outputs/devagiri-publication-2026-11-27/review/implementation.json",
+    "sha256": "d68cd0c59301ff87a3c7b07518eb27e357d42b39a9af55e1229959f9334fd03e",
+    "separate_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/implementation-review.json",
+      "sha256": "e150b35e0d0437e351f348610d70315c876613fd2709008cde3e2b2528e208dc",
+      "result": "PASS on pre-framing implementation"
+    }
+  },
+  "preview_correction": {
+    "finding": "Root mobile Hills preview showed upper temple tower cropped by default center positioning.",
+    "change": "Optional Devagiri-only previewPosition center top, conditionally forwarded by two existing renderers; article frame unchanged.",
+    "preserved_prior_evidence": "outputs/devagiri-publication-2026-11-27/pre-framing/",
+    "prior_checks": "848 full and605coastal tests passed; six stages completed. Root intentionally stopped during coast acceptance, exit130, to correct framing.",
+    "new_checks": "Final corrected candidate passed all13 local stages,396artifact checks and separate review of20initial plus6package captures, with framing attempts retained.",
+    "separate_static_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/preview-framing-review.json",
+      "sha256": "0eb0fc718937c1615b97f17a0f842556b721c2f8bbf31611a21da5029082b2b3",
+      "result": "PASS"
+    },
+    "root_rendered_review": "outputs/devagiri-publication-2026-11-27/root-rendered-review.json"
+  },
+  "rendered_review": {
+    "path": "outputs/devagiri-publication-2026-11-27/rendered-review.json",
+    "sha256": "f95556287acbe226efa53a3029cc4c9a96c3d41f5f9d50ad8857d7cb50feef46",
+    "result": "PASS",
+    "captures_inspected": 20,
+    "accepted_scoped_views": 13,
+    "retained_attempts": 7,
+    "limits": "Local dist rendering; final publication artifacts and live delivery pending."
+  },
+  "parallel_validation": {
+    "completed_local_stages": "outputs/devagiri-publication-2026-11-27/completed-prepublication-checks/results.json",
+    "reason": "Historical local publication-build3070.65seconds. Submit reviewed draft candidate for hosted checks while final local packaging runs; do not merge or deploy until final package and separate exact review pass.",
+    "local_package_status": "PASS",
+    "hosted_status": "not submitted yet",
+    "plan_outcome": "Superseded before PR submission: local pipeline completed while candidate review was underway. Final local results will be included in candidate."
+  },
+  "local_validation": {
+    "pipeline": "outputs/devagiri-publication-2026-11-27/build-results.json",
+    "artifact_report": "outputs/devagiri-publication-2026-11-27/local-verification.json",
+    "stages": 13,
+    "checks": 396,
+    "full_tests": 848,
+    "coastal_tests": 605,
+    "page_checks": 5656,
+    "publication_bytes": 999079359,
+    "publication_files": 3798,
+    "remaining_bytes": 920641,
+    "scope": "Local macOS package only; actual hosted Linux capacity still required.",
+    "separate_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/package-review.json",
+      "sha256": "5ebcfe189479109c8f24ba04765f25e8085664307a376d42f098027c79e2d981",
+      "result": "PASS"
+    },
+    "root_package_viewing": "outputs/devagiri-publication-2026-11-27/root-package-viewing.json"
+  }
+}
