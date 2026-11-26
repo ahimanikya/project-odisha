@@ -1,0 +1,73 @@
+{
+  "reviewer": "article_integration_review",
+  "reviewed_on": "2026-11-27",
+  "base_head": "54a8b3260b4ec006b815b24763fbb43456984177",
+  "verdict": "PASS",
+  "blocking_findings": [],
+  "scope": "Bounded evidence-only completion review. No new browser, source retrieval, build or production test run.",
+  "reviewed_receipt_files_sha256": {
+    "kb/records/unesco-source-fallback-20261127.json": "9ae21e8427c9fd55c1e54901ef081d4a42f0e84e7f68eb322f734aa59df96396",
+    "kb/registers/DASHBOARD.md": "dd71188bd2732d7a4f76446a98f9a68208782351c74e39f663ec5095eea7e25b",
+    "kb/registers/activity.jsonl": "26624786912d80d1a64fb4ed506c8fd146971d1b804101dcc8ddd94868f140e4",
+    "kb/registers/records.json": "a8aa3116b718d714b167fc22fe23e6f3bd0192ef2bbf22e4f8c1337569a0e461",
+    "outputs/unesco-source-fallback-20261127/archive-browser-check.json": "d31937ea42042a93519171aafe37da1aad6dc689ec8a61be4fa8cc0472fb9c7c",
+    "outputs/unesco-source-fallback-20261127/handoff.json": "d7cda99f75d2e85e9b2345b34b3ce04daa1e635deff0e259f43f96be3aaaaddf",
+    "outputs/unesco-source-fallback-20261127/live-verification.json": "e350273e73cf580d5ea6ed32502c79339aaf6b1261772ff567f57f112548574b",
+    "outputs/unesco-source-fallback-20261127/publication-receipt.json": "5cff9a63f2435109426b5408be2e06a30b732b9f1d697a0e4babea8d5b6b299f"
+  },
+  "evidence_sha256": {
+    "archive-browser-check.json": "d31937ea42042a93519171aafe37da1aad6dc689ec8a61be4fa8cc0472fb9c7c",
+    "live-verification.json": "e350273e73cf580d5ea6ed32502c79339aaf6b1261772ff567f57f112548574b",
+    "publication-receipt.json": "5cff9a63f2435109426b5408be2e06a30b732b9f1d697a0e4babea8d5b6b299f"
+  },
+  "deployment_evidence": {
+    "method": "Independently read actual saved workflow JSON and publication log.",
+    "run": 45886118171,
+    "head": "334adfdf47d078a77b550a46ed7ec0f471d740d2",
+    "conclusion": "success",
+    "deploy_job_completed_at": "2026-11-26T20:32:17Z",
+    "actual_success_log_at": "2026-11-26T20:32:16.1225773Z",
+    "full_tests_passed": 848,
+    "coastal_tests_passed": 605,
+    "failures": 0,
+    "payload_bytes": 999956255,
+    "required_ci": "45883101771 success is recorded by root; not independently queried again."
+  },
+  "live_report_assessment": {
+    "widths": [
+      390,
+      1280
+    ],
+    "note": 4,
+    "primary_and_exact_dated_archive_visible": true,
+    "fallback_followed_to_exact_capture": true,
+    "both_cited_sections_read": true,
+    "source_and_return_targets_checked": true,
+    "overflow_reported": false,
+    "method": "Reviewed root CUA evidence reports; no repeated reviewer browser check.",
+    "screenshots": "Root inspected screenshots; reports explicitly say none saved.",
+    "availability_limit": "Dated capture supports existing statements; no future-availability guarantee."
+  },
+  "preservation": {
+    "only_changed_register_ids": [
+      "POD-WORK-20261127001",
+      "POD-REV-20261127001",
+      "POD-REL-20261127001"
+    ],
+    "foreign_records_unchanged": true,
+    "historical_event_prefix_byte_exact": true,
+    "only_new_event": "POD-EVT-20261127002",
+    "collection_files_identical_to_reviewed_372995ae4": true,
+    "no_website_article_image_provenance_change_in_receipt": true,
+    "programme_credit": 0,
+    "five_raw_header_captures_remain_untracked": true,
+    "sensitive_evidence_scan_findings": [],
+    "diff_check": "PASS"
+  },
+  "conclusion": "Completed/published status is supported by actual deployment and accurately scoped live checks. Receipt requires evidence integration only, not another website publication.",
+  "limits": [
+    "Root governance and browser checks were reviewed as reported, not rerun.",
+    "Normal required CI still applies to receipt integration.",
+    "Raw header captures and unrelated local reconciliation review remain outside receipt scope."
+  ]
+}

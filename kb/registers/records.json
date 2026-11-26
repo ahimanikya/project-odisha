@@ -11074,19 +11074,20 @@
       "id": "POD-WORK-20261127001",
       "title": "Add archived UNESCO fallback to Similipal source note",
       "category": "editorial_maintenance",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Disha with separate research, implementation and review agents"
       },
       "authorization": "POD-DEC-20261127001",
-      "next_action": "Pass required hosted checks, merge reviewed fallback, publish and verify actual live note.",
+      "next_action": "Completed; verified archive fallback is live in source note 4.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261127001",
-        "POD-REV-20261127001"
+        "POD-REV-20261127001",
+        "POD-REL-20261127001"
       ],
       "evidence": [
         "records/unesco-source-fallback-20261127.json"
@@ -26979,7 +26980,7 @@
       "evidence": [
         "records/unesco-source-fallback-20261127.json"
       ],
-      "summary": "Exact archive provenance and claim fit assessed from separate research evidence. Independently rendered six notes with original and archive links together; all return links work. Prose, complete frontmatter, images, other articles and historical evidence preserved. Required hosted checks and live publication pending."
+      "summary": "Separate integrated and exact-commit review passed. Required CI and live publication succeeded. Root inspected the live note at desktop/mobile widths and opened the exact archive through its published fallback link. Primary source, prose, images and historical provenance preserved; evidence scope is recorded in the receipt."
     }
   ],
   "releases": [
@@ -31630,6 +31631,21 @@
       ],
       "evidence": [
         "records/godabarish-publication-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261127001",
+      "title": "Verified UNESCO archive fallback in live Similipal source note",
+      "status": "published",
+      "authorization": "POD-DEC-20261127001",
+      "destination": "https://projectodisha.org/stories/odisha/similipal-waterfalls/#user-content-fn-4",
+      "refs": [
+        "POD-WORK-20261127001",
+        "POD-DEC-20261127001",
+        "POD-REV-20261127001"
+      ],
+      "evidence": [
+        "records/unesco-source-fallback-20261127.json"
       ]
     }
   ],
