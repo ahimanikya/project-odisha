@@ -1,0 +1,56 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-26T22:31:50.629208+00:00",
+  "reviewed_head": "e915fd5513041381642e0fa330fbbf8110f07b55",
+  "parents": [
+    "56a5a480765a7f2edba65377c814e26b3ada496b",
+    "6ce1b925257d5467d889334e127244a376f0bccb"
+  ],
+  "common_base": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+  "verdict": "PASS_EXACT_COMMIT_PRESERVATION",
+  "checks": {
+    "incoming_changed_paths": 15,
+    "own_changed_paths": 102,
+    "shared_path": "kb/records/editorial-workbench.json",
+    "all_incoming_nonshared_files_byte_exact": true,
+    "all_own_nonshared_files_byte_exact": true,
+    "workbench_combination": "Only incoming coast edition digest differs from our parent; independently verified against committed coast bytes.",
+    "reviewed_four_source_hashes_match_commit": true,
+    "all27_narratives_unchanged": true,
+    "images_and_collection_preserved": true,
+    "foreign_register_objects_preserved": true,
+    "incoming_activity_exact_prefix_preserved": true,
+    "only_own_three_record_ids_and_one_event_added": true,
+    "five_private_header_captures_untracked_not_staged": true,
+    "no_staged_changes_at_review": true
+  },
+  "repaired_local_browser_review": {
+    "fresh_mobile_screenshots_visually_inspected": 3,
+    "slugs": [
+      "pakhala",
+      "sitabinji",
+      "pentha"
+    ],
+    "width": 390,
+    "recorded_geometry_sets_independently_checked": 9,
+    "geometry_widths": [
+      320,
+      390,
+      1280
+    ],
+    "findings": "Updated notes, date/locators and Pentha sign-in/companion distinction are legible; no overlap, crop or truncation found.",
+    "scope": "Local development captures, not post-deployment evidence."
+  },
+  "source_hashes": {
+    "kb/research/stories/independent-features/nature/pentha.md": "588a780fb081851ba4b60f0cf11695465b495622a62d2dfacca5768fee0162e9",
+    "kb/research/stories/independent-features/food/pakhala.md": "177cfe2ba60420a858479a36e11b41a0f3761c06f75e5b607cd67bdb12e0191b",
+    "kb/research/stories/independent-features/history/sitabinji.md": "d98804b8d623235cdd1bcbe5dbf8d7eab5d74fa317641f41b59a6b0e84c551a2",
+    "kb/research/stories/independent-features/source-register.md": "f1244cc2227b808b8f41d95bd81a25d8bf84adad5bd4c9fd3b555ca6f8781252"
+  },
+  "findings": [],
+  "limitations": [
+    "Required combined-head hosted CI and publication are separate root work; no production-build claim made here.",
+    "Pentha publisher sign-in limitation remains explicitly disclosed.",
+    "This file records the reviewed commit and is not itself included in that commit."
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_publication",
+  "status": "published_verified_with_external_publisher_limit",
   "authorization_quote": "Do a final check of all 27 live articles to confirm the source links, archive fallbacks, image credits and mobile layouts are working, and fix anything still outstanding.",
   "scope": "Final maintenance audit of27existinglivearticles in /stories/odisha/; confirmed source/credit/layout repairs only.",
   "programme_credit": 0,
@@ -15,11 +15,24 @@
     "technical": "outputs/articles-27-final-audit-20261127/technical-summary.json",
     "image_continuity": "outputs/articles-27-final-audit-20261127/review-image-continuity.json",
     "sources": "outputs/articles-27-final-audit-20261127/source-summary.json",
-    "repaired_layouts": "outputs/articles-27-final-audit-20261127/browser-repaired-local.json"
+    "repaired_layouts": "outputs/articles-27-final-audit-20261127/browser-repaired-local.json",
+    "live": "outputs/articles-27-final-audit-20261127/live-verification.json"
   },
   "finding": "All27 layouts/images/credits pass. Pakhala404 replaced with exact archive; Sitabinji exact PDF fallback added; Pentha login requirement disclosed with distinct public engineering companion.",
   "publication": {
-    "status": "not_started"
+    "status": "success",
+    "url": "https://projectodisha.org/stories/odisha/",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/900",
+    "reviewed_head": "e915fd5513041381642e0fa330fbbf8110f07b55",
+    "required_ci": "https://github.com/ahimanikya/project-odisha/actions/runs/45905283915",
+    "required_ci_status": "success",
+    "merge_commit": "728a83723d5a89dcb3e246b62a4980b386bafec6",
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/45907723407",
+    "run_head": "728a83723d5a89dcb3e246b62a4980b386bafec6",
+    "deploy_completed_at": "2026-11-26T23:14:21Z",
+    "live_verification": "outputs/articles-27-final-audit-20261127/live-verification.json",
+    "browser": "outputs/articles-27-final-audit-20261127/browser-repaired-live.json",
+    "receipt": "outputs/articles-27-final-audit-20261127/publication-receipt.json"
   },
   "preservation": "No creator material; historical evidence and foreign Devagiri ownership preserved. No programme progress claimed.",
   "review": {
