@@ -1,0 +1,100 @@
+{
+  "schema": "project-odisha-live-review-publication-receipt-review-v1",
+  "status": "PASS",
+  "reviewer": "article_integration_review",
+  "reviewed_at": "2026-11-26T01:28:13.487220+00:00",
+  "base_head": "256136a6f7aabf6806ec583980d48bb9fd3a2122",
+  "published_head": "beacf28a7143f11f317967e274deac00639318aa",
+  "reviewed_tracked_diff_sha256": "223bea06331960d0e000b64149bd11957f651a1ed30cb9d7376c148aa60b3422",
+  "reviewed_files": [
+    {
+      "path": "kb/history/ledger.jsonl",
+      "sha256": "ef02c7b94f4299a630ca2e0026f414140813f6ca4beb8393c0e36b479a08c25b"
+    },
+    {
+      "path": "kb/records/independent-articles-live-review-20261126.json",
+      "sha256": "ef5f6874ba53f497b8c6a531a77783f491b03848c17c14751675d67c4b424cbf"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "ce0c4e614b472a509bff8fbb2a3a639d0f463f965c350b42d36a6de26e366777"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "e4e50c85c735c9fc2cf7e9f7238d95e45277a91bfa80c3f83367f98c24b09a8f"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "e28b1245d27a5f31f45187d80a4220cfb77c023737f0eadb1a310a0db610ff54"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/handoff.json",
+      "sha256": "44bdee92842acd07760866a0fecc7d07e3856e868d10e6ec92a9419754f97b69"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/publication-receipt.json",
+      "sha256": "de0f2660007aa28abb4591d7814b34bd255ba3d843989dd68e7a11feaf893d06"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/post-publication-browser.json",
+      "sha256": "f0d8e11af8161114891e84d8813ddffffe2142fe25c20677f2d2ae5d6c5cb097"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/post-publication-network.json",
+      "sha256": "01ad205e48ad1a9fdbddd264c4b147238de39a9f03f541b1521f8a7d9fb0491e"
+    },
+    {
+      "path": "outputs/independent-articles-live-review-20261126/post-publication-source-links.json",
+      "sha256": "cb4362218b767ae9b06abf1aa7e0d132588c121965838bfa0a57021d7375d473"
+    }
+  ],
+  "findings": [],
+  "checks": {
+    "actual_publication_log": "Inspected /private/tmp/odisha-live-review-publish-passed.log: checkout exact published head; deployment reports success at01:22:04Z, consistent with workflow completion recorded01:22:06Z.",
+    "full_tests": 845,
+    "coastal_tests": 605,
+    "test_failures": 0,
+    "disclosure_pages": 1537,
+    "payload_bytes": 999895453,
+    "exclusive_payload_limit": 1000000000,
+    "separate_network_report": {
+      "pages": 29,
+      "assets": 49,
+      "original_source_targets": 9,
+      "footnote_entries": 109,
+      "external_footnote_link_occurrences": 109,
+      "failures": 0,
+      "all_results_pass": true,
+      "asset_hashes_independently_match_current_local_public_files": true
+    },
+    "source_target_report": "All four repaired URLs GET200; both PDFs have validPDFsignatures; five repaired footnote occurrences match canonical pages. Listing-only limits remain in article notes.",
+    "browser_report": "Coordinator records six post-deployment footnote screenshots across three repaired articles at390/1280 and collection27figures; no archived screenshots falsely claimed.",
+    "article_sources_site_image_manifest_assets_changed_by_receipt": false,
+    "history_ledger_bytes_exact_prefix": true,
+    "activity_bytes_exact_prefix": true,
+    "only_changed_register_objects": [
+      "POD-WORK-20261126030",
+      "POD-REV-20261126030"
+    ],
+    "only_added_release": "POD-REL-20261126030",
+    "new_completion_event": "POD-EVT-20261126031",
+    "foreign_register_changes": false,
+    "programme_credit": 0,
+    "new_report_privacy_scan_flags": [],
+    "independent_register_validator": "PASS1436 records,896 events,dashboard current"
+  },
+  "truthfulness": "Published/completed status supported by actual deployed merge and separate live checks. Twelve earlier access/transport restrictions remain explicitly distinct from confirmed404s. Receipt itself claims no new deployment or fresh universal-source availability.",
+  "root_reported_checks_not_rerun": [
+    "catalogue1975",
+    "bundle8824",
+    "team",
+    "programme",
+    "workbench500"
+  ],
+  "limits": [
+    "This reviewer independently checked stored run log, report consistency, asset hashes and preservation; network requests and live browser screenshots were performed by separate researcher/coordinator.",
+    "No new source-content factual review, build or deployment performed.",
+    "No source/site/shared-register edits by reviewer; only this report written.",
+    "Five older private HTTP-header captures remain outside this receipt scope and must continue to be excluded from Git."
+  ]
+}

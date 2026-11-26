@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_publication",
+  "status": "published_verified",
   "authorization_quote": "Review all 27 articles on the live website for image suitability, captions and layout on desktop and mobile. Fix any awkward cropping, broken links or missing credits.",
   "scope": "Existing /stories/odisha/ 27-article collection, desktop and mobile; preserve prose except verified link repairs. No discovery-creator material.",
   "programme_credit": 0,
@@ -12,11 +12,14 @@
     "layout_code": "outputs/independent-articles-live-review-20261126/layout-code-review.json",
     "links": "outputs/independent-articles-live-review-20261126/link-audit-recommendations.json",
     "human_specialist_review": false,
-    "finding": "27 image/caption choices suitable; no confirmed crop, layout or missing-credit defect. Four research URL targets confirmed404 in three articles.",
+    "finding": "All 27 image and caption choices are suitable; no confirmed cropping, layout or missing-credit defect. Four missing research-source targets were repaired across five notes in three articles; all four replacement targets returned HTTP 200 after publication.",
     "limits": "Twelve other citation targets have access/transport restrictions, not confirmed404; no claim of universal external availability.",
     "status": "pass",
     "repair_review": "outputs/independent-articles-live-review-20261126/repair-review.json",
-    "local_validation": "outputs/independent-articles-live-review-20261126/local-validation.json"
+    "local_validation": "outputs/independent-articles-live-review-20261126/local-validation.json",
+    "post_publication_browser": "outputs/independent-articles-live-review-20261126/post-publication-browser.json",
+    "post_publication_network": "outputs/independent-articles-live-review-20261126/post-publication-network.json",
+    "post_publication_sources": "outputs/independent-articles-live-review-20261126/post-publication-source-links.json"
   },
   "repairs": [
     "Sakhigopal: publisher archive with honest unavailable-download note",
@@ -24,8 +27,30 @@
     "Similipal: relocated exact Core Area Plan PDF and current notices landing page"
   ],
   "publication": {
-    "status": "pending",
-    "url": "https://projectodisha.org/stories/odisha/"
+    "status": "published_verified",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/884",
+    "reviewed_head": "4e61e08d4e5196c3986296a6a3299d3a6b0454a7",
+    "required_ci": "https://github.com/ahimanikya/project-odisha/actions/runs/45727000113",
+    "required_ci_status": "success",
+    "merge_commit": "beacf28a7143f11f317967e274deac00639318aa",
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/45730336857",
+    "run_head": "beacf28a7143f11f317967e274deac00639318aa",
+    "completed_at": "2026-11-26T01:22:06Z",
+    "url": "https://projectodisha.org/stories/odisha/",
+    "receipt": "outputs/independent-articles-live-review-20261126/publication-receipt.json",
+    "full_tests": 845,
+    "coastal_tests": 605,
+    "disclosure_pages": 1537,
+    "payload_bytes": 999895453,
+    "live_pages": 29,
+    "live_image_hash_matches": 49,
+    "footnotes": 109,
+    "preserved_concurrent_updates": [
+      "Kula",
+      "Dola Purnima",
+      "Agira Purnima"
+    ]
   },
-  "prior_image_publication": "records/independent-article-images-20261126.json"
+  "prior_image_publication": "records/independent-article-images-20261126.json",
+  "receipt_note": "Completion evidence only; website source and images unchanged by this receipt. Twelve earlier external access/transport limitations remain recorded without asserting that those sources are404 or currently unreachable."
 }
