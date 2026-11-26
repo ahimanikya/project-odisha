@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1424. blocked: 1, completed: 278, excluded: 873, in_progress: 1, queued: 271.
+Route inventory: 1425. blocked: 1, completed: 278, excluded: 873, in_progress: 1, queued: 272.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1448,3 +1448,4 @@ Route inventory: 1424. blocked: 1, completed: 278, excluded: 873, in_progress: 1
 | POD-EDIT-KULA-20261126 | [Kula and the Work of Winnowing](https://projectodisha.org/stories/kula-and-the-work-of-winnowing/) | completed | article |
 | POD-EDIT-DOLA-PURNIMA | [Dola Purnima: When the Village Hears the New Panjika](https://projectodisha.org/stories/dola-purnima/) | queued | article |
 | POD-EDIT-MAHAVINAYAK-20261126 | [Mahavinayak: A Hill Shrine and Five Forms of Worship](https://projectodisha.org/destinations/mahavinayak/) | in_progress | One original hill destination article with high-quality credited photograph and previews; zero programme credit. |
+| POD-EDIT-PANA-SANKRANTI | [Pana Sankranti: A Drink for the Tulasi](https://projectodisha.org/stories/pana-sankranti/) | queued | article |
