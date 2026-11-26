@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `842d241e9023b2a6c0b5a3f48df3df928b5fe1a9d036923766675b055b5fe68e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a78da04530a59d5fbae2afedf2f52952e0760fe66cf15d68b758e7b3e472acfe`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -429,6 +429,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261126027 · Illustrate27 independent Odisha articles with documented rights | completed | reviewed | Ahimanikya Satapathy | Retain publication evidence and respond to later corrections. | — |
 | POD-WORK-20261126301 · Prepare Kula and the Work of Winnowing | completed | reviewed | Ahimanikya Satapathy | Commit reviewed preparation and explicitly return the article slot; publication remains unauthorized. | — |
 | POD-WORK-2026112691 · Research, review and publish Olasuni | completed | published | Ahimanikya Satapathy | Merge the separately reviewed evidence-only receipt after required CI, then return the reserved Kula slot. | — |
+| POD-WORK-20261126302 · Integrate, review and publish Kula | in_progress | draft | Ahimanikya Satapathy | Integrate, review and check the candidate before required CI and authorized deployment. | — |
 
 ## Pending human review and decisions
 
@@ -786,6 +787,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261126027 · Add original or openly licensed images to27 independent articles | recorded_direction | Ahimanikya Satapathy | Add suitable credited article, preview and sharing images to the previously authorized library and live collection. |
 | POD-DEC-20261126301 · Prepare next original article after Barunei | recorded_direction | Ahimanikya Satapathy | One independently researched original article preparation with credited image; no website integration or publication. |
 | POD-DEC-2026112691 · Next uncovered hill after reviewed Kula preparation | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
+| POD-DEC-20261126302 · Publish reviewed Kula article after Olasuni | recorded_direction | Ahimanikya Satapathy | Integrate, separately review and publish Kula with credited photograph, incoming links and desktop/mobile checks. |
 
 ## Reviews
 
@@ -1541,7 +1543,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112598 | 2026-11-25T12:26:12.838199+00:00 | Verified Nilagiri receipt PR870 merge and explicit slot return. Scoped coverage search found no dedicated Barunei article. Research and bounded capacity assessment delegated; no publication yet. Zero programme credit. | — |
 | POD-EVT-20261125027 | 2026-11-25T17:50:25.527994+00:00 | Integrated 27 revised manuscripts as distinct categorized library articles; original narrative and source URLs preserved. User separately confirmed library and live website. Public delivery remains pending. | — |
 | POD-EVT-2026112599 | 2026-11-25T18:03:32.076972+00:00 | Actual reviewed PR871/CI45659955442 and deployment45664502523 passed. Root5routes20images13captures and separate31image review passed;4measured existing image differences visually accepted with limits. Receipt review/required CI/actual merge pending before reserved preparation-only handoff. Zero programme credit. | — |
 | POD-EVT-20261125028 | 2026-11-25T20:04:38.048993+00:00 | Published27 reviewed original articles and six-category collection under explicit library-and-live authorization. All28 routes verified against reviewed content; no creator text or images. Zero programme credit. | — |
@@ -1551,6 +1552,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261126028 | 2026-11-25T21:25:24.710125+00:00 | 27 image choices and their rights/captions passed separate cross-review; integration code review passed after complete Explore credits and full-image framing fixes. Final rebuilt, package and hosted delivery checks remain pending; no publication claim and zero programme credit. | — |
 | POD-EVT-2026112692 | 2026-11-25T22:00:02.669995+00:00 | PR878/CI45698734939 and deployment45703571404 succeeded on exact reviewed merge931b8e6ac. Actual live article, photograph, notes and three previews passed root and separate delivery review. Makar PR877 preserved; evidence-only receipt review/check/merge still gates slot return. Zero programme credit. | — |
 | POD-EVT-20261126029 | 2026-11-25T22:48:08.084168+00:00 | Published 27 article images: 10 original illustrations and 17 openly licensed or public-domain images, with captions and rights details. Actual deployment and separate live verification passed; article text and 109 footnotes preserved. No discovery-creator material and zero programme credit. | — |
+| POD-EVT-20261126302 | 2026-11-25T22:52:25.393060+00:00 | Accepted merged Olasuni receipt417fcfdee and explicit slot return; started authorized Kula publication. Prior preparation and foreign ownership preserved; zero programme credit. | — |
 
 ## Deferred extensions
 

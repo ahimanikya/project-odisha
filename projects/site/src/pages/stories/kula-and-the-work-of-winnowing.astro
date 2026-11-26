@@ -1,0 +1,52 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import '../../styles/article-reading.css';
+import source from '../../../../../kb/research/culture/kula-and-the-work-of-winnowing-publication.md?raw';
+const metadata=source.match(/^---\n([\s\S]*?)\n---\n/)?.[1];
+if(!metadata)throw Error('Kula canonical metadata missing');
+const readMetadata=(key: string)=>{
+ const value=metadata.match(new RegExp(`^${key}: (".*")$`,'m'))?.[1];
+ if(!value)throw Error(`Kula canonical ${key} missing`);
+ const parsed=JSON.parse(value);
+ if(typeof parsed!=='string')throw Error(`Kula canonical ${key} must be a string`);
+ return parsed;
+};
+const frontmatter={title:readMetadata('title'),description:readMetadata('description'),author:readMetadata('author')};
+const route='/stories/kula-and-the-work-of-winnowing/';
+const imageMatch=source.match(/!\[([^\]]+)\]\(([^)]+)\)/);
+if(!imageMatch)throw Error('Kula canonical image missing');
+const image={src:'/images/stories/kula-trays.webp',alt:imageMatch[1],width:1200,height:1201};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/kula-and-the-work-of-winnowing-publication.md',route,
+ images:{[imageMatch[2]]:image.src},imageDimensions:{[image.src]:{width:image.width,height:image.height}}
+});
+const reading=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<p>([\s\S]*?)<\/p>/);
+if(!reading)throw Error('Kula canonical reading path missing');
+const furtherReading=[...reading[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href,title}));
+if(furtherReading.length!==3)throw Error('Kula canonical reading destinations changed');
+const html=article.html.replace(reading[0],'');
+const figure=html.match(/<figure><img\b[^>]+><figcaption>([\s\S]*?)<\/figcaption><\/figure>/);
+if(!figure)throw Error('Kula canonical image and caption missing');
+const [beforeFigure,afterFigure]=html.split(figure[0]);
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header><h1>{frontmatter.title}</h1><ArticleByline author={frontmatter.author}/></header>
+    <div set:html={beforeFigure}/>
+    <figure>
+      <ResponsiveImage {...image} sizes="(max-width: 740px) calc(100vw - 2.4rem), 696px" loading="eager" fetchpriority="high"/>
+      <figcaption set:html={figure[1]}/>
+    </figure>
+    <div set:html={afterFigure}/>
+    <ArticleReadingPath heading="Further reading" links={furtherReading}/>
+    <p><a href={`/contribute/?page=${encodeURIComponent(route)}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+  article :global(.article-footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+</style>

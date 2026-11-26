@@ -1,0 +1,44 @@
+{
+  "helper": "outputs/kula-publication-20261126/verify-live.py",
+  "sha256": "8a3f16c822f2b396fb684f267726c0e5bd264ac0f51b3120dc58ab54c0076cdc",
+  "status": "prepared_not_run_against_live",
+  "usage": "python3 outputs/kula-publication-20261126/verify-live.py --deployment-ready",
+  "prerequisites": [
+    "Coordinator confirms successful deployment.",
+    "outputs/kula-publication-20261126/local-verification.json status PASS.",
+    "Final projects/site/dist-publish retained; installed Node25 and Sharp available."
+  ],
+  "checks": [
+    "Four routes; exact full article fragments, incoming card and credit fragments, reviewed metadata/robots,7refs4notes7returns.",
+    "Actual observed Kula base+480/960/1200responsive URLs; all observed changed responsive URLs from existing article images also captured once.",
+    "Every HTTP response attempt retains raw body, headers, status, bytes andSHA256. Image dimensions/format measured withSharp; responsive filename digest verified.",
+    "Only paired same-base/same-width responsive URLs substituted in src/srcset attributes in memory. Raw originals preserved; differences remain REVIEW_REQUIRED.",
+    "Outer shell compared separately without stripping analytics; actual analytics IDs recorded, no cause inference."
+  ],
+  "syntax": "PASS",
+  "local_selector_checks": [
+    {
+      "route": "/stories/kula-and-the-work-of-winnowing/",
+      "local_coast_selectors": "PASS"
+    },
+    {
+      "route": "/stories/dhinki-and-the-work-behind-rice/",
+      "local_coast_selectors": "PASS"
+    },
+    {
+      "route": "/stories/binchana-and-the-handmade-breeze/",
+      "local_coast_selectors": "PASS"
+    },
+    {
+      "route": "/stories/craft-listening/",
+      "local_coast_selectors": "PASS"
+    }
+  ],
+  "network_executed": false,
+  "limits": [
+    "No browser, decoded-pixel or visual-equivalence checks.",
+    "Raw shell differences may require coordinator review even where article is exact.",
+    "Exit0 only when no differences; exit2 for REVIEW_REQUIRED; fatal errors preserved.",
+    "Two bounded attempts for transient HTTP/network failures. No build, publication or source writes."
+  ]
+}
