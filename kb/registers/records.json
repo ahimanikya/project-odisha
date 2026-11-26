@@ -11097,16 +11097,17 @@
       "id": "POD-WORK-2026112791",
       "title": "Research, review and publish Devagiri in Rayagada",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112791",
-      "next_action": "Complete exact-commit and hosted checks, then deploy and verify live delivery before closing receipt.",
+      "next_action": "Complete reviewed evidence-only receipt CI/merge, then return the reserved preparation-only slot.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026112791",
-        "POD-REV-2026112791"
+        "POD-REV-2026112791",
+        "POD-REL-2026112791"
       ],
       "evidence": [
         "records/devagiri-publication-20261127.json"
@@ -27020,7 +27021,7 @@
     },
     {
       "id": "POD-REV-2026112791",
-      "title": "Devagiri source, photograph, implementation and rendered review",
+      "title": "Devagiri independent source, media, rendered, exact candidate and live delivery review",
       "status": "pass",
       "reviewer": {
         "kind": "ai_assistant",
@@ -27034,7 +27035,7 @@
       "evidence": [
         "records/devagiri-publication-20261127.json"
       ],
-      "summary": "Separate source/media/capacity/static/rendered and final package reviews pass. All20initial and6package captures inspected with framing limits retained. All13 local stages and396artifact checks pass. Exact commit, hosted capacity, deployment and fresh live review remain pending. No human specialist or field approval claimed."
+      "summary": "Separate source/media/capacity/implementation/rendered/package/exact-commit and fresh live delivery reviews pass. Actual publicationCI/deployment succeeded. All16live root captures inspected,14accepted/2retained attempts. New Devagiri images/article/cards exact; two existing image differences measured and visually accepted with explicit limits. Integrated receipt review and actual receipt CI/merge remain pending."
     }
   ],
   "releases": [
@@ -31700,6 +31701,21 @@
       ],
       "evidence": [
         "records/unesco-source-fallback-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112791",
+      "title": "Devagiri hill article with credited photograph",
+      "status": "published",
+      "authorization": "POD-DEC-2026112791",
+      "destination": "https://projectodisha.org/destinations/devagiri/",
+      "refs": [
+        "POD-WORK-2026112791",
+        "POD-DEC-2026112791",
+        "POD-REV-2026112791"
+      ],
+      "evidence": [
+        "records/devagiri-publication-20261127.json"
       ]
     }
   ],

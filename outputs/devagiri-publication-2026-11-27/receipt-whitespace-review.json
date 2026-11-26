@@ -1,0 +1,16 @@
+{
+  "unrestricted_result": "FAIL: original hosted logs contain preserved whitespace",
+  "exact_exceptions": [
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/ci.log",
+      "sha256": "5158ff9a1417451ffb3b4dca6eaa32c9734c84106f764895ee4597c15a71db2c"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/deployment.log",
+      "sha256": "8dd782ab85114dc8b7d056fce505d14a523156fe8285c6dbc7a41d19f4193074"
+    }
+  ],
+  "remaining_staged_paths_result": "PASS",
+  "raw_diagnostic_sha256": "5337234d0fd32dd336e5c8a88d805e31c400a5c2fd4e222a371ab8fdb24e040a",
+  "reason": "Original GitHub build logs retained unchanged; no source or authored record whitespace exception."
+}

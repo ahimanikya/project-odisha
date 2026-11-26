@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4a5db4bb22238345eb3b08e8dc5472cb09fe15147d2a0ac29223ec9f9f948eb4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bb7b9791c0a9ed31be72a99c60c15cdad3b3bbc738364e18d7692fa74b9ea98f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -436,7 +436,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261126032 · Recover twelve unreliable source links in the27article collection | completed | published | Ahimanikya Satapathy | Completed; external-access observations and actual live publication are recorded in the receipt. | — |
 | POD-WORK-20261126306 · Publish Godabarish Mahapatra and Niankhunta | completed | published | Ahimanikya Satapathy | Complete separate receipt reviews, required checks and actual merge; explicitly return sole article slot with observed merge/check evidence. | — |
 | POD-WORK-20261127001 · Add archived UNESCO fallback to Similipal source note | completed | published | Ahimanikya Satapathy | Completed; verified archive fallback is live in source note 4. | — |
-| POD-WORK-2026112791 · Research, review and publish Devagiri in Rayagada | in_progress | reviewed | Ahimanikya Satapathy | Complete exact-commit and hosted checks, then deploy and verify live delivery before closing receipt. | — |
+| POD-WORK-2026112791 · Research, review and publish Devagiri in Rayagada | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt CI/merge, then return the reserved preparation-only slot. | — |
 
 ## Pending human review and decisions
 
@@ -1534,6 +1534,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112693 · Mahavinayak hill article with credited photograph | published | https://projectodisha.org/destinations/mahavinayak/ | POD-DEC-2026112693 |
 | POD-REL-20261126306 · Godabarish Mahapatra and the Pages of Niankhunta with credited illustration | published | https://projectodisha.org/stories/godabarish-mahapatra-and-niankhunta/ | POD-DEC-20261126306 |
 | POD-REL-20261127001 · Verified UNESCO archive fallback in live Similipal source note | published | https://projectodisha.org/stories/odisha/similipal-waterfalls/#user-content-fn-4 | POD-DEC-20261127001 |
+| POD-REL-2026112791 · Devagiri hill article with credited photograph | published | https://projectodisha.org/destinations/devagiri/ | POD-DEC-2026112791 |
 
 ## Sources and assets
 
@@ -1571,7 +1572,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112693 | 2026-11-26T01:37:49.123940+00:00 | Verified Kula receipt886/CI45731660778 and reconciled reviewed Godabarish preparation aace6c370 after explicit handoff. Scoped coverage check selects Mahavinayak as next hill destination; preserve all preparation and foreign ownership. Zero programme credit. | — |
 | POD-EVT-20261126031 | 2026-11-26T01:25:59.174916+00:00 | Reviewed all27 article images/captions on desktop and mobile; no image/layout/credit changes needed. Four dead research targets repaired and published through PR884/run45730336857. Live six-view repaired-note review and separate29page/49image/109footnote checks passed. Twelve other access/transport limits retained. Zero programme credit; evidence-only receipt integration follows. | — |
 | POD-EVT-20261126032 | 2026-11-26T06:03:40.782562+00:00 | User authorized recovery of12remaining access-limited source links and live article/source-note updates. Reused prior audit; three bounded research scopes and separate quality review. No programme credit. | — |
 | POD-EVT-20261126033 | 2026-11-26T08:29:03.551634+00:00 | PR890 merged after successful required CI; publication45770278816 succeeded. Eight live pages and 16 desktop/mobile views verified. Ten exact archived originals, one official replacement and one retained UNESCO primary source; UNESCO direct-client connection limitation and recovered Dhemsa rate limiting recorded. Zero programme credit. | — |
@@ -1581,6 +1581,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261127001 | 2026-11-26T19:12:26.244963+00:00 | User authorized a verified archive fallback beside the official UNESCO source in Similipal note 4. Reused prior access evidence and archive lead; bounded maintenance preserves foreign article ownership. Zero programme credit. | — |
 | POD-EVT-2026112791 | 2026-11-26T20:25:59.913322+00:00 | Verified Godabarish receipt896 and requiredCI45886736838, fetched54a8b326 after explicit slot return. Scoped reuse check selects Rayagada Devagiri, distinct from Panchalingeswar alias.113preparation files and foreign ownership preserved. Zero programme credit. | — |
 | POD-EVT-20261127002 | 2026-11-26T20:36:29.172065+00:00 | PR895/CI45883101771 passed, merged334adfdf4; publication45886118171 succeeded. Live note4 retains official UNESCO link and dated25October2026 archive fallback, verified on desktop/mobile and opened through live link. Prose/images/provenance preserved; zero programme credit. | — |
+| POD-EVT-2026112792 | 2026-11-26T22:31:33.449377+00:00 | ReviewedPR898 passed requiredCI45897117216 attempt1, merged e078dcd6;deployment45900807100 attempt1 success. Fresh root and separate live review pass with raw differences/framing limits retained. ChandanYatraPR899 preserved. Evidence-only receipt still requires exact review/CI/actualmerge before reserved preparation-only handoff. Zero programme credit. | — |
 
 ## Deferred extensions
 
