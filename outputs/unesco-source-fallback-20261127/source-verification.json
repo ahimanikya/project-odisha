@@ -1,0 +1,65 @@
+{
+  "requested_archive_url": "https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal",
+  "checked_at": "2026-11-26T19:12:17.539512+00:00",
+  "scope": "Verify exact existing UNESCO archive lead as fallback for Similipal article note 4",
+  "method": "Verified-TLS GET; no live-origin requests, no bypass, no raw response retained",
+  "research_reuse": "Read prior UNESCO discovery/verification and canonical article note 4; research-map query returned no matches.",
+  "http_status": 200,
+  "final_url": "https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal",
+  "content_type": "text/html; charset=utf-8",
+  "bytes_received": 279611,
+  "sha256": "93235db8183c5243fdec75813e4d453d40fb8411475ff944c0afdc594070a978",
+  "memento_datetime": "Sun, 25 Oct 2026 12:54:05 GMT",
+  "title": "Similipal - Man and the Biosphere Programme (MAB)",
+  "archive_provenance": {
+    "final_host_is_archive": true,
+    "expected_capture_in_final_url": true,
+    "expected_timestamp_in_wombat_metadata": true,
+    "original_unesco_url_in_wombat_metadata": true,
+    "wayback_missing_capture_notice": false
+  },
+  "content_markers": {
+    "general information": true,
+    "ecological characteristics": true,
+    "perennial": true,
+    "waterfall": true,
+    "sal": true
+  },
+  "elapsed_seconds": 12.09,
+  "status": "verified_exact_archive_and_all_cited_claims",
+  "capture_timestamp": "20261025125405",
+  "capture_date_utc": "2026-10-25T12:54:05Z",
+  "original_url": "https://www.unesco.org/en/mab/similipal",
+  "recommended_archive_url": "https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal",
+  "recommendation": "Keep UNESCO primary URL and append a compact dated archive fallback to existing note 4. Keep existing General information and Ecological Characteristics locators. No article-claim changes are needed.",
+  "claim_mapping": [
+    {
+      "article_claims": [
+        "hills",
+        "perennial streams",
+        "waterfalls"
+      ],
+      "source_section": "General information",
+      "evidence_paraphrase": "The archived paragraph explicitly identifies the Similipal hill range and describes numerous waterfalls and perennial streams joining major rivers. This supports the article’s combined landscape and water description."
+    },
+    {
+      "article_claims": [
+        "forest setting includes sal"
+      ],
+      "source_section": "Ecological Characteristics",
+      "evidence_paraphrase": "The archived ecological paragraph names sal tree, with botanical name Shorea robusta, as a substantial tract in the biosphere reserve. The article uses only the narrower supported point that the forest includes sal, without adopting the source’s superlative or species counts."
+    }
+  ],
+  "second_paragraph_check": {
+    "method": "Second normal-TLS GET of the same exact archive URL; parsed visible Ecological Characteristics paragraph",
+    "http_status": 200,
+    "sal_and_shorea_robusta_present": true
+  },
+  "archive_authenticity_conclusion": "The response remained at the exact dated web.archive.org replay URL. Memento-Datetime identifies 25 October 2026 at 12:54:05 GMT, and replay metadata identifies both that capture timestamp and the exact UNESCO original URL. The archived HTML itself contains the cited paragraphs; no current UNESCO request, embedded live document or redirect was used to establish the claims.",
+  "limitations": [
+    "This is a dated snapshot of UNESCO’s account, not proof of current ecological counts or operating access.",
+    "A successful archive check does not guarantee future archive availability; retain the primary source and the dated fallback together."
+  ],
+  "sanitization": "No raw HTML, script contents, response headers, error bodies, challenge tokens or client identifiers saved. Memento-Datetime was parsed into the public capture date; only that allowlisted provenance value is retained.",
+  "completed_at": "2026-11-26T19:13:43.257424+00:00"
+}

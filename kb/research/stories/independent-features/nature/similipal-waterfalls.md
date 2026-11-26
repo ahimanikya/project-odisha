@@ -42,7 +42,7 @@ At Barehipani, the Budhabalanga drops through the hills; farther downstream it e
 
 [^3]: [Similipal Tiger Conservation Plan 2023–24 to 2033–34, Vol. I, Part I: Core Area Plan, printed pp. 14–15](https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf) (PDF pages 8–9). The watershed and environmental-variation account appears on printed p. 14 and in Table 1.c on p. 15.
 
-[^4]: [UNESCO, Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal), General information and Ecological Characteristics.
+[^4]: [UNESCO, Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal), General information and Ecological Characteristics. Fallback: [archived 25 October 2026](https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal).
 
 [^5]: [Mayurbhanj district destinations](https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places)
 
