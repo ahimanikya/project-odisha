@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1429. blocked: 1, completed: 280, excluded: 873, in_progress: 1, queued: 274.
+Route inventory: 1430. blocked: 1, completed: 280, excluded: 873, in_progress: 1, queued: 275.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1453,3 +1453,4 @@ Route inventory: 1429. blocked: 1, completed: 280, excluded: 873, in_progress: 1
 | POD-EDIT-BAISAKHA-BRATA | [Baisakha Brata: Water for the Summer Month](https://projectodisha.org/stories/baisakha-brata/) | queued | article |
 | POD-EDIT-DEVAGIRI-20261127 | [Devagiri: A Cave Shrine Above Kalyansinghpur](https://projectodisha.org/destinations/devagiri/) | in_progress | One original hill destination narrative with credited photograph and previews; zero programme credit. |
 | POD-EDIT-CHANDAN-YATRA | [Chandan Yatra: When the Deities Take to the Water](https://projectodisha.org/stories/chandan-yatra/) | queued | article |
+| POD-EDIT-SNANA-PURNIMA | [Snana Purnima: After the Deities Have Bathed](https://projectodisha.org/stories/snana-purnima/) | queued | article |
