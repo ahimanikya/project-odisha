@@ -1,0 +1,85 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-26T22:27:30.416357+00:00",
+  "base_head": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+  "verdict": "PASS_MAINTENANCE_WITH_DISCLOSED_EXTERNAL_PUBLISHER_LIMIT",
+  "publication_status": "pending; this review does not verify delivery of the three local source-note repairs",
+  "scope": {
+    "articles": 27,
+    "original_live_notes": 109,
+    "original_live_external_link_occurrences": 110,
+    "original_unique_live_targets": 95,
+    "regular_targets": 84,
+    "existing_archives": 11,
+    "fresh_desktop_visuals_by_reviewer": 27,
+    "independently_checked_recorded_layout_measurements": 81
+  },
+  "source_review": [
+    "Independently reconciled all original live targets against regular/archive audit results; no omitted target. All 11 archive records show HTTP200 and content PASS, with large annual PDF partial continuity explicitly disclosed.",
+    "Read access-restriction and non-document dispositions rather than treating HTTP200 alone as content access. Mandasaru and Forestry2026 complete PDFs are separately documented; browser blank renderer is not counted as successful viewing.",
+    "Pakhala exact archive replacement preserves source identity and unchanged culinary claims; prior separate review applies.",
+    "Sitabinji retains original link and complete frontmatter; exact dated archive fallback and printed53–54/PDF23–24 locator match the verified local65-page payload. Independently extracted those pages using PDFKit and confirmed dimensions, procession and water-diversion discussion.",
+    "Pentha retains original audit and its attribution. Its note expressly identifies publisher sign-in and distinguishes the public IIT Madras engineering companion from an archived audit and from evidence for675-to505metre figures. Independently extracted companion cover and pages69–71/186 from the493-page payload; identity/date and Pentha discussion match."
+  ],
+  "independent_preservation_checks": {
+    "all27_narratives_byte_identical_to_base": true,
+    "only3_article_files_changed": true,
+    "other24_articles_byte_identical": true,
+    "sitabinji_and_pentha_complete_frontmatter_preserved": true,
+    "pakhala_frontmatter_only_source3_resource_changed": true,
+    "all_other_sitabinji_and_pentha_article_bytes_preserved": true,
+    "original_provenance_ids_dates_hashes_preserved": true,
+    "images_manifest_collection_and_site_files_unchanged": true,
+    "source_register_history_preserved_except_pakhala_active_bullet": true,
+    "three_dated_register_notes_appended": true,
+    "implementation_article_hashes_match_current_files": true
+  },
+  "findings": [],
+  "remaining_external_limit": {
+    "article": "pentha",
+    "original_cag": "Ordinary browser requires sign-in; no verified exact archive recovered. Original report content was accessed through indexed reader, which does not prove public browser availability.",
+    "public_companion": "A distinct engineering document; not substitute evidence for audit-specific675-to505metre figures.",
+    "not_claimed": "All source links publicly readable or all original sources HTTP200."
+  },
+  "other_qualifications": [
+    "Root performed mobile visual review and live browser interactions; this reviewer independently reviewed recorded metrics and all27desktop captures.",
+    "Original live captures precede local repairs; production CI and post-publication checks remain root work.",
+    "Technical asset evidence reports63reachable assets,62exact-byte matches,27primaryexact; Pakhala responsive encoding qualification retained.",
+    "This is AI evidence review, not human or subject-specialist certification.",
+    "No new independent remote fetches made by this reviewer; remote access results attributed to source agent/root evidence."
+  ],
+  "local_pdf_payloads_verified": {
+    "odisha-final-yule.pdf": {
+      "sha256": "11fbfc4093e630c53e662a7fcfd3d26feade2ade5479cdf2f2c23d1bed0f90c6",
+      "bytes": 376958
+    },
+    "odisha-final-geosynthetics.pdf": {
+      "sha256": "10f52bc4ded9e783ca5fb47f6bfdd53ef3ab9c6f77ea06c99778898f79144bcc",
+      "bytes": 13365627
+    }
+  },
+  "source_file_hashes": {
+    "kb/research/stories/independent-features/nature/pentha.md": "588a780fb081851ba4b60f0cf11695465b495622a62d2dfacca5768fee0162e9",
+    "kb/research/stories/independent-features/food/pakhala.md": "177cfe2ba60420a858479a36e11b41a0f3761c06f75e5b607cd67bdb12e0191b",
+    "kb/research/stories/independent-features/history/sitabinji.md": "d98804b8d623235cdd1bcbe5dbf8d7eab5d74fa317641f41b59a6b0e84c551a2",
+    "kb/research/stories/independent-features/source-register.md": "f1244cc2227b808b8f41d95bd81a25d8bf84adad5bd4c9fd3b555ca6f8781252"
+  },
+  "evidence_sha256": {
+    "source-summary.json": "165c7ab169f3f7964670477326a7bff13bc19941779e400cdbd82d08f3bd77a8",
+    "source-regular.json": "32e124de763e3e4604efa6a042c9bd30c3e86d36e26fed067f5be8b698f420d4",
+    "source-reader-checks.json": "9f7082fdf9e40cc814ad7b79721899dd6782f05c837f530836638e9914b16c80",
+    "source-live-reconciliation.json": "112f8f415dc2f6ffd400aad07f43db57efc42194cde87d5bfd75a005a970ddd3",
+    "source-archives.json": "63aecf264d37148fbf0d61711c3d71172edc9cddaa9a8aa577f0a9c0c99841a2",
+    "source-pdf-browser-disposition.json": "841e27190b4e165019e3ae056676a11fb9578499d82dad4967f30c14132351f8",
+    "source-pakhala-repair.json": "3f03e75c2bd0530b2cb387225e0910f5af14e6d9d96dc6c5d328dc4474f711f0",
+    "source-yule-payload.json": "9689b3c0a4a0b887c0442d09608566a8408f0c212de74400e98cf0395fb62219",
+    "source-pentha-disposition.json": "0131cf625bbac3d885c360c6b41027681c8f623cdd20cca887f7674c8392f244",
+    "technical-implementation.json": "3d3234bcfbb8281fa3b9c9a9cd202161d33e49cc574f37cb9630521350f36638",
+    "technical-sitabinji-implementation.json": "1324c98dfc1c661b52783689a48c11a3ef6ef8829dd94dc67195de84b4e195fc",
+    "technical-pentha-implementation.json": "3ac2de406c05f9c229cd8de35c7c942382e58506d595bc30339555d7124fb0d6",
+    "technical-summary.json": "a9e53ca3607b4b2690b6e82f70f098f811a1bf0784b4bc8fa9ae18b3e9635ae7",
+    "review-layout.json": "43b2029e79f1398a9ad521976d658a394d344e5d78270a07c5dafbb24ffcdf3e",
+    "review-image-continuity.json": "2ea9e8224982d80e680b562678112326049e120cd414b43759fa650bcf9dd909",
+    "review-pakhala-repair.json": "53bee705175bca028caa326762ef918029899f2eaec5a18ed07735ac72acb980"
+  }
+}

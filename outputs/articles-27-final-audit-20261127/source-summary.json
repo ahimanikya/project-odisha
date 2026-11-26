@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-26T22:25:02.938497+00:00",
+  "status": "complete_with_disclosed_publisher_access_limitation",
+  "scope": {
+    "live_articles": 27,
+    "live_notes": 109,
+    "original_unique_source_targets": 95,
+    "original_link_occurrences": 110,
+    "existing_archives": 11
+  },
+  "checks": {
+    "all_existing_archives": "Verified capture and relevant content; see source-archives.json. Large poem PDF uses fresh partial-byte continuity plus previously inspected complete payload, explicitly documented.",
+    "regular_sources": "Fresh direct requests, document-type checks and alternate reader checks; source-regular.json and source-reader-checks.json preserve direct failures. Indexed/cached reader success does not prove universal current browser access.",
+    "government_pdfs": "Mandasaru and Forestry2026 complete secure downloads verified PDF and rendered cover; Forestry2024 complete web-reader PDF."
+  },
+  "repairs": [
+    {
+      "article": "pakhala",
+      "status": "verified_exact_archive_replacement",
+      "evidence": "source-pakhala-repair.json"
+    },
+    {
+      "article": "sitabinji",
+      "status": "verified_original_pdf_archive_fallback",
+      "evidence": "source-yule-payload.json"
+    },
+    {
+      "article": "pentha",
+      "status": "disclose_original_publisher_login_and_add_distinct_public_engineering_companion",
+      "evidence": "source-pentha-disposition.json"
+    }
+  ],
+  "remaining_limitation": "Pentha CAG original requires publisher sign-in in ordinary browser. No verified archived copy recovered. The public engineering companion is not the audit and does not substantiate its specific675-to505metre figures; those were checked in the indexed original audit. Not an all-links-publicly-readable declaration.",
+  "no_creator_material_added": true,
+  "no_challenge_or_authentication_bypass": true,
+  "publication": "pending"
+}

@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "*Mint Lounge*, 2021", "resource": "https://www.livemint.com/mint-lounge/food/there-is-more-to-panta-bhat-than-just-being-a-masterchef-finale-dish-111626403672396.html"}, {"id": "2", "title": "Pritisha Das, Odisha Tourism", "resource": "https://odishatourism.gov.in/in/blog/odisha-s-must-try-soul-food"}, {"id": "3", "title": "Nisar Ahmed, Odisha Tourism, 2 June 2021", "resource": "https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine"}, {"id": "4", "title": "OTDC event record", "resource": "https://otdc.odisha.gov.in/storage/advertisement/1742472029_pakhala%20Dibas.pdf"}]
+sources: [{"id": "1", "title": "*Mint Lounge*, 2021", "resource": "https://www.livemint.com/mint-lounge/food/there-is-more-to-panta-bhat-than-just-being-a-masterchef-finale-dish-111626403672396.html"}, {"id": "2", "title": "Pritisha Das, Odisha Tourism", "resource": "https://odishatourism.gov.in/in/blog/odisha-s-must-try-soul-food"}, {"id": "3", "title": "Nisar Ahmed, Odisha Tourism, 2 June 2021", "resource": "https://web.archive.org/web/20261014232402/https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine"}, {"id": "4", "title": "OTDC event record", "resource": "https://otdc.odisha.gov.in/storage/advertisement/1742472029_pakhala%20Dibas.pdf"}]
 public_route: "/stories/odisha/pakhala/"
 original_sha256: "27d59c1f1948136045ba1a99365b17518147d5362515f91f30487961d72431b6"
 ---
@@ -40,6 +40,6 @@ An elaborate platter is one expression of the dish, not a requirement for enjoyi
 
 [^2]: [Pritisha Das, Odisha Tourism](https://odishatourism.gov.in/in/blog/odisha-s-must-try-soul-food)
 
-[^3]: [Nisar Ahmed, Odisha Tourism, 2 June 2021](https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine)
+[^3]: [Chef Nisar Ahmed, “Beat the heat with this healthy Odia Cuisine”, Odisha Tourism, 2 June 2021](https://web.archive.org/web/20261014232402/https://apps.odishatourism.gov.in/blog-detail/beat-the-heat-with-this-healthy-odia-cuisine), archived 14 October 2026.
 
 [^4]: [OTDC event record](https://otdc.odisha.gov.in/storage/advertisement/1742472029_pakhala%20Dibas.pdf)
