@@ -1,0 +1,66 @@
+{
+  "reviewer": "article_integration_review",
+  "reviewed_on": "2026-11-27",
+  "base_head": "579f980a1ac3aef8e8bc4809e52125cba5d28a7d",
+  "verdict": "PASS",
+  "blocking_findings": [],
+  "scope": "Bounded independent integrated source-note and evidence review. No broad research, new archive request, browser session or production build.",
+  "reviewed_files_sha256": {
+    "kb/records/editorial-workbench.json": "663c262604438f2c68d40991e4ec18d9d2b5d0b67b6dc0ec003a34a1c0024402",
+    "kb/registers/DASHBOARD.md": "5cecbc107d20a77e23d6875a4a539e2f13fb7defc738e800900d792343be6882",
+    "kb/registers/activity.jsonl": "a4172bf75a7be8e030af62090467438c4a42bd90e9def203524d99cc550b1754",
+    "kb/registers/records.json": "e67807899c0b84d56b30ced5eb47d96e5fdad88ed026341d11f9e5885573494e",
+    "kb/research/search-index.json": "93576d106a6c766d69f6c351b35af36cd762630e0c850841624828127032be52",
+    "kb/research/stories/independent-features/nature/similipal-waterfalls.md": "49e0c2650e5f990b9e25a6d0c31d2296a12d3f4b704c9c22b27afc32cf2fb251",
+    "kb/research/stories/independent-features/source-register.md": "da1c46bbca638cf4927fceb955f00f3f06e40f906002fdb825d3895eebe13342",
+    "kb/records/unesco-source-fallback-20261127.json": "86e2953ff9c215f09d84be3b20c87da7f92466c28f264004f330087033b5d12f"
+  },
+  "evidence_sha256": {
+    "source-verification.json": "369eef31a68609b05845c205f73d95da29e7ead9fc44ae590e1f5d56e640654d",
+    "implementation.json": "4c74a88c5ce61456e01ad87f7eddf6a60941c408f5572c90f9038a0de7c11d75",
+    "handoff.json": "2422c55a9e63475bd46797d3b632c3e7537410624979eae5f5b9dcb37f1baf16"
+  },
+  "source_diff_sha256": "da26d7e1512ad90ce23fd39a0ac7fd985f10540dd35f47cf5225478034a80dbd",
+  "source_assessment": {
+    "primary_url": "https://www.unesco.org/en/mab/similipal",
+    "archive_url": "https://web.archive.org/web/20261025125405/https://www.unesco.org/en/mab/similipal",
+    "capture_date": "2026-10-25",
+    "capture_time_utc": "12:54:05",
+    "basis": "Researcher evidence reports two verified-TLS HTTP 200 requests at the exact replay URL, matching Memento-Datetime, original URL and timestamp in replay metadata, no missing-capture notice, and inspection of both relevant archived paragraphs. This reviewer assessed those reported authenticity/content checks; did not repeat network retrieval.",
+    "claim_fit": "General information supports hills, perennial streams and waterfalls; Ecological Characteristics supports the narrower existing sal-forest statement. No new ecological counts or visitor-access claims.",
+    "source_identity": "Fallback supplements the same UNESCO source; register explicitly rejects treating it as independent corroboration. No live-origin fallback used by researcher."
+  },
+  "independent_checks": {
+    "frontmatter_byte_identical": true,
+    "entire_article_narrative_byte_identical": true,
+    "other_article_files_byte_identical": 26,
+    "primary_metadata_resource_unchanged": true,
+    "historical_provenance_unchanged": true,
+    "images_manifest_byte_identical": true,
+    "images_manifest_sha256": "d135222aed2f427b4ac41e59225d342ee6922d40205f83874e5a7fdfc569c485",
+    "source_register_historical_paragraphs_preserved": true,
+    "source_register_delta": "One active UNESCO bullet gains the fallback; one dated paragraph is appended.",
+    "shared_renderer": "PASS, freshly invoked by this reviewer",
+    "rendered_footnote_count": 6,
+    "primary_and_archive_in_same_note": true,
+    "exact_capture_date_visible": true,
+    "missing_footnote_return_targets": [],
+    "source_ids_preserved": true,
+    "only_new_register_ids": [
+      "POD-WORK-20261127001",
+      "POD-DEC-20261127001"
+    ],
+    "foreign_records_unchanged": true,
+    "historical_activity_prefix_byte_exact": true,
+    "only_new_event": "POD-EVT-20261127001",
+    "sensitive_header_token_scan_findings": [],
+    "git_diff_check": "PASS"
+  },
+  "status_assessment": "Canonical record and shared work remain in progress, publication pending and zero programme credit. These states do not overclaim deployment. Root may update review readiness after this verdict; CI/publication/live verification remain outstanding.",
+  "limits": [
+    "Archive availability is a successful point-in-time researcher observation, not a future guarantee.",
+    "Root-reported generated-data/governance checks were not rerun by this reviewer.",
+    "No visual-layout or production CI claim is made by this review.",
+    "Pass applies to hashed source and evidence files; later changes need an appropriate continuity check."
+  ]
+}

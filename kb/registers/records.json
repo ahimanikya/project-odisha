@@ -11067,6 +11067,28 @@
       "evidence": [
         "records/godabarish-publication-20261126.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261127001",
+      "title": "Add archived UNESCO fallback to Similipal source note",
+      "category": "editorial_maintenance",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Disha with separate research, implementation and review agents"
+      },
+      "authorization": "POD-DEC-20261127001",
+      "next_action": "Pass required hosted checks, merge reviewed fallback, publish and verify actual live note.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261127001",
+        "POD-REV-20261127001"
+      ],
+      "evidence": [
+        "records/unesco-source-fallback-20261127.json"
+      ]
     }
   ],
   "decisions": [
@@ -16864,6 +16886,20 @@
       "scope": "One reviewed original article, credited illustration and relevant incoming links; layout checks and publication.",
       "evidence": [
         "records/godabarish-publication-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261127001",
+      "title": "Publish reliable archived UNESCO fallback",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find a reliable archived version of the UNESCO source and add it as a fallback in the article’s source notes on the live website.",
+      "scope": "One existing article source note, its research register and verified live delivery; zero programme credit.",
+      "evidence": [
+        "records/unesco-source-fallback-20261127.json"
       ]
     }
   ],
@@ -26906,6 +26942,24 @@
       ],
       "independent": true,
       "summary": "Independent repair review passed for all 12 source mappings and 109 footnotes; original source provenance and images preserved. Required CI and publication succeeded. Live verification covered eight pages and 16 desktop/mobile views. Direct UNESCO access limitation is recorded separately; its official content remains readable through the web reader."
+    },
+    {
+      "id": "POD-REV-20261127001",
+      "title": "Review archived UNESCO fallback in Similipal note 4",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Separate article_integration_review agent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261127001",
+        "POD-DEC-20261127001"
+      ],
+      "evidence": [
+        "records/unesco-source-fallback-20261127.json"
+      ],
+      "summary": "Exact archive provenance and claim fit assessed from separate research evidence. Independently rendered six notes with original and archive links together; all return links work. Prose, complete frontmatter, images, other articles and historical evidence preserved. Required hosted checks and live publication pending."
     }
   ],
   "releases": [
