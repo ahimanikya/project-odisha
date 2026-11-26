@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Text in *Odisha Reference Annual 2017*, page 6", "resource": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf"}, {"id": "2", "title": "*Orissa Review*, August 2006, study of Kantakabi", "resource": "https://magazines.odisha.gov.in/Orissareview/Aug2006/engpdf/43-47.pdf"}, {"id": "3", "title": "Odisha eGazette record", "resource": "https://egazette.odisha.gov.in/extraordinary_archival_dept/90/3"}, {"id": "4", "title": "The Times of India, 7 June 2020", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-cabinet-accords-state-song-status-to-bande-utkal-janani/articleshow/76247719.cms"}, {"id": "5", "title": "The New Indian Express, 14 November 2020", "resource": "https://www.newindianexpress.com/states/odisha/2020/Nov/14/bande-utkala-janani-becomes-part-of-school-syllabus-in-odisha-2223479.html"}]
+sources: [{"id": "1", "title": "Text in *Odisha Reference Annual 2017*, page 6", "resource": "https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf"}, {"id": "2", "title": "*Orissa Review*, August 2006, study of Kantakabi", "resource": "https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf"}, {"id": "3", "title": "Odisha eGazette record", "resource": "https://egazette.odisha.gov.in/extraordinary_archival_dept/90/3"}, {"id": "4", "title": "The Times of India, 7 June 2020", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-cabinet-accords-state-song-status-to-bande-utkal-janani/articleshow/76247719.cms"}, {"id": "5", "title": "The New Indian Express, 14 November 2020", "resource": "https://www.newindianexpress.com/states/odisha/2020/Nov/14/bande-utkala-janani-becomes-part-of-school-syllabus-in-odisha-2223479.html"}]
 public_route: "/stories/odisha/bande-utkala-janani/"
 original_sha256: "b104214b042eea66f4e7dadcd3d901fc7acd1a1662b290d3a21b64c857e86fde"
 ---
@@ -36,9 +36,9 @@ The poem’s continuing life rests in that movement between reading and performa
 
 ## Footnotes & Sources
 
-[^1]: [Text in *Odisha Reference Annual 2017*, page 6](https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf)
+[^1]: [Kantakabi Laxmikanta Mohapatra, “Bande Utkala Janani”, *Odisha Reference Annual 2017*, printed p. 6](https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf), PDF page 28 of the 366-page annual; the annual credits *Kanta Sahitya Mala*. Archived 6 May 2025.
 
-[^2]: [*Orissa Review*, August 2006, study of Kantakabi](https://magazines.odisha.gov.in/Orissareview/Aug2006/engpdf/43-47.pdf)
+[^2]: [Soma Chand, “Kantakabi Laxmikanta and Nationalist Poems”, *Orissa Review*, August 2006, pp. 43–47](https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf), especially pp. 45–46 on nationalist writing, spinning and khadi; archived 7 December 2025.
 
 [^3]: [Odisha eGazette record](https://egazette.odisha.gov.in/extraordinary_archival_dept/90/3)
 

@@ -80,7 +80,7 @@
     "local_actual_bytes": 999062718,
     "local_actual_files": 3789
   },
-  "next_action": "Commit separately reviewed publication candidate, pass required hosted checks and actual Linux capacity, merge and deploy, then fresh live review and evidence-only receipt.",
+  "next_action": "Complete independent combined reconciliation review and fresh local/hosted validation; then authorized merge/deployment/live review/receipt.",
   "additional_authorization_quote": "Continue with Mahavinayak—complete the research and review, then publish it with the credited photograph in the article and preview.",
   "media": "research/places/mahavinayak-image.json",
   "source_dossier": "outputs/mahavinayak-publication-2026-11-26/research/source-manifest.json",
@@ -111,7 +111,8 @@
     "separate_review": "outputs/mahavinayak-publication-2026-11-26/review/package-review.json",
     "root_browser": "outputs/mahavinayak-publication-2026-11-26/root-browser-review.json",
     "root_package_browser": "outputs/mahavinayak-publication-2026-11-26/root-package-browser-review.json",
-    "live_claim": false
+    "live_claim": false,
+    "scope": "Historical Mahavinayak candidate before incoming public PR889 and PR890; fresh combined validation pending."
   },
   "failure_history": [
     {
@@ -133,5 +134,25 @@
     "coordinator_chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "reported_direct_instruction": "Once Mahavinayak’s release is complete, integrate and publish the Godabarish Mahapatra and Niankhunta article with the credited illustration, links from relevant articles, and mobile and desktop layout checks.",
     "condition": "Explicit handoff only after actual separately reviewed Mahavinayak receipt merge."
+  },
+  "validated_prior_candidate": {
+    "head": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+    "required_ci": 45765469892,
+    "conclusion": "success",
+    "actual_linux_bytes": 999903293,
+    "files": 3789,
+    "remaining_bytes": 96707,
+    "publication_not_started": true
+  },
+  "subsequent_reconciliation": {
+    "incoming_prs": [
+      889,
+      890
+    ],
+    "incoming_main": "1bd308add5781bd740010724f1aff5845b09b828",
+    "scope": "Preserve Pana Sankranti article and twelve source-link repairs; combine route inventories and count expectations.",
+    "historical_evidence_preserved": true,
+    "combined_contract": "outputs/mahavinayak-combined-2026-11-26/reviewed-article-contract.json",
+    "combined_validation": "pending; fresh local and hosted builds required"
   }
 }

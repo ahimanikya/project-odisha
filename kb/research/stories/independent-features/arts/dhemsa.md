@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Odisha Reference Annual 2014, “The Gadabas and Their Dances”", "resource": "https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/ora-2014.pdf"}, {"id": "2", "title": "Anand Mahanand, *Lokaratna* XIII, pages 24–25", "resource": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf"}, {"id": "3", "title": "Mahanand’s discussion of staged performance", "resource": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf"}, {"id": "4", "title": "SCSTRTI, Gadaba profile", "resource": "https://www.scstrti.in/index.php/communities/tribes/91-tribes/164-gadaba"}]
+sources: [{"id": "1", "title": "Odisha Reference Annual 2014, “The Gadabas and Their Dances”", "resource": "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf"}, {"id": "2", "title": "Anand Mahanand, *Lokaratna* XIII, pages 24–25", "resource": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf"}, {"id": "3", "title": "Mahanand’s discussion of staged performance", "resource": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf"}, {"id": "4", "title": "SCSTRTI, Gadaba profile", "resource": "https://www.scstrti.in/index.php/communities/tribes/91-tribes/164-gadaba"}]
 public_route: "/stories/odisha/dhemsa/"
 original_sha256: "b965450f92fd2e174691d752b33dda025e69e6f8089867499f2bb25564fa36d7"
 ---
@@ -36,7 +36,7 @@ The mahuri’s opening tune and the linked dancers’ changes of direction belon
 
 ## Footnotes & Sources
 
-[^1]: [Odisha Reference Annual 2014, “The Gadabas and Their Dances”](https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/ora-2014.pdf)
+[^1]: [“The Gadabas and Their Dances (Folk Dance)”, *Odisha Reference Annual 2014*](https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf), printed p. 93 (PDF page 15 of the chapter, pp. 79–97); archived 17 November 2024.
 
 [^2]: [Anand Mahanand, *Lokaratna* XIII, pages 24–25](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf)
 
