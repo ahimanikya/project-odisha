@@ -210,7 +210,7 @@
   },
   "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Then begin already authorized Godabarish Mahapatra/Niankhunta preparation; explicit hill-chat return follows that reviewed preparation. No publication authority for that draft inferred.",
   "receipt_pending": [
-    "Separate incoming reconciliation and exact-commit reviews",
+    "Separate exact-commit continuity review",
     "Required hosted receipt checks",
     "Actual receipt merge"
   ],
@@ -220,5 +220,25 @@
     "evidence": "outputs/kula-publication-20261126/review/final-receipt-review.json",
     "sha256": "356fd180c63c8697326b23666e70f2b75891adeaa28f30df05f38f5f4cf4713d",
     "scope": "Receipt based on dccfa463; incoming PR884/885 reconciliation requires separate review."
+  },
+  "receipt_reconciliation": {
+    "incoming": "beacf28a7143f11f317967e274deac00639318aa",
+    "prs": [
+      884,
+      885
+    ],
+    "required_ci": [
+      45727000113,
+      45726207269
+    ],
+    "status": "separate_review_pass",
+    "evidence": "outputs/kula-publication-20261126/receipt-incoming-preservation.json",
+    "nonshared_files": 32,
+    "scope": "All incoming source, tests and records preserved. This evidence-only receipt makes no public-source change against incoming main. Current capacity will be measured by receipt CI; original Kula deployment remains999868198 bytes/3783 files.",
+    "separate_review": {
+      "status": "PASS",
+      "evidence": "outputs/kula-publication-20261126/review/receipt-reconciliation-review.json",
+      "sha256": "2147a54faf9c9778e3f2017e776840513d25c1130d88ffd9db75723f78372b51"
+    }
   }
 }

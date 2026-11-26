@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-25T23:39:30.685360+00:00",
+  "passed": [
+    "Existing27article/94-source structure test",
+    "Research validation:1535 concepts,6142 local link checks",
+    "Register validation and regenerated dashboard",
+    "Catalogue check",
+    "Bundle structural/authority check",
+    "Autonomous programme consistency",
+    "Team assignment consistency",
+    "git diff --check"
+  ],
+  "preview": "Six actual Astro development-server footnote screenshots across three repaired articles at390 and1280, no overflow.",
+  "production_build": "Deferred to required GitHub CI; no stale coastal output claimed as current.",
+  "tests_added": false,
+  "scope": "Link maintenance, no image/template/layout change; no programme credit.",
+  "ci_followup": {
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/45723301838",
+    "result": "Failed: generated editorial-workbench search-index digest stale after source-link reindex.",
+    "repair": "Regenerated workbench; only search_index_sha256 changed, frozen500 content unchanged.",
+    "local_check": "build_workbench.py --check passed after regeneration"
+  },
+  "pre_reconciliation_ci": {
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/45723894260",
+    "head": "58d64738721dba74f117849105a7c7259cafd3f6",
+    "status": "success",
+    "full_tests": 844,
+    "coastal_tests": 605,
+    "payload_bytes": 999228423
+  },
+  "concurrent_main_reconciliation": {
+    "incoming": "dccfa463f11f9bf513a93abce233a27973582c3d",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/883",
+    "scope": "Preserve Kula publication candidate and all incoming records/site files. Resolve shared record append conflicts by retaining incoming records and adding only this task IDs; regenerate dashboard.",
+    "checks": [
+      "registers",
+      "editorial-workbench digest",
+      "autonomous programme",
+      "team assignments",
+      "bundle"
+    ],
+    "combined_ci": "pending"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "status": "PASS_RECEIPT_RECONCILIATION_WORKING_TREE_PENDING_EXACT_COMMIT_AND_CI",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_receipt_checkpoint": "2ee23bc47fba5586fa1756e50404910b0cdeea74",
+  "incoming_main": "beacf28a7143f11f317967e274deac00639318aa",
+  "incoming_prs": [
+    884,
+    885
+  ],
+  "historical_kula_publication": "dccfa463f11f9bf513a93abce233a27973582c3d",
+  "scope": "Read-only preservation and additive record reconciliation. No substantive re-review of incoming articles, no builds or live rechecks.",
+  "independent_checks": {
+    "incoming_nonshared_files": 32,
+    "incoming_nonshared_result": "Actual working bytes match both incoming Git objects and all manifest SHA256 values.",
+    "public_source": "Empty diff against incoming main for projects, tools, tests, editions and workflows.",
+    "protected_preparation_files": 88,
+    "protected_result": "All exact.",
+    "shared_records": "Incoming register and rollout objects unchanged after excluding only reviewed Kula IDs. Kula work/review/release/completed-rollout rows equal reviewed receipt checkpoint exactly.",
+    "activity": "All894incoming raw event lines retained byte-exact; exactly one reviewed Kula event appended,895unique total.",
+    "ownership": "Foreign current_task/handoff_home and current_preparation unchanged. Own conditional current_article and next_article_coordination unchanged from reviewed checkpoint.",
+    "own_nonshared_records": "Ledger, research-map and operations hashes match prior integrated review.",
+    "delivery_evidence": "All105 evidence hashes bound by final-receipt-review remain exact.",
+    "canonical_record": "Only receipt_reconciliation object added after reviewed checkpoint; actual deployment stilldccfa463/999868198bytes/3783files. Latest combined capacity explicitly awaits receipt CI.",
+    "register_check": "Independently ran registers.py --check: PASS1435records/895events/dashboardcurrent.",
+    "workbench_inputs": "All7 actual input hashes match generated workbench.",
+    "merge_index": "Five working-file resolutions reviewed; root subsequently staged them. git ls-files -u now empty. Merge not yet committed."
+  },
+  "reviewed_canonical_sha256": {
+    "kb/history/LEDGER.md": "5270fe1b1be3e8434247d926ac344f51e130d1d2e2bdeb388847c72d694ae4ff",
+    "kb/records/article-editorial-rollout.json": "e9c3ea47cff0f543d8d669761739fcb328778f131655e908c23457c9b9261ba5",
+    "kb/records/article-editorial-work-list.md": "7c64e8ca4f7e94fe5715c66d37bdcd5bda5386d38b3ac4e3f28cae5501d2ca84",
+    "kb/records/kula-publication-20261126.json": "ee05a554f5abd4e0e107199212d0b29df6b9b9b416a919d17ae559e953192914",
+    "kb/registers/DASHBOARD.md": "c00bdff3e602b63d7ffa403eddb2a28750678c5191ba1e8cdcc415d268a0cd30",
+    "kb/registers/activity.jsonl": "f5a0ff9e9c64a97378014e32b9e3cd2da5542ca4c8b67d0e8de8963431baf6e0",
+    "kb/registers/records.json": "aa2e2c7aa94224d57868f06220c27669fac50862c250f5a142d6a3670b546360",
+    "kb/research/references/data/research-map.json": "cfce6930d44936b495fc5054ad0c3cba4dde75ad6f1be27569a6c97859192369",
+    "kb/team/operations.json": "85bc29731ca7682d1b3d8feb66392f1409e47ab393a82307483cd215152bca71"
+  },
+  "incoming_nonshared_sha256": {
+    "kb/catalog.json": "9429d646f1e7c632f844b6c701f1c2c9b317390b8feab00da4a642e6398a8af1",
+    "kb/records/editorial-workbench.json": "2151d142bf9926d256db09b267084263c02770ea269a461ccf8241dcda150f28",
+    "kb/records/independent-articles-live-review-20261126.json": "9da39350ebd5849061b17625cb05725f39ecd94f18c07ac342d2bae6c60fe0bd",
+    "kb/reference/public-website-routes.json": "738fae09ee7975f831558fb0e75edb3b213e836b50f06293a8b9c51c28d4b7e2",
+    "kb/research/culture/dola-purnima.md": "c695238206ae11b2691cdfb2664fb67a0b867bb80565d377fa6c7ee51960e83a",
+    "kb/research/search-index.json": "4137d49d22ed049333ef47d6f1384ba90617199261c036fe931891405032bc81",
+    "kb/research/stories/independent-features/food/sakhigopal-coconuts.md": "f17bd261655aff2dc047122378b218a40ab96540e8add26965e5b7d84883da89",
+    "kb/research/stories/independent-features/nature/similipal-waterfalls.md": "e17d58e98abbf376c2915d279f100f8f42cbf093957d614a4f5207b8254186e2",
+    "kb/research/stories/independent-features/places/motu-mugi-point.md": "5962b22febd702ef6078e3be9baeb151eb8330fbbfcd9bde95fa266bd1d9637a",
+    "kb/research/stories/independent-features/source-register.md": "c228361779cec0ceb44c9126c8fa8e2fbba598a01a35fe6232b3c2859e0acd42",
+    "outputs/independent-articles-live-review-20261126/browser-review.json": "58ddd96b3138ca9e09170cca44e3e7d56a8da4f4d19b23f6bbd9781dbb508928",
+    "outputs/independent-articles-live-review-20261126/combined-head-review.json": "19c3dfe61101a9e3bd19190af516851789d4995c7205c715197301594fc2a3fe",
+    "outputs/independent-articles-live-review-20261126/handoff.json": "58cc783f3ff1537c89e691c50a1507aeda9adf5b03fed7d58156fdd19cd4be9e",
+    "outputs/independent-articles-live-review-20261126/layout-code-review.json": "c4b948b7a58359f520bec4d49e542afb203f14a7f3b08df0d77117e513171204",
+    "outputs/independent-articles-live-review-20261126/link-audit-discovery.json": "bb9f1932745a8d04947639e696fc96ecfa3ea87bca46d6c629987094a870f63c",
+    "outputs/independent-articles-live-review-20261126/link-audit-external.json": "3644eb28741234728e8ad2284f6725c8ecff968bdfeae28dcfef086a4ee8960e",
+    "outputs/independent-articles-live-review-20261126/link-audit-external.py": "fa0fb289c79a0da17936ad3c96ed71e9dae6f9512fb71d61bb7d3fc1e9fe4343",
+    "outputs/independent-articles-live-review-20261126/link-audit-local-source.json": "6ae588326b6528b5d0ae2094da9abff88381e191e22f81576c1195f2d3fa13d4",
+    "outputs/independent-articles-live-review-20261126/link-audit-recommendations.json": "7881fe70debfdf3c03d785499d6aaa98c686c6017d02a2243c2c33b00ee4b221",
+    "outputs/independent-articles-live-review-20261126/link-audit-replacement-checks.json": "f9e0348992adcbae5efb9236d19737f49d307bd45bce279df421638ffaf042e0",
+    "outputs/independent-articles-live-review-20261126/link-audit-site.json": "eb2eb6570b669364735f3747d34556a699700dff00eac57e08c5a269ce4c1681",
+    "outputs/independent-articles-live-review-20261126/local-validation.json": "603f6ec44cfc2a82c93872021d2b0bc72b627657f051993fc58a524bd93250fd",
+    "outputs/independent-articles-live-review-20261126/repair-review.json": "df212a1d36e241cfeca8ab4df9e8bc233e23c34d9540e3d9221a3237fcec1ea1",
+    "outputs/independent-articles-live-review-20261126/suitability-review.json": "1d60be5ac676d2c27ca1918e37d3dad7e4102710f55d4722855e8ffda8e5878f",
+    "projects/site/editions/coast.json": "1f7fa358bab382dfeb45f5fa8ad9c202f8aa85fbbce6896ebb4e529c436675e7",
+    "projects/site/editions/search-candidate.json": "61afd7ba4f9565e17b2a79c83f509bfeb8a3cfeaccc4bd9fe7040ee7f6c29618",
+    "projects/site/src/data/discovery.ts": "ed916e9c51208bda0265beaa0d1ace165c3cd014de80f4c93d51d530bc6929fa",
+    "projects/site/src/pages/stories/dola-purnima.astro": "18152b8d3bc17d8bad19c2df92fdce3d118fb16b449d34cd9ba54e99d2d70aa9",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "fcb90fedfbe698f5a6cfada13a4ccfc500cede84f3ba671dbb0201587f894d9d",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "1c326a4e3312c30fa825f396fb706bc7ae28449fd984d0c8ecc84550ad7e0af1",
+    "projects/site/tests-coast/edition.test.mjs": "9b426bdeefa296849ffa696697ceb4da1ddd07fce2e4728bc21b8374f37ebc0e",
+    "projects/site/tests/build.test.mjs": "0423cbbad973feef4e7ae8d548cdf6c6b69a58fdb24d89619577c1ed604ee7ad"
+  },
+  "evidence_sha256": {
+    "outputs/kula-publication-20261126/receipt-incoming-preservation.json": "693132d0d16db45f8f7839306d3ec1acbec804e59737547b92c141c14d4d52e9",
+    "outputs/kula-publication-20261126/review/final-receipt-review.json": "356fd180c63c8697326b23666e70f2b75891adeaa28f30df05f38f5f4cf4713d",
+    "outputs/kula-publication-20261126/review/delivery-review.json": "1073b2f3b6861e39259d163e399b9c5541f7431b8cc51e058e06cdc1a5bd0e9d",
+    "outputs/kula-publication-20261126/live/root-ui-review.json": "e8d665a64f50291569136b4425b10b5938dee1211fc83ebad580e0db1a097262"
+  },
+  "blockers": [],
+  "pending_gates": [
+    "Exact committed reconciliation review.",
+    "Required receipt CI on the combined source, including actual capacity; no assumption that old deployed byte count applies to incoming main.",
+    "Actual reviewed receipt merge before queued preparation and later explicit hill return."
+  ],
+  "limits": [
+    "No fresh public deployment or live validation claimed for incoming changes. Historical Kula acceptance remains its exact publication snapshot.",
+    "No human specialist review. Root-reported additional governance passes not represented as reviewer execution."
+  ],
+  "review_scope_released": true
+}

@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Similipal’s waterfall account", "resource": "https://www.similipal.org/barehipani-joranda-waterfalls/"}, {"id": "2", "title": "Balasore district survey, river system", "resource": "https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf"}, {"id": "3", "title": "Similipal Tiger Conservation Plan 2023–24 to 2033–34", "resource": "https://www.similipal.org/images/publication/TIGER-CONSERVATION-PLAN-2023-24-2033-34.pdf"}, {"id": "4", "title": "UNESCO, Similipal Biosphere Reserve", "resource": "https://www.unesco.org/en/mab/similipal"}, {"id": "5", "title": "Mayurbhanj district destinations", "resource": "https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places"}, {"id": "6", "title": "Similipal official notices", "resource": "https://similipal.org/index.php"}]
+sources: [{"id": "1", "title": "Similipal’s waterfall account", "resource": "https://www.similipal.org/barehipani-joranda-waterfalls/"}, {"id": "2", "title": "Balasore district survey, river system", "resource": "https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf"}, {"id": "3", "title": "Similipal Tiger Conservation Plan 2023–24 to 2033–34, Vol. I, Part I: Core Area Plan, pp. 14–15", "resource": "https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf"}, {"id": "4", "title": "UNESCO, Similipal Biosphere Reserve", "resource": "https://www.unesco.org/en/mab/similipal"}, {"id": "5", "title": "Mayurbhanj district destinations", "resource": "https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places"}, {"id": "6", "title": "Similipal official notices", "resource": "https://www.similipal.org/tender/"}]
 public_route: "/stories/odisha/similipal-waterfalls/"
 original_sha256: "eedc1ee9d42b8488608b4af6257fa57be573b5a10f4bda960a7d497929930fa9"
 ---
@@ -40,10 +40,10 @@ At Barehipani, the Budhabalanga drops through the hills; farther downstream it e
 
 [^2]: [Balasore district survey, river system](https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf)
 
-[^3]: [Similipal Tiger Conservation Plan 2023–24 to 2033–34](https://www.similipal.org/images/publication/TIGER-CONSERVATION-PLAN-2023-24-2033-34.pdf)
+[^3]: [Similipal Tiger Conservation Plan 2023–24 to 2033–34, Vol. I, Part I: Core Area Plan, printed pp. 14–15](https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf) (PDF pages 8–9). The watershed and environmental-variation account appears on printed p. 14 and in Table 1.c on p. 15.
 
 [^4]: [UNESCO, Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal)
 
 [^5]: [Mayurbhanj district destinations](https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places)
 
-[^6]: [Similipal official notices](https://similipal.org/index.php)
+[^6]: [Similipal official notices](https://www.similipal.org/tender/)

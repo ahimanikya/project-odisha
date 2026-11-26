@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "NIAM, Odisha agricultural-marketing study, Sakhigopal profile", "resource": "https://ccsniam.gov.in/images/pdfs/Odisha_Report_Final.pdf"}, {"id": "2", "title": "The New Indian Express, 10 May 2019", "resource": "https://www.newindianexpress.com/states/odisha/2019/May/10/fani-rips-through-coconut-farms-growers-seek-govt-aid-1975005.html"}, {"id": "3", "title": "Shaswata Kundu Chaudhuri, CarbonCopy, 1 May 2026", "resource": "https://carboncopy.studiogradient.design/odisha-shows-the-economic-cost-of-hidden-climate-losses"}, {"id": "4", "title": "Government agricultural-site proposal, Sakhigopal section", "resource": "https://pc.odisha.gov.in/sites/default/files/2025-03/Final%20ATSF%20RFP-PDF_0.pdf"}]
+sources: [{"id": "1", "title": "NIAM archive, Odisha agricultural-marketing study listing", "resource": "https://www.ccsniam.gov.in/index.php/archive"}, {"id": "2", "title": "The New Indian Express, 10 May 2019", "resource": "https://www.newindianexpress.com/states/odisha/2019/May/10/fani-rips-through-coconut-farms-growers-seek-govt-aid-1975005.html"}, {"id": "3", "title": "Shaswata Kundu Chaudhuri, CarbonCopy, 1 May 2026", "resource": "https://carboncopy.studiogradient.design/odisha-shows-the-economic-cost-of-hidden-climate-losses"}, {"id": "4", "title": "Government agricultural-site proposal, Sakhigopal section", "resource": "https://pc.odisha.gov.in/sites/default/files/2025-03/Final%20ATSF%20RFP-PDF_0.pdf"}]
 public_route: "/stories/odisha/sakhigopal-coconuts/"
 original_sha256: "67842a8340ebd816c4bfb7c9faba08c8e6b67a4153869f85111d6c9d916d9b4e"
 ---
@@ -36,7 +36,7 @@ A reopened stall is an early, visible sign of recovery. Rebuilding the supply be
 
 ## Footnotes & Sources
 
-[^1]: [NIAM, Odisha agricultural-marketing study, Sakhigopal profile](https://ccsniam.gov.in/images/pdfs/Odisha_Report_Final.pdf). The original PDF address returned 404 during the November 2026 review; the Sakhigopal profile was checked in indexed text. [NIAM’s archive lists the report](https://www.ccsniam.gov.in/index.php/archive).
+[^1]: [NIAM archive, Odisha agricultural-marketing study listing](https://www.ccsniam.gov.in/index.php/archive). The report download is unavailable; the archive is a catalogue listing, not the report text. The Sakhigopal profile was checked through indexed text during the 25 November 2026 editorial review.
 
 [^2]: [The New Indian Express, 10 May 2019](https://www.newindianexpress.com/states/odisha/2019/May/10/fani-rips-through-coconut-farms-growers-seek-govt-aid-1975005.html)
 

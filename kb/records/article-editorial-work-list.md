@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1422. blocked: 1, completed: 278, excluded: 873, queued: 270.
+Route inventory: 1423. blocked: 1, completed: 278, excluded: 873, queued: 271.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1446,3 +1446,4 @@ Route inventory: 1422. blocked: 1, completed: 278, excluded: 873, queued: 270.
 | POD-EDIT-MAKAR-SANKRANTI | [Makar Sankranti: A Bowl of Rice for the Sun and a Friend](https://projectodisha.org/stories/makar-sankranti/) | queued | article |
 | POD-EDIT-AGIRA-PURNIMA | [Agira Purnima: Which Way Will the Fire Lean?](https://projectodisha.org/stories/agira-purnima/) | queued | article |
 | POD-EDIT-KULA-20261126 | [Kula and the Work of Winnowing](https://projectodisha.org/stories/kula-and-the-work-of-winnowing/) | completed | article |
+| POD-EDIT-DOLA-PURNIMA | [Dola Purnima: When the Village Hears the New Panjika](https://projectodisha.org/stories/dola-purnima/) | queued | article |

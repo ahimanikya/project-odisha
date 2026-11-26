@@ -11,7 +11,7 @@ Research checked for the editorial review on 25 November 2026. Sources below are
 
 “Indexed text” means the relevant passage was returned by search from the named document, even when opening the whole file failed. It is weaker access than reading the full document and is identified below. A successful read during research is not a promise of future link availability. Where facts are supported only by a named person’s account, the article preserves that attribution.
 
-Known link issue: the NIAM PDF for Sakhigopal returned 404, although its detailed profile remains indexed and the report is listed in [NIAM’s archive](https://www.ccsniam.gov.in/index.php/archive). The original citation is retained for precise identification; the archive is a fallback catalogue, not a substitute text of the profile.
+Link issue recorded on 25 November 2026: the NIAM PDF for Sakhigopal returned 404, although its detailed profile was available through indexed text and the report was listed in [NIAM’s archive](https://www.ccsniam.gov.in/index.php/archive). The active citation now links to that fallback catalogue; it is not a substitute text of the profile. See the dated link-repair note below.
 
 [Publication index](index.md) · [Editorial decisions](editorial-review.md)
 
@@ -68,7 +68,7 @@ The relevant Reference Annual passage was accessible through indexing; full-docu
 
 The NIAM report’s detailed Sakhigopal profile was checked through indexed text; the old PDF address returned 404 when opened. NIAM’s accessible archive still lists the report. The crop-site proposal was checked through indexing. CarbonCopy was read at its returned host; only named traders’ observations are used, not its unsupported causal assertions.
 
-- [NIAM, Odisha agricultural-marketing study, Sakhigopal profile](https://ccsniam.gov.in/images/pdfs/Odisha_Report_Final.pdf)
+- [NIAM archive, Odisha agricultural-marketing study listing](https://www.ccsniam.gov.in/index.php/archive)
 - [The New Indian Express, 10 May 2019](https://www.newindianexpress.com/states/odisha/2019/May/10/fani-rips-through-coconut-farms-growers-seek-govt-aid-1975005.html)
 - [Shaswata Kundu Chaudhuri, CarbonCopy, 1 May 2026](https://carboncopy.studiogradient.design/odisha-shows-the-economic-cost-of-hidden-climate-losses)
 - [Government agricultural-site proposal, Sakhigopal section](https://pc.odisha.gov.in/sites/default/files/2025-03/Final%20ATSF%20RFP-PDF_0.pdf)
@@ -93,7 +93,7 @@ The district document was read and the Manikgarh/lion passage rechecked. Utkal H
 The India Water Week paper was opened and its backwater discussion checked. The paper’s authors state personal views; it is a technical analysis, not an official finding about a disputed dam. Tourism and contemporary flood reporting support separate claims.
 
 - [Odisha Tourism, Mugi Point](https://odishatourism.gov.in/en/places/mugi-point-malkangiri)
-- [India Water Week paper, section 10](https://indiawaterweek.in/IWW8_PaperFiles/WC-16/IWW8-SPD07_2-PAP-3-7307.pdf)
+- [India Water Week 2024 proceedings listing, printed p. 162](https://indiawaterweek.in/assets/pdfs/iiww2024p.pdf)
 - [PTI report, 16 July 2022](https://www.asianage.com/india/all-india/160722/swelling-godavari-river-inundates-villages-in-odisha-district-several-evacuated.html)
 
 ## 11. Patrapada’s garden of named plants
@@ -164,10 +164,10 @@ The waterfall and official-notice pages were opened. The district survey, conser
 
 - [Similipal’s waterfall account](https://www.similipal.org/barehipani-joranda-waterfalls/)
 - [Balasore district survey, river system](https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf)
-- [Similipal Tiger Conservation Plan 2023–24 to 2033–34](https://www.similipal.org/images/publication/TIGER-CONSERVATION-PLAN-2023-24-2033-34.pdf)
+- [Similipal Tiger Conservation Plan 2023–24 to 2033–34, Vol. I, Part I: Core Area Plan, printed pp. 14–15](https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf)
 - [UNESCO, Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal)
 - [Mayurbhanj district destinations](https://mayurbhanj.odisha.gov.in/en/tourism/tourist-places)
-- [Similipal official notices](https://similipal.org/index.php)
+- [Similipal official notices](https://www.similipal.org/tender/)
 
 ## 19. Gundichaghagi and Ghatagaon’s river landscape
 
@@ -243,3 +243,13 @@ The food writer’s account, district proposal and September 2026 news report we
 - [Sangram Keshari Senapati, 15 October 2020](https://www.gapuphotography.com/2020/10/famous-kakara-pitha-in-odisha.html)
 - [Jajpur tourism proposal, November 2022](https://jajpur.odisha.gov.in/sites/default/files/2023-06/2022111838.pdf)
 - [Ashis Senapati, *The Times of India*, 22 September 2026](https://timesofindia.indiatimes.com/city/bhubaneswar/eviction-drive-along-nh-16-to-remove-encroachments/articleshow/134412752.cms)
+
+
+## Link repairs · 26 November 2026
+
+The live-site review found four unavailable source targets in three articles. Active footnote links and their matching metadata resources were repaired sequentially: Sakhigopal, Motu, then Similipal. Narrative paragraphs, images, captions, source identifiers and historical `original_sha256` values remain unchanged. The access descriptions above retain the basis of the 25 November editorial review; this link repair does not claim that every original source or every article claim was independently reverified.
+
+- **Sakhigopal, note 1:** the [NIAM archive](https://www.ccsniam.gov.in/index.php/archive) lists the Odisha agricultural-marketing study. Its report download remains unavailable. The footnote expressly distinguishes that catalogue listing from the profile text checked through indexing in the prior review.
+- **Motu, notes 2 and 4:** the [publisher’s 2024 proceedings, printed p. 162](https://indiawaterweek.in/assets/pdfs/iiww2024p.pdf), lists P. Devender Rao and M. L. Franklin’s *Challenges in Management of Floods*. The full paper’s former target was unavailable in the current check. Section 10 and the July 2022 backwater discussion remain the original citation contexts; the replacement listing identifies the publication and does not independently supply those passages.
+- **Similipal, note 3:** the official reports catalogue identifies the [Core Area Plan, Vol. I, Part I](https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf). Printed pp. 14–15 (PDF pages 8–9) were checked for the existing watershed list and environmental contrasts, including Table 1.c. This is a direct replacement document, not a general landing page.
+- **Similipal, note 6:** the current [official notices page](https://www.similipal.org/tender/) replaces the unavailable `index.php` target. No current opening date or visitor-access guarantee was added.

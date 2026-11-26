@@ -10964,6 +10964,28 @@
       "evidence": [
         "records/kula-publication-20261126.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261126030",
+      "title": "Review27 live articles on desktop and mobile and repair dead sources",
+      "category": "editorial_maintenance",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Coordinating assistant with separate source, implementation and quality agents"
+      },
+      "authorization": "POD-DEC-20261126030",
+      "next_action": "Complete independent review, required checks, approved publication and live receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126030",
+        "POD-REV-20261126030"
+      ],
+      "evidence": [
+        "records/independent-articles-live-review-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16685,6 +16707,20 @@
       ],
       "evidence": [
         "records/kula-publication-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126030",
+      "title": "Review and fix images captions layout and links in27 live articles",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Review all 27 articles on the live website for image suitability, captions and layout on desktop and mobile. Fix any awkward cropping, broken links or missing credits.",
+      "scope": "Existing 27-article collection; bounded live fixes and library synchronization under prior live publication authorization.",
+      "evidence": [
+        "records/independent-articles-live-review-20261126.json"
       ]
     }
   ],
@@ -26637,6 +26673,24 @@
         "records/olasuni-publication-20261126.json"
       ],
       "summary": "Separate source/media/code/rendered/package/exact-commit and fresh delivery reviews passed. Actual five-route/33-image review and11root screenshots inspected. Four encodings measured and visually accepted; raw differences and framing limits retained. Not human specialist or field approval."
+    },
+    {
+      "id": "POD-REV-20261126030",
+      "title": "Independent image suitability and source-link repair review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Separate article_integration_review agent, with source checks by article_image_research_b"
+      },
+      "refs": [
+        "POD-WORK-20261126030",
+        "POD-DEC-20261126030"
+      ],
+      "evidence": [
+        "records/independent-articles-live-review-20261126.json"
+      ],
+      "independent": true,
+      "summary": "All27 image/caption choices suitable. Desktop/mobile browser review found no crop/layout/credit defect. Four confirmed404 targets repaired in five footnotes of three articles; narratives and images unchanged. Listing-only limits explicit. Required CI and publication pending; no human-specialist review claimed."
     },
     {
       "id": "POD-REV-20261126302",

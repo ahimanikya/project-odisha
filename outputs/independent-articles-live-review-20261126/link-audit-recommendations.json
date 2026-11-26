@@ -1,0 +1,261 @@
+{
+  "checked_at": "2026-11-25T23:33:11.372463+00:00",
+  "reviewer": "article_image_research_b",
+  "scope": "27 live articles, collection, Explore, all 49 manifest assets, all image-source/licence links and 110 article-footnote-link occurrences",
+  "site_result": "29 pages returned 200; 49 assets returned 200 with matching SHA256; 9 original GitHub source URLs returned 200. Caption, source, creator, licence, modification text and expected OG/Twitter images present. All 109 footnotes and 110 external-link occurrences preserved.",
+  "external_summary": {
+    "access_restricted": 3,
+    "confirmed_http_404": 4,
+    "reachable": 103,
+    "transport_error": 9
+  },
+  "external_distinct_targets": 119,
+  "commons_normalized_urls": 18,
+  "creative_commons_urls": 6,
+  "all_image_credit_and_licence_links_reachable": true,
+  "existing_mandasaru_internal_source_status": 200,
+  "confirmed_repairs": [
+    {
+      "article": "sakhigopal-coconuts",
+      "old_url": "https://ccsniam.gov.in/images/pdfs/Odisha_Report_Final.pdf",
+      "observed_status": 404,
+      "replacement_url": "https://www.ccsniam.gov.in/index.php/archive",
+      "replacement_status": 200,
+      "repair_type": "publisher_archive_with_unavailable_download_note",
+      "document_identity": "Odisha—Linking Farmers to Electronic Markets (ENAM): Current Scenario and a Way Forward",
+      "evidence": "NIAM archive lists this title as a plain-text archive entry. Original PDF remains indexed but direct GET returns 404. No replacement full PDF verified.",
+      "suggested_note": "The original report download is currently unavailable; NIAM’s archive lists the report. The Sakhigopal profile was checked in indexed text during the earlier review.",
+      "claim_change_required": false
+    },
+    {
+      "article": "motu-mugi-point",
+      "old_url": "https://indiawaterweek.in/IWW8_PaperFiles/WC-16/IWW8-SPD07_2-PAP-3-7307.pdf",
+      "observed_status": 404,
+      "replacement_url": "https://indiawaterweek.in/iww-2024",
+      "replacement_status": 200,
+      "additional_verified_url": "https://indiawaterweek.in/assets/pdfs/iiww2024p.pdf",
+      "additional_verified_status": 200,
+      "repair_type": "publisher_proceedings_index_with_unavailable_full_paper_note",
+      "document_identity": "P. Devender Rao and M. L. Franklin, Challenges in Management of Floods, 8th India Water Week, 2024; original full paper section 10.",
+      "evidence": "Official2024 event page directly links accessible proceedings PDF. Proceedings listing identifies exact title/authors at printed page 162. Cached web-reader original is21 pages and retains full paper, but direct public original GET returns 404. Proceedings listing is not represented as the full paper or proof of detailed section 10 claims.",
+      "suggested_note": "The full-paper download is currently unavailable. The publisher’s 2024 proceedings list the paper; section 10 of the previously reviewed full paper supports this passage.",
+      "claim_change_required": false
+    },
+    {
+      "article": "similipal-waterfalls",
+      "old_url": "https://www.similipal.org/images/publication/TIGER-CONSERVATION-PLAN-2023-24-2033-34.pdf",
+      "observed_status": 404,
+      "replacement_url": "https://cdn.live.aio.in/similipal/1310/49ac2485-20ef-43fa-9cfc-f1061719bdef.pdf",
+      "replacement_status": 200,
+      "additional_verified_url": "https://similipal.org/reports/",
+      "additional_verified_status": 200,
+      "repair_type": "exact_relocated_publisher_pdf",
+      "document_identity": "Tiger Conservation Plan (2023/24 to 2033/34), Vol. I, Part-I: Core Area Plan",
+      "locator": "Printed pp. 14–15 / PDF pages 8–9 (276-page file)",
+      "evidence": "Official /reports/ page script identifies public catalogue endpoint https://similipalapi.live.aio.in/api/public/tenders?category=Reports ; catalogue 200 names exact volume and CDN file. HEAD 200 application/pdf, 4,426,549 bytes; full GET and native macOS PDFKit extraction succeeded. Pages 8–9 directly contain the seven listed rivers and altitude/rainfall/temperature/frost-valley discussion.",
+      "verified_claims": [
+        "Budhabalanga,Khairi,Bhandan,WestDeo,Khadkei,Sanjo,Palpala as watershed rivers",
+        "Differences in altitude,rainfall and temperature, including frost valleys"
+      ],
+      "claim_change_required": false
+    },
+    {
+      "article": "similipal-waterfalls",
+      "old_url": "https://similipal.org/index.php",
+      "observed_status": 404,
+      "replacement_url": "https://www.similipal.org/tender/",
+      "replacement_status": 200,
+      "repair_type": "current_publisher_notices_listing",
+      "document_identity": "Notices, Tenders & Latest News",
+      "evidence": "Direct GET 200; indexed listing contains dated tourist opening and seasonal/temporary closure notices. Appropriate for existing advice to consult current notices; no travel date or opening rule added.",
+      "claim_change_required": false
+    }
+  ],
+  "unresolved_access_limits": [
+    {
+      "url": "https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia",
+      "references": [
+        {
+          "original_url": "https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia",
+          "context": "mandasaru:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:33.496433+00:00",
+      "http_status": 403,
+      "final_url": "https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 28937,
+      "retry_after": null,
+      "title": "Page Not Accessible | Odisha District",
+      "classification": "access_restricted",
+      "elapsed_seconds": 0.61
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/ora-2014.pdf",
+      "references": [
+        {
+          "original_url": "https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/ora-2014.pdf",
+          "context": "dhemsa:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:35.839189+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>",
+      "elapsed_seconds": 0.22
+    },
+    {
+      "url": "https://www.researchgate.net/publication/27666817_Monsoon_wind_and_maritime_trade_A_case_study_of_historical_evidence_from_Orissa_India",
+      "references": [
+        {
+          "original_url": "https://www.researchgate.net/publication/27666817_Monsoon_wind_and_maritime_trade_A_case_study_of_historical_evidence_from_Orissa_India",
+          "context": "bali-jatra:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:39.438669+00:00",
+      "http_status": 403,
+      "final_url": "https://www.researchgate.net/publication/27666817_Monsoon_wind_and_maritime_trade_A_case_study_of_historical_evidence_from_Orissa_India",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 21291,
+      "retry_after": null,
+      "title": "ResearchGate - Temporarily Unavailable",
+      "classification": "access_restricted",
+      "elapsed_seconds": 0.12
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "references": [
+        {
+          "original_url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+          "context": "raja:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:39.594302+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>",
+      "elapsed_seconds": 0.13
+    },
+    {
+      "url": "https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "references": [
+        {
+          "original_url": "https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+          "context": "similipal-waterfalls:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:41.487901+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://www.unesco.org/en/mab/similipal",
+      "references": [
+        {
+          "original_url": "https://www.unesco.org/en/mab/similipal",
+          "context": "similipal-waterfalls:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:43.132549+00:00",
+      "classification": "transport_error",
+      "error": "[Errno 54] Connection reset by peer",
+      "elapsed_seconds": 0.73
+    },
+    {
+      "url": "https://www.utsav.gov.in/view-event/raja-mahotsav",
+      "references": [
+        {
+          "original_url": "https://www.utsav.gov.in/view-event/raja-mahotsav",
+          "context": "raja:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:39.692168+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>",
+      "elapsed_seconds": 6.2
+    },
+    {
+      "url": "https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "references": [
+        {
+          "original_url": "https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+          "context": "cyclone-dana:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:46.145636+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)>",
+      "elapsed_seconds": 0.17
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+      "references": [
+        {
+          "original_url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+          "context": "bande-utkala-janani:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:46.371395+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>",
+      "elapsed_seconds": 0.12
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/Aug2006/engpdf/43-47.pdf",
+      "references": [
+        {
+          "original_url": "https://magazines.odisha.gov.in/Orissareview/Aug2006/engpdf/43-47.pdf",
+          "context": "bande-utkala-janani:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:46.494396+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>",
+      "elapsed_seconds": 0.12
+    },
+    {
+      "url": "https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+      "references": [
+        {
+          "original_url": "https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+          "context": "coastal-shell-craft:article-footnote"
+        },
+        {
+          "original_url": "https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+          "context": "coastal-shell-craft:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:48.150945+00:00",
+      "http_status": 403,
+      "final_url": "https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 5927,
+      "retry_after": null,
+      "title": "Just a moment...",
+      "classification": "access_restricted",
+      "elapsed_seconds": 0.11
+    },
+    {
+      "url": "https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "references": [
+        {
+          "original_url": "https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+          "context": "coastal-shell-craft:article-footnote"
+        }
+      ],
+      "checked_at": "2026-11-25T23:24:48.516789+00:00",
+      "classification": "transport_error",
+      "error": "<urlopen error [Errno 61] Connection refused>",
+      "elapsed_seconds": 0.08
+    }
+  ],
+  "access_limit_policy": "403/challenge, TLS expiry, DNS, handshake, reset and connection-refusal errors are reported separately and do not prove missing documents. Do not remove or replace factual sources solely because automated access failed. No mass retries performed.",
+  "rejected_replacement": "https://similipal.org/publication/ has placeholder # Download PDF anchors; do not cite as downloadable exactTCP.",
+  "evidence_files": [
+    "link-audit-site.json",
+    "link-audit-external.json",
+    "link-audit-local-source.json",
+    "link-audit-replacement-checks.json",
+    "link-audit-discovery.json"
+  ],
+  "mutations": "No site, manuscript, shared-register or Git changes. Only delegated audit scripts/reports created."
+}
