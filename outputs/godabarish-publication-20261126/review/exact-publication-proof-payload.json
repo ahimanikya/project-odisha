@@ -1,0 +1,85 @@
+{
+  "kind": "structured evidence payload archive",
+  "reason": "Required independent APFS copy failed EPERM. Original remains untouched; no full-copy fallback. This archive preserves exact payload bytes and recorded metadata, not filesystem identity.",
+  "copy_failure": {
+    "exit": 1,
+    "error": "Operation not permitted on temporary .cow-copy destination"
+  },
+  "source": "/private/tmp/godabarish-publication-exact-review.json",
+  "sha256": "ce23bcfee4dbfe22d80efc7cd21ffedef543b57e93f4494d578a2ecbcf7e5f70",
+  "bytes": 5174,
+  "metadata": {
+    "uid": 501,
+    "gid": 0,
+    "mode": "0o100644",
+    "mtime_ns": 1795717203335896755
+  },
+  "base64": "ewogICJzdGF0dXMiOiAiUEFTU19FWEFDVF9DT01NSVRURURfQ0FORElEQVRFIiwKICAicmV2aWV3ZXIiOiAiRHJpc2h0aSwgc2VwYXJhdGUgQUkgcmV2aWV3ZXIiLAogICJyZXZpZXdlZF9hdF91dGMiOiAiMjAyNi0xMS0yNlQxODoyMDowMy4yMzY3OTkrMDA6MDAiLAogICJjb21taXQiOiAiNDQ2NmFlMTZjMGI4NGI4YTU2Yzc3ZDc4MjQyOGI5MDU2NDRlMmRkOCIsCiAgInRyZWUiOiAiZDQ2YjliNmY3MGJiZDFjNzRiZmQ1NDEwZjM3OGI3ZmYwOTk1Yzg2NSIsCiAgInBhcmVudCI6ICJjZTNjNTRmMjNlODA2OWQwNDIyYmFiZWNjYjc0ZDY5MGFiZTc0MDZiIiwKICAiY2hhbmdlZF9maWxlcyI6IDgyLAogICJjbGVhbl9jaGVja291dCI6IHRydWUsCiAgImNoZWNrcyI6IHsKICAgICJmcm96ZW5fYnVpbGRfaW5wdXRzIjogewogICAgICAiY291bnQiOiAxMywKICAgICAgIm1pc21hdGNoZXMiOiBbXQogICAgfSwKICAgICJwcm90ZWN0ZWRfcHJlcGFyYXRpb24iOiB7CiAgICAgICJjb3VudCI6IDExMywKICAgICAgIm1pc21hdGNoZXMiOiBbXQogICAgfSwKICAgICJzdGF0aWNfcHVibGljX2hhc2hlcyI6ICJBbGwgY29tbWl0dGVkIHB1YmxpYy9jb2RlL2VkaXRpb24vdGVzdC9pbnZlbnRvcnkgaGFzaGVzIG1hdGNoIHRoZSBzdGF0aWMgcmV2aWV3LiBDYW5vbmljYWwgbWFudXNjcmlwdCBhbmQgb3JpZ2luYWxzIHByZXNlcnZlZC4iLAogICAgInJldmlld2VkX2V2aWRlbmNlIjogIkFsbCBib3VuZCBmaW5hbC1wYWNrYWdlIGV2aWRlbmNlIG1hdGNoZXMgZXhjZXB0IHRoZSBleHBlY3RlZCBjYW5vbmljYWwgcmVjZWlwdCBhbmQgb3BlcmF0aW9ucyB1cGRhdGVzLiBFeGlzdGluZyBzb3VyY2UsIGNhcGFjaXR5LCByZW5kZXJlZCBhbmQgZmluYWwtcGFja2FnZSByZXBvcnQgbGlua3MvaGFzaGVzIG1hdGNoIGFjdHVhbCBjb21taXR0ZWQgcmVwb3J0cy4iLAogICAgImV4cGVjdGVkX3JlY29yZF91cGRhdGVzIjogIkNhbm9uaWNhbCBub3cgcmVjb3JkcyBjb21wbGV0ZWQgbG9jYWwgcmV2aWV3LDI2MGFydGlmYWN0IGNoZWNrcywgdGhlIGFjdHVhbCBmaW5hbC1wYWNrYWdlIHJlcG9ydCBoYXNoIGFuZCBwZW5kaW5nIGhvc3RlZC9kZXBsb3ltZW50IGdhdGVzLiBPcGVyYXRpb25zIHBoYXNlIGhvc3RlZF92YWxpZGF0aW9uLHN0YXR1cyBpbl9wcm9ncmVzcyxzY29wZSBoZWxkLiBObyBwdWJsaWNhdGlvbiBvciByZWxlYXNlIGNsYWltZWQuIiwKICAgICJmb3JlaWduX293bmVyc2hpcCI6ICJjdXJyZW50X3Rhc2ssaGFuZG9mZl9ob21lIGFuZCBpbmhlcml0ZWQgY3VycmVudF9wcmVwYXJhdGlvbiBlcXVhbCBiYXNlbGluZS4iLAogICAgInJlZ2lzdGVyX2NoZWNrIjogIkluZGVwZW5kZW50bHkgcmFuIHB5dGhvbjMgdG9vbHMvcmVnaXN0ZXJzLnB5IC0tY2hlY2s6IHZhbGlkMTQ0OXJlY29yZHMsOTAzZXZlbnRzLGRhc2hib2FyZCBjdXJyZW50LiIsCiAgICAid2hpdGVzcGFjZSI6ICJJbmRlcGVuZGVudGx5IHJhbiBjb21taXR0ZWQgYWdncmVnYXRlIGdpdCBkaWZmIC0tY2hlY2sgZXhjbHVkaW5nIG9ubHkgdGhlIHRocmVlIHJlY29yZGVkIHJhdyBjYXB0dXJlczsgUEFTUy4gUmF3IHdoaXRlc3BhY2UgaXMgcmV0YWluZWQgaW4gdGhlIHR3byBidWlsZCBsb2dzIGFuZCBjYXB0dXJlZCBndWlkYW5jZSwgbm90IG5vcm1hbGl6ZWQuIgogIH0sCiAgInJhd193aGl0ZXNwYWNlX2V4Y2VwdGlvbnNfc2hhMjU2IjogewogICAgIm91dHB1dHMvZ29kYWJhcmlzaC1wdWJsaWNhdGlvbi0yMDI2MTEyNi9jaGVja3MvY29hc3QtYnVpbGQubG9nIjogIjQ4MjZiNGExYWU5NTI2MzNkM2I5ZjUwZWRmYjU3ZjYwYmFiNDYxNmJiMzZkNzJiN2ZlNjU3OTFkM2QyYWM4NDIiLAogICAgIm91dHB1dHMvZ29kYWJhcmlzaC1wdWJsaWNhdGlvbi0yMDI2MTEyNi9jaGVja3MvZnVsbC1idWlsZC5sb2ciOiAiMmEzNDc5YTQyMTdjY2ZhZDg2ODY4YTZmODFiZmEyY2E3ZWYzYzY4YjRiYWVhYjRjY2Q1MDc0ZmEwMzU5YTQzOCIsCiAgICAib3V0cHV0cy9nb2RhYmFyaXNoLXB1YmxpY2F0aW9uLTIwMjYxMTI2L3dlYi1ndWlkYW5jZS50eHQiOiAiMzAyM2M2ZjFjZTNlZDU0NThiNjM1MGRjYTM2NTRhZmQwYjVmYzczM2E5ZmVjN2JmYzBlOTFiNjQ4NDQzMmZjNiIKICB9LAogICJmaW5hbF9wYWNrYWdlX3JldmlldyI6IHsKICAgICJwYXRoIjogIm91dHB1dHMvZ29kYWJhcmlzaC1wdWJsaWNhdGlvbi0yMDI2MTEyNi9yZXZpZXcvZmluYWwtcGFja2FnZS1yZXZpZXcuanNvbiIsCiAgICAic2hhMjU2IjogIjgwNWYxYjY4NjcyMjc0MDIxNjk4ZDM1YTBjYzQzYTFjOTRjNTBiYzIzOWYyM2IwNThlMzE0ZmIzOTI3N2M0ZTAiCiAgfSwKICAic291cmNlX3NoYTI1NiI6IHsKICAgICJrYi9yZXNlYXJjaC9wZW9wbGUvZ29kYWJhcmlzaC1tYWhhcGF0cmEtYW5kLW5pYW5raHVudGEubWQiOiAiMzkxOGM0NTU0NzJjODE5OGJlNzFlN2Y3Mjk0MzQ3YzQxNDBlOGQxYTM2MThhYjE1N2VlYWU5M2YwNjMyYjc5YyIsCiAgICAicHJvamVjdHMvc2l0ZS9lZGl0aW9ucy9jb2FzdC5qc29uIjogIjYxZjVjMDY5MTMxM2Y4NWFmOWRlMzgyY2QxNTFjZWJiOTc5Njg3NGY2ZDNiNTIzMjZlNzc2OTVjMjRmZTIwYTUiLAogICAgInByb2plY3RzL3NpdGUvZWRpdGlvbnMvc2VhcmNoLWNhbmRpZGF0ZS5qc29uIjogIjVmMWRiYWQxMzE2NWYyN2IyMmFlMzZjYmM0OWJiZmY1N2Q4Y2NiMzk5ZDljYjlmMjFmMmExYzg4N2MzMzZkMmYiLAogICAgInByb2plY3RzL3NpdGUvcHVibGljL2ltYWdlcy9zdG9yaWVzL2dvZGFiYXJpc2gtbmlhbmtodW50YS00ODAud2VicCI6ICIwZTVmNzdmYWQyYjljYzNkNTAyMDcwYzUzZjMwNmQxNzBhNTFjMjMxMjgyYjY1MTQ1ODYxYjcyZmM3YWZmYzkxIiwKICAgICJwcm9qZWN0cy9zaXRlL3B1YmxpYy9pbWFnZXMvc3Rvcmllcy9nb2RhYmFyaXNoLW5pYW5raHVudGEud2VicCI6ICIxMjYzMGVlOGU3MTcyYWZlMmQ2ODI5NTI3ZTU5YjM1YTU2YjMwYTY1OTJiZTg4M2QyNmI3YjQyMDQ1ZjU1ZmM3IiwKICAgICJwcm9qZWN0cy9zaXRlL3NyYy9wYWdlcy9saXRlcmF0dXJlL2JpcmFraXNob3JlLWRhcy5hc3RybyI6ICIyMzBkMjEyNzRhZDQ1MWE0ZGRhMjU4YzkxZjAzNTE5ZDUyMmEzNDg2YzdhMWY1YTU3NzkyMWQ4Nzg4NWY1ZjVhIiwKICAgICJwcm9qZWN0cy9zaXRlL3NyYy9wYWdlcy9saXRlcmF0dXJlL2luZGV4LmFzdHJvIjogIjZhNjQ2ODViMzFlNGJiNGNhYzhmNzJmNjdhYmFjOGMwMDQ2YzMzMzAyMjA3NjU3YmZkYjIxZGE1ZmUyNTVmZDYiLAogICAgInByb2plY3RzL3NpdGUvc3JjL3BhZ2VzL3N0b3JpZXMvZ29kYWJhcmlzaC1tYWhhcGF0cmEtYW5kLW5pYW5raHVudGEuYXN0cm8iOiAiYTgyYTk5NmI2MGQ1NTRmM2ZiZTgxODRlMjU1MDAwOWZlNDhkZDdhN2FiMDdhYjEwNmRhZGQ0ZWQ1MTFlYTRhNSIsCiAgICAicHJvamVjdHMvc2l0ZS9zcmMvcGFnZXMvc3Rvcmllcy9vZGlhLWxpdGVyYXR1cmUtcHJlc2VydmF0aW9uLmFzdHJvIjogIjlkYTY1ZGIyNDE3YzY2ZjA0YWViN2YzMmY0ZjlhZGVkZDg3MmZiMTI5MzU5Yzc2MjQ2MTgwZDc1NmYyZmQ3MDciLAogICAgInByb2plY3RzL3NpdGUvdGVzdHMtY29hc3QvbGl0ZXJhdHVyZS1lZGl0b3JpYWwudGVzdC5tanMiOiAiY2MyOThhYTFmYTE3NmMyZGIyYzBmNDhhMmZiMTI2ZWZkZGZkOWI5OWE1MDdmZjEwNmM3ZTljMTY5NTQ2NDIwMiIsCiAgICAicHJvamVjdHMvc2l0ZS90ZXN0cy9idWlsZC50ZXN0Lm1qcyI6ICIwMDM4ODdjN2NiNGM0MGU2OTcwYzFmZmQ2YjVkYWIwNGZmYmE1NzVlMzU3YjNhNjE3YzAxZmE0ZjRlMmIzZWM0IiwKICAgICJwcm9qZWN0cy9zaXRlL3Rlc3RzL3B1YmxpY2F0aW9uLWpwZWcudGVzdC5tanMiOiAiNmE3NTMwNWI0OWYwNzQ5YTE3ZmMyZjE1ZTU5NTM2OWY3NzRhMWY4ZDMxMDgwYjgzZjRlNGFiODJiZWVlNTM2NCIsCiAgICAicHJvamVjdHMvc2l0ZS90b29scy9vcHRpbWl6ZS1wdWJsaWNhdGlvbi1qcGVnLm1qcyI6ICJmNzQ1MzZiZTVjMzBkNWQ5Y2Y1ODM0MWQxMzNiODIwZmFhMTY2MWIwZDNmYjc3NWVkMWQyMTk1NzllNzIzNzM5IgogIH0sCiAgInJlY29yZF9zaGEyNTYiOiB7CiAgICAia2IvcmVjb3Jkcy9nb2RhYmFyaXNoLXB1YmxpY2F0aW9uLTIwMjYxMTI2Lmpzb24iOiAiNzFjN2FiNmNkNjA1YWI4NjIyODY3MzQ3ZjFmMTFlMzA3N2Y3ZDIyNDkyODUzYjQyZjNjZjZkZGUwOWM4MDI1MiIsCiAgICAia2IvdGVhbS9vcGVyYXRpb25zLmpzb24iOiAiNzFkYzlkNDdkOWJkNjg5ZTEzZWMyYzYyMjJhOTViNWU2OTJjYzIwYjMzMDA3MGQzNTUyNmY1OWZmYmM1YWY3YiIsCiAgICAib3V0cHV0cy9nb2RhYmFyaXNoLXB1YmxpY2F0aW9uLTIwMjYxMTI2L3Jhdy1ldmlkZW5jZS13aGl0ZXNwYWNlLmpzb24iOiAiN2M2NDVjYzY0MGNhYWZmNjI5ZmQ1NzBiYzRmOTMzOTg3MmRmYWU1M2EyNmM1MDJkOTRiZTkzMzg4MTJjY2Q3YyIKICB9LAogICJsaW1pdHMiOiBbCiAgICAiQWN0dWFsIGxvY2FsOTk5MDg4MTExYnl0ZXMvMzc5M2ZpbGVzIGFuZDg0Ny82MDV0ZXN0cyByZW1haW4gbG9jYWwgZXZpZGVuY2U7IGV4YWN0LWhlYWQgaG9zdGVkIExpbnV4IENJIGlzIHJlcXVpcmVkIGJlZm9yZSBtZXJnZS4iLAogICAgIkZpbmFsIFBhbmNoYWxpbmdlc3dhciBicm93c2VyLXBhZ2UgY2FwdHVyZSByZW1haW5zIHVuYXZhaWxhYmxlOyBhcHByb3ZlZCBhY3R1YWwgSlBFRyBhbmQgY2FwdGlvbi1vbmx5IEhUTUwgcmV2aWV3ZWQgd2l0aCB1bmNoYW5nZWQgZ2VvbWV0cnkuIE5vIGxpdmUgYWNjZXB0YW5jZS4iLAogICAgIkdvdmVybm1lbnQgUERGIG9yZGluYXJ5IEhUVFBTIGFjY2VzcyBsaW1pdGF0aW9uIHJldGFpbmVkLiBCcm93c2VyIGludGVyYWN0aW9ucyBhdHRyaWJ1dGVkIHRvIHJvb3QsIG5vdCByZXZpZXdlci4iLAogICAgIk5vIHJlcG9zaXRvcnkgd3JpdGVzLCBHaXQgbXV0YXRpb24sIGJ1aWxkIG9yIHB1YmxpY2F0aW9uIHBlcmZvcm1lZCBkdXJpbmcgdGhpcyBleGFjdC1jb21taXQgcmV2aWV3LiIKICBdLAogICJibG9ja2VycyI6IFtdLAogICJuZXh0X2dhdGVzIjogWwogICAgIlJlcXVpcmVkIGV4YWN0LWhlYWQgaG9zdGVkIENJIHN1Y2Nlc3MiLAogICAgIlB1YmxpY2F0aW9uIGFuZCBzZXBhcmF0ZSBhY3R1YWwgbGl2ZSBkZWxpdmVyeSByZXZpZXciLAogICAgIkV2aWRlbmNlLW9ubHkgcmVjZWlwdCByZXZpZXcgYW5kIGFjdHVhbCByZWNlaXB0IG1lcmdlIGJlZm9yZSByZWxlYXNlIgogIF0KfQo=",
+  "parsed": {
+    "status": "PASS_EXACT_COMMITTED_CANDIDATE",
+    "reviewer": "Drishti, separate AI reviewer",
+    "reviewed_at_utc": "2026-11-26T18:20:03.236799+00:00",
+    "commit": "4466ae16c0b84b8a56c77d782428b905644e2dd8",
+    "tree": "d46b9b6f70bbd1c74bfd5410f378b7ff0995c865",
+    "parent": "ce3c54f23e8069d0422babeccb74d690abe7406b",
+    "changed_files": 82,
+    "clean_checkout": true,
+    "checks": {
+      "frozen_build_inputs": {
+        "count": 13,
+        "mismatches": []
+      },
+      "protected_preparation": {
+        "count": 113,
+        "mismatches": []
+      },
+      "static_public_hashes": "All committed public/code/edition/test/inventory hashes match the static review. Canonical manuscript and originals preserved.",
+      "reviewed_evidence": "All bound final-package evidence matches except the expected canonical receipt and operations updates. Existing source, capacity, rendered and final-package report links/hashes match actual committed reports.",
+      "expected_record_updates": "Canonical now records completed local review,260artifact checks, the actual final-package report hash and pending hosted/deployment gates. Operations phase hosted_validation,status in_progress,scope held. No publication or release claimed.",
+      "foreign_ownership": "current_task,handoff_home and inherited current_preparation equal baseline.",
+      "register_check": "Independently ran python3 tools/registers.py --check: valid1449records,903events,dashboard current.",
+      "whitespace": "Independently ran committed aggregate git diff --check excluding only the three recorded raw captures; PASS. Raw whitespace is retained in the two build logs and captured guidance, not normalized."
+    },
+    "raw_whitespace_exceptions_sha256": {
+      "outputs/godabarish-publication-20261126/checks/coast-build.log": "4826b4a1ae952633d3b9f50edfb57f60bab4616bb36d72b7fe65791d3d2ac842",
+      "outputs/godabarish-publication-20261126/checks/full-build.log": "2a3479a4217ccfad86868a6f81bfa2ca7ef3c68b4baeab4ccd5074fa0359a438",
+      "outputs/godabarish-publication-20261126/web-guidance.txt": "3023c6f1ce3ed5458b6350dca3654afd0b5fc733a9fec7bfc0e91b6484432fc6"
+    },
+    "final_package_review": {
+      "path": "outputs/godabarish-publication-20261126/review/final-package-review.json",
+      "sha256": "805f1b68672274021698d35a0cc43a1c94c50bc239f23b058e314fb39277c4e0"
+    },
+    "source_sha256": {
+      "kb/research/people/godabarish-mahapatra-and-niankhunta.md": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+      "projects/site/editions/coast.json": "61f5c0691313f85af9de382cd151cebb9796874f6d3b52326e77695c24fe20a5",
+      "projects/site/editions/search-candidate.json": "5f1dbad13165f27b22ae36cbc49bbff57d8ccb399d9cb9f21f2a1c887c336d2f",
+      "projects/site/public/images/stories/godabarish-niankhunta-480.webp": "0e5f77fad2b9cc3d502070c53f306d170a51c231282b65145861b72fc7affc91",
+      "projects/site/public/images/stories/godabarish-niankhunta.webp": "12630ee8e7172afe2d6829527e59b35a56b30a6592be883d26b7b42045f55fc7",
+      "projects/site/src/pages/literature/birakishore-das.astro": "230d21274ad451a4dda258c91f03519d522a3486c7a1f5a577921d87885f5f5a",
+      "projects/site/src/pages/literature/index.astro": "6a64685b31e4bb4cac8f72f67abac8c0046c33302207657bfdb21da5fe255fd6",
+      "projects/site/src/pages/stories/godabarish-mahapatra-and-niankhunta.astro": "a82a996b60d554f3fbe8184e2550009fe48dd7a7ab07ab106dadd4ed511ea4a5",
+      "projects/site/src/pages/stories/odia-literature-preservation.astro": "9da65db2417c66f04aeb7f32f4f9adedd872fb129359c76246180d756f2fd707",
+      "projects/site/tests-coast/literature-editorial.test.mjs": "cc298aa1fa176c2db2c0f48a2fb126efddfd9b99a507ff106c7e9c1695464202",
+      "projects/site/tests/build.test.mjs": "003887c7cb4c40e6970c1ffd6b5dab04ffba575e357b3a617c01fa4f4e2b3ec4",
+      "projects/site/tests/publication-jpeg.test.mjs": "6a75305b49f0749a17fc2f15e595369f774a1f8d31080b83f4e4ab82beee5364",
+      "projects/site/tools/optimize-publication-jpeg.mjs": "f74536be5c30d5d9cf58341d133b820faa1661b0d3fb775ed1d219579e723739"
+    },
+    "record_sha256": {
+      "kb/records/godabarish-publication-20261126.json": "71c7ab6cd605ab8622867347f1f11e3077f7d22492853b42f3cf6dde09c80252",
+      "kb/team/operations.json": "71dc9d47d9bd689e13ec2c6222a95b5e692cc20b330070d35526f59ffbc5af7b",
+      "outputs/godabarish-publication-20261126/raw-evidence-whitespace.json": "7c645cc640caaff629fd570bc4f9339872dfae53a26c502d94be9338812ccd7c"
+    },
+    "limits": [
+      "Actual local999088111bytes/3793files and847/605tests remain local evidence; exact-head hosted Linux CI is required before merge.",
+      "Final Panchalingeswar browser-page capture remains unavailable; approved actual JPEG and caption-only HTML reviewed with unchanged geometry. No live acceptance.",
+      "Government PDF ordinary HTTPS access limitation retained. Browser interactions attributed to root, not reviewer.",
+      "No repository writes, Git mutation, build or publication performed during this exact-commit review."
+    ],
+    "blockers": [],
+    "next_gates": [
+      "Required exact-head hosted CI success",
+      "Publication and separate actual live delivery review",
+      "Evidence-only receipt review and actual receipt merge before release"
+    ]
+  }
+}

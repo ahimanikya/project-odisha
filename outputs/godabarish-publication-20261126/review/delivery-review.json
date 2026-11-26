@@ -1,0 +1,407 @@
+{
+  "status": "PASS_LIVE_DELIVERY_WITH_EXPLICIT_DIFFERENCES",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T19:22:47.735038+00:00",
+  "scope": "Fresh live HTTP, actual image measurements and visual comparison, root-operated browser captures, exact deployment binding and preservation. No public or shared records modified.",
+  "publication": {
+    "pr": 893,
+    "candidate": "4466ae16c0b84b8a56c77d782428b905644e2dd8",
+    "merge": "579f980a1ac3aef8e8bc4809e52125cba5d28a7d",
+    "equal_tree": "d46b9b6f70bbd1c74bfd5410f378b7ff0995c865",
+    "ci_run": 45875049613,
+    "ci_attempt": 1,
+    "ci_result": "success",
+    "deployment_run": 45878664614,
+    "deployment_attempt": 1,
+    "deployment_result": "success",
+    "actual_linux_payload_bytes": 999930998,
+    "regular_files": 3793,
+    "verification": "Independent gh reads confirmed the PR and both successful runs; actual saved logs contain the stated payload."
+  },
+  "fresh_http": {
+    "report": "outputs/godabarish-publication-20261126/review/live-independent/delivery-20261126T191253.969791Z/http.json",
+    "raw_status_retained": "REVIEW_REQUIRED",
+    "routes": 5,
+    "scoped_images": 6,
+    "additional_source_image_fetches": 1,
+    "failed_checks": [],
+    "raw_differences": 12,
+    "result": "All five routes and six scoped image URLs returned HTTP 200. Source manuscript image was additionally fetched and matches its unchanged repository source. Nine native references, five definitions and nine returns resolve; metadata, robots, sharing image, conceptual illustration caption, author and three incoming links pass."
+  },
+  "markup": {
+    "classification": "outputs/godabarish-publication-20261126/review/live-independent/difference-classification.json",
+    "findings": "Four article fragments are byte-exact. Literature differs only by the observed manuscript 1440w URL substitution. All five outer shells equal local output after removal of only the exact analytics-config, analytics-choice and analytics-status elements; raw pages remain different and are preserved. Existing Analytics component and workflow are unchanged. No consent functionality or settings audit is claimed.",
+    "rows": [
+      {
+        "route": "/stories/godabarish-mahapatra-and-niankhunta/",
+        "only_shell_delta": "Exact three conditional analytics elements",
+        "removed_element_hashes": {
+          "analytics-config": {
+            "sha256": "83116133803015cc75a6de459456bf69f85fcf4f0e81a93c4beef5e8672a8c70",
+            "bytes": 311
+          },
+          "analytics-choice": {
+            "sha256": "7ebbe1f88b68667723cab11f287f0635e3e6c5b8cdbdd8417af56cd4cbb4994f",
+            "bytes": 768
+          },
+          "analytics-status": {
+            "sha256": "8c31d284108cdcfcea1b690faa806f1c9ff8162055eb91f436d8e6e13dd5f865",
+            "bytes": 103
+          }
+        },
+        "shell_equal_after_removal": true,
+        "route_config_exact": true,
+        "fragment": {
+          "local_sha256": "8334bb818cc59e3b8b0b5fdb6379ae6e836dcfaa3d1dfe60ebe090d5a4b2702e",
+          "live_sha256": "8334bb818cc59e3b8b0b5fdb6379ae6e836dcfaa3d1dfe60ebe090d5a4b2702e",
+          "raw_equal": true,
+          "observed_substitutions": {},
+          "match_after_only_observed_substitutions": true
+        }
+      },
+      {
+        "route": "/literature/",
+        "only_shell_delta": "Exact three conditional analytics elements",
+        "removed_element_hashes": {
+          "analytics-config": {
+            "sha256": "a5510cf853b6d1621708bb1a4259ac9a9c09419c11f2890494a629a399d995c8",
+            "bytes": 212
+          },
+          "analytics-choice": {
+            "sha256": "7ebbe1f88b68667723cab11f287f0635e3e6c5b8cdbdd8417af56cd4cbb4994f",
+            "bytes": 768
+          },
+          "analytics-status": {
+            "sha256": "8c31d284108cdcfcea1b690faa806f1c9ff8162055eb91f436d8e6e13dd5f865",
+            "bytes": 103
+          }
+        },
+        "shell_equal_after_removal": true,
+        "route_config_exact": true,
+        "fragment": {
+          "local_sha256": "b8ceef0c0ca693ad7893d4daeadcc71af79a989734571b66c4efa586822b3c43",
+          "live_sha256": "c5457875595d28f5262912427715e7c1e761acf95b1fe024ba1217be2e738fbb",
+          "raw_equal": false,
+          "observed_substitutions": {
+            "/images/responsive/f7fd7db2e2c9d60a-1440.webp": "/images/responsive/8b030c3b48acd32f-1440.webp"
+          },
+          "match_after_only_observed_substitutions": true
+        }
+      },
+      {
+        "route": "/literature/birakishore-das/",
+        "only_shell_delta": "Exact three conditional analytics elements",
+        "removed_element_hashes": {
+          "analytics-config": {
+            "sha256": "ae3826dcf30b0411f4588ac18d18daf27d1fc7d46dc448f2be27e7681ac0bb27",
+            "bytes": 285
+          },
+          "analytics-choice": {
+            "sha256": "7ebbe1f88b68667723cab11f287f0635e3e6c5b8cdbdd8417af56cd4cbb4994f",
+            "bytes": 768
+          },
+          "analytics-status": {
+            "sha256": "8c31d284108cdcfcea1b690faa806f1c9ff8162055eb91f436d8e6e13dd5f865",
+            "bytes": 103
+          }
+        },
+        "shell_equal_after_removal": true,
+        "route_config_exact": true,
+        "fragment": {
+          "local_sha256": "9c6fe5cc82ec61074223e87cb53709bd670f5a84db567c9543ecb5c11db40c6e",
+          "live_sha256": "9c6fe5cc82ec61074223e87cb53709bd670f5a84db567c9543ecb5c11db40c6e",
+          "raw_equal": true,
+          "observed_substitutions": {},
+          "match_after_only_observed_substitutions": true
+        }
+      },
+      {
+        "route": "/stories/odia-literature-preservation/",
+        "only_shell_delta": "Exact three conditional analytics elements",
+        "removed_element_hashes": {
+          "analytics-config": {
+            "sha256": "7bece5262de978b21efc7df040204d26336262a073d6e2fcfe8391bec3a7ac97",
+            "bytes": 306
+          },
+          "analytics-choice": {
+            "sha256": "7ebbe1f88b68667723cab11f287f0635e3e6c5b8cdbdd8417af56cd4cbb4994f",
+            "bytes": 768
+          },
+          "analytics-status": {
+            "sha256": "8c31d284108cdcfcea1b690faa806f1c9ff8162055eb91f436d8e6e13dd5f865",
+            "bytes": 103
+          }
+        },
+        "shell_equal_after_removal": true,
+        "route_config_exact": true,
+        "fragment": {
+          "local_sha256": "32b8c9f09cdf3f5b506c057525cda1eb1ac0cc5baaa63afd1dbf074c8f4d3e1c",
+          "live_sha256": "32b8c9f09cdf3f5b506c057525cda1eb1ac0cc5baaa63afd1dbf074c8f4d3e1c",
+          "raw_equal": true,
+          "observed_substitutions": {},
+          "match_after_only_observed_substitutions": true
+        }
+      },
+      {
+        "route": "/destinations/panchalingeswar/",
+        "only_shell_delta": "Exact three conditional analytics elements",
+        "removed_element_hashes": {
+          "analytics-config": {
+            "sha256": "bbee14b7d3d630f0b93d46943246753895fa2029c3c5c556bff72466b7c31d4f",
+            "bytes": 275
+          },
+          "analytics-choice": {
+            "sha256": "7ebbe1f88b68667723cab11f287f0635e3e6c5b8cdbdd8417af56cd4cbb4994f",
+            "bytes": 768
+          },
+          "analytics-status": {
+            "sha256": "8c31d284108cdcfcea1b690faa806f1c9ff8162055eb91f436d8e6e13dd5f865",
+            "bytes": 103
+          }
+        },
+        "shell_equal_after_removal": true,
+        "route_config_exact": true,
+        "fragment": {
+          "local_sha256": "1816216aa024c9dc04ad83e53e82ac14a39b8bf309e8ce661437b9fb31f606aa",
+          "live_sha256": "1816216aa024c9dc04ad83e53e82ac14a39b8bf309e8ce661437b9fb31f606aa",
+          "raw_equal": true,
+          "observed_substitutions": {},
+          "match_after_only_observed_substitutions": true
+        }
+      }
+    ]
+  },
+  "images": {
+    "exact": "New illustration base and 480 preview, Panchalingeswar base and its two responsive files are byte-exact to the reviewed publication package. Original sources remain unchanged.",
+    "sole_difference": {
+      "local_file": "projects/site/dist-publish/images/responsive/f7fd7db2e2c9d60a-1440.webp",
+      "live_file": "outputs/godabarish-publication-20261126/review/live-independent/delivery-20261126T191253.969791Z/media/02-8b030c3b48acd32f-1440.webp.attempt1",
+      "local_bytes": 123262,
+      "live_bytes": 123324,
+      "local_sha256": "f7fd7db2e2c9d60a7e0c7c7ca4e239e108da495c669debc84da6c8e5a8c43fbd",
+      "live_sha256": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+      "local_geometry": [
+        1440,
+        1080
+      ],
+      "live_geometry": [
+        1440,
+        1080
+      ],
+      "orientation": [
+        1,
+        1
+      ],
+      "metadata": [
+        {
+          "field": "icc",
+          "local_bytes": 0,
+          "live_bytes": 0,
+          "equal": true
+        },
+        {
+          "field": "iptc",
+          "local_bytes": 0,
+          "live_bytes": 0,
+          "equal": true
+        },
+        {
+          "field": "xmp",
+          "local_bytes": 0,
+          "live_bytes": 0,
+          "equal": true
+        },
+        {
+          "field": "exif",
+          "local_bytes": 0,
+          "live_bytes": 0,
+          "equal": true
+        }
+      ],
+      "channels": "Decoded RGB, alpha excluded",
+      "total_channels": 4665600,
+      "changed_channels": 1381315,
+      "changed_pixels": 465823,
+      "total_pixels": 1555200,
+      "maximum_delta": 23,
+      "mean_absolute_delta": 0.7674048353909465,
+      "rms_delta": 1.7846803689188688,
+      "pixel_identical": false
+    },
+    "visual_review": "Personally viewed both complete, native-size manuscript 1440w files. No obvious material difference in framing, legibility, color or visible quality at the displayed scale. Accepted with the measured nonzero RGB differences; neither byte nor pixel identity is claimed. No cause is inferred.",
+    "metadata_limit": "ICC, IPTC, XMP and EXIF are absent in both manuscript variants; equal absence is not preservation of rich metadata. Geometry and equivalent orientation match."
+  },
+  "browser_review": {
+    "manifest": "outputs/godabarish-publication-20261126/live/root-ui-review.json",
+    "personally_viewed": 19,
+    "accepted_captures": 15,
+    "excluded_attempts_retained": 4,
+    "screenshots": [
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-article.jpg",
+        "sha256": "7fed051c9bf27deff8008f0f4e389c72e97faf520e76ee43e365adfa64c2da02",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-birakishore-card.jpg",
+        "sha256": "aa7d369364ea7fd2b40d975db664b0845ba8355f32f8d8114eb12adb3bf56a83",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-illustration-full.jpg",
+        "sha256": "95e4aff876c9cc5c1f097ef2173c5e3b92626e6269e21c04a850352ff6023e29",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-illustration.jpg",
+        "sha256": "c04200ec2b357e1755a18bb4d6facd587df06c4587d62a1d96052a67480c67cc",
+        "accepted": false,
+        "limit": "Top of illustration clipped; desktop-illustration-full captures full frame/credit."
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-literature-card.jpg",
+        "sha256": "5244e31e9392df716f698e2687ae7f2806856a00c25f06cf0051b6fd0da98752",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-notes.jpg",
+        "sha256": "1413d2385187bb4c120465ed9c2dbaaf7c437415ffae15be02426038675c0f1c",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-panchalingeswar-base.jpg",
+        "sha256": "3b6a7d5873777aa09c3f1168f01d1f2c9d174d3f98730c32635a72f2627f5717",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-panchalingeswar-credit.jpg",
+        "sha256": "40549f08059b1f01fa8713530bb5b6d6dbf8a2a4ba77e591acbc0e4b9fb282c1",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/desktop-preservation-card.jpg",
+        "sha256": "2fe5acca5653ced76c4cf353a3aac04f5fd49940844b6893f6ec7608c13062d7",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-article.jpg",
+        "sha256": "078b2d7dc7493631e19dc8bb7f68a78669b2473143371f70bc62540caa179c9e",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-birakishore-card.jpg",
+        "sha256": "ae4b507a507d3d7de56b04daec1f7e1539c4ac07f5e33b7b0f76037f3b04f046",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-illustration.jpg",
+        "sha256": "7830427dcc1e0318872b16811d4e81fa8d0ad89d73927ad2d5ee9bc387af8e8f",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-literature-card.jpg",
+        "sha256": "4647d77e3decdfd839ab823f736a7f0347cc7d827173a02372c869db55163a37",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-notes-final.jpg",
+        "sha256": "891f9f35463bfce9be951f73d86932f7b08ae99a494b7f9707aa4c5c05520a1e",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-notes.jpg",
+        "sha256": "79898ee9e19214bd2124c005668cc11b2c89e7b58d9c48b317f53f227f43d1b7",
+        "accepted": false,
+        "limit": "Initial moving viewport captured body, not notes. Later mobile-notes-final captures all five notes."
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-panchalingeswar-credit.jpg",
+        "sha256": "1f406ce614942e83c3b00f3654c4abfeb26cc356ba49c99250be5c31e3beeb0d",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-preservation-card-final.jpg",
+        "sha256": "9657e2b13bbe866d9283cf2b0dc443bec588c08b631584c9a7509f28177c4fe2",
+        "accepted": false,
+        "limit": "Scroll still in prior section; mobile-preservation-card-settled captures actual card."
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-preservation-card-settled.jpg",
+        "sha256": "c361d13daf1cf51472bdc83a19eecc0627f107136a866349f16ad786a8c9619b",
+        "accepted": true,
+        "limit": null
+      },
+      {
+        "path": "outputs/godabarish-publication-20261126/live/screenshots/mobile-preservation-card.jpg",
+        "sha256": "f34e58eb5ae160f138b5766f32d00e3365f9c8f115794d0bdadf85351b155f3b",
+        "accepted": false,
+        "limit": "Initial restored viewport misses target card."
+      }
+    ],
+    "operator": "Disha/root operated the browser; Drishti inspected the resulting screenshots and evidence only.",
+    "result": "Accepted captures show readable article and notes, complete conceptual illustration and credit, all three incoming cards at both widths, and the complete Panchalingeswar photograph and alteration/licence caption. No visual layout blocker found.",
+    "root_actions": "Root records all three incoming links clicked at desktop and mobile widths; desktop source 2 and mobile source 1 clicked with keyboard Enter returns. Direct Panchalingeswar base JPEG was opened on desktop.",
+    "viewports": [
+      [
+        1365,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "limits": [
+      "One browser engine at two viewport sizes, not physical-device testing",
+      "Desktop top image and mobile top caption partial; dedicated frames complete",
+      "Mobile final notes heading is clipped but all five notes and targets visible; desktop notes heading complete",
+      "Direct base JPEG viewed at desktop only; article responsive images checked at both widths; no claim the article viewport chose base JPEG",
+      "Four failed/framing attempts retained and excluded from acceptance",
+      "Browser inactivity reset required same Chrome extension reconnect; old tab detached, fresh tab succeeded; user later confirmed original extension panel dismissed; no cause inferred"
+    ],
+    "additional_observation": "The excluded mobile-preservation-card.jpg currently shows the card, but it remains excluded from acceptance because the settled replacement is the designated evidence. No target framing is inferred from filenames."
+  },
+  "preservation": {
+    "protected_files_rehashed": 113,
+    "mismatches": [],
+    "public_source_diff_from_publication_merge": [],
+    "canonical_manuscript_sha256": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+    "source_scope": "Prior factual/source audit retained; no new historical claims or source-budget changes in this delivery review. Ordinary government PDF access has the previously disclosed expired-TLS limitation; no successful ordinary access or browser bypass is claimed.",
+    "programme_credit": 0
+  },
+  "limits": [
+    "One browser engine and two desktop-emulated viewport sizes; no physical-device or cross-engine certification.",
+    "Root browser interactions are not reviewer interactions; this is not human specialist approval.",
+    "Whole live pages are not byte-identical; all observed exceptions are explicitly classified.",
+    "Future evidence-only receipt integration, required receipt CI and actual receipt merge remain separate closing gates. This report does not release the coordination slot."
+  ],
+  "blockers": [],
+  "evidence_sha256": {
+    "outputs/godabarish-publication-20261126/review/live-independent/delivery-20261126T191253.969791Z/http.json": "45fe90857fb5cd6b1f637a1c5e42a810b0f9e4e46b8cbf38de6282fed77bda50",
+    "outputs/godabarish-publication-20261126/review/live-independent/difference-classification.json": "f5aa582a9f31af34f6bbad7e79a88b3fd1a11947ce38622052e82c9998ae6e2a",
+    "outputs/godabarish-publication-20261126/review/live-independent/pixel-measurements.json": "f7e953d7fe389473741aa95a0459e933547d6b23a0dcd7717ad6a42c86c4cb59",
+    "outputs/godabarish-publication-20261126/live/root-ui-review.json": "b3e85ef90a91c50e2ecbc395c147a4950b24f50f0ed0fe59a080756dd3dd8272",
+    "outputs/godabarish-publication-20261126/protected-preparation.json": "71012e656524998569d1c9a06b9efebdb5086ac7462a6b4c8cc65dda1e5b77b1",
+    "outputs/godabarish-publication-20261126/research/final-source-audit.json": "a15adf938217d02d1075cf067e2e0dfebaf16c1ad18a4f1fedcc27880ae2efb1",
+    "outputs/godabarish-publication-20261126/release/ci-45875049613.json": "3275751a65698a76be1f4609a64e1ae4156fedf829242ced55a0e1d5e21ad160",
+    "outputs/godabarish-publication-20261126/release/ci-45875049613.log": "111a1c161e8854588439b800514caa1ddfde44952c1efad45dc414c7030b00b1",
+    "outputs/godabarish-publication-20261126/release/deployment-45878664614.json": "c09e47c9b34d06f42cdfb21796effbff0aced59956155fb6bdaae379f840fea6",
+    "outputs/godabarish-publication-20261126/release/deployment-45878664614.log": "c0ac70937d4bcb081ff798bcb97110693ce00f8a79e1177647c2c33b7cca0f48",
+    "outputs/godabarish-publication-20261126/review/final-package-review.json": "805f1b68672274021698d35a0cc43a1c94c50bc239f23b058e314fb39277c4e0",
+    "outputs/godabarish-publication-20261126/review/final-rendered-supplement.json": "9995a0cb2b8d0ec44fe21633c0893377504d6a2347115410316a18f65ba52b98"
+  }
+}

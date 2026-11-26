@@ -1,0 +1,50 @@
+{
+  "status": "PASS_PR894_RECONCILIATION_ONLY",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T19:48:18.313614+00:00",
+  "reviewed_receipt": "6b3fa0e733ec6efe5628545880da9bee97b10591",
+  "incoming": "3d74c1b823ea31ac5d0577ed0cfa9ac3dbcafcd1",
+  "checkpoint": "c3892c1bb3bdd326285c133571f8551fce23e9b4",
+  "checkpoint_tree": "8d357c6e2751c607728229133ccd2ec927c4e668",
+  "checks": {
+    "incoming_paths": 15,
+    "nonshared_files_exact": 13,
+    "public_diff_from_incoming": [],
+    "incoming_rollout_rows": "All unchanged except own completed Godabarish row; that row equals prior reviewed receipt. No additional or missing IDs.",
+    "work_list": "Regenerated:1427routes,280completed,273queued; only own completion differs from incoming.",
+    "protected_files": 113,
+    "protected_mismatches": [],
+    "foreign_current_task_handoff_home_current_preparation": "Exact prior receipt values.",
+    "own_manuscript_and_public_article": "Unchanged.",
+    "register_check": "Independently passed1451records904events,current dashboard.",
+    "rollout_check": "Independently passed.",
+    "github": "Fresh read-only gh query confirmed PR894 MERGED at incoming commit; head2cc0d364ad68251e88fb9d11cc619ef1e6c56096,required validate check SUCCESS in run45882618885. Initial restricted network attempt failed; subsequent approved read succeeded."
+  },
+  "boundaries": [
+    "Original Godabarish deployment579f980a1/run45878664614 is historical delivery evidence; no claim it deployed the incoming combined tree.",
+    "Required combined receipt CI, exact final committed review and actual receipt merge still gate release.",
+    "PR895 arrived during this review; it is outside this bounded PASS and requires subsequent reconciliation review."
+  ],
+  "blockers": [],
+  "checkpoint_hashes": {
+    "kb/catalog.json": "34e18773d04424796e3250377d989dda8f3cad70dfac45c5bc935f842e05786e",
+    "kb/records/editorial-workbench.json": "3ab3545fbc26f0b4b4960d4953540c8f43d4d84c2876888e012e2bef8ed71da7",
+    "kb/reference/public-website-routes.json": "a7832c613f245f8aa9f8228c2662d9b6d26e0936e5dc241306c5f4ea2bcb932d",
+    "kb/research/culture/baisakha-brata.md": "6c47d05ae564de53d6ce8d5e03618c7f24c43188024f2aec46896401bf20d3c6",
+    "projects/site/editions/coast.json": "cf056e942b2608883cba02256f0d44857590c2fad7f154d15b5d585ab5e84d6c",
+    "projects/site/editions/search-candidate.json": "08682c917d352ba7ef91d0f240213d00e52013fc11e2d5ef0064fd1816c2a1e4",
+    "projects/site/src/data/discovery.ts": "a3441367f20bd43eba643ba93e5d1e168a7f42907f76b2b77da59bae44fff605",
+    "projects/site/src/pages/culture/osha/[slug].astro": "668007f05622292b195d60473c849e9d662f90e83da9026982128ccd6a8f91b7",
+    "projects/site/src/pages/stories/baisakha-brata.astro": "3e4b49a2ee6955b8a4cb330fe567a5ac41090b09e9df88560ca524192c7178d7",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "14de2999e350f8e448400238efc229cc3e0cf599c98a3caacfc628e0bf415f1e",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "0d273b46acd22f765ca78b91e254af7b93f0ca985f94927faea9efa74b465976",
+    "projects/site/tests-coast/edition.test.mjs": "431c335beb50f2f79265afb6f587593a6ce8ab128fc35e98313351c816a7df81",
+    "projects/site/tests/build.test.mjs": "b0bf17c1a477e861d540b0933362bc772152ab6b2fbb6e4450781273a2fa2bd5"
+  },
+  "shared_checkpoint_hashes": {
+    "kb/records/article-editorial-rollout.json": "97245832bb14b8f4fa3a30390d0e6502819eb9679258d0557656d54e720c4714",
+    "kb/records/article-editorial-work-list.md": "98d01ccc8fe5499e512d08915a5297911a2d7edd25cadbc7d336bf627104a59c",
+    "kb/records/godabarish-publication-20261126.json": "36a4f5cc93a87d1b4d3c98e97e75f73af142b93c82911a05b9d89e099f8d9c2c",
+    "kb/team/operations.json": "48fee9dfa0302f7eb305aaf0a3f3b8015890d42d3d1296e075865d8b44092199"
+  }
+}

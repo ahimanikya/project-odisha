@@ -1,0 +1,93 @@
+{
+  "status": "PASS_COMBINED_RECEIPT_RECONCILIATION",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T19:50:26.107274+00:00",
+  "initial_reviewed_receipt": "6b3fa0e733ec6efe5628545880da9bee97b10591",
+  "pr894_checkpoint": "c3892c1bb3bdd326285c133571f8551fce23e9b4",
+  "incoming_main": "334adfdf47d078a77b550a46ed7ec0f471d740d2",
+  "incoming_github": [
+    {
+      "pr": 894,
+      "head": "2cc0d364ad68251e88fb9d11cc619ef1e6c56096",
+      "merge": "3d74c1b823ea31ac5d0577ed0cfa9ac3dbcafcd1",
+      "required_run": 45882618885,
+      "state": "MERGED",
+      "check": "SUCCESS"
+    },
+    {
+      "pr": 895,
+      "head": "372995ae4fb3efbca85a129e7cf8f0360d8f1b8a",
+      "merge": "334adfdf47d078a77b550a46ed7ec0f471d740d2",
+      "required_run": 45883101771,
+      "state": "MERGED",
+      "check": "SUCCESS"
+    }
+  ],
+  "github_verification": "Both incoming PRs independently re-read through GitHub API. First restricted PR894 request failed network access; approved read succeeded.",
+  "checks": {
+    "pr894": "15 incoming paths; all13 nonshared bytes exact at the reviewed checkpoint; incoming rollout rows preserved, only own Godabarish completion substituted.",
+    "pr895": "13 incoming paths; all10 nonshared bytes and manifest hashes exact to334adfdf4 in current tree.",
+    "successive_change": "PR895 legitimately supersedes PR894 editorial-workbench.json with its own exact version; the other12 PR894 nonshared files remain exact. Historical first-stage manifest is not claimed as the current workbench digest.",
+    "register_union": "All incoming changed/new work/decision/review rows preserved exactly; all own changed/new rows preserved exactly; unchanged baseline rows remain identical, with no missing or unexpected IDs.",
+    "activity_union": "Current bytes equal exact baseline plus own event append plus incoming event append, one each.",
+    "public_source_diff_from_latest_incoming": [],
+    "unmerged_entries": [],
+    "protected_files": 113,
+    "protected_mismatches": [],
+    "foreign_fields": "current_task,handoff_home,current_preparation unchanged from reviewed receipt.",
+    "own_article": "Godabarish manuscript, public article and original media unchanged.",
+    "prior_delivery_evidence": "All123 evidence hashes bound by final-receipt-review.json remain exact.",
+    "independent_register_check": "PASS1454records905events,dashboard current.",
+    "independent_rollout_check": "PASS280completed,273queued,873excluded,1blocked.",
+    "internal_scope": "Against incoming main, only the same eight own KB records/views differ; added outputs are own historical and review evidence.",
+    "programme_credit": 0
+  },
+  "boundaries": [
+    "Actual Godabarish delivery remains merge579f980a1/run45878664614,999930998bytes/3793files; it is not relabelled as deployment of this combined receipt.",
+    "PR895 source fallback is preserved under its existing authority. This reconciliation does not re-review its substantive claims or claim its live publication.",
+    "Combined final commit continuity, required combined receipt CI/capacity and actual receipt merge remain pending.",
+    "Scope release still takes effect only after actual reviewed receipt merge and explicit return. No next article claimed."
+  ],
+  "blockers": [],
+  "reviewed_current_record_sha256": {
+    "kb/history/LEDGER.md": "450550d284b4fccc1e895514c03d91246182badb54f9870f0f2a998688847723",
+    "kb/records/article-editorial-rollout.json": "97245832bb14b8f4fa3a30390d0e6502819eb9679258d0557656d54e720c4714",
+    "kb/records/article-editorial-work-list.md": "98d01ccc8fe5499e512d08915a5297911a2d7edd25cadbc7d336bf627104a59c",
+    "kb/records/godabarish-publication-20261126.json": "7355f4b550b0970f3a0c1a54ea4049abca552aa37369257e50b1aee34b1ef342",
+    "kb/registers/DASHBOARD.md": "95454d485a1fa1fa31c38a9a424b351bbba5840ec2f45f02653578c1b526f280",
+    "kb/registers/activity.jsonl": "4a02b2ad8daf22df006b74ce9c7c9b875290147bac201aa35e65931954c6ae54",
+    "kb/registers/records.json": "229654d41d99e1d75284ca21fa040ef0f400c22eeb6ed8250034050aaf165e6b",
+    "kb/team/operations.json": "48fee9dfa0302f7eb305aaf0a3f3b8015890d42d3d1296e075865d8b44092199"
+  },
+  "reviewed_incoming_current_sha256": {
+    "kb/catalog.json": "34e18773d04424796e3250377d989dda8f3cad70dfac45c5bc935f842e05786e",
+    "kb/records/editorial-workbench.json": "f2342d3337eb37f80854d3af4bf917e2d1c7daf603b9bdf1c038a21293a893d7",
+    "kb/records/unesco-source-fallback-20261127.json": "88cf6e35383b27eca6753fea869b364bbc282ca87353bf18f7bd862dcc641081",
+    "kb/reference/public-website-routes.json": "a7832c613f245f8aa9f8228c2662d9b6d26e0936e5dc241306c5f4ea2bcb932d",
+    "kb/research/culture/baisakha-brata.md": "6c47d05ae564de53d6ce8d5e03618c7f24c43188024f2aec46896401bf20d3c6",
+    "kb/research/search-index.json": "93576d106a6c766d69f6c351b35af36cd762630e0c850841624828127032be52",
+    "kb/research/stories/independent-features/nature/similipal-waterfalls.md": "49e0c2650e5f990b9e25a6d0c31d2296a12d3f4b704c9c22b27afc32cf2fb251",
+    "kb/research/stories/independent-features/source-register.md": "da1c46bbca638cf4927fceb955f00f3f06e40f906002fdb825d3895eebe13342",
+    "outputs/unesco-source-fallback-20261127/handoff.json": "9dcf7f478e5a1448305f7b09a38d3745960ea12ab3b2f66d76f544ace84de049",
+    "outputs/unesco-source-fallback-20261127/implementation.json": "4c74a88c5ce61456e01ad87f7eddf6a60941c408f5572c90f9038a0de7c11d75",
+    "outputs/unesco-source-fallback-20261127/local-validation.json": "fa64eb34b8801c30fb05c593520337d423f7dc80f59ea03acb9bd2919298eb0d",
+    "outputs/unesco-source-fallback-20261127/review.json": "ac77eacb49e0a56892618197ee26be6bd4781622a4ba03ac9f8e7c028fb880c0",
+    "outputs/unesco-source-fallback-20261127/source-verification.json": "369eef31a68609b05845c205f73d95da29e7ead9fc44ae590e1f5d56e640654d",
+    "projects/site/editions/coast.json": "cf056e942b2608883cba02256f0d44857590c2fad7f154d15b5d585ab5e84d6c",
+    "projects/site/editions/search-candidate.json": "08682c917d352ba7ef91d0f240213d00e52013fc11e2d5ef0064fd1816c2a1e4",
+    "projects/site/src/data/discovery.ts": "a3441367f20bd43eba643ba93e5d1e168a7f42907f76b2b77da59bae44fff605",
+    "projects/site/src/pages/culture/osha/[slug].astro": "668007f05622292b195d60473c849e9d662f90e83da9026982128ccd6a8f91b7",
+    "projects/site/src/pages/stories/baisakha-brata.astro": "3e4b49a2ee6955b8a4cb330fe567a5ac41090b09e9df88560ca524192c7178d7",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "14de2999e350f8e448400238efc229cc3e0cf599c98a3caacfc628e0bf415f1e",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "0d273b46acd22f765ca78b91e254af7b93f0ca985f94927faea9efa74b465976",
+    "projects/site/tests-coast/edition.test.mjs": "431c335beb50f2f79265afb6f587593a6ce8ab128fc35e98313351c816a7df81",
+    "projects/site/tests/build.test.mjs": "b0bf17c1a477e861d540b0933362bc772152ab6b2fbb6e4450781273a2fa2bd5"
+  },
+  "review_evidence_sha256": {
+    "outputs/godabarish-publication-20261126/receipt-incoming-preservation.json": "e6068edbd08fc730c0e7ae50c51fba7b55d404b62266db64c1afd05f1df754f9",
+    "outputs/godabarish-publication-20261126/receipt-source-fallback-preservation.json": "0c0cd097d849b3c2eb689e38686efe84da9180d914771af7d484570204a1fe82",
+    "outputs/godabarish-publication-20261126/review/receipt-reconciliation-pr894-review.json": "8af0395fdc874cd45d5040ae8ff7d5c6c4a0a1259afbd52655d959aeecab514a",
+    "outputs/godabarish-publication-20261126/review/final-receipt-review.json": "2c4610f7151744b2dfaf3c9a06578167d95e74ee80144eba0e14205957bd4429",
+    "outputs/godabarish-publication-20261126/review/delivery-review.json": "410096b650759752c892922798fd6fbf633df720b713129ca15b76f4cdb5c5a6"
+  }
+}
