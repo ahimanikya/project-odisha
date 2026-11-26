@@ -1,0 +1,70 @@
+[
+  {
+    "command": [
+      "python3",
+      "tools/registers.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-0.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/catalog.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-1.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_bundle.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-2.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_team_assignments.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-3.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_autonomous_program.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-4.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/editorial/article_rollout.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-5.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/editorial/build_workbench.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-6.log"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/research/validate_research_map.py"
+    ],
+    "exit_code": 0,
+    "log": "outputs/kula-publication-20261126/checks/governance-7.log"
+  }
+]

@@ -19,5 +19,26 @@
     "result": "Failed: generated editorial-workbench search-index digest stale after source-link reindex.",
     "repair": "Regenerated workbench; only search_index_sha256 changed, frozen500 content unchanged.",
     "local_check": "build_workbench.py --check passed after regeneration"
+  },
+  "pre_reconciliation_ci": {
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/45723894260",
+    "head": "58d64738721dba74f117849105a7c7259cafd3f6",
+    "status": "success",
+    "full_tests": 844,
+    "coastal_tests": 605,
+    "payload_bytes": 999228423
+  },
+  "concurrent_main_reconciliation": {
+    "incoming": "dccfa463f11f9bf513a93abce233a27973582c3d",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/883",
+    "scope": "Preserve Kula publication candidate and all incoming records/site files. Resolve shared record append conflicts by retaining incoming records and adding only this task IDs; regenerate dashboard.",
+    "checks": [
+      "registers",
+      "editorial-workbench digest",
+      "autonomous programme",
+      "team assignments",
+      "bundle"
+    ],
+    "combined_ci": "pending"
   }
 }

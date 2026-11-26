@@ -1,0 +1,109 @@
+{
+  "status": "PASS_PRESERVATION",
+  "incoming": "9599f3e36f88a3c40c4c1e05289d400bd55fe394",
+  "prs": [
+    881,
+    882
+  ],
+  "nonshared_exact": [
+    {
+      "path": "kb/history/LEDGER.md",
+      "sha256": "01eb40b4d6c2d0ae7e184c5e7b27d4e1f0469494db54b110930c85f7882be086"
+    },
+    {
+      "path": "kb/records/independent-article-images-20261126.json",
+      "sha256": "ce045b3ad9630ffcf5f2f776c7b824c1b1a2874cfa6b730d195d2f0885c3679d"
+    },
+    {
+      "path": "kb/research/culture/agira-purnima.md",
+      "sha256": "60c87c3a3b7ffa210c793552d61444c3b2c1db3307ccddafa01e588667f66930"
+    },
+    {
+      "path": "kb/research/stories/independent-features/image-catalog.md",
+      "sha256": "6bc5dd814e98d19fd688b33fda97fb2a3ba3dc2474d7b4d7ff291ed9e51f5597"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/handoff.json",
+      "sha256": "d6dbfafe2be65de9797a7bd5f9f49f6f421375164bae94ba9cf6cb18896de6c4"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/combined-head-review.json",
+      "sha256": "3465cb3bc6d859fe62cebdef41b52540bc9e1fda25677e8cb998f833982b5e27"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-helper-local-check-v2.json",
+      "sha256": "bf745d1124fd10ab5cd49b43c94f7166206407367db92bf98b5f7e3bede4f3d7"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-helper-local-check.json",
+      "sha256": "f3e3971cf4ec6525397968d77b6582c4011dd6e2d69568fe3fd823b39527d9a9"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-verification-network.json",
+      "sha256": "22aaf03cbbe270dec32ccf960f558be8fd60e65012731c7ba0ec8d19f9e87673"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/live-verification.json",
+      "sha256": "dd4b23c9c9d971d091861c059af02cfff5cdf7e07577048d1851e2cb1d561b1f"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/local-verification.json",
+      "sha256": "e5f7aadcaa2f1d455efefd6e283cd7ddf98a01502500f2b4db021d30c280448a"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/packaged-image-verification.json",
+      "sha256": "a3a4f0da0c9d3178870f186fc9dbdd94391cbebf0c91a707e6b201cf2ab151a2"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/publication-receipt.json",
+      "sha256": "01d23abe5f6ba3ea78b01627d54ef80dded866c62cbf2b2db9f2b855a46d36ca"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/receipt-reconciliation-review.json",
+      "sha256": "c8eceb8c6d44c24ec77581c15bdf3284d05311b46a53bda2c207ee202f3fa293"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/receipt-review.json",
+      "sha256": "f05ac0399e2eef73a927f22ad2ec72884f3bb023f74215b518c83d593dd16c2e"
+    },
+    {
+      "path": "outputs/independent-article-images-20261126/review/verify-live-images.py",
+      "sha256": "e910e1ef9bd20cfe1fa9e101b8fb8b8a4b154805db1065045382200da93c59c8"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "5544b9b2c78c6d88a3039324a3f9667835f02947a5dd0bc7c5b9902410837516"
+    },
+    {
+      "path": "projects/site/src/pages/stories/agira-purnima.astro",
+      "sha256": "62566effd320bc3ca83c52d62f7398f9db13b015f843f9eb1da1913a17df59b4"
+    },
+    {
+      "path": "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "sha256": "2d1d2360a699372a750e59de283547fc92ab229cf57d8b90656edc4b3753ce7e"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "a7fd4e75d238f426670be9af6249444f566bdd7b03c7d58349eab65a7dbc91ae"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "4880beca742f6b67e74a6ebfc9ec3db92f28ed3b7bd447458f20a9520e118c44"
+    }
+  ],
+  "shared_paths": [
+    "kb/catalog.json",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "kb/registers/DASHBOARD.md",
+    "kb/registers/activity.jsonl",
+    "kb/registers/records.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "shared_rows": "All incoming work/decision/review/release/rollout rows and exact activity lines retained; generated views rebuilt. Both Agira and Kula page assertions retained and direct page count200.",
+  "historical_local_validation": "Initial package reports remain unchanged and tied to417fcfdee; new combined checks required."
+}
