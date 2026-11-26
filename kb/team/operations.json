@@ -55,14 +55,13 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-KULA-20261126",
-    "route": "/stories/kula-and-the-work-of-winnowing/",
+    "id": "POD-EDIT-MAHAVINAYAK-20261126",
+    "route": "/destinations/mahavinayak/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/kula-publication-20261126.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Then begin already authorized Godabarish Mahapatra/Niankhunta preparation; explicit hill-chat return follows that reviewed preparation. No publication authority for that draft inferred."
+    "phase": "release_validation",
+    "handoff": "records/mahavinayak-publication-20261126.json",
+    "scope_released": false,
+    "status": "in_progress"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -872,20 +871,31 @@
       "status": "published_verified",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit return then goes to the coordinating hill chat; no next article is claimed here.",
       "next_action": "Complete separate integrated and exact-commit receipt review, required CI and actual receipt merge; then explicitly return the sole article slot to the coordinating hill chat."
+    },
+    {
+      "id": "POD-EDIT-KULA-20261126",
+      "route": "/stories/kula-and-the-work-of-winnowing/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/kula-publication-20261126.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Then begin already authorized Godabarish Mahapatra/Niankhunta preparation; explicit hill-chat return follows that reviewed preparation. No publication authority for that draft inferred."
     }
   ],
   "next_article_coordination": {
-    "status": "godabarish_preparation_after_kula_receipt",
-    "evidence": "records/kula-publication-20261126.json",
-    "scope": "User-authorized Godabarish Mahapatra/Niankhunta independent preparation only after reviewed Kula receipt merge, then explicit return to hill chat."
+    "status": "hill_slot_returned",
+    "evidence": "records/mahavinayak-publication-20261126.json",
+    "scope": "Completed Kula receipt and reviewed Godabarish preparation explicitly returned sole slot; Mahavinayak is active."
   },
   "current_preparation": {
-    "id": "POD-EDIT-KULA-20261126",
+    "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",
     "owner": "Disha",
     "phase": "preparation",
-    "handoff": "records/antaranga-after-barunei-preparation-20261126.json",
+    "handoff": "records/godabarish-niankhunta-preparation-20261126.json",
     "scope_released": true,
     "status": "prepared_reviewed",
-    "topic": "Kula and winnowing"
+    "topic": "Godabarish Mahapatra and Niankhunta",
+    "release_condition": "Effective after separately reviewed local preparation commit and explicit return to the coordinating hill chat."
   }
 }

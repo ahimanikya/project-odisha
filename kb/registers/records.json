@@ -10989,6 +10989,44 @@
       ]
     },
     {
+      "id": "POD-WORK-20261126304",
+      "title": "Prepare Godabarish Mahapatra and Niankhunta article",
+      "category": "research",
+      "status": "completed",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-20261126304",
+      "next_action": "Prepared and separately reviewed; return slot after reviewed local commit. No publication authorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126304",
+        "POD-REV-20261126304"
+      ],
+      "evidence": [
+        "records/godabarish-niankhunta-preparation-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-2026112693",
+      "title": "Research, review and publish Mahavinayak",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112693",
+      "next_action": "Finish final package review, required hosted CI, authorized publication, live delivery review and reviewed receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112693",
+        "POD-REV-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
+      ]
+    },
+    {
       "id": "POD-WORK-20261126032",
       "title": "Recover twelve unreliable source links in the27article collection",
       "category": "editorial_maintenance",
@@ -16745,6 +16783,40 @@
       "scope": "Existing 27-article collection; bounded live fixes and library synchronization under prior live publication authorization.",
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126304",
+      "title": "Prepare original Godabarish Mahapatra and Niankhunta article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Check whether we’ve covered Godabarish Mahapatra and Niankhunta. If not, research them independently and prepare an original Project Odisha article with a credited image. Don’t copy the Facebook post.",
+      "scope": "Independent original preparation with credited image only; no site integration or publication",
+      "refs": [
+        "POD-WORK-20261126304"
+      ],
+      "evidence": [
+        "records/godabarish-niankhunta-preparation-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112693",
+      "title": "Next uncovered hill after completed Kula release and returned preparation slot",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has Kula’s final receipt merged and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one uncovered hill destination with credited article and preview image.",
+      "refs": [
+        "POD-WORK-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
       ]
     },
     {
@@ -26747,6 +26819,42 @@
         "records/kula-publication-20261126.json"
       ],
       "summary": "Separate source/media/code/rendered/package/exact-merge and fresh live delivery reviews passed. Four routes, six actual images and thirteen root screenshots inspected; four encodings independently measured and visually accepted, raw differences and framing limits retained. No human specialist claim."
+    },
+    {
+      "id": "POD-REV-20261126304",
+      "title": "Godabarish Mahapatra and Niankhunta original preparation review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate reviewer; source audit by Anvesha"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261126304",
+        "POD-DEC-20261126304"
+      ],
+      "evidence": [
+        "records/godabarish-niankhunta-preparation-20261126.json"
+      ],
+      "summary": "Separate primary-page, factual, original-prose, source-family budget and actual illustration review passed. Five notes and nine references; conceptual image explicitly not a historical issue. Preparation only; no human specialist or live-layout approval."
+    },
+    {
+      "id": "POD-REV-2026112693",
+      "title": "Mahavinayak source, photograph, implementation and local delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112693",
+        "POD-DEC-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
+      ],
+      "summary": "Separate source/media/capacity/code/rendered/package reviews passed with explicit screenshot and helper-correction limits. Exact candidate, required hosted CI, deployment and fresh live verification remain; not human specialist or field approval."
     },
     {
       "id": "POD-REV-20261126032",

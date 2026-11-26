@@ -1,0 +1,114 @@
+{
+  "status": "bounded_site_reconciliation_pass_not_build_acceptance",
+  "parents": {
+    "reviewed_mahavinayak": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+    "incoming_pana": "73e350f0b3cb31558338db40cbd70872a0187449"
+  },
+  "finding": "Auto-merge preserved route additions but identical increments from each parent collapsed to one. Combined release needs one more page and one more discovery item.",
+  "only_code_edits": {
+    "projects/site/tests/build.test.mjs": "a43bb0310e856a31247db159b7d51192295469fe792727b2ba1d7968ac2a6e5f",
+    "projects/site/tests-coast/edition.test.mjs": "88363214bf504cae648496065501ea9bbc4c3cb4f2a3edabec31b949507400d9",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "7b02aada91702ecb7d19a7c16e256626208783159360bd8dfc78d9e97e55bc09"
+  },
+  "count_corrections": {
+    "full_fixed_addend": "202→203",
+    "coast_fixed_addend": "181→182 in all three existing assertions",
+    "dynamic_independent_features": "preserved unchanged",
+    "incoming_pana_test": "preserved exactly"
+  },
+  "byte_exact_preservation": [
+    {
+      "path": "kb/research/culture/pana-sankranti.md",
+      "exact_parent": "73e350f0b3cb31558338db40cbd70872a0187449",
+      "sha256": "ce1db0ddd2fc122eb241b56842ed3e5d16cd4d3b895932104b6bfb0b6c491879"
+    },
+    {
+      "path": "projects/site/src/pages/stories/pana-sankranti.astro",
+      "exact_parent": "73e350f0b3cb31558338db40cbd70872a0187449",
+      "sha256": "608a5d153c4f3fc24509dde54bd7cf1223e2684aac5e19af5e1a252c38300495"
+    },
+    {
+      "path": "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "exact_parent": "73e350f0b3cb31558338db40cbd70872a0187449",
+      "sha256": "54d0804126ac2776ab8246ce194da9bc9f50689b94e836ed55e11b45a237fcc2"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "exact_parent": "73e350f0b3cb31558338db40cbd70872a0187449",
+      "sha256": "a72364fe8b7cb1cb3c022fbec2921b72018478d0a864f36e1554f46e39902470"
+    },
+    {
+      "path": "kb/research/places/mahavinayak-article.md",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "8772cfa910c63e1ec9027feda857a924c4d6c78b5fcf8871ed231c32f3247b2e"
+    },
+    {
+      "path": "kb/research/places/mahavinayak-image.json",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "5a281b2ea88fa9f46808b25f4f44d7bdaa8d3bccc7076eaaec55faa3d44b49b2"
+    },
+    {
+      "path": "projects/site/src/pages/destinations/mahavinayak.astro",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "c2dbc00ecf70cac36f152271c9cafaea5c5024c12c40c8fe6096c6d5da50cd8f"
+    },
+    {
+      "path": "projects/site/src/data/hill-destinations.ts",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "27c6481c5accfdd79f331d88a9035cb398638b9b17f07f7157c534ea2b71282d"
+    },
+    {
+      "path": "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "f0be5472e5a38c956e2b0aed346e8281beb6cfe541b1f0b9783e6cb58fefc7d3"
+    },
+    {
+      "path": "projects/site/tools/optimize-publication-jpeg.mjs",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "9e8dd31a977b8d9618e9edeca631a9430824ba90070f815c5e849564f5397113"
+    },
+    {
+      "path": "projects/site/tests/publication-jpeg.test.mjs",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "bd42f1f579ba68f80af7a4832a07cdb3b854e7b79c2e9a121c53f3b1a930649b"
+    },
+    {
+      "path": "projects/site/editions/responsive-images.json",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "98aca39aa68ff1a398af27b478e0ffa1efee5d50ce9e78a393eb93dcb0cc50b5"
+    },
+    {
+      "path": "projects/site/public/images/destinations/mahavinayak-temple-kamalakanta777.webp",
+      "exact_parent": "6657858c118bd78d3b513fb919a20e56e3f04f9f",
+      "sha256": "0cc429b057f1073b1ac88b562c766b659ba38c466670925e66c7fdf6f0be146b"
+    }
+  ],
+  "configuration_union": [
+    {
+      "path": "projects/site/editions/coast.json",
+      "count": 1411,
+      "exact_union": true,
+      "sha256": "a1d0a104d9ef43f341d1c4297d4e9f7009b402ee85b4490d135cf732b994c8fc"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "count": 1411,
+      "exact_union": true,
+      "sha256": "58a2b21c7a19a23d8141e0ff74312a7a637bca27a0965208dd55a969977a74fa"
+    }
+  ],
+  "checks": [
+    "Node syntax passes for all three modified tests",
+    "git diff --check projects/site passes",
+    "Pana manuscript, wrapper, harvest series and discovery module exact incoming bytes",
+    "Mahavinayak manuscript, photo JSON, wrapper, guide module, footnote plugin, responsive list, original selected asset and approved JPEG code/tests exact reviewed parent bytes",
+    "Coast/search lists are exact unique union of both parents; all other configuration fields preserved"
+  ],
+  "boundaries": [
+    "No canonical/shared register or historical evidence writes",
+    "No Git staging, commit, builds, network or publication",
+    "Only three count-test files and this new report changed by Samanta",
+    "All113 protected preparation files and three foreign pointers remain parent verification responsibility; no changes to them were made in this task"
+  ],
+  "required_next": "Root completes shared reconciliation and runs fresh combined local/hosted checks; old CI applies only to6657858c."
+}

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `09c5d871fd86bfd8a364b43fe395d8b60a021f489567713455f432e5ccc9f47e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ed0594b6aad906e40594ff1755eca1c275ff0959dd85ee607833577195337bc1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -431,6 +431,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112691 · Research, review and publish Olasuni | completed | published | Ahimanikya Satapathy | Merge the separately reviewed evidence-only receipt after required CI, then return the reserved Kula slot. | — |
 | POD-WORK-20261126302 · Integrate, review and publish Kula | completed | published | Ahimanikya Satapathy | Obtain separate integrated and exact-commit receipt reviews, pass required receipt CI and merge; then start queued preparation. | — |
 | POD-WORK-20261126030 · Review 27 live articles on desktop and mobile and repair dead sources | completed | published | Ahimanikya Satapathy | Retain the verified review and publication evidence; respond to later corrections. | — |
+| POD-WORK-20261126304 · Prepare Godabarish Mahapatra and Niankhunta article | completed | draft | Ahimanikya Satapathy | Prepared and separately reviewed; return slot after reviewed local commit. No publication authorized. | — |
+| POD-WORK-2026112693 · Research, review and publish Mahavinayak | in_progress | draft | Ahimanikya Satapathy | Finish final package review, required hosted CI, authorized publication, live delivery review and reviewed receipt. | — |
 | POD-WORK-20261126032 · Recover twelve unreliable source links in the27article collection | completed | published | Ahimanikya Satapathy | Completed; external-access observations and actual live publication are recorded in the receipt. | — |
 
 ## Pending human review and decisions
@@ -791,6 +793,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026112691 · Next uncovered hill after reviewed Kula preparation | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
 | POD-DEC-20261126302 · Publish reviewed Kula article after Olasuni | recorded_direction | Ahimanikya Satapathy | Integrate, separately review and publish Kula with credited photograph, incoming links and desktop/mobile checks. |
 | POD-DEC-20261126030 · Review and fix images captions layout and links in27 live articles | recorded_direction | Ahimanikya Satapathy | Existing 27-article collection; bounded live fixes and library synchronization under prior live publication authorization. |
+| POD-DEC-20261126304 · Prepare original Godabarish Mahapatra and Niankhunta article | recorded_direction | Ahimanikya Satapathy | Independent original preparation with credited image only; no site integration or publication |
+| POD-DEC-2026112693 · Next uncovered hill after completed Kula release and returned preparation slot | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
 | POD-DEC-20261126032 · Recover remaining twelve external sources and publish corrections | recorded_direction | Ahimanikya Satapathy | Twelve unresolved source targets from the prior27article live review; bounded articles and source-note updates to library and live website. Zero programme credit. |
 
 ## Reviews
@@ -1222,6 +1226,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026112691 | pass | True | — |
 | POD-REV-20261126030 | pass | True | — |
 | POD-REV-20261126302 | pass | True | — |
+| POD-REV-20261126304 | pass | True | — |
+| POD-REV-2026112693 | pass | True | — |
 | POD-REV-20261126032 | pass | True | — |
 
 ## Publication and application history
@@ -1553,13 +1559,13 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261126027 | 2026-11-25T20:44:07.468791+00:00 | Started the explicitly requested27-article image additions. Source and licence verification precedes integration; no discovery-creator images and zero programme credit. | — |
-| POD-EVT-20261126028 | 2026-11-25T21:25:24.710125+00:00 | 27 image choices and their rights/captions passed separate cross-review; integration code review passed after complete Explore credits and full-image framing fixes. Final rebuilt, package and hosted delivery checks remain pending; no publication claim and zero programme credit. | — |
-| POD-EVT-2026112692 | 2026-11-25T22:00:02.669995+00:00 | PR878/CI45698734939 and deployment45703571404 succeeded on exact reviewed merge931b8e6ac. Actual live article, photograph, notes and three previews passed root and separate delivery review. Makar PR877 preserved; evidence-only receipt review/check/merge still gates slot return. Zero programme credit. | — |
 | POD-EVT-20261126029 | 2026-11-25T22:48:08.084168+00:00 | Published 27 article images: 10 original illustrations and 17 openly licensed or public-domain images, with captions and rights details. Actual deployment and separate live verification passed; article text and 109 footnotes preserved. No discovery-creator material and zero programme credit. | — |
 | POD-EVT-20261126302 | 2026-11-25T22:52:25.393060+00:00 | Accepted merged Olasuni receipt417fcfdee and explicit slot return; started authorized Kula publication. Prior preparation and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-20261126030 | 2026-11-25T23:34:40.146055+00:00 | All27 article images and captions inspected at desktop1280 and mobile390, plus narrow320 credit checks; no crop/layout/credit defect. Four404 source targets in three articles queued for verified repair. Publication pending; zero programme credit. | — |
 | POD-EVT-20261126303 | 2026-11-26T00:43:40.471945+00:00 | PR883/CI45722295729 and deployment45726102962 attempt1 succeeded on exact reviewed mergedccfa463. Four live routes, six image files and thirteen root desktop/mobile captures passed separate delivery review, with measured encoding differences retained. Evidence-only receipt review, checks and actual merge still gate scope release. Zero programme credit. | — |
+| POD-EVT-20261126304 | 2026-11-26T01:14:54.331145+00:00 | After actual Kula receipt886 merge, began queued Godabarish Mahapatra/Niankhunta original preparation. Scoped coverage found no dedicated narrative; preserve distinct Godabarish Mishra identity. No publication or programme credit. | — |
+| POD-EVT-20261126305 | 2026-11-26T01:28:29.708408+00:00 | Original Godabarish Mahapatra/Niankhunta preparation and credited conceptual illustration passed separate source/media/integrated review. No Facebook text/image reuse, public integration or programme credit. Completion review/local commit and explicit handoff follow. | — |
+| POD-EVT-2026112693 | 2026-11-26T01:37:49.123940+00:00 | Verified Kula receipt886/CI45731660778 and reconciled reviewed Godabarish preparation aace6c370 after explicit handoff. Scoped coverage check selects Mahavinayak as next hill destination; preserve all preparation and foreign ownership. Zero programme credit. | — |
 | POD-EVT-20261126031 | 2026-11-26T01:25:59.174916+00:00 | Reviewed all27 article images/captions on desktop and mobile; no image/layout/credit changes needed. Four dead research targets repaired and published through PR884/run45730336857. Live six-view repaired-note review and separate29page/49image/109footnote checks passed. Twelve other access/transport limits retained. Zero programme credit; evidence-only receipt integration follows. | — |
 | POD-EVT-20261126032 | 2026-11-26T06:03:40.782562+00:00 | User authorized recovery of12remaining access-limited source links and live article/source-note updates. Reused prior audit; three bounded research scopes and separate quality review. No programme credit. | — |
 | POD-EVT-20261126033 | 2026-11-26T08:29:03.551634+00:00 | PR890 merged after successful required CI; publication45770278816 succeeded. Eight live pages and 16 desktop/mobile views verified. Ten exact archived originals, one official replacement and one retained UNESCO primary source; UNESCO direct-client connection limitation and recovered Dhemsa rate limiting recorded. Zero programme credit. | — |

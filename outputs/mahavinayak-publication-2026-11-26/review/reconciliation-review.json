@@ -1,0 +1,59 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "scope": "Bounded evidence-only PR887 reconciliation into reviewed Mahavinayak candidate, before merge commit. No fresh factual or live review of the incoming collection.",
+  "previous_candidate": "10de2b2fbcaf8b7bfad8bad6f8154e2526859d9b",
+  "incoming_merge": "f7788e79a0aebf55e011a94e90b6d0c3859ef078",
+  "common_base": "256136a6f7aabf6806ec583980d48bb9fd3a2122",
+  "reconciliation_record_sha256": "01c6a725d684ae08ee4c685ed9cd9de6ab853384d7bc4a6fba1f40f05b230c26",
+  "independent_checks": {
+    "base": "256136a6f7aabf6806ec583980d48bb9fd3a2122",
+    "incoming8": true,
+    "frozen21": true,
+    "protected113": true,
+    "registry_three_way": true,
+    "registry_errors": [],
+    "activity_original_lines_preserved": true,
+    "activity_ours_prefix": true,
+    "activity_unique_ids": true,
+    "foreign3": true,
+    "no_public_delta": true,
+    "no_unresolved": true,
+    "staged_paths": 13,
+    "working_matches_index": true
+  },
+  "reviewed_staged_delta_sha256": {
+    "kb/history/ledger.jsonl": "ef02c7b94f4299a630ca2e0026f414140813f6ca4beb8393c0e36b479a08c25b",
+    "kb/records/independent-articles-live-review-20261126.json": "ef5f6874ba53f497b8c6a531a77783f491b03848c17c14751675d67c4b424cbf",
+    "kb/records/mahavinayak-publication-20261126.json": "aa24094cfdf6836e2221fa7c4995dfc9adec8b164c54aaeaae9ecb5dc6f7d5d9",
+    "kb/registers/DASHBOARD.md": "6f2cf9d8dd3f5521cb815178c1e8d768335462c290769bc3df0cb806d75d2927",
+    "kb/registers/activity.jsonl": "9de08c8007982aeb1466d2a23007d96d118565e0b9c14a698b58af41559626e6",
+    "kb/registers/records.json": "ab6c63d7d7019b5822b881e02362e6f4067ae8385f8f39d5d6c3fd2d9dc594d5",
+    "outputs/independent-articles-live-review-20261126/handoff.json": "44bdee92842acd07760866a0fecc7d07e3856e868d10e6ec92a9419754f97b69",
+    "outputs/independent-articles-live-review-20261126/post-publication-browser.json": "f0d8e11af8161114891e84d8813ddffffe2142fe25c20677f2d2ae5d6c5cb097",
+    "outputs/independent-articles-live-review-20261126/post-publication-network.json": "01ad205e48ad1a9fdbddd264c4b147238de39a9f03f541b1521f8a7d9fb0491e",
+    "outputs/independent-articles-live-review-20261126/post-publication-source-links.json": "cb4362218b767ae9b06abf1aa7e0d132588c121965838bfa0a57021d7375d473",
+    "outputs/independent-articles-live-review-20261126/publication-receipt.json": "de0f2660007aa28abb4591d7814b34bd255ba3d843989dd68e7a11feaf893d06",
+    "outputs/independent-articles-live-review-20261126/receipt-review.json": "12fa2332deb5bae8dfe7108392e912b838652e5a68b16050030b2c9992544e84",
+    "outputs/mahavinayak-publication-2026-11-26/reconciliation.json": "01c6a725d684ae08ee4c685ed9cd9de6ab853384d7bc4a6fba1f40f05b230c26"
+  },
+  "findings": [
+    "All eight incoming nonshared files are byte-exact to incoming merge and stated hashes. No incoming evidence was reinterpreted as this reviewer’s fresh factual approval.",
+    "Independent stable-ID three-way comparison reproduces all registry changes without divergent same-record conflict. Incoming WORK/REV/REL20261126030 preserved; existing own and Godabarish rows retained.",
+    "Activity retains exact original lines from both branches, exact prior candidate prefix plus incoming addition, and unique IDs. Generated dashboard check independently passes1442 records/899 events.",
+    "All21 frozen public/build inputs and113 protected preparation blobs remain exact. All three foreign ownership fields match prior reviewed candidate. No staged projects/site, kb/research or kb/media delta against reviewed candidate.",
+    "Canonical changes are bounded reconciliation evidence plus reported next-slot instruction. Wording explicitly says reported_direct_instruction, not independent attestation of another chat’s human instruction. Handoff requires actual separately reviewed Mahavinayak receipt merge; no Godabarish publication occurs in this candidate.",
+    "All13 staged delta paths match working bytes and no unresolved index entries remain. Local package evidence remains applicable because public/build inputs are exact."
+  ],
+  "blockers": [],
+  "remaining_gates": [
+    "Commit reconciled candidate and perform separate exact-head continuity review.",
+    "Fresh required CI on combined head; prior running CI cannot certify the combined commit.",
+    "Actual hosted capacity, deployment, fresh live review and reviewed receipt merge remain pending."
+  ],
+  "limits": [
+    "No pipeline repeated, public/shared records modified, copies made or browser actions performed by reviewer.",
+    "The review does not independently attest PR887 factual research or its historical live results; it verifies preservation.",
+    "Prior exact-candidate report outside checkout remains unchanged."
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "status": "final_preparation_source_review_pass",
+  "reviewed_on": "2026-11-26",
+  "reviewer": "Anvesha, task-scoped AI source researcher; no human specialist review",
+  "topic": "Godabarish Mahapatra and Niankhunta",
+  "claim": "kb/records/godabarish-niankhunta-preparation-20261126.json",
+  "input_head": "256136a6f7aabf6806ec583980d48bb9fd3a2122",
+  "preparation_only": true,
+  "discovery": {
+    "url": "https://www.facebook.com/groups/AntarangaKalinga/posts/2210227859528247/",
+    "role": "User-provided topic only; not used as factual authority or prose/media source; no Facebook copy or translation."
+  },
+  "reuse": {
+    "method": "Research-map methods and editorial standard read; query_research.py Godabarish returned no dedicated entry; parent corpus check and inspected source mention distinguish names.",
+    "queue": [
+      "RES-025",
+      "RES-026"
+    ],
+    "source": "kb/research/sources/literature-and-screen-expansion-2026-10-29.json",
+    "locator": "other_candidates Godabarish Mishra, lines217–222",
+    "finding": "Existing anthology/film lead distinguishes Mishra from Mahapatra, author of Magunira Sagada; no dedicated Mahapatra/Niankhunta narrative identified.",
+    "scope": "This is a scoped novelty check, not proof of exhaustive semantic deduplication."
+  },
+  "angle": "Read the writer through the periodical as a working literary form: prose commentary, verse, notices and printing credits. Connect his founding editorial role with poetry recognised by the1966 award. Do not convert unsigned magazine items into personal authorship.",
+  "sources": [
+    {
+      "id": "godabarish-ora2004-profile",
+      "family": "odisha-reference-annual2004",
+      "title": "Eminent Literary Luminaries of Orissa, Orissa Reference Annual2004",
+      "author": "Government of Odisha; individual entry author not stated",
+      "date": "2004",
+      "url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf#page=14",
+      "accessed": "2026-11-26",
+      "type": "Official retrospective biographical reference",
+      "locator": "PDF14/printed297, Godabarish Mohapatra entry; separate Godabarish Mishra entry earlier in same PDF.",
+      "inspection": "Original PDF downloaded; extracted text and complete rendered printed297 personally read.",
+      "original_temporary_path": "/tmp/godabarish-luminaries.pdf",
+      "sha256": "296005ff0bd0c657518355c9209d2314d0aae176a297535d60efaddf03999f50",
+      "capture": "outputs/godabarish-niankhunta-20261126/research/official-p297.png",
+      "claims": [
+        "Identifies Mohapatra as founding editor of Niankhunta, poet and short-story writer.",
+        "Records study at Satyabadi Bana Bidyalaya and influence of Gopabandhu and Harihar.",
+        "Records death on25November1965."
+      ],
+      "limits": [
+        "Exact birthdate here January10,1898 conflicts with Brahma cover01.10.1898; do not adopt exact birthday.",
+        "No founding year supplied in this profile.",
+        "Award title/year should derive from Akademi's own register."
+      ],
+      "access_limit": "Web open timed out; urllib SSL failed because server certificate expired. Public credential-free PDF retrieved with curl-k; this transport exception is recorded, not concealed.",
+      "derived_word_ceiling": 200
+    },
+    {
+      "id": "godabarish-brahma-monograph",
+      "family": "gouri-kumar-brahma-monograph",
+      "title": "Godavarish Mahapatra: A Monograph",
+      "author": "Prof. Gouri Kumar Brahma",
+      "date": null,
+      "date_note": "Undated scan; no publisher or release date established from pages inspected.",
+      "url": "https://drive.google.com/uc?export=download&id=1tPUCTFWvmaJrFKCiuDx5eKcrqDHm7qkG",
+      "discovery_url": "https://odiabibhaba.in/en/magazines/niankhunta-e/",
+      "type": "Named retrospective biographical essay; not contemporaneous testimony",
+      "accessed": "2026-11-26",
+      "locator": "TitlePDF1; printed2/PDF3 identity/mentor passage; printed3–4/PDF4–5 literary discussion and1938 publication statement.",
+      "inspection": "Original20-page scan downloaded. Title andPDF2–5 visually inspected; no claim to reading entire monograph.",
+      "original_temporary_path": "/tmp/godabarish-bio.pdf",
+      "sha256": "7d97d65830133c71580ad70dca8e1e899627407bf35b8b3f700e7c789772cb41",
+      "captures": [
+        "outputs/godabarish-niankhunta-20261126/research/brahma-title.png",
+        "outputs/godabarish-niankhunta-20261126/research/brahma-p2.png",
+        "outputs/godabarish-niankhunta-20261126/research/brahma-p4.png"
+      ],
+      "claims": [
+        "Brahma dates the beginning of Niankhunta publication to1938.",
+        "Brahma distinguishes Pandit Godavarish Mishra as mentor from the subject Mahapatra.",
+        "Brahma discusses humour, social criticism and sympathy for suffering in the writer's work; such interpretation must be attributed."
+      ],
+      "limits": [
+        "Celebratory and sometimes sweeping account; do not adopt universal acclaim, exclusive authorship, lone production or readership claims.",
+        "Claim of cover-to-cover personal authorship cannot be assumed for unsigned pieces and is complicated by actual issue imprint/editor change.",
+        "No exact birthday, ancient-history generalizations, health or social-group claims used."
+      ],
+      "derived_word_ceiling": 200
+    },
+    {
+      "id": "godabarish-niankhunta-vol1-scan",
+      "family": "niankhunta-original-periodical",
+      "title": "Niankhunta, volume1 holdings,1938–39",
+      "author": "Periodical contributors; specific unsigned items not assigned to Godabarish Mahapatra",
+      "date": "1938–39 archive volume label; inspected pages show1938 issues",
+      "url": "https://drive.google.com/uc?export=download&id=1PwE1DA65NGjmbShAyHKVfOmErDy9hB19",
+      "archive_url": "https://odiabibhaba.in/en/magazines/niankhunta-e/",
+      "type": "Primary periodical scan; digitised and presented by Srujanika/Odia Bibhaba",
+      "accessed": "2026-11-26",
+      "locator": "179-page PDF; personally inspectedPDF1–8. PDF6 notices, PDF7 English imprint, PDF8 two-column prose and short verse.",
+      "inspection": "Original downloaded successfully; local page renders visually inspected. This is the first-volume file, not the inaugural issue: its opening cover is damaged and labelled eighth number.",
+      "original_temporary_path": "/tmp/godabarish-issue1.pdf",
+      "sha256": "e6ee9ca934ffd59a95a1a1c0d196f07d98a9b31ec82dbfb24fb89114c683381e",
+      "captures": [
+        "outputs/godabarish-niankhunta-20261126/research/issue-pdf1.png",
+        "outputs/godabarish-niankhunta-20261126/research/issue-pdf6.png",
+        "outputs/godabarish-niankhunta-20261126/research/issue-pdf7.png",
+        "outputs/godabarish-niankhunta-20261126/research/issue-pdf8.png"
+      ],
+      "claims": [
+        "Surviving early pages combine prose commentary, verse, advertisements and notices.",
+        "PDF7 imprint credits D.M.Pattajosi as editor and a press at Berhampur(Ganjam); PDF6 contains editorial-change notice."
+      ],
+      "limits": [
+        "Do not claim this file begins with issue1 or verifies the exact inaugural day.",
+        "Do not attribute unsigned prose/verse or every issue's editorial labour to Mahapatra.",
+        "Damaged type and date headers warrant restraint; no translated poem or uncertain title interpretation adopted.",
+        "Press-name vowel uncertain: initial Sarada reading disputed by separate reviewer as possibly Surada. Do not adopt a definite press name; actual printed location Berhampur is clear."
+      ],
+      "derived_word_ceiling": 200,
+      "rights": "No explicit reuse licence established for scans, artwork or portrait. Internal page-review evidence only; availability does not authorize public image reuse."
+    },
+    {
+      "id": "godabarish-sahitya-award1966",
+      "family": "sahitya-akademi-official",
+      "title": "Sahitya Akademi Awards: Odia",
+      "author": "Sahitya Akademi",
+      "date": "Undated current register; historical1966 entry",
+      "url": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp#ODIA",
+      "accessed": "2026-11-26",
+      "type": "Primary awarding institution register",
+      "locator": "HTML ODIA anchor aroundline4878;1966 row lines5178–5180; asterisk explanation line315.",
+      "inspection": "Original475KB HTML retrieved withcurl and exact Odia row plus asterisk key read locally. Earlier web502 did not prevent original retrieval.",
+      "original_temporary_path": "/tmp/godabarish-awards.html",
+      "sha256": "7528111e848a331c156d5ce0838b83585ab0c91ffa983fb1da9b01d5766a5705",
+      "claims": [
+        "1966 award entry lists Banka O Sidha as Poetry and author Godavarish Mahapatra.",
+        "The author is marked with an asterisk; the register explicitly defines that mark as posthumous awards."
+      ],
+      "limits": [
+        "Award is recognition of named book, not proof of specific poem meaning.",
+        "Do not confuse this row with Mishra's1958 autobiographical award.",
+        "Parent's2017 Akademi newsletter is optional and would share institutional family if adopted; not needed for current packet."
+      ],
+      "derived_word_ceiling": 200
+    },
+    {
+      "id": "godabarish-bibhaba-niankhunta-index",
+      "family": "srujanika-archive-description",
+      "title": "Niankhunta archive",
+      "author": "Odia Bibhaba / Srujanika",
+      "date": null,
+      "url": "https://odiabibhaba.in/en/magazines/niankhunta-e/",
+      "accessed": "2026-11-26",
+      "type": "Archive's own holdings/provenance description; retrospective biographical introduction derivative of Sambad Sahitya Kosha",
+      "locator": "Web extraction lines17–18 missing issues/donor; holdings table lines22–66; introline12 source attribution.",
+      "inspection": "Original landing fully read through web tool; mirror n1obin earlier Cache miss and direct download403, no saved originalHTML claimed.",
+      "claims": [
+        "Lists available digitised Niankhunta issues with missing issues explicitly acknowledged.",
+        "Credits most supplied copies to Bhabani Shankar Mahapatra, son of the writer and sometime joint editor.",
+        "Holdings include post1965 issues; index extends to1977."
+      ],
+      "limits": [
+        "Do not convert available holdings into complete publication chronology.",
+        "Birth1998 typo and repeatedintro paragraphs quarantined; exactfoundationday not verified by original inaugural issue.",
+        "Do not count historical claims in derivativeintro as independent corroboration of Brahma or originalperiodical."
+      ],
+      "derived_word_ceiling": 200
+    }
+  ],
+  "claim_matrix": [
+    {
+      "claim": "Founding editor; poet and short-story writer",
+      "sources": [
+        "godabarish-ora2004-profile"
+      ]
+    },
+    {
+      "claim": "1938 beginning",
+      "sources": [
+        "godabarish-brahma-monograph"
+      ],
+      "wording": "Attribute to Brahma; archive landing agrees but is a retrospective derivative. No exact founding day."
+    },
+    {
+      "claim": "Actual printed magazine mixed forms and had credited printing/editing labour",
+      "sources": [
+        "godabarish-niankhunta-vol1-scan"
+      ],
+      "wording": "Describe the inspected pages; avoid personal authorship of unsigned material."
+    },
+    {
+      "claim": "1966 posthumous poetry award for Banka O Sidha",
+      "sources": [
+        "godabarish-sahitya-award1966"
+      ]
+    },
+    {
+      "claim": "Namesake distinction",
+      "sources": [
+        "godabarish-brahma-monograph",
+        "godabarish-ora2004-profile"
+      ]
+    }
+  ],
+  "quarantined": [
+    "Exact birth day/month: conflicting renderings and obvious landing typo.",
+    "1936 founding from OVA versus1938 retrospective accounts; prefer attributed1938 and primary1938 issue evidence, no claim of exhaustive reconciliation.",
+    "Single-handed or cover-to-cover personal authorship.",
+    "Exact meaning/translation of unfamiliar unsigned verse.",
+    "Public portrait/scan licence not established; media worker handles independent rights."
+  ],
+  "budgets": {
+    "method": "Each family200 derived words maximum across final article, relevant title/dek, notes and substantive brief. The1938 periodical itself and modern archive holdings/provenance statement are separate authorship/date/claim families; mirrors and derivative historicalintro are never extra corroboration. Identical reading delivery counted once. No quotedverse planned.",
+    "proposed_body_targets": {
+      "official_profile": 70,
+      "brahma": 85,
+      "original_periodical": 110,
+      "archive_description": 70,
+      "akademi": 65
+    },
+    "status": "Final manuscript needs separate actual allocation audit.",
+    "family_scope_revision": "Initial provisional dossier grouped originalscan and modernarchive conservatively. Final attribution separates primary printed content from archivist-authored holdings/provenance claims, which neither reproduce nor corroborate the same passage."
+  },
+  "access_evidence": "outputs/godabarish-niankhunta-20261126/research/source-captures.json",
+  "final_audit": "outputs/godabarish-niankhunta-20261126/research/source-audit.json",
+  "final_manuscript_sha256": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+  "final_preparation_family_words": {
+    "official_profile": 171,
+    "brahma": 199,
+    "original_periodical": 154,
+    "akademi": 108,
+    "archive_description": 95
+  },
+  "remaining": "No source blocker; preparation research scope released. Later changes require a bounded continuity review; no publication authority implied."
+}

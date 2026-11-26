@@ -34,18 +34,20 @@ test('Mardala delivery preserves the source frame, credit metadata and originals
  }finally{await rm(dir,{recursive:true,force:true});}
 });
 
-test('Sahi delivery keeps the reviewed portrait orientation, credits and originals while correcting only its displayed share dimensions',async()=>{
+test('Sahi delivery keeps the reviewed portrait orientation, credits and originals while correcting only its displayed share dimensions',async(t)=>{
  const dir=await mkdtemp(path.join(tmpdir(),'publication-sahi-jpeg-'));
  try{
  const asset='assets/sahi-jatra/performer.jpg',page='stories/sahi-jatra/index.html';
  const sourceURL=new URL('../public/'+asset,import.meta.url),source=await readFile(sourceURL);
  const credit='<a href="https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg">Prateek Pattanaik, 2018</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; reproduced without alteration.';
  const html='<meta property="og:image" content="https://projectodisha.org/'+asset+'"><meta property="og:image:width" content="3264"><meta property="og:image:height" content="4928"><meta name="unrelated:width" content="3264"><figure><img src="/'+asset+'" width="3264" height="4928"><figcaption>'+credit+'</figcaption></figure><p>Unrelated article text.</p>';
- await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});await writeFile(path.join(dir,asset),source);
+ await mkdir(path.dirname(path.join(dir,asset)),{recursive:true});
+ if(process.platform==='darwin')execFileSync('python3',[fileURLToPath(new URL('../tools/cow_copy.py',import.meta.url)),fileURLToPath(sourceURL),path.join(dir,asset)],{stdio:'pipe'});
+ else await copyFile(sourceURL,path.join(dir,asset)); // Existing explicit non-macOS fixture policy; independent file.
  await mkdir(path.dirname(path.join(dir,page)),{recursive:true});await writeFile(path.join(dir,page),html);
  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
  assert.equal(result.files.length,1);assert.equal(result.files[0].path,asset);
- assert.deepEqual(result.files[0].settings,{maximum_dimension:2400,quality:95,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:2400,quality:88,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
  const output=await readFile(path.join(dir,asset)),actual=await sharp(output).metadata(),original=await sharp(source).metadata();
  assert.deepEqual([actual.width,actual.height,actual.orientation],[2400,1590,8]);
  assert.deepEqual([actual.autoOrient.width,actual.autoOrient.height],[1590,2400]);
@@ -53,6 +55,10 @@ test('Sahi delivery keeps the reviewed portrait orientation, credits and origina
  // EXIF MakerNote bytes are not promised unchanged; the exact original remains available.
  const current=await sharp(source).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
  assert.ok(current.length-output.length>850000);
+ const previousDelivery=await sharp(source).resize({width:2400,height:2400,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(previousDelivery.length-output.length>700000);
+ assert.deepEqual(actual.exif,(await sharp(previousDelivery).metadata()).exif);
+ t.diagnostic('Sahi capacity measurement: '+JSON.stringify({...result.files[0],incremental_saved_bytes:previousDelivery.length-output.length}));
  assert.equal(await readFile(path.join(dir,page),'utf8'),html.replace('reproduced without alteration.','resized and compressed for web delivery without cropping.').replace('property="og:image:width" content="3264"','property="og:image:width" content="1590"').replace('property="og:image:height" content="4928"','property="og:image:height" content="2400"'));
  assert.ok((await readFile(sourceURL)).equals(source));
  const wrongOrientation=await sharp(source).withMetadata({orientation:1}).jpeg({quality:100}).toBuffer();

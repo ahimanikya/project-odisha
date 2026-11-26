@@ -1,0 +1,57 @@
+{
+  "status": "no_cleared_authentic_image_selected",
+  "checked_on": "2026-11-26",
+  "scope": "Bounded preparation-only media search; no Facebook media reused, no image generated.",
+  "queries": [
+    "site:commons.wikimedia.org \"Godabarish Mahapatra\"",
+    "\"Godabarish Mahapatra\" portrait copyright",
+    "\"Niankhunta\" cover archive",
+    "site:commons.wikimedia.org \"Godabarish\" \"Mahapatra\" -Mishra -Mishra.png",
+    "site:commons.wikimedia.org \"Godabarisa\" \"Mohapatra\"",
+    "site:commons.wikimedia.org \"Niankhunta\"",
+    "site:commons.wikimedia.org \"ଗୋଦାବରୀଶ ମହାପାତ୍ର\""
+  ],
+  "candidates": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Godabarisha_Mishra.png",
+      "decision": "Rejected unresolved identity and underlying drawing rights.",
+      "evidence": "File title/category and redirect identify Mishra. Description instead says Mahapatra, naming Sunamani Samal as original artist. Uploader Prateek Pattanaik declares CC BY-SA4.0 for vectorization; this does not resolve contradictory identity or separately establish underlying artwork rights.",
+      "api_revision": 1274946971
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Godavarish_Mohapatra_(mural).jpg",
+      "decision": "Unavailable",
+      "evidence": "Search surfaced a user-talk filename. Original Commons API marks file missing, with no imageinfo. No deletion reason inferred."
+    },
+    {
+      "source": "https://ova.gov.in/en/Author?aid=xrOnV%2FY9xq0%3D",
+      "decision": "Not cleared",
+      "evidence": "Author page includes portrait but no image creator or reusable licence located; footer reserves rights. Government hosting alone not treated as photo permission."
+    },
+    {
+      "source": "https://odiabibhaba.in/en/magazines/niankhunta-e/",
+      "decision": "Not cleared",
+      "evidence": "Issue index and download links found. No inspected cover-specific licence, artist attribution or other clearance established. Digitization/access not treated as republication permission."
+    }
+  ],
+  "raw_evidence": {
+    "path": "outputs/godabarish-niankhunta-20261126/media/commons-candidates-api.json",
+    "sha256": "2f92f93a9640aca967c41e0e02ecc34abf978cf4fbb3388c48d6e33b78714c35",
+    "method": "Commons original-domain API query, imageinfo/extmetadata/revision wikitext for three exact filenames"
+  },
+  "visual_inspection": "No candidate accepted or downloaded as an article image; no claim of personally inspecting an accepted portrait or scan. Identity/rights failures were established from source metadata.",
+  "recommended_alternative": {
+    "status": "Await coordinator decision; not generated",
+    "kind": "Original conceptual editorial illustration",
+    "proposal": "Plain folded periodical sheets and pen with a restrained ember motif; no portrait, named issue, historical masthead, date or invented newsroom.",
+    "proposed_caption": "Editorial illustration of writing and a satirical periodical.",
+    "proposed_credit": "Illustration: Project Odisha.",
+    "limits": "Must be clearly an illustration, not an authentic issue, personal belongings or historical scene."
+  },
+  "capacity": {
+    "latest_public_headroom_bytes": 104547,
+    "derivative_bytes": null,
+    "note": "No selected image or derivative. Preparation originals need not fit public headroom; later publication requires fresh measurement."
+  },
+  "rights_limit": "No inference that a portrait or periodical cover is public domain from the writer’s death date. Search was bounded, not proof no licensed image exists."
+}

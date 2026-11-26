@@ -1,0 +1,61 @@
+{
+  "status": "implemented_and_targeted_tests_pass",
+  "authorization": "Root instruction after actual root/Drishti proposal visual acceptance",
+  "separate_review": "outputs/mahavinayak-publication-2026-11-26/review/capacity-review.json",
+  "changed_files": {
+    "projects/site/tools/optimize-publication-jpeg.mjs": "9e8dd31a977b8d9618e9edeca631a9430824ba90070f815c5e849564f5397113",
+    "projects/site/tests/publication-jpeg.test.mjs": "bd42f1f579ba68f80af7a4832a07cdb3b854e7b79c2e9a121c53f3b1a930649b"
+  },
+  "optimizer_diff": "Only existing Sahi settings quality95→88; maxdimension2400 unchanged. Exact comparison against HEAD proves every other optimizer byte unchanged.",
+  "allowlist_count": 10,
+  "other_entries_unchanged": 9,
+  "source": {
+    "public": "projects/site/public/assets/sahi-jatra/performer.jpg",
+    "kb": "kb/research/media/sahi-jatra/performer.jpg",
+    "bytes": 8825988,
+    "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+    "kb_sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5"
+  },
+  "actual_test_output": {
+    "bytes": 1005040,
+    "sha256": "a4dc1a5d901bfa3c40e20966c2bb89733ea5e13550c86b02a85d7d100c838aac",
+    "stored_dimensions": [
+      2400,
+      1590
+    ],
+    "orientation": 8,
+    "displayed_dimensions": [
+      1590,
+      2400
+    ],
+    "incremental_saved_bytes": 721873,
+    "saved_from_original_bytes": 7820948,
+    "matches_reviewed_proposal": true
+  },
+  "regression": {
+    "command": "node --test projects/site/tests/publication-jpeg.test.mjs",
+    "result": "PASS",
+    "passed": 10,
+    "failed": 0,
+    "checks": [
+      "exact ten-image allowlist",
+      "approved quality88 settings",
+      "same source frame and orientation8",
+      "unchanged1590×2400 sharing correction",
+      "source ICC/IPTC/XMP and density preserved",
+      "EXIF equal to prior2400/q95 derivative, not asserted equal to source",
+      "incremental saving above700000 bytes",
+      "original source unchanged",
+      "wrong orientation, unrelated sharing image, wrong width and duplicate caption rejected without mutating fixture",
+      "all other existing image tests preserved"
+    ],
+    "fixture_copy": "Sahi initial fixture now uses existing clone-aware helper on macOS, existing explicit independent-file Linux fallback elsewhere; no source hardlink."
+  },
+  "diff_check": "PASS",
+  "limits": [
+    "No full builds or deployment performed; root must verify final package capacity and emitted/live outputs.",
+    "Original EXIF MakerNote differs in both prior and new delivery derivative; exact originals retained. Lossy recompression is not pixel-identical.",
+    "Reported savings measured on installed macOS decoder/encoder; Linux output bytes must be measured independently."
+  ],
+  "scope_released": true
+}

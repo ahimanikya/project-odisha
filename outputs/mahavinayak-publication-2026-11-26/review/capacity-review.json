@@ -1,0 +1,126 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "date": "2026-11-26",
+  "scope": "Bounded proposal approval for implementation, not implemented or emitted-package acceptance.",
+  "proposal_sha256": "01a2a1ba95ec4995ed8ded44bb91fc2c2a3e829f3acca591d22a7e97caa99ffb",
+  "approved_change": "Only existing assets/sahi-jatra/performer.jpg delivery quality95→88; retain maximum_dimension2400, 4:4:4 mozjpeg, keepMetadata, full frame, source files, existing caption, URL and orientation8 sharing correction.",
+  "source": {
+    "path": "projects/site/public/assets/sahi-jatra/performer.jpg",
+    "bytes": 8825988,
+    "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+    "sha1": "f655ea7c78024194ee93b8ad818b7f9efb7f5973",
+    "width": 4928,
+    "height": 3264,
+    "orientation": 8,
+    "density": 300,
+    "metadata": {
+      "exif": {
+        "bytes": 65532,
+        "sha256": "d47ddec9ceb0b65cf2c2c89722df0b8366ca91f0b83f85aaa77cabf14a825b3e"
+      },
+      "icc": null,
+      "iptc": null,
+      "xmp": null
+    }
+  },
+  "kb_original": {
+    "path": "kb/research/media/sahi-jatra/performer.jpg",
+    "bytes": 8825988,
+    "sha256": "461acabe2ad87b0ce7a4eb0f8906f0bef98765094b0b53874383cde431bc0ec5",
+    "sha1": "f655ea7c78024194ee93b8ad818b7f9efb7f5973",
+    "width": 4928,
+    "height": 3264,
+    "orientation": 8,
+    "density": 300,
+    "metadata": {
+      "exif": {
+        "bytes": 65532,
+        "sha256": "d47ddec9ceb0b65cf2c2c89722df0b8366ca91f0b83f85aaa77cabf14a825b3e"
+      },
+      "icc": null,
+      "iptc": null,
+      "xmp": null
+    }
+  },
+  "current_local_delivery": {
+    "path": "projects/site/dist-publish/assets/sahi-jatra/performer.jpg",
+    "bytes": 1726913,
+    "sha256": "c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12",
+    "sha1": "66d9f4c3bdcf3330629a45df97221462f037b78b",
+    "width": 2400,
+    "height": 1590,
+    "orientation": 8,
+    "density": 300,
+    "metadata": {
+      "exif": {
+        "bytes": 20949,
+        "sha256": "9139817be773015528631c12cfcfff600d5712a0ed6480ba29dd8e56e3f460b9"
+      },
+      "icc": null,
+      "iptc": null,
+      "xmp": null
+    }
+  },
+  "selected_candidate": {
+    "path": "outputs/mahavinayak-publication-2026-11-26/capacity/sahi-jatra-2400-q88.jpg",
+    "bytes": 1005040,
+    "sha256": "a4dc1a5d901bfa3c40e20966c2bb89733ea5e13550c86b02a85d7d100c838aac",
+    "sha1": "c80b89f10d173b425cf8ff6b671d8cd8fe12783b",
+    "width": 2400,
+    "height": 1590,
+    "orientation": 8,
+    "density": 300,
+    "metadata": {
+      "exif": {
+        "bytes": 20949,
+        "sha256": "9139817be773015528631c12cfcfff600d5712a0ed6480ba29dd8e56e3f460b9"
+      },
+      "icc": null,
+      "iptc": null,
+      "xmp": null
+    }
+  },
+  "independent_reproduction": {
+    "q95": {
+      "sha256": "c0fd66cb04e6eb097b1097eaf2179625f20f2cb6bcd5b36f18e13d6e8fff2e12",
+      "bytes": 1726913,
+      "equalsReviewed": true
+    },
+    "q88": {
+      "sha256": "a4dc1a5d901bfa3c40e20966c2bb89733ea5e13550c86b02a85d7d100c838aac",
+      "bytes": 1005040,
+      "equalsReviewed": true
+    }
+  },
+  "geometry": "Encoded2400×1590 with EXIF orientation8; actual display1590×2400. Source encoded4928×3264 orientation8. Full frame and existing share-dimension correction remain required.",
+  "metadata": "Candidate EXIF20949 bytes is byte-identical to the existing q95 delivery; source EXIF65532 differs. ICC/IPTC/XMP are absent in all three. Density300 and orientation8 retained. No all-original-metadata identity claim; original remains unchanged.",
+  "visual_review": {
+    "method": "Viewed current/candidate full-frame and detail inspections, then directly viewed the actual selected q88 JPEG. Independently decoded and viewed the source as a temporary oriented full-frame inspection image.",
+    "source_inspection": "/private/tmp/drishti-sahi-original-inspection.jpg",
+    "source_inspection_sha256": "9786da5fde631b594b40db15bb4942970c84701bd6a85c3e532995ca2c5ae72c",
+    "finding": "Performer, full costume frame, reflective ornament and coloured background remain legible at reviewed display sizes. No conspicuous degradation preventing editorial use. This is lossy recompression, not pixel identity. Earlier generically named candidate inspections are not relied upon to establish q88 identity; the actual q88 file and independent reproduction do."
+  },
+  "capacity": {
+    "current_bytes": 1726913,
+    "candidate_bytes": 1005040,
+    "saving": 721873,
+    "prepared_new_image_family": 701322,
+    "historical_linux_headroom": 104547,
+    "projected_remaining_before_article_html": 125098,
+    "q90_rejected_margin": -20127,
+    "finding": "Arithmetic is correct. q90 does not cover the selected new image family; q88 is the highest proposed quality with positive projected margin. Actual new HTML and current Linux output still decide release feasibility."
+  },
+  "implementation_conditions": [
+    "Change only the existing Sahi entry quality override and corresponding meaningful regression expectations.",
+    "Preserve source/KB/full/coast originals, full-frame orientation, existing photo credit, caption and OG/Twitter dimensions.",
+    "Independently verify actual emitted candidate hash, source preservation and rendered affected figure after build.",
+    "Require actual strict publication and Linux payload gates; projected margin is not publication approval."
+  ],
+  "blockers": [],
+  "limitations": [
+    "No optimizer, source, public asset or shared record was edited by this reviewer.",
+    "New reports and temporary inspection images are generated review evidence, not copied snapshots.",
+    "No human review, full package acceptance or live delivery approval is claimed."
+  ]
+}

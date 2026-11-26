@@ -13,6 +13,7 @@ import tensaImage from '../../../../kb/research/destinations/tensa-image.json';
 import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-image.json';
 import malayagiriImage from '../../../../kb/research/destinations/malayagiri-image.json';
 import gonasikaImage from '../../../../kb/research/destinations/gonasika-image.json';
+import mahavinayakImage from '../../../../kb/research/places/mahavinayak-image.json';
 import olasuniImage from '../../../../kb/research/places/olasuni-image.json';
 import baruneiImage from '../../../../kb/research/places/barunei-image.json';
 import kalingaGhatiImage from '../../../../kb/research/destinations/kalinga-ghati-image.json';
@@ -198,4 +199,14 @@ export const olasuniGuide = {
  aliases: [],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide,olasuniGuide].filter(guide => allowsPage(guide.href));
+export const mahavinayakGuide = {
+ title: 'Mahavinayak',
+ odia: '',
+ summary: 'A pilgrimage hill and a stone associated with five deities.',
+ href: '/destinations/mahavinayak/',
+ photo: mahavinayakImage,
+ regions: ['Jajpur'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide,olasuniGuide,mahavinayakGuide].filter(guide => allowsPage(guide.href));
