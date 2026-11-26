@@ -11054,15 +11054,17 @@
       "id": "POD-WORK-20261126306",
       "title": "Publish Godabarish Mahapatra and Niankhunta",
       "category": "editorial_and_website",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with separately scoped Anvesha, Samanta and Drishti",
       "authorization": "POD-DEC-20261126306",
-      "next_action": "Review prepared source, integrate article and previews, resolve capacity, check local layouts and required checks before publication.",
+      "next_action": "Complete separate receipt reviews, required checks and actual merge; explicitly return sole article slot with observed merge/check evidence.",
       "blockers": [],
       "refs": [
-        "POD-DEC-20261126306"
+        "POD-DEC-20261126306",
+        "POD-REV-20261126306",
+        "POD-REL-20261126306"
       ],
       "evidence": [
         "records/godabarish-publication-20261126.json"
@@ -26906,6 +26908,24 @@
       ],
       "independent": true,
       "summary": "Independent repair review passed for all 12 source mappings and 109 footnotes; original source provenance and images preserved. Required CI and publication succeeded. Live verification covered eight pages and 16 desktop/mobile views. Direct UNESCO access limitation is recorded separately; its official content remains readable through the web reader."
+    },
+    {
+      "id": "POD-REV-20261126306",
+      "title": "Godabarish source, illustration, implementation and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261126306",
+        "POD-DEC-20261126306"
+      ],
+      "evidence": [
+        "records/godabarish-publication-20261126.json"
+      ],
+      "summary": "Separate source/media/code/rendered/package/exact-commit and fresh live delivery reviews passed. Five routes, six scoped images plus original cross-check and19rootcaptures inspected; one measured existing encoding difference accepted with raw differences and framing limits retained. No human specialist claim."
     }
   ],
   "releases": [
@@ -31541,6 +31561,21 @@
       ],
       "evidence": [
         "records/mahavinayak-publication-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261126306",
+      "title": "Godabarish Mahapatra and the Pages of Niankhunta with credited illustration",
+      "status": "published",
+      "authorization": "POD-DEC-20261126306",
+      "destination": "https://projectodisha.org/stories/godabarish-mahapatra-and-niankhunta/",
+      "refs": [
+        "POD-WORK-20261126306",
+        "POD-DEC-20261126306",
+        "POD-REV-20261126306"
+      ],
+      "evidence": [
+        "records/godabarish-publication-20261126.json"
       ]
     }
   ],

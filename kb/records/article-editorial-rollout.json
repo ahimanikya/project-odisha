@@ -25654,15 +25654,30 @@
       "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",
       "route": "/stories/godabarish-mahapatra-and-niankhunta/",
       "title": "Godabarish Mahapatra and the Pages of Niankhunta",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "Disha",
       "scope": "Original literature article with credited conceptual illustration; zero programme credit.",
       "source_template": "projects/site/src/pages/stories/godabarish-mahapatra-and-niankhunta.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/godabarish-publication-20261126.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/godabarish-publication-20261126.json",
+      "delivery": {
+        "url": "https://projectodisha.org/stories/godabarish-mahapatra-and-niankhunta/",
+        "pull_request": 893,
+        "deployment_run": 45878664614,
+        "receipt": "records/godabarish-publication-20261126.json"
+      }
     }
   ]
 }

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `83c00301580c4a1d8c27ecce4a6a877799d0951dfe3934a320d7608f5f6544b8`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `95f241cff3bebce6f308bb51ce3b35fce39f1b9d0417c826c0c7fda7e3340861`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -434,7 +434,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261126304 · Prepare Godabarish Mahapatra and Niankhunta article | completed | draft | Ahimanikya Satapathy | Prepared and separately reviewed; return slot after reviewed local commit. No publication authorized. | — |
 | POD-WORK-2026112693 · Research, review and publish Mahavinayak | completed | published | Ahimanikya Satapathy | Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Godabarish publication slot. | — |
 | POD-WORK-20261126032 · Recover twelve unreliable source links in the27article collection | completed | published | Ahimanikya Satapathy | Completed; external-access observations and actual live publication are recorded in the receipt. | — |
-| POD-WORK-20261126306 · Publish Godabarish Mahapatra and Niankhunta | in_progress | draft | Ahimanikya Satapathy | Review prepared source, integrate article and previews, resolve capacity, check local layouts and required checks before publication. | — |
+| POD-WORK-20261126306 · Publish Godabarish Mahapatra and Niankhunta | completed | published | Ahimanikya Satapathy | Complete separate receipt reviews, required checks and actual merge; explicitly return sole article slot with observed merge/check evidence. | — |
 
 ## Pending human review and decisions
 
@@ -1231,6 +1231,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261126304 | pass | True | — |
 | POD-REV-2026112693 | pass | True | — |
 | POD-REV-20261126032 | pass | True | — |
+| POD-REV-20261126306 | pass | True | — |
 
 ## Publication and application history
 
@@ -1525,6 +1526,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-20261126030 · Live review of 27 illustrated articles and verified source-link repairs | published | https://projectodisha.org/stories/odisha/ | POD-DEC-20261126030 |
 | POD-REL-20261126032 · Recovered source links and precise source notes across eight Odisha articles | published | https://projectodisha.org/stories/odisha/ | POD-DEC-20261126032 |
 | POD-REL-2026112693 · Mahavinayak hill article with credited photograph | published | https://projectodisha.org/destinations/mahavinayak/ | POD-DEC-2026112693 |
+| POD-REL-20261126306 · Godabarish Mahapatra and the Pages of Niankhunta with credited illustration | published | https://projectodisha.org/stories/godabarish-mahapatra-and-niankhunta/ | POD-DEC-20261126306 |
 
 ## Sources and assets
 
@@ -1562,7 +1564,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261126030 | 2026-11-25T23:34:40.146055+00:00 | All27 article images and captions inspected at desktop1280 and mobile390, plus narrow320 credit checks; no crop/layout/credit defect. Four404 source targets in three articles queued for verified repair. Publication pending; zero programme credit. | — |
 | POD-EVT-20261126303 | 2026-11-26T00:43:40.471945+00:00 | PR883/CI45722295729 and deployment45726102962 attempt1 succeeded on exact reviewed mergedccfa463. Four live routes, six image files and thirteen root desktop/mobile captures passed separate delivery review, with measured encoding differences retained. Evidence-only receipt review, checks and actual merge still gate scope release. Zero programme credit. | — |
 | POD-EVT-20261126304 | 2026-11-26T01:14:54.331145+00:00 | After actual Kula receipt886 merge, began queued Godabarish Mahapatra/Niankhunta original preparation. Scoped coverage found no dedicated narrative; preserve distinct Godabarish Mishra identity. No publication or programme credit. | — |
 | POD-EVT-20261126305 | 2026-11-26T01:28:29.708408+00:00 | Original Godabarish Mahapatra/Niankhunta preparation and credited conceptual illustration passed separate source/media/integrated review. No Facebook text/image reuse, public integration or programme credit. Completion review/local commit and explicit handoff follow. | — |
@@ -1572,6 +1573,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261126033 | 2026-11-26T08:29:03.551634+00:00 | PR890 merged after successful required CI; publication45770278816 succeeded. Eight live pages and 16 desktop/mobile views verified. Ten exact archived originals, one official replacement and one retained UNESCO primary source; UNESCO direct-client connection limitation and recovered Dhemsa rate limiting recorded. Zero programme credit. | — |
 | POD-EVT-2026112694 | 2026-11-26T17:04:26.187361+00:00 | PR888 reviewed head a8b701f8 passed required CI45771659710 attempt2, merged7920f716 and deployment45787473237 succeeded. Fresh root and separate live review passed with explicit encoding/framing limits. Evidence-only receipt still requires separate review, required CI and actual merge before reserved Godabarish handoff. Zero programme credit. | — |
 | POD-EVT-20261126306 | 2026-11-26T17:41:50.823518+00:00 | Accepted actual Mahavinayak receipt892 merge/explicit handoff; verified prepared Godabarish files and113 protected hashes. Sole publication scope now active; no delivery claim. | — |
+| POD-EVT-20261126307 | 2026-11-26T19:23:08.174720+00:00 | PR893 and deployment45878664614 succeeded; credited illustration, three incoming links and desktop/mobile delivery separately verified. Evidence-only receipt review/check/merge gates scope return. Zero programme credit. | — |
 
 ## Deferred extensions
 

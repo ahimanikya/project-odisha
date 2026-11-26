@@ -1,0 +1,65 @@
+{
+  "status": "ACCEPTED_WITH_MEASURED_DIFFERENCE",
+  "operator": "Disha/root",
+  "analysis": "outputs/godabarish-publication-20261126/live/delivery-20261126T191201.745604Z/image-analysis-2026-11-26T19-14-30-442Z-1c13a98c.json",
+  "actual_pairs_viewed": [
+    {
+      "local": "projects/site/dist-publish/images/responsive/f7fd7db2e2c9d60a-1440.webp",
+      "live": "outputs/godabarish-publication-20261126/live/delivery-20261126T191201.745604Z/media/02-8b030c3b48acd32f-1440.webp.attempt1",
+      "observation": "Personally viewed both complete1440x1080 manuscript images. Same full frame and visible detail; no material visual deterioration at displayed native size. Different decoded pixels are retained and not claimed identical."
+    }
+  ],
+  "metrics": {
+    "pixels": 1555200,
+    "total_channels": 6220800,
+    "changed_pixels": 465823,
+    "changed_pixels_fraction": 0.2995261059670782,
+    "changed_channels": 1381315,
+    "max_absolute_channel_delta": 23,
+    "mean_absolute_channel_delta": 0.5755536265432099,
+    "rms_channel_delta": 1.5455785371191242,
+    "decoded_pixel_identical": false,
+    "per_channel": [
+      {
+        "index": 0,
+        "changed": 464420,
+        "max_absolute_delta": 23,
+        "mean_absolute_delta": 0.776866640946502,
+        "rms_delta": 1.7990858089436388
+      },
+      {
+        "index": 1,
+        "changed": 465309,
+        "max_absolute_delta": 23,
+        "mean_absolute_delta": 0.7780928497942387,
+        "rms_delta": 1.79967239531329
+      },
+      {
+        "index": 2,
+        "changed": 451586,
+        "max_absolute_delta": 23,
+        "mean_absolute_delta": 0.7472550154320987,
+        "rms_delta": 1.7549135532037203
+      },
+      {
+        "index": 3,
+        "changed": 0,
+        "max_absolute_delta": 0,
+        "mean_absolute_delta": 0,
+        "rms_delta": 0
+      }
+    ]
+  },
+  "exact_images": [
+    "https://projectodisha.org/images/stories/godabarish-niankhunta.webp",
+    "https://projectodisha.org/images/stories/godabarish-niankhunta-480.webp",
+    "https://projectodisha.org/images/destinations/panchalingeswar-shrine.jpg",
+    "https://projectodisha.org/images/responsive/95656e6bb719c7c2-480.webp",
+    "https://projectodisha.org/images/responsive/9d33ef262e469115-838.webp"
+  ],
+  "limits": [
+    "RGBA mean includes unchanged alpha; reviewer RGB mean separately reported",
+    "No encoding cause inferred",
+    "New1200/480illustration and PanchalingeswarJPEG/tworesponsivevariants are byte-exact"
+  ]
+}
