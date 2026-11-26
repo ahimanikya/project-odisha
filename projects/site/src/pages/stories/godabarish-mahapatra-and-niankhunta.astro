@@ -1,0 +1,43 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import '../../styles/article-reading.css';
+import source from '../../../../../kb/research/people/godabarish-mahapatra-and-niankhunta.md?raw';
+const route='/stories/godabarish-mahapatra-and-niankhunta/';
+const descriptionValue=source.match(/^description: (".*")$/m)?.[1];
+if(!descriptionValue)throw Error('Godabarish canonical description missing');
+const description=JSON.parse(descriptionValue);
+if(typeof description!=='string')throw Error('Godabarish description must be a string');
+const imageMatch=source.match(/!\[([^\]]+)\]\(([^)]+)\)/);
+if(!imageMatch)throw Error('Godabarish canonical illustration missing');
+const image={src:'/images/stories/godabarish-niankhunta.webp',alt:imageMatch[1],width:1200,height:800};
+const preview='/images/stories/godabarish-niankhunta-480.webp';
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/people/godabarish-mahapatra-and-niankhunta.md',route,
+ images:{[imageMatch[2]]:image.src},imageDimensions:{[image.src]:{width:image.width,height:image.height}}
+});
+const figure=article.html.match(/<figure><img\b[^>]+><figcaption>([\s\S]*?)<\/figcaption><\/figure>/g);
+if(figure?.length!==1)throw Error('Godabarish must retain one complete illustration and caption');
+const caption=figure[0].match(/<figcaption>([\s\S]*?)<\/figcaption>/)?.[1];
+if(!caption)throw Error('Godabarish illustration caption missing');
+const [beforeFigure,afterFigure]=article.html.split(figure[0]);
+---
+<Shell title={article.title} description={description} shareImage={image} active="explore" wide related={false}>
+ <article class="article-reading godabarish-article">
+  <header><h1>{article.title}</h1><ArticleByline author={article.author}/></header>
+  <Fragment set:html={beforeFigure}/>
+  <figure>
+   <img {...image} srcset={`${preview} 480w, ${image.src} 1200w`} sizes="(max-width: 740px) calc(100vw - 2.4rem), 696px" loading="eager" fetchpriority="high" decoding="async"/>
+   <figcaption set:html={caption}/>
+  </figure>
+  <Fragment set:html={afterFigure}/>
+  <ArticleReadingPath heading="Continue reading" links={[{href:'/literature/',title:'Literature'},{href:'/literature/birakishore-das/',title:'Birakishore Das'},{href:'/stories/odia-literature-preservation/',title:'Odia Bibhaba and the Work of Keeping Literature Available'}]}/>
+  <p><a href={`/contribute/?page=${encodeURIComponent(route)}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </article>
+</Shell>
+<style>
+.godabarish-article h1{font-size:clamp(2.2rem,1.2rem + 4vw,3.6rem)}
+.godabarish-article :global(.article-footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+</style>

@@ -1,0 +1,66 @@
+{
+  "reviewed_on": "2026-11-26",
+  "scope": "Bounded current access checks for existing approved citations; no broad new research.",
+  "results": [
+    {
+      "id": "godabarish-ora2004-profile",
+      "url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "ordinary_https": "FAIL: expired TLS certificate; curl exit60, HTTP000",
+      "web_tool": "Timeout",
+      "exception_check": "Credential-free curl-k retrieval succeeded;110885bytes, identical to prepared original.",
+      "original_sha256": "296005ff0bd0c657518355c9209d2314d0aae176a297535d60efaddf03999f50",
+      "status": "Evidence unchanged; ordinary-reader source access has a known publisher-certificate limitation."
+    },
+    {
+      "id": "godabarish-sahitya-award1966",
+      "url": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "ordinary_https": "HTTP200,486700bytes",
+      "actual_revalidation": "Read current1966Odia row: Banka O Sidha(Poetry),*GodavarishMahapatra; current key identifies posthumous awards.",
+      "web_tool": "Timeout; directoriginal retrieval succeeded."
+    },
+    {
+      "id": "godabarish-brahma-monograph",
+      "url": "https://drive.google.com/file/d/1tPUCTFWvmaJrFKCiuDx5eKcrqDHm7qkG/view",
+      "ordinary_https": "HTTP200",
+      "page_title": "Godabarish En fw.pdf - Google Drive",
+      "limit": "Current viewer identity/access checked; original scan evidence reused without a new download/interpretation."
+    },
+    {
+      "id": "godabarish-niankhunta-vol1-scan",
+      "url": "https://drive.google.com/file/d/1PwE1DA65NGjmbShAyHKVfOmErDy9hB19/view",
+      "ordinary_https": "HTTP200",
+      "page_title": "Niankhunta v.01(issues) 1938-39 fw.pdf - Google Drive",
+      "limit": "Current viewer identity/access checked; original scanned pages and prior visual reading reused."
+    },
+    {
+      "id": "godabarish-bibhaba-niankhunta-index",
+      "url": "https://odiabibhaba.in/en/magazines/niankhunta-e/",
+      "access": "Original page opened through web tool; holdings, gaps and donor lines17–18 and post1965 index remain present.",
+      "limit": "Known biography typo/repeated paragraphs still excluded; only holdings/provenance supports article."
+    }
+  ],
+  "bounded_alternate_endpoint_checks": [
+    {
+      "url": "https://www.magazines.odisha.gov.in/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "result": "DNS failure"
+    },
+    {
+      "url": "https://ova.gov.in/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "result": "404"
+    },
+    {
+      "url": "http://magazines.odisha.gov.in/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "result": "Timeout20seconds"
+    },
+    {
+      "url": "https://odisha.gov.in/e-magazine/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "result": "404"
+    },
+    {
+      "url": "https://orissagov.nic.in/e-magazine/orissaannualreference/ORA-2004/pdf/eminent_literacy_luminaries_of_orissa.pdf",
+      "result": "DNS failure"
+    }
+  ],
+  "recommendation": "No verified alternate official citation. Preserve original publisher citation/provenance; record reader-access limitation. Do not instruct readers to bypass certificate warnings or substitute unverified mirrors. Root owns final public presentation.",
+  "no_canonical_edits": true
+}

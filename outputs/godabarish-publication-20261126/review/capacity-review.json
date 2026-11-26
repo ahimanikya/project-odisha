@@ -1,0 +1,98 @@
+{
+  "status": "PASS_BOUNDED_CAPACITY_PROPOSAL",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-26T17:49:20.613888+00:00",
+  "scope": "Approve only the measured same-dimension Panchalingeswar JPEG delivery candidate and exact proposed alteration sentence, subject to separate implementation, package and hosted-gate review. No optimizer or source changes performed by reviewer.",
+  "independent_measurements": {
+    "source_bytes": 565011,
+    "candidate_bytes": 411548,
+    "saved_bytes": 153463,
+    "dimensions_before_after": [
+      838,
+      1117
+    ],
+    "orientation_before_after": 1,
+    "candidate_reproduced_byte_exact": true,
+    "method": "Sharp in-memory encode using existing optimizer resize box1117 with withoutEnlargement, keepMetadata, JPEG quality90, 4:4:4, mozjpeg. Output exactly matches proposed candidate.",
+    "metadata": {
+      "icc": {
+        "bytes": 3144,
+        "exact": true
+      },
+      "iptc": {
+        "bytes": 11254,
+        "exact": true
+      },
+      "xmp": {
+        "bytes": 5236,
+        "exact": true
+      },
+      "exif": {
+        "before_bytes": 31250,
+        "after_bytes": 31222,
+        "exact": false,
+        "limit": "EXIF rewritten by encoder; do not claim full metadata identity. Orientation and decoded dimensions remain equal."
+      }
+    },
+    "decoded_rgb_difference": {
+      "changed_channels": 2410416,
+      "total_channels": 2808138,
+      "mean_absolute_delta": 2.6241616330821347,
+      "maximum_channel_delta": 38,
+      "pixel_identity": false
+    },
+    "source_equals_baseline_ce3c54f23": true,
+    "new_media": {
+      "base_bytes": 114190,
+      "base_dimensions": [
+        1200,
+        800
+      ],
+      "base_equals_prepared_derivative": true,
+      "preview_bytes": 14652,
+      "preview_dimensions": [
+        480,
+        320
+      ],
+      "total_bytes": 128842
+    },
+    "projected_margin_before_markup": 93458
+  },
+  "visual_review": {
+    "actually_viewed": [
+      "Full source Panchalingeswar JPEG at native838x1117",
+      "Full candidate Panchalingeswar JPEG at native838x1117",
+      "Actual480x320 Godabarish preview; original and1200derivative viewed in preliminary continuity review"
+    ],
+    "findings": "Both photographs retain the complete decorated rock-and-water frame. Garland, cloth, rock and water detail remains readable; no obvious material visual degradation at the inspected scale. Existing source softness is retained, not repaired. The small illustration retains all principal objects and remains legible.",
+    "limits": "Visual comparison is not pixel equality or an assertion of zero detail loss. No browser layout, responsive selection or final delivered file has been reviewed in this proposal stage."
+  },
+  "credit_and_caption": {
+    "existing_creator": "Subhashish Panigrahi",
+    "licence": "CC BY-SA 3.0",
+    "existing_source": "https://commons.wikimedia.org/wiki/File:Panchalingeswara_Temple_Nilagiri_Baleswar.jpg",
+    "approved_exact_replacement": "Full-frame photograph compressed for web delivery; resized copies and preview crops share the same licence.",
+    "assessment": "Accurately describes compression without implying resizing or cropping of this base image. Existing linked creator, source and licence must remain intact. OG dimensions remain838x1117. Repository and coastal originals must remain unchanged.",
+    "implementation_guards_required": [
+      "Only this exact new allowlist path and caption entry; preserve existing settings and behavior.",
+      "Fail before mutation for missing or nonunique source/caption, incorrect creator/licence and incorrect OG image/dimensions.",
+      "Verify actual source preservation, candidate geometry, orientation and ICC/IPTC/XMP; record EXIF limitation."
+    ]
+  },
+  "reviewed_sha256": {
+    "outputs/godabarish-publication-20261126/capacity/proposal.json": "5bf71b69bbd170c5307226777dd8bd129568ef6f1540c8efbc9ae00674c9b0d4",
+    "projects/site/public/images/destinations/panchalingeswar-shrine.jpg": "f1ac167d83f4536cfa32481a27e7fb1fb7de27d561041c8b8d82f21ec3cc4ca6",
+    "outputs/godabarish-publication-20261126/capacity/panchalingeswar-q90.jpg": "d54c9ebc179fa0ec1be9256db5b9fb41b5092c88f7162952af1f59fb84b204bc",
+    "kb/research/destinations/panchalingeswar-image.json": "ab14502b2dcced259886e06c4c7ba467ef2d649a56e5002e13701b3f3073bb8c",
+    "projects/site/src/pages/destinations/panchalingeswar.astro": "3c03484da2cbe423ca0414768ebaa1b2139e47fe1d2cd6178b6389d7c3d18e24",
+    "projects/site/public/images/stories/godabarish-niankhunta.webp": "12630ee8e7172afe2d6829527e59b35a56b30a6592be883d26b7b42045f55fc7",
+    "projects/site/public/images/stories/godabarish-niankhunta-480.webp": "0e5f77fad2b9cc3d502070c53f306d170a51c231282b65145861b72fc7affc91"
+  },
+  "blockers": [],
+  "pending": [
+    "Root authorization and implementation review.",
+    "Complete local payload and disclosure checks.",
+    "Actual exact-head Linux capacity gate; projected margin is not hosted acceptance.",
+    "Rendered Panchalingeswar caption and full-frame delivery review."
+  ]
+}

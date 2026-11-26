@@ -1,0 +1,18 @@
+{
+  "failure": "local-verification-first-failure.json",
+  "failed_after_checks": 132,
+  "diagnosis": "Verifier inserted spaces at every HTML tag boundary, turning <em>Niankhunta</em>, into Niankhunta , while frozen canonical correctly has Niankhunta,. Actual rendered text unchanged.",
+  "fix": "Only paragraph comparison now concatenates HTMLParser text nodes, preserving actual inline spacing/punctuation; source footnote superscripts still excluded before comparison. Other checks unchanged.",
+  "public_source_modified": false,
+  "canonical_sha256": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+  "failure_sha256": "73a59273151b95384342cd8e8911180dd7c06a7b81914c1f88656b4a23695560",
+  "authorized_rerun": {
+    "count": 1,
+    "status": "PASS",
+    "checks": 260,
+    "payload_bytes": 999088111,
+    "file_count": 3793,
+    "remaining_bytes": 911889,
+    "report_sha256": "bc5621998c677c9197e2114a865a65a6fd00ce7d256914b460b629d1a3549336"
+  }
+}

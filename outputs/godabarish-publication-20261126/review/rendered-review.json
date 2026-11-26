@@ -1,0 +1,119 @@
+{
+  "status": "PASS_LOCAL_RENDERED_WITH_FRAMING_LIMITS",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-26T18:02:31.485284+00:00",
+  "scope": "Personally inspected each of15 actual screenshot files using view_image. Twelve meaningful frames accepted; three superseded/incorrectly framed files retained as limited evidence. No browser operated by reviewer.",
+  "edition": "Local full preview dist; not final publication package or live site.",
+  "viewports": [
+    [
+      1365,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "findings": {
+    "article": "Desktop and mobile title/byline are readable with comfortable column/padding and natural wrapping. Main illustration is wholly visible in the dedicated illustration captures with the explicit non-reproduction caption and Project Odisha credit. No clipping or visible horizontal layout defect in inspected frames.",
+    "notes": "Notes2–5 and their return markers/readable source links are visible at both widths. The source2 focus outline is visible. Footnotes heading and complete note1 are outside these frames; existence/targets were checked in the separate static renderer review, not visually claimed here.",
+    "incoming": "Desktop/mobile Literature, Birakishore and Preservation acceptance frames each show the complete Godabarish image, name link and illustration credit. Images retain full3:2frame; existing adjacent cards remain visible where included.",
+    "actions": "Root UI record reports source2 click and keyboard Enter return at both widths, plus all three incoming links clicked and destinations observed at both widths. These are Disha/root interactions; screenshots alone do not prove action history.",
+    "geometry": "Root reports mobile Preservation image complete,naturalWidth480 and scrollWidth390 equals viewport390. Reviewer inspected screenshots; did not measure DOM or assert numeric overflow results for every route."
+  },
+  "accepted_screenshots": [
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-top.jpg",
+      "sha256": "7fed051c9bf27deff8008f0f4e389c72e97faf520e76ee43e365adfa64c2da02"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-illustration.jpg",
+      "sha256": "368dd5da12f35f5ba56c36f57638b19da502118c897cb619469ab300ed687e6f"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-sources.jpg",
+      "sha256": "05d6f9289b48fc0a153af5497e8987188ac932757c4d2f7c6f41c155a34c8a1c"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-top.jpg",
+      "sha256": "078b2d7dc7493631e19dc8bb7f68a78669b2473143371f70bc62540caa179c9e"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-illustration.jpg",
+      "sha256": "0f4f69c20e2942eda80d651bf7bb156e2608578c4e3ef0e523d4d51405ab47a2"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-sources.jpg",
+      "sha256": "5bca20331fdfba9bd1f76d8f00d68640d88961c478810760868fa8203ddcf760"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-literature-card.jpg",
+      "sha256": "5244e31e9392df716f698e2687ae7f2806856a00c25f06cf0051b6fd0da98752"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-literature-card.jpg",
+      "sha256": "07299e3bdc519ff7daccd6eb311633d8279a904efb78d4839794f5ebc57e47bb"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-birakishore-card.jpg",
+      "sha256": "aa7d369364ea7fd2b40d975db664b0845ba8355f32f8d8114eb12adb3bf56a83"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-birakishore-card.jpg",
+      "sha256": "a82f0f1a57d1250cb4760a2eddfa4608686f5191b043356f7a86f78a052ae97d"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-preservation-card.jpg",
+      "sha256": "2fe5acca5653ced76c4cf353a3aac04f5fd49940844b6893f6ec7608c13062d7"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-preservation-card-final.jpg",
+      "sha256": "c361d13daf1cf51472bdc83a19eecc0627f107136a866349f16ad786a8c9619b"
+    }
+  ],
+  "limited_screenshots": [
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-literature-preview.jpg",
+      "sha256": "438a5fae45c826c6bab8ef35527005d9e56d2cf5193e25303819f121afdb6920",
+      "reason": "Misses Godabarish target; filename final does not establish successful framing."
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-literature-preview-final.jpg",
+      "sha256": "1dcce43269149e67d6a0893794732355edf3d40f754927e0a8f8df51471c59c3",
+      "reason": "Misses Godabarish target; filename final does not establish successful framing."
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-preservation-card.jpg",
+      "sha256": "c361d13daf1cf51472bdc83a19eecc0627f107136a866349f16ad786a8c9619b",
+      "reason": "Root records early partial paint. Static frame appears broadly complete at reviewed scale, but only later final frame and root image-completion observation support acceptance."
+    }
+  ],
+  "root_ui_record": {
+    "path": "outputs/godabarish-publication-20261126/root-ui-review.json",
+    "sha256": "389e6cd90588642b373e73436b880c6aa80279e1a9cfd7ed42f078272e3b71be"
+  },
+  "source_continuity_sha256": {
+    "projects/site/src/pages/stories/godabarish-mahapatra-and-niankhunta.astro": "a82a996b60d554f3fbe8184e2550009fe48dd7a7ab07ab106dadd4ed511ea4a5",
+    "projects/site/src/pages/literature/index.astro": "6a64685b31e4bb4cac8f72f67abac8c0046c33302207657bfdb21da5fe255fd6",
+    "projects/site/src/pages/literature/birakishore-das.astro": "230d21274ad451a4dda258c91f03519d522a3486c7a1f5a577921d87885f5f5a",
+    "projects/site/src/pages/stories/odia-literature-preservation.astro": "9da65db2417c66f04aeb7f32f4f9adedd872fb129359c76246180d756f2fd707",
+    "projects/site/public/images/stories/godabarish-niankhunta.webp": "12630ee8e7172afe2d6829527e59b35a56b30a6592be883d26b7b42045f55fc7",
+    "projects/site/public/images/stories/godabarish-niankhunta-480.webp": "0e5f77fad2b9cc3d502070c53f306d170a51c231282b65145861b72fc7affc91",
+    "projects/site/editions/coast.json": "61f5c0691313f85af9de382cd151cebb9796874f6d3b52326e77695c24fe20a5",
+    "projects/site/editions/search-candidate.json": "5f1dbad13165f27b22ae36cbc49bbff57d8ccb399d9cb9f21f2a1c887c336d2f",
+    "projects/site/tests/build.test.mjs": "003887c7cb4c40e6970c1ffd6b5dab04ffba575e357b3a617c01fa4f4e2b3ec4",
+    "projects/site/tests-coast/literature-editorial.test.mjs": "cc298aa1fa176c2db2c0f48a2fb126efddfd9b99a507ff106c7e9c1695464202",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "f74536be5c30d5d9cf58341d133b820faa1661b0d3fb775ed1d219579e723739",
+    "projects/site/tests/publication-jpeg.test.mjs": "6a75305b49f0749a17fc2f15e595369f774a1f8d31080b83f4e4ab82beee5364",
+    "kb/research/people/godabarish-mahapatra-and-niankhunta.md": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c"
+  },
+  "limitations": [
+    "Partial viewport captures do not constitute a full-page visual audit; top capture cuts desktop image and mobile caption, resolved by dedicated illustration captures.",
+    "One browser surface at two viewport sizes, not cross-engine or physical-device testing.",
+    "An optional later mobile-body browser action was blocked by an open extension UI according to root; not counted as a successful check. It does not invalidate already captured frames.",
+    "Government PDF expired-certificate limitation remains; no browser warning bypass or current ordinary reader access claimed.",
+    "No final optimized Panchalingeswar package image/caption, complete payload, hosted capacity or live publication acceptance yet."
+  ],
+  "blockers": [],
+  "next_stage": "Review complete final package, optimized Panchalingeswar rendering and actual validation evidence when ready."
+}

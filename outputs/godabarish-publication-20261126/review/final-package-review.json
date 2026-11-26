@@ -1,0 +1,105 @@
+{
+  "status": "PASS_FINAL_LOCAL_PACKAGE_WITH_LIMITS",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-26T18:17:37.047584+00:00",
+  "baseline": "ce3c54f23e8069d0422babeccb74d690abe7406b",
+  "actual_checks": {
+    "stages": "Read all13 stage results: exit0 throughout; source hash maps identical at all stages and match current files.",
+    "test_logs": {
+      "full": {
+        "passed": 847,
+        "failed": 0
+      },
+      "coastal": {
+        "passed": 605,
+        "failed": 0
+      }
+    },
+    "disclosure_logs": {
+      "full_pages": 1554,
+      "coastal_pages": 1539,
+      "publication_pages": 1540,
+      "violations": 0
+    },
+    "search_shortlist": "11 reviewed pages, no errors.",
+    "payload": {
+      "independently_stat_bytes": 999088111,
+      "regular_files": 3793,
+      "symlinks_or_special_files": 0,
+      "local_headroom": 911889,
+      "hosted_linux_acceptance": false
+    },
+    "artifact_verifier": "Read final PASS260 and its retained original failure after132checks. Independently audited the paragraph-only HTMLParser correction and separately verified all seven canonical prose paragraphs against final HTML; no public-text change.",
+    "content_continuity": "Godabarish, Birakishore and Preservation article fragments byte-identical across full, coastal and publication editions. Godabarish Literature card byte-identical across all three.",
+    "literature_limit": "Whole Literature main differs between full and coast/publication solely by removal of existing All cultural reading trails link to /stories/culture-trails/. Coast and publication mains are exact. No whole-main equality claimed for full edition; new card is unchanged.",
+    "images": "Actual new base114190B and480preview14652B have identical bytes across public/full/coastal/publication; base equals reviewed prepared derivative. No extra variant or source scan export found.",
+    "panchalingeswar": "Public/full/coastal source remains exact565011B. Final publication411548B JPEG matches reviewed candidate SHA d54c9ebc179fa0ec1be9256db5b9fb41b5092c88f7162952af1f59fb84b204bc. Personally displayed actual final JPEG: complete frame and adequate detail. Article differs only by exact approved alteration sentence; actual creator/source/licence links and OG838x1117 retained. Optimizer report has11 bounded images and records153463B saving for this entry.",
+    "preservation": "All113 protected hashes rechecked. Foreign current_task, handoff_home and current_preparation match baseline. Shared components and source original unchanged.",
+    "record_state": "Canonical remains in progress, scope held, programme credit0, hosted CI/deployment pending. Actual local evidence and source/browser limits accurately recorded."
+  },
+  "source_sha256": {
+    "kb/research/people/godabarish-mahapatra-and-niankhunta.md": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+    "projects/site/editions/coast.json": "61f5c0691313f85af9de382cd151cebb9796874f6d3b52326e77695c24fe20a5",
+    "projects/site/editions/search-candidate.json": "5f1dbad13165f27b22ae36cbc49bbff57d8ccb399d9cb9f21f2a1c887c336d2f",
+    "projects/site/public/images/stories/godabarish-niankhunta-480.webp": "0e5f77fad2b9cc3d502070c53f306d170a51c231282b65145861b72fc7affc91",
+    "projects/site/public/images/stories/godabarish-niankhunta.webp": "12630ee8e7172afe2d6829527e59b35a56b30a6592be883d26b7b42045f55fc7",
+    "projects/site/src/pages/literature/birakishore-das.astro": "230d21274ad451a4dda258c91f03519d522a3486c7a1f5a577921d87885f5f5a",
+    "projects/site/src/pages/literature/index.astro": "6a64685b31e4bb4cac8f72f67abac8c0046c33302207657bfdb21da5fe255fd6",
+    "projects/site/src/pages/stories/godabarish-mahapatra-and-niankhunta.astro": "a82a996b60d554f3fbe8184e2550009fe48dd7a7ab07ab106dadd4ed511ea4a5",
+    "projects/site/src/pages/stories/odia-literature-preservation.astro": "9da65db2417c66f04aeb7f32f4f9adedd872fb129359c76246180d756f2fd707",
+    "projects/site/tests-coast/literature-editorial.test.mjs": "cc298aa1fa176c2db2c0f48a2fb126efddfd9b99a507ff106c7e9c1695464202",
+    "projects/site/tests/build.test.mjs": "003887c7cb4c40e6970c1ffd6b5dab04ffba575e357b3a617c01fa4f4e2b3ec4",
+    "projects/site/tests/publication-jpeg.test.mjs": "6a75305b49f0749a17fc2f15e595369f774a1f8d31080b83f4e4ab82beee5364",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "f74536be5c30d5d9cf58341d133b820faa1661b0d3fb775ed1d219579e723739"
+  },
+  "article_fragment_sha256": {
+    "stories/godabarish-mahapatra-and-niankhunta": {
+      "dist": "8334bb818cc59e3b8b0b5fdb6379ae6e836dcfaa3d1dfe60ebe090d5a4b2702e",
+      "dist-coast": "8334bb818cc59e3b8b0b5fdb6379ae6e836dcfaa3d1dfe60ebe090d5a4b2702e",
+      "dist-publish": "8334bb818cc59e3b8b0b5fdb6379ae6e836dcfaa3d1dfe60ebe090d5a4b2702e"
+    },
+    "literature/birakishore-das": {
+      "dist": "9c6fe5cc82ec61074223e87cb53709bd670f5a84db567c9543ecb5c11db40c6e",
+      "dist-coast": "9c6fe5cc82ec61074223e87cb53709bd670f5a84db567c9543ecb5c11db40c6e",
+      "dist-publish": "9c6fe5cc82ec61074223e87cb53709bd670f5a84db567c9543ecb5c11db40c6e"
+    },
+    "stories/odia-literature-preservation": {
+      "dist": "32b8c9f09cdf3f5b506c057525cda1eb1ac0cc5baaa63afd1dbf074c8f4d3e1c",
+      "dist-coast": "32b8c9f09cdf3f5b506c057525cda1eb1ac0cc5baaa63afd1dbf074c8f4d3e1c",
+      "dist-publish": "32b8c9f09cdf3f5b506c057525cda1eb1ac0cc5baaa63afd1dbf074c8f4d3e1c"
+    },
+    "destinations/panchalingeswar": {
+      "dist": "f497f1e11e5005b9929da769e1448dfa56ea05f44ab50b359ae6d1f3ba2e86eb",
+      "dist-coast": "f497f1e11e5005b9929da769e1448dfa56ea05f44ab50b359ae6d1f3ba2e86eb",
+      "dist-publish": "1816216aa024c9dc04ad83e53e82ac14a39b8bf309e8ce661437b9fb31f606aa"
+    }
+  },
+  "literature_card_sha256": "5633bba3d351d49a37feb46920fce19249ab25252c8e6ab40361ffd98588d314",
+  "reviewed_evidence_sha256": {
+    "outputs/godabarish-publication-20261126/build-results.json": "fcfc2998fba1d413f3d5101322a0147b7821a23693ffd49abc7a409da03ae85e",
+    "outputs/godabarish-publication-20261126/local-payload.json": "3f72f5ddb9195db91d108abc3961a4f5e70dcd673ec4499f004b68c7be51dda2",
+    "outputs/godabarish-publication-20261126/local-verification.json": "bc5621998c677c9197e2114a865a65a6fd00ce7d256914b460b629d1a3549336",
+    "outputs/godabarish-publication-20261126/local-verification-first-failure.json": "73a59273151b95384342cd8e8911180dd7c06a7b81914c1f88656b4a23695560",
+    "outputs/godabarish-publication-20261126/local-verifier-failure-history.json": "f955beb035708b2aac0950956a0b7d47c78b14ec3a968233d1e5792e7ea22499",
+    "outputs/godabarish-publication-20261126/verify-local.py": "a6795b6edfd195f40dcea644b9f6b36a5f44088c0193ee703ddf2d68b3aba026",
+    "outputs/godabarish-publication-20261126/root-final-photo-review.json": "4214d2311c2cb11875f822b363bfa18505a84bba58051871e1633227a7a52009",
+    "outputs/godabarish-publication-20261126/root-ui-review.json": "389e6cd90588642b373e73436b880c6aa80279e1a9cfd7ed42f078272e3b71be",
+    "outputs/godabarish-publication-20261126/review/static-review.json": "859c9306894dd183a64b39a648d4f905e3f70411b48824a1246fc10e59ae4d6f",
+    "outputs/godabarish-publication-20261126/review/rendered-review.json": "6264b996eeb1ff9f018ac0ee41630f6c1de22af732de4e8689ff053e1ceea487",
+    "outputs/godabarish-publication-20261126/review/capacity-review.json": "bbdb7ca640e1b40778e9315102032fd7b16cb3a4c317f808a2ba245ce3ee66b7",
+    "outputs/godabarish-publication-20261126/research/final-source-audit.json": "a15adf938217d02d1075cf067e2e0dfebaf16c1ad18a4f1fedcc27880ae2efb1",
+    "kb/records/godabarish-publication-20261126.json": "fb6084269799428b0721a276520af367ef6f7d135a2a6b63b20416d239b97f7f",
+    "kb/team/operations.json": "ccfadf8037d69c1a2a1db6abaf23ebf32a0dc59f339f11ccebe66bc362ed2036",
+    "projects/site/.astro/publication-jpeg-optimization.json": "1d5bfb2178540b37aa6206b37a5d4edfd42d5addd5f9a278a4100e36c164e5da"
+  },
+  "limits": [
+    "No full build rerun or browser operation by reviewer; actual build/test logs and package files inspected directly.",
+    "Prior12 accepted root captures establish desktop/mobile article and incoming-card appearance, with partial framing limits retained. Article/card fragment continuity connects these to final package.",
+    "Final Panchalingeswar browser-page screenshot was blocked by an open extension UI. Reviewer and root independently viewed the exact final image; caption-only HTML change and unchanged dimensions/layout were checked. No final-page visual claim.",
+    "Lossy Panchalingeswar pixel differences and rewritten EXIF remain disclosed; ICC/IPTC/XMP exact. No pixel/all-metadata identity claim.",
+    "Government-source expired TLS remains an actual access limitation accepted by root; no ordinary browser-access success claimed.",
+    "This is local macOS package acceptance, not hosted Linux capacity, deployment or live acceptance. Required exact-head CI and subsequent live review remain mandatory."
+  ],
+  "blockers": [],
+  "candidate_readiness": "Ready for candidate commit and required hosted checks, with remaining deployment/live gates held."
+}
