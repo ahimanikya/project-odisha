@@ -252,10 +252,21 @@
   "integrated_receipt_review": {
     "status": "PASS",
     "path": "outputs/godabarish-publication-20261126/review/final-receipt-review.json",
-    "sha256": "2c4610f7151744b2dfaf3c9a06578167d95e74ee80144eba0e14205957bd4429"
+    "sha256": "2c4610f7151744b2dfaf3c9a06578167d95e74ee80144eba0e14205957bd4429",
+    "scope": "Initial receipt6b3fa0e73 before incoming PR894; combined reconciliation requires separate review."
   },
   "receipt_whitespace": {
     "evidence": "outputs/godabarish-publication-20261126/receipt-raw-whitespace.json",
     "scope": "Only two raw hosted logs retain original trailing whitespace; canonical/source diffs pass."
+  },
+  "receipt_reconciliation": {
+    "incoming": "3d74c1b823ea31ac5d0577ed0cfa9ac3dbcafcd1",
+    "prs": [
+      894
+    ],
+    "status": "combined_review_pending",
+    "evidence": "outputs/godabarish-publication-20261126/receipt-incoming-preservation.json",
+    "nonshared_files": 13,
+    "scope": "Incoming15paths preserved, only sharedrollout/worklist reconciled; no public-source difference against newmain. Fresh required checks will measure current combined package, not relabel original deployment."
   }
 }
