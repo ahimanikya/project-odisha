@@ -11030,19 +11030,20 @@
       "id": "POD-WORK-20261126032",
       "title": "Recover twelve unreliable source links in the27article collection",
       "category": "editorial_maintenance",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Disha with separate research, implementation and review agents"
       },
       "authorization": "POD-DEC-20261126032",
-      "next_action": "Pass required production checks, merge reviewed repairs, publish and verify actual live pages.",
+      "next_action": "Completed; external-access observations and actual live publication are recorded in the receipt.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261126032",
-        "POD-REV-20261126032"
+        "POD-REV-20261126032",
+        "POD-REL-20261126032"
       ],
       "evidence": [
         "records/remaining-12-source-links-20261126.json"
@@ -26871,7 +26872,7 @@
         "records/remaining-12-source-links-20261126.json"
       ],
       "independent": true,
-      "summary": "All12 source mappings and109footnotes align. Exact archive contents/claim locators verified; one official replacement and one restored original. Historical source IDs, hashes, dates and image manifest preserved; only approved bounded wording changed. Required production CI and actual publication still pending."
+      "summary": "Independent repair review passed for all 12 source mappings and 109 footnotes; original source provenance and images preserved. Required CI and publication succeeded. Live verification covered eight pages and 16 desktop/mobile views. Direct UNESCO access limitation is recorded separately; its official content remains readable through the web reader."
     }
   ],
   "releases": [
@@ -31477,6 +31478,21 @@
       ],
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261126032",
+      "title": "Recovered source links and precise source notes across eight Odisha articles",
+      "status": "published",
+      "authorization": "POD-DEC-20261126032",
+      "destination": "https://projectodisha.org/stories/odisha/",
+      "refs": [
+        "POD-WORK-20261126032",
+        "POD-DEC-20261126032",
+        "POD-REV-20261126032"
+      ],
+      "evidence": [
+        "records/remaining-12-source-links-20261126.json"
       ]
     }
   ],

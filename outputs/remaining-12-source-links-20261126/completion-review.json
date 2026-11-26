@@ -1,0 +1,87 @@
+{
+  "reviewer": "article_integration_review",
+  "reviewed_on": "2026-11-26",
+  "base_head": "1bd308add5781bd740010724f1aff5845b09b828",
+  "verdict": "PASS",
+  "scope": "Evidence-only completion receipt review. No new live network/browser activity, build or original source research performed by this reviewer.",
+  "blocking_findings": [],
+  "reviewed_tracked_files_sha256": {
+    "kb/records/remaining-12-source-links-20261126.json": "94025b99ac4a08f7a7fd5364927f0e8d0f0ed01c1398e6b6e62df3256862775a",
+    "kb/registers/DASHBOARD.md": "0cbc4d0f33b9cbe45ad33a7883a93a3acdf0d30ca047a368c3cf8f77c450c803",
+    "kb/registers/activity.jsonl": "6b382fc0fc3231bed760ccfd188ab15a2fa5b2694d9564768df110b4e74bccfb",
+    "kb/registers/records.json": "f1b8fb8534114e49f5c7c0d89d61a688d47949d86a37ba8695f39fd36437c546",
+    "outputs/remaining-12-source-links-20261126/handoff.json": "5e0035cd525021660a9256dcd24c948bce4b8d94c9283feec5037c7671d673d6"
+  },
+  "reviewed_new_evidence_sha256": {
+    "publication-receipt.json": "2608f7c687b0321a9f016289ec27bdc124700290c2529aea07fa5c7bc2d6125d",
+    "post-publication-browser.json": "ccb3312b0135739ec123b502714b08f314c2c4e078baae359a445c336550a6be",
+    "post-publication-network.json": "313ff46e78e9830cdaf9aad85fc9faf8e10e5dafb4018a0d9d2f89359da0ad57",
+    "post-publication-rechecks.json": "6f12ea3572330feb6a52e6db0982f7e1d12348ad19c85574d5cdd88f4b632fb4",
+    "post-publication-dhemsa-check.json": "4965e08d9e288ad047842b374bda2d11f5a8d4d9ff94d0cb34006b668085e361",
+    "post-publication-unesco-check.json": "25c57451185f1112f713893ea0142b05968a79e5312eb6172db9312651437e00"
+  },
+  "deployment_evidence": {
+    "workflow": 45770278816,
+    "conclusion": "success",
+    "head": "1bd308add5781bd740010724f1aff5845b09b828",
+    "deploy_job_completed_at": "2026-11-26T07:05:19Z",
+    "actual_success_log_at": "2026-11-26T07:05:18.1753593Z",
+    "full_tests_passed": 846,
+    "coast_tests_passed": 605,
+    "failures": 0,
+    "payload_bytes": 999923323,
+    "method": "Independently read saved workflow JSON and actual deployment log test summaries, payload gate and success line. Required CI 45766934387 success is recorded by root; not separately queried by this reviewer."
+  },
+  "live_evidence_assessment": {
+    "pages": 8,
+    "matched_source_links": 36,
+    "desktop_mobile_views": 16,
+    "browser_method": "Root-reported CUA page/DOM inspection of eight articles at 390 and 1280; selected visual screenshots only, not 16 saved screenshot artifacts.",
+    "initial_external_200": 10,
+    "initial_failed_sweep_preserved": true,
+    "subsequent_failed_recheck_preserved": true,
+    "dhemsa": "Later exact viewer and PDF HTTP 200, 19-page payload and printed p. 93 verification support recovery after rate limiting.",
+    "unesco": "Current official content was read with web.run; direct HTTPS/curl reset remains explicitly documented. No all-12-direct-HTTP-200 claim.",
+    "archive_pdf_limit": "Initial sweep mostly tests archive viewers; original-document checks are separately recorded in research and later Dhemsa evidence."
+  },
+  "preservation_checks": {
+    "changed_register_ids": [
+      "POD-WORK-20261126032",
+      "POD-REV-20261126032",
+      "POD-REL-20261126032"
+    ],
+    "foreign_records_changed_or_removed": [],
+    "exact_historical_activity_prefix_preserved": true,
+    "only_new_event": "POD-EVT-20261126033",
+    "source_files_match_prior_review": {
+      "kb/research/stories/independent-features/arts/bande-utkala-janani.md": true,
+      "kb/research/stories/independent-features/arts/dhemsa.md": true,
+      "kb/research/stories/independent-features/arts/raja.md": true,
+      "kb/research/stories/independent-features/history/bali-jatra.md": true,
+      "kb/research/stories/independent-features/history/coastal-shell-craft.md": true,
+      "kb/research/stories/independent-features/nature/cyclone-dana.md": true,
+      "kb/research/stories/independent-features/nature/mandasaru.md": true,
+      "kb/research/stories/independent-features/nature/similipal-waterfalls.md": true,
+      "kb/research/stories/independent-features/source-register.md": true
+    },
+    "website_manuscript_image_changes_in_receipt": false,
+    "programme_credit": 0,
+    "raw_private_header_captures_untracked": [
+      "outputs/independent-article-images-20261126/research/group-a-assets/bali-jatra-http-headers.json",
+      "outputs/independent-article-images-20261126/research/group-a-assets/dhemsa-http-headers.json",
+      "outputs/independent-article-images-20261126/research/group-a-assets/koraput-coffee-http-headers.json",
+      "outputs/independent-article-images-20261126/research/group-a-assets/pentha-http-headers.json",
+      "outputs/independent-article-images-20261126/research/group-a-assets/sitabinji-http-headers.json"
+    ],
+    "new_evidence_sensitive_header_token_scan_findings": [],
+    "no_creator_text_or_images_added": true,
+    "git_diff_check": "PASS"
+  },
+  "conclusion": "Completed/published status is supported by actual deployment and bounded live evidence. Receipt accurately distinguishes content accessibility from direct-client HTTP success. No further website publication is required for this metadata-only receipt; normal receipt integration checks remain applicable.",
+  "limits": [
+    "Live/browser evidence was reviewed as saved reports, not repeated by this reviewer.",
+    "No claim that external sources will remain available or work identically for every reader.",
+    "Five raw historical header captures are currently untracked and excluded; they must remain outside any receipt commit.",
+    "This verdict covers the hashed working receipt and preserved source files, not any later unreviewed edits."
+  ]
+}
