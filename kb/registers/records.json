@@ -10986,6 +10986,25 @@
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261126304",
+      "title": "Prepare Godabarish Mahapatra and Niankhunta article",
+      "category": "research",
+      "status": "completed",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-20261126304",
+      "next_action": "Prepared and separately reviewed; return slot after reviewed local commit. No publication authorized.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261126304",
+        "POD-REV-20261126304"
+      ],
+      "evidence": [
+        "records/godabarish-niankhunta-preparation-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16721,6 +16740,23 @@
       "scope": "Existing 27-article collection; bounded live fixes and library synchronization under prior live publication authorization.",
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261126304",
+      "title": "Prepare original Godabarish Mahapatra and Niankhunta article",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Check whether we’ve covered Godabarish Mahapatra and Niankhunta. If not, research them independently and prepare an original Project Odisha article with a credited image. Don’t copy the Facebook post.",
+      "scope": "Independent original preparation with credited image only; no site integration or publication",
+      "refs": [
+        "POD-WORK-20261126304"
+      ],
+      "evidence": [
+        "records/godabarish-niankhunta-preparation-20261126.json"
       ]
     }
   ],
@@ -26709,6 +26745,24 @@
         "records/kula-publication-20261126.json"
       ],
       "summary": "Separate source/media/code/rendered/package/exact-merge and fresh live delivery reviews passed. Four routes, six actual images and thirteen root screenshots inspected; four encodings independently measured and visually accepted, raw differences and framing limits retained. No human specialist claim."
+    },
+    {
+      "id": "POD-REV-20261126304",
+      "title": "Godabarish Mahapatra and Niankhunta original preparation review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate reviewer; source audit by Anvesha"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261126304",
+        "POD-DEC-20261126304"
+      ],
+      "evidence": [
+        "records/godabarish-niankhunta-preparation-20261126.json"
+      ],
+      "summary": "Separate primary-page, factual, original-prose, source-family budget and actual illustration review passed. Five notes and nine references; conceptual image explicitly not a historical issue. Preparation only; no human specialist or live-layout approval."
     }
   ],
   "releases": [
