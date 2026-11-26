@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Odisha Biodiversity Board", "resource": "https://www.odishabiodiversityboard.in/bhs.html"}, {"id": "2", "title": "Kandhamal district", "resource": "https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia"}, {"id": "3", "title": "Biodiversity inventory", "resource": "https://www.odishabiodiversityboard.in/bhs.html"}, {"id": "4", "title": "Government notification", "resource": "https://www.odishabiodiversityboard.in/assets/bhs-pdf/mandasaru_BHS-notification.pdf"}]
+sources: [{"id": "1", "title": "Odisha Biodiversity Board", "resource": "https://www.odishabiodiversityboard.in/bhs.html"}, {"id": "2", "title": "Odisha Tourism, Mandasaru Valley", "resource": "https://odishatourism.gov.in/en/places/mandasaru-valley"}, {"id": "3", "title": "Biodiversity inventory", "resource": "https://www.odishabiodiversityboard.in/bhs.html"}, {"id": "4", "title": "Government notification", "resource": "https://www.odishabiodiversityboard.in/assets/bhs-pdf/mandasaru_BHS-notification.pdf"}]
 public_route: "/stories/odisha/mandasaru/"
 original_sha256: "4a5a31ef4ef55b9f3f8ea433227f5ef4619e549fce7e0ac60108b13989e5c08e"
 ---
@@ -22,7 +22,7 @@ By Ahimanikya Satapathy
 
 Mandasaru’s conservation story reaches well below the treetops. The Odisha Biodiversity Board’s inventory of this Eastern Ghats gorge includes 130 kinds of fungi, 72 lichens and 70 bryophytes, alongside hundreds of flowering plants. These are organisms easily missed in a photograph of the valley, yet they help explain why the forest received special recognition. [^1]
 
-The gorge lies in Kandhamal’s Raikia area, within a landscape the district administration describes as moist deciduous forest. Its slopes and wooded enclosure give Mandasaru a setting quite different from an open hilltop viewpoint. The forest itself, rather than a single summit or waterfall, is the destination. [^2]
+The gorge lies in Kandhamal, within the Eastern Ghats forests described by Odisha Tourism. Its slopes and wooded enclosure give Mandasaru a setting quite different from an open hilltop viewpoint. The forest itself, rather than a single summit or waterfall, is the destination. [^2]
 
 The Board lists 772 flowering-plant species and 59 pteridophytes, the group that includes ferns. Its animal records include fishing cat, small-clawed otter and golden gecko. Such an inventory describes the variety documented in a habitat; it is not a promise that those animals will appear during a visit. It also broadens the usual wildlife story: a gorge can be important for reptiles, fungi and small plants as well as conspicuous mammals. [^3]
 
@@ -36,7 +36,7 @@ For a visitor, this offers another way to look. A distant view gives the shape o
 
 [^1]: [Odisha Biodiversity Board](https://www.odishabiodiversityboard.in/bhs.html)
 
-[^2]: [Kandhamal district](https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia)
+[^2]: [Odisha Tourism, Mandasaru Valley](https://odishatourism.gov.in/en/places/mandasaru-valley), introductory description and Key Information / Location.
 
 [^3]: [Biodiversity inventory](https://www.odishabiodiversityboard.in/bhs.html)
 

@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Kendujhar district cultural account", "resource": "https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage"}, {"id": "2", "title": "Kendujhar district", "resource": "https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage"}, {"id": "3", "title": "*Orissa Review*, June 2006", "resource": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf"}, {"id": "4", "title": "Ministry of Tourism, Raja Mahotsav", "resource": "https://www.utsav.gov.in/view-event/raja-mahotsav"}, {"id": "5", "title": "Dipanita Nath, *The Indian Express*", "resource": "https://indianexpress.com/article/cities/pune/pune-odisha-raja-tradition-classical-dances-message-menstrual-hygiene-10065311/"}]
+sources: [{"id": "1", "title": "Kendujhar district cultural account", "resource": "https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage"}, {"id": "2", "title": "Kendujhar district", "resource": "https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage"}, {"id": "3", "title": "*Orissa Review*, June 2006", "resource": "https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf"}, {"id": "4", "title": "Ministry of Tourism, Raja Mahotsav", "resource": "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav"}, {"id": "5", "title": "Dipanita Nath, *The Indian Express*", "resource": "https://indianexpress.com/article/cities/pune/pune-odisha-raja-tradition-classical-dances-message-menstrual-hygiene-10065311/"}]
 public_route: "/stories/odisha/raja/"
 original_sha256: "7e637718e52224a935a635d41a0610fdf13727397d963cb777296423c19f8260"
 ---
@@ -40,8 +40,8 @@ Raja’s appeal lies in how readily these large ideas acquire everyday forms. Re
 
 [^2]: [Kendujhar district](https://kendujhar.odisha.gov.in/en/tourism/culture-Heritage)
 
-[^3]: [*Orissa Review*, June 2006](https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf)
+[^3]: [Pravukalyan Mohapatra, “Raja Sankranti: The Festival of Swings”, *Orissa Review*, June 2006, pp. 122–123](https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf), especially p. 122 on the fourth-day observance in some places; archived 17 July 2026.
 
-[^4]: [Ministry of Tourism, Raja Mahotsav](https://www.utsav.gov.in/view-event/raja-mahotsav)
+[^4]: [Ministry of Tourism, Raja Mahotsav](https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav), “Raja Parba: A Celebration of Womanhood and Earth’s Fertility”; archived 15 May 2026.
 
 [^5]: [Dipanita Nath, *The Indian Express*](https://indianexpress.com/article/cities/pune/pune-odisha-raja-tradition-classical-dances-message-menstrual-hygiene-10065311/)

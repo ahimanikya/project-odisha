@@ -1,0 +1,52 @@
+{
+  "checked_on": "2026-11-26",
+  "method": "Normal HTTPS GET with certificate validation; archive captures discovered from public availability API and actual replay content inspected. No raw headers retained.",
+  "items": [
+    {
+      "article": "mandasaru",
+      "note": "2",
+      "original": "https://kandhamal.odisha.gov.in/en/tourism/tourist-places/mandasaru-raikia",
+      "original_status": "HTTP403; indexed district description still exists; no closest archive capture returned",
+      "replacement": "https://odishatourism.gov.in/en/places/mandasaru-valley",
+      "replacement_status": "HTTP200; official Odisha Tourism page",
+      "locator": "Mandasaru Valley introductory description and Key Information / Location",
+      "evidence": "Describes Mandasaru in Kandhamal, in Eastern Ghats forests, with streams, waterfalls and woodland trails. Does not independently specify moist deciduous type or Raikia.",
+      "action": "Replace source2 and revise first sentence of cited paragraph to match official tourism scope; preserve remaining forest-setting observation. Keep historical source access note in register with dated recovery addendum.",
+      "proposed_sentence": "The gorge lies in Kandhamal, within the Eastern Ghats forests described by Odisha Tourism."
+    },
+    {
+      "article": "similipal-waterfalls",
+      "note": "4",
+      "original": "https://www.unesco.org/en/mab/similipal",
+      "original_status": "HTTP200 with normal TLS; body inspected both direct transport and web reader",
+      "replacement": null,
+      "locator": "General information and Ecological Characteristics",
+      "evidence": "Hills, perennial streams, waterfalls and sal forest all present in original.",
+      "action": "Retain original URL; add precise section locator to footnote; record restored access in dated register addendum."
+    },
+    {
+      "article": "raja",
+      "note": "4",
+      "original": "https://www.utsav.gov.in/view-event/raja-mahotsav",
+      "original_status": "Expired certificate on direct HTTPS; research reader timeout; indexed text accessible",
+      "replacement": "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav",
+      "replacement_status": "HTTP200; actual archived event narrative inspected",
+      "capture_date": "2026-05-15",
+      "locator": "Raja Parba: A Celebration of Womanhood and Earth’s Fertility",
+      "evidence": "The exact archived event page describes women and girls wearing fine clothes, Podapitha, rope swings, singing and visiting.",
+      "action": "Replace resource and footnote with exact archived page, labelled archived15May2026; no narrative changes."
+    },
+    {
+      "article": "cyclone-dana",
+      "note": "3",
+      "original": "https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "original_status": "Local TLS handshake failure; original6page PDF fully accessible through web reader",
+      "replacement": "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "replacement_status": "HTTP200 viewer; observed embedded if_ URL HTTP200 actual PDF,502611bytes",
+      "capture_date": "2024-11-06",
+      "locator": "Situation report as on27October2024 at1800hrs; printed p2 current situation and p6 table8",
+      "evidence": "Actual archived6page PDF opened with native PDFKit. Printed p2 verifies810896 Odisha evacuees; table8 onp6 lists6210 relief centres. Original web-reader text independently matches. The report is dated27October2024 at1800hrs.",
+      "action": "Replace metadata resource and footnote with the exact archived original; include report date, pp2and6, and archive capture date. Narrative unchanged."
+    }
+  ]
+}

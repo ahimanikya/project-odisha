@@ -1,0 +1,198 @@
+{
+  "reviewer": "article_integration_review",
+  "reviewed_on": "2026-11-26",
+  "base_head": "f7788e79a0aebf55e011a94e90b6d0c3859ef078",
+  "verdict": "PASS",
+  "blocking_findings": [],
+  "scope": "Final static source-repair review of twelve investigated targets across eight articles and source-register entries; preservation checks across all 27 canonical articles. No new production build, browser inspection or deployment verification by this reviewer.",
+  "reviewed_files_sha256": {
+    "kb/research/stories/independent-features/arts/bande-utkala-janani.md": "88f5e9cc82fabc1fb12c6d5b4cfe6d1623c9ae423c4fb1038345d8f50bb66f75",
+    "kb/research/stories/independent-features/arts/dhemsa.md": "245e67e1c2ed3b90c11fdbeb13120ea72753c9c92d050d2853e1d34df9c47927",
+    "kb/research/stories/independent-features/arts/raja.md": "6da729480f149b27cc49bbc5f9adc1b7dbc2246fd3a2ee37a23ef2af9188e34d",
+    "kb/research/stories/independent-features/history/bali-jatra.md": "ae3e2ca44131dc76ff5778e6fca39be1ffc7d328cbd5cd2df4f6c4d20254a4c0",
+    "kb/research/stories/independent-features/history/coastal-shell-craft.md": "e5ab314892d6d75328fe51cde29c93b8ee865b658e7534de09e6a368fac84281",
+    "kb/research/stories/independent-features/nature/cyclone-dana.md": "52ed539f7e74b91729b2edb644ef36826b98770028291f1e0632cab43c19f9cd",
+    "kb/research/stories/independent-features/nature/mandasaru.md": "0a29da4efb922ff1656cad0fb5881412f789cb7624ced747f7197a198d3bd1f8",
+    "kb/research/stories/independent-features/nature/similipal-waterfalls.md": "014b8e24127028f440d94135ba0c4c7ed2b42ecc65c1f0f297dc21bdbcbc432e",
+    "kb/research/stories/independent-features/source-register.md": "d4fd6b1d36e608f62c4c369957364026d3a88b5e27652b89ef99feca5d35c430"
+  },
+  "research_evidence_sha256": {
+    "research-root.json": "72da137cd5dca24219dff348fd0f05f55df84c3961cb5611086dcf40c51d282a",
+    "research-b.json": "05574c5fc4178d9dbd1238b2b435c5f70ed9d30e29920d2cf2cc2fa889b84efa",
+    "research-c.json": "e070023622c13d0cbf07af1de0e642db10c9f1dbe4b3cc47b1926016f9aab227",
+    "implementation.json": "cf5006307e1b663194e53776bbeef18cdae8afcd34d77322f02e76af8a7ea9fd",
+    "preliminary-root-review.json": "02c33d75634cfaba42418994a2f314b879666f140f97cb1d05a917ab7303f0d9"
+  },
+  "reviewed_source_diff_sha256": "ddb57b14b608064882374bc8db2b7e1fd2f57f595ae875481e868f0ddef1dabf",
+  "target_judgments": [
+    {
+      "article": "mandasaru",
+      "source_ids": [
+        "2"
+      ],
+      "target": "https://odishatourism.gov.in/en/places/mandasaru-valley",
+      "verdict": "PASS",
+      "locator": "Mandasaru Valley introductory description and Key Information / Location",
+      "basis": "Direct reviewer verification recorded in preliminary-root-review.json"
+    },
+    {
+      "article": "similipal-waterfalls",
+      "source_ids": [
+        "4"
+      ],
+      "target": "https://www.unesco.org/en/mab/similipal",
+      "verdict": "PASS",
+      "locator": "General information and Ecological Characteristics",
+      "basis": "Direct reviewer verification recorded in preliminary-root-review.json"
+    },
+    {
+      "article": "raja",
+      "source_ids": [
+        "4"
+      ],
+      "target": "https://web.archive.org/web/20260515224049/https://utsav.gov.in/view-event/raja-mahotsav",
+      "verdict": "PASS",
+      "locator": "Raja Parba: A Celebration of Womanhood and Earth’s Fertility",
+      "basis": "Direct reviewer verification recorded in preliminary-root-review.json"
+    },
+    {
+      "article": "cyclone-dana",
+      "source_ids": [
+        "3"
+      ],
+      "target": "https://web.archive.org/web/20241106050633/https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW2243",
+      "verdict": "PASS",
+      "locator": "Situation report as on27October2024 at1800hrs; printed p2 current situation and p6 table8",
+      "basis": "Direct reviewer verification recorded in preliminary-root-review.json"
+    },
+    {
+      "article": "similipal-waterfalls",
+      "source_ids": [
+        "2"
+      ],
+      "target": "https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "verdict": "PASS",
+      "locator": "Road Metal/Building Stone section, §5.1 River System, printed pp.18–19 (PDF pp.19–20)",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    },
+    {
+      "article": "coastal-shell-craft",
+      "source_ids": [
+        "4"
+      ],
+      "target": "https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "verdict": "PASS",
+      "locator": "PDF p.58, directory rows3263–3264 and3266–3269",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    },
+    {
+      "article": "dhemsa",
+      "source_ids": [
+        "1"
+      ],
+      "target": "https://web.archive.org/web/20241117004307/https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "verdict": "PASS",
+      "locator": "printed page 93; PDF page 15 of 19 in chapter 79–97",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    },
+    {
+      "article": "raja",
+      "source_ids": [
+        "3"
+      ],
+      "target": "https://web.archive.org/web/20260717014854/https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "verdict": "PASS",
+      "locator": "pp.122–123; fourth-day claim printed 122/PDF 1 of 2",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    },
+    {
+      "article": "bande-utkala-janani",
+      "source_ids": [
+        "1"
+      ],
+      "target": "https://web.archive.org/web/20250506062818/https://magazines.odisha.gov.in/orissaannualreference/ORA-2017/pdf/Entire_ORA_2017.pdf",
+      "verdict": "PASS",
+      "locator": "printed page 6; PDF page 28 of 366",
+      "basis": "Researcher checks compared with claim and citation; archived printed p. 6 additionally independently extracted by reviewer"
+    },
+    {
+      "article": "bande-utkala-janani",
+      "source_ids": [
+        "2"
+      ],
+      "target": "https://web.archive.org/web/20251207041544/https://magazines.odisha.gov.in/orissareview/Aug2006/engpdf/43-47.pdf",
+      "verdict": "PASS",
+      "locator": "pp.43–47; Gandhian/spinning/khadi passage printed 46/PDF 4 of 5; nationalism printed 45/PDF 3",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    },
+    {
+      "article": "bali-jatra",
+      "source_ids": [
+        "2"
+      ],
+      "target": "https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf",
+      "verdict": "PASS",
+      "locator": "printed 864 and870/PDF 1 and7 of 8",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    },
+    {
+      "article": "coastal-shell-craft",
+      "source_ids": [
+        "1",
+        "2"
+      ],
+      "target": "https://web.archive.org/web/20250719162258/https://www.academia.edu/10701589/Shell_Bangle_Manufacturing_in_Coastal_Odisha_A_Study_of_Surface_Collection_at_Manikapatana",
+      "verdict": "PASS",
+      "locator": "printed 26–30 in archived article text; fieldwork/context26, rawmaterial27, manufacturing28–29, interpretation29–30",
+      "basis": "Researcher direct source checks, exact capture evidence and limits independently compared with article claims and final citation"
+    }
+  ],
+  "independent_checks": {
+    "canonical_articles": 27,
+    "changed_article_files": 8,
+    "reviewed_distinct_targets": 12,
+    "replaced_distinct_urls": 11,
+    "retained_verified_url": "https://www.unesco.org/en/mab/similipal",
+    "changed_metadata_resource_occurrences": 12,
+    "footnote_definitions": 109,
+    "all_metadata_urls_match_corresponding_footnotes": true,
+    "all_source_ids_preserved": true,
+    "all_original_sha256_values_preserved": true,
+    "all_source_review_dates_preserved": true,
+    "all_authorship_generated_fields_and_routes_preserved": true,
+    "narrative_changes": [
+      "Mandasaru: one sentence replaces unsupported Raikia/moist-deciduous detail with the verified Eastern Ghats forest setting.",
+      "Similipal: two sentences remove agricultural-country/fields wording, retaining supported downstream settlements."
+    ],
+    "other_25_narrative_bodies_byte_identical": true,
+    "images_manifest_byte_identical_to_head": true,
+    "images_manifest_sha256": "d135222aed2f427b4ac41e59225d342ee6922d40205f83874e5a7fdfc569c485",
+    "public_site_tracked_diff_paths": [],
+    "historical_source_register_text_preserved": "Verified after normalizing active links and the intentional Kandhamal-to-Odisha-Tourism link label; dated addendum separate.",
+    "archive_capture_dates_distinct_from_publication_dates": true,
+    "no_universal_access_claim": true,
+    "no_new_creator_text_or_media_in_source_diff": true,
+    "new_output_sensitive_header_token_scan_findings": [],
+    "sanitization_note": "Handoff authorization field contains the user task authorization, not an HTTP credential.",
+    "git_diff_check": "PASS",
+    "annual2017_independent_payload": {
+      "bytes": 52403694,
+      "sha256": "8214f54d2d9625c1c7a7ecd3e1232d3853a7dc02b9337b6cfc607ee6378cf17f",
+      "method": "Native PDFKit extraction of PDF page 28 / printed p. 6 confirms title, author, transliterated poem imagery and Kanta Sahitya Mala credit.",
+      "visual_limit": "Poppler preview stopped after font-cache errors; no visual review of poem page claimed."
+    }
+  },
+  "editorial_assessment": [
+    "Exact archived source identities retained; shorter 2014 chapter belongs to the same annual.",
+    "Bali Jatra uses the verified older publisher PDF capture, not the rejected newer generic HTML.",
+    "Shell-craft notes correctly disclose archived article transcription, not a verified separate PDF; finishing elsewhere remains qualified.",
+    "Directory row locators do not reproduce private artisan data or equate all shell work with conch-bangle making.",
+    "Final annual locator is printed p. 6 / PDF page 28 of 366; register pending caveat replaced by completed direct check."
+  ],
+  "limits": [
+    "For seven targets, assigned researchers performed direct source retrieval/content checks; reviewer assessed evidence, identity, locators and claim matching without repeating network retrievals.",
+    "Shared-renderer and focused-test success are implementer-reported; reviewer independently checked canonical mappings but did not rerun rendering/tests.",
+    "Canonical work record still correctly marks publication not yet published. Root owns later generation, browser, CI and deployment evidence.",
+    "Approval applies to the hashed working source repair, not a later unexamined commit or deployment."
+  ]
+}

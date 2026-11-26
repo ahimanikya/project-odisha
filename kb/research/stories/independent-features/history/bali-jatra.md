@@ -11,7 +11,7 @@ readiness: "Reviewed article; public delivery tracked separately"
 generated: {"by": "Current AI assistant under Ahimanikya Satapathy’s editorial direction", "at": "2026-11-25T17:50:25.527994+00:00"}
 source_review_date: "2026-11-25"
 verification_scope: "Prior independent editorial review; source-access limits preserved in the collection source register. This integration verifies text and URL preservation, not new field reporting."
-sources: [{"id": "1", "title": "Ministry of Culture account", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48"}, {"id": "2", "title": "Tripati and Raut, 2006", "resource": "https://www.researchgate.net/publication/27666817_Monsoon_wind_and_maritime_trade_A_case_study_of_historical_evidence_from_Orissa_India"}, {"id": "3", "title": "Tripati, maritime archaeology of Kalinga", "resource": "https://agris.fao.org/search/en/providers/122415/records/6473680f53aa8c89630d0490"}, {"id": "4", "title": "Ministry of Culture, programme records", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48"}]
+sources: [{"id": "1", "title": "Ministry of Culture account", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48"}, {"id": "2", "title": "Tripati and Raut, 2006", "resource": "https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf"}, {"id": "3", "title": "Tripati, maritime archaeology of Kalinga", "resource": "https://agris.fao.org/search/en/providers/122415/records/6473680f53aa8c89630d0490"}, {"id": "4", "title": "Ministry of Culture, programme records", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48"}]
 public_route: "/stories/odisha/bali-jatra/"
 original_sha256: "359746ccb6e382e12d0bd9ca619d8d8a2951611c7465185f7a75482dc2d6d20c"
 ---
@@ -38,7 +38,7 @@ The remembered voyage required timing and observation as well as courage. A lamp
 
 [^1]: [Ministry of Culture account](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365&lang=2&reg=48)
 
-[^2]: [Tripati and Raut, 2006](https://www.researchgate.net/publication/27666817_Monsoon_wind_and_maritime_trade_A_case_study_of_historical_evidence_from_Orissa_India)
+[^2]: [Sila Tripati and L. N. Raut, “Monsoon wind and maritime trade: a case study of historical evidence from Orissa, India”, *Current Science* 90(6), 25 March 2006, pp. 864–871](https://web.archive.org/web/20090806095554/http://www.ias.ac.in:80/currsci/mar252006/864.pdf), especially pp. 864 and 870; publisher PDF archived 6 August 2009.
 
 [^3]: [Tripati, maritime archaeology of Kalinga](https://agris.fao.org/search/en/providers/122415/records/6473680f53aa8c89630d0490)
 

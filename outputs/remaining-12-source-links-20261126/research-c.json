@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-11-26T06:05:29.073853+00:00",
+  "status": "complete",
+  "scope": "Two assigned official PDF sources",
+  "method": "Prior source register and link-audit reuse; research-map query; primary-source search; normal-TLS Internet Archive availability API, exact viewer iframe inspection and full PDF payload retrieval; native PDFKit document/content extraction. Craft page58 visually checked. No TLS or challenge bypass.",
+  "limitations": "Sandbox DNS failures and web-reader502/timeouts are access failures, not proof of public404. No private artisan details copied into this report.",
+  "items": [
+    {
+      "article": "similipal-waterfalls",
+      "original": "https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "replacement": "https://web.archive.org/web/20251207005116/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "capture_date": "2025-12-07",
+      "availability_api_verified": true,
+      "viewer_status": 200,
+      "viewer_content_type": "text/html",
+      "observed_iframe": "https://web.archive.org/web/20251207005116if_/https://balasore.odisha.gov.in/sites/default/files/2023-06/2019101567-1.pdf",
+      "payload_status": 200,
+      "payload_content_type": "application/pdf",
+      "pdf_signature": true,
+      "bytes": 5574395,
+      "sha256": "6082e660fc5fde25fb071a1abf67b9b1690ec5bb5c8f2f4048158edde79807de",
+      "pdf_pages": 190,
+      "locator": "Road Metal/Building Stone section, \u00a75.1 River System, printed pp.18\u201319 (PDF pp.19\u201320)",
+      "evidence": "Exact draft district survey identifies Similipal origin and Barehipani in \u00a75.1; next page identifies downstream Balasore town. Agriculture is broader landscape context rather than a specific irrigation claim established by this passage.",
+      "action": "Replace metadata resource and footnote with exact archived original; include capture date and locator; preserve historical source identity."
+    },
+    {
+      "article": "coastal-shell-craft",
+      "original": "https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "replacement": "https://web.archive.org/web/20220623003039/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "capture_date": "2022-06-23",
+      "availability_api_verified": true,
+      "viewer_status": 200,
+      "viewer_content_type": "text/html",
+      "observed_iframe": "https://web.archive.org/web/20220623003039if_/https://crafts.odisha.gov.in/wp-content/uploads/2021/12/Baleswar.pdf",
+      "payload_status": 200,
+      "payload_content_type": "application/pdf",
+      "pdf_signature": true,
+      "bytes": 3414726,
+      "sha256": "9ef548c07c43513565e8e6c89542e6733c64f05fd3967d73530f2cd1230ebc00",
+      "pdf_pages": 178,
+      "locator": "PDF p.58, directory rows3263\u20133264 and3266\u20133269",
+      "evidence": "Native PDF extraction and visual page inspection confirm rows3263\u20133264 and3266\u20133269 place Sea Shell Work in Bhogarai. No conch-bangle-specific technique or current artisan population inferred.",
+      "action": "Replace metadata resource and footnote with exact archived original; include capture date and locator; preserve historical source identity."
+    }
+  ],
+  "alternative": {
+    "url": "https://ospcboard.odisha.gov.in/wp-content/plugins/publication/uploads/files_1501932744_1481204503.pdf",
+    "title": "Water Quality of Major Rivers of Odisha (During2011\u20132015)",
+    "publisher": "State Pollution Control Board, Odisha",
+    "year": 2016,
+    "locator": "\u00a71.7 Budhabalanga, printed p.23 / PDF p.47",
+    "evidence": "Web PDF reader confirms Similipal origin, Barehipani, downstream Baripada/Balasore and Balaramgadi mouth.",
+    "recommendation": "Not required because exact district survey archive recovered. Source attribution would need revision if used as substitute."
+  }
+}
