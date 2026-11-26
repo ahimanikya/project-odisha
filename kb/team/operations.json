@@ -55,15 +55,13 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-MAHAVINAYAK-20261126",
-    "route": "/destinations/mahavinayak/",
+    "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",
+    "route": "/stories/godabarish-mahapatra-and-niankhunta/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "handoff": "records/mahavinayak-publication-20261126.json",
-    "scope_released": true,
-    "status": "published_verified",
-    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to reserved Godabarish Mahapatra/Niankhunta publication; no next hill is claimed.",
-    "next_action": "Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Godabarish publication slot."
+    "phase": "hosted_validation",
+    "handoff": "records/godabarish-publication-20261126.json",
+    "scope_released": false,
+    "status": "in_progress"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -883,12 +881,23 @@
       "scope_released": true,
       "status": "published_verified",
       "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Then begin already authorized Godabarish Mahapatra/Niankhunta preparation; explicit hill-chat return follows that reviewed preparation. No publication authority for that draft inferred."
+    },
+    {
+      "id": "POD-EDIT-MAHAVINAYAK-20261126",
+      "route": "/destinations/mahavinayak/",
+      "owner": "Disha",
+      "phase": "receipt_integrated",
+      "handoff": "records/mahavinayak-publication-20261126.json",
+      "scope_released": true,
+      "status": "published_verified",
+      "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to reserved Godabarish Mahapatra/Niankhunta publication; no next hill is claimed.",
+      "next_action": "Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Godabarish publication slot."
     }
   ],
   "next_article_coordination": {
-    "status": "reserved_after_mahavinayak_receipt",
-    "evidence": "records/mahavinayak-publication-20261126.json",
-    "scope": "Godabarish Mahapatra/Niankhunta publication reserved in Research Antaranga Kalinga chat only after actual reviewed receipt merge and explicit handoff. No next hill claimed."
+    "status": "godabarish_publication_active",
+    "evidence": "records/godabarish-publication-20261126.json",
+    "scope": "Return explicitly to coordinating hill chat only after actual reviewed publication receipt merge."
   },
   "current_preparation": {
     "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",

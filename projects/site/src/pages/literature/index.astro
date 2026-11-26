@@ -6,5 +6,6 @@ const entry=structuredClone(collection.pages.find(p=>p.path==='literature'));
 entry.cards.push(...reviewedCulture.filter(p=>p.category==='Literature').map(p=>({title:p.label,text:p.dek,href:p.href,asset:null,source_ids:[]})));
 entry.cards.push({title:'Gourahari Das',text:'Short fiction, novels, translation and an editorial life connecting writers and readers.',href:'/people/gourahari-das/',asset:null,source_ids:[]});
 entry.cards.push({title:'Birakishore Das',text:'',href:'/literature/birakishore-das/',asset:null,image:'/images/literature/birakishore-das/reading-table-480.webp',image_width:480,image_height:320,image_note:'Illustration: Project Odisha.',source_ids:[]});
+entry.cards.push({title:'Godabarish Mahapatra',text:'',href:'/stories/godabarish-mahapatra-and-niankhunta/',asset:null,image:'/images/stories/godabarish-niankhunta-480.webp',image_width:480,image_height:320,image_note:'Illustration: Project Odisha.',source_ids:[]});
 ---
 <VoicesPage entry={entry}/>

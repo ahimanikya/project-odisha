@@ -1,0 +1,68 @@
+{
+  "status": "PASS_STATIC_INTEGRATION_ONLY",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-26T17:53:22.853209+00:00",
+  "baseline": "ce3c54f23e8069d0422babeccb74d690abe7406b",
+  "freeze": "Samanta confirmed implementation frozen and scope released; root full pipeline pending at this review.",
+  "checks": {
+    "source_preservation": "Canonical manuscript byte-exact to preparation. Raw import and existing renderer retain factual paragraphs, five notes, image caption and byline; source-audit integrated hashes all match actual files.",
+    "independent_renderer": "Executed existing renderer in memory: title and Ahimanikya Satapathy author correct, one figure, nine reference anchors, five definitions, nine return anchors, unique IDs and all internal fragment targets present. Did not run full Astro build.",
+    "incoming_preservation": "For all three incoming pages, removing only the new Godabarish card/addition reproduces the baseline source byte-for-byte. Existing passages, images, credits and links are retained.",
+    "navigation_and_media": "Three name-only labels add no factual summaries. Each uses actual480px full-frame illustration with visible Project Odisha credit. Shared ArticleReadingPath uses contain framing, decorative empty alt and native named link. Literature card uses explicit480x320 geometry. New article uses actual flat base/preview paths,1200x800 dimensions,480/1200srcset, eager/high-priority hero and preserved explanatory caption. Reciprocal text links point to all three incoming routes.",
+    "semantics_and_layout_code": "One h1 and shared byline; visible source heading, existing740px article reading rules and font-relative clamp bounds. No new client-side script, shared component changes or hidden source interaction. Native figure/caption and standard links retained. Actual desktop/mobile appearance remains pending.",
+    "edition_and_tests": "Coast and portable inventory each add exactly one route; search hold preserves existing approved shortlist. Static count203→204 and added explicit route assertion reflect one new page. Literature extra-card count2→3 reflects one new card. No removed assertions or broad exclusions.",
+    "capacity_implementation": "Only eleventh explicit JPEG path and its caption/settings entry added; preceding ten entries and encoding algorithm unchanged. Exact approved1117box/quality90 means no resize for838x1117 source. Guards check source, unique alteration phrase, photographer, licence text/URL and matching OG image/dimensions before writes. New real-asset test covers six rejection cases and preservation; EXIF limitation explicit. PNG optimizer unchanged.",
+    "focused_tests": "Samanta recorded actual focused allowlist/Panchalingeswar2/2PASS; no separate log file was written. Reviewer read test code and implementation report but did not rerun concurrent tests. Candidate encoding itself was independently reproduced byte-exact in capacity review.",
+    "protected_preparation": "All113 protected hashes rechecked exact. Prepared24-file manifest already independently verified in preliminary continuity review."
+  },
+  "source_budgets": {
+    "source_audit_public_totals": {
+      "official_profile": 164,
+      "brahma": 192,
+      "original_periodical": 147,
+      "akademi": 101,
+      "archive_description": 88
+    },
+    "reviewer_more_conservative_totals": {
+      "official_profile": 175,
+      "brahma": 192,
+      "original_periodical": 147,
+      "akademi": 101,
+      "archive_description": 92
+    },
+    "method": "Retain prior reviewer extra11 relevant heading words for official profile and4 for archive. Historical preparation brief reserve is not additional public copy; three two-word incoming labels charged to every family. Own conceptual-image credit is not external-source derivation. All under200."
+  },
+  "retained_limits": [
+    "Official government PDF has an expired TLS certificate in the researcher availability check; exception retrieval matched prior source bytes. Root explicitly retained original citation with internal access limitation. Reviewer does not claim ordinary current reader access or repeat that network check here.",
+    "Original periodical selected-page interpretation, attributed chronology and uncertain press-name omission remain; no new fieldwork or full-run audit.",
+    "Conceptual illustration includes generic printed figures but is not an identifiable portrait or actual issue. Prior original/derivative and current480preview visually inspected.",
+    "Panchalingeswar ICC/IPTC/XMP exact, EXIF rewritten; lossy pixels differ. See independent capacity review for actual measurements and visual limits.",
+    "Current report does not approve final rendered layouts, complete package, exact-head hosted CI capacity or actual publication/live delivery."
+  ],
+  "guidance": "Read existing captured HTML and responsive-design guidance and checked relevant semantics, native navigation, image dimensions/srcset/priority and bounded typography. No new framework/API behavior introduced.",
+  "reviewed_sha256": {
+    "projects/site/src/pages/stories/godabarish-mahapatra-and-niankhunta.astro": "a82a996b60d554f3fbe8184e2550009fe48dd7a7ab07ab106dadd4ed511ea4a5",
+    "projects/site/src/pages/literature/index.astro": "6a64685b31e4bb4cac8f72f67abac8c0046c33302207657bfdb21da5fe255fd6",
+    "projects/site/src/pages/literature/birakishore-das.astro": "230d21274ad451a4dda258c91f03519d522a3486c7a1f5a577921d87885f5f5a",
+    "projects/site/src/pages/stories/odia-literature-preservation.astro": "9da65db2417c66f04aeb7f32f4f9adedd872fb129359c76246180d756f2fd707",
+    "projects/site/public/images/stories/godabarish-niankhunta.webp": "12630ee8e7172afe2d6829527e59b35a56b30a6592be883d26b7b42045f55fc7",
+    "projects/site/public/images/stories/godabarish-niankhunta-480.webp": "0e5f77fad2b9cc3d502070c53f306d170a51c231282b65145861b72fc7affc91",
+    "projects/site/editions/coast.json": "61f5c0691313f85af9de382cd151cebb9796874f6d3b52326e77695c24fe20a5",
+    "projects/site/editions/search-candidate.json": "5f1dbad13165f27b22ae36cbc49bbff57d8ccb399d9cb9f21f2a1c887c336d2f",
+    "kb/reference/public-website-routes.json": "7cac618c8aeeefd4e7d65b5661debac28bc5f390ae18415a285f9299a507a2d1",
+    "projects/site/tests/build.test.mjs": "003887c7cb4c40e6970c1ffd6b5dab04ffba575e357b3a617c01fa4f4e2b3ec4",
+    "projects/site/tests-coast/literature-editorial.test.mjs": "cc298aa1fa176c2db2c0f48a2fb126efddfd9b99a507ff106c7e9c1695464202",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "f74536be5c30d5d9cf58341d133b820faa1661b0d3fb775ed1d219579e723739",
+    "projects/site/tests/publication-jpeg.test.mjs": "6a75305b49f0749a17fc2f15e595369f774a1f8d31080b83f4e4ab82beee5364",
+    "kb/research/people/godabarish-mahapatra-and-niankhunta.md": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+    "outputs/godabarish-publication-20261126/research/final-source-audit.json": "a15adf938217d02d1075cf067e2e0dfebaf16c1ad18a4f1fedcc27880ae2efb1",
+    "outputs/godabarish-publication-20261126/implementation/implementation.json": "c832c11d520ee6c85d1f291a4c987bc61ebf44ac82ecfcbbf7907ab286f565af",
+    "outputs/godabarish-publication-20261126/review/capacity-review.json": "bbdb7ca640e1b40778e9315102032fd7b16cb3a4c317f808a2ba245ce3ee66b7"
+  },
+  "blockers": [],
+  "pending": [
+    "Root desktop/mobile captures and separate visual review.",
+    "Final full/coastal/publication tests, disclosures and actual local capacity.",
+    "Exact candidate/hosted CI and live delivery verification."
+  ]
+}

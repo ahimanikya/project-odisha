@@ -36,7 +36,7 @@ test('Literature begins with complete narrative before the seven reading doors a
 });
 test('Literature preserves image context, rights once per source, existing and newly reviewed links and unlinked future writers without a hub download',()=>{
  const html=page('/literature/');
- const doors=html.match(/<section id="reading-doors"[\s\S]*?<\/section>/)?.[0];assert.ok(doors);assert.equal((doors.match(/<article\b/g)||[]).length,entry.cards.length+reviewedLiterature.length+2);
+ const doors=html.match(/<section id="reading-doors"[\s\S]*?<\/section>/)?.[0];assert.ok(doors);assert.equal((doors.match(/<article\b/g)||[]).length,entry.cards.length+reviewedLiterature.length+3);
  const gourahariCards=[...doors.matchAll(/<article\b[\s\S]*?<\/article>/g)].map(m=>m[0]).filter(card=>card.includes('href="/people/gourahari-das/"'));
  assert.equal(gourahariCards.length,1,'Gourahari Das has one distinct reading card');
  assert.equal((gourahariCards[0].match(/href="\/people\/gourahari-das\/"/g)||[]).length,1);

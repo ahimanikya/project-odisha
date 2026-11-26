@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "operator": "Disha/root",
+  "edition": "local full preview dist",
+  "viewports": [
+    [
+      1365,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "route": "/stories/godabarish-mahapatra-and-niankhunta/",
+  "checks": [
+    "Title, byline, reading column and complete illustration with explicit conceptual caption viewed at both widths",
+    "Native source2 click reached fn-2 and keyboard Enter on Back to reference2 returned to fnref-2 at both widths",
+    "Three incoming links clicked at desktop and mobile; all reached exact article route, then browser Back restored incoming preview",
+    "All three incoming illustration, name and Project Odisha credit viewed at both widths",
+    "Mobile preservation actual image complete with naturalWidth480 and document scrollWidth390 equals viewport390"
+  ],
+  "screenshots": [
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-top.jpg",
+      "sha256": "7fed051c9bf27deff8008f0f4e389c72e97faf520e76ee43e365adfa64c2da02"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-illustration.jpg",
+      "sha256": "368dd5da12f35f5ba56c36f57638b19da502118c897cb619469ab300ed687e6f"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-sources.jpg",
+      "sha256": "05d6f9289b48fc0a153af5497e8987188ac932757c4d2f7c6f41c155a34c8a1c"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-top.jpg",
+      "sha256": "078b2d7dc7493631e19dc8bb7f68a78669b2473143371f70bc62540caa179c9e"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-illustration.jpg",
+      "sha256": "0f4f69c20e2942eda80d651bf7bb156e2608578c4e3ef0e523d4d51405ab47a2"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-sources.jpg",
+      "sha256": "5bca20331fdfba9bd1f76d8f00d68640d88961c478810760868fa8203ddcf760"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-literature-card.jpg",
+      "sha256": "5244e31e9392df716f698e2687ae7f2806856a00c25f06cf0051b6fd0da98752"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-literature-card.jpg",
+      "sha256": "07299e3bdc519ff7daccd6eb311633d8279a904efb78d4839794f5ebc57e47bb"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-birakishore-card.jpg",
+      "sha256": "aa7d369364ea7fd2b40d975db664b0845ba8355f32f8d8114eb12adb3bf56a83"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-birakishore-card.jpg",
+      "sha256": "a82f0f1a57d1250cb4760a2eddfa4608686f5191b043356f7a86f78a052ae97d"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/desktop-preservation-card.jpg",
+      "sha256": "2fe5acca5653ced76c4cf353a3aac04f5fd49940844b6893f6ec7608c13062d7"
+    },
+    {
+      "path": "outputs/godabarish-publication-20261126/screenshots/mobile-preservation-card-final.jpg",
+      "sha256": "c361d13daf1cf51472bdc83a19eecc0627f107136a866349f16ad786a8c9619b"
+    }
+  ],
+  "limits": [
+    "Viewport captures are partial page views; sources capture begins at note2, not entire notes section",
+    "Initial mobile-literature-preview and mobile-literature-preview-final captures miss target and are excluded from acceptance",
+    "Initial mobile-preservation-card capture lacked the complete painted card; fresh final capture plus DOM image completion resolves this without source changes",
+    "No external expired-certificate government PDF browser warning bypassed",
+    "Final publication edition and optimized existing Panchalingeswar photo still require separate final check; no live claim"
+  ]
+}
