@@ -1,0 +1,111 @@
+{
+  "status": "implementation_complete_framing_static_checks_pass_rendered_review_pending",
+  "author": "Samanta",
+  "files": {
+    "projects/site/src/pages/destinations/devagiri.astro": "ed995a80cc380ecccbbb457101c5d370d0aac98ee213730847c07e7290a7d3b2",
+    "projects/site/src/data/hill-destinations.ts": "23ef501dbdc1b015aadb502a03e42682f7c9e8e59184b33ffa11f16030d3524d",
+    "projects/site/editions/coast.json": "19edadd0f648935fee9d7660a0889da91de379d75675b2f7f09bc72d4a500a70",
+    "projects/site/editions/search-candidate.json": "353fcc70137e700f2c8d7a9087b16579eb3d7960fb2f633af5cc08a1b6da2a7f",
+    "projects/site/editions/responsive-images.json": "e3b213372285b64820bf47c6053339909f416e14890fefd52cddbd768eecb1de",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "c6f64395f03d3f6dce58fbcc61d573cb773ad6844d69c6e302ed7b9161e907a1",
+    "projects/site/tests/build.test.mjs": "ed083e2b27333edcf669a3d8e4e74ebbd3672f53bed21c111beb0c16d3182db8",
+    "projects/site/tests-coast/edition.test.mjs": "e72b240b4e15b7ae4ee186fa99d5b3759971d3981d531fa3187fcd95cad6b10a",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "7c9c484337af300a48340504b7cb0f824843412a087d3e7b624682360fe3d5ac",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "399e6607c4336a1efc6e873ae0c74e6ba29c586a107fa8700e88f956bf0b66ed",
+    "projects/site/tests/publication-jpeg.test.mjs": "c9da9f6464ec4fc066bb9b2d7d5c7d59bff2164f9dfb82107431c755dd653032",
+    "projects/site/public/images/destinations/devagiri-vinayak-hpsatapathy.webp": "15b8a5a9acfe91760d897e92cafc6fa086620a6e8f31f2713f6d5e10fe229caf",
+    "kb/research/places/devagiri-image.json": "95b726cf0f99c5b9ae3dab584db69457814d0b9f2a1a53f75068360907af8b3b",
+    "projects/site/src/components/DestinationCards.astro": "3956f2a8e87e1ccbf1c703583f9eddbe82a4f3f9e1d1e7be3e7cde268dc7ebb9",
+    "projects/site/src/pages/explore.astro": "0912a03ca95d0771a3039c2f9a783298bce0aa96d45c30893bee482e87aa2c92"
+  },
+  "manuscript": {
+    "path": "kb/research/places/devagiri-article.md",
+    "sha256": "77d19143aae3ca29827d2d612df321d80fec410b67adb5a9372f4c1852bc896c",
+    "edited_by_Samanta": false,
+    "root_confirmed_correction": "published on → dated 24 November 2026"
+  },
+  "integration": {
+    "article": "Existing native wrapper; full-frame960×1210 hero restrained30rem, eager/high priority, shared byline, visible numbered notes, exact credit/source/licence/changes, share image.",
+    "incoming": [
+      "/destinations/hills/",
+      "/destinations/",
+      "/explore/"
+    ],
+    "reading_paths": [
+      "/destinations/mahendragiri/",
+      "/destinations/gonasika/",
+      "/destinations/hills/"
+    ],
+    "new_copy": {
+      "title": "Devagiri",
+      "region": "Rayagada",
+      "summary": "A rocky pilgrimage hill with a cave shrine and named pools.",
+      "odia": "",
+      "aliases": []
+    },
+    "shared_components_changed": true,
+    "portable_route_inventory": "Root owned and registered; no Samanta edits.",
+    "exports": "No new generic export selector or source-image inclusion. Root retains protected/internal export validation.",
+    "preview_framing": {
+      "request": "Root mobile review observed default center crop cutting the upper shrine tower.",
+      "metadata": "Devagiri image previewPosition: center top",
+      "renderers": [
+        "projects/site/src/components/DestinationCards.astro",
+        "projects/site/src/pages/explore.astro"
+      ],
+      "scope": "Conditional inline objectPosition only when image declares previewPosition; undefined otherwise, no generic default or CSS change. Article wrapper/full frame and photo bytes unchanged.",
+      "checks": {
+        "astro_parsing": "PASS both renderers",
+        "responsive_prop_forwarding": "Confirmed remaining attributes spread unchanged to native img; no style override.",
+        "installed_astro_style_serialization": "objectPosition serializes to object-position:center top; undefined omits attribute.",
+        "diff_check": "PASS"
+      },
+      "rendered_acceptance": "PENDING root rebuild and independent mobile/desktop review. Historical first6-stage pipeline is pre-framing evidence only."
+    }
+  },
+  "checks": {
+    "astro_parse": "PASS",
+    "typescript_transform": "PASS",
+    "references": 7,
+    "notes": 4,
+    "returns": 7,
+    "all_fragment_targets": "PASS",
+    "coast_routes": 1414,
+    "unique_route_and_hold_and_responsive_source": "PASS",
+    "image_hash_dimensions": "PASS",
+    "full_fixed_count": 206,
+    "coast_fixed_count": 184,
+    "jpeg_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "optimizer_only_authorized_setting_diff": true,
+    "git_diff_check": "PASS"
+  },
+  "capacity": {
+    "asset": "assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
+    "maximum_dimension": 1728,
+    "quality_before": 95,
+    "quality_after": 90,
+    "geometry": [
+      1552,
+      1728
+    ],
+    "prior_bytes": 1088597,
+    "selected_bytes": 759525,
+    "selected_sha256": "d22fe88283d1342230e27d29d3a835d82f38b10a1afd8e8c1f1e68fc0e72ef09",
+    "saved_bytes": 329072,
+    "new_image_projected_total_bytes": 269246,
+    "estimated_headroom_before_html": 103571,
+    "other_ten_entries_preserved": true,
+    "regression": "Actual source resized; incremental saving >300000; EXIF equal prior1728 derivative, ICC/IPTC/XMP/density/source original/sharing geometry/caption and negative guards retained.",
+    "limits": "Technical EXIF dimensions differ from original; original bytes remain exact. Full source frame retained; original clips left edge of instrument."
+  },
+  "guidance": "Read installed skill and root official MDN/web.dev fallback. Prior unpinned CLI rejection not retried; no new client features.",
+  "limitations": [
+    "No full/coast/publication build run by Samanta; root owns sequential13 stages.",
+    "Actual rendered preview crop recognition requires independent review.",
+    "Actual local/Linux payload and live delivery require final release gates."
+  ],
+  "released": true
+}

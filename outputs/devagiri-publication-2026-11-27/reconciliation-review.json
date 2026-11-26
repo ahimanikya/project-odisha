@@ -1,0 +1,106 @@
+{
+  "result": "pass",
+  "scope": "Bounded working-tree reconciliation of incoming PR897 receipt/evidence with reviewed Devagiri candidate; no new source research, factual review of foreign article, build or publication approval.",
+  "reviewer": "Drishti, separate AI reviewer",
+  "base": "54a8b3260b4ec006b815b24763fbb43456984177",
+  "ours": "6acf028da005d487066bab540f76ebb5ae3944c9",
+  "incoming": "6e387de22d0648781cb56f3cab14ee811b130e78",
+  "incoming_paths": 9,
+  "incoming_nonshared_exact": {
+    "kb/records/unesco-source-fallback-20261127.json": "9ae21e8427c9fd55c1e54901ef081d4a42f0e84e7f68eb322f734aa59df96396",
+    "outputs/unesco-source-fallback-20261127/archive-browser-check.json": "d31937ea42042a93519171aafe37da1aad6dc689ec8a61be4fa8cc0472fb9c7c",
+    "outputs/unesco-source-fallback-20261127/completion-review.json": "a88dfa88e72e7ff7bdee57c47fe9fde90c715a539cb09927dd772cf807890297",
+    "outputs/unesco-source-fallback-20261127/handoff.json": "d7cda99f75d2e85e9b2345b34b3ce04daa1e635deff0e259f43f96be3aaaaddf",
+    "outputs/unesco-source-fallback-20261127/live-verification.json": "e350273e73cf580d5ea6ed32502c79339aaf6b1261772ff567f57f112548574b",
+    "outputs/unesco-source-fallback-20261127/publication-receipt.json": "5cff9a63f2435109426b5408be2e06a30b732b9f1d697a0e4babea8d5b6b299f"
+  },
+  "shared_registry_audit": {
+    "projects": {
+      "incoming_changed_or_added": [],
+      "owned_changed_or_added": []
+    },
+    "work": {
+      "incoming_changed_or_added": [
+        "POD-WORK-20261127001"
+      ],
+      "owned_changed_or_added": [
+        "POD-WORK-2026112791"
+      ]
+    },
+    "decisions": {
+      "incoming_changed_or_added": [],
+      "owned_changed_or_added": [
+        "POD-DEC-2026112791"
+      ]
+    },
+    "requirements": {
+      "incoming_changed_or_added": [],
+      "owned_changed_or_added": []
+    },
+    "reviews": {
+      "incoming_changed_or_added": [
+        "POD-REV-20261127001"
+      ],
+      "owned_changed_or_added": [
+        "POD-REV-2026112791"
+      ]
+    },
+    "releases": {
+      "incoming_changed_or_added": [
+        "POD-REL-20261127001"
+      ],
+      "owned_changed_or_added": []
+    },
+    "sources": {
+      "incoming_changed_or_added": [],
+      "owned_changed_or_added": []
+    },
+    "relationships": {
+      "incoming_changed_or_added": [],
+      "owned_changed_or_added": []
+    }
+  },
+  "activity_history": {
+    "entries": 907,
+    "unique_ids": 907,
+    "ours_exact_byte_prefix": true,
+    "every_incoming_raw_line_preserved": true,
+    "initial_finding": "First reviewed merge reserialized historical POD-EVT-20261019103, replacing its escaped apostrophe with the equivalent literal character. This violated byte-preserving activity history.",
+    "correction_verified": "Root reconstructed the union from original raw lines. All base, ours and incoming historical lines now match exactly, with incoming-only event appended; dashboard was regenerated."
+  },
+  "source_preservation": {
+    "frozen_inputs": 23,
+    "all_frozen_hashes_match": true,
+    "protected_preparation_files": 113,
+    "all_protected_hashes_match": true,
+    "foreign_fields_exact_to_base": [
+      "current_task",
+      "handoff_home",
+      "current_preparation"
+    ],
+    "public_site_research_media_diff_against_ours_empty": true
+  },
+  "evidence_continuity": {
+    "package_review_sha256": "5ebcfe189479109c8f24ba04765f25e8085664307a376d42f098027c79e2d981",
+    "rendered_review_sha256": "f95556287acbe226efa53a3029cc4c9a96c3d41f5f9d50ad8857d7cb50feef46",
+    "qualification": "Incoming changes contain receipt/evidence and shared registers only; unchanged public inputs preserve the reviewed local package scope. Hosted CI must run on final combined commit."
+  },
+  "reviewed_reconciliation_manifest": {
+    "kb/records/unesco-source-fallback-20261127.json": "9ae21e8427c9fd55c1e54901ef081d4a42f0e84e7f68eb322f734aa59df96396",
+    "kb/registers/DASHBOARD.md": "ac48255204c8ba6cfa37f9792c55bc811fd5af67f116481c499db8df19fa2a48",
+    "kb/registers/activity.jsonl": "8a0ea8b8f790a500391184872ceab8210b4e570f78afb9cc279b2d828278f5fc",
+    "kb/registers/records.json": "a51a5f04320c85eb68356b5898bc7b7cc6b2f877bbb5656e5f0e6694ff5192a5",
+    "outputs/unesco-source-fallback-20261127/archive-browser-check.json": "d31937ea42042a93519171aafe37da1aad6dc689ec8a61be4fa8cc0472fb9c7c",
+    "outputs/unesco-source-fallback-20261127/completion-review.json": "a88dfa88e72e7ff7bdee57c47fe9fde90c715a539cb09927dd772cf807890297",
+    "outputs/unesco-source-fallback-20261127/handoff.json": "d7cda99f75d2e85e9b2345b34b3ce04daa1e635deff0e259f43f96be3aaaaddf",
+    "outputs/unesco-source-fallback-20261127/live-verification.json": "e350273e73cf580d5ea6ed32502c79339aaf6b1261772ff567f57f112548574b",
+    "outputs/unesco-source-fallback-20261127/publication-receipt.json": "5cff9a63f2435109426b5408be2e06a30b732b9f1d697a0e4babea8d5b6b299f",
+    "outputs/devagiri-publication-2026-11-27/reconciliation-897.json": "8ce925b7ec7a5c732afcb652187e1b19a26b239ce562cb6da3df02ebc2a0e913"
+  },
+  "limits": [
+    "This review checks resolved working-file bytes; Git merge completion and exact committed tree continuity remain separate.",
+    "Root reported register/workbench/team/programme/map/catalog/bundle checks passed. Reviewer independently verified actual rows, event bytes, source hashes and incoming-file preservation; did not rerun those generators.",
+    "No claim that Devagiri is merged, deployed or live. Required exact-commit review, hosted capacity/CI and later delivery/receipt gates remain."
+  ],
+  "blockers": []
+}

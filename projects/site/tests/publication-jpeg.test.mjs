@@ -18,7 +18,7 @@ test('Mardala delivery preserves the source frame, credit metadata and originals
  const html='<meta property="og:image" content="https://projectodisha.org/assets/sakhi-nata-and-sakhi-pila/mardala.jpg"><meta property="og:image:width" content="2716"><meta property="og:image:height" content="3024"><figure><img src="/assets/sakhi-nata-and-sakhi-pila/mardala.jpg" width="2716" height="3024"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg">Prateek Pattanaik</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; reproduced without alteration. The image documents an instrument, not a particular troupe’s performance.</figcaption></figure>';
  await mkdir(path.dirname(page),{recursive:true});await writeFile(page,html);
  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>0);
- assert.deepEqual(result.files[0].settings,{maximum_dimension:1728,quality:95,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:1728,quality:90,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
  const output=await readFile(path.join(dir,deliveryJPEGs[1])),actual=await sharp(output).metadata(),original=await sharp(source).metadata();
  assert.deepEqual([original.width,original.height,original.orientation],[2716,3024,1]);assert.deepEqual([actual.width,actual.height,actual.orientation],[1552,1728,1]);
  assert.ok(Math.abs(actual.height-actual.width*original.height/original.width)<=1);
@@ -26,6 +26,9 @@ test('Mardala delivery preserves the source frame, credit metadata and originals
  // Technical EXIF dimensions change; exact original bytes remain available.
  const previous=await sharp(source).resize({width:3072,height:3072,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
  assert.ok(previous.length-output.length>1100000);
+ const priorDelivery=await sharp(source).resize({width:1728,height:1728,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(priorDelivery.length-output.length>300000);
+ assert.deepEqual(actual.exif,(await sharp(priorDelivery).metadata()).exif);
  assert.equal(await readFile(page,'utf8'),html.replace('reproduced without alteration.','resized and compressed for web delivery without cropping.').replace('property="og:image:width" content="2716"','property="og:image:width" content="1552"').replace('property="og:image:height" content="3024"','property="og:image:height" content="1728"'));
  assert.ok((await readFile(path.join(dir,'original.jpg'))).equals(source));assert.ok((await readFile(path.join(dir,'assets/unrelated.jpg'))).equals(source));assert.ok((await readFile(sourceURL)).equals(source));assert.notEqual(result.files[0].source_sha256,result.files[0].output_sha256);
  for(const invalid of [html.replace('Mardala_used_in_Sakhi_Nata.jpg','Other.jpg'),html+'<p>reproduced without alteration.</p>',html.replace('property="og:image:width" content="2716"','property="og:image:width" content="1"'),html.replace('content="https://projectodisha.org/assets/sakhi-nata-and-sakhi-pila/mardala.jpg"','content="https://projectodisha.org/unrelated.jpg"')]){
