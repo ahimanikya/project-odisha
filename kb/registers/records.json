@@ -11117,19 +11117,20 @@
       "id": "POD-WORK-20261127003",
       "title": "Final live check of27 articles and remaining source repairs",
       "category": "editorial_maintenance",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Disha with separate research, implementation and review agents"
       },
       "authorization": "POD-DEC-20261127003",
-      "next_action": "Run required hosted checks, publish reviewed source-note repairs, and verify live delivery.",
+      "next_action": "Completed:27article audit and3source-note repairs published and verified. Pentha publisher-login limitation is disclosed.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261127003",
-        "POD-REV-20261127003"
+        "POD-REV-20261127003",
+        "POD-REL-20261127003"
       ],
       "evidence": [
         "records/articles-27-final-audit-20261127.json"
@@ -31770,6 +31771,21 @@
       ],
       "evidence": [
         "records/devagiri-publication-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261127003",
+      "title": "Final27article audit and verified source-note repairs",
+      "status": "published",
+      "authorization": "POD-DEC-20261127003",
+      "destination": "https://projectodisha.org/stories/odisha/",
+      "refs": [
+        "POD-WORK-20261127003",
+        "POD-DEC-20261127003",
+        "POD-REV-20261127003"
+      ],
+      "evidence": [
+        "records/articles-27-final-audit-20261127.json"
       ]
     }
   ],
