@@ -11005,6 +11005,25 @@
       "evidence": [
         "records/godabarish-niankhunta-preparation-20261126.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026112693",
+      "title": "Research, review and publish Mahavinayak",
+      "category": "publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
+      "authorization": "POD-DEC-2026112693",
+      "next_action": "Finish final package review, required hosted CI, authorized publication, live delivery review and reviewed receipt.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026112693",
+        "POD-REV-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
+      ]
     }
   ],
   "decisions": [
@@ -16757,6 +16776,23 @@
       ],
       "evidence": [
         "records/godabarish-niankhunta-preparation-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026112693",
+      "title": "Next uncovered hill after completed Kula release and returned preparation slot",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Has Kula’s final receipt merged and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
+      "scope": "Research, separately review and publish one uncovered hill destination with credited article and preview image.",
+      "refs": [
+        "POD-WORK-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
       ]
     }
   ],
@@ -26763,6 +26799,24 @@
         "records/godabarish-niankhunta-preparation-20261126.json"
       ],
       "summary": "Separate primary-page, factual, original-prose, source-family budget and actual illustration review passed. Five notes and nine references; conceptual image explicitly not a historical issue. Preparation only; no human specialist or live-layout approval."
+    },
+    {
+      "id": "POD-REV-2026112693",
+      "title": "Mahavinayak source, photograph, implementation and local delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112693",
+        "POD-DEC-2026112693"
+      ],
+      "evidence": [
+        "records/mahavinayak-publication-20261126.json"
+      ],
+      "summary": "Separate source/media/capacity/code/rendered/package reviews passed with explicit screenshot and helper-correction limits. Exact candidate, required hosted CI, deployment and fresh live verification remain; not human specialist or field approval."
     }
   ],
   "releases": [

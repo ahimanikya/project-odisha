@@ -1618,3 +1618,7 @@ Reuse the [draft](../culture/kula-and-the-work-of-winnowing.md), [source dossier
 ### Godabarish Mahapatra and Niankhunta preparation ·26November2026
 
 Reuse the [draft](../people/godabarish-mahapatra-and-niankhunta.md), [source dossier](../people/godabarish-niankhunta-sources.json) and [illustration provenance](../people/godabarish-niankhunta-image.json). Scoped research-map and site searches found no dedicated narrative; the earlier cinema-source mention and distinct Godabarish Mishra remain preserved. Selected original magazine pages, a named retrospective account and the awarding institution’s register support different claims. Exact birthday, sole authorship and full-run completeness are not asserted. Facebook supplies a topic lead only. Three records added;1883mapped. Preparation only, no public integration or programme credit.
+
+### Mahavinayak hill destination · 26 November 2026
+
+Added one independently researched destination narrative after scoped reuse checks. ASI regional geography, dated worship accounts and current indexed operator listing remain distinct. Original credited photograph retained; source/field limits and publication checks recorded separately. Inventory now1884; zero programme credit.

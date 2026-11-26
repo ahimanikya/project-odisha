@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f5d08c3933daa35afd4e3d09356209e30af47b8b24d5b093682be5b466106f26`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7c79f7e14e38eb6a6092ac51bb0cae122ad1a3ea3f6d96ac00455d382ce20eef`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -432,6 +432,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261126302 · Integrate, review and publish Kula | completed | published | Ahimanikya Satapathy | Obtain separate integrated and exact-commit receipt reviews, pass required receipt CI and merge; then start queued preparation. | — |
 | POD-WORK-20261126030 · Review27 live articles on desktop and mobile and repair dead sources | in_progress | reviewed | Ahimanikya Satapathy | Complete independent review, required checks, approved publication and live receipt. | — |
 | POD-WORK-20261126304 · Prepare Godabarish Mahapatra and Niankhunta article | completed | draft | Ahimanikya Satapathy | Prepared and separately reviewed; return slot after reviewed local commit. No publication authorized. | — |
+| POD-WORK-2026112693 · Research, review and publish Mahavinayak | in_progress | draft | Ahimanikya Satapathy | Finish final package review, required hosted CI, authorized publication, live delivery review and reviewed receipt. | — |
 
 ## Pending human review and decisions
 
@@ -792,6 +793,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261126302 · Publish reviewed Kula article after Olasuni | recorded_direction | Ahimanikya Satapathy | Integrate, separately review and publish Kula with credited photograph, incoming links and desktop/mobile checks. |
 | POD-DEC-20261126030 · Review and fix images captions layout and links in27 live articles | recorded_direction | Ahimanikya Satapathy | Existing 27-article collection; bounded live fixes and library synchronization under prior live publication authorization. |
 | POD-DEC-20261126304 · Prepare original Godabarish Mahapatra and Niankhunta article | recorded_direction | Ahimanikya Satapathy | Independent original preparation with credited image only; no site integration or publication |
+| POD-DEC-2026112693 · Next uncovered hill after completed Kula release and returned preparation slot | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
 
 ## Reviews
 
@@ -1223,6 +1225,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261126030 | pass | True | — |
 | POD-REV-20261126302 | pass | True | — |
 | POD-REV-20261126304 | pass | True | — |
+| POD-REV-2026112693 | pass | True | — |
 
 ## Publication and application history
 
@@ -1551,7 +1554,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026112691 | 2026-11-25T19:24:09.636770+00:00 | Accepted explicit completed Kula preparation handoff and preserved its reviewed commit. Selected uncovered Olasuni for bounded source/media research; Kula publication reserved next. No deployment or programme credit. | — |
 | POD-EVT-20261126027 | 2026-11-25T20:44:07.468791+00:00 | Started the explicitly requested27-article image additions. Source and licence verification precedes integration; no discovery-creator images and zero programme credit. | — |
 | POD-EVT-20261126028 | 2026-11-25T21:25:24.710125+00:00 | 27 image choices and their rights/captions passed separate cross-review; integration code review passed after complete Explore credits and full-image framing fixes. Final rebuilt, package and hosted delivery checks remain pending; no publication claim and zero programme credit. | — |
 | POD-EVT-2026112692 | 2026-11-25T22:00:02.669995+00:00 | PR878/CI45698734939 and deployment45703571404 succeeded on exact reviewed merge931b8e6ac. Actual live article, photograph, notes and three previews passed root and separate delivery review. Makar PR877 preserved; evidence-only receipt review/check/merge still gates slot return. Zero programme credit. | — |
@@ -1561,6 +1563,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261126303 | 2026-11-26T00:43:40.471945+00:00 | PR883/CI45722295729 and deployment45726102962 attempt1 succeeded on exact reviewed mergedccfa463. Four live routes, six image files and thirteen root desktop/mobile captures passed separate delivery review, with measured encoding differences retained. Evidence-only receipt review, checks and actual merge still gate scope release. Zero programme credit. | — |
 | POD-EVT-20261126304 | 2026-11-26T01:14:54.331145+00:00 | After actual Kula receipt886 merge, began queued Godabarish Mahapatra/Niankhunta original preparation. Scoped coverage found no dedicated narrative; preserve distinct Godabarish Mishra identity. No publication or programme credit. | — |
 | POD-EVT-20261126305 | 2026-11-26T01:28:29.708408+00:00 | Original Godabarish Mahapatra/Niankhunta preparation and credited conceptual illustration passed separate source/media/integrated review. No Facebook text/image reuse, public integration or programme credit. Completion review/local commit and explicit handoff follow. | — |
+| POD-EVT-2026112693 | 2026-11-26T01:37:49.123940+00:00 | Verified Kula receipt886/CI45731660778 and reconciled reviewed Godabarish preparation aace6c370 after explicit handoff. Scoped coverage check selects Mahavinayak as next hill destination; preserve all preparation and foreign ownership. Zero programme credit. | — |
 
 ## Deferred extensions
 
