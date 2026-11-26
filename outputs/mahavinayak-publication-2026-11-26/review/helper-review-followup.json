@@ -1,0 +1,46 @@
+{
+  "result": "pass",
+  "scope": "Static closure of the four previously reported verifier gaps. Actual final verifier execution and package acceptance remain pending.",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "prior_review": {
+    "path": "review/helper-review.json",
+    "sha256": "eb46693ae55fc0a5ad134142df5ff57571ad9f762f96abce08e59d923cc138e3",
+    "preserved": true
+  },
+  "verify_local_sha256": "6f5240ec8177c98d33ede18edc3bded51066ca55344727b0777c931112326544",
+  "contract_sha256": "89c661f29d0b18affc173fa779f36fad76c0decaada73ac164a320ebdaaac67e",
+  "closures": [
+    {
+      "id": "decode_geometry",
+      "result": "closed",
+      "evidence": "Sharp reads actual public base and all three actual generated files. Independently exercised the same read-only decoding:1200×900,480×360,960×720,1200×900; all orientation1. Per-edition SHA equality binds emitted files to those checked bytes."
+    },
+    {
+      "id": "affected_sahi_preservation",
+      "result": "closed",
+      "evidence": "New guard checks KB original SHA and exact source manuscript/wrapper against aace6c370. Paths and Git blobs independently confirmed. Actual coast→publication primary article equality permits only one exact existing compression-disclosure replacement; sharing dimensions remain separately checked. This covers other article text and image references without broad normalization."
+    },
+    {
+      "id": "unpublished_prose_exclusion",
+      "result": "closed",
+      "evidence": "Added Godabarish and Kaincha exact opening sentences, independently compared to actual protected manuscripts. Both dedicated export scans retain paths, titles, same-size file-hash checks and raw/plain prose checks."
+    },
+    {
+      "id": "preview_and_indexing",
+      "result": "closed",
+      "evidence": "Each of three incoming cards in every edition must contain the reviewed title and complete summary, matching image identity and exact responsive URL/width mapping. Frozen search selection must remain hold and actual article robots must include noindex."
+    }
+  ],
+  "consistency": {
+    "all_21_frozen_inputs_unchanged": true,
+    "syntax": "Python AST parse passed without executing verifier",
+    "original_findings_report_unchanged": true
+  },
+  "blockers": [],
+  "limitations": [
+    "No full verifier execution, test/build completion, rendered layout or live delivery claim.",
+    "Card text tests use containment plus previously reviewed static exact fields; full visual review remains required.",
+    "Actual final package must satisfy the new guards without weakening assumptions if an unexpected difference occurs.",
+    "Only this newly authored follow-up report was written by the reviewer."
+  ]
+}

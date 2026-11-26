@@ -1,0 +1,41 @@
+{
+  "result": "corrections_requested",
+  "scope": "Static helper logic only; verifier not executed by reviewer. No build acceptance.",
+  "reviewer": "Drishti (independent AI reviewer)",
+  "helper_hashes": {
+    "run-checks.py": "5b308495c43bbf314d09dc700e06131bebde7cacc14fb5ffe4c4b57b937acdae",
+    "freeze-contract.py": "27e8fb909e7457daf38c6b11f4fc9baf392cb070a907401482b05a4d791912c8",
+    "verify-local.py": "6fe953effe247ca486e9f7895296fe4a73ec4a445df34d89b477ca23a6d8a971"
+  },
+  "sound_checks": [
+    "Runner verifies exact21 source inputs and pinned Dhaga PDF before and after every stage; resumed prior stages must match contract and pass. Thirteen stage order/results required by final verifier.",
+    "Contract contains actual article paragraphs, seven references/five notes, six source URLs, image hashes, three expected dimensions, protected manifest and capacity candidate. It is an expectation, not proof.",
+    "Verifier checks actual article paragraphs in each edition, native note/return targets, source/credit links, sharing identity, local article parity, three unique incoming links, protected113 hashes, three foreign pointers, PDF bytes and strict stat-summed payload.",
+    "Dedicated coastal/publication exclusions inspect file paths, text and protected same-size hashes; full internal edition is not incorrectly forbidden."
+  ],
+  "required_before_package_acceptance": [
+    {
+      "id": "decode_geometry",
+      "finding": "Variant dimensions currently read only from generator report. Decode actual base and three emitted variants and assert dimensions/orientation against explicit expectations."
+    },
+    {
+      "id": "affected_sahi_preservation",
+      "finding": "Assert KB original Sahi hash as well as public/full/coast originals. Compare actual affected Sahi article across editions with only bounded existing publication transformations allowed; retain other image/caption and article text. Current hash/credit/OG checks alone do not establish that preservation."
+    },
+    {
+      "id": "unpublished_prose_exclusion",
+      "finding": "Add exact opening prose markers for Godabarish/Niankhunta and Kaincha to both dedicated export scans. Paths/titles/whole-file hashes alone can miss renamed partial body export."
+    },
+    {
+      "id": "preview_and_indexing",
+      "finding": "Check exact card title/summary and actual emitted responsive mapping, plus expected search hold and robots behavior. Current preview check covers only image src/alt and credits."
+    }
+  ],
+  "root_notified": true,
+  "source_restart_required": false,
+  "limits": [
+    "These are supplementary evidence helper corrections; no demonstrated public-source defect or weakening of current full release suite.",
+    "Independent final artifact and browser review remain necessary.",
+    "Helpers must not be reported as passed until actual successful execution after all stages."
+  ]
+}

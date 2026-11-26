@@ -1,0 +1,87 @@
+{
+  "status": "PASS_COMPLETION_RECORDS_PREPARATION_ONLY",
+  "reviewer": {
+    "name": "Drishti",
+    "kind": "separate_ai_agent"
+  },
+  "reviewed_at_utc": "2026-11-26T01:33:03.035187+00:00",
+  "baseline": "256136a6f7aabf6806ec583980d48bb9fd3a2122",
+  "scope": "Bounded completion-record reconciliation after the completed content and media review. No new source research, browser operation, build, publication or Git mutation.",
+  "checks": {
+    "delivery_files": {
+      "checked": 24,
+      "sha256_mismatches": []
+    },
+    "protected_preparation_files": {
+      "checked": 88,
+      "sha256_mismatches": []
+    },
+    "integrated_review_bound_files": {
+      "checked": 21,
+      "sha256_mismatches": []
+    },
+    "source_and_integrated_review_links": "Both current report hashes match the canonical receipt.",
+    "foreign_ownership": "current_task, handoff_home and inherited current_article are semantically identical to the baseline. Only current_preparation advances to this authorized preparation with an explicit conditional release.",
+    "public_and_infrastructure_diff": "No tracked difference against the baseline in projects/site, tools, tests, editions or .github; status inspection found no new public files.",
+    "registers": "Independently ran python3 tools/registers.py --check: valid, 1438 records, 897 events, dashboard current.",
+    "shared_records": "Exactly one work, decision and review record added; no previous register rows removed or altered. Two activity events and one ledger entry describe preparation and review, not publication. Three map records and the draft catalogue entry identify the same manuscript, sources and image provenance.",
+    "whitespace": "Independently ran git diff --check successfully for tracked changes. This does not establish a future staged check of currently untracked files."
+  },
+  "boundaries": {
+    "prepared_reviewed": true,
+    "publication_authorized": false,
+    "publication_status": "not_published",
+    "programme_credit": 0,
+    "release_condition": "Effective after separately reviewed local preparation commit and explicit return to the coordinating hill chat.",
+    "local_commit_and_explicit_handoff": "Still pending; scope_released is qualified by the explicit release condition, not an assertion that handoff already occurred.",
+    "future_capacity": "Recorded latest receipt baseline 999895453 bytes leaves 104547 bytes; the 114190-byte derivative alone exceeds it by 9643 bytes before variants or page growth. No export or optimization is claimed; future publication needs authorization and a fresh capacity review."
+  },
+  "retained_limits": [
+    "Selected primary pages and attributed retrospective accounts, not a complete periodical-run audit. Ambiguous press name remains omitted in favor of a press at Berhampur.",
+    "Conceptual illustration is not a portrait, authentic issue, historical scene or documentary photograph. Its generic printed figures and negative portrait-rights search remain honestly recorded.",
+    "Independent conservative family allocations remain 182, 199, 154, 108 and 99 words, all within 200; no new substantive prose was added during completion.",
+    "Catalogue, bundle, research map, team, programme and workbench results are root-recorded completion checks; this bounded review reran the register and tracked whitespace checks only.",
+    "Fresh remote-head observation is attributed to the root gh API read; no independent remote request was repeated in this completion audit. No human specialist approval or website/mobile/live review is claimed."
+  ],
+  "reviewed_record_sha256": {
+    "kb/records/godabarish-niankhunta-preparation-20261126.json": "fbcd36d1090043136c702bed408eec34dc332a8c273e39e0bc71d60ebada4ba6",
+    "kb/team/operations.json": "17fd28b92128527ae24c9282969ecb971fe966ad0cb354d3acf7fb899888742c",
+    "kb/registers/records.json": "350329491955f8d0b720159280203406eec00129fcf3cbcd66dab1dc438a517e",
+    "kb/registers/activity.jsonl": "bb62f90a4e5cf4b83da7fe6865eda41f80d64bb63904574c5ceb099ac6855637",
+    "kb/registers/DASHBOARD.md": "93aeb5a4480d69ebcbad8e2f438af7aad18a4526e06060965823f39151d22fee",
+    "kb/history/LEDGER.md": "a11952c07558db3cd3d5d1631780b8e7227fff1a97b302cad3f0c5bf4b27e83a",
+    "kb/catalog.json": "91986e28a14df3b6e4c06c6eeb6e9fb7d72b8b13a5049aedaa0742f07feba84f",
+    "kb/research/references/data/research-map.json": "6f88f90d32f3108bef66f3b5d8df56e83fdc4a8ab488f32e1b7554701c13bcc3",
+    "kb/research/methods/research-map.md": "7f025f57abd22101005142f816f8223d9e4c2685770d2dac4a8f6719ed31b583"
+  },
+  "delivery_sha256": {
+    "kb/media/godabarish-niankhunta/satirical-periodical-illustration-1200.webp": "12630ee8e7172afe2d6829527e59b35a56b30a6592be883d26b7b42045f55fc7",
+    "kb/media/godabarish-niankhunta/satirical-periodical-illustration-original.png": "0bb5c94b7d128d4d385d072981062ff215f039b1a7897a46633ea252291809f7",
+    "kb/research/people/godabarish-mahapatra-and-niankhunta.md": "3918c455472c8198be71e7f7294347c4140e8d1a3618ab157eeae93f0632b79c",
+    "kb/research/people/godabarish-niankhunta-image.json": "ddd4439b3e7062f20ac825b9c1903fbd7dec9c70a6fd426f465a9873984dc24d",
+    "kb/research/people/godabarish-niankhunta-sources.json": "e84e869f61c1d35ce1ccd0c943f737762352ef1ba9a95dce42f1cba7d807b84f",
+    "outputs/godabarish-niankhunta-20261126/article.md": "3b1b7cab7ff3769c11c4c76449d7fd603e06785d21442b2015e6e72e0043f9af",
+    "outputs/godabarish-niankhunta-20261126/checks.json": "102531f2472abeb7e04407f3d2281c4e88f979fbe35c6435ae67f938e8bb994b",
+    "outputs/godabarish-niankhunta-20261126/media/commons-candidates-api.json": "2f92f93a9640aca967c41e0e02ecc34abf978cf4fbb3388c48d6e33b78714c35",
+    "outputs/godabarish-niankhunta-20261126/media/generation-prompt.txt": "a3f5f423f643727fe64c86ec811d926663898d7365d2c8735527deb3166483ce",
+    "outputs/godabarish-niankhunta-20261126/media/media-feasibility.json": "cccce08b1d57b7a12f47489ed88457f0bb62f35d6d9e72142b723173f0e0ef01",
+    "outputs/godabarish-niankhunta-20261126/publication-brief.md": "3805b823efbd3f14c5af91dad1d8dcdce57a4c6688ffa29acf5395b5460eb05d",
+    "outputs/godabarish-niankhunta-20261126/research/brahma-p2.png": "ee4b79232bf4b6a914d9a1359f6562fa4662019a9af0701d183316f225dd9f10",
+    "outputs/godabarish-niankhunta-20261126/research/brahma-p4.png": "e49728c7383213e1bca7d7f4aae6c5dc8a82e41b533e3096670ceafec0f898ba",
+    "outputs/godabarish-niankhunta-20261126/research/brahma-title.png": "bb67ab9e91f04060bbd4cd0df628e96349fa4ba74631dd77be2edcdaf4c4d244",
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf1.png": "0730a08f2603c280e52498570b05448690f774c27a40d5a3ed1c26e0ba697691",
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf6.png": "ff82f00a14ea374650eaa66b8a82ab17a7053c66f094fa0eceabd41e023f3b0b",
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf7.png": "cf665befb292550ea7bae5991bd618b63d2922d10906049a4fd2dfe48549242b",
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf8.png": "9d6a33267db5bdacf4c4571c44b3ab47fa3d94640f2f4b88c6d152368a0e8564",
+    "outputs/godabarish-niankhunta-20261126/research/official-p297.png": "b48a86dd16a982950c053d259a3c76aaedf60c18c7fb5153336096ff93bf79f2",
+    "outputs/godabarish-niankhunta-20261126/research/source-audit.json": "8025a9ad1be1532b2c7ce952a298fe53f28ef1c1ecf5652ffffdb3813b322feb",
+    "outputs/godabarish-niankhunta-20261126/research/source-captures.json": "a893222859ba77b2340d660b7477dff89fcba0cba5911adffc0a29c348248136",
+    "outputs/godabarish-niankhunta-20261126/review/integrated-review.json": "64a5f9b92ed602abc25b7faa12d9f8ac382bb7bc24d3a0b97eed7e2a1452feb9",
+    "outputs/godabarish-niankhunta-20261126/review/media-review.json": "3ac61a5c47f9ba2a45a71ba7438aac7977ca40dae8c35c089363db42b47b7f3d",
+    "outputs/godabarish-niankhunta-20261126/root-inspection.json": "8f652c685b0ecbc53146a5d92fe2e5be124629be334a6d6c9e85fc3abe18d1e0"
+  },
+  "protected_manifest_sha256": "b4288e9cfd50a0a5d68b967629d8d96cfa1af487124215d73d7c338879f79b77",
+  "blockers": [],
+  "review_scope_released": true,
+  "next_action": "Root may attach this actual report hash, perform final staged checks, commit the reviewed preparation locally and explicitly return the slot. This report does not authorize publication."
+}
