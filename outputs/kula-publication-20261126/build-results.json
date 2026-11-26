@@ -1,0 +1,334 @@
+[
+  {
+    "log": "outputs/kula-publication-20261126/checks/full-build.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "full-build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 124.41,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/full-disclosures.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "full-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.94,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/full-tests.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "full-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 33.48,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/coast-build.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "coast-build",
+    "command": [
+      "npm",
+      "run",
+      "build:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 125.85,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/coast-disclosures.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "coast-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 59.27,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/coast-tests.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "coast-tests",
+    "command": [
+      "npm",
+      "run",
+      "test:coast"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 21.57,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/coast-acceptance.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "coast-acceptance",
+    "command": [
+      "python3",
+      "tools/audit-coast.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 21.87,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/coast-discovery.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "coast-discovery",
+    "command": [
+      "python3",
+      "tools/audit-discovery.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 7.06,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/search-review.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "search-review",
+    "command": [
+      "node",
+      "tools/prepare-search-review.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 213.91,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/launch-readiness.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "launch-readiness",
+    "command": [
+      "python3",
+      "tools/audit-launch-readiness.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 18.69,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/publication-build.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "publication-build",
+    "command": [
+      "npm",
+      "run",
+      "build:publication"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 949.84,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/publication-disclosures.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "publication-disclosures",
+    "command": [
+      "node",
+      "tools/check-public-disclosures.mjs",
+      "dist-publish"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 22.07,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  },
+  {
+    "log": "outputs/kula-publication-20261126/checks/search-shortlist.log",
+    "source_hashes": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "149a1afa7a865863da989cb2eb82e5ab4e002a5b1db7ae75279b5139c7e16900",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "cf6a09073d79159766cb16b3b700cf59bf482894714b79c91950b1a8a25d280f",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/tests/build.test.mjs": "758d13cee4d03c087e68c14a986bf241770c2d665bb63bcaf8fcff9d9de49cd2"
+    },
+    "stage": "search-shortlist",
+    "command": [
+      "python3",
+      "tools/audit-search-shortlist.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 60.16,
+    "manuscript_sha256": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+    "source_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
+    "dhaga_pdf_sha256": "1fb2688a7b2841f69103d9121efd0fdf11ddfada78a4e21b2076d782c38b3373"
+  }
+]

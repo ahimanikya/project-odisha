@@ -1,0 +1,6 @@
+{
+  "observed": "Verifier treated leading-newline heading block as paragraph because block filtering preceded trim.",
+  "correction": "Trim each Markdown block before classifying paragraph versus heading; paragraph content comparison remains exact.",
+  "public_source_changed": false,
+  "failure": "outputs/kula-publication-20261126/local-verification-parser-failure.json"
+}
