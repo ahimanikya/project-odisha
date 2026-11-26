@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1426. blocked: 1, completed: 279, excluded: 873, in_progress: 1, queued: 272.
+Route inventory: 1427. blocked: 1, completed: 279, excluded: 873, in_progress: 1, queued: 273.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1450,3 +1450,4 @@ Route inventory: 1426. blocked: 1, completed: 279, excluded: 873, in_progress: 1
 | POD-EDIT-MAHAVINAYAK-20261126 | [Mahavinayak: A Hill Shrine and Five Forms of Worship](https://projectodisha.org/destinations/mahavinayak/) | completed | One original hill destination article with high-quality credited photograph and previews; zero programme credit. |
 | POD-EDIT-PANA-SANKRANTI | [Pana Sankranti: A Drink for the Tulasi](https://projectodisha.org/stories/pana-sankranti/) | queued | article |
 | POD-EDIT-GODABARISH-NIANKHUNTA-20261126 | [Godabarish Mahapatra and the Pages of Niankhunta](https://projectodisha.org/stories/godabarish-mahapatra-and-niankhunta/) | in_progress | Original literature article with credited conceptual illustration; zero programme credit. |
+| POD-EDIT-BAISAKHA-BRATA | [Baisakha Brata: Water for the Summer Month](https://projectodisha.org/stories/baisakha-brata/) | queued | article |
