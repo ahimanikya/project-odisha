@@ -1,0 +1,107 @@
+{
+  "status": "PASS_ROOT_LIVE_UI_WITH_FRAMING_LIMITS",
+  "checked_at": "2026-11-26T00:41:55.163975+00:00",
+  "browser": "Chrome through CUA, root-operated",
+  "url": "https://projectodisha.org/stories/kula-and-the-work-of-winnowing/",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "overflow": "Observed document scroll width equals viewport width at both sizes",
+  "actions": [
+    "Inspected article title, byline, introduction, photograph, caption and source notes at desktop and mobile sizes",
+    "Clicked source note 2 and used Enter on Back to reference 2 at both sizes; observed native fragment destinations",
+    "Clicked Kula outgoing Dhinki link and verified destination",
+    "Clicked incoming Kula card from Dhinki and Binchana at mobile size and Craft Listening at desktop size; verified article URL",
+    "Inspected all three incoming photographs and visible linked credits at both sizes",
+    "Reset temporary viewport and marked final Kula article tab as deliverable"
+  ],
+  "screenshots": [
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-binchana-preview.jpg",
+      "sha256": "f02624051f4e2efbf4b5787359a1fe1f3c20dae8e9eb0c5d00ca2e5c605fbdcf",
+      "bytes": 75178
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-craft-preview.jpg",
+      "sha256": "78f66383f32e48ef149df66076935b241b324e84a189097ac67802d35da22e58",
+      "bytes": 69994
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-dhinki-preview.jpg",
+      "sha256": "956bd9c695006168c45df7d0f0c7c826f67d72a03f096f53ee5dd1860bf90f72",
+      "bytes": 70413
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-notes.jpg",
+      "sha256": "ad27cd2b363bab6c1b92fa0138f30faee1d620b74cc2f3e5152d04fcbd5223a4",
+      "bytes": 116842
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-photo-settled.jpg",
+      "sha256": "8e329ba2199f7c682759a6fca1a39ba1acbd4871cf01343d3ed5160fc6dd2b66",
+      "bytes": 120305
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-photo.jpg",
+      "sha256": "4f75174c9c85d02d3d6860a32ef61abaed8d4719190e85009cff135e69d218f9",
+      "bytes": 116797
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/desktop-top.jpg",
+      "sha256": "a1269d89b30b0f819fddd1b4ad2cd78638194a206ccc95f7da31d87bf7d1b78c",
+      "bytes": 122411
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/mobile-binchana-preview.jpg",
+      "sha256": "ec3edc13b77d9448f6847f2e720022abcafdd9d9227495a14143a06abc0cc9a7",
+      "bytes": 43227
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/mobile-craft-preview.jpg",
+      "sha256": "69f09ef0c602febbe3e276eed2fbcb74f04395c78250870e5c142f05fbc26279",
+      "bytes": 41433
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/mobile-dhinki-preview.jpg",
+      "sha256": "6ee42f9bd505c5d7df3154653a5e54e6caf085cd31cb19d06b0bdf9320975682",
+      "bytes": 37674
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/mobile-notes.jpg",
+      "sha256": "af7b1754674ce51f883e647bbc0ad7db61d9da7679b152d688fdd41e4f271a4e",
+      "bytes": 62300
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/mobile-photo-return.jpg",
+      "sha256": "7b5136ca3bd6620ddba31fec3218272b9a40920f8a5f9416ec20f209c485174c",
+      "bytes": 66129
+    },
+    {
+      "path": "outputs/kula-publication-20261126/live-screenshots/mobile-top.jpg",
+      "sha256": "47fb39dc7781eba538877c63d52673c5a4932a4329f6d0b9d1fa2283c7e55e6e",
+      "bytes": 60169
+    }
+  ],
+  "screenshot_count": 13,
+  "framing_limits": [
+    "desktop-photo.jpg duplicates the upper article framing of desktop-top.jpg and does not show the full photograph",
+    "desktop-photo-settled.jpg remains an upper hero view, not a whole photograph capture",
+    "mobile-photo-return.jpg shows the whole photograph and caption; direct original and all differing image pairs were separately displayed and reviewed",
+    "Viewport screenshots are selected views, not exhaustive full-page visual proof"
+  ],
+  "recoveries": [
+    "Browser session reset after wait: new live tab used",
+    "Dhinki navigation and later Craft navigation briefly detached; fresh tab binding verified actual destination",
+    "Attempted Home on unfocusable heading failed; actual footer Back to top link used instead"
+  ],
+  "image_evidence": "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/root-image-review.json",
+  "raw_http_status_preserved": "REVIEW_REQUIRED for four measured encoding differences and classified analytics shell insertion; separate root and independent review provide acceptance, no cause or pixel-identity claim",
+  "privacy_limit": "No consent behavior or analytics tracking verification claim"
+}

@@ -25570,15 +25570,30 @@
       "id": "POD-EDIT-KULA-20261126",
       "route": "/stories/kula-and-the-work-of-winnowing/",
       "title": "Kula and the Work of Winnowing",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "article",
       "source_template": "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/kula-publication-20261126.json",
         "research/culture/kula-and-the-work-of-winnowing.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/kula-publication-20261126.json",
+      "delivery": {
+        "url": "https://projectodisha.org/stories/kula-and-the-work-of-winnowing/",
+        "pull_request": 883,
+        "deployment_run": 45726102962,
+        "receipt": "records/kula-publication-20261126.json"
+      }
     },
     {
       "id": "POD-EDIT-DOLA-PURNIMA",

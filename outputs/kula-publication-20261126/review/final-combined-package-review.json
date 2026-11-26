@@ -1,0 +1,122 @@
+{
+  "status": "PASS_COMBINED_LOCAL_PACKAGE_PENDING_HOSTED_CI_AND_LIVE_DELIVERY",
+  "reviewer": "Drishti, separate AI reviewer",
+  "commit": "57f64a599fd028ec66adee5a7eba1f0b0192b08e",
+  "scope": "Read-only independent inspection of actual final package and committed-input continuity; no builds, browser operation or publication by reviewer.",
+  "checks": {
+    "all_build_stages": 13,
+    "full_tests": 844,
+    "coast_tests": 605,
+    "page_acceptance_checks": 5632,
+    "root_artifact_checks": 218,
+    "disclosure_pages": {
+      "full": 1550,
+      "coast": 1535,
+      "publication": 1536
+    },
+    "disclosure_violations": 0,
+    "search_shortlist": 11,
+    "independent_package_stat": {
+      "bytes": 999029903,
+      "regular_files": 3783,
+      "symbolic_links": 0,
+      "hard_linked_files": 0,
+      "special_files": 0
+    },
+    "headroom_before_strict_1GB": 970097,
+    "four_article_fragments": {
+      "kula": {
+        "dist": "4468550d65752a43c769df7642c582d92ce1ac9cd7b357e29d3322fcbe789044",
+        "dist-coast": "4468550d65752a43c769df7642c582d92ce1ac9cd7b357e29d3322fcbe789044",
+        "dist-publish": "4468550d65752a43c769df7642c582d92ce1ac9cd7b357e29d3322fcbe789044"
+      },
+      "dhinki": {
+        "dist": "e1294d203deba98b5e2b95dba29e8632317448baa6c7ec31ba63e197dbfde660",
+        "dist-coast": "e1294d203deba98b5e2b95dba29e8632317448baa6c7ec31ba63e197dbfde660",
+        "dist-publish": "e1294d203deba98b5e2b95dba29e8632317448baa6c7ec31ba63e197dbfde660"
+      },
+      "binchana": {
+        "dist": "ec244e756f03681c5090dd12254acb3607dc4ba5b94d78737f66858b6fd915ce",
+        "dist-coast": "ec244e756f03681c5090dd12254acb3607dc4ba5b94d78737f66858b6fd915ce",
+        "dist-publish": "ec244e756f03681c5090dd12254acb3607dc4ba5b94d78737f66858b6fd915ce"
+      },
+      "craft_listening": {
+        "dist": "a9a0fb2da0ae77c7d431056fa518a8f0fcb4f385bec1a7b3ab91878d51808218",
+        "dist-coast": "a9a0fb2da0ae77c7d431056fa518a8f0fcb4f385bec1a7b3ab91878d51808218",
+        "dist-publish": "a9a0fb2da0ae77c7d431056fa518a8f0fcb4f385bec1a7b3ab91878d51808218"
+      }
+    },
+    "four_kula_assets": [
+      {
+        "url": "/images/responsive/4fb1dc76898b5b2e-960.webp",
+        "sha256": "4fb1dc76898b5b2e02bbff0749c88ac645b8c5e4137b7be0aaf6f6dc70244f20",
+        "bytes": 115618
+      },
+      {
+        "url": "/images/responsive/8f2ecedf1cf5e59f-480.webp",
+        "sha256": "8f2ecedf1cf5e59f23b68da2b67a601c8cf38d29e3d4da3bad66fa6f1124304a",
+        "bytes": 43134
+      },
+      {
+        "url": "/images/responsive/b5b88c47833b0bcc-1200.webp",
+        "sha256": "b5b88c47833b0bcccb6481cc171611b546c0f4f8f51049830a583f8483941abd",
+        "bytes": 195384
+      },
+      {
+        "url": "/images/stories/kula-trays.webp",
+        "sha256": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+        "bytes": 259384
+      }
+    ],
+    "preservation": {
+      "incoming": 21,
+      "protected": 88,
+      "foreign_pointers": true
+    }
+  },
+  "continuity": "All four complete article fragments and all four Kula assets match the initially reviewed package across full/coastal/publication editions. Craft Listening outer article was extracted with balanced article tags because it contains a nested card article. No new layout or image claim based solely on filenames. Prior actual screenshot review and its framing limits remain applicable to unchanged fragments/assets.",
+  "input_binding": {
+    "recorded_pipeline_head": [
+      "b1456c47a2c4cb5480f981771f24a1ef5eb8072f"
+    ],
+    "reviewed_committed_head": "57f64a599fd028ec66adee5a7eba1f0b0192b08e",
+    "explanation": "Pipeline began while the resolved incoming merge was uncommitted. All 15 frozen input hashes at every stage match actual current files and committed 57f64a599 bytes, including incoming Agira/discovery/test inputs. The earlier recorded HEAD is retained honestly; it is not claimed as the combined source tree.",
+    "source_sha256": {
+      "kb/research/culture/kula-and-the-work-of-winnowing-publication.md": "de1f8da9c7f9596c681aaebe4a107b523d8c98f90ece3b2845697b96346fb18c",
+      "projects/site/editions/coast.json": "85486720b4c721dd2cf79f5ffdb42807d6f9140bf6d63d0b0e77b8496873333b",
+      "projects/site/editions/responsive-images.json": "b7bb485f042d4dcfd653917d176320fe933d625fa5573a6c5c1043e0a56a002d",
+      "projects/site/editions/search-candidate.json": "7c6eb523a015493b685d36fcbf3251d7ac37d2542be7b8e52fdbfb86ca91447a",
+      "projects/site/public/images/stories/kula-trays.webp": "11f004c0ad6cc76a96fb84c8d1bff97e92c590b9b4f571a3f45f6276a1f82963",
+      "projects/site/src/data/discovery.ts": "5544b9b2c78c6d88a3039324a3f9667835f02947a5dd0bc7c5b9902410837516",
+      "projects/site/src/pages/stories/agira-purnima.astro": "62566effd320bc3ca83c52d62f7398f9db13b015f843f9eb1da1913a17df59b4",
+      "projects/site/src/pages/stories/binchana-and-the-handmade-breeze.astro": "9562971b51dc46dcabcf5b8adfac2a719c88bc8b7fa10b818de5c9dce045367e",
+      "projects/site/src/pages/stories/craft-listening.astro": "7ce4a452ed017ad5de196b6453bf57baac1be9021656bac575e1bfb4023063c8",
+      "projects/site/src/pages/stories/dhinki-and-the-work-behind-rice.astro": "137ae8c6a67bc55ce12856ddd76be8e0d510b918b2a0e7af45b1f6b8a9f59418",
+      "projects/site/src/pages/stories/kula-and-the-work-of-winnowing.astro": "657f75193d2252fb8f0f12acabf3e2d89f361372a5c037cfc24787d25975b67b",
+      "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "2d1d2360a699372a750e59de283547fc92ab229cf57d8b90656edc4b3753ce7e",
+      "projects/site/tests-coast/discovery-flow.test.mjs": "a7fd4e75d238f426670be9af6249444f566bdd7b03c7d58349eab65a7dbc91ae",
+      "projects/site/tests-coast/edition.test.mjs": "4880beca742f6b67e74a6ebfc9ec3db92f28ed3b7bd447458f20a9520e118c44",
+      "projects/site/tests/build.test.mjs": "f3fc78539cdbe4fe15c71c5d5982e3e481f6dd35257f8871274a243a08080ffb"
+    }
+  },
+  "helper_review": "verify-local-combined.py only changes build-results/output report pointers from the previously reviewed helper. verify-live-combined.py only changes local-report gate and report-hash pointers. Deployment-ready guard, raw-difference retention and comparison logic remain intact. No network requests made in this review.",
+  "preserved_history": "Original package report and parser-classification failure remain historical evidence. Combined verifier has 218 checks, five more frozen incoming public inputs than the original 213.",
+  "limits": [
+    "Actual hosted Linux capacity and required CI have not been accepted by this report.",
+    "No deployment or live HTTP/browser success claimed.",
+    "Browser interactions are attributed to root; prior 17-capture review retains blank desktop full-page hero and early framing exclusions.",
+    "Incoming article content was preserved, not substantively re-reviewed."
+  ],
+  "evidence_sha256": {
+    "outputs/kula-publication-20261126/build-results-combined.json": "5d7d32f0490b557f51c1e5e333f4458c142bf41b1fc546e68859e0793dd6cc89",
+    "outputs/kula-publication-20261126/local-verification-combined.json": "e283660aca960aac14d9e4da5c29b93dabc12efbbe61b6ca57027d42b86bab1c",
+    "outputs/kula-publication-20261126/local-payload-combined.json": "3ca32d10a948f3af8ba01baf411e7d75d83f89c040261a97b3418c28414c0899",
+    "outputs/kula-publication-20261126/verify-local-combined.py": "f28aeecb00bd3f45bb2c93f473473e337c2957a2c37cffc66ef9c72bc60220b0",
+    "outputs/kula-publication-20261126/verify-live-combined.py": "264ffe8c01334de3f8183003d4fd142fbb9cd9b4b3dfd9bcb5615fabdbc6365e",
+    "outputs/kula-publication-20261126/review/rendered-review.json": "d75d2f5f4839922de940aa0da7a4268df22150e537c76bd86019eca5d9edc575",
+    "outputs/kula-publication-20261126/review/final-package-review.json": "40206268cafc9aad658ccd2702b37ed4cfd4c0838e8f6cad3291cb1bfe42431e",
+    "outputs/kula-publication-20261126/review/reconciliation-review.json": "2b2a58ab632f3c6ee5f57fa7d6734d60c9ff95c661ca57d710efd2cb475a4f47"
+  },
+  "blockers": [],
+  "review_scope_released": true
+}
