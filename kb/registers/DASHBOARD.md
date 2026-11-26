@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b9ce617fbc24abf7769cf9e7b52ec044ff712eac27e9c3e427444e385741e0e3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fda52dc5d258913e4d167a4fc71d82313960696e2880c916ac403ebdc0edee38`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -430,7 +430,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261126301 · Prepare Kula and the Work of Winnowing | completed | reviewed | Ahimanikya Satapathy | Commit reviewed preparation and explicitly return the article slot; publication remains unauthorized. | — |
 | POD-WORK-2026112691 · Research, review and publish Olasuni | completed | published | Ahimanikya Satapathy | Merge the separately reviewed evidence-only receipt after required CI, then return the reserved Kula slot. | — |
 | POD-WORK-20261126302 · Integrate, review and publish Kula | completed | published | Ahimanikya Satapathy | Obtain separate integrated and exact-commit receipt reviews, pass required receipt CI and merge; then start queued preparation. | — |
-| POD-WORK-20261126030 · Review27 live articles on desktop and mobile and repair dead sources | in_progress | reviewed | Ahimanikya Satapathy | Complete independent review, required checks, approved publication and live receipt. | — |
+| POD-WORK-20261126030 · Review 27 live articles on desktop and mobile and repair dead sources | completed | published | Ahimanikya Satapathy | Retain the verified review and publication evidence; respond to later corrections. | — |
 
 ## Pending human review and decisions
 
@@ -1511,6 +1511,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026112691 · Olasuni hill article with credited photograph | published | https://projectodisha.org/destinations/olasuni/ | POD-DEC-2026112691 |
 | POD-REL-20261126027 · 27 independent Odisha articles illustrated with documented image rights | published | https://projectodisha.org/stories/odisha/ | POD-DEC-20261126027 |
 | POD-REL-20261126302 · Kula and the Work of Winnowing with credited photograph | published | https://projectodisha.org/stories/kula-and-the-work-of-winnowing/ | POD-DEC-20261126302 |
+| POD-REL-20261126030 · Live review of 27 illustrated articles and verified source-link repairs | published | https://projectodisha.org/stories/odisha/ | POD-DEC-20261126030 |
 
 ## Sources and assets
 
@@ -1548,7 +1549,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261125028 | 2026-11-25T20:04:38.048993+00:00 | Published27 reviewed original articles and six-category collection under explicit library-and-live authorization. All28 routes verified against reviewed content; no creator text or images. Zero programme credit. | — |
 | POD-EVT-20261126301 | 2026-11-25T19:13:04.811720+00:00 | Accepted Barunei receipt c1b4b901 and explicit handoff. Prepared original Kula article from independent sources with credited CC BY-SA 3.0 photograph. Separate source and integrated review passed; no website edits, deployment or programme credit. Reviewed local commit and explicit slot return remain. | — |
 | POD-EVT-2026112691 | 2026-11-25T19:24:09.636770+00:00 | Accepted explicit completed Kula preparation handoff and preserved its reviewed commit. Selected uncovered Olasuni for bounded source/media research; Kula publication reserved next. No deployment or programme credit. | — |
 | POD-EVT-20261126027 | 2026-11-25T20:44:07.468791+00:00 | Started the explicitly requested27-article image additions. Source and licence verification precedes integration; no discovery-creator images and zero programme credit. | — |
@@ -1558,6 +1558,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261126302 | 2026-11-25T22:52:25.393060+00:00 | Accepted merged Olasuni receipt417fcfdee and explicit slot return; started authorized Kula publication. Prior preparation and foreign ownership preserved; zero programme credit. | — |
 | POD-EVT-20261126030 | 2026-11-25T23:34:40.146055+00:00 | All27 article images and captions inspected at desktop1280 and mobile390, plus narrow320 credit checks; no crop/layout/credit defect. Four404 source targets in three articles queued for verified repair. Publication pending; zero programme credit. | — |
 | POD-EVT-20261126303 | 2026-11-26T00:43:40.471945+00:00 | PR883/CI45722295729 and deployment45726102962 attempt1 succeeded on exact reviewed mergedccfa463. Four live routes, six image files and thirteen root desktop/mobile captures passed separate delivery review, with measured encoding differences retained. Evidence-only receipt review, checks and actual merge still gate scope release. Zero programme credit. | — |
+| POD-EVT-20261126031 | 2026-11-26T01:25:59.174916+00:00 | Reviewed all27 article images/captions on desktop and mobile; no image/layout/credit changes needed. Four dead research targets repaired and published through PR884/run45730336857. Live six-view repaired-note review and separate29page/49image/109footnote checks passed. Twelve other access/transport limits retained. Zero programme credit; evidence-only receipt integration follows. | — |
 
 ## Deferred extensions
 

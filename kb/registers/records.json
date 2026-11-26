@@ -10967,21 +10967,22 @@
     },
     {
       "id": "POD-WORK-20261126030",
-      "title": "Review27 live articles on desktop and mobile and repair dead sources",
+      "title": "Review 27 live articles on desktop and mobile and repair dead sources",
       "category": "editorial_maintenance",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Coordinating assistant with separate source, implementation and quality agents"
       },
       "authorization": "POD-DEC-20261126030",
-      "next_action": "Complete independent review, required checks, approved publication and live receipt.",
+      "next_action": "Retain the verified review and publication evidence; respond to later corrections.",
       "blockers": [],
       "refs": [
         "POD-DEC-20261126030",
-        "POD-REV-20261126030"
+        "POD-REV-20261126030",
+        "POD-REL-20261126030"
       ],
       "evidence": [
         "records/independent-articles-live-review-20261126.json"
@@ -26690,7 +26691,7 @@
         "records/independent-articles-live-review-20261126.json"
       ],
       "independent": true,
-      "summary": "All27 image/caption choices suitable. Desktop/mobile browser review found no crop/layout/credit defect. Four confirmed404 targets repaired in five footnotes of three articles; narratives and images unchanged. Listing-only limits explicit. Required CI and publication pending; no human-specialist review claimed."
+      "summary": "All 27 image and caption choices are suitable. Desktop and mobile review found no cropping, layout or credit defect. Four missing source targets were repaired in five notes across three articles, with listing-only limits explicit. Required checks and publication passed. Live verification confirmed 29 pages, 49 image hashes, 109 footnotes and HTTP 200 for all four repaired targets. Narratives and images are unchanged. No human-specialist review or programme credit is claimed."
     },
     {
       "id": "POD-REV-20261126302",
@@ -31299,6 +31300,21 @@
       ],
       "evidence": [
         "records/kula-publication-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261126030",
+      "title": "Live review of 27 illustrated articles and verified source-link repairs",
+      "status": "published",
+      "authorization": "POD-DEC-20261126030",
+      "destination": "https://projectodisha.org/stories/odisha/",
+      "refs": [
+        "POD-WORK-20261126030",
+        "POD-DEC-20261126030",
+        "POD-REV-20261126030"
+      ],
+      "evidence": [
+        "records/independent-articles-live-review-20261126.json"
       ]
     }
   ],
