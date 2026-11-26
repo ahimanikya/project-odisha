@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "published_verified",
   "article_id": "POD-EDIT-MAHAVINAYAK-20261126",
   "route": "/destinations/mahavinayak/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has Kula’s final receipt merged and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112693",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "aace6c370ee19906a5aec4b2b44917945e5ca8fd",
   "prior_handoff": {
     "record": "records/godabarish-niankhunta-preparation-20261126.json",
@@ -72,15 +72,17 @@
     "historical_combined_receipt_bytes": 999895453,
     "historical_files": 3784,
     "historical_remaining_bytes": 104547,
-    "status": "Fresh image cost, separately reviewed capacity handling and actual Linux gate required",
+    "status": "Final combined local and actual Linux CI/deployment passed; actual deployed headroom68837 bytes.",
     "approved_change": "Only existing Sahi Jatra delivery JPEG2400px quality95 to88, same full frame/orientation/metadata relative to previous derivative, original retained.",
     "proposal": "outputs/mahavinayak-publication-2026-11-26/capacity/proposal.json",
     "separate_review": "outputs/mahavinayak-publication-2026-11-26/review/capacity-review.json",
     "estimated_saving_bytes": 721873,
     "local_actual_bytes": 999062718,
-    "local_actual_files": 3789
+    "local_actual_files": 3789,
+    "final_combined_local_bytes": 999089458,
+    "final_combined_local_files": 3790
   },
-  "next_action": "Complete independent combined reconciliation review and fresh local/hosted validation; then authorized merge/deployment/live review/receipt.",
+  "next_action": "Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Godabarish publication slot.",
   "additional_authorization_quote": "Continue with Mahavinayak—complete the research and review, then publish it with the credited photograph in the article and preview.",
   "media": "research/places/mahavinayak-image.json",
   "source_dossier": "outputs/mahavinayak-publication-2026-11-26/research/source-manifest.json",
@@ -95,7 +97,10 @@
     "implementation": "outputs/mahavinayak-publication-2026-11-26/review/implementation-review.json",
     "helper_followup": "outputs/mahavinayak-publication-2026-11-26/review/helper-review-followup.json",
     "rendered": "outputs/mahavinayak-publication-2026-11-26/review/rendered-review.json",
-    "package": "outputs/mahavinayak-publication-2026-11-26/review/package-review.json"
+    "package": "outputs/mahavinayak-publication-2026-11-26/review/package-review.json",
+    "receipt_preservation": "outputs/mahavinayak-combined-2026-11-26/review/receipt-preservation.json",
+    "combined_package": "outputs/mahavinayak-combined-2026-11-26/review/package-review.json",
+    "combined_delivery": "outputs/mahavinayak-combined-2026-11-26/review/delivery-review.json"
   },
   "root_browser": "outputs/mahavinayak-publication-2026-11-26/root-browser-review.json",
   "local_validation": {
@@ -119,6 +124,30 @@
       "kind": "verification-helper assumption",
       "evidence": "outputs/mahavinayak-publication-2026-11-26/local-verification-initial-failure.json",
       "correction": "Hills and Destinations existing plain lazy images do not emit srcset; Explore does. Checker now asserts exact template-specific mapping and common intrinsic geometry/lazy loading. Site/source unchanged. Prior mistaken helper approval retained in separate review."
+    },
+    {
+      "kind": "superseded CI",
+      "run": 45763594040,
+      "head": "10de2b2fbcaf8b7bfad8bad6f8154e2526859d9b",
+      "conclusion": "cancelled after reviewed PR887 reconciliation; no failure asserted"
+    },
+    {
+      "kind": "unchanged retry",
+      "run": 45771659710,
+      "failed_attempt": 1,
+      "reason": "Existing anonymous GitHub release-PDF API download returned HTTP403; no cause inferred.",
+      "retry_attempt": 2,
+      "retry_conclusion": "success",
+      "evidence": "outputs/mahavinayak-combined-2026-11-26/release/evidence-import.json"
+    },
+    {
+      "kind": "initial push HTTP400",
+      "action": "Remote branch confirmed absent; unchanged retry with temporary transfer settings succeeded."
+    },
+    {
+      "kind": "local receipt schema completeness",
+      "check": "article_rollout.py",
+      "reason": "Actual success was nested in publication, but the established completion validator also requires top-level pull_request/deployment fields. Added those exact verified facts; no website change."
     }
   ],
   "review_id": "POD-REV-2026112693",
@@ -153,6 +182,86 @@
     "scope": "Preserve Pana Sankranti article and twelve source-link repairs; combine route inventories and count expectations.",
     "historical_evidence_preserved": true,
     "combined_contract": "outputs/mahavinayak-combined-2026-11-26/reviewed-article-contract.json",
-    "combined_validation": "pending; fresh local and hosted builds required"
+    "combined_validation": "All13 local stages and required hosted attempt2 pass on reviewed a8b701f8."
+  },
+  "publication": {
+    "pull_request": 888,
+    "reviewed_head": "a8b701f8e24a1c7bd83199793e9b1f2e8dfc4b54",
+    "required_ci": 45771659710,
+    "ci_attempt": 2,
+    "ci_conclusion": "success",
+    "merge": "7920f716ab648c8e1effaf866a810a27d2b2cd14",
+    "reviewed_and_merged_tree": "8656702066ebedbf1a0278fc0fbf4b180107e056",
+    "deployment_run": 45787473237,
+    "deployment_status": "success",
+    "actual_linux_ci_bytes": 999931163,
+    "actual_linux_ci_files": 3790,
+    "actual_linux_ci_remaining_bytes": 68837,
+    "deployment_attempt": 1,
+    "actual_deployed_bytes": 999931163,
+    "actual_deployed_files": 3790,
+    "actual_deployed_remaining_bytes": 68837
+  },
+  "combined_local_validation": {
+    "scope": "Final candidate incorporating PR887/889/890",
+    "full_tests": 846,
+    "coastal_tests": 605,
+    "page_checks": 5644,
+    "artifact_checks": 385,
+    "bytes": 999089458,
+    "files": 3790,
+    "remaining_bytes": 910542,
+    "build_evidence": "outputs/mahavinayak-combined-2026-11-26/build-results.json",
+    "artifact_evidence": "outputs/mahavinayak-combined-2026-11-26/local-verification.json",
+    "separate_review": "outputs/mahavinayak-combined-2026-11-26/review/package-review.json",
+    "new_browser_claim": false,
+    "rendered_continuity": "Prior actual14 local captures apply to byte-exact Mahavinayak article/cards/images and unchanged CSS/components, as independently verified."
+  },
+  "release_evidence": "outputs/mahavinayak-combined-2026-11-26/release/evidence-import.json",
+  "receipt_reconciliation": {
+    "incoming_pr": 891,
+    "incoming_merge": "7610ff054134a2e71548bdfd820be5e22d8b08d7",
+    "evidence": "outputs/mahavinayak-combined-2026-11-26/release/receipt-reconciliation.json",
+    "public_source_changed": false
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to reserved Godabarish Mahapatra/Niankhunta publication; no next hill is claimed.",
+  "receipt_pending": true,
+  "verified_routes": [
+    "/destinations/mahavinayak/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/sahi-jatra/"
+  ],
+  "delivery_review": {
+    "path": "outputs/mahavinayak-combined-2026-11-26/review/delivery-review.json",
+    "sha256": "4d115c88ee23ce59a199f32c6f2478f8a62b64c9e328429b69ff8b0e5ce50e2a",
+    "status": "PASS",
+    "reviewer": "separate Drishti AI review, not human or field approval"
+  },
+  "live_verification": {
+    "root_http": "outputs/mahavinayak-combined-2026-11-26/live-verification.json",
+    "root_browser": "outputs/mahavinayak-combined-2026-11-26/root-live-browser-review.json",
+    "screenshots": 11,
+    "raw_differences_retained": true,
+    "independent_review": "outputs/mahavinayak-combined-2026-11-26/review/delivery-review.json",
+    "limits": "See separate delivery report and root screenshot framing limits. All four new Mahavinayak image files byte-exact. Existing Sahi, Hindola and Abhisarika JPEGs and Olasuni responsive image differ; do not claim pixel identity or encoding cause. Unrelated Explore responsive filename differences are separately classified, not blanket delivery approval."
+  },
+  "receipt_whitespace": "outputs/mahavinayak-combined-2026-11-26/whitespace-review.json",
+  "pull_request": 888,
+  "deployment": {
+    "run": 45787473237,
+    "attempt": 1,
+    "conclusion": "success",
+    "head": "7920f716ab648c8e1effaf866a810a27d2b2cd14",
+    "bytes": 999931163,
+    "files": 3790,
+    "evidence": "outputs/mahavinayak-combined-2026-11-26/release/deployment-status.json"
+  },
+  "integrated_receipt_review": {
+    "path": "outputs/mahavinayak-combined-2026-11-26/review/receipt-review.json",
+    "sha256": "fe4be1abc2fae5a5cc77aaff3b745f3558774bc32bc9612ea3309ea30ff59281",
+    "result": "PASS",
+    "scope": "Final evidence-only receipt and preservation of incoming PR891. Exact committed continuity and required CI/actual receipt merge still required."
   }
 }

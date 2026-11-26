@@ -58,10 +58,12 @@
     "id": "POD-EDIT-MAHAVINAYAK-20261126",
     "route": "/destinations/mahavinayak/",
     "owner": "Disha",
-    "phase": "release_validation",
+    "phase": "receipt_integrated",
     "handoff": "records/mahavinayak-publication-20261126.json",
-    "scope_released": false,
-    "status": "in_progress"
+    "scope_released": true,
+    "status": "published_verified",
+    "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to reserved Godabarish Mahapatra/Niankhunta publication; no next hill is claimed.",
+    "next_action": "Complete separate integrated and exact-commit receipt reviews, required receipt CI and actual merge; then explicitly return the reserved Godabarish publication slot."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -884,9 +886,9 @@
     }
   ],
   "next_article_coordination": {
-    "status": "hill_slot_returned",
+    "status": "reserved_after_mahavinayak_receipt",
     "evidence": "records/mahavinayak-publication-20261126.json",
-    "scope": "Completed Kula receipt and reviewed Godabarish preparation explicitly returned sole slot; Mahavinayak is active."
+    "scope": "Godabarish Mahapatra/Niankhunta publication reserved in Research Antaranga Kalinga chat only after actual reviewed receipt merge and explicit handoff. No next hill claimed."
   },
   "current_preparation": {
     "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",

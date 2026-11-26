@@ -1,0 +1,342 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI review",
+  "scope": "Actual Mahavinayak delivery and the affected Sahi photograph; bounded related-reading checks. Not a receipt merge or slot release.",
+  "publication_merge": "7920f716ab648c8e1effaf866a810a27d2b2cd14",
+  "candidate": "a8b701f8e24a1c7bd83199793e9b1f2e8dfc4b54",
+  "remote": {
+    "pr": {
+      "headRefOid": "a8b701f8e24a1c7bd83199793e9b1f2e8dfc4b54",
+      "mergeCommit": {
+        "oid": "7920f716ab648c8e1effaf866a810a27d2b2cd14"
+      },
+      "mergedAt": "2026-11-26T08:47:44Z",
+      "number": 888,
+      "state": "MERGED",
+      "url": "https://github.com/ahimanikya/project-odisha/pull/888"
+    },
+    "ci": {
+      "attempt": 2,
+      "conclusion": "success",
+      "databaseId": 45771659710,
+      "headSha": "a8b701f8e24a1c7bd83199793e9b1f2e8dfc4b54",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45771659710"
+    },
+    "deployment": {
+      "attempt": 1,
+      "conclusion": "success",
+      "databaseId": 45787473237,
+      "headSha": "7920f716ab648c8e1effaf866a810a27d2b2cd14",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/45787473237"
+    }
+  },
+  "payload": {
+    "bytes": 999931163,
+    "files": 3790,
+    "remaining_bytes": 68837,
+    "evidence": "release/deployment.log; actual upload gate lines read"
+  },
+  "fresh_http": {
+    "routes": 5,
+    "captured_image_urls": 52,
+    "byte_exact": 12,
+    "raw_byte_differences": 40,
+    "root_helper_scope": "Five routes and five images; its seven raw differences remain retained.",
+    "scope_limit": "Expanded captures include observed Explore filename substitutions. Only the four differing images measured below were visually accepted; the other 36 unrelated differences are classified, not given blanket visual approval."
+  },
+  "page_classification": {
+    "all_five": "Exact token differences are configured analytics consent markup plus observed responsive image filenames; no prose, attribution or other tag change. Analytics.astro source confirms the deployment configuration condition. No analytics behavior audit claimed.",
+    "mahavinayak_primary": "Exact after the single verified Olasuni 480 path substitution; raw and normalized hashes retained in independent HTTP report.",
+    "sahi_primary": "Byte-exact, without substitutions.",
+    "explore": "54 changed image tags limited to content-addressed responsive filenames, plus one analytics insertion. Existing unrelated collection images are outside this article acceptance.",
+    "cards": [
+      {
+        "route": "/destinations/hills/",
+        "byte_exact": true,
+        "sha256": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168"
+      },
+      {
+        "route": "/destinations/",
+        "byte_exact": true,
+        "sha256": "3acf16b52fbf530e212fdea17b869f3bec89ad6169f73516c1c6b05f782a2168"
+      },
+      {
+        "route": "/explore/",
+        "byte_exact": true,
+        "sha256": "2fbddf715ec76174f69bf8b39be380eb6cd6ae7f4d72fd6b86f2b0355e52cac6"
+      }
+    ]
+  },
+  "native_notes": {
+    "references": 7,
+    "unique_notes": 5,
+    "returns": 7,
+    "all_targets_resolve": true,
+    "sharing_image": "Exact reviewed Mahavinayak photo in OG and Twitter fields"
+  },
+  "media": {
+    "new_photo": "All four Mahavinayak base/variant files byte-exact; decoded 1200x900,480x360,960x720,1200x900. Original preserved. Credit, 2012 date, source and CC BY-SA 3.0 links retained.",
+    "measured": [
+      {
+        "url": "/images/responsive/81c3b5fb4304afbc-480.webp",
+        "local_url": "/images/responsive/39259dc1b1379492-480.webp",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-0.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/39259dc1b1379492-480.webp",
+        "sha256": "81c3b5fb4304afbc0c10ea3ec04c10091241358c77aa9dd406a564947ac88013",
+        "local_sha256": "39259dc1b13794921f6fd272ed9ce7cb4626a3cfcaa0ce62b51a37d1d32653c3",
+        "bytes": 25416,
+        "local_bytes": 25398,
+        "byte_exact": false,
+        "geometry": {
+          "format": "raw",
+          "width": 480,
+          "height": 215,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 309600
+        },
+        "changed_channels": 38648,
+        "changed_pixels": 13066,
+        "max_delta": 20,
+        "mean_delta": 0.35657299741602067,
+        "comparison": "olasuni-comparison.png"
+      },
+      {
+        "url": "/images/destinations/mahavinayak-temple-kamalakanta777.webp",
+        "local_url": "/images/destinations/mahavinayak-temple-kamalakanta777.webp",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-1.webp",
+        "local_file": "projects/site/dist-publish/images/destinations/mahavinayak-temple-kamalakanta777.webp",
+        "sha256": "0cc429b057f1073b1ac88b562c766b659ba38c466670925e66c7fdf6f0be146b",
+        "local_sha256": "0cc429b057f1073b1ac88b562c766b659ba38c466670925e66c7fdf6f0be146b",
+        "bytes": 281380,
+        "local_bytes": 281380,
+        "byte_exact": true,
+        "geometry": {
+          "format": "raw",
+          "width": 1200,
+          "height": 900,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 3240000
+        },
+        "changed_channels": 0,
+        "changed_pixels": 0,
+        "max_delta": 0,
+        "mean_delta": 0
+      },
+      {
+        "url": "/images/responsive/97bc0a26b55242d1-480.webp",
+        "local_url": "/images/responsive/97bc0a26b55242d1-480.webp",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-2.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/97bc0a26b55242d1-480.webp",
+        "sha256": "97bc0a26b55242d1b5508ad605b5a41f51b76d280cd1e9ecc708e9918a650f67",
+        "local_sha256": "97bc0a26b55242d1b5508ad605b5a41f51b76d280cd1e9ecc708e9918a650f67",
+        "bytes": 47920,
+        "local_bytes": 47920,
+        "byte_exact": true,
+        "geometry": {
+          "format": "raw",
+          "width": 480,
+          "height": 360,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 518400
+        },
+        "changed_channels": 0,
+        "changed_pixels": 0,
+        "max_delta": 0,
+        "mean_delta": 0
+      },
+      {
+        "url": "/images/responsive/086883e7a3485bf8-960.webp",
+        "local_url": "/images/responsive/086883e7a3485bf8-960.webp",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-3.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/086883e7a3485bf8-960.webp",
+        "sha256": "086883e7a3485bf8aa11a486f26f1c019a9aefbf8c3a8081309343ebecaf233f",
+        "local_sha256": "086883e7a3485bf8aa11a486f26f1c019a9aefbf8c3a8081309343ebecaf233f",
+        "bytes": 138112,
+        "local_bytes": 138112,
+        "byte_exact": true,
+        "geometry": {
+          "format": "raw",
+          "width": 960,
+          "height": 720,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 2073600
+        },
+        "changed_channels": 0,
+        "changed_pixels": 0,
+        "max_delta": 0,
+        "mean_delta": 0
+      },
+      {
+        "url": "/images/responsive/cfc307beaa5c645f-1200.webp",
+        "local_url": "/images/responsive/cfc307beaa5c645f-1200.webp",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-4.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/cfc307beaa5c645f-1200.webp",
+        "sha256": "cfc307beaa5c645f800604c0ba9661dfb7ee8cd6d7727a413f8d59202b275e65",
+        "local_sha256": "cfc307beaa5c645f800604c0ba9661dfb7ee8cd6d7727a413f8d59202b275e65",
+        "bytes": 233910,
+        "local_bytes": 233910,
+        "byte_exact": true,
+        "geometry": {
+          "format": "raw",
+          "width": 1200,
+          "height": 900,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 3240000
+        },
+        "changed_channels": 0,
+        "changed_pixels": 0,
+        "max_delta": 0,
+        "mean_delta": 0
+      },
+      {
+        "url": "/assets/sahi-jatra/performer.jpg",
+        "local_url": "/assets/sahi-jatra/performer.jpg",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-47.jpg",
+        "local_file": "projects/site/dist-publish/assets/sahi-jatra/performer.jpg",
+        "sha256": "f345d6c534e15ef602ab3b00a9888d3bc2ad831977165260f153ebbc565b1b09",
+        "local_sha256": "a4dc1a5d901bfa3c40e20966c2bb89733ea5e13550c86b02a85d7d100c838aac",
+        "bytes": 1005032,
+        "local_bytes": 1005040,
+        "byte_exact": false,
+        "geometry": {
+          "format": "raw",
+          "width": 1590,
+          "height": 2400,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 11448000
+        },
+        "changed_channels": 197,
+        "changed_pixels": 66,
+        "max_delta": 2,
+        "mean_delta": 1.8256464011180993e-05,
+        "comparison": "sahi-comparison.png"
+      },
+      {
+        "url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "local_url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-50.jpg",
+        "local_file": "projects/site/dist-publish/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "sha256": "1f5de7dec00f1910ace8b42d4979b9b14cb3bdfeb91933a312c65fc9924149ee",
+        "local_sha256": "07542ff440a55a4b9966c55740e0ab4093dc684fff70504952c829de2ac1fa15",
+        "bytes": 1804677,
+        "local_bytes": 1804657,
+        "byte_exact": false,
+        "geometry": {
+          "format": "raw",
+          "width": 1517,
+          "height": 2048,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 9320448
+        },
+        "changed_channels": 1490701,
+        "changed_pixels": 606955,
+        "max_delta": 15,
+        "mean_delta": 0.21246854228466272,
+        "comparison": "hindola-comparison.png"
+      },
+      {
+        "url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "local_url": "/assets/ashta-nayika/abhisarika-met.jpg",
+        "file": "outputs/mahavinayak-combined-2026-11-26/review/live-independent/image-51.jpg",
+        "local_file": "projects/site/dist-publish/assets/ashta-nayika/abhisarika-met.jpg",
+        "sha256": "c015694c9c63580d35f7f77ef19218156fd162db165b5d36547481fd7ec1a160",
+        "local_sha256": "cbf7a0cbc5887e219af9ed9e8bae332e1939b23b74d93bb892e6d29cc83c7040",
+        "bytes": 1253838,
+        "local_bytes": 1253839,
+        "byte_exact": false,
+        "geometry": {
+          "format": "raw",
+          "width": 1488,
+          "height": 2048,
+          "channels": 3,
+          "depth": "uchar",
+          "premultiplied": false,
+          "hasAlpha": false,
+          "size": 9142272
+        },
+        "changed_channels": 166,
+        "changed_pixels": 70,
+        "max_delta": 2,
+        "mean_delta": 2.0126288082437276e-05,
+        "comparison": "abhisarika-comparison.png"
+      }
+    ],
+    "visual_findings": "Independently viewed actual full-frame local/live comparison sheets for Olasuni, Sahi, Hindola and Abhisarika. Framing, colours and detail remain suitable at viewed display sizes. Raw pixel differences retained; no pixel identity or encoding-cause claim."
+  },
+  "screenshots": {
+    "manifest": "root-live-browser-review.json",
+    "manifest_sha256": "b25989007f7fa0382bdb87f0f192cfdde7b3b47fd7dd632aac0d2fe2aafe1b1a",
+    "all_individually_viewed": {
+      "live-desktop-notes.jpg": "38eee9adf155deeab2cf07d2e0729c77763c4f5ae2f12f12bc9e8845b720c0ff",
+      "live-mobile-note.jpg": "028d57cef9af1f0b3f0ab382fc8ee7e5f2bc8e8ce3ab58417c4fb581eda006f0",
+      "live-mobile-hero.jpg": "4d6621da35c19c5a911dd8d92b241b452bb45b2799df267273959440cb4ce056",
+      "live-desktop-return.jpg": "53f015c08953a4b3b598cdfe6cbeeb9fc95723ef02e4b6a809c2cb0ae766ed3a",
+      "live-desktop-hero.jpg": "373fbd0146f3429dea1d93f4def3e3c4eea9fda3f1bba6037b903829341f134c",
+      "live-desktop-destinations-card.jpg": "e573b25bd5e197a692569cf200aed4a953a3fcdb4a0a318c1b70ee0ab5a1c230",
+      "live-desktop-sahi-credit.jpg": "14808e08843a1b25562e029c8d200fdb2a3c7412aff985525d8cd5e2247d66a1",
+      "live-desktop-credit.jpg": "4d118a364c785f856e8f11fb7d8aadc631688fde86167febb6da556f8df14314",
+      "live-mobile-preview-credit.jpg": "645c48f9da9c66dc5d3e763f10f230fd62f4f88d78db37755378b80754fe9eec",
+      "live-desktop-explore-card.jpg": "344f8b32278df558d4f931cc40c8750f3640a9d8b6186d745169a6fe325726cc",
+      "live-mobile-hills-card.jpg": "656bc6a6625bf2f7a8028ceb033ebc7ced55d0a46eaa9c2ec6dcdae583f62565"
+    },
+    "findings": "Readable desktop/mobile title, full mobile hero and credit; complete desktop source list, mobile notes 4/5; recognizable complete Hills, Destinations and Explore cards; accurate photographer disclosure. Sahi lower-frame shot shows complete credit; actual full image independently viewed in comparison.",
+    "limits": [
+      "Desktop hero photograph lower edge clipped; mobile hero shows full photograph and full caption",
+      "live-desktop-credit shows photograph with caption clipped at bottom; live-desktop-return supplies complete caption",
+      "Desktop notes capture starts at source1, heading above frame; mobile note capture shows sources4/5 and reading cards",
+      "Sahi capture shows lower part of tall photograph plus complete credit; does not prove entire image alone",
+      "No fresh mobile screenshot for every individual incoming hub; mobile Hills and desktop Destinations/Explore captures plus prior separately reviewed local views",
+      "No cross-browser or human-specialist review claimed"
+    ],
+    "interaction_attribution": "Disha/root operated native notes, keyboard returns, all three incoming links and disclosure. Drishti inspected saved captures and HTTP DOM, and did not operate the browser."
+  },
+  "preservation": {
+    "source_inputs": true,
+    "source_count": 35,
+    "protected": true,
+    "protected_count": 113,
+    "foreign": true,
+    "original_image": true,
+    "screenshot_count": 11,
+    "screenshots_exact": true
+  },
+  "later_receipt_scope": "Incoming evidence-only PR891 will be reviewed separately in the integrated receipt; it does not alter this historical deployed-source verdict.",
+  "limitations": [
+    "Desk research and AI review, not on-site or human specialist review.",
+    "No current room availability or present temple condition inferred.",
+    "Only the reviewed two viewports; no broad cross-browser or accessibility audit.",
+    "Receipt integration, exact receipt review, required CI and actual receipt merge remain pending; no slot release."
+  ],
+  "evidence": {
+    "outputs/mahavinayak-combined-2026-11-26/review/live-independent/http-verification.json": "fc433cd91b4abd5ab5b06a783a81cd5497a7256eff3e99eee54cccd271a0b7bf",
+    "outputs/mahavinayak-combined-2026-11-26/review/live-independent/scoped-image-measurements.json": "68dfc234df55604dd500acdd5a003cfc1d77538c5ba4adc4c4f200c06fe3260c",
+    "outputs/mahavinayak-combined-2026-11-26/review/live-independent/preservation.json": "9a263d3495a52412fe7bcabdeef0fd69d1302d192ae1adfc591080f589f469df",
+    "outputs/mahavinayak-combined-2026-11-26/review/live-independent/ci.json": "61caa8c1b82d215022001f5dd900a25663cbc4e2256a2e6e57866ff4d58078bd",
+    "outputs/mahavinayak-combined-2026-11-26/review/live-independent/deployment.json": "34a1d6d644f04a8c7766e0fc053f36b3e40fe85f207a7d4d0f62b0d71d40377b",
+    "outputs/mahavinayak-combined-2026-11-26/review/live-independent/pr.json": "443109467040f1f88dd38e09fc40b88ba7df8893d455fd2566410c6f5cf3381a"
+  },
+  "blockers": []
+}
