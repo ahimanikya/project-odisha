@@ -10949,15 +10949,17 @@
       "id": "POD-WORK-20261126302",
       "title": "Integrate, review and publish Kula",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-20261126302",
-      "next_action": "Integrate, review and check the candidate before required CI and authorized deployment.",
+      "next_action": "Obtain separate integrated and exact-commit receipt reviews, pass required receipt CI and merge; then start queued preparation.",
       "blockers": [],
       "refs": [
-        "POD-DEC-20261126302"
+        "POD-DEC-20261126302",
+        "POD-REV-20261126302",
+        "POD-REL-20261126302"
       ],
       "evidence": [
         "records/kula-publication-20261126.json"
@@ -26635,6 +26637,24 @@
         "records/olasuni-publication-20261126.json"
       ],
       "summary": "Separate source/media/code/rendered/package/exact-commit and fresh delivery reviews passed. Actual five-route/33-image review and11root screenshots inspected. Four encodings measured and visually accepted; raw differences and framing limits retained. Not human specialist or field approval."
+    },
+    {
+      "id": "POD-REV-20261126302",
+      "title": "Kula source, photograph, implementation and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261126302",
+        "POD-DEC-20261126302"
+      ],
+      "evidence": [
+        "records/kula-publication-20261126.json"
+      ],
+      "summary": "Separate source/media/code/rendered/package/exact-merge and fresh live delivery reviews passed. Four routes, six actual images and thirteen root screenshots inspected; four encodings independently measured and visually accepted, raw differences and framing limits retained. No human specialist claim."
     }
   ],
   "releases": [
@@ -31210,6 +31230,21 @@
       ],
       "evidence": [
         "records/independent-article-images-20261126.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261126302",
+      "title": "Kula and the Work of Winnowing with credited photograph",
+      "status": "published",
+      "authorization": "POD-DEC-20261126302",
+      "destination": "https://projectodisha.org/stories/kula-and-the-work-of-winnowing/",
+      "refs": [
+        "POD-WORK-20261126302",
+        "POD-DEC-20261126302",
+        "POD-REV-20261126302"
+      ],
+      "evidence": [
+        "records/kula-publication-20261126.json"
       ]
     }
   ],

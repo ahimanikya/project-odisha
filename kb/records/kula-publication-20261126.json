@@ -2,12 +2,12 @@
   "article_id": "POD-EDIT-KULA-20261126",
   "route": "/stories/kula-and-the-work-of-winnowing/",
   "owner": "Disha",
-  "status": "local_candidate_reviewed",
-  "scope_released": false,
+  "status": "published_verified",
+  "scope_released": true,
   "started_on": "2026-11-26",
   "authorization": "POD-DEC-20261126302",
   "work_id": "POD-WORK-20261126302",
-  "authorization_quote": "Has Olasuni\u2019s final review record merged and the slot returned now? If so, publish Kula with the credited photograph, relevant article links, and mobile and desktop layout checks.",
+  "authorization_quote": "Has Olasuni’s final review record merged and the slot returned now? If so, publish Kula with the credited photograph, relevant article links, and mobile and desktop layout checks.",
   "input_head": "417fcfdee6107ff4b14d8272fdbe9e37afd1c113",
   "prior_receipt": "records/olasuni-publication-20261126.json",
   "preparation": "records/antaranga-after-barunei-preparation-20261126.json",
@@ -26,19 +26,27 @@
     },
     "Drishti": {
       "scope": "Separate quality review; outputs/kula-publication-20261126/review/ only",
-      "status": "final_local_package_pass"
+      "status": "live_delivery_pass",
+      "scope_released": true
     }
   },
   "capacity": {
     "prior_combined_bytes": 999202073,
     "prior_remaining_bytes": 797927,
-    "status": "Actual local package passes; hosted Linux capacity remains required",
+    "status": "Actual publication CI and deployment pass; current receipt CI remains required.",
     "projected_new_media_bytes": 613520,
     "actual_local_bytes": 999005517,
     "actual_local_files": 3782,
-    "actual_local_remaining_bytes": 994483
+    "actual_local_remaining_bytes": 994483,
+    "actual_linux_ci_bytes": 999868198,
+    "actual_linux_ci_files": 3783,
+    "actual_linux_ci_remaining_bytes": 131802,
+    "actual_deployed_bytes": 999868198,
+    "actual_deployed_files": 3783,
+    "actual_deployed_remaining_bytes": 131802,
+    "optimization_changes": "None. Existing images and optimizer paths preserved."
   },
-  "next_action": "Reconcile incoming PR881/882, review combined candidate and run required hosted checks before authorized publication.",
+  "next_action": "Obtain separate integrated and exact-commit receipt reviews, pass required receipt CI and merge; then start queued preparation.",
   "foreign_ownership": {
     "current_task": {
       "kind": "article_receipt",
@@ -66,7 +74,8 @@
     "separate_static": "outputs/kula-publication-20261126/review/code-review.json",
     "separate_rendered": "outputs/kula-publication-20261126/review/rendered-review.json",
     "screenshots": 17,
-    "limits": "Desktop full-page capture has a blank hero region; three early captures miss target framing. Final settled viewport and all six incoming card views provide acceptance. Hosted/live checks remain."
+    "limits": "Desktop full-page capture has a blank hero region; three early captures miss target framing. Final settled viewport and all six incoming card views provide acceptance. Hosted/live checks remain.",
+    "scope": "Historical initial local snapshot; hosted/live pending phrase describes that earlier stage, superseded by publication and live_verification below."
   },
   "failure_history": [
     {
@@ -79,6 +88,21 @@
       "stage": "local artifact verifier",
       "observed": "Leading newline made a Markdown heading block count as a paragraph. Trim-before-classification corrected the verifier; all exact paragraph comparisons passed. No public-source change.",
       "evidence": "outputs/kula-publication-20261126/verifier-correction.json"
+    },
+    {
+      "stage": "initial upload",
+      "evidence": "outputs/kula-publication-20261126/release/upload-observation.json",
+      "observed": "HTTP400 and no remote branch; unchanged retry with temporary transfer settings succeeded."
+    },
+    {
+      "stage": "durable release evidence",
+      "evidence": "outputs/kula-publication-20261126/release/evidence-preservation.json",
+      "observed": "Copy metadata preservation failed on os.chown; original files retained, fresh authoritative capture and fresh exact merge review used."
+    },
+    {
+      "stage": "deployment status monitor",
+      "evidence": "outputs/kula-publication-20261126/release/monitor-interruption.json",
+      "observed": "Monitor network read timeout; fresh status remained in progress on attempt1. Monitor restarted, deployment not rerun."
     }
   ],
   "queued_after_release": {
@@ -107,8 +131,94 @@
       882
     ],
     "evidence": "outputs/kula-publication-20261126/incoming-preservation.json",
-    "status": "separate_preservation_review_pass_combined_checks_pending",
+    "status": "separate_preservation_and_combined_package_review_pass",
     "separate_review": "outputs/kula-publication-20261126/review/reconciliation-review.json",
     "sha256": "2b2a58ab632f3c6ee5f57fa7d6734d60c9ff95c661ca57d710efd2cb475a4f47"
+  },
+  "publication": {
+    "pull_request": 883,
+    "reviewed_head": "57f64a599fd028ec66adee5a7eba1f0b0192b08e",
+    "required_ci": 45722295729,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge": "dccfa463f11f9bf513a93abce233a27973582c3d",
+    "reviewed_and_merged_tree": "9ef9a18536e88da654e0a187f02fd96f54c02209",
+    "deployment_run": 45726102962,
+    "deployment_status": "success"
+  },
+  "combined_local_validation": {
+    "full_tests": 844,
+    "coastal_tests": 605,
+    "page_checks": 5632,
+    "artifact_checks": 218,
+    "bytes": 999029903,
+    "files": 3783,
+    "remaining_bytes": 970097,
+    "build_evidence": "outputs/kula-publication-20261126/build-results-combined.json",
+    "artifact_evidence": "outputs/kula-publication-20261126/local-verification-combined.json",
+    "separate_review": "outputs/kula-publication-20261126/review/final-combined-package-review.json",
+    "exact_candidate_review": "/private/tmp/kula-exact-candidate-review.json",
+    "source_continuity": "Pipeline began at pre-merge checkpoint with reconciled source; all15 frozen inputs independently checked against exact committed candidate. Historical initial-package evidence remains separate.",
+    "live_claim": false
+  },
+  "exact_merge_review": {
+    "evidence": "outputs/kula-publication-20261126/review/exact-merge-review.json",
+    "sha256": "cda0f5712f5e34c156ef2fb13718a12e5370e905755cbe0799f9d9ab92c42193",
+    "status": "PASS",
+    "tree": "9ef9a18536e88da654e0a187f02fd96f54c02209"
+  },
+  "review_id": "POD-REV-20261126302",
+  "pull_request": 883,
+  "verified_routes": [
+    "/stories/kula-and-the-work-of-winnowing/",
+    "/stories/dhinki-and-the-work-behind-rice/",
+    "/stories/binchana-and-the-handmade-breeze/",
+    "/stories/craft-listening/"
+  ],
+  "deployment": {
+    "run": 45726102962,
+    "head": "dccfa463f11f9bf513a93abce233a27973582c3d",
+    "status": "completed",
+    "conclusion": "success",
+    "attempt": 1,
+    "payload_bytes": 999868198,
+    "files": 3783,
+    "remaining_bytes": 131802,
+    "evidence": "outputs/kula-publication-20261126/release/deployment-45726102962.json",
+    "log": "outputs/kula-publication-20261126/release/deployment-45726102962.log"
+  },
+  "delivery_review": {
+    "status": "PASS",
+    "reviewer": "Drishti, separate AI assistant",
+    "evidence": "outputs/kula-publication-20261126/review/delivery-review.json",
+    "sha256": "1073b2f3b6861e39259d163e399b9c5541f7431b8cc51e058e06cdc1a5bd0e9d"
+  },
+  "live_verification": {
+    "root_http": "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/http.json",
+    "root_routes": 4,
+    "root_images": 6,
+    "independent_routes": 4,
+    "independent_images": 6,
+    "screenshots": 13,
+    "browser": "outputs/kula-publication-20261126/live/root-ui-review.json",
+    "root_measurement": "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/pixel-differences.json",
+    "root_visual": "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/root-image-review.json",
+    "shell_classification": "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/root-shell-classification.json",
+    "independent_evidence": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z",
+    "raw_differences_retained": true,
+    "limits": "Kula base and1200 exact. Kula480/960 and existing Binchana480/fan-display1440 differ; all four pairs separately measured and displayed by root and reviewer, accepted without encoding-cause or pixel-identity claims. All four article/card fragments equal after exact observed responsive URL substitutions. Whole-page differences additionally comprise only existing production analytics nodes; no consent behavior test. Two desktop photo framing attempts remain partial hero views, with full mobile photo and separate direct image views. Actual clicks are root-operated; reviewer inspected saved captures and fresh independent HTTP."
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Then begin already authorized Godabarish Mahapatra/Niankhunta preparation; explicit hill-chat return follows that reviewed preparation. No publication authority for that draft inferred.",
+  "receipt_pending": [
+    "Separate incoming reconciliation and exact-commit reviews",
+    "Required hosted receipt checks",
+    "Actual receipt merge"
+  ],
+  "review_limits": "Separate task-scoped AI review, not human specialist approval or fieldwork. Original photo location/maker unknown; no attribution to the named Malkangiri makers. One browser engine, two viewport sizes; selected captures, not exhaustive device or accessibility certification.",
+  "integrated_receipt_review": {
+    "status": "PASS",
+    "evidence": "outputs/kula-publication-20261126/review/final-receipt-review.json",
+    "sha256": "356fd180c63c8697326b23666e70f2b75891adeaa28f30df05f38f5f4cf4713d",
+    "scope": "Receipt based on dccfa463; incoming PR884/885 reconciliation requires separate review."
   }
 }

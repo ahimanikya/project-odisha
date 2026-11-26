@@ -1,0 +1,319 @@
+{
+  "status": "PASS_LIVE_DELIVERY_WITH_EXPLICIT_IMAGE_AND_ANALYTICS_DIFFERENCES",
+  "reviewer": "Drishti, separate AI reviewer",
+  "publication_merge": "dccfa463f11f9bf513a93abce233a27973582c3d",
+  "deployment": {
+    "run": 45726102962,
+    "attempt": 1,
+    "conclusion": "success",
+    "independent_remote_query": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/deployment.json",
+    "payload_bytes": 999868198,
+    "regular_files": 3783,
+    "payload_evidence": "Actual deployment log, independently read; 131802 bytes below strict 1GB limit."
+  },
+  "fresh_http": {
+    "report": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/http.json",
+    "routes": 4,
+    "images": 6,
+    "all_http_200": true,
+    "fresh_bytes_equal_root_captures": true,
+    "raw_review_required_retained": true,
+    "article_fragments": "All four complete article fragments equal the local reviewed package only after the exact observed same-base responsive URL substitutions recorded per route. Not raw-byte identical.",
+    "whole_pages": "All four whole pages equal local after those exact URL substitutions and removal of only script#analytics-config, section#analytics-choice and p#analytics-status. Extracted live-only elements retained as analytics-0..3.html in independent run.",
+    "analytics_source": "Existing Analytics.astro conditional markup and publish workflow unchanged from 417fcfdee; no new analytics functionality or consent behavior tested. No unclassified page difference remains.",
+    "notes_and_links": "New article seven refs, four notes, seven returns, all targets present; unique IDs and no nested anchors. Each parent has exactly one Kula incoming link plus source/licence links; four pages retain noindex, follow.",
+    "exact_new_files": "Kula base WebP and 1200-width variant byte-exact; 480/960 variants differ."
+  },
+  "image_comparison": {
+    "method": "Sharp decode to raw RGB, alpha removed; native geometry; all channel differences included",
+    "pairs": [
+      {
+        "url": "https://projectodisha.org/images/responsive/a107431077a70c2a-480.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/8f2ecedf1cf5e59f-480.webp",
+        "live_file": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/images-0.webp",
+        "width": 480,
+        "height": 480,
+        "channels": 3,
+        "changed_pixels": 18760,
+        "changed_channels": 56280,
+        "max_absolute_delta": 15,
+        "mean_absolute_delta": 0.16576678240740741,
+        "rms_delta": 0.7033299598391977,
+        "metadata": {
+          "icc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "iptc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "xmp": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "exif": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          }
+        },
+        "orientation": [
+          null,
+          null
+        ]
+      },
+      {
+        "url": "https://projectodisha.org/images/responsive/1c8c6dabb0cf84d2-960.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/4fb1dc76898b5b2e-960.webp",
+        "live_file": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/images-1.webp",
+        "width": 960,
+        "height": 961,
+        "channels": 3,
+        "changed_pixels": 290394,
+        "changed_channels": 871163,
+        "max_absolute_delta": 23,
+        "mean_absolute_delta": 0.6722153572667361,
+        "rms_delta": 1.4929298972146872,
+        "metadata": {
+          "icc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "iptc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "xmp": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "exif": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          }
+        },
+        "orientation": [
+          null,
+          null
+        ]
+      },
+      {
+        "url": "https://projectodisha.org/images/responsive/f4e4108ab5b2cde9-480.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/5358a16ba141b6ae-480.webp",
+        "live_file": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/images-4.webp",
+        "width": 480,
+        "height": 582,
+        "channels": 3,
+        "changed_pixels": 178763,
+        "changed_channels": 495565,
+        "max_absolute_delta": 26,
+        "mean_absolute_delta": 1.4936044291714394,
+        "rms_delta": 2.478345506386538,
+        "metadata": {
+          "icc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "iptc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "xmp": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "exif": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          }
+        },
+        "orientation": [
+          null,
+          null
+        ]
+      },
+      {
+        "url": "https://projectodisha.org/images/responsive/8504dc65881c4b9d-1440.webp",
+        "local_file": "projects/site/dist-publish/images/responsive/af44bf890be295f7-1440.webp",
+        "live_file": "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/images-5.webp",
+        "width": 1440,
+        "height": 720,
+        "channels": 3,
+        "changed_pixels": 416439,
+        "changed_channels": 1165846,
+        "max_absolute_delta": 28,
+        "mean_absolute_delta": 0.8876613940329218,
+        "rms_delta": 1.891441120235275,
+        "metadata": {
+          "icc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "iptc": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "xmp": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          },
+          "exif": {
+            "local_bytes": 0,
+            "live_bytes": 0,
+            "equal": true
+          }
+        },
+        "orientation": [
+          null,
+          null
+        ]
+      }
+    ],
+    "independent_measurement": "Reproduced all four root RGB measurements from freshly fetched files. All native dimensions match and ICC/IPTC/XMP/EXIF are absent on both sides of each responsive pair; orientation absent on both.",
+    "visual_inspection": "Personally viewed all eight actual local/live files individually, full frames at supplied 480, 960 and 1440 widths. Tray weave/rims, fan embroidery and Pipili objects remain legible with no material visible framing, colour or detail degradation at displayed scale. Accept all four differences for delivery.",
+    "identity_limits": "All four differing files are byte- and decoded-pixel-nonidentical. No encoding/platform cause inferred; no every-pixel visual inspection or identical-quality claim."
+  },
+  "browser_review": {
+    "manifest": "outputs/kula-publication-20261126/live/root-ui-review.json",
+    "all_13_images_personally_viewed": true,
+    "screenshots": [
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-binchana-preview.jpg",
+        "sha256": "f02624051f4e2efbf4b5787359a1fe1f3c20dae8e9eb0c5d00ca2e5c605fbdcf",
+        "bytes": 75178
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-craft-preview.jpg",
+        "sha256": "78f66383f32e48ef149df66076935b241b324e84a189097ac67802d35da22e58",
+        "bytes": 69994
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-dhinki-preview.jpg",
+        "sha256": "956bd9c695006168c45df7d0f0c7c826f67d72a03f096f53ee5dd1860bf90f72",
+        "bytes": 70413
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-notes.jpg",
+        "sha256": "ad27cd2b363bab6c1b92fa0138f30faee1d620b74cc2f3e5152d04fcbd5223a4",
+        "bytes": 116842
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-photo-settled.jpg",
+        "sha256": "8e329ba2199f7c682759a6fca1a39ba1acbd4871cf01343d3ed5160fc6dd2b66",
+        "bytes": 120305
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-photo.jpg",
+        "sha256": "4f75174c9c85d02d3d6860a32ef61abaed8d4719190e85009cff135e69d218f9",
+        "bytes": 116797
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/desktop-top.jpg",
+        "sha256": "a1269d89b30b0f819fddd1b4ad2cd78638194a206ccc95f7da31d87bf7d1b78c",
+        "bytes": 122411
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/mobile-binchana-preview.jpg",
+        "sha256": "ec3edc13b77d9448f6847f2e720022abcafdd9d9227495a14143a06abc0cc9a7",
+        "bytes": 43227
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/mobile-craft-preview.jpg",
+        "sha256": "69f09ef0c602febbe3e276eed2fbcb74f04395c78250870e5c142f05fbc26279",
+        "bytes": 41433
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/mobile-dhinki-preview.jpg",
+        "sha256": "6ee42f9bd505c5d7df3154653a5e54e6caf085cd31cb19d06b0bdf9320975682",
+        "bytes": 37674
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/mobile-notes.jpg",
+        "sha256": "af7b1754674ce51f883e647bbc0ad7db61d9da7679b152d688fdd41e4f271a4e",
+        "bytes": 62300
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/mobile-photo-return.jpg",
+        "sha256": "7b5136ca3bd6620ddba31fec3218272b9a40920f8a5f9416ec20f209c485174c",
+        "bytes": 66129
+      },
+      {
+        "path": "outputs/kula-publication-20261126/live-screenshots/mobile-top.jpg",
+        "sha256": "47fb39dc7781eba538877c63d52673c5a4932a4329f6d0b9d1fa2283c7e55e6e",
+        "bytes": 60169
+      }
+    ],
+    "root_actions": [
+      "Inspected article title, byline, introduction, photograph, caption and source notes at desktop and mobile sizes",
+      "Clicked source note 2 and used Enter on Back to reference 2 at both sizes; observed native fragment destinations",
+      "Clicked Kula outgoing Dhinki link and verified destination",
+      "Clicked incoming Kula card from Dhinki and Binchana at mobile size and Craft Listening at desktop size; verified article URL",
+      "Inspected all three incoming photographs and visible linked credits at both sizes",
+      "Reset temporary viewport and marked final Kula article tab as deliverable"
+    ],
+    "root_viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "root_overflow": "Observed document scroll width equals viewport width at both sizes",
+    "attribution": "All browser actions and measurements performed by root. Reviewer inspected saved images and independently fetched/parsed HTTP; did not operate browser.",
+    "visual_findings": "Readable title/byline/body/notes at both sizes. Full mobile photo and caption visible. Six incoming-card captures show whole contained photos and readable linked rights credits. No visible layout blocker.",
+    "framing_limits": [
+      "desktop-photo.jpg duplicates the upper article framing of desktop-top.jpg and does not show the full photograph",
+      "desktop-photo-settled.jpg remains an upper hero view, not a whole photograph capture",
+      "mobile-photo-return.jpg shows the whole photograph and caption; direct original and all differing image pairs were separately displayed and reviewed",
+      "Viewport screenshots are selected views, not exhaustive full-page visual proof"
+    ],
+    "recoveries": [
+      "Browser session reset after wait: new live tab used",
+      "Dhinki navigation and later Craft navigation briefly detached; fresh tab binding verified actual destination",
+      "Attempted Home on unfocusable heading failed; actual footer Back to top link used instead"
+    ],
+    "unchanged_legacy_scope": "Craft Listening existing collapsible reading-path section retained; not a newly approved pattern or broader redesign."
+  },
+  "preservation": {
+    "protected_preparation_files": 88,
+    "all_hashes_exact": true,
+    "public_source_and_publication_manuscript_diff_from_merge": "Empty",
+    "originals": "Original source/preparation image bytes preserved; no fresh derivative or source modification by reviewer."
+  },
+  "evidence_sha256": {
+    "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/http.json": "0fd9ff91f0773a0a8c1487c1a0fbcf4e1ae3914817fc18df24528bc824137a94",
+    "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/pixel-review.json": "b2a2b8fcb5d82aaebebfb19fdbcc18e3aefaad7f908248a5efa75fcf4014943f",
+    "outputs/kula-publication-20261126/review/live-independent-20261126T003423Z/deployment.json": "82ee4959a4066241dcd9de0dc75f16266607d9845bb5dff3dfccd48884a0fd0f",
+    "outputs/kula-publication-20261126/live/root-ui-review.json": "e8d665a64f50291569136b4425b10b5938dee1211fc83ebad580e0db1a097262",
+    "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/http.json": "5a7cd27bcfa2e5fef2f0db20a3673e754afb990703533e25ea9ceff84349b606",
+    "outputs/kula-publication-20261126/live/delivery-20261126T003155.712558Z/pixel-differences.json": "15cd420205923f8ae588e1b0fecc6f01f545e2439eddbead38067a5beca5816f",
+    "outputs/kula-publication-20261126/release/deployment-45726102962.json": "c0f74ba61bb675e92ddb0213b04dfc7544008f99c371581da4ae78240e23ecac",
+    "outputs/kula-publication-20261126/release/deployment-45726102962.log": "748d9ea4f6e10f0b5ff1749f39f69af7f7b93bfb7fb47d98021f271c0793cbcd"
+  },
+  "limitations": [
+    "One browser engine, two emulated viewport sizes; not physical-device or cross-engine testing.",
+    "Desktop photo and settled-photo captures are upper-hero views, not full-photo proof; mobile photo-return and direct image inspection support full framing.",
+    "No human specialist review claim.",
+    "This is delivery acceptance, not completion or merge of the pending evidence-only receipt."
+  ],
+  "blockers": [],
+  "review_scope_released": true
+}
