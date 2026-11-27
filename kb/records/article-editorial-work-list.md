@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1433. blocked: 1, completed: 281, excluded: 873, in_progress: 1, queued: 277.
+Route inventory: 1434. blocked: 1, completed: 281, excluded: 873, in_progress: 1, queued: 278.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1457,3 +1457,4 @@ Route inventory: 1433. blocked: 1, completed: 281, excluded: 873, in_progress: 1
 | POD-EDIT-SNANA-PURNIMA | [Snana Purnima: After the Deities Have Bathed](https://projectodisha.org/stories/snana-purnima/) | queued | article |
 | POD-EDIT-GUPTESWAR-20261127 | [Gupteswar: A Cave Shrine and Its Forest](https://projectodisha.org/destinations/gupteswar/) | in_progress | Original cave-shrine and forest hill-destination article with credited photograph and previews; zero programme credit. |
 | POD-EDIT-PARADIP-CARGO-20261127 | [What 156 million tonnes at Paradip means for Odisha](https://projectodisha.org/knowledge/paradip-port-cargo/) | queued | article |
+| POD-EDIT-RATHA-YATRA | [Ratha Yatra: When the Deities Come Out to the Road](https://projectodisha.org/stories/ratha-yatra/) | queued | article |
