@@ -1,0 +1,408 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T22:36:52.734066+00:00",
+  "scope": "Final integrated evidence-only Devagiri receipt and bounded preservation of incoming Chandan Yatra PR899. This is not an exact committed receipt review or receipt merge approval.",
+  "base_head": "6ce1b925257d5467d889334e127244a376f0bccb",
+  "base_tree": "8a12f0cc2a9e5b067833ca41535a961acde9d4f2",
+  "publication": {
+    "pull_request": 898,
+    "reviewed_head": "8e8fc60e49cf9c840870c57e19a3c8535469f2e1",
+    "required_ci": 45897117216,
+    "ci_attempt": 1,
+    "merge": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+    "tree": "8050902b2b3d168456a1eb65e790b9794f5b6d5a",
+    "deployment": 45900807100,
+    "deployment_attempt": 1,
+    "conclusion": "success",
+    "actual_linux_bytes": 999924560,
+    "files": 3798,
+    "remaining_bytes": 75440
+  },
+  "delivery_review": {
+    "path": "outputs/devagiri-publication-2026-11-27/delivery-review.json",
+    "sha256": "9dd4de7fbc24054eca84771580e20791ff5d9fd25f6f6860f1e97d1f4061e226",
+    "scope": "Earlier independent fresh HTTP review of five routes and five images, including the extra Odissi 480 image; all 16 root screenshots personally inspected, 14 accepted and two retained framing/lazy-load attempts. This receipt review rechecks evidence continuity rather than repeating browser or network work."
+  },
+  "preservation": {
+    "protected_preparation_files": 113,
+    "foreign_ownership_fields": 3,
+    "incoming_pr": 899,
+    "incoming_main": "6ce1b925257d5467d889334e127244a376f0bccb",
+    "incoming_paths": 15,
+    "incoming_nonshared_byte_exact": 13,
+    "shared_paths": [
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md"
+    ],
+    "foreign_rollout_and_register_rows_unchanged": true,
+    "only_existing_register_rows_changed": [
+      "POD-WORK-2026112791",
+      "POD-REV-2026112791"
+    ],
+    "only_release_added": "POD-REL-2026112791",
+    "activity_prefix_byte_exact": true,
+    "only_activity_appended": "POD-EVT-2026112792",
+    "public_site_research_media_tools_diff_vs_incoming_main": []
+  },
+  "record_consistency": {
+    "independently_run_register_check": "PASS: 1459 records, 908 events, dashboard current",
+    "independently_run_team_check": "PASS",
+    "root_other_checks": "Root reports rollout 281 completed, programme, workbench, research map, catalogue and bundle checks passed. Not independently rerun in this bounded receipt review.",
+    "owned_status": "Published work and completed rollout accurately describe actual delivery. Canonical receipt_pending remains true; operations uses receipt_integrated/published_verified.",
+    "conditional_release": "The scope_released flag is expressly conditional on the separately reviewed receipt actually merging after required CI and explicit handoff. No next article has been started.",
+    "next_reservation": "One preparation-only article in the other research chat, after actual receipt merge and explicit handoff. The imported coordination evidence is a report of that chat’s human instruction, not an independent attestation or new publication authority.",
+    "programme_credit": 0
+  },
+  "evidence_integrity": {
+    "import_wrappers": "All 6 release *-import.json wrappers were checked against their preserved original file hashes and parsed report content. They are newly authored structured records, not exact filesystem copies; the group-ownership preservation failure and no-copy fallback limitation remain explicit.",
+    "raw_failures": "Initial receipt schema findings, prior interrupted independent comparison attempt, literal robots assertion correction, raw REVIEW_DIFFERENCES and unaccepted screenshots are retained. No validation failure was silently relabelled as a pass.",
+    "raw_log_whitespace": {
+      "unrestricted_result": "FAIL: original hosted logs contain preserved whitespace",
+      "exact_exceptions": [
+        {
+          "path": "outputs/devagiri-publication-2026-11-27/release/ci.log",
+          "sha256": "5158ff9a1417451ffb3b4dca6eaa32c9734c84106f764895ee4597c15a71db2c"
+        },
+        {
+          "path": "outputs/devagiri-publication-2026-11-27/release/deployment.log",
+          "sha256": "8dd782ab85114dc8b7d056fce505d14a523156fe8285c6dbc7a41d19f4193074"
+        }
+      ],
+      "remaining_staged_paths_result": "PASS",
+      "raw_diagnostic_sha256": "5337234d0fd32dd336e5c8a88d805e31c400a5c2fd4e222a371ab8fdb24e040a",
+      "reason": "Original GitHub build logs retained unchanged; no source or authored record whitespace exception."
+    },
+    "staged_and_working_tracked_bytes_equal": true,
+    "import_wrapper_count": 6
+  },
+  "limits": [
+    "Actual delivery and local package measurements bind the published e078dcd6 tree. Incoming PR899 changes six historical contract paths; the old 23-input contract is not a current combined-source hash claim. The combined receipt still requires its own hosted CI and actual merge.",
+    "Three new Devagiri image files, article fragment and three incoming cards are byte-exact to reviewed local delivery. Existing Mardala and Odissi 480 image differences were independently measured and visually accepted in the separate delivery report; no pixel identity or encoding-cause claim is made.",
+    "Explore’s unrelated existing srcset filename substitutions and the five page-shell analytics insertions were precisely classified, not given blanket image-quality or consent-behavior approval.",
+    "Root performed native browser interactions. This reviewer inspected saved captures and actual artifacts; no human specialist, field visit, exhaustive accessibility or independent browser-action claim is made.",
+    "Earlier local/rendered pending language remains historical stage scope. Current publication, deployment and live-review sections supersede it with actual successful evidence.",
+    "The receiving preparation-only chat must act within its own verified authorization. This review does not publish, hand off the slot, or claim receipt CI/merge completion."
+  ],
+  "blocking_findings": [],
+  "reviewed_manifest_count": 79,
+  "reviewed_manifest": [
+    {
+      "path": "kb/records/article-editorial-rollout.json",
+      "sha256": "3d27e03cfec57d6a8f53996c51c7d36d828ef1623dd18c615ac0b661bd225a33"
+    },
+    {
+      "path": "kb/records/article-editorial-work-list.md",
+      "sha256": "3eb5566da5d550f522b82f85b72d74c72a24bd975de1291c81a86c5542bb74c5"
+    },
+    {
+      "path": "kb/records/destination-series-20261122.json",
+      "sha256": "10038d74f02003c4a2e57d80f4ad7ee8af5df3cf34c31ed327222e5a19f11c9b"
+    },
+    {
+      "path": "kb/records/devagiri-publication-20261127.json",
+      "sha256": "4f8b7f10dde0ddddc92618fd9767d775613c28ced70fca1bea09dd9c38771e2b"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "66d0ad8fc9af2000edfabf5593890abde11b88a6f8643bc4962fb135d026bb3d"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "0d9a6fa2930c0782ac798e3f8883e286eb52368a51b0c9ab96e6ecca31caff4c"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "876d65f2230ddf6de8cb6ba546e22f5b9d772a733c92ec7311af0a30fe6a7113"
+    },
+    {
+      "path": "kb/team/operations.json",
+      "sha256": "77d5ab8fc5006581cf2acc97b5dbadf99a31019c6998ef3f1c933642af4b3366"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/delivery-review.json",
+      "sha256": "9dd4de7fbc24054eca84771580e20791ff5d9fd25f6f6860f1e97d1f4061e226"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/comparison-3.png",
+      "sha256": "296c3923e2954cd69f8422d4c4994ec3c8a52ffa4c8149694f63970983d92a0b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/comparison-4.png",
+      "sha256": "f443cb93964d4af75c9b3d5e39cdd51d63bf86d84387269f9dffa161b20bc8d7"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/http-verification.json",
+      "sha256": "720aa65f983599b94ab38afc79fed4ebc7bc7ac98b83d87ebfaacf4476d74ce8"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/image-measurements.json",
+      "sha256": "4d3c5c6356797df117d9578bb6397b228ae5e14a16e17b82291652a74268435b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/images/0.webp",
+      "sha256": "15b8a5a9acfe91760d897e92cafc6fa086620a6e8f31f2713f6d5e10fe229caf"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/images/1.webp",
+      "sha256": "bf021c2067288898d2ea8d0b6c8c1f9cd10b690d9679f6563f237346deae7c3b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/images/2.webp",
+      "sha256": "daf4a271e78fea12eda4a04062757ae39dd95c34d8ad29810ef57c05df9e8795"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/images/3.jpg",
+      "sha256": "2ac547b5f493468dc8f89558783bcfd84bb0edb3fb05720ec25b7d026283b085"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/images/4.webp",
+      "sha256": "7709f4b4aa26dd762225330e778f1d35c7405278d900fe7b825c89c4e5c5e8ba"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/destinations/devagiri/index.html",
+      "sha256": "8fd8f5b0383883f1f3dfcbdd9899e838d2dc1d9e2ddf9a0654b046cb33331003"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/destinations/hills/index.html",
+      "sha256": "b26316c76f19c32b5b8f5472a4e5f2a8fab11e32c256232b258797d097dc45aa"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/destinations/index.html",
+      "sha256": "3cdcb3021d771ca71afe9aa614210c4308ddbe5eb7b06727edbe913ff08ac0f4"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/explore/index.html",
+      "sha256": "8ee33314041fadd8e6bc26a2cf7b5974c4e39752520332b602d6f2937e10b72f"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/stories/sakhi-nata-and-sakhi-pila/index.html",
+      "sha256": "94271f5983fafca318fce5c396c06fdeceeeccec1eaec0a78666a4666771fb58"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/pages/destinations/devagiri/index.html",
+      "sha256": "8fd8f5b0383883f1f3dfcbdd9899e838d2dc1d9e2ddf9a0654b046cb33331003"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/pages/destinations/hills/index.html",
+      "sha256": "b26316c76f19c32b5b8f5472a4e5f2a8fab11e32c256232b258797d097dc45aa"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/pages/destinations/index.html",
+      "sha256": "3cdcb3021d771ca71afe9aa614210c4308ddbe5eb7b06727edbe913ff08ac0f4"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/pages/explore/index.html",
+      "sha256": "8ee33314041fadd8e6bc26a2cf7b5974c4e39752520332b602d6f2937e10b72f"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-independent/pages/stories/sakhi-nata-and-sakhi-pila/index.html",
+      "sha256": "94271f5983fafca318fce5c396c06fdeceeeccec1eaec0a78666a4666771fb58"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-article-top.jpg",
+      "sha256": "9e521a79801a4e30e5f3fba9de6a2c7c4d050333de6bd99d67ca04f96360d970"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-destinations-preview.jpg",
+      "sha256": "bb354500edd285d37353b439f2e1a24b6629b606acc8bd30907e2ee438ce0d51"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-explore-preview.jpg",
+      "sha256": "f857b376ad9c06f3ceab091213e4759d9d073195b1d8669357ab561bf48e5d47"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-full-photograph-credit.jpg",
+      "sha256": "d42f971bc3c399153b64d3aa386fe70e2143f8902d303a057ae681817fad6c9e"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-hills-preview-loaded.jpg",
+      "sha256": "a519ddcfab44a0e9448abfdd2611327902dc5917581469e6ea8130b084f6097f"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-hills-preview.jpg",
+      "sha256": "d2fae0c82ce3ffa66b2d9681f07206873eacda7abface8a750bc5004cbc445f3"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-mardala-credit.jpg",
+      "sha256": "873cb588d9968bfd3010990cc6f66f88bc68f7ef56fc54846ad6cc674d10bf5e"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-photograph-credit.jpg",
+      "sha256": "c652f205277a0304d1ed9b69a19c61493f43d1b637d9b3539d059400a7357672"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-sources.jpg",
+      "sha256": "49d958181f52eb6da2db12456f77f0f81547cef0c12cc17e751ece251efefa0c"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-article-top.jpg",
+      "sha256": "a0466facbcd6e65682ab3becea198ff2a5d3b59b6228f9f21c3b6bafc7ade096"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-destinations-preview.jpg",
+      "sha256": "a8b4c2ad9d775001bd856f473418eba5e9459ac0785d1737c53fedc3b683301d"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-explore-preview.jpg",
+      "sha256": "a4181e807c82e5d3fff569e94d3371d3479d9b57fed2e61a288253a103135674"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-hills-preview.jpg",
+      "sha256": "46bb7955f1ef50e67eb976fe97b6ec153830aa5780ddf3a5156886707047a7a3"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-mardala-credit.jpg",
+      "sha256": "6086fce0a8c333dcee341ef31423c2ee516ab5f77fe205c41ba962466fd22032"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-photograph-credit.jpg",
+      "sha256": "d763e5031fc975f69ec4377cb5f2f9796edcc0754d8d58b30d247d8815c2d43b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-sources.jpg",
+      "sha256": "0380fd95ffb64babaaeb18eaab8d332959fbc614abd0fa3dd8003583101a22ba"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live-verification.json",
+      "sha256": "b4c5254b83cc2cd3d81dac18d8e50f34961077cd22d5e23b66574f3f27a2ff2b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/0.webp",
+      "sha256": "15b8a5a9acfe91760d897e92cafc6fa086620a6e8f31f2713f6d5e10fe229caf"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/0.webp.http.json",
+      "sha256": "c2ba4be31a6894897d5ebe4479d1f1d3e119d6e7be95ae1eb2a2bcbf66db16f4"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/1.webp",
+      "sha256": "bf021c2067288898d2ea8d0b6c8c1f9cd10b690d9679f6563f237346deae7c3b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/1.webp.http.json",
+      "sha256": "224c90c06d3c42a8a5ad9e401e060d891b1807e44c9c3ef409eeafbfe54be1f5"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/2.webp",
+      "sha256": "daf4a271e78fea12eda4a04062757ae39dd95c34d8ad29810ef57c05df9e8795"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/2.webp.http.json",
+      "sha256": "e795706ac2ddad28b350056cf113fe7de6a80dd533f412b5761f256b18a04514"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/3.jpg",
+      "sha256": "2ac547b5f493468dc8f89558783bcfd84bb0edb3fb05720ec25b7d026283b085"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/images/3.jpg.http.json",
+      "sha256": "6c7be9411065bf604b59938240ceeedbeb893228c6bf85614558fc9cc4be6899"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/destinations/devagiri/index.html",
+      "sha256": "8fd8f5b0383883f1f3dfcbdd9899e838d2dc1d9e2ddf9a0654b046cb33331003"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/destinations/devagiri/index.html.http.json",
+      "sha256": "cd0f1feb0d8bc9ed7df3fbc14fceb5b250f1c368456de1b0e4888655bf2471c6"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/destinations/hills/index.html",
+      "sha256": "b26316c76f19c32b5b8f5472a4e5f2a8fab11e32c256232b258797d097dc45aa"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/destinations/hills/index.html.http.json",
+      "sha256": "f35791282c60179ba95a7e144224a13af275631ebdb038d2ebff52fcdff313f9"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/destinations/index.html",
+      "sha256": "3cdcb3021d771ca71afe9aa614210c4308ddbe5eb7b06727edbe913ff08ac0f4"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/destinations/index.html.http.json",
+      "sha256": "47f0807213d17bf4845c91d73951ed74f582da5640d67cea3fcfc310999bd8bb"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/explore/index.html",
+      "sha256": "8ee33314041fadd8e6bc26a2cf7b5974c4e39752520332b602d6f2937e10b72f"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/explore/index.html.http.json",
+      "sha256": "54b104edbbc186fb436cbebf629305ef454b5f468a2a15f7ecd48c5d58316b47"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/stories/sakhi-nata-and-sakhi-pila/index.html",
+      "sha256": "94271f5983fafca318fce5c396c06fdeceeeccec1eaec0a78666a4666771fb58"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/pages/stories/sakhi-nata-and-sakhi-pila/index.html.http.json",
+      "sha256": "146242bfda994f5e9d2c7ad8583c842d642817ca54728ef51cdf818b8ea09b26"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/live/20261126T222235.825804Z/report.json",
+      "sha256": "b4c5254b83cc2cd3d81dac18d8e50f34961077cd22d5e23b66574f3f27a2ff2b"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-899.json",
+      "sha256": "ce29f5176ca2907ff720f5b93a08e16aad9e2581c3eaf461c6392583887b9fd3"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-whitespace-review.json",
+      "sha256": "4e60a5ed449d16a40ecb9858babb62e5d0fe0e29292e0065bf2d8c71571b07d1"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/candidate-exact-review-import.json",
+      "sha256": "b8b927c9886f9e0fdd2eadd1b535800297cbb4a46a5165930d531ab3b658c448"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/ci-payload.json",
+      "sha256": "d2a5c48192f2d53452c9a25826aed1f9dd4140c86cd7ec0f4048bc6b67990a6c"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/ci-status-import.json",
+      "sha256": "70e7bdf830a2e4b4961fd4cb5569ba77c63b6eaf4a152ce90ae0ce4a872769ae"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/ci.log",
+      "sha256": "5158ff9a1417451ffb3b4dca6eaa32c9734c84106f764895ee4597c15a71db2c"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/deployment-status.json",
+      "sha256": "abf9c4fe5e672c4b4eeb19d68d1a90b0ff96a8090d1aab354405788742846df4"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/deployment.log",
+      "sha256": "8dd782ab85114dc8b7d056fce505d14a523156fe8285c6dbc7a41d19f4193074"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/evidence-precheck-import.json",
+      "sha256": "551acded7e779449fcecdb5f453ddb1cc82e423a14c4ce8f645d1406ef2745db"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/incoming-pr899.json",
+      "sha256": "9fbc54d400c4e13eb82fef71eb8df25ecbb69e7bd9298bbab67bfd49416b52f2"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/next-reservation-import.json",
+      "sha256": "e9d8d1fccad81b4bcaaf6d617f1751f6cf636d2980ea25d00d65f1db9cbed8d7"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/publication-pr-import.json",
+      "sha256": "b05814c85078aa18b7f43650921ba61a3bd3e75436755cbea40a231648c5f146"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/release/submission-history-import.json",
+      "sha256": "60beca86579a0e3c51e6b22f10c6d4d465b50a35aca62b7837a458dc493a0817"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/root-live-browser-review.json",
+      "sha256": "6111bcf2990bd64737d8b93b8f0160e99e13c4ad54693f84a04b9fd5cbda8506"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/root-live-image-measurements.json",
+      "sha256": "1b97e95da3177b1df823995ffe9bcc97bf9c9e59f24f96574f44833deb2d36df"
+    }
+  ],
+  "next_gate": "Root may add this actual review pointer, freeze the receipt and request separate exact-commit continuity review. Required combined receipt CI and actual receipt merge remain pending."
+}

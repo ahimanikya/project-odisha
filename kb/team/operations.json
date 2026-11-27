@@ -58,10 +58,12 @@
     "id": "POD-EDIT-DEVAGIRI-20261127",
     "route": "/destinations/devagiri/",
     "owner": "Disha",
-    "phase": "release_validation",
+    "phase": "receipt_integrated",
     "handoff": "records/devagiri-publication-20261127.json",
-    "scope_released": false,
-    "status": "in_progress"
+    "scope_released": true,
+    "status": "published_verified",
+    "release_condition": "Effective after separately reviewed Devagiri receipt actually merges and explicit reserved preparation-only handoff.",
+    "next_action": "Finish separate receipt review and required checks, actually merge receipt, then return reserved preparation-only slot."
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
@@ -895,9 +897,9 @@
     }
   ],
   "next_article_coordination": {
-    "status": "hill_slot_returned",
+    "status": "reserved_after_receipt_merge",
     "evidence": "records/devagiri-publication-20261127.json",
-    "scope": "Godabarish receipt896 verified merged; explicit slot return accepted. Devagiri Rayagada is sole active candidate."
+    "scope": "After actual reviewed Devagiri receipt merge, explicitly return sole slot to Research Antaranga Kalinga for one preparation-only article. No next hill claimed."
   },
   "current_preparation": {
     "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",
