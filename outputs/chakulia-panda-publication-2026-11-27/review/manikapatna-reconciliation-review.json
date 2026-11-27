@@ -1,0 +1,76 @@
+{
+  "status": "PASS_WORKING_TREE_RECONCILIATION",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T19:07:19.066587+00:00",
+  "own_checkpoint": "12d73122d918a7f2054cc98257501099aa3fe02f",
+  "incoming_main": "a03265e4787472d93f14028bb9f0290dd97e1794",
+  "findings": [],
+  "incoming_nonshared_exact": {
+    "projects/site/src/content-notes/manikapatna-anchor.md": "4344749faad11332ac1b7ef25065e1bfd67ff65e7e52180fac0ee05b062cedb0",
+    "projects/site/src/pages/knowledge/manikapatna-anchor.astro": "eaca61b4be8948dcad5659e3cb06c3363b599c2f05d88f7108e9f1f029343435"
+  },
+  "shared_unions": "Independently compared all rollout rows and search candidate entries from both parents. Current lists are their exact keyed union, without conflicting rows or duplicate IDs. Coast and portable routes are exact set unions without duplicates. No incoming content was rewritten.",
+  "page_count": "216 correctly follows base 213 plus Chakulia, Bahuda and Manikapatna. Explicit assertions for all added pages remain; no other page-count term was weakened.",
+  "generated_records": "Work-list adds only incoming queued Manikapatna and the corresponding route/queued count. Own Chakulia remains in progress. Workbench coast digest equals current actual file. Own work readiness changes draft to reviewed while status remains in progress; next action explicitly requires combined review, hosted CI, deployment, live review and receipt.",
+  "source_contract": {
+    "verified_inputs": 20,
+    "all_exact": true,
+    "hashes": {
+      "kb/media/chakulia-panda/chakulia-panda-original.jpg": "e92404828524fd4580ac44e1608176888006fa9d620cf30fca97b76af18274ed",
+      "kb/research/culture/chakulia-panda-image.json": "75c6fa9c90db5524294da7d77903010b97742b25b4f69e642b0e753f29bfa7f2",
+      "kb/research/culture/chakulia-panda-sources.json": "28812a4461662a9494dd8f4930bad36121ae4e79e9de14e29c9200c04261ce35",
+      "kb/research/culture/chakulia-panda.md": "bcef9bd05b624888aca1a372b7f08cabf3bc7332de61dfd0f9204c23d1adb868",
+      "projects/site/editions/coast.json": "9d83a64dd2da431e5d4d08dfd7449990f9324c50d3af65cf8ddeb49bdac07428",
+      "projects/site/editions/responsive-images.json": "74654518318a78986f4f095d6b8e7413ddda081bbc18dc144bf615b70f4b702e",
+      "projects/site/editions/search-candidate.json": "c6db33964af8c21b58532b71f2d3d8ca7241b955496d4a3b8aafe8e005f9f4c3",
+      "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+      "projects/site/public/images/chakulia-panda/chakulia-panda-1200.webp": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df",
+      "projects/site/src/pages/literature/index.astro": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873",
+      "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85",
+      "projects/site/src/pages/sounds-of-odisha/daskathia.astro": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6",
+      "projects/site/src/pages/sounds-of-odisha/pala.astro": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4",
+      "projects/site/tests/build.test.mjs": "740ac9a5e98cb0f02417d45692ce25881d77cfee33584a4bc2a10703f98d696f",
+      "projects/site/tests/publication-jpeg.test.mjs": "17a931795f609f17267828b5b3a622d8374072d1009ddc79f6139725651a2e46",
+      "projects/site/tools/optimize-publication-jpeg.mjs": "c68d2375ce1d62863bbd942109f68d24dc139a1de4ff04425cd30c9613fc3742",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs": "f60a0ee935fe791d2e861945aa223db670a4f272bef85d8c98132eef43c90b76",
+      "projects/site/tests-coast/core-sound-source-links.test.mjs": "8938a0c98f51bd0e20db7109f0be0548f0e387506b1844944ad0ef7ecbf8def8",
+      "projects/site/src/content-notes/manikapatna-anchor.md": "4344749faad11332ac1b7ef25065e1bfd67ff65e7e52180fac0ee05b062cedb0",
+      "projects/site/src/pages/knowledge/manikapatna-anchor.astro": "eaca61b4be8948dcad5659e3cb06c3363b599c2f05d88f7108e9f1f029343435"
+    }
+  },
+  "preservation": {
+    "protected_files_checked": 141,
+    "mismatches": 0,
+    "foreign_fields_exact_to_own_checkpoint": [
+      "current_task",
+      "handoff_home",
+      "current_preparation"
+    ],
+    "public_UI": "Four reviewed Chakulia/main incoming Astro files and photo are unchanged from prior static/rendered/package reviews. Source original and q86 optimizer settings unchanged."
+  },
+  "evidence_and_authority": "Checked canonical record references to repository JSON/Markdown evidence: all resolve. Local validation explicitly says PASS_pre913, built70d1f6dbf including Bahuda but before Manikapatna. Current capacity is not claimed from the historical999093804-byte result. Combined hosted validation/capacity and targeted new-route checks remain required. Scope is held and programme credit is zero.",
+  "index_limit": "Git index still reported unresolved stages during review although working-tree files were resolved and parsed correctly. Root must stage the actual reviewed resolutions before committing; exact committed review remains a separate gate.",
+  "limits": [
+    "Incoming Manikapatna factual content preserved exactly; no independent re-review of that article or its hosted CI in this bounded task.",
+    "No combined rebuild, browser, hosted capacity, publication or live success claimed.",
+    "No public/shared/Git changes by reviewer."
+  ],
+  "reviewed_sha256": {
+    "kb/records/article-editorial-rollout.json": "68745e7a3da4027eb30aeb35f1ffdf34031b8a8f175359e0c278add789c66b09",
+    "kb/records/article-editorial-work-list.md": "21af52f16c0e55d8d54f904e0745a96de5da7d2db7c0d01ddceafe668edd6e41",
+    "kb/records/editorial-workbench.json": "7124cabaed046bf82da141f823df4b726cda859e6cc2fd293b5f2036fa3f64a7",
+    "kb/reference/public-website-routes.json": "4b21f9bdd11418955249a5e748a9d05e96d0c81e3a7878a27d7ef0ccc7f2b8ca",
+    "projects/site/editions/coast.json": "9d83a64dd2da431e5d4d08dfd7449990f9324c50d3af65cf8ddeb49bdac07428",
+    "projects/site/editions/search-candidate.json": "c6db33964af8c21b58532b71f2d3d8ca7241b955496d4a3b8aafe8e005f9f4c3",
+    "projects/site/tests/build.test.mjs": "740ac9a5e98cb0f02417d45692ce25881d77cfee33584a4bc2a10703f98d696f",
+    "kb/records/chakulia-panda-publication-20261127.json": "b64395923c8f70dc03e827e77af8f7f8a7a1b423aec22697b453c2b0c5a8ff4d",
+    "kb/registers/records.json": "8047b18c2a55d6b8e582b35c3283c013bd754e43328e05c66b0e310fa29dba18",
+    "kb/registers/DASHBOARD.md": "285d02ec1fce53cc3abb97adfeb259b2baa5e3d58b9c9836bfbb5987c9389c4a",
+    "kb/team/operations.json": "4576236d88714780ee8bae8613aa514f27f0bb3304556f64ecf272ec988c329b",
+    "outputs/chakulia-panda-publication-2026-11-27/combined-source-contract.json": "b11d467072d0b821a8324f957131ceabefac0fe7b5fbca51fe490fc4fe8c0018",
+    "outputs/chakulia-panda-publication-2026-11-27/implementation/manikapatna-reconciliation-plan.json": "c789c380bb4660ae382f16142bb9ed064ad6cfa54973897b05549f687d492e2d",
+    "outputs/chakulia-panda-publication-2026-11-27/build-results.json": "1074104f4dbc538ffa4f7be303a67a87baf0bc5ae98bfafe6c9bc2aed4d6f226",
+    "outputs/chakulia-panda-publication-2026-11-27/local-verification.json": "dcba0e25321586dc0a18d99056019c0da1a5658da8fb13134915907a7579889d",
+    "outputs/chakulia-panda-publication-2026-11-27/review/package-review.json": "a3dc57ce0345fe34935caa3956df5c21c35d14bcad4bb0f087edaa5fae201c96"
+  }
+}

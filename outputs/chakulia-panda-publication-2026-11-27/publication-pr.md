@@ -1,0 +1,5 @@
+Publish “Chakulia Panda: Verse at the Doorstep” with the independently researched manuscript, five visible source notes, Aditya Mahar’s credited CC BY-SA 4.0 photograph, and full-frame incoming previews from Pala, Daskathia and Odia Literature.
+
+Preserve Bahuda and Manikapatna additions and all 141 protected preparation files. A separately reviewed compression change to the existing Radha-confidante delivery JPEG supplies capacity; its source, full frame, dimensions and credit remain intact.
+
+Validation: source/media/static/capacity/rendered/package reviews pass. The pre-Manikapatna local package passed 13 stages, 853 full tests, 605 coastal tests, 5,692 page checks and 375 artifact checks at 999,093,804 bytes. Desktop/mobile views, all six incoming-link clicks and native note returns were checked. Manikapatna changes no shared styles or existing article/media; exact combined hosted validation and actual Linux capacity remain required before merge. Publication and live-delivery review remain separate steps.

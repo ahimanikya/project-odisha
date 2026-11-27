@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fe3f6897429471433b573e0598e526e41f8d0419c8ef568469e4e4282304da3f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7016cdb1eb2c4f6c13c90877701b24b4dc5fed4786d09692f3586ed8ef9a7730`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -442,7 +442,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026112793 · Research, review and publish Gupteswar | completed | published | Ahimanikya Satapathy | Finish separate integrated and exact-commit receipt review, required checks and actual receipt merge; then send explicit reserved Chakulia Panda publication handoff. | — |
 | POD-WORK-20261127005 · Public corroboration for Pentha design-length figures | completed | published | Ahimanikya Satapathy | Completed: public news corroboration published and verified on desktop and mobile; CAG distinction and access limitation retained. | — |
 | POD-WORK-20261127007 · Verified archive fallback for the Pentha news source | in_progress | reviewed | Ahimanikya Satapathy | Review and publish the bounded archive-note addition, then verify the live note and fallback. | — |
-| POD-WORK-20261127410 · Publish Chakulia Panda: Verse at the Doorstep | in_progress | draft | Ahimanikya Satapathy | Integrate reviewed manuscript/photo, separately resolve capacity, inspect local desktop/mobile, run required checks, publish then verify live and merge separately reviewed receipt. | — |
+| POD-WORK-20261127410 · Publish Chakulia Panda: Verse at the Doorstep | in_progress | reviewed | Ahimanikya Satapathy | Complete separate combined review and exact committed review; require hosted CI before merge, then authorized deployment, live review and reviewed receipt merge. | — |
 
 ## Pending human review and decisions
 
