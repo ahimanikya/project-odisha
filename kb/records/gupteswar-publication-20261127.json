@@ -37,7 +37,7 @@
         "kb/research/places/gupteswar-article.md"
       ],
       "task": "Research missing facts independently and draft original bounded narrative; no shared records or public implementation.",
-      "status": "research_complete_validation_helpers_active"
+      "status": "research_and_validation_helpers_complete"
     },
     "Samanta": {
       "scope": [
@@ -51,14 +51,14 @@
         "outputs/gupteswar-publication-2026-11-27/implementation/"
       ],
       "task": "Implement Gupteswar article and three discovery previews using prepared photograph; preserve other content, no shared registers, no Git/publication. Pending independent source/media review must be resolved before freeze.",
-      "status": "implementation_assigned"
+      "status": "implementation_complete"
     },
     "Drishti": {
       "scope": [
         "outputs/gupteswar-publication-2026-11-27/review/"
       ],
       "task": "Separate source/media/candidate/rendered/delivery review when assigned; no publishing or shared records.",
-      "status": "separate_reviews_active"
+      "status": "static_and_reconciliation_review_active"
     }
   },
   "foreign_ownership": {
@@ -96,11 +96,21 @@
     "separate_review": "outputs/gupteswar-publication-2026-11-27/review/capacity-review.json",
     "bounded_change": "Existing Hindola JPEG quality95 to90 only; original/full frame/credit preserved."
   },
-  "next_action": "Independent research and media, then separate review, implementation, actual layout/build/CI/deployment/live checks and receipt.",
+  "next_action": "Frozen combined source pipeline, desktop/mobile review, hosted checks, publication and live review, then separate final receipt.",
   "next_slot_reservation": {
     "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "scope": "Authorized Chakulia Panda publication with credited photograph, relevant links and desktop/mobile review",
     "condition": "Actual separately reviewed Gupteswar publication receipt merge and explicit handoff",
     "evidence": "Other chat reported direct human publication instruction in coordination message; no competing integration begins before handoff."
+  },
+  "title": "Gupteswar: A Cave Shrine and Its Forest",
+  "research": {
+    "manuscript": "kb/research/places/gupteswar-article.md",
+    "source_dossier": "outputs/gupteswar-publication-2026-11-27/research/source-manifest.json",
+    "independent_review": "outputs/gupteswar-publication-2026-11-27/review/source-review.json"
+  },
+  "media": {
+    "record": "kb/research/places/gupteswar-image.json",
+    "separate_review": "outputs/gupteswar-publication-2026-11-27/review/media-review.json"
   }
 }
