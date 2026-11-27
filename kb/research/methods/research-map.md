@@ -1622,3 +1622,8 @@ Reuse the [draft](../people/godabarish-mahapatra-and-niankhunta.md), [source dos
 ### Mahavinayak hill destination · 26 November 2026
 
 Added one independently researched destination narrative after scoped reuse checks. ASI regional geography, dated worship accounts and current indexed operator listing remain distinct. Original credited photograph retained; source/field limits and publication checks recorded separately. Inventory now1884; zero programme credit.
+
+
+### Chakulia Panda preparation · 27 November 2026
+
+Reuse the [draft](../culture/chakulia-panda.md), [source dossier](../culture/chakulia-panda-sources.json) and [photograph provenance](../culture/chakulia-panda-image.json). Scoped map and site checks found only the Alana fictional character, not a dedicated performance narrative. Antaranga supplies discovery only. The district account is indexed-only; original Dash and AIIMS pages support different bounded claims. Alana retains its existing source ID and is not community biography. The licensed photograph identifies no individual, precise village or song. Three records added; 1888 mapped. Preparation only; no public route or programme credit, and no exhaustive semantic deduplication claim.

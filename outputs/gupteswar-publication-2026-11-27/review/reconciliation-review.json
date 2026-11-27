@@ -1,0 +1,130 @@
+{
+  "result": "pass",
+  "scope": "Bounded preservation and three-way reconciliation review of PR905 into the Gupteswar candidate. Not a factual review of Paradip, package acceptance, or PR907 review.",
+  "reviewer": "Drishti (AI reviewer)",
+  "review_date": "2026-11-27",
+  "head": "a2b802ba063eba9e6dce5d57f73b87db8b8a8a51",
+  "tree": "67b7fa32a027c26597788a3a7ad6913cdceb85da",
+  "refs": {
+    "c7f597b5": "c7f597b5b9f9348ea3ae39bd5c45b26f970ecee1",
+    "517ac78a7": "517ac78a7d0b54c5df8c1a87331d228cdba5ede4",
+    "8d69843f0": "8d69843f075d61ac959d66a8c6b9a7b5c7a051c0"
+  },
+  "incoming_path_count": 11,
+  "incoming_nonshared_exact": {
+    "projects/site/src/content-notes/paradip-port-cargo.md": "fcc13cdda056083bd4f599d8e1a9c654d45a613027656ef685504a6de8786cc6",
+    "projects/site/src/pages/knowledge/paradip-port-cargo.astro": "7fb8c53bbd549412d755241a5db2e2fe63dbec61bb053e4d7ccc399999193b64",
+    "projects/site/tests/publication-png.test.mjs": "4e18956ca1e97e83dd3bbb0a08c3f2b0fb564e2035abb2fb0f0b32ef47826dae",
+    "projects/site/tools/optimize-publication-png.mjs": "37e52c2719711036cf8b4cb358b6fbedb4901a4815d298931b7af2ce9f4752ed"
+  },
+  "shared_paths": [
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "union_checks": {
+    "kb/records/article-editorial-rollout.json": {
+      "counts": [
+        1431,
+        1432,
+        1432,
+        1433
+      ],
+      "conflicts": [],
+      "exact_id_union": true,
+      "duplicates": 0
+    },
+    "projects/site/editions/search-candidate.json": {
+      "counts": [
+        1417,
+        1418,
+        1418,
+        1419
+      ],
+      "conflicts": [],
+      "exact_id_union": true,
+      "duplicates": 0
+    },
+    "kb/reference/public-website-routes.json": {
+      "counts": [
+        1417,
+        1418,
+        1418,
+        1419
+      ],
+      "exact_set_union": true,
+      "duplicates": 0
+    },
+    "projects/site/editions/coast.json": {
+      "counts": [
+        1417,
+        1418,
+        1418,
+        1419
+      ],
+      "exact_set_union": true,
+      "duplicates": 0
+    }
+  },
+  "generated_views": {
+    "work_list": "Inspected diff: exact incoming Paradip queued row added and inventory/queued totals incremented by one; Gupteswar retained. Root is subsequently updating its owned row while pipeline runs.",
+    "workbench_changed_json_paths": [
+      "/inputs/projects/site/editions/coast.json"
+    ],
+    "workbench_note": "Only the coastal-edition input digest changes relative to the initial candidate; selection/model content is identical.",
+    "full_build_count": "Initial Gupteswar count 210 plus incoming Paradip route gives 211. Incoming explicit Paradip page assertion is retained."
+  },
+  "preservation": {
+    "contract_inputs": 27,
+    "contract_mismatches": [],
+    "protected_count": 141,
+    "protected_mismatches": [],
+    "foreign_fields": {
+      "current_task": true,
+      "handoff_home": true,
+      "current_preparation": true
+    },
+    "gupteswar_body_media_wrapper_and_jpeg_optimizer_unchanged_by_merge": true,
+    "incoming_png_implementation_and_test_exact": true
+  },
+  "current_working_tree_limit": "Root has uncommitted owned progress fields and output evidence. This is exact committed reconciliation plus frozen-input preservation, not a claim that the checkout is clean or a final record/receipt review.",
+  "reviewed_hashes": {
+    "kb/reference/public-website-routes.json": "bc0f769f9c9baa52366f1639d7e6aeeb86487173ac426270330312048ec1b211",
+    "kb/research/places/gupteswar-article.md": "6e5d9d7cc60baa8b80bb0a233e6d947115a1368531524b508ba9fa1fadd34663",
+    "kb/research/places/gupteswar-image.json": "feff303147ca3375f0dcc2736c8d31679ea5e5f18b1346812b3c4b34f8c35adb",
+    "projects/odia-dhaga/pdf-delivery.json": "54729ef67725de7f864551624bdbcda4b0da604be0d17d76ad3483ed8d1eb068",
+    "projects/site/editions/coast.json": "0719c11f760310dc214cdee4cdadf740e27209948c36398998abb21ca458cc2c",
+    "projects/site/editions/responsive-images.json": "5e2a43846bff3853efbc843261c7b808eab10279f2196ca872a4a18e36eee435",
+    "projects/site/editions/search-candidate.json": "32d1344687dc0b34afa9afabc09c66511474ff2ab0af27681b4fa9e152dddd16",
+    "projects/site/public/images/destinations/gupteswar-lingam-indopaedia.webp": "13ae25c81e776ef090cd659d9cac5bf8456331dbb81a0507b8759a4e7d599c41",
+    "projects/site/src/components/DestinationCards.astro": "3956f2a8e87e1ccbf1c703583f9eddbe82a4f3f9e1d1e7be3e7cde268dc7ebb9",
+    "projects/site/src/content-notes/paradip-port-cargo.md": "fcc13cdda056083bd4f599d8e1a9c654d45a613027656ef685504a6de8786cc6",
+    "projects/site/src/data/hill-destinations.ts": "4e68adb4730ab03889d09dd66dc3c6b9f24b2b6cf40dd5d03c4d605ba5f6b485",
+    "projects/site/src/pages/destinations/gupteswar.astro": "d70f20c33f4e8f035e6ae794d6be4bff112281c8891815da6ef92d1281c629a8",
+    "projects/site/src/pages/destinations/hills.astro": "959c2567da4caa442910d5fc1bf20280002dc04e47ccd77c543a73430939d85b",
+    "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
+    "projects/site/src/pages/explore.astro": "0912a03ca95d0771a3039c2f9a783298bce0aa96d45c30893bee482e87aa2c92",
+    "projects/site/src/pages/knowledge/paradip-port-cargo.astro": "7fb8c53bbd549412d755241a5db2e2fe63dbec61bb053e4d7ccc399999193b64",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "368b2d5a88467f8c5deb0a52b6bf46547e346e1209b1c53338206cb87f59ea61",
+    "projects/site/tests-coast/edition.test.mjs": "ce0869a0588d4baa4aa71abd960f26be9871b8393c85687078c6767152ee7111",
+    "projects/site/tests/build.test.mjs": "16a5257176686de82dd089ff74fe7a72711a35c4ad37625ea8ed64182ca75a3a",
+    "projects/site/tests/publication-jpeg.test.mjs": "c9da9f6464ec4fc066bb9b2d7d5c7d59bff2164f9dfb82107431c755dd653032",
+    "projects/site/tests/publication-png.test.mjs": "4e18956ca1e97e83dd3bbb0a08c3f2b0fb564e2035abb2fb0f0b32ef47826dae",
+    "projects/site/tools/build-publication.mjs": "6433899cd39cf420e19556b5819e33194ef5b69e5c48a66ae3e879eeb3e8c48b",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "c9378b7d2d6e556365785f85362124b4158d04c8fe2999e284645a10256578d7",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0fb0a4c5c71f25c6408db6f195e27d0f5815af594c2b33a4be0b7bb9a9907b75",
+    "projects/site/tools/optimize-publication-png.mjs": "37e52c2719711036cf8b4cb358b6fbedb4901a4815d298931b7af2ce9f4752ed",
+    "projects/site/tools/prepare-search-review.mjs": "a13da9fa3cf2947539bb161d9588ed49d172bf3b382855f0c49f9eda18636281",
+    "projects/site/tools/storage-copy.mjs": "a3d42748f64451ce10f8e59d03e28e942883cff2506df4cb3dfa093c063db4dd"
+  },
+  "limitations": [
+    "No merge, build or browser actions performed by this reviewer.",
+    "Combined emitted routes, final actual payload, rendered disclosures, protected public export exclusions and hosted checks require their later execution evidence.",
+    "PR907 was reported merged after this frozen candidate; it is outside this review."
+  ],
+  "blockers": []
+}
