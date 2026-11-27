@@ -11,7 +11,19 @@ for(const slug of ['sankha', 'mardala', 'daskathia', 'ghanta-ghanti', 'dalkhai',
  assert.deepEqual(story.blocks.map(b=>b.source_ids),mapping.sections.map(b=>b.source_ids));
  const html=readFileSync('dist-coast/sounds-of-odisha/'+slug+'/index.html','utf8');
  const article=html.split('<article ',2)[1].split('</article>',1)[0].replace(/<details class="sound-reading-paths"[^>]*>[\s\S]*?<\/details>/g,'');
- const sections=[...article.matchAll(/<section\b[^>]*>([\s\S]*?)<\/section>/g)].map(m=>m[1]);
+ const blocks=[...article.matchAll(/<section\b([^>]*)>([\s\S]*?)<\/section>/g)];
+ // Connected reading is navigation, not one of the independently sourced narrative blocks.
+ const isReadingPath=block=>/class="[^"]*\barticle-reading-path\b[^"]*"/.test(block[1]);
+ const sections=blocks.filter(block=>!isReadingPath(block)).map(block=>block[2]);
+ if(slug==='daskathia'){
+  const reading=blocks.filter(isReadingPath);assert.equal(reading.length,1);
+  assert.match(reading[0][2],/href="\/sounds-of-odisha\/chakulia-panda\/"/);
+  assert.match(reading[0][2],/src="\/images\/chakulia-panda\/chakulia-panda-1200\.webp"/);
+  const credit=article.match(/<p\b[^>]*class="chakulia-credit"[^>]*>([\s\S]*?)<\/p>/)?.[1];assert.ok(credit);
+  assert.ok(credit.includes('https://commons.wikimedia.org/wiki/File:Chakulia_panda_walking_at_a_village_area_in_Odisha.JPG'));
+  assert.ok(credit.includes('https://creativecommons.org/licenses/by-sa/4.0/'));
+  assert.match(credit,/Aditya Mahar/);assert.match(credit,/Resized and compressed; same licence\./);
+ }
  assert.equal(sections.length,story.blocks.length);
  const notes=html.match(/<details id="story-sources"[^>]*>([\s\S]*?)<\/details>/)[1];
  assert.match(notes,/<ol\b[^>]*>/);

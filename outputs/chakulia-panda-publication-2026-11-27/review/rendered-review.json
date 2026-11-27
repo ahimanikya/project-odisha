@@ -1,0 +1,116 @@
+{
+  "status": "PASS_LOCAL_RENDERED_VIEWS_WITH_FRAMING_LIMITS",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T18:38:08.601033+00:00",
+  "edition": "dist full build before Bahuda reconciliation",
+  "findings": [],
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "inspection": "Personally opened and inspected all 13 actual JPG files listed below with view_image, including the transitional capture. Did not operate browser or reproduce root interactions.",
+  "observations": {
+    "opening": "Desktop and mobile title/byline and opening paragraph readable, wrapping within the visible viewport. Opening captures show only the upper part of the photograph, not its full frame.",
+    "photo": "Mobile photo capture shows complete source frame, readable caption and numeric marker 2. Desktop photo capture shows lower photograph, figure and caption with its top edge outside the viewport; it is not standalone desktop full-frame evidence. Prior actual image review establishes asset framing, while final package continuity remains pending.",
+    "notes": "Desktop-notes-settled shows full highlighted photo credit note 2, creator, linked source/licence, alteration and identity limits, plus notes 3–5. Mobile-notes shows highlighted note 3 and notes 4–5, not all five complete notes. Both show expanded further reading.",
+    "incoming_cards": "Personally viewed Literature, Daskathia and Pala preview captures at both widths. All six show complete contained preview photographs, Chakulia link and compact linked creator/licence/alteration attribution without visible clipping. Surrounding existing reading paths remain visible on Pala and Daskathia.",
+    "overflow": "No horizontal clipping visible in the inspected frames; screenshots alone do not establish DOM scroll-width measurements.",
+    "excluded_capture": "desktop-photo-credit-note.jpg shows transitional article position, not the target photo source note; excluded as note-arrival evidence."
+  },
+  "root_action_attribution": {
+    "source": "outputs/chakulia-panda-publication-2026-11-27/local/browser-review.json",
+    "reported_actions": [
+      "Desktop photo note2 click and Enter return verified by URL and settled note capture",
+      "Mobile source3 click and Enter return verified",
+      "All three incoming links clicked at both widths; actual new route verified"
+    ],
+    "reviewer_browser_actions": false,
+    "limit": "Root manifest reports actual clicks, destinations and keyboard returns; reviewer independently inspected resulting saved captures, not live interaction."
+  },
+  "limits": [
+    "Local full build before reconciliation, not final publication package or deployed site.",
+    "One browser environment at two viewport sizes; no physical-device or cross-engine claim.",
+    "Viewport captures only, not complete page inspection. Desktop main photo top is outside its photo capture.",
+    "Final package asset/content continuity, complete capacity and hosted/live checks remain pending."
+  ],
+  "captures": [
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-daskathia-preview.jpg",
+      "sha256": "7bae07ad44dbd7a95b4fa37f17fa21c9121b44bb0a7b288e7138bb961652cf12",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-literature-preview.jpg",
+      "sha256": "6bb910d8f4f37b1e7129c627944837d6002ea4027c0a4a3b38e62205ec901e93",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-notes-settled.jpg",
+      "sha256": "e9b3bf38bd031d5912c4dbfa3e60b4d05027b2a3dcd7c2921b33e7ed80942aae",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-opening.jpg",
+      "sha256": "f03f4b7324e5ee1e03aec53fca82b46dbe3142e0881fe0aa7c01d8c2281a7f9f",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-pala-preview.jpg",
+      "sha256": "2948d215c72aa3adf932488d318f1249919b453e0e21477d91a67b6ec394ec0f",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-photo-credit-note.jpg",
+      "sha256": "37135b9fc77dda4eef215dffa33fbadc7fb6273bc4178e56e4f233ebe01ba8a0",
+      "framing": "transitional_not_note_evidence"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/desktop-photo.jpg",
+      "sha256": "7a45851d8f74b4e87467fa2473f9b046e1c85840ee5fee74bfb155e9f0e79bc0",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/mobile-daskathia-preview.jpg",
+      "sha256": "60703752fcc5c57f6760bb77f3db287d87f4549f87d8a5ce4d5c5f41a5c6c699",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/mobile-literature-preview.jpg",
+      "sha256": "5810bee437f19d244b800889e176ae215b83c58ac367a5e154dd9a8dcd26fb00",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/mobile-notes.jpg",
+      "sha256": "26780077e0d356c54dbcfe28fcf5f501509655eed6c199b5f6aeec78a0a074bb",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/mobile-opening.jpg",
+      "sha256": "6357cdae9135f51a381ec7058efb18c08c93b882809247b7ca72c0feafc07e5c",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/mobile-pala-preview.jpg",
+      "sha256": "63246722cfdf492e8f28a06f258a72c52e6805086c050813a1543b06f1f92b8b",
+      "framing": "viewport_capture"
+    },
+    {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/local/mobile-photo.jpg",
+      "sha256": "60ee04298523537aaa73e4bef5446c33a94fa256ba0b1b5a91f6826a2c10b1af",
+      "framing": "viewport_capture"
+    }
+  ],
+  "reviewed_sha256": {
+    "outputs/chakulia-panda-publication-2026-11-27/local/browser-review.json": "fb2fccc22ff363e91896784c9ccd86d285d92df982e509aab8afc62331fbe882",
+    "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85",
+    "projects/site/src/pages/sounds-of-odisha/pala.astro": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4",
+    "projects/site/src/pages/sounds-of-odisha/daskathia.astro": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6",
+    "projects/site/src/pages/literature/index.astro": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "PASS_BOUNDED_Q86_PROPOSAL",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T18:28:19.605113+00:00",
+  "scope": "One existing delivery quality setting, 95 to 86; original source and other optimizer settings remain unchanged. Prior q90 review is historical and remains intact.",
+  "findings": [],
+  "independent_measurements": {
+    "source": {
+      "path": "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg",
+      "bytes": 2397053,
+      "sha256": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+      "width": 3923,
+      "height": 2569,
+      "orientation": null,
+      "embedded": {
+        "exif": null,
+        "icc": null,
+        "iptc": null,
+        "xmp": null
+      }
+    },
+    "current": {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q95.jpg",
+      "bytes": 1244754,
+      "sha256": "eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf",
+      "width": 2048,
+      "height": 1341,
+      "orientation": 1,
+      "embedded": {
+        "exif": {
+          "bytes": 186,
+          "sha256": "c92fb68cb7c393d7f27349068288868cd0489b4b7d02e05d8d4c214c65f4286e"
+        },
+        "icc": null,
+        "iptc": null,
+        "xmp": null
+      }
+    },
+    "candidate": {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q86.jpg",
+      "bytes": 698117,
+      "sha256": "e7d35bf4c075d6e79d3b254d073ee3996c17d99be8da95fcc6c24b164431d939",
+      "width": 2048,
+      "height": 1341,
+      "orientation": 1,
+      "embedded": {
+        "exif": {
+          "bytes": 186,
+          "sha256": "c92fb68cb7c393d7f27349068288868cd0489b4b7d02e05d8d4c214c65f4286e"
+        },
+        "icc": null,
+        "iptc": null,
+        "xmp": null
+      }
+    }
+  },
+  "saving_bytes": 546637,
+  "projection": {
+    "baseline_headroom": 155616,
+    "new_media_bytes": 602650,
+    "margin_before_html": 99603,
+    "actual_complete_package_and_hosted_gate_pending": true
+  },
+  "visual_review": "Personally viewed the actual q86 file and compared its complete frame with the source and q95 files viewed earlier in this review session. Figures, facial features, jewellery, patterned clothing, birds, foliage and complete borders remain readable. No conspicuous blocking or colour shift at the displayed scale. This is editorial display suitability, not archival equivalence or exhaustive magnified inspection.",
+  "metadata": "Independently confirmed actual hashes, byte lengths, dimensions and metadata against all three proposal records. Current and candidate EXIF are identical; original EXIF absent becomes orientation 1 technical EXIF. ICC/IPTC/XMP absent throughout. No original-to-derivative metadata identity claim.",
+  "decoded_q95_vs_q86": {
+    "RGB_channels": 8239104,
+    "changed_channels": 6679979,
+    "maximum_absolute_channel_difference": 32,
+    "mean_absolute_channel_difference": 2.2504769936148397,
+    "pixel_identical": false
+  },
+  "credit": "Existing Met public-domain credit and linked source remain; existing full-frame resize/compression alteration wording remains accurate. No new geometry or URL change relative to current delivery.",
+  "limits": [
+    "No final package, hosted or live acceptance.",
+    "No browser or physical-device inspection by this reviewer."
+  ],
+  "reviewed_sha256": {
+    "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+    "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q95.jpg": "eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf",
+    "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q86.jpg": "e7d35bf4c075d6e79d3b254d073ee3996c17d99be8da95fcc6c24b164431d939",
+    "outputs/chakulia-panda-publication-2026-11-27/capacity/proposal-q86.json": "02ca613e541cf114f5289832fab8c81a62bfa49916cf502e1aaecfe1dc28307d"
+  }
+}

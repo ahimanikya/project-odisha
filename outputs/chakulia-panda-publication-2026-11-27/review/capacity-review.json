@@ -1,0 +1,97 @@
+{
+  "status": "PASS_BOUNDED_CAPACITY_PROPOSAL",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T18:23:55.616983+00:00",
+  "scope": "One existing Radha/confidante delivery JPEG quality setting from 95 to 90, retaining the 2048-pixel maximum dimension. This is proposal acceptance, not implementation, package, hosted or live acceptance.",
+  "findings": [],
+  "measurements": {
+    "source": {
+      "path": "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg",
+      "bytes": 2397053,
+      "sha256": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+      "width": 3923,
+      "height": 2569,
+      "orientation": null,
+      "embedded": {
+        "exif": null,
+        "icc": null,
+        "iptc": null,
+        "xmp": null
+      }
+    },
+    "current": {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q95.jpg",
+      "bytes": 1244754,
+      "sha256": "eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf",
+      "width": 2048,
+      "height": 1341,
+      "orientation": 1,
+      "embedded": {
+        "exif": {
+          "bytes": 186,
+          "sha256": "c92fb68cb7c393d7f27349068288868cd0489b4b7d02e05d8d4c214c65f4286e"
+        },
+        "icc": null,
+        "iptc": null,
+        "xmp": null
+      }
+    },
+    "candidate": {
+      "path": "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q90.jpg",
+      "bytes": 864470,
+      "sha256": "269c3345182b7e2565a91f5a474455e50a95161a93dc0bf3291a41737ede2b9d",
+      "width": 2048,
+      "height": 1341,
+      "orientation": 1,
+      "embedded": {
+        "exif": {
+          "bytes": 186,
+          "sha256": "c92fb68cb7c393d7f27349068288868cd0489b4b7d02e05d8d4c214c65f4286e"
+        },
+        "icc": null,
+        "iptc": null,
+        "xmp": null
+      }
+    }
+  },
+  "saved_bytes_independently_confirmed": 380284,
+  "metadata_review": "Independently read actual bytes and Sharp metadata. All proposal hashes, byte counts, dimensions and embedded metadata hashes match. Current and candidate EXIF are identical. Original EXIF is absent; generated orientation 1 is equivalent to absent orientation. ICC, IPTC and XMP are absent in all three. Do not describe original-to-derivative EXIF as byte-identical.",
+  "decoded_current_vs_candidate": {
+    "method": "Sharp decoded RGB, alpha removed; all channels compared",
+    "channels": 8239104,
+    "changed_channels": 6411843,
+    "maximum_absolute_channel_difference": 29,
+    "mean_absolute_channel_difference": 1.9165371622933756,
+    "pixel_identity_claim": false
+  },
+  "visual_review": {
+    "actual_files_viewed": [
+      "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg",
+      "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q95.jpg",
+      "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q90.jpg"
+    ],
+    "assessment": "Viewed each actual full frame. Complete borders, figures, faces, jewellery, clothing patterns, birds and foliage remain readable in the q90 candidate. No conspicuous blocking, framing loss or colour shift at the displayed scale. This is visual editorial suitability, not archival or pixel equivalence.",
+    "limits": "Tool image presentation at its displayed scale, not physical-device/browser testing or exhaustive magnified inspection."
+  },
+  "credit_and_delivery_boundary": "Inspected existing exact-path optimizer entry and source manuscript credit. Retain The Metropolitan Museum of Art, Gift of Steven Kossak, The Kronos Collections, 2020, 2020.383; public domain; linked museum record; and existing full-frame resize/compression alteration sentence. Existing optimizer reads the package output only, checks unique source/credit phrase and matching OG image/dimensions before mutation, and keeps the repository source. No new caption or OG geometry change is required relative to current delivered geometry.",
+  "preflight_continuity": {
+    "protected_files_verified": 141,
+    "protected_mismatches": 0,
+    "chakulia_photo": "Personally re-viewed actual original JPEG and 1200-pixel WebP this publication turn. Complete figure, umbrella, vessel and building retained; bright original exposure remains, no derivative quality blocker. Existing credited CC BY-SA 4.0 evidence and identity limits reused without claiming fresh rights research.",
+    "foreign_operations_fields": "current_task, handoff_home and current_preparation matched the publication baseline during preflight."
+  },
+  "remaining_gates": [
+    "Review actual one-entry optimizer/test implementation and preserve all other settings.",
+    "Measure complete package with new article, incoming cards and responsive images.",
+    "Required exact-head hosted capacity gate and subsequent live delivery review remain pending."
+  ],
+  "reviewed_sha256": {
+    "outputs/chakulia-panda-publication-2026-11-27/capacity/proposal.json": "0a64de5cb6b6c0f01d42f5f6bef7f085f8daf9b5b6a46ae0a7785133637d556c",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0fb0a4c5c71f25c6408db6f195e27d0f5815af594c2b33a4be0b7bb9a9907b75",
+    "projects/site/src/pages/literature/champu-and-sakhi.astro": "dbcf25af010a13b793a4ab083ff5f315427a0f0a66bfc727cf56ead2f042612b",
+    "kb/research/culture/champu-and-sakhi.md": "9ed05b2cc09acbc1cfb76c8411e48354dcb90c4e5fe7656cfb2d27c00db8a10f",
+    "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+    "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q95.jpg": "eecc136c4e8f2e40ed221abe260c810c5c4f78b5cf981fafb8f2046d3ec003bf",
+    "outputs/chakulia-panda-publication-2026-11-27/capacity/radha-confidante-2048-q90.jpg": "269c3345182b7e2565a91f5a474455e50a95161a93dc0bf3291a41737ede2b9d"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "status": "release_candidate",
+  "article_id": "POD-EDIT-CHAKULIA-PANDA-20261127",
+  "route": "/sounds-of-odisha/chakulia-panda/",
+  "title": "Chakulia Panda: Verse at the Doorstep",
+  "owner": "Disha",
+  "started_on": "2026-11-27",
+  "authorization": "POD-DEC-20261127410",
+  "work_id": "POD-WORK-20261127410",
+  "authorization_quote": "Has Gupteswar\u2019s final record merged and the slot returned now? If so, publish Chakulia Panda with the credited photograph, relevant article links, and mobile and desktop layout checks.",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "3db513ae9d2caca01f8e8450ce95a8f7b22f1a3b",
+  "prior_handoff": {
+    "receipt": "records/gupteswar-publication-20261127.json",
+    "receipt_pr": 911,
+    "receipt_merge": "3db513ae9d2caca01f8e8450ce95a8f7b22f1a3b",
+    "required_ci": 45930880550,
+    "result": "SUCCESS",
+    "explicit_return_received": true
+  },
+  "foreign_ownership": {
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-133",
+      "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+      "scope_released": false
+    },
+    "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json",
+    "current_preparation": {
+      "id": "POD-EDIT-CHAKULIA-PANDA-20261127",
+      "owner": "Disha",
+      "phase": "preparation",
+      "handoff": "records/antaranga-after-devagiri-preparation-20261127.json",
+      "scope_released": true,
+      "status": "prepared_reviewed",
+      "topic": "Chakulia Panda: Verse at the Doorstep",
+      "release_condition": "Effective after separately reviewed local preparation commit and explicit return to coordinating hill chat."
+    }
+  },
+  "protected_preparation": {
+    "manifest": "outputs/gupteswar-publication-2026-11-27/protected-preparation.json",
+    "count": 141,
+    "checked_exact": true
+  },
+  "assignments": {
+    "Anvesha": {
+      "scope": [
+        "outputs/chakulia-panda-publication-2026-11-27/research/"
+      ],
+      "task": "Reuse prepared source evidence; review public prose, notes, credit, metadata and incoming-copy budgets; no new article or shared edits.",
+      "status": "source_review_pass"
+    },
+    "Samanta": {
+      "scope": [
+        "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro",
+        "projects/site/src/pages/sounds-of-odisha/pala.astro",
+        "projects/site/src/pages/sounds-of-odisha/daskathia.astro",
+        "projects/site/src/pages/literature/index.astro",
+        "projects/site/public/images/chakulia-panda/",
+        "projects/site route/media/discovery/edition registrations required only for this article",
+        "outputs/chakulia-panda-publication-2026-11-27/implementation/"
+      ],
+      "task": "Integrate reviewed narrative, credited full-frame photo, sharing and incoming previews; no shared records or Git/publication. Report exact paths.",
+      "status": "implementation_complete"
+    },
+    "Drishti": {
+      "scope": [
+        "outputs/chakulia-panda-publication-2026-11-27/review/"
+      ],
+      "task": "Separate source/media/capacity and integrated/rendered/delivery review on assigned candidates. No implementation/shared records.",
+      "status": "local_and_combined_reviews_pass_exact_head_pending"
+    }
+  },
+  "capacity": {
+    "latest_receipt_bytes": 999844384,
+    "files": 3811,
+    "headroom_bytes": 155616,
+    "status": "q86_existing_radha_delivery_reviewed",
+    "proposal": "outputs/chakulia-panda-publication-2026-11-27/capacity/proposal-q86.json",
+    "savings_bytes": 546637,
+    "actual_hosted_capacity_pending": true,
+    "separate_review": "outputs/chakulia-panda-publication-2026-11-27/review/capacity-review-q86.json",
+    "bounded_change": "Only existing Radha-confidante delivery JPEG quality95 to86; full frame,2048x1341 geometry,original and credits retained. Lossy pixels explicitly measured."
+  },
+  "next_action": "Complete separate combined review and exact committed review; require hosted CI before merge, then authorized deployment, live review and reviewed receipt merge.",
+  "local_checks": {
+    "status": "historical_failed_run_retained",
+    "results": "outputs/chakulia-panda-publication-2026-11-27/build-results-before-bahuda.json",
+    "history": "outputs/chakulia-panda-publication-2026-11-27/check-history.json"
+  },
+  "research": {
+    "manuscript": "kb/research/culture/chakulia-panda.md",
+    "source_dossier": "kb/research/culture/chakulia-panda-sources.json",
+    "final_source_audit": "outputs/chakulia-panda-publication-2026-11-27/research/final-source-audit.json"
+  },
+  "media": {
+    "record": "kb/research/culture/chakulia-panda-image.json",
+    "source": "Aditya Mahar, CC BY-SA 4.0, 15 November 2015",
+    "public_image": "/images/chakulia-panda/chakulia-panda-1200.webp"
+  },
+  "implementation": {
+    "report": "outputs/chakulia-panda-publication-2026-11-27/implementation/implementation.json",
+    "contract": "outputs/chakulia-panda-publication-2026-11-27/implementation/contract.json",
+    "static_review": "outputs/chakulia-panda-publication-2026-11-27/review/static-review.json",
+    "incoming_routes": [
+      "/sounds-of-odisha/pala/",
+      "/sounds-of-odisha/daskathia/",
+      "/literature/"
+    ]
+  },
+  "rendered_review": {
+    "root": "outputs/chakulia-panda-publication-2026-11-27/local/browser-review.json",
+    "separate": "outputs/chakulia-panda-publication-2026-11-27/review/rendered-review.json",
+    "captures": 13,
+    "limits": "12 meaningful viewport captures and one retained transitional note capture; desktop photo crop is viewport framing only. Full mobile photo and all six incoming previews inspected. Packaged article and images exact to local verification; incoming913 continuity requires separate review."
+  },
+  "reconciliation": {
+    "incoming_main": "3ed7a967d",
+    "merge": "70d1f6dbf2b1ad54c37774c5dfa0657d2dea3986",
+    "review": "outputs/chakulia-panda-publication-2026-11-27/review/reconciliation-review.json",
+    "summary": "Preserved Bahuda PR912; actual shared unions and regenerated views, full page count215.",
+    "manikapatna": {
+      "incoming": "a03265e4787472d93f14028bb9f0290dd97e1794",
+      "plan": "outputs/chakulia-panda-publication-2026-11-27/implementation/manikapatna-reconciliation-plan.json",
+      "contract": "outputs/chakulia-panda-publication-2026-11-27/combined-source-contract.json",
+      "status": "separate_reconciliation_pass",
+      "validation": "Existing article/card/style/photo unchanged. Localpackagepre913; combined hosted checks and current capacity plus targeted live newroute/notes/hold required.",
+      "review": "outputs/chakulia-panda-publication-2026-11-27/review/manikapatna-reconciliation-review.json"
+    }
+  },
+  "check_history": "outputs/chakulia-panda-publication-2026-11-27/check-history.json",
+  "web_guidance": "outputs/chakulia-panda-publication-2026-11-27/web-guidance.md",
+  "local_validation": {
+    "status": "PASS_pre913",
+    "stages": 13,
+    "artifact_checks": 375,
+    "payload_bytes": 999093804,
+    "files": 3817,
+    "remaining_bytes": 906196,
+    "results": "outputs/chakulia-panda-publication-2026-11-27/build-results.json",
+    "artifact_report": "outputs/chakulia-panda-publication-2026-11-27/local-verification.json",
+    "scope": "Built70d1f6dbf includingBahuda912, before incomingManikapatna913. Final combined hosted checks and actual Linux capacity required.",
+    "full_tests": 853,
+    "coastal_tests": 605,
+    "page_checks": 5692,
+    "separate_package_review": "outputs/chakulia-panda-publication-2026-11-27/review/package-review.json"
+  }
+}

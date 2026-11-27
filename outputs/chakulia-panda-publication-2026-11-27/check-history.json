@@ -1,0 +1,28 @@
+[
+  {
+    "stage": "early_bundle_check_during_integration",
+    "result": "FAIL",
+    "reason": "Portable public website route inventory stale while route registration being added.",
+    "resolution": "Derived route list regenerated from current coastal scope; final check still required."
+  },
+  {
+    "stage": "jpeg_regression_launch",
+    "result": "not_run",
+    "reason": "Initial log redirection used site-relative path from root; no test executed.",
+    "resolution": "Relaunched with correct site working directory."
+  },
+  {
+    "stage": "full-build_initial",
+    "result": "FAIL",
+    "reason": "EPERM unlink on Vite dependency cache during initial build; no source validation failed.",
+    "resolution": "Retry same frozen inputs with access to existing dependency cache.",
+    "evidence": "checks/full-build-initial-cache-permission.log"
+  },
+  {
+    "stage": "coast-tests",
+    "result": "FAIL",
+    "evidence": "checks/coast-tests.log",
+    "reason": "Two overbroad selectors treated independent reading navigation as narrative/cropped cinema. Separate targeted correction retains prior content contracts; eight focused tests pass.",
+    "resolution": "implementation/coast-failure-resolution.json"
+  }
+]
