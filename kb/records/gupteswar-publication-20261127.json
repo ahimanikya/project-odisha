@@ -258,7 +258,15 @@
     "plan": "outputs/gupteswar-publication-2026-11-27/release/incoming908-plan.json",
     "public_source_diff_against_incoming_main": false,
     "capacity": "Current combined receipt capacity requires its own hosted check; original Gupteswar deployment remains 999840641 bytes / 3810 files.",
-    "evidence": "outputs/gupteswar-publication-2026-11-27/release/receipt-reconciliation908.json"
+    "evidence": "outputs/gupteswar-publication-2026-11-27/release/receipt-reconciliation908.json",
+    "subsequent_incoming": {
+      "pr": 910,
+      "merge": "3af86cda87fa020841b9f944e57d38da4620dae6",
+      "required_ci": 45927079867,
+      "result": "SUCCESS",
+      "evidence": "outputs/gupteswar-publication-2026-11-27/release/receipt-reconciliation910.json",
+      "public_source_diff_against_incoming_main": false
+    }
   },
   "runtime_limits": {
     "copying": "Two strict copier attempts stopped on tmp wheel-group inheritance before creating destination copies. Retried native clone-aware copies in a matching-group temporary directory, then renamed independent copies into evidence paths; hashes and metadata preserved, originals untouched, no hard links or full-copy fallback.",

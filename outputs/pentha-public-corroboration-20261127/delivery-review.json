@@ -1,0 +1,54 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-27T01:32:17.953923+00:00",
+  "receipt_base_head": "7787885473279ed888058ea29cfb3cc6bb265112",
+  "verdict": "PASS_DELIVERY_RECORD_WITH_PRESERVED_CAG_LIMIT",
+  "scope": "Closing evidence/record review only, no network recheck, Git or shared mutations.",
+  "delivery_evidence": {
+    "publication_run": 45919123289,
+    "published_commit": "7787885473279ed888058ea29cfb3cc6bb265112",
+    "build_and_deploy": "Success consistently recorded by root in delivery.json and publication-progress.json; no fresh workflow query or independent raw-log inspection in this bounded review.",
+    "fresh_live_page_and_public_news_source": "Root anonymous verified-TLS GET reports HTTP200 for both; source payload hash exactly matches this reviewer’s earlier independent anonymous retrieval.",
+    "note_checks": "New public source, both figures, source separation, CAG attribution/sign-in caveat, three notes and return link all present in fresh delivery record.",
+    "screenshots_independently_viewed": [
+      "live-note-mobile.jpg",
+      "live-note-desktop.jpg"
+    ],
+    "full_note_readable_at_390_and_1280": true,
+    "recorded_no_horizontal_overflow": true,
+    "recorded_footnote_roundtrip_pass": true
+  },
+  "preservation": {
+    "reviewed_source_hashes_unchanged": true,
+    "tracked_closing_changes_only_own_record_and_three_register_files": true,
+    "foreign_record_objects_preserved": true,
+    "own_record_ids_changed": [
+      "POD-WORK-20261127005",
+      "POD-REV-20261127005",
+      "POD-REL-20261127005"
+    ],
+    "historical_activity_exact_prefix_preserved": true,
+    "one_completion_event_appended": "POD-EVT-20261127006",
+    "no_article_image_template_source_register_changes": true,
+    "private_old_raw_headers_untracked_unstaged": true,
+    "zero_programme_credit": true,
+    "canonical_live_evidence_paths_resolve": true
+  },
+  "findings": [],
+  "remaining_limit": "Original CAG audit still requires publisher sign-in. Public news corroborates historical675-to505metre revision, not the Phailin explanation or audit-specific findings. This is accurately retained in live note and canonical record.",
+  "scope_qualification": "Completes the authorized public-corroboration update; does not claim recovery of the exact public CAG report. Root retains closing receipt locally without a new site deployment.",
+  "evidence_sha256": {
+    "delivery.json": "d07ac9b7fe83944e6825f1234034f9c305fd83d7b4d8a239005ff24fd24de0bc",
+    "live-http.json": "c8d9dde9cedba82c4d8e1403db8c3889e1cf71d6ca72ba65a6f05aab2f677718",
+    "browser-live.json": "774cbe2532aac0ea1dc9497bac6a6d73f3b1b7eca672b6cc76b4a0c782686b6a",
+    "live-note-mobile.jpg": "0bbd204779adb990cf066f4fbd49e9e6049e38eb9096d83a0d1f4b1b07bb3bdd",
+    "live-note-desktop.jpg": "2a21b5dc83a14fbaf7a5d6e7a57dca0b92d50038c436920bb4c2314f440fec68",
+    "publication-progress.json": "2f5b7eeec694ecc00fa5f5c9c765ec84f5afc670a85ca44fe1376b9230fa6871"
+  },
+  "reviewed_metadata_sha256": {
+    "kb/records/pentha-public-corroboration-20261127.json": "015dccc8722c462306509da558bd48791943788ddfd9bf809eb4cd2e60842db9",
+    "kb/registers/DASHBOARD.md": "a1742185ea638b988b3ee4462caa9d2ff2f729f634750da63e7cd24f0a24aaa1",
+    "kb/registers/activity.jsonl": "e034ce8a52099406dc6b9e38c78f7327c7514e99075956aa0f9b07232c0c30e4",
+    "kb/registers/records.json": "913c076c5977574a5f3f6257037a37e2ebc9d2459a10019c14da8ebc333766df"
+  }
+}

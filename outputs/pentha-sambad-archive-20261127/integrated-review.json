@@ -1,0 +1,66 @@
+{
+  "verdict": "PASS_BOUNDED_ARCHIVE_NOTE_INTEGRATION",
+  "reviewed_base_head": "35b50a5025cdbdf5e22a85059e6fd298133e57bd",
+  "reviewed_scope": "Current working-tree archive addition; prior public-corroboration receipt remains part of base. Independent source review was completed separately. No fresh network/build/CUA claims.",
+  "findings": [],
+  "checks": {
+    "pentha_single_exact_insertion_only": true,
+    "all_27_narrative_bodies_preserved": true,
+    "other_26_manuscripts_byte_identical": true,
+    "frontmatter_other_notes_images_manifest_preserved": true,
+    "source_register_append_only": true,
+    "foreign_register_objects_preserved": true,
+    "new_record_ids": [
+      "POD-WORK-20261127007",
+      "POD-DEC-20261127007"
+    ],
+    "activity_exact_historical_prefix_preserved": true,
+    "new_event": "POD-EVT-20261127007",
+    "search_index_changed_entries": [
+      "stories/independent-features/nature/pentha",
+      "stories/independent-features/source-register"
+    ],
+    "workbench_only_current_search_digest_changed": true,
+    "website_code_and_media_unchanged": true,
+    "private_five_raw_headers_untracked": true,
+    "diff_check": "pass"
+  },
+  "source_identity": "Existing 15 October 2019 capture at former Odisha Sun Times publisher address of the same 12 April 2015 news report. Capture provenance and figures independently verified in research-review.json. It is not an archive of CAG.",
+  "attribution_scope": "Current news link, CAG sign-in caveat, audit attribution, Phailin distinction and IIT engineering context all retained verbatim. No creator text or images introduced.",
+  "visual_review": {
+    "independently_viewed": [
+      "local-note-desktop.jpg",
+      "local-note-mobile.jpg"
+    ],
+    "scope": "Both actual local screenshots show the complete revised note 2, readable wrapping and dated archive link without visible clipping. This reviewer did not operate browser.",
+    "coordinator_browser_evidence": "browser-local.json records widths 1280/390, matching scroll widths and successful footnote round trip."
+  },
+  "record_truthfulness": "Canonical status review_in_progress and publication pending accurately describe this stage; programme_credit is zero. Local checks in local-checks.json are coordinator-reported, not rerun here except diff-check and preservation checks.",
+  "limits": [
+    "Required hosted checks, commit confirmation, publication and live verification remain pending.",
+    "Review is independent AI quality review, not human or specialist review."
+  ],
+  "reviewed_hashes": {
+    "kb/research/stories/independent-features/nature/pentha.md": "3cd7cae3e37130fd0cd77c04edf5b3ae506c8349d41afdcbc2a37dba3578b56e",
+    "kb/research/stories/independent-features/source-register.md": "fe002fdff2731b390e3cb803cf9aae08745248a8275c90155b3833fcb68f5b41",
+    "kb/research/stories/independent-features/images.json": "d135222aed2f427b4ac41e59225d342ee6922d40205f83874e5a7fdfc569c485"
+  },
+  "tracked_changed_paths": [
+    "kb/records/editorial-workbench.json",
+    "kb/registers/DASHBOARD.md",
+    "kb/registers/activity.jsonl",
+    "kb/registers/records.json",
+    "kb/research/search-index.json",
+    "kb/research/stories/independent-features/nature/pentha.md",
+    "kb/research/stories/independent-features/source-register.md"
+  ],
+  "evidence_sha256": {
+    "research.json": "7031a4ba52cd1d73c55c3e8ce6cbbfbf79f95e981473551afc9ca8386e6a34ee",
+    "research-review.json": "ec4f38fd13db92255094bc5548ec6a7d4e97df7c6b9992f09b9f7c954395f743",
+    "implementation.json": "768f478b5e7768a1e17f600e1aa0154bf92111b80ded6bbaf0673e39244721b7",
+    "browser-local.json": "735e03c12a0744cd59965a446937cc2587193c99ed61a357d756285a828ca44a",
+    "local-note-desktop.jpg": "690c0b5e29d9920e2e05003c19f511939c4b029de16d5b490ab71e5aaa95cb65",
+    "local-note-mobile.jpg": "db63612307e3d346c3fe4106293b486c0a7bd5057d428b2a983e297e873a8bcd",
+    "local-checks.json": "cfa68f50eb1fc4dc93817e90325b7487eb7ba3f34da432d360e3039743f2094f"
+  }
+}

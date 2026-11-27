@@ -1,0 +1,67 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-27T00:16:19.902992+00:00",
+  "reviewed_head": "6b0ab1cd5812583adc7a4acec1a4eec949c26078",
+  "parents": [
+    "6040c658874e5d7c84bf2eebe82419655e05d7ad",
+    "c7f597b5b9f9348ea3ae39bd5c45b26f970ecee1"
+  ],
+  "verdict": "PASS_INTEGRATED_EXACT_MERGED_HEAD",
+  "reconciliation": {
+    "own_paths": 19,
+    "incoming_paths": 86,
+    "shared_paths": [
+      "kb/registers/DASHBOARD.md",
+      "kb/registers/activity.jsonl",
+      "kb/registers/records.json"
+    ],
+    "all_nonshared_parent_files_byte_identical": true,
+    "foreign_register_objects_preserved": true,
+    "only_own_three_record_ids_added": [
+      "POD-DEC-20261127005",
+      "POD-REV-20261127005",
+      "POD-WORK-20261127005"
+    ],
+    "all_parent_event_lines_byte_exact_retained": true,
+    "ledger_note": "Incoming Devagiri event is inserted in existing ordering; no whole-file historical prefix claim. Every event line from both parents is retained byte-exact."
+  },
+  "source_checks": {
+    "reviewed_source_hashes_match_commit": true,
+    "all27_narratives_unchanged": true,
+    "images_and_collection_preserved": true,
+    "search_index_only_two_expected_bodies_changed": true,
+    "workbench_only_correct_search_digest_changed": true,
+    "no_own_site_asset_or_template_changes": true,
+    "canonical_publication_pending_zero_programme_credit": true
+  },
+  "visual_review": {
+    "screenshots": [
+      "local-note-mobile.jpg",
+      "local-note-desktop.jpg"
+    ],
+    "widths": [
+      390,
+      1280
+    ],
+    "desktop_complete_note_readable": true,
+    "mobile_scope": "Visible portion is readable and fits width; viewport ends during engineering citation. Full note is in recorded DOM and desktop capture.",
+    "recorded_no_horizontal_overflow": true,
+    "recorded_roundtrip_pass": true
+  },
+  "findings": [],
+  "limits": [
+    "Hosted CI and publication pending.",
+    "Public exact CAG copy remains unresolved; public news corroborates lengths only.",
+    "Review file is not included in reviewed commit."
+  ],
+  "source_hashes": {
+    "kb/research/stories/independent-features/nature/pentha.md": "4928ed9e61f9e9497c3b06798f333c193b99cf4ca414db480a408da51dcc142e",
+    "kb/research/stories/independent-features/source-register.md": "c3eb703a66c638c82e93375123875e58da9bc1f119752ccc1887f451ba465707"
+  },
+  "evidence_sha256": {
+    "review.json": "38cec9fe85e76a95efd207bb357b12ba27a50ac31f152c2efc62db69b0dafcf9",
+    "browser-local.json": "079018c386e9861b249700f80983d06006bb3ab1ddd1846ada78d2c30cb36fd1",
+    "local-note-mobile.jpg": "94863b6086bb74f4e2d99ca96263c393c003767a5dead3c71668c3af490fad83",
+    "local-note-desktop.jpg": "c9c20b708357d2cf9382a8296da653f101a3badc834241979574198418d01e92"
+  }
+}
