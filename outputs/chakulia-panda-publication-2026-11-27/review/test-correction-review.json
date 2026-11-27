@@ -1,0 +1,25 @@
+{
+  "status": "PASS_BOUNDED_TEST_CORRECTIONS",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T18:38:08.601033+00:00",
+  "findings": [],
+  "checks": [
+    "Read complete current test files and exact diff against HEAD.",
+    "Confirmed resolution report hashes match both current test files, preserved initial failure log and targeted success log.",
+    "Read targeted test output: eight passed, zero failed. This run was performed by implementation owner, not independently rerun by reviewer."
+  ],
+  "cinema_contract": "All existing cinema figure geometry, source association, configured frame and cropped preview checks remain. Literature no longer has a whole-page ban on contain-images: exactly one separately identified Chakulia documentary reading section must use it and contain the exact route and image. Every other Literature reading-path section retains the no-contain assertion. This is a scoped exception reflecting the authorized full-frame photograph.",
+  "narrative_contract": "Navigation sections marked article-reading-path are excluded from narrative-section enumeration. Exact narrative data hash, source IDs, section count, paragraph inclusion, numbered source links, locator/limits and robots assertions remain. Daskathia additionally requires exactly one navigation card with exact route/image and complete linked creator/licence/alteration credit. No meaningful narrative or citation check was removed.",
+  "limits": [
+    "Selectors remain regex-based as before; this is a bounded correction, not a complete DOM parser or browser test.",
+    "No public-source mutation in these two test diffs. No complete suite/package/hosted success inferred from the targeted run."
+  ],
+  "reviewed_sha256": {
+    "projects/site/tests-coast/cinema-image-sizing.test.mjs": "f60a0ee935fe791d2e861945aa223db670a4f272bef85d8c98132eef43c90b76",
+    "projects/site/tests-coast/core-sound-source-links.test.mjs": "8938a0c98f51bd0e20db7109f0be0548f0e387506b1844944ad0ef7ecbf8def8",
+    "outputs/chakulia-panda-publication-2026-11-27/implementation/coast-failure-resolution.json": "8b987cc759395bf155c5141ad2855680ddbb3eac5a78f611a4c3ad5c37665740",
+    "outputs/chakulia-panda-publication-2026-11-27/checks/coast-tests.log": "ec543615a7b50d6dbdc2dcd3ebe818803977c40ce138b2ec573f63f098aa3c34",
+    "outputs/chakulia-panda-publication-2026-11-27/implementation/coast-targeted-test.log": "1296f8907db0de0b6ebbab735085c3335ea7c320d9692e4cd6b8e43bb7b49a06"
+  },
+  "head_observed": "12b7fcb9b1bc6205da0d1a361d613bf0374ebb4d"
+}
