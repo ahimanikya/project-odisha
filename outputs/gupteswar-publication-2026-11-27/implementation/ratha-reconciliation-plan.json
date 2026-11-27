@@ -1,0 +1,128 @@
+{
+  "status": "read_only_reconciliation_analysis_complete",
+  "refs": {
+    "common_base": "778788547",
+    "gupteswar_candidate": "dd17ee633",
+    "incoming_ratha_merge": "edd54a121"
+  },
+  "incoming_paths": [
+    "kb/catalog.json",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "kb/research/culture/ratha-yatra.md",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/pages/stories/ratha-yatra.astro",
+    "projects/site/src/pages/stories/snana-purnima.astro",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+    "projects/site/tests-coast/discovery-flow.test.mjs",
+    "projects/site/tests-coast/edition.test.mjs",
+    "projects/site/tests/build.test.mjs",
+    "projects/site/tests/shared-reading-styles.test.mjs",
+    "projects/site/tools/shared-reading-styles.mjs"
+  ],
+  "preservation": {
+    "incoming_exact": {
+      "projects/site/src/data/discovery.ts": "e4f755f6491fd66248babe08b32151d19fa0cf00ed2ffb83a586271bbc5cfa87",
+      "projects/site/src/pages/stories/ratha-yatra.astro": "6faa230e7fbcf7477ebbbf7fff6c973d265132d85225b133d40d6a7febc8fa13",
+      "projects/site/src/pages/stories/snana-purnima.astro": "631969b8bf3a66326573ff05d9f4ad4103d61fa3c420036a33bc810d1948da88",
+      "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "f87b6c3c9fb7395275a4a7a1c8dc5fa7e57897907028fe04fee0e2c2fa382c6f",
+      "projects/site/tests/shared-reading-styles.test.mjs": "17b9f38f52026298e109710226110eaea93f08697ac2f62c2e41c1acfd9b74bb",
+      "projects/site/tools/shared-reading-styles.mjs": "56d4d55657516678340c3f524350e263e4af6720a60f542c4ce145788fc95e13",
+      "kb/research/culture/ratha-yatra.md": "c27ca7c20f89159c55aeb037f83974f20ccf538f7b4ba5f9cc8b675f16afb4d5"
+    },
+    "gupteswar_inputs_exact_vs_candidate": {
+      "kb/research/places/gupteswar-article.md": "6e5d9d7cc60baa8b80bb0a233e6d947115a1368531524b508ba9fa1fadd34663",
+      "kb/research/places/gupteswar-image.json": "feff303147ca3375f0dcc2736c8d31679ea5e5f18b1346812b3c4b34f8c35adb",
+      "projects/site/src/pages/destinations/gupteswar.astro": "d70f20c33f4e8f035e6ae794d6be4bff112281c8891815da6ef92d1281c629a8",
+      "projects/site/src/data/hill-destinations.ts": "4e68adb4730ab03889d09dd66dc3c6b9f24b2b6cf40dd5d03c4d605ba5f6b485",
+      "projects/site/public/images/destinations/gupteswar-lingam-indopaedia.webp": "13ae25c81e776ef090cd659d9cac5bf8456331dbb81a0507b8759a4e7d599c41",
+      "projects/site/tools/optimize-publication-jpeg.mjs": "0fb0a4c5c71f25c6408db6f195e27d0f5815af594c2b33a4be0b7bb9a9907b75",
+      "projects/site/editions/responsive-images.json": "5e2a43846bff3853efbc843261c7b808eab10279f2196ca872a4a18e36eee435"
+    }
+  },
+  "union": {
+    "coast_routes": 1420,
+    "search_entries": 1420,
+    "both_unique": true,
+    "both_new_routes_search_hold": true,
+    "full_fixed_addend": 212,
+    "coast_fixed_addend": 188,
+    "actual_root_reconciliation_checked": true,
+    "responsive_image_and_PNG_JPEG_allowlists": "PR906 adds no image or optimizer entry; preserve existing Gupteswar responsive source, Hindola q90, and prior Paradip PNG changes."
+  },
+  "css_change": {
+    "pipeline": "build-publication.mjs after journey-data sharing, before Dhaga-style sharing; full/coast output not mutated.",
+    "eligibility": "Existing reading-room paths still minimum4096B; stories/<slug>/index.html with exact series-header substring minimum1024B. Other paths ineligible.",
+    "safety": "Only duplicate exact head style blocks without attributes/URLs/imports/charset/escapes; content hash asset; position/order preserved by replacement. Body styles remain inline.",
+    "gupteswar": "destinations/gupteswar/index.html is ineligible; actual pre906 coastal HTML remains byte-identical after incoming transform.",
+    "scope_risk": "Marker is literal HTML substring and serializer-dependent; benign formatting changes can skip optimization. Current candidate matches12existingfestival pages, measured below. Verify actual fresh output and capacity; do not assume count/savings."
+  },
+  "in_memory_measurement": {
+    "scope": "Existing pre906/pre907 dist-coast1419pages; no output written/no fresh combined build.",
+    "old_stats": {
+      "sharedStyles": 1,
+      "replacedBlocks": 169,
+      "changedPages": 169,
+      "savedBytes": 1072574
+    },
+    "new_stats": {
+      "sharedStyles": 3,
+      "replacedBlocks": 193,
+      "changedPages": 181,
+      "savedBytes": 1105604
+    },
+    "incremental_saved_bytes": 33030,
+    "exact_CSS_reinsertion_roundtrips": 1419,
+    "gupteswar_sha256": "e91cc519c5f7c5f1e0011d06e1b71d8392f26c7ba17125c2ee4c50c7ee7e4f52",
+    "changed_existing_slugs": [
+      "chitau-amavasya",
+      "gamha-purnima",
+      "puspuni",
+      "makar-sankranti",
+      "agira-purnima",
+      "dola-purnima",
+      "pana-sankranti",
+      "baisakha-brata",
+      "chandan-yatra",
+      "snana-purnima",
+      "garbhana-sankranti",
+      "akhi-muthi-anukula"
+    ],
+    "new_css": [
+      {
+        "sha256": "0c13bb31666646ca03617a37bef3e002cfb701ee810c491d7a8a81a714ed6d03",
+        "bytes": 1994
+      },
+      {
+        "sha256": "e60ee5ef5c6dc23cabdc3a38b47dde84923d79070fd109b1b548622328f113e9",
+        "bytes": 1240
+      }
+    ],
+    "probe_correction": "Initial read-only probe appended index.html to404.html and stoppedENOENT; rerun correctly preserved explicit .html routes. No artifacts changed."
+  },
+  "historical_evidence": {
+    "stages": 13,
+    "all_exit_zero": true,
+    "local_checks_passed": 421,
+    "label": "Pre906/pre907 local pipeline and package; do not relabel as exact combined head. Existing checked artifacts remain historical."
+  },
+  "required_validation": [
+    "Rebind frozen inputs to actual combined head, adding shared-reading-styles.mjs/test and Ratha source/page/related pages/discovery; do not overwrite old evidence.",
+    "Run targeted shared-reading-styles regression plus exact reinsertion comparison on every fresh transformed page; confirm Gupteswar HTML unchanged by CSS step.",
+    "Run complete hosted13-stage exact-combined-head pipeline including full/coast tests/disclosures/audits/publication and strict1e9-byte gate; use actualfreshpackage count.",
+    "Verify Ratha route/native sources/related links and Gupteswar notes/images/three previews; inspect representative Ratha/Snana and Gupteswar desktop/mobile after shared-CSS delivery.",
+    "Fresh live checks after actual combined deployment: Gupteswar hubs/photo variants/Hindola, Pentha corrected note, Ratha+incoming links and actual new stylesheet HTTP200/bytes/hash; no unknown HTML substitution.",
+    "Recheck141protected files,3foreign fields and actual Chakulia/Kaincha manuscript/media/capture exclusion."
+  ],
+  "pr908": {
+    "status": "Not included or assumed merged. Optional gh pr view failed connecting to api.github.com; no network escalation/retry or speculative branch inclusion.",
+    "action": "If actually merged before publication, inspect exactdiff and rebind/revalidate affected combined sources."
+  },
+  "write_scope": [
+    "outputs/gupteswar-publication-2026-11-27/implementation/ratha-reconciliation-plan.json"
+  ]
+}

@@ -14,6 +14,7 @@ import saptasajyaImage from '../../../../kb/research/destinations/saptasajya-ima
 import malayagiriImage from '../../../../kb/research/destinations/malayagiri-image.json';
 import gonasikaImage from '../../../../kb/research/destinations/gonasika-image.json';
 import devagiriImage from '../../../../kb/research/places/devagiri-image.json';
+import gupteswarImage from '../../../../kb/research/places/gupteswar-image.json';
 import mahavinayakImage from '../../../../kb/research/places/mahavinayak-image.json';
 import olasuniImage from '../../../../kb/research/places/olasuni-image.json';
 import baruneiImage from '../../../../kb/research/places/barunei-image.json';
@@ -220,4 +221,14 @@ export const devagiriGuide = {
  aliases: [],
 };
 
-export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide,olasuniGuide,mahavinayakGuide,devagiriGuide].filter(guide => allowsPage(guide.href));
+export const gupteswarGuide = {
+ title: 'Gupteswar',
+ odia: '',
+ summary: 'A forest pilgrimage where a cave shrine shares space with wildlife.',
+ href: '/destinations/gupteswar/',
+ photo: gupteswarImage,
+ regions: ['Koraput'],
+ aliases: [],
+};
+
+export const hillDestinationGuides = [deomaliGuide,daringbadiGuide,putsilGuide,mandasaruGuide,mahendragiriGuide,taptapaniGuide,jirangChandragiriGuide,panchalingeswarGuide,kapilashGuide,gandhamardanGuide,belgharTumudibandhaGuide,kalingaGhatiGuide,tensaGuide,saptasajyaGuide,malayagiriGuide,gonasikaGuide,baruneiGuide,olasuniGuide,mahavinayakGuide,devagiriGuide,gupteswarGuide].filter(guide => allowsPage(guide.href));

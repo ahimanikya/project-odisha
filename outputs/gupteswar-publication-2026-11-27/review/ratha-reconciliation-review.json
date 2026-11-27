@@ -1,0 +1,171 @@
+{
+  "result": "pass_for_bounded_reconciliation",
+  "scope": "Incoming Ratha PR906 preservation, shared-input union and CSS-effect review only. No final combined artifact, hosted result or live acceptance.",
+  "reviewer": "Drishti (AI reviewer)",
+  "review_date": "2026-11-27",
+  "refs": {
+    "base": "7787885473279ed888058ea29cfb3cc6bb265112",
+    "ours": "dd17ee63375addfc091a1de94a1cab76a09e2da1",
+    "incoming": "edd54a121262581f2965807d321ecad867b74d7f",
+    "head": "844444594b0a66d9ec45588f115ed2462aa1f47a"
+  },
+  "tree": "6673940e7a66b049196632a39a096e2fc47cba54",
+  "incoming_paths": 17,
+  "incoming_nonshared_exact": {
+    "kb/research/culture/ratha-yatra.md": "c27ca7c20f89159c55aeb037f83974f20ccf538f7b4ba5f9cc8b675f16afb4d5",
+    "projects/site/src/data/discovery.ts": "e4f755f6491fd66248babe08b32151d19fa0cf00ed2ffb83a586271bbc5cfa87",
+    "projects/site/src/pages/stories/ratha-yatra.astro": "6faa230e7fbcf7477ebbbf7fff6c973d265132d85225b133d40d6a7febc8fa13",
+    "projects/site/src/pages/stories/snana-purnima.astro": "631969b8bf3a66326573ff05d9f4ad4103d61fa3c420036a33bc810d1948da88",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "f87b6c3c9fb7395275a4a7a1c8dc5fa7e57897907028fe04fee0e2c2fa382c6f",
+    "projects/site/tests/shared-reading-styles.test.mjs": "17b9f38f52026298e109710226110eaea93f08697ac2f62c2e41c1acfd9b74bb",
+    "projects/site/tools/shared-reading-styles.mjs": "56d4d55657516678340c3f524350e263e4af6720a60f542c4ce145788fc95e13"
+  },
+  "shared_paths": [
+    "kb/catalog.json",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests-coast/discovery-flow.test.mjs",
+    "projects/site/tests-coast/edition.test.mjs",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "union_checks": {
+    "kb/records/article-editorial-rollout.json": {
+      "exact_three_way_union": true,
+      "count": 1434,
+      "duplicates": 0
+    },
+    "projects/site/editions/search-candidate.json": {
+      "exact_three_way_union": true,
+      "count": 1420,
+      "duplicates": 0
+    },
+    "projects/site/editions/coast.json": {
+      "exact_route_union": true,
+      "count": 1420
+    },
+    "kb/reference/public-website-routes.json": {
+      "exact_route_union": true,
+      "count": 1420
+    },
+    "projects/site/tests/build.test.mjs": {
+      "sha256": "5b5f7ff6cb5b8b49a26f5237376add91147821a641396959364e8c7d77cabca4"
+    },
+    "projects/site/tests-coast/edition.test.mjs": {
+      "sha256": "7c54877527136b782e389f67dc05547c3ff7e7c3b38ebd2d6db755d66892db6a"
+    },
+    "projects/site/tests-coast/discovery-flow.test.mjs": {
+      "sha256": "d1295bdc5a79314980863df03c85d03aa656be5dd47607b9c61ae2ea305e04fb"
+    }
+  },
+  "counts": {
+    "coast_routes": 1420,
+    "portable_routes": 1420,
+    "search_entries": 1420,
+    "full_fixed_addend": 212,
+    "coastal_fixed_addend": 188,
+    "rollout_items": 1434,
+    "catalog": 1985
+  },
+  "generated_views": {
+    "catalog_exact_id_union": true,
+    "workbench_only_coast_digest_changed": true,
+    "work_list_all1434rows_retained": true,
+    "registers_and_raw_activity_unchanged_from_ours": true
+  },
+  "preservation": {
+    "protected_files": 141,
+    "foreign_fields": 3,
+    "historical_contract_unchanged_inputs": 21,
+    "historical_contract_expected_changes": {
+      "kb/reference/public-website-routes.json": {
+        "historical": "bc0f769f9c9baa52366f1639d7e6aeeb86487173ac426270330312048ec1b211",
+        "combined": "e446e6d0339d7cabfd168bec372e0c48e01256fa97a3833a16d0ffa7dfacd346"
+      },
+      "projects/site/editions/coast.json": {
+        "historical": "0719c11f760310dc214cdee4cdadf740e27209948c36398998abb21ca458cc2c",
+        "combined": "1704adff55f9ca85a2e57205a0557216d930809ba5a753b4918aa214f19945e8"
+      },
+      "projects/site/editions/search-candidate.json": {
+        "historical": "32d1344687dc0b34afa9afabc09c66511474ff2ab0af27681b4fa9e152dddd16",
+        "combined": "2fcc86b61069a5e244ae2d5ec8b7b98dbf87c333caa387af57c4bc0f28562681"
+      },
+      "projects/site/tests-coast/discovery-flow.test.mjs": {
+        "historical": "368b2d5a88467f8c5deb0a52b6bf46547e346e1209b1c53338206cb87f59ea61",
+        "combined": "d1295bdc5a79314980863df03c85d03aa656be5dd47607b9c61ae2ea305e04fb"
+      },
+      "projects/site/tests-coast/edition.test.mjs": {
+        "historical": "ce0869a0588d4baa4aa71abd960f26be9871b8393c85687078c6767152ee7111",
+        "combined": "7c54877527136b782e389f67dc05547c3ff7e7c3b38ebd2d6db755d66892db6a"
+      },
+      "projects/site/tests/build.test.mjs": {
+        "historical": "16a5257176686de82dd089ff74fe7a72711a35c4ad37625ea8ed64182ca75a3a",
+        "combined": "5b5f7ff6cb5b8b49a26f5237376add91147821a641396959364e8c7d77cabca4"
+      }
+    },
+    "gupteswar_manuscript_image_wrapper_guides_and_existing_renderers_unchanged": true,
+    "hindola_q90_and_prior_paradip_png_changes_preserved": true,
+    "pentha_sources_and_evidence_retained": true
+  },
+  "css_review": {
+    "result": "pass_for_scoped_code_and_in_memory_check",
+    "actual_code_sha256": "56d4d55657516678340c3f524350e263e4af6720a60f542c4ce145788fc95e13",
+    "actual_test_sha256": "17b9f38f52026298e109710226110eaea93f08697ac2f62c2e41c1acfd9b74bb",
+    "independent_focused_tests": {
+      "command": "Node 25 --test projects/site/tests/shared-reading-styles.test.mjs",
+      "passed": 5,
+      "failed": 0
+    },
+    "assessment": "The new eligibility rule requires a stories/<slug>/index.html path and the literal festival-series header. Gupteswar uses destinations/gupteswar/index.html and cannot qualify. Existing reading-room threshold remains 4096 bytes; qualifying festival threshold is 1024. Exact duplicate head CSS without attributes, URLs, imports, charset or escapes is replaced in place by content-addressed stylesheet links. CSS bytes, ordering and body styles are retained.",
+    "independent_in_memory_probe": {
+      "pages": 1419,
+      "exact_reinsertion_all": true,
+      "stats": {
+        "sharedStyles": 3,
+        "replacedBlocks": 193,
+        "changedPages": 181,
+        "savedBytes": 1105604
+      },
+      "changed_festivals": [
+        "stories/chitau-amavasya/index.html",
+        "stories/gamha-purnima/index.html",
+        "stories/puspuni/index.html",
+        "stories/makar-sankranti/index.html",
+        "stories/agira-purnima/index.html",
+        "stories/dola-purnima/index.html",
+        "stories/pana-sankranti/index.html",
+        "stories/baisakha-brata/index.html",
+        "stories/chandan-yatra/index.html",
+        "stories/snana-purnima/index.html",
+        "stories/garbhana-sankranti/index.html",
+        "stories/akhi-muthi-anukula/index.html"
+      ],
+      "gupteswar_unchanged": true,
+      "gupteswar_coast_page_sha256": "e91cc519c5f7c5f1e0011d06e1b71d8392f26c7ba17125c2ee4c50c7ee7e4f52",
+      "limitation": "In-memory transformation of existing pre906 coastal HTML only; no fresh Ratha output or final combined payload created."
+    },
+    "limits": "Literal marker is serializer-dependent; a changed serializer could skip optimization. Exact reinsertion proves byte content/order preservation for the observed existing pages, not actual future network stylesheet delivery or final Ratha rendering. No combined package was generated by this probe."
+  },
+  "validation_required": {
+    "local": "No second full local pipeline is required solely to duplicate the final exact combined hosted build. Preserve the completed initial local package and 12 screenshots as pre906/pre907. Targeted CSS tests and existing-page reinsertion checks have now been independently completed.",
+    "combined_source_binding": "Create a separate combined-source manifest containing the updated six contract paths plus discovery, shared-reading-style implementation/test, Ratha source/page and the two incoming related pages; keep the old 27-input contract immutable and historical.",
+    "hosted": "Require a full exact-final-head pipeline including full/coastal tests, audits/disclosures and a newly assembled publication with actual size strictly below 1000000000 bytes. Earlier package savings or prior-head CI are not substitutes.",
+    "artifact": "Inspect fresh transformed styles and their content hashes/links from the combined artifact, and verify exact CSS reinsertion/order. Verify Ratha route and incoming links, Gupteswar article/photo/previews and Hindola output, plus actual public exclusion of Kaincha/Chakulia and protected-source preservation.",
+    "live": "Retain the mandatory six-route Gupteswar/hubs/Hindola/Pentha delivery check. Additionally perform bounded Ratha and Snana/series-link checks and inspect a representative affected festival at desktop/mobile with actual stylesheet HTTP status/bytes/hash; this can be a separate supplement, not a new factual review of the foreign article. Fresh Pentha note 2 verification remains required.",
+    "scope": "No foreign factual-authority or publication approval is inferred from this reconciliation review. No broad unrelated site audit or new article work is needed."
+  },
+  "samanta_report": {
+    "path": "outputs/gupteswar-publication-2026-11-27/implementation/ratha-reconciliation-plan.json",
+    "sha256": "ee7af1a233dbf853b73ba26ea10e9dd9ce0dc4a48bc790ff0744c96c09403eb2",
+    "use": "Read as an implementation analysis; independent checks above reproduce its preservation and existing-page CSS results."
+  },
+  "limitations": [
+    "Root is editing its owned canonical handoff and retaining untracked final local evidence; no clean-checkout or final candidate-record approval is claimed.",
+    "Newly merged or edited inputs after 844444594 require a separate bounded check.",
+    "Only this review report was written; no source, shared records, Git or build artifacts changed."
+  ],
+  "blockers_to_this_reconciliation": []
+}

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d3a63e453a4722b629ae8a4c4092c5a3fe515b0e750340dafdb1ec8cf4f904d6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2d6411e5bf939cb85841dd1cc4ea8e1070d6465aba11cbb68329c68925454811`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -438,6 +438,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261127001 · Add archived UNESCO fallback to Similipal source note | completed | published | Ahimanikya Satapathy | Completed; verified archive fallback is live in source note 4. | — |
 | POD-WORK-2026112791 · Research, review and publish Devagiri in Rayagada | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt CI/merge, then return the reserved preparation-only slot. | — |
 | POD-WORK-20261127003 · Final live check of27 articles and remaining source repairs | completed | published | Ahimanikya Satapathy | Completed:27article audit and3source-note repairs published and verified. Pentha publisher-login limitation is disclosed. | — |
+| POD-WORK-20261127310 · Prepare Chakulia Panda and verse at the doorstep | completed | reviewed | Ahimanikya Satapathy | Reviewed original draft and credited photograph prepared; return slot after local commit. No website publication authorized. | — |
+| POD-WORK-2026112793 · Research, review and publish Gupteswar | in_progress | draft | Ahimanikya Satapathy | Independent research and media, then separate review, implementation, actual layout/build/CI/deployment/live checks and receipt. | — |
 | POD-WORK-20261127005 · Public corroboration for Pentha design-length figures | completed | published | Ahimanikya Satapathy | Completed: public news corroboration published and verified on desktop and mobile; CAG distinction and access limitation retained. | — |
 | POD-WORK-20261127007 · Verified archive fallback for the Pentha news source | in_progress | reviewed | Ahimanikya Satapathy | Review and publish the bounded archive-note addition, then verify the live note and fallback. | — |
 
@@ -806,6 +808,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261127001 · Publish reliable archived UNESCO fallback | recorded_direction | Ahimanikya Satapathy | One existing article source note, its research register and verified live delivery; zero programme credit. |
 | POD-DEC-2026112791 · Next hill article after completed Godabarish release and returned slot | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
 | POD-DEC-20261127003 · Final live audit and repair of27 articles | recorded_direction | Ahimanikya Satapathy | Final maintenance audit of27existinglivearticles in /stories/odisha/; confirmed source/credit/layout repairs only. |
+| POD-DEC-20261127310 · Prepare one original Antaranga Kalinga lead after Devagiri | recorded_direction | Ahimanikya Satapathy | One original independently researched article and credited image; preparation only. |
+| POD-DEC-2026112793 · Next uncovered hill article after reviewed Chakulia Panda preparation return | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish Gupteswar hill-pilgrimage article with credited article and preview photograph. |
 | POD-DEC-20261127005 · Add a separate public source for Pentha length figures | recorded_direction | Ahimanikya Satapathy | Pentha source note 2: add independently verified public newspaper corroboration of the historic 675-to-505-metre design revision, clearly separate from CAG. Preserve narrative, source IDs, images and other articles. |
 | POD-DEC-20261127007 · Add verified archive fallback for Pentha news report | recorded_direction | Ahimanikya Satapathy | Verify and publish archive fallback for existing Pentha news source; preserve article and CAG attribution. |
 
@@ -1245,6 +1249,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261127001 | pass | True | — |
 | POD-REV-2026112791 | pass | True | — |
 | POD-REV-20261127003 | pass | True | — |
+| POD-REV-20261127310 | pass | True | — |
 | POD-REV-20261127005 | pass | True | — |
 | POD-REV-20261127007 | pass | True | — |
 
@@ -1583,13 +1588,13 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261126307 | 2026-11-26T19:23:08.174720+00:00 | PR893 and deployment45878664614 succeeded; credited illustration, three incoming links and desktop/mobile delivery separately verified. Evidence-only receipt review/check/merge gates scope return. Zero programme credit. | — |
-| POD-EVT-20261127001 | 2026-11-26T19:12:26.244963+00:00 | User authorized a verified archive fallback beside the official UNESCO source in Similipal note 4. Reused prior access evidence and archive lead; bounded maintenance preserves foreign article ownership. Zero programme credit. | — |
-| POD-EVT-2026112791 | 2026-11-26T20:25:59.913322+00:00 | Verified Godabarish receipt896 and requiredCI45886736838, fetched54a8b326 after explicit slot return. Scoped reuse check selects Rayagada Devagiri, distinct from Panchalingeswar alias.113preparation files and foreign ownership preserved. Zero programme credit. | — |
 | POD-EVT-20261127002 | 2026-11-26T20:36:29.172065+00:00 | PR895/CI45883101771 passed, merged334adfdf4; publication45886118171 succeeded. Live note4 retains official UNESCO link and dated25October2026 archive fallback, verified on desktop/mobile and opened through live link. Prose/images/provenance preserved; zero programme credit. | — |
 | POD-EVT-2026112792 | 2026-11-26T22:31:33.449377+00:00 | ReviewedPR898 passed requiredCI45897117216 attempt1, merged e078dcd6;deployment45900807100 attempt1 success. Fresh root and separate live review pass with raw differences/framing limits retained. ChandanYatraPR899 preserved. Evidence-only receipt still requires exact review/CI/actualmerge before reserved preparation-only handoff. Zero programme credit. | — |
 | POD-EVT-20261127003 | 2026-11-26T22:02:43.482673+00:00 | Fresh27article live audit authorized. Mobile/desktop measurements and image-credit checks pass; confirmedPakhala publisher404 sent for exact-source recovery. Preserve foreign ownership and zero programme credit. | — |
 | POD-EVT-20261127004 | 2026-11-26T23:17:46.033621+00:00 | PR900 and deployment45907723407 succeeded. Fresh27livepages/109notes/credits match;3repaired source notes rechecked mobile/desktop. Pentha originalpublisher-login limitation remains visible with distinct publiccompanion. No programmecredit or creator material. | — |
+| POD-EVT-20261127310 | 2026-11-27T00:17:01.448831+00:00 | Accepted explicit completed Devagiri receipt handoff and reserved preparation-only Chakulia Panda article after scoped coverage checks. Independent source research and authentic photograph verification assigned separately. | Prepare original prose, credited image and separate review; no publication authorized. |
+| POD-EVT-20261127311 | 2026-11-27T00:28:40.712040+00:00 | Prepared independently researched Chakulia Panda article and credited licensed photograph after separate source and integrated review. Prior113files and foreign ownership preserved; no site integration or programme credit. | Complete bounded record review, local commit and explicit slot return; future publication requires new instruction and capacity review. |
+| POD-EVT-2026112793 | 2026-11-27T00:35:16.421165+00:00 | Accepted completed Chakulia Panda preparation handoff, verified26delivery files/completion and113prior files, selected Gupteswar after scoped reuse checks. | Independent research and media, then separate review, implementation, actual layout/build/CI/deployment/live checks and receipt. |
 | POD-EVT-20261127005 | 2026-11-27T00:07:59.654960+00:00 | Authorized separate public news corroboration of675-to505metre design revision after exactCAG public-copy recovery remained unresolved. Anonymous full article retrieved; implementation and separate review underway. No programme credit. | — |
 | POD-EVT-20261127006 | 2026-11-27T01:30:49.718712+00:00 | PR907 and publication45919123289 succeeded. Fresh anonymous article and news GETs pass; desktop/mobile full note and footnote return navigation verified. News corroborates historic design lengths separately from CAG. No programme credit. | — |
 | POD-EVT-20261127007 | 2026-11-27T01:39:45.356368+00:00 | Existing15October2019 Wayback capture verified by actual anonymous replay and ordinary browser. Same2015news report atformerpublisheraddress; bounded fallback addition authorized. Preserve CAG distinction and zero programmecredit. | — |

@@ -1,0 +1,293 @@
+{
+  "status": "prepared_reviewed",
+  "owner": "Disha",
+  "article_id": "POD-EDIT-CHAKULIA-PANDA-20261127",
+  "authorization": "POD-DEC-20261127310",
+  "work_id": "POD-WORK-20261127310",
+  "authorization_quote": "Has Devagiri’s final record merged and the slot returned now? If so, prepare the next uncovered Antaranga Kalinga website or social-post topic with independent research and a credited image. Don’t copy their content.",
+  "scope": "One original independently researched article and credited image; preparation only.",
+  "publication_authorized": false,
+  "scope_released": true,
+  "programme_credit": 0,
+  "input_head": "c7f597b5b9f9348ea3ae39bd5c45b26f970ecee1",
+  "prior_receipt": {
+    "record": "records/devagiri-publication-20261127.json",
+    "pr": 902,
+    "merge": "c7f597b5b9f9348ea3ae39bd5c45b26f970ecee1",
+    "required_ci": 45912319995,
+    "conclusion": "success",
+    "explicit_handoff_received": true
+  },
+  "foreign_ownership": {
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-133",
+      "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+      "scope_released": false
+    },
+    "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json"
+  },
+  "inherited_preparation_pointer": {
+    "id": "POD-EDIT-GODABARISH-NIANKHUNTA-20261126",
+    "owner": "Disha",
+    "phase": "preparation",
+    "handoff": "records/godabarish-niankhunta-preparation-20261126.json",
+    "scope_released": true,
+    "status": "prepared_reviewed",
+    "topic": "Godabarish Mahapatra and Niankhunta",
+    "release_condition": "Effective after separately reviewed local preparation commit and explicit return to the coordinating hill chat."
+  },
+  "inherited_article_pointer": {
+    "id": "POD-EDIT-DEVAGIRI-20261127",
+    "route": "/destinations/devagiri/",
+    "owner": "Disha",
+    "phase": "receipt_integrated",
+    "handoff": "records/devagiri-publication-20261127.json",
+    "scope_released": true,
+    "status": "published_verified",
+    "release_condition": "Effective after separately reviewed Devagiri receipt actually merges and explicit reserved preparation-only handoff.",
+    "next_action": "Finish separate receipt review and required checks, actually merge receipt, then return reserved preparation-only slot."
+  },
+  "assignments": {
+    "Anvesha": {
+      "scope": [
+        "outputs/antaranga-after-devagiri-20261127/research/",
+        "kb/research/culture/chakulia-panda-sources.json"
+      ],
+      "status": "completed_scope_released"
+    },
+    "Samanta": {
+      "scope": [
+        "kb/media/chakulia-panda/",
+        "kb/research/culture/chakulia-panda-image.json",
+        "outputs/antaranga-after-devagiri-20261127/media/"
+      ],
+      "status": "completed_scope_released"
+    },
+    "Drishti": {
+      "scope": [
+        "outputs/antaranga-after-devagiri-20261127/review/"
+      ],
+      "status": "completed_scope_released"
+    }
+  },
+  "capacity_note": "Combined Devagiri receipt CI999992133B/3801files leaves7867B. Preparation remains outside public export; future publication requires fresh capacity review.",
+  "topic": "Chakulia Panda: Verse at the Doorstep",
+  "discovery": {
+    "url": "https://antarangakalinga.org/ଚକୁଳିଆ-ପଣ୍ଡା/",
+    "title": "ଚକୁଳିଆ ପଣ୍ଡା",
+    "date": "2020-05-27",
+    "credit": "Collection and presentation: Dev Tripathy",
+    "role": "Discovery only; no prose, narrative structure or imagery copied"
+  },
+  "reuse_before_research": {
+    "query": "query_research.py Chakulia plus case-insensitive KB/site searches for Chakulia/Chakuliya/ଚକୁଳିଆ",
+    "finding": "No dedicated performance narrative found; Alana retelling includes a fictional Chakulia Panda character. Preserve its distinct narrative scope. Scoped search, not exhaustive semantic deduplication.",
+    "pointers": [
+      "research/methods/research-map.md",
+      "research/culture/osha/alana.md",
+      "research/references/data/osha-culture.json",
+      "research/references/data/research-queue.json:RES-025",
+      "research/references/data/research-queue.json:RES-026"
+    ]
+  },
+  "source_review": {
+    "reviewer": "Anvesha",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "record": "outputs/antaranga-after-devagiri-20261127/research/final-source-audit.json",
+    "sha256": "8a66c84ab399d59c88d3cf2464c0fe9ac3decac1b42c435f9a0227257b79eeb9",
+    "scope_released": true
+  },
+  "media": {
+    "record": "research/culture/chakulia-panda-image.json",
+    "credited_image": "media/chakulia-panda/chakulia-panda-1200.webp",
+    "original_preserved": "media/chakulia-panda/chakulia-panda-original.jpg",
+    "review": "outputs/antaranga-after-devagiri-20261127/review/image-review.json",
+    "status": "pass"
+  },
+  "validation": {
+    "result": "PASS",
+    "canonical_sha256": "bcef9bd05b624888aca1a372b7f08cabf3bc7332de61dfd0f9204c23d1adb868",
+    "reading_copy_matches": true,
+    "footnote_references": [
+      "1",
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    "footnote_definitions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "footnotes_complete": true,
+    "image_links_resolve": true,
+    "portable_image_link_resolves": true,
+    "protected_files": 113,
+    "protected_mismatches": [],
+    "foreign_task_and_handoff_exact": true,
+    "public_site_diff": "",
+    "reading_room_draft_entry_present": false,
+    "current_preparation_changed_with_prior_record_preserved": true,
+    "browser_layout_and_deployment": "Not applicable; preparation only, no site integration or publication authorized."
+  },
+  "closing_remote_observation": {
+    "main": "c7f597b5b9f9348ea3ae39bd5c45b26f970ecee1",
+    "method": "Fresh GitHub API heads/main read during completion checks",
+    "same_as_preparation_base": true
+  },
+  "completed_on": "2026-11-27",
+  "publication_status": "not_published",
+  "deployment_required": false,
+  "deployment_reason": "Preparation only; no website integration or publication authorized.",
+  "release_condition": "Effective after separately reviewed local preparation commit and explicit return to coordinating hill chat.",
+  "next_action": "Return sole article slot with reviewed preparation commit. Preserve unpublished draft/media and future capacity requirement.",
+  "integrated_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "record": "outputs/antaranga-after-devagiri-20261127/review/integrated-review.json",
+    "sha256": "0169e2e3ad267bc463f08fe367b9276433cfa3c2ab2cd9bc4f989b859e9494a4",
+    "scope_released": true
+  },
+  "completion_checks": {
+    "result": "PASS",
+    "catalogue_concepts": 1983,
+    "bundle_local_links": 8846,
+    "research_map_records": 1888,
+    "registers": "PASS",
+    "team_assignments": "PASS",
+    "autonomous_programme": "PASS",
+    "workbench": "current",
+    "diff_check": "PASS",
+    "website_layout_and_delivery": "Not applicable; preparation only.",
+    "register_record_count": 1466,
+    "register_event_count": 912
+  },
+  "delivery_files": [
+    {
+      "path": "kb/media/chakulia-panda/chakulia-panda-1200.webp",
+      "sha256": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df"
+    },
+    {
+      "path": "kb/media/chakulia-panda/chakulia-panda-original.jpg",
+      "sha256": "e92404828524fd4580ac44e1608176888006fa9d620cf30fca97b76af18274ed"
+    },
+    {
+      "path": "kb/research/culture/chakulia-panda-image.json",
+      "sha256": "75c6fa9c90db5524294da7d77903010b97742b25b4f69e642b0e753f29bfa7f2"
+    },
+    {
+      "path": "kb/research/culture/chakulia-panda-sources.json",
+      "sha256": "28812a4461662a9494dd8f4930bad36121ae4e79e9de14e29c9200c04261ce35"
+    },
+    {
+      "path": "kb/research/culture/chakulia-panda.md",
+      "sha256": "bcef9bd05b624888aca1a372b7f08cabf3bc7332de61dfd0f9204c23d1adb868"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/article.md",
+      "sha256": "b2dcc072dea2883804c1b95c3cfe9f4e466b893cc18936e898d7e86ffc39cdd5"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/check-history.json",
+      "sha256": "579ae2b70f679b72dc03b150350b7731295c7d62750ac9037075b0218e901d94"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/checks.json",
+      "sha256": "f83b964c87098a9036eb2798ac6ddaff7a07af37a35cb07c0377dc422c1d73ac"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/media/chakulia-panda-1200.webp",
+      "sha256": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/media/chakulia-panda-original.jpg",
+      "sha256": "e92404828524fd4580ac44e1608176888006fa9d620cf30fca97b76af18274ed"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/media/commons-api.json",
+      "sha256": "bcdfb0d0f70b9a8e7174882443698a0f431afd35ad8d21435024e59c38b3aade"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/media/download-headers.txt",
+      "sha256": "17ea9de697965bda449381abc45903e34be450b5d2edd999652fc28b41f5cac8"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/media/image-metrics.json",
+      "sha256": "6eed3535974a74d823035db91c4b0bb371fc20a23e86cd664ed902962301e174"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/publication-brief.md",
+      "sha256": "9f8a9b1615aad6a698820f96ac28d428003ae87666cc4d08f3a81baea3d5000d"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/aiims2023-p144.png",
+      "sha256": "e40a2e9c906f0224ca1a77f8340abf2dc7c0d37aba43e4067f79884d884796a1"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/aiims2023-p145.png",
+      "sha256": "5d4ce1ea03acea83657d9dc078db8ca6dd6afc01ba31050915b27b7e51557d74"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/alana-inspection.json",
+      "sha256": "b12e98a74f70c276017cf641f1d956d5f89f98209b097841ab3c4d99a5997ad2"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/dash2022-p40.png",
+      "sha256": "093a12891b4055cca06b9d9a9e73330b42130fed6010c410910dcc83e75bd993"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/dash2022-title.png",
+      "sha256": "afd22761480567f702385b80c691f65eddd3586147ebe7a05b7fb61caafaa6c5"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/deogarh-indexed-inspection.json",
+      "sha256": "f717794dfa7e939a5e7ea97e0e70c94b88fec5c09a0264de0289a48134ca0187"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/final-source-audit.json",
+      "sha256": "8a66c84ab399d59c88d3cf2464c0fe9ac3decac1b42c435f9a0227257b79eeb9"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/research/lead-screening.json",
+      "sha256": "2fe8baa9475714648f017242459450f4706ccac2083bfec7fb83a1e9e9f4c03b"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/review/image-review.json",
+      "sha256": "7329d4aceb40da8d21c690aebf31ff982fbf7293d1a15122236e4460109cd09b"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/review/integrated-review.json",
+      "sha256": "0169e2e3ad267bc463f08fe367b9276433cfa3c2ab2cd9bc4f989b859e9494a4"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/root-inspection.json",
+      "sha256": "0f524ac4d1cdce7217c93f62fa20ac2806c28c28f01ef9bf561c1b50b8949076"
+    },
+    {
+      "path": "outputs/antaranga-after-devagiri-20261127/header-sanitization.json",
+      "sha256": "e697313a57696963b1d4df6178b04f6909279787ab0b9185cba10806758d7bad"
+    }
+  ],
+  "evidence_sanitization": {
+    "record": "outputs/antaranga-after-devagiri-20261127/header-sanitization.json",
+    "status": "removed before commit; raw privately preserved with native storage-sharing copy"
+  },
+  "completion_record_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_agent",
+    "status": "pass",
+    "record": "outputs/antaranga-after-devagiri-20261127/review/completion-review.json",
+    "sha256": "7ff8ddb7d0a4238989ed5c6d8c7f7a542243d87ac7886fe7fc0642a424292fcc",
+    "delivery_hashes_verified": 26,
+    "protected_hashes_verified": 113,
+    "limits": "Local commit and explicit handoff follow this review; no publication authorized."
+  }
+}
