@@ -1,0 +1,124 @@
+{
+  "import_note": "Structured import of separate reviewer report; original bytes remain untouched at recorded path.",
+  "source": "/private/tmp/devagiri-release-evidence-precheck.json",
+  "source_sha256": "046280b4a2a4d74c8ea766bfd9c641db5c2c94ff60dd17a0139c3082c7edf152",
+  "report": {
+    "result": "pass",
+    "scope": "Bounded release evidence precheck before completed deployment and fresh live review.",
+    "reviewer": "Drishti, separate AI reviewer",
+    "structured_imports": [
+      {
+        "wrapper": "outputs/devagiri-publication-2026-11-27/release/candidate-exact-review-import.json",
+        "wrapper_sha256": "b8b927c9886f9e0fdd2eadd1b535800297cbb4a46a5165930d531ab3b658c448",
+        "original": "/private/tmp/devagiri-candidate-exact-review.json",
+        "original_sha256": "b5c343da9c73107025c511cd64b2818190b2b7875ac228ca68271c643543a577",
+        "original_metadata": {
+          "uid": 501,
+          "gid": 0,
+          "mode": "0o100644",
+          "mtime_ns": 1795727895178418868,
+          "size": 4409
+        },
+        "parsed_report_exact": true
+      },
+      {
+        "wrapper": "outputs/devagiri-publication-2026-11-27/release/ci-status-import.json",
+        "wrapper_sha256": "70e7bdf830a2e4b4961fd4cb5569ba77c63b6eaf4a152ce90ae0ce4a872769ae",
+        "original": "/private/tmp/devagiri-ci-status.json",
+        "original_sha256": "5f9cedc53ef28f4fa6d29c7433f0e6c48bf20d106fd7ff093ecdc361f03f14c3",
+        "original_metadata": {
+          "uid": 501,
+          "gid": 0,
+          "mode": "0o100644",
+          "mtime_ns": 1795729738064234636,
+          "size": 3922
+        },
+        "parsed_report_exact": true
+      },
+      {
+        "wrapper": "outputs/devagiri-publication-2026-11-27/release/next-reservation-import.json",
+        "wrapper_sha256": "e9d8d1fccad81b4bcaaf6d617f1751f6cf636d2980ea25d00d65f1db9cbed8d7",
+        "original": "/private/tmp/devagiri-next-reservation.json",
+        "original_sha256": "9f46dd619e4d8849039f53a555ee761694d4671b7f40f71a5f696747cf22b0bc",
+        "original_metadata": {
+          "uid": 501,
+          "gid": 0,
+          "mode": "0o100644",
+          "mtime_ns": 1795729142873404338,
+          "size": 665
+        },
+        "parsed_report_exact": true
+      },
+      {
+        "wrapper": "outputs/devagiri-publication-2026-11-27/release/publication-pr-import.json",
+        "wrapper_sha256": "b05814c85078aa18b7f43650921ba61a3bd3e75436755cbea40a231648c5f146",
+        "original": "/private/tmp/devagiri-publication-pr.json",
+        "original_sha256": "a86d9a85ebb5c0cefc293dc847bbf633f448ec60e84ed88ee30522c1a74dc977",
+        "original_metadata": {
+          "uid": 501,
+          "gid": 0,
+          "mode": "0o100644",
+          "mtime_ns": 1795729786358641608,
+          "size": 249
+        },
+        "parsed_report_exact": true
+      },
+      {
+        "wrapper": "outputs/devagiri-publication-2026-11-27/release/submission-history-import.json",
+        "wrapper_sha256": "60beca86579a0e3c51e6b22f10c6d4d465b50a35aca62b7837a458dc493a0817",
+        "original": "/private/tmp/devagiri-publication-progress.json",
+        "original_sha256": "b3e0ce8bb81c8035b8aedd79a32308cd4b27c3e1f616383625e239cf413f6d7b",
+        "original_metadata": {
+          "uid": 501,
+          "gid": 0,
+          "mode": "0o100644",
+          "mtime_ns": 1795727897113278325,
+          "size": 406
+        },
+        "parsed_report_exact": true
+      }
+    ],
+    "import_assessment": "All five wrappers retain the exact original SHA256, current source metadata and complete parsed JSON report. They honestly identify themselves as newly authored structured evidence, not exact filesystem copies. Original private files remain present with matching bytes/metadata. No copy operation performed by this reviewer. Root reports strict clone-aware copier metadata failure; this review verifies preservation and wrapper accuracy, not the failed syscall execution itself.",
+    "independent_GitHub_reads": {
+      "publication_PR": 898,
+      "state": "MERGED",
+      "head": "8e8fc60e49cf9c840870c57e19a3c8535469f2e1",
+      "merge": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+      "mergedAt": "2026-11-26T21:49:31Z",
+      "required_ci": 45897117216,
+      "attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "initial_read_limit": "Default-context GitHub reads failed to connect; approved read-only retry succeeded."
+    },
+    "git_tree_continuity": {
+      "reviewed_and_merged_tree": "8050902b2b3d168456a1eb65e790b9794f5b6d5a",
+      "actual_local_git_objects_equal": true
+    },
+    "CI_payload": {
+      "log": "outputs/devagiri-publication-2026-11-27/release/ci.log",
+      "sha256": "5158ff9a1417451ffb3b4dca6eaa32c9734c84106f764895ee4597c15a71db2c",
+      "bytes": 999924560,
+      "files": 3798,
+      "remaining_bytes": 75440,
+      "limit": "Payload read from retained freshly fetched CI log; no independent log download or deployment-payload claim in this precheck."
+    },
+    "canonical": {
+      "path": "kb/records/devagiri-publication-20261127.json",
+      "sha256": "c09b1497a106659bbc2dd466386604b4bda6bc964c9e54a5ab2b95df0352bbb9",
+      "status": "in_progress",
+      "scope_released": false,
+      "programme_credit": 0,
+      "deployment_run": 45900807100,
+      "deployment_status_at_review": "in_progress",
+      "next_action": "Wait for exact-merge deployment, freshly verify live delivery and complete separately reviewed evidence-only receipt before slot return."
+    },
+    "coordination_limit": "Next reservation wrapper is preparation-only, conditional on actual reviewed Devagiri receipt merge and explicit handoff. It attributes the instruction to another chat\u2019s report; no independent human-message attestation or publication authority inferred.",
+    "remaining": [
+      "Actual successful deployment evidence.",
+      "Fresh live HTTP/media and root browser evidence followed by independent delivery review.",
+      "Integrated receipt review, exact receipt CI and actual merge before scope return."
+    ],
+    "blockers": []
+  }
+}
