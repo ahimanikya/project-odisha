@@ -2,6 +2,13 @@ import {createHash} from 'node:crypto';
 
 const readingPage = path => /^reading-room\/[^?#]+\.html$/.test(path) &&
  !path.split('/').some(part => part === '.' || part === '..');
+// Festival series pages share smaller head styles across many articles.
+function minimumSharedBytes(page) {
+ if (readingPage(page.path)) return 4096;
+ const seriesHeader = '<article class="article-reading"><header><a href="/stories/the-year-that-feeds-us/">';
+ if (/^stories\/[a-z0-9-]+\/index\.html$/.test(page.path) && page.html.includes(seriesHeader)) return 1024;
+ return Infinity;
+}
 // Built HTML only: ignore comments/scripts/templates, and keep body styles inline.
 const headNodes = /<!--[\s\S]*?-->|<script\b[^>]*>[\s\S]*?<\/script>|<template\b[^>]*>[\s\S]*?<\/template>|<style\b([^>]*)>([\s\S]*?)<\/style>/gi;
 function mapHeadStyles(html, transform) {
@@ -9,20 +16,21 @@ function mapHeadStyles(html, transform) {
   open + head.replace(headNodes, (match, attributes, css) =>
    css === undefined ? match : transform(match, attributes, css)) + close);
 }
-function shareable(attributes, css) {
+function shareable(attributes, css, minimumBytes) {
  // Conservatively exclude all URLs/imports/escapes, including absolute URLs.
  // External CSS must not acquire a different URL base or encoding semantics.
- return attributes === '' && Buffer.byteLength(css) >= 4096 &&
+ return attributes === '' && Buffer.byteLength(css) >= minimumBytes &&
   !/url\s*\(|@import\b|@charset\b|\\/i.test(css);
 }
 
-// Share only exact duplicate large reading-room head styles, without rewriting CSS.
+// Share only exact duplicate eligible head styles, without rewriting CSS.
 export function shareReadingStyles(pages) {
  const candidates = new Map();
  for (const page of pages) {
-  if (!readingPage(page.path)) continue;
+  const minimumBytes = minimumSharedBytes(page);
+  if (!Number.isFinite(minimumBytes)) continue;
   mapHeadStyles(page.html, (match, attributes, css) => {
-   if (shareable(attributes, css)) candidates.set(css, (candidates.get(css) || 0) + 1);
+   if (shareable(attributes, css, minimumBytes)) candidates.set(css, (candidates.get(css) || 0) + 1);
    return match;
   });
  }
@@ -38,9 +46,10 @@ export function shareReadingStyles(pages) {
  }
  let replacedBlocks = 0, changedPages = 0, htmlBytesSaved = 0;
  const output = pages.map(page => {
-  if (!readingPage(page.path)) return {...page};
+  const minimumBytes = minimumSharedBytes(page);
+  if (!Number.isFinite(minimumBytes)) return {...page};
   const html = mapHeadStyles(page.html, (match, attributes, css) => {
-   if (attributes !== '' || !links.has(css)) return match;
+   if (!links.has(css) || !shareable(attributes, css, minimumBytes)) return match;
    replacedBlocks++;
    return links.get(css);
   });
