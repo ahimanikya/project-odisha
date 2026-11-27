@@ -112,5 +112,38 @@
   "media": {
     "record": "kb/research/places/gupteswar-image.json",
     "separate_review": "outputs/gupteswar-publication-2026-11-27/review/media-review.json"
+  },
+  "implementation": {
+    "report": "outputs/gupteswar-publication-2026-11-27/implementation/report.json",
+    "static_review": "outputs/gupteswar-publication-2026-11-27/review/static-review.json"
+  },
+  "rendered_review": {
+    "root": "outputs/gupteswar-publication-2026-11-27/browser-local.json",
+    "separate": "outputs/gupteswar-publication-2026-11-27/review/rendered-review.json",
+    "captures": 12,
+    "scope": "Pre-Pentha local full-dist article and three previews at1440and390; explicit framing limits retained."
+  },
+  "reconciliation": {
+    "paradip": {
+      "incoming": "8d69843f0",
+      "merge": "a2b802ba0",
+      "review": "outputs/gupteswar-publication-2026-11-27/review/reconciliation-review.json"
+    },
+    "pentha": {
+      "incoming": "7787885473279ed888058ea29cfb3cc6bb265112",
+      "merge": "43f9f6266",
+      "review_pending": false,
+      "validation_plan": "outputs/gupteswar-publication-2026-11-27/review/reconciliation-validation-plan.json",
+      "scope": "One existing Pentha source note and shared evidence; all27Gupteswarfrozeninputs unchanged. Initial localpipeline remains pre907; exactcombinedhostedfullpipeline and targetedfreshlivePenthanote required.",
+      "review": "outputs/gupteswar-publication-2026-11-27/review/pentha-reconciliation-review.json"
+    }
+  },
+  "web_guidance": "outputs/gupteswar-publication-2026-11-27/web-guidance.md",
+  "local_validation": {
+    "status": "final_package_running",
+    "full_tests": 850,
+    "coastal_tests": 605,
+    "page_checks": 5676,
+    "scope": "Pre907 local artifacts; all27Gupteswar inputs unchanged through reconciliation. Final exactcombinedhead hosted pipeline required."
   }
 }
