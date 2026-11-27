@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "completed",
   "article_id": "POD-EDIT-GUPTESWAR-20261127",
   "route": "/destinations/gupteswar/",
   "owner": "Disha",
@@ -37,7 +37,7 @@
         "kb/research/places/gupteswar-article.md"
       ],
       "task": "Research missing facts independently and draft original bounded narrative; no shared records or public implementation.",
-      "status": "research_and_validation_helpers_complete"
+      "status": "completed"
     },
     "Samanta": {
       "scope": [
@@ -51,14 +51,14 @@
         "outputs/gupteswar-publication-2026-11-27/implementation/"
       ],
       "task": "Implement Gupteswar article and three discovery previews using prepared photograph; preserve other content, no shared registers, no Git/publication. Pending independent source/media review must be resolved before freeze.",
-      "status": "implementation_complete"
+      "status": "completed"
     },
     "Drishti": {
       "scope": [
         "outputs/gupteswar-publication-2026-11-27/review/"
       ],
       "task": "Separate source/media/candidate/rendered/delivery review when assigned; no publishing or shared records.",
-      "status": "static_and_reconciliation_review_active"
+      "status": "completed"
     }
   },
   "foreign_ownership": {
@@ -96,7 +96,7 @@
     "separate_review": "outputs/gupteswar-publication-2026-11-27/review/capacity-review.json",
     "bounded_change": "Existing Hindola JPEG quality95 to90 only; original/full frame/credit preserved."
   },
-  "next_action": "Frozen combined source pipeline, desktop/mobile review, hosted checks, publication and live review, then separate final receipt.",
+  "next_action": "Finish separate integrated and exact-commit receipt review, required checks and actual receipt merge; then send explicit reserved Chakulia Panda publication handoff.",
   "next_slot_reservation": {
     "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
     "scope": "Authorized Chakulia Panda publication with credited photograph, relevant links and desktop/mobile review",
@@ -168,11 +168,109 @@
   },
   "publication": {
     "pull_request": 909,
-    "status": "combined_candidate_checks_pending",
+    "status": "published_and_live_reviewed",
     "previous_reviewed_head": "dd17ee63375addfc091a1de94a1cab76a09e2da1",
     "superseded_ci": 45921747182,
     "superseded_ci_status": "cancelled_as_superseded",
-    "merge": null,
-    "deployment": null
+    "merge": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+    "deployment": 45926477622,
+    "reviewed_head": "202d8dff762033f57e16e1e6fbbb190b1441b212",
+    "required_ci": 45924144778,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge_tree": "e1f68d56a14925b8621ac7773036b54de86da1a2"
+  },
+  "receipt_pending": true,
+  "completed_on": "2026-11-27",
+  "review_id": "POD-REV-2026112793",
+  "release_id": "POD-REL-2026112793",
+  "live_url": "https://projectodisha.org/destinations/gupteswar/",
+  "pull_request": 909,
+  "release_condition": "The slot returns only after this separately reviewed evidence-only receipt actually merges following required checks, then explicit handoff to the reserved Chakulia Panda publication chat. No next hill is claimed.",
+  "deployment": {
+    "run": 45926477622,
+    "head": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+    "attempt": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "bytes": 999840641,
+    "files": 3810,
+    "remaining_bytes": 159359,
+    "evidence": "outputs/gupteswar-publication-2026-11-27/release/deployment.json",
+    "log": "outputs/gupteswar-publication-2026-11-27/release/deployment.log"
+  },
+  "hosted_validation": {
+    "run": 45924144778,
+    "head": "202d8dff762033f57e16e1e6fbbb190b1441b212",
+    "attempt": 1,
+    "conclusion": "success",
+    "full_tests": 852,
+    "coastal_tests": 605,
+    "bytes": 999840641,
+    "files": 3810,
+    "evidence": "outputs/gupteswar-publication-2026-11-27/release/publication-ci.json",
+    "log": "outputs/gupteswar-publication-2026-11-27/release/publication-ci.log"
+  },
+  "verified_routes": [
+    "/destinations/gupteswar/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/jhulana-in-odisha/",
+    "/stories/odisha/pentha/",
+    "/stories/ratha-yatra/",
+    "/stories/snana-purnima/",
+    "/stories/the-year-that-feeds-us/"
+  ],
+  "delivery_review": {
+    "path": "outputs/gupteswar-publication-2026-11-27/review/delivery-review.json",
+    "sha256": "2bc00f43db93831856918c85d73966496e05d051798e5c6f3baa26589914fd43",
+    "result": "PASS",
+    "reviewer": "Drishti, separate AI reviewer; no human specialist or field approval claimed."
+  },
+  "live_verification": {
+    "root_http": "outputs/gupteswar-publication-2026-11-27/live-verification.json",
+    "root_browser": "outputs/gupteswar-publication-2026-11-27/browser-live/manifest.json",
+    "independent_http": "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/http-verification.json",
+    "root_image_measurements": [
+      "outputs/gupteswar-publication-2026-11-27/live/root-image-comparison.json",
+      "outputs/gupteswar-publication-2026-11-27/live/root-related-image-comparison.json"
+    ],
+    "screenshots": 14,
+    "accepted_captures": 13,
+    "retained_framing_attempts": 1,
+    "raw_differences_retained": true,
+    "scope": "Nine routes, twelve scoped images and two shared CSS assets independently checked. Root operated all three incoming cards at desktop and mobile widths, source-note clicks and keyboard returns, and preview credit disclosure. Four differing image encodings were decoded, measured and personally viewed by root and reviewer; base sources exact. No encoding-cause, pixel-identity, exhaustive device or analytics-consent behavior claim. Historical local artifact predates Ratha and Pentha; actual source-derived supplements retain that distinction.",
+    "supplements": {
+      "ratha_css": "outputs/gupteswar-publication-2026-11-27/ratha-live/report.json",
+      "pentha_diagnosis": "outputs/gupteswar-publication-2026-11-27/release/pentha-diagnosis.json"
+    }
+  },
+  "pentha_checker_limit": {
+    "initial_result": "FAIL",
+    "raw": "outputs/gupteswar-publication-2026-11-27/pentha-live-20261127T023228Z/report.json",
+    "diagnosis": "outputs/gupteswar-publication-2026-11-27/release/pentha-diagnosis.json",
+    "resolution": "Original checker inserted four spaces before commas when replacing inline HTML tags. Separate text-node parsing of the same retained HTTP response matches the exact deployed source. Original failure and raw response preserved; no public-content change or fabricated new HTTP pass."
+  },
+  "receipt_reconciliation": {
+    "incoming_pr": 908,
+    "incoming_main": "9d0ef605c5eeee425026bb544cce6360fbd64f4c",
+    "plan": "outputs/gupteswar-publication-2026-11-27/release/incoming908-plan.json",
+    "public_source_diff_against_incoming_main": false,
+    "capacity": "Current combined receipt capacity requires its own hosted check; original Gupteswar deployment remains 999840641 bytes / 3810 files.",
+    "evidence": "outputs/gupteswar-publication-2026-11-27/release/receipt-reconciliation908.json",
+    "subsequent_incoming": {
+      "pr": 910,
+      "merge": "3af86cda87fa020841b9f944e57d38da4620dae6",
+      "required_ci": 45927079867,
+      "result": "SUCCESS",
+      "evidence": "outputs/gupteswar-publication-2026-11-27/release/receipt-reconciliation910.json",
+      "public_source_diff_against_incoming_main": false
+    }
+  },
+  "runtime_limits": {
+    "copying": "Two strict copier attempts stopped on tmp wheel-group inheritance before creating destination copies. Retried native clone-aware copies in a matching-group temporary directory, then renamed independent copies into evidence paths; hashes and metadata preserved, originals untouched, no hard links or full-copy fallback.",
+    "earlier_ci": "Run45921747182 cancelled as superseded after incoming Ratha changed release inputs; not a validation failure.",
+    "local_validation": "Pre906/pre907 local package remains historical. Exact combined hosted checks and actual deployment establish current release validation."
   }
 }
