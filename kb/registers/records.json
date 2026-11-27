@@ -11175,6 +11175,28 @@
       "evidence": [
         "records/gupteswar-publication-20261127.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261127005",
+      "title": "Public corroboration for Pentha design-length figures",
+      "category": "editorial_maintenance",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Disha with separate research, implementation and review agents"
+      },
+      "authorization": "POD-DEC-20261127005",
+      "next_action": "Review source-note addition, pass required checks, publish and verify the live note.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261127005",
+        "POD-REV-20261127005"
+      ],
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
+      ]
     }
   ],
   "decisions": [
@@ -17048,6 +17070,20 @@
       ],
       "evidence": [
         "records/gupteswar-publication-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261127005",
+      "title": "Add a separate public source for Pentha length figures",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another reliable, publicly accessible source for the 675-to-505-metre figures and update the Pentha article’s source notes, clearly distinguishing it from the CAG report.",
+      "scope": "Pentha source note 2: add independently verified public newspaper corroboration of the historic 675-to-505-metre design revision, clearly separate from CAG. Preserve narrative, source IDs, images and other articles.",
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
       ]
     }
   ],
@@ -27180,6 +27216,24 @@
         "records/antaranga-after-devagiri-preparation-20261127.json"
       ],
       "summary": "Separate source, originality, photograph, footnote and preparation checks pass. Indexed-only district access retained. No human specialist, fieldwork, public layout or deployment claimed."
+    },
+    {
+      "id": "POD-REV-20261127005",
+      "title": "Pentha public corroboration and bounded source-note review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate article_integration_review agent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261127005",
+        "POD-DEC-20261127005"
+      ],
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
+      ],
+      "summary": "Independent public-source verification and bounded note preservation pass. News corroborates the two lengths; CAG attribution and sign-in limitation retained. Publication pending."
     }
   ],
   "releases": [
