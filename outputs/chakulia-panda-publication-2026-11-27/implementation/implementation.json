@@ -1,0 +1,109 @@
+{
+  "status": "implementation_frozen",
+  "source_files": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro",
+      "sha256": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/pala.astro",
+      "sha256": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/daskathia.astro",
+      "sha256": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6"
+    },
+    {
+      "path": "projects/site/src/pages/literature/index.astro",
+      "sha256": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873"
+    },
+    {
+      "path": "projects/site/public/images/chakulia-panda/chakulia-panda-1200.webp",
+      "sha256": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "a85f5c4bfe17c0b6a499d18b394c8d93b5a9c5b390404ff996d5e9e1f8dd9e93"
+    },
+    {
+      "path": "projects/site/editions/responsive-images.json",
+      "sha256": "74654518318a78986f4f095d6b8e7413ddda081bbc18dc144bf615b70f4b702e"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "7b207da93d378ede16a2fc3c687729881d72b2a7f45b10e6605279b0b10b500c"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "2965b3ed51894aa7100cb94dd3067446aca68ecbd4d19664e8da1e4be5b9dc7a"
+    },
+    {
+      "path": "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "sha256": "f60a0ee935fe791d2e861945aa223db670a4f272bef85d8c98132eef43c90b76"
+    },
+    {
+      "path": "projects/site/tests-coast/core-sound-source-links.test.mjs",
+      "sha256": "8938a0c98f51bd0e20db7109f0be0548f0e387506b1844944ad0ef7ecbf8def8"
+    }
+  ],
+  "checks": {
+    "astro_compiler": "Four sources transformed with installed @astrojs/compiler-rs; no error diagnostics.",
+    "canonical": "Exact frozen Markdown from HEAD; original photo SHA and prepared WebP hash retained.",
+    "notes": "Native five references, five definitions, five return links; visible labels 1\u20135, photo second.",
+    "image_copy": "One native APFS clone, zero full copies; initial missing destination directory caused a non-destructive error, then directory created and clone succeeded.",
+    "projection": "In-memory existing responsive pipeline only; no build started.",
+    "helper": "verify-local.py syntax parsed only; root runs after final artifacts.",
+    "initial_checker_issue": "Installed Astro 7 uses @astrojs/compiler-rs; first checker could not find @astrojs/compiler, corrected import before passing."
+  },
+  "media": {
+    "base_bytes": 254404,
+    "variants": [
+      {
+        "width": 480,
+        "height": 377,
+        "bytes": 34726,
+        "sha256": "53cf3625d6ba7967d827a37b5999ed318df1beb7214b763c1a76db584477f3fe",
+        "src": "/images/responsive/53cf3625d6ba7967-480.webp"
+      },
+      {
+        "width": 960,
+        "height": 754,
+        "bytes": 109702,
+        "sha256": "018b1afa29fb4abd4cb8b62dcd33321d66b9fffaa800819c9f77a196dac00d5e",
+        "src": "/images/responsive/018b1afa29fb4abd-960.webp"
+      },
+      {
+        "width": 1200,
+        "height": 943,
+        "bytes": 203818,
+        "sha256": "ab30ba2c68f1aa0597f8c3b76caf9700c72e376d2d8730e971b088b097886922",
+        "src": "/images/responsive/ab30ba2c68f1aa05-1200.webp"
+      }
+    ],
+    "total_bytes": 602650
+  },
+  "implementation_notes": [
+    "Literature uses its actual directory index; local Shell/CultureMagazine preserve existing coastal filtering and old cards. One additional reading section follows the magazine inside Shell. No shared components modified.",
+    "Pala and Daskathia retain all reading paths. Daskathia existing no-image statement was qualified with the single word Daskathia to avoid contradicting the new related-reading photograph.",
+    "Incoming cards retain full image via scoped aspect ratio and object-fit:contain; shared preview component reserves its standard frame.",
+    "Source notes retain all wording and links; native rendered ordinal order changes without editing frozen manuscript.",
+    "No repeated visible dek, new factual summaries, client scripts, optimizers or shared KB/record changes."
+  ],
+  "guidance": {
+    "path": "outputs/chakulia-panda-publication-2026-11-27/web-guidance.md",
+    "applied": [
+      "html: one h1, figure/caption, real anchors, native notes",
+      "responsive-design: rem/viewport clamp, responsive image dimensions and full frame",
+      "performance: eager high-priority hero, lazy previews, existing srcset pipeline"
+    ]
+  },
+  "pending": [
+    "Root full/coast/publication builds and gates",
+    "Browser mobile/desktop review",
+    "Separate source/quality review",
+    "Capacity solution and actual package size",
+    "Publication and live delivery"
+  ],
+  "verifier_path": "outputs/chakulia-panda-publication-2026-11-27/verify-local.py",
+  "followup_test_scope": "outputs/chakulia-panda-publication-2026-11-27/implementation/coast-failure-resolution.json"
+}

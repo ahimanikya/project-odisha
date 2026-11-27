@@ -1,0 +1,91 @@
+{
+  "status": "integration",
+  "article_id": "POD-EDIT-CHAKULIA-PANDA-20261127",
+  "route": "/sounds-of-odisha/chakulia-panda/",
+  "title": "Chakulia Panda: Verse at the Doorstep",
+  "owner": "Disha",
+  "started_on": "2026-11-27",
+  "authorization": "POD-DEC-20261127410",
+  "work_id": "POD-WORK-20261127410",
+  "authorization_quote": "Has Gupteswar\u2019s final record merged and the slot returned now? If so, publish Chakulia Panda with the credited photograph, relevant article links, and mobile and desktop layout checks.",
+  "programme_credit": 0,
+  "scope_released": false,
+  "input_head": "3db513ae9d2caca01f8e8450ce95a8f7b22f1a3b",
+  "prior_handoff": {
+    "receipt": "records/gupteswar-publication-20261127.json",
+    "receipt_pr": 911,
+    "receipt_merge": "3db513ae9d2caca01f8e8450ce95a8f7b22f1a3b",
+    "required_ci": 45930880550,
+    "result": "SUCCESS",
+    "explicit_return_received": true
+  },
+  "foreign_ownership": {
+    "current_task": {
+      "kind": "article_receipt",
+      "owner": "Disha",
+      "status": "receipt_integration",
+      "article_id": "POD-EDIT-133",
+      "handoff": "records/kala-bhoomi-editorial-2026-11-11.json",
+      "scope_released": false
+    },
+    "handoff_home": "records/kala-bhoomi-editorial-2026-11-11.json",
+    "current_preparation": {
+      "id": "POD-EDIT-CHAKULIA-PANDA-20261127",
+      "owner": "Disha",
+      "phase": "preparation",
+      "handoff": "records/antaranga-after-devagiri-preparation-20261127.json",
+      "scope_released": true,
+      "status": "prepared_reviewed",
+      "topic": "Chakulia Panda: Verse at the Doorstep",
+      "release_condition": "Effective after separately reviewed local preparation commit and explicit return to coordinating hill chat."
+    }
+  },
+  "protected_preparation": {
+    "manifest": "outputs/gupteswar-publication-2026-11-27/protected-preparation.json",
+    "count": 141
+  },
+  "assignments": {
+    "Anvesha": {
+      "scope": [
+        "outputs/chakulia-panda-publication-2026-11-27/research/"
+      ],
+      "task": "Reuse prepared source evidence; review public prose, notes, credit, metadata and incoming-copy budgets; no new article or shared edits.",
+      "status": "source_review_pass"
+    },
+    "Samanta": {
+      "scope": [
+        "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro",
+        "projects/site/src/pages/sounds-of-odisha/pala.astro",
+        "projects/site/src/pages/sounds-of-odisha/daskathia.astro",
+        "projects/site/src/pages/literature/index.astro",
+        "projects/site/public/images/chakulia-panda/",
+        "projects/site route/media/discovery/edition registrations required only for this article",
+        "outputs/chakulia-panda-publication-2026-11-27/implementation/"
+      ],
+      "task": "Integrate reviewed narrative, credited full-frame photo, sharing and incoming previews; no shared records or Git/publication. Report exact paths.",
+      "status": "implementation_complete"
+    },
+    "Drishti": {
+      "scope": [
+        "outputs/chakulia-panda-publication-2026-11-27/review/"
+      ],
+      "task": "Separate source/media/capacity and integrated/rendered/delivery review on assigned candidates. No implementation/shared records.",
+      "status": "static_capacity_pass_rendered_pending"
+    }
+  },
+  "capacity": {
+    "latest_receipt_bytes": 999844384,
+    "files": 3811,
+    "headroom_bytes": 155616,
+    "status": "q86_existing_radha_delivery_reviewed",
+    "proposal": "outputs/chakulia-panda-publication-2026-11-27/capacity/proposal-q86.json",
+    "savings_bytes": 546637,
+    "actual_hosted_capacity_pending": true
+  },
+  "next_action": "Integrate reviewed manuscript/photo, separately resolve capacity, inspect local desktop/mobile, run required checks, publish then verify live and merge separately reviewed receipt.",
+  "local_checks": {
+    "status": "partial_prior_to_incoming_reconciliation",
+    "results": "outputs/chakulia-panda-publication-2026-11-27/build-results-before-bahuda.json",
+    "history": "outputs/chakulia-panda-publication-2026-11-27/check-history.json"
+  }
+}

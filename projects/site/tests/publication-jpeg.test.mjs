@@ -203,13 +203,16 @@ test('Radha delivery preserves the source and complete museum credit with guarde
  await mkdir(path.dirname(pagePath),{recursive:true});await writeFile(pagePath,html);
  const result=await optimizePublicationJPEGs(pathToFileURL(dir+'/'));
  assert.equal(result.files.length,1);assert.equal(result.files[0].status,'resized-and-compressed');assert.ok(result.saved_bytes>1000000);
- assert.deepEqual(result.files[0].settings,{maximum_dimension:2048,quality:95,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
+ assert.deepEqual(result.files[0].settings,{maximum_dimension:2048,quality:86,chromaSubsampling:'4:4:4',mozjpeg:true,preserve_metadata:true});
  const actual=await sharp(await readFile(assetPath)).metadata(),original=await sharp(source).metadata();
  assert.equal(actual.width,2048);assert.equal(actual.height,1341);
  assert.ok(Math.abs(actual.height-actual.width*original.height/original.width)<=1);
  assert.equal(original.orientation,undefined);assert.equal(actual.orientation,1);assert.equal(actual.orientation??1,original.orientation??1);
  for(const field of ['icc','iptc','xmp']){assert.equal(original[field],undefined);assert.equal(actual[field],undefined);}
  assert.equal(original.exif,undefined);assert.ok(actual.exif); // Technical EXIF added; no claim of raw metadata equality.
+ const previousDelivery=await sharp(source).resize({width:2048,height:2048,fit:'inside',withoutEnlargement:true}).keepMetadata().jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toBuffer();
+ assert.ok(previousDelivery.length-(await readFile(assetPath)).length>500000);
+ assert.deepEqual(actual.exif,(await sharp(previousDelivery).metadata()).exif);
  assert.equal(await readFile(pagePath,'utf8'),html.replace('public domain.','public domain. Full frame, resized and compressed for web delivery.').replace('property="og:image:width" content="3923"','property="og:image:width" content="2048"').replace('property="og:image:height" content="2569"','property="og:image:height" content="1341"'));
  assert.ok((await readFile(sourceURL)).equals(source));
  t.diagnostic('Radha capacity measurement: '+JSON.stringify(result.files[0]));

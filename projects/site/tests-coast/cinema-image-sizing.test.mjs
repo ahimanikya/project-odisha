@@ -39,5 +39,14 @@ test('all cinema figures preserve native dimensions and source associations with
 test('cinema cards use cropped preview frames while article images retain full sources',()=>{
  const hub=read('/cinema/');
  for(const block of hub.matchAll(/<section\b[^>]*class="([^"]*article-reading-path[^"]*)"/g)){assert.match(block[1],/uniform-images/);assert.doesNotMatch(block[1],/contain-images/);};
- assert.doesNotMatch(read('/literature/'),/contain-images/);
+ const literature=read('/literature/');
+ const literaturePaths=[...literature.matchAll(/<section\b[^>]*class="([^"]*article-reading-path[^"]*)"[^>]*>([\s\S]*?)<\/section>/g)];
+ const documentary=literaturePaths.filter(block=>block[1].split(/\s+/).includes('chakulia-reading'));
+ assert.equal(documentary.length,1,'One separately scoped documentary reading card');
+ assert.match(documentary[0][1],/contain-images/,'The documentary photograph remains full frame');
+ assert.match(documentary[0][2],/href="\/sounds-of-odisha\/chakulia-panda\/"/);
+ assert.match(documentary[0][2],/src="\/images\/chakulia-panda\/chakulia-panda-1200\.webp"/);
+ for(const block of literaturePaths.filter(block=>!block[1].split(/\s+/).includes('chakulia-reading'))){
+  assert.doesNotMatch(block[1],/contain-images/,'Other existing Literature preview frames retain their prior contract');
+ }
 });

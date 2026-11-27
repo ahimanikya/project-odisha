@@ -1,11 +1,28 @@
 ---
 import reviewedCulture from '../../data/reviewed-culture.json';
-import VoicesPage from '../../components/VoicesPage.astro';
+import Shell from '../../layouts/Shell.astro';
+import CultureMagazine from '../../components/CultureMagazine.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {allowsPage,isCoastalEdition} from '../../data/edition';
 import collection from '../../../../../kb/research/voices/collection.json';
 const entry=structuredClone(collection.pages.find(p=>p.path==='literature'));
 entry.cards.push(...reviewedCulture.filter(p=>p.category==='Literature').map(p=>({title:p.label,text:p.dek,href:p.href,asset:null,source_ids:[]})));
 entry.cards.push({title:'Gourahari Das',text:'Short fiction, novels, translation and an editorial life connecting writers and readers.',href:'/people/gourahari-das/',asset:null,source_ids:[]});
 entry.cards.push({title:'Birakishore Das',text:'',href:'/literature/birakishore-das/',asset:null,image:'/images/literature/birakishore-das/reading-table-480.webp',image_width:480,image_height:320,image_note:'Illustration: Project Odisha.',source_ids:[]});
 entry.cards.push({title:'Godabarish Mahapatra',text:'',href:'/stories/godabarish-mahapatra-and-niankhunta/',asset:null,image:'/images/stories/godabarish-niankhunta-480.webp',image_width:480,image_height:320,image_note:'Illustration: Project Odisha.',source_ids:[]});
+if(isCoastalEdition){
+ entry.cards=entry.cards.filter(card=>allowsPage(card.href));
+ entry.related=entry.related.filter(link=>allowsPage(link.href));
+}
 ---
-<VoicesPage entry={entry}/>
+<Shell title={entry.title} description={entry.lead} active="explore" wide related={false}>
+<CultureMagazine entry={entry}/>
+<section class="chakulia-invitation" aria-label="Further reading">
+<ArticleReadingPath class="chakulia-reading" heading="Continue reading" links={[{href:'/sounds-of-odisha/chakulia-panda/',title:'Chakulia Panda',image:'/images/chakulia-panda/chakulia-panda-1200.webp'}]} containImages/>
+<p class="chakulia-credit"><a href="https://commons.wikimedia.org/wiki/File:Chakulia_panda_walking_at_a_village_area_in_Odisha.JPG">Aditya Mahar</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Resized and compressed; same licence.</p>
+</section>
+</Shell>
+<style>
+.chakulia-invitation{max-width:740px;margin:0 auto 3rem;padding-inline:1.2rem}
+.chakulia-credit{font-size:.85rem;line-height:1.6;color:var(--muted)}.chakulia-reading :global(img){aspect-ratio:1200/943;height:auto;object-fit:contain}
+</style>

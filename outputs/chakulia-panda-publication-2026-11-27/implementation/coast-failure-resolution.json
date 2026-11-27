@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "scope": "Only two test selectors changed; no public source, shared component, canonical or built artifact changes.",
+  "initial_failure": {
+    "path": "outputs/chakulia-panda-publication-2026-11-27/checks/coast-tests.log",
+    "sha256": "ec543615a7b50d6dbdc2dcd3ebe818803977c40ce138b2ec573f63f098aa3c34",
+    "preserved_in_place": true,
+    "diagnoses": [
+      "Whole-page contain-images prohibition in Literature also matched the new full-frame documentary reading card; cinema crop contracts were not violated.",
+      "Daskathia selector counted the new navigation section as a seventh narrative block; the six original sourced blocks and their citations remained intact."
+    ]
+  },
+  "corrections": [
+    "Retained all cinema crop assertions and every other Literature reading-path frame assertion. Verified exactly one separately scoped Chakulia card with its required full-frame class, article URL and selected image.",
+    "Excluded semantic article-reading-path navigation from narrative blocks, retaining all exact paragraph/hash/source/count assertions. Added Daskathia reading-card identity and complete linked creator/licence/alteration checks."
+  ],
+  "files": [
+    {
+      "path": "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "sha256": "f60a0ee935fe791d2e861945aa223db670a4f272bef85d8c98132eef43c90b76"
+    },
+    {
+      "path": "projects/site/tests-coast/core-sound-source-links.test.mjs",
+      "sha256": "8938a0c98f51bd0e20db7109f0be0548f0e387506b1844944ad0ef7ecbf8def8"
+    }
+  ],
+  "validation": {
+    "command": "node --test tests-coast/cinema-image-sizing.test.mjs tests-coast/core-sound-source-links.test.mjs",
+    "cwd": "projects/site",
+    "passed": 8,
+    "failed": 0,
+    "log": "outputs/chakulia-panda-publication-2026-11-27/implementation/coast-targeted-test.log",
+    "log_sha256": "1296f8907db0de0b6ebbab735085c3335ea7c320d9692e4cd6b8e43bb7b49a06",
+    "initial_invocation_limit": "First test invocation used repository cwd and found no test paths; rerun from projects/site ran all eight tests."
+  },
+  "rebuild_required": false,
+  "next": "Root may reconcile its other authorized integration and run full combined release checks."
+}

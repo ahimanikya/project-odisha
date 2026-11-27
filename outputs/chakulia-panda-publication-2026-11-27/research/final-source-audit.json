@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "reviewed_on": "2026-11-27",
+  "reviewer": "Anvesha, task-scoped AI source reviewer",
+  "publication_authorized": true,
+  "scope_released": true,
+  "scope": "Actual integrated source text, canonical continuity, image attribution and new public wording; not browser layout, deployment or capacity approval.",
+  "prepared_evidence": {
+    "canonical": "kb/research/culture/chakulia-panda.md",
+    "canonical_sha256": "bcef9bd05b624888aca1a372b7f08cabf3bc7332de61dfd0f9204c23d1adb868",
+    "source_dossier": "kb/research/culture/chakulia-panda-sources.json",
+    "source_dossier_sha256": "28812a4461662a9494dd8f4930bad36121ae4e79e9de14e29c9200c04261ce35",
+    "image_record": "kb/research/culture/chakulia-panda-image.json",
+    "image_record_sha256": "75c6fa9c90db5524294da7d77903010b97742b25b4f69e642b0e753f29bfa7f2",
+    "prior_audit": "outputs/antaranga-after-devagiri-20261127/research/final-source-audit.json",
+    "preservation": "All141 files independently hashed against outputs/gupteswar-publication-2026-11-27/protected-preparation.json; zero mismatches. Initial result recorded in source-readiness.json. Preparation files not edited."
+  },
+  "actual_public_files": {
+    "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85",
+    "projects/site/src/pages/sounds-of-odisha/pala.astro": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4",
+    "projects/site/src/pages/sounds-of-odisha/daskathia.astro": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6",
+    "projects/site/src/pages/literature/index.astro": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873"
+  },
+  "renderer_check": {
+    "method": "Read wrapper, shared raw renderer and reading-path component; independently invoked existing renderReviewedCultureArticle with frozen canonical and exact public image mapping using repository Node25 runtime.",
+    "generated_html_sha256": "0a69f8c2aac0ea7423f803f55be2153a9a2ebc56975a13d2bad0e32219499288",
+    "matches_implementation_contract": true,
+    "references": 5,
+    "notes": 5,
+    "returns": 5,
+    "note_order": "District1, photograph2, Dash3, Alana4, AIIMS5. Stable internal targets retain original source IDs and evidence associations.",
+    "limitations": "This is actual renderer output plus source inspection, not a full built-page/browser visual review. Initial system Node was too old for module flag; successful check used installed repository runtime."
+  },
+  "public_copy": {
+    "title": "Chakulia Panda: Verse at the Doorstep",
+    "metadata_description": "Travelling singers, moral verse and a modern use of an Odia performance tradition.",
+    "visible_dek": null,
+    "incoming_count": 3,
+    "incoming_label_each": "Chakulia Panda",
+    "incoming_description_each": null,
+    "incoming_alt_each": "",
+    "incoming_credit_each": "Aditya Mahar · CC BY-SA 4.0. Resized and compressed; same licence.",
+    "credit_links": ["https://commons.wikimedia.org/wiki/File:Chakulia_panda_walking_at_a_village_area_in_Odisha.JPG", "https://creativecommons.org/licenses/by-sa/4.0/"],
+    "old_daskathia_limit_clarification": "The added word Daskathia qualifies its existing no-performance-recording-or-image limitation, so it does not deny the presence of a related Chakulia photograph or add a new historical claim."
+  },
+  "public_budget_method": {
+    "unit": "Whitespace-delimited visible/metadata words; syntax, URL destinations and numeric navigation markers excluded. The separator dot in compact credits is conservatively counted as one token.",
+    "shared_each_family": {"title": 6, "metadata_description": 13, "source_heading": 3, "three_incoming_labels": 6, "total": 28},
+    "scope_distinction": "Recomputed actual authored public scope. Historical preparation briefheading4, internal subjects6 and district briefaccess46 are not new public text. Exact repeated title/description/alt representations in share metadata or responsive markup are counted once rather than as independent prose. Three separately authored incoming labels and three displayed credits are each counted.",
+    "editorial_interpretation": "The18-word singer-attention paragraph is charged to district, Dash and Alana. Dash-related theme interpretation is fully included. Original49-word closing interview/recordkeeping questions remain original editorial guidance without source-derived claims. Existing Project Odisha reading titles and standard navigation are not third-party derivations."
+  },
+  "source_family_allocations": [
+    {"id": "chakulia-deogarh-culture", "shared": 28, "opening": 33, "note": 20, "singer_attention": 18, "total": 99, "limit": 200},
+    {"id": "chakulia-dash-2022", "shared": 28, "opening": 15, "heading": 4, "examples": 57, "interpretation": 44, "note": 18, "singer_attention": 18, "total": 184, "limit": 200},
+    {"id": "osha-alana-shrutilipi2025", "shared": 28, "opening": 23, "heading": 5, "character_paragraph": 49, "note": 13, "singer_attention": 18, "total": 136, "limit": 200},
+    {"id": "chakulia-aiims-2023-24", "shared": 28, "heading": 6, "report_paragraph": 47, "note": 12, "total": 93, "limit": 200},
+    {"id": "chakulia-mahar-commons-2015", "shared": 28, "alt": 17, "caption": 16, "main_credit_note": 38, "three_incoming_credits": 33, "total": 132, "limit": 200}
+  ],
+  "source_and_rights_findings": {
+    "continuity": "PASS. Wrapper consumes canonical raw body and unchanged alt/caption/notes. Main title and metadata read directly from canonical. No new historical summary or description on incoming cards.",
+    "district": "Indexed-only access remains explicitly visible; no direct-read claim or present-day extinction assertion added.",
+    "dash": "Authored examples remain attributed and limited; no universal programme, cake-name origin, caste or Kendara instrument inference.",
+    "alana": "Fictional father remains distinct from actual performers and does not establish community conduct.",
+    "aiims": "Institutional song development remains dated2October2023; no witnessed performance, effectiveness or revival claim.",
+    "photo": "Unchanged prepared1200px WebP public base verified SHA a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df. Creator, source,CC BY-SA4.0, alteration and same-licence statement present on main article and all three new image surfaces. No person/village/song identification inferred. Empty incoming alt is decorative beside identifying link text.",
+    "source_access": "Prepared original captures and access notes reused without new research. District direct availability was not rechecked; existing truthful review limitation remains. No new source gap required reopening research.",
+    "limits": "No lyrics copied. No human specialist review, interview, browser layout check, final media-variant visual review or deployment claimed by this audit. Root and independent reviewer retain publication/capacity/rendered acceptance."
+  }
+}

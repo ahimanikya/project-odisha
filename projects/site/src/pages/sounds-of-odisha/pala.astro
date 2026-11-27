@@ -1,4 +1,5 @@
 ---
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import ArticleFootnote from '../../components/ArticleFootnote.astro';
 import ArticleFootnotes from '../../components/ArticleFootnotes.astro';
@@ -20,7 +21,9 @@ const contents=[...sections.filter(block=>block.title).map(block=>({title:block.
 <p><a href="/literature/">Explore Odia literature →</a> · <a href="/sounds-of-odisha/#daskathia">Meet Daskathia →</a></p>
 <ArticleFootnotes sources={story.sources.map(s=>({id:s.id,title:s.title,url:s.resource,note:s.reader_note}))} passages={passages}><p>More artists and their work: <a href="https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/pala-artists.md">the twenty-artist collection</a>.</p><h3>Photograph</h3><p><a href={story.photo.url}>{story.photo.creator} · Nalconagar, 2013</a> · <a href={story.photo.license_url}>{story.photo.license}</a>. {story.photo.changes} The performer is not identified here.</p></ArticleFootnotes>
 <p>Continue through Sounds of Odisha with <a href="/stories/dhumpa-music-and-its-players/">Dhumpa Music and Its Players →</a>.</p>
+<ArticleReadingPath class="chakulia-reading" heading="Continue reading" links={[{href:'/sounds-of-odisha/chakulia-panda/',title:'Chakulia Panda',image:'/images/chakulia-panda/chakulia-panda-1200.webp'}]} containImages/>
+<p class="chakulia-credit"><a href="https://commons.wikimedia.org/wiki/File:Chakulia_panda_walking_at_a_village_area_in_Odisha.JPG">Aditya Mahar</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Resized and compressed; same licence.</p>
 <SoundReadingPaths current="pala"/>
 <p><a href="/contribute/?page=%2Fsounds-of-odisha%2Fpala%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p><SoundsReadingTrail slug="pala"/></div>
 </article></Shell>
-<style>.collection-return{display:inline-block;margin:1rem 0 2rem}.pala-hero h1 em{color:var(--sea)}.pala-hero .lead{font-size:1.25rem;line-height:1.7}.pala-hero figure{margin:2rem 0}.pala-hero img{display:block;width:100%;height:auto}.pala-hero figcaption{font-size:.85rem;color:var(--muted);margin-top:.6rem;line-height:1.6}.narrative-section{margin-block:2.5rem}.narrative-section h2{scroll-margin-top:2rem}</style>
+<style>.chakulia-credit{font-size:.85rem;line-height:1.6;color:var(--muted)}.chakulia-reading :global(img){aspect-ratio:1200/943;height:auto;object-fit:contain}.collection-return{display:inline-block;margin:1rem 0 2rem}.pala-hero h1 em{color:var(--sea)}.pala-hero .lead{font-size:1.25rem;line-height:1.7}.pala-hero figure{margin:2rem 0}.pala-hero img{display:block;width:100%;height:auto}.pala-hero figcaption{font-size:.85rem;color:var(--muted);margin-top:.6rem;line-height:1.6}.narrative-section{margin-block:2.5rem}.narrative-section h2{scroll-margin-top:2rem}</style>
