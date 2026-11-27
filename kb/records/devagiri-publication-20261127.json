@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "completed",
   "article_id": "POD-EDIT-DEVAGIRI-20261127",
   "route": "/destinations/devagiri/",
   "owner": "Disha",
@@ -8,7 +8,7 @@
   "authorization_quote": "Has Godabarish’s final receipt merged and the slot returned now? If so, research, review and publish the next uncovered hill destination with a high-quality credited image in the article and preview.",
   "work_id": "POD-WORK-2026112791",
   "programme_credit": 0,
-  "scope_released": false,
+  "scope_released": true,
   "input_head": "54a8b3260b4ec006b815b24763fbb43456984177",
   "prior_handoff": {
     "record": "records/godabarish-publication-20261126.json",
@@ -75,10 +75,10 @@
       "implemented": "Mardala existing1728px delivery quality95 to90 only; source/original/full frame/credit retained",
       "projected_savings_bytes": 329072,
       "new_image_projected_bytes": 269246,
-      "actual_gate": "pending"
+      "actual_gate": "PASS: required Linux CI999924560bytes/3798files"
     }
   },
-  "next_action": "Exact committed review and required hosted checks, then deployment, live review and receipt.",
+  "next_action": "Finish separate integrated/exact-commit receipt review, required hosted checks and actual receipt merge; then explicitly return reserved preparation-only slot.",
   "web_guidance": "outputs/devagiri-publication-2026-11-27/web-guidance.md",
   "setup_check_history": [
     {
@@ -90,6 +90,11 @@
       "check": "registers.py",
       "initial_result": "FAIL: unsupported in_review readiness value in owned Devagiri work row",
       "resolution": "Restored allowed draft readiness while final package/review remain pending; next action still accurately names remaining gates."
+    },
+    {
+      "check": "Receipt rollout/team validation",
+      "initial_result": "FAIL: completed row lacked explicit publication_receipt field; operations used completed phase rather than receipt_integrated. Follow-up rollout check required standard top-level pull_request/deployment/verified_routes delivery fields.",
+      "resolution": "Added actual receipt/delivery pointers and used existing receipt_integrated/published_verified schema; scope remains subject to actual receipt merge. Added standard fields bound to actual successful deployment and actual five verified routes."
     }
   ],
   "research": {
@@ -146,7 +151,7 @@
     "completed_local_stages": "outputs/devagiri-publication-2026-11-27/completed-prepublication-checks/results.json",
     "reason": "Historical local publication-build3070.65seconds. Submit reviewed draft candidate for hosted checks while final local packaging runs; do not merge or deploy until final package and separate exact review pass.",
     "local_package_status": "PASS",
-    "hosted_status": "not submitted yet",
+    "hosted_status": "Required CI45897117216 attempt1 passed exact final candidate",
     "plan_outcome": "Superseded before PR submission: local pipeline completed while candidate review was underway. Final local results will be included in candidate."
   },
   "local_validation": {
@@ -175,5 +180,127 @@
     "separate_review": "outputs/devagiri-publication-2026-11-27/reconciliation-review.json",
     "sha256": "6b54b53e021941aec37de08bc3a5c2e81dd607eb7ba45bbd6bcf5cdf7d6ae015",
     "public_source_change": false
+  },
+  "publication": {
+    "pull_request": 898,
+    "reviewed_head": "8e8fc60e49cf9c840870c57e19a3c8535469f2e1",
+    "required_ci": 45897117216,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "merge": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+    "reviewed_and_merged_tree": "8050902b2b3d168456a1eb65e790b9794f5b6d5a",
+    "deployment_run": 45900807100,
+    "deployment_status": "success",
+    "actual_linux_ci_bytes": 999924560,
+    "actual_linux_ci_files": 3798,
+    "actual_linux_ci_remaining_bytes": 75440,
+    "deployment_attempt": 1,
+    "actual_deployed_bytes": 999924560,
+    "actual_deployed_files": 3798,
+    "actual_deployed_remaining_bytes": 75440
+  },
+  "release_evidence": "outputs/devagiri-publication-2026-11-27/release/",
+  "next_slot_reservation": {
+    "chat": "01a1fb2f-f551-7330-b96b-507aaed53178",
+    "scope": "One independently researched preparation-only article from an uncovered Antaranga Kalinga website or social lead",
+    "condition": "Actual reviewed Devagiri receipt merge and explicit handoff",
+    "evidence": "outputs/devagiri-publication-2026-11-27/release/next-reservation-import.json"
+  },
+  "receipt_pending": true,
+  "completed_on": "2026-11-27",
+  "review_id": "POD-REV-2026112791",
+  "release_id": "POD-REL-2026112791",
+  "live_url": "https://projectodisha.org/destinations/devagiri/",
+  "delivery_review": {
+    "path": "outputs/devagiri-publication-2026-11-27/delivery-review.json",
+    "sha256": "9dd4de7fbc24054eca84771580e20791ff5d9fd25f6f6860f1e97d1f4061e226",
+    "result": "PASS",
+    "reviewer": "Separate Drishti AI reviewer; no human specialist or field approval claimed."
+  },
+  "live_verification": {
+    "root_http": "outputs/devagiri-publication-2026-11-27/live-verification.json",
+    "root_browser": "outputs/devagiri-publication-2026-11-27/root-live-browser-review.json",
+    "root_image_measurements": "outputs/devagiri-publication-2026-11-27/root-live-image-measurements.json",
+    "screenshots": 16,
+    "accepted_captures": 14,
+    "retained_attempts": 2,
+    "raw_differences_retained": true,
+    "scope": "Five live routes. Root captured4scopedimages; separate reviewer additionally captured existing Odissi480 to explain Sakhi reading-card URL. Three new Devagiri image files, new article and three incoming cards byte-exact. Mardala JPEG and existing Odissi480 differ, independently decoded/measured/personally viewed and accepted by root and reviewer. No encoding-cause or pixel-identity claim. Full shell analytics differences classified separately, not consent-behavior audited."
+  },
+  "receipt_reconciliation": {
+    "incoming_pr": 899,
+    "incoming_main": "6ce1b925257d5467d889334e127244a376f0bccb",
+    "evidence": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-899.json",
+    "public_source_diff_against_incoming_main": false,
+    "capacity": "Required combined receipt CI pending; original Devagiri deployment measurement remains distinct."
+  },
+  "release_condition": "Scope release takes effect only after this separately reviewed evidence-only receipt actually merges following required CI. Explicit handoff then goes to reserved Research Antaranga Kalinga preparation-only article; no next hill is claimed.",
+  "runtime_history": {
+    "reported_interruption": "Other chat reported workspace-credit interruption before live review; runtime resumed and all live checks were actually performed afterward.",
+    "upload": "Initial unchanged candidate upload failedHTTP400 with remote branch absent; temporary transfer settings retry succeeded.",
+    "evidence_import": "Strict clone-aware copy stopped on source group-ownership preservation; originals untouched. New structured evidence wrappers retain parsed originals, exact hashes and metadata, no exact-copy claim or full-copy fallback."
+  },
+  "pull_request": 898,
+  "deployment": {
+    "run": 45900807100,
+    "attempt": 1,
+    "conclusion": "success",
+    "head": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+    "bytes": 999924560,
+    "files": 3798,
+    "evidence": "outputs/devagiri-publication-2026-11-27/release/deployment-status.json"
+  },
+  "verified_routes": [
+    "/destinations/devagiri/",
+    "/destinations/hills/",
+    "/destinations/",
+    "/explore/",
+    "/stories/sakhi-nata-and-sakhi-pila/"
+  ],
+  "integrated_receipt_review": {
+    "path": "outputs/devagiri-publication-2026-11-27/receipt-review.json",
+    "sha256": "bbff5378a6063ea74af9cdd3051bc0ecee82eaa07612f551c0ecea1d7f4bd19a",
+    "result": "PASS",
+    "scope": "Final integrated evidence-only receipt and PR899 preservation; exact committed continuity, required CI and actual receipt merge remain."
+  },
+  "receipt_whitespace": "outputs/devagiri-publication-2026-11-27/receipt-whitespace-review.json",
+  "additional_receipt_reconciliation": {
+    "incoming_pr": 900,
+    "incoming_main": "728a83723d5a89dcb3e246b62a4980b386bafec6",
+    "evidence": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-900.json",
+    "prior_receipt_ci": 45906029809,
+    "status": "Prior exact head passed; combined receipt review and CI required. Incoming source-audit work preserved; no receipt-owned public changes.",
+    "separate_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-review-900.json",
+      "sha256": "303c31c9a24bd2171abb029b1b9ef6f91cfaaaa921ae7c8589117ccadbe82309",
+      "result": "PASS"
+    }
+  },
+  "further_receipt_reconciliation": {
+    "incoming_pr": 901,
+    "incoming_main": "5727c8c9ff0a2713eba4dedb42873bd4f7d719ac",
+    "evidence": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-901.json",
+    "superseded_ci": 45908778637,
+    "status": "Incoming semiconductor article preserved; fresh combined exact review and CI required. No receipt-owned public source changes.",
+    "separate_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-review-901.json",
+      "sha256": "73d0f77eacbb1b6bcb05c483093e271648f2f3ae4a4f36f8a1f1573f3cc8aee1",
+      "result": "PASS"
+    }
+  },
+  "latest_receipt_reconciliation": {
+    "incoming_prs": [
+      904,
+      903
+    ],
+    "incoming_main": "adadaf3d1074720e88f926dc2905558c7d4cf85e",
+    "evidence": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-903-904.json",
+    "prior_ci": 45909750912,
+    "status": "Prior CI historical to edad3ff3; new combined exact review and CI required. Original Devagiri live review/deployment unchanged.",
+    "separate_review": {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-review-903-904.json",
+      "sha256": "f2e8f6f88bf710dba3c6eaf73c0cde83dacbc00e2fcb8706709f21bc3676257b",
+      "result": "PASS"
+    }
   }
 }

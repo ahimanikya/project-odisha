@@ -1,0 +1,324 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "scope": "Fresh independent Devagiri live delivery review, bounded affected Mardala photograph and its changed reading-card derivative. Integrated receipt and subsequent foreign reconciliation are separate.",
+  "publication_merge": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+  "reviewed_head": "8e8fc60e49cf9c840870c57e19a3c8535469f2e1",
+  "reviewed_and_merged_tree": "8050902b2b3d168456a1eb65e790b9794f5b6d5a",
+  "publication_PR": 898,
+  "CI": {
+    "run": 45897117216,
+    "attempt": 1,
+    "conclusion": "success",
+    "independent_GitHub_read": true
+  },
+  "deployment": {
+    "run": 45900807100,
+    "attempt": 1,
+    "head": "e078dcd6df03d0f78b4bb06ac9bd0c33ca68162e",
+    "status": "completed",
+    "conclusion": "success",
+    "independent_GitHub_read": true,
+    "payload_bytes": 999924560,
+    "payload_files": 3798,
+    "remaining_bytes": 75440,
+    "payload_evidence": "Actual retained CI and deployment logs agree; no local-to-Linux estimate used."
+  },
+  "fresh_HTTP": {
+    "independent_routes": 5,
+    "independent_images": 5,
+    "all_HTTP200": true,
+    "root_scope_distinction": "Root captured five routes and four selected/affected image files,221checks,retaining REVIEW_DIFFERENCES. Reviewer additionally fetched the changed Odissi rehearsal480 derivative needed to classify the Sakhi article fragment.",
+    "routes": [
+      {
+        "url": "https://projectodisha.org/destinations/devagiri/",
+        "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/destinations/devagiri/index.html",
+        "sha256": "8fd8f5b0383883f1f3dfcbdd9899e838d2dc1d9e2ddf9a0654b046cb33331003"
+      },
+      {
+        "url": "https://projectodisha.org/destinations/hills/",
+        "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/destinations/hills/index.html",
+        "sha256": "b26316c76f19c32b5b8f5472a4e5f2a8fab11e32c256232b258797d097dc45aa"
+      },
+      {
+        "url": "https://projectodisha.org/destinations/",
+        "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/destinations/index.html",
+        "sha256": "3cdcb3021d771ca71afe9aa614210c4308ddbe5eb7b06727edbe913ff08ac0f4"
+      },
+      {
+        "url": "https://projectodisha.org/explore/",
+        "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/explore/index.html",
+        "sha256": "8ee33314041fadd8e6bc26a2cf7b5974c4e39752520332b602d6f2937e10b72f"
+      },
+      {
+        "url": "https://projectodisha.org/stories/sakhi-nata-and-sakhi-pila/",
+        "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/pages/stories/sakhi-nata-and-sakhi-pila/index.html",
+        "sha256": "94271f5983fafca318fce5c396c06fdeceeeccec1eaec0a78666a4666771fb58"
+      }
+    ],
+    "selected_new_image_family": "All three Devagiri files are byte-exact to reviewed local package, with decoded960×1210,480×605 and960×1210 geometry and correct content-addressed variant prefixes.",
+    "native_notes": "Seven references, four notes and seven returns resolve to actual IDs. Original sources, creator/licence links, image changes and sharing metadata match. Search hold remains noindex, follow.",
+    "previews": "All three Devagiri cards are byte-exact including center-top preview style, image identity, alt, title and summary; actual HTML retains creator/licence/source/alteration credits. Preview credit disclosure was not opened in root live browser pass."
+  },
+  "difference_classification": {
+    "raw_root_difference_count": 7,
+    "root_difference_types": "Five whole-page differences, one Sakhi article fragment difference, one Mardala JPEG difference. Raw report remains unchanged.",
+    "Devagiri_article_fragment": "Byte-exact6231526e9227c90c2420daf9239050f373e0f28a9bc78eb2462307b9c5fa86a0; no substitution needed.",
+    "Sakhi_article_fragment": {
+      "route": "/stories/sakhi-nata-and-sakhi-pila/",
+      "raw_exact": false,
+      "local_sha256": "7b1cd6f44e292a11ddaef81b3f0b439636b4f9716ffcf27d073c384bf3b37164",
+      "live_sha256": "074ee814589951fe6b508bbeda26cc41c3129870304c9a4fd2e611991654beef",
+      "observed_substitutions": {
+        "/images/responsive/d56d266914463e00-480.webp": "/images/responsive/7709f4b4aa26dd76-480.webp"
+      },
+      "equal_after_only_observed_substitutions": true
+    },
+    "whole_pages": "After explicit observed responsive-image URL substitutions, each whole page differs only by one exact analytics configuration/cookie-choice/status insertion outside the article. No unknown text or structural remainder. Raw HTML and exact inserted chunks retained.",
+    "Explore_limit": "54 existing image tags have37 unique responsive filename substitutions. These are classified as exact URL-only changes; unrelated image bytes were not fetched or visually approved. Devagiri card itself is byte-exact.",
+    "actual_image_measurements": [
+      {
+        "url": "https://projectodisha.org/images/destinations/devagiri-vinayak-hpsatapathy.webp",
+        "live_sha256": "15b8a5a9acfe91760d897e92cafc6fa086620a6e8f31f2713f6d5e10fe229caf",
+        "local_sha256": "15b8a5a9acfe91760d897e92cafc6fa086620a6e8f31f2713f6d5e10fe229caf",
+        "byte_exact": true,
+        "width": 960,
+        "height": 1210,
+        "orientation": 1,
+        "metadata_equal": {
+          "exif": true,
+          "icc": true,
+          "iptc": true,
+          "xmp": true
+        }
+      },
+      {
+        "url": "https://projectodisha.org/images/responsive/bf021c2067288898-480.webp",
+        "live_sha256": "bf021c2067288898d2ea8d0b6c8c1f9cd10b690d9679f6563f237346deae7c3b",
+        "local_sha256": "bf021c2067288898d2ea8d0b6c8c1f9cd10b690d9679f6563f237346deae7c3b",
+        "byte_exact": true,
+        "width": 480,
+        "height": 605,
+        "orientation": 1,
+        "metadata_equal": {
+          "exif": true,
+          "icc": true,
+          "iptc": true,
+          "xmp": true
+        }
+      },
+      {
+        "url": "https://projectodisha.org/images/responsive/daf4a271e78fea12-960.webp",
+        "live_sha256": "daf4a271e78fea12eda4a04062757ae39dd95c34d8ad29810ef57c05df9e8795",
+        "local_sha256": "daf4a271e78fea12eda4a04062757ae39dd95c34d8ad29810ef57c05df9e8795",
+        "byte_exact": true,
+        "width": 960,
+        "height": 1210,
+        "orientation": 1,
+        "metadata_equal": {
+          "exif": true,
+          "icc": true,
+          "iptc": true,
+          "xmp": true
+        }
+      },
+      {
+        "url": "https://projectodisha.org/assets/sakhi-nata-and-sakhi-pila/mardala.jpg",
+        "live_sha256": "2ac547b5f493468dc8f89558783bcfd84bb0edb3fb05720ec25b7d026283b085",
+        "local_sha256": "d22fe88283d1342230e27d29d3a835d82f38b10a1afd8e8c1f1e68fc0e72ef09",
+        "byte_exact": false,
+        "width": 1552,
+        "height": 1728,
+        "orientation": 1,
+        "metadata_equal": {
+          "exif": true,
+          "icc": true,
+          "iptc": true,
+          "xmp": true
+        },
+        "changed_rgb_channels": 189,
+        "changed_pixels": 122,
+        "max_rgb_delta": 2,
+        "mean_absolute_rgb_delta": 3.256451253659157e-05,
+        "total_rgb_channels": 8045568,
+        "comparison": {
+          "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/comparison-3.png",
+          "sha256": "296c3923e2954cd69f8422d4c4994ec3c8a52ffa4c8149694f63970983d92a0b",
+          "layout": "local left; freshly fetched live right; same full frame, scaled only for inspection"
+        }
+      },
+      {
+        "url": "https://projectodisha.org/images/responsive/7709f4b4aa26dd76-480.webp",
+        "live_sha256": "7709f4b4aa26dd762225330e778f1d35c7405278d900fe7b825c89c4e5c5e8ba",
+        "local_sha256": "d56d266914463e00117960f59ad5f83d175f8371200df895719c4bb5e79b4de4",
+        "byte_exact": false,
+        "width": 480,
+        "height": 320,
+        "orientation": 1,
+        "metadata_equal": {
+          "exif": true,
+          "icc": true,
+          "iptc": true,
+          "xmp": true
+        },
+        "changed_rgb_channels": 294232,
+        "changed_pixels": 104374,
+        "max_rgb_delta": 22,
+        "mean_absolute_rgb_delta": 1.55689453125,
+        "total_rgb_channels": 460800,
+        "comparison": {
+          "file": "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/comparison-4.png",
+          "sha256": "f443cb93964d4af75c9b3d5e39cdd51d63bf86d84387269f9dffa161b20bc8d7",
+          "layout": "local left; freshly fetched live right; same full frame, scaled only for inspection"
+        }
+      }
+    ],
+    "visual_acceptance": "Independently opened both generated local-left/live-right full-frame comparisons. Mardala sign, surface and lacing remain legible with no conspicuous display degradation. Odissi rehearsal derivative preserves framing, figures, floor and interior detail at native480px. Accepted for the scoped displayed use; neither differing file is called byte- or pixel-identical, and no encoding cause is inferred."
+  },
+  "screenshots": {
+    "individually_viewed": 16,
+    "accepted_scoped": 14,
+    "retained_initial_attempts": 2,
+    "captures": [
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-article-top.jpg",
+        "sha256": "9e521a79801a4e30e5f3fba9de6a2c7c4d050333de6bd99d67ca04f96360d970",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-destinations-preview.jpg",
+        "sha256": "bb354500edd285d37353b439f2e1a24b6629b606acc8bd30907e2ee438ce0d51",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-explore-preview.jpg",
+        "sha256": "f857b376ad9c06f3ceab091213e4759d9d073195b1d8669357ab561bf48e5d47",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-full-photograph-credit.jpg",
+        "sha256": "d42f971bc3c399153b64d3aa386fe70e2143f8902d303a057ae681817fad6c9e",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-hills-preview-loaded.jpg",
+        "sha256": "a519ddcfab44a0e9448abfdd2611327902dc5917581469e6ea8130b084f6097f",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-hills-preview.jpg",
+        "sha256": "d2fae0c82ce3ffa66b2d9681f07206873eacda7abface8a750bc5004cbc445f3",
+        "accepted": false,
+        "scope_limit": "Initial capture before lazy images loaded; superseded by desktop-hills-preview-loaded.jpg."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-mardala-credit.jpg",
+        "sha256": "873cb588d9968bfd3010990cc6f66f88bc68f7ef56fc54846ad6cc674d10bf5e",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-photograph-credit.jpg",
+        "sha256": "c652f205277a0304d1ed9b69a19c61493f43d1b637d9b3539d059400a7357672",
+        "accepted": false,
+        "scope_limit": "Initial framing clips a small top strip; superseded by desktop-full-photograph-credit.jpg."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/desktop-sources.jpg",
+        "sha256": "49d958181f52eb6da2db12456f77f0f81547cef0c12cc17e751ece251efefa0c",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-article-top.jpg",
+        "sha256": "a0466facbcd6e65682ab3becea198ff2a5d3b59b6228f9f21c3b6bafc7ade096",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-destinations-preview.jpg",
+        "sha256": "a8b4c2ad9d775001bd856f473418eba5e9459ac0785d1737c53fedc3b683301d",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-explore-preview.jpg",
+        "sha256": "a4181e807c82e5d3fff569e94d3371d3479d9b57fed2e61a288253a103135674",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-hills-preview.jpg",
+        "sha256": "46bb7955f1ef50e67eb976fe97b6ec153830aa5780ddf3a5156886707047a7a3",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-mardala-credit.jpg",
+        "sha256": "6086fce0a8c333dcee341ef31423c2ee516ab5f77fe205c41ba962466fd22032",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-photograph-credit.jpg",
+        "sha256": "d763e5031fc975f69ec4377cb5f2f9796edcc0754d8d58b30d247d8815c2d43b",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      },
+      {
+        "path": "outputs/devagiri-publication-2026-11-27/live-screenshots/mobile-sources.jpg",
+        "sha256": "0380fd95ffb64babaaeb18eaab8d332959fbc614abd0fa3dd8003583101a22ba",
+        "accepted": true,
+        "scope_limit": "Viewport-specific capture; does not show entire page."
+      }
+    ],
+    "observations": "Full Devagiri portrait and complete dated caption/creator/licence/changes visible at both widths. Six final incoming previews keep the shrine tower and readable title/summary. Both Mardala images show the complete existing photographic frame and complete credit. Desktop sources show all four notes with heading above frame; mobile sources show only note four and reading paths. Initial unloaded Hills and slightly top-clipped portrait frames are retained, not acceptance evidence.",
+    "interaction_attribution": {
+      "operator": "Disha root",
+      "actions": [
+        "Desktop source note1 click resolved #user-content-fn-place; keyboard Enter return resolved #user-content-fnref-place.",
+        "Mobile source note4-2 click resolved #user-content-fn-kartik; keyboard Enter return resolved #user-content-fnref-kartik-2.",
+        "All3incoming Devagiri title links from Hills,Destinations,Explore clicked at bothwidths; all6resolved /destinations/devagiri/.",
+        "Full-frame Devagiri photograph and actual credit personally viewed at bothwidths.",
+        "Affected Mardala delivered full-frame photograph and credit personally viewed at bothwidths.",
+        "Temporary viewport reset; live article left as deliverable."
+      ],
+      "reviewer_browser_actions": false
+    }
+  },
+  "preservation": {
+    "deployed_commit_all23_inputs_match": true,
+    "current_protected_files_exact": 113,
+    "current_foreign_fields_exact": 3,
+    "reviewed_original_Devagiri_photo_exact": true,
+    "foreign_main_limit": "Root subsequently advanced working branch to unrelated PR899 receipt/main6ce1b925. Six tracked edition/inventory/test inputs therefore intentionally differ from historical23-input contract. This report binds actual delivery to e078dcd6 and does not relabel it as a combined PR899 deployment; incoming preservation and combined capacity belong to later receipt review."
+  },
+  "independent_attempt_history": [
+    "Initial fresh five-page capture reached expensive character-level diff comparison and was manually interrupted; no success claimed. Raw initial pages remain under live-independent/pages. New attempt2 freshly fetched pages/images and used bounded HTML-token comparison.",
+    "A supplementary assertion initially compared robots to an unspaced literal; actual value is noindex, follow. Correct token parsing passed without any website or helper source change."
+  ],
+  "evidence_hashes": {
+    "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/http-verification.json": "720aa65f983599b94ab38afc79fed4ebc7bc7ac98b83d87ebfaacf4476d74ce8",
+    "outputs/devagiri-publication-2026-11-27/live-independent/attempt2/image-measurements.json": "4d3c5c6356797df117d9578bb6397b228ae5e14a16e17b82291652a74268435b",
+    "outputs/devagiri-publication-2026-11-27/live-verification.json": "b4c5254b83cc2cd3d81dac18d8e50f34961077cd22d5e23b66574f3f27a2ff2b",
+    "outputs/devagiri-publication-2026-11-27/root-live-browser-review.json": "6111bcf2990bd64737d8b93b8f0160e99e13c4ad54693f84a04b9fd5cbda8506",
+    "outputs/devagiri-publication-2026-11-27/release/deployment-status.json": "abf9c4fe5e672c4b4eeb19d68d1a90b0ff96a8090d1aab354405788742846df4",
+    "outputs/devagiri-publication-2026-11-27/release/deployment.log": "8dd782ab85114dc8b7d056fce505d14a523156fe8285c6dbc7a41d19f4193074",
+    "outputs/devagiri-publication-2026-11-27/release/ci-status-import.json": "70e7bdf830a2e4b4961fd4cb5569ba77c63b6eaf4a152ce90ae0ce4a872769ae",
+    "outputs/devagiri-publication-2026-11-27/release/ci.log": "5158ff9a1417451ffb3b4dca6eaa32c9734c84106f764895ee4597c15a71db2c",
+    "outputs/devagiri-publication-2026-11-27/release/publication-pr-import.json": "b05814c85078aa18b7f43650921ba61a3bd3e75436755cbea40a231648c5f146",
+    "outputs/devagiri-publication-2026-11-27/root-live-image-measurements.json": "1b97e95da3177b1df823995ffe9bcc97bf9c9e59f24f96574f44833deb2d36df"
+  },
+  "limits": [
+    "No human specialist approval, field verification, cross-browser sweep or exhaustive accessibility audit. Source research and photograph identity limits remain as previously reviewed.",
+    "Only scoped five actual image files were fetched; no blanket approval for unrelated Explore images or every reading-path asset.",
+    "Fresh HTTP captures and generated comparison sheets are new review artifacts, not filesystem copies.",
+    "Receipt integration, separate receipt review, exact required receipt CI and actual receipt merge remain pending; this delivery PASS does not release the article slot."
+  ],
+  "blockers": []
+}

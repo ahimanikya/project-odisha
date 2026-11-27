@@ -1,0 +1,93 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T23:13:57.145954+00:00",
+  "scope": "Bounded working-tree preservation and record reconciliation for incoming PR901; no foreign article factual review, new build or live-delivery approval.",
+  "base": "728a83723d5a89dcb3e246b62a4980b386bafec6",
+  "ours": "360a35459d580c3b3c7b19bf5a54001685091725",
+  "incoming": "5727c8c9ff0a2713eba4dedb42873bd4f7d719ac",
+  "incoming_pr": 901,
+  "checks": {
+    "seven_incoming_nonshared_files_byte_exact": true,
+    "actual_rollout_three_way_id_object_union": true,
+    "incoming_semiconductor_row_preserved": true,
+    "all_prior_rollout_rows_preserved": true,
+    "registers_activity_dashboard_unchanged_from_ours": true,
+    "protected_files": 113,
+    "foreign_fields": 3,
+    "public_site_research_media_tools_diff_against_incoming": []
+  },
+  "prior_review_continuity": {
+    "prior_reconciliation_commit_changed_paths": 105,
+    "unchanged_paths": 103,
+    "two_changed_paths": [
+      "kb/records/devagiri-publication-20261127.json",
+      "kb/records/editorial-workbench.json"
+    ],
+    "canonical_delta": "Only further_receipt_reconciliation added; all previous fields equal the reviewed receipt.",
+    "workbench_delta": "The incoming PR901 workbench replaces the prior incoming workbench byte-for-byte. This is an expected incoming nonshared change, not an unexplained preservation loss.",
+    "rollout_and_work_list": "These change relative to ours to include the incoming semiconductor row; they were outside the preceding 105-path merge delta. Rollout equals the independent three-way union; regenerated work list passes its exact checker.",
+    "prior_exact_review_sha256": "666a712fd4a57b106857c1e1807f47a0876b494ad27b7e5d760d92dc35330c6e"
+  },
+  "independent_checks": {
+    "article_rollout": "PASS: 281 completed, 275 queued, 873 excluded, one blocked; work list current.",
+    "registers": "PASS: 1462 records, 909 events, dashboard current.",
+    "team": "PASS."
+  },
+  "release_conditions": "No new article or slot handoff is claimed. Existing receipt_pending and actual-reviewed-receipt-merge condition remain unchanged. Preparation-only handoff requires actual receipt merge and explicit return. Programme credit remains zero.",
+  "limitations": [
+    "The merge is still in progress; this review binds resolved working bytes, not a new committed head.",
+    "Prior combined CI45908778637 is superseded for this new source combination. Fresh exact-commit continuity and required CI are mandatory before actual merge.",
+    "Incoming article/source/edition/test content is preserved exactly without taking over its author’s factual, visual or publication approval.",
+    "Historical Devagiri publication, deployment, live differences and original capacity measurements retain their original heads and limitations."
+  ],
+  "blocking_findings": [],
+  "reviewed_manifest_count": 11,
+  "reviewed_manifest": [
+    {
+      "path": "kb/records/article-editorial-rollout.json",
+      "sha256": "b25ff40ed6639ad20e9572a1bade0d973dd38045f8bad5bbda637b895eaaf22c"
+    },
+    {
+      "path": "kb/records/article-editorial-work-list.md",
+      "sha256": "878359e9f5fcf1d021b9b30ab203c10aea3854be19b8aba4760474c69d31670a"
+    },
+    {
+      "path": "kb/records/devagiri-publication-20261127.json",
+      "sha256": "0f72f7ef5915bf41f4adb6ae6ce41b910e43fa274a719717197d2b964dd60ce7"
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "sha256": "e6bf39de3a03967ee207233ae97a34843397ad847155305af1d64e14617a5567"
+    },
+    {
+      "path": "kb/reference/public-website-routes.json",
+      "sha256": "e96b2b7bff0a29d8ccb4126ef7a41dd76281b1b648fff03b1fc67aeef3e702b5"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-901.json",
+      "sha256": "eb0ca8ea347bd413900cb47161f728a1cfac6b333d18b3e21d1b7eeb9f713ed3"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "97134e60af84256589e2b3dbe329df6b795850bef41f2ab09b040e3ca4a5a6cf"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "ff016122b959fbeeaa18a26ad63896dd8dfdbdb7c36d888a5d45fe60f77b44bc"
+    },
+    {
+      "path": "projects/site/src/content-notes/odisha-semiconductors.md",
+      "sha256": "99fed5232598876dce4944939f152c3024d6e56d7e1da0be64574e661f85e091"
+    },
+    {
+      "path": "projects/site/src/pages/knowledge/odisha-semiconductors.astro",
+      "sha256": "39dc4c4dc3d92d6132f518b2859ceb5c29f9508b964a614ac516ae246b8a0aad"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "68210eda707de54fccfba2f24774821dd962da7fd95166ca676693814f1ae7b4"
+    }
+  ],
+  "next_gate": "Stage and commit the reviewed merge, then obtain separate exact-head continuity and fresh required CI before receipt merge or handoff."
+}

@@ -1,0 +1,198 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T23:39:53.766480+00:00",
+  "scope": "Bounded reconciliation of incoming source-audit receipt PR904 and Snana Purnima PR903 with the reviewed Devagiri receipt. Preservation and record integration only.",
+  "base": "5727c8c9ff0a2713eba4dedb42873bd4f7d719ac",
+  "ours": "edad3ff3d480e69696aeb671e42fd242b787b53e",
+  "incoming": "adadaf3d1074720e88f926dc2905558c7d4cf85e",
+  "incoming_prs": [
+    904,
+    903
+  ],
+  "checks": {
+    "incoming31_nonshared_files_byte_exact": true,
+    "all183_prior_owned_output_files_byte_exact": true,
+    "canonical_delta_only_latest_receipt_reconciliation": true,
+    "actual_register_recursive_three_way_id_object_union": true,
+    "actual_rollout_recursive_three_way_id_object_union": true,
+    "all_original_activity_lines_from_both_sides_byte_exact": true,
+    "unique_activity_events": 910,
+    "protected_preparation_files": 113,
+    "foreign_ownership_fields": 3,
+    "public_site_research_media_tools_diff_against_incoming": []
+  },
+  "independent_validators": {
+    "registers": "PASS: 1463 records, 910 events, dashboard current.",
+    "rollout": "PASS: 281 completed, 276 queued, 873 excluded, one blocked; generated work list current.",
+    "team": "PASS."
+  },
+  "evidence": {
+    "incoming_manifest_sha256": "6b3450c566b6ed8074c3af0dbd16d92f162d3c820804de59f5a971dd17c40064",
+    "prior_exact_review_sha256": "4f2b384aff218b2f1fb1fabf16bb93ec597ca60e05fad14b59647cc0f1e3d235"
+  },
+  "release_conditions": "Prior Devagiri publication, deployment and live reviews retain their exact historical heads. The canonical receipt remains pending, with scope release effective only after actual reviewed receipt merge and explicit preparation-only handoff. No new article, publication approval or programme credit is inferred.",
+  "limitations": [
+    "This review binds the resolved working tree while the merge is in progress; root must freeze a commit and obtain separate exact-head review.",
+    "CI45909750912 is historical to edad3ff3. Fresh required CI on the new combined head remains mandatory. No new combined build, deployment, payload or live result is claimed.",
+    "Incoming source-audit and festival content is preserved exactly without taking over their factual, visual or publication review.",
+    "Earlier raw differences, framing limits, log whitespace exceptions and evidence-import metadata limitations remain unchanged."
+  ],
+  "blocking_findings": [],
+  "reviewed_manifest_count": 38,
+  "reviewed_manifest": [
+    {
+      "path": "kb/catalog.json",
+      "sha256": "0993865cfdc08fda00f12b64ff593fafdf65de4fa20df3d86081149c0189ba0b"
+    },
+    {
+      "path": "kb/records/article-editorial-rollout.json",
+      "sha256": "d4202321bcc0fe6bb84f67758cae8d9475dd83e0de9b9e1a7ed84b3b29fbb630"
+    },
+    {
+      "path": "kb/records/article-editorial-work-list.md",
+      "sha256": "22d7ee58b17fc56e6756e6311548a35df7f8fa83424ba7810313c5a883f0533e"
+    },
+    {
+      "path": "kb/records/articles-27-final-audit-20261127.json",
+      "sha256": "a5c4f3ccacbdc72b59d536c22b4e06d6f393e3cca5bbc900c6175898ac98daaf"
+    },
+    {
+      "path": "kb/records/devagiri-publication-20261127.json",
+      "sha256": "838f32b3d8841d156f02bc7e9c73a9e38591f349eab8274010553ce35bb83fc7"
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "sha256": "d2174822e69d5d64a75bb1160b45a7e0ea85daf62ee7d6c02339388e5dd26bba"
+    },
+    {
+      "path": "kb/reference/public-website-routes.json",
+      "sha256": "cb6f1af8a82b0ac6abe610bdedfa7c403d82eb9d68f1e18d6d0488ffb9f6397c"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "dd76b2d87e2b4ed9a4fbc55b218f59e2fd28772e77df73d241901588cc442dab"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "aef3d617c3916379416b6cd95e5a628a7029a21492553a93966ebcc2465ec90d"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "a71c6a1fd304981a57ae3e3ab7ba1ce51bb1591a52e58402a1aa138141dd96a4"
+    },
+    {
+      "path": "kb/research/culture/snana-purnima.md",
+      "sha256": "cd57dc89c77ebe5ed7e099449ab2871f2b5174859947178a85f90f14657abc2b"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/browser-repaired-live.json",
+      "sha256": "a4565e3e9e72c494a04f5b54732362e007e6be2e66b08c3e5805197183b8bac5"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/completion-review.json",
+      "sha256": "931035daec045568ddd11759a0355e8e5eeb83789642002599db1bf4b31eef7a"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/deployment-result.json",
+      "sha256": "ade2ad4534e06172885efd00dda3f4eb6505f1766cdebf2b4c2fe84d7562d259"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/exact-commit-review.json",
+      "sha256": "cfeca6d95c7b242991756578b1e37bd479baa2b3dfe176835d97cfb6bf45d352"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/live-verification.json",
+      "sha256": "3d68f2de5b4dab97f567d0178d71a9a4f2c0a2713c92035e8d981242149c7cac"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/merged-pr.json",
+      "sha256": "1af43ec47a530ce4a4ba623b6d7e123250d58734e195312a9d116d3a6b0f59b6"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/postpublication-technical-live-footnotes.json",
+      "sha256": "75c755a6c50e0e833a415abd35a17d57d1bbf76e0bb9bfa053d9d957007ebb17"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/postpublication-technical-live-pages.json",
+      "sha256": "22a29933acdecfac88d0d2fb84fd0bd58e010df1ecbfaf752b914bea16402d3b"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/postpublication-technical-targets.json",
+      "sha256": "86fb3d9ed8027c6020b5a1114d5a41fb753a8d899beb5258af6763b7a3bf07df"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/publication-progress.json",
+      "sha256": "3f516bd3f659d8bc76f08576eee07dabb147540cb0fcb0f92e8d96b73e240272"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/publication-receipt.json",
+      "sha256": "ae9752c4a623b93eacfefffd3e4adef9133d03bf5833213743f7e7ec5afcf18e"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/required-check-result.json",
+      "sha256": "43fed81467e53181c9d4838ac7ac9c7ec689ed7f3052ba44df4979e15e550b56"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pakhala-live-source-note.jpg",
+      "sha256": "b37a33bdcda04f1510759e881b32ef654df16b7a906d7730bd02bc0083b02434"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pakhala-repaired-live-mobile.jpg",
+      "sha256": "624f7e04ce1622cb4610be1903bfe7ea32e6c8835ddec3a794de95108c7fb6c0"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pentha-repaired-live-mobile.jpg",
+      "sha256": "47faf89545bd82f2e25acd10ca222cf360c1281f89a9b28b3bb612522bd4443a"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sitabinji-repaired-live-mobile.jpg",
+      "sha256": "d968146cd9b828b01afaf0e5295b08b5885b3cb02d084c2d1700a60aeef00fd8"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/verify-publication.py",
+      "sha256": "3d80fca7efc8570190287a72e26ce808b29fa4c5c0dc52b47403e8a968c17345"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-903-904.json",
+      "sha256": "6b3450c566b6ed8074c3af0dbd16d92f162d3c820804de59f5a971dd17c40064"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "ab51810eb577ed0d5d2343178610a5576de3f4ba2ab877da19e56cd963623059"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "624dee9336e321b8de26f583e72ec2e7438a87a99de8a36648e59866e56806cc"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "43f9a4c1442148a275c58aa5309d0275724754f75bcfb4675e39816e7273bd6f"
+    },
+    {
+      "path": "projects/site/src/pages/stories/chandan-yatra.astro",
+      "sha256": "dcabece5a69bb5d708fc22488ebeb50bf19fb9f8217fd76f01361ab75cfe4820"
+    },
+    {
+      "path": "projects/site/src/pages/stories/snana-purnima.astro",
+      "sha256": "921f0123a18e515d56b9efc04e99e0d4db0689e048390909add80084ffb54261"
+    },
+    {
+      "path": "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+      "sha256": "6c54226fd63b79766fbafe36defb33ca4cab5af8bedfc9cb4400a4bb084302f3"
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "18b47bccb5bac6469a76a849a7a3f367c2e80deb54f0fab0ce0c18b918b8c8d1"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "2b34d028a1d0edac6ec5782d6eee6a83347be93dcbf1f3a3c66f52cb1dd12f85"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "61dfbbda5d6d661404553ee702d710721f01d3bbadbd3f6ea23150a7a576d2d5"
+    }
+  ],
+  "next_gate": "Commit the reviewed reconciliation, obtain exact committed continuity and fresh required CI, then actually merge the receipt before handoff."
+}

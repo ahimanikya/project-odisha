@@ -1,0 +1,465 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at": "2026-11-26T23:04:27.782302+00:00",
+  "scope": "Bounded working-tree reconciliation of the reviewed Devagiri receipt with incoming PR900. Preservation and record integration only; no new article, foreign factual review, build, browser or live-delivery claim.",
+  "base": "6ce1b925257d5467d889334e127244a376f0bccb",
+  "ours": "5859c81dda4ee6005650f95a36e31fd79f933fce",
+  "incoming": "728a83723d5a89dcb3e246b62a4980b386bafec6",
+  "incoming_pr": 900,
+  "preservation": {
+    "incoming_nonshared_exact_files": 99,
+    "prior_receipt_paths": 80,
+    "prior_receipt_paths_unchanged": 76,
+    "expected_changed_paths": [
+      "kb/records/devagiri-publication-20261127.json",
+      "kb/registers/DASHBOARD.md",
+      "kb/registers/activity.jsonl",
+      "kb/registers/records.json"
+    ],
+    "canonical_delta": "Only additional_receipt_reconciliation added; every earlier field remains equal to the prior exact reviewed receipt.",
+    "protected_files": 113,
+    "foreign_ownership_fields": 3,
+    "public_site_research_media_tools_diff_against_incoming": []
+  },
+  "shared_union": {
+    "registers": "Independently reconstructed all top-level register collections by actual base/ours/incoming IDs and objects. No divergent same-record changes were accepted; the working result equals the intended union.",
+    "raw_activity": "Every original raw event line from both sides is retained byte-for-byte; union has 909 unique IDs, with no missing or extra event.",
+    "dashboard": "Independent registers --check passes: 1462 records, 909 events, dashboard current.",
+    "team": "Independent check_team_assignments.py passes."
+  },
+  "historical_evidence": {
+    "prior_receipt_review_sha256": "bbff5378a6063ea74af9cdd3051bc0ecee82eaa07612f551c0ecea1d7f4bd19a",
+    "prior_external_exact_review_sha256": "dbc9241b839bfa5f34eb3e22ffe1cf06af5cae963b4cbf9f04014db7956d1b3d",
+    "reconciliation_manifest_sha256": "1fe965b44795a0f47b4c2af51b29c8bb47e8e5266726de3748c829c01f4f2c7e",
+    "scope": "Earlier actual Devagiri publication/deployment/live and prior receipt CI retain their original heads. Root records prior receipt CI45906029809 success at 5859c81d and 999949728 bytes / 3799 files; that is not proof of this combined head. No historical evidence was replaced."
+  },
+  "release_conditions": "Receipt_pending and the explicit actual-reviewed-receipt-merge condition remain unchanged. The reserved next slot is preparation-only and requires explicit handoff after actual receipt merge; no next article starts here. Programme credit remains zero.",
+  "limitations": [
+    "Review binds the resolved working bytes while the merge is still in progress; root must stage the resolution and obtain separate exact committed continuity review.",
+    "Incoming PR900 content and evidence are preserved without assuming responsibility for its independent factual, visual or live review.",
+    "Fresh combined required CI and actual receipt merge remain pending. Prior deployed and prior receipt payload measurements are not combined-current measurements.",
+    "Earlier delivery differences, screenshot framing limits, raw-log whitespace exceptions and structured-import metadata limitations remain unchanged."
+  ],
+  "blocking_findings": [],
+  "reviewed_manifest_count": 104,
+  "reviewed_manifest": [
+    {
+      "path": "kb/records/articles-27-final-audit-20261127.json",
+      "sha256": "1bf3a7066f153813055d184dd3bf094d1ff9a12d0969bab1a6421eb62dca8c12"
+    },
+    {
+      "path": "kb/records/devagiri-publication-20261127.json",
+      "sha256": "4975b166eaea3b2f1f3a82ba1857a6800142b4fa586b86173e5fa2a6e81bf28f"
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "sha256": "17ab648031ac9484f142046e9ad8547c3ea8a271ec06e21f44380b01c8f1d781"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "sha256": "ed5514f2cf2084f20ab2c748affbdcc596877cd017dc518625ad84aef45b922c"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "sha256": "021c3f12dda8627d150ccda1efc5715f1f7a23691bb49eff4cef2a2d62138e97"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "sha256": "29449ed566d6c9c76e636462a67e7813a839de7a3999cdd95da3c1e343792d86"
+    },
+    {
+      "path": "kb/research/search-index.json",
+      "sha256": "9a8aefb2f0b927eeb6196642a3504ed96a0f1a201902e63a4903b2520cf9c95a"
+    },
+    {
+      "path": "kb/research/stories/independent-features/food/pakhala.md",
+      "sha256": "177cfe2ba60420a858479a36e11b41a0f3761c06f75e5b607cd67bdb12e0191b"
+    },
+    {
+      "path": "kb/research/stories/independent-features/history/sitabinji.md",
+      "sha256": "d98804b8d623235cdd1bcbe5dbf8d7eab5d74fa317641f41b59a6b0e84c551a2"
+    },
+    {
+      "path": "kb/research/stories/independent-features/nature/pentha.md",
+      "sha256": "588a780fb081851ba4b60f0cf11695465b495622a62d2dfacca5768fee0162e9"
+    },
+    {
+      "path": "kb/research/stories/independent-features/source-register.md",
+      "sha256": "f1244cc2227b808b8f41d95bd81a25d8bf84adad5bd4c9fd3b555ca6f8781252"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/browser-measurements.json",
+      "sha256": "f4ee8d264184be6e1ba5f3d43b2b57f31675587abd03c1742165b3593ebbdc7e"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/browser-repaired-local.json",
+      "sha256": "21d124a371ba5343a490fd6ab5f9e1b2247a2da5b72c00286f07835081a07eea"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/browser-review.json",
+      "sha256": "f3574771358daf335dd8d06460cef3c6a4f4b0b429eb986c1a7fc59a043a2e01"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/handoff.json",
+      "sha256": "580951868a6c6d121419a0f8ea0c77493e5c6590eca454a94b0d073b00f9d7f3"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/local-validation.json",
+      "sha256": "150548f0dcca8d4d6cc504049cf22cb24aab4c5cc248bc956b16d3d4d6e28939"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/review-final.json",
+      "sha256": "c7ff908b99d284cf27264604e77e8e8cbc60d1a642982c8a50de3bdb70fa0112"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/review-image-continuity.json",
+      "sha256": "2ea9e8224982d80e680b562678112326049e120cd414b43759fa650bcf9dd909"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/review-layout.json",
+      "sha256": "43b2029e79f1398a9ad521976d658a394d344e5d78270a07c5dafbb24ffcdf3e"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/review-pakhala-repair.json",
+      "sha256": "53bee705175bca028caa326762ef918029899f2eaec5a18ed07735ac72acb980"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/bali-jatra-desktop.jpg",
+      "sha256": "921a0359ae352ec5108c16a9e51ca458b97a9479efe9d58864a31d77b5e21310"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/bali-jatra-mobile.jpg",
+      "sha256": "740d3beff8757a41a7201b293807fd6c7a5b5e546090d2ff6900a97c73b40605"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/bande-utkala-janani-desktop.jpg",
+      "sha256": "fc992e06712c1ea92439bfc2955a939f427db96ca11e0a121a7dffdd15782174"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/bande-utkala-janani-mobile.jpg",
+      "sha256": "1e4e1f8d168f5d9faa6c6d971f273f9fced8b8a6e44d2c7879473dbcb8533443"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/chandoori-sai-desktop.jpg",
+      "sha256": "69aba094f75955ade205ab34514b49b539105f13834bfe604ad083de9bf74c5b"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/chandoori-sai-mobile.jpg",
+      "sha256": "324a0b642f89ce4cda8490d52dc8c1369a1a2b5d23d8e650f27c7e1a43193e34"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/chhatia-kakara-desktop.jpg",
+      "sha256": "7f5dabc2515a383becacefc18494327f0e6522254ab5eed16ac5288685238198"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/chhatia-kakara-mobile.jpg",
+      "sha256": "d1bb7349c626e0a3d68003e1399e7ee67203649993cfd8785e88783d5d64f7bd"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/coastal-shell-craft-desktop.jpg",
+      "sha256": "25877ce9272d9dd180e7a8dc1de04707e2d195019fc6b296301df06b5597c576"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/coastal-shell-craft-mobile.jpg",
+      "sha256": "87e52c9bc4b2cc837f3e471197e389d6a5acd96e88539ffb37ef155f79d3b4d7"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/cyclone-dana-desktop.jpg",
+      "sha256": "e8b9adce2ecab8015afa48fea1687cd7d979fb5f6ca39502e9e7b5c1032200d9"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/cyclone-dana-mobile.jpg",
+      "sha256": "806b75f794206bd28a0f656da1f37f79f09969898769e5039734d6bfb33dbbdd"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/dhauli-desktop.jpg",
+      "sha256": "9da87835e4c03349228cb572bfbac8a8f76207360a666db6a89acc1cf1fe228e"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/dhauli-mobile.jpg",
+      "sha256": "db753bcfc9e1c296799889c1970cca3601ff30e003639b6ec9f7e64648dba9b0"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/dhemsa-desktop.jpg",
+      "sha256": "79072c207ed490c53f44b493556b649664885828ef961b4e64dd1f8feef8887a"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/dhemsa-mobile.jpg",
+      "sha256": "42a6460304957d209c487582e51a2b03da95043fe34121134915e9f5b0ad7a69"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/galigabdar-desktop.jpg",
+      "sha256": "5177d6b35373b0383a59cc2d781c123b05b5dfc5f4d19f4a5f63fc639bede42c"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/galigabdar-mobile.jpg",
+      "sha256": "a2eee688cf72fa4d7c7e27d021a429ff045a501b5f14ddbc6dadabef20d671a9"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/gundichaghagi-desktop.jpg",
+      "sha256": "270dd4ad303bd8aae6d4de959b6d88a46bdceab37041a61a1a39693914eb6ebc"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/gundichaghagi-mobile.jpg",
+      "sha256": "9589984fa946d01a8ce60a53aa128cc6c14dc66672274f55dba91fb699d57de9"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/jalaput-machkund-desktop.jpg",
+      "sha256": "788b260269e6f648af7b809197783da0f0239960221d97aef74e12159d6c3017"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/jalaput-machkund-mobile.jpg",
+      "sha256": "39238332823fd9094ad953a4ac497ae3c5182e3a2a1b5bf357df4164e18b02ae"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/kharaldhas-jonk-desktop.jpg",
+      "sha256": "7cc93a057c61096ef2efe80f5f9c503eb599bff995e28e20f731dd73d7d9410f"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/kharaldhas-jonk-mobile.jpg",
+      "sha256": "cf21789bdfd37e7b5591a2816b4bc0bb908439204eb956262caedee48e13ba01"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/koraput-coffee-desktop.jpg",
+      "sha256": "bbc1781f915ba42f267da53b41855e3fa00e44b064fbd099136c28147fa179ce"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/koraput-coffee-mobile.jpg",
+      "sha256": "48fd388b5c4559eab5143daddc849163416c499ad2e4551bfd656f6e6c0c14df"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/lower-indra-desktop.jpg",
+      "sha256": "903572e4a48a63fa763ad464917665fdaa1424c939a03cd3464f271a9ebee74c"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/lower-indra-mobile.jpg",
+      "sha256": "310aecbdba30d95e4389370dbb9aec9965151cfaceb04cc08c1eb22e715928c7"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/mandasaru-desktop.jpg",
+      "sha256": "691da82a515107c929f0189415352dc6706c1987bc77e33be23d263e4c833929"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/mandasaru-mobile.jpg",
+      "sha256": "b4f71b13a1c4e632c438ac3cb023cb76a5ab4f113a3c7dd0f167bde632cf25e3"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/motu-mugi-point-desktop.jpg",
+      "sha256": "3ca2106d3fdd89f4b49ad4dd3f2a98d5027baf60fda09b37d08eb67b63cdecf7"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/motu-mugi-point-mobile.jpg",
+      "sha256": "20d058da2de0c57120756b6c487fe7aa4c62d1a7f80c1f0847a849c427d6808c"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/odisha-rasagola-desktop.jpg",
+      "sha256": "b36850b298d8fa7cf66144d7f42b2b4d7dc81ab5de5752bb334889b034507e97"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/odisha-rasagola-mobile.jpg",
+      "sha256": "d36b64a40c1cf98c6b9a47237811da6b200053989fa3a9e53bac6334a63acab3"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pakhala-desktop.jpg",
+      "sha256": "75f265e51caf0a04a1f83847d5f6e112a2e7577b8eb8c36f01916f9930493d28"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pakhala-mobile.jpg",
+      "sha256": "2d7a54155321211b7cb76e8473459e0ebf93efdc3c5c6112c2ea3241d8239df5"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pakhala-repaired-local-mobile.jpg",
+      "sha256": "4d40ddb218df8d1081398f967eabf9f30391cf0672df7288d6c3253166081292"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/patrapada-desktop.jpg",
+      "sha256": "77c4b98864159ddf9c7d80a707f35f8fa1917ce5017d9251e44aa38994be9299"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/patrapada-mobile.jpg",
+      "sha256": "8a7f9c9d90fa1656ecb4caafcdba440e3a3bb34628fa9cd5d0edeb892f01bd4c"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pentha-desktop.jpg",
+      "sha256": "97d1d889996a6b7e3d79694aaf02cc281ff0d03d14543868a74da853d713a7a0"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pentha-mobile.jpg",
+      "sha256": "a90bf0ab258022cdb85013f8c91df9f69754d36e9e7ee138fdd816844dafa60a"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/pentha-repaired-local-mobile.jpg",
+      "sha256": "afa0e3e330862c459334bc7b5ed999e6c97ecd6492d05596307a291195ab2ebc"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/rabandhara-desktop.jpg",
+      "sha256": "b1990e4f04de0b3cd4edd596bd9f1ddc93a4c9bbce8830cd94ea0603e3db85ad"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/rabandhara-mobile.jpg",
+      "sha256": "01448026566dcb9ea770518997baef694096601b32a48083c41c0d2ccc21371e"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/raja-desktop.jpg",
+      "sha256": "0fc88fee829d58c0be168f235f3661e058bbf38b30e2e29e0fc6e6c7ecea3d10"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/raja-mobile.jpg",
+      "sha256": "ef8151229d3f34df66df3853ab17eac78b8ca2422a2e228e0cd9cdf1c73a0bde"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sakhigopal-coconuts-desktop.jpg",
+      "sha256": "114530ea8d59a0443f87af4f58d249c13a8005af7cf777b0841d57d53d80ff90"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sakhigopal-coconuts-mobile.jpg",
+      "sha256": "eec034055ca29c6a5c43daabae114a18d28a0f0dd8181485af15a6db2a3f55b5"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/similipal-waterfalls-desktop.jpg",
+      "sha256": "e5faf1896101463324b89790b77040615568c2fb105a24b7d8381a93154598f0"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/similipal-waterfalls-mobile.jpg",
+      "sha256": "9c596828bdea920923ed6b8d0e948c49ec3742bbd615874b890288ccea05f24b"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sitabinji-desktop.jpg",
+      "sha256": "89c40bbb7089ac30e2b19742409ad37aacdf088b691c91cdf040b0b0f5fcbe28"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sitabinji-mobile.jpg",
+      "sha256": "23d94ea3e7d503de0340540add2ab204f840c2f524fafa12a6b12c62ef9a1c2a"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sitabinji-repaired-local-mobile.jpg",
+      "sha256": "67a4c5707e6706c375fc3a081c42022cc8898c57160074145f57e6c401495156"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sonapur-desktop.jpg",
+      "sha256": "9cd32927062183c1157c2a8e604554a33cecaa735228fbe853a954a9d4a41f74"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/sonapur-mobile.jpg",
+      "sha256": "4f36bbc4df7428a6f6c9733a9897ebe753515a61dff8e6da1ef29ac20aa8f6f5"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/toshali-desktop.jpg",
+      "sha256": "79a01d8492aeff6f92c6325550987e00a496366a4883066592a7737cbdd18373"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/screenshots/toshali-mobile.jpg",
+      "sha256": "52bd2f4e11ced94a6ae3665e2ec15cd2977c120bdedb54fdbc4cf5e037cf94bd"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-archives.json",
+      "sha256": "63aecf264d37148fbf0d61711c3d71172edc9cddaa9a8aa577f0a9c0c99841a2"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-archives.py",
+      "sha256": "472e3e61546042a748569e5a0048fe7df0619ea787d490ab63b2a1ba2f477f71"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-audit.py",
+      "sha256": "3d6918e129d8ba6a2fc028daa2408fde785ee08ca4af0c4ddcb462bea6360e2d"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-cag-candidate.json",
+      "sha256": "cea2d87dca8bd753ef30786d0c4bacb57c82f5e2e30ed95fa746345af380573a"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-heidelberg-recovery.json",
+      "sha256": "354996fb7fd6efd1530aba3210be3963d5fa02f244e8290cf72969f688d09e42"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-live-reconciliation.json",
+      "sha256": "112f8f415dc2f6ffd400aad07f43db57efc42194cde87d5bfd75a005a970ddd3"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-pakhala-repair.json",
+      "sha256": "3f03e75c2bd0530b2cb387225e0910f5af14e6d9d96dc6c5d328dc4474f711f0"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-pdf-browser-disposition.json",
+      "sha256": "841e27190b4e165019e3ae056676a11fb9578499d82dad4967f30c14132351f8"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-pentha-disposition.json",
+      "sha256": "0131cf625bbac3d885c360c6b41027681c8f623cdd20cca887f7674c8392f244"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-reader-checks.json",
+      "sha256": "9f7082fdf9e40cc814ad7b79721899dd6782f05c837f530836638e9914b16c80"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-regular.json",
+      "sha256": "32e124de763e3e4604efa6a042c9bd30c3e86d36e26fed067f5be8b698f420d4"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-summary.json",
+      "sha256": "165c7ab169f3f7964670477326a7bff13bc19941779e400cdbd82d08f3bd77a8"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-yule-candidate.json",
+      "sha256": "6eb1b6340746af6dbecafad04a458e202ed5a76af8f45ba911c6cb8cacf4e3fa"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/source-yule-payload.json",
+      "sha256": "9689b3c0a4a0b887c0442d09608566a8408f0c212de74400e98cf0395fb62219"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-audit.py",
+      "sha256": "52135236bdbd114b820a6ad38a3513ffdcc964eeea1a18cb9ee3be8f1ce9c128"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-implementation.json",
+      "sha256": "3d3234bcfbb8281fa3b9c9a9cd202161d33e49cc574f37cb9630521350f36638"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-live-footnotes.json",
+      "sha256": "a8b2285e8251ea2eaf27f48414fd00fbd342c3f1febc9bfe64d8f0d8f6a876ef"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-live-image-assets.json",
+      "sha256": "7cfdfd7084173b09cdb76ed7857303c37bb0ea7898ccbf080f803491772cdfb2"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-live-image-credit-links.json",
+      "sha256": "6b09e18d595f208170d12bb2b3095115dadb84b47f6bf4affedef8d136e57b42"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-live-local-links.json",
+      "sha256": "53e76c1b3227ab2482fa87a3a01f87661425addbd77c292b8048315af69d6860"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-live-pages.json",
+      "sha256": "b0acf2bf470efb94bc25852b057f44117667c7ef3a6e24c68f3c5e11f0a8a924"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-pentha-implementation.json",
+      "sha256": "3ac2de406c05f9c229cd8de35c7c942382e58506d595bc30339555d7124fb0d6"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-responsive-check.json",
+      "sha256": "ebef6c88a532fdd454df1d69bfcc2acf8edcd9d357343f5fc84928adc5bae974"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-sitabinji-implementation.json",
+      "sha256": "1324c98dfc1c661b52783689a48c11a3ef6ef8829dd94dc67195de84b4e195fc"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-summary.json",
+      "sha256": "a9e53ca3607b4b2690b6e82f70f098f811a1bf0784b4bc8fa9ae18b3e9635ae7"
+    },
+    {
+      "path": "outputs/articles-27-final-audit-20261127/technical-targets.json",
+      "sha256": "86fb3d9ed8027c6020b5a1114d5a41fb753a8d899beb5258af6763b7a3bf07df"
+    },
+    {
+      "path": "outputs/devagiri-publication-2026-11-27/receipt-reconciliation-900.json",
+      "sha256": "1fe965b44795a0f47b4c2af51b29c8bb47e8e5266726de3748c829c01f4f2c7e"
+    }
+  ],
+  "next_gate": "Root may stage and commit the reviewed resolution and request a bounded exact-commit review; merge remains gated on that review and fresh required CI."
+}
