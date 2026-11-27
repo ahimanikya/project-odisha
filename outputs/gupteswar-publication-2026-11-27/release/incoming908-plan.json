@@ -1,0 +1,132 @@
+{
+  "status": "read_only_plan_not_merged_not_built",
+  "before_exact_release": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+  "incoming_main": "9d0ef605c5eeee425026bb544cce6360fbd64f4c",
+  "incoming_pr": 908,
+  "observed_pr_head": "8ddfc873",
+  "ci": {
+    "run": 45926919611,
+    "status": "Root observed still running at merge; not checked or claimed passed by this assessment."
+  },
+  "relationship": "Incoming squash commit has exactly one parent766932a0b; it already contains Gupteswar release. Preserve current exactdeployment/livecapture at766932a0b until completed independently; do not silently substitute908livebody.",
+  "changed_paths": {
+    "kb/records/article-editorial-rollout.json": {
+      "before_sha256": "84f9082573d9e75b1efe50103f332aacd3dbdeaa3679c0a1f387a1bac083eaf1",
+      "incoming_sha256": "d04e5ba43f02d42c317dac927952417f808653f25b980df67ed29a077a304d3c"
+    },
+    "kb/records/article-editorial-work-list.md": {
+      "before_sha256": "23ded86c56b3f27e742c92142c8a3484e58653f99b5af54d6adb676774e4cbb0",
+      "incoming_sha256": "93bbd1f6b5dffe6a4d0ba2b46e189b209aea1e9f35e10988d923410eccf324f7"
+    },
+    "kb/records/editorial-workbench.json": {
+      "before_sha256": "a53c87371051525d000e2ddd289c4ac03469cdfea15368471e5a5e2dc91347ad",
+      "incoming_sha256": "5c34697960bfa3b239371c2c528ec6544fecd279772d666b93878654a0d099f4"
+    },
+    "kb/reference/public-website-routes.json": {
+      "before_sha256": "e446e6d0339d7cabfd168bec372e0c48e01256fa97a3833a16d0ffa7dfacd346",
+      "incoming_sha256": "6326aecc0f5f77baefec9f4e2806925cc1a311575c863845c225950492aeedba"
+    },
+    "projects/site/editions/coast.json": {
+      "before_sha256": "1704adff55f9ca85a2e57205a0557216d930809ba5a753b4918aa214f19945e8",
+      "incoming_sha256": "df892416fb1a6b327632b7160a1e8b04e22106e7746cedbd93c065b905ee4ff6"
+    },
+    "projects/site/editions/search-candidate.json": {
+      "before_sha256": "2fcc86b61069a5e244ae2d5ec8b7b98dbf87c333caa387af57c4bc0f28562681",
+      "incoming_sha256": "c5e89143a40c5dd3bbab2d66f7ec77cb30f85aa1b4410f130a478d72204cdc21"
+    },
+    "projects/site/src/content-notes/bhubaneswar-town-planning.md": {
+      "before_sha256": null,
+      "incoming_sha256": "86bae73c04eec26941d1bdca15aecb5a9703e40f247ad0000fbcf59c144272eb"
+    },
+    "projects/site/src/pages/knowledge/bhubaneswar-town-planning.astro": {
+      "before_sha256": null,
+      "incoming_sha256": "d1b6b882301db2ec8cca8d31957a80f14ef75adcc1bfc53801bf2514c8eebbfa"
+    },
+    "projects/site/tests/build.test.mjs": {
+      "before_sha256": "5b5f7ff6cb5b8b49a26f5237376add91147821a641396959364e8c7d77cabca4",
+      "incoming_sha256": "8c613ce8a5971a17b85cf239424c49b600b1cc114c10f3bddcbbca5163692569"
+    },
+    "projects/site/tests/publication-png.test.mjs": {
+      "before_sha256": "4e18956ca1e97e83dd3bbb0a08c3f2b0fb564e2035abb2fb0f0b32ef47826dae",
+      "incoming_sha256": "ee70db33b5d8d691dd5ff2df2e481b9d3ef4ada42d60123351bfda0545399c3d"
+    },
+    "projects/site/tools/optimize-publication-png.mjs": {
+      "before_sha256": "37e52c2719711036cf8b4cb358b6fbedb4901a4815d298931b7af2ce9f4752ed",
+      "incoming_sha256": "aee97baa103d5abbe02532ef121f0dd35185059f7ea2d8fd789baea4dad9f8ca"
+    }
+  },
+  "frozen_contract_intersections": [
+    "kb/reference/public-website-routes.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/build.test.mjs",
+    "projects/site/tests/publication-png.test.mjs",
+    "projects/site/tools/optimize-publication-png.mjs"
+  ],
+  "counts": {
+    "coast_routes_before": 1420,
+    "coast_routes_after": 1421,
+    "search_entries_before": 1420,
+    "search_entries_after": 1421,
+    "full_fixed_addend_before": 212,
+    "full_fixed_addend_after": 213,
+    "coast_discovery_fixed_addend": 188,
+    "discovery_change": false,
+    "new_route": "/knowledge/bhubaneswar-town-planning/",
+    "search_decision": "hold",
+    "new_rollout_state": "queued; preserve incoming classification, not independentlycompleted by Gupteswar receipt."
+  },
+  "lossless_png": {
+    "path": "assets/cinema/literature-page-to-screen-20261030.png",
+    "change": "One exactadditional allowlist entry and matching expected-list assertion only; no algorithm,gates,regex,otherentries orasset source change.",
+    "allowlist_entries_before": 50,
+    "after": 51,
+    "in_memory_measurement": {
+      "source_bytes": 703411,
+      "source_sha256": "5ef6ffe37cb9a46951cb2b72a7448cb90d4ac2855c82e63b5201d8d19f37136c",
+      "candidate_bytes": 692740,
+      "candidate_sha256": "3c44271e59cf94e1a4364d684fb10b4e33579b61353a51f4cdb27b3c93c88dbd",
+      "saving_bytes": 10671,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "pixel_sha256": "3d5e64ce7cae31be21cef92b1488259be4b7c631cf2c835c54ad113195cc9bac",
+      "non_IDAT_metadata_sha256": "1d1f51d31cc00189bfa95b903151960f26ff0e894af31f8503f8305bb7547467",
+      "decoded_RGBA_exact": true,
+      "all_original_non_IDAT_chunks_exact": true,
+      "source_public_KB_coast_old_publish_exact": true,
+      "write": false
+    },
+    "uses": [
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json line_art page-to-screen for literature-and-screen",
+      "/cinema/literature-and-screen/ actualexistingfull/coast/publishHTML references samepublicPNG"
+    ],
+    "delivery_scope": "Only dist-publish optimization; original source/coast/KB preserved. ExistingarticleURL,caption/credit,geometry andPDF source unaffected. Pixelidentity specificallycheckedforthisPNG, not inferredforJPEGs.",
+    "test_coverage": "Incoming test edits only exactallowlist expectation. Existing optimizer verifiesactual pixel+metadata equality at runtime; this read-onlymeasurement separately exercisedactualsource. Run8existingPNGregressions and fullrequiredcombinedpipeline afterreconcile."
+  },
+  "preservation": {
+    "protected_preparation": 141,
+    "all_incoming_hashes_match_manifest": true,
+    "three_foreign_fields_match": true,
+    "gupteswar_article_image_wrapper_hillguide_hero_components_responsive_and_Hindola_settings": "Unchanged from766932a0b; no sixintersections involvearticlecontentorimagefiles.",
+    "incoming_article": "PreserveBhubaneswar source/wrapper exact; no sourcefact/editorialacceptance audit performedbythisengineeringtask.",
+    "publications": "ExistingRatha/Pentha/Paradip sourceandCSSchanges remain preserved."
+  },
+  "recommended_sequence": [
+    "Finish exact766932a0b liveHTTP/browser/images/RathaCSS/Penthanote and separateDrishti review beforeintegration. Retainexactrun/mergebindings.",
+    "Root reconcileactual908commit afterlive review; ifothermainarrives inspectboundediff first. Preserve all11incomingpaths. No extra countincrementbeyond213/188 and1421routes.",
+    "Preserve current combinedsourcecontract as historical; generate receipt/reconciliation contract withactualincomingcodehashes including6changedfrozeninputs,newnote/page andPNGsource/expectedpixelmetadata.",
+    "Run current generatedviews/checks and independentreceiptpreservation audit with141protectedfiles/3foreignfields. Receipt-owned publicsource changes mustbezero against908main.",
+    "Verify actualrequiredCI45926919611 outcome; if superseded/missingfailure rerunexactrequiredcombinedpipeline. Do notinferCIpassfrommerge. Fresh receipt-head checks stillmandatory.",
+    "Record actualLinuxpackagebytes/files<1e9;10671Bmeasuredsavingdoesnotestablishnewpagefits afterHTMLandhostencoding.",
+    "Afteractualcombineddeployment, verify new knowledge route and existingcinemaPNGresponse; expectedbytechangerecorded withdecodedRGBA/nonIDATequality. Confirm Gupteswar4routes/photo/HindolaandRathaCSS/Penthanote continuity againstactualfreshobservations.",
+    "Onlyafterseparatereceiptreview,requiredchecksandactualreceiptmerge, explicitlyhand backreservedChakuliaslot."
+  ],
+  "limitations": [
+    "No merge/build/test-suite/networkCI query/publication run bySamanta.",
+    "Only one in-memoryPNG transformation executed; no derivative or trackedfilewritten.",
+    "Current livecontract remains766932a0b; no908liveorCIpassclaim."
+  ],
+  "write_scope": "/private/tmp/gupteswar-908-plan.json"
+}

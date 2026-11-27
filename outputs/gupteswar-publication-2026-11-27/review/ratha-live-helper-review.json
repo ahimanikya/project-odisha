@@ -1,0 +1,46 @@
+{
+  "result": "pass_for_bounded_execution",
+  "scope": "Read-only helper/code review; no HTTP capture or deployment acceptance.",
+  "reviewer": "Drishti (AI reviewer)",
+  "helper_path": "/private/tmp/gupteswar-ratha-live.py",
+  "helper_sha256": "1681e2ae97cfe918098b49967622c9bcff5c0875aa584598814a7fb1450baf97",
+  "findings": [
+    {
+      "id": "reviewed-contract-binding",
+      "required": "Compare the current combined contract bytes to its exact blob at REVIEWED 202d8dff762033f57e16e1e6fbbb190b1441b212, or pin that reviewed contract hash.",
+      "reason": "Current code verifies deployed relevant sources against the current contract but does not prove that contract remains the reviewed one; ancestry alone permits later modifications.",
+      "status": "resolved",
+      "resolution": "Current combined contract bytes must match the exact reviewed Git blob before deployment checks or HTTP. Independently reread corrected code and verified actual helper hash."
+    }
+  ],
+  "positive_checks": [
+    "Explicit successful deployment status/run/source equality and reviewed/Ratha ancestry checks precede HTTP captures. Relevant current and deployed Git blobs are compared to the selected contract.",
+    "Actual frozen Ratha manuscript parsing yields nine paragraphs, ten notes and 25 reference/source IDs. Exact unique visible paragraphs and order, headings, notes, links and target IDs are checked.",
+    "Snana and series supplement checks the incoming Ratha link and description. It does not check every unchanged body paragraph; avoid broader prose-continuity claims.",
+    "Both CSS contents are pinned by full SHA256, required in order on Ratha and Snana, fetched from bounded same-origin paths and checked byte-exact. Historical Snana HTML supplies CSS only, explicitly not a fresh whole-page artifact.",
+    "Fresh artifact comparison is optional and requires explicit merge-bound per-file provenance. Raw page differences remain REVIEW_DIFFERENCES; no arbitrary HTML rewriting.",
+    "Fresh evidence writes only to a newly generated /private/tmp directory; no build, publication or source edits. Response bounds and header allowlist retained."
+  ],
+  "limitations": [
+    "Fresh GitHub authenticity of caller-supplied deployment/provenance evidence must be independently verified by root and the delivery reviewer. This helper checks consistency, not remote authenticity.",
+    "No new live or desktop/mobile result is claimed.",
+    "Whole-page equivalence remains untested without fresh artifact provenance; foreign factual and image approval is excluded."
+  ],
+  "dry_checks": {
+    "python_ast": "pass",
+    "source_parser_counts": {
+      "paragraphs": 9,
+      "notes": 10,
+      "ids": 25
+    }
+  },
+  "history": [
+    {
+      "prior_review_sha256": "1ffb4f6dae4e527997436477379dcc9d06da91fe1535e0c85569ed5a01589c0c",
+      "prior_helper_sha256": "1681e2ae97cfe918098b49967622c9bcff5c0875aa584598814a7fb1450baf97",
+      "result": "correction_required_before_execution",
+      "finding": "Current contract was not pinned to its reviewed Git blob."
+    }
+  ],
+  "remaining_blockers": []
+}
