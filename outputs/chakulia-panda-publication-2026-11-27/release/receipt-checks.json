@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "at": "2026-11-27T20:24:44.097169+00:00",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/registers.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "POD: valid; 1481 records, 919 events; dashboard current\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/catalog.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "Whole-project catalogue current: 1986 concepts\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/editorial/article_rollout.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"result\": \"PASS\", \"counts\": {\"blocked\": 1, \"completed\": 283, \"excluded\": 873, \"queued\": 281}, \"errors\": []}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/editorial/build_workbench.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"result\": \"PASS\", \"counts\": {\"records\": 500, \"by_kind\": {\"Source\": 361, \"Food\": 23, \"Person\": 64, \"Place\": 4, \"Work\": 48}, \"with_flags\": 229, \"mapped_pages\": 13, \"newer_records_outside_frozen_selection\": 593}, \"mode\": \"check\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_team_assignments.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"result\": \"PASS\", \"errors\": [], \"scope\": \"Record consistency, not distributed locking, actual authorization or independent review.\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_autonomous_program.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: autonomous program count and linked delivery records\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_bundle.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"concepts\": 1986,\n  \"local_links\": 8851,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/research/validate_research_map.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"records\": 1889,\n  \"tasks\": 71,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "protected_files_exact": 141,
+  "public_source_diff": false
+}

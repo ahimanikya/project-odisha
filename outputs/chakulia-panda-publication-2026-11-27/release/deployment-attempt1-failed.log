@@ -1,0 +1,29 @@
+build	Hydrate exact reviewed Dhaga release PDF	﻿2026-11-27T19:39:19.4793720Z ##[group]Run python3 tools/verify-dhaga-pdf.py --descriptor ../odia-dhaga/pdf-delivery.json --packing ../odia-dhaga/packing-report.json --target ../odia-dhaga/odia-dhaga-book.pdf
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4794701Z ^[[36;1mpython3 tools/verify-dhaga-pdf.py --descriptor ../odia-dhaga/pdf-delivery.json --packing ../odia-dhaga/packing-report.json --target ../odia-dhaga/odia-dhaga-book.pdf^[[0m
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4825837Z shell: /usr/bin/bash -e {0}
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4826218Z env:
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4826485Z   ASTRO_TELEMETRY_DISABLED: 1
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4826801Z   PUBLIC_GA_MEASUREMENT_ID: G-9WJHZGN1EM
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4827075Z   GITHUB_PAGES: true
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4827325Z   RUN_AUTHORIZED_PDF_HYDRATION: 1
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.4827634Z ##[endgroup]
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6203664Z Traceback (most recent call last):
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6208872Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 100, in <module>
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6210323Z     if __name__=='__main__':main()
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6211263Z                             ~~~~^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6213004Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 99, in main
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6214591Z     print(json.dumps(hydrate(d,packing,a.target)))
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6215375Z                      ~~~~~~~^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6216148Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 70, in hydrate
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6216940Z     release=api('/releases/'+str(d['release_id']),'release.json')
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6217706Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 69, in api
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6218799Z     out=td/name;fetch('https://api.github.com/repos/'+d['repository']+suffix,out,8*1024*1024);return json.loads(out.read_text())
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6219550Z                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6220329Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 61, in curl
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6221607Z     need(a.returncode==0 and a.stdout.strip()=='200',f'Anonymous HTTP download failed: exit={a.returncode}, status={a.stdout.strip()}')
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6222634Z     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6223446Z   File "/home/runner/work/project-odisha/project-odisha/projects/site/tools/verify-dhaga-pdf.py", line 8, in need
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6224135Z     if not ok: raise ValueError(message)
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6225029Z                ^^^^^^^^^^^^^^^^^^^^^^^^^
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6225611Z ValueError: Anonymous HTTP download failed: exit=22, status=403
+build	Hydrate exact reviewed Dhaga release PDF	2026-11-27T19:39:19.6370957Z ##[error]Process completed with exit code 1.

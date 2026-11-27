@@ -1,0 +1,243 @@
+{
+  "status": "PASS_INTEGRATED_EVIDENCE_ONLY_RECEIPT",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T20:26:22.609049+00:00",
+  "base_publication_merge": "334bdc037c4faf40bf45c7ef2cbfddff5a05c3e9",
+  "blockers": [],
+  "checks": [
+    {
+      "check": "Canonical holds scope and marks receipt pending",
+      "pass": true
+    },
+    {
+      "check": "Operations retains slot until actual reviewed receipt merge and explicit handoff",
+      "pass": true
+    },
+    {
+      "check": "Only owned current_article changes in operations",
+      "pass": true
+    },
+    {
+      "check": "Zero programme credit",
+      "pass": true
+    },
+    {
+      "check": "Nine routes include correct Manikapatna knowledge route",
+      "pass": true
+    },
+    {
+      "check": "141 preparation hashes exact",
+      "pass": true
+    },
+    {
+      "check": "20 combined source inputs exact",
+      "pass": true
+    },
+    {
+      "check": "No public website/code/tool/test/edition/workflow changes",
+      "pass": true
+    },
+    {
+      "check": "Published merge tree equals reviewed candidate",
+      "pass": true
+    },
+    {
+      "check": "Canonical binds actual delivery review",
+      "pass": true
+    },
+    {
+      "check": "All delivery review evidence hashes unchanged",
+      "pass": true
+    },
+    {
+      "check": "Actual deployment capacity and attempt correctly retained",
+      "pass": true
+    },
+    {
+      "check": "Historical pre913 package remains distinct",
+      "pass": true
+    },
+    {
+      "check": "Saved required CI, PR914 merge and deployment identity consistent",
+      "pass": true
+    },
+    {
+      "check": "kb/registers/records.json only owned rows changed",
+      "pass": true
+    },
+    {
+      "check": "kb/records/article-editorial-rollout.json only owned rows changed",
+      "pass": true
+    },
+    {
+      "check": "kb/registers/activity.jsonl preserves history and appends one actual event",
+      "pass": true
+    },
+    {
+      "check": "kb/history/ledger.jsonl preserves history and appends one actual event",
+      "pass": true
+    },
+    {
+      "check": "Eight recorded root consistency checks pass",
+      "pass": true
+    },
+    {
+      "check": "Portable candidate review is exact original reviewed payload",
+      "pass": true
+    },
+    {
+      "check": "Eight tracked changes are internal completion records/views only",
+      "pass": true
+    },
+    {
+      "check": "New evidence remains in this publication output scope",
+      "pass": true
+    }
+  ],
+  "findings": [
+    "Completion records distinguish successful publication/live delivery from the still-pending receipt merge. Slot remains held until required receipt checks, actual merge and explicit handoff.",
+    "Only the owned work, review and release register rows and owned rollout item change; activity and ledger each append one factual entry. Foreign pointers and current preparation remain unchanged.",
+    "All nine verified route paths, including /knowledge/manikapatna-anchor/, are correct. Current combined source contract and all141 protected files match.",
+    "Attempt1 anonymous Dhaga API403 and unchanged successful attempt2 remain recorded. Actual hosted999965773 bytes/3818 files is distinct from historical pre913 local999093804/3817.",
+    "The actual independent delivery verdict,12 screenshot observations, three nonidentical image pairs, precise analytics shell limits and root/reviewer action attribution are represented faithfully.",
+    "The two historical pending-requirement phrases found during review were clarified before this final snapshot; no factual public text or media changed."
+  ],
+  "limits": [
+    "This is an evidence-only receipt review. No rebuild, additional deployment or new browser interactions were performed.",
+    "Eight consistency validators were read from the root-generated successful report; separate reviewer independently checked hashes, source preservation, semantic row scope and receipt references.",
+    "No claim of human specialist approval, full-page raw byte identity, pixel identity for the three image exceptions, analytics functionality testing or completed receipt merge.",
+    "Required exact-commit receipt review, hosted receipt CI and actual receipt merge remain future gates."
+  ],
+  "release_condition": "The sole article slot returns only after this separately reviewed evidence-only receipt actually merges following required checks and an explicit handoff to the coordinating hill chat. No next topic is claimed.",
+  "reviewed_file_hashes": {
+    "kb/history/ledger.jsonl": "c1521d6e5057839fb2282fb5287434103bc245e9d692e484dd0ac0b015c31e73",
+    "kb/records/article-editorial-rollout.json": "34d69d87152253054204bffd198f4616ba5e10e7f246241b3dc01ffade632fe0",
+    "kb/records/article-editorial-work-list.md": "19bbf27e7b02398b3c67df6f41abe18d445629f2317222add3f4ff892f9e7c57",
+    "kb/records/chakulia-panda-publication-20261127.json": "00805e6c5abedca67d5fba004187665c2d7db5d84095717441fe9f227addba77",
+    "kb/registers/DASHBOARD.md": "81f1df3d049407d6215c903a5d2c3ecff2d51b93ad38d52e7339a8e4a2eedecf",
+    "kb/registers/activity.jsonl": "e8747acd91c1cf201e30302945f0fc0555e983d5314332ca37b6f1836f7f957b",
+    "kb/registers/records.json": "c4d717a55ebc80e183db78f60c30589992f6bc6e38262b0151ed802d48798af2",
+    "kb/team/operations.json": "191d39dda9c99fe30fd68199233ce160505cbda835f611bbf355c1ea5672e2a7",
+    "outputs/chakulia-panda-publication-2026-11-27/implementation/incoming-source-assertions.json": "5cf9c8636f0b7e1a2b40c0536f83184b4d8e8b7edcbf2832c2086f5e4354e274",
+    "outputs/chakulia-panda-publication-2026-11-27/implementation/verify-incoming-live.py": "656dc3bdfe7bfa05d4a95c3f51df4710b00a8ba3a6ce803d074d5cb34910435d",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/desktop-daskathia-preview.jpg": "1154b83da57f8b23da744d2f18a488599b0c093eb1f3cbc2108a730b096a430f",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/desktop-literature-preview.jpg": "364c8e9e32ef01238cd31e8d7ffddf754aaf9735ddcfb878ef705600d83b0b00",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/desktop-opening.jpg": "a8041e6247ae4e8dba90c66e7855f39061599e1c2554ce0b5a17777f27c73396",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/desktop-pala-preview.jpg": "60d7bb14b8bd800c9a05fe10cab290dadfa4cac90d4a3323d7221d91ac9ca063",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/desktop-photo-note.jpg": "e9b3bf38bd031d5912c4dbfa3e60b4d05027b2a3dcd7c2921b33e7ed80942aae",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/desktop-photo.jpg": "44a385b2c462ce42d66bf1e31a1ef485c12a0b05f5d050957dc0e56205375351",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/manifest.json": "61f2c5ed2060a0b2c2ac3ef26e6cf9a13f695f3d0c8ecb327ac65cf8fe70384f",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/mobile-daskathia-preview.jpg": "649e55e7db6502c10b08748084fc7fe41ff4d5cef6a59cc8a5d4a9ebbf001ec4",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/mobile-literature-preview.jpg": "56b5b86ff12e0345dfa031697c3e09bfc5d120bc120af8479805de993599f575",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/mobile-opening.jpg": "02c01d284fa48e9451bcf79bcc1cf8522425e046a8103190e0bd4bf91303fbd0",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/mobile-pala-preview.jpg": "59648fd7ce364a7e9417e2e83551065659432fb238bd67e58de0ca9395ee975d",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/mobile-photo.jpg": "83b78c1da8f4d98c1c73117549f3e4596ac8f93a791d7f2fc114193ea7ca7295",
+    "outputs/chakulia-panda-publication-2026-11-27/live-browser/mobile-source-note.jpg": "26780077e0d356c54dbcfe28fcf5f501509655eed6c199b5f6aeec78a0a074bb",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/literature--card-live.html": "99edab46f6c48f810042a74c0719ef6c0c01d63848e84e1747d1ebdfff8e8592",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/literature--card-local.html": "34db5eb2fa1ee006f391952472b85e56ceff6b1456e7844eeb38e44db840c777",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/literature--champu-and-sakhi--article-live.html": "2de4a4346f2b2bfde89170b91ae277e1cf66c58f0c74d22f200896a02f97fa6b",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/literature--champu-and-sakhi--article-local.html": "2de4a4346f2b2bfde89170b91ae277e1cf66c58f0c74d22f200896a02f97fa6b",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/literature--credit-live.html": "2280e3fadb8ac481ba63d364cd08495036ee44f4cbbea38333038954d5af3dfc",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/literature--credit-local.html": "2280e3fadb8ac481ba63d364cd08495036ee44f4cbbea38333038954d5af3dfc",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--chakulia-panda--article-live.html": "edaa089ab30c9d3cb0bf071028929ecd2e61588b52ac3a690c85e1130d9f23d5",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--chakulia-panda--article-local.html": "c67ed9b65847f6254131a73953e1e71302d2f7cdb1ed0eb5d714fd9510c71d99",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--daskathia--card-live.html": "99edab46f6c48f810042a74c0719ef6c0c01d63848e84e1747d1ebdfff8e8592",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--daskathia--card-local.html": "34db5eb2fa1ee006f391952472b85e56ceff6b1456e7844eeb38e44db840c777",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--daskathia--credit-live.html": "c19f91be738bc40563fa0d3dcd49f547f61605cdad5a752ff56a6e8f82b5e4f6",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--daskathia--credit-local.html": "c19f91be738bc40563fa0d3dcd49f547f61605cdad5a752ff56a6e8f82b5e4f6",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--pala--card-live.html": "99edab46f6c48f810042a74c0719ef6c0c01d63848e84e1747d1ebdfff8e8592",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--pala--card-local.html": "34db5eb2fa1ee006f391952472b85e56ceff6b1456e7844eeb38e44db840c777",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--pala--credit-live.html": "f57fac306c7371c6c5104c5169e7de6f8d5b4960f69739aad9bc531d6b70f40b",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/fragments/sounds-of-odisha--pala--credit-local.html": "f57fac306c7371c6c5104c5169e7de6f8d5b4960f69739aad9bc531d6b70f40b",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/http.json": "94a0638d9809dff616ed7439d5dbafab7abf392fcab44e037896a3c9a867a838",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/0.webp": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/0.webp.http.json": "24ac9f15590469261373f42b1236bc174502e1911cd0065eb0288a30278c24ef",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/1.webp": "53cf3625d6ba7967d827a37b5999ed318df1beb7214b763c1a76db584477f3fe",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/1.webp.http.json": "49492ad5feebfa1d0325e5cf6ea7a082602114bc8b4a6678a1b514d62cf2a055",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/2.webp": "418e6fb344c2fe93d41195f6e6ce6e2c0e7bf0b5def1da87df6a062ac067520a",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/2.webp.http.json": "27344ad700e0249ed108e9b32ab4bfa5e09ae134a6e3e3591742b73c7db912dc",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/3.webp": "ab30ba2c68f1aa0597f8c3b76caf9700c72e376d2d8730e971b088b097886922",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/3.webp.http.json": "863372879583d6451cc2706cecb2a3f293509c28986678ac03bed7682a1a6e93",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/4.webp": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/4.webp.http.json": "ac754dbff27411b72afbee5f97472367528aec9e7ee8e94da0eb84d76b50591e",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/5.jpg": "907315cdb702e79dd9ce68157a3d546be0116fb7efa2edf16631a82cdff04b67",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/images/5.jpg.http.json": "fdd6c7662e399d3cdd2290ccbaaeac1aa9040a97b371df47564d0a54fb9c80c8",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/literature/champu-and-sakhi/index.html": "033afe041080b0cd846cca9217eea9573bed0a6a8ba23337f019cd2b933b229d",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/literature/champu-and-sakhi/index.html.http.json": "31d69aeec71fb0eac6ce5a00bd3c83c59242e282e09784013c78470e21fcbfbd",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/literature/index.html": "9032eb9f0e0b35edfd0d6c9ecdd4fc6823213eeb69d3fb98879fd8b6dc02e426",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/literature/index.html.http.json": "2fff60c2b2fac39afecd6968bd8177aa4d8a2c5c389ceb12f92a17432f4bdc10",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/sounds-of-odisha/chakulia-panda/index.html": "aaf0d2af782a3cc8206f1be2cdc1f72183fc8927d2fe8aa06c57e39010389c05",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/sounds-of-odisha/chakulia-panda/index.html.http.json": "0375610bd9c31f17c6ff8ce9522e31294e01b7721b75ffab4e2a7c79acb04164",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/sounds-of-odisha/daskathia/index.html": "b9db67d7191dc97cdaa5c0316f8720dd948d7a25df51a81c9250db341e8ae518",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/sounds-of-odisha/daskathia/index.html.http.json": "c06aeae558b571c04fae17f718a158a8d217af6dbd756574a6700898b1f9e31f",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/sounds-of-odisha/pala/index.html": "cac96dd346bb7a0d8423fc764c5039a852ef0ef8cd812b6b648a76fc16470556",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/pages/sounds-of-odisha/pala/index.html.http.json": "fac3ef8597b799210708e4d6aee644ee83c94ff042b7ca4dd312525332f745dd",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/root-image-acceptance.json": "97db1c0774f482d7973cbe983f368d13dc800ef0d0518c85bf47da136d80a824",
+    "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/root-image-measurements.json": "648b1352360fd4d63e8edf2e90f29dd146f32ef32469576982229e2c921e0396",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/http.json": "36cfd4e46f817709c51c0aec4fd404545cfedd0eaeb393b88add32e4ef4bcd58",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/knowledge/manikapatna-anchor/article.html": "7810c4ebc41a7f99f1d2faf8182aa0fee4cf0cfb4b1ac13c3b65f4744949e9fe",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/knowledge/manikapatna-anchor/index.html": "95e18f727a8d9ce20e297bca688e9133195b95df893b27a27d70db4ae7e1583b",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/knowledge/manikapatna-anchor/index.http.json": "f0f8bdd3ccf096199d7e811b73b6a0a87c51ff34ca3b4b7410676c0c10bad78b",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/bahuda-yatra/article.html": "670c382f23ad028a35be81dda0ec6a8d924b7ec71d4b77db0333d86380603076",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/bahuda-yatra/index.html": "c55c96350cee5cdd6564474fc915ba04a13c13638a4131d0540bf3335191b678",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/bahuda-yatra/index.http.json": "c3f3e479ab19f0a5ea68c54f1bebbfac432f7edff9febded8cadf7daa35da08c",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/ratha-yatra/index.html": "4baebec64ec65ab1bc961bbc4b54f0e9424c86ea7acab66109b91939154a0572",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/ratha-yatra/index.http.json": "eb2523d9e85c4bb1aa4bf54cdf5b6434867fa8ac92e0909669ce2ffc00b7888c",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/the-year-that-feeds-us/index.html": "b4acbd157fb63a398f81172b308af570a3aa10ba7926c8a0a1d424c1393c9fab",
+    "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/stories/the-year-that-feeds-us/index.http.json": "c1ab570d9074671c987c3cbfff745c306b5bbc7cd90347e1224d8bf3a7cef7ce",
+    "outputs/chakulia-panda-publication-2026-11-27/release/candidate-exact-review.json": "e588a514a6f8b4e5d0a94cc2c5d45173f9e2932285d1c626d107e4ce9eb32fd4",
+    "outputs/chakulia-panda-publication-2026-11-27/release/deployment-attempt1-failed.log": "94fd875226193a8e814d86cbd570f5617794d4dddfd6503dfdaa641bf04d030d",
+    "outputs/chakulia-panda-publication-2026-11-27/release/deployment-attempt1.json": "621bf093b75b3b7d0de6dd4a0541d43320619465253d9ae5d911519f2a72b6c4",
+    "outputs/chakulia-panda-publication-2026-11-27/release/deployment.json": "21279998c9114b195ab06350919386b94b175b524ab6f7a16be6034cc9aa1ea3",
+    "outputs/chakulia-panda-publication-2026-11-27/release/deployment.log": "51a08a6218a1ca10e1ab3565084945b63a447c36b91a2a3a47c0b4d5f48053a6",
+    "outputs/chakulia-panda-publication-2026-11-27/release/exact-review-copy.json": "86be62c53da75888a88224ced7e95a8d33c98bc675a40608e95a8e28442df09d",
+    "outputs/chakulia-panda-publication-2026-11-27/release/publication-ci.json": "a25aeab01003f54b053983bbe1b75cace7dc70c655002a691af67ffb75aada2d",
+    "outputs/chakulia-panda-publication-2026-11-27/release/publication-ci.log": "ad49f67c6c7c6192c2056e31352e2039f02d929305dee53f9b5fcf88048593bf",
+    "outputs/chakulia-panda-publication-2026-11-27/release/publication-pr-merged.json": "fefb8ee74c883b0c3a2eac300c53bff1ba025fd27cff9aa1e71b2eb93ea5736d",
+    "outputs/chakulia-panda-publication-2026-11-27/release/receipt-checks.json": "128961373c3653cbccc42f6bb8316ba4cb26ed18ffb25d1cc2635497126624c7",
+    "outputs/chakulia-panda-publication-2026-11-27/review/delivery-review.json": "b1a06009d819e11ca38b796a56e18d0915243320a404be39abf9b6cd8c2e3fd1",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/0.html": "aaf0d2af782a3cc8206f1be2cdc1f72183fc8927d2fe8aa06c57e39010389c05",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/1.html": "cac96dd346bb7a0d8423fc764c5039a852ef0ef8cd812b6b648a76fc16470556",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/10.jpg": "907315cdb702e79dd9ce68157a3d546be0116fb7efa2edf16631a82cdff04b67",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/11.html": "95e18f727a8d9ce20e297bca688e9133195b95df893b27a27d70db4ae7e1583b",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/12.html": "c55c96350cee5cdd6564474fc915ba04a13c13638a4131d0540bf3335191b678",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/13.html": "4baebec64ec65ab1bc961bbc4b54f0e9424c86ea7acab66109b91939154a0572",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/14.html": "b4acbd157fb63a398f81172b308af570a3aa10ba7926c8a0a1d424c1393c9fab",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/2.html": "b9db67d7191dc97cdaa5c0316f8720dd948d7a25df51a81c9250db341e8ae518",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/3.html": "9032eb9f0e0b35edfd0d6c9ecdd4fc6823213eeb69d3fb98879fd8b6dc02e426",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/4.html": "033afe041080b0cd846cca9217eea9573bed0a6a8ba23337f019cd2b933b229d",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/5.webp": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/6.webp": "53cf3625d6ba7967d827a37b5999ed318df1beb7214b763c1a76db584477f3fe",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/7.webp": "418e6fb344c2fe93d41195f6e6ce6e2c0e7bf0b5def1da87df6a062ac067520a",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/8.webp": "ab30ba2c68f1aa0597f8c3b76caf9700c72e376d2d8730e971b088b097886922",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/9.webp": "8b030c3b48acd32f80e2f8dcbc78d394a709985c3b596b19443b6fe8daae1dd2",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/deployment-independent.json": "b002ffb46418d7848615e9dc0d7c629ed8afcca612b7bb22f5d1b9f3961e730c",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/fresh-http.json": "72ffbd89ed324a5776f3c040bab0c84efbbccdc0645622f89b1aee25c5250ae0",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/page-and-preservation-review.json": "1a2523684e648f0fa05c3a3d744e37837fb67b74cdb364e6928cb202a920ac19",
+    "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/pixel-comparison.json": "b2978f35dd3febbf4692337558c4140855ba82d533702b637d36dc6f14ba1ae2"
+  },
+  "source_contract_hashes": {
+    "kb/media/chakulia-panda/chakulia-panda-original.jpg": "e92404828524fd4580ac44e1608176888006fa9d620cf30fca97b76af18274ed",
+    "kb/research/culture/chakulia-panda-image.json": "75c6fa9c90db5524294da7d77903010b97742b25b4f69e642b0e753f29bfa7f2",
+    "kb/research/culture/chakulia-panda-sources.json": "28812a4461662a9494dd8f4930bad36121ae4e79e9de14e29c9200c04261ce35",
+    "kb/research/culture/chakulia-panda.md": "bcef9bd05b624888aca1a372b7f08cabf3bc7332de61dfd0f9204c23d1adb868",
+    "projects/site/editions/coast.json": "9d83a64dd2da431e5d4d08dfd7449990f9324c50d3af65cf8ddeb49bdac07428",
+    "projects/site/editions/responsive-images.json": "74654518318a78986f4f095d6b8e7413ddda081bbc18dc144bf615b70f4b702e",
+    "projects/site/editions/search-candidate.json": "c6db33964af8c21b58532b71f2d3d8ca7241b955496d4a3b8aafe8e005f9f4c3",
+    "projects/site/public/assets/champu-and-sakhi/radha-confidante-met.jpg": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+    "projects/site/public/images/chakulia-panda/chakulia-panda-1200.webp": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df",
+    "projects/site/src/pages/literature/index.astro": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873",
+    "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85",
+    "projects/site/src/pages/sounds-of-odisha/daskathia.astro": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6",
+    "projects/site/src/pages/sounds-of-odisha/pala.astro": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4",
+    "projects/site/tests/build.test.mjs": "740ac9a5e98cb0f02417d45692ce25881d77cfee33584a4bc2a10703f98d696f",
+    "projects/site/tests/publication-jpeg.test.mjs": "17a931795f609f17267828b5b3a622d8374072d1009ddc79f6139725651a2e46",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "c68d2375ce1d62863bbd942109f68d24dc139a1de4ff04425cd30c9613fc3742",
+    "projects/site/tests-coast/cinema-image-sizing.test.mjs": "f60a0ee935fe791d2e861945aa223db670a4f272bef85d8c98132eef43c90b76",
+    "projects/site/tests-coast/core-sound-source-links.test.mjs": "8938a0c98f51bd0e20db7109f0be0548f0e387506b1844944ad0ef7ecbf8def8",
+    "projects/site/src/content-notes/manikapatna-anchor.md": "4344749faad11332ac1b7ef25065e1bfd67ff65e7e52180fac0ee05b062cedb0",
+    "projects/site/src/pages/knowledge/manikapatna-anchor.astro": "eaca61b4be8948dcad5659e3cb06c3363b599c2f05d88f7108e9f1f029343435"
+  },
+  "protected_manifest_sha256": "d73aee445e23d37400d97da17eab231aec7ac9662e5ca6458a618ecc5d00c1d7",
+  "validation_evidence_sha256": "128961373c3653cbccc42f6bb8316ba4cb26ed18ffb25d1cc2635497126624c7"
+}

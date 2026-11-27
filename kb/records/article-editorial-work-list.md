@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1438. blocked: 1, completed: 282, excluded: 873, in_progress: 1, queued: 281.
+Route inventory: 1438. blocked: 1, completed: 283, excluded: 873, queued: 281.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1459,6 +1459,6 @@ Route inventory: 1438. blocked: 1, completed: 282, excluded: 873, in_progress: 1
 | POD-EDIT-PARADIP-CARGO-20261127 | [What 156 million tonnes at Paradip means for Odisha](https://projectodisha.org/knowledge/paradip-port-cargo/) | queued | article |
 | POD-EDIT-RATHA-YATRA | [Ratha Yatra: When the Deities Come Out to the Road](https://projectodisha.org/stories/ratha-yatra/) | queued | article |
 | POD-EDIT-BHUBANESWAR-PLANNING-20261127 | [How Bhubaneswar makes room for streets as it grows](https://projectodisha.org/knowledge/bhubaneswar-town-planning/) | queued | article |
-| POD-EDIT-CHAKULIA-PANDA-20261127 | [Chakulia Panda: Verse at the Doorstep](https://projectodisha.org/sounds-of-odisha/chakulia-panda/) | in_progress | Authorized new original performance article with credited photograph and three incoming previews; zero programme credit. |
+| POD-EDIT-CHAKULIA-PANDA-20261127 | [Chakulia Panda: Verse at the Doorstep](https://projectodisha.org/sounds-of-odisha/chakulia-panda/) | completed | Authorized new original performance article with credited photograph and three incoming previews; zero programme credit. |
 | POD-EDIT-BAHUDA-YATRA | [Bahuda Yatra: What the Deities Eat on the Way Home](https://projectodisha.org/stories/bahuda-yatra/) | queued | article |
 | POD-EDIT-MANIKAPATNA-ANCHOR-20261127 | [What a stone anchor at Manikapatna tells us about Odisha and Gujarat](https://projectodisha.org/knowledge/manikapatna-anchor/) | queued | article |

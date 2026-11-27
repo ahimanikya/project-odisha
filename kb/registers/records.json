@@ -11227,15 +11227,17 @@
       "id": "POD-WORK-20261127410",
       "title": "Publish Chakulia Panda: Verse at the Doorstep",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-20261127410",
-      "next_action": "Complete separate combined review and exact committed review; require hosted CI before merge, then authorized deployment, live review and reviewed receipt merge.",
+      "next_action": "Separately review and merge the evidence-only receipt after required checks, then return the slot explicitly.",
       "blockers": [],
       "refs": [
-        "POD-DEC-20261127410"
+        "POD-DEC-20261127410",
+        "POD-REV-20261127410",
+        "POD-REL-20261127410"
       ],
       "evidence": [
         "records/chakulia-panda-publication-20261127.json"
@@ -27347,6 +27349,24 @@
         "records/pentha-sambad-archive-20261127.json"
       ],
       "summary": "Independent actual archive replay and capture provenance verification passed. Bounded note-only addition, preserved records and mobile/desktop presentation passed. Full hosted checks and live publication pending."
+    },
+    {
+      "id": "POD-REV-20261127410",
+      "title": "Chakulia Panda independent source, media, implementation and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate reviewer; source review by Anvesha"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261127410",
+        "POD-DEC-20261127410"
+      ],
+      "evidence": [
+        "records/chakulia-panda-publication-20261127.json"
+      ],
+      "summary": "Separate source, media, capacity, implementation, rendered, package, reconciliation, exact-candidate and fresh delivery reviews pass. Three actual image differences measured and visually accepted with explicit limits. Final receipt review and actual merge remain pending; zero programme credit."
     }
   ],
   "releases": [
@@ -32072,6 +32092,21 @@
       ],
       "evidence": [
         "records/pentha-public-corroboration-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261127410",
+      "title": "Chakulia Panda: Verse at the Doorstep with credited photograph",
+      "status": "published",
+      "authorization": "POD-DEC-20261127410",
+      "destination": "https://projectodisha.org/sounds-of-odisha/chakulia-panda/",
+      "refs": [
+        "POD-WORK-20261127410",
+        "POD-DEC-20261127410",
+        "POD-REV-20261127410"
+      ],
+      "evidence": [
+        "records/chakulia-panda-publication-20261127.json"
       ]
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "status": "release_candidate",
+  "status": "completed",
   "article_id": "POD-EDIT-CHAKULIA-PANDA-20261127",
   "route": "/sounds-of-odisha/chakulia-panda/",
   "title": "Chakulia Panda: Verse at the Doorstep",
@@ -7,7 +7,7 @@
   "started_on": "2026-11-27",
   "authorization": "POD-DEC-20261127410",
   "work_id": "POD-WORK-20261127410",
-  "authorization_quote": "Has Gupteswar\u2019s final record merged and the slot returned now? If so, publish Chakulia Panda with the credited photograph, relevant article links, and mobile and desktop layout checks.",
+  "authorization_quote": "Has Gupteswar’s final record merged and the slot returned now? If so, publish Chakulia Panda with the credited photograph, relevant article links, and mobile and desktop layout checks.",
   "programme_credit": 0,
   "scope_released": false,
   "input_head": "3db513ae9d2caca01f8e8450ce95a8f7b22f1a3b",
@@ -71,7 +71,7 @@
         "outputs/chakulia-panda-publication-2026-11-27/review/"
       ],
       "task": "Separate source/media/capacity and integrated/rendered/delivery review on assigned candidates. No implementation/shared records.",
-      "status": "local_and_combined_reviews_pass_exact_head_pending"
+      "status": "delivery_review_pass_receipt_review_pending"
     }
   },
   "capacity": {
@@ -81,11 +81,16 @@
     "status": "q86_existing_radha_delivery_reviewed",
     "proposal": "outputs/chakulia-panda-publication-2026-11-27/capacity/proposal-q86.json",
     "savings_bytes": 546637,
-    "actual_hosted_capacity_pending": true,
+    "actual_hosted_capacity_pending": false,
     "separate_review": "outputs/chakulia-panda-publication-2026-11-27/review/capacity-review-q86.json",
-    "bounded_change": "Only existing Radha-confidante delivery JPEG quality95 to86; full frame,2048x1341 geometry,original and credits retained. Lossy pixels explicitly measured."
+    "bounded_change": "Only existing Radha-confidante delivery JPEG quality95 to86; full frame,2048x1341 geometry,original and credits retained. Lossy pixels explicitly measured.",
+    "actual_publication_ci_and_deployment": {
+      "bytes": 999965773,
+      "files": 3818,
+      "remaining_bytes": 34227
+    }
   },
-  "next_action": "Complete separate combined review and exact committed review; require hosted CI before merge, then authorized deployment, live review and reviewed receipt merge.",
+  "next_action": "Separately review and merge the evidence-only receipt after required checks, then return the slot explicitly.",
   "local_checks": {
     "status": "historical_failed_run_retained",
     "results": "outputs/chakulia-panda-publication-2026-11-27/build-results-before-bahuda.json",
@@ -127,7 +132,7 @@
       "plan": "outputs/chakulia-panda-publication-2026-11-27/implementation/manikapatna-reconciliation-plan.json",
       "contract": "outputs/chakulia-panda-publication-2026-11-27/combined-source-contract.json",
       "status": "separate_reconciliation_pass",
-      "validation": "Existing article/card/style/photo unchanged. Localpackagepre913; combined hosted checks and current capacity plus targeted live newroute/notes/hold required.",
+      "validation": "Existing article/card/style/photo unchanged. Historical local package predates PR913. The then-required combined hosted checks and Linux capacity passed in46054636599; exact-merge deployment46057881170 attempt2 and fresh targeted Manikapatna/Bahuda source, note and search-hold checks passed, as linked below.",
       "review": "outputs/chakulia-panda-publication-2026-11-27/review/manikapatna-reconciliation-review.json"
     }
   },
@@ -142,10 +147,94 @@
     "remaining_bytes": 906196,
     "results": "outputs/chakulia-panda-publication-2026-11-27/build-results.json",
     "artifact_report": "outputs/chakulia-panda-publication-2026-11-27/local-verification.json",
-    "scope": "Built70d1f6dbf includingBahuda912, before incomingManikapatna913. Final combined hosted checks and actual Linux capacity required.",
+    "scope": "Historical package built70d1f6dbf including Bahuda912, before incoming Manikapatna913. The then-required final combined hosted checks and actual Linux capacity subsequently passed in46054636599 and deployment46057881170 attempt2; this local size remains historical.",
     "full_tests": 853,
     "coastal_tests": 605,
     "page_checks": 5692,
     "separate_package_review": "outputs/chakulia-panda-publication-2026-11-27/review/package-review.json"
+  },
+  "publication": {
+    "pull_request": 914,
+    "reviewed_head": "2fa007229f6a7e66bedee5f96beb929a75b18e98",
+    "merge": "334bdc037c4faf40bf45c7ef2cbfddff5a05c3e9",
+    "status": "published_and_live_reviewed",
+    "exact_review": "outputs/chakulia-panda-publication-2026-11-27/release/candidate-exact-review.json",
+    "merge_evidence": "outputs/chakulia-panda-publication-2026-11-27/release/publication-pr-merged.json",
+    "required_ci": 46054636599,
+    "ci_attempt": 1,
+    "ci_conclusion": "success",
+    "deployment": 46057881170
+  },
+  "hosted_validation": {
+    "run": 46054636599,
+    "head": "2fa007229f6a7e66bedee5f96beb929a75b18e98",
+    "attempt": 1,
+    "conclusion": "success",
+    "full_tests": 853,
+    "coastal_tests": 605,
+    "bytes": 999965773,
+    "files": 3818,
+    "remaining_bytes": 34227,
+    "evidence": "outputs/chakulia-panda-publication-2026-11-27/release/publication-ci.json",
+    "log": "outputs/chakulia-panda-publication-2026-11-27/release/publication-ci.log"
+  },
+  "deployment": {
+    "run": 46057881170,
+    "head": "334bdc037c4faf40bf45c7ef2cbfddff5a05c3e9",
+    "status": "completed",
+    "failed_attempt": 1,
+    "failure": "Existing anonymous Dhaga release API download returned HTTP403; no underlying cause inferred.",
+    "failure_evidence": "outputs/chakulia-panda-publication-2026-11-27/release/deployment-attempt1.json",
+    "failure_log": "outputs/chakulia-panda-publication-2026-11-27/release/deployment-attempt1-failed.log",
+    "conclusion": "success",
+    "attempt": 2,
+    "bytes": 999965773,
+    "files": 3818,
+    "remaining_bytes": 34227,
+    "evidence": "outputs/chakulia-panda-publication-2026-11-27/release/deployment.json",
+    "log": "outputs/chakulia-panda-publication-2026-11-27/release/deployment.log",
+    "retry": "Unchanged failed-job retry passed; initial anonymous Dhaga API HTTP403 retained, no underlying cause inferred."
+  },
+  "completed_on": "2026-11-28",
+  "receipt_pending": true,
+  "review_id": "POD-REV-20261127410",
+  "release_id": "POD-REL-20261127410",
+  "pull_request": 914,
+  "live_url": "https://projectodisha.org/sounds-of-odisha/chakulia-panda/",
+  "release_condition": "The sole article slot returns only after this separately reviewed evidence-only receipt actually merges following required checks and an explicit handoff to the coordinating hill chat. No next topic is claimed.",
+  "verified_routes": [
+    "/sounds-of-odisha/chakulia-panda/",
+    "/sounds-of-odisha/pala/",
+    "/sounds-of-odisha/daskathia/",
+    "/literature/",
+    "/literature/champu-and-sakhi/",
+    "/knowledge/manikapatna-anchor/",
+    "/stories/bahuda-yatra/",
+    "/stories/ratha-yatra/",
+    "/stories/the-year-that-feeds-us/"
+  ],
+  "delivery_review": {
+    "path": "outputs/chakulia-panda-publication-2026-11-27/review/delivery-review.json",
+    "sha256": "b1a06009d819e11ca38b796a56e18d0915243320a404be39abf9b6cd8c2e3fd1",
+    "result": "PASS",
+    "reviewer": "Drishti, separate AI reviewer; no human specialist or field approval claimed."
+  },
+  "live_verification": {
+    "root_http": "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/http.json",
+    "incoming_source_supplement": "outputs/chakulia-panda-publication-2026-11-27/live/incoming-20261127T201228.472872Z/http.json",
+    "root_browser": "outputs/chakulia-panda-publication-2026-11-27/live-browser/manifest.json",
+    "independent_http": "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/fresh-http.json",
+    "independent_page_review": "outputs/chakulia-panda-publication-2026-11-27/review/live-independent/page-and-preservation-review.json",
+    "root_image_acceptance": "outputs/chakulia-panda-publication-2026-11-27/live/delivery-20261127T201228.078299Z/root-image-acceptance.json",
+    "screenshots": 12,
+    "accepted_captures": 12,
+    "raw_differences_retained": true,
+    "scope": "Five primary routes and six actual images plus four incoming source-continuity routes. Root operated all three incoming links at both widths, desktop photograph note2 and mobile source3 with Enter returns. Three actual differing encodings (Chakulia960, existing manuscript1440 and RadhaJPEG) independently decoded/measured and personally viewed by root and reviewer. Article/card fragments match after only observed responsive URL substitutions. Exact analytics shell nodes classified; no analytics behavior or consent audit. Viewport framing limits explicit; no exhaustive device or unrelated-image claim."
+  },
+  "runtime_limits": {
+    "deployment": "Attempt1 failed anonymous existing Dhaga release API HTTP403 before sitebuild; unchanged failed-job retry attempt2 succeeded. Raw failure retained.",
+    "browser": "Expired session recovered with a fresh tab before live checks; screenshots cover named sections only.",
+    "measurement": "Initial numpy and guessed Sharp path unavailable; successful root measurements used installed Sharp resolved from site package.",
+    "receipt": "Evidence only; no public-source change or additional deployment required."
   }
 }
