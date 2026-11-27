@@ -1,5 +1,5 @@
 {
-  "status": "integration",
+  "status": "local_validation",
   "article_id": "POD-EDIT-CHAKULIA-PANDA-20261127",
   "route": "/sounds-of-odisha/chakulia-panda/",
   "title": "Chakulia Panda: Verse at the Doorstep",
@@ -42,7 +42,8 @@
   },
   "protected_preparation": {
     "manifest": "outputs/gupteswar-publication-2026-11-27/protected-preparation.json",
-    "count": 141
+    "count": 141,
+    "checked_exact": true
   },
   "assignments": {
     "Anvesha": {
@@ -70,7 +71,7 @@
         "outputs/chakulia-panda-publication-2026-11-27/review/"
       ],
       "task": "Separate source/media/capacity and integrated/rendered/delivery review on assigned candidates. No implementation/shared records.",
-      "status": "static_capacity_pass_rendered_pending"
+      "status": "static_capacity_rendered_reconciliation_pass_package_pending"
     }
   },
   "capacity": {
@@ -80,12 +81,59 @@
     "status": "q86_existing_radha_delivery_reviewed",
     "proposal": "outputs/chakulia-panda-publication-2026-11-27/capacity/proposal-q86.json",
     "savings_bytes": 546637,
-    "actual_hosted_capacity_pending": true
+    "actual_hosted_capacity_pending": true,
+    "separate_review": "outputs/chakulia-panda-publication-2026-11-27/review/capacity-review-q86.json",
+    "bounded_change": "Only existing Radha-confidante delivery JPEG quality95 to86; full frame,2048x1341 geometry,original and credits retained. Lossy pixels explicitly measured."
   },
-  "next_action": "Integrate reviewed manuscript/photo, separately resolve capacity, inspect local desktop/mobile, run required checks, publish then verify live and merge separately reviewed receipt.",
+  "next_action": "Finish actual final local package and separate review, then required hosted checks, authorized deployment, live delivery review and reviewed receipt merge.",
   "local_checks": {
     "status": "partial_prior_to_incoming_reconciliation",
     "results": "outputs/chakulia-panda-publication-2026-11-27/build-results-before-bahuda.json",
     "history": "outputs/chakulia-panda-publication-2026-11-27/check-history.json"
+  },
+  "research": {
+    "manuscript": "kb/research/culture/chakulia-panda.md",
+    "source_dossier": "kb/research/culture/chakulia-panda-sources.json",
+    "final_source_audit": "outputs/chakulia-panda-publication-2026-11-27/research/final-source-audit.json"
+  },
+  "media": {
+    "record": "kb/research/culture/chakulia-panda-image.json",
+    "source": "Aditya Mahar, CC BY-SA 4.0, 15 November 2015",
+    "public_image": "/images/chakulia-panda/chakulia-panda-1200.webp"
+  },
+  "implementation": {
+    "report": "outputs/chakulia-panda-publication-2026-11-27/implementation/implementation.json",
+    "contract": "outputs/chakulia-panda-publication-2026-11-27/implementation/contract.json",
+    "static_review": "outputs/chakulia-panda-publication-2026-11-27/review/static-review.json",
+    "incoming_routes": [
+      "/sounds-of-odisha/pala/",
+      "/sounds-of-odisha/daskathia/",
+      "/literature/"
+    ]
+  },
+  "rendered_review": {
+    "root": "outputs/chakulia-panda-publication-2026-11-27/local/browser-review.json",
+    "separate": "outputs/chakulia-panda-publication-2026-11-27/review/rendered-review.json",
+    "captures": 13,
+    "limits": "12 meaningful viewport captures and one retained transitional note capture; desktop photo crop is viewport framing only. Full mobile photo and all six incoming previews inspected. Packaged article and images exact to local verification; incoming913 continuity requires separate review."
+  },
+  "reconciliation": {
+    "incoming_main": "3ed7a967d",
+    "merge": "70d1f6dbf2b1ad54c37774c5dfa0657d2dea3986",
+    "review": "outputs/chakulia-panda-publication-2026-11-27/review/reconciliation-review.json",
+    "summary": "Preserved Bahuda PR912; actual shared unions and regenerated views, full page count215."
+  },
+  "check_history": "outputs/chakulia-panda-publication-2026-11-27/check-history.json",
+  "web_guidance": "outputs/chakulia-panda-publication-2026-11-27/web-guidance.md",
+  "local_validation": {
+    "status": "PASS_pre913",
+    "stages": 13,
+    "artifact_checks": 375,
+    "payload_bytes": 999093804,
+    "files": 3817,
+    "remaining_bytes": 906196,
+    "results": "outputs/chakulia-panda-publication-2026-11-27/build-results.json",
+    "artifact_report": "outputs/chakulia-panda-publication-2026-11-27/local-verification.json",
+    "scope": "Built70d1f6dbf includingBahuda912, before incomingManikapatna913. Final combined hosted checks and actual Linux capacity required."
   }
 }

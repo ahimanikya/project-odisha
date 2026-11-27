@@ -1,0 +1,60 @@
+{
+  "status": "PASS_BOUNDED_RECONCILIATION",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T18:40:21.217253+00:00",
+  "base": "3db513ae9d2caca01f8e8450ce95a8f7b22f1a3b",
+  "own_checkpoint": "12b7fcb9b1bc6205da0d1a361d613bf0374ebb4d",
+  "incoming": "3ed7a967de9cd2b5c4c62014b5c3dec613f8d661",
+  "observed_merged_head": "70d1f6dbf2b1ad54c37774c5dfa0657d2dea3986",
+  "timing": "Merge had already been committed as 70d1f6db by the first review inspection; reviewed actual committed tree and current files, not an unresolved working tree.",
+  "findings": [],
+  "incoming_changed_paths": 15,
+  "shared_paths": [
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/reference/public-website-routes.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "incoming_nonshared_exact": {
+    "kb/catalog.json": "c7933ff45c6c56d85fd204d0fdee89553fd09739f837c6b268bfe1a236bc102f",
+    "kb/research/culture/bahuda-yatra.md": "c12610f955cc52fe0b083dde0df565c6bd17961075c1069b83d69c8a14c1436a",
+    "projects/site/src/data/discovery.ts": "b348288e030fa83bee8c1018f5da2699432fa8551d52f9f76b037821b7c0c8e0",
+    "projects/site/src/pages/stories/bahuda-yatra.astro": "88b96eaef644b1a7d2e77b15b4596e2e76e2ad8978bc3e39a74959ae944df348",
+    "projects/site/src/pages/stories/ratha-yatra.astro": "2e7bf53eb2f13bdb7499e31a9ae5c7e8a5f492d21c7801c4677f415c4c476bb4",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "ee3435fc1e7e991ba617a687cb6ae1999b807403f55a7952605e6c10977e70ad",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "0ce0ea70c8499e4d3a729b45112654b30bd53c8edc303278e19c38b438c30147",
+    "projects/site/tests-coast/edition.test.mjs": "f31fb0740da41556ea615698ff50523282e37956ea2e968527455c32cd5e3ed3"
+  },
+  "shared_resolution": "Independently compared complete JSON rows: rollout items and search-candidate pages equal the exact keyed union of both parents, with no conflicting rows or duplicate IDs. Portable route and coast route sets equal the exact union with no duplicates. Both direct-page assertions retained; 213 plus Chakulia plus Bahuda equals 215. No other count term was relaxed.",
+  "generated_views": "Read actual work-list diff: only Bahuda row and its inventory/queued increment added to own checkpoint; own Chakulia row remains in progress. Workbench diff only updates the coast digest to the merged coast JSON. No unmerged index entries remain.",
+  "preservation": {
+    "protected_files_checked": 141,
+    "protected_mismatches": 0,
+    "reviewed_own_public_files_checked": 6,
+    "own_public_files": "All four reviewed Astro pages, Chakulia public base and Radha source hash-identical to static review.",
+    "foreign_operations_fields": [
+      "current_task",
+      "handoff_home",
+      "current_preparation"
+    ],
+    "foreign_fields_match_base": true
+  },
+  "authority_limits": [
+    "Incoming Bahuda content and its existing queued editorial status preserved, not independently re-reviewed or relabelled by this task.",
+    "Earlier rendered screenshots are of the pre-reconciliation full build. Fresh combined build/package validation remains pending.",
+    "No publication, hosted-capacity or live-delivery approval implied by this reconciliation.",
+    "Reviewer made no implementation, Git or shared-record changes."
+  ],
+  "reviewed_shared_sha256": {
+    "kb/records/article-editorial-rollout.json": "33273631194700ab6dbb102e1ab7d7475d998e72270f29ecb5c8597363da8dc6",
+    "kb/records/article-editorial-work-list.md": "ae41f95c9a57ebb912c402b5e359a5c9fe286dcf1425990094224ba7d8f5dee7",
+    "kb/records/editorial-workbench.json": "5ac0366e672b7d000cb3023a6b6738846b821bd7f2cacb4608559bc5c1264da9",
+    "kb/reference/public-website-routes.json": "06098a0ae9bc84cbac54c60c1559a2121c2584899b73f51bfc50ea935d5f9132",
+    "projects/site/editions/coast.json": "ae3d314019d869161e25674cdb6c3e1aec92df65941629270ffe680667006dcf",
+    "projects/site/editions/search-candidate.json": "2717064ee5e3816a3417302f84aaa232127b9303848f9e05d541adc285eadaf4",
+    "projects/site/tests/build.test.mjs": "ff02ea4ad46b6c883bdc963367947312ca9428a6743a31614a3733c787a58e81"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "status": "READ_ONLY_RECONCILIATION_PLAN",
+  "observed_head": "70d1f6dbf2b1ad54c37774c5dfa0657d2dea3986",
+  "incoming_base": "3ed7a967d",
+  "incoming_merge": "a03265e4787472d93f14028bb9f0290dd97e1794",
+  "incoming_pr": 913,
+  "incoming_ci": {
+    "run": 46048676787,
+    "result": "SUCCESS",
+    "basis": "Root verified receipt; this bounded task inspected local fetched Git objects, not GitHub execution independently."
+  },
+  "diff": [
+    {
+      "path": "kb/records/article-editorial-rollout.json",
+      "incoming_sha256": "593e4a8a684bc3136ff74f37abf8ff299f2a836b241f3429da6adfb72ac4c9fd",
+      "bytes": 1112699,
+      "overlaps_frozen_build_input": false
+    },
+    {
+      "path": "kb/records/article-editorial-work-list.md",
+      "incoming_sha256": "b302575a9914bfe07a47cda00a999339cb2059985f24dfcd5e60b571386f4878",
+      "bytes": 294005,
+      "overlaps_frozen_build_input": false
+    },
+    {
+      "path": "kb/records/editorial-workbench.json",
+      "incoming_sha256": "1b04c3bd5c80eb3c54556ff130a39f8df78957bbd5569f394091e1b98173d009",
+      "bytes": 1067378,
+      "overlaps_frozen_build_input": false
+    },
+    {
+      "path": "kb/reference/public-website-routes.json",
+      "incoming_sha256": "7442f0d45de50a47cce099d1953aa004b61aa691cb029a3bd38f01c9da82effa",
+      "bytes": 60786,
+      "overlaps_frozen_build_input": false
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "incoming_sha256": "dd719a11ad448816a6fafe50a71d6c3782f563841027901052bfde09727beff9",
+      "bytes": 122145,
+      "overlaps_frozen_build_input": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "incoming_sha256": "b799c8319122c706216172ee09d353b7393a3d6aa6a39ef3d0c62abb4176fbc8",
+      "bytes": 298022,
+      "overlaps_frozen_build_input": true
+    },
+    {
+      "path": "projects/site/src/content-notes/manikapatna-anchor.md",
+      "incoming_sha256": "4344749faad11332ac1b7ef25065e1bfd67ff65e7e52180fac0ee05b062cedb0",
+      "bytes": 3318,
+      "overlaps_frozen_build_input": false
+    },
+    {
+      "path": "projects/site/src/pages/knowledge/manikapatna-anchor.astro",
+      "incoming_sha256": "eaca61b4be8948dcad5659e3cb06c3363b599c2f05d88f7108e9f1f029343435",
+      "bytes": 418,
+      "overlaps_frozen_build_input": false
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "incoming_sha256": "fea899975980d229a743837beb9007a2a6c6e475dfc77889f25fcdc74b314cb3",
+      "bytes": 13643,
+      "overlaps_frozen_build_input": true
+    }
+  ],
+  "summary": "Nine changed files: one new Markdown article and one seven-line Astro route, three route/search/count registrations and four editorial inventory/view changes. No image, shared component, stylesheet, existing article, optimizer or responsive configuration change.",
+  "overlap": [
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/tests/build.test.mjs"
+  ],
+  "preservation_plan": [
+    "Let the current frozen 70d1f6dbf run finish; retain its logs, hashes and final package as pre-PR913 evidence. Do not relabel it a combined Manikapatna release.",
+    "Root reconciles the new Manikapatna Markdown and Astro files byte-exact to incoming merge hashes; retain its manual note anchors, two bibliographic notes, four returns, outgoing maritime-memory link and contribution link.",
+    "Union coast.routes and portable public route inventory so Chakulia Panda, Bahuda Yatra and Manikapatna all occur once; do not move any route into standalone_routes.",
+    "Union explicit search-candidate hold decisions, retaining the approved index shortlist unchanged.",
+    "Preserve all existing build assertions including Bahuda and Chakulia; add the Manikapatna assertion. Current direct-page term 215 includes Chakulia plus Bahuda, while incoming 215 includes Bahuda plus Manikapatna. Combined direct-page term must be 216, justified by the one extra direct Astro route.",
+    "Append the incoming queued Manikapatna editorial record without replacing Chakulia integration/ownership state; regenerate work-list/workbench/route views from merged canonical state, retaining all foreign records.",
+    "Keep the 141 protected preparation files, original photographs, reviewed q86 Radha setting and two corrected test selectors unchanged; bind a new combined source manifest without overwriting historical build manifests."
+  ],
+  "visual_evidence_continuity": {
+    "original_capture_scope": "dist full build before Bahuda reconciliation",
+    "current_package_scope": "Run at 70d1f6dbf includes prior Bahuda reconciliation and excludes PR913. Publication compression was still active at assignment; no completed package claim here.",
+    "four_page_source_checks": [
+      {
+        "path": "projects/site/src/pages/sounds-of-odisha/chakulia-panda.astro",
+        "reviewed_sha256": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85",
+        "current_sha256": "7e8264aa9991ae5e59fea4fa1702bb6dc7a8e8d4d394187fae4b134367ff3a85",
+        "unchanged": true,
+        "touched_by_incoming": false
+      },
+      {
+        "path": "projects/site/src/pages/sounds-of-odisha/pala.astro",
+        "reviewed_sha256": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4",
+        "current_sha256": "2d418723727155b772b8e90c6a7db8f23451c9a6a68c663da666cef644f962a4",
+        "unchanged": true,
+        "touched_by_incoming": false
+      },
+      {
+        "path": "projects/site/src/pages/sounds-of-odisha/daskathia.astro",
+        "reviewed_sha256": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6",
+        "current_sha256": "52154481a4b0df988ef95f09bbc7476c8c3f1246e0096561cd98e57c303dfdc6",
+        "unchanged": true,
+        "touched_by_incoming": false
+      },
+      {
+        "path": "projects/site/src/pages/literature/index.astro",
+        "reviewed_sha256": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873",
+        "current_sha256": "5326a2a4b52c06fabbc9c6d62574adeed7d263ce61c80dcc622b281a84817873",
+        "unchanged": true,
+        "touched_by_incoming": false
+      }
+    ],
+    "reuse_conditions": [
+      "All four reviewed Astro source hashes, renderer/shared components, relevant CSS and image bytes remain unchanged after reconciliation.",
+      "Compare the new combined article and three card/credit fragments against pre-913 artifacts; compare relevant styles and image geometry/bytes. Preserve any observed differences rather than assuming they are harmless.",
+      "If these comparisons pass, prior desktop/mobile screenshots and reported interactions remain evidence of the same unchanged UI at their original framing limits; no need to repeat every unchanged local screenshot.",
+      "They do not establish final combined package size, inclusion of Manikapatna, hosted encoding or live routing."
+    ],
+    "do_not_expand_claims": [
+      "Viewport captures are not full-page screenshots.",
+      "Desktop main-photo capture omits its top edge; existing actual-image inspection is distinct full-frame evidence.",
+      "No new visual inspection was performed by Samanta in this read-only plan."
+    ]
+  },
+  "combined_checks_required": [
+    "Required CI on the exact combined proposed head: full/coast build and tests, route/link/fragment resolution, disclosures, search decision/shortlist and publication payload. Incoming PR913 CI and pre913 local checks do not substitute for this combined result.",
+    "Compute actual combined hosted publication bytes/files below 1,000,000,000; Manikapatna adds HTML and possibly generated discovery output despite no new media. No payload amount is inferred from source bytes.",
+    "After combined artifacts exist, run Chakulia semantic contract and protected-original checks, plus exact Manikapatna built-body/source-link/4-marker-2-note-return checks across selected/full/publish editions as applicable.",
+    "Manikapatna route must return HTTP 200 and its reviewed title/byline, article text, both citation URLs, four local note targets/returns and maritime-memory/update links; verify search hold metadata. Check readable new-page layout once if it lacks prior adequate rendered evidence.",
+    "Retain the planned five-route Chakulia/Pala/Daskathia/Literature/Champu live capture on the final deployment, then add a separately scoped Manikapatna HTTP check. Also preserve prior Bahuda follow-up checks for Bahuda/Ratha/yearly calendar if not already proven for the combined deployment.",
+    "Compare actual delivered Chakulia package and Radha JPEG with final local artifact; retain byte/geometry differences for separate visual/pixel review. No platform-cause assumption."
+  ],
+  "not_needed_without_new_failure": [
+    "Reacquiring sources or photographs",
+    "Rewriting reviewed Chakulia narrative",
+    "Repeating unchanged image compression quality acceptance",
+    "Recapturing every unchanged local viewport if final fragment/style/media continuity is established"
+  ],
+  "limits": [
+    "No merge, edit to frozen inputs, build, HTTP capture or publication performed.",
+    "Plan does not independently certify the new article factual accuracy; it preserves the already merged incoming work and identifies integration checks."
+  ]
+}

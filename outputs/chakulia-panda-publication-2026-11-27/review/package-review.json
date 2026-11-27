@@ -1,0 +1,172 @@
+{
+  "status": "PASS_LOCAL_PACKAGE_PRE_PR913",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T19:03:33.399228+00:00",
+  "source_head": "70d1f6dbf2b1ad54c37774c5dfa0657d2dea3986",
+  "findings": [],
+  "authority_boundary": "This accepts only the actual pre-Manikapatna PR913 local package. Later reconciliation and complete hosted capacity remain required; no deployment or live acceptance.",
+  "actual_payload": {
+    "bytes": 999093804,
+    "regular_files": 3817,
+    "remaining_to_one_billion": 906196,
+    "symlinks": 0,
+    "method": "Independently enumerated actual dist-publish files and summed stat sizes."
+  },
+  "checks": {
+    "build_stages": 13,
+    "all_exit_zero": true,
+    "full_tests": 853,
+    "coast_tests": 605,
+    "page_acceptance_checks": 5692,
+    "publication_disclosure_pages": 1551,
+    "publication_disclosure_violations": 0,
+    "search_shortlist_pages": 11,
+    "artifact_checks": 375,
+    "artifact_reexecution": "Read complete verify-local.py, then executed its definitions and main in memory without its report-writing tail. Independent rerun passed all 375 actual checks without modifying the shared report or building artifacts.",
+    "frozen_inputs": "All 18 source input hashes match current files and every one of the 13 stage records."
+  },
+  "content_and_rendered_continuity": {
+    "fragments_sha256": {
+      "/sounds-of-odisha/chakulia-panda/": "c67ed9b65847f6254131a73953e1e71302d2f7cdb1ed0eb5d714fd9510c71d99",
+      "/sounds-of-odisha/pala/": "34db5eb2fa1ee006f391952472b85e56ceff6b1456e7844eeb38e44db840c777",
+      "/sounds-of-odisha/daskathia/": "34db5eb2fa1ee006f391952472b85e56ceff6b1456e7844eeb38e44db840c777",
+      "/literature/": "34db5eb2fa1ee006f391952472b85e56ceff6b1456e7844eeb38e44db840c777"
+    },
+    "cross_edition_identity": true,
+    "inline_style_identity_full_to_publish": true,
+    "statement": "Actual article and three incoming navigation fragments are exact across dist, dist-coast and dist-publish. Verified canonical paragraphs, headings, credit/source links, five native refs/notes/returns, byline, metadata, robots hold, reciprocal paths and image mappings using read-only helper replay. Four source Astro hashes remain bound to earlier static/rendered review. This establishes source/style continuity, not a new reviewer browser session."
+  },
+  "photo": {
+    "files": [
+      {
+        "url": "/images/chakulia-panda/chakulia-panda-1200.webp",
+        "sha256": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df"
+      },
+      {
+        "url": "/images/responsive/53cf3625d6ba7967-480.webp",
+        "sha256": "53cf3625d6ba7967d827a37b5999ed318df1beb7214b763c1a76db584477f3fe"
+      },
+      {
+        "url": "/images/responsive/018b1afa29fb4abd-960.webp",
+        "sha256": "018b1afa29fb4abd4cb8b62dcd33321d66b9fffaa800819c9f77a196dac00d5e"
+      },
+      {
+        "url": "/images/responsive/ab30ba2c68f1aa05-1200.webp",
+        "sha256": "ab30ba2c68f1aa0597f8c3b76caf9700c72e376d2d8730e971b088b097886922"
+      }
+    ],
+    "review": "All four files hashed against actual manifest and compared across all three editions. Actual decoded dimensions pass: base1200×943; variants480×377,960×754,1200×943. Personally viewed all three actual packaged variants; complete frame and recognisable figure/umbrella/vessel/building retained. Base and original were personally viewed earlier and remain exact.",
+    "rights": "Main numeric note and all three compact creator/source/licence/alteration credits retained; source identity and village limits unchanged."
+  },
+  "radha": {
+    "selected_q86_exact": true,
+    "bytes": 698117,
+    "sha256": "e7d35bf4c075d6e79d3b254d073ee3996c17d99be8da95fcc6c24b164431d939",
+    "source_bytes_unchanged": true,
+    "review": "Actual packaged file byte-equals the independently visually accepted q86 candidate. Read actual package caption: complete Met gift/object/public-domain/source credit and full-frame resize/compression statement retained. OG geometry2048×1341 matches delivered image. Optimization report agrees. No pixel identity claimed; historical q90 proposal remains superseded for capacity."
+  },
+  "preservation": {
+    "protected_files": 141,
+    "mismatches": 0,
+    "foreign_fields_equal_base": [
+      "current_task",
+      "handoff_home",
+      "current_preparation"
+    ],
+    "internal_research_exported": false,
+    "statement": "Read-only artifact checks confirm original Chakulia and Radha source bytes preserved and internal originals/research/outputs/Kaincha excluded."
+  },
+  "limits": [
+    "Earlier screenshots are local full-build captures, not fresh final-package browser screenshots. Their explicitly recorded framing limits remain.",
+    "No final rendered Radha page browser screenshot inspected in this review; actual selected asset and package caption/geometry were checked.",
+    "One-engine/two-viewport root interactions remain attributed to root.",
+    "Local encoding and size do not establish Linux hosted output; incoming PR913 is outside this reviewed package."
+  ],
+  "reviewed_sha256": {
+    "outputs/chakulia-panda-publication-2026-11-27/build-results.json": "1074104f4dbc538ffa4f7be303a67a87baf0bc5ae98bfafe6c9bc2aed4d6f226",
+    "outputs/chakulia-panda-publication-2026-11-27/build-inputs.json": "6be6685d9d96ab49d1d3d2631de113cc3675857fb3873afd0ba1ed0f96aed409",
+    "outputs/chakulia-panda-publication-2026-11-27/local-verification.json": "dcba0e25321586dc0a18d99056019c0da1a5658da8fb13134915907a7579889d",
+    "outputs/chakulia-panda-publication-2026-11-27/verify-local.py": "1b5d35667aef387cbd19a268ea7875221e7600832dd171b0df3504ce0f10d31e",
+    "outputs/chakulia-panda-publication-2026-11-27/local/packaged-view-inputs.json": "e7735e8ed9263fca8ed5a0f47b6de94d98868030d29130d55a6606cec109d1ae",
+    "outputs/chakulia-panda-publication-2026-11-27/review/rendered-review.json": "1e34da561f2b0883e6782d519afc9dad19bc40245d69bc76c04b8783218ac2d0",
+    "outputs/chakulia-panda-publication-2026-11-27/review/static-review.json": "62bbcb7f0d9467747e8d7368e7764197ca0cf3a2f69bfddd4a0571396013aeb2",
+    "outputs/chakulia-panda-publication-2026-11-27/review/capacity-review-q86.json": "0701337598d6f849ef211341711e52a6713c2e9ce599192d6a370a9c768f9fd5",
+    "kb/records/chakulia-panda-publication-20261127.json": "17c08b29ee62f9fb6d3931c97cd557d934188d794708b8e873d32d5cd35e1a48",
+    "projects/site/.astro/publication-jpeg-optimization.json": "8eb444bcbd0b48d5e13fd1a8a22613f1cd7ed182b5c43b7cf0467bc10f229c4b",
+    "projects/site/.astro/responsive-image-report.json": "620e266393ea777be3597d5fb1992b4968de432074434bbf6c505c220fd2a3ef"
+  },
+  "packaged_view_input_hashes": [
+    {
+      "path": "_astro/ArticleReadingPath.Bv6mUzuE.css",
+      "sha256": "80c829f92c26ac0c5c09dcb8dd788e6a25efea921e1d520b536d37c019bd2633"
+    },
+    {
+      "path": "_astro/CultureMagazine.Q38y-FJ2.css",
+      "sha256": "4e5ed69ede76da8ae19d7075317e655b361ac002ec0c06b5ac59a9b194cc0382"
+    },
+    {
+      "path": "_astro/Shell.BG-gLcGo.css",
+      "sha256": "f41ee308249169a664fa91c6c691924bd7352629368bca4671929b317cff558c"
+    },
+    {
+      "path": "assets/champu-and-sakhi/radha-confidante-met.jpg",
+      "sha256": "e7d35bf4c075d6e79d3b254d073ee3996c17d99be8da95fcc6c24b164431d939"
+    },
+    {
+      "path": "assets/language-literature/bhima-bhoi-memorial.jpg",
+      "sha256": "e540b6300e5d414d2d6e507b6c37024e4bcc8ea8f2061bde538b8ecc51ea9dcf"
+    },
+    {
+      "path": "assets/language-literature/fakir-mohan.webp",
+      "sha256": "de64db9a31244c1bd557f61ccfab1dc63e289bf9b7b388acf155385fc5761f0b"
+    },
+    {
+      "path": "assets/language-literature/odia-manuscript.webp",
+      "sha256": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812"
+    },
+    {
+      "path": "assets/language-literature/pratibha-ray.jpg",
+      "sha256": "1441b03cfcafe5a963e0c7b211bf1399aa36fde27038029758d2fc4584bdd5f0"
+    },
+    {
+      "path": "images/chakulia-panda/chakulia-panda-1200.webp",
+      "sha256": "a16d0efe0678d423dea279ff894c3b02d1e905697da9426ad3e06fe7524080df"
+    },
+    {
+      "path": "images/chilika/chilika-lake-hellohappy.webp",
+      "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c"
+    },
+    {
+      "path": "images/literature/birakishore-das/reading-table-480.webp",
+      "sha256": "17d45aa8e55d53600789da82ca43226530c316a4476fdf08fe25a20c5661e25f"
+    },
+    {
+      "path": "images/sounds/pala-nalconagar.webp",
+      "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35"
+    },
+    {
+      "path": "images/stories/godabarish-niankhunta-480.webp",
+      "sha256": "0e5f77fad2b9cc3d502070c53f306d170a51c231282b65145861b72fc7affc91"
+    },
+    {
+      "path": "literature/champu-and-sakhi/index.html",
+      "sha256": "5e76b3a2c2c67f793ece3bca162b09a8c32dfa4f8b4daa2ba3ca324309a2ab67"
+    },
+    {
+      "path": "literature/index.html",
+      "sha256": "e37de0f2e73d3a6dec2177df8dc76830b2219dd6d847cdce14c402b2c49c4b2d"
+    },
+    {
+      "path": "sounds-of-odisha/chakulia-panda/index.html",
+      "sha256": "fc19b3e3266d5e8c8e9aab3179c6890bf47ed97772297a4c021e6d4b2e03d404"
+    },
+    {
+      "path": "sounds-of-odisha/daskathia/index.html",
+      "sha256": "13c9ef0c8264eb0d523dda9fe625eccec6cf342e5b12ef59e914de6dc6495211"
+    },
+    {
+      "path": "sounds-of-odisha/pala/index.html",
+      "sha256": "c4b28e5601a238c9b9d31264506276f3c1f00b83f9b6eda14c07470fd25fb0bb"
+    }
+  ]
+}
