@@ -136,14 +136,40 @@
       "validation_plan": "outputs/gupteswar-publication-2026-11-27/review/reconciliation-validation-plan.json",
       "scope": "One existing Pentha source note and shared evidence; all27Gupteswarfrozeninputs unchanged. Initial localpipeline remains pre907; exactcombinedhostedfullpipeline and targetedfreshlivePenthanote required.",
       "review": "outputs/gupteswar-publication-2026-11-27/review/pentha-reconciliation-review.json"
+    },
+    "ratha": {
+      "incoming": "edd54a121262581f2965807d321ecad867b74d7f",
+      "merge": "844444594",
+      "status": "pending_separate_final_review",
+      "scope": "Preserved Ratha article and scoped festival CSS sharing; combined route counts1420/full212/coastal188. Initial local evidence remains pre906.",
+      "implementation_analysis": "outputs/gupteswar-publication-2026-11-27/implementation/ratha-reconciliation-plan.json"
     }
   },
   "web_guidance": "outputs/gupteswar-publication-2026-11-27/web-guidance.md",
   "local_validation": {
-    "status": "final_package_running",
+    "status": "passed_pre906_pre907",
     "full_tests": 850,
     "coastal_tests": 605,
     "page_checks": 5676,
-    "scope": "Pre907 local artifacts; all27Gupteswar inputs unchanged through reconciliation. Final exactcombinedhead hosted pipeline required."
+    "stages": 13,
+    "artifact_checks": 421,
+    "publication_bytes": 998997953,
+    "publication_files": 3807,
+    "remaining_bytes": 1002047,
+    "results": "outputs/gupteswar-publication-2026-11-27/build-results.json",
+    "artifact_report": "outputs/gupteswar-publication-2026-11-27/local-verification.json",
+    "scope": "Local artifact built before Ratha906 and Pentha907. Gupteswar text/photo/layout unchanged; combined-head hosted pipeline and fresh live checks remain mandatory. Do not relabel as current combined capacity.",
+    "early_verifier_attempt": "outputs/gupteswar-publication-2026-11-27/local-verification-before-stage13.json",
+    "early_attempt_limit": "Invoked before final stage13 completed; completion precondition failed. Raw result preserved, unchanged rerun after all13stages passed421artifact checks.",
+    "separate_package_review": "outputs/gupteswar-publication-2026-11-27/review/package-review.json"
+  },
+  "publication": {
+    "pull_request": 909,
+    "status": "combined_candidate_checks_pending",
+    "previous_reviewed_head": "dd17ee63375addfc091a1de94a1cab76a09e2da1",
+    "superseded_ci": 45921747182,
+    "superseded_ci_status": "cancelled_as_superseded",
+    "merge": null,
+    "deployment": null
   }
 }
