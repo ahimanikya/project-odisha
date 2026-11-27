@@ -108,7 +108,11 @@ def main(args):
     head=deployment.get('head_sha',deployment.get('headSha',deployment.get('head')))
     check(deployment.get('status')=='completed' and deployment.get('conclusion')=='success','Actual deployment completed successfully')
     check(str(run)==str(args.deployment_run) and head==args.expected_merge,'Deployment run and merge match explicit expected release')
-    c=read(OUT/'reviewed-article-contract.json');local_report=read(OUT/'local-verification.json')
+    contract_path=Path(args.contract).resolve() if args.contract else OUT/'reviewed-article-contract.json'
+    c=read(contract_path);local_report=read(OUT/'local-verification.json')
+    if 'historical_local_contract' in c:
+        historical=c['historical_local_contract'];check(sha((ROOT/historical['path']).read_bytes())==historical['sha256'],'Historical local contract preserved')
+        report['local_artifact_scope']=historical['scope']
     check(local_report.get('status')=='PASS','Completed local artifact verification required')
     check(bool(c['source_hashes']) and all(sha((ROOT/p).read_bytes())==h for p,h in c['source_hashes'].items()),'Every current frozen source hash preserved')
     check(sha((ROOT/c['manuscript']).read_bytes())==c['manuscript_sha256'],'Exact reviewed manuscript')
@@ -120,7 +124,7 @@ def main(args):
     check(sha((LOCAL/cap['path']).read_bytes())==cap['candidate']['sha256'],'Local reviewed Hindola q90 derivative')
     RUN=OUT/'live'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
     RUN.mkdir(parents=True,exist_ok=False)
-    report.update(source_hashes=c['source_hashes'],expected_merge=args.expected_merge,deployment_run=args.deployment_run,deployment_evidence=str(deployment_path),deployment_evidence_sha256=sha(deployment_path.read_bytes()),contract_sha256=sha((OUT/'reviewed-article-contract.json').read_bytes()),local_verification_sha256=sha((OUT/'local-verification.json').read_bytes()),raw_directory=str(RUN.relative_to(ROOT)))
+    report.update(source_hashes=c['source_hashes'],expected_merge=args.expected_merge,deployment_run=args.deployment_run,deployment_evidence=str(deployment_path),deployment_evidence_sha256=sha(deployment_path.read_bytes()),contract_sha256=sha(contract_path.read_bytes()),local_verification_sha256=sha((OUT/'local-verification.json').read_bytes()),raw_directory=str(RUN.relative_to(ROOT)))
     images={};local_image_scope={im['src'],'/'+cap['path']};capacity_variants={}
     def pair(live_image,local_image,label):
         check(live_image.get('src')==local_image.get('src') and live_image.get('alt')==local_image.get('alt'),label+': image identity and alt')
@@ -232,12 +236,13 @@ def main(args):
         check(sha((ROOT/row['file']).read_bytes())==row['sha256'] and sha((ROOT/row['local_file']).read_bytes())==row['local_sha256'],'Image evidence remains unchanged '+row['url'])
     check(len(report['routes'])==5 and {x['route'] for x in report['routes']}==set(ROUTES),'Five exact successful route captures')
     check(all(sha((ROOT/p).read_bytes())==h for p,h in c['source_hashes'].items()),'Frozen sources unchanged through live capture')
-    check(sha((OUT/'reviewed-article-contract.json').read_bytes())==report['contract_sha256'],'Frozen contract unchanged through live capture')
+    check(sha(contract_path.read_bytes())==report['contract_sha256'],'Frozen contract unchanged through live capture')
     check(sha((OUT/'local-verification.json').read_bytes())==report['local_verification_sha256'],'Local verification unchanged through live capture')
     report['status']='REVIEW_DIFFERENCES' if report['differences'] else 'PASS'
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--contract',help='Explicit reviewed combined source contract; historical local artifact remains separately identified')
     parser.add_argument('--expected-merge',required=True)
     parser.add_argument('--deployment-run',required=True,type=int)
     parser.add_argument('--deployment-evidence',required=True)
