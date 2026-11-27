@@ -22,6 +22,7 @@ test('IDAT recompression preserves exact filtered scanlines and valid chunk CRC 
 test('additional PNG delivery scope is an exact measured allowlist',()=>{
  const expected=[
   "assets/coast-natural-fallback-v2.png",
+  "assets/cinema/shared-story-table-20261030.png",
   "assets/maniabandha/maniabandha-illustration.png",
   "assets/cinema/pencil-akshaya-mohanty-20261101.png",
   "assets/bhubaneswar-week/poem-conversations-v1.png",
