@@ -1,0 +1,27 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-27T00:50:26.887521+00:00",
+  "reviewed_merged_head": "7787885473279ed888058ea29cfb3cc6bb265112",
+  "reviewed_pentha_parent": "6b0ab1cd5812583adc7a4acec1a4eec949c26078",
+  "incoming_main_parent": "8d69843f075d61ac959d66a8c6b9a7b5c7a051c0",
+  "common_base": "c7f597b5b9f9348ea3ae39bd5c45b26f970ecee1",
+  "verdict": "PASS_MERGED_TREE_PRESERVATION",
+  "checks": {
+    "pentha_own_changed_paths": 19,
+    "incoming_paradip_changed_paths": 11,
+    "shared_path": "kb/records/editorial-workbench.json",
+    "own_nonshared_paths_byte_identical": true,
+    "incoming_nonshared_paths_byte_identical": true,
+    "shared_workbench": "Exact combination: reviewed Pentha search-index digest and incoming coast-edition digest, both independently checked against merged bytes; all other content unchanged.",
+    "pentha_source_and_register_hashes_match_independent_review": true,
+    "entire_independent_features_collection_byte_identical_to_reviewed_parent": true,
+    "no_private_header_capture_in_own_scope": true
+  },
+  "source_hashes": {
+    "kb/research/stories/independent-features/nature/pentha.md": "4928ed9e61f9e9497c3b06798f333c193b99cf4ca414db480a408da51dcc142e",
+    "kb/research/stories/independent-features/source-register.md": "c3eb703a66c638c82e93375123875e58da9bc1f119752ccc1887f451ba465707"
+  },
+  "findings": [],
+  "scope_limit": "Preservation review only for incoming Paradip work; no new factual or optimizer-code review claimed. Actual combined-tree full publication build/tests are pending root execution. No new production delivery claimed.",
+  "changes_by_reviewer": "Only this merge-review.json written; no Git, shared-register or source edits."
+}

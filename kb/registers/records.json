@@ -11180,6 +11180,29 @@
       "id": "POD-WORK-20261127005",
       "title": "Public corroboration for Pentha design-length figures",
       "category": "editorial_maintenance",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Disha with separate research, implementation and review agents"
+      },
+      "authorization": "POD-DEC-20261127005",
+      "next_action": "Completed: public news corroboration published and verified on desktop and mobile; CAG distinction and access limitation retained.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261127005",
+        "POD-REV-20261127005",
+        "POD-REL-20261127005"
+      ],
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-20261127007",
+      "title": "Verified archive fallback for the Pentha news source",
+      "category": "editorial_maintenance",
       "status": "in_progress",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
@@ -11187,15 +11210,15 @@
         "kind": "ai_assistant",
         "name": "Disha with separate research, implementation and review agents"
       },
-      "authorization": "POD-DEC-20261127005",
-      "next_action": "Review source-note addition, pass required checks, publish and verify the live note.",
+      "authorization": "POD-DEC-20261127007",
+      "next_action": "Review and publish the bounded archive-note addition, then verify the live note and fallback.",
       "blockers": [],
       "refs": [
-        "POD-DEC-20261127005",
-        "POD-REV-20261127005"
+        "POD-DEC-20261127007",
+        "POD-REV-20261127007"
       ],
       "evidence": [
-        "records/pentha-public-corroboration-20261127.json"
+        "records/pentha-sambad-archive-20261127.json"
       ]
     }
   ],
@@ -17085,6 +17108,23 @@
       "evidence": [
         "records/pentha-public-corroboration-20261127.json"
       ]
+    },
+    {
+      "id": "POD-DEC-20261127007",
+      "title": "Add verified archive fallback for Pentha news report",
+      "status": "recorded_direction",
+      "refs": [
+        "POD-WORK-20261127007"
+      ],
+      "evidence": [
+        "records/pentha-sambad-archive-20261127.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find a reliable archived copy of the Sambad English report and add it as a fallback in the Pentha article’s source notes on the live website.",
+      "scope": "Verify and publish archive fallback for existing Pentha news source; preserve article and CAG attribution."
     }
   ],
   "requirements": [
@@ -27233,7 +27273,25 @@
       "evidence": [
         "records/pentha-public-corroboration-20261127.json"
       ],
-      "summary": "Independent public-source verification and bounded note preservation pass. News corroborates the two lengths; CAG attribution and sign-in limitation retained. Publication pending."
+      "summary": "Independent source, bounded-content and merged-tree reviews passed. Hosted full checks and publication succeeded. Fresh live article/source retrieval and desktop/mobile note checks passed. CAG-specific attribution and sign-in limit retained."
+    },
+    {
+      "id": "POD-REV-20261127007",
+      "title": "Pentha news archive and bounded fallback review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate article_integration_review agent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261127007",
+        "POD-DEC-20261127007"
+      ],
+      "evidence": [
+        "records/pentha-sambad-archive-20261127.json"
+      ],
+      "summary": "Independent actual archive replay and capture provenance verification passed. Bounded note-only addition, preserved records and mobile/desktop presentation passed. Full hosted checks and live publication pending."
     }
   ],
   "releases": [
@@ -31929,6 +31987,21 @@
       ],
       "evidence": [
         "records/articles-27-final-audit-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-REL-20261127005",
+      "title": "Verified public corroboration in live Pentha source note",
+      "status": "published",
+      "authorization": "POD-DEC-20261127005",
+      "destination": "https://projectodisha.org/stories/odisha/pentha/#user-content-fn-2",
+      "refs": [
+        "POD-WORK-20261127005",
+        "POD-DEC-20261127005",
+        "POD-REV-20261127005"
+      ],
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
       ]
     }
   ],
