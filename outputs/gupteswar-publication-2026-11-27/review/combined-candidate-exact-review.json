@@ -1,0 +1,134 @@
+{
+  "result": "pass_for_exact_combined_source",
+  "head": "202d8dff762033f57e16e1e6fbbb190b1441b212",
+  "tree": "e1f68d56a14925b8621ac7773036b54de86da1a2",
+  "reviewer": "Drishti (AI reviewer)",
+  "date": "2026-11-27",
+  "scope": "Bounded exact candidate/source/helper continuity, with retained pre906/pre907 local package approval. Not an observed combined CI, payload, deployment or live result.",
+  "current_source_hashes": {
+    "kb/reference/public-website-routes.json": "e446e6d0339d7cabfd168bec372e0c48e01256fa97a3833a16d0ffa7dfacd346",
+    "kb/research/culture/ratha-yatra.md": "c27ca7c20f89159c55aeb037f83974f20ccf538f7b4ba5f9cc8b675f16afb4d5",
+    "kb/research/places/gupteswar-article.md": "6e5d9d7cc60baa8b80bb0a233e6d947115a1368531524b508ba9fa1fadd34663",
+    "kb/research/places/gupteswar-image.json": "feff303147ca3375f0dcc2736c8d31679ea5e5f18b1346812b3c4b34f8c35adb",
+    "kb/research/stories/independent-features/nature/pentha.md": "4928ed9e61f9e9497c3b06798f333c193b99cf4ca414db480a408da51dcc142e",
+    "projects/odia-dhaga/pdf-delivery.json": "54729ef67725de7f864551624bdbcda4b0da604be0d17d76ad3483ed8d1eb068",
+    "projects/site/editions/coast.json": "1704adff55f9ca85a2e57205a0557216d930809ba5a753b4918aa214f19945e8",
+    "projects/site/editions/responsive-images.json": "5e2a43846bff3853efbc843261c7b808eab10279f2196ca872a4a18e36eee435",
+    "projects/site/editions/search-candidate.json": "2fcc86b61069a5e244ae2d5ec8b7b98dbf87c333caa387af57c4bc0f28562681",
+    "projects/site/public/images/destinations/gupteswar-lingam-indopaedia.webp": "13ae25c81e776ef090cd659d9cac5bf8456331dbb81a0507b8759a4e7d599c41",
+    "projects/site/src/components/DestinationCards.astro": "3956f2a8e87e1ccbf1c703583f9eddbe82a4f3f9e1d1e7be3e7cde268dc7ebb9",
+    "projects/site/src/content-notes/paradip-port-cargo.md": "fcc13cdda056083bd4f599d8e1a9c654d45a613027656ef685504a6de8786cc6",
+    "projects/site/src/data/discovery.ts": "e4f755f6491fd66248babe08b32151d19fa0cf00ed2ffb83a586271bbc5cfa87",
+    "projects/site/src/data/hill-destinations.ts": "4e68adb4730ab03889d09dd66dc3c6b9f24b2b6cf40dd5d03c4d605ba5f6b485",
+    "projects/site/src/pages/destinations/gupteswar.astro": "d70f20c33f4e8f035e6ae794d6be4bff112281c8891815da6ef92d1281c629a8",
+    "projects/site/src/pages/destinations/hills.astro": "959c2567da4caa442910d5fc1bf20280002dc04e47ccd77c543a73430939d85b",
+    "projects/site/src/pages/destinations/index.astro": "ad694b40cf402acd7c19d583d43b805578b3776a034448769c14669740222988",
+    "projects/site/src/pages/explore.astro": "0912a03ca95d0771a3039c2f9a783298bce0aa96d45c30893bee482e87aa2c92",
+    "projects/site/src/pages/knowledge/paradip-port-cargo.astro": "7fb8c53bbd549412d755241a5db2e2fe63dbec61bb053e4d7ccc399999193b64",
+    "projects/site/src/pages/stories/ratha-yatra.astro": "6faa230e7fbcf7477ebbbf7fff6c973d265132d85225b133d40d6a7febc8fa13",
+    "projects/site/src/pages/stories/snana-purnima.astro": "631969b8bf3a66326573ff05d9f4ad4103d61fa3c420036a33bc810d1948da88",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": "f87b6c3c9fb7395275a4a7a1c8dc5fa7e57897907028fe04fee0e2c2fa382c6f",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "d1295bdc5a79314980863df03c85d03aa656be5dd47607b9c61ae2ea305e04fb",
+    "projects/site/tests-coast/edition.test.mjs": "7c54877527136b782e389f67dc05547c3ff7e7c3b38ebd2d6db755d66892db6a",
+    "projects/site/tests/build.test.mjs": "5b5f7ff6cb5b8b49a26f5237376add91147821a641396959364e8c7d77cabca4",
+    "projects/site/tests/publication-jpeg.test.mjs": "c9da9f6464ec4fc066bb9b2d7d5c7d59bff2164f9dfb82107431c755dd653032",
+    "projects/site/tests/publication-png.test.mjs": "4e18956ca1e97e83dd3bbb0a08c3f2b0fb564e2035abb2fb0f0b32ef47826dae",
+    "projects/site/tests/shared-reading-styles.test.mjs": "17b9f38f52026298e109710226110eaea93f08697ac2f62c2e41c1acfd9b74bb",
+    "projects/site/tools/build-publication.mjs": "6433899cd39cf420e19556b5819e33194ef5b69e5c48a66ae3e879eeb3e8c48b",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "c9378b7d2d6e556365785f85362124b4158d04c8fe2999e284645a10256578d7",
+    "projects/site/tools/optimize-publication-jpeg.mjs": "0fb0a4c5c71f25c6408db6f195e27d0f5815af594c2b33a4be0b7bb9a9907b75",
+    "projects/site/tools/optimize-publication-png.mjs": "37e52c2719711036cf8b4cb358b6fbedb4901a4815d298931b7af2ce9f4752ed",
+    "projects/site/tools/prepare-search-review.mjs": "a13da9fa3cf2947539bb161d9588ed49d172bf3b382855f0c49f9eda18636281",
+    "projects/site/tools/shared-reading-styles.mjs": "56d4d55657516678340c3f524350e263e4af6720a60f542c4ce145788fc95e13",
+    "projects/site/tools/storage-copy.mjs": "a3d42748f64451ce10f8e59d03e28e942883cff2506df4cb3dfa093c063db4dd"
+  },
+  "historical_contract": {
+    "path": "outputs/gupteswar-publication-2026-11-27/reviewed-article-contract.json",
+    "sha256": "a187a3cd2448e1b069059bbd0f04b299b25cbafba8ff03873cef8a49f3dcc798",
+    "scope": "Historical local artifact before Ratha906/Pentha907;21of27inputs unchanged, six inventoried edition/count paths reconciled; final combined hosted capacity and live proof required."
+  },
+  "historical_changes": {
+    "kb/reference/public-website-routes.json": {
+      "before": "bc0f769f9c9baa52366f1639d7e6aeeb86487173ac426270330312048ec1b211",
+      "after": "e446e6d0339d7cabfd168bec372e0c48e01256fa97a3833a16d0ffa7dfacd346"
+    },
+    "projects/site/editions/coast.json": {
+      "before": "0719c11f760310dc214cdee4cdadf740e27209948c36398998abb21ca458cc2c",
+      "after": "1704adff55f9ca85a2e57205a0557216d930809ba5a753b4918aa214f19945e8"
+    },
+    "projects/site/editions/search-candidate.json": {
+      "before": "32d1344687dc0b34afa9afabc09c66511474ff2ab0af27681b4fa9e152dddd16",
+      "after": "2fcc86b61069a5e244ae2d5ec8b7b98dbf87c333caa387af57c4bc0f28562681"
+    },
+    "projects/site/tests-coast/discovery-flow.test.mjs": {
+      "before": "368b2d5a88467f8c5deb0a52b6bf46547e346e1209b1c53338206cb87f59ea61",
+      "after": "d1295bdc5a79314980863df03c85d03aa656be5dd47607b9c61ae2ea305e04fb"
+    },
+    "projects/site/tests-coast/edition.test.mjs": {
+      "before": "ce0869a0588d4baa4aa71abd960f26be9871b8393c85687078c6767152ee7111",
+      "after": "7c54877527136b782e389f67dc05547c3ff7e7c3b38ebd2d6db755d66892db6a"
+    },
+    "projects/site/tests/build.test.mjs": {
+      "before": "16a5257176686de82dd089ff74fe7a72711a35c4ad37625ea8ed64182ca75a3a",
+      "after": "5b5f7ff6cb5b8b49a26f5237376add91147821a641396959364e8c7d77cabca4"
+    }
+  },
+  "historical_other_fields_unchanged": true,
+  "new_contract_paths": [
+    "kb/research/culture/ratha-yatra.md",
+    "kb/research/stories/independent-features/nature/pentha.md",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/pages/stories/ratha-yatra.astro",
+    "projects/site/src/pages/stories/snana-purnima.astro",
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro",
+    "projects/site/tests/shared-reading-styles.test.mjs",
+    "projects/site/tools/shared-reading-styles.mjs"
+  ],
+  "helper_review": {
+    "sha256": "792a4d60b20c1e5331aa7ba0145fb44ff972a41336bc0c902f2c3610620217d0",
+    "result": "pass_for_explicit_combined_contract_execution",
+    "details": [
+      "Explicit --contract selects the combined 35-source expectations and records its actual hash.",
+      "Original local contract hash is checked and its historical scope is copied into the report. Completed local PASS remains a historical artifact requirement, not a claim of newly built combined output.",
+      "Actual current source hashes are checked before and after live capture; selected contract and local report hashes checked at the end.",
+      "All original article, photo, notes, credit, raw-difference and deployment consistency checks remain. Existing local-to-live differences from incoming Ratha or Pentha are not silently normalized."
+    ],
+    "execution_requirement": "Use --contract with this combined contract for final live capture. Pentha and Ratha/style supplements remain separate. No network execution performed in this review."
+  },
+  "preservation": {
+    "protected_files": 141,
+    "foreign_fields": 3,
+    "no_public_source_change_since_reviewed_ratha_merge": true,
+    "ratha_review_hash": "2d822f3a8b659a82ae4260cfacabacc401d9b8fe89dab3bb3aea048b09d7c50e",
+    "package_review_hash": "fea8b52d2a0399931f981c4663e824ff47f3a595601e2d2c155041e485f53b68"
+  },
+  "historical_local_evidence": {
+    "stages": 13,
+    "checks": 421,
+    "bytes": 998997953,
+    "files": 3807,
+    "scope": "Pre906/pre907 only; full stage maps match the preserved original contract."
+  },
+  "whitespace": {
+    "unrestricted_exit_code": 2,
+    "exact_raw_log_exceptions": [
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/checks/coast-build.log",
+        "sha256": "598ceb7f87002f3d3f6d61e5e2fe5d6580277a4582fdb5df8ff002afaa416eb1"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/checks/full-build.log",
+        "sha256": "75a8c37764eb0d183d6e6dbc4f8674ded8de54917cbcb8510c2f2b7d7274c891"
+      }
+    ],
+    "all_other_paths_exit_code": 0,
+    "limit": "Original full/coastal Astro logs retain captured trailing spaces. No authored source exception; no normalization."
+  },
+  "checkout_status": [],
+  "remaining": [
+    "Exact final combined-head hosted pipeline and actual strict capacity gate",
+    "Fresh exact-source deployment, Gupteswar/Hindola delivery and Pentha/Ratha/CSS supplements",
+    "Separate final delivery/receipt review and actual receipt merge before scope return"
+  ],
+  "blockers_to_this_exact_source_review": []
+}

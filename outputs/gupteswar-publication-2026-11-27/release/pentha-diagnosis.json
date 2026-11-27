@@ -1,0 +1,91 @@
+{
+  "result": "PARSER_BUG_CONFIRMED_FROM_RETAINED_RESPONSE",
+  "observed_deployment": "45926477622",
+  "observed_release_commit": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+  "original_report": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/outputs/gupteswar-publication-2026-11-27/pentha-live-20261127T023228Z/report.json",
+  "original_report_sha256": "771f3b6e0fffd9d828dfa43991d75b33c18617354549c1ec3ebdfd15de3f83ba",
+  "original_result_preserved": "FAIL",
+  "retained_page": "/Users/ahimanikya/.codex/worktrees/odisha-hill-destinations/publication-checkout/outputs/gupteswar-publication-2026-11-27/pentha-live-20261127T023228Z/page.html",
+  "retained_page_sha256": "c6ddd31b4ec965d54d222fdb4cb8e2980e8408da87ee9cbc9528b319e04a2035",
+  "source": "kb/research/stories/independent-features/nature/pentha.md",
+  "source_sha256": "4928ed9e61f9e9497c3b06798f333c193b99cf4ca414db480a408da51dcc142e",
+  "deployed_git_source_exact": true,
+  "raw_note_html": "\n<p><a href=\"https://agodi.cag.gov.in/agodisha/writereaddata/ERSA_Audit%20Report_Economic%20Sector-II_English%20Version_1507532887176.pdf\">CAG, <em>Economic Sector, year ended March 2016</em>, Government of Odisha, Report No. 5 of 2016</a>, §3.2.6, p. 53 (publisher sign-in required). Public corroboration of the revision from 675 metres to 505 metres: <a href=\"https://sambadenglish.com/odishas-first-geotube-sea-wall-to-check-erosion-comes-up-in-pentha/\">Odisha Sun Times Bureau, “Odisha’s first geotube sea wall to check erosion comes up in Pentha”, 12 April 2015</a>, now hosted by Sambad English. This news report is separate from the audit; the Phailin explanation and audit findings remain attributed to CAG. Engineering context: <a href=\"https://shipmin.gov.in/sites/default/files/Geo%20Synthetics%20final%20report.pdf\">IIT Madras, <em>Guidelines on Geo-synthetics for Coastal Protection and Port Works</em></a>, 10 July 2021, pp. 69–71 and 186. <a href=\"#user-content-fnref-2\" data-footnote-backref=\"\" aria-label=\"Back to reference 2\" class=\"data-footnote-backref\">↩</a></p>\n",
+  "expected_source_text": "CAG, Economic Sector, year ended March 2016, Government of Odisha, Report No. 5 of 2016, §3.2.6, p. 53 (publisher sign-in required). Public corroboration of the revision from 675 metres to 505 metres: Odisha Sun Times Bureau, “Odisha’s first geotube sea wall to check erosion comes up in Pentha”, 12 April 2015, now hosted by Sambad English. This news report is separate from the audit; the Phailin explanation and audit findings remain attributed to CAG. Engineering context: IIT Madras, Guidelines on Geo-synthetics for Coastal Protection and Port Works, 10 July 2021, pp. 69–71 and 186.",
+  "original_checker_text": "CAG, Economic Sector, year ended March 2016 , Government of Odisha, Report No. 5 of 2016 , §3.2.6, p. 53 (publisher sign-in required). Public corroboration of the revision from 675 metres to 505 metres: Odisha Sun Times Bureau, “Odisha’s first geotube sea wall to check erosion comes up in Pentha”, 12 April 2015 , now hosted by Sambad English. This news report is separate from the audit; the Phailin explanation and audit findings remain attributed to CAG. Engineering context: IIT Madras, Guidelines on Geo-synthetics for Coastal Protection and Port Works , 10 July 2021, pp. 69–71 and 186.",
+  "corrected_text_node_result": "CAG, Economic Sector, year ended March 2016, Government of Odisha, Report No. 5 of 2016, §3.2.6, p. 53 (publisher sign-in required). Public corroboration of the revision from 675 metres to 505 metres: Odisha Sun Times Bureau, “Odisha’s first geotube sea wall to check erosion comes up in Pentha”, 12 April 2015, now hosted by Sambad English. This news report is separate from the audit; the Phailin explanation and audit findings remain attributed to CAG. Engineering context: IIT Madras, Guidelines on Geo-synthetics for Coastal Protection and Port Works, 10 July 2021, pp. 69–71 and 186.",
+  "exact_corrected_text_matches_reviewed_source": true,
+  "spurious_insertions": [
+    {
+      "operation": "insert",
+      "expected_span": [
+        43,
+        43
+      ],
+      "buggy_span": [
+        43,
+        44
+      ],
+      "expected_text": "",
+      "buggy_text": " "
+    },
+    {
+      "operation": "insert",
+      "expected_span": [
+        87,
+        87
+      ],
+      "buggy_span": [
+        88,
+        89
+      ],
+      "expected_text": "",
+      "buggy_text": " "
+    },
+    {
+      "operation": "insert",
+      "expected_span": [
+        310,
+        310
+      ],
+      "buggy_span": [
+        312,
+        313
+      ],
+      "expected_text": "",
+      "buggy_text": " "
+    },
+    {
+      "operation": "insert",
+      "expected_span": [
+        555,
+        555
+      ],
+      "buggy_span": [
+        558,
+        559
+      ],
+      "expected_text": "",
+      "buggy_text": " "
+    }
+  ],
+  "cause": "Original checker replaces every HTML tag with a space. Closing inline emphasis/link tags immediately before commas therefore introduce four spaces absent from both source and HTML text nodes.",
+  "correction": "Use HTMLParser text-node concatenation across inline tags; collapse only real text whitespace. The dedicated note wrapper may supply block boundaries. Do not globally remove spaces before punctuation or normalize quotation/dash characters.",
+  "scope": "Offline examination of the original HTTP200 response already captured by root; no fresh HTTP verification or full-page delivery acceptance. Existing3notes/returns/source-link checks were true and remain preserved.",
+  "changed_files": [
+    "/private/tmp/gupteswar-pentha-parser-check.py",
+    "/private/tmp/gupteswar-pentha-diagnosis.json",
+    "/private/tmp/gupteswar-pentha-text-node.patch"
+  ],
+  "limits": [
+    "Root established successful deployment externally; this diagnosis checks retained evidence and deployed source bytes, not a freshGitHub/API request.",
+    "No tracked source/helper/report modified.",
+    "This is a targeted checker diagnosis, not a foreign article factual re-review."
+  ],
+  "proposed_patch": {
+    "path": "/private/tmp/gupteswar-pentha-text-node.patch",
+    "sha256": "dd7874b46b7a3b8ed079af0fd94024690e67c3160a6f119918ef687f5b722c02",
+    "applied": false,
+    "original_helper_sha256": "e80b289d3bae25810ccbc8de2b8fee02ec0593a7e0c3da53e7ecf39b3b7d55d0"
+  }
+}
