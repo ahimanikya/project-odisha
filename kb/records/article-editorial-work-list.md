@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 1435. blocked: 1, completed: 282, excluded: 873, queued: 279.
+Route inventory: 1436. blocked: 1, completed: 282, excluded: 873, queued: 280.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -1459,3 +1459,4 @@ Route inventory: 1435. blocked: 1, completed: 282, excluded: 873, queued: 279.
 | POD-EDIT-PARADIP-CARGO-20261127 | [What 156 million tonnes at Paradip means for Odisha](https://projectodisha.org/knowledge/paradip-port-cargo/) | queued | article |
 | POD-EDIT-RATHA-YATRA | [Ratha Yatra: When the Deities Come Out to the Road](https://projectodisha.org/stories/ratha-yatra/) | queued | article |
 | POD-EDIT-BHUBANESWAR-PLANNING-20261127 | [How Bhubaneswar makes room for streets as it grows](https://projectodisha.org/knowledge/bhubaneswar-town-planning/) | queued | article |
+| POD-EDIT-BAHUDA-YATRA | [Bahuda Yatra: What the Deities Eat on the Way Home](https://projectodisha.org/stories/bahuda-yatra/) | queued | article |
