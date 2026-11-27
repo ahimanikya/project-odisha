@@ -11162,15 +11162,17 @@
       "id": "POD-WORK-2026112793",
       "title": "Research, review and publish Gupteswar",
       "category": "publication",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti review",
       "authorization": "POD-DEC-2026112793",
-      "next_action": "Independent research and media, then separate review, implementation, actual layout/build/CI/deployment/live checks and receipt.",
+      "next_action": "Finish separate integrated and exact-commit receipt review, required checks and actual receipt merge; then send explicit reserved Chakulia Panda publication handoff.",
       "blockers": [],
       "refs": [
-        "POD-DEC-2026112793"
+        "POD-DEC-2026112793",
+        "POD-REV-2026112793",
+        "POD-REL-2026112793"
       ],
       "evidence": [
         "records/gupteswar-publication-20261127.json"
@@ -27276,6 +27278,24 @@
       "summary": "Independent source, bounded-content and merged-tree reviews passed. Hosted full checks and publication succeeded. Fresh live article/source retrieval and desktop/mobile note checks passed. CAG-specific attribution and sign-in limit retained."
     },
     {
+      "id": "POD-REV-2026112793",
+      "title": "Gupteswar independent research, image, implementation and live delivery review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate reviewer; independent research by Anvesha"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-2026112793",
+        "POD-DEC-2026112793"
+      ],
+      "evidence": [
+        "records/gupteswar-publication-20261127.json"
+      ],
+      "summary": "Separate source, media, capacity, implementation, rendered, package, reconciliation, exact candidate and fresh live delivery reviews pass. Four actual image encoding differences measured and visually accepted with explicit limits. Pentha parser-only false failure retained and independently diagnosed. Final receipt review and actual merge remain pending; zero programme credit."
+    },
+    {
       "id": "POD-REV-20261127007",
       "title": "Pentha news archive and bounded fallback review",
       "status": "pass",
@@ -31987,6 +32007,21 @@
       ],
       "evidence": [
         "records/articles-27-final-audit-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-REL-2026112793",
+      "title": "Gupteswar cave-shrine and forest article with credited photograph",
+      "status": "published",
+      "authorization": "POD-DEC-2026112793",
+      "destination": "https://projectodisha.org/destinations/gupteswar/",
+      "refs": [
+        "POD-WORK-2026112793",
+        "POD-DEC-2026112793",
+        "POD-REV-2026112793"
+      ],
+      "evidence": [
+        "records/gupteswar-publication-20261127.json"
       ]
     },
     {

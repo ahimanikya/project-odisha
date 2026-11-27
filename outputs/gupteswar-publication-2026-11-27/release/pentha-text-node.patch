@@ -1,0 +1,27 @@
+--- a/outputs/gupteswar-publication-2026-11-27/verify-pentha-live.py
++++ b/outputs/gupteswar-publication-2026-11-27/verify-pentha-live.py
+@@ -3,6 +3,7 @@
+ from urllib.request import Request,urlopen
+ from datetime import datetime,timezone
+ from html import unescape
++from html.parser import HTMLParser
+ import re,json,hashlib,argparse
+ O=Path(__file__).resolve().parent;R=O.parents[1]
+ p=argparse.ArgumentParser();p.add_argument('--deployment',required=True);p.add_argument('--deployment-evidence',required=True);p.add_argument('--release-commit',required=True);a=p.parse_args()
+@@ -18,7 +19,15 @@
+ s=b.decode();md=(R/'kb/research/stories/independent-features/nature/pentha.md').read_text();expected=re.search(r'^\[\^2\]: (.+)$',md,re.M).group(1)
+ urls=re.findall(r'\]\(([^)]+)\)',expected)
+ expected=re.sub(r'\[([^]]+)\]\([^)]+\)',r'\1',expected).replace('*','')
+-plain=lambda t:' '.join(unescape(re.sub('<[^>]+>',' ',t)).split())
++class NoteText(HTMLParser):
++ def __init__(self):super().__init__(convert_charrefs=True);self.parts=[]
++ def handle_data(self,data):self.parts.append(data)
++ def handle_starttag(self,tag,attrs):
++  if tag in ['p','div','li','br']:self.parts.append('\n')
++ def handle_endtag(self,tag):
++  if tag in ['p','div','li']:self.parts.append('\n')
++def plain(text):
++ parser=NoteText();parser.feed(text);parser.close();return ' '.join(''.join(parser.parts).split())
+ notes=re.findall(r'<li\b[^>]*id="user-content-fn-2"[^>]*>(.*?)</li>',s,re.S)
+ checks={'http200':status==200,'exact_final_url':final==url,'bounded':len(b)<=5000000,'unique_note2':len(notes)==1}
+ refs=re.findall(r'href="(#user-content-fn-[^"]+)"',s);returns=re.findall(r'href="(#user-content-fnref-[^"]+)"',s);ids=re.findall(r'id="([^"]+)"',s)

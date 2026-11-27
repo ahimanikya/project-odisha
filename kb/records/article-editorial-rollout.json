@@ -25765,23 +25765,31 @@
       "id": "POD-EDIT-GUPTESWAR-20261127",
       "route": "/destinations/gupteswar/",
       "title": "Gupteswar: A Cave Shrine and Its Forest",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "Disha",
       "scope": "Original cave-shrine and forest hill-destination article with credited photograph and previews; zero programme credit.",
       "source_template": "projects/site/src/pages/destinations/gupteswar.astro",
       "checks": {
-        "authorship": false,
-        "language": false,
-        "formatting": false,
-        "footnotes": false,
-        "images": false,
-        "kb_alignment": false,
-        "responsive": false
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
       },
       "evidence": [
         "records/gupteswar-publication-20261127.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/gupteswar-publication-20261127.json",
+      "delivery": {
+        "url": "https://projectodisha.org/destinations/gupteswar/",
+        "pull_request": 909,
+        "deployment_run": 45926477622,
+        "receipt": "records/gupteswar-publication-20261127.json"
+      },
+      "review_scope": "Separate research, media, rendered, exact source and fresh live review pass; actual final receipt merge remains the handoff condition."
     },
     {
       "id": "POD-EDIT-PARADIP-CARGO-20261127",
@@ -25819,6 +25827,19 @@
       "checks": {},
       "evidence": [
         "research/sources/legacy-urban_bda.md"
+      ],
+      "blocker": null
+    },
+    {
+      "id": "POD-EDIT-BAHUDA-YATRA",
+      "route": "/stories/bahuda-yatra/",
+      "title": "Bahuda Yatra: What the Deities Eat on the Way Home",
+      "status": "queued",
+      "scope": "article",
+      "source_template": "projects/site/src/pages/stories/bahuda-yatra.astro",
+      "checks": {},
+      "evidence": [
+        "research/culture/bahuda-yatra.md"
       ],
       "blocker": null
     },

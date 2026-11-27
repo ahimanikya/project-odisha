@@ -1,0 +1,563 @@
+{
+  "head": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+  "source_hashes": {
+    "kb/reference/public-website-routes.json": true,
+    "kb/research/culture/ratha-yatra.md": true,
+    "kb/research/places/gupteswar-article.md": true,
+    "kb/research/places/gupteswar-image.json": true,
+    "kb/research/stories/independent-features/nature/pentha.md": true,
+    "projects/odia-dhaga/pdf-delivery.json": true,
+    "projects/site/editions/coast.json": true,
+    "projects/site/editions/responsive-images.json": true,
+    "projects/site/editions/search-candidate.json": true,
+    "projects/site/public/images/destinations/gupteswar-lingam-indopaedia.webp": true,
+    "projects/site/src/components/DestinationCards.astro": true,
+    "projects/site/src/content-notes/paradip-port-cargo.md": true,
+    "projects/site/src/data/discovery.ts": true,
+    "projects/site/src/data/hill-destinations.ts": true,
+    "projects/site/src/pages/destinations/gupteswar.astro": true,
+    "projects/site/src/pages/destinations/hills.astro": true,
+    "projects/site/src/pages/destinations/index.astro": true,
+    "projects/site/src/pages/explore.astro": true,
+    "projects/site/src/pages/knowledge/paradip-port-cargo.astro": true,
+    "projects/site/src/pages/stories/ratha-yatra.astro": true,
+    "projects/site/src/pages/stories/snana-purnima.astro": true,
+    "projects/site/src/pages/stories/the-year-that-feeds-us/index.astro": true,
+    "projects/site/tests-coast/discovery-flow.test.mjs": true,
+    "projects/site/tests-coast/edition.test.mjs": true,
+    "projects/site/tests/build.test.mjs": true,
+    "projects/site/tests/publication-jpeg.test.mjs": true,
+    "projects/site/tests/publication-png.test.mjs": true,
+    "projects/site/tests/shared-reading-styles.test.mjs": true,
+    "projects/site/tools/build-publication.mjs": true,
+    "projects/site/tools/nimuhi-footnote-heading.mjs": true,
+    "projects/site/tools/optimize-publication-jpeg.mjs": true,
+    "projects/site/tools/optimize-publication-png.mjs": true,
+    "projects/site/tools/prepare-search-review.mjs": true,
+    "projects/site/tools/shared-reading-styles.mjs": true,
+    "projects/site/tools/storage-copy.mjs": true
+  },
+  "protected": {
+    "kb/media/nilagiri-utensils/nilagiri-stone-utensils-1200.webp": true,
+    "kb/media/nilagiri-utensils/nilagiri-stone-utensils-illustration.png": true,
+    "kb/research/culture/nilagiri-stone-utensils.md": true,
+    "kb/research/culture/nilagiri-utensils-image.json": true,
+    "kb/research/culture/nilagiri-utensils-source-review-20261125.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/article.md": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/checks.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/candidate-original.jpg": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/commons-related-objects.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/commons-stone-carving-nilagiri.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/feasibility.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/image-generation.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/museum-candidate-preview.jpg": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/nilagiri-stone-utensils-1200.webp": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/nilagiri-stone-utensils-illustration.png": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/media/prompt.txt": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/preserved-preparation.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/publication-brief.md": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/draft-source-audit.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/final-source-audit.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/nilagiri-source-review.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/odisha-review-2023-p24-title.png": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/odisha-review-2023-p30-inspected.png": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/odisha-review-november2023-original.pdf": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/root-topic-screen.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/research/utkalika-stone-carving-original.html": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/review/integrated-review.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/review/preliminary-review.json": true,
+    "outputs/antaranga-after-malayagiri-2026-11-25/review/completion-review.json": true,
+    "kb/research/culture/jhoti-chita.md": true,
+    "kb/research/culture/jhoti-source-review-20261124.json": true,
+    "kb/research/culture/jhoti-image.json": true,
+    "kb/media/jhoti/gurubara-jhoti-1200.webp": true,
+    "kb/media/jhoti/gurubara-jhoti-commons-1920.jpg": true,
+    "outputs/jhoti-article-2026-11-24/article.md": true,
+    "outputs/jhoti-article-2026-11-24/checks.json": true,
+    "outputs/jhoti-article-2026-11-24/media/commons-file-page.html": true,
+    "outputs/jhoti-article-2026-11-24/media/commons-imageinfo.json": true,
+    "outputs/jhoti-article-2026-11-24/media/gurubara-jhoti-1200.webp": true,
+    "outputs/jhoti-article-2026-11-24/media/gurubara-jhoti-commons-1920.jpg": true,
+    "outputs/jhoti-article-2026-11-24/media/image.json": true,
+    "outputs/jhoti-article-2026-11-24/publication-brief.md": true,
+    "outputs/jhoti-article-2026-11-24/research/draft-source-audit.json": true,
+    "outputs/jhoti-article-2026-11-24/research/final-source-audit.json": true,
+    "outputs/jhoti-article-2026-11-24/research/inspection-record.json": true,
+    "outputs/jhoti-article-2026-11-24/research/journal-designs-pdf119.png": true,
+    "outputs/jhoti-article-2026-11-24/research/journal-references-pdf121.png": true,
+    "outputs/jhoti-article-2026-11-24/research/journal-technique-pdf118.png": true,
+    "outputs/jhoti-article-2026-11-24/research/journal-title-pdf114.png": true,
+    "outputs/jhoti-article-2026-11-24/review/integrated-review.json": true,
+    "outputs/jhoti-article-2026-11-24/review/completion-review.json": true,
+    "kb/research/culture/kaincha-and-golden-grass.md": true,
+    "kb/research/culture/kaincha-source-review-20261123.json": true,
+    "kb/research/culture/kaincha-image.json": true,
+    "kb/media/kaincha/golden-grass-square-box.jpg": true,
+    "outputs/kaincha-article-2026-11-23/article.md": true,
+    "outputs/kaincha-article-2026-11-23/checks.json": true,
+    "outputs/kaincha-article-2026-11-23/media/credits-source.html": true,
+    "outputs/kaincha-article-2026-11-23/media/golden-grass-square-box.jpg": true,
+    "outputs/kaincha-article-2026-11-23/media/licence-source.html": true,
+    "outputs/kaincha-article-2026-11-23/media/products-source.html": true,
+    "outputs/kaincha-article-2026-11-23/media/retrieval.json": true,
+    "outputs/kaincha-article-2026-11-23/publication-brief.md": true,
+    "outputs/kaincha-article-2026-11-23/research/final-source-review.json": true,
+    "outputs/kaincha-article-2026-11-23/research/retrieval.json": true,
+    "outputs/kaincha-article-2026-11-23/review/integrated-review.json": true,
+    "outputs/kaincha-article-2026-11-23/review/completion-review.json": true,
+    "kb/media/kula/kula-trays-1200.webp": true,
+    "kb/media/kula/winnowing-fan1-original.jpg": true,
+    "kb/research/culture/kula-and-the-work-of-winnowing.md": true,
+    "kb/research/culture/kula-image.json": true,
+    "kb/research/culture/kula-source-review-20261126.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/article.md": true,
+    "outputs/antaranga-after-barunei-2026-11-26/checks.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/media/commons-api.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/media/download-headers.txt": true,
+    "outputs/antaranga-after-barunei-2026-11-26/media/image-measurements.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/media/image.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/media/kula-trays-1200.webp": true,
+    "outputs/antaranga-after-barunei-2026-11-26/media/winnowing-fan1-original.jpg": true,
+    "outputs/antaranga-after-barunei-2026-11-26/preserved-preparation.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/publication-brief.md": true,
+    "outputs/antaranga-after-barunei-2026-11-26/research/final-source-audit.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/research/icar-printed57.png": true,
+    "outputs/antaranga-after-barunei-2026-11-26/research/source-inspection-notes.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/review/integrated-review.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/review/preliminary-review.json": true,
+    "outputs/antaranga-after-barunei-2026-11-26/review/completion-review.json": true,
+    "kb/media/godabarish-niankhunta/satirical-periodical-illustration-1200.webp": true,
+    "kb/media/godabarish-niankhunta/satirical-periodical-illustration-original.png": true,
+    "kb/research/people/godabarish-mahapatra-and-niankhunta.md": true,
+    "kb/research/people/godabarish-niankhunta-image.json": true,
+    "kb/research/people/godabarish-niankhunta-sources.json": true,
+    "outputs/godabarish-niankhunta-20261126/article.md": true,
+    "outputs/godabarish-niankhunta-20261126/checks.json": true,
+    "outputs/godabarish-niankhunta-20261126/media/commons-candidates-api.json": true,
+    "outputs/godabarish-niankhunta-20261126/media/generation-prompt.txt": true,
+    "outputs/godabarish-niankhunta-20261126/media/media-feasibility.json": true,
+    "outputs/godabarish-niankhunta-20261126/publication-brief.md": true,
+    "outputs/godabarish-niankhunta-20261126/research/brahma-p2.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/brahma-p4.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/brahma-title.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf1.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf6.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf7.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/issue-pdf8.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/official-p297.png": true,
+    "outputs/godabarish-niankhunta-20261126/research/source-audit.json": true,
+    "outputs/godabarish-niankhunta-20261126/research/source-captures.json": true,
+    "outputs/godabarish-niankhunta-20261126/review/integrated-review.json": true,
+    "outputs/godabarish-niankhunta-20261126/review/media-review.json": true,
+    "outputs/godabarish-niankhunta-20261126/root-inspection.json": true,
+    "outputs/godabarish-niankhunta-20261126/review/completion-review.json": true,
+    "kb/media/chakulia-panda/chakulia-panda-1200.webp": true,
+    "kb/media/chakulia-panda/chakulia-panda-original.jpg": true,
+    "kb/research/culture/chakulia-panda-image.json": true,
+    "kb/research/culture/chakulia-panda-sources.json": true,
+    "kb/research/culture/chakulia-panda.md": true,
+    "outputs/antaranga-after-devagiri-20261127/article.md": true,
+    "outputs/antaranga-after-devagiri-20261127/check-history.json": true,
+    "outputs/antaranga-after-devagiri-20261127/checks.json": true,
+    "outputs/antaranga-after-devagiri-20261127/media/chakulia-panda-1200.webp": true,
+    "outputs/antaranga-after-devagiri-20261127/media/chakulia-panda-original.jpg": true,
+    "outputs/antaranga-after-devagiri-20261127/media/commons-api.json": true,
+    "outputs/antaranga-after-devagiri-20261127/media/download-headers.txt": true,
+    "outputs/antaranga-after-devagiri-20261127/media/image-metrics.json": true,
+    "outputs/antaranga-after-devagiri-20261127/publication-brief.md": true,
+    "outputs/antaranga-after-devagiri-20261127/research/aiims2023-p144.png": true,
+    "outputs/antaranga-after-devagiri-20261127/research/aiims2023-p145.png": true,
+    "outputs/antaranga-after-devagiri-20261127/research/alana-inspection.json": true,
+    "outputs/antaranga-after-devagiri-20261127/research/dash2022-p40.png": true,
+    "outputs/antaranga-after-devagiri-20261127/research/dash2022-title.png": true,
+    "outputs/antaranga-after-devagiri-20261127/research/deogarh-indexed-inspection.json": true,
+    "outputs/antaranga-after-devagiri-20261127/research/final-source-audit.json": true,
+    "outputs/antaranga-after-devagiri-20261127/research/lead-screening.json": true,
+    "outputs/antaranga-after-devagiri-20261127/review/image-review.json": true,
+    "outputs/antaranga-after-devagiri-20261127/review/integrated-review.json": true,
+    "outputs/antaranga-after-devagiri-20261127/root-inspection.json": true,
+    "outputs/antaranga-after-devagiri-20261127/header-sanitization.json": true,
+    "kb/records/antaranga-after-devagiri-preparation-20261127.json": true,
+    "outputs/antaranga-after-devagiri-20261127/review/completion-review.json": true
+  },
+  "foreign": {
+    "current_task": true,
+    "handoff_home": true,
+    "current_preparation": true
+  },
+  "pages": [
+    {
+      "route": "/destinations/gupteswar/",
+      "raw_equal": false,
+      "article_equal_after_explicit_image_pairs": true,
+      "article_substitutions": {
+        "/images/responsive/1277c0a08d3b8fa1-960.webp": "/images/responsive/823ccaf027940bd9-960.webp",
+        "/images/responsive/787aa95a831d1b78-960.webp": "/images/responsive/6888ea4719a2a3b9-960.webp",
+        "/images/responsive/bb55e9bcbd389497-1440.webp": "/images/responsive/b20f6e2041df4551-1440.webp"
+      },
+      "changes": [
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/gupteswar-lingam-indopaedia.webp\" srcset=\"/images/responsive/a1ee4d3787ac7e90-480.webp 480w, /images/responsive/1277c0a08d3b8fa1-960.webp 960w, /images/responsive/d9f3ba187bebd52c-1200.webp 1200w\" sizes=\"(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px\" decoding=\"async\" alt=\"A large rounded Shiva lingam beneath a low rock ceiling, with offerings and metal vessels nearby.\" width=\"1200\" height=\"798\" loading=\"eager\" fetchpriority=\"high\" data-astro-cid-sfb63olo=\"true\">",
+          "live": "<img src=\"/images/destinations/gupteswar-lingam-indopaedia.webp\" srcset=\"/images/responsive/a1ee4d3787ac7e90-480.webp 480w, /images/responsive/823ccaf027940bd9-960.webp 960w, /images/responsive/d9f3ba187bebd52c-1200.webp 1200w\" sizes=\"(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px\" decoding=\"async\" alt=\"A large rounded Shiva lingam beneath a low rock ceiling, with offerings and metal vessels nearby.\" width=\"1200\" height=\"798\" loading=\"eager\" fetchpriority=\"high\" data-astro-cid-sfb63olo=\"true\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/deomali-hills.webp\" srcset=\"/images/responsive/dde29f2668346ca5-480.webp 480w, /images/responsive/787aa95a831d1b78-960.webp 960w, /images/responsive/bb55e9bcbd389497-1440.webp 1440w\" sizes=\"(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px\" decoding=\"async\" alt width=\"180\" height=\"120\" loading=\"lazy\" data-astro-cid-q224smgb=\"true\">",
+          "live": "<img src=\"/images/destinations/deomali-hills.webp\" srcset=\"/images/responsive/dde29f2668346ca5-480.webp 480w, /images/responsive/6888ea4719a2a3b9-960.webp 960w, /images/responsive/b20f6e2041df4551-1440.webp 1440w\" sizes=\"(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px\" decoding=\"async\" alt width=\"180\" height=\"120\" loading=\"lazy\" data-astro-cid-q224smgb=\"true\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/gupteswar-lingam-indopaedia.webp\" srcset=\"/images/responsive/a1ee4d3787ac7e90-480.webp 480w, /images/responsive/1277c0a08d3b8fa1-960.webp 960w, /images/responsive/d9f3ba187bebd52c-1200.webp 1200w\" sizes=\"(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px\" decoding=\"async\" alt width=\"180\" height=\"120\" loading=\"lazy\" data-astro-cid-q224smgb=\"true\">",
+          "live": "<img src=\"/images/destinations/gupteswar-lingam-indopaedia.webp\" srcset=\"/images/responsive/a1ee4d3787ac7e90-480.webp 480w, /images/responsive/823ccaf027940bd9-960.webp 960w, /images/responsive/d9f3ba187bebd52c-1200.webp 1200w\" sizes=\"(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px\" decoding=\"async\" alt width=\"180\" height=\"120\" loading=\"lazy\" data-astro-cid-q224smgb=\"true\">"
+        },
+        {
+          "kind": "insert",
+          "local": "",
+          "live": "<script id=\"analytics-config\" type=\"application/json\">{\"id\":\"G-9WJHZGN1EM\",\"canonical\":\"https://projectodisha.org/destinations/gupteswar/\",\"title\":\"Gupteswar: A Cave Shrine and Its Forest · Project Odisha\",\"allowedPaths\":[\"/destinations/gupteswar/\"]}</script><section class=\"analytics-choice wrap\" id=\"analytics-choice\" aria-labelledby=\"analytics-heading\" hidden data-astro-cid-5krk3x6l><h2 id=\"analytics-heading\" data-astro-cid-5krk3x6l>Your cookie choices</h2><p data-astro-cid-5krk3x6l>We use optional cookies to understand how our website is used and improve your experience. You can change your choice at any time.</p><p data-astro-cid-5krk3x6l><a href=\"/how-to-use/#privacy\" data-astro-cid-5krk3x6l>Learn more</a></p><div class=\"actions\" data-astro-cid-5krk3x6l><button type=\"button\" data-analytics=\"accepted\" class=\"utk-button\" data-astro-cid-5krk3x6l>Accept cookies</button><button type=\"button\" data-analytics=\"declined\" class=\"utk-button utk-button--secondary\" data-astro-cid-5krk3x6l>Decline</button></div></section><p class=\"wrap analytics-error\" id=\"analytics-status\" role=\"status\" hidden data-astro-cid-5krk3x6l></p>"
+        }
+      ]
+    },
+    {
+      "route": "/destinations/hills/",
+      "raw_equal": false,
+      "changes": [
+        {
+          "kind": "insert",
+          "local": "",
+          "live": "<script id=\"analytics-config\" type=\"application/json\">{\"id\":\"G-9WJHZGN1EM\",\"canonical\":\"https://projectodisha.org/destinations/hills/\",\"title\":\"Hills and highland escapes · Project Odisha\",\"allowedPaths\":[\"/destinations/hills/\"]}</script><section class=\"analytics-choice wrap\" id=\"analytics-choice\" aria-labelledby=\"analytics-heading\" hidden data-astro-cid-5krk3x6l><h2 id=\"analytics-heading\" data-astro-cid-5krk3x6l>Your cookie choices</h2><p data-astro-cid-5krk3x6l>We use optional cookies to understand how our website is used and improve your experience. You can change your choice at any time.</p><p data-astro-cid-5krk3x6l><a href=\"/how-to-use/#privacy\" data-astro-cid-5krk3x6l>Learn more</a></p><div class=\"actions\" data-astro-cid-5krk3x6l><button type=\"button\" data-analytics=\"accepted\" class=\"utk-button\" data-astro-cid-5krk3x6l>Accept cookies</button><button type=\"button\" data-analytics=\"declined\" class=\"utk-button utk-button--secondary\" data-astro-cid-5krk3x6l>Decline</button></div></section><p class=\"wrap analytics-error\" id=\"analytics-status\" role=\"status\" hidden data-astro-cid-5krk3x6l></p>"
+        }
+      ]
+    },
+    {
+      "route": "/destinations/",
+      "raw_equal": false,
+      "changes": [
+        {
+          "kind": "insert",
+          "local": "",
+          "live": "<script id=\"analytics-config\" type=\"application/json\">{\"id\":\"G-9WJHZGN1EM\",\"canonical\":\"https://projectodisha.org/destinations/\",\"title\":\"Destinations in Odisha · Project Odisha\",\"allowedPaths\":[\"/destinations/\"]}</script><section class=\"analytics-choice wrap\" id=\"analytics-choice\" aria-labelledby=\"analytics-heading\" hidden data-astro-cid-5krk3x6l><h2 id=\"analytics-heading\" data-astro-cid-5krk3x6l>Your cookie choices</h2><p data-astro-cid-5krk3x6l>We use optional cookies to understand how our website is used and improve your experience. You can change your choice at any time.</p><p data-astro-cid-5krk3x6l><a href=\"/how-to-use/#privacy\" data-astro-cid-5krk3x6l>Learn more</a></p><div class=\"actions\" data-astro-cid-5krk3x6l><button type=\"button\" data-analytics=\"accepted\" class=\"utk-button\" data-astro-cid-5krk3x6l>Accept cookies</button><button type=\"button\" data-analytics=\"declined\" class=\"utk-button utk-button--secondary\" data-astro-cid-5krk3x6l>Decline</button></div></section><p class=\"wrap analytics-error\" id=\"analytics-status\" role=\"status\" hidden data-astro-cid-5krk3x6l></p>"
+        }
+      ]
+    },
+    {
+      "route": "/explore/",
+      "raw_equal": false,
+      "changes": [
+        {
+          "kind": "replace",
+          "local": "(248)",
+          "live": "(249)"
+        },
+        {
+          "kind": "replace",
+          "local": "(100)",
+          "live": "(101)"
+        },
+        {
+          "kind": "replace",
+          "local": "248 entries in this preview",
+          "live": "249 entries in this preview"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/pakhala-tomato-poda.webp\" srcset=\"/images/responsive/22657059cb8e0b37-480.webp 480w, /images/responsive/7ef548998c6fdc10-960.webp 960w, /images/responsive/ea694ee63d0e45e3-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A bowl of pakhala with tomato, greens and other vegetable side dishes.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/food/pakhala-tomato-poda.webp\" srcset=\"/images/responsive/22657059cb8e0b37-480.webp 480w, /images/responsive/7ef548998c6fdc10-960.webp 960w, /images/responsive/32285dcfdf1b0985-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A bowl of pakhala with tomato, greens and other vegetable side dishes.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/deomali-hills.webp\" srcset=\"/images/responsive/dde29f2668346ca5-480.webp 480w, /images/responsive/787aa95a831d1b78-960.webp 960w, /images/responsive/bb55e9bcbd389497-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A narrow road leads into green Deomali hills beneath large white clouds.\" width=\"2000\" height=\"923\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/deomali-hills.webp\" srcset=\"/images/responsive/dde29f2668346ca5-480.webp 480w, /images/responsive/6888ea4719a2a3b9-960.webp 960w, /images/responsive/b20f6e2041df4551-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A narrow road leads into green Deomali hills beneath large white clouds.\" width=\"2000\" height=\"923\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/jirang-monastery.webp\" srcset=\"/images/responsive/46b0f010719486e4-480.webp 480w, /images/responsive/9707e67aa8e320c9-960.webp 960w, /images/responsive/79ff306721355b54-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"The monastery façade at Jirang, with blue window frames, gilded roof ornaments and steps leading to its entrance.\" width=\"1200\" height=\"757\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/jirang-monastery.webp\" srcset=\"/images/responsive/4e81dac188d20fc1-480.webp 480w, /images/responsive/9707e67aa8e320c9-960.webp 960w, /images/responsive/79ff306721355b54-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"The monastery façade at Jirang, with blue window frames, gilded roof ornaments and steps leading to its entrance.\" width=\"1200\" height=\"757\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/kalinga-ghati-habitat.webp\" srcset=\"/images/responsive/ef01992f5f867325-480.webp 480w, /images/responsive/4448906916d0828c-960.webp 960w, /images/responsive/58028ebb873ff8a1-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Dense green woodland surrounding a partly concealed building at Kalinga Ghati.\" width=\"1200\" height=\"777\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/kalinga-ghati-habitat.webp\" srcset=\"/images/responsive/c6ea82f262607026-480.webp 480w, /images/responsive/4448906916d0828c-960.webp 960w, /images/responsive/58028ebb873ff8a1-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Dense green woodland surrounding a partly concealed building at Kalinga Ghati.\" width=\"1200\" height=\"777\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/saptasajya-hills-devopam.webp\" srcset=\"/images/responsive/3867fe434648ddd8-480.webp 480w, /images/responsive/997e9b043ab6ecb9-960.webp 960w, /images/responsive/20c0599057420cff-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Green rounded hills beyond low vegetation and a strip of reddish earth under a pale cloudy sky.\" width=\"1280\" height=\"960\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/saptasajya-hills-devopam.webp\" srcset=\"/images/responsive/e0e6b1a38b4692ec-480.webp 480w, /images/responsive/997e9b043ab6ecb9-960.webp 960w, /images/responsive/20c0599057420cff-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Green rounded hills beyond low vegetation and a strip of reddish earth under a pale cloudy sky.\" width=\"1280\" height=\"960\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/olasuni-view-nathularog.webp\" srcset=\"/images/responsive/39259dc1b1379492-480.webp 480w, /images/responsive/3720f7a01153cc9a-960.webp 960w, /images/responsive/4fae28e8fd203c64-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Trees and two foreground trunks frame a hazy view across fields below Olasuni hill.\" width=\"1440\" height=\"644\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/olasuni-view-nathularog.webp\" srcset=\"/images/responsive/81c3b5fb4304afbc-480.webp 480w, /images/responsive/3720f7a01153cc9a-960.webp 960w, /images/responsive/4fae28e8fd203c64-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Trees and two foreground trunks frame a hazy view across fields below Olasuni hill.\" width=\"1440\" height=\"644\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/gupteswar-lingam-indopaedia.webp\" srcset=\"/images/responsive/a1ee4d3787ac7e90-480.webp 480w, /images/responsive/1277c0a08d3b8fa1-960.webp 960w, /images/responsive/d9f3ba187bebd52c-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A large rounded Shiva lingam beneath a low rock ceiling, with offerings and metal vessels nearby.\" width=\"1200\" height=\"798\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/gupteswar-lingam-indopaedia.webp\" srcset=\"/images/responsive/a1ee4d3787ac7e90-480.webp 480w, /images/responsive/823ccaf027940bd9-960.webp 960w, /images/responsive/d9f3ba187bebd52c-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A large rounded Shiva lingam beneath a low rock ceiling, with offerings and metal vessels nearby.\" width=\"1200\" height=\"798\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/destinations/deomali-hills.webp\" srcset=\"/images/responsive/dde29f2668346ca5-480.webp 480w, /images/responsive/787aa95a831d1b78-960.webp 960w, /images/responsive/bb55e9bcbd389497-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A narrow road leads into green Deomali hills beneath large white clouds.\" width=\"2000\" height=\"923\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/destinations/deomali-hills.webp\" srcset=\"/images/responsive/dde29f2668346ca5-480.webp 480w, /images/responsive/6888ea4719a2a3b9-960.webp 960w, /images/responsive/b20f6e2041df4551-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A narrow road leads into green Deomali hills beneath large white clouds.\" width=\"2000\" height=\"923\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/pioneers/bc-mohanty-illustration.webp\" srcset=\"/images/responsive/50ebcbb60438b034-480.webp 480w, /images/responsive/12bd1dbf19ad0977-960.webp 960w, /images/responsive/b5ddb34231206191-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Illustration of a patterned textile swatch on a notebook beside a ruler and loose threads.\" width=\"1536\" height=\"1024\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/pioneers/bc-mohanty-illustration.webp\" srcset=\"/images/responsive/044b8573b8bea1ff-480.webp 480w, /images/responsive/12bd1dbf19ad0977-960.webp 960w, /images/responsive/b5ddb34231206191-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Illustration of a patterned textile swatch on a notebook beside a ruler and loose threads.\" width=\"1536\" height=\"1024\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/pioneers/bc-mohanty-illustration.webp\" srcset=\"/images/responsive/50ebcbb60438b034-480.webp 480w, /images/responsive/12bd1dbf19ad0977-960.webp 960w, /images/responsive/b5ddb34231206191-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Illustration of a patterned textile swatch on a notebook beside a ruler and loose threads.\" width=\"1536\" height=\"1024\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/pioneers/bc-mohanty-illustration.webp\" srcset=\"/images/responsive/044b8573b8bea1ff-480.webp 480w, /images/responsive/12bd1dbf19ad0977-960.webp 960w, /images/responsive/b5ddb34231206191-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Illustration of a patterned textile swatch on a notebook beside a ruler and loose threads.\" width=\"1536\" height=\"1024\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/pioneers/sudhira-das-portrait.webp\" srcset=\"/images/responsive/da71d759e9442c0b-480.webp 480w, /images/responsive/d04838b349af9d33-960.webp 960w, /images/responsive/a572c6a6f4fe62cc-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Portrait of Sudhira Das wearing a blue sari and a patterned shawl against a blue background.\" width=\"1200\" height=\"1697\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/pioneers/sudhira-das-portrait.webp\" srcset=\"/images/responsive/da71d759e9442c0b-480.webp 480w, /images/responsive/2f5d5f674da627a9-960.webp 960w, /images/responsive/a572c6a6f4fe62cc-1200.webp 1200w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Portrait of Sudhira Das wearing a blue sari and a patterned shawl against a blue background.\" width=\"1200\" height=\"1697\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "insert",
+          "local": "",
+          "live": "<span data-astro-cid-eqibcql2>Read the entry</span><span aria-hidden=\"true\" data-astro-cid-eqibcql2>↗</span></a></article><article class=\"note-card utk-card\" data-entry=\"{&quot;label&quot;:&quot;Ratha Yatra&quot;,&quot;dek&quot;:&quot;How communities across Odisha bring their deities out on chariots.&quot;,&quot;category&quot;:&quot;Living culture&quot;,&quot;regions&quot;:[&quot;Across Odisha&quot;],&quot;aliases&quot;:[]}\" data-astro-cid-eqibcql2><p class=\"eyebrow\" data-astro-cid-eqibcql2>Living culture · Across Odisha</p><h2 class=\"entry-title\" data-astro-cid-eqibcql2><a href=\"/stories/ratha-yatra/\" data-astro-cid-eqibcql2>Ratha Yatra</a></h2><p data-astro-cid-eqibcql2>How communities across Odisha bring their deities out on chariots.</p><a href=\"/stories/ratha-yatra/\" class=\"card-bottom\" data-astro-cid-eqibcql2>"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/kala-bhoomi/grounds.webp\" srcset=\"/images/responsive/56b15f6c51fc91d0-480.webp 480w, /images/responsive/cca341a32e7d82ad-960.webp 960w, /images/responsive/9dfa231b6327d6fc-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Trees, lawn and earthen-coloured museum buildings, with pots and sculptural displays outdoors.\" width=\"1280\" height=\"771\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/kala-bhoomi/grounds.webp\" srcset=\"/images/responsive/ceea6a7b365ae145-480.webp 480w, /images/responsive/cca341a32e7d82ad-960.webp 960w, /images/responsive/9dfa231b6327d6fc-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Trees, lawn and earthen-coloured museum buildings, with pots and sculptural displays outdoors.\" width=\"1280\" height=\"771\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/dalma-habisha-alternate.webp\" srcset=\"/images/responsive/1760421fa9b0da16-480.webp 480w, /images/responsive/aa5edaf3e9a393ec-960.webp 960w, /images/responsive/cfe40f0074993fd5-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Habisha Dalma in an earthen bowl with coconut and green leaves, beside rice.\" width=\"1600\" height=\"2042\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/dalma-habisha-alternate.webp\" srcset=\"/images/responsive/1760421fa9b0da16-480.webp 480w, /images/responsive/b40f35e631114f2e-960.webp 960w, /images/responsive/cfe40f0074993fd5-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Habisha Dalma in an earthen bowl with coconut and green leaves, beside rice.\" width=\"1600\" height=\"2042\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/textiles/bandha-pallu.webp\" srcset=\"/images/responsive/30eea88f71d6eb04-480.webp 480w, /images/responsive/87f155d29ce967a3-960.webp 960w, /images/responsive/225d06474e81e77a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Peacock figures and floral patterns across a red Sambalpuri sari pallu\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/textiles/bandha-pallu.webp\" srcset=\"/images/responsive/30eea88f71d6eb04-480.webp 480w, /images/responsive/dfcc83c55d7e8b54-960.webp 960w, /images/responsive/225d06474e81e77a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Peacock figures and floral patterns across a red Sambalpuri sari pallu\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/textiles/bandha-pallu.webp\" srcset=\"/images/responsive/30eea88f71d6eb04-480.webp 480w, /images/responsive/87f155d29ce967a3-960.webp 960w, /images/responsive/225d06474e81e77a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Peacock figures and floral patterns across a red Sambalpuri sari pallu\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/textiles/bandha-pallu.webp\" srcset=\"/images/responsive/30eea88f71d6eb04-480.webp 480w, /images/responsive/dfcc83c55d7e8b54-960.webp 960w, /images/responsive/225d06474e81e77a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Peacock figures and floral patterns across a red Sambalpuri sari pallu\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/textiles/khandua.webp\" srcset=\"/images/responsive/676bdfa572f23149-480.webp 480w, /images/responsive/1a849f005a904c67-960.webp 960w, /images/responsive/ef7ba4a1b0391efd-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Red and yellow Khandua textile bearing rows of woven Odia lettering\" width=\"1600\" height=\"800\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/textiles/khandua.webp\" srcset=\"/images/responsive/676bdfa572f23149-480.webp 480w, /images/responsive/1a849f005a904c67-960.webp 960w, /images/responsive/62324ee201cb4d31-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Red and yellow Khandua textile bearing rows of woven Odia lettering\" width=\"1600\" height=\"800\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/textiles/kotpad-film.webp\" srcset=\"/images/responsive/f5ef467d7e028242-480.webp 480w, /images/responsive/01ee0a5bb4c8032f-960.webp 960w, /images/responsive/45148061690b0fc8-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Release poster for Kotpad Weaving, with a red and cream textile detail and filmmaker credits\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/textiles/kotpad-film.webp\" srcset=\"/images/responsive/f5ef467d7e028242-480.webp 480w, /images/responsive/01ee0a5bb4c8032f-960.webp 960w, /images/responsive/081dc5d3421cab2b-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Release poster for Kotpad Weaving, with a red and cream textile detail and filmmaker credits\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/crafts/pipili-display.webp\" srcset=\"/images/responsive/57a545d9688246a0-480.webp 480w, /images/responsive/c80940b1e191de18-960.webp 960w, /images/responsive/af44bf890be295f7-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Red, yellow and purple appliqué objects arranged in a Pipili display.\" width=\"1600\" height=\"800\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/crafts/pipili-display.webp\" srcset=\"/images/responsive/57a545d9688246a0-480.webp 480w, /images/responsive/c80940b1e191de18-960.webp 960w, /images/responsive/8504dc65881c4b9d-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Red, yellow and purple appliqué objects arranged in a Pipili display.\" width=\"1600\" height=\"800\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/crafts/pipili-display.webp\" srcset=\"/images/responsive/57a545d9688246a0-480.webp 480w, /images/responsive/c80940b1e191de18-960.webp 960w, /images/responsive/af44bf890be295f7-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Red, yellow and purple appliqué objects arranged in a Pipili display.\" width=\"1600\" height=\"800\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/crafts/pipili-display.webp\" srcset=\"/images/responsive/57a545d9688246a0-480.webp 480w, /images/responsive/c80940b1e191de18-960.webp 960w, /images/responsive/8504dc65881c4b9d-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Red, yellow and purple appliqué objects arranged in a Pipili display.\" width=\"1600\" height=\"800\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/crafts/pattachitra-making.webp\" srcset=\"/images/responsive/fb2eee10487bbe61-480.webp 480w, /images/responsive/165bb85fa5de17bd-960.webp 960w, /images/responsive/53a5a26953d9d47f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An artist’s hand uses a fine brush on a Pattachitra with figures and patterned borders.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/crafts/pattachitra-making.webp\" srcset=\"/images/responsive/fb2eee10487bbe61-480.webp 480w, /images/responsive/165bb85fa5de17bd-960.webp 960w, /images/responsive/45c40dcdf1bd1f26-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An artist’s hand uses a fine brush on a Pattachitra with figures and patterned borders.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/baigana-bilati-poda.webp\" srcset=\"/images/responsive/3c3e4dbc6bd1ff08-480.webp 480w, /images/responsive/5e8c6355e391f57f-960.webp 960w, /images/responsive/1ea55b8ff843d3c6-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A bowl of combined roasted eggplant and tomato mash with onion and herbs.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/baigana-bilati-poda.webp\" srcset=\"/images/responsive/3c3e4dbc6bd1ff08-480.webp 480w, /images/responsive/c3d2acb1cb967e71-960.webp 960w, /images/responsive/1ea55b8ff843d3c6-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A bowl of combined roasted eggplant and tomato mash with onion and herbs.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/badi-chura.webp\" srcset=\"/images/responsive/f35dcdccc0fa81c3-480.webp 480w, /images/responsive/d5a4cbc23e7f1dfc-960.webp 960w, /images/responsive/646179b7e72d7139-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Coarsely crushed badi with pieces of onion in a small bowl.\" width=\"1600\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/badi-chura.webp\" srcset=\"/images/responsive/f35dcdccc0fa81c3-480.webp 480w, /images/responsive/d5a4cbc23e7f1dfc-960.webp 960w, /images/responsive/28fc66bf4ab20958-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Coarsely crushed badi with pieces of onion in a small bowl.\" width=\"1600\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/regions/cuttack-netaji.webp\" srcset=\"/images/responsive/45107e5b0214f196-480.webp 480w, /images/responsive/3a6e60ba22406cb3-960.webp 960w, /images/responsive/7a5cbd07bbe6caa5-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"White arches and a courtyard at Netaji Birth Place Museum in Cuttack.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/regions/cuttack-netaji.webp\" srcset=\"/images/responsive/45107e5b0214f196-480.webp 480w, /images/responsive/3a6e60ba22406cb3-960.webp 960w, /images/responsive/d5b1c548646342a3-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"White arches and a courtyard at Netaji Birth Place Museum in Cuttack.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/regions/cuttack-dahibara.webp\" srcset=\"/images/responsive/760f4be38666f310-480.webp 480w, /images/responsive/527309eacc42034f-960.webp 960w, /images/responsive/f44f2bae8446e914-1000.webp 1000w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Dahibara and aloodum served together in a leaf bowl in Cuttack.\" width=\"1000\" height=\"660\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/regions/cuttack-dahibara.webp\" srcset=\"/images/responsive/1942cbc47a097b50-480.webp 480w, /images/responsive/6e5c1b5777d98114-960.webp 960w, /images/responsive/f44f2bae8446e914-1000.webp 1000w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Dahibara and aloodum served together in a leaf bowl in Cuttack.\" width=\"1000\" height=\"660\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/b1cd779ce2434598-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/1c95f65ef1ffca40-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/b1cd779ce2434598-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/1c95f65ef1ffca40-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/b1cd779ce2434598-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/1c95f65ef1ffca40-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/b1cd779ce2434598-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/1c95f65ef1ffca40-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/regions/mayurbhanj-chhau.webp\" srcset=\"/images/responsive/d646f96f99ca7203-480.webp 480w, /images/responsive/3eff6260199372d2-960.webp 960w, /images/responsive/308d36623f1173d8-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Two unmasked Chhau performers in colourful costumes on a dark stage.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/regions/mayurbhanj-chhau.webp\" srcset=\"/images/responsive/d646f96f99ca7203-480.webp 480w, /images/responsive/c823e2bfae485735-960.webp 960w, /images/responsive/308d36623f1173d8-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Two unmasked Chhau performers in colourful costumes on a dark stage.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/regions/cuttack-filigree.webp\" srcset=\"/images/responsive/bdd21edd788945d7-480.webp 480w, /images/responsive/eee476485e46ae73-960.webp 960w, /images/responsive/86a6d933b7fd43ce-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A pendant and earrings with intricate looping filigree patterns.\" width=\"1600\" height=\"1393\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/regions/cuttack-filigree.webp\" srcset=\"/images/responsive/9396539678b9204c-480.webp 480w, /images/responsive/eee476485e46ae73-960.webp 960w, /images/responsive/07bf528066451552-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A pendant and earrings with intricate looping filigree patterns.\" width=\"1600\" height=\"1393\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/regions/cuttack-netaji.webp\" srcset=\"/images/responsive/45107e5b0214f196-480.webp 480w, /images/responsive/3a6e60ba22406cb3-960.webp 960w, /images/responsive/7a5cbd07bbe6caa5-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"White arches and a courtyard at Netaji Birth Place Museum in Cuttack.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/regions/cuttack-netaji.webp\" srcset=\"/images/responsive/45107e5b0214f196-480.webp 480w, /images/responsive/3a6e60ba22406cb3-960.webp 960w, /images/responsive/d5b1c548646342a3-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"White arches and a courtyard at Netaji Birth Place Museum in Cuttack.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/kala-bhoomi/grounds.webp\" srcset=\"/images/responsive/56b15f6c51fc91d0-480.webp 480w, /images/responsive/cca341a32e7d82ad-960.webp 960w, /images/responsive/9dfa231b6327d6fc-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Trees, lawn and earthen-coloured museum buildings, with pots and sculptural displays outdoors.\" width=\"1280\" height=\"771\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/kala-bhoomi/grounds.webp\" srcset=\"/images/responsive/ceea6a7b365ae145-480.webp 480w, /images/responsive/cca341a32e7d82ad-960.webp 960w, /images/responsive/9dfa231b6327d6fc-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Trees, lawn and earthen-coloured museum buildings, with pots and sculptural displays outdoors.\" width=\"1280\" height=\"771\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/b1cd779ce2434598-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/chilika/chilika-lake-hellohappy.webp\" srcset=\"/images/responsive/008db9119ece1a6d-480.webp 480w, /images/responsive/607d62890c5d0c2b-960.webp 960w, /images/responsive/1c95f65ef1ffca40-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.\" width=\"1600\" height=\"900\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/konark/sun-temple-darshanavenugopal.webp\" srcset=\"/images/responsive/f7778d036eb32367-480.webp 480w, /images/responsive/42058e0f658f72e6-960.webp 960w, /images/responsive/2e62bc043b1e62c2-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A richly carved stone chariot wheel and relief-covered wall at Konark Sun Temple, with protective metal railings in front.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/konark/sun-temple-darshanavenugopal.webp\" srcset=\"/images/responsive/f7778d036eb32367-480.webp 480w, /images/responsive/42058e0f658f72e6-960.webp 960w, /images/responsive/b71be1021ca10049-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A richly carved stone chariot wheel and relief-covered wall at Konark Sun Temple, with protective metal railings in front.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/fakir-mohan.webp\" srcset=\"/images/responsive/8dd91ac7fc1eed76-480.webp 480w, /images/responsive/20a64c48a420e26e-960.webp 960w, /images/responsive/cc5ac8b8d8e5b418-1158.webp 1158w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A garlanded commemorative bust of Fakir Mohan Senapati.\" width=\"1158\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/language-literature/fakir-mohan.webp\" srcset=\"/images/responsive/f1a21d431336d36c-480.webp 480w, /images/responsive/20a64c48a420e26e-960.webp 960w, /images/responsive/cc5ac8b8d8e5b418-1158.webp 1158w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A garlanded commemorative bust of Fakir Mohan Senapati.\" width=\"1158\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/fakir-mohan.webp\" srcset=\"/images/responsive/8dd91ac7fc1eed76-480.webp 480w, /images/responsive/20a64c48a420e26e-960.webp 960w, /images/responsive/cc5ac8b8d8e5b418-1158.webp 1158w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A garlanded commemorative bust of Fakir Mohan Senapati.\" width=\"1158\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/assets/language-literature/fakir-mohan.webp\" srcset=\"/images/responsive/f1a21d431336d36c-480.webp 480w, /images/responsive/20a64c48a420e26e-960.webp 960w, /images/responsive/cc5ac8b8d8e5b418-1158.webp 1158w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A garlanded commemorative bust of Fakir Mohan Senapati.\" width=\"1158\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/pratibha-ray.jpg\" srcset=\"/images/responsive/2fb0f7b44e0bceac-480.webp 480w, /images/responsive/c0f0d2c518de974f-960.webp 960w, /images/responsive/9e3caaedc5a65475-963.webp 963w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Pratibha Ray photographed in Kollam in 2010.\" width=\"963\" height=\"1170\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/language-literature/pratibha-ray.jpg\" srcset=\"/images/responsive/2fb0f7b44e0bceac-480.webp 480w, /images/responsive/26b3fc30a634879e-960.webp 960w, /images/responsive/9e3caaedc5a65475-963.webp 963w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Pratibha Ray photographed in Kollam in 2010.\" width=\"963\" height=\"1170\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/f7fd7db2e2c9d60a-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">",
+          "live": "<img src=\"/assets/language-literature/odia-manuscript.webp\" srcset=\"/images/responsive/f0c4c68f9163a038-480.webp 480w, /images/responsive/f47ed4da2e7f4407-960.webp 960w, /images/responsive/8b030c3b48acd32f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An Odia palm-leaf manuscript beside a metal writing stylus.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-portrait\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/enduri-pitha.webp\" srcset=\"/images/responsive/a93fbb04bf336fb5-480.webp 480w, /images/responsive/0519c4603b6b673e-960.webp 960w, /images/responsive/39f35d6cc3f6d218-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Opened Enduri pitha with brown filling on a brass-coloured plate, beside green leaves and a wrapped parcel.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/enduri-pitha.webp\" srcset=\"/images/responsive/a93fbb04bf336fb5-480.webp 480w, /images/responsive/75822a212fe6706e-960.webp 960w, /images/responsive/39f35d6cc3f6d218-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Opened Enduri pitha with brown filling on a brass-coloured plate, beside green leaves and a wrapped parcel.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/poda-pitha.webp\" srcset=\"/images/responsive/7de3962616aec2c2-480.webp 480w, /images/responsive/4de3936f42781224-960.webp 960w, /images/responsive/5c1b3bff232f30e9-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Round Poda pitha with a cut slice and nut garnish, presented on a green leaf beside a small bowl.\" width=\"1600\" height=\"1259\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/poda-pitha.webp\" srcset=\"/images/responsive/7de3962616aec2c2-480.webp 480w, /images/responsive/0360a313776bb163-960.webp 960w, /images/responsive/d587186d867f571f-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Round Poda pitha with a cut slice and nut garnish, presented on a green leaf beside a small bowl.\" width=\"1600\" height=\"1259\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/ou-khatta.webp\" srcset=\"/images/responsive/ec6b32eac1042375-480.webp 480w, /images/responsive/14dddac04718603e-960.webp 960w, /images/responsive/126a5252d2e8dc5d-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Cooked elephant-apple pieces with coconut and seeds in a blue-rimmed bowl.\" width=\"1600\" height=\"1060\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/ou-khatta.webp\" srcset=\"/images/responsive/ec6b32eac1042375-480.webp 480w, /images/responsive/14dddac04718603e-960.webp 960w, /images/responsive/2bc9f0f126bbdc48-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Cooked elephant-apple pieces with coconut and seeds in a blue-rimmed bowl.\" width=\"1600\" height=\"1060\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/badi-chura.webp\" srcset=\"/images/responsive/f35dcdccc0fa81c3-480.webp 480w, /images/responsive/d5a4cbc23e7f1dfc-960.webp 960w, /images/responsive/646179b7e72d7139-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Coarsely crushed badi with pieces of onion in a small bowl.\" width=\"1600\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/badi-chura.webp\" srcset=\"/images/responsive/f35dcdccc0fa81c3-480.webp 480w, /images/responsive/d5a4cbc23e7f1dfc-960.webp 960w, /images/responsive/28fc66bf4ab20958-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Coarsely crushed badi with pieces of onion in a small bowl.\" width=\"1600\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/tala-pitha.webp\" srcset=\"/images/responsive/192349ce88db75dc-480.webp 480w, /images/responsive/586f229d4dd18f1b-960.webp 960w, /images/responsive/ec727c46fabae04c-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Slices of golden tala poda pitha with a browned crust on a metal plate.\" width=\"1600\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/tala-pitha.webp\" srcset=\"/images/responsive/192349ce88db75dc-480.webp 480w, /images/responsive/586f229d4dd18f1b-960.webp 960w, /images/responsive/9f7143246a56e7b7-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Slices of golden tala poda pitha with a browned crust on a metal plate.\" width=\"1600\" height=\"1600\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/baigana-bilati-poda.webp\" srcset=\"/images/responsive/3c3e4dbc6bd1ff08-480.webp 480w, /images/responsive/5e8c6355e391f57f-960.webp 960w, /images/responsive/1ea55b8ff843d3c6-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A bowl of combined roasted eggplant and tomato mash with onion and herbs.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/baigana-bilati-poda.webp\" srcset=\"/images/responsive/3c3e4dbc6bd1ff08-480.webp 480w, /images/responsive/c3d2acb1cb967e71-960.webp 960w, /images/responsive/1ea55b8ff843d3c6-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"A bowl of combined roasted eggplant and tomato mash with onion and herbs.\" width=\"1600\" height=\"1067\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/tomato-poda-meal-alternate.webp\" srcset=\"/images/responsive/22f0d33977061cc4-480.webp 480w, /images/responsive/6d05435228bc475d-960.webp 960w, /images/responsive/2906637b62eb1e29-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An overhead pakhala meal with the whole red bilati poda bowl visible at the left.\" width=\"1600\" height=\"1063\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/food/tomato-poda-meal-alternate.webp\" srcset=\"/images/responsive/22f0d33977061cc4-480.webp 480w, /images/responsive/028e9f7c8ffbf366-960.webp 960w, /images/responsive/2906637b62eb1e29-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"An overhead pakhala meal with the whole red bilati poda bowl visible at the left.\" width=\"1600\" height=\"1063\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/fish-patrapoda.webp\" srcset=\"/images/responsive/21e58915cfb3c4ed-480.webp 480w, /images/responsive/44306ca4536becb8-960.webp 960w, /images/responsive/14991387a5a31554-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Fish steaks in an opened, charred leaf parcel with a yellow spice coating.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/fish-patrapoda.webp\" srcset=\"/images/responsive/21e58915cfb3c4ed-480.webp 480w, /images/responsive/44306ca4536becb8-960.webp 960w, /images/responsive/1f98d0d778716db2-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Fish steaks in an opened, charred leaf parcel with a yellow spice coating.\" width=\"1600\" height=\"1200\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/dalma-habisha-alternate.webp\" srcset=\"/images/responsive/1760421fa9b0da16-480.webp 480w, /images/responsive/aa5edaf3e9a393ec-960.webp 960w, /images/responsive/cfe40f0074993fd5-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Habisha Dalma in an earthen bowl with coconut and green leaves, beside rice.\" width=\"1600\" height=\"2042\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/food/dalma-habisha-alternate.webp\" srcset=\"/images/responsive/1760421fa9b0da16-480.webp 480w, /images/responsive/b40f35e631114f2e-960.webp 960w, /images/responsive/cfe40f0074993fd5-1440.webp 1440w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Habisha Dalma in an earthen bowl with coconut and green leaves, beside rice.\" width=\"1600\" height=\"2042\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/regions/cuttack-dahibara.webp\" srcset=\"/images/responsive/760f4be38666f310-480.webp 480w, /images/responsive/527309eacc42034f-960.webp 960w, /images/responsive/f44f2bae8446e914-1000.webp 1000w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Dahibara and aloodum served together in a leaf bowl in Cuttack.\" width=\"1000\" height=\"660\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">",
+          "live": "<img src=\"/images/regions/cuttack-dahibara.webp\" srcset=\"/images/responsive/1942cbc47a097b50-480.webp 480w, /images/responsive/6e5c1b5777d98114-960.webp 960w, /images/responsive/f44f2bae8446e914-1000.webp 1000w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Dahibara and aloodum served together in a leaf bowl in Cuttack.\" width=\"1000\" height=\"660\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo\">"
+        },
+        {
+          "kind": "replace",
+          "local": "<img src=\"/images/food/machha-besara.webp\" srcset=\"/images/responsive/558c86dcebe824ed-480.webp 480w, /images/responsive/e969b30bd6175a2c-960.webp 960w, /images/responsive/f903f6ee84104e5f-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Fish pieces and long potato wedges in mustard-coloured gravy in a white bowl.\" width=\"1280\" height=\"960\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">",
+          "live": "<img src=\"/images/food/machha-besara.webp\" srcset=\"/images/responsive/3459c8793fe4ea1f-480.webp 480w, /images/responsive/e969b30bd6175a2c-960.webp 960w, /images/responsive/f903f6ee84104e5f-1280.webp 1280w\" sizes=\"(max-width: 650px) 92vw, (min-width: 2080px) 619px, 30vw\" decoding=\"async\" alt=\"Fish pieces and long potato wedges in mustard-coloured gravy in a white bowl.\" width=\"1280\" height=\"960\" loading=\"lazy\" data-astro-cid-eqibcql2=\"true\" class=\"explore-photo explore-contain\">"
+        },
+        {
+          "kind": "insert",
+          "local": "",
+          "live": "<script id=\"analytics-config\" type=\"application/json\">{\"id\":\"G-9WJHZGN1EM\",\"canonical\":\"https://projectodisha.org/explore/\",\"title\":\"Explore the collection · Project Odisha\",\"allowedPaths\":[\"/explore/\"]}</script><section class=\"analytics-choice wrap\" id=\"analytics-choice\" aria-labelledby=\"analytics-heading\" hidden data-astro-cid-5krk3x6l><h2 id=\"analytics-heading\" data-astro-cid-5krk3x6l>Your cookie choices</h2><p data-astro-cid-5krk3x6l>We use optional cookies to understand how our website is used and improve your experience. You can change your choice at any time.</p><p data-astro-cid-5krk3x6l><a href=\"/how-to-use/#privacy\" data-astro-cid-5krk3x6l>Learn more</a></p><div class=\"actions\" data-astro-cid-5krk3x6l><button type=\"button\" data-analytics=\"accepted\" class=\"utk-button\" data-astro-cid-5krk3x6l>Accept cookies</button><button type=\"button\" data-analytics=\"declined\" class=\"utk-button utk-button--secondary\" data-astro-cid-5krk3x6l>Decline</button></div></section><p class=\"wrap analytics-error\" id=\"analytics-status\" role=\"status\" hidden data-astro-cid-5krk3x6l></p>"
+        }
+      ]
+    },
+    {
+      "route": "/stories/jhulana-in-odisha/",
+      "raw_equal": false,
+      "article_equal_after_explicit_image_pairs": true,
+      "article_substitutions": {},
+      "changes": [
+        {
+          "kind": "insert",
+          "local": "",
+          "live": "<script id=\"analytics-config\" type=\"application/json\">{\"id\":\"G-9WJHZGN1EM\",\"canonical\":\"https://projectodisha.org/stories/jhulana-in-odisha/\",\"title\":\"Jhulana in Odisha: the swing, the song and the season · Project Odisha\",\"allowedPaths\":[\"/stories/jhulana-in-odisha/\"]}</script><section class=\"analytics-choice wrap\" id=\"analytics-choice\" aria-labelledby=\"analytics-heading\" hidden data-astro-cid-5krk3x6l><h2 id=\"analytics-heading\" data-astro-cid-5krk3x6l>Your cookie choices</h2><p data-astro-cid-5krk3x6l>We use optional cookies to understand how our website is used and improve your experience. You can change your choice at any time.</p><p data-astro-cid-5krk3x6l><a href=\"/how-to-use/#privacy\" data-astro-cid-5krk3x6l>Learn more</a></p><div class=\"actions\" data-astro-cid-5krk3x6l><button type=\"button\" data-analytics=\"accepted\" class=\"utk-button\" data-astro-cid-5krk3x6l>Accept cookies</button><button type=\"button\" data-analytics=\"declined\" class=\"utk-button utk-button--secondary\" data-astro-cid-5krk3x6l>Decline</button></div></section><p class=\"wrap analytics-error\" id=\"analytics-status\" role=\"status\" hidden data-astro-cid-5krk3x6l></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "result": "pass",
+  "reviewer": "Drishti, separate AI reviewer",
+  "reviewed_at_utc": "2026-11-27T02:43:14.684540+00:00",
+  "scope": "Actual Gupteswar delivery, selected photograph and previews, Hindola delivery derivative, and bounded incoming Pentha/Ratha content and CSS verification. Receipt integration is a separate pending review.",
+  "publication_merge": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+  "reviewed_source_head": "202d8dff762033f57e16e1e6fbbb190b1441b212",
+  "publication_pr": 909,
+  "required_ci": {
+    "run": 45924144778,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "deployment": {
+    "run": 45926477622,
+    "attempt": 1,
+    "conclusion": "success",
+    "bytes": 999840641,
+    "files": 3810,
+    "headroom_bytes": 159359,
+    "evidence": "/private/tmp/gupteswar-deployment.log",
+    "evidence_sha256": "f974399b80c2a5db35eefe435b3bf7cb9ba210f6e69b2b83d120798099040caf"
+  },
+  "fresh_remote_reads": {
+    "ci": {
+      "path": "/private/tmp/gupteswar-independent-remote/ci.json",
+      "sha256": "3559325e2963997a75c8b67a3b8eb5a03c6d59b59b16900fac0eca22385f024a"
+    },
+    "deployment": {
+      "path": "/private/tmp/gupteswar-independent-remote/deployment.json",
+      "sha256": "d63d565d2ac1c2bf2d9027553bc4e0943f17e01fd54e53a56018ed992b538707"
+    },
+    "publication_pr": {
+      "path": "/private/tmp/gupteswar-independent-remote/publication_pr.json",
+      "sha256": "112fe4e33229471aac255a34fda8453b9882ca742fabf0ff1a08360392b2c9fe"
+    },
+    "newer_deployment": {
+      "path": "/private/tmp/gupteswar-independent-remote/newer_deployment.json",
+      "sha256": "7ece1ed02cb09dd3531d9b53d9e6975b7669b605bd49545decaf8bd052353e97"
+    }
+  },
+  "independent_http": {
+    "directory": "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z",
+    "routes": 9,
+    "images": 12,
+    "css_files": 2,
+    "all_http_200": true,
+    "captured_from": "2026-11-27T02:36:08.701432+00:00",
+    "captured_to": "2026-11-27T02:36:13.299584+00:00",
+    "root_main_helper_scope": "Five routes and five images; counts deliberately distinguished from this expanded review.",
+    "raw_evidence_preserved": true
+  },
+  "content": {
+    "checks": 142,
+    "article": "Primary Gupteswar article differs only in the measured 960px responsive filename. Text, source/credit links, seven references, four notes and seven return targets are preserved. Related Deomali image filename changes are separately measured.",
+    "sharing": "Selected Gupteswar photograph and original 1200×798 dimensions retained; noindex,follow retained.",
+    "previews": "One Gupteswar card on each incoming route. Hills and destinations cards are byte-exact; Explore card differs only in the measured 960px filename. All three credits match historical reviewed output.",
+    "jhulana": "Entire primary article fragment is byte-exact, including CC0 source and full-frame resize disclosure; sharing dimensions 1517×2048.",
+    "full_page_classification": "Gupteswar: three image-tag replacements containing only the three observed responsive filenames, plus existing analytics choice/config shell. Hills, destinations and Jhulana: analytics choice/config shell only. Explore: 55 image tags with only responsive filename changes, three Ratha-related count updates, one Ratha card insertion, and analytics shell. No unknown HTML differences removed.",
+    "unrelated_images_limit": "The other Explore responsive resources were not individually downloaded or visually accepted; their markup changes are precisely classified, not a blanket image-delivery approval.",
+    "pentha": "Original FAIL retained. Independently executed offline parser diagnosis proves four inserted spaces before commas were introduced by tag-stripping, not delivered prose. Fresh independent Pentha bytes match that diagnosed response; deployed source pin and exact note relationships remain satisfied. No website fix or silent normalization.",
+    "ratha": "Fresh three route responses and both CSS assets match the separately reviewed 132-check source/CSS helper responses exactly. Scope is source-derived paragraphs, notes and links for Ratha, incoming Ratha link/dek on Snana and series, and exact two CSS bytes/order. No foreign historical-factual approval."
+  },
+  "images": {
+    "byte_exact": 8,
+    "byte_different": 4,
+    "all_geometry_and_hash_prefixes_verified": true,
+    "differences": [
+      {
+        "url": "/images/responsive/823ccaf027940bd9-960.webp",
+        "live_sha256": "823ccaf027940bd95fcb51980c5c3f76b648ad3e86299cb446bc83bbc532f4d2",
+        "local_sha256": "1277c0a08d3b8fa1cb44911baf7c1d5ca068767984ae497ba53f4da19243b086",
+        "width": 960,
+        "height": 638,
+        "different_pixels": 260802,
+        "different_rgb_channels": 733661,
+        "max_abs": 22,
+        "mean_abs": 0.8495967215256008,
+        "comparison": "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/pair-2.png",
+        "visual_result": "Accepted full-frame display quality after personally inspecting local-left/live-right comparison; no conspicuous loss of scene or fine-pattern readability."
+      },
+      {
+        "url": "/images/responsive/6888ea4719a2a3b9-960.webp",
+        "live_sha256": "6888ea4719a2a3b95dfb5a43ff9e4788ea62ad474920f5c394e4799c5ba1e7bc",
+        "local_sha256": "787aa95a831d1b782ebe1c2d525816012f8fb8e311ae98a47c089bf86c7ed119",
+        "width": 960,
+        "height": 443,
+        "different_pixels": 25721,
+        "different_rgb_channels": 74995,
+        "max_abs": 23,
+        "mean_abs": 0.15827846751943817,
+        "comparison": "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/pair-6.png",
+        "visual_result": "Accepted full-frame display quality after personally inspecting local-left/live-right comparison; no conspicuous loss of scene or fine-pattern readability."
+      },
+      {
+        "url": "/images/responsive/b20f6e2041df4551-1440.webp",
+        "live_sha256": "b20f6e2041df455124783ad32577983139f34779f2e35e304f85de07efbede94",
+        "local_sha256": "bb55e9bcbd389497496bfb7aa79019188477019851e289a7835a9834ea603e84",
+        "width": 1440,
+        "height": 665,
+        "different_pixels": 370747,
+        "different_rgb_channels": 1088648,
+        "max_abs": 23,
+        "mean_abs": 0.8000163603453078,
+        "comparison": "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/pair-7.png",
+        "visual_result": "Accepted full-frame display quality after personally inspecting local-left/live-right comparison; no conspicuous loss of scene or fine-pattern readability."
+      },
+      {
+        "url": "/assets/jhulana-in-odisha/hindola-raga.jpg",
+        "live_sha256": "44c993f643e1ac2892bb22c2c25c7efce46bff7068b32d6a90fcbc95b2dbcb1b",
+        "local_sha256": "21974baef73a7c908fb165e222fd51a99c9fa41b6d53f9eede9a16c3460f5052",
+        "width": 1517,
+        "height": 2048,
+        "different_pixels": 499649,
+        "different_rgb_channels": 1203218,
+        "max_abs": 14,
+        "mean_abs": 0.1814060869177104,
+        "comparison": "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/pair-11.png",
+        "visual_result": "Accepted full-frame display quality after personally inspecting local-left/live-right comparison; no conspicuous loss of scene or fine-pattern readability."
+      }
+    ],
+    "hindola_metadata": {
+      "exif": {
+        "local": "c8080061c5713bb466acb443e29cd389eda9e4cfc853275847efba5688fe1d69",
+        "live": "c8080061c5713bb466acb443e29cd389eda9e4cfc853275847efba5688fe1d69",
+        "equal": true
+      },
+      "icc": {
+        "local": "3f6d674174f3804eb0dabdac90ae17486e898c5063a66f861c116ea033da8301",
+        "live": "3f6d674174f3804eb0dabdac90ae17486e898c5063a66f861c116ea033da8301",
+        "equal": true
+      },
+      "iptc": {
+        "local": "3b72c103cab83a85c4edab9ba44409b993a10c4e8fe03b03979b6e062b228e38",
+        "live": "3b72c103cab83a85c4edab9ba44409b993a10c4e8fe03b03979b6e062b228e38",
+        "equal": true
+      },
+      "xmp": {
+        "local": "db543828ab0225ca937e818f9cc5097152b219a1884248f43fcc18f0dee06ceb",
+        "live": "db543828ab0225ca937e818f9cc5097152b219a1884248f43fcc18f0dee06ceb",
+        "equal": true
+      }
+    },
+    "limits": "Four differences are accepted after measurement and actual visual review; neither byte/pixel identity nor an encoding cause is asserted. Comparisons use up to 800px per side for display inspection. Originals remain preserved."
+  },
+  "screenshots": {
+    "personally_viewed": 14,
+    "meaningful": 13,
+    "retained_framing_attempt": 1,
+    "root_operated_actions": [
+      "Desktop source3 click and Enter return restores hash/focus",
+      "Mobile source1 click and Enter return restores hash/focus",
+      "All three incoming cards clicked at1440 and390;each returned exact Gupteswar route",
+      "Hills Images & credits expanded andIndopaedia/CC BY-SA4.0 visiblychecked"
+    ],
+    "limits": [
+      "Desktop header caption partly clipped;desktopcreditbody showsfullcredit",
+      "Desktop source3 capturesnotes3and4 only;mobilesourcescapturesall4",
+      "mobile-hills-preview.jpg is framingattempt before scroll settled;settledreplacement retained",
+      "Desktop hills preview image top clipped;desktopdestinationpreview showsfullsamecard",
+      "No exhaustive device or assistive-technology audit",
+      "Desktop Explore preview image top clipped; mobile Explore capture shows the complete image."
+    ],
+    "files": [
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-header.jpg",
+        "sha256": "8367bb6119033cd2fcff4f80c87061da793ff7167221f1e21de70e1bdbc89afc"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-credit-body.jpg",
+        "sha256": "0714d945136dcc0c32df7067065c1232c8b4829020e02a744089edb24a116809"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-source3.jpg",
+        "sha256": "045ee76240c2a1256e6b8b85b0b6898e4d2ad46069e14da05da534ac79a06496"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-header.jpg",
+        "sha256": "4b99d186553dc2621ddf9bd513c454d4b9b7fa87bc1081b0429bfec0508e357f"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-credit-body.jpg",
+        "sha256": "43129723d3baa82b6cf277fdd17837bba17abb3011f0562150c3f754a386bbef"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-sources.jpg",
+        "sha256": "c7d2ef11637185cd4aef7865b241e66845b8b0038112f240c37bfe844cf15e57"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-hills-preview.jpg",
+        "sha256": "b09ebd4da9a5cf8cae580e90e1ef7f12f12e9d017e01f2485d96d24f8ad29bac"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-hills-preview-settled.jpg",
+        "sha256": "1e58acd583cd915ca762459365e1313620a4ec0269fbbe8a9222f06637bbd94c"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-destinations-preview.jpg",
+        "sha256": "c6ccbdb35bc83a33b534d15e97ce3e3f3fcb082d14bf37440f9065ea04e2f849"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/mobile-explore-preview.jpg",
+        "sha256": "45a8ddf932c0f4bf5c2cbd3a8846de294b086f2142e1af4d7bfaaa1aad544ce6"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-hills-preview.jpg",
+        "sha256": "36475d0fedbf0218c397bb438dc359f5e55602ef7054c467f1fbf9d5c7b89950"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-hills-credit.jpg",
+        "sha256": "027eac0094ef1ec293d80378a507a73e76436c70f61e43c93019560210f4a6dd"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-destinations-preview.jpg",
+        "sha256": "ede54e02d5e4fc787bbaf0b08332f877db9045399f9775660dbb72c522b70c10"
+      },
+      {
+        "path": "outputs/gupteswar-publication-2026-11-27/browser-live/desktop-explore-preview.jpg",
+        "sha256": "7d96b6f9faf3b260988e015d2c08490b47842ea024ecf50aa95403338acd5ab4"
+      }
+    ],
+    "finding": "Readable article, intact full-frame mobile photo and credit, readable source notes and recognizable preview photographs. No visible blocking layout issue in the inspected frames. Root actions are attributed to root, not this reviewer."
+  },
+  "preservation": {
+    "checked_head": "766932a0b402ac565e1abae3e62ddb4a6cedebd2",
+    "combined_source_hashes": 35,
+    "protected_files": 141,
+    "foreign_fields": 3,
+    "all_match": true,
+    "scope_note": "Checked at deployed merge before root subsequently fast-forwarded PR908. That evidence-only reconciliation belongs to the later receipt review."
+  },
+  "historical_evidence": "Local package remains explicitly pre-PR906/907. Exact combined hosted CI and actual targeted live evidence provide the later-source gates; old local proof is not relabeled. Root raw REVIEW_DIFFERENCES and Pentha initial FAIL remain intact.",
+  "capture_limits": [
+    "Concurrent later deployment 45926965772 was in progress during the independent remote read. Individual capture timestamps and Last-Modified headers are preserved; no global instantaneous snapshot claim.",
+    "Screenshot evidence contains top-clipped desktop previews and one discarded framing attempt as listed; no exhaustive device, accessibility, human specialist or field review.",
+    "This pass does not claim receipt CI, receipt merge, scope release or next-article authorization."
+  ],
+  "evidence": {
+    "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/http-verification.json": "4cdf2336c5ce5099ba02023122213e62b347225833b0efc4d50f93c3311dd14a",
+    "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/image-measurements.json": "f58132bb0e695bc547927c3779256275d31370d5f276c78db558488e9b0684bf",
+    "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/content-preservation.json": "1df9ee5e0d036da928db8c666f208598bb8e4190b6ed3fe44ea1ea289e92c5a2",
+    "outputs/gupteswar-publication-2026-11-27/review/live-independent/20261127T023608.700925Z/content-final-checks.json": "d723a9bd47192b5b582e9c1a7fde45683ba52c6d6a203187eb1a95c88e951fbd",
+    "outputs/gupteswar-publication-2026-11-27/browser-live/manifest.json": "d9a51d56f9a26882b587a33c7831dcd272e00ae4a93ae0f6aff1e15b2818186a",
+    "outputs/gupteswar-publication-2026-11-27/live/root-image-comparison.json": "869d65f419562966dda862e073b6dee979550694fca83068c83bb8e7cec8ad5a",
+    "outputs/gupteswar-publication-2026-11-27/live/root-related-image-comparison.json": "e70453e9eea057f5f77ae809a2ea74069b4c752f0630668655cd1dde6f03bb0e"
+  },
+  "blockers": []
+}
