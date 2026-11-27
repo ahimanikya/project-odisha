@@ -1,0 +1,110 @@
+{
+  "result": "pass",
+  "scope": "Separate bounded PR907 reconciliation and source-preservation review, not combined package, hosted CI or live acceptance.",
+  "reviewer": "Drishti (AI reviewer)",
+  "review_date": "2026-11-27",
+  "refs": {
+    "base": "8d69843f075d61ac959d66a8c6b9a7b5c7a051c0",
+    "ours": "39432a98bf759e13e252041b35f01fef3531236e",
+    "incoming": "7787885473279ed888058ea29cfb3cc6bb265112",
+    "head": "43f9f62669ffe1d3ffde8782da424307e56a07de"
+  },
+  "tree": "80f79d309bd02777794a92eb0d0ef2ac874ae346",
+  "incoming_path_count": 19,
+  "incoming_nonshared_exact_count": 14,
+  "incoming_nonshared_hashes": {
+    "kb/records/pentha-public-corroboration-20261127.json": "8d117647a26c6e7eda95be24938060b8285e06a18511d6dff01c7546170c3458",
+    "kb/research/stories/independent-features/nature/pentha.md": "4928ed9e61f9e9497c3b06798f333c193b99cf4ca414db480a408da51dcc142e",
+    "kb/research/stories/independent-features/source-register.md": "c3eb703a66c638c82e93375123875e58da9bc1f119752ccc1887f451ba465707",
+    "outputs/pentha-cag-public-source-20261127/coordinator-checks.json": "7a2edf4bec277f7161f38b469ab3f2c04b9bb47e002fbaeabdb6e929d135a43b",
+    "outputs/pentha-cag-public-source-20261127/research.json": "8c14efaae7e49f82a4a1ba44f454798a774915e8cfb94c019c7fab00ea1c6fae",
+    "outputs/pentha-cag-public-source-20261127/review.json": "dbdbeff4ccf84e8c0da9180f3ebd5f8b9cf7786ce13207deb58adbbcb03d0678",
+    "outputs/pentha-public-corroboration-20261127/browser-local.json": "079018c386e9861b249700f80983d06006bb3ab1ddd1846ada78d2c30cb36fd1",
+    "outputs/pentha-public-corroboration-20261127/handoff.json": "e36f7e7f382c21cdf0ebf66b66dbe0740dd372a16c2a637bfd4b260a3753cb79",
+    "outputs/pentha-public-corroboration-20261127/implementation.json": "ceaafa0d862e6775218c7e070594433777b9c59a44c08915148997947874a9f6",
+    "outputs/pentha-public-corroboration-20261127/local-checks.json": "5fa82a1ff091a4f2fbdeaf88e75209e4316e4b76d78e603bb214d1ad984bad69",
+    "outputs/pentha-public-corroboration-20261127/local-note-desktop.jpg": "c9c20b708357d2cf9382a8296da653f101a3badc834241979574198418d01e92",
+    "outputs/pentha-public-corroboration-20261127/local-note-mobile.jpg": "94863b6086bb74f4e2d99ca96263c393c003767a5dead3c71668c3af490fad83",
+    "outputs/pentha-public-corroboration-20261127/research.json": "a7e889aeed5d846b6d8a3cdf1fb8776eb0ecb74946e70f2e7d44b3e982e8bb9b",
+    "outputs/pentha-public-corroboration-20261127/review.json": "38cec9fe85e76a95efd207bb357b12ba27a50ac31f152c2efc62db69b0dafcf9"
+  },
+  "shared_paths": [
+    "kb/records/editorial-workbench.json",
+    "kb/registers/DASHBOARD.md",
+    "kb/registers/activity.jsonl",
+    "kb/registers/records.json",
+    "kb/research/search-index.json"
+  ],
+  "independent_checks": {
+    "kb/registers/records.json": {
+      "exact_three_way_id_object_union": true
+    },
+    "kb/research/search-index.json": {
+      "exact_three_way_id_object_union": true
+    },
+    "activity": {
+      "exact_ours_prefix_plus_incoming_only_raw_lines": true,
+      "incoming_raw_lines_preserved": true,
+      "events": 914
+    },
+    "workbench_search_digest": true,
+    "workbench_only_search_digest_changed": true,
+    "frozen_27": {
+      "kb/reference/public-website-routes.json": true,
+      "kb/research/places/gupteswar-article.md": true,
+      "kb/research/places/gupteswar-image.json": true,
+      "projects/odia-dhaga/pdf-delivery.json": true,
+      "projects/site/editions/coast.json": true,
+      "projects/site/editions/responsive-images.json": true,
+      "projects/site/editions/search-candidate.json": true,
+      "projects/site/public/images/destinations/gupteswar-lingam-indopaedia.webp": true,
+      "projects/site/src/components/DestinationCards.astro": true,
+      "projects/site/src/content-notes/paradip-port-cargo.md": true,
+      "projects/site/src/data/hill-destinations.ts": true,
+      "projects/site/src/pages/destinations/gupteswar.astro": true,
+      "projects/site/src/pages/destinations/hills.astro": true,
+      "projects/site/src/pages/destinations/index.astro": true,
+      "projects/site/src/pages/explore.astro": true,
+      "projects/site/src/pages/knowledge/paradip-port-cargo.astro": true,
+      "projects/site/tests-coast/discovery-flow.test.mjs": true,
+      "projects/site/tests-coast/edition.test.mjs": true,
+      "projects/site/tests/build.test.mjs": true,
+      "projects/site/tests/publication-jpeg.test.mjs": true,
+      "projects/site/tests/publication-png.test.mjs": true,
+      "projects/site/tools/build-publication.mjs": true,
+      "projects/site/tools/nimuhi-footnote-heading.mjs": true,
+      "projects/site/tools/optimize-publication-jpeg.mjs": true,
+      "projects/site/tools/optimize-publication-png.mjs": true,
+      "projects/site/tools/prepare-search-review.mjs": true,
+      "projects/site/tools/storage-copy.mjs": true
+    },
+    "protected_files": 141,
+    "foreign": {
+      "current_task": true,
+      "handoff_home": true,
+      "current_preparation": true
+    }
+  },
+  "findings": [
+    "All fourteen incoming nonshared files are byte-exact to PR907, including Pentha manuscript, source register, research/review evidence and two screenshots. Preservation is not a new visual or factual review of those incoming materials.",
+    "Registers and research search index reproduce the actual base/ours/incoming three-way ID/object union without unresolved divergent fields. Incoming rows and Gupteswar/Chakulia rows are retained.",
+    "Activity equals the entire original ours raw-line prefix followed only by incoming-only raw lines. Every incoming event retains its exact original bytes.",
+    "The workbench differs from ours only in the refreshed search-index input digest, matching the actual combined index. Selection/content is unchanged.",
+    "Independently executed registers.py --check: valid, 1471 records, 914 events, dashboard current.",
+    "No projects/site file changes relative to the pre907 candidate. All 27 frozen Gupteswar inputs, 141 protected files and three foreign ownership fields match reviewed manifests.",
+    "Pentha changes only source note 2; its manuscript remainder and source-register historical prefix are preserved. The initial Gupteswar local package remains pre907."
+  ],
+  "validation_plan": {
+    "path": "outputs/gupteswar-publication-2026-11-27/review/reconciliation-validation-plan.json",
+    "sha256": "8d0b7a6b77541551ebda1bcbb849a9be2d69f917bfc766c1ec6cf562f4139fb7",
+    "required": "Retain completed local package explicitly as pre907; require exact combined-head hosted full pipeline and strict actual capacity gate, exact-source deployment and targeted fresh Pentha note 2 verification in addition to Gupteswar/Hindola delivery. No repeated full local rebuild solely for this isolated note change."
+  },
+  "checkout_state": "Exact committed reconciliation reviewed. Root subsequently modified its canonical Gupteswar handoff while this report was being authored; untracked evidence and temporary publication staging also remain. No clean-checkout or final working-record approval is claimed.",
+  "limitations": [
+    "No hosted outcome, deployment, final capacity or live verification approved here.",
+    "PR906 is not included or approved.",
+    "Later source or incoming changes require bounded reassessment.",
+    "No shared records, sources, build artifacts or Git state changed by this reviewer."
+  ],
+  "blockers": []
+}
