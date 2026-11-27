@@ -7,6 +7,7 @@ const hash=b=>createHash('sha256').update(b).digest('hex');
 // Exact measured additions; all retain decoded pixels and ancillary chunks byte-exact.
 export const additionalDeliveryPNGs=[
   "assets/coast-natural-fallback-v2.png",
+  "assets/cinema/shared-story-table-20261030.png",
   "assets/maniabandha/maniabandha-illustration.png",
   "assets/cinema/pencil-akshaya-mohanty-20261101.png",
   "assets/bhubaneswar-week/poem-conversations-v1.png",
