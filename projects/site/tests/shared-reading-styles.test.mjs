@@ -75,3 +75,17 @@ test('distinct qualifying styles retain their own exact content and order', () =
  result.pages.forEach((p, i) => assert.equal(restore(p.html), input[i].html));
  assert.equal(result.stats.replacedBlocks, 4);
 });
+
+test('festival stories share exact head CSS and preserve the reading-room threshold', () => {
+ const css = '.story{margin:1em;padding:2em}'.repeat(45);
+ const header = '<article class="article-reading"><header><a href="/stories/the-year-that-feeds-us/">Series</a></header></article>';
+ const html = '<head><style>'+css+'</style></head><body>'+header+'</body>';
+ const stories = ['ratha-yatra', 'snana-purnima'].map(slug => ({path:'stories/'+slug+'/index.html',html}));
+ const outside = [{path:'stories/other/index.html',html:html.replace(header,'')}, {path:'reading-room/one/index.html',html}];
+ const result = shareReadingStyles([...stories,...outside]);
+ assert.equal(result.assets.size, 1);
+ const [[path, body]] = result.assets;
+ assert.equal(body, css);
+ for (const story of result.pages.slice(0,2)) assert.equal(story.html.replace('<link rel="stylesheet" href="/'+path+'">','<style>'+body+'</style>'), html);
+ assert.deepEqual(result.pages.slice(2), outside);
+});
