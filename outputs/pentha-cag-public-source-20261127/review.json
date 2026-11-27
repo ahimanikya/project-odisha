@@ -1,0 +1,49 @@
+{
+  "reviewer": "Drishti, independent AI review agent",
+  "checked_at": "2026-11-27T00:03:39.036414+00:00",
+  "verdict": "NO_VERIFIED_PUBLIC_EXACT_COPY_RECOVERED_NO_SAFE_LINK_REPLACEMENT_YET",
+  "scope": "Independent assessment of Anvesha research.json and root-reported catalogue/host/index checks, plus one bounded legislature/government mirror discovery route and independent indexed-source identity/claim verification. No canonical edits or publication.",
+  "exact_identity": {
+    "report": "CAG Government of Odisha, Economic Sector, year ended March2016, Report5of2016",
+    "locator": "Section3.2.6, printed page53",
+    "independent_check": "Opened indexed original publisher PDF through web reader, confirmed cover and section containing675metre original design,505metre revised length, Phailin-related scope change and incomplete work. Reader reports crawl11months ago; this is content/identity evidence, not fresh anonymous public-PDF retrieval.",
+    "indexed_original_url": "https://www.agodi.cag.gov.in/agodisha/writereaddata/ERSA_Audit%20Report_Economic%20Sector-II_English%20Version_1507532887176.pdf"
+  },
+  "distinct_recovery_route": {
+    "name": "Legislature/government and exact-filename public mirror discovery",
+    "method": "Two bounded web-search batches using exact report identity, filename and675/505/Pentha terms, including Odisha Assembly domain. Did not repeat archive APIs or anonymous publisher requests already covered by other agents.",
+    "queries": [
+      "\"Odisha\" \"2016\" \"Economic Sector\" \"Report No.5\" filetype:pdf",
+      "\"Odisha\" \"675\" \"505\" audit filetype:pdf",
+      "\"Economic Sector\" \"2016\" site:odishaassembly.nic.in",
+      "\"Economic Sector\" \"2016\" \"Odisha\" \"report\" site:odishaassembly.nic.in",
+      "\"ERSA_Audit\" \"Economic\" -site:agodi.cag.gov.in -site:agodisha.gov.in",
+      "\"Pentha\" \"505\" \"audit\" filetype:pdf -site:agodi.cag.gov.in -site:agodisha.gov.in"
+    ],
+    "result": "No observed distinct exact report payload URL. Exact report discovery returned known restricted publisher hosts; other relevant results were different years/reports. No candidate accepted merely from title or HTTP status."
+  },
+  "research_assessment": {
+    "exact_report_identity_correct": true,
+    "archive_empty_results_limited_to_queried_hosts_paths_and_indexes": true,
+    "timeouts_and_transport_errors_honestly_inconclusive": true,
+    "different_year_reports_correctly_rejected": true,
+    "indexed_reader_not_misrepresented_as_public_download": true,
+    "no_replacement_recommended_without_payload": true,
+    "root_observations": "Root reports three known publisher hosts redirect to sign-in HTML, filtered CAG catalogue omits this report and Internet Archive advanced search returned no candidate. These are attributed root observations, not independent duplicate fetches.",
+    "final_common_crawl_disposition": "Reviewed coordinator-checks.json: Jan2025 exact agodi query returned502 (inconclusive); old www.agodisha exact query returned404/no index record. No PDF recovered. Unrelated wildcard results explicitly excluded from evidence."
+  },
+  "article_preservation": {
+    "pentha_sha256": "588a780fb081851ba4b60f0cf11695465b495622a62d2dfacca5768fee0162e9",
+    "existing_login_note_and_distinct_engineering_companion_preserved": true,
+    "changes_by_reviewer": "Only this review.json written; no source, image, shared-record, Git or live-site change."
+  },
+  "recommendation": "Retain the current original audit link and explicit access limitation. No live-link replacement is justified by the present evidence. A future candidate must yield the actual report or exact archival payload with matching identity and section3.2.6, including both lengths; do not substitute the engineering companion or another audit year.",
+  "limitations": [
+    "This is a bounded unsuccessful recovery, not proof that no public copy or archive exists.",
+    "User requested public access remains unresolved; do not mark that objective fulfilled merely because indexed text is available.",
+    "The exact Common Crawl502 is inconclusive; the other negative index result applies only to that query and collection."
+  ],
+  "research_sha256": "8c14efaae7e49f82a4a1ba44f454798a774915e8cfb94c019c7fab00ea1c6fae",
+  "findings": [],
+  "coordinator_evidence_sha256": "7a2edf4bec277f7161f38b469ab3f2c04b9bb47e002fbaeabdb6e929d135a43b"
+}

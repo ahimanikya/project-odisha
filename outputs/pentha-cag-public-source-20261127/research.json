@@ -1,0 +1,152 @@
+{
+  "recorded_at": "2026-11-27T00:01:33.989071+00:00",
+  "researcher_role": "Anvesha",
+  "status": "bounded_recovery_unsuccessful",
+  "exact_report": {
+    "title": "Report of the Comptroller and Auditor General of India on Economic Sector for the year ended March 2016",
+    "government": "Government of Odisha",
+    "report_number": "5 of the year 2016",
+    "page_count_indexed": 146,
+    "locator": "Section 3.2.6, Installation of Geo-textile tube embankment, printed page53.",
+    "claim_to_preserve": "Planned protective length reduced from675metres to505metres following changes after Cyclone Phailin in2013. Audit-specific figures remain attributed to CAG.",
+    "original_url": "https://agodi.cag.gov.in/agodisha/writereaddata/ERSA_Audit%20Report_Economic%20Sector-II_English%20Version_1507532887176.pdf",
+    "identity_basis": "Existing audit evidence and fresh exact-PDF indexed search; cover identity independently confirmed by root. Indexed visibility is not proof of anonymous PDF retrieval."
+  },
+  "reuse": [
+    "outputs/articles-27-final-audit-20261127/source-pentha-disposition.json",
+    "outputs/articles-27-final-audit-20261127/source-cag-candidate.json"
+  ],
+  "research_map_query": {
+    "command": "python3 tools/research/query_research.py \"Pentha CAG 2016 Economic Sector 675 505 section 3.2.6\" --json",
+    "result": "No records/tasks/shared_publications returned."
+  },
+  "checks": [
+    {
+      "kind": "Wayback availability",
+      "url": "https://archive.org/wayback/available?url=http%3A%2F%2Fagodi.cag.gov.in%2Fagodisha%2Fwritereaddata%2FERSA_Audit+Report_Economic+Sector-II_English+Version_1507532887176.pdf",
+      "result": "HTTP 200; archived_snapshots empty",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback availability",
+      "url": "https://archive.org/wayback/available?url=http%3A%2F%2Fwww.agodisha.gov.in%2Fagodisha%2Fwritereaddata%2FERSA_Audit+Report_Economic+Sector-II_English+Version_1507532887176.pdf",
+      "result": "HTTP 200; archived_snapshots empty",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback filename query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.agodisha.gov.in%2F%2AEconomic%2A&output=json&filter=statuscode%3A200&collapse=urlkey&limit=30",
+      "result": "HTTP 200; empty index. Supplemented with explicit prefix queries because middle-wildcard interpretation may be limited.",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback filename query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.agodi.cag.gov.in%2Fagodisha%2Fwritereaddata%2F%2AEconomic%2A&output=json&filter=statuscode%3A200&collapse=urlkey&limit=30",
+      "result": "HTTP 200; empty index. Supplemented with explicit prefix queries because middle-wildcard interpretation may be limited.",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback filename query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=agodi.cag.gov.in%2Fagodisha%2Fwritereaddata%2F%2AEconomic%2A&output=json&filter=statuscode%3A200&collapse=urlkey&limit=30",
+      "result": "HTTP 200; empty index. Supplemented with explicit prefix queries because middle-wildcard interpretation may be limited.",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback filename query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=agodisha.gov.in%2Fagodisha%2Fwritereaddata%2F%2AEconomic%2A&output=json&filter=statuscode%3A200&collapse=urlkey&limit=30",
+      "result": "HTTP 200; empty index. Supplemented with explicit prefix queries because middle-wildcard interpretation may be limited.",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback explicit prefix query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.agodisha.gov.in%2Fagodisha%2Fwritereaddata%2F&matchType=prefix&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BEe%5Dconomic.%2A&collapse=urlkey&limit=50",
+      "result": "HTTP 200; empty index",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback explicit prefix query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.agodi.cag.gov.in%2Fagodisha%2Fwritereaddata%2F&matchType=prefix&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BEe%5Dconomic.%2A&collapse=urlkey&limit=50",
+      "result": "HTTP 200; empty index",
+      "http_status": 200
+    },
+    {
+      "kind": "Wayback explicit prefix query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=agodi.cag.gov.in%2Fagodisha%2Fwritereaddata%2F&matchType=prefix&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BEe%5Dconomic.%2A&collapse=urlkey&limit=50",
+      "result": "HTTPError; status not retained in this bounded query. Inconclusive transport response.",
+      "http_status": null
+    },
+    {
+      "kind": "Wayback older central CAG path",
+      "url": "https://web.archive.org/cdx/search/cdx?url=cag.gov.in%2Fsites%2Fdefault%2Ffiles%2Faudit_report_files%2F&matchType=prefix&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BOo%5Ddisha.%2A2016.%2A&collapse=urlkey&limit=50",
+      "result": "HTTP 200; three matching archived names: Chapter_6_Mining_Receipts_Odisha_Revenue_Sector_Report_1_2016.pdf; Odisha_General_and_Social_Sector_Report_3_of_2016.pdf; Overview_Odisha_Revenue_Sector_Report_1_2016.pdf. None identifies exact Economic report5.",
+      "http_status": 200,
+      "returned_records": 3
+    },
+    {
+      "kind": "Wayback current central CAG path",
+      "url": "https://web.archive.org/cdx/search/cdx?url=cag.gov.in%2Fuploads%2Fdownload_audit_report%2F2016%2F&matchType=prefix&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BOo%5Ddisha.%2A&collapse=urlkey&limit=50",
+      "result": "HTTP 200; 28 matching archived names for General/Social Sector reports3/4, State Finances report6 and Local Bodies report8 and their components. No Economic report5 among returned names.",
+      "http_status": 200,
+      "returned_records": 28
+    },
+    {
+      "kind": "Arquivo.pt exact URL history",
+      "url": "https://arquivo.pt/textsearch?versionHistory=http%3A%2F%2Fwww.agodisha.gov.in%2Fagodisha%2Fwritereaddata%2FERSA_Audit%2520Report_Economic%2520Sector-II_English%2520Version_1507532887176.pdf&maxItems=5",
+      "result": "HTTP 200; estimated_nr_results 0; response_items empty",
+      "http_status": 200,
+      "returned_records": 0
+    },
+    {
+      "kind": "Arquivo.pt exact URL history",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.agodi.cag.gov.in%2Fagodisha%2Fwritereaddata%2FERSA_Audit%2520Report_Economic%2520Sector-II_English%2520Version_1507532887176.pdf&maxItems=5",
+      "result": "HTTP 200; estimated_nr_results 0; response_items empty",
+      "http_status": 200,
+      "returned_records": 0
+    },
+    {
+      "kind": "Arquivo.pt general discovery",
+      "url": "https://arquivo.pt/textsearch?q=%22Odisha%22+%22Economic+Sector%22+%222016%22&maxItems=5",
+      "result": "HTTP 200; estimated 1057 results; first five returned items unrelated (transport/government pages, chromium publications, International Energy Outlook). No verified exact report; not an exhaustive review of results.",
+      "http_status": 200,
+      "returned_records": 5
+    },
+    {
+      "kind": "Arquivo.pt official-domain discovery",
+      "url": "https://arquivo.pt/textsearch?q=Odisha+Economic+2016&siteSearch=cag.gov.in&maxItems=10",
+      "result": "HTTP 200; five results: three CAG home captures, Union report39of2016 and coal-mining assessment report12of2019. None is the requested Odisha report.",
+      "http_status": 200,
+      "returned_records": 5
+    },
+    {
+      "kind": "Wayback legacy official hostname",
+      "url": "https://web.archive.org/cdx/search/cdx?url=agorissa.nic.in%2F&matchType=prefix&output=json&filter=statuscode%3A200&filter=original%3A.%2A%282016%7C%5BEe%5Dconomic%29.%2A&collapse=urlkey&limit=30",
+      "result": "TimeoutError at 25-second timeout; inconclusive. No claim that this hostname lacks an archive.",
+      "http_status": null
+    }
+  ],
+  "alternate_official_discovery": {
+    "saiindia.gov.in": "Search exposed mirrored2015/2017 reports only; attempted /ag2/odisha/en/audit-report?page=5 web-reader open was unavailable. No exact2016copy verified.",
+    "agorissa.nic.in": "Web searches found no observed report URL; archive query inconclusive timeout.",
+    "current_known_hosts": "Root separately confirmed anonymous secure requests to all three indexed HTTPS variants redirect to login; prior evidence reused, not recast as fresh child retrieval."
+  },
+  "rejected_other_year_reports": [
+    {
+      "url": "https://saiindia.gov.in/en/audit-report/details/20390",
+      "reason": "Economic Sector Report5of2015, tabled21March2016; wrong audit year."
+    },
+    {
+      "url": "https://saiindia.gov.in/en/audit-report/details/44206",
+      "reason": "Economic Sector Report2of2017, tabled26March2018; wrong report/year."
+    },
+    {
+      "url": "https://saiindia.gov.in/uploads/download_audit_report/2017/FULL%20REPORT.pdf",
+      "reason": "Economic Sector year ended March2017; not exact2016report."
+    },
+    {
+      "url": "https://saiindia.gov.in/uploads/download_audit_report/2018/ENGLISH%20REPORT%28Economic%29-05f7cb90466dca5.69606577.pdf",
+      "reason": "Economic Sector2017\u201318; not exact2016report."
+    }
+  ],
+  "conclusion": "These bounded searches did not recover a verified publicly accessible exact PDF or reliable capture. This is not a global claim that no archive exists. No replacement URL recommended. No article, shared-register, Git or publication changes were made.",
+  "safety": "Normal TLS, public indexes and ordinary research readers only; no login interaction, access-control bypass, raw response bodies, headers or session identifiers retained."
+}
