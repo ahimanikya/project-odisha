@@ -8,6 +8,7 @@ const hash=b=>createHash('sha256').update(b).digest('hex');
 export const additionalDeliveryPNGs=[
   "assets/coast-natural-fallback-v2.png",
   "assets/cinema/shared-story-table-20261030.png",
+  "assets/cinema/literature-page-to-screen-20261030.png",
   "assets/maniabandha/maniabandha-illustration.png",
   "assets/cinema/pencil-akshaya-mohanty-20261101.png",
   "assets/bhubaneswar-week/poem-conversations-v1.png",
