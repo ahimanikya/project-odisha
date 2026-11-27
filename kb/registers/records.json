@@ -11135,6 +11135,28 @@
       "evidence": [
         "records/articles-27-final-audit-20261127.json"
       ]
+    },
+    {
+      "id": "POD-WORK-20261127005",
+      "title": "Public corroboration for Pentha design-length figures",
+      "category": "editorial_maintenance",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Disha with separate research, implementation and review agents"
+      },
+      "authorization": "POD-DEC-20261127005",
+      "next_action": "Review source-note addition, pass required checks, publish and verify the live note.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-20261127005",
+        "POD-REV-20261127005"
+      ],
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
+      ]
     }
   ],
   "decisions": [
@@ -16977,6 +16999,20 @@
       "scope": "Final maintenance audit of27existinglivearticles in /stories/odisha/; confirmed source/credit/layout repairs only.",
       "evidence": [
         "records/articles-27-final-audit-20261127.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-20261127005",
+      "title": "Add a separate public source for Pentha length figures",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find another reliable, publicly accessible source for the 675-to-505-metre figures and update the Pentha article’s source notes, clearly distinguishing it from the CAG report.",
+      "scope": "Pentha source note 2: add independently verified public newspaper corroboration of the historic 675-to-505-metre design revision, clearly separate from CAG. Preserve narrative, source IDs, images and other articles.",
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
       ]
     }
   ],
@@ -27091,6 +27127,24 @@
         "records/articles-27-final-audit-20261127.json"
       ],
       "summary": "All27layouts/images/credits pass;95originaltargets and11existingarchives reviewed. Three source-note repairs pass preservation/content review. Pentha publisher-login limitation explicitly retained; no all-public-access claim. Publication pending."
+    },
+    {
+      "id": "POD-REV-20261127005",
+      "title": "Pentha public corroboration and bounded source-note review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate article_integration_review agent"
+      },
+      "independent": true,
+      "refs": [
+        "POD-WORK-20261127005",
+        "POD-DEC-20261127005"
+      ],
+      "evidence": [
+        "records/pentha-public-corroboration-20261127.json"
+      ],
+      "summary": "Independent public-source verification and bounded note preservation pass. News corroborates the two lengths; CAG attribution and sign-in limitation retained. Publication pending."
     }
   ],
   "releases": [

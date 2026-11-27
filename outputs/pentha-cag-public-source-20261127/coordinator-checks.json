@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-11-27",
+  "status": "no_verified_public_copy_recovered",
+  "exact_report": "CAG, Government of Odisha, Economic Sector for the year ended March 2016, Report No. 5 of 2016, section 3.2.6, printed page 53",
+  "known_official_hosts": {
+    "method": "Fresh anonymous HTTPS GET with normal certificate verification and no supplied cookies or credentials",
+    "path": "/agodisha/writereaddata/ERSA_Audit%20Report_Economic%20Sector-II_English%20Version_1507532887176.pdf",
+    "hosts": ["www.agodi.cag.gov.in", "agodi.cag.gov.in", "www.agodisha.gov.in"],
+    "result": "All three redirected to /agodisha/login, HTTP 200 text/html, 12977 bytes; no PDF"
+  },
+  "official_catalogue": {
+    "url": "https://cag.gov.in/en/audit-report?gt=49&state%5B%5D=84&yrf=2016&yrt=2016",
+    "method": "Fresh public HTML request using observed catalogue form fields",
+    "returned_report_ids": [33609, 25922, 25174, 25162],
+    "result": "Returned State Finances No.6, General/Social No.4 and No.3, Revenue No.1. Requested Economic Sector No.5 was not present in these filtered results."
+  },
+  "internet_archive_catalogue": {
+    "endpoint": "https://archive.org/advancedsearch.php",
+    "queries": [
+      {"q": "\"Odisha\" AND \"Economic Sector\"", "numFound": 0},
+      {"q": "\"Orissa\" AND \"audit\" AND \"2016\"", "numFound": 0},
+      {"q": "\"Pentha\"", "numFound": 2, "result": "Both unrelated items"}
+    ]
+  },
+  "common_crawl": {
+    "index": "CC-MAIN-2025-05",
+    "index_identity_verified_at": "https://index.commoncrawl.org/collinfo.json",
+    "method": "Exact URL queries using matchType=exact for the known report path",
+    "results": [
+      {"host": "agodi.cag.gov.in", "http_status": 502, "disposition": "Inconclusive transport failure"},
+      {"host": "www.agodisha.gov.in", "http_status": 404, "disposition": "No record returned in this index query"}
+    ],
+    "excluded_attempt": "A prior domain-wildcard query returned unrelated URLs and supplies no evidence about the target report."
+  },
+  "unverified_filename_candidates": {
+    "method": "Four public GET attempts using two plausible central-CAG filename patterns in 2016 and 2017 directories",
+    "result": "All HTTP 403; no candidate payload verified. These guessed filenames are not source URLs and are not recommended for citation."
+  },
+  "rejected_substitute": {
+    "url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/download_audit_report/2022/Report%20No.%204%20of%202022_CCE_English_PDF-A-062f0f908256ef0.76318631.pdf",
+    "title": "CAG Report No. 4 of 2022, Conservation of Coastal Ecosystems",
+    "result": "Different report; relevant Pentha discussion and 675-metre proposal do not establish this is a copy of the 2016 audit or supply the cited 505-metre reduction. Not substituted."
+  },
+  "indexed_original": "Web reader still exposes the 146-page original with the report identity and printed-page-53 figures. This is not evidence of an anonymous reader-accessible download.",
+  "delivery": "No article or website changes made because no verified replacement was recovered. Existing truthful publisher-access note retained.",
+  "limit": "Bounded research outcome, not proof that no public copy or archive exists anywhere."
+}
