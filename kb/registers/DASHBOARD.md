@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8c7e7e80eb0aca831d081da56182a1429a155e8f03f39c34c88c9ac97c044ae2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e73789177eedc4e75fd9783e676f087ff22f716e475c444046ac457006ab6bde`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -438,6 +438,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-20261127001 · Add archived UNESCO fallback to Similipal source note | completed | published | Ahimanikya Satapathy | Completed; verified archive fallback is live in source note 4. | — |
 | POD-WORK-2026112791 · Research, review and publish Devagiri in Rayagada | completed | published | Ahimanikya Satapathy | Complete reviewed evidence-only receipt CI/merge, then return the reserved preparation-only slot. | — |
 | POD-WORK-20261127003 · Final live check of27 articles and remaining source repairs | completed | published | Ahimanikya Satapathy | Completed:27article audit and3source-note repairs published and verified. Pentha publisher-login limitation is disclosed. | — |
+| POD-WORK-20261127310 · Prepare Chakulia Panda and verse at the doorstep | completed | reviewed | Ahimanikya Satapathy | Reviewed original draft and credited photograph prepared; return slot after local commit. No website publication authorized. | — |
 
 ## Pending human review and decisions
 
@@ -804,6 +805,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-20261127001 · Publish reliable archived UNESCO fallback | recorded_direction | Ahimanikya Satapathy | One existing article source note, its research register and verified live delivery; zero programme credit. |
 | POD-DEC-2026112791 · Next hill article after completed Godabarish release and returned slot | recorded_direction | Ahimanikya Satapathy | Research, separately review and publish one uncovered hill destination with credited article and preview image. |
 | POD-DEC-20261127003 · Final live audit and repair of27 articles | recorded_direction | Ahimanikya Satapathy | Final maintenance audit of27existinglivearticles in /stories/odisha/; confirmed source/credit/layout repairs only. |
+| POD-DEC-20261127310 · Prepare one original Antaranga Kalinga lead after Devagiri | recorded_direction | Ahimanikya Satapathy | One original independently researched article and credited image; preparation only. |
 
 ## Reviews
 
@@ -1241,6 +1243,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-20261127001 | pass | True | — |
 | POD-REV-2026112791 | pass | True | — |
 | POD-REV-20261127003 | pass | True | — |
+| POD-REV-20261127310 | pass | True | — |
 
 ## Publication and application history
 
@@ -1576,8 +1579,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261126033 | 2026-11-26T08:29:03.551634+00:00 | PR890 merged after successful required CI; publication45770278816 succeeded. Eight live pages and 16 desktop/mobile views verified. Ten exact archived originals, one official replacement and one retained UNESCO primary source; UNESCO direct-client connection limitation and recovered Dhemsa rate limiting recorded. Zero programme credit. | — |
-| POD-EVT-2026112694 | 2026-11-26T17:04:26.187361+00:00 | PR888 reviewed head a8b701f8 passed required CI45771659710 attempt2, merged7920f716 and deployment45787473237 succeeded. Fresh root and separate live review passed with explicit encoding/framing limits. Evidence-only receipt still requires separate review, required CI and actual merge before reserved Godabarish handoff. Zero programme credit. | — |
 | POD-EVT-20261126306 | 2026-11-26T17:41:50.823518+00:00 | Accepted actual Mahavinayak receipt892 merge/explicit handoff; verified prepared Godabarish files and113 protected hashes. Sole publication scope now active; no delivery claim. | — |
 | POD-EVT-20261126307 | 2026-11-26T19:23:08.174720+00:00 | PR893 and deployment45878664614 succeeded; credited illustration, three incoming links and desktop/mobile delivery separately verified. Evidence-only receipt review/check/merge gates scope return. Zero programme credit. | — |
 | POD-EVT-20261127001 | 2026-11-26T19:12:26.244963+00:00 | User authorized a verified archive fallback beside the official UNESCO source in Similipal note 4. Reused prior access evidence and archive lead; bounded maintenance preserves foreign article ownership. Zero programme credit. | — |
@@ -1586,6 +1587,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026112792 | 2026-11-26T22:31:33.449377+00:00 | ReviewedPR898 passed requiredCI45897117216 attempt1, merged e078dcd6;deployment45900807100 attempt1 success. Fresh root and separate live review pass with raw differences/framing limits retained. ChandanYatraPR899 preserved. Evidence-only receipt still requires exact review/CI/actualmerge before reserved preparation-only handoff. Zero programme credit. | — |
 | POD-EVT-20261127003 | 2026-11-26T22:02:43.482673+00:00 | Fresh27article live audit authorized. Mobile/desktop measurements and image-credit checks pass; confirmedPakhala publisher404 sent for exact-source recovery. Preserve foreign ownership and zero programme credit. | — |
 | POD-EVT-20261127004 | 2026-11-26T23:17:46.033621+00:00 | PR900 and deployment45907723407 succeeded. Fresh27livepages/109notes/credits match;3repaired source notes rechecked mobile/desktop. Pentha originalpublisher-login limitation remains visible with distinct publiccompanion. No programmecredit or creator material. | — |
+| POD-EVT-20261127310 | 2026-11-27T00:17:01.448831+00:00 | Accepted explicit completed Devagiri receipt handoff and reserved preparation-only Chakulia Panda article after scoped coverage checks. Independent source research and authentic photograph verification assigned separately. | Prepare original prose, credited image and separate review; no publication authorized. |
+| POD-EVT-20261127311 | 2026-11-27T00:28:40.712040+00:00 | Prepared independently researched Chakulia Panda article and credited licensed photograph after separate source and integrated review. Prior113files and foreign ownership preserved; no site integration or programme credit. | Complete bounded record review, local commit and explicit slot return; future publication requires new instruction and capacity review. |
 
 ## Deferred extensions
 
